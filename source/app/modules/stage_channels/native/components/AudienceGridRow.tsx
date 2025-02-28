@@ -11,34 +11,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             entity = argFoo;
             oscard = entity.count;
-            report = new Array(0);
-            zuuluu = 0;
-            golfie = zuuluu < oscard;
-            michal = 5;
-            tangon = undefined;
+            entity = new Array(0);
+            report = 0;
+            golfie = report < oscard;
+            zuuluu = 5;
+            michal = undefined;
             if(!golfie) { _fun00002_ip = 76; continue _fun00001 }
  29:
-            option = report.push;
+            option = entity.push;
             offset = _closure1_slot4;
             verify = _closure1_slot0;
             golfie = _closure1_slot1;
-            golfie = golfie[michal];
-            verify = verify.bind(tangon)(golfie);
+            golfie = golfie[zuuluu];
+            verify = verify.bind(michal)(golfie);
             golfie = {};
-            golfie = offset.bind(tangon)(verify, golfie, zuuluu);
-            golfie = option.bind(report)(golfie);
-            zuuluu = zuuluu + 1;
-            if(zuuluu < oscard) { _fun00002_ip = 29; continue _fun00001 }
+            golfie = offset.bind(michal)(verify, golfie, report);
+            golfie = option.bind(entity)(golfie);
+            report = report + 1;
+            if(report < oscard) { _fun00002_ip = 29; continue _fun00001 }
  76:
-            zuuluu = _closure1_slot4;
-            michal = _closure1_slot5;
-            entity = {};
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    var _closure1_slot8 = michal;
+    var _closure1_slot7 = michal;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -67,14 +62,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = oscard.bind(entity)(verify);
     verify = verify.jsx;
     var _closure1_slot4 = verify;
-    verify = golfie[report];
-    verify = oscard.bind(entity)(verify);
-    verify = verify.Fragment;
-    var _closure1_slot5 = verify;
     report = golfie[report];
     report = oscard.bind(entity)(report);
     report = report.jsxs;
-    var _closure1_slot6 = report;
+    var _closure1_slot5 = report;
     report = 4;
     report = golfie[report];
     offset = oscard.bind(entity)(report);
@@ -83,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     yankee = {'flex': 1, 'flexDirection': 'row', 'marginVertical': 16, 'paddingHorizontal': 4, 'justifyContent': 'space-between'};
     report['rowContainer'] = yankee;
     report = verify.bind(offset)(report);
-    var _closure1_slot7 = report;
+    var _closure1_slot6 = report;
     report = option.memo;
     tangon = function(argFoo) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -100,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  36:
             entity = entity.theme;
             var _closure2_slot1 = entity;
-            entity = _closure1_slot7;
+            entity = _closure1_slot6;
             oscard = entity.bind(tangon)();
             option = 0;
             offset = 0;
@@ -110,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = verify.length;
             offset = michal - entity;
  77:
-            zuuluu = _closure1_slot6;
+            zuuluu = _closure1_slot5;
             michal = _closure1_slot2;
             entity = {};
             yankee = oscard.rowContainer;
@@ -152,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!(offset > option)) { _fun00004_ip = 179; continue _fun00003 }
  159:
             verify = _closure1_slot4;
-            option = _closure1_slot8;
+            option = _closure1_slot7;
             golfie = {};
             golfie['count'] = offset;
             oscard = verify.bind(tangon)(option, golfie);

@@ -146,6 +146,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity['applicationId'] = zuuluu;
                 zuuluu = michal.application;
                 entity['application'] = zuuluu;
+                zuuluu = michal.eligiblePaymentGateways;
+                entity['eligiblePaymentGateways'] = zuuluu;
                 zuuluu = michal.productLine;
                 entity['productLine'] = zuuluu;
                 zuuluu = michal.name;
@@ -195,10 +197,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = michal.flags;
                 entity['flags'] = zuuluu;
                 zuuluu = michal.externalPurchaseUrl;
-                if(zuuluu) { _fun00006_ip = 379; continue _fun00005 }
- 377:
+                if(zuuluu) { _fun00006_ip = 391; continue _fun00005 }
+ 389:
                 zuuluu = null;
- 379:
+ 391:
                 entity['externalPurchaseUrl'] = zuuluu;
                 zuuluu = michal.deleted;
                 entity['deleted'] = zuuluu;
@@ -653,22 +655,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = golfie.bind(verify)(oscard);
  85:
                 entity['application'] = report;
+                oscard = michal.eligible_payment_gateways;
+                golfie = tangon != oscard;
+                report = null;
+                if(!golfie) { _fun00028_ip = 109; continue _fun00027 }
+ 106:
+                report = oscard;
+ 109:
+                entity['eligiblePaymentGateways'] = report;
                 report = michal.product_line;
                 entity['productLine'] = report;
                 golfie = michal.name;
                 verify = tangon != golfie;
                 report = '';
                 oscard = report;
-                if(!verify) { _fun00028_ip = 122; continue _fun00027 }
- 119:
+                if(!verify) { _fun00028_ip = 147; continue _fun00027 }
+ 144:
                 oscard = golfie;
- 122:
+ 147:
                 entity['name'] = oscard;
                 oscard = michal.release_date;
                 golfie = tangon != oscard;
                 oscard = null;
-                if(!golfie) { _fun00028_ip = 177; continue _fun00027 }
- 141:
+                if(!golfie) { _fun00028_ip = 202; continue _fun00027 }
+ 166:
                 verify = _closure1_slot1;
                 offset = _closure1_slot2;
                 golfie = 9;
@@ -677,13 +687,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 verify = verify.bind(offset)(golfie);
                 golfie = michal.release_date;
                 oscard = verify.bind(offset)(golfie);
- 177:
+ 202:
                 entity['releaseDate'] = oscard;
                 oscard = michal.preorder_release_at;
                 golfie = tangon != oscard;
                 oscard = null;
-                if(!golfie) { _fun00028_ip = 233; continue _fun00027 }
- 197:
+                if(!golfie) { _fun00028_ip = 258; continue _fun00027 }
+ 222:
                 verify = _closure1_slot1;
                 offset = _closure1_slot2;
                 golfie = 9;
@@ -692,7 +702,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 verify = verify.bind(offset)(golfie);
                 golfie = michal.preorder_release_at;
                 oscard = verify.bind(offset)(golfie);
- 233:
+ 258:
                 entity['preorderReleaseAt'] = oscard;
                 oscard = michal.preorder_approximate_release_date;
                 entity['preorderApproximateReleaseDate'] = oscard;
@@ -733,8 +743,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity['legalNotice'] = oscard;
                 golfie = tangon != option;
                 oscard = null;
-                if(!golfie) { _fun00028_ip = 507; continue _fun00027 }
- 443:
+                if(!golfie) { _fun00028_ip = 532; continue _fun00027 }
+ 468:
                 golfie = {};
                 verify = option.amount;
                 golfie['amount'] = verify;
@@ -747,45 +757,45 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 option = option.premium;
                 golfie['premium'] = option;
                 oscard = golfie;
- 507:
+ 532:
                 entity['price'] = oscard;
                 golfie = michal.premium;
                 oscard = tangon != golfie;
-                if(!oscard) { _fun00028_ip = 528; continue _fun00027 }
- 525:
+                if(!oscard) { _fun00028_ip = 553; continue _fun00027 }
+ 550:
                 oscard = golfie;
- 528:
+ 553:
                 entity['premium'] = oscard;
                 oscard = michal.show_age_gate;
-                if(oscard) { _fun00028_ip = 544; continue _fun00027 }
- 542:
+                if(oscard) { _fun00028_ip = 569; continue _fun00027 }
+ 567:
                 oscard = false;
- 544:
+ 569:
                 entity['showAgeGate'] = oscard;
                 oscard = michal.restricted;
-                if(oscard) { _fun00028_ip = 560; continue _fun00027 }
- 558:
+                if(oscard) { _fun00028_ip = 585; continue _fun00027 }
+ 583:
                 oscard = false;
- 560:
+ 585:
                 entity['restricted'] = oscard;
                 oscard = michal.slug;
                 golfie = tangon != oscard;
-                if(!golfie) { _fun00028_ip = 581; continue _fun00027 }
- 578:
+                if(!golfie) { _fun00028_ip = 606; continue _fun00027 }
+ 603:
                 report = oscard;
- 581:
+ 606:
                 entity['slug'] = report;
                 report = michal.exclusive;
-                if(report) { _fun00028_ip = 597; continue _fun00027 }
- 595:
+                if(report) { _fun00028_ip = 622; continue _fun00027 }
+ 620:
                 report = false;
- 597:
+ 622:
                 entity['exclusive'] = report;
                 report = michal.locales;
-                if(!(tangon == report)) { _fun00028_ip = 622; continue _fun00027 }
- 612:
+                if(!(tangon == report)) { _fun00028_ip = 647; continue _fun00027 }
+ 637:
                 report = ['en-US'];
- 622:
+ 647:
                 entity['locales'] = report;
                 report = michal.flags;
                 entity['flags'] = report;
@@ -793,16 +803,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity['externalPurchaseUrl'] = report;
                 oscard = michal.deleted;
                 report = tangon != oscard;
-                if(!report) { _fun00028_ip = 665; continue _fun00027 }
- 662:
+                if(!report) { _fun00028_ip = 690; continue _fun00027 }
+ 687:
                 report = oscard;
- 665:
+ 690:
                 entity['deleted'] = report;
                 michal = michal.bundled_sku_ids;
-                if(!(tangon == michal)) { _fun00028_ip = 684; continue _fun00027 }
- 680:
+                if(!(tangon == michal)) { _fun00028_ip = 709; continue _fun00027 }
+ 705:
                 michal = new Array(0);
- 684:
+ 709:
                 entity['bundledSkuIds'] = michal;
                 michal = zuuluu.prototype;
                 michal = Object.create(michal, {constructor: {value: zuuluu}});

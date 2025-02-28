@@ -376,7 +376,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = undefined;
             if(romeon) { _fun00002_ip = 627; continue _fun00001 }
  621:
-            yankee = offset.gestureRef;
+            yankee = offset.gesture;
  627:
             report['simultaneousHandlers'] = yankee;
             offset = option != offset;

@@ -93,10 +93,10 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity['imgAlt'] = zuuluu;
         zuuluu = 1;
         zuuluu = oscard[zuuluu];
-        zuuluu = report.bind(tangon)(zuuluu);
-        zuuluu = zuuluu.PALETTES;
+        tangon = report.bind(tangon)(zuuluu);
+        zuuluu = tangon.getNameplatePalette;
         michal = michal.palette;
-        michal = zuuluu[michal];
+        michal = zuuluu.bind(tangon)(michal);
         entity['palette'] = michal;
         return entity;
     };

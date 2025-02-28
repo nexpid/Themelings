@@ -27,72 +27,74 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = 'modules/messages/CtaButtonUtils.tsx';
     report = oscard.bind(golfie)(report);
     zuuluu['CtaButtonType'] = tangon;
-    tangon = function(argFoo) { // Original name: getCtaButtonType
+    tangon = function(argFoo, argBar) { // Original name: getCtaButtonType
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
+            oscard = argFoo;
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
             entity = 0;
             zuuluu = zuuluu[entity];
             entity = undefined;
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.shouldRenderReportFalsePositiveButton;
-            zuuluu = argFoo;
-            zuuluu = tangon.bind(report)(zuuluu);
-            if(zuuluu) { _fun00002_ip = 88; continue _fun00001 }
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.shouldRenderReportFalsePositiveButton;
+            zuuluu = zuuluu.bind(tangon)(oscard);
+            if(zuuluu) { _fun00002_ip = 93; continue _fun00001 }
  41:
             tangon = _closure1_slot0;
             report = _closure1_slot1;
             zuuluu = 1;
             zuuluu = report[zuuluu];
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.canRetryTiggerPawtect;
-            zuuluu = zuuluu.bind(tangon)();
+            report = tangon.bind(entity)(zuuluu);
+            tangon = report.shouldRenderAgeVerificationRetryCta;
+            zuuluu = argBar;
+            zuuluu = tangon.bind(report)(zuuluu, oscard);
             entity = undefined;
-            if(!zuuluu) { _fun00002_ip = 86; continue _fun00001 }
- 76:
+            if(!zuuluu) { _fun00002_ip = 91; continue _fun00001 }
+ 81:
             zuuluu = _closure1_slot2;
             entity = zuuluu.AGE_VERIFICATION_RETRY;
- 86:
-            _fun00002_ip = 98; continue _fun00001;
- 88:
+ 91:
+            _fun00002_ip = 103; continue _fun00001;
+ 93:
             michal = _closure1_slot2;
             entity = michal.MARK_AS_FALSE_POSITIVE;
- 98:
+ 103:
             return entity;
         }
     };
     zuuluu['getCtaButtonType'] = tangon;
-    michal = function(argFoo) { // Original name: useCtaButtonType
+    michal = function(argFoo, argBar) { // Original name: useCtaButtonType
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
+            golfie = argFoo;
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
             zuuluu = oscard[entity];
             entity = undefined;
-            golfie = report.bind(entity)(zuuluu);
-            tangon = golfie.useShouldRenderReportFalsePositiveButton;
-            zuuluu = argFoo;
-            tangon = tangon.bind(golfie)(zuuluu);
+            tangon = report.bind(entity)(zuuluu);
+            zuuluu = tangon.useShouldRenderReportFalsePositiveButton;
+            tangon = zuuluu.bind(tangon)(golfie);
             zuuluu = 1;
             zuuluu = oscard[zuuluu];
-            report = report.bind(entity)(zuuluu);
-            zuuluu = report.useCanRetryTiggerPawtect;
-            zuuluu = zuuluu.bind(report)();
-            if(tangon) { _fun00004_ip = 80; continue _fun00003 }
- 63:
-            entity = undefined;
-            if(!zuuluu) { _fun00004_ip = 78; continue _fun00003 }
+            oscard = report.bind(entity)(zuuluu);
+            report = oscard.useRenderAgeVerificationRetryCta;
+            zuuluu = argBar;
+            zuuluu = report.bind(oscard)(zuuluu, golfie);
+            if(tangon) { _fun00004_ip = 85; continue _fun00003 }
  68:
+            entity = undefined;
+            if(!zuuluu) { _fun00004_ip = 83; continue _fun00003 }
+ 73:
             zuuluu = _closure1_slot2;
             entity = zuuluu.AGE_VERIFICATION_RETRY;
- 78:
-            _fun00004_ip = 90; continue _fun00003;
- 80:
+ 83:
+            _fun00004_ip = 95; continue _fun00003;
+ 85:
             michal = _closure1_slot2;
             entity = michal.MARK_AS_FALSE_POSITIVE;
- 90:
+ 95:
             return entity;
         }
     };

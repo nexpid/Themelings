@@ -23,10 +23,10 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
  0:
             report = argFoo;
             entity = null;
-            if(!(entity != report)) { _fun00002_ip = 122; continue _fun00001 }
+            if(!(entity != report)) { _fun00002_ip = 118; continue _fun00001 }
  9:
             michal = '';
-            if(!(michal !== report)) { _fun00002_ip = 122; continue _fun00001 }
+            if(!(michal !== report)) { _fun00002_ip = 118; continue _fun00001 }
  17:
             zuuluu = global;
             michal = zuuluu.Date;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = zuuluu.Date;
             tangon = oscard instanceof michal;
             michal = null;
-            if(!tangon) { _fun00002_ip = 120; continue _fun00001 }
+            if(!tangon) { _fun00002_ip = 116; continue _fun00001 }
  63:
             report = zuuluu.isNaN;
             zuuluu = oscard.getTime;
@@ -47,15 +47,15 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = undefined;
             zuuluu = report.bind(zuuluu)(tangon);
             michal = null;
-            if(zuuluu) { _fun00002_ip = 120; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 116; continue _fun00001 }
  91:
             report = oscard.toLocaleDateString;
             tangon = argBar;
             zuuluu = {'year': 'numeric', 'month': 'short'};
             michal = report.bind(oscard)(tangon, zuuluu);
- 120:
+ 116:
             return michal;
- 122:
+ 118:
             return entity;
         }
     };

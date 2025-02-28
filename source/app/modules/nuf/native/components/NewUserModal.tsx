@@ -39,20 +39,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = report.bind(entity)(golfie);
     golfie = golfie.jsx;
     var _closure1_slot8 = golfie;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.Fragment;
-    var _closure1_slot9 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsxs;
-    var _closure1_slot10 = tangon;
+    var _closure1_slot9 = tangon;
     tangon = 4;
     tangon = oscard[tangon];
     golfie = report.bind(entity)(tangon);
     tangon = golfie.createNativeStackNavigator;
     tangon = tangon.bind(golfie)();
-    var _closure1_slot11 = tangon;
+    var _closure1_slot10 = tangon;
     tangon = 5;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
@@ -67,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify['backgroundColor'] = offset;
     tangon['header'] = verify;
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot12 = tangon;
+    var _closure1_slot11 = tangon;
     tangon = 24;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -80,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = argFoo;
             golfie = entity.initialRouteName;
             kiloes = entity.initialOnboardingStepIndex;
-            entity = _closure1_slot12;
+            entity = _closure1_slot11;
             tangon = undefined;
             entity = entity.bind(tangon)();
             var _closure2_slot0 = entity;
@@ -340,8 +336,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = new Array(0);
             entity = option.bind(yankee)(oscard, entity);
             entity = michal.bind(zuuluu)(entity);
-            zuuluu = _closure1_slot10;
-            entity = _closure1_slot11;
+            zuuluu = _closure1_slot9;
+            entity = _closure1_slot10;
             michal = entity.Navigator;
             entity = {};
             oscard = function(argFoo) { // Original name: screenOptions
@@ -356,20 +352,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = tangon.header;
                     entity['headerStyle'] = tangon;
                     tangon = function() { // Original name: headerLeft
-                        tangon = _closure1_slot8;
-                        zuuluu = _closure1_slot9;
-                        michal = undefined;
-                        entity = {};
-                        entity = tangon.bind(michal)(zuuluu, entity);
+                        entity = null;
                         return entity;
                     };
                     entity['headerLeft'] = tangon;
                     zuuluu = function() { // Original name: headerRight
-                        tangon = _closure1_slot8;
-                        zuuluu = _closure1_slot9;
-                        michal = undefined;
-                        entity = {};
-                        entity = tangon.bind(michal)(zuuluu, entity);
+                        entity = null;
                         return entity;
                     };
                     entity['headerRight'] = zuuluu;
@@ -406,7 +394,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  371:
             entity['initialRouteName'] = oscard;
             option = _closure1_slot8;
-            oscard = _closure1_slot11;
+            oscard = _closure1_slot10;
             golfie = oscard.Screen;
             report = {};
             yankee = 'enable-notification';

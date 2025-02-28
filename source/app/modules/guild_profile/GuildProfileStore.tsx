@@ -762,7 +762,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     tangon['CREATE_CHANNEL_MODAL_SUBMIT'] = offset;
-    report = function(argFoo) { // Original name: handleSetWidget
+    offset = function(argFoo) { // Original name: handleSetWidget
         _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
  0:
             entity = argFoo;
@@ -784,7 +784,74 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    tangon['GUILD_SETTINGS_SET_WIDGET'] = report;
+    tangon['GUILD_SETTINGS_SET_WIDGET'] = offset;
+    report = function(argFoo) { // Original name: handleGuildUpdate
+        _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
+ 0:
+            entity = argFoo;
+            entity = entity.guild;
+            report = _closure1_slot9;
+            tangon = report.get;
+            zuuluu = entity.id;
+            report = tangon.bind(report)(zuuluu);
+            tangon = null;
+            if(!(tangon != report)) { _fun00036_ip = 207; continue _fun00035 }
+ 39:
+            zuuluu = report.profile;
+            if(!(tangon != zuuluu)) { _fun00036_ip = 207; continue _fun00035 }
+ 52:
+            oscard = {};
+            verify = report.profile;
+            offset = oscard;
+            zuuluu = copyDataProperties(offset, verify);
+            golfie = entity.name;
+            zuuluu = 'name';
+            oscard[zuuluu] = golfie;
+            zuuluu = entity.icon;
+            option = tangon != zuuluu;
+            golfie = null;
+            if(!option) { _fun00036_ip = 98; continue _fun00035 }
+ 95:
+            golfie = zuuluu;
+ 98:
+            zuuluu = 'icon';
+            oscard[zuuluu] = golfie;
+            zuuluu = entity.description;
+            option = tangon != zuuluu;
+            golfie = '';
+            if(!option) { _fun00036_ip = 126; continue _fun00035 }
+ 123:
+            golfie = zuuluu;
+ 126:
+            zuuluu = 'description';
+            oscard[zuuluu] = golfie;
+            zuuluu = entity.discovery_splash;
+            golfie = tangon != zuuluu;
+            tangon = null;
+            if(!golfie) { _fun00036_ip = 153; continue _fun00035 }
+ 150:
+            tangon = zuuluu;
+ 153:
+            zuuluu = 'customBanner';
+            oscard[zuuluu] = tangon;
+            tangon = _closure1_slot9;
+            zuuluu = tangon.set;
+            michal = entity.id;
+            entity = {};
+            offset = entity;
+            verify = report;
+            report = copyDataProperties(offset, verify);
+            report = 'profile';
+            entity[report] = oscard;
+            entity = zuuluu.bind(tangon)(michal, entity);
+            entity = undefined;
+            return entity;
+ 207:
+            entity = false;
+            return entity;
+        }
+    };
+    tangon['GUILD_UPDATE'] = report;
     report = verify.prototype;
     report = Object.create(report, {constructor: {value: verify}});
     backup = report;

@@ -477,10 +477,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         kiloes = oscard.bind(entity)(backup);
         backup = kiloes.isIOS;
         backup = backup.bind(kiloes)();
-        if(!backup) { _fun00002_ip = 601; continue _fun00001 }
- 595:
+        if(!backup) { _fun00002_ip = 597; continue _fun00001 }
+ 591:
         foxtra = 'baseline';
- 601:
+ 597:
         offset['alignItems'] = foxtra;
         report['subTitleContainer'] = offset;
         offset = {'lineHeight': 16, 'flexShrink': 1};

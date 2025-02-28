@@ -485,8 +485,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = {'keyCode': 0, 'metaKey': false, 'shiftKey': false, 'altKey': false, 'ctrlKey': false};
                 var _closure2_slot0 = michal;
                 michal = null;
-                if(!(michal != tangon)) { _fun00012_ip = 50; continue _fun00011 }
- 25:
+                if(!(michal != tangon)) { _fun00012_ip = 54; continue _fun00011 }
+ 29:
                 zuuluu = tangon.reduce;
                 michal = function(argFoo, argBar) {
                     _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
@@ -552,10 +552,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 entity = new Array(0);
                 entity = zuuluu.bind(tangon)(michal, entity);
-                _fun00012_ip = 54; continue _fun00011;
- 50:
-                entity = new Array(0);
+                _fun00012_ip = 58; continue _fun00011;
  54:
+                entity = new Array(0);
+ 58:
                 return entity;
             }
         };

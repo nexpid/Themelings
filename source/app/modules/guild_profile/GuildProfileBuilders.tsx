@@ -361,22 +361,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = michal.id;
             report = michal.traits;
             zuuluu = null;
-            if(!(zuuluu == report)) { _fun00012_ip = 127; continue _fun00011 }
- 123:
+            if(!(zuuluu == report)) { _fun00012_ip = 125; continue _fun00011 }
+ 121:
             report = new Array(0);
- 127:
+ 125:
             tangon = undefined;
             tangon = golfie.bind(tangon)(oscard, report);
             entity['traits'] = tangon;
             tangon = michal.game_application_ids;
-            if(!(zuuluu == tangon)) { _fun00012_ip = 154; continue _fun00011 }
- 150:
+            if(!(zuuluu == tangon)) { _fun00012_ip = 152; continue _fun00011 }
+ 148:
             tangon = new Array(0);
- 154:
+ 152:
             entity['gameApplicationIds'] = tangon;
             oscard = michal.game_activity;
-            if(!(zuuluu != oscard)) { _fun00012_ip = 211; continue _fun00011 }
- 169:
+            if(!(zuuluu != oscard)) { _fun00012_ip = 209; continue _fun00011 }
+ 167:
             tangon = global;
             report = tangon.Object;
             tangon = report.entries;
@@ -428,16 +428,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             tangon = {};
             tangon = oscard.bind(golfie)(report, tangon);
-            _fun00012_ip = 213; continue _fun00011;
- 211:
+            _fun00012_ip = 211; continue _fun00011;
+ 209:
             tangon = {};
- 213:
+ 211:
             entity['gameActivity'] = tangon;
             michal = michal.features;
-            if(!(zuuluu == michal)) { _fun00012_ip = 232; continue _fun00011 }
- 228:
+            if(!(zuuluu == michal)) { _fun00012_ip = 230; continue _fun00011 }
+ 226:
             michal = new Array(0);
- 232:
+ 230:
             entity['features'] = michal;
             return entity;
         }

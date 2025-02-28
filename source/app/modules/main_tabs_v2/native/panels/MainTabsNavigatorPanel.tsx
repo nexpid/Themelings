@@ -93,10 +93,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot14 = michal;
     report = option.createContext;
     michal = {};
-    verify = {};
-    verify['current'] = entity;
-    michal['gestureRef'] = verify;
     verify = 9;
+    verify = golfie[verify];
+    verify = oscard.bind(entity)(verify);
+    offset = verify.Gesture;
+    verify = offset.Pan;
+    verify = verify.bind(offset)();
+    michal['gesture'] = verify;
+    verify = 10;
     offset = golfie[verify];
     foxtra = oscard.bind(entity)(offset);
     romeon = foxtra.createFakeSharedValue;
@@ -123,27 +127,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = michal.bind(tangon)();
             option = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            michal = 10;
+            michal = 11;
             michal = zuuluu[michal];
             report = option.bind(tangon)(michal);
             michal = report.useNavigation;
             michal = michal.bind(report)();
             var _closure2_slot0 = michal;
             oscard = _closure1_slot1;
-            report = 11;
+            report = 12;
             report = zuuluu[report];
             report = oscard.bind(tangon)(report);
             golfie = report.bind(tangon)();
             report = golfie.isChatBesideChannelList;
             echoed = golfie.isChatLockedOpen;
             var _closure2_slot1 = echoed;
-            golfie = 12;
+            golfie = 13;
             golfie = zuuluu[golfie];
             option = option.bind(tangon)(golfie);
             golfie = option.useDrawerWidth;
             foxtra = golfie.bind(option)();
             var _closure2_slot2 = foxtra;
-            golfie = 13;
+            golfie = 14;
             golfie = zuuluu[golfie];
             golfie = oscard.bind(tangon)(golfie);
             config = golfie.bind(tangon)();
@@ -171,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu['current'] = michal;
                     report = _closure1_slot0;
                     tangon = _closure1_slot2;
-                    zuuluu = 14;
+                    zuuluu = 15;
                     tangon = tangon[zuuluu];
                     zuuluu = undefined;
                     zuuluu = report.bind(zuuluu)(tangon);
@@ -193,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             golfie = verify.bind(kiloes)(golfie, option);
-            backup = 15;
+            backup = 16;
             zuuluu = zuuluu[backup];
             zuuluu = oscard.bind(tangon)(zuuluu);
             sequen = zuuluu.bind(tangon)(michal);
@@ -215,7 +219,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  31:
                     zuuluu = _closure1_slot0;
                     report = _closure1_slot2;
-                    entity = 15;
+                    entity = 16;
                     entity = report[entity];
                     entity = zuuluu.bind(tangon)(entity);
                     entity = entity.ChannelScreenType;
@@ -308,7 +312,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = function() {
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
-                entity = 15;
+                entity = 16;
                 michal = michal[entity];
                 entity = undefined;
                 zuuluu = zuuluu.bind(entity)(michal);
@@ -343,7 +347,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure2_slot11;
                     tangon = _closure1_slot0;
                     michal = _closure1_slot2;
-                    entity = 15;
+                    entity = 16;
                     michal = michal[entity];
                     entity = undefined;
                     report = tangon.bind(entity)(michal);
@@ -437,7 +441,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon['current'] = zuuluu;
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
-                    zuuluu = 16;
+                    zuuluu = 17;
                     zuuluu = report[zuuluu];
                     tangon = tangon.bind(entity)(zuuluu);
                     zuuluu = tangon.transitionToChannel;
@@ -454,7 +458,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = function() {
                 zuuluu = _closure1_slot0;
                 tangon = _closure1_slot2;
-                entity = 17;
+                entity = 18;
                 report = tangon[entity];
                 entity = undefined;
                 report = zuuluu.bind(entity)(report);
@@ -463,7 +467,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = _closure1_slot8;
                 michal = michal.BOTTOM_CHANNEL_SCREEN_DRAG_START;
                 michal = report.bind(oscard)(michal);
-                michal = 18;
+                michal = 19;
                 michal = tangon[michal];
                 zuuluu = zuuluu.bind(entity)(michal);
                 michal = zuuluu.dismissKeyboard;
@@ -474,7 +478,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.bind(option)(report, michal);
             report = _closure1_slot1;
             option = _closure1_slot2;
-            michal = 19;
+            michal = 20;
             michal = option[michal];
             report = report.bind(tangon)(michal);
             michal = {};
@@ -610,7 +614,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  77:
                     offset = _closure1_slot0;
                     yankee = _closure1_slot2;
-                    michal = 15;
+                    michal = 16;
                     michal = yankee[michal];
                     michal = offset.bind(zuuluu)(michal);
                     michal = michal.ChannelScreenType;
@@ -632,7 +636,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  154:
                     oscard = _closure1_slot0;
                     option = _closure1_slot2;
-                    tangon = 18;
+                    tangon = 19;
                     tangon = option[tangon];
                     oscard = oscard.bind(zuuluu)(tangon);
                     tangon = oscard.dismissKeyboard;
@@ -709,7 +713,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  36:
                     report = _closure1_slot0;
                     option = _closure1_slot2;
-                    zuuluu = 15;
+                    zuuluu = 16;
                     zuuluu = option[zuuluu];
                     zuuluu = report.bind(entity)(zuuluu);
                     zuuluu = zuuluu.ChannelScreenType;
@@ -718,7 +722,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  75:
                     tangon = _closure1_slot1;
                     report = _closure1_slot2;
-                    zuuluu = 20;
+                    zuuluu = 21;
                     zuuluu = report[zuuluu];
                     report = tangon.bind(entity)(zuuluu);
                     tangon = report.preload;
@@ -752,14 +756,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = verify.bind(offset)(michal, oscard);
             verify = _closure1_slot1;
             michal = _closure1_slot2;
-            oscard = 21;
+            oscard = 22;
             oscard = michal[oscard];
             oscard = verify.bind(tangon)(oscard);
             limora = oscard.bind(tangon)();
             oscard = _closure1_slot10;
             sierra = oscard.MIDNIGHT;
             oscard = _closure1_slot0;
-            cntext = 22;
+            cntext = 23;
             michal = michal[cntext];
             oscard = oscard.bind(tangon)(michal);
             michal = oscard.useMainTabsChannelScreenStyles;
@@ -786,7 +790,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  1088:
             michal = _closure1_slot0;
             offset = _closure1_slot2;
-            sizing = 23;
+            sizing = 24;
             zuuluu = offset[sizing];
             oscard = michal.bind(tangon)(zuuluu);
             zuuluu = oscard.useAnimatedStyle;
@@ -816,7 +820,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['__initData'] = option;
             kiloes = zuuluu.bind(oscard)(entity);
             zuuluu = _closure1_slot11;
-            entity = 24;
+            entity = 9;
             entity = offset[entity];
             entity = michal.bind(tangon)(entity);
             michal = entity.GestureDetector;

@@ -57,10 +57,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['subLabel'] = kiloes;
             foxtra = foxtra.size;
             foxtra = foxtra >= backup;
-            if(!foxtra) { _fun00002_ip = 236; continue _fun00001 }
- 233:
+            if(!foxtra) { _fun00002_ip = 240; continue _fun00001 }
+ 237:
             foxtra = !romeon;
- 236:
+ 240:
             report['disabled'] = foxtra;
             report['selected'] = romeon;
             yankee = function() { // Original name: onPress
@@ -75,8 +75,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = new Array(2);
             report[0] = oscard;
             oscard = null;
-            if(!option) { _fun00002_ip = 317; continue _fun00001 }
- 275:
+            if(!option) { _fun00002_ip = 321; continue _fun00001 }
+ 279:
             verify = _closure1_slot10;
             option = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.dividerIconPush;
             golfie['style'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 317:
+ 321:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

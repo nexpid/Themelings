@@ -882,10 +882,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             oscard = tangon.setNoiseCancellation;
             report = michal.noiseCancellation;
             report = oscard.bind(tangon)(report);
-            oscard = tangon.setVoiceFiltersEnabled;
-            golfie = _closure1_slot94;
-            report = null;
-            report = report !== golfie;
+            oscard = tangon.setVoiceFilterId;
+            report = _closure1_slot94;
             report = oscard.bind(tangon)(report);
             report = _closure1_slot0;
             oscard = _closure1_slot3;
@@ -894,17 +892,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             report = report.bind(entity)(zuuluu);
             zuuluu = report.isWeb;
             zuuluu = zuuluu.bind(report)();
-            if(!zuuluu) { _fun00028_ip = 232; continue _fun00027 }
- 198:
+            if(!zuuluu) { _fun00028_ip = 226; continue _fun00027 }
+ 192:
             michal = michal.noiseCancellation;
             zuuluu = -100;
-            if(!michal) { _fun00028_ip = 219; continue _fun00027 }
- 213:
+            if(!michal) { _fun00028_ip = 213; continue _fun00027 }
+ 207:
             zuuluu = -150;
- 219:
+ 213:
             michal = tangon.setSilenceThreshold;
             michal = michal.bind(tangon)(zuuluu);
- 232:
+ 226:
             return entity;
         }
     };
@@ -9196,20 +9194,18 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     michal['MEDIA_ENGINE_SET_ENABLE_HARDWARE_MUTE_NOTICE'] = offset;
     offset = function(argFoo) { // Original name: handleVoiceFilterRequestSwitch
         entity = argFoo;
-        report = entity.newVoiceFilterId;
-        oscard = _closure1_slot128;
+        entity = entity.newVoiceFilterId;
+        var _closure2_slot0 = entity;
+        report = _closure1_slot128;
         tangon = {};
-        tangon['mostRecentlyRequestedVoiceFilter'] = report;
+        tangon['mostRecentlyRequestedVoiceFilter'] = entity;
         entity = undefined;
-        tangon = oscard.bind(entity)(tangon);
-        tangon = null;
-        tangon = tangon != report;
-        var _closure2_slot0 = tangon;
+        tangon = report.bind(entity)(tangon);
         tangon = _closure1_slot64;
         zuuluu = tangon.eachConnection;
         michal = function(argFoo) {
             zuuluu = argFoo;
-            michal = zuuluu.setVoiceFiltersEnabled;
+            michal = zuuluu.setVoiceFilterId;
             entity = _closure2_slot0;
             entity = michal.bind(zuuluu)(entity);
             return entity;
@@ -9262,13 +9258,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             _closure1_slot97 = entity;
             _closure1_slot94 = zuuluu;
             entity = null;
-            if(!(entity !== zuuluu)) { _fun00252_ip = 57; continue _fun00251 }
- 40:
+            if(!(entity !== zuuluu)) { _fun00252_ip = 55; continue _fun00251 }
+ 38:
             zuuluu = global;
             tangon = zuuluu.Date;
             zuuluu = tangon.now;
             entity = zuuluu.bind(tangon)();
- 57:
+ 55:
             _closure1_slot95 = entity;
             entity = undefined;
             return entity;

@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.Colors;
     var _closure1_slot12 = tangon;
-    tangon = 16;
+    tangon = 17;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -65,11 +65,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) { // Original name: createMediaPostPreviewEmbedContent
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            option = arguments[1];
+            golfie = arguments[1];
             verify = undefined;
-            if(!(option === verify)) { _fun00002_ip = 11; continue _fun00001 }
+            if(!(golfie === verify)) { _fun00002_ip = 11; continue _fun00001 }
  9:
-            option = false;
+            golfie = false;
  11:
             michal = _closure1_slot0;
             entity = _closure1_slot2;
@@ -80,14 +80,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argFoo;
             oscard = michal.bind(tangon)(entity);
             entity = null;
-            if(!(entity != oscard)) { _fun00002_ip = 1575; continue _fun00001 }
+            if(!(entity != oscard)) { _fun00002_ip = 1603; continue _fun00001 }
  57:
             tangon = _closure1_slot10;
             michal = tangon.getEmbedFetchState;
             tangon = michal.bind(tangon)(oscard);
             michal = _closure1_slot11;
             michal = michal.FETCHED;
-            if(!(tangon === michal)) { _fun00002_ip = 1573; continue _fun00001 }
+            if(!(tangon === michal)) { _fun00002_ip = 1601; continue _fun00001 }
  89:
             tangon = _closure1_slot10;
             michal = tangon.getMediaPostEmbed;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  113:
             backup = michal.media;
  119:
-            if(!(entity != backup)) { _fun00002_ip = 1571; continue _fun00001 }
+            if(!(entity != backup)) { _fun00002_ip = 1599; continue _fun00001 }
  126:
             oscard = _closure1_slot7;
             tangon = oscard.getGuild;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = tangon.bind(oscard)(michal);
             tangon = _closure1_slot8;
             michal = tangon.getGuildId;
-            golfie = michal.bind(tangon)();
+            option = michal.bind(tangon)();
             oscard = entity != yankee;
             if(!oscard) { _fun00002_ip = 253; continue _fun00001 }
  222:
@@ -140,10 +140,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['parentChannel'] = yankee;
             michal['postThread'] = offset;
             michal['user'] = romeon;
-            michal['selectedGuildId'] = golfie;
+            michal['selectedGuildId'] = option;
             michal['canAccess'] = oscard;
             oscard = tangon.bind(report)(michal);
-            if(!(entity != oscard)) { _fun00002_ip = 1569; continue _fun00001 }
+            if(!(entity != oscard)) { _fun00002_ip = 1597; continue _fun00001 }
  323:
             michal = oscard.authorName;
             if(!(entity != michal)) { _fun00002_ip = 573; continue _fun00001 }
@@ -172,9 +172,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(!michal) { _fun00002_ip = 442; continue _fun00001 }
  418:
             tangon = _closure1_slot4;
-            golfie = entity == report;
+            option = entity == report;
             michal = undefined;
-            if(golfie) { _fun00002_ip = 437; continue _fun00001 }
+            if(option) { _fun00002_ip = 437; continue _fun00001 }
  431:
             michal = report.colorString;
  437:
@@ -185,8 +185,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = 10;
             report = offset[michal];
             report = tangon.bind(verify)(report);
-            golfie = report.intl;
-            report = golfie.formatToParts;
+            option = report.intl;
+            report = option.formatToParts;
             michal = offset[michal];
             michal = tangon.bind(verify)(michal);
             michal = michal.t;
@@ -206,16 +206,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['usernameOnClick'] = offset;
             offset = oscard.channelName;
             michal['channelName'] = offset;
-            report = report.bind(golfie)(tangon, michal);
+            report = report.bind(option)(tangon, michal);
             _fun00002_ip = 645; continue _fun00001;
  573:
             tangon = _closure1_slot0;
             yankee = _closure1_slot2;
             michal = 10;
-            golfie = yankee[michal];
-            golfie = tangon.bind(verify)(golfie);
-            offset = golfie.intl;
-            golfie = offset.formatToParts;
+            option = yankee[michal];
+            option = tangon.bind(verify)(option);
+            offset = option.intl;
+            option = offset.formatToParts;
             michal = yankee[michal];
             michal = tangon.bind(verify)(michal);
             michal = michal.t;
@@ -223,98 +223,104 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = {};
             yankee = oscard.guildName;
             michal['guildName'] = yankee;
-            report = golfie.bind(offset)(tangon, michal);
+            report = option.bind(offset)(tangon, michal);
  645:
             tangon = oscard.canAccess;
             michal = false;
             if(!(michal !== tangon)) { _fun00002_ip = 678; continue _fun00001 }
  657:
-            golfie = _closure1_slot4;
-            tangon = _closure1_slot12;
-            tangon = tangon.BRAND_500;
-            tangon = golfie.bind(verify)(tangon);
+            tangon = _closure1_slot4;
+            michal = _closure1_slot12;
+            michal = michal.BRAND_500;
+            tangon = tangon.bind(verify)(michal);
             _fun00002_ip = 697; continue _fun00001;
  678:
-            offset = _closure1_slot4;
-            golfie = _closure1_slot12;
-            golfie = golfie.TEAL_430;
-            tangon = offset.bind(verify)(golfie);
+            option = _closure1_slot4;
+            michal = _closure1_slot12;
+            michal = michal.TEAL_430;
+            tangon = option.bind(verify)(michal);
  697:
-            golfie = oscard.coverImage;
-            offset = entity != golfie;
-            if(!offset) { _fun00002_ip = 747; continue _fun00001 }
+            michal = oscard.coverImage;
+            option = entity != michal;
+            if(!option) { _fun00002_ip = 747; continue _fun00001 }
  710:
-            yankee = _closure1_slot0;
-            romeon = _closure1_slot2;
-            golfie = 12;
-            golfie = romeon[golfie];
-            romeon = yankee.bind(verify)(golfie);
-            yankee = romeon.isAnimatedImageUrl;
-            golfie = oscard.coverImage;
-            offset = yankee.bind(romeon)(golfie);
+            offset = _closure1_slot0;
+            yankee = _closure1_slot2;
+            michal = 12;
+            michal = yankee[michal];
+            yankee = offset.bind(verify)(michal);
+            offset = yankee.isAnimatedImageUrl;
+            michal = oscard.coverImage;
+            option = offset.bind(yankee)(michal);
  747:
-            golfie = oscard.coverImage;
-            golfie = entity != golfie;
-            if(!golfie) { _fun00002_ip = 769; continue _fun00001 }
+            michal = oscard.coverImage;
+            michal = entity != michal;
+            if(!michal) { _fun00002_ip = 769; continue _fun00001 }
  760:
-            yankee = oscard.shouldShowBlurredThumbnailImage;
-            golfie = !yankee;
+            offset = oscard.shouldShowBlurredThumbnailImage;
+            michal = !offset;
  769:
-            if(!golfie) { _fun00002_ip = 775; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 775; continue _fun00001 }
  772:
-            golfie = offset;
+            michal = option;
  775:
-            if(!golfie) { _fun00002_ip = 781; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 781; continue _fun00001 }
  778:
-            golfie = option;
+            michal = golfie;
  781:
-            if(!golfie) { _fun00002_ip = 825; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 825; continue _fun00001 }
  784:
-            yankee = oscard.coverImage;
-            golfie = global;
-            golfie = golfie.HermesInternal;
-            offset = golfie.concat;
-            option = '';
-            golfie = '?format=webp';
-            golfie = offset.bind(option)(yankee, golfie);
-            oscard['coverImage'] = golfie;
+            offset = oscard.coverImage;
+            michal = global;
+            michal = michal.HermesInternal;
+            option = michal.concat;
+            golfie = '';
+            michal = '?format=webp';
+            michal = option.bind(golfie)(offset, michal);
+            oscard['coverImage'] = michal;
  825:
-            golfie = oscard.shouldShowBlurredThumbnailImage;
-            if(golfie) { _fun00002_ip = 1484; continue _fun00001 }
+            michal = oscard.shouldShowBlurredThumbnailImage;
+            if(michal) { _fun00002_ip = 1512; continue _fun00001 }
  837:
-            offset = _closure1_slot5;
-            option = offset.get;
-            golfie = 'obscure_blur_effect_enabled';
-            yankee = option.bind(offset)(golfie);
-            option = _closure1_slot0;
-            golfie = _closure1_slot2;
-            foxtra = 14;
-            golfie = golfie[foxtra];
-            offset = option.bind(verify)(golfie);
-            option = offset.isPendingScanVersion;
-            golfie = oscard.contentScanVersion;
-            romeon = option.bind(offset)(golfie);
+            option = _closure1_slot5;
+            golfie = option.get;
+            michal = 'obscure_blur_effect_enabled';
+            yankee = golfie.bind(option)(michal);
+            golfie = _closure1_slot0;
+            michal = _closure1_slot2;
+            option = 14;
+            michal = michal[option];
+            offset = golfie.bind(verify)(michal);
+            golfie = offset.isPendingScanVersion;
+            michal = oscard.contentScanVersion;
+            romeon = golfie.bind(offset)(michal);
             offset = yankee;
             if(!yankee) { _fun00002_ip = 927; continue _fun00001 }
  900:
-            option = _closure1_slot0;
-            golfie = _closure1_slot2;
-            golfie = golfie[foxtra];
-            option = option.bind(verify)(golfie);
-            golfie = option.shouldAgeVerifyForExplicitMedia;
-            offset = golfie.bind(option)();
+            golfie = _closure1_slot0;
+            michal = _closure1_slot2;
+            michal = michal[option];
+            golfie = golfie.bind(verify)(michal);
+            michal = golfie.shouldAgeVerifyForExplicitMedia;
+            offset = michal.bind(golfie)();
  927:
             option = yankee;
-            if(!option) { _fun00002_ip = 935; continue _fun00001 }
+            if(!option) { _fun00002_ip = 963; continue _fun00001 }
  933:
-            option = false;
- 935:
+            golfie = _closure1_slot0;
+            foxtra = _closure1_slot2;
+            michal = 15;
+            michal = foxtra[michal];
+            golfie = golfie.bind(verify)(michal);
+            michal = golfie.isVerifiedTeen;
+            option = michal.bind(golfie)();
+ 963:
             michal = oscard.shouldContainMediaWithBackground;
-            if(!michal) { _fun00002_ip = 957; continue _fun00001 }
- 944:
+            if(!michal) { _fun00002_ip = 985; continue _fun00001 }
+ 972:
             michal = oscard.coverImage;
-            if(!(entity == michal)) { _fun00002_ip = 1199; continue _fun00001 }
- 957:
+            if(!(entity == michal)) { _fun00002_ip = 1227; continue _fun00001 }
+ 985:
             michal = {};
             source = michal;
             update = oscard;
@@ -325,8 +331,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             foxtra = '';
             golfie = true;
             backup = foxtra;
-            if(!(golfie === kiloes)) { _fun00002_ip = 1062; continue _fun00001 }
- 997:
+            if(!(golfie === kiloes)) { _fun00002_ip = 1090; continue _fun00001 }
+ 1025:
             output = _closure1_slot0;
             result = _closure1_slot2;
             golfie = 10;
@@ -341,11 +347,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             kiloes = kiloes.bind(sizing)(golfie);
             golfie = kiloes.toUpperCase;
             backup = golfie.bind(kiloes)();
- 1062:
+ 1090:
             golfie = 'spoiler';
             michal[golfie] = backup;
-            if(!yankee) { _fun00002_ip = 1129; continue _fun00001 }
- 1074:
+            if(!yankee) { _fun00002_ip = 1157; continue _fun00001 }
+ 1102:
             sizing = _closure1_slot0;
             output = _closure1_slot2;
             golfie = 10;
@@ -358,7 +364,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = golfie.t;
             golfie = golfie.SpxcUV;
             foxtra = backup.bind(kiloes)(golfie);
- 1129:
+ 1157:
             golfie = 'obscure';
             michal[golfie] = foxtra;
             golfie = 'obscureAwaitingScan';
@@ -368,16 +374,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = 'obscureHideControls';
             michal[golfie] = option;
             foxtra = offset;
-            if(offset) { _fun00002_ip = 1174; continue _fun00001 }
- 1171:
+            if(offset) { _fun00002_ip = 1202; continue _fun00001 }
+ 1199:
             foxtra = option;
- 1174:
+ 1202:
             golfie = 'obscureIsOpaque';
             michal[golfie] = foxtra;
             golfie = 'ctaButtonColor';
             michal[golfie] = tangon;
-            _fun00002_ip = 1482; continue _fun00001;
- 1199:
+            _fun00002_ip = 1510; continue _fun00001;
+ 1227:
             golfie = {};
             source = golfie;
             update = oscard;
@@ -388,8 +394,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             foxtra = '';
             backup = true;
             kiloes = foxtra;
-            if(!(backup === sizing)) { _fun00002_ip = 1304; continue _fun00001 }
- 1239:
+            if(!(backup === sizing)) { _fun00002_ip = 1332; continue _fun00001 }
+ 1267:
             result = _closure1_slot0;
             echoed = _closure1_slot2;
             backup = 10;
@@ -404,11 +410,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             sizing = sizing.bind(output)(backup);
             backup = sizing.toUpperCase;
             kiloes = backup.bind(sizing)();
- 1304:
+ 1332:
             backup = 'spoiler';
             golfie[backup] = kiloes;
-            if(!yankee) { _fun00002_ip = 1371; continue _fun00001 }
- 1316:
+            if(!yankee) { _fun00002_ip = 1399; continue _fun00001 }
+ 1344:
             sizing = _closure1_slot0;
             output = _closure1_slot2;
             yankee = 10;
@@ -421,7 +427,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = yankee.t;
             yankee = yankee.SpxcUV;
             foxtra = backup.bind(kiloes)(yankee);
- 1371:
+ 1399:
             yankee = 'obscure';
             golfie[yankee] = foxtra;
             yankee = 'obscureAwaitingScan';
@@ -430,17 +436,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie[yankee] = offset;
             yankee = 'obscureHideControls';
             golfie[yankee] = option;
-            if(offset) { _fun00002_ip = 1413; continue _fun00001 }
- 1410:
+            if(offset) { _fun00002_ip = 1441; continue _fun00001 }
+ 1438:
             offset = option;
- 1413:
+ 1441:
             option = 'obscureIsOpaque';
             golfie[option] = offset;
             option = 'ctaButtonColor';
             golfie[option] = tangon;
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
-            option = 15;
+            option = 16;
             option = yankee[option];
             yankee = offset.bind(verify)(option);
             offset = yankee.getBackgroundImageUrl;
@@ -449,9 +455,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = 'backgroundImage';
             golfie[option] = offset;
             michal = golfie;
- 1482:
+ 1510:
             return michal;
- 1484:
+ 1512:
             michal = {};
             source = michal;
             update = oscard;
@@ -472,13 +478,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = 'ctaButtonColor';
             michal[zuuluu] = tangon;
             return michal;
- 1569:
+ 1597:
             return entity;
- 1571:
+ 1599:
             return entity;
- 1573:
+ 1601:
             return entity;
- 1575:
+ 1603:
             return entity;
         }
     };

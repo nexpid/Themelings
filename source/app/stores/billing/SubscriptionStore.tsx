@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argBar;
             verify = michal.bind(zuuluu)(entity);
             michal = _closure1_slot4;
-            entity = _closure1_slot25;
+            entity = _closure1_slot26;
             entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot24 = entity;
+    var _closure1_slot25 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -73,13 +73,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot25 = michal;
+            _closure1_slot26 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot25 = entity;
+    var _closure1_slot26 = entity;
     entity = function(argFoo) { // Original name: getUpdatedActiveSubscriptions
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = entity;
             verify = zuuluu;
             report = arraySpread(offset, verify, option);
-            golfie = _closure1_slot27;
+            golfie = _closure1_slot28;
             oscard = undefined;
             oscard = golfie.bind(oscard)(michal);
             if(!oscard) { _fun00006_ip = 99; continue _fun00005 }
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot26 = entity;
+    var _closure1_slot27 = entity;
     oscard = function() { // Original name: reset
         zuuluu = null;
         _closure1_slot13 = zuuluu;
@@ -146,6 +146,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _closure1_slot19 = entity;
         _closure1_slot20 = zuuluu;
         _closure1_slot21 = entity;
+        _closure1_slot22 = entity;
         entity = undefined;
         return entity;
     };
@@ -157,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = michal !== entity;
         return entity;
     };
-    var _closure1_slot27 = entity;
+    var _closure1_slot28 = entity;
     tangon = function(argFoo) { // Original name: authenticatedUserFilter
         michal = _closure1_slot9;
         entity = michal.getId;
@@ -167,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = entity === michal;
         return entity;
     };
-    var _closure1_slot28 = tangon;
+    var _closure1_slot29 = tangon;
     michal = function(argFoo, argBar) { // Original name: getSubscriptionOfType
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -196,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  68:
                 michal = tangon;
                 michal = verify[michal];
-                zuuluu = _closure1_slot28;
+                zuuluu = _closure1_slot29;
                 zuuluu = zuuluu.bind(yankee)(michal);
                 if(zuuluu) { _fun00008_ip = 203; continue _fun00007 }
  87:
@@ -206,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 backup = _closure1_slot9;
                 zuuluu = backup.getId;
                 result = zuuluu.bind(backup)();
-                backup = _closure1_slot23;
+                backup = _closure1_slot24;
                 zuuluu = backup.log;
                 sizing = 'user id mismatch between logged in user and SubscriptionStore user';
                 zuuluu = zuuluu.bind(backup)(sizing);
@@ -246,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot29 = michal;
+    var _closure1_slot30 = michal;
     entity = global;
     romeon = entity.Object;
     offset = romeon.defineProperty;
@@ -313,7 +314,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot19 = offset;
     var _closure1_slot20 = report;
     var _closure1_slot21 = offset;
-    var _closure1_slot22 = report;
+    var _closure1_slot22 = offset;
+    var _closure1_slot23 = report;
     report = 10;
     report = option[report];
     offset = verify.bind(entity)(report);
@@ -324,7 +326,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     kiloes = report;
     offset = new sizing[offset](kiloes, backup);
     offset = offset instanceof Object ? offset : romeon;
-    var _closure1_slot23 = offset;
+    var _closure1_slot24 = offset;
     offset = 12;
     offset = option[offset];
     offset = verify.bind(entity)(offset);
@@ -337,7 +339,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = _closure1_slot2;
             zuuluu = _closure2_slot0;
             oscard = oscard.bind(tangon)(report, zuuluu);
-            michal = _closure1_slot24;
+            michal = _closure1_slot25;
             entity = arguments;
             entity = michal.bind(tangon)(report, zuuluu, entity);
             return entity;
@@ -358,7 +360,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(14);
+        entity = new Array(15);
         entity[0] = report;
         report = {};
         golfie = 'hasFetchedMostRecentPremiumTypeSubscription';
@@ -390,7 +392,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  9:
                 report = true;
  11:
-                zuuluu = _closure1_slot29;
+                zuuluu = _closure1_slot30;
                 entity = _closure1_slot11;
                 michal = entity.PREMIUM;
                 entity = function(argFoo) {
@@ -420,7 +422,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  9:
                 tangon = true;
  11:
-                michal = _closure1_slot29;
+                michal = _closure1_slot30;
                 entity = _closure1_slot11;
                 entity = entity.PREMIUM;
                 entity = michal.bind(zuuluu)(entity, zuuluu, tangon);
@@ -435,7 +437,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = function() { // Original name: value
             _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-                report = _closure1_slot29;
+                report = _closure1_slot30;
                 entity = _closure1_slot11;
                 tangon = entity.PREMIUM;
                 michal = undefined;
@@ -625,12 +627,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = {};
         golfie = 'getIsSubscriptionEligibleForReward';
         report['key'] = golfie;
+        golfie = function() { // Original name: value
+            entity = _closure1_slot23;
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[13] = report;
+        report = {};
+        golfie = 'getIsFetchingSubscriptionRewardEligibility';
+        report['key'] = golfie;
         oscard = function() { // Original name: value
             entity = _closure1_slot22;
             return entity;
         };
         report['value'] = oscard;
-        entity[13] = report;
+        entity[14] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -667,7 +678,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot19;
                 if(entity) { _fun00022_ip = 132; continue _fun00021 }
  30:
-                zuuluu = _closure1_slot23;
+                zuuluu = _closure1_slot24;
                 entity = zuuluu.log;
                 option = '[handleSubscriptionsFetch] Skipping adding Subscription into SubscriptionStore because of userId mismatch';
                 entity = entity.bind(zuuluu)(option);
@@ -698,7 +709,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = _closure2_slot0;
                 entity = tangon.id;
                 zuuluu[entity] = tangon;
-                zuuluu = _closure1_slot27;
+                zuuluu = _closure1_slot28;
                 entity = undefined;
                 zuuluu = zuuluu.bind(entity)(tangon);
                 if(!zuuluu) { _fun00022_ip = 309; continue _fun00021 }
@@ -767,7 +778,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = report.id;
             entity[michal] = report;
             _closure1_slot13 = entity;
-            michal = _closure1_slot27;
+            michal = _closure1_slot28;
             entity = undefined;
             michal = michal.bind(entity)(report);
             if(!michal) { _fun00024_ip = 95; continue _fun00023 }
@@ -792,7 +803,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  127:
             if(!michal) { _fun00024_ip = 159; continue _fun00023 }
  130:
-            oscard = _closure1_slot26;
+            oscard = _closure1_slot27;
             michal = {};
             golfie = _closure1_slot16;
             michal['activeSubscriptions'] = golfie;
@@ -811,7 +822,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  189:
             if(!michal) { _fun00024_ip = 221; continue _fun00023 }
  192:
-            tangon = _closure1_slot26;
+            tangon = _closure1_slot27;
             michal = {};
             oscard = _closure1_slot17;
             michal['activeSubscriptions'] = oscard;
@@ -842,7 +853,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = _closure1_slot19;
             if(entity) { _fun00026_ip = 160; continue _fun00025 }
  58:
-            report = _closure1_slot23;
+            report = _closure1_slot24;
             entity = report.log;
             option = '[handleMostRecentSubscriptionFetch] Skipping adding Subscription into SubscriptionStore because of userId mismatch';
             entity = entity.bind(report)(option);
@@ -896,7 +907,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = _closure1_slot19;
             if(entity) { _fun00028_ip = 160; continue _fun00027 }
  58:
-            report = _closure1_slot23;
+            report = _closure1_slot24;
             entity = report.log;
             option = '[handlePreviousSubscriptionFetch] Skipping adding Subscription into SubscriptionStore because of userId mismatch';
             entity = entity.bind(report)(option);
@@ -932,10 +943,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     report['BILLING_PREVIOUS_PREMIUM_SUBSCRIPTION_FETCH_SUCCESS'] = romeon;
     report['BILLING_SUBSCRIPTION_RESET'] = oscard;
+    romeon = function() { // Original name: handleSubscriptionRewardEligibilityFetchStart
+        entity = true;
+        _closure1_slot22 = entity;
+        entity = undefined;
+        return entity;
+    };
+    report['BILLING_SUBSCRIPTION_REWARD_ELIGIBILITY_FETCH_START'] = romeon;
     romeon = function(argFoo) { // Original name: handleSubscriptionRewardEligibilityFetch
         entity = argFoo;
-        michal = entity.eligible;
-        _closure1_slot22 = michal;
+        entity = entity.eligible;
+        _closure1_slot23 = entity;
+        entity = false;
+        _closure1_slot22 = entity;
         entity = undefined;
         return entity;
     };
@@ -945,16 +965,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             michal = argFoo;
             entity = null;
-            if(!(michal != entity)) { _fun00030_ip = 22; continue _fun00029 }
+            if(!(michal != entity)) { _fun00030_ip = 26; continue _fun00029 }
  9:
             entity = false;
+            _closure1_slot23 = entity;
             _closure1_slot22 = entity;
             entity = undefined;
             return entity;
- 22:
-            tangon = "Cannot destructure 'undefined' or 'null'.";
-            report = michal;
-            entity = throwTypeError(report, tangon);
+ 26:
+            report = "Cannot destructure 'undefined' or 'null'.";
+            oscard = michal;
+            entity = throwTypeError(oscard, report);
             entity = undefined;
             throw entity;
         }

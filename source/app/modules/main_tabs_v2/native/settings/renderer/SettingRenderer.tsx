@@ -17,18 +17,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = undefined;
             return entity;
  13:
-            michal = 'string';
-            entity = typeof oscard;
-            if(!(michal !== entity)) { _fun00002_ip = 51; continue _fun00001 }
- 24:
-            tangon = _closure1_slot17;
-            zuuluu = _closure1_slot18;
-            michal = {};
-            michal['children'] = oscard;
-            entity = undefined;
-            entity = tangon.bind(entity)(zuuluu, michal);
-            _fun00002_ip = 104; continue _fun00001;
- 51:
+            zuuluu = 'string';
+            michal = typeof oscard;
+            entity = oscard;
+            if(!(zuuluu === michal)) { _fun00002_ip = 80; continue _fun00001 }
+ 27:
             report = _closure1_slot17;
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -41,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {};
             michal['text'] = oscard;
             entity = report.bind(tangon)(zuuluu, michal);
- 104:
+ 80:
             return entity;
         }
     };

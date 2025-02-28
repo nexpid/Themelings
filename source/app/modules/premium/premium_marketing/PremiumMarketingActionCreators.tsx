@@ -17,77 +17,84 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 276; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 303; continue _fun00001 }
  10:
-                    option = argFoo;
+                    verify = argFoo;
                     tangon = undefined;
-                    zuuluu = undefined;
- 17: // try_start_0
-                    oscard = _closure1_slot0;
-                    golfie = _closure1_slot2;
-                    michal = 2;
-                    michal = golfie[michal];
-                    michal = oscard.bind(tangon)(michal);
-                    golfie = michal.HTTP;
-                    oscard = golfie.get;
-                    michal = {};
-                    offset = _closure1_slot4;
-                    verify = offset.Billing_SUBSCRIPTION_REWARD_ELIGIBILITY;
-                    option = verify.bind(offset)(option);
-                    michal['url'] = option;
-                    option = true;
-                    michal['rejectWithError'] = option;
-                    michal = oscard.bind(golfie)(michal);
-                    SaveGenerator(address=86);
- 84:
-                    return michal;
- 86:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 221; continue _fun00001 }
- 95:
-                    zuuluu = michal;
-                    oscard = michal.ok;
-                    if(oscard) { _fun00002_ip = 154; continue _fun00001 }
- 107:
+                    oscard = undefined;
                     golfie = _closure1_slot1;
-                    option = _closure1_slot2;
-                    oscard = 3;
-                    oscard = option[oscard];
-                    option = golfie.bind(tangon)(oscard);
+                    zuuluu = _closure1_slot2;
+                    report = 2;
+                    zuuluu = zuuluu[report];
+                    option = golfie.bind(tangon)(zuuluu);
                     golfie = option.dispatch;
-                    oscard = {};
-                    verify = 'BILLING_SUBSCRIPTION_REWARD_ELIGIBILITY_FETCH_FAILURE';
-                    oscard['type'] = verify;
-                    oscard = golfie.bind(option)(oscard);
- 149: // try_end0
-                    oscard = false;
-                    return oscard;
- 154: // try_start_1
-                    zuuluu = zuuluu.body;
-                    zuuluu = zuuluu.eligible;
-                    zuuluu = !zuuluu;
-                    zuuluu = !zuuluu;
-                    oscard = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    report = 3;
-                    report = golfie[report];
-                    golfie = oscard.bind(tangon)(report);
-                    oscard = golfie.dispatch;
-                    report = {};
-                    option = 'BILLING_SUBSCRIPTION_REWARD_ELIGIBILITY_FETCH_SUCCESS';
-                    report['type'] = option;
-                    report['eligible'] = zuuluu;
-                    report = oscard.bind(golfie)(report);
- 218: // try_end1
+                    zuuluu = {};
+                    offset = 'BILLING_SUBSCRIPTION_REWARD_ELIGIBILITY_FETCH_START';
+                    zuuluu['type'] = offset;
+                    zuuluu = golfie.bind(option)(zuuluu);
+ 62: // try_start_0
+                    golfie = _closure1_slot0;
+                    option = _closure1_slot2;
+                    zuuluu = 3;
+                    zuuluu = option[zuuluu];
+                    zuuluu = golfie.bind(tangon)(zuuluu);
+                    option = zuuluu.HTTP;
+                    golfie = option.get;
+                    zuuluu = {};
+                    yankee = _closure1_slot4;
+                    offset = yankee.Billing_SUBSCRIPTION_REWARD_ELIGIBILITY;
+                    verify = offset.bind(yankee)(verify);
+                    zuuluu['url'] = verify;
+                    verify = true;
+                    zuuluu['rejectWithError'] = verify;
+                    zuuluu = golfie.bind(option)(zuuluu);
+                    SaveGenerator(address=128);
+ 126:
                     return zuuluu;
- 221:
-                    return michal;
- 224: // catch_target0 // catch_target1
-                    CatchBlockStart(arg_register=1);
+ 128:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
+                    if(golfie) { _fun00002_ip = 254; continue _fun00001 }
+ 134:
+                    oscard = zuuluu;
+                    golfie = zuuluu.ok;
+                    if(golfie) { _fun00002_ip = 190; continue _fun00001 }
+ 146:
+                    option = _closure1_slot1;
+                    golfie = _closure1_slot2;
+                    golfie = golfie[report];
+                    verify = option.bind(tangon)(golfie);
+                    option = verify.dispatch;
+                    golfie = {};
+                    offset = 'BILLING_SUBSCRIPTION_REWARD_ELIGIBILITY_FETCH_FAILURE';
+                    golfie['type'] = offset;
+                    golfie = option.bind(verify)(golfie);
+ 185: // try_end0
+                    golfie = false;
+                    return golfie;
+ 190: // try_start_1
+                    oscard = oscard.body;
+                    oscard = oscard.eligible;
+                    oscard = !oscard;
+                    oscard = !oscard;
+                    option = _closure1_slot1;
+                    golfie = _closure1_slot2;
+                    golfie = golfie[report];
+                    verify = option.bind(tangon)(golfie);
+                    option = verify.dispatch;
+                    golfie = {};
+                    offset = 'BILLING_SUBSCRIPTION_REWARD_ELIGIBILITY_FETCH_SUCCESS';
+                    golfie['type'] = offset;
+                    golfie['eligible'] = oscard;
+                    golfie = option.bind(verify)(golfie);
+ 251: // try_end1
+                    return oscard;
+ 254:
+                    return zuuluu;
+ 257: // catch_target0 // catch_target1
+                    CatchBlockStart(arg_register=2);
                     zuuluu = _closure1_slot1;
-                    report = _closure1_slot2;
-                    michal = 3;
-                    michal = report[michal];
+                    michal = _closure1_slot2;
+                    michal = michal[report];
                     tangon = zuuluu.bind(tangon)(michal);
                     zuuluu = tangon.dispatch;
                     michal = {};
@@ -96,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = zuuluu.bind(tangon)(michal);
                     michal = false;
                     return michal;
- 276:
+ 303:
                     return entity;
                 }
             };
@@ -129,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  14: // try_start_0
                     report = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    michal = 2;
+                    michal = 3;
                     michal = golfie[michal];
                     michal = report.bind(oscard)(michal);
                     golfie = michal.HTTP;
@@ -215,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  48: // try_start_0
                     oscard = _closure1_slot0;
                     option = _closure1_slot2;
-                    zuuluu = 2;
+                    zuuluu = 3;
                     zuuluu = option[zuuluu];
                     zuuluu = oscard.bind(golfie)(zuuluu);
                     option = zuuluu.HTTP;
@@ -308,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  40: // try_start_0
                     report = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    zuuluu = 2;
+                    zuuluu = 3;
                     zuuluu = golfie[zuuluu];
                     zuuluu = report.bind(oscard)(zuuluu);
                     golfie = zuuluu.HTTP;
@@ -333,7 +340,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  127:
                     report = _closure1_slot1;
                     golfie = _closure1_slot2;
-                    tangon = 3;
+                    tangon = 2;
                     tangon = golfie[tangon];
                     oscard = report.bind(oscard)(tangon);
                     report = oscard.dispatch;
@@ -410,7 +417,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: setSubscriptionRewardEligibilityLocally
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 3;
+        entity = 2;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);

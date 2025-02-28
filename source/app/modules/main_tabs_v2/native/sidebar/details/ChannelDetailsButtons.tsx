@@ -548,7 +548,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = zuuluu.bind(tangon)();
                     zuuluu = tangon.simultaneousWithExternalGesture;
                     michal = _closure2_slot3;
-                    michal = michal.gestureRef;
+                    michal = michal.gesture;
                     entity = zuuluu.bind(tangon)(michal);
  78:
                     return entity;

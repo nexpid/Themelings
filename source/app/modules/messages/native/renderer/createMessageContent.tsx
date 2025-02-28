@@ -469,7 +469,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  684:
             sizing = papara;
  687:
-            if(!(result == sizing)) { _fun00006_ip = 7321; continue _fun00005 }
+            if(!(result == sizing)) { _fun00006_ip = 7327; continue _fun00005 }
  694:
             target = _closure1_slot1;
             sierra = _closure1_slot2;
@@ -477,7 +477,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             papara = sierra[papara];
             papara = target.bind(oscard)(papara);
             papara = papara.bind(oscard)(michal);
-            if(papara) { _fun00006_ip = 7128; continue _fun00005 }
+            if(papara) { _fun00006_ip = 7134; continue _fun00005 }
  725:
             variable71 = !backup;
             if(variable71) { _fun00006_ip = 734; continue _fun00005 }
@@ -2080,16 +2080,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['safetySystemNotificationEmbed'] = source;
             source = 78;
             source = whisks[source];
-            whisks = limora.bind(oscard)(source);
-            limora = whisks.createCtaButton;
-            source = michal.id;
-            source = limora.bind(whisks)(source, record);
+            equals = limora.bind(oscard)(source);
+            whisks = equals.createCtaButton;
+            limora = michal.id;
+            source = michal.channel_id;
+            source = whisks.bind(equals)(limora, source, record);
             entity['ctaButton'] = source;
             source = undefined;
-            if(!sierra) { _fun00006_ip = 6646; continue _fun00005 }
- 6640:
-            source = record.embedBackgroundColor;
+            if(!sierra) { _fun00006_ip = 6652; continue _fun00005 }
  6646:
+            source = record.embedBackgroundColor;
+ 6652:
             entity['audioAttachmentBackgroundColor'] = source;
             record = _closure1_slot0;
             source = _closure1_slot2;
@@ -2136,8 +2137,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             source = vacuum.bind(config)(source);
             entity['threadAccessibilityLabel'] = source;
             source = tangon;
-            if(!tangon) { _fun00006_ip = 6912; continue _fun00005 }
- 6879:
+            if(!tangon) { _fun00006_ip = 6918; continue _fun00005 }
+ 6885:
             config = _closure1_slot0;
             record = _closure1_slot2;
             vacuum = 80;
@@ -2145,11 +2146,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             config = config.bind(oscard)(vacuum);
             vacuum = config.canShowForwardShortcut;
             source = vacuum.bind(config)(michal, sequen, ctrled);
- 6912:
+ 6918:
             entity['showForwardShortcut'] = source;
             source = tangon;
-            if(!tangon) { _fun00006_ip = 6958; continue _fun00005 }
- 6925:
+            if(!tangon) { _fun00006_ip = 6964; continue _fun00005 }
+ 6931:
             config = _closure1_slot0;
             record = _closure1_slot2;
             vacuum = 80;
@@ -2157,14 +2158,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             config = config.bind(oscard)(vacuum);
             vacuum = config.canShowReplyShortcut;
             source = vacuum.bind(config)(michal, sequen, ctrled);
- 6958:
+ 6964:
             entity['showReplyShortcut'] = source;
-            if(report) { _fun00006_ip = 6971; continue _fun00005 }
- 6968:
-            report = tangon;
- 6971:
-            if(!report) { _fun00006_ip = 7007; continue _fun00005 }
+            if(report) { _fun00006_ip = 6977; continue _fun00005 }
  6974:
+            report = tangon;
+ 6977:
+            if(!report) { _fun00006_ip = 7013; continue _fun00005 }
+ 6980:
             vacuum = _closure1_slot0;
             config = _closure1_slot2;
             source = 80;
@@ -2172,10 +2173,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             vacuum = vacuum.bind(oscard)(source);
             source = vacuum.canShowReactionShortcut;
             report = source.bind(vacuum)(michal, sequen, ctrled);
- 7007:
+ 7013:
             entity['showReactionShortcut'] = report;
-            if(!tangon) { _fun00006_ip = 7049; continue _fun00005 }
- 7017:
+            if(!tangon) { _fun00006_ip = 7055; continue _fun00005 }
+ 7023:
             source = _closure1_slot0;
             vacuum = _closure1_slot2;
             report = 80;
@@ -2183,14 +2184,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             source = source.bind(oscard)(report);
             report = source.canShowThreadShortcut;
             tangon = report.bind(source)(michal, ctrled);
- 7049:
+ 7055:
             entity['showThreadShortcut'] = tangon;
             tangon = result == ctrled;
             report = undefined;
-            if(tangon) { _fun00006_ip = 7070; continue _fun00005 }
- 7065:
+            if(tangon) { _fun00006_ip = 7076; continue _fun00005 }
+ 7071:
             report = ctrled.type;
- 7070:
+ 7076:
             tangon = _closure1_slot26;
             tangon = tangon.GUILD_ANNOUNCEMENT;
             tangon = report === tangon;
@@ -2204,12 +2205,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = tangon.bind(report)();
             entity['shortcutsEnabled'] = tangon;
             return entity;
- 7128:
+ 7134:
             tangon = michal.type;
             entity = _closure1_slot23;
             entity = entity.THREAD_CREATED;
-            if(!(tangon !== entity)) { _fun00006_ip = 7225; continue _fun00005 }
- 7147:
+            if(!(tangon !== entity)) { _fun00006_ip = 7231; continue _fun00005 }
+ 7153:
             tangon = _closure1_slot0;
             report = _closure1_slot2;
             entity = 36;
@@ -2223,15 +2224,15 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['roleStyle'] = kiloes;
             source = result == ctrled;
             result = undefined;
-            if(source) { _fun00006_ip = 7213; continue _fun00005 }
- 7203:
+            if(source) { _fun00006_ip = 7219; continue _fun00005 }
+ 7209:
             source = ctrled.isForumPost;
             result = source.bind(ctrled)();
- 7213:
+ 7219:
             entity['isForumPost'] = result;
             entity = tangon.bind(report)(entity);
-            _fun00006_ip = 7319; continue _fun00005;
- 7225:
+            _fun00006_ip = 7325; continue _fun00005;
+ 7231:
             tangon = {};
             report = _closure1_slot30;
             r105 = undefined;
@@ -2257,13 +2258,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             r104 = tangon;
             report = copyDataProperties(r104, r103);
             entity = tangon;
- 7319:
+ 7325:
             return entity;
- 7321:
+ 7327:
             entity = michal.activityInstance;
             tangon = undefined;
-            if(!(tangon === entity)) { _fun00006_ip = 7388; continue _fun00005 }
- 7333:
+            if(!(tangon === entity)) { _fun00006_ip = 7394; continue _fun00005 }
+ 7339:
             result = _closure1_slot0;
             echoed = _closure1_slot2;
             entity = 24;
@@ -2276,7 +2277,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity = entity.t;
             entity = entity.uBid4u;
             tangon = report.bind(output)(entity);
- 7388:
+ 7394:
             entity = {};
             report = _closure1_slot32;
             zuuluu = {};

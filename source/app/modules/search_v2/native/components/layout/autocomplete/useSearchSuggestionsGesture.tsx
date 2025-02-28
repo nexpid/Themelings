@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.bind(entity)();
     var _closure1_slot6 = tangon;
     tangon = {};
-    golfie = 'function useSearchSuggestionsGestureTsx2(e){const{coordinates,inBoundingBox,safeAreaTop,dismissed}=this.__closure;const _coordinates=coordinates.get();if(_coordinates==null||inBoundingBox(e,_coordinates,safeAreaTop))return;dismissed.set(true);}';
+    golfie = 'function useSearchSuggestionsGestureTsx2(e,manager){const{coordinates,inBoundingBox,safeAreaTop,dismissed}=this.__closure;manager.fail();const _coordinates=coordinates.get();if(_coordinates==null||inBoundingBox(e,_coordinates,safeAreaTop))return;dismissed.set(true);}';
     tangon['code'] = golfie;
     var _closure1_slot7 = tangon;
     tangon = 6;
@@ -180,32 +180,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = undefined;
                 entity = zuuluu.bind(entity)(michal);
                 michal = entity.Gesture;
-                entity = michal.Tap;
+                entity = michal.Manual;
                 zuuluu = entity.bind(michal)();
+                michal = zuuluu.manualActivation;
+                entity = true;
+                zuuluu = michal.bind(zuuluu)(entity);
                 michal = zuuluu.onTouchesDown;
-                entity = function(argFoo) { // Original name: e
+                entity = function(argFoo, argBar) { // Original name: e
                     _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
+                        michal = argBar;
+                        entity = michal.fail;
+                        entity = entity.bind(michal)();
                         zuuluu = _closure2_slot2;
                         michal = zuuluu.get;
                         golfie = michal.bind(zuuluu)();
                         michal = null;
                         michal = michal == golfie;
-                        if(michal) { _fun00008_ip = 48; continue _fun00007 }
- 25:
+                        if(michal) { _fun00008_ip = 61; continue _fun00007 }
+ 38:
                         oscard = _closure1_slot6;
                         report = _closure2_slot4;
                         tangon = undefined;
                         zuuluu = argFoo;
                         michal = oscard.bind(tangon)(zuuluu, golfie, report);
- 48:
-                        if(michal) { _fun00008_ip = 67; continue _fun00007 }
- 51:
+ 61:
+                        if(michal) { _fun00008_ip = 80; continue _fun00007 }
+ 64:
                         zuuluu = _closure2_slot1;
                         michal = zuuluu.set;
                         entity = true;
                         entity = michal.bind(zuuluu)(entity);
- 67:
+ 80:
                         entity = undefined;
                         return entity;
                     }
@@ -220,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = _closure2_slot1;
                 report['dismissed'] = oscard;
                 entity['__closure'] = report;
-                report = 10071170709243.0;
+                report = 2369649298113.0;
                 entity['__workletHash'] = report;
                 tangon = _closure1_slot7;
                 entity['__initData'] = tangon;

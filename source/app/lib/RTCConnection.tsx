@@ -4175,7 +4175,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             zuuluu = tangon.warn;
                             michal = 'Socket mismatch, disconnecting';
                             michal = zuuluu.bind(tangon)(michal);
-                            _fun00114_ip = 687; continue _fun00113;
+                            _fun00114_ip = 702; continue _fun00113;
  111:
                             michal = _closure3_slot0;
                             report = _closure1_slot1;
@@ -4226,19 +4226,22 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             tangon = new output[offset](sizing, kiloes, backup);
                             tangon = tangon instanceof Object ? tangon : report;
                             michal['_voiceDuration'] = tangon;
-                            option = michal._voiceDuration;
-                            report = option.start;
-                            offset = _closure3_slot4;
-                            tangon = offset.getSelfMute;
-                            tangon = tangon.bind(offset)();
-                            tangon = report.bind(option)(tangon);
+                            offset = michal._voiceDuration;
+                            option = offset.start;
+                            report = _closure3_slot4;
+                            tangon = report.getSelfMute;
+                            report = tangon.bind(report)();
+                            yankee = _closure3_slot4;
+                            tangon = yankee.getVoiceFilterId;
+                            tangon = tangon.bind(yankee)();
+                            tangon = option.bind(offset)(report, tangon);
                             michal['protocol'] = golfie;
                             michal = 'udp';
-                            if(!(michal !== golfie)) { _fun00114_ip = 543; continue _fun00113 }
- 384:
+                            if(!(michal !== golfie)) { _fun00114_ip = 558; continue _fun00113 }
+ 399:
                             michal = 'webrtc';
-                            if(!(michal !== golfie)) { _fun00114_ip = 423; continue _fun00113 }
- 394:
+                            if(!(michal !== golfie)) { _fun00114_ip = 438; continue _fun00113 }
+ 409:
                             michal = _closure3_slot0;
                             report = michal.logger;
                             tangon = report.error;
@@ -4246,7 +4249,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             michal = tangon.bind(report)(michal);
                             michal = undefined;
                             return michal;
- 423:
+ 438:
                             option = _closure3_slot0;
                             report = option.logger;
                             tangon = report.info;
@@ -4269,8 +4272,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             michal = option.getRTCConnectionId;
                             michal = michal.bind(option)();
                             michal = tangon.bind(report)(golfie, michal, oscard);
-                            _fun00114_ip = 667; continue _fun00113;
- 543:
+                            _fun00114_ip = 682; continue _fun00113;
+ 558:
                             michal = _closure3_slot0;
                             offset = michal.logger;
                             option = offset.info;
@@ -4315,12 +4318,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             sizing = golfie;
                             backup = oscard;
                             michal = output[tangon](sizing, kiloes, backup, foxtra, romeon);
- 667:
+ 682:
                             entity = _closure3_slot0;
                             michal = entity._backoff;
                             entity = michal.succeed;
                             entity = entity.bind(michal)();
- 687:
+ 702:
                             entity = undefined;
                             return entity;
                         }

@@ -1560,88 +1560,104 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.props;
                 entity = michal.expanded;
                 michal = michal.log;
-                if(!entity) { _fun00034_ip = 352; continue _fun00033 }
+                if(!entity) { _fun00034_ip = 369; continue _fun00033 }
  26:
                 report = michal.targetType;
                 tangon = _closure1_slot15;
                 tangon = tangon.GUILD;
-                if(!(tangon !== report)) { _fun00034_ip = 1128; continue _fun00033 }
+                if(!(tangon !== report)) { _fun00034_ip = 1190; continue _fun00033 }
  52:
                 tangon = _closure1_slot15;
                 tangon = tangon.CHANNEL;
-                if(!(tangon !== report)) { _fun00034_ip = 1083; continue _fun00033 }
+                if(!(tangon !== report)) { _fun00034_ip = 1145; continue _fun00033 }
  69:
                 tangon = _closure1_slot15;
                 tangon = tangon.CHANNEL_OVERWRITE;
-                if(!(tangon !== report)) { _fun00034_ip = 1083; continue _fun00033 }
+                if(!(tangon !== report)) { _fun00034_ip = 1145; continue _fun00033 }
  86:
                 tangon = _closure1_slot15;
                 tangon = tangon.USER;
-                if(!(tangon !== report)) { _fun00034_ip = 1038; continue _fun00033 }
+                if(!(tangon !== report)) { _fun00034_ip = 1100; continue _fun00033 }
  103:
                 tangon = _closure1_slot15;
                 tangon = tangon.ROLE;
-                if(!(tangon !== report)) { _fun00034_ip = 993; continue _fun00033 }
+                if(!(tangon !== report)) { _fun00034_ip = 1055; continue _fun00033 }
  120:
                 tangon = _closure1_slot15;
                 tangon = tangon.INVITE;
-                if(!(tangon !== report)) { _fun00034_ip = 948; continue _fun00033 }
+                if(!(tangon !== report)) { _fun00034_ip = 1010; continue _fun00033 }
  137:
                 tangon = _closure1_slot15;
                 tangon = tangon.WEBHOOK;
-                if(!(tangon !== report)) { _fun00034_ip = 903; continue _fun00033 }
+                if(!(tangon !== report)) { _fun00034_ip = 965; continue _fun00033 }
  154:
                 tangon = _closure1_slot15;
                 tangon = tangon.EMOJI;
-                if(!(tangon !== report)) { _fun00034_ip = 858; continue _fun00033 }
+                if(!(tangon !== report)) { _fun00034_ip = 920; continue _fun00033 }
  171:
                 tangon = _closure1_slot15;
                 tangon = tangon.INTEGRATION;
-                if(!(tangon !== report)) { _fun00034_ip = 813; continue _fun00033 }
+                if(!(tangon !== report)) { _fun00034_ip = 875; continue _fun00033 }
  188:
                 tangon = _closure1_slot15;
                 tangon = tangon.STAGE_INSTANCE;
-                if(!(tangon !== report)) { _fun00034_ip = 768; continue _fun00033 }
+                if(!(tangon !== report)) { _fun00034_ip = 830; continue _fun00033 }
  205:
                 tangon = _closure1_slot15;
                 tangon = tangon.GUILD_SCHEDULED_EVENT;
-                if(!(tangon !== report)) { _fun00034_ip = 723; continue _fun00033 }
+                if(!(tangon !== report)) { _fun00034_ip = 785; continue _fun00033 }
  222:
                 tangon = _closure1_slot15;
                 tangon = tangon.GUILD_SCHEDULED_EVENT_EXCEPTION;
-                if(!(tangon !== report)) { _fun00034_ip = 678; continue _fun00033 }
+                if(!(tangon !== report)) { _fun00034_ip = 740; continue _fun00033 }
  239:
                 tangon = _closure1_slot15;
                 tangon = tangon.THREAD;
-                if(!(tangon !== report)) { _fun00034_ip = 633; continue _fun00033 }
+                if(!(tangon !== report)) { _fun00034_ip = 695; continue _fun00033 }
  256:
                 tangon = _closure1_slot15;
                 tangon = tangon.STICKER;
-                if(!(tangon !== report)) { _fun00034_ip = 588; continue _fun00033 }
+                if(!(tangon !== report)) { _fun00034_ip = 650; continue _fun00033 }
  273:
                 tangon = _closure1_slot15;
                 tangon = tangon.APPLICATION_COMMAND;
-                if(!(tangon !== report)) { _fun00034_ip = 536; continue _fun00033 }
+                if(!(tangon !== report)) { _fun00034_ip = 598; continue _fun00033 }
  290:
                 tangon = _closure1_slot15;
                 tangon = tangon.AUTO_MODERATION_RULE;
-                if(!(tangon !== report)) { _fun00034_ip = 491; continue _fun00033 }
+                if(!(tangon !== report)) { _fun00034_ip = 553; continue _fun00033 }
  307:
                 tangon = _closure1_slot15;
                 tangon = tangon.GUILD_SOUNDBOARD;
-                if(!(tangon !== report)) { _fun00034_ip = 446; continue _fun00033 }
+                if(!(tangon !== report)) { _fun00034_ip = 508; continue _fun00033 }
  324:
                 tangon = _closure1_slot15;
                 tangon = tangon.VOICE_CHANNEL_STATUS;
-                if(!(tangon !== report)) { _fun00034_ip = 401; continue _fun00033 }
- 338:
+                if(!(tangon !== report)) { _fun00034_ip = 463; continue _fun00033 }
+ 341:
                 tangon = _closure1_slot15;
                 tangon = tangon.GUILD_MEMBER_VERIFICATION;
-                if(!(tangon !== report)) { _fun00034_ip = 356; continue _fun00033 }
- 352:
+                if(!(tangon !== report)) { _fun00034_ip = 418; continue _fun00033 }
+ 355:
+                tangon = _closure1_slot15;
+                tangon = tangon.GUILD_PROFILE;
+                if(!(tangon !== report)) { _fun00034_ip = 373; continue _fun00033 }
+ 369:
                 tangon = null;
                 return tangon;
- 356:
+ 373:
+                report = zuuluu.renderChangeDetails;
+                golfie = _closure1_slot2;
+                oscard = _closure1_slot3;
+                tangon = 16;
+                oscard = oscard[tangon];
+                tangon = undefined;
+                oscard = golfie.bind(tangon)(oscard);
+                tangon = oscard.GuildProfileChangeStrings;
+                tangon = tangon.bind(oscard)();
+                tangon = report.bind(zuuluu)(tangon);
+                return tangon;
+ 418:
                 report = zuuluu.renderChangeDetails;
                 golfie = _closure1_slot2;
                 oscard = _closure1_slot3;
@@ -1653,7 +1669,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = tangon.bind(oscard)();
                 tangon = report.bind(zuuluu)(tangon);
                 return tangon;
- 401:
+ 463:
                 report = zuuluu.renderChangeDetails;
                 golfie = _closure1_slot2;
                 oscard = _closure1_slot3;
@@ -1665,7 +1681,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = tangon.bind(oscard)();
                 tangon = report.bind(zuuluu)(tangon);
                 return tangon;
- 446:
+ 508:
                 report = zuuluu.renderChangeDetails;
                 golfie = _closure1_slot2;
                 oscard = _closure1_slot3;
@@ -1677,7 +1693,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = tangon.bind(oscard)();
                 tangon = report.bind(zuuluu)(tangon);
                 return tangon;
- 491:
+ 553:
                 report = zuuluu.renderChangeDetails;
                 golfie = _closure1_slot2;
                 oscard = _closure1_slot3;
@@ -1689,7 +1705,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = tangon.bind(oscard)();
                 tangon = report.bind(zuuluu)(tangon);
                 return tangon;
- 536:
+ 598:
                 tangon = zuuluu.renderChangeDetails;
                 golfie = _closure1_slot2;
                 oscard = _closure1_slot3;
@@ -1702,7 +1718,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = report.bind(oscard)(michal);
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 588:
+ 650:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1714,7 +1730,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 633:
+ 695:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1726,7 +1742,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 678:
+ 740:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1738,7 +1754,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 723:
+ 785:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1750,7 +1766,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 768:
+ 830:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1762,7 +1778,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 813:
+ 875:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1774,7 +1790,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 858:
+ 920:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1786,7 +1802,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 903:
+ 965:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1798,7 +1814,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 948:
+ 1010:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1810,7 +1826,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 993:
+ 1055:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1822,7 +1838,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 1038:
+ 1100:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1834,7 +1850,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 1083:
+ 1145:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1846,7 +1862,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 1128:
+ 1190:
                 michal = zuuluu.renderChangeDetails;
                 report = _closure1_slot2;
                 tangon = _closure1_slot3;

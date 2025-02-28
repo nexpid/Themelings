@@ -742,7 +742,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = report.bind(verify)(entity);
                     entity = entity.MainTabsNavigatorPanelContext;
                     entity = zuuluu.bind(tangon)(entity);
-                    offset = entity.gestureRef;
+                    offset = entity.gesture;
                     var _closure3_slot3 = offset;
                     option = entity.disallowGesture;
                     var _closure3_slot4 = option;
@@ -759,7 +759,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  134:
                     zuuluu = {};
  136:
-                    entity = zuuluu.gestureRef;
+                    entity = zuuluu.gesture;
                     var _closure3_slot6 = entity;
                     golfie = zuuluu.disallowGesture;
                     var _closure3_slot7 = golfie;
@@ -774,21 +774,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = function() {
                         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
+                            zuuluu = _closure3_slot6;
+                            entity = null;
+                            if(!(entity != zuuluu)) { _fun00014_ip = 39; continue _fun00013 }
+ 13:
+                            report = _closure3_slot0;
+                            tangon = report.simultaneousWithExternalGesture;
+                            zuuluu = _closure3_slot3;
+                            entity = _closure3_slot6;
+                            entity = tangon.bind(report)(zuuluu, entity);
+                            _fun00014_ip = 58; continue _fun00013;
+ 39:
                             tangon = _closure3_slot0;
                             zuuluu = tangon.simultaneousWithExternalGesture;
                             michal = _closure3_slot3;
-                            oscard = _closure3_slot6;
-                            entity = null;
-                            if(!(entity == oscard)) { _fun00014_ip = 37; continue _fun00013 }
- 27:
-                            entity = {};
-                            oscard = undefined;
-                            entity['current'] = oscard;
-                            _fun00014_ip = 41; continue _fun00013;
- 37:
-                            entity = _closure3_slot6;
- 41:
-                            entity = zuuluu.bind(tangon)(michal, entity);
+                            entity = zuuluu.bind(tangon)(michal);
+ 58:
                             return entity;
                         }
                     };

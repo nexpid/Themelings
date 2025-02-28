@@ -2171,121 +2171,119 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         StartGenerator();
                         tangon = this;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00056_ip = 726; continue _fun00055 }
+                        if(michal) { _fun00056_ip = 803; continue _fun00055 }
  13:
                         michal = undefined;
+                        romeon = undefined;
                         yankee = undefined;
-                        offset = undefined;
-                        golfie = undefined;
+                        option = undefined;
                         verify = undefined;
-                        report = undefined;
                         oscard = undefined;
-                        option = global;
-                        backup = option.JSON;
+                        golfie = undefined;
+                        zuuluu = global;
+                        backup = zuuluu.JSON;
                         foxtra = backup.stringify;
-                        romeon = tangon.unassignedStreams;
-                        update = foxtra.bind(backup)(romeon);
-                        yankee = update;
-                        backup = option.JSON;
+                        offset = tangon.unassignedStreams;
+                        update = foxtra.bind(backup)(offset);
+                        romeon = update;
+                        backup = zuuluu.JSON;
                         foxtra = backup.stringify;
-                        romeon = tangon.assignedStreams;
-                        echoed = foxtra.bind(backup)(romeon);
-                        offset = echoed;
-                        backup = tangon.logger;
-                        foxtra = backup.info;
-                        romeon = tangon.outboundStreams;
-                        vacuum = romeon.length;
-                        romeon = option.HermesInternal;
-                        output = romeon.concat;
+                        offset = tangon.assignedStreams;
+                        echoed = foxtra.bind(backup)(offset);
+                        yankee = echoed;
+                        kiloes = tangon.logger;
+                        backup = kiloes.info;
+                        offset = tangon.outboundStreams;
+                        vacuum = offset.length;
+                        offset = zuuluu.HermesInternal;
+                        output = offset.concat;
                         papara = 'setRemoteDescription: unassigned streams: ';
-                        record = ', assigned streams: ';
+                        offset = ', assigned streams: ';
                         sequen = ', outbound streams: ';
                         cntext = update;
+                        record = offset;
                         config = echoed;
-                        romeon = papara[output](cntext, record, config, sequen, vacuum, ctrled);
-                        romeon = foxtra.bind(backup)(romeon);
-                        romeon = tangon.pc;
-                        golfie = romeon;
-                        foxtra = tangon.generateSDPAnswer;
-                        foxtra = foxtra.bind(tangon)();
-                        verify = foxtra.ssrcs;
-                        report = foxtra.answer;
-                        oscard = romeon.localDescription;
- 186: // try_start_0
-                        foxtra = golfie;
-                        romeon = foxtra.setRemoteDescription;
-                        golfie = report;
-                        golfie = romeon.bind(foxtra)(golfie);
-                        SaveGenerator(address=207);
- 205:
-                        return golfie;
- 207:
-                        ResumeGenerator(result_out_reg=6, return_bool_out_reg=11);
-                        if(romeon) { _fun00056_ip = 218; continue _fun00055 }
- 213: // try_end0
-                        _fun00056_ip = 613; continue _fun00055;
- 218:
-                        return golfie;
- 221: // catch_target0
-                        CatchBlockStart(arg_register=12);
-                        zuuluu = foxtra;
-                        backup = tangon.logger;
-                        golfie = backup.warn;
-                        romeon = report;
-                        config = romeon.type;
-                        vacuum = romeon.sdp;
-                        report = option.HermesInternal;
-                        output = report.concat;
-                        papara = 'Failed to set remote answer: ';
-                        record = ', type: ';
-                        sequen = ', sdp: ';
-                        cntext = foxtra;
-                        report = papara[output](cntext, record, config, sequen, vacuum, ctrled);
-                        report = golfie.bind(backup)(report);
-                        output = tangon.emit;
-                        kiloes = _closure1_slot0;
-                        backup = _closure1_slot1;
-                        golfie = 14;
-                        backup = backup[golfie];
-                        backup = kiloes.bind(michal)(backup);
-                        backup = backup.BaseConnectionEvent;
-                        cntext = backup.SdpError;
-                        config = foxtra.message;
-                        sequen = romeon.type;
-                        vacuum = romeon.sdp;
+                        foxtra = papara[output](cntext, record, config, sequen, vacuum, ctrled);
+                        foxtra = backup.bind(kiloes)(foxtra);
+                        foxtra = tangon.pc;
+                        option = foxtra;
+                        backup = tangon.generateSDPAnswer;
+                        backup = backup.bind(tangon)();
+                        verify = backup.ssrcs;
+                        oscard = backup.answer;
+                        golfie = foxtra.localDescription;
+ 189: // try_start_0
+                        backup = option;
+                        foxtra = backup.setRemoteDescription;
+                        option = oscard;
+                        option = foxtra.bind(backup)(option);
+                        SaveGenerator(address=210);
+ 208:
+                        return option;
+ 210:
+                        ResumeGenerator(result_out_reg=7, return_bool_out_reg=12);
+                        if(foxtra) { _fun00056_ip = 221; continue _fun00055 }
+ 216: // try_end0
+                        _fun00056_ip = 604; continue _fun00055;
+ 221:
+                        return option;
+ 224: // catch_target0
+                        CatchBlockStart(arg_register=13);
+                        report = backup;
+                        kiloes = tangon.logger;
+                        option = kiloes.warn;
+                        foxtra = oscard;
+                        result = foxtra.type;
+                        oscard = zuuluu.HermesInternal;
+                        output = oscard.concat;
+                        sizing = 'Failed to set remote answer: ';
+                        oscard = ', type: ';
+                        oscard = output.bind(sizing)(backup, oscard, result);
+                        oscard = option.bind(kiloes)(oscard);
+                        result = tangon.emit;
+                        sizing = _closure1_slot0;
+                        kiloes = _closure1_slot1;
+                        option = 14;
+                        kiloes = kiloes[option];
+                        kiloes = sizing.bind(michal)(kiloes);
+                        kiloes = kiloes.BaseConnectionEvent;
+                        cntext = kiloes.SdpError;
+                        config = backup.message;
+                        sequen = foxtra.type;
+                        vacuum = foxtra.sdp;
                         record = 'setRemoteDescription';
                         papara = tangon;
-                        romeon = papara[output](cntext, record, config, sequen, vacuum, ctrled);
-                        foxtra = oscard;
-                        romeon = null;
-                        if(!(romeon != foxtra)) { _fun00056_ip = 433; continue _fun00055 }
- 368:
-                        sizing = tangon.emit;
-                        foxtra = _closure1_slot0;
-                        romeon = _closure1_slot1;
-                        romeon = romeon[golfie];
-                        romeon = foxtra.bind(michal)(romeon);
-                        romeon = romeon.BaseConnectionEvent;
-                        cntext = romeon.SdpError;
-                        romeon = zuuluu;
-                        config = romeon.message;
-                        sequen = oscard.type;
-                        vacuum = oscard.sdp;
+                        foxtra = papara[result](cntext, record, config, sequen, vacuum, ctrled);
+                        backup = golfie;
+                        foxtra = null;
+                        if(!(foxtra != backup)) { _fun00056_ip = 424; continue _fun00055 }
+ 359:
+                        output = tangon.emit;
+                        backup = _closure1_slot0;
+                        foxtra = _closure1_slot1;
+                        foxtra = foxtra[option];
+                        foxtra = backup.bind(michal)(foxtra);
+                        foxtra = foxtra.BaseConnectionEvent;
+                        cntext = foxtra.SdpError;
+                        foxtra = report;
+                        config = foxtra.message;
+                        sequen = golfie.type;
+                        vacuum = golfie.sdp;
                         record = 'setLocalDescription';
                         papara = tangon;
-                        oscard = papara[sizing](cntext, record, config, sequen, vacuum, ctrled);
- 433:
-                        backup = option.JSON;
-                        foxtra = backup.stringify;
-                        oscard = _closure1_slot0;
-                        report = _closure1_slot1;
-                        romeon = 11;
-                        romeon = report[romeon];
-                        kiloes = oscard.bind(michal)(romeon);
-                        romeon = kiloes.getLogs;
-                        sizing = romeon.bind(kiloes)();
-                        kiloes = sizing.map;
-                        romeon = function(argFoo) {
+                        golfie = papara[output](cntext, record, config, sequen, vacuum, ctrled);
+ 424:
+                        kiloes = zuuluu.JSON;
+                        backup = kiloes.stringify;
+                        golfie = _closure1_slot0;
+                        oscard = _closure1_slot1;
+                        foxtra = 11;
+                        foxtra = oscard[foxtra];
+                        sizing = golfie.bind(michal)(foxtra);
+                        foxtra = sizing.getLogs;
+                        output = foxtra.bind(sizing)();
+                        sizing = output.map;
+                        foxtra = function(argFoo) {
                             entity = argFoo;
                             report = entity.time;
                             tangon = entity.message;
@@ -2299,64 +2297,79 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             entity = entity.bind(michal)();
                             return entity;
                         };
-                        romeon = kiloes.bind(sizing)(romeon);
-                        source = foxtra.bind(backup)(romeon);
-                        kiloes = yankee;
-                        config = offset;
-                        yankee = option.JSON;
-                        offset = yankee.stringify;
-                        vacuum = offset.bind(yankee)(verify);
-                        option = option.HermesInternal;
-                        romeon = option.concat;
+                        foxtra = sizing.bind(output)(foxtra);
+                        source = backup.bind(kiloes)(foxtra);
+                        output = romeon;
+                        config = yankee;
+                        romeon = zuuluu.JSON;
+                        yankee = romeon.stringify;
+                        vacuum = yankee.bind(romeon)(verify);
+                        verify = zuuluu.HermesInternal;
+                        backup = verify.concat;
                         papara = 'unassignedStreams: ';
                         record = ', assignedStreams: ';
                         sequen = ', ssrcs: ';
                         ctrled = ', logs: ';
-                        cntext = kiloes;
-                        vacuum = papara[romeon](cntext, record, config, sequen, vacuum, ctrled, source, update);
-                        option = tangon.emit;
-                        report = report[golfie];
-                        report = oscard.bind(michal)(report);
-                        report = report.BaseConnectionEvent;
-                        cntext = report.SdpError;
-                        config = zuuluu.message;
+                        cntext = output;
+                        vacuum = papara[backup](cntext, record, config, sequen, vacuum, ctrled, source, update);
+                        verify = tangon.emit;
+                        oscard = oscard[option];
+                        oscard = golfie.bind(michal)(oscard);
+                        oscard = oscard.BaseConnectionEvent;
+                        cntext = oscard.SdpError;
+                        config = report.message;
                         record = 'generateSDPAnswer';
-                        sequen = 'streams20250226';
+                        sequen = 'streams20250227';
                         papara = tangon;
-                        zuuluu = papara[option](cntext, record, config, sequen, vacuum, ctrled);
- 613:
+                        report = papara[verify](cntext, record, config, sequen, vacuum, ctrled);
+ 604:
+                        oscard = tangon.logger;
+                        report = oscard.info;
+                        verify = zuuluu.JSON;
+                        option = verify.stringify;
+                        golfie = tangon.unassignedStreams;
+                        verify = option.bind(verify)(golfie);
+                        yankee = zuuluu.JSON;
+                        option = yankee.stringify;
+                        golfie = tangon.assignedStreams;
+                        option = option.bind(yankee)(golfie);
+                        zuuluu = zuuluu.HermesInternal;
+                        golfie = zuuluu.concat;
+                        zuuluu = 'setRemoteDescription succeeded: unassigned streams: ';
+                        zuuluu = golfie.bind(zuuluu)(verify, offset, option);
+                        zuuluu = report.bind(oscard)(zuuluu);
                         report = tangon.unassignedStreams;
                         report = report.audio;
                         report = report.length;
                         oscard = 0;
                         report = report > oscard;
                         zuuluu = report;
-                        if(report) { _fun00056_ip = 663; continue _fun00055 }
- 642:
+                        if(report) { _fun00056_ip = 740; continue _fun00055 }
+ 719:
                         report = tangon.unassignedStreams;
                         report = report.video;
                         report = report.length;
                         zuuluu = report > oscard;
- 663:
-                        if(!zuuluu) { _fun00056_ip = 696; continue _fun00055 }
- 666:
+ 740:
+                        if(!zuuluu) { _fun00056_ip = 773; continue _fun00055 }
+ 743:
                         zuuluu = true;
                         tangon['negotiationNeeded'] = zuuluu;
                         oscard = tangon.logger;
                         report = oscard.info;
                         zuuluu = 'Renegotiating: Streams left unassigned after negotiation - renegotiate';
                         zuuluu = report.bind(oscard)(zuuluu);
- 696:
+ 773:
                         zuuluu = false;
                         tangon['negotiating'] = zuuluu;
                         zuuluu = tangon.negotiationNeeded;
-                        if(!zuuluu) { _fun00056_ip = 723; continue _fun00055 }
- 713:
+                        if(!zuuluu) { _fun00056_ip = 800; continue _fun00055 }
+ 790:
                         zuuluu = tangon.handleNegotiationNeeded;
                         zuuluu = zuuluu.bind(tangon)();
- 723:
+ 800:
                         return michal;
- 726:
+ 803:
                         return entity;
                     }
                 };

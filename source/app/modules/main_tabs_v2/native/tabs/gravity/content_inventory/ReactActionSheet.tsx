@@ -1079,7 +1079,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     var _closure3_slot0 = oscard;
                     michal = oscard.id;
                     entity = null;
-                    if(!(entity == michal)) { _fun00016_ip = 187; continue _fun00015 }
+                    if(!(entity == michal)) { _fun00016_ip = 191; continue _fun00015 }
  23:
                     tangon = _closure1_slot13;
                     golfie = _closure1_slot0;
@@ -1120,8 +1120,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = verify.bind(zuuluu)(golfie, report);
                     entity['children'] = report;
                     entity = tangon.bind(zuuluu)(michal, entity);
-                    _fun00016_ip = 394; continue _fun00015;
- 187:
+                    _fun00016_ip = 398; continue _fun00015;
+ 191:
                     report = _closure1_slot13;
                     zuuluu = _closure1_slot0;
                     foxtra = _closure1_slot2;
@@ -1175,7 +1175,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = verify.bind(tangon)(option, golfie, oscard);
                     michal['children'] = oscard;
                     entity = report.bind(tangon)(zuuluu, michal);
- 394:
+ 398:
                     return entity;
                 }
             };

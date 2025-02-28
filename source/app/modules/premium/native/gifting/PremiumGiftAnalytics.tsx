@@ -26,16 +26,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.AnalyticEvents;
     var _closure1_slot4 = tangon;
-    tangon = 2;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.Fragment;
-    var _closure1_slot5 = golfie;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot6 = tangon;
-    tangon = 8;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -43,45 +34,45 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: PremiumGiftAnalytics
         entity = argFoo;
-        romeon = entity.currentStep;
-        var _closure2_slot0 = romeon;
-        report = entity.children;
+        offset = entity.currentStep;
+        var _closure2_slot0 = offset;
+        entity = entity.children;
         oscard = _closure1_slot0;
-        tangon = _closure1_slot2;
-        zuuluu = 3;
-        zuuluu = tangon[zuuluu];
-        tangon = undefined;
-        oscard = oscard.bind(tangon)(zuuluu);
-        zuuluu = oscard.useNativeGiftContext;
-        oscard = zuuluu.bind(oscard)();
-        yankee = oscard.customGiftMessage;
-        var _closure2_slot1 = yankee;
-        zuuluu = oscard.productId;
+        report = _closure1_slot2;
+        zuuluu = 2;
+        report = report[zuuluu];
+        zuuluu = undefined;
+        report = oscard.bind(zuuluu)(report);
+        zuuluu = report.useNativeGiftContext;
+        report = zuuluu.bind(report)();
+        verify = report.customGiftMessage;
+        var _closure2_slot1 = verify;
+        zuuluu = report.productId;
         var _closure2_slot2 = zuuluu;
-        verify = oscard.basePurchaseAnalytics;
-        var _closure2_slot3 = verify;
-        golfie = _closure1_slot3;
-        option = golfie.useRef;
-        oscard = null;
-        option = option.bind(golfie)(oscard);
-        var _closure2_slot4 = option;
-        oscard = global;
-        offset = oscard.Date;
-        oscard = offset.now;
-        offset = oscard.bind(offset)();
-        oscard = golfie.useRef;
-        oscard = oscard.bind(golfie)(offset);
-        var _closure2_slot5 = oscard;
-        oscard = golfie.useRef;
-        oscard = oscard.bind(golfie)(offset);
-        var _closure2_slot6 = oscard;
-        offset = golfie.useEffect;
-        oscard = new Array(5);
-        oscard[0] = verify;
-        oscard[1] = romeon;
-        oscard[2] = option;
-        oscard[3] = yankee;
-        oscard[4] = zuuluu;
+        golfie = report.basePurchaseAnalytics;
+        var _closure2_slot3 = golfie;
+        report = _closure1_slot3;
+        oscard = report.useRef;
+        tangon = null;
+        oscard = oscard.bind(report)(tangon);
+        var _closure2_slot4 = oscard;
+        tangon = global;
+        option = tangon.Date;
+        tangon = option.now;
+        option = tangon.bind(option)();
+        tangon = report.useRef;
+        tangon = tangon.bind(report)(option);
+        var _closure2_slot5 = tangon;
+        tangon = report.useRef;
+        tangon = tangon.bind(report)(option);
+        var _closure2_slot6 = tangon;
+        option = report.useEffect;
+        tangon = new Array(5);
+        tangon[0] = golfie;
+        tangon[1] = offset;
+        tangon[2] = oscard;
+        tangon[3] = verify;
+        tangon[4] = zuuluu;
         zuuluu = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -101,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  58:
                 verify = _closure1_slot0;
                 yankee = _closure1_slot2;
-                tangon = 7;
+                tangon = 6;
                 tangon = yankee[tangon];
                 option = undefined;
                 report = verify.bind(option)(tangon);
@@ -109,14 +100,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = _closure2_slot3;
                 tangon = tangon.bind(report)(offset);
                 report = _closure1_slot1;
-                tangon = 5;
+                tangon = 4;
                 tangon = yankee[tangon];
                 oscard = report.bind(option)(tangon);
                 report = oscard.track;
                 zuuluu = _closure1_slot4;
                 tangon = zuuluu.PAYMENT_FLOW_LOADED;
                 zuuluu = {};
-                golfie = 4;
+                golfie = 3;
                 golfie = yankee[golfie];
                 verify = verify.bind(option)(golfie);
                 option = verify.getPaymentFlowStepAnalyticsFields;
@@ -132,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = _closure2_slot0;
                 report = _closure1_slot0;
                 zuuluu = _closure1_slot2;
-                offset = 4;
+                offset = 3;
                 zuuluu = zuuluu[offset];
                 verify = undefined;
                 zuuluu = report.bind(verify)(zuuluu);
@@ -142,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  234:
                 tangon = _closure1_slot1;
                 kiloes = _closure1_slot2;
-                zuuluu = 5;
+                zuuluu = 4;
                 zuuluu = kiloes[zuuluu];
                 oscard = tangon.bind(verify)(zuuluu);
                 report = oscard.track;
@@ -161,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 result = zuuluu;
                 golfie = copyDataProperties(result, output);
                 yankee = _closure2_slot1;
-                golfie = 6;
+                golfie = 5;
                 romeon = kiloes[golfie];
                 romeon = backup.bind(verify)(romeon);
                 foxtra = romeon.intl;
@@ -181,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  403:
                 tangon = _closure1_slot1;
                 golfie = _closure1_slot2;
-                zuuluu = 5;
+                zuuluu = 4;
                 zuuluu = golfie[zuuluu];
                 oscard = tangon.bind(verify)(zuuluu);
                 report = oscard.track;
@@ -224,11 +215,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             }
         };
-        zuuluu = offset.bind(golfie)(zuuluu, oscard);
-        oscard = golfie.useEffect;
+        zuuluu = option.bind(report)(zuuluu, tangon);
+        tangon = report.useEffect;
         zuuluu = new Array(2);
-        zuuluu[0] = verify;
-        zuuluu[1] = option;
+        zuuluu[0] = golfie;
+        zuuluu[1] = oscard;
         michal = function() {
             entity = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -237,7 +228,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = entity.current;
                     oscard = _closure1_slot0;
                     tangon = _closure1_slot2;
-                    entity = 4;
+                    entity = 3;
                     tangon = tangon[entity];
                     entity = undefined;
                     tangon = oscard.bind(entity)(tangon);
@@ -247,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  53:
                     report = _closure1_slot1;
                     oscard = _closure1_slot2;
-                    tangon = 5;
+                    tangon = 4;
                     tangon = oscard[tangon];
                     report = report.bind(entity)(tangon);
                     tangon = report.track;
@@ -261,12 +252,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             return entity;
         };
-        michal = oscard.bind(golfie)(michal, zuuluu);
-        zuuluu = _closure1_slot6;
-        michal = _closure1_slot5;
-        entity = {};
-        entity['children'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
+        michal = tangon.bind(report)(michal, zuuluu);
         return entity;
     };
     zuuluu['default'] = michal;

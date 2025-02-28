@@ -320,272 +320,276 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.bind(tangon)(backup);
             entity = _closure1_slot9;
             entity = entity.MESSAGE_DELETE;
-            if(!(backup !== entity)) { _fun00004_ip = 1142; continue _fun00003 }
+            if(!(backup !== entity)) { _fun00004_ip = 1159; continue _fun00003 }
  164:
             entity = _closure1_slot9;
             entity = entity.AUTO_MODERATION_BLOCK_MESSAGE;
-            if(!(backup !== entity)) { _fun00004_ip = 1114; continue _fun00003 }
+            if(!(backup !== entity)) { _fun00004_ip = 1131; continue _fun00003 }
  181:
             entity = _closure1_slot9;
             entity = entity.AUTO_MODERATION_FLAG_TO_CHANNEL;
-            if(!(backup !== entity)) { _fun00004_ip = 1114; continue _fun00003 }
+            if(!(backup !== entity)) { _fun00004_ip = 1131; continue _fun00003 }
  198:
             entity = _closure1_slot9;
             entity = entity.AUTO_MODERATION_USER_COMMUNICATION_DISABLED;
-            if(!(backup !== entity)) { _fun00004_ip = 1114; continue _fun00003 }
+            if(!(backup !== entity)) { _fun00004_ip = 1131; continue _fun00003 }
  215:
             entity = _closure1_slot9;
             entity = entity.AUTO_MODERATION_QUARANTINE_USER;
-            if(!(backup !== entity)) { _fun00004_ip = 1114; continue _fun00003 }
+            if(!(backup !== entity)) { _fun00004_ip = 1131; continue _fun00003 }
  232:
             entity = _closure1_slot7;
             entity = entity.ALL;
-            if(!(entity !== michal)) { _fun00004_ip = 1086; continue _fun00003 }
+            if(!(entity !== michal)) { _fun00004_ip = 1103; continue _fun00003 }
  249:
             entity = _closure1_slot7;
             entity = entity.CHANNEL;
-            if(!(entity !== michal)) { _fun00004_ip = 1058; continue _fun00003 }
+            if(!(entity !== michal)) { _fun00004_ip = 1075; continue _fun00003 }
  266:
             entity = _closure1_slot7;
             entity = entity.CHANNEL_OVERWRITE;
-            if(!(entity !== michal)) { _fun00004_ip = 1058; continue _fun00003 }
+            if(!(entity !== michal)) { _fun00004_ip = 1075; continue _fun00003 }
  283:
             entity = _closure1_slot7;
             entity = entity.EMOJI;
-            if(!(entity !== michal)) { _fun00004_ip = 1030; continue _fun00003 }
+            if(!(entity !== michal)) { _fun00004_ip = 1047; continue _fun00003 }
  300:
             entity = _closure1_slot7;
             entity = entity.GUILD;
-            if(!(entity !== michal)) { _fun00004_ip = 999; continue _fun00003 }
+            if(!(entity !== michal)) { _fun00004_ip = 1016; continue _fun00003 }
  317:
             entity = _closure1_slot7;
-            entity = entity.INTEGRATION;
-            if(!(entity !== michal)) { _fun00004_ip = 968; continue _fun00003 }
+            entity = entity.GUILD_PROFILE;
+            if(!(entity !== michal)) { _fun00004_ip = 1016; continue _fun00003 }
  334:
             entity = _closure1_slot7;
-            entity = entity.INVITE;
-            if(!(entity !== michal)) { _fun00004_ip = 937; continue _fun00003 }
+            entity = entity.INTEGRATION;
+            if(!(entity !== michal)) { _fun00004_ip = 985; continue _fun00003 }
  351:
             entity = _closure1_slot7;
-            entity = entity.ROLE;
-            if(!(entity !== michal)) { _fun00004_ip = 906; continue _fun00003 }
+            entity = entity.INVITE;
+            if(!(entity !== michal)) { _fun00004_ip = 954; continue _fun00003 }
  368:
             entity = _closure1_slot7;
-            entity = entity.USER;
-            if(!(entity !== michal)) { _fun00004_ip = 875; continue _fun00003 }
+            entity = entity.ROLE;
+            if(!(entity !== michal)) { _fun00004_ip = 923; continue _fun00003 }
  385:
             entity = _closure1_slot7;
-            entity = entity.WEBHOOK;
-            if(!(entity !== michal)) { _fun00004_ip = 844; continue _fun00003 }
+            entity = entity.USER;
+            if(!(entity !== michal)) { _fun00004_ip = 892; continue _fun00003 }
  402:
             entity = _closure1_slot7;
-            entity = entity.STAGE_INSTANCE;
-            if(!(entity !== michal)) { _fun00004_ip = 813; continue _fun00003 }
+            entity = entity.WEBHOOK;
+            if(!(entity !== michal)) { _fun00004_ip = 861; continue _fun00003 }
  419:
             entity = _closure1_slot7;
-            entity = entity.GUILD_SCHEDULED_EVENT;
-            if(!(entity !== michal)) { _fun00004_ip = 782; continue _fun00003 }
+            entity = entity.STAGE_INSTANCE;
+            if(!(entity !== michal)) { _fun00004_ip = 830; continue _fun00003 }
  436:
             entity = _closure1_slot7;
-            entity = entity.GUILD_SCHEDULED_EVENT_EXCEPTION;
-            if(!(entity !== michal)) { _fun00004_ip = 782; continue _fun00003 }
+            entity = entity.GUILD_SCHEDULED_EVENT;
+            if(!(entity !== michal)) { _fun00004_ip = 799; continue _fun00003 }
  453:
             entity = _closure1_slot7;
-            entity = entity.THREAD;
-            if(!(entity !== michal)) { _fun00004_ip = 751; continue _fun00003 }
+            entity = entity.GUILD_SCHEDULED_EVENT_EXCEPTION;
+            if(!(entity !== michal)) { _fun00004_ip = 799; continue _fun00003 }
  470:
             entity = _closure1_slot7;
-            entity = entity.STICKER;
-            if(!(entity !== michal)) { _fun00004_ip = 720; continue _fun00003 }
+            entity = entity.THREAD;
+            if(!(entity !== michal)) { _fun00004_ip = 768; continue _fun00003 }
  487:
             entity = _closure1_slot7;
-            entity = entity.APPLICATION_COMMAND;
-            if(!(entity !== michal)) { _fun00004_ip = 689; continue _fun00003 }
+            entity = entity.STICKER;
+            if(!(entity !== michal)) { _fun00004_ip = 737; continue _fun00003 }
  504:
             entity = _closure1_slot7;
-            entity = entity.AUTO_MODERATION_RULE;
-            if(!(entity !== michal)) { _fun00004_ip = 658; continue _fun00003 }
+            entity = entity.APPLICATION_COMMAND;
+            if(!(entity !== michal)) { _fun00004_ip = 706; continue _fun00003 }
  521:
             entity = _closure1_slot7;
+            entity = entity.AUTO_MODERATION_RULE;
+            if(!(entity !== michal)) { _fun00004_ip = 675; continue _fun00003 }
+ 538:
+            entity = _closure1_slot7;
             entity = entity.GUILD_SOUNDBOARD;
-            if(!(entity !== michal)) { _fun00004_ip = 627; continue _fun00003 }
- 535:
+            if(!(entity !== michal)) { _fun00004_ip = 644; continue _fun00003 }
+ 552:
             entity = _closure1_slot7;
             entity = entity.ONBOARDING_PROMPT;
-            if(!(entity !== michal)) { _fun00004_ip = 596; continue _fun00003 }
- 549:
+            if(!(entity !== michal)) { _fun00004_ip = 613; continue _fun00003 }
+ 566:
             entity = _closure1_slot7;
             entity = entity.GUILD_ONBOARDING;
-            if(!(entity !== michal)) { _fun00004_ip = 596; continue _fun00003 }
- 563:
+            if(!(entity !== michal)) { _fun00004_ip = 613; continue _fun00003 }
+ 580:
             entity = _closure1_slot7;
             entity = entity.HOME_SETTINGS;
-            if(!(entity !== michal)) { _fun00004_ip = 596; continue _fun00003 }
- 577:
+            if(!(entity !== michal)) { _fun00004_ip = 613; continue _fun00003 }
+ 594:
             entity = _closure1_slot7;
             entity = entity.GUILD_MEMBER_VERIFICATION;
             yankee = null;
-            if(!(entity === michal)) { _fun00004_ip = 1168; continue _fun00003 }
- 596:
+            if(!(entity === michal)) { _fun00004_ip = 1185; continue _fun00003 }
+ 613:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 33;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             yankee = entity.GroupIcon;
-            _fun00004_ip = 1168; continue _fun00003;
- 627:
+            _fun00004_ip = 1185; continue _fun00003;
+ 644:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 40;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             yankee = entity.SoundboardIcon;
-            _fun00004_ip = 1168; continue _fun00003;
- 658:
+            _fun00004_ip = 1185; continue _fun00003;
+ 675:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 34;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             yankee = entity.WebhookIcon;
-            _fun00004_ip = 1168; continue _fun00003;
- 689:
+            _fun00004_ip = 1185; continue _fun00003;
+ 706:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 39;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             yankee = entity.SlashBoxIcon;
-            _fun00004_ip = 1168; continue _fun00003;
- 720:
+            _fun00004_ip = 1185; continue _fun00003;
+ 737:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 38;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             yankee = entity.StickerIcon;
-            _fun00004_ip = 1168; continue _fun00003;
- 751:
+            _fun00004_ip = 1185; continue _fun00003;
+ 768:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 37;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             yankee = entity.ThreadIcon;
-            _fun00004_ip = 1168; continue _fun00003;
- 782:
+            _fun00004_ip = 1185; continue _fun00003;
+ 799:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 36;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             yankee = entity.CalendarIcon;
-            _fun00004_ip = 1168; continue _fun00003;
- 813:
+            _fun00004_ip = 1185; continue _fun00003;
+ 830:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 35;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             yankee = entity.StageIcon;
-            _fun00004_ip = 1168; continue _fun00003;
- 844:
+            _fun00004_ip = 1185; continue _fun00003;
+ 861:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 34;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             yankee = entity.WebhookIcon;
-            _fun00004_ip = 1168; continue _fun00003;
- 875:
+            _fun00004_ip = 1185; continue _fun00003;
+ 892:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 33;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             yankee = entity.GroupIcon;
-            _fun00004_ip = 1168; continue _fun00003;
- 906:
+            _fun00004_ip = 1185; continue _fun00003;
+ 923:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 32;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             yankee = entity.FlagIcon;
-            _fun00004_ip = 1168; continue _fun00003;
- 937:
+            _fun00004_ip = 1185; continue _fun00003;
+ 954:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 31;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             yankee = entity.LinkIcon;
-            _fun00004_ip = 1168; continue _fun00003;
- 968:
+            _fun00004_ip = 1185; continue _fun00003;
+ 985:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 30;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             yankee = entity.PuzzlePieceIcon;
-            _fun00004_ip = 1168; continue _fun00003;
- 999:
+            _fun00004_ip = 1185; continue _fun00003;
+ 1016:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 29;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             yankee = entity.CircleInformationIcon;
-            _fun00004_ip = 1168; continue _fun00003;
- 1030:
+            _fun00004_ip = 1185; continue _fun00003;
+ 1047:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 28;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             yankee = entity.ReactionIcon;
-            _fun00004_ip = 1168; continue _fun00003;
- 1058:
+            _fun00004_ip = 1185; continue _fun00003;
+ 1075:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 27;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             yankee = entity.ChannelListIcon;
-            _fun00004_ip = 1168; continue _fun00003;
- 1086:
+            _fun00004_ip = 1185; continue _fun00003;
+ 1103:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 26;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             yankee = entity.ListBulletsIcon;
-            _fun00004_ip = 1168; continue _fun00003;
- 1114:
+            _fun00004_ip = 1185; continue _fun00003;
+ 1131:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 25;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             yankee = entity.RobotIcon;
-            _fun00004_ip = 1168; continue _fun00003;
- 1142:
+            _fun00004_ip = 1185; continue _fun00003;
+ 1159:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 24;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             yankee = entity.ChatIcon;
- 1168:
+ 1185:
             zuuluu = _closure1_slot11;
             michal = _closure1_slot3;
             entity = {};
             report = offset.actionImageContainer;
             entity['style'] = report;
             report = null;
-            if(!(report == yankee)) { _fun00004_ip = 1245; continue _fun00003 }
- 1194:
+            if(!(report == yankee)) { _fun00004_ip = 1262; continue _fun00003 }
+ 1211:
             option = _closure1_slot10;
             golfie = _closure1_slot4;
             report = {};
@@ -597,8 +601,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = foxtra.bind(tangon)(backup, romeon);
             report['source'] = romeon;
             golfie = option.bind(tangon)(golfie, report);
-            _fun00004_ip = 1275; continue _fun00003;
- 1245:
+            _fun00004_ip = 1292; continue _fun00003;
+ 1262:
             option = _closure1_slot10;
             report = {};
             romeon = 'custom';
@@ -606,7 +610,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = offset.iconComponent;
             report['style'] = romeon;
             golfie = option.bind(tangon)(yankee, report);
- 1275:
+ 1292:
             report = new Array(3);
             report[0] = golfie;
             yankee = _closure1_slot10;

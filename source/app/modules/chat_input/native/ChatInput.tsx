@@ -114,14 +114,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = report.bind(entity)(option);
     option = option.jsx;
     var _closure1_slot28 = option;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsxs;
-    var _closure1_slot29 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.Fragment;
-    var _closure1_slot30 = tangon;
+    tangon = tangon.jsxs;
+    var _closure1_slot29 = tangon;
     tangon = 18;
     tangon = oscard[tangon];
     verify = report.bind(entity)(tangon);
@@ -208,11 +204,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     tangon = option.bind(verify)(tangon);
-    var _closure1_slot31 = tangon;
+    var _closure1_slot30 = tangon;
     tangon = {};
     option = 'function ChatInputTsx1(){const{textFieldHeight}=this.__closure;return{height:textFieldHeight.get()};}';
     tangon['code'] = option;
-    var _closure1_slot32 = tangon;
+    var _closure1_slot31 = tangon;
     tangon = golfie.forwardRef;
     michal = function(argFoo, argBar) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -221,9 +217,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = michal.channel;
             var _closure2_slot0 = verify;
             romeon = michal.isResourceChannel;
-            vacuum = michal.screenIndex;
-            variable51 = michal.setNoExtractUI;
-            output = michal.secondaryTextFieldRef;
+            ctrled = michal.screenIndex;
+            variable48 = michal.setNoExtractUI;
+            update = michal.secondaryTextFieldRef;
             sizing = michal.threadCreationCallback;
             report = undefined;
             var _closure2_slot2 = report;
@@ -243,10 +239,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.GradientPercentage;
             zuuluu = zuuluu.END;
             tangon = tangon.bind(oscard)(zuuluu);
-            zuuluu = _closure1_slot31;
-            variable43 = zuuluu.bind(report)(tangon);
-            variable37 = null;
-            zuuluu = variable37 != sizing;
+            zuuluu = _closure1_slot30;
+            variable40 = zuuluu.bind(report)(tangon);
+            equals = null;
+            zuuluu = equals != sizing;
             var _closure2_slot1 = zuuluu;
             tangon = verify.isPrivate;
             foxtra = tangon.bind(verify)();
@@ -279,8 +275,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            variable36 = yankee.bind(backup)(offset, option);
-            _closure2_slot2 = variable36;
+            whisks = yankee.bind(backup)(offset, option);
+            _closure2_slot2 = whisks;
             option = oscard[tangon];
             backup = golfie.bind(report)(option);
             yankee = backup.useStateFromStores;
@@ -303,8 +299,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            update = yankee.bind(backup)(offset, option);
-            _closure2_slot3 = update;
+            papara = yankee.bind(backup)(offset, option);
+            _closure2_slot3 = papara;
             oscard = oscard[tangon];
             offset = golfie.bind(report)(oscard);
             option = offset.useStateFromStores;
@@ -338,7 +334,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            variable38 = option.bind(offset)(golfie, oscard);
+            quebec = option.bind(offset)(golfie, oscard);
             offset = _closure1_slot5;
             option = offset.useMemo;
             oscard = verify.id;
@@ -365,10 +361,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            variable40 = option.bind(offset)(oscard, golfie);
-            if(!(variable37 != variable36)) { _fun00004_ip = 342; continue _fun00003 }
+            variable37 = option.bind(offset)(oscard, golfie);
+            if(!(equals != whisks)) { _fun00004_ip = 342; continue _fun00003 }
  339:
-            variable40 = variable36;
+            variable37 = whisks;
  342:
             golfie = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -495,8 +491,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             oscard = offset.bind(backup)(option, oscard, golfie);
             source = oscard.canMentionEveryone;
-            variable39 = oscard.canUpload;
-            variable41 = oscard.canSendVoiceMessage;
+            variable36 = oscard.canUpload;
+            variable38 = oscard.canSendVoiceMessage;
             golfie = oscard.editable;
             option = oscard.canCreateThreads;
             offset = _closure1_slot1;
@@ -504,13 +500,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = yankee[oscard];
             oscard = offset.bind(report)(oscard);
             oscard = oscard.bind(report)();
-            variable47 = oscard.analyticsLocations;
-            result = zuuluu;
-            if(result) { _fun00004_ip = 469; continue _fun00003 }
+            variable44 = oscard.analyticsLocations;
+            output = zuuluu;
+            if(output) { _fun00004_ip = 469; continue _fun00003 }
  465:
-            result = variable37 != variable36;
+            output = equals != whisks;
  469:
-            if(result) { _fun00004_ip = 506; continue _fun00003 }
+            if(output) { _fun00004_ip = 506; continue _fun00003 }
  472:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -519,28 +515,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.bind(report)(oscard);
             oscard = offset.getIsActiveChannelOrUnarchivableThread;
             oscard = oscard.bind(offset)(verify);
-            result = !oscard;
+            output = !oscard;
  506:
-            echoed = variable37 != update;
+            result = equals != papara;
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
             oscard = 22;
             oscard = yankee[oscard];
             offset = offset.bind(report)(oscard);
             oscard = offset.useCanStartThread;
-            variable50 = oscard.bind(offset)(verify);
-            if(!variable50) { _fun00004_ip = 572; continue _fun00003 }
+            variable47 = oscard.bind(offset)(verify);
+            if(!variable47) { _fun00004_ip = 572; continue _fun00003 }
  544:
             oscard = _closure1_slot22;
             yankee = oscard.GUILD_THREADS_ONLY;
             offset = yankee.has;
             oscard = verify.type;
             oscard = offset.bind(yankee)(oscard);
-            variable50 = !oscard;
+            variable47 = !oscard;
  572:
-            if(!variable50) { _fun00004_ip = 578; continue _fun00003 }
+            if(!variable47) { _fun00004_ip = 578; continue _fun00003 }
  575:
-            variable50 = !zuuluu;
+            variable47 = !zuuluu;
  578:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -548,24 +544,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = yankee[oscard];
             offset = offset.bind(report)(oscard);
             oscard = offset.useCanPostPollsInChannel;
-            variable46 = oscard.bind(offset)(verify);
-            if(!variable46) { _fun00004_ip = 615; continue _fun00003 }
+            variable43 = oscard.bind(offset)(verify);
+            if(!variable43) { _fun00004_ip = 615; continue _fun00003 }
  612:
-            variable46 = !zuuluu;
+            variable43 = !zuuluu;
  615:
             yankee = _closure1_slot0;
             oscard = _closure1_slot2;
-            whisks = 25;
-            offset = oscard[whisks];
+            status = 25;
+            offset = oscard[status];
             kiloes = yankee.bind(report)(offset);
             backup = kiloes.useSharedValue;
             offset = 37;
             offset = backup.bind(kiloes)(offset);
             _closure2_slot4 = offset;
-            backup = oscard[whisks];
-            ctrled = yankee.bind(report)(backup);
-            kiloes = ctrled.useAnimatedStyle;
-            backup = function() { // Original name: w
+            backup = oscard[status];
+            echoed = yankee.bind(report)(backup);
+            kiloes = echoed.useAnimatedStyle;
+            backup = function() { // Original name: K
                 entity = {};
                 zuuluu = _closure2_slot4;
                 michal = zuuluu.get;
@@ -573,17 +569,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['height'] = michal;
                 return entity;
             };
-            sequen = {};
-            sequen['textFieldHeight'] = offset;
-            backup['__closure'] = sequen;
-            sequen = 9294501099507.0;
-            backup['__workletHash'] = sequen;
-            sequen = _closure1_slot32;
-            backup['__initData'] = sequen;
-            variable45 = kiloes.bind(ctrled)(backup);
+            vacuum = {};
+            vacuum['textFieldHeight'] = offset;
+            backup['__closure'] = vacuum;
+            vacuum = 9294501099507.0;
+            backup['__workletHash'] = vacuum;
+            vacuum = _closure1_slot31;
+            backup['__initData'] = vacuum;
+            variable42 = kiloes.bind(echoed)(backup);
             backup = oscard[tangon];
-            sequen = yankee.bind(report)(backup);
-            ctrled = sequen.useStateFromStores;
+            vacuum = yankee.bind(report)(backup);
+            echoed = vacuum.useStateFromStores;
             backup = _closure1_slot16;
             kiloes = new Array(1);
             kiloes[0] = backup;
@@ -592,24 +588,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.keyboardType;
                 return entity;
             };
-            variable49 = ctrled.bind(sequen)(kiloes, backup);
+            variable46 = echoed.bind(vacuum)(kiloes, backup);
             kiloes = _closure1_slot5;
-            ctrled = kiloes.useState;
+            echoed = kiloes.useState;
             backup = true;
-            sequen = ctrled.bind(kiloes)(backup);
-            ctrled = _closure1_slot4;
+            vacuum = echoed.bind(kiloes)(backup);
+            echoed = _closure1_slot4;
             backup = 2;
-            sequen = ctrled.bind(report)(sequen, backup);
+            vacuum = echoed.bind(report)(vacuum, backup);
             backup = 0;
-            ctrled = sequen[backup];
+            echoed = vacuum[backup];
             backup = 1;
-            record = sequen[backup];
-            _closure2_slot5 = record;
-            target = 26;
-            oscard = oscard[target];
+            vacuum = vacuum[backup];
+            _closure2_slot5 = vacuum;
+            record = 26;
+            oscard = oscard[record];
             yankee = yankee.bind(report)(oscard);
             oscard = yankee.useChatInputAppDMUIEnabled;
-            variable44 = oscard.bind(yankee)(verify, record);
+            variable41 = oscard.bind(yankee)(verify, vacuum);
             backup = kiloes.useMemo;
             yankee = new Array(1);
             yankee[0] = verify;
@@ -621,7 +617,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['type'] = michal;
                 return entity;
             };
-            papara = backup.bind(kiloes)(oscard, yankee);
+            config = backup.bind(kiloes)(oscard, yankee);
             yankee = _closure1_slot10;
             oscard = function(argFoo) {
                 entity = argFoo;
@@ -630,9 +626,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity != michal;
                 return entity;
             };
-            status = yankee.bind(report)(oscard);
-            equals = !zuuluu;
-            variable42 = equals;
+            cntext = yankee.bind(report)(oscard);
+            sierra = !zuuluu;
+            variable39 = sierra;
             if(zuuluu) { _fun00004_ip = 909; continue _fun00003 }
  878:
             yankee = _closure1_slot0;
@@ -641,7 +637,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = backup[oscard];
             yankee = yankee.bind(report)(oscard);
             oscard = yankee.getIsAppLauncherEnabled;
-            variable42 = oscard.bind(yankee)(verify);
+            variable39 = oscard.bind(yankee)(verify);
  909:
             yankee = _closure1_slot0;
             kiloes = _closure1_slot2;
@@ -659,7 +655,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            variable48 = backup.bind(sequen)(oscard, tangon);
+            variable45 = backup.bind(sequen)(oscard, tangon);
             oscard = _closure1_slot1;
             tangon = 28;
             tangon = kiloes[tangon];
@@ -670,33 +666,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon['isReadonly'] = sequen;
             tangon['isCreatingThread'] = zuuluu;
             tangon = backup.bind(report)(tangon);
-            variable52 = tangon.placeholder;
-            variable53 = tangon.accessibilityLabel;
+            variable49 = tangon.placeholder;
+            variable50 = tangon.accessibilityLabel;
             tangon = 29;
             tangon = kiloes[tangon];
             oscard = oscard.bind(report)(tangon);
             tangon = {};
             backup = {};
-            backup['analyticsLocations'] = variable47;
-            backup['canUpload'] = variable39;
+            backup['analyticsLocations'] = variable44;
+            backup['canUpload'] = variable36;
             backup['channel'] = verify;
-            backup['defaultValue'] = variable40;
-            backup['hasAttachmentsToUpload'] = variable38;
-            backup['pendingEdit'] = variable36;
-            backup['pendingReply'] = update;
-            backup['screenIndex'] = vacuum;
-            backup['secondaryTextFieldRef'] = output;
+            backup['defaultValue'] = variable37;
+            backup['hasAttachmentsToUpload'] = quebec;
+            backup['pendingEdit'] = whisks;
+            backup['pendingReply'] = papara;
+            backup['screenIndex'] = ctrled;
+            backup['secondaryTextFieldRef'] = update;
             backup['threadCreationCallback'] = sizing;
             tangon['chatInputProps'] = backup;
             tangon['chatInputTextFieldHeight'] = offset;
             offset = argBar;
             tangon['ref'] = offset;
-            cntext = oscard.bind(report)(tangon);
-            _closure2_slot6 = cntext;
+            sequen = oscard.bind(report)(tangon);
+            _closure2_slot6 = sequen;
             backup = _closure1_slot5;
             offset = backup.useEffect;
             oscard = new Array(1);
-            oscard[0] = cntext;
+            oscard[0] = sequen;
             tangon = function() {
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
@@ -721,10 +717,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = offset.bind(backup)(tangon, oscard);
             offset = backup.useEffect;
             oscard = new Array(4);
-            oscard[0] = cntext;
+            oscard[0] = sequen;
             oscard[1] = verify;
-            oscard[2] = variable36;
-            oscard[3] = update;
+            oscard[2] = whisks;
+            oscard[3] = papara;
             tangon = function() {
                 _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
@@ -816,7 +812,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = offset.bind(backup)(tangon, oscard);
             offset = backup.useEffect;
             oscard = new Array(1);
-            oscard[0] = cntext;
+            oscard[0] = sequen;
             tangon = function() {
                 report = function(argFoo) { // Original name: handleOpenKeyboard
                     _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
@@ -885,7 +881,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = offset.bind(backup)(tangon, oscard);
             offset = backup.useMemo;
             oscard = new Array(1);
-            oscard[0] = cntext;
+            oscard[0] = sequen;
             tangon = function() {
                 entity = {};
                 zuuluu = function(argFoo) { // Original name: handleBlur
@@ -1920,8 +1916,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['handleToggleKeyboard'] = michal;
                 return entity;
             };
-            quebec = offset.bind(backup)(tangon, oscard);
-            _closure2_slot7 = quebec;
+            limora = offset.bind(backup)(tangon, oscard);
+            _closure2_slot7 = limora;
             oscard = _closure1_slot29;
             tangon = _closure1_slot6;
             entity = {};
@@ -1947,20 +1943,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup.bind(report)(foxtra);
             foxtra = {};
             foxtra['channel'] = verify;
-            vacuum = '';
-            sizing = vacuum !== variable40;
+            ctrled = '';
+            sizing = ctrled !== variable37;
             if(sizing) { _fun00004_ip = 1357; continue _fun00003 }
  1323:
-            output = cntext.chatInput;
-            config = output.current;
-            sequen = variable37 == config;
-            output = undefined;
-            if(sequen) { _fun00004_ip = 1353; continue _fun00003 }
+            update = sequen.chatInput;
+            variable51 = update.current;
+            target = equals == variable51;
+            update = undefined;
+            if(target) { _fun00004_ip = 1353; continue _fun00003 }
  1343:
-            sequen = config.getText;
-            output = sequen.bind(config)();
+            target = variable51.getText;
+            update = target.bind(variable51)();
  1353:
-            sizing = vacuum !== output;
+            sizing = ctrled !== update;
  1357:
             foxtra['hasInputText'] = sizing;
             yankee = kiloes.bind(report)(backup, foxtra);
@@ -1972,20 +1968,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = _closure1_slot28;
             backup = _closure1_slot6;
             foxtra = {};
-            sizing = variable43.accessoriesContainer;
+            sizing = variable40.accessoriesContainer;
             foxtra['style'] = sizing;
             sizing = {};
-            output = variable43.accessories;
-            sizing['style'] = output;
-            vacuum = _closure1_slot1;
-            sequen = _closure1_slot2;
-            output = 52;
-            output = sequen[output];
-            vacuum = vacuum.bind(report)(output);
-            output = {};
-            output['channel'] = verify;
-            output = kiloes.bind(report)(vacuum, output);
-            sizing['children'] = output;
+            update = variable40.accessories;
+            sizing['style'] = update;
+            ctrled = _closure1_slot1;
+            target = _closure1_slot2;
+            update = 52;
+            update = target[update];
+            ctrled = ctrled.bind(report)(update);
+            update = {};
+            update['channel'] = verify;
+            update = kiloes.bind(report)(ctrled, update);
+            sizing['children'] = update;
             sizing = kiloes.bind(report)(backup, sizing);
             foxtra['children'] = sizing;
             yankee = kiloes.bind(report)(backup, foxtra);
@@ -2022,313 +2018,309 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = backup[yankee];
             romeon = romeon.bind(report)(yankee);
             yankee = {};
-            backup = cntext.chatInputExpressionSuggestionsPopoutRef;
+            backup = sequen.chatInputExpressionSuggestionsPopoutRef;
             yankee['ref'] = backup;
             yankee['channel'] = verify;
-            backup = cntext.chatInput;
+            backup = sequen.chatInput;
             yankee['chatInputRef'] = backup;
             yankee = foxtra.bind(report)(romeon, yankee);
             offset[5] = yankee;
             foxtra = _closure1_slot29;
             romeon = _closure1_slot6;
             yankee = {};
-            backup = quebec.handleLayout;
+            backup = limora.handleLayout;
             yankee['onLayout'] = backup;
             backup = _closure1_slot20;
             backup = backup.EXPRESSION;
             kiloes = null;
-            if(!(variable49 !== backup)) { _fun00004_ip = 1745; continue _fun00003 }
+            if(!(variable46 !== backup)) { _fun00004_ip = 1745; continue _fun00003 }
  1652:
-            output = _closure1_slot28;
+            update = _closure1_slot28;
             sizing = _closure1_slot1;
-            vacuum = _closure1_slot2;
+            ctrled = _closure1_slot2;
             backup = 56;
-            backup = vacuum[backup];
+            backup = ctrled[backup];
             sizing = sizing.bind(report)(backup);
             backup = {};
-            vacuum = cntext.chatInputAutocomplete;
-            backup['ref'] = vacuum;
-            backup['analyticsLocations'] = variable47;
+            ctrled = sequen.chatInputAutocomplete;
+            backup['ref'] = ctrled;
+            backup['analyticsLocations'] = variable44;
             backup['channel'] = verify;
             backup['canMentionEveryone'] = source;
-            backup['keyboardType'] = variable49;
-            source = quebec.handleChangeAutoCompleteVisibility;
+            backup['keyboardType'] = variable46;
+            source = limora.handleChangeAutoCompleteVisibility;
             backup['onChangeAutoCompleteVisibility'] = source;
-            backup['commandsDisabled'] = result;
-            backup['canOnlyUseTextCommands'] = echoed;
-            source = cntext.chatInput;
+            backup['commandsDisabled'] = output;
+            backup['canOnlyUseTextCommands'] = result;
+            source = sequen.chatInput;
             backup['chatInputRef'] = source;
-            kiloes = output.bind(report)(sizing, backup);
+            kiloes = update.bind(report)(sizing, backup);
  1745:
             backup = new Array(5);
             backup[0] = kiloes;
-            output = _closure1_slot28;
-            vacuum = _closure1_slot1;
-            sequen = _closure1_slot2;
+            source = _closure1_slot28;
+            update = _closure1_slot1;
+            ctrled = _closure1_slot2;
             kiloes = 57;
-            kiloes = sequen[kiloes];
-            sizing = vacuum.bind(report)(kiloes);
+            kiloes = ctrled[kiloes];
+            sizing = update.bind(report)(kiloes);
             kiloes = {};
             kiloes['channel'] = verify;
-            source = cntext.chatInput;
-            kiloes['chatInputRef'] = source;
-            kiloes['pendingEdit'] = variable36;
-            kiloes['pendingReply'] = update;
-            kiloes = output.bind(report)(sizing, kiloes);
+            target = sequen.chatInput;
+            kiloes['chatInputRef'] = target;
+            kiloes['pendingEdit'] = whisks;
+            kiloes['pendingReply'] = papara;
+            kiloes = source.bind(report)(sizing, kiloes);
             backup[1] = kiloes;
             kiloes = 58;
-            kiloes = sequen[kiloes];
-            sizing = vacuum.bind(report)(kiloes);
+            kiloes = ctrled[kiloes];
+            sizing = update.bind(report)(kiloes);
             kiloes = {};
-            update = cntext.chatInputAppCommandManager;
-            kiloes['ref'] = update;
-            kiloes['canOnlyUseTextCommands'] = echoed;
+            papara = sequen.chatInputAppCommandManager;
+            kiloes['ref'] = papara;
+            kiloes['canOnlyUseTextCommands'] = result;
             kiloes['channel'] = verify;
-            echoed = cntext.chatInput;
-            kiloes['chatInputRef'] = echoed;
-            echoed = cntext.state;
-            kiloes['chatInputStateRef'] = echoed;
-            kiloes['commandsDisabled'] = result;
-            kiloes = output.bind(report)(sizing, kiloes);
+            result = sequen.chatInput;
+            kiloes['chatInputRef'] = result;
+            result = sequen.state;
+            kiloes['chatInputStateRef'] = result;
+            kiloes['commandsDisabled'] = output;
+            kiloes = source.bind(report)(sizing, kiloes);
             backup[2] = kiloes;
-            sizing = _closure1_slot30;
+            output = _closure1_slot29;
+            sizing = _closure1_slot6;
             kiloes = {};
-            update = _closure1_slot29;
-            echoed = _closure1_slot6;
+            result = variable40.container;
+            kiloes['style'] = result;
+            result = 59;
+            result = ctrled[result];
+            update = update.bind(report)(result);
             result = {};
-            source = variable43.container;
-            result['style'] = source;
-            source = 59;
-            source = sequen[source];
-            vacuum = vacuum.bind(report)(source);
-            source = {};
-            source['canUpload'] = variable39;
-            sequen = verify.id;
-            source['channelId'] = sequen;
-            vacuum = output.bind(report)(vacuum, source);
-            source = new Array(2);
-            source[0] = vacuum;
-            if(!variable44) { _fun00004_ip = 1959; continue _fun00003 }
+            result['canUpload'] = variable36;
+            ctrled = verify.id;
+            result['channelId'] = ctrled;
+            update = source.bind(report)(update, result);
+            result = new Array(2);
+            result[0] = update;
+            if(!variable41) { _fun00004_ip = 1953; continue _fun00003 }
+ 1947:
+            if(echoed) { _fun00004_ip = 2748; continue _fun00003 }
  1953:
-            if(ctrled) { _fun00004_ip = 2754; continue _fun00003 }
- 1959:
-            sequen = _closure1_slot29;
-            vacuum = _closure1_slot6;
-            ctrled = {};
-            config = variable43.containerInner;
-            ctrled['style'] = config;
-            ctrled['accessibilityElementsHidden'] = status;
-            config = undefined;
-            if(!status) { _fun00004_ip = 1995; continue _fun00003 }
+            source = _closure1_slot29;
+            update = _closure1_slot6;
+            echoed = {};
+            ctrled = variable40.containerInner;
+            echoed['style'] = ctrled;
+            echoed['accessibilityElementsHidden'] = cntext;
+            ctrled = undefined;
+            if(!cntext) { _fun00004_ip = 1989; continue _fun00003 }
+ 1983:
+            ctrled = 'no-hide-descendants';
  1989:
-            config = 'no-hide-descendants';
- 1995:
-            ctrled['importantForAccessibility'] = config;
-            status = null;
-            if(!golfie) { _fun00004_ip = 2125; continue _fun00003 }
- 2005:
-            limora = _closure1_slot28;
-            sierra = _closure1_slot1;
-            variable54 = _closure1_slot2;
-            config = 60;
-            config = variable54[config];
-            sierra = sierra.bind(report)(config);
-            config = {};
-            variable54 = cntext.chatInputActions;
-            config['ref'] = variable54;
-            config['channel'] = verify;
-            variable54 = quebec.handlePressAction;
-            config['onPressAction'] = variable54;
-            config['canStartThreads'] = variable50;
-            config['isAppLauncherEnabled'] = variable42;
-            config['isCreatingThread'] = zuuluu;
-            config['keyboardType'] = variable49;
-            variable42 = variable39;
-            if(!variable39) { _fun00004_ip = 2086; continue _fun00003 }
- 2082:
-            variable42 = variable37 == variable48;
+            echoed['importantForAccessibility'] = ctrled;
+            cntext = null;
+            if(!golfie) { _fun00004_ip = 2119; continue _fun00003 }
+ 1999:
+            target = _closure1_slot28;
+            papara = _closure1_slot1;
+            variable51 = _closure1_slot2;
+            ctrled = 60;
+            ctrled = variable51[ctrled];
+            papara = papara.bind(report)(ctrled);
+            ctrled = {};
+            variable51 = sequen.chatInputActions;
+            ctrled['ref'] = variable51;
+            ctrled['channel'] = verify;
+            variable51 = limora.handlePressAction;
+            ctrled['onPressAction'] = variable51;
+            ctrled['canStartThreads'] = variable47;
+            ctrled['isAppLauncherEnabled'] = variable39;
+            ctrled['isCreatingThread'] = zuuluu;
+            ctrled['keyboardType'] = variable46;
+            variable39 = variable36;
+            if(!variable36) { _fun00004_ip = 2080; continue _fun00003 }
+ 2076:
+            variable39 = equals == variable45;
+ 2080:
+            if(variable39) { _fun00004_ip = 2086; continue _fun00003 }
+ 2083:
+            variable39 = variable43;
  2086:
-            if(variable42) { _fun00004_ip = 2092; continue _fun00003 }
- 2089:
-            variable42 = variable46;
- 2092:
-            variable42 = !variable42;
-            config['shouldPhotosButtonBeDisabled'] = variable42;
-            config['shouldShowHideChatInputButton'] = variable44;
-            variable42 = equals;
-            if(zuuluu) { _fun00004_ip = 2114; continue _fun00003 }
- 2111:
-            variable42 = !variable44;
- 2114:
-            config['shouldShowGiftButton'] = variable42;
-            status = limora.bind(report)(sierra, config);
- 2125:
-            config = new Array(3);
-            config[0] = status;
-            limora = _closure1_slot29;
-            sierra = _closure1_slot6;
+            variable39 = !variable39;
+            ctrled['shouldPhotosButtonBeDisabled'] = variable39;
+            ctrled['shouldShowHideChatInputButton'] = variable41;
+            variable39 = sierra;
+            if(zuuluu) { _fun00004_ip = 2108; continue _fun00003 }
+ 2105:
+            variable39 = !variable41;
+ 2108:
+            ctrled['shouldShowGiftButton'] = variable39;
+            cntext = target.bind(report)(papara, ctrled);
+ 2119:
+            ctrled = new Array(3);
+            ctrled[0] = cntext;
+            target = _closure1_slot29;
+            papara = _closure1_slot6;
+            cntext = {};
+            variable39 = variable40.input;
+            cntext['style'] = variable39;
+            variable43 = _closure1_slot1;
+            variable47 = _closure1_slot2;
+            status = variable47[status];
+            status = variable43.bind(report)(status);
+            variable39 = status.View;
             status = {};
-            variable42 = variable43.input;
-            status['style'] = variable42;
-            variable46 = _closure1_slot1;
-            variable50 = _closure1_slot2;
-            whisks = variable50[whisks];
-            whisks = variable46.bind(report)(whisks);
-            variable42 = whisks.View;
-            whisks = {};
-            variable48 = variable43.inputDefault;
-            variable44 = new Array(2);
-            variable44[0] = variable48;
-            variable44[1] = variable45;
-            whisks['style'] = variable44;
-            variable48 = _closure1_slot28;
-            variable44 = 61;
-            variable44 = variable50[variable44];
-            variable45 = variable46.bind(report)(variable44);
-            variable44 = {};
-            variable44['accessibilityLabel'] = variable53;
-            variable54 = _closure1_slot0;
-            variable53 = 62;
-            variable53 = variable50[variable53];
-            variable53 = variable54.bind(report)(variable53);
-            variable53 = variable53.PORTAL_KEYBOARD_PLACEHOLDER_INSTANCE;
-            variable44['customKeyboard'] = variable53;
-            variable44['editable'] = golfie;
-            variable53 = quebec.handleFocus;
-            variable44['onBeginFocus'] = variable53;
-            variable53 = quebec.handleBlur;
-            variable44['onEndBlur'] = variable53;
-            variable53 = quebec.handleChangeContentSize;
-            variable44['onChangeContentSize'] = variable53;
-            variable53 = quebec.handleSelectionOrTextChange;
-            variable44['onSelectionOrTextChange'] = variable53;
-            variable53 = quebec.handleTextFlushed;
-            variable44['onTextFlushed'] = variable53;
-            variable53 = quebec.handlePasteImage;
-            variable44['onPasteImage'] = variable53;
-            variable53 = quebec.handlePasteCommand;
-            variable44['onPasteCommand'] = variable53;
-            variable53 = quebec.handleTapAction;
-            variable44['onTapAction'] = variable53;
-            variable53 = quebec.handlePressSend;
-            variable44['onRequestSend'] = variable53;
-            variable44['placeholder'] = variable52;
-            variable52 = cntext.chatInputNative;
-            variable44['ref'] = variable52;
-            variable44['setNoExtractUI'] = variable51;
-            variable51 = _closure1_slot20;
-            variable51 = variable51.MEDIA;
-            variable51 = variable49 !== variable51;
-            variable44['shouldShowCursor'] = variable51;
-            variable45 = variable48.bind(report)(variable45, variable44);
-            variable44 = new Array(2);
-            variable44[0] = variable45;
-            variable45 = 63;
-            variable45 = variable50[variable45];
-            variable46 = variable46.bind(report)(variable45);
-            variable45 = {};
-            variable45['keyboardType'] = variable49;
-            variable50 = quebec.handleToggleKeyboard;
-            variable45['onSelectKeyboard'] = variable50;
-            variable50 = cntext.chatInputCover;
-            variable45['ref'] = variable50;
-            variable45 = variable48.bind(report)(variable46, variable45);
-            variable44[1] = variable45;
-            whisks['children'] = variable44;
-            variable42 = limora.bind(report)(variable42, whisks);
-            whisks = new Array(2);
-            whisks[0] = variable42;
-            variable42 = {};
-            variable43 = variable43.rightAccessory;
-            variable42['style'] = variable43;
-            variable44 = null;
-            if(!golfie) { _fun00004_ip = 2551; continue _fun00003 }
- 2490:
-            variable46 = _closure1_slot28;
-            variable45 = _closure1_slot1;
-            variable48 = _closure1_slot2;
-            variable43 = 64;
-            variable43 = variable48[variable43];
-            variable45 = variable45.bind(report)(variable43);
-            variable43 = {};
+            variable45 = variable40.inputDefault;
+            variable41 = new Array(2);
+            variable41[0] = variable45;
+            variable41[1] = variable42;
+            status['style'] = variable41;
+            variable45 = _closure1_slot28;
+            variable41 = 61;
+            variable41 = variable47[variable41];
+            variable42 = variable43.bind(report)(variable41);
+            variable41 = {};
+            variable41['accessibilityLabel'] = variable50;
+            variable51 = _closure1_slot0;
+            variable50 = 62;
+            variable50 = variable47[variable50];
+            variable50 = variable51.bind(report)(variable50);
+            variable50 = variable50.PORTAL_KEYBOARD_PLACEHOLDER_INSTANCE;
+            variable41['customKeyboard'] = variable50;
+            variable41['editable'] = golfie;
+            variable50 = limora.handleFocus;
+            variable41['onBeginFocus'] = variable50;
+            variable50 = limora.handleBlur;
+            variable41['onEndBlur'] = variable50;
+            variable50 = limora.handleChangeContentSize;
+            variable41['onChangeContentSize'] = variable50;
+            variable50 = limora.handleSelectionOrTextChange;
+            variable41['onSelectionOrTextChange'] = variable50;
+            variable50 = limora.handleTextFlushed;
+            variable41['onTextFlushed'] = variable50;
+            variable50 = limora.handlePasteImage;
+            variable41['onPasteImage'] = variable50;
+            variable50 = limora.handlePasteCommand;
+            variable41['onPasteCommand'] = variable50;
+            variable50 = limora.handleTapAction;
+            variable41['onTapAction'] = variable50;
+            variable50 = limora.handlePressSend;
+            variable41['onRequestSend'] = variable50;
+            variable41['placeholder'] = variable49;
+            variable49 = sequen.chatInputNative;
+            variable41['ref'] = variable49;
+            variable41['setNoExtractUI'] = variable48;
             variable48 = _closure1_slot20;
-            variable48 = variable48.EXPRESSION;
-            variable48 = variable49 === variable48;
-            variable43['active'] = variable48;
-            variable48 = quebec.handlePressExpression;
-            variable43['onPress'] = variable48;
-            variable44 = variable46.bind(report)(variable45, variable43);
- 2551:
-            variable43 = new Array(2);
-            variable43[0] = variable44;
-            variable46 = _closure1_slot28;
-            variable45 = _closure1_slot1;
-            variable48 = _closure1_slot2;
-            variable44 = 65;
-            variable44 = variable48[variable44];
-            variable45 = variable45.bind(report)(variable44);
-            variable44 = {};
-            variable44['analyticsLocations'] = variable47;
-            variable47 = cntext.chatInputCharCounter;
-            variable44['ref'] = variable47;
-            variable44 = variable46.bind(report)(variable45, variable44);
-            variable43[1] = variable44;
-            variable42['children'] = variable43;
-            variable42 = limora.bind(report)(sierra, variable42);
-            whisks[1] = variable42;
-            status['children'] = whisks;
-            status = limora.bind(report)(sierra, status);
-            config[1] = status;
-            if(golfie) { _fun00004_ip = 2646; continue _fun00003 }
- 2641:
-            status = null;
-            if(!zuuluu) { _fun00004_ip = 2738; continue _fun00003 }
- 2646:
-            whisks = _closure1_slot28;
-            limora = _closure1_slot1;
-            variable42 = _closure1_slot2;
-            sierra = 66;
-            sierra = variable42[sierra];
-            limora = limora.bind(report)(sierra);
-            sierra = {};
-            variable42 = cntext.chatInputSendButton;
-            sierra['ref'] = variable42;
-            sierra['canSendVoiceMessage'] = variable41;
-            sierra['channel'] = verify;
-            sierra['defaultValue'] = variable40;
-            if(!variable38) { _fun00004_ip = 2702; continue _fun00003 }
- 2699:
-            variable38 = variable39;
- 2702:
-            sierra['hasPendingAttachments'] = variable38;
-            variable36 = variable37 != variable36;
-            sierra['hasPendingEdit'] = variable36;
-            quebec = quebec.handlePressSend;
-            sierra['onSendMessage'] = quebec;
-            sierra['requireTextContent'] = equals;
-            status = whisks.bind(report)(limora, sierra);
- 2738:
-            config[2] = status;
-            ctrled['children'] = config;
-            ctrled = sequen.bind(report)(vacuum, ctrled);
-            _fun00004_ip = 2809; continue _fun00003;
- 2754:
-            config = _closure1_slot28;
-            sequen = _closure1_slot0;
-            vacuum = _closure1_slot2;
-            vacuum = vacuum[target];
-            vacuum = sequen.bind(report)(vacuum);
-            sequen = vacuum.ChatInputAppDM;
-            vacuum = {};
-            vacuum['context'] = papara;
-            cntext = cntext.chatInput;
-            vacuum['chatInputRef'] = cntext;
-            vacuum['setShowAppLaunchButton'] = record;
-            ctrled = config.bind(report)(sequen, vacuum);
- 2809:
-            source[1] = ctrled;
-            result['children'] = source;
-            result = update.bind(report)(echoed, result);
+            variable48 = variable48.MEDIA;
+            variable48 = variable46 !== variable48;
+            variable41['shouldShowCursor'] = variable48;
+            variable42 = variable45.bind(report)(variable42, variable41);
+            variable41 = new Array(2);
+            variable41[0] = variable42;
+            variable42 = 63;
+            variable42 = variable47[variable42];
+            variable43 = variable43.bind(report)(variable42);
+            variable42 = {};
+            variable42['keyboardType'] = variable46;
+            variable47 = limora.handleToggleKeyboard;
+            variable42['onSelectKeyboard'] = variable47;
+            variable47 = sequen.chatInputCover;
+            variable42['ref'] = variable47;
+            variable42 = variable45.bind(report)(variable43, variable42);
+            variable41[1] = variable42;
+            status['children'] = variable41;
+            variable39 = target.bind(report)(variable39, status);
+            status = new Array(2);
+            status[0] = variable39;
+            variable39 = {};
+            variable40 = variable40.rightAccessory;
+            variable39['style'] = variable40;
+            variable41 = null;
+            if(!golfie) { _fun00004_ip = 2545; continue _fun00003 }
+ 2484:
+            variable43 = _closure1_slot28;
+            variable42 = _closure1_slot1;
+            variable45 = _closure1_slot2;
+            variable40 = 64;
+            variable40 = variable45[variable40];
+            variable42 = variable42.bind(report)(variable40);
+            variable40 = {};
+            variable45 = _closure1_slot20;
+            variable45 = variable45.EXPRESSION;
+            variable45 = variable46 === variable45;
+            variable40['active'] = variable45;
+            variable45 = limora.handlePressExpression;
+            variable40['onPress'] = variable45;
+            variable41 = variable43.bind(report)(variable42, variable40);
+ 2545:
+            variable40 = new Array(2);
+            variable40[0] = variable41;
+            variable43 = _closure1_slot28;
+            variable42 = _closure1_slot1;
+            variable45 = _closure1_slot2;
+            variable41 = 65;
+            variable41 = variable45[variable41];
+            variable42 = variable42.bind(report)(variable41);
+            variable41 = {};
+            variable41['analyticsLocations'] = variable44;
+            variable44 = sequen.chatInputCharCounter;
+            variable41['ref'] = variable44;
+            variable41 = variable43.bind(report)(variable42, variable41);
+            variable40[1] = variable41;
+            variable39['children'] = variable40;
+            variable39 = target.bind(report)(papara, variable39);
+            status[1] = variable39;
+            cntext['children'] = status;
+            cntext = target.bind(report)(papara, cntext);
+            ctrled[1] = cntext;
+            if(golfie) { _fun00004_ip = 2640; continue _fun00003 }
+ 2635:
+            cntext = null;
+            if(!zuuluu) { _fun00004_ip = 2732; continue _fun00003 }
+ 2640:
+            status = _closure1_slot28;
+            target = _closure1_slot1;
+            variable39 = _closure1_slot2;
+            papara = 66;
+            papara = variable39[papara];
+            target = target.bind(report)(papara);
+            papara = {};
+            variable39 = sequen.chatInputSendButton;
+            papara['ref'] = variable39;
+            papara['canSendVoiceMessage'] = variable38;
+            papara['channel'] = verify;
+            papara['defaultValue'] = variable37;
+            if(!quebec) { _fun00004_ip = 2696; continue _fun00003 }
+ 2693:
+            quebec = variable36;
+ 2696:
+            papara['hasPendingAttachments'] = quebec;
+            whisks = equals != whisks;
+            papara['hasPendingEdit'] = whisks;
+            limora = limora.handlePressSend;
+            papara['onSendMessage'] = limora;
+            papara['requireTextContent'] = sierra;
+            cntext = status.bind(report)(target, papara);
+ 2732:
+            ctrled[2] = cntext;
+            echoed['children'] = ctrled;
+            echoed = source.bind(report)(update, echoed);
+            _fun00004_ip = 2803; continue _fun00003;
+ 2748:
+            ctrled = _closure1_slot28;
+            source = _closure1_slot0;
+            update = _closure1_slot2;
+            update = update[record];
+            update = source.bind(report)(update);
+            source = update.ChatInputAppDM;
+            update = {};
+            update['context'] = config;
+            sequen = sequen.chatInput;
+            update['chatInputRef'] = sequen;
+            update['setShowAppLaunchButton'] = vacuum;
+            echoed = ctrled.bind(report)(source, update);
+ 2803:
+            result[1] = echoed;
             kiloes['children'] = result;
             kiloes = output.bind(report)(sizing, kiloes);
             backup[3] = kiloes;
@@ -2340,15 +2332,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = sizing.isAndroid;
             sizing = kiloes.bind(sizing)();
             kiloes = undefined;
-            if(!sizing) { _fun00004_ip = 2897; continue _fun00003 }
- 2871:
+            if(!sizing) { _fun00004_ip = 2881; continue _fun00003 }
+ 2855:
             output = _closure1_slot0;
             result = _closure1_slot2;
             sizing = 62;
             sizing = result[sizing];
             sizing = output.bind(report)(sizing);
             kiloes = sizing.PORTAL_KEYBOARD_PLACEHOLDER_INSTANCE;
- 2897:
+ 2881:
             backup[4] = kiloes;
             yankee['children'] = backup;
             yankee = foxtra.bind(report)(romeon, yankee);
@@ -2356,8 +2348,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = offset;
             oscard = oscard.bind(report)(tangon, entity);
             entity = oscard;
-            if(zuuluu) { _fun00004_ip = 2989; continue _fun00003 }
- 2931:
+            if(zuuluu) { _fun00004_ip = 2973; continue _fun00003 }
+ 2915:
             tangon = _closure1_slot28;
             zuuluu = _closure1_slot1;
             offset = _closure1_slot2;
@@ -2372,7 +2364,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['isReadonly'] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 2989:
+ 2973:
             return entity;
         }
     };

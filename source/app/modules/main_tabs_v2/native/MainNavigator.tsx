@@ -895,29 +895,42 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     foxtra['getComponent'] = cntext;
                     foxtra = record.bind(zuuluu)(config, foxtra);
                     sequen[5] = foxtra;
+                    record = _closure1_slot12;
+                    foxtra = _closure1_slot17;
+                    config = foxtra.Screen;
+                    foxtra = {};
+                    cntext = 'sidebar';
+                    foxtra['name'] = cntext;
+                    cntext = _closure1_slot29;
+                    foxtra['getComponent'] = cntext;
+                    cntext = function() { // Original name: options
+                        entity = {};
+                        tangon = _closure1_slot1;
+                        zuuluu = _closure1_slot2;
+                        michal = 40;
+                        michal = zuuluu[michal];
+                        zuuluu = undefined;
+                        michal = tangon.bind(zuuluu)(michal);
+                        report = michal.bind(zuuluu)();
+                        oscard = entity;
+                        michal = copyDataProperties(oscard, report);
+                        zuuluu = false;
+                        michal = 'lockOrientation';
+                        entity[michal] = zuuluu;
+                        return entity;
+                    };
+                    foxtra['options'] = cntext;
+                    foxtra = record.bind(zuuluu)(config, foxtra);
+                    sequen[6] = foxtra;
                     cntext = _closure1_slot12;
                     foxtra = _closure1_slot17;
                     record = foxtra.Screen;
                     config = {};
-                    foxtra = 'sidebar';
+                    foxtra = 'message-requests';
                     config['name'] = foxtra;
-                    foxtra = _closure1_slot29;
-                    config['getComponent'] = foxtra;
                     status = _closure1_slot1;
                     foxtra = _closure1_slot2;
                     target = 40;
-                    sierra = foxtra[target];
-                    sierra = status.bind(zuuluu)(sierra);
-                    sierra = sierra.bind(zuuluu)();
-                    config['options'] = sierra;
-                    config = cntext.bind(zuuluu)(record, config);
-                    sequen[6] = config;
-                    cntext = _closure1_slot12;
-                    config = _closure1_slot17;
-                    record = config.Screen;
-                    config = {};
-                    sierra = 'message-requests';
-                    config['name'] = sierra;
                     sierra = foxtra[target];
                     sierra = status.bind(zuuluu)(sierra);
                     sierra = sierra.bind(zuuluu)();
@@ -1021,19 +1034,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     foxtra = foxtra.APP_EXTRA_COMPONENTS_NEVER_FREEZE;
                     option[2] = foxtra;
                     foxtra = _closure1_slot20;
-                    if(!foxtra) { _fun00008_ip = 1001; continue _fun00007 }
- 992:
+                    if(!foxtra) { _fun00008_ip = 995; continue _fun00007 }
+ 986:
                     romeon = _closure2_slot6;
                     offset = null;
-                    if(romeon) { _fun00008_ip = 1027; continue _fun00007 }
- 1001:
+                    if(romeon) { _fun00008_ip = 1021; continue _fun00007 }
+ 995:
                     foxtra = _closure1_slot0;
                     backup = _closure1_slot2;
                     romeon = 41;
                     romeon = backup[romeon];
                     romeon = foxtra.bind(zuuluu)(romeon);
                     offset = romeon.MOVED_TO_ACTION_SHEET_ON_ANDROID_COMPONENTS;
- 1027:
+ 1021:
                     option[3] = offset;
                     offset = _closure1_slot0;
                     verify = _closure1_slot2;

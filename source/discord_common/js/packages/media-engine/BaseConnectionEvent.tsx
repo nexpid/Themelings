@@ -92,6 +92,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['SecureFramesUpdate'] = entity;
     entity = 'sdp-error';
     michal['SdpError'] = entity;
+    entity = 'voice-filter-changed';
+    michal['VoiceFilterChanged'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

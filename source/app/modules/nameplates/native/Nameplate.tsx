@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot6 = tangon;
-    tangon = 10;
+    tangon = 9;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -113,59 +113,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = zuuluu[entity];
             entity = michal.bind(report)(entity);
             oscard = entity.bind(report)();
-            michal = _closure1_slot0;
-            entity = 6;
-            entity = zuuluu[entity];
-            zuuluu = michal.bind(report)(entity);
-            michal = zuuluu.useCanSeeNameplates;
-            entity = 'Nameplate';
-            michal = michal.bind(zuuluu)(entity);
-            option = null;
-            entity = option == offset;
-            foxtra = undefined;
-            if(entity) { _fun00004_ip = 122; continue _fun00003 }
- 116:
-            foxtra = offset.src;
- 122:
+            entity = null;
+            if(!(entity != offset)) { _fun00004_ip = 359; continue _fun00003 }
+ 81:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
-            entity = 7;
-            entity = tangon[entity];
-            tangon = zuuluu.bind(report)(entity);
+            michal = 6;
+            michal = tangon[michal];
+            tangon = zuuluu.bind(report)(michal);
             zuuluu = tangon.getBackgroundGradientColors;
-            verify = option == offset;
-            entity = undefined;
-            if(verify) { _fun00004_ip = 163; continue _fun00003 }
- 157:
-            entity = offset.palette;
- 163:
-            kiloes = zuuluu.bind(tangon)(entity, oscard);
-            zuuluu = option != offset;
-            entity = null;
-            if(!zuuluu) { _fun00004_ip = 433; continue _fun00003 }
- 181:
-            entity = null;
-            if(!michal) { _fun00004_ip = 433; continue _fun00003 }
- 189:
-            michal = option != foxtra;
-            entity = null;
-            if(!michal) { _fun00004_ip = 433; continue _fun00003 }
- 201:
+            michal = offset.palette;
+            kiloes = zuuluu.bind(tangon)(michal, oscard);
+            foxtra = offset.src;
             tangon = _closure1_slot5;
             zuuluu = _closure1_slot3;
             michal = {};
-            verify = yankee.container;
+            option = yankee.container;
             oscard = new Array(1);
-            oscard[0] = verify;
+            oscard[0] = option;
             michal['style'] = oscard;
-            oscard = option != kiloes;
+            oscard = entity != kiloes;
             option = null;
-            if(!oscard) { _fun00004_ip = 333; continue _fun00003 }
- 237:
+            if(!oscard) { _fun00004_ip = 257; continue _fun00003 }
+ 161:
             romeon = _closure1_slot4;
             verify = _closure1_slot1;
             backup = _closure1_slot2;
-            oscard = 8;
+            oscard = 7;
             oscard = backup[oscard];
             verify = verify.bind(report)(oscard);
             oscard = {};
@@ -182,13 +156,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup[1] = kiloes;
             oscard['colors'] = backup;
             option = romeon.bind(report)(verify, oscard);
- 333:
+ 257:
             oscard = new Array(2);
             oscard[0] = option;
             verify = _closure1_slot4;
             option = _closure1_slot1;
             romeon = _closure1_slot2;
-            golfie = 9;
+            golfie = 8;
             golfie = romeon[golfie];
             option = option.bind(report)(golfie);
             golfie = {};
@@ -206,8 +180,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = verify.bind(report)(option, golfie);
             oscard[1] = golfie;
             michal['children'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
- 433:
+            michal = tangon.bind(report)(zuuluu, michal);
+            return michal;
+ 359:
             return entity;
         }
     };

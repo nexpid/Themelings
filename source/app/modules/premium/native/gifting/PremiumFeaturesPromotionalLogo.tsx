@@ -57,62 +57,62 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = michal.avatarSize;
             source = michal.promoAvatarStyle;
             ctrled = michal.promoSecondaryAvatarStyle;
-            backup = michal.promoRotatingStyle;
+            yankee = michal.promoRotatingStyle;
             zuuluu = _closure1_slot0;
-            golfie = _closure1_slot2;
+            verify = _closure1_slot2;
             michal = 4;
-            option = golfie[michal];
+            golfie = verify[michal];
             tangon = undefined;
-            romeon = zuuluu.bind(tangon)(option);
-            offset = romeon.useStateFromStores;
-            option = _closure1_slot5;
-            verify = new Array(1);
-            verify[0] = option;
-            option = function() {
+            foxtra = zuuluu.bind(tangon)(golfie);
+            romeon = foxtra.useStateFromStores;
+            golfie = _closure1_slot5;
+            offset = new Array(1);
+            offset[0] = golfie;
+            golfie = function() {
                 michal = _closure1_slot5;
                 entity = michal.getCurrentUser;
                 entity = entity.bind(michal)();
                 return entity;
             };
-            romeon = offset.bind(romeon)(verify, option);
-            michal = golfie[michal];
-            verify = zuuluu.bind(tangon)(michal);
-            option = verify.useStateFromStores;
-            offset = _closure1_slot4;
+            sizing = romeon.bind(foxtra)(offset, golfie);
+            michal = verify[michal];
+            offset = zuuluu.bind(tangon)(michal);
+            golfie = offset.useStateFromStores;
+            romeon = _closure1_slot4;
             michal = new Array(1);
-            michal[0] = offset;
+            michal[0] = romeon;
             entity = function() {
                 entity = _closure1_slot4;
                 entity = entity.useReducedMotion;
                 return entity;
             };
-            offset = option.bind(verify)(michal, entity);
+            golfie = golfie.bind(offset)(michal, entity);
             entity = 5;
-            entity = golfie[entity];
+            entity = verify[entity];
             michal = zuuluu.bind(tangon)(entity);
             entity = michal.useTheme;
             entity = entity.bind(michal)();
-            option = _closure1_slot3;
-            michal = option.useRef;
+            offset = _closure1_slot3;
+            michal = offset.useRef;
             sequen = null;
-            sizing = michal.bind(option)(sequen);
-            output = 6;
-            michal = golfie[output];
+            foxtra = michal.bind(offset)(sequen);
+            backup = 6;
+            michal = verify[backup];
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = zuuluu.useAPNGPlayerControls;
-            zuuluu = michal.bind(zuuluu)(sizing);
+            zuuluu = michal.bind(zuuluu)(foxtra);
             michal = zuuluu.stop;
             michal = michal.bind(zuuluu)();
             michal = zuuluu.play;
             michal = michal.bind(zuuluu)();
             zuuluu = _closure1_slot1;
             michal = 7;
-            michal = golfie[michal];
+            michal = verify[michal];
             michal = zuuluu.bind(tangon)(michal);
             michal = michal.bind(tangon)();
-            golfie = sequen == michal;
+            verify = sequen == michal;
             zuuluu = undefined;
-            if(golfie) { _fun00002_ip = 251; continue _fun00001 }
+            if(verify) { _fun00002_ip = 251; continue _fun00001 }
  245:
             zuuluu = michal.planSelection;
  251:
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return tangon;
  257:
             michal = sequen == zuuluu;
-            kiloes = undefined;
+            romeon = undefined;
             if(michal) { _fun00002_ip = 290; continue _fun00001 }
  266:
             michal = zuuluu.getImageUrl;
@@ -130,57 +130,57 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  281:
             entity = report;
  284:
-            kiloes = michal.bind(zuuluu)(entity, offset);
+            romeon = michal.bind(zuuluu)(entity, golfie);
  290:
             zuuluu = _closure1_slot8;
             michal = _closure1_slot7;
             entity = {};
             report = oscard.length;
             cntext = 1;
-            golfie = cntext === report;
-            if(!golfie) { _fun00002_ip = 431; continue _fun00001 }
+            verify = cntext === report;
+            if(!verify) { _fun00002_ip = 431; continue _fun00001 }
  315:
-            verify = _closure1_slot6;
-            option = _closure1_slot1;
+            kiloes = _closure1_slot6;
+            offset = _closure1_slot1;
             report = _closure1_slot2;
             echoed = 8;
             report = report[echoed];
-            option = option.bind(tangon)(report);
+            offset = offset.bind(tangon)(report);
             report = {};
-            report['user'] = romeon;
+            report['user'] = sizing;
             report['guildId'] = tangon;
-            romeon = {};
-            foxtra = 0;
-            foxtra = oscard[foxtra];
-            foxtra = foxtra.assetId;
-            romeon['asset'] = foxtra;
-            report['avatarDecoration'] = romeon;
-            romeon = !offset;
-            report['animate'] = romeon;
-            romeon = vacuum;
+            sizing = {};
+            output = 0;
+            output = oscard[output];
+            output = output.assetId;
+            sizing['asset'] = output;
+            report['avatarDecoration'] = sizing;
+            sizing = !golfie;
+            report['animate'] = sizing;
+            sizing = vacuum;
             if(!(sequen == vacuum)) { _fun00002_ip = 417; continue _fun00001 }
  388:
             result = _closure1_slot0;
-            foxtra = _closure1_slot2;
-            foxtra = foxtra[echoed];
-            foxtra = result.bind(tangon)(foxtra);
-            foxtra = foxtra.AvatarSizes;
-            romeon = foxtra.XLARGE;
+            output = _closure1_slot2;
+            output = output[echoed];
+            output = result.bind(tangon)(output);
+            output = output.AvatarSizes;
+            sizing = output.XLARGE;
  417:
-            report['size'] = romeon;
+            report['size'] = sizing;
             report['style'] = source;
-            golfie = verify.bind(tangon)(option, report);
+            verify = kiloes.bind(tangon)(offset, report);
  431:
             report = new Array(3);
-            report[0] = golfie;
-            option = oscard.length;
-            golfie = 2;
-            option = golfie === option;
-            if(!option) { _fun00002_ip = 734; continue _fun00001 }
+            report[0] = verify;
+            offset = oscard.length;
+            verify = 2;
+            offset = verify === offset;
+            if(!offset) { _fun00002_ip = 734; continue _fun00001 }
  457:
-            foxtra = _closure1_slot8;
-            romeon = _closure1_slot7;
-            verify = {};
+            output = _closure1_slot8;
+            sizing = _closure1_slot7;
+            kiloes = {};
             update = _closure1_slot6;
             papara = _closure1_slot1;
             config = _closure1_slot2;
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = papara.assetId;
             config['asset'] = papara;
             result['avatarDecoration'] = config;
-            config = !offset;
+            config = !golfie;
             result['animate'] = config;
             config = vacuum;
             if(!(sequen == vacuum)) { _fun00002_ip = 581; continue _fun00001 }
@@ -231,7 +231,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = cntext.assetId;
             config['asset'] = cntext;
             echoed['avatarDecoration'] = config;
-            config = !offset;
+            config = !golfie;
             echoed['animate'] = config;
             if(!(sequen == vacuum)) { _fun00002_ip = 706; continue _fun00001 }
  677:
@@ -246,61 +246,57 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed['style'] = ctrled;
             echoed = source.bind(tangon)(update, echoed);
             result[1] = echoed;
-            verify['children'] = result;
-            option = foxtra.bind(tangon)(romeon, verify);
+            kiloes['children'] = result;
+            offset = output.bind(tangon)(sizing, kiloes);
  734:
-            report[1] = option;
+            report[1] = offset;
             oscard = oscard.length;
-            oscard = oscard > golfie;
-            if(!oscard) { _fun00002_ip = 919; continue _fun00001 }
+            oscard = oscard > verify;
+            if(!oscard) { _fun00002_ip = 902; continue _fun00001 }
  753:
-            verify = _closure1_slot6;
-            option = _closure1_slot7;
+            offset = _closure1_slot0;
+            kiloes = _closure1_slot2;
+            verify = 10;
+            verify = kiloes[verify];
+            offset = offset.bind(tangon)(verify);
+            verify = offset.isAndroid;
+            verify = verify.bind(offset)();
+            if(!verify) { _fun00002_ip = 844; continue _fun00001 }
+ 785:
+            if(golfie) { _fun00002_ip = 844; continue _fun00001 }
+ 788:
+            offset = _closure1_slot6;
+            verify = _closure1_slot0;
+            golfie = _closure1_slot2;
+            golfie = golfie[backup];
+            golfie = verify.bind(tangon)(golfie);
+            verify = golfie.APNGPlayer;
             golfie = {};
-            foxtra = _closure1_slot0;
-            result = _closure1_slot2;
-            romeon = 10;
-            romeon = result[romeon];
-            foxtra = foxtra.bind(tangon)(romeon);
-            romeon = foxtra.isAndroid;
-            romeon = romeon.bind(foxtra)();
-            if(!romeon) { _fun00002_ip = 854; continue _fun00001 }
- 795:
-            if(offset) { _fun00002_ip = 854; continue _fun00001 }
- 798:
-            foxtra = _closure1_slot6;
-            romeon = _closure1_slot0;
-            offset = _closure1_slot2;
-            offset = offset[output];
-            offset = romeon.bind(tangon)(offset);
-            romeon = offset.APNGPlayer;
-            offset = {};
-            offset['ref'] = sizing;
-            offset['url'] = kiloes;
-            sizing = true;
-            offset['autoplay'] = sizing;
-            offset['style'] = backup;
-            offset = foxtra.bind(tangon)(romeon, offset);
-            _fun00002_ip = 909; continue _fun00001;
- 854:
-            foxtra = _closure1_slot6;
-            romeon = _closure1_slot1;
-            sizing = _closure1_slot2;
-            yankee = 11;
-            yankee = sizing[yankee];
-            romeon = romeon.bind(tangon)(yankee);
+            golfie['ref'] = foxtra;
+            golfie['url'] = romeon;
+            foxtra = true;
+            golfie['autoplay'] = foxtra;
+            golfie['style'] = yankee;
+            golfie = offset.bind(tangon)(verify, golfie);
+            _fun00002_ip = 899; continue _fun00001;
+ 844:
+            offset = _closure1_slot6;
+            verify = _closure1_slot1;
+            foxtra = _closure1_slot2;
+            option = 11;
+            option = foxtra[option];
+            verify = verify.bind(tangon)(option);
+            option = {};
+            option['style'] = yankee;
+            yankee = 'contain';
+            option['resizeMode'] = yankee;
             yankee = {};
-            yankee['style'] = backup;
-            backup = 'contain';
-            yankee['resizeMode'] = backup;
-            backup = {};
-            backup['uri'] = kiloes;
-            yankee['source'] = backup;
-            offset = foxtra.bind(tangon)(romeon, yankee);
- 909:
-            golfie['children'] = offset;
-            oscard = verify.bind(tangon)(option, golfie);
- 919:
+            yankee['uri'] = romeon;
+            option['source'] = yankee;
+            golfie = offset.bind(tangon)(verify, option);
+ 899:
+            oscard = golfie;
+ 902:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

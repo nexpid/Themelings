@@ -235,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         }
     };
     oscard['fromCompressionQuality'] = report;
-    report = {'bitrateFloor': 300000, 'createHDR': false, 'frameRate': 30, 'keyFrameIntervalSeconds': 3, 'rotationDegrees': 0, 'skipVideoTranscode': false, 'targetBitrate': null, 'targetHeight': 480, 'targetWidth': 640, 'useHEVC': false, 'videoQuality': null, 'hevcIsSupported': false, 'useTranscodedVideoForMovSources': false};
+    report = {'bitrateFloor': 300000, 'createHDR': false, 'frameRate': 30, 'keyFrameIntervalSeconds': 3, 'rotationDegrees': 0, 'skipVideoTranscode': false, 'targetBitrate': null, 'targetHeight': 480, 'targetWidth': 640, 'useHEVC': false, 'videoQuality': null, 'hevcIsSupported': false, 'useTranscodedVideoForMovSources': false, 'useHardwareAcceleration': false};
     golfie = oscard.MEDIUM;
     golfie = golfie.targetBitrate;
     report['targetBitrate'] = golfie;
@@ -437,18 +437,18 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity = 'Encoder Video Quality Settings:';
             entity = zuuluu.bind(golfie)(entity);
             tangon = golfie.info;
-            report = michal.videoQuality;
+            oscard = michal.videoQuality;
             option = null;
-            zuuluu = option == report;
+            zuuluu = option == oscard;
             entity = undefined;
             offset = undefined;
             if(zuuluu) { _fun00012_ip = 61; continue _fun00011 }
  52:
-            zuuluu = report.toString;
-            offset = zuuluu.bind(report)();
+            zuuluu = oscard.toString;
+            offset = zuuluu.bind(oscard)();
  61:
-            report = global;
-            zuuluu = report.HermesInternal;
+            oscard = global;
+            zuuluu = oscard.HermesInternal;
             verify = zuuluu.concat;
             zuuluu = '- Compression Quality: ';
             zuuluu = verify.bind(zuuluu)(offset);
@@ -462,7 +462,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  115:
             yankee = zuuluu.targetResolution;
  121:
-            zuuluu = report.HermesInternal;
+            zuuluu = oscard.HermesInternal;
             offset = zuuluu.concat;
             verify = '- Compression Quality Target Resolution: ';
             zuuluu = 'p';
@@ -477,7 +477,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  178:
             verify = zuuluu.targetBitrate;
  184:
-            zuuluu = report.HermesInternal;
+            zuuluu = oscard.HermesInternal;
             option = zuuluu.concat;
             zuuluu = '- Compression Quality Max Bitrate: ';
             romeon = ' bps';
@@ -490,7 +490,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = michal.skipVideoTranscode;
             tangon = _closure1_slot6;
             zuuluu = tangon.info;
-            if(golfie) { _fun00012_ip = 610; continue _fun00011 }
+            if(golfie) { _fun00012_ip = 653; continue _fun00011 }
  261:
             golfie = michal.useHEVC;
             option = 'avc1 (H.264)';
@@ -505,7 +505,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             option = offset.info;
             backup = michal.targetWidth;
             foxtra = michal.targetHeight;
-            golfie = report.HermesInternal;
+            golfie = oscard.HermesInternal;
             yankee = golfie.concat;
             verify = '- Dimensions: ';
             golfie = 'x';
@@ -513,14 +513,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = option.bind(offset)(golfie);
             option = offset.info;
             yankee = michal.targetBitrate;
-            golfie = report.HermesInternal;
+            golfie = oscard.HermesInternal;
             verify = golfie.concat;
             golfie = '- Bitrate: ';
             golfie = verify.bind(golfie)(yankee, romeon);
             golfie = option.bind(offset)(golfie);
             option = offset.info;
             romeon = michal.frameRate;
-            golfie = report.HermesInternal;
+            golfie = oscard.HermesInternal;
             yankee = golfie.concat;
             verify = '- Frame Rate: ';
             golfie = ' fps';
@@ -528,7 +528,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = option.bind(offset)(golfie);
             option = offset.info;
             romeon = michal.keyFrameIntervalSeconds;
-            golfie = report.HermesInternal;
+            golfie = oscard.HermesInternal;
             yankee = golfie.concat;
             verify = '- Key Frame Interval: ';
             golfie = ' seconds';
@@ -545,28 +545,39 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             option = '- Create HDR: ';
             option = option + yankee;
             option = verify.bind(offset)(option);
+            verify = _closure1_slot6;
+            option = verify.info;
+            yankee = michal.rotationDegrees;
+            oscard = oscard.HermesInternal;
+            offset = oscard.concat;
+            oscard = '- Rotation Degrees: ';
+            oscard = offset.bind(oscard)(yankee);
+            oscard = option.bind(verify)(oscard);
+            option = verify.info;
+            oscard = michal.hevcIsSupported;
+            offset = golfie;
+            if(!oscard) { _fun00012_ip = 596; continue _fun00011 }
+ 590:
+            offset = 'Yes';
+ 596:
+            oscard = '- HEVC Supported: ';
+            oscard = oscard + offset;
+            oscard = option.bind(verify)(oscard);
             oscard = _closure1_slot6;
-            option = oscard.info;
-            offset = michal.rotationDegrees;
-            report = report.HermesInternal;
-            verify = report.concat;
-            report = '- Rotation Degrees: ';
-            report = verify.bind(report)(offset);
-            report = option.bind(oscard)(report);
             report = oscard.info;
-            michal = michal.hevcIsSupported;
-            if(!michal) { _fun00012_ip = 593; continue _fun00011 }
- 587:
+            michal = michal.useHardwareAcceleration;
+            if(!michal) { _fun00012_ip = 636; continue _fun00011 }
+ 630:
             golfie = 'Yes';
- 593:
-            michal = '- HEVC Supported: ';
+ 636:
+            michal = '- Use Hardware Acceleration: ';
             michal = michal + golfie;
             michal = report.bind(oscard)(michal);
-            _fun00012_ip = 621; continue _fun00011;
- 610:
+            _fun00012_ip = 664; continue _fun00011;
+ 653:
             michal = '- Skip Video Transcode: Yes';
             michal = zuuluu.bind(tangon)(michal);
- 621:
+ 664:
             return entity;
         }
     };
@@ -634,30 +645,34 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         }
     };
     zuuluu['calculateOptimalBitrate'] = tangon;
-    michal = function(argFoo, argBar, argBaz, argCor) { // Original name: shouldUseHEVC
+    michal = function(argFoo, argBar, argBaz, argCor, argGra) { // Original name: shouldUseHEVC
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-            entity = argBar;
-            michal = !entity;
-            if(michal) { _fun00016_ip = 15; continue _fun00015 }
- 9:
-            entity = argBaz;
-            michal = !entity;
- 15:
-            entity = !michal;
-            if(michal) { _fun00016_ip = 48; continue _fun00015 }
- 21:
             michal = argCor;
-            michal = !michal;
-            if(michal) { _fun00016_ip = 45; continue _fun00015 }
- 30:
+            entity = argBar;
+            zuuluu = !entity;
+            if(zuuluu) { _fun00016_ip = 18; continue _fun00015 }
+ 12:
+            entity = argBaz;
+            zuuluu = !entity;
+ 18:
+            entity = !zuuluu;
+            if(zuuluu) { _fun00016_ip = 54; continue _fun00015 }
+ 24:
+            if(!michal) { _fun00016_ip = 42; continue _fun00015 }
+ 27:
             zuuluu = argFoo;
             tangon = zuuluu.rotationDegrees;
             zuuluu = 0;
-            michal = zuuluu === tangon;
+            michal = zuuluu !== tangon;
+ 42:
+            if(!michal) { _fun00016_ip = 51; continue _fun00015 }
  45:
-            entity = michal;
- 48:
+            zuuluu = argGra;
+            michal = !zuuluu;
+ 51:
+            entity = !michal;
+ 54:
             return entity;
         }
     };

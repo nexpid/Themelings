@@ -82,140 +82,144 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = argFoo;
             entity = _closure1_slot8;
             entity = entity.ALL;
-            if(!(oscard !== entity)) { _fun00006_ip = 959; continue _fun00005 }
+            if(!(oscard !== entity)) { _fun00006_ip = 988; continue _fun00005 }
  23:
             entity = _closure1_slot8;
             entity = entity.GUILD_UPDATE;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 947; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 976; continue _fun00005 }
  40:
             entity = _closure1_slot8;
             entity = entity.CHANNEL_DELETE;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 935; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 964; continue _fun00005 }
  57:
             entity = _closure1_slot8;
             entity = entity.MESSAGE_BULK_DELETE;
-            if(!(oscard !== entity)) { _fun00006_ip = 935; continue _fun00005 }
+            if(!(oscard !== entity)) { _fun00006_ip = 964; continue _fun00005 }
  74:
             entity = _closure1_slot8;
             entity = entity.CHANNEL_OVERWRITE_DELETE;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 923; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 952; continue _fun00005 }
  91:
             entity = _closure1_slot8;
             entity = entity.BOT_ADD;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 911; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 940; continue _fun00005 }
  108:
             entity = _closure1_slot8;
             entity = entity.MESSAGE_DELETE;
-            if(!(oscard !== entity)) { _fun00006_ip = 911; continue _fun00005 }
+            if(!(oscard !== entity)) { _fun00006_ip = 940; continue _fun00005 }
  125:
             entity = _closure1_slot8;
             entity = entity.MESSAGE_PIN;
-            if(!(oscard !== entity)) { _fun00006_ip = 911; continue _fun00005 }
+            if(!(oscard !== entity)) { _fun00006_ip = 940; continue _fun00005 }
  142:
             entity = _closure1_slot8;
             entity = entity.MESSAGE_UNPIN;
-            if(!(oscard !== entity)) { _fun00006_ip = 911; continue _fun00005 }
+            if(!(oscard !== entity)) { _fun00006_ip = 940; continue _fun00005 }
  159:
             entity = _closure1_slot8;
             entity = entity.ROLE_DELETE;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 899; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 928; continue _fun00005 }
  176:
             entity = _closure1_slot8;
             entity = entity.INVITE_DELETE;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 887; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 916; continue _fun00005 }
  193:
             entity = _closure1_slot8;
             entity = entity.WEBHOOK_DELETE;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 875; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 904; continue _fun00005 }
  210:
             entity = _closure1_slot8;
             entity = entity.EMOJI_DELETE;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 863; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 892; continue _fun00005 }
  227:
             entity = _closure1_slot8;
             entity = entity.INTEGRATION_DELETE;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 851; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 880; continue _fun00005 }
  244:
             entity = _closure1_slot8;
             entity = entity.STAGE_INSTANCE_DELETE;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 839; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 868; continue _fun00005 }
  261:
             entity = _closure1_slot8;
             entity = entity.STICKER_DELETE;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 827; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 856; continue _fun00005 }
  278:
             entity = _closure1_slot8;
             entity = entity.GUILD_SCHEDULED_EVENT_DELETE;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 815; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 844; continue _fun00005 }
  295:
             entity = _closure1_slot8;
             entity = entity.THREAD_DELETE;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 803; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 832; continue _fun00005 }
  312:
             entity = _closure1_slot8;
             entity = entity.APPLICATION_COMMAND_PERMISSION_UPDATE;
-            if(!(oscard !== entity)) { _fun00006_ip = 791; continue _fun00005 }
+            if(!(oscard !== entity)) { _fun00006_ip = 820; continue _fun00005 }
  329:
             entity = _closure1_slot8;
             entity = entity.SOUNDBOARD_SOUND_DELETE;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 779; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 808; continue _fun00005 }
  346:
             entity = _closure1_slot8;
             entity = entity.AUTO_MODERATION_BLOCK_MESSAGE;
-            if(!(!(oscard < entity))) { _fun00006_ip = 767; continue _fun00005 }
+            if(!(!(oscard < entity))) { _fun00006_ip = 796; continue _fun00005 }
  363:
             entity = _closure1_slot8;
             entity = entity.AUTO_MODERATION_BLOCK_MESSAGE;
-            if(!(oscard !== entity)) { _fun00006_ip = 755; continue _fun00005 }
+            if(!(oscard !== entity)) { _fun00006_ip = 784; continue _fun00005 }
  380:
             entity = _closure1_slot8;
             entity = entity.AUTO_MODERATION_FLAG_TO_CHANNEL;
-            if(!(oscard !== entity)) { _fun00006_ip = 755; continue _fun00005 }
+            if(!(oscard !== entity)) { _fun00006_ip = 784; continue _fun00005 }
  397:
             entity = _closure1_slot8;
             entity = entity.AUTO_MODERATION_USER_COMMUNICATION_DISABLED;
-            if(!(oscard !== entity)) { _fun00006_ip = 755; continue _fun00005 }
+            if(!(oscard !== entity)) { _fun00006_ip = 784; continue _fun00005 }
  414:
             entity = _closure1_slot8;
             entity = entity.AUTO_MODERATION_QUARANTINE_USER;
-            if(!(oscard !== entity)) { _fun00006_ip = 755; continue _fun00005 }
+            if(!(oscard !== entity)) { _fun00006_ip = 784; continue _fun00005 }
  431:
             entity = _closure1_slot8;
             entity = entity.CREATOR_MONETIZATION_TERMS_ACCEPTED;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 743; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 772; continue _fun00005 }
  448:
             entity = _closure1_slot8;
             entity = entity.ONBOARDING_PROMPT_DELETE;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 731; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 760; continue _fun00005 }
  465:
             entity = _closure1_slot8;
             entity = entity.ONBOARDING_UPDATE;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 719; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 748; continue _fun00005 }
  482:
             entity = _closure1_slot8;
             entity = entity.GUILD_HOME_REMOVE_ITEM;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 707; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 736; continue _fun00005 }
  499:
             entity = _closure1_slot8;
             entity = entity.HARMFUL_LINKS_BLOCKED_MESSAGE;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 695; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 724; continue _fun00005 }
  516:
             entity = _closure1_slot8;
             entity = entity.HOME_SETTINGS_UPDATE;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 683; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 712; continue _fun00005 }
  533:
             entity = _closure1_slot8;
             entity = entity.VOICE_CHANNEL_STATUS_DELETE;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 671; continue _fun00005 }
+            if(!(!(oscard <= entity))) { _fun00006_ip = 700; continue _fun00005 }
  550:
             entity = _closure1_slot8;
             entity = entity.GUILD_SCHEDULED_EVENT_EXCEPTION_DELETE;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 659; continue _fun00005 }
- 564:
+            if(!(!(oscard <= entity))) { _fun00006_ip = 688; continue _fun00005 }
+ 567:
             entity = _closure1_slot8;
             entity = entity.GUILD_MEMBER_VERIFICATION_UPDATE;
-            if(!(!(oscard <= entity))) { _fun00006_ip = 647; continue _fun00005 }
- 578:
+            if(!(!(oscard <= entity))) { _fun00006_ip = 676; continue _fun00005 }
+ 581:
+            entity = _closure1_slot8;
+            entity = entity.GUILD_PROFILE_UPDATE;
+            if(!(!(oscard <= entity))) { _fun00006_ip = 664; continue _fun00005 }
+ 595:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
             entity = 7;
@@ -231,141 +235,146 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = zuuluu.bind(tangon)(entity);
             entity = _closure1_slot7;
             entity = entity.UNKNOWN;
-            _fun00006_ip = 657; continue _fun00005;
- 647:
+            _fun00006_ip = 674; continue _fun00005;
+ 664:
+            zuuluu = _closure1_slot7;
+            entity = zuuluu.GUILD_PROFILE;
+ 674:
+            _fun00006_ip = 686; continue _fun00005;
+ 676:
             zuuluu = _closure1_slot7;
             entity = zuuluu.GUILD_MEMBER_VERIFICATION;
- 657:
-            _fun00006_ip = 669; continue _fun00005;
- 659:
+ 686:
+            _fun00006_ip = 698; continue _fun00005;
+ 688:
             zuuluu = _closure1_slot7;
             entity = zuuluu.GUILD_SCHEDULED_EVENT_EXCEPTION;
- 669:
-            _fun00006_ip = 681; continue _fun00005;
- 671:
+ 698:
+            _fun00006_ip = 710; continue _fun00005;
+ 700:
             zuuluu = _closure1_slot7;
             entity = zuuluu.VOICE_CHANNEL_STATUS;
- 681:
-            _fun00006_ip = 693; continue _fun00005;
- 683:
+ 710:
+            _fun00006_ip = 722; continue _fun00005;
+ 712:
             zuuluu = _closure1_slot7;
             entity = zuuluu.HOME_SETTINGS;
- 693:
-            _fun00006_ip = 705; continue _fun00005;
- 695:
+ 722:
+            _fun00006_ip = 734; continue _fun00005;
+ 724:
             zuuluu = _closure1_slot7;
             entity = zuuluu.GUILD;
- 705:
-            _fun00006_ip = 717; continue _fun00005;
- 707:
+ 734:
+            _fun00006_ip = 746; continue _fun00005;
+ 736:
             zuuluu = _closure1_slot7;
             entity = zuuluu.GUILD_HOME;
- 717:
-            _fun00006_ip = 729; continue _fun00005;
- 719:
+ 746:
+            _fun00006_ip = 758; continue _fun00005;
+ 748:
             zuuluu = _closure1_slot7;
             entity = zuuluu.GUILD_ONBOARDING;
- 729:
-            _fun00006_ip = 741; continue _fun00005;
- 731:
+ 758:
+            _fun00006_ip = 770; continue _fun00005;
+ 760:
             zuuluu = _closure1_slot7;
             entity = zuuluu.ONBOARDING_PROMPT;
- 741:
-            _fun00006_ip = 753; continue _fun00005;
- 743:
+ 770:
+            _fun00006_ip = 782; continue _fun00005;
+ 772:
             zuuluu = _closure1_slot7;
             entity = zuuluu.GUILD;
- 753:
-            _fun00006_ip = 765; continue _fun00005;
- 755:
+ 782:
+            _fun00006_ip = 794; continue _fun00005;
+ 784:
             zuuluu = _closure1_slot7;
             entity = zuuluu.USER;
- 765:
-            _fun00006_ip = 777; continue _fun00005;
- 767:
+ 794:
+            _fun00006_ip = 806; continue _fun00005;
+ 796:
             zuuluu = _closure1_slot7;
             entity = zuuluu.AUTO_MODERATION_RULE;
- 777:
-            _fun00006_ip = 789; continue _fun00005;
- 779:
+ 806:
+            _fun00006_ip = 818; continue _fun00005;
+ 808:
             zuuluu = _closure1_slot7;
             entity = zuuluu.GUILD_SOUNDBOARD;
- 789:
-            _fun00006_ip = 801; continue _fun00005;
- 791:
+ 818:
+            _fun00006_ip = 830; continue _fun00005;
+ 820:
             zuuluu = _closure1_slot7;
             entity = zuuluu.APPLICATION_COMMAND;
- 801:
-            _fun00006_ip = 813; continue _fun00005;
- 803:
+ 830:
+            _fun00006_ip = 842; continue _fun00005;
+ 832:
             zuuluu = _closure1_slot7;
             entity = zuuluu.THREAD;
- 813:
-            _fun00006_ip = 825; continue _fun00005;
- 815:
+ 842:
+            _fun00006_ip = 854; continue _fun00005;
+ 844:
             zuuluu = _closure1_slot7;
             entity = zuuluu.GUILD_SCHEDULED_EVENT;
- 825:
-            _fun00006_ip = 837; continue _fun00005;
- 827:
+ 854:
+            _fun00006_ip = 866; continue _fun00005;
+ 856:
             zuuluu = _closure1_slot7;
             entity = zuuluu.STICKER;
- 837:
-            _fun00006_ip = 849; continue _fun00005;
- 839:
+ 866:
+            _fun00006_ip = 878; continue _fun00005;
+ 868:
             zuuluu = _closure1_slot7;
             entity = zuuluu.STAGE_INSTANCE;
- 849:
-            _fun00006_ip = 861; continue _fun00005;
- 851:
+ 878:
+            _fun00006_ip = 890; continue _fun00005;
+ 880:
             zuuluu = _closure1_slot7;
             entity = zuuluu.INTEGRATION;
- 861:
-            _fun00006_ip = 873; continue _fun00005;
- 863:
+ 890:
+            _fun00006_ip = 902; continue _fun00005;
+ 892:
             zuuluu = _closure1_slot7;
             entity = zuuluu.EMOJI;
- 873:
-            _fun00006_ip = 885; continue _fun00005;
- 875:
+ 902:
+            _fun00006_ip = 914; continue _fun00005;
+ 904:
             zuuluu = _closure1_slot7;
             entity = zuuluu.WEBHOOK;
- 885:
-            _fun00006_ip = 897; continue _fun00005;
- 887:
+ 914:
+            _fun00006_ip = 926; continue _fun00005;
+ 916:
             zuuluu = _closure1_slot7;
             entity = zuuluu.INVITE;
- 897:
-            _fun00006_ip = 909; continue _fun00005;
- 899:
+ 926:
+            _fun00006_ip = 938; continue _fun00005;
+ 928:
             zuuluu = _closure1_slot7;
             entity = zuuluu.ROLE;
- 909:
-            _fun00006_ip = 921; continue _fun00005;
- 911:
+ 938:
+            _fun00006_ip = 950; continue _fun00005;
+ 940:
             zuuluu = _closure1_slot7;
             entity = zuuluu.USER;
- 921:
-            _fun00006_ip = 933; continue _fun00005;
- 923:
+ 950:
+            _fun00006_ip = 962; continue _fun00005;
+ 952:
             zuuluu = _closure1_slot7;
             entity = zuuluu.CHANNEL_OVERWRITE;
- 933:
-            _fun00006_ip = 945; continue _fun00005;
- 935:
+ 962:
+            _fun00006_ip = 974; continue _fun00005;
+ 964:
             zuuluu = _closure1_slot7;
             entity = zuuluu.CHANNEL;
- 945:
-            _fun00006_ip = 957; continue _fun00005;
- 947:
+ 974:
+            _fun00006_ip = 986; continue _fun00005;
+ 976:
             zuuluu = _closure1_slot7;
             entity = zuuluu.GUILD;
- 957:
-            _fun00006_ip = 969; continue _fun00005;
- 959:
+ 986:
+            _fun00006_ip = 998; continue _fun00005;
+ 988:
             michal = _closure1_slot7;
             entity = michal.ALL;
- 969:
+ 998:
             return entity;
         }
     };
@@ -376,316 +385,320 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = argFoo;
             michal = _closure1_slot8;
             michal = michal.CHANNEL_CREATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  23:
             michal = _closure1_slot8;
             michal = michal.CHANNEL_OVERWRITE_CREATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  40:
             michal = _closure1_slot8;
             michal = michal.MEMBER_BAN_REMOVE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  57:
             michal = _closure1_slot8;
             michal = michal.ROLE_CREATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  74:
             michal = _closure1_slot8;
             michal = michal.INVITE_CREATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  91:
             michal = _closure1_slot8;
             michal = michal.WEBHOOK_CREATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  108:
             michal = _closure1_slot8;
             michal = michal.EMOJI_CREATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  125:
             michal = _closure1_slot8;
             michal = michal.STICKER_CREATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  142:
             michal = _closure1_slot8;
             michal = michal.MESSAGE_PIN;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  159:
             michal = _closure1_slot8;
             michal = michal.BOT_ADD;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  176:
             michal = _closure1_slot8;
             michal = michal.INTEGRATION_CREATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  193:
             michal = _closure1_slot8;
             michal = michal.STAGE_INSTANCE_CREATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  210:
             michal = _closure1_slot8;
             michal = michal.GUILD_SCHEDULED_EVENT_CREATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  227:
             michal = _closure1_slot8;
             michal = michal.THREAD_CREATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  244:
             michal = _closure1_slot8;
             michal = michal.AUTO_MODERATION_RULE_CREATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  261:
             michal = _closure1_slot8;
             michal = michal.CREATOR_MONETIZATION_REQUEST_CREATED;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  278:
             michal = _closure1_slot8;
             michal = michal.ONBOARDING_PROMPT_CREATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  295:
             michal = _closure1_slot8;
             michal = michal.ONBOARDING_CREATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  312:
             michal = _closure1_slot8;
             michal = michal.GUILD_HOME_FEATURE_ITEM;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  329:
             michal = _closure1_slot8;
             michal = michal.SOUNDBOARD_SOUND_CREATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  346:
             michal = _closure1_slot8;
             michal = michal.HOME_SETTINGS_CREATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  363:
             michal = _closure1_slot8;
             michal = michal.VOICE_CHANNEL_STATUS_CREATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1293; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1310; continue _fun00007 }
  380:
             michal = _closure1_slot8;
             michal = michal.CHANNEL_DELETE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  397:
             michal = _closure1_slot8;
             michal = michal.CHANNEL_OVERWRITE_DELETE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  414:
             michal = _closure1_slot8;
             michal = michal.MEMBER_KICK;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  431:
             michal = _closure1_slot8;
             michal = michal.MEMBER_PRUNE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  448:
             michal = _closure1_slot8;
             michal = michal.MEMBER_BAN_ADD;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  465:
             michal = _closure1_slot8;
             michal = michal.ROLE_DELETE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  482:
             michal = _closure1_slot8;
             michal = michal.INVITE_DELETE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  499:
             michal = _closure1_slot8;
             michal = michal.WEBHOOK_DELETE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  516:
             michal = _closure1_slot8;
             michal = michal.EMOJI_DELETE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  533:
             michal = _closure1_slot8;
             michal = michal.STICKER_DELETE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  550:
             michal = _closure1_slot8;
             michal = michal.MESSAGE_DELETE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  567:
             michal = _closure1_slot8;
             michal = michal.MESSAGE_BULK_DELETE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  584:
             michal = _closure1_slot8;
             michal = michal.MESSAGE_UNPIN;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  601:
             michal = _closure1_slot8;
             michal = michal.INTEGRATION_DELETE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  618:
             michal = _closure1_slot8;
             michal = michal.MEMBER_DISCONNECT;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  635:
             michal = _closure1_slot8;
             michal = michal.STAGE_INSTANCE_DELETE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  652:
             michal = _closure1_slot8;
             michal = michal.GUILD_SCHEDULED_EVENT_DELETE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  669:
             michal = _closure1_slot8;
             michal = michal.GUILD_SCHEDULED_EVENT_EXCEPTION_DELETE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  686:
             michal = _closure1_slot8;
             michal = michal.THREAD_DELETE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  703:
             michal = _closure1_slot8;
             michal = michal.AUTO_MODERATION_BLOCK_MESSAGE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  720:
             michal = _closure1_slot8;
             michal = michal.AUTO_MODERATION_RULE_DELETE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  737:
             michal = _closure1_slot8;
             michal = michal.ONBOARDING_PROMPT_DELETE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  754:
             michal = _closure1_slot8;
             michal = michal.GUILD_HOME_REMOVE_ITEM;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  771:
             michal = _closure1_slot8;
             michal = michal.SOUNDBOARD_SOUND_DELETE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  788:
             michal = _closure1_slot8;
             michal = michal.VOICE_CHANNEL_STATUS_DELETE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1281; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1298; continue _fun00007 }
  805:
             michal = _closure1_slot8;
             michal = michal.GUILD_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
  822:
             michal = _closure1_slot8;
             michal = michal.CHANNEL_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
  839:
             michal = _closure1_slot8;
             michal = michal.CHANNEL_OVERWRITE_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
  856:
             michal = _closure1_slot8;
             michal = michal.MEMBER_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
  873:
             michal = _closure1_slot8;
             michal = michal.MEMBER_ROLE_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
  890:
             michal = _closure1_slot8;
             michal = michal.ROLE_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
  907:
             michal = _closure1_slot8;
             michal = michal.INVITE_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
  924:
             michal = _closure1_slot8;
             michal = michal.WEBHOOK_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
  941:
             michal = _closure1_slot8;
             michal = michal.EMOJI_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
  958:
             michal = _closure1_slot8;
             michal = michal.STICKER_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
  975:
             michal = _closure1_slot8;
             michal = michal.INTEGRATION_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
  992:
             michal = _closure1_slot8;
             michal = michal.MEMBER_MOVE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
  1009:
             michal = _closure1_slot8;
             michal = michal.STAGE_INSTANCE_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
  1026:
             michal = _closure1_slot8;
             michal = michal.GUILD_SCHEDULED_EVENT_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
  1043:
             michal = _closure1_slot8;
             michal = michal.GUILD_SCHEDULED_EVENT_EXCEPTION_CREATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
  1060:
             michal = _closure1_slot8;
             michal = michal.GUILD_SCHEDULED_EVENT_EXCEPTION_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
  1077:
             michal = _closure1_slot8;
             michal = michal.THREAD_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
  1094:
             michal = _closure1_slot8;
             michal = michal.APPLICATION_COMMAND_PERMISSION_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
  1111:
             michal = _closure1_slot8;
             michal = michal.CREATOR_MONETIZATION_TERMS_ACCEPTED;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
  1128:
             michal = _closure1_slot8;
             michal = michal.AUTO_MODERATION_RULE_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
  1145:
             michal = _closure1_slot8;
             michal = michal.AUTO_MODERATION_FLAG_TO_CHANNEL;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
- 1159:
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
+ 1162:
             michal = _closure1_slot8;
             michal = michal.AUTO_MODERATION_USER_COMMUNICATION_DISABLED;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
- 1173:
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
+ 1176:
             michal = _closure1_slot8;
             michal = michal.AUTO_MODERATION_QUARANTINE_USER;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
- 1187:
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
+ 1190:
             michal = _closure1_slot8;
             michal = michal.ONBOARDING_PROMPT_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
- 1201:
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
+ 1204:
             michal = _closure1_slot8;
             michal = michal.ONBOARDING_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
- 1215:
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
+ 1218:
             michal = _closure1_slot8;
             michal = michal.SOUNDBOARD_SOUND_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
- 1229:
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
+ 1232:
             michal = _closure1_slot8;
             michal = michal.HOME_SETTINGS_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
- 1243:
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
+ 1246:
             michal = _closure1_slot8;
             michal = michal.GUILD_MEMBER_VERIFICATION_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 1269; continue _fun00007 }
- 1257:
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
+ 1260:
+            michal = _closure1_slot8;
+            michal = michal.GUILD_PROFILE_UPDATE;
+            if(!(michal !== zuuluu)) { _fun00008_ip = 1286; continue _fun00007 }
+ 1274:
             michal = _closure1_slot9;
             michal = michal.ALL;
             return michal;
- 1269:
+ 1286:
             michal = _closure1_slot9;
             michal = michal.UPDATE;
             return michal;
- 1281:
+ 1298:
             michal = _closure1_slot9;
             michal = michal.DELETE;
             return michal;
- 1293:
+ 1310:
             entity = _closure1_slot9;
             entity = entity.CREATE;
             return entity;

@@ -543,7 +543,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         report['get'] = entity;
-        entity = new Array(26);
+        entity = new Array(27);
         entity[0] = report;
         report = {};
         golfie = 'hasVerifiedEmailOrPhone';
@@ -1171,7 +1171,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         report['get'] = golfie;
-        oscard = function(argFoo) { // Original name: set
+        golfie = function(argFoo) { // Original name: set
             zuuluu = _closure1_slot0;
             michal = _closure1_slot3;
             entity = 15;
@@ -1185,8 +1185,51 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['avatarDecorationData'] = zuuluu;
             return entity;
         };
-        report['set'] = oscard;
+        report['set'] = golfie;
         entity[25] = report;
+        report = {};
+        golfie = 'nameplate';
+        report['key'] = golfie;
+        oscard = function() { // Original name: get
+            _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
+ 0:
+                entity = this;
+                michal = entity.collectibles;
+                entity = null;
+                tangon = entity == michal;
+                oscard = undefined;
+                zuuluu = undefined;
+                if(tangon) { _fun00044_ip = 28; continue _fun00043 }
+ 22:
+                zuuluu = michal.nameplate;
+ 28:
+                michal = entity == zuuluu;
+                entity = null;
+                if(michal) { _fun00044_ip = 119; continue _fun00043 }
+ 37:
+                michal = {};
+                tangon = zuuluu.asset;
+                michal['src'] = tangon;
+                tangon = zuuluu.asset;
+                michal['animatedSrc'] = tangon;
+                report = _closure1_slot0;
+                golfie = _closure1_slot3;
+                tangon = 16;
+                tangon = golfie[tangon];
+                oscard = report.bind(oscard)(tangon);
+                report = oscard.getNameplatePalette;
+                tangon = zuuluu.palette;
+                tangon = report.bind(oscard)(tangon);
+                michal['palette'] = tangon;
+                zuuluu = zuuluu.label;
+                michal['imgAlt'] = zuuluu;
+                entity = michal;
+ 119:
+                return entity;
+            }
+        };
+        report['get'] = oscard;
+        entity[26] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -1200,7 +1243,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     romeon = michal;
     michal = new foxtra[tangon](romeon, yankee);
     michal = michal instanceof Object ? michal : report;
-    report = 16;
+    report = 17;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

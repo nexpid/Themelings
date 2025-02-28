@@ -25,35 +25,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/messages/native/renderer/row_data/CtaButton.tsx';
     tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: createCtaButton
+    tangon = function(argFoo, argBar, argBaz) { // Original name: createCtaButton
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golfie = argFoo;
-            michal = argBar;
+            michal = argBaz;
             option = _closure1_slot0;
             entity = _closure1_slot1;
             oscard = 1;
             tangon = entity[oscard];
             report = undefined;
-            verify = option.bind(report)(tangon);
-            tangon = verify.getCtaButtonType;
-            tangon = tangon.bind(verify)(golfie);
+            offset = option.bind(report)(tangon);
+            verify = offset.getCtaButtonType;
+            tangon = argBar;
+            tangon = verify.bind(offset)(golfie, tangon);
             entity = entity[oscard];
             entity = option.bind(report)(entity);
             entity = entity.CtaButtonType;
             entity = entity.MARK_AS_FALSE_POSITIVE;
-            if(!(entity !== tangon)) { _fun00002_ip = 215; continue _fun00001 }
- 70:
+            if(!(entity !== tangon)) { _fun00002_ip = 219; continue _fun00001 }
+ 74:
             option = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[oscard];
             entity = option.bind(report)(entity);
             entity = entity.CtaButtonType;
             entity = entity.AGE_VERIFICATION_RETRY;
-            if(!(entity !== tangon)) { _fun00002_ip = 105; continue _fun00001 }
- 103:
+            if(!(entity !== tangon)) { _fun00002_ip = 109; continue _fun00001 }
+ 107:
             return report;
- 105:
+ 109:
             entity = {};
             option = _closure1_slot0;
             tangon = _closure1_slot1;
@@ -78,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.AGE_VERIFICATION_RETRY;
             entity['callback'] = tangon;
             return entity;
- 215:
+ 219:
             tangon = _closure1_slot2;
             entity = tangon.canSubmitFpReport;
             tangon = entity.bind(tangon)(golfie);
@@ -101,49 +102,50 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.reportFpBackgroundColor;
             entity['backgroundColor'] = michal;
             michal = undefined;
-            if(!tangon) { _fun00002_ip = 346; continue _fun00001 }
- 317:
+            if(!tangon) { _fun00002_ip = 350; continue _fun00001 }
+ 321:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
             zuuluu = zuuluu[oscard];
             zuuluu = tangon.bind(report)(zuuluu);
             zuuluu = zuuluu.CtaButtonType;
             michal = zuuluu.MARK_AS_FALSE_POSITIVE;
- 346:
+ 350:
             entity['callback'] = michal;
             return entity;
         }
     };
     zuuluu['createCtaButton'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: useCtaButton
+    michal = function(argFoo, argBar, argBaz) { // Original name: useCtaButton
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             golfie = argFoo;
-            michal = argBar;
+            michal = argBaz;
             option = _closure1_slot0;
             entity = _closure1_slot1;
             oscard = 1;
             tangon = entity[oscard];
             report = undefined;
-            verify = option.bind(report)(tangon);
-            tangon = verify.useCtaButtonType;
-            tangon = tangon.bind(verify)(golfie);
+            offset = option.bind(report)(tangon);
+            verify = offset.useCtaButtonType;
+            tangon = argBar;
+            tangon = verify.bind(offset)(golfie, tangon);
             entity = entity[oscard];
             entity = option.bind(report)(entity);
             entity = entity.CtaButtonType;
             entity = entity.MARK_AS_FALSE_POSITIVE;
-            if(!(entity !== tangon)) { _fun00004_ip = 215; continue _fun00003 }
- 70:
+            if(!(entity !== tangon)) { _fun00004_ip = 219; continue _fun00003 }
+ 74:
             option = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[oscard];
             entity = option.bind(report)(entity);
             entity = entity.CtaButtonType;
             entity = entity.AGE_VERIFICATION_RETRY;
-            if(!(entity !== tangon)) { _fun00004_ip = 105; continue _fun00003 }
- 103:
+            if(!(entity !== tangon)) { _fun00004_ip = 109; continue _fun00003 }
+ 107:
             return report;
- 105:
+ 109:
             entity = {};
             option = _closure1_slot0;
             tangon = _closure1_slot1;
@@ -168,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.AGE_VERIFICATION_RETRY;
             entity['callback'] = tangon;
             return entity;
- 215:
+ 219:
             tangon = _closure1_slot2;
             entity = tangon.canSubmitFpReport;
             tangon = entity.bind(tangon)(golfie);
@@ -191,15 +193,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.reportFpBackgroundColor;
             entity['backgroundColor'] = michal;
             michal = undefined;
-            if(!tangon) { _fun00004_ip = 346; continue _fun00003 }
- 317:
+            if(!tangon) { _fun00004_ip = 350; continue _fun00003 }
+ 321:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
             zuuluu = zuuluu[oscard];
             zuuluu = tangon.bind(report)(zuuluu);
             zuuluu = zuuluu.CtaButtonType;
             michal = zuuluu.MARK_AS_FALSE_POSITIVE;
- 346:
+ 350:
             entity['callback'] = michal;
             return entity;
         }

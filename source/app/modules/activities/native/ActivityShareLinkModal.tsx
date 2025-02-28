@@ -653,13 +653,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['isVisible'] = kiloes;
             offset['loading'] = output;
             kiloes = undefined;
-            if(output) { _fun00002_ip = 989; continue _fun00001 }
- 986:
+            if(output) { _fun00002_ip = 993; continue _fun00001 }
+ 990:
             kiloes = sizing;
- 989:
+ 993:
             offset['onPress'] = kiloes;
-            if(!(foxtra !== echoed)) { _fun00002_ip = 1058; continue _fun00001 }
- 997:
+            if(!(foxtra !== echoed)) { _fun00002_ip = 1062; continue _fun00001 }
+ 1001:
             kiloes = _closure1_slot0;
             foxtra = _closure1_slot2;
             sizing = foxtra[result];
@@ -673,8 +673,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = {};
             foxtra['count'] = echoed;
             foxtra = sizing.bind(output)(kiloes, foxtra);
-            _fun00002_ip = 1110; continue _fun00001;
- 1058:
+            _fun00002_ip = 1114; continue _fun00001;
+ 1062:
             output = _closure1_slot0;
             backup = _closure1_slot2;
             kiloes = backup[result];
@@ -686,7 +686,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup.t;
             backup = backup.TXNS7e;
             foxtra = kiloes.bind(sizing)(backup);
- 1110:
+ 1114:
             offset['text'] = foxtra;
             offset = romeon.bind(tangon)(yankee, offset);
             verify[2] = offset;

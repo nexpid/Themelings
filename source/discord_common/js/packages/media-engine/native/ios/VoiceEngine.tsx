@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             return entity;
         };
         michal['supportsFeature'] = yankee;
-        yankee = ['configureConnectionRetries', 'getEncryptionModes', 'setTransportOptions', 'mergeUsers', 'destroyUser', 'setLocalPan', 'setLocalVolume', 'setLocalMute', 'fastUdpReconnect', 'wasRemoteDisconnected', 'setMinimumOutputDelay', 'setSelfMute', 'setSelfDeafen', 'setNoInputThreshold', 'setPTTActive', 'setVideoBroadcast', 'triggerOnVideoCallback', 'getStats', 'getFilteredStats', 'setPingInterval', 'setDesktopSource', 'prepareSecureFramesTransition', 'executeSecureFramesTransition', 'prepareSecureFramesEpoch'];
+        yankee = ['configureConnectionRetries', 'getEncryptionModes', 'setTransportOptions', 'mergeUsers', 'destroyUser', 'setLocalPan', 'setLocalVolume', 'setLocalMute', 'fastUdpReconnect', 'wasRemoteDisconnected', 'setMinimumOutputDelay', 'setSelfMute', 'setSelfDeafen', 'setNoInputThreshold', 'setPTTActive', 'setVideoBroadcast', 'triggerOnVideoCallback', 'getStats', 'getFilteredStats', 'setPingInterval', 'setDesktopSource', 'prepareSecureFramesTransition', 'executeSecureFramesTransition', 'prepareSecureFramesEpoch', 'triggerOnSpeakingCallback'];
         var _closure1_slot6 = yankee;
         yankee = michal.consoleLog;
         if(!(offset != yankee)) { _fun00002_ip = 330; continue _fun00001 }
@@ -243,19 +243,6 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 tangon = golfie.bind(report)(oscard, tangon);
                 report['setOnFirstFrameCallback'] = tangon;
                 golfie = report.callbackSetter;
-                oscard = 'user-speaking';
-                tangon = function(argFoo) {
-                    entity = argFoo;
-                    zuuluu = entity.userId;
-                    michal = entity.isSpeaking;
-                    entity = new Array(2);
-                    entity[0] = zuuluu;
-                    entity[1] = michal;
-                    return entity;
-                };
-                tangon = golfie.bind(report)(oscard, tangon);
-                report['setOnSpeakingCallback'] = tangon;
-                golfie = report.callbackSetter;
                 oscard = 'native-mute-toggle';
                 tangon = function() {
                     entity = new Array(0);
@@ -306,6 +293,30 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 };
                 tangon = golfie.bind(report)(oscard, tangon);
                 report['setPingTimeoutCallback'] = tangon;
+                golfie = report.callbackSetter;
+                oscard = 'user-speaking';
+                tangon = function(argFoo) {
+                    entity = argFoo;
+                    zuuluu = entity.userId;
+                    michal = entity.isSpeaking;
+                    entity = new Array(2);
+                    entity[0] = zuuluu;
+                    entity[1] = michal;
+                    return entity;
+                };
+                tangon = golfie.bind(report)(oscard, tangon);
+                report['setOnSpeakingCallback_'] = tangon;
+                tangon = function(argFoo) {
+                    michal = _closure3_slot0;
+                    zuuluu = michal.setOnSpeakingCallback_;
+                    entity = argFoo;
+                    entity = zuuluu.bind(michal)(entity);
+                    entity = michal.triggerOnSpeakingCallback;
+                    entity = entity.bind(michal)();
+                    entity = undefined;
+                    return entity;
+                };
+                report['setOnSpeakingCallback'] = tangon;
                 golfie = report.callbackSetter;
                 oscard = 'on-video-callback';
                 tangon = function(argFoo) {

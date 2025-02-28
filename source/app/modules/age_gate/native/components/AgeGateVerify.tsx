@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             michal = argFoo;
             entity = null;
-            if(!(michal != entity)) { _fun00002_ip = 423; continue _fun00001 }
+            if(!(michal != entity)) { _fun00002_ip = 427; continue _fun00001 }
  12:
             entity = _closure1_slot6;
             report = undefined;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, entity);
             return entity;
- 423:
+ 427:
             echoed = "Cannot destructure 'undefined' or 'null'.";
             update = michal;
             entity = throwTypeError(update, echoed);

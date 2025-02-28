@@ -1581,12 +1581,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot2 = zuuluu;
             zuuluu = entity.integration;
             var _closure2_slot3 = zuuluu;
+            report = null;
+            tangon = report == zuuluu;
             entity = null;
-            if(!(entity != zuuluu)) { _fun00014_ip = 111; continue _fun00013 }
- 51:
+            if(tangon) { _fun00014_ip = 94; continue _fun00013 }
+ 56:
             tangon = zuuluu.role_connections_metadata;
-            if(!(entity != tangon)) { _fun00014_ip = 111; continue _fun00013 }
- 61:
+            tangon = report == tangon;
+            entity = null;
+            if(tangon) { _fun00014_ip = 94; continue _fun00013 }
+ 71:
             tangon = zuuluu.role_connections_metadata;
             zuuluu = tangon.map;
             michal = function(argFoo) {
@@ -1747,15 +1751,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            michal = zuuluu.bind(tangon)(michal);
-            report = _closure1_slot11;
-            tangon = _closure1_slot13;
-            zuuluu = {};
-            zuuluu['children'] = michal;
-            michal = undefined;
-            michal = report.bind(michal)(tangon, zuuluu);
-            return michal;
- 111:
+            entity = zuuluu.bind(tangon)(michal);
+ 94:
             return entity;
         }
     };

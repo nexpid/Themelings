@@ -4295,6 +4295,95 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         return entity;
     };
     zuuluu['VoiceChannelStatusStrings'] = option;
+    option = function() {
+        entity = {};
+        tangon = _closure1_slot16;
+        report = tangon.DESCRIPTION;
+        tangon = function() {
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot3;
+            entity = 17;
+            michal = michal[entity];
+            entity = undefined;
+            entity = zuuluu.bind(entity)(michal);
+            entity = entity.t;
+            entity = entity.nsUZKS;
+            return entity;
+        };
+        entity[report] = tangon;
+        tangon = _closure1_slot16;
+        report = tangon.BRAND_COLOR_PRIMARY;
+        tangon = function() {
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot3;
+            entity = 17;
+            michal = michal[entity];
+            entity = undefined;
+            entity = zuuluu.bind(entity)(michal);
+            entity = entity.t;
+            entity = entity.qe9mgI;
+            return entity;
+        };
+        entity[report] = tangon;
+        tangon = _closure1_slot16;
+        report = tangon.CUSTOM_BANNER_HASH;
+        tangon = function() {
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot3;
+            entity = 17;
+            michal = michal[entity];
+            entity = undefined;
+            entity = zuuluu.bind(entity)(michal);
+            entity = entity.t;
+            entity = entity.04b5KC;
+            return entity;
+        };
+        entity[report] = tangon;
+        tangon = _closure1_slot16;
+        report = tangon.TRAITS;
+        tangon = function() {
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot3;
+            entity = 17;
+            michal = michal[entity];
+            entity = undefined;
+            entity = zuuluu.bind(entity)(michal);
+            entity = entity.t;
+            entity = entity.dEy9WF;
+            return entity;
+        };
+        entity[report] = tangon;
+        tangon = _closure1_slot16;
+        report = tangon.GAME_APPLICATION_IDS;
+        tangon = function() {
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot3;
+            entity = 17;
+            michal = michal[entity];
+            entity = undefined;
+            entity = zuuluu.bind(entity)(michal);
+            entity = entity.t;
+            entity = entity.8BOT39;
+            return entity;
+        };
+        entity[report] = tangon;
+        zuuluu = _closure1_slot16;
+        zuuluu = zuuluu.VISIBILITY;
+        michal = function() {
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot3;
+            entity = 17;
+            michal = michal[entity];
+            entity = undefined;
+            entity = zuuluu.bind(entity)(michal);
+            entity = entity.t;
+            entity = entity.bCl1Eh;
+            return entity;
+        };
+        entity[zuuluu] = michal;
+        return entity;
+    };
+    zuuluu['GuildProfileChangeStrings'] = option;
     zuuluu['NotRenderedChanges'] = golfie;
     zuuluu['ACTION_FILTER_ITEMS'] = oscard;
     zuuluu['findChangeByKey'] = report;
@@ -4698,307 +4787,321 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = report.action;
             michal = _closure1_slot15;
             michal = michal.GUILD_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 4775; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 4829; continue _fun00049 }
  30:
             michal = _closure1_slot15;
             michal = michal.CHANNEL_CREATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 4493; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 4547; continue _fun00049 }
  47:
             michal = _closure1_slot15;
             michal = michal.CHANNEL_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 4456; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 4510; continue _fun00049 }
  64:
             michal = _closure1_slot15;
             michal = michal.CHANNEL_DELETE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 4419; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 4473; continue _fun00049 }
  81:
             michal = _closure1_slot15;
             michal = michal.CHANNEL_OVERWRITE_CREATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 4382; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 4436; continue _fun00049 }
  98:
             michal = _closure1_slot15;
             michal = michal.CHANNEL_OVERWRITE_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 4345; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 4399; continue _fun00049 }
  115:
             michal = _closure1_slot15;
             michal = michal.CHANNEL_OVERWRITE_DELETE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 4308; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 4362; continue _fun00049 }
  132:
             michal = _closure1_slot15;
             michal = michal.MEMBER_KICK;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 4271; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 4325; continue _fun00049 }
  149:
             michal = _closure1_slot15;
             michal = michal.MEMBER_PRUNE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 4234; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 4288; continue _fun00049 }
  166:
             michal = _closure1_slot15;
             michal = michal.MEMBER_BAN_ADD;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 4197; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 4251; continue _fun00049 }
  183:
             michal = _closure1_slot15;
             michal = michal.MEMBER_BAN_REMOVE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 4160; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 4214; continue _fun00049 }
  200:
             michal = _closure1_slot15;
             michal = michal.MEMBER_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 4123; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 4177; continue _fun00049 }
  217:
             michal = _closure1_slot15;
             michal = michal.MEMBER_ROLE_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 4086; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 4140; continue _fun00049 }
  234:
             michal = _closure1_slot15;
             michal = michal.MEMBER_MOVE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 4049; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 4103; continue _fun00049 }
  251:
             michal = _closure1_slot15;
             michal = michal.MEMBER_DISCONNECT;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 4012; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 4066; continue _fun00049 }
  268:
             michal = _closure1_slot15;
             michal = michal.BOT_ADD;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3975; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 4029; continue _fun00049 }
  285:
             michal = _closure1_slot15;
             michal = michal.ROLE_CREATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3938; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3992; continue _fun00049 }
  302:
             michal = _closure1_slot15;
             michal = michal.ROLE_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3901; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3955; continue _fun00049 }
  319:
             michal = _closure1_slot15;
             michal = michal.ROLE_DELETE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3864; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3918; continue _fun00049 }
  336:
             michal = _closure1_slot15;
             michal = michal.INVITE_CREATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3827; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3881; continue _fun00049 }
  353:
             michal = _closure1_slot15;
             michal = michal.INVITE_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3790; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3844; continue _fun00049 }
  370:
             michal = _closure1_slot15;
             michal = michal.INVITE_DELETE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3753; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3807; continue _fun00049 }
  387:
             michal = _closure1_slot15;
             michal = michal.WEBHOOK_CREATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3716; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3770; continue _fun00049 }
  404:
             michal = _closure1_slot15;
             michal = michal.WEBHOOK_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3679; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3733; continue _fun00049 }
  421:
             michal = _closure1_slot15;
             michal = michal.WEBHOOK_DELETE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3642; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3696; continue _fun00049 }
  438:
             michal = _closure1_slot15;
             michal = michal.EMOJI_CREATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3605; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3659; continue _fun00049 }
  455:
             michal = _closure1_slot15;
             michal = michal.EMOJI_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3568; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3622; continue _fun00049 }
  472:
             michal = _closure1_slot15;
             michal = michal.EMOJI_DELETE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3531; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3585; continue _fun00049 }
  489:
             michal = _closure1_slot15;
             michal = michal.STICKER_CREATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3494; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3548; continue _fun00049 }
  506:
             michal = _closure1_slot15;
             michal = michal.STICKER_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3457; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3511; continue _fun00049 }
  523:
             michal = _closure1_slot15;
             michal = michal.STICKER_DELETE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3420; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3474; continue _fun00049 }
  540:
             michal = _closure1_slot15;
             michal = michal.MESSAGE_DELETE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3383; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3437; continue _fun00049 }
  557:
             michal = _closure1_slot15;
             michal = michal.MESSAGE_BULK_DELETE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3346; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3400; continue _fun00049 }
  574:
             michal = _closure1_slot15;
             michal = michal.MESSAGE_PIN;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3309; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3363; continue _fun00049 }
  591:
             michal = _closure1_slot15;
             michal = michal.MESSAGE_UNPIN;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3272; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3326; continue _fun00049 }
  608:
             michal = _closure1_slot15;
             michal = michal.INTEGRATION_CREATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3235; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3289; continue _fun00049 }
  625:
             michal = _closure1_slot15;
             michal = michal.INTEGRATION_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3198; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3252; continue _fun00049 }
  642:
             michal = _closure1_slot15;
             michal = michal.INTEGRATION_DELETE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3161; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3215; continue _fun00049 }
  659:
             michal = _closure1_slot15;
             michal = michal.STAGE_INSTANCE_CREATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3124; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3178; continue _fun00049 }
  676:
             michal = _closure1_slot15;
             michal = michal.STAGE_INSTANCE_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3087; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3141; continue _fun00049 }
  693:
             michal = _closure1_slot15;
             michal = michal.STAGE_INSTANCE_DELETE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 3002; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3056; continue _fun00049 }
  710:
             michal = _closure1_slot15;
             michal = michal.GUILD_SCHEDULED_EVENT_CREATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2965; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 3019; continue _fun00049 }
  727:
             michal = _closure1_slot15;
             michal = michal.GUILD_SCHEDULED_EVENT_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2928; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2982; continue _fun00049 }
  744:
             michal = _closure1_slot15;
             michal = michal.GUILD_SCHEDULED_EVENT_DELETE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2891; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2945; continue _fun00049 }
  761:
             michal = _closure1_slot15;
             michal = michal.GUILD_SCHEDULED_EVENT_EXCEPTION_CREATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2854; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2908; continue _fun00049 }
  778:
             michal = _closure1_slot15;
             michal = michal.GUILD_SCHEDULED_EVENT_EXCEPTION_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2854; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2908; continue _fun00049 }
  795:
             michal = _closure1_slot15;
             michal = michal.GUILD_SCHEDULED_EVENT_EXCEPTION_DELETE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2817; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2871; continue _fun00049 }
  812:
             michal = _closure1_slot15;
             michal = michal.THREAD_CREATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2589; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2643; continue _fun00049 }
  829:
             michal = _closure1_slot15;
             michal = michal.THREAD_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2552; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2606; continue _fun00049 }
  846:
             michal = _closure1_slot15;
             michal = michal.THREAD_DELETE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2515; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2569; continue _fun00049 }
  863:
             michal = _closure1_slot15;
             michal = michal.APPLICATION_COMMAND_PERMISSION_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2478; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2532; continue _fun00049 }
  880:
             michal = _closure1_slot15;
             michal = michal.AUTO_MODERATION_BLOCK_MESSAGE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2441; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2495; continue _fun00049 }
  897:
             michal = _closure1_slot15;
             michal = michal.AUTO_MODERATION_FLAG_TO_CHANNEL;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2322; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2376; continue _fun00049 }
  914:
             michal = _closure1_slot15;
             michal = michal.AUTO_MODERATION_USER_COMMUNICATION_DISABLED;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2285; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2339; continue _fun00049 }
  931:
             michal = _closure1_slot15;
             michal = michal.AUTO_MODERATION_QUARANTINE_USER;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2248; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2302; continue _fun00049 }
  948:
             michal = _closure1_slot15;
             michal = michal.CREATOR_MONETIZATION_REQUEST_CREATED;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2211; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2265; continue _fun00049 }
  965:
             michal = _closure1_slot15;
             michal = michal.CREATOR_MONETIZATION_TERMS_ACCEPTED;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2174; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2228; continue _fun00049 }
  982:
             michal = _closure1_slot15;
             michal = michal.AUTO_MODERATION_RULE_CREATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2137; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2191; continue _fun00049 }
  999:
             michal = _closure1_slot15;
             michal = michal.AUTO_MODERATION_RULE_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2100; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2154; continue _fun00049 }
  1016:
             michal = _closure1_slot15;
             michal = michal.AUTO_MODERATION_RULE_DELETE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2063; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2117; continue _fun00049 }
  1033:
             michal = _closure1_slot15;
             michal = michal.ONBOARDING_PROMPT_CREATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2026; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2080; continue _fun00049 }
  1050:
             michal = _closure1_slot15;
             michal = michal.ONBOARDING_PROMPT_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 1989; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2043; continue _fun00049 }
  1067:
             michal = _closure1_slot15;
             michal = michal.ONBOARDING_PROMPT_DELETE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 1952; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2006; continue _fun00049 }
  1084:
             michal = _closure1_slot15;
             michal = michal.ONBOARDING_CREATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 1915; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 1969; continue _fun00049 }
  1101:
             michal = _closure1_slot15;
             michal = michal.ONBOARDING_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 1878; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 1932; continue _fun00049 }
  1118:
             michal = _closure1_slot15;
             michal = michal.HOME_SETTINGS_CREATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 1841; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 1895; continue _fun00049 }
  1135:
             michal = _closure1_slot15;
             michal = michal.HOME_SETTINGS_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 1804; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 1858; continue _fun00049 }
  1152:
             michal = _closure1_slot15;
             michal = michal.GUILD_HOME_FEATURE_ITEM;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 1542; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 1596; continue _fun00049 }
  1169:
             michal = _closure1_slot15;
             michal = michal.GUILD_HOME_REMOVE_ITEM;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 1505; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 1559; continue _fun00049 }
  1186:
             michal = _closure1_slot15;
             michal = michal.SOUNDBOARD_SOUND_CREATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 1468; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 1522; continue _fun00049 }
  1203:
             michal = _closure1_slot15;
             michal = michal.SOUNDBOARD_SOUND_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 1431; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 1485; continue _fun00049 }
  1220:
             michal = _closure1_slot15;
             michal = michal.SOUNDBOARD_SOUND_DELETE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 1394; continue _fun00049 }
+            if(!(michal !== zuuluu)) { _fun00050_ip = 1448; continue _fun00049 }
  1237:
             michal = _closure1_slot15;
             michal = michal.VOICE_CHANNEL_STATUS_CREATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 1357; continue _fun00049 }
- 1251:
+            if(!(michal !== zuuluu)) { _fun00050_ip = 1411; continue _fun00049 }
+ 1254:
             michal = _closure1_slot15;
             michal = michal.VOICE_CHANNEL_STATUS_DELETE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 1320; continue _fun00049 }
- 1265:
+            if(!(michal !== zuuluu)) { _fun00050_ip = 1374; continue _fun00049 }
+ 1268:
             michal = _closure1_slot15;
             michal = michal.GUILD_MEMBER_VERIFICATION_UPDATE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 1283; continue _fun00049 }
- 1279:
+            if(!(michal !== zuuluu)) { _fun00050_ip = 1337; continue _fun00049 }
+ 1282:
+            michal = _closure1_slot15;
+            michal = michal.GUILD_PROFILE_UPDATE;
+            if(!(michal !== zuuluu)) { _fun00050_ip = 1300; continue _fun00049 }
+ 1296:
             michal = null;
             return michal;
- 1283:
+ 1300:
+            oscard = _closure1_slot0;
+            zuuluu = _closure1_slot3;
+            michal = 17;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            michal = oscard.bind(michal)(zuuluu);
+            michal = michal.t;
+            michal = michal.Ed6hFx;
+            return michal;
+ 1337:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5008,7 +5111,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.NUKUb2;
             return michal;
- 1320:
+ 1374:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5018,7 +5121,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.aS8Krq;
             return michal;
- 1357:
+ 1411:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5028,7 +5131,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.MWjnU1;
             return michal;
- 1394:
+ 1448:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5038,7 +5141,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.kVz4//;
             return michal;
- 1431:
+ 1485:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5048,7 +5151,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.CM8n19;
             return michal;
- 1468:
+ 1522:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5058,7 +5161,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.0PD83d;
             return michal;
- 1505:
+ 1559:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5068,13 +5171,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.kPReur;
             return michal;
- 1542:
+ 1596:
             michal = report.changes;
             zuuluu = null;
             oscard = zuuluu != michal;
             michal = null;
-            if(!oscard) { _fun00050_ip = 1582; continue _fun00049 }
- 1559:
+            if(!oscard) { _fun00050_ip = 1636; continue _fun00049 }
+ 1613:
             option = report.changes;
             golfie = option.find;
             oscard = function(argFoo) {
@@ -5086,9 +5189,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             michal = golfie.bind(option)(oscard);
- 1582:
-            if(!(zuuluu != michal)) { _fun00050_ip = 1769; continue _fun00049 }
- 1589:
+ 1636:
+            if(!(zuuluu != michal)) { _fun00050_ip = 1823; continue _fun00049 }
+ 1643:
             zuuluu = michal.newValue;
             golfie = _closure1_slot0;
             michal = _closure1_slot3;
@@ -5098,16 +5201,16 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = golfie.bind(oscard)(michal);
             michal = michal.GuildFeedItemTypes;
             michal = michal.MESSAGE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 1734; continue _fun00049 }
- 1633:
+            if(!(michal !== zuuluu)) { _fun00050_ip = 1788; continue _fun00049 }
+ 1687:
             golfie = _closure1_slot0;
             michal = _closure1_slot3;
             michal = michal[option];
             michal = golfie.bind(oscard)(michal);
             michal = michal.GuildFeedItemTypes;
             michal = michal.FORUM_POST;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 1699; continue _fun00049 }
- 1666:
+            if(!(michal !== zuuluu)) { _fun00050_ip = 1753; continue _fun00049 }
+ 1720:
             zuuluu = _closure1_slot0;
             golfie = _closure1_slot3;
             michal = 17;
@@ -5116,7 +5219,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.UZ+U3N;
             return michal;
- 1699:
+ 1753:
             zuuluu = _closure1_slot0;
             golfie = _closure1_slot3;
             michal = 17;
@@ -5125,7 +5228,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.hCuAb2;
             return michal;
- 1734:
+ 1788:
             zuuluu = _closure1_slot0;
             golfie = _closure1_slot3;
             michal = 17;
@@ -5134,7 +5237,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.PyEa+P;
             return michal;
- 1769:
+ 1823:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5144,7 +5247,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.UZ+U3N;
             return michal;
- 1804:
+ 1858:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5154,7 +5257,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.XHE8qq;
             return michal;
- 1841:
+ 1895:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5164,7 +5267,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.dSdCjI;
             return michal;
- 1878:
+ 1932:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5174,7 +5277,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.yONu/v;
             return michal;
- 1915:
+ 1969:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5184,7 +5287,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.wDaq39;
             return michal;
- 1952:
+ 2006:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5194,7 +5297,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.IuBTam;
             return michal;
- 1989:
+ 2043:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5204,7 +5307,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.ArIrWF;
             return michal;
- 2026:
+ 2080:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5214,7 +5317,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal./8A1g4;
             return michal;
- 2063:
+ 2117:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5224,7 +5327,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.umua3t;
             return michal;
- 2100:
+ 2154:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5234,7 +5337,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.3wEA9v;
             return michal;
- 2137:
+ 2191:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5244,7 +5347,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.NKljj4;
             return michal;
- 2174:
+ 2228:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5254,7 +5357,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.ryGLk5;
             return michal;
- 2211:
+ 2265:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5264,7 +5367,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.ONvWys;
             return michal;
- 2248:
+ 2302:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5274,7 +5377,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal./W5u5u;
             return michal;
- 2285:
+ 2339:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5284,22 +5387,22 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.Vk4Twc;
             return michal;
- 2322:
+ 2376:
             michal = report.options;
             zuuluu = null;
             oscard = zuuluu == michal;
             golfie = undefined;
             zuuluu = undefined;
-            if(oscard) { _fun00050_ip = 2348; continue _fun00049 }
- 2340:
+            if(oscard) { _fun00050_ip = 2402; continue _fun00049 }
+ 2394:
             zuuluu = michal.auto_moderation_rule_trigger_type;
- 2348:
+ 2402:
             michal = _closure1_slot30;
             oscard = michal.USER_PROFILE;
             michal = oscard.toString;
             michal = michal.bind(oscard)();
-            if(!(zuuluu !== michal)) { _fun00050_ip = 2406; continue _fun00049 }
- 2371:
+            if(!(zuuluu !== michal)) { _fun00050_ip = 2460; continue _fun00049 }
+ 2425:
             zuuluu = _closure1_slot0;
             oscard = _closure1_slot3;
             michal = 17;
@@ -5307,8 +5410,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = zuuluu.bind(golfie)(michal);
             michal = michal.t;
             michal = michal.SD0PwM;
-            _fun00050_ip = 2439; continue _fun00049;
- 2406:
+            _fun00050_ip = 2493; continue _fun00049;
+ 2460:
             oscard = _closure1_slot0;
             option = _closure1_slot3;
             zuuluu = 17;
@@ -5316,9 +5419,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = oscard.bind(golfie)(zuuluu);
             zuuluu = zuuluu.t;
             michal = zuuluu.YQsjen;
- 2439:
+ 2493:
             return michal;
- 2441:
+ 2495:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5328,7 +5431,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.NqWv2N;
             return michal;
- 2478:
+ 2532:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5338,7 +5441,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.uzCqBg;
             return michal;
- 2515:
+ 2569:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5348,7 +5451,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.s3Khn5;
             return michal;
- 2552:
+ 2606:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5358,13 +5461,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.PSsy4u;
             return michal;
- 2589:
+ 2643:
             michal = report.changes;
             zuuluu = null;
             oscard = zuuluu != michal;
             michal = null;
-            if(!oscard) { _fun00050_ip = 2629; continue _fun00049 }
- 2606:
+            if(!oscard) { _fun00050_ip = 2683; continue _fun00049 }
+ 2660:
             option = report.changes;
             golfie = option.find;
             oscard = function(argFoo) {
@@ -5376,18 +5479,18 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             michal = golfie.bind(option)(oscard);
- 2629:
-            if(!(zuuluu != michal)) { _fun00050_ip = 2781; continue _fun00049 }
- 2636:
+ 2683:
+            if(!(zuuluu != michal)) { _fun00050_ip = 2835; continue _fun00049 }
+ 2690:
             zuuluu = michal.newValue;
             michal = _closure1_slot22;
             michal = michal.PRIVATE_THREAD;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2744; continue _fun00049 }
- 2656:
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2798; continue _fun00049 }
+ 2710:
             michal = _closure1_slot22;
             michal = michal.ANNOUNCEMENT_THREAD;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 2707; continue _fun00049 }
- 2670:
+            if(!(michal !== zuuluu)) { _fun00050_ip = 2761; continue _fun00049 }
+ 2724:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5397,7 +5500,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.2cxQ7O;
             return michal;
- 2707:
+ 2761:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5407,7 +5510,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.6uaMmJ;
             return michal;
- 2744:
+ 2798:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5417,7 +5520,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.Br0y5+;
             return michal;
- 2781:
+ 2835:
             michal = global;
             oscard = michal.Error;
             michal = oscard.prototype;
@@ -5427,7 +5530,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = new offset[oscard](verify, option);
             michal = michal instanceof Object ? michal : zuuluu;
             throw michal;
- 2817:
+ 2871:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5437,7 +5540,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.zYb2dX;
             return michal;
- 2854:
+ 2908:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5447,7 +5550,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.8qCI39;
             return michal;
- 2891:
+ 2945:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5457,7 +5560,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal./ARPKS;
             return michal;
- 2928:
+ 2982:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5467,7 +5570,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.ebTK19;
             return michal;
- 2965:
+ 3019:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5477,11 +5580,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.S7k52t;
             return michal;
- 3002:
+ 3056:
             zuuluu = report.userId;
             michal = null;
-            if(!(michal == zuuluu)) { _fun00050_ip = 3050; continue _fun00049 }
- 3013:
+            if(!(michal == zuuluu)) { _fun00050_ip = 3104; continue _fun00049 }
+ 3067:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5490,8 +5593,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = oscard.bind(michal)(zuuluu);
             michal = michal.t;
             michal = michal.7ZIFm5;
-            _fun00050_ip = 3085; continue _fun00049;
- 3050:
+            _fun00050_ip = 3139; continue _fun00049;
+ 3104:
             golfie = _closure1_slot0;
             oscard = _closure1_slot3;
             zuuluu = 17;
@@ -5500,9 +5603,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = golfie.bind(zuuluu)(oscard);
             zuuluu = zuuluu.t;
             michal = zuuluu.Oi/in5;
- 3085:
+ 3139:
             return michal;
- 3087:
+ 3141:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5512,7 +5615,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.0hQYU1;
             return michal;
- 3124:
+ 3178:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5522,7 +5625,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.n7x/DA;
             return michal;
- 3161:
+ 3215:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5532,7 +5635,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.8zScWV;
             return michal;
- 3198:
+ 3252:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5542,7 +5645,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.ibCCOT;
             return michal;
- 3235:
+ 3289:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5552,7 +5655,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.HYvCb2;
             return michal;
- 3272:
+ 3326:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5562,7 +5665,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.NCxXUV;
             return michal;
- 3309:
+ 3363:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5572,7 +5675,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.Yna7Ex;
             return michal;
- 3346:
+ 3400:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5582,7 +5685,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.3RIvLC;
             return michal;
- 3383:
+ 3437:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5592,7 +5695,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.HPkD+P;
             return michal;
- 3420:
+ 3474:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5602,7 +5705,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.rGEP9f;
             return michal;
- 3457:
+ 3511:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5612,7 +5715,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.bhujGR;
             return michal;
- 3494:
+ 3548:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5622,7 +5725,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.DRZifn;
             return michal;
- 3531:
+ 3585:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5632,7 +5735,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.JnUaVF;
             return michal;
- 3568:
+ 3622:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5642,7 +5745,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.IsCKfn;
             return michal;
- 3605:
+ 3659:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5652,7 +5755,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.7vekRE;
             return michal;
- 3642:
+ 3696:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5662,7 +5765,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.in0VjY;
             return michal;
- 3679:
+ 3733:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5672,7 +5775,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.6GTlWF;
             return michal;
- 3716:
+ 3770:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5682,7 +5785,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.MhYhio;
             return michal;
- 3753:
+ 3807:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5692,7 +5795,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.3n/iWl;
             return michal;
- 3790:
+ 3844:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5702,7 +5805,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.ja3kGR;
             return michal;
- 3827:
+ 3881:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5712,7 +5815,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.YHOXW1;
             return michal;
- 3864:
+ 3918:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5722,7 +5825,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.4s63tb;
             return michal;
- 3901:
+ 3955:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5732,7 +5835,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.NRbN19;
             return michal;
- 3938:
+ 3992:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5742,7 +5845,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.UTLTx8;
             return michal;
- 3975:
+ 4029:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5752,7 +5855,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.fWvX0N;
             return michal;
- 4012:
+ 4066:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5762,7 +5865,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.K4eCZ2;
             return michal;
- 4049:
+ 4103:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5772,7 +5875,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.Yt6NkZ;
             return michal;
- 4086:
+ 4140:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5782,7 +5885,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.VngfiY;
             return michal;
- 4123:
+ 4177:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5792,7 +5895,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.pznhLC;
             return michal;
- 4160:
+ 4214:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5802,7 +5905,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.o3Y6HB;
             return michal;
- 4197:
+ 4251:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5812,7 +5915,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.XklUm5;
             return michal;
- 4234:
+ 4288:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5822,7 +5925,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.qKOZTE;
             return michal;
- 4271:
+ 4325:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5832,7 +5935,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.B5hDZW;
             return michal;
- 4308:
+ 4362:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5842,7 +5945,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.HASt//;
             return michal;
- 4345:
+ 4399:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5852,7 +5955,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.uhtbNT;
             return michal;
- 4382:
+ 4436:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5862,7 +5965,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.l5Cu1d;
             return michal;
- 4419:
+ 4473:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5872,7 +5975,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.ynfvkp;
             return michal;
- 4456:
+ 4510:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5882,13 +5985,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.nTYk6O;
             return michal;
- 4493:
+ 4547:
             michal = report.changes;
             zuuluu = null;
             oscard = zuuluu != michal;
             michal = null;
-            if(!oscard) { _fun00050_ip = 4533; continue _fun00049 }
- 4510:
+            if(!oscard) { _fun00050_ip = 4587; continue _fun00049 }
+ 4564:
             oscard = report.changes;
             report = oscard.find;
             tangon = function(argFoo) {
@@ -5900,22 +6003,22 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             michal = report.bind(oscard)(tangon);
- 4533:
-            if(!(zuuluu != michal)) { _fun00050_ip = 4739; continue _fun00049 }
- 4540:
+ 4587:
+            if(!(zuuluu != michal)) { _fun00050_ip = 4793; continue _fun00049 }
+ 4594:
             zuuluu = michal.newValue;
             michal = _closure1_slot22;
             michal = michal.GUILD_STAGE_VOICE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 4702; continue _fun00049 }
- 4563:
+            if(!(michal !== zuuluu)) { _fun00050_ip = 4756; continue _fun00049 }
+ 4617:
             michal = _closure1_slot22;
             michal = michal.GUILD_VOICE;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 4665; continue _fun00049 }
- 4577:
+            if(!(michal !== zuuluu)) { _fun00050_ip = 4719; continue _fun00049 }
+ 4631:
             michal = _closure1_slot22;
             michal = michal.GUILD_CATEGORY;
-            if(!(michal !== zuuluu)) { _fun00050_ip = 4628; continue _fun00049 }
- 4591:
+            if(!(michal !== zuuluu)) { _fun00050_ip = 4682; continue _fun00049 }
+ 4645:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5925,7 +6028,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.wrYNGx;
             return michal;
- 4628:
+ 4682:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5935,7 +6038,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.T3KIj4;
             return michal;
- 4665:
+ 4719:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5945,7 +6048,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.NPOy4O;
             return michal;
- 4702:
+ 4756:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot3;
             michal = 17;
@@ -5955,7 +6058,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.t;
             michal = michal.OKp4+v;
             return michal;
- 4739:
+ 4793:
             michal = global;
             tangon = michal.Error;
             michal = tangon.prototype;
@@ -5965,7 +6068,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = new offset[tangon](verify, option);
             michal = michal instanceof Object ? michal : zuuluu;
             throw michal;
- 4775:
+ 4829:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot3;
             entity = 17;
@@ -7088,103 +7191,107 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         report = golfie.targetType;
                         tangon = _closure1_slot17;
                         tangon = tangon.GUILD;
-                        if(!(tangon !== report)) { _fun00060_ip = 1227; continue _fun00059 }
+                        if(!(tangon !== report)) { _fun00060_ip = 1244; continue _fun00059 }
  42:
                         tangon = _closure1_slot17;
                         tangon = tangon.GUILD_HOME;
-                        if(!(tangon !== report)) { _fun00060_ip = 1227; continue _fun00059 }
+                        if(!(tangon !== report)) { _fun00060_ip = 1244; continue _fun00059 }
  59:
                         tangon = _closure1_slot17;
-                        tangon = tangon.CHANNEL;
-                        if(!(tangon !== report)) { _fun00060_ip = 1188; continue _fun00059 }
+                        tangon = tangon.GUILD_PROFILE;
+                        if(!(tangon !== report)) { _fun00060_ip = 1244; continue _fun00059 }
  76:
                         tangon = _closure1_slot17;
-                        tangon = tangon.CHANNEL_OVERWRITE;
-                        if(!(tangon !== report)) { _fun00060_ip = 1188; continue _fun00059 }
+                        tangon = tangon.CHANNEL;
+                        if(!(tangon !== report)) { _fun00060_ip = 1205; continue _fun00059 }
  93:
                         tangon = _closure1_slot17;
-                        tangon = tangon.USER;
-                        if(!(tangon !== report)) { _fun00060_ip = 1149; continue _fun00059 }
+                        tangon = tangon.CHANNEL_OVERWRITE;
+                        if(!(tangon !== report)) { _fun00060_ip = 1205; continue _fun00059 }
  110:
                         tangon = _closure1_slot17;
-                        tangon = tangon.ROLE;
-                        if(!(tangon !== report)) { _fun00060_ip = 1110; continue _fun00059 }
+                        tangon = tangon.USER;
+                        if(!(tangon !== report)) { _fun00060_ip = 1166; continue _fun00059 }
  127:
                         tangon = _closure1_slot17;
-                        tangon = tangon.ONBOARDING_PROMPT;
-                        if(!(tangon !== report)) { _fun00060_ip = 998; continue _fun00059 }
+                        tangon = tangon.ROLE;
+                        if(!(tangon !== report)) { _fun00060_ip = 1127; continue _fun00059 }
  144:
                         tangon = _closure1_slot17;
-                        tangon = tangon.GUILD_ONBOARDING;
-                        if(!(tangon !== report)) { _fun00060_ip = 996; continue _fun00059 }
+                        tangon = tangon.ONBOARDING_PROMPT;
+                        if(!(tangon !== report)) { _fun00060_ip = 1015; continue _fun00059 }
  161:
                         tangon = _closure1_slot17;
-                        tangon = tangon.GUILD_MEMBER_VERIFICATION;
-                        if(!(tangon !== report)) { _fun00060_ip = 996; continue _fun00059 }
+                        tangon = tangon.GUILD_ONBOARDING;
+                        if(!(tangon !== report)) { _fun00060_ip = 1013; continue _fun00059 }
  178:
                         tangon = _closure1_slot17;
-                        tangon = tangon.INVITE;
-                        if(!(tangon !== report)) { _fun00060_ip = 967; continue _fun00059 }
+                        tangon = tangon.GUILD_MEMBER_VERIFICATION;
+                        if(!(tangon !== report)) { _fun00060_ip = 1013; continue _fun00059 }
  195:
                         tangon = _closure1_slot17;
-                        tangon = tangon.INTEGRATION;
-                        if(!(tangon !== report)) { _fun00060_ip = 928; continue _fun00059 }
+                        tangon = tangon.INVITE;
+                        if(!(tangon !== report)) { _fun00060_ip = 984; continue _fun00059 }
  212:
                         tangon = _closure1_slot17;
-                        tangon = tangon.WEBHOOK;
-                        if(!(tangon !== report)) { _fun00060_ip = 889; continue _fun00059 }
+                        tangon = tangon.INTEGRATION;
+                        if(!(tangon !== report)) { _fun00060_ip = 945; continue _fun00059 }
  229:
                         tangon = _closure1_slot17;
-                        tangon = tangon.EMOJI;
-                        if(!(tangon !== report)) { _fun00060_ip = 850; continue _fun00059 }
+                        tangon = tangon.WEBHOOK;
+                        if(!(tangon !== report)) { _fun00060_ip = 906; continue _fun00059 }
  246:
                         tangon = _closure1_slot17;
-                        tangon = tangon.STICKER;
-                        if(!(tangon !== report)) { _fun00060_ip = 811; continue _fun00059 }
+                        tangon = tangon.EMOJI;
+                        if(!(tangon !== report)) { _fun00060_ip = 867; continue _fun00059 }
  263:
                         tangon = _closure1_slot17;
-                        tangon = tangon.STAGE_INSTANCE;
-                        if(!(tangon !== report)) { _fun00060_ip = 772; continue _fun00059 }
+                        tangon = tangon.STICKER;
+                        if(!(tangon !== report)) { _fun00060_ip = 828; continue _fun00059 }
  280:
                         tangon = _closure1_slot17;
-                        tangon = tangon.GUILD_SCHEDULED_EVENT;
-                        if(!(tangon !== report)) { _fun00060_ip = 733; continue _fun00059 }
+                        tangon = tangon.STAGE_INSTANCE;
+                        if(!(tangon !== report)) { _fun00060_ip = 789; continue _fun00059 }
  297:
                         tangon = _closure1_slot17;
-                        tangon = tangon.GUILD_SCHEDULED_EVENT_EXCEPTION;
-                        if(!(tangon !== report)) { _fun00060_ip = 733; continue _fun00059 }
+                        tangon = tangon.GUILD_SCHEDULED_EVENT;
+                        if(!(tangon !== report)) { _fun00060_ip = 750; continue _fun00059 }
  314:
                         tangon = _closure1_slot17;
-                        tangon = tangon.THREAD;
-                        if(!(tangon !== report)) { _fun00060_ip = 694; continue _fun00059 }
+                        tangon = tangon.GUILD_SCHEDULED_EVENT_EXCEPTION;
+                        if(!(tangon !== report)) { _fun00060_ip = 750; continue _fun00059 }
  331:
                         tangon = _closure1_slot17;
-                        tangon = tangon.APPLICATION_COMMAND;
-                        if(!(tangon !== report)) { _fun00060_ip = 586; continue _fun00059 }
+                        tangon = tangon.THREAD;
+                        if(!(tangon !== report)) { _fun00060_ip = 711; continue _fun00059 }
  348:
                         tangon = _closure1_slot17;
-                        tangon = tangon.AUTO_MODERATION_RULE;
-                        if(!(tangon !== report)) { _fun00060_ip = 547; continue _fun00059 }
+                        tangon = tangon.APPLICATION_COMMAND;
+                        if(!(tangon !== report)) { _fun00060_ip = 603; continue _fun00059 }
  365:
                         tangon = _closure1_slot17;
-                        tangon = tangon.GUILD_SOUNDBOARD;
-                        if(!(tangon !== report)) { _fun00060_ip = 518; continue _fun00059 }
+                        tangon = tangon.AUTO_MODERATION_RULE;
+                        if(!(tangon !== report)) { _fun00060_ip = 564; continue _fun00059 }
  382:
                         tangon = _closure1_slot17;
+                        tangon = tangon.GUILD_SOUNDBOARD;
+                        if(!(tangon !== report)) { _fun00060_ip = 535; continue _fun00059 }
+ 399:
+                        tangon = _closure1_slot17;
                         tangon = tangon.HOME_SETTINGS;
-                        if(!(tangon !== report)) { _fun00060_ip = 474; continue _fun00059 }
- 396:
+                        if(!(tangon !== report)) { _fun00060_ip = 491; continue _fun00059 }
+ 413:
                         tangon = _closure1_slot17;
                         tangon = tangon.VOICE_CHANNEL_STATUS;
-                        if(!(tangon !== report)) { _fun00060_ip = 435; continue _fun00059 }
- 410:
+                        if(!(tangon !== report)) { _fun00060_ip = 452; continue _fun00059 }
+ 427:
                         oscard = _closure1_slot34;
                         report = oscard.warn;
                         tangon = 'Unknown targetType for log';
                         tangon = report.bind(oscard)(tangon, golfie);
                         tangon = null;
                         return tangon;
- 435:
+ 452:
                         verify = _closure1_slot45;
                         tangon = _closure1_slot16;
                         kiloes = tangon.STATUS;
@@ -7215,7 +7322,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         sizing = golfie;
                         tangon = output[verify](sizing, kiloes, backup, foxtra, romeon);
                         return tangon;
- 474:
+ 491:
                         offset = _closure1_slot45;
                         tangon = _closure1_slot16;
                         kiloes = tangon.GUILD_ID;
@@ -7247,7 +7354,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         sizing = golfie;
                         tangon = output[offset](sizing, kiloes, backup, foxtra, romeon, yankee);
                         return tangon;
- 518:
+ 535:
                         option = _closure1_slot45;
                         tangon = _closure1_slot16;
                         oscard = tangon.NAME;
@@ -7255,7 +7362,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         tangon = undefined;
                         tangon = option.bind(tangon)(golfie, oscard, report);
                         return tangon;
- 547:
+ 564:
                         verify = _closure1_slot45;
                         tangon = _closure1_slot16;
                         kiloes = tangon.NAME;
@@ -7284,12 +7391,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         sizing = golfie;
                         tangon = output[verify](sizing, kiloes, backup, foxtra, romeon);
                         return tangon;
- 586:
+ 603:
                         report = golfie.targetId;
                         tangon = golfie.options;
                         tangon = tangon.application_id;
-                        if(!(report !== tangon)) { _fun00060_ip = 646; continue _fun00059 }
- 607:
+                        if(!(report !== tangon)) { _fun00060_ip = 663; continue _fun00059 }
+ 624:
                         verify = _closure1_slot45;
                         tangon = _closure1_slot16;
                         kiloes = tangon.NAME;
@@ -7351,7 +7458,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         sizing = golfie;
                         tangon = output[verify](sizing, kiloes, backup, foxtra, romeon);
                         return tangon;
- 646:
+ 663:
                         tangon = _closure1_slot14;
                         oscard = tangon.integrations;
                         report = oscard.find;
@@ -7375,15 +7482,15 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         };
                         report = report.bind(oscard)(tangon);
                         tangon = null;
-                        if(!(tangon == report)) { _fun00060_ip = 687; continue _fun00059 }
- 679:
+                        if(!(tangon == report)) { _fun00060_ip = 704; continue _fun00059 }
+ 696:
                         tangon = golfie.targetId;
-                        _fun00060_ip = 692; continue _fun00059;
- 687:
+                        _fun00060_ip = 709; continue _fun00059;
+ 704:
                         tangon = report.name;
- 692:
+ 709:
                         return tangon;
- 694:
+ 711:
                         verify = _closure1_slot45;
                         tangon = _closure1_slot16;
                         kiloes = tangon.NAME;
@@ -7412,7 +7519,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         sizing = golfie;
                         tangon = output[verify](sizing, kiloes, backup, foxtra, romeon);
                         return tangon;
- 733:
+ 750:
                         verify = _closure1_slot45;
                         tangon = _closure1_slot16;
                         kiloes = tangon.NAME;
@@ -7441,7 +7548,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         sizing = golfie;
                         tangon = output[verify](sizing, kiloes, backup, foxtra, romeon);
                         return tangon;
- 772:
+ 789:
                         verify = _closure1_slot45;
                         tangon = _closure1_slot16;
                         kiloes = tangon.TOPIC;
@@ -7486,7 +7593,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         sizing = golfie;
                         tangon = output[verify](sizing, kiloes, backup, foxtra, romeon);
                         return tangon;
- 811:
+ 828:
                         verify = _closure1_slot45;
                         tangon = _closure1_slot16;
                         kiloes = tangon.NAME;
@@ -7506,7 +7613,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         sizing = golfie;
                         tangon = output[verify](sizing, kiloes, backup, foxtra, romeon);
                         return tangon;
- 850:
+ 867:
                         verify = _closure1_slot45;
                         tangon = _closure1_slot16;
                         kiloes = tangon.NAME;
@@ -7538,7 +7645,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         sizing = golfie;
                         tangon = output[verify](sizing, kiloes, backup, foxtra, romeon);
                         return tangon;
- 889:
+ 906:
                         verify = _closure1_slot45;
                         tangon = _closure1_slot16;
                         kiloes = tangon.NAME;
@@ -7567,7 +7674,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         sizing = golfie;
                         tangon = output[verify](sizing, kiloes, backup, foxtra, romeon);
                         return tangon;
- 928:
+ 945:
                         verify = _closure1_slot45;
                         tangon = _closure1_slot16;
                         kiloes = tangon.TYPE;
@@ -7596,7 +7703,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         sizing = golfie;
                         tangon = output[verify](sizing, kiloes, backup, foxtra, romeon);
                         return tangon;
- 967:
+ 984:
                         option = _closure1_slot45;
                         tangon = _closure1_slot16;
                         oscard = tangon.CODE;
@@ -7604,9 +7711,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         tangon = undefined;
                         tangon = option.bind(tangon)(golfie, oscard, report);
                         return tangon;
- 996:
+ 1013:
                         return entity;
- 998:
+ 1015:
                         option = _closure1_slot45;
                         tangon = _closure1_slot16;
                         kiloes = tangon.ID;
@@ -7627,11 +7734,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         sizing = golfie;
                         tangon = output[option](sizing, kiloes, backup, foxtra, romeon);
                         report = null;
-                        if(!(report != tangon)) { _fun00060_ip = 1051; continue _fun00059 }
- 1043:
+                        if(!(report != tangon)) { _fun00060_ip = 1068; continue _fun00059 }
+ 1060:
                         report = '';
-                        if(!(report === tangon)) { _fun00060_ip = 1108; continue _fun00059 }
- 1051:
+                        if(!(report === tangon)) { _fun00060_ip = 1125; continue _fun00059 }
+ 1068:
                         verify = _closure1_slot0;
                         yankee = _closure1_slot3;
                         report = 17;
@@ -7644,9 +7751,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         report = report.t;
                         report = report.ZNQyiY;
                         tangon = oscard.bind(option)(report);
- 1108:
+ 1125:
                         return tangon;
- 1110:
+ 1127:
                         verify = _closure1_slot45;
                         tangon = _closure1_slot16;
                         kiloes = tangon.NAME;
@@ -7668,7 +7775,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         sizing = golfie;
                         tangon = output[verify](sizing, kiloes, backup, foxtra, romeon);
                         return tangon;
- 1149:
+ 1166:
                         verify = _closure1_slot45;
                         tangon = _closure1_slot16;
                         kiloes = tangon.NICK;
@@ -7687,7 +7794,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         sizing = golfie;
                         tangon = output[verify](sizing, kiloes, backup, foxtra, romeon);
                         return tangon;
- 1188:
+ 1205:
                         oscard = _closure1_slot45;
                         zuuluu = _closure1_slot16;
                         kiloes = zuuluu.NAME;
@@ -7718,7 +7825,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         sizing = golfie;
                         michal = output[oscard](sizing, kiloes, backup, foxtra, romeon);
                         return michal;
- 1227:
+ 1244:
                         return entity;
                     }
                 };

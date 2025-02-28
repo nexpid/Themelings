@@ -997,7 +997,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = entity;
-        entity = new Array(56);
+        entity = new Array(57);
         entity[0] = report;
         report = {};
         option = 'destroy';
@@ -2450,14 +2450,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report['value'] = golfie;
         entity[54] = report;
         report = {};
-        golfie = 'setVoiceFiltersEnabled';
+        golfie = 'getVoiceFilterId';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
+            entity = null;
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[55] = report;
+        report = {};
+        golfie = 'setVoiceFilterId';
         report['key'] = golfie;
         oscard = function() { // Original name: value
             entity = undefined;
             return entity;
         };
         report['value'] = oscard;
-        entity[55] = report;
+        entity[56] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

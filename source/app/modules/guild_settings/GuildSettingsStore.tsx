@@ -1597,22 +1597,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             zuuluu = _closure1_slot27;
             tangon = null;
-            if(!(tangon != zuuluu)) { _fun00056_ip = 129; continue _fun00055 }
- 15:
+            if(!(tangon != zuuluu)) { _fun00056_ip = 189; continue _fun00055 }
+ 18:
             zuuluu = _closure1_slot27;
             report = zuuluu.id;
             zuuluu = argFoo;
             zuuluu = zuuluu.guild;
             zuuluu = zuuluu.id;
-            if(!(report === zuuluu)) { _fun00056_ip = 129; continue _fun00055 }
- 41:
+            if(!(report === zuuluu)) { _fun00056_ip = 189; continue _fun00055 }
+ 47:
             oscard = _closure1_slot13;
             report = oscard.getGuild;
             zuuluu = _closure1_slot27;
             zuuluu = zuuluu.id;
             zuuluu = report.bind(oscard)(zuuluu);
-            if(!(tangon != zuuluu)) { _fun00056_ip = 125; continue _fun00055 }
- 68:
+            if(!(tangon != zuuluu)) { _fun00056_ip = 185; continue _fun00055 }
+ 74:
+            oscard = _closure1_slot8;
+            report = oscard.getProfile;
+            tangon = _closure1_slot27;
+            tangon = tangon.id;
+            tangon = report.bind(oscard)(tangon);
+            _closure1_slot28 = tangon;
+            report = _closure1_slot23;
+            tangon = _closure1_slot17;
+            tangon = tangon.PROFILE;
+            if(!(report !== tangon)) { _fun00056_ip = 128; continue _fun00055 }
+ 120:
+            tangon = _closure1_slot28;
+            _closure1_slot29 = tangon;
+ 128:
             _closure1_slot26 = zuuluu;
             var _closure2_slot0 = zuuluu;
             tangon = _closure1_slot27;
@@ -1679,10 +1693,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             _closure1_slot27 = entity;
             entity = undefined;
             return entity;
- 125:
+ 185:
             entity = false;
             return entity;
- 129:
+ 189:
             entity = false;
             return entity;
         }
