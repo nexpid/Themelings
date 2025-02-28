@@ -378,7 +378,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal['registrationName'] = report;
     entity['topTapSoundmoji'] = michal;
     tangon['directEventTypes'] = entity;
-    michal = {'inverted': true, 'keyboardResponderProxyTag': true, 'scrollEnabled': true, 'animateEmoji': true, 'HACK_fixModalInteraction': true, 'alwaysRespectKeyboard': true, 'roleStyle': true, 'adjustContentOffsetWithBounds': true, 'keyboardBackgroundRgba': true, 'shouldCalculateMessageVisibilityPercentages': true};
+    michal = {'inverted': true, 'keyboardResponderProxyTag': true, 'scrollEnabled': true, 'animateEmoji': true, 'HACK_fixModalInteraction': true, 'alwaysRespectKeyboard': true, 'roleStyle': true, 'adjustContentOffsetWithBounds': true, 'keyboardBackgroundRgba': true};
     entity = 0;
     report = option[entity];
     entity = undefined;

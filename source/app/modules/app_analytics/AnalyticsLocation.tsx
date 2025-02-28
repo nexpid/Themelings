@@ -799,6 +799,16 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['YOU_ACCOUNT_ACTION_SHEET'] = entity;
     entity = 'user profile custom status bubble';
     michal['USER_PROFILE_CUSTOM_STATUS_BUBBLE'] = entity;
+    entity = 'activity PIP';
+    michal['ACTIVITY_PIP'] = entity;
+    entity = 'video PIP';
+    michal['VIDEO_PIP'] = entity;
+    entity = 'incoming call modal';
+    michal['INCOMING_CALL_MODAL'] = entity;
+    entity = 'voice channel header';
+    michal['VOICE_CHANNEL_HEADER'] = entity;
+    entity = 'activity panel';
+    michal['ACTIVITY_PANEL'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

@@ -58,7 +58,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
             if(michal) { _fun00002_ip = 26; continue _fun00001 }
  18:
             zuuluu = entity;
-            _fun00002_ip = 316; continue _fun00001;
+            _fun00002_ip = 312; continue _fun00001;
  26:
             tangon = _closure1_slot0;
             michal = _closure1_slot1;
@@ -70,7 +70,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
             michal = 'custom_notification_sounds_discodo';
             golfie = false;
             michal = tangon.bind(option)(michal, golfie);
-            if(!michal) { _fun00002_ip = 117; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 113; continue _fun00001 }
  77:
             tangon = entity.push;
             michal = {'value': null, 'label': 'DISCODO', 'description': '๑(◕‿◕)๑', 'requirePremium': true};
@@ -78,7 +78,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
             option = option.DISCODO;
             michal['value'] = option;
             michal = tangon.bind(entity)(michal);
- 117:
+ 113:
             tangon = _closure1_slot0;
             michal = _closure1_slot1;
             michal = michal[oscard];
@@ -88,8 +88,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
             michal = 'custom_notification_sounds_asmr';
             michal = tangon.bind(oscard)(michal, golfie);
             zuuluu = entity;
-            if(!michal) { _fun00002_ip = 316; continue _fun00001 }
- 166:
+            if(!michal) { _fun00002_ip = 312; continue _fun00001 }
+ 162:
             tangon = entity.push;
             michal = {};
             oscard = _closure1_slot2;
@@ -123,7 +123,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
             michal['requirePremium'] = report;
             michal = tangon.bind(entity)(michal);
             zuuluu = entity;
- 316:
+ 312:
             michal = {};
             oscard = _closure1_slot2;
             tangon = oscard.CLASSIC;

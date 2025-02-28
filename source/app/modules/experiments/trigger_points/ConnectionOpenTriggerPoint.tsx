@@ -21,7 +21,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     option = oscard[tangon];
     option = report.bind(entity)(option);
     option = option.VanillaExperiment;
-    verify = new Array(58);
+    verify = new Array(59);
     verify[0] = option;
     option = oscard[tangon];
     option = report.bind(entity)(option);
@@ -298,6 +298,11 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     tangon = 53;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    tangon = tangon.VoiceIconStatesExperimentV2;
+    verify[58] = tangon;
+    tangon = 54;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
     option = tangon.CommonTriggerPointConfiguration;
     yankee = michal.CONNECTION_OPEN;
     michal = {};
@@ -310,7 +315,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     offset = michal;
     michal = new foxtra[option](romeon, yankee, offset, verify);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 54;
+    tangon = 55;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

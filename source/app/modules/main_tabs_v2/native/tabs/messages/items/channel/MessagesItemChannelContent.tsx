@@ -412,13 +412,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity = argFoo;
             kiloes = entity.channel;
             var _closure2_slot0 = kiloes;
-            result = entity.channelSelected;
+            output = entity.channelSelected;
             target = entity.favorite;
             backup = entity.muted;
             papara = entity.ignored;
             cntext = entity.blocked;
             michal = entity.hasActivity;
-            output = entity.hasUnreadMessages;
+            result = entity.hasUnreadMessages;
             option = entity.resolvedUnreadSetting;
             sizing = entity.hasNameplate;
             entity = backup;
@@ -434,8 +434,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             report = report.ALL_MESSAGES;
             quebec = option === report;
             variable38 = undefined;
-            variable37 = result;
-            variable36 = output;
+            variable37 = output;
+            variable36 = result;
             equals = backup;
             whisks = entity;
             limora = sizing;
@@ -462,7 +462,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = 14;
             zuuluu = oscard[zuuluu];
             zuuluu = report.bind(tangon)(zuuluu);
-            update = zuuluu.bind(tangon)(kiloes, output);
+            update = zuuluu.bind(tangon)(kiloes, result);
             oscard = null;
             verify = oscard != update;
             echoed = entity;
@@ -486,7 +486,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  272:
             if(entity) { _fun00006_ip = 278; continue _fun00005 }
  275:
-            entity = output;
+            entity = result;
  278:
             verify = entity;
  281:
@@ -673,7 +673,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             yankee['guildId'] = source;
             verify = foxtra.bind(tangon)(romeon, yankee);
  1046:
-            _fun00006_ip = 1193; continue _fun00005;
+            _fun00006_ip = 1196; continue _fun00005;
  1051:
             foxtra = _closure1_slot7;
             romeon = _closure1_slot0;
@@ -686,26 +686,28 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             yankee['message'] = update;
             yankee['channel'] = kiloes;
             kiloes = 'interactive-muted';
-            if(echoed) { _fun00006_ip = 1141; continue _fun00005 }
+            if(echoed) { _fun00006_ip = 1144; continue _fun00005 }
  1100:
             if(sizing) { _fun00006_ip = 1120; continue _fun00005 }
  1103:
             sizing = 'text-muted';
-            if(!output) { _fun00006_ip = 1118; continue _fun00005 }
+            if(!result) { _fun00006_ip = 1118; continue _fun00005 }
  1112:
             sizing = 'header-primary';
  1118:
-            _fun00006_ip = 1138; continue _fun00005;
+            _fun00006_ip = 1141; continue _fun00005;
  1120:
+            if(output) { _fun00006_ip = 1132; continue _fun00005 }
+ 1123:
             output = 'interactive-normal';
-            if(!result) { _fun00006_ip = 1135; continue _fun00005 }
- 1129:
+            if(!result) { _fun00006_ip = 1138; continue _fun00005 }
+ 1132:
             output = 'interactive-active';
- 1135:
-            sizing = output;
  1138:
-            kiloes = sizing;
+            sizing = output;
  1141:
+            kiloes = sizing;
+ 1144:
             yankee['color'] = kiloes;
             sizing = _closure1_slot0;
             output = _closure1_slot2;
@@ -717,7 +719,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             yankee['layout'] = kiloes;
             yankee['muted'] = backup;
             verify = foxtra.bind(tangon)(romeon, yankee);
- 1193:
+ 1196:
             report[1] = verify;
             entity['children'] = report;
             verify = zuuluu.bind(tangon)(michal, entity);
@@ -727,8 +729,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             report = new Array(2);
             report[0] = verify;
             oscard = null;
-            if(!option) { _fun00006_ip = 1267; continue _fun00005 }
- 1230:
+            if(!option) { _fun00006_ip = 1270; continue _fun00005 }
+ 1233:
             verify = _closure1_slot7;
             option = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -738,7 +740,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = {};
             golfie['wavePressed'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 1267:
+ 1270:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

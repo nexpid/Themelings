@@ -166,10 +166,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = {};
                 michal['lastUsedObject'] = zuuluu;
                 zuuluu = null;
-                if(!(zuuluu == entity)) { _fun00006_ip = 29; continue _fun00005 }
- 27:
+                if(!(zuuluu == entity)) { _fun00006_ip = 33; continue _fun00005 }
+ 31:
                 entity = {};
- 29:
+ 33:
                 report = michal;
                 tangon = entity;
                 entity = copyDataProperties(report, tangon);

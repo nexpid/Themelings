@@ -46,17 +46,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     foxtra = foxtra.colors;
     foxtra = foxtra.BG_BASE_PRIMARY;
     verify['backgroundColor'] = foxtra;
-    foxtra = oscard[yankee];
-    foxtra = romeon.bind(entity)(foxtra);
-    foxtra = foxtra.spacing;
-    foxtra = foxtra.PX_4;
-    verify['marginHorizontal'] = foxtra;
+    verify['marginHorizontal'] = backup;
     foxtra = oscard[yankee];
     foxtra = romeon.bind(entity)(foxtra);
     foxtra = foxtra.spacing;
     foxtra = foxtra.PX_4;
     foxtra = foxtra / backup;
-    verify['margin'] = foxtra;
+    verify['marginVertical'] = foxtra;
     foxtra = oscard[yankee];
     foxtra = romeon.bind(entity)(foxtra);
     foxtra = foxtra.radii;
@@ -89,6 +85,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify['paddingRight'] = yankee;
     verify['marginLeft'] = offset;
     tangon['tagIcon'] = verify;
+    verify = {};
+    verify['marginLeft'] = offset;
+    tangon['start'] = verify;
+    verify = {};
+    verify['marginRight'] = offset;
+    tangon['end'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot6 = tangon;
     tangon = 9;
@@ -103,10 +105,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = argFoo;
             verify = entity.tag;
             yankee = entity.selected;
-            entity = entity.onPress;
-            var _closure2_slot0 = entity;
-            entity = _closure1_slot6;
+            michal = entity.onPress;
+            var _closure2_slot0 = michal;
+            sizing = entity.start;
             tangon = undefined;
+            if(!(sizing === tangon)) { _fun00002_ip = 38; continue _fun00001 }
+ 36:
+            sizing = false;
+ 38:
+            kiloes = entity.end;
+            if(!(kiloes === tangon)) { _fun00002_ip = 49; continue _fun00001 }
+ 47:
+            kiloes = false;
+ 49:
+            entity = _closure1_slot6;
             romeon = entity.bind(tangon)();
             michal = _closure1_slot0;
             foxtra = _closure1_slot2;
@@ -144,14 +156,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.PressableOpacity;
             entity = {};
             backup = romeon.tagWrapper;
-            foxtra = new Array(2);
+            foxtra = new Array(4);
             foxtra[0] = backup;
             backup = undefined;
-            if(!yankee) { _fun00002_ip = 195; continue _fun00001 }
- 189:
+            if(!yankee) { _fun00002_ip = 217; continue _fun00001 }
+ 211:
             backup = romeon.highlightedTagWrapper;
- 195:
+ 217:
             foxtra[1] = backup;
+            backup = undefined;
+            if(!sizing) { _fun00002_ip = 231; continue _fun00001 }
+ 226:
+            backup = romeon.start;
+ 231:
+            foxtra[2] = backup;
+            backup = undefined;
+            if(!kiloes) { _fun00002_ip = 245; continue _fun00001 }
+ 240:
+            backup = romeon.end;
+ 245:
+            foxtra[3] = backup;
             entity['style'] = foxtra;
             offset = function() { // Original name: onPress
                 zuuluu = _closure2_slot0;
@@ -169,8 +193,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = verify.icon;
             golfie = null;
             report = golfie != report;
-            if(!report) { _fun00002_ip = 283; continue _fun00001 }
- 248:
+            if(!report) { _fun00002_ip = 333; continue _fun00001 }
+ 298:
             offset = _closure1_slot4;
             option = _closure1_slot3;
             report = {};
@@ -179,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = verify.icon;
             report['children'] = romeon;
             golfie = offset.bind(tangon)(option, report);
- 283:
+ 333:
             report = new Array(2);
             report[0] = golfie;
             option = _closure1_slot4;
@@ -191,10 +215,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = oscard.Text;
             oscard = {'lineClamp': 1, 'variant': 'text-sm/semibold'};
             offset = 'interactive-active';
-            if(!yankee) { _fun00002_ip = 349; continue _fun00001 }
- 343:
+            if(!yankee) { _fun00002_ip = 399; continue _fun00001 }
+ 393:
             offset = 'always-white';
- 349:
+ 399:
             oscard['color'] = offset;
             verify = verify.text;
             oscard['children'] = verify;

@@ -504,7 +504,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = argFoo;
                 entity = oscard.length;
                 report = 0;
-                if(!(report !== entity)) { _fun00010_ip = 69; continue _fun00009 }
+                if(!(report !== entity)) { _fun00010_ip = 73; continue _fun00009 }
  16:
                 entity = new Array(1);
                 zuuluu = {'type': 'backdrop', 'key': 'backdrop'};
@@ -532,7 +532,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
- 69:
+ 73:
                 entity = new Array(0);
                 return entity;
             }

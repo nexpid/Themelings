@@ -137,9 +137,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = oscard.bind(entity)(report);
     option = report.SKU_ID_PURCHASED_FLAGS;
     var _closure1_slot15 = option;
-    option = report.PremiumSubscriptionSKUs;
+    option = report.PremiumTypes;
     var _closure1_slot16 = option;
-    report = report.PremiumTypes;
+    report = report.PurchasedFlags;
     var _closure1_slot17 = report;
     michal = function(argFoo) {
         tangon = function(argFoo) { // Original name: UserRecord
@@ -866,11 +866,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = 'hasPremiumUsageFlag';
         report['key'] = golfie;
         golfie = function(argFoo) { // Original name: value
-            michal = argFoo;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot3;
+            entity = 13;
+            michal = michal[entity];
+            entity = undefined;
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.hasFlag;
             entity = this;
-            entity = entity.premiumUsageFlags;
-            entity = entity & michal;
-            entity = entity === michal;
+            michal = entity.premiumUsageFlags;
+            entity = argFoo;
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         };
         report['value'] = golfie;
@@ -910,25 +916,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  12:
                 report = null;
  14:
-                michal = golfie.hasHadSKU;
-                zuuluu = _closure1_slot16;
-                entity = zuuluu.TIER_0;
+                michal = golfie.hasPurchasedFlag;
+                zuuluu = _closure1_slot17;
+                entity = zuuluu.PREMIUM_TIER_0;
                 entity = michal.bind(golfie)(entity);
-                oscard = golfie.hasHadSKU;
-                michal = zuuluu.TIER_1;
+                oscard = golfie.hasPurchasedFlag;
+                michal = zuuluu.PREMIUM_TIER_1;
                 michal = oscard.bind(golfie)(michal);
-                oscard = golfie.hasHadSKU;
-                zuuluu = zuuluu.TIER_2;
+                oscard = golfie.hasPurchasedFlag;
+                zuuluu = zuuluu.PREMIUM_TIER_2;
                 zuuluu = oscard.bind(golfie)(zuuluu);
-                oscard = _closure1_slot17;
+                oscard = _closure1_slot16;
                 oscard = oscard.TIER_0;
                 if(!(oscard !== report)) { _fun00030_ip = 135; continue _fun00029 }
  86:
-                oscard = _closure1_slot17;
+                oscard = _closure1_slot16;
                 oscard = oscard.TIER_1;
                 if(!(oscard !== report)) { _fun00030_ip = 133; continue _fun00029 }
  100:
-                tangon = _closure1_slot17;
+                tangon = _closure1_slot16;
                 tangon = tangon.TIER_2;
                 if(!(tangon !== report)) { _fun00030_ip = 131; continue _fun00029 }
  114:

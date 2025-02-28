@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         entity['get'] = zuuluu;
-        zuuluu = new Array(9);
+        zuuluu = new Array(8);
         zuuluu[0] = entity;
         entity = {};
         oscard = '_defaultRewardV2';
@@ -81,19 +81,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity['get'] = oscard;
         zuuluu[2] = entity;
         entity = {};
-        oscard = 'defaultRewardAsset';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: get
-            zuuluu = this;
-            michal = zuuluu._defaultRewardV2;
-            entity = zuuluu.quest;
-            entity = michal.bind(zuuluu)(entity);
-            entity = entity.asset;
-            return entity;
-        };
-        entity['get'] = oscard;
-        zuuluu[3] = entity;
-        entity = {};
         oscard = 'defaultRewardRedemptionInstructionsByPlatform';
         entity['key'] = oscard;
         oscard = function() { // Original name: get
@@ -106,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         entity['get'] = oscard;
-        zuuluu[4] = entity;
+        zuuluu[3] = entity;
         entity = {};
         oscard = 'rewardsExpireAt';
         entity['key'] = oscard;
@@ -118,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         entity['get'] = oscard;
-        zuuluu[5] = entity;
+        zuuluu[4] = entity;
         entity = {};
         oscard = 'application';
         entity['key'] = oscard;
@@ -139,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         entity['get'] = oscard;
-        zuuluu[6] = entity;
+        zuuluu[5] = entity;
         entity = {};
         oscard = 'rewardPlatforms';
         entity['key'] = oscard;
@@ -151,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         entity['get'] = oscard;
-        zuuluu[7] = entity;
+        zuuluu[6] = entity;
         entity = {};
         oscard = 'questType';
         entity['key'] = oscard;
@@ -187,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         entity['get'] = oscard;
-        zuuluu[8] = entity;
+        zuuluu[7] = entity;
         entity = {};
         oscard = 'build';
         entity['key'] = oscard;

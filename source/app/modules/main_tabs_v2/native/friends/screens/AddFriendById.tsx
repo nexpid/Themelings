@@ -415,7 +415,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['status'] = backup;
             verify = romeon.bind(tangon)(yankee, verify);
             report[1] = verify;
-            if(!(option == offset)) { _fun00002_ip = 801; continue _fun00001 }
+            if(!(option == offset)) { _fun00002_ip = 797; continue _fun00001 }
  676:
             verify = _closure1_slot10;
             romeon = _closure1_slot0;
@@ -480,14 +480,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = foxtra.bind(backup)(romeon, yankee);
             oscard['children'] = yankee;
             oscard = verify.bind(tangon)(option, oscard);
-            _fun00002_ip = 822; continue _fun00001;
- 801:
+            _fun00002_ip = 818; continue _fun00001;
+ 797:
             verify = _closure1_slot10;
             option = _closure1_slot17;
             golfie = {};
             golfie['errorMessage'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 822:
+ 818:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

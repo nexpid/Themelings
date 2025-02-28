@@ -17,32 +17,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = 'undefined';
             michal = typeof michal;
             michal = tangon !== michal;
-            if(!michal) { _fun00002_ip = 46; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 45; continue _fun00001 }
  30:
             tangon = report.Symbol;
             tangon = tangon.iterator;
             michal = zuuluu[tangon];
- 46:
-            if(michal) { _fun00002_ip = 55; continue _fun00001 }
- 49:
+ 45:
+            if(michal) { _fun00002_ip = 54; continue _fun00001 }
+ 48:
             michal = zuuluu.@@iterator;
- 55:
-            if(michal) { _fun00002_ip = 345; continue _fun00001 }
- 61:
+ 54:
+            if(michal) { _fun00002_ip = 344; continue _fun00001 }
+ 60:
             oscard = report.Array;
             tangon = oscard.isArray;
             oscard = tangon.bind(oscard)(zuuluu);
             tangon = michal;
-            if(oscard) { _fun00002_ip = 323; continue _fun00001 }
- 86:
+            if(oscard) { _fun00002_ip = 322; continue _fun00001 }
+ 85:
             option = undefined;
             oscard = undefined;
-            if(!zuuluu) { _fun00002_ip = 283; continue _fun00001 }
- 96:
+            if(!zuuluu) { _fun00002_ip = 282; continue _fun00001 }
+ 95:
             verify = 'string';
             golfie = typeof zuuluu;
-            if(!(verify !== golfie)) { _fun00002_ip = 270; continue _fun00001 }
- 110:
+            if(!(verify !== golfie)) { _fun00002_ip = 269; continue _fun00001 }
+ 109:
             golfie = {};
             verify = golfie.toString;
             golfie = verify.call;
@@ -53,49 +53,49 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = offset.bind(yankee)(verify, golfie);
             golfie = 'Object';
             golfie = golfie === verify;
-            if(!golfie) { _fun00002_ip = 163; continue _fun00001 }
- 158:
+            if(!golfie) { _fun00002_ip = 162; continue _fun00001 }
+ 157:
             golfie = zuuluu.constructor;
- 163:
+ 162:
             offset = verify;
-            if(!golfie) { _fun00002_ip = 179; continue _fun00001 }
- 169:
+            if(!golfie) { _fun00002_ip = 178; continue _fun00001 }
+ 168:
             golfie = zuuluu.constructor;
             offset = golfie.name;
- 179:
+ 178:
             golfie = 'Map';
-            if(!(golfie !== offset)) { _fun00002_ip = 249; continue _fun00001 }
- 187:
+            if(!(golfie !== offset)) { _fun00002_ip = 248; continue _fun00001 }
+ 186:
             golfie = 'Set';
-            if(!(golfie !== offset)) { _fun00002_ip = 249; continue _fun00001 }
- 195:
+            if(!(golfie !== offset)) { _fun00002_ip = 248; continue _fun00001 }
+ 194:
             golfie = 'Arguments';
-            if(!(golfie !== offset)) { _fun00002_ip = 234; continue _fun00001 }
- 205:
+            if(!(golfie !== offset)) { _fun00002_ip = 233; continue _fun00001 }
+ 204:
             verify = /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/;
             golfie = verify.test;
             verify = golfie.bind(verify)(offset);
             golfie = undefined;
-            if(!verify) { _fun00002_ip = 247; continue _fun00001 }
- 234:
+            if(!verify) { _fun00002_ip = 246; continue _fun00001 }
+ 233:
             verify = _closure1_slot77;
             golfie = verify.bind(option)(zuuluu, option);
- 247:
-            _fun00002_ip = 265; continue _fun00001;
- 249:
+ 246:
+            _fun00002_ip = 264; continue _fun00001;
+ 248:
             offset = report.Array;
             verify = offset.from;
             golfie = verify.bind(offset)(zuuluu);
- 265:
+ 264:
             oscard = golfie;
-            _fun00002_ip = 283; continue _fun00001;
- 270:
+            _fun00002_ip = 282; continue _fun00001;
+ 269:
             golfie = _closure1_slot77;
             oscard = golfie.bind(option)(zuuluu, option);
- 283:
+ 282:
             tangon = oscard;
-            if(tangon) { _fun00002_ip = 323; continue _fun00001 }
- 289:
+            if(tangon) { _fun00002_ip = 322; continue _fun00001 }
+ 288:
             golfie = report.TypeError;
             report = golfie.prototype;
             oscard = Object.create(report, {constructor: {value: golfie}});
@@ -104,11 +104,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = new backup[golfie](foxtra, romeon);
             report = report instanceof Object ? report : oscard;
             throw report;
- 323:
-            if(!tangon) { _fun00002_ip = 330; continue _fun00001 }
- 326:
+ 322:
+            if(!tangon) { _fun00002_ip = 329; continue _fun00001 }
+ 325:
             _closure2_slot0 = tangon;
- 330:
+ 329:
             tangon = 0;
             var _closure2_slot1 = tangon;
             entity = function() {
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             return entity;
- 345:
+ 344:
             entity = michal.call;
             zuuluu = entity.bind(michal)(zuuluu);
             michal = zuuluu.next;
@@ -5335,14 +5335,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = function() { // Original name: value
             report = this;
             entity = report.props;
-            yankee = entity.scrollEnabled;
-            verify = entity.animateEmoji;
-            offset = entity.onPressKey;
-            foxtra = entity.style;
-            option = entity.children;
-            golfie = entity.HACK_fixModalInteraction;
-            romeon = entity.alwaysRespectKeyboard;
-            oscard = entity.shouldCalculateMessageVisibilityPercentages;
+            offset = entity.scrollEnabled;
+            option = entity.animateEmoji;
+            verify = entity.onPressKey;
+            romeon = entity.style;
+            golfie = entity.children;
+            oscard = entity.HACK_fixModalInteraction;
+            yankee = entity.alwaysRespectKeyboard;
             tangon = _closure1_slot72;
             michal = _closure1_slot1;
             zuuluu = _closure1_slot2;
@@ -5351,190 +5350,189 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = undefined;
             michal = michal.bind(zuuluu)(entity);
             entity = {};
-            backup = report._chatRef;
-            entity['ref'] = backup;
-            entity['style'] = foxtra;
-            foxtra = true;
-            entity['inverted'] = foxtra;
-            entity['alwaysRespectKeyboard'] = romeon;
-            entity['scrollEnabled'] = yankee;
-            yankee = report.handleLayout;
-            entity['onLayout'] = yankee;
-            yankee = report.handleScrollPosition;
-            entity['onChatScrollPosition'] = yankee;
-            yankee = report.handleTapImage;
-            entity['onTapImage'] = yankee;
-            yankee = report.handleTapChannel;
-            entity['onTapChannel'] = yankee;
-            yankee = report.handleLongPressChannel;
-            entity['onLongPressChannel'] = yankee;
-            yankee = report.handleTapAttachmentLink;
-            entity['onTapAttachmentLink'] = yankee;
-            yankee = report.handleLongPressAttachmentLink;
-            entity['onLongPressAttachmentLink'] = yankee;
-            yankee = report.handleTapCall;
-            entity['onTapCall'] = yankee;
-            yankee = report.handleTapMention;
-            entity['onTapMention'] = yankee;
-            yankee = report.handleTapCommandMention;
-            entity['onTapCommandMention'] = yankee;
-            yankee = report.handleLongPressCommandMention;
-            entity['onLongPressCommandMention'] = yankee;
-            yankee = report.handleTapLink;
-            entity['onTapLink'] = yankee;
-            yankee = report.handleLongPressLink;
-            entity['onLongPressLink'] = yankee;
-            yankee = report.handleTapReaction;
-            entity['onTapReaction'] = yankee;
-            yankee = report.handleLongPressReaction;
-            entity['onLongPressReaction'] = yankee;
-            yankee = report.handleTapAvatar;
-            entity['onTapAvatar'] = yankee;
-            yankee = report.handleTapUsername;
-            entity['onTapUsername'] = yankee;
-            yankee = report.handleLongPressUsername;
-            entity['onLongPressUsername'] = yankee;
-            yankee = report.handleOpenSticker;
-            entity['onTapSticker'] = yankee;
-            yankee = report.handleLongPressSticker;
-            entity['onLongPressSticker'] = yankee;
-            yankee = report.handleLongPressMessage;
-            entity['onLongPressMessage'] = yankee;
-            yankee = report.handleInitiateReply;
-            entity['onInitiateReply'] = yankee;
-            yankee = report.handleInitiateEdit;
-            entity['onInitiateEdit'] = yankee;
-            yankee = report.handleInitiateThread;
-            entity['onInitiateThread'] = yankee;
-            yankee = report.handleTapMessage;
-            entity['onTapMessage'] = yankee;
-            yankee = report.handleTapSeparator;
-            entity['onTapSeparator'] = yankee;
-            yankee = report.handleTapInviteEmbed;
-            entity['onTapInviteEmbed'] = yankee;
-            yankee = report.handleTapInviteEmbedAccept;
-            entity['onTapInviteEmbedAccept'] = yankee;
-            yankee = report.handleTapJoinActivity;
-            entity['onTapJoinActivity'] = yankee;
-            entity['onPressKey'] = offset;
-            entity['animateEmoji'] = verify;
-            verify = report.handleTapGiftCodeEmbed;
-            entity['onTapGiftCodeEmbed'] = verify;
-            verify = report.handleTapUploadProgressClose;
-            entity['onTapUploadProgressClose'] = verify;
-            verify = report.handleTapCancelUploadItem;
-            entity['onTapCancelUploadItem'] = verify;
-            verify = report.handleTapReply;
-            entity['onTapMessageReply'] = verify;
-            verify = report.handleTapSummary;
-            entity['onTapSummary'] = verify;
-            verify = report.handleTapSummaryJump;
-            entity['onTapSummaryJump'] = verify;
-            verify = report.handleTapGiftCodeAccept;
-            entity['onTapGiftCodeAccept'] = verify;
-            verify = report.handleTapReferralRedeem;
-            entity['onTapReferralRedeem'] = verify;
-            verify = report.handleTapThreadEmbed;
-            entity['onTapThreadEmbed'] = verify;
-            verify = report.handleTapEmoji;
-            entity['onTapEmoji'] = verify;
-            verify = report.handleTapTimestamp;
-            entity['onTapTimestamp'] = verify;
-            verify = report.handleTapRoleIcon;
-            entity['onTapRoleIcon'] = verify;
-            verify = report.handleTapGameIcon;
-            entity['onTapGameIcon'] = verify;
-            verify = report.handleTapSuppressNotificationsIcon;
-            entity['onTapSuppressNotificationsIcon'] = verify;
-            verify = report.handleTapConnectionsRoleTag;
-            entity['onTapConnectionsRoleTag'] = verify;
-            verify = report.handleTapTimeoutIcon;
-            entity['onTapTimeoutIcon'] = verify;
-            verify = report.handleTapButtonActionComponent;
-            entity['onTapButtonActionComponent'] = verify;
-            verify = report.handleTapSelectActionComponent;
-            entity['onTapSelectActionComponent'] = verify;
-            verify = report.handleTapWelcomeReply;
-            entity['onTapWelcomeReply'] = verify;
-            verify = report.handleTapInviteToSpeak;
-            entity['onTapInviteToSpeak'] = verify;
-            verify = report.handleTapAutoModerationActions;
-            entity['onTapAutoModerationActions'] = verify;
-            verify = report.handleTapAutoModerationFeedback;
-            entity['onTapAutoModerationFeedback'] = verify;
-            verify = report.handleTapFollowForumPost;
-            entity['onTapFollowForumPost'] = verify;
-            verify = report.handleTapShareForumPost;
-            entity['onTapShareForumPost'] = verify;
-            verify = report.handleTapReactionOverflow;
-            entity['onTapReactionOverflow'] = verify;
-            verify = report.handleTapNavBar;
-            entity['onTapNavBar'] = verify;
-            verify = report.handleCopyText;
-            entity['onTapCopyText'] = verify;
-            verify = report.handleTapOpTag;
-            entity['onTapOpTag'] = verify;
-            verify = report.handleTapTag;
-            entity['onTapTag'] = verify;
-            verify = report.handleTapRemix;
-            entity['onTapRemix'] = verify;
-            verify = report.handleMediaAttachmentPlaybackEnded;
-            entity['onMediaAttachmentPlaybackEnded'] = verify;
-            verify = report.handleMediaAttachmentPlaybackStarted;
-            entity['onMediaAttachmentPlaybackStarted'] = verify;
-            verify = report.handlerVoiceMessagePlaybackFailed;
-            entity['onVoiceMessagePlaybackFailed'] = verify;
-            verify = report.handleTapShowAltText;
-            entity['onTapShowAltText'] = verify;
-            verify = report.handleTapActivityBookmarkEmbed;
-            entity['onTapActivityBookmarkEmbed'] = verify;
-            verify = report.handleTapActivityInstanceEmbed;
-            entity['onTapActivityInstanceEmbed'] = verify;
-            verify = report.handleTapPostPreviewEmbed;
-            entity['onTapPostPreviewEmbed'] = verify;
-            verify = report.handleTapDismissMediaPostSharePrompt;
-            entity['onTapDismissMediaPostSharePrompt'] = verify;
-            verify = report.handleTapChannelPromptButton;
-            entity['onTapChannelPromptButton'] = verify;
-            verify = report.handleTapObscuredMediaLearnMore;
-            entity['onTapObscuredMediaLearnMore'] = verify;
-            verify = report.handleTapObscuredMediaToggle;
-            entity['onTapObscuredMediaToggle'] = verify;
-            verify = report.handleTapSafetyPolicyNoticeEmbed;
-            entity['onTapSafetyPolicyNoticeEmbed'] = verify;
-            verify = report.handleTapSafetySystemNotificationCta;
-            entity['onTapSafetySystemNotificationCta'] = verify;
-            verify = report.handleTapPollAnswer;
-            entity['onTapPollAnswer'] = verify;
-            verify = report.handleTapPollSubmitVote;
-            entity['onTapPollSubmitVote'] = verify;
-            verify = report.handleTapPollAction;
-            entity['onTapPollAction'] = verify;
-            verify = report.handleLongPressPollImage;
-            entity['onLongPressPollImage'] = verify;
-            verify = report.handleTapCtaButton;
-            entity['onTapCtaButton'] = verify;
-            verify = report.handleMessageAccessibilityAction;
-            entity['onMessageAccessibilityAction'] = verify;
-            verify = report.handleTapForwardFooter;
-            entity['onTapForwardFooter'] = verify;
-            verify = report.handleTapInlineForward;
-            entity['onTapInlineForward'] = verify;
-            verify = report.handleTapClanTagChiplet;
-            entity['onTapClanTagChiplet'] = verify;
-            verify = report.handleTapContentInventoryEntryEmbed;
-            entity['onTapContentInventoryEntryEmbed'] = verify;
-            verify = report.handleTapSoundmoji;
-            entity['onTapSoundmoji'] = verify;
-            entity['children'] = option;
-            entity['HACK_fixModalInteraction'] = golfie;
-            golfie = report.handleTapTableView;
-            entity['onTapTableView'] = golfie;
-            golfie = report.handleFirstLayout;
-            entity['onFirstLayout'] = golfie;
-            golfie = report.handleMediaPlayFinishedAnalytics;
-            entity['onMediaPlayFinishedAnalytics'] = golfie;
-            entity['shouldCalculateMessageVisibilityPercentages'] = oscard;
+            foxtra = report._chatRef;
+            entity['ref'] = foxtra;
+            entity['style'] = romeon;
+            romeon = true;
+            entity['inverted'] = romeon;
+            entity['alwaysRespectKeyboard'] = yankee;
+            entity['scrollEnabled'] = offset;
+            offset = report.handleLayout;
+            entity['onLayout'] = offset;
+            offset = report.handleScrollPosition;
+            entity['onChatScrollPosition'] = offset;
+            offset = report.handleTapImage;
+            entity['onTapImage'] = offset;
+            offset = report.handleTapChannel;
+            entity['onTapChannel'] = offset;
+            offset = report.handleLongPressChannel;
+            entity['onLongPressChannel'] = offset;
+            offset = report.handleTapAttachmentLink;
+            entity['onTapAttachmentLink'] = offset;
+            offset = report.handleLongPressAttachmentLink;
+            entity['onLongPressAttachmentLink'] = offset;
+            offset = report.handleTapCall;
+            entity['onTapCall'] = offset;
+            offset = report.handleTapMention;
+            entity['onTapMention'] = offset;
+            offset = report.handleTapCommandMention;
+            entity['onTapCommandMention'] = offset;
+            offset = report.handleLongPressCommandMention;
+            entity['onLongPressCommandMention'] = offset;
+            offset = report.handleTapLink;
+            entity['onTapLink'] = offset;
+            offset = report.handleLongPressLink;
+            entity['onLongPressLink'] = offset;
+            offset = report.handleTapReaction;
+            entity['onTapReaction'] = offset;
+            offset = report.handleLongPressReaction;
+            entity['onLongPressReaction'] = offset;
+            offset = report.handleTapAvatar;
+            entity['onTapAvatar'] = offset;
+            offset = report.handleTapUsername;
+            entity['onTapUsername'] = offset;
+            offset = report.handleLongPressUsername;
+            entity['onLongPressUsername'] = offset;
+            offset = report.handleOpenSticker;
+            entity['onTapSticker'] = offset;
+            offset = report.handleLongPressSticker;
+            entity['onLongPressSticker'] = offset;
+            offset = report.handleLongPressMessage;
+            entity['onLongPressMessage'] = offset;
+            offset = report.handleInitiateReply;
+            entity['onInitiateReply'] = offset;
+            offset = report.handleInitiateEdit;
+            entity['onInitiateEdit'] = offset;
+            offset = report.handleInitiateThread;
+            entity['onInitiateThread'] = offset;
+            offset = report.handleTapMessage;
+            entity['onTapMessage'] = offset;
+            offset = report.handleTapSeparator;
+            entity['onTapSeparator'] = offset;
+            offset = report.handleTapInviteEmbed;
+            entity['onTapInviteEmbed'] = offset;
+            offset = report.handleTapInviteEmbedAccept;
+            entity['onTapInviteEmbedAccept'] = offset;
+            offset = report.handleTapJoinActivity;
+            entity['onTapJoinActivity'] = offset;
+            entity['onPressKey'] = verify;
+            entity['animateEmoji'] = option;
+            option = report.handleTapGiftCodeEmbed;
+            entity['onTapGiftCodeEmbed'] = option;
+            option = report.handleTapUploadProgressClose;
+            entity['onTapUploadProgressClose'] = option;
+            option = report.handleTapCancelUploadItem;
+            entity['onTapCancelUploadItem'] = option;
+            option = report.handleTapReply;
+            entity['onTapMessageReply'] = option;
+            option = report.handleTapSummary;
+            entity['onTapSummary'] = option;
+            option = report.handleTapSummaryJump;
+            entity['onTapSummaryJump'] = option;
+            option = report.handleTapGiftCodeAccept;
+            entity['onTapGiftCodeAccept'] = option;
+            option = report.handleTapReferralRedeem;
+            entity['onTapReferralRedeem'] = option;
+            option = report.handleTapThreadEmbed;
+            entity['onTapThreadEmbed'] = option;
+            option = report.handleTapEmoji;
+            entity['onTapEmoji'] = option;
+            option = report.handleTapTimestamp;
+            entity['onTapTimestamp'] = option;
+            option = report.handleTapRoleIcon;
+            entity['onTapRoleIcon'] = option;
+            option = report.handleTapGameIcon;
+            entity['onTapGameIcon'] = option;
+            option = report.handleTapSuppressNotificationsIcon;
+            entity['onTapSuppressNotificationsIcon'] = option;
+            option = report.handleTapConnectionsRoleTag;
+            entity['onTapConnectionsRoleTag'] = option;
+            option = report.handleTapTimeoutIcon;
+            entity['onTapTimeoutIcon'] = option;
+            option = report.handleTapButtonActionComponent;
+            entity['onTapButtonActionComponent'] = option;
+            option = report.handleTapSelectActionComponent;
+            entity['onTapSelectActionComponent'] = option;
+            option = report.handleTapWelcomeReply;
+            entity['onTapWelcomeReply'] = option;
+            option = report.handleTapInviteToSpeak;
+            entity['onTapInviteToSpeak'] = option;
+            option = report.handleTapAutoModerationActions;
+            entity['onTapAutoModerationActions'] = option;
+            option = report.handleTapAutoModerationFeedback;
+            entity['onTapAutoModerationFeedback'] = option;
+            option = report.handleTapFollowForumPost;
+            entity['onTapFollowForumPost'] = option;
+            option = report.handleTapShareForumPost;
+            entity['onTapShareForumPost'] = option;
+            option = report.handleTapReactionOverflow;
+            entity['onTapReactionOverflow'] = option;
+            option = report.handleTapNavBar;
+            entity['onTapNavBar'] = option;
+            option = report.handleCopyText;
+            entity['onTapCopyText'] = option;
+            option = report.handleTapOpTag;
+            entity['onTapOpTag'] = option;
+            option = report.handleTapTag;
+            entity['onTapTag'] = option;
+            option = report.handleTapRemix;
+            entity['onTapRemix'] = option;
+            option = report.handleMediaAttachmentPlaybackEnded;
+            entity['onMediaAttachmentPlaybackEnded'] = option;
+            option = report.handleMediaAttachmentPlaybackStarted;
+            entity['onMediaAttachmentPlaybackStarted'] = option;
+            option = report.handlerVoiceMessagePlaybackFailed;
+            entity['onVoiceMessagePlaybackFailed'] = option;
+            option = report.handleTapShowAltText;
+            entity['onTapShowAltText'] = option;
+            option = report.handleTapActivityBookmarkEmbed;
+            entity['onTapActivityBookmarkEmbed'] = option;
+            option = report.handleTapActivityInstanceEmbed;
+            entity['onTapActivityInstanceEmbed'] = option;
+            option = report.handleTapPostPreviewEmbed;
+            entity['onTapPostPreviewEmbed'] = option;
+            option = report.handleTapDismissMediaPostSharePrompt;
+            entity['onTapDismissMediaPostSharePrompt'] = option;
+            option = report.handleTapChannelPromptButton;
+            entity['onTapChannelPromptButton'] = option;
+            option = report.handleTapObscuredMediaLearnMore;
+            entity['onTapObscuredMediaLearnMore'] = option;
+            option = report.handleTapObscuredMediaToggle;
+            entity['onTapObscuredMediaToggle'] = option;
+            option = report.handleTapSafetyPolicyNoticeEmbed;
+            entity['onTapSafetyPolicyNoticeEmbed'] = option;
+            option = report.handleTapSafetySystemNotificationCta;
+            entity['onTapSafetySystemNotificationCta'] = option;
+            option = report.handleTapPollAnswer;
+            entity['onTapPollAnswer'] = option;
+            option = report.handleTapPollSubmitVote;
+            entity['onTapPollSubmitVote'] = option;
+            option = report.handleTapPollAction;
+            entity['onTapPollAction'] = option;
+            option = report.handleLongPressPollImage;
+            entity['onLongPressPollImage'] = option;
+            option = report.handleTapCtaButton;
+            entity['onTapCtaButton'] = option;
+            option = report.handleMessageAccessibilityAction;
+            entity['onMessageAccessibilityAction'] = option;
+            option = report.handleTapForwardFooter;
+            entity['onTapForwardFooter'] = option;
+            option = report.handleTapInlineForward;
+            entity['onTapInlineForward'] = option;
+            option = report.handleTapClanTagChiplet;
+            entity['onTapClanTagChiplet'] = option;
+            option = report.handleTapContentInventoryEntryEmbed;
+            entity['onTapContentInventoryEntryEmbed'] = option;
+            option = report.handleTapSoundmoji;
+            entity['onTapSoundmoji'] = option;
+            entity['children'] = golfie;
+            entity['HACK_fixModalInteraction'] = oscard;
+            oscard = report.handleTapTableView;
+            entity['onTapTableView'] = oscard;
+            oscard = report.handleFirstLayout;
+            entity['onFirstLayout'] = oscard;
+            oscard = report.handleMediaPlayFinishedAnalytics;
+            entity['onMediaPlayFinishedAnalytics'] = oscard;
             report = report.handleMessageVisibilityChanged;
             entity['onMessageVisibilityChanged'] = report;
             entity = tangon.bind(zuuluu)(michal, entity);

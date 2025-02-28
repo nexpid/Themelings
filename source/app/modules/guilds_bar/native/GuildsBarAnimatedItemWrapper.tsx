@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     tangon = argFoo;
                     michal = _closure2_slot5;
-                    if(michal) { _fun00006_ip = 233; continue _fun00005 }
+                    if(michal) { _fun00006_ip = 229; continue _fun00005 }
  16:
                     zuuluu = _closure2_slot0;
                     michal = null;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = zuuluu.get;
                     michal = michal.bind(zuuluu)();
                     entity = _closure2_slot1;
-                    if(!(michal === entity)) { _fun00006_ip = 233; continue _fun00005 }
+                    if(!(michal === entity)) { _fun00006_ip = 229; continue _fun00005 }
  50:
                     entity = {};
                     michal = {};
@@ -161,15 +161,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = tangon - zuuluu;
                     michal['originY'] = zuuluu;
                     entity['initialValues'] = michal;
-                    _fun00006_ip = 252; continue _fun00005;
- 233:
+                    _fun00006_ip = 248; continue _fun00005;
+ 229:
                     michal = {};
                     zuuluu = {};
                     michal['animations'] = zuuluu;
                     zuuluu = {};
                     michal['initialValues'] = zuuluu;
                     entity = michal;
- 252:
+ 248:
                     return entity;
                 }
             };
