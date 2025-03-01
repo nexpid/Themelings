@@ -235,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         }
     };
     oscard['fromCompressionQuality'] = report;
-    report = {'bitrateFloor': 300000, 'createHDR': false, 'frameRate': 30, 'keyFrameIntervalSeconds': 3, 'rotationDegrees': 0, 'skipVideoTranscode': false, 'targetBitrate': null, 'targetHeight': 480, 'targetWidth': 640, 'useHEVC': false, 'videoQuality': null, 'hevcIsSupported': false, 'useTranscodedVideoForMovSources': false, 'useHardwareAcceleration': false};
+    report = {'bitrateFloor': 300000, 'createHDR': false, 'frameRate': 30, 'keyFrameIntervalSeconds': 3, 'rotationDegrees': 0, 'skipVideoTranscode': false, 'targetBitrate': null, 'targetHeight': 480, 'targetWidth': 640, 'useHEVC': false, 'videoQuality': null, 'hevcIsSupported': false, 'useTranscodedVideoForMovSources': false, 'progressUpdateGranularity': 100};
     golfie = oscard.MEDIUM;
     golfie = golfie.targetBitrate;
     report['targetBitrate'] = golfie;
@@ -431,147 +431,144 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     tangon = function(argFoo) { // Original name: logEncoderSettings
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            michal = argFoo;
-            golfie = _closure1_slot6;
-            zuuluu = golfie.info;
+            golfie = argFoo;
+            oscard = _closure1_slot6;
+            michal = oscard.info;
             entity = 'Encoder Video Quality Settings:';
-            entity = zuuluu.bind(golfie)(entity);
-            tangon = golfie.info;
-            oscard = michal.videoQuality;
+            entity = michal.bind(oscard)(entity);
+            tangon = oscard.info;
+            zuuluu = golfie.videoQuality;
             option = null;
-            zuuluu = option == oscard;
+            michal = option == zuuluu;
             entity = undefined;
             offset = undefined;
-            if(zuuluu) { _fun00012_ip = 61; continue _fun00011 }
+            if(michal) { _fun00012_ip = 61; continue _fun00011 }
  52:
-            zuuluu = oscard.toString;
-            offset = zuuluu.bind(oscard)();
+            michal = zuuluu.toString;
+            offset = michal.bind(zuuluu)();
  61:
-            oscard = global;
-            zuuluu = oscard.HermesInternal;
+            michal = global;
+            zuuluu = michal.HermesInternal;
             verify = zuuluu.concat;
             zuuluu = '- Compression Quality: ';
             zuuluu = verify.bind(zuuluu)(offset);
-            zuuluu = tangon.bind(golfie)(zuuluu);
-            golfie = _closure1_slot6;
-            tangon = golfie.info;
-            zuuluu = michal.videoQuality;
+            zuuluu = tangon.bind(oscard)(zuuluu);
+            oscard = _closure1_slot6;
+            tangon = oscard.info;
+            zuuluu = golfie.videoQuality;
             verify = option == zuuluu;
             yankee = undefined;
             if(verify) { _fun00012_ip = 121; continue _fun00011 }
  115:
             yankee = zuuluu.targetResolution;
  121:
-            zuuluu = oscard.HermesInternal;
+            zuuluu = michal.HermesInternal;
             offset = zuuluu.concat;
             verify = '- Compression Quality Target Resolution: ';
             zuuluu = 'p';
             zuuluu = offset.bind(verify)(yankee, zuuluu);
-            zuuluu = tangon.bind(golfie)(zuuluu);
-            golfie = _closure1_slot6;
-            tangon = golfie.info;
-            zuuluu = michal.videoQuality;
+            zuuluu = tangon.bind(oscard)(zuuluu);
+            oscard = _closure1_slot6;
+            tangon = oscard.info;
+            zuuluu = golfie.videoQuality;
             option = option == zuuluu;
             verify = undefined;
             if(option) { _fun00012_ip = 184; continue _fun00011 }
  178:
             verify = zuuluu.targetBitrate;
  184:
-            zuuluu = oscard.HermesInternal;
+            zuuluu = michal.HermesInternal;
             option = zuuluu.concat;
             zuuluu = '- Compression Quality Max Bitrate: ';
             romeon = ' bps';
             zuuluu = option.bind(zuuluu)(verify, romeon);
-            zuuluu = tangon.bind(golfie)(zuuluu);
-            golfie = _closure1_slot6;
-            tangon = golfie.info;
+            zuuluu = tangon.bind(oscard)(zuuluu);
+            oscard = _closure1_slot6;
+            tangon = oscard.info;
             zuuluu = 'Encoder Video Transcoding Settings:';
-            zuuluu = tangon.bind(golfie)(zuuluu);
-            golfie = michal.skipVideoTranscode;
+            zuuluu = tangon.bind(oscard)(zuuluu);
+            oscard = golfie.skipVideoTranscode;
             tangon = _closure1_slot6;
             zuuluu = tangon.info;
-            if(golfie) { _fun00012_ip = 653; continue _fun00011 }
+            if(oscard) { _fun00012_ip = 653; continue _fun00011 }
  261:
-            golfie = michal.useHEVC;
+            oscard = golfie.useHEVC;
             option = 'avc1 (H.264)';
-            if(!golfie) { _fun00012_ip = 282; continue _fun00011 }
+            if(!oscard) { _fun00012_ip = 282; continue _fun00011 }
  276:
             option = 'hvc1 (HEVC)';
  282:
-            golfie = '- Codec: ';
-            golfie = golfie + option;
-            golfie = zuuluu.bind(tangon)(golfie);
-            offset = _closure1_slot6;
-            option = offset.info;
-            backup = michal.targetWidth;
-            foxtra = michal.targetHeight;
-            golfie = oscard.HermesInternal;
-            yankee = golfie.concat;
-            verify = '- Dimensions: ';
-            golfie = 'x';
-            golfie = yankee.bind(verify)(backup, golfie, foxtra);
-            golfie = option.bind(offset)(golfie);
-            option = offset.info;
-            yankee = michal.targetBitrate;
-            golfie = oscard.HermesInternal;
-            verify = golfie.concat;
-            golfie = '- Bitrate: ';
-            golfie = verify.bind(golfie)(yankee, romeon);
-            golfie = option.bind(offset)(golfie);
-            option = offset.info;
-            romeon = michal.frameRate;
-            golfie = oscard.HermesInternal;
-            yankee = golfie.concat;
-            verify = '- Frame Rate: ';
-            golfie = ' fps';
-            golfie = yankee.bind(verify)(romeon, golfie);
-            golfie = option.bind(offset)(golfie);
-            option = offset.info;
-            romeon = michal.keyFrameIntervalSeconds;
-            golfie = oscard.HermesInternal;
-            yankee = golfie.concat;
-            verify = '- Key Frame Interval: ';
-            golfie = ' seconds';
-            golfie = yankee.bind(verify)(romeon, golfie);
-            golfie = option.bind(offset)(golfie);
-            verify = offset.info;
-            option = michal.createHDR;
-            golfie = 'No';
-            yankee = golfie;
-            if(!option) { _fun00012_ip = 514; continue _fun00011 }
+            oscard = '- Codec: ';
+            oscard = oscard + option;
+            oscard = zuuluu.bind(tangon)(oscard);
+            verify = _closure1_slot6;
+            option = verify.info;
+            backup = golfie.targetWidth;
+            foxtra = golfie.targetHeight;
+            oscard = michal.HermesInternal;
+            yankee = oscard.concat;
+            offset = '- Dimensions: ';
+            oscard = 'x';
+            oscard = yankee.bind(offset)(backup, oscard, foxtra);
+            oscard = option.bind(verify)(oscard);
+            option = verify.info;
+            yankee = golfie.targetBitrate;
+            oscard = michal.HermesInternal;
+            offset = oscard.concat;
+            oscard = '- Bitrate: ';
+            oscard = offset.bind(oscard)(yankee, romeon);
+            oscard = option.bind(verify)(oscard);
+            option = verify.info;
+            romeon = golfie.frameRate;
+            oscard = michal.HermesInternal;
+            yankee = oscard.concat;
+            offset = '- Frame Rate: ';
+            oscard = ' fps';
+            oscard = yankee.bind(offset)(romeon, oscard);
+            oscard = option.bind(verify)(oscard);
+            option = verify.info;
+            romeon = golfie.keyFrameIntervalSeconds;
+            oscard = michal.HermesInternal;
+            yankee = oscard.concat;
+            offset = '- Key Frame Interval: ';
+            oscard = ' seconds';
+            oscard = yankee.bind(offset)(romeon, oscard);
+            oscard = option.bind(verify)(oscard);
+            option = verify.info;
+            oscard = golfie.createHDR;
+            offset = 'No';
+            yankee = offset;
+            if(!oscard) { _fun00012_ip = 514; continue _fun00011 }
  508:
             yankee = 'Yes';
  514:
-            option = '- Create HDR: ';
-            option = option + yankee;
-            option = verify.bind(offset)(option);
+            oscard = '- Create HDR: ';
+            oscard = oscard + yankee;
+            oscard = option.bind(verify)(oscard);
             verify = _closure1_slot6;
             option = verify.info;
-            yankee = michal.rotationDegrees;
-            oscard = oscard.HermesInternal;
-            offset = oscard.concat;
+            romeon = golfie.rotationDegrees;
+            oscard = michal.HermesInternal;
+            yankee = oscard.concat;
             oscard = '- Rotation Degrees: ';
-            oscard = offset.bind(oscard)(yankee);
+            oscard = yankee.bind(oscard)(romeon);
             oscard = option.bind(verify)(oscard);
             option = verify.info;
-            oscard = michal.hevcIsSupported;
-            offset = golfie;
-            if(!oscard) { _fun00012_ip = 596; continue _fun00011 }
- 590:
+            oscard = golfie.hevcIsSupported;
+            if(!oscard) { _fun00012_ip = 593; continue _fun00011 }
+ 587:
             offset = 'Yes';
- 596:
+ 593:
             oscard = '- HEVC Supported: ';
             oscard = oscard + offset;
             oscard = option.bind(verify)(oscard);
             oscard = _closure1_slot6;
             report = oscard.info;
-            michal = michal.useHardwareAcceleration;
-            if(!michal) { _fun00012_ip = 636; continue _fun00011 }
- 630:
-            golfie = 'Yes';
- 636:
-            michal = '- Use Hardware Acceleration: ';
-            michal = michal + golfie;
+            option = golfie.progressUpdateGranularity;
+            michal = michal.HermesInternal;
+            golfie = michal.concat;
+            michal = '- Progress Update Granularity: ';
+            michal = golfie.bind(michal)(option);
             michal = report.bind(oscard)(michal);
             _fun00012_ip = 664; continue _fun00011;
  653:

@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = golfie.container;
             entity['style'] = golfie;
             option = _closure1_slot5;
-            if(report) { _fun00002_ip = 205; continue _fun00001 }
+            if(report) { _fun00002_ip = 201; continue _fun00001 }
  100:
             foxtra = _closure1_slot0;
             backup = _closure1_slot1;
@@ -101,12 +101,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['text'] = offset;
             report['onPress'] = verify;
             report = option.bind(tangon)(golfie, report);
-            _fun00002_ip = 217; continue _fun00001;
- 205:
+            _fun00002_ip = 213; continue _fun00001;
+ 201:
             golfie = _closure1_slot2;
             oscard = {};
             report = option.bind(tangon)(golfie, oscard);
- 217:
+ 213:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

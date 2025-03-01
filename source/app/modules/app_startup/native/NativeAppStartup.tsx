@@ -1118,7 +1118,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00032_ip = 1721; continue _fun00031 }
+                    if(michal) { _fun00032_ip = 1725; continue _fun00031 }
  12:
                     tangon = undefined;
                     var _closure4_slot0 = tangon;
@@ -1137,7 +1137,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = 'Init called when already initialized';
                     michal['message'] = golfie;
                     michal = zuuluu.bind(oscard)(michal);
-                    _fun00032_ip = 1712; continue _fun00031;
+                    _fun00032_ip = 1716; continue _fun00031;
  87:
                     zuuluu = _closure1_slot21;
                     michal = _closure1_slot20;
@@ -1247,7 +1247,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  481:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(golfie) { _fun00032_ip = 1718; continue _fun00031 }
+                    if(golfie) { _fun00032_ip = 1722; continue _fun00031 }
  490:
                     offset = _closure1_slot4;
                     golfie = 2;
@@ -1401,12 +1401,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     echoed['tapped_notification'] = update;
                     verify = output.bind(tangon)(result);
  974:
-                    if(verify) { _fun00032_ip = 1042; continue _fun00031 }
+                    if(verify) { _fun00032_ip = 1046; continue _fun00031 }
  977:
                     output = _closure1_slot10;
                     verify = output.getChannelId;
                     echoed = verify.bind(output)();
-                    if(!(romeon != echoed)) { _fun00032_ip = 1042; continue _fun00031 }
+                    if(!(romeon != echoed)) { _fun00032_ip = 1046; continue _fun00031 }
  995:
                     output = _closure1_slot1;
                     result = _closure1_slot3;
@@ -1417,7 +1417,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = {'channelId': null, 'isPreload': true, 'skipLocalFetch': true};
                     verify['channelId'] = echoed;
                     verify = output.bind(result)(verify);
- 1042:
+ 1046:
                     output = _closure1_slot1;
                     verify = _closure1_slot3;
                     backup = verify[backup];
@@ -1502,26 +1502,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     backup = backup.bind(tangon)(verify);
                     verify = backup.isAndroid;
                     verify = verify.bind(backup)();
-                    if(!verify) { _fun00032_ip = 1163; continue _fun00031 }
- 1139:
+                    if(!verify) { _fun00032_ip = 1167; continue _fun00031 }
+ 1143:
                     backup = _closure1_slot1;
                     verify = _closure1_slot3;
                     sizing = 45;
                     verify = verify[sizing];
                     verify = backup.bind(tangon)(verify);
-                    if(!(romeon == verify)) { _fun00032_ip = 1181; continue _fun00031 }
- 1163:
+                    if(!(romeon == verify)) { _fun00032_ip = 1185; continue _fun00031 }
+ 1167:
                     backup = zuuluu.Promise;
                     verify = backup.resolve;
                     output = verify.bind(backup)();
-                    _fun00032_ip = 1204; continue _fun00031;
- 1181:
+                    _fun00032_ip = 1208; continue _fun00031;
+ 1185:
                     backup = _closure1_slot1;
                     verify = _closure1_slot3;
                     verify = verify[sizing];
                     verify = backup.bind(tangon)(verify);
                     output = verify.applicationReady;
- 1204:
+ 1208:
                     backup = _closure1_slot2;
                     sizing = _closure1_slot3;
                     verify = 46;
@@ -1529,8 +1529,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     backup = backup.bind(tangon)(verify);
                     verify = backup.getToken;
                     verify = verify.bind(backup)();
-                    if(!(romeon == verify)) { _fun00032_ip = 1280; continue _fun00031 }
- 1238:
+                    if(!(romeon == verify)) { _fun00032_ip = 1284; continue _fun00031 }
+ 1242:
                     romeon = _closure1_slot0;
                     backup = _closure1_slot3;
                     verify = 47;
@@ -1540,12 +1540,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = verify.bind(romeon)();
                     verify = romeon.getPromise;
                     sizing = verify.bind(romeon)();
-                    _fun00032_ip = 1296; continue _fun00031;
- 1280:
+                    _fun00032_ip = 1300; continue _fun00031;
+ 1284:
                     romeon = zuuluu.Promise;
                     verify = romeon.resolve;
                     sizing = verify.bind(romeon)();
- 1296:
+ 1300:
                     backup = zuuluu.Promise;
                     romeon = backup.all;
                     verify = new Array(3);
@@ -1604,13 +1604,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu[4] = backup;
                     zuuluu[5] = foxtra;
                     zuuluu = verify.bind(romeon)(zuuluu);
-                    SaveGenerator(address=1538);
- 1536:
+                    SaveGenerator(address=1542);
+ 1540:
                     return zuuluu;
- 1538:
+ 1542:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=8);
-                    if(verify) { _fun00032_ip = 1715; continue _fun00031 }
- 1547:
+                    if(verify) { _fun00032_ip = 1719; continue _fun00031 }
+ 1551:
                     romeon = _closure1_slot4;
                     verify = 5;
                     verify = romeon.bind(tangon)(zuuluu, verify);
@@ -1647,11 +1647,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     option = verify.bind(offset)(option);
-                    if(oscard) { _fun00032_ip = 1670; continue _fun00031 }
- 1660:
+                    if(oscard) { _fun00032_ip = 1674; continue _fun00031 }
+ 1664:
                     oscard = golfie.init;
                     oscard = oscard.bind(golfie)();
- 1670:
+ 1674:
                     oscard = _closure1_slot0;
                     golfie = _closure1_slot3;
                     report = 53;
@@ -1662,13 +1662,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = oscard.bind(tangon)(report);
                     report = oscard.initSessionHeartbeatScheduler;
                     report = report.bind(oscard)();
- 1712:
+ 1716:
                     return tangon;
- 1715:
+ 1719:
                     return zuuluu;
- 1718:
+ 1722:
                     return michal;
- 1721:
+ 1725:
                     return entity;
                 }
             };

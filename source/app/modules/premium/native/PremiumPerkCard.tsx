@@ -188,20 +188,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = 8;
             verify = _closure1_slot11;
             verify = verify.WIDE;
-            if(!(golfie === verify)) { _fun00002_ip = 362; continue _fun00001 }
- 359:
+            if(!(golfie === verify)) { _fun00002_ip = 366; continue _fun00001 }
+ 363:
             tangon = 24;
- 362:
+ 366:
             michal['marginBottom'] = tangon;
             tangon = _closure1_slot11;
             tangon = tangon.NARROW;
             tangon = golfie === tangon;
-            if(!tangon) { _fun00002_ip = 392; continue _fun00001 }
- 383:
+            if(!tangon) { _fun00002_ip = 396; continue _fun00001 }
+ 387:
             golfie = {};
             golfie['height'] = option;
             tangon = golfie;
- 392:
+ 396:
             romeon = michal;
             yankee = tangon;
             tangon = copyDataProperties(romeon, yankee);

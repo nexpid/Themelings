@@ -312,6 +312,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = oscard.id;
                     oscard = golfie.bind(option)(oscard);
                     michal['nickname'] = oscard;
+                    oscard = true;
+                    michal['isNameplatedRow'] = oscard;
                     oscard = function(argFoo) { // Original name: onPress
                         zuuluu = _closure1_slot1;
                         michal = _closure1_slot2;

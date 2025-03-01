@@ -90,29 +90,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = argFoo;
             zuuluu = _closure1_slot9;
             zuuluu = zuuluu.UNREAD_IMPORTANT;
-            if(!(michal !== zuuluu)) { _fun00006_ip = 90; continue _fun00005 }
+            if(!(michal !== zuuluu)) { _fun00006_ip = 94; continue _fun00005 }
  20:
             zuuluu = _closure1_slot9;
             zuuluu = zuuluu.RELEVANT;
-            if(!(michal !== zuuluu)) { _fun00006_ip = 90; continue _fun00005 }
+            if(!(michal !== zuuluu)) { _fun00006_ip = 94; continue _fun00005 }
  34:
             zuuluu = _closure1_slot9;
             zuuluu = zuuluu.SELECTED;
-            if(!(michal !== zuuluu)) { _fun00006_ip = 90; continue _fun00005 }
+            if(!(michal !== zuuluu)) { _fun00006_ip = 94; continue _fun00005 }
  48:
             entity = _closure1_slot9;
             entity = entity.MUTED;
-            if(!(michal !== entity)) { _fun00006_ip = 74; continue _fun00005 }
+            if(!(michal !== entity)) { _fun00006_ip = 78; continue _fun00005 }
  62:
             entity = {'variant': 'text-xs/medium', 'color': 'text-muted'};
-            _fun00006_ip = 88; continue _fun00005;
- 74:
+            _fun00006_ip = 92; continue _fun00005;
+ 78:
             entity = {'variant': 'text-xs/medium', 'color': 'interactive-muted'};
- 88:
-            _fun00006_ip = 104; continue _fun00005;
- 90:
+ 92:
+            _fun00006_ip = 108; continue _fun00005;
+ 94:
             entity = {'variant': 'text-xs/medium', 'color': 'redesign-channel-name-text'};
- 104:
+ 108:
             return entity;
         }
     };

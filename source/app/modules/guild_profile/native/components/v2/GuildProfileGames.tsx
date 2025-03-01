@@ -84,9 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal['container'] = verify;
     verify = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'gap': 8};
     michal['favoriteGame'] = verify;
-    verify = {};
-    offset = 'relative';
-    verify['position'] = offset;
+    verify = {'position': 'relative', 'width': 32, 'height': 32};
     michal['lastItem'] = verify;
     verify = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'bottom': 0};
     offset = 'absolute';
@@ -105,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = {};
     verify['position'] = offset;
     michal['lastItemImage'] = verify;
-    verify = {'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'width': 24, 'height': 24};
+    verify = {'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'width': 32, 'height': 32};
     michal['lastItemText'] = verify;
     michal = report.bind(option)(michal);
     var _closure1_slot7 = michal;
@@ -152,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = null;
                     michal = zuuluu == entity;
                     entity = null;
-                    if(michal) { _fun00004_ip = 396; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 398; continue _fun00003 }
  21:
                     report = _closure2_slot3;
                     tangon = report.getIconURL;
@@ -160,12 +158,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = tangon.bind(report)(michal);
                     michal = zuuluu == michal;
                     entity = null;
-                    if(michal) { _fun00004_ip = 396; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 398; continue _fun00003 }
  51:
                     michal = _closure2_slot4;
                     zuuluu = michal.length;
                     michal = 0;
-                    if(!(michal !== zuuluu)) { _fun00004_ip = 329; continue _fun00003 }
+                    if(!(michal !== zuuluu)) { _fun00004_ip = 331; continue _fun00003 }
  69:
                     report = _closure1_slot6;
                     tangon = _closure1_slot4;
@@ -210,9 +208,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = backup[yankee];
                     yankee = romeon.bind(michal)(yankee);
                     romeon = yankee.Text;
-                    yankee = {};
-                    backup = 'text-xs/normal';
-                    yankee['variant'] = backup;
+                    yankee = {'variant': 'text-xs/medium', 'color': 'always-white'};
                     backup = _closure2_slot4;
                     sizing = backup.length;
                     backup = global;
@@ -227,8 +223,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard[2] = golfie;
                     zuuluu['children'] = oscard;
                     michal = report.bind(michal)(tangon, zuuluu);
-                    _fun00004_ip = 393; continue _fun00003;
- 329:
+                    _fun00004_ip = 395; continue _fun00003;
+ 331:
                     oscard = _closure1_slot5;
                     tangon = _closure1_slot1;
                     report = _closure1_slot2;
@@ -244,9 +240,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = option[golfie];
                     zuuluu['activityLevel'] = golfie;
                     michal = oscard.bind(report)(tangon, zuuluu);
- 393:
+ 395:
                     entity = michal;
- 396:
+ 398:
                     return entity;
                 }
             };

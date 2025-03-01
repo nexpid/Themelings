@@ -1137,7 +1137,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = new sizing[verify](kiloes, backup);
     tangon = tangon instanceof Object ? tangon : option;
     var _closure1_slot24 = tangon;
-    tangon = 25;
+    tangon = 26;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
@@ -1199,15 +1199,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         var _closure2_slot0 = tangon;
-        oscard = _closure1_slot8;
+        report = _closure1_slot8;
         zuuluu = undefined;
-        report = argFoo;
-        report = oscard.bind(zuuluu)(tangon, report);
+        michal = argFoo;
+        michal = report.bind(zuuluu)(tangon, michal);
         michal = _closure1_slot5;
         report = {};
-        oscard = 'updateActiveErrors';
-        report['key'] = oscard;
+        entity = '_initialize';
+        report['key'] = entity;
         entity = function() { // Original name: value
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
+            entity = 24;
+            michal = michal[entity];
+            entity = undefined;
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.trackAVErrorExposure;
+            michal = 'AVErrorManager';
+            michal = zuuluu.bind(tangon)(michal);
+            return entity;
+        };
+        report['value'] = entity;
+        entity = new Array(2);
+        entity[0] = report;
+        report = {};
+        golfie = 'updateActiveErrors';
+        report['key'] = golfie;
+        oscard = function() { // Original name: value
             _fun00049: for(var _fun00050_ip = 0; ; ) switch(_fun00050_ip) {
  0:
                 zuuluu = _closure1_slot16;
@@ -1492,7 +1510,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1059:
                 zuuluu = _closure1_slot1;
                 tangon = _closure1_slot2;
-                michal = 24;
+                michal = 25;
                 michal = tangon[michal];
                 tangon = zuuluu.bind(entity)(michal);
                 zuuluu = tangon.dispatch;
@@ -1505,9 +1523,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             }
         };
-        report['value'] = entity;
-        entity = new Array(1);
-        entity[0] = report;
+        report['value'] = oscard;
+        entity[1] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -1517,7 +1534,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     sizing = tangon;
     michal = new sizing[michal](kiloes);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 26;
+    tangon = 27;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

@@ -273,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00008_ip = 280; continue _fun00007 }
+                    if(zuuluu) { _fun00008_ip = 276; continue _fun00007 }
  10: // try_start_0
                     tangon = _closure1_slot0;
                     oscard = _closure1_slot2;
@@ -345,7 +345,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = {'type': 'APPLIED_BOOSTS_COOLDOWN_FETCH_SUCCESS', 'endsAt': null};
                     zuuluu = tangon.bind(report)(zuuluu);
                     return michal;
- 280:
+ 276:
                     return entity;
                 }
             };

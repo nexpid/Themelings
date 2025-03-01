@@ -375,32 +375,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['nsfwAllowed'] = zuuluu;
             zuuluu = delete entity.nsfw_allowed;
  104:
-            zuuluu = entity.public_flags;
+            zuuluu = entity.age_verification_status;
             if(!(report != zuuluu)) { _fun00016_ip = 125; continue _fun00015 }
  114:
+            entity['ageVerificationStatus'] = zuuluu;
+            zuuluu = delete entity.age_verification_status;
+ 125:
+            zuuluu = entity.public_flags;
+            if(!(report != zuuluu)) { _fun00016_ip = 146; continue _fun00015 }
+ 135:
             entity['publicFlags'] = zuuluu;
             zuuluu = delete entity.public_flags;
- 125:
-            zuuluu = entity.purchased_flags;
-            if(!(tangon !== zuuluu)) { _fun00016_ip = 146; continue _fun00015 }
- 135:
-            entity['purchasedFlags'] = zuuluu;
-            zuuluu = delete entity.purchased_flags;
  146:
-            zuuluu = entity.premium_usage_flags;
+            zuuluu = entity.purchased_flags;
             if(!(tangon !== zuuluu)) { _fun00016_ip = 167; continue _fun00015 }
  156:
+            entity['purchasedFlags'] = zuuluu;
+            zuuluu = delete entity.purchased_flags;
+ 167:
+            zuuluu = entity.premium_usage_flags;
+            if(!(tangon !== zuuluu)) { _fun00016_ip = 188; continue _fun00015 }
+ 177:
             entity['premiumUsageFlags'] = zuuluu;
             zuuluu = delete entity.premium_usage_flags;
- 167:
+ 188:
             zuuluu = entity.banner_color;
-            if(!(report === zuuluu)) { _fun00016_ip = 182; continue _fun00015 }
- 177:
+            if(!(report === zuuluu)) { _fun00016_ip = 203; continue _fun00015 }
+ 198:
             zuuluu = delete entity.banner_color;
- 182:
+ 203:
             oscard = entity.avatar_decoration_data;
-            if(!(tangon !== oscard)) { _fun00016_ip = 234; continue _fun00015 }
- 192:
+            if(!(tangon !== oscard)) { _fun00016_ip = 255; continue _fun00015 }
+ 213:
             report = _closure1_slot0;
             golfie = _closure1_slot3;
             zuuluu = 13;
@@ -410,10 +416,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(report)(oscard);
             entity['avatarDecorationData'] = zuuluu;
             zuuluu = delete entity.avatar_decoration_data;
- 234:
+ 255:
             oscard = entity.collectibles;
-            if(!(tangon !== oscard)) { _fun00016_ip = 286; continue _fun00015 }
- 244:
+            if(!(tangon !== oscard)) { _fun00016_ip = 307; continue _fun00015 }
+ 265:
             report = _closure1_slot0;
             golfie = _closure1_slot3;
             zuuluu = 14;
@@ -423,20 +429,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(report)(oscard);
             entity['collectibles'] = zuuluu;
             zuuluu = delete entity.collectibles;
- 286:
+ 307:
             zuuluu = entity.global_name;
-            if(!(tangon !== zuuluu)) { _fun00016_ip = 307; continue _fun00015 }
- 296:
+            if(!(tangon !== zuuluu)) { _fun00016_ip = 328; continue _fun00015 }
+ 317:
             entity['globalName'] = zuuluu;
             zuuluu = delete entity.global_name;
- 307:
+ 328:
             zuuluu = entity.primary_guild;
-            if(!(tangon !== zuuluu)) { _fun00016_ip = 332; continue _fun00015 }
- 317:
+            if(!(tangon !== zuuluu)) { _fun00016_ip = 353; continue _fun00015 }
+ 338:
             michal = _closure1_slot14;
             michal = michal.bind(tangon)(zuuluu);
             entity['primary_guild'] = michal;
- 332:
+ 353:
             return entity;
         }
     };

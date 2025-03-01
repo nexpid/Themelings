@@ -171,10 +171,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.isAndroid;
             golfie = golfie.bind(option)();
             tangon = 0;
-            if(!golfie) { _fun00002_ip = 527; continue _fun00001 }
- 521:
+            if(!golfie) { _fun00002_ip = 535; continue _fun00001 }
+ 529:
             tangon = -2;
- 527:
+ 535:
             michal['marginTop'] = tangon;
             entity['joinButtonText'] = michal;
             michal = {'backgroundColor': null, 'width': 8, 'height': 8};

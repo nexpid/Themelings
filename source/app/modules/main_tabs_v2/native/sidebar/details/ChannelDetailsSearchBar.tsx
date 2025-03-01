@@ -109,8 +109,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['setSuggestionsDismissed'] = report;
             foxtra = null;
             report = null;
-            if(!oscard) { _fun00002_ip = 307; continue _fun00001 }
- 186:
+            if(!oscard) { _fun00002_ip = 361; continue _fun00001 }
+ 189:
             option = _closure1_slot5;
             golfie = _closure1_slot0;
             backup = _closure1_slot2;
@@ -121,17 +121,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = {};
             backup = 'button';
             oscard['accessibilityRole'] = backup;
-            if(!(foxtra != romeon)) { _fun00002_ip = 233; continue _fun00001 }
- 230:
-            yankee = romeon;
+            if(!(foxtra != romeon)) { _fun00002_ip = 236; continue _fun00001 }
  233:
+            yankee = romeon;
+ 236:
             oscard['onPress'] = yankee;
             offset = offset.back;
             oscard['style'] = offset;
-            yankee = _closure1_slot5;
             offset = _closure1_slot0;
             romeon = _closure1_slot2;
-            verify = 9;
+            yankee = 9;
+            foxtra = romeon[yankee];
+            foxtra = offset.bind(tangon)(foxtra);
+            backup = foxtra.intl;
+            foxtra = backup.string;
+            yankee = romeon[yankee];
+            yankee = offset.bind(tangon)(yankee);
+            yankee = yankee.t;
+            yankee = yankee.13/7kZ;
+            yankee = foxtra.bind(backup)(yankee);
+            oscard['accessibilityLabel'] = yankee;
+            yankee = _closure1_slot5;
+            verify = 10;
             verify = romeon[verify];
             verify = offset.bind(tangon)(verify);
             offset = verify.ChevronLargeLeftIcon;
@@ -139,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = yankee.bind(tangon)(offset, verify);
             oscard['children'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 307:
+ 361:
             entity['backButton'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
@@ -148,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.bind(golfie)(michal);
     michal = golfie.memo;
     michal = michal.bind(golfie)(tangon);
-    tangon = 10;
+    tangon = 11;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

@@ -694,7 +694,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard['children'] = backup;
                     entity = yankee.bind(report)(verify, oscard);
  183:
-                    report = new Array(9);
+                    report = new Array(10);
                     report[0] = entity;
                     backup = _closure1_slot13;
                     yankee = _closure1_slot1;
@@ -943,8 +943,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard['displayProfile'] = kiloes;
                     oscard = backup.bind(entity)(yankee, oscard);
                     report[6] = oscard;
-                    yankee = _closure1_slot13;
+                    backup = _closure1_slot13;
                     oscard = 42;
+                    oscard = foxtra[oscard];
+                    yankee = verify.bind(entity)(oscard);
+                    oscard = {};
+                    oscard['user'] = romeon;
+                    oscard = backup.bind(entity)(yankee, oscard);
+                    report[7] = oscard;
+                    yankee = _closure1_slot13;
+                    oscard = 43;
                     oscard = foxtra[oscard];
                     verify = verify.bind(entity)(oscard);
                     oscard = {};
@@ -956,23 +964,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon['backgroundColor'] = foxtra;
                     oscard['tagStyle'] = romeon;
                     oscard = yankee.bind(entity)(verify, oscard);
-                    report[7] = oscard;
+                    report[8] = oscard;
                     oscard = _closure2_slot14;
                     oscard = option != oscard;
-                    if(!oscard) { _fun00010_ip = 1045; continue _fun00009 }
- 1004:
+                    if(!oscard) { _fun00010_ip = 1077; continue _fun00009 }
+ 1036:
                     verify = _closure1_slot13;
                     option = _closure1_slot1;
                     yankee = _closure1_slot2;
-                    golfie = 43;
+                    golfie = 44;
                     golfie = yankee[golfie];
                     option = option.bind(entity)(golfie);
                     golfie = {};
                     offset = _closure2_slot14;
                     golfie['legacyUsername'] = offset;
                     oscard = verify.bind(entity)(option, golfie);
- 1045:
-                    report[8] = oscard;
+ 1077:
+                    report[9] = oscard;
                     michal['children'] = report;
                     entity = tangon.bind(entity)(zuuluu, michal);
                     return entity;
@@ -1003,7 +1011,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = _closure1_slot13;
             yankee = _closure1_slot0;
             backup = _closure1_slot2;
-            offset = 44;
+            offset = 45;
             offset = backup[offset];
             offset = yankee.bind(tangon)(offset);
             yankee = offset.UserProfilePremiumUpsellCard;
@@ -1079,7 +1087,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot14 = tangon;
     tangon = 12;
     var _closure1_slot15 = tangon;
-    tangon = 46;
+    tangon = 47;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -1119,7 +1127,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  13:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot2;
-                    michal = 45;
+                    michal = 46;
                     zuuluu = zuuluu[michal];
                     michal = undefined;
                     zuuluu = tangon.bind(michal)(zuuluu);

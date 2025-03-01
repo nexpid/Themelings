@@ -1,4 +1,4 @@
-// app/modules/media_uploads/experiments/MobileVideoUseHardwareAccelerationForAndroidTranscoding.tsx
+// app/modules/media_uploads/experiments/MobileVideoProgressUpdateGranularityExperiment.tsx
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -9,8 +9,8 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     option = entity.Object;
     golfie = option.defineProperty;
     tangon = {};
-    foxtra = true;
-    tangon['value'] = foxtra;
+    entity = true;
+    tangon['value'] = entity;
     entity = '__esModule';
     entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
@@ -18,21 +18,22 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     entity = undefined;
     verify = report.bind(entity)(tangon);
     option = verify.createExperiment;
-    golfie = {'kind': 'user', 'id': '2025-02_mobile_video_use_hardware_acceleration_for_android_transcoding', 'label': 'Use hardware acceleration for Android video transcoding'};
+    golfie = {'kind': 'user', 'id': '2025-03_mobile_video_progress_update_granularity', 'label': 'Progress update granularity'};
     tangon = {};
-    yankee = false;
-    tangon['enabled'] = yankee;
+    yankee = 100;
+    tangon['progressUpdateGranularity'] = yankee;
     golfie['defaultConfig'] = tangon;
-    tangon = {'id': 1, 'label': 'Control'};
+    tangon = {'id': 1, 'label': 'Control - Fine-grained progress updates'};
     offset = {};
-    offset['enabled'] = yankee;
+    offset['progressUpdateGranularity'] = yankee;
     tangon['config'] = offset;
     offset = new Array(2);
     offset[0] = tangon;
-    yankee = {'id': 2, 'label': 'Use hardware acceleration for Android video transcoding'};
+    yankee = {'id': 2, 'label': 'Coarse-grained progress updates'};
     tangon = 2;
     romeon = {};
-    romeon['enabled'] = foxtra;
+    foxtra = 10;
+    romeon['progressUpdateGranularity'] = foxtra;
     yankee['config'] = romeon;
     offset[1] = yankee;
     golfie['treatments'] = offset;
@@ -41,9 +42,9 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/media_uploads/experiments/MobileVideoUseHardwareAccelerationForAndroidTranscoding.tsx';
+    tangon = 'modules/media_uploads/experiments/MobileVideoProgressUpdateGranularityExperiment.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useMobileVideoUseHardwareAccelerationForAndroidTranscodingExperiment
+    michal = function(argFoo) { // Original name: useMobileVideoProgressUpdateGranularityExperiment
         entity = argFoo;
         entity = entity.location;
         report = _closure1_slot0;
@@ -71,6 +72,6 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zuuluu['useMobileVideoUseHardwareAccelerationForAndroidTranscodingExperiment'] = michal;
+    zuuluu['useMobileVideoProgressUpdateGranularityExperiment'] = michal;
     return entity;
 })();

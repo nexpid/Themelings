@@ -195,21 +195,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     report['useOptions'] = oscard;
     oscard = function() { // Original name: useHasSwipeToReplySetting
-        zuuluu = _closure1_slot1;
+        zuuluu = _closure1_slot0;
         michal = _closure1_slot2;
         entity = 3;
         michal = michal[entity];
         entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.getCurrentConfig;
-        michal = {};
-        entity = 'chat utils';
-        michal['location'] = entity;
-        entity = {};
-        report = false;
-        entity['autoTrackExposure'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.enabled;
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.useIsSwipeToMemberListExperimentEnabled;
+        entity = 'settings';
+        entity = michal.bind(zuuluu)(entity);
         return entity;
     };
     report['usePredicate'] = oscard;

@@ -147,6 +147,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['GLOBAL_DISCOVERY'] = michal;
     michal = 'impression_global_discovery_apps';
     tangon['GLOBAL_DISCOVERY_APPS'] = michal;
+    michal = 'impression_go_live_modal';
+    tangon['GO_LIVE_MODAL'] = michal;
     michal = 'impression_guild_add_accept_invite';
     tangon['GUILD_ADD_ACCEPT_INVITE'] = michal;
     michal = 'impression_guild_add_channel_prompt';
@@ -361,6 +363,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['SOUNDBOARD_POPOUT'] = michal;
     michal = 'impression_stage_discovery';
     tangon['STAGE_DISCOVERY'] = michal;
+    michal = 'impression_stream_feedback_modal';
+    tangon['STREAM_FEEDBACK_MODAL'] = michal;
     michal = 'impression_tiered_tenure_badge_modal';
     tangon['TIERED_TENURE_BADGE_MODAL'] = michal;
     michal = 'impression_trial_for_all_coachtip';
@@ -431,6 +435,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['VIEW_PANEL_DEVTOOLS'] = michal;
     michal = 'impression_voice_channel_blocked_user_warning';
     tangon['VOICE_CHANNEL_BLOCKED_USER_WARNING'] = michal;
+    michal = 'impression_voice_feedback_modal';
+    tangon['VOICE_FEEDBACK_MODAL'] = michal;
     michal = {};
     report = 'network_action_account_revert';
     michal['ACCOUNT_REVERT'] = report;

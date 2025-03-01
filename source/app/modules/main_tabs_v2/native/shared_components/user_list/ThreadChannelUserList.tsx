@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['start'] = report;
                 michal['end'] = tangon;
                 entity['props'] = michal;
-                _fun00008_ip = 271; continue _fun00007;
+                _fun00008_ip = 278; continue _fun00007;
  138:
                 michal = {};
                 zuuluu = 'user';
@@ -341,6 +341,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = golfie.colorString;
  238:
                 zuuluu['usernameColor'] = oscard;
+                oscard = true;
+                zuuluu['isNameplatedRow'] = oscard;
                 oscard = function(argFoo) { // Original name: onPress
                     zuuluu = _closure1_slot1;
                     michal = _closure1_slot2;
@@ -364,7 +366,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu['end'] = tangon;
                 michal['props'] = zuuluu;
                 entity = michal;
- 271:
+ 278:
                 return entity;
             }
         };

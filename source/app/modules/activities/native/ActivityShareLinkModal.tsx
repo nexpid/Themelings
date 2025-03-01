@@ -206,8 +206,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot2;
-                    golfie = entity.referrerId;
-                    oscard = entity.customId;
+                    option = entity.referrerId;
+                    golfie = entity.customId;
+                    oscard = entity.linkId;
                     zuuluu = _closure2_slot10;
                     tangon = _closure1_slot0;
                     michal = _closure1_slot2;
@@ -217,23 +218,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = tangon.bind(entity)(michal);
                     tangon = report.getActivityLaunchURL;
                     michal = {};
-                    option = _closure2_slot0;
-                    michal['applicationId'] = option;
-                    offset = null;
-                    if(!(offset == golfie)) { _fun00004_ip = 95; continue _fun00003 }
- 70:
-                    option = _closure2_slot8;
-                    offset = offset == option;
-                    option = undefined;
-                    if(offset) { _fun00004_ip = 92; continue _fun00003 }
- 83:
+                    verify = _closure2_slot0;
+                    michal['applicationId'] = verify;
+                    yankee = null;
+                    if(!(yankee == option)) { _fun00004_ip = 101; continue _fun00003 }
+ 76:
                     verify = _closure2_slot8;
-                    option = verify.id;
- 92:
-                    golfie = option;
- 95:
-                    michal['referrerId'] = golfie;
-                    michal['customId'] = oscard;
+                    yankee = yankee == verify;
+                    verify = undefined;
+                    if(yankee) { _fun00004_ip = 98; continue _fun00003 }
+ 89:
+                    offset = _closure2_slot8;
+                    verify = offset.id;
+ 98:
+                    option = verify;
+ 101:
+                    michal['referrerId'] = option;
+                    michal['customId'] = golfie;
+                    michal['linkId'] = oscard;
                     michal = tangon.bind(report)(michal);
                     michal = zuuluu.bind(entity)(michal);
                     return entity;

@@ -88,21 +88,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tangon = _closure1_slot4;
-                zuuluu = tangon.getGuild;
-                michal = _closure2_slot0;
-                tangon = zuuluu.bind(tangon)(michal);
-                michal = null;
-                zuuluu = michal == tangon;
-                michal = undefined;
-                if(zuuluu) { _fun00002_ip = 56; continue _fun00001 }
- 35:
-                zuuluu = tangon.hasFeature;
-                entity = _closure1_slot7;
-                entity = entity.MEMBER_VERIFICATION_GATE_ENABLED;
-                michal = zuuluu.bind(tangon)(entity);
- 56:
-                entity = true;
-                entity = entity === michal;
+                michal = tangon.getGuild;
+                entity = _closure2_slot0;
+                report = michal.bind(tangon)(entity);
+                entity = null;
+                entity = entity != report;
+                if(!entity) { _fun00002_ip = 84; continue _fun00001 }
+ 33:
+                tangon = report.hasFeature;
+                michal = _closure1_slot7;
+                michal = michal.MEMBER_VERIFICATION_GATE_ENABLED;
+                michal = tangon.bind(report)(michal);
+                if(!michal) { _fun00002_ip = 81; continue _fun00001 }
+ 57:
+                tangon = report.hasFeature;
+                zuuluu = _closure1_slot7;
+                zuuluu = zuuluu.MEMBER_VERIFICATION_MANUAL_APPROVAL;
+                zuuluu = tangon.bind(report)(zuuluu);
+                michal = !zuuluu;
+ 81:
+                entity = michal;
+ 84:
                 return entity;
             }
         };

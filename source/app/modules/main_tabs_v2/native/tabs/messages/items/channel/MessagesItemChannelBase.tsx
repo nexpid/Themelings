@@ -94,6 +94,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     yankee = {};
     backup = golfie[romeon];
     backup = foxtra.bind(entity)(backup);
+    backup = backup.radii;
+    backup = backup.md;
+    yankee['borderRadius'] = backup;
+    report['nameplate'] = yankee;
+    yankee = {};
+    backup = golfie[romeon];
+    backup = foxtra.bind(entity)(backup);
     backup = backup.colors;
     backup = backup.BACKGROUND_MODIFIER_ACTIVE;
     yankee['backgroundColor'] = backup;
@@ -528,12 +535,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['nameplate'] = foxtra;
             option['isFocused'] = ctrled;
             option['isPressed'] = offset;
+            offset = config.nameplate;
+            option['style'] = offset;
             verify = zuuluu.bind(tangon)(verify, option);
             option = new Array(5);
             option[0] = verify;
             verify = ctrled;
-            if(!verify) { _fun00002_ip = 849; continue _fun00001 }
- 814:
+            if(!verify) { _fun00002_ip = 859; continue _fun00001 }
+ 824:
             sequen = _closure1_slot13;
             yankee = _closure1_slot5;
             offset = {};
@@ -542,7 +551,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = 'none';
             offset['pointerEvents'] = config;
             verify = sequen.bind(tangon)(yankee, offset);
- 849:
+ 859:
             option[1] = verify;
             yankee = _closure1_slot13;
             offset = _closure1_slot1;
@@ -595,8 +604,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = null;
             echoed = romeon == update;
             sizing = undefined;
-            if(echoed) { _fun00002_ip = 1090; continue _fun00001 }
- 1072:
+            if(echoed) { _fun00002_ip = 1100; continue _fun00001 }
+ 1082:
             echoed = update.some;
             result = function(argFoo) {
                 entity = argFoo;
@@ -607,7 +616,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             sizing = echoed.bind(update)(result);
- 1090:
+ 1100:
             sizing = output === sizing;
             verify['hasActivity'] = sizing;
             verify['hasUnreadMessages'] = kiloes;

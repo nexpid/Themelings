@@ -148,10 +148,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = argFoo;
                 entity = michal[entity];
                 michal = null;
-                if(!(michal == entity)) { _fun00006_ip = 34; continue _fun00005 }
+                if(!(michal == entity)) { _fun00006_ip = 30; continue _fun00005 }
  20:
                 entity = {'mostRecentQuery': '', 'fetching': false};
- 34:
+ 30:
                 return entity;
             }
         };

@@ -330,55 +330,61 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = report.nsfwAllowed;
  560:
                 entity['nsfwAllowed'] = golfie;
-                golfie = report.guildMemberAvatars;
-                if(!(michal == golfie)) { _fun00006_ip = 578; continue _fun00005 }
+                golfie = report.age_verification_status;
+                if(!(michal == golfie)) { _fun00006_ip = 582; continue _fun00005 }
  576:
+                golfie = report.ageVerificationStatus;
+ 582:
+                entity['ageVerificationStatus'] = golfie;
+                golfie = report.guildMemberAvatars;
+                if(!(michal == golfie)) { _fun00006_ip = 600; continue _fun00005 }
+ 598:
                 golfie = {};
- 578:
+ 600:
                 entity['guildMemberAvatars'] = golfie;
                 option = report.has_bounced_email;
-                if(!(michal == option)) { _fun00006_ip = 600; continue _fun00005 }
- 594:
+                if(!(michal == option)) { _fun00006_ip = 622; continue _fun00005 }
+ 616:
                 option = report.hasBouncedEmail;
- 600:
+ 622:
                 golfie = michal != option;
-                if(!golfie) { _fun00006_ip = 610; continue _fun00005 }
- 607:
+                if(!golfie) { _fun00006_ip = 632; continue _fun00005 }
+ 629:
                 golfie = option;
- 610:
+ 632:
                 entity['hasBouncedEmail'] = golfie;
                 option = report.personal_connection_id;
-                if(!(michal == option)) { _fun00006_ip = 632; continue _fun00005 }
- 626:
+                if(!(michal == option)) { _fun00006_ip = 654; continue _fun00005 }
+ 648:
                 option = report.personalConnectionId;
- 632:
+ 654:
                 offset = michal != option;
                 golfie = null;
-                if(!offset) { _fun00006_ip = 644; continue _fun00005 }
- 641:
+                if(!offset) { _fun00006_ip = 666; continue _fun00005 }
+ 663:
                 golfie = option;
- 644:
+ 666:
                 entity['personalConnectionId'] = golfie;
                 golfie = report.global_name;
-                if(!(michal == golfie)) { _fun00006_ip = 666; continue _fun00005 }
- 660:
+                if(!(michal == golfie)) { _fun00006_ip = 688; continue _fun00005 }
+ 682:
                 golfie = report.globalName;
- 666:
+ 688:
                 entity['globalName'] = golfie;
                 golfie = report.banner;
                 entity['banner'] = golfie;
                 golfie = _closure1_slot13;
                 option = report.primary_guild;
-                if(!(michal == option)) { _fun00006_ip = 704; continue _fun00005 }
- 698:
+                if(!(michal == option)) { _fun00006_ip = 726; continue _fun00005 }
+ 720:
                 option = report.primaryGuild;
- 704:
+ 726:
                 offset = michal != option;
                 oscard = null;
-                if(!offset) { _fun00006_ip = 716; continue _fun00005 }
- 713:
+                if(!offset) { _fun00006_ip = 738; continue _fun00005 }
+ 735:
                 oscard = option;
- 716:
+ 738:
                 oscard = golfie.bind(zuuluu)(oscard);
                 entity['primaryGuild'] = oscard;
                 report = report.collectibles;
@@ -502,14 +508,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = entity.globalName;
                 oscard = michal == report;
                 zuuluu = undefined;
-                if(oscard) { _fun00006_ip = 877; continue _fun00005 }
- 872:
+                if(oscard) { _fun00006_ip = 899; continue _fun00005 }
+ 894:
                 zuuluu = report.length;
- 877:
-                if(!(tangon === zuuluu)) { _fun00006_ip = 887; continue _fun00005 }
- 881:
+ 899:
+                if(!(tangon === zuuluu)) { _fun00006_ip = 909; continue _fun00005 }
+ 903:
                 entity['globalName'] = michal;
- 887:
+ 909:
                 return entity;
             }
         };

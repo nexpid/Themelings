@@ -30,40 +30,47 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             oscard = entity.applicationId;
             report = entity.customId;
             golfie = entity.referrerId;
+            option = entity.linkId;
             entity = global;
             tangon = entity.URL;
             zuuluu = _closure1_slot0;
             michal = zuuluu.ACTIVITY_DETAILS;
             zuuluu = michal.bind(zuuluu)(oscard);
             michal = entity.location;
-            verify = michal.protocol;
+            offset = michal.protocol;
             michal = entity.location;
-            option = michal.host;
+            verify = michal.host;
             entity = entity.HermesInternal;
             oscard = entity.concat;
             michal = '';
             entity = '//';
-            yankee = oscard.bind(michal)(verify, entity, option);
+            romeon = oscard.bind(michal)(offset, entity, verify);
             michal = tangon.prototype;
             michal = Object.create(michal, {constructor: {value: tangon}});
-            foxtra = michal;
-            romeon = zuuluu;
-            entity = new foxtra[tangon](romeon, yankee, offset);
+            backup = michal;
+            foxtra = zuuluu;
+            entity = new backup[tangon](foxtra, romeon, yankee);
             michal = entity instanceof Object ? entity : michal;
             tangon = michal.searchParams;
             entity = null;
-            if(!(entity != golfie)) { _fun00002_ip = 148; continue _fun00001 }
- 133:
+            if(!(entity != option)) { _fun00002_ip = 154; continue _fun00001 }
+ 139:
+            oscard = tangon.set;
+            zuuluu = 'link_id';
+            zuuluu = oscard.bind(tangon)(zuuluu, option);
+ 154:
+            if(!(entity != golfie)) { _fun00002_ip = 173; continue _fun00001 }
+ 158:
             oscard = tangon.set;
             zuuluu = 'referrer_id';
             zuuluu = oscard.bind(tangon)(zuuluu, golfie);
- 148:
-            if(!(entity != report)) { _fun00002_ip = 167; continue _fun00001 }
- 152:
+ 173:
+            if(!(entity != report)) { _fun00002_ip = 192; continue _fun00001 }
+ 177:
             zuuluu = tangon.set;
             entity = 'custom_id';
             entity = zuuluu.bind(tangon)(entity, report);
- 167:
+ 192:
             entity = michal.toString;
             entity = entity.bind(michal)();
             return entity;

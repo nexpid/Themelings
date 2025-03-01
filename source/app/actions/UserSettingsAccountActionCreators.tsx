@@ -474,46 +474,67 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 entity = argFoo;
-                offset = entity.body;
-                oscard = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                tangon = 10;
-                report = zuuluu[tangon];
+                oscard = entity.body;
+                report = _closure1_slot1;
+                yankee = _closure1_slot2;
+                zuuluu = 10;
+                zuuluu = yankee[zuuluu];
                 tangon = undefined;
-                verify = oscard.bind(tangon)(report);
+                verify = report.bind(tangon)(zuuluu);
                 option = verify.track;
-                report = _closure1_slot8;
-                golfie = report.USER_AVATAR_UPDATED;
-                report = {};
-                romeon = _closure1_slot0;
-                yankee = 11;
-                yankee = zuuluu[yankee];
-                romeon = romeon.bind(tangon)(yankee);
-                yankee = romeon.isAnimatedIconHash;
-                offset = offset.avatar;
-                offset = yankee.bind(romeon)(offset);
-                report['animated'] = offset;
-                offset = false;
-                report['is_guild_profile'] = offset;
-                report = option.bind(verify)(golfie, report);
+                zuuluu = _closure1_slot8;
+                report = zuuluu.USER_AVATAR_UPDATED;
+                zuuluu = {};
+                offset = _closure1_slot0;
+                golfie = 11;
+                golfie = yankee[golfie];
+                offset = offset.bind(tangon)(golfie);
+                golfie = offset.isAnimatedIconHash;
+                oscard = oscard.avatar;
+                oscard = golfie.bind(offset)(oscard);
+                zuuluu['animated'] = oscard;
+                oscard = false;
+                zuuluu['is_guild_profile'] = oscard;
+                offset = _closure2_slot7;
+                golfie = null;
+                yankee = golfie != offset;
+                offset = undefined;
+                if(!yankee) { _fun00008_ip = 130; continue _fun00007 }
+ 113:
+                yankee = global;
+                romeon = yankee.Number;
+                yankee = _closure2_slot7;
+                offset = romeon.bind(tangon)(yankee);
+ 130:
+                zuuluu['recent_avatar_id'] = offset;
+                offset = _closure2_slot5;
+                offset = golfie != offset;
+                if(!offset) { _fun00008_ip = 154; continue _fun00007 }
+ 146:
+                yankee = _closure2_slot7;
+                offset = golfie != yankee;
+ 154:
+                zuuluu['is_edited_recent_avatar'] = offset;
+                zuuluu = option.bind(verify)(report, zuuluu);
+                option = _closure1_slot1;
+                zuuluu = _closure1_slot2;
                 report = 3;
                 zuuluu = zuuluu[report];
-                golfie = oscard.bind(tangon)(zuuluu);
-                oscard = golfie.dispatch;
+                verify = option.bind(tangon)(zuuluu);
+                option = verify.dispatch;
                 zuuluu = {};
-                option = 'USER_SETTINGS_ACCOUNT_SUBMIT_SUCCESS';
-                zuuluu['type'] = option;
-                zuuluu = oscard.bind(golfie)(zuuluu);
+                offset = 'USER_SETTINGS_ACCOUNT_SUBMIT_SUCCESS';
+                zuuluu['type'] = offset;
+                zuuluu = option.bind(verify)(zuuluu);
                 zuuluu = _closure2_slot5;
-                golfie = null;
                 zuuluu = golfie == zuuluu;
-                if(!zuuluu) { _fun00008_ip = 159; continue _fun00007 }
- 151:
+                if(!zuuluu) { _fun00008_ip = 226; continue _fun00007 }
+ 218:
                 oscard = _closure2_slot7;
                 zuuluu = golfie == oscard;
- 159:
-                if(zuuluu) { _fun00008_ip = 201; continue _fun00007 }
- 162:
+ 226:
+                if(zuuluu) { _fun00008_ip = 268; continue _fun00007 }
+ 229:
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
                 michal = michal[report];
@@ -523,7 +544,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = 'RECENT_AVATARS_UPDATE';
                 michal['type'] = report;
                 michal = zuuluu.bind(tangon)(michal);
- 201:
+ 268:
                 return entity;
             }
         };

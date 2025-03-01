@@ -501,10 +501,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot0 = tangon;
             tangon = entity.custom_id;
             var _closure2_slot1 = tangon;
-            entity = entity.message;
-            var _closure2_slot2 = entity;
+            tangon = entity.message;
+            var _closure2_slot2 = tangon;
+            entity = entity.link_id;
+            var _closure2_slot3 = entity;
             tangon = undefined;
-            var _closure2_slot4 = tangon;
+            var _closure2_slot5 = tangon;
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
             report = 7;
@@ -518,19 +520,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie.validateApplication;
             report = zuuluu.application;
             oscard = oscard.bind(golfie)(report);
-            var _closure2_slot3 = oscard;
+            var _closure2_slot4 = oscard;
             report = null;
-            if(!(report != oscard)) { _fun00006_ip = 405; continue _fun00005 }
- 130:
+            if(!(report != oscard)) { _fun00006_ip = 415; continue _fun00005 }
+ 140:
             golfie = _closure1_slot1;
             option = _closure1_slot2;
             oscard = 18;
             oscard = option[oscard];
             oscard = golfie.bind(tangon)(oscard);
             oscard = oscard.bind(tangon)();
-            _closure2_slot4 = oscard;
-            if(!(report != oscard)) { _fun00006_ip = 337; continue _fun00005 }
- 165:
+            _closure2_slot5 = oscard;
+            if(!(report != oscard)) { _fun00006_ip = 347; continue _fun00005 }
+ 175:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             oscard = 19;
@@ -541,15 +543,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.flags;
             option = report != zuuluu;
             report = 0;
-            if(!option) { _fun00006_ip = 213; continue _fun00005 }
- 210:
+            if(!option) { _fun00006_ip = 223; continue _fun00005 }
+ 220:
             report = zuuluu;
- 213:
+ 223:
             zuuluu = _closure1_slot5;
             zuuluu = zuuluu.EMBEDDED;
             zuuluu = oscard.bind(golfie)(report, zuuluu);
-            if(zuuluu) { _fun00006_ip = 300; continue _fun00005 }
- 232:
+            if(zuuluu) { _fun00006_ip = 310; continue _fun00005 }
+ 242:
             report = _closure1_slot1;
             oscard = _closure1_slot2;
             zuuluu = 15;
@@ -567,7 +569,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = new foxtra[golfie](romeon, yankee, offset);
             zuuluu = zuuluu instanceof Object ? zuuluu : report;
             throw zuuluu;
- 300:
+ 310:
             zuuluu = global;
             report = zuuluu.Promise;
             zuuluu = report.prototype;
@@ -583,9 +585,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = zuuluu.bind(entity)(michal);
                 zuuluu = tangon.openActivityShareLinkModal;
                 michal = {};
-                golfie = _closure2_slot3;
-                michal['applicationId'] = golfie;
                 golfie = _closure2_slot4;
+                michal['applicationId'] = golfie;
+                golfie = _closure2_slot5;
                 golfie = golfie.id;
                 michal['channelId'] = golfie;
                 golfie = {};
@@ -593,6 +595,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie['referrerId'] = option;
                 option = _closure2_slot1;
                 golfie['customId'] = option;
+                option = _closure2_slot3;
+                golfie['linkId'] = option;
                 michal['launchParams'] = golfie;
                 oscard = _closure2_slot2;
                 michal['message'] = oscard;
@@ -613,7 +617,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = new foxtra[report](romeon, yankee);
             michal = michal instanceof Object ? michal : zuuluu;
             return michal;
- 337:
+ 347:
             zuuluu = _closure1_slot1;
             report = _closure1_slot2;
             michal = 15;
@@ -631,7 +635,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = new foxtra[oscard](romeon, yankee, offset);
             michal = michal instanceof Object ? michal : zuuluu;
             throw michal;
- 405:
+ 415:
             zuuluu = _closure1_slot1;
             report = _closure1_slot2;
             michal = 15;

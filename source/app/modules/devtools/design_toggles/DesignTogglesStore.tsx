@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = oscard[michal];
     michal = golfie.bind(entity)(michal);
     var _closure1_slot4 = michal;
-    michal = {'enable_recently_active': 'Enable recently active channels', 'theme_setting_in_account_sheet': 'Show theme settings in the Account action sheet', 'mobile_profile_effect_debug_controls': 'mobile_profile_effect_debug_controls', 'nav_experiment_server_drawer_enabled': '[NavI] Enable expandable server drawer', 'shop_include_unpublished': '[Shop] show unpublished items in shop', 'show_icymi_debug_scores': 'Show ICYMI debug scores'};
+    michal = {'enable_recently_active': 'Enable recently active channels', 'theme_setting_in_account_sheet': 'Show theme settings in the Account action sheet', 'mobile_profile_effect_debug_controls': 'mobile_profile_effect_debug_controls', 'nav_experiment_server_drawer_enabled': '[NavI] Enable expandable server drawer', 'shop_include_unpublished': '[Shop] show unpublished items in shop', 'show_icymi_debug_scores': 'Show ICYMI debug scores', 'channel_list_scrim': 'Dim the channel list when chat appears'};
     var _closure1_slot5 = michal;
     tangon = {};
     var _closure1_slot6 = tangon;

@@ -246,7 +246,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     tangon['cardIcon'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot11 = tangon;
-    tangon = 22;
+    tangon = 21;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -499,23 +499,6 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         };
         report = new Array(0);
         oscard = option.bind(verify)(oscard, report);
-        romeon = verify.useEffect;
-        option = function() {
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 19;
-            michal = michal[entity];
-            entity = undefined;
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.trackExposure;
-            michal = {};
-            report = 'Settings Chat Screen';
-            michal['location'] = report;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
-        };
-        report = new Array(0);
-        report = romeon.bind(verify)(option, report);
         option = verify.useMemo;
         report = new Array(2);
         report[0] = yankee;
@@ -534,7 +517,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                 report = _closure1_slot9;
                 zuuluu = _closure1_slot0;
                 tangon = _closure1_slot2;
-                michal = 20;
+                michal = 19;
                 michal = tangon[michal];
                 tangon = undefined;
                 michal = zuuluu.bind(tangon)(michal);
@@ -547,7 +530,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         };
         report = option.bind(verify)(zuuluu, report);
         zuuluu = _closure1_slot9;
-        entity = 21;
+        entity = 20;
         entity = golfie[entity];
         entity = michal.bind(tangon)(entity);
         michal = entity.SettingsList;

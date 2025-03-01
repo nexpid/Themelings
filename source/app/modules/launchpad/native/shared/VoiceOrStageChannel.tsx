@@ -474,10 +474,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['backgroundColor'] = golfie;
             offset = argFoo;
             golfie = verify;
-            if(!offset) { _fun00010_ip = 238; continue _fun00009 }
- 236:
+            if(!offset) { _fun00010_ip = 242; continue _fun00009 }
+ 240:
             golfie = 0;
- 238:
+ 242:
             michal['elevation'] = golfie;
             golfie = 4;
             michal['shadowRadius'] = golfie;
@@ -491,16 +491,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.BLACK;
             michal['shadowColor'] = offset;
             offset = 0.14;
-            if(!yankee) { _fun00010_ip = 322; continue _fun00009 }
- 312:
+            if(!yankee) { _fun00010_ip = 326; continue _fun00009 }
+ 316:
             offset = 0.08;
- 322:
+ 326:
             michal['shadowOpacity'] = offset;
             offset = 'rgba(255, 255, 255, 0.14)';
-            if(!yankee) { _fun00010_ip = 342; continue _fun00009 }
- 336:
+            if(!yankee) { _fun00010_ip = 346; continue _fun00009 }
+ 340:
             offset = 'rgba(0, 0, 0, 0.08)';
- 342:
+ 346:
             michal['borderColor'] = offset;
             michal['borderWidth'] = verify;
             entity['joinButtonInactive'] = michal;
@@ -530,10 +530,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = offset.isAndroid;
             verify = verify.bind(offset)();
             golfie = 0;
-            if(!verify) { _fun00010_ip = 481; continue _fun00009 }
- 478:
+            if(!verify) { _fun00010_ip = 489; continue _fun00009 }
+ 486:
             golfie = option;
- 481:
+ 489:
             michal['marginTop'] = golfie;
             michal['alignSelf'] = tangon;
             entity['joinButtonText'] = michal;

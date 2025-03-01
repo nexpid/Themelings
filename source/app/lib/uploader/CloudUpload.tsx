@@ -2086,8 +2086,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = michal.uploadAnalytics;
                     verify = tangon.file;
                     verify = verify.encodingConfig;
-                    verify = verify.useHardwareAcceleration;
-                    offset['useHardwareAcceleration'] = verify;
+                    verify = verify.progressUpdateGranularity;
+                    offset['progressUpdateGranularity'] = verify;
  914:
                     michal['filename'] = romeon;
                     if(!(option != romeon)) { _fun00036_ip = 1208; continue _fun00035 }
@@ -2754,8 +2754,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = option.hevcIsSupported;
                 michal['hevc_is_supported'] = option;
                 option = golfie.uploadAnalytics;
-                option = option.useHardwareAcceleration;
-                michal['use_hardware_acceleration'] = option;
+                option = option.progressUpdateGranularity;
+                michal['progress_update_granularity'] = option;
                 option = golfie.uploadAnalytics;
                 option = option.sourceVideoFramerate;
                 michal['source_video_framerate'] = option;

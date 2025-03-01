@@ -440,11 +440,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sizing['children'] = ctrled;
                 sizing = update.bind(tangon)(output, sizing);
                 option['trailing'] = sizing;
-                if(!kiloes) { _fun00004_ip = 1081; continue _fun00003 }
+                if(!kiloes) { _fun00004_ip = 1085; continue _fun00003 }
  940:
-                if(backup) { _fun00004_ip = 1081; continue _fun00003 }
+                if(backup) { _fun00004_ip = 1085; continue _fun00003 }
  946:
-                if(!foxtra) { _fun00004_ip = 1081; continue _fun00003 }
+                if(!foxtra) { _fun00004_ip = 1085; continue _fun00003 }
  952:
                 kiloes = _closure1_slot10;
                 backup = _closure1_slot5;
@@ -514,8 +514,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sizing = kiloes.bind(tangon)(output, sizing);
                 foxtra['children'] = sizing;
                 foxtra = kiloes.bind(tangon)(backup, foxtra);
-                _fun00004_ip = 1284; continue _fun00003;
- 1081:
+                _fun00004_ip = 1288; continue _fun00003;
+ 1085:
                 sizing = _closure1_slot11;
                 kiloes = _closure1_slot5;
                 backup = {};
@@ -553,7 +553,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 output[2] = result;
                 backup['children'] = output;
                 foxtra = sizing.bind(tangon)(kiloes, backup);
- 1284:
+ 1288:
                 option['label'] = foxtra;
                 offset = yankee.bind(tangon)(offset, option);
                 option = new Array(2);
