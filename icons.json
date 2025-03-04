@@ -4687,8 +4687,8 @@
         "height": 16
     },
     "ic_close": {
-        "file": "images/native/chat_sidebar/ic_close.png",
-        "hash": "854592b18bf4615e2f6e8e24b384dc94",
+        "file": "images/native/icons/ic_close.png",
+        "hash": "dd65d7e499998d0d8096b10bdc086bb5",
         "scales": [
             2,
             3
