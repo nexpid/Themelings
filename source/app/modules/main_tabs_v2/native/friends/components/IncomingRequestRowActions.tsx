@@ -654,10 +654,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = romeon.View;
             romeon = {'style': null, 'accessibilityElementsHidden': true, 'importantForAccessibility': 'no-hide-descendants'};
             backup = null;
-            if(!source) { _fun00002_ip = 1323; continue _fun00001 }
- 1320:
+            if(!source) { _fun00002_ip = 1327; continue _fun00001 }
+ 1324:
             backup = kiloes;
- 1323:
+ 1327:
             romeon['style'] = backup;
             sizing = _closure1_slot5;
             kiloes = _closure1_slot1;
@@ -667,10 +667,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = backup.View;
             backup = {};
             echoed = null;
-            if(!source) { _fun00002_ip = 1365; continue _fun00001 }
- 1362:
+            if(!source) { _fun00002_ip = 1369; continue _fun00001 }
+ 1366:
             echoed = update;
- 1365:
+ 1369:
             backup['style'] = echoed;
             result = function(argFoo) { // Original name: onLayout
                 entity = argFoo;

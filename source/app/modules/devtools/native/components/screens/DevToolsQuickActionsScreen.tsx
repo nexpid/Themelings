@@ -389,7 +389,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     tangon = tangon.bind(entity)();
     var _closure1_slot25 = tangon;
-    tangon = 61;
+    tangon = 62;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -569,7 +569,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             kiloes = oscard.bind(golfie)(zuuluu, report);
-            if(michal) { _fun00008_ip = 2780; continue _fun00007 }
+            if(michal) { _fun00008_ip = 2765; continue _fun00007 }
  457:
             report = _closure1_slot21;
             zuuluu = _closure1_slot6;
@@ -956,11 +956,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = {};
             cntext = 'Show age verification get started modal';
             romeon['label'] = cntext;
-            papara = _closure1_slot1;
-            cntext = 33;
-            cntext = sizing[cntext];
-            cntext = papara.bind(tangon)(cntext);
-            cntext = cntext.showAgeVerificationGetStartedModal;
+            cntext = function() { // Original name: onPress
+                zuuluu = _closure1_slot1;
+                oscard = _closure1_slot2;
+                michal = 33;
+                michal = oscard[michal];
+                report = undefined;
+                zuuluu = zuuluu.bind(report)(michal);
+                michal = zuuluu.showAgeVerificationGetStartedModal;
+                tangon = _closure1_slot0;
+                entity = 54;
+                entity = oscard[entity];
+                entity = tangon.bind(report)(entity);
+                entity = entity.AgeVerificationModalEntryPoint;
+                entity = entity.DEV_TOOLS_QUICK_ACTIONS;
+                entity = michal.bind(zuuluu)(entity);
+                return entity;
+            };
             romeon['onPress'] = cntext;
             cntext = sizing[record];
             cntext = kiloes.bind(tangon)(cntext);
@@ -982,7 +994,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = {};
             cntext = 'Test captcha';
             romeon['label'] = cntext;
-            cntext = 54;
+            cntext = 55;
             cntext = sizing[cntext];
             cntext = kiloes.bind(tangon)(cntext);
             cntext = cntext.showCaptchaTestModal;
@@ -1005,7 +1017,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = kiloes.bind(tangon)(romeon);
             ctrled = romeon.TableSwitchRow;
             romeon = {'label': 'Ignored Profile Speedbump Suppression', 'subLabel': 'Suppresses the speedbump for ignored profiles.'};
-            config = 55;
+            config = 56;
             config = sizing[config];
             config = kiloes.bind(tangon)(config);
             record = config.EyeSlashIcon;
@@ -1030,14 +1042,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['onValueChange'] = sequen;
             romeon = vacuum.bind(tangon)(ctrled, romeon);
             update[8] = romeon;
-            romeon = 56;
+            romeon = 57;
             romeon = sizing[romeon];
             kiloes = kiloes.bind(tangon)(romeon);
             romeon = kiloes.isAndroid;
             kiloes = romeon.bind(kiloes)();
             romeon = null;
-            if(!kiloes) { _fun00008_ip = 2334; continue _fun00007 }
- 2221:
+            if(!kiloes) { _fun00008_ip = 2319; continue _fun00007 }
+ 2206:
             sizing = _closure1_slot20;
             vacuum = _closure1_slot0;
             record = _closure1_slot2;
@@ -1045,13 +1057,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = vacuum.bind(tangon)(foxtra);
             kiloes = foxtra.TableSwitchRow;
             foxtra = {'label': 'Enable Systrace', 'subLabel': 'Toggling requires an app restart to take effect.'};
-            ctrled = 57;
+            ctrled = 58;
             ctrled = record[ctrled];
             ctrled = vacuum.bind(tangon)(ctrled);
             vacuum = ctrled.TableRowIcon;
             ctrled = {};
             config = _closure1_slot1;
-            sequen = 58;
+            sequen = 59;
             sequen = record[sequen];
             sequen = config.bind(tangon)(sequen);
             ctrled['source'] = sequen;
@@ -1068,7 +1080,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             foxtra['onValueChange'] = source;
             romeon = sizing.bind(tangon)(kiloes, foxtra);
- 2334:
+ 2319:
             update[9] = romeon;
             foxtra = _closure1_slot20;
             sizing = _closure1_slot0;
@@ -1078,7 +1090,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = romeon.TableRow;
             source = {'label': 'Show App Rating Modal', 'subLabel': 'Attempts to show the app rating modal -- this may not visually show anything on debug builds or if your device has already been shown the modal recently.'};
             romeon = _closure1_slot1;
-            vacuum = 59;
+            vacuum = 60;
             vacuum = kiloes[vacuum];
             vacuum = romeon.bind(tangon)(vacuum);
             source['onPress'] = vacuum;
@@ -1125,7 +1137,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = function() { // Original name: onPress
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
-                entity = 60;
+                entity = 61;
                 michal = michal[entity];
                 entity = undefined;
                 michal = zuuluu.bind(entity)(michal);
@@ -1191,7 +1203,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = report.bind(tangon)(zuuluu, michal);
             return michal;
- 2780:
+ 2765:
             zuuluu = _closure1_slot0;
             report = _closure1_slot2;
             michal = 38;

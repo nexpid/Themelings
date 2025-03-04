@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = michal == report;
                             oscard = report;
  36:
-                            if(tangon) { _fun00004_ip = 81; continue _fun00003 }
+                            if(tangon) { _fun00004_ip = 85; continue _fun00003 }
  39:
                             report = oscard.scrollToLocation;
                             tangon = {'section': 0, 'item': 0};
@@ -103,11 +103,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             golfie = !golfie;
                             tangon['animated'] = golfie;
                             tangon = report.bind(oscard)(tangon);
- 81:
+ 85:
                             zuuluu = _closure2_slot1;
                             tangon = zuuluu.current;
-                            if(!(michal != tangon)) { _fun00004_ip = 135; continue _fun00003 }
- 94:
+                            if(!(michal != tangon)) { _fun00004_ip = 139; continue _fun00003 }
+ 98:
                             zuuluu = tangon.scrollToOffset;
                             michal = {};
                             report = 0;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             report = !report;
                             michal['animated'] = report;
                             michal = zuuluu.bind(tangon)(michal);
- 135:
+ 139:
                             return entity;
                         }
                     };

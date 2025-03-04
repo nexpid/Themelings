@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
-            entity = 13;
+            entity = 14;
             entity = golfie[entity];
             report = undefined;
             michal = oscard.bind(report)(entity);
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = entity.wkm9a2;
         entity = {};
         golfie = _closure1_slot1;
-        oscard = 14;
+        oscard = 15;
         oscard = verify[oscard];
         golfie = golfie.bind(option)(oscard);
         oscard = golfie.getArticleURL;
@@ -299,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  60:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
-            tangon = 12;
+            tangon = 13;
             tangon = golfie[tangon];
             oscard = oscard.bind(entity)(tangon);
             tangon = oscard.getSanitizedMessageRequestRestrictedGuilds;
@@ -325,26 +325,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = golfie.from;
             tangon = tangon.bind(golfie)(option);
             tangon = report.bind(oscard)(tangon);
-            _fun00008_ip = 216; continue _fun00007;
+            _fun00008_ip = 245; continue _fun00007;
  172:
             tangon = _closure1_slot8;
             zuuluu = !zuuluu;
             zuuluu = tangon.bind(entity)(zuuluu);
-            _fun00008_ip = 216; continue _fun00007;
+            _fun00008_ip = 245; continue _fun00007;
  186:
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 11;
-            michal = tangon[michal];
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.showAgeVerificationGetStartedModal;
-            michal = michal.bind(zuuluu)();
- 216:
+            tangon = _closure1_slot1;
+            oscard = _closure1_slot2;
+            zuuluu = 11;
+            zuuluu = oscard[zuuluu];
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.showAgeVerificationGetStartedModal;
+            report = _closure1_slot0;
+            michal = 12;
+            michal = oscard[michal];
+            michal = report.bind(entity)(michal);
+            michal = michal.AgeVerificationModalEntryPoint;
+            michal = michal.MESSAGE_REQUESTS_SETTINGS;
+            michal = zuuluu.bind(tangon)(michal);
+ 245:
             return entity;
         }
     };
     tangon['onValueChange'] = report;
-    report = 15;
+    report = 16;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

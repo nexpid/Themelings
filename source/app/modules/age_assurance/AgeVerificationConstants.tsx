@@ -1,5 +1,5 @@
 // app/modules/age_assurance/AgeVerificationConstants.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
@@ -11,17 +11,21 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['value'] = entity;
     entity = '__esModule';
     entity = tangon.bind(golfie)(zuuluu, entity, michal);
-    tangon = {};
-    golfie = 0;
-    michal = oscard[golfie];
+    entity = 0;
+    michal = oscard[entity];
     entity = undefined;
+    michal = report.bind(entity)(michal);
+    yankee = michal.HelpdeskArticles;
+    tangon = {};
+    golfie = 1;
+    michal = oscard[golfie];
     michal = report.bind(entity)(michal);
     verify = michal.intl;
     option = verify.string;
     michal = oscard[golfie];
     michal = report.bind(entity)(michal);
     michal = michal.t;
-    michal = michal.HphYKi;
+    michal = michal.K0z0AA;
     michal = option.bind(verify)(michal);
     tangon['title'] = michal;
     michal = oscard[golfie];
@@ -31,7 +35,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal = oscard[golfie];
     michal = report.bind(entity)(michal);
     michal = michal.t;
-    michal = michal.GCZC+/;
+    michal = michal.ldhmmp;
     michal = option.bind(verify)(michal);
     tangon['description'] = michal;
     michal = new Array(3);
@@ -44,7 +48,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = oscard[golfie];
     option = report.bind(entity)(option);
     option = option.t;
-    option = option.nkO4Ly;
+    option = option.60uRDA;
     option = verify.bind(offset)(option);
     tangon['title'] = option;
     option = oscard[golfie];
@@ -54,7 +58,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = oscard[golfie];
     option = report.bind(entity)(option);
     option = option.t;
-    option = option.rHZFsL;
+    option = option.h90JkZ;
     option = verify.bind(offset)(option);
     tangon['description'] = option;
     michal[1] = tangon;
@@ -66,21 +70,30 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = oscard[golfie];
     option = report.bind(entity)(option);
     option = option.t;
-    option = option.aVwLfn;
+    option = option.Jc2+09;
     option = verify.bind(offset)(option);
     tangon['title'] = option;
     option = oscard[golfie];
     option = report.bind(entity)(option);
-    verify = option.intl;
-    option = verify.string;
+    offset = option.intl;
+    verify = offset.format;
     golfie = oscard[golfie];
     golfie = report.bind(entity)(golfie);
     golfie = golfie.t;
-    golfie = golfie.n5vd1N;
-    golfie = option.bind(verify)(golfie);
+    option = golfie.rw9yFR;
+    golfie = {};
+    romeon = 2;
+    foxtra = oscard[romeon];
+    romeon = argBaz;
+    foxtra = romeon.bind(entity)(foxtra);
+    romeon = foxtra.getArticleURL;
+    yankee = yankee.TIGGER_PAWTECT_UK_AND_AUS_ONLY_SYSTEM_DMS;
+    yankee = romeon.bind(foxtra)(yankee);
+    golfie['helpUrl'] = yankee;
+    golfie = verify.bind(offset)(option, golfie);
     tangon['description'] = golfie;
     michal[2] = tangon;
-    tangon = 1;
+    tangon = 3;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = function() { // Original name: title
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 5;
+        entity = 6;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -72,22 +72,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['useValue'] = golfie;
     tangon = function(argFoo) { // Original name: onHidePlayAgainValueChange
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
+        tangon = _closure1_slot0;
+        golfie = _closure1_slot2;
         entity = 4;
-        michal = michal[entity];
+        zuuluu = golfie[entity];
         entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.updatedUnsyncedSettings;
-        michal = {};
-        report = argFoo;
-        report = !report;
-        michal['showPlayAgain'] = report;
-        michal = zuuluu.bind(tangon)(michal);
+        report = tangon.bind(entity)(zuuluu);
+        tangon = report.updateShowPlayAgainSetting;
+        zuuluu = argFoo;
+        zuuluu = !zuuluu;
+        oscard = _closure1_slot1;
+        michal = 5;
+        michal = golfie[michal];
+        michal = oscard.bind(entity)(michal);
+        michal = michal.USER_SETTINGS;
+        michal = tangon.bind(report)(zuuluu, michal);
         return entity;
     };
     michal['onValueChange'] = tangon;
-    tangon = 6;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

@@ -1,4 +1,4 @@
-// app/modules/application_directory/stores/ApplicationDirectoryCategoriesStore.tsx
+// app/modules/global_discovery_apps/stores/ApplicationDirectoryCategoriesStore.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = argBaz;
     zuuluu = argFre;
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = argBar;
     oscard = tangon.bind(entity)(report);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/application_directory/stores/ApplicationDirectoryCategoriesStore.tsx';
+    tangon = 'modules/global_discovery_apps/stores/ApplicationDirectoryCategoriesStore.tsx';
     tangon = report.bind(oscard)(tangon);
     zuuluu['default'] = michal;
     return entity;

@@ -377,8 +377,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/semibold', 'color': 'header-primary'};
             verify = backup.headerTitle;
             oscard['style'] = verify;
-            if(!(romeon != ctrled)) { _fun00002_ip = 425; continue _fun00001 }
- 368:
+            if(!(romeon != ctrled)) { _fun00002_ip = 429; continue _fun00001 }
+ 372:
             sizing = _closure1_slot0;
             output = _closure1_slot3;
             verify = 20;
@@ -391,8 +391,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.t;
             verify = verify.5BKP4+;
             verify = foxtra.bind(kiloes)(verify);
-            _fun00002_ip = 480; continue _fun00001;
- 425:
+            _fun00002_ip = 484; continue _fun00001;
+ 429:
             output = _closure1_slot0;
             vacuum = _closure1_slot3;
             foxtra = 20;
@@ -405,7 +405,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.t;
             foxtra = foxtra.DDF0cH;
             verify = kiloes.bind(sizing)(foxtra);
- 480:
+ 484:
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
             report[1] = oscard;
@@ -418,8 +418,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
             verify = backup.headerSubtitle;
             oscard['style'] = verify;
-            if(!(romeon != ctrled)) { _fun00002_ip = 603; continue _fun00001 }
- 546:
+            if(!(romeon != ctrled)) { _fun00002_ip = 611; continue _fun00001 }
+ 554:
             sizing = _closure1_slot0;
             output = _closure1_slot3;
             verify = 20;
@@ -432,8 +432,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.t;
             verify = verify.I+9bLy;
             verify = foxtra.bind(kiloes)(verify);
-            _fun00002_ip = 658; continue _fun00001;
- 603:
+            _fun00002_ip = 666; continue _fun00001;
+ 611:
             output = _closure1_slot0;
             vacuum = _closure1_slot3;
             foxtra = 20;
@@ -446,7 +446,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.t;
             foxtra = foxtra.bqQIwc;
             verify = kiloes.bind(sizing)(foxtra);
- 658:
+ 666:
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
             report[2] = oscard;
@@ -454,8 +454,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = zuuluu.bind(tangon)(michal, entity);
             entity = romeon == ctrled;
             verify = undefined;
-            if(!entity) { _fun00002_ip = 746; continue _fun00001 }
- 691:
+            if(!entity) { _fun00002_ip = 754; continue _fun00001 }
+ 699:
             report = _closure1_slot0;
             oscard = _closure1_slot3;
             entity = 20;
@@ -468,7 +468,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.t;
             entity = entity.gR66jY;
             verify = michal.bind(zuuluu)(entity);
- 746:
+ 754:
             zuuluu = _closure1_slot13;
             record = _closure1_slot0;
             sizing = _closure1_slot3;
@@ -554,8 +554,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option[2] = foxtra;
             kiloes = romeon != config;
             foxtra = null;
-            if(!kiloes) { _fun00002_ip = 1198; continue _fun00001 }
- 1137:
+            if(!kiloes) { _fun00002_ip = 1210; continue _fun00001 }
+ 1149:
             vacuum = _closure1_slot13;
             sizing = _closure1_slot0;
             sequen = _closure1_slot3;
@@ -570,7 +570,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = sequen.bind(config)();
             kiloes['children'] = sequen;
             foxtra = vacuum.bind(tangon)(sizing, kiloes);
- 1198:
+ 1210:
             option[3] = foxtra;
             sizing = _closure1_slot13;
             kiloes = _closure1_slot1;
@@ -579,8 +579,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = vacuum[foxtra];
             kiloes = kiloes.bind(tangon)(foxtra);
             foxtra = {};
-            if(!(romeon != ctrled)) { _fun00002_ip = 1286; continue _fun00001 }
- 1232:
+            if(!(romeon != ctrled)) { _fun00002_ip = 1298; continue _fun00001 }
+ 1244:
             config = _closure1_slot0;
             ctrled = _closure1_slot3;
             vacuum = ctrled[output];
@@ -592,8 +592,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = ctrled.t;
             ctrled = ctrled.K344S0;
             ctrled = vacuum.bind(sequen)(ctrled);
-            _fun00002_ip = 1338; continue _fun00001;
- 1286:
+            _fun00002_ip = 1350; continue _fun00001;
+ 1298:
             record = _closure1_slot0;
             vacuum = _closure1_slot3;
             sequen = vacuum[output];
@@ -605,7 +605,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = vacuum.t;
             vacuum = vacuum.s8mM8P;
             ctrled = sequen.bind(config)(vacuum);
- 1338:
+ 1350:
             foxtra['text'] = ctrled;
             foxtra['onPress'] = source;
             source = backup.startButton;
@@ -617,8 +617,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = sizing.bind(tangon)(kiloes, foxtra);
             option[4] = foxtra;
             verify = romeon != verify;
-            if(!verify) { _fun00002_ip = 1493; continue _fun00001 }
- 1391:
+            if(!verify) { _fun00002_ip = 1509; continue _fun00001 }
+ 1403:
             romeon = _closure1_slot13;
             sizing = _closure1_slot0;
             foxtra = _closure1_slot3;
@@ -639,7 +639,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = backup.bind(kiloes)(foxtra);
             offset['children'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 1493:
+ 1509:
             option[5] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

@@ -168,13 +168,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.bind(tangon)(golfie);
             option = golfie.Text;
             golfie = {'variant': 'text-md/semibold', 'style': null, 'lineClamp': 2};
-            if(foxtra) { _fun00002_ip = 180; continue _fun00001 }
- 172:
+            if(foxtra) { _fun00002_ip = 184; continue _fun00001 }
+ 176:
             sizing = backup.overlayActivityNameText;
-            _fun00002_ip = 186; continue _fun00001;
- 180:
+            _fun00002_ip = 190; continue _fun00001;
+ 184:
             sizing = backup.loadingTextColor;
- 186:
+ 190:
             golfie['style'] = sizing;
             golfie['children'] = romeon;
             option = yankee.bind(tangon)(option, golfie);
@@ -193,8 +193,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup[0] = sizing;
             backup[1] = kiloes;
             option['style'] = backup;
-            if(!foxtra) { _fun00002_ip = 316; continue _fun00001 }
- 266:
+            if(!foxtra) { _fun00002_ip = 320; continue _fun00001 }
+ 270:
             sizing = _closure1_slot5;
             kiloes = _closure1_slot0;
             output = _closure1_slot2;
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = backup.Ellipsis;
             backup = {'variant': 'active', 'size': 'md'};
             foxtra = sizing.bind(tangon)(kiloes, backup);
- 316:
+ 320:
             option['children'] = foxtra;
             option = romeon.bind(tangon)(yankee, option);
             golfie[1] = option;

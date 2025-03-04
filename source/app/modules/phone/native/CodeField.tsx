@@ -155,10 +155,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['onPress'] = kiloes;
             romeon = romeon.length;
             romeon = romeon !== backup;
-            if(romeon) { _fun00002_ip = 509; continue _fun00001 }
- 506:
+            if(romeon) { _fun00002_ip = 513; continue _fun00001 }
+ 510:
             romeon = foxtra;
- 509:
+ 513:
             verify['disabled'] = romeon;
             verify = yankee.bind(tangon)(offset, verify);
             oscard['children'] = verify;

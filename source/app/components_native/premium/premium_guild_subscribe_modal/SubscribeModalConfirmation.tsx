@@ -277,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             config = tangon.bind(golfie)(zuuluu, entity);
             entity = null;
-            if(!(entity != config)) { _fun00004_ip = 1027; continue _fun00003 }
+            if(!(entity != config)) { _fun00004_ip = 1031; continue _fun00003 }
  130:
             tangon = _closure1_slot18;
             zuuluu = _closure1_slot19;
@@ -473,15 +473,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie[5] = option;
             entity['children'] = golfie;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00004_ip = 1053; continue _fun00003;
- 1027:
+            _fun00004_ip = 1057; continue _fun00003;
+ 1031:
             tangon = _closure1_slot17;
             zuuluu = _closure1_slot5;
             michal = {};
             oscard = oscard.loading;
             michal['style'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1053:
+ 1057:
             return entity;
         }
     };

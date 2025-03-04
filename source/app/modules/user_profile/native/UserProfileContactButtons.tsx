@@ -26,23 +26,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = undefined;
             report = entity.bind(tangon)();
             verify = 'secondary';
-            if(!michal) { _fun00002_ip = 74; continue _fun00001 }
- 70:
-            verify = 'primary';
+            if(!michal) { _fun00002_ip = 78; continue _fun00001 }
  74:
+            verify = 'primary';
+ 78:
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot2;
             entity = 7;
             entity = oscard[entity];
             entity = zuuluu.bind(tangon)(entity);
             entity = entity.colors;
-            if(michal) { _fun00002_ip = 110; continue _fun00001 }
- 102:
+            if(michal) { _fun00002_ip = 114; continue _fun00001 }
+ 106:
             backup = entity.REDESIGN_BUTTON_SECONDARY_TEXT;
-            _fun00002_ip = 116; continue _fun00001;
- 110:
+            _fun00002_ip = 120; continue _fun00001;
+ 114:
             backup = entity.WHITE;
- 116:
+ 120:
             zuuluu = _closure1_slot6;
             michal = _closure1_slot3;
             entity = {};

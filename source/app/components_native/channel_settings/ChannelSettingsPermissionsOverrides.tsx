@@ -784,8 +784,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = golfie.bind(tangon)(zuuluu, entity);
             entity = _closure1_slot14;
             entity = entity.MEMBER;
-            if(!(michal !== entity)) { _fun00002_ip = 552; continue _fun00001 }
- 442:
+            if(!(michal !== entity)) { _fun00002_ip = 560; continue _fun00001 }
+ 446:
             zuuluu = _closure1_slot17;
             michal = _closure1_slot0;
             offset = _closure1_slot3;
@@ -801,21 +801,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = null;
             output = offset == sizing;
             kiloes = undefined;
-            if(output) { _fun00002_ip = 519; continue _fun00001 }
- 514:
+            if(output) { _fun00002_ip = 527; continue _fun00001 }
+ 522:
             kiloes = sizing.name;
- 519:
+ 527:
             sizing = offset != kiloes;
             offset = '';
-            if(!sizing) { _fun00002_ip = 533; continue _fun00001 }
- 530:
+            if(!sizing) { _fun00002_ip = 541; continue _fun00001 }
+ 538:
             offset = kiloes;
- 533:
+ 541:
             entity['label'] = offset;
             entity['trailing'] = golfie;
             offset = zuuluu.bind(tangon)(michal, entity);
-            _fun00002_ip = 610; continue _fun00001;
- 552:
+            _fun00002_ip = 618; continue _fun00001;
+ 560:
             zuuluu = _closure1_slot17;
             michal = _closure1_slot1;
             kiloes = _closure1_slot3;
@@ -830,7 +830,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['end'] = verify;
             entity['trailing'] = golfie;
             offset = zuuluu.bind(tangon)(michal, entity);
- 610:
+ 618:
             zuuluu = _closure1_slot18;
             michal = _closure1_slot8;
             entity = {};

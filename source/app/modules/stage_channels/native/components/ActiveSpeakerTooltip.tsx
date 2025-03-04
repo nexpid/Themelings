@@ -167,10 +167,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = entity[zuuluu];
             tangon = output.length;
             entity = null;
-            if(!(golfie !== tangon)) { _fun00002_ip = 524; continue _fun00001 }
+            if(!(golfie !== tangon)) { _fun00002_ip = 528; continue _fun00001 }
  187:
             entity = null;
-            if(!michal) { _fun00002_ip = 524; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 528; continue _fun00001 }
  195:
             tangon = _closure1_slot8;
             backup = _closure1_slot0;
@@ -245,7 +245,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 524:
+ 528:
             return entity;
         }
     };

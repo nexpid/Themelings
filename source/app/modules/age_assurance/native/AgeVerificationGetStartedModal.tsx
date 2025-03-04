@@ -47,23 +47,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = 'INTRO';
     tangon['INTRO'] = golfie;
     var _closure1_slot6 = tangon;
-    tangon = 9;
+    tangon = 11;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
     tangon = 'modules/age_assurance/native/AgeVerificationGetStartedModal.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: AgeVerificationGetStartedModal
+    michal = function(argFoo) { // Original name: AgeVerificationGetStartedModal
+        michal = argFoo;
+        option = michal.entryPoint;
+        var _closure2_slot0 = option;
         michal = _closure1_slot5;
         tangon = undefined;
-        golfie = michal.bind(tangon)();
-        var _closure2_slot0 = golfie;
-        oscard = _closure1_slot3;
-        zuuluu = oscard.useMemo;
-        michal = new Array(1);
-        michal[0] = golfie;
-        entity = function() {
-            zuuluu = _closure2_slot0;
+        michal = michal.bind(tangon)();
+        var _closure2_slot1 = michal;
+        golfie = _closure1_slot3;
+        oscard = golfie.useMemo;
+        zuuluu = new Array(1);
+        zuuluu[0] = michal;
+        michal = function() {
+            zuuluu = _closure2_slot1;
             michal = function(argFoo) { // Original name: getScreens
                 entity = {};
                 michal = _closure1_slot6;
@@ -117,11 +120,48 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.bind(entity)(zuuluu);
             return entity;
         };
-        oscard = zuuluu.bind(oscard)(entity, michal);
+        oscard = oscard.bind(golfie)(michal, zuuluu);
+        verify = golfie.useMemo;
+        zuuluu = function() {
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
+            entity = 7;
+            michal = michal[entity];
+            entity = undefined;
+            michal = zuuluu.bind(entity)(michal);
+            entity = michal.v4;
+            entity = entity.bind(michal)();
+            return entity;
+        };
+        michal = new Array(0);
+        verify = verify.bind(golfie)(zuuluu, michal);
+        var _closure2_slot2 = verify;
+        zuuluu = golfie.useEffect;
+        michal = new Array(2);
+        michal[0] = verify;
+        michal[1] = option;
+        entity = function() {
+            golfie = _closure1_slot0;
+            option = _closure1_slot2;
+            zuuluu = 8;
+            michal = option[zuuluu];
+            entity = undefined;
+            oscard = golfie.bind(entity)(michal);
+            report = oscard.trackAgeVerificationModalViewed;
+            tangon = _closure2_slot2;
+            zuuluu = option[zuuluu];
+            zuuluu = golfie.bind(entity)(zuuluu);
+            zuuluu = zuuluu.AgeVerificationModalVersion;
+            zuuluu = zuuluu.PRIMARY;
+            michal = _closure2_slot0;
+            michal = report.bind(oscard)(tangon, zuuluu, michal);
+            return entity;
+        };
+        entity = zuuluu.bind(golfie)(entity, michal);
         zuuluu = _closure1_slot4;
         option = _closure1_slot0;
         verify = _closure1_slot2;
-        entity = 7;
+        entity = 9;
         entity = verify[entity];
         entity = option.bind(tangon)(entity);
         michal = entity.Navigator;
@@ -130,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = _closure1_slot6;
         report = report.INTRO;
         entity['initialRouteName'] = report;
-        report = 8;
+        report = 10;
         oscard = verify[report];
         oscard = option.bind(tangon)(oscard);
         golfie = oscard.intl;

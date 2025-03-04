@@ -120,10 +120,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             oscard = entity.sendingVideo;
             entity = _closure1_slot8;
             entity = entity.INACTIVE;
-            if(!(golfie === entity)) { _fun00002_ip = 208; continue _fun00001 }
+            if(!(golfie === entity)) { _fun00002_ip = 212; continue _fun00001 }
  93:
             entity = _closure1_slot4;
-            if(entity) { _fun00002_ip = 208; continue _fun00001 }
+            if(entity) { _fun00002_ip = 212; continue _fun00001 }
  100:
             entity = {};
             offset = {'ip': '0.0.0.0', 'version': 4};
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['mid'] = offset;
             entity['type'] = verify;
             return entity;
- 208:
+ 212:
             yankee = _closure1_slot0;
             offset = _closure1_slot1;
             entity = 4;
@@ -173,11 +173,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['direction'] = golfie;
             entity['ssrcs'] = kiloes;
             golfie = kiloes.length;
-            if(!(golfie > yankee)) { _fun00002_ip = 551; continue _fun00001 }
- 338:
+            if(!(golfie > yankee)) { _fun00002_ip = 555; continue _fun00001 }
+ 342:
             yankee = null;
-            if(!(yankee != foxtra)) { _fun00002_ip = 447; continue _fun00001 }
- 344:
+            if(!(yankee != foxtra)) { _fun00002_ip = 451; continue _fun00001 }
+ 348:
             backup = _closure1_slot0;
             sizing = _closure1_slot1;
             golfie = 5;
@@ -241,10 +241,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = backup.flat;
             golfie = golfie.bind(backup)();
             entity['ssrcs'] = golfie;
- 447:
+ 451:
             golfie = _closure1_slot4;
-            if(golfie) { _fun00002_ip = 489; continue _fun00001 }
- 454:
+            if(golfie) { _fun00002_ip = 493; continue _fun00001 }
+ 458:
             backup = _closure1_slot0;
             sizing = _closure1_slot1;
             golfie = 6;
@@ -252,8 +252,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = backup.bind(offset)(golfie);
             backup = golfie.name;
             golfie = 'Firefox';
-            if(!(golfie === backup)) { _fun00002_ip = 551; continue _fun00001 }
- 489:
+            if(!(golfie === backup)) { _fun00002_ip = 555; continue _fun00001 }
+ 493:
             backup = kiloes.find;
             golfie = function(argFoo) {
                 entity = argFoo;
@@ -263,8 +263,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             golfie = backup.bind(kiloes)(golfie);
-            if(!(yankee != golfie)) { _fun00002_ip = 1201; continue _fun00001 }
- 511:
+            if(!(yankee != golfie)) { _fun00002_ip = 1205; continue _fun00001 }
+ 515:
             golfie = golfie.value;
             entity['msid'] = golfie;
             backup = entity.ssrcs;
@@ -278,13 +278,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             };
             golfie = yankee.bind(backup)(golfie);
             entity['ssrcs'] = golfie;
- 551:
+ 555:
             golfie = 'audio';
-            if(!(golfie !== verify)) { _fun00002_ip = 967; continue _fun00001 }
- 562:
+            if(!(golfie !== verify)) { _fun00002_ip = 971; continue _fun00001 }
+ 566:
             golfie = 'video';
-            if(!(golfie === verify)) { _fun00002_ip = 1199; continue _fun00001 }
- 573:
+            if(!(golfie === verify)) { _fun00002_ip = 1203; continue _fun00001 }
+ 577:
             verify = option.filter;
             golfie = function(argFoo) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -338,11 +338,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             verify = _closure1_slot3;
             verify = verify.H264;
             backup = yankee;
-            if(!(zuuluu === verify)) { _fun00002_ip = 684; continue _fun00001 }
- 674:
+            if(!(zuuluu === verify)) { _fun00002_ip = 688; continue _fun00001 }
+ 678:
             verify = ';level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f';
             backup = yankee + verify;
- 684:
+ 688:
             romeon = entity.fmtp;
             yankee = romeon.push;
             verify = {};
@@ -373,8 +373,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             verify[4] = yankee;
             entity['rtcpFb'] = verify;
             verify = null;
-            if(!(verify != foxtra)) { _fun00002_ip = 1199; continue _fun00001 }
- 839:
+            if(!(verify != foxtra)) { _fun00002_ip = 1203; continue _fun00001 }
+ 843:
             romeon = entity.rtp;
             yankee = romeon.push;
             verify = {'codec': 'rtx', 'payload': null, 'rate': 90000};
@@ -397,8 +397,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = ' ';
             golfie = yankee.bind(verify)(romeon, golfie, foxtra);
             entity['payloads'] = golfie;
-            _fun00002_ip = 1199; continue _fun00001;
- 967:
+            _fun00002_ip = 1203; continue _fun00001;
+ 971:
             verify = _closure1_slot0;
             yankee = _closure1_slot1;
             golfie = 6;
@@ -406,8 +406,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = verify.bind(offset)(golfie);
             verify = golfie.name;
             golfie = 'Firefox';
-            if(!(golfie !== verify)) { _fun00002_ip = 1056; continue _fun00001 }
- 1002:
+            if(!(golfie !== verify)) { _fun00002_ip = 1060; continue _fun00001 }
+ 1006:
             verify = option.filter;
             golfie = function(argFoo) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
@@ -434,8 +434,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = new Array(1);
             golfie[0] = verify;
             entity['rtcpFb'] = golfie;
-            _fun00002_ip = 1077; continue _fun00001;
- 1056:
+            _fun00002_ip = 1081; continue _fun00001;
+ 1060:
             golfie = option.filter;
             tangon = function(argFoo) {
                 entity = argFoo;
@@ -446,7 +446,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             };
             tangon = golfie.bind(option)(tangon);
             entity['ext'] = tangon;
- 1077:
+ 1081:
             option = entity.rtp;
             golfie = option.push;
             tangon = {};
@@ -459,27 +459,27 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = golfie.bind(option)(tangon);
             michal = _closure1_slot3;
             michal = michal.OPUS;
-            if(!(zuuluu === michal)) { _fun00002_ip = 1190; continue _fun00001 }
- 1138:
+            if(!(zuuluu === michal)) { _fun00002_ip = 1194; continue _fun00001 }
+ 1142:
             tangon = entity.fmtp;
             zuuluu = tangon.push;
             michal = {};
             golfie = '1';
-            if(!oscard) { _fun00002_ip = 1166; continue _fun00001 }
- 1160:
+            if(!oscard) { _fun00002_ip = 1170; continue _fun00001 }
+ 1164:
             golfie = '0';
- 1166:
+ 1170:
             oscard = 'minptime=10;useinbandfec=1;usedtx=';
             oscard = oscard + golfie;
             michal['config'] = oscard;
             michal['payload'] = report;
             michal = zuuluu.bind(tangon)(michal);
- 1190:
+ 1194:
             michal = 60;
             entity['maxptime'] = michal;
- 1199:
+ 1203:
             return entity;
- 1201:
+ 1205:
             entity = global;
             zuuluu = entity.Error;
             entity = zuuluu.prototype;

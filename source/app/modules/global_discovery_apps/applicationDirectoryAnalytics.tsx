@@ -1,4 +1,4 @@
-// app/modules/application_directory/applicationDirectoryAnalytics.tsx
+// app/modules/global_discovery_apps/applicationDirectoryAnalytics.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     golfie = argBaz;
@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/application_directory/applicationDirectoryAnalytics.tsx';
+    tangon = 'modules/global_discovery_apps/applicationDirectoryAnalytics.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo, argBar) { // Original name: trackAppDirectoryProfileEmbed
         zuuluu = _closure1_slot0;

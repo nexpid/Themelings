@@ -193,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00006_ip = 247; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 251; continue _fun00005 }
  13:
                     sizing = michal.clientId;
                     foxtra = michal.scopes;
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     return report;
  78:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00006_ip = 244; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 248; continue _fun00005 }
  87:
                     tangon = _closure1_slot0;
                     output = _closure1_slot2;
@@ -240,20 +240,20 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     zuuluu['query'] = golfie;
                     zuuluu['signal'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
-                    SaveGenerator(address=227);
- 225:
+                    SaveGenerator(address=231);
+ 229:
                     return zuuluu;
- 227:
+ 231:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00006_ip = 241; continue _fun00005 }
- 233:
+                    if(tangon) { _fun00006_ip = 245; continue _fun00005 }
+ 237:
                     tangon = zuuluu.body;
                     return tangon;
- 241:
+ 245:
                     return zuuluu;
- 244:
+ 248:
                     return michal;
- 247:
+ 251:
                     return entity;
                 }
             };

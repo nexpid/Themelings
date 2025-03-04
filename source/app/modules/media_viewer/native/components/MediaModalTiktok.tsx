@@ -184,24 +184,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot6 = output;
             offset = entity == golfie;
             yankee = undefined;
-            if(offset) { _fun00006_ip = 236; continue _fun00005 }
- 217:
+            if(offset) { _fun00006_ip = 240; continue _fun00005 }
+ 221:
             offset = golfie.props;
             foxtra = entity == offset;
             yankee = undefined;
-            if(foxtra) { _fun00006_ip = 236; continue _fun00005 }
- 231:
+            if(foxtra) { _fun00006_ip = 240; continue _fun00005 }
+ 235:
             yankee = offset.ref;
- 236:
+ 240:
             _closure2_slot7 = yankee;
             foxtra = _closure1_slot4;
             offset = foxtra.useCallback;
             backup = entity == golfie;
             entity = undefined;
-            if(backup) { _fun00006_ip = 263; continue _fun00005 }
- 258:
+            if(backup) { _fun00006_ip = 267; continue _fun00005 }
+ 262:
             entity = golfie.props;
- 263:
+ 267:
             golfie = new Array(1);
             golfie[0] = entity;
             entity = function(argFoo) {

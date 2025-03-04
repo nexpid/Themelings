@@ -289,10 +289,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = sequen.doesStickerPackHavePopoutInformation;
             sequen = source.bind(sequen)(romeon);
             source = undefined;
-            if(!sequen) { _fun00002_ip = 496; continue _fun00001 }
- 493:
+            if(!sequen) { _fun00002_ip = 500; continue _fun00001 }
+ 497:
             source = offset;
- 496:
+ 500:
             output['onPress'] = source;
             output['withBanner'] = update;
             output['withDescription'] = update;
@@ -361,8 +361,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = new Array(3);
             report[0] = verify;
             option = option != result;
-            if(!option) { _fun00002_ip = 812; continue _fun00001 }
- 707:
+            if(!option) { _fun00002_ip = 816; continue _fun00001 }
+ 711:
             kiloes = _closure1_slot9;
             backup = _closure1_slot0;
             echoed = _closure1_slot2;
@@ -394,10 +394,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = kiloes.bind(tangon)(output, sizing);
             verify['children'] = sizing;
             option = kiloes.bind(tangon)(backup, verify);
- 812:
+ 816:
             report[1] = option;
-            if(!oscard) { _fun00002_ip = 868; continue _fun00001 }
- 819:
+            if(!oscard) { _fun00002_ip = 872; continue _fun00001 }
+ 823:
             verify = _closure1_slot9;
             option = _closure1_slot1;
             golfie = _closure1_slot2;
@@ -409,7 +409,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['style'] = yankee;
             golfie['onClose'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 868:
+ 872:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

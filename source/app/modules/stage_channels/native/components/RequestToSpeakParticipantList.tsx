@@ -442,7 +442,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon[0] = oscard;
             entity['sections'] = tangon;
             entity = zuuluu.bind(report)(michal, entity);
-            _fun00004_ip = 540; continue _fun00003;
+            _fun00004_ip = 544; continue _fun00003;
  211:
             tangon = _closure1_slot4;
             zuuluu = _closure1_slot3;
@@ -513,7 +513,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 540:
+ 544:
             return entity;
         }
     };

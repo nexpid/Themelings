@@ -100,10 +100,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  57:
             oscard = true;
  59:
-            papara = entity.startExpanded;
-            if(!(papara === tangon)) { _fun00002_ip = 71; continue _fun00001 }
+            target = entity.startExpanded;
+            if(!(target === tangon)) { _fun00002_ip = 71; continue _fun00001 }
  69:
-            papara = true;
+            target = true;
  71:
             result = entity.analyticsObject;
             var _closure2_slot3 = tangon;
@@ -128,11 +128,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = yankee.bind(report)(golfie);
             yankee = _closure1_slot3;
             golfie = 2;
-            romeon = yankee.bind(tangon)(romeon, golfie);
-            backup = 0;
-            golfie = romeon[backup];
+            foxtra = yankee.bind(tangon)(romeon, golfie);
+            romeon = 0;
+            golfie = foxtra[romeon];
             yankee = 1;
-            yankee = romeon[yankee];
+            yankee = foxtra[yankee];
             _closure2_slot4 = yankee;
             michal = entity[michal];
             michal = option.bind(tangon)(michal);
@@ -141,33 +141,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = golfie === michal;
             _closure2_slot5 = yankee;
             michal = report.useRef;
-            romeon = null;
-            foxtra = michal.bind(report)(romeon);
+            output = null;
+            foxtra = michal.bind(report)(output);
             michal = 10;
             report = entity[michal];
             golfie = option.bind(tangon)(report);
             report = golfie.useSharedValue;
-            backup = report.bind(golfie)(backup);
+            backup = report.bind(golfie)(romeon);
             report = 11;
             report = entity[report];
             golfie = option.bind(tangon)(report);
             report = golfie.useEmojiCategories;
             kiloes = report.bind(golfie)(vacuum, ctrled, source);
-            output = _closure1_slot1;
+            romeon = _closure1_slot1;
             report = 12;
             report = entity[report];
-            report = output.bind(tangon)(report);
+            report = romeon.bind(tangon)(report);
             report = report.bind(tangon)();
             report = report.insets;
             golfie = report.bottom;
             report = 13;
             report = entity[report];
-            report = output.bind(tangon)(report);
+            report = romeon.bind(tangon)(report);
             report = report.bind(tangon)();
             report = report.bottom;
             _closure2_slot6 = report;
-            sierra = 14;
-            entity = entity[sierra];
+            limora = 14;
+            entity = entity[limora];
             option = option.bind(tangon)(entity);
             entity = option.isAndroid;
             entity = entity.bind(option)();
@@ -176,36 +176,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = report;
  367:
             entity = _closure1_slot7;
-            golfie = golfie + entity;
-            update = _closure1_slot1;
-            sequen = _closure1_slot2;
+            romeon = golfie + entity;
+            sequen = _closure1_slot1;
+            record = _closure1_slot2;
             option = 8;
-            entity = sequen[option];
-            entity = update.bind(tangon)(entity);
+            entity = record[option];
+            entity = sequen.bind(tangon)(entity);
             entity = entity.spacing;
             entity = entity.PX_16;
-            echoed = golfie + entity;
+            echoed = romeon + entity;
             entity = 15;
-            golfie = sequen[entity];
-            output = update.bind(tangon)(golfie);
+            golfie = record[entity];
+            update = sequen.bind(tangon)(golfie);
             golfie = 16;
-            golfie = sequen[golfie];
-            golfie = update.bind(tangon)(golfie);
+            golfie = record[golfie];
+            golfie = sequen.bind(tangon)(golfie);
             golfie = golfie.EMOJI_PICKER;
-            golfie = output.bind(tangon)(golfie);
+            golfie = update.bind(tangon)(golfie);
             golfie = golfie.analyticsLocations;
-            output = 17;
-            output = sequen[output];
-            output = update.bind(tangon)(output);
-            output = output.bind(tangon)(ctrled, backup, vacuum);
-            record = output.handleTextChange;
-            _closure2_slot7 = record;
-            update = output.searchQueryRef;
-            sequen = output.searchResults;
-            output = _closure1_slot4;
-            target = output.useCallback;
-            cntext = new Array(1);
-            cntext[0] = config;
+            update = 17;
+            update = record[update];
+            update = sequen.bind(tangon)(update);
+            sequen = update.bind(tangon)(ctrled, backup, vacuum);
+            cntext = sequen.handleTextChange;
+            _closure2_slot7 = cntext;
+            update = sequen.searchQueryRef;
+            sequen = sequen.searchResults;
+            record = _closure1_slot4;
+            status = record.useCallback;
+            papara = new Array(1);
+            papara[0] = config;
             config = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -221,8 +221,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            cntext = target.bind(output)(config, cntext);
-            target = output.useCallback;
+            papara = status.bind(record)(config, papara);
+            status = record.useCallback;
             config = new Array(2);
             config[0] = sizing;
             config[1] = yankee;
@@ -255,8 +255,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            config = target.bind(output)(sizing, config);
-            target = output.useMemo;
+            config = status.bind(record)(sizing, config);
+            status = record.useMemo;
             sizing = new Array(2);
             sizing[0] = yankee;
             sizing[1] = report;
@@ -297,14 +297,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            sizing = target.bind(output)(report, sizing);
-            report = output.useRef;
-            report = report.bind(output)(romeon);
+            sizing = status.bind(record)(report, sizing);
+            report = record.useRef;
+            report = report.bind(record)(output);
             _closure2_slot8 = report;
-            report = output.useRef;
-            report = report.bind(output)(oscard);
+            report = record.useRef;
+            report = report.bind(record)(oscard);
             _closure2_slot9 = report;
-            romeon = output.useCallback;
+            output = record.useCallback;
             oscard = function() {
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
@@ -329,11 +329,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             report = new Array(0);
-            romeon = romeon.bind(output)(oscard, report);
-            oscard = output.useMemo;
+            output = output.bind(record)(oscard, report);
+            oscard = record.useMemo;
             report = new Array(4);
             report[0] = offset;
-            report[1] = record;
+            report[1] = cntext;
             report[2] = yankee;
             report[3] = vacuum;
             zuuluu = function() {
@@ -457,7 +457,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            limora = oscard.bind(output)(zuuluu, report);
+            whisks = oscard.bind(record)(zuuluu, report);
             oscard = _closure1_slot1;
             report = _closure1_slot2;
             zuuluu = report[option];
@@ -465,19 +465,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.unsafe_rawColors;
             if(yankee) { _fun00002_ip = 724; continue _fun00001 }
  684:
-            output = zuuluu.TRANSPARENT;
+            record = zuuluu.TRANSPARENT;
             yankee = new Array(2);
-            yankee[0] = output;
-            output = report[option];
-            output = oscard.bind(tangon)(output);
-            output = output.unsafe_rawColors;
-            output = output.TRANSPARENT;
-            yankee[1] = output;
+            yankee[0] = record;
+            record = report[option];
+            record = oscard.bind(tangon)(record);
+            record = record.unsafe_rawColors;
+            record = record.TRANSPARENT;
+            yankee[1] = record;
             _fun00002_ip = 765; continue _fun00001;
  724:
-            output = zuuluu.BRAND_500;
+            record = zuuluu.BRAND_500;
             zuuluu = new Array(2);
-            zuuluu[0] = output;
+            zuuluu[0] = record;
             report = report[option];
             report = oscard.bind(tangon)(report);
             report = report.unsafe_rawColors;
@@ -491,14 +491,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = oscard.bind(tangon)(michal);
             zuuluu = option.useSharedValue;
             michal = -1;
-            output = zuuluu.bind(option)(michal);
+            cntext = zuuluu.bind(option)(michal);
             zuuluu = _closure1_slot10;
             entity = report[entity];
             entity = oscard.bind(tangon)(entity);
             michal = entity.AnalyticsLocationProvider;
             entity = {};
             entity['value'] = golfie;
-            report = report[sierra];
+            report = report[limora];
             oscard = oscard.bind(tangon)(report);
             report = oscard.isIOS;
             oscard = report.bind(oscard)();
@@ -513,48 +513,53 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = {};
             record = 'EmojiPickerActionSheet';
             report['portalHostName'] = record;
-            report['animatedSheetIndex'] = output;
+            report['animatedSheetIndex'] = cntext;
             oscard = option.bind(tangon)(golfie, report);
  893:
             report = new Array(2);
             report[0] = oscard;
             option = _closure1_slot10;
-            status = _closure1_slot0;
-            target = _closure1_slot2;
+            sierra = _closure1_slot0;
+            status = _closure1_slot2;
             oscard = 28;
-            oscard = target[oscard];
-            oscard = status.bind(tangon)(oscard);
+            oscard = status[oscard];
+            oscard = sierra.bind(tangon)(oscard);
             golfie = oscard.BottomSheet;
             oscard = {};
             record = true;
             oscard['scrollable'] = record;
-            oscard['header'] = limora;
-            target = target[sierra];
-            status = status.bind(tangon)(target);
-            target = status.isAndroid;
-            status = target.bind(status)();
-            target = undefined;
-            if(!status) { _fun00002_ip = 1015; continue _fun00001 }
+            oscard['header'] = whisks;
+            status = status[limora];
+            sierra = sierra.bind(tangon)(status);
+            status = sierra.isAndroid;
+            sierra = status.bind(sierra)();
+            status = undefined;
+            if(!sierra) { _fun00002_ip = 1015; continue _fun00001 }
  967:
-            limora = _closure1_slot9;
-            sierra = _closure1_slot0;
-            whisks = _closure1_slot2;
-            status = 29;
-            status = whisks[status];
-            status = sierra.bind(tangon)(status);
-            sierra = status.PortalHost;
-            status = {};
-            whisks = 'EmojiPickerActionSheet';
-            status['name'] = whisks;
-            target = limora.bind(tangon)(sierra, status);
+            whisks = _closure1_slot9;
+            limora = _closure1_slot0;
+            equals = _closure1_slot2;
+            sierra = 29;
+            sierra = equals[sierra];
+            sierra = limora.bind(tangon)(sierra);
+            limora = sierra.PortalHost;
+            sierra = {};
+            equals = 'EmojiPickerActionSheet';
+            sierra['name'] = equals;
+            status = whisks.bind(tangon)(limora, sierra);
  1015:
-            oscard['footer'] = target;
-            oscard['startExpanded'] = papara;
-            oscard['onDismiss'] = cntext;
-            oscard['animatedIndex'] = output;
-            oscard['onExpand'] = romeon;
+            oscard['footer'] = status;
+            oscard['startExpanded'] = target;
+            oscard['onDismiss'] = papara;
+            oscard['animatedIndex'] = cntext;
+            oscard['onExpand'] = output;
             oscard['borderGradient'] = yankee;
-            offset = offset.content;
+            yankee = offset.content;
+            offset = new Array(2);
+            offset[0] = yankee;
+            yankee = {};
+            yankee['marginBottom'] = romeon;
+            offset[1] = yankee;
             oscard['contentStyles'] = offset;
             romeon = _closure1_slot9;
             yankee = _closure1_slot1;

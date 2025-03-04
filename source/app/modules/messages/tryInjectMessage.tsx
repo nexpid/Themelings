@@ -11,29 +11,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = argFoo;
         tangon = _closure1_slot1;
         oscard = _closure1_slot2;
-        zuuluu = 3;
+        zuuluu = 2;
         zuuluu = oscard[zuuluu];
         report = undefined;
         tangon = tangon.bind(report)(zuuluu);
         zuuluu = {};
         golfie = argBar;
         zuuluu['channelId'] = golfie;
-        golfie = _closure1_slot7;
+        golfie = _closure1_slot6;
         golfie = golfie.IN_GAME_MESSAGE_NUX;
         zuuluu['type'] = golfie;
         golfie = '';
         zuuluu['content'] = golfie;
         golfie = michal.author;
         zuuluu['author'] = golfie;
-        golfie = _closure1_slot5;
+        golfie = _closure1_slot4;
         golfie = golfie.EPHEMERAL;
         zuuluu['flags'] = golfie;
-        golfie = _closure1_slot6;
+        golfie = _closure1_slot5;
         golfie = golfie.SENT;
         zuuluu['state'] = golfie;
         tangon = tangon.bind(report)(zuuluu);
         zuuluu = _closure1_slot0;
-        entity = 4;
+        entity = 3;
         entity = oscard[entity];
         zuuluu = zuuluu.bind(report)(entity);
         entity = zuuluu.createMessageRecord;
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity['timestamp'] = michal;
         return entity;
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot8 = entity;
     tangon = global;
     offset = tangon.Object;
     verify = offset.defineProperty;
@@ -60,25 +60,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot3 = golfie;
     golfie = 1;
     golfie = oscard[golfie];
-    golfie = option.bind(entity)(golfie);
-    var _closure1_slot4 = golfie;
-    golfie = 2;
-    golfie = oscard[golfie];
     golfie = report.bind(entity)(golfie);
     option = golfie.MessageFlags;
-    var _closure1_slot5 = option;
+    var _closure1_slot4 = option;
     option = golfie.MessageStates;
-    var _closure1_slot6 = option;
+    var _closure1_slot5 = option;
     golfie = golfie.MessageTypes;
-    var _closure1_slot7 = golfie;
+    var _closure1_slot6 = golfie;
     tangon = tangon.Map;
     golfie = tangon.prototype;
     golfie = Object.create(golfie, {constructor: {value: tangon}});
     backup = golfie;
     tangon = new backup[tangon](foxtra);
     tangon = tangon instanceof Object ? tangon : golfie;
-    var _closure1_slot8 = tangon;
-    tangon = 9;
+    var _closure1_slot7 = tangon;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -89,85 +85,80 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             report = argFoo;
             entity = argBar;
-            oscard = _closure1_slot8;
+            oscard = _closure1_slot7;
             tangon = oscard.get;
             michal = entity.id;
             tangon = tangon.bind(oscard)(michal);
             michal = report.id;
-            if(!(tangon !== michal)) { _fun00002_ip = 452; continue _fun00001 }
+            if(!(tangon !== michal)) { _fun00002_ip = 439; continue _fun00001 }
  40:
             michal = report.applicationId;
             offset = null;
             tangon = offset == michal;
             michal = null;
-            if(tangon) { _fun00002_ip = 469; continue _fun00001 }
+            if(tangon) { _fun00002_ip = 456; continue _fun00001 }
  59:
+            oscard = _closure1_slot0;
+            tangon = _closure1_slot2;
+            yankee = 4;
+            tangon = tangon[yankee];
+            option = undefined;
+            verify = oscard.bind(option)(tangon);
+            golfie = verify.hasFlag;
+            oscard = report.flags;
+            tangon = _closure1_slot4;
+            tangon = tangon.SENT_BY_SOCIAL_LAYER_INTEGRATION;
+            tangon = golfie.bind(verify)(oscard, tangon);
+            michal = null;
+            if(!tangon) { _fun00002_ip = 456; continue _fun00001 }
+ 116:
             tangon = entity.isDM;
             tangon = tangon.bind(entity)();
             michal = null;
-            if(!tangon) { _fun00002_ip = 469; continue _fun00001 }
- 77:
+            if(!tangon) { _fun00002_ip = 456; continue _fun00001 }
+ 134:
             tangon = report.author;
             oscard = tangon.id;
-            golfie = _closure1_slot4;
+            golfie = _closure1_slot3;
             tangon = golfie.getId;
             tangon = tangon.bind(golfie)();
             michal = null;
-            if(!(oscard !== tangon)) { _fun00002_ip = 469; continue _fun00001 }
- 111:
+            if(!(oscard !== tangon)) { _fun00002_ip = 456; continue _fun00001 }
+ 168:
             oscard = _closure1_slot0;
             tangon = _closure1_slot2;
-            yankee = 5;
             tangon = tangon[yankee];
-            option = undefined;
             foxtra = oscard.bind(option)(tangon);
             verify = foxtra.hasFlag;
             tangon = entity.recipientFlags;
             oscard = offset != tangon;
             golfie = 0;
-            if(!oscard) { _fun00002_ip = 157; continue _fun00001 }
- 154:
+            if(!oscard) { _fun00002_ip = 209; continue _fun00001 }
+ 206:
             golfie = tangon;
- 157:
+ 209:
             backup = _closure1_slot0;
             tangon = _closure1_slot2;
-            oscard = 6;
+            oscard = 5;
             tangon = tangon[oscard];
             tangon = backup.bind(option)(tangon);
             tangon = tangon.ChannelRecipientPrivateUserDataFlags;
             tangon = tangon.DISMISSED_IN_GAME_MESSAGE_NUX;
             tangon = verify.bind(foxtra)(golfie, tangon);
             michal = null;
-            if(tangon) { _fun00002_ip = 469; continue _fun00001 }
- 203:
-            verify = _closure1_slot8;
+            if(tangon) { _fun00002_ip = 456; continue _fun00001 }
+ 255:
+            verify = _closure1_slot7;
             golfie = verify.has;
             tangon = entity.id;
             tangon = golfie.bind(verify)(tangon);
             michal = null;
-            if(tangon) { _fun00002_ip = 469; continue _fun00001 }
- 230:
-            verify = _closure1_slot3;
-            golfie = verify.getApplication;
-            tangon = report.applicationId;
-            golfie = golfie.bind(verify)(tangon);
-            tangon = offset == golfie;
-            michal = null;
-            if(tangon) { _fun00002_ip = 469; continue _fun00001 }
- 262:
-            verify = _closure1_slot1;
-            foxtra = _closure1_slot2;
-            tangon = 7;
-            tangon = foxtra[tangon];
-            tangon = verify.bind(option)(tangon);
-            tangon = tangon.bind(option)(golfie);
-            michal = null;
-            if(!tangon) { _fun00002_ip = 469; continue _fun00001 }
- 295:
-            golfie = _closure1_slot9;
+            if(tangon) { _fun00002_ip = 456; continue _fun00001 }
+ 282:
+            golfie = _closure1_slot8;
             tangon = entity.id;
             tangon = golfie.bind(option)(report, tangon);
-            backup = _closure1_slot8;
+            backup = _closure1_slot7;
             foxtra = backup.set;
             verify = entity.id;
             golfie = report.id;
@@ -180,10 +171,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = entity.recipientFlags;
             offset = offset != golfie;
             romeon = 0;
-            if(!offset) { _fun00002_ip = 376; continue _fun00001 }
- 373:
+            if(!offset) { _fun00002_ip = 363; continue _fun00001 }
+ 360:
             romeon = golfie;
- 376:
+ 363:
             golfie = _closure1_slot0;
             offset = _closure1_slot2;
             oscard = offset[oscard];
@@ -193,26 +184,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = true;
             verify = verify.bind(yankee)(romeon, golfie, oscard);
             golfie = _closure1_slot1;
-            oscard = 8;
+            oscard = 6;
             oscard = offset[oscard];
             option = golfie.bind(option)(oscard);
             golfie = option.updatePrivateChannelRecipientFlags;
             oscard = entity.id;
             oscard = golfie.bind(option)(oscard, verify);
             michal = tangon;
-            _fun00002_ip = 469; continue _fun00001;
- 452:
-            tangon = _closure1_slot9;
+            _fun00002_ip = 456; continue _fun00001;
+ 439:
+            tangon = _closure1_slot8;
             zuuluu = entity.id;
             entity = undefined;
             michal = tangon.bind(entity)(report, zuuluu);
- 469:
+ 456:
             entity = null;
             zuuluu = entity != michal;
-            if(!zuuluu) { _fun00002_ip = 481; continue _fun00001 }
- 478:
+            if(!zuuluu) { _fun00002_ip = 468; continue _fun00001 }
+ 465:
             entity = michal;
- 481:
+ 468:
             return entity;
         }
     };

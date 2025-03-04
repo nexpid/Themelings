@@ -2006,10 +2006,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         option = option.bind(verify)(michal, golfie);
                         tangon = golfie;
  352:
-                        if(!(entity == tangon)) { _fun00052_ip = 366; continue _fun00051 }
+                        if(!(entity == tangon)) { _fun00052_ip = 370; continue _fun00051 }
  356:
                         tangon = {'ssrc': 4294967295, 'cname': ''};
- 366:
+ 370:
                         entity = {};
                         golfie = tangon.ssrc;
                         entity['ssrc'] = golfie;

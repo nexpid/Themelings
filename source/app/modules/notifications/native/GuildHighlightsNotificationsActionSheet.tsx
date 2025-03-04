@@ -654,8 +654,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = new Array(4);
             yankee[0] = sizing;
             backup = backup != ctrled;
-            if(!backup) { _fun00008_ip = 1327; continue _fun00007 }
- 1276:
+            if(!backup) { _fun00008_ip = 1331; continue _fun00007 }
+ 1280:
             source = _closure1_slot11;
             result = _closure1_slot1;
             vacuum = _closure1_slot2;
@@ -668,13 +668,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing['style'] = vacuum;
             sizing['children'] = ctrled;
             backup = source.bind(tangon)(result, sizing);
- 1327:
+ 1331:
             yankee[1] = backup;
             backup = _closure1_slot17;
             kiloes = backup.bind(tangon)(kiloes);
             backup = !kiloes;
-            if(kiloes) { _fun00008_ip = 1532; continue _fun00007 }
- 1349:
+            if(kiloes) { _fun00008_ip = 1536; continue _fun00007 }
+ 1353:
             result = _closure1_slot11;
             target = _closure1_slot0;
             config = _closure1_slot2;
@@ -702,12 +702,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = config.MVi7LS;
             config = cntext.bind(papara)(config);
             source['label'] = config;
-            if(sequen) { _fun00008_ip = 1500; continue _fun00007 }
- 1486:
+            if(sequen) { _fun00008_ip = 1504; continue _fun00007 }
+ 1490:
             config = _closure1_slot9;
             config = config.DISABLED;
             sequen = record === config;
- 1500:
+ 1504:
             source['value'] = sequen;
             sequen = function(argFoo) { // Original name: onValueChange
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
@@ -748,7 +748,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = vacuum.bind(tangon)(ctrled, source);
             kiloes['children'] = source;
             backup = result.bind(tangon)(sizing, kiloes);
- 1532:
+ 1536:
             yankee[2] = backup;
             backup = _closure1_slot11;
             sizing = _closure1_slot0;

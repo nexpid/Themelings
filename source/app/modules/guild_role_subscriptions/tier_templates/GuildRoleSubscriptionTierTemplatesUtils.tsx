@@ -831,7 +831,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  41:
             tangon = report.usedTemplate;
  47:
-            if(!(golfie != tangon)) { _fun00034_ip = 654; continue _fun00033 }
+            if(!(golfie != tangon)) { _fun00034_ip = 658; continue _fun00033 }
  54:
             zuuluu = _closure1_slot7;
             michal = zuuluu.getTemplateWithCategory;
@@ -1008,7 +1008,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  642:
             entity = {'templateCategory': null, 'hasChangeFromTemplate': null};
             return entity;
- 654:
+ 658:
             entity = {'templateCategory': null, 'hasChangeFromTemplate': null};
             return entity;
         }

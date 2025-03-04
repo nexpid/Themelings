@@ -257,7 +257,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     zuuluu['shouldRenderAgeVerificationRetryCta'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: useRenderAgeVerificationRetryCta
+    tangon = function(argFoo, argBar) { // Original name: useRenderAgeVerificationRetryCta
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = _closure1_slot8;
@@ -273,6 +273,71 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['useRenderAgeVerificationRetryCta'] = michal;
+    zuuluu['useRenderAgeVerificationRetryCta'] = tangon;
+    tangon = function() { // Original name: isAgeVerified
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+ 0:
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.getCurrentUser;
+            zuuluu = michal.bind(zuuluu)();
+            michal = null;
+            report = michal == zuuluu;
+            tangon = undefined;
+            michal = undefined;
+            if(report) { _fun00016_ip = 35; continue _fun00015 }
+ 29:
+            michal = zuuluu.ageVerificationStatus;
+ 35:
+            zuuluu = _closure1_slot0;
+            report = _closure1_slot1;
+            entity = 3;
+            entity = report[entity];
+            entity = zuuluu.bind(tangon)(entity);
+            entity = entity.AgeVerificationStatusUkAndAusOnly;
+            entity = entity.UNVERIFIED;
+            entity = michal !== entity;
+            return entity;
+        }
+    };
+    zuuluu['isAgeVerified'] = tangon;
+    michal = function() { // Original name: useIsAgeVerified
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+ 0:
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
+            michal = 4;
+            michal = tangon[michal];
+            tangon = undefined;
+            oscard = zuuluu.bind(tangon)(michal);
+            report = oscard.useStateFromStores;
+            michal = _closure1_slot3;
+            zuuluu = new Array(1);
+            zuuluu[0] = michal;
+            michal = function() {
+                michal = _closure1_slot3;
+                entity = michal.getCurrentUser;
+                entity = entity.bind(michal)();
+                return entity;
+            };
+            zuuluu = report.bind(oscard)(zuuluu, michal);
+            michal = null;
+            report = michal == zuuluu;
+            michal = undefined;
+            if(report) { _fun00018_ip = 72; continue _fun00017 }
+ 66:
+            michal = zuuluu.ageVerificationStatus;
+ 72:
+            zuuluu = _closure1_slot0;
+            report = _closure1_slot1;
+            entity = 3;
+            entity = report[entity];
+            entity = zuuluu.bind(tangon)(entity);
+            entity = entity.AgeVerificationStatusUkAndAusOnly;
+            entity = entity.UNVERIFIED;
+            entity = michal !== entity;
+            return entity;
+        }
+    };
+    zuuluu['useIsAgeVerified'] = michal;
     return entity;
 })();

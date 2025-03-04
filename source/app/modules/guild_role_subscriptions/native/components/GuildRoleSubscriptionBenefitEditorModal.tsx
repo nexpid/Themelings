@@ -546,7 +546,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = romeon.benefitType;
             entity = _closure1_slot8;
             entity = entity.CHANNEL;
-            if(!(michal !== entity)) { _fun00002_ip = 985; continue _fun00001 }
+            if(!(michal !== entity)) { _fun00002_ip = 981; continue _fun00001 }
  815:
             zuuluu = _closure1_slot11;
             golfie = _closure1_slot0;
@@ -582,8 +582,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.WITH_CONTENT;
             entity['clearButtonVisibility'] = oscard;
             kiloes = zuuluu.bind(tangon)(michal, entity);
-            _fun00002_ip = 1042; continue _fun00001;
- 985:
+            _fun00002_ip = 1038; continue _fun00001;
+ 981:
             zuuluu = _closure1_slot11;
             michal = _closure1_slot1;
             oscard = _closure1_slot2;
@@ -607,7 +607,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             entity['onChange'] = report;
             kiloes = zuuluu.bind(tangon)(michal, entity);
- 1042:
+ 1038:
             zuuluu = _closure1_slot12;
             michal = _closure1_slot5;
             entity = {};
@@ -736,14 +736,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = romeon.onDelete;
             romeon = offset == romeon;
             offset = null;
-            if(romeon) { _fun00002_ip = 1604; continue _fun00001 }
- 1583:
+            if(romeon) { _fun00002_ip = 1600; continue _fun00001 }
+ 1579:
             foxtra = _closure1_slot11;
             romeon = _closure1_slot14;
             yankee = {};
             yankee['onDelete'] = backup;
             offset = foxtra.bind(tangon)(romeon, yankee);
- 1604:
+ 1600:
             verify[6] = offset;
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);

@@ -290,10 +290,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             report = !offset;
             entity['snapToCorners'] = report;
             report = undefined;
-            if(!offset) { _fun00002_ip = 557; continue _fun00001 }
- 553:
-            report = _closure1_slot8;
+            if(!offset) { _fun00002_ip = 561; continue _fun00001 }
  557:
+            report = _closure1_slot8;
+ 561:
             entity['onPress'] = report;
             entity = michal.bind(zuuluu)(entity);
             romeon = entity.gesture;
@@ -380,10 +380,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             foxtra = sizing.isIOS;
             sizing = foxtra.bind(sizing)();
             foxtra = undefined;
-            if(!sizing) { _fun00002_ip = 784; continue _fun00001 }
- 778:
+            if(!sizing) { _fun00002_ip = 788; continue _fun00001 }
+ 782:
             foxtra = kiloes.elevationShadow;
- 784:
+ 788:
             romeon[1] = foxtra;
             verify['style'] = romeon;
             foxtra = _closure1_slot10;

@@ -111,10 +111,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = foxtra.isAndroid;
             foxtra = yankee.bind(foxtra)();
             yankee = 0;
-            if(!foxtra) { _fun00002_ip = 234; continue _fun00001 }
- 231:
+            if(!foxtra) { _fun00002_ip = 238; continue _fun00001 }
+ 235:
             yankee = 16;
- 234:
+ 238:
             yankee = romeon + yankee;
             offset['paddingBottom'] = yankee;
             golfie['contentContainerStyle'] = offset;

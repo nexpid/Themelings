@@ -373,11 +373,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = oscard.Text;
                 oscard = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
                 yankee = null;
-                if(!(yankee == verify)) { _fun00006_ip = 286; continue _fun00005 }
- 277:
+                if(!(yankee == verify)) { _fun00006_ip = 290; continue _fun00005 }
+ 281:
                 offset = _closure2_slot1;
                 verify = offset.username;
- 286:
+ 290:
                 oscard['children'] = verify;
                 oscard = option.bind(tangon)(golfie, oscard);
                 report[1] = oscard;

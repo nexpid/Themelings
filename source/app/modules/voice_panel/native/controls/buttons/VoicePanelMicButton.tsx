@@ -42,11 +42,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = _closure2_slot0;
                 golfie = zuuluu.bind(tangon)(michal);
                 report = null;
-                if(!(report == golfie)) { _fun00002_ip = 42; continue _fun00001 }
+                if(!(report == golfie)) { _fun00002_ip = 46; continue _fun00001 }
  30:
                 tangon = {'selfMute': false, 'suppress': false, 'mute': false};
-                _fun00002_ip = 126; continue _fun00001;
- 42:
+                _fun00002_ip = 130; continue _fun00001;
+ 46:
                 oscard = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 12;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = _closure1_slot6;
                 michal['impersonateStore'] = golfie;
                 tangon = zuuluu.bind(oscard)(michal);
- 126:
+ 130:
                 oscard = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 13;
@@ -374,11 +374,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = _closure3_slot0;
                         option = zuuluu.bind(tangon)(michal);
                         michal = null;
-                        if(!(michal == option)) { _fun00012_ip = 42; continue _fun00011 }
+                        if(!(michal == option)) { _fun00012_ip = 46; continue _fun00011 }
  30:
                         zuuluu = {'selfDeaf': false, 'deaf': false};
-                        _fun00012_ip = 92; continue _fun00011;
- 42:
+                        _fun00012_ip = 96; continue _fun00011;
+ 46:
                         report = _closure1_slot0;
                         tangon = _closure1_slot2;
                         michal = 14;
@@ -392,7 +392,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         foxtra = golfie;
                         romeon = option;
                         zuuluu = foxtra[oscard](romeon, yankee, offset, verify, option);
- 92:
+ 96:
                         tangon = _closure1_slot0;
                         michal = _closure1_slot2;
                         entity = 13;
@@ -746,13 +746,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.Q8gkVF;
             kiloes = sizing.bind(output)(kiloes);
             verify['accessibilityLabel'] = kiloes;
-            if(result) { _fun00010_ip = 659; continue _fun00009 }
- 651:
+            if(result) { _fun00010_ip = 663; continue _fun00009 }
+ 655:
             kiloes = yankee.iconBg;
-            _fun00010_ip = 665; continue _fun00009;
- 659:
+            _fun00010_ip = 669; continue _fun00009;
+ 663:
             kiloes = yankee.iconBgSelected;
- 665:
+ 669:
             verify['style'] = kiloes;
             output = _closure1_slot12;
             sizing = _closure1_slot0;
@@ -762,15 +762,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = sizing.bind(tangon)(kiloes);
             sizing = kiloes.MicrophoneIcon;
             kiloes = {};
-            if(result) { _fun00010_ip = 717; continue _fun00009 }
- 704:
+            if(result) { _fun00010_ip = 721; continue _fun00009 }
+ 708:
             result = yankee.iconFill;
             result = result.color;
-            _fun00010_ip = 728; continue _fun00009;
- 717:
+            _fun00010_ip = 732; continue _fun00009;
+ 721:
             echoed = yankee.iconFillSelected;
             result = echoed.color;
- 728:
+ 732:
             kiloes['color'] = result;
             result = 'lg';
             kiloes['size'] = result;

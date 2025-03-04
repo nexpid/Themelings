@@ -634,7 +634,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[1] = result;
             report[2] = offset;
             entity['style'] = report;
-            if(!(golfie == verify)) { _fun00002_ip = 905; continue _fun00001 }
+            if(!(golfie == verify)) { _fun00002_ip = 909; continue _fun00001 }
  847:
             result = _closure1_slot7;
             offset = _closure1_slot0;
@@ -647,7 +647,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = romeon.iconLeft;
             report['style'] = echoed;
             verify = result.bind(tangon)(offset, report);
- 905:
+ 909:
             report = new Array(3);
             report[0] = verify;
             offset = _closure1_slot7;
@@ -664,17 +664,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['bounces'] = status;
             verify['onScroll'] = kiloes;
             sizing = undefined;
-            if(!variable37) { _fun00002_ip = 971; continue _fun00001 }
- 968:
+            if(!variable37) { _fun00002_ip = 975; continue _fun00001 }
+ 972:
             sizing = output;
- 971:
+ 975:
             verify['onLayout'] = sizing;
             sizing = golfie != kiloes;
             kiloes = undefined;
-            if(!sizing) { _fun00002_ip = 988; continue _fun00001 }
- 985:
+            if(!sizing) { _fun00002_ip = 992; continue _fun00001 }
+ 989:
             kiloes = 16;
- 988:
+ 992:
             verify['scrollEventThrottle'] = kiloes;
             verify['horizontal'] = variable37;
             verify['snapToInterval'] = backup;
@@ -777,37 +777,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['accessibilityRole'] = variable38;
             variable40 = variable36.current;
             variable38 = '';
-            if(!(variable38 !== variable40)) { _fun00002_ip = 1102; continue _fun00001 }
- 1097:
+            if(!(variable38 !== variable40)) { _fun00002_ip = 1106; continue _fun00001 }
+ 1101:
             equals = variable36.current;
- 1102:
+ 1106:
             result['defaultValue'] = equals;
             variable36 = romeon.searchInput;
             equals = new Array(4);
             equals[0] = variable36;
             variable36 = variable37;
-            if(!variable36) { _fun00002_ip = 1133; continue _fun00001 }
- 1127:
+            if(!variable36) { _fun00002_ip = 1137; continue _fun00001 }
+ 1131:
             variable36 = romeon.horizontalSearchInput;
- 1133:
+ 1137:
             equals[1] = variable36;
             variable36 = undefined;
-            if(!variable37) { _fun00002_ip = 1164; continue _fun00001 }
- 1142:
+            if(!variable37) { _fun00002_ip = 1168; continue _fun00001 }
+ 1146:
             variable36 = undefined;
-            if(target) { _fun00002_ip = 1164; continue _fun00001 }
- 1147:
+            if(target) { _fun00002_ip = 1168; continue _fun00001 }
+ 1151:
             variable37 = {};
             variable38 = 16;
             variable38 = variable39 - variable38;
             variable37['maxWidth'] = variable38;
             variable36 = variable37;
- 1164:
+ 1168:
             equals[2] = variable36;
-            if(!quebec) { _fun00002_ip = 1177; continue _fun00001 }
- 1171:
+            if(!quebec) { _fun00002_ip = 1181; continue _fun00001 }
+ 1175:
             quebec = romeon.searchInputDisabled;
- 1177:
+ 1181:
             equals[3] = quebec;
             result['style'] = equals;
             result['onChangeText'] = whisks;
@@ -974,13 +974,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['aria-label'] = config;
             status = papara.length;
             papara = undefined;
-            if(!(sierra === status)) { _fun00002_ip = 1253; continue _fun00001 }
- 1245:
+            if(!(sierra === status)) { _fun00002_ip = 1257; continue _fun00001 }
+ 1249:
             papara = undefined;
-            if(target) { _fun00002_ip = 1253; continue _fun00001 }
- 1250:
+            if(target) { _fun00002_ip = 1257; continue _fun00001 }
+ 1254:
             papara = config;
- 1253:
+ 1257:
             result['placeholder'] = papara;
             papara = romeon.placeholder;
             papara = papara.color;
@@ -1007,12 +1007,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['children'] = backup;
             verify = offset.bind(tangon)(foxtra, verify);
             report[1] = verify;
-            if(!(golfie == oscard)) { _fun00002_ip = 1393; continue _fun00001 }
- 1351:
+            if(!(golfie == oscard)) { _fun00002_ip = 1397; continue _fun00001 }
+ 1355:
             verify = golfie != yankee;
             golfie = null;
-            if(!verify) { _fun00002_ip = 1390; continue _fun00001 }
- 1360:
+            if(!verify) { _fun00002_ip = 1394; continue _fun00001 }
+ 1364:
             offset = _closure1_slot7;
             verify = _closure1_slot5;
             option = {};
@@ -1020,9 +1020,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['style'] = romeon;
             option['children'] = yankee;
             golfie = offset.bind(tangon)(verify, option);
- 1390:
+ 1394:
             oscard = golfie;
- 1393:
+ 1397:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

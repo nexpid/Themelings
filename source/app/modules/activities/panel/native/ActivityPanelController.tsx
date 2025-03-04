@@ -263,7 +263,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = oscard > report;
             entity = _closure1_slot11;
             entity = entity.LANDSCAPE;
-            if(!(entity !== golfie)) { _fun00006_ip = 250; continue _fun00005 }
+            if(!(entity !== golfie)) { _fun00006_ip = 254; continue _fun00005 }
  43:
             entity = _closure1_slot11;
             entity = entity.PORTRAIT;
@@ -295,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.bind(golfie)();
             if(!entity) { _fun00006_ip = 144; continue _fun00005 }
  141:
-            if(michal) { _fun00006_ip = 208; continue _fun00005 }
+            if(michal) { _fun00006_ip = 212; continue _fun00005 }
  144:
             entity = {'width': null, 'height': null, 'isLandscape': false, 'isLetterboxed': false, 'isWindowLandscape': false};
             golfie = global;
@@ -308,8 +308,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = golfie.bind(option)(report, oscard);
             golfie = golfie - tangon;
             entity['height'] = golfie;
-            _fun00006_ip = 248; continue _fun00005;
- 208:
+            _fun00006_ip = 252; continue _fun00005;
+ 212:
             golfie = {};
             option = _closure1_slot12;
             option = report * option;
@@ -321,9 +321,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['isLetterboxed'] = option;
             golfie['isWindowLandscape'] = michal;
             entity = golfie;
- 248:
+ 252:
             return entity;
- 250:
+ 254:
             option = _closure1_slot0;
             golfie = _closure1_slot2;
             entity = 12;
@@ -332,10 +332,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.bind(entity)(golfie);
             entity = golfie.isIpadOS;
             entity = entity.bind(golfie)();
-            if(!entity) { _fun00006_ip = 329; continue _fun00005 }
- 285:
-            if(michal) { _fun00006_ip = 329; continue _fun00005 }
- 288:
+            if(!entity) { _fun00006_ip = 333; continue _fun00005 }
+ 289:
+            if(michal) { _fun00006_ip = 333; continue _fun00005 }
+ 292:
             entity = {};
             entity['width'] = oscard;
             zuuluu = _closure1_slot13;
@@ -346,8 +346,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['isLandscape'] = zuuluu;
             entity['isLetterboxed'] = zuuluu;
             entity['isWindowLandscape'] = michal;
-            _fun00006_ip = 394; continue _fun00005;
- 329:
+            _fun00006_ip = 398; continue _fun00005;
+ 333:
             michal = {'width': null, 'height': null, 'isLetterboxed': false, 'isLandscape': true, 'isWindowLandscape': true};
             zuuluu = global;
             golfie = zuuluu.Math;
@@ -359,7 +359,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(tangon)(report, oscard);
             michal['height'] = zuuluu;
             entity = michal;
- 394:
+ 398:
             return entity;
         }
     };

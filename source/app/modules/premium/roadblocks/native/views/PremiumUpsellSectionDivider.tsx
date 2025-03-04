@@ -90,18 +90,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = _closure1_slot8;
             option = golfie.START;
             golfie = undefined;
-            if(!(oscard === option)) { _fun00002_ip = 220; continue _fun00001 }
- 218:
+            if(!(oscard === option)) { _fun00002_ip = 224; continue _fun00001 }
+ 222:
             golfie = 0;
- 220:
+ 224:
             michal['bottom'] = golfie;
             report = _closure1_slot8;
             report = report.END;
             zuuluu = undefined;
-            if(!(oscard === report)) { _fun00002_ip = 242; continue _fun00001 }
- 240:
+            if(!(oscard === report)) { _fun00002_ip = 246; continue _fun00001 }
+ 244:
             zuuluu = 0;
- 242:
+ 246:
             michal['top'] = zuuluu;
             entity['gradient'] = michal;
             return entity;

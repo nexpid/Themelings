@@ -94,7 +94,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     michal['showAgeVerification'] = golfie;
-    tangon = function() { // Original name: showAgeVerificationGetStartedModal
+    tangon = function(argFoo) { // Original name: showAgeVerificationGetStartedModal
+        entity = argFoo;
+        var _closure2_slot0 = entity;
         tangon = _closure1_slot1;
         zuuluu = _closure1_slot2;
         entity = 3;
@@ -134,9 +136,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = function() {
                         tangon = _closure1_slot4;
                         zuuluu = _closure4_slot0;
-                        michal = undefined;
-                        entity = {};
-                        entity = tangon.bind(michal)(zuuluu, entity);
+                        michal = {};
+                        entity = _closure2_slot0;
+                        michal['entryPoint'] = entity;
+                        entity = undefined;
+                        entity = tangon.bind(entity)(zuuluu, michal);
                         return entity;
                     };
                     return zuuluu;

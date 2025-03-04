@@ -51,11 +51,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = null;
                     golfie = report == golfie;
                     report = undefined;
-                    if(golfie) { _fun00004_ip = 105; continue _fun00003 }
- 96:
+                    if(golfie) { _fun00004_ip = 109; continue _fun00003 }
+ 100:
                     oscard = _closure2_slot0;
                     report = oscard.guild_id;
- 105:
+ 109:
                     michal['guildId'] = report;
                     michal = zuuluu.bind(tangon)(michal);
                     return entity;
@@ -697,10 +697,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.bind(golfie)(tangon);
             tangon = oscard.isAndroid;
             tangon = tangon.bind(oscard)();
-            if(!tangon) { _fun00014_ip = 292; continue _fun00013 }
- 289:
+            if(!tangon) { _fun00014_ip = 296; continue _fun00013 }
+ 293:
             zuuluu = 16;
- 292:
+ 296:
             michal['lineHeight'] = zuuluu;
             entity['emojiText'] = michal;
             michal = {};

@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report['style'] = option;
                 report['children'] = yankee;
                 report = golfie.bind(tangon)(oscard, report);
-                _fun00004_ip = 376; continue _fun00003;
+                _fun00004_ip = 380; continue _fun00003;
  251:
                 option = _closure1_slot12;
                 golfie = _closure1_slot11;
@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify[1] = offset;
                 oscard['children'] = verify;
                 report = option.bind(tangon)(golfie, oscard);
- 376:
+ 380:
                 entity['children'] = report;
                 entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;

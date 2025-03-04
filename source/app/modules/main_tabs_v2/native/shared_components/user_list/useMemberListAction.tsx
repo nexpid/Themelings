@@ -286,22 +286,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     entity = _closure2_slot7;
                     golfie = null;
-                    if(!(golfie != entity)) { _fun00008_ip = 859; continue _fun00007 }
+                    if(!(golfie != entity)) { _fun00008_ip = 863; continue _fun00007 }
  18:
                     entity = _closure2_slot4;
-                    if(!entity) { _fun00008_ip = 859; continue _fun00007 }
+                    if(!entity) { _fun00008_ip = 863; continue _fun00007 }
  28:
                     entity = _closure2_slot5;
-                    if(entity) { _fun00008_ip = 421; continue _fun00007 }
+                    if(entity) { _fun00008_ip = 425; continue _fun00007 }
  38:
                     entity = _closure2_slot6;
                     tangon = {};
-                    if(entity) { _fun00008_ip = 296; continue _fun00007 }
+                    if(entity) { _fun00008_ip = 300; continue _fun00007 }
  53:
                     entity = _closure2_slot3;
                     option = _closure1_slot1;
                     romeon = _closure1_slot2;
-                    if(entity) { _fun00008_ip = 182; continue _fun00007 }
+                    if(entity) { _fun00008_ip = 184; continue _fun00007 }
  68:
                     entity = 17;
                     entity = romeon[entity];
@@ -356,8 +356,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     tangon['handlePress'] = entity;
                     entity = tangon;
-                    _fun00008_ip = 294; continue _fun00007;
- 182:
+                    _fun00008_ip = 298; continue _fun00007;
+ 184:
                     oscard = 22;
                     oscard = romeon[oscard];
                     yankee = undefined;
@@ -407,9 +407,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     tangon['handlePress'] = oscard;
                     entity = tangon;
- 294:
-                    _fun00008_ip = 416; continue _fun00007;
- 296:
+ 298:
+                    _fun00008_ip = 420; continue _fun00007;
+ 300:
                     option = _closure1_slot1;
                     yankee = _closure1_slot2;
                     oscard = 17;
@@ -479,9 +479,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     tangon['handlePress'] = report;
                     entity = tangon;
- 416:
-                    _fun00008_ip = 627; continue _fun00007;
- 421:
+ 420:
+                    _fun00008_ip = 631; continue _fun00007;
+ 425:
                     tangon = {};
                     verify = _closure1_slot1;
                     report = _closure1_slot2;
@@ -510,8 +510,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = _closure2_slot2;
                     golfie = golfie != report;
                     report = undefined;
-                    if(!golfie) { _fun00008_ip = 610; continue _fun00007 }
- 544:
+                    if(!golfie) { _fun00008_ip = 614; continue _fun00007 }
+ 548:
                     golfie = _closure1_slot0;
                     oscard = _closure1_slot2;
                     option = oscard[yankee];
@@ -526,12 +526,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = _closure2_slot2;
                     oscard['recipient'] = offset;
                     report = option.bind(verify)(golfie, oscard);
- 610:
+ 614:
                     tangon['sublabel'] = report;
                     report = _closure2_slot9;
                     tangon['handlePress'] = report;
                     entity = tangon;
- 627:
+ 631:
                     offset = entity.label;
                     kiloes = entity.iconSource;
                     backup = entity.IconComponent;
@@ -587,7 +587,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = zuuluu + michal;
                     entity['listActionHeight'] = michal;
                     return entity;
- 859:
+ 863:
                     entity = _closure1_slot12;
                     return entity;
                 }

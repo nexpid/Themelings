@@ -1418,12 +1418,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = _closure1_slot19;
                 zuuluu = oscard.getActiveErrors;
                 verify = zuuluu.bind(oscard)();
+                zuuluu = offset.Map;
+                zuuluu = verify instanceof zuuluu;
+                if(zuuluu) { _fun00050_ip = 783; continue _fun00049 }
+ 708:
+                golfie = _closure1_slot23;
+                oscard = golfie.error;
+                zuuluu = offset.Object;
+                zuuluu = zuuluu.prototype;
+                option = zuuluu.toString;
+                zuuluu = option.call;
+                foxtra = zuuluu.bind(option)(verify);
+                zuuluu = offset.HermesInternal;
+                romeon = zuuluu.concat;
+                option = 'existingErrors is not a Map: ';
+                zuuluu = ' type: ';
+                zuuluu = romeon.bind(option)(verify, zuuluu, foxtra);
+                zuuluu = oscard.bind(golfie)(zuuluu);
+                _fun00050_ip = 1194; continue _fun00049;
+ 783:
                 zuuluu = report.size;
-                if(!(tangon === zuuluu)) { _fun00050_ip = 716; continue _fun00049 }
- 704:
+                if(!(tangon === zuuluu)) { _fun00050_ip = 804; continue _fun00049 }
+ 792:
                 zuuluu = verify.size;
-                if(!(tangon !== zuuluu)) { _fun00050_ip = 1106; continue _fun00049 }
- 716:
+                if(!(tangon !== zuuluu)) { _fun00050_ip = 1194; continue _fun00049 }
+ 804:
                 oscard = offset.Set;
                 zuuluu = report.keys;
                 papara = zuuluu.bind(report)();
@@ -1442,8 +1461,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = zuuluu instanceof Object ? zuuluu : tangon;
                 tangon = golfie.size;
                 zuuluu = oscard.size;
-                if(!(tangon > zuuluu)) { _fun00050_ip = 907; continue _fun00049 }
- 800:
+                if(!(tangon > zuuluu)) { _fun00050_ip = 995; continue _fun00049 }
+ 888:
                 tangon = _closure1_slot27;
                 zuuluu = _closure1_slot29;
                 zuuluu = zuuluu.bind(entity)(golfie, oscard);
@@ -1451,13 +1470,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = romeon.bind(entity)();
                 zuuluu = tangon.done;
                 option = 20;
-                if(zuuluu) { _fun00050_ip = 907; continue _fun00049 }
- 834:
+                if(zuuluu) { _fun00050_ip = 995; continue _fun00049 }
+ 922:
                 foxtra = tangon.value;
                 zuuluu = report.get;
                 zuuluu = zuuluu.bind(report)(foxtra);
-                if(!(yankee != zuuluu)) { _fun00050_ip = 892; continue _fun00049 }
- 853:
+                if(!(yankee != zuuluu)) { _fun00050_ip = 980; continue _fun00049 }
+ 941:
                 backup = _closure1_slot0;
                 foxtra = _closure1_slot2;
                 foxtra = foxtra[option];
@@ -1466,16 +1485,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 foxtra = zuuluu.error;
                 zuuluu = zuuluu.context;
                 zuuluu = backup.bind(kiloes)(foxtra, zuuluu);
- 892:
+ 980:
                 foxtra = romeon.bind(entity)();
                 zuuluu = foxtra.done;
                 tangon = foxtra;
-                if(!zuuluu) { _fun00050_ip = 834; continue _fun00049 }
- 907:
+                if(!zuuluu) { _fun00050_ip = 922; continue _fun00049 }
+ 995:
                 tangon = oscard.size;
                 zuuluu = golfie.size;
-                if(!(tangon > zuuluu)) { _fun00050_ip = 1059; continue _fun00049 }
- 924:
+                if(!(tangon > zuuluu)) { _fun00050_ip = 1147; continue _fun00049 }
+ 1012:
                 tangon = _closure1_slot27;
                 zuuluu = _closure1_slot29;
                 zuuluu = zuuluu.bind(entity)(oscard, golfie);
@@ -1484,13 +1503,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = tangon.done;
                 golfie = 'Error resolved: ';
                 oscard = ' ';
-                if(zuuluu) { _fun00050_ip = 1059; continue _fun00049 }
- 965:
+                if(zuuluu) { _fun00050_ip = 1147; continue _fun00049 }
+ 1053:
                 romeon = tangon.value;
                 zuuluu = verify.get;
                 zuuluu = zuuluu.bind(verify)(romeon);
-                if(!(yankee != zuuluu)) { _fun00050_ip = 1044; continue _fun00049 }
- 984:
+                if(!(yankee != zuuluu)) { _fun00050_ip = 1132; continue _fun00049 }
+ 1072:
                 foxtra = _closure1_slot23;
                 romeon = foxtra.info;
                 kiloes = zuuluu.error;
@@ -1502,12 +1521,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = zuuluu.concat;
                 zuuluu = zuuluu.bind(golfie)(kiloes, oscard, backup);
                 zuuluu = romeon.bind(foxtra)(zuuluu);
- 1044:
+ 1132:
                 romeon = option.bind(entity)();
                 zuuluu = romeon.done;
                 tangon = romeon;
-                if(!zuuluu) { _fun00050_ip = 965; continue _fun00049 }
- 1059:
+                if(!zuuluu) { _fun00050_ip = 1053; continue _fun00049 }
+ 1147:
                 zuuluu = _closure1_slot1;
                 tangon = _closure1_slot2;
                 michal = 25;
@@ -1519,7 +1538,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal['type'] = oscard;
                 michal['activeErrors'] = report;
                 michal = zuuluu.bind(tangon)(michal);
- 1106:
+ 1194:
                 return entity;
             }
         };

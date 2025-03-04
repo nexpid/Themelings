@@ -1,11 +1,11 @@
 // app/modules/voice_messages/native/components/VoiceMessageOverlay.tsx
 export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu) {
     oscard = argBar;
-    verify = argBaz;
+    offset = argBaz;
     zuuluu = argFre;
     golfie = argPlu;
     var _closure1_slot0 = oscard;
-    var _closure1_slot1 = verify;
+    var _closure1_slot1 = offset;
     var _closure1_slot2 = golfie;
     entity = function(argFoo) { // Original name: LockPill
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -114,13 +114,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     var _closure3_slot0 = romeon;
                     golfie = _closure1_slot1;
                     zuuluu = _closure1_slot2;
-                    entity = 25;
+                    entity = 24;
                     entity = zuuluu[entity];
                     offset = undefined;
                     entity = golfie.bind(offset)(entity);
                     option = entity.bind(offset)();
                     tangon = _closure1_slot0;
-                    entity = 26;
+                    entity = 25;
                     oscard = zuuluu[entity];
                     yankee = tangon.bind(offset)(oscard);
                     verify = yankee.useThemedColorValue;
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     oscard = oscard.unsafe_rawColors;
                     golfie = oscard.WHITE_500;
                     oscard = _closure1_slot34;
-                    verify = 27;
+                    verify = 26;
                     zuuluu = zuuluu[verify];
                     tangon = tangon.bind(offset)(zuuluu);
                     zuuluu = tangon.isThemeLight;
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         tangon = michal[entity];
                         golfie = _closure1_slot0;
                         option = _closure1_slot2;
-                        entity = 24;
+                        entity = 23;
                         entity = option[entity];
                         oscard = undefined;
                         zuuluu = golfie.bind(oscard)(entity);
@@ -228,7 +228,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     };
                     oscard = {};
                     oscard['voiceMessageAnimationState'] = romeon;
-                    golfie = 24;
+                    golfie = 23;
                     golfie = yankee[golfie];
                     golfie = verify.bind(offset)(golfie);
                     golfie = golfie.withTiming;
@@ -524,11 +524,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             backup = _closure1_slot2;
             if(michal) { _fun00002_ip = 313; continue _fun00001 }
  304:
-            michal = 29;
+            michal = 28;
             michal = backup[michal];
             _fun00002_ip = 320; continue _fun00001;
  313:
-            oscard = 28;
+            oscard = 27;
             michal = backup[oscard];
  320:
             sizing = zuuluu.bind(tangon)(michal);
@@ -610,7 +610,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             romeon[0] = sizing;
             romeon[1] = kiloes;
             verify['style'] = romeon;
-            romeon = 30;
+            romeon = 29;
             romeon = backup[romeon];
             romeon = foxtra.bind(tangon)(romeon);
             verify['source'] = romeon;
@@ -635,32 +635,32 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     entity = 0;
     michal = golfie[entity];
     entity = undefined;
-    michal = verify.bind(entity)(michal);
+    michal = offset.bind(entity)(michal);
     var _closure1_slot3 = michal;
     michal = 1;
     report = golfie[michal];
     michal = argCor;
-    option = michal.bind(entity)(report);
-    var _closure1_slot4 = option;
+    verify = michal.bind(entity)(report);
+    var _closure1_slot4 = verify;
     michal = 2;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
     report = michal.View;
     var _closure1_slot5 = report;
-    foxtra = michal.StyleSheet;
+    report = michal.StyleSheet;
     michal = michal.AppState;
     var _closure1_slot6 = michal;
     michal = 3;
     michal = golfie[michal];
-    michal = verify.bind(entity)(michal);
+    michal = offset.bind(entity)(michal);
     var _closure1_slot7 = michal;
     michal = 4;
     michal = golfie[michal];
-    michal = verify.bind(entity)(michal);
+    michal = offset.bind(entity)(michal);
     var _closure1_slot8 = michal;
     michal = 5;
     michal = golfie[michal];
-    michal = verify.bind(entity)(michal);
+    michal = offset.bind(entity)(michal);
     var _closure1_slot9 = michal;
     michal = 6;
     michal = golfie[michal];
@@ -670,63 +670,63 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     michal = 7;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
-    report = michal.VoiceMessageAnimationState;
-    var _closure1_slot11 = report;
+    option = michal.VoiceMessageAnimationState;
+    var _closure1_slot11 = option;
     michal = 8;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
-    offset = michal.ComponentActionsKeyed;
-    var _closure1_slot12 = offset;
+    yankee = michal.ComponentActionsKeyed;
+    var _closure1_slot12 = yankee;
     michal = michal.ThemeColor;
     var _closure1_slot13 = michal;
     michal = 9;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
-    backup = michal.CHAT_INPUT_HORIZONTAL_PADDING;
+    kiloes = michal.CHAT_INPUT_HORIZONTAL_PADDING;
     michal = 10;
-    offset = golfie[michal];
-    offset = oscard.bind(entity)(offset);
-    offset = offset.jsx;
-    var _closure1_slot14 = offset;
-    offset = golfie[michal];
-    offset = oscard.bind(entity)(offset);
-    offset = offset.jsxs;
-    var _closure1_slot15 = offset;
+    yankee = golfie[michal];
+    yankee = oscard.bind(entity)(yankee);
+    yankee = yankee.jsx;
+    var _closure1_slot14 = yankee;
+    yankee = golfie[michal];
+    yankee = oscard.bind(entity)(yankee);
+    yankee = yankee.jsxs;
+    var _closure1_slot15 = yankee;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
     michal = michal.Fragment;
     var _closure1_slot16 = michal;
     michal = 11;
-    offset = golfie[michal];
-    romeon = verify.bind(entity)(offset);
-    yankee = romeon.createAnimatedComponent;
-    offset = 12;
-    offset = golfie[offset];
-    offset = verify.bind(entity)(offset);
-    offset = yankee.bind(romeon)(offset);
-    var _closure1_slot17 = offset;
-    offset = golfie[michal];
-    romeon = verify.bind(entity)(offset);
-    yankee = romeon.createAnimatedComponent;
-    offset = 13;
-    offset = golfie[offset];
-    offset = oscard.bind(entity)(offset);
-    offset = offset.PressableOpacity;
-    offset = yankee.bind(romeon)(offset);
-    var _closure1_slot18 = offset;
+    yankee = golfie[michal];
+    foxtra = offset.bind(entity)(yankee);
+    romeon = foxtra.createAnimatedComponent;
+    yankee = 12;
+    yankee = golfie[yankee];
+    yankee = offset.bind(entity)(yankee);
+    yankee = romeon.bind(foxtra)(yankee);
+    var _closure1_slot17 = yankee;
+    yankee = golfie[michal];
+    foxtra = offset.bind(entity)(yankee);
+    romeon = foxtra.createAnimatedComponent;
+    yankee = 13;
+    yankee = golfie[yankee];
+    yankee = oscard.bind(entity)(yankee);
+    yankee = yankee.PressableOpacity;
+    yankee = romeon.bind(foxtra)(yankee);
+    var _closure1_slot18 = yankee;
     michal = golfie[michal];
-    yankee = verify.bind(entity)(michal);
-    offset = yankee.createAnimatedComponent;
+    romeon = offset.bind(entity)(michal);
+    yankee = romeon.createAnimatedComponent;
     michal = 14;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
     michal = michal.Text;
-    michal = offset.bind(yankee)(michal);
+    michal = yankee.bind(romeon)(michal);
     var _closure1_slot19 = michal;
     michal = 15;
     michal = golfie[michal];
-    yankee = verify.bind(entity)(michal);
-    offset = yankee.memoize;
+    romeon = offset.bind(entity)(michal);
+    yankee = romeon.memoize;
     michal = function() {
         zuuluu = _closure1_slot1;
         oscard = _closure1_slot2;
@@ -743,112 +743,113 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    michal = offset.bind(yankee)(michal);
+    michal = yankee.bind(romeon)(michal);
     var _closure1_slot20 = michal;
     michal = 17;
     michal = golfie[michal];
-    romeon = oscard.bind(entity)(michal);
-    yankee = romeon.createStyles;
-    offset = {};
+    foxtra = oscard.bind(entity)(michal);
+    romeon = foxtra.createStyles;
+    yankee = {};
     michal = {};
-    kiloes = 'center';
-    michal['alignItems'] = kiloes;
-    output = foxtra.absoluteFillObject;
-    result = michal;
-    foxtra = copyDataProperties(result, output);
-    kiloes = 'hidden';
-    foxtra = 'overflow';
-    michal[foxtra] = kiloes;
-    offset['container'] = michal;
+    backup = 'center';
+    michal['alignItems'] = backup;
+    result = report.absoluteFillObject;
+    echoed = michal;
+    report = copyDataProperties(echoed, result);
+    backup = 'hidden';
+    report = 'overflow';
+    michal[report] = backup;
+    yankee['container'] = michal;
     michal = {'flexDirection': 'row', 'alignItems': 'flex-end', 'paddingTop': 8, 'paddingHorizontal': null, 'paddingBottom': 9};
-    michal['paddingHorizontal'] = backup;
-    offset['innerContainer'] = michal;
+    michal['paddingHorizontal'] = kiloes;
+    yankee['innerContainer'] = michal;
     michal = {'position': 'absolute', 'bottom': 0, 'width': '100%', 'alignItems': 'center', 'overflow': 'hidden'};
-    offset['contentContainer'] = michal;
-    foxtra = {'width': 40, 'height': 40, 'borderRadius': null, 'alignItems': 'center', 'justifyContent': 'center'};
+    yankee['contentContainer'] = michal;
+    backup = {'width': 40, 'height': 40, 'borderRadius': null, 'alignItems': 'center', 'justifyContent': 'center'};
+    report = 40;
     michal = 18;
+    sizing = golfie[michal];
+    sizing = offset.bind(entity)(sizing);
+    sizing = sizing.radii;
+    sizing = sizing.round;
+    backup['borderRadius'] = sizing;
+    yankee['trashContainer'] = backup;
+    backup = {'width': 40, 'height': 40, 'borderRadius': null, 'alignItems': 'center', 'justifyContent': 'center'};
+    sizing = golfie[michal];
+    sizing = offset.bind(entity)(sizing);
+    sizing = sizing.radii;
+    sizing = sizing.round;
+    backup['borderRadius'] = sizing;
+    yankee['sendContainer'] = backup;
+    backup = {'flex': 1, 'height': 40, 'marginRight': 8, 'alignItems': 'flex-end'};
+    yankee['voiceChatContainer'] = backup;
+    backup = {'height': 68, 'width': 40, 'borderRadius': null, 'display': 'flex', 'alignItems': 'center', 'flexDirection': 'column', 'elevation': 12, 'shadowColor': null, 'shadowOffset': null, 'shadowOpacity': 0.12, 'shadowRadius': 36};
+    sizing = golfie[michal];
+    sizing = offset.bind(entity)(sizing);
+    sizing = sizing.radii;
+    sizing = sizing.round;
+    backup['borderRadius'] = sizing;
+    sizing = golfie[michal];
+    sizing = offset.bind(entity)(sizing);
+    sizing = sizing.colors;
+    sizing = sizing.BLACK;
+    backup['shadowColor'] = sizing;
+    sizing = {'width': 0, 'height': 12};
+    backup['shadowOffset'] = sizing;
+    sizing = 19;
+    sizing = golfie[sizing];
+    sizing = oscard.bind(entity)(sizing);
+    sizing = sizing.DARK_0_LIGHT_1;
+    backup['borderWidth'] = sizing;
+    sizing = 'solid';
+    backup['borderStyle'] = sizing;
+    sizing = 'rgba(0, 0, 0, 0.08)';
+    backup['borderColor'] = sizing;
+    yankee['lockContainer'] = backup;
+    backup = {'position': 'absolute', 'right': null, 'width': 40};
+    backup['right'] = kiloes;
+    yankee['lockParentContainer'] = backup;
+    backup = {'height': 16, 'width': 16, 'marginTop': 8};
     kiloes = golfie[michal];
-    kiloes = verify.bind(entity)(kiloes);
-    kiloes = kiloes.radii;
-    kiloes = kiloes.round;
-    foxtra['borderRadius'] = kiloes;
-    offset['trashContainer'] = foxtra;
-    foxtra = {'width': 40, 'height': 40, 'borderRadius': null, 'alignItems': 'center', 'justifyContent': 'center'};
-    kiloes = golfie[michal];
-    kiloes = verify.bind(entity)(kiloes);
-    kiloes = kiloes.radii;
-    kiloes = kiloes.round;
-    foxtra['borderRadius'] = kiloes;
-    offset['sendContainer'] = foxtra;
-    foxtra = {'flex': 1, 'height': 40, 'marginRight': 8, 'alignItems': 'flex-end'};
-    offset['voiceChatContainer'] = foxtra;
-    foxtra = {'height': 68, 'width': 40, 'borderRadius': null, 'display': 'flex', 'alignItems': 'center', 'flexDirection': 'column', 'elevation': 12, 'shadowColor': null, 'shadowOffset': null, 'shadowOpacity': 0.12, 'shadowRadius': 36};
-    kiloes = golfie[michal];
-    kiloes = verify.bind(entity)(kiloes);
-    kiloes = kiloes.radii;
-    kiloes = kiloes.round;
-    foxtra['borderRadius'] = kiloes;
-    kiloes = golfie[michal];
-    kiloes = verify.bind(entity)(kiloes);
+    kiloes = offset.bind(entity)(kiloes);
     kiloes = kiloes.colors;
-    kiloes = kiloes.BLACK;
-    foxtra['shadowColor'] = kiloes;
-    kiloes = {'width': 0, 'height': 12};
-    foxtra['shadowOffset'] = kiloes;
-    kiloes = 19;
-    kiloes = golfie[kiloes];
-    kiloes = oscard.bind(entity)(kiloes);
-    kiloes = kiloes.DARK_0_LIGHT_1;
-    foxtra['borderWidth'] = kiloes;
-    kiloes = 'solid';
-    foxtra['borderStyle'] = kiloes;
-    kiloes = 'rgba(0, 0, 0, 0.08)';
-    foxtra['borderColor'] = kiloes;
-    offset['lockContainer'] = foxtra;
-    foxtra = {'position': 'absolute', 'right': null, 'width': 40};
-    foxtra['right'] = backup;
-    offset['lockParentContainer'] = foxtra;
-    foxtra = {'height': 16, 'width': 16, 'marginTop': 8};
-    backup = golfie[michal];
-    backup = verify.bind(entity)(backup);
-    backup = backup.colors;
-    backup = backup.ICON_SECONDARY;
-    foxtra['tintColor'] = backup;
-    offset['chevon'] = foxtra;
-    offset = yankee.bind(romeon)(offset);
-    var _closure1_slot21 = offset;
+    kiloes = kiloes.ICON_SECONDARY;
+    backup['tintColor'] = kiloes;
+    yankee['chevon'] = backup;
+    yankee = romeon.bind(foxtra)(yankee);
+    var _closure1_slot21 = yankee;
     michal = golfie[michal];
-    michal = verify.bind(entity)(michal);
+    michal = offset.bind(entity)(michal);
     michal = michal.unsafe_rawColors;
     michal = michal.PLUM_13;
     var _closure1_slot22 = michal;
-    verify = report.SENDING;
+    offset = option.SENDING;
     michal = new Array(4);
-    michal[0] = verify;
-    verify = report.CANCELLING;
-    michal[1] = verify;
-    verify = report.LOCKING;
-    michal[2] = verify;
-    report = report.LOCKED;
-    michal[3] = report;
+    michal[0] = offset;
+    offset = option.CANCELLING;
+    michal[1] = offset;
+    offset = option.LOCKING;
+    michal[2] = offset;
+    option = option.LOCKED;
+    michal[3] = option;
     var _closure1_slot23 = michal;
     michal = {};
-    report = 'function VoiceMessageOverlayTsx1(){const{useReducedMotion,currWaveHeight}=this.__closure;var _currWaveHeight$get,_currWaveHeight;return useReducedMotion?0.5:(_currWaveHeight$get=(_currWaveHeight=currWaveHeight)===null||_currWaveHeight===void 0?void 0:_currWaveHeight.get())!==null&&_currWaveHeight$get!==void 0?_currWaveHeight$get:0;}';
-    michal['code'] = report;
+    option = 'function VoiceMessageOverlayTsx1(){const{useReducedMotion,currWaveHeight}=this.__closure;var _currWaveHeight$get,_currWaveHeight;return useReducedMotion?0.5:(_currWaveHeight$get=(_currWaveHeight=currWaveHeight)===null||_currWaveHeight===void 0?void 0:_currWaveHeight.get())!==null&&_currWaveHeight$get!==void 0?_currWaveHeight$get:0;}';
+    michal['code'] = option;
     var _closure1_slot24 = michal;
     michal = {};
-    report = 'function VoiceMessageOverlayTsx2(){const{derivedCurrWaveHeight,offsetThreshold}=this.__closure;return derivedCurrWaveHeight.get()*offsetThreshold;}';
-    michal['code'] = report;
+    option = 'function VoiceMessageOverlayTsx2(){const{derivedCurrWaveHeight,offsetThreshold}=this.__closure;return derivedCurrWaveHeight.get()*offsetThreshold;}';
+    michal['code'] = option;
     var _closure1_slot25 = michal;
     michal = {};
-    report = 'function VoiceMessageOverlayTsx3(){const{voiceMessageEllipseBgColor,radius,offset}=this.__closure;return{fill:voiceMessageEllipseBgColor.get(),ry:radius+offset.get(),rx:radius,cy:radius+offset.get(),cx:radius};}';
-    michal['code'] = report;
+    option = 'function VoiceMessageOverlayTsx3(){const{voiceMessageEllipseBgColor,radius,offset}=this.__closure;return{fill:voiceMessageEllipseBgColor.get(),ry:radius+offset.get(),rx:radius,cy:radius+offset.get(),cx:radius};}';
+    michal['code'] = option;
     var _closure1_slot26 = michal;
     michal = {};
-    report = "function VoiceMessageOverlayTsx4(){const{radius,height,offset}=this.__closure;return{position:'absolute',width:radius*2,height:height.get()+offset.get(),bottom:0};}";
-    michal['code'] = report;
+    option = "function VoiceMessageOverlayTsx4(){const{radius,height,offset}=this.__closure;return{position:'absolute',width:radius*2,height:height.get()+offset.get(),bottom:0};}";
+    michal['code'] = option;
     var _closure1_slot27 = michal;
-    report = option.memo;
+    option = verify.memo;
     michal = function(argFoo) {
         entity = argFoo;
         kiloes = entity.radius;
@@ -972,9 +973,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         foxtra = golfie.bind(offset)(report);
         var _closure2_slot7 = foxtra;
         report = verify[entity];
-        romeon = oscard.bind(tangon)(report);
-        offset = romeon.useAnimatedProps;
-        golfie = function() { // Original name: A
+        offset = oscard.bind(tangon)(report);
+        golfie = offset.useAnimatedProps;
+        report = function() { // Original name: A
             entity = {};
             tangon = _closure2_slot6;
             michal = tangon.get;
@@ -994,20 +995,16 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['cx'] = michal;
             return entity;
         };
-        report = {};
-        report['voiceMessageEllipseBgColor'] = sizing;
-        report['radius'] = kiloes;
-        report['offset'] = foxtra;
-        golfie['__closure'] = report;
-        report = 12489173275515.0;
-        golfie['__workletHash'] = report;
-        report = _closure1_slot26;
-        golfie['__initData'] = report;
-        report = 21;
-        report = verify[report];
-        report = oscard.bind(tangon)(report);
-        report = report.reactNativeSVGLegacyArchitecturePropsAdapter;
-        romeon = offset.bind(romeon)(golfie, tangon, report);
+        romeon = {};
+        romeon['voiceMessageEllipseBgColor'] = sizing;
+        romeon['radius'] = kiloes;
+        romeon['offset'] = foxtra;
+        report['__closure'] = romeon;
+        romeon = 12489173275515.0;
+        report['__workletHash'] = romeon;
+        romeon = _closure1_slot26;
+        report['__initData'] = romeon;
+        romeon = golfie.bind(offset)(report);
         report = verify[entity];
         golfie = oscard.bind(tangon)(report);
         report = golfie.useAnimatedStyle;
@@ -1066,18 +1063,18 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    michal = report.bind(option)(michal);
+    michal = option.bind(verify)(michal);
     var _closure1_slot28 = michal;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx5(){const{voiceMessageAnimationState,runOnJS,setVoiceMessageState}=this.__closure;if(voiceMessageAnimationState.get()==null)return;runOnJS(setVoiceMessageState)(voiceMessageAnimationState.get()[1]);return voiceMessageAnimationState.get();}';
-    report['code'] = verify;
-    var _closure1_slot29 = report;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx6(){const{initialAnimation,recordingAnimation,INITIAL_SHIFT}=this.__closure;const animationValue=Math.min(initialAnimation.get(),recordingAnimation.get());return{opacity:animationValue,marginBottom:-INITIAL_SHIFT*(1-animationValue)};}';
-    report['code'] = verify;
-    var _closure1_slot30 = report;
-    verify = option.memo;
-    report = function(argFoo) {
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx5(){const{voiceMessageAnimationState,runOnJS,setVoiceMessageState}=this.__closure;if(voiceMessageAnimationState.get()==null)return;runOnJS(setVoiceMessageState)(voiceMessageAnimationState.get()[1]);return voiceMessageAnimationState.get();}';
+    option['code'] = offset;
+    var _closure1_slot29 = option;
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx6(){const{initialAnimation,recordingAnimation,INITIAL_SHIFT}=this.__closure;const animationValue=Math.min(initialAnimation.get(),recordingAnimation.get());return{opacity:animationValue,marginBottom:-INITIAL_SHIFT*(1-animationValue)};}';
+    option['code'] = offset;
+    var _closure1_slot30 = option;
+    offset = verify.memo;
+    option = function(argFoo) {
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             michal = argFoo;
@@ -1179,7 +1176,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             romeon = zuuluu.bind(romeon)();
             var _closure2_slot5 = romeon;
             foxtra = _closure1_slot1;
-            zuuluu = 22;
+            zuuluu = 21;
             zuuluu = backup[zuuluu];
             zuuluu = foxtra.bind(report)(zuuluu);
             zuuluu = zuuluu.bind(report)(romeon);
@@ -1191,7 +1188,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  290:
             foxtra = _closure1_slot0;
             backup = _closure1_slot2;
-            oscard = 23;
+            oscard = 22;
             offset = backup[oscard];
             offset = foxtra.bind(report)(offset);
             romeon = offset.intl;
@@ -1224,7 +1221,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  413:
             backup = _closure1_slot0;
             kiloes = _closure1_slot2;
-            offset = 23;
+            offset = 22;
             romeon = kiloes[offset];
             romeon = backup.bind(report)(romeon);
             foxtra = romeon.intl;
@@ -1246,7 +1243,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  499:
             backup = _closure1_slot0;
             kiloes = _closure1_slot2;
-            offset = 23;
+            offset = 22;
             romeon = kiloes[offset];
             romeon = backup.bind(report)(romeon);
             foxtra = romeon.intl;
@@ -1271,7 +1268,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  593:
             romeon = _closure1_slot0;
             foxtra = _closure1_slot2;
-            tangon = 23;
+            tangon = 22;
             offset = foxtra[tangon];
             offset = romeon.bind(report)(offset);
             yankee = offset.intl;
@@ -1287,7 +1284,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  662:
             romeon = _closure1_slot0;
             foxtra = _closure1_slot2;
-            tangon = 23;
+            tangon = 22;
             offset = foxtra[tangon];
             offset = romeon.bind(report)(offset);
             yankee = offset.intl;
@@ -1303,7 +1300,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  728:
             romeon = _closure1_slot0;
             foxtra = _closure1_slot2;
-            tangon = 23;
+            tangon = 22;
             offset = foxtra[tangon];
             offset = romeon.bind(report)(offset);
             yankee = offset.intl;
@@ -1382,17 +1379,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             return entity;
         }
     };
-    report = verify.bind(option)(report);
-    var _closure1_slot31 = report;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx7(){const{voiceMessageAnimationState,withTiming,Easing}=this.__closure;const currValue=voiceMessageAnimationState.get()[1];return withTiming(currValue,{easing:Easing.linear,duration:150});}';
-    report['code'] = verify;
-    var _closure1_slot32 = report;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx8(){const{voiceMessageAnimationState,sendingColor,lockingColor,lockedColor,cancelingColor,interpolateColor,timing,VOICE_MESSAGE_ANIMATION_STATES}=this.__closure;const[prevValue,currValue]=voiceMessageAnimationState.get();const distance=prevValue+currValue;const colors=distance===2?[sendingColor,sendingColor,lockingColor,lockedColor]:[sendingColor,cancelingColor,lockingColor,lockedColor];return interpolateColor(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,colors);}';
-    report['code'] = verify;
-    var _closure1_slot33 = report;
-    report = function(argFoo, argBar, argBaz, argCor, argGra) { // Original name: useDerivedColors
+    option = offset.bind(verify)(option);
+    var _closure1_slot31 = option;
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx7(){const{voiceMessageAnimationState,withTiming,Easing}=this.__closure;const currValue=voiceMessageAnimationState.get()[1];return withTiming(currValue,{easing:Easing.linear,duration:150});}';
+    option['code'] = offset;
+    var _closure1_slot32 = option;
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx8(){const{voiceMessageAnimationState,sendingColor,lockingColor,lockedColor,cancelingColor,interpolateColor,timing,VOICE_MESSAGE_ANIMATION_STATES}=this.__closure;const[prevValue,currValue]=voiceMessageAnimationState.get();const distance=prevValue+currValue;const colors=distance===2?[sendingColor,sendingColor,lockingColor,lockedColor]:[sendingColor,cancelingColor,lockingColor,lockedColor];return interpolateColor(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,colors);}';
+    option['code'] = offset;
+    var _closure1_slot33 = option;
+    option = function(argFoo, argBar, argBaz, argCor, argGra) { // Original name: useDerivedColors
         kiloes = argFoo;
         backup = argBar;
         yankee = argBaz;
@@ -1418,7 +1415,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = michal[entity];
             golfie = _closure1_slot0;
             option = _closure1_slot2;
-            entity = 24;
+            entity = 23;
             entity = option[entity];
             oscard = undefined;
             zuuluu = golfie.bind(oscard)(entity);
@@ -1437,7 +1434,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         };
         oscard = {};
         oscard['voiceMessageAnimationState'] = kiloes;
-        sizing = 24;
+        sizing = 23;
         sizing = offset[sizing];
         sizing = verify.bind(option)(sizing);
         sizing = sizing.withTiming;
@@ -1529,77 +1526,77 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    var _closure1_slot34 = report;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx9(){const{voiceMessageAnimationState,withTiming,Easing}=this.__closure;const currValue=voiceMessageAnimationState.get()[1];return withTiming(currValue,{easing:Easing.linear,duration:150});}';
-    report['code'] = verify;
-    var _closure1_slot35 = report;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx10(){const{voiceMessageAnimationState,interpolate,timing,VOICE_MESSAGE_ANIMATION_STATES}=this.__closure;const[prevValue,currValue]=voiceMessageAnimationState.get();const distance=prevValue+currValue;const opacity=distance===2?[1,1,1,0]:[1,0,1,0];return interpolate(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,opacity);}';
-    report['code'] = verify;
-    var _closure1_slot36 = report;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx11(){const{interpolate,timing,VOICE_MESSAGE_ANIMATION_STATES}=this.__closure;return{height:interpolate(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,[68,68,104,104])};}';
-    report['code'] = verify;
-    var _closure1_slot37 = report;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx12(){const{interpolate,timing,VOICE_MESSAGE_ANIMATION_STATES,lockContainerOpacity,lockedBackgroundColor}=this.__closure;return{width:interpolate(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,[40,40,56,56]),height:interpolate(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,[68,68,56,56]),opacity:lockContainerOpacity.get(),backgroundColor:lockedBackgroundColor.get(),marginHorizontal:interpolate(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,[0,0,-8,-8]),marginBottom:interpolate(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,[0,0,36,36])};}';
-    report['code'] = verify;
-    var _closure1_slot38 = report;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx13(){const{interpolate,timing,VOICE_MESSAGE_ANIMATION_STATES,lockIconColor}=this.__closure;return{width:interpolate(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,[24,24,32,32]),height:interpolate(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,[24,24,32,32]),marginTop:interpolate(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,[12,12,10,10]),tintColor:lockIconColor.get()};}';
-    report['code'] = verify;
-    var _closure1_slot39 = report;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx14(){const{interpolate,timing,VOICE_MESSAGE_ANIMATION_STATES}=this.__closure;return{opacity:interpolate(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,[1,1,0,0])};}';
-    report['code'] = verify;
-    var _closure1_slot40 = report;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx15(){const{voiceMessageAnimationState,VoiceMessageAnimationState}=this.__closure;return voiceMessageAnimationState.get()[1]===VoiceMessageAnimationState.LOCKED||voiceMessageAnimationState.get()[1]===VoiceMessageAnimationState.LOCKING;}';
-    report['code'] = verify;
-    var _closure1_slot41 = report;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx16(result,previous){const{runOnJS,setLocked}=this.__closure;if(result!==previous){runOnJS(setLocked)(result);}}';
-    report['code'] = verify;
-    var _closure1_slot42 = report;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx17(){const{initialAnimation,keyboardHeight,safeAreaBottom,INPUT_HEIGHT,INITIAL_SHIFT}=this.__closure;return{opacity:initialAnimation.get(),bottom:keyboardHeight+safeAreaBottom+INPUT_HEIGHT+(32-INITIAL_SHIFT)+INITIAL_SHIFT*initialAnimation.get()};}';
-    report['code'] = verify;
-    var _closure1_slot43 = report;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx18(){const{INITIAL_SHIFT,initialAnimation,trashContainerBgColor}=this.__closure;return{marginLeft:INITIAL_SHIFT*2*(1-initialAnimation.get()),marginRight:8-INITIAL_SHIFT*2*(1-initialAnimation.get()),backgroundColor:trashContainerBgColor.get()};}';
-    report['code'] = verify;
-    var _closure1_slot44 = report;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx19(){const{trashIconColor}=this.__closure;return{tintColor:trashIconColor.get()};}';
-    report['code'] = verify;
-    var _closure1_slot45 = report;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx20(){const{recordingAnimation,sendContainerBgColor}=this.__closure;return{opacity:0.5+0.5*recordingAnimation.get(),backgroundColor:sendContainerBgColor.get()};}';
-    report['code'] = verify;
-    var _closure1_slot46 = report;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx21(){const{sendIconColor}=this.__closure;return{tintColor:sendIconColor.get()};}';
-    report['code'] = verify;
-    var _closure1_slot47 = report;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx22(){const{initialAnimation}=this.__closure;return{opacity:initialAnimation.get()};}';
-    report['code'] = verify;
-    var _closure1_slot48 = report;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx23(){const{exiting,INITIAL_SHIFT,initialAnimation,keyboardHeight}=this.__closure;const shift=exiting?INITIAL_SHIFT*3:INITIAL_SHIFT*1.5;return{opacity:initialAnimation.get(),bottom:keyboardHeight-shift*(1-initialAnimation.get())};}';
-    report['code'] = verify;
-    var _closure1_slot49 = report;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx24(){const{safeAreaBottom,INPUT_HEIGHT,recordingAnimation}=this.__closure;return safeAreaBottom+INPUT_HEIGHT*(1.6+0.3*recordingAnimation.get());}';
-    report['code'] = verify;
-    var _closure1_slot50 = report;
-    report = {};
-    verify = 'function VoiceMessageOverlayTsx25(){const{safeAreaBottom,INPUT_HEIGHT}=this.__closure;return safeAreaBottom+INPUT_HEIGHT*1.6;}';
-    report['code'] = verify;
-    var _closure1_slot51 = report;
-    verify = option.memo;
-    report = function(argFoo) {
+    var _closure1_slot34 = option;
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx9(){const{voiceMessageAnimationState,withTiming,Easing}=this.__closure;const currValue=voiceMessageAnimationState.get()[1];return withTiming(currValue,{easing:Easing.linear,duration:150});}';
+    option['code'] = offset;
+    var _closure1_slot35 = option;
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx10(){const{voiceMessageAnimationState,interpolate,timing,VOICE_MESSAGE_ANIMATION_STATES}=this.__closure;const[prevValue,currValue]=voiceMessageAnimationState.get();const distance=prevValue+currValue;const opacity=distance===2?[1,1,1,0]:[1,0,1,0];return interpolate(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,opacity);}';
+    option['code'] = offset;
+    var _closure1_slot36 = option;
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx11(){const{interpolate,timing,VOICE_MESSAGE_ANIMATION_STATES}=this.__closure;return{height:interpolate(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,[68,68,104,104])};}';
+    option['code'] = offset;
+    var _closure1_slot37 = option;
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx12(){const{interpolate,timing,VOICE_MESSAGE_ANIMATION_STATES,lockContainerOpacity,lockedBackgroundColor}=this.__closure;return{width:interpolate(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,[40,40,56,56]),height:interpolate(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,[68,68,56,56]),opacity:lockContainerOpacity.get(),backgroundColor:lockedBackgroundColor.get(),marginHorizontal:interpolate(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,[0,0,-8,-8]),marginBottom:interpolate(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,[0,0,36,36])};}';
+    option['code'] = offset;
+    var _closure1_slot38 = option;
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx13(){const{interpolate,timing,VOICE_MESSAGE_ANIMATION_STATES,lockIconColor}=this.__closure;return{width:interpolate(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,[24,24,32,32]),height:interpolate(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,[24,24,32,32]),marginTop:interpolate(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,[12,12,10,10]),tintColor:lockIconColor.get()};}';
+    option['code'] = offset;
+    var _closure1_slot39 = option;
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx14(){const{interpolate,timing,VOICE_MESSAGE_ANIMATION_STATES}=this.__closure;return{opacity:interpolate(timing.get(),VOICE_MESSAGE_ANIMATION_STATES,[1,1,0,0])};}';
+    option['code'] = offset;
+    var _closure1_slot40 = option;
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx15(){const{voiceMessageAnimationState,VoiceMessageAnimationState}=this.__closure;return voiceMessageAnimationState.get()[1]===VoiceMessageAnimationState.LOCKED||voiceMessageAnimationState.get()[1]===VoiceMessageAnimationState.LOCKING;}';
+    option['code'] = offset;
+    var _closure1_slot41 = option;
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx16(result,previous){const{runOnJS,setLocked}=this.__closure;if(result!==previous){runOnJS(setLocked)(result);}}';
+    option['code'] = offset;
+    var _closure1_slot42 = option;
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx17(){const{initialAnimation,keyboardHeight,safeAreaBottom,INPUT_HEIGHT,INITIAL_SHIFT}=this.__closure;return{opacity:initialAnimation.get(),bottom:keyboardHeight+safeAreaBottom+INPUT_HEIGHT+(32-INITIAL_SHIFT)+INITIAL_SHIFT*initialAnimation.get()};}';
+    option['code'] = offset;
+    var _closure1_slot43 = option;
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx18(){const{INITIAL_SHIFT,initialAnimation,trashContainerBgColor}=this.__closure;return{marginLeft:INITIAL_SHIFT*2*(1-initialAnimation.get()),marginRight:8-INITIAL_SHIFT*2*(1-initialAnimation.get()),backgroundColor:trashContainerBgColor.get()};}';
+    option['code'] = offset;
+    var _closure1_slot44 = option;
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx19(){const{trashIconColor}=this.__closure;return{tintColor:trashIconColor.get()};}';
+    option['code'] = offset;
+    var _closure1_slot45 = option;
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx20(){const{recordingAnimation,sendContainerBgColor}=this.__closure;return{opacity:0.5+0.5*recordingAnimation.get(),backgroundColor:sendContainerBgColor.get()};}';
+    option['code'] = offset;
+    var _closure1_slot46 = option;
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx21(){const{sendIconColor}=this.__closure;return{tintColor:sendIconColor.get()};}';
+    option['code'] = offset;
+    var _closure1_slot47 = option;
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx22(){const{initialAnimation}=this.__closure;return{opacity:initialAnimation.get()};}';
+    option['code'] = offset;
+    var _closure1_slot48 = option;
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx23(){const{exiting,INITIAL_SHIFT,initialAnimation,keyboardHeight}=this.__closure;const shift=exiting?INITIAL_SHIFT*3:INITIAL_SHIFT*1.5;return{opacity:initialAnimation.get(),bottom:keyboardHeight-shift*(1-initialAnimation.get())};}';
+    option['code'] = offset;
+    var _closure1_slot49 = option;
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx24(){const{safeAreaBottom,INPUT_HEIGHT,recordingAnimation}=this.__closure;return safeAreaBottom+INPUT_HEIGHT*(1.6+0.3*recordingAnimation.get());}';
+    option['code'] = offset;
+    var _closure1_slot50 = option;
+    option = {};
+    offset = 'function VoiceMessageOverlayTsx25(){const{safeAreaBottom,INPUT_HEIGHT}=this.__closure;return safeAreaBottom+INPUT_HEIGHT*1.6;}';
+    option['code'] = offset;
+    var _closure1_slot51 = option;
+    offset = verify.memo;
+    option = function(argFoo) {
         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             entity = argFoo;
@@ -1613,8 +1610,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             status = entity.bind(tangon)();
             cntext = _closure1_slot1;
             limora = _closure1_slot2;
-            entity = 31;
-            entity = limora[entity];
+            ctrled = 30;
+            entity = limora[ctrled];
             entity = cntext.bind(tangon)(entity);
             entity = entity.bind(tangon)();
             romeon = entity.keyboardHeight;
@@ -1667,7 +1664,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     entity = undefined;
                     golfie = offset.bind(entity)(report);
                     oscard = golfie.withDelay;
-                    report = 24;
+                    report = 23;
                     report = yankee[report];
                     verify = offset.bind(entity)(report);
                     option = verify.withTiming;
@@ -1702,7 +1699,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         michal = zuuluu.set;
                         option = _closure1_slot0;
                         verify = _closure1_slot2;
-                        entity = 24;
+                        entity = 23;
                         entity = verify[entity];
                         golfie = undefined;
                         oscard = option.bind(golfie)(entity);
@@ -1746,7 +1743,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         report = golfie.set;
                         romeon = _closure1_slot0;
                         oscard = _closure1_slot2;
-                        entity = 24;
+                        entity = 23;
                         zuuluu = oscard[entity];
                         verify = undefined;
                         yankee = romeon.bind(verify)(zuuluu);
@@ -1829,7 +1826,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  25:
                         option = _closure1_slot0;
                         verify = _closure1_slot2;
-                        michal = 32;
+                        michal = 31;
                         michal = verify[michal];
                         golfie = undefined;
                         michal = option.bind(golfie)(michal);
@@ -1841,7 +1838,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         entity = {};
                         oscard = true;
                         entity['isCancelling'] = oscard;
-                        oscard = 33;
+                        oscard = 32;
                         oscard = verify[oscard];
                         oscard = option.bind(golfie)(oscard);
                         oscard = oscard.VoiceMessageRecordingResult;
@@ -1893,7 +1890,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = limora[entity];
             michal = cntext.bind(tangon)(michal);
             michal = michal.unsafe_rawColors;
-            variable42 = michal.RED_530;
+            variable42 = michal.RED_500;
             michal = limora[entity];
             michal = cntext.bind(tangon)(michal);
             michal = michal.unsafe_rawColors;
@@ -1972,7 +1969,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = limora[entity];
             michal = cntext.bind(tangon)(michal);
             michal = michal.unsafe_rawColors;
-            variable42 = michal.RED_400;
+            variable42 = michal.RED_500;
             michal = limora[entity];
             michal = cntext.bind(tangon)(michal);
             michal = michal.unsafe_rawColors;
@@ -2145,7 +2142,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             report = _closure1_slot49;
             entity['__initData'] = report;
             foxtra = michal.bind(zuuluu)(entity);
-            entity = 34;
+            entity = 33;
             entity = limora[entity];
             zuuluu = sierra.bind(tangon)(entity);
             michal = zuuluu.useWakeLock;
@@ -2196,7 +2193,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['__workletHash'] = report;
             report = _closure1_slot51;
             entity['__initData'] = report;
-            ctrled = michal.bind(zuuluu)(entity);
+            sequen = michal.bind(zuuluu)(entity);
             zuuluu = _closure1_slot15;
             michal = _closure1_slot16;
             entity = {};
@@ -2213,7 +2210,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             report['pointerEvents'] = option;
             foxtra = _closure1_slot14;
             sizing = _closure1_slot28;
-            option = {'height': null, 'offsetThreshold': 60, 'opacity': 0.6};
+            option = {'height': null, 'offsetThreshold': 60, 'opacity': 0.24};
             option['height'] = backup;
             option['radius'] = source;
             option['voiceMessageAnimationState'] = verify;
@@ -2222,8 +2219,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             option[0] = foxtra;
             backup = _closure1_slot14;
             foxtra = {};
-            foxtra['height'] = ctrled;
-            ctrled = 30;
+            foxtra['height'] = sequen;
             foxtra['offsetThreshold'] = ctrled;
             foxtra['radius'] = source;
             foxtra['voiceMessageAnimationState'] = verify;
@@ -2270,7 +2266,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             result['style'] = sequen;
             config = 'button';
             result['accessibilityRole'] = config;
-            sequen = 23;
+            sequen = 22;
             equals = limora[sequen];
             equals = sierra.bind(tangon)(equals);
             variable36 = equals.intl;
@@ -2284,7 +2280,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             equals = function() { // Original name: onPressIn
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
-                entity = 35;
+                entity = 34;
                 michal = michal[entity];
                 entity = undefined;
                 michal = zuuluu.bind(entity)(michal);
@@ -2296,7 +2292,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             equals = function() { // Original name: onPress
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
-                entity = 32;
+                entity = 31;
                 zuuluu = zuuluu[entity];
                 entity = undefined;
                 zuuluu = tangon.bind(entity)(zuuluu);
@@ -2316,7 +2312,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             quebec = _closure1_slot17;
             equals = {};
             equals['style'] = papara;
-            papara = 36;
+            papara = 35;
             papara = limora[papara];
             papara = cntext.bind(tangon)(papara);
             equals['source'] = papara;
@@ -2339,7 +2335,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             quebec = status.voiceChatContainer;
             update['style'] = quebec;
             variable37 = _closure1_slot14;
-            quebec = 37;
+            quebec = 36;
             quebec = limora[quebec];
             variable36 = cntext.bind(tangon)(quebec);
             quebec = {};
@@ -2371,7 +2367,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             vacuum = function() { // Original name: onPress
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
-                entity = 32;
+                entity = 31;
                 zuuluu = zuuluu[entity];
                 entity = undefined;
                 zuuluu = tangon.bind(entity)(zuuluu);
@@ -2392,15 +2388,15 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             vacuum = {};
             vacuum['style'] = target;
             status = _closure1_slot2;
-            if(record) { _fun00020_ip = 1975; continue _fun00019 }
- 1966:
-            record = 39;
+            if(record) { _fun00020_ip = 1972; continue _fun00019 }
+ 1963:
+            record = 38;
             record = status[record];
-            _fun00020_ip = 1982; continue _fun00019;
- 1975:
-            target = 38;
+            _fun00020_ip = 1979; continue _fun00019;
+ 1972:
+            target = 37;
             record = status[target];
- 1982:
+ 1979:
             record = cntext.bind(tangon)(record);
             vacuum['source'] = record;
             cntext = _closure1_slot1;
@@ -2419,18 +2415,18 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             backup[1] = kiloes;
             sizing = 0;
             kiloes = null;
-            if(!(sizing === romeon)) { _fun00020_ip = 2102; continue _fun00019 }
- 2066:
+            if(!(sizing === romeon)) { _fun00020_ip = 2099; continue _fun00019 }
+ 2063:
             result = _closure1_slot14;
             output = _closure1_slot1;
             update = _closure1_slot2;
-            sizing = 40;
+            sizing = 39;
             sizing = update[sizing];
             output = output.bind(tangon)(sizing);
             sizing = {};
             sizing['channelId'] = echoed;
             kiloes = result.bind(tangon)(output, sizing);
- 2102:
+ 2099:
             backup[2] = kiloes;
             golfie['children'] = backup;
             golfie = foxtra.bind(tangon)(option, golfie);
@@ -2449,9 +2445,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             return entity;
         }
     };
-    report = verify.bind(option)(report);
-    var _closure1_slot52 = report;
-    report = option.memo;
+    option = offset.bind(verify)(option);
+    var _closure1_slot52 = option;
+    option = verify.memo;
     tangon = function(argFoo) {
         _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
@@ -2574,8 +2570,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             return entity;
         }
     };
-    tangon = report.bind(option)(tangon);
-    report = 41;
+    tangon = option.bind(verify)(tangon);
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

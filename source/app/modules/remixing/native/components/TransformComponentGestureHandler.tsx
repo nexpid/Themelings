@@ -670,17 +670,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     zuuluu = argFoo;
                     entity = '';
-                    if(!(entity !== zuuluu)) { _fun00010_ip = 48; continue _fun00009 }
+                    if(!(entity !== zuuluu)) { _fun00010_ip = 52; continue _fun00009 }
  11:
                     michal = _closure2_slot0;
-                    if(!(zuuluu !== michal)) { _fun00010_ip = 114; continue _fun00009 }
+                    if(!(zuuluu !== michal)) { _fun00010_ip = 118; continue _fun00009 }
  22:
                     zuuluu = _closure2_slot12;
                     michal = zuuluu.set;
                     entity = {'x': 0, 'y': 0, 'width': 0, 'height': 0};
                     entity = michal.bind(zuuluu)(entity);
-                    _fun00010_ip = 114; continue _fun00009;
- 48:
+                    _fun00010_ip = 118; continue _fun00009;
+ 52:
                     zuuluu = _closure2_slot12;
                     michal = zuuluu.set;
                     oscard = _closure1_slot0;
@@ -695,7 +695,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = entity.bind(oscard)();
                     entity = tangon.bind(report)(entity);
                     entity = michal.bind(zuuluu)(entity);
- 114:
+ 118:
                     entity = undefined;
                     return entity;
                 }
@@ -2425,7 +2425,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon['rotateZ'] = report;
                     michal[3] = tangon;
                     entity['transform'] = michal;
-                    _fun00038_ip = 349; continue _fun00037;
+                    _fun00038_ip = 353; continue _fun00037;
  281:
                     michal = {'position': 'absolute', 'left': 0, 'top': 0};
                     tangon = _closure2_slot14;
@@ -2436,15 +2436,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['height'] = tangon;
                     tangon = _closure2_slot1;
                     zuuluu = 'transparent';
-                    if(!tangon) { _fun00038_ip = 334; continue _fun00037 }
- 328:
+                    if(!tangon) { _fun00038_ip = 338; continue _fun00037 }
+ 332:
                     zuuluu = 'rgba(100, 200, 300, 0.4)';
- 334:
+ 338:
                     michal['backgroundColor'] = zuuluu;
                     zuuluu = new Array(0);
                     michal['transform'] = zuuluu;
                     entity = michal;
- 349:
+ 353:
                     return entity;
                 }
             };

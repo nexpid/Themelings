@@ -1,4 +1,4 @@
-// app/modules/application_directory/web/profile/Constants.tsx
+// app/modules/global_discovery_apps/web/views/detail/Constants.tsx
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     zuuluu = argFre;
     entity = global;
@@ -27,7 +27,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = undefined;
     oscard = tangon.bind(entity)(report);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/application_directory/web/profile/Constants.tsx';
+    tangon = 'modules/global_discovery_apps/web/views/detail/Constants.tsx';
     tangon = report.bind(oscard)(tangon);
     zuuluu['ApplicationDirectoryProfileSections'] = michal;
     return entity;

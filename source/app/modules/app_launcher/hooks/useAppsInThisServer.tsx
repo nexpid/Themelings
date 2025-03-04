@@ -140,10 +140,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = michal.result;
             yankee = offset == oscard;
             offset = undefined;
-            if(yankee) { _fun00002_ip = 298; continue _fun00001 }
- 292:
+            if(yankee) { _fun00002_ip = 302; continue _fun00001 }
+ 296:
             offset = oscard.sections;
- 298:
+ 302:
             oscard = new Array(2);
             oscard[0] = offset;
             oscard[1] = entity;
@@ -248,10 +248,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['appsInThisServer'] = tangon;
             michal = michal.fetchState;
             michal = michal.fetching;
-            if(michal) { _fun00002_ip = 413; continue _fun00001 }
- 410:
+            if(michal) { _fun00002_ip = 417; continue _fun00001 }
+ 414:
             michal = zuuluu;
- 413:
+ 417:
             entity['isLoading'] = michal;
             return entity;
         }

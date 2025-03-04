@@ -357,8 +357,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getActiveErrors';
         report['key'] = golfie;
         oscard = function() { // Original name: value
-            entity = _closure1_slot7;
-            return entity;
+            _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+ 0:
+                tangon = _closure1_slot7;
+                michal = global;
+                zuuluu = michal.Map;
+                zuuluu = tangon instanceof zuuluu;
+                if(zuuluu) { _fun00014_ip = 52; continue _fun00013 }
+ 22:
+                michal = michal.Map;
+                zuuluu = michal.prototype;
+                zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
+                report = zuuluu;
+                michal = new report[michal](tangon);
+                michal = michal instanceof Object ? michal : zuuluu;
+                _closure1_slot7 = michal;
+ 52:
+                entity = _closure1_slot7;
+                return entity;
+            }
         };
         report['value'] = oscard;
         entity[1] = report;
@@ -373,40 +390,58 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = golfie.bind(entity)(michal);
     michal = {};
     tangon = function(argFoo) { // Original name: handleActiveErrorsChanged
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             entity = argFoo;
-            zuuluu = entity.activeErrors;
-            entity = global;
-            report = entity.Set;
-            michal = zuuluu.keys;
-            verify = michal.bind(zuuluu)();
-            tangon = report.prototype;
-            tangon = Object.create(tangon, {constructor: {value: report}});
-            offset = tangon;
-            michal = new offset[report](verify, option);
-            golfie = michal instanceof Object ? michal : tangon;
-            report = entity.Set;
+            michal = entity.activeErrors;
+            zuuluu = global;
+            entity = zuuluu.Map;
+            entity = michal instanceof entity;
+            if(!entity) { _fun00016_ip = 192; continue _fun00015 }
+ 27:
+            report = _closure1_slot7;
+            tangon = zuuluu.Map;
+            tangon = report instanceof tangon;
+            if(tangon) { _fun00016_ip = 77; continue _fun00015 }
+ 47:
+            tangon = zuuluu.Map;
+            report = tangon.prototype;
+            report = Object.create(report, {constructor: {value: tangon}});
+            offset = report;
+            tangon = new offset[tangon](verify);
+            tangon = tangon instanceof Object ? tangon : report;
+            _closure1_slot7 = tangon;
+ 77:
+            oscard = zuuluu.Set;
+            tangon = michal.keys;
+            verify = tangon.bind(michal)();
+            report = oscard.prototype;
+            report = Object.create(report, {constructor: {value: oscard}});
+            offset = report;
+            tangon = new offset[oscard](verify, option);
+            oscard = tangon instanceof Object ? tangon : report;
+            report = zuuluu.Set;
             tangon = _closure1_slot7;
-            entity = tangon.keys;
-            verify = entity.bind(tangon)();
+            zuuluu = tangon.keys;
+            verify = zuuluu.bind(tangon)();
             tangon = report.prototype;
             tangon = Object.create(tangon, {constructor: {value: report}});
             offset = tangon;
-            entity = new offset[report](verify, option);
-            oscard = entity instanceof Object ? entity : tangon;
-            report = _closure1_slot0;
+            zuuluu = new offset[report](verify, option);
+            report = zuuluu instanceof Object ? zuuluu : tangon;
+            golfie = _closure1_slot0;
             tangon = _closure1_slot1;
-            entity = 6;
-            tangon = tangon[entity];
+            zuuluu = 6;
+            tangon = tangon[zuuluu];
+            zuuluu = undefined;
+            tangon = golfie.bind(zuuluu)(tangon);
+            zuuluu = tangon.areSetsEqual;
+            zuuluu = zuuluu.bind(tangon)(oscard, report);
+            if(zuuluu) { _fun00016_ip = 192; continue _fun00015 }
+ 188:
+            _closure1_slot7 = michal;
+ 192:
             entity = undefined;
-            report = report.bind(entity)(tangon);
-            tangon = report.areSetsEqual;
-            tangon = tangon.bind(report)(golfie, oscard);
-            if(tangon) { _fun00014_ip = 129; continue _fun00013 }
- 125:
-            _closure1_slot7 = zuuluu;
- 129:
             return entity;
         }
     };

@@ -104,10 +104,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = _closure1_slot6;
             entity = entity[zuuluu];
             tangon = null;
-            if(!(tangon == entity)) { _fun00008_ip = 30; continue _fun00007 }
+            if(!(tangon == entity)) { _fun00008_ip = 34; continue _fun00007 }
  20:
             entity = {'query': null, 'loading': false, 'results': null};
- 30:
+ 34:
             michal = _closure1_slot6;
             michal[zuuluu] = entity;
             return entity;

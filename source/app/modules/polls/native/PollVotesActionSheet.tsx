@@ -356,7 +356,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = tangon.bind(oscard)(michal, zuuluu);
             michal = yankee.poll;
             michal = entity == michal;
-            if(michal) { _fun00004_ip = 556; continue _fun00003 }
+            if(michal) { _fun00004_ip = 564; continue _fun00003 }
  187:
             tangon = _closure1_slot15;
             zuuluu = _closure1_slot7;
@@ -471,7 +471,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             oscard[2] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 556:
+ 564:
             return entity;
         }
     };

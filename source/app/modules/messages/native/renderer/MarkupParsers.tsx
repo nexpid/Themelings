@@ -161,10 +161,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['channelId'] = entity;
             entity = true;
             offset = !offset;
-            if(!offset) { _fun00004_ip = 204; continue _fun00003 }
- 201:
+            if(!offset) { _fun00004_ip = 208; continue _fun00003 }
+ 205:
             offset = verify;
- 204:
+ 208:
             zuuluu['allowHeading'] = offset;
             zuuluu['allowList'] = verify;
             zuuluu['previewLinkTarget'] = option;
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(!(zuuluu != entity)) { _fun00006_ip = 89; continue _fun00005 }
  76:
             michal = entity.isInlineReplyPreview;
-            if(!(michal !== foxtra)) { _fun00006_ip = 419; continue _fun00005 }
+            if(!(michal !== foxtra)) { _fun00006_ip = 423; continue _fun00005 }
  89:
             golfie = oscard.type;
             michal = _closure1_slot3;
@@ -259,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = _closure1_slot6;
             zuuluu = golfie.set;
             zuuluu = zuuluu.bind(golfie)(oscard, michal);
-            _fun00006_ip = 416; continue _fun00005;
+            _fun00006_ip = 420; continue _fun00005;
  254:
             zuuluu = {'content': null, 'isInlineReplyPreview': false, 'hasSpoilerEmbeds': false};
             option = _closure1_slot1;
@@ -282,15 +282,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie['hideSimpleEmbedContent'] = backup;
             golfie['formatInline'] = foxtra;
             foxtra = yankee;
-            if(yankee) { _fun00006_ip = 357; continue _fun00005 }
- 354:
+            if(yankee) { _fun00006_ip = 361; continue _fun00005 }
+ 358:
             foxtra = romeon;
- 357:
+ 361:
             golfie['allowHeading'] = foxtra;
-            if(yankee) { _fun00006_ip = 368; continue _fun00005 }
- 365:
+            if(yankee) { _fun00006_ip = 372; continue _fun00005 }
+ 369:
             yankee = romeon;
- 368:
+ 372:
             golfie['allowList'] = yankee;
             golfie['allowLinks'] = report;
             golfie['previewLinkTarget'] = report;
@@ -301,9 +301,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = report.set;
             tangon = tangon.bind(report)(oscard, zuuluu);
             michal = zuuluu;
- 416:
+ 420:
             entity = michal;
- 419:
+ 423:
             return entity;
         }
     };

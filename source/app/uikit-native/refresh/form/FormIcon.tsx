@@ -60,8 +60,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot3;
             report = undefined;
             option = zuuluu.bind(report)();
-            if(!(entity == golfie)) { _fun00002_ip = 138; continue _fun00001 }
- 69:
+            if(!(entity == golfie)) { _fun00002_ip = 142; continue _fun00001 }
+ 73:
             tangon = _closure1_slot2;
             zuuluu = _closure1_slot0;
             yankee = _closure1_slot1;
@@ -79,8 +79,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = oscard;
             offset = copyDataProperties(kiloes, backup);
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 206; continue _fun00001;
- 138:
+            _fun00002_ip = 210; continue _fun00001;
+ 142:
             tangon = _closure1_slot2;
             zuuluu = _closure1_slot0;
             offset = _closure1_slot1;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = oscard;
             oscard = copyDataProperties(kiloes, backup);
             entity = tangon.bind(report)(zuuluu, michal);
- 206:
+ 210:
             return entity;
         }
     };

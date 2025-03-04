@@ -1,4 +1,4 @@
-// app/modules/application_directory/AllowNonStaffToPreviewAppCollectionsExperiment.tsx
+// app/modules/global_discovery_apps/AllowNonStaffToPreviewAppCollectionsExperiment.tsx
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -33,7 +33,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/application_directory/AllowNonStaffToPreviewAppCollectionsExperiment.tsx';
+    tangon = 'modules/global_discovery_apps/AllowNonStaffToPreviewAppCollectionsExperiment.tsx';
     tangon = report.bind(oscard)(tangon);
     zuuluu['default'] = michal;
     return entity;

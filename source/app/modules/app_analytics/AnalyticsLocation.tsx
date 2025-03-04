@@ -809,6 +809,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['VOICE_CHANNEL_HEADER'] = entity;
     entity = 'activity panel';
     michal['ACTIVITY_PANEL'] = entity;
+    entity = 'audience tile';
+    michal['AUDIENCE_TILE'] = entity;
+    entity = 'stage tile';
+    michal['STAGE_TILE'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

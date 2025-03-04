@@ -909,13 +909,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[0] = golfie;
             option = 0;
             golfie = null;
-            if(!(option !== verify)) { _fun00022_ip = 99; continue _fun00021 }
- 87:
+            if(!(option !== verify)) { _fun00022_ip = 103; continue _fun00021 }
+ 91:
             option = {};
             verify = 24;
             option['marginTop'] = verify;
             golfie = option;
- 99:
+ 103:
             oscard[1] = golfie;
             entity['style'] = oscard;
             entity['children'] = report;
@@ -1825,11 +1825,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             report = undefined;
                             golfie = zuuluu.bind(report)(michal);
                             tangon = golfie.useStateFromStores;
-                            michal = _closure1_slot13;
+                            michal = _closure1_slot12;
                             zuuluu = new Array(1);
                             zuuluu[0] = michal;
                             michal = function() {
-                                zuuluu = _closure1_slot13;
+                                zuuluu = _closure1_slot12;
                                 michal = zuuluu.get;
                                 entity = 'only_show_preview_app_collections';
                                 entity = michal.bind(zuuluu)(entity);
@@ -1875,11 +1875,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = oscard[update];
                     output = romeon.bind(echoed)(oscard);
                     backup = output.useStateFromStores;
-                    oscard = _closure1_slot12;
+                    oscard = _closure1_slot13;
                     romeon = new Array(1);
                     romeon[0] = oscard;
                     oscard = function() {
-                        zuuluu = _closure1_slot12;
+                        zuuluu = _closure1_slot13;
                         michal = zuuluu.getCollections;
                         entity = {};
                         tangon = _closure1_slot28;

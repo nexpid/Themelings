@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = 6;
                     entity = report[entity];
                     zuuluu = zuuluu.bind(michal)(entity);
-                    michal = zuuluu.acceptInvite;
+                    michal = zuuluu.acceptInviteAndTransitionToInviteChannel;
                     entity = {};
                     tangon = _closure2_slot2;
                     entity['inviteKey'] = tangon;

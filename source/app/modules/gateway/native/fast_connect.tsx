@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = verify.bind(entity)(oscard);
                     oscard = tangon.isNaN;
                     oscard = oscard.bind(entity)(verify);
-                    if(oscard) { _fun00004_ip = 569; continue _fun00003 }
+                    if(oscard) { _fun00004_ip = 567; continue _fun00003 }
  283:
                     offset = _closure1_slot0;
                     oscard = _closure1_slot3;
@@ -224,14 +224,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = '🌐';
                     tangon = 'Fastconnect socket created';
                     tangon = oscard.bind(golfie)(report, tangon);
-                    _fun00004_ip = 597; continue _fun00003;
- 569:
+                    _fun00004_ip = 595; continue _fun00003;
+ 567:
                     report = _closure1_slot6;
                     tangon = report.log;
                     zuuluu = michal._socketId;
                     michal = '[FAST CONNECT] Unable to create socketId from NaN value ';
                     michal = tangon.bind(report)(michal, zuuluu);
- 597:
+ 595:
                     return entity;
                 }
             };

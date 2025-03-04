@@ -952,7 +952,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = michal.canEveryoneRoleViewEvent;
             michal = entity.can_broadcast;
             entity = null;
-            if(!michal) { _fun00014_ip = 425; continue _fun00013 }
+            if(!michal) { _fun00014_ip = 429; continue _fun00013 }
  70:
             tangon = _closure1_slot12;
             zuuluu = _closure1_slot5;
@@ -1026,21 +1026,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = yankee[kiloes];
             yankee = backup.bind(report)(yankee);
             yankee = yankee.t;
-            if(offset) { _fun00014_ip = 388; continue _fun00013 }
- 373:
+            if(offset) { _fun00014_ip = 392; continue _fun00013 }
+ 377:
             offset = yankee.gTgUmZ;
             offset = romeon.bind(foxtra)(offset);
-            _fun00014_ip = 401; continue _fun00013;
- 388:
+            _fun00014_ip = 405; continue _fun00013;
+ 392:
             yankee = yankee.V8Oq8P;
             offset = romeon.bind(foxtra)(yankee);
- 401:
+ 405:
             golfie['children'] = offset;
             golfie = verify.bind(report)(option, golfie);
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 425:
+ 429:
             return entity;
         }
     };

@@ -1,4 +1,4 @@
-// app/modules/application_directory/stores/MyGuildApplicationsStore.tsx
+// app/modules/global_discovery_apps/stores/MyGuildApplicationsStore.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie = argBaz;
     zuuluu = argFre;
@@ -680,7 +680,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     golfie = report.bind(entity)(oscard);
     oscard = golfie.fileFinishedImporting;
-    report = 'modules/application_directory/stores/MyGuildApplicationsStore.tsx';
+    report = 'modules/global_discovery_apps/stores/MyGuildApplicationsStore.tsx';
     report = oscard.bind(golfie)(report);
     zuuluu['default'] = tangon;
     zuuluu['FetchState'] = michal;

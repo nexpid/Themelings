@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['container'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot11 = tangon;
-    tangon = 14;
+    tangon = 15;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -88,34 +88,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = argFoo;
             michal = entity.onPress;
             var _closure2_slot0 = michal;
-            michal = entity.isActive;
+            oscard = entity.isActive;
             tangon = undefined;
             var _closure2_slot1 = tangon;
             entity = _closure1_slot11;
-            yankee = entity.bind(tangon)();
-            zuuluu = _closure1_slot1;
-            oscard = _closure1_slot2;
+            romeon = entity.bind(tangon)();
+            michal = _closure1_slot1;
+            zuuluu = _closure1_slot2;
             entity = 8;
-            entity = oscard[entity];
-            entity = zuuluu.bind(tangon)(entity);
+            entity = zuuluu[entity];
+            entity = michal.bind(tangon)(entity);
             entity = entity.colors;
-            if(michal) { _fun00002_ip = 73; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 73; continue _fun00001 }
  65:
-            verify = entity.INTERACTIVE_NORMAL;
+            offset = entity.INTERACTIVE_NORMAL;
             _fun00002_ip = 79; continue _fun00001;
  73:
-            verify = entity.WHITE;
+            offset = entity.WHITE;
  79:
-            oscard = _closure1_slot3;
-            zuuluu = oscard.useRef;
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.useRef;
             entity = null;
-            option = zuuluu.bind(oscard)(entity);
-            oscard = _closure1_slot1;
-            offset = _closure1_slot2;
+            verify = michal.bind(zuuluu)(entity);
+            michal = _closure1_slot1;
+            zuuluu = _closure1_slot2;
             entity = 12;
-            entity = offset[entity];
-            entity = oscard.bind(tangon)(entity);
-            entity = entity.bind(tangon)(option);
+            entity = zuuluu[entity];
+            entity = michal.bind(tangon)(entity);
+            entity = entity.bind(tangon)(verify);
             _closure2_slot1 = entity;
             entity = function(argFoo) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = offset[michal];
                     report = tangon.bind(report)(michal);
                     tangon = report.useAnimatedStyle;
-                    michal = function() { // Original name: u
+                    michal = function() { // Original name: c
                         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                             entity = {};
@@ -273,8 +273,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            entity = entity.bind(tangon)(michal);
-            romeon = entity.containerStyle;
+            entity = entity.bind(tangon)(oscard);
+            foxtra = entity.containerStyle;
             zuuluu = _closure1_slot7;
             michal = _closure1_slot4;
             entity = {};
@@ -289,27 +289,57 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity['onPress'] = report;
+            report = true;
+            entity['accessible'] = report;
+            golfie = _closure1_slot0;
+            kiloes = _closure1_slot2;
+            report = 13;
+            yankee = kiloes[report];
+            yankee = golfie.bind(tangon)(yankee);
+            backup = yankee.intl;
+            yankee = backup.string;
+            report = kiloes[report];
+            report = golfie.bind(tangon)(report);
+            golfie = report.t;
+            if(oscard) { _fun00002_ip = 228; continue _fun00001 }
+ 213:
+            report = golfie.buV4am;
+            report = yankee.bind(backup)(report);
+            _fun00002_ip = 241; continue _fun00001;
+ 228:
+            golfie = golfie.5cRA/f;
+            report = yankee.bind(backup)(golfie);
+ 241:
+            entity['accessibilityLabel'] = report;
+            report = 'switch';
+            entity['accessibilityRole'] = report;
+            report = {};
+            report['checked'] = oscard;
+            entity['accessibilityState'] = report;
+            golfie = _closure1_slot7;
+            oscard = _closure1_slot1;
+            yankee = _closure1_slot2;
             report = 5;
-            report = offset[report];
+            report = yankee[report];
             report = oscard.bind(tangon)(report);
             oscard = report.View;
             report = {};
-            foxtra = yankee.container;
-            yankee = new Array(2);
-            yankee[0] = foxtra;
-            yankee[1] = romeon;
-            report['style'] = yankee;
-            report['ref'] = option;
-            option = _closure1_slot0;
-            golfie = 13;
-            golfie = offset[golfie];
-            golfie = option.bind(tangon)(golfie);
-            option = golfie.SuperReactionIcon;
-            golfie = {};
-            golfie['color'] = verify;
-            golfie = zuuluu.bind(tangon)(option, golfie);
-            report['children'] = golfie;
-            report = zuuluu.bind(tangon)(oscard, report);
+            backup = romeon.container;
+            romeon = new Array(2);
+            romeon[0] = backup;
+            romeon[1] = foxtra;
+            report['style'] = romeon;
+            report['ref'] = verify;
+            verify = _closure1_slot0;
+            option = 14;
+            option = yankee[option];
+            option = verify.bind(tangon)(option);
+            verify = option.SuperReactionIcon;
+            option = {};
+            option['color'] = offset;
+            option = golfie.bind(tangon)(verify, option);
+            report['children'] = option;
+            report = golfie.bind(tangon)(oscard, report);
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

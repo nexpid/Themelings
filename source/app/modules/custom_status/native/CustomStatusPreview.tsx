@@ -54,10 +54,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {'flex': 1, 'position': 'relative', 'overflow': 'hidden', 'width': 323, 'maxHeight': 277, 'borderWidth': null, 'borderColor': null, 'borderRadius': 16};
             zuuluu = 1;
             tangon = zuuluu;
-            if(!report) { _fun00002_ip = 26; continue _fun00001 }
- 24:
+            if(!report) { _fun00002_ip = 30; continue _fun00001 }
+ 28:
             tangon = undefined;
- 26:
+ 30:
             michal['borderWidth'] = tangon;
             verify = _closure1_slot1;
             oscard = _closure1_slot2;
@@ -66,13 +66,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = undefined;
             option = verify.bind(oscard)(option);
             option = option.colors;
-            if(report) { _fun00002_ip = 73; continue _fun00001 }
- 65:
+            if(report) { _fun00002_ip = 77; continue _fun00001 }
+ 69:
             report = option.BACKGROUND_FLOATING;
-            _fun00002_ip = 79; continue _fun00001;
- 73:
+            _fun00002_ip = 83; continue _fun00001;
+ 77:
             report = option.BORDER_FAINT;
- 79:
+ 83:
             michal['borderColor'] = report;
             report = _closure1_slot1;
             tangon = _closure1_slot2;

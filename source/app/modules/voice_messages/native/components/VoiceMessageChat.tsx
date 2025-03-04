@@ -736,10 +736,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         sizing = tangon.bind(kiloes)();
         tangon = 17;
         kiloes = tangon;
-        if(!sizing) { _fun00002_ip = 622; continue _fun00001 }
- 619:
+        if(!sizing) { _fun00002_ip = 626; continue _fun00001 }
+ 623:
         kiloes = 14;
- 622:
+ 626:
         backup['lineHeight'] = kiloes;
         golfie['duration'] = backup;
         golfie = verify.bind(foxtra)(golfie);

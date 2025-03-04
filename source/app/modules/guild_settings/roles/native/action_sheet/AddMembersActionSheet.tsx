@@ -789,10 +789,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             option['onPress'] = echoed;
             echoed = 'primary';
-            if(!romeon) { _fun00014_ip = 494; continue _fun00013 }
- 490:
-            echoed = 'secondary';
+            if(!romeon) { _fun00014_ip = 498; continue _fun00013 }
  494:
+            echoed = 'secondary';
+ 498:
             option['variant'] = echoed;
             option['disabled'] = romeon;
             option = yankee.bind(tangon)(offset, option);

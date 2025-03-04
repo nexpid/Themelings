@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             tangon = _closure2_slot1;
             zuuluu = tangon.addListener;
             michal = 'beforeRemove';
-            entity = function() {
+            entity = function(argFoo) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     michal = _closure2_slot2;
@@ -57,12 +57,14 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
                     zuuluu = null;
                     michal = zuuluu == tangon;
  25:
-                    if(michal) { _fun00002_ip = 38; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 47; continue _fun00001 }
  28:
-                    michal = _closure2_slot0;
-                    entity = undefined;
-                    entity = michal.bind(entity)();
- 38:
+                    tangon = _closure2_slot0;
+                    zuuluu = _closure2_slot1;
+                    michal = undefined;
+                    entity = argFoo;
+                    entity = tangon.bind(michal)(entity, zuuluu);
+ 47:
                     entity = undefined;
                     return entity;
                 }

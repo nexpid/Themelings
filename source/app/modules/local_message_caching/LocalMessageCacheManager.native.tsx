@@ -1852,7 +1852,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00060_ip = 428; continue _fun00059 }
+                        if(michal) { _fun00060_ip = 432; continue _fun00059 }
  10:
                         michal = _closure1_slot29;
                         tangon = undefined;
@@ -1862,7 +1862,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return michal;
  27:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(zuuluu) { _fun00060_ip = 425; continue _fun00059 }
+                        if(zuuluu) { _fun00060_ip = 429; continue _fun00059 }
  36:
                         golfie = _closure1_slot18;
                         report = golfie.verbose;
@@ -1890,7 +1890,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         offset = '}';
                         verify = 28;
                         option = null;
-                        if(!zuuluu) { _fun00060_ip = 342; continue _fun00059 }
+                        if(!zuuluu) { _fun00060_ip = 346; continue _fun00059 }
  174:
                         zuuluu = sizing[kiloes];
                         result = zuuluu.channel_id;
@@ -1900,10 +1900,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         golfie = golfie.bind(tangon)(zuuluu);
                         zuuluu = golfie.get;
                         golfie = zuuluu.bind(golfie)(result);
-                        if(!(option == golfie)) { _fun00060_ip = 224; continue _fun00059 }
+                        if(!(option == golfie)) { _fun00060_ip = 228; continue _fun00059 }
  214:
                         golfie = {'ready': false, 'cached': false};
- 224:
+ 228:
                         zuuluu = golfie.ready;
                         vacuum = golfie.cached;
                         update = _closure1_slot18;
@@ -1918,25 +1918,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         ctrled = offset;
                         golfie = papara[golfie](cntext, record, config, sequen, vacuum, ctrled, source);
                         golfie = echoed.bind(update)(golfie);
-                        if(!zuuluu) { _fun00060_ip = 327; continue _fun00059 }
- 287:
+                        if(!zuuluu) { _fun00060_ip = 331; continue _fun00059 }
+ 291:
                         golfie = _closure1_slot18;
                         zuuluu = golfie.verbose;
                         zuuluu = zuuluu.bind(golfie)(backup);
                         golfie = _closure3_slot0;
                         zuuluu = golfie.handleChannelLoaded;
                         zuuluu = zuuluu.bind(golfie)(result);
-                        SaveGenerator(address=321);
- 319:
+                        SaveGenerator(address=325);
+ 323:
                         return zuuluu;
- 321:
+ 325:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                        if(golfie) { _fun00060_ip = 422; continue _fun00059 }
- 327:
+                        if(golfie) { _fun00060_ip = 426; continue _fun00059 }
+ 331:
                         kiloes = kiloes + 1;
                         golfie = sizing.length;
                         if(kiloes < golfie) { _fun00060_ip = 174; continue _fun00059 }
- 342:
+ 346:
                         golfie = _closure1_slot1;
                         option = _closure1_slot2;
                         oscard = 22;
@@ -1954,11 +1954,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         report = 'CACHE_LOADED';
                         report = golfie.bind(option)(report, oscard);
                         return tangon;
- 422:
+ 426:
                         return zuuluu;
- 425:
+ 429:
                         return michal;
- 428:
+ 432:
                         return entity;
                     }
                 };

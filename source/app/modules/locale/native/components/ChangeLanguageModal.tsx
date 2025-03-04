@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 476; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 480; continue _fun00001 }
  10:
                     michal = _closure1_slot4;
                     zuuluu = undefined;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  32:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 473; continue _fun00001 }
+                    if(report) { _fun00002_ip = 477; continue _fun00001 }
  41:
                     oscard = _closure1_slot1;
                     golfie = _closure1_slot2;
@@ -193,9 +193,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = tangon.CHANGE_LANGUAGE_MODAL_YES_CLICKED;
                     tangon = report.bind(oscard)(tangon);
                     return zuuluu;
- 473:
+ 477:
                     return michal;
- 476:
+ 480:
                     return entity;
                 }
             };

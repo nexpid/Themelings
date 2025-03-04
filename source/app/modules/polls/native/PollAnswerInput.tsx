@@ -689,7 +689,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon[1] = oscard;
             entity['children'] = tangon;
             entity = zuuluu.bind(report)(michal, entity);
-            _fun00006_ip = 1288; continue _fun00005;
+            _fun00006_ip = 1292; continue _fun00005;
  546:
             tangon = _closure1_slot13;
             zuuluu = _closure1_slot14;
@@ -809,8 +809,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = backup.bind(report)(foxtra, offset);
             offset = new Array(2);
             offset[0] = foxtra;
-            if(!romeon) { _fun00006_ip = 1213; continue _fun00005 }
- 1010:
+            if(!romeon) { _fun00006_ip = 1217; continue _fun00005 }
+ 1014:
             kiloes = _closure1_slot12;
             backup = _closure1_slot4;
             foxtra = {};
@@ -862,14 +862,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = result.bind(report)(output, sizing);
             foxtra['children'] = sizing;
             romeon = kiloes.bind(report)(backup, foxtra);
- 1213:
+ 1217:
             offset[1] = romeon;
             oscard['children'] = offset;
             verify = tangon.bind(report)(verify, oscard);
             oscard = new Array(2);
             oscard[0] = verify;
-            if(!golfie) { _fun00006_ip = 1274; continue _fun00005 }
- 1238:
+            if(!golfie) { _fun00006_ip = 1278; continue _fun00005 }
+ 1242:
             offset = _closure1_slot12;
             verify = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -879,11 +879,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = {};
             option['message'] = yankee;
             golfie = offset.bind(report)(verify, option);
- 1274:
+ 1278:
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1288:
+ 1292:
             return entity;
         }
     };

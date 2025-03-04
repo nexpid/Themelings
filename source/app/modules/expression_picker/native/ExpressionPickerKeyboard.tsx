@@ -276,41 +276,78 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot10 = tangon;
     tangon = golfie.memo;
     michal = function(argFoo) { // Original name: ExpressionPickerKeyboard
-        entity = argFoo;
-        michal = entity.channel;
+        zuuluu = argFoo;
+        michal = zuuluu.channel;
         var _closure2_slot0 = michal;
-        verify = entity.chatInputRef;
-        var _closure2_slot1 = verify;
-        golfie = entity.onClose;
-        oscard = entity.transitionState;
-        zuuluu = _closure1_slot3;
-        michal = zuuluu.useContext;
-        yankee = _closure1_slot0;
-        offset = _closure1_slot2;
-        entity = 5;
-        entity = offset[entity];
-        tangon = undefined;
-        entity = yankee.bind(tangon)(entity);
-        entity = entity.PortalKeyboardContext;
-        entity = michal.bind(zuuluu)(entity);
-        entity = entity.bottomSheetRefs;
-        entity = entity.expression;
-        var _closure2_slot2 = entity;
-        zuuluu = _closure1_slot7;
-        michal = _closure1_slot1;
-        entity = 12;
-        entity = offset[entity];
-        michal = michal.bind(tangon)(entity);
-        entity = {};
-        entity['chatInputRef'] = verify;
-        option = _closure1_slot6;
-        entity['animationConfigs'] = option;
-        entity['onClose'] = golfie;
-        entity['transitionState'] = oscard;
+        offset = zuuluu.chatInputRef;
+        var _closure2_slot1 = offset;
+        michal = zuuluu.onClose;
+        var _closure2_slot2 = michal;
+        oscard = zuuluu.transitionState;
+        option = _closure1_slot3;
+        golfie = option.useContext;
+        tangon = _closure1_slot0;
+        yankee = _closure1_slot2;
+        zuuluu = 5;
+        zuuluu = yankee[zuuluu];
+        report = undefined;
+        zuuluu = tangon.bind(report)(zuuluu);
+        zuuluu = zuuluu.PortalKeyboardContext;
+        zuuluu = golfie.bind(option)(zuuluu);
+        zuuluu = zuuluu.bottomSheetRefs;
+        zuuluu = zuuluu.expression;
+        var _closure2_slot3 = zuuluu;
+        zuuluu = 12;
+        zuuluu = yankee[zuuluu];
+        tangon = tangon.bind(report)(zuuluu);
+        zuuluu = tangon.useIsScreenReaderEnabled;
+        golfie = zuuluu.bind(tangon)();
+        var _closure2_slot4 = golfie;
+        tangon = option.useCallback;
+        zuuluu = new Array(3);
+        zuuluu[0] = michal;
+        zuuluu[1] = golfie;
+        zuuluu[2] = offset;
+        michal = function() {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+                zuuluu = _closure2_slot2;
+                michal = null;
+                if(!(michal != zuuluu)) { _fun00006_ip = 23; continue _fun00005 }
+ 13:
+                zuuluu = _closure2_slot2;
+                michal = undefined;
+                michal = zuuluu.bind(michal)();
+ 23:
+                michal = _closure2_slot4;
+                if(!michal) { _fun00006_ip = 49; continue _fun00005 }
+ 30:
+                entity = _closure2_slot1;
+                michal = entity.current;
+                entity = michal.openSystemKeyboard;
+                entity = entity.bind(michal)();
+ 49:
+                entity = undefined;
+                return entity;
+            }
+        };
+        option = tangon.bind(option)(michal, zuuluu);
+        tangon = _closure1_slot7;
+        zuuluu = _closure1_slot1;
+        michal = 13;
+        michal = yankee[michal];
+        zuuluu = zuuluu.bind(report)(michal);
+        michal = {};
+        michal['forceMaxHeight'] = golfie;
+        michal['chatInputRef'] = offset;
+        verify = _closure1_slot6;
+        michal['animationConfigs'] = verify;
+        michal['onClose'] = option;
+        michal['transitionState'] = oscard;
         oscard = 'expression';
-        entity['refKey'] = oscard;
-        report = function(argFoo) { // Original name: children
-            zuuluu = _closure2_slot2;
+        michal['refKey'] = oscard;
+        entity = function(argFoo) { // Original name: children
+            zuuluu = _closure2_slot3;
             michal = argFoo;
             michal = michal.current;
             zuuluu['current'] = michal;
@@ -325,12 +362,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = tangon.bind(entity)(zuuluu, michal);
             return entity;
         };
-        entity['children'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
+        michal['children'] = entity;
+        entity = global;
+        entity = entity.HermesInternal;
+        oscard = entity.concat;
+        entity = 'expression-picker-';
+        entity = oscard.bind(entity)(golfie);
+        entity = tangon.bind(report)(zuuluu, michal, entity);
         return entity;
     };
     michal = tangon.bind(golfie)(michal);
-    tangon = 13;
+    tangon = 14;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

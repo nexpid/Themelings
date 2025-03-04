@@ -119,14 +119,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure2_slot5;
                     michal = zuuluu.current;
  30:
-                    if(michal) { _fun00004_ip = 63; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 67; continue _fun00003 }
  33:
                     michal = _closure2_slot3;
                     tangon = michal.current;
                     zuuluu = tangon.scrollTo;
                     michal = {'animated': false, 'y': 0};
                     michal = zuuluu.bind(tangon)(michal);
- 63:
+ 67:
                     michal = _closure2_slot5;
                     entity = false;
                     michal['current'] = entity;

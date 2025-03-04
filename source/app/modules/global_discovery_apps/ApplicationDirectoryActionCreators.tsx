@@ -1,4 +1,4 @@
-// app/modules/application_directory/ApplicationDirectoryActionCreators.tsx
+// app/modules/global_discovery_apps/ApplicationDirectoryActionCreators.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     verify = argBaz;
@@ -1368,7 +1368,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/application_directory/ApplicationDirectoryActionCreators.tsx';
+    tangon = 'modules/global_discovery_apps/ApplicationDirectoryActionCreators.tsx';
     tangon = report.bind(oscard)(tangon);
     tangon = function() { // Original name: getEmbedApplication
         entity = undefined;

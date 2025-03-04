@@ -508,15 +508,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = sequen.bind(tangon)(vacuum);
             sequen = vacuum.CaptionIcon;
             vacuum = {};
-            if(papara) { _fun00002_ip = 1692; continue _fun00001 }
- 1679:
+            if(papara) { _fun00002_ip = 1694; continue _fun00001 }
+ 1681:
             papara = target.iconDisabled;
             papara = papara.color;
-            _fun00002_ip = 1702; continue _fun00001;
- 1692:
+            _fun00002_ip = 1704; continue _fun00001;
+ 1694:
             target = target.icon;
             papara = target.color;
- 1702:
+ 1704:
             vacuum['color'] = papara;
             vacuum = record.bind(tangon)(sequen, vacuum);
             kiloes['children'] = vacuum;
@@ -736,10 +736,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['padding'] = tangon;
             option = argFoo;
             tangon = undefined;
-            if(!option) { _fun00004_ip = 409; continue _fun00003 }
- 407:
+            if(!option) { _fun00004_ip = 413; continue _fun00003 }
+ 411:
             tangon = 0;
- 409:
+ 413:
             michal['paddingBottom'] = tangon;
             report = _closure1_slot1;
             tangon = _closure1_slot2;

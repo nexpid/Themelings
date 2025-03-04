@@ -1,4 +1,4 @@
-// app/modules/application_directory/stores/ApplicationDirectorySearchStore.tsx
+// app/modules/global_discovery_apps/stores/ApplicationDirectorySearchStore.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = argBar;
     option = argBaz;
@@ -439,7 +439,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
-    report = 'modules/application_directory/stores/ApplicationDirectorySearchStore.tsx';
+    report = 'modules/global_discovery_apps/stores/ApplicationDirectorySearchStore.tsx';
     report = oscard.bind(golfie)(report);
     zuuluu['default'] = tangon;
     zuuluu['FetchState'] = michal;

@@ -10,27 +10,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = function(argFoo) { // Original name: getFriendRequestItemBody
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zuuluu = argFoo;
-            golfie = zuuluu.username;
-            michal = zuuluu.applicationId;
+            entity = argFoo;
+            golfie = entity.username;
+            michal = entity.applicationId;
             var _closure2_slot0 = michal;
-            entity = zuuluu.renderApplication;
-            var _closure2_slot1 = entity;
-            entity = zuuluu.disambiguateGameRelationships;
-            report = zuuluu.withApplicationAndDisambiguation;
-            option = zuuluu.withDisambiguation;
-            verify = zuuluu.withApplication;
-            tangon = zuuluu.withDefault;
-            if(!entity) { _fun00002_ip = 71; continue _fun00001 }
- 62:
-            zuuluu = null;
-            if(!(zuuluu == michal)) { _fun00002_ip = 239; continue _fun00001 }
- 71:
-            if(entity) { _fun00002_ip = 190; continue _fun00001 }
- 74:
+            zuuluu = entity.renderApplication;
+            var _closure2_slot1 = zuuluu;
+            report = entity.withApplication;
+            tangon = entity.withDefault;
             entity = null;
-            if(!(entity == michal)) { _fun00002_ip = 129; continue _fun00001 }
- 80:
+            if(!(entity == michal)) { _fun00002_ip = 96; continue _fun00001 }
+ 47:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
             entity = 5;
@@ -42,44 +32,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = {};
             entity['username'] = golfie;
             entity = michal.bind(zuuluu)(tangon, entity);
-            _fun00002_ip = 188; continue _fun00001;
- 129:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            michal = 5;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            michal = tangon.bind(michal)(zuuluu);
-            tangon = michal.intl;
-            zuuluu = tangon.format;
-            michal = {};
-            michal['username'] = golfie;
-            offset = function() { // Original name: applicationName
-                zuuluu = _closure2_slot1;
-                michal = _closure2_slot0;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                return entity;
-            };
-            michal['applicationName'] = offset;
-            entity = zuuluu.bind(tangon)(verify, michal);
- 188:
-            _fun00002_ip = 237; continue _fun00001;
- 190:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            michal = 5;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            michal = tangon.bind(michal)(zuuluu);
-            tangon = michal.intl;
-            zuuluu = tangon.format;
-            michal = {};
-            michal['username'] = golfie;
-            entity = zuuluu.bind(tangon)(option, michal);
- 237:
-            _fun00002_ip = 298; continue _fun00001;
- 239:
+            _fun00002_ip = 155; continue _fun00001;
+ 96:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
             michal = 5;
@@ -99,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             michal['applicationName'] = oscard;
             entity = zuuluu.bind(tangon)(report, michal);
- 298:
+ 155:
             return entity;
         }
     };
@@ -151,222 +105,145 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             entity = argFoo;
             michal = entity.item;
-            offset = entity.renderApplication;
-            var _closure2_slot0 = offset;
-            verify = entity.disambiguateGameRelationships;
+            verify = entity.renderApplication;
+            var _closure2_slot0 = verify;
             option = undefined;
             var _closure2_slot1 = option;
             entity = michal.other_user;
             zuuluu = null;
             tangon = zuuluu == entity;
             golfie = undefined;
-            if(tangon) { _fun00004_ip = 54; continue _fun00003 }
- 49:
+            if(tangon) { _fun00004_ip = 48; continue _fun00003 }
+ 43:
             golfie = entity.id;
- 54:
-            if(!(zuuluu == golfie)) { _fun00004_ip = 65; continue _fun00003 }
- 58:
+ 48:
+            if(!(zuuluu == golfie)) { _fun00004_ip = 59; continue _fun00003 }
+ 52:
             golfie = _closure1_slot8;
- 65:
+ 59:
             report = _closure1_slot1;
             tangon = _closure1_slot2;
             oscard = 6;
             tangon = tangon[oscard];
-            yankee = report.bind(option)(tangon);
-            report = yankee.getName;
-            foxtra = _closure1_slot7;
-            romeon = foxtra.getUser;
-            backup = michal.other_user;
-            sizing = zuuluu == backup;
+            offset = report.bind(option)(tangon);
+            report = offset.getName;
+            romeon = _closure1_slot7;
+            yankee = romeon.getUser;
+            foxtra = michal.other_user;
+            kiloes = zuuluu == foxtra;
             tangon = undefined;
-            if(sizing) { _fun00004_ip = 124; continue _fun00003 }
- 119:
-            tangon = backup.id;
- 124:
-            tangon = romeon.bind(foxtra)(tangon);
-            yankee = report.bind(yankee)(tangon);
-            romeon = michal.applicationId;
-            _closure2_slot1 = romeon;
+            if(kiloes) { _fun00004_ip = 118; continue _fun00003 }
+ 113:
+            tangon = foxtra.id;
+ 118:
+            tangon = yankee.bind(romeon)(tangon);
+            yankee = report.bind(offset)(tangon);
+            offset = michal.applicationId;
+            _closure2_slot1 = offset;
             report = michal.type;
-            foxtra = _closure1_slot0;
+            romeon = _closure1_slot0;
             tangon = _closure1_slot2;
-            backup = 7;
-            tangon = tangon[backup];
-            tangon = foxtra.bind(option)(tangon);
+            foxtra = 7;
+            tangon = tangon[foxtra];
+            tangon = romeon.bind(option)(tangon);
             tangon = tangon.NotificationCenterLocalItems;
             tangon = tangon.FRIEND_REQUESTS_GROUPED;
-            if(!(tangon !== report)) { _fun00004_ip = 1803; continue _fun00003 }
- 187:
-            foxtra = _closure1_slot0;
+            if(!(tangon !== report)) { _fun00004_ip = 1620; continue _fun00003 }
+ 181:
+            romeon = _closure1_slot0;
             tangon = _closure1_slot2;
-            tangon = tangon[backup];
-            tangon = foxtra.bind(option)(tangon);
+            tangon = tangon[foxtra];
+            tangon = romeon.bind(option)(tangon);
             tangon = tangon.NotificationCenterLocalItems;
             tangon = tangon.MOBILE_NATIVE_UPDATE_AVAILABLE;
-            if(!(tangon !== report)) { _fun00004_ip = 1717; continue _fun00003 }
- 223:
-            foxtra = _closure1_slot0;
+            if(!(tangon !== report)) { _fun00004_ip = 1534; continue _fun00003 }
+ 217:
+            romeon = _closure1_slot0;
             tangon = _closure1_slot2;
-            tangon = tangon[backup];
-            tangon = foxtra.bind(option)(tangon);
+            tangon = tangon[foxtra];
+            tangon = romeon.bind(option)(tangon);
             tangon = tangon.NotificationCenterItems;
             tangon = tangon.FRIEND_SUGGESTION_CREATED;
-            if(!(tangon !== report)) { _fun00004_ip = 1601; continue _fun00003 }
- 259:
-            foxtra = _closure1_slot0;
+            if(!(tangon !== report)) { _fun00004_ip = 1418; continue _fun00003 }
+ 253:
+            romeon = _closure1_slot0;
             tangon = _closure1_slot2;
-            tangon = tangon[backup];
-            tangon = foxtra.bind(option)(tangon);
+            tangon = tangon[foxtra];
+            tangon = romeon.bind(option)(tangon);
             tangon = tangon.NotificationCenterItems;
             tangon = tangon.GUILD_SCHEDULED_EVENT_STARTED;
-            if(!(tangon !== report)) { _fun00004_ip = 1330; continue _fun00003 }
- 295:
-            foxtra = _closure1_slot0;
+            if(!(tangon !== report)) { _fun00004_ip = 1147; continue _fun00003 }
+ 289:
+            romeon = _closure1_slot0;
             tangon = _closure1_slot2;
-            tangon = tangon[backup];
-            tangon = foxtra.bind(option)(tangon);
+            tangon = tangon[foxtra];
+            tangon = romeon.bind(option)(tangon);
             tangon = tangon.NotificationCenterLocalItems;
             tangon = tangon.INCOMING_FRIEND_REQUESTS;
-            if(!(tangon !== report)) { _fun00004_ip = 1182; continue _fun00003 }
- 331:
-            foxtra = _closure1_slot0;
+            if(!(tangon !== report)) { _fun00004_ip = 1058; continue _fun00003 }
+ 325:
+            romeon = _closure1_slot0;
             tangon = _closure1_slot2;
-            tangon = tangon[backup];
-            tangon = foxtra.bind(option)(tangon);
+            tangon = tangon[foxtra];
+            tangon = romeon.bind(option)(tangon);
             tangon = tangon.NotificationCenterLocalItems;
             tangon = tangon.INCOMING_FRIEND_REQUESTS_ACCEPTED;
-            if(!(tangon !== report)) { _fun00004_ip = 1034; continue _fun00003 }
- 367:
-            foxtra = _closure1_slot0;
+            if(!(tangon !== report)) { _fun00004_ip = 969; continue _fun00003 }
+ 361:
+            romeon = _closure1_slot0;
             tangon = _closure1_slot2;
-            tangon = tangon[backup];
-            tangon = foxtra.bind(option)(tangon);
+            tangon = tangon[foxtra];
+            tangon = romeon.bind(option)(tangon);
             tangon = tangon.NotificationCenterItems;
             tangon = tangon.FRIEND_REQUEST_ACCEPTED;
-            if(!(tangon !== report)) { _fun00004_ip = 884; continue _fun00003 }
- 403:
-            foxtra = _closure1_slot0;
+            if(!(tangon !== report)) { _fun00004_ip = 878; continue _fun00003 }
+ 397:
+            romeon = _closure1_slot0;
             tangon = _closure1_slot2;
-            tangon = tangon[backup];
-            tangon = foxtra.bind(option)(tangon);
+            tangon = tangon[foxtra];
+            tangon = romeon.bind(option)(tangon);
             tangon = tangon.NotificationCenterLocalItems;
             tangon = tangon.INCOMING_GAME_FRIEND_REQUESTS_ACCEPTED;
-            if(!(tangon !== report)) { _fun00004_ip = 751; continue _fun00003 }
- 439:
-            foxtra = _closure1_slot0;
+            if(!(tangon !== report)) { _fun00004_ip = 745; continue _fun00003 }
+ 433:
+            romeon = _closure1_slot0;
             tangon = _closure1_slot2;
-            tangon = tangon[backup];
-            tangon = foxtra.bind(option)(tangon);
+            tangon = tangon[foxtra];
+            tangon = romeon.bind(option)(tangon);
             tangon = tangon.NotificationCenterLocalItems;
             tangon = tangon.INCOMING_GAME_FRIEND_REQUESTS;
-            if(!(tangon !== report)) { _fun00004_ip = 618; continue _fun00003 }
- 475:
-            foxtra = _closure1_slot0;
+            if(!(tangon !== report)) { _fun00004_ip = 612; continue _fun00003 }
+ 469:
+            romeon = _closure1_slot0;
             tangon = _closure1_slot2;
-            tangon = tangon[backup];
-            tangon = foxtra.bind(option)(tangon);
+            tangon = tangon[foxtra];
+            tangon = romeon.bind(option)(tangon);
             tangon = tangon.NotificationCenterItems;
             tangon = tangon.GAME_FRIEND_REQUEST_ACCEPTED;
-            if(!(tangon !== report)) { _fun00004_ip = 529; continue _fun00003 }
- 508:
+            if(!(tangon !== report)) { _fun00004_ip = 523; continue _fun00003 }
+ 502:
             report = michal.body;
-            foxtra = zuuluu != report;
+            romeon = zuuluu != report;
             tangon = '';
-            if(!foxtra) { _fun00004_ip = 527; continue _fun00003 }
- 524:
+            if(!romeon) { _fun00004_ip = 521; continue _fun00003 }
+ 518:
             tangon = report;
- 527:
+ 521:
             return tangon;
- 529:
-            if(!(zuuluu != romeon)) { _fun00004_ip = 611; continue _fun00003 }
- 533:
+ 523:
+            if(!(zuuluu != offset)) { _fun00004_ip = 605; continue _fun00003 }
+ 527:
             report = _closure1_slot0;
-            sizing = _closure1_slot2;
+            kiloes = _closure1_slot2;
             tangon = 5;
-            foxtra = sizing[tangon];
-            foxtra = report.bind(option)(foxtra);
-            backup = foxtra.intl;
-            foxtra = backup.format;
-            tangon = sizing[tangon];
+            romeon = kiloes[tangon];
+            romeon = report.bind(option)(romeon);
+            foxtra = romeon.intl;
+            romeon = foxtra.format;
+            tangon = kiloes[tangon];
             tangon = report.bind(option)(tangon);
             tangon = tangon.t;
             report = tangon.Wi64vL;
-            tangon = {};
-            tangon['username'] = yankee;
-            sizing = function() { // Original name: applicationName
-                zuuluu = _closure2_slot0;
-                michal = _closure2_slot1;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                return entity;
-            };
-            tangon['applicationName'] = sizing;
-            tangon = foxtra.bind(backup)(report, tangon);
-            _fun00004_ip = 616; continue _fun00003;
- 611:
-            tangon = michal.body;
- 616:
-            return tangon;
- 618:
-            report = _closure1_slot1;
-            sizing = _closure1_slot2;
-            tangon = 9;
-            tangon = sizing[tangon];
-            foxtra = report.bind(option)(tangon);
-            report = zuuluu != romeon;
-            output = michal.type;
-            tangon = global;
-            tangon = tangon.HermesInternal;
-            backup = tangon.concat;
-            tangon = 'Expected application id for ';
-            tangon = backup.bind(tangon)(output);
-            tangon = foxtra.bind(option)(report, tangon);
-            report = _closure1_slot0;
-            tangon = 5;
-            foxtra = sizing[tangon];
-            foxtra = report.bind(option)(foxtra);
-            backup = foxtra.intl;
-            foxtra = backup.format;
-            tangon = sizing[tangon];
-            tangon = report.bind(option)(tangon);
-            tangon = tangon.t;
-            report = tangon.7cqOLC;
-            tangon = {};
-            tangon['username'] = yankee;
-            sizing = function() { // Original name: applicationName
-                zuuluu = _closure2_slot0;
-                michal = _closure2_slot1;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                return entity;
-            };
-            tangon['applicationName'] = sizing;
-            tangon = foxtra.bind(backup)(report, tangon);
-            return tangon;
- 751:
-            report = _closure1_slot1;
-            sizing = _closure1_slot2;
-            tangon = 9;
-            tangon = sizing[tangon];
-            foxtra = report.bind(option)(tangon);
-            report = zuuluu != romeon;
-            output = michal.type;
-            tangon = global;
-            tangon = tangon.HermesInternal;
-            backup = tangon.concat;
-            tangon = 'Expected application id for ';
-            tangon = backup.bind(tangon)(output);
-            tangon = foxtra.bind(option)(report, tangon);
-            report = _closure1_slot0;
-            tangon = 5;
-            foxtra = sizing[tangon];
-            foxtra = report.bind(option)(foxtra);
-            backup = foxtra.intl;
-            foxtra = backup.format;
-            tangon = sizing[tangon];
-            tangon = report.bind(option)(tangon);
-            tangon = tangon.t;
-            report = tangon.BB/0vr;
             tangon = {};
             tangon['username'] = yankee;
             kiloes = function() { // Original name: applicationName
@@ -377,97 +254,140 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             tangon['applicationName'] = kiloes;
-            tangon = foxtra.bind(backup)(report, tangon);
+            tangon = romeon.bind(foxtra)(report, tangon);
+            _fun00004_ip = 610; continue _fun00003;
+ 605:
+            tangon = michal.body;
+ 610:
             return tangon;
- 884:
+ 612:
+            report = _closure1_slot1;
+            kiloes = _closure1_slot2;
+            tangon = 9;
+            tangon = kiloes[tangon];
+            romeon = report.bind(option)(tangon);
+            report = zuuluu != offset;
+            sizing = michal.type;
+            tangon = global;
+            tangon = tangon.HermesInternal;
+            foxtra = tangon.concat;
+            tangon = 'Expected application id for ';
+            tangon = foxtra.bind(tangon)(sizing);
+            tangon = romeon.bind(option)(report, tangon);
+            report = _closure1_slot0;
+            tangon = 5;
+            romeon = kiloes[tangon];
+            romeon = report.bind(option)(romeon);
+            foxtra = romeon.intl;
+            romeon = foxtra.format;
+            tangon = kiloes[tangon];
+            tangon = report.bind(option)(tangon);
+            tangon = tangon.t;
+            report = tangon.7cqOLC;
+            tangon = {};
+            tangon['username'] = yankee;
+            kiloes = function() { // Original name: applicationName
+                zuuluu = _closure2_slot0;
+                michal = _closure2_slot1;
+                entity = undefined;
+                entity = zuuluu.bind(entity)(michal);
+                return entity;
+            };
+            tangon['applicationName'] = kiloes;
+            tangon = romeon.bind(foxtra)(report, tangon);
+            return tangon;
+ 745:
+            report = _closure1_slot1;
+            kiloes = _closure1_slot2;
+            tangon = 9;
+            tangon = kiloes[tangon];
+            romeon = report.bind(option)(tangon);
+            report = zuuluu != offset;
+            sizing = michal.type;
+            tangon = global;
+            tangon = tangon.HermesInternal;
+            foxtra = tangon.concat;
+            tangon = 'Expected application id for ';
+            tangon = foxtra.bind(tangon)(sizing);
+            tangon = romeon.bind(option)(report, tangon);
+            report = _closure1_slot0;
+            tangon = 5;
+            romeon = kiloes[tangon];
+            romeon = report.bind(option)(romeon);
+            foxtra = romeon.intl;
+            romeon = foxtra.format;
+            tangon = kiloes[tangon];
+            tangon = report.bind(option)(tangon);
+            tangon = tangon.t;
+            report = tangon.BB/0vr;
+            tangon = {};
+            tangon['username'] = yankee;
+            backup = function() { // Original name: applicationName
+                zuuluu = _closure2_slot0;
+                michal = _closure2_slot1;
+                entity = undefined;
+                entity = zuuluu.bind(entity)(michal);
+                return entity;
+            };
+            tangon['applicationName'] = backup;
+            tangon = romeon.bind(foxtra)(report, tangon);
+            return tangon;
+ 878:
             report = _closure1_slot10;
             tangon = {};
             tangon['username'] = yankee;
-            tangon['applicationId'] = romeon;
-            tangon['renderApplication'] = offset;
-            tangon['disambiguateGameRelationships'] = verify;
-            backup = _closure1_slot0;
-            kiloes = _closure1_slot2;
-            foxtra = 5;
-            sizing = kiloes[foxtra];
-            sizing = backup.bind(option)(sizing);
-            sizing = sizing.t;
-            sizing = sizing.nc+g/P;
-            tangon['withApplicationAndDisambiguation'] = sizing;
-            sizing = kiloes[foxtra];
-            sizing = backup.bind(option)(sizing);
-            sizing = sizing.t;
-            sizing = sizing.jXlYiI;
-            tangon['withApplication'] = sizing;
-            sizing = kiloes[foxtra];
-            sizing = backup.bind(option)(sizing);
-            sizing = sizing.t;
-            sizing = sizing.T5gdaG;
-            tangon['withDisambiguation'] = sizing;
-            foxtra = kiloes[foxtra];
-            foxtra = backup.bind(option)(foxtra);
-            foxtra = foxtra.t;
-            foxtra = foxtra.McYRBg;
-            tangon['withDefault'] = foxtra;
+            tangon['applicationId'] = offset;
+            tangon['renderApplication'] = verify;
+            foxtra = _closure1_slot0;
+            backup = _closure1_slot2;
+            romeon = 5;
+            kiloes = backup[romeon];
+            kiloes = foxtra.bind(option)(kiloes);
+            kiloes = kiloes.t;
+            kiloes = kiloes.jXlYiI;
+            tangon['withApplication'] = kiloes;
+            romeon = backup[romeon];
+            romeon = foxtra.bind(option)(romeon);
+            romeon = romeon.t;
+            romeon = romeon.McYRBg;
+            tangon['withDefault'] = romeon;
             tangon = report.bind(option)(tangon);
             return tangon;
- 1034:
+ 969:
             report = _closure1_slot10;
             tangon = {};
             tangon['username'] = yankee;
-            tangon['applicationId'] = romeon;
-            tangon['renderApplication'] = offset;
-            tangon['disambiguateGameRelationships'] = verify;
-            backup = _closure1_slot0;
-            kiloes = _closure1_slot2;
-            foxtra = 5;
-            sizing = kiloes[foxtra];
-            sizing = backup.bind(option)(sizing);
-            sizing = sizing.t;
-            sizing = sizing.pXd0yc;
-            tangon['withApplicationAndDisambiguation'] = sizing;
-            sizing = kiloes[foxtra];
-            sizing = backup.bind(option)(sizing);
-            sizing = sizing.t;
-            sizing = sizing.nnC1q6;
-            tangon['withApplication'] = sizing;
-            sizing = kiloes[foxtra];
-            sizing = backup.bind(option)(sizing);
-            sizing = sizing.t;
-            sizing = sizing.Iv4E6+;
-            tangon['withDisambiguation'] = sizing;
-            foxtra = kiloes[foxtra];
-            foxtra = backup.bind(option)(foxtra);
-            foxtra = foxtra.t;
-            foxtra = foxtra.5Uzkdn;
-            tangon['withDefault'] = foxtra;
+            tangon['applicationId'] = offset;
+            tangon['renderApplication'] = verify;
+            foxtra = _closure1_slot0;
+            backup = _closure1_slot2;
+            romeon = 5;
+            kiloes = backup[romeon];
+            kiloes = foxtra.bind(option)(kiloes);
+            kiloes = kiloes.t;
+            kiloes = kiloes.nnC1q6;
+            tangon['withApplication'] = kiloes;
+            romeon = backup[romeon];
+            romeon = foxtra.bind(option)(romeon);
+            romeon = romeon.t;
+            romeon = romeon.5Uzkdn;
+            tangon['withDefault'] = romeon;
             tangon = report.bind(option)(tangon);
             return tangon;
- 1182:
+ 1058:
             report = _closure1_slot10;
             tangon = {};
             tangon['username'] = yankee;
-            tangon['applicationId'] = romeon;
-            tangon['renderApplication'] = offset;
-            tangon['disambiguateGameRelationships'] = verify;
+            tangon['applicationId'] = offset;
+            tangon['renderApplication'] = verify;
             offset = _closure1_slot0;
             romeon = _closure1_slot2;
             verify = 5;
             foxtra = romeon[verify];
             foxtra = offset.bind(option)(foxtra);
             foxtra = foxtra.t;
-            foxtra = foxtra.Yzf3Oz;
-            tangon['withApplicationAndDisambiguation'] = foxtra;
-            foxtra = romeon[verify];
-            foxtra = offset.bind(option)(foxtra);
-            foxtra = foxtra.t;
             foxtra = foxtra.9Dgf1N;
             tangon['withApplication'] = foxtra;
-            foxtra = romeon[verify];
-            foxtra = offset.bind(option)(foxtra);
-            foxtra = foxtra.t;
-            foxtra = foxtra.I6UV2N;
-            tangon['withDisambiguation'] = foxtra;
             verify = romeon[verify];
             verify = offset.bind(option)(verify);
             verify = verify.t;
@@ -475,44 +395,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon['withDefault'] = verify;
             tangon = report.bind(option)(tangon);
             return tangon;
- 1330:
+ 1147:
             offset = michal.guild_scheduled_event_id;
             tangon = zuuluu != offset;
             verify = null;
-            if(!tangon) { _fun00004_ip = 1360; continue _fun00003 }
- 1345:
+            if(!tangon) { _fun00004_ip = 1177; continue _fun00003 }
+ 1162:
             report = _closure1_slot3;
             tangon = report.getGuildScheduledEvent;
             verify = tangon.bind(report)(offset);
- 1360:
+ 1177:
             tangon = zuuluu == verify;
             foxtra = undefined;
-            if(tangon) { _fun00004_ip = 1374; continue _fun00003 }
- 1369:
+            if(tangon) { _fun00004_ip = 1191; continue _fun00003 }
+ 1186:
             foxtra = verify.name;
- 1374:
+ 1191:
             offset = _closure1_slot5;
             report = offset.getGuild;
             romeon = zuuluu == verify;
             tangon = undefined;
-            if(romeon) { _fun00004_ip = 1397; continue _fun00003 }
- 1392:
+            if(romeon) { _fun00004_ip = 1214; continue _fun00003 }
+ 1209:
             tangon = verify.guild_id;
- 1397:
+ 1214:
             tangon = report.bind(offset)(tangon);
             report = zuuluu == tangon;
             romeon = undefined;
-            if(report) { _fun00004_ip = 1416; continue _fun00003 }
- 1411:
+            if(report) { _fun00004_ip = 1233; continue _fun00003 }
+ 1228:
             romeon = tangon.name;
- 1416:
+ 1233:
             report = _closure1_slot4;
             offset = zuuluu != verify;
             tangon = undefined;
-            if(!offset) { _fun00004_ip = 1432; continue _fun00003 }
- 1429:
+            if(!offset) { _fun00004_ip = 1249; continue _fun00003 }
+ 1246:
             tangon = verify;
- 1432:
+ 1249:
             tangon = report.bind(option)(tangon);
             verify = _closure1_slot0;
             report = _closure1_slot2;
@@ -521,18 +441,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = verify.bind(option)(report);
             report = verify.isNullOrEmpty;
             report = report.bind(verify)(romeon);
-            if(report) { _fun00004_ip = 1577; continue _fun00003 }
- 1471:
+            if(report) { _fun00004_ip = 1394; continue _fun00003 }
+ 1288:
             verify = _closure1_slot0;
             report = _closure1_slot2;
             report = report[offset];
             verify = verify.bind(option)(report);
             report = verify.isNullOrEmpty;
             report = report.bind(verify)(foxtra);
-            if(report) { _fun00004_ip = 1577; continue _fun00003 }
- 1502:
-            if(!tangon) { _fun00004_ip = 1577; continue _fun00003 }
- 1505:
+            if(report) { _fun00004_ip = 1394; continue _fun00003 }
+ 1319:
+            if(!tangon) { _fun00004_ip = 1394; continue _fun00003 }
+ 1322:
             report = _closure1_slot0;
             backup = _closure1_slot2;
             tangon = 5;
@@ -548,35 +468,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon['event_name'] = foxtra;
             tangon['guild_name'] = romeon;
             tangon = verify.bind(offset)(report, tangon);
-            _fun00004_ip = 1599; continue _fun00003;
- 1577:
+            _fun00004_ip = 1416; continue _fun00003;
+ 1394:
             verify = michal.body;
             offset = zuuluu != verify;
             report = '';
-            if(!offset) { _fun00004_ip = 1596; continue _fun00003 }
- 1593:
+            if(!offset) { _fun00004_ip = 1413; continue _fun00003 }
+ 1410:
             report = verify;
- 1596:
+ 1413:
             tangon = report;
- 1599:
+ 1416:
             return tangon;
- 1601:
+ 1418:
             report = _closure1_slot6;
             tangon = report.getRelationshipType;
             report = tangon.bind(report)(golfie);
             tangon = _closure1_slot9;
             tangon = tangon.PENDING_OUTGOING;
-            if(!(report !== tangon)) { _fun00004_ip = 1651; continue _fun00003 }
- 1630:
+            if(!(report !== tangon)) { _fun00004_ip = 1468; continue _fun00003 }
+ 1447:
             report = michal.body;
             golfie = zuuluu != report;
             tangon = '';
-            if(!golfie) { _fun00004_ip = 1649; continue _fun00003 }
- 1646:
+            if(!golfie) { _fun00004_ip = 1466; continue _fun00003 }
+ 1463:
             tangon = report;
- 1649:
-            _fun00004_ip = 1715; continue _fun00003;
- 1651:
+ 1466:
+            _fun00004_ip = 1532; continue _fun00003;
+ 1468:
             golfie = _closure1_slot0;
             romeon = _closure1_slot2;
             report = 5;
@@ -591,26 +511,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = {};
             report['user'] = yankee;
             tangon = verify.bind(offset)(golfie, report);
- 1715:
+ 1532:
             return tangon;
- 1717:
+ 1534:
             verify = michal.local_id;
             report = zuuluu == verify;
             tangon = undefined;
-            if(report) { _fun00004_ip = 1756; continue _fun00003 }
- 1732:
+            if(report) { _fun00004_ip = 1573; continue _fun00003 }
+ 1549:
             golfie = verify.split;
             report = '_';
             golfie = golfie.bind(verify)(report);
             report = golfie.pop;
             tangon = report.bind(golfie)();
- 1756:
+ 1573:
             report = zuuluu != tangon;
             verify = 'unknown';
-            if(!report) { _fun00004_ip = 1770; continue _fun00003 }
- 1767:
+            if(!report) { _fun00004_ip = 1587; continue _fun00003 }
+ 1584:
             verify = tangon;
- 1770:
+ 1587:
             tangon = global;
             tangon = tangon.HermesInternal;
             golfie = tangon.concat;
@@ -618,7 +538,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = ' available!';
             tangon = golfie.bind(report)(verify, tangon);
             return tangon;
- 1803:
+ 1620:
             report = _closure1_slot1;
             tangon = _closure1_slot2;
             tangon = tangon[oscard];
@@ -629,16 +549,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             romeon = michal.other_users;
             yankee = zuuluu == romeon;
             tangon = undefined;
-            if(yankee) { _fun00004_ip = 1871; continue _fun00003 }
- 1851:
+            if(yankee) { _fun00004_ip = 1688; continue _fun00003 }
+ 1668:
             yankee = 0;
             yankee = romeon[yankee];
             romeon = zuuluu == yankee;
             tangon = undefined;
-            if(romeon) { _fun00004_ip = 1871; continue _fun00003 }
- 1866:
+            if(romeon) { _fun00004_ip = 1688; continue _fun00003 }
+ 1683:
             tangon = yankee.id;
- 1871:
+ 1688:
             tangon = verify.bind(offset)(tangon);
             golfie = report.bind(golfie)(tangon);
             report = _closure1_slot1;
@@ -651,16 +571,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             romeon = michal.other_users;
             yankee = zuuluu == romeon;
             tangon = undefined;
-            if(yankee) { _fun00004_ip = 1950; continue _fun00003 }
- 1929:
+            if(yankee) { _fun00004_ip = 1767; continue _fun00003 }
+ 1746:
             yankee = 1;
             yankee = romeon[yankee];
             romeon = zuuluu == yankee;
             tangon = undefined;
-            if(romeon) { _fun00004_ip = 1950; continue _fun00003 }
- 1945:
+            if(romeon) { _fun00004_ip = 1767; continue _fun00003 }
+ 1762:
             tangon = yankee.id;
- 1950:
+ 1767:
             tangon = verify.bind(offset)(tangon);
             oscard = report.bind(oscard)(tangon);
             tangon = global;
@@ -669,17 +589,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = michal.other_users;
             offset = zuuluu == verify;
             michal = undefined;
-            if(offset) { _fun00004_ip = 1993; continue _fun00003 }
- 1988:
+            if(offset) { _fun00004_ip = 1810; continue _fun00003 }
+ 1805:
             michal = verify.length;
- 1993:
+ 1810:
             offset = zuuluu != michal;
             zuuluu = 0;
             verify = 0;
-            if(!offset) { _fun00004_ip = 2007; continue _fun00003 }
- 2004:
+            if(!offset) { _fun00004_ip = 1824; continue _fun00003 }
+ 1821:
             verify = michal;
- 2007:
+ 1824:
             michal = 2;
             michal = verify - michal;
             report = tangon.bind(report)(michal, zuuluu);

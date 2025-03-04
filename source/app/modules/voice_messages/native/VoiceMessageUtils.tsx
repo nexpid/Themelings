@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     report = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 321; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 325; continue _fun00003 }
  13:
                     oscard = report;
                     tangon = undefined;
@@ -103,13 +103,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = verify.startLocalAudioRecording;
                     michal = {'echoCancellation': false, 'echoCancellationPreEcho': false, 'noiseSuppression': false, 'automaticGainControl': true, 'noiseCancellation': true};
                     michal = option.bind(verify)(michal);
-                    SaveGenerator(address=175);
- 173:
+                    SaveGenerator(address=179);
+ 177:
                     return michal;
- 175:
+ 179:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=7);
-                    if(option) { _fun00004_ip = 306; continue _fun00003 }
- 184:
+                    if(option) { _fun00004_ip = 310; continue _fun00003 }
+ 188:
                     verify = report.performance;
                     option = verify.now;
                     option = option.bind(verify)();
@@ -124,8 +124,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = option.getState;
                     golfie = golfie.bind(option)();
                     golfie = golfie.recordingId;
-                    if(!(golfie === oscard)) { _fun00004_ip = 303; continue _fun00003 }
- 257:
+                    if(!(golfie === oscard)) { _fun00004_ip = 307; continue _fun00003 }
+ 261:
                     golfie = _closure1_slot9;
                     oscard = _closure1_slot12;
                     oscard = oscard.STARTED;
@@ -135,18 +135,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = golfie.now;
                     report = report.bind(golfie)();
                     report = oscard.bind(tangon)(report);
- 300: // try_end0
+ 304: // try_end0
                     return tangon;
- 303:
+ 307:
                     return tangon;
- 306:
+ 310:
                     return michal;
- 309: // catch_target0
+ 313: // catch_target0
                     CatchBlockStart(arg_register=1);
                     zuuluu = _closure1_slot24;
                     zuuluu = zuuluu.bind(tangon)();
                     throw michal;
- 321:
+ 325:
                     return entity;
                 }
             };
@@ -265,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00008_ip = 159; continue _fun00007 }
+                    if(michal) { _fun00008_ip = 163; continue _fun00007 }
  10:
                     tangon = _closure1_slot11;
                     michal = tangon.getState;
@@ -280,26 +280,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = oscard.REQUESTED;
                     tangon = golfie === oscard;
  62:
-                    if(!tangon) { _fun00008_ip = 85; continue _fun00007 }
+                    if(!tangon) { _fun00008_ip = 89; continue _fun00007 }
  65:
                     oscard = _closure1_slot25;
                     tangon = undefined;
                     tangon = oscard.bind(tangon)();
                     report = {'filename': '', 'durationSecs': 0, 'waveform': ''};
- 85:
-                    if(!(michal == report)) { _fun00008_ip = 112; continue _fun00007 }
  89:
+                    if(!(michal == report)) { _fun00008_ip = 116; continue _fun00007 }
+ 93:
                     tangon = _closure1_slot25;
                     michal = undefined;
                     michal = tangon.bind(michal)();
-                    SaveGenerator(address=103);
- 101:
+                    SaveGenerator(address=107);
+ 105:
                     return michal;
- 103:
+ 107:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                     report = michal;
-                    if(tangon) { _fun00008_ip = 156; continue _fun00007 }
- 112:
+                    if(tangon) { _fun00008_ip = 160; continue _fun00007 }
+ 116:
                     oscard = _closure1_slot11;
                     tangon = oscard.getState;
                     tangon = tangon.bind(oscard)();
@@ -311,9 +311,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['data'] = report;
                     zuuluu['startTimeMillis'] = tangon;
                     return zuuluu;
- 156:
+ 160:
                     return michal;
- 159:
+ 163:
                     return entity;
                 }
             };

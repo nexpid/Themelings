@@ -193,10 +193,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     if(!(!(michal > entity))) { _fun00010_ip = 29; continue _fun00009 }
  13:
                     michal = {'x': 2, 'y': 2, 'size': 4294967292};
-                    _fun00010_ip = 39; continue _fun00009;
+                    _fun00010_ip = 43; continue _fun00009;
  29:
                     michal = {'x': 0, 'y': 0, 'size': 0};
- 39:
+ 43:
                     entity = {};
                     oscard = _closure1_slot0;
                     report = _closure1_slot2;
@@ -209,33 +209,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['shape'] = tangon;
                     tangon = _closure2_slot4;
                     oscard = _closure2_slot0;
-                    if(tangon) { _fun00010_ip = 119; continue _fun00009 }
- 94:
+                    if(tangon) { _fun00010_ip = 123; continue _fun00009 }
+ 98:
                     tangon = 0.625;
                     report = tangon * oscard;
                     tangon = michal.x;
                     report = report + tangon;
-                    _fun00010_ip = 133; continue _fun00009;
- 119:
+                    _fun00010_ip = 137; continue _fun00009;
+ 123:
                     tangon = 0.67;
                     report = tangon * oscard;
- 133:
+ 137:
                     tangon = _closure2_slot1;
                     tangon = report + tangon;
                     entity['x'] = tangon;
                     tangon = _closure2_slot4;
                     oscard = _closure2_slot0;
-                    if(tangon) { _fun00010_ip = 174; continue _fun00009 }
- 156:
+                    if(tangon) { _fun00010_ip = 178; continue _fun00009 }
+ 160:
                     tangon = 3;
                     report = oscard / tangon;
                     tangon = michal.y;
                     report = report + tangon;
-                    _fun00010_ip = 188; continue _fun00009;
- 174:
+                    _fun00010_ip = 192; continue _fun00009;
+ 178:
                     tangon = 0.57;
                     report = tangon * oscard;
- 188:
+ 192:
                     tangon = _closure2_slot1;
                     tangon = report + tangon;
                     entity['y'] = tangon;
@@ -243,14 +243,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = _closure2_slot2;
                     zuuluu = 2;
                     zuuluu = zuuluu * report;
-                    if(tangon) { _fun00010_ip = 229; continue _fun00009 }
- 218:
+                    if(tangon) { _fun00010_ip = 233; continue _fun00009 }
+ 222:
                     michal = michal.size;
                     michal = zuuluu + michal;
-                    _fun00010_ip = 232; continue _fun00009;
- 229:
+                    _fun00010_ip = 236; continue _fun00009;
+ 233:
                     michal = zuuluu;
- 232:
+ 236:
                     entity['size'] = michal;
                     return entity;
                 }

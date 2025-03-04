@@ -511,7 +511,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = output[source];
             result = update.bind(tangon)(result);
             result = result.t;
-            result = result.tfnAkJ;
+            result = result.LAcY7u;
             result = echoed.bind(ctrled)(result);
             offset['label'] = result;
             result = output[source];

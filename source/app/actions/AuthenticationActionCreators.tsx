@@ -1777,7 +1777,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             tangon = _closure1_slot17;
             zuuluu = null;
-            if(!(zuuluu == tangon)) { _fun00040_ip = 152; continue _fun00039 }
+            if(!(zuuluu == tangon)) { _fun00040_ip = 156; continue _fun00039 }
  18:
             zuuluu = global;
             oscard = zuuluu.clearTimeout;
@@ -1933,10 +1933,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             entity = tangon.bind(report)(zuuluu, entity);
             _closure1_slot17 = entity;
-            _fun00040_ip = 156; continue _fun00039;
- 152:
-            entity = _closure1_slot17;
+            _fun00040_ip = 160; continue _fun00039;
  156:
+            entity = _closure1_slot17;
+ 160:
             return entity;
         }
     };

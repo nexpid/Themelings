@@ -544,7 +544,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = report.verbose;
                 zuuluu = 'Skipping _connect because willReconnect is false';
                 zuuluu = tangon.bind(report)(zuuluu);
-                _fun00016_ip = 663; continue _fun00015;
+                _fun00016_ip = 661; continue _fun00015;
  51:
                 report = _closure1_slot2;
                 tangon = _closure1_slot3;
@@ -554,7 +554,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = report.bind(tangon)(zuuluu);
                 zuuluu = report.getIsPaused;
                 zuuluu = zuuluu.bind(report)();
-                if(zuuluu) { _fun00016_ip = 642; continue _fun00015 }
+                if(zuuluu) { _fun00016_ip = 640; continue _fun00015 }
  89:
                 oscard = _closure1_slot1;
                 yankee = _closure1_slot3;
@@ -589,10 +589,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = null;
                 oscard = zuuluu != option;
                 result = 'none';
-                if(!oscard) { _fun00016_ip = 253; continue _fun00015 }
- 250:
+                if(!oscard) { _fun00016_ip = 251; continue _fun00015 }
+ 248:
                 result = option;
- 253:
+ 251:
                 oscard = report.HermesInternal;
                 output = oscard.concat;
                 record = '[CONNECT] ';
@@ -606,8 +606,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = record[output](config, sequen, vacuum, ctrled, source, update, echoed, result);
                 oscard = yankee.bind(foxtra)(oscard);
                 oscard = verify.webSocket;
-                if(!(zuuluu !== oscard)) { _fun00016_ip = 357; continue _fun00015 }
- 319:
+                if(!(zuuluu !== oscard)) { _fun00016_ip = 355; continue _fun00015 }
+ 317:
                 foxtra = _closure1_slot14;
                 yankee = foxtra.error;
                 oscard = '_connect called with already existing websocket';
@@ -621,7 +621,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 oscard = yankee.bind(verify)(oscard);
- 357:
+ 355:
                 yankee = report.Date;
                 oscard = yankee.now;
                 oscard = oscard.bind(yankee)();
@@ -671,13 +671,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = report.bind(golfie)();
                 report = 'v';
                 report = offset.bind(yankee)(report, golfie);
-                if(!(zuuluu != option)) { _fun00016_ip = 519; continue _fun00015 }
- 497:
+                if(!(zuuluu != option)) { _fun00016_ip = 517; continue _fun00015 }
+ 495:
                 golfie = oscard.searchParams;
                 report = golfie.append;
                 zuuluu = 'compress';
                 zuuluu = report.bind(golfie)(zuuluu, option);
- 519:
+ 517:
                 zuuluu = {};
                 report = oscard.toString;
                 report = report.bind(oscard)();
@@ -731,15 +731,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = oscard.bind(golfie)(report);
                         tangon['isFastConnect'] = michal;
                         zuuluu = _closure3_slot0;
-                        if(michal) { _fun00018_ip = 188; continue _fun00017 }
- 176:
+                        if(michal) { _fun00018_ip = 186; continue _fun00017 }
+ 174:
                         michal = zuuluu._doResumeOrIdentify;
                         michal = michal.bind(zuuluu)();
-                        _fun00018_ip = 200; continue _fun00017;
- 188:
+                        _fun00018_ip = 198; continue _fun00017;
+ 186:
                         michal = zuuluu._doFastConnectIdentify;
                         michal = michal.bind(zuuluu)();
- 200:
+ 198:
                         return entity;
                     }
                 };
@@ -772,7 +772,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = report.bind(entity)(zuuluu);
                         zuuluu = zuuluu.Opcode;
                         zuuluu = zuuluu.DISPATCH;
-                        if(!(foxtra !== zuuluu)) { _fun00020_ip = 185; continue _fun00019 }
+                        if(!(foxtra !== zuuluu)) { _fun00020_ip = 183; continue _fun00019 }
  96:
                         golfie = _closure1_slot1;
                         zuuluu = _closure1_slot3;
@@ -792,11 +792,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = kiloes.bind(report)(foxtra, zuuluu, sizing);
                         zuuluu = '🌐';
                         zuuluu = golfie.bind(option)(zuuluu, report);
- 185:
+ 183:
                         zuuluu = _closure1_slot11;
                         zuuluu = zuuluu.isLoggingGatewayEvents;
-                        if(!zuuluu) { _fun00020_ip = 305; continue _fun00019 }
- 198:
+                        if(!zuuluu) { _fun00020_ip = 303; continue _fun00019 }
+ 196:
                         kiloes = new Array(1);
                         kiloes[0] = foxtra;
                         report = _closure1_slot0;
@@ -805,11 +805,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = report.bind(entity)(zuuluu);
                         zuuluu = zuuluu.Opcode;
                         zuuluu = zuuluu.DISPATCH;
-                        if(!(foxtra === zuuluu)) { _fun00020_ip = 249; continue _fun00019 }
- 239:
+                        if(!(foxtra === zuuluu)) { _fun00020_ip = 247; continue _fun00019 }
+ 237:
                         zuuluu = kiloes.push;
                         zuuluu = zuuluu.bind(kiloes)(oscard);
- 249:
+ 247:
                         zuuluu = kiloes.push;
                         zuuluu = zuuluu.bind(kiloes)(tangon);
                         golfie = _closure1_slot14;
@@ -823,21 +823,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         result = zuuluu;
                         output = golfie;
                         zuuluu = apply(echoed, result, output);
- 305:
+ 303:
                         report = michal.Date;
                         zuuluu = report.now;
                         zuuluu = zuuluu.bind(report)();
                         option = zuuluu - backup;
                         zuuluu = 'READY';
                         golfie = zuuluu === oscard;
-                        if(golfie) { _fun00020_ip = 445; continue _fun00019 }
- 335:
+                        if(golfie) { _fun00020_ip = 441; continue _fun00019 }
+ 333:
                         zuuluu = 'READY_SUPPLEMENTAL';
-                        if(!(zuuluu !== oscard)) { _fun00020_ip = 406; continue _fun00019 }
- 345:
+                        if(!(zuuluu !== oscard)) { _fun00020_ip = 402; continue _fun00019 }
+ 343:
                         zuuluu = 10;
-                        if(!(option > zuuluu)) { _fun00020_ip = 482; continue _fun00019 }
- 355:
+                        if(!(option > zuuluu)) { _fun00020_ip = 478; continue _fun00019 }
+ 353:
                         report = _closure1_slot1;
                         kiloes = _closure1_slot3;
                         zuuluu = 18;
@@ -848,8 +848,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = zuuluu + oscard;
                         zuuluu = '🌐';
                         zuuluu = kiloes.bind(sizing)(zuuluu, report, option);
-                        _fun00020_ip = 482; continue _fun00019;
- 406:
+                        _fun00020_ip = 478; continue _fun00019;
+ 402:
                         report = _closure1_slot1;
                         kiloes = _closure1_slot3;
                         zuuluu = 20;
@@ -858,8 +858,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = zuuluu.parseReadySupplemental;
                         zuuluu = report.set;
                         zuuluu = zuuluu.bind(report)(backup, option);
-                        _fun00020_ip = 482; continue _fun00019;
- 445:
+                        _fun00020_ip = 478; continue _fun00019;
+ 441:
                         report = _closure1_slot1;
                         kiloes = _closure1_slot3;
                         zuuluu = 20;
@@ -868,61 +868,61 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = zuuluu.parseReady;
                         zuuluu = report.set;
                         zuuluu = zuuluu.bind(report)(backup, option);
- 482:
+ 478:
                         report = null;
-                        if(!(report != offset)) { _fun00020_ip = 501; continue _fun00019 }
- 488:
+                        if(!(report != offset)) { _fun00020_ip = 497; continue _fun00019 }
+ 484:
                         zuuluu = _closure3_slot0;
                         zuuluu['seq'] = offset;
- 501:
+ 497:
                         offset = _closure1_slot0;
                         zuuluu = _closure1_slot3;
                         zuuluu = zuuluu[yankee];
                         zuuluu = offset.bind(entity)(zuuluu);
                         zuuluu = zuuluu.Opcode;
                         zuuluu = zuuluu.HELLO;
-                        if(!(zuuluu !== foxtra)) { _fun00020_ip = 947; continue _fun00019 }
- 537:
+                        if(!(zuuluu !== foxtra)) { _fun00020_ip = 943; continue _fun00019 }
+ 533:
                         offset = _closure1_slot0;
                         zuuluu = _closure1_slot3;
                         zuuluu = zuuluu[yankee];
                         zuuluu = offset.bind(entity)(zuuluu);
                         zuuluu = zuuluu.Opcode;
                         zuuluu = zuuluu.RECONNECT;
-                        if(!(zuuluu !== foxtra)) { _fun00020_ip = 926; continue _fun00019 }
- 573:
+                        if(!(zuuluu !== foxtra)) { _fun00020_ip = 922; continue _fun00019 }
+ 569:
                         offset = _closure1_slot0;
                         zuuluu = _closure1_slot3;
                         zuuluu = zuuluu[yankee];
                         zuuluu = offset.bind(entity)(zuuluu);
                         zuuluu = zuuluu.Opcode;
                         zuuluu = zuuluu.INVALID_SESSION;
-                        if(!(zuuluu !== foxtra)) { _fun00020_ip = 904; continue _fun00019 }
- 609:
+                        if(!(zuuluu !== foxtra)) { _fun00020_ip = 900; continue _fun00019 }
+ 605:
                         offset = _closure1_slot0;
                         zuuluu = _closure1_slot3;
                         zuuluu = zuuluu[yankee];
                         zuuluu = offset.bind(entity)(zuuluu);
                         zuuluu = zuuluu.Opcode;
                         zuuluu = zuuluu.HEARTBEAT;
-                        if(!(zuuluu !== foxtra)) { _fun00020_ip = 883; continue _fun00019 }
- 645:
+                        if(!(zuuluu !== foxtra)) { _fun00020_ip = 879; continue _fun00019 }
+ 641:
                         offset = _closure1_slot0;
                         zuuluu = _closure1_slot3;
                         zuuluu = zuuluu[yankee];
                         zuuluu = offset.bind(entity)(zuuluu);
                         zuuluu = zuuluu.Opcode;
                         zuuluu = zuuluu.HEARTBEAT_ACK;
-                        if(!(zuuluu !== foxtra)) { _fun00020_ip = 861; continue _fun00019 }
- 681:
+                        if(!(zuuluu !== foxtra)) { _fun00020_ip = 857; continue _fun00019 }
+ 677:
                         offset = _closure1_slot0;
                         zuuluu = _closure1_slot3;
                         zuuluu = zuuluu[yankee];
                         zuuluu = offset.bind(entity)(zuuluu);
                         zuuluu = zuuluu.Opcode;
                         zuuluu = zuuluu.DISPATCH;
-                        if(!(zuuluu !== foxtra)) { _fun00020_ip = 756; continue _fun00019 }
- 714:
+                        if(!(zuuluu !== foxtra)) { _fun00020_ip = 752; continue _fun00019 }
+ 710:
                         offset = _closure1_slot14;
                         zuuluu = offset.info;
                         michal = michal.HermesInternal;
@@ -930,13 +930,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = 'Unhandled op ';
                         michal = yankee.bind(michal)(foxtra);
                         michal = zuuluu.bind(offset)(michal);
-                        _fun00020_ip = 977; continue _fun00019;
- 756:
+                        _fun00020_ip = 973; continue _fun00019;
+ 752:
                         zuuluu = _closure3_slot0;
                         michal = zuuluu._handleDispatch;
                         report = null;
-                        if(!golfie) { _fun00020_ip = 852; continue _fun00019 }
- 776:
+                        if(!golfie) { _fun00020_ip = 848; continue _fun00019 }
+ 772:
                         golfie = {};
                         yankee = argBar;
                         golfie['compressed_byte_size'] = yankee;
@@ -954,36 +954,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         golfie['packing_algorithm'] = verify;
                         golfie['unpack_duration_ms'] = option;
                         report = golfie;
- 852:
+ 848:
                         michal = michal.bind(zuuluu)(tangon, oscard, report);
-                        _fun00020_ip = 977; continue _fun00019;
- 861:
+                        _fun00020_ip = 973; continue _fun00019;
+ 857:
                         zuuluu = _closure3_slot0;
                         michal = zuuluu._handleHeartbeatAck;
                         michal = michal.bind(zuuluu)(tangon);
-                        _fun00020_ip = 977; continue _fun00019;
- 883:
+                        _fun00020_ip = 973; continue _fun00019;
+ 879:
                         zuuluu = _closure3_slot0;
                         michal = zuuluu._handleHeartbeatReceive;
                         michal = michal.bind(zuuluu)();
-                        _fun00020_ip = 977; continue _fun00019;
- 904:
+                        _fun00020_ip = 973; continue _fun00019;
+ 900:
                         zuuluu = _closure3_slot0;
                         michal = zuuluu._handleInvalidSession;
                         michal = michal.bind(zuuluu)(tangon);
-                        _fun00020_ip = 977; continue _fun00019;
- 926:
+                        _fun00020_ip = 973; continue _fun00019;
+ 922:
                         zuuluu = _closure3_slot0;
                         michal = zuuluu._handleReconnect;
                         michal = michal.bind(zuuluu)();
-                        _fun00020_ip = 977; continue _fun00019;
- 947:
+                        _fun00020_ip = 973; continue _fun00019;
+ 943:
                         zuuluu = _closure3_slot0;
                         michal = zuuluu._clearHelloTimeout;
                         michal = michal.bind(zuuluu)();
                         michal = zuuluu._handleHello;
                         michal = michal.bind(zuuluu)(tangon);
- 977:
+ 973:
                         zuuluu = _closure3_slot0;
                         michal = zuuluu._sendHeartbeatIfDue;
                         michal = michal.bind(zuuluu)();
@@ -1194,13 +1194,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     }
                 };
                 michal = michal.bind(tangon)(zuuluu);
-                _fun00016_ip = 663; continue _fun00015;
- 642:
+                _fun00016_ip = 661; continue _fun00015;
+ 640:
                 zuuluu = _closure1_slot14;
                 michal = zuuluu.info;
                 entity = 'Skipping _connect because socket is paused';
                 entity = michal.bind(zuuluu)(entity);
- 663:
+ 661:
                 entity = undefined;
                 return entity;
             }

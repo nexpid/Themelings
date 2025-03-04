@@ -309,7 +309,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.bind(report)();
             report = zuuluu.length;
             zuuluu = 0;
-            if(!(zuuluu !== report)) { _fun00012_ip = 136; continue _fun00011 }
+            if(!(zuuluu !== report)) { _fun00012_ip = 140; continue _fun00011 }
  59:
             report = null;
             if(!(report == tangon)) { _fun00012_ip = 71; continue _fun00011 }
@@ -320,7 +320,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = tangon.recipients;
  77:
             zuuluu = _closure1_slot17;
-            if(!(report != zuuluu)) { _fun00012_ip = 132; continue _fun00011 }
+            if(!(report != zuuluu)) { _fun00012_ip = 136; continue _fun00011 }
  85:
             option = _closure1_slot17;
             golfie = option.setQuery;
@@ -419,18 +419,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             backup = option;
             yankee = verify;
             zuuluu = backup[golfie](foxtra, romeon, yankee, offset, verify);
- 132:
+ 136:
             zuuluu = false;
             return zuuluu;
- 136:
+ 140:
             report = _closure1_slot17;
             zuuluu = null;
-            if(!(zuuluu != report)) { _fun00012_ip = 160; continue _fun00011 }
- 146:
+            if(!(zuuluu != report)) { _fun00012_ip = 164; continue _fun00011 }
+ 150:
             report = _closure1_slot17;
             zuuluu = report.clearQuery;
             zuuluu = zuuluu.bind(report)();
- 160:
+ 164:
             zuuluu = function(argFoo) { // Original name: getDefaultResults
                 _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:

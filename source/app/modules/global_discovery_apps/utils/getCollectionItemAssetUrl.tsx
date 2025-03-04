@@ -1,4 +1,4 @@
-// app/modules/application_directory/utils/getCollectionItemAssetUrl.tsx
+// app/modules/global_discovery_apps/utils/getCollectionItemAssetUrl.tsx
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/application_directory/utils/getCollectionItemAssetUrl.tsx';
+    tangon = 'modules/global_discovery_apps/utils/getCollectionItemAssetUrl.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: getCollectionItemAssetUrl
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {

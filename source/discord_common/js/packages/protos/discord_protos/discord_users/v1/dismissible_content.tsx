@@ -1518,6 +1518,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['VIRTUAL_CURRENCY_SHOP_ONBOARDING_COACHMARK'] = michal;
     entity = 'VIRTUAL_CURRENCY_SHOP_ONBOARDING_COACHMARK';
     tangon[michal] = entity;
+    michal = 515;
+    tangon['CLICKER_COACHMARK'] = michal;
+    entity = 'CLICKER_COACHMARK';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

@@ -578,7 +578,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             foxtra = verify.bind(foxtra)(zuuluu, option);
-            if(!(michal != entity)) { _fun00002_ip = 814; continue _fun00001 }
+            if(!(michal != entity)) { _fun00002_ip = 818; continue _fun00001 }
  554:
             zuuluu = _closure1_slot8;
             michal = _closure1_slot5;
@@ -587,7 +587,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['style'] = tangon;
             tangon = romeon.length;
             golfie = tangon > golfie;
-            if(!golfie) { _fun00002_ip = 640; continue _fun00001 }
+            if(!golfie) { _fun00002_ip = 644; continue _fun00001 }
  586:
             verify = _closure1_slot7;
             option = _closure1_slot0;
@@ -600,7 +600,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.header;
             tangon['children'] = kiloes;
             golfie = verify.bind(report)(option, tangon);
- 640:
+ 644:
             tangon = new Array(2);
             tangon[0] = golfie;
             verify = _closure1_slot7;
@@ -656,8 +656,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon[1] = golfie;
             entity['children'] = tangon;
             entity = zuuluu.bind(report)(michal, entity);
-            _fun00002_ip = 858; continue _fun00001;
- 814:
+            _fun00002_ip = 862; continue _fun00001;
+ 818:
             tangon = _closure1_slot7;
             zuuluu = _closure1_slot5;
             michal = {};
@@ -666,7 +666,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 858:
+ 862:
             return entity;
         }
     };

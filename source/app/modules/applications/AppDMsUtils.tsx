@@ -280,7 +280,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function() { // Original name: useAppDMFrecentApps
         golfie = _closure1_slot0;
         option = _closure1_slot2;
-        entity = 15;
+        entity = 16;
         entity = option[entity];
         oscard = undefined;
         zuuluu = golfie.bind(oscard)(entity);
@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         report = tangon.bind(report)(zuuluu);
         tangon = report.filter;
-        zuuluu = 16;
+        zuuluu = 17;
         zuuluu = option[zuuluu];
         zuuluu = golfie.bind(oscard)(zuuluu);
         zuuluu = zuuluu.isNotNullish;
@@ -346,7 +346,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = oscard.bind(entity)(report);
     report = report.AnalyticEvents;
     var _closure1_slot8 = report;
-    report = 17;
+    report = 18;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -363,12 +363,45 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['openAndLaunchAppDM'] = report;
-    tangon = function() { // Original name: useShouldShowQuickLaunchRow
+    report = function(argFoo, argBar) { // Original name: updateShowPlayAgainSetting
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            zuuluu = argFoo;
+            report = _closure1_slot1;
+            tangon = _closure1_slot2;
+            entity = 14;
+            tangon = tangon[entity];
+            entity = undefined;
+            oscard = report.bind(entity)(tangon);
+            report = oscard.updatedUnsyncedSettings;
+            tangon = {};
+            tangon['showPlayAgain'] = zuuluu;
+            tangon = report.bind(oscard)(tangon);
+            if(zuuluu) { _fun00004_ip = 99; continue _fun00003 }
+ 49:
+            tangon = _closure1_slot1;
+            report = _closure1_slot2;
+            zuuluu = 10;
+            zuuluu = report[zuuluu];
+            report = tangon.bind(entity)(zuuluu);
+            tangon = report.track;
+            michal = _closure1_slot8;
+            zuuluu = michal.APP_DMS_QUICK_LAUNCHER_HIDDEN;
+            michal = {};
+            oscard = argBar;
+            michal['source'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
+ 99:
+            return entity;
+        }
+    };
+    zuuluu['updateShowPlayAgainSetting'] = report;
+    tangon = function() { // Original name: useShouldShowQuickLaunchRow
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            entity = 14;
+            entity = 15;
             entity = zuuluu[entity];
             zuuluu = undefined;
             oscard = tangon.bind(zuuluu)(entity);
@@ -385,7 +418,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot10;
             michal = michal.bind(zuuluu)();
             michal = michal.frecentApps;
-            if(!entity) { _fun00004_ip = 85; continue _fun00003 }
+            if(!entity) { _fun00006_ip = 85; continue _fun00005 }
  74:
             zuuluu = michal.length;
             michal = 0;
