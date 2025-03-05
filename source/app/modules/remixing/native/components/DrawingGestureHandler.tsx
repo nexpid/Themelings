@@ -598,19 +598,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = {'position': 'absolute', 'left': 0, 'top': 0};
                 report = _closure2_slot7;
                 tangon = 0;
-                if(!report) { _fun00014_ip = 35; continue _fun00013 }
- 26:
+                if(!report) { _fun00014_ip = 31; continue _fun00013 }
+ 22:
                 report = _closure2_slot3;
                 tangon = report.width;
- 35:
+ 31:
                 entity['width'] = tangon;
                 tangon = _closure2_slot7;
                 michal = 0;
-                if(!tangon) { _fun00014_ip = 57; continue _fun00013 }
- 48:
+                if(!tangon) { _fun00014_ip = 53; continue _fun00013 }
+ 44:
                 zuuluu = _closure2_slot3;
                 michal = zuuluu.height;
- 57:
+ 53:
                 entity['height'] = michal;
                 return entity;
             }

@@ -483,7 +483,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00008_ip = 610; continue _fun00007 }
+                    if(michal) { _fun00008_ip = 606; continue _fun00007 }
  10:
                     report = undefined;
                     offset = undefined;
@@ -492,7 +492,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = michal.bind(tangon)();
                     offset = michal;
                     yankee = null;
-                    if(!(yankee != michal)) { _fun00008_ip = 559; continue _fun00007 }
+                    if(!(yankee != michal)) { _fun00008_ip = 555; continue _fun00007 }
  45: // try_start_0 // try_start_1
                     tangon = _closure1_slot1;
                     oscard = _closure1_slot2;
@@ -509,26 +509,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = oscard.downgradeSubscription;
                     michal = offset;
                     michal = tangon.bind(oscard)(michal);
-                    SaveGenerator(address=123);
- 121:
+                    SaveGenerator(address=119);
+ 117:
                     return michal;
- 123:
+ 119:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00008_ip = 204; continue _fun00007 }
- 129:
+                    if(tangon) { _fun00008_ip = 200; continue _fun00007 }
+ 125:
                     tangon = _closure1_slot30;
                     tangon = tangon.bind(report)();
                     tangon = _closure1_slot31;
                     tangon = tangon.bind(report)();
-                    SaveGenerator(address=149);
- 147:
+                    SaveGenerator(address=145);
+ 143:
                     return tangon;
- 149:
+ 145:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(oscard) { _fun00008_ip = 160; continue _fun00007 }
- 155: // try_end0
-                    _fun00008_ip = 515; continue _fun00007;
- 160: // try_end1
+                    if(oscard) { _fun00008_ip = 156; continue _fun00007 }
+ 151: // try_end0
+                    _fun00008_ip = 511; continue _fun00007;
+ 156: // try_end1
                     verify = _closure1_slot1;
                     oscard = _closure1_slot2;
                     oscard = oscard[golfie];
@@ -537,7 +537,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = {'type': 'GPLAY_UPDATE_IS_DOWNGRADING', 'isDowngrading': false};
                     oscard = verify.bind(romeon)(oscard);
                     return tangon;
- 204:
+ 200:
                     oscard = _closure1_slot1;
                     tangon = _closure1_slot2;
                     tangon = tangon[golfie];
@@ -546,7 +546,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = {'type': 'GPLAY_UPDATE_IS_DOWNGRADING', 'isDowngrading': false};
                     tangon = oscard.bind(golfie)(tangon);
                     return michal;
- 248: // try_start_2 // catch_target0
+ 244: // try_start_2 // catch_target0
                     CatchBlockStart(arg_register=6);
                     option = golfie;
                     kiloes = _closure1_slot0;
@@ -596,24 +596,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = offset;
                     romeon = yankee == verify;
                     verify = undefined;
-                    if(romeon) { _fun00008_ip = 472; continue _fun00007 }
- 463:
+                    if(romeon) { _fun00008_ip = 468; continue _fun00007 }
+ 459:
                     romeon = offset;
                     verify = romeon.newSubscriptionSkuId;
- 472:
+ 468:
                     michal['product_id'] = verify;
                     verify = offset;
                     yankee = yankee == verify;
                     verify = undefined;
-                    if(yankee) { _fun00008_ip = 495; continue _fun00007 }
- 489:
+                    if(yankee) { _fun00008_ip = 491; continue _fun00007 }
+ 485:
                     verify = offset.purchaseToken;
- 495:
+ 491:
                     michal['purchase_token'] = verify;
                     option = option.message;
                     michal['error'] = option;
                     michal = oscard.bind(golfie)(tangon, michal);
- 515: // try_end2
+ 511: // try_end2
                     tangon = _closure1_slot1;
                     oscard = _closure1_slot2;
                     michal = 12;
@@ -622,9 +622,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = oscard.dispatch;
                     michal = {'type': 'GPLAY_UPDATE_IS_DOWNGRADING', 'isDowngrading': false};
                     michal = tangon.bind(oscard)(michal);
- 559:
+ 555:
                     return report;
- 562: // catch_target1 // catch_target2
+ 558: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=1);
                     tangon = _closure1_slot1;
                     oscard = _closure1_slot2;
@@ -635,7 +635,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = {'type': 'GPLAY_UPDATE_IS_DOWNGRADING', 'isDowngrading': false};
                     zuuluu = tangon.bind(report)(zuuluu);
                     throw michal;
- 610:
+ 606:
                     return entity;
                 }
             };

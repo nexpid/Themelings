@@ -941,16 +941,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     if(!(tangon !== option)) { _fun00012_ip = 753; continue _fun00011 }
  622:
                     tangon = 'GENERIC_PUSH_NOTIFICATION_SENT';
-                    if(!(tangon === option)) { _fun00012_ip = 1505; continue _fun00011 }
+                    if(!(tangon === option)) { _fun00012_ip = 1501; continue _fun00011 }
  635:
                     tangon = _closure2_slot0;
                     tangon = tangon.deeplink;
-                    if(!(oscard != tangon)) { _fun00012_ip = 1505; continue _fun00011 }
+                    if(!(oscard != tangon)) { _fun00012_ip = 1501; continue _fun00011 }
  652:
                     tangon = _closure2_slot0;
                     option = tangon.deeplink;
                     tangon = '';
-                    if(!(tangon !== option)) { _fun00012_ip = 1505; continue _fun00011 }
+                    if(!(tangon !== option)) { _fun00012_ip = 1501; continue _fun00011 }
  673:
                     option = _closure1_slot1;
                     verify = _closure1_slot3;
@@ -969,7 +969,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = {};
                     tangon['payload'] = offset;
                     tangon = option.bind(verify)(tangon);
-                    _fun00012_ip = 1505; continue _fun00011;
+                    _fun00012_ip = 1501; continue _fun00011;
  753:
                     option = _closure2_slot0;
                     tangon = function() { // Original name: handleStageNotification
@@ -984,7 +984,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     tangon = tangon.bind(entity)(option);
                     tangon = !tangon;
-                    _fun00012_ip = 1505; continue _fun00011;
+                    _fun00012_ip = 1501; continue _fun00011;
  777:
                     option = _closure2_slot0;
                     tangon = function() { // Original name: handleGuildEventNotification
@@ -999,7 +999,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     tangon = tangon.bind(entity)(option);
                     tangon = !tangon;
-                    _fun00012_ip = 1505; continue _fun00011;
+                    _fun00012_ip = 1501; continue _fun00011;
  801:
                     option = _closure1_slot1;
                     verify = _closure1_slot3;
@@ -1018,7 +1018,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = verify.channel_id;
                     tangon['channelId'] = verify;
                     tangon = option.bind(entity)(tangon);
-                    _fun00012_ip = 1505; continue _fun00011;
+                    _fun00012_ip = 1501; continue _fun00011;
  881:
                     tangon = _closure1_slot16;
                     verify = tangon.bind(entity)();
@@ -1069,7 +1069,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         }
                     };
                     tangon = option.bind(verify)(tangon);
-                    _fun00012_ip = 1505; continue _fun00011;
+                    _fun00012_ip = 1501; continue _fun00011;
  911:
                     tangon = _closure1_slot16;
                     verify = tangon.bind(entity)();
@@ -1142,7 +1142,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         }
                     };
                     tangon = option.bind(verify)(tangon);
-                    _fun00012_ip = 1505; continue _fun00011;
+                    _fun00012_ip = 1501; continue _fun00011;
  941:
                     tangon = _closure1_slot16;
                     verify = tangon.bind(entity)();
@@ -1161,7 +1161,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     tangon = option.bind(verify)(tangon);
-                    _fun00012_ip = 1505; continue _fun00011;
+                    _fun00012_ip = 1501; continue _fun00011;
  971:
                     tangon = global;
                     option = tangon.Number;
@@ -1180,7 +1180,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = tangon.notification_type;
                     tangon = _closure1_slot8;
                     tangon = tangon.REMINDER;
-                    if(!(option === tangon)) { _fun00012_ip = 1505; continue _fun00011 }
+                    if(!(option === tangon)) { _fun00012_ip = 1501; continue _fun00011 }
  1052:
                     option = _closure1_slot0;
                     verify = _closure1_slot3;
@@ -1189,7 +1189,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = option.bind(entity)(tangon);
                     tangon = option.getRootNavigationRef;
                     offset = tangon.bind(option)();
-                    if(!(oscard != offset)) { _fun00012_ip = 1505; continue _fun00011 }
+                    if(!(oscard != offset)) { _fun00012_ip = 1501; continue _fun00011 }
  1089:
                     verify = offset.navigate;
                     option = {};
@@ -1197,7 +1197,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option['screen'] = tangon;
                     tangon = 'friends';
                     tangon = verify.bind(offset)(tangon, option);
-                    _fun00012_ip = 1505; continue _fun00011;
+                    _fun00012_ip = 1501; continue _fun00011;
  1121:
                     option = _closure1_slot1;
                     verify = _closure1_slot3;
@@ -1208,7 +1208,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = _closure2_slot0;
                     tangon = tangon.user_id;
                     tangon = option.bind(verify)(tangon);
-                    _fun00012_ip = 1505; continue _fun00011;
+                    _fun00012_ip = 1501; continue _fun00011;
  1167:
                     tangon = _closure1_slot16;
                     option = tangon.bind(entity)();
@@ -1294,7 +1294,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         }
                     };
                     zuuluu = tangon.bind(option)(zuuluu);
-                    _fun00012_ip = 1505; continue _fun00011;
+                    _fun00012_ip = 1501; continue _fun00011;
  1197:
                     tangon = _closure1_slot0;
                     option = _closure1_slot3;
@@ -1305,7 +1305,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure2_slot0;
                     zuuluu = zuuluu.channel_id;
                     zuuluu = tangon.bind(option)(zuuluu);
-                    _fun00012_ip = 1505; continue _fun00011;
+                    _fun00012_ip = 1501; continue _fun00011;
  1242:
                     zuuluu = _closure2_slot0;
                     zuuluu = zuuluu.message;
@@ -1354,10 +1354,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = golfie.guild_id;
                     option = oscard != golfie;
                     oscard = null;
-                    if(!option) { _fun00012_ip = 1473; continue _fun00011 }
- 1470:
+                    if(!option) { _fun00012_ip = 1469; continue _fun00011 }
+ 1466:
                     oscard = golfie;
- 1473:
+ 1469:
                     michal['guildId'] = oscard;
                     report = _closure2_slot0;
                     oscard = report.channel_id;
@@ -1365,7 +1365,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = report.message_id;
                     michal['messageId'] = report;
                     michal = zuuluu.bind(tangon)(michal);
- 1505:
+ 1501:
                     return entity;
                 }
             };
@@ -1447,7 +1447,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = argFoo;
             entity = zuuluu.getData;
             report = null;
-            if(!(report != entity)) { _fun00020_ip = 318; continue _fun00019 }
+            if(!(report != entity)) { _fun00020_ip = 320; continue _fun00019 }
  20:
             golfie = _closure1_slot0;
             option = _closure1_slot3;
@@ -1475,19 +1475,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = '❗';
             entity = option.bind(verify)(entity, golfie);
             entity = zuuluu.receiving_user_id;
-            if(!(report != entity)) { _fun00020_ip = 187; continue _fun00019 }
- 145:
+            if(!(report != entity)) { _fun00020_ip = 189; continue _fun00019 }
+ 147:
             golfie = _closure1_slot7;
             entity = golfie.getId;
             entity = entity.bind(golfie)();
-            if(!(report != entity)) { _fun00020_ip = 187; continue _fun00019 }
- 163:
+            if(!(report != entity)) { _fun00020_ip = 189; continue _fun00019 }
+ 165:
             report = zuuluu.receiving_user_id;
             golfie = _closure1_slot7;
             entity = golfie.getId;
             entity = entity.bind(golfie)();
-            if(!(report === entity)) { _fun00020_ip = 233; continue _fun00019 }
- 187:
+            if(!(report === entity)) { _fun00020_ip = 235; continue _fun00019 }
+ 189:
             report = _closure1_slot1;
             golfie = _closure1_slot3;
             entity = 23;
@@ -1503,8 +1503,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity = report.bind(golfie)(entity);
-            _fun00020_ip = 316; continue _fun00019;
- 233:
+            _fun00020_ip = 318; continue _fun00019;
+ 235:
             report = _closure1_slot0;
             golfie = _closure1_slot3;
             tangon = 20;
@@ -1542,9 +1542,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal = zuuluu.bind(tangon)(michal);
             entity = true;
- 316:
-            return entity;
  318:
+            return entity;
+ 320:
             entity = false;
             return entity;
         }

@@ -610,7 +610,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             romeon = argFoo;
-            update = argBar;
+            result = argBar;
             yankee = argBaz;
             foxtra = argGra;
             entity = romeon.activityInstance;
@@ -656,7 +656,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = undefined;
             if(!zuuluu) { _fun00014_ip = 250; continue _fun00013 }
  138:
-            verify = update;
+            verify = result;
             if(!(offset == verify)) { _fun00014_ip = 169; continue _fun00013 }
  145:
             oscard = _closure1_slot7;
@@ -677,12 +677,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             oscard = oscard.bind(option)(backup, verify);
             oscard = oscard.guildMemberAvatar;
             zuuluu['guildMemberAvatar'] = oscard;
-            option = offset == update;
+            option = offset == result;
             oscard = undefined;
             if(option) { _fun00014_ip = 241; continue _fun00013 }
  231:
-            option = update.getGuildId;
-            oscard = option.bind(update)();
+            option = result.getGuildId;
+            oscard = option.bind(result)();
  241:
             zuuluu['guildId'] = oscard;
             golfie = tangon.bind(report)(zuuluu);
@@ -690,13 +690,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = romeon.type;
             zuuluu = _closure1_slot9;
             zuuluu = zuuluu.CHAT_INPUT_COMMAND;
-            vacuum = tangon === zuuluu;
-            if(vacuum) { _fun00014_ip = 291; continue _fun00013 }
+            ctrled = tangon === zuuluu;
+            if(ctrled) { _fun00014_ip = 291; continue _fun00013 }
  272:
             tangon = romeon.type;
             zuuluu = _closure1_slot9;
             zuuluu = zuuluu.INTERACTION_PREMIUM_UPSELL;
-            vacuum = tangon === zuuluu;
+            ctrled = tangon === zuuluu;
  291:
             oscard = _closure1_slot0;
             option = _closure1_slot2;
@@ -704,14 +704,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = option[zuuluu];
             tangon = oscard.bind(report)(zuuluu);
             zuuluu = tangon.isPrimaryEntryPointCommandMessage;
-            echoed = zuuluu.bind(tangon)(romeon);
-            source = 11;
-            zuuluu = option[source];
+            output = zuuluu.bind(tangon)(romeon);
+            update = 11;
+            zuuluu = option[update];
             verify = oscard.bind(report)(zuuluu);
             tangon = verify.getUserAuthor;
             zuuluu = romeon.interaction;
             zuuluu = zuuluu.user;
-            zuuluu = tangon.bind(verify)(zuuluu, update);
+            zuuluu = tangon.bind(verify)(zuuluu, result);
             verify = zuuluu.colorString;
             zuuluu = romeon.interaction;
             backup = zuuluu.displayName;
@@ -754,23 +754,23 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             if(!option) { _fun00014_ip = 551; continue _fun00013 }
  521:
             kiloes = _closure1_slot6;
-            papara = zuuluu.target_user;
+            cntext = zuuluu.target_user;
             option = kiloes.prototype;
             option = Object.create(option, {constructor: {value: kiloes}});
-            target = option;
-            zuuluu = new target[kiloes](papara, cntext);
+            papara = option;
+            zuuluu = new papara[kiloes](cntext, record);
             oscard = zuuluu instanceof Object ? zuuluu : option;
  551:
             option = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[source];
+            zuuluu = zuuluu[update];
             option = option.bind(report)(zuuluu);
             zuuluu = option.getUserAuthor;
-            zuuluu = zuuluu.bind(option)(oscard, update);
+            zuuluu = zuuluu.bind(option)(oscard, result);
             kiloes = zuuluu.colorString;
             zuuluu = 'username';
             zuuluu = zuuluu === yankee;
-            result = oscard;
+            echoed = oscard;
             oscard = foxtra;
             if(!zuuluu) { _fun00014_ip = 622; continue _fun00013 }
  603:
@@ -791,177 +791,172 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  644:
             option = zuuluu;
  647:
-            config = {};
+            sequen = {};
             foxtra = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[source];
+            zuuluu = zuuluu[update];
             kiloes = foxtra.bind(report)(zuuluu);
             foxtra = kiloes.getUserAuthor;
             zuuluu = romeon.interaction;
             zuuluu = zuuluu.user;
-            zuuluu = foxtra.bind(kiloes)(zuuluu, update);
+            zuuluu = foxtra.bind(kiloes)(zuuluu, result);
             zuuluu = zuuluu.nick;
-            config['username'] = zuuluu;
-            zuuluu = {};
-            sizing = 'bindTapUsername';
-            zuuluu['action'] = sizing;
+            sequen['username'] = zuuluu;
+            zuuluu = {'name': 'usernameOnClick', 'action': 'bindTapUsername'};
             foxtra = romeon.interaction;
             foxtra = foxtra.user;
             foxtra = foxtra.id;
             zuuluu['userId'] = foxtra;
             foxtra = romeon.channel_id;
             zuuluu['messageChannelId'] = foxtra;
-            config['usernameOnClick'] = zuuluu;
-            if(!entity) { _fun00014_ip = 941; continue _fun00013 }
- 752:
-            if(echoed) { _fun00014_ip = 941; continue _fun00013 }
- 758:
+            sequen['usernameOnClick'] = zuuluu;
+            if(!entity) { _fun00014_ip = 943; continue _fun00013 }
+ 754:
+            if(output) { _fun00014_ip = 943; continue _fun00013 }
+ 760:
             zuuluu = _closure1_slot0;
             foxtra = _closure1_slot2;
             entity = 16;
             entity = foxtra[entity];
             zuuluu = zuuluu.bind(report)(entity);
             entity = zuuluu.isActivitiesInTextEnabled;
-            zuuluu = entity.bind(zuuluu)(update);
+            zuuluu = entity.bind(zuuluu)(result);
             foxtra = _closure1_slot0;
-            ctrled = _closure1_slot2;
+            source = _closure1_slot2;
             entity = 17;
-            kiloes = ctrled[entity];
+            kiloes = source[entity];
             kiloes = foxtra.bind(report)(kiloes);
-            output = kiloes.intl;
-            kiloes = output.formatToParts;
-            entity = ctrled[entity];
+            sizing = kiloes.intl;
+            kiloes = sizing.formatToParts;
+            entity = source[entity];
             entity = foxtra.bind(report)(entity);
             entity = entity.t;
-            if(zuuluu) { _fun00014_ip = 863; continue _fun00013 }
- 837:
+            if(zuuluu) { _fun00014_ip = 865; continue _fun00013 }
+ 839:
             foxtra = entity.k964Wl;
             zuuluu = {};
-            papara = zuuluu;
-            cntext = config;
-            ctrled = copyDataProperties(papara, cntext);
-            zuuluu = kiloes.bind(output)(foxtra, zuuluu);
-            _fun00014_ip = 936; continue _fun00013;
- 863:
+            cntext = zuuluu;
+            record = sequen;
+            source = copyDataProperties(cntext, record);
+            zuuluu = kiloes.bind(sizing)(foxtra, zuuluu);
+            _fun00014_ip = 938; continue _fun00013;
+ 865:
             foxtra = entity.R/mrBg;
             entity = {};
-            papara = entity;
-            cntext = config;
-            ctrled = copyDataProperties(papara, cntext);
-            sequen = {};
-            ctrled = 'bindTapActivityText';
-            sequen['action'] = ctrled;
-            ctrled = romeon.author;
-            ctrled = ctrled.id;
-            sequen['applicationUserId'] = ctrled;
-            ctrled = romeon.channel_id;
-            sequen['messageChannelId'] = ctrled;
-            ctrled = 'activityTextOnClick';
-            entity[ctrled] = sequen;
-            zuuluu = kiloes.bind(output)(foxtra, entity);
- 936:
-            _fun00014_ip = 1336; continue _fun00013;
- 941:
-            sequen = backup;
-            if(!echoed) { _fun00014_ip = 978; continue _fun00013 }
- 947:
+            cntext = entity;
+            record = sequen;
+            source = copyDataProperties(cntext, record);
+            vacuum = {};
+            source = 'bindTapActivityText';
+            vacuum['action'] = source;
+            source = romeon.author;
+            source = source.id;
+            vacuum['applicationUserId'] = source;
+            source = romeon.channel_id;
+            vacuum['messageChannelId'] = source;
+            source = 'activityTextOnClick';
+            entity[source] = vacuum;
+            zuuluu = kiloes.bind(sizing)(foxtra, entity);
+ 938:
+            _fun00014_ip = 1348; continue _fun00013;
+ 943:
+            vacuum = backup;
+            if(!output) { _fun00014_ip = 980; continue _fun00013 }
+ 949:
             foxtra = _closure1_slot0;
             kiloes = _closure1_slot2;
             entity = 18;
             entity = kiloes[entity];
             foxtra = foxtra.bind(report)(entity);
             entity = foxtra.formatPrimaryEntryPointCommandName;
-            sequen = entity.bind(foxtra)(backup);
- 978:
+            vacuum = entity.bind(foxtra)(backup);
+ 980:
             backup = _closure1_slot0;
             foxtra = _closure1_slot2;
             entity = 17;
             kiloes = foxtra[entity];
             kiloes = backup.bind(report)(kiloes);
-            output = kiloes.intl;
-            kiloes = output.formatToParts;
+            sizing = kiloes.intl;
+            kiloes = sizing.formatToParts;
             foxtra = foxtra[entity];
             foxtra = backup.bind(report)(foxtra);
             foxtra = foxtra.t;
             backup = foxtra.SSrolp;
             foxtra = {};
-            papara = foxtra;
-            cntext = config;
-            ctrled = copyDataProperties(papara, cntext);
-            ctrled = 'commandName';
-            foxtra[ctrled] = sequen;
-            if(!(offset != update)) { _fun00014_ip = 1060; continue _fun00013 }
- 1054:
-            if(vacuum) { _fun00014_ip = 1064; continue _fun00013 }
- 1057:
-            if(echoed) { _fun00014_ip = 1064; continue _fun00013 }
- 1060:
-            echoed = {};
-            _fun00014_ip = 1144; continue _fun00013;
- 1064:
-            vacuum = {};
-            record = 'bindTapCommandName';
-            vacuum['action'] = record;
-            record = romeon.interaction;
-            record = record.user;
-            record = record.id;
-            vacuum['userId'] = record;
-            record = romeon.id;
-            vacuum['messageId'] = record;
-            record = romeon.author;
-            record = record.id;
-            vacuum['applicationUserId'] = record;
-            record = romeon.type;
-            vacuum['messageType'] = record;
-            record = romeon.channel_id;
-            vacuum['messageChannelId'] = record;
-            echoed = vacuum;
- 1144:
-            vacuum = 'commandNameOnClick';
-            foxtra[vacuum] = echoed;
-            zuuluu = kiloes.bind(output)(backup, foxtra);
-            if(!(offset != result)) { _fun00014_ip = 1336; continue _fun00013 }
- 1168:
-            echoed = _closure1_slot0;
-            output = _closure1_slot2;
-            foxtra = output[entity];
-            foxtra = echoed.bind(report)(foxtra);
+            cntext = foxtra;
+            record = sequen;
+            source = copyDataProperties(cntext, record);
+            source = 'commandName';
+            foxtra[source] = vacuum;
+            if(!(offset != result)) { _fun00014_ip = 1062; continue _fun00013 }
+ 1056:
+            if(ctrled) { _fun00014_ip = 1066; continue _fun00013 }
+ 1059:
+            if(output) { _fun00014_ip = 1066; continue _fun00013 }
+ 1062:
+            output = {};
+            _fun00014_ip = 1148; continue _fun00013;
+ 1066:
+            ctrled = {'name': 'commandNameOnClick', 'action': 'bindTapCommandName'};
+            config = romeon.interaction;
+            config = config.user;
+            config = config.id;
+            ctrled['userId'] = config;
+            config = romeon.id;
+            ctrled['messageId'] = config;
+            config = romeon.author;
+            config = config.id;
+            ctrled['applicationUserId'] = config;
+            config = romeon.type;
+            ctrled['messageType'] = config;
+            config = romeon.channel_id;
+            ctrled['messageChannelId'] = config;
+            output = ctrled;
+ 1148:
+            ctrled = 'commandNameOnClick';
+            foxtra[ctrled] = output;
+            zuuluu = kiloes.bind(sizing)(backup, foxtra);
+            if(!(offset != echoed)) { _fun00014_ip = 1348; continue _fun00013 }
+ 1172:
+            output = _closure1_slot0;
+            sizing = _closure1_slot2;
+            foxtra = sizing[entity];
+            foxtra = output.bind(report)(foxtra);
             kiloes = foxtra.intl;
             backup = kiloes.formatToParts;
-            entity = output[entity];
-            entity = echoed.bind(report)(entity);
+            entity = sizing[entity];
+            entity = output.bind(report)(entity);
             entity = entity.t;
             foxtra = entity.mqKdCA;
             entity = {};
-            papara = entity;
-            cntext = config;
-            config = copyDataProperties(papara, cntext);
-            entity[ctrled] = sequen;
-            ctrled = {};
-            entity[vacuum] = ctrled;
-            output = output[source];
-            echoed = echoed.bind(report)(output);
-            output = echoed.getUserAuthor;
-            output = output.bind(echoed)(result, update);
-            echoed = output.nick;
-            output = 'targetUsername';
-            entity[output] = echoed;
-            output = {};
-            output['action'] = sizing;
-            echoed = offset == result;
-            sizing = undefined;
-            if(echoed) { _fun00014_ip = 1300; continue _fun00013 }
- 1295:
-            sizing = result.id;
- 1300:
-            output['userId'] = sizing;
-            sizing = romeon.channel_id;
-            output['messageChannelId'] = sizing;
-            output['linkColor'] = oscard;
+            cntext = entity;
+            record = sequen;
+            sequen = copyDataProperties(cntext, record);
+            entity[source] = vacuum;
+            source = {};
+            entity[ctrled] = source;
+            sizing = sizing[update];
+            output = output.bind(report)(sizing);
+            sizing = output.getUserAuthor;
+            sizing = sizing.bind(output)(echoed, result);
+            output = sizing.nick;
+            sizing = 'targetUsername';
+            entity[sizing] = output;
+            output = {'name': 'targetUsernameOnClick', 'action': 'bindTapUsername'};
             sizing = 'targetUsernameOnClick';
+            update = offset == echoed;
+            result = undefined;
+            if(update) { _fun00014_ip = 1318; continue _fun00013 }
+ 1313:
+            result = echoed.id;
+ 1318:
+            output['userId'] = result;
+            result = romeon.channel_id;
+            output['messageChannelId'] = result;
+            output['linkColor'] = oscard;
             entity[sizing] = output;
             zuuluu = backup.bind(kiloes)(foxtra, entity);
- 1336:
+ 1348:
             entity = {};
             romeon = romeon.interaction;
             romeon = romeon.user;
@@ -972,17 +967,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             romeon = option.bind(report)(verify);
             foxtra = offset != romeon;
             option = null;
-            if(!foxtra) { _fun00014_ip = 1384; continue _fun00013 }
- 1381:
+            if(!foxtra) { _fun00014_ip = 1396; continue _fun00013 }
+ 1393:
             option = romeon;
- 1384:
+ 1396:
             entity['roleColor'] = option;
             option = 'dot';
             option = option === yankee;
-            if(!option) { _fun00014_ip = 1404; continue _fun00013 }
- 1400:
+            if(!option) { _fun00014_ip = 1416; continue _fun00013 }
+ 1412:
             option = offset != verify;
- 1404:
+ 1416:
             entity['shouldShowRoleDot'] = option;
             entity['avatarURL'] = golfie;
             entity['targetUsernameColor'] = oscard;

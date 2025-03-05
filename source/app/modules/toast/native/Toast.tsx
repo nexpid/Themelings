@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = entity.bind(report)();
             zuuluu = 'function';
             entity = typeof oscard;
-            if(!(zuuluu !== entity)) { _fun00004_ip = 111; continue _fun00003 }
+            if(!(zuuluu !== entity)) { _fun00004_ip = 107; continue _fun00003 }
  38:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot0;
@@ -114,8 +114,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['style'] = option;
             entity['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00004_ip = 145; continue _fun00003;
- 111:
+            _fun00004_ip = 141; continue _fun00003;
+ 107:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot5;
             michal = {};
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.bind(report)();
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 145:
+ 141:
             return entity;
         }
     };

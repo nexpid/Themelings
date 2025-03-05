@@ -909,13 +909,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[0] = golfie;
             option = 0;
             golfie = null;
-            if(!(option !== verify)) { _fun00022_ip = 103; continue _fun00021 }
- 91:
+            if(!(option !== verify)) { _fun00022_ip = 99; continue _fun00021 }
+ 87:
             option = {};
             verify = 24;
             option['marginTop'] = verify;
             golfie = option;
- 103:
+ 99:
             oscard[1] = golfie;
             entity['style'] = oscard;
             entity['children'] = report;

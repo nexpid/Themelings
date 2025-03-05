@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     romeon = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 289; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 291; continue _fun00001 }
  15:
                     michal = argBar;
                     var _closure4_slot0 = michal;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  204:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 286; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 288; continue _fun00001 }
  210:
                     zuuluu = _closure1_slot6;
                     zuuluu = zuuluu.promise;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return zuuluu;
  224:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 283; continue _fun00001 }
+                    if(oscard) { _fun00002_ip = 285; continue _fun00001 }
  230:
                     oscard = _closure1_slot1;
                     option = _closure1_slot3;
@@ -103,11 +103,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     tangon = golfie.bind(option)(oscard, report, tangon);
                     return tangon;
- 283:
+ 285:
                     return zuuluu;
- 286:
+ 288:
                     return michal;
- 289:
+ 291:
                     return entity;
                 }
             };

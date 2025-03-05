@@ -115,8 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             report['onChange'] = yankee;
-            yankee = !foxtra;
-            report['editable'] = yankee;
+            report['isDisabled'] = foxtra;
             report['isClearable'] = option;
             oscard = golfie.bind(tangon)(oscard, report);
             report = new Array(2);
@@ -155,10 +154,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['onPress'] = kiloes;
             romeon = romeon.length;
             romeon = romeon !== backup;
-            if(romeon) { _fun00002_ip = 513; continue _fun00001 }
- 510:
+            if(romeon) { _fun00002_ip = 506; continue _fun00001 }
+ 503:
             romeon = foxtra;
- 513:
+ 506:
             verify['disabled'] = romeon;
             verify = yankee.bind(tangon)(offset, verify);
             oscard['children'] = verify;

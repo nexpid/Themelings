@@ -102,95 +102,96 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
-                    golfie = argFoo;
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 340; continue _fun00003 }
+                    oscard = argFoo;
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=4);
+                    if(report) { _fun00004_ip = 342; continue _fun00003 }
  13:
-                    report = golfie;
+                    tangon = oscard;
+                    golfie = undefined;
                     michal = undefined;
                     zuuluu = undefined;
-                    tangon = undefined;
                     verify = _closure1_slot0;
                     offset = _closure1_slot2;
                     option = 9;
                     option = offset[option];
-                    romeon = verify.bind(michal)(option);
+                    romeon = verify.bind(golfie)(option);
                     yankee = romeon.getQuestLogger;
                     option = {};
                     foxtra = _closure1_slot4;
                     foxtra = foxtra.QUEST_HOME_MOBILE;
                     option['location'] = foxtra;
-                    zuuluu = yankee.bind(romeon)(option);
+                    michal = yankee.bind(romeon)(option);
                     option = 10;
                     option = offset[option];
-                    option = verify.bind(michal)(option);
+                    option = verify.bind(golfie)(option);
                     verify = option.SharedQuestFields;
                     option = verify.build;
-                    golfie = golfie.config;
-                    golfie = option.bind(verify)(golfie);
-                    option = golfie.rewardPlatforms;
-                    golfie = 0;
-                    tangon = option[golfie];
+                    oscard = oscard.config;
+                    oscard = option.bind(verify)(oscard);
+                    option = oscard.rewardPlatforms;
+                    oscard = 0;
+                    zuuluu = option[oscard];
  118: // try_start_0
                     offset = _closure1_slot0;
                     yankee = _closure1_slot2;
-                    golfie = 11;
-                    golfie = yankee[golfie];
-                    verify = offset.bind(michal)(golfie);
+                    oscard = 11;
+                    oscard = yankee[oscard];
+                    verify = offset.bind(golfie)(oscard);
                     option = verify.claimQuestReward;
-                    golfie = report.id;
-                    report = tangon;
-                    tangon = 12;
-                    tangon = yankee[tangon];
-                    tangon = offset.bind(michal)(tangon);
-                    tangon = tangon.QuestContent;
-                    tangon = tangon.QUEST_HOME_MOBILE;
-                    tangon = option.bind(verify)(golfie, report, tangon);
+                    oscard = tangon.id;
+                    tangon = zuuluu;
+                    zuuluu = 12;
+                    zuuluu = yankee[zuuluu];
+                    zuuluu = offset.bind(golfie)(zuuluu);
+                    zuuluu = zuuluu.QuestContent;
+                    zuuluu = zuuluu.QUEST_HOME_MOBILE;
+                    zuuluu = option.bind(verify)(oscard, tangon, zuuluu);
                     SaveGenerator(address=187);
  185:
-                    return tangon;
+                    return zuuluu;
  187:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00004_ip = 198; continue _fun00003 }
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                    if(tangon) { _fun00004_ip = 198; continue _fun00003 }
  193: // try_end0
-                    _fun00004_ip = 337; continue _fun00003;
- 198:
+                    tangon = true;
                     return tangon;
+ 198:
+                    return zuuluu;
  201: // catch_target0
-                    CatchBlockStart(arg_register=6);
-                    report = zuuluu;
-                    tangon = report.error;
-                    zuuluu = 'Error claiming reward';
-                    zuuluu = tangon.bind(report)(zuuluu, golfie);
-                    golfie = _closure1_slot1;
+                    CatchBlockStart(arg_register=5);
+                    tangon = michal;
+                    zuuluu = tangon.error;
+                    michal = 'Error claiming reward';
+                    michal = zuuluu.bind(tangon)(michal, oscard);
+                    oscard = _closure1_slot1;
                     option = _closure1_slot2;
-                    zuuluu = 13;
-                    zuuluu = option[zuuluu];
-                    report = golfie.bind(michal)(zuuluu);
-                    tangon = report.open;
-                    zuuluu = {};
+                    michal = 13;
+                    michal = option[michal];
+                    tangon = oscard.bind(golfie)(michal);
+                    zuuluu = tangon.open;
+                    michal = {};
                     verify = 'CLAIM_QUEST_REWARD_ERROR';
-                    zuuluu['key'] = verify;
+                    michal['key'] = verify;
                     yankee = _closure1_slot0;
-                    oscard = 14;
-                    verify = option[oscard];
-                    verify = yankee.bind(michal)(verify);
+                    report = 14;
+                    verify = option[report];
+                    verify = yankee.bind(golfie)(verify);
                     offset = verify.intl;
                     verify = offset.string;
-                    oscard = option[oscard];
-                    oscard = yankee.bind(michal)(oscard);
-                    oscard = oscard.t;
-                    oscard = oscard.CKsXk5;
-                    oscard = verify.bind(offset)(oscard);
-                    zuuluu['content'] = oscard;
-                    oscard = 15;
-                    oscard = option[oscard];
-                    oscard = golfie.bind(michal)(oscard);
-                    zuuluu['icon'] = oscard;
-                    zuuluu = tangon.bind(report)(zuuluu);
- 337:
+                    report = option[report];
+                    report = yankee.bind(golfie)(report);
+                    report = report.t;
+                    report = report.CKsXk5;
+                    report = verify.bind(offset)(report);
+                    michal['content'] = report;
+                    report = 15;
+                    report = option[report];
+                    report = oscard.bind(golfie)(report);
+                    michal['icon'] = report;
+                    michal = zuuluu.bind(tangon)(michal);
+                    michal = false;
                     return michal;
- 340:
+ 342:
                     return entity;
                 }
             };
@@ -222,81 +223,82 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00006_ip = 423; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 424; continue _fun00005 }
  13:
                     yankee = michal.quest;
                     offset = michal.questContent;
                     verify = michal.questContentPosition;
                     option = michal.product;
-                    oscard = michal.hideActionSheet;
+                    tangon = michal.hideActionSheet;
                     report = michal.currentUserHasVerifiedEmailOrPhone;
-                    zuuluu = undefined;
+                    foxtra = undefined;
                     SaveGenerator(address=55);
  53:
-                    return zuuluu;
+                    return foxtra;
  55:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00006_ip = 420; continue _fun00005 }
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(zuuluu) { _fun00006_ip = 421; continue _fun00005 }
  64:
-                    tangon = true;
-                    if(!(tangon === oscard)) { _fun00006_ip = 103; continue _fun00005 }
+                    zuuluu = true;
+                    if(!(zuuluu === tangon)) { _fun00006_ip = 103; continue _fun00005 }
  70:
                     oscard = _closure1_slot1;
                     golfie = _closure1_slot2;
                     tangon = 5;
                     tangon = golfie[tangon];
-                    oscard = oscard.bind(zuuluu)(tangon);
+                    oscard = oscard.bind(foxtra)(tangon);
                     tangon = oscard.hideActionSheet;
                     tangon = tangon.bind(oscard)();
  103:
                     if(report) { _fun00006_ip = 230; continue _fun00005 }
  109:
-                    foxtra = _closure1_slot1;
-                    backup = _closure1_slot2;
+                    backup = _closure1_slot1;
+                    kiloes = _closure1_slot2;
                     report = 13;
-                    report = backup[report];
-                    golfie = foxtra.bind(zuuluu)(report);
+                    report = kiloes[report];
+                    golfie = backup.bind(foxtra)(report);
                     oscard = golfie.open;
                     report = {};
                     romeon = 'CLAIM_QUEST_REWARD_ERROR';
                     report['key'] = romeon;
-                    output = _closure1_slot0;
+                    result = _closure1_slot0;
                     romeon = 14;
-                    kiloes = backup[romeon];
-                    kiloes = output.bind(zuuluu)(kiloes);
-                    sizing = kiloes.intl;
-                    kiloes = sizing.string;
-                    romeon = backup[romeon];
-                    romeon = output.bind(zuuluu)(romeon);
+                    sizing = kiloes[romeon];
+                    sizing = result.bind(foxtra)(sizing);
+                    output = sizing.intl;
+                    sizing = output.string;
+                    romeon = kiloes[romeon];
+                    romeon = result.bind(foxtra)(romeon);
                     romeon = romeon.t;
                     romeon = romeon.HZlu09;
-                    romeon = kiloes.bind(sizing)(romeon);
+                    romeon = sizing.bind(output)(romeon);
                     report['content'] = romeon;
                     romeon = 15;
-                    romeon = backup[romeon];
-                    romeon = foxtra.bind(zuuluu)(romeon);
+                    romeon = kiloes[romeon];
+                    romeon = backup.bind(foxtra)(romeon);
                     report['icon'] = romeon;
                     report = oscard.bind(golfie)(report);
-                    _fun00006_ip = 417; continue _fun00005;
+                    report = false;
+                    return report;
  230:
                     oscard = _closure1_slot0;
                     golfie = _closure1_slot2;
                     report = 4;
                     report = golfie[report];
-                    golfie = oscard.bind(zuuluu)(report);
+                    golfie = oscard.bind(foxtra)(report);
                     oscard = golfie.hasQuestRewardCode;
                     report = yankee.config;
                     report = oscard.bind(golfie)(report);
-                    if(report) { _fun00006_ip = 324; continue _fun00005 }
+                    if(report) { _fun00006_ip = 325; continue _fun00005 }
  269:
                     report = _closure1_slot9;
-                    report = report.bind(zuuluu)(yankee);
+                    report = report.bind(foxtra)(yankee);
                     SaveGenerator(address=282);
  280:
                     return report;
  282:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                    if(oscard) { _fun00006_ip = 321; continue _fun00005 }
+                    if(oscard) { _fun00006_ip = 322; continue _fun00005 }
  288:
                     golfie = _closure1_slot8;
                     oscard = {};
@@ -304,25 +306,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard['product'] = option;
                     oscard['questContent'] = offset;
                     oscard['questContentPosition'] = verify;
-                    oscard = golfie.bind(zuuluu)(oscard);
-                    _fun00006_ip = 417; continue _fun00005;
- 321:
+                    oscard = golfie.bind(foxtra)(oscard);
                     return report;
- 324:
+ 322:
+                    return report;
+ 325:
                     golfie = _closure1_slot1;
                     report = _closure1_slot2;
                     oscard = 5;
                     oscard = report[oscard];
-                    option = golfie.bind(zuuluu)(oscard);
+                    option = golfie.bind(foxtra)(oscard);
                     golfie = option.openLazy;
                     romeon = _closure1_slot0;
                     oscard = 7;
                     oscard = report[oscard];
-                    romeon = romeon.bind(zuuluu)(oscard);
+                    romeon = romeon.bind(foxtra)(oscard);
                     oscard = 6;
                     oscard = report[oscard];
                     report = report.paths;
-                    oscard = romeon.bind(zuuluu)(oscard, report);
+                    oscard = romeon.bind(foxtra)(oscard, report);
                     report = _closure1_slot5;
                     tangon = {};
                     yankee = yankee.id;
@@ -330,11 +332,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['questContent'] = offset;
                     tangon['questContentPosition'] = verify;
                     tangon = golfie.bind(option)(oscard, report, tangon);
- 417:
                     return zuuluu;
- 420:
+ 421:
                     return michal;
- 423:
+ 424:
                     return entity;
                 }
             };

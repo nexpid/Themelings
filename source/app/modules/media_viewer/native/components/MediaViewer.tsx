@@ -1394,7 +1394,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(zuuluu, entity);
             entity = _closure1_slot13;
             tangon = _closure1_slot11;
-            if(entity) { _fun00006_ip = 1302; continue _fun00005 }
+            if(entity) { _fun00006_ip = 1298; continue _fun00005 }
  1223:
             zuuluu = _closure1_slot7;
             entity = {'ref': null, 'style': null, 'automaticallyAdjustContentInsets': false, 'showsHorizontalScrollIndicator': false, 'showsVerticalScrollIndicator': false, 'minimumZoomScale': 1, 'maximumZoomScale': null, 'centerContent': true, 'scrollEventThrottle': 16};
@@ -1406,15 +1406,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['maximumZoomScale'] = option;
             entity['onScroll'] = golfie;
             foxtra = 'auto';
-            if(!backup) { _fun00006_ip = 1285; continue _fun00005 }
- 1281:
+            if(!backup) { _fun00006_ip = 1281; continue _fun00005 }
+ 1277:
             foxtra = 'none';
- 1285:
+ 1281:
             entity['pointerEvents'] = foxtra;
             entity['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00006_ip = 1367; continue _fun00005;
- 1302:
+            _fun00006_ip = 1363; continue _fun00005;
+ 1298:
             zuuluu = _closure1_slot1;
             foxtra = _closure1_slot2;
             michal = 14;
@@ -1431,7 +1431,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['onZoomChanged'] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1367:
+ 1363:
             return entity;
         }
     };

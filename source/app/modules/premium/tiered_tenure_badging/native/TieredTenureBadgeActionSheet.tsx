@@ -671,10 +671,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.BottomSheet;
             entity = {'scrollable': true, 'startExpanded': true};
             oscard = undefined;
-            if(!romeon) { _fun00004_ip = 1248; continue _fun00003 }
- 1245:
+            if(!romeon) { _fun00004_ip = 1244; continue _fun00003 }
+ 1241:
             oscard = golfie;
- 1248:
+ 1244:
             entity['footer'] = oscard;
             golfie = _closure1_slot11;
             oscard = _closure1_slot0;

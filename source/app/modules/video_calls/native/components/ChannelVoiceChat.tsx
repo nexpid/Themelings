@@ -216,8 +216,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['guildId'] = update;
             oscard['channelId'] = echoed;
             offset = null;
-            if(result) { _fun00002_ip = 488; continue _fun00001 }
- 410:
+            if(result) { _fun00002_ip = 484; continue _fun00001 }
+ 406:
             romeon = _closure1_slot6;
             yankee = _closure1_slot1;
             config = _closure1_slot2;
@@ -226,23 +226,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = yankee.bind(tangon)(verify);
             verify = {};
             sequen = !sequen;
-            if(!sequen) { _fun00002_ip = 444; continue _fun00001 }
- 442:
+            if(!sequen) { _fun00002_ip = 440; continue _fun00001 }
+ 438:
             sequen = undefined;
- 444:
+ 440:
             verify['hidden'] = sequen;
             verify['animated'] = source;
-            if(kiloes) { _fun00002_ip = 471; continue _fun00001 }
- 457:
+            if(kiloes) { _fun00002_ip = 467; continue _fun00001 }
+ 453:
             kiloes = 'dark-content';
             source = 'dark';
-            if(!(source === vacuum)) { _fun00002_ip = 477; continue _fun00001 }
- 471:
+            if(!(source === vacuum)) { _fun00002_ip = 473; continue _fun00001 }
+ 467:
             kiloes = 'light-content';
- 477:
+ 473:
             verify['barStyle'] = kiloes;
             offset = romeon.bind(tangon)(yankee, verify);
- 488:
+ 484:
             verify = new Array(5);
             verify[0] = offset;
             romeon = _closure1_slot6;
@@ -254,10 +254,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = {};
             source['height'] = sizing;
             vacuum = undefined;
-            if(!result) { _fun00002_ip = 535; continue _fun00001 }
- 531:
+            if(!result) { _fun00002_ip = 531; continue _fun00001 }
+ 527:
             vacuum = 'none';
- 535:
+ 531:
             source['display'] = vacuum;
             kiloes[1] = source;
             offset['style'] = kiloes;
@@ -271,10 +271,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes[0] = source;
             source = {};
             vacuum = undefined;
-            if(!result) { _fun00002_ip = 592; continue _fun00001 }
- 588:
+            if(!result) { _fun00002_ip = 588; continue _fun00001 }
+ 584:
             vacuum = 'none';
- 592:
+ 588:
             source['display'] = vacuum;
             kiloes[1] = source;
             offset['style'] = kiloes;
@@ -303,10 +303,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = {};
             kiloes['top'] = sizing;
             sizing = undefined;
-            if(!result) { _fun00002_ip = 713; continue _fun00001 }
- 709:
+            if(!result) { _fun00002_ip = 709; continue _fun00001 }
+ 705:
             sizing = 'none';
- 713:
+ 709:
             kiloes['display'] = sizing;
             foxtra[1] = kiloes;
             offset['style'] = foxtra;

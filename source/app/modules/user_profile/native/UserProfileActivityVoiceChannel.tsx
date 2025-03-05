@@ -48,10 +48,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         offset = yankee.isAndroid;
         yankee = offset.bind(yankee)();
         offset = -1;
-        if(!yankee) { _fun00002_ip = 225; continue _fun00001 }
- 219:
+        if(!yankee) { _fun00002_ip = 221; continue _fun00001 }
+ 215:
         offset = -2;
- 225:
+ 221:
         verify['marginTop'] = offset;
         tangon['channelName'] = verify;
         tangon = golfie.bind(option)(tangon);

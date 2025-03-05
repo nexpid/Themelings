@@ -142,16 +142,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie[0] = offset;
             offset = {};
             foxtra = 'center';
-            if(!yankee) { _fun00002_ip = 150; continue _fun00001 }
- 144:
+            if(!yankee) { _fun00002_ip = 146; continue _fun00001 }
+ 140:
             foxtra = 'space-between';
- 150:
+ 146:
             offset['justifyContent'] = foxtra;
             golfie[1] = offset;
             report['style'] = golfie;
             golfie = yankee;
-            if(!yankee) { _fun00002_ip = 310; continue _fun00001 }
- 171:
+            if(!yankee) { _fun00002_ip = 306; continue _fun00001 }
+ 167:
             backup = _closure1_slot4;
             result = _closure1_slot0;
             echoed = _closure1_slot2;
@@ -184,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = backup.bind(tangon)(result, sizing);
             offset['children'] = sizing;
             golfie = backup.bind(tangon)(foxtra, offset);
- 310:
+ 306:
             offset = new Array(3);
             offset[0] = golfie;
             sizing = _closure1_slot4;
@@ -199,15 +199,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['children'] = output;
             foxtra = sizing.bind(tangon)(backup, foxtra);
             offset[1] = foxtra;
-            if(!yankee) { _fun00002_ip = 408; continue _fun00001 }
- 382:
+            if(!yankee) { _fun00002_ip = 400; continue _fun00001 }
+ 374:
             backup = _closure1_slot4;
             foxtra = _closure1_slot3;
             romeon = {};
             kiloes = kiloes.headerSpacer;
             romeon['style'] = kiloes;
             yankee = backup.bind(tangon)(foxtra, romeon);
- 408:
+ 400:
             offset[2] = yankee;
             report['children'] = offset;
             report = verify.bind(tangon)(option, report);
@@ -268,10 +268,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = foxtra.isAndroid;
             romeon = romeon.bind(foxtra)();
             yankee = 0;
-            if(!romeon) { _fun00004_ip = 200; continue _fun00003 }
- 197:
+            if(!romeon) { _fun00004_ip = 196; continue _fun00003 }
+ 193:
             yankee = 16;
- 200:
+ 196:
             offset = offset + yankee;
             option['marginBottom'] = offset;
             verify[1] = option;

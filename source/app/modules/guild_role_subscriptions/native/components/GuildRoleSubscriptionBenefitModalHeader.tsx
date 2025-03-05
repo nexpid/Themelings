@@ -244,10 +244,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = new Array(2);
             romeon[0] = sizing;
             foxtra = !foxtra;
-            if(!foxtra) { _fun00002_ip = 555; continue _fun00001 }
- 549:
+            if(!foxtra) { _fun00002_ip = 551; continue _fun00001 }
+ 545:
             foxtra = backup.disabledButton;
- 555:
+ 551:
             romeon[1] = foxtra;
             verify['style'] = romeon;
             backup = _closure1_slot0;

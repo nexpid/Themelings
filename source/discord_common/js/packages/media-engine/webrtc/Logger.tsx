@@ -296,13 +296,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = _closure2_slot0;
                 oscard = golfie.bind(entity)(tangon, oscard);
                 oscard = function(argFoo, argBar) {
-                    michal = 1;
-                    entity = copyRestArgs(michal);
-                    entity = undefined;
-                    return entity;
-                };
-                tangon['verbose'] = oscard;
-                oscard = function(argFoo, argBar) {
                     golfie = 1;
                     oscard = copyRestArgs(golfie);
                     zuuluu = _closure1_slot5;
@@ -365,6 +358,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 };
                 tangon['error'] = oscard;
+                oscard = function(argFoo, argBar) {
+                    michal = 1;
+                    entity = copyRestArgs(michal);
+                    entity = undefined;
+                    return entity;
+                };
+                tangon['verbose'] = oscard;
                 oscard = function(argFoo, argBar) {
                     michal = 1;
                     entity = copyRestArgs(michal);

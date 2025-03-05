@@ -377,7 +377,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = option.bind(tangon)(sizing, romeon);
             romeon = new Array(2);
             romeon[0] = sizing;
-            if(!(kiloes == foxtra)) { _fun00004_ip = 499; continue _fun00003 }
+            if(!(kiloes == foxtra)) { _fun00004_ip = 495; continue _fun00003 }
  449:
             sizing = _closure1_slot6;
             kiloes = _closure1_slot0;
@@ -388,7 +388,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = {'variant': 'redesign/message-preview/medium', 'color': 'text-secondary', 'lineClamp': 2};
             backup['children'] = output;
             foxtra = sizing.bind(tangon)(kiloes, backup);
- 499:
+ 495:
             romeon[1] = foxtra;
             offset['children'] = romeon;
             offset = option.bind(tangon)(yankee, offset);

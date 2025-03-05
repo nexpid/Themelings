@@ -601,14 +601,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  51:
                     michal = _closure2_slot0;
                     michal = zuuluu === michal;
-                    if(michal) { _fun00016_ip = 88; continue _fun00015 }
+                    if(michal) { _fun00016_ip = 84; continue _fun00015 }
  65:
                     zuuluu = _closure2_slot1;
-                    if(!zuuluu) { _fun00016_ip = 88; continue _fun00015 }
+                    if(!zuuluu) { _fun00016_ip = 84; continue _fun00015 }
  72:
                     zuuluu = {'audio': false, 'video': false, 'screenshare': false, 'liveStage': false, 'activeEvent': false, 'activity': false, 'isCurrentUserConnected': false};
                     return zuuluu;
- 88:
+ 84:
                     report = _closure1_slot1;
                     oscard = _closure1_slot2;
                     zuuluu = 20;
@@ -649,44 +649,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = report.bind(oscard)(zuuluu);
                     zuuluu = michal;
                     report = undefined;
-                    if(!michal) { _fun00016_ip = 203; continue _fun00015 }
- 163:
+                    if(!michal) { _fun00016_ip = 199; continue _fun00015 }
+ 159:
                     option = _closure1_slot8;
                     golfie = option.getChannel;
                     verify = golfie.bind(option)(romeon);
                     option = kiloes == verify;
                     golfie = undefined;
-                    if(option) { _fun00016_ip = 196; continue _fun00015 }
- 186:
+                    if(option) { _fun00016_ip = 192; continue _fun00015 }
+ 182:
                     option = verify.isGuildStageVoice;
                     golfie = option.bind(verify)();
- 196:
+ 192:
                     zuuluu = kiloes != golfie;
                     report = golfie;
- 203:
-                    if(!zuuluu) { _fun00016_ip = 209; continue _fun00015 }
- 206:
+ 199:
+                    if(!zuuluu) { _fun00016_ip = 205; continue _fun00015 }
+ 202:
                     zuuluu = report;
- 209:
+ 205:
                     report = !michal;
                     offset = !report;
-                    if(!michal) { _fun00016_ip = 246; continue _fun00015 }
- 218:
+                    if(!michal) { _fun00016_ip = 242; continue _fun00015 }
+ 214:
                     verify = _closure1_slot6;
                     option = verify.getActiveStreamForUser;
                     golfie = _closure2_slot9;
                     report = _closure2_slot0;
                     report = option.bind(verify)(golfie, report);
                     offset = kiloes != report;
- 246:
+ 242:
                     report = _closure2_slot3;
-                    if(report) { _fun00016_ip = 269; continue _fun00015 }
- 253:
+                    if(report) { _fun00016_ip = 265; continue _fun00015 }
+ 249:
                     golfie = _closure1_slot6;
                     report = golfie.getAllApplicationStreams;
                     golfie = report.bind(golfie)();
-                    _fun00016_ip = 314; continue _fun00015;
- 269:
+                    _fun00016_ip = 310; continue _fun00015;
+ 265:
                     option = _closure1_slot0;
                     verify = _closure1_slot2;
                     report = 17;
@@ -697,7 +697,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = backup.getAllApplicationStreams;
                     report = report.bind(backup)();
                     golfie = option.bind(verify)(report);
- 314:
+ 310:
                     report = golfie.some;
                     tangon = function(argFoo) {
                         entity = argFoo;
@@ -708,8 +708,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     golfie = report.bind(golfie)(tangon);
                     tangon = _closure2_slot5;
-                    if(tangon) { _fun00016_ip = 469; continue _fun00015 }
- 342:
+                    if(tangon) { _fun00016_ip = 465; continue _fun00015 }
+ 338:
                     report = _closure1_slot16;
                     tangon = _closure2_slot4;
                     output = report.bind(yankee)(tangon);
@@ -718,8 +718,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = 18;
                     option = tangon;
                     tangon = false;
-                    if(report) { _fun00016_ip = 484; continue _fun00015 }
- 375:
+                    if(report) { _fun00016_ip = 480; continue _fun00015 }
+ 371:
                     report = option.value;
                     echoed = _closure1_slot8;
                     result = echoed.getChannel;
@@ -731,27 +731,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = report.location;
                     report = update.bind(source)(report);
                     report = result.bind(echoed)(report);
-                    if(!(kiloes != report)) { _fun00016_ip = 450; continue _fun00015 }
- 431:
+                    if(!(kiloes != report)) { _fun00016_ip = 446; continue _fun00015 }
+ 427:
                     result = _closure1_slot5;
                     report = report.type;
                     report = result.bind(yankee)(report);
                     tangon = true;
-                    if(report) { _fun00016_ip = 484; continue _fun00015 }
- 450:
+                    if(report) { _fun00016_ip = 480; continue _fun00015 }
+ 446:
                     result = output.bind(yankee)();
                     report = result.done;
                     option = result;
                     tangon = false;
-                    if(report) { _fun00016_ip = 484; continue _fun00015 }
- 467:
-                    _fun00016_ip = 375; continue _fun00015;
- 469:
+                    if(report) { _fun00016_ip = 480; continue _fun00015 }
+ 463:
+                    _fun00016_ip = 371; continue _fun00015;
+ 465:
                     report = _closure2_slot4;
                     option = report.length;
                     report = 0;
                     tangon = option > report;
- 484:
+ 480:
                     option = _closure1_slot3;
                     report = option.getEmbeddedActivitiesForGuild;
                     entity = _closure2_slot0;
@@ -759,35 +759,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = entity.length;
                     entity = 0;
                     entity = report > entity;
-                    if(michal) { _fun00016_ip = 535; continue _fun00015 }
- 517:
+                    if(michal) { _fun00016_ip = 531; continue _fun00015 }
+ 513:
                     verify = _closure2_slot6;
                     report = _closure2_slot2;
                     report = kiloes != report;
                     option = _closure2_slot7;
-                    _fun00016_ip = 588; continue _fun00015;
- 535:
+                    _fun00016_ip = 584; continue _fun00015;
+ 531:
                     backup = _closure2_slot2;
                     backup = kiloes == backup;
                     yankee = undefined;
-                    if(backup) { _fun00016_ip = 557; continue _fun00015 }
- 548:
+                    if(backup) { _fun00016_ip = 553; continue _fun00015 }
+ 544:
                     backup = _closure2_slot2;
                     yankee = backup.channel_id;
- 557:
+ 553:
                     romeon = yankee === romeon;
                     yankee = michal;
-                    if(!michal) { _fun00016_ip = 571; continue _fun00015 }
- 567:
+                    if(!michal) { _fun00016_ip = 567; continue _fun00015 }
+ 563:
                     yankee = _closure2_slot8;
- 571:
+ 567:
                     verify = true;
                     option = yankee;
                     report = romeon;
                     oscard = zuuluu;
                     golfie = offset;
                     tangon = entity;
- 588:
+ 584:
                     entity = {};
                     entity['audio'] = verify;
                     entity['video'] = option;
@@ -795,10 +795,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity['liveStage'] = oscard;
                     entity['activeEvent'] = report;
                     entity['activity'] = tangon;
-                    if(michal) { _fun00016_ip = 626; continue _fun00015 }
- 623:
+                    if(michal) { _fun00016_ip = 622; continue _fun00015 }
+ 619:
                     michal = zuuluu;
- 626:
+ 622:
                     entity['isCurrentUserConnected'] = michal;
                     return entity;
                 }

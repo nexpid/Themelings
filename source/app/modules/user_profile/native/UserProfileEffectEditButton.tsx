@@ -305,7 +305,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = kiloes.noneIcon;
             report['style'] = option;
             report = golfie.bind(tangon)(oscard, report);
-            _fun00002_ip = 801; continue _fun00001;
+            _fun00002_ip = 797; continue _fun00001;
  656:
             option = _closure1_slot6;
             golfie = _closure1_slot4;
@@ -339,7 +339,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify[1] = offset;
             oscard['children'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 801:
+ 797:
             entity['leading'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

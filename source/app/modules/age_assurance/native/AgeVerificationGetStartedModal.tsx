@@ -62,12 +62,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = michal.bind(tangon)();
         var _closure2_slot1 = michal;
         golfie = _closure1_slot3;
+        verify = golfie.useMemo;
+        oscard = function() {
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
+            entity = 7;
+            michal = michal[entity];
+            entity = undefined;
+            michal = zuuluu.bind(entity)(michal);
+            entity = michal.v4;
+            entity = entity.bind(michal)();
+            return entity;
+        };
+        zuuluu = new Array(0);
+        verify = verify.bind(golfie)(oscard, zuuluu);
+        var _closure2_slot2 = verify;
         oscard = golfie.useMemo;
-        zuuluu = new Array(1);
+        zuuluu = new Array(2);
         zuuluu[0] = michal;
+        zuuluu[1] = verify;
         michal = function() {
-            zuuluu = _closure2_slot1;
-            michal = function(argFoo) { // Original name: getScreens
+            tangon = _closure2_slot1;
+            zuuluu = _closure2_slot2;
+            michal = function(argFoo, argBar) { // Original name: getScreens
+                entity = argBar;
+                var _closure4_slot0 = entity;
                 entity = {};
                 michal = _closure1_slot6;
                 zuuluu = michal.INTRO;
@@ -109,6 +128,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = undefined;
                     michal = michal.bind(zuuluu)(entity);
                     entity = {};
+                    report = _closure4_slot0;
+                    entity['modalSessionId'] = report;
                     entity = tangon.bind(zuuluu)(michal, entity);
                     return entity;
                 };
@@ -117,25 +138,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity = undefined;
-            entity = michal.bind(entity)(zuuluu);
+            entity = michal.bind(entity)(tangon, zuuluu);
             return entity;
         };
         oscard = oscard.bind(golfie)(michal, zuuluu);
-        verify = golfie.useMemo;
-        zuuluu = function() {
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 7;
-            michal = michal[entity];
-            entity = undefined;
-            michal = zuuluu.bind(entity)(michal);
-            entity = michal.v4;
-            entity = entity.bind(michal)();
-            return entity;
-        };
-        michal = new Array(0);
-        verify = verify.bind(golfie)(zuuluu, michal);
-        var _closure2_slot2 = verify;
         zuuluu = golfie.useEffect;
         michal = new Array(2);
         michal[0] = verify;

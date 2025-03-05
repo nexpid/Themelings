@@ -1293,7 +1293,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = sequen.bind(tangon)(vacuum, result);
             result = new Array(3);
             result[0] = vacuum;
-            if(!update) { _fun00002_ip = 3939; continue _fun00001 }
+            if(!update) { _fun00002_ip = 3935; continue _fun00001 }
  3766:
             sequen = _closure1_slot24;
             cntext = _closure1_slot1;
@@ -1332,7 +1332,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config[1] = record;
             source['children'] = config;
             update = sequen.bind(tangon)(vacuum, source);
- 3939:
+ 3935:
             result[1] = update;
             source = _closure1_slot23;
             update = _closure1_slot1;

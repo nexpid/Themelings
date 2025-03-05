@@ -105,10 +105,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.BRAND;
             oscard['color'] = foxtra;
             oscard['onPress'] = romeon;
-            if(offset) { _fun00002_ip = 221; continue _fun00001 }
- 218:
+            if(offset) { _fun00002_ip = 217; continue _fun00001 }
+ 214:
             offset = yankee;
- 221:
+ 217:
             oscard['disabled'] = offset;
             oscard['text'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);

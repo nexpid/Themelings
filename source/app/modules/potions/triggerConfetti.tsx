@@ -260,19 +260,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = arguments[1];
             oscard = arguments[2];
             entity = undefined;
-            if(!(zuuluu === entity)) { _fun00006_ip = 31; continue _fun00005 }
+            if(!(zuuluu === entity)) { _fun00006_ip = 27; continue _fun00005 }
  17:
             zuuluu = {'x': 0, 'y': 0, 'w': 0, 'h': 0};
- 31:
+ 27:
             var _closure2_slot0 = zuuluu;
-            if(!(oscard === entity)) { _fun00006_ip = 41; continue _fun00005 }
- 39:
+            if(!(oscard === entity)) { _fun00006_ip = 37; continue _fun00005 }
+ 35:
             oscard = false;
- 41:
+ 37:
             zuuluu = _closure1_slot6;
             zuuluu = zuuluu.bind(entity)();
-            if(!zuuluu) { _fun00006_ip = 293; continue _fun00005 }
- 58:
+            if(!zuuluu) { _fun00006_ip = 289; continue _fun00005 }
+ 54:
             tangon = _closure1_slot0;
             report = _closure1_slot2;
             zuuluu = 4;
@@ -283,17 +283,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = null;
             option = report == zuuluu;
             tangon = undefined;
-            if(option) { _fun00006_ip = 126; continue _fun00005 }
- 100:
+            if(option) { _fun00006_ip = 122; continue _fun00005 }
+ 96:
             verify = zuuluu.emoji;
             option = report == verify;
             tangon = undefined;
-            if(option) { _fun00006_ip = 126; continue _fun00005 }
- 115:
+            if(option) { _fun00006_ip = 122; continue _fun00005 }
+ 111:
             option = 0;
             option = verify[option];
             tangon = option.id;
- 126:
+ 122:
             yankee = report == tangon;
             tangon = _closure1_slot7;
             oscard = tangon.bind(entity)(golfie, oscard);
@@ -314,25 +314,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             romeon = backup[romeon];
             romeon = foxtra.bind(entity)(romeon);
             romeon = romeon.ConfettiTriggerEmojiType;
-            if(yankee) { _fun00006_ip = 226; continue _fun00005 }
- 218:
+            if(yankee) { _fun00006_ip = 222; continue _fun00005 }
+ 214:
             yankee = romeon.UserCreated;
-            _fun00006_ip = 232; continue _fun00005;
- 226:
+            _fun00006_ip = 228; continue _fun00005;
+ 222:
             yankee = romeon.Unicode;
- 232:
+ 228:
             oscard['emoji_type'] = yankee;
             oscard['will_play'] = tangon;
             oscard['failure_reason'] = offset;
             offset = arguments[3];
             oscard['location'] = offset;
             oscard = option.bind(verify)(golfie, oscard);
-            if(!tangon) { _fun00006_ip = 267; continue _fun00005 }
- 263:
+            if(!tangon) { _fun00006_ip = 263; continue _fun00005 }
+ 259:
             tangon = report != zuuluu;
- 267:
-            if(!tangon) { _fun00006_ip = 293; continue _fun00005 }
- 270:
+ 263:
+            if(!tangon) { _fun00006_ip = 289; continue _fun00005 }
+ 266:
             tangon = zuuluu.emoji;
             zuuluu = tangon.forEach;
             michal = function(argFoo) {
@@ -354,7 +354,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             michal = zuuluu.bind(tangon)(michal);
- 293:
+ 289:
             return entity;
         }
     };
@@ -366,18 +366,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = arguments[1];
             tangon = arguments[2];
             entity = undefined;
-            if(!(report === entity)) { _fun00008_ip = 29; continue _fun00007 }
+            if(!(report === entity)) { _fun00008_ip = 25; continue _fun00007 }
  15:
             report = {'x': 0, 'y': 0, 'w': 0, 'h': 0};
+ 25:
+            if(!(tangon === entity)) { _fun00008_ip = 31; continue _fun00007 }
  29:
-            if(!(tangon === entity)) { _fun00008_ip = 35; continue _fun00007 }
- 33:
             tangon = false;
- 35:
+ 31:
             zuuluu = _closure1_slot6;
             zuuluu = zuuluu.bind(entity)();
-            if(!zuuluu) { _fun00008_ip = 247; continue _fun00007 }
- 52:
+            if(!zuuluu) { _fun00008_ip = 243; continue _fun00007 }
+ 48:
             golfie = oscard.id;
             zuuluu = null;
             yankee = zuuluu == golfie;
@@ -400,21 +400,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             romeon = backup[romeon];
             romeon = foxtra.bind(entity)(romeon);
             romeon = romeon.ConfettiTriggerEmojiType;
-            if(yankee) { _fun00008_ip = 158; continue _fun00007 }
- 150:
+            if(yankee) { _fun00008_ip = 154; continue _fun00007 }
+ 146:
             yankee = romeon.UserCreated;
-            _fun00008_ip = 164; continue _fun00007;
- 158:
+            _fun00008_ip = 160; continue _fun00007;
+ 154:
             yankee = romeon.Unicode;
- 164:
+ 160:
             tangon['emoji_type'] = yankee;
             tangon['will_play'] = zuuluu;
             tangon['failure_reason'] = offset;
             offset = arguments[3];
             tangon['location'] = offset;
             tangon = option.bind(verify)(golfie, tangon);
-            if(!zuuluu) { _fun00008_ip = 247; continue _fun00007 }
- 195:
+            if(!zuuluu) { _fun00008_ip = 243; continue _fun00007 }
+ 191:
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
             michal = 7;
@@ -427,7 +427,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['emoji'] = oscard;
             michal['boundingRect'] = report;
             michal = zuuluu.bind(tangon)(michal);
- 247:
+ 243:
             return entity;
         }
     };

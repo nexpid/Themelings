@@ -70,10 +70,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = _closure1_slot10;
             golfie = oscard.OVERLAY;
             oscard = undefined;
-            if(!(golfie === option)) { _fun00002_ip = 64; continue _fun00001 }
+            if(!(golfie === option)) { _fun00002_ip = 60; continue _fun00001 }
  50:
             oscard = {'left': 0, 'right': 0, 'position': 'absolute'};
- 64:
+ 60:
             backup = michal;
             foxtra = oscard;
             oscard = copyDataProperties(backup, foxtra);
@@ -95,13 +95,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['backgroundColor'] = oscard;
             oscard = _closure1_slot10;
             oscard = oscard.FLOATING;
-            if(!(oscard !== option)) { _fun00002_ip = 254; continue _fun00001 }
- 171:
+            if(!(oscard !== option)) { _fun00002_ip = 250; continue _fun00001 }
+ 167:
             oscard = _closure1_slot10;
             golfie = oscard.OVERLAY;
             oscard = undefined;
-            if(!(golfie === option)) { _fun00002_ip = 291; continue _fun00001 }
- 187:
+            if(!(golfie === option)) { _fun00002_ip = 287; continue _fun00001 }
+ 183:
             golfie = {};
             verify = _closure1_slot1;
             option = _closure1_slot2;
@@ -117,8 +117,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = golfie;
             option = copyDataProperties(backup, foxtra);
             oscard = golfie;
-            _fun00002_ip = 291; continue _fun00001;
- 254:
+            _fun00002_ip = 287; continue _fun00001;
+ 250:
             golfie = {};
             verify = _closure1_slot1;
             option = _closure1_slot2;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.INTERACTIVE_MUTED;
             golfie['backgroundColor'] = option;
             oscard = golfie;
- 291:
+ 287:
             backup = michal;
             foxtra = oscard;
             oscard = copyDataProperties(backup, foxtra);

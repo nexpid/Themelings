@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     result = oscard[offset];
     result = yankee.bind(entity)(result);
     result = result.colors;
-    result = result.BACKGROUND_PRIMARY;
+    result = result.BG_BASE_SECONDARY;
     verify['borderColor'] = result;
     verify['height'] = backup;
     verify['width'] = backup;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     output = oscard[offset];
     output = yankee.bind(entity)(output);
     output = output.colors;
-    output = output.BACKGROUND_SECONDARY;
+    output = output.BG_BACKDROP;
     verify['backgroundColor'] = output;
     tangon['avatar'] = verify;
     verify = {};
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     sizing = oscard[offset];
     sizing = yankee.bind(entity)(sizing);
     sizing = sizing.colors;
-    sizing = sizing.BACKGROUND_PRIMARY;
+    sizing = sizing.BG_BASE_SECONDARY;
     verify['borderColor'] = sizing;
     sizing = kiloes * foxtra;
     sizing = backup + sizing;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset = oscard[offset];
     offset = yankee.bind(entity)(offset);
     offset = offset.colors;
-    offset = offset.BACKGROUND_PRIMARY;
+    offset = offset.BG_BASE_SECONDARY;
     verify['backgroundColor'] = offset;
     tangon['avatarContainer'] = verify;
     verify = {'position': 'absolute', 'top': 56, 'right': 4294967288};
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = option[golfie];
             report = verify.bind(tangon)(michal);
             zuuluu = report.useDerivedValue;
-            michal = function() { // Original name: I
+            michal = function() { // Original name: N
                 michal = _closure2_slot0;
                 entity = michal.get;
                 michal = entity.bind(michal)();
@@ -194,7 +194,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = option[golfie];
             report = verify.bind(tangon)(michal);
             zuuluu = report.useAnimatedStyle;
-            michal = function() { // Original name: N
+            michal = function() { // Original name: I
                 entity = {};
                 michal = '100%';
                 entity['width'] = michal;
@@ -275,7 +275,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = option[golfie];
             zuuluu = verify.bind(tangon)(michal);
             michal = zuuluu.useAnimatedStyle;
-            entity = function() { // Original name: R
+            entity = function() { // Original name: b
                 entity = {};
                 zuuluu = {};
                 option = _closure1_slot0;
@@ -444,21 +444,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes[sizing];
             kiloes = output.bind(tangon)(kiloes);
             output = kiloes.t;
-            if(yankee) { _fun00002_ip = 935; continue _fun00001 }
- 907:
+            if(yankee) { _fun00002_ip = 937; continue _fun00001 }
+ 909:
             result = output.VnxBOD;
             kiloes = {};
             ctrled = source.name;
             kiloes['guildName'] = ctrled;
             kiloes = echoed.bind(update)(result, kiloes);
-            _fun00002_ip = 961; continue _fun00001;
- 935:
+            _fun00002_ip = 963; continue _fun00001;
+ 937:
             result = output.cgX47e;
             output = {};
             source = source.name;
             output['guildName'] = source;
             kiloes = echoed.bind(update)(result, output);
- 961:
+ 963:
             option['children'] = kiloes;
             option = offset.bind(tangon)(verify, option);
             golfie[1] = option;
@@ -480,15 +480,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = romeon[sizing];
             romeon = kiloes.bind(tangon)(romeon);
             romeon = romeon.t;
-            if(yankee) { _fun00002_ip = 1086; continue _fun00001 }
- 1071:
+            if(yankee) { _fun00002_ip = 1084; continue _fun00001 }
+ 1069:
             yankee = romeon.7D3C5u;
             yankee = foxtra.bind(backup)(yankee);
-            _fun00002_ip = 1099; continue _fun00001;
- 1086:
+            _fun00002_ip = 1097; continue _fun00001;
+ 1084:
             romeon = romeon.3smSPD;
             yankee = foxtra.bind(backup)(romeon);
- 1099:
+ 1097:
             option['children'] = yankee;
             option = offset.bind(tangon)(verify, option);
             golfie[2] = option;

@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = zuuluu.bind(tangon)(entity, michal);
             michal = sizing == echoed;
             entity = null;
-            if(michal) { _fun00004_ip = 540; continue _fun00003 }
+            if(michal) { _fun00004_ip = 536; continue _fun00003 }
  266:
             tangon = _closure1_slot12;
             zuuluu = _closure1_slot13;
@@ -295,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 540:
+ 536:
             return entity;
         }
     };

@@ -399,12 +399,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure2_slot5;
                     tangon = michal.current;
                     michal = null;
-                    if(!(michal != tangon)) { _fun00014_ip = 67; continue _fun00013 }
+                    if(!(michal != tangon)) { _fun00014_ip = 63; continue _fun00013 }
  42:
                     zuuluu = tangon.scrollToOffset;
                     michal = {'offset': 0, 'animated': false};
                     michal = zuuluu.bind(tangon)(michal);
- 67:
+ 63:
                     return entity;
                 }
             };

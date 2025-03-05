@@ -114,9 +114,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = undefined;
             output = entity.bind(report)();
             entity = null;
-            if(!(entity != michal)) { _fun00002_ip = 700; continue _fun00001 }
+            if(!(entity != michal)) { _fun00002_ip = 696; continue _fun00001 }
  47:
-            if(!(entity != offset)) { _fun00002_ip = 700; continue _fun00001 }
+            if(!(entity != offset)) { _fun00002_ip = 696; continue _fun00001 }
  54:
             sizing = michal.topic;
             romeon = michal.speaker_count;
@@ -306,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 700:
+ 696:
             return entity;
         }
     };

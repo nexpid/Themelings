@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee[0] = kiloes;
             kiloes = foxtra != output;
             foxtra = null;
-            if(!kiloes) { _fun00002_ip = 380; continue _fun00001 }
+            if(!kiloes) { _fun00002_ip = 376; continue _fun00001 }
  315:
             sizing = _closure1_slot5;
             kiloes = _closure1_slot0;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup['style'] = result;
             backup['children'] = output;
             foxtra = sizing.bind(tangon)(kiloes, backup);
- 380:
+ 376:
             yankee[1] = foxtra;
             yankee[2] = romeon;
             verify['children'] = yankee;

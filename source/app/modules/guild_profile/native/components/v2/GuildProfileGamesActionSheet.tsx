@@ -126,6 +126,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = true;
         entity['scrollable'] = oscard;
         entity['onDismiss'] = report;
+        report = 300;
+        entity['startHeight'] = report;
         report = 11;
         report = backup[report];
         report = offset.bind(tangon)(report);

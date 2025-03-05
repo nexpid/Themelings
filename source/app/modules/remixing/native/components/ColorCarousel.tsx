@@ -67,10 +67,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         kiloes = yankee.bind(kiloes)();
         output = 'transparent';
         yankee = output;
-        if(!kiloes) { _fun00002_ip = 299; continue _fun00001 }
- 293:
+        if(!kiloes) { _fun00002_ip = 291; continue _fun00001 }
+ 285:
         yankee = 'rgba(24, 25, 28, 0.8)';
- 299:
+ 291:
         offset['backgroundColor'] = yankee;
         yankee = 7;
         kiloes = oscard[yankee];
@@ -422,13 +422,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 foxtra = foxtra.bind(sizing)(golfie);
                 golfie = new Array(2);
                 golfie[0] = foxtra;
-                if(romeon) { _fun00004_ip = 609; continue _fun00003 }
+                if(romeon) { _fun00004_ip = 605; continue _fun00003 }
  365:
                 if(!option) { _fun00004_ip = 372; continue _fun00003 }
  368:
                 option = offset === yankee;
  372:
-                if(!option) { _fun00004_ip = 604; continue _fun00003 }
+                if(!option) { _fun00004_ip = 600; continue _fun00003 }
  378:
                 foxtra = _closure1_slot8;
                 romeon = _closure1_slot5;
@@ -489,9 +489,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 yankee['children'] = offset;
                 offset = 'RAINBOW';
                 option = foxtra.bind(tangon)(romeon, yankee, offset);
- 604:
-                _fun00004_ip = 790; continue _fun00003;
- 609:
+ 600:
+                _fun00004_ip = 786; continue _fun00003;
+ 605:
                 romeon = _closure1_slot8;
                 yankee = _closure1_slot5;
                 offset = {};
@@ -547,7 +547,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset['children'] = verify;
                 verify = 'next colors';
                 option = romeon.bind(tangon)(yankee, offset, verify);
- 790:
+ 786:
                 golfie[1] = option;
                 report['children'] = golfie;
                 report = oscard.bind(tangon)(michal, report);

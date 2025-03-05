@@ -173,23 +173,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.radii;
             option = option.xl;
             michal['borderRadius'] = option;
-            if(!(zuuluu == report)) { _fun00002_ip = 262; continue _fun00001 }
- 232:
+            if(!(zuuluu == report)) { _fun00002_ip = 254; continue _fun00001 }
+ 224:
             report = _closure1_slot1;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[golfie];
             zuuluu = report.bind(oscard)(zuuluu);
             zuuluu = zuuluu.colors;
             zuuluu = zuuluu.REDESIGN_CHAT_INPUT_BACKGROUND;
-            _fun00002_ip = 290; continue _fun00001;
- 262:
+            _fun00002_ip = 282; continue _fun00001;
+ 254:
             report = _closure1_slot1;
             tangon = _closure1_slot2;
             tangon = tangon[golfie];
             tangon = report.bind(oscard)(tangon);
             tangon = tangon.colors;
             zuuluu = tangon.CARD_SECONDARY_BG;
- 290:
+ 282:
             michal['backgroundColor'] = zuuluu;
             entity['input'] = michal;
             michal = {'flexDirection': 'column', 'justifyContent': 'center', 'alignItems': 'center'};

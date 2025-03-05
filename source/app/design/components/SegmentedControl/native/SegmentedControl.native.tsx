@@ -898,8 +898,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['contentContainerStyle'] = offset;
             entity['children'] = oscard;
             entity = verify.bind(report)(tangon, entity);
-            if(!zuuluu) { _fun00002_ip = 1306; continue _fun00001 }
- 1262:
+            if(!zuuluu) { _fun00002_ip = 1302; continue _fun00001 }
+ 1258:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
@@ -910,7 +910,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['gesture'] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1306:
+ 1302:
             return entity;
         }
     };

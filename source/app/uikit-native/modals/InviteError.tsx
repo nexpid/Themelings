@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = michal.bind(report)();
             oscard = entity.guild;
             entity = null;
-            if(!(entity != oscard)) { _fun00004_ip = 663; continue _fun00003 }
+            if(!(entity != oscard)) { _fun00004_ip = 659; continue _fun00003 }
  48:
             update = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -335,7 +335,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 663:
+ 659:
             return entity;
         }
     };

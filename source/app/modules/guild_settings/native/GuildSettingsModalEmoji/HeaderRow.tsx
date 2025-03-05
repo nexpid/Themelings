@@ -664,10 +664,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         foxtra = backup.isAndroid;
         foxtra = foxtra.bind(backup)();
         romeon = 0;
-        if(!foxtra) { _fun00002_ip = 402; continue _fun00001 }
- 396:
+        if(!foxtra) { _fun00002_ip = 398; continue _fun00001 }
+ 392:
         romeon = -8;
- 402:
+ 398:
         verify['marginBottom'] = romeon;
         tangon['uploadInstructionsHeading'] = verify;
         verify = {};

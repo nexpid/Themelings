@@ -1167,7 +1167,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00030_ip = 221; continue _fun00029 }
+                    if(michal) { _fun00030_ip = 217; continue _fun00029 }
  10:
                     tangon = _closure1_slot7;
                     michal = tangon.getChannel;
@@ -1191,34 +1191,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie['icon'] = option;
                     michal['body'] = golfie;
                     michal = tangon.bind(report)(michal);
-                    SaveGenerator(address=127);
- 125:
+                    SaveGenerator(address=123);
+ 121:
                     return michal;
- 127:
+ 123:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00030_ip = 218; continue _fun00029 }
- 133:
+                    if(tangon) { _fun00030_ip = 214; continue _fun00029 }
+ 129:
                     golfie = null;
                     tangon = golfie == verify;
                     report = undefined;
-                    if(tangon) { _fun00030_ip = 154; continue _fun00029 }
- 144:
+                    if(tangon) { _fun00030_ip = 150; continue _fun00029 }
+ 140:
                     tangon = verify.getGuildId;
                     report = tangon.bind(verify)();
- 154:
+ 150:
                     tangon = golfie == report;
-                    if(tangon) { _fun00030_ip = 181; continue _fun00029 }
- 161:
+                    if(tangon) { _fun00030_ip = 177; continue _fun00029 }
+ 157:
                     golfie = golfie != verify;
-                    if(!golfie) { _fun00030_ip = 178; continue _fun00029 }
- 168:
+                    if(!golfie) { _fun00030_ip = 174; continue _fun00029 }
+ 164:
                     option = verify.isThread;
                     golfie = option.bind(verify)();
- 178:
+ 174:
                     tangon = golfie;
- 181:
-                    if(tangon) { _fun00030_ip = 215; continue _fun00029 }
- 184:
+ 177:
+                    if(tangon) { _fun00030_ip = 211; continue _fun00029 }
+ 180:
                     tangon = _closure1_slot1;
                     golfie = _closure1_slot2;
                     zuuluu = 19;
@@ -1226,11 +1226,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = tangon.bind(oscard)(zuuluu);
                     zuuluu = tangon.checkGuildTemplateDirty;
                     zuuluu = zuuluu.bind(tangon)(report);
- 215:
+ 211:
                     return michal;
- 218:
+ 214:
                     return michal;
- 221:
+ 217:
                     return entity;
                 }
             };

@@ -323,8 +323,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = result.bind(echoed)(output);
             offset['title'] = output;
             sizing = sizing != kiloes;
-            if(!sizing) { _fun00002_ip = 840; continue _fun00001 }
- 803:
+            if(!sizing) { _fun00002_ip = 836; continue _fun00001 }
+ 799:
             echoed = _closure1_slot8;
             result = _closure1_slot1;
             update = _closure1_slot2;
@@ -334,7 +334,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = {};
             output['chunks'] = kiloes;
             sizing = echoed.bind(tangon)(result, output);
- 840:
+ 836:
             offset['trailing'] = sizing;
             offset['chunks'] = kiloes;
             kiloes = _closure1_slot6;

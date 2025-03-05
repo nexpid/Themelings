@@ -90,10 +90,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = output[report];
             golfie = golfie.bind(tangon)(report);
             report = {};
-            if(!(kiloes == offset)) { _fun00002_ip = 151; continue _fun00001 }
- 147:
+            if(!(kiloes == offset)) { _fun00002_ip = 147; continue _fun00001 }
+ 143:
             offset = new Array(0);
- 151:
+ 147:
             report['colors'] = offset;
             offset = _closure1_slot4;
             output = offset.absoluteFill;

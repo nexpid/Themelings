@@ -301,7 +301,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = new Array(2);
             report[0] = verify;
             oscard = null;
-            if(!option) { _fun00002_ip = 779; continue _fun00001 }
+            if(!option) { _fun00002_ip = 775; continue _fun00001 }
  729:
             verify = _closure1_slot5;
             option = _closure1_slot1;
@@ -312,7 +312,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = {'guild': null, 'useButtonComponent': true, 'useEventsButton': true};
             golfie['guild'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 779:
+ 775:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

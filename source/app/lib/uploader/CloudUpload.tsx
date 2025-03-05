@@ -367,26 +367,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = report.bind(golfie)(entity);
                 entity = entity.UploadPlatform;
                 entity = entity.REACT_NATIVE;
-                if(!(tangon === entity)) { _fun00010_ip = 110; continue _fun00009 }
+                if(!(tangon !== entity)) { _fun00010_ip = 70; continue _fun00009 }
  55:
-                tangon = _closure1_slot0;
-                report = _closure1_slot2;
-                entity = 16;
-                entity = report[entity];
-                entity = tangon.bind(golfie)(entity);
-                report = entity.MessageAttachmentSendFailureExperiment;
-                tangon = report.getCurrentConfig;
-                entity = {};
-                oscard = 'CloudUpload';
-                entity['location'] = oscard;
-                entity = tangon.bind(report)(entity);
-                entity = entity.enabled;
-                if(entity) { _fun00010_ip = 125; continue _fun00009 }
- 110:
                 entity = michal.retryOpts;
                 entity = entity.bind(michal)();
-                _fun00010_ip = 322; continue _fun00009;
- 125:
+                _fun00010_ip = 267; continue _fun00009;
+ 70:
                 michal = {};
                 report = {};
                 tangon = _closure1_slot1;
@@ -431,7 +417,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = 8;
                 michal['retries'] = zuuluu;
                 entity = michal;
- 322:
+ 267:
                 return entity;
             }
         };
@@ -692,7 +678,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  225: // try_start_0
                     yankee = _closure1_slot0;
                     romeon = _closure1_slot2;
-                    offset = 17;
+                    offset = 16;
                     offset = romeon[offset];
                     romeon = yankee.bind(verify)(offset);
                     yankee = romeon.getFileContentLength;
@@ -726,7 +712,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = offset.bind(yankee)(option);
                     option = _closure1_slot0;
                     offset = _closure1_slot2;
-                    golfie = 17;
+                    golfie = 16;
                     golfie = offset[golfie];
                     option = option.bind(verify)(golfie);
                     golfie = option.getFileData;
@@ -808,7 +794,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  104:
                     option = _closure1_slot0;
                     offset = _closure1_slot2;
-                    tangon = 17;
+                    tangon = 16;
                     tangon = offset[tangon];
                     option = option.bind(verify)(tangon);
                     tangon = option.getFileChunk;
@@ -894,7 +880,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     echoed = 3;
                     output = 'Incomplete chunk upload for file id ';
                     sizing = ': ';
-                    kiloes = 19;
+                    kiloes = 18;
                     backup = false;
                     foxtra = 'rejectWithError';
                     romeon = 'Attempt ';
@@ -902,7 +888,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = ' : Uploading chunk ';
                     verify = ' of ';
                     option = ' bytes';
-                    golfie = 18;
+                    golfie = 17;
                     oscard = 50;
                     report = null;
  185:
@@ -1176,7 +1162,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  233:
                 verify = _closure1_slot1;
                 option = _closure1_slot2;
-                oscard = 18;
+                oscard = 17;
                 oscard = option[oscard];
                 offset = verify.bind(zuuluu)(oscard);
                 verify = offset.throttle;
@@ -1202,7 +1188,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = {};
                 oscard['Content-Type'] = michal;
                 michal = _closure1_slot0;
-                entity = 19;
+                entity = 18;
                 entity = option[entity];
                 entity = michal.bind(zuuluu)(entity);
                 zuuluu = entity.HTTP;
@@ -1255,7 +1241,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = michal.uri;
                     zuuluu = _closure1_slot0;
                     michal = _closure1_slot2;
-                    option = 20;
+                    option = 19;
                     michal = michal[option];
                     golfie = undefined;
                     michal = zuuluu.bind(golfie)(michal);
@@ -1451,7 +1437,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  201:
                     romeon = _closure1_slot0;
                     backup = _closure1_slot2;
-                    zuuluu = 21;
+                    zuuluu = 20;
                     zuuluu = backup[zuuluu];
                     zuuluu = romeon.bind(golfie)(zuuluu);
                     romeon = zuuluu.default;
@@ -1467,7 +1453,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     _closure4_slot2 = zuuluu;
                     backup = _closure1_slot0;
                     output = _closure1_slot2;
-                    romeon = 22;
+                    romeon = 21;
                     romeon = output[romeon];
                     output = backup.bind(golfie)(romeon);
                     backup = output.getUploadTarget;
@@ -1531,7 +1517,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  10:
                                 tangon = _closure1_slot0;
                                 zuuluu = _closure1_slot2;
-                                michal = 19;
+                                michal = 18;
                                 zuuluu = zuuluu[michal];
                                 michal = undefined;
                                 michal = tangon.bind(michal)(zuuluu);
@@ -1599,7 +1585,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  603: // try_start_1 // try_end0
                     echoed = _closure1_slot1;
                     update = _closure1_slot2;
-                    result = 24;
+                    result = 23;
                     result = update[result];
                     source = echoed.bind(golfie)(result);
                     update = source.getCurrentConfig;
@@ -1792,7 +1778,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = romeon.bind(foxtra)(yankee);
                     romeon = _closure1_slot1;
                     foxtra = _closure1_slot2;
-                    yankee = 23;
+                    yankee = 22;
                     yankee = foxtra[yankee];
                     romeon = romeon.bind(golfie)(yankee);
                     yankee = romeon.captureException;
@@ -1875,7 +1861,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     var _closure4_slot0 = michal;
                     oscard = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    report = 22;
+                    report = 21;
                     report = golfie[report];
                     foxtra = undefined;
                     golfie = oscard.bind(foxtra)(report);
@@ -1920,7 +1906,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  7:
                                 tangon = _closure1_slot0;
                                 zuuluu = _closure1_slot2;
-                                michal = 25;
+                                michal = 24;
                                 zuuluu = zuuluu[michal];
                                 michal = undefined;
                                 report = tangon.bind(michal)(zuuluu);
@@ -2101,7 +2087,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  951:
                     offset = _closure1_slot0;
                     backup = _closure1_slot2;
-                    verify = 17;
+                    verify = 16;
                     verify = backup[verify];
                     offset = offset.bind(foxtra)(verify);
                     verify = offset.getFileData;
@@ -2443,7 +2429,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  29:
                     golfie = _closure1_slot0;
                     option = _closure1_slot2;
-                    oscard = 22;
+                    oscard = 21;
                     oscard = option[oscard];
                     option = golfie.bind(michal)(oscard);
                     golfie = option.getUploadTarget;
@@ -2456,7 +2442,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  93: // try_start_0
                     report = _closure1_slot0;
                     oscard = _closure1_slot2;
-                    tangon = 19;
+                    tangon = 18;
                     tangon = oscard[tangon];
                     tangon = report.bind(michal)(tangon);
                     report = tangon.HTTP;
@@ -2553,7 +2539,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = this;
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
-                entity = 26;
+                entity = 25;
                 michal = michal[entity];
                 entity = undefined;
                 report = zuuluu.bind(entity)(michal);
@@ -2619,7 +2605,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  51:
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
-                entity = 26;
+                entity = 25;
                 michal = michal[entity];
                 entity = undefined;
                 report = zuuluu.bind(entity)(michal);
@@ -2843,7 +2829,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     michal = michal.bind(entity)(report);
-    report = 27;
+    report = 26;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

@@ -93,22 +93,22 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity['height'] = report;
             entity['cornerRadius'] = oscard;
             oscard = 'top-right';
-            if(!(oscard !== golfie)) { _fun00002_ip = 262; continue _fun00001 }
- 232:
+            if(!(oscard !== golfie)) { _fun00002_ip = 258; continue _fun00001 }
+ 228:
             oscard = tangon - zuuluu;
             oscard = oscard + michal;
             entity['x'] = oscard;
             report = tangon - report;
             report = report + michal;
             entity['y'] = report;
-            _fun00002_ip = 285; continue _fun00001;
- 262:
+            _fun00002_ip = 281; continue _fun00001;
+ 258:
             zuuluu = tangon - zuuluu;
             zuuluu = zuuluu + michal;
             entity['x'] = zuuluu;
             michal = -michal;
             entity['y'] = michal;
- 285:
+ 281:
             return entity;
         }
     };

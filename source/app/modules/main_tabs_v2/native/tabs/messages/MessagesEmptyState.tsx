@@ -168,11 +168,11 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             update = 350;
             result = 622;
             sizing = update;
-            if(!(echoed < result)) { _fun00002_ip = 347; continue _fun00001 }
- 339:
+            if(!(echoed < result)) { _fun00002_ip = 343; continue _fun00001 }
+ 335:
             output = echoed / result;
             sizing = output * update;
- 347:
+ 343:
             foxtra['height'] = sizing;
             sizing = global;
             output = sizing.Math;

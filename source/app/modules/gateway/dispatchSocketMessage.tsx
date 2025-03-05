@@ -1823,7 +1823,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(entity)(tangon);
             report = tangon.author;
             zuuluu = null;
-            if(!(zuuluu != report)) { _fun00056_ip = 76; continue _fun00055 }
+            if(!(zuuluu != report)) { _fun00056_ip = 80; continue _fun00055 }
  29:
             zuuluu = _closure1_slot25;
             michal = {'type': 'MESSAGE_CREATE', 'guildId': null, 'channelId': null, 'message': null, 'optimistic': false, 'isPushNotification': false};
@@ -1833,7 +1833,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['channelId'] = report;
             michal['message'] = tangon;
             michal = zuuluu.bind(entity)(michal);
- 76:
+ 80:
             return entity;
         }
     };
@@ -5329,6 +5329,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = argFoo;
         entity = entity.balance;
         michal['balance'] = entity;
+        entity = undefined;
+        michal = zuuluu.bind(entity)(michal);
+        return entity;
+    };
+    tangon = option.bind(entity)(golfie, tangon);
+    golfie = ['GUILD_POWERUP_ENTITLEMENTS_CREATE', 'GUILD_POWERUP_ENTITLEMENTS_DELETE'];
+    tangon = function(argFoo, argBar) {
+        entity = argFoo;
+        zuuluu = _closure1_slot25;
+        michal = {};
+        tangon = argBar;
+        michal['type'] = tangon;
+        tangon = entity.guild_id;
+        michal['guildId'] = tangon;
+        entity = entity.entitlements;
+        michal['entitlements'] = entity;
         entity = undefined;
         michal = zuuluu.bind(entity)(michal);
         return entity;

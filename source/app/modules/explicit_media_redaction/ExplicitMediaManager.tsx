@@ -480,52 +480,52 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = michal.channel_id;
                 entity = tangon[entity];
                 golfie = null;
-                if(!(golfie == entity)) { _fun00016_ip = 46; continue _fun00015 }
+                if(!(golfie == entity)) { _fun00016_ip = 42; continue _fun00015 }
  23:
                 zuuluu = michal.channel_id;
                 entity = {'numOfAttachments': 0, 'numOfAttachmentsPendingScan': 0, 'numOfEmbeds': 0, 'numOfEmbedsPendingScan': 0};
                 tangon[zuuluu] = entity;
- 46:
+ 42:
                 entity = michal.channel_id;
                 zuuluu = tangon[entity];
                 oscard = zuuluu.numOfAttachments;
                 entity = michal.attachments;
                 report = golfie == entity;
                 verify = undefined;
-                if(report) { _fun00016_ip = 81; continue _fun00015 }
- 76:
+                if(report) { _fun00016_ip = 77; continue _fun00015 }
+ 72:
                 verify = entity.length;
- 81:
+ 77:
                 offset = golfie != verify;
                 entity = 0;
-                if(!offset) { _fun00016_ip = 93; continue _fun00015 }
- 90:
+                if(!offset) { _fun00016_ip = 89; continue _fun00015 }
+ 86:
                 entity = verify;
- 93:
+ 89:
                 entity = oscard + entity;
                 zuuluu['numOfAttachments'] = entity;
                 oscard = zuuluu.numOfEmbeds;
                 entity = michal.embeds;
                 offset = golfie == entity;
                 verify = undefined;
-                if(offset) { _fun00016_ip = 129; continue _fun00015 }
- 124:
+                if(offset) { _fun00016_ip = 125; continue _fun00015 }
+ 120:
                 verify = entity.length;
- 129:
+ 125:
                 offset = golfie != verify;
                 entity = 0;
-                if(!offset) { _fun00016_ip = 141; continue _fun00015 }
- 138:
+                if(!offset) { _fun00016_ip = 137; continue _fun00015 }
+ 134:
                 entity = verify;
- 141:
+ 137:
                 entity = oscard + entity;
                 zuuluu['numOfEmbeds'] = entity;
                 oscard = zuuluu.numOfAttachmentsPendingScan;
                 romeon = michal.attachments;
                 entity = golfie == romeon;
                 verify = undefined;
-                if(entity) { _fun00016_ip = 192; continue _fun00015 }
- 172:
+                if(entity) { _fun00016_ip = 188; continue _fun00015 }
+ 168:
                 offset = romeon.filter;
                 entity = function(argFoo) {
                     zuuluu = _closure1_slot0;
@@ -542,25 +542,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 entity = offset.bind(romeon)(entity);
                 verify = entity.length;
- 192:
+ 188:
                 offset = golfie != verify;
                 entity = 0;
-                if(!offset) { _fun00016_ip = 204; continue _fun00015 }
- 201:
+                if(!offset) { _fun00016_ip = 200; continue _fun00015 }
+ 197:
                 entity = verify;
- 204:
+ 200:
                 entity = oscard + entity;
                 zuuluu['numOfAttachmentsPendingScan'] = entity;
                 entity = zuuluu.numOfEmbedsPendingScan;
                 verify = golfie == michal;
                 oscard = undefined;
-                if(verify) { _fun00016_ip = 264; continue _fun00015 }
- 229:
+                if(verify) { _fun00016_ip = 260; continue _fun00015 }
+ 225:
                 offset = michal.embeds;
                 verify = golfie == offset;
                 oscard = undefined;
-                if(verify) { _fun00016_ip = 264; continue _fun00015 }
- 244:
+                if(verify) { _fun00016_ip = 260; continue _fun00015 }
+ 240:
                 verify = offset.filter;
                 option = function(argFoo) {
                     zuuluu = _closure1_slot0;
@@ -577,13 +577,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 option = verify.bind(offset)(option);
                 oscard = option.length;
- 264:
+ 260:
                 golfie = golfie != oscard;
                 report = 0;
-                if(!golfie) { _fun00016_ip = 276; continue _fun00015 }
- 273:
+                if(!golfie) { _fun00016_ip = 272; continue _fun00015 }
+ 269:
                 report = oscard;
- 276:
+ 272:
                 entity = entity + report;
                 zuuluu['numOfEmbedsPendingScan'] = entity;
                 entity = {};

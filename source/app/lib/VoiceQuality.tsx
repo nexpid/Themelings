@@ -911,12 +911,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = {};
                 report = michal.mosCount;
                 report = report > tangon;
-                if(!report) { _fun00012_ip = 116; continue _fun00011 }
- 100:
+                if(!report) { _fun00012_ip = 112; continue _fun00011 }
+ 96:
                 oscard = michal.mosSum;
                 report = michal.mosCount;
                 tangon = oscard / report;
- 116:
+ 112:
                 entity['mos_mean'] = tangon;
                 report = michal.mosBuckets;
                 tangon = 1;
@@ -1875,21 +1875,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = argFoo;
             entity = argBar;
             zuuluu = null;
-            if(!(zuuluu == entity)) { _fun00032_ip = 26; continue _fun00031 }
+            if(!(zuuluu == entity)) { _fun00032_ip = 22; continue _fun00031 }
  12:
             entity = {'accumulated': 0, 'lastValue': 0};
- 26:
+ 22:
             tangon = entity.accumulated;
             zuuluu = entity.lastValue;
             entity = {};
-            if(!(!(zuuluu > michal))) { _fun00032_ip = 54; continue _fun00031 }
- 44:
+            if(!(!(zuuluu > michal))) { _fun00032_ip = 50; continue _fun00031 }
+ 40:
             zuuluu = michal - zuuluu;
             zuuluu = tangon + zuuluu;
-            _fun00032_ip = 58; continue _fun00031;
- 54:
+            _fun00032_ip = 54; continue _fun00031;
+ 50:
             zuuluu = tangon + michal;
- 58:
+ 54:
             entity['accumulated'] = zuuluu;
             entity['lastValue'] = michal;
             return entity;

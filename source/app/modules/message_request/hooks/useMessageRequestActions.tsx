@@ -666,22 +666,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             StartGenerator();
                             verify = argFoo;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00016_ip = 285; continue _fun00015 }
+                            if(michal) { _fun00016_ip = 281; continue _fun00015 }
  15:
                             var _closure5_slot0 = verify;
                             michal = _closure2_slot9;
-                            if(michal) { _fun00016_ip = 280; continue _fun00015 }
+                            if(michal) { _fun00016_ip = 276; continue _fun00015 }
  32:
                             michal = _closure2_slot0;
                             report = null;
-                            if(!(report != michal)) { _fun00016_ip = 193; continue _fun00015 }
+                            if(!(report != michal)) { _fun00016_ip = 189; continue _fun00015 }
  45:
                             option = _closure1_slot6;
                             oscard = option.getMutualGuilds;
                             tangon = _closure2_slot0;
                             tangon = tangon.id;
                             tangon = oscard.bind(option)(tangon);
-                            if(!(report == tangon)) { _fun00016_ip = 193; continue _fun00015 }
+                            if(!(report == tangon)) { _fun00016_ip = 189; continue _fun00015 }
  76:
                             oscard = _closure2_slot6;
                             report = undefined;
@@ -700,26 +700,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = tangon.bind(offset)(report, michal);
                             michal = {'withMutualGuilds': true, 'withMutualFriendsCount': true};
                             michal = option.bind(report)(oscard, tangon, michal);
-                            SaveGenerator(address=158);
- 156:
+                            SaveGenerator(address=154);
+ 152:
                             return michal;
- 158:
+ 154:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(tangon) { _fun00016_ip = 166; continue _fun00015 }
- 164: // try_end0
-                            _fun00016_ip = 182; continue _fun00015;
- 166: // try_end1
+                            if(tangon) { _fun00016_ip = 162; continue _fun00015 }
+ 160: // try_end0
+                            _fun00016_ip = 178; continue _fun00015;
+ 162: // try_end1
                             oscard = _closure2_slot6;
                             tangon = false;
                             tangon = oscard.bind(report)(tangon);
                             return michal;
- 180: // try_start_2 // catch_target0
+ 176: // try_start_2 // catch_target0
                             CatchBlockStart(arg_register=1);
- 182: // try_end2
+ 178: // try_end2
                             tangon = _closure2_slot6;
                             michal = false;
                             michal = tangon.bind(report)(michal);
- 193:
+ 189:
                             michal = function() {
                                 tangon = _closure1_slot3;
                                 zuuluu = undefined;
@@ -897,17 +897,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             };
                             michal['onCancel'] = golfie;
                             michal = tangon.bind(oscard)(michal);
-                            _fun00016_ip = 280; continue _fun00015;
- 265: // catch_target1 // catch_target2
+                            _fun00016_ip = 276; continue _fun00015;
+ 261: // catch_target1 // catch_target2
                             CatchBlockStart(arg_register=1);
                             tangon = _closure2_slot6;
                             zuuluu = false;
                             zuuluu = tangon.bind(report)(zuuluu);
                             throw michal;
- 280:
+ 276:
                             michal = undefined;
                             return michal;
- 285:
+ 281:
                             return entity;
                         }
                     };

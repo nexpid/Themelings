@@ -429,7 +429,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['channelInfo'] = oscard;
             oscard = backup.length;
             report = null;
-            if(!(golfie !== oscard)) { _fun00004_ip = 933; continue _fun00003 }
+            if(!(golfie !== oscard)) { _fun00004_ip = 929; continue _fun00003 }
  687:
             if(foxtra) { _fun00004_ip = 771; continue _fun00003 }
  690:
@@ -451,7 +451,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = option.bind(tangon)(romeon, offset);
             oscard['children'] = offset;
             report = option.bind(tangon)(golfie, oscard);
-            _fun00004_ip = 933; continue _fun00003;
+            _fun00004_ip = 929; continue _fun00003;
  771:
             golfie = _closure1_slot0;
             foxtra = _closure1_slot2;
@@ -489,7 +489,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = option.bind(tangon)(offset, verify);
             oscard['children'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 933:
+ 929:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

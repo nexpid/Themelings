@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['text'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot6 = tangon;
-    tangon = 8;
+    tangon = 9;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -62,7 +62,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function(argFoo) { // Original name: AcceptRequestConfirmationModal
         entity = argFoo;
         oscard = entity.onCancel;
-        golfie = entity.onConfirm;
+        entity = entity.onConfirm;
+        var _closure2_slot0 = entity;
         entity = _closure1_slot6;
         tangon = undefined;
         romeon = entity.bind(tangon)();
@@ -95,6 +96,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         option = option.ETE/oK;
         option = verify.bind(offset)(option);
         entity['cancelText'] = option;
+        golfie = function() { // Original name: onConfirm
+            michal = _closure2_slot0;
+            entity = undefined;
+            michal = michal.bind(entity)();
+            zuuluu = _closure1_slot1;
+            tangon = _closure1_slot2;
+            michal = 7;
+            michal = tangon[michal];
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.close;
+            michal = michal.bind(zuuluu)();
+            return entity;
+        };
         entity['onConfirm'] = golfie;
         entity['onCancel'] = oscard;
         golfie = _closure1_slot5;
@@ -102,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = {};
         option = romeon.bodyText;
         report['style'] = option;
-        verify = 7;
+        verify = 8;
         option = kiloes[verify];
         option = backup.bind(tangon)(option);
         offset = option.Text;

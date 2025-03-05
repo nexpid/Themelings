@@ -208,18 +208,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = _closure2_slot5;
                     zuuluu = entity.current;
                     entity = null;
-                    if(!(entity != zuuluu)) { _fun00006_ip = 65; continue _fun00005 }
+                    if(!(entity != zuuluu)) { _fun00006_ip = 61; continue _fun00005 }
  18:
                     michal = _closure2_slot6;
                     zuuluu = michal.current;
-                    if(!(entity != zuuluu)) { _fun00006_ip = 65; continue _fun00005 }
+                    if(!(entity != zuuluu)) { _fun00006_ip = 61; continue _fun00005 }
  31:
                     michal = zuuluu.scrollToLocation;
                     entity = {'section': 0, 'item': null, 'animated': false};
                     tangon = argFoo;
                     entity['item'] = tangon;
                     entity = michal.bind(zuuluu)(entity);
- 65:
+ 61:
                     entity = undefined;
                     return entity;
                 }

@@ -300,13 +300,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         output = golfie[romeon];
         output = foxtra.bind(entity)(output);
         output = output.spacing;
-        if(sizing) { _fun00002_ip = 425; continue _fun00001 }
- 418:
+        if(sizing) { _fun00002_ip = 421; continue _fun00001 }
+ 414:
         sizing = output.PX_16;
-        _fun00002_ip = 431; continue _fun00001;
- 425:
+        _fun00002_ip = 427; continue _fun00001;
+ 421:
         sizing = output.PX_12;
- 431:
+ 427:
         yankee['lineHeight'] = sizing;
         kiloes = kiloes.PRIMARY_BOLD;
         yankee['fontFamily'] = kiloes;

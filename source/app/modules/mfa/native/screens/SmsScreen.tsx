@@ -471,8 +471,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         result = romeon[result];
         result = yankee.bind(tangon)(result);
         echoed = result.TextInput;
-        result = {'editable': null, 'autoFocus': true, 'autoCapitalize': 'characters', 'maxLength': null, 'autoComplete': 'sms-otp', 'textContentType': 'oneTimeCode', 'keyboardType': 'number-pad'};
-        result['editable'] = verify;
+        result = {'isDisabled': null, 'autoFocus': true, 'autoCapitalize': 'characters', 'maxLength': null, 'autoComplete': 'sms-otp', 'textContentType': 'oneTimeCode', 'keyboardType': 'number-pad'};
+        result['isDisabled'] = verify;
         verify = 9;
         vacuum = romeon[verify];
         vacuum = yankee.bind(tangon)(vacuum);

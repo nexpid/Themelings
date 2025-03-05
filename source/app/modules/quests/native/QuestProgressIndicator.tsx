@@ -187,13 +187,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             oscard = option.bind(verify)(oscard, michal);
             _closure2_slot2 = oscard;
-            michal = {'x-sm': 3, 'sm': 3, 'lg': 6};
+            michal = {'x-sm': 3, 'sm': 3, 'md': 3, 'lg': 6};
             sequen = michal[report];
-            michal = {'x-sm': 40, 'sm': 64, 'lg': 128};
+            michal = {'x-sm': 40, 'sm': 64, 'md': 70, 'lg': 128};
             kiloes = michal[report];
             _closure2_slot3 = kiloes;
             quebec = 1;
-            michal = {'x-sm': 1.6, 'sm': 1, 'lg': 1.6};
+            michal = {'x-sm': 1.6, 'sm': 1, 'md': 1.4, 'lg': 1.6};
             michal = michal[report];
             _closure2_slot4 = michal;
             cntext = 2;

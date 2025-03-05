@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = report.isOwner;
                     entity = argBar;
                     entity = michal.bind(report)(entity);
-                    if(!entity) { _fun00002_ip = 227; continue _fun00001 }
+                    if(!entity) { _fun00002_ip = 223; continue _fun00001 }
  23:
                     option = _closure1_slot0;
                     verify = _closure1_slot1;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = oscard.bind(golfie)(report);
                     michal['shouldRestrictUpdatingRoleSubscriptionSettings'] = report;
                     entity = zuuluu.bind(tangon)(michal);
- 227:
+ 223:
                     return entity;
                 }
             };

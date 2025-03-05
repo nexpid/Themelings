@@ -55,8 +55,8 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             entity = {'aria-label': null, 'shape': null, 'size': null, 'gap': 4, 'depthX': 0.5, 'depthY': 0.5};
             golfie = 'aria-label';
             golfie = golfie in option;
-            if(golfie) { _fun00002_ip = 138; continue _fun00001 }
- 100:
+            if(golfie) { _fun00002_ip = 134; continue _fun00001 }
+ 96:
             offset = _closure1_slot0;
             yankee = _closure1_slot1;
             golfie = 3;
@@ -65,10 +65,10 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             offset = yankee.getListSummaryLabel;
             golfie = option.names;
             golfie = offset.bind(yankee)(golfie);
-            _fun00002_ip = 144; continue _fun00001;
- 138:
+            _fun00002_ip = 140; continue _fun00001;
+ 134:
             golfie = option.aria-label;
- 144:
+ 140:
             entity['aria-label'] = golfie;
             option = _closure1_slot0;
             offset = _closure1_slot1;
@@ -83,8 +83,8 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             option = option.bind(zuuluu)(golfie);
             golfie = option.isArray;
             golfie = golfie.bind(option)(verify);
-            if(golfie) { _fun00002_ip = 245; continue _fun00001 }
- 213:
+            if(golfie) { _fun00002_ip = 241; continue _fun00001 }
+ 209:
             golfie = _closure1_slot0;
             option = _closure1_slot1;
             oscard = 6;
@@ -92,8 +92,8 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             oscard = golfie.bind(zuuluu)(oscard);
             oscard = oscard.AVATAR_SIZE_MAP;
             oscard = oscard[verify];
-            _fun00002_ip = 264; continue _fun00001;
- 245:
+            _fun00002_ip = 260; continue _fun00001;
+ 241:
             option = verify.map;
             golfie = function(argFoo) {
                 zuuluu = _closure1_slot0;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
                 return entity;
             };
             oscard = option.bind(verify)(golfie);
- 264:
+ 260:
             entity['size'] = oscard;
             entity['children'] = report;
             entity = tangon.bind(zuuluu)(michal, entity);

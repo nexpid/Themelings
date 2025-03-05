@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     michal['showAgeVerification'] = golfie;
-    tangon = function(argFoo) { // Original name: showAgeVerificationGetStartedModal
+    golfie = function(argFoo) { // Original name: showAgeVerificationGetStartedModal
         entity = argFoo;
         var _closure2_slot0 = entity;
         tangon = _closure1_slot1;
@@ -156,8 +156,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    michal['showAgeVerificationGetStartedModal'] = tangon;
-    tangon = 7;
+    michal['showAgeVerificationGetStartedModal'] = golfie;
+    tangon = function(argFoo) { // Original name: openUrl
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
+        entity = 7;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.openURL;
+        michal = argFoo;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    michal['openUrl'] = tangon;
+    tangon = 8;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

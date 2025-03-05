@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = {};
     verify['display'] = yankee;
     michal['established'] = verify;
-    verify = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
+    verify = {'marginTop': 4, 'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
     michal['nameRow'] = verify;
     verify = {};
     verify['flexShrink'] = offset;

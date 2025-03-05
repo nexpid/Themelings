@@ -154,13 +154,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = foxtra.bind(tangon)(romeon, verify);
             verify = new Array(2);
             verify[0] = romeon;
-            if(offset) { _fun00004_ip = 208; continue _fun00003 }
- 202:
+            if(offset) { _fun00004_ip = 200; continue _fun00003 }
+ 194:
             romeon = 0;
             offset = kiloes > romeon;
- 208:
-            if(!offset) { _fun00004_ip = 261; continue _fun00003 }
- 211:
+ 200:
+            if(!offset) { _fun00004_ip = 253; continue _fun00003 }
+ 203:
             foxtra = _closure1_slot18;
             romeon = _closure1_slot1;
             output = _closure1_slot2;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup + kiloes;
             yankee['value'] = backup;
             offset = foxtra.bind(tangon)(romeon, yankee);
- 261:
+ 253:
             verify[1] = offset;
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
@@ -2735,8 +2735,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = verify.headerTitle;
             golfie['style'] = romeon;
             romeon = null;
-            if(!yankee) { _fun00050_ip = 450; continue _fun00049 }
- 264:
+            if(!yankee) { _fun00050_ip = 446; continue _fun00049 }
+ 260:
             backup = _closure1_slot18;
             output = _closure1_slot0;
             ctrled = _closure1_slot2;
@@ -2779,7 +2779,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = result.bind(tangon)(output, sizing);
             yankee['children'] = sizing;
             romeon = backup.bind(tangon)(foxtra, yankee);
- 450:
+ 446:
             yankee = new Array(3);
             yankee[0] = romeon;
             backup = _closure1_slot18;
@@ -2794,18 +2794,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = verify.headerActions;
             romeon['style'] = sizing;
             result = _closure1_slot18;
-            if(kiloes) { _fun00050_ip = 524; continue _fun00049 }
- 510:
+            if(kiloes) { _fun00050_ip = 520; continue _fun00049 }
+ 506:
             sizing = _closure1_slot29;
             kiloes = {};
             sizing = result.bind(tangon)(sizing, kiloes);
-            _fun00050_ip = 541; continue _fun00049;
- 524:
+            _fun00050_ip = 537; continue _fun00049;
+ 520:
             output = _closure1_slot28;
             kiloes = {};
             kiloes['numUnreadMentions'] = echoed;
             sizing = result.bind(tangon)(output, kiloes);
- 541:
+ 537:
             kiloes = new Array(2);
             kiloes[0] = sizing;
             result = _closure1_slot18;

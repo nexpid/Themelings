@@ -330,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = {};
     verify = {'flex': 1, 'flexDirection': 'column', 'alignItems': 'stretch', 'paddingHorizontal': 16, 'paddingVertical': 0};
     tangon['container'] = verify;
-    verify = {'marginTop': 8, 'marginBottom': 8};
+    verify = {'marginTop': 12, 'marginBottom': 12};
     tangon['submitButton'] = verify;
     verify = {'alignSelf': 'center', 'paddingVertical': 16, 'fontSize': 16};
     tangon['error'] = verify;

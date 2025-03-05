@@ -414,23 +414,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.bind(output)(report);
             report = kiloes.useCanForwardMessage;
             report = report.bind(kiloes)(sizing);
-            if(!report) { _fun00002_ip = 512; continue _fun00001 }
- 509:
+            if(!report) { _fun00002_ip = 508; continue _fun00001 }
+ 505:
             report = zuuluu;
- 512:
-            if(!report) { _fun00002_ip = 547; continue _fun00001 }
- 515:
+ 508:
+            if(!report) { _fun00002_ip = 543; continue _fun00001 }
+ 511:
             kiloes = tangon.attachmentId;
             zuuluu = null;
             zuuluu = zuuluu != kiloes;
-            if(zuuluu) { _fun00002_ip = 544; continue _fun00001 }
- 530:
+            if(zuuluu) { _fun00002_ip = 540; continue _fun00001 }
+ 526:
             kiloes = tangon.accessoryType;
             tangon = 'embed';
             zuuluu = tangon === kiloes;
- 544:
+ 540:
             report = zuuluu;
- 547:
+ 543:
             _closure2_slot13 = report;
             tangon = _closure1_slot3;
             zuuluu = tangon.useMemo;

@@ -349,8 +349,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['size'] = cntext;
             papara = yankee != limora;
             cntext = null;
-            if(!papara) { _fun00002_ip = 740; continue _fun00001 }
- 709:
+            if(!papara) { _fun00002_ip = 736; continue _fun00001 }
+ 705:
             target = _closure1_slot0;
             whisks = _closure1_slot2;
             papara = 24;
@@ -358,7 +358,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = target.bind(tangon)(papara);
             papara = target.getChannelIcon;
             cntext = papara.bind(target)(limora);
- 740:
+ 736:
             romeon['source'] = cntext;
             cntext = equals.headerChannelIcon;
             romeon['style'] = cntext;
@@ -456,8 +456,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = target.bind(tangon)(papara);
             target = papara.TableRow;
             papara = {};
-            if(!(yankee == variable41)) { _fun00002_ip = 1275; continue _fun00001 }
- 1221:
+            if(!(yankee == variable41)) { _fun00002_ip = 1263; continue _fun00001 }
+ 1209:
             variable39 = _closure1_slot0;
             whisks = _closure1_slot2;
             variable36 = whisks[vacuum];
@@ -469,15 +469,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             whisks = whisks.t;
             whisks = whisks.XqMe3N;
             whisks = variable36.bind(variable38)(whisks);
-            _fun00002_ip = 1280; continue _fun00001;
- 1275:
+            _fun00002_ip = 1268; continue _fun00001;
+ 1263:
             whisks = variable41.name;
- 1280:
+ 1268:
             papara['label'] = whisks;
             variable36 = yankee != variable41;
             whisks = null;
-            if(!variable36) { _fun00002_ip = 1355; continue _fun00001 }
- 1293:
+            if(!variable36) { _fun00002_ip = 1343; continue _fun00001 }
+ 1281:
             variable39 = _closure1_slot16;
             variable38 = _closure1_slot1;
             variable40 = _closure1_slot2;
@@ -492,7 +492,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable40 = variable40.XSMALL;
             variable36['size'] = variable40;
             whisks = variable39.bind(tangon)(variable38, variable36);
- 1355:
+ 1343:
             papara['icon'] = whisks;
             papara['arrow'] = echoed;
             whisks = function() { // Original name: onPress
@@ -640,8 +640,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = target.bind(tangon)(papara);
             target = papara.TableRow;
             papara = {};
-            if(!(yankee == sierra)) { _fun00002_ip = 1549; continue _fun00001 }
- 1497:
+            if(!(yankee == sierra)) { _fun00002_ip = 1537; continue _fun00001 }
+ 1485:
             variable38 = _closure1_slot0;
             limora = _closure1_slot2;
             whisks = limora[vacuum];
@@ -653,14 +653,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora = limora.t;
             limora = limora.XqMe3N;
             sierra = whisks.bind(variable36)(limora);
- 1549:
+ 1537:
             papara['label'] = sierra;
             status = yankee == status;
             papara['disabled'] = status;
             sierra = yankee != variable37;
             status = null;
-            if(!sierra) { _fun00002_ip = 1665; continue _fun00001 }
- 1570:
+            if(!sierra) { _fun00002_ip = 1653; continue _fun00001 }
+ 1558:
             whisks = _closure1_slot16;
             variable36 = _closure1_slot1;
             variable38 = _closure1_slot2;
@@ -682,7 +682,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = equals.channelIcon;
             sierra['style'] = equals;
             status = whisks.bind(tangon)(limora, sierra);
- 1665:
+ 1653:
             papara['icon'] = status;
             papara['arrow'] = echoed;
             status = function() { // Original name: onPress
@@ -788,8 +788,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes[3] = romeon;
             romeon = yankee != result;
             yankee = null;
-            if(!romeon) { _fun00002_ip = 1869; continue _fun00001 }
- 1825:
+            if(!romeon) { _fun00002_ip = 1857; continue _fun00001 }
+ 1813:
             output = _closure1_slot16;
             sizing = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -800,7 +800,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['inset'] = echoed;
             romeon['children'] = result;
             yankee = output.bind(tangon)(sizing, romeon);
- 1869:
+ 1857:
             kiloes[4] = yankee;
             result = _closure1_slot17;
             yankee = _closure1_slot0;

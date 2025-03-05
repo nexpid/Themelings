@@ -196,40 +196,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = entity.bind(zuuluu)(oscard, report);
                 var _closure3_slot0 = entity;
                 golfie = _closure1_slot1;
-                oscard = _closure1_slot2;
-                report = 10;
-                report = oscard[report];
-                report = golfie.bind(zuuluu)(report);
-                entity['Video'] = report;
-                report = 11;
-                report = oscard[report];
-                report = golfie.bind(zuuluu)(report);
-                entity['Camera'] = report;
-                report = _closure1_slot18;
-                entity['videoInputDeviceId'] = report;
-                golfie = global;
-                report = golfie.Set;
-                option = report.prototype;
-                option = Object.create(option, {constructor: {value: report}});
-                sizing = option;
-                report = new sizing[report](kiloes);
-                report = report instanceof Object ? report : option;
-                entity['connections'] = report;
-                report = -1;
-                entity['lastVoiceActivity'] = report;
-                report = 'standard';
-                entity['audioSubsystem'] = report;
-                report = '';
-                entity['audioLayer'] = report;
-                report = 0;
-                entity['deviceChangeGeneration'] = report;
-                entity['consecutiveWatchdogFailures'] = report;
-                report = null;
-                entity['codecSurvey'] = report;
-                option = _closure1_slot0;
+                report = _closure1_slot2;
+                oscard = 10;
+                oscard = report[oscard];
+                oscard = golfie.bind(zuuluu)(oscard);
+                entity['Video'] = oscard;
+                oscard = 11;
+                oscard = report[oscard];
+                oscard = golfie.bind(zuuluu)(oscard);
+                entity['Camera'] = oscard;
+                oscard = _closure1_slot18;
+                entity['videoInputDeviceId'] = oscard;
+                option = global;
+                oscard = option.Set;
+                golfie = oscard.prototype;
+                golfie = Object.create(golfie, {constructor: {value: oscard}});
+                sizing = golfie;
+                oscard = new sizing[oscard](kiloes);
+                oscard = oscard instanceof Object ? oscard : golfie;
+                entity['connections'] = oscard;
+                oscard = -1;
+                entity['lastVoiceActivity'] = oscard;
+                oscard = 'standard';
+                entity['audioSubsystem'] = oscard;
+                oscard = '';
+                entity['audioLayer'] = oscard;
+                oscard = 0;
+                entity['deviceChangeGeneration'] = oscard;
+                entity['consecutiveWatchdogFailures'] = oscard;
+                golfie = null;
+                entity['codecSurvey'] = golfie;
+                oscard = _closure1_slot0;
                 verify = 12;
-                verify = oscard[verify];
-                verify = option.bind(zuuluu)(verify);
+                verify = report[verify];
+                verify = oscard.bind(zuuluu)(verify);
                 yankee = verify.Logger;
                 verify = yankee.prototype;
                 offset = Object.create(verify, {constructor: {value: yankee}});
@@ -721,105 +721,105 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 entity['handleAudioDeviceModuleErrorCallback'] = verify;
                 offset = 15;
-                oscard = oscard[offset];
-                option = option.bind(zuuluu)(oscard);
-                oscard = option.getVoiceEngine;
-                oscard = oscard.bind(option)();
+                report = report[offset];
+                oscard = oscard.bind(zuuluu)(report);
+                report = oscard.getVoiceEngine;
+                oscard = report.bind(oscard)();
                 verify = oscard.setDeviceChangeCallback;
-                option = entity.handleDeviceChange;
-                option = verify.bind(oscard)(option);
+                report = entity.handleDeviceChange;
+                report = verify.bind(oscard)(report);
                 verify = oscard.setVolumeChangeCallback;
-                option = entity.handleVolumeChange;
-                option = verify.bind(oscard)(option);
+                report = entity.handleVolumeChange;
+                report = verify.bind(oscard)(report);
                 verify = oscard.setOnVoiceCallback;
-                option = entity.handleVoiceActivity;
-                option = verify.bind(oscard)(option);
-                option = oscard.setVideoInputInitializationCallback;
-                if(!(report != option)) { _fun00008_ip = 471; continue _fun00007 }
+                report = entity.handleVoiceActivity;
+                report = verify.bind(oscard)(report);
+                report = oscard.setVideoInputInitializationCallback;
+                if(!(golfie != report)) { _fun00008_ip = 471; continue _fun00007 }
  454:
                 verify = oscard.setVideoInputInitializationCallback;
-                option = entity.handleVideoInputInitialization;
-                option = verify.bind(oscard)(option);
+                report = entity.handleVideoInputInitialization;
+                report = verify.bind(oscard)(report);
  471:
-                option = oscard.setAudioInputInitializationCallback;
-                if(!(report != option)) { _fun00008_ip = 498; continue _fun00007 }
+                report = oscard.setAudioInputInitializationCallback;
+                if(!(golfie != report)) { _fun00008_ip = 498; continue _fun00007 }
  481:
                 verify = oscard.setAudioInputInitializationCallback;
-                option = entity.handleAudioInputInitialization;
-                option = verify.bind(oscard)(option);
+                report = entity.handleAudioInputInitialization;
+                report = verify.bind(oscard)(report);
  498:
                 verify = oscard.setTransportOptions;
-                option = {'idleJitterBufferFlush': true, 'ducking': false};
-                option = verify.bind(oscard)(option);
-                option = oscard.setNativeScreenSharePickerCallbacks;
-                if(!(report != option)) { _fun00008_ip = 564; continue _fun00007 }
- 533:
+                report = {'idleJitterBufferFlush': true, 'ducking': false};
+                report = verify.bind(oscard)(report);
+                report = oscard.setNativeScreenSharePickerCallbacks;
+                if(!(golfie != report)) { _fun00008_ip = 560; continue _fun00007 }
+ 529:
                 romeon = oscard.setNativeScreenSharePickerCallbacks;
                 yankee = entity.handleNativeScreenSharePickerUpdate;
                 verify = entity.handleNativeScreenSharePickerCancel;
-                option = entity.handleNativeScreenSharePickerError;
-                option = romeon.bind(oscard)(yankee, verify, option);
- 564:
-                option = oscard.setAudioDeviceModuleErrorCallback;
-                if(!(report != option)) { _fun00008_ip = 591; continue _fun00007 }
- 574:
+                report = entity.handleNativeScreenSharePickerError;
+                report = romeon.bind(oscard)(yankee, verify, report);
+ 560:
+                report = oscard.setAudioDeviceModuleErrorCallback;
+                if(!(golfie != report)) { _fun00008_ip = 587; continue _fun00007 }
+ 570:
                 verify = oscard.setAudioDeviceModuleErrorCallback;
-                option = entity.handleAudioDeviceModuleErrorCallback;
-                option = verify.bind(oscard)(option);
- 591:
+                report = entity.handleAudioDeviceModuleErrorCallback;
+                report = verify.bind(oscard)(report);
+ 587:
                 yankee = entity.on;
                 verify = entity.handleRemoveListener;
-                option = 'removeListener';
-                option = yankee.bind(entity)(option, verify);
+                report = 'removeListener';
+                report = yankee.bind(entity)(report, verify);
                 yankee = entity.on;
                 verify = entity.handleNewListener;
-                option = 'newListener';
-                option = yankee.bind(entity)(option, verify);
+                report = 'newListener';
+                report = yankee.bind(entity)(report, verify);
                 verify = _closure1_slot0;
-                option = _closure1_slot2;
-                option = option[offset];
-                verify = verify.bind(zuuluu)(option);
-                option = verify.getVoiceEngine;
-                option = option.bind(verify)();
-                option = option.getAudioSubsystem;
-                if(!(report == option)) { _fun00008_ip = 775; continue _fun00007 }
- 672:
+                report = _closure1_slot2;
+                report = report[offset];
+                verify = verify.bind(zuuluu)(report);
+                report = verify.getVoiceEngine;
+                report = report.bind(verify)();
+                report = report.getAudioSubsystem;
+                if(!(golfie == report)) { _fun00008_ip = 771; continue _fun00007 }
+ 668:
                 verify = _closure1_slot0;
-                option = _closure1_slot2;
-                option = option[offset];
-                verify = verify.bind(zuuluu)(option);
-                option = verify.getVoiceEngine;
-                option = option.bind(verify)();
-                option = option.getUseLegacyAudioDevice;
-                if(!(report != option)) { _fun00008_ip = 818; continue _fun00007 }
- 709:
+                report = _closure1_slot2;
+                report = report[offset];
+                verify = verify.bind(zuuluu)(report);
+                report = verify.getVoiceEngine;
+                report = report.bind(verify)();
+                report = report.getUseLegacyAudioDevice;
+                if(!(golfie != report)) { _fun00008_ip = 814; continue _fun00007 }
+ 705:
                 verify = _closure1_slot0;
-                option = _closure1_slot2;
-                option = option[offset];
-                verify = verify.bind(zuuluu)(option);
-                option = verify.getVoiceEngine;
-                verify = option.bind(verify)();
-                option = verify.getUseLegacyAudioDevice;
-                option = option.bind(verify)();
+                report = _closure1_slot2;
+                report = report[offset];
+                verify = verify.bind(zuuluu)(report);
+                report = verify.getVoiceEngine;
+                verify = report.bind(verify)();
+                report = verify.getUseLegacyAudioDevice;
+                report = report.bind(verify)();
                 verify = _closure1_slot14;
-                if(option) { _fun00008_ip = 761; continue _fun00007 }
- 753:
-                option = verify.STANDARD;
-                _fun00008_ip = 767; continue _fun00007;
- 761:
-                option = verify.LEGACY;
- 767:
-                entity['audioSubsystem'] = option;
-                _fun00008_ip = 818; continue _fun00007;
- 775:
+                if(report) { _fun00008_ip = 757; continue _fun00007 }
+ 749:
+                report = verify.STANDARD;
+                _fun00008_ip = 763; continue _fun00007;
+ 757:
+                report = verify.LEGACY;
+ 763:
+                entity['audioSubsystem'] = report;
+                _fun00008_ip = 814; continue _fun00007;
+ 771:
                 verify = _closure1_slot0;
-                option = _closure1_slot2;
-                option = option[offset];
-                verify = verify.bind(zuuluu)(option);
-                option = verify.getVoiceEngine;
-                verify = option.bind(verify)();
-                option = verify.getAudioSubsystem;
-                tangon = function(argFoo, argBar) {
+                report = _closure1_slot2;
+                report = report[offset];
+                verify = verify.bind(zuuluu)(report);
+                report = verify.getVoiceEngine;
+                offset = report.bind(verify)();
+                verify = offset.getAudioSubsystem;
+                report = function(argFoo, argBar) {
                     michal = _closure3_slot0;
                     entity = argFoo;
                     michal['audioSubsystem'] = entity;
@@ -828,44 +828,65 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = undefined;
                     return entity;
                 };
-                tangon = option.bind(verify)(tangon);
- 818:
-                tangon = oscard.pingVoiceThread;
-                tangon = report != tangon;
-                if(!tangon) { _fun00008_ip = 847; continue _fun00007 }
- 831:
-                option = golfie.window;
-                verify = 'undefined';
-                option = typeof option;
-                tangon = verify !== option;
- 847:
-                if(!tangon) { _fun00008_ip = 876; continue _fun00007 }
- 850:
-                golfie = golfie.window;
-                golfie = golfie.GLOBAL_ENV;
-                option = golfie.RELEASE_CHANNEL;
-                golfie = 'canary';
-                tangon = golfie === option;
- 876:
-                if(!tangon) { _fun00008_ip = 889; continue _fun00007 }
- 879:
-                tangon = entity.watchdogTick;
-                tangon = tangon.bind(entity)();
- 889:
-                tangon = oscard.setActiveSinksChangeCallback;
-                if(!(report != tangon)) { _fun00008_ip = 916; continue _fun00007 }
- 899:
-                golfie = oscard.setActiveSinksChangeCallback;
-                tangon = entity.handleActiveSinksChange;
-                tangon = golfie.bind(oscard)(tangon);
- 916:
-                tangon = oscard.setLoopbackPlaybackGainMultiplier;
-                if(!(report != tangon)) { _fun00008_ip = 941; continue _fun00007 }
- 926:
+                report = verify.bind(offset)(report);
+ 814:
+                report = oscard.pingVoiceThread;
+                report = golfie != report;
+                if(!report) { _fun00008_ip = 843; continue _fun00007 }
+ 827:
+                verify = option.window;
+                offset = 'undefined';
+                verify = typeof verify;
+                report = offset !== verify;
+ 843:
+                if(!report) { _fun00008_ip = 872; continue _fun00007 }
+ 846:
+                option = option.window;
+                option = option.GLOBAL_ENV;
+                verify = option.RELEASE_CHANNEL;
+                option = 'canary';
+                report = option === verify;
+ 872:
+                if(!report) { _fun00008_ip = 885; continue _fun00007 }
+ 875:
+                report = entity.watchdogTick;
+                report = report.bind(entity)();
+ 885:
+                report = oscard.setActiveSinksChangeCallback;
+                if(!(golfie != report)) { _fun00008_ip = 912; continue _fun00007 }
+ 895:
+                option = oscard.setActiveSinksChangeCallback;
+                report = entity.handleActiveSinksChange;
+                report = option.bind(oscard)(report);
+ 912:
                 report = oscard.setLoopbackPlaybackGainMultiplier;
-                tangon = _closure1_slot20;
+                if(!(golfie != report)) { _fun00008_ip = 937; continue _fun00007 }
+ 922:
+                option = oscard.setLoopbackPlaybackGainMultiplier;
+                report = _closure1_slot20;
+                report = option.bind(oscard)(report);
+ 937:
+                report = oscard.setVoiceFiltersFailedCallback;
+                if(!(golfie != report)) { _fun00008_ip = 963; continue _fun00007 }
+ 947:
+                report = oscard.setVoiceFiltersFailedCallback;
+                tangon = function(argFoo) {
+                    tangon = _closure3_slot0;
+                    zuuluu = tangon.emit;
+                    report = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    entity = 13;
+                    michal = michal[entity];
+                    entity = undefined;
+                    entity = report.bind(entity)(michal);
+                    entity = entity.MediaEngineEvent;
+                    michal = entity.VoiceFiltersFailed;
+                    entity = argFoo;
+                    entity = zuuluu.bind(tangon)(michal, entity);
+                    return entity;
+                };
                 tangon = report.bind(oscard)(tangon);
- 941:
+ 963:
                 tangon = _closure1_slot1;
                 report = _closure1_slot2;
                 michal = 16;

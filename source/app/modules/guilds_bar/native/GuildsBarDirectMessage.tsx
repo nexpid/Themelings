@@ -281,11 +281,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {'selected': false, 'circle': null, 'unread': true};
             report = null;
             sizing = report != yankee;
-            if(!sizing) { _fun00002_ip = 333; continue _fun00001 }
- 323:
+            if(!sizing) { _fun00002_ip = 329; continue _fun00001 }
+ 319:
             output = yankee.isMultiUserDM;
             sizing = output.bind(yankee)();
- 333:
+ 329:
             sizing = !sizing;
             entity['circle'] = sizing;
             entity['styles'] = kiloes;
@@ -294,16 +294,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['config'] = option;
             entity['cutouts'] = golfie;
             entity['externalChildren'] = oscard;
-            if(!(report != yankee)) { _fun00002_ip = 387; continue _fun00001 }
- 374:
+            if(!(report != yankee)) { _fun00002_ip = 383; continue _fun00001 }
+ 370:
             oscard = yankee.isMultiUserDM;
             oscard = oscard.bind(yankee)();
-            if(oscard) { _fun00002_ip = 444; continue _fun00001 }
- 387:
+            if(oscard) { _fun00002_ip = 440; continue _fun00001 }
+ 383:
             oscard = report != romeon;
             report = null;
-            if(!oscard) { _fun00002_ip = 442; continue _fun00001 }
- 396:
+            if(!oscard) { _fun00002_ip = 438; continue _fun00001 }
+ 392:
             option = _closure1_slot9;
             golfie = _closure1_slot1;
             backup = _closure1_slot2;
@@ -315,9 +315,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['style'] = foxtra;
             oscard['source'] = romeon;
             report = option.bind(tangon)(golfie, oscard);
- 442:
-            _fun00002_ip = 543; continue _fun00001;
- 444:
+ 438:
+            _fun00002_ip = 539; continue _fun00001;
+ 440:
             option = _closure1_slot9;
             golfie = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -340,7 +340,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['pileSizeOverride'] = offset;
             oscard['animate'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 543:
+ 539:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

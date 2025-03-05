@@ -423,14 +423,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 michal = _closure2_slot3;
                                 report = michal.current;
                                 zuuluu = null;
-                                if(!(zuuluu != report)) { _fun00006_ip = 56; continue _fun00005 }
+                                if(!(zuuluu != report)) { _fun00006_ip = 52; continue _fun00005 }
  18:
                                 tangon = report.scrollToLocation;
                                 michal = {'section': null, 'item': 0, 'animated': true};
                                 oscard = _closure4_slot0;
                                 michal['section'] = oscard;
                                 michal = tangon.bind(report)(michal);
- 56:
+ 52:
                                 michal = _closure2_slot11;
                                 entity = undefined;
                                 michal = michal.bind(entity)(zuuluu);

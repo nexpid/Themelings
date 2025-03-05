@@ -15,7 +15,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 167; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 163; continue _fun00001 }
  10:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot1;
@@ -34,18 +34,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report['key'] = oscard;
                     michal['body'] = report;
                     michal = zuuluu.bind(tangon)(michal);
-                    SaveGenerator(address=100);
- 98:
+                    SaveGenerator(address=96);
+ 94:
                     return michal;
- 100:
+ 96:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 164; continue _fun00001 }
- 106:
+                    if(zuuluu) { _fun00002_ip = 160; continue _fun00001 }
+ 102:
                     zuuluu = michal.body;
                     zuuluu = zuuluu.handoff_token;
                     tangon = null;
-                    if(!(tangon == zuuluu)) { _fun00002_ip = 161; continue _fun00001 }
- 125:
+                    if(!(tangon == zuuluu)) { _fun00002_ip = 157; continue _fun00001 }
+ 121:
                     tangon = global;
                     oscard = tangon.Error;
                     tangon = oscard.prototype;
@@ -55,11 +55,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = new option[oscard](golfie, oscard);
                     tangon = tangon instanceof Object ? tangon : report;
                     throw tangon;
- 161:
+ 157:
                     return zuuluu;
- 164:
+ 160:
                     return michal;
- 167:
+ 163:
                     return entity;
                 }
             };

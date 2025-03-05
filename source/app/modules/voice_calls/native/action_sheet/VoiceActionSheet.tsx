@@ -151,9 +151,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.bind(tangon)(zuuluu);
             zuuluu = report.requiresVoiceChannelsOnboard;
             zuuluu = zuuluu.bind(report)();
-            if(zuuluu) { _fun00002_ip = 458; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 454; continue _fun00001 }
  172:
-            if(michal) { _fun00002_ip = 346; continue _fun00001 }
+            if(michal) { _fun00002_ip = 342; continue _fun00001 }
  178:
             report = _closure1_slot6;
             zuuluu = _closure1_slot0;
@@ -192,8 +192,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = offset.bind(tangon)(verify, option);
             michal['children'] = option;
             report = report.bind(tangon)(zuuluu, michal);
-            _fun00002_ip = 456; continue _fun00001;
- 346:
+            _fun00002_ip = 452; continue _fun00001;
+ 342:
             option = _closure1_slot7;
             zuuluu = _closure1_slot0;
             backup = _closure1_slot2;
@@ -221,9 +221,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify[1] = offset;
             michal['children'] = verify;
             report = option.bind(tangon)(zuuluu, michal);
- 456:
-            _fun00002_ip = 528; continue _fun00001;
- 458:
+ 452:
+            _fun00002_ip = 524; continue _fun00001;
+ 454:
             option = _closure1_slot6;
             zuuluu = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -241,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = option.bind(tangon)(offset, verify);
             michal['children'] = verify;
             report = option.bind(tangon)(zuuluu, michal);
- 528:
+ 524:
             zuuluu = _closure1_slot6;
             michal = _closure1_slot0;
             entity = _closure1_slot2;

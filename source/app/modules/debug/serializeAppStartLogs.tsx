@@ -346,25 +346,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 michal = report.bind(oscard)(michal);
                                 entity = !michal;
  41:
-                                if(!entity) { _fun00010_ip = 90; continue _fun00009 }
+                                if(!entity) { _fun00010_ip = 92; continue _fun00009 }
  44:
                                 michal = _closure4_slot2;
                                 michal = !michal;
-                                if(!michal) { _fun00010_ip = 68; continue _fun00009 }
+                                if(!michal) { _fun00010_ip = 70; continue _fun00009 }
  54:
                                 oscard = tangon.emoji;
                                 report = '🎨';
                                 michal = report === oscard;
- 68:
-                                if(michal) { _fun00010_ip = 83; continue _fun00009 }
- 71:
+ 70:
+                                if(michal) { _fun00010_ip = 85; continue _fun00009 }
+ 73:
                                 report = tangon.shouldKeep;
                                 tangon = false;
                                 michal = tangon === report;
- 83:
+ 85:
                                 _closure4_slot6 = michal;
                                 entity = !michal;
- 90:
+ 92:
                                 return entity;
                             }
                         };

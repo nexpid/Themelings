@@ -93,8 +93,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = _closure1_slot5;
             report = undefined;
             romeon = michal.bind(report)(zuuluu);
-            if(!(entity == offset)) { _fun00004_ip = 158; continue _fun00003 }
- 83:
+            if(!(entity == offset)) { _fun00004_ip = 154; continue _fun00003 }
+ 79:
             zuuluu = _closure1_slot3;
             michal = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -112,8 +112,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = 'maxFontSizeMultiplier';
             entity[tangon] = yankee;
             entity = zuuluu.bind(report)(michal, entity);
-            _fun00004_ip = 400; continue _fun00003;
- 158:
+            _fun00004_ip = 396; continue _fun00003;
+ 154:
             tangon = _closure1_slot4;
             option = _closure1_slot0;
             foxtra = _closure1_slot2;
@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = 'children';
             michal[oscard] = golfie;
             entity = tangon.bind(report)(zuuluu, michal);
- 400:
+ 396:
             return entity;
         }
     };

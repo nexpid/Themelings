@@ -69,20 +69,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = oscard < report;
             tangon = '50%';
             zuuluu = tangon;
-            if(!golfie) { _fun00002_ip = 142; continue _fun00001 }
- 136:
+            if(!golfie) { _fun00002_ip = 138; continue _fun00001 }
+ 132:
             zuuluu = '60%';
- 142:
+ 138:
             michal['width'] = zuuluu;
             zuuluu = 'visible';
             michal['overflow'] = zuuluu;
             entity['promotionalHeader'] = michal;
             michal = {};
             report = oscard < report;
-            if(!report) { _fun00002_ip = 175; continue _fun00001 }
- 169:
+            if(!report) { _fun00002_ip = 171; continue _fun00001 }
+ 165:
             tangon = '60%';
- 175:
+ 171:
             michal['width'] = tangon;
             michal['overflow'] = zuuluu;
             entity['promotionalSubheader'] = michal;

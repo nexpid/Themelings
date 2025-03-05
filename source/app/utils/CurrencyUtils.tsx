@@ -25,80 +25,80 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
  0:
             michal = argFoo;
             entity = 'brl';
-            if(!(entity !== michal)) { _fun00002_ip = 1756; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 1760; continue _fun00001 }
  16:
             entity = 'pln';
-            if(!(entity !== michal)) { _fun00002_ip = 1693; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 1697; continue _fun00001 }
  29:
             entity = 'try';
-            if(!(entity !== michal)) { _fun00002_ip = 1630; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 1634; continue _fun00001 }
  40:
             entity = 'usd';
-            if(!(entity !== michal)) { _fun00002_ip = 1567; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 1571; continue _fun00001 }
  53:
             entity = 'aud';
-            if(!(entity !== michal)) { _fun00002_ip = 1504; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 1508; continue _fun00001 }
  66:
             entity = 'pen';
-            if(!(entity !== michal)) { _fun00002_ip = 1441; continue _fun00001 }
- 77:
+            if(!(entity !== michal)) { _fun00002_ip = 1445; continue _fun00001 }
+ 79:
             entity = 'php';
-            if(!(entity !== michal)) { _fun00002_ip = 1378; continue _fun00001 }
- 90:
+            if(!(entity !== michal)) { _fun00002_ip = 1382; continue _fun00001 }
+ 92:
             entity = 'ars';
-            if(!(entity !== michal)) { _fun00002_ip = 1315; continue _fun00001 }
- 101:
+            if(!(entity !== michal)) { _fun00002_ip = 1319; continue _fun00001 }
+ 103:
             entity = 'cop';
-            if(!(entity !== michal)) { _fun00002_ip = 1252; continue _fun00001 }
- 112:
+            if(!(entity !== michal)) { _fun00002_ip = 1256; continue _fun00001 }
+ 116:
             entity = 'clr';
-            if(!(entity !== michal)) { _fun00002_ip = 1189; continue _fun00001 }
- 125:
+            if(!(entity !== michal)) { _fun00002_ip = 1193; continue _fun00001 }
+ 129:
             entity = 'jpy';
-            if(!(entity !== michal)) { _fun00002_ip = 1126; continue _fun00001 }
- 138:
+            if(!(entity !== michal)) { _fun00002_ip = 1130; continue _fun00001 }
+ 142:
             entity = 'idr';
-            if(!(entity !== michal)) { _fun00002_ip = 1063; continue _fun00001 }
- 151:
+            if(!(entity !== michal)) { _fun00002_ip = 1067; continue _fun00001 }
+ 155:
             entity = 'vnd';
-            if(!(entity !== michal)) { _fun00002_ip = 1000; continue _fun00001 }
- 164:
+            if(!(entity !== michal)) { _fun00002_ip = 1004; continue _fun00001 }
+ 168:
             entity = 'thb';
-            if(!(entity !== michal)) { _fun00002_ip = 937; continue _fun00001 }
- 177:
+            if(!(entity !== michal)) { _fun00002_ip = 941; continue _fun00001 }
+ 181:
             entity = 'myr';
-            if(!(entity !== michal)) { _fun00002_ip = 874; continue _fun00001 }
- 190:
+            if(!(entity !== michal)) { _fun00002_ip = 878; continue _fun00001 }
+ 194:
             entity = 'krw';
-            if(!(entity !== michal)) { _fun00002_ip = 811; continue _fun00001 }
- 203:
+            if(!(entity !== michal)) { _fun00002_ip = 815; continue _fun00001 }
+ 207:
             entity = 'mxn';
-            if(!(entity !== michal)) { _fun00002_ip = 748; continue _fun00001 }
- 216:
+            if(!(entity !== michal)) { _fun00002_ip = 752; continue _fun00001 }
+ 220:
             entity = 'bgn';
-            if(!(entity !== michal)) { _fun00002_ip = 685; continue _fun00001 }
- 229:
+            if(!(entity !== michal)) { _fun00002_ip = 689; continue _fun00001 }
+ 233:
             entity = 'czk';
-            if(!(entity !== michal)) { _fun00002_ip = 622; continue _fun00001 }
- 242:
+            if(!(entity !== michal)) { _fun00002_ip = 626; continue _fun00001 }
+ 246:
             entity = 'dkk';
-            if(!(entity !== michal)) { _fun00002_ip = 559; continue _fun00001 }
- 255:
+            if(!(entity !== michal)) { _fun00002_ip = 563; continue _fun00001 }
+ 259:
             entity = 'huf';
-            if(!(entity !== michal)) { _fun00002_ip = 496; continue _fun00001 }
- 268:
+            if(!(entity !== michal)) { _fun00002_ip = 500; continue _fun00001 }
+ 272:
             entity = 'ron';
-            if(!(entity !== michal)) { _fun00002_ip = 433; continue _fun00001 }
- 281:
+            if(!(entity !== michal)) { _fun00002_ip = 437; continue _fun00001 }
+ 285:
             entity = 'sek';
-            if(!(entity !== michal)) { _fun00002_ip = 370; continue _fun00001 }
- 291:
+            if(!(entity !== michal)) { _fun00002_ip = 374; continue _fun00001 }
+ 295:
             entity = 'eur';
-            if(!(entity !== michal)) { _fun00002_ip = 307; continue _fun00001 }
- 301:
+            if(!(entity !== michal)) { _fun00002_ip = 311; continue _fun00001 }
+ 305:
             entity = '';
             return entity;
- 307:
+ 311:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.uhxR+f;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 370:
+ 374:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.Z0oztb;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 433:
+ 437:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.C7WDXF;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 496:
+ 500:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.abWUUF;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 559:
+ 563:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.a9hHzs;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 622:
+ 626:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.dWTAXV;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 685:
+ 689:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.EhetGB;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 748:
+ 752:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -218,7 +218,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.t2RLnp;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 811:
+ 815:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.20VnAw;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 874:
+ 878:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -248,7 +248,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.MOaho6;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 937:
+ 941:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -263,7 +263,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.9W3Gub;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 1000:
+ 1004:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -278,7 +278,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.mEwykp;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 1063:
+ 1067:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -293,7 +293,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.UBrRGh;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 1126:
+ 1130:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -308,7 +308,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.QKSoIi;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 1189:
+ 1193:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -323,7 +323,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.BK/Vam;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 1252:
+ 1256:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -338,7 +338,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity./FnP7O;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 1315:
+ 1319:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -353,7 +353,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.GTI3Bw;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 1378:
+ 1382:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -368,7 +368,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.0p6FTk;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 1441:
+ 1445:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -383,7 +383,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.sKR+OD;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 1504:
+ 1508:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -398,7 +398,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.ylmkMz;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 1567:
+ 1571:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -413,7 +413,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.kJGVtL;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 1630:
+ 1634:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -428,7 +428,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.J05KNT;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 1693:
+ 1697:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;
@@ -443,7 +443,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.eAdNmZ;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 1756:
+ 1760:
             report = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 0;

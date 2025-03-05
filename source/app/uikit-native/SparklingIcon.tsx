@@ -322,8 +322,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             romeon = backup.bind(kiloes)(romeon, foxtra);
-            if(report) { _fun00002_ip = 368; continue _fun00001 }
- 330:
+            if(report) { _fun00002_ip = 364; continue _fun00001 }
+ 326:
             output = {};
             output['opacity'] = verify;
             verify = {};
@@ -334,12 +334,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['scale'] = yankee;
             option[1] = verify;
             output['transform'] = option;
-            _fun00002_ip = 370; continue _fun00001;
- 368:
+            _fun00002_ip = 366; continue _fun00001;
+ 364:
             output = {};
- 370:
-            if(report) { _fun00002_ip = 411; continue _fun00001 }
- 373:
+ 366:
+            if(report) { _fun00002_ip = 407; continue _fun00001 }
+ 369:
             foxtra = {};
             foxtra['opacity'] = michal;
             michal = {};
@@ -350,10 +350,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['scale'] = zuuluu;
             entity[1] = michal;
             foxtra['transform'] = entity;
-            _fun00002_ip = 413; continue _fun00001;
- 411:
+            _fun00002_ip = 409; continue _fun00001;
+ 407:
             foxtra = {};
- 413:
+ 409:
             zuuluu = _closure1_slot8;
             michal = _closure1_slot4;
             entity = {};

@@ -320,8 +320,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = offset.isAndroid;
             offset = verify.bind(offset)();
             verify = undefined;
-            if(!offset) { _fun00002_ip = 844; continue _fun00001 }
- 796:
+            if(!offset) { _fun00002_ip = 840; continue _fun00001 }
+ 792:
             romeon = _closure1_slot12;
             yankee = _closure1_slot0;
             result = _closure1_slot2;
@@ -333,7 +333,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = 'soundboard-footer';
             offset['name'] = result;
             verify = romeon.bind(tangon)(yankee, offset);
- 844:
+ 840:
             oscard['footer'] = verify;
             result = _closure1_slot13;
             offset = _closure1_slot5;
@@ -402,8 +402,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update['listRef'] = kiloes;
             update['channel'] = sizing;
             cntext = _closure1_slot11;
-            if(!target) { _fun00002_ip = 1175; continue _fun00001 }
- 1143:
+            if(!target) { _fun00002_ip = 1171; continue _fun00001 }
+ 1139:
             status = _closure1_slot0;
             target = _closure1_slot2;
             target = target[sierra];
@@ -411,10 +411,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = status.isIOS;
             target = target.bind(status)();
             record = 0;
-            if(target) { _fun00002_ip = 1180; continue _fun00001 }
- 1175:
+            if(target) { _fun00002_ip = 1176; continue _fun00001 }
+ 1171:
             record = papara.bottom;
- 1180:
+ 1176:
             record = cntext + record;
             update['insetBottom'] = record;
             update['scrollPosition'] = config;

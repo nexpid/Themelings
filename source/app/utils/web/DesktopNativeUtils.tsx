@@ -1876,48 +1876,48 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00066_ip = 158; continue _fun00065 }
+                        if(michal) { _fun00066_ip = 169; continue _fun00065 }
  10:
                         report = _closure1_slot1;
-                        oscard = _closure1_slot2;
-                        michal = 3;
-                        michal = oscard[michal];
-                        zuuluu = undefined;
-                        option = report.bind(zuuluu)(michal);
-                        golfie = _closure1_slot0;
+                        verify = _closure1_slot2;
+                        tangon = 3;
+                        michal = verify[tangon];
+                        option = undefined;
+                        golfie = report.bind(option)(michal);
+                        oscard = _closure1_slot0;
                         michal = 5;
-                        michal = oscard[michal];
-                        michal = golfie.bind(zuuluu)(michal);
-                        golfie = michal.isPlatformEmbedded;
+                        michal = verify[michal];
+                        michal = oscard.bind(option)(michal);
+                        oscard = michal.isPlatformEmbedded;
                         michal = 'Download voice filter file method called outside native app';
-                        michal = option.bind(zuuluu)(golfie, michal);
+                        michal = golfie.bind(option)(oscard, michal);
                         michal = 10;
-                        michal = oscard[michal];
-                        golfie = report.bind(zuuluu)(michal);
-                        oscard = golfie.toURLSafe;
-                        report = _closure2_slot0;
-                        oscard = oscard.bind(golfie)(report);
-                        report = null;
-                        if(!(report != oscard)) { _fun00066_ip = 152; continue _fun00065 }
- 105:
-                        tangon = _closure1_slot6;
-                        golfie = tangon.fileManager;
-                        oscard = golfie.maybeDownloadVoiceFilterFile;
-                        report = _closure2_slot0;
-                        tangon = _closure2_slot1;
+                        michal = verify[michal];
+                        offset = report.bind(option)(michal);
+                        golfie = offset.toURLSafe;
+                        oscard = _closure2_slot0;
+                        golfie = golfie.bind(offset)(oscard);
+                        tangon = verify[tangon];
+                        report = report.bind(option)(tangon);
+                        tangon = 'Could not download voice filter, fileSrc was not a valid path';
+                        tangon = report.bind(option)(golfie, tangon);
+                        zuuluu = _closure1_slot6;
+                        report = zuuluu.fileManager;
+                        tangon = report.maybeDownloadVoiceFilterFile;
+                        zuuluu = _closure2_slot1;
                         michal = _closure2_slot2;
-                        michal = oscard.bind(golfie)(report, tangon, michal);
-                        SaveGenerator(address=146);
- 144:
-                        return michal;
- 146:
-                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tangon) { _fun00066_ip = 155; continue _fun00065 }
- 152:
-                        return zuuluu;
+                        michal = tangon.bind(report)(oscard, zuuluu, michal);
+                        SaveGenerator(address=157);
  155:
                         return michal;
- 158:
+ 157:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                        if(zuuluu) { _fun00066_ip = 166; continue _fun00065 }
+ 163:
+                        return michal;
+ 166:
+                        return michal;
+ 169:
                         return entity;
                     }
                 };

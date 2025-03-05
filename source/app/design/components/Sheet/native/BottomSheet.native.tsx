@@ -152,29 +152,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['wrapperWithBorder'] = michal;
             michal = {};
             tangon = undefined;
-            if(!offset) { _fun00002_ip = 142; continue _fun00001 }
- 138:
+            if(!offset) { _fun00002_ip = 138; continue _fun00001 }
+ 134:
             tangon = _closure1_slot16;
- 142:
+ 138:
             michal['borderTopLeftRadius'] = tangon;
             tangon = undefined;
-            if(!offset) { _fun00002_ip = 156; continue _fun00001 }
- 152:
+            if(!offset) { _fun00002_ip = 152; continue _fun00001 }
+ 148:
             tangon = _closure1_slot16;
- 156:
+ 152:
             michal['borderTopRightRadius'] = tangon;
             tangon = undefined;
-            if(!offset) { _fun00002_ip = 169; continue _fun00001 }
- 166:
+            if(!offset) { _fun00002_ip = 165; continue _fun00001 }
+ 162:
             tangon = verify;
- 169:
+ 165:
             michal['overflow'] = tangon;
             tangon = 0;
-            if(report) { _fun00002_ip = 186; continue _fun00001 }
- 179:
+            if(report) { _fun00002_ip = 182; continue _fun00001 }
+ 175:
             report = 4;
             tangon = golfie + report;
- 186:
+ 182:
             michal['marginBottom'] = tangon;
             michal['flex'] = zuuluu;
             entity['content'] = michal;
@@ -473,19 +473,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = echoed.useIsScreenReaderEnabled;
             echoed = sizing.bind(echoed)();
             var _closure2_slot3 = echoed;
-            if(!(oscard == michal)) { _fun00012_ip = 225; continue _fun00011 }
- 217:
+            if(!(oscard == michal)) { _fun00012_ip = 221; continue _fun00011 }
+ 213:
             sizing = _closure1_slot10;
             michal = verify * sizing;
- 225:
+ 221:
             _closure2_slot4 = michal;
             sizing = backup;
-            if(!(oscard != zuuluu)) { _fun00012_ip = 239; continue _fun00011 }
- 236:
+            if(!(oscard != zuuluu)) { _fun00012_ip = 235; continue _fun00011 }
+ 232:
             sizing = zuuluu;
+ 235:
+            if(!(oscard == sizing)) { _fun00012_ip = 273; continue _fun00011 }
  239:
-            if(!(oscard == sizing)) { _fun00012_ip = 277; continue _fun00011 }
- 243:
             source = _closure1_slot0;
             ctrled = _closure1_slot2;
             zuuluu = 11;
@@ -494,7 +494,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.NAV_BAR_HEIGHT_MULTILINE;
             zuuluu = verify - zuuluu;
             sizing = zuuluu - option;
- 277:
+ 273:
             _closure2_slot5 = sizing;
             option = _closure1_slot4;
             verify = option.useMemo;
@@ -595,8 +595,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = 'onChange';
             entity[golfie] = option;
             golfie = offset;
-            if(!(oscard != yankee)) { _fun00012_ip = 582; continue _fun00011 }
- 475:
+            if(!(oscard != yankee)) { _fun00012_ip = 578; continue _fun00011 }
+ 471:
             verify = _closure1_slot18;
             option = _closure1_slot1;
             backup = _closure1_slot2;
@@ -621,7 +621,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['colors'] = yankee;
             oscard['children'] = offset;
             golfie = verify.bind(tangon)(option, oscard);
- 582:
+ 578:
             oscard = new Array(2);
             oscard[0] = golfie;
             oscard[1] = report;

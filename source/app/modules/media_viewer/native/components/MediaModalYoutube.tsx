@@ -454,8 +454,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = backup.getYoutubeVideoIdFromURI;
             golfie = tangon.uri;
             golfie = option.bind(backup)(golfie);
-            if(!(entity == golfie)) { _fun00004_ip = 383; continue _fun00003 }
- 350:
+            if(!(entity == golfie)) { _fun00004_ip = 379; continue _fun00003 }
+ 346:
             backup = _closure1_slot0;
             option = _closure1_slot2;
             option = option[kiloes];
@@ -463,22 +463,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = backup.getYoutubeClipVideoIdFromURI;
             tangon = tangon.uri;
             golfie = option.bind(backup)(tangon);
- 383:
+ 379:
             tangon = entity == golfie;
             entity = null;
-            if(tangon) { _fun00004_ip = 595; continue _fun00003 }
- 395:
+            if(tangon) { _fun00004_ip = 591; continue _fun00003 }
+ 391:
             option = _closure1_slot0;
             tangon = _closure1_slot2;
             tangon = tangon[foxtra];
             tangon = option.bind(oscard)(tangon);
             tangon = tangon.PlayerState;
             tangon = tangon.ERRORED;
-            if(!(offset === tangon)) { _fun00004_ip = 438; continue _fun00003 }
- 428:
+            if(!(offset === tangon)) { _fun00004_ip = 434; continue _fun00003 }
+ 424:
             tangon = 'embed_not_allowed';
-            if(!(tangon !== report)) { _fun00004_ip = 549; continue _fun00003 }
- 438:
+            if(!(tangon !== report)) { _fun00004_ip = 545; continue _fun00003 }
+ 434:
             option = _closure1_slot6;
             report = _closure1_slot1;
             tangon = _closure1_slot2;
@@ -504,8 +504,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = copyDataProperties(sequen, vacuum);
             michal = golfie.videoId;
             michal = option.bind(oscard)(report, tangon, michal);
-            _fun00004_ip = 592; continue _fun00003;
- 549:
+            _fun00004_ip = 588; continue _fun00003;
+ 545:
             report = _closure1_slot6;
             tangon = _closure1_slot1;
             option = _closure1_slot2;
@@ -516,9 +516,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = golfie.videoId;
             zuuluu['videoId'] = golfie;
             michal = report.bind(oscard)(tangon, zuuluu);
- 592:
+ 588:
             entity = michal;
- 595:
+ 591:
             return entity;
         }
     };

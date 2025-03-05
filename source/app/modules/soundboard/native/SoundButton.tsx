@@ -114,10 +114,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = result.isIOS;
         result = tangon.bind(result)();
         tangon = undefined;
-        if(!result) { _fun00002_ip = 536; continue _fun00001 }
- 533:
+        if(!result) { _fun00002_ip = 532; continue _fun00001 }
+ 529:
         tangon = output;
- 536:
+ 532:
         foxtra['fontSize'] = tangon;
         tangon = 28;
         offset['emoji'] = foxtra;

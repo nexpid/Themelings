@@ -50,6 +50,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['NativeScreenSharePickerError'] = entity;
     entity = 'audio-device-module-error';
     michal['AudioDeviceModuleError'] = entity;
+    entity = 'voice-filters-failed';
+    michal['VoiceFiltersFailed'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

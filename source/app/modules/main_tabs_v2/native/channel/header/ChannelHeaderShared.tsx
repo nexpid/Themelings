@@ -151,8 +151,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify = new Array(2);
                 verify[0] = foxtra;
                 romeon = !romeon;
-                if(!romeon) { _fun00006_ip = 253; continue _fun00005 }
- 170:
+                if(!romeon) { _fun00006_ip = 249; continue _fun00005 }
+ 166:
                 kiloes = _closure1_slot11;
                 output = _closure1_slot1;
                 result = _closure1_slot2;
@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sizing = yankee.arrowIcon;
                 foxtra['style'] = sizing;
                 romeon = kiloes.bind(tangon)(backup, foxtra);
- 253:
+ 249:
                 verify[1] = romeon;
                 report['children'] = verify;
                 oscard = option.bind(tangon)(oscard, report);
@@ -180,8 +180,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report[0] = oscard;
                 oscard = null;
                 oscard = oscard != offset;
-                if(!oscard) { _fun00006_ip = 314; continue _fun00005 }
- 284:
+                if(!oscard) { _fun00006_ip = 310; continue _fun00005 }
+ 280:
                 verify = _closure1_slot11;
                 option = _closure1_slot6;
                 golfie = {};
@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie['style'] = yankee;
                 golfie['children'] = offset;
                 oscard = verify.bind(tangon)(option, golfie);
- 314:
+ 310:
                 report[1] = oscard;
                 entity['children'] = report;
                 entity = zuuluu.bind(tangon)(michal, entity);
@@ -477,10 +477,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         kiloes = oscard.bind(entity)(backup);
         backup = kiloes.isIOS;
         backup = backup.bind(kiloes)();
-        if(!backup) { _fun00002_ip = 605; continue _fun00001 }
- 599:
+        if(!backup) { _fun00002_ip = 601; continue _fun00001 }
+ 595:
         foxtra = 'baseline';
- 605:
+ 601:
         offset['alignItems'] = foxtra;
         report['subTitleContainer'] = offset;
         offset = {'lineHeight': 16, 'flexShrink': 1};

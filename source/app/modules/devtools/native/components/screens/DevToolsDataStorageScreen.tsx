@@ -229,22 +229,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = null;
             option = report == oscard;
             golfie = 'No active database.';
-            if(option) { _fun00004_ip = 133; continue _fun00003 }
- 128:
+            if(option) { _fun00004_ip = 129; continue _fun00003 }
+ 124:
             golfie = oscard.name;
- 133:
+ 129:
             entity['label'] = golfie;
             golfie = report != oscard;
             report = undefined;
-            if(!golfie) { _fun00004_ip = 178; continue _fun00003 }
- 148:
+            if(!golfie) { _fun00004_ip = 174; continue _fun00003 }
+ 144:
             option = oscard.handle;
             oscard = global;
             oscard = oscard.HermesInternal;
             golfie = oscard.concat;
             oscard = 'Handle: ';
             report = golfie.bind(oscard)(option);
- 178:
+ 174:
             entity['subLabel'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

@@ -748,7 +748,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = oscard[michal];
     foxtra = golfie.bind(entity)(michal);
     michal = {};
-    offset = function(argFoo) { // Original name: handleVoiceFilterDependencyStarted
+    offset = function(argFoo) { // Original name: handleVoiceFilterDownloadStarted
         entity = argFoo;
         tangon = entity.modelId;
         michal = _closure1_slot9;
@@ -776,34 +776,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['VOICE_FILTER_DOWNLOAD_STARTED'] = offset;
-    offset = function(argFoo) { // Original name: handleVoiceFilterDependencyReady
-        entity = argFoo;
-        tangon = entity.modelId;
-        michal = _closure1_slot9;
-        zuuluu = michal.modelState;
-        michal = {};
-        report = _closure1_slot9;
-        report = report.modelState;
-        golfie = report[tangon];
-        option = michal;
-        report = copyDataProperties(option, golfie);
-        oscard = _closure1_slot0;
-        report = _closure1_slot1;
-        entity = 7;
-        report = report[entity];
-        entity = undefined;
-        report = oscard.bind(entity)(report);
-        report = report.VoiceFilterModelStatus;
-        oscard = report.DOWNLOADED;
-        report = 'status';
-        michal[report] = oscard;
-        report = 'downloadedBytes';
-        michal[report] = entity;
-        zuuluu[tangon] = michal;
-        return entity;
-    };
-    michal['VOICE_FILTER_DOWNLOAD_READY'] = offset;
-    offset = function(argFoo) { // Original name: handleVoiceFilterDependencyProgress
+    offset = function(argFoo) { // Original name: handleVoiceFilterDownloadProgress
         entity = argFoo;
         zuuluu = entity.modelId;
         oscard = entity.downloadedBytes;
@@ -825,7 +798,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['VOICE_FILTER_DOWNLOAD_PROGRESS'] = offset;
-    offset = function(argFoo) { // Original name: handleVoiceFilterDependencyFailed
+    offset = function(argFoo) { // Original name: handleVoiceFilterDownloadFailed
         _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
             entity = argFoo;
@@ -872,6 +845,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     michal['VOICE_FILTER_DOWNLOAD_FAILED'] = offset;
+    offset = function(argFoo) { // Original name: handleVoiceFilterFileReady
+        entity = argFoo;
+        tangon = entity.modelId;
+        michal = _closure1_slot9;
+        zuuluu = michal.modelState;
+        michal = {};
+        report = _closure1_slot9;
+        report = report.modelState;
+        golfie = report[tangon];
+        option = michal;
+        report = copyDataProperties(option, golfie);
+        oscard = _closure1_slot0;
+        report = _closure1_slot1;
+        entity = 7;
+        report = report[entity];
+        entity = undefined;
+        report = oscard.bind(entity)(report);
+        report = report.VoiceFilterModelStatus;
+        oscard = report.DOWNLOADED;
+        report = 'status';
+        michal[report] = oscard;
+        report = 'downloadedBytes';
+        michal[report] = entity;
+        zuuluu[tangon] = michal;
+        return entity;
+    };
+    michal['VOICE_FILTER_FILE_READY'] = offset;
     offset = function(argFoo) { // Original name: handleVoiceFilterCatalogFetch
         _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:

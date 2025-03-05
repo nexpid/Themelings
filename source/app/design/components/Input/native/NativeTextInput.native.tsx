@@ -340,15 +340,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         offset = verify != romeon;
                         yankee = 'auto';
                         verify = yankee;
-                        if(!offset) { _fun00020_ip = 100; continue _fun00019 }
- 80:
+                        if(!offset) { _fun00020_ip = 96; continue _fun00019 }
+ 76:
                         offset = romeon.isFocused;
                         offset = offset.bind(romeon)();
                         verify = yankee;
-                        if(!offset) { _fun00020_ip = 100; continue _fun00019 }
- 96:
+                        if(!offset) { _fun00020_ip = 96; continue _fun00019 }
+ 92:
                         verify = 'none';
- 100:
+ 96:
                         oscard['pointerEvents'] = verify;
                         verify = _closure3_slot2;
                         oscard['onPress'] = verify;

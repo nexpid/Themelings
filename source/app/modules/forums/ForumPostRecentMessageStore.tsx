@@ -321,12 +321,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = argFoo;
                 zuuluu = _closure1_slot10;
                 zuuluu = michal in zuuluu;
-                if(zuuluu) { _fun00014_ip = 39; continue _fun00013 }
+                if(zuuluu) { _fun00014_ip = 35; continue _fun00013 }
  17:
                 tangon = _closure1_slot10;
                 zuuluu = {'loaded': false, 'message': null};
                 tangon[michal] = zuuluu;
- 39:
+ 35:
                 entity = _closure1_slot10;
                 entity = entity[michal];
                 return entity;

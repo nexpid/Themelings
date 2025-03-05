@@ -125,10 +125,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = zuuluu.getGuildPermissionProps;
                     entity = _closure2_slot2;
                     entity = michal.bind(zuuluu)(entity);
-                    _fun00004_ip = 51; continue _fun00003;
+                    _fun00004_ip = 47; continue _fun00003;
  37:
                     entity = {'canManageWebhooks': false, 'canManageGuild': false};
- 51:
+ 47:
                     return entity;
                 }
             };

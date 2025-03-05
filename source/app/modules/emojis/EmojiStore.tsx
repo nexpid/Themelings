@@ -841,8 +841,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.bind(entity)(golfie);
             golfie = option.isEmpty;
             golfie = golfie.bind(option)(verify);
-            if(!golfie) { _fun00030_ip = 555; continue _fun00029 }
- 432:
+            if(!golfie) { _fun00030_ip = 551; continue _fun00029 }
+ 428:
             option = _closure1_slot1;
             golfie = _closure1_slot2;
             golfie = golfie[tangon];
@@ -851,41 +851,41 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = _closure1_slot27;
             golfie = golfie.pendingUsages;
             golfie = option.bind(verify)(golfie);
-            if(!golfie) { _fun00030_ip = 555; continue _fun00029 }
- 473:
+            if(!golfie) { _fun00030_ip = 551; continue _fun00029 }
+ 469:
             verify = _closure1_slot13;
             option = verify.hasLoaded;
             golfie = _closure1_slot24;
             golfie = golfie.FRECENCY_AND_FAVORITES_SETTINGS;
             golfie = option.bind(verify)(golfie);
-            if(!golfie) { _fun00030_ip = 555; continue _fun00029 }
- 501:
+            if(!golfie) { _fun00030_ip = 551; continue _fun00029 }
+ 497:
             verify = ['thumbsup', 'thumbsup', 'eyes', 'eyes', 'laughing', 'laughing', 'watermelon', 'fork_and_knife', 'yum', 'weary', 'tired_face', 'poop', '100'];
             golfie = verify.length;
             option = 0;
             golfie = option < golfie;
-            if(!golfie) { _fun00030_ip = 555; continue _fun00029 }
- 525:
+            if(!golfie) { _fun00030_ip = 551; continue _fun00029 }
+ 521:
             yankee = verify[option];
             offset = _closure1_slot39;
             golfie = offset.track;
             golfie = golfie.bind(offset)(yankee);
             option = option + 1;
             golfie = verify.length;
-            if(option < golfie) { _fun00030_ip = 525; continue _fun00029 }
- 555:
-            if(zuuluu) { _fun00030_ip = 564; continue _fun00029 }
- 558:
-            if(!michal) { _fun00030_ip = 721; continue _fun00029 }
- 564:
+            if(option < golfie) { _fun00030_ip = 521; continue _fun00029 }
+ 551:
+            if(zuuluu) { _fun00030_ip = 560; continue _fun00029 }
+ 554:
+            if(!michal) { _fun00030_ip = 717; continue _fun00029 }
+ 560:
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
             michal = michal[tangon];
             zuuluu = zuuluu.bind(entity)(michal);
             michal = zuuluu.isEmpty;
             michal = michal.bind(zuuluu)(oscard);
-            if(!michal) { _fun00030_ip = 721; continue _fun00029 }
- 598:
+            if(!michal) { _fun00030_ip = 717; continue _fun00029 }
+ 594:
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
             michal = michal[tangon];
@@ -894,29 +894,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = _closure1_slot27;
             michal = michal.emojiReactionPendingUsages;
             michal = zuuluu.bind(tangon)(michal);
-            if(!michal) { _fun00030_ip = 721; continue _fun00029 }
- 639:
+            if(!michal) { _fun00030_ip = 717; continue _fun00029 }
+ 635:
             tangon = _closure1_slot13;
             zuuluu = tangon.hasLoaded;
             michal = _closure1_slot24;
             michal = michal.FRECENCY_AND_FAVORITES_SETTINGS;
             michal = zuuluu.bind(tangon)(michal);
-            if(!michal) { _fun00030_ip = 721; continue _fun00029 }
- 667:
+            if(!michal) { _fun00030_ip = 717; continue _fun00029 }
+ 663:
             tangon = ['100', '100', 'thumbsup', 'thumbsup', 'thumbsdown', 'thumbsdown', 'heart', 'point_up', 'eyes', 'weary', 'laughing', 'white_check_mark', 'x'];
             michal = tangon.length;
             zuuluu = 0;
             michal = zuuluu < michal;
-            if(!michal) { _fun00030_ip = 721; continue _fun00029 }
- 691:
+            if(!michal) { _fun00030_ip = 717; continue _fun00029 }
+ 687:
             golfie = tangon[zuuluu];
             oscard = _closure1_slot40;
             michal = oscard.track;
             michal = michal.bind(oscard)(golfie);
             zuuluu = zuuluu + 1;
             michal = tangon.length;
-            if(zuuluu < michal) { _fun00030_ip = 691; continue _fun00029 }
- 721:
+            if(zuuluu < michal) { _fun00030_ip = 687; continue _fun00029 }
+ 717:
             return entity;
         }
     };
@@ -2175,15 +2175,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = {};
                 tangon['location'] = golfie;
                 tangon = report.bind(oscard)(tangon);
-                if(zuuluu) { _fun00076_ip = 108; continue _fun00075 }
- 96:
+                if(zuuluu) { _fun00076_ip = 104; continue _fun00075 }
+ 92:
                 zuuluu = michal.getFrequentlyUsedEmojisWithoutFetchingLatest;
                 tangon = zuuluu.bind(michal)();
-                _fun00076_ip = 118; continue _fun00075;
- 108:
+                _fun00076_ip = 114; continue _fun00075;
+ 104:
                 zuuluu = michal.getFrequentlyUsedReactionEmojisWithoutFetchingLatest;
                 tangon = zuuluu.bind(michal)();
- 118:
+ 114:
                 zuuluu = global;
                 zuuluu = zuuluu.Set;
                 report = zuuluu.prototype;

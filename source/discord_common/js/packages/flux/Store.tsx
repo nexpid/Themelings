@@ -241,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                 michal = this;
                 entity = michal._isInitialized;
-                if(entity) { _fun00008_ip = 138; continue _fun00007 }
+                if(entity) { _fun00008_ip = 140; continue _fun00007 }
  15:
                 entity = global;
                 tangon = entity.Date;
@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = entity.bind(tangon)();
                 report = entity - zuuluu;
                 entity = 5;
-                if(!(report > entity)) { _fun00008_ip = 138; continue _fun00007 }
+                if(!(report > entity)) { _fun00008_ip = 140; continue _fun00007 }
  76:
                 tangon = _closure1_slot1;
                 zuuluu = _closure1_slot2;
@@ -271,7 +271,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal + entity;
                 entity = '🦥';
                 entity = zuuluu.bind(tangon)(entity, michal, report);
- 138:
+ 140:
                 entity = undefined;
                 return entity;
             }

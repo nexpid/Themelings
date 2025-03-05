@@ -524,26 +524,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = null;
             offset = config == option;
             report = undefined;
-            if(offset) { _fun00006_ip = 547; continue _fun00005 }
- 532:
+            if(offset) { _fun00006_ip = 543; continue _fun00005 }
+ 528:
             offset = option.sections;
             option = foxtra.id;
             report = offset[option];
- 547:
+ 543:
             report = config == report;
             record = !kiloes;
-            if(!record) { _fun00006_ip = 566; continue _fun00005 }
- 557:
+            if(!record) { _fun00006_ip = 562; continue _fun00005 }
+ 553:
             option = variable41.length;
             record = variable46 === option;
- 566:
+ 562:
             offset = record;
-            if(!offset) { _fun00006_ip = 575; continue _fun00005 }
- 572:
+            if(!offset) { _fun00006_ip = 571; continue _fun00005 }
+ 568:
             offset = report;
- 575:
-            if(!offset) { _fun00006_ip = 612; continue _fun00005 }
- 578:
+ 571:
+            if(!offset) { _fun00006_ip = 608; continue _fun00005 }
+ 574:
             option = _closure1_slot0;
             echoed = _closure1_slot3;
             report = 21;
@@ -552,7 +552,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = option.isEmbeddedApp;
             report = report.bind(option)(foxtra);
             offset = !report;
- 612:
+ 608:
             report = _closure1_slot4;
             update = report.useMemo;
             echoed = new Array(2);
@@ -1029,8 +1029,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable44 = _closure1_slot12;
             limora = _closure1_slot1;
             variable48 = _closure1_slot3;
-            if(papara) { _fun00006_ip = 1270; continue _fun00005 }
- 1211:
+            if(papara) { _fun00006_ip = 1266; continue _fun00005 }
+ 1207:
             papara = 33;
             papara = variable48[papara];
             target = limora.bind(tangon)(papara);
@@ -1043,8 +1043,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable49 = whisks.expandDescriptionCTAStyle;
             papara['expandDescriptionCTAStyle'] = variable49;
             papara = variable44.bind(tangon)(target, papara);
-            _fun00006_ip = 1327; continue _fun00005;
- 1270:
+            _fun00006_ip = 1323; continue _fun00005;
+ 1266:
             target = 32;
             target = variable48[target];
             limora = limora.bind(tangon)(target);
@@ -1058,7 +1058,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable45 = variable45 > variable46;
             target['hasCommands'] = variable45;
             papara = variable44.bind(tangon)(limora, target);
- 1327:
+ 1323:
             sequen[1] = papara;
             limora = _closure1_slot12;
             target = _closure1_slot1;
@@ -1068,8 +1068,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = target.bind(tangon)(papara);
             papara = {};
             variable44 = config == cntext;
-            if(variable44) { _fun00006_ip = 1394; continue _fun00005 }
- 1364:
+            if(variable44) { _fun00006_ip = 1390; continue _fun00005 }
+ 1360:
             variable45 = _closure1_slot1;
             variable46 = _closure1_slot3;
             variable44 = 9;
@@ -1077,7 +1077,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable44 = variable45.bind(tangon)(variable44);
             variable44 = variable44.spacing;
             variable43 = variable44.PX_16;
- 1394:
+ 1390:
             papara['size'] = variable43;
             papara = limora.bind(tangon)(target, papara);
             sequen[2] = papara;
@@ -1085,12 +1085,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = variable41.length;
             cntext = 1;
             cntext = papara > cntext;
-            if(!cntext) { _fun00006_ip = 1430; continue _fun00005 }
- 1427:
+            if(!cntext) { _fun00006_ip = 1426; continue _fun00005 }
+ 1423:
             cntext = !kiloes;
- 1430:
-            if(!cntext) { _fun00006_ip = 1498; continue _fun00005 }
- 1433:
+ 1426:
+            if(!cntext) { _fun00006_ip = 1494; continue _fun00005 }
+ 1429:
             limora = _closure1_slot12;
             target = _closure1_slot1;
             variable43 = _closure1_slot3;
@@ -1106,11 +1106,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara['installOnDemand'] = variable37;
             papara['sectionName'] = variable36;
             cntext = limora.bind(tangon)(target, papara);
- 1498:
+ 1494:
             sequen[4] = cntext;
             cntext = null;
-            if(!record) { _fun00006_ip = 1674; continue _fun00005 }
- 1510:
+            if(!record) { _fun00006_ip = 1670; continue _fun00005 }
+ 1506:
             target = _closure1_slot0;
             papara = _closure1_slot3;
             papara = papara[sierra];
@@ -1118,8 +1118,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = target.isEmbeddedApp;
             papara = papara.bind(target)(foxtra);
             cntext = null;
-            if(papara) { _fun00006_ip = 1674; continue _fun00005 }
- 1546:
+            if(papara) { _fun00006_ip = 1670; continue _fun00005 }
+ 1542:
             sierra = _closure1_slot12;
             target = _closure1_slot5;
             papara = {};
@@ -1147,11 +1147,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora = variable37.bind(tangon)(variable36, limora);
             papara['children'] = limora;
             cntext = sierra.bind(tangon)(target, papara);
- 1674:
+ 1670:
             sequen[5] = cntext;
             config = null;
-            if(record) { _fun00006_ip = 1909; continue _fun00005 }
- 1686:
+            if(record) { _fun00006_ip = 1905; continue _fun00005 }
+ 1682:
             papara = _closure1_slot13;
             cntext = _closure1_slot5;
             record = {};
@@ -1186,8 +1186,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sierra = limora.bind(tangon)(sierra, target);
             target = new Array(2);
             target[0] = sierra;
-            if(!status) { _fun00006_ip = 1895; continue _fun00005 }
- 1849:
+            if(!status) { _fun00006_ip = 1891; continue _fun00005 }
+ 1845:
             whisks = _closure1_slot12;
             limora = _closure1_slot1;
             sierra = _closure1_slot3;
@@ -1204,11 +1204,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             sierra['onSortOptionPress'] = equals;
             status = whisks.bind(tangon)(limora, sierra);
- 1895:
+ 1891:
             target[1] = status;
             record['children'] = target;
             config = papara.bind(tangon)(cntext, record);
- 1909:
+ 1905:
             sequen[6] = config;
             vacuum['children'] = sequen;
             vacuum = zuuluu.bind(tangon)(michal, vacuum);
@@ -1234,10 +1234,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.animatedProps;
             golfie['animatedProps'] = report;
             report = undefined;
-            if(!kiloes) { _fun00006_ip = 2035; continue _fun00005 }
- 2031:
+            if(!kiloes) { _fun00006_ip = 2031; continue _fun00005 }
+ 2027:
             report = 'loading';
- 2035:
+ 2031:
             golfie = backup.bind(tangon)(option, golfie, report);
             report = new Array(2);
             report[0] = golfie;

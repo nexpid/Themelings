@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = entity.bind(report)(zuuluu);
             entity = null;
             zuuluu = entity == golfie;
-            if(zuuluu) { _fun00002_ip = 105; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 101; continue _fun00001 }
  37:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot0;
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = 'children';
             michal[oscard] = golfie;
             entity = tangon.bind(report)(zuuluu, michal);
- 105:
+ 101:
             return entity;
         }
     };
@@ -45,41 +45,41 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = argFoo;
             zuuluu = _closure1_slot9;
             zuuluu = zuuluu.UNREAD_IMPORTANT;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 140; continue _fun00003 }
+            if(!(michal !== zuuluu)) { _fun00004_ip = 132; continue _fun00003 }
  20:
             zuuluu = _closure1_slot9;
             zuuluu = zuuluu.RELEVANT;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 140; continue _fun00003 }
+            if(!(michal !== zuuluu)) { _fun00004_ip = 132; continue _fun00003 }
  34:
             zuuluu = _closure1_slot9;
             zuuluu = zuuluu.UNREAD_LESS_IMPORTANT;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 124; continue _fun00003 }
+            if(!(michal !== zuuluu)) { _fun00004_ip = 120; continue _fun00003 }
  48:
             zuuluu = _closure1_slot9;
             zuuluu = zuuluu.MUTED;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 108; continue _fun00003 }
+            if(!(michal !== zuuluu)) { _fun00004_ip = 104; continue _fun00003 }
  62:
             entity = _closure1_slot9;
             entity = entity.SELECTED;
-            if(!(michal !== entity)) { _fun00004_ip = 92; continue _fun00003 }
+            if(!(michal !== entity)) { _fun00004_ip = 88; continue _fun00003 }
  76:
             entity = {'variant': 'text-md/medium', 'color': 'redesign-channel-name-muted-text'};
-            _fun00004_ip = 106; continue _fun00003;
- 92:
+            _fun00004_ip = 102; continue _fun00003;
+ 88:
             entity = {'variant': 'text-md/medium', 'color': 'redesign-channel-name-text'};
- 106:
-            _fun00004_ip = 122; continue _fun00003;
- 108:
+ 102:
+            _fun00004_ip = 118; continue _fun00003;
+ 104:
             entity = {'variant': 'text-md/medium', 'color': 'interactive-muted'};
- 122:
-            _fun00004_ip = 138; continue _fun00003;
- 124:
+ 118:
+            _fun00004_ip = 130; continue _fun00003;
+ 120:
             entity = {'variant': 'text-md/medium', 'color': 'redesign-channel-name-muted-text'};
- 138:
-            _fun00004_ip = 154; continue _fun00003;
- 140:
+ 130:
+            _fun00004_ip = 146; continue _fun00003;
+ 132:
             entity = {'variant': 'text-md/semibold', 'color': 'redesign-channel-name-text'};
- 154:
+ 146:
             return entity;
         }
     };

@@ -588,7 +588,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = _closure2_slot3;
                     michal = entity.kind;
                     entity = 'ownStatus';
-                    if(!(entity !== michal)) { _fun00010_ip = 59; continue _fun00009 }
+                    if(!(entity !== michal)) { _fun00010_ip = 55; continue _fun00009 }
  22:
                     entity = {'hasTwoCutouts': false, 'leftAligned': null, 'hasStatus': true};
                     michal = _closure2_slot6;
@@ -596,8 +596,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = 0;
                     michal = zuuluu > michal;
                     entity['leftAligned'] = michal;
-                    _fun00010_ip = 110; continue _fun00009;
- 59:
+                    _fun00010_ip = 106; continue _fun00009;
+ 55:
                     michal = {};
                     zuuluu = _closure2_slot3;
                     report = zuuluu.hasStatus;
@@ -610,7 +610,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = zuuluu.hasStatus;
                     michal['hasStatus'] = zuuluu;
                     entity = michal;
- 110:
+ 106:
                     return entity;
                 }
             };

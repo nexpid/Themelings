@@ -238,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             entity = _closure2_slot2;
                             zuuluu = entity.current;
                             entity = null;
-                            if(!(entity != zuuluu)) { _fun00012_ip = 98; continue _fun00011 }
+                            if(!(entity != zuuluu)) { _fun00012_ip = 94; continue _fun00011 }
  18:
                             michal = zuuluu.scrollToLocation;
                             entity = {'animated': false, 'section': null, 'item': 0};
@@ -253,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = tangon * report;
                             entity['paddingStart'] = tangon;
                             entity = michal.bind(zuuluu)(entity);
- 98:
+ 94:
                             entity = undefined;
                             return entity;
                         }

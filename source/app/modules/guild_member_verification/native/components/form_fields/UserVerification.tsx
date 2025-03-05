@@ -38,9 +38,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
-    verify = {};
-    offset = 8;
-    verify['marginTop'] = offset;
+    verify = {'marginTop': 8, 'marginBottom': 12};
     tangon['emailPhoneNote'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot6 = tangon;

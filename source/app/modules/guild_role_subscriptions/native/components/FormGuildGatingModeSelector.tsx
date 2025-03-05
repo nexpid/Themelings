@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 michal = _closure2_slot0;
-                if(michal) { _fun00002_ip = 332; continue _fun00001 }
+                if(michal) { _fun00002_ip = 328; continue _fun00001 }
  13:
                 zuuluu = _closure1_slot1;
                 output = _closure1_slot2;
@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = golfie.bind(option)(oscard, report);
                 michal['children'] = report;
                 michal = zuuluu.bind(tangon)(michal);
- 332:
+ 328:
                 zuuluu = _closure2_slot1;
                 entity = undefined;
                 michal = true;
