@@ -1089,7 +1089,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     zuuluu = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00030_ip = 124; continue _fun00029 }
+                    if(michal) { _fun00030_ip = 122; continue _fun00029 }
  10:
                     michal = _closure1_slot19;
                     if(michal) { _fun00030_ip = 25; continue _fun00029 }
@@ -1099,13 +1099,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  25:
                     michal = zuuluu.getRawStats;
                     michal = michal.bind(zuuluu)();
-                    SaveGenerator(address=41);
- 39:
+                    SaveGenerator(address=39);
+ 37:
                     return michal;
- 41:
+ 39:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00030_ip = 121; continue _fun00029 }
- 47:
+                    if(report) { _fun00030_ip = 119; continue _fun00029 }
+ 45:
                     oscard = zuuluu.input;
                     report = oscard.getVideoStreamId;
                     verify = report.bind(oscard)();
@@ -1124,9 +1124,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     backup = michal;
                     zuuluu = kiloes[golfie](backup, foxtra, romeon, yankee, offset, verify);
                     return zuuluu;
- 121:
+ 119:
                     return michal;
- 124:
+ 122:
                     return entity;
                 }
             };
@@ -1319,13 +1319,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = argBar;
                 romeon = this;
                 zuuluu = romeon.videoSupported;
-                if(!zuuluu) { _fun00036_ip = 677; continue _fun00035 }
+                if(!zuuluu) { _fun00036_ip = 673; continue _fun00035 }
  21:
                 tangon = romeon.input;
                 zuuluu = tangon.getVideoStream;
                 zuuluu = zuuluu.bind(tangon)();
                 yankee = null;
-                if(!(yankee != zuuluu)) { _fun00036_ip = 677; continue _fun00035 }
+                if(!(yankee != zuuluu)) { _fun00036_ip = 673; continue _fun00035 }
  46:
                 tangon = entity.capture;
                 report = yankee != tangon;
@@ -1432,32 +1432,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = 'BaseWebRTCConnection.updateVideoQuality: old: ';
                 tangon = ' x ';
                 zuuluu = ', new: ';
-                if(entity) { _fun00036_ip = 677; continue _fun00035 }
- 500:
+                if(entity) { _fun00036_ip = 673; continue _fun00035 }
+ 498:
                 backup = michal.value;
                 entity = backup.getConstraints;
                 foxtra = entity.bind(backup)();
                 entity = foxtra.width;
                 kiloes = yankee == entity;
                 result = undefined;
-                if(kiloes) { _fun00036_ip = 536; continue _fun00035 }
- 531:
+                if(kiloes) { _fun00036_ip = 532; continue _fun00035 }
+ 527:
                 result = entity.max;
- 536:
+ 532:
                 entity = foxtra.height;
                 kiloes = yankee == entity;
                 output = undefined;
-                if(kiloes) { _fun00036_ip = 555; continue _fun00035 }
- 550:
+                if(kiloes) { _fun00036_ip = 551; continue _fun00035 }
+ 546:
                 output = entity.max;
- 555:
+ 551:
                 entity = result === option;
-                if(!entity) { _fun00036_ip = 566; continue _fun00035 }
- 562:
+                if(!entity) { _fun00036_ip = 562; continue _fun00035 }
+ 558:
                 entity = output === golfie;
- 566:
-                if(entity) { _fun00036_ip = 659; continue _fun00035 }
- 569:
+ 562:
+                if(entity) { _fun00036_ip = 655; continue _fun00035 }
+ 565:
                 sizing = romeon.logger;
                 kiloes = sizing.info;
                 entity = verify.HermesInternal;
@@ -1480,12 +1480,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 foxtra['height'] = entity;
                 entity = backup.applyConstraints;
                 entity = entity.bind(backup)(foxtra);
- 659:
+ 655:
                 foxtra = oscard.bind(offset)();
                 entity = foxtra.done;
                 michal = foxtra;
-                if(!entity) { _fun00036_ip = 500; continue _fun00035 }
- 677:
+                if(!entity) { _fun00036_ip = 498; continue _fun00035 }
+ 673:
                 entity = undefined;
                 return entity;
             }
@@ -2081,10 +2081,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = michal.rtxSsrc;
                         offset = null;
                         offset = offset != michal;
-                        if(!offset) { _fun00062_ip = 108; continue _fun00061 }
- 105:
+                        if(!offset) { _fun00062_ip = 106; continue _fun00061 }
+ 103:
                         tangon = michal;
- 108:
+ 106:
                         entity = _closure3_slot0;
                         yankee = entity.videoStreamParameters;
                         kiloes = argFoo;

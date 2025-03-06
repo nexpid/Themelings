@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = argFoo;
                 entity = this;
                 zuuluu = null;
-                if(!(zuuluu != michal)) { _fun00002_ip = 487; continue _fun00001 }
+                if(!(zuuluu != michal)) { _fun00002_ip = 461; continue _fun00001 }
  15:
                 oscard = michal.width;
                 zuuluu = michal.height;
@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = report.TRIANGLES;
                 entity = 6;
                 entity = zuuluu.bind(report)(michal, tangon, entity);
- 487:
+ 461:
                 entity = undefined;
                 return entity;
             }
@@ -202,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 romeon = argFoo;
                 report = this;
                 entity = null;
-                if(!(entity != romeon)) { _fun00004_ip = 412; continue _fun00003 }
+                if(!(entity != romeon)) { _fun00004_ip = 400; continue _fun00003 }
  15:
                 tangon = report.createShader;
                 zuuluu = romeon.VERTEX_SHADER;
@@ -212,14 +212,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = romeon.FRAGMENT_SHADER;
                 michal = '\nprecision mediump float;\n\nvarying vec2 out_texcoord;\nuniform sampler2D texture;\n\nvoid main() {\n   gl_FragColor = texture2D(texture, out_texcoord);\n}\n';
                 zuuluu = oscard.bind(report)(romeon, zuuluu, michal);
-                if(!(entity != tangon)) { _fun00004_ip = 410; continue _fun00003 }
- 76:
-                if(!(entity != zuuluu)) { _fun00004_ip = 410; continue _fun00003 }
- 83:
+                if(!(entity != tangon)) { _fun00004_ip = 398; continue _fun00003 }
+ 72:
+                if(!(entity != zuuluu)) { _fun00004_ip = 398; continue _fun00003 }
+ 79:
                 michal = report.createProgram;
                 yankee = michal.bind(report)(romeon, tangon, zuuluu);
-                if(!(entity != yankee)) { _fun00004_ip = 408; continue _fun00003 }
- 103:
+                if(!(entity != yankee)) { _fun00004_ip = 396; continue _fun00003 }
+ 99:
                 zuuluu = romeon.getAttribLocation;
                 michal = 'position';
                 offset = zuuluu.bind(romeon)(yankee, michal);
@@ -227,24 +227,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = 'texcoord';
                 verify = zuuluu.bind(romeon)(yankee, michal);
                 michal = -1;
-                if(!(michal !== offset)) { _fun00004_ip = 406; continue _fun00003 }
- 150:
-                if(!(michal !== verify)) { _fun00004_ip = 406; continue _fun00003 }
- 157:
+                if(!(michal !== offset)) { _fun00004_ip = 394; continue _fun00003 }
+ 146:
+                if(!(michal !== verify)) { _fun00004_ip = 394; continue _fun00003 }
+ 153:
                 zuuluu = romeon.getUniformLocation;
                 michal = 'transform';
                 option = zuuluu.bind(romeon)(yankee, michal);
                 zuuluu = romeon.getUniformLocation;
                 michal = 'texture';
                 golfie = zuuluu.bind(romeon)(yankee, michal);
-                if(!(entity != option)) { _fun00004_ip = 404; continue _fun00003 }
- 196:
-                if(!(entity != golfie)) { _fun00004_ip = 404; continue _fun00003 }
- 203:
+                if(!(entity != option)) { _fun00004_ip = 392; continue _fun00003 }
+ 192:
+                if(!(entity != golfie)) { _fun00004_ip = 392; continue _fun00003 }
+ 199:
                 michal = romeon.createBuffer;
                 oscard = michal.bind(romeon)();
-                if(!(entity != oscard)) { _fun00004_ip = 402; continue _fun00003 }
- 222:
+                if(!(entity != oscard)) { _fun00004_ip = 390; continue _fun00003 }
+ 216:
                 zuuluu = romeon.bindBuffer;
                 michal = romeon.ARRAY_BUFFER;
                 michal = zuuluu.bind(romeon)(michal, oscard);
@@ -264,8 +264,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = michal.bind(romeon)();
                 zuuluu = entity == tangon;
                 michal = null;
-                if(zuuluu) { _fun00004_ip = 400; continue _fun00003 }
- 328:
+                if(zuuluu) { _fun00004_ip = 388; continue _fun00003 }
+ 316:
                 report = _closure2_slot0;
                 zuuluu = {};
                 zuuluu['gl'] = romeon;
@@ -282,19 +282,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 sizing = zuuluu;
                 zuuluu = new output[report](sizing, kiloes);
                 michal = zuuluu instanceof Object ? zuuluu : tangon;
- 400:
+ 388:
                 return michal;
- 402:
+ 390:
                 return entity;
- 404:
+ 392:
                 return entity;
- 406:
+ 394:
                 return entity;
- 408:
+ 396:
                 return entity;
- 410:
+ 398:
                 return entity;
- 412:
+ 400:
                 return entity;
             }
         };
@@ -312,8 +312,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = argBar;
                 michal = michal.bind(tangon)(entity);
                 entity = null;
-                if(!(entity != michal)) { _fun00006_ip = 153; continue _fun00005 }
- 26:
+                if(!(entity != michal)) { _fun00006_ip = 138; continue _fun00005 }
+ 23:
                 report = tangon.shaderSource;
                 zuuluu = argBaz;
                 zuuluu = report.bind(tangon)(michal, zuuluu);
@@ -322,26 +322,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = tangon.getShaderParameter;
                 zuuluu = tangon.COMPILE_STATUS;
                 zuuluu = report.bind(tangon)(michal, zuuluu);
-                if(zuuluu) { _fun00006_ip = 151; continue _fun00005 }
- 81:
+                if(zuuluu) { _fun00006_ip = 136; continue _fun00005 }
+ 70:
                 golfie = _closure1_slot2;
                 oscard = golfie.warn;
                 report = 'Failed to compile shader!';
                 report = oscard.bind(golfie)(report);
                 report = tangon.getShaderInfoLog;
                 oscard = report.bind(tangon)(michal);
-                if(!(entity != oscard)) { _fun00006_ip = 136; continue _fun00005 }
- 121:
+                if(!(entity != oscard)) { _fun00006_ip = 123; continue _fun00005 }
+ 108:
                 report = _closure1_slot2;
                 zuuluu = report.log;
                 zuuluu = zuuluu.bind(report)(oscard);
- 136:
+ 123:
                 zuuluu = tangon.deleteShader;
                 zuuluu = zuuluu.bind(tangon)(michal);
                 return entity;
- 151:
+ 136:
                 return michal;
- 153:
+ 138:
                 return entity;
             }
         };
@@ -357,13 +357,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = argBar;
                 report = argBaz;
                 entity = null;
-                if(!(entity != oscard)) { _fun00008_ip = 178; continue _fun00007 }
+                if(!(entity != oscard)) { _fun00008_ip = 168; continue _fun00007 }
  18:
-                if(!(entity != report)) { _fun00008_ip = 178; continue _fun00007 }
+                if(!(entity != report)) { _fun00008_ip = 168; continue _fun00007 }
  25:
                 michal = tangon.createProgram;
                 michal = michal.bind(tangon)();
-                if(!(entity != michal)) { _fun00008_ip = 176; continue _fun00007 }
+                if(!(entity != michal)) { _fun00008_ip = 166; continue _fun00007 }
  42:
                 zuuluu = tangon.attachShader;
                 zuuluu = zuuluu.bind(tangon)(michal, oscard);
@@ -374,28 +374,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = tangon.getProgramParameter;
                 zuuluu = tangon.LINK_STATUS;
                 zuuluu = report.bind(tangon)(michal, zuuluu);
-                if(zuuluu) { _fun00008_ip = 174; continue _fun00007 }
- 104:
+                if(zuuluu) { _fun00008_ip = 164; continue _fun00007 }
+ 98:
                 golfie = _closure1_slot2;
                 oscard = golfie.warn;
                 report = 'Failed to link program!';
                 report = oscard.bind(golfie)(report);
                 report = tangon.getProgramInfoLog;
                 oscard = report.bind(tangon)(michal);
-                if(!(entity != oscard)) { _fun00008_ip = 159; continue _fun00007 }
- 144:
+                if(!(entity != oscard)) { _fun00008_ip = 151; continue _fun00007 }
+ 136:
                 report = _closure1_slot2;
                 zuuluu = report.log;
                 zuuluu = zuuluu.bind(report)(oscard);
- 159:
+ 151:
                 zuuluu = tangon.deleteProgram;
                 zuuluu = zuuluu.bind(tangon)(michal);
                 return entity;
- 174:
+ 164:
                 return michal;
- 176:
+ 166:
                 return entity;
- 178:
+ 168:
                 return entity;
             }
         };

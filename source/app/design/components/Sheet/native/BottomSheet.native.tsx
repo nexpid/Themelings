@@ -152,29 +152,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['wrapperWithBorder'] = michal;
             michal = {};
             tangon = undefined;
-            if(!offset) { _fun00002_ip = 138; continue _fun00001 }
- 134:
-            tangon = _closure1_slot16;
+            if(!offset) { _fun00002_ip = 142; continue _fun00001 }
  138:
+            tangon = _closure1_slot16;
+ 142:
             michal['borderTopLeftRadius'] = tangon;
             tangon = undefined;
-            if(!offset) { _fun00002_ip = 152; continue _fun00001 }
- 148:
-            tangon = _closure1_slot16;
+            if(!offset) { _fun00002_ip = 156; continue _fun00001 }
  152:
+            tangon = _closure1_slot16;
+ 156:
             michal['borderTopRightRadius'] = tangon;
             tangon = undefined;
-            if(!offset) { _fun00002_ip = 165; continue _fun00001 }
- 162:
+            if(!offset) { _fun00002_ip = 169; continue _fun00001 }
+ 166:
             tangon = verify;
- 165:
+ 169:
             michal['overflow'] = tangon;
             tangon = 0;
-            if(report) { _fun00002_ip = 182; continue _fun00001 }
- 175:
+            if(report) { _fun00002_ip = 186; continue _fun00001 }
+ 179:
             report = 4;
             tangon = golfie + report;
- 182:
+ 186:
             michal['marginBottom'] = tangon;
             michal['flex'] = zuuluu;
             entity['content'] = michal;

@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 88; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 86; continue _fun00001 }
  9:
                     oscard = undefined;
                     var _closure4_slot0 = oscard;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  60:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 85; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 83; continue _fun00001 }
  66:
                     tangon = michal.default;
                     _closure4_slot0 = tangon;
@@ -81,9 +81,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     return zuuluu;
- 85:
+ 83:
                     return michal;
- 88:
+ 86:
                     return entity;
                 }
             };
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 88; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 86; continue _fun00003 }
  9:
                     oscard = undefined;
                     var _closure4_slot0 = oscard;
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  60:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 85; continue _fun00003 }
+                    if(tangon) { _fun00004_ip = 83; continue _fun00003 }
  66:
                     tangon = michal.default;
                     _closure4_slot0 = tangon;
@@ -144,9 +144,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     return zuuluu;
- 85:
+ 83:
                     return michal;
- 88:
+ 86:
                     return entity;
                 }
             };

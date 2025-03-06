@@ -404,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                 michal = this;
                 entity = michal.negotiating;
-                if(entity) { _fun00014_ip = 69; continue _fun00013 }
+                if(entity) { _fun00014_ip = 67; continue _fun00013 }
  12:
                 zuuluu = michal._sdp;
                 entity = null;
@@ -412,7 +412,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  24:
                 entity = true;
                 michal['_negotiationNeeded'] = entity;
-                _fun00014_ip = 77; continue _fun00013;
+                _fun00014_ip = 75; continue _fun00013;
  34:
                 entity = true;
                 michal['negotiating'] = entity;
@@ -421,11 +421,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = michal.generateSessionDescription;
                 entity = 'offer';
                 entity = zuuluu.bind(michal)(entity);
-                _fun00014_ip = 77; continue _fun00013;
- 69:
+                _fun00014_ip = 75; continue _fun00013;
+ 67:
                 entity = true;
                 michal['_negotiationNeeded'] = entity;
- 77:
+ 75:
                 entity = undefined;
                 return entity;
             }
@@ -692,20 +692,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = zuuluu.rtxPayloadType;
                 romeon = zuuluu.sdp;
                 tangon = null;
-                if(!(tangon != backup)) { _fun00024_ip = 263; continue _fun00023 }
+                if(!(tangon != backup)) { _fun00024_ip = 261; continue _fun00023 }
  51:
-                if(!(tangon != oscard)) { _fun00024_ip = 263; continue _fun00023 }
+                if(!(tangon != oscard)) { _fun00024_ip = 261; continue _fun00023 }
  58:
-                if(!(tangon != foxtra)) { _fun00024_ip = 263; continue _fun00023 }
+                if(!(tangon != foxtra)) { _fun00024_ip = 261; continue _fun00023 }
  65:
-                if(!(tangon != report)) { _fun00024_ip = 263; continue _fun00023 }
+                if(!(tangon != report)) { _fun00024_ip = 261; continue _fun00023 }
  72:
-                if(!(tangon != michal)) { _fun00024_ip = 263; continue _fun00023 }
+                if(!(tangon != michal)) { _fun00024_ip = 261; continue _fun00023 }
  79:
-                if(!(tangon != romeon)) { _fun00024_ip = 263; continue _fun00023 }
+                if(!(tangon != romeon)) { _fun00024_ip = 261; continue _fun00023 }
  86:
                 entity = zuuluu.direction;
-                if(!(tangon != entity)) { _fun00024_ip = 263; continue _fun00023 }
+                if(!(tangon != entity)) { _fun00024_ip = 261; continue _fun00023 }
  99:
                 verify = _closure1_slot0;
                 golfie = _closure1_slot2;
@@ -741,27 +741,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = zuuluu.resolve;
                 entity = entity.bind(zuuluu)(golfie);
                 return entity;
- 263:
+ 261:
                 entity = global;
                 zuuluu = entity.Error;
                 golfie = tangon == oscard;
                 yankee = 'null';
                 offset = yankee;
-                if(golfie) { _fun00024_ip = 288; continue _fun00023 }
- 285:
+                if(golfie) { _fun00024_ip = 286; continue _fun00023 }
+ 283:
                 offset = oscard;
- 288:
+ 286:
                 oscard = tangon == report;
                 verify = yankee;
-                if(oscard) { _fun00024_ip = 301; continue _fun00023 }
- 298:
+                if(oscard) { _fun00024_ip = 299; continue _fun00023 }
+ 296:
                 verify = report;
- 301:
+ 299:
                 tangon = tangon == michal;
-                if(tangon) { _fun00024_ip = 311; continue _fun00023 }
- 308:
+                if(tangon) { _fun00024_ip = 309; continue _fun00023 }
+ 306:
                 yankee = michal;
- 311:
+ 309:
                 entity = entity.HermesInternal;
                 option = entity.concat;
                 record = 'Invalid payload: audioCodec: ';

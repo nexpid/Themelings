@@ -885,7 +885,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00020_ip = 337; continue _fun00019 }
+                            if(michal) { _fun00020_ip = 333; continue _fun00019 }
  12:
                             zuuluu = undefined;
                             var _closure5_slot0 = zuuluu;
@@ -910,16 +910,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             michal = {'mediaType': null, 'includeBase64': false, 'selectionLimit': 1};
                             michal['mediaType'] = golfie;
                             michal = report.bind(oscard)(michal);
-                            SaveGenerator(address=116);
- 114:
+                            SaveGenerator(address=112);
+ 110:
                             return michal;
- 116:
+ 112:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(report) { _fun00020_ip = 334; continue _fun00019 }
- 125:
+                            if(report) { _fun00020_ip = 330; continue _fun00019 }
+ 121:
                             report = null;
-                            if(!(report != michal)) { _fun00020_ip = 331; continue _fun00019 }
- 134:
+                            if(!(report != michal)) { _fun00020_ip = 327; continue _fun00019 }
+ 130:
                             oscard = michal.assets;
                             report = 0;
                             romeon = oscard[report];
@@ -975,11 +975,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 return entity;
                             };
                             tangon = report.bind(zuuluu)(tangon);
- 331:
+ 327:
                             return zuuluu;
- 334:
+ 330:
                             return michal;
- 337:
+ 333:
                             return entity;
                         }
                     };

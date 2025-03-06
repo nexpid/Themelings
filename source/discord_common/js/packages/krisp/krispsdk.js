@@ -296,49 +296,49 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             golfie['enabled'] = offset;
                             golfie['wasmParams'] = verify;
                             golfie = golfie.debugLogs;
-                            if(!golfie) { _fun00012_ip = 279; continue _fun00011 }
- 268:
+                            if(!golfie) { _fun00012_ip = 273; continue _fun00011 }
+ 264:
                             verify = option;
                             golfie = verify.sharedBuffers;
- 279:
-                            if(!golfie) { _fun00012_ip = 316; continue _fun00011 }
- 282:
+ 273:
+                            if(!golfie) { _fun00012_ip = 310; continue _fun00011 }
+ 276:
                             golfie = _closure3_slot5;
                             yankee = golfie.Logger;
                             offset = yankee.info;
                             verify = 'AudioFilterNode:constructor';
                             golfie = "SharedArrayBuffer's has been initialized";
                             golfie = offset.bind(yankee)(verify, golfie);
- 316: // try_start_0
+ 310: // try_start_0
                             golfie = oscard;
-                            if(!golfie) { _fun00012_ip = 344; continue _fun00011 }
- 322:
+                            if(!golfie) { _fun00012_ip = 338; continue _fun00011 }
+ 316:
                             offset = zuuluu;
                             verify = offset.addEventListener;
                             golfie = oscard;
                             oscard = 'ready';
                             oscard = verify.bind(offset)(oscard, golfie);
- 344:
+ 338:
                             oscard = report;
-                            if(!oscard) { _fun00012_ip = 372; continue _fun00011 }
- 350:
+                            if(!oscard) { _fun00012_ip = 366; continue _fun00011 }
+ 344:
                             verify = zuuluu;
                             golfie = verify.addEventListener;
                             oscard = report;
                             report = 'dispose';
                             report = golfie.bind(verify)(report, oscard);
- 372:
+ 366:
                             report = zuuluu;
                             report = report.debugLogs;
-                            if(!report) { _fun00012_ip = 418; continue _fun00011 }
- 384:
+                            if(!report) { _fun00012_ip = 412; continue _fun00011 }
+ 378:
                             report = _closure3_slot5;
                             verify = report.Logger;
                             golfie = verify.info;
                             oscard = 'AudioFilterNode:constructor';
                             report = 'creating web worker (type: module)';
                             report = golfie.bind(verify)(oscard, report);
- 418:
+ 412:
                             report = zuuluu;
                             oscard = _closure3_slot0;
                             offset = oscard.KWebWorker;
@@ -355,15 +355,15 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             oscard = oscard instanceof Object ? oscard : golfie;
                             report['worker'] = oscard;
                             report = report.debugLogs;
-                            if(!report) { _fun00012_ip = 523; continue _fun00011 }
- 489:
+                            if(!report) { _fun00012_ip = 517; continue _fun00011 }
+ 483:
                             report = _closure3_slot5;
                             verify = report.Logger;
                             golfie = verify.info;
                             oscard = 'AudioFilterNode:constructor';
                             report = 'adding event listener for worker';
                             report = golfie.bind(verify)(oscard, report);
- 523:
+ 517:
                             report = zuuluu;
                             offset = report.worker;
                             verify = offset.addEventListener;
@@ -373,8 +373,8 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             oscard = 'message';
                             oscard = verify.bind(offset)(oscard, golfie);
                             report = report.debugLogs;
-                            if(!report) { _fun00012_ip = 658; continue _fun00011 }
- 573:
+                            if(!report) { _fun00012_ip = 652; continue _fun00011 }
+ 567:
                             oscard = _closure3_slot5;
                             offset = oscard.Logger;
                             verify = offset.info;
@@ -390,18 +390,18 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             oscard = golfie.collectFrom;
                             report = report.port;
                             report = oscard.bind(golfie)(report, option);
- 658:
+ 652:
                             report = zuuluu;
                             report = report.debugLogs;
-                            if(!report) { _fun00012_ip = 704; continue _fun00011 }
- 670:
+                            if(!report) { _fun00012_ip = 698; continue _fun00011 }
+ 664:
                             report = _closure3_slot5;
                             option = report.Logger;
                             golfie = option.info;
                             oscard = 'AudioFilterNode:constructor';
                             report = 'Send init WASM processor event';
                             report = golfie.bind(option)(oscard, report);
- 704:
+ 698:
                             report = zuuluu;
                             option = report.worker;
                             golfie = option.postMessage;
@@ -412,40 +412,40 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             oscard['data'] = verify;
                             report = report.params;
                             report = report.useSharedArrayBuffer;
-                            if(report) { _fun00012_ip = 776; continue _fun00011 }
- 757:
+                            if(report) { _fun00012_ip = 770; continue _fun00011 }
+ 751:
                             report = zuuluu;
                             verify = report.port;
                             report = new Array(1);
                             report[0] = verify;
-                            _fun00012_ip = 780; continue _fun00011;
- 776:
+                            _fun00012_ip = 774; continue _fun00011;
+ 770:
                             report = new Array(0);
- 780:
+ 774:
                             report = golfie.bind(option)(oscard, report);
- 786: // try_end0
+ 780: // try_end0
                             report = zuuluu;
                             report = report.debugLogs;
-                            if(!report) { _fun00012_ip = 814; continue _fun00011 }
- 798:
+                            if(!report) { _fun00012_ip = 806; continue _fun00011 }
+ 792:
                             oscard = zuuluu;
                             report = oscard.startSecondsCounter;
                             tangon = report.bind(oscard)(tangon);
- 814:
+ 806:
                             tangon = zuuluu;
                             return tangon;
- 819: // catch_target0
+ 811: // catch_target0
                             CatchBlockStart(arg_register=0);
                             zuuluu = zuuluu.debugLogs;
-                            if(!zuuluu) { _fun00012_ip = 860; continue _fun00011 }
- 830:
+                            if(!zuuluu) { _fun00012_ip = 852; continue _fun00011 }
+ 822:
                             michal = _closure3_slot5;
                             tangon = michal.Logger;
                             zuuluu = tangon.error;
                             michal = entity;
                             entity = 'AudioFilterNode:constructor';
                             entity = zuuluu.bind(tangon)(entity, michal);
- 860:
+ 852:
                             entity = global;
                             zuuluu = entity.Error;
                             entity = zuuluu.prototype;
@@ -1227,16 +1227,16 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             report = null;
                             michal = report == golfie;
                             tangon = golfie;
-                            if(michal) { _fun00036_ip = 123; continue _fun00035 }
- 101:
+                            if(michal) { _fun00036_ip = 121; continue _fun00035 }
+ 99:
                             oscard = golfie.querySelector;
                             zuuluu = 'button';
                             zuuluu = oscard.bind(golfie)(zuuluu);
                             michal = report == zuuluu;
                             tangon = zuuluu;
- 123:
-                            if(michal) { _fun00036_ip = 147; continue _fun00035 }
- 126:
+ 121:
+                            if(michal) { _fun00036_ip = 145; continue _fun00035 }
+ 124:
                             zuuluu = tangon.addEventListener;
                             michal = 'click';
                             entity = function() {
@@ -1247,7 +1247,7 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 return entity;
                             };
                             entity = zuuluu.bind(tangon)(michal, entity);
- 147:
+ 145:
                             entity = undefined;
                             return entity;
                         }
@@ -1306,15 +1306,15 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             michal = 'worker';
                             report = 'undefined';
                             golfie = typeof golfie;
-                            if(!(report === golfie)) { _fun00038_ip = 108; continue _fun00037 }
- 88:
+                            if(!(report === golfie)) { _fun00038_ip = 106; continue _fun00037 }
+ 86:
                             tangon = tangon.AudioWorkletProcessor;
                             tangon = typeof tangon;
                             michal = oscard;
-                            if(!(report !== tangon)) { _fun00038_ip = 108; continue _fun00037 }
- 104:
+                            if(!(report !== tangon)) { _fun00038_ip = 106; continue _fun00037 }
+ 102:
                             michal = 'worklet';
- 108:
+ 106:
                             zuuluu['threadName'] = michal;
                             return entity;
                         }
@@ -1555,7 +1555,7 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     michal = entity.data;
                                     zuuluu = 'string';
                                     michal = typeof michal;
-                                    if(!(zuuluu !== michal)) { _fun00052_ip = 188; continue _fun00051 }
+                                    if(!(zuuluu !== michal)) { _fun00052_ip = 184; continue _fun00051 }
  22:
                                     zuuluu = _closure5_slot1;
                                     zuuluu = zuuluu.recorder;
@@ -1570,7 +1570,7 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     tangon = zuuluu.event;
  60:
                                     zuuluu = 'LOG_INPUT_AUDIO';
-                                    if(!(zuuluu !== tangon)) { _fun00052_ip = 153; continue _fun00051 }
+                                    if(!(zuuluu !== tangon)) { _fun00052_ip = 151; continue _fun00051 }
  70:
                                     zuuluu = _closure5_slot1;
                                     zuuluu = zuuluu.recorder;
@@ -1587,7 +1587,7 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     tangon = 'LOG_OUTPUT_AUDIO';
                                     zuuluu = tangon === report;
  115:
-                                    if(!zuuluu) { _fun00052_ip = 216; continue _fun00051 }
+                                    if(!zuuluu) { _fun00052_ip = 212; continue _fun00051 }
  118:
                                     zuuluu = _closure5_slot1;
                                     report = zuuluu.recorder;
@@ -1595,22 +1595,22 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     zuuluu = entity.data;
                                     zuuluu = zuuluu.data;
                                     zuuluu = tangon.bind(report)(zuuluu);
-                                    _fun00052_ip = 216; continue _fun00051;
- 153:
+                                    _fun00052_ip = 212; continue _fun00051;
+ 151:
                                     michal = _closure5_slot1;
                                     tangon = michal.recorder;
                                     zuuluu = tangon.pushInput;
                                     michal = entity.data;
                                     michal = michal.data;
                                     michal = zuuluu.bind(tangon)(michal);
-                                    _fun00052_ip = 216; continue _fun00051;
- 188:
+                                    _fun00052_ip = 212; continue _fun00051;
+ 184:
                                     michal = _closure5_slot0;
                                     zuuluu = michal.logs;
                                     entity = entity.data;
                                     entity = zuuluu + entity;
                                     michal['logs'] = entity;
- 216:
+ 212:
                                     entity = undefined;
                                     return entity;
                                 }
@@ -1640,7 +1640,7 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 StartGenerator();
                                 michal = this;
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                                if(zuuluu) { _fun00054_ip = 476; continue _fun00053 }
+                                if(zuuluu) { _fun00054_ip = 474; continue _fun00053 }
  13:
                                 report = undefined;
                                 tangon = undefined;
@@ -1681,25 +1681,25 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     golfie = _closure3_slot0;
                                     golfie = golfie.blobToBase64;
                                     golfie = golfie.bind(report)(option);
-                                    SaveGenerator(address=188);
- 186:
+                                    SaveGenerator(address=186);
+ 184:
                                     return golfie;
- 188:
+ 186:
                                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                                    if(option) { _fun00054_ip = 286; continue _fun00053 }
- 194:
+                                    if(option) { _fun00054_ip = 284; continue _fun00053 }
+ 192:
                                     config = echoed;
                                     option = _closure3_slot0;
                                     ctrled = option.blobToBase64;
                                     option = source;
                                     option = ctrled.bind(report)(option);
-                                    SaveGenerator(address=219);
- 217:
+                                    SaveGenerator(address=217);
+ 215:
                                     return option;
- 219:
+ 217:
                                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=21);
-                                    if(ctrled) { _fun00054_ip = 283; continue _fun00053 }
- 225:
+                                    if(ctrled) { _fun00054_ip = 281; continue _fun00053 }
+ 223:
                                     ctrled = oscard.HermesInternal;
                                     ctrled = ctrled.concat;
                                     variable38 = foxtra;
@@ -1716,12 +1716,12 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     ctrled = variable38[ctrled](variable37, variable36, quebec, equals, whisks, limora, sierra, status, target, papara, cntext);
                                     ctrled = vacuum.bind(sequen)(ctrled);
                                     _fun00054_ip = 79; continue _fun00053;
- 283: // try_end0
+ 281: // try_end0
                                     return option;
- 286:
+ 284:
                                     return golfie;
                                 }
- 289: // try_start_1
+ 287: // try_start_1
                                 variable37 = tangon;
                                 quebec = michal.logs;
                                 michal = oscard.HermesInternal;
@@ -1759,14 +1759,14 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 michal = new variable38[option](variable37, variable36, quebec);
                                 michal = michal instanceof Object ? michal : oscard;
                                 michal = tangon.bind(report)(zuuluu, michal);
- 464: // try_end1
+ 462: // try_end1
                                 michal = true;
                                 return michal;
- 469: // catch_target0 // catch_target1
+ 467: // catch_target0 // catch_target1
                                 CatchBlockStart(arg_register=1);
                                 michal = false;
                                 return michal;
- 476:
+ 474:
                                 return entity;
                             }
                         };
@@ -2591,7 +2591,7 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                                 michal = entity.length;
                                                 tangon = 0;
                                                 zuuluu = tangon < michal;
-                                                if(!zuuluu) { _fun00080_ip = 69; continue _fun00079 }
+                                                if(!zuuluu) { _fun00080_ip = 67; continue _fun00079 }
  20:
                                                 golfie = _closure6_slot0;
                                                 oscard = golfie.setUint8;
@@ -2603,7 +2603,7 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                                 tangon = tangon + 1;
                                                 zuuluu = entity.length;
                                                 if(tangon < zuuluu) { _fun00080_ip = 20; continue _fun00079 }
- 69:
+ 67:
                                                 zuuluu = _closure6_slot1;
                                                 entity = entity.length;
                                                 entity = zuuluu + entity;
@@ -2948,10 +2948,10 @@ module.exports = (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = _closure3_slot1;
                         report = tangon.SharedRingBuffer;
                         michal = michal.channelCount;
-                        if(michal) { _fun00086_ip = 125; continue _fun00085 }
- 122:
+                        if(michal) { _fun00086_ip = 123; continue _fun00085 }
+ 120:
                         michal = 1;
- 125:
+ 123:
                         tangon = report.prototype;
                         tangon = Object.create(tangon, {constructor: {value: report}});
                         offset = tangon;

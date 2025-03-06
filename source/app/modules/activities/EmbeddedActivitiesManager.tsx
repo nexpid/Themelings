@@ -414,7 +414,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00020_ip = 742; continue _fun00019 }
+                    if(zuuluu) { _fun00020_ip = 707; continue _fun00019 }
  13:
                     oscard = michal.applicationId;
                     romeon = michal.location;
@@ -425,7 +425,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return tangon;
  35:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00020_ip = 739; continue _fun00019 }
+                    if(zuuluu) { _fun00020_ip = 704; continue _fun00019 }
  44:
                     option = _closure1_slot19;
                     golfie = option.getEmbeddedActivityDurationMs;
@@ -468,7 +468,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  193:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(golfie) { _fun00020_ip = 736; continue _fun00019 }
+                    if(golfie) { _fun00020_ip = 701; continue _fun00019 }
  202:
                     golfie = _closure1_slot27;
                     foxtra = golfie[oscard];
@@ -485,11 +485,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = _closure1_slot15;
                     golfie = option.getCurrentUser;
                     update = golfie.bind(option)();
-                    if(!(kiloes != foxtra)) { _fun00020_ip = 733; continue _fun00019 }
+                    if(!(kiloes != foxtra)) { _fun00020_ip = 698; continue _fun00019 }
  275:
-                    if(!(kiloes != sizing)) { _fun00020_ip = 733; continue _fun00019 }
+                    if(!(kiloes != sizing)) { _fun00020_ip = 698; continue _fun00019 }
  282:
-                    if(!(kiloes != update)) { _fun00020_ip = 733; continue _fun00019 }
+                    if(!(kiloes != update)) { _fun00020_ip = 698; continue _fun00019 }
  289:
                     golfie = sizing.getGuildId;
                     backup = golfie.bind(sizing)();
@@ -539,25 +539,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     result = undefined;
                     if(update) { _fun00020_ip = 518; continue _fun00019 }
  497:
-                    update = echoed.activity;
-                    source = kiloes == update;
-                    result = undefined;
-                    if(source) { _fun00020_ip = 518; continue _fun00019 }
- 512:
-                    result = update.premium_tier_requirement;
- 518:
-                    golfie['activity_premium_tier_requirement'] = result;
-                    update = kiloes == echoed;
-                    result = undefined;
-                    if(update) { _fun00020_ip = 553; continue _fun00019 }
- 532:
                     echoed = echoed.activity;
                     update = kiloes == echoed;
                     result = undefined;
-                    if(update) { _fun00020_ip = 553; continue _fun00019 }
- 547:
+                    if(update) { _fun00020_ip = 518; continue _fun00019 }
+ 512:
                     result = echoed.shelf_rank;
- 553:
+ 518:
                     golfie['shelf_rank'] = result;
                     result = foxtra.activityUserSessionId;
                     golfie['activity_user_session_id'] = result;
@@ -581,13 +569,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     backup = foxtra.launchId;
                     kiloes = kiloes != backup;
                     backup = undefined;
-                    if(!kiloes) { _fun00020_ip = 680; continue _fun00019 }
- 663:
+                    if(!kiloes) { _fun00020_ip = 645; continue _fun00019 }
+ 628:
                     sizing = foxtra.launchId;
                     kiloes = new Array(1);
                     kiloes[0] = sizing;
                     backup = kiloes;
- 680:
+ 645:
                     golfie['instance_ids'] = backup;
                     backup = foxtra.mediaSessionIds;
                     golfie['media_session_ids'] = backup;
@@ -598,13 +586,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = verify.bind(offset)(option, golfie);
                     report = _closure1_slot27;
                     report = delete report[oscard];
- 733:
+ 698:
                     return tangon;
- 736:
+ 701:
                     return zuuluu;
- 739:
+ 704:
                     return michal;
- 742:
+ 707:
                     return entity;
                 }
             };
@@ -691,7 +679,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = golfie.bind(option)(oscard, tangon);
  214:
             golfie = null;
-            if(!(golfie != report)) { _fun00022_ip = 1192; continue _fun00021 }
+            if(!(golfie != report)) { _fun00022_ip = 1157; continue _fun00021 }
  223:
             oscard = _closure1_slot13;
             tangon = oscard.getMediaSessionId;
@@ -722,9 +710,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = false;
             tangon = oscard === option;
  303:
-            if(!(golfie != sequen)) { _fun00022_ip = 1192; continue _fun00021 }
+            if(!(golfie != sequen)) { _fun00022_ip = 1157; continue _fun00021 }
  310:
-            if(tangon) { _fun00022_ip = 1192; continue _fun00021 }
+            if(tangon) { _fun00022_ip = 1157; continue _fun00021 }
  316:
             oscard = _closure1_slot0;
             option = _closure1_slot2;
@@ -751,9 +739,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = _closure1_slot15;
             option = verify.getCurrentUser;
             verify = option.bind(verify)();
-            if(!(golfie != echoed)) { _fun00022_ip = 1192; continue _fun00021 }
+            if(!(golfie != echoed)) { _fun00022_ip = 1157; continue _fun00021 }
  405:
-            if(!(golfie != verify)) { _fun00022_ip = 1192; continue _fun00021 }
+            if(!(golfie != verify)) { _fun00022_ip = 1157; continue _fun00021 }
  412:
             yankee = _closure1_slot19;
             option = yankee.getShelfActivities;
@@ -876,37 +864,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = undefined;
             if(sequen) { _fun00022_ip = 866; continue _fun00021 }
  860:
-            zuuluu = verify.premium_tier_requirement;
- 866:
-            tangon['activity_premium_tier_requirement'] = zuuluu;
-            verify = golfie == yankee;
-            zuuluu = undefined;
-            if(verify) { _fun00022_ip = 901; continue _fun00021 }
- 880:
-            verify = yankee.activity;
-            sequen = golfie == verify;
-            zuuluu = undefined;
-            if(sequen) { _fun00022_ip = 901; continue _fun00021 }
- 895:
             zuuluu = verify.shelf_rank;
- 901:
+ 866:
             tangon['shelf_rank'] = zuuluu;
             verify = option > backup;
             zuuluu = null;
-            if(!verify) { _fun00022_ip = 918; continue _fun00021 }
- 915:
+            if(!verify) { _fun00022_ip = 883; continue _fun00021 }
+ 880:
             zuuluu = option;
- 918:
+ 883:
             tangon['shelf_sorted_rank'] = zuuluu;
             tangon['activity_user_session_id'] = foxtra;
             zuuluu = echoed.type;
             tangon['channel_type'] = zuuluu;
             sequen = golfie == update;
             zuuluu = undefined;
-            if(sequen) { _fun00022_ip = 952; continue _fun00021 }
- 947:
+            if(sequen) { _fun00022_ip = 917; continue _fun00021 }
+ 912:
             zuuluu = update.source;
- 952:
+ 917:
             tangon['source'] = zuuluu;
             config = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -927,10 +903,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = {};
             source = golfie == update;
             result = undefined;
-            if(source) { _fun00022_ip = 1051; continue _fun00021 }
- 1045:
+            if(source) { _fun00022_ip = 1016; continue _fun00021 }
+ 1010:
             result = update.locations;
- 1051:
+ 1016:
             michal['location_stack'] = result;
             result = echoed.id;
             michal['channel_id'] = result;
@@ -949,25 +925,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['is_activity_start'] = offset;
             romeon = golfie == yankee;
             offset = undefined;
-            if(romeon) { _fun00022_ip = 1161; continue _fun00021 }
- 1140:
+            if(romeon) { _fun00022_ip = 1126; continue _fun00021 }
+ 1105:
             yankee = yankee.activity;
             romeon = golfie == yankee;
             offset = undefined;
-            if(romeon) { _fun00022_ip = 1161; continue _fun00021 }
- 1155:
+            if(romeon) { _fun00022_ip = 1126; continue _fun00021 }
+ 1120:
             offset = yankee.shelf_rank;
- 1161:
+ 1126:
             michal['shelf_rank'] = offset;
             golfie = null;
-            if(!verify) { _fun00022_ip = 1174; continue _fun00021 }
- 1171:
+            if(!verify) { _fun00022_ip = 1139; continue _fun00021 }
+ 1136:
             golfie = option;
- 1174:
+ 1139:
             michal['shelf_sorted_rank'] = golfie;
             michal['activities_infra_version'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
- 1192:
+ 1157:
             return entity;
         }
     };

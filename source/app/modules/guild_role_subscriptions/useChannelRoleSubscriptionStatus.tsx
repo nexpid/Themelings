@@ -29,23 +29,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argFoo;
             oscard = michal.bind(zuuluu)(entity);
             entity = null;
-            if(!(entity != oscard)) { _fun00002_ip = 76; continue _fun00001 }
+            if(!(entity != oscard)) { _fun00002_ip = 78; continue _fun00001 }
  63:
             michal = oscard.isRoleSubscriptionTemplatePreviewChannel;
             michal = michal.bind(oscard)();
-            if(michal) { _fun00002_ip = 191; continue _fun00001 }
- 76:
-            if(!(entity != oscard)) { _fun00002_ip = 105; continue _fun00001 }
- 80:
+            if(michal) { _fun00002_ip = 193; continue _fun00001 }
+ 78:
+            if(!(entity != oscard)) { _fun00002_ip = 107; continue _fun00001 }
+ 82:
             zuuluu = tangon.isChannelGated;
             michal = oscard.guild_id;
             entity = oscard.id;
             entity = zuuluu.bind(tangon)(michal, entity);
-            if(entity) { _fun00002_ip = 114; continue _fun00001 }
- 105:
+            if(entity) { _fun00002_ip = 116; continue _fun00001 }
+ 107:
             entity = _closure1_slot6;
-            _fun00002_ip = 189; continue _fun00001;
- 114:
+            _fun00002_ip = 191; continue _fun00001;
+ 116:
             michal = {};
             zuuluu = true;
             michal['isSubscriptionGated'] = zuuluu;
@@ -53,24 +53,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.bind(oscard)();
             report = golfie.can;
             tangon = _closure1_slot5;
-            if(zuuluu) { _fun00002_ip = 166; continue _fun00001 }
- 149:
+            if(zuuluu) { _fun00002_ip = 168; continue _fun00001 }
+ 151:
             zuuluu = tangon.VIEW_CHANNEL;
             zuuluu = report.bind(golfie)(zuuluu, oscard);
             zuuluu = !zuuluu;
-            _fun00002_ip = 181; continue _fun00001;
- 166:
+            _fun00002_ip = 183; continue _fun00001;
+ 168:
             tangon = tangon.CONNECT;
             tangon = report.bind(golfie)(tangon, oscard);
             zuuluu = !tangon;
- 181:
+ 183:
             michal['needSubscriptionToAccess'] = zuuluu;
             entity = michal;
- 189:
-            _fun00002_ip = 201; continue _fun00001;
  191:
+            _fun00002_ip = 203; continue _fun00001;
+ 193:
             entity = {'isSubscriptionGated': true, 'needSubscriptionToAccess': true};
- 201:
+ 203:
             return entity;
         }
     };

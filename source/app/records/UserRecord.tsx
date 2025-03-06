@@ -1217,16 +1217,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  28:
                 michal = entity == zuuluu;
                 entity = null;
-                if(michal) { _fun00044_ip = 119; continue _fun00043 }
+                if(michal) { _fun00044_ip = 142; continue _fun00043 }
  37:
                 michal = {};
-                tangon = zuuluu.asset;
-                michal['src'] = tangon;
-                tangon = zuuluu.asset;
-                michal['animatedSrc'] = tangon;
                 report = _closure1_slot0;
                 golfie = _closure1_slot3;
                 tangon = 16;
+                tangon = golfie[tangon];
+                verify = report.bind(oscard)(tangon);
+                option = verify.getNameplateSource;
+                tangon = zuuluu.asset;
+                tangon = option.bind(verify)(tangon);
+                michal['src'] = tangon;
+                tangon = zuuluu.asset;
+                michal['animatedSrc'] = tangon;
+                tangon = 17;
                 tangon = golfie[tangon];
                 oscard = report.bind(oscard)(tangon);
                 report = oscard.getNameplatePalette;
@@ -1236,7 +1241,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = zuuluu.label;
                 michal['imgAlt'] = zuuluu;
                 entity = michal;
- 119:
+ 142:
                 return entity;
             }
         };
@@ -1255,7 +1260,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     romeon = michal;
     michal = new foxtra[tangon](romeon, yankee);
     michal = michal instanceof Object ? michal : report;
-    report = 17;
+    report = 18;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

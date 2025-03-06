@@ -1157,7 +1157,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = zuuluu.bind(tangon)(michal);
                 michal = yankee.props;
                 zuuluu = michal.nsfwAgree;
-                offset = michal.channel;
+                verify = michal.channel;
                 michal = null;
                 if(!(michal != zuuluu)) { _fun00036_ip = 53; continue _fun00035 }
  44:
@@ -1200,7 +1200,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = 40;
                 option = output[option];
                 option = sizing.bind(tangon)(option);
-                verify = option.PressableOpacity;
+                offset = option.PressableOpacity;
                 option = {};
                 romeon = 'button';
                 option['accessibilityRole'] = romeon;
@@ -1228,25 +1228,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 yankee['children'] = foxtra;
                 yankee = golfie.bind(tangon)(romeon, yankee);
                 option['children'] = yankee;
-                option = golfie.bind(tangon)(verify, option);
+                option = golfie.bind(tangon)(offset, option);
                 michal['children'] = option;
                 oscard = golfie.bind(tangon)(oscard, michal);
                 golfie = zuuluu;
-                _fun00036_ip = 426; continue _fun00035;
+                _fun00036_ip = 435; continue _fun00035;
  378:
                 option = _closure1_slot23;
                 zuuluu = _closure1_slot1;
-                verify = _closure1_slot3;
+                offset = _closure1_slot3;
                 michal = 37;
-                michal = verify[michal];
+                michal = offset[michal];
                 zuuluu = zuuluu.bind(tangon)(michal);
                 michal = {};
-                verify = offset.getGuildId;
-                verify = verify.bind(offset)();
-                michal['guildId'] = verify;
+                offset = verify.getGuildId;
+                offset = offset.bind(verify)();
+                michal['guildId'] = offset;
+                verify = verify.id;
+                michal['channelId'] = verify;
                 golfie = option.bind(tangon)(zuuluu, michal);
                 oscard = undefined;
- 426:
+ 435:
                 zuuluu = _closure1_slot24;
                 michal = _closure1_slot10;
                 entity = {};

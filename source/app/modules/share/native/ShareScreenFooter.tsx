@@ -72,10 +72,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = !echoed;
             golfie['disabled'] = echoed;
             echoed = undefined;
-            if(result) { _fun00002_ip = 190; continue _fun00001 }
- 187:
+            if(result) { _fun00002_ip = 194; continue _fun00001 }
+ 191:
             echoed = verify;
- 190:
+ 194:
             golfie['onPress'] = echoed;
             golfie['loading'] = result;
             golfie = zuuluu.bind(tangon)(option, golfie);

@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(michal) { _fun00002_ip = 66; continue _fun00001 }
  37:
             michal = _closure1_slot3;
-            michal = michal.AppDatabase;
+            michal = michal.DCDAppDatabase;
             tangon = michal.userId;
             michal = null;
             report = michal != tangon;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(zuuluu) { _fun00004_ip = 63; continue _fun00003 }
  40:
             zuuluu = _closure1_slot3;
-            report = zuuluu.AppDatabase;
+            report = zuuluu.DCDAppDatabase;
             zuuluu = report.setUserId;
             zuuluu = zuuluu.bind(report)(tangon);
             _fun00004_ip = 94; continue _fun00003;

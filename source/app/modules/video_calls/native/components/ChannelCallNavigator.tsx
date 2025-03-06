@@ -687,7 +687,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = verify;
             report = zuuluu.bind(tangon)(michal, entity);
  466:
-            _fun00012_ip = 532; continue _fun00011;
+            _fun00012_ip = 541; continue _fun00011;
  468:
             zuuluu = _closure1_slot16;
             offset = _closure1_slot1;
@@ -701,10 +701,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = offset.bind(tangon)(verify);
             verify = verify.pop;
             entity['onReturnToSafety'] = verify;
-            option = option.guild_id;
-            entity['guildId'] = option;
+            verify = option.guild_id;
+            entity['guildId'] = verify;
+            option = option.id;
+            entity['channelId'] = option;
             report = zuuluu.bind(tangon)(michal, entity);
- 532:
+ 541:
             zuuluu = _closure1_slot16;
             michal = _closure1_slot1;
             verify = _closure1_slot2;
@@ -718,10 +720,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.bind(tangon)(golfie);
             golfie = option.isAndroid;
             golfie = golfie.bind(option)();
-            if(golfie) { _fun00012_ip = 589; continue _fun00011 }
- 586:
+            if(golfie) { _fun00012_ip = 598; continue _fun00011 }
+ 595:
             golfie = !oscard;
- 589:
+ 598:
             entity['forceHide'] = golfie;
             oscard = !oscard;
             entity['showWhenParticipantOnScreen'] = oscard;

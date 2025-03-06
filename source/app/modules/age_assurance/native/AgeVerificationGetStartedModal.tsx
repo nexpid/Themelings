@@ -87,6 +87,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = function(argFoo, argBar) { // Original name: getScreens
                 entity = argBar;
                 var _closure4_slot0 = entity;
+                golfie = function() { // Original name: closeModal
+                    zuuluu = _closure1_slot1;
+                    michal = _closure1_slot2;
+                    entity = 4;
+                    michal = michal[entity];
+                    entity = undefined;
+                    michal = zuuluu.bind(entity)(michal);
+                    entity = michal.pop;
+                    entity = entity.bind(michal)();
+                    return entity;
+                };
+                var _closure4_slot1 = golfie;
                 entity = {};
                 michal = _closure1_slot6;
                 zuuluu = michal.INTRO;
@@ -99,25 +111,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 michal['headerTitle'] = oscard;
-                golfie = _closure1_slot0;
+                option = _closure1_slot0;
                 oscard = _closure1_slot2;
-                report = 4;
+                report = 5;
                 oscard = oscard[report];
                 report = undefined;
-                golfie = golfie.bind(report)(oscard);
-                oscard = golfie.getHeaderCloseButton;
-                report = function() {
-                    zuuluu = _closure1_slot1;
-                    michal = _closure1_slot2;
-                    entity = 5;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = zuuluu.bind(entity)(michal);
-                    entity = michal.pop;
-                    entity = entity.bind(michal)();
-                    return entity;
-                };
-                report = oscard.bind(golfie)(report);
+                oscard = option.bind(report)(oscard);
+                report = oscard.getHeaderCloseButton;
+                report = report.bind(oscard)(golfie);
                 michal['headerLeft'] = report;
                 tangon = function() { // Original name: render
                     tangon = _closure1_slot4;
@@ -128,6 +129,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = undefined;
                     michal = michal.bind(zuuluu)(entity);
                     entity = {};
+                    oscard = _closure4_slot1;
+                    entity['onClose'] = oscard;
                     report = _closure4_slot0;
                     entity['modalSessionId'] = report;
                     entity = tangon.bind(zuuluu)(michal, entity);

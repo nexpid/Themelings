@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             michal = argFoo;
             entity = null;
-            if(!(michal != entity)) { _fun00002_ip = 427; continue _fun00001 }
+            if(!(michal != entity)) { _fun00002_ip = 423; continue _fun00001 }
  12:
             entity = _closure1_slot6;
             report = undefined;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = oscard[michal];
                 michal = report.bind(entity)(michal);
                 michal = michal.AgeVerificationModalEntryPoint;
-                michal = michal.NSFW_CHANNEL;
+                michal = michal.NSFW_AGE_GATE;
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, entity);
             return entity;
- 427:
+ 423:
             echoed = "Cannot destructure 'undefined' or 'null'.";
             update = michal;
             entity = throwTypeError(update, echoed);

@@ -282,7 +282,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             oscard = michal.bind(zuuluu)(entity);
-            if(!(variable36 !== oscard)) { _fun00008_ip = 1839; continue _fun00007 }
+            if(!(variable36 !== oscard)) { _fun00008_ip = 1835; continue _fun00007 }
  211:
             zuuluu = new Array(0);
             entity = result.length;
@@ -467,22 +467,22 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             offset = undefined;
             option = undefined;
             report = undefined;
-            if(!entity) { _fun00008_ip = 1737; continue _fun00007 }
- 939:
+            if(!entity) { _fun00008_ip = 1735; continue _fun00007 }
+ 937:
             variable50 = variable38[yankee];
             entity = variable50.codecId;
             variable47 = variable39[entity];
             variable44 = option;
             variable43 = report;
-            if(!(verify != variable47)) { _fun00008_ip = 1716; continue _fun00007 }
- 966:
+            if(!(verify != variable47)) { _fun00008_ip = 1714; continue _fun00007 }
+ 964:
             entity = variable50.ssrc;
             variable46 = variable42.bind(variable36)(entity);
             variable44 = option;
             variable43 = report;
             offset = variable46;
-            if(!(verify != offset)) { _fun00008_ip = 1716; continue _fun00007 }
- 993:
+            if(!(verify != offset)) { _fun00008_ip = 1714; continue _fun00007 }
+ 991:
             variable45 = {};
             entity = variable50.kind;
             variable45['type'] = entity;
@@ -530,31 +530,31 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity = variable50.packetsLost;
             variable45['packetsLost'] = entity;
             entity = variable50.kind;
-            if(!(equals !== entity)) { _fun00008_ip = 1574; continue _fun00007 }
- 1241:
+            if(!(equals !== entity)) { _fun00008_ip = 1572; continue _fun00007 }
+ 1239:
             entity = variable50.kind;
             offset = variable46;
             variable44 = variable45;
             variable43 = report;
-            if(!(limora === entity)) { _fun00008_ip = 1716; continue _fun00007 }
- 1262:
+            if(!(limora === entity)) { _fun00008_ip = 1714; continue _fun00007 }
+ 1260:
             entity = tangon[variable46];
-            if(!(verify == entity)) { _fun00008_ip = 1278; continue _fun00007 }
- 1270:
+            if(!(verify == entity)) { _fun00008_ip = 1276; continue _fun00007 }
+ 1268:
             entity = new Array(0);
             tangon[variable46] = entity;
- 1278:
+ 1276:
             entity = variable50.frameWidth;
             variable49 = undefined;
-            if(!(verify !== entity)) { _fun00008_ip = 1315; continue _fun00007 }
- 1290:
+            if(!(verify !== entity)) { _fun00008_ip = 1313; continue _fun00007 }
+ 1288:
             entity = {};
             variable47 = variable50.frameWidth;
             entity['width'] = variable47;
             variable47 = variable50.frameHeight;
             entity['height'] = variable47;
             variable49 = entity;
- 1315:
+ 1313:
             variable48 = tangon[variable46];
             variable47 = variable48.push;
             entity = {};
@@ -575,20 +575,20 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             variable49 = variable50.framesDecoded;
             variable51 = verify == variable49;
             variable49 = undefined;
-            if(variable51) { _fun00008_ip = 1457; continue _fun00007 }
- 1411:
+            if(variable51) { _fun00008_ip = 1455; continue _fun00007 }
+ 1409:
             variable51 = variable50.totalDecodeTime;
             variable51 = verify == variable51;
             variable49 = undefined;
-            if(variable51) { _fun00008_ip = 1457; continue _fun00007 }
- 1426:
+            if(variable51) { _fun00008_ip = 1455; continue _fun00007 }
+ 1424:
             variable51 = variable50.totalDecodeTime;
             variable52 = michal * variable51;
             variable51 = variable50.framesDecoded;
             variable52 = variable52 / variable51;
             variable51 = variable52.toFixed;
             variable49 = variable51.bind(variable52)(sierra);
- 1457:
+ 1455:
             entity[vacuum] = variable49;
             variable49 = variable50.firCount;
             entity[status] = variable49;
@@ -611,16 +611,16 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             offset = variable46;
             variable44 = variable45;
             variable43 = report;
-            _fun00008_ip = 1716; continue _fun00007;
- 1574:
+            _fun00008_ip = 1714; continue _fun00007;
+ 1572:
             variable47 = variable50.jitterBufferDelay;
             entity = 0;
-            if(!(variable36 !== variable47)) { _fun00008_ip = 1634; continue _fun00007 }
- 1586:
+            if(!(variable36 !== variable47)) { _fun00008_ip = 1632; continue _fun00007 }
+ 1584:
             variable47 = variable50.jitterBufferEmittedCount;
             entity = 0;
-            if(!(variable36 !== variable47)) { _fun00008_ip = 1634; continue _fun00007 }
- 1598:
+            if(!(variable36 !== variable47)) { _fun00008_ip = 1632; continue _fun00007 }
+ 1596:
             variable49 = quebec.Math;
             variable48 = variable49.round;
             variable47 = variable50.jitterBufferDelay;
@@ -628,13 +628,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             variable47 = variable50.jitterBufferEmittedCount;
             variable47 = variable51 / variable47;
             entity = variable48.bind(variable49)(variable47);
- 1634:
+ 1632:
             variable47 = tangon[variable46];
-            if(!(verify == variable47)) { _fun00008_ip = 1650; continue _fun00007 }
- 1642:
+            if(!(verify == variable47)) { _fun00008_ip = 1648; continue _fun00007 }
+ 1640:
             variable47 = new Array(0);
             tangon[variable46] = variable47;
- 1650:
+ 1648:
             variable49 = tangon[variable46];
             variable48 = variable49.push;
             variable47 = {};
@@ -651,30 +651,30 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             offset = variable46;
             variable44 = variable45;
             variable43 = entity;
- 1716:
+ 1714:
             yankee = yankee + 1;
             entity = variable38.length;
             option = variable44;
             report = variable43;
-            if(yankee < entity) { _fun00008_ip = 939; continue _fun00007 }
- 1737:
+            if(yankee < entity) { _fun00008_ip = 937; continue _fun00007 }
+ 1735:
             report = oscard.currentRoundTripTime;
             option = verify != report;
             entity = 0;
-            if(!option) { _fun00008_ip = 1757; continue _fun00007 }
- 1754:
+            if(!option) { _fun00008_ip = 1753; continue _fun00007 }
+ 1750:
             entity = report;
- 1757:
+ 1753:
             report = michal * entity;
             entity = {};
             michal = {};
             option = oscard.availableOutgoingBitrate;
             verify = verify != option;
             golfie = 0;
-            if(!verify) { _fun00008_ip = 1783; continue _fun00007 }
- 1780:
+            if(!verify) { _fun00008_ip = 1779; continue _fun00007 }
+ 1776:
             golfie = option;
- 1783:
+ 1779:
             michal['availableOutgoingBitrate'] = golfie;
             golfie = oscard.bytesReceived;
             michal['bytesReceived'] = golfie;
@@ -687,7 +687,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal['outbound'] = zuuluu;
             entity['rtp'] = michal;
             return entity;
- 1839:
+ 1835:
             entity = null;
             return entity;
         }

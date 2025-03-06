@@ -333,7 +333,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = zuuluu;
  87:
             zuuluu = michal.properties;
-            if(!(entity != zuuluu)) { _fun00008_ip = 937; continue _fun00007 }
+            if(!(entity != zuuluu)) { _fun00008_ip = 954; continue _fun00007 }
  100:
             verify = {};
             zuuluu = michal.id;
@@ -509,15 +509,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.properties;
             zuuluu = zuuluu.latest_onboarding_question_id;
             verify['latestOnboardingQuestionId'] = zuuluu;
+            zuuluu = michal.properties;
+            zuuluu = zuuluu.profile;
+            verify['profile'] = zuuluu;
             michal = michal.properties;
-            michal = michal.profile;
-            verify['profile'] = michal;
-            if(!(entity != tangon)) { _fun00008_ip = 894; continue _fun00007 }
- 881:
+            michal = michal.premium_features;
+            verify['premiumFeatures'] = michal;
+            if(!(entity != tangon)) { _fun00008_ip = 911; continue _fun00007 }
+ 898:
             michal = tangon.merge;
             michal = michal.bind(tangon)(verify);
-            _fun00008_ip = 935; continue _fun00007;
- 894:
+            _fun00008_ip = 952; continue _fun00007;
+ 911:
             offset = _closure1_slot0;
             option = _closure1_slot2;
             golfie = 3;
@@ -527,9 +530,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.dangerouslyCast;
             zuuluu = _closure1_slot3;
             michal = golfie.bind(option)(verify, zuuluu);
- 935:
+ 952:
             return michal;
- 937:
+ 954:
             zuuluu = _closure1_slot1;
             golfie = _closure1_slot2;
             michal = 2;
@@ -544,34 +547,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.Date;
             michal = zuuluu instanceof michal;
             golfie = tangon.joinedAt;
-            if(michal) { _fun00008_ip = 1010; continue _fun00007 }
- 1005:
+            if(michal) { _fun00008_ip = 1027; continue _fun00007 }
+ 1022:
             zuuluu = golfie;
-            _fun00008_ip = 1020; continue _fun00007;
- 1010:
+            _fun00008_ip = 1037; continue _fun00007;
+ 1027:
             michal = golfie.getTime;
             zuuluu = michal.bind(golfie)();
- 1020:
+ 1037:
             entity = entity.Date;
             entity = oscard instanceof entity;
             michal = oscard;
-            if(!entity) { _fun00008_ip = 1046; continue _fun00007 }
- 1036:
+            if(!entity) { _fun00008_ip = 1063; continue _fun00007 }
+ 1053:
             entity = oscard.getTime;
             michal = entity.bind(oscard)();
- 1046:
-            entity = tangon.premiumSubscriberCount;
-            if(!(report === entity)) { _fun00008_ip = 1063; continue _fun00007 }
- 1056:
-            entity = tangon;
-            if(!(zuuluu !== michal)) { _fun00008_ip = 1086; continue _fun00007 }
  1063:
+            entity = tangon.premiumSubscriberCount;
+            if(!(report === entity)) { _fun00008_ip = 1080; continue _fun00007 }
+ 1073:
+            entity = tangon;
+            if(!(zuuluu !== michal)) { _fun00008_ip = 1103; continue _fun00007 }
+ 1080:
             zuuluu = tangon.merge;
             michal = {};
             michal['joinedAt'] = oscard;
             michal['premiumSubscriberCount'] = report;
             entity = zuuluu.bind(tangon)(michal);
- 1086:
+ 1103:
             return entity;
         }
     };

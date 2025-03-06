@@ -407,8 +407,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = sizing.isThemeDark;
             kiloes = kiloes.bind(sizing)(output);
             sizing = '#515359';
-            if(kiloes) { _fun00002_ip = 792; continue _fun00001 }
- 761:
+            if(kiloes) { _fun00002_ip = 796; continue _fun00001 }
+ 765:
             output = _closure1_slot1;
             result = _closure1_slot2;
             kiloes = 15;
@@ -416,7 +416,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = output.bind(tangon)(kiloes);
             kiloes = kiloes.unsafe_rawColors;
             sizing = kiloes.PRIMARY_160;
- 792:
+ 796:
             kiloes = new Array(2);
             kiloes[0] = sizing;
             sizing = '#AB77F2';

@@ -779,6 +779,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['USER_SETTINGS_SOUNDBOARD_TAB'] = entity;
     entity = 'user settings debug tab';
     michal['USER_SETTINGS_DEBUG_TAB'] = entity;
+    entity = 'user settings nameplate modal';
+    michal['USER_SETTINGS_NAMEPLATE_MODAL'] = entity;
     entity = 'deeplink';
     michal['DEEPLINK'] = entity;
     entity = 'holiday coachmark';

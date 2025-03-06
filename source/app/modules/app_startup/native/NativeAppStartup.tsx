@@ -660,8 +660,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot9;
             oscard = zuuluu.Hosts;
             zuuluu = null;
-            if(!(zuuluu != oscard)) { _fun00010_ip = 460; continue _fun00009 }
- 329:
+            if(!(zuuluu != oscard)) { _fun00010_ip = 458; continue _fun00009 }
+ 327:
             zuuluu = _closure1_slot9;
             option = zuuluu.Hosts;
             golfie = option.setHosts;
@@ -685,7 +685,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = '//';
             zuuluu = verify.bind(romeon)(yankee, zuuluu, offset);
             zuuluu = golfie.bind(option)(oscard, zuuluu);
- 460:
+ 458:
             zuuluu = false;
             var _closure2_slot0 = zuuluu;
             zuuluu = new Array(0);

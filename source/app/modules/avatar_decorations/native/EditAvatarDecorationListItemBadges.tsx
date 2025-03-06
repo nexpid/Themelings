@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = zuuluu.bind(report)(golfie, tangon);
             entity['children'] = tangon;
             entity = zuuluu.bind(report)(michal, entity);
-            _fun00002_ip = 408; continue _fun00001;
+            _fun00002_ip = 404; continue _fun00001;
  156:
             tangon = _closure1_slot6;
             yankee = _closure1_slot1;
@@ -246,7 +246,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 408:
+ 404:
             return entity;
         }
     };

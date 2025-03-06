@@ -1823,7 +1823,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(entity)(tangon);
             report = tangon.author;
             zuuluu = null;
-            if(!(zuuluu != report)) { _fun00056_ip = 80; continue _fun00055 }
+            if(!(zuuluu != report)) { _fun00056_ip = 76; continue _fun00055 }
  29:
             zuuluu = _closure1_slot25;
             michal = {'type': 'MESSAGE_CREATE', 'guildId': null, 'channelId': null, 'message': null, 'optimistic': false, 'isPushNotification': false};
@@ -1833,7 +1833,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['channelId'] = report;
             michal['message'] = tangon;
             michal = zuuluu.bind(entity)(michal);
- 80:
+ 76:
             return entity;
         }
     };

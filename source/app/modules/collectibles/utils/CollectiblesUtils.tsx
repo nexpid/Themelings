@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.ApplicationStreamPresets;
     var _closure1_slot2 = tangon;
-    tangon = 3;
+    tangon = 4;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     zuuluu['constructGoLiveSource'] = tangon;
-    michal = function(argFoo, argBar) {
+    tangon = function(argFoo, argBar) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             michal = argFoo;
@@ -89,46 +89,46 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  14:
             entity['tab'] = zuuluu;
  20:
-            if(!(tangon != michal)) { _fun00004_ip = 243; continue _fun00003 }
+            if(!(tangon != michal)) { _fun00004_ip = 235; continue _fun00003 }
  27:
             report = michal.noCache;
             zuuluu = true;
-            if(!(zuuluu === report)) { _fun00004_ip = 47; continue _fun00003 }
+            if(!(zuuluu === report)) { _fun00004_ip = 45; continue _fun00003 }
  39:
             entity['no_cache'] = zuuluu;
- 47:
+ 45:
             report = michal.includeUnpublished;
-            if(!(zuuluu === report)) { _fun00004_ip = 63; continue _fun00003 }
- 57:
+            if(!(zuuluu === report)) { _fun00004_ip = 61; continue _fun00003 }
+ 55:
             entity['include_unpublished'] = zuuluu;
- 63:
+ 61:
             report = michal.includeBundles;
-            if(!(zuuluu === report)) { _fun00004_ip = 81; continue _fun00003 }
- 73:
+            if(!(zuuluu === report)) { _fun00004_ip = 77; continue _fun00003 }
+ 71:
             entity['include_bundles'] = zuuluu;
- 81:
+ 77:
             report = michal.includePopularPicks;
-            if(!(zuuluu === report)) { _fun00004_ip = 99; continue _fun00003 }
- 91:
+            if(!(zuuluu === report)) { _fun00004_ip = 93; continue _fun00003 }
+ 87:
             entity['include_popular_picks'] = zuuluu;
- 99:
+ 93:
             report = michal.includeDynamicBlocks;
-            if(!(zuuluu === report)) { _fun00004_ip = 117; continue _fun00003 }
- 109:
+            if(!(zuuluu === report)) { _fun00004_ip = 109; continue _fun00003 }
+ 103:
             entity['include_dynamic_blocks'] = zuuluu;
- 117:
+ 109:
             zuuluu = michal.countryCode;
-            if(!(tangon != zuuluu)) { _fun00004_ip = 139; continue _fun00003 }
- 127:
+            if(!(tangon != zuuluu)) { _fun00004_ip = 131; continue _fun00003 }
+ 119:
             zuuluu = michal.countryCode;
             entity['country_code'] = zuuluu;
- 139:
+ 131:
             zuuluu = michal.paymentGateway;
-            if(!(tangon !== zuuluu)) { _fun00004_ip = 161; continue _fun00003 }
- 149:
+            if(!(tangon !== zuuluu)) { _fun00004_ip = 153; continue _fun00003 }
+ 141:
             zuuluu = michal.paymentGateway;
             entity['payment_gateway'] = zuuluu;
- 161:
+ 153:
             oscard = michal.variantsReturnStyle;
             golfie = _closure1_slot0;
             zuuluu = _closure1_slot1;
@@ -138,8 +138,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = golfie.bind(tangon)(zuuluu);
             zuuluu = zuuluu.ShopVariantsReturnStyle;
             zuuluu = zuuluu.VARIANTS_GROUP;
-            if(!(oscard === zuuluu)) { _fun00004_ip = 243; continue _fun00003 }
- 208:
+            if(!(oscard === zuuluu)) { _fun00004_ip = 235; continue _fun00003 }
+ 200:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot1;
             michal = michal[report];
@@ -147,10 +147,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.ShopVariantsReturnStyle;
             michal = michal.VARIANTS_GROUP;
             entity['variants_return_style'] = michal;
- 243:
+ 235:
             return entity;
         }
     };
-    zuuluu['buildFetchCollectiblesOptionsQuery'] = michal;
+    zuuluu['buildFetchCollectiblesOptionsQuery'] = tangon;
+    michal = function(argFoo) {
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 3;
+        michal = michal[entity];
+        entity = undefined;
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.getAssetCDNUrl;
+        entity = global;
+        entity = entity.HermesInternal;
+        oscard = entity.concat;
+        report = 'collectibles/';
+        tangon = argFoo;
+        entity = 'img.png';
+        entity = oscard.bind(report)(tangon, entity);
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    zuuluu['getNameplateSource'] = michal;
     return entity;
 })();

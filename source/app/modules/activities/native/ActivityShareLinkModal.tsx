@@ -321,27 +321,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                                         StartGenerator();
-                                        report = argFoo;
+                                        oscard = argFoo;
                                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                        if(michal) { _fun00008_ip = 151; continue _fun00007 }
+                                        if(michal) { _fun00008_ip = 154; continue _fun00007 }
  13:
                                         tangon = _closure1_slot7;
                                         zuuluu = tangon.getChannel;
-                                        option = zuuluu.bind(tangon)(report);
+                                        option = zuuluu.bind(tangon)(oscard);
                                         zuuluu = null;
-                                        if(!(zuuluu != option)) { _fun00008_ip = 143; continue _fun00007 }
+                                        if(!(zuuluu != option)) { _fun00008_ip = 146; continue _fun00007 }
  36:
                                         golfie = _closure1_slot1;
                                         verify = _closure1_slot2;
                                         michal = 16;
                                         michal = verify[michal];
-                                        oscard = undefined;
-                                        tangon = golfie.bind(oscard)(michal);
-                                        zuuluu = tangon.sendMessage;
+                                        zuuluu = undefined;
+                                        report = golfie.bind(zuuluu)(michal);
+                                        tangon = report.sendMessage;
                                         michal = 17;
                                         michal = verify[michal];
-                                        golfie = golfie.bind(oscard)(michal);
-                                        oscard = golfie.parse;
+                                        golfie = golfie.bind(zuuluu)(michal);
+                                        zuuluu = golfie.parse;
                                         romeon = _closure2_slot3;
                                         yankee = _closure2_slot9;
                                         michal = global;
@@ -350,20 +350,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                         verify = '';
                                         michal = '\n';
                                         michal = offset.bind(verify)(romeon, michal, yankee);
-                                        michal = oscard.bind(golfie)(option, michal);
-                                        michal = zuuluu.bind(tangon)(report, michal);
-                                        SaveGenerator(address=137);
- 135:
+                                        zuuluu = zuuluu.bind(golfie)(option, michal);
+                                        michal = false;
+                                        michal = tangon.bind(report)(oscard, zuuluu, michal);
+                                        SaveGenerator(address=140);
+ 138:
                                         return michal;
- 137:
+ 140:
                                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                                        if(zuuluu) { _fun00008_ip = 148; continue _fun00007 }
- 143:
+                                        if(zuuluu) { _fun00008_ip = 151; continue _fun00007 }
+ 146:
                                         zuuluu = undefined;
                                         return zuuluu;
- 148:
-                                        return michal;
  151:
+                                        return michal;
+ 154:
                                         return entity;
                                     }
                                 };

@@ -1157,7 +1157,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                                     StartGenerator();
                                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                    if(michal) { _fun00032_ip = 284; continue _fun00031 }
+                                    if(michal) { _fun00032_ip = 282; continue _fun00031 }
  10:
                                     golfie = _closure2_slot0;
                                     option = global;
@@ -1190,7 +1190,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     return michal;
  136:
                                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                                    if(oscard) { _fun00032_ip = 281; continue _fun00031 }
+                                    if(oscard) { _fun00032_ip = 279; continue _fun00031 }
  145:
                                     oscard = michal.headers;
                                     verify = oscard.content-security-policy;
@@ -1235,9 +1235,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     tangon = true;
                                     tangon = report.bind(zuuluu)(tangon);
                                     return zuuluu;
- 281:
+ 279:
                                     return michal;
- 284:
+ 282:
                                     return entity;
                                 }
                             };

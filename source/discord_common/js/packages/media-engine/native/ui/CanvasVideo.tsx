@@ -59,10 +59,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 yankee = zuuluu.current;
                 var _closure3_slot0 = yankee;
                 zuuluu = _closure2_slot1;
-                if(zuuluu) { _fun00002_ip = 349; continue _fun00001 }
+                if(zuuluu) { _fun00002_ip = 347; continue _fun00001 }
  28:
                 option = null;
-                if(!(option != yankee)) { _fun00002_ip = 349; continue _fun00001 }
+                if(!(option != yankee)) { _fun00002_ip = 347; continue _fun00001 }
  37:
                 zuuluu = false;
                 var _closure3_slot1 = zuuluu;
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = report.bind(golfie)();
                 var _closure3_slot3 = report;
                 golfie = report.addVideoOutputSink;
-                if(!(option == golfie)) { _fun00002_ip = 321; continue _fun00001 }
+                if(!(option == golfie)) { _fun00002_ip = 319; continue _fun00001 }
  104:
                 golfie = global;
                 golfie = golfie.window;
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = verify.bind(offset)(yankee);
  256:
                 var _closure3_slot4 = golfie;
-                if(!(option != golfie)) { _fun00002_ip = 319; continue _fun00001 }
+                if(!(option != golfie)) { _fun00002_ip = 317; continue _fun00001 }
  264:
                 golfie = _closure1_slot1;
                 option = _closure1_slot2;
@@ -212,9 +212,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 return tangon;
- 319:
+ 317:
                 return zuuluu;
- 321:
+ 319:
                 tangon = report.addVideoOutputSink;
                 zuuluu = _closure2_slot5;
                 michal = _closure2_slot0;
@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 return entity;
- 349:
+ 347:
                 entity = undefined;
                 return entity;
             }

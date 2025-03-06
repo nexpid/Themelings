@@ -235,14 +235,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = argFoo;
                     michal = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tangon) { _fun00008_ip = 563; continue _fun00007 }
+                    if(tangon) { _fun00008_ip = 557; continue _fun00007 }
  18:
                     var _closure4_slot0 = michal;
                     verify = undefined;
                     offset = undefined;
                     golfie = undefined;
                     tangon = michal.sourceId;
-                    if(!(tangon !== zuuluu)) { _fun00008_ip = 554; continue _fun00007 }
+                    if(!(tangon !== zuuluu)) { _fun00008_ip = 548; continue _fun00007 }
  41:
                     michal['sourceId'] = zuuluu;
                     tangon = michal.stream;
@@ -267,11 +267,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  126:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                    if(option) { _fun00008_ip = 551; continue _fun00007 }
+                    if(option) { _fun00008_ip = 545; continue _fun00007 }
  135:
                     verify = michal.sourceId;
                     option = _closure1_slot8;
-                    if(!(verify !== option)) { _fun00008_ip = 509; continue _fun00007 }
+                    if(!(verify !== option)) { _fun00008_ip = 503; continue _fun00007 }
  152:
                     option = {};
                     verify = 1280;
@@ -348,32 +348,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = oscard;
                     golfie = report.name;
                     report = 'PermissionDeniedError';
-                    if(!(report !== golfie)) { _fun00008_ip = 479; continue _fun00007 }
- 380:
+                    if(!(report !== golfie)) { _fun00008_ip = 473; continue _fun00007 }
+ 378:
                     report = 'NotAllowedError';
-                    if(!(report !== golfie)) { _fun00008_ip = 479; continue _fun00007 }
- 390:
+                    if(!(report !== golfie)) { _fun00008_ip = 473; continue _fun00007 }
+ 388:
                     report = 'PermissionDismissedError';
-                    if(!(report !== golfie)) { _fun00008_ip = 449; continue _fun00007 }
- 400:
+                    if(!(report !== golfie)) { _fun00008_ip = 443; continue _fun00007 }
+ 396:
                     report = 'DevicesNotFoundError';
-                    if(!(report !== golfie)) { _fun00008_ip = 437; continue _fun00007 }
- 410:
+                    if(!(report !== golfie)) { _fun00008_ip = 431; continue _fun00007 }
+ 404:
                     report = 'NotFoundError';
-                    if(!(report !== golfie)) { _fun00008_ip = 437; continue _fun00007 }
- 420:
+                    if(!(report !== golfie)) { _fun00008_ip = 431; continue _fun00007 }
+ 414:
                     oscard = oscard.name;
                     report = oscard;
-                    if(oscard) { _fun00008_ip = 435; continue _fun00007 }
- 431:
+                    if(oscard) { _fun00008_ip = 429; continue _fun00007 }
+ 425:
                     report = 'UNKNOWN';
- 435:
+ 429:
                     throw report;
- 437:
+ 431:
                     report = _closure1_slot9;
                     report = report.NO_DEVICES_FOUND;
                     throw report;
- 449:
+ 443:
                     golfie = michal.emit;
                     oscard = 'permission';
                     report = false;
@@ -381,7 +381,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = _closure1_slot9;
                     report = report.PERMISSION_DISMISSED;
                     throw report;
- 479:
+ 473:
                     golfie = michal.emit;
                     oscard = 'permission';
                     report = false;
@@ -389,7 +389,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = _closure1_slot9;
                     tangon = tangon.PERMISSION_DENIED;
                     throw tangon;
- 509:
+ 503:
                     report = michal.setStream;
                     tangon = global;
                     tangon = tangon.MediaStream;
@@ -400,12 +400,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = tangon instanceof Object ? tangon : oscard;
                     tangon = report.bind(michal)(tangon);
                     return tangon;
- 551:
+ 545:
                     return zuuluu;
- 554:
+ 548:
                     michal = michal.stream;
                     return michal;
- 563:
+ 557:
                     return entity;
                 }
             };
@@ -463,8 +463,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.bind(entity)();
                 zuuluu = michal.length;
                 michal = 0;
-                if(!(zuuluu > michal)) { _fun00010_ip = 154; continue _fun00009 }
- 112:
+                if(!(zuuluu > michal)) { _fun00010_ip = 152; continue _fun00009 }
+ 110:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot1;
                 michal = 9;
@@ -474,7 +474,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = zuuluu.registerVideoStream;
                 michal = michal.bind(zuuluu)(entity);
                 report['streamId'] = michal;
- 154:
+ 152:
                 zuuluu = report.emit;
                 michal = 'stream';
                 michal = zuuluu.bind(report)(michal, entity);

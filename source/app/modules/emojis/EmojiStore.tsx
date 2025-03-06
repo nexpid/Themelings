@@ -2175,15 +2175,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = {};
                 tangon['location'] = golfie;
                 tangon = report.bind(oscard)(tangon);
-                if(zuuluu) { _fun00076_ip = 104; continue _fun00075 }
- 92:
+                if(zuuluu) { _fun00076_ip = 108; continue _fun00075 }
+ 96:
                 zuuluu = michal.getFrequentlyUsedEmojisWithoutFetchingLatest;
                 tangon = zuuluu.bind(michal)();
-                _fun00076_ip = 114; continue _fun00075;
- 104:
+                _fun00076_ip = 118; continue _fun00075;
+ 108:
                 zuuluu = michal.getFrequentlyUsedReactionEmojisWithoutFetchingLatest;
                 tangon = zuuluu.bind(michal)();
- 114:
+ 118:
                 zuuluu = global;
                 zuuluu = zuuluu.Set;
                 report = zuuluu.prototype;
@@ -3323,8 +3323,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = option.length;
                 tangon = 0;
                 zuuluu = option;
-                if(!(oscard > tangon)) { _fun00122_ip = 434; continue _fun00121 }
- 215:
+                if(!(oscard > tangon)) { _fun00122_ip = 430; continue _fun00121 }
+ 211:
                 oscard = global;
                 romeon = oscard.RegExp;
                 verify = oscard.HermesInternal;
@@ -3489,13 +3489,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal[1] = entity;
                 entity = ['desc', 'asc'];
                 zuuluu = oscard.bind(golfie)(option, michal, entity);
- 434:
+ 430:
                 entity = zuuluu;
-                if(!(report > tangon)) { _fun00122_ip = 452; continue _fun00121 }
- 441:
+                if(!(report > tangon)) { _fun00122_ip = 448; continue _fun00121 }
+ 437:
                 michal = zuuluu.slice;
                 entity = michal.bind(zuuluu)(tangon, report);
- 452:
+ 448:
                 return entity;
             }
         };

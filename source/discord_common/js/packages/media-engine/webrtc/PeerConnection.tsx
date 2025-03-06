@@ -558,14 +558,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = _closure3_slot1;
                     entity = entity.localDescription;
                     zuuluu = null;
-                    if(!(zuuluu != entity)) { _fun00022_ip = 43; continue _fun00021 }
+                    if(!(zuuluu != entity)) { _fun00022_ip = 41; continue _fun00021 }
  19:
                     tangon = _closure3_slot0;
                     zuuluu = tangon.emit;
                     michal = 'offer';
                     michal = zuuluu.bind(tangon)(michal, entity);
                     return entity;
- 43:
+ 41:
                     entity = global;
                     zuuluu = entity.Error;
                     entity = zuuluu.prototype;

@@ -29,28 +29,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['style'] = option;
             kiloes = _closure1_slot4;
             romeon = _closure1_slot0;
-            sizing = _closure1_slot2;
-            if(output) { _fun00002_ip = 125; continue _fun00001 }
+            echoed = _closure1_slot2;
+            if(output) { _fun00002_ip = 154; continue _fun00001 }
  87:
             option = 6;
-            option = sizing[option];
+            option = echoed[option];
             option = romeon.bind(tangon)(option);
             offset = option.CircleCheckIcon;
             option = {};
-            result = verify.scopeIcon;
-            option['style'] = result;
+            result = _closure1_slot1;
+            sizing = 4;
+            sizing = echoed[sizing];
+            sizing = result.bind(tangon)(sizing);
+            sizing = sizing.colors;
+            sizing = sizing.TEXT_MUTED;
+            option['color'] = sizing;
+            sizing = 'refresh_sm';
+            option['size'] = sizing;
             option = kiloes.bind(tangon)(offset, option);
-            _fun00002_ip = 161; continue _fun00001;
- 125:
+            _fun00002_ip = 229; continue _fun00001;
+ 154:
             offset = 5;
-            offset = sizing[offset];
+            offset = echoed[offset];
             offset = romeon.bind(tangon)(offset);
             romeon = offset.CircleXIcon;
             offset = {};
             sizing = verify.fakeScopeIcon;
             offset['style'] = sizing;
+            result = _closure1_slot1;
+            sizing = 4;
+            sizing = echoed[sizing];
+            sizing = result.bind(tangon)(sizing);
+            sizing = sizing.colors;
+            sizing = sizing.TEXT_MUTED;
+            offset['color'] = sizing;
+            sizing = 'refresh_sm';
+            offset['size'] = sizing;
             option = kiloes.bind(tangon)(romeon, offset);
- 161:
+ 229:
             report['children'] = option;
             oscard = golfie.bind(tangon)(oscard, report);
             report = new Array(2);
@@ -71,10 +87,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = 'text-md/normal';
             verify['variant'] = sizing;
             sizing = undefined;
-            if(!output) { _fun00002_ip = 251; continue _fun00001 }
- 245:
+            if(!output) { _fun00002_ip = 319; continue _fun00001 }
+ 313:
             sizing = 'text-muted';
- 251:
+ 319:
             verify['color'] = sizing;
             verify['children'] = foxtra;
             offset = romeon.bind(tangon)(offset, verify);
@@ -82,8 +98,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify[0] = offset;
             offset = null;
             romeon = offset != backup;
-            if(!romeon) { _fun00002_ip = 330; continue _fun00001 }
- 282:
+            if(!romeon) { _fun00002_ip = 398; continue _fun00001 }
+ 350:
             foxtra = _closure1_slot4;
             romeon = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -95,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee['variant'] = kiloes;
             yankee['children'] = backup;
             offset = foxtra.bind(tangon)(romeon, yankee);
- 330:
+ 398:
             verify[1] = offset;
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
@@ -150,27 +166,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['scope'] = verify;
     verify = {'fontSize': 12, 'lineHeight': 16};
     offset = 4;
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.unsafe_rawColors;
-    romeon = romeon.RED_400;
-    verify['color'] = romeon;
+    offset = oscard[offset];
+    offset = yankee.bind(entity)(offset);
+    offset = offset.unsafe_rawColors;
+    offset = offset.RED_400;
+    verify['color'] = offset;
     tangon['error'] = verify;
     verify = {'marginRight': 12, 'width': 20, 'height': 20};
     tangon['iconWrapper'] = verify;
-    verify = {'width': 20, 'height': 20};
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.TEXT_MUTED;
-    verify['tintColor'] = romeon;
-    tangon['scopeIcon'] = verify;
-    verify = {'width': 20, 'height': 20, 'tintColor': null, 'opacity': 0.6};
-    offset = oscard[offset];
-    offset = yankee.bind(entity)(offset);
-    offset = offset.colors;
-    offset = offset.TEXT_MUTED;
-    verify['tintColor'] = offset;
+    verify = {};
+    offset = 0.6;
+    verify['opacity'] = offset;
     tangon['fakeScopeIcon'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot6 = tangon;

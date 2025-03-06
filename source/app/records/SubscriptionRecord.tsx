@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argBar;
             verify = michal.bind(zuuluu)(entity);
             michal = _closure1_slot5;
-            entity = _closure1_slot18;
+            entity = _closure1_slot19;
             entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 48; continue _fun00001 }
  35:
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot17 = entity;
+    var _closure1_slot18 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -70,13 +70,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot18 = michal;
+            _closure1_slot19 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot18 = entity;
+    var _closure1_slot19 = entity;
     entity = function(argFoo) { // Original name: createSubscriptionItemFromServer
         michal = argFoo;
         entity = {};
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity['quantity'] = michal;
         return entity;
     };
-    var _closure1_slot19 = entity;
+    var _closure1_slot20 = entity;
     entity = global;
     verify = entity.Object;
     golfie = verify.defineProperty;
@@ -144,12 +144,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie = 9;
     golfie = oscard[golfie];
     golfie = report.bind(entity)(golfie);
-    option = golfie.REVERSE_TRIAL_IDS;
+    option = golfie.PREMIUM_PLANS;
     var _closure1_slot14 = option;
-    option = golfie.SubscriptionPlanInfo;
+    option = golfie.REVERSE_TRIAL_IDS;
     var _closure1_slot15 = option;
+    option = golfie.SubscriptionPlanInfo;
+    var _closure1_slot16 = option;
     golfie = golfie.SubscriptionPlans;
-    var _closure1_slot16 = golfie;
+    var _closure1_slot17 = golfie;
     michal = function(argFoo) {
         report = function(argFoo) { // Original name: SubscriptionRecord
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
@@ -160,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = _closure2_slot0;
                 yankee = undefined;
                 entity = entity.bind(yankee)(tangon, zuuluu);
-                entity = _closure1_slot17;
+                entity = _closure1_slot18;
                 entity = entity.bind(yankee)(tangon, zuuluu);
                 zuuluu = report.id;
                 entity['id'] = zuuluu;
@@ -242,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = verify;
                 _fun00006_ip = 578; continue _fun00005;
  441:
-                offset = _closure1_slot15;
+                offset = _closure1_slot16;
                 verify = report.items;
                 verify = verify[romeon];
                 verify = verify.planId;
@@ -346,7 +348,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = michal;
-        michal = new Array(19);
+        michal = new Array(20);
         michal[0] = oscard;
         oscard = {};
         golfie = 'isPremium';
@@ -399,13 +401,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = global;
             report = entity.Object;
             tangon = report.values;
-            entity = _closure1_slot16;
+            entity = _closure1_slot17;
             entity = tangon.bind(report)(entity);
             entity = michal.bind(zuuluu)(entity);
             return entity;
         };
         oscard['get'] = golfie;
         michal[3] = oscard;
+        oscard = {};
+        golfie = 'premiumPlanIdFromItems';
+        oscard['key'] = golfie;
+        golfie = function() { // Original name: get
+            zuuluu = this;
+            michal = zuuluu.getCurrentSubscriptionPlanIdForGroup;
+            golfie = _closure1_slot14;
+            entity = new Array(0);
+            oscard = 0;
+            option = entity;
+            tangon = arraySpread(option, golfie, oscard);
+            entity = michal.bind(zuuluu)(entity);
+            return entity;
+        };
+        oscard['get'] = golfie;
+        michal[4] = oscard;
         oscard = {};
         golfie = 'isPurchasedViaApple';
         oscard['key'] = golfie;
@@ -418,7 +436,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['get'] = golfie;
-        michal[4] = oscard;
+        michal[5] = oscard;
         oscard = {};
         golfie = 'isPurchasedViaGoogle';
         oscard['key'] = golfie;
@@ -431,7 +449,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['get'] = golfie;
-        michal[5] = oscard;
+        michal[6] = oscard;
         oscard = {};
         golfie = 'isPurchasedExternally';
         oscard['key'] = golfie;
@@ -448,7 +466,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['get'] = golfie;
-        michal[6] = oscard;
+        michal[7] = oscard;
         oscard = {};
         golfie = 'isOnPlatformMatchingExternalPaymentGateway';
         oscard['key'] = golfie;
@@ -488,7 +506,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['get'] = golfie;
-        michal[7] = oscard;
+        michal[8] = oscard;
         oscard = {};
         golfie = 'hasExternalPlanChange';
         oscard['key'] = golfie;
@@ -514,7 +532,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['get'] = golfie;
-        michal[8] = oscard;
+        michal[9] = oscard;
         oscard = {};
         golfie = 'hasPremiumNitroMonthly';
         oscard['key'] = golfie;
@@ -525,7 +543,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = function(argFoo) {
                 entity = argFoo;
                 michal = entity.planId;
-                entity = _closure1_slot16;
+                entity = _closure1_slot17;
                 entity = entity.PREMIUM_MONTH_TIER_2;
                 entity = michal === entity;
                 return entity;
@@ -536,7 +554,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['get'] = golfie;
-        michal[9] = oscard;
+        michal[10] = oscard;
         oscard = {};
         golfie = 'isBoostOnly';
         oscard['key'] = golfie;
@@ -545,7 +563,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = entity.items;
             michal = zuuluu.every;
             entity = function(argFoo) {
-                entity = _closure1_slot16;
+                entity = _closure1_slot17;
                 michal = entity.PREMIUM_MONTH_GUILD;
                 zuuluu = new Array(2);
                 zuuluu[0] = michal;
@@ -561,7 +579,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['get'] = golfie;
-        michal[10] = oscard;
+        michal[11] = oscard;
         oscard = {};
         golfie = 'isPausedOrPausePending';
         oscard['key'] = golfie;
@@ -575,7 +593,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['get'] = golfie;
-        michal[11] = oscard;
+        michal[12] = oscard;
         oscard = {};
         golfie = 'isPaused';
         oscard['key'] = golfie;
@@ -588,7 +606,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['get'] = golfie;
-        michal[12] = oscard;
+        michal[13] = oscard;
         oscard = {};
         golfie = 'isPausedAllowsUpdatesButNotResume';
         oscard['key'] = golfie;
@@ -612,7 +630,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['get'] = golfie;
-        michal[13] = oscard;
+        michal[14] = oscard;
         oscard = {};
         golfie = 'isPausedAllowsResumeButNotUpdates';
         oscard['key'] = golfie;
@@ -644,7 +662,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['get'] = golfie;
-        michal[14] = oscard;
+        michal[15] = oscard;
         oscard = {};
         golfie = 'isEnded';
         oscard['key'] = golfie;
@@ -657,7 +675,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['get'] = golfie;
-        michal[15] = oscard;
+        michal[16] = oscard;
         oscard = {};
         golfie = 'isActive';
         oscard['key'] = golfie;
@@ -670,7 +688,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['get'] = golfie;
-        michal[16] = oscard;
+        michal[17] = oscard;
         oscard = {};
         golfie = 'inReverseTrial';
         oscard['key'] = golfie;
@@ -683,7 +701,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = zuuluu != entity;
                 if(!entity) { _fun00022_ip = 41; continue _fun00021 }
  18:
-                oscard = _closure1_slot14;
+                oscard = _closure1_slot15;
                 report = oscard.includes;
                 tangon = michal.trialId;
                 entity = report.bind(oscard)(tangon);
@@ -697,7 +715,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['get'] = golfie;
-        michal[17] = oscard;
+        michal[18] = oscard;
         oscard = {};
         golfie = 'premiumSince';
         oscard['key'] = golfie;
@@ -715,7 +733,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['get'] = golfie;
-        michal[18] = oscard;
+        michal[19] = oscard;
         oscard = {};
         golfie = 'createFromServer';
         oscard['key'] = golfie;
@@ -785,7 +803,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity['trialEndsAt'] = michal;
                 verify = report.items;
                 option = verify.map;
-                michal = _closure1_slot19;
+                michal = _closure1_slot20;
                 michal = option.bind(verify)(michal);
                 entity['items'] = michal;
                 michal = report.renewal_mutations;
@@ -797,7 +815,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 verify = report.renewal_mutations;
                 yankee = verify.items;
                 offset = yankee.map;
-                verify = _closure1_slot19;
+                verify = _closure1_slot20;
                 verify = offset.bind(yankee)(verify);
                 option['items'] = verify;
                 verify = report.renewal_mutations;

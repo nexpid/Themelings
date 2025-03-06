@@ -1306,15 +1306,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = source.isNonUserBot;
             romeon = offset.bind(source)();
             offset = undefined;
-            if(!romeon) { _fun00024_ip = 446; continue _fun00023 }
- 425:
+            if(!romeon) { _fun00024_ip = 442; continue _fun00023 }
+ 421:
             romeon = source.isClyde;
             romeon = romeon.bind(source)();
             offset = undefined;
-            if(romeon) { _fun00024_ip = 446; continue _fun00023 }
- 440:
+            if(romeon) { _fun00024_ip = 442; continue _fun00023 }
+ 436:
             offset = 264;
- 446:
+ 442:
             golfie['startHeight'] = offset;
             foxtra = _closure1_slot15;
             romeon = _closure1_slot0;
@@ -1339,8 +1339,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = sequen.bind(tangon)(vacuum, kiloes);
             kiloes = new Array(2);
             kiloes[0] = vacuum;
-            if(ctrled) { _fun00024_ip = 762; continue _fun00023 }
- 551:
+            if(ctrled) { _fun00024_ip = 758; continue _fun00023 }
+ 547:
             sequen = _closure1_slot15;
             vacuum = _closure1_slot6;
             ctrled = {};
@@ -1389,8 +1389,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config[1] = record;
             ctrled['children'] = config;
             ctrled = sequen.bind(tangon)(vacuum, ctrled);
-            _fun00024_ip = 819; continue _fun00023;
- 762:
+            _fun00024_ip = 815; continue _fun00023;
+ 758:
             config = _closure1_slot14;
             sequen = _closure1_slot6;
             vacuum = {};
@@ -1403,7 +1403,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = config.bind(tangon)(cntext, record);
             vacuum['children'] = record;
             ctrled = config.bind(tangon)(sequen, vacuum);
- 819:
+ 815:
             kiloes[1] = ctrled;
             offset['children'] = kiloes;
             romeon = foxtra.bind(tangon)(romeon, offset);

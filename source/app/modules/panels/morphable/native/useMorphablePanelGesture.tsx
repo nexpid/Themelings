@@ -656,7 +656,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = tangon.get;
                         zuuluu = zuuluu.bind(tangon)();
                         zuuluu = zuuluu.cancel;
-                        if(zuuluu) { _fun00010_ip = 410; continue _fun00009 }
+                        if(zuuluu) { _fun00010_ip = 414; continue _fun00009 }
  31:
                         yankee = michal.velocityX;
                         offset = michal.velocityY;
@@ -752,7 +752,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = _closure2_slot6;
                         entity = {'x': 0, 'y': 0, 'gestureActive': false};
                         entity = zuuluu.bind(tangon)(michal, entity);
- 410:
+ 414:
                         entity = undefined;
                         return entity;
                     }

@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = argFoo;
             michal = null;
             entity = tangon;
-            if(!(michal != entity)) { _fun00006_ip = 97; continue _fun00005 }
+            if(!(michal != entity)) { _fun00006_ip = 103; continue _fun00005 }
  14:
             michal = {};
             golfie = tangon.background_colors;
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.bind(report)(zuuluu);
             michal['confettiColors'] = zuuluu;
             entity = michal;
- 97:
+ 103:
             return entity;
         }
     };

@@ -172,8 +172,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = entity.streamApplication;
             oscard = entity.streamSourceType;
             report = entity.actionContext;
-            tangon = entity.numViewers;
-            michal = entity.goLiveModalDurationMs;
+            michal = entity.numViewers;
+            tangon = entity.goLiveModalDurationMs;
             offset = _closure1_slot7;
             verify = _closure2_slot0;
             entity = undefined;
@@ -182,8 +182,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu['streamApplication'] = golfie;
             zuuluu['streamSourceType'] = oscard;
             zuuluu['actionContext'] = report;
-            zuuluu['maxViewers'] = tangon;
-            zuuluu['goLiveModalDurationMs'] = michal;
+            zuuluu['maxViewers'] = michal;
+            zuuluu['goLiveModalDurationMs'] = tangon;
+            zuuluu['numViewers'] = michal;
             return entity;
         };
         var _closure2_slot0 = zuuluu;
@@ -204,14 +205,15 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         oscard = 'trackViewerCount';
         entity['key'] = oscard;
         oscard = function(argFoo) { // Original name: value
-            michal = this;
-            entity = global;
-            report = entity.Math;
+            michal = argFoo;
+            entity = this;
+            zuuluu = global;
+            report = zuuluu.Math;
             tangon = report.max;
-            zuuluu = michal.maxViewers;
-            entity = argFoo;
-            entity = tangon.bind(report)(entity, zuuluu);
-            michal['maxViewers'] = entity;
+            zuuluu = entity.maxViewers;
+            zuuluu = tangon.bind(report)(michal, zuuluu);
+            entity['maxViewers'] = zuuluu;
+            entity['numViewers'] = michal;
             entity = undefined;
             return entity;
         };
@@ -1510,10 +1512,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 entity['guild_region'] = option;
                 verify = michal.isOwner;
                 option = 'receiver';
-                if(!verify) { _fun00026_ip = 252; continue _fun00025 }
- 246:
+                if(!verify) { _fun00026_ip = 248; continue _fun00025 }
+ 242:
                 option = 'streamer';
- 252:
+ 248:
                 entity['participant_type'] = option;
                 entity['share_application_name'] = golfie;
                 entity['share_application_id'] = oscard;

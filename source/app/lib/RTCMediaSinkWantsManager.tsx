@@ -481,12 +481,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal = _closure3_slot0;
                         zuuluu = michal.connection;
                         kiloes = null;
-                        if(!(kiloes != zuuluu)) { _fun00016_ip = 599; continue _fun00015 }
+                        if(!(kiloes != zuuluu)) { _fun00016_ip = 597; continue _fun00015 }
  22:
                         michal = zuuluu.getActiveOutputSinkTrackingEnabled;
                         michal = michal.bind(zuuluu)();
-                        if(!michal) { _fun00016_ip = 599; continue _fun00015 }
- 40:
+                        if(!michal) { _fun00016_ip = 597; continue _fun00015 }
+ 38:
                         verify = global;
                         zuuluu = verify.Date;
                         michal = zuuluu.now;
@@ -512,34 +512,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         yankee = 1;
                         offset = golfie;
                         golfie = undefined;
-                        if(michal) { _fun00016_ip = 410; continue _fun00015 }
- 146:
+                        if(michal) { _fun00016_ip = 408; continue _fun00015 }
+ 144:
                         sizing = offset.value;
                         michal = _closure1_slot3;
                         michal = michal.bind(option)(sizing, romeon);
                         output = michal[oscard];
                         result = michal[yankee];
-                        if(!(kiloes != result)) { _fun00016_ip = 392; continue _fun00015 }
- 176:
+                        if(!(kiloes != result)) { _fun00016_ip = 390; continue _fun00015 }
+ 174:
                         michal = _closure3_slot0;
                         michal = michal.connection;
-                        if(!(kiloes != michal)) { _fun00016_ip = 207; continue _fun00015 }
- 190:
+                        if(!(kiloes != michal)) { _fun00016_ip = 205; continue _fun00015 }
+ 188:
                         sizing = michal.getHasActiveVideoOutputSink;
                         sizing = sizing.bind(michal)(result);
-                        if(sizing) { _fun00016_ip = 361; continue _fun00015 }
- 207:
+                        if(sizing) { _fun00016_ip = 359; continue _fun00015 }
+ 205:
                         sizing = _closure3_slot0;
                         sizing = sizing.offscreenUsers;
                         sizing = sizing[output];
-                        if(!(kiloes != sizing)) { _fun00016_ip = 325; continue _fun00015 }
- 225:
+                        if(!(kiloes != sizing)) { _fun00016_ip = 323; continue _fun00015 }
+ 223:
                         sizing = _closure3_slot0;
                         sizing = sizing.offscreenDisabledUsers;
                         sizing = sizing[output];
                         golfie = michal;
-                        if(sizing) { _fun00016_ip = 392; continue _fun00015 }
- 248:
+                        if(sizing) { _fun00016_ip = 390; continue _fun00015 }
+ 246:
                         sizing = _closure3_slot0;
                         sizing = sizing.offscreenUsers;
                         sizing = sizing[output];
@@ -547,20 +547,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         echoed = _closure3_slot0;
                         sizing = echoed.getOffscreenTimeoutMs;
                         sizing = sizing.bind(echoed)();
-                        if(!(!(result >= sizing))) { _fun00016_ip = 306; continue _fun00015 }
- 284:
+                        if(!(!(result >= sizing))) { _fun00016_ip = 304; continue _fun00015 }
+ 282:
                         result = _closure3_slot0;
                         sizing = result.addLru;
                         sizing = sizing.bind(result)(output, report, tangon);
                         golfie = michal;
-                        _fun00016_ip = 392; continue _fun00015;
- 306:
+                        _fun00016_ip = 390; continue _fun00015;
+ 304:
                         sizing = _closure3_slot0;
                         sizing = sizing.offscreenDisabledUsers;
                         sizing[output] = foxtra;
                         golfie = michal;
-                        _fun00016_ip = 392; continue _fun00015;
- 325:
+                        _fun00016_ip = 390; continue _fun00015;
+ 323:
                         sizing = _closure3_slot0;
                         sizing = sizing.offscreenUsers;
                         sizing[output] = report;
@@ -568,8 +568,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         sizing = result.addLru;
                         sizing = sizing.bind(result)(output, report, tangon);
                         golfie = michal;
-                        _fun00016_ip = 392; continue _fun00015;
- 361:
+                        _fun00016_ip = 390; continue _fun00015;
+ 359:
                         sizing = _closure3_slot0;
                         sizing = sizing.offscreenUsers;
                         sizing = delete sizing[output];
@@ -577,21 +577,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         sizing = sizing.offscreenDisabledUsers;
                         sizing = delete sizing[output];
                         golfie = michal;
- 392:
+ 390:
                         sizing = backup.bind(option)();
                         michal = sizing.done;
                         offset = sizing;
-                        if(!michal) { _fun00016_ip = 146; continue _fun00015 }
- 410:
+                        if(!michal) { _fun00016_ip = 144; continue _fun00015 }
+ 408:
                         michal = tangon.length;
-                        if(!(!(michal > oscard))) { _fun00016_ip = 444; continue _fun00015 }
- 419:
+                        if(!(!(michal > oscard))) { _fun00016_ip = 442; continue _fun00015 }
+ 417:
                         michal = _closure3_slot0;
                         oscard = michal.offscreenTimeout;
                         michal = oscard.stop;
                         michal = michal.bind(oscard)();
-                        _fun00016_ip = 599; continue _fun00015;
- 444:
+                        _fun00016_ip = 597; continue _fun00015;
+ 442:
                         oscard = _closure3_slot0;
                         michal = oscard.getOffscreenTimeoutMs;
                         michal = michal.bind(oscard)();
@@ -603,8 +603,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         oscard = tangon;
                         tangon = michal;
                         michal = tangon;
-                        if(zuuluu) { _fun00016_ip = 564; continue _fun00015 }
- 492:
+                        if(zuuluu) { _fun00016_ip = 562; continue _fun00015 }
+ 490:
                         romeon = oscard.value;
                         yankee = verify.Math;
                         offset = yankee.min;
@@ -620,8 +620,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         zuuluu = yankee.done;
                         oscard = yankee;
                         michal = tangon;
-                        if(!zuuluu) { _fun00016_ip = 492; continue _fun00015 }
- 564:
+                        if(!zuuluu) { _fun00016_ip = 490; continue _fun00015 }
+ 562:
                         zuuluu = _closure3_slot0;
                         tangon = zuuluu.offscreenTimeout;
                         zuuluu = tangon.start;
@@ -629,7 +629,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         entity = _closure3_slot0;
                         entity = entity.update;
                         entity = zuuluu.bind(tangon)(michal, entity);
- 599:
+ 597:
                         entity = undefined;
                         return entity;
                     }

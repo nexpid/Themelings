@@ -91,13 +91,19 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = michal.pendingAvatar;
             entity['avatar'] = zuuluu;
  51:
-            zuuluu = michal.pendingAvatarV2;
-            if(!(tangon !== zuuluu)) { _fun00004_ip = 167; continue _fun00003 }
+            zuuluu = michal.pendingNameplate;
+            if(!(tangon !== zuuluu)) { _fun00004_ip = 73; continue _fun00003 }
  61:
+            zuuluu = michal.pendingNameplate;
+            entity['nameplate'] = zuuluu;
+ 73:
+            zuuluu = michal.pendingAvatarV2;
+            if(!(tangon !== zuuluu)) { _fun00004_ip = 189; continue _fun00003 }
+ 83:
             report = michal.pendingAvatarV2;
             zuuluu = null;
-            if(!(zuuluu !== report)) { _fun00004_ip = 161; continue _fun00003 }
- 73:
+            if(!(zuuluu !== report)) { _fun00004_ip = 183; continue _fun00003 }
+ 95:
             golfie = report.assetOrigin;
             option = _closure1_slot0;
             verify = _closure1_slot1;
@@ -106,27 +112,27 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             oscard = option.bind(tangon)(oscard);
             oscard = oscard.AssetOriginTypes;
             oscard = oscard.ARCHIVED_ASSET;
-            if(!(golfie !== oscard)) { _fun00004_ip = 142; continue _fun00003 }
- 117:
+            if(!(golfie !== oscard)) { _fun00004_ip = 164; continue _fun00003 }
+ 139:
             oscard = report.imageUri;
             entity['avatar'] = oscard;
             oscard = report.description;
             entity['avatarDescription'] = oscard;
-            _fun00004_ip = 167; continue _fun00003;
- 142:
+            _fun00004_ip = 189; continue _fun00003;
+ 164:
             report = report.originalAsset;
             report = report.id;
             entity['avatarId'] = report;
-            _fun00004_ip = 167; continue _fun00003;
- 161:
+            _fun00004_ip = 189; continue _fun00003;
+ 183:
             entity['avatar'] = zuuluu;
- 167:
+ 189:
             zuuluu = michal.pendingAvatarDecoration;
-            if(!(tangon !== zuuluu)) { _fun00004_ip = 189; continue _fun00003 }
- 177:
+            if(!(tangon !== zuuluu)) { _fun00004_ip = 211; continue _fun00003 }
+ 199:
             michal = michal.pendingAvatarDecoration;
             entity['avatarDecoration'] = michal;
- 189:
+ 211:
             return entity;
         }
     };

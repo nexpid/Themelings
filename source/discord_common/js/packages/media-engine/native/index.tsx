@@ -3152,7 +3152,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = zuuluu.bind(oscard)();
                 oscard = zuuluu.setAudioSubsystem;
                 zuuluu = null;
-                if(!(zuuluu == oscard)) { _fun00068_ip = 106; continue _fun00067 }
+                if(!(zuuluu == oscard)) { _fun00068_ip = 104; continue _fun00067 }
  50:
                 oscard = _closure1_slot0;
                 zuuluu = _closure1_slot2;
@@ -3165,8 +3165,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = zuuluu.LEGACY;
                 zuuluu = tangon === zuuluu;
                 zuuluu = oscard.bind(golfie)(zuuluu);
-                _fun00068_ip = 144; continue _fun00067;
- 106:
+                _fun00068_ip = 142; continue _fun00067;
+ 104:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
                 michal = michal[report];
@@ -3175,7 +3175,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = michal.bind(zuuluu)();
                 michal = zuuluu.setAudioSubsystem;
                 michal = michal.bind(zuuluu)(tangon);
- 144:
+ 142:
                 return entity;
             }
         };
@@ -3314,13 +3314,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = zuuluu.setExperimentalAdm;
                 zuuluu = zuuluu.getAudioSubsystem;
                 tangon = null;
-                if(!(tangon != oscard)) { _fun00076_ip = 72; continue _fun00075 }
- 64:
+                if(!(tangon != oscard)) { _fun00076_ip = 70; continue _fun00075 }
+ 62:
                 report = argFoo;
                 report = oscard.bind(entity)(report);
- 72:
-                if(!(tangon != zuuluu)) { _fun00076_ip = 86; continue _fun00075 }
- 76:
+ 70:
+                if(!(tangon != zuuluu)) { _fun00076_ip = 84; continue _fun00075 }
+ 74:
                 michal = function(argFoo) {
                     michal = _closure3_slot0;
                     entity = argFoo;
@@ -3329,7 +3329,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 };
                 michal = zuuluu.bind(entity)(michal);
- 86:
+ 84:
                 return entity;
             }
         };
@@ -3616,8 +3616,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = michal.bind(zuuluu)();
                     michal = michal.writeAudioDebugState;
                     zuuluu = null;
-                    if(!(zuuluu == michal)) { _fun00084_ip = 93; continue _fun00083 }
- 49:
+                    if(!(zuuluu == michal)) { _fun00084_ip = 91; continue _fun00083 }
+ 47:
                     zuuluu = global;
                     report = zuuluu.Error;
                     zuuluu = report.prototype;
@@ -3628,12 +3628,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = zuuluu instanceof Object ? zuuluu : tangon;
                     zuuluu = argBar;
                     zuuluu = zuuluu.bind(entity)(tangon);
-                    _fun00084_ip = 104; continue _fun00083;
- 93:
+                    _fun00084_ip = 102; continue _fun00083;
+ 91:
                     michal = michal.bind(entity)();
                     michal = argFoo;
                     michal = michal.bind(entity)();
- 104:
+ 102:
                     return entity;
                 }
             };
@@ -3768,8 +3768,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = zuuluu.bind(oscard)(michal, entity);
                 entity = null;
                 zuuluu = entity == michal;
-                if(zuuluu) { _fun00090_ip = 200; continue _fun00089 }
- 66:
+                if(zuuluu) { _fun00090_ip = 198; continue _fun00089 }
+ 64:
                 yankee = michal.on;
                 oscard = _closure1_slot0;
                 option = _closure1_slot2;
@@ -3823,7 +3823,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = zuuluu.Connection;
                 zuuluu = tangon.bind(report)(zuuluu, michal);
                 entity = michal;
- 200:
+ 198:
                 return entity;
             }
         };
@@ -3877,11 +3877,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.bind(zuuluu)();
                 zuuluu = michal.setMaxSyncDelayOverride;
                 michal = null;
-                if(!(michal != zuuluu)) { _fun00094_ip = 57; continue _fun00093 }
- 49:
+                if(!(michal != zuuluu)) { _fun00094_ip = 55; continue _fun00093 }
+ 47:
                 michal = argFoo;
                 michal = zuuluu.bind(entity)(michal);
- 57:
+ 55:
                 return entity;
             }
         };
@@ -3907,18 +3907,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = report.applyMediaFilterSettingsWithCallback;
                 var _closure3_slot1 = oscard;
                 report = null;
-                if(!(report == oscard)) { _fun00096_ip = 97; continue _fun00095 }
- 68:
-                if(!(report != entity)) { _fun00096_ip = 77; continue _fun00095 }
- 72:
+                if(!(report == oscard)) { _fun00096_ip = 95; continue _fun00095 }
+ 66:
+                if(!(report != entity)) { _fun00096_ip = 75; continue _fun00095 }
+ 70:
                 entity = entity.bind(zuuluu)(tangon);
- 77:
+ 75:
                 entity = global;
                 zuuluu = entity.Promise;
                 entity = zuuluu.resolve;
                 entity = entity.bind(zuuluu)();
-                _fun00096_ip = 130; continue _fun00095;
- 97:
+                _fun00096_ip = 128; continue _fun00095;
+ 95:
                 zuuluu = global;
                 tangon = zuuluu.Promise;
                 zuuluu = tangon.prototype;
@@ -3934,7 +3934,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 option = zuuluu;
                 michal = new option[tangon](golfie, oscard);
                 entity = michal instanceof Object ? michal : zuuluu;
- 130:
+ 128:
                 return entity;
             }
         };
@@ -4136,10 +4136,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = null;
                 zuuluu = entity != michal;
                 entity = 0;
-                if(!zuuluu) { _fun00106_ip = 57; continue _fun00105 }
- 54:
+                if(!zuuluu) { _fun00106_ip = 55; continue _fun00105 }
+ 52:
                 entity = michal;
- 57:
+ 55:
                 return entity;
             }
         };
@@ -4292,14 +4292,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = michal.bind(zuuluu)();
                 tangon = report.applySidechainCompressionSettings;
                 michal = null;
-                if(!(michal != tangon)) { _fun00114_ip = 116; continue _fun00113 }
- 93:
+                if(!(michal != tangon)) { _fun00114_ip = 114; continue _fun00113 }
+ 91:
                 zuuluu = tangon.call;
                 michal = {};
                 michal['threshold'] = golfie;
                 michal['ratio'] = oscard;
                 michal = zuuluu.bind(tangon)(report, michal);
- 116:
+ 114:
                 return entity;
             }
         };
@@ -4321,12 +4321,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = michal.bind(zuuluu)();
                 tangon = report.setNativeDesktopVideoSourcePickerActive;
                 michal = null;
-                if(!(michal != tangon)) { _fun00116_ip = 63; continue _fun00115 }
- 49:
+                if(!(michal != tangon)) { _fun00116_ip = 61; continue _fun00115 }
+ 47:
                 zuuluu = tangon.call;
                 michal = argFoo;
                 michal = zuuluu.bind(tangon)(report, michal);
- 63:
+ 61:
                 return entity;
             }
         };
@@ -4349,17 +4349,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = michal.bind(zuuluu)();
                 tangon = report.presentNativeScreenSharePicker;
                 michal = null;
-                if(!(michal != tangon)) { _fun00118_ip = 77; continue _fun00117 }
- 52:
+                if(!(michal != tangon)) { _fun00118_ip = 75; continue _fun00117 }
+ 50:
                 zuuluu = tangon.call;
                 golfie = michal != oscard;
                 michal = '';
-                if(!golfie) { _fun00118_ip = 71; continue _fun00117 }
- 68:
+                if(!golfie) { _fun00118_ip = 69; continue _fun00117 }
+ 66:
                 michal = oscard;
- 71:
+ 69:
                 michal = zuuluu.bind(tangon)(report, michal);
- 77:
+ 75:
                 return entity;
             }
         };
@@ -4381,11 +4381,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = michal.bind(zuuluu)();
                 zuuluu = tangon.releaseNativeDesktopVideoSourcePickerStream;
                 michal = null;
-                if(!(michal != zuuluu)) { _fun00120_ip = 59; continue _fun00119 }
- 49:
+                if(!(michal != zuuluu)) { _fun00120_ip = 57; continue _fun00119 }
+ 47:
                 michal = zuuluu.call;
                 michal = michal.bind(zuuluu)(tangon);
- 59:
+ 57:
                 return entity;
             }
         };

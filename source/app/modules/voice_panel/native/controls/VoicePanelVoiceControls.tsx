@@ -456,17 +456,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = null;
                     michal = zuuluu != tangon;
  20:
-                    if(!michal) { _fun00006_ip = 59; continue _fun00005 }
+                    if(!michal) { _fun00006_ip = 63; continue _fun00005 }
  23:
                     entity = _closure2_slot4;
                     zuuluu = entity.current;
                     entity = null;
-                    if(!(entity != zuuluu)) { _fun00006_ip = 59; continue _fun00005 }
+                    if(!(entity != zuuluu)) { _fun00006_ip = 63; continue _fun00005 }
  38:
                     michal = zuuluu.scrollTo;
                     entity = {'x': 0, 'y': 0, 'animated': false};
                     entity = michal.bind(zuuluu)(entity);
- 59:
+ 63:
                     entity = undefined;
                     return entity;
                 }

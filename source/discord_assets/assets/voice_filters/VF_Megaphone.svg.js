@@ -20,5 +20,9 @@ module.exports = (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal = tangon.bind(report)(michal);
     michal = 'https://cdn.discordapp.com/assets/content/eb7183e5ba35cae63efbd5acfc634f5fa9f06a074d6aa242c1f1193bcb57ae13.svg';
     zuuluu['default'] = michal;
+    michal = {};
+    tangon = 27799;
+    michal['fileBytes'] = tangon;
+    zuuluu['metadata'] = michal;
     return entity;
 })();

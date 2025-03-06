@@ -308,8 +308,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = echoed[source];
             echoed = sequen.bind(tangon)(echoed);
             echoed = echoed.t;
-            if(romeon) { _fun00002_ip = 673; continue _fun00001 }
- 642:
+            if(romeon) { _fun00002_ip = 677; continue _fun00001 }
+ 646:
             romeon = echoed.hvVgAQ;
             romeon = ctrled.bind(vacuum)(romeon);
             output['text'] = romeon;
@@ -331,8 +331,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             output['onPress'] = romeon;
             romeon = output;
-            _fun00002_ip = 704; continue _fun00001;
- 673:
+            _fun00002_ip = 708; continue _fun00001;
+ 677:
             echoed = echoed.9D+zGR;
             echoed = ctrled.bind(vacuum)(echoed);
             output['text'] = echoed;
@@ -366,7 +366,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             output['onPress'] = echoed;
             romeon = output;
- 704:
+ 708:
             kiloes = sizing.bind(tangon)(kiloes, romeon);
             romeon = new Array(3);
             romeon[0] = kiloes;

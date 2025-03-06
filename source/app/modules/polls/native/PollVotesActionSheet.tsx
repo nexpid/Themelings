@@ -756,9 +756,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = oscard.bind(tangon)(zuuluu);
             zuuluu = golfie.useAnimatedStyle;
             michal = function() { // Original name: b
-                entity = {};
-                michal = 1;
-                entity['flex'] = michal;
+                entity = {'flex': 1, 'opacity': null, 'marginBottom': 32};
                 zuuluu = _closure2_slot5;
                 michal = zuuluu.get;
                 michal = michal.bind(zuuluu)();
@@ -768,7 +766,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             foxtra = {};
             foxtra['opacity'] = backup;
             michal['__closure'] = foxtra;
-            foxtra = 7556688646584.0;
+            foxtra = 8593850252158.0;
             michal['__workletHash'] = foxtra;
             foxtra = _closure1_slot19;
             michal['__initData'] = foxtra;
@@ -1179,7 +1177,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot18 = tangon;
     tangon = {};
-    golfie = 'function PollVotesActionSheetTsx1(){const{opacity}=this.__closure;return{flex:1,opacity:opacity.get()};}';
+    golfie = 'function PollVotesActionSheetTsx1(){const{opacity}=this.__closure;return{flex:1,opacity:opacity.get(),marginBottom:32};}';
     tangon['code'] = golfie;
     var _closure1_slot19 = tangon;
     tangon = 40;
