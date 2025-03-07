@@ -176,8 +176,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = _closure2_slot3;
                         golfie = null;
                         michal = golfie != michal;
-                        if(!michal) { _fun00006_ip = 139; continue _fun00005 }
- 58:
+                        if(!michal) { _fun00006_ip = 140; continue _fun00005 }
+ 59:
                         backup = _closure1_slot6;
                         sizing = _closure1_slot1;
                         output = _closure1_slot2;
@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         kiloes = kiloes.channelIcon;
                         offset['style'] = kiloes;
                         michal = backup.bind(foxtra)(yankee, offset);
- 139:
+ 140:
                         entity['children'] = michal;
                         michal = undefined;
                         option = verify.bind(michal)(option, entity);
@@ -215,8 +215,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         yankee = _closure2_slot2;
                         foxtra = golfie != yankee;
                         yankee = null;
-                        if(!foxtra) { _fun00006_ip = 253; continue _fun00005 }
- 217:
+                        if(!foxtra) { _fun00006_ip = 254; continue _fun00005 }
+ 218:
                         foxtra = _closure1_slot0;
                         backup = _closure1_slot2;
                         romeon = 16;
@@ -225,7 +225,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         foxtra = backup.guildEventDetailsParser;
                         romeon = _closure2_slot2;
                         yankee = foxtra.bind(backup)(romeon, kiloes);
- 253:
+ 254:
                         option['children'] = yankee;
                         option = offset.bind(michal)(verify, option);
                         entity[1] = option;
@@ -233,10 +233,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = _closure2_slot2;
                         golfie = golfie != entity;
                         entity = 'preview-body';
-                        if(!golfie) { _fun00006_ip = 292; continue _fun00005 }
- 288:
+                        if(!golfie) { _fun00006_ip = 293; continue _fun00005 }
+ 289:
                         entity = _closure2_slot2;
- 292:
+ 293:
                         entity = report.bind(michal)(tangon, zuuluu, entity);
                         return entity;
                     }
@@ -358,10 +358,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         output = report.bind(entity)(sizing);
         sizing = output.isAndroid;
         sizing = sizing.bind(output)();
-        if(!sizing) { _fun00002_ip = 592; continue _fun00001 }
- 589:
+        if(!sizing) { _fun00002_ip = 604; continue _fun00001 }
+ 601:
         foxtra = kiloes;
- 592:
+ 604:
         backup['translateY'] = foxtra;
         foxtra = new Array(1);
         foxtra[0] = backup;

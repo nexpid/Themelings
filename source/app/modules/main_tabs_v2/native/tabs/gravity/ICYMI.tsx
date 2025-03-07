@@ -154,13 +154,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = foxtra.bind(tangon)(romeon, verify);
             verify = new Array(2);
             verify[0] = romeon;
-            if(offset) { _fun00004_ip = 204; continue _fun00003 }
- 198:
+            if(offset) { _fun00004_ip = 208; continue _fun00003 }
+ 202:
             romeon = 0;
             offset = kiloes > romeon;
- 204:
-            if(!offset) { _fun00004_ip = 257; continue _fun00003 }
- 207:
+ 208:
+            if(!offset) { _fun00004_ip = 261; continue _fun00003 }
+ 211:
             foxtra = _closure1_slot18;
             romeon = _closure1_slot1;
             output = _closure1_slot2;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup + kiloes;
             yankee['value'] = backup;
             offset = foxtra.bind(tangon)(romeon, yankee);
- 257:
+ 261:
             verify[1] = offset;
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
@@ -2735,8 +2735,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = verify.headerTitle;
             golfie['style'] = romeon;
             romeon = null;
-            if(!yankee) { _fun00050_ip = 446; continue _fun00049 }
- 260:
+            if(!yankee) { _fun00050_ip = 450; continue _fun00049 }
+ 264:
             backup = _closure1_slot18;
             output = _closure1_slot0;
             ctrled = _closure1_slot2;
@@ -2779,7 +2779,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = result.bind(tangon)(output, sizing);
             yankee['children'] = sizing;
             romeon = backup.bind(tangon)(foxtra, yankee);
- 446:
+ 450:
             yankee = new Array(3);
             yankee[0] = romeon;
             backup = _closure1_slot18;
@@ -2794,18 +2794,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = verify.headerActions;
             romeon['style'] = sizing;
             result = _closure1_slot18;
-            if(kiloes) { _fun00050_ip = 520; continue _fun00049 }
- 506:
+            if(kiloes) { _fun00050_ip = 524; continue _fun00049 }
+ 510:
             sizing = _closure1_slot29;
             kiloes = {};
             sizing = result.bind(tangon)(sizing, kiloes);
-            _fun00050_ip = 537; continue _fun00049;
- 520:
+            _fun00050_ip = 541; continue _fun00049;
+ 524:
             output = _closure1_slot28;
             kiloes = {};
             kiloes['numUnreadMentions'] = echoed;
             sizing = result.bind(tangon)(output, kiloes);
- 537:
+ 541:
             kiloes = new Array(2);
             kiloes[0] = sizing;
             result = _closure1_slot18;
@@ -2913,14 +2913,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             option = report.bind(oscard)(michal, zuuluu);
-            if(entity) { _fun00052_ip = 209; continue _fun00051 }
+            if(entity) { _fun00052_ip = 210; continue _fun00051 }
  198:
             entity = _closure1_slot5;
             golfie = entity.Fragment;
-            _fun00052_ip = 213; continue _fun00051;
- 209:
+            _fun00052_ip = 214; continue _fun00051;
+ 210:
             golfie = _closure1_slot6;
- 213:
+ 214:
             zuuluu = _closure1_slot18;
             verify = _closure1_slot1;
             backup = _closure1_slot2;

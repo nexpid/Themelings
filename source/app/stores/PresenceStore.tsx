@@ -1297,13 +1297,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = report.getActivities;
                 tangon = michal.bind(report)(golfie, oscard);
                 zuuluu = tangon;
-                if(!entity) { _fun00050_ip = 80; continue _fun00049 }
+                if(!entity) { _fun00050_ip = 78; continue _fun00049 }
  56:
                 michal = tangon.concat;
                 entity = report.getHiddenActivities;
                 entity = entity.bind(report)(golfie, oscard);
                 zuuluu = michal.bind(tangon)(entity);
- 80:
+ 78:
                 michal = zuuluu.find;
                 entity = argBar;
                 entity = michal.bind(zuuluu)(entity);
@@ -1818,31 +1818,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = _closure1_slot17;
             report = tangon[michal];
             tangon = zuuluu.status;
-            if(!(report === tangon)) { _fun00066_ip = 55; continue _fun00065 }
+            if(!(report === tangon)) { _fun00066_ip = 73; continue _fun00065 }
  37:
             tangon = _closure1_slot18;
             report = tangon[michal];
             tangon = zuuluu.activities;
-            if(!(report !== tangon)) { _fun00066_ip = 122; continue _fun00065 }
+            if(!(report === tangon)) { _fun00066_ip = 73; continue _fun00065 }
  55:
+            tangon = _closure1_slot19;
+            report = tangon[michal];
+            tangon = zuuluu.hiddenActivities;
+            if(!(report !== tangon)) { _fun00066_ip = 176; continue _fun00065 }
+ 73:
             report = _closure1_slot17;
             tangon = zuuluu.status;
             report[michal] = tangon;
-            tangon = _closure1_slot18;
-            option = zuuluu.activities;
-            oscard = new Array(0);
-            golfie = 0;
-            verify = oscard;
-            zuuluu = arraySpread(verify, option, golfie);
-            report = oscard.sort;
-            zuuluu = _closure1_slot29;
-            zuuluu = report.bind(oscard)(zuuluu);
+            report = _closure1_slot18;
+            offset = zuuluu.activities;
+            option = new Array(0);
+            yankee = option;
+            verify = 0;
+            tangon = arraySpread(yankee, offset, verify);
+            tangon = option.sort;
+            oscard = _closure1_slot29;
+            tangon = tangon.bind(option)(oscard);
+            report[michal] = tangon;
+            tangon = _closure1_slot19;
+            offset = zuuluu.hiddenActivities;
+            report = new Array(0);
+            yankee = report;
+            zuuluu = arraySpread(yankee, offset, verify);
+            zuuluu = report.sort;
+            zuuluu = zuuluu.bind(report)(oscard);
             tangon[michal] = zuuluu;
             entity = _closure1_slot21;
             entity = delete entity[michal];
             entity = undefined;
             return entity;
- 122:
+ 176:
             entity = false;
             return entity;
         }

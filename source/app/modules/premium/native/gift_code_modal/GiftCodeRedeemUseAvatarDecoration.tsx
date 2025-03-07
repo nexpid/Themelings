@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['saveButtonText'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot10 = tangon;
-    tangon = 17;
+    tangon = 18;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = {};
         michal['analyticsLocations'] = golfie;
         michal = zuuluu.bind(tangon)(michal);
-        result = michal.pendingAvatar;
+        verify = michal.pendingAvatarV2;
         michal = 10;
         michal = sizing[michal];
         michal = offset.bind(tangon)(michal);
@@ -122,6 +122,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         backup = michal.isSubmitting;
         golfie = michal.pendingAvatarDecoration;
         var _closure2_slot2 = golfie;
+        kiloes = _closure1_slot0;
+        michal = 11;
+        michal = sizing[michal];
+        option = kiloes.bind(tangon)(michal);
+        zuuluu = option.getPendingAvatarSrc;
+        michal = {};
+        romeon = ctrled.id;
+        michal['userId'] = romeon;
+        michal['image'] = verify;
+        result = zuuluu.bind(option)(michal);
         michal = function() {
             tangon = _closure1_slot3;
             zuuluu = undefined;
@@ -145,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  30:
                         report = _closure1_slot1;
                         oscard = _closure1_slot2;
-                        tangon = 11;
+                        tangon = 12;
                         tangon = oscard[tangon];
                         report = report.bind(zuuluu)(tangon);
                         tangon = report.pop;
@@ -188,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  15:
                 zuuluu = _closure1_slot0;
                 tangon = _closure1_slot2;
-                michal = 12;
+                michal = 13;
                 michal = tangon[michal];
                 tangon = undefined;
                 zuuluu = zuuluu.bind(tangon)(michal);
@@ -202,8 +212,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         };
         entity = zuuluu.bind(report)(entity, michal);
         zuuluu = _closure1_slot9;
-        kiloes = _closure1_slot0;
-        entity = 13;
+        entity = 14;
         entity = sizing[entity];
         entity = kiloes.bind(tangon)(entity);
         michal = entity.SafeAreaPaddingView;
@@ -215,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         option = _closure1_slot8;
         golfie = _closure1_slot7;
         report = {};
-        verify = 14;
+        verify = 15;
         verify = sizing[verify];
         verify = kiloes.bind(tangon)(verify);
         romeon = verify.EditAvatarDecorationInner;
@@ -224,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         verify['selectedAvatarDecoration'] = source;
         verify['setSelectedAvatarDecoration'] = update;
         verify['purchases'] = echoed;
-        verify['pendingAvatar'] = result;
+        verify['pendingAvatarSrc'] = result;
         verify['scrollToInitialItem'] = output;
         verify = option.bind(tangon)(romeon, verify);
         report['children'] = verify;
@@ -235,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = {};
         verify = yankee.saveButtonContainer;
         oscard['style'] = verify;
-        romeon = 15;
+        romeon = 16;
         verify = sizing[romeon];
         offset = offset.bind(tangon)(verify);
         verify = {};
@@ -251,7 +260,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         romeon = romeon.ButtonSizes;
         romeon = romeon.MEDIUM;
         verify['size'] = romeon;
-        romeon = 16;
+        romeon = 17;
         foxtra = sizing[romeon];
         foxtra = kiloes.bind(tangon)(foxtra);
         backup = foxtra.intl;

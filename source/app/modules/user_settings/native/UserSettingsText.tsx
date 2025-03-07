@@ -779,8 +779,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             sizing = kiloes.FormHint;
             kiloes = {};
             result = null;
-            if(echoed) { _fun00002_ip = 1838; continue _fun00001 }
- 1827:
+            if(echoed) { _fun00002_ip = 1840; continue _fun00001 }
+ 1829:
             echoed = function() { // Original name: renderNitroUpsellText
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -874,8 +874,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     entity = zuuluu.isAndroid;
                     entity = entity.bind(zuuluu)();
                     tangon = _closure1_slot15;
-                    if(entity) { _fun00004_ip = 369; continue _fun00003 }
- 321:
+                    if(entity) { _fun00004_ip = 373; continue _fun00003 }
+ 325:
                     zuuluu = _closure1_slot4;
                     entity = {};
                     oscard = _closure1_slot17;
@@ -887,8 +887,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     oscard[2] = golfie;
                     entity['children'] = oscard;
                     entity = tangon.bind(report)(zuuluu, entity);
-                    _fun00004_ip = 401; continue _fun00003;
- 369:
+                    _fun00004_ip = 405; continue _fun00003;
+ 373:
                     zuuluu = _closure1_slot16;
                     michal = {};
                     oscard = new Array(3);
@@ -897,12 +897,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     oscard[2] = golfie;
                     michal['children'] = oscard;
                     entity = tangon.bind(report)(zuuluu, michal);
- 401:
+ 405:
                     return entity;
                 }
             };
             result = echoed.bind(tangon)();
- 1838:
+ 1840:
             kiloes['children'] = result;
             kiloes = output.bind(tangon)(sizing, kiloes);
             romeon[2] = kiloes;

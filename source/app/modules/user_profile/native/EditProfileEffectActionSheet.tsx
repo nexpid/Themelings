@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  50:
                     michal = zuuluu;
  53:
-                    if(michal) { _fun00006_ip = 122; continue _fun00005 }
+                    if(michal) { _fun00006_ip = 126; continue _fun00005 }
  56:
                     zuuluu = _closure1_slot1;
                     tangon = _closure1_slot2;
@@ -317,7 +317,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = michal.bind(oscard)(golfie, entity);
                     entity = {'withMutualGuilds': true, 'dispatchWait': true};
                     entity = tangon.bind(report)(zuuluu, michal, entity);
- 122:
+ 126:
                     entity = undefined;
                     return entity;
                 }
@@ -1316,15 +1316,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = limora.isNonUserBot;
             offset = option.bind(limora)();
             option = undefined;
-            if(!offset) { _fun00010_ip = 1325; continue _fun00009 }
- 1304:
+            if(!offset) { _fun00010_ip = 1329; continue _fun00009 }
+ 1308:
             offset = limora.isClyde;
             offset = offset.bind(limora)();
             option = undefined;
-            if(offset) { _fun00010_ip = 1325; continue _fun00009 }
- 1319:
+            if(offset) { _fun00010_ip = 1329; continue _fun00009 }
+ 1323:
             option = 264;
- 1325:
+ 1329:
             report['startHeight'] = option;
             yankee = _closure1_slot14;
             offset = _closure1_slot0;
@@ -1390,25 +1390,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = result[ctrled];
             echoed = echoed.bind(tangon)(result);
             result = {};
-            if(vacuum) { _fun00010_ip = 1636; continue _fun00009 }
- 1602:
-            if(kiloes) { _fun00010_ip = 1636; continue _fun00009 }
- 1605:
+            if(vacuum) { _fun00010_ip = 1640; continue _fun00009 }
+ 1606:
+            if(kiloes) { _fun00010_ip = 1640; continue _fun00009 }
+ 1609:
             vacuum = _closure1_slot0;
             kiloes = _closure1_slot2;
             kiloes = kiloes[ctrled];
             kiloes = vacuum.bind(tangon)(kiloes);
             kiloes = kiloes.ButtonColors;
             kiloes = kiloes.GREEN;
-            _fun00010_ip = 1665; continue _fun00009;
- 1636:
+            _fun00010_ip = 1669; continue _fun00009;
+ 1640:
             sequen = _closure1_slot0;
             vacuum = _closure1_slot2;
             vacuum = vacuum[ctrled];
             vacuum = sequen.bind(tangon)(vacuum);
             vacuum = vacuum.ButtonColors;
             kiloes = vacuum.BRAND;
- 1665:
+ 1669:
             result['color'] = kiloes;
             result['onPress'] = backup;
             backup = _closure1_slot0;

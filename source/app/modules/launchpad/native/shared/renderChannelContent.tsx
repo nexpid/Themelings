@@ -78,10 +78,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         result = report.bind(entity)(output);
         output = result.isAndroid;
         output = output.bind(result)();
-        if(!output) { _fun00002_ip = 345; continue _fun00001 }
- 342:
+        if(!output) { _fun00002_ip = 349; continue _fun00001 }
+ 346:
         kiloes = sizing;
- 345:
+ 349:
         verify['marginTop'] = kiloes;
         kiloes = 8;
         verify['marginRight'] = kiloes;
@@ -96,10 +96,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         backup = kiloes.isAndroid;
         kiloes = backup.bind(kiloes)();
         backup = 0;
-        if(!kiloes) { _fun00002_ip = 414; continue _fun00001 }
- 411:
+        if(!kiloes) { _fun00002_ip = 422; continue _fun00001 }
+ 419:
         backup = yankee;
- 414:
+ 422:
         verify['marginTop'] = backup;
         tangon['channelTraitIcon'] = verify;
         verify = {};
@@ -109,10 +109,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         romeon = foxtra.isAndroid;
         romeon = romeon.bind(foxtra)();
         offset = 0;
-        if(!romeon) { _fun00002_ip = 456; continue _fun00001 }
- 453:
+        if(!romeon) { _fun00002_ip = 464; continue _fun00001 }
+ 461:
         offset = yankee;
- 456:
+ 464:
         verify['marginTop'] = offset;
         tangon['channelTraitIconMuted'] = verify;
         tangon = golfie.bind(option)(tangon);

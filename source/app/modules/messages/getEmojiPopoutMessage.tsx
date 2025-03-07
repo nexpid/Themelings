@@ -345,7 +345,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
  977:
             if(!option) { _fun00002_ip = 986; continue _fun00001 }
  980:
-            if(michal) { _fun00002_ip = 1114; continue _fun00001 }
+            if(michal) { _fun00002_ip = 1118; continue _fun00001 }
  986:
             if(option) { _fun00002_ip = 1083; continue _fun00001 }
  989:
@@ -375,16 +375,16 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal['text'] = report;
             report = null;
             michal['description'] = report;
-            _fun00002_ip = 1112; continue _fun00001;
+            _fun00002_ip = 1116; continue _fun00001;
  1083:
             report = {'type': null, 'text': null, 'description': null};
             golfie = _closure1_slot4;
             golfie = golfie.UNAVAILABLE;
             report['type'] = golfie;
             michal = report;
- 1112:
-            _fun00002_ip = 1200; continue _fun00001;
- 1114:
+ 1116:
+            _fun00002_ip = 1204; continue _fun00001;
+ 1118:
             report = {};
             golfie = _closure1_slot4;
             golfie = golfie.JOIN_GUILD;
@@ -406,7 +406,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             oscard = null;
             report['description'] = oscard;
             michal = report;
- 1200:
+ 1204:
             source = entity;
             update = michal;
             michal = copyDataProperties(source, update);

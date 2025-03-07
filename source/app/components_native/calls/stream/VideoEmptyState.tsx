@@ -113,26 +113,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot1 = tangon;
             zuuluu = _closure1_slot8;
             zuuluu = zuuluu.STREAM_ENDED;
-            if(!(zuuluu !== verify)) { _fun00002_ip = 334; continue _fun00001 }
- 94:
+            if(!(zuuluu !== verify)) { _fun00002_ip = 338; continue _fun00001 }
+ 98:
             zuuluu = _closure1_slot8;
             zuuluu = zuuluu.STREAM_FAILED;
-            if(!(zuuluu !== verify)) { _fun00002_ip = 134; continue _fun00001 }
- 108:
+            if(!(zuuluu !== verify)) { _fun00002_ip = 138; continue _fun00001 }
+ 112:
             zuuluu = _closure1_slot8;
             zuuluu = zuuluu.NONE;
             golfie = undefined;
-            if(!(zuuluu === verify)) { _fun00002_ip = 531; continue _fun00001 }
- 127:
+            if(!(zuuluu === verify)) { _fun00002_ip = 535; continue _fun00001 }
+ 131:
             golfie = null;
-            _fun00002_ip = 531; continue _fun00001;
- 134:
+            _fun00002_ip = 535; continue _fun00001;
+ 138:
             verify = _closure1_slot7;
             zuuluu = _closure1_slot6;
             michal = {};
             backup = !romeon;
-            if(!backup) { _fun00002_ip = 202; continue _fun00001 }
- 150:
+            if(!backup) { _fun00002_ip = 206; continue _fun00001 }
+ 154:
             sizing = _closure1_slot5;
             kiloes = _closure1_slot0;
             output = _closure1_slot2;
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = output.placeholderImage;
             foxtra['style'] = output;
             backup = sizing.bind(tangon)(kiloes, foxtra);
- 202:
+ 206:
             foxtra = new Array(2);
             foxtra[0] = backup;
             sizing = _closure1_slot5;
@@ -174,14 +174,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra[1] = backup;
             michal['children'] = foxtra;
             golfie = verify.bind(tangon)(zuuluu, michal);
-            _fun00002_ip = 531; continue _fun00001;
- 334:
+            _fun00002_ip = 535; continue _fun00001;
+ 338:
             verify = _closure1_slot7;
             zuuluu = _closure1_slot6;
             michal = {};
             foxtra = !romeon;
-            if(!foxtra) { _fun00002_ip = 402; continue _fun00001 }
- 350:
+            if(!foxtra) { _fun00002_ip = 406; continue _fun00001 }
+ 354:
             kiloes = _closure1_slot5;
             backup = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -194,7 +194,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = sizing.placeholderImage;
             romeon['style'] = sizing;
             foxtra = kiloes.bind(tangon)(backup, romeon);
- 402:
+ 406:
             romeon = new Array(2);
             romeon[0] = foxtra;
             kiloes = _closure1_slot5;
@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon[1] = foxtra;
             michal['children'] = romeon;
             golfie = verify.bind(tangon)(zuuluu, michal);
- 531:
+ 535:
             verify = _closure1_slot0;
             zuuluu = _closure1_slot2;
             michal = 10;
@@ -301,8 +301,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = new Array(2);
             oscard[0] = golfie;
             report = !report;
-            if(!report) { _fun00002_ip = 827; continue _fun00001 }
- 690:
+            if(!report) { _fun00002_ip = 831; continue _fun00001 }
+ 694:
             verify = _closure1_slot5;
             foxtra = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -349,7 +349,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             golfie['onPress'] = offset;
             report = verify.bind(tangon)(option, golfie);
- 827:
+ 831:
             oscard[1] = report;
             report = 'children';
             entity[report] = oscard;

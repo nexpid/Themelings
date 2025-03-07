@@ -13,7 +13,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = argFoo;
             michal = zuuluu.size;
             verify = zuuluu.showStatus;
-            romeon = zuuluu.pendingAvatar;
+            romeon = zuuluu.pendingAvatarSrc;
             tangon = zuuluu.pendingAvatarDecoration;
             zuuluu = _closure1_slot9;
             report = undefined;

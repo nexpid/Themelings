@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, _, __, ___, argPlu) {
  94:
                     _closure3_slot1 = report;
                     michal = null;
-                    if(!(michal != report)) { _fun00004_ip = 202; continue _fun00003 }
+                    if(!(michal != report)) { _fun00004_ip = 208; continue _fun00003 }
  104:
                     michal = {};
                     zuuluu = {};
@@ -101,24 +101,24 @@ export default (function(argFoo, argBar, argBaz, _, __, ___, argPlu) {
                     michal['mandatory'] = zuuluu;
                     tangon = {};
                     zuuluu = report.voiceActivityDetection;
-                    if(zuuluu) { _fun00004_ip = 158; continue _fun00003 }
- 156:
-                    zuuluu = false;
+                    if(zuuluu) { _fun00004_ip = 160; continue _fun00003 }
  158:
+                    zuuluu = false;
+ 160:
                     tangon['VoiceActivityDetection'] = zuuluu;
                     zuuluu = new Array(2);
                     zuuluu[0] = tangon;
                     tangon = {};
                     report = report.iceRestart;
-                    if(report) { _fun00004_ip = 184; continue _fun00003 }
- 182:
+                    if(report) { _fun00004_ip = 188; continue _fun00003 }
+ 186:
                     report = false;
- 184:
+ 188:
                     tangon['IceRestart'] = report;
                     zuuluu[1] = tangon;
                     michal['optional'] = zuuluu;
                     _closure3_slot1 = michal;
- 202:
+ 208:
                     michal = global;
                     zuuluu = michal.Promise;
                     michal = zuuluu.prototype;

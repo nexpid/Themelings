@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.guildId;
             var _closure2_slot1 = entity;
             output = michal.disableStatus;
-            entity = michal.pendingAvatar;
+            entity = michal.pendingAvatarSrc;
             var _closure2_slot2 = entity;
             oscard = michal.pendingAvatarDecoration;
             verify = michal.style;

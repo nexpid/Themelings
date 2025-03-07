@@ -1244,7 +1244,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  121:
                     entity = _closure2_slot19;
                     tangon = _closure1_slot21;
-                    if(entity) { _fun00034_ip = 647; continue _fun00033 }
+                    if(entity) { _fun00034_ip = 651; continue _fun00033 }
  135:
                     michal = _closure1_slot6;
                     entity = {};
@@ -1358,8 +1358,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu[2] = oscard;
                     entity['children'] = zuuluu;
                     entity = tangon.bind(report)(michal, entity);
-                    _fun00034_ip = 835; continue _fun00033;
- 647:
+                    _fun00034_ip = 839; continue _fun00033;
+ 651:
                     zuuluu = _closure1_slot22;
                     michal = {};
                     verify = _closure1_slot20;
@@ -1400,7 +1400,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard[1] = golfie;
                     michal['children'] = oscard;
                     entity = tangon.bind(report)(zuuluu, michal);
- 835:
+ 839:
                     return entity;
                 }
             };

@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: BanConfirmModal
         entity = argFoo;
-        zuuluu = entity.cancelButtonCallback;
+        golfie = entity.cancelButtonCallback;
         michal = entity.guildId;
         var _closure2_slot0 = michal;
         entity = entity.userId;
@@ -43,8 +43,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = 2;
         entity = offset[entity];
         tangon = undefined;
-        entity = michal.bind(tangon)(entity);
-        entity = entity.bind(tangon)(zuuluu);
+        zuuluu = michal.bind(tangon)(entity);
+        entity = {};
+        entity['onBeforeGoBack'] = golfie;
+        entity = zuuluu.bind(tangon)(entity);
+        entity = entity.onGoBack;
         var _closure2_slot2 = entity;
         zuuluu = _closure1_slot3;
         entity = 3;

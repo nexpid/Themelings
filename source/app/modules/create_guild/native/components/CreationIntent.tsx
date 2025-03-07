@@ -355,8 +355,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = update[kiloes];
             result = ctrled.bind(tangon)(foxtra);
             foxtra = {};
-            if(offset) { _fun00002_ip = 674; continue _fun00001 }
- 473:
+            if(offset) { _fun00002_ip = 678; continue _fun00001 }
+ 477:
             offset = 17;
             offset = update[offset];
             offset = ctrled.bind(tangon)(offset);
@@ -412,8 +412,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset[1] = source;
             romeon['children'] = offset;
             offset = romeon;
-            _fun00002_ip = 870; continue _fun00001;
- 674:
+            _fun00002_ip = 874; continue _fun00001;
+ 678:
             source = 16;
             source = update[source];
             source = ctrled.bind(tangon)(source);
@@ -469,7 +469,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra[1] = kiloes;
             romeon['children'] = foxtra;
             offset = romeon;
- 870:
+ 874:
             offset = golfie.bind(tangon)(yankee, offset);
             option[1] = offset;
             yankee = _closure1_slot11;

@@ -542,7 +542,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             echoed = oscard.bind(option)(zuuluu, tangon);
-            if(entity) { _fun00006_ip = 780; continue _fun00005 }
+            if(entity) { _fun00006_ip = 784; continue _fun00005 }
  360:
             tangon = _closure1_slot18;
             zuuluu = _closure1_slot7;
@@ -623,27 +623,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = backup.bind(report)(offset, option);
             oscard[2] = option;
             offset = _closure1_slot16;
-            if(golfie) { _fun00006_ip = 738; continue _fun00005 }
- 714:
+            if(golfie) { _fun00006_ip = 742; continue _fun00005 }
+ 718:
             option = _closure1_slot20;
             golfie = {};
             golfie['handleCreateTeamClick'] = verify;
             golfie['isGuildOwner'] = yankee;
             golfie = offset.bind(report)(option, golfie);
-            _fun00006_ip = 764; continue _fun00005;
- 738:
+            _fun00006_ip = 768; continue _fun00005;
+ 742:
             verify = _closure1_slot21;
             option = {};
             option['guild'] = foxtra;
             option['teams'] = romeon;
             option['isGuildOwner'] = yankee;
             golfie = offset.bind(report)(verify, option);
- 764:
+ 768:
             oscard[3] = golfie;
             entity['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00006_ip = 812; continue _fun00005;
- 780:
+            _fun00006_ip = 816; continue _fun00005;
+ 784:
             tangon = _closure1_slot16;
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot3;
@@ -652,7 +652,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(report)(michal);
             michal = {};
             entity = tangon.bind(report)(zuuluu, michal);
- 812:
+ 816:
             return entity;
         }
     };

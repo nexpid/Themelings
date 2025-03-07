@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot0 = michal;
             option = entity.pendingThemeColors;
             tangon = entity.guildId;
-            golfie = entity.pendingAvatar;
+            golfie = entity.pendingAvatarSrc;
             romeon = entity.showResetMenu;
             report = undefined;
             if(!(romeon === report)) { _fun00002_ip = 51; continue _fun00001 }

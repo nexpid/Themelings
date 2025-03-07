@@ -420,6 +420,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = entity.collectibles;
             if(!(tangon !== oscard)) { _fun00016_ip = 307; continue _fun00015 }
  265:
+            zuuluu = delete entity.collectibles;
             report = _closure1_slot0;
             golfie = _closure1_slot3;
             zuuluu = 14;
@@ -428,7 +429,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.parseServerUserCollectibles;
             zuuluu = zuuluu.bind(report)(oscard);
             entity['collectibles'] = zuuluu;
-            zuuluu = delete entity.collectibles;
  307:
             zuuluu = entity.global_name;
             if(!(tangon !== zuuluu)) { _fun00016_ip = 328; continue _fun00015 }

@@ -916,7 +916,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = michal.COLLAPSED_HEADER_HEIGHT;
                     verify = oscard - michal;
                     michal = null;
-                    if(!(michal == report)) { _fun00014_ip = 204; continue _fun00013 }
+                    if(!(michal == report)) { _fun00014_ip = 208; continue _fun00013 }
  62:
                     oscard = _closure2_slot16;
                     oscard = oscard.current;
@@ -927,47 +927,47 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = 0;
                     if(!(!(offset < oscard))) { _fun00014_ip = 162; continue _fun00013 }
  94:
-                    if(!(option > oscard)) { _fun00014_ip = 389; continue _fun00013 }
+                    if(!(option > oscard)) { _fun00014_ip = 393; continue _fun00013 }
  101:
                     offset = _closure2_slot48;
                     oscard = offset.get;
                     oscard = oscard.bind(offset)();
-                    if(!(oscard > option)) { _fun00014_ip = 389; continue _fun00013 }
+                    if(!(oscard > option)) { _fun00014_ip = 393; continue _fun00013 }
  121:
                     oscard = _closure2_slot12;
                     offset = oscard.current;
-                    if(!(michal != offset)) { _fun00014_ip = 389; continue _fun00013 }
+                    if(!(michal != offset)) { _fun00014_ip = 393; continue _fun00013 }
  137:
                     option = offset.scrollToEnd;
                     oscard = {};
                     yankee = true;
                     oscard['animated'] = yankee;
                     oscard = option.bind(offset)(oscard);
-                    _fun00014_ip = 389; continue _fun00013;
+                    _fun00014_ip = 393; continue _fun00013;
  162:
                     oscard = _closure2_slot12;
                     offset = oscard.current;
-                    if(!(michal != offset)) { _fun00014_ip = 389; continue _fun00013 }
+                    if(!(michal != offset)) { _fun00014_ip = 393; continue _fun00013 }
  178:
                     option = offset.scrollTo;
                     oscard = {'y': 0, 'animated': true};
                     oscard = option.bind(offset)(oscard);
-                    _fun00014_ip = 389; continue _fun00013;
- 204:
+                    _fun00014_ip = 393; continue _fun00013;
+ 208:
                     oscard = _closure2_slot13;
                     option = oscard.current;
                     oscard = report.name;
                     oscard = option[oscard];
                     report = report.required;
-                    if(report) { _fun00014_ip = 242; continue _fun00013 }
- 231:
+                    if(report) { _fun00014_ip = 246; continue _fun00013 }
+ 235:
                     report = _closure2_slot15;
                     report = report.current;
-                    _fun00014_ip = 251; continue _fun00013;
- 242:
+                    _fun00014_ip = 255; continue _fun00013;
+ 246:
                     option = _closure2_slot14;
                     report = option.current;
- 251:
+ 255:
                     report = oscard + report;
                     oscard = _closure1_slot0;
                     tangon = _closure1_slot3;
@@ -982,14 +982,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = _closure2_slot48;
                     report = golfie.get;
                     report = report.bind(golfie)();
-                    if(!(!(oscard < report))) { _fun00014_ip = 320; continue _fun00013 }
- 316:
-                    if(!(oscard > tangon)) { _fun00014_ip = 389; continue _fun00013 }
+                    if(!(!(oscard < report))) { _fun00014_ip = 324; continue _fun00013 }
  320:
+                    if(!(oscard > tangon)) { _fun00014_ip = 393; continue _fun00013 }
+ 324:
                     zuuluu = _closure2_slot12;
                     tangon = zuuluu.current;
-                    if(!(michal != tangon)) { _fun00014_ip = 389; continue _fun00013 }
- 333:
+                    if(!(michal != tangon)) { _fun00014_ip = 393; continue _fun00013 }
+ 337:
                     zuuluu = tangon.scrollTo;
                     michal = {};
                     report = global;
@@ -1004,7 +1004,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = true;
                     michal['animated'] = report;
                     michal = zuuluu.bind(tangon)(michal);
- 389:
+ 393:
                     return entity;
                 }
             };
@@ -3213,11 +3213,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = {'command': null, 'sectionDescriptor': null, 'hasPermission': false};
                     michal = michal.fetchState;
                     michal = michal.fetching;
-                    if(michal) { _fun00044_ip = 774; continue _fun00043 }
- 762:
+                    if(michal) { _fun00044_ip = 778; continue _fun00043 }
+ 766:
                     zuuluu = zuuluu.fetchState;
                     michal = zuuluu.fetching;
- 774:
+ 778:
                     entity['loading'] = michal;
                     return entity;
                 }

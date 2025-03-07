@@ -2719,7 +2719,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = report.bind(oscard)(tangon, entity);
  42:
                 entity = oscard;
-                if(!(zuuluu == michal)) { _fun00066_ip = 104; continue _fun00065 }
+                if(!(zuuluu == michal)) { _fun00066_ip = 108; continue _fun00065 }
  49:
                 zuuluu = oscard.mutate;
                 michal = {'ready': true, 'cached': true};
@@ -2731,7 +2731,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = new Array(1);
                 michal[0] = report;
                 entity = zuuluu.bind(tangon)(michal);
- 104:
+ 108:
                 return entity;
             }
         };
@@ -2757,7 +2757,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = report.bind(oscard)(tangon, entity);
  42:
                 entity = oscard;
-                if(!(zuuluu == michal)) { _fun00068_ip = 104; continue _fun00067 }
+                if(!(zuuluu == michal)) { _fun00068_ip = 108; continue _fun00067 }
  49:
                 zuuluu = oscard.mutate;
                 michal = {'ready': true, 'cached': true};
@@ -2769,7 +2769,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = new Array(1);
                 michal[0] = report;
                 entity = zuuluu.bind(tangon)(michal);
- 104:
+ 108:
                 return entity;
             }
         };
@@ -3073,12 +3073,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = {'ready': true, 'loadingMore': false};
                 output = yankee == offset;
                 golfie = undefined;
-                if(output) { _fun00072_ip = 661; continue _fun00071 }
- 655:
+                if(output) { _fun00072_ip = 665; continue _fun00071 }
+ 659:
                 golfie = offset.jumpType;
- 661:
-                if(!(yankee == golfie)) { _fun00072_ip = 697; continue _fun00071 }
  665:
+                if(!(yankee == golfie)) { _fun00072_ip = 701; continue _fun00071 }
+ 669:
                 output = _closure1_slot0;
                 result = _closure1_slot3;
                 kiloes = 7;
@@ -3086,104 +3086,104 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 kiloes = output.bind(backup)(kiloes);
                 kiloes = kiloes.JumpTypes;
                 golfie = kiloes.ANIMATED;
- 697:
+ 701:
                 entity['jumpType'] = golfie;
                 golfie = yankee == offset;
                 kiloes = undefined;
-                if(golfie) { _fun00072_ip = 717; continue _fun00071 }
- 711:
+                if(golfie) { _fun00072_ip = 721; continue _fun00071 }
+ 715:
                 kiloes = offset.flash;
- 717:
+ 721:
                 golfie = yankee != kiloes;
-                if(!golfie) { _fun00072_ip = 727; continue _fun00071 }
- 724:
+                if(!golfie) { _fun00072_ip = 731; continue _fun00071 }
+ 728:
                 golfie = kiloes;
- 727:
+ 731:
                 entity['jumpFlash'] = golfie;
                 golfie = yankee != offset;
                 entity['jumped'] = golfie;
                 golfie = yankee == offset;
                 kiloes = undefined;
-                if(golfie) { _fun00072_ip = 756; continue _fun00071 }
- 750:
+                if(golfie) { _fun00072_ip = 760; continue _fun00071 }
+ 754:
                 kiloes = offset.present;
- 756:
+ 760:
                 golfie = yankee != kiloes;
-                if(!golfie) { _fun00072_ip = 766; continue _fun00071 }
- 763:
+                if(!golfie) { _fun00072_ip = 770; continue _fun00071 }
+ 767:
                 golfie = kiloes;
- 766:
+ 770:
                 entity['jumpedToPresent'] = golfie;
                 golfie = yankee == offset;
                 kiloes = undefined;
-                if(golfie) { _fun00072_ip = 785; continue _fun00071 }
- 780:
+                if(golfie) { _fun00072_ip = 789; continue _fun00071 }
+ 784:
                 kiloes = offset.messageId;
- 785:
+ 789:
                 output = yankee != kiloes;
                 golfie = null;
-                if(!output) { _fun00072_ip = 797; continue _fun00071 }
- 794:
+                if(!output) { _fun00072_ip = 801; continue _fun00071 }
+ 798:
                 golfie = kiloes;
- 797:
+ 801:
                 entity['jumpTargetId'] = golfie;
                 kiloes = yankee != offset;
                 golfie = 0;
-                if(!kiloes) { _fun00072_ip = 846; continue _fun00071 }
- 811:
+                if(!kiloes) { _fun00072_ip = 850; continue _fun00071 }
+ 815:
                 kiloes = offset.messageId;
                 kiloes = yankee != kiloes;
                 golfie = 0;
-                if(!kiloes) { _fun00072_ip = 846; continue _fun00071 }
- 825:
+                if(!kiloes) { _fun00072_ip = 850; continue _fun00071 }
+ 829:
                 kiloes = offset.offset;
                 kiloes = yankee != kiloes;
                 golfie = 0;
-                if(!kiloes) { _fun00072_ip = 846; continue _fun00071 }
- 840:
+                if(!kiloes) { _fun00072_ip = 850; continue _fun00071 }
+ 844:
                 golfie = offset.offset;
- 846:
+ 850:
                 entity['jumpTargetOffset'] = golfie;
-                if(!(yankee == offset)) { _fun00072_ip = 863; continue _fun00071 }
- 855:
+                if(!(yankee == offset)) { _fun00072_ip = 867; continue _fun00071 }
+ 859:
                 golfie = zuuluu.jumpSequenceId;
-                _fun00072_ip = 876; continue _fun00071;
- 863:
+                _fun00072_ip = 880; continue _fun00071;
+ 867:
                 sizing = zuuluu.jumpSequenceId;
                 kiloes = 1;
                 golfie = sizing + kiloes;
- 876:
+ 880:
                 entity['jumpSequenceId'] = golfie;
                 golfie = yankee == offset;
                 backup = undefined;
-                if(golfie) { _fun00072_ip = 896; continue _fun00071 }
- 890:
+                if(golfie) { _fun00072_ip = 900; continue _fun00071 }
+ 894:
                 backup = offset.returnMessageId;
- 896:
+ 900:
                 kiloes = yankee != backup;
                 golfie = null;
-                if(!kiloes) { _fun00072_ip = 908; continue _fun00071 }
- 905:
+                if(!kiloes) { _fun00072_ip = 912; continue _fun00071 }
+ 909:
                 golfie = backup;
- 908:
+ 912:
                 entity['jumpReturnTargetId'] = golfie;
                 golfie = foxtra;
-                if(!(yankee == offset)) { _fun00072_ip = 932; continue _fun00071 }
- 920:
+                if(!(yankee == offset)) { _fun00072_ip = 936; continue _fun00071 }
+ 924:
                 golfie = foxtra;
-                if(!romeon) { _fun00072_ip = 932; continue _fun00071 }
- 926:
+                if(!romeon) { _fun00072_ip = 936; continue _fun00071 }
+ 930:
                 golfie = zuuluu.hasMoreBefore;
- 932:
+ 936:
                 entity['hasMoreBefore'] = golfie;
                 golfie = verify;
-                if(!(yankee == offset)) { _fun00072_ip = 956; continue _fun00071 }
- 944:
+                if(!(yankee == offset)) { _fun00072_ip = 960; continue _fun00071 }
+ 948:
                 golfie = verify;
-                if(!option) { _fun00072_ip = 956; continue _fun00071 }
- 950:
+                if(!option) { _fun00072_ip = 960; continue _fun00071 }
+ 954:
                 golfie = zuuluu.hasMoreAfter;
- 956:
+ 960:
                 entity['hasMoreAfter'] = golfie;
                 entity['cached'] = oscard;
                 report = report.hasFetched;

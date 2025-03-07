@@ -448,9 +448,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = _closure1_slot10;
             golfie = _closure1_slot5;
             oscard = 'nitro_home';
-            if(!(oscard === verify)) { _fun00008_ip = 619; continue _fun00007 }
+            if(!(oscard === verify)) { _fun00008_ip = 627; continue _fun00007 }
  386:
-            if(kiloes) { _fun00008_ip = 619; continue _fun00007 }
+            if(kiloes) { _fun00008_ip = 627; continue _fun00007 }
  392:
             oscard = {};
             yankee = backup;
@@ -461,22 +461,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = new Array(6);
             verify[0] = yankee;
             yankee = backup;
-            if(!backup) { _fun00008_ip = 430; continue _fun00007 }
+            if(!backup) { _fun00008_ip = 434; continue _fun00007 }
  420:
             yankee = {'borderTopColor': 'rgba(184, 69, 193, 0.5)', 'borderTopWidth': 2};
- 430:
+ 434:
             verify[1] = yankee;
             yankee = romeon;
-            if(!romeon) { _fun00008_ip = 446; continue _fun00007 }
- 440:
+            if(!romeon) { _fun00008_ip = 450; continue _fun00007 }
+ 444:
             yankee = foxtra.bottomBorderRadius;
- 446:
+ 450:
             verify[2] = yankee;
             yankee = romeon;
-            if(!romeon) { _fun00008_ip = 466; continue _fun00007 }
- 456:
+            if(!romeon) { _fun00008_ip = 474; continue _fun00007 }
+ 460:
             yankee = {'borderBottomColor': 'rgba(184, 69, 193, 0.5)', 'borderBottomWidth': 2};
- 466:
+ 474:
             verify[3] = yankee;
             yankee = foxtra.nitroHomeHightlightedBorderLeftRight;
             verify[4] = yankee;
@@ -512,8 +512,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['children'] = offset;
             verify = sizing.bind(tangon)(yankee, verify);
             oscard['children'] = verify;
-            _fun00008_ip = 698; continue _fun00007;
- 619:
+            _fun00008_ip = 706; continue _fun00007;
+ 627:
             verify = {};
             sizing = foxtra.cell;
             yankee = new Array(5);
@@ -521,25 +521,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = foxtra.dataCell;
             yankee[1] = sizing;
             kiloes = !kiloes;
-            if(!kiloes) { _fun00008_ip = 657; continue _fun00007 }
- 651:
+            if(!kiloes) { _fun00008_ip = 665; continue _fun00007 }
+ 659:
             kiloes = foxtra.themedHighlightedCell;
- 657:
+ 665:
             yankee[2] = kiloes;
-            if(!backup) { _fun00008_ip = 670; continue _fun00007 }
- 664:
+            if(!backup) { _fun00008_ip = 678; continue _fun00007 }
+ 672:
             backup = foxtra.topBorderRadius;
- 670:
+ 678:
             yankee[3] = backup;
-            if(!romeon) { _fun00008_ip = 683; continue _fun00007 }
- 677:
+            if(!romeon) { _fun00008_ip = 691; continue _fun00007 }
+ 685:
             romeon = foxtra.bottomBorderRadius;
- 683:
+ 691:
             yankee[4] = romeon;
             verify['style'] = yankee;
             verify['children'] = offset;
             oscard = verify;
- 698:
+ 706:
             oscard = option.bind(tangon)(golfie, oscard);
             report[2] = oscard;
             entity['children'] = report;
@@ -1019,8 +1019,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
             backup = offset.headerText;
             report['style'] = backup;
-            if(!(foxtra == romeon)) { _fun00010_ip = 1921; continue _fun00009 }
- 1869:
+            if(!(foxtra == romeon)) { _fun00010_ip = 1925; continue _fun00009 }
+ 1873:
             sizing = _closure1_slot0;
             foxtra = _closure1_slot2;
             backup = foxtra[output];
@@ -1032,7 +1032,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.t;
             foxtra = foxtra.vLz3Zm;
             romeon = backup.bind(kiloes)(foxtra);
- 1921:
+ 1925:
             report['children'] = romeon;
             golfie = option.bind(tangon)(golfie, report);
             report = new Array(2);

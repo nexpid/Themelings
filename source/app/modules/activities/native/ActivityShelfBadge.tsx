@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
-    verify = {'position': 'absolute', 'top': 4, 'left': 4, 'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
+    verify = {'position': 'absolute', 'top': 4, 'right': 4, 'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
     offset = 5;
     foxtra = oscard[offset];
     foxtra = yankee.bind(entity)(foxtra);

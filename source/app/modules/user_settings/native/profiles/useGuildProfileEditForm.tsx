@@ -83,12 +83,12 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                 zuuluu = _closure1_slot5;
                 entity = zuuluu.getAllPending;
                 michal = entity.bind(zuuluu)();
-                golfie = michal.pendingAvatar;
+                golfie = michal.pendingAvatarV2;
                 oscard = michal.pendingNickname;
                 report = michal.pendingBio;
                 tangon = michal.pendingPronouns;
                 entity = {};
-                entity['pendingAvatar'] = golfie;
+                entity['pendingAvatarV2'] = golfie;
                 entity['pendingNickname'] = oscard;
                 oscard = michal.pendingBanner;
                 entity['pendingBanner'] = oscard;
@@ -118,7 +118,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                 return entity;
             };
             oscard = report.bind(oscard)(michal, entity);
-            vacuum = oscard.pendingAvatar;
+            vacuum = oscard.pendingAvatarV2;
             var _closure2_slot1 = vacuum;
             ctrled = oscard.pendingNickname;
             var _closure2_slot2 = ctrled;
@@ -303,7 +303,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                         offset = yankee.getGuildMemberChangesForUpdateRequest;
                         golfie = {};
                         romeon = _closure2_slot1;
-                        golfie['pendingAvatar'] = romeon;
+                        golfie['pendingAvatarV2'] = romeon;
                         romeon = _closure2_slot2;
                         golfie['pendingNickname'] = romeon;
                         romeon = _closure2_slot8;

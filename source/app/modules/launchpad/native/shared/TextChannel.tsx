@@ -128,25 +128,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard[verify];
             oscard = golfie.bind(option)(oscard);
             golfie = oscard.colors;
-            if(report) { _fun00002_ip = 325; continue _fun00001 }
- 303:
+            if(report) { _fun00002_ip = 333; continue _fun00001 }
+ 311:
             oscard = argBar;
-            if(oscard) { _fun00002_ip = 317; continue _fun00001 }
- 309:
-            oscard = golfie.TEXT_MUTED;
-            _fun00002_ip = 323; continue _fun00001;
+            if(oscard) { _fun00002_ip = 325; continue _fun00001 }
  317:
-            oscard = golfie.TEXT_PRIMARY;
- 323:
+            oscard = golfie.TEXT_MUTED;
             _fun00002_ip = 331; continue _fun00001;
  325:
-            oscard = golfie.INTERACTIVE_MUTED;
+            oscard = golfie.TEXT_PRIMARY;
  331:
-            michal['tintColor'] = oscard;
-            if(report) { _fun00002_ip = 343; continue _fun00001 }
+            _fun00002_ip = 339; continue _fun00001;
+ 333:
+            oscard = golfie.INTERACTIVE_MUTED;
  339:
+            michal['tintColor'] = oscard;
+            if(report) { _fun00002_ip = 351; continue _fun00001 }
+ 347:
             zuuluu = _closure1_slot8;
- 343:
+ 351:
             michal['opacity'] = zuuluu;
             entity['icon'] = michal;
             return entity;

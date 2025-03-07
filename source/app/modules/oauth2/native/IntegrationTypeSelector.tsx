@@ -326,8 +326,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             golfie = kiloes.description;
             golfie = option != golfie;
-            if(!golfie) { _fun00002_ip = 417; continue _fun00001 }
- 341:
+            if(!golfie) { _fun00002_ip = 421; continue _fun00001 }
+ 345:
             backup = _closure1_slot5;
             romeon = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -345,7 +345,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = offset.expandDescriptionCTA;
             option['expandDescriptionCTAStyle'] = kiloes;
             golfie = backup.bind(tangon)(romeon, option);
- 417:
+ 421:
             oscard[2] = golfie;
             report['children'] = oscard;
             oscard = zuuluu.bind(tangon)(michal, report);

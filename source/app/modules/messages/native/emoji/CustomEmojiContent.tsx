@@ -302,10 +302,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = 0;
                     michal = zuuluu > michal;
                     entity['userIsRoleSubscriber'] = michal;
-                    _fun00004_ip = 206; continue _fun00003;
+                    _fun00004_ip = 210; continue _fun00003;
  196:
                     entity = {'isRoleSubscriptionEmoji': false, 'isUnusableRoleSubscriptionEmoji': false, 'userIsRoleSubscriber': false};
- 206:
+ 210:
                     return entity;
                 }
             };
@@ -775,15 +775,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             oscard = offset[oscard];
                             oscard = verify.bind(zuuluu)(oscard);
                             oscard = oscard.t;
-                            if(report) { _fun00012_ip = 129; continue _fun00011 }
- 114:
+                            if(report) { _fun00012_ip = 133; continue _fun00011 }
+ 118:
                             report = oscard.mE2e8P;
                             report = golfie.bind(option)(report);
-                            _fun00012_ip = 140; continue _fun00011;
- 129:
+                            _fun00012_ip = 144; continue _fun00011;
+ 133:
                             oscard = oscard.in1rgY;
                             report = golfie.bind(option)(oscard);
- 140:
+ 144:
                             entity['children'] = report;
                             entity = tangon.bind(zuuluu)(michal, entity);
                             return entity;

@@ -1,12 +1,12 @@
 // app/modules/guild_profile/GuildProfileBuilders.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
+    oscard = argBar;
     zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
+    var _closure1_slot2 = golfie;
     entity = function(argFoo, argBar) { // Original name: _createForOfIteratorHelperLoose
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -310,30 +310,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     var _closure1_slot8 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.EmojiDisambiguations;
-    var _closure1_slot3 = tangon;
-    tangon = {};
-    golfie = '';
-    tangon['label'] = golfie;
-    var _closure1_slot4 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_profile/GuildProfileBuilders.tsx';
-    tangon = report.bind(oscard)(tangon);
     tangon = function(argFoo) { // Original name: buildGuildProfileFromServer
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
@@ -454,6 +430,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
+    var _closure1_slot9 = tangon;
+    entity = global;
+    verify = entity.Object;
+    option = verify.defineProperty;
+    report = {};
+    entity = true;
+    report['value'] = entity;
+    entity = '__esModule';
+    entity = option.bind(verify)(zuuluu, entity, report);
+    entity = 0;
+    report = golfie[entity];
+    entity = undefined;
+    report = oscard.bind(entity)(report);
+    report = report.EmojiDisambiguations;
+    var _closure1_slot3 = report;
+    report = {};
+    option = '';
+    report['label'] = option;
+    var _closure1_slot4 = report;
+    report = 5;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
+    report = 'modules/guild_profile/GuildProfileBuilders.tsx';
+    report = oscard.bind(golfie)(report);
     zuuluu['buildGuildProfileFromServer'] = tangon;
     tangon = function(argFoo) { // Original name: buildGuildProfileUpdateForServer
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
@@ -580,7 +581,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     zuuluu['buildGuildProfileUpdateForServer'] = tangon;
-    michal = function(argFoo) { // Original name: buildTopGamesFromServer
+    tangon = function(argFoo) { // Original name: buildTopGamesFromServer
         tangon = argFoo;
         zuuluu = tangon.reduce;
         michal = function(argFoo, argBar) {
@@ -599,6 +600,98 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zuuluu['buildTopGamesFromServer'] = michal;
+    zuuluu['buildTopGamesFromServer'] = tangon;
+    michal = function(argFoo) { // Original name: buildGuildProfileFromInvite
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+ 0:
+            option = argFoo;
+            report = option.guild;
+            oscard = option.profile;
+            tangon = null;
+            michal = tangon != oscard;
+            entity = null;
+            if(!michal) { _fun00020_ip = 39; continue _fun00019 }
+ 25:
+            zuuluu = _closure1_slot9;
+            michal = undefined;
+            entity = zuuluu.bind(michal)(oscard);
+ 39:
+            if(!(tangon == entity)) { _fun00020_ip = 284; continue _fun00019 }
+ 46:
+            zuuluu = tangon == report;
+            michal = null;
+            if(zuuluu) { _fun00020_ip = 281; continue _fun00019 }
+ 58:
+            zuuluu = {};
+            oscard = report.id;
+            zuuluu['id'] = oscard;
+            oscard = report.name;
+            zuuluu['name'] = oscard;
+            golfie = report.description;
+            verify = tangon != golfie;
+            oscard = '';
+            if(!verify) { _fun00020_ip = 97; continue _fun00019 }
+ 94:
+            oscard = golfie;
+ 97:
+            zuuluu['description'] = oscard;
+            oscard = report.icon;
+            zuuluu['icon'] = oscard;
+            oscard = report.banner;
+            zuuluu['customBanner'] = oscard;
+            verify = report.approximate_presence_count;
+            if(!(tangon == verify)) { _fun00020_ip = 137; continue _fun00019 }
+ 131:
+            verify = option.approximate_presence_count;
+ 137:
+            offset = tangon != verify;
+            golfie = 0;
+            if(!offset) { _fun00020_ip = 149; continue _fun00019 }
+ 146:
+            golfie = verify;
+ 149:
+            zuuluu['onlineCount'] = golfie;
+            golfie = report.approximate_member_count;
+            if(!(tangon == golfie)) { _fun00020_ip = 170; continue _fun00019 }
+ 164:
+            golfie = option.approximate_member_count;
+ 170:
+            option = tangon != golfie;
+            oscard = 0;
+            if(!option) { _fun00020_ip = 182; continue _fun00019 }
+ 179:
+            oscard = golfie;
+ 182:
+            zuuluu['memberCount'] = oscard;
+            option = _closure1_slot0;
+            golfie = _closure1_slot2;
+            oscard = 4;
+            golfie = golfie[oscard];
+            oscard = undefined;
+            oscard = option.bind(oscard)(golfie);
+            oscard = oscard.GuildProfileVisibility;
+            oscard = oscard.NOT_SPECIFIED;
+            zuuluu['visibility'] = oscard;
+            oscard = new Array(0);
+            zuuluu['traits'] = oscard;
+            oscard = new Array(0);
+            zuuluu['gameApplicationIds'] = oscard;
+            oscard = {};
+            zuuluu['gameActivity'] = oscard;
+            report = report.features;
+            if(!(tangon == report)) { _fun00020_ip = 268; continue _fun00019 }
+ 264:
+            report = new Array(0);
+ 268:
+            zuuluu['features'] = report;
+            zuuluu['brandColorPrimary'] = tangon;
+            michal = zuuluu;
+ 281:
+            entity = michal;
+ 284:
+            return entity;
+        }
+    };
+    zuuluu['buildGuildProfileFromInvite'] = michal;
     return entity;
 })();

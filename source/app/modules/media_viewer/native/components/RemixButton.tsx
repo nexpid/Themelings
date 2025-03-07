@@ -103,11 +103,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = false;
             michal = output.videoURI;
             zuuluu = null;
-            if(!(zuuluu == michal)) { _fun00002_ip = 270; continue _fun00001 }
- 120:
+            if(!(zuuluu == michal)) { _fun00002_ip = 274; continue _fun00001 }
+ 124:
             michal = output.sourceURI;
-            if(!(zuuluu != michal)) { _fun00002_ip = 278; continue _fun00001 }
- 133:
+            if(!(zuuluu != michal)) { _fun00002_ip = 282; continue _fun00001 }
+ 137:
             tangon = _closure1_slot0;
             oscard = _closure1_slot2;
             michal = 9;
@@ -135,11 +135,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = tangon.isAnimatedAvifSource;
             michal = michal.bind(tangon)(output);
             entity['isAnimatedAVIF'] = michal;
-            _fun00002_ip = 278; continue _fun00001;
- 270:
+            _fun00002_ip = 282; continue _fun00001;
+ 274:
             michal = true;
             entity['isVideo'] = michal;
- 278:
+ 282:
             update = entity.isVideo;
             var _closure2_slot3 = update;
             echoed = entity.isGIF;
@@ -348,24 +348,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             offset = yankee.bind(foxtra)(verify, offset);
-            if(entity) { _fun00002_ip = 701; continue _fun00001 }
- 673:
+            if(entity) { _fun00002_ip = 705; continue _fun00001 }
+ 677:
             entity = null;
-            if(!option) { _fun00002_ip = 1145; continue _fun00001 }
- 681:
+            if(!option) { _fun00002_ip = 1149; continue _fun00001 }
+ 685:
             entity = null;
-            if(!oscard) { _fun00002_ip = 1145; continue _fun00001 }
- 689:
+            if(!oscard) { _fun00002_ip = 1149; continue _fun00001 }
+ 693:
             michal = tangon < michal;
             entity = null;
-            if(!michal) { _fun00002_ip = 1145; continue _fun00001 }
- 701:
+            if(!michal) { _fun00002_ip = 1149; continue _fun00001 }
+ 705:
             tangon = _closure1_slot12;
             zuuluu = _closure1_slot5;
             michal = {};
             option = golfie;
-            if(!golfie) { _fun00002_ip = 804; continue _fun00001 }
- 717:
+            if(!golfie) { _fun00002_ip = 808; continue _fun00001 }
+ 721:
             yankee = _closure1_slot11;
             backup = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -387,11 +387,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = true;
             oscard['disableColor'] = foxtra;
             option = yankee.bind(report)(verify, oscard);
- 804:
+ 808:
             oscard = new Array(3);
             oscard[0] = option;
-            if(!golfie) { _fun00002_ip = 902; continue _fun00001 }
- 815:
+            if(!golfie) { _fun00002_ip = 906; continue _fun00001 }
+ 819:
             yankee = _closure1_slot11;
             backup = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -413,7 +413,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = true;
             option['disableColor'] = foxtra;
             golfie = yankee.bind(report)(verify, option);
- 902:
+ 906:
             oscard[1] = golfie;
             verify = _closure1_slot11;
             yankee = _closure1_slot1;
@@ -466,7 +466,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[2] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1145:
+ 1149:
             return entity;
         }
     };

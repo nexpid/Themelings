@@ -96,18 +96,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = null;
             if(!(option == offset)) { _fun00006_ip = 89; continue _fun00005 }
  54:
-            if(!michal) { _fun00006_ip = 1608; continue _fun00005 }
+            if(!michal) { _fun00006_ip = 1612; continue _fun00005 }
  60:
             tangon = _closure1_slot23;
             zuuluu = tangon.log;
             entity = 'Skipping fetch because channelId is null';
             entity = zuuluu.bind(tangon)(entity);
-            _fun00006_ip = 1608; continue _fun00005;
+            _fun00006_ip = 1612; continue _fun00005;
  89:
             zuuluu = _closure1_slot22;
             report = undefined;
             zuuluu = zuuluu.bind(report)(offset);
-            if(zuuluu) { _fun00006_ip = 1584; continue _fun00005 }
+            if(zuuluu) { _fun00006_ip = 1588; continue _fun00005 }
  109:
             tangon = _closure1_slot11;
             zuuluu = tangon.getChannel;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  137:
             tangon = _closure1_slot18;
             tangon = tangon.GUILD_STORE;
-            if(!(verify !== tangon)) { _fun00006_ip = 1558; continue _fun00005 }
+            if(!(verify !== tangon)) { _fun00006_ip = 1562; continue _fun00005 }
  154:
             verify = option == zuuluu;
             tangon = undefined;
@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = romeon.has;
             tangon = zuuluu.type;
             tangon = verify.bind(romeon)(tangon);
-            if(tangon) { _fun00006_ip = 1558; continue _fun00005 }
+            if(tangon) { _fun00006_ip = 1562; continue _fun00005 }
  203:
             verify = _closure1_slot1;
             output = _closure1_slot2;
@@ -287,7 +287,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  732:
             verify = true;
  734:
-            if(!verify) { _fun00006_ip = 1608; continue _fun00005 }
+            if(!verify) { _fun00006_ip = 1612; continue _fun00005 }
  740:
             yankee = _closure1_slot1;
             verify = _closure1_slot2;
@@ -316,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify['skipLocalFetch'] = oscard;
             verify['jumpType'] = backup;
             verify = yankee.bind(foxtra)(verify);
-            _fun00006_ip = 1608; continue _fun00005;
+            _fun00006_ip = 1612; continue _fun00005;
  858:
             if(!(option != zuuluu)) { _fun00006_ip = 1130; continue _fun00005 }
  865:
@@ -393,22 +393,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             foxtra = kiloes.bind(sizing)(backup, foxtra);
             yankee = true;
  1124:
-            if(yankee) { _fun00006_ip = 1440; continue _fun00005 }
+            if(yankee) { _fun00006_ip = 1444; continue _fun00005 }
  1130:
-            if(!(option != zuuluu)) { _fun00006_ip = 1342; continue _fun00005 }
+            if(!(option != zuuluu)) { _fun00006_ip = 1346; continue _fun00005 }
  1137:
             option = zuuluu.isThread;
             option = option.bind(zuuluu)();
-            if(!option) { _fun00006_ip = 1342; continue _fun00005 }
+            if(!option) { _fun00006_ip = 1346; continue _fun00005 }
  1153:
             romeon = _closure1_slot13;
             yankee = romeon.hasTrackedUnread;
             option = zuuluu.id;
             option = yankee.bind(romeon)(option);
-            if(!option) { _fun00006_ip = 1342; continue _fun00005 }
+            if(!option) { _fun00006_ip = 1346; continue _fun00005 }
  1179:
             tangon = tangon.ready;
-            if(tangon) { _fun00006_ip = 1342; continue _fun00005 }
+            if(tangon) { _fun00006_ip = 1346; continue _fun00005 }
  1191:
             yankee = _closure1_slot13;
             option = yankee.getTrackedAckMessageId;
@@ -441,7 +441,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon['skipLocalFetch'] = oscard;
             tangon = option.bind(yankee)(tangon);
             return tangon;
- 1342:
+ 1346:
             option = _closure1_slot1;
             kiloes = _closure1_slot2;
             tangon = 20;
@@ -465,7 +465,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon['jump'] = romeon;
             tangon = option.bind(yankee)(tangon);
             return tangon;
- 1440:
+ 1444:
             option = _closure1_slot23;
             tangon = option.log;
             romeon = zuuluu.id;
@@ -493,22 +493,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['skipLocalFetch'] = oscard;
             zuuluu = tangon.bind(report)(zuuluu);
             return zuuluu;
- 1558:
-            if(!michal) { _fun00006_ip = 1608; continue _fun00005 }
- 1561:
+ 1562:
+            if(!michal) { _fun00006_ip = 1612; continue _fun00005 }
+ 1565:
             report = _closure1_slot23;
             tangon = report.log;
             zuuluu = 'Skipping fetch because channel is a forum/store';
             zuuluu = tangon.bind(report)(zuuluu);
-            _fun00006_ip = 1608; continue _fun00005;
- 1584:
-            if(!michal) { _fun00006_ip = 1608; continue _fun00005 }
- 1587:
+            _fun00006_ip = 1612; continue _fun00005;
+ 1588:
+            if(!michal) { _fun00006_ip = 1612; continue _fun00005 }
+ 1591:
             zuuluu = _closure1_slot23;
             michal = zuuluu.log;
             entity = 'Skipping fetch because channelId is a static route';
             entity = michal.bind(zuuluu)(entity);
- 1608:
+ 1612:
             entity = undefined;
             return entity;
         }

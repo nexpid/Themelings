@@ -21,9 +21,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 0;
             if(!(kiloes > entity)) { _fun00002_ip = 49; continue _fun00001 }
  42:
-            if(!(!(sizing > entity))) { _fun00002_ip = 571; continue _fun00001 }
+            if(!(!(sizing > entity))) { _fun00002_ip = 579; continue _fun00001 }
  49:
-            if(!(!(sizing > entity))) { _fun00002_ip = 312; continue _fun00001 }
+            if(!(!(sizing > entity))) { _fun00002_ip = 316; continue _fun00001 }
  56:
             entity = {};
             report = yankee.header;
@@ -76,8 +76,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = verify.bind(tangon)(golfie, oscard);
             report[1] = oscard;
             entity['children'] = report;
-            _fun00002_ip = 566; continue _fun00001;
- 312:
+            _fun00002_ip = 574; continue _fun00001;
+ 316:
             report = {};
             oscard = yankee.header;
             report['style'] = oscard;
@@ -130,9 +130,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             report['children'] = oscard;
             entity = report;
- 566:
-            _fun00002_ip = 809; continue _fun00001;
- 571:
+ 574:
+            _fun00002_ip = 821; continue _fun00001;
+ 579:
             report = {};
             oscard = yankee.header;
             report['style'] = oscard;
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             report['children'] = oscard;
             entity = report;
- 809:
+ 821:
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }

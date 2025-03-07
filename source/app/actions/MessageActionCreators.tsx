@@ -1004,7 +1004,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = zuuluu.getChannel;
             foxtra = michal.bind(zuuluu)(report);
             michal = null;
-            if(!(michal != foxtra)) { _fun00010_ip = 365; continue _fun00009 }
+            if(!(michal != foxtra)) { _fun00010_ip = 369; continue _fun00009 }
  34:
             yankee = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -1120,14 +1120,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie['context'] = offset;
             golfie = option.bind(verify)(golfie);
             michal = michal != tangon;
-            if(!michal) { _fun00010_ip = 307; continue _fun00009 }
- 296:
+            if(!michal) { _fun00010_ip = 311; continue _fun00009 }
+ 300:
             option = tangon.length;
             golfie = 0;
             michal = option > golfie;
- 307:
-            if(!michal) { _fun00010_ip = 365; continue _fun00009 }
- 310:
+ 311:
+            if(!michal) { _fun00010_ip = 369; continue _fun00009 }
+ 314:
             michal = _closure1_slot1;
             golfie = _closure1_slot2;
             entity = 39;
@@ -1141,7 +1141,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['channelId'] = report;
             entity['attachments'] = tangon;
             entity = michal.bind(zuuluu)(entity);
- 365:
+ 369:
             entity = undefined;
             return entity;
         }

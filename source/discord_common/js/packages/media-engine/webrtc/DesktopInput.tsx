@@ -253,13 +253,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00006_ip = 198; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 202; continue _fun00005 }
  13:
                     report = {};
-                    if(!michal) { _fun00006_ip = 28; continue _fun00005 }
+                    if(!michal) { _fun00006_ip = 32; continue _fun00005 }
  18:
                     michal = {'echoCancellation': false, 'noiseSuppression': false, 'autoGainControl': false};
- 28:
+ 32:
                     report['audio'] = michal;
                     michal = {};
                     option = argFoo;
@@ -275,12 +275,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = null;
                     golfie = tangon == oscard;
                     zuuluu = undefined;
-                    if(golfie) { _fun00006_ip = 93; continue _fun00005 }
- 87:
+                    if(golfie) { _fun00006_ip = 97; continue _fun00005 }
+ 91:
                     zuuluu = oscard.getDisplayMedia;
- 93:
-                    if(!(tangon == zuuluu)) { _fun00006_ip = 129; continue _fun00005 }
  97:
+                    if(!(tangon == zuuluu)) { _fun00006_ip = 133; continue _fun00005 }
+ 101:
                     oscard = michal.Error;
                     zuuluu = oscard.prototype;
                     tangon = Object.create(zuuluu, {constructor: {value: oscard}});
@@ -289,19 +289,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = new offset[oscard](verify, option);
                     zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
                     throw zuuluu;
- 129:
+ 133:
                     zuuluu = _closure2_slot1;
                     michal = michal.navigator;
                     tangon = michal.mediaDevices;
                     michal = tangon.getDisplayMedia;
                     michal = michal.bind(tangon)(report);
-                    SaveGenerator(address=163);
- 161:
+                    SaveGenerator(address=167);
+ 165:
                     return michal;
- 163:
+ 167:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00006_ip = 195; continue _fun00005 }
- 169:
+                    if(tangon) { _fun00006_ip = 199; continue _fun00005 }
+ 173:
                     tangon = zuuluu.prototype;
                     tangon = Object.create(tangon, {constructor: {value: zuuluu}});
                     offset = tangon;
@@ -309,9 +309,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = new offset[zuuluu](verify, option);
                     zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
                     return zuuluu;
- 195:
+ 199:
                     return michal;
- 198:
+ 202:
                     return entity;
                 }
             };

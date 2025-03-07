@@ -151,25 +151,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             yankee = _closure1_slot5;
             yankee = yankee.SMALL_24;
-            if(!(yankee !== golfie)) { _fun00006_ip = 133; continue _fun00005 }
- 87:
+            if(!(yankee !== golfie)) { _fun00006_ip = 137; continue _fun00005 }
+ 91:
             yankee = _closure1_slot5;
             yankee = yankee.MEDIUM_32;
-            if(!(yankee !== golfie)) { _fun00006_ip = 125; continue _fun00005 }
- 101:
+            if(!(yankee !== golfie)) { _fun00006_ip = 129; continue _fun00005 }
+ 105:
             offset = _closure1_slot5;
             yankee = offset.LARGE_40;
             offset = undefined;
-            if(!(yankee === golfie)) { _fun00006_ip = 139; continue _fun00005 }
- 117:
+            if(!(yankee === golfie)) { _fun00006_ip = 143; continue _fun00005 }
+ 121:
             offset = option.largeCircular;
-            _fun00006_ip = 139; continue _fun00005;
- 125:
+            _fun00006_ip = 143; continue _fun00005;
+ 129:
             offset = option.mediumCircular;
-            _fun00006_ip = 139; continue _fun00005;
- 133:
+            _fun00006_ip = 143; continue _fun00005;
+ 137:
             offset = option.smallCircular;
- 139:
+ 143:
             option = new Array(2);
             option[0] = offset;
             option[1] = verify;

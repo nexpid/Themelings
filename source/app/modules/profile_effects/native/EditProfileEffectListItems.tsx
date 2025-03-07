@@ -449,8 +449,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = new Array(3);
             oscard[0] = verify;
             oscard[1] = option;
-            if(!report) { _fun00006_ip = 546; continue _fun00005 }
- 493:
+            if(!report) { _fun00006_ip = 550; continue _fun00005 }
+ 497:
             verify = _closure1_slot5;
             option = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -463,7 +463,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['style'] = yankee;
             golfie['isNew'] = offset;
             report = verify.bind(tangon)(option, golfie);
- 546:
+ 550:
             oscard[2] = report;
             report = 'children';
             entity[report] = oscard;

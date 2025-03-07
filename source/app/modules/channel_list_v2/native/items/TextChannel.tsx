@@ -354,10 +354,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.ChannelModes;
             offset = offset.SELECTED;
             offset = equals === offset;
-            if(!offset) { _fun00002_ip = 798; continue _fun00001 }
- 792:
+            if(!offset) { _fun00002_ip = 802; continue _fun00001 }
+ 796:
             offset = sequen.selected;
- 798:
+ 802:
             verify[1] = offset;
             oscard['style'] = verify;
             oscard['accessible'] = option;
@@ -383,15 +383,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.ChannelModes;
             option = option.SELECTED;
             verify = equals === option;
-            if(!verify) { _fun00002_ip = 934; continue _fun00001 }
- 908:
+            if(!verify) { _fun00002_ip = 938; continue _fun00001 }
+ 912:
             yankee = _closure1_slot10;
             offset = _closure1_slot4;
             option = {};
             romeon = sequen.selectedBorder;
             option['style'] = romeon;
             verify = yankee.bind(tangon)(offset, option);
- 934:
+ 938:
             option = new Array(2);
             option[0] = verify;
             yankee = _closure1_slot11;
@@ -402,17 +402,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon[0] = kiloes;
             kiloes = null;
             ctrled = kiloes != sierra;
-            if(!ctrled) { _fun00002_ip = 981; continue _fun00001 }
- 975:
+            if(!ctrled) { _fun00002_ip = 985; continue _fun00001 }
+ 979:
             ctrled = sequen.rowWithSubtitle;
- 981:
+ 985:
             romeon[1] = ctrled;
             verify['style'] = romeon;
             romeon = new Array(3);
             romeon[0] = backup;
             backup = record;
-            if(!(kiloes != sierra)) { _fun00002_ip = 1152; continue _fun00001 }
- 1007:
+            if(!(kiloes != sierra)) { _fun00002_ip = 1160; continue _fun00001 }
+ 1011:
             vacuum = _closure1_slot11;
             ctrled = _closure1_slot4;
             kiloes = {};
@@ -444,7 +444,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen[1] = config;
             kiloes['children'] = sequen;
             backup = vacuum.bind(tangon)(ctrled, kiloes);
- 1152:
+ 1160:
             romeon[1] = backup;
             kiloes = _closure1_slot10;
             backup = _closure1_slot1;

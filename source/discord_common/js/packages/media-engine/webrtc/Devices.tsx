@@ -457,13 +457,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  210:
         var _closure1_slot3 = report;
         tangon = report;
-        if(!tangon) { _fun00002_ip = 239; continue _fun00001 }
+        if(!tangon) { _fun00002_ip = 241; continue _fun00001 }
  220:
         oscard = oscard.HTMLAudioElement;
         verify = oscard.prototype;
         oscard = 'setSinkId';
         tangon = oscard in verify;
- 239:
+ 241:
         var _closure1_slot4 = tangon;
         oscard = 2;
         oscard = option[oscard];

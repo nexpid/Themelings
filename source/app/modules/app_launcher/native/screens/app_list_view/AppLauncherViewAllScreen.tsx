@@ -820,7 +820,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option.bind(tangon)(zuuluu);
             zuuluu = zuuluu.SectionItemType;
             zuuluu = zuuluu.APPS;
-            if(!(oscard !== zuuluu)) { _fun00002_ip = 1214; continue _fun00001 }
+            if(!(oscard !== zuuluu)) { _fun00002_ip = 1218; continue _fun00001 }
  1025:
             option = _closure1_slot9;
             oscard = _closure1_slot1;
@@ -851,10 +851,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = update.AppLauncherEntrypoint;
             source = update.VOICE;
             update = romeon;
-            if(!(backup === source)) { _fun00002_ip = 1156; continue _fun00001 }
- 1150:
+            if(!(backup === source)) { _fun00002_ip = 1160; continue _fun00001 }
+ 1154:
             update = verify.scrollerRef;
- 1156:
+ 1160:
             zuuluu['ref'] = update;
             zuuluu['bottomViewabilityInsetRef'] = yankee;
             zuuluu['viewabilityConfigCallbackPairs'] = sizing;
@@ -865,8 +865,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = verify.animatedProps;
             zuuluu['animatedProps'] = sizing;
             oscard = option.bind(tangon)(oscard, zuuluu);
-            _fun00002_ip = 1395; continue _fun00001;
- 1214:
+            _fun00002_ip = 1403; continue _fun00001;
+ 1218:
             option = _closure1_slot9;
             zuuluu = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -895,10 +895,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = kiloes.bind(tangon)(foxtra);
             foxtra = foxtra.AppLauncherEntrypoint;
             foxtra = foxtra.VOICE;
-            if(!(backup === foxtra)) { _fun00002_ip = 1342; continue _fun00001 }
- 1336:
+            if(!(backup === foxtra)) { _fun00002_ip = 1350; continue _fun00001 }
+ 1344:
             romeon = verify.scrollerRef;
- 1342:
+ 1350:
             michal['ref'] = romeon;
             michal['bottomViewabilityInsetRef'] = yankee;
             michal['viewabilityConfigCallbackPairs'] = offset;
@@ -909,7 +909,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.animatedProps;
             michal['animatedProps'] = verify;
             oscard = option.bind(tangon)(zuuluu, michal);
- 1395:
+ 1403:
             zuuluu = _closure1_slot10;
             michal = _closure1_slot4;
             entity = {};

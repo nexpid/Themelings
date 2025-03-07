@@ -299,21 +299,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = null;
                 kiloes = golfie == foxtra;
                 yankee = undefined;
-                if(kiloes) { _fun00008_ip = 173; continue _fun00007 }
- 168:
+                if(kiloes) { _fun00008_ip = 181; continue _fun00007 }
+ 176:
                 yankee = foxtra.type;
- 173:
-                kiloes = 'webauthn';
-                if(!(kiloes !== yankee)) { _fun00008_ip = 210; continue _fun00007 }
  181:
+                kiloes = 'webauthn';
+                if(!(kiloes !== yankee)) { _fun00008_ip = 218; continue _fun00007 }
+ 189:
                 foxtra = _closure1_slot0;
                 yankee = _closure1_slot2;
                 yankee = yankee[backup];
                 foxtra = foxtra.bind(report)(yankee);
                 yankee = foxtra.getHeaderBackButton;
                 yankee = yankee.bind(foxtra)();
-                _fun00008_ip = 242; continue _fun00007;
- 210:
+                _fun00008_ip = 250; continue _fun00007;
+ 218:
                 sizing = _closure1_slot0;
                 foxtra = _closure1_slot2;
                 foxtra = foxtra[backup];
@@ -321,22 +321,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sizing = output.getHeaderCloseButton;
                 foxtra = _closure2_slot5;
                 yankee = sizing.bind(output)(foxtra);
- 242:
+ 250:
                 michal['headerLeft'] = yankee;
                 yankee = _closure2_slot0;
                 yankee = yankee.methods;
                 yankee = yankee[offset];
                 sizing = golfie == yankee;
                 foxtra = undefined;
-                if(sizing) { _fun00008_ip = 275; continue _fun00007 }
- 270:
+                if(sizing) { _fun00008_ip = 283; continue _fun00007 }
+ 278:
                 foxtra = yankee.type;
- 275:
+ 283:
                 yankee = undefined;
-                if(!(kiloes !== foxtra)) { _fun00008_ip = 284; continue _fun00007 }
- 281:
+                if(!(kiloes !== foxtra)) { _fun00008_ip = 292; continue _fun00007 }
+ 289:
                 yankee = oscard;
- 284:
+ 292:
                 michal['headerRight'] = yankee;
                 yankee = function(argFoo) { // Original name: render
                     tangon = _closure1_slot6;
@@ -367,21 +367,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 foxtra = yankee[offset];
                 kiloes = golfie == foxtra;
                 yankee = undefined;
-                if(kiloes) { _fun00008_ip = 373; continue _fun00007 }
- 368:
+                if(kiloes) { _fun00008_ip = 385; continue _fun00007 }
+ 380:
                 yankee = foxtra.type;
- 373:
+ 385:
                 kiloes = 'totp';
-                if(!(kiloes !== yankee)) { _fun00008_ip = 410; continue _fun00007 }
- 381:
+                if(!(kiloes !== yankee)) { _fun00008_ip = 422; continue _fun00007 }
+ 393:
                 foxtra = _closure1_slot0;
                 yankee = _closure1_slot2;
                 yankee = yankee[backup];
                 foxtra = foxtra.bind(report)(yankee);
                 yankee = foxtra.getHeaderBackButton;
                 yankee = yankee.bind(foxtra)();
-                _fun00008_ip = 442; continue _fun00007;
- 410:
+                _fun00008_ip = 454; continue _fun00007;
+ 422:
                 sizing = _closure1_slot0;
                 foxtra = _closure1_slot2;
                 foxtra = foxtra[backup];
@@ -389,22 +389,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sizing = output.getHeaderCloseButton;
                 foxtra = _closure2_slot5;
                 yankee = sizing.bind(output)(foxtra);
- 442:
+ 454:
                 michal['headerLeft'] = yankee;
                 yankee = _closure2_slot0;
                 yankee = yankee.methods;
                 yankee = yankee[offset];
                 sizing = golfie == yankee;
                 foxtra = undefined;
-                if(sizing) { _fun00008_ip = 475; continue _fun00007 }
- 470:
+                if(sizing) { _fun00008_ip = 487; continue _fun00007 }
+ 482:
                 foxtra = yankee.type;
- 475:
+ 487:
                 yankee = undefined;
-                if(!(kiloes !== foxtra)) { _fun00008_ip = 484; continue _fun00007 }
- 481:
+                if(!(kiloes !== foxtra)) { _fun00008_ip = 496; continue _fun00007 }
+ 493:
                 yankee = oscard;
- 484:
+ 496:
                 michal['headerRight'] = yankee;
                 yankee = function(argFoo) { // Original name: render
                     tangon = _closure1_slot6;
@@ -435,21 +435,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 foxtra = yankee[offset];
                 kiloes = golfie == foxtra;
                 yankee = undefined;
-                if(kiloes) { _fun00008_ip = 573; continue _fun00007 }
- 568:
+                if(kiloes) { _fun00008_ip = 589; continue _fun00007 }
+ 584:
                 yankee = foxtra.type;
- 573:
+ 589:
                 kiloes = 'backup';
-                if(!(kiloes !== yankee)) { _fun00008_ip = 610; continue _fun00007 }
- 581:
+                if(!(kiloes !== yankee)) { _fun00008_ip = 626; continue _fun00007 }
+ 597:
                 foxtra = _closure1_slot0;
                 yankee = _closure1_slot2;
                 yankee = yankee[backup];
                 foxtra = foxtra.bind(report)(yankee);
                 yankee = foxtra.getHeaderBackButton;
                 yankee = yankee.bind(foxtra)();
-                _fun00008_ip = 642; continue _fun00007;
- 610:
+                _fun00008_ip = 658; continue _fun00007;
+ 626:
                 sizing = _closure1_slot0;
                 foxtra = _closure1_slot2;
                 foxtra = foxtra[backup];
@@ -457,22 +457,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sizing = output.getHeaderCloseButton;
                 foxtra = _closure2_slot5;
                 yankee = sizing.bind(output)(foxtra);
- 642:
+ 658:
                 michal['headerLeft'] = yankee;
                 yankee = _closure2_slot0;
                 yankee = yankee.methods;
                 yankee = yankee[offset];
                 sizing = golfie == yankee;
                 foxtra = undefined;
-                if(sizing) { _fun00008_ip = 675; continue _fun00007 }
- 670:
+                if(sizing) { _fun00008_ip = 691; continue _fun00007 }
+ 686:
                 foxtra = yankee.type;
- 675:
+ 691:
                 yankee = undefined;
-                if(!(kiloes !== foxtra)) { _fun00008_ip = 684; continue _fun00007 }
- 681:
+                if(!(kiloes !== foxtra)) { _fun00008_ip = 700; continue _fun00007 }
+ 697:
                 yankee = oscard;
- 684:
+ 700:
                 michal['headerRight'] = yankee;
                 yankee = function(argFoo) { // Original name: render
                     tangon = _closure1_slot6;
@@ -503,21 +503,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 foxtra = yankee[offset];
                 kiloes = golfie == foxtra;
                 yankee = undefined;
-                if(kiloes) { _fun00008_ip = 773; continue _fun00007 }
- 768:
+                if(kiloes) { _fun00008_ip = 793; continue _fun00007 }
+ 788:
                 yankee = foxtra.type;
- 773:
+ 793:
                 kiloes = 'sms';
-                if(!(kiloes !== yankee)) { _fun00008_ip = 810; continue _fun00007 }
- 781:
+                if(!(kiloes !== yankee)) { _fun00008_ip = 830; continue _fun00007 }
+ 801:
                 foxtra = _closure1_slot0;
                 yankee = _closure1_slot2;
                 yankee = yankee[backup];
                 foxtra = foxtra.bind(report)(yankee);
                 yankee = foxtra.getHeaderBackButton;
                 yankee = yankee.bind(foxtra)();
-                _fun00008_ip = 842; continue _fun00007;
- 810:
+                _fun00008_ip = 862; continue _fun00007;
+ 830:
                 sizing = _closure1_slot0;
                 foxtra = _closure1_slot2;
                 foxtra = foxtra[backup];
@@ -525,22 +525,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sizing = output.getHeaderCloseButton;
                 foxtra = _closure2_slot5;
                 yankee = sizing.bind(output)(foxtra);
- 842:
+ 862:
                 michal['headerLeft'] = yankee;
                 yankee = _closure2_slot0;
                 yankee = yankee.methods;
                 yankee = yankee[offset];
                 sizing = golfie == yankee;
                 foxtra = undefined;
-                if(sizing) { _fun00008_ip = 875; continue _fun00007 }
- 870:
+                if(sizing) { _fun00008_ip = 895; continue _fun00007 }
+ 890:
                 foxtra = yankee.type;
- 875:
+ 895:
                 yankee = undefined;
-                if(!(kiloes !== foxtra)) { _fun00008_ip = 884; continue _fun00007 }
- 881:
+                if(!(kiloes !== foxtra)) { _fun00008_ip = 904; continue _fun00007 }
+ 901:
                 yankee = oscard;
- 884:
+ 904:
                 michal['headerRight'] = yankee;
                 yankee = function(argFoo) { // Original name: render
                     tangon = _closure1_slot6;
@@ -571,21 +571,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = option[offset];
                 foxtra = golfie == option;
                 yankee = undefined;
-                if(foxtra) { _fun00008_ip = 973; continue _fun00007 }
- 968:
+                if(foxtra) { _fun00008_ip = 997; continue _fun00007 }
+ 992:
                 yankee = option.type;
- 973:
+ 997:
                 option = 'password';
-                if(!(option !== yankee)) { _fun00008_ip = 1010; continue _fun00007 }
- 981:
+                if(!(option !== yankee)) { _fun00008_ip = 1034; continue _fun00007 }
+ 1005:
                 foxtra = _closure1_slot0;
                 yankee = _closure1_slot2;
                 yankee = yankee[backup];
                 foxtra = foxtra.bind(report)(yankee);
                 yankee = foxtra.getHeaderBackButton;
                 yankee = yankee.bind(foxtra)();
-                _fun00008_ip = 1042; continue _fun00007;
- 1010:
+                _fun00008_ip = 1066; continue _fun00007;
+ 1034:
                 foxtra = _closure1_slot0;
                 romeon = _closure1_slot2;
                 romeon = romeon[backup];
@@ -593,22 +593,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 foxtra = backup.getHeaderCloseButton;
                 romeon = _closure2_slot5;
                 yankee = foxtra.bind(backup)(romeon);
- 1042:
+ 1066:
                 michal['headerLeft'] = yankee;
                 verify = _closure2_slot0;
                 verify = verify.methods;
                 verify = verify[offset];
                 offset = golfie == verify;
                 golfie = undefined;
-                if(offset) { _fun00008_ip = 1075; continue _fun00007 }
- 1070:
+                if(offset) { _fun00008_ip = 1099; continue _fun00007 }
+ 1094:
                 golfie = verify.type;
- 1075:
+ 1099:
                 report = undefined;
-                if(!(option !== golfie)) { _fun00008_ip = 1084; continue _fun00007 }
- 1081:
+                if(!(option !== golfie)) { _fun00008_ip = 1108; continue _fun00007 }
+ 1105:
                 report = oscard;
- 1084:
+ 1108:
                 michal['headerRight'] = report;
                 tangon = function(argFoo) { // Original name: render
                     tangon = _closure1_slot6;

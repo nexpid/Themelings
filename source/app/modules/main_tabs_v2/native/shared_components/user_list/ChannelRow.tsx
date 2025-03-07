@@ -373,7 +373,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     michal = _closure2_slot5;
                     report = undefined;
-                    if(!(report === michal)) { _fun00014_ip = 512; continue _fun00013 }
+                    if(!(report === michal)) { _fun00014_ip = 516; continue _fun00013 }
  16:
                     zuuluu = _closure2_slot0;
                     michal = zuuluu.isThread;
@@ -452,8 +452,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = _closure2_slot11;
                     golfie = null;
                     option = golfie != option;
-                    if(!option) { _fun00014_ip = 496; continue _fun00013 }
- 316:
+                    if(!option) { _fun00014_ip = 500; continue _fun00013 }
+ 320:
                     offset = _closure1_slot14;
                     verify = _closure1_slot13;
                     option = {};
@@ -490,12 +490,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee[1] = romeon;
                     option['children'] = yankee;
                     golfie = offset.bind(report)(verify, option);
- 496:
+ 500:
                     oscard[2] = golfie;
                     michal['children'] = oscard;
                     michal = tangon.bind(report)(zuuluu, michal);
                     return michal;
- 512:
+ 516:
                     entity = _closure2_slot5;
                     return entity;
                 }

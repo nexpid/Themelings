@@ -1225,7 +1225,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = _closure1_slot19;
             zuuluu = oscard.get;
             zuuluu = zuuluu.bind(oscard)(tangon);
-            if(!(report == zuuluu)) { _fun00024_ip = 124; continue _fun00023 }
+            if(!(report == zuuluu)) { _fun00024_ip = 128; continue _fun00023 }
  78:
             report = {'connectedAccounts': null, 'applicationRoleConnections': null, 'premiumSince': null, 'premiumGuildSince': null, 'application': null, 'legacyUsername': null, 'userId': null, 'banner': null, 'accentColor': null, 'bio': '', 'pronouns': '', 'premiumType': null, 'lastFetched': 0};
             oscard = new Array(0);
@@ -1236,7 +1236,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = undefined;
             report['fetchError'] = oscard;
             zuuluu = report;
- 124:
+ 128:
             report = global;
             oscard = report.Date;
             report = oscard.now;

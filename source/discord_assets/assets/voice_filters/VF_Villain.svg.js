@@ -1,4 +1,4 @@
-// discord_assets/assets/voice_filters/VF_Villian.svg.js
+// discord_assets/assets/voice_filters/VF_Villain.svg.js
 module.exports = (function(_, argBar, __, ___, ____, argFre, argPlu) {
     zuuluu = argFre;
     entity = global;
@@ -16,12 +16,12 @@ module.exports = (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = undefined;
     report = michal.bind(entity)(tangon);
     tangon = report.fileFinishedImporting;
-    michal = '../discord_assets/assets/voice_filters/VF_Villian.svg.js';
+    michal = '../discord_assets/assets/voice_filters/VF_Villain.svg.js';
     michal = tangon.bind(report)(michal);
-    michal = 'https://cdn.discordapp.com/assets/content/050206e9c62d22ce82e765b40ea8747ffe61a082967b142bb5a9efc1c14abf16.svg';
+    michal = 'https://cdn.discordapp.com/assets/content/6bb820d0b1d6c787297e86d047ed0718a645e30ce40c6f1a90c71204023e48ea.svg';
     zuuluu['default'] = michal;
     michal = {};
-    tangon = 94585;
+    tangon = 94417;
     michal['fileBytes'] = tangon;
     zuuluu['metadata'] = michal;
     return entity;

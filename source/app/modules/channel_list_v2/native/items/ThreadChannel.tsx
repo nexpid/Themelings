@@ -637,11 +637,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['channelInfo'] = backup;
             backup = update.length;
             romeon = null;
-            if(!(kiloes !== backup)) { _fun00002_ip = 1176; continue _fun00001 }
+            if(!(kiloes !== backup)) { _fun00002_ip = 1180; continue _fun00001 }
  941:
             kiloes = _closure1_slot17;
             backup = _closure1_slot4;
-            if(!(foxtra !== sizing)) { _fun00002_ip = 1103; continue _fun00001 }
+            if(!(foxtra !== sizing)) { _fun00002_ip = 1107; continue _fun00001 }
  956:
             foxtra = {};
             sizing = result.voiceStatesCollapsed;
@@ -672,8 +672,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing['guildId'] = vacuum;
             sizing = ctrled.bind(tangon)(echoed, sizing);
             foxtra['children'] = sizing;
-            _fun00002_ip = 1170; continue _fun00001;
- 1103:
+            _fun00002_ip = 1174; continue _fun00001;
+ 1107:
             sizing = {};
             result = result.voiceStates;
             sizing['style'] = result;
@@ -691,9 +691,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = echoed.bind(tangon)(result, output);
             sizing['children'] = output;
             foxtra = sizing;
- 1170:
+ 1174:
             romeon = kiloes.bind(tangon)(backup, foxtra);
- 1176:
+ 1180:
             verify['children'] = romeon;
             verify = yankee.bind(tangon)(offset, verify);
             option[2] = verify;

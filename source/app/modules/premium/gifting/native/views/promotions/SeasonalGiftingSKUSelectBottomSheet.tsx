@@ -351,10 +351,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = null;
             echoed = kiloes == result;
             kiloes = undefined;
-            if(echoed) { _fun00004_ip = 389; continue _fun00003 }
- 383:
+            if(echoed) { _fun00004_ip = 393; continue _fun00003 }
+ 387:
             kiloes = result.assetId;
- 389:
+ 393:
             golfie['asset'] = kiloes;
             golfie = foxtra.bind(tangon)(option, golfie);
             romeon[1] = golfie;

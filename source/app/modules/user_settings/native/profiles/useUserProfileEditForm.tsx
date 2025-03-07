@@ -455,6 +455,8 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         entity['pendingAvatarDecoration'] = tangon;
         tangon = zuuluu.pendingAvatar;
         entity['pendingAvatar'] = tangon;
+        tangon = zuuluu.pendingAvatarV2;
+        entity['pendingAvatarV2'] = tangon;
         tangon = zuuluu.pendingBanner;
         entity['pendingBanner'] = tangon;
         tangon = zuuluu.pendingGlobalName;

@@ -326,10 +326,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         kiloes = golfie.bind(entity)(backup);
         backup = kiloes.isAndroid;
         backup = backup.bind(kiloes)();
-        if(!backup) { _fun00002_ip = 359; continue _fun00001 }
- 353:
+        if(!backup) { _fun00002_ip = 360; continue _fun00001 }
+ 354:
         foxtra = -1;
- 359:
+ 360:
         yankee['marginTop'] = foxtra;
         oscard['categoryText'] = yankee;
         yankee = {};

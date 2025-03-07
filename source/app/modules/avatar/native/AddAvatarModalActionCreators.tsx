@@ -60,8 +60,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = argFoo;
             michal = argBaz;
             entity = null;
-            if(!(entity != oscard)) { _fun00002_ip = 128; continue _fun00001 }
- 12:
+            if(!(entity != oscard)) { _fun00002_ip = 147; continue _fun00001 }
+ 15:
             option = _closure1_slot1;
             golfie = _closure1_slot2;
             tangon = 2;
@@ -87,20 +87,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = tangon.bind(report)(zuuluu);
             tangon = report.saveAccountRequest;
             zuuluu = {};
-            zuuluu['avatar'] = oscard;
+            golfie = oscard.imageUri;
+            zuuluu['avatar'] = golfie;
+            oscard = oscard.description;
+            zuuluu['avatar_description'] = oscard;
             zuuluu = tangon.bind(report)(zuuluu);
- 128:
-            if(!(entity == michal)) { _fun00002_ip = 150; continue _fun00001 }
- 132:
+ 147:
+            if(!(entity == michal)) { _fun00002_ip = 169; continue _fun00001 }
+ 151:
             tangon = _closure1_slot5;
             zuuluu = undefined;
             entity = false;
             entity = tangon.bind(zuuluu)(entity);
-            _fun00002_ip = 156; continue _fun00001;
- 150:
+            _fun00002_ip = 175; continue _fun00001;
+ 169:
             entity = undefined;
             entity = michal.bind(entity)();
- 156:
+ 175:
             entity = undefined;
             return entity;
         }

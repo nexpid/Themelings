@@ -574,18 +574,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         verify = verify.bind(entity)(option);
         option = verify.isIOS;
         option = option.bind(verify)();
-        if(option) { _fun00002_ip = 387; continue _fun00001 }
+        if(option) { _fun00002_ip = 388; continue _fun00001 }
  380:
         golfie = golfie.Fragment;
-        _fun00002_ip = 411; continue _fun00001;
- 387:
+        _fun00002_ip = 412; continue _fun00001;
+ 388:
         verify = report;
         offset = oscard;
         option = 9;
         option = offset[option];
         option = verify.bind(entity)(option);
         golfie = option.KeyboardProvider;
- 411:
+ 412:
         var _closure1_slot17 = golfie;
         yankee = report;
         romeon = oscard;
@@ -621,7 +621,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = false;
         option['strict'] = golfie;
         option = verify.bind(offset)(option);
- 553: // try_start_0
+ 554: // try_start_0
         verify = report;
         offset = oscard;
         option = 22;
@@ -629,11 +629,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         verify = verify.bind(entity)(option);
         option = verify.enableFreeze;
         option = option.bind(verify)();
- 581: // try_end0
-        _fun00002_ip = 585; continue _fun00001;
- 583: // catch_target0
+ 582: // try_end0
+        _fun00002_ip = 586; continue _fun00001;
+ 584: // catch_target0
         CatchBlockStart(arg_register=7);
- 585:
+ 586:
         option = 23;
         option = oscard[option];
         offset = report.bind(entity)(option);

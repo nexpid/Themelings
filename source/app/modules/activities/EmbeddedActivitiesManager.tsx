@@ -1254,7 +1254,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             StartGenerator();
                             michal = argFoo;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                            if(zuuluu) { _fun00030_ip = 1603; continue _fun00029 }
+                            if(zuuluu) { _fun00030_ip = 1518; continue _fun00029 }
  13:
                             oscard = michal.error;
                             golfie = michal.nonce;
@@ -1267,7 +1267,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             return tangon;
  46:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(zuuluu) { _fun00030_ip = 1600; continue _fun00029 }
+                            if(zuuluu) { _fun00030_ip = 1515; continue _fun00029 }
  55:
                             zuuluu = _closure1_slot37;
                             offset = zuuluu.bind(tangon)(output, golfie);
@@ -1288,7 +1288,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             zuuluu = zuuluu[ctrled];
                             zuuluu = golfie.bind(tangon)(zuuluu);
                             zuuluu = oscard instanceof zuuluu;
-                            if(zuuluu) { _fun00030_ip = 959; continue _fun00029 }
+                            if(zuuluu) { _fun00030_ip = 874; continue _fun00029 }
  149:
                             golfie = _closure1_slot1;
                             option = _closure1_slot2;
@@ -1297,7 +1297,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             zuuluu = golfie.bind(tangon)(zuuluu);
                             golfie = oscard instanceof zuuluu;
                             zuuluu = _closure1_slot26;
-                            if(golfie) { _fun00030_ip = 881; continue _fun00029 }
+                            if(golfie) { _fun00030_ip = 796; continue _fun00029 }
  183:
                             result = zuuluu.ApiError;
                             sizing = oscard.status;
@@ -1305,40 +1305,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             source = oscard.code;
                             golfie = _closure1_slot21;
                             golfie = golfie.INVALID_ACTIVITY_LAUNCH_NO_ACCESS;
-                            if(!(golfie !== source)) { _fun00030_ip = 815; continue _fun00029 }
+                            if(!(golfie !== source)) { _fun00030_ip = 730; continue _fun00029 }
  221:
                             golfie = _closure1_slot21;
                             golfie = golfie.INVALID_ACTIVITY_LAUNCH_PREMIUM_TIER;
-                            if(!(golfie !== source)) { _fun00030_ip = 747; continue _fun00029 }
+                            if(!(golfie !== source)) { _fun00030_ip = 662; continue _fun00029 }
  238:
                             golfie = _closure1_slot21;
-                            golfie = golfie.INVALID_ACTIVITY_LAUNCH_CONCURRENT_ACTIVITIES;
-                            if(!(golfie !== source)) { _fun00030_ip = 679; continue _fun00029 }
+                            golfie = golfie.INVALID_PERMISSIONS;
+                            if(!(golfie !== source)) { _fun00030_ip = 596; continue _fun00029 }
  255:
                             golfie = _closure1_slot21;
-                            golfie = golfie.INVALID_PERMISSIONS;
-                            if(!(golfie !== source)) { _fun00030_ip = 613; continue _fun00029 }
+                            golfie = golfie.INVALID_ACTIVITY_LAUNCH_AFK_CHANNEL;
+                            if(!(golfie !== source)) { _fun00030_ip = 530; continue _fun00029 }
  272:
                             golfie = _closure1_slot21;
-                            golfie = golfie.INVALID_ACTIVITY_LAUNCH_AFK_CHANNEL;
-                            if(!(golfie !== source)) { _fun00030_ip = 547; continue _fun00029 }
+                            golfie = golfie.INVALID_ACTIVITY_LAUNCH_AGE_GATED;
+                            if(!(golfie !== source)) { _fun00030_ip = 464; continue _fun00029 }
  289:
                             golfie = _closure1_slot21;
-                            golfie = golfie.INVALID_ACTIVITY_LAUNCH_AGE_GATED;
-                            if(!(golfie !== source)) { _fun00030_ip = 481; continue _fun00029 }
- 306:
-                            golfie = _closure1_slot21;
                             golfie = golfie.INVALID_ACTIVITY_LAUNCH_DEV_PREVIEW_GUILD_SIZE;
-                            if(!(golfie !== source)) { _fun00030_ip = 415; continue _fun00029 }
- 320:
+                            if(!(golfie !== source)) { _fun00030_ip = 398; continue _fun00029 }
+ 303:
                             golfie = _closure1_slot21;
                             golfie = golfie.ACTIVITY_CONFIGURATION_DOES_NOT_SUPPORT_PLATFORM;
                             foxtra = result;
                             romeon = sizing;
                             yankee = verify;
                             option = kiloes;
-                            if(!(golfie === source)) { _fun00030_ip = 1383; continue _fun00029 }
- 349:
+                            if(!(golfie === source)) { _fun00030_ip = 1298; continue _fun00029 }
+ 332:
                             sequen = _closure1_slot0;
                             golfie = _closure1_slot2;
                             source = golfie[update];
@@ -1353,8 +1349,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             foxtra = result;
                             romeon = sizing;
                             yankee = verify;
-                            _fun00030_ip = 1383; continue _fun00029;
- 415:
+                            _fun00030_ip = 1298; continue _fun00029;
+ 398:
                             sequen = _closure1_slot0;
                             golfie = _closure1_slot2;
                             source = golfie[update];
@@ -1369,8 +1365,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             foxtra = result;
                             romeon = sizing;
                             yankee = verify;
-                            _fun00030_ip = 1383; continue _fun00029;
- 481:
+                            _fun00030_ip = 1298; continue _fun00029;
+ 464:
                             sequen = _closure1_slot0;
                             golfie = _closure1_slot2;
                             source = golfie[update];
@@ -1385,8 +1381,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             foxtra = result;
                             romeon = sizing;
                             yankee = verify;
-                            _fun00030_ip = 1383; continue _fun00029;
- 547:
+                            _fun00030_ip = 1298; continue _fun00029;
+ 530:
                             sequen = _closure1_slot0;
                             golfie = _closure1_slot2;
                             source = golfie[update];
@@ -1401,8 +1397,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             foxtra = result;
                             romeon = sizing;
                             yankee = verify;
-                            _fun00030_ip = 1383; continue _fun00029;
- 613:
+                            _fun00030_ip = 1298; continue _fun00029;
+ 596:
                             sequen = _closure1_slot0;
                             golfie = _closure1_slot2;
                             source = golfie[update];
@@ -1417,24 +1413,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             foxtra = result;
                             romeon = sizing;
                             yankee = verify;
-                            _fun00030_ip = 1383; continue _fun00029;
- 679:
-                            sequen = _closure1_slot0;
-                            golfie = _closure1_slot2;
-                            source = golfie[update];
-                            source = sequen.bind(tangon)(source);
-                            vacuum = source.intl;
-                            source = vacuum.string;
-                            golfie = golfie[update];
-                            golfie = sequen.bind(tangon)(golfie);
-                            golfie = golfie.t;
-                            golfie = golfie.H+KK6e;
-                            option = source.bind(vacuum)(golfie);
-                            foxtra = result;
-                            romeon = sizing;
-                            yankee = verify;
-                            _fun00030_ip = 1383; continue _fun00029;
- 747:
+                            _fun00030_ip = 1298; continue _fun00029;
+ 662:
                             sequen = _closure1_slot0;
                             golfie = _closure1_slot2;
                             source = golfie[update];
@@ -1449,8 +1429,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             foxtra = result;
                             romeon = sizing;
                             yankee = verify;
-                            _fun00030_ip = 1383; continue _fun00029;
- 815:
+                            _fun00030_ip = 1298; continue _fun00029;
+ 730:
                             sequen = _closure1_slot0;
                             golfie = _closure1_slot2;
                             source = golfie[update];
@@ -1465,8 +1445,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             foxtra = result;
                             romeon = sizing;
                             yankee = verify;
-                            _fun00030_ip = 1383; continue _fun00029;
- 881:
+                            _fun00030_ip = 1298; continue _fun00029;
+ 796:
                             verify = zuuluu.CallbackError;
                             golfie = oscard.reason;
                             sizing = _closure1_slot0;
@@ -1479,16 +1459,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             sizing = sizing.bind(result)(zuuluu, output);
                             result = null;
                             zuuluu = kiloes;
-                            if(!(result != sizing)) { _fun00030_ip = 943; continue _fun00029 }
- 940:
+                            if(!(result != sizing)) { _fun00030_ip = 858; continue _fun00029 }
+ 855:
                             zuuluu = sizing;
- 943:
+ 858:
                             option = zuuluu;
                             foxtra = verify;
                             romeon = undefined;
                             yankee = golfie;
-                            _fun00030_ip = 1383; continue _fun00029;
- 959:
+                            _fun00030_ip = 1298; continue _fun00029;
+ 874:
                             zuuluu = _closure1_slot26;
                             verify = zuuluu.ClientError;
                             golfie = oscard.reason;
@@ -1503,14 +1483,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             sizing = zuuluu.DeveloperMode;
                             zuuluu = sizing.getSetting;
                             zuuluu = zuuluu.bind(sizing)();
-                            if(!zuuluu) { _fun00030_ip = 1042; continue _fun00029 }
- 1028:
+                            if(!zuuluu) { _fun00030_ip = 957; continue _fun00029 }
+ 943:
                             sizing = _closure1_slot18;
                             sizing = sizing.LOADED;
                             zuuluu = result !== sizing;
- 1042:
-                            if(!zuuluu) { _fun00030_ip = 1088; continue _fun00029 }
- 1045:
+ 957:
+                            if(!zuuluu) { _fun00030_ip = 1003; continue _fun00029 }
+ 960:
                             sizing = _closure1_slot0;
                             result = _closure1_slot2;
                             zuuluu = 33;
@@ -1518,13 +1498,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             sizing = sizing.bind(tangon)(zuuluu);
                             zuuluu = sizing.fetchDeveloperApplications;
                             zuuluu = zuuluu.bind(sizing)();
-                            SaveGenerator(address=1079);
- 1077:
+                            SaveGenerator(address=994);
+ 992:
                             return zuuluu;
- 1079:
+ 994:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=15);
-                            if(sizing) { _fun00030_ip = 1597; continue _fun00029 }
- 1088:
+                            if(sizing) { _fun00030_ip = 1512; continue _fun00029 }
+ 1003:
                             result = oscard.reason;
                             source = _closure1_slot1;
                             sizing = _closure1_slot2;
@@ -1532,16 +1512,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             sizing = source.bind(tangon)(sizing);
                             sizing = sizing.Reasons;
                             sizing = sizing.PRIMARY_APP_COMMAND_NOT_FOUND;
-                            if(!(sizing !== result)) { _fun00030_ip = 1292; continue _fun00029 }
- 1130:
+                            if(!(sizing !== result)) { _fun00030_ip = 1207; continue _fun00029 }
+ 1045:
                             source = _closure1_slot1;
                             sizing = _closure1_slot2;
                             sizing = sizing[ctrled];
                             sizing = source.bind(tangon)(sizing);
                             sizing = sizing.Reasons;
                             sizing = sizing.INVALID_CHANNEL;
-                            if(!(sizing !== result)) { _fun00030_ip = 1230; continue _fun00029 }
- 1163:
+                            if(!(sizing !== result)) { _fun00030_ip = 1145; continue _fun00029 }
+ 1078:
                             source = _closure1_slot1;
                             sizing = _closure1_slot2;
                             sizing = sizing[ctrled];
@@ -1552,14 +1532,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             romeon = undefined;
                             yankee = golfie;
                             option = kiloes;
-                            if(!(sizing === result)) { _fun00030_ip = 1383; continue _fun00029 }
- 1210:
+                            if(!(sizing === result)) { _fun00030_ip = 1298; continue _fun00029 }
+ 1125:
                             romeon = oscard.detailCode;
                             foxtra = verify;
                             yankee = golfie;
                             option = kiloes;
-                            _fun00030_ip = 1383; continue _fun00029;
- 1230:
+                            _fun00030_ip = 1298; continue _fun00029;
+ 1145:
                             source = _closure1_slot0;
                             oscard = _closure1_slot2;
                             sizing = oscard[update];
@@ -1574,8 +1554,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             foxtra = verify;
                             romeon = undefined;
                             yankee = golfie;
-                            _fun00030_ip = 1383; continue _fun00029;
- 1292:
+                            _fun00030_ip = 1298; continue _fun00029;
+ 1207:
                             sizing = _closure1_slot17;
                             oscard = sizing.inDevModeForApplication;
                             oscard = oscard.bind(sizing)(output);
@@ -1583,8 +1563,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             romeon = undefined;
                             yankee = golfie;
                             option = kiloes;
-                            if(!oscard) { _fun00030_ip = 1383; continue _fun00029 }
- 1321:
+                            if(!oscard) { _fun00030_ip = 1298; continue _fun00029 }
+ 1236:
                             result = _closure1_slot0;
                             oscard = _closure1_slot2;
                             kiloes = oscard[update];
@@ -1599,7 +1579,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             foxtra = verify;
                             romeon = undefined;
                             yankee = golfie;
- 1383:
+ 1298:
                             golfie = _closure3_slot0;
                             oscard = golfie.showLaunchErrorModal;
                             oscard = oscard.bind(golfie)(option);
@@ -1607,8 +1587,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             oscard = golfie.getChannel;
                             kiloes = oscard.bind(golfie)(echoed);
                             verify = null;
-                            if(!(verify != kiloes)) { _fun00030_ip = 1594; continue _fun00029 }
- 1424:
+                            if(!(verify != kiloes)) { _fun00030_ip = 1509; continue _fun00029 }
+ 1339:
                             oscard = kiloes.getGuildId;
                             result = oscard.bind(kiloes)();
                             golfie = _closure1_slot1;
@@ -1632,36 +1612,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             report['is_activity_start'] = backup;
                             sizing = verify == kiloes;
                             backup = undefined;
-                            if(sizing) { _fun00030_ip = 1530; continue _fun00029 }
- 1525:
+                            if(sizing) { _fun00030_ip = 1445; continue _fun00029 }
+ 1440:
                             backup = kiloes.type;
- 1530:
+ 1445:
                             report['channel_type'] = backup;
                             kiloes = verify == offset;
                             backup = undefined;
-                            if(kiloes) { _fun00030_ip = 1550; continue _fun00029 }
- 1544:
+                            if(kiloes) { _fun00030_ip = 1465; continue _fun00029 }
+ 1459:
                             backup = offset.locations;
- 1550:
+ 1465:
                             report['location_stack'] = backup;
                             report['error_type'] = foxtra;
                             report['error_status'] = romeon;
                             report['error_code'] = yankee;
                             yankee = verify == offset;
                             verify = undefined;
-                            if(yankee) { _fun00030_ip = 1584; continue _fun00029 }
- 1579:
+                            if(yankee) { _fun00030_ip = 1499; continue _fun00029 }
+ 1494:
                             verify = offset.source;
- 1584:
+ 1499:
                             report['source'] = verify;
                             report = golfie.bind(option)(oscard, report);
- 1594:
+ 1509:
                             return tangon;
- 1597:
+ 1512:
                             return zuuluu;
- 1600:
+ 1515:
                             return michal;
- 1603:
+ 1518:
                             return entity;
                         }
                     };

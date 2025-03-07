@@ -630,11 +630,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = romeon.attachments;
             zuuluu = entity.length;
             entity = null;
-            if(!(oscard !== zuuluu)) { _fun00002_ip = 999; continue _fun00001 }
+            if(!(oscard !== zuuluu)) { _fun00002_ip = 1003; continue _fun00001 }
  596:
             tangon = _closure1_slot19;
             zuuluu = _closure1_slot5;
-            if(!(!(michal > oscard))) { _fun00002_ip = 890; continue _fun00001 }
+            if(!(!(michal > oscard))) { _fun00002_ip = 894; continue _fun00001 }
  611:
             michal = {};
             offset = _closure1_slot18;
@@ -686,12 +686,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = _closure1_slot17;
             ctrled = ctrled.DEFAULT;
             kiloes['type'] = ctrled;
-            if(!(update == echoed)) { _fun00002_ip = 841; continue _fun00001 }
+            if(!(update == echoed)) { _fun00002_ip = 845; continue _fun00001 }
  824:
             update = {'id': '0', 'avatar': null, 'discriminator': '0000'};
             update['username'] = source;
             echoed = update;
- 841:
+ 845:
             kiloes['author'] = echoed;
             echoed = romeon.content;
             kiloes['content'] = echoed;
@@ -702,8 +702,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = offset.bind(report)(verify, golfie);
             oscard[1] = golfie;
             michal['children'] = oscard;
-            _fun00002_ip = 993; continue _fun00001;
- 890:
+            _fun00002_ip = 997; continue _fun00001;
+ 894:
             oscard = {};
             offset = _closure1_slot18;
             verify = _closure1_slot8;
@@ -805,9 +805,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie[1] = option;
             oscard['children'] = golfie;
             michal = oscard;
- 993:
+ 997:
             entity = tangon.bind(report)(zuuluu, michal);
- 999:
+ 1003:
             return entity;
         }
     };

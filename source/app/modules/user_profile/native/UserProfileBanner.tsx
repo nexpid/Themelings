@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  68:
             var _closure2_slot4 = zuuluu;
             verify = michal.pendingBanner;
-            option = michal.pendingAvatar;
+            option = michal.pendingAvatarSrc;
             zuuluu = michal.pendingAccentColor;
             var _closure2_slot5 = zuuluu;
             zuuluu = michal.pendingThemeColors;
@@ -171,7 +171,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = foxtra.guildId;
  294:
             michal['guildId'] = kiloes;
-            michal['pendingAvatar'] = option;
+            michal['pendingAvatarSrc'] = option;
             michal['displayProfile'] = foxtra;
             michal = zuuluu.bind(oscard)(michal);
             _closure2_slot10 = michal;

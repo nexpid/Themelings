@@ -545,8 +545,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             offset['onSelect'] = source;
-            if(!(result == echoed)) { _fun00006_ip = 809; continue _fun00005 }
- 752:
+            if(!(result == echoed)) { _fun00006_ip = 813; continue _fun00005 }
+ 756:
             echoed = _closure1_slot0;
             result = _closure1_slot2;
             result = result[update];
@@ -559,7 +559,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = foxtra.get;
             result = result.bind(foxtra)();
             output = source.bind(ctrled)(update, echoed, result);
- 809:
+ 813:
             offset['color'] = output;
             offset = sizing.bind(tangon)(yankee, offset);
             option[1] = offset;

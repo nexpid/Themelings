@@ -1300,8 +1300,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                     entity = {'opacity': null, 'color': 'white', 'fontSize': 14, 'marginLeft': 8, 'textAlignVertical': 'center'};
                     michal = _closure2_slot4;
-                    if(michal) { _fun00020_ip = 80; continue _fun00019 }
- 20:
+                    if(michal) { _fun00020_ip = 84; continue _fun00019 }
+ 24:
                     report = _closure1_slot0;
                     tangon = _closure1_slot3;
                     michal = 41;
@@ -1316,12 +1316,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     golfie = 125;
                     michal['duration'] = golfie;
                     michal = report.bind(oscard)(tangon, michal);
-                    _fun00020_ip = 93; continue _fun00019;
- 80:
+                    _fun00020_ip = 97; continue _fun00019;
+ 84:
                     tangon = _closure2_slot9;
                     zuuluu = tangon.get;
                     michal = zuuluu.bind(tangon)();
- 93:
+ 97:
                     entity['opacity'] = michal;
                     return entity;
                 }

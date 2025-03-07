@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = 'PROFILE_TRY_IT_OUT';
     michal[verify] = oscard;
     var _closure1_slot9 = michal;
-    oscard = 14;
+    oscard = 15;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
     golfie = option.fileFinishedImporting;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00002_ip = 375; continue _fun00001 }
+                        if(michal) { _fun00002_ip = 439; continue _fun00001 }
  10:
                         michal = global;
                         zuuluu = michal.fetch;
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return michal;
  38:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(zuuluu) { _fun00002_ip = 372; continue _fun00001 }
+                        if(zuuluu) { _fun00002_ip = 436; continue _fun00001 }
  47:
                         zuuluu = michal.blob;
                         zuuluu = zuuluu.bind(michal)();
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return zuuluu;
  61:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                        if(tangon) { _fun00002_ip = 369; continue _fun00001 }
+                        if(tangon) { _fun00002_ip = 433; continue _fun00001 }
  70:
                         tangon = function(argFoo) { // Original name: blobToDataURI
                             michal = argFoo;
@@ -195,16 +195,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return tangon;
  88:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                        if(oscard) { _fun00002_ip = 366; continue _fun00001 }
+                        if(oscard) { _fun00002_ip = 430; continue _fun00001 }
  97:
                         option = _closure2_slot1;
                         golfie = _closure1_slot8;
                         golfie = golfie.AVATAR;
-                        if(!(golfie !== option)) { _fun00002_ip = 225; continue _fun00001 }
+                        if(!(golfie !== option)) { _fun00002_ip = 228; continue _fun00001 }
  121:
                         golfie = _closure1_slot8;
                         golfie = golfie.BANNER;
-                        if(!(golfie === option)) { _fun00002_ip = 333; continue _fun00001 }
+                        if(!(golfie === option)) { _fun00002_ip = 397; continue _fun00001 }
  138:
                         option = _closure2_slot2;
                         golfie = _closure1_slot9;
@@ -213,68 +213,82 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  156:
                         option = _closure1_slot0;
                         verify = _closure1_slot2;
-                        golfie = 6;
+                        golfie = 7;
                         golfie = verify[golfie];
                         option = option.bind(report)(golfie);
                         golfie = option.setPendingBanner;
                         golfie = golfie.bind(option)(tangon);
-                        _fun00002_ip = 333; continue _fun00001;
+                        _fun00002_ip = 397; continue _fun00001;
  192:
-                        option = _closure1_slot0;
-                        verify = _closure1_slot2;
-                        golfie = 6;
-                        golfie = verify[golfie];
-                        option = option.bind(report)(golfie);
-                        golfie = option.setTryItOutBanner;
-                        golfie = golfie.bind(option)(tangon);
-                        _fun00002_ip = 333; continue _fun00001;
- 225:
-                        option = _closure2_slot2;
-                        golfie = _closure1_slot9;
-                        golfie = golfie.PROFILE_TRY_IT_OUT;
-                        if(!(option !== golfie)) { _fun00002_ip = 302; continue _fun00001 }
- 243:
                         option = _closure1_slot0;
                         verify = _closure1_slot2;
                         golfie = 7;
                         golfie = verify[golfie];
-                        verify = option.bind(report)(golfie);
-                        option = verify.setNewPendingAvatar;
-                        yankee = _closure2_slot0;
-                        golfie = null;
-                        yankee = golfie == yankee;
-                        golfie = undefined;
-                        if(yankee) { _fun00002_ip = 294; continue _fun00001 }
- 284:
-                        offset = _closure2_slot0;
-                        golfie = offset.avatar;
- 294:
-                        golfie = option.bind(verify)(tangon, golfie);
-                        _fun00002_ip = 333; continue _fun00001;
- 302:
-                        option = _closure1_slot0;
-                        verify = _closure1_slot2;
-                        golfie = 6;
-                        golfie = verify[golfie];
                         option = option.bind(report)(golfie);
-                        golfie = option.setTryItOutAvatar;
+                        golfie = option.setTryItOutBanner;
                         golfie = golfie.bind(option)(tangon);
- 333:
+                        _fun00002_ip = 397; continue _fun00001;
+ 228:
+                        romeon = _closure1_slot0;
+                        foxtra = _closure1_slot2;
+                        offset = 6;
+                        golfie = foxtra[offset];
+                        verify = romeon.bind(report)(golfie);
+                        option = verify.createPendingImage;
+                        golfie = {};
+                        golfie['imageUri'] = tangon;
+                        offset = foxtra[offset];
+                        romeon = romeon.bind(report)(offset);
+                        offset = romeon.generateAvatarDescription;
+                        offset = offset.bind(romeon)();
+                        golfie['description'] = offset;
+                        verify = option.bind(verify)(golfie);
+                        option = _closure2_slot2;
+                        golfie = _closure1_slot9;
+                        golfie = golfie.PROFILE_TRY_IT_OUT;
+                        if(!(option !== golfie)) { _fun00002_ip = 366; continue _fun00001 }
+ 307:
+                        option = _closure1_slot0;
+                        offset = _closure1_slot2;
+                        golfie = 8;
+                        golfie = offset[golfie];
+                        offset = option.bind(report)(golfie);
+                        option = offset.setNewPendingAvatarV2;
+                        romeon = _closure2_slot0;
+                        golfie = null;
+                        romeon = golfie == romeon;
+                        golfie = undefined;
+                        if(romeon) { _fun00002_ip = 358; continue _fun00001 }
+ 348:
+                        yankee = _closure2_slot0;
+                        golfie = yankee.avatar;
+ 358:
+                        golfie = option.bind(offset)(verify, golfie);
+                        _fun00002_ip = 397; continue _fun00001;
+ 366:
+                        option = _closure1_slot0;
+                        offset = _closure1_slot2;
+                        golfie = 7;
+                        golfie = offset[golfie];
+                        option = option.bind(report)(golfie);
+                        golfie = option.setTryItOutAvatarV2;
+                        golfie = golfie.bind(option)(verify);
+ 397:
                         golfie = _closure1_slot1;
                         option = _closure1_slot2;
-                        oscard = 8;
+                        oscard = 9;
                         oscard = option[oscard];
                         golfie = golfie.bind(report)(oscard);
                         oscard = golfie.hideActionSheet;
                         oscard = oscard.bind(golfie)();
                         return report;
- 366:
+ 430:
                         return tangon;
- 369:
+ 433:
                         return zuuluu;
- 372:
+ 436:
                         return michal;
- 375:
+ 439:
                         return entity;
                     }
                 };
@@ -296,19 +310,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = _closure1_slot6;
         backup = _closure1_slot0;
         foxtra = _closure1_slot2;
-        entity = 9;
+        entity = 10;
         entity = foxtra[entity];
         entity = backup.bind(tangon)(entity);
         michal = entity.BottomSheet;
         entity = {'scrollable': true, 'startExpanded': true};
         yankee = true;
         option = _closure1_slot5;
-        report = 10;
+        report = 11;
         report = foxtra[report];
         report = backup.bind(tangon)(report);
         oscard = report.BottomSheetTitleHeader;
         report = {};
-        golfie = 11;
+        golfie = 12;
         kiloes = foxtra[golfie];
         kiloes = backup.bind(tangon)(kiloes);
         sizing = kiloes.intl;
@@ -319,7 +333,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = golfie.xsC+//;
         golfie = kiloes.bind(sizing)(golfie);
         report['title'] = golfie;
-        golfie = 12;
+        golfie = 13;
         golfie = foxtra[golfie];
         golfie = backup.bind(tangon)(golfie);
         backup = golfie.NitroWheelIcon;
@@ -338,7 +352,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         offset = offset.gifPicker;
         oscard['style'] = offset;
         offset = _closure1_slot1;
-        verify = 13;
+        verify = 14;
         verify = foxtra[verify];
         offset = offset.bind(tangon)(verify);
         verify = {};

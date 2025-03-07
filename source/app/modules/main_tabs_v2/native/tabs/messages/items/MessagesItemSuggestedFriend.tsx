@@ -467,7 +467,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = _closure1_slot9;
             option = _closure1_slot0;
             offset = _closure1_slot2;
-            if(oscard) { _fun00002_ip = 698; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 702; continue _fun00001 }
  607:
             oscard = 19;
             oscard = offset[oscard];
@@ -487,8 +487,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['text'] = foxtra;
             oscard['onPress'] = romeon;
             oscard = verify.bind(tangon)(golfie, oscard);
-            _fun00002_ip = 735; continue _fun00001;
- 698:
+            _fun00002_ip = 739; continue _fun00001;
+ 702:
             golfie = 20;
             golfie = offset[golfie];
             golfie = option.bind(tangon)(golfie);
@@ -498,7 +498,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['marginHorizontal'] = yankee;
             golfie['style'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 735:
+ 739:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

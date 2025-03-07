@@ -484,7 +484,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             StartGenerator();
                             kiloes = argFoo;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00012_ip = 1018; continue _fun00011 }
+                            if(michal) { _fun00012_ip = 1022; continue _fun00011 }
  15:
                             foxtra = undefined;
                             var _closure5_slot0 = foxtra;
@@ -514,7 +514,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             report = golfie.bind(option)(report);
                             michal['content'] = report;
                             michal = zuuluu.bind(tangon)(michal);
-                            _fun00012_ip = 785; continue _fun00011;
+                            _fun00012_ip = 789; continue _fun00011;
  140:
                             michal = _closure2_slot6;
                             output = true;
@@ -537,7 +537,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return michal;
  217:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(tangon) { _fun00012_ip = 1015; continue _fun00011 }
+                            if(tangon) { _fun00012_ip = 1019; continue _fun00011 }
  226:
                             report = michal.filter;
                             option = _closure1_slot0;
@@ -603,7 +603,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return zuuluu;
  328:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                            if(tangon) { _fun00012_ip = 1012; continue _fun00011 }
+                            if(tangon) { _fun00012_ip = 1016; continue _fun00011 }
  337:
                             if(zuuluu) { _fun00012_ip = 356; continue _fun00011 }
  340:
@@ -622,7 +622,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = tangon.bind(report)();
                             report = yankee.length;
                             tangon = 1;
-                            if(!(tangon === report)) { _fun00012_ip = 500; continue _fun00011 }
+                            if(!(tangon === report)) { _fun00012_ip = 504; continue _fun00011 }
  398:
                             report = _closure1_slot1;
                             golfie = _closure1_slot2;
@@ -640,7 +640,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return tangon;
  445:
                             ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                            if(golfie) { _fun00012_ip = 1009; continue _fun00011 }
+                            if(golfie) { _fun00012_ip = 1013; continue _fun00011 }
  454:
                             option = _closure1_slot0;
                             backup = _closure1_slot2;
@@ -651,7 +651,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             golfie = yankee[report];
                             report = {'navigationReplace': true, 'openTextInVoiceIfVoiceChannel': true};
                             report = option.bind(backup)(golfie, report);
- 500:
+ 504:
                             golfie = _closure1_slot1;
                             option = _closure1_slot2;
                             report = 30;
@@ -666,13 +666,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             result = 'withMessage';
                             report[result] = kiloes;
                             report = option.bind(backup)(golfie, yankee, report);
-                            SaveGenerator(address=563);
- 561:
+                            SaveGenerator(address=567);
+ 565:
                             return report;
- 563:
+ 567:
                             ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                            if(golfie) { _fun00012_ip = 1006; continue _fun00011 }
- 572:
+                            if(golfie) { _fun00012_ip = 1010; continue _fun00011 }
+ 576:
                             _closure5_slot0 = report;
                             option = report.every;
                             golfie = function(argFoo) {
@@ -689,8 +689,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             golfie = result[golfie];
                             option = option.bind(foxtra)(golfie);
                             golfie = option.trackForwardSent;
-                            if(backup) { _fun00012_ip = 788; continue _fun00011 }
- 626:
+                            if(backup) { _fun00012_ip = 792; continue _fun00011 }
+ 630:
                             backup = {};
                             result = _closure2_slot4;
                             backup['channelId'] = result;
@@ -698,11 +698,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             backup['messageId'] = result;
                             backup['hasError'] = output;
                             output = romeon != kiloes;
-                            if(!output) { _fun00012_ip = 664; continue _fun00011 }
- 656:
+                            if(!output) { _fun00012_ip = 668; continue _fun00011 }
+ 660:
                             result = '';
                             output = result !== kiloes;
- 664:
+ 668:
                             backup['hasContextMessage'] = output;
                             output = yankee.length;
                             backup['numDestinations'] = output;
@@ -737,9 +737,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             output = _closure2_slot0;
                             oscard['forwardOptions'] = output;
                             oscard = backup.bind(sizing)(oscard);
- 785:
+ 789:
                             return foxtra;
- 788:
+ 792:
                             oscard = {};
                             backup = _closure2_slot4;
                             oscard['channelId'] = backup;
@@ -748,11 +748,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             backup = false;
                             oscard['hasError'] = backup;
                             romeon = romeon != kiloes;
-                            if(!romeon) { _fun00012_ip = 828; continue _fun00011 }
- 820:
+                            if(!romeon) { _fun00012_ip = 832; continue _fun00011 }
+ 824:
                             backup = '';
                             romeon = backup !== kiloes;
- 828:
+ 832:
                             oscard['hasContextMessage'] = romeon;
                             yankee = yankee.length;
                             oscard['numDestinations'] = yankee;
@@ -793,15 +793,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             oscard = golfie.bind(option)(oscard);
                             oscard = undefined;
                             return oscard;
- 1006:
+ 1010:
                             return report;
- 1009:
+ 1013:
                             return tangon;
- 1012:
+ 1016:
                             return zuuluu;
- 1015:
+ 1019:
                             return michal;
- 1018:
+ 1022:
                             return entity;
                         }
                     };

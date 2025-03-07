@@ -301,8 +301,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = entity.input;
                 option = tangon.stream;
                 tangon = null;
-                if(!(tangon == option)) { _fun00008_ip = 299; continue _fun00007 }
- 265:
+                if(!(tangon == option)) { _fun00008_ip = 301; continue _fun00007 }
+ 267:
                 verify = _closure1_slot0;
                 offset = _closure1_slot2;
                 option = 10;
@@ -310,8 +310,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = verify.bind(golfie)(option);
                 option = option.Directions;
                 option = option.SENDONLY;
-                _fun00008_ip = 331; continue _fun00007;
- 299:
+                _fun00008_ip = 333; continue _fun00007;
+ 301:
                 offset = _closure1_slot0;
                 yankee = _closure1_slot2;
                 verify = 10;
@@ -319,7 +319,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify = offset.bind(golfie)(verify);
                 verify = verify.Directions;
                 option = verify.SENDRECV;
- 331:
+ 333:
                 report['direction'] = option;
                 entity['fpc'] = report;
                 report = _closure1_slot1;
@@ -561,17 +561,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = report.bind(michal)(oscard, zuuluu);
                 zuuluu = entity.input;
                 zuuluu = zuuluu.stream;
-                if(!(tangon == zuuluu)) { _fun00008_ip = 627; continue _fun00007 }
- 615:
+                if(!(tangon == zuuluu)) { _fun00008_ip = 629; continue _fun00007 }
+ 617:
                 zuuluu = michal.negotiationNeeded;
                 zuuluu = zuuluu.bind(michal)();
-                _fun00008_ip = 650; continue _fun00007;
- 627:
+                _fun00008_ip = 652; continue _fun00007;
+ 629:
                 tangon = michal.setStream;
                 zuuluu = entity.input;
                 zuuluu = zuuluu.stream;
                 zuuluu = tangon.bind(michal)(zuuluu);
- 650:
+ 652:
                 entity['pc'] = michal;
                 return entity;
             }

@@ -104,8 +104,8 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             report['spacing'] = option;
             option = backup != sizing;
             yankee = null;
-            if(!option) { _fun00002_ip = 205; continue _fun00001 }
- 175:
+            if(!option) { _fun00002_ip = 209; continue _fun00001 }
+ 179:
             foxtra = _closure1_slot3;
             romeon = _closure1_slot2;
             option = {};
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             option['style'] = output;
             option['children'] = sizing;
             yankee = foxtra.bind(tangon)(romeon, option);
- 205:
+ 209:
             option = new Array(3);
             option[0] = yankee;
             romeon = _closure1_slot4;
@@ -137,8 +137,8 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             foxtra[0] = sizing;
             sizing = backup != result;
             backup = null;
-            if(!sizing) { _fun00002_ip = 368; continue _fun00001 }
- 313:
+            if(!sizing) { _fun00002_ip = 372; continue _fun00001 }
+ 317:
             output = _closure1_slot3;
             sizing = _closure1_slot0;
             kiloes = _closure1_slot1;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             kiloes['style'] = echoed;
             kiloes['children'] = result;
             backup = output.bind(tangon)(sizing, kiloes);
- 368:
+ 372:
             foxtra[1] = backup;
             offset['children'] = foxtra;
             offset = romeon.bind(tangon)(yankee, offset);

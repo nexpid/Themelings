@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         report = 10;
                         zuuluu = oscard >= report;
  44:
-                        if(!zuuluu) { _fun00010_ip = 86; continue _fun00009 }
+                        if(!zuuluu) { _fun00010_ip = 84; continue _fun00009 }
  47:
                         zuuluu = _closure1_slot1;
                         michal = _closure1_slot3;
@@ -312,7 +312,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         zuuluu = '🦥';
                         michal = argBar;
                         michal = tangon.bind(report)(zuuluu, michal, oscard);
- 86:
+ 84:
                         return entity;
                     }
                 };

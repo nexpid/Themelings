@@ -61,13 +61,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = new Array(0);
                 offset = option < verify;
                 oscard = false;
-                if(!offset) { _fun00002_ip = 172; continue _fun00001 }
- 155:
+                if(!offset) { _fun00002_ip = 176; continue _fun00001 }
+ 159:
                 offset = michal.push;
                 offset = offset.bind(michal)(oscard);
                 option = option + 1;
-                if(option < verify) { _fun00002_ip = 155; continue _fun00001 }
- 172:
+                if(option < verify) { _fun00002_ip = 159; continue _fun00001 }
+ 176:
                 oscard = global;
                 offset = oscard.window;
                 verify = offset.setInterval;
@@ -174,65 +174,65 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = -inf;
                 entity = 0;
                 zuuluu = report;
-                if(!tangon) { _fun00008_ip = 97; continue _fun00007 }
- 56:
+                if(!tangon) { _fun00008_ip = 99; continue _fun00007 }
+ 58:
                 tangon = golfie[oscard];
                 tangon = tangon > report;
-                if(!tangon) { _fun00008_ip = 75; continue _fun00007 }
- 67:
+                if(!tangon) { _fun00008_ip = 77; continue _fun00007 }
+ 69:
                 option = golfie[oscard];
                 tangon = option < entity;
- 75:
-                if(!tangon) { _fun00008_ip = 82; continue _fun00007 }
- 78:
+ 77:
+                if(!tangon) { _fun00008_ip = 84; continue _fun00007 }
+ 80:
                 report = golfie[oscard];
- 82:
+ 84:
                 oscard = oscard + 1;
                 tangon = golfie.length;
                 zuuluu = report;
-                if(oscard < tangon) { _fun00008_ip = 56; continue _fun00007 }
- 97:
+                if(oscard < tangon) { _fun00008_ip = 58; continue _fun00007 }
+ 99:
                 michal['currentVolume'] = zuuluu;
                 tangon = michal.speakingHistory;
                 zuuluu = michal.speakingHistoryIndex;
                 zuuluu = tangon[zuuluu];
-                if(!zuuluu) { _fun00008_ip = 137; continue _fun00007 }
- 122:
+                if(!zuuluu) { _fun00008_ip = 139; continue _fun00007 }
+ 124:
                 zuuluu = michal.speakingCounter;
                 zuuluu = zuuluu - 1;
                 michal['speakingCounter'] = zuuluu;
- 137:
+ 139:
                 tangon = michal.currentVolume;
                 zuuluu = michal.threshold;
                 zuuluu = tangon > zuuluu;
                 report = michal.speakingHistory;
                 tangon = michal.speakingHistoryIndex;
                 report[tangon] = zuuluu;
-                if(!zuuluu) { _fun00008_ip = 187; continue _fun00007 }
- 172:
+                if(!zuuluu) { _fun00008_ip = 189; continue _fun00007 }
+ 174:
                 zuuluu = michal.speakingCounter;
                 zuuluu = zuuluu + 1;
                 michal['speakingCounter'] = zuuluu;
- 187:
+ 189:
                 zuuluu = michal.speakingHistoryIndex;
                 tangon = zuuluu + 1;
                 michal['speakingHistoryIndex'] = tangon;
                 zuuluu = michal.speakingHistory;
                 zuuluu = zuuluu.length;
-                if(!(tangon === zuuluu)) { _fun00008_ip = 223; continue _fun00007 }
- 217:
+                if(!(tangon === zuuluu)) { _fun00008_ip = 225; continue _fun00007 }
+ 219:
                 michal['speakingHistoryIndex'] = entity;
- 223:
+ 225:
                 zuuluu = michal.speakingCounter;
-                if(!(!(zuuluu > entity))) { _fun00008_ip = 250; continue _fun00007 }
- 233:
+                if(!(!(zuuluu > entity))) { _fun00008_ip = 252; continue _fun00007 }
+ 235:
                 zuuluu = michal.silentFrames;
                 zuuluu = zuuluu + 1;
                 michal['silentFrames'] = zuuluu;
-                _fun00008_ip = 256; continue _fun00007;
- 250:
+                _fun00008_ip = 258; continue _fun00007;
+ 252:
                 michal['silentFrames'] = entity;
- 256:
+ 258:
                 entity = undefined;
                 return entity;
             }

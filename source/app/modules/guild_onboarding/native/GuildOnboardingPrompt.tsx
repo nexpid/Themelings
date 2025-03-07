@@ -404,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!(verify === ctrled)) { _fun00004_ip = 830; continue _fun00003 }
  824:
             yankee = null;
-            if(!(verify !== source)) { _fun00004_ip = 911; continue _fun00003 }
+            if(!(verify !== source)) { _fun00004_ip = 915; continue _fun00003 }
  830:
             kiloes = _closure1_slot16;
             romeon = _closure1_slot0;
@@ -423,7 +423,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update[2] = source;
             verify['children'] = update;
             yankee = kiloes.bind(tangon)(romeon, verify);
- 911:
+ 915:
             verify = new Array(2);
             verify[0] = yankee;
             romeon = _closure1_slot15;
@@ -437,28 +437,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = new Array(2);
             kiloes[0] = update;
             update = sizing;
-            if(!sizing) { _fun00004_ip = 971; continue _fun00003 }
- 965:
+            if(!sizing) { _fun00004_ip = 975; continue _fun00003 }
+ 969:
             update = output.buttonTextDisabled;
- 971:
+ 975:
             kiloes[1] = update;
             offset['textStyle'] = kiloes;
             update = output.footerButton;
             kiloes = new Array(3);
             kiloes[0] = update;
-            if(!result) { _fun00004_ip = 1000; continue _fun00003 }
- 997:
+            if(!result) { _fun00004_ip = 1004; continue _fun00003 }
+ 1001:
             result = !echoed;
- 1000:
-            if(!result) { _fun00004_ip = 1009; continue _fun00003 }
- 1003:
+ 1004:
+            if(!result) { _fun00004_ip = 1013; continue _fun00003 }
+ 1007:
             result = output.buttonSkip;
- 1009:
+ 1013:
             kiloes[1] = result;
-            if(!sizing) { _fun00004_ip = 1022; continue _fun00003 }
- 1016:
+            if(!sizing) { _fun00004_ip = 1026; continue _fun00003 }
+ 1020:
             sizing = output.buttonDisabled;
- 1022:
+ 1026:
             kiloes[2] = sizing;
             offset['style'] = kiloes;
             offset['text'] = backup;

@@ -282,7 +282,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             oscard = michal.bind(zuuluu)(entity);
-            if(!(variable36 !== oscard)) { _fun00008_ip = 1835; continue _fun00007 }
+            if(!(variable36 !== oscard)) { _fun00008_ip = 1837; continue _fun00007 }
  211:
             zuuluu = new Array(0);
             entity = result.length;
@@ -661,20 +661,20 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             report = oscard.currentRoundTripTime;
             option = verify != report;
             entity = 0;
-            if(!option) { _fun00008_ip = 1753; continue _fun00007 }
- 1750:
+            if(!option) { _fun00008_ip = 1755; continue _fun00007 }
+ 1752:
             entity = report;
- 1753:
+ 1755:
             report = michal * entity;
             entity = {};
             michal = {};
             option = oscard.availableOutgoingBitrate;
             verify = verify != option;
             golfie = 0;
-            if(!verify) { _fun00008_ip = 1779; continue _fun00007 }
- 1776:
+            if(!verify) { _fun00008_ip = 1781; continue _fun00007 }
+ 1778:
             golfie = option;
- 1779:
+ 1781:
             michal['availableOutgoingBitrate'] = golfie;
             golfie = oscard.bytesReceived;
             michal['bytesReceived'] = golfie;
@@ -687,7 +687,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal['outbound'] = zuuluu;
             entity['rtp'] = michal;
             return entity;
- 1835:
+ 1837:
             entity = null;
             return entity;
         }

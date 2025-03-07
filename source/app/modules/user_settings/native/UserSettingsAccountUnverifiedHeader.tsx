@@ -184,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = michal.bind(report)(entity);
             entity = null;
             michal = entity == offset;
-            if(michal) { _fun00004_ip = 280; continue _fun00003 }
+            if(michal) { _fun00004_ip = 284; continue _fun00003 }
  86:
             tangon = _closure1_slot5;
             option = _closure1_slot0;
@@ -225,7 +225,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 280:
+ 284:
             return entity;
         }
     };

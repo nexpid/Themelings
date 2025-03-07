@@ -562,8 +562,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = zuuluu.bind(tangon)(result, yankee);
             yankee = new Array(4);
             yankee[0] = result;
-            if(!backup) { _fun00002_ip = 917; continue _fun00001 }
- 809:
+            if(!backup) { _fun00002_ip = 921; continue _fun00001 }
+ 813:
             source = _closure1_slot10;
             cntext = _closure1_slot0;
             config = _closure1_slot2;
@@ -588,10 +588,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['iconSource'] = vacuum;
             result['onPress'] = ctrled;
             backup = source.bind(tangon)(echoed, result);
- 917:
+ 921:
             yankee[1] = backup;
-            if(!foxtra) { _fun00002_ip = 1032; continue _fun00001 }
- 924:
+            if(!foxtra) { _fun00002_ip = 1036; continue _fun00001 }
+ 928:
             echoed = _closure1_slot10;
             config = _closure1_slot0;
             vacuum = _closure1_slot2;
@@ -616,7 +616,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup['iconSource'] = source;
             backup['onPress'] = update;
             foxtra = echoed.bind(tangon)(result, backup);
- 1032:
+ 1036:
             yankee[2] = foxtra;
             backup = _closure1_slot10;
             source = _closure1_slot0;

@@ -265,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00008_ip = 159; continue _fun00007 }
+                    if(michal) { _fun00008_ip = 163; continue _fun00007 }
  10:
                     tangon = _closure1_slot11;
                     michal = tangon.getState;
@@ -280,26 +280,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = oscard.REQUESTED;
                     tangon = golfie === oscard;
  62:
-                    if(!tangon) { _fun00008_ip = 85; continue _fun00007 }
+                    if(!tangon) { _fun00008_ip = 89; continue _fun00007 }
  65:
                     oscard = _closure1_slot25;
                     tangon = undefined;
                     tangon = oscard.bind(tangon)();
                     report = {'filename': '', 'durationSecs': 0, 'waveform': ''};
- 85:
-                    if(!(michal == report)) { _fun00008_ip = 112; continue _fun00007 }
  89:
+                    if(!(michal == report)) { _fun00008_ip = 116; continue _fun00007 }
+ 93:
                     tangon = _closure1_slot25;
                     michal = undefined;
                     michal = tangon.bind(michal)();
-                    SaveGenerator(address=103);
- 101:
+                    SaveGenerator(address=107);
+ 105:
                     return michal;
- 103:
+ 107:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                     report = michal;
-                    if(tangon) { _fun00008_ip = 156; continue _fun00007 }
- 112:
+                    if(tangon) { _fun00008_ip = 160; continue _fun00007 }
+ 116:
                     oscard = _closure1_slot11;
                     tangon = oscard.getState;
                     tangon = tangon.bind(oscard)();
@@ -311,9 +311,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['data'] = report;
                     zuuluu['startTimeMillis'] = tangon;
                     return zuuluu;
- 156:
+ 160:
                     return michal;
- 159:
+ 163:
                     return entity;
                 }
             };

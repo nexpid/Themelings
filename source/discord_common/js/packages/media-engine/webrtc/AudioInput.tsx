@@ -275,7 +275,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = entity.context;
                 tangon = entity.stream;
                 zuuluu = null;
-                if(!(zuuluu != tangon)) { _fun00008_ip = 119; continue _fun00007 }
+                if(!(zuuluu != tangon)) { _fun00008_ip = 123; continue _fun00007 }
  39:
                 zuuluu = michal.createDelay;
                 zuuluu = zuuluu.bind(michal)(report);
@@ -292,7 +292,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.bind(zuuluu)(entity);
                 entity = entity.stream;
                 return entity;
- 119:
+ 123:
                 entity = global;
                 zuuluu = entity.Error;
                 entity = zuuluu.prototype;
@@ -464,7 +464,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     golfie = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00018_ip = 838; continue _fun00017 }
+                    if(michal) { _fun00018_ip = 848; continue _fun00017 }
  15:
                     var _closure4_slot0 = golfie;
                     yankee = undefined;
@@ -500,7 +500,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return michal;
  134:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00018_ip = 835; continue _fun00017 }
+                    if(tangon) { _fun00018_ip = 845; continue _fun00017 }
  143:
                     tangon = {};
                     option = golfie.echoCancellation;
@@ -536,19 +536,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return tangon;
  241:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=7);
-                    if(option) { _fun00018_ip = 670; continue _fun00017 }
+                    if(option) { _fun00018_ip = 674; continue _fun00017 }
  250:
                     oscard = tangon;
                     _closure4_slot1 = tangon;
                     option = golfie.destroyed;
-                    if(option) { _fun00018_ip = 619; continue _fun00017 }
+                    if(option) { _fun00018_ip = 623; continue _fun00017 }
  269:
                     option = golfie._noiseCancellation;
                     if(option) { _fun00018_ip = 292; continue _fun00017 }
  278:
                     option = oscard;
                     golfie['stream'] = option;
-                    _fun00018_ip = 553; continue _fun00017;
+                    _fun00018_ip = 555; continue _fun00017;
  292: // try_start_0
                     verify = _closure1_slot0;
                     romeon = _closure1_slot2;
@@ -562,18 +562,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return option;
  326:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=8);
-                    if(verify) { _fun00018_ip = 509; continue _fun00017 }
+                    if(verify) { _fun00018_ip = 511; continue _fun00017 }
  335:
                     yankee = option.createNoiseFilter;
                     verify = golfie.context;
                     verify = yankee.bind(option)(verify);
-                    SaveGenerator(address=355);
- 353:
-                    return verify;
+                    SaveGenerator(address=357);
  355:
+                    return verify;
+ 357:
                     ResumeGenerator(result_out_reg=8, return_bool_out_reg=10);
-                    if(yankee) { _fun00018_ip = 506; continue _fun00017 }
- 364:
+                    if(yankee) { _fun00018_ip = 508; continue _fun00017 }
+ 366:
                     golfie['_audioFilter'] = verify;
                     backup = golfie._audioFilter;
                     foxtra = backup.addEventListener;
@@ -621,13 +621,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = yankee.bind(romeon)(offset);
                     offset = offset.stream;
                     golfie['stream'] = offset;
- 504: // try_end0
-                    _fun00018_ip = 553; continue _fun00017;
- 506: // try_end1
+ 506: // try_end0
+                    _fun00018_ip = 555; continue _fun00017;
+ 508: // try_end1
                     return verify;
- 509:
+ 511:
                     return option;
- 512: // try_start_2 // catch_target0
+ 514: // try_start_2 // catch_target0
                     CatchBlockStart(arg_register=9);
                     verify = _closure1_slot11;
                     yankee = verify.error;
@@ -637,7 +637,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = option.bind(verify)(offset);
                     option = oscard;
                     golfie['stream'] = option;
- 553:
+ 555:
                     option = golfie.updateMode;
                     option = option.bind(golfie)();
                     option = golfie.updateAudioTracks;
@@ -651,9 +651,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = 'stream';
                     option = offset.bind(golfie)(option, verify);
                     option = oscard;
- 616: // try_end2
+ 620: // try_end2
                     return option;
- 619: // try_start_3
+ 623: // try_start_3
                     verify = _closure1_slot12;
                     option = verify.release;
                     oscard = option.bind(verify)(oscard);
@@ -666,47 +666,47 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = new output[verify](sizing, kiloes);
                     oscard = oscard instanceof Object ? oscard : option;
                     throw oscard;
- 670: // try_end3
+ 674: // try_end3
                     return tangon;
- 673: // catch_target1 // catch_target2 // catch_target3
+ 677: // catch_target1 // catch_target2 // catch_target3
                     CatchBlockStart(arg_register=3);
                     report = tangon;
                     oscard = 'string';
                     tangon = typeof tangon;
-                    if(!(oscard === tangon)) { _fun00018_ip = 694; continue _fun00017 }
- 689:
+                    if(!(oscard === tangon)) { _fun00018_ip = 698; continue _fun00017 }
+ 693:
                     tangon = report;
                     throw tangon;
- 694:
+ 698:
                     tangon = report;
                     oscard = tangon.name;
                     tangon = 'PermissionDeniedError';
-                    if(!(tangon !== oscard)) { _fun00018_ip = 805; continue _fun00017 }
- 710:
+                    if(!(tangon !== oscard)) { _fun00018_ip = 815; continue _fun00017 }
+ 716:
                     tangon = 'NotAllowedError';
-                    if(!(tangon !== oscard)) { _fun00018_ip = 805; continue _fun00017 }
- 720:
+                    if(!(tangon !== oscard)) { _fun00018_ip = 815; continue _fun00017 }
+ 726:
                     tangon = 'PermissionDismissedError';
-                    if(!(tangon !== oscard)) { _fun00018_ip = 775; continue _fun00017 }
- 728:
-                    tangon = 'DevicesNotFoundError';
-                    if(!(tangon !== oscard)) { _fun00018_ip = 763; continue _fun00017 }
+                    if(!(tangon !== oscard)) { _fun00018_ip = 785; continue _fun00017 }
  736:
-                    tangon = 'NotFoundError';
-                    if(!(tangon !== oscard)) { _fun00018_ip = 763; continue _fun00017 }
+                    tangon = 'DevicesNotFoundError';
+                    if(!(tangon !== oscard)) { _fun00018_ip = 773; continue _fun00017 }
  746:
+                    tangon = 'NotFoundError';
+                    if(!(tangon !== oscard)) { _fun00018_ip = 773; continue _fun00017 }
+ 756:
                     report = report.name;
                     tangon = report;
-                    if(report) { _fun00018_ip = 761; continue _fun00017 }
- 757:
+                    if(report) { _fun00018_ip = 771; continue _fun00017 }
+ 767:
                     tangon = 'UNKNOWN';
- 761:
+ 771:
                     throw tangon;
- 763:
+ 773:
                     tangon = _closure1_slot10;
                     tangon = tangon.NO_DEVICES_FOUND;
                     throw tangon;
- 775:
+ 785:
                     oscard = golfie.emit;
                     report = 'permission';
                     tangon = false;
@@ -714,7 +714,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = _closure1_slot10;
                     tangon = tangon.PERMISSION_DISMISSED;
                     throw tangon;
- 805:
+ 815:
                     oscard = golfie.emit;
                     report = 'permission';
                     tangon = false;
@@ -722,9 +722,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = _closure1_slot10;
                     zuuluu = zuuluu.PERMISSION_DENIED;
                     throw zuuluu;
- 835:
+ 845:
                     return michal;
- 838:
+ 848:
                     return entity;
                 }
             };
@@ -874,13 +874,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = zuuluu.VOICE_ACTIVITY;
                 entity = tangon === zuuluu;
  68:
-                if(!entity) { _fun00028_ip = 94; continue _fun00027 }
+                if(!entity) { _fun00028_ip = 96; continue _fun00027 }
  71:
                 zuuluu = michal.setupVoiceActivity;
                 entity = michal.modeOptions;
                 entity = zuuluu.bind(michal)(entity);
                 michal['cleanup'] = entity;
- 94:
+ 96:
                 entity = undefined;
                 return entity;
             }

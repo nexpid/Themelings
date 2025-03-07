@@ -80,6 +80,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['FAMILY_CENTER'] = entity;
     entity = 'AUTHORIZED_APPS';
     michal['AUTHORIZED_APPS'] = entity;
+    entity = 'AUTHORIZED_APP';
+    michal['AUTHORIZED_APP'] = entity;
     entity = 'DEVICES';
     michal['DEVICES'] = entity;
     entity = 'CONNECTIONS';

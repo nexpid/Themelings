@@ -126,10 +126,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['padding'] = tangon;
             option = argFoo;
             tangon = undefined;
-            if(!option) { _fun00002_ip = 346; continue _fun00001 }
- 344:
+            if(!option) { _fun00002_ip = 350; continue _fun00001 }
+ 348:
             tangon = 0;
- 346:
+ 350:
             michal['paddingBottom'] = tangon;
             report = _closure1_slot1;
             tangon = _closure1_slot2;

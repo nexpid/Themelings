@@ -52,10 +52,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = zuuluu;
             romeon = michal;
             report = copyDataProperties(backup, foxtra, romeon);
-            if(!offset) { _fun00002_ip = 75; continue _fun00001 }
- 71:
-            if(!(golfie != oscard)) { _fun00002_ip = 175; continue _fun00001 }
+            if(!offset) { _fun00002_ip = 79; continue _fun00001 }
  75:
+            if(!(golfie != oscard)) { _fun00002_ip = 179; continue _fun00001 }
+ 79:
             zuuluu = _closure1_slot0;
             yankee = _closure1_slot1;
             michal = 3;
@@ -72,10 +72,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['ref'] = offset;
             entity['nativeID'] = verify;
             golfie = golfie == verify;
-            if(!golfie) { _fun00002_ip = 147; continue _fun00001 }
- 144:
+            if(!golfie) { _fun00002_ip = 151; continue _fun00001 }
+ 148:
             golfie = option;
- 147:
+ 151:
             entity['collapsable'] = golfie;
             entity['onAccessibilityEscape'] = oscard;
             backup = entity;
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = copyDataProperties(backup, foxtra);
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 175:
+ 179:
             entity = global;
             zuuluu = entity.Error;
             entity = zuuluu.prototype;

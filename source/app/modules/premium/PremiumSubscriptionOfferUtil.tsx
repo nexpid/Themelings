@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 125; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 127; continue _fun00003 }
  7:
                     golfie = undefined;
                     report = undefined;
@@ -150,27 +150,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return zuuluu;
  80:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscard) { _fun00004_ip = 117; continue _fun00003 }
+                    if(oscard) { _fun00004_ip = 119; continue _fun00003 }
  86:
                     oscard = zuuluu.body;
                     oscard = oscard.offer;
                     report = oscard;
                     oscard = tangon != oscard;
                     tangon = null;
-                    if(!oscard) { _fun00004_ip = 112; continue _fun00003 }
- 109:
+                    if(!oscard) { _fun00004_ip = 114; continue _fun00003 }
+ 111:
                     tangon = report;
- 112:
+ 114:
                     michal = tangon;
- 115: // try_end0
-                    _fun00004_ip = 122; continue _fun00003;
- 117:
+ 117: // try_end0
+                    _fun00004_ip = 124; continue _fun00003;
+ 119:
                     return zuuluu;
- 120: // catch_target0
+ 122: // catch_target0
                     CatchBlockStart(arg_register=2);
- 122:
+ 124:
                     return michal;
- 125:
+ 127:
                     return entity;
                 }
             };

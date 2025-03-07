@@ -61,7 +61,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = offset[entity];
         tangon = undefined;
         zuuluu = michal.bind(tangon)(entity);
-        entity = function(argFoo) {
+        entity = {};
+        golfie = function(argFoo) { // Original name: onBeforeGoBack
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 michal = argFoo;
@@ -123,7 +124,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             }
         };
+        entity['onBeforeGoBack'] = golfie;
         entity = zuuluu.bind(tangon)(entity);
+        entity = entity.onGoBack;
         var _closure2_slot3 = entity;
         zuuluu = _closure1_slot6;
         entity = 6;

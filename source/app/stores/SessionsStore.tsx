@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(6);
+        entity = new Array(7);
         entity[0] = report;
         report = {};
         golfie = 'getSessions';
@@ -252,6 +252,52 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[3] = report;
         report = {};
+        golfie = 'getHiddenActivities';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
+            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+ 0:
+                tangon = _closure1_slot7;
+                zuuluu = tangon.getSessionId;
+                zuuluu = zuuluu.bind(tangon)();
+                var _closure3_slot0 = zuuluu;
+                report = _closure1_slot0;
+                tangon = _closure1_slot1;
+                zuuluu = 6;
+                tangon = tangon[zuuluu];
+                zuuluu = undefined;
+                report = report.bind(zuuluu)(tangon);
+                tangon = report.find;
+                zuuluu = _closure1_slot9;
+                michal = function(argFoo) {
+                    _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+ 0:
+                        michal = argFoo;
+                        entity = michal.active;
+                        if(!entity) { _fun00014_ip = 29; continue _fun00013 }
+ 12:
+                        zuuluu = michal.sessionId;
+                        michal = _closure3_slot0;
+                        entity = zuuluu !== michal;
+ 29:
+                        return entity;
+                    }
+                };
+                michal = tangon.bind(report)(zuuluu, michal);
+                zuuluu = null;
+                if(!(zuuluu == michal)) { _fun00012_ip = 77; continue _fun00011 }
+ 71:
+                entity = _closure1_slot8;
+                _fun00012_ip = 83; continue _fun00011;
+ 77:
+                entity = michal.hiddenActivities;
+ 83:
+                return entity;
+            }
+        };
+        report['value'] = golfie;
+        entity[4] = report;
+        report = {};
         golfie = 'getSessionById';
         report['key'] = golfie;
         golfie = function(argFoo) { // Original name: value
@@ -261,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[4] = report;
+        entity[5] = report;
         report = {};
         golfie = 'getActiveSession';
         report['key'] = golfie;
@@ -283,7 +329,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = oscard;
-        entity[5] = report;
+        entity[6] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

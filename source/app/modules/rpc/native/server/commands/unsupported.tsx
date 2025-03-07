@@ -173,7 +173,12 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = report.bind(entity)(option);
     option = option.unsupportedCommand;
     michal[verify] = option;
-    golfie = golfie.SHARE_INTERACTION;
+    verify = golfie.SHARE_INTERACTION;
+    option = oscard[tangon];
+    option = report.bind(entity)(option);
+    option = option.unsupportedCommand;
+    michal[verify] = option;
+    golfie = golfie.SET_SUPPRESS_NOTIFICATIONS;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.unsupportedCommand;
