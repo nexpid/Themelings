@@ -12311,16 +12311,6 @@
         "width": 24,
         "height": 24
     },
-    "RecordPlayerIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/RecordPlayerIcon.png",
-        "hash": "493935d9d9a8ea9f28b4346f923318e6",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "redesign_email_header": {
         "file": "modules/hub/native/images/redesign_email_header.png",
         "hash": "0b100afac52015c470ea1ec3ef8acf50",
