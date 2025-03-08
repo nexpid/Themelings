@@ -285,17 +285,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     entity = _closure2_slot6;
                     option = null;
-                    if(!(option == entity)) { _fun00006_ip = 293; continue _fun00005 }
+                    if(!(option == entity)) { _fun00006_ip = 291; continue _fun00005 }
  16:
-                    entity = _closure2_slot7;
-                    if(!(option == entity)) { _fun00006_ip = 180; continue _fun00005 }
- 27:
                     entity = _closure2_slot5;
                     entity = option == entity;
                     oscard = undefined;
                     golfie = undefined;
-                    if(entity) { _fun00006_ip = 63; continue _fun00005 }
- 42:
+                    if(entity) { _fun00006_ip = 52; continue _fun00005 }
+ 31:
                     zuuluu = _closure2_slot5;
                     michal = zuuluu.find;
                     entity = function(argFoo) {
@@ -316,15 +313,46 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         }
                     };
                     golfie = michal.bind(zuuluu)(entity);
- 63:
-                    michal = option != golfie;
+ 52:
+                    if(!(option == golfie)) { _fun00006_ip = 183; continue _fun00005 }
+ 59:
+                    entity = _closure2_slot7;
+                    michal = option != entity;
                     entity = null;
-                    if(!michal) { _fun00006_ip = 178; continue _fun00005 }
+                    if(!michal) { _fun00006_ip = 181; continue _fun00005 }
  72:
                     tangon = _closure1_slot10;
                     zuuluu = _closure1_slot1;
                     verify = _closure1_slot2;
                     michal = 16;
+                    michal = verify[michal];
+                    zuuluu = zuuluu.bind(oscard)(michal);
+                    michal = {};
+                    verify = _closure2_slot7;
+                    michal['channel'] = verify;
+                    verify = _closure2_slot4;
+                    offset = verify.icon;
+                    verify = new Array(2);
+                    verify[0] = offset;
+                    offset = _closure2_slot1;
+                    verify[1] = offset;
+                    michal['iconStyle'] = verify;
+                    verify = _closure2_slot2;
+                    michal['textStyle'] = verify;
+                    verify = _closure2_slot3;
+                    michal['maxFontSizeMultiplier'] = verify;
+                    verify = _closure2_slot8;
+                    michal['hideIcon'] = verify;
+                    verify = _closure2_slot9;
+                    michal['hideText'] = verify;
+                    entity = tangon.bind(oscard)(zuuluu, michal);
+ 181:
+                    _fun00006_ip = 289; continue _fun00005;
+ 183:
+                    tangon = _closure1_slot10;
+                    zuuluu = _closure1_slot1;
+                    verify = _closure1_slot2;
+                    michal = 15;
                     michal = verify[michal];
                     zuuluu = zuuluu.bind(oscard)(michal);
                     michal = {};
@@ -345,37 +373,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = _closure2_slot9;
                     michal['hideText'] = golfie;
                     entity = tangon.bind(oscard)(zuuluu, michal);
- 178:
+ 289:
                     return entity;
- 180:
-                    tangon = _closure1_slot10;
-                    michal = _closure1_slot1;
-                    zuuluu = _closure1_slot2;
-                    entity = 15;
-                    entity = zuuluu[entity];
-                    zuuluu = undefined;
-                    michal = michal.bind(zuuluu)(entity);
-                    entity = {};
-                    oscard = _closure2_slot7;
-                    entity['channel'] = oscard;
-                    oscard = _closure2_slot4;
-                    golfie = oscard.icon;
-                    oscard = new Array(2);
-                    oscard[0] = golfie;
-                    golfie = _closure2_slot1;
-                    oscard[1] = golfie;
-                    entity['iconStyle'] = oscard;
-                    oscard = _closure2_slot2;
-                    entity['textStyle'] = oscard;
-                    oscard = _closure2_slot3;
-                    entity['maxFontSizeMultiplier'] = oscard;
-                    oscard = _closure2_slot8;
-                    entity['hideIcon'] = oscard;
-                    oscard = _closure2_slot9;
-                    entity['hideText'] = oscard;
-                    entity = tangon.bind(zuuluu)(michal, entity);
-                    return entity;
- 293:
+ 291:
                     tangon = _closure1_slot10;
                     michal = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -387,8 +387,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = _closure2_slot5;
                     option = option == oscard;
                     oscard = undefined;
-                    if(option) { _fun00006_ip = 371; continue _fun00005 }
- 337:
+                    if(option) { _fun00006_ip = 369; continue _fun00005 }
+ 335:
                     verify = _closure2_slot5;
                     option = verify.find;
                     offset = _closure1_slot1;
@@ -397,7 +397,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = yankee[golfie];
                     golfie = offset.bind(zuuluu)(golfie);
                     oscard = option.bind(verify)(golfie);
- 371:
+ 369:
                     entity['game'] = oscard;
                     oscard = _closure2_slot4;
                     golfie = oscard.icon;

@@ -276,10 +276,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = undefined;
             zuuluu = report.bind(zuuluu)(tangon);
             zuuluu = zuuluu.isPlatformEmbedded;
-            if(zuuluu) { _fun00012_ip = 86; continue _fun00011 }
- 84:
+            if(zuuluu) { _fun00012_ip = 90; continue _fun00011 }
+ 88:
             zuuluu = false;
- 86:
+ 90:
             michal['autoThreshold'] = zuuluu;
             tangon = true;
             zuuluu = new Array(0);
@@ -3211,7 +3211,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         verify = tangon.context;
                         report = _closure1_slot47;
                         report = report.STREAM;
-                        if(!(verify === report)) { _fun00094_ip = 504; continue _fun00093 }
+                        if(!(verify === report)) { _fun00094_ip = 506; continue _fun00093 }
  450:
                         verify = _closure1_slot1;
                         offset = _closure1_slot3;
@@ -3224,7 +3224,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         verify = report.lqStreamBitrate;
                         report = tangon.configureGoLiveSimulcast;
                         report = report.bind(tangon)(offset, verify);
- 504:
+ 506:
                         offset = _closure1_slot0;
                         report = _closure1_slot3;
                         verify = 28;
@@ -3232,53 +3232,53 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         offset = offset.bind(entity)(report);
                         report = offset.isWindows;
                         report = report.bind(offset)();
-                        if(report) { _fun00094_ip = 627; continue _fun00093 }
- 537:
+                        if(report) { _fun00094_ip = 629; continue _fun00093 }
+ 539:
                         offset = _closure1_slot0;
                         report = _closure1_slot3;
                         report = report[verify];
                         offset = offset.bind(entity)(report);
                         report = offset.isMac;
                         report = report.bind(offset)();
-                        if(report) { _fun00094_ip = 594; continue _fun00093 }
- 567:
+                        if(report) { _fun00094_ip = 596; continue _fun00093 }
+ 569:
                         yankee = _closure1_slot0;
                         offset = _closure1_slot3;
                         offset = offset[verify];
                         yankee = yankee.bind(entity)(offset);
                         offset = yankee.isLinux;
                         report = offset.bind(yankee)();
- 594:
-                        if(!report) { _fun00094_ip = 929; continue _fun00093 }
- 600:
+ 596:
+                        if(!report) { _fun00094_ip = 931; continue _fun00093 }
+ 602:
                         offset = tangon.setExperimentFlag;
                         report = _closure1_slot46;
                         report = report.SIGNAL_AV1_DECODE;
                         report = offset.bind(tangon)(report, option);
-                        _fun00094_ip = 929; continue _fun00093;
- 627:
+                        _fun00094_ip = 931; continue _fun00093;
+ 629:
                         yankee = _closure1_slot106;
-                        if(!(oscard != yankee)) { _fun00094_ip = 658; continue _fun00093 }
- 635:
+                        if(!(oscard != yankee)) { _fun00094_ip = 660; continue _fun00093 }
+ 637:
                         offset = yankee.startsWith;
                         report = 'NVIDIA';
                         report = offset.bind(yankee)(report);
-                        if(report) { _fun00094_ip = 907; continue _fun00093 }
- 658:
+                        if(report) { _fun00094_ip = 909; continue _fun00093 }
+ 660:
                         yankee = _closure1_slot106;
-                        if(!(oscard != yankee)) { _fun00094_ip = 684; continue _fun00093 }
- 666:
+                        if(!(oscard != yankee)) { _fun00094_ip = 686; continue _fun00093 }
+ 668:
                         offset = yankee.startsWith;
                         report = 'AMD';
                         report = offset.bind(yankee)(report);
-                        if(report) { _fun00094_ip = 711; continue _fun00093 }
- 684:
+                        if(report) { _fun00094_ip = 713; continue _fun00093 }
+ 686:
                         offset = tangon.setExperimentFlag;
                         report = _closure1_slot46;
                         report = report.SIGNAL_AV1_DECODE;
                         report = offset.bind(tangon)(report, option);
-                        _fun00094_ip = 929; continue _fun00093;
- 711:
+                        _fun00094_ip = 931; continue _fun00093;
+ 713:
                         report = global;
                         offset = report.parseInt;
                         romeon = _closure1_slot106;
@@ -3287,23 +3287,23 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         foxtra = yankee.bind(romeon)(report);
                         yankee = oscard == foxtra;
                         report = undefined;
-                        if(yankee) { _fun00094_ip = 770; continue _fun00093 }
- 757:
+                        if(yankee) { _fun00094_ip = 772; continue _fun00093 }
+ 759:
                         romeon = foxtra.at;
                         yankee = 0;
                         report = romeon.bind(foxtra)(yankee);
- 770:
+ 772:
                         yankee = oscard != report;
                         oscard = '0';
-                        if(!yankee) { _fun00094_ip = 786; continue _fun00093 }
- 783:
+                        if(!yankee) { _fun00094_ip = 788; continue _fun00093 }
+ 785:
                         oscard = report;
- 786:
+ 788:
                         report = 10;
                         oscard = offset.bind(entity)(oscard, report);
                         report = 9000;
-                        if(!(oscard >= report)) { _fun00094_ip = 859; continue _fun00093 }
- 805:
+                        if(!(oscard >= report)) { _fun00094_ip = 861; continue _fun00093 }
+ 807:
                         oscard = _closure1_slot1;
                         offset = _closure1_slot3;
                         report = 42;
@@ -3316,38 +3316,38 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         report['autoTrackExposure'] = option;
                         report = offset.bind(yankee)(oscard, report);
                         report = report.signalAV1Support;
-                        if(report) { _fun00094_ip = 883; continue _fun00093 }
- 859:
+                        if(report) { _fun00094_ip = 885; continue _fun00093 }
+ 861:
                         oscard = tangon.setExperimentFlag;
                         report = _closure1_slot46;
                         report = report.SIGNAL_AV1_DECODE;
                         report = oscard.bind(tangon)(report, option);
-                        _fun00094_ip = 929; continue _fun00093;
- 883:
+                        _fun00094_ip = 931; continue _fun00093;
+ 885:
                         oscard = tangon.setExperimentFlag;
                         report = _closure1_slot46;
                         report = report.SIGNAL_AV1;
                         report = oscard.bind(tangon)(report, option);
-                        _fun00094_ip = 929; continue _fun00093;
- 907:
+                        _fun00094_ip = 931; continue _fun00093;
+ 909:
                         oscard = tangon.setExperimentFlag;
                         report = _closure1_slot46;
                         report = report.SIGNAL_AV1;
                         report = oscard.bind(tangon)(report, option);
- 929:
+ 931:
                         oscard = _closure1_slot0;
                         report = _closure1_slot3;
                         report = report[verify];
                         oscard = oscard.bind(entity)(report);
                         report = oscard.isWindows;
                         report = report.bind(oscard)();
-                        if(!report) { _fun00094_ip = 981; continue _fun00093 }
- 959:
+                        if(!report) { _fun00094_ip = 983; continue _fun00093 }
+ 961:
                         oscard = tangon.setExperimentFlag;
                         report = _closure1_slot46;
                         report = report.SIGNAL_AV1_HARDWARE_DECODE;
                         report = oscard.bind(tangon)(report, option);
- 981:
+ 983:
                         verify = _closure1_slot64;
                         oscard = verify.setHasFullbandPerformance;
                         offset = _closure1_slot1;
@@ -3367,10 +3367,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         oscard = tangon.setRemoteAudioHistory;
                         option = 0;
                         report = 0;
-                        if(!golfie) { _fun00094_ip = 1071; continue _fun00093 }
- 1065:
+                        if(!golfie) { _fun00094_ip = 1073; continue _fun00093 }
+ 1067:
                         report = 1000;
- 1071:
+ 1073:
                         report = oscard.bind(tangon)(report);
                         oscard = _closure1_slot1;
                         golfie = _closure1_slot3;
@@ -3379,8 +3379,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         oscard = oscard.bind(entity)(report);
                         report = _closure1_slot63;
                         report = oscard.bind(entity)(report);
-                        if(!report) { _fun00094_ip = 1238; continue _fun00093 }
- 1111:
+                        if(!report) { _fun00094_ip = 1240; continue _fun00093 }
+ 1113:
                         oscard = _closure1_slot11;
                         report = oscard.getSettings;
                         report = report.bind(oscard)();
@@ -3408,7 +3408,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         oscard = tangon.setClipsKeyFrameInterval;
                         report = _closure1_slot51;
                         report = oscard.bind(tangon)(report);
- 1238:
+ 1240:
                         oscard = _closure1_slot117;
                         report = tangon.context;
                         golfie = oscard.bind(entity)(report);
@@ -3423,23 +3423,23 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         oscard = offset.length;
                         oscard = option < oscard;
                         verify = 0;
-                        if(!oscard) { _fun00094_ip = 1360; continue _fun00093 }
- 1304:
+                        if(!oscard) { _fun00094_ip = 1362; continue _fun00093 }
+ 1306:
                         romeon = offset[verify];
                         yankee = _closure1_slot15;
                         oscard = yankee.getId;
                         oscard = oscard.bind(yankee)();
-                        if(!(romeon !== oscard)) { _fun00094_ip = 1348; continue _fun00093 }
- 1326:
+                        if(!(romeon !== oscard)) { _fun00094_ip = 1350; continue _fun00093 }
+ 1328:
                         yankee = tangon.setLocalMute;
                         oscard = golfie.localMutes;
                         oscard = oscard[romeon];
                         oscard = yankee.bind(tangon)(romeon, oscard);
- 1348:
+ 1350:
                         verify = verify + 1;
                         oscard = offset.length;
-                        if(verify < oscard) { _fun00094_ip = 1304; continue _fun00093 }
- 1360:
+                        if(verify < oscard) { _fun00094_ip = 1306; continue _fun00093 }
+ 1362:
                         offset = report.Object;
                         verify = offset.keys;
                         oscard = golfie.localVolumes;
@@ -3447,23 +3447,23 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         oscard = offset.length;
                         oscard = option < oscard;
                         verify = 0;
-                        if(!oscard) { _fun00094_ip = 1452; continue _fun00093 }
- 1396:
+                        if(!oscard) { _fun00094_ip = 1454; continue _fun00093 }
+ 1398:
                         romeon = offset[verify];
                         yankee = _closure1_slot15;
                         oscard = yankee.getId;
                         oscard = oscard.bind(yankee)();
-                        if(!(romeon !== oscard)) { _fun00094_ip = 1440; continue _fun00093 }
- 1418:
+                        if(!(romeon !== oscard)) { _fun00094_ip = 1442; continue _fun00093 }
+ 1420:
                         yankee = tangon.setLocalVolume;
                         oscard = golfie.localVolumes;
                         oscard = oscard[romeon];
                         oscard = yankee.bind(tangon)(romeon, oscard);
- 1440:
+ 1442:
                         verify = verify + 1;
                         oscard = offset.length;
-                        if(verify < oscard) { _fun00094_ip = 1396; continue _fun00093 }
- 1452:
+                        if(verify < oscard) { _fun00094_ip = 1398; continue _fun00093 }
+ 1454:
                         offset = report.Object;
                         verify = offset.keys;
                         oscard = golfie.localPans;
@@ -3471,8 +3471,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         oscard = offset.length;
                         oscard = option < oscard;
                         verify = 0;
-                        if(!oscard) { _fun00094_ip = 1537; continue _fun00093 }
- 1488:
+                        if(!oscard) { _fun00094_ip = 1539; continue _fun00093 }
+ 1490:
                         foxtra = offset[verify];
                         oscard = golfie.localPans;
                         oscard = oscard[foxtra];
@@ -3482,8 +3482,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         oscard = romeon.bind(tangon)(foxtra, yankee, oscard);
                         verify = verify + 1;
                         oscard = offset.length;
-                        if(verify < oscard) { _fun00094_ip = 1488; continue _fun00093 }
- 1537:
+                        if(verify < oscard) { _fun00094_ip = 1490; continue _fun00093 }
+ 1539:
                         verify = report.Object;
                         oscard = verify.keys;
                         report = golfie.disabledLocalVideos;
@@ -3491,8 +3491,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         report = oscard.length;
                         report = option < report;
                         option = 0;
-                        if(!report) { _fun00094_ip = 1611; continue _fun00093 }
- 1573:
+                        if(!report) { _fun00094_ip = 1613; continue _fun00093 }
+ 1575:
                         offset = oscard[option];
                         verify = tangon.setLocalVideoDisabled;
                         report = golfie.disabledLocalVideos;
@@ -3500,8 +3500,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         report = verify.bind(tangon)(offset, report);
                         option = option + 1;
                         report = oscard.length;
-                        if(option < report) { _fun00094_ip = 1573; continue _fun00093 }
- 1611:
+                        if(option < report) { _fun00094_ip = 1575; continue _fun00093 }
+ 1613:
                         golfie = tangon.on;
                         oscard = _closure1_slot0;
                         report = _closure1_slot3;
@@ -3535,8 +3535,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         oscard = tangon.context;
                         report = _closure1_slot47;
                         report = report.DEFAULT;
-                        if(!(oscard === report)) { _fun00094_ip = 1735; continue _fun00093 }
- 1679:
+                        if(!(oscard === report)) { _fun00094_ip = 1737; continue _fun00093 }
+ 1681:
                         report = false;
                         _closure1_slot83 = report;
                         _closure1_slot84 = report;
@@ -3574,7 +3574,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             return entity;
                         };
                         report = golfie.bind(tangon)(oscard, report);
- 1735:
+ 1737:
                         offset = tangon.on;
                         golfie = _closure1_slot0;
                         report = _closure1_slot3;

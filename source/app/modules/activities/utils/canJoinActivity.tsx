@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  143:
             if(!michal) { _fun00002_ip = 193; continue _fun00001 }
  146:
-            if(!(entity != backup)) { _fun00002_ip = 193; continue _fun00001 }
+            if(!(entity == backup)) { _fun00002_ip = 193; continue _fun00001 }
  150:
             result = _closure1_slot1;
             update = _closure1_slot2;

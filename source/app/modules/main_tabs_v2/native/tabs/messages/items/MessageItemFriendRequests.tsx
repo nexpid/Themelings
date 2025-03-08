@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     backup = backup.spacing;
     backup = backup.PX_8;
     verify['marginHorizontal'] = backup;
-    verify['flexGrow'] = foxtra;
+    verify['flexShrink'] = foxtra;
     tangon['info'] = verify;
     verify = {};
     foxtra = oscard[yankee];
@@ -526,7 +526,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = sizing[result];
             result = yankee.bind(tangon)(result);
             echoed = result.Text;
-            result = {'variant': 'text-sm/normal', 'color': 'header-secondary'};
+            result = {'variant': 'text-sm/normal', 'color': 'header-secondary', 'lineClamp': 1};
             result['children'] = source;
             result = update.bind(tangon)(echoed, result);
             kiloes[1] = result;

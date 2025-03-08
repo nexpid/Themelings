@@ -355,16 +355,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  32:
                 entity = report.getVideoQuality;
                 zuuluu = entity.bind(report)(michal);
-                _fun00010_ip = 56; continue _fun00009;
+                _fun00010_ip = 58; continue _fun00009;
  45:
                 entity = report.getGoliveQuality;
                 zuuluu = entity.bind(report)(michal);
- 56:
+ 58:
                 michal = report.qualityOverwrite;
                 oscard = null;
                 entity = zuuluu;
-                if(!(oscard != michal)) { _fun00010_ip = 276; continue _fun00009 }
- 74:
+                if(!(oscard != michal)) { _fun00010_ip = 278; continue _fun00009 }
+ 76:
                 tangon = _closure1_slot12;
                 michal = {};
                 yankee = _closure1_slot13;
@@ -383,24 +383,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal['capture'] = golfie;
                 golfie = report.qualityOverwrite;
                 golfie = golfie.bitrateMin;
-                if(!(oscard == golfie)) { _fun00010_ip = 183; continue _fun00009 }
- 177:
+                if(!(oscard == golfie)) { _fun00010_ip = 185; continue _fun00009 }
+ 179:
                 golfie = zuuluu.bitrateMin;
- 183:
+ 185:
                 michal['bitrateMin'] = golfie;
                 golfie = report.qualityOverwrite;
                 golfie = golfie.bitrateMax;
-                if(!(oscard == golfie)) { _fun00010_ip = 210; continue _fun00009 }
- 204:
+                if(!(oscard == golfie)) { _fun00010_ip = 212; continue _fun00009 }
+ 206:
                 golfie = zuuluu.bitrateMax;
- 210:
+ 212:
                 michal['bitrateMax'] = golfie;
                 report = report.qualityOverwrite;
                 report = report.bitrateTarget;
-                if(!(oscard == report)) { _fun00010_ip = 237; continue _fun00009 }
- 231:
+                if(!(oscard == report)) { _fun00010_ip = 239; continue _fun00009 }
+ 233:
                 report = zuuluu.bitrateTarget;
- 237:
+ 239:
                 michal['bitrateTarget'] = report;
                 zuuluu = zuuluu.localWant;
                 michal['localWant'] = zuuluu;
@@ -410,7 +410,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 foxtra = michal;
                 michal = new backup[tangon](foxtra, romeon);
                 entity = michal instanceof Object ? michal : zuuluu;
- 276:
+ 278:
                 return entity;
             }
         };
@@ -430,7 +430,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = zuuluu.bind(tangon)(entity);
                 entity = zuuluu.capture;
                 report = null;
-                if(!(report != entity)) { _fun00012_ip = 102; continue _fun00011 }
+                if(!(report != entity)) { _fun00012_ip = 106; continue _fun00011 }
  32:
                 entity = zuuluu.capture;
                 entity = entity.width;
@@ -444,40 +444,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = zuuluu.capture;
                 entity = entity.framerate;
                 michal['captureVideoFrameRate'] = entity;
- 102:
+ 106:
                 entity = zuuluu.encode;
-                if(!(report != entity)) { _fun00012_ip = 148; continue _fun00011 }
- 112:
+                if(!(report != entity)) { _fun00012_ip = 152; continue _fun00011 }
+ 116:
                 entity = zuuluu.encode;
                 entity = entity.framerate;
                 michal['remoteSinkWantsMaxFramerate'] = entity;
                 entity = zuuluu.encode;
                 entity = entity.pixelCount;
                 michal['remoteSinkWantsPixelCount'] = entity;
- 148:
+ 152:
                 entity = zuuluu.bitrateTarget;
-                if(!(report == entity)) { _fun00012_ip = 172; continue _fun00011 }
- 158:
+                if(!(report == entity)) { _fun00012_ip = 176; continue _fun00011 }
+ 162:
                 entity = zuuluu.bitrateMax;
                 michal['encodingVideoBitRate'] = entity;
-                _fun00012_ip = 184; continue _fun00011;
- 172:
+                _fun00012_ip = 188; continue _fun00011;
+ 176:
                 entity = zuuluu.bitrateTarget;
                 michal['encodingVideoBitRate'] = entity;
- 184:
+ 188:
                 entity = zuuluu.bitrateMin;
                 michal['encodingVideoMinBitRate'] = entity;
                 entity = zuuluu.bitrateMax;
                 michal['encodingVideoMaxBitRate'] = entity;
                 entity = michal.encodingVideoBitRate;
                 entity = report != entity;
-                if(!entity) { _fun00012_ip = 231; continue _fun00011 }
- 221:
+                if(!entity) { _fun00012_ip = 235; continue _fun00011 }
+ 225:
                 tangon = michal.encodingVideoMaxBitRate;
                 entity = report != tangon;
- 231:
-                if(!entity) { _fun00012_ip = 271; continue _fun00011 }
- 234:
+ 235:
+                if(!entity) { _fun00012_ip = 275; continue _fun00011 }
+ 238:
                 entity = global;
                 oscard = entity.Math;
                 report = oscard.min;
@@ -485,7 +485,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = michal.encodingVideoMaxBitRate;
                 entity = report.bind(oscard)(tangon, entity);
                 michal['encodingVideoBitRate'] = entity;
- 271:
+ 275:
                 entity = {};
                 entity['quality'] = zuuluu;
                 entity['constraints'] = michal;
@@ -655,13 +655,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = oscard.budgetPortion;
                 golfie = zuuluu * entity;
                 entity = tangon.isMuted;
-                if(entity) { _fun00018_ip = 92; continue _fun00017 }
- 84:
+                if(entity) { _fun00018_ip = 94; continue _fun00017 }
+ 86:
                 option = oscard.framerate;
-                _fun00018_ip = 98; continue _fun00017;
- 92:
+                _fun00018_ip = 100; continue _fun00017;
+ 94:
                 option = oscard.mutedFramerate;
- 98:
+ 100:
                 zuuluu = _closure1_slot12;
                 entity = {};
                 report = {};
@@ -725,11 +725,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 if(!(!(michal < entity))) { _fun00020_ip = 30; continue _fun00019 }
  22:
                 entity = zuuluu.goliveMaxQuality;
-                _fun00020_ip = 40; continue _fun00019;
+                _fun00020_ip = 42; continue _fun00019;
  30:
                 michal = zuuluu.getGoliveLQQuality;
                 entity = michal.bind(zuuluu)();
- 40:
+ 42:
                 return entity;
             }
         };

@@ -1522,6 +1522,14 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['CLICKER_COACHMARK'] = michal;
     entity = 'CLICKER_COACHMARK';
     tangon[michal] = entity;
+    michal = 516;
+    tangon['RECENT_AVATARS_SETTINGS_MENU_NEW_BADGE'] = michal;
+    entity = 'RECENT_AVATARS_SETTINGS_MENU_NEW_BADGE';
+    tangon[michal] = entity;
+    michal = 517;
+    tangon['RECENT_AVATARS_SETTINGS_PROFILE_PAGE_NEW_BADGE'] = michal;
+    entity = 'RECENT_AVATARS_SETTINGS_PROFILE_PAGE_NEW_BADGE';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

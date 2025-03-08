@@ -1856,7 +1856,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     michal = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00036_ip = 1441; continue _fun00035 }
+                    if(zuuluu) { _fun00036_ip = 1607; continue _fun00035 }
  15:
                     var _closure4_slot0 = michal;
                     oscard = _closure1_slot0;
@@ -1883,7 +1883,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  117:
                     oscard = michal.reactNativeFilePrepped;
                     report = true;
-                    if(!(report !== oscard)) { _fun00036_ip = 1380; continue _fun00035 }
+                    if(!(report !== oscard)) { _fun00036_ip = 1546; continue _fun00035 }
  132:
                     verify = _closure1_slot16;
                     option = verify.log;
@@ -1945,29 +1945,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return tangon;
  212:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golfie) { _fun00036_ip = 1377; continue _fun00035 }
+                    if(golfie) { _fun00036_ip = 1543; continue _fun00035 }
  221:
                     option = null;
-                    if(!(option != tangon)) { _fun00036_ip = 1333; continue _fun00035 }
+                    if(!(option != tangon)) { _fun00036_ip = 1499; continue _fun00035 }
  230:
                     golfie = tangon.file;
-                    if(!(option != golfie)) { _fun00036_ip = 1333; continue _fun00035 }
+                    if(!(option != golfie)) { _fun00036_ip = 1499; continue _fun00035 }
  243:
-                    yankee = tangon.uri;
-                    golfie = tangon.file;
-                    romeon = golfie.name;
-                    golfie = tangon.file;
-                    golfie = golfie.type;
-                    offset = _closure1_slot0;
-                    backup = _closure1_slot2;
-                    verify = 13;
-                    verify = backup[verify];
-                    backup = offset.bind(foxtra)(verify);
-                    offset = backup.isResolvedUpload;
+                    golfie = tangon.uri;
                     verify = tangon.file;
-                    verify = offset.bind(backup)(verify);
-                    if(!verify) { _fun00036_ip = 914; continue _fun00035 }
- 313:
+                    yankee = verify.name;
+                    offset = _closure1_slot0;
+                    romeon = _closure1_slot2;
+                    verify = 13;
+                    verify = romeon[verify];
+                    romeon = offset.bind(foxtra)(verify);
+                    offset = romeon.isResolvedUpload;
+                    verify = tangon.file;
+                    verify = offset.bind(romeon)(verify);
+                    if(!verify) { _fun00036_ip = 939; continue _fun00035 }
+ 302:
                     offset = michal.uploadAnalytics;
                     verify = tangon.file;
                     verify = verify.imageCompressionQuality;
@@ -1976,14 +1974,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = tangon.file;
                     verify = verify.videoCompressionQuality;
                     offset['videoCompressionQuality'] = verify;
-                    offset = michal.uploadAnalytics;
                     verify = tangon.file;
-                    verify = verify.type;
-                    offset['convertedMimeType'] = verify;
+                    verify = verify.isImage;
+                    if(!verify) { _fun00036_ip = 409; continue _fun00035 }
+ 365:
+                    offset = michal.uploadAnalytics;
+                    verify = michal.item;
+                    verify = verify.width;
+                    offset['sourceMediaWidth'] = verify;
+                    offset = michal.uploadAnalytics;
+                    verify = michal.item;
+                    verify = verify.height;
+                    offset['sourceMediaHeight'] = verify;
+ 409:
                     verify = tangon.file;
                     verify = verify.videoMetadata;
-                    if(!(foxtra !== verify)) { _fun00036_ip = 640; continue _fun00035 }
- 403:
+                    if(!(foxtra !== verify)) { _fun00036_ip = 665; continue _fun00035 }
+ 428:
                     offset = michal.uploadAnalytics;
                     verify = tangon.file;
                     verify = verify.videoMetadata;
@@ -2024,11 +2031,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = verify.videoMetadata;
                     verify = verify.sourceLevel;
                     offset['sourceVideoLevel'] = verify;
- 640:
+ 665:
                     verify = tangon.file;
                     verify = verify.encodingConfig;
-                    if(!(foxtra !== verify)) { _fun00036_ip = 914; continue _fun00035 }
- 659:
+                    if(!(foxtra !== verify)) { _fun00036_ip = 939; continue _fun00035 }
+ 684:
                     offset = michal.uploadAnalytics;
                     verify = tangon.file;
                     verify = verify.encodingConfig;
@@ -2047,12 +2054,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = michal.uploadAnalytics;
                     verify = tangon.file;
                     verify = verify.encodingConfig;
-                    backup = verify.useHEVC;
+                    romeon = verify.useHEVC;
                     verify = 'avc1';
-                    if(!backup) { _fun00036_ip = 788; continue _fun00035 }
- 782:
+                    if(!romeon) { _fun00036_ip = 813; continue _fun00035 }
+ 807:
                     verify = 'hvc1';
- 788:
+ 813:
                     offset['targetVideoCodec'] = verify;
                     offset = michal.uploadAnalytics;
                     verify = tangon.file;
@@ -2074,111 +2081,145 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = verify.encodingConfig;
                     verify = verify.progressUpdateGranularity;
                     offset['progressUpdateGranularity'] = verify;
- 914:
-                    michal['filename'] = romeon;
-                    if(!(option != romeon)) { _fun00036_ip = 1208; continue _fun00035 }
- 927:
-                    if(!(option != yankee)) { _fun00036_ip = 1208; continue _fun00035 }
- 934:
-                    if(!(option != golfie)) { _fun00036_ip = 1208; continue _fun00035 }
- 941:
-                    output = tangon.fileSize;
-                    if(!(option == output)) { _fun00036_ip = 1002; continue _fun00035 }
- 951:
-                    offset = _closure1_slot0;
+ 939:
+                    michal['filename'] = yankee;
+                    if(!(option != yankee)) { _fun00036_ip = 1354; continue _fun00035 }
+ 952:
+                    if(!(option != golfie)) { _fun00036_ip = 1354; continue _fun00035 }
+ 959:
+                    verify = tangon.file;
+                    verify = verify.type;
+                    if(!(option != verify)) { _fun00036_ip = 1354; continue _fun00035 }
+ 977:
+                    offset = yankee.split;
+                    verify = '.';
+                    offset = offset.bind(yankee)(verify);
+                    verify = offset.pop;
+                    offset = verify.bind(offset)();
+                    verify = option == offset;
+                    romeon = undefined;
+                    if(verify) { _fun00036_ip = 1020; continue _fun00035 }
+ 1010:
+                    verify = offset.toLowerCase;
+                    romeon = verify.bind(offset)();
+ 1020:
+                    backup = 'image/jpeg';
+                    verify = 'jpg';
+                    offset = backup;
+                    if(!(verify !== romeon)) { _fun00036_ip = 1063; continue _fun00035 }
+ 1039:
+                    verify = 'jpeg';
+                    offset = backup;
+                    if(!(verify !== romeon)) { _fun00036_ip = 1063; continue _fun00035 }
+ 1052:
+                    verify = tangon.file;
+                    offset = verify.type;
+ 1063:
+                    verify = michal.uploadAnalytics;
+                    verify['convertedMimeType'] = offset;
+                    result = tangon.fileSize;
+                    if(!(option == result)) { _fun00036_ip = 1136; continue _fun00035 }
+ 1085:
+                    romeon = _closure1_slot0;
                     backup = _closure1_slot2;
                     verify = 16;
                     verify = backup[verify];
-                    offset = offset.bind(foxtra)(verify);
-                    verify = offset.getFileData;
-                    verify = verify.bind(offset)(yankee);
-                    SaveGenerator(address=986);
- 984:
+                    romeon = romeon.bind(foxtra)(verify);
+                    verify = romeon.getFileData;
+                    verify = verify.bind(romeon)(golfie);
+                    SaveGenerator(address=1120);
+ 1118:
                     return verify;
- 986:
-                    ResumeGenerator(result_out_reg=8, return_bool_out_reg=9);
-                    if(offset) { _fun00036_ip = 999; continue _fun00035 }
- 992:
-                    output = verify.size;
-                    _fun00036_ip = 1002; continue _fun00035;
- 999:
+ 1120:
+                    ResumeGenerator(result_out_reg=8, return_bool_out_reg=11);
+                    if(romeon) { _fun00036_ip = 1133; continue _fun00035 }
+ 1126:
+                    result = verify.size;
+                    _fun00036_ip = 1136; continue _fun00035;
+ 1133:
                     return verify;
- 1002:
-                    michal['postCompressionSize'] = output;
-                    michal['currentSize'] = output;
-                    if(!(option != output)) { _fun00036_ip = 1133; continue _fun00035 }
- 1018:
-                    offset = _closure1_slot16;
-                    verify = offset.log;
-                    result = michal.id;
+ 1136:
+                    michal['postCompressionSize'] = result;
+                    michal['currentSize'] = result;
+                    if(!(option != result)) { _fun00036_ip = 1279; continue _fun00035 }
+ 1155:
+                    romeon = _closure1_slot16;
+                    verify = romeon.log;
+                    echoed = michal.id;
                     option = oscard.HermesInternal;
-                    kiloes = option.concat;
-                    vacuum = 'Completed compression and conversion. Output size=';
-                    source = ' bytes; filename=';
-                    echoed = ' for ';
-                    ctrled = output;
-                    update = romeon;
-                    option = vacuum[kiloes](ctrled, source, update, echoed, result, output);
-                    option = verify.bind(offset)(option);
+                    sizing = option.concat;
+                    record = 'Completed compression and conversion. Output size=';
+                    sequen = ' bytes; filename=';
+                    ctrled = '; mimeType=';
+                    update = ' for ';
+                    config = result;
+                    vacuum = yankee;
+                    source = offset;
+                    option = record[sizing](config, sequen, vacuum, ctrled, source, update, echoed, result);
+                    option = verify.bind(romeon)(option);
                     option = {};
-                    source = michal.item;
-                    ctrled = option;
-                    verify = copyDataProperties(ctrled, source);
+                    sequen = michal.item;
+                    config = option;
+                    verify = copyDataProperties(config, sequen);
                     verify = 'uri';
-                    option[verify] = yankee;
-                    verify = 'filename';
-                    option[verify] = romeon;
-                    verify = 'mimeType';
                     option[verify] = golfie;
+                    verify = 'filename';
+                    option[verify] = yankee;
+                    verify = 'mimeType';
+                    option[verify] = offset;
                     michal['item'] = option;
                     michal['reactNativeFilePrepped'] = report;
                     return michal;
- 1133:
+ 1279:
                     offset = _closure1_slot16;
                     verify = offset.error;
-                    backup = michal.id;
+                    foxtra = michal.id;
                     option = oscard.HermesInternal;
-                    foxtra = option.concat;
+                    romeon = option.concat;
                     option = 'Size missing from file data for ';
-                    option = foxtra.bind(option)(backup);
+                    option = romeon.bind(option)(foxtra);
                     option = verify.bind(offset)(option);
                     offset = oscard.Error;
                     option = offset.prototype;
                     verify = Object.create(option, {constructor: {value: offset}});
-                    ctrled = 'Size missing from file data';
-                    vacuum = verify;
-                    option = new vacuum[offset](ctrled, source);
+                    config = 'Size missing from file data';
+                    record = verify;
+                    option = new record[offset](config, sequen);
                     option = option instanceof Object ? option : verify;
                     throw option;
- 1208:
-                    foxtra = _closure1_slot16;
-                    verify = foxtra.error;
-                    sizing = {};
-                    sizing['filename'] = romeon;
-                    sizing['uri'] = yankee;
-                    sizing['mimeType'] = golfie;
-                    kiloes = michal.id;
+ 1354:
+                    romeon = _closure1_slot16;
+                    verify = romeon.error;
+                    kiloes = {};
+                    kiloes['filename'] = yankee;
+                    kiloes['uri'] = golfie;
+                    option = tangon.file;
+                    option = option.type;
+                    kiloes['type'] = option;
+                    backup = michal.id;
                     option = oscard.HermesInternal;
-                    backup = option.concat;
+                    foxtra = option.concat;
                     offset = 'Insufficient file data: ';
                     option = ' for ';
-                    option = backup.bind(offset)(sizing, option, kiloes);
-                    option = verify.bind(foxtra)(option);
+                    option = foxtra.bind(offset)(kiloes, option, backup);
+                    option = verify.bind(romeon)(option);
                     verify = oscard.Error;
                     option = {};
-                    option['filename'] = romeon;
-                    option['uri'] = yankee;
-                    option['mimeType'] = golfie;
+                    option['filename'] = yankee;
+                    option['uri'] = golfie;
+                    golfie = tangon.file;
+                    golfie = golfie.type;
+                    option['type'] = golfie;
                     golfie = oscard.HermesInternal;
                     golfie = golfie.concat;
-                    ctrled = golfie.bind(offset)(option);
+                    config = golfie.bind(offset)(option);
                     option = verify.prototype;
                     option = Object.create(option, {constructor: {value: verify}});
-                    vacuum = option;
-                    golfie = new vacuum[verify](ctrled, source);
+                    record = option;
+                    golfie = new record[verify](config, sequen);
                     golfie = golfie instanceof Object ? golfie : option;
                     throw golfie;
- 1333:
+ 1499:
                     option = _closure1_slot16;
                     golfie = option.error;
                     offset = michal.id;
@@ -2188,9 +2229,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = verify.bind(oscard)(offset);
                     oscard = golfie.bind(option)(oscard);
                     return michal;
- 1377:
+ 1543:
                     return tangon;
- 1380:
+ 1546:
                     tangon = michal.uploadAnalytics;
                     tangon['fileAlreadyPrepped'] = report;
                     report = _closure1_slot16;
@@ -2203,7 +2244,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = oscard.bind(zuuluu)(golfie);
                     zuuluu = tangon.bind(report)(zuuluu);
                     return michal;
- 1441:
+ 1607:
                     return entity;
                 }
             };

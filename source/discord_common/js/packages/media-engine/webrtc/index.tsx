@@ -1081,7 +1081,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 var _closure3_slot0 = entity;
                 tangon = entity.enablePromise;
                 zuuluu = null;
-                if(!(zuuluu == tangon)) { _fun00026_ip = 53; continue _fun00025 }
+                if(!(zuuluu == tangon)) { _fun00026_ip = 55; continue _fun00025 }
  21:
                 zuuluu = entity._enable;
                 tangon = zuuluu.bind(entity)();
@@ -1095,7 +1095,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 michal = zuuluu.bind(tangon)(michal);
                 entity['enablePromise'] = michal;
- 53:
+ 55:
                 entity = entity.enablePromise;
                 return entity;
             }
@@ -1376,11 +1376,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = tangon.bind(report)(michal);
                 michal = entity.loopback;
                 entity = null;
-                if(!(entity != michal)) { _fun00032_ip = 62; continue _fun00031 }
+                if(!(entity != michal)) { _fun00032_ip = 64; continue _fun00031 }
  51:
                 entity = michal.setAudioSink;
                 entity = entity.bind(michal)(zuuluu);
- 62:
+ 64:
                 entity = undefined;
                 return entity;
             }
@@ -1654,15 +1654,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = argBar;
                 zuuluu = this;
                 oscard = null;
-                if(!(oscard != michal)) { _fun00036_ip = 184; continue _fun00035 }
+                if(!(oscard != michal)) { _fun00036_ip = 186; continue _fun00035 }
  20:
                 report = michal.desktopDescription;
-                if(!(oscard != report)) { _fun00036_ip = 201; continue _fun00035 }
+                if(!(oscard != report)) { _fun00036_ip = 203; continue _fun00035 }
  33:
                 report = zuuluu.findConnection;
                 report = report.bind(zuuluu)(tangon);
-                if(!(oscard != report)) { _fun00036_ip = 201; continue _fun00035 }
- 51:
+                if(!(oscard != report)) { _fun00036_ip = 203; continue _fun00035 }
+ 53:
                 option = _closure1_slot1;
                 verify = _closure1_slot2;
                 golfie = 23;
@@ -1681,8 +1681,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = report.id;
                 report = golfie[report];
                 var _closure3_slot1 = report;
-                if(!(oscard != report)) { _fun00036_ip = 154; continue _fun00035 }
- 137:
+                if(!(oscard != report)) { _fun00036_ip = 156; continue _fun00035 }
+ 139:
                 oscard = zuuluu.eachConnection;
                 report = function(argFoo) {
                     _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
@@ -1703,16 +1703,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     }
                 };
                 report = oscard.bind(zuuluu)(report, tangon);
- 154:
+ 156:
                 report = _closure3_slot0;
-                if(!report) { _fun00036_ip = 201; continue _fun00035 }
- 161:
+                if(!report) { _fun00036_ip = 203; continue _fun00035 }
+ 163:
                 report = zuuluu.pendingDesktopInputs;
                 michal = michal.desktopDescription;
                 michal = michal.id;
                 michal = delete report[michal];
-                _fun00036_ip = 201; continue _fun00035;
- 184:
+                _fun00036_ip = 203; continue _fun00035;
+ 186:
                 michal = zuuluu.eachConnection;
                 entity = function(argFoo) {
                     zuuluu = argFoo;
@@ -1722,7 +1722,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 };
                 entity = michal.bind(zuuluu)(entity, tangon);
- 201:
+ 203:
                 entity = undefined;
                 return entity;
             }

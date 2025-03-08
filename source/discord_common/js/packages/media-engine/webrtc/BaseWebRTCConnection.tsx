@@ -2081,10 +2081,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = michal.rtxSsrc;
                         offset = null;
                         offset = offset != michal;
-                        if(!offset) { _fun00062_ip = 106; continue _fun00061 }
- 103:
+                        if(!offset) { _fun00062_ip = 108; continue _fun00061 }
+ 105:
                         tangon = michal;
- 106:
+ 108:
                         entity = _closure3_slot0;
                         yankee = entity.videoStreamParameters;
                         kiloes = argFoo;

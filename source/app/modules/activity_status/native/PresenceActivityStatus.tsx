@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal[entity];
                 entity = undefined;
                 entity = zuuluu.bind(entity)(michal);
-                entity = entity.RecordPlayerIcon;
+                entity = entity.MusicIcon;
                 return entity;
             };
             foxtra = verify.bind(foxtra)(option, zuuluu);

@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00004_ip = 345; continue _fun00003 }
+                        if(michal) { _fun00004_ip = 347; continue _fun00003 }
  10:
                         tangon = argFoo;
                         michal = undefined;
@@ -201,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = _closure2_slot1;
                         report = report.bind(michal)(golfie);
  152: // try_end0
-                        _fun00004_ip = 342; continue _fun00003;
+                        _fun00004_ip = 344; continue _fun00003;
  157:
                         return tangon;
  160: // catch_target0
@@ -226,13 +226,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = null;
                         golfie = report == golfie;
                         report = undefined;
-                        if(golfie) { _fun00004_ip = 258; continue _fun00003 }
- 253:
+                        if(golfie) { _fun00004_ip = 260; continue _fun00003 }
+ 255:
                         report = oscard.message;
- 258:
+ 260:
                         zuuluu = report;
-                        if(report) { _fun00004_ip = 337; continue _fun00003 }
- 264:
+                        if(report) { _fun00004_ip = 339; continue _fun00003 }
+ 266:
                         oscard = _closure1_slot0;
                         offset = _closure1_slot2;
                         report = 10;
@@ -249,11 +249,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         verify = verify.STATUS;
                         report['statusPageURL'] = verify;
                         zuuluu = golfie.bind(option)(oscard, report);
- 337:
+ 339:
                         zuuluu = tangon.bind(michal)(zuuluu);
- 342:
+ 344:
                         return michal;
- 345:
+ 347:
                         return entity;
                     }
                 };

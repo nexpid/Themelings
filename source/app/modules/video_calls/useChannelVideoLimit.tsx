@@ -95,10 +95,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal['limit'] = zuuluu;
                 entity = michal;
  159:
-                _fun00002_ip = 171; continue _fun00001;
+                _fun00002_ip = 175; continue _fun00001;
  161:
                 entity = {'reachedLimit': false, 'limit': 4294967295};
- 171:
+ 175:
                 return entity;
             }
         };
@@ -149,10 +149,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['limit'] = zuuluu;
             entity = michal;
  151:
-            _fun00004_ip = 163; continue _fun00003;
+            _fun00004_ip = 167; continue _fun00003;
  153:
             entity = {'reachedLimit': false, 'limit': 4294967295};
- 163:
+ 167:
             return entity;
         }
     };

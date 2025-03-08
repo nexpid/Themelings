@@ -94,7 +94,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     golfie[0] = verify;
     tangon['previewSoundURLs'] = golfie;
     michal['megaphone'] = tangon;
-    tangon = {'name': null, 'iconURL': null, 'underDevelopment': true, 'splashGradient': 'radial-gradient(89% 494.44% at 11% 100%, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.00) 25%), radial-gradient(89% 494.44% at 11% 100%, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0.10) 15%, rgba(255, 255, 255, 0.05) 30%, rgba(255, 255, 255, 0.03) 45%, rgba(255, 255, 255, 0.01) 60%, rgba(255, 255, 255, 0.00) 75%), radial-gradient(84.38% 468.75% at 15.63% 100%, rgba(61, 72, 79, 0.50) 0%, rgba(61, 72, 79, 0.00) 100%)', 'baseColor': '#1B1F23', 'styleKey': 'robot'};
+    tangon = {'name': null, 'iconURL': null, 'splashGradient': 'radial-gradient(89% 494.44% at 11% 100%, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.00) 25%), radial-gradient(89% 494.44% at 11% 100%, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0.10) 15%, rgba(255, 255, 255, 0.05) 30%, rgba(255, 255, 255, 0.03) 45%, rgba(255, 255, 255, 0.01) 60%, rgba(255, 255, 255, 0.00) 75%), radial-gradient(84.38% 468.75% at 15.63% 100%, rgba(61, 72, 79, 0.50) 0%, rgba(61, 72, 79, 0.00) 100%)', 'baseColor': '#1B1F23', 'styleKey': 'robot'};
     golfie = report[oscard];
     golfie = option.bind(entity)(golfie);
     golfie = golfie.anBE8f;
@@ -104,7 +104,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     golfie = option.bind(entity)(golfie);
     tangon['iconURL'] = golfie;
     michal['robot'] = tangon;
-    tangon = {'name': null, 'iconURL': null, 'underDevelopment': true, 'splashGradient': 'radial-gradient(89% 494.44% at 11% 100%, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.00) 25%), radial-gradient(89% 494.44% at 11% 100%, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0.10) 15%, rgba(255, 255, 255, 0.05) 30%, rgba(255, 255, 255, 0.03) 45%, rgba(255, 255, 255, 0.01) 60%, rgba(255, 255, 255, 0.00) 75%), radial-gradient(100% 555.56% at 0% 100%, rgba(111, 134, 253, 0.50) 0%, rgba(111, 134, 253, 0.00) 100%)', 'baseColor': '#010A3C', 'styleKey': 'tunes'};
+    tangon = {'name': null, 'iconURL': null, 'splashGradient': 'radial-gradient(89% 494.44% at 11% 100%, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.00) 25%), radial-gradient(89% 494.44% at 11% 100%, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0.10) 15%, rgba(255, 255, 255, 0.05) 30%, rgba(255, 255, 255, 0.03) 45%, rgba(255, 255, 255, 0.01) 60%, rgba(255, 255, 255, 0.00) 75%), radial-gradient(100% 555.56% at 0% 100%, rgba(111, 134, 253, 0.50) 0%, rgba(111, 134, 253, 0.00) 100%)', 'baseColor': '#010A3C', 'styleKey': 'tunes'};
     golfie = report[oscard];
     golfie = option.bind(entity)(golfie);
     golfie = golfie.sem63N;
@@ -114,7 +114,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     golfie = option.bind(entity)(golfie);
     tangon['iconURL'] = golfie;
     michal['tunes'] = tangon;
-    tangon = {'name': null, 'iconURL': null, 'underDevelopment': true, 'splashGradient': 'radial-gradient(89% 494.44% at 11% 100%, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.00) 25%), radial-gradient(89% 494.44% at 11% 100%, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0.10) 15%, rgba(255, 255, 255, 0.05) 30%, rgba(255, 255, 255, 0.03) 45%, rgba(255, 255, 255, 0.01) 60%, rgba(255, 255, 255, 0.00) 75%), radial-gradient(84.38% 468.75% at 15.63% 100%, rgba(110, 73, 156, 0.50) 0%, rgba(110, 73, 156, 0.00) 100%)', 'baseColor': '#1D142A', 'styleKey': 'ghost'};
+    tangon = {'name': null, 'iconURL': null, 'splashGradient': 'radial-gradient(89% 494.44% at 11% 100%, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.00) 25%), radial-gradient(89% 494.44% at 11% 100%, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0.10) 15%, rgba(255, 255, 255, 0.05) 30%, rgba(255, 255, 255, 0.03) 45%, rgba(255, 255, 255, 0.01) 60%, rgba(255, 255, 255, 0.00) 75%), radial-gradient(84.38% 468.75% at 15.63% 100%, rgba(110, 73, 156, 0.50) 0%, rgba(110, 73, 156, 0.00) 100%)', 'baseColor': '#1D142A', 'styleKey': 'ghost'};
     golfie = report[oscard];
     golfie = option.bind(entity)(golfie);
     golfie = golfie.lFIyMz;
