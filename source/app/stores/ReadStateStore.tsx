@@ -3875,49 +3875,49 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 michal = argFoo;
                 zuuluu = this;
                 entity = argBar;
-                if(!entity) { _fun00132_ip = 87; continue _fun00131 }
+                if(!entity) { _fun00132_ip = 91; continue _fun00131 }
  12:
                 report = zuuluu._lastMessageTimestamp;
                 tangon = _closure1_slot73;
-                if(!(!(report < tangon))) { _fun00132_ip = 334; continue _fun00131 }
+                if(!(!(report < tangon))) { _fun00132_ip = 346; continue _fun00131 }
  32:
                 tangon = _closure1_slot38;
                 entity = tangon.isChannelRecordOrParentOptedIn;
                 entity = entity.bind(tangon)(michal);
-                if(entity) { _fun00132_ip = 87; continue _fun00131 }
+                if(entity) { _fun00132_ip = 91; continue _fun00131 }
  50:
                 entity = zuuluu.hasRecentlyVisitedAndRead;
                 entity = entity.bind(zuuluu)();
-                if(entity) { _fun00132_ip = 87; continue _fun00131 }
+                if(entity) { _fun00132_ip = 91; continue _fun00131 }
  63:
                 tangon = zuuluu.mentionCount;
                 entity = 0;
-                if(!(tangon <= entity)) { _fun00132_ip = 87; continue _fun00131 }
+                if(!(tangon <= entity)) { _fun00132_ip = 91; continue _fun00131 }
  75:
                 entity = {'mentionCount': 0, 'unread': false, 'isMentionLowImportance': false};
                 return entity;
- 87:
+ 91:
                 entity = 'basicPermissions';
                 tangon = entity in michal;
-                if(tangon) { _fun00132_ip = 171; continue _fun00131 }
- 101:
+                if(tangon) { _fun00132_ip = 179; continue _fun00131 }
+ 105:
                 golfie = _closure1_slot12;
                 oscard = golfie.isChannelGated;
                 report = zuuluu.guildId;
                 tangon = zuuluu.channelId;
                 tangon = oscard.bind(golfie)(report, tangon);
-                if(!tangon) { _fun00132_ip = 235; continue _fun00131 }
- 130:
+                if(!tangon) { _fun00132_ip = 247; continue _fun00131 }
+ 134:
                 oscard = _closure1_slot35;
                 report = oscard.can;
                 tangon = _closure1_slot47;
                 tangon = tangon.VIEW_CHANNEL;
                 tangon = report.bind(oscard)(tangon, michal);
-                if(tangon) { _fun00132_ip = 235; continue _fun00131 }
- 159:
+                if(tangon) { _fun00132_ip = 247; continue _fun00131 }
+ 163:
                 tangon = {'mentionCount': 0, 'unread': false, 'isMentionLowImportance': false};
                 return tangon;
- 171:
+ 179:
                 oscard = _closure1_slot1;
                 report = _closure1_slot2;
                 tangon = 48;
@@ -3929,17 +3929,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 entity = _closure1_slot46;
                 entity = entity.VIEW_CHANNEL;
                 entity = tangon.bind(report)(michal, entity);
-                if(entity) { _fun00132_ip = 235; continue _fun00131 }
- 223:
+                if(entity) { _fun00132_ip = 247; continue _fun00131 }
+ 231:
                 entity = {'mentionCount': 0, 'unread': false, 'isMentionLowImportance': false};
                 return entity;
- 235:
-                entity = argCor;
-                if(entity) { _fun00132_ip = 298; continue _fun00131 }
- 241:
-                entity = argGra;
-                if(entity) { _fun00132_ip = 298; continue _fun00131 }
  247:
+                entity = argCor;
+                if(entity) { _fun00132_ip = 310; continue _fun00131 }
+ 253:
+                entity = argGra;
+                if(entity) { _fun00132_ip = 310; continue _fun00131 }
+ 259:
                 entity = {};
                 michal = zuuluu.mentionCount;
                 entity['mentionCount'] = michal;
@@ -3950,8 +3950,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 entity['unread'] = michal;
                 michal = zuuluu.isMentionLowImportance;
                 entity['isMentionLowImportance'] = michal;
-                _fun00132_ip = 332; continue _fun00131;
- 298:
+                _fun00132_ip = 344; continue _fun00131;
+ 310:
                 michal = {};
                 tangon = zuuluu.mentionCount;
                 michal['mentionCount'] = tangon;
@@ -3960,9 +3960,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 zuuluu = zuuluu.isMentionLowImportance;
                 michal['isMentionLowImportance'] = zuuluu;
                 entity = michal;
- 332:
+ 344:
                 return entity;
- 334:
+ 346:
                 entity = {'mentionCount': 0, 'unread': false, 'isMentionLowImportance': false};
                 return entity;
             }

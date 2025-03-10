@@ -2962,7 +2962,7 @@
 { "file": "app/stores/views/GIFPickerViewStore.tsx", "size": 19236 }
 { "file": "app/actions/GIFPickerActionCreators.tsx", "size": 33803 }
 { "file": "app/utils/GIFPickerUtils.tsx", "size": 3061 }
-{ "file": "app/modules/messages/SignedAttachmentLinkUtils.tsx", "size": 22147 }
+{ "file": "app/modules/messages/SignedAttachmentLinkUtils.tsx", "size": 22149 }
 { "file": "app/modules/gif_picker/native/GIFPickerUtils.tsx", "size": 7985 }
 { "file": "app/modules/gif_picker/FavoriteGIFHooks.tsx", "size": 5626 }
 { "file": "app/modules/user_settings/UserSettingsHooks.tsx", "size": 2268 }
@@ -5399,7 +5399,7 @@
 { "file": "app/modules/app_startup/AllGatewayConnectionStores.native.tsx", "size": 16337 }
 { "file": "app/modules/creator_monetization/CreatorMonetizationStore.tsx", "size": 13414 }
 { "file": "app/modules/experiments/ExperimentTriggerPointStore.tsx", "size": 6863 }
-{ "file": "app/modules/experiments/trigger_points/ConnectionOpenTriggerPoint.tsx", "size": 11512 }
+{ "file": "app/modules/experiments/trigger_points/ConnectionOpenTriggerPoint.tsx", "size": 11367 }
 { "file": "app/modules/experiments/test_experiments/TestBadgesExistingUsersExperiment.tsx", "size": 1730 }
 { "file": "app/modules/experiments/test_experiments/TestBadgesNewUsersExperiment.tsx", "size": 1710 }
 { "file": "app/modules/experiments/test_experiments/TestFirstBucketAllocationExperiment.tsx", "size": 1738 }
@@ -6455,7 +6455,7 @@
 { "file": "app/modules/app_launcher/hooks/useSortedSectionCommands.tsx", "size": 10988 }
 { "file": "app/modules/app_launcher/AppLauncherConstants.tsx", "size": 1760 }
 { "file": "app/design/components/Icon/native/redesign/generated/BillIcon.tsx", "size": 2690 }
-{ "file": "app/modules/app_launcher/native/screens/application_view/activity/ActivityDetailContent.tsx", "size": 45490 }
+{ "file": "app/modules/app_launcher/native/screens/application_view/activity/ActivityDetailContent.tsx", "size": 45491 }
 { "file": "app/modules/app_launcher/utils/useLaunchingActivityButtonState.tsx", "size": 4608 }
 { "file": "app/modules/app_launcher/hooks/useDelayedSwapToActivityActionLeave.tsx", "size": 3419 }
 { "file": "app/modules/app_launcher/hooks/useIsPrimaryEntryPointDisabled.tsx", "size": 9863 }
