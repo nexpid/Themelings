@@ -385,7 +385,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['style'] = golfie;
                 option = _closure1_slot9;
                 golfie = _closure1_slot8;
-                report = {'automaticallyAdjustContentInsets': false, 'horizontal': true, 'pagingEnabled': true, 'scrollEnabled': null, 'showsHorizontalScrollIndicator': false};
+                report = {'automaticallyAdjustContentInsets': false, 'horizontal': true, 'pagingEnabled': true, 'scrollEnabled': null, 'nestedScrollEnabled': true, 'showsHorizontalScrollIndicator': false};
                 romeon = 1;
                 romeon = foxtra > romeon;
                 report['scrollEnabled'] = romeon;

@@ -482,7 +482,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.bind(offset)(entity);
                 entity = michal.isNotNullish;
                 entity = entity.bind(michal)(oscard);
-                if(!entity) { _fun00018_ip = 376; continue _fun00017 }
+                if(!entity) { _fun00018_ip = 374; continue _fun00017 }
  45:
                 zuuluu = oscard.type;
                 tangon = _closure1_slot0;
@@ -493,11 +493,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.AutocompleterResultTypes;
                 michal = michal.HEADER;
                 michal = zuuluu === michal;
-                if(michal) { _fun00018_ip = 373; continue _fun00017 }
+                if(michal) { _fun00018_ip = 371; continue _fun00017 }
  92:
                 zuuluu = _closure1_slot8;
                 zuuluu = zuuluu.bind(offset)(oscard);
-                if(!zuuluu) { _fun00018_ip = 370; continue _fun00017 }
+                if(!zuuluu) { _fun00018_ip = 368; continue _fun00017 }
  107:
                 report = _closure2_slot0;
                 option = oscard.type;
@@ -552,9 +552,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  322:
                 tangon = option;
  325:
-                _fun00018_ip = 367; continue _fun00017;
+                _fun00018_ip = 365; continue _fun00017;
  327:
-                if(report) { _fun00018_ip = 364; continue _fun00017 }
+                if(report) { _fun00018_ip = 362; continue _fun00017 }
  330:
                 option = _closure1_slot5;
                 golfie = option.getDMChannelFromUserId;
@@ -563,15 +563,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = golfie.bind(option)(oscard);
                 oscard = null;
                 report = oscard != golfie;
- 364:
+ 362:
                 tangon = report;
- 367:
+ 365:
                 zuuluu = tangon;
- 370:
+ 368:
                 michal = zuuluu;
- 373:
+ 371:
                 entity = michal;
- 376:
+ 374:
                 return entity;
             }
         };

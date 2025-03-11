@@ -106,87 +106,88 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            backup = entity.mid;
-            verify = entity.type;
-            sizing = entity.setup;
+            kiloes = entity.mid;
+            offset = entity.type;
+            output = entity.setup;
             golfie = entity.direction;
-            output = entity.baseSDP;
+            result = entity.baseSDP;
             zuuluu = entity.codec;
             report = entity.payload;
-            romeon = entity.bitrate;
-            kiloes = entity.ssrcs;
+            foxtra = entity.bitrate;
+            sizing = entity.ssrcs;
             option = entity.extensions;
-            foxtra = entity.rtxPayload;
+            backup = entity.rtxPayload;
             oscard = entity.sendingVideo;
+            verify = entity.enableAudioNack;
             entity = _closure1_slot8;
             entity = entity.INACTIVE;
-            if(!(golfie === entity)) { _fun00002_ip = 208; continue _fun00001 }
- 93:
+            if(!(golfie === entity)) { _fun00002_ip = 218; continue _fun00001 }
+ 99:
             entity = _closure1_slot4;
-            if(entity) { _fun00002_ip = 208; continue _fun00001 }
- 100:
+            if(entity) { _fun00002_ip = 218; continue _fun00001 }
+ 106:
             entity = {};
-            offset = {'ip': '0.0.0.0', 'version': 4};
-            entity['connection'] = offset;
-            offset = _closure1_slot8;
-            offset = offset.INACTIVE;
-            entity['direction'] = offset;
-            offset = new Array(0);
-            entity['fmtp'] = offset;
+            yankee = {'ip': '0.0.0.0', 'version': 4};
+            entity['connection'] = yankee;
+            yankee = _closure1_slot8;
+            yankee = yankee.INACTIVE;
+            entity['direction'] = yankee;
+            yankee = new Array(0);
+            entity['fmtp'] = yankee;
             entity['payloads'] = report;
-            offset = 0;
-            entity['port'] = offset;
-            offset = _closure1_slot9;
-            entity['protocol'] = offset;
-            yankee = {'codec': 'NULL', 'payload': null, 'rate': 0};
-            yankee['payload'] = report;
-            offset = new Array(1);
-            offset[0] = yankee;
-            entity['rtp'] = offset;
-            offset = undefined;
-            entity['mid'] = offset;
-            entity['type'] = verify;
-            return entity;
- 208:
-            yankee = _closure1_slot0;
-            offset = _closure1_slot1;
-            entity = 4;
-            entity = offset[entity];
-            offset = undefined;
-            yankee = yankee.bind(offset)(entity);
-            entity = yankee.parse;
-            entity = entity.bind(yankee)(output);
-            output = _closure1_slot2;
-            yankee = entity.media;
-            entity = 1;
-            entity = output.bind(offset)(yankee, entity);
             yankee = 0;
-            entity = entity[yankee];
-            entity['type'] = verify;
-            output = _closure1_slot9;
-            entity['protocol'] = output;
+            entity['port'] = yankee;
+            yankee = _closure1_slot9;
+            entity['protocol'] = yankee;
+            romeon = {'codec': 'NULL', 'payload': null, 'rate': 0};
+            romeon['payload'] = report;
+            yankee = new Array(1);
+            yankee[0] = romeon;
+            entity['rtp'] = yankee;
+            yankee = undefined;
+            entity['mid'] = yankee;
+            entity['type'] = offset;
+            return entity;
+ 218:
+            romeon = _closure1_slot0;
+            yankee = _closure1_slot1;
+            entity = 4;
+            entity = yankee[entity];
+            yankee = undefined;
+            romeon = romeon.bind(yankee)(entity);
+            entity = romeon.parse;
+            entity = entity.bind(romeon)(result);
+            result = _closure1_slot2;
+            romeon = entity.media;
+            entity = 1;
+            entity = result.bind(yankee)(romeon, entity);
+            romeon = 0;
+            entity = entity[romeon];
+            entity['type'] = offset;
+            result = _closure1_slot9;
+            entity['protocol'] = result;
             entity['payloads'] = report;
-            entity['setup'] = sizing;
-            entity['mid'] = backup;
-            backup = 'rtcp-mux';
-            entity['rtcpMux'] = backup;
+            entity['setup'] = output;
+            entity['mid'] = kiloes;
+            kiloes = 'rtcp-mux';
+            entity['rtcpMux'] = kiloes;
             entity['direction'] = golfie;
-            entity['ssrcs'] = kiloes;
-            golfie = kiloes.length;
-            if(!(golfie > yankee)) { _fun00002_ip = 551; continue _fun00001 }
- 338:
-            yankee = null;
-            if(!(yankee != foxtra)) { _fun00002_ip = 447; continue _fun00001 }
- 344:
-            backup = _closure1_slot0;
-            sizing = _closure1_slot1;
+            entity['ssrcs'] = sizing;
+            golfie = sizing.length;
+            if(!(golfie > romeon)) { _fun00002_ip = 561; continue _fun00001 }
+ 348:
+            romeon = null;
+            if(!(romeon != backup)) { _fun00002_ip = 457; continue _fun00001 }
+ 354:
+            kiloes = _closure1_slot0;
+            output = _closure1_slot1;
             golfie = 5;
-            output = sizing[golfie];
-            result = backup.bind(offset)(output);
-            output = _closure1_slot5;
-            echoed = result.bind(offset)(kiloes, output);
-            result = echoed.map;
-            output = function(argFoo) {
+            result = output[golfie];
+            echoed = kiloes.bind(yankee)(result);
+            result = _closure1_slot5;
+            update = echoed.bind(yankee)(sizing, result);
+            echoed = update.map;
+            result = function(argFoo) {
                 michal = argFoo;
                 entity = 0;
                 entity = michal[entity];
@@ -205,13 +206,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 entity['ssrcs'] = michal;
                 return entity;
             };
-            output = result.bind(echoed)(output);
-            entity['ssrcGroups'] = output;
-            golfie = sizing[golfie];
-            backup = backup.bind(offset)(golfie);
+            result = echoed.bind(update)(result);
+            entity['ssrcGroups'] = result;
+            golfie = output[golfie];
+            kiloes = kiloes.bind(yankee)(golfie);
             golfie = _closure1_slot5;
-            sizing = backup.bind(offset)(kiloes, golfie);
-            backup = sizing.map;
+            output = kiloes.bind(yankee)(sizing, golfie);
+            kiloes = output.map;
             golfie = function(argFoo) {
                 tangon = argFoo;
                 michal = tangon.map;
@@ -237,24 +238,24 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 michal = arraySpread(golfie, oscard, report);
                 return entity;
             };
-            backup = backup.bind(sizing)(golfie);
-            golfie = backup.flat;
-            golfie = golfie.bind(backup)();
+            kiloes = kiloes.bind(output)(golfie);
+            golfie = kiloes.flat;
+            golfie = golfie.bind(kiloes)();
             entity['ssrcs'] = golfie;
- 447:
+ 457:
             golfie = _closure1_slot4;
-            if(golfie) { _fun00002_ip = 489; continue _fun00001 }
- 454:
-            backup = _closure1_slot0;
-            sizing = _closure1_slot1;
+            if(golfie) { _fun00002_ip = 499; continue _fun00001 }
+ 464:
+            kiloes = _closure1_slot0;
+            output = _closure1_slot1;
             golfie = 6;
-            golfie = sizing[golfie];
-            golfie = backup.bind(offset)(golfie);
-            backup = golfie.name;
+            golfie = output[golfie];
+            golfie = kiloes.bind(yankee)(golfie);
+            kiloes = golfie.name;
             golfie = 'Firefox';
-            if(!(golfie === backup)) { _fun00002_ip = 551; continue _fun00001 }
- 489:
-            backup = kiloes.find;
+            if(!(golfie === kiloes)) { _fun00002_ip = 561; continue _fun00001 }
+ 499:
+            kiloes = sizing.find;
             golfie = function(argFoo) {
                 entity = argFoo;
                 michal = entity.attribute;
@@ -262,13 +263,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 entity = entity === michal;
                 return entity;
             };
-            golfie = backup.bind(kiloes)(golfie);
-            if(!(yankee != golfie)) { _fun00002_ip = 1201; continue _fun00001 }
- 511:
+            golfie = kiloes.bind(sizing)(golfie);
+            if(!(romeon != golfie)) { _fun00002_ip = 1256; continue _fun00001 }
+ 521:
             golfie = golfie.value;
             entity['msid'] = golfie;
-            backup = entity.ssrcs;
-            yankee = backup.filter;
+            kiloes = entity.ssrcs;
+            romeon = kiloes.filter;
             golfie = function(argFoo) {
                 entity = argFoo;
                 michal = entity.attribute;
@@ -276,16 +277,16 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 entity = entity === michal;
                 return entity;
             };
-            golfie = yankee.bind(backup)(golfie);
+            golfie = romeon.bind(kiloes)(golfie);
             entity['ssrcs'] = golfie;
- 551:
+ 561:
             golfie = 'audio';
-            if(!(golfie !== verify)) { _fun00002_ip = 967; continue _fun00001 }
- 562:
+            if(!(golfie !== offset)) { _fun00002_ip = 977; continue _fun00001 }
+ 572:
             golfie = 'video';
-            if(!(golfie === verify)) { _fun00002_ip = 1199; continue _fun00001 }
- 573:
-            verify = option.filter;
+            if(!(golfie === offset)) { _fun00002_ip = 1254; continue _fun00001 }
+ 583:
+            offset = option.filter;
             golfie = function(argFoo) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -320,95 +321,95 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     return entity;
                 }
             };
-            golfie = verify.bind(option)(golfie);
+            golfie = offset.bind(option)(golfie);
             entity['ext'] = golfie;
-            yankee = entity.rtp;
-            verify = yankee.push;
+            romeon = entity.rtp;
+            offset = romeon.push;
             golfie = {};
             golfie['codec'] = zuuluu;
             golfie['payload'] = report;
-            backup = 90000;
-            golfie['rate'] = backup;
-            golfie = verify.bind(yankee)(golfie);
+            kiloes = 90000;
+            golfie['rate'] = kiloes;
+            golfie = offset.bind(romeon)(golfie);
             golfie = global;
-            verify = golfie.HermesInternal;
-            yankee = verify.concat;
-            verify = 'x-google-max-bitrate=';
-            yankee = yankee.bind(verify)(romeon);
-            verify = _closure1_slot3;
-            verify = verify.H264;
-            backup = yankee;
-            if(!(zuuluu === verify)) { _fun00002_ip = 684; continue _fun00001 }
- 674:
-            verify = ';level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f';
-            backup = yankee + verify;
+            offset = golfie.HermesInternal;
+            romeon = offset.concat;
+            offset = 'x-google-max-bitrate=';
+            romeon = romeon.bind(offset)(foxtra);
+            offset = _closure1_slot3;
+            offset = offset.H264;
+            kiloes = romeon;
+            if(!(zuuluu === offset)) { _fun00002_ip = 694; continue _fun00001 }
  684:
-            romeon = entity.fmtp;
-            yankee = romeon.push;
-            verify = {};
-            verify['config'] = backup;
-            verify['payload'] = report;
-            verify = yankee.bind(romeon)(verify);
-            yankee = {'type': 'ccm', 'subtype': 'fir'};
-            yankee['payload'] = report;
-            verify = new Array(5);
-            verify[0] = yankee;
-            yankee = {};
-            romeon = 'nack';
-            yankee['type'] = romeon;
-            yankee['payload'] = report;
-            verify[1] = yankee;
-            yankee = {'type': 'nack', 'subtype': 'pli'};
-            yankee['payload'] = report;
-            verify[2] = yankee;
-            yankee = {};
-            romeon = 'goog-remb';
-            yankee['type'] = romeon;
-            yankee['payload'] = report;
-            verify[3] = yankee;
-            yankee = {};
-            romeon = 'transport-cc';
-            yankee['type'] = romeon;
-            yankee['payload'] = report;
-            verify[4] = yankee;
-            entity['rtcpFb'] = verify;
-            verify = null;
-            if(!(verify != foxtra)) { _fun00002_ip = 1199; continue _fun00001 }
- 839:
-            romeon = entity.rtp;
-            yankee = romeon.push;
-            verify = {'codec': 'rtx', 'payload': null, 'rate': 90000};
-            verify['payload'] = foxtra;
-            verify = yankee.bind(romeon)(verify);
-            romeon = entity.fmtp;
-            yankee = romeon.push;
-            verify = {};
-            backup = golfie.HermesInternal;
-            kiloes = backup.concat;
-            backup = 'apt=';
-            backup = kiloes.bind(backup)(report);
-            verify['config'] = backup;
-            verify['payload'] = foxtra;
-            verify = yankee.bind(romeon)(verify);
-            romeon = entity.payloads;
+            offset = ';level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f';
+            kiloes = romeon + offset;
+ 694:
+            foxtra = entity.fmtp;
+            romeon = foxtra.push;
+            offset = {};
+            offset['config'] = kiloes;
+            offset['payload'] = report;
+            offset = romeon.bind(foxtra)(offset);
+            romeon = {'type': 'ccm', 'subtype': 'fir'};
+            romeon['payload'] = report;
+            offset = new Array(5);
+            offset[0] = romeon;
+            romeon = {};
+            foxtra = 'nack';
+            romeon['type'] = foxtra;
+            romeon['payload'] = report;
+            offset[1] = romeon;
+            romeon = {'type': 'nack', 'subtype': 'pli'};
+            romeon['payload'] = report;
+            offset[2] = romeon;
+            romeon = {};
+            foxtra = 'goog-remb';
+            romeon['type'] = foxtra;
+            romeon['payload'] = report;
+            offset[3] = romeon;
+            romeon = {};
+            foxtra = 'transport-cc';
+            romeon['type'] = foxtra;
+            romeon['payload'] = report;
+            offset[4] = romeon;
+            entity['rtcpFb'] = offset;
+            offset = null;
+            if(!(offset != backup)) { _fun00002_ip = 1254; continue _fun00001 }
+ 849:
+            foxtra = entity.rtp;
+            romeon = foxtra.push;
+            offset = {'codec': 'rtx', 'payload': null, 'rate': 90000};
+            offset['payload'] = backup;
+            offset = romeon.bind(foxtra)(offset);
+            foxtra = entity.fmtp;
+            romeon = foxtra.push;
+            offset = {};
+            kiloes = golfie.HermesInternal;
+            sizing = kiloes.concat;
+            kiloes = 'apt=';
+            kiloes = sizing.bind(kiloes)(report);
+            offset['config'] = kiloes;
+            offset['payload'] = backup;
+            offset = romeon.bind(foxtra)(offset);
+            foxtra = entity.payloads;
             golfie = golfie.HermesInternal;
-            yankee = golfie.concat;
-            verify = '';
+            romeon = golfie.concat;
+            offset = '';
             golfie = ' ';
-            golfie = yankee.bind(verify)(romeon, golfie, foxtra);
+            golfie = romeon.bind(offset)(foxtra, golfie, backup);
             entity['payloads'] = golfie;
-            _fun00002_ip = 1199; continue _fun00001;
- 967:
-            verify = _closure1_slot0;
-            yankee = _closure1_slot1;
+            _fun00002_ip = 1254; continue _fun00001;
+ 977:
+            offset = _closure1_slot0;
+            romeon = _closure1_slot1;
             golfie = 6;
-            golfie = yankee[golfie];
-            golfie = verify.bind(offset)(golfie);
-            verify = golfie.name;
+            golfie = romeon[golfie];
+            golfie = offset.bind(yankee)(golfie);
+            offset = golfie.name;
             golfie = 'Firefox';
-            if(!(golfie !== verify)) { _fun00002_ip = 1056; continue _fun00001 }
- 1002:
-            verify = option.filter;
+            if(!(golfie !== offset)) { _fun00002_ip = 1111; continue _fun00001 }
+ 1012:
+            offset = option.filter;
             golfie = function(argFoo) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -425,17 +426,30 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     return entity;
                 }
             };
-            golfie = verify.bind(option)(golfie);
+            golfie = offset.bind(option)(golfie);
             entity['ext'] = golfie;
-            verify = {};
+            offset = {};
             golfie = 'transport-cc';
-            verify['type'] = golfie;
-            verify['payload'] = report;
+            offset['type'] = golfie;
+            offset['payload'] = report;
             golfie = new Array(1);
-            golfie[0] = verify;
+            golfie[0] = offset;
             entity['rtcpFb'] = golfie;
-            _fun00002_ip = 1077; continue _fun00001;
- 1056:
+            golfie = true;
+            if(!(golfie === verify)) { _fun00002_ip = 1132; continue _fun00001 }
+ 1070:
+            offset = entity.rtcpFb;
+            golfie = null;
+            if(!(golfie != offset)) { _fun00002_ip = 1132; continue _fun00001 }
+ 1082:
+            verify = offset.push;
+            golfie = {};
+            yankee = 'nack';
+            golfie['type'] = yankee;
+            golfie['payload'] = report;
+            golfie = verify.bind(offset)(golfie);
+            _fun00002_ip = 1132; continue _fun00001;
+ 1111:
             golfie = option.filter;
             tangon = function(argFoo) {
                 entity = argFoo;
@@ -446,7 +460,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             };
             tangon = golfie.bind(option)(tangon);
             entity['ext'] = tangon;
- 1077:
+ 1132:
             option = entity.rtp;
             golfie = option.push;
             tangon = {};
@@ -459,34 +473,34 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = golfie.bind(option)(tangon);
             michal = _closure1_slot3;
             michal = michal.OPUS;
-            if(!(zuuluu === michal)) { _fun00002_ip = 1190; continue _fun00001 }
- 1138:
+            if(!(zuuluu === michal)) { _fun00002_ip = 1245; continue _fun00001 }
+ 1193:
             tangon = entity.fmtp;
             zuuluu = tangon.push;
             michal = {};
             golfie = '1';
-            if(!oscard) { _fun00002_ip = 1166; continue _fun00001 }
- 1160:
+            if(!oscard) { _fun00002_ip = 1221; continue _fun00001 }
+ 1215:
             golfie = '0';
- 1166:
+ 1221:
             oscard = 'minptime=10;useinbandfec=1;usedtx=';
             oscard = oscard + golfie;
             michal['config'] = oscard;
             michal['payload'] = report;
             michal = zuuluu.bind(tangon)(michal);
- 1190:
+ 1245:
             michal = 60;
             entity['maxptime'] = michal;
- 1199:
+ 1254:
             return entity;
- 1201:
+ 1256:
             entity = global;
             zuuluu = entity.Error;
             entity = zuuluu.prototype;
             michal = Object.create(entity, {constructor: {value: zuuluu}});
-            ctrled = 'msid missing';
-            vacuum = michal;
-            entity = new vacuum[zuuluu](ctrled, source);
+            vacuum = 'msid missing';
+            sequen = michal;
+            entity = new sequen[zuuluu](vacuum, ctrled);
             entity = entity instanceof Object ? entity : michal;
             throw entity;
         }
@@ -1372,19 +1386,21 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = michal.rtxPayloadType;
             var _closure2_slot8 = zuuluu;
             oscard = michal.ssrcs;
-            michal = michal.extensions;
-            var _closure2_slot9 = michal;
-            zuuluu = undefined;
-            var _closure2_slot11 = zuuluu;
-            michal = new Array(0);
+            zuuluu = michal.extensions;
+            var _closure2_slot9 = zuuluu;
+            michal = michal.enableAudioNack;
             var _closure2_slot10 = michal;
+            zuuluu = undefined;
+            var _closure2_slot12 = zuuluu;
+            michal = new Array(0);
+            var _closure2_slot11 = michal;
             report = 'actpass';
             golfie = 'answer';
-            if(!(golfie === tangon)) { _fun00032_ip = 148; continue _fun00031 }
- 144:
+            if(!(golfie === tangon)) { _fun00032_ip = 158; continue _fun00031 }
+ 154:
             report = 'passive';
- 148:
-            _closure2_slot11 = report;
+ 158:
+            _closure2_slot12 = report;
             report = oscard.forEach;
             entity = function(argFoo) {
                 _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
@@ -1462,13 +1478,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  215:
                     option = _closure2_slot3;
  219:
-                    tangon = _closure2_slot10;
+                    tangon = _closure2_slot11;
                     zuuluu = tangon.push;
                     report = _closure1_slot12;
                     michal = {};
                     michal['mid'] = foxtra;
                     michal['type'] = romeon;
-                    romeon = _closure2_slot11;
+                    romeon = _closure2_slot12;
                     michal['setup'] = romeon;
                     michal['direction'] = yankee;
                     yankee = _closure2_slot0;
@@ -1480,8 +1496,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     golfie = _closure2_slot9;
                     michal['extensions'] = golfie;
                     michal['rtxPayload'] = oscard;
-                    entity = _closure2_slot7;
-                    michal['sendingVideo'] = entity;
+                    oscard = _closure2_slot7;
+                    michal['sendingVideo'] = oscard;
+                    entity = _closure2_slot10;
+                    michal['enableAudioNack'] = entity;
                     entity = undefined;
                     michal = report.bind(entity)(michal);
                     michal = zuuluu.bind(tangon)(michal);

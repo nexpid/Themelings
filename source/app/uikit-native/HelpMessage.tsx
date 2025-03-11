@@ -331,7 +331,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = 10;
             oscard = foxtra[oscard];
             oscard = golfie.bind(tangon)(oscard);
-            golfie = oscard.Text;
+            golfie = oscard.TextWithIOSLinkWorkaround;
             oscard = {};
             romeon = romeon.content;
             oscard['style'] = romeon;

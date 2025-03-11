@@ -89,17 +89,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             };
             var _closure2_slot6 = zuuluu;
             michal = null;
-            if(!(michal == tangon)) { _fun00002_ip = 71; continue _fun00001 }
- 59:
+            if(!(michal == tangon)) { _fun00002_ip = 73; continue _fun00001 }
+ 61:
             michal = undefined;
             michal = zuuluu.bind(michal)(report);
-            _fun00002_ip = 200; continue _fun00001;
- 71:
+            _fun00002_ip = 206; continue _fun00001;
+ 73:
             zuuluu = _closure1_slot4;
             michal = zuuluu.isBlocked;
             michal = michal.bind(zuuluu)(tangon);
-            if(michal) { _fun00002_ip = 204; continue _fun00001 }
- 92:
+            if(michal) { _fun00002_ip = 210; continue _fun00001 }
+ 94:
             zuuluu = _closure1_slot5;
             michal = zuuluu.getUser;
             michal = michal.bind(zuuluu)(tangon);
@@ -233,10 +233,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             entity = zuuluu.bind(tangon)(michal, entity);
- 200:
+ 206:
             entity = undefined;
             return entity;
- 204:
+ 210:
             entity = undefined;
             return entity;
         }

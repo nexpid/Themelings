@@ -89,46 +89,46 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  14:
             entity['tab'] = zuuluu;
  20:
-            if(!(tangon != michal)) { _fun00004_ip = 235; continue _fun00003 }
+            if(!(tangon != michal)) { _fun00004_ip = 243; continue _fun00003 }
  27:
             report = michal.noCache;
             zuuluu = true;
-            if(!(zuuluu === report)) { _fun00004_ip = 45; continue _fun00003 }
+            if(!(zuuluu === report)) { _fun00004_ip = 47; continue _fun00003 }
  39:
             entity['no_cache'] = zuuluu;
- 45:
+ 47:
             report = michal.includeUnpublished;
-            if(!(zuuluu === report)) { _fun00004_ip = 61; continue _fun00003 }
- 55:
+            if(!(zuuluu === report)) { _fun00004_ip = 63; continue _fun00003 }
+ 57:
             entity['include_unpublished'] = zuuluu;
- 61:
+ 63:
             report = michal.includeBundles;
-            if(!(zuuluu === report)) { _fun00004_ip = 77; continue _fun00003 }
- 71:
+            if(!(zuuluu === report)) { _fun00004_ip = 81; continue _fun00003 }
+ 73:
             entity['include_bundles'] = zuuluu;
- 77:
+ 81:
             report = michal.includePopularPicks;
-            if(!(zuuluu === report)) { _fun00004_ip = 93; continue _fun00003 }
- 87:
+            if(!(zuuluu === report)) { _fun00004_ip = 99; continue _fun00003 }
+ 91:
             entity['include_popular_picks'] = zuuluu;
- 93:
+ 99:
             report = michal.includeDynamicBlocks;
-            if(!(zuuluu === report)) { _fun00004_ip = 109; continue _fun00003 }
- 103:
-            entity['include_dynamic_blocks'] = zuuluu;
+            if(!(zuuluu === report)) { _fun00004_ip = 117; continue _fun00003 }
  109:
+            entity['include_dynamic_blocks'] = zuuluu;
+ 117:
             zuuluu = michal.countryCode;
-            if(!(tangon != zuuluu)) { _fun00004_ip = 131; continue _fun00003 }
- 119:
+            if(!(tangon != zuuluu)) { _fun00004_ip = 139; continue _fun00003 }
+ 127:
             zuuluu = michal.countryCode;
             entity['country_code'] = zuuluu;
- 131:
+ 139:
             zuuluu = michal.paymentGateway;
-            if(!(tangon !== zuuluu)) { _fun00004_ip = 153; continue _fun00003 }
- 141:
+            if(!(tangon !== zuuluu)) { _fun00004_ip = 161; continue _fun00003 }
+ 149:
             zuuluu = michal.paymentGateway;
             entity['payment_gateway'] = zuuluu;
- 153:
+ 161:
             oscard = michal.variantsReturnStyle;
             golfie = _closure1_slot0;
             zuuluu = _closure1_slot1;
@@ -138,8 +138,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = golfie.bind(tangon)(zuuluu);
             zuuluu = zuuluu.ShopVariantsReturnStyle;
             zuuluu = zuuluu.VARIANTS_GROUP;
-            if(!(oscard === zuuluu)) { _fun00004_ip = 235; continue _fun00003 }
- 200:
+            if(!(oscard === zuuluu)) { _fun00004_ip = 243; continue _fun00003 }
+ 208:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot1;
             michal = michal[report];
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.ShopVariantsReturnStyle;
             michal = michal.VARIANTS_GROUP;
             entity['variants_return_style'] = michal;
- 235:
+ 243:
             return entity;
         }
     };
@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = entity.concat;
         report = 'collectibles/';
         tangon = argFoo;
-        entity = 'img.png';
+        entity = 'asset.webm';
         entity = oscard.bind(report)(tangon, entity);
         entity = michal.bind(zuuluu)(entity);
         return entity;

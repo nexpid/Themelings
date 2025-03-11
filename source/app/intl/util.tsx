@@ -1,31 +1,36 @@
 // app/intl/util.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     oscard = argBar;
     zuuluu = argFre;
-    report = argPlu;
+    golfie = argPlu;
     var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
+    var _closure1_slot1 = golfie;
     tangon = function() { // Original name: getLanguages
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 2;
+        entity = 3;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
         return entity;
     };
-    var _closure1_slot2 = tangon;
+    var _closure1_slot3 = tangon;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
-    golfie = {};
+    report = {};
     entity = true;
-    golfie['value'] = entity;
+    report['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, golfie);
-    entity = 3;
-    report = report[entity];
+    entity = option.bind(verify)(zuuluu, entity, report);
+    entity = 0;
+    option = golfie[entity];
+    report = argCor;
     entity = undefined;
+    report = report.bind(entity)(option);
+    var _closure1_slot2 = report;
+    report = 4;
+    report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
     report = 'intl/util.tsx';
@@ -33,13 +38,13 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = function() { // Original name: getAvailableLocales
         report = _closure1_slot0;
         tangon = _closure1_slot1;
-        zuuluu = 0;
+        zuuluu = 1;
         tangon = tangon[zuuluu];
         zuuluu = undefined;
         tangon = report.bind(zuuluu)(tangon);
         tangon = tangon.default;
         var _closure2_slot0 = tangon;
-        michal = _closure1_slot2;
+        michal = _closure1_slot3;
         tangon = michal.bind(zuuluu)();
         zuuluu = tangon.filter;
         michal = function(argFoo) {
@@ -59,7 +64,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = _closure2_slot0;
             oscard = _closure1_slot0;
             tangon = _closure1_slot1;
-            michal = 1;
+            michal = 2;
             tangon = tangon[michal];
             michal = undefined;
             tangon = oscard.bind(michal)(tangon);
@@ -102,12 +107,12 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     };
     zuuluu['getAvailableLocales'] = report;
     zuuluu['getLanguages'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: getNormalizedLocale
+    tangon = function(argFoo, argBar) { // Original name: getNormalizedLocale
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             tangon = argBar;
-            zuuluu = _closure1_slot2;
+            zuuluu = _closure1_slot3;
             michal = undefined;
             oscard = zuuluu.bind(michal)();
             zuuluu = oscard.filter;
@@ -196,6 +201,33 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['getNormalizedLocale'] = michal;
+    zuuluu['getNormalizedLocale'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: useSyncMessages
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        michal = argBar;
+        var _closure2_slot1 = michal;
+        tangon = _closure1_slot2;
+        zuuluu = tangon.useSyncExternalStore;
+        michal = function(argFoo) {
+            zuuluu = _closure2_slot0;
+            michal = zuuluu.onChange;
+            entity = argFoo;
+            entity = michal.bind(zuuluu)(entity);
+            return entity;
+        };
+        entity = function() {
+            zuuluu = _closure2_slot0;
+            michal = zuuluu.isLocaleLoaded;
+            entity = _closure2_slot1;
+            entity = entity.currentLocale;
+            entity = michal.bind(zuuluu)(entity);
+            return entity;
+        };
+        entity = zuuluu.bind(tangon)(michal, entity);
+        entity = undefined;
+        return entity;
+    };
+    zuuluu['useSyncMessages'] = michal;
     return entity;
 })();

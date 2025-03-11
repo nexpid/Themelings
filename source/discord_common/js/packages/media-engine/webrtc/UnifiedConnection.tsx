@@ -411,52 +411,53 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity[3] = offset;
                     entity = michal.bind(golfie)(option, report, entity);
                     var _closure3_slot0 = entity;
-                    report = null;
-                    entity['sdp'] = report;
-                    michal = false;
-                    entity['negotiating'] = michal;
-                    entity['negotiationNeeded'] = michal;
+                    option = null;
+                    entity['sdp'] = option;
+                    report = false;
+                    entity['negotiating'] = report;
+                    entity['negotiationNeeded'] = report;
                     michal = global;
-                    option = michal.Map;
-                    offset = option.prototype;
-                    offset = Object.create(offset, {constructor: {value: option}});
-                    kiloes = offset;
-                    option = new kiloes[option](backup);
-                    option = option instanceof Object ? option : offset;
-                    entity['users'] = option;
-                    option = michal.Map;
-                    offset = option.prototype;
-                    offset = Object.create(offset, {constructor: {value: option}});
-                    kiloes = offset;
-                    option = new kiloes[option](backup);
-                    option = option instanceof Object ? option : offset;
-                    entity['userIdsBySsrc'] = option;
-                    option = michal.Map;
-                    offset = option.prototype;
-                    offset = Object.create(offset, {constructor: {value: option}});
-                    kiloes = offset;
-                    option = new kiloes[option](backup);
-                    option = option instanceof Object ? option : offset;
-                    entity['assignedStreams'] = option;
-                    option = {};
-                    offset = new Array(0);
-                    option['audio'] = offset;
-                    offset = new Array(0);
-                    option['video'] = offset;
-                    entity['unassignedStreams'] = option;
-                    option = {};
-                    offset = new Array(0);
-                    option['audio'] = offset;
-                    offset = new Array(0);
-                    option['video'] = offset;
-                    entity['inactiveTransceivers'] = option;
-                    option = {};
-                    entity['trackUserIds'] = option;
-                    entity['audioCodec'] = report;
-                    entity['audioPayloadType'] = report;
-                    entity['videoCodec'] = report;
-                    entity['videoPayloadType'] = report;
-                    entity['rtxPayloadType'] = report;
+                    offset = michal.Map;
+                    yankee = offset.prototype;
+                    yankee = Object.create(yankee, {constructor: {value: offset}});
+                    sizing = yankee;
+                    offset = new sizing[offset](kiloes);
+                    offset = offset instanceof Object ? offset : yankee;
+                    entity['users'] = offset;
+                    offset = michal.Map;
+                    yankee = offset.prototype;
+                    yankee = Object.create(yankee, {constructor: {value: offset}});
+                    sizing = yankee;
+                    offset = new sizing[offset](kiloes);
+                    offset = offset instanceof Object ? offset : yankee;
+                    entity['userIdsBySsrc'] = offset;
+                    offset = michal.Map;
+                    yankee = offset.prototype;
+                    yankee = Object.create(yankee, {constructor: {value: offset}});
+                    sizing = yankee;
+                    offset = new sizing[offset](kiloes);
+                    offset = offset instanceof Object ? offset : yankee;
+                    entity['assignedStreams'] = offset;
+                    offset = {};
+                    yankee = new Array(0);
+                    offset['audio'] = yankee;
+                    yankee = new Array(0);
+                    offset['video'] = yankee;
+                    entity['unassignedStreams'] = offset;
+                    offset = {};
+                    yankee = new Array(0);
+                    offset['audio'] = yankee;
+                    yankee = new Array(0);
+                    offset['video'] = yankee;
+                    entity['inactiveTransceivers'] = offset;
+                    offset = {};
+                    entity['trackUserIds'] = offset;
+                    entity['audioCodec'] = option;
+                    entity['audioPayloadType'] = option;
+                    entity['videoCodec'] = option;
+                    entity['videoPayloadType'] = option;
+                    entity['rtxPayloadType'] = option;
+                    entity['enableAudioNack'] = report;
                     report = new Array(0);
                     entity['extensions'] = report;
                     report = new Array(0);
@@ -762,11 +763,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = tangon.concat;
                     report = 'UnifiedConnection(';
                     tangon = ')';
-                    backup = option.bind(report)(verify, tangon);
+                    kiloes = option.bind(report)(verify, tangon);
                     report = golfie.prototype;
                     report = Object.create(report, {constructor: {value: golfie}});
-                    kiloes = report;
-                    tangon = new kiloes[golfie](backup, foxtra);
+                    sizing = report;
+                    tangon = new sizing[golfie](kiloes, backup);
                     tangon = tangon instanceof Object ? tangon : report;
                     entity['logger'] = tangon;
                     tangon = _closure1_slot13;
@@ -774,23 +775,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = michal.RTCPeerConnection;
                     tangon = golfie.prototype;
                     report = Object.create(tangon, {constructor: {value: golfie}});
-                    backup = {'bundlePolicy': 'max-bundle', 'sdpSemantics': 'unified-plan'};
-                    kiloes = report;
-                    tangon = new kiloes[golfie](backup, foxtra);
+                    kiloes = {'bundlePolicy': 'max-bundle', 'sdpSemantics': 'unified-plan'};
+                    sizing = report;
+                    tangon = new sizing[golfie](kiloes, backup);
                     option = tangon instanceof Object ? tangon : report;
                     entity['pc'] = option;
                     zuuluu = _closure1_slot12;
-                    if(zuuluu) { _fun00018_ip = 526; continue _fun00017 }
- 512:
+                    if(zuuluu) { _fun00018_ip = 532; continue _fun00017 }
+ 518:
                     zuuluu = entity.handleIceConnectionStateChange;
                     option['oniceconnectionstatechange'] = zuuluu;
-                    _fun00018_ip = 550; continue _fun00017;
- 526:
+                    _fun00018_ip = 556; continue _fun00017;
+ 532:
                     zuuluu = entity.handlePeerConnectionStateChange;
                     option['onconnectionstatechange'] = zuuluu;
                     zuuluu = entity.handlePeerConnectionStateChange;
                     option['oniceconnectionstatechange'] = zuuluu;
- 550:
+ 556:
                     zuuluu = entity.handleSignalingStateChange;
                     option['onsignalingstatechange'] = zuuluu;
                     zuuluu = entity.handleIceGatheringStateChange;
@@ -815,33 +816,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = report[zuuluu];
                     entity['audioTransceiver'] = zuuluu;
                     zuuluu = entity.videoSupported;
-                    if(!zuuluu) { _fun00018_ip = 734; continue _fun00017 }
- 672:
+                    if(!zuuluu) { _fun00018_ip = 740; continue _fun00017 }
+ 678:
                     offset = entity.addTransceivers;
                     report = entity.input;
                     zuuluu = report.getVideoStream;
-                    yankee = zuuluu.bind(report)();
-                    backup = 'video';
+                    romeon = zuuluu.bind(report)();
+                    kiloes = 'video';
                     report = 1;
-                    kiloes = entity;
-                    foxtra = golfie;
-                    romeon = report;
-                    zuuluu = kiloes[offset](backup, foxtra, romeon, yankee, offset);
+                    sizing = entity;
+                    backup = golfie;
+                    foxtra = report;
+                    zuuluu = sizing[offset](kiloes, backup, foxtra, romeon, yankee);
                     zuuluu = option.getTransceivers;
                     zuuluu = zuuluu.bind(option)();
                     zuuluu = zuuluu[report];
                     entity['videoTransceiver'] = zuuluu;
- 734:
+ 740:
                     zuuluu = entity.addTransceivers;
                     report = 10;
                     zuuluu = zuuluu.bind(entity)(tangon, golfie, report);
                     zuuluu = entity.videoSupported;
-                    if(!zuuluu) { _fun00018_ip = 776; continue _fun00017 }
- 759:
+                    if(!zuuluu) { _fun00018_ip = 782; continue _fun00017 }
+ 765:
                     tangon = entity.addTransceivers;
                     zuuluu = 'video';
                     zuuluu = tangon.bind(entity)(zuuluu, golfie, report);
- 776:
+ 782:
                     tangon = entity.setStream;
                     zuuluu = entity.input;
                     zuuluu = zuuluu.stream;
@@ -894,7 +895,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             report['value'] = entity;
-            entity = new Array(24);
+            entity = new Array(25);
             entity[0] = report;
             report = {};
             option = 'setCodecs';
@@ -1319,88 +1320,89 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['value'] = option;
             entity[5] = report;
             report = {};
+            option = 'setRemoteAudioHistory';
+            report['key'] = option;
+            option = function(argFoo) { // Original name: value
+                michal = argFoo;
+                entity = 0;
+                michal = michal > entity;
+                entity = this;
+                entity['enableAudioNack'] = michal;
+                entity = undefined;
+                return entity;
+            };
+            report['value'] = option;
+            entity[6] = report;
+            report = {};
             option = 'setSDP';
             report['key'] = option;
             option = function(argFoo) { // Original name: value
                 _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
  0:
-                    yankee = argFoo;
+                    zuuluu = argFoo;
                     michal = this;
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
+                    report = _closure1_slot0;
+                    tangon = _closure1_slot2;
                     entity = 13;
-                    zuuluu = zuuluu[entity];
+                    tangon = tangon[entity];
                     entity = undefined;
-                    tangon = tangon.bind(entity)(zuuluu);
-                    zuuluu = tangon.validateSdp;
-                    zuuluu = zuuluu.bind(tangon)(yankee);
-                    if(zuuluu) { _fun00040_ip = 97; continue _fun00039 }
+                    report = report.bind(entity)(tangon);
+                    tangon = report.validateSdp;
+                    tangon = tangon.bind(report)(zuuluu);
+                    if(tangon) { _fun00040_ip = 97; continue _fun00039 }
  45:
-                    zuuluu = global;
-                    report = zuuluu.Error;
-                    zuuluu = zuuluu.HermesInternal;
-                    tangon = zuuluu.concat;
-                    zuuluu = 'Incorrect SDP received from rtc-worker: ';
-                    kiloes = tangon.bind(zuuluu)(yankee);
-                    tangon = report.prototype;
-                    tangon = Object.create(tangon, {constructor: {value: report}});
-                    sizing = tangon;
-                    zuuluu = new sizing[report](kiloes, backup);
-                    zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
-                    throw zuuluu;
+                    tangon = global;
+                    oscard = tangon.Error;
+                    tangon = tangon.HermesInternal;
+                    report = tangon.concat;
+                    tangon = 'Incorrect SDP received from rtc-worker: ';
+                    yankee = report.bind(tangon)(zuuluu);
+                    report = oscard.prototype;
+                    report = Object.create(report, {constructor: {value: oscard}});
+                    romeon = report;
+                    tangon = new romeon[oscard](yankee, offset);
+                    tangon = tangon instanceof Object ? tangon : report;
+                    throw tangon;
  97:
-                    tangon = michal.signalingState;
-                    zuuluu = 'have-local-offer';
-                    if(!(zuuluu === tangon)) { _fun00040_ip = 261; continue _fun00039 }
- 116:
-                    zuuluu = michal.parseLocalDescription;
-                    zuuluu = zuuluu.bind(michal)();
-                    golfie = zuuluu.outboundStreams;
-                    michal['sdp'] = yankee;
-                    oscard = michal.logger;
-                    report = oscard.info;
-                    zuuluu = global;
-                    verify = zuuluu.JSON;
-                    option = verify.stringify;
-                    tangon = michal.unassignedStreams;
-                    offset = option.bind(verify)(tangon);
-                    tangon = zuuluu.HermesInternal;
-                    verify = tangon.concat;
-                    option = 'Set sdp: ';
-                    tangon = ', unassigned streams: ';
-                    tangon = verify.bind(option)(yankee, tangon, offset);
-                    tangon = report.bind(oscard)(tangon);
+                    report = michal.signalingState;
+                    tangon = 'have-local-offer';
+                    if(!(tangon === report)) { _fun00040_ip = 186; continue _fun00039 }
+ 113:
+                    tangon = michal.parseLocalDescription;
+                    tangon = tangon.bind(michal)();
+                    yankee = tangon.outboundStreams;
+                    michal['sdp'] = zuuluu;
                     oscard = michal.setRemoteAnswer;
+                    zuuluu = global;
                     zuuluu = zuuluu.Map;
                     tangon = zuuluu.prototype;
                     tangon = Object.create(tangon, {constructor: {value: zuuluu}});
-                    sizing = tangon;
-                    zuuluu = new sizing[zuuluu](kiloes);
-                    romeon = zuuluu instanceof Object ? zuuluu : tangon;
-                    backup = new Array(0);
-                    foxtra = new Array(0);
-                    sizing = michal;
-                    kiloes = golfie;
-                    zuuluu = sizing[oscard](kiloes, backup, foxtra, romeon, yankee);
+                    romeon = tangon;
+                    zuuluu = new romeon[zuuluu](yankee);
+                    option = zuuluu instanceof Object ? zuuluu : tangon;
+                    offset = new Array(0);
+                    verify = new Array(0);
+                    romeon = michal;
+                    zuuluu = romeon[oscard](yankee, offset, verify, option, golfie);
                     return entity;
- 261:
+ 186:
                     entity = global;
                     zuuluu = entity.Error;
                     tangon = michal.signalingState;
                     entity = entity.HermesInternal;
                     michal = entity.concat;
                     entity = 'Invalid signaling state ';
-                    kiloes = michal.bind(entity)(tangon);
+                    yankee = michal.bind(entity)(tangon);
                     michal = zuuluu.prototype;
                     michal = Object.create(michal, {constructor: {value: zuuluu}});
-                    sizing = michal;
-                    entity = new sizing[zuuluu](kiloes, backup);
+                    romeon = michal;
+                    entity = new romeon[zuuluu](yankee, offset);
                     entity = entity instanceof Object ? entity : michal;
                     throw entity;
                 }
             };
             report['value'] = option;
-            entity[6] = report;
+            entity[7] = report;
             report = {};
             option = 'peerConnectionState';
             report['key'] = option;
@@ -1411,7 +1413,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             report['get'] = option;
-            entity[7] = report;
+            entity[8] = report;
             report = {};
             option = 'iceGatheringState';
             report['key'] = option;
@@ -1422,7 +1424,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             report['get'] = option;
-            entity[8] = report;
+            entity[9] = report;
             report = {};
             option = 'iceConnectionState';
             report['key'] = option;
@@ -1433,7 +1435,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             report['get'] = option;
-            entity[9] = report;
+            entity[10] = report;
             report = {};
             option = 'signalingState';
             report['key'] = option;
@@ -1444,7 +1446,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             report['get'] = option;
-            entity[10] = report;
+            entity[11] = report;
             report = {};
             option = 'connected';
             report['key'] = option;
@@ -1457,7 +1459,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             report['get'] = option;
-            entity[11] = report;
+            entity[12] = report;
             report = {};
             option = 'setTransceiverEncodingParameters';
             report['key'] = option;
@@ -1600,7 +1602,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             report['value'] = option;
-            entity[12] = report;
+            entity[13] = report;
             report = {};
             option = 'setAudioEncoderParameters';
             report['key'] = option;
@@ -1665,7 +1667,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             report['value'] = option;
-            entity[13] = report;
+            entity[14] = report;
             report = {};
             option = 'setVideoEncoderParameters';
             report['key'] = option;
@@ -1742,7 +1744,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             report['value'] = option;
-            entity[14] = report;
+            entity[15] = report;
             report = {};
             option = 'getRawStats';
             report['key'] = option;
@@ -1754,7 +1756,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             report['value'] = option;
-            entity[15] = report;
+            entity[16] = report;
             report = {};
             option = 'makeOfferAnswerOptions';
             report['key'] = option;
@@ -1765,7 +1767,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             report['value'] = option;
-            entity[16] = report;
+            entity[17] = report;
             report = {};
             option = 'parseLocalDescription';
             report['key'] = option;
@@ -1818,7 +1820,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             report['value'] = option;
-            entity[17] = report;
+            entity[18] = report;
             report = {};
             option = 'addTransceivers';
             report['key'] = option;
@@ -1873,7 +1875,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             report['value'] = option;
-            entity[18] = report;
+            entity[19] = report;
             report = {};
             option = 'buildSSRCsFromOutboundStreams';
             report['key'] = option;
@@ -2020,7 +2022,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             report['value'] = option;
-            entity[19] = report;
+            entity[20] = report;
             report = {};
             option = 'generateSDPAnswer';
             report['key'] = option;
@@ -2053,17 +2055,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = offset.rtxPayloadType;
                     michal = offset.sdp;
                     tangon = null;
-                    if(!(tangon != backup)) { _fun00054_ip = 321; continue _fun00053 }
+                    if(!(tangon != backup)) { _fun00054_ip = 327; continue _fun00053 }
  98:
-                    if(!(tangon != golfie)) { _fun00054_ip = 321; continue _fun00053 }
+                    if(!(tangon != golfie)) { _fun00054_ip = 327; continue _fun00053 }
  105:
-                    if(!(tangon != foxtra)) { _fun00054_ip = 321; continue _fun00053 }
+                    if(!(tangon != foxtra)) { _fun00054_ip = 327; continue _fun00053 }
  112:
-                    if(!(tangon != oscard)) { _fun00054_ip = 321; continue _fun00053 }
+                    if(!(tangon != oscard)) { _fun00054_ip = 327; continue _fun00053 }
  119:
-                    if(!(tangon != report)) { _fun00054_ip = 321; continue _fun00053 }
+                    if(!(tangon != report)) { _fun00054_ip = 327; continue _fun00053 }
  126:
-                    if(!(tangon != michal)) { _fun00054_ip = 321; continue _fun00053 }
+                    if(!(tangon != michal)) { _fun00054_ip = 327; continue _fun00053 }
  133:
                     yankee = offset.buildSSRCsFromOutboundStreams;
                     record = argFoo;
@@ -2074,7 +2076,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = cntext[yankee](record, config, sequen, vacuum, ctrled);
                     yankee = zuuluu.ssrcs;
                     entity = {};
-                    entity['ssrcs'] = yankee;
                     option = zuuluu.remainingAudioStreams;
                     entity['remainingAudioStreams'] = option;
                     zuuluu = zuuluu.remainingVideoStreams;
@@ -2101,38 +2102,40 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu['sendingVideo'] = romeon;
                     zuuluu['rtxPayloadType'] = report;
                     zuuluu['ssrcs'] = yankee;
-                    offset = offset.extensions;
-                    zuuluu['extensions'] = offset;
+                    yankee = offset.extensions;
+                    zuuluu['extensions'] = yankee;
+                    offset = offset.enableAudioNack;
+                    zuuluu['enableAudioNack'] = offset;
                     zuuluu = option.bind(verify)(zuuluu);
                     entity['answer'] = zuuluu;
                     return entity;
- 321:
+ 327:
                     entity = global;
                     zuuluu = entity.Error;
                     option = tangon == golfie;
                     romeon = 'null';
                     yankee = romeon;
-                    if(option) { _fun00054_ip = 346; continue _fun00053 }
- 343:
+                    if(option) { _fun00054_ip = 352; continue _fun00053 }
+ 349:
                     yankee = golfie;
- 346:
+ 352:
                     golfie = tangon == oscard;
                     offset = romeon;
-                    if(golfie) { _fun00054_ip = 359; continue _fun00053 }
- 356:
+                    if(golfie) { _fun00054_ip = 365; continue _fun00053 }
+ 362:
                     offset = oscard;
- 359:
+ 365:
                     oscard = tangon == report;
                     verify = romeon;
-                    if(oscard) { _fun00054_ip = 372; continue _fun00053 }
- 369:
+                    if(oscard) { _fun00054_ip = 378; continue _fun00053 }
+ 375:
                     verify = report;
- 372:
+ 378:
                     tangon = tangon == michal;
-                    if(tangon) { _fun00054_ip = 382; continue _fun00053 }
- 379:
+                    if(tangon) { _fun00054_ip = 388; continue _fun00053 }
+ 385:
                     romeon = michal;
- 382:
+ 388:
                     entity = entity.HermesInternal;
                     option = entity.concat;
                     cntext = 'Invalid payload: audioCodec: ';
@@ -2157,7 +2160,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             report['value'] = option;
-            entity[20] = report;
+            entity[21] = report;
             report = {};
             option = 'setRemoteAnswer';
             report['key'] = option;
@@ -2167,270 +2170,123 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     _fun00055: for(var _fun00056_ip = 0; ; ) switch(_fun00056_ip) {
  0:
                         StartGenerator();
-                        source = argFoo;
-                        update = argBar;
-                        echoed = argBaz;
-                        result = argCor;
                         tangon = this;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00056_ip = 1057; continue _fun00055 }
- 25:
+                        if(michal) { _fun00056_ip = 429; continue _fun00055 }
+ 13:
                         michal = undefined;
-                        romeon = undefined;
-                        kiloes = undefined;
-                        backup = undefined;
-                        foxtra = undefined;
-                        offset = undefined;
-                        yankee = undefined;
-                        oscard = undefined;
-                        verify = undefined;
-                        option = undefined;
                         golfie = undefined;
-                        zuuluu = global;
-                        ctrled = zuuluu.JSON;
-                        output = ctrled.stringify;
-                        sizing = tangon.assignedStreams;
-                        limora = output.bind(ctrled)(sizing);
-                        romeon = limora;
-                        output = zuuluu.JSON;
-                        sizing = output.stringify;
-                        sierra = sizing.bind(output)(update);
-                        kiloes = sierra;
-                        output = zuuluu.JSON;
-                        sizing = output.stringify;
-                        status = sizing.bind(output)(echoed);
-                        backup = status;
-                        output = zuuluu.JSON;
-                        sizing = output.stringify;
-                        target = sizing.bind(output)(result);
-                        foxtra = target;
-                        ctrled = tangon.logger;
-                        output = ctrled.info;
-                        quebec = source.length;
-                        sizing = zuuluu.HermesInternal;
-                        cntext = sizing.concat;
-                        variable44 = 'setRemoteDescription: available audio streams: ';
-                        variable42 = ', available video streams: ';
-                        vacuum = ', users: ';
-                        variable38 = ', assigned streams: ';
-                        variable36 = ', outbound streams: ';
-                        variable43 = sierra;
-                        variable41 = status;
-                        variable40 = vacuum;
-                        variable39 = target;
-                        variable37 = limora;
-                        sizing = variable44[cntext](variable43, variable42, variable41, variable40, variable39, variable38, variable37, variable36, quebec, equals);
-                        sizing = output.bind(ctrled)(sizing);
-                        sizing = tangon.pc;
-                        offset = sizing;
-                        output = tangon.generateSDPAnswer;
-                        variable44 = tangon;
-                        variable43 = source;
-                        variable42 = update;
-                        variable41 = echoed;
-                        variable40 = result;
-                        output = variable44[output](variable43, variable42, variable41, variable40, variable39);
-                        yankee = output.ssrcs;
-                        oscard = output.answer;
-                        verify = output.remainingAudioStreams;
-                        option = output.remainingVideoStreams;
-                        golfie = sizing.localDescription;
- 282: // try_start_0
-                        output = offset;
-                        sizing = output.setRemoteDescription;
-                        offset = oscard;
-                        offset = sizing.bind(output)(offset);
-                        SaveGenerator(address=303);
- 301:
-                        return offset;
- 303:
-                        ResumeGenerator(result_out_reg=9, return_bool_out_reg=15);
-                        if(sizing) { _fun00056_ip = 314; continue _fun00055 }
- 309: // try_end0
-                        _fun00056_ip = 712; continue _fun00055;
- 314:
-                        return offset;
- 317: // catch_target0
-                        CatchBlockStart(arg_register=16);
-                        report = output;
-                        result = tangon.logger;
-                        offset = result.warn;
-                        sizing = oscard;
-                        source = sizing.type;
-                        oscard = zuuluu.HermesInternal;
-                        update = oscard.concat;
-                        echoed = 'Failed to set remote answer: ';
-                        oscard = ', type: ';
-                        oscard = update.bind(echoed)(output, oscard, source);
-                        oscard = offset.bind(result)(oscard);
-                        source = tangon.emit;
-                        echoed = _closure1_slot0;
-                        result = _closure1_slot2;
-                        offset = 14;
-                        result = result[offset];
-                        result = echoed.bind(michal)(result);
-                        result = result.BaseConnectionEvent;
-                        variable43 = result.SdpError;
-                        variable41 = output.message;
-                        variable40 = sizing.type;
-                        variable39 = sizing.sdp;
-                        variable42 = 'setRemoteDescription';
-                        variable44 = tangon;
-                        sizing = variable44[source](variable43, variable42, variable41, variable40, variable39, variable38);
-                        output = golfie;
-                        sizing = null;
-                        if(!(sizing != output)) { _fun00056_ip = 517; continue _fun00055 }
- 452:
-                        update = tangon.emit;
-                        output = _closure1_slot0;
-                        sizing = _closure1_slot2;
-                        sizing = sizing[offset];
-                        sizing = output.bind(michal)(sizing);
-                        sizing = sizing.BaseConnectionEvent;
-                        variable43 = sizing.SdpError;
+                        oscard = undefined;
+                        report = undefined;
+                        zuuluu = undefined;
+                        golfie = tangon.pc;
+                        romeon = tangon.generateSDPAnswer;
+                        output = argFoo;
+                        sizing = argBar;
+                        kiloes = argBaz;
+                        backup = argCor;
+                        result = tangon;
+                        option = result[romeon](output, sizing, kiloes, backup, foxtra);
+                        oscard = option.answer;
+                        report = option.remainingAudioStreams;
+                        zuuluu = option.remainingVideoStreams;
+ 74: // try_start_0
+                        verify = golfie;
+                        option = verify.setRemoteDescription;
+                        golfie = oscard;
+                        golfie = option.bind(verify)(golfie);
+                        SaveGenerator(address=95);
+ 93:
+                        return golfie;
+ 95:
+                        ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
+                        if(option) { _fun00056_ip = 103; continue _fun00055 }
+ 101: // try_end0
+                        _fun00056_ip = 222; continue _fun00055;
+ 103:
+                        return golfie;
+ 106: // catch_target0
+                        CatchBlockStart(arg_register=6);
+                        offset = tangon.logger;
+                        verify = offset.warn;
+                        foxtra = oscard.type;
+                        option = global;
+                        option = option.HermesInternal;
+                        romeon = option.concat;
+                        yankee = 'Failed to set remote answer: ';
+                        option = ', type: ';
+                        option = romeon.bind(yankee)(golfie, option, foxtra);
+                        option = verify.bind(offset)(option);
+                        offset = tangon.emit;
+                        verify = _closure1_slot0;
+                        yankee = _closure1_slot2;
+                        option = 14;
+                        option = yankee[option];
+                        option = verify.bind(michal)(option);
+                        option = option.BaseConnectionEvent;
+                        output = option.SdpError;
+                        kiloes = golfie.message;
+                        backup = oscard.type;
+                        sizing = 'setRemoteDescription';
+                        result = tangon;
+                        oscard = result[offset](output, sizing, kiloes, backup, foxtra);
+ 222:
+                        oscard = tangon.unassignedStreams;
+                        option = oscard.audio;
+                        golfie = option.unshift;
                         sizing = report;
-                        variable41 = sizing.message;
-                        variable40 = golfie.type;
-                        variable39 = golfie.sdp;
-                        variable42 = 'setLocalDescription';
-                        variable44 = tangon;
-                        golfie = variable44[update](variable43, variable42, variable41, variable40, variable39, variable38);
- 517:
-                        result = zuuluu.JSON;
-                        output = result.stringify;
-                        golfie = _closure1_slot0;
-                        oscard = _closure1_slot2;
-                        sizing = 11;
-                        sizing = oscard[sizing];
-                        echoed = golfie.bind(michal)(sizing);
-                        sizing = echoed.getLogs;
-                        update = sizing.bind(echoed)();
-                        echoed = update.map;
-                        sizing = function(argFoo) {
-                            entity = argFoo;
-                            report = entity.time;
-                            tangon = entity.message;
-                            entity = global;
-                            entity = entity.HermesInternal;
-                            zuuluu = entity.concat;
-                            michal = '';
-                            entity = ': ';
-                            michal = zuuluu.bind(michal)(report, entity, tangon);
-                            entity = michal.trim;
-                            entity = entity.bind(michal)();
-                            return entity;
-                        };
-                        sizing = echoed.bind(update)(sizing);
-                        whisks = output.bind(result)(sizing);
-                        source = kiloes;
-                        variable41 = backup;
-                        variable39 = foxtra;
-                        variable37 = romeon;
-                        foxtra = zuuluu.JSON;
-                        romeon = foxtra.stringify;
-                        quebec = romeon.bind(foxtra)(yankee);
-                        yankee = zuuluu.HermesInternal;
-                        sizing = yankee.concat;
-                        variable44 = 'availableAudioStreams: ';
-                        variable42 = ', availableVideoStreams: ';
-                        variable38 = ', assignedStreams: ';
-                        variable36 = ', ssrcs: ';
-                        equals = ', logs: ';
-                        variable43 = source;
-                        variable40 = vacuum;
-                        variable39 = variable44[sizing](variable43, variable42, variable41, variable40, variable39, variable38, variable37, variable36, quebec, equals, whisks, limora);
-                        yankee = tangon.emit;
-                        oscard = oscard[offset];
-                        oscard = golfie.bind(michal)(oscard);
-                        oscard = oscard.BaseConnectionEvent;
-                        variable43 = oscard.SdpError;
-                        variable41 = report.message;
-                        variable42 = 'generateSDPAnswer';
-                        variable40 = 'streams20250305';
-                        variable44 = tangon;
-                        report = variable44[yankee](variable43, variable42, variable41, variable40, variable39, variable38);
- 712:
-                        oscard = tangon.logger;
-                        report = oscard.info;
-                        offset = zuuluu.JSON;
-                        golfie = offset.stringify;
-                        sizing = golfie.bind(offset)(verify);
-                        offset = zuuluu.JSON;
-                        golfie = offset.stringify;
-                        variable41 = golfie.bind(offset)(option);
-                        yankee = zuuluu.JSON;
-                        offset = yankee.stringify;
-                        golfie = tangon.unassignedStreams;
-                        variable39 = offset.bind(yankee)(golfie);
-                        yankee = zuuluu.JSON;
-                        offset = yankee.stringify;
-                        golfie = tangon.assignedStreams;
-                        variable37 = offset.bind(yankee)(golfie);
-                        zuuluu = zuuluu.HermesInternal;
-                        romeon = zuuluu.concat;
-                        variable44 = 'setRemoteDescription succeeded: remainingAudioStreams: ';
-                        variable42 = ', remainingVideoStreams: ';
-                        variable40 = ', unassignedStreams: ';
-                        variable38 = ', assignedStreams: ';
-                        variable43 = sizing;
-                        zuuluu = variable44[romeon](variable43, variable42, variable41, variable40, variable39, variable38, variable37, variable36);
-                        zuuluu = report.bind(oscard)(zuuluu);
-                        zuuluu = tangon.unassignedStreams;
-                        golfie = zuuluu.audio;
-                        report = golfie.unshift;
-                        zuuluu = new Array(0);
+                        report = new Array(0);
                         oscard = 0;
-                        variable43 = zuuluu;
-                        variable42 = verify;
-                        variable41 = 0;
-                        verify = arraySpread(variable43, variable42, variable41);
-                        variable43 = report;
-                        variable42 = zuuluu;
-                        variable41 = golfie;
-                        zuuluu = apply(variable43, variable42, variable41);
-                        zuuluu = tangon.unassignedStreams;
-                        golfie = zuuluu.video;
+                        output = report;
+                        kiloes = 0;
+                        verify = arraySpread(output, sizing, kiloes);
+                        output = golfie;
+                        sizing = report;
+                        kiloes = option;
+                        report = apply(output, sizing, kiloes);
+                        report = tangon.unassignedStreams;
+                        golfie = report.video;
                         report = golfie.unshift;
+                        sizing = zuuluu;
                         zuuluu = new Array(0);
-                        variable43 = zuuluu;
-                        variable42 = option;
-                        variable41 = 0;
-                        option = arraySpread(variable43, variable42, variable41);
-                        variable43 = report;
-                        variable42 = zuuluu;
-                        variable41 = golfie;
-                        zuuluu = apply(variable43, variable42, variable41);
+                        output = zuuluu;
+                        kiloes = 0;
+                        option = arraySpread(output, sizing, kiloes);
+                        output = report;
+                        sizing = zuuluu;
+                        kiloes = golfie;
+                        zuuluu = apply(output, sizing, kiloes);
                         report = tangon.unassignedStreams;
                         report = report.audio;
                         report = report.length;
                         report = report > oscard;
                         zuuluu = report;
-                        if(report) { _fun00056_ip = 994; continue _fun00055 }
- 973:
+                        if(report) { _fun00056_ip = 366; continue _fun00055 }
+ 345:
                         report = tangon.unassignedStreams;
                         report = report.video;
                         report = report.length;
                         zuuluu = report > oscard;
- 994:
-                        if(!zuuluu) { _fun00056_ip = 1027; continue _fun00055 }
- 997:
+ 366:
+                        if(!zuuluu) { _fun00056_ip = 399; continue _fun00055 }
+ 369:
                         zuuluu = true;
                         tangon['negotiationNeeded'] = zuuluu;
                         oscard = tangon.logger;
                         report = oscard.info;
                         zuuluu = 'Renegotiating: Streams left unassigned after negotiation - renegotiate';
                         zuuluu = report.bind(oscard)(zuuluu);
- 1027:
+ 399:
                         zuuluu = false;
                         tangon['negotiating'] = zuuluu;
                         zuuluu = tangon.negotiationNeeded;
-                        if(!zuuluu) { _fun00056_ip = 1054; continue _fun00055 }
- 1044:
+                        if(!zuuluu) { _fun00056_ip = 426; continue _fun00055 }
+ 416:
                         zuuluu = tangon.handleNegotiationNeeded;
                         zuuluu = zuuluu.bind(tangon)();
- 1054:
+ 426:
                         return michal;
- 1057:
+ 429:
                         return entity;
                     }
                 };
@@ -2449,7 +2305,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             report['value'] = golfie;
-            entity[21] = report;
+            entity[22] = report;
             report = {};
             golfie = 'setConnected';
             report['key'] = golfie;
@@ -2485,7 +2341,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             report['value'] = golfie;
-            entity[22] = report;
+            entity[23] = report;
             report = {};
             golfie = 'handleNegotiationNeeded';
             report['key'] = golfie;
@@ -2497,7 +2353,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = arguments[0];
                         verify = this;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00058_ip = 1046; continue _fun00057 }
+                        if(michal) { _fun00058_ip = 919; continue _fun00057 }
  16:
                         tangon = undefined;
                         if(!(zuuluu === tangon)) { _fun00058_ip = 24; continue _fun00057 }
@@ -2518,7 +2374,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return tangon;
  46:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                        if(oscard) { _fun00058_ip = 1043; continue _fun00057 }
+                        if(oscard) { _fun00058_ip = 916; continue _fun00057 }
  55:
                         if(zuuluu) { _fun00058_ip = 92; continue _fun00057 }
  58:
@@ -2531,94 +2387,72 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  79:
                         zuuluu = true;
                         verify['negotiationNeeded'] = zuuluu;
-                        _fun00058_ip = 1037; continue _fun00057;
+                        _fun00058_ip = 910; continue _fun00057;
  92:
-                        output = verify.logger;
-                        oscard = output.info;
-                        sizing = global;
-                        echoed = sizing.JSON;
-                        result = echoed.stringify;
-                        zuuluu = verify.unassignedStreams;
-                        vacuum = result.bind(echoed)(zuuluu);
-                        echoed = sizing.JSON;
-                        result = echoed.stringify;
-                        zuuluu = verify.assignedStreams;
-                        papara = result.bind(echoed)(zuuluu);
-                        echoed = sizing.JSON;
-                        result = echoed.stringify;
-                        zuuluu = verify.users;
-                        record = result.bind(echoed)(zuuluu);
-                        zuuluu = sizing.HermesInternal;
-                        update = zuuluu.concat;
-                        sierra = 'Negotiation started, available streams: ';
-                        target = ', assigned streams: ';
-                        cntext = ', users: ';
-                        status = vacuum;
-                        zuuluu = sierra[update](status, target, papara, cntext, record, config);
-                        zuuluu = oscard.bind(output)(zuuluu);
                         zuuluu = true;
                         verify['negotiating'] = zuuluu;
                         zuuluu = false;
                         verify['negotiationNeeded'] = zuuluu;
-                        output = _closure1_slot1;
-                        result = _closure1_slot2;
+                        sizing = _closure1_slot1;
+                        output = _closure1_slot2;
                         zuuluu = 16;
-                        echoed = result[zuuluu];
-                        update = output.bind(tangon)(echoed);
-                        echoed = verify.unassignedStreams;
-                        echoed = echoed.audio;
-                        offset = update.bind(tangon)(echoed);
-                        zuuluu = result[zuuluu];
-                        echoed = output.bind(tangon)(zuuluu);
+                        result = output[zuuluu];
+                        echoed = sizing.bind(tangon)(result);
+                        result = verify.unassignedStreams;
+                        result = result.audio;
+                        offset = echoed.bind(tangon)(result);
+                        zuuluu = output[zuuluu];
+                        result = sizing.bind(tangon)(zuuluu);
                         zuuluu = verify.unassignedStreams;
                         zuuluu = zuuluu.video;
-                        option = echoed.bind(tangon)(zuuluu);
+                        option = result.bind(tangon)(zuuluu);
                         zuuluu = 17;
-                        zuuluu = result[zuuluu];
-                        output = output.bind(tangon)(zuuluu);
+                        zuuluu = output[zuuluu];
+                        sizing = sizing.bind(tangon)(zuuluu);
                         zuuluu = verify.users;
-                        golfie = output.bind(tangon)(zuuluu);
-                        output = verify.unassignedStreams;
+                        golfie = sizing.bind(tangon)(zuuluu);
+                        sizing = verify.unassignedStreams;
                         zuuluu = new Array(0);
-                        output['audio'] = zuuluu;
-                        output = verify.unassignedStreams;
+                        sizing['audio'] = zuuluu;
+                        sizing = verify.unassignedStreams;
                         zuuluu = new Array(0);
-                        output['video'] = zuuluu;
-                        result = verify.pc;
-                        kiloes = result;
-                        output = result.createOffer;
+                        sizing['video'] = zuuluu;
+                        output = verify.pc;
+                        kiloes = output;
+                        sizing = output.createOffer;
                         zuuluu = verify.makeOfferAnswerOptions;
                         zuuluu = zuuluu.bind(verify)();
-                        zuuluu = output.bind(result)(zuuluu);
-                        SaveGenerator(address=386);
- 384:
+                        zuuluu = sizing.bind(output)(zuuluu);
+                        SaveGenerator(address=263);
+ 261:
                         return zuuluu;
- 386:
-                        ResumeGenerator(result_out_reg=2, return_bool_out_reg=16);
-                        if(output) { _fun00058_ip = 1040; continue _fun00057 }
- 395:
+ 263:
+                        ResumeGenerator(result_out_reg=2, return_bool_out_reg=15);
+                        if(sizing) { _fun00058_ip = 913; continue _fun00057 }
+ 272:
                         backup = zuuluu;
- 398: // try_start_0
-                        result = kiloes;
-                        output = result.setLocalDescription;
+ 275: // try_start_0
+                        output = kiloes;
+                        sizing = output.setLocalDescription;
                         kiloes = backup;
-                        kiloes = output.bind(result)(kiloes);
-                        SaveGenerator(address=419);
- 417:
+                        kiloes = sizing.bind(output)(kiloes);
+                        SaveGenerator(address=296);
+ 294:
                         return kiloes;
- 419:
-                        ResumeGenerator(result_out_reg=14, return_bool_out_reg=16);
-                        if(output) { _fun00058_ip = 430; continue _fun00057 }
- 425: // try_end0
-                        _fun00058_ip = 562; continue _fun00057;
- 430:
+ 296:
+                        ResumeGenerator(result_out_reg=14, return_bool_out_reg=15);
+                        if(sizing) { _fun00058_ip = 307; continue _fun00057 }
+ 302: // try_end0
+                        _fun00058_ip = 435; continue _fun00057;
+ 307:
                         return kiloes;
- 433: // catch_target0
+ 310: // catch_target0
                         CatchBlockStart(arg_register=14);
                         result = verify.logger;
                         output = result.warn;
                         papara = backup.type;
                         record = backup.sdp;
+                        sizing = global;
                         sizing = sizing.HermesInternal;
                         source = sizing.concat;
                         sierra = 'Failed to set local offer: ';
@@ -2627,21 +2461,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         status = kiloes;
                         sizing = sierra[source](status, target, papara, cntext, record, config);
                         sizing = output.bind(result)(sizing);
-                        echoed = verify.emit;
+                        result = verify.emit;
                         output = _closure1_slot0;
-                        result = _closure1_slot2;
+                        echoed = _closure1_slot2;
                         sizing = 14;
-                        sizing = result[sizing];
+                        sizing = echoed[sizing];
                         sizing = output.bind(tangon)(sizing);
                         sizing = sizing.BaseConnectionEvent;
                         status = sizing.SdpError;
                         papara = kiloes.message;
                         cntext = backup.type;
-                        record = backup.sdp;
                         target = 'setLocalDescription';
                         sierra = verify;
-                        backup = sierra[echoed](status, target, papara, cntext, record, config);
- 562:
+                        backup = sierra[result](status, target, papara, cntext, record);
+ 435:
                         backup = verify.parseLocalDescription;
                         kiloes = backup.bind(verify)();
                         report = kiloes.sdp;
@@ -2658,11 +2491,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         kiloes = 0;
                         sizing = sizing > kiloes;
                         backup = sizing;
-                        if(!sizing) { _fun00058_ip = 654; continue _fun00057 }
- 647:
+                        if(!sizing) { _fun00058_ip = 527; continue _fun00057 }
+ 520:
                         sizing = romeon;
                         backup = sizing > kiloes;
- 654:
+ 527:
                         verify['videoReady'] = backup;
                         output = verify.videoStreamParameters;
                         output = output[kiloes];
@@ -2670,46 +2503,46 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         output = foxtra;
                         output = result !== output;
                         sizing = output;
-                        if(output) { _fun00058_ip = 712; continue _fun00057 }
- 689:
+                        if(output) { _fun00058_ip = 585; continue _fun00057 }
+ 562:
                         output = verify.videoStreamParameters;
                         output = output[kiloes];
                         result = output.rtxSsrc;
                         output = romeon;
                         sizing = result !== output;
- 712:
+ 585:
                         backup = sizing;
-                        if(sizing) { _fun00058_ip = 724; continue _fun00057 }
- 718:
+                        if(sizing) { _fun00058_ip = 597; continue _fun00057 }
+ 591:
                         backup = verify.videoReady;
- 724:
-                        if(!backup) { _fun00058_ip = 924; continue _fun00057 }
- 730:
+ 597:
+                        if(!backup) { _fun00058_ip = 797; continue _fun00057 }
+ 603:
                         backup = verify.videoStreamParameters;
                         sizing = backup[kiloes];
                         backup = foxtra;
-                        if(!(kiloes !== backup)) { _fun00058_ip = 752; continue _fun00057 }
- 747:
+                        if(!(kiloes !== backup)) { _fun00058_ip = 625; continue _fun00057 }
+ 620:
                         backup = foxtra;
-                        _fun00058_ip = 768; continue _fun00057;
- 752:
+                        _fun00058_ip = 641; continue _fun00057;
+ 625:
                         output = verify.videoStreamParameters;
                         output = output[kiloes];
                         backup = output.ssrc;
- 768:
+ 641:
                         sizing['ssrc'] = backup;
                         backup = verify.videoStreamParameters;
                         sizing = backup[kiloes];
                         backup = romeon;
-                        if(!(kiloes !== backup)) { _fun00058_ip = 796; continue _fun00057 }
- 791:
+                        if(!(kiloes !== backup)) { _fun00058_ip = 669; continue _fun00057 }
+ 664:
                         backup = romeon;
-                        _fun00058_ip = 812; continue _fun00057;
- 796:
+                        _fun00058_ip = 685; continue _fun00057;
+ 669:
                         output = verify.videoStreamParameters;
                         output = output[kiloes];
                         backup = output.rtxSsrc;
- 812:
+ 685:
                         sizing['rtxSsrc'] = backup;
                         backup = verify.videoStreamParameters;
                         kiloes = backup[kiloes];
@@ -2733,11 +2566,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         sequen = verify.videoStreamParameters;
                         sierra = verify;
                         romeon = sierra[echoed](status, target, papara, cntext, record, config, sequen, vacuum);
- 924:
+ 797:
                         foxtra = verify.sdp;
                         romeon = null;
-                        if(!(romeon != foxtra)) { _fun00058_ip = 963; continue _fun00057 }
- 936:
+                        if(!(romeon != foxtra)) { _fun00058_ip = 836; continue _fun00057 }
+ 809:
                         romeon = verify.setRemoteAnswer;
                         status = yankee;
                         target = offset;
@@ -2745,8 +2578,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         cntext = golfie;
                         sierra = verify;
                         golfie = sierra[romeon](status, target, papara, cntext, record);
-                        _fun00058_ip = 1037; continue _fun00057;
- 963:
+                        _fun00058_ip = 910; continue _fun00057;
+ 836:
                         option = verify.emit;
                         offset = _closure1_slot0;
                         yankee = _closure1_slot2;
@@ -2762,13 +2595,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         oscard = oscard.bind(offset)(report);
                         report = 'webrtc';
                         report = option.bind(verify)(golfie, report, oscard);
- 1037:
+ 910:
                         return tangon;
- 1040:
+ 913:
                         return zuuluu;
- 1043:
+ 916:
                         return michal;
- 1046:
+ 919:
                         return entity;
                     }
                 };
@@ -2789,7 +2622,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             report['value'] = oscard;
-            entity[23] = report;
+            entity[24] = report;
             entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         };

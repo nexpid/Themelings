@@ -2759,12 +2759,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = true;
                         _fun00062_ip = 685; continue _fun00061;
                     }
- 794:
-                    if(!tangon) { _fun00062_ip = 805; continue _fun00061 }
- 797:
+ 798:
+                    if(!tangon) { _fun00062_ip = 809; continue _fun00061 }
+ 801:
                     tangon = _closure1_slot59;
                     tangon = tangon.bind(entity)();
- 805:
+ 809:
                     tangon = zuuluu.waitFor;
                     michal = _closure1_slot9;
                     michal = tangon.bind(zuuluu)(michal);

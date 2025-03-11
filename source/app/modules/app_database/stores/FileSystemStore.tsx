@@ -239,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     report = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00008_ip = 376; continue _fun00007 }
+                    if(michal) { _fun00008_ip = 374; continue _fun00007 }
  13:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot1;
@@ -252,14 +252,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = null;
                     tangon = oscard == golfie;
                     michal = undefined;
-                    if(tangon) { _fun00008_ip = 98; continue _fun00007 }
+                    if(tangon) { _fun00008_ip = 96; continue _fun00007 }
  59:
                     tangon = golfie.fsInfo;
                     option = tangon.bind(golfie)();
                     tangon = oscard == option;
                     michal = undefined;
-                    if(tangon) { _fun00008_ip = 98; continue _fun00007 }
- 80:
+                    if(tangon) { _fun00008_ip = 96; continue _fun00007 }
+ 78:
                     golfie = option.catch;
                     tangon = function(argFoo) {
                         tangon = _closure1_slot8;
@@ -270,22 +270,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     michal = golfie.bind(option)(tangon);
+ 96:
+                    SaveGenerator(address=100);
  98:
-                    SaveGenerator(address=102);
- 100:
                     return michal;
- 102:
+ 100:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00008_ip = 373; continue _fun00007 }
- 111:
-                    if(!(oscard != michal)) { _fun00008_ip = 370; continue _fun00007 }
- 118:
+                    if(tangon) { _fun00008_ip = 371; continue _fun00007 }
+ 109:
+                    if(!(oscard != michal)) { _fun00008_ip = 368; continue _fun00007 }
+ 116:
                     tangon = michal.fs;
                     golfie = tangon.available;
                     tangon = 268435456;
                     golfie = golfie < tangon;
-                    if(golfie) { _fun00008_ip = 178; continue _fun00007 }
- 143:
+                    if(golfie) { _fun00008_ip = 176; continue _fun00007 }
+ 141:
                     tangon = michal.fs;
                     option = tangon.available;
                     tangon = michal.database;
@@ -293,9 +293,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = 3;
                     tangon = tangon * verify;
                     golfie = option < tangon;
- 178:
-                    if(golfie) { _fun00008_ip = 216; continue _fun00007 }
- 181:
+ 176:
+                    if(golfie) { _fun00008_ip = 214; continue _fun00007 }
+ 179:
                     tangon = michal.fs;
                     option = tangon.available;
                     tangon = michal.database;
@@ -303,13 +303,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = 2;
                     tangon = tangon * verify;
                     golfie = option < tangon;
- 216:
+ 214:
                     tangon = michal.fs;
                     option = tangon.available;
                     tangon = 805306368;
                     option = option > tangon;
-                    if(!option) { _fun00008_ip = 276; continue _fun00007 }
- 241:
+                    if(!option) { _fun00008_ip = 274; continue _fun00007 }
+ 239:
                     tangon = michal.fs;
                     verify = tangon.available;
                     tangon = michal.database;
@@ -317,9 +317,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = 4;
                     tangon = tangon * offset;
                     option = verify > tangon;
- 276:
-                    if(!option) { _fun00008_ip = 314; continue _fun00007 }
- 279:
+ 274:
+                    if(!option) { _fun00008_ip = 312; continue _fun00007 }
+ 277:
                     tangon = michal.fs;
                     verify = tangon.available;
                     tangon = michal.database;
@@ -327,34 +327,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = 4;
                     tangon = tangon * offset;
                     option = verify > tangon;
- 314:
+ 312:
                     tangon = !golfie;
                     tangon = !tangon;
-                    if(golfie) { _fun00008_ip = 334; continue _fun00007 }
- 323:
+                    if(golfie) { _fun00008_ip = 332; continue _fun00007 }
+ 321:
                     golfie = !option;
-                    if(option) { _fun00008_ip = 331; continue _fun00007 }
- 329:
+                    if(option) { _fun00008_ip = 329; continue _fun00007 }
+ 327:
                     golfie = null;
- 331:
+ 329:
                     tangon = golfie;
- 334:
+ 332:
                     oscard = oscard != tangon;
-                    if(!oscard) { _fun00008_ip = 351; continue _fun00007 }
- 341:
+                    if(!oscard) { _fun00008_ip = 349; continue _fun00007 }
+ 339:
                     golfie = report.isLowDisk;
                     oscard = golfie !== tangon;
- 351:
-                    if(!oscard) { _fun00008_ip = 370; continue _fun00007 }
- 354:
+ 349:
+                    if(!oscard) { _fun00008_ip = 368; continue _fun00007 }
+ 352:
                     report['isLowDisk'] = tangon;
                     tangon = report.emitChange;
                     tangon = tangon.bind(report)();
- 370:
+ 368:
                     return zuuluu;
- 373:
+ 371:
                     return michal;
- 376:
+ 374:
                     return entity;
                 }
             };

@@ -89,13 +89,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argFoo;
             entity = michal.bind(zuuluu)(entity);
             michal = null;
-            if(!(michal == entity)) { _fun00006_ip = 55; continue _fun00005 }
+            if(!(michal == entity)) { _fun00006_ip = 59; continue _fun00005 }
  26:
             michal = {'isElementFullscreen': false, 'focused': false, 'windowSize': null, 'visible': false};
             zuuluu = {'width': 0, 'height': 0};
             michal['windowSize'] = zuuluu;
             entity = michal;
- 55:
+ 59:
             return entity;
         }
     };

@@ -674,7 +674,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = argFoo;
                     report = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00016_ip = 455; continue _fun00015 }
+                    if(michal) { _fun00016_ip = 453; continue _fun00015 }
  16:
                     tangon = yankee;
                     michal = undefined;
@@ -684,13 +684,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = _closure1_slot14;
                     oscard = verify.isLocalFetchNeeded;
                     oscard = oscard.bind(verify)(yankee);
-                    if(!oscard) { _fun00016_ip = 452; continue _fun00015 }
+                    if(!oscard) { _fun00016_ip = 450; continue _fun00015 }
  53:
                     yankee = report.localFetching;
                     verify = yankee.has;
                     oscard = tangon;
                     oscard = verify.bind(yankee)(oscard);
-                    if(oscard) { _fun00016_ip = 452; continue _fun00015 }
+                    if(oscard) { _fun00016_ip = 450; continue _fun00015 }
  78: // try_start_0 // try_start_1
                     romeon = _closure1_slot16;
                     verify = romeon.verbose;
@@ -719,33 +719,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = null;
                     yankee = verify == oscard;
                     oscard = undefined;
-                    if(yankee) { _fun00016_ip = 218; continue _fun00015 }
+                    if(yankee) { _fun00016_ip = 216; continue _fun00015 }
  199:
                     romeon = golfie;
                     yankee = romeon.getMostRecents;
                     golfie = tangon;
                     oscard = yankee.bind(romeon)(golfie);
+ 216:
+                    SaveGenerator(address=220);
  218:
-                    SaveGenerator(address=222);
- 220:
                     return oscard;
- 222:
+ 220:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                    if(golfie) { _fun00016_ip = 343; continue _fun00015 }
- 228:
+                    if(golfie) { _fun00016_ip = 341; continue _fun00015 }
+ 226:
                     offset = oscard;
                     verify = verify != oscard;
                     golfie = verify;
-                    if(!verify) { _fun00016_ip = 262; continue _fun00015 }
- 241:
+                    if(!verify) { _fun00016_ip = 260; continue _fun00015 }
+ 239:
                     verify = option;
                     yankee = _closure1_slot12;
                     option = yankee.getId;
                     option = option.bind(yankee)();
                     golfie = verify === option;
- 262:
-                    if(!golfie) { _fun00016_ip = 341; continue _fun00015 }
- 265:
+ 260:
+                    if(!golfie) { _fun00016_ip = 339; continue _fun00015 }
+ 263:
                     option = _closure1_slot1;
                     verify = _closure1_slot2;
                     golfie = 16;
@@ -801,15 +801,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = yankee.bind(romeon)(offset);
                     golfie['messages'] = offset;
                     golfie = option.bind(verify)(golfie);
- 341: // try_end0
-                    _fun00016_ip = 411; continue _fun00015;
- 343: // try_end1
+ 339: // try_end0
+                    _fun00016_ip = 409; continue _fun00015;
+ 341: // try_end1
                     verify = report.localFetching;
                     option = verify.delete;
                     golfie = tangon;
                     golfie = option.bind(verify)(golfie);
                     return oscard;
- 365: // try_start_2 // catch_target0
+ 363: // try_start_2 // catch_target0
                     CatchBlockStart(arg_register=9);
                     golfie = _closure1_slot16;
                     oscard = golfie.log;
@@ -820,21 +820,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = ')';
                     zuuluu = verify.bind(option)(offset, zuuluu);
                     zuuluu = oscard.bind(golfie)(zuuluu);
- 411: // try_end2
+ 409: // try_end2
                     golfie = report.localFetching;
                     oscard = golfie.delete;
                     zuuluu = tangon;
                     zuuluu = oscard.bind(golfie)(zuuluu);
-                    _fun00016_ip = 452; continue _fun00015;
- 432: // catch_target1 // catch_target2
+                    _fun00016_ip = 450; continue _fun00015;
+ 430: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=2);
                     oscard = report.localFetching;
                     report = oscard.delete;
                     tangon = report.bind(oscard)(tangon);
                     throw zuuluu;
- 452:
+ 450:
                     return michal;
- 455:
+ 453:
                     return entity;
                 }
             };

@@ -273,11 +273,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = tangon.type;
                     tangon = _closure1_slot23;
                     tangon = tangon.GUILD;
-                    if(!(tangon !== oscard)) { _fun00008_ip = 290; continue _fun00007 }
+                    if(!(tangon !== oscard)) { _fun00008_ip = 288; continue _fun00007 }
  82:
                     tangon = _closure1_slot23;
                     tangon = tangon.GUILD_CHANNEL;
-                    if(!(tangon !== oscard)) { _fun00008_ip = 290; continue _fun00007 }
+                    if(!(tangon !== oscard)) { _fun00008_ip = 288; continue _fun00007 }
  99:
                     tangon = _closure1_slot23;
                     tangon = tangon.DMS;
@@ -285,7 +285,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  113:
                     tangon = _closure1_slot23;
                     tangon = tangon.CHANNEL;
-                    if(!(tangon === oscard)) { _fun00008_ip = 339; continue _fun00007 }
+                    if(!(tangon === oscard)) { _fun00008_ip = 337; continue _fun00007 }
  130:
                     option = _closure1_slot12;
                     oscard = option.getChannel;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = tangon.channelId;
                     oscard = oscard.bind(option)(tangon);
                     tangon = null;
-                    if(!(tangon != oscard)) { _fun00008_ip = 339; continue _fun00007 }
+                    if(!(tangon != oscard)) { _fun00008_ip = 337; continue _fun00007 }
  168:
                     verify = golfie.push;
                     offset = _closure1_slot11;
@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = option.bind(offset)();
                     option = verify.bind(golfie)(option);
                     option = oscard.recipients;
-                    if(!(tangon != option)) { _fun00008_ip = 339; continue _fun00007 }
+                    if(!(tangon != option)) { _fun00008_ip = 337; continue _fun00007 }
  205:
                     oscard = option.forEach;
                     tangon = function(argFoo) {
@@ -313,7 +313,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     tangon = oscard.bind(option)(tangon);
-                    _fun00008_ip = 339; continue _fun00007;
+                    _fun00008_ip = 337; continue _fun00007;
  224:
                     oscard = _closure1_slot12;
                     tangon = oscard.getSortedPrivateChannels;
@@ -346,8 +346,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     tangon = oscard.bind(option)(tangon);
-                    _fun00008_ip = 339; continue _fun00007;
- 290:
+                    _fun00008_ip = 337; continue _fun00007;
+ 288:
                     oscard = _closure1_slot20;
                     tangon = oscard.getRecentMessageAuthorIds;
                     zuuluu = _closure3_slot0;
@@ -363,7 +363,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     zuuluu = tangon.bind(oscard)(zuuluu);
- 339:
+ 337:
                     tangon = _closure1_slot1;
                     oscard = _closure1_slot2;
                     zuuluu = 17;

@@ -18,10 +18,10 @@ module.exports = (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = report.fileFinishedImporting;
     michal = '../discord_assets/assets/voice_filters/VF_Quinn.ogg.js';
     michal = tangon.bind(report)(michal);
-    michal = 'https://cdn.discordapp.com/assets/content/ade0fab421f4a01b9bf72ee820bcf0556b05d748ed5aad5883103aca199179dc.ogg';
+    michal = 'https://cdn.discordapp.com/assets/content/1d1ef84be74c71d5503eb07e0b1ed889e0610c90d702ac9bdbb2e6d25678ac1f.ogg';
     zuuluu['default'] = michal;
     michal = {};
-    tangon = 40227;
+    tangon = 31735;
     michal['fileBytes'] = tangon;
     zuuluu['metadata'] = michal;
     return entity;

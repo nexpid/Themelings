@@ -199,22 +199,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot11 = tangon;
-    golfie = 19;
+    golfie = 20;
     golfie = verify[golfie];
     verify = option.bind(entity)(golfie);
     option = verify.fileFinishedImporting;
     golfie = 'modules/video_calls/native/useScreenshareUtils.tsx';
     golfie = option.bind(verify)(golfie);
     golfie = function(argFoo) { // Original name: _default
-        tangon = _closure1_slot1;
+        tangon = argFoo;
+        var _closure2_slot0 = tangon;
+        golfie = _closure1_slot1;
         oscard = _closure1_slot2;
         zuuluu = 14;
         zuuluu = oscard[zuuluu];
         report = undefined;
-        tangon = tangon.bind(report)(zuuluu);
-        zuuluu = argFoo;
-        zuuluu = tangon.bind(report)(zuuluu);
-        var _closure2_slot0 = zuuluu;
+        zuuluu = golfie.bind(report)(zuuluu);
+        zuuluu = zuuluu.bind(report)(tangon);
+        var _closure2_slot1 = zuuluu;
         tangon = _closure1_slot0;
         zuuluu = 15;
         zuuluu = oscard[zuuluu];
@@ -258,47 +259,65 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  108:
                 michal = _closure1_slot7;
  112:
-                if(golfie) { _fun00006_ip = 143; continue _fun00005 }
+                if(golfie) { _fun00006_ip = 126; continue _fun00005 }
  115:
-                tangon = _closure1_slot0;
-                oscard = _closure1_slot2;
-                zuuluu = 5;
-                zuuluu = oscard[zuuluu];
-                zuuluu = tangon.bind(verify)(zuuluu);
-                zuuluu = zuuluu.showMinOSScreenshareRequirementAlert;
-                _fun00006_ip = 191; continue _fun00005;
- 143:
-                tangon = _closure2_slot0;
-                if(tangon) { _fun00006_ip = 181; continue _fun00005 }
- 153:
+                zuuluu = function() { // Original name: u
+                    zuuluu = _closure1_slot0;
+                    tangon = _closure1_slot2;
+                    michal = 16;
+                    report = tangon[michal];
+                    entity = undefined;
+                    golfie = zuuluu.bind(entity)(report);
+                    oscard = golfie.reportAVError;
+                    michal = tangon[michal];
+                    michal = zuuluu.bind(entity)(michal);
+                    michal = michal.AVError;
+                    report = michal.SCREENSHARE_OS_NOT_SUPPORTED;
+                    michal = {};
+                    option = _closure2_slot0;
+                    option = option.id;
+                    michal['channelId'] = option;
+                    michal = oscard.bind(golfie)(report, michal);
+                    michal = 5;
+                    michal = tangon[michal];
+                    zuuluu = zuuluu.bind(entity)(michal);
+                    michal = zuuluu.showMinOSScreenshareRequirementAlert;
+                    michal = michal.bind(zuuluu)();
+                    return entity;
+                };
+                _fun00006_ip = 174; continue _fun00005;
+ 126:
+                tangon = _closure2_slot1;
+                if(tangon) { _fun00006_ip = 164; continue _fun00005 }
+ 136:
                 oscard = _closure1_slot0;
                 option = _closure1_slot2;
                 tangon = 5;
                 tangon = option[tangon];
                 tangon = oscard.bind(verify)(tangon);
                 zuuluu = tangon.showScreenshareDisabledAlert;
-                _fun00006_ip = 191; continue _fun00005;
- 181:
+                _fun00006_ip = 174; continue _fun00005;
+ 164:
                 zuuluu = michal;
-                if(!report) { _fun00006_ip = 191; continue _fun00005 }
- 187:
+                if(!report) { _fun00006_ip = 174; continue _fun00005 }
+ 170:
                 zuuluu = _closure1_slot10;
- 191:
+ 174:
                 tangon = _closure1_slot1;
                 option = _closure1_slot2;
-                if(report) { _fun00006_ip = 211; continue _fun00005 }
- 202:
-                michal = 17;
+                if(report) { _fun00006_ip = 194; continue _fun00005 }
+ 185:
+                michal = 18;
                 michal = option[michal];
-                _fun00006_ip = 218; continue _fun00005;
- 211:
-                oscard = 16;
+                _fun00006_ip = 201; continue _fun00005;
+ 194:
+                oscard = 17;
                 michal = option[oscard];
- 218:
+ 201:
                 michal = tangon.bind(verify)(michal);
                 tangon = _closure1_slot0;
                 offset = _closure1_slot2;
-                entity = 18;
+                entity = 19;
                 oscard = offset[entity];
                 oscard = tangon.bind(verify)(oscard);
                 option = oscard.intl;
@@ -306,21 +325,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = offset[entity];
                 entity = tangon.bind(verify)(entity);
                 entity = entity.t;
-                if(report) { _fun00006_ip = 285; continue _fun00005 }
- 270:
+                if(report) { _fun00006_ip = 268; continue _fun00005 }
+ 253:
                 tangon = entity.fjBNo6;
                 tangon = oscard.bind(option)(tangon);
-                _fun00006_ip = 296; continue _fun00005;
- 285:
+                _fun00006_ip = 279; continue _fun00005;
+ 268:
                 entity = entity.CpkXwc;
                 tangon = oscard.bind(option)(entity);
- 296:
+ 279:
                 entity = {};
-                oscard = _closure2_slot0;
-                if(!oscard) { _fun00006_ip = 311; continue _fun00005 }
- 308:
+                oscard = _closure2_slot1;
+                if(!oscard) { _fun00006_ip = 294; continue _fun00005 }
+ 291:
                 oscard = golfie;
- 311:
+ 294:
                 entity['isFeatureEnabled'] = oscard;
                 entity['isActive'] = report;
                 entity['text'] = tangon;
@@ -355,7 +374,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.StorageKeys;
             zuuluu = zuuluu.SCREENSHARE_ONBOARD;
             zuuluu = tangon.bind(report)(zuuluu);
-            if(zuuluu) { _fun00008_ip = 82; continue _fun00007 }
+            if(zuuluu) { _fun00008_ip = 84; continue _fun00007 }
  77:
             entity = function() {
                 zuuluu = _closure1_slot11;
@@ -364,7 +383,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
- 82:
+ 84:
             return entity;
         }
     };

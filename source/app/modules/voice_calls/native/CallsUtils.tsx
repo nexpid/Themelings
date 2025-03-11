@@ -196,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         oscard = tangon.bind(entity)();
-        foxtra = 20;
+        foxtra = 21;
         tangon = verify[foxtra];
         yankee = offset.bind(entity)(tangon);
         golfie = yankee.debounce;
@@ -231,15 +231,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = report.bind(golfie)(tangon, sequen);
         var _closure1_slot18 = tangon;
         report = {};
-        romeon = 21;
+        romeon = 22;
         tangon = verify[romeon];
         tangon = offset.bind(entity)(tangon);
         report['EARPIECE'] = tangon;
-        yankee = 22;
+        yankee = 23;
         tangon = verify[yankee];
         tangon = offset.bind(entity)(tangon);
         report['BLUETOOTH_HEADSET'] = tangon;
-        golfie = 23;
+        golfie = 24;
         tangon = verify[golfie];
         tangon = offset.bind(entity)(tangon);
         report['WIRED_HEADSET'] = tangon;
@@ -319,26 +319,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         offset['TYPE_AUX_LINE'] = backup;
         tangon = 'TYPE_AUX_LINE';
         offset[backup] = tangon;
-        offset['TYPE_IP'] = foxtra;
+        backup = 20;
+        offset['TYPE_IP'] = backup;
         tangon = 'TYPE_IP';
-        offset[foxtra] = tangon;
-        offset['TYPE_BUS'] = romeon;
+        offset[backup] = tangon;
+        offset['TYPE_BUS'] = foxtra;
         tangon = 'TYPE_BUS';
-        offset[romeon] = tangon;
-        offset['TYPE_USB_HEADSET'] = yankee;
+        offset[foxtra] = tangon;
+        offset['TYPE_USB_HEADSET'] = romeon;
         tangon = 'TYPE_USB_HEADSET';
-        offset[yankee] = tangon;
-        offset['TYPE_HEARING_AID'] = golfie;
+        offset[romeon] = tangon;
+        offset['TYPE_HEARING_AID'] = yankee;
         tangon = 'TYPE_HEARING_AID';
+        offset[yankee] = tangon;
+        offset['TYPE_BUILTIN_SPEAKER_SAFE'] = golfie;
+        tangon = 'TYPE_BUILTIN_SPEAKER_SAFE';
         offset[golfie] = tangon;
-        tangon = 24;
-        offset['TYPE_BUILTIN_SPEAKER_SAFE'] = tangon;
-        golfie = 'TYPE_BUILTIN_SPEAKER_SAFE';
-        offset[tangon] = golfie;
-        yankee = 25;
-        offset['TYPE_REMOTE_SUBMIX'] = yankee;
+        tangon = 25;
+        offset['TYPE_REMOTE_SUBMIX'] = tangon;
         golfie = 'TYPE_REMOTE_SUBMIX';
-        offset[yankee] = golfie;
+        offset[tangon] = golfie;
         yankee = 26;
         offset['TYPE_BLE_HEADSET'] = yankee;
         golfie = 'TYPE_BLE_HEADSET';
@@ -351,14 +351,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         offset['TYPE_ECHO_REFERENCE'] = yankee;
         golfie = 'TYPE_ECHO_REFERENCE';
         offset[yankee] = golfie;
-        golfie = 29;
-        offset['TYPE_HDMI_EARC'] = golfie;
-        yankee = 'TYPE_HDMI_EARC';
-        offset[golfie] = yankee;
-        romeon = 30;
-        offset['TYPE_BLE_BROADCAST'] = romeon;
+        yankee = 29;
+        offset['TYPE_HDMI_EARC'] = yankee;
+        golfie = 'TYPE_HDMI_EARC';
+        offset[yankee] = golfie;
+        golfie = 30;
+        offset['TYPE_BLE_BROADCAST'] = golfie;
         yankee = 'TYPE_BLE_BROADCAST';
-        offset[romeon] = yankee;
+        offset[golfie] = yankee;
         romeon = 31;
         offset['TYPE_DOCK_ANALOG'] = romeon;
         yankee = 'TYPE_DOCK_ANALOG';
@@ -375,7 +375,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                 zuuluu = _closure1_slot0;
                 tangon = _closure1_slot3;
-                entity = 25;
+                entity = 26;
                 entity = tangon[entity];
                 report = undefined;
                 golfie = zuuluu.bind(report)(entity);
@@ -398,7 +398,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         tangon = _closure1_slot0;
                         zuuluu = _closure1_slot3;
-                        michal = 28;
+                        michal = 29;
                         zuuluu = zuuluu[michal];
                         michal = undefined;
                         option = tangon.bind(michal)(zuuluu);
@@ -525,11 +525,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = _closure1_slot3;
                 if(entity) { _fun00008_ip = 246; continue _fun00007 }
  237:
-                entity = 23;
+                entity = 24;
                 entity = golfie[entity];
                 _fun00008_ip = 253; continue _fun00007;
  246:
-                oscard = 22;
+                oscard = 23;
                 entity = golfie[oscard];
  253:
                 michal = michal.bind(report)(entity);
@@ -545,7 +545,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = function() {
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot3;
-            michal = 25;
+            michal = 26;
             zuuluu = zuuluu[michal];
             michal = undefined;
             report = tangon.bind(michal)(zuuluu);
@@ -564,7 +564,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['isAudioRouteEnabled'] = michal;
                     zuuluu = _closure1_slot0;
                     report = _closure1_slot3;
-                    michal = 26;
+                    michal = 27;
                     michal = report[michal];
                     oscard = undefined;
                     michal = zuuluu.bind(oscard)(michal);
@@ -582,7 +582,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  84:
                     report = _closure1_slot0;
                     golfie = _closure1_slot3;
-                    tangon = 27;
+                    tangon = 28;
                     tangon = golfie[tangon];
                     tangon = report.bind(oscard)(tangon);
                     tangon = tangon.AudioDeviceType;
@@ -824,40 +824,78 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         };
         zuuluu['showScreenshareDisabledAlert'] = oscard;
         oscard = function() {
-            zuuluu = _closure1_slot1;
-            verify = _closure1_slot3;
-            entity = 13;
-            michal = verify[entity];
-            entity = undefined;
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.show;
-            michal = {};
-            option = _closure1_slot0;
-            report = 14;
-            oscard = verify[report];
-            oscard = option.bind(entity)(oscard);
-            offset = oscard.intl;
-            golfie = offset.string;
-            oscard = verify[report];
-            oscard = option.bind(entity)(oscard);
-            oscard = oscard.t;
-            oscard = oscard.oblMYW;
-            oscard = golfie.bind(offset)(oscard);
-            michal['title'] = oscard;
-            oscard = verify[report];
-            oscard = option.bind(entity)(oscard);
-            golfie = oscard.intl;
-            oscard = golfie.string;
-            report = verify[report];
-            report = option.bind(entity)(report);
-            report = report.t;
-            report = report.Wnhd3t;
-            report = oscard.bind(golfie)(report);
-            michal['body'] = report;
-            report = false;
-            michal['hideActionSheet'] = report;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+ 0:
+                yankee = _closure1_slot0;
+                romeon = _closure1_slot3;
+                offset = 14;
+                michal = romeon[offset];
+                entity = undefined;
+                michal = yankee.bind(entity)(michal);
+                report = michal.intl;
+                tangon = report.formatToPlainString;
+                michal = romeon[offset];
+                michal = yankee.bind(entity)(michal);
+                michal = michal.t;
+                zuuluu = michal.ejOT9/;
+                michal = {};
+                golfie = 17;
+                option = romeon[golfie];
+                verify = yankee.bind(entity)(option);
+                option = verify.getErrorInfo;
+                golfie = romeon[golfie];
+                golfie = yankee.bind(entity)(golfie);
+                golfie = golfie.AVError;
+                golfie = golfie.SCREENSHARE_OS_NOT_SUPPORTED;
+                option = option.bind(verify)(golfie);
+                golfie = null;
+                verify = golfie == option;
+                golfie = undefined;
+                if(verify) { _fun00018_ip = 120; continue _fun00017 }
+ 114:
+                golfie = option.errorCode;
+ 120:
+                michal['errorCode'] = golfie;
+                verify = tangon.bind(report)(zuuluu, michal);
+                zuuluu = _closure1_slot1;
+                report = _closure1_slot3;
+                michal = 13;
+                michal = report[michal];
+                tangon = zuuluu.bind(entity)(michal);
+                zuuluu = tangon.show;
+                michal = {};
+                option = _closure1_slot0;
+                oscard = report[offset];
+                oscard = option.bind(entity)(oscard);
+                yankee = oscard.intl;
+                golfie = yankee.string;
+                oscard = report[offset];
+                oscard = option.bind(entity)(oscard);
+                oscard = oscard.t;
+                oscard = oscard.oblMYW;
+                oscard = golfie.bind(yankee)(oscard);
+                michal['title'] = oscard;
+                oscard = report[offset];
+                oscard = option.bind(entity)(oscard);
+                golfie = oscard.intl;
+                oscard = golfie.string;
+                report = report[offset];
+                report = option.bind(entity)(report);
+                report = report.t;
+                report = report.Wnhd3t;
+                option = oscard.bind(golfie)(report);
+                report = global;
+                report = report.HermesInternal;
+                golfie = report.concat;
+                oscard = '';
+                report = '\n\n';
+                report = golfie.bind(oscard)(option, report, verify);
+                michal['body'] = report;
+                report = false;
+                michal['hideActionSheet'] = report;
+                michal = zuuluu.bind(tangon)(michal);
+                return entity;
+            }
         };
         zuuluu['showMinOSScreenshareRequirementAlert'] = oscard;
         oscard = function() {
@@ -900,14 +938,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = function(argFoo) {
             report = _closure1_slot2;
             tangon = _closure1_slot3;
-            entity = 17;
+            entity = 18;
             zuuluu = tangon[entity];
             entity = undefined;
             report = report.bind(entity)(zuuluu);
             zuuluu = report.dismissGlobalKeyboard;
             zuuluu = zuuluu.bind(report)();
             zuuluu = _closure1_slot0;
-            michal = 18;
+            michal = 19;
             michal = tangon[michal];
             report = zuuluu.bind(entity)(michal);
             tangon = report.dismissVoiceChannelScreens;
@@ -915,7 +953,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = function() {
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot3;
-                entity = 19;
+                entity = 20;
                 michal = michal[entity];
                 entity = undefined;
                 tangon = zuuluu.bind(entity)(michal);
@@ -930,7 +968,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu['handleDisconnect'] = oscard;
         zuuluu['audioDeviceToIconMap'] = report;
         report = function(argFoo) { // Original name: getAudioDeviceToDisplayText
-            _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+            _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
                 entity = argFoo;
                 zuuluu = {};
@@ -991,11 +1029,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = entity.deviceType;
                 tangon = _closure1_slot20;
                 tangon = tangon.TYPE_BLE_HEADSET;
-                if(!(report !== tangon)) { _fun00018_ip = 308; continue _fun00017 }
+                if(!(report !== tangon)) { _fun00020_ip = 308; continue _fun00019 }
  296:
                 entity = entity.simpleDeviceType;
                 entity = zuuluu[entity];
-                _fun00018_ip = 362; continue _fun00017;
+                _fun00020_ip = 362; continue _fun00019;
  308:
                 report = _closure1_slot0;
                 michal = _closure1_slot3;
@@ -1015,11 +1053,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu['getAudioDeviceToDisplayText'] = report;
         zuuluu['useMaskedSpeakerStates'] = tangon;
         michal = function() {
-            _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+            _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                 zuuluu = _closure1_slot0;
                 golfie = _closure1_slot3;
-                entity = 25;
+                entity = 26;
                 entity = golfie[entity];
                 report = undefined;
                 option = zuuluu.bind(report)(entity);
@@ -1035,7 +1073,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 zuuluu = tangon.bind(option)(zuuluu, entity);
                 tangon = _closure1_slot1;
-                entity = 28;
+                entity = 29;
                 entity = golfie[entity];
                 entity = tangon.bind(report)(entity);
                 offset = entity.bind(report)();
@@ -1045,11 +1083,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 yankee = zuuluu === tangon;
                 entity = entity.BLUETOOTH;
                 entity = zuuluu === entity;
-                if(yankee) { _fun00020_ip = 109; continue _fun00019 }
+                if(yankee) { _fun00022_ip = 109; continue _fun00021 }
  106:
                 yankee = entity;
  109:
-                if(yankee) { _fun00020_ip = 115; continue _fun00019 }
+                if(yankee) { _fun00022_ip = 115; continue _fun00021 }
  112:
                 yankee = offset;
  115:
@@ -1071,18 +1109,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie[0] = tangon;
                 golfie[1] = offset;
                 zuuluu = function() {
-                    _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+                    _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
                         zuuluu = _closure1_slot14;
                         michal = zuuluu.getMultipleRoutesAvailable;
                         michal = michal.bind(zuuluu)();
-                        if(michal) { _fun00022_ip = 62; continue _fun00021 }
+                        if(michal) { _fun00024_ip = 62; continue _fun00023 }
  20:
                         zuuluu = _closure1_slot18;
                         michal = zuuluu.cancel;
                         michal = michal.bind(zuuluu)();
                         zuuluu = _closure2_slot0;
-                        if(zuuluu) { _fun00022_ip = 62; continue _fun00021 }
+                        if(zuuluu) { _fun00024_ip = 62; continue _fun00023 }
  44:
                         tangon = _closure2_slot3;
                         michal = _closure2_slot2;
@@ -1113,13 +1151,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = option.bind(verify)(michal, golfie);
                 michal = _closure1_slot1;
                 golfie = _closure1_slot3;
-                if(entity) { _fun00020_ip = 243; continue _fun00019 }
+                if(entity) { _fun00022_ip = 243; continue _fun00021 }
  234:
-                entity = 23;
+                entity = 24;
                 entity = golfie[entity];
-                _fun00020_ip = 250; continue _fun00019;
+                _fun00022_ip = 250; continue _fun00021;
  243:
-                oscard = 22;
+                oscard = 23;
                 entity = golfie[oscard];
  250:
                 michal = michal.bind(report)(entity);

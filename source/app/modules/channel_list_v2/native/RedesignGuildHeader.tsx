@@ -273,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = source[romeon];
             sizing = ctrled.bind(report)(yankee);
             kiloes = sizing.useAnimatedStyle;
-            yankee = function() { // Original name: p
+            yankee = function() { // Original name: _
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     michal = _closure2_slot1;
@@ -630,7 +630,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = undefined;
         zuuluu = report.bind(zuuluu)(tangon);
         zuuluu = zuuluu.colors;
-        zuuluu = zuuluu.BG_BASE_PRIMARY;
+        zuuluu = zuuluu.PANEL_BG;
         michal['backgroundColor'] = zuuluu;
         entity['headerWrapper'] = michal;
         return entity;

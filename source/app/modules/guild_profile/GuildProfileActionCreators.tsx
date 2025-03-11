@@ -269,8 +269,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = _closure1_slot6;
             michal = zuuluu.getIsUpdating;
             michal = michal.bind(zuuluu)(yankee);
-            if(michal) { _fun00006_ip = 208; continue _fun00005 }
- 38:
+            if(michal) { _fun00006_ip = 206; continue _fun00005 }
+ 36:
             zuuluu = _closure1_slot1;
             verify = _closure1_slot2;
             michal = 5;
@@ -362,18 +362,123 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             entity = michal.bind(zuuluu)(entity);
-            _fun00006_ip = 229; continue _fun00005;
- 208:
+            _fun00006_ip = 227; continue _fun00005;
+ 206:
             michal = global;
             tangon = michal.Promise;
             zuuluu = tangon.resolve;
             michal = null;
             entity = zuuluu.bind(tangon)(michal);
- 229:
+ 227:
             return entity;
         }
     };
     zuuluu['saveGuildProfile'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: setGuildProfileVisibility
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+ 0:
+            option = argFoo;
+            oscard = argBar;
+            var _closure2_slot0 = option;
+            zuuluu = _closure1_slot6;
+            michal = zuuluu.getIsUpdating;
+            michal = michal.bind(zuuluu)(option);
+            if(michal) { _fun00008_ip = 190; continue _fun00007 }
+ 36:
+            zuuluu = _closure1_slot1;
+            golfie = _closure1_slot2;
+            michal = 5;
+            michal = golfie[michal];
+            tangon = undefined;
+            verify = zuuluu.bind(tangon)(michal);
+            zuuluu = verify.dispatch;
+            michal = {};
+            offset = 'GUILD_PROFILE_UPDATE_VISIBILITY';
+            michal['type'] = offset;
+            michal['guildId'] = option;
+            michal['visibility'] = oscard;
+            michal = zuuluu.bind(verify)(michal);
+            zuuluu = _closure1_slot0;
+            michal = 6;
+            michal = golfie[michal];
+            michal = zuuluu.bind(tangon)(michal);
+            tangon = michal.HTTP;
+            zuuluu = tangon.put;
+            michal = {};
+            golfie = _closure1_slot9;
+            report = golfie.GUILD_PROFILE_VISIBILITY;
+            report = report.bind(golfie)(option);
+            michal['url'] = report;
+            report = {};
+            report['visibility'] = oscard;
+            michal['body'] = report;
+            report = false;
+            michal['rejectWithError'] = report;
+            tangon = zuuluu.bind(tangon)(michal);
+            zuuluu = tangon.then;
+            michal = function(argFoo) {
+                entity = argFoo;
+                entity = entity.body;
+                entity = entity.visibility;
+                tangon = _closure1_slot1;
+                zuuluu = _closure1_slot2;
+                michal = 5;
+                zuuluu = zuuluu[michal];
+                michal = undefined;
+                tangon = tangon.bind(michal)(zuuluu);
+                zuuluu = tangon.dispatch;
+                michal = {};
+                report = 'GUILD_PROFILE_UPDATE_VISIBILITY_SUCCESS';
+                michal['type'] = report;
+                report = _closure2_slot0;
+                michal['guildId'] = report;
+                michal['visibility'] = entity;
+                michal = zuuluu.bind(tangon)(michal);
+                return entity;
+            };
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = zuuluu.catch;
+            entity = function(argFoo) {
+                zuuluu = _closure1_slot0;
+                report = _closure1_slot2;
+                entity = 8;
+                entity = report[entity];
+                tangon = undefined;
+                entity = zuuluu.bind(tangon)(entity);
+                oscard = entity.APIError;
+                entity = oscard.prototype;
+                zuuluu = Object.create(entity, {constructor: {value: oscard}});
+                golfie = argFoo;
+                option = zuuluu;
+                entity = new option[oscard](golfie, oscard);
+                entity = entity instanceof Object ? entity : zuuluu;
+                zuuluu = _closure1_slot1;
+                michal = 5;
+                michal = report[michal];
+                tangon = zuuluu.bind(tangon)(michal);
+                zuuluu = tangon.dispatch;
+                michal = {};
+                report = 'GUILD_PROFILE_UPDATE_VISIBILITY_FAILURE';
+                michal['type'] = report;
+                report = _closure2_slot0;
+                michal['guildId'] = report;
+                michal['error'] = entity;
+                michal = zuuluu.bind(tangon)(michal);
+                throw entity;
+            };
+            entity = michal.bind(zuuluu)(entity);
+            _fun00008_ip = 211; continue _fun00007;
+ 190:
+            michal = global;
+            tangon = michal.Promise;
+            zuuluu = tangon.resolve;
+            michal = null;
+            entity = zuuluu.bind(tangon)(michal);
+ 211:
+            return entity;
+        }
+    };
+    zuuluu['setGuildProfileVisibility'] = tangon;
     tangon = function() { // Original name: fetchGuildTopGames
         entity = undefined;
         tangon = _closure1_slot10;

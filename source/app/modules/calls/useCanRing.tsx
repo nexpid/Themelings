@@ -159,66 +159,66 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = null;
             backup = zuuluu == michal;
             foxtra = undefined;
-            if(backup) { _fun00002_ip = 239; continue _fun00001 }
- 234:
+            if(backup) { _fun00002_ip = 247; continue _fun00001 }
+ 242:
             foxtra = michal.guild_id;
- 239:
+ 247:
             report['guildId'] = foxtra;
             report['location'] = romeon;
             report = verify.bind(yankee)(report);
             report = report.enabled;
             verify = zuuluu == michal;
             offset = undefined;
-            if(verify) { _fun00002_ip = 271; continue _fun00001 }
- 266:
+            if(verify) { _fun00002_ip = 279; continue _fun00001 }
+ 274:
             offset = michal.type;
- 271:
+ 279:
             michal = _closure1_slot9;
             michal = michal.GUILD_VOICE;
             michal = offset === michal;
             zuuluu = zuuluu != offset;
-            if(!zuuluu) { _fun00002_ip = 312; continue _fun00001 }
- 292:
+            if(!zuuluu) { _fun00002_ip = 320; continue _fun00001 }
+ 300:
             option = _closure1_slot10;
             verify = option.CALLABLE;
             option = verify.has;
             zuuluu = option.bind(verify)(offset);
- 312:
-            if(!entity) { _fun00002_ip = 318; continue _fun00001 }
- 315:
+ 320:
+            if(!entity) { _fun00002_ip = 326; continue _fun00001 }
+ 323:
             entity = !golfie;
- 318:
-            if(!entity) { _fun00002_ip = 330; continue _fun00001 }
- 321:
+ 326:
+            if(!entity) { _fun00002_ip = 338; continue _fun00001 }
+ 329:
             golfie = oscard.bot;
             entity = !golfie;
- 330:
-            if(!entity) { _fun00002_ip = 342; continue _fun00001 }
- 333:
+ 338:
+            if(!entity) { _fun00002_ip = 350; continue _fun00001 }
+ 341:
             golfie = oscard.system;
             entity = !golfie;
- 342:
-            if(!entity) { _fun00002_ip = 354; continue _fun00001 }
- 345:
+ 350:
+            if(!entity) { _fun00002_ip = 362; continue _fun00001 }
+ 353:
             oscard = oscard.isProvisional;
             entity = !oscard;
- 354:
-            if(!entity) { _fun00002_ip = 378; continue _fun00001 }
- 357:
-            if(!michal) { _fun00002_ip = 363; continue _fun00001 }
- 360:
+ 362:
+            if(!entity) { _fun00002_ip = 386; continue _fun00001 }
+ 365:
+            if(!michal) { _fun00002_ip = 371; continue _fun00001 }
+ 368:
             michal = report;
- 363:
-            if(!michal) { _fun00002_ip = 369; continue _fun00001 }
- 366:
+ 371:
+            if(!michal) { _fun00002_ip = 377; continue _fun00001 }
+ 374:
             michal = tangon;
- 369:
-            if(michal) { _fun00002_ip = 375; continue _fun00001 }
- 372:
+ 377:
+            if(michal) { _fun00002_ip = 383; continue _fun00001 }
+ 380:
             michal = zuuluu;
- 375:
+ 383:
             entity = michal;
- 378:
+ 386:
             return entity;
         }
     };
