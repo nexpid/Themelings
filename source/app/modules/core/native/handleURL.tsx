@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 1188; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 1186; continue _fun00001 }
  13:
                     tangon = michal.url;
                     foxtra = michal.source;
@@ -54,12 +54,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = report.bind(oscard)(zuuluu);
  145:
                     romeon = null;
-                    if(!(romeon != tangon)) { _fun00002_ip = 1173; continue _fun00001 }
+                    if(!(romeon != tangon)) { _fun00002_ip = 1171; continue _fun00001 }
  154:
                     report = tangon.startsWith;
                     zuuluu = 'discordwidget:///';
                     zuuluu = report.bind(tangon)(zuuluu);
-                    if(zuuluu) { _fun00002_ip = 738; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 736; continue _fun00001 }
  177:
                     zuuluu = michal.URL;
                     report = zuuluu.prototype;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return michal;
  255:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 735; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 733; continue _fun00001 }
  264:
                     report = michal.url;
                     golfie = _closure1_slot0;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  424:
                     zuuluu = romeon == foxtra;
  428:
-                    if(zuuluu) { _fun00002_ip = 671; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 669; continue _fun00001 }
  434:
                     verify = _closure1_slot1;
                     offset = _closure1_slot2;
@@ -178,8 +178,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['link_type'] = foxtra;
                     foxtra = romeon != sizing;
                     romeon = null;
-                    if(!foxtra) { _fun00002_ip = 655; continue _fun00001 }
- 614:
+                    if(!foxtra) { _fun00002_ip = 653; continue _fun00001 }
+ 612:
                     foxtra = {};
                     kiloes = _closure1_slot0;
                     output = _closure1_slot2;
@@ -190,12 +190,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     backup = backup.bind(kiloes)(sizing);
                     foxtra['fingerprint'] = backup;
                     romeon = foxtra;
- 655:
+ 653:
                     sequen = zuuluu;
                     vacuum = romeon;
                     romeon = copyDataProperties(sequen, vacuum);
                     zuuluu = offset.bind(yankee)(verify, zuuluu);
- 671:
+ 669:
                     offset = _closure1_slot1;
                     verify = _closure1_slot2;
                     zuuluu = 11;
@@ -210,17 +210,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = {};
                     zuuluu['payload'] = golfie;
                     zuuluu = report.bind(oscard)(zuuluu);
-                    _fun00002_ip = 1173; continue _fun00001;
- 735:
+                    _fun00002_ip = 1171; continue _fun00001;
+ 733:
                     return michal;
- 738:
+ 736:
                     zuuluu = tangon.split;
                     michal = 'voice/';
                     michal = zuuluu.bind(tangon)(michal);
                     tangon = michal.length;
                     zuuluu = 2;
-                    if(!(zuuluu === tangon)) { _fun00002_ip = 1183; continue _fun00001 }
- 769:
+                    if(!(zuuluu === tangon)) { _fun00002_ip = 1181; continue _fun00001 }
+ 767:
                     tangon = 1;
                     oscard = michal[tangon];
                     report = oscard.split;
@@ -228,27 +228,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = report.bind(oscard)(michal);
                     oscard = michal.length;
                     report = 0;
-                    if(!(report !== oscard)) { _fun00002_ip = 1178; continue _fun00001 }
- 804:
+                    if(!(report !== oscard)) { _fun00002_ip = 1176; continue _fun00001 }
+ 802:
                     golfie = michal[report];
                     oscard = 'user';
-                    if(!(oscard !== golfie)) { _fun00002_ip = 1173; continue _fun00001 }
- 819:
+                    if(!(oscard !== golfie)) { _fun00002_ip = 1171; continue _fun00001 }
+ 817:
                     golfie = michal[report];
                     oscard = 'invite';
-                    if(!(oscard !== golfie)) { _fun00002_ip = 1101; continue _fun00001 }
- 834:
+                    if(!(oscard !== golfie)) { _fun00002_ip = 1099; continue _fun00001 }
+ 832:
                     golfie = michal[report];
                     oscard = 'wave';
-                    if(!(oscard !== golfie)) { _fun00002_ip = 1027; continue _fun00001 }
- 849:
+                    if(!(oscard !== golfie)) { _fun00002_ip = 1025; continue _fun00001 }
+ 847:
                     golfie = michal[report];
                     oscard = 'join';
-                    if(!(oscard !== golfie)) { _fun00002_ip = 950; continue _fun00001 }
- 861:
+                    if(!(oscard !== golfie)) { _fun00002_ip = 948; continue _fun00001 }
+ 859:
                     oscard = michal.length;
-                    if(!(zuuluu === oscard)) { _fun00002_ip = 1173; continue _fun00001 }
- 873:
+                    if(!(zuuluu === oscard)) { _fun00002_ip = 1171; continue _fun00001 }
+ 871:
                     yankee = michal[report];
                     offset = michal[tangon];
                     golfie = _closure1_slot0;
@@ -269,7 +269,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = oscard.bind(golfie)(report);
                     report = undefined;
                     return report;
- 950:
+ 948:
                     yankee = michal[tangon];
                     offset = michal[zuuluu];
                     golfie = _closure1_slot0;
@@ -288,8 +288,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify['channelId'] = offset;
                     report['payload'] = verify;
                     report = oscard.bind(golfie)(report);
-                    _fun00002_ip = 1173; continue _fun00001;
- 1027:
+                    _fun00002_ip = 1171; continue _fun00001;
+ 1025:
                     yankee = michal[tangon];
                     offset = michal[zuuluu];
                     golfie = _closure1_slot0;
@@ -308,8 +308,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify['channelId'] = offset;
                     report['payload'] = verify;
                     report = oscard.bind(golfie)(report);
-                    _fun00002_ip = 1173; continue _fun00001;
- 1101:
+                    _fun00002_ip = 1171; continue _fun00001;
+ 1099:
                     golfie = michal[tangon];
                     oscard = michal[zuuluu];
                     tangon = _closure1_slot0;
@@ -328,16 +328,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report['channelId'] = oscard;
                     michal['payload'] = report;
                     michal = zuuluu.bind(tangon)(michal);
- 1173:
+ 1171:
                     michal = undefined;
                     return michal;
- 1178:
+ 1176:
                     michal = undefined;
                     return michal;
- 1183:
+ 1181:
                     michal = undefined;
                     return michal;
- 1188:
+ 1186:
                     return entity;
                 }
             };

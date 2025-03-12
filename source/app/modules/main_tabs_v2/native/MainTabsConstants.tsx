@@ -26,8 +26,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['FRIENDS'] = entity;
     entity = 'icymi';
     michal['ICYMI'] = entity;
-    entity = 'discovery';
-    michal['DISCOVERY'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

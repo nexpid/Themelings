@@ -12,7 +12,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         tangon = 'getIsContextlessActivitiesExperimentEnabled';
         entity['location'] = tangon;
         entity = michal.bind(zuuluu)(entity);
-        entity = entity.enabled;
+        entity = entity.enabledOnMobile;
         return entity;
     };
     var _closure1_slot4 = tangon;
@@ -20,8 +20,8 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     verify = entity.Object;
     option = verify.defineProperty;
     report = {};
-    romeon = true;
-    report['value'] = romeon;
+    entity = true;
+    report['value'] = entity;
     entity = '__esModule';
     entity = option.bind(verify)(zuuluu, entity, report);
     entity = 0;
@@ -39,18 +39,19 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     verify = oscard.bind(entity)(report);
     option = verify.createExperiment;
     report = {'kind': 'user', 'id': '2024-11_activities_contextless', 'label': 'Contextless Activities Experiment'};
-    yankee = {};
-    foxtra = false;
-    yankee['enabled'] = foxtra;
+    yankee = {'enabledOnDesktop': false, 'enabledOnMobile': false};
     report['defaultConfig'] = yankee;
     offset = offset.CONNECTION_OPEN;
     report['commonTriggerPoint'] = offset;
-    yankee = {'id': 1, 'label': 'Enable contextless activities'};
-    offset = {};
-    offset['enabled'] = romeon;
+    yankee = {'id': 1, 'label': 'Enable contextless activities on desktop only'};
+    offset = {'enabledOnDesktop': true, 'enabledOnMobile': false};
     yankee['config'] = offset;
-    offset = new Array(1);
+    offset = new Array(2);
     offset[0] = yankee;
+    yankee = {'id': 2, 'label': 'Enable contextless activities on desktop and mobile'};
+    romeon = {'enabledOnDesktop': true, 'enabledOnMobile': true};
+    yankee['config'] = romeon;
+    offset[1] = yankee;
     report['treatments'] = offset;
     report = option.bind(verify)(report);
     var _closure1_slot3 = report;
@@ -65,32 +66,27 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zuuluu = argFoo;
-            report = _closure1_slot3;
-            tangon = report.useExperiment;
-            entity = {};
-            oscard = 'useIsContextlessActivitiesExperimentEnabled';
-            entity['location'] = oscard;
-            entity = tangon.bind(report)(entity);
-            entity = entity.enabled;
-            if(!entity) { _fun00002_ip = 45; continue _fun00001 }
- 39:
+            entity = _closure1_slot4;
+            oscard = undefined;
+            entity = entity.bind(oscard)();
+            if(!entity) { _fun00002_ip = 25; continue _fun00001 }
+ 19:
             tangon = null;
             entity = tangon != zuuluu;
- 45:
-            if(!entity) { _fun00002_ip = 97; continue _fun00001 }
- 48:
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
+ 25:
+            if(!entity) { _fun00002_ip = 75; continue _fun00001 }
+ 28:
+            report = _closure1_slot0;
+            golfie = _closure1_slot1;
             tangon = 3;
-            report = report[tangon];
-            tangon = undefined;
-            report = oscard.bind(tangon)(report);
+            tangon = golfie[tangon];
+            report = report.bind(oscard)(tangon);
             tangon = report.hasFlag;
             zuuluu = zuuluu.flags;
             michal = _closure1_slot2;
             michal = michal.CONTEXTLESS_ACTIVITY;
             entity = tangon.bind(report)(zuuluu, michal);
- 97:
+ 75:
             return entity;
         }
     };

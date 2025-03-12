@@ -306,7 +306,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     };
     tangon['short'] = golfie;
     var _closure1_slot14 = tangon;
-    tangon = 28;
+    tangon = 27;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -559,7 +559,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             };
             tangon = oscard.bind(report)(tangon);
             var _closure3_slot0 = tangon;
-            tangon = function() {
+            zuuluu = function() {
                 entity = undefined;
                 tangon = _closure3_slot0;
                 zuuluu = tangon.apply;
@@ -569,33 +569,8 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                 entity = zuuluu.bind(tangon)(entity, michal);
                 return entity;
             };
-            michal['tabLongPress'] = tangon;
+            michal['tabLongPress'] = zuuluu;
             entity['you'] = michal;
-            michal = {};
-            zuuluu = function() { // Original name: tabPress
-                report = _closure1_slot1;
-                tangon = _closure1_slot2;
-                entity = 10;
-                zuuluu = tangon[entity];
-                entity = undefined;
-                golfie = report.bind(entity)(zuuluu);
-                oscard = golfie.track;
-                zuuluu = _closure1_slot11;
-                report = zuuluu.REDESIGN_NAV_BAR_CLICKED;
-                zuuluu = {};
-                option = 'Discovery';
-                zuuluu['tab'] = option;
-                zuuluu = oscard.bind(golfie)(report, zuuluu);
-                zuuluu = _closure1_slot0;
-                michal = 27;
-                michal = tangon[michal];
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.handleGlobalDiscoveryTabPress;
-                michal = michal.bind(zuuluu)();
-                return entity;
-            };
-            michal['tabPress'] = zuuluu;
-            entity['discovery'] = michal;
             return entity;
         };
         entity = zuuluu.bind(tangon)(entity, michal);

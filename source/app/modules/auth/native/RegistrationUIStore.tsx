@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     zuuluu['updateRegistrationOptions'] = tangon;
-    michal = function() { // Original name: resetRegistration
+    tangon = function() { // Original name: resetRegistration
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 1;
@@ -117,6 +117,25 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zuuluu['resetRegistration'] = michal;
+    zuuluu['resetRegistration'] = tangon;
+    michal = function() { // Original name: doesRegistrationHaveIdentityType
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            michal = _closure1_slot2;
+            entity = michal.getState;
+            entity = entity.bind(michal)();
+            michal = entity.registrationOptions;
+            entity = michal.email;
+            zuuluu = null;
+            entity = zuuluu != entity;
+            if(entity) { _fun00002_ip = 48; continue _fun00001 }
+ 38:
+            michal = michal.phone;
+            entity = zuuluu != michal;
+ 48:
+            return entity;
+        }
+    };
+    zuuluu['doesRegistrationHaveIdentityType'] = michal;
     return entity;
 })();

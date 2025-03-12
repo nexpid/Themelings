@@ -700,28 +700,56 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = null;
                 zuuluu = tangon != report;
  39:
-                if(!zuuluu) { _fun00026_ip = 126; continue _fun00025 }
- 42:
-                zuuluu = global;
-                report = zuuluu.Array;
+                if(!zuuluu) { _fun00026_ip = 248; continue _fun00025 }
+ 45:
+                oscard = global;
+                report = oscard.Array;
                 tangon = report.isArray;
                 zuuluu = entity.content;
                 zuuluu = tangon.bind(report)(zuuluu);
-                if(zuuluu) { _fun00026_ip = 110; continue _fun00025 }
- 68:
+                if(zuuluu) { _fun00026_ip = 232; continue _fun00025 }
+ 74:
+                zuuluu = entity.content;
+                tangon = 'string';
+                zuuluu = typeof zuuluu;
+                if(!(tangon !== zuuluu)) { _fun00026_ip = 190; continue _fun00025 }
+ 90:
+                report = _closure1_slot1;
+                tangon = _closure1_slot2;
+                zuuluu = 6;
+                tangon = tangon[zuuluu];
+                zuuluu = undefined;
+                report = report.bind(zuuluu)(tangon);
+                tangon = report.captureMessage;
+                yankee = entity.type;
+                zuuluu = entity.content;
+                option = oscard.Object;
+                golfie = option.keys;
+                romeon = golfie.bind(option)(entity);
+                oscard = oscard.HermesInternal;
+                verify = oscard.concat;
+                output = 'AST node type:';
+                kiloes = ' with content typeof ';
+                backup = typeof zuuluu;
+                foxtra = '. Keys ';
+                sizing = yankee;
+                zuuluu = output[verify](sizing, kiloes, backup, foxtra, romeon, yankee);
+                zuuluu = tangon.bind(report)(zuuluu);
+                _fun00026_ip = 248; continue _fun00025;
+ 190:
                 oscard = entity.content;
                 report = oscard.replace;
                 tangon = /\n/g;
                 zuuluu = ' ';
                 zuuluu = report.bind(oscard)(tangon, zuuluu);
                 entity['content'] = zuuluu;
-                _fun00026_ip = 126; continue _fun00025;
- 110:
+                _fun00026_ip = 248; continue _fun00025;
+ 232:
                 zuuluu = _closure1_slot13;
                 michal = entity.content;
                 entity = undefined;
                 entity = zuuluu.bind(entity)(michal);
- 126:
+ 248:
                 entity = undefined;
                 return entity;
             }
@@ -766,7 +794,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = new sizing[offset](kiloes, backup);
     oscard = oscard instanceof Object ? oscard : verify;
     var _closure1_slot5 = oscard;
-    oscard = 6;
+    oscard = 7;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
     golfie = option.fileFinishedImporting;

@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(tangon)(entity);
             entity = 'No text for action type';
             entity = michal.bind(tangon)(zuuluu, entity);
-            if(!(tangon !== result)) { _fun00004_ip = 705; continue _fun00003 }
+            if(!(tangon !== result)) { _fun00004_ip = 707; continue _fun00003 }
  132:
             michal = result.hasFeature;
             entity = _closure1_slot7;
@@ -226,8 +226,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = {};
             verify = sequen.text;
             oscard['style'] = verify;
-            backup = _closure1_slot8;
-            foxtra = _closure1_slot3;
+            foxtra = _closure1_slot8;
+            romeon = _closure1_slot3;
             verify = {};
             offset = sequen.headerContainer;
             verify['style'] = offset;
@@ -275,28 +275,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes['children'] = echoed;
             kiloes = output.bind(tangon)(sizing, kiloes);
             verify['children'] = kiloes;
-            foxtra = backup.bind(tangon)(foxtra, verify);
+            romeon = foxtra.bind(tangon)(romeon, verify);
             verify = new Array(2);
-            verify[0] = foxtra;
-            foxtra = result.approximateMemberCount;
+            verify[0] = romeon;
+            romeon = result.approximateMemberCount;
             offset = null;
-            if(!(tangon !== foxtra)) { _fun00004_ip = 675; continue _fun00003 }
+            if(!(tangon !== romeon)) { _fun00004_ip = 677; continue _fun00003 }
  562:
             foxtra = _closure1_slot8;
-            kiloes = _closure1_slot0;
+            sizing = _closure1_slot0;
             echoed = _closure1_slot2;
             yankee = echoed[yankee];
-            yankee = kiloes.bind(tangon)(yankee);
+            yankee = sizing.bind(tangon)(yankee);
             romeon = yankee.Text;
             yankee = {'variant': 'text-xs/medium', 'color': 'channels-default'};
-            backup = 19;
-            sizing = echoed[backup];
-            sizing = kiloes.bind(tangon)(sizing);
-            output = sizing.intl;
+            kiloes = 19;
+            kiloes = echoed[kiloes];
+            kiloes = sizing.bind(tangon)(kiloes);
+            output = kiloes.intl;
             sizing = output.format;
+            kiloes = _closure1_slot1;
+            backup = 20;
             backup = echoed[backup];
             backup = kiloes.bind(tangon)(backup);
-            backup = backup.t;
             kiloes = backup.5JmNgo;
             backup = {};
             result = result.approximateMemberCount;
@@ -304,7 +305,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = sizing.bind(output)(kiloes, backup);
             yankee['children'] = backup;
             offset = foxtra.bind(tangon)(romeon, yankee);
- 675:
+ 677:
             verify[1] = offset;
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
@@ -312,7 +313,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 705:
+ 707:
             entity = null;
             return entity;
         }
@@ -452,7 +453,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['headerAndIconContainer'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot11 = tangon;
-    tangon = 20;
+    tangon = 21;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

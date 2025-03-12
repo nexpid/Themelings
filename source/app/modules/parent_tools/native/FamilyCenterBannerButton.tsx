@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = _closure1_slot7;
         offset = _closure1_slot1;
         yankee = _closure1_slot2;
-        verify = 16;
+        verify = 17;
         entity = yankee[verify];
         michal = offset.bind(tangon)(entity);
         entity = {'shrink': true, 'style': null, 'cornerRadius': 4};
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = _closure1_slot7;
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            entity = 17;
+            entity = 18;
             entity = zuuluu[entity];
             zuuluu = undefined;
             entity = michal.bind(zuuluu)(entity);
@@ -89,18 +89,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = oscard.bind(entity)(report);
     report = report.jsx;
     var _closure1_slot7 = report;
-    report = 15;
+    report = 16;
     report = golfie[report];
-    offset = oscard.bind(entity)(report);
-    verify = offset.createStyles;
-    option = {};
-    report = {'height': 50, 'width': '100%', 'marginTop': 16};
-    option['button'] = report;
-    report = 18;
-    yankee = {'width': 18, 'height': 18, 'marginRight': 6};
-    option['art'] = yankee;
-    option = verify.bind(offset)(option);
-    var _closure1_slot8 = option;
+    verify = oscard.bind(entity)(report);
+    option = verify.createStyles;
+    report = {};
+    offset = {'height': 50, 'width': '100%', 'marginTop': 16};
+    report['button'] = offset;
+    offset = {'width': 18, 'height': 18, 'marginRight': 6};
+    report['art'] = offset;
+    report = option.bind(verify)(report);
+    var _closure1_slot8 = report;
+    report = 19;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -119,42 +119,43 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.useHasMaxConnections;
             michal = entity.bind(michal)();
             entity = null;
-            if(michal) { _fun00002_ip = 130; continue _fun00001 }
+            if(michal) { _fun00002_ip = 132; continue _fun00001 }
  40:
             tangon = _closure1_slot7;
             zuuluu = _closure1_slot9;
             michal = {};
-            verify = _closure1_slot0;
+            option = _closure1_slot0;
             offset = _closure1_slot2;
-            oscard = 6;
-            golfie = offset[oscard];
-            golfie = verify.bind(report)(golfie);
+            golfie = 6;
+            golfie = offset[golfie];
+            golfie = option.bind(report)(golfie);
             option = golfie.intl;
             golfie = option.string;
+            verify = _closure1_slot1;
+            oscard = 7;
             oscard = offset[oscard];
             oscard = verify.bind(report)(oscard);
-            oscard = oscard.t;
             oscard = oscard.Ta9byc;
             oscard = golfie.bind(option)(oscard);
             michal['text'] = oscard;
             oscard = function() { // Original name: onPress
                 zuuluu = _closure1_slot1;
                 tangon = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 michal = tangon[entity];
                 entity = undefined;
                 golfie = zuuluu.bind(entity)(michal);
                 report = golfie.pushLazy;
                 option = _closure1_slot0;
-                michal = 9;
+                michal = 10;
                 michal = tangon[michal];
                 verify = option.bind(entity)(michal);
-                michal = 8;
+                michal = 9;
                 option = tangon[michal];
                 michal = tangon.paths;
                 michal = verify.bind(entity)(option, michal);
                 michal = report.bind(golfie)(michal);
-                michal = 10;
+                michal = 11;
                 michal = tangon[michal];
                 report = zuuluu.bind(entity)(michal);
                 tangon = report.track;
@@ -169,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal['onPress'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 130:
+ 132:
             return entity;
         }
     };
@@ -185,20 +186,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(tangon)(entity);
             entity = michal.useHasMaxConnections;
             entity = entity.bind(michal)();
-            if(entity) { _fun00004_ip = 141; continue _fun00003 }
+            if(entity) { _fun00004_ip = 143; continue _fun00003 }
  40:
             entity = function(argFoo) { // Original name: handleQrCodeScanSucess
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     michal = _closure1_slot1;
                     entity = _closure1_slot2;
-                    tangon = 7;
+                    tangon = 8;
                     tangon = entity[tangon];
                     report = undefined;
                     oscard = michal.bind(report)(tangon);
                     tangon = oscard.pop;
                     tangon = tangon.bind(oscard)();
-                    verify = 11;
+                    verify = 12;
                     entity = entity[verify];
                     tangon = michal.bind(report)(entity);
                     michal = tangon.toURLSafe;
@@ -236,7 +237,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  153:
                     tangon = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    zuuluu = 12;
+                    zuuluu = 13;
                     zuuluu = golfie[zuuluu];
                     report = tangon.bind(report)(zuuluu);
                     tangon = report.handleFamilyCenterQRCodeScan;
@@ -253,23 +254,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot7;
             michal = _closure1_slot9;
             entity = {};
-            verify = _closure1_slot0;
+            option = _closure1_slot0;
             offset = _closure1_slot2;
-            oscard = 6;
-            golfie = offset[oscard];
-            golfie = verify.bind(tangon)(golfie);
+            golfie = 6;
+            golfie = offset[golfie];
+            golfie = option.bind(tangon)(golfie);
             option = golfie.intl;
             golfie = option.string;
+            verify = _closure1_slot1;
+            oscard = 7;
             oscard = offset[oscard];
             oscard = verify.bind(tangon)(oscard);
-            oscard = oscard.t;
             oscard = oscard.z4a9HB;
             oscard = golfie.bind(option)(oscard);
             entity['text'] = oscard;
             report = function() { // Original name: onPress
                 tangon = _closure1_slot1;
                 report = _closure1_slot2;
-                entity = 10;
+                entity = 11;
                 zuuluu = report[entity];
                 entity = undefined;
                 option = tangon.bind(entity)(zuuluu);
@@ -281,7 +283,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify = verify.ScanQRCodeButton;
                 zuuluu['action'] = verify;
                 zuuluu = golfie.bind(option)(oscard, zuuluu);
-                zuuluu = 13;
+                zuuluu = 14;
                 zuuluu = report[zuuluu];
                 tangon = tangon.bind(entity)(zuuluu);
                 zuuluu = tangon.requestPermission;
@@ -297,16 +299,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  6:
                         tangon = _closure1_slot1;
                         entity = _closure1_slot2;
-                        zuuluu = 7;
+                        zuuluu = 8;
                         zuuluu = entity[zuuluu];
                         oscard = undefined;
                         tangon = tangon.bind(oscard)(zuuluu);
                         zuuluu = tangon.pushLazy;
                         report = _closure1_slot0;
-                        michal = 9;
+                        michal = 10;
                         michal = entity[michal];
                         report = report.bind(oscard)(michal);
-                        michal = 14;
+                        michal = 15;
                         michal = entity[michal];
                         entity = entity.paths;
                         michal = report.bind(oscard)(michal, entity);
@@ -327,7 +329,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['onPress'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 141:
+ 143:
             entity = null;
             return entity;
         }

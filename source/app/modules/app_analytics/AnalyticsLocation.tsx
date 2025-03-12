@@ -555,6 +555,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['PREMIUM_MARKETING_PAGE_BANNER'] = entity;
     entity = 'activity bookmark';
     michal['ACTIVITY_BOOKMARK'] = entity;
+    entity = 'activity custom link';
+    michal['ACTIVITY_CUSTOM_LINK'] = entity;
     entity = 'activity bookmark launcher';
     michal['ACTIVITY_BOOKMARK_LAUNCHER'] = entity;
     entity = 'activity instance embed';
@@ -769,6 +771,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['GO_LIVE_MODAL_SETTINGS_SELECTION'] = entity;
     entity = 'app_dms_quick_launcher';
     michal['APP_DMS_QUICK_LAUNCHER'] = entity;
+    entity = 'app_dms_quick_launcher_frecency';
+    michal['APP_DMS_QUICK_LAUNCHER_FRECENCY'] = entity;
+    entity = 'app_dms_quick_launcher_recommendations';
+    michal['APP_DMS_QUICK_LAUNCHER_RECOMMENDATIONS'] = entity;
     entity = 'user settings voice and video';
     michal['USER_SETTINGS_VOICE_AND_VIDEO'] = entity;
     entity = 'user settings video tab';

@@ -1,10 +1,12 @@
 // app/modules/main_tabs_v2/native/settings/definitions/FamilyCenterSetting.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscard;
     entity = global;
     option = entity.Object;
     tangon = option.defineProperty;
@@ -26,17 +28,18 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = tangon.ROUTE;
     michal['type'] = tangon;
     tangon = function() { // Original name: title
-        report = _closure1_slot0;
-        oscard = _closure1_slot1;
-        entity = 2;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
+        zuuluu = _closure1_slot0;
+        oscard = _closure1_slot2;
+        michal = 2;
+        michal = oscard[michal];
+        report = undefined;
+        michal = zuuluu.bind(report)(michal);
         zuuluu = michal.intl;
         michal = zuuluu.string;
+        tangon = _closure1_slot1;
+        entity = 3;
         entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
+        entity = tangon.bind(report)(entity);
         entity = entity.RZqaJi;
         entity = michal.bind(zuuluu)(entity);
         return entity;
@@ -44,7 +47,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['title'] = tangon;
     tangon = null;
     michal['parent'] = tangon;
-    tangon = 3;
+    tangon = 4;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.GroupIcon;
@@ -54,8 +57,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['route'] = option;
     golfie = function() { // Original name: getComponent
         zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 4;
+        michal = _closure1_slot2;
+        entity = 5;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -64,7 +67,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     };
     tangon['getComponent'] = golfie;
     michal['screen'] = tangon;
-    tangon = 5;
+    tangon = 6;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

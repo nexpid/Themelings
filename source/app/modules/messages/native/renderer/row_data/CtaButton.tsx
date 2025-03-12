@@ -30,101 +30,109 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             golfie = argFoo;
             michal = argBaz;
-            verify = _closure1_slot0;
+            offset = _closure1_slot0;
             entity = _closure1_slot1;
             oscard = 1;
             tangon = entity[oscard];
             report = undefined;
-            offset = verify.bind(report)(tangon);
-            option = offset.getCtaButtonType;
+            verify = offset.bind(report)(tangon);
+            option = verify.getCtaButtonType;
             tangon = argBar;
-            option = option.bind(offset)(golfie, tangon);
-            tangon = 2;
-            tangon = entity[tangon];
-            offset = verify.bind(report)(tangon);
-            tangon = offset.isAgeVerified;
-            tangon = tangon.bind(offset)();
+            verify = option.bind(verify)(golfie, tangon);
+            option = 2;
+            tangon = entity[option];
+            yankee = offset.bind(report)(tangon);
+            tangon = yankee.isAgeVerified;
+            tangon = tangon.bind(yankee)();
+            option = entity[option];
+            yankee = offset.bind(report)(option);
+            option = yankee.shouldShowTiggerPawtect;
+            option = option.bind(yankee)();
             entity = entity[oscard];
-            entity = verify.bind(report)(entity);
+            entity = offset.bind(report)(entity);
             entity = entity.CtaButtonType;
             entity = entity.MARK_AS_FALSE_POSITIVE;
-            if(!(entity !== option)) { _fun00002_ip = 265; continue _fun00001 }
- 96:
-            verify = _closure1_slot0;
+            if(!(entity !== verify)) { _fun00002_ip = 289; continue _fun00001 }
+ 115:
+            offset = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[oscard];
-            entity = verify.bind(report)(entity);
+            entity = offset.bind(report)(entity);
             entity = entity.CtaButtonType;
             entity = entity.AGE_VERIFICATION_RETRY;
-            if(!(entity !== option)) { _fun00002_ip = 131; continue _fun00001 }
- 129:
+            if(!(entity !== verify)) { _fun00002_ip = 150; continue _fun00001 }
+ 148:
             return report;
- 131:
+ 150:
             entity = {};
-            yankee = _closure1_slot0;
-            romeon = _closure1_slot1;
-            option = 3;
-            verify = romeon[option];
-            verify = yankee.bind(report)(verify);
-            offset = verify.intl;
-            verify = offset.string;
-            option = romeon[option];
-            option = yankee.bind(report)(option);
-            option = option.t;
-            if(tangon) { _fun00002_ip = 193; continue _fun00001 }
- 180:
-            tangon = option.WiSJBA;
-            tangon = verify.bind(offset)(tangon);
-            _fun00002_ip = 204; continue _fun00001;
- 193:
-            option = option.+2/AhI;
-            tangon = verify.bind(offset)(option);
- 204:
+            romeon = _closure1_slot0;
+            foxtra = _closure1_slot1;
+            verify = 3;
+            offset = foxtra[verify];
+            offset = romeon.bind(report)(offset);
+            yankee = offset.intl;
+            offset = yankee.string;
+            verify = foxtra[verify];
+            verify = romeon.bind(report)(verify);
+            verify = verify.t;
+            if(tangon) { _fun00002_ip = 212; continue _fun00001 }
+ 199:
+            tangon = verify.WiSJBA;
+            tangon = offset.bind(yankee)(tangon);
+            _fun00002_ip = 223; continue _fun00001;
+ 212:
+            verify = verify.+2/AhI;
+            tangon = offset.bind(yankee)(verify);
+ 223:
             entity['text'] = tangon;
             tangon = michal.retryTextColor;
             entity['textColor'] = tangon;
             tangon = michal.retryBackgroundColor;
             entity['backgroundColor'] = tangon;
-            option = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[oscard];
-            tangon = option.bind(report)(tangon);
-            tangon = tangon.CtaButtonType;
-            tangon = tangon.AGE_VERIFICATION_RETRY;
+            tangon = undefined;
+            if(!option) { _fun00002_ip = 282; continue _fun00001 }
+ 253:
+            verify = _closure1_slot0;
+            option = _closure1_slot1;
+            option = option[oscard];
+            option = verify.bind(report)(option);
+            option = option.CtaButtonType;
+            tangon = option.AGE_VERIFICATION_RETRY;
+ 282:
             entity['callback'] = tangon;
             return entity;
- 265:
-            tangon = _closure1_slot2;
-            entity = tangon.canSubmitFpReport;
-            tangon = entity.bind(tangon)(golfie);
+ 289:
             entity = {};
             offset = _closure1_slot0;
             yankee = _closure1_slot1;
-            golfie = 3;
-            option = yankee[golfie];
+            tangon = 3;
+            option = yankee[tangon];
             option = offset.bind(report)(option);
             verify = option.intl;
             option = verify.string;
-            golfie = yankee[golfie];
-            golfie = offset.bind(report)(golfie);
-            golfie = golfie.t;
-            golfie = golfie.4q1ElZ;
-            golfie = option.bind(verify)(golfie);
-            entity['text'] = golfie;
-            golfie = michal.reportFpTextColor;
-            entity['textColor'] = golfie;
+            tangon = yankee[tangon];
+            tangon = offset.bind(report)(tangon);
+            tangon = tangon.t;
+            tangon = tangon.4q1ElZ;
+            tangon = option.bind(verify)(tangon);
+            entity['text'] = tangon;
+            tangon = michal.reportFpTextColor;
+            entity['textColor'] = tangon;
             michal = michal.reportFpBackgroundColor;
             entity['backgroundColor'] = michal;
+            tangon = _closure1_slot2;
+            michal = tangon.canSubmitFpReport;
+            tangon = michal.bind(tangon)(golfie);
             michal = undefined;
-            if(!tangon) { _fun00002_ip = 396; continue _fun00001 }
- 367:
+            if(!tangon) { _fun00002_ip = 420; continue _fun00001 }
+ 391:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
             zuuluu = zuuluu[oscard];
             zuuluu = tangon.bind(report)(zuuluu);
             zuuluu = zuuluu.CtaButtonType;
             michal = zuuluu.MARK_AS_FALSE_POSITIVE;
- 396:
+ 420:
             entity['callback'] = michal;
             return entity;
         }
@@ -135,101 +143,109 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             golfie = argFoo;
             michal = argBaz;
-            verify = _closure1_slot0;
+            offset = _closure1_slot0;
             entity = _closure1_slot1;
             oscard = 1;
             tangon = entity[oscard];
             report = undefined;
-            offset = verify.bind(report)(tangon);
-            option = offset.useCtaButtonType;
+            verify = offset.bind(report)(tangon);
+            option = verify.useCtaButtonType;
             tangon = argBar;
-            option = option.bind(offset)(golfie, tangon);
-            tangon = 2;
-            tangon = entity[tangon];
-            offset = verify.bind(report)(tangon);
-            tangon = offset.useIsAgeVerified;
-            tangon = tangon.bind(offset)();
+            verify = option.bind(verify)(golfie, tangon);
+            option = 2;
+            tangon = entity[option];
+            yankee = offset.bind(report)(tangon);
+            tangon = yankee.useIsAgeVerified;
+            tangon = tangon.bind(yankee)();
+            option = entity[option];
+            yankee = offset.bind(report)(option);
+            option = yankee.useShouldShowTiggerPawtect;
+            option = option.bind(yankee)();
             entity = entity[oscard];
-            entity = verify.bind(report)(entity);
+            entity = offset.bind(report)(entity);
             entity = entity.CtaButtonType;
             entity = entity.MARK_AS_FALSE_POSITIVE;
-            if(!(entity !== option)) { _fun00004_ip = 265; continue _fun00003 }
- 96:
-            verify = _closure1_slot0;
+            if(!(entity !== verify)) { _fun00004_ip = 289; continue _fun00003 }
+ 115:
+            offset = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[oscard];
-            entity = verify.bind(report)(entity);
+            entity = offset.bind(report)(entity);
             entity = entity.CtaButtonType;
             entity = entity.AGE_VERIFICATION_RETRY;
-            if(!(entity !== option)) { _fun00004_ip = 131; continue _fun00003 }
- 129:
+            if(!(entity !== verify)) { _fun00004_ip = 150; continue _fun00003 }
+ 148:
             return report;
- 131:
+ 150:
             entity = {};
-            yankee = _closure1_slot0;
-            romeon = _closure1_slot1;
-            option = 3;
-            verify = romeon[option];
-            verify = yankee.bind(report)(verify);
-            offset = verify.intl;
-            verify = offset.string;
-            option = romeon[option];
-            option = yankee.bind(report)(option);
-            option = option.t;
-            if(tangon) { _fun00004_ip = 193; continue _fun00003 }
- 180:
-            tangon = option.WiSJBA;
-            tangon = verify.bind(offset)(tangon);
-            _fun00004_ip = 204; continue _fun00003;
- 193:
-            option = option.+2/AhI;
-            tangon = verify.bind(offset)(option);
- 204:
+            romeon = _closure1_slot0;
+            foxtra = _closure1_slot1;
+            verify = 3;
+            offset = foxtra[verify];
+            offset = romeon.bind(report)(offset);
+            yankee = offset.intl;
+            offset = yankee.string;
+            verify = foxtra[verify];
+            verify = romeon.bind(report)(verify);
+            verify = verify.t;
+            if(tangon) { _fun00004_ip = 212; continue _fun00003 }
+ 199:
+            tangon = verify.WiSJBA;
+            tangon = offset.bind(yankee)(tangon);
+            _fun00004_ip = 223; continue _fun00003;
+ 212:
+            verify = verify.+2/AhI;
+            tangon = offset.bind(yankee)(verify);
+ 223:
             entity['text'] = tangon;
             tangon = michal.retryTextColor;
             entity['textColor'] = tangon;
             tangon = michal.retryBackgroundColor;
             entity['backgroundColor'] = tangon;
-            option = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[oscard];
-            tangon = option.bind(report)(tangon);
-            tangon = tangon.CtaButtonType;
-            tangon = tangon.AGE_VERIFICATION_RETRY;
+            tangon = undefined;
+            if(!option) { _fun00004_ip = 282; continue _fun00003 }
+ 253:
+            verify = _closure1_slot0;
+            option = _closure1_slot1;
+            option = option[oscard];
+            option = verify.bind(report)(option);
+            option = option.CtaButtonType;
+            tangon = option.AGE_VERIFICATION_RETRY;
+ 282:
             entity['callback'] = tangon;
             return entity;
- 265:
-            tangon = _closure1_slot2;
-            entity = tangon.canSubmitFpReport;
-            tangon = entity.bind(tangon)(golfie);
+ 289:
             entity = {};
             offset = _closure1_slot0;
             yankee = _closure1_slot1;
-            golfie = 3;
-            option = yankee[golfie];
+            tangon = 3;
+            option = yankee[tangon];
             option = offset.bind(report)(option);
             verify = option.intl;
             option = verify.string;
-            golfie = yankee[golfie];
-            golfie = offset.bind(report)(golfie);
-            golfie = golfie.t;
-            golfie = golfie.4q1ElZ;
-            golfie = option.bind(verify)(golfie);
-            entity['text'] = golfie;
-            golfie = michal.reportFpTextColor;
-            entity['textColor'] = golfie;
+            tangon = yankee[tangon];
+            tangon = offset.bind(report)(tangon);
+            tangon = tangon.t;
+            tangon = tangon.4q1ElZ;
+            tangon = option.bind(verify)(tangon);
+            entity['text'] = tangon;
+            tangon = michal.reportFpTextColor;
+            entity['textColor'] = tangon;
             michal = michal.reportFpBackgroundColor;
             entity['backgroundColor'] = michal;
+            tangon = _closure1_slot2;
+            michal = tangon.canSubmitFpReport;
+            tangon = michal.bind(tangon)(golfie);
             michal = undefined;
-            if(!tangon) { _fun00004_ip = 396; continue _fun00003 }
- 367:
+            if(!tangon) { _fun00004_ip = 420; continue _fun00003 }
+ 391:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
             zuuluu = zuuluu[oscard];
             zuuluu = tangon.bind(report)(zuuluu);
             zuuluu = zuuluu.CtaButtonType;
             michal = zuuluu.MARK_AS_FALSE_POSITIVE;
- 396:
+ 420:
             entity['callback'] = michal;
             return entity;
         }

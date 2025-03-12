@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = 1;
             zuuluu = report[zuuluu];
             report = tangon.bind(entity)(zuuluu);
-            tangon = report.shouldRenderAgeVerificationRetryCta;
+            tangon = report.isAgeVerificationMessageWithRetryCta;
             zuuluu = argBar;
             zuuluu = tangon.bind(report)(zuuluu, oscard);
             entity = undefined;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = 1;
             zuuluu = oscard[zuuluu];
             oscard = report.bind(entity)(zuuluu);
-            report = oscard.useRenderAgeVerificationRetryCta;
+            report = oscard.isAgeVerificationMessageWithRetryCta;
             zuuluu = argBar;
             zuuluu = report.bind(oscard)(zuuluu, golfie);
             if(tangon) { _fun00004_ip = 85; continue _fun00003 }

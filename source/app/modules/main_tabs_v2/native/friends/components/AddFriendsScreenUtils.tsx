@@ -1,4 +1,4 @@
-// app/modules/main_tabs_v2/native/friends/components/utils.tsx
+// app/modules/main_tabs_v2/native/friends/components/AddFriendsScreenUtils.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     golfie = argBaz;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  77: // try_start_0
                     option = _closure1_slot1;
                     yankee = _closure1_slot2;
-                    tangon = 5;
+                    tangon = 4;
                     tangon = yankee[tangon];
                     yankee = option.bind(verify)(tangon);
                     option = yankee.getDMChannel;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  137:
                     offset = _closure1_slot1;
                     yankee = _closure1_slot2;
-                    option = 8;
+                    option = 7;
                     option = yankee[option];
                     yankee = offset.bind(verify)(option);
                     offset = yankee.sendStickers;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  194:
                     offset = _closure1_slot1;
                     yankee = _closure1_slot2;
-                    option = 9;
+                    option = 8;
                     option = yankee[option];
                     romeon = offset.bind(verify)(option);
                     yankee = romeon.track;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  244:
                     option = _closure1_slot1;
                     offset = _closure1_slot2;
-                    golfie = 5;
+                    golfie = 4;
                     golfie = offset[golfie];
                     option = option.bind(verify)(golfie);
                     golfie = option.openPrivateChannel;
@@ -112,11 +112,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     CatchBlockStart(arg_register=4);
                     yankee = _closure1_slot0;
                     romeon = _closure1_slot2;
-                    report = 6;
+                    report = 5;
                     report = romeon[report];
                     golfie = yankee.bind(verify)(report);
                     oscard = golfie.presentError;
-                    report = 7;
+                    report = 6;
                     option = romeon[report];
                     option = yankee.bind(verify)(option);
                     offset = option.intl;
@@ -135,11 +135,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     CatchBlockStart(arg_register=3);
                     option = _closure1_slot0;
                     offset = _closure1_slot2;
-                    zuuluu = 6;
+                    zuuluu = 5;
                     zuuluu = offset[zuuluu];
                     report = option.bind(verify)(zuuluu);
                     tangon = report.presentError;
-                    zuuluu = 7;
+                    zuuluu = 6;
                     oscard = offset[zuuluu];
                     oscard = option.bind(verify)(oscard);
                     golfie = oscard.intl;
@@ -202,38 +202,43 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/friends/components/utils.tsx';
+    tangon = 'modules/main_tabs_v2/native/friends/components/AddFriendsScreenUtils.tsx';
     tangon = report.bind(oscard)(tangon);
     tangon = function(argFoo) { // Original name: dismissIncomingRequest
+        entity = argFoo;
+        golfie = entity.userId;
+        oscard = entity.applicationId;
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
         entity = 3;
         michal = michal[entity];
         entity = undefined;
-        report = zuuluu.bind(entity)(michal);
-        tangon = report.cancelFriendRequest;
-        michal = argFoo;
-        zuuluu = michal.id;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.cancelFriendRequest;
         michal = {};
-        oscard = _closure1_slot6;
-        oscard = oscard.FRIENDS_ADD_FRIENDS_MODAL;
-        michal['location'] = oscard;
-        michal = tangon.bind(report)(zuuluu, michal);
+        michal['userId'] = golfie;
+        michal['applicationId'] = oscard;
+        report = _closure1_slot6;
+        report = report.FRIENDS_ADD_FRIENDS_MODAL;
+        michal['location'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
     zuuluu['dismissIncomingRequest'] = tangon;
     tangon = function(argFoo) { // Original name: acceptIncomingRequest
+        entity = argFoo;
+        golfie = entity.userId;
+        oscard = entity.applicationId;
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 4;
+        entity = 3;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
         zuuluu = tangon.maybeConfirmFriendRequestAccept;
         michal = {};
-        oscard = argFoo;
-        oscard = oscard.id;
-        michal['userId'] = oscard;
+        michal['userId'] = golfie;
+        michal['applicationId'] = oscard;
         report = _closure1_slot6;
         report = report.FRIENDS_ADD_FRIENDS_MODAL;
         michal['location'] = report;
@@ -255,7 +260,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) { // Original name: addContactSuggestion
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 3;
+        entity = 9;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);

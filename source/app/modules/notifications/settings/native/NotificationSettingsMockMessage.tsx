@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.notificationSetting;
             michal = _closure1_slot6;
             michal = michal.ALL_MESSAGES;
-            if(!(zuuluu !== michal)) { _fun00002_ip = 520; continue _fun00001 }
+            if(!(zuuluu !== michal)) { _fun00002_ip = 516; continue _fun00001 }
  326:
             report = _closure1_slot7;
             zuuluu = _closure1_slot4;
@@ -220,8 +220,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = foxtra.bind(tangon)(romeon, option);
             michal['children'] = option;
             kiloes = report.bind(tangon)(zuuluu, michal);
-            _fun00002_ip = 620; continue _fun00001;
- 520:
+            _fun00002_ip = 612; continue _fun00001;
+ 516:
             report = _closure1_slot7;
             backup = _closure1_slot0;
             output = _closure1_slot2;
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = romeon.bind(foxtra)(option);
             michal['children'] = option;
             kiloes = report.bind(tangon)(zuuluu, michal);
- 620:
+ 612:
             report = _closure1_slot3;
             zuuluu = report.useEffect;
             michal = new Array(2);

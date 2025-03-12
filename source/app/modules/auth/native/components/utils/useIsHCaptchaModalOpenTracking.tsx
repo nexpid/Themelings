@@ -22,11 +22,16 @@ export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
     tangon = 1;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    tangon = tangon.doesRegistrationHaveIdentityType;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
     golfie = tangon.RegisterTransitionSteps;
-    var _closure1_slot3 = golfie;
+    var _closure1_slot4 = golfie;
     tangon = tangon.RegistrationTransitionActionTypes;
-    var _closure1_slot4 = tangon;
-    tangon = 5;
+    var _closure1_slot5 = tangon;
+    tangon = 6;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -37,7 +42,7 @@ export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
         tangon = report.useContext;
         oscard = _closure1_slot0;
         zuuluu = _closure1_slot1;
-        entity = 2;
+        entity = 3;
         zuuluu = zuuluu[entity];
         entity = undefined;
         zuuluu = oscard.bind(entity)(zuuluu);
@@ -52,7 +57,7 @@ export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
  0:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot1;
-                entity = 3;
+                entity = 4;
                 michal = michal[entity];
                 entity = undefined;
                 zuuluu = zuuluu.bind(entity)(michal);
@@ -76,25 +81,30 @@ export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
  0:
                         zuuluu = _closure1_slot0;
                         michal = _closure1_slot1;
-                        entity = 4;
+                        entity = 5;
                         michal = michal[entity];
                         entity = undefined;
                         report = zuuluu.bind(entity)(michal);
                         zuuluu = report.isModalOpen;
                         michal = 'hcaptcha';
                         michal = zuuluu.bind(report)(michal);
-                        if(!michal) { _fun00004_ip = 89; continue _fun00003 }
+                        if(!michal) { _fun00004_ip = 53; continue _fun00003 }
  45:
+                        zuuluu = _closure1_slot3;
+                        michal = zuuluu.bind(entity)();
+ 53:
+                        if(!michal) { _fun00004_ip = 100; continue _fun00003 }
+ 56:
                         zuuluu = _closure2_slot0;
                         michal = {};
-                        report = _closure1_slot3;
+                        report = _closure1_slot4;
                         report = report.CAPTCHA;
                         michal['step'] = report;
-                        tangon = _closure1_slot4;
+                        tangon = _closure1_slot5;
                         tangon = tangon.VIEWED;
                         michal['actionType'] = tangon;
                         michal = zuuluu.bind(entity)(michal);
- 89:
+ 100:
                         return entity;
                     }
                 };

@@ -293,34 +293,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = 1;
             offset = yankee.bind(tangon)(backup, offset);
             backup = offset[ctrled];
-            offset = foxtra != michal;
-            if(!offset) { _fun00002_ip = 633; continue _fun00001 }
- 607:
-            yankee = michal.isGuildVoice;
-            yankee = yankee.bind(michal)();
-            if(yankee) { _fun00002_ip = 630; continue _fun00001 }
- 620:
-            source = michal.isPrivate;
-            yankee = source.bind(michal)();
- 630:
-            offset = yankee;
- 633:
-            source = _closure1_slot1;
-            vacuum = _closure1_slot2;
-            yankee = 18;
-            yankee = vacuum[yankee];
-            source = source.bind(tangon)(yankee);
+            yankee = _closure1_slot1;
+            source = _closure1_slot2;
+            offset = 18;
+            offset = source[offset];
+            source = yankee.bind(tangon)(offset);
+            offset = foxtra == michal;
             yankee = undefined;
-            if(!offset) { _fun00002_ip = 663; continue _fun00001 }
- 658:
+            if(offset) { _fun00002_ip = 634; continue _fun00001 }
+ 629:
             yankee = michal.id;
- 663:
+ 634:
             vacuum = foxtra == entity;
             offset = undefined;
-            if(vacuum) { _fun00002_ip = 677; continue _fun00001 }
- 672:
+            if(vacuum) { _fun00002_ip = 648; continue _fun00001 }
+ 643:
             offset = entity.id;
- 677:
+ 648:
             source = source.bind(tangon)(yankee, offset);
             yankee = _closure1_slot1;
             vacuum = _closure1_slot2;
@@ -331,114 +320,87 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['activity'] = source;
             vacuum = foxtra == michal;
             source = undefined;
-            if(vacuum) { _fun00002_ip = 724; continue _fun00001 }
- 719:
+            if(vacuum) { _fun00002_ip = 695; continue _fun00001 }
+ 690:
             source = michal.guild_id;
- 724:
+ 695:
             offset['guildId'] = source;
-            source = yankee.bind(tangon)(offset);
-            if(!(foxtra != michal)) { _fun00002_ip = 753; continue _fun00001 }
- 737:
+            yankee = yankee.bind(tangon)(offset);
+            if(!(foxtra != michal)) { _fun00002_ip = 721; continue _fun00001 }
+ 708:
             offset = michal.isPrivate;
             offset = offset.bind(michal)();
-            yankee = source;
-            if(!offset) { _fun00002_ip = 757; continue _fun00001 }
- 753:
+            if(!offset) { _fun00002_ip = 725; continue _fun00001 }
+ 721:
             yankee = _closure1_slot13;
- 757:
-            config = _closure1_slot0;
-            offset = _closure1_slot2;
-            record = 11;
-            vacuum = offset[record];
-            vacuum = config.bind(tangon)(vacuum);
-            sequen = vacuum.intl;
-            vacuum = sequen.string;
-            offset = offset[record];
-            offset = config.bind(tangon)(offset);
+ 725:
+            vacuum = _closure1_slot0;
+            sequen = _closure1_slot2;
+            offset = 14;
+            source = sequen[offset];
+            config = vacuum.bind(tangon)(source);
+            source = config.useEmbeddedActivityLaunchability;
+            source = source.bind(config)(output);
+            offset = sequen[offset];
+            offset = vacuum.bind(tangon)(offset);
+            offset = offset.EmbeddedActivityLaunchability;
+            offset = offset.CAN_LAUNCH;
+            if(!(source !== offset)) { _fun00002_ip = 841; continue _fun00001 }
+ 781:
+            sequen = _closure1_slot0;
+            config = _closure1_slot2;
+            offset = 11;
+            source = config[offset];
+            source = sequen.bind(tangon)(source);
+            vacuum = source.intl;
+            source = vacuum.string;
+            offset = config[offset];
+            offset = sequen.bind(tangon)(offset);
             offset = offset.t;
             offset = offset.RscU7O;
-            offset = vacuum.bind(sequen)(offset);
-            vacuum = foxtra == michal;
-            sequen = undefined;
-            if(vacuum) { _fun00002_ip = 826; continue _fun00001 }
- 821:
-            sequen = michal.type;
- 826:
-            config = _closure1_slot0;
-            cntext = _closure1_slot2;
-            vacuum = 14;
-            vacuum = cntext[vacuum];
-            vacuum = config.bind(tangon)(vacuum);
-            vacuum = vacuum.ChannelTypes;
-            vacuum = vacuum.GUILD_VOICE;
-            if(!(sequen !== vacuum)) { _fun00002_ip = 956; continue _fun00001 }
- 862:
-            vacuum = foxtra != michal;
-            if(!vacuum) { _fun00002_ip = 879; continue _fun00001 }
- 869:
-            sequen = michal.isPrivate;
-            vacuum = sequen.bind(michal)();
- 879:
-            if(!vacuum) { _fun00002_ip = 1074; continue _fun00001 }
- 885:
-            source = source.length;
-            vacuum = source > ctrled;
-            source = null;
-            if(vacuum) { _fun00002_ip = 951; continue _fun00001 }
- 899:
-            cntext = _closure1_slot0;
-            vacuum = _closure1_slot2;
-            sequen = vacuum[record];
-            sequen = cntext.bind(tangon)(sequen);
-            config = sequen.intl;
-            sequen = config.string;
-            vacuum = vacuum[record];
-            vacuum = cntext.bind(tangon)(vacuum);
-            vacuum = vacuum.t;
-            vacuum = vacuum.RscU7O;
-            source = sequen.bind(config)(vacuum);
- 951:
-            offset = source;
-            _fun00002_ip = 1074; continue _fun00001;
- 956:
+            offset = source.bind(vacuum)(offset);
+            _fun00002_ip = 965; continue _fun00001;
+ 841:
             source = yankee.length;
-            if(!(!(source > ctrled))) { _fun00002_ip = 1019; continue _fun00001 }
- 965:
+            if(!(!(source > ctrled))) { _fun00002_ip = 907; continue _fun00001 }
+ 850:
             sequen = _closure1_slot0;
-            source = _closure1_slot2;
-            ctrled = source[record];
+            config = _closure1_slot2;
+            source = 11;
+            ctrled = config[source];
             ctrled = sequen.bind(tangon)(ctrled);
             vacuum = ctrled.intl;
             ctrled = vacuum.string;
-            source = source[record];
+            source = config[source];
             source = sequen.bind(tangon)(source);
             source = source.t;
-            source = source.RscU7O;
+            source = source.cnBQPD;
             source = ctrled.bind(vacuum)(source);
-            _fun00002_ip = 1071; continue _fun00001;
- 1019:
+            _fun00002_ip = 962; continue _fun00001;
+ 907:
             config = _closure1_slot0;
-            ctrled = _closure1_slot2;
-            vacuum = ctrled[record];
+            record = _closure1_slot2;
+            ctrled = 11;
+            vacuum = record[ctrled];
             vacuum = config.bind(tangon)(vacuum);
             sequen = vacuum.intl;
             vacuum = sequen.string;
-            ctrled = ctrled[record];
+            ctrled = record[ctrled];
             ctrled = config.bind(tangon)(ctrled);
             ctrled = ctrled.t;
             ctrled = ctrled.VJlc0d;
             source = vacuum.bind(sequen)(ctrled);
- 1071:
+ 962:
             offset = source;
- 1074:
-            if(!(foxtra != entity)) { _fun00002_ip = 1176; continue _fun00001 }
- 1078:
-            if(update) { _fun00002_ip = 1176; continue _fun00001 }
- 1081:
-            if(echoed) { _fun00002_ip = 1176; continue _fun00001 }
- 1084:
-            if(!(foxtra != michal)) { _fun00002_ip = 1176; continue _fun00001 }
- 1088:
+ 965:
+            if(!(foxtra != entity)) { _fun00002_ip = 1067; continue _fun00001 }
+ 969:
+            if(update) { _fun00002_ip = 1067; continue _fun00001 }
+ 972:
+            if(echoed) { _fun00002_ip = 1067; continue _fun00001 }
+ 975:
+            if(!(foxtra != michal)) { _fun00002_ip = 1067; continue _fun00001 }
+ 979:
             echoed = _closure1_slot0;
             update = _closure1_slot2;
             michal = 15;
@@ -449,8 +411,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = _closure1_slot10;
             entity = entity.EMBEDDED;
             entity = echoed.bind(update)(michal, entity);
-            if(!entity) { _fun00002_ip = 1176; continue _fun00001 }
- 1138:
+            if(!entity) { _fun00002_ip = 1067; continue _fun00001 }
+ 1029:
             michal = _closure1_slot0;
             entity = _closure1_slot2;
             entity = entity[zuuluu];
@@ -458,11 +420,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.getAssetImage;
             entity = 1024;
             backup = michal.bind(zuuluu)(result, backup, entity);
-            _fun00002_ip = 1182; continue _fun00001;
- 1176:
+            _fun00002_ip = 1073; continue _fun00001;
+ 1067:
             yankee = _closure1_slot13;
             backup = undefined;
- 1182:
+ 1073:
             zuuluu = _closure1_slot11;
             michal = _closure1_slot1;
             echoed = _closure1_slot2;
@@ -470,9 +432,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = echoed[entity];
             michal = michal.bind(tangon)(entity);
             entity = {};
-            status = entity;
-            target = romeon;
-            romeon = copyDataProperties(status, target);
+            target = entity;
+            papara = romeon;
+            romeon = copyDataProperties(target, papara);
             romeon = 'applicationId';
             entity[romeon] = result;
             romeon = 'channelId';
@@ -648,35 +610,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = 1;
             verify = kiloes.bind(output)(sizing, verify);
             result = verify[source];
-            if(!(yankee != michal)) { _fun00008_ip = 542; continue _fun00007 }
+            if(!(yankee != michal)) { _fun00008_ip = 512; continue _fun00007 }
  494:
-            verify = michal.isGuildVoice;
-            verify = verify.bind(michal)();
-            if(verify) { _fun00008_ip = 520; continue _fun00007 }
- 507:
-            verify = michal.isPrivate;
-            verify = verify.bind(michal)();
-            if(!verify) { _fun00008_ip = 542; continue _fun00007 }
- 520:
-            if(!(yankee != michal)) { _fun00008_ip = 542; continue _fun00007 }
- 524:
             kiloes = yankee == entity;
             verify = undefined;
-            if(kiloes) { _fun00008_ip = 538; continue _fun00007 }
- 533:
+            if(kiloes) { _fun00008_ip = 508; continue _fun00007 }
+ 503:
             verify = entity.id;
- 538:
-            if(!(yankee == verify)) { _fun00008_ip = 548; continue _fun00007 }
- 542:
-            sizing = new Array(0);
-            _fun00008_ip = 608; continue _fun00007;
- 548:
-            kiloes = _closure1_slot0;
+ 508:
+            if(!(yankee == verify)) { _fun00008_ip = 518; continue _fun00007 }
+ 512:
+            kiloes = new Array(0);
+            _fun00008_ip = 578; continue _fun00007;
+ 518:
+            sizing = _closure1_slot0;
             update = _closure1_slot2;
             verify = 13;
             verify = update[verify];
-            update = kiloes.bind(output)(verify);
-            kiloes = update.getEmbeddedActivityParticipantAvatarUris;
+            update = sizing.bind(output)(verify);
+            sizing = update.getEmbeddedActivityParticipantAvatarUris;
             verify = {};
             ctrled = michal.id;
             verify['channelId'] = ctrled;
@@ -684,109 +636,74 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['guildId'] = ctrled;
             ctrled = entity.id;
             verify['applicationId'] = ctrled;
-            sizing = kiloes.bind(update)(verify);
- 608:
-            if(!(yankee != michal)) { _fun00008_ip = 628; continue _fun00007 }
- 612:
-            verify = michal.isPrivate;
-            verify = verify.bind(michal)();
-            kiloes = sizing;
-            if(!verify) { _fun00008_ip = 632; continue _fun00007 }
- 628:
-            kiloes = new Array(0);
- 632:
-            vacuum = _closure1_slot0;
-            verify = _closure1_slot2;
-            config = 11;
-            update = verify[config];
-            update = vacuum.bind(output)(update);
-            ctrled = update.intl;
-            update = ctrled.string;
-            verify = verify[config];
-            verify = vacuum.bind(output)(verify);
+            kiloes = sizing.bind(update)(verify);
+ 578:
+            update = _closure1_slot0;
+            ctrled = _closure1_slot2;
+            verify = 14;
+            sizing = ctrled[verify];
+            vacuum = update.bind(output)(sizing);
+            sizing = vacuum.getEmbeddedActivityLaunchabilityForChannel;
+            sizing = sizing.bind(vacuum)(foxtra);
+            verify = ctrled[verify];
+            verify = update.bind(output)(verify);
+            verify = verify.EmbeddedActivityLaunchability;
+            verify = verify.CAN_LAUNCH;
+            if(!(sizing !== verify)) { _fun00008_ip = 696; continue _fun00007 }
+ 634:
+            ctrled = _closure1_slot0;
+            vacuum = _closure1_slot2;
+            verify = 11;
+            sizing = vacuum[verify];
+            sizing = ctrled.bind(output)(sizing);
+            update = sizing.intl;
+            sizing = update.string;
+            verify = vacuum[verify];
+            verify = ctrled.bind(output)(verify);
             verify = verify.t;
-            verify = verify.RscU7O;
-            verify = update.bind(ctrled)(verify);
-            update = yankee == michal;
-            ctrled = undefined;
-            if(update) { _fun00008_ip = 701; continue _fun00007 }
+            verify = verify.JeK1Wl;
+            verify = sizing.bind(update)(verify);
+            _fun00008_ip = 820; continue _fun00007;
  696:
-            ctrled = michal.type;
- 701:
+            sizing = kiloes.length;
+            if(!(!(sizing > source))) { _fun00008_ip = 762; continue _fun00007 }
+ 705:
             vacuum = _closure1_slot0;
             sequen = _closure1_slot2;
-            update = 14;
-            update = sequen[update];
-            update = vacuum.bind(output)(update);
-            update = update.ChannelTypes;
-            update = update.GUILD_VOICE;
-            if(!(ctrled !== update)) { _fun00008_ip = 831; continue _fun00007 }
- 737:
-            update = yankee != michal;
-            if(!update) { _fun00008_ip = 754; continue _fun00007 }
- 744:
-            ctrled = michal.isPrivate;
-            update = ctrled.bind(michal)();
- 754:
-            if(!update) { _fun00008_ip = 949; continue _fun00007 }
- 760:
-            sizing = sizing.length;
-            update = sizing > source;
-            sizing = null;
-            if(update) { _fun00008_ip = 826; continue _fun00007 }
- 774:
-            sequen = _closure1_slot0;
-            update = _closure1_slot2;
-            ctrled = update[config];
-            ctrled = sequen.bind(output)(ctrled);
-            vacuum = ctrled.intl;
-            ctrled = vacuum.string;
-            update = update[config];
-            update = sequen.bind(output)(update);
-            update = update.t;
-            update = update.RscU7O;
-            sizing = ctrled.bind(vacuum)(update);
- 826:
-            verify = sizing;
-            _fun00008_ip = 949; continue _fun00007;
- 831:
-            sizing = kiloes.length;
-            if(!(!(sizing > source))) { _fun00008_ip = 894; continue _fun00007 }
- 840:
-            vacuum = _closure1_slot0;
-            sizing = _closure1_slot2;
-            update = sizing[config];
+            sizing = 11;
+            update = sequen[sizing];
             update = vacuum.bind(output)(update);
             ctrled = update.intl;
             update = ctrled.string;
-            sizing = sizing[config];
+            sizing = sequen[sizing];
             sizing = vacuum.bind(output)(sizing);
             sizing = sizing.t;
-            sizing = sizing.RscU7O;
+            sizing = sizing.cnBQPD;
             sizing = update.bind(ctrled)(sizing);
-            _fun00008_ip = 946; continue _fun00007;
- 894:
+            _fun00008_ip = 817; continue _fun00007;
+ 762:
             sequen = _closure1_slot0;
-            update = _closure1_slot2;
-            ctrled = update[config];
+            config = _closure1_slot2;
+            update = 11;
+            ctrled = config[update];
             ctrled = sequen.bind(output)(ctrled);
             vacuum = ctrled.intl;
             ctrled = vacuum.string;
-            update = update[config];
+            update = config[update];
             update = sequen.bind(output)(update);
             update = update.t;
             update = update.VJlc0d;
             sizing = ctrled.bind(vacuum)(update);
- 946:
+ 817:
             verify = sizing;
- 949:
+ 820:
             update = _closure1_slot7;
             sizing = update.didFetchingApplicationFail;
             sizing = sizing.bind(update)(backup);
-            if(sizing) { _fun00008_ip = 1259; continue _fun00007 }
- 970:
-            if(!(yankee != michal)) { _fun00008_ip = 1259; continue _fun00007 }
- 977:
+            if(sizing) { _fun00008_ip = 1130; continue _fun00007 }
+ 841:
+            if(!(yankee != michal)) { _fun00008_ip = 1130; continue _fun00007 }
+ 848:
             sizing = _closure1_slot0;
             update = _closure1_slot2;
             michal = 15;
@@ -795,28 +712,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = update.hasFlag;
             ctrled = yankee == entity;
             michal = undefined;
-            if(ctrled) { _fun00008_ip = 1017; continue _fun00007 }
- 1012:
+            if(ctrled) { _fun00008_ip = 888; continue _fun00007 }
+ 883:
             michal = entity.flags;
- 1017:
+ 888:
             ctrled = yankee != michal;
             source = 0;
-            if(!ctrled) { _fun00008_ip = 1029; continue _fun00007 }
- 1026:
+            if(!ctrled) { _fun00008_ip = 900; continue _fun00007 }
+ 897:
             source = michal;
- 1029:
+ 900:
             michal = _closure1_slot10;
             michal = michal.EMBEDDED;
             michal = sizing.bind(update)(source, michal);
-            if(!michal) { _fun00008_ip = 1259; continue _fun00007 }
- 1051:
+            if(!michal) { _fun00008_ip = 1130; continue _fun00007 }
+ 922:
             sizing = _closure1_slot7;
             michal = sizing.isFetchingApplication;
             michal = michal.bind(sizing)(backup);
-            if(michal) { _fun00008_ip = 1259; continue _fun00007 }
- 1072:
-            if(!(yankee != entity)) { _fun00008_ip = 1259; continue _fun00007 }
- 1079:
+            if(michal) { _fun00008_ip = 1130; continue _fun00007 }
+ 943:
+            if(!(yankee != entity)) { _fun00008_ip = 1130; continue _fun00007 }
+ 950:
             entity = {};
             papara = entity;
             cntext = offset;
@@ -856,8 +773,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity[michal] = report;
             michal = 'customId';
             entity[michal] = tangon;
-            _fun00008_ip = 1396; continue _fun00007;
- 1259:
+            _fun00008_ip = 1267; continue _fun00007;
+ 1130:
             michal = {};
             papara = michal;
             cntext = offset;
@@ -890,7 +807,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = 'customId';
             michal[zuuluu] = tangon;
             entity = michal;
- 1396:
+ 1267:
             return entity;
         }
     };

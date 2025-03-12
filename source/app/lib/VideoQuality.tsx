@@ -1211,10 +1211,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = new output[entity](sizing);
                 report = entity instanceof Object ? entity : report;
                 entity = 'sender';
-                if(!(entity !== tangon)) { _fun00040_ip = 427; continue _fun00039 }
+                if(!(entity !== tangon)) { _fun00040_ip = 485; continue _fun00039 }
  64:
                 entity = 'streamer';
-                if(!(entity !== tangon)) { _fun00040_ip = 427; continue _fun00039 }
+                if(!(entity !== tangon)) { _fun00040_ip = 485; continue _fun00039 }
  77:
                 entity = michal.getDecoderUsageStats;
                 tangon = entity.bind(michal)();
@@ -1292,29 +1292,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 option = offset;
  360:
                 entity['codec_vp9_decode_duration_sec'] = option;
+                offset = verify.get;
+                foxtra = _closure1_slot0;
+                option = _closure1_slot2;
+                option = option[romeon];
+                option = foxtra.bind(yankee)(option);
+                option = option.CodecTypes;
+                option = option.AV1;
+                offset = offset.bind(verify)(option);
+                foxtra = golfie != offset;
+                option = 0;
+                if(!foxtra) { _fun00040_ip = 418; continue _fun00039 }
+ 415:
+                option = offset;
+ 418:
+                entity['codec_av1_decode_duration_sec'] = option;
                 option = verify.get;
                 offset = _closure1_slot0;
                 oscard = _closure1_slot2;
                 oscard = oscard[romeon];
                 oscard = offset.bind(yankee)(oscard);
                 oscard = oscard.CodecTypes;
-                oscard = oscard.AV1;
+                oscard = oscard.UNKNOWN;
                 oscard = option.bind(verify)(oscard);
                 golfie = golfie != oscard;
                 tangon = 0;
-                if(!golfie) { _fun00040_ip = 418; continue _fun00039 }
- 415:
+                if(!golfie) { _fun00040_ip = 476; continue _fun00039 }
+ 473:
                 tangon = oscard;
- 418:
-                entity['codec_av1_decode_duration_sec'] = tangon;
+ 476:
+                entity['codec_unknown_decode_duration_sec'] = tangon;
                 return entity;
- 427:
+ 485:
                 entity = michal.getEncoderUsageStats;
                 oscard = entity.bind(michal)();
                 entity = oscard.size;
                 michal = 0;
-                if(!(entity > michal)) { _fun00040_ip = 496; continue _fun00039 }
- 450:
+                if(!(entity > michal)) { _fun00040_ip = 554; continue _fun00039 }
+ 508:
                 entity = oscard.keys;
                 kiloes = entity.bind(oscard)();
                 tangon = new Array(0);
@@ -1326,7 +1341,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = entity[michal];
                 entity = oscard.get;
                 report = entity.bind(oscard)(tangon);
- 496:
+ 554:
                 entity = {};
                 entity['codec_asymmetric_session'] = zuuluu;
                 oscard = report.get;
@@ -1343,10 +1358,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 offset = tangon != golfie;
                 oscard = report;
                 report = 0;
-                if(!offset) { _fun00040_ip = 567; continue _fun00039 }
- 564:
+                if(!offset) { _fun00040_ip = 625; continue _fun00039 }
+ 622:
                 report = golfie;
- 567:
+ 625:
                 entity['codec_h264_encode_duration_sec'] = report;
                 golfie = oscard.get;
                 offset = _closure1_slot0;
@@ -1358,10 +1373,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = golfie.bind(oscard)(report);
                 offset = tangon != golfie;
                 report = 0;
-                if(!offset) { _fun00040_ip = 625; continue _fun00039 }
- 622:
+                if(!offset) { _fun00040_ip = 683; continue _fun00039 }
+ 680:
                 report = golfie;
- 625:
+ 683:
                 entity['codec_h265_encode_duration_sec'] = report;
                 golfie = oscard.get;
                 offset = _closure1_slot0;
@@ -1373,10 +1388,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = golfie.bind(oscard)(report);
                 offset = tangon != golfie;
                 report = 0;
-                if(!offset) { _fun00040_ip = 683; continue _fun00039 }
- 680:
+                if(!offset) { _fun00040_ip = 741; continue _fun00039 }
+ 738:
                 report = golfie;
- 683:
+ 741:
                 entity['codec_vp8_encode_duration_sec'] = report;
                 golfie = oscard.get;
                 offset = _closure1_slot0;
@@ -1388,26 +1403,41 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = golfie.bind(oscard)(report);
                 offset = tangon != golfie;
                 report = 0;
-                if(!offset) { _fun00040_ip = 741; continue _fun00039 }
- 738:
+                if(!offset) { _fun00040_ip = 799; continue _fun00039 }
+ 796:
                 report = golfie;
- 741:
+ 799:
                 entity['codec_vp9_encode_duration_sec'] = report;
+                golfie = oscard.get;
+                offset = _closure1_slot0;
+                report = _closure1_slot2;
+                report = report[verify];
+                report = offset.bind(option)(report);
+                report = report.CodecTypes;
+                report = report.AV1;
+                golfie = golfie.bind(oscard)(report);
+                offset = tangon != golfie;
+                report = 0;
+                if(!offset) { _fun00040_ip = 857; continue _fun00039 }
+ 854:
+                report = golfie;
+ 857:
+                entity['codec_av1_encode_duration_sec'] = report;
                 report = oscard.get;
                 golfie = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 zuuluu = zuuluu[verify];
                 zuuluu = golfie.bind(option)(zuuluu);
                 zuuluu = zuuluu.CodecTypes;
-                zuuluu = zuuluu.AV1;
+                zuuluu = zuuluu.UNKNOWN;
                 zuuluu = report.bind(oscard)(zuuluu);
                 tangon = tangon != zuuluu;
                 michal = 0;
-                if(!tangon) { _fun00040_ip = 799; continue _fun00039 }
- 796:
+                if(!tangon) { _fun00040_ip = 915; continue _fun00039 }
+ 912:
                 michal = zuuluu;
- 799:
-                entity['codec_av1_encode_duration_sec'] = michal;
+ 915:
+                entity['codec_unknown_encode_duration_sec'] = michal;
                 return entity;
             }
         };

@@ -14,6 +14,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['DISMISSED_IN_GAME_MESSAGE_NUX'] = tangon;
     entity = 'DISMISSED_IN_GAME_MESSAGE_NUX';
     michal[tangon] = entity;
+    tangon = 2;
+    michal['DISMISSED_CURRENT_CHAT_WALLPAPER'] = tangon;
+    entity = 'DISMISSED_CURRENT_CHAT_WALLPAPER';
+    michal[tangon] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

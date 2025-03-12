@@ -62,11 +62,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 70: // try_end0
-            _fun00004_ip = 74; continue _fun00003;
- 72: // catch_target0
+ 72: // try_end0
+            _fun00004_ip = 76; continue _fun00003;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -268,14 +268,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['source'] = echoed;
             entity['poster'] = result;
             entity['muted'] = output;
-            if(backup) { _fun00006_ip = 289; continue _fun00005 }
- 280:
-            if(!kiloes) { _fun00006_ip = 286; continue _fun00005 }
- 283:
+            if(backup) { _fun00006_ip = 291; continue _fun00005 }
+ 282:
+            if(!kiloes) { _fun00006_ip = 288; continue _fun00005 }
+ 285:
             kiloes = !sizing;
- 286:
+ 288:
             backup = kiloes;
- 289:
+ 291:
             entity['paused'] = backup;
             entity['posterResizeMode'] = foxtra;
             entity['resizeMode'] = romeon;
@@ -293,10 +293,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = null;
             golfie = report == oscard;
             report = undefined;
-            if(golfie) { _fun00006_ip = 369; continue _fun00005 }
- 364:
+            if(golfie) { _fun00006_ip = 371; continue _fun00005 }
+ 366:
             report = oscard.props;
- 369:
+ 371:
             record = entity;
             config = report;
             report = copyDataProperties(record, config);
