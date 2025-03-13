@@ -184,10 +184,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = null;
                 zuuluu = entity == michal;
                 entity = undefined;
-                if(zuuluu) { _fun00010_ip = 30; continue _fun00009 }
+                if(zuuluu) { _fun00010_ip = 31; continue _fun00009 }
  25:
                 entity = michal.query;
- 30:
+ 31:
                 return entity;
             }
         };
@@ -353,11 +353,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = _closure1_slot9;
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(tangon);
-            if(zuuluu) { _fun00020_ip = 34; continue _fun00019 }
- 30:
+            if(zuuluu) { _fun00020_ip = 35; continue _fun00019 }
+ 31:
             zuuluu = false;
             return zuuluu;
- 34:
+ 35:
             zuuluu = _closure1_slot10;
             golfie = zuuluu.bind(entity)(tangon);
             zuuluu = _closure1_slot6;

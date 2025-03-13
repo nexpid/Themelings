@@ -1677,7 +1677,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 if(entity) { _fun00060_ip = 36; continue _fun00059 }
  30:
                 entity = new Array(0);
-                _fun00060_ip = 93; continue _fun00059;
+                _fun00060_ip = 94; continue _fun00059;
  36:
                 tangon = _closure1_slot1;
                 zuuluu = _closure1_slot2;
@@ -1694,7 +1694,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = true;
                 michal['fuzzy'] = report;
                 entity = zuuluu.bind(tangon)(michal);
- 93:
+ 94:
                 return entity;
             }
         };
@@ -1823,7 +1823,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 if(entity) { _fun00064_ip = 36; continue _fun00063 }
  30:
                 entity = new Array(0);
-                _fun00064_ip = 93; continue _fun00063;
+                _fun00064_ip = 94; continue _fun00063;
  36:
                 tangon = _closure1_slot1;
                 zuuluu = _closure1_slot2;
@@ -1840,7 +1840,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = true;
                 michal['fuzzy'] = report;
                 entity = zuuluu.bind(tangon)(michal);
- 93:
+ 94:
                 return entity;
             }
         };

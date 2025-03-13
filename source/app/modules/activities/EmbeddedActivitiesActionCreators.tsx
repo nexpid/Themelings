@@ -1536,7 +1536,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00014_ip = 320; continue _fun00013 }
+                    if(michal) { _fun00014_ip = 321; continue _fun00013 }
  10: // try_start_0
                     tangon = _closure1_slot1;
                     oscard = _closure1_slot2;
@@ -1566,13 +1566,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['oldFormErrors'] = option;
                     michal['rejectWithError'] = option;
                     michal = tangon.bind(oscard)(michal);
-                    SaveGenerator(address=132);
- 130:
+                    SaveGenerator(address=133);
+ 131:
                     return michal;
- 132:
+ 133:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00014_ip = 263; continue _fun00013 }
- 141:
+                    if(tangon) { _fun00014_ip = 264; continue _fun00013 }
+ 142:
                     tangon = michal.body;
                     oscard = tangon.applications;
                     option = oscard.map;
@@ -1605,11 +1605,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu['type'] = golfie;
                     zuuluu['applications'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
- 261: // try_end0
-                    _fun00014_ip = 315; continue _fun00013;
- 263:
+ 262: // try_end0
+                    _fun00014_ip = 316; continue _fun00013;
+ 264:
                     return michal;
- 266: // catch_target0
+ 267: // catch_target0
                     CatchBlockStart(arg_register=1);
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -1622,10 +1622,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = 'DEVELOPER_ACTIVITY_SHELF_FETCH_FAIL';
                     michal['type'] = report;
                     michal = zuuluu.bind(tangon)(michal);
- 315:
+ 316:
                     michal = undefined;
                     return michal;
- 320:
+ 321:
                     return entity;
                 }
             };
@@ -1651,7 +1651,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00016_ip = 332; continue _fun00015 }
+                    if(michal) { _fun00016_ip = 333; continue _fun00015 }
  10:
                     verify = argFoo;
                     offset = argBar;
@@ -1692,13 +1692,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = true;
                     michal['rejectWithError'] = option;
                     michal = tangon.bind(golfie)(michal);
-                    SaveGenerator(address=167);
- 165:
+                    SaveGenerator(address=168);
+ 166:
                     return michal;
- 167:
+ 168:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00016_ip = 242; continue _fun00015 }
- 173:
+                    if(tangon) { _fun00016_ip = 243; continue _fun00015 }
+ 174:
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
                     zuuluu = zuuluu[oscard];
@@ -1713,11 +1713,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = tangon.bind(report)(zuuluu);
                     zuuluu = michal.body;
                     zuuluu = zuuluu.attachment;
- 239: // try_end0
+ 240: // try_end0
                     return zuuluu;
- 242:
+ 243:
                     return michal;
- 245: // catch_target0
+ 246: // catch_target0
                     CatchBlockStart(arg_register=3);
                     report = _closure1_slot1;
                     oscard = _closure1_slot2;
@@ -1740,7 +1740,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = new backup[michal](foxtra, romeon);
                     michal = michal instanceof Object ? michal : zuuluu;
                     return michal;
- 332:
+ 333:
                     return entity;
                 }
             };

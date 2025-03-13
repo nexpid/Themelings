@@ -2360,14 +2360,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.bind(foxtra)();
             oscard = oscard.length;
             oscard = golfie === oscard;
-            if(!oscard) { _fun00040_ip = 489; continue _fun00039 }
- 475:
+            if(!oscard) { _fun00040_ip = 490; continue _fun00039 }
+ 476:
             golfie = _closure1_slot28;
             golfie = golfie.SEARCH;
             oscard = offset === golfie;
- 489:
-            if(!oscard) { _fun00040_ip = 554; continue _fun00039 }
- 492:
+ 490:
+            if(!oscard) { _fun00040_ip = 555; continue _fun00039 }
+ 493:
             romeon = _closure1_slot25;
             option = _closure1_slot1;
             record = _closure1_slot2;
@@ -2382,7 +2382,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['guildHistory'] = ctrled;
             golfie['visible'] = source;
             oscard = romeon.bind(tangon)(option, golfie);
- 554:
+ 555:
             report[1] = oscard;
             option = _closure1_slot25;
             golfie = _closure1_slot5;
@@ -2391,22 +2391,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['style'] = yankee;
             yankee = _closure1_slot28;
             yankee = yankee.SEARCH;
-            if(!(offset === yankee)) { _fun00040_ip = 598; continue _fun00039 }
- 592:
-            if(verify) { _fun00040_ip = 856; continue _fun00039 }
- 598:
+            if(!(offset === yankee)) { _fun00040_ip = 599; continue _fun00039 }
+ 593:
+            if(verify) { _fun00040_ip = 857; continue _fun00039 }
+ 599:
             verify = _closure1_slot28;
             verify = verify.SEARCH;
-            if(!(offset !== verify)) { _fun00040_ip = 745; continue _fun00039 }
- 615:
+            if(!(offset !== verify)) { _fun00040_ip = 746; continue _fun00039 }
+ 616:
             verify = _closure1_slot28;
             verify = verify.DEV_TOOLS;
-            if(!(offset !== verify)) { _fun00040_ip = 711; continue _fun00039 }
- 629:
+            if(!(offset !== verify)) { _fun00040_ip = 712; continue _fun00039 }
+ 630:
             verify = _closure1_slot28;
             verify = verify.MEMBERS;
-            if(!(offset !== verify)) { _fun00040_ip = 677; continue _fun00039 }
- 643:
+            if(!(offset !== verify)) { _fun00040_ip = 678; continue _fun00039 }
+ 644:
             yankee = _closure1_slot25;
             offset = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -2415,8 +2415,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.bind(tangon)(verify);
             verify = {};
             verify = yankee.bind(tangon)(offset, verify);
-            _fun00040_ip = 709; continue _fun00039;
- 677:
+            _fun00040_ip = 710; continue _fun00039;
+ 678:
             romeon = _closure1_slot25;
             yankee = _closure1_slot1;
             source = _closure1_slot2;
@@ -2425,9 +2425,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = yankee.bind(tangon)(offset);
             offset = {};
             verify = romeon.bind(tangon)(yankee, offset);
- 709:
-            _fun00040_ip = 743; continue _fun00039;
- 711:
+ 710:
+            _fun00040_ip = 744; continue _fun00039;
+ 712:
             romeon = _closure1_slot25;
             yankee = _closure1_slot1;
             source = _closure1_slot2;
@@ -2436,9 +2436,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = yankee.bind(tangon)(offset);
             offset = {};
             verify = romeon.bind(tangon)(yankee, offset);
- 743:
-            _fun00040_ip = 854; continue _fun00039;
- 745:
+ 744:
+            _fun00040_ip = 855; continue _fun00039;
+ 746:
             romeon = _closure1_slot25;
             yankee = _closure1_slot0;
             source = _closure1_slot2;
@@ -2450,32 +2450,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['selectedGuildId'] = echoed;
             source = sizing == update;
             echoed = undefined;
-            if(source) { _fun00040_ip = 797; continue _fun00039 }
- 791:
+            if(source) { _fun00040_ip = 798; continue _fun00039 }
+ 792:
             echoed = update.unreads;
- 797:
-            if(!(sizing == echoed)) { _fun00040_ip = 805; continue _fun00039 }
- 801:
+ 798:
+            if(!(sizing == echoed)) { _fun00040_ip = 806; continue _fun00039 }
+ 802:
             echoed = _closure1_slot34;
- 805:
+ 806:
             offset['unreads'] = echoed;
             source = sizing == update;
             echoed = undefined;
-            if(source) { _fun00040_ip = 825; continue _fun00039 }
- 819:
+            if(source) { _fun00040_ip = 826; continue _fun00039 }
+ 820:
             echoed = update.channelHistory;
- 825:
-            if(!(sizing == echoed)) { _fun00040_ip = 833; continue _fun00039 }
- 829:
+ 826:
+            if(!(sizing == echoed)) { _fun00040_ip = 834; continue _fun00039 }
+ 830:
             echoed = _closure1_slot34;
- 833:
+ 834:
             offset['history'] = echoed;
             offset['expandedHistory'] = result;
             offset['toggleExpandedHistory'] = output;
             verify = romeon.bind(tangon)(yankee, offset);
- 854:
-            _fun00040_ip = 911; continue _fun00039;
- 856:
+ 855:
+            _fun00040_ip = 913; continue _fun00039;
+ 857:
             romeon = _closure1_slot25;
             yankee = _closure1_slot0;
             output = _closure1_slot2;
@@ -2484,14 +2484,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = yankee.bind(tangon)(offset);
             yankee = offset.SearchResults;
             offset = {};
-            if(!(sizing == backup)) { _fun00040_ip = 896; continue _fun00039 }
- 892:
+            if(!(sizing == backup)) { _fun00040_ip = 897; continue _fun00039 }
+ 893:
             backup = _closure1_slot34;
- 896:
+ 897:
             offset['results'] = backup;
             offset['query'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 911:
+ 913:
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
             report[2] = oscard;

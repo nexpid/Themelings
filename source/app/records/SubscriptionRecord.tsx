@@ -348,7 +348,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = michal;
-        michal = new Array(20);
+        michal = new Array(21);
         michal[0] = oscard;
         oscard = {};
         golfie = 'isPremium';
@@ -677,6 +677,49 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard['get'] = golfie;
         michal[16] = oscard;
         oscard = {};
+        golfie = 'endedAt';
+        oscard['key'] = golfie;
+        golfie = function() { // Original name: get
+            _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+ 0:
+                zuuluu = this;
+                report = zuuluu.status;
+                entity = _closure1_slot10;
+                michal = entity.ENDED;
+                tangon = null;
+                entity = null;
+                if(!(report === michal)) { _fun00022_ip = 105; continue _fun00021 }
+ 29:
+                report = zuuluu.metadata;
+                oscard = tangon == report;
+                michal = undefined;
+                if(oscard) { _fun00022_ip = 50; continue _fun00021 }
+ 44:
+                michal = report.ended_at;
+ 50:
+                if(!(tangon == michal)) { _fun00022_ip = 62; continue _fun00021 }
+ 54:
+                michal = zuuluu.currentPeriodEnd;
+                _fun00022_ip = 102; continue _fun00021;
+ 62:
+                tangon = global;
+                report = tangon.Date;
+                zuuluu = zuuluu.metadata;
+                golfie = zuuluu.ended_at;
+                tangon = report.prototype;
+                tangon = Object.create(tangon, {constructor: {value: report}});
+                option = tangon;
+                zuuluu = new option[report](golfie, oscard);
+                michal = zuuluu instanceof Object ? zuuluu : tangon;
+ 102:
+                entity = michal;
+ 105:
+                return entity;
+            }
+        };
+        oscard['get'] = golfie;
+        michal[17] = oscard;
+        oscard = {};
         golfie = 'isActive';
         oscard['key'] = golfie;
         golfie = function() { // Original name: get
@@ -688,25 +731,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['get'] = golfie;
-        michal[17] = oscard;
+        michal[18] = oscard;
         oscard = {};
         golfie = 'inReverseTrial';
         oscard['key'] = golfie;
         golfie = function() { // Original name: get
-            _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+            _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
                 michal = this;
                 entity = michal.trialId;
                 zuuluu = null;
                 entity = zuuluu != entity;
-                if(!entity) { _fun00022_ip = 41; continue _fun00021 }
+                if(!entity) { _fun00024_ip = 41; continue _fun00023 }
  18:
                 oscard = _closure1_slot15;
                 report = oscard.includes;
                 tangon = michal.trialId;
                 entity = report.bind(oscard)(tangon);
  41:
-                if(!entity) { _fun00022_ip = 54; continue _fun00021 }
+                if(!entity) { _fun00024_ip = 54; continue _fun00023 }
  44:
                 michal = michal.paymentSourceId;
                 entity = zuuluu == michal;
@@ -715,17 +758,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['get'] = golfie;
-        michal[18] = oscard;
+        michal[19] = oscard;
         oscard = {};
         golfie = 'premiumSince';
         oscard['key'] = golfie;
         golfie = function() { // Original name: get
-            _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+            _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
                 michal = this;
                 entity = michal.streakStartedAt;
                 zuuluu = null;
-                if(!(zuuluu == entity)) { _fun00024_ip = 21; continue _fun00023 }
+                if(!(zuuluu == entity)) { _fun00026_ip = 21; continue _fun00025 }
  15:
                 entity = michal.createdAt;
  21:
@@ -733,12 +776,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['get'] = golfie;
-        michal[19] = oscard;
+        michal[20] = oscard;
         oscard = {};
         golfie = 'createFromServer';
         oscard['key'] = golfie;
         entity = function(argFoo) { // Original name: value
-            _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
+            _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
                 report = argFoo;
                 zuuluu = _closure2_slot0;
@@ -760,7 +803,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = null;
                 oscard = tangon != michal;
                 michal = null;
-                if(!oscard) { _fun00026_ip = 118; continue _fun00025 }
+                if(!oscard) { _fun00028_ip = 118; continue _fun00027 }
  86:
                 verify = golfie.Date;
                 foxtra = report.canceled_at;
@@ -809,7 +852,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = report.renewal_mutations;
                 option = tangon != michal;
                 michal = null;
-                if(!option) { _fun00026_ip = 376; continue _fun00025 }
+                if(!option) { _fun00028_ip = 376; continue _fun00027 }
  323:
                 option = {};
                 verify = report.renewal_mutations;
@@ -827,7 +870,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = report.streak_started_at;
                 option = tangon != michal;
                 michal = null;
-                if(!option) { _fun00026_ip = 428; continue _fun00025 }
+                if(!option) { _fun00028_ip = 428; continue _fun00027 }
  396:
                 offset = golfie.Date;
                 foxtra = report.streak_started_at;
@@ -843,7 +886,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = report.pause_ends_at;
                 option = tangon != michal;
                 michal = null;
-                if(!option) { _fun00026_ip = 491; continue _fun00025 }
+                if(!option) { _fun00028_ip = 491; continue _fun00027 }
  459:
                 verify = golfie.Date;
                 foxtra = report.pause_ends_at;
@@ -865,10 +908,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = report.user_id;
                 entity['userId'] = michal;
                 michal = report.latest_invoice;
-                if(!(tangon == michal)) { _fun00026_ip = 568; continue _fun00025 }
+                if(!(tangon == michal)) { _fun00028_ip = 568; continue _fun00027 }
  564:
                 michal = {};
-                _fun00026_ip = 599; continue _fun00025;
+                _fun00028_ip = 599; continue _fun00027;
  568:
                 tangon = {};
                 golfie = _closure1_slot8;

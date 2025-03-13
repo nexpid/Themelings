@@ -364,7 +364,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 257; continue _fun00009 }
+                    if(michal) { _fun00010_ip = 258; continue _fun00009 }
  10:
                     option = argFoo;
  13: // try_start_0
@@ -386,13 +386,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = false;
                     michal['rejectWithError'] = golfie;
                     michal = report.bind(oscard)(michal);
-                    SaveGenerator(address=90);
- 88:
+                    SaveGenerator(address=91);
+ 89:
                     return michal;
- 90:
+ 91:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00010_ip = 168; continue _fun00009 }
- 96:
+                    if(report) { _fun00010_ip = 169; continue _fun00009 }
+ 97:
                     golfie = michal.body;
                     oscard = golfie.map;
                     report = function(argFoo) {
@@ -420,11 +420,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['type'] = option;
                     tangon['soundboardSounds'] = golfie;
                     tangon = report.bind(oscard)(tangon);
- 165: // try_end0
+ 166: // try_end0
                     return zuuluu;
- 168:
+ 169:
                     return michal;
- 171: // catch_target0
+ 172: // catch_target0
                     CatchBlockStart(arg_register=3);
                     report = _closure1_slot1;
                     oscard = _closure1_slot2;
@@ -447,7 +447,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = new yankee[michal](offset, verify);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 257:
+ 258:
                     return entity;
                 }
             };

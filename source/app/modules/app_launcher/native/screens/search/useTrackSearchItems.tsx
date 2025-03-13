@@ -80,19 +80,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         oscard = argFoo;
                         entity = oscard.isViewable;
-                        if(!entity) { _fun00004_ip = 266; continue _fun00003 }
+                        if(!entity) { _fun00004_ip = 267; continue _fun00003 }
  15:
                         michal = _closure2_slot0;
                         entity = oscard.item;
                         yankee = undefined;
                         zuuluu = michal.bind(yankee)(entity);
                         michal = null;
-                        if(!(michal != zuuluu)) { _fun00004_ip = 266; continue _fun00003 }
+                        if(!(michal != zuuluu)) { _fun00004_ip = 267; continue _fun00003 }
  43:
                         entity = _closure2_slot4;
                         entity = entity.current;
                         entity = entity[zuuluu];
-                        if(!(michal == entity)) { _fun00004_ip = 266; continue _fun00003 }
+                        if(!(michal == entity)) { _fun00004_ip = 267; continue _fun00003 }
  63:
                         entity = _closure2_slot4;
                         michal = entity.current;
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal['properties'] = entity;
                         entity = false;
                         entity = zuuluu.bind(tangon)(michal, entity);
- 266:
+ 267:
                         entity = undefined;
                         return entity;
                     }

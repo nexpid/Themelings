@@ -123,16 +123,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = _closure1_slot1;
             entity = 9;
             entity = zuuluu[entity];
-            entity = tangon.bind(report)(entity);
-            entity = entity.bind(report)();
-            oscard = entity.height;
+            oscard = tangon.bind(report)(entity);
+            entity = {};
+            foxtra = true;
+            entity['ignoreKeyboard'] = foxtra;
+            entity = oscard.bind(report)(entity);
+            source = entity.height;
             entity = 10;
             entity = zuuluu[entity];
             entity = tangon.bind(report)(entity);
             entity = entity.bind(report)();
             tangon = entity.top;
-            entity = entity.imeInsetsBottom;
-            source = oscard + entity;
             entity = 11;
             entity = zuuluu[entity];
             entity = michal.bind(report)(entity);
@@ -146,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = -1;
             yankee = michal.bind(zuuluu)(entity);
             entity = null;
-            if(!(report !== echoed)) { _fun00002_ip = 555; continue _fun00001 }
+            if(!(report !== echoed)) { _fun00002_ip = 553; continue _fun00001 }
  280:
             tangon = _closure1_slot9;
             zuuluu = _closure1_slot8;
@@ -162,9 +163,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  323:
             verify = _closure1_slot7;
             option = _closure1_slot1;
-            foxtra = _closure1_slot2;
+            update = _closure1_slot2;
             oscard = 14;
-            oscard = foxtra[oscard];
+            oscard = update[oscard];
             option = option.bind(report)(oscard);
             oscard = {};
             oscard['animatedSheetIndex'] = yankee;
@@ -180,7 +181,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.bind(report)(golfie);
             option = golfie.BottomSheet;
             golfie = {};
-            foxtra = true;
             golfie['scrollable'] = foxtra;
             golfie['animatedIndex'] = yankee;
             yankee = _closure1_slot5;
@@ -238,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 555:
+ 553:
             return entity;
         }
     };

@@ -18,13 +18,26 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/activities/ActivityPopoutUtils.native.tsx';
     tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: shouldOpenActivityInPopoutWindow
-        entity = false;
-        return entity;
+    tangon = function(argFoo) { // Original name: shouldOpenActivityInPopoutWindow
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            michal = argFoo;
+            entity = null;
+            if(!(michal != entity)) { _fun00002_ip = 13; continue _fun00001 }
+ 9:
+            entity = false;
+            return entity;
+ 13:
+            zuuluu = "Cannot destructure 'undefined' or 'null'.";
+            tangon = michal;
+            entity = throwTypeError(tangon, zuuluu);
+            entity = undefined;
+            throw entity;
+        }
     };
     zuuluu['shouldOpenActivityInPopoutWindow'] = tangon;
-    michal = function(argFoo) { // Original name: wrapPreemptiveActivityPopout
-        michal = argFoo;
+    michal = function(argFoo, argBar) { // Original name: wrapPreemptiveActivityPopout
+        michal = argBar;
         entity = undefined;
         entity = michal.bind(entity)();
         return entity;

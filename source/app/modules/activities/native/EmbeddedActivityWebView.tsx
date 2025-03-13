@@ -631,7 +631,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(michal) { _fun00020_ip = 380; continue _fun00019 }
+                                if(michal) { _fun00020_ip = 373; continue _fun00019 }
  10:
                                 zuuluu = undefined;
                                 golfie = undefined;
@@ -648,7 +648,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 return michal;
  47:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                                if(report) { _fun00020_ip = 250; continue _fun00019 }
+                                if(report) { _fun00020_ip = 243; continue _fun00019 }
  56:
                                 option = michal;
                                 report = _closure2_slot19;
@@ -705,16 +705,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 golfie = golfie.bottom;
                                 golfie = offset.bind(zuuluu)(verify, golfie);
                                 report['bottom'] = golfie;
-                                golfie = 0;
-                                report['imeInsetsBottom'] = golfie;
                                 option = report;
- 248: // try_end0
-                                _fun00020_ip = 255; continue _fun00019;
- 250:
+ 241: // try_end0
+                                _fun00020_ip = 248; continue _fun00019;
+ 243:
                                 return michal;
- 253: // catch_target0
+ 246: // catch_target0
                                 CatchBlockStart(arg_register=1);
- 255:
+ 248:
                                 report = _closure1_slot1;
                                 golfie = _closure1_slot3;
                                 michal = 19;
@@ -730,33 +728,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 michal['insets'] = option;
                                 offset = _closure1_slot17;
                                 option = undefined;
-                                if(offset) { _fun00020_ip = 328; continue _fun00019 }
- 324:
+                                if(offset) { _fun00020_ip = 321; continue _fun00019 }
+ 317:
                                 option = _closure1_slot11;
- 328:
+ 321:
                                 michal['messageForDisallowedNavigationError'] = option;
                                 michal = golfie.bind(zuuluu)(michal);
-                                SaveGenerator(address=342);
- 340:
+                                SaveGenerator(address=335);
+ 333:
                                 return michal;
- 342:
+ 335:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                                if(golfie) { _fun00020_ip = 377; continue _fun00019 }
- 348:
+                                if(golfie) { _fun00020_ip = 370; continue _fun00019 }
+ 341:
                                 tangon = michal;
-                                if(!(oscard == michal)) { _fun00020_ip = 365; continue _fun00019 }
- 355:
+                                if(!(oscard == michal)) { _fun00020_ip = 358; continue _fun00019 }
+ 348:
                                 oscard = _closure2_slot5;
                                 oscard = oscard.bind(zuuluu)();
-                                _fun00020_ip = 374; continue _fun00019;
- 365:
+                                _fun00020_ip = 367; continue _fun00019;
+ 358:
                                 report = _closure2_slot16;
                                 tangon = report.bind(zuuluu)(tangon);
- 374:
+ 367:
                                 return zuuluu;
- 377:
+ 370:
                                 return michal;
- 380:
+ 373:
                                 return entity;
                             }
                         };
@@ -1642,13 +1640,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             report = papara.bind(status)(report, cntext);
-            if(!(entity != config)) { _fun00010_ip = 2060; continue _fun00009 }
+            if(!(entity != config)) { _fun00010_ip = 2055; continue _fun00009 }
  1475:
-            if(!(entity != source)) { _fun00010_ip = 2060; continue _fun00009 }
+            if(!(entity != source)) { _fun00010_ip = 2055; continue _fun00009 }
  1482:
             if(!tangon) { _fun00010_ip = 1492; continue _fun00009 }
  1485:
-            if(!(option !== zuuluu)) { _fun00010_ip = 2060; continue _fun00009 }
+            if(!(option !== zuuluu)) { _fun00010_ip = 2055; continue _fun00009 }
  1492:
             tangon = {};
             cntext = _closure1_slot20;
@@ -1691,11 +1689,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bottom;
             michal = report.bind(oscard)(zuuluu, michal);
             tangon['bottom'] = michal;
-            tangon['imeInsetsBottom'] = sequen;
             michal = _closure1_slot17;
             yankee = undefined;
-            if(!michal) { _fun00010_ip = 1671; continue _fun00009 }
- 1640:
+            if(!michal) { _fun00010_ip = 1666; continue _fun00009 }
+ 1635:
             zuuluu = _closure1_slot0;
             report = _closure1_slot3;
             michal = 19;
@@ -1703,11 +1700,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(oscard)(michal);
             michal = zuuluu.createInjectedJavascriptForIOS;
             yankee = michal.bind(zuuluu)(tangon);
- 1671:
+ 1666:
             zuuluu = entity == vacuum;
             michal = null;
-            if(zuuluu) { _fun00010_ip = 2058; continue _fun00009 }
- 1683:
+            if(zuuluu) { _fun00010_ip = 2053; continue _fun00009 }
+ 1678:
             report = _closure1_slot14;
             tangon = _closure1_slot0;
             cntext = _closure1_slot3;
@@ -1724,18 +1721,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['source'] = golfie;
             golfie = {};
             config = source.port;
-            if(!(target !== config)) { _fun00010_ip = 1787; continue _fun00009 }
- 1751:
+            if(!(target !== config)) { _fun00010_ip = 1782; continue _fun00009 }
+ 1746:
             papara = source.hostname;
             cntext = source.port;
             config = update.HermesInternal;
             record = config.concat;
             config = ':';
             config = record.bind(target)(papara, config, cntext);
-            _fun00010_ip = 1793; continue _fun00009;
- 1787:
+            _fun00010_ip = 1788; continue _fun00009;
+ 1782:
             config = source.host;
- 1793:
+ 1788:
             golfie['domain'] = config;
             config = source.protocol;
             source = 'http:';
@@ -1778,10 +1775,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['injectedJavaScript'] = yankee;
             zuuluu['injectedJavaScriptForMainFrameOnly'] = option;
             yankee = undefined;
-            if(!foxtra) { _fun00010_ip = 2013; continue _fun00009 }
- 2010:
+            if(!foxtra) { _fun00010_ip = 2008; continue _fun00009 }
+ 2005:
             yankee = romeon;
- 2013:
+ 2008:
             zuuluu['onShouldStartLoadWithRequest'] = yankee;
             zuuluu['mediaPlaybackRequiresUserAction'] = option;
             zuuluu['ignoreSilentHardwareSwitch'] = offset;
@@ -1790,9 +1787,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['bounces'] = option;
             zuuluu['allowsProtectedMedia'] = golfie;
             michal = report.bind(oscard)(tangon, zuuluu);
- 2058:
+ 2053:
             return michal;
- 2060:
+ 2055:
             return entity;
         }
     };

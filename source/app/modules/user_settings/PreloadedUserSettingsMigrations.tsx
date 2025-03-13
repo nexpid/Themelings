@@ -292,7 +292,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     tangon['cleanup'] = michal;
-    michal = new Array(18);
+    michal = new Array(19);
     michal[0] = tangon;
     tangon = {};
     golfie = 3;
@@ -1819,7 +1819,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     golfie['run'] = verify;
-    option = function() { // Original name: cleanup
+    verify = function() { // Original name: cleanup
         zuuluu = _closure1_slot0;
         michal = _closure1_slot2;
         entity = 6;
@@ -1832,8 +1832,54 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    golfie['cleanup'] = option;
+    golfie['cleanup'] = verify;
     michal[17] = golfie;
+    golfie = {};
+    verify = 21;
+    golfie['version'] = verify;
+    verify = function(argFoo) { // Original name: run
+        _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
+ 0:
+            zuuluu = argFoo;
+            entity = zuuluu.appearance;
+            michal = null;
+            michal = michal == entity;
+            report = undefined;
+            tangon = undefined;
+            if(michal) { _fun00036_ip = 28; continue _fun00035 }
+ 22:
+            tangon = entity.uiDensity;
+ 28:
+            golfie = _closure1_slot0;
+            entity = _closure1_slot2;
+            oscard = 5;
+            entity = entity[oscard];
+            entity = golfie.bind(report)(entity);
+            entity = entity.UIDensity;
+            entity = entity.COMPACT;
+            entity = tangon === entity;
+            if(!entity) { _fun00036_ip = 113; continue _fun00035 }
+ 70:
+            zuuluu = zuuluu.appearance;
+            tangon = _closure1_slot0;
+            michal = _closure1_slot2;
+            michal = michal[oscard];
+            michal = tangon.bind(report)(michal);
+            michal = michal.UIDensity;
+            michal = michal.DEFAULT;
+            zuuluu['uiDensity'] = michal;
+            entity = true;
+ 113:
+            return entity;
+        }
+    };
+    golfie['run'] = verify;
+    option = function() { // Original name: cleanup
+        entity = undefined;
+        return entity;
+    };
+    golfie['cleanup'] = option;
+    michal[18] = golfie;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

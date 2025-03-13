@@ -386,14 +386,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = verify.length;
                 zuuluu = 0;
                 michal = entity > zuuluu;
-                if(!michal) { _fun00012_ip = 445; continue _fun00011 }
- 88:
+                if(!michal) { _fun00012_ip = 446; continue _fun00011 }
+ 89:
                 entity = verify.trim;
                 option = entity.bind(verify)();
                 report = '';
                 entity = false;
-                if(!(report !== option)) { _fun00012_ip = 442; continue _fun00011 }
- 111:
+                if(!(report !== option)) { _fun00012_ip = 443; continue _fun00011 }
+ 112:
                 option = _closure1_slot0;
                 output = _closure1_slot2;
                 report = 3;
@@ -412,42 +412,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 output = verify.bind(echoed)(report);
                 verify = output.bind(echoed)();
                 report = verify.done;
-                if(report) { _fun00012_ip = 226; continue _fun00011 }
- 192:
+                if(report) { _fun00012_ip = 227; continue _fun00011 }
+ 193:
                 ctrled = verify.value;
                 report = sizing.userId;
                 entity = true;
-                if(!(report !== ctrled)) { _fun00012_ip = 442; continue _fun00011 }
- 211:
+                if(!(report !== ctrled)) { _fun00012_ip = 443; continue _fun00011 }
+ 212:
                 ctrled = output.bind(echoed)();
                 report = ctrled.done;
                 verify = ctrled;
-                if(!report) { _fun00012_ip = 192; continue _fun00011 }
- 226:
+                if(!report) { _fun00012_ip = 193; continue _fun00011 }
+ 227:
                 report = _closure1_slot7;
                 output = report.bind(echoed)(option);
                 verify = output.bind(echoed)();
                 report = verify.done;
-                if(report) { _fun00012_ip = 291; continue _fun00011 }
- 247:
+                if(report) { _fun00012_ip = 292; continue _fun00011 }
+ 248:
                 vacuum = verify.value;
                 ctrled = _closure1_slot10;
                 report = sizing.nick;
                 report = ctrled.bind(echoed)(report, vacuum);
                 entity = true;
-                if(report) { _fun00012_ip = 442; continue _fun00011 }
- 276:
+                if(report) { _fun00012_ip = 443; continue _fun00011 }
+ 277:
                 ctrled = output.bind(echoed)();
                 report = ctrled.done;
                 verify = ctrled;
-                if(!report) { _fun00012_ip = 247; continue _fun00011 }
- 291:
+                if(!report) { _fun00012_ip = 248; continue _fun00011 }
+ 292:
                 verify = sizing.user;
                 report = null;
                 report = report == verify;
                 entity = false;
-                if(report) { _fun00012_ip = 442; continue _fun00011 }
- 310:
+                if(report) { _fun00012_ip = 443; continue _fun00011 }
+ 311:
                 report = sizing.user;
                 output = report.globalName;
                 vacuum = report.username;
@@ -455,47 +455,47 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 ctrled = report.bind(echoed)(option);
                 verify = ctrled.bind(echoed)();
                 report = verify.done;
-                if(report) { _fun00012_ip = 382; continue _fun00011 }
- 347:
+                if(report) { _fun00012_ip = 383; continue _fun00011 }
+ 348:
                 sequen = _closure1_slot10;
                 report = verify.value;
                 report = sequen.bind(echoed)(vacuum, report);
                 entity = true;
-                if(report) { _fun00012_ip = 442; continue _fun00011 }
- 367:
+                if(report) { _fun00012_ip = 443; continue _fun00011 }
+ 368:
                 sequen = ctrled.bind(echoed)();
                 report = sequen.done;
                 verify = sequen;
-                if(!report) { _fun00012_ip = 347; continue _fun00011 }
- 382:
+                if(!report) { _fun00012_ip = 348; continue _fun00011 }
+ 383:
                 report = _closure1_slot7;
                 verify = report.bind(echoed)(option);
                 option = verify.bind(echoed)();
                 report = option.done;
                 entity = false;
-                if(report) { _fun00012_ip = 442; continue _fun00011 }
- 405:
+                if(report) { _fun00012_ip = 443; continue _fun00011 }
+ 406:
                 ctrled = _closure1_slot10;
                 report = option.value;
                 report = ctrled.bind(echoed)(output, report);
                 entity = true;
-                if(report) { _fun00012_ip = 442; continue _fun00011 }
- 425:
+                if(report) { _fun00012_ip = 443; continue _fun00011 }
+ 426:
                 ctrled = verify.bind(echoed)();
                 report = ctrled.done;
                 option = ctrled;
                 entity = false;
-                if(!report) { _fun00012_ip = 405; continue _fun00011 }
- 442:
+                if(!report) { _fun00012_ip = 406; continue _fun00011 }
+ 443:
                 michal = !entity;
- 445:
+ 446:
                 entity = !michal;
-                if(michal) { _fun00012_ip = 970; continue _fun00011 }
- 454:
+                if(michal) { _fun00012_ip = 971; continue _fun00011 }
+ 455:
                 michal = golfie.size;
                 zuuluu = michal > zuuluu;
-                if(!zuuluu) { _fun00012_ip = 484; continue _fun00011 }
- 466:
+                if(!zuuluu) { _fun00012_ip = 485; continue _fun00011 }
+ 467:
                 report = function(argFoo, argBar) { // Original name: hasSelectedRole
                     _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
@@ -528,37 +528,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = undefined;
                 michal = report.bind(michal)(sizing, golfie);
                 zuuluu = !michal;
- 484:
+ 485:
                 michal = !zuuluu;
-                if(zuuluu) { _fun00012_ip = 967; continue _fun00011 }
- 493:
+                if(zuuluu) { _fun00012_ip = 968; continue _fun00011 }
+ 494:
                 zuuluu = tangon.afterDate;
                 option = null;
                 report = option != zuuluu;
-                if(!report) { _fun00012_ip = 524; continue _fun00011 }
- 508:
+                if(!report) { _fun00012_ip = 525; continue _fun00011 }
+ 509:
                 golfie = sizing.joinedAtTimestamp;
                 zuuluu = tangon.afterDate;
                 report = golfie < zuuluu;
- 524:
+ 525:
                 zuuluu = !report;
-                if(report) { _fun00012_ip = 964; continue _fun00011 }
- 533:
+                if(report) { _fun00012_ip = 965; continue _fun00011 }
+ 534:
                 report = tangon.beforeDate;
                 report = option != report;
-                if(!report) { _fun00012_ip = 562; continue _fun00011 }
- 546:
+                if(!report) { _fun00012_ip = 563; continue _fun00011 }
+ 547:
                 golfie = sizing.joinedAtTimestamp;
                 tangon = tangon.beforeDate;
                 report = golfie > tangon;
- 562:
+ 563:
                 tangon = !report;
-                if(report) { _fun00012_ip = 961; continue _fun00011 }
- 571:
+                if(report) { _fun00012_ip = 962; continue _fun00011 }
+ 572:
                 report = oscard.afterDate;
                 golfie = option != report;
-                if(!golfie) { _fun00012_ip = 635; continue _fun00011 }
- 584:
+                if(!golfie) { _fun00012_ip = 636; continue _fun00011 }
+ 585:
                 output = _closure1_slot1;
                 verify = _closure1_slot2;
                 report = 5;
@@ -570,14 +570,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 verify = verify.bind(output)(report);
                 report = oscard.afterDate;
                 golfie = verify < report;
- 635:
+ 636:
                 report = !golfie;
-                if(golfie) { _fun00012_ip = 958; continue _fun00011 }
- 644:
+                if(golfie) { _fun00012_ip = 959; continue _fun00011 }
+ 645:
                 golfie = oscard.beforeDate;
                 golfie = option != golfie;
-                if(!golfie) { _fun00012_ip = 708; continue _fun00011 }
- 657:
+                if(!golfie) { _fun00012_ip = 709; continue _fun00011 }
+ 658:
                 result = _closure1_slot1;
                 output = _closure1_slot2;
                 verify = 5;
@@ -589,54 +589,54 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 verify = output.bind(result)(verify);
                 oscard = oscard.beforeDate;
                 golfie = verify > oscard;
- 708:
+ 709:
                 oscard = !golfie;
-                if(golfie) { _fun00012_ip = 955; continue _fun00011 }
- 717:
+                if(golfie) { _fun00012_ip = 956; continue _fun00011 }
+ 718:
                 golfie = option == kiloes;
-                if(golfie) { _fun00012_ip = 734; continue _fun00011 }
- 724:
+                if(golfie) { _fun00012_ip = 735; continue _fun00011 }
+ 725:
                 verify = sizing.sourceInviteCode;
                 golfie = verify === kiloes;
- 734:
-                if(!golfie) { _fun00012_ip = 952; continue _fun00011 }
- 740:
+ 735:
+                if(!golfie) { _fun00012_ip = 953; continue _fun00011 }
+ 741:
                 option = option == backup;
-                if(option) { _fun00012_ip = 757; continue _fun00011 }
- 747:
+                if(option) { _fun00012_ip = 758; continue _fun00011 }
+ 748:
                 verify = sizing.joinSourceType;
                 option = verify === backup;
- 757:
-                if(!option) { _fun00012_ip = 949; continue _fun00011 }
- 763:
+ 758:
+                if(!option) { _fun00012_ip = 950; continue _fun00011 }
+ 764:
                 verify = offset;
-                if(verify) { _fun00012_ip = 772; continue _fun00011 }
- 769:
+                if(verify) { _fun00012_ip = 773; continue _fun00011 }
+ 770:
                 verify = yankee;
- 772:
-                if(verify) { _fun00012_ip = 778; continue _fun00011 }
- 775:
+ 773:
+                if(verify) { _fun00012_ip = 779; continue _fun00011 }
+ 776:
                 verify = romeon;
- 778:
-                if(verify) { _fun00012_ip = 784; continue _fun00011 }
- 781:
+ 779:
+                if(verify) { _fun00012_ip = 785; continue _fun00011 }
+ 782:
                 verify = foxtra;
- 784:
+ 785:
                 verify = !verify;
-                if(verify) { _fun00012_ip = 946; continue _fun00011 }
- 793:
+                if(verify) { _fun00012_ip = 947; continue _fun00011 }
+ 794:
                 backup = !offset;
-                if(backup) { _fun00012_ip = 808; continue _fun00011 }
- 799:
+                if(backup) { _fun00012_ip = 809; continue _fun00011 }
+ 800:
                 offset = sizing.hasUnusualDmActivity;
                 backup = !offset;
- 808:
+ 809:
                 offset = !backup;
-                if(!backup) { _fun00012_ip = 943; continue _fun00011 }
- 817:
+                if(!backup) { _fun00012_ip = 944; continue _fun00011 }
+ 818:
                 backup = !yankee;
-                if(backup) { _fun00012_ip = 862; continue _fun00011 }
- 823:
+                if(backup) { _fun00012_ip = 863; continue _fun00011 }
+ 824:
                 output = _closure1_slot0;
                 kiloes = _closure1_slot2;
                 yankee = 6;
@@ -646,22 +646,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 yankee = kiloes.isMemberCommunicationDisabled;
                 yankee = yankee.bind(kiloes)(sizing);
                 backup = !yankee;
- 862:
+ 863:
                 yankee = !backup;
-                if(!backup) { _fun00012_ip = 940; continue _fun00011 }
- 868:
+                if(!backup) { _fun00012_ip = 941; continue _fun00011 }
+ 869:
                 backup = !romeon;
-                if(backup) { _fun00012_ip = 883; continue _fun00011 }
- 874:
+                if(backup) { _fun00012_ip = 884; continue _fun00011 }
+ 875:
                 romeon = sizing.hasUnusualAccountActivity;
                 backup = !romeon;
- 883:
+ 884:
                 romeon = !backup;
-                if(!backup) { _fun00012_ip = 937; continue _fun00011 }
- 889:
+                if(!backup) { _fun00012_ip = 938; continue _fun00011 }
+ 890:
                 foxtra = !foxtra;
-                if(foxtra) { _fun00012_ip = 934; continue _fun00011 }
- 895:
+                if(foxtra) { _fun00012_ip = 935; continue _fun00011 }
+ 896:
                 output = _closure1_slot0;
                 kiloes = _closure1_slot2;
                 backup = 7;
@@ -671,31 +671,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 backup = kiloes.hasAutomodQuarantinedProfile;
                 backup = backup.bind(kiloes)(sizing);
                 foxtra = !backup;
- 934:
+ 935:
                 romeon = !foxtra;
- 937:
+ 938:
                 yankee = romeon;
- 940:
+ 941:
                 offset = yankee;
- 943:
+ 944:
                 verify = offset;
- 946:
+ 947:
                 option = verify;
- 949:
+ 950:
                 golfie = option;
- 952:
+ 953:
                 oscard = golfie;
- 955:
+ 956:
                 report = oscard;
- 958:
+ 959:
                 tangon = report;
- 961:
+ 962:
                 zuuluu = tangon;
- 964:
+ 965:
                 michal = zuuluu;
- 967:
+ 968:
                 entity = michal;
- 970:
+ 971:
                 return entity;
             }
         };

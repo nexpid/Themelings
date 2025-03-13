@@ -398,87 +398,85 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = tangon.bind(entity)();
     var _closure1_slot9 = tangon;
     option = {};
-    yankee = 'function getClampedPIPPosition_MorphablePanelUtilsTsx6({pipX:pipX,pipY:pipY,width:width,height:height,windowDimensions:windowDimensions,safeArea:safeArea,bottomAvoidanceRegion=0,topAvoidanceRegion=0,positionOffset={x:0,y:0},disableHorizontalSafeAreas:disableHorizontalSafeAreas}){const{pipXYtoAbsoluteXY,getPIPWindowDimensions,clamp}=this.__closure;let{x:x,y:y}=pipXYtoAbsoluteXY({pipX:pipX===-1?1:pipX,pipY:pipY===-1?0:pipY,windowDimensions:windowDimensions,safeArea:safeArea,disableHorizontalSafeAreas:disableHorizontalSafeAreas});const halfWidth=width/2;const halfHeight=height/2;x-=halfWidth;if(pipY===-1){y+=72;}else{y-=halfHeight;}const pipRegion=getPIPWindowDimensions(windowDimensions,safeArea,disableHorizontalSafeAreas);x=clamp(x,pipRegion.xOffset,pipRegion.xOffset+pipRegion.xRange-width);y=clamp(y,pipRegion.yOffset+topAvoidanceRegion,pipRegion.yOffset+pipRegion.yRange-safeArea.imeInsetsBottom-bottomAvoidanceRegion-height);x+=positionOffset.x;y+=positionOffset.y;return{x:x,y:y};}';
+    yankee = 'function getClampedPIPPosition_MorphablePanelUtilsTsx6({pipX:pipX,pipY:pipY,width:width,height:height,windowDimensions:windowDimensions,safeArea:safeArea,bottomAvoidanceRegion=0,topAvoidanceRegion=0,positionOffset={x:0,y:0},disableHorizontalSafeAreas:disableHorizontalSafeAreas}){const{pipXYtoAbsoluteXY,getPIPWindowDimensions,clamp}=this.__closure;let{x:x,y:y}=pipXYtoAbsoluteXY({pipX:pipX===-1?1:pipX,pipY:pipY===-1?0:pipY,windowDimensions:windowDimensions,safeArea:safeArea,disableHorizontalSafeAreas:disableHorizontalSafeAreas});const halfWidth=width/2;const halfHeight=height/2;x-=halfWidth;if(pipY===-1){y+=72;}else{y-=halfHeight;}const pipRegion=getPIPWindowDimensions(windowDimensions,safeArea,disableHorizontalSafeAreas);x=clamp(x,pipRegion.xOffset,pipRegion.xOffset+pipRegion.xRange-width);y=clamp(y,pipRegion.yOffset+topAvoidanceRegion,pipRegion.yOffset+pipRegion.yRange-bottomAvoidanceRegion-height);x+=positionOffset.x;y+=positionOffset.y;return{x:x,y:y};}';
     option['code'] = yankee;
     var _closure1_slot10 = option;
     michal = function() {
         entity = function(argFoo) { // Original name: getClampedPIPPosition
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                zuuluu = argFoo;
-                sizing = zuuluu.pipX;
-                kiloes = zuuluu.pipY;
-                foxtra = zuuluu.width;
-                option = zuuluu.height;
-                offset = zuuluu.windowDimensions;
-                entity = zuuluu.safeArea;
-                verify = zuuluu.bottomAvoidanceRegion;
+                entity = argFoo;
+                sizing = entity.pipX;
+                kiloes = entity.pipY;
+                romeon = entity.width;
+                option = entity.height;
+                foxtra = entity.windowDimensions;
+                report = entity.safeArea;
+                verify = entity.bottomAvoidanceRegion;
                 golfie = undefined;
                 if(!(verify === golfie)) { _fun00008_ip = 51; continue _fun00007 }
  49:
                 verify = 0;
  51:
-                yankee = zuuluu.topAvoidanceRegion;
-                if(!(yankee === golfie)) { _fun00008_ip = 63; continue _fun00007 }
+                offset = entity.topAvoidanceRegion;
+                if(!(offset === golfie)) { _fun00008_ip = 63; continue _fun00007 }
  61:
-                yankee = 0;
+                offset = 0;
  63:
-                michal = zuuluu.positionOffset;
+                michal = entity.positionOffset;
                 if(!(michal === golfie)) { _fun00008_ip = 83; continue _fun00007 }
  73:
                 michal = {'x': 0, 'y': 0};
  83:
-                report = zuuluu.disableHorizontalSafeAreas;
-                romeon = _closure1_slot9;
-                tangon = {};
+                tangon = entity.disableHorizontalSafeAreas;
+                yankee = _closure1_slot9;
+                entity = {};
                 backup = 1;
                 oscard = -1;
                 if(!(oscard !== sizing)) { _fun00008_ip = 114; continue _fun00007 }
  111:
                 backup = sizing;
  114:
-                tangon['pipX'] = backup;
+                entity['pipX'] = backup;
                 oscard = oscard === kiloes;
                 backup = 0;
                 if(oscard) { _fun00008_ip = 131; continue _fun00007 }
  128:
                 backup = kiloes;
  131:
-                tangon['pipY'] = backup;
-                tangon['windowDimensions'] = offset;
-                tangon['safeArea'] = entity;
-                tangon['disableHorizontalSafeAreas'] = report;
-                tangon = romeon.bind(golfie)(tangon);
-                kiloes = tangon.x;
-                backup = tangon.y;
-                tangon = 2;
-                romeon = foxtra / tangon;
-                romeon = kiloes - romeon;
+                entity['pipY'] = backup;
+                entity['windowDimensions'] = foxtra;
+                entity['safeArea'] = report;
+                entity['disableHorizontalSafeAreas'] = tangon;
+                entity = yankee.bind(golfie)(entity);
+                kiloes = entity.x;
+                backup = entity.y;
+                entity = 2;
+                yankee = romeon / entity;
+                yankee = kiloes - yankee;
                 if(oscard) { _fun00008_ip = 190; continue _fun00007 }
  180:
-                tangon = option / tangon;
-                oscard = backup - tangon;
+                entity = option / entity;
+                oscard = backup - entity;
                 _fun00008_ip = 197; continue _fun00007;
  190:
-                tangon = 72;
-                oscard = backup + tangon;
+                entity = 72;
+                oscard = backup + entity;
  197:
-                tangon = _closure1_slot6;
-                offset = tangon.bind(golfie)(offset, entity, report);
+                entity = _closure1_slot6;
+                entity = entity.bind(golfie)(foxtra, report, tangon);
                 tangon = _closure1_slot3;
-                report = offset.xOffset;
-                backup = offset.xOffset;
-                zuuluu = offset.xRange;
-                zuuluu = backup + zuuluu;
-                zuuluu = zuuluu - foxtra;
-                report = tangon.bind(golfie)(romeon, report, zuuluu);
-                zuuluu = offset.yOffset;
-                zuuluu = zuuluu + yankee;
-                yankee = offset.yOffset;
-                offset = offset.yRange;
-                offset = yankee + offset;
-                entity = entity.imeInsetsBottom;
-                entity = offset - entity;
+                report = entity.xOffset;
+                foxtra = entity.xOffset;
+                zuuluu = entity.xRange;
+                zuuluu = foxtra + zuuluu;
+                zuuluu = zuuluu - romeon;
+                report = tangon.bind(golfie)(yankee, report, zuuluu);
+                zuuluu = entity.yOffset;
+                zuuluu = zuuluu + offset;
+                offset = entity.yOffset;
+                entity = entity.yRange;
+                entity = offset + entity;
                 entity = entity - verify;
                 entity = entity - option;
                 zuuluu = tangon.bind(golfie)(oscard, zuuluu, entity);
@@ -500,7 +498,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = _closure1_slot3;
         zuuluu['clamp'] = tangon;
         entity['__closure'] = zuuluu;
-        zuuluu = 11264229121702.0;
+        zuuluu = 7754262947803.0;
         entity['__workletHash'] = zuuluu;
         michal = _closure1_slot10;
         entity['__initData'] = michal;

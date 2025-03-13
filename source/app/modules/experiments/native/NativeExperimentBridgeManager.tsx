@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.NativeModules;
     var _closure1_slot7 = tangon;
-    tangon = 9;
+    tangon = 8;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
@@ -154,32 +154,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                         michal = _closure1_slot7;
-                        report = michal.NSUserDefaultsBridge;
+                        zuuluu = michal.NSUserDefaultsBridge;
                         michal = null;
-                        if(!(michal != report)) { _fun00008_ip = 77; continue _fun00007 }
+                        if(!(michal != zuuluu)) { _fun00008_ip = 77; continue _fun00007 }
  19:
-                        tangon = report.setShareJumpToAppEnabled;
-                        golfie = _closure1_slot0;
-                        oscard = _closure1_slot1;
-                        zuuluu = 7;
-                        oscard = oscard[zuuluu];
-                        zuuluu = undefined;
-                        golfie = golfie.bind(zuuluu)(oscard);
-                        oscard = golfie.isShareJumpToAppEnabled;
-                        zuuluu = {};
-                        option = 'NativeExperimentBridgeManager';
-                        zuuluu['location'] = option;
-                        zuuluu = oscard.bind(golfie)(zuuluu);
-                        zuuluu = tangon.bind(report)(zuuluu);
- 77:
-                        zuuluu = _closure1_slot7;
-                        zuuluu = zuuluu.NSUserDefaultsBridge;
-                        if(!(michal != zuuluu)) { _fun00008_ip = 149; continue _fun00007 }
- 91:
                         michal = zuuluu.setSwiftMessageCellExperimentEnabled;
                         report = _closure1_slot0;
                         tangon = _closure1_slot1;
-                        entity = 8;
+                        entity = 7;
                         tangon = tangon[entity];
                         entity = undefined;
                         report = report.bind(entity)(tangon);
@@ -189,7 +171,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         entity['location'] = oscard;
                         entity = tangon.bind(report)(entity);
                         entity = michal.bind(zuuluu)(entity);
- 149:
+ 77:
                         entity = undefined;
                         return entity;
                     }
@@ -218,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = tangon;
     michal = new foxtra[michal](romeon);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 10;
+    tangon = 9;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

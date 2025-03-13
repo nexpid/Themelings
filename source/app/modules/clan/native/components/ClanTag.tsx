@@ -85,10 +85,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         yankee = romeon.isAndroid;
         romeon = yankee.bind(romeon)();
         yankee = 16;
-        if(!romeon) { _fun00002_ip = 357; continue _fun00001 }
- 354:
+        if(!romeon) { _fun00002_ip = 356; continue _fun00001 }
+ 353:
         yankee = 14;
- 357:
+ 356:
         offset['lineHeight'] = yankee;
         yankee = 'hidden';
         offset['overflow'] = yankee;

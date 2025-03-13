@@ -901,7 +901,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                                     StartGenerator();
                                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                    if(michal) { _fun00018_ip = 223; continue _fun00017 }
+                                    if(michal) { _fun00018_ip = 224; continue _fun00017 }
  10:
                                     report = _closure1_slot0;
                                     verify = _closure1_slot2;
@@ -931,13 +931,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     michal['oldFormErrors'] = golfie;
                                     michal['rejectWithError'] = golfie;
                                     michal = report.bind(oscard)(michal);
-                                    SaveGenerator(address=134);
- 132:
+                                    SaveGenerator(address=135);
+ 133:
                                     return michal;
- 134:
+ 135:
                                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                                    if(report) { _fun00018_ip = 220; continue _fun00017 }
- 140:
+                                    if(report) { _fun00018_ip = 221; continue _fun00017 }
+ 141:
                                     report = michal.body;
                                     verify = report.guilds;
                                     report = _closure1_slot1;
@@ -962,9 +962,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     tangon['guilds'] = golfie;
                                     tangon = report.bind(oscard)(tangon);
                                     return zuuluu;
- 220:
+ 221:
                                     return michal;
- 223:
+ 224:
                                     return entity;
                                 }
                             };

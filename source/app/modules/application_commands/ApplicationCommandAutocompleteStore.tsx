@@ -427,8 +427,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = entity.optionNameToLastQuery;
             zuuluu = oscard.get;
             zuuluu = zuuluu.bind(oscard)(tangon);
-            if(!(zuuluu !== offset)) { _fun00014_ip = 297; continue _fun00013 }
- 61:
+            if(!(zuuluu !== offset)) { _fun00014_ip = 299; continue _fun00013 }
+ 62:
             oscard = entity.optionNameToLastQuery;
             zuuluu = oscard.set;
             zuuluu = zuuluu.bind(oscard)(tangon, offset);
@@ -438,22 +438,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = null;
             option = oscard == verify;
             zuuluu = undefined;
-            if(option) { _fun00014_ip = 115; continue _fun00013 }
- 105:
+            if(option) { _fun00014_ip = 116; continue _fun00013 }
+ 106:
             option = verify.get;
             zuuluu = option.bind(verify)(offset);
- 115:
-            if(!(oscard == zuuluu)) { _fun00014_ip = 268; continue _fun00013 }
- 122:
+ 116:
+            if(!(oscard == zuuluu)) { _fun00014_ip = 270; continue _fun00013 }
+ 123:
             verify = entity.optionNameToNonce;
             option = verify.get;
             verify = option.bind(verify)(tangon);
-            if(!(oscard != verify)) { _fun00014_ip = 156; continue _fun00013 }
- 142:
+            if(!(oscard != verify)) { _fun00014_ip = 157; continue _fun00013 }
+ 143:
             option = _closure1_slot9;
             oscard = option.delete;
             oscard = oscard.bind(option)(verify);
- 156:
+ 157:
             verify = _closure1_slot9;
             option = verify.set;
             oscard = {};
@@ -476,14 +476,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report.bind(oscard)(tangon, golfie);
             report = entity.lastErrored;
             michal = undefined;
-            if(!report) { _fun00014_ip = 266; continue _fun00013 }
- 256:
+            if(!report) { _fun00014_ip = 268; continue _fun00013 }
+ 258:
             report = false;
             entity['lastErrored'] = report;
             michal = true;
- 266:
-            return michal;
  268:
+            return michal;
+ 270:
             michal = false;
             entity['lastErrored'] = michal;
             michal = entity.optionNameToLastResults;
@@ -491,7 +491,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity.bind(michal)(tangon, zuuluu);
             entity = true;
             return entity;
- 297:
+ 299:
             entity = false;
             return entity;
         }
@@ -507,7 +507,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.get;
             zuuluu = zuuluu.bind(tangon)(michal);
             report = null;
-            if(!(report != zuuluu)) { _fun00016_ip = 443; continue _fun00015 }
+            if(!(report != zuuluu)) { _fun00016_ip = 445; continue _fun00015 }
  41:
             oscard = _closure1_slot9;
             tangon = oscard.delete;
@@ -606,29 +606,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = verify.get;
             golfie = zuuluu.name;
             option = option.bind(verify)(golfie);
-            if(!(report != option)) { _fun00016_ip = 375; continue _fun00015 }
+            if(!(report != option)) { _fun00016_ip = 376; continue _fun00015 }
  359:
             golfie = option.set;
             report = zuuluu.query;
             report = golfie.bind(option)(report, oscard);
- 375:
+ 376:
             option = entity.optionNameToLastQuery;
             golfie = option.get;
             report = zuuluu.name;
             golfie = golfie.bind(option)(report);
             report = zuuluu.query;
-            if(!(golfie === report)) { _fun00016_ip = 433; continue _fun00015 }
- 405:
+            if(!(golfie === report)) { _fun00016_ip = 435; continue _fun00015 }
+ 407:
             entity['lastErrored'] = tangon;
             report = entity.optionNameToLastResults;
             tangon = report.set;
             zuuluu = zuuluu.name;
             zuuluu = tangon.bind(report)(zuuluu, oscard);
- 433:
+ 435:
             entity['lastResponseNonce'] = michal;
             entity = true;
             return entity;
- 443:
+ 445:
             entity = false;
             return entity;
         }

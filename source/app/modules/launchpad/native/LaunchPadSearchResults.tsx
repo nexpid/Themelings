@@ -958,8 +958,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = yankee.length;
             oscard = 0;
             oscard = golfie > oscard;
-            if(!oscard) { _fun00014_ip = 400; continue _fun00013 }
- 255:
+            if(!oscard) { _fun00014_ip = 401; continue _fun00013 }
+ 256:
             option = _closure1_slot9;
             golfie = _closure1_slot1;
             output = _closure1_slot2;
@@ -989,7 +989,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = 'always';
             oscard['keyboardShouldPersistTaps'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 400:
+ 401:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

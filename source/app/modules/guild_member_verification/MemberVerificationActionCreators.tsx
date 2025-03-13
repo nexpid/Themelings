@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     zuuluu = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 491; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 492; continue _fun00001 }
  13:
                     oscard = argFoo;
                     michal = undefined;
@@ -137,17 +137,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = false;
                     tangon['rejectWithError'] = offset;
                     tangon = option.bind(verify)(tangon);
-                    SaveGenerator(address=243);
- 241:
+                    SaveGenerator(address=244);
+ 242:
                     return tangon;
- 243:
+ 244:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=7);
-                    if(option) { _fun00002_ip = 437; continue _fun00001 }
- 252:
+                    if(option) { _fun00002_ip = 438; continue _fun00001 }
+ 253:
                     report = tangon;
                     option = tangon.body;
-                    if(!(romeon != option)) { _fun00002_ip = 435; continue _fun00001 }
- 267:
+                    if(!(romeon != option)) { _fun00002_ip = 436; continue _fun00001 }
+ 268:
                     option = report;
                     foxtra = option.body;
                     golfie = foxtra;
@@ -174,8 +174,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     foxtra = foxtra.profile;
                     foxtra = romeon != foxtra;
                     romeon = null;
-                    if(!foxtra) { _fun00002_ip = 417; continue _fun00001 }
- 377:
+                    if(!foxtra) { _fun00002_ip = 418; continue _fun00001 }
+ 378:
                     backup = _closure1_slot0;
                     kiloes = _closure1_slot2;
                     foxtra = 9;
@@ -185,17 +185,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     foxtra = golfie;
                     foxtra = foxtra.profile;
                     romeon = backup.bind(kiloes)(foxtra);
- 417:
+ 418:
                     yankee['profile'] = romeon;
                     option['form'] = yankee;
                     option = verify.bind(offset)(option);
- 432: // try_end0
+ 433: // try_end0
                     return golfie;
- 435: // try_start_1
+ 436: // try_start_1
                     throw report;
- 437: // try_end1
+ 438: // try_end1
                     return tangon;
- 440: // catch_target0 // catch_target1
+ 441: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=3);
                     tangon = _closure1_slot1;
                     report = _closure1_slot2;
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['guildId'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
                     return michal;
- 491:
+ 492:
                     return entity;
                 }
             };

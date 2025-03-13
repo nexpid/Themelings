@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 347; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 348; continue _fun00003 }
  13:
                     offset = michal.authorize;
                     source = michal.clientId;
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     return option;
  94:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 344; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 345; continue _fun00003 }
  103:
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
@@ -119,25 +119,25 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     backup = null;
                     sizing = backup != romeon;
                     kiloes = undefined;
-                    if(!sizing) { _fun00004_ip = 241; continue _fun00003 }
- 229:
+                    if(!sizing) { _fun00004_ip = 242; continue _fun00003 }
+ 230:
                     sizing = backup != foxtra;
                     kiloes = undefined;
-                    if(!sizing) { _fun00004_ip = 241; continue _fun00003 }
- 238:
+                    if(!sizing) { _fun00004_ip = 242; continue _fun00003 }
+ 239:
                     kiloes = foxtra;
- 241:
+ 242:
                     oscard['webhook_channel_id'] = kiloes;
                     kiloes = backup == romeon;
                     romeon = undefined;
-                    if(!kiloes) { _fun00004_ip = 267; continue _fun00003 }
- 255:
+                    if(!kiloes) { _fun00004_ip = 268; continue _fun00003 }
+ 256:
                     backup = backup != foxtra;
                     romeon = undefined;
-                    if(!backup) { _fun00004_ip = 267; continue _fun00003 }
- 264:
+                    if(!backup) { _fun00004_ip = 268; continue _fun00003 }
+ 265:
                     romeon = foxtra;
- 267:
+ 268:
                     oscard['channel_id'] = romeon;
                     oscard['permissions'] = yankee;
                     oscard['authorize'] = offset;
@@ -151,20 +151,20 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     oscard = false;
                     zuuluu['rejectWithError'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
-                    SaveGenerator(address=327);
- 325:
+                    SaveGenerator(address=328);
+ 326:
                     return zuuluu;
- 327:
+ 328:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 341; continue _fun00003 }
- 333:
+                    if(tangon) { _fun00004_ip = 342; continue _fun00003 }
+ 334:
                     tangon = zuuluu.body;
                     return tangon;
- 341:
+ 342:
                     return zuuluu;
- 344:
+ 345:
                     return michal;
- 347:
+ 348:
                     return entity;
                 }
             };
@@ -282,7 +282,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     StartGenerator();
                     verify = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00008_ip = 156; continue _fun00007 }
+                    if(michal) { _fun00008_ip = 157; continue _fun00007 }
  13:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot2;
@@ -315,17 +315,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     oscard = false;
                     michal['rejectWithError'] = oscard;
                     michal = tangon.bind(report)(michal);
-                    SaveGenerator(address=144);
- 142:
+                    SaveGenerator(address=145);
+ 143:
                     return michal;
- 144:
+ 145:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00008_ip = 153; continue _fun00007 }
- 150:
+                    if(tangon) { _fun00008_ip = 154; continue _fun00007 }
+ 151:
                     return zuuluu;
- 153:
+ 154:
                     return michal;
- 156:
+ 157:
                     return entity;
                 }
             };
@@ -351,7 +351,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 110; continue _fun00009 }
+                    if(michal) { _fun00010_ip = 111; continue _fun00009 }
  7:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot2;
@@ -374,18 +374,18 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     report = false;
                     michal['rejectWithError'] = report;
                     michal = zuuluu.bind(tangon)(michal);
-                    SaveGenerator(address=93);
- 91:
+                    SaveGenerator(address=94);
+ 92:
                     return michal;
- 93:
+ 94:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00010_ip = 107; continue _fun00009 }
- 99:
+                    if(zuuluu) { _fun00010_ip = 108; continue _fun00009 }
+ 100:
                     zuuluu = michal.body;
                     return zuuluu;
- 107:
+ 108:
                     return michal;
- 110:
+ 111:
                     return entity;
                 }
             };

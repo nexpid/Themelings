@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 var _closure3_slot2 = foxtra;
                 entity = _closure2_slot6;
                 romeon = null;
-                if(!(romeon != entity)) { _fun00002_ip = 349; continue _fun00001 }
+                if(!(romeon != entity)) { _fun00002_ip = 350; continue _fun00001 }
  26:
                 michal = _closure2_slot6;
                 entity = michal.trim;
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = 4;
                 oscard = undefined;
                 entity = undefined;
-                if(!(offset !== michal)) { _fun00002_ip = 349; continue _fun00001 }
+                if(!(offset !== michal)) { _fun00002_ip = 350; continue _fun00001 }
  71:
                 tangon = _closure1_slot0;
                 michal = _closure1_slot1;
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['channelTypes'] = zuuluu;
                 entity['queryOptions'] = michal;
                 return entity;
- 349:
+ 350:
                 entity = {'query': null, 'autocompleteType': null, 'autocompleteSelectionStart': null};
                 return entity;
             }

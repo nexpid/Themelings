@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 330; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 331; continue _fun00001 }
  13:
                     report = michal.withSku;
                     zuuluu = undefined;
@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  72:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 327; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 328; continue _fun00001 }
  81:
                     golfie = _closure1_slot1;
                     report = _closure1_slot2;
@@ -79,13 +79,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = true;
                     report['rejectWithError'] = verify;
                     report = golfie.bind(option)(report);
-                    SaveGenerator(address=220);
- 218:
+                    SaveGenerator(address=221);
+ 219:
                     return report;
- 220:
+ 221:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 280; continue _fun00001 }
- 226:
+                    if(golfie) { _fun00002_ip = 281; continue _fun00001 }
+ 227:
                     option = _closure1_slot1;
                     golfie = _closure1_slot2;
                     golfie = golfie[oscard];
@@ -98,11 +98,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie['entitlements'] = yankee;
                     golfie['excludeEnded'] = offset;
                     golfie = option.bind(verify)(golfie);
- 278: // try_end0
-                    _fun00002_ip = 324; continue _fun00001;
- 280:
+ 279: // try_end0
+                    _fun00002_ip = 325; continue _fun00001;
+ 281:
                     return report;
- 283: // catch_target0
+ 284: // catch_target0
                     CatchBlockStart(arg_register=4);
                     report = _closure1_slot1;
                     tangon = _closure1_slot2;
@@ -113,11 +113,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = 'ENTITLEMENTS_FETCH_FOR_USER_FAIL';
                     tangon['type'] = golfie;
                     tangon = report.bind(oscard)(tangon);
- 324:
+ 325:
                     return zuuluu;
- 327:
+ 328:
                     return michal;
- 330:
+ 331:
                     return entity;
                 }
             };

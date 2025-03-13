@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = 10;
                     golfie = target[golfie];
                     golfie = yankee.bind(oscard)(golfie);
-                    golfie = golfie.ActivityLocationKinds;
+                    golfie = golfie.EmbeddedActivityLocationKind;
                     golfie = golfie.CONTEXTLESS;
                     golfie = verify === golfie;
                     if(golfie) { _fun00002_ip = 436; continue _fun00001 }
@@ -425,15 +425,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = 'modules/activities/handleJoinEmbeddedActivity.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: handleJoinEmbeddedActivity
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot2;
+        golfie = argFoo;
+        var _closure2_slot0 = golfie;
+        oscard = _closure1_slot0;
+        option = _closure1_slot2;
         michal = 7;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        zuuluu = tangon.bind(michal)(zuuluu);
-        michal = zuuluu.wrapPreemptiveActivityPopout;
+        zuuluu = option[michal];
+        report = undefined;
+        tangon = oscard.bind(report)(zuuluu);
+        zuuluu = tangon.wrapPreemptiveActivityPopout;
+        michal = option[michal];
+        oscard = oscard.bind(report)(michal);
+        report = oscard.shouldOpenActivityInPopoutWindow;
+        michal = {};
+        golfie = golfie.isContextlessActivity;
+        michal['isContextless'] = golfie;
+        michal = report.bind(oscard)(michal);
         entity = function() {
             zuuluu = _closure2_slot0;
             michal = function() { // Original name: handleJoinEmbeddedActivityInternal
@@ -450,7 +457,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = michal.bind(entity)(zuuluu);
             return entity;
         };
-        entity = michal.bind(zuuluu)(entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
     zuuluu['default'] = michal;

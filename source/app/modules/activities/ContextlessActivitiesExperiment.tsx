@@ -102,15 +102,22 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             oscard = tangon.bind(zuuluu)(entity);
             report = oscard.hasFlag;
             entity = argFoo;
-            tangon = entity.flags;
+            entity = entity.flags;
+            tangon = null;
+            golfie = tangon != entity;
+            tangon = 0;
+            if(!golfie) { _fun00004_ip = 53; continue _fun00003 }
+ 50:
+            tangon = entity;
+ 53:
             entity = _closure1_slot2;
             entity = entity.CONTEXTLESS_ACTIVITY;
             entity = report.bind(oscard)(tangon, entity);
-            if(!entity) { _fun00004_ip = 66; continue _fun00003 }
- 58:
+            if(!entity) { _fun00004_ip = 80; continue _fun00003 }
+ 72:
             michal = _closure1_slot4;
             entity = michal.bind(zuuluu)();
- 66:
+ 80:
             return entity;
         }
     };

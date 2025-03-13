@@ -63,17 +63,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = oscard.bind(entity)(michal);
     michal = michal.jsxs;
     var _closure1_slot14 = michal;
+    michal = 7;
+    michal = golfie[michal];
+    verify = foxtra.bind(entity)(michal);
+    michal = verify.prototype;
+    option = Object.create(michal, {constructor: {value: verify}});
+    update = 'SwipeForMemberListWrapper';
+    source = option;
+    michal = new source[verify](update, echoed);
+    michal = michal instanceof Object ? michal : option;
+    var _closure1_slot15 = michal;
     michal = report.createContext;
     michal = michal.bind(report)(entity);
-    var _closure1_slot15 = michal;
-    report = 7;
+    var _closure1_slot16 = michal;
+    report = 8;
     report = golfie[report];
     verify = oscard.bind(entity)(report);
     option = verify.createStyles;
     report = {};
     offset = {'flex': 1, 'justifyContent': 'center', 'alignItems': 'flex-start', 'overflow': 'hidden'};
     output = 'hidden';
-    romeon = 8;
+    romeon = 9;
     sizing = golfie[romeon];
     sizing = foxtra.bind(entity)(sizing);
     sizing = sizing.colors;
@@ -116,32 +126,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset['borderLeftWidth'] = yankee;
     report['midnightContainer'] = offset;
     report = option.bind(verify)(report);
-    var _closure1_slot16 = report;
+    var _closure1_slot17 = report;
     report = {};
     option = 'function SwipeForMemberListWrapperTsx1(){const{shownPixels}=this.__closure;return shownPixels.get()>0;}';
     report['code'] = option;
-    var _closure1_slot17 = report;
+    var _closure1_slot18 = report;
     report = {};
     option = 'function SwipeForMemberListWrapperTsx2(isVisible,wasVisible){const{mainDisallowGesture,stackDisallowGesture,panelDisallowGesture}=this.__closure;var _stackDisallowGesture;if(isVisible===wasVisible)return;mainDisallowGesture.set(isVisible);(_stackDisallowGesture=stackDisallowGesture)===null||_stackDisallowGesture===void 0||_stackDisallowGesture.set(isVisible);if(!isVisible){panelDisallowGesture.set(false);}}';
     report['code'] = option;
-    var _closure1_slot18 = report;
+    var _closure1_slot19 = report;
     report = {};
     option = 'function SwipeForMemberListWrapperTsx3(){const{mainTranslateX,stackTranslateX}=this.__closure;return mainTranslateX.get()>0||stackTranslateX!=null&&stackTranslateX.get()>0;}';
     report['code'] = option;
-    var _closure1_slot19 = report;
+    var _closure1_slot20 = report;
     report = {};
     option = 'function SwipeForMemberListWrapperTsx4(isInactive,wasInactive){const{panelDisallowGesture}=this.__closure;if(isInactive===wasInactive)return;panelDisallowGesture.set(isInactive);}';
     report['code'] = option;
-    var _closure1_slot20 = report;
+    var _closure1_slot21 = report;
     report = {};
     option = 'function SwipeForMemberListWrapperTsx5(){const{maxWidth,translateX}=this.__closure;return maxWidth-translateX.get();}';
     report['code'] = option;
-    var _closure1_slot21 = report;
+    var _closure1_slot22 = report;
     report = {};
     option = "function SwipeForMemberListWrapperTsx6(){const{shownPixels,PEEK_PIXEL_THRESHOLD}=this.__closure;const exceedsPeekThreshold=shownPixels.get()>PEEK_PIXEL_THRESHOLD*2;return{display:exceedsPeekThreshold?'none':'flex',opacity:exceedsPeekThreshold?0:1-shownPixels.get()/PEEK_PIXEL_THRESHOLD};}";
     report['code'] = option;
-    var _closure1_slot22 = report;
-    report = 27;
+    var _closure1_slot23 = report;
+    report = 28;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -157,7 +167,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot1 = michal;
             yankee = zuuluu.children;
             offset = zuuluu.style;
-            zuuluu = _closure1_slot16;
+            zuuluu = _closure1_slot17;
             tangon = undefined;
             update = zuuluu.bind(tangon)();
             backup = _closure1_slot4;
@@ -200,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = function() {
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
-                entity = 14;
+                entity = 15;
                 michal = michal[entity];
                 entity = undefined;
                 zuuluu = zuuluu.bind(entity)(michal);
@@ -212,11 +222,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = oscard.bind(backup)(report, zuuluu);
             zuuluu = _closure1_slot1;
             option = _closure1_slot2;
-            report = 15;
+            report = 16;
             report = option[report];
             report = zuuluu.bind(tangon)(report);
             config = report.bind(tangon)(michal);
-            report = 16;
+            report = 17;
             report = option[report];
             oscard = zuuluu.bind(tangon)(report);
             report = {'canDrag': true, 'onDragStart': null, 'startShown': false, 'cancelOnSwipeRightFromStart': true};
@@ -236,11 +246,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = oscard.maxWidth;
             var _closure2_slot6 = ctrled;
             oscard = _closure1_slot0;
-            echoed = 12;
+            echoed = 13;
             verify = option[echoed];
             output = oscard.bind(tangon)(verify);
             romeon = output.useDerivedValue;
-            verify = function() { // Original name: R
+            verify = function() { // Original name: W
                 michal = _closure2_slot6;
                 zuuluu = _closure2_slot4;
                 entity = zuuluu.get;
@@ -254,11 +264,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['__closure'] = source;
             source = 10842481670591.0;
             verify['__workletHash'] = source;
-            source = _closure1_slot21;
+            source = _closure1_slot22;
             verify['__initData'] = source;
             romeon = romeon.bind(output)(verify);
             var _closure2_slot7 = romeon;
-            verify = 17;
+            verify = 18;
             verify = option[verify];
             source = oscard.bind(tangon)(verify);
             output = source.useDerivedStateFromSharedValue;
@@ -337,7 +347,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = function() {
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                zuuluu = 18;
+                zuuluu = 19;
                 michal = oscard[zuuluu];
                 tangon = undefined;
                 michal = report.bind(tangon)(michal);
@@ -357,7 +367,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = function() {
                     report = _closure1_slot0;
                     oscard = _closure1_slot2;
-                    tangon = 18;
+                    tangon = 19;
                     zuuluu = oscard[tangon];
                     entity = undefined;
                     zuuluu = report.bind(entity)(zuuluu);
@@ -391,11 +401,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = michal.get;
                     michal = entity.bind(michal)();
                     entity = 0;
-                    if(!(!(michal <= entity))) { _fun00006_ip = 197; continue _fun00005 }
+                    if(!(!(michal <= entity))) { _fun00006_ip = 236; continue _fun00005 }
  25:
                     michal = _closure1_slot0;
                     report = _closure1_slot2;
-                    entity = 19;
+                    entity = 20;
                     entity = report[entity];
                     golfie = undefined;
                     michal = michal.bind(golfie)(entity);
@@ -411,47 +421,60 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  81:
                     report = _closure1_slot0;
                     option = _closure1_slot2;
-                    michal = 20;
+                    michal = 21;
                     michal = option[michal];
                     report = report.bind(golfie)(michal);
                     michal = report.coerceChannelRoute;
                     michal = michal.bind(report)(oscard);
+                    verify = _closure1_slot15;
+                    option = verify.verbose;
+                    oscard = {};
+                    oscard['channelRoute'] = michal;
+                    report = _closure2_slot0;
+                    oscard['channelId'] = report;
+                    report = 'handleBackPress';
+                    report = option.bind(verify)(report, oscard);
                     entity = entity != michal;
-                    if(!entity) { _fun00006_ip = 195; continue _fun00005 }
- 119:
+                    if(!entity) { _fun00006_ip = 234; continue _fun00005 }
+ 158:
                     michal = michal.params;
                     report = michal.channelId;
                     michal = _closure2_slot0;
                     michal = report === michal;
-                    if(!michal) { _fun00006_ip = 192; continue _fun00005 }
- 141:
+                    if(!michal) { _fun00006_ip = 231; continue _fun00005 }
+ 180:
                     oscard = _closure1_slot8;
                     report = _closure2_slot0;
                     report = oscard.bind(golfie)(report);
-                    if(report) { _fun00006_ip = 169; continue _fun00005 }
- 157:
+                    if(report) { _fun00006_ip = 208; continue _fun00005 }
+ 196:
                     report = _closure2_slot10;
                     report = report.bind(golfie)();
                     michal = true;
-                    _fun00006_ip = 192; continue _fun00005;
- 169:
+                    _fun00006_ip = 231; continue _fun00005;
+ 208:
                     oscard = _closure1_slot9;
                     report = _closure2_slot0;
                     tangon = false;
                     zuuluu = 'initial';
                     zuuluu = oscard.bind(golfie)(report, tangon, zuuluu);
                     michal = true;
- 192:
+ 231:
                     entity = michal;
- 195:
+ 234:
                     return entity;
- 197:
+ 236:
+                    tangon = _closure1_slot15;
+                    zuuluu = tangon.verbose;
+                    michal = 'handleBackPress';
+                    entity = 'shownPixels <= 0';
+                    entity = zuuluu.bind(tangon)(michal, entity);
                     entity = false;
                     return entity;
                 }
             };
             record = source.bind(backup)(verify, output);
-            verify = 21;
+            verify = 22;
             verify = option[verify];
             verify = zuuluu.bind(tangon)(verify);
             verify = verify.bind(tangon)(record, status);
@@ -474,7 +497,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = golfie.bind(tangon)(oscard, zuuluu, michal);
                     zuuluu = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    michal = 18;
+                    michal = 19;
                     michal = golfie[michal];
                     michal = zuuluu.bind(tangon)(michal);
                     tangon = michal.ComponentDispatch;
@@ -522,7 +545,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = function() {
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
-                    entity = 9;
+                    entity = 10;
                     zuuluu = zuuluu[entity];
                     entity = undefined;
                     report = tangon.bind(entity)(zuuluu);
@@ -563,7 +586,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  26:
                         zuuluu = _closure1_slot1;
                         tangon = _closure1_slot2;
-                        michal = 9;
+                        michal = 10;
                         michal = tangon[michal];
                         golfie = undefined;
                         tangon = zuuluu.bind(golfie)(michal);
@@ -605,7 +628,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = tangon.useContext;
                     oscard = _closure1_slot0;
                     verify = _closure1_slot2;
-                    entity = 10;
+                    entity = 11;
                     entity = verify[entity];
                     report = undefined;
                     entity = oscard.bind(report)(entity);
@@ -618,7 +641,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     foxtra = entity.translateX;
                     var _closure3_slot4 = foxtra;
                     zuuluu = tangon.useContext;
-                    entity = 11;
+                    entity = 12;
                     entity = verify[entity];
                     entity = oscard.bind(report)(entity);
                     entity = entity.MainTabsChannelScreenStackContext;
@@ -668,7 +691,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = tangon.bind(oscard)(entity, zuuluu);
                     tangon = _closure1_slot0;
                     oscard = _closure1_slot2;
-                    zuuluu = 12;
+                    zuuluu = 13;
                     golfie = oscard[zuuluu];
                     backup = tangon.bind(report)(golfie);
                     verify = backup.useAnimatedReaction;
@@ -685,7 +708,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option['__closure'] = golfie;
                     golfie = 15116046915956.0;
                     option['__workletHash'] = golfie;
-                    golfie = _closure1_slot17;
+                    golfie = _closure1_slot18;
                     option['__initData'] = golfie;
                     golfie = function(argFoo, argBar) { // Original name: c
                         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
@@ -723,7 +746,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie['__closure'] = kiloes;
                     kiloes = 13681610289748.0;
                     golfie['__workletHash'] = kiloes;
-                    kiloes = _closure1_slot18;
+                    kiloes = _closure1_slot19;
                     golfie['__initData'] = kiloes;
                     golfie = verify.bind(backup)(option, golfie);
                     zuuluu = oscard[zuuluu];
@@ -760,7 +783,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie['__closure'] = zuuluu;
                     zuuluu = 1038817187642.0;
                     golfie['__workletHash'] = zuuluu;
-                    zuuluu = _closure1_slot19;
+                    zuuluu = _closure1_slot20;
                     golfie['__initData'] = zuuluu;
                     zuuluu = function(argFoo, argBar) { // Original name: _
                         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
@@ -782,10 +805,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu['__closure'] = yankee;
                     yankee = 3362957347102.0;
                     zuuluu['__workletHash'] = yankee;
-                    offset = _closure1_slot20;
+                    offset = _closure1_slot21;
                     zuuluu['__initData'] = offset;
                     zuuluu = option.bind(verify)(golfie, zuuluu);
-                    zuuluu = 13;
+                    zuuluu = 14;
                     zuuluu = oscard[zuuluu];
                     tangon = tangon.bind(report)(zuuluu);
                     zuuluu = tangon.useUnmountEffect;
@@ -839,19 +862,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             report = verify.bind(backup)(michal, report);
-            michal = 11;
+            michal = 12;
             michal = option[michal];
             verify = oscard.bind(tangon)(michal);
             michal = verify.useMainTabsChannelScreenStyles;
             kiloes = michal.bind(verify)(foxtra, vacuum, ctrled);
-            michal = 22;
+            michal = 23;
             michal = option[michal];
             michal = zuuluu.bind(tangon)(michal);
             output = michal.bind(tangon)();
             michal = option[echoed];
             zuuluu = oscard.bind(tangon)(michal);
             michal = zuuluu.useAnimatedStyle;
-            entity = function() { // Original name: Q
+            entity = function() { // Original name: Z
                 _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
                     michal = _closure2_slot7;
@@ -888,15 +911,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['__closure'] = verify;
             verify = 2517347972077.0;
             entity['__workletHash'] = verify;
-            verify = _closure1_slot22;
+            verify = _closure1_slot23;
             entity['__initData'] = verify;
             source = michal.bind(zuuluu)(entity);
             zuuluu = _closure1_slot13;
-            entity = _closure1_slot15;
+            entity = _closure1_slot16;
             michal = entity.Provider;
             entity = {};
             entity['value'] = report;
-            report = 23;
+            report = 24;
             report = option[report];
             report = oscard.bind(tangon)(report);
             oscard = report.GestureDetector;
@@ -927,7 +950,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = _closure1_slot13;
             backup = _closure1_slot0;
             yankee = _closure1_slot2;
-            foxtra = 24;
+            foxtra = 25;
             foxtra = yankee[foxtra];
             foxtra = backup.bind(tangon)(foxtra);
             backup = foxtra.MainTabsContentScrim;
@@ -974,13 +997,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = _closure1_slot13;
             sizing = _closure1_slot0;
             kiloes = _closure1_slot2;
-            backup = 25;
+            backup = 26;
             backup = kiloes[backup];
             backup = sizing.bind(tangon)(backup);
             ctrled = backup.LayerScope;
             backup = {};
             sizing = _closure1_slot1;
-            vacuum = 26;
+            vacuum = 27;
             vacuum = kiloes[vacuum];
             sequen = sizing.bind(tangon)(vacuum);
             vacuum = {};

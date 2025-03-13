@@ -485,22 +485,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = golfie.bind(option)(michal, zuuluu);
             michal = _closure1_slot9;
             config = michal.bind(tangon)();
-            option = _closure1_slot1;
-            source = _closure1_slot2;
+            golfie = _closure1_slot1;
+            option = _closure1_slot2;
             michal = 8;
-            michal = source[michal];
-            michal = option.bind(tangon)(michal);
+            michal = option[michal];
+            michal = golfie.bind(tangon)(michal);
             michal = michal.bind(tangon)();
             offset = michal.top;
             zuuluu = michal.bottom;
-            golfie = michal.imeInsetsBottom;
             michal = 9;
-            michal = source[michal];
-            michal = option.bind(tangon)(michal);
-            michal = michal.bind(tangon)();
+            michal = option[michal];
+            golfie = golfie.bind(tangon)(michal);
+            michal = {};
+            option = true;
+            michal['ignoreKeyboard'] = option;
+            michal = golfie.bind(tangon)(michal);
             option = michal.width;
             michal = michal.height;
-            michal = michal + golfie;
             source = 'above';
             golfie = backup;
             if(!(source === papara)) { _fun00008_ip = 447; continue _fun00007 }
@@ -596,7 +597,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = verify[ctrled];
             option = golfie.bind(tangon)(zuuluu);
             report = option.useAnimatedStyle;
-            zuuluu = function() { // Original name: F
+            zuuluu = function() { // Original name: B
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     entity = global;

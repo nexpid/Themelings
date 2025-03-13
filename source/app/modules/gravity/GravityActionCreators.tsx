@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00006_ip = 378; continue _fun00005 }
+                        if(michal) { _fun00006_ip = 379; continue _fun00005 }
  10:
                         michal = undefined;
                         golfie = undefined;
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         report = oscard.icymiEnabled;
                         tangon = 'fetchDehydrated';
                         tangon = report.bind(oscard)(tangon);
-                        if(!tangon) { _fun00006_ip = 375; continue _fun00005 }
+                        if(!tangon) { _fun00006_ip = 376; continue _fun00005 }
  60:
                         tangon = _closure2_slot0;
                         if(!tangon) { _fun00006_ip = 114; continue _fun00005 }
@@ -197,13 +197,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         golfie = false;
                         tangon['rejectWithError'] = golfie;
                         tangon = report.bind(oscard)(tangon);
-                        SaveGenerator(address=232);
- 230:
+                        SaveGenerator(address=233);
+ 231:
                         return tangon;
- 232:
+ 233:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                        if(report) { _fun00006_ip = 339; continue _fun00005 }
- 238:
+                        if(report) { _fun00006_ip = 340; continue _fun00005 }
+ 239:
                         oscard = _closure1_slot1;
                         golfie = _closure1_slot2;
                         report = 4;
@@ -223,19 +223,19 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         option = _closure2_slot0;
                         report['isReloading'] = option;
                         report = oscard.bind(golfie)(report);
-                        SaveGenerator(address=328);
- 326:
+                        SaveGenerator(address=329);
+ 327:
                         return report;
- 328:
+ 329:
                         ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                        if(oscard) { _fun00006_ip = 336; continue _fun00005 }
- 334: // try_end0
-                        _fun00006_ip = 375; continue _fun00005;
- 336:
+                        if(oscard) { _fun00006_ip = 337; continue _fun00005 }
+ 335: // try_end0
+                        _fun00006_ip = 376; continue _fun00005;
+ 337:
                         return report;
- 339:
+ 340:
                         return tangon;
- 342: // catch_target0
+ 343: // catch_target0
                         CatchBlockStart(arg_register=4);
                         tangon = _closure1_slot1;
                         oscard = _closure1_slot2;
@@ -244,9 +244,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         tangon = tangon.bind(michal)(zuuluu);
                         zuuluu = tangon.captureException;
                         zuuluu = zuuluu.bind(tangon)(report);
- 375:
+ 376:
                         return michal;
- 378:
+ 379:
                         return entity;
                     }
                 };

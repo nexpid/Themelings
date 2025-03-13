@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 533; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 534; continue _fun00003 }
  13:
                     yankee = michal.guildId;
                     tangon = michal.status;
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  143:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00004_ip = 530; continue _fun00003 }
+                    if(report) { _fun00004_ip = 531; continue _fun00003 }
  152:
                     if(tangon) { _fun00004_ip = 179; continue _fun00003 }
  155:
@@ -179,9 +179,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = _closure1_slot5;
                     golfie = verify.isFetching;
                     golfie = golfie.bind(verify)();
-                    if(golfie) { _fun00004_ip = 527; continue _fun00003 }
+                    if(golfie) { _fun00004_ip = 528; continue _fun00003 }
  202:
-                    if(!tangon) { _fun00004_ip = 527; continue _fun00003 }
+                    if(!tangon) { _fun00004_ip = 528; continue _fun00003 }
  208:
                     verify = _closure1_slot1;
                     tangon = _closure1_slot2;
@@ -218,13 +218,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     backup = false;
                     tangon['rejectWithError'] = backup;
                     tangon = verify.bind(offset)(tangon);
-                    SaveGenerator(address=350);
- 348:
+                    SaveGenerator(address=351);
+ 349:
                     return tangon;
- 350:
+ 351:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=8);
-                    if(verify) { _fun00004_ip = 481; continue _fun00003 }
- 359:
+                    if(verify) { _fun00004_ip = 482; continue _fun00003 }
+ 360:
                     oscard = tangon;
                     verify = tangon.body;
                     foxtra = verify.total;
@@ -232,13 +232,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = verify.guild_join_requests;
                     option = offset;
                     verify = null;
-                    if(!(verify == offset)) { _fun00004_ip = 399; continue _fun00003 }
- 393:
+                    if(!(verify == offset)) { _fun00004_ip = 400; continue _fun00003 }
+ 394:
                     offset = new Array(0);
-                    _fun00004_ip = 402; continue _fun00003;
- 399:
+                    _fun00004_ip = 403; continue _fun00003;
+ 400:
                     offset = option;
- 402:
+ 403:
                     verify = offset.map;
                     option = _closure1_slot6;
                     backup = verify.bind(offset)(option);
@@ -256,11 +256,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option['limit'] = romeon;
                     option['guildId'] = yankee;
                     option = verify.bind(offset)(option);
- 478: // try_end0
+ 479: // try_end0
                     return oscard;
- 481:
+ 482:
                     return tangon;
- 484: // catch_target0
+ 485: // catch_target0
                     CatchBlockStart(arg_register=3);
                     oscard = _closure1_slot1;
                     report = _closure1_slot2;
@@ -272,11 +272,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report['type'] = option;
                     report = oscard.bind(golfie)(report);
                     throw tangon;
- 527:
+ 528:
                     return zuuluu;
- 530:
+ 531:
                     return michal;
- 533:
+ 534:
                     return entity;
                 }
             };

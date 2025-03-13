@@ -235,8 +235,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = 0;
                     oscard = argBar;
                     golfie = golfie !== oscard;
-                    if(!golfie) { _fun00010_ip = 65; continue _fun00009 }
- 34:
+                    if(!golfie) { _fun00010_ip = 64; continue _fun00009 }
+ 33:
                     offset = _closure1_slot29;
                     verify = _closure1_slot8;
                     option = {};
@@ -246,7 +246,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option['style'] = oscard;
                     oscard = undefined;
                     golfie = offset.bind(oscard)(verify, option);
- 65:
+ 64:
                     oscard = new Array(2);
                     oscard[0] = golfie;
                     verify = _closure1_slot29;

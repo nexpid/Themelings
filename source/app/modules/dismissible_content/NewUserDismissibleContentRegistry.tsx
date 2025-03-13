@@ -84,16 +84,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     offset = oscard[option];
     offset = report.bind(entity)(offset);
     offset = offset.DismissibleContent;
-    offset = offset.REFERRAL_INCENTIVE_TOOLTIP_AND_TAB_COLOR;
-    tangon[offset] = verify;
-    offset = oscard[option];
-    offset = report.bind(entity)(offset);
-    offset = offset.DismissibleContent;
-    offset = offset.REFERRAL_INCENTIVE_AWARDED_INFO;
-    tangon[offset] = verify;
-    offset = oscard[option];
-    offset = report.bind(entity)(offset);
-    offset = offset.DismissibleContent;
     offset = offset.WHATS_NEW_TENURE_BADGE_REWARD;
     tangon[offset] = verify;
     offset = oscard[option];

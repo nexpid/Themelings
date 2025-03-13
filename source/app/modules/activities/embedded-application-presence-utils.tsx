@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = option[oscard];
             oscard = undefined;
             oscard = verify.bind(oscard)(option);
-            oscard = oscard.ActivityLocationKinds;
+            oscard = oscard.EmbeddedActivityLocationKind;
             oscard = oscard.CONTEXTLESS;
             tangon = golfie === oscard;
  102:

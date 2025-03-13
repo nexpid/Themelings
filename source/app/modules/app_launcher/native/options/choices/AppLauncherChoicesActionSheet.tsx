@@ -268,10 +268,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = _closure2_slot0;
                     golfie = oscard.choices;
                     oscard = null;
-                    if(!(oscard == golfie)) { _fun00008_ip = 63; continue _fun00007 }
- 59:
+                    if(!(oscard == golfie)) { _fun00008_ip = 64; continue _fun00007 }
+ 60:
                     golfie = new Array(0);
- 63:
+ 64:
                     zuuluu['choices'] = golfie;
                     zuuluu['limit'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);

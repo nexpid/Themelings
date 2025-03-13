@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00004_ip = 320; continue _fun00003 }
+                        if(michal) { _fun00004_ip = 321; continue _fun00003 }
  10:
                         michal = undefined;
                         offset = undefined;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         report = report.bind(michal)(zuuluu);
                         zuuluu = report.hasRegistrationUsernameSuggestions;
                         zuuluu = zuuluu.bind(report)();
-                        if(!zuuluu) { _fun00004_ip = 317; continue _fun00003 }
+                        if(!zuuluu) { _fun00004_ip = 318; continue _fun00003 }
  55:
                         report = _closure1_slot1;
                         zuuluu = _closure1_slot2;
@@ -118,30 +118,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         romeon = true;
                         zuuluu['rejectWithError'] = romeon;
                         zuuluu = report.bind(yankee)(zuuluu);
-                        SaveGenerator(address=203);
- 201:
+                        SaveGenerator(address=204);
+ 202:
                         return zuuluu;
- 203:
+ 204:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                        if(report) { _fun00004_ip = 312; continue _fun00003 }
- 209:
+                        if(report) { _fun00004_ip = 313; continue _fun00003 }
+ 210:
                         option = zuuluu;
                         report = zuuluu.ok;
-                        if(!report) { _fun00004_ip = 250; continue _fun00003 }
- 221:
+                        if(!report) { _fun00004_ip = 251; continue _fun00003 }
+ 222:
                         report = option;
                         report = report.body;
                         offset = report;
                         yankee = verify == report;
                         report = undefined;
-                        if(yankee) { _fun00004_ip = 246; continue _fun00003 }
- 241:
+                        if(yankee) { _fun00004_ip = 247; continue _fun00003 }
+ 242:
                         report = offset.username;
- 246:
-                        if(!(verify == report)) { _fun00004_ip = 252; continue _fun00003 }
- 250: // try_end0
-                        _fun00004_ip = 317; continue _fun00003;
- 252: // try_start_1
+ 247:
+                        if(!(verify == report)) { _fun00004_ip = 253; continue _fun00003 }
+ 251: // try_end0
+                        _fun00004_ip = 318; continue _fun00003;
+ 253: // try_start_1
                         report = _closure1_slot1;
                         tangon = _closure1_slot2;
                         tangon = tangon[oscard];
@@ -155,15 +155,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         golfie = _closure2_slot0;
                         tangon['source'] = golfie;
                         tangon = report.bind(oscard)(tangon);
- 309: // try_end1
+ 310: // try_end1
                         return tangon;
- 312:
+ 313:
                         return zuuluu;
- 315: // catch_target0 // catch_target1
+ 316: // catch_target0 // catch_target1
                         CatchBlockStart(arg_register=2);
- 317:
+ 318:
                         return michal;
- 320:
+ 321:
                         return entity;
                     }
                 };

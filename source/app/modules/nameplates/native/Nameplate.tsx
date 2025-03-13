@@ -41,43 +41,46 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = function(argFoo, argBar, argBaz) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscard = argFoo;
-            tangon = argBar;
-            report = argBaz;
+            tangon = argFoo;
+            report = argBar;
+            oscard = argBaz;
             entity = {};
             michal = {'position': 'absolute', 'overflow': 'hidden', 'top': 0, 'bottom': 0, 'left': 0, 'right': 0};
             entity['container'] = michal;
             michal = {'position': 'absolute', 'width': '100%', 'height': '100%'};
             zuuluu = 1;
             golfie = zuuluu;
-            if(oscard) { _fun00002_ip = 94; continue _fun00001 }
- 52:
-            option = 0.8;
-            if(tangon) { _fun00002_ip = 91; continue _fun00001 }
- 65:
+            if(tangon) { _fun00002_ip = 90; continue _fun00001 }
+ 48:
+            option = 0.6;
+            if(report) { _fun00002_ip = 87; continue _fun00001 }
+ 61:
             verify = 0.2;
-            if(!report) { _fun00002_ip = 88; continue _fun00001 }
- 78:
+            if(!oscard) { _fun00002_ip = 84; continue _fun00001 }
+ 74:
             verify = 0.5;
- 88:
+ 84:
             option = verify;
- 91:
+ 87:
             golfie = option;
- 94:
+ 90:
             michal['opacity'] = golfie;
             entity['gradient'] = michal;
             michal = {'position': 'absolute', 'height': '100%', 'width': '100%', 'right': 0, 'aspectRatio': 2.5396825396825395};
-            if(oscard) { _fun00002_ip = 149; continue _fun00001 }
- 120:
-            if(tangon) { _fun00002_ip = 136; continue _fun00001 }
- 123:
-            tangon = 0.5;
-            if(!report) { _fun00002_ip = 146; continue _fun00001 }
- 136:
-            tangon = 0.8;
- 146:
+            if(tangon) { _fun00002_ip = 158; continue _fun00001 }
+ 116:
+            tangon = 0.6;
+            if(report) { _fun00002_ip = 155; continue _fun00001 }
+ 129:
+            report = 0.3;
+            if(!oscard) { _fun00002_ip = 152; continue _fun00001 }
+ 142:
+            report = 0.8;
+ 152:
+            tangon = report;
+ 155:
             zuuluu = tangon;
- 149:
+ 158:
             michal['opacity'] = zuuluu;
             entity['img'] = michal;
             return entity;

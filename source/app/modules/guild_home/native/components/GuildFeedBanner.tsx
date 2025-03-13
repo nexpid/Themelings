@@ -589,7 +589,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  1052:
             romeon = !foxtra;
  1055:
-            if(!romeon) { _fun00002_ip = 1573; continue _fun00001 }
+            if(!romeon) { _fun00002_ip = 1572; continue _fun00001 }
  1061:
             kiloes = _closure1_slot15;
             backup = _closure1_slot5;
@@ -683,12 +683,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = target.presenceCount;
             result = echoed != output;
             output = null;
-            if(!result) { _fun00002_ip = 1559; continue _fun00001 }
+            if(!result) { _fun00002_ip = 1558; continue _fun00001 }
  1361:
             result = target.memberCount;
             result = echoed != result;
             output = null;
-            if(!result) { _fun00002_ip = 1559; continue _fun00001 }
+            if(!result) { _fun00002_ip = 1558; continue _fun00001 }
  1379:
             update = _closure1_slot15;
             result = _closure1_slot4;
@@ -728,11 +728,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source[1] = ctrled;
             result['children'] = source;
             output = update.bind(tangon)(echoed, result);
- 1559:
+ 1558:
             sizing[1] = output;
             foxtra['children'] = sizing;
             romeon = kiloes.bind(tangon)(backup, foxtra);
- 1573:
+ 1572:
             yankee[3] = romeon;
             verify['children'] = yankee;
             verify = offset.bind(tangon)(golfie, verify);

@@ -373,7 +373,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = result.bind(tangon)(output, kiloes);
             option[1] = kiloes;
             offset = null;
-            if(!backup) { _fun00002_ip = 1231; continue _fun00001 }
+            if(!backup) { _fun00002_ip = 1227; continue _fun00001 }
  1123:
             kiloes = _closure1_slot7;
             update = _closure1_slot0;
@@ -410,7 +410,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             yankee['onPress'] = sizing;
             offset = kiloes.bind(tangon)(backup, yankee);
- 1231:
+ 1227:
             option[2] = offset;
             yankee = _closure1_slot7;
             offset = _closure1_slot1;

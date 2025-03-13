@@ -1,0 +1,35 @@
+// app/modules/tti_analytics/native/TTIMeasurementView.android.tsx
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
+    golfie = argBaz;
+    zuuluu = argFre;
+    report = argPlu;
+    entity = global;
+    oscard = entity.Object;
+    tangon = oscard.defineProperty;
+    michal = {};
+    entity = true;
+    michal['value'] = entity;
+    entity = '__esModule';
+    entity = tangon.bind(oscard)(zuuluu, entity, michal);
+    entity = 0;
+    michal = report[entity];
+    entity = undefined;
+    tangon = golfie.bind(entity)(michal);
+    michal = {};
+    oscard = 'DCDTTIMeasurementView';
+    michal['componentName'] = oscard;
+    oscard = 1;
+    oscard = report[oscard];
+    oscard = golfie.bind(entity)(oscard);
+    michal['componentFoundInstance'] = oscard;
+    michal = tangon.bind(entity)(michal);
+    tangon = 2;
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/tti_analytics/native/TTIMeasurementView.android.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['TTIMeasurementView'] = michal;
+    return entity;
+})();

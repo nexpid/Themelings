@@ -131,34 +131,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = undefined;
             oscard = entity.bind(tangon)();
             var _closure2_slot0 = oscard;
-            verify = _closure1_slot4;
-            entity = verify.useState;
+            golfie = _closure1_slot4;
+            entity = golfie.useState;
             romeon = true;
-            entity = entity.bind(verify)(romeon);
+            entity = entity.bind(golfie)(romeon);
             yankee = _closure1_slot3;
-            golfie = 2;
-            michal = yankee.bind(tangon)(entity, golfie);
+            offset = 2;
+            michal = yankee.bind(tangon)(entity, offset);
             entity = 0;
-            offset = michal[entity];
-            var _closure2_slot1 = offset;
+            verify = michal[entity];
+            var _closure2_slot1 = verify;
             zuuluu = 1;
             michal = michal[zuuluu];
             var _closure2_slot2 = michal;
-            michal = verify.useState;
-            michal = michal.bind(verify)(romeon);
-            michal = yankee.bind(tangon)(michal, golfie);
+            michal = golfie.useState;
+            michal = michal.bind(golfie)(romeon);
+            michal = yankee.bind(tangon)(michal, offset);
             entity = michal[entity];
             var _closure2_slot3 = entity;
             michal = michal[zuuluu];
             var _closure2_slot4 = michal;
             michal = _closure1_slot6;
             michal = michal.TTIManager;
-            golfie = michal.AppOpenedTimestamp;
-            var _closure2_slot5 = golfie;
-            zuuluu = verify.useMemo;
+            offset = michal.AppOpenedTimestamp;
+            var _closure2_slot5 = offset;
+            zuuluu = golfie.useMemo;
             michal = new Array(3);
-            michal[0] = golfie;
-            michal[1] = offset;
+            michal[0] = offset;
+            michal[1] = verify;
             michal[2] = entity;
             entity = function() {
                 michal = _closure1_slot1;
@@ -177,71 +177,70 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            verify = zuuluu.bind(verify)(entity, michal);
+            verify = zuuluu.bind(golfie)(entity, michal);
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
             entity = 9;
-            offset = michal[entity];
-            offset = zuuluu.bind(tangon)(offset);
-            offset = offset.loadIndex;
-            offset = offset.start;
+            golfie = michal[entity];
+            golfie = zuuluu.bind(tangon)(golfie);
+            golfie = golfie.loadIndex;
+            golfie = golfie.start;
+            golfie = golfie - offset;
+            var _closure2_slot6 = golfie;
+            golfie = michal[entity];
+            golfie = zuuluu.bind(tangon)(golfie);
+            golfie = golfie.loadMiniCache;
+            offset = golfie.end;
+            golfie = michal[entity];
+            golfie = zuuluu.bind(tangon)(golfie);
+            golfie = golfie.loadMiniCache;
+            golfie = golfie.start;
             offset = offset - golfie;
-            var _closure2_slot6 = offset;
-            offset = michal[entity];
-            offset = zuuluu.bind(tangon)(offset);
-            offset = offset.loadMiniCache;
-            yankee = offset.end;
-            offset = michal[entity];
-            offset = zuuluu.bind(tangon)(offset);
-            offset = offset.loadMiniCache;
-            offset = offset.start;
-            yankee = yankee - offset;
-            offset = michal[entity];
-            offset = zuuluu.bind(tangon)(offset);
-            offset = offset.parseStorage;
-            romeon = offset.end;
-            offset = michal[entity];
-            offset = zuuluu.bind(tangon)(offset);
-            offset = offset.parseStorage;
-            offset = offset.start;
-            offset = romeon - offset;
-            offset = yankee + offset;
-            var _closure2_slot7 = offset;
-            offset = michal[entity];
-            offset = zuuluu.bind(tangon)(offset);
-            offset = offset.loadLazyCache;
-            yankee = offset.end;
-            offset = michal[entity];
-            offset = zuuluu.bind(tangon)(offset);
-            offset = offset.loadLazyCache;
-            offset = offset.start;
-            offset = yankee - offset;
-            var _closure2_slot8 = offset;
-            offset = michal[entity];
-            offset = zuuluu.bind(tangon)(offset);
-            offset = offset.ready;
-            yankee = offset.end;
-            offset = michal[entity];
-            offset = zuuluu.bind(tangon)(offset);
-            offset = offset.ready;
-            offset = offset.start;
-            offset = yankee - offset;
-            var _closure2_slot9 = offset;
+            golfie = michal[entity];
+            golfie = zuuluu.bind(tangon)(golfie);
+            golfie = golfie.parseStorage;
+            yankee = golfie.end;
+            golfie = michal[entity];
+            golfie = zuuluu.bind(tangon)(golfie);
+            golfie = golfie.parseStorage;
+            golfie = golfie.start;
+            golfie = yankee - golfie;
+            golfie = offset + golfie;
+            var _closure2_slot7 = golfie;
+            golfie = michal[entity];
+            golfie = zuuluu.bind(tangon)(golfie);
+            golfie = golfie.loadLazyCache;
+            offset = golfie.end;
+            golfie = michal[entity];
+            golfie = zuuluu.bind(tangon)(golfie);
+            golfie = golfie.loadLazyCache;
+            golfie = golfie.start;
+            golfie = offset - golfie;
+            var _closure2_slot8 = golfie;
+            golfie = michal[entity];
+            golfie = zuuluu.bind(tangon)(golfie);
+            golfie = golfie.ready;
+            offset = golfie.end;
+            golfie = michal[entity];
+            golfie = zuuluu.bind(tangon)(golfie);
+            golfie = golfie.ready;
+            golfie = golfie.start;
+            golfie = offset - golfie;
+            var _closure2_slot9 = golfie;
             michal = michal[entity];
             michal = zuuluu.bind(tangon)(michal);
             michal = michal.extraProperties;
             michal = michal.time_first_native_message_render_end;
             zuuluu = null;
-            if(!(zuuluu == michal)) { _fun00002_ip = 446; continue _fun00001 }
+            if(!(zuuluu == michal)) { _fun00002_ip = 442; continue _fun00001 }
  413:
-            offset = _closure1_slot1;
+            golfie = _closure1_slot1;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[entity];
-            zuuluu = offset.bind(tangon)(zuuluu);
+            zuuluu = golfie.bind(tangon)(zuuluu);
             zuuluu = zuuluu.renderMessagesWithCache;
-            zuuluu = zuuluu.time;
-            michal = zuuluu - golfie;
- 446:
+            michal = zuuluu.time;
+ 442:
             var _closure2_slot10 = michal;
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
@@ -254,16 +253,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[entity];
             zuuluu = golfie.bind(tangon)(zuuluu);
-            if(michal) { _fun00002_ip = 516; continue _fun00001 }
- 503:
+            if(michal) { _fun00002_ip = 512; continue _fun00001 }
+ 499:
             michal = zuuluu.ready;
             michal = michal.end;
-            _fun00002_ip = 528; continue _fun00001;
- 516:
+            _fun00002_ip = 524; continue _fun00001;
+ 512:
             zuuluu = zuuluu.renderLatestMessages;
             michal = zuuluu.time;
- 528:
+ 524:
             var _closure2_slot11 = michal;
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
+            michal = michal[entity];
+            michal = zuuluu.bind(tangon)(michal);
+            zuuluu = michal.displayLatestMessages;
+            michal = zuuluu.hasData;
+            michal = michal.bind(zuuluu)();
+            golfie = _closure1_slot1;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu[entity];
+            zuuluu = golfie.bind(tangon)(zuuluu);
+            if(michal) { _fun00002_ip = 594; continue _fun00001 }
+ 581:
+            michal = zuuluu.ready;
+            michal = michal.end;
+            _fun00002_ip = 606; continue _fun00001;
+ 594:
+            zuuluu = zuuluu.displayLatestMessages;
+            michal = zuuluu.time;
+ 606:
+            var _closure2_slot12 = michal;
             michal = global;
             zuuluu = michal.Math;
             michal = zuuluu.ceil;
@@ -274,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.renderLatestMessages;
             entity = entity.importTime;
             entity = michal.bind(zuuluu)(entity);
-            var _closure2_slot12 = entity;
+            var _closure2_slot13 = entity;
             entity = function(argFoo) { // Original name: renderTime
                 option = argFoo;
                 tangon = _closure1_slot7;
@@ -287,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = global;
                 golfie = entity.Math;
                 oscard = golfie.round;
-                offset = _closure2_slot11;
+                offset = _closure2_slot12;
                 report = _closure2_slot5;
                 report = offset - report;
                 option = option / report;
@@ -306,7 +326,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = tangon.bind(entity)(zuuluu, michal);
                 return entity;
             };
-            var _closure2_slot13 = entity;
+            var _closure2_slot14 = entity;
             entity = function(argFoo) { // Original name: renderTTi
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -338,7 +358,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            var _closure2_slot14 = entity;
+            var _closure2_slot15 = entity;
             zuuluu = _closure1_slot7;
             michal = _closure1_slot5;
             entity = {};
@@ -385,18 +405,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 echoed = {};
                 sequen = _closure1_slot11;
                 source = {};
-                vacuum = _closure2_slot13;
+                vacuum = _closure2_slot14;
                 ctrled = _closure2_slot6;
                 vacuum = vacuum.bind(entity)(ctrled);
                 ctrled = ['Native: '];
                 ctrled[1] = vacuum;
                 source['children'] = ctrled;
                 ctrled = tangon.bind(entity)(sequen, source);
-                source = new Array(7);
+                source = new Array(8);
                 source[0] = ctrled;
                 ctrled = {};
-                config = _closure2_slot13;
-                vacuum = _closure2_slot12;
+                config = _closure2_slot14;
+                vacuum = _closure2_slot13;
                 config = config.bind(entity)(vacuum);
                 vacuum = ['JS Imports: '];
                 vacuum[1] = config;
@@ -404,7 +424,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 ctrled = tangon.bind(entity)(sequen, ctrled);
                 source[1] = ctrled;
                 ctrled = {};
-                config = _closure2_slot13;
+                config = _closure2_slot14;
                 vacuum = _closure2_slot7;
                 config = config.bind(entity)(vacuum);
                 vacuum = ['Mini Cache: '];
@@ -413,7 +433,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 ctrled = tangon.bind(entity)(sequen, ctrled);
                 source[2] = ctrled;
                 ctrled = {};
-                config = _closure2_slot13;
+                config = _closure2_slot14;
                 vacuum = _closure2_slot8;
                 config = config.bind(entity)(vacuum);
                 vacuum = ['Lazy Cache: '];
@@ -422,7 +442,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 ctrled = tangon.bind(entity)(sequen, ctrled);
                 source[3] = ctrled;
                 ctrled = {};
-                config = _closure2_slot13;
+                config = _closure2_slot14;
                 vacuum = _closure2_slot9;
                 config = config.bind(entity)(vacuum);
                 vacuum = ['Ready: '];
@@ -431,25 +451,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 ctrled = tangon.bind(entity)(sequen, ctrled);
                 source[4] = ctrled;
                 ctrled = {};
-                config = _closure2_slot14;
+                config = _closure2_slot15;
                 vacuum = _closure2_slot10;
+                record = _closure2_slot5;
+                vacuum = vacuum - record;
                 config = config.bind(entity)(vacuum);
-                vacuum = ['First Cached Render: '];
+                vacuum = ['Cached Messages Render: '];
                 vacuum[1] = config;
                 ctrled['children'] = vacuum;
                 ctrled = tangon.bind(entity)(sequen, ctrled);
                 source[5] = ctrled;
                 ctrled = {};
-                config = _closure2_slot14;
-                record = _closure2_slot11;
-                vacuum = _closure2_slot5;
-                vacuum = record - vacuum;
+                config = _closure2_slot15;
+                vacuum = _closure2_slot11;
+                vacuum = vacuum - record;
+                config = config.bind(entity)(vacuum);
+                vacuum = ['Latest Messages Render: '];
+                vacuum[1] = config;
+                ctrled['children'] = vacuum;
+                ctrled = tangon.bind(entity)(sequen, ctrled);
+                source[6] = ctrled;
+                ctrled = {};
+                config = _closure2_slot15;
+                vacuum = _closure2_slot12;
+                vacuum = vacuum - record;
                 config = config.bind(entity)(vacuum);
                 vacuum = ['Full TTI: '];
                 vacuum[1] = config;
                 ctrled['children'] = vacuum;
                 ctrled = tangon.bind(entity)(sequen, ctrled);
-                source[6] = ctrled;
+                source[7] = ctrled;
                 echoed['children'] = source;
                 echoed = tangon.bind(entity)(zuuluu, echoed);
                 backup['label'] = echoed;

@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 1186; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 1187; continue _fun00001 }
  12:
                     michal = undefined;
                     romeon = undefined;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return tangon;
  111:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 1164; continue _fun00001 }
+                    if(oscard) { _fun00002_ip = 1165; continue _fun00001 }
  120:
                     oscard = tangon.text;
                     echoed = offset.bind(michal)(oscard);
@@ -83,20 +83,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  207:
                     kiloes = report;
                     offset = golfie;
-                    if(!(kiloes !== offset)) { _fun00002_ip = 1143; continue _fun00001 }
+                    if(!(kiloes !== offset)) { _fun00002_ip = 1144; continue _fun00001 }
  220: // try_start_0
                     offset = report;
-                    if(!(oscard !== offset)) { _fun00002_ip = 821; continue _fun00001 }
+                    if(!(oscard !== offset)) { _fun00002_ip = 822; continue _fun00001 }
  230:
                     kiloes = report;
                     offset = golfie;
-                    if(!(!(kiloes > offset))) { _fun00002_ip = 821; continue _fun00001 }
+                    if(!(!(kiloes > offset))) { _fun00002_ip = 822; continue _fun00001 }
  243:
                     offset = golfie;
                     golfie = report;
                     offset = offset - golfie;
                     golfie = _closure1_slot8;
-                    if(!(!(offset > golfie))) { _fun00002_ip = 760; continue _fun00001 }
+                    if(!(!(offset > golfie))) { _fun00002_ip = 761; continue _fun00001 }
  264:
                     offset = _closure1_slot0;
                     golfie = _closure1_slot2;
@@ -114,25 +114,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     sizing = false;
                     golfie['rejectWithError'] = sizing;
                     golfie = offset.bind(kiloes)(golfie);
-                    SaveGenerator(address=330);
- 328:
+                    SaveGenerator(address=331);
+ 329:
                     return golfie;
- 330:
+ 331:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=9);
-                    if(offset) { _fun00002_ip = 757; continue _fun00001 }
- 339:
+                    if(offset) { _fun00002_ip = 758; continue _fun00001 }
+ 340:
                     offset = golfie.body;
                     foxtra = offset;
                     offset = offset.ADDED;
                     offset = offset.length;
                     kiloes = 0;
-                    if(!(kiloes === offset)) { _fun00002_ip = 385; continue _fun00001 }
- 364:
+                    if(!(kiloes === offset)) { _fun00002_ip = 386; continue _fun00001 }
+ 365:
                     offset = foxtra;
                     offset = offset.REMOVED;
                     offset = offset.length;
-                    if(!(kiloes !== offset)) { _fun00002_ip = 731; continue _fun00001 }
- 385:
+                    if(!(kiloes !== offset)) { _fun00002_ip = 732; continue _fun00001 }
+ 386:
                     sizing = _closure1_slot9;
                     kiloes = sizing.verbose;
                     offset = foxtra;
@@ -161,17 +161,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     offset = output.bind(result)(sizing, kiloes, offset);
-                    SaveGenerator(address=507);
- 505:
+                    SaveGenerator(address=508);
+ 506:
                     return offset;
- 507:
+ 508:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=14);
-                    if(kiloes) { _fun00002_ip = 728; continue _fun00001 }
- 516:
+                    if(kiloes) { _fun00002_ip = 729; continue _fun00001 }
+ 517:
                     backup = offset;
                     _closure4_slot2 = offset;
-                    if(!(oscard !== offset)) { _fun00002_ip = 694; continue _fun00001 }
- 530:
+                    if(!(oscard !== offset)) { _fun00002_ip = 695; continue _fun00001 }
+ 531:
                     output = _closure1_slot9;
                     sizing = output.verbose;
                     kiloes = backup;
@@ -263,9 +263,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     backup = kiloes.verbose;
                     foxtra = 'Delta applied successfully';
                     foxtra = backup.bind(kiloes)(foxtra);
- 689: // try_end0
-                    _fun00002_ip = 1044; continue _fun00001;
- 694: // try_start_1
+ 690: // try_end0
+                    _fun00002_ip = 1045; continue _fun00001;
+ 695: // try_start_1
                     kiloes = verify.Error;
                     foxtra = kiloes.prototype;
                     backup = Object.create(foxtra, {constructor: {value: kiloes}});
@@ -274,19 +274,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     foxtra = new sequen[kiloes](vacuum, ctrled);
                     foxtra = foxtra instanceof Object ? foxtra : backup;
                     throw foxtra;
- 728: // try_end1 // try_end4
+ 729: // try_end1 // try_end4
                     return offset;
- 731: // try_start_2 // try_start_5
+ 732: // try_start_2 // try_start_5
                     backup = _closure1_slot9;
                     foxtra = backup.verbose;
                     offset = 'No changes to blocked domains list.';
                     offset = foxtra.bind(backup)(offset);
- 752: // try_end2 // try_end5
+ 753: // try_end2 // try_end5
                     offset = undefined;
                     return offset;
- 757:
+ 758:
                     return golfie;
- 760: // try_start_3 // try_start_6
+ 761: // try_start_3 // try_start_6
                     foxtra = verify.Error;
                     kiloes = _closure1_slot8;
                     golfie = verify.HermesInternal;
@@ -300,13 +300,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = new sequen[foxtra](vacuum, ctrled);
                     golfie = golfie instanceof Object ? golfie : offset;
                     throw golfie;
- 821:
+ 822:
                     golfie = verify.Error;
                     offset = 'greater than server revision number';
-                    if(!(oscard === report)) { _fun00002_ip = 841; continue _fun00001 }
- 837:
+                    if(!(oscard === report)) { _fun00002_ip = 842; continue _fun00001 }
+ 838:
                     offset = 'null';
- 841:
+ 842:
                     report = golfie.prototype;
                     oscard = Object.create(report, {constructor: {value: golfie}});
                     report = 'Client revision number is ';
@@ -315,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = new sequen[golfie](vacuum, ctrled);
                     report = report instanceof Object ? report : oscard;
                     throw report;
- 873: // try_end3 // catch_target0 // catch_target1 // catch_target2 // catch_target3
+ 874: // try_end3 // catch_target0 // catch_target1 // catch_target2 // catch_target3
                     CatchBlockStart(arg_register=4);
                     golfie = _closure1_slot9;
                     oscard = golfie.verbose;
@@ -334,8 +334,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = report.bind(oscard)();
                     golfie = _closure1_slot9;
                     oscard = golfie.verbose;
-                    if(report) { _fun00002_ip = 1148; continue _fun00001 }
- 963:
+                    if(report) { _fun00002_ip = 1149; continue _fun00001 }
+ 964:
                     report = 'Downloading the full bad domains file';
                     report = oscard.bind(golfie)(report);
                     offset = _closure1_slot0;
@@ -350,17 +350,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     foxtra = false;
                     report['rejectWithError'] = foxtra;
                     report = offset.bind(yankee)(report);
-                    SaveGenerator(address=1026);
- 1024:
+                    SaveGenerator(address=1027);
+ 1025:
                     return report;
- 1026:
+ 1027:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=9);
-                    if(offset) { _fun00002_ip = 1145; continue _fun00001 }
- 1032:
+                    if(offset) { _fun00002_ip = 1146; continue _fun00001 }
+ 1033:
                     offset = report.body;
                     romeon = offset;
                     _closure4_slot0 = offset;
- 1044:
+ 1045:
                     yankee = _closure1_slot9;
                     offset = yankee.verbose;
                     backup = romeon.length;
@@ -397,26 +397,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     option = yankee.bind(romeon)(offset, verify, option);
- 1143: // try_end6
-                    _fun00002_ip = 1183; continue _fun00001;
- 1145:
+ 1144: // try_end6
+                    _fun00002_ip = 1184; continue _fun00001;
+ 1146:
                     return report;
- 1148: // try_start_7
+ 1149: // try_start_7
                     report = 'Slow network detected, not downloading full list';
                     report = oscard.bind(golfie)(report);
- 1159: // try_end7
+ 1160: // try_end7
                     report = undefined;
                     return report;
- 1164:
+ 1165:
                     return tangon;
- 1167: // catch_target4 // catch_target5 // catch_target6 // catch_target7
+ 1168: // catch_target4 // catch_target5 // catch_target6 // catch_target7
                     CatchBlockStart(arg_register=4);
                     tangon = _closure1_slot9;
                     zuuluu = tangon.error;
                     zuuluu = zuuluu.bind(tangon)(report);
- 1183:
+ 1184:
                     return michal;
- 1186:
+ 1187:
                     return entity;
                 }
             };

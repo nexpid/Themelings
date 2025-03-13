@@ -319,7 +319,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                     report = 15;
                                     report = option[report];
                                     report = golfie.bind(tangon)(report);
-                                    report = report.ActivityLocationKinds;
+                                    report = report.EmbeddedActivityLocationKind;
                                     report = report.CONTEXTLESS;
                                     report = oscard === report;
                                     michal['isContextlessActivity'] = report;

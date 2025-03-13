@@ -933,24 +933,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = _closure1_slot16;
             report = 0;
             michal = 0;
-            if(!tangon) { _fun00028_ip = 77; continue _fun00027 }
- 57:
+            if(!tangon) { _fun00028_ip = 78; continue _fun00027 }
+ 58:
             oscard = oscard.placeholderCount;
             offset = null;
             offset = offset != oscard;
             michal = 0;
-            if(!offset) { _fun00028_ip = 77; continue _fun00027 }
- 74:
+            if(!offset) { _fun00028_ip = 78; continue _fun00027 }
+ 75:
             michal = oscard;
- 77:
+ 78:
             entity = entity.commandTypes;
             entity = entity[report];
             oscard = undefined;
             offset = option.bind(oscard)(michal, entity);
             entity = {};
             michal = verify;
-            if(!tangon) { _fun00028_ip = 132; continue _fun00027 }
- 103:
+            if(!tangon) { _fun00028_ip = 133; continue _fun00027 }
+ 104:
             option = new Array(0);
             foxtra = option;
             romeon = verify;
@@ -960,15 +960,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = offset;
             verify = arraySpread(foxtra, romeon, yankee);
             michal = option;
- 132:
+ 133:
             entity['commands'] = michal;
             michal = golfie;
-            if(!tangon) { _fun00028_ip = 206; continue _fun00027 }
- 143:
+            if(!tangon) { _fun00028_ip = 207; continue _fun00027 }
+ 144:
             tangon = golfie.length;
             michal = golfie;
-            if(!(report === tangon)) { _fun00028_ip = 206; continue _fun00027 }
- 155:
+            if(!(report === tangon)) { _fun00028_ip = 207; continue _fun00027 }
+ 156:
             report = _closure1_slot0;
             golfie = _closure1_slot1;
             tangon = 9;
@@ -981,7 +981,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = new Array(1);
             zuuluu[0] = tangon;
             michal = zuuluu;
- 206:
+ 207:
             entity['sections'] = michal;
             return entity;
         }

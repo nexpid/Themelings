@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     offset = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 198; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 199; continue _fun00003 }
  13:
                     golfie = undefined;
                     if(!(offset === golfie)) { _fun00004_ip = 21; continue _fun00003 }
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return golfie;
  25:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 195; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 196; continue _fun00003 }
  34:
                     tangon = _closure1_slot0;
                     oscard = _closure1_slot2;
@@ -125,13 +125,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['query'] = verify;
                     zuuluu['rejectWithError'] = option;
                     zuuluu = tangon.bind(oscard)(zuuluu);
-                    SaveGenerator(address=114);
- 112:
+                    SaveGenerator(address=115);
+ 113:
                     return zuuluu;
- 114:
+ 115:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 192; continue _fun00003 }
- 120:
+                    if(tangon) { _fun00004_ip = 193; continue _fun00003 }
+ 121:
                     option = zuuluu.body;
                     oscard = option.map;
                     tangon = function(argFoo) {
@@ -154,11 +154,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report['appliedGuildBoosts'] = tangon;
                     report = oscard.bind(golfie)(report);
                     return tangon;
- 192:
+ 193:
                     return zuuluu;
- 195:
+ 196:
                     return michal;
- 198:
+ 199:
                     return entity;
                 }
             };

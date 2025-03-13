@@ -436,17 +436,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 report = null;
                 verify = report != option;
                 golfie = '';
-                if(!verify) { _fun00008_ip = 61; continue _fun00007 }
- 58:
+                if(!verify) { _fun00008_ip = 62; continue _fun00007 }
+ 59:
                 golfie = option;
- 61:
+ 62:
                 entity['query'] = golfie;
                 golfie = report != oscard;
                 report = null;
-                if(!golfie) { _fun00008_ip = 77; continue _fun00007 }
- 74:
+                if(!golfie) { _fun00008_ip = 79; continue _fun00007 }
+ 76:
                 report = oscard;
- 77:
+ 79:
                 entity['continuation_token'] = report;
                 entity = zuuluu.bind(tangon)(michal, entity);
                 entity = undefined;

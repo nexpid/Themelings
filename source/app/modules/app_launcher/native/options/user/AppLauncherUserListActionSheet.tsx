@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = verify.bind(offset)(option);
                 entity['body'] = option;
                 entity = tangon.bind(report)(zuuluu, entity);
-                _fun00002_ip = 261; continue _fun00001;
+                _fun00002_ip = 262; continue _fun00001;
  233:
                 zuuluu = _closure1_slot6;
                 michal = {};
@@ -219,7 +219,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 michal['onPressRow'] = oscard;
                 entity = tangon.bind(report)(zuuluu, michal);
- 261:
+ 262:
                 return entity;
             }
         };

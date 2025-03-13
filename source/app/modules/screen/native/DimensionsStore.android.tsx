@@ -1,5 +1,5 @@
 // app/modules/screen/native/DimensionsStore.android.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu) {
     report = argBar;
     option = argBaz;
     zuuluu = argFre;
@@ -7,139 +7,171 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = option;
     var _closure1_slot2 = oscard;
-    entity = function(argFoo, argBar) { // Original name: getDimensionsStoreState
+    entity = function(argFoo, argBar, argBaz, argCor, argGra) { // Original name: computeWindowDimensions
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            golfie = argBar;
-            option = {};
-            report = _closure1_slot3;
-            tangon = report.get;
-            michal = 'window';
-            sizing = tangon.bind(report)(michal);
-            output = option;
-            michal = copyDataProperties(output, sizing);
-            report = _closure1_slot1;
-            michal = _closure1_slot2;
-            offset = 1;
-            tangon = michal[offset];
+            option = argBar;
+            michal = argCor;
+            zuuluu = argGra;
+            offset = michal.width;
+            golfie = michal.height;
+            michal = zuuluu.width;
+            zuuluu = zuuluu.height;
+            verify = michal;
+            oscard = zuuluu;
+            if(!(oscard === offset)) { _fun00002_ip = 48; continue _fun00001 }
+ 42:
+            verify = zuuluu;
+            oscard = michal;
+ 48:
+            michal = global;
+            report = michal.Math;
+            tangon = report.min;
+            zuuluu = option.left;
+            offset = offset + zuuluu;
+            zuuluu = option.right;
+            zuuluu = offset + zuuluu;
+            tangon = tangon.bind(report)(zuuluu, verify);
+            report = michal.Math;
+            zuuluu = report.min;
+            michal = option.top;
+            golfie = golfie + michal;
+            michal = option.bottom;
+            golfie = golfie + michal;
+            verify = argBaz;
+            michal = 0;
+            if(verify) { _fun00002_ip = 128; continue _fun00001 }
+ 122:
+            michal = option.imeInsetsBottom;
+ 128:
+            michal = golfie - michal;
+            zuuluu = zuuluu.bind(report)(michal, oscard);
+            michal = null;
+            report = michal == entity;
             michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            oscard = null;
-            report = oscard == tangon;
-            tangon = undefined;
-            if(report) { _fun00002_ip = 98; continue _fun00001 }
- 69:
-            verify = _closure1_slot1;
-            report = _closure1_slot2;
-            report = report[offset];
-            verify = verify.bind(michal)(report);
-            report = verify.getWindowSize;
-            tangon = report.bind(verify)();
- 98:
-            output = option;
-            sizing = tangon;
-            tangon = copyDataProperties(output, sizing);
-            report = _closure1_slot1;
-            tangon = _closure1_slot2;
-            tangon = tangon[offset];
-            tangon = report.bind(michal)(tangon);
-            tangon = oscard == tangon;
-            verify = undefined;
-            if(tangon) { _fun00002_ip = 163; continue _fun00001 }
- 134:
-            report = _closure1_slot1;
-            tangon = _closure1_slot2;
-            tangon = tangon[offset];
-            report = report.bind(michal)(tangon);
-            tangon = report.getScreenSize;
-            verify = tangon.bind(report)();
- 163:
-            if(!(oscard == verify)) { _fun00002_ip = 185; continue _fun00001 }
+            if(report) { _fun00002_ip = 154; continue _fun00001 }
+ 149:
+            michal = entity.width;
+ 154:
+            if(!(michal === tangon)) { _fun00002_ip = 167; continue _fun00001 }
+ 158:
+            michal = entity.height;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 180; continue _fun00001 }
  167:
-            report = _closure1_slot3;
-            tangon = report.get;
-            zuuluu = 'screen';
-            verify = tangon.bind(report)(zuuluu);
- 185:
-            report = option.fontScale;
-            tangon = verify.width;
-            zuuluu = verify.height;
-            tangon = tangon > zuuluu;
-            offset = oscard == entity;
-            zuuluu = undefined;
-            if(offset) { _fun00002_ip = 220; continue _fun00001 }
- 214:
-            zuuluu = entity.windowDimensions;
- 220:
-            kiloes = option.width;
-            foxtra = option.height;
-            option = verify.width;
-            verify = verify.height;
-            backup = option;
-            yankee = verify;
-            if(!(yankee === kiloes)) { _fun00002_ip = 256; continue _fun00001 }
- 250:
-            backup = verify;
-            yankee = option;
- 256:
-            option = global;
-            romeon = option.Math;
-            offset = romeon.min;
-            verify = golfie.left;
-            kiloes = kiloes + verify;
-            verify = golfie.right;
-            verify = kiloes + verify;
-            verify = offset.bind(romeon)(verify, backup);
-            offset = option.Math;
-            option = offset.min;
-            romeon = golfie.top;
-            foxtra = foxtra + romeon;
-            romeon = golfie.bottom;
-            romeon = foxtra + romeon;
-            golfie = golfie.imeInsetsBottom;
-            golfie = romeon - golfie;
-            option = option.bind(offset)(golfie, yankee);
-            offset = oscard == zuuluu;
-            golfie = undefined;
-            if(offset) { _fun00002_ip = 352; continue _fun00001 }
- 347:
-            golfie = zuuluu.width;
- 352:
-            if(!(golfie === verify)) { _fun00002_ip = 365; continue _fun00001 }
- 356:
-            golfie = zuuluu.height;
-            if(!(golfie !== option)) { _fun00002_ip = 378; continue _fun00001 }
- 365:
-            golfie = {};
-            golfie['width'] = verify;
-            golfie['height'] = option;
-            zuuluu = golfie;
- 378:
-            oscard = oscard == entity;
-            michal = undefined;
-            if(oscard) { _fun00002_ip = 393; continue _fun00001 }
- 387:
-            michal = entity.windowDimensions;
- 393:
-            if(!(michal === zuuluu)) { _fun00002_ip = 417; continue _fun00001 }
- 397:
-            michal = entity.fontScale;
-            if(!(michal === report)) { _fun00002_ip = 417; continue _fun00001 }
- 407:
-            michal = entity.screenIsLandscape;
-            if(!(michal !== tangon)) { _fun00002_ip = 437; continue _fun00001 }
- 417:
             michal = {};
-            michal['fontScale'] = report;
-            michal['screenIsLandscape'] = tangon;
-            michal['windowDimensions'] = zuuluu;
+            michal['width'] = tangon;
+            michal['height'] = zuuluu;
             entity = michal;
- 437:
+ 180:
             return entity;
         }
     };
     var _closure1_slot5 = entity;
+    entity = function(argFoo, argBar) { // Original name: getDimensionsStoreState
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            entity = argFoo;
+            romeon = argBar;
+            yankee = {};
+            report = _closure1_slot3;
+            tangon = report.get;
+            michal = 'window';
+            sizing = tangon.bind(report)(michal);
+            output = yankee;
+            michal = copyDataProperties(output, sizing);
+            report = _closure1_slot1;
+            michal = _closure1_slot2;
+            oscard = 1;
+            tangon = michal[oscard];
+            michal = undefined;
+            tangon = report.bind(michal)(tangon);
+            golfie = null;
+            report = golfie == tangon;
+            tangon = undefined;
+            if(report) { _fun00004_ip = 98; continue _fun00003 }
+ 69:
+            option = _closure1_slot1;
+            report = _closure1_slot2;
+            report = report[oscard];
+            option = option.bind(michal)(report);
+            report = option.getWindowSize;
+            tangon = report.bind(option)();
+ 98:
+            output = yankee;
+            sizing = tangon;
+            tangon = copyDataProperties(output, sizing);
+            report = _closure1_slot1;
+            tangon = _closure1_slot2;
+            tangon = tangon[oscard];
+            tangon = report.bind(michal)(tangon);
+            tangon = golfie == tangon;
+            offset = undefined;
+            if(tangon) { _fun00004_ip = 163; continue _fun00003 }
+ 134:
+            report = _closure1_slot1;
+            tangon = _closure1_slot2;
+            tangon = tangon[oscard];
+            report = report.bind(michal)(tangon);
+            tangon = report.getScreenSize;
+            offset = tangon.bind(report)();
+ 163:
+            if(!(golfie == offset)) { _fun00004_ip = 185; continue _fun00003 }
+ 167:
+            oscard = _closure1_slot3;
+            report = oscard.get;
+            tangon = 'screen';
+            offset = report.bind(oscard)(tangon);
+ 185:
+            oscard = yankee.fontScale;
+            report = offset.width;
+            tangon = offset.height;
+            report = report > tangon;
+            tangon = golfie == entity;
+            verify = undefined;
+            if(tangon) { _fun00004_ip = 220; continue _fun00003 }
+ 214:
+            verify = entity.windowDimensions;
+ 220:
+            option = _closure1_slot5;
+            kiloes = false;
+            result = undefined;
+            output = verify;
+            sizing = romeon;
+            backup = yankee;
+            foxtra = offset;
+            tangon = result[option](output, sizing, kiloes, backup, foxtra, romeon);
+            kiloes = true;
+            output = verify;
+            sizing = romeon;
+            backup = yankee;
+            foxtra = offset;
+            zuuluu = result[option](output, sizing, kiloes, backup, foxtra, romeon);
+            golfie = golfie == entity;
+            michal = undefined;
+            if(golfie) { _fun00004_ip = 277; continue _fun00003 }
+ 271:
+            michal = entity.windowDimensions;
+ 277:
+            if(!(michal === tangon)) { _fun00004_ip = 301; continue _fun00003 }
+ 281:
+            michal = entity.fontScale;
+            if(!(michal === oscard)) { _fun00004_ip = 301; continue _fun00003 }
+ 291:
+            michal = entity.screenIsLandscape;
+            if(!(michal !== report)) { _fun00004_ip = 326; continue _fun00003 }
+ 301:
+            michal = {};
+            michal['fontScale'] = oscard;
+            michal['screenIsLandscape'] = report;
+            michal['windowDimensions'] = tangon;
+            michal['windowDimensionsIgnoringKeyboard'] = zuuluu;
+            entity = michal;
+ 326:
+            return entity;
+        }
+    };
+    var _closure1_slot6 = entity;
     entity = global;
     verify = entity.Object;
     golfie = verify.defineProperty;
@@ -159,7 +191,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     offset = report.bind(entity)(michal);
     golfie = offset.create;
     michal = function() {
-        zuuluu = _closure1_slot5;
+        zuuluu = _closure1_slot6;
         tangon = _closure1_slot0;
         michal = _closure1_slot2;
         entity = 3;
@@ -190,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = _closure1_slot4;
             michal = zuuluu.setState;
             entity = function(argFoo) {
-                tangon = _closure1_slot5;
+                tangon = _closure1_slot6;
                 zuuluu = _closure2_slot0;
                 michal = undefined;
                 entity = argFoo;
@@ -218,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = _closure1_slot4;
             michal = zuuluu.setState;
             entity = function(argFoo) {
-                tangon = _closure1_slot5;
+                tangon = _closure1_slot6;
                 michal = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 entity = 3;

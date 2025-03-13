@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             golfie = 26;
                             golfie = offset[golfie];
                             golfie = verify.bind(oscard)(golfie);
-                            golfie = golfie.ActivityLocationKinds;
+                            golfie = golfie.EmbeddedActivityLocationKind;
                             golfie = golfie.CONTEXTLESS;
                             golfie = option === golfie;
                             michal['isContextlessActivity'] = golfie;

@@ -60,10 +60,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         foxtra = tangon.bind(yankee)();
         tangon = 16;
         yankee = tangon;
-        if(!foxtra) { _fun00002_ip = 237; continue _fun00001 }
- 234:
+        if(!foxtra) { _fun00002_ip = 236; continue _fun00001 }
+ 233:
         yankee = 12;
- 237:
+ 236:
         offset['marginTop'] = yankee;
         golfie['guildDetailsContainer'] = offset;
         foxtra = 8;

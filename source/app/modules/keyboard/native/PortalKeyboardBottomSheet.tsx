@@ -658,11 +658,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = _closure1_slot16;
             romeon['__initData'] = cntext;
             romeon = result.bind(vacuum)(backup, romeon);
-            backup = _closure1_slot1;
-            romeon = 24;
-            romeon = variable44[romeon];
-            result = backup.bind(tangon)(romeon);
-            romeon = function() {
+            romeon = _closure1_slot1;
+            backup = 24;
+            backup = variable44[backup];
+            result = romeon.bind(tangon)(backup);
+            backup = function() {
                 entity = function() {
                     _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
@@ -680,7 +680,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 return entity;
             };
-            romeon = result.bind(tangon)(romeon);
+            backup = result.bind(tangon)(backup);
             cntext = _closure1_slot4;
             vacuum = cntext.useCallback;
             result = function(argFoo) {
@@ -702,16 +702,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = tangon.bind(zuuluu)(michal, entity);
                 return entity;
             };
-            romeon = new Array(0);
-            cntext = vacuum.bind(cntext)(result, romeon);
+            backup = new Array(0);
+            cntext = vacuum.bind(cntext)(result, backup);
             vacuum = _closure1_slot4;
             result = vacuum.useCallback;
-            romeon = new Array(5);
-            romeon[0] = sequen;
-            romeon[1] = sizing;
-            romeon[2] = kiloes;
-            romeon[3] = verify;
-            romeon[4] = michal;
+            backup = new Array(5);
+            backup[0] = sequen;
+            backup[1] = sizing;
+            backup[2] = kiloes;
+            backup[3] = verify;
+            backup[4] = michal;
             verify = function() {
                 _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
@@ -759,10 +759,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            target = result.bind(vacuum)(verify, romeon);
+            target = result.bind(vacuum)(verify, backup);
             verify = variable44[report];
             result = variable45.bind(tangon)(verify);
-            romeon = result.useAnimatedStyle;
+            backup = result.useAnimatedStyle;
             verify = function() { // Original name: ae
                 entity = {};
                 report = _closure1_slot0;
@@ -806,21 +806,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['__workletHash'] = vacuum;
             vacuum = _closure1_slot17;
             verify['__initData'] = vacuum;
-            vacuum = romeon.bind(result)(verify);
+            vacuum = backup.bind(result)(verify);
             verify = 25;
             verify = variable44[verify];
-            verify = backup.bind(tangon)(verify);
+            verify = romeon.bind(tangon)(verify);
             verify = verify.bind(tangon)();
             variable40 = verify.left;
             variable39 = verify.right;
-            romeon = verify.imeInsetsBottom;
             verify = 26;
             verify = variable44[verify];
-            verify = backup.bind(tangon)(verify);
-            backup = verify.bind(tangon)();
-            verify = backup.height;
-            variable38 = backup.width;
-            sequen = verify + romeon;
+            romeon = romeon.bind(tangon)(verify);
+            verify = {};
+            backup = true;
+            verify['ignoreKeyboard'] = backup;
+            verify = romeon.bind(tangon)(verify);
+            sequen = verify.height;
+            variable38 = verify.width;
             verify = _closure1_slot21;
             zuuluu = sequen - zuuluu;
             romeon = verify.bind(tangon)(zuuluu);
@@ -870,7 +871,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = variable44[report];
             variable41 = variable45.bind(tangon)(zuuluu);
             whisks = variable41.useAnimatedReaction;
-            verify = function() { // Original name: re
+            verify = function() { // Original name: ie
                 entity = global;
                 tangon = entity.Math;
                 zuuluu = tangon.max;
@@ -889,7 +890,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['__workletHash'] = zuuluu;
             zuuluu = _closure1_slot18;
             verify['__initData'] = zuuluu;
-            zuuluu = function(argFoo, argBar) { // Original name: ie
+            zuuluu = function(argFoo, argBar) { // Original name: re
                 _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                     zuuluu = argFoo;

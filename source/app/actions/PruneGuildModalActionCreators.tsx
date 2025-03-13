@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00004_ip = 144; continue _fun00003 }
+                        if(michal) { _fun00004_ip = 145; continue _fun00003 }
  10:
                         tangon = _closure1_slot0;
                         zuuluu = _closure1_slot1;
@@ -73,19 +73,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         report = false;
                         michal['rejectWithError'] = report;
                         michal = zuuluu.bind(tangon)(michal);
-                        SaveGenerator(address=119);
- 117:
+                        SaveGenerator(address=120);
+ 118:
                         return michal;
- 119:
+ 120:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(zuuluu) { _fun00004_ip = 141; continue _fun00003 }
- 125:
+                        if(zuuluu) { _fun00004_ip = 142; continue _fun00003 }
+ 126:
                         zuuluu = michal.body;
                         zuuluu = zuuluu.pruned;
                         return zuuluu;
- 141:
+ 142:
                         return michal;
- 144:
+ 145:
                         return entity;
                     }
                 };

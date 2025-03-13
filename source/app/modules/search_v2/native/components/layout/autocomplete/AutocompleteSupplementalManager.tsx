@@ -670,7 +670,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = _closure3_slot0;
                     michal = zuuluu.isId;
                     zuuluu = michal.bind(zuuluu)(tangon);
-                    if(zuuluu) { _fun00020_ip = 270; continue _fun00019 }
+                    if(zuuluu) { _fun00020_ip = 272; continue _fun00019 }
  30:
                     oscard = _closure1_slot0;
                     zuuluu = _closure1_slot2;
@@ -698,16 +698,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['limit'] = golfie;
                     report = report.bind(oscard)(zuuluu);
                     zuuluu = report.length;
-                    if(!(golfie === zuuluu)) { _fun00020_ip = 172; continue _fun00019 }
- 142:
+                    if(!(golfie === zuuluu)) { _fun00020_ip = 173; continue _fun00019 }
+ 143:
                     zuuluu = 0;
                     zuuluu = report[zuuluu];
                     zuuluu = zuuluu.record;
                     oscard = _closure3_slot0;
                     report = oscard.isEligibleChannel;
                     report = report.bind(oscard)(zuuluu);
-                    if(report) { _fun00020_ip = 268; continue _fun00019 }
- 172:
+                    if(report) { _fun00020_ip = 270; continue _fun00019 }
+ 173:
                     oscard = _closure1_slot1;
                     report = _closure1_slot2;
                     report = report[offset];
@@ -721,23 +721,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report['limit'] = golfie;
                     oscard = oscard.bind(option)(report);
                     report = oscard.length;
-                    if(!(golfie === report)) { _fun00020_ip = 262; continue _fun00019 }
- 232:
+                    if(!(golfie === report)) { _fun00020_ip = 264; continue _fun00019 }
+ 234:
                     report = 0;
                     report = oscard[report];
                     report = report.record;
                     golfie = _closure3_slot0;
                     oscard = golfie.isEligibleChannel;
                     oscard = oscard.bind(golfie)(report);
-                    if(oscard) { _fun00020_ip = 266; continue _fun00019 }
- 262:
+                    if(oscard) { _fun00020_ip = 268; continue _fun00019 }
+ 264:
                     oscard = null;
                     return oscard;
- 266:
-                    return report;
  268:
-                    return zuuluu;
+                    return report;
  270:
+                    return zuuluu;
+ 272:
                     zuuluu = _closure1_slot12;
                     michal = zuuluu.getChannel;
                     michal = michal.bind(zuuluu)(tangon);
@@ -745,10 +745,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = zuuluu.isEligibleChannel;
                     zuuluu = entity.bind(zuuluu)(michal);
                     entity = null;
-                    if(!zuuluu) { _fun00020_ip = 307; continue _fun00019 }
- 304:
+                    if(!zuuluu) { _fun00020_ip = 309; continue _fun00019 }
+ 306:
                     entity = michal;
- 307:
+ 309:
                     return entity;
                 }
             };

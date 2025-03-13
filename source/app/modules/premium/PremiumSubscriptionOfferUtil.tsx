@@ -52,15 +52,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot13 = report;
     report = tangon.PREMIUM_TIER_2_LIKELIHOOD_TRIAL_ID;
     var _closure1_slot14 = report;
-    report = tangon.PREMIUM_TIER_2_REACTIVATION_DISCOUNT_ID;
-    var _closure1_slot15 = report;
-    tangon = tangon.PREMIUM_TIER_2_REFERRAL_INCENTIVE_1_MONTH_DISCOUNT_ID;
-    var _closure1_slot16 = tangon;
+    tangon = tangon.PREMIUM_TIER_2_REACTIVATION_DISCOUNT_ID;
+    var _closure1_slot15 = tangon;
     tangon = 5;
     tangon = golfie[tangon];
     tangon = oscard.bind(entity)(tangon);
     tangon = tangon.Endpoints;
-    var _closure1_slot17 = tangon;
+    var _closure1_slot16 = tangon;
     tangon = function() { // Original name: useHasDiscountApplied
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -114,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot18 = tangon;
+    var _closure1_slot17 = tangon;
     report = function() {
         tangon = _closure1_slot4;
         zuuluu = undefined;
@@ -139,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = zuuluu.HTTP;
                     oscard = golfie.post;
                     zuuluu = {};
-                    option = _closure1_slot17;
+                    option = _closure1_slot16;
                     option = option.CHURN_USER_OFFER;
                     zuuluu['url'] = option;
                     option = true;
@@ -191,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     report = report.bind(entity)();
-    var _closure1_slot19 = report;
+    var _closure1_slot18 = report;
     report = 14;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
@@ -219,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.bind(zuuluu)(tangon);
             tangon = oscard.usePremiumDiscountOffer;
             tangon = tangon.bind(oscard)();
-            michal = _closure1_slot18;
+            michal = _closure1_slot17;
             michal = michal.bind(zuuluu)();
             zuuluu = null;
             entity = zuuluu != entity;
@@ -273,49 +271,43 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = tangon.active_discount_id;
  91:
             tangon = _closure1_slot9;
-            if(!(tangon !== zuuluu)) { _fun00008_ip = 251; continue _fun00007 }
+            if(!(tangon !== zuuluu)) { _fun00008_ip = 224; continue _fun00007 }
  102:
             tangon = _closure1_slot11;
-            if(!(tangon !== zuuluu)) { _fun00008_ip = 251; continue _fun00007 }
- 113:
+            if(!(tangon !== zuuluu)) { _fun00008_ip = 224; continue _fun00007 }
+ 110:
             tangon = _closure1_slot10;
-            if(!(tangon !== zuuluu)) { _fun00008_ip = 235; continue _fun00007 }
- 121:
+            if(!(tangon !== zuuluu)) { _fun00008_ip = 208; continue _fun00007 }
+ 118:
             tangon = _closure1_slot13;
-            if(!(tangon !== zuuluu)) { _fun00008_ip = 235; continue _fun00007 }
- 129:
+            if(!(tangon !== zuuluu)) { _fun00008_ip = 208; continue _fun00007 }
+ 126:
             tangon = _closure1_slot15;
-            if(!(tangon !== zuuluu)) { _fun00008_ip = 235; continue _fun00007 }
- 137:
+            if(!(tangon !== zuuluu)) { _fun00008_ip = 208; continue _fun00007 }
+ 134:
             tangon = _closure1_slot12;
-            if(!(tangon !== zuuluu)) { _fun00008_ip = 219; continue _fun00007 }
- 145:
+            if(!(tangon !== zuuluu)) { _fun00008_ip = 192; continue _fun00007 }
+ 142:
             tangon = _closure1_slot7;
-            if(!(tangon !== zuuluu)) { _fun00008_ip = 203; continue _fun00007 }
- 153:
-            tangon = _closure1_slot8;
-            if(!(tangon !== zuuluu)) { _fun00008_ip = 187; continue _fun00007 }
- 161:
-            michal = _closure1_slot16;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 171; continue _fun00007 }
- 169:
+            if(!(tangon !== zuuluu)) { _fun00008_ip = 176; continue _fun00007 }
+ 150:
+            michal = _closure1_slot8;
+            if(!(michal !== zuuluu)) { _fun00008_ip = 160; continue _fun00007 }
+ 158:
             return entity;
- 171:
-            entity = {'duration': 1, 'percentage': 40};
-            return entity;
- 187:
+ 160:
             entity = {'duration': 1, 'percentage': 25};
             return entity;
- 203:
+ 176:
             entity = {'duration': 1, 'percentage': 20};
             return entity;
- 219:
+ 192:
             entity = {'duration': 1, 'percentage': 40};
             return entity;
- 235:
+ 208:
             entity = {'duration': 3, 'percentage': 30};
             return entity;
- 251:
+ 224:
             entity = {'duration': 1, 'percentage': 30};
             return entity;
         }
@@ -373,7 +365,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  140:
             oscard = true;
             oscard = golfie.bind(report)(oscard);
-            tangon = _closure1_slot19;
+            tangon = _closure1_slot18;
             oscard = tangon.bind(report)();
             report = oscard.then;
             tangon = function(argFoo) {
@@ -427,7 +419,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             tangon = report.bind(oscard)(tangon, zuuluu);
-            entity = _closure1_slot18;
+            entity = _closure1_slot17;
             michal = entity.bind(michal)();
             report = null;
             entity = report !== tangon;

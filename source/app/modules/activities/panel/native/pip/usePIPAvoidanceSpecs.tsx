@@ -16,11 +16,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = '__esModule';
     entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = {};
-    oscard = 'function usePIPAvoidanceSpecsTsx1(){const{keyboardHeight,safeArea,screenName}=this.__closure;return{keyboardHeight:keyboardHeight.get(),safeAreaBottom:safeArea.bottom,imeInsetsBottom:safeArea.imeInsetsBottom,screenName:screenName.get()};}';
+    oscard = 'function usePIPAvoidanceSpecsTsx1(){const{keyboardHeight,safeArea,screenName}=this.__closure;return{keyboardHeight:keyboardHeight.get(),safeAreaBottom:safeArea.bottom,screenName:screenName.get()};}';
     entity['code'] = oscard;
     var _closure1_slot3 = entity;
     entity = {};
-    oscard = 'function usePIPAvoidanceSpecsTsx2(props,previous){const{cheapWorkletShallowEqual,getPIPBottomOffsetForPIPMode,getAdjustedBottomOffsets,updateSharedValueIfChanged,pipAvoidanceSpecs}=this.__closure;if(cheapWorkletShallowEqual(props,previous!==null&&previous!==void 0?previous:undefined))return;const{keyboardHeight:keyboardHeight,safeAreaBottom:safeAreaBottom,imeInsetsBottom:imeInsetsBottom,screenName:screenName}=props;const screenBottomOffset=getPIPBottomOffsetForPIPMode(screenName);const{adjustedScreenBottomOffset:adjustedScreenBottomOffset,bottomOffset:bottomOffset}=getAdjustedBottomOffsets({screenBottomOffset:screenBottomOffset,imeInsetsBottom:imeInsetsBottom,safeAreaBottom:safeAreaBottom,keyboardHeight:keyboardHeight});updateSharedValueIfChanged(pipAvoidanceSpecs,{top:0,bottom:Math.max(bottomOffset,adjustedScreenBottomOffset)});}';
+    oscard = 'function usePIPAvoidanceSpecsTsx2(props,previous){const{cheapWorkletShallowEqual,getPIPBottomOffsetForPIPMode,getAdjustedBottomOffsets,updateSharedValueIfChanged,pipAvoidanceSpecs}=this.__closure;if(cheapWorkletShallowEqual(props,previous!==null&&previous!==void 0?previous:undefined))return;const{keyboardHeight:keyboardHeight,safeAreaBottom:safeAreaBottom,screenName:screenName}=props;const screenBottomOffset=getPIPBottomOffsetForPIPMode(screenName);const{bottomOffset:bottomOffset}=getAdjustedBottomOffsets({screenBottomOffset:screenBottomOffset,safeAreaBottom:safeAreaBottom,keyboardHeight:keyboardHeight});updateSharedValueIfChanged(pipAvoidanceSpecs,{top:0,bottom:bottomOffset});}';
     entity['code'] = oscard;
     var _closure1_slot4 = entity;
     entity = 7;
@@ -64,10 +64,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.bind(tangon)();
             entity['keyboardHeight'] = zuuluu;
             zuuluu = _closure2_slot0;
-            tangon = zuuluu.bottom;
-            entity['safeAreaBottom'] = tangon;
-            zuuluu = zuuluu.imeInsetsBottom;
-            entity['imeInsetsBottom'] = zuuluu;
+            zuuluu = zuuluu.bottom;
+            entity['safeAreaBottom'] = zuuluu;
             zuuluu = _closure2_slot3;
             michal = zuuluu.get;
             michal = michal.bind(zuuluu)();
@@ -79,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie['safeArea'] = foxtra;
         golfie['screenName'] = option;
         zuuluu['__closure'] = golfie;
-        golfie = 3347413314738.0;
+        golfie = 9790941132204.0;
         zuuluu['__workletHash'] = golfie;
         golfie = _closure1_slot3;
         zuuluu['__initData'] = golfie;
@@ -103,43 +101,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = golfie;
  51:
                 tangon = report.bind(oscard)(zuuluu, tangon);
-                if(tangon) { _fun00002_ip = 219; continue _fun00001 }
- 63:
+                if(tangon) { _fun00002_ip = 180; continue _fun00001 }
+ 60:
                 oscard = zuuluu.keyboardHeight;
                 golfie = zuuluu.safeAreaBottom;
-                option = zuuluu.imeInsetsBottom;
                 report = zuuluu.screenName;
                 zuuluu = _closure1_slot1;
                 tangon = _closure1_slot2;
                 michal = 4;
                 michal = tangon[michal];
                 michal = zuuluu.bind(entity)(michal);
-                verify = michal.bind(entity)(report);
+                option = michal.bind(entity)(report);
                 michal = 5;
                 michal = tangon[michal];
                 report = zuuluu.bind(entity)(michal);
                 michal = {};
-                michal['screenBottomOffset'] = verify;
-                michal['imeInsetsBottom'] = option;
+                michal['screenBottomOffset'] = option;
                 michal['safeAreaBottom'] = golfie;
                 michal['keyboardHeight'] = oscard;
                 michal = report.bind(entity)(michal);
-                option = michal.adjustedScreenBottomOffset;
-                golfie = michal.bottomOffset;
+                report = michal.bottomOffset;
                 michal = 6;
                 michal = tangon[michal];
                 tangon = zuuluu.bind(entity)(michal);
                 zuuluu = _closure2_slot1;
                 michal = {};
-                report = 0;
-                michal['top'] = report;
-                report = global;
-                oscard = report.Math;
-                report = oscard.max;
-                report = report.bind(oscard)(golfie, option);
+                oscard = 0;
+                michal['top'] = oscard;
                 michal['bottom'] = report;
                 michal = tangon.bind(entity)(zuuluu, michal);
- 219:
+ 180:
                 return entity;
             }
         };
@@ -163,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie['updateSharedValueIfChanged'] = option;
         golfie['pipAvoidanceSpecs'] = entity;
         michal['__closure'] = golfie;
-        golfie = 15497444455440.0;
+        golfie = 643938425459.0;
         michal['__workletHash'] = golfie;
         oscard = _closure1_slot4;
         michal['__initData'] = oscard;

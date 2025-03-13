@@ -917,54 +917,56 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = function() { // Original name: value
                 _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
-                    entity = this;
-                    zuuluu = entity.time_;
-                    michal = 0;
-                    if(!(michal !== zuuluu)) { _fun00030_ip = 77; continue _fun00029 }
- 15:
-                    michal = entity.onlyOnce;
-                    if(michal) { _fun00030_ip = 193; continue _fun00029 }
- 27:
-                    tangon = _closure1_slot2;
-                    zuuluu = _closure1_slot4;
-                    michal = 6;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    report = tangon.bind(michal)(zuuluu);
-                    tangon = report.mark;
-                    zuuluu = entity.emoji;
-                    michal = entity.name;
-                    michal = tangon.bind(report)(zuuluu, michal);
-                    _fun00030_ip = 193; continue _fun00029;
- 77:
-                    michal = global;
-                    zuuluu = michal.Date;
-                    michal = zuuluu.now;
-                    michal = michal.bind(zuuluu)();
-                    entity['time_'] = michal;
+                    zuuluu = arguments[0];
+                    michal = this;
+                    entity = undefined;
+                    if(!(zuuluu === entity)) { _fun00030_ip = 29; continue _fun00029 }
+ 12:
+                    tangon = global;
+                    report = tangon.Date;
+                    tangon = report.now;
+                    zuuluu = tangon.bind(report)();
+ 29:
+                    report = michal.time_;
+                    tangon = 0;
+                    if(!(tangon !== report)) { _fun00030_ip = 101; continue _fun00029 }
+ 41:
+                    tangon = michal.onlyOnce;
+                    if(tangon) { _fun00030_ip = 198; continue _fun00029 }
+ 53:
+                    report = _closure1_slot2;
+                    oscard = _closure1_slot4;
+                    tangon = 6;
+                    tangon = oscard[tangon];
+                    golfie = report.bind(entity)(tangon);
+                    oscard = golfie.mark;
+                    report = michal.emoji;
+                    tangon = michal.name;
+                    tangon = oscard.bind(golfie)(report, tangon);
+                    _fun00030_ip = 198; continue _fun00029;
+ 101:
+                    michal['time_'] = zuuluu;
                     oscard = _closure1_slot3;
                     report = _closure1_slot4;
-                    zuuluu = 7;
+                    tangon = 7;
+                    tangon = report[tangon];
+                    oscard = oscard.bind(entity)(tangon);
+                    tangon = oscard.size;
+                    tangon = tangon.bind(oscard)();
+                    michal['numImports'] = tangon;
+                    tangon = _closure1_slot12;
+                    tangon = tangon.bind(entity)();
+                    michal['importTime'] = tangon;
+                    tangon = _closure1_slot2;
+                    zuuluu = 6;
                     zuuluu = report[zuuluu];
-                    tangon = undefined;
-                    oscard = oscard.bind(tangon)(zuuluu);
-                    zuuluu = oscard.size;
-                    zuuluu = zuuluu.bind(oscard)();
-                    entity['numImports'] = zuuluu;
-                    zuuluu = _closure1_slot12;
-                    zuuluu = zuuluu.bind(tangon)();
-                    entity['importTime'] = zuuluu;
-                    zuuluu = _closure1_slot2;
-                    michal = 6;
-                    michal = report[michal];
-                    tangon = zuuluu.bind(tangon)(michal);
-                    zuuluu = tangon.mark;
-                    michal = entity.emoji;
-                    entity = entity.name;
-                    entity = zuuluu.bind(tangon)(michal, entity);
- 193:
+                    report = tangon.bind(entity)(zuuluu);
+                    tangon = report.mark;
+                    zuuluu = michal.emoji;
+                    michal = michal.name;
+                    michal = tangon.bind(report)(zuuluu, michal);
+ 198:
                     michal = _closure1_slot11;
-                    entity = undefined;
                     michal = michal.bind(entity)();
                     return entity;
                 }
@@ -1160,10 +1162,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = _closure1_slot14;
             michal = oscard.prototype;
             report = Object.create(michal, {constructor: {value: oscard}});
-            verify = '🎨';
+            offset = '🎨';
             romeon = 'First React Render';
             backup = report;
-            foxtra = verify;
+            foxtra = offset;
             michal = new backup[oscard](foxtra, romeon, yankee);
             michal = michal instanceof Object ? michal : report;
             zuuluu['renderApp'] = michal;
@@ -1203,11 +1205,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = _closure1_slot14;
             michal = oscard.prototype;
             report = Object.create(michal, {constructor: {value: oscard}});
+            verify = '🖥️';
+            romeon = 'Display Cached Messages';
+            backup = report;
+            foxtra = verify;
+            michal = new backup[oscard](foxtra, romeon, yankee);
+            michal = michal instanceof Object ? michal : report;
+            zuuluu['displayMessagesWithCache'] = michal;
+            oscard = _closure1_slot14;
+            michal = oscard.prototype;
+            report = Object.create(michal, {constructor: {value: oscard}});
             romeon = 'React Render Latest Messages';
             backup = report;
+            foxtra = offset;
             michal = new backup[oscard](foxtra, romeon, yankee);
             michal = michal instanceof Object ? michal : report;
             zuuluu['renderLatestMessages'] = michal;
+            oscard = _closure1_slot14;
+            michal = oscard.prototype;
+            report = Object.create(michal, {constructor: {value: oscard}});
+            romeon = 'Display Latest Messages';
+            backup = report;
+            foxtra = verify;
+            michal = new backup[oscard](foxtra, romeon, yankee);
+            michal = michal instanceof Object ? michal : report;
+            zuuluu['displayLatestMessages'] = michal;
             oscard = _closure1_slot13;
             michal = oscard.prototype;
             report = Object.create(michal, {constructor: {value: oscard}});
@@ -2201,6 +2223,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = zuuluu.bind(oscard)(golfie);
                     zuuluu = 'time_render_latest_messages_end';
                     entity[zuuluu] = oscard;
+                    oscard = michal.displayMessagesWithCache;
+                    zuuluu = oscard.serialize;
+                    oscard = zuuluu.bind(oscard)(golfie);
+                    zuuluu = 'time_display_messages_with_cache_end';
+                    entity[zuuluu] = oscard;
+                    oscard = michal.displayLatestMessages;
+                    zuuluu = oscard.serialize;
+                    oscard = zuuluu.bind(oscard)(golfie);
+                    zuuluu = 'time_display_latest_messages_end';
+                    entity[zuuluu] = oscard;
                     oscard = michal.firstRowGenerator;
                     zuuluu = oscard.serializeStart;
                     oscard = zuuluu.bind(oscard)(golfie);
@@ -2584,55 +2616,55 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = null;
                     golfie = report == zuuluu;
                     oscard = undefined;
-                    if(golfie) { _fun00050_ip = 2924; continue _fun00049 }
- 2918:
+                    if(golfie) { _fun00050_ip = 2980; continue _fun00049 }
+ 2974:
                     oscard = zuuluu.guilds;
- 2924:
+ 2980:
                     zuuluu = 'cache_num_guilds';
                     entity[zuuluu] = oscard;
                     zuuluu = michal.cacheInfo;
                     golfie = report == zuuluu;
                     oscard = undefined;
-                    if(golfie) { _fun00050_ip = 2956; continue _fun00049 }
- 2950:
+                    if(golfie) { _fun00050_ip = 3012; continue _fun00049 }
+ 3006:
                     oscard = zuuluu.privateChannels;
- 2956:
+ 3012:
                     zuuluu = 'cache_num_private_channels';
                     entity[zuuluu] = oscard;
                     zuuluu = michal.cacheInfo;
                     golfie = report == zuuluu;
                     oscard = undefined;
-                    if(golfie) { _fun00050_ip = 2988; continue _fun00049 }
- 2982:
+                    if(golfie) { _fun00050_ip = 3044; continue _fun00049 }
+ 3038:
                     oscard = zuuluu.basicChannels;
- 2988:
+ 3044:
                     zuuluu = 'cache_num_basic_channels';
                     entity[zuuluu] = oscard;
                     zuuluu = michal.cacheInfo;
                     golfie = report == zuuluu;
                     oscard = undefined;
-                    if(golfie) { _fun00050_ip = 3020; continue _fun00049 }
- 3014:
+                    if(golfie) { _fun00050_ip = 3076; continue _fun00049 }
+ 3070:
                     oscard = zuuluu.basicChannelsStale;
- 3020:
+ 3076:
                     zuuluu = 'cache_num_basic_channels_stale';
                     entity[zuuluu] = oscard;
                     zuuluu = michal.cacheInfo;
                     golfie = report == zuuluu;
                     oscard = undefined;
-                    if(golfie) { _fun00050_ip = 3052; continue _fun00049 }
- 3046:
+                    if(golfie) { _fun00050_ip = 3108; continue _fun00049 }
+ 3102:
                     oscard = zuuluu.fullChannels;
- 3052:
+ 3108:
                     zuuluu = 'cache_num_full_channels';
                     entity[zuuluu] = oscard;
                     zuuluu = michal.cacheInfo;
                     report = report == zuuluu;
                     tangon = undefined;
-                    if(report) { _fun00050_ip = 3084; continue _fun00049 }
- 3078:
+                    if(report) { _fun00050_ip = 3140; continue _fun00049 }
+ 3134:
                     tangon = zuuluu.fullChannelGuilds;
- 3084:
+ 3140:
                     zuuluu = 'cache_num_full_channel_guilds';
                     entity[zuuluu] = tangon;
                     zuuluu = michal.loadIndex;

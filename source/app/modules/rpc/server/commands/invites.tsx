@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon = 8;
                     oscard = oscard[romeon];
                     oscard = yankee.bind(report)(oscard);
-                    oscard = oscard.ActivityLocationKinds;
+                    oscard = oscard.EmbeddedActivityLocationKind;
                     oscard = oscard.GUILD_CHANNEL;
                     if(!(oscard !== offset)) { _fun00002_ip = 512; continue _fun00001 }
  113:
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = _closure1_slot1;
                     oscard = oscard[romeon];
                     oscard = yankee.bind(report)(oscard);
-                    oscard = oscard.ActivityLocationKinds;
+                    oscard = oscard.EmbeddedActivityLocationKind;
                     oscard = oscard.GUILD_CHANNEL_MESSAGE;
                     if(!(oscard !== offset)) { _fun00002_ip = 512; continue _fun00001 }
  149:
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = _closure1_slot1;
                     oscard = oscard[romeon];
                     oscard = yankee.bind(report)(oscard);
-                    oscard = oscard.ActivityLocationKinds;
+                    oscard = oscard.EmbeddedActivityLocationKind;
                     oscard = oscard.PRIVATE_CHANNEL;
                     if(!(oscard !== offset)) { _fun00002_ip = 289; continue _fun00001 }
  182:
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = _closure1_slot1;
                     oscard = oscard[romeon];
                     oscard = yankee.bind(report)(oscard);
-                    oscard = oscard.ActivityLocationKinds;
+                    oscard = oscard.EmbeddedActivityLocationKind;
                     oscard = oscard.PRIVATE_CHANNEL_MESSAGE;
                     if(!(oscard !== offset)) { _fun00002_ip = 289; continue _fun00001 }
  215:

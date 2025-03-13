@@ -17,7 +17,7 @@ export default (function(argFoo, argBar, argBaz, _, __, ___, argPlu) {
         oscard['AudioContext'] = report;
         entity = entity.window;
         entity = entity.RTCPeerConnection;
-        if(!(tangon != entity)) { _fun00002_ip = 153; continue _fun00001 }
+        if(!(tangon != entity)) { _fun00002_ip = 155; continue _fun00001 }
  68:
         entity = 0;
         report = michal[entity];
@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, ___, argPlu) {
         entity = entity.bind(tangon)(report);
         report = entity.name;
         entity = 'Chrome';
-        if(!(entity === report)) { _fun00002_ip = 153; continue _fun00001 }
+        if(!(entity === report)) { _fun00002_ip = 155; continue _fun00001 }
  99:
         entity = 1;
         entity = michal[entity];
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, _, __, ___, argPlu) {
         entity = tangon.platformVersion;
         tangon = entity.bind(tangon)();
         entity = 52;
-        if(!(tangon < entity)) { _fun00002_ip = 153; continue _fun00001 }
+        if(!(tangon < entity)) { _fun00002_ip = 155; continue _fun00001 }
  128:
         report = ['createOffer', 'createAnswer'];
         tangon = report.forEach;
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, _, __, ___, argPlu) {
             return entity;
         };
         entity = tangon.bind(report)(entity);
- 153:
+ 155:
         entity = 2;
         michal = michal[entity];
         entity = undefined;

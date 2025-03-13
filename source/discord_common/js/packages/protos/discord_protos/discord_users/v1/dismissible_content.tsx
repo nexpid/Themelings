@@ -1206,10 +1206,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['CHANNEL_LINKED_LOBBY_EDUCATION_TOOLTIP'] = michal;
     entity = 'CHANNEL_LINKED_LOBBY_EDUCATION_TOOLTIP';
     tangon[michal] = entity;
-    michal = 430;
-    tangon['REFERRAL_INCENTIVE_TOOLTIP_AND_TAB_COLOR'] = michal;
-    entity = 'REFERRAL_INCENTIVE_TOOLTIP_AND_TAB_COLOR';
-    tangon[michal] = entity;
     michal = 431;
     tangon['COLLECTIBLES_SHOP_DOJO_MARKETING'] = michal;
     entity = 'COLLECTIBLES_SHOP_DOJO_MARKETING';
@@ -1237,10 +1233,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal = 437;
     tangon['REVERSE_TRIAL_ENDED_UPSELL'] = michal;
     entity = 'REVERSE_TRIAL_ENDED_UPSELL';
-    tangon[michal] = entity;
-    michal = 438;
-    tangon['REFERRAL_INCENTIVE_AWARDED_INFO'] = michal;
-    entity = 'REFERRAL_INCENTIVE_AWARDED_INFO';
     tangon[michal] = entity;
     michal = 439;
     tangon['VOICE_PANEL_ACTIVITIES_SHAPES_BUTTON_EDUCATION_TOOLTIP'] = michal;

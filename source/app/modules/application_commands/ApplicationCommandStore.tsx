@@ -131,46 +131,46 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = null;
             output = michal == yankee;
             result = undefined;
-            if(output) { _fun00008_ip = 106; continue _fun00007 }
- 101:
+            if(output) { _fun00008_ip = 107; continue _fun00007 }
+ 102:
             result = yankee.id;
- 106:
+ 107:
             echoed = foxtra.activeCommand;
             update = michal == echoed;
             output = undefined;
-            if(update) { _fun00008_ip = 126; continue _fun00007 }
- 121:
+            if(update) { _fun00008_ip = 127; continue _fun00007 }
+ 122:
             output = echoed.id;
- 126:
-            if(!(result !== output)) { _fun00008_ip = 321; continue _fun00007 }
- 133:
+ 127:
+            if(!(result !== output)) { _fun00008_ip = 323; continue _fun00007 }
+ 134:
             foxtra['activeCommand'] = yankee;
             foxtra['activeCommandSection'] = sizing;
             foxtra['activeOptionName'] = michal;
             foxtra['preferredCommandId'] = michal;
-            if(!(michal == romeon)) { _fun00008_ip = 163; continue _fun00007 }
- 161:
+            if(!(michal == romeon)) { _fun00008_ip = 164; continue _fun00007 }
+ 162:
             romeon = {};
- 163:
+ 164:
             foxtra['initialValues'] = romeon;
             sizing = michal != kiloes;
             romeon = null;
-            if(!sizing) { _fun00008_ip = 181; continue _fun00007 }
- 178:
+            if(!sizing) { _fun00008_ip = 182; continue _fun00007 }
+ 179:
             romeon = kiloes;
- 181:
+ 182:
             foxtra['commandOrigin'] = romeon;
             foxtra['source'] = tangon;
             romeon = {};
             _closure2_slot0 = romeon;
             sizing = michal == yankee;
             kiloes = undefined;
-            if(sizing) { _fun00008_ip = 213; continue _fun00007 }
- 208:
+            if(sizing) { _fun00008_ip = 214; continue _fun00007 }
+ 209:
             kiloes = yankee.options;
- 213:
-            if(!(michal != kiloes)) { _fun00008_ip = 237; continue _fun00007 }
- 217:
+ 214:
+            if(!(michal != kiloes)) { _fun00008_ip = 238; continue _fun00007 }
+ 218:
             sizing = yankee.options;
             kiloes = sizing.forEach;
             backup = function(argFoo) {
@@ -183,10 +183,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             backup = kiloes.bind(sizing)(backup);
- 237:
+ 238:
             foxtra['optionStates'] = romeon;
-            if(!(michal != yankee)) { _fun00008_ip = 317; continue _fun00007 }
- 247:
+            if(!(michal != yankee)) { _fun00008_ip = 319; continue _fun00007 }
+ 248:
             michal = _closure1_slot0;
             romeon = _closure1_slot1;
             entity = 8;
@@ -203,10 +203,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['searchResultsPosition'] = report;
             entity['source'] = tangon;
             entity = michal.bind(zuuluu)(entity);
- 317:
+ 319:
             entity = true;
             return entity;
- 321:
+ 323:
             entity = false;
             return entity;
         }

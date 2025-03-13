@@ -569,10 +569,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = true;
                 oscard = oscard === foxtra;
                 backup = 'Disabled';
-                if(!oscard) { _fun00002_ip = 110; continue _fun00001 }
- 106:
+                if(!oscard) { _fun00002_ip = 109; continue _fun00001 }
+ 105:
                 backup = 'Enabled';
- 110:
+ 109:
                 entity['label'] = backup;
                 yankee = function() { // Original name: onPress
                     zuuluu = _closure2_slot6;
@@ -604,10 +604,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity[1] = golfie;
                 zuuluu['children'] = entity;
                 entity = 'disabled';
-                if(!oscard) { _fun00002_ip = 227; continue _fun00001 }
- 223:
+                if(!oscard) { _fun00002_ip = 226; continue _fun00001 }
+ 222:
                 entity = 'enabled';
- 227:
+ 226:
                 entity = report.bind(michal)(tangon, zuuluu, entity);
                 return entity;
             }

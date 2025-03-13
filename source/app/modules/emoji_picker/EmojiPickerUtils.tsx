@@ -1243,32 +1243,32 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal['index_num'] = oscard;
             offset = option == verify;
             oscard = undefined;
-            if(offset) { _fun00024_ip = 290; continue _fun00023 }
- 284:
+            if(offset) { _fun00024_ip = 291; continue _fun00023 }
+ 285:
             oscard = verify.loadId;
- 290:
+ 291:
             michal['load_id'] = oscard;
             offset = option == verify;
             oscard = undefined;
-            if(offset) { _fun00024_ip = 324; continue _fun00023 }
- 304:
+            if(offset) { _fun00024_ip = 325; continue _fun00023 }
+ 305:
             offset = verify.results;
             yankee = option == offset;
             oscard = undefined;
-            if(yankee) { _fun00024_ip = 324; continue _fun00023 }
- 319:
+            if(yankee) { _fun00024_ip = 325; continue _fun00023 }
+ 320:
             oscard = offset.length;
- 324:
+ 325:
             michal['total_results'] = oscard;
             offset = option == verify;
             oscard = undefined;
-            if(offset) { _fun00024_ip = 383; continue _fun00023 }
- 338:
+            if(offset) { _fun00024_ip = 384; continue _fun00023 }
+ 339:
             offset = verify.results;
             option = option == offset;
             oscard = undefined;
-            if(option) { _fun00024_ip = 383; continue _fun00023 }
- 353:
+            if(option) { _fun00024_ip = 384; continue _fun00023 }
+ 354:
             verify = offset.map;
             option = function(argFoo) {
                 entity = argFoo;
@@ -1285,7 +1285,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             oscard = option.bind(verify)(golfie);
- 383:
+ 384:
             michal['emoji_suggestion_ids'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return entity;
@@ -1830,7 +1830,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 entity = /:$/;
                 oscard = zuuluu.bind(tangon)(entity, michal);
                 entity = null;
-                if(!(michal !== oscard)) { _fun00036_ip = 123; continue _fun00035 }
+                if(!(michal !== oscard)) { _fun00036_ip = 124; continue _fun00035 }
  67:
                 tangon = _closure1_slot4;
                 zuuluu = tangon.searchWithoutFetchingLatest;
@@ -1845,7 +1845,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 report = _closure2_slot3;
                 michal['includeExternalGuilds'] = report;
                 entity = zuuluu.bind(tangon)(michal);
- 123:
+ 124:
                 return entity;
             }
         };

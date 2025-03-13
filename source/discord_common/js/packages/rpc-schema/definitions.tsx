@@ -384,6 +384,11 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         tangon = report.required;
         tangon = tangon.bind(report)();
         entity['success'] = tangon;
+        tangon = zuuluu.boolean;
+        report = tangon.bind(zuuluu)();
+        tangon = report.required;
+        tangon = tangon.bind(report)();
+        entity['didCopyLink'] = tangon;
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };

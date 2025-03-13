@@ -1,4 +1,4 @@
-// discord_common/js/shared/shared-constants/ActivityLocationKinds.tsx
+// discord_common/js/shared/shared-constants/EmbeddedActivityLocationKind.tsx
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     zuuluu = argFre;
     entity = global;
@@ -27,8 +27,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = undefined;
     oscard = tangon.bind(entity)(report);
     report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/shared/shared-constants/ActivityLocationKinds.tsx';
+    tangon = '../discord_common/js/shared/shared-constants/EmbeddedActivityLocationKind.tsx';
     tangon = report.bind(oscard)(tangon);
-    zuuluu['ActivityLocationKinds'] = michal;
+    zuuluu['EmbeddedActivityLocationKind'] = michal;
     return entity;
 })();

@@ -1,54 +1,60 @@
 // app/modules/panels/morphable/native/getAdjustedBottomOffsets.tsx
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    report = argBar;
     zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    michal['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    entity = {};
-    michal = 'function getAdjustedBottomOffsets_getAdjustedBottomOffsetsTsx1({screenBottomOffset:screenBottomOffset,imeInsetsBottom:imeInsetsBottom,safeAreaBottom:safeAreaBottom,keyboardHeight:keyboardHeight}){let adjustedScreenBottomOffset=screenBottomOffset;if(imeInsetsBottom>0){adjustedScreenBottomOffset-=safeAreaBottom;}let bottomOffset=adjustedScreenBottomOffset;if(keyboardHeight>0){bottomOffset+=keyboardHeight-safeAreaBottom;}return{adjustedScreenBottomOffset:adjustedScreenBottomOffset,bottomOffset:bottomOffset};}';
-    entity['code'] = michal;
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    entity = 0;
+    tangon = oscard[entity];
+    entity = undefined;
+    golfie = report.bind(entity)(tangon);
+    tangon = golfie.isAndroid;
+    option = tangon.bind(golfie)();
+    var _closure1_slot0 = option;
+    tangon = {};
+    golfie = 'function getAdjustedBottomOffsets_getAdjustedBottomOffsetsTsx1({screenBottomOffset:screenBottomOffset,safeAreaBottom:safeAreaBottom,keyboardHeight:keyboardHeight}){const{IS_ANDROID}=this.__closure;let bottomOffset=screenBottomOffset;if(keyboardHeight>0){bottomOffset+=(IS_ANDROID?0:keyboardHeight)-safeAreaBottom;}return{bottomOffset:bottomOffset};}';
+    tangon['code'] = golfie;
     michal = function(argFoo) { // Original name: t
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            michal = entity.screenBottomOffset;
-            oscard = entity.imeInsetsBottom;
+            zuuluu = entity.screenBottomOffset;
             tangon = entity.safeAreaBottom;
-            entity = entity.keyboardHeight;
-            report = 0;
-            zuuluu = michal;
-            if(!(oscard > report)) { _fun00002_ip = 40; continue _fun00001 }
- 36:
-            zuuluu = michal - tangon;
- 40:
+            report = entity.keyboardHeight;
+            entity = 0;
             michal = zuuluu;
-            if(!(entity > report)) { _fun00002_ip = 55; continue _fun00001 }
- 47:
+            if(!(report > entity)) { _fun00002_ip = 53; continue _fun00001 }
+ 30:
+            oscard = _closure1_slot0;
+            entity = 0;
+            if(oscard) { _fun00002_ip = 45; continue _fun00001 }
+ 42:
+            entity = report;
+ 45:
             entity = entity - tangon;
             michal = zuuluu + entity;
- 55:
+ 53:
             entity = {};
-            entity['adjustedScreenBottomOffset'] = zuuluu;
             entity['bottomOffset'] = michal;
             return entity;
         }
     };
-    tangon = {};
-    michal['__closure'] = tangon;
-    tangon = 2828202894541.0;
-    michal['__workletHash'] = tangon;
-    michal['__initData'] = entity;
-    tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
+    golfie = {};
+    golfie['IS_ANDROID'] = option;
+    michal['__closure'] = golfie;
+    golfie = 9166664651792.0;
+    michal['__workletHash'] = golfie;
+    michal['__initData'] = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
     tangon = 'modules/panels/morphable/native/getAdjustedBottomOffsets.tsx';
     tangon = report.bind(oscard)(tangon);

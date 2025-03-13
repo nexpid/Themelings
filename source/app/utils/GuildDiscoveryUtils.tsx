@@ -227,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 218; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 219; continue _fun00003 }
  10:
                     romeon = argFoo;
                     oscard = undefined;
@@ -258,49 +258,49 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal['oldFormErrors'] = verify;
                     michal['rejectWithError'] = verify;
                     michal = report.bind(golfie)(michal);
-                    SaveGenerator(address=126);
- 124:
+                    SaveGenerator(address=127);
+ 125:
                     return michal;
- 126:
+ 127:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00004_ip = 208; continue _fun00003 }
- 132:
+                    if(report) { _fun00004_ip = 209; continue _fun00003 }
+ 133:
                     report = michal.body;
                     option = report;
                     golfie = null;
                     verify = golfie == report;
                     report = undefined;
-                    if(verify) { _fun00004_ip = 181; continue _fun00003 }
- 151:
+                    if(verify) { _fun00004_ip = 182; continue _fun00003 }
+ 152:
                     verify = option;
                     verify = verify.guilds;
                     option = verify;
                     verify = golfie == verify;
                     report = undefined;
-                    if(verify) { _fun00004_ip = 181; continue _fun00003 }
- 172:
+                    if(verify) { _fun00004_ip = 182; continue _fun00003 }
+ 173:
                     verify = option;
                     option = 0;
                     report = verify[option];
- 181:
+ 182:
                     tangon = report;
-                    if(!(golfie != report)) { _fun00004_ip = 202; continue _fun00003 }
- 188:
+                    if(!(golfie != report)) { _fun00004_ip = 203; continue _fun00003 }
+ 189:
                     report = _closure1_slot11;
                     zuuluu = tangon;
                     zuuluu = report.bind(oscard)(zuuluu);
-                    _fun00004_ip = 205; continue _fun00003;
- 202:
+                    _fun00004_ip = 206; continue _fun00003;
+ 203:
                     zuuluu = tangon;
- 205: // try_end0
+ 206: // try_end0
                     return zuuluu;
- 208:
+ 209:
                     return michal;
- 211: // catch_target0
+ 212: // catch_target0
                     CatchBlockStart(arg_register=1);
                     michal = null;
                     return michal;
- 218:
+ 219:
                     return entity;
                 }
             };
@@ -552,26 +552,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = michal.SEARCH_RESULT_VIEWED;
             michal = {};
             foxtra = _closure1_slot8;
-            if(yankee) { _fun00010_ip = 105; continue _fun00009 }
- 97:
+            if(yankee) { _fun00010_ip = 106; continue _fun00009 }
+ 98:
             yankee = foxtra.GUILD_DISCOVERY;
-            _fun00010_ip = 111; continue _fun00009;
- 105:
+            _fun00010_ip = 112; continue _fun00009;
+ 106:
             yankee = foxtra.GUILD_DISCOVERY_TAG;
- 111:
+ 112:
             michal['search_type'] = yankee;
             michal['load_id'] = offset;
             michal['search_id'] = verify;
             offset = entity !== romeon;
             yankee = null;
-            if(!offset) { _fun00010_ip = 140; continue _fun00009 }
- 135:
+            if(!offset) { _fun00010_ip = 141; continue _fun00009 }
+ 136:
             yankee = romeon.length;
- 140:
+ 141:
             michal['total_results'] = yankee;
             verify = null;
-            if(!offset) { _fun00010_ip = 167; continue _fun00009 }
- 150:
+            if(!offset) { _fun00010_ip = 168; continue _fun00009 }
+ 151:
             yankee = romeon.map;
             offset = function(argFoo) {
                 entity = argFoo;
@@ -579,7 +579,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             verify = yankee.bind(romeon)(offset);
- 167:
+ 168:
             michal['guild_ids'] = verify;
             michal['query'] = option;
             golfie = golfie.location;

@@ -248,7 +248,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     foxtra = argBar;
                     verify = argBaz;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00012_ip = 488; continue _fun00011 }
+                    if(michal) { _fun00012_ip = 489; continue _fun00011 }
  19:
                     romeon = backup;
                     yankee = foxtra;
@@ -259,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = _closure1_slot6;
                     report = option.shouldFetchPreview;
                     report = report.bind(option)(backup, foxtra, verify);
-                    if(!report) { _fun00012_ip = 485; continue _fun00011 }
+                    if(!report) { _fun00012_ip = 486; continue _fun00011 }
  60:
                     option = _closure1_slot0;
                     verify = _closure1_slot2;
@@ -322,13 +322,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = false;
                     option['rejectWithError'] = yankee;
                     option = verify.bind(offset)(option);
-                    SaveGenerator(address=296);
- 294:
+                    SaveGenerator(address=297);
+ 295:
                     return option;
- 296:
+ 297:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=8);
-                    if(verify) { _fun00012_ip = 366; continue _fun00011 }
- 302:
+                    if(verify) { _fun00012_ip = 367; continue _fun00011 }
+ 303:
                     offset = _closure1_slot1;
                     verify = _closure1_slot2;
                     verify = verify[report];
@@ -343,17 +343,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon = romeon.url;
                     verify['previewURL'] = romeon;
                     verify = offset.bind(yankee)(verify);
- 364: // try_end0
-                    _fun00012_ip = 485; continue _fun00011;
- 366:
+ 365: // try_end0
+                    _fun00012_ip = 486; continue _fun00011;
+ 367:
                     return option;
- 369: // catch_target0
+ 370: // catch_target0
                     CatchBlockStart(arg_register=7);
                     tangon = option;
                     verify = option.status;
                     option = 429;
-                    if(!(option === verify)) { _fun00012_ip = 436; continue _fun00011 }
- 389:
+                    if(!(option === verify)) { _fun00012_ip = 437; continue _fun00011 }
+ 390:
                     tangon = tangon.body;
                     option = tangon.retry_after;
                     verify = _closure1_slot1;
@@ -364,7 +364,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = tangon.Millis;
                     tangon = tangon.SECOND;
                     oscard = option * tangon;
- 436:
+ 437:
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
                     zuuluu = zuuluu[report];
@@ -376,9 +376,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['streamKey'] = golfie;
                     zuuluu['retryAfter'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
- 485:
+ 486:
                     return michal;
- 488:
+ 489:
                     return entity;
                 }
             };

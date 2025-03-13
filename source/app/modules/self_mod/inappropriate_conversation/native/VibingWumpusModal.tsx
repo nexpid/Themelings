@@ -280,15 +280,15 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             echoed = echoed[sequen];
             echoed = source.bind(tangon)(echoed);
             source = echoed.t;
-            if(output) { _fun00002_ip = 816; continue _fun00001 }
- 803:
+            if(output) { _fun00002_ip = 812; continue _fun00001 }
+ 799:
             echoed = source.ZcgDJS;
             echoed = ctrled.bind(vacuum)(echoed);
-            _fun00002_ip = 827; continue _fun00001;
- 816:
+            _fun00002_ip = 823; continue _fun00001;
+ 812:
             source = source.RscU7O;
             echoed = ctrled.bind(vacuum)(source);
- 827:
+ 823:
             backup['text'] = echoed;
             result = function() { // Original name: onPress
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -373,19 +373,19 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             echoed = _closure1_slot12;
             source = _closure1_slot0;
             ctrled = _closure1_slot2;
-            if(output) { _fun00002_ip = 877; continue _fun00001 }
- 857:
+            if(output) { _fun00002_ip = 873; continue _fun00001 }
+ 853:
             output = 21;
             output = ctrled[output];
             output = source.bind(tangon)(output);
             result = output.PauseIcon;
-            _fun00002_ip = 895; continue _fun00001;
- 877:
+            _fun00002_ip = 891; continue _fun00001;
+ 873:
             output = 20;
             output = ctrled[output];
             output = source.bind(tangon)(output);
             result = output.PlayIcon;
- 895:
+ 891:
             output = {};
             source = 'md';
             output['size'] = source;

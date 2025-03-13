@@ -1,9 +1,9 @@
 // app/utils/PremiumTypeUtils.tsx
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    option = argBar;
+    verify = argBar;
     zuuluu = argFre;
-    verify = argPlu;
-    report = function(argFoo, argBar) { // Original name: isPremiumAtLeast
+    offset = argPlu;
+    oscard = function(argFoo, argBar) { // Original name: isPremiumAtLeast
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscard = argFoo;
@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot1 = report;
+    var _closure1_slot1 = oscard;
     tangon = function(argFoo, argBar) { // Original name: isPremium
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -66,30 +66,49 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     };
     entity = global;
     yankee = entity.Object;
-    offset = yankee.defineProperty;
-    oscard = {};
+    option = yankee.defineProperty;
+    golfie = {};
     entity = true;
-    oscard['value'] = entity;
+    golfie['value'] = entity;
     entity = '__esModule';
-    entity = offset.bind(yankee)(zuuluu, entity, oscard);
+    entity = option.bind(yankee)(zuuluu, entity, golfie);
     entity = 0;
-    oscard = verify[entity];
+    golfie = offset[entity];
     entity = undefined;
-    oscard = option.bind(entity)(oscard);
-    oscard = oscard.PremiumTypeOrder;
-    var _closure1_slot0 = oscard;
-    oscard = {};
-    oscard['isPremiumAtLeast'] = report;
-    oscard['isPremium'] = tangon;
-    oscard['isPremiumExactly'] = michal;
-    golfie = 1;
-    golfie = verify[golfie];
-    verify = option.bind(entity)(golfie);
-    option = verify.fileFinishedImporting;
-    golfie = 'utils/PremiumTypeUtils.tsx';
-    golfie = option.bind(verify)(golfie);
-    zuuluu['default'] = oscard;
-    zuuluu['isPremiumAtLeast'] = report;
+    golfie = verify.bind(entity)(golfie);
+    golfie = golfie.PremiumTypeOrder;
+    var _closure1_slot0 = golfie;
+    golfie = {};
+    golfie['isPremiumAtLeast'] = oscard;
+    golfie['isPremium'] = tangon;
+    golfie['isPremiumExactly'] = michal;
+    option = 1;
+    option = offset[option];
+    offset = verify.bind(entity)(option);
+    verify = offset.fileFinishedImporting;
+    option = 'utils/PremiumTypeUtils.tsx';
+    option = verify.bind(offset)(option);
+    zuuluu['default'] = golfie;
+    zuuluu['isPremiumAtLeast'] = oscard;
+    report = function(argFoo, argBar) { // Original name: isPremiumAtMost
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+ 0:
+            tangon = argFoo;
+            entity = null;
+            entity = entity == tangon;
+            if(entity) { _fun00008_ip = 38; continue _fun00007 }
+ 12:
+            zuuluu = _closure1_slot0;
+            zuuluu = zuuluu[tangon];
+            tangon = _closure1_slot0;
+            michal = argBar;
+            michal = tangon[michal];
+            entity = zuuluu <= michal;
+ 38:
+            return entity;
+        }
+    };
+    zuuluu['isPremiumAtMost'] = report;
     zuuluu['isPremium'] = tangon;
     zuuluu['isPremiumExactly'] = michal;
     return entity;
