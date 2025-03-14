@@ -289,7 +289,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     michal = _closure1_slot7;
                     michal = michal.useReducedMotion;
-                    if(!michal) { _fun00006_ip = 58; continue _fun00005 }
+                    if(!michal) { _fun00006_ip = 60; continue _fun00005 }
  18:
                     zuuluu = _closure2_slot8;
                     michal = global;
@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = 4500;
                     michal = oscard.bind(report)(tangon, michal);
                     zuuluu['current'] = michal;
- 58:
+ 60:
                     entity = function() {
                         entity = global;
                         zuuluu = entity.clearTimeout;
@@ -496,8 +496,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             zuuluu['onStart'] = golfie;
             option = tangon.bind(oscard)(zuuluu);
-            if(michal) { _fun00002_ip = 1584; continue _fun00001 }
- 1128:
+            if(michal) { _fun00002_ip = 1598; continue _fun00001 }
+ 1142:
             tangon = _closure1_slot12;
             zuuluu = _closure1_slot5;
             michal = {};
@@ -600,7 +600,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[2] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1584:
+ 1598:
             return entity;
         }
     };
@@ -675,15 +675,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             entity = verify.bind(offset)(entity, option);
             entity = null;
-            if(!(tangon !== zuuluu)) { _fun00008_ip = 147; continue _fun00007 }
- 121:
+            if(!(tangon !== zuuluu)) { _fun00008_ip = 151; continue _fun00007 }
+ 125:
             tangon = _closure1_slot11;
             zuuluu = _closure1_slot17;
             michal = {};
             michal['canvasWidth'] = golfie;
             michal['canvasHeight'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 147:
+ 151:
             return entity;
         }
     };

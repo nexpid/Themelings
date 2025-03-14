@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['error'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot11 = tangon;
-    tangon = 17;
+    tangon = 18;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -326,13 +326,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     tangon = _closure1_slot2;
-                    zuuluu = _closure1_slot3;
+                    michal = _closure1_slot3;
                     entity = 12;
-                    zuuluu = zuuluu[entity];
+                    michal = michal[entity];
                     entity = undefined;
-                    tangon = tangon.bind(entity)(zuuluu);
-                    zuuluu = tangon.dismissGlobalKeyboard;
-                    zuuluu = zuuluu.bind(tangon)();
+                    tangon = tangon.bind(entity)(michal);
+                    michal = tangon.dismissGlobalKeyboard;
+                    michal = michal.bind(tangon)();
  35: // try_start_0
                     report = _closure2_slot11;
                     tangon = null;
@@ -341,47 +341,56 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = tangon.name;
                     report = tangon.length;
                     tangon = 0;
-                    if(!(tangon !== report)) { _fun00006_ip = 118; continue _fun00005 }
+                    if(!(tangon !== report)) { _fun00006_ip = 121; continue _fun00005 }
  69:
                     report = _closure2_slot12;
                     tangon = report.navigate;
                     oscard = _closure1_slot0;
                     golfie = _closure1_slot3;
-                    zuuluu = 13;
-                    zuuluu = golfie[zuuluu];
-                    zuuluu = oscard.bind(entity)(zuuluu);
-                    zuuluu = zuuluu.EditGuildEventScreens;
-                    zuuluu = zuuluu.PREVIEW;
-                    zuuluu = tangon.bind(report)(zuuluu);
- 116: // try_end0
-                    _fun00006_ip = 224; continue _fun00005;
- 118: // try_start_1
-                    zuuluu = global;
-                    tangon = zuuluu.Error;
-                    oscard = _closure1_slot0;
-                    golfie = _closure1_slot3;
-                    michal = 6;
-                    zuuluu = golfie[michal];
-                    zuuluu = oscard.bind(entity)(zuuluu);
-                    report = zuuluu.intl;
-                    zuuluu = report.string;
+                    michal = 13;
                     michal = golfie[michal];
                     michal = oscard.bind(entity)(michal);
+                    michal = michal.EditGuildEventScreens;
+                    michal = michal.PREVIEW;
+                    michal = tangon.bind(report)(michal);
+ 116: // try_end0
+                    _fun00006_ip = 269; continue _fun00005;
+ 121: // try_start_1
+                    michal = global;
+                    report = michal.Error;
+                    golfie = _closure1_slot0;
+                    option = _closure1_slot3;
+                    michal = 6;
+                    tangon = option[michal];
+                    tangon = golfie.bind(entity)(tangon);
+                    oscard = tangon.intl;
+                    tangon = oscard.string;
+                    michal = option[michal];
+                    michal = golfie.bind(entity)(michal);
                     michal = michal.t;
                     michal = michal.GoV0ub;
-                    option = zuuluu.bind(report)(michal);
-                    zuuluu = tangon.prototype;
-                    zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
-                    verify = zuuluu;
-                    michal = new verify[tangon](option, golfie);
-                    michal = michal instanceof Object ? michal : zuuluu;
+                    verify = tangon.bind(oscard)(michal);
+                    tangon = report.prototype;
+                    tangon = Object.create(tangon, {constructor: {value: report}});
+                    offset = tangon;
+                    michal = new offset[report](verify, option);
+                    michal = michal instanceof Object ? michal : tangon;
                     throw michal;
- 205: // try_end1 // catch_target0 // catch_target1
+ 208: // try_end1 // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=1);
-                    zuuluu = _closure2_slot11;
+                    report = _closure2_slot11;
+                    tangon = michal.message;
+                    tangon = report.bind(entity)(tangon);
+                    tangon = _closure1_slot0;
+                    report = _closure1_slot3;
+                    zuuluu = 14;
+                    zuuluu = report[zuuluu];
+                    zuuluu = tangon.bind(entity)(zuuluu);
+                    tangon = zuuluu.AccessibilityAnnouncer;
+                    zuuluu = tangon.announce;
                     michal = michal.message;
-                    michal = zuuluu.bind(entity)(michal);
- 224:
+                    michal = zuuluu.bind(tangon)(michal);
+ 269:
                     return entity;
                 }
             };
@@ -394,13 +403,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = zuuluu.bind(tangon)(michal, entity);
             zuuluu = _closure1_slot10;
             golfie = _closure1_slot1;
-            entity = 14;
+            entity = 15;
             entity = sizing[entity];
             michal = golfie.bind(tangon)(entity);
             entity = {};
             entity['action'] = offset;
             entity['ref'] = report;
-            report = 15;
+            report = 16;
             report = sizing[report];
             golfie = golfie.bind(tangon)(report);
             report = {};
@@ -427,7 +436,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = kiloes.bind(tangon)(golfie, report);
             report = new Array(7);
             report[0] = golfie;
-            offset = 16;
+            offset = 17;
             golfie = sizing[offset];
             golfie = config.bind(tangon)(golfie);
             yankee = golfie.GuildEventTopic;

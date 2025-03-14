@@ -1,4 +1,4 @@
-// app/modules/premium/experiments/IOSPremiumTrialsExperiment.tsx
+// app/modules/video_calls/VideoOcclusionStatTrackingExperiment.tsx
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -16,15 +16,15 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = undefined;
     option = report.bind(entity)(michal);
     golfie = option.createExperiment;
-    michal = {'kind': 'user', 'id': '2023-06_ios_premium_trials', 'label': 'iOS Premium Trials'};
+    michal = {'kind': 'user', 'id': '2025-03_video_occlusion_stat_tracking', 'label': 'Video Occlusion Stat Tracking Debug'};
     tangon = {};
     verify = false;
-    tangon['enabled'] = verify;
+    tangon['revertOcclusionTrackingChanges'] = verify;
     michal['defaultConfig'] = tangon;
-    offset = {'id': 1, 'label': 'iOS Trials Enabled'};
+    offset = {'id': 1, 'label': 'Revert occlusion tracking changes'};
     tangon = 1;
     verify = {};
-    verify['enabled'] = yankee;
+    verify['revertOcclusionTrackingChanges'] = yankee;
     offset['config'] = verify;
     verify = new Array(1);
     verify[0] = offset;
@@ -33,8 +33,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/experiments/IOSPremiumTrialsExperiment.tsx';
+    tangon = 'modules/video_calls/VideoOcclusionStatTrackingExperiment.tsx';
     tangon = report.bind(oscard)(tangon);
-    zuuluu['IOSPremiumTrialsExperiment'] = michal;
+    zuuluu['VideoOcclusionStatTrackingExperiment'] = michal;
     return entity;
 })();

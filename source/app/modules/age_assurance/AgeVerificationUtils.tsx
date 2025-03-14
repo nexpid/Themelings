@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = 'retry';
     tangon['RETRY'] = oscard;
     var _closure1_slot10 = tangon;
-    oscard = 10;
+    oscard = 12;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
     golfie = option.fileFinishedImporting;
@@ -317,98 +317,235 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['useIsAgeVerified'] = tangon;
-    michal = function(argFoo) { // Original name: useInitiateAgeVerification
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot5;
-        tangon = report.useState;
-        entity = false;
-        option = tangon.bind(report)(entity);
-        tangon = _closure1_slot4;
-        golfie = undefined;
-        entity = 2;
-        option = tangon.bind(golfie)(option, entity);
-        entity = 0;
-        tangon = option[entity];
-        entity = 1;
-        entity = option[entity];
-        var _closure2_slot1 = entity;
-        entity = {};
-        entity['loading'] = tangon;
-        tangon = report.useCallback;
-        zuuluu = _closure1_slot3;
-        michal = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+    tangon = function(argFoo) { // Original name: useInitiateAgeVerification
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-                    StartGenerator();
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00016_ip = 169; continue _fun00015 }
- 10:
-                    tangon = _closure2_slot1;
-                    report = undefined;
-                    michal = true;
-                    michal = tangon.bind(report)(michal);
- 26: // try_start_0 // try_start_1
-                    oscard = _closure1_slot0;
-                    golfie = _closure1_slot2;
-                    michal = 8;
-                    michal = golfie[michal];
-                    oscard = oscard.bind(report)(michal);
-                    michal = oscard.initiateVerification;
-                    michal = michal.bind(oscard)();
-                    SaveGenerator(address=63);
- 61:
-                    return michal;
- 63:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(oscard) { _fun00016_ip = 124; continue _fun00015 }
- 69:
-                    oscard = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    tangon = 9;
-                    tangon = golfie[tangon];
-                    golfie = oscard.bind(report)(tangon);
-                    oscard = golfie.showAgeVerification;
-                    tangon = {};
-                    option = michal.verification_webview_url;
-                    tangon['webviewUrl'] = option;
-                    option = _closure2_slot0;
-                    tangon['onComplete'] = option;
-                    tangon = oscard.bind(golfie)(tangon);
- 122: // try_end0
-                    _fun00016_ip = 140; continue _fun00015;
- 124: // try_end1
-                    oscard = _closure2_slot1;
-                    tangon = false;
-                    tangon = oscard.bind(report)(tangon);
-                    return michal;
- 138: // try_start_2 // catch_target0
-                    CatchBlockStart(arg_register=1);
- 140: // try_end2
-                    tangon = _closure2_slot1;
-                    michal = false;
-                    michal = tangon.bind(report)(michal);
-                    return report;
- 154: // catch_target1 // catch_target2
-                    CatchBlockStart(arg_register=1);
-                    tangon = _closure2_slot1;
-                    zuuluu = false;
-                    zuuluu = tangon.bind(report)(zuuluu);
-                    throw michal;
- 169:
-                    return entity;
-                }
+            golfie = argFoo;
+            var _closure2_slot0 = golfie;
+            oscard = _closure1_slot5;
+            tangon = oscard.useState;
+            entity = false;
+            report = tangon.bind(oscard)(entity);
+            tangon = _closure1_slot4;
+            option = undefined;
+            entity = 2;
+            report = tangon.bind(option)(report, entity);
+            entity = 0;
+            tangon = report[entity];
+            entity = 1;
+            entity = report[entity];
+            var _closure2_slot1 = entity;
+            report = _closure1_slot0;
+            verify = _closure1_slot2;
+            entity = 7;
+            entity = verify[entity];
+            offset = report.bind(option)(entity);
+            verify = offset.useStateFromStores;
+            entity = _closure1_slot7;
+            report = new Array(1);
+            report[0] = entity;
+            entity = function() {
+                michal = _closure1_slot7;
+                entity = michal.getCurrentUser;
+                entity = entity.bind(michal)();
+                return entity;
             };
+            verify = verify.bind(offset)(report, entity);
+            report = oscard.useRef;
+            entity = null;
+            offset = entity == verify;
+            entity = undefined;
+            if(offset) { _fun00016_ip = 130; continue _fun00015 }
+ 124:
+            entity = verify.ageVerificationStatus;
+ 130:
+            entity = report.bind(oscard)(entity);
+            entity = entity.current;
+            var _closure2_slot2 = entity;
+            report = _closure1_slot5;
+            verify = report.useCallback;
+            oscard = new Array(1);
+            oscard[0] = entity;
+            entity = function() {
+                zuuluu = _closure1_slot1;
+                michal = _closure1_slot2;
+                entity = 8;
+                michal = michal[entity];
+                entity = undefined;
+                tangon = zuuluu.bind(entity)(michal);
+                zuuluu = tangon.dispatch;
+                michal = {};
+                report = 'CLOSE_AGE_VERIFICATION_MODAL';
+                michal['type'] = report;
+                report = _closure2_slot2;
+                michal['status'] = report;
+                michal = zuuluu.bind(tangon)(michal);
+                return entity;
+            };
+            oscard = verify.bind(report)(entity, oscard);
+            var _closure2_slot3 = oscard;
+            entity = {};
+            entity['loading'] = tangon;
+            tangon = report.useCallback;
+            zuuluu = _closure1_slot3;
+            michal = function* () {
+                entity = function* () { // Original name: ?anon_0_
+                    _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+ 0:
+                        StartGenerator();
+                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                        if(michal) { _fun00018_ip = 210; continue _fun00017 }
+ 10:
+                        tangon = _closure2_slot1;
+                        report = undefined;
+                        michal = true;
+                        michal = tangon.bind(report)(michal);
+ 26: // try_start_0 // try_start_1
+                        oscard = _closure1_slot0;
+                        golfie = _closure1_slot2;
+                        michal = 9;
+                        michal = golfie[michal];
+                        oscard = oscard.bind(report)(michal);
+                        michal = oscard.initiateVerification;
+                        michal = michal.bind(oscard)();
+                        SaveGenerator(address=63);
+ 61:
+                        return michal;
+ 63:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
+                        if(oscard) { _fun00018_ip = 165; continue _fun00017 }
+ 69:
+                        oscard = _closure1_slot1;
+                        golfie = _closure1_slot2;
+                        tangon = 8;
+                        tangon = golfie[tangon];
+                        verify = oscard.bind(report)(tangon);
+                        option = verify.dispatch;
+                        tangon = {};
+                        offset = 'INITIATE_AGE_VERIFICATION';
+                        tangon['type'] = offset;
+                        tangon = option.bind(verify)(tangon);
+                        tangon = 10;
+                        tangon = golfie[tangon];
+                        golfie = oscard.bind(report)(tangon);
+                        oscard = golfie.showAgeVerification;
+                        tangon = {};
+                        option = michal.verification_webview_url;
+                        tangon['webviewUrl'] = option;
+                        option = _closure2_slot0;
+                        tangon['onComplete'] = option;
+                        option = _closure2_slot3;
+                        tangon['onClose'] = option;
+                        tangon = oscard.bind(golfie)(tangon);
+ 163: // try_end0
+                        _fun00018_ip = 181; continue _fun00017;
+ 165: // try_end1
+                        oscard = _closure2_slot1;
+                        tangon = false;
+                        tangon = oscard.bind(report)(tangon);
+                        return michal;
+ 179: // try_start_2 // catch_target0
+                        CatchBlockStart(arg_register=1);
+ 181: // try_end2
+                        tangon = _closure2_slot1;
+                        michal = false;
+                        michal = tangon.bind(report)(michal);
+                        return report;
+ 195: // catch_target1 // catch_target2
+                        CatchBlockStart(arg_register=1);
+                        tangon = _closure2_slot1;
+                        zuuluu = false;
+                        zuuluu = tangon.bind(report)(zuuluu);
+                        throw michal;
+ 210:
+                        return entity;
+                    }
+                };
+                return entity;
+            };
+            zuuluu = zuuluu.bind(option)(michal);
+            michal = new Array(2);
+            michal[0] = golfie;
+            michal[1] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
+            entity['initiateAgeVerification'] = michal;
             return entity;
+        }
+    };
+    zuuluu['useInitiateAgeVerification'] = tangon;
+    michal = function(argFoo) { // Original name: useWatchAgeVerificationStatusChange
+        option = argFoo;
+        var _closure2_slot0 = option;
+        report = _closure1_slot0;
+        oscard = _closure1_slot2;
+        entity = 7;
+        tangon = oscard[entity];
+        entity = undefined;
+        verify = report.bind(entity)(tangon);
+        golfie = verify.useStateFromStores;
+        tangon = _closure1_slot7;
+        report = new Array(1);
+        report[0] = tangon;
+        tangon = function() {
+            _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+ 0:
+                michal = _closure1_slot7;
+                entity = michal.getCurrentUser;
+                michal = entity.bind(michal)();
+                entity = null;
+                zuuluu = entity == michal;
+                entity = undefined;
+                if(zuuluu) { _fun00020_ip = 33; continue _fun00019 }
+ 27:
+                entity = michal.ageVerificationStatus;
+ 33:
+                return entity;
+            }
         };
-        zuuluu = zuuluu.bind(golfie)(michal);
-        michal = new Array(1);
-        michal[0] = oscard;
-        michal = tangon.bind(report)(zuuluu, michal);
-        entity['initiateAgeVerification'] = michal;
+        golfie = golfie.bind(verify)(report, tangon);
+        var _closure2_slot1 = golfie;
+        report = _closure1_slot1;
+        tangon = 11;
+        tangon = oscard[tangon];
+        tangon = report.bind(entity)(tangon);
+        oscard = tangon.bind(entity)(golfie);
+        var _closure2_slot2 = oscard;
+        report = _closure1_slot5;
+        tangon = report.useEffect;
+        zuuluu = new Array(3);
+        zuuluu[0] = option;
+        zuuluu[1] = golfie;
+        zuuluu[2] = oscard;
+        michal = function() {
+            _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+ 0:
+                michal = _closure2_slot2;
+                tangon = null;
+                michal = tangon != michal;
+                if(!michal) { _fun00022_ip = 24; continue _fun00021 }
+ 16:
+                zuuluu = _closure2_slot1;
+                michal = tangon != zuuluu;
+ 24:
+                if(!michal) { _fun00022_ip = 39; continue _fun00021 }
+ 27:
+                tangon = _closure2_slot2;
+                zuuluu = _closure2_slot1;
+                michal = tangon !== zuuluu;
+ 39:
+                if(!michal) { _fun00022_ip = 52; continue _fun00021 }
+ 42:
+                michal = _closure2_slot0;
+                entity = undefined;
+                entity = michal.bind(entity)();
+ 52:
+                entity = undefined;
+                return entity;
+            }
+        };
+        michal = tangon.bind(report)(michal, zuuluu);
         return entity;
     };
-    zuuluu['useInitiateAgeVerification'] = michal;
+    zuuluu['useWatchAgeVerificationStatusChange'] = michal;
     return entity;
 })();

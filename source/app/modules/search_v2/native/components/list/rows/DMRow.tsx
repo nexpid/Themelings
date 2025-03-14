@@ -521,50 +521,55 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = function() {
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-                    zuuluu = _closure1_slot1;
+                    michal = _closure1_slot1;
                     tangon = _closure1_slot2;
                     entity = 12;
                     entity = tangon[entity];
-                    report = undefined;
-                    tangon = zuuluu.bind(report)(entity);
-                    zuuluu = tangon.getUserTag;
+                    oscard = undefined;
+                    tangon = michal.bind(oscard)(entity);
+                    michal = tangon.getUserTag;
                     entity = _closure2_slot0;
-                    oscard = zuuluu.bind(tangon)(entity);
-                    entity = null;
-                    if(!(entity == oscard)) { _fun00014_ip = 116; continue _fun00013 }
+                    option = michal.bind(tangon)(entity);
+                    michal = null;
+                    if(!(michal != option)) { _fun00014_ip = 117; continue _fun00013 }
  49:
-                    zuuluu = _closure2_slot4;
-                    zuuluu = entity != zuuluu;
-                    entity = null;
-                    if(!zuuluu) { _fun00014_ip = 114; continue _fun00013 }
+                    entity = _closure2_slot0;
+                    entity = entity.isProvisional;
+                    if(entity) { _fun00014_ip = 117; continue _fun00013 }
  62:
-                    golfie = _closure1_slot13;
+                    report = _closure1_slot13;
+                    tangon = _closure1_slot0;
+                    verify = _closure1_slot2;
+                    entity = 11;
+                    entity = verify[entity];
+                    entity = tangon.bind(oscard)(entity);
+                    tangon = entity.Text;
+                    entity = {'variant': 'text-sm/medium', 'color': 'text-muted'};
+                    entity['children'] = option;
+                    entity = report.bind(oscard)(tangon, entity);
+                    _fun00014_ip = 185; continue _fun00013;
+ 117:
+                    tangon = _closure2_slot4;
+                    tangon = michal != tangon;
+                    michal = null;
+                    if(!tangon) { _fun00014_ip = 182; continue _fun00013 }
+ 130:
+                    report = _closure1_slot13;
                     tangon = _closure1_slot16;
                     zuuluu = {};
-                    verify = _closure2_slot0;
-                    zuuluu['user'] = verify;
-                    verify = _closure2_slot5;
-                    zuuluu['guildId'] = verify;
-                    verify = _closure2_slot4;
-                    zuuluu['type'] = verify;
-                    option = _closure2_slot11;
-                    option = !option;
-                    zuuluu['animate'] = option;
-                    entity = golfie.bind(report)(tangon, zuuluu);
- 114:
-                    _fun00014_ip = 169; continue _fun00013;
- 116:
-                    tangon = _closure1_slot13;
-                    zuuluu = _closure1_slot0;
-                    golfie = _closure1_slot2;
-                    michal = 11;
-                    michal = golfie[michal];
-                    michal = zuuluu.bind(report)(michal);
-                    zuuluu = michal.Text;
-                    michal = {'variant': 'text-sm/medium', 'color': 'text-muted'};
-                    michal['children'] = oscard;
-                    entity = tangon.bind(report)(zuuluu, michal);
- 169:
+                    option = _closure2_slot0;
+                    zuuluu['user'] = option;
+                    option = _closure2_slot5;
+                    zuuluu['guildId'] = option;
+                    option = _closure2_slot4;
+                    zuuluu['type'] = option;
+                    golfie = _closure2_slot11;
+                    golfie = !golfie;
+                    zuuluu['animate'] = golfie;
+                    michal = report.bind(oscard)(tangon, zuuluu);
+ 182:
+                    entity = michal;
+ 185:
                     return entity;
                 }
             };

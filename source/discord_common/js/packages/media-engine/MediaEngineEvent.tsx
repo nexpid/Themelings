@@ -52,6 +52,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['AudioDeviceModuleError'] = entity;
     entity = 'voice-filters-failed';
     michal['VoiceFiltersFailed'] = entity;
+    entity = 'video-codec-error';
+    michal['VideoCodecError'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

@@ -701,7 +701,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option[1] = offset;
             offset = true;
             verify = null;
-            if(!(offset === yankee)) { _fun00004_ip = 1292; continue _fun00003 }
+            if(!(offset === yankee)) { _fun00004_ip = 1288; continue _fun00003 }
  950:
             romeon = _closure1_slot10;
             vacuum = _closure1_slot0;
@@ -772,15 +772,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['children'] = source;
             result = update.bind(tangon)(echoed, result);
             foxtra['trailing'] = result;
-            if(sizing) { _fun00004_ip = 1272; continue _fun00003 }
- 1269:
+            if(sizing) { _fun00004_ip = 1268; continue _fun00003 }
+ 1265:
             sizing = output;
- 1272:
+ 1268:
             foxtra['disabled'] = sizing;
             foxtra = kiloes.bind(tangon)(backup, foxtra);
             offset['children'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 1292:
+ 1288:
             option[2] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

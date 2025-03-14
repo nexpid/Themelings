@@ -28,11 +28,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal['ENDS_IN'] = golfie;
     entity = 'ENDS_IN';
     michal[golfie] = entity;
-    entity = 3;
-    michal['SHORT_TIME'] = entity;
-    golfie = 'SHORT_TIME';
-    michal[entity] = golfie;
+    golfie = 3;
+    michal['SHORT_TIME'] = golfie;
+    entity = 'SHORT_TIME';
+    michal[golfie] = entity;
     var _closure1_slot3 = michal;
+    entity = 4;
     report = report[entity];
     entity = undefined;
     golfie = oscard.bind(entity)(report);
@@ -42,144 +43,161 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo, argBar) { // Original name: useFPDurationLeft
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zuuluu = argFoo;
-            golfie = argBar;
-            michal = _closure1_slot3;
-            michal = michal.SHORT_TIME_LEFT;
-            if(!(michal !== golfie)) { _fun00002_ip = 430; continue _fun00001 }
- 26:
-            michal = _closure1_slot3;
-            michal = michal.LONG_TIME_LEFT;
-            if(!(michal !== golfie)) { _fun00002_ip = 330; continue _fun00001 }
- 43:
-            michal = _closure1_slot3;
-            michal = michal.ENDS_IN;
-            if(!(michal !== golfie)) { _fun00002_ip = 227; continue _fun00001 }
- 60:
-            michal = _closure1_slot3;
-            michal = michal.SHORT_TIME;
-            if(!(michal !== golfie)) { _fun00002_ip = 133; continue _fun00001 }
- 74:
-            michal = global;
-            report = michal.Error;
-            michal = michal.HermesInternal;
-            oscard = michal.concat;
-            tangon = 'Unknown messageType (';
-            michal = ') when rendering time left';
-            yankee = oscard.bind(tangon)(golfie, michal);
-            tangon = report.prototype;
-            tangon = Object.create(tangon, {constructor: {value: report}});
-            romeon = tangon;
-            michal = new romeon[report](yankee, offset);
-            michal = michal instanceof Object ? michal : tangon;
-            throw michal;
- 133:
-            tangon = {};
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot2;
-            michal = 0;
-            option = golfie[michal];
+            yankee = argBar;
+            oscard = argFoo;
+            tangon = undefined;
+            zuuluu = undefined;
             report = undefined;
-            option = oscard.bind(report)(option);
+            entity = undefined;
+            golfie = _closure1_slot3;
+            golfie = golfie.SHORT_TIME_LEFT;
+            if(!(golfie !== yankee)) { _fun00002_ip = 435; continue _fun00001 }
+ 34:
+            golfie = _closure1_slot3;
+            golfie = golfie.LONG_TIME_LEFT;
+            if(!(golfie !== yankee)) { _fun00002_ip = 337; continue _fun00001 }
+ 51:
+            golfie = _closure1_slot3;
+            golfie = golfie.ENDS_IN;
+            if(!(golfie !== yankee)) { _fun00002_ip = 236; continue _fun00001 }
+ 68:
+            golfie = _closure1_slot3;
+            golfie = golfie.SHORT_TIME;
+            if(!(golfie !== yankee)) { _fun00002_ip = 141; continue _fun00001 }
+ 82:
+            golfie = global;
+            verify = golfie.Error;
+            golfie = golfie.HermesInternal;
+            offset = golfie.concat;
+            option = 'Unknown messageType (';
+            golfie = ') when rendering time left';
+            foxtra = offset.bind(option)(yankee, golfie);
+            option = verify.prototype;
+            option = Object.create(option, {constructor: {value: verify}});
+            backup = option;
+            golfie = new backup[verify](foxtra, romeon);
+            golfie = golfie instanceof Object ? golfie : option;
+            throw golfie;
+ 141:
+            golfie = {};
+            verify = _closure1_slot0;
+            offset = _closure1_slot2;
+            option = 0;
+            yankee = offset[option];
+            yankee = verify.bind(tangon)(yankee);
+            yankee = yankee.t;
+            yankee = yankee.fYmir6;
+            golfie['days'] = yankee;
+            yankee = offset[option];
+            yankee = verify.bind(tangon)(yankee);
+            yankee = yankee.t;
+            yankee = yankee.C3RO+v;
+            golfie['hours'] = yankee;
+            option = offset[option];
+            option = verify.bind(tangon)(option);
             option = option.t;
-            option = option.fYmir6;
-            tangon['days'] = option;
-            option = golfie[michal];
-            option = oscard.bind(report)(option);
+            option = option.r77oHR;
+            golfie['minutes'] = option;
+            zuuluu = golfie;
+            _fun00002_ip = 531; continue _fun00001;
+ 236:
+            golfie = {};
+            verify = _closure1_slot0;
+            offset = _closure1_slot2;
+            option = 0;
+            yankee = offset[option];
+            yankee = verify.bind(tangon)(yankee);
+            yankee = yankee.t;
+            yankee = yankee.rLqNaW;
+            golfie['days'] = yankee;
+            yankee = offset[option];
+            yankee = verify.bind(tangon)(yankee);
+            yankee = yankee.t;
+            yankee = yankee.d1LvCA;
+            golfie['hours'] = yankee;
+            option = offset[option];
+            option = verify.bind(tangon)(option);
             option = option.t;
-            option = option.C3RO+v;
-            tangon['hours'] = option;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.r77oHR;
-            tangon['minutes'] = michal;
-            _fun00002_ip = 528; continue _fun00001;
- 227:
-            michal = {};
+            option = option.Z2LX7O;
+            golfie['minutes'] = option;
+            zuuluu = golfie;
+            _fun00002_ip = 531; continue _fun00001;
+ 337:
+            golfie = {};
+            verify = _closure1_slot0;
+            offset = _closure1_slot2;
+            option = 0;
+            yankee = offset[option];
+            yankee = verify.bind(tangon)(yankee);
+            yankee = yankee.t;
+            yankee = yankee.UD5nn5;
+            golfie['days'] = yankee;
+            yankee = offset[option];
+            yankee = verify.bind(tangon)(yankee);
+            yankee = yankee.t;
+            yankee = yankee.Hg8FeX;
+            golfie['hours'] = yankee;
+            option = offset[option];
+            option = verify.bind(tangon)(option);
+            option = option.t;
+            option = option.XSbQZW;
+            golfie['minutes'] = option;
+            zuuluu = golfie;
+            _fun00002_ip = 531; continue _fun00001;
+ 435:
+            golfie = {};
+            verify = _closure1_slot0;
+            offset = _closure1_slot2;
+            option = 0;
+            yankee = offset[option];
+            yankee = verify.bind(tangon)(yankee);
+            yankee = yankee.t;
+            yankee = yankee./wnvqK;
+            golfie['days'] = yankee;
+            yankee = offset[option];
+            yankee = verify.bind(tangon)(yankee);
+            yankee = yankee.t;
+            yankee = yankee.Jsq0XF;
+            golfie['hours'] = yankee;
+            option = offset[option];
+            option = verify.bind(tangon)(option);
+            option = option.t;
+            option = option.SBd+Bg;
+            golfie['minutes'] = option;
+            zuuluu = golfie;
+ 531:
+            option = _closure1_slot1;
+            verify = _closure1_slot2;
+            golfie = 1;
+            golfie = verify[golfie];
+            option = option.bind(tangon)(golfie);
+            golfie = oscard;
+            oscard = golfie.toDate;
+            golfie = oscard.bind(golfie)();
+            oscard = 60000;
+            report = option.bind(tangon)(golfie, oscard);
+            entity = '';
+ 580: // try_start_0
             golfie = _closure1_slot0;
             option = _closure1_slot2;
-            report = 0;
-            verify = option[report];
-            oscard = undefined;
-            verify = golfie.bind(oscard)(verify);
-            verify = verify.t;
-            verify = verify.rLqNaW;
-            michal['days'] = verify;
-            verify = option[report];
-            verify = golfie.bind(oscard)(verify);
-            verify = verify.t;
-            verify = verify.d1LvCA;
-            michal['hours'] = verify;
-            report = option[report];
-            report = golfie.bind(oscard)(report);
-            report = report.t;
-            report = report.Z2LX7O;
-            michal['minutes'] = report;
-            tangon = michal;
-            _fun00002_ip = 528; continue _fun00001;
- 330:
-            michal = {};
-            golfie = _closure1_slot0;
-            option = _closure1_slot2;
-            report = 0;
-            verify = option[report];
-            oscard = undefined;
-            verify = golfie.bind(oscard)(verify);
-            verify = verify.t;
-            verify = verify.UD5nn5;
-            michal['days'] = verify;
-            verify = option[report];
-            verify = golfie.bind(oscard)(verify);
-            verify = verify.t;
-            verify = verify.Hg8FeX;
-            michal['hours'] = verify;
-            report = option[report];
-            report = golfie.bind(oscard)(report);
-            report = report.t;
-            report = report.XSbQZW;
-            michal['minutes'] = report;
-            tangon = michal;
-            _fun00002_ip = 528; continue _fun00001;
- 430:
-            michal = {};
-            golfie = _closure1_slot0;
-            option = _closure1_slot2;
-            report = 0;
-            verify = option[report];
-            oscard = undefined;
-            verify = golfie.bind(oscard)(verify);
-            verify = verify.t;
-            verify = verify./wnvqK;
-            michal['days'] = verify;
-            verify = option[report];
-            verify = golfie.bind(oscard)(verify);
-            verify = verify.t;
-            verify = verify.Jsq0XF;
-            michal['hours'] = verify;
-            report = option[report];
-            report = golfie.bind(oscard)(report);
-            report = report.t;
-            report = report.SBd+Bg;
-            michal['minutes'] = report;
-            tangon = michal;
- 528:
-            golfie = _closure1_slot1;
-            oscard = _closure1_slot2;
-            michal = 1;
-            michal = oscard[michal];
-            report = undefined;
-            golfie = golfie.bind(report)(michal);
-            michal = zuuluu.toDate;
-            zuuluu = michal.bind(zuuluu)();
-            michal = 60000;
-            zuuluu = golfie.bind(report)(zuuluu, michal);
-            michal = _closure1_slot0;
-            entity = 2;
-            entity = oscard[entity];
-            michal = michal.bind(report)(entity);
-            entity = michal.unitsAsStrings;
-            entity = entity.bind(michal)(zuuluu, tangon);
+            oscard = 2;
+            oscard = option[oscard];
+            golfie = golfie.bind(tangon)(oscard);
+            oscard = golfie.unitsAsStrings;
+            entity = oscard.bind(golfie)(report, zuuluu);
+ 612: // try_end0
+            _fun00002_ip = 653; continue _fun00001;
+ 614: // catch_target0
+            CatchBlockStart(arg_register=2);
+            zuuluu = _closure1_slot1;
+            report = _closure1_slot2;
+            michal = 3;
+            michal = report[michal];
+            tangon = zuuluu.bind(tangon)(michal);
+            zuuluu = tangon.captureMessage;
+            michal = 'Error trying to format string for fractional nitro duration pill';
+            michal = zuuluu.bind(tangon)(michal);
+ 653:
             return entity;
         }
     };

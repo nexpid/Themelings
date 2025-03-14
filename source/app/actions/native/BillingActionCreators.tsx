@@ -2459,7 +2459,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     backup = foxtra.bind(entity)(golfie);
     golfie = backup.prototype;
     foxtra = Object.create(golfie, {constructor: {value: backup}});
-    result = 'PremiumUtils.tsx';
+    result = 'BillingActionCreators.tsx';
     echoed = foxtra;
     golfie = new echoed[backup](result, output);
     golfie = golfie instanceof Object ? golfie : foxtra;

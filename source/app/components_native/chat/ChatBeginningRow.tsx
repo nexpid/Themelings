@@ -2506,7 +2506,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             zuuluu = oscard.bind(golfie)(zuuluu, tangon);
-            if(!(entity != foxtra)) { _fun00038_ip = 1651; continue _fun00037 }
+            if(!(entity != foxtra)) { _fun00038_ip = 1682; continue _fun00037 }
  447:
             oscard = _closure1_slot1;
             zuuluu = _closure1_slot2;
@@ -2515,13 +2515,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = oscard.bind(report)(golfie);
             kiloes = sizing.getUserTag;
             golfie = {'decoration': 'never', 'identifiable': 'always'};
-            config = kiloes.bind(sizing)(foxtra, golfie);
-            _closure2_slot7 = config;
+            sequen = kiloes.bind(sizing)(foxtra, golfie);
+            _closure2_slot7 = sequen;
             tangon = zuuluu[tangon];
             oscard = oscard.bind(report)(tangon);
             tangon = oscard.getName;
-            status = tangon.bind(oscard)(foxtra);
-            vacuum = function() { // Original name: handleCopyUserTag
+            papara = tangon.bind(oscard)(foxtra);
+            config = function() { // Original name: handleCopyUserTag
                 zuuluu = _closure1_slot0;
                 tangon = _closure1_slot2;
                 entity = 86;
@@ -2539,12 +2539,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             golfie = _closure1_slot0;
-            ctrled = 36;
-            tangon = zuuluu[ctrled];
+            vacuum = 36;
+            tangon = zuuluu[vacuum];
             tangon = golfie.bind(report)(tangon);
             oscard = tangon.intl;
             tangon = oscard.string;
-            zuuluu = zuuluu[ctrled];
+            zuuluu = zuuluu[vacuum];
             zuuluu = golfie.bind(report)(zuuluu);
             zuuluu = zuuluu.t;
             zuuluu = zuuluu.Rzvnio;
@@ -2553,16 +2553,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  580:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
-            tangon = michal[ctrled];
+            tangon = michal[vacuum];
             tangon = zuuluu.bind(report)(tangon);
             oscard = tangon.intl;
             tangon = oscard.formatToPlainString;
-            michal = michal[ctrled];
+            michal = michal[vacuum];
             michal = zuuluu.bind(report)(michal);
             michal = michal.t;
             zuuluu = michal.Q56TRE;
             michal = {};
-            michal['username'] = status;
+            michal['username'] = papara;
             output = tangon.bind(oscard)(zuuluu, michal);
  641:
             michal = function() { // Original name: handleOpenMutualGuilds
@@ -2651,24 +2651,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes['channel'] = backup;
             kiloes['user'] = foxtra;
             kiloes['showingSpamBanner'] = romeon;
-            sequen = _closure1_slot1;
+            ctrled = _closure1_slot1;
             update = _closure1_slot2;
             source = 62;
             source = update[source];
-            source = sequen.bind(report)(source);
+            source = ctrled.bind(report)(source);
             source = source.Colors;
             source = source.GREY;
             kiloes['color'] = source;
             record = _closure1_slot0;
-            source = update[ctrled];
+            source = update[vacuum];
             source = record.bind(report)(source);
-            sequen = source.intl;
-            source = sequen.string;
-            update = update[ctrled];
+            ctrled = source.intl;
+            source = ctrled.string;
+            update = update[vacuum];
             update = record.bind(report)(update);
             update = update.t;
             update = update.+78Pfn;
-            update = source.bind(sequen)(update);
+            update = source.bind(ctrled)(update);
             kiloes['text'] = update;
             update = result.spamButtonNoPadding;
             kiloes['style'] = update;
@@ -2683,17 +2683,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = _closure1_slot43;
             zuuluu = _closure1_slot42;
             michal = {};
-            update = _closure1_slot41;
-            kiloes = _closure1_slot0;
-            echoed = _closure1_slot2;
-            sizing = 33;
-            oscard = echoed[sizing];
-            oscard = kiloes.bind(report)(oscard);
+            sizing = _closure1_slot41;
+            ctrled = _closure1_slot0;
+            source = _closure1_slot2;
+            kiloes = 33;
+            oscard = source[kiloes];
+            oscard = ctrled.bind(report)(oscard);
             yankee = oscard.PressableOpacity;
             oscard = {};
-            sequen = 'button';
-            oscard['accessibilityRole'] = sequen;
-            source = function() { // Original name: onPress
+            record = 'button';
+            oscard['accessibilityRole'] = record;
+            echoed = function() { // Original name: onPress
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
                 entity = 89;
@@ -2712,97 +2712,106 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
-            oscard['onPress'] = source;
-            source = echoed[ctrled];
-            source = kiloes.bind(report)(source);
-            cntext = source.intl;
-            record = cntext.string;
-            source = echoed[ctrled];
-            source = kiloes.bind(report)(source);
-            source = source.t;
-            source = source.iXAna2;
-            source = record.bind(cntext)(source);
-            oscard['accessibilityLabel'] = source;
+            oscard['onPress'] = echoed;
+            echoed = source[vacuum];
+            echoed = ctrled.bind(report)(echoed);
+            cntext = echoed.intl;
+            update = cntext.string;
+            echoed = source[vacuum];
+            echoed = ctrled.bind(report)(echoed);
+            echoed = echoed.t;
+            echoed = echoed.iXAna2;
+            echoed = update.bind(cntext)(echoed);
+            oscard['accessibilityLabel'] = echoed;
             cntext = _closure1_slot41;
-            record = _closure1_slot1;
-            papara = 90;
-            source = echoed[papara];
-            record = record.bind(report)(source);
-            source = {};
-            target = result.avatar;
-            source['style'] = target;
-            source['user'] = foxtra;
-            target = backup.guild_id;
-            source['guildId'] = target;
-            papara = echoed[papara];
-            papara = kiloes.bind(report)(papara);
-            papara = papara.AvatarSizes;
-            papara = papara.XXLARGE;
-            source['size'] = papara;
-            papara = foxtra.avatarDecoration;
-            source['avatarDecoration'] = papara;
-            source = cntext.bind(report)(record, source);
-            oscard['children'] = source;
-            yankee = update.bind(report)(yankee, oscard);
+            update = _closure1_slot1;
+            target = 90;
+            echoed = source[target];
+            update = update.bind(report)(echoed);
+            echoed = {};
+            status = result.avatar;
+            echoed['style'] = status;
+            echoed['user'] = foxtra;
+            status = backup.guild_id;
+            echoed['guildId'] = status;
+            target = source[target];
+            target = ctrled.bind(report)(target);
+            target = target.AvatarSizes;
+            target = target.XXLARGE;
+            echoed['size'] = target;
+            target = foxtra.avatarDecoration;
+            echoed['avatarDecoration'] = target;
+            echoed = cntext.bind(report)(update, echoed);
+            oscard['children'] = echoed;
+            yankee = sizing.bind(report)(yankee, oscard);
             oscard = new Array(9);
             oscard[0] = yankee;
-            record = _closure1_slot41;
-            yankee = echoed[sizing];
-            yankee = kiloes.bind(report)(yankee);
-            source = yankee.PressableOpacity;
-            update = {};
-            update['accessibilityRole'] = sequen;
-            update['onPress'] = vacuum;
-            yankee = echoed[ctrled];
-            yankee = kiloes.bind(report)(yankee);
-            papara = yankee.intl;
-            cntext = papara.string;
-            yankee = echoed[ctrled];
-            yankee = kiloes.bind(report)(yankee);
-            yankee = yankee.t;
-            yankee = yankee.y5MwJy;
-            yankee = cntext.bind(papara)(yankee);
-            update['accessibilityHint'] = yankee;
-            target = _closure1_slot41;
-            yankee = 31;
-            cntext = echoed[yankee];
-            cntext = kiloes.bind(report)(cntext);
-            papara = cntext.Text;
-            cntext = {'variant': 'heading-xxl/extrabold', 'color': 'header-primary'};
-            cntext['children'] = status;
-            cntext = target.bind(report)(papara, cntext);
-            update['children'] = cntext;
-            update = record.bind(report)(source, update);
-            oscard[1] = update;
-            source = _closure1_slot41;
-            sizing = echoed[sizing];
-            sizing = kiloes.bind(report)(sizing);
-            update = sizing.PressableOpacity;
-            sizing = {};
-            sizing['accessibilityRole'] = sequen;
-            sizing['onPress'] = vacuum;
-            vacuum = echoed[ctrled];
-            vacuum = kiloes.bind(report)(vacuum);
-            sequen = vacuum.intl;
-            vacuum = sequen.string;
-            ctrled = echoed[ctrled];
-            ctrled = kiloes.bind(report)(ctrled);
-            ctrled = ctrled.t;
-            ctrled = ctrled.y5MwJy;
-            ctrled = vacuum.bind(sequen)(ctrled);
-            sizing['accessibilityHint'] = ctrled;
-            sequen = _closure1_slot41;
-            ctrled = echoed[yankee];
-            ctrled = kiloes.bind(report)(ctrled);
-            vacuum = ctrled.Text;
-            ctrled = {'variant': 'heading-lg/medium', 'color': 'header-secondary'};
-            ctrled['children'] = config;
-            ctrled = sequen.bind(report)(vacuum, ctrled);
-            sizing['children'] = ctrled;
-            sizing = source.bind(report)(update, sizing);
-            oscard[2] = sizing;
+            update = _closure1_slot41;
+            yankee = source[kiloes];
+            yankee = ctrled.bind(report)(yankee);
+            sizing = yankee.PressableOpacity;
+            yankee = {};
+            yankee['accessibilityRole'] = record;
+            yankee['onPress'] = config;
+            echoed = source[vacuum];
+            echoed = ctrled.bind(report)(echoed);
+            target = echoed.intl;
+            cntext = target.string;
+            echoed = source[vacuum];
+            echoed = ctrled.bind(report)(echoed);
+            echoed = echoed.t;
+            echoed = echoed.y5MwJy;
+            echoed = cntext.bind(target)(echoed);
+            yankee['accessibilityHint'] = echoed;
+            cntext = _closure1_slot41;
+            echoed = 31;
+            source = source[echoed];
+            source = ctrled.bind(report)(source);
+            ctrled = source.Text;
+            source = {'variant': 'heading-xxl/extrabold', 'color': 'header-primary'};
+            source['children'] = papara;
+            source = cntext.bind(report)(ctrled, source);
+            yankee['children'] = source;
+            yankee = update.bind(report)(sizing, yankee);
+            oscard[1] = yankee;
+            yankee = foxtra.isProvisional;
+            yankee = !yankee;
+            if(!yankee) { _fun00038_ip = 1425; continue _fun00037 }
+ 1287:
+            update = _closure1_slot41;
+            ctrled = _closure1_slot0;
+            source = _closure1_slot2;
+            kiloes = source[kiloes];
+            kiloes = ctrled.bind(report)(kiloes);
+            sizing = kiloes.PressableOpacity;
+            kiloes = {};
+            kiloes['accessibilityRole'] = record;
+            kiloes['onPress'] = config;
+            config = source[vacuum];
+            config = ctrled.bind(report)(config);
+            record = config.intl;
+            config = record.string;
+            vacuum = source[vacuum];
+            vacuum = ctrled.bind(report)(vacuum);
+            vacuum = vacuum.t;
+            vacuum = vacuum.y5MwJy;
+            vacuum = config.bind(record)(vacuum);
+            kiloes['accessibilityHint'] = vacuum;
+            vacuum = _closure1_slot41;
+            source = source[echoed];
+            source = ctrled.bind(report)(source);
+            ctrled = source.Text;
+            source = {'variant': 'heading-lg/medium', 'color': 'header-secondary'};
+            source['children'] = sequen;
+            source = vacuum.bind(report)(ctrled, source);
+            kiloes['children'] = source;
+            yankee = update.bind(report)(sizing, kiloes);
+ 1425:
+            oscard[2] = yankee;
             sizing = _closure1_slot41;
-            yankee = echoed[yankee];
+            kiloes = _closure1_slot0;
+            yankee = _closure1_slot2;
+            yankee = yankee[echoed];
             yankee = kiloes.bind(report)(yankee);
             kiloes = yankee.Text;
             yankee = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
@@ -2812,8 +2821,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = sizing.bind(report)(kiloes, yankee);
             oscard[3] = yankee;
             yankee = foxtra.isProvisional;
-            if(!yankee) { _fun00038_ip = 1538; continue _fun00037 }
- 1473:
+            if(!yankee) { _fun00038_ip = 1569; continue _fun00037 }
+ 1504:
             output = _closure1_slot41;
             sizing = _closure1_slot0;
             echoed = _closure1_slot2;
@@ -2829,7 +2838,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = 14;
             kiloes['iconSize'] = result;
             yankee = output.bind(report)(sizing, kiloes);
- 1538:
+ 1569:
             oscard[4] = yankee;
             yankee = function() {
                 _fun00047: for(var _fun00048_ip = 0; ; ) switch(_fun00048_ip) {
@@ -3252,14 +3261,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = kiloes.bind(report)(yankee, offset);
             oscard[6] = offset;
             option = entity == option;
-            if(!option) { _fun00038_ip = 1599; continue _fun00037 }
- 1587:
+            if(!option) { _fun00038_ip = 1630; continue _fun00037 }
+ 1618:
             yankee = foxtra.bot;
             offset = true;
             option = offset !== yankee;
- 1599:
-            if(!option) { _fun00038_ip = 1631; continue _fun00037 }
- 1602:
+ 1630:
+            if(!option) { _fun00038_ip = 1662; continue _fun00037 }
+ 1633:
             yankee = _closure1_slot41;
             offset = _closure1_slot57;
             verify = {};
@@ -3267,13 +3276,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['user'] = foxtra;
             verify['showingSpamBanner'] = romeon;
             option = yankee.bind(report)(offset, verify);
- 1631:
+ 1662:
             oscard[7] = option;
             oscard[8] = golfie;
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 1651:
+ 1682:
             return entity;
         }
     };

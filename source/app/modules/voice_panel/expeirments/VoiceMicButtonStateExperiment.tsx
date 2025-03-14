@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     michal = golfie[michal];
     option = oscard.bind(entity)(michal);
     report = option.createExperiment;
-    michal = {'id': '2025-02_voice_mic_button_state_mobile', 'label': 'Voice Mic Button State for Mobile', 'kind': 'user'};
+    michal = {'id': '2025-02_voice_mic_button_state_for_mobile', 'label': 'Voice Mic Button State for Mobile', 'kind': 'user'};
     verify = verify.VOICE_CALL;
     michal['commonTriggerPoint'] = verify;
     verify = {};

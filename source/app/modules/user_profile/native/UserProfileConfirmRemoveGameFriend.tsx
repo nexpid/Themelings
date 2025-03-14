@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: UserProfileConfirmRemoveGameFriend
         michal = argFoo;
-        sizing = michal.username;
+        sizing = michal.userDisplayName;
         oscard = michal.userId;
         var _closure2_slot0 = oscard;
         foxtra = michal.gameName;

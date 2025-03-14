@@ -277,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  181:
             offset = michal;
  184:
-            if(!(entity != backup)) { _fun00002_ip = 667; continue _fun00001 }
+            if(!(entity != backup)) { _fun00002_ip = 663; continue _fun00001 }
  191:
             michal = global;
             tangon = michal.Object;
@@ -314,10 +314,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = update[offset];
             offset = echoed.bind(report)(offset);
             offset = offset.Button;
-            if(!option) { _fun00002_ip = 362; continue _fun00001 }
- 359:
-            if(kiloes) { _fun00002_ip = 445; continue _fun00001 }
- 362:
+            if(!option) { _fun00002_ip = 358; continue _fun00001 }
+ 355:
+            if(kiloes) { _fun00002_ip = 441; continue _fun00001 }
+ 358:
             option = {};
             echoed = 'sm';
             option['size'] = echoed;
@@ -345,8 +345,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             option['onPress'] = kiloes;
-            _fun00002_ip = 525; continue _fun00001;
- 445:
+            _fun00002_ip = 521; continue _fun00001;
+ 441:
             kiloes = {};
             echoed = 'sm';
             kiloes['size'] = echoed;
@@ -375,7 +375,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             kiloes['onPress'] = result;
             option = kiloes;
- 525:
+ 521:
             option = tangon.bind(report)(offset, option);
             oscard['trailing'] = option;
             oscard = tangon.bind(report)(golfie, oscard);
@@ -408,7 +408,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 667:
+ 663:
             return entity;
         }
     };

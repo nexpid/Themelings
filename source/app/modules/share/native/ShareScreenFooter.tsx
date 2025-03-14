@@ -35,65 +35,75 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            kiloes = entity.text;
-            backup = entity.setText;
+            sizing = entity.text;
+            kiloes = entity.setText;
             golfie = entity.preview;
-            update = entity.sendLabel;
-            echoed = entity.canSend;
-            result = entity.isSending;
-            verify = entity.onSend;
-            option = _closure1_slot0;
-            source = _closure1_slot2;
-            output = 2;
-            entity = source[output];
+            source = entity.sendLabel;
+            update = entity.canSend;
+            echoed = entity.isSending;
+            offset = entity.onSend;
+            verify = entity.disabled;
             tangon = undefined;
+            if(!(verify === tangon)) { _fun00002_ip = 57; continue _fun00001 }
+ 55:
+            verify = false;
+ 57:
+            option = _closure1_slot0;
+            ctrled = _closure1_slot2;
+            result = 2;
+            entity = ctrled[result];
             michal = option.bind(tangon)(entity);
             entity = michal.useShareChatInputActions;
-            entity = entity.bind(michal)(backup);
-            sizing = entity.textInputRef;
+            entity = entity.bind(michal)(kiloes);
+            output = entity.textInputRef;
             report = entity.isInputFocused;
-            foxtra = entity.handleSelectionChange;
-            romeon = entity.handleMessageFocus;
-            yankee = entity.handleMessageBlur;
-            offset = entity.handlePressEmoji;
+            backup = entity.handleSelectionChange;
+            foxtra = entity.handleMessageFocus;
+            romeon = entity.handleMessageBlur;
+            yankee = entity.handlePressEmoji;
             zuuluu = _closure1_slot3;
             michal = _closure1_slot1;
             entity = 3;
-            entity = source[entity];
+            entity = ctrled[entity];
             michal = michal.bind(tangon)(entity);
             entity = {};
             entity['preview'] = golfie;
             golfie = 4;
-            golfie = source[golfie];
+            golfie = ctrled[golfie];
             golfie = option.bind(tangon)(golfie);
             option = golfie.Button;
             golfie = {'variant': 'primary', 'size': 'md'};
-            golfie['text'] = update;
-            echoed = !echoed;
-            golfie['disabled'] = echoed;
-            echoed = undefined;
-            if(result) { _fun00002_ip = 194; continue _fun00001 }
- 191:
-            echoed = verify;
- 194:
-            golfie['onPress'] = echoed;
-            golfie['loading'] = result;
+            golfie['text'] = source;
+            update = !update;
+            if(update) { _fun00002_ip = 199; continue _fun00001 }
+ 196:
+            update = verify;
+ 199:
+            golfie['disabled'] = update;
+            update = undefined;
+            if(echoed) { _fun00002_ip = 211; continue _fun00001 }
+ 208:
+            update = offset;
+ 211:
+            golfie['onPress'] = update;
+            golfie['loading'] = echoed;
             golfie = zuuluu.bind(tangon)(option, golfie);
             entity['sendButton'] = golfie;
             option = _closure1_slot3;
             golfie = _closure1_slot1;
             oscard = _closure1_slot2;
-            oscard = oscard[output];
+            oscard = oscard[result];
             golfie = golfie.bind(tangon)(oscard);
             oscard = {};
-            oscard['inputRef'] = sizing;
-            oscard['text'] = kiloes;
-            oscard['onChange'] = backup;
-            oscard['onSelectionChange'] = foxtra;
-            oscard['onFocus'] = romeon;
-            oscard['onBlur'] = yankee;
-            oscard['onPressEmoji'] = offset;
-            oscard['onSend'] = verify;
+            oscard['inputRef'] = output;
+            oscard['text'] = sizing;
+            oscard['onChange'] = kiloes;
+            oscard['onSelectionChange'] = backup;
+            oscard['onFocus'] = foxtra;
+            oscard['onBlur'] = romeon;
+            oscard['onPressEmoji'] = yankee;
+            oscard['onSend'] = offset;
+            oscard['disabled'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
             entity['chatInput'] = oscard;
             entity['avoidKeyboard'] = report;

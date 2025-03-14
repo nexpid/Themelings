@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
     var _closure1_slot3 = tangon;
-    tangon = 11;
+    tangon = 10;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -161,41 +161,6 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
         tangon = report.openAlert;
         zuuluu = _closure1_slot3;
         michal = {};
-        option = argFoo;
-        verify = michal;
-        golfie = copyDataProperties(verify, option);
-        zuuluu = zuuluu.bind(entity)(oscard, michal);
-        michal = 'block-user';
-        michal = tangon.bind(report)(michal, zuuluu);
-        return entity;
-    };
-    zuuluu['confirmBlockUser'] = tangon;
-    tangon = function(argFoo) {
-        tangon = _closure1_slot2;
-        zuuluu = tangon.lazy;
-        entity = function() {
-            zuuluu = _closure1_slot0;
-            entity = _closure1_slot1;
-            michal = 3;
-            michal = entity[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = 8;
-            michal = entity[michal];
-            entity = entity.paths;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
-        };
-        oscard = zuuluu.bind(tangon)(entity);
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 4;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        report = tangon.bind(entity)(zuuluu);
-        tangon = report.openAlert;
-        zuuluu = _closure1_slot3;
-        michal = {};
         golfie = argFoo;
         michal['onConfirm'] = golfie;
         zuuluu = zuuluu.bind(entity)(oscard, michal);
@@ -214,7 +179,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             michal = entity[michal];
             tangon = undefined;
             zuuluu = zuuluu.bind(tangon)(michal);
-            michal = 9;
+            michal = 8;
             michal = entity[michal];
             entity = entity.paths;
             entity = zuuluu.bind(tangon)(michal, entity);
@@ -248,7 +213,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             michal = entity[michal];
             tangon = undefined;
             zuuluu = zuuluu.bind(tangon)(michal);
-            michal = 10;
+            michal = 9;
             michal = entity[michal];
             entity = entity.paths;
             entity = zuuluu.bind(tangon)(michal, entity);

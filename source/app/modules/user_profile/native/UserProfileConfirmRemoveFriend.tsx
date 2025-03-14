@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: UserProfileConfirmRemoveFriend
         entity = argFoo;
-        foxtra = entity.username;
+        foxtra = entity.userDisplayName;
         option = entity.onConfirm;
         tangon = _closure1_slot2;
         backup = _closure1_slot0;

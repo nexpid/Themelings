@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = tangon.confirmRemoveGameFriend;
                 michal = {};
                 oscard = _closure2_slot2;
-                michal['username'] = oscard;
+                michal['userDisplayName'] = oscard;
                 oscard = _closure2_slot1;
                 michal['userId'] = oscard;
                 report = _closure2_slot0;

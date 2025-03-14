@@ -55,16 +55,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = golfie.bind(report)(entity);
                 entity = golfie.isAndroid;
                 entity = entity.bind(golfie)();
-                if(entity) { _fun00004_ip = 163; continue _fun00003 }
+                if(entity) { _fun00004_ip = 169; continue _fun00003 }
  149:
                 entity = 0;
-                if(tangon) { _fun00004_ip = 157; continue _fun00003 }
+                if(tangon) { _fun00004_ip = 163; continue _fun00003 }
  154:
+                entity = 0;
+                if(!(entity !== zuuluu)) { _fun00004_ip = 163; continue _fun00003 }
+ 160:
                 entity = oscard;
- 157:
-                entity = zuuluu + entity;
-                _fun00004_ip = 196; continue _fun00003;
  163:
+                entity = zuuluu + entity;
+                _fun00004_ip = 202; continue _fun00003;
+ 169:
                 zuuluu = _closure1_slot1;
                 oscard = _closure1_slot2;
                 michal = 3;
@@ -72,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = zuuluu.bind(report)(michal);
                 michal = zuuluu.getKeyboardHeight;
                 entity = michal.bind(zuuluu)(tangon);
- 196:
+ 202:
                 return entity;
             }
         };
@@ -142,19 +145,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = verify.isAndroid;
         golfie = golfie.bind(verify)();
         romeon = 'keyboardWillShow';
-        if(!golfie) { _fun00002_ip = 139; continue _fun00001 }
- 133:
+        if(!golfie) { _fun00002_ip = 135; continue _fun00001 }
+ 129:
         romeon = 'keyboardDidShow';
- 139:
+ 135:
         michal = oscard[michal];
         golfie = report.bind(entity)(michal);
         michal = golfie.isAndroid;
         michal = michal.bind(golfie)();
         offset = 'keyboardWillHide';
-        if(!michal) { _fun00002_ip = 172; continue _fun00001 }
- 166:
+        if(!michal) { _fun00002_ip = 168; continue _fun00001 }
+ 162:
         offset = 'keyboardDidHide';
- 172:
+ 168:
         michal = 5;
         michal = oscard[michal];
         verify = report.bind(entity)(michal);

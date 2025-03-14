@@ -90,15 +90,16 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             michal = argFoo;
-            report = _closure1_slot0;
-            tangon = report.useExperiment;
-            zuuluu = {};
-            zuuluu['location'] = michal;
+            golfie = _closure1_slot0;
+            report = golfie.useExperiment;
+            tangon = {};
+            tangon['location'] = michal;
             entity = {};
             oscard = false;
             entity['autoTrackExposure'] = oscard;
-            entity = tangon.bind(report)(zuuluu, entity);
+            entity = report.bind(golfie)(tangon, entity);
             entity = entity.enabled;
+            report = _closure1_slot1;
             tangon = report.useExperiment;
             zuuluu = {};
             zuuluu['location'] = michal;
@@ -106,10 +107,10 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal['autoTrackExposure'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             michal = michal.enabled;
-            if(entity) { _fun00004_ip = 78; continue _fun00003 }
- 75:
+            if(entity) { _fun00004_ip = 82; continue _fun00003 }
+ 79:
             entity = michal;
- 78:
+ 82:
             return entity;
         }
     };

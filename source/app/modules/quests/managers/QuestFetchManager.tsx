@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = golfie.bind(entity)(tangon);
     tangon = tangon.Millis;
     tangon = tangon.HOUR;
-    tangon = 12;
+    tangon = 11;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
@@ -359,55 +359,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                 tangon = _closure1_slot0;
-                michal = _closure1_slot1;
+                zuuluu = _closure1_slot1;
                 entity = 8;
-                michal = michal[entity];
+                zuuluu = zuuluu[entity];
                 entity = undefined;
-                report = tangon.bind(entity)(michal);
+                report = tangon.bind(entity)(zuuluu);
                 tangon = report.getIsEligibleForQuests;
-                michal = {};
+                zuuluu = {};
                 oscard = _closure1_slot8;
                 oscard = oscard.QUESTS_MANAGER;
-                michal['location'] = oscard;
-                michal = tangon.bind(report)(michal);
-                if(!michal) { _fun00012_ip = 68; continue _fun00011 }
+                zuuluu['location'] = oscard;
+                zuuluu = tangon.bind(report)(zuuluu);
+                if(!zuuluu) { _fun00012_ip = 68; continue _fun00011 }
  55:
                 tangon = _closure1_slot7;
                 tangon = tangon.isFetchingCurrentQuests;
-                michal = !tangon;
+                zuuluu = !tangon;
  68:
-                if(!michal) { _fun00012_ip = 198; continue _fun00011 }
- 74:
+                if(!zuuluu) { _fun00012_ip = 145; continue _fun00011 }
+ 71:
                 report = _closure1_slot0;
                 oscard = _closure1_slot1;
                 michal = 9;
-                tangon = oscard[michal];
-                golfie = report.bind(entity)(tangon);
-                tangon = golfie.fetchCurrentQuests;
-                tangon = tangon.bind(golfie)();
-                tangon = 10;
-                tangon = oscard[tangon];
-                oscard = report.bind(entity)(tangon);
-                report = oscard.getIsEligibleForSeparateDecisionEndpoint;
-                tangon = {};
-                golfie = _closure1_slot8;
-                golfie = golfie.QUESTS_MANAGER;
-                tangon['location'] = golfie;
-                tangon = report.bind(oscard)(tangon);
-                if(!tangon) { _fun00012_ip = 198; continue _fun00011 }
- 146:
-                report = _closure1_slot0;
-                oscard = _closure1_slot1;
+                zuuluu = oscard[michal];
+                tangon = report.bind(entity)(zuuluu);
+                zuuluu = tangon.fetchCurrentQuests;
+                zuuluu = zuuluu.bind(tangon)();
                 michal = oscard[michal];
                 tangon = report.bind(entity)(michal);
                 zuuluu = tangon.fetchQuestToDeliver;
-                michal = 11;
+                michal = 10;
                 michal = oscard[michal];
                 michal = report.bind(entity)(michal);
                 michal = michal.QuestPlacement;
                 michal = michal.MOBILE_HOME_DOCK_AREA;
                 michal = zuuluu.bind(tangon)(michal);
- 198:
+ 145:
                 return entity;
             }
         };
@@ -423,7 +410,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     backup = tangon;
     michal = new backup[michal](foxtra);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 13;
+    tangon = 12;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

@@ -26,6 +26,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['WIDE_BANNER'] = report;
     entity = 'WIDE_BANNER';
     michal[report] = entity;
+    report = 4;
+    michal['SHELF'] = report;
+    entity = 'SHELF';
+    michal[report] = entity;
     entity = argPlu;
     report = entity[tangon];
     tangon = argBar;

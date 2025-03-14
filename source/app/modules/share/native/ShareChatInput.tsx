@@ -128,115 +128,126 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = 'modules/share/native/ShareChatInput.tsx';
         tangon = report.bind(oscard)(tangon);
         tangon = function(argFoo) { // Original name: ShareChatInput
-            entity = argFoo;
-            sizing = entity.text;
-            echoed = entity.inputRef;
-            kiloes = entity.onChange;
-            output = entity.onSelectionChange;
-            backup = entity.onFocus;
-            golfie = entity.onBlur;
-            romeon = entity.onPressEmoji;
-            result = entity.onSend;
-            entity = _closure1_slot9;
-            tangon = undefined;
-            verify = entity.bind(tangon)();
-            oscard = _closure1_slot1;
-            yankee = _closure1_slot2;
-            entity = 10;
-            entity = yankee[entity];
-            entity = oscard.bind(tangon)(entity);
-            foxtra = entity.bind(tangon)();
-            zuuluu = _closure1_slot8;
-            michal = _closure1_slot5;
-            entity = {};
-            report = verify.container;
-            entity['style'] = report;
-            option = _closure1_slot7;
-            report = 11;
-            report = yankee[report];
-            oscard = oscard.bind(tangon)(report);
-            report = {};
-            report['ref'] = echoed;
-            report['maxLength'] = foxtra;
-            offset = _closure1_slot0;
-            foxtra = 12;
-            echoed = yankee[foxtra];
-            echoed = offset.bind(tangon)(echoed);
-            source = echoed.intl;
-            update = source.string;
-            echoed = yankee[foxtra];
-            echoed = offset.bind(tangon)(echoed);
-            echoed = echoed.t;
-            echoed = echoed.ZroO3N;
-            echoed = update.bind(source)(echoed);
-            report['placeholder'] = echoed;
-            echoed = verify.inputPlaceholder;
-            echoed = echoed.color;
-            report['placeholderTextColor'] = echoed;
-            echoed = yankee[foxtra];
-            echoed = offset.bind(tangon)(echoed);
-            source = echoed.intl;
-            update = source.string;
-            echoed = yankee[foxtra];
-            echoed = offset.bind(tangon)(echoed);
-            echoed = echoed.t;
-            echoed = echoed./+MXm5;
-            echoed = update.bind(source)(echoed);
-            report['accessibilityLabel'] = echoed;
-            report['onSubmitEditing'] = result;
-            report['onSelectionChange'] = output;
-            output = verify.chatInput;
-            report['style'] = output;
-            report['value'] = sizing;
-            report['onChange'] = kiloes;
-            report['onFocus'] = backup;
-            report['onBlur'] = golfie;
-            golfie = true;
-            report['multiline'] = golfie;
-            golfie = false;
-            report['showBorder'] = golfie;
-            report['showTopContainer'] = golfie;
-            golfie = 'center';
-            report['textAlignVertical'] = golfie;
-            golfie = verify.chatText;
-            report['inputTextStyle'] = golfie;
-            oscard = option.bind(tangon)(oscard, report);
-            report = new Array(2);
-            report[0] = oscard;
-            oscard = 13;
-            oscard = yankee[oscard];
-            oscard = offset.bind(tangon)(oscard);
-            golfie = oscard.PressableOpacity;
-            oscard = {};
-            backup = yankee[foxtra];
-            backup = offset.bind(tangon)(backup);
-            kiloes = backup.intl;
-            backup = kiloes.string;
-            foxtra = yankee[foxtra];
-            foxtra = offset.bind(tangon)(foxtra);
-            foxtra = foxtra.t;
-            foxtra = foxtra.iZ7Mz8;
-            foxtra = backup.bind(kiloes)(foxtra);
-            oscard['accessibilityLabel'] = foxtra;
-            foxtra = 'button';
-            oscard['accessibilityRole'] = foxtra;
-            oscard['onPress'] = romeon;
-            verify = verify.emojiButton;
-            oscard['style'] = verify;
-            verify = 14;
-            verify = yankee[verify];
-            verify = offset.bind(tangon)(verify);
-            offset = verify.ReactionIcon;
-            verify = {};
-            yankee = 'md';
-            verify['size'] = yankee;
-            verify = option.bind(tangon)(offset, verify);
-            oscard['children'] = verify;
-            oscard = option.bind(tangon)(golfie, oscard);
-            report[1] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                entity = argFoo;
+                output = entity.text;
+                update = entity.inputRef;
+                sizing = entity.onChange;
+                result = entity.onSelectionChange;
+                kiloes = entity.onFocus;
+                golfie = entity.onBlur;
+                foxtra = entity.onPressEmoji;
+                echoed = entity.onSend;
+                verify = entity.disabled;
+                tangon = undefined;
+                if(!(verify === tangon)) { _fun00004_ip = 63; continue _fun00003 }
+ 61:
+                verify = false;
+ 63:
+                entity = _closure1_slot9;
+                romeon = entity.bind(tangon)();
+                oscard = _closure1_slot1;
+                yankee = _closure1_slot2;
+                entity = 10;
+                entity = yankee[entity];
+                entity = oscard.bind(tangon)(entity);
+                backup = entity.bind(tangon)();
+                zuuluu = _closure1_slot8;
+                michal = _closure1_slot5;
+                entity = {};
+                report = romeon.container;
+                entity['style'] = report;
+                option = _closure1_slot7;
+                report = 11;
+                report = yankee[report];
+                oscard = oscard.bind(tangon)(report);
+                report = {};
+                report['ref'] = update;
+                report['maxLength'] = backup;
+                offset = _closure1_slot0;
+                backup = 12;
+                update = yankee[backup];
+                update = offset.bind(tangon)(update);
+                ctrled = update.intl;
+                source = ctrled.string;
+                update = yankee[backup];
+                update = offset.bind(tangon)(update);
+                update = update.t;
+                update = update.ZroO3N;
+                update = source.bind(ctrled)(update);
+                report['placeholder'] = update;
+                update = romeon.inputPlaceholder;
+                update = update.color;
+                report['placeholderTextColor'] = update;
+                update = yankee[backup];
+                update = offset.bind(tangon)(update);
+                ctrled = update.intl;
+                source = ctrled.string;
+                update = yankee[backup];
+                update = offset.bind(tangon)(update);
+                update = update.t;
+                update = update./+MXm5;
+                update = source.bind(ctrled)(update);
+                report['accessibilityLabel'] = update;
+                report['onSubmitEditing'] = echoed;
+                report['onSelectionChange'] = result;
+                result = romeon.chatInput;
+                report['style'] = result;
+                report['value'] = output;
+                report['onChange'] = sizing;
+                report['onFocus'] = kiloes;
+                report['onBlur'] = golfie;
+                golfie = true;
+                report['multiline'] = golfie;
+                golfie = false;
+                report['showBorder'] = golfie;
+                report['showTopContainer'] = golfie;
+                golfie = 'center';
+                report['textAlignVertical'] = golfie;
+                golfie = romeon.chatText;
+                report['inputTextStyle'] = golfie;
+                golfie = !verify;
+                report['editable'] = golfie;
+                oscard = option.bind(tangon)(oscard, report);
+                report = new Array(2);
+                report[0] = oscard;
+                oscard = 13;
+                oscard = yankee[oscard];
+                oscard = offset.bind(tangon)(oscard);
+                golfie = oscard.PressableOpacity;
+                oscard = {};
+                kiloes = yankee[backup];
+                kiloes = offset.bind(tangon)(kiloes);
+                sizing = kiloes.intl;
+                kiloes = sizing.string;
+                backup = yankee[backup];
+                backup = offset.bind(tangon)(backup);
+                backup = backup.t;
+                backup = backup.iZ7Mz8;
+                backup = kiloes.bind(sizing)(backup);
+                oscard['accessibilityLabel'] = backup;
+                backup = 'button';
+                oscard['accessibilityRole'] = backup;
+                oscard['onPress'] = foxtra;
+                romeon = romeon.emojiButton;
+                oscard['style'] = romeon;
+                oscard['disabled'] = verify;
+                verify = 14;
+                verify = yankee[verify];
+                verify = offset.bind(tangon)(verify);
+                offset = verify.ReactionIcon;
+                verify = {};
+                yankee = 'md';
+                verify['size'] = yankee;
+                verify = option.bind(tangon)(offset, verify);
+                oscard['children'] = verify;
+                oscard = option.bind(tangon)(golfie, oscard);
+                report[1] = oscard;
+                entity['children'] = report;
+                entity = zuuluu.bind(tangon)(michal, entity);
+                return entity;
+            }
         };
         zuuluu['default'] = tangon;
         michal = function(argFoo, argBar) { // Original name: useShareChatInputActions
@@ -304,26 +315,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = new Array(1);
             option[0] = michal;
             michal = function(argFoo) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = argFoo;
                     report = '';
                     var _closure3_slot0 = report;
                     zuuluu = entity.id;
                     michal = null;
-                    if(!(michal == zuuluu)) { _fun00004_ip = 33; continue _fun00003 }
+                    if(!(michal == zuuluu)) { _fun00006_ip = 33; continue _fun00005 }
  24:
                     zuuluu = entity.surrogates;
-                    if(!(michal == zuuluu)) { _fun00004_ip = 101; continue _fun00003 }
+                    if(!(michal == zuuluu)) { _fun00006_ip = 101; continue _fun00005 }
  33:
                     zuuluu = entity.uniqueName;
-                    if(!(michal != zuuluu)) { _fun00004_ip = 53; continue _fun00003 }
+                    if(!(michal != zuuluu)) { _fun00006_ip = 53; continue _fun00005 }
  43:
                     zuuluu = entity.uniqueName;
-                    if(!(report === zuuluu)) { _fun00004_ip = 60; continue _fun00003 }
+                    if(!(report === zuuluu)) { _fun00006_ip = 60; continue _fun00005 }
  53:
                     golfie = entity.name;
-                    _fun00004_ip = 66; continue _fun00003;
+                    _fun00006_ip = 66; continue _fun00005;
  60:
                     golfie = entity.uniqueName;
  66:
@@ -334,7 +345,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = ': ';
                     zuuluu = oscard.bind(report)(golfie, zuuluu);
                     _closure3_slot0 = zuuluu;
-                    _fun00004_ip = 110; continue _fun00003;
+                    _fun00006_ip = 110; continue _fun00005;
  101:
                     entity = entity.surrogates;
                     _closure3_slot0 = entity;
@@ -361,7 +372,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report.bind(entity)(tangon);
                     zuuluu = _closure2_slot2;
                     zuuluu = zuuluu.current;
-                    if(!(michal != zuuluu)) { _fun00004_ip = 154; continue _fun00003 }
+                    if(!(michal != zuuluu)) { _fun00006_ip = 154; continue _fun00005 }
  144:
                     michal = zuuluu.focus;
                     michal = michal.bind(zuuluu)();
@@ -373,12 +384,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot5 = yankee;
             romeon = verify.useCallback;
             option = function() {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = _closure2_slot2;
                     michal = entity.current;
                     entity = null;
-                    if(!(entity != michal)) { _fun00006_ip = 28; continue _fun00005 }
+                    if(!(entity != michal)) { _fun00008_ip = 28; continue _fun00007 }
  18:
                     entity = michal.focus;
                     entity = entity.bind(michal)();
@@ -396,12 +407,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal[1] = yankee;
             michal[2] = offset;
             entity = function() {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     entity = _closure2_slot2;
                     michal = entity.current;
                     report = null;
-                    if(!(report != michal)) { _fun00008_ip = 28; continue _fun00007 }
+                    if(!(report != michal)) { _fun00010_ip = 28; continue _fun00009 }
  18:
                     entity = michal.blur;
                     entity = entity.bind(michal)();
@@ -428,7 +439,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['channel'] = oscard;
                     option = report == oscard;
                     oscard = undefined;
-                    if(option) { _fun00008_ip = 137; continue _fun00007 }
+                    if(option) { _fun00010_ip = 137; continue _fun00009 }
  123:
                     option = _closure2_slot1;
                     golfie = option.getGuildId;
@@ -436,7 +447,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  137:
                     golfie = report != oscard;
                     report = undefined;
-                    if(!golfie) { _fun00008_ip = 149; continue _fun00007 }
+                    if(!golfie) { _fun00010_ip = 149; continue _fun00009 }
  146:
                     report = oscard;
  149:

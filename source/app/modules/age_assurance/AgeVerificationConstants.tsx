@@ -139,5 +139,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['getAgeVerificationGetStartedSteps'] = michal;
+    michal = 'AGE_VERIFICATION_MODAL_KEY';
+    zuuluu['AGE_VERIFICATION_MODAL_KEY'] = michal;
     return entity;
 })();

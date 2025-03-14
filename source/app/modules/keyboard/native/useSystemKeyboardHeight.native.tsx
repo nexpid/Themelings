@@ -68,6 +68,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     zuuluu['default'] = tangon;
+    tangon = function(argFoo) { // Original name: subscribeToSystemKeyboardHeight
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 0;
+        michal = michal[entity];
+        entity = undefined;
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.subscribe;
+        entity = argFoo;
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    zuuluu['subscribeToSystemKeyboardHeight'] = tangon;
     michal = function() { // Original name: getSystemKeyboardHeight
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:

@@ -1522,6 +1522,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['RECENT_AVATARS_SETTINGS_PROFILE_PAGE_NEW_BADGE'] = michal;
     entity = 'RECENT_AVATARS_SETTINGS_PROFILE_PAGE_NEW_BADGE';
     tangon[michal] = entity;
+    michal = 518;
+    tangon['PERMADECOS_NITRO_TAB_NEW_BADGE'] = michal;
+    entity = 'PERMADECOS_NITRO_TAB_NEW_BADGE';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

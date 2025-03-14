@@ -702,7 +702,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['border'] = option;
             result = null;
             verify = result != update;
-            if(!verify) { _fun00006_ip = 564; continue _fun00005 }
+            if(!verify) { _fun00006_ip = 568; continue _fun00005 }
  335:
             yankee = _closure1_slot8;
             offset = _closure1_slot4;
@@ -753,7 +753,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon[1] = foxtra;
             option['children'] = romeon;
             verify = yankee.bind(tangon)(offset, option);
- 564:
+ 568:
             option = new Array(3);
             option[0] = verify;
             romeon = _closure1_slot8;

@@ -7,6 +7,67 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscard;
+    entity = function(argFoo, argBar, argBaz, argCor) { // Original name: getScreens
+        entity = argBar;
+        var _closure2_slot0 = entity;
+        entity = argBaz;
+        var _closure2_slot1 = entity;
+        entity = argCor;
+        var _closure2_slot2 = entity;
+        golfie = function() { // Original name: handleClose
+            michal = _closure2_slot2;
+            entity = undefined;
+            michal = michal.bind(entity)();
+            zuuluu = _closure1_slot1;
+            tangon = _closure1_slot2;
+            michal = 8;
+            michal = tangon[michal];
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.pop;
+            michal = michal.bind(zuuluu)();
+            return entity;
+        };
+        var _closure2_slot3 = golfie;
+        entity = {};
+        michal = _closure1_slot6;
+        zuuluu = michal.VERIFY_AGE;
+        michal = {};
+        oscard = argFoo;
+        oscard = oscard.headerStyle;
+        michal['headerStyle'] = oscard;
+        oscard = function() { // Original name: headerTitle
+            entity = null;
+            return entity;
+        };
+        michal['headerTitle'] = oscard;
+        option = _closure1_slot0;
+        oscard = _closure1_slot2;
+        report = 9;
+        oscard = oscard[report];
+        report = undefined;
+        oscard = option.bind(report)(oscard);
+        report = oscard.getHeaderCloseButton;
+        report = report.bind(oscard)(golfie);
+        michal['headerLeft'] = report;
+        tangon = function() { // Original name: render
+            tangon = _closure1_slot5;
+            zuuluu = _closure1_slot7;
+            michal = {};
+            report = _closure2_slot0;
+            michal['webviewUrl'] = report;
+            report = _closure2_slot1;
+            michal['onComplete'] = report;
+            entity = _closure2_slot3;
+            michal['onClose'] = entity;
+            entity = undefined;
+            entity = tangon.bind(entity)(zuuluu, michal);
+            return entity;
+        };
+        michal['render'] = tangon;
+        entity[zuuluu] = michal;
+        return entity;
+    };
+    var _closure1_slot9 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -24,23 +85,76 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 1;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
+    tangon = tangon.AGE_VERIFICATION_MODAL_KEY;
     var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot5 = tangon;
     tangon = {};
     golfie = 'VERIFY_AGE';
     tangon['VERIFY_AGE'] = golfie;
-    var _closure1_slot5 = tangon;
+    var _closure1_slot6 = tangon;
     tangon = function(argFoo) { // Original name: AgeVerifyScreen
         entity = argFoo;
         golfie = entity.webviewUrl;
         oscard = entity.onComplete;
         var _closure2_slot0 = oscard;
-        report = _closure1_slot3;
-        tangon = report.useCallback;
-        zuuluu = new Array(1);
-        zuuluu[0] = oscard;
-        michal = function(argFoo) {
+        zuuluu = entity.onClose;
+        var _closure2_slot1 = zuuluu;
+        option = _closure1_slot3;
+        report = option.useCallback;
+        tangon = new Array(2);
+        tangon[0] = oscard;
+        tangon[1] = zuuluu;
+        zuuluu = function() {
+            zuuluu = _closure2_slot0;
+            entity = undefined;
+            zuuluu = zuuluu.bind(entity)();
+            michal = _closure2_slot1;
+            michal = michal.bind(entity)();
+            return entity;
+        };
+        verify = report.bind(option)(zuuluu, tangon);
+        var _closure2_slot2 = verify;
+        report = option.useCallback;
+        tangon = new Array(1);
+        tangon[0] = verify;
+        zuuluu = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot2;
+                entity = 3;
+                zuuluu = zuuluu[entity];
+                entity = undefined;
+                tangon = tangon.bind(entity)(zuuluu);
+                zuuluu = tangon.isModalOpen;
+                michal = _closure1_slot4;
+                michal = zuuluu.bind(tangon)(michal);
+                if(!michal) { _fun00002_ip = 54; continue _fun00001 }
+ 43:
+                michal = _closure2_slot2;
+                michal = michal.bind(entity)();
+ 54:
+                return entity;
+            }
+        };
+        offset = report.bind(option)(zuuluu, tangon);
+        report = _closure1_slot0;
+        oscard = _closure1_slot2;
+        zuuluu = 4;
+        zuuluu = oscard[zuuluu];
+        tangon = undefined;
+        report = report.bind(tangon)(zuuluu);
+        zuuluu = report.useWatchAgeVerificationStatusChange;
+        zuuluu = zuuluu.bind(report)(offset);
+        report = option.useCallback;
+        zuuluu = new Array(1);
+        zuuluu[0] = verify;
+        michal = function(argFoo) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 tangon = argFoo;
                 zuuluu = tangon;
@@ -50,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = tangon.data;
                 report = 'string';
                 tangon = typeof tangon;
-                if(!(report === tangon)) { _fun00002_ip = 66; continue _fun00001 }
+                if(!(report === tangon)) { _fun00004_ip = 66; continue _fun00003 }
  31: // try_start_0
                 tangon = global;
                 report = tangon.JSON;
@@ -59,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = zuuluu.data;
                 michal = tangon.bind(report)(zuuluu);
  60: // try_end0
-                _fun00002_ip = 66; continue _fun00001;
+                _fun00004_ip = 66; continue _fun00003;
  62: // catch_target0
                 CatchBlockStart(arg_register=2);
                 michal = null;
@@ -67,50 +181,41 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = entity == michal;
                 entity = undefined;
                 zuuluu = undefined;
-                if(tangon) { _fun00002_ip = 82; continue _fun00001 }
+                if(tangon) { _fun00004_ip = 82; continue _fun00003 }
  77:
                 zuuluu = michal.status;
  82:
                 michal = 'AGE_CHECK_COMPLETE';
-                if(!(michal === zuuluu)) { _fun00002_ip = 136; continue _fun00001 }
+                if(!(michal === zuuluu)) { _fun00004_ip = 103; continue _fun00003 }
  92:
-                michal = _closure2_slot0;
+                michal = _closure2_slot2;
                 michal = michal.bind(entity)();
-                zuuluu = _closure1_slot1;
-                tangon = _closure1_slot2;
-                michal = 2;
-                michal = tangon[michal];
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.pop;
-                michal = michal.bind(zuuluu)();
- 136:
+ 103:
                 return entity;
             }
         };
-        report = tangon.bind(report)(michal, zuuluu);
-        tangon = _closure1_slot4;
+        report = report.bind(option)(michal, zuuluu);
+        zuuluu = _closure1_slot5;
         michal = _closure1_slot1;
-        zuuluu = _closure1_slot2;
-        entity = 3;
-        entity = zuuluu[entity];
-        zuuluu = undefined;
-        michal = michal.bind(zuuluu)(entity);
+        entity = 5;
+        entity = oscard[entity];
+        michal = michal.bind(tangon)(entity);
         entity = {'allowsInlineMediaPlayback': true, 'javaScriptEnabled': true, 'source': null, 'onMessage': null, 'injectedJavaScript': "\n  window.addEventListener('message', function(event) {\n    window.ReactNativeWebView.postMessage(event.data);\n  }, true);\n"};
         oscard = {};
         oscard['uri'] = golfie;
         entity['source'] = oscard;
         entity['onMessage'] = report;
-        entity = tangon.bind(zuuluu)(michal, entity);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot6 = tangon;
-    tangon = 4;
+    var _closure1_slot7 = tangon;
+    tangon = 6;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
     verify = {};
-    offset = 5;
+    offset = 7;
     offset = oscard[offset];
     offset = yankee.bind(entity)(offset);
     offset = offset.colors;
@@ -118,8 +223,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify['backgroundColor'] = offset;
     tangon['headerStyle'] = verify;
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot7 = tangon;
-    tangon = 9;
+    var _closure1_slot8 = tangon;
+    tangon = 12;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -127,95 +232,47 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: AgeVerificationModal
         michal = argFoo;
-        option = michal.webviewUrl;
-        var _closure2_slot0 = option;
-        golfie = michal.onComplete;
-        var _closure2_slot1 = golfie;
-        michal = _closure1_slot7;
+        verify = michal.webviewUrl;
+        var _closure2_slot0 = verify;
+        option = michal.onComplete;
+        var _closure2_slot1 = option;
+        golfie = michal.onClose;
+        var _closure2_slot2 = golfie;
+        michal = _closure1_slot8;
         tangon = undefined;
-        verify = michal.bind(tangon)();
-        var _closure2_slot2 = verify;
+        offset = michal.bind(tangon)();
+        var _closure2_slot3 = offset;
         oscard = _closure1_slot3;
         zuuluu = oscard.useMemo;
-        michal = new Array(3);
-        michal[0] = verify;
-        michal[1] = option;
-        michal[2] = golfie;
+        michal = new Array(4);
+        michal[0] = offset;
+        michal[1] = verify;
+        michal[2] = option;
+        michal[3] = golfie;
         entity = function() {
-            report = _closure2_slot2;
-            tangon = _closure2_slot0;
-            zuuluu = _closure2_slot1;
-            michal = function(argFoo, argBar, argBaz) { // Original name: getScreens
-                entity = argBar;
-                var _closure4_slot0 = entity;
-                entity = argBaz;
-                var _closure4_slot1 = entity;
-                entity = {};
-                michal = _closure1_slot5;
-                zuuluu = michal.VERIFY_AGE;
-                michal = {};
-                oscard = argFoo;
-                oscard = oscard.headerStyle;
-                michal['headerStyle'] = oscard;
-                oscard = function() { // Original name: headerTitle
-                    entity = null;
-                    return entity;
-                };
-                michal['headerTitle'] = oscard;
-                golfie = _closure1_slot0;
-                oscard = _closure1_slot2;
-                report = 6;
-                oscard = oscard[report];
-                report = undefined;
-                golfie = golfie.bind(report)(oscard);
-                oscard = golfie.getHeaderCloseButton;
-                report = function() {
-                    zuuluu = _closure1_slot1;
-                    michal = _closure1_slot2;
-                    entity = 2;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = zuuluu.bind(entity)(michal);
-                    entity = michal.pop;
-                    entity = entity.bind(michal)();
-                    return entity;
-                };
-                report = oscard.bind(golfie)(report);
-                michal['headerLeft'] = report;
-                tangon = function() { // Original name: render
-                    tangon = _closure1_slot4;
-                    zuuluu = _closure1_slot6;
-                    michal = {};
-                    report = _closure4_slot0;
-                    michal['webviewUrl'] = report;
-                    entity = _closure4_slot1;
-                    michal['onComplete'] = entity;
-                    entity = undefined;
-                    entity = tangon.bind(entity)(zuuluu, michal);
-                    return entity;
-                };
-                michal['render'] = tangon;
-                entity[zuuluu] = michal;
-                return entity;
-            };
-            entity = undefined;
-            entity = michal.bind(entity)(report, tangon, zuuluu);
+            oscard = _closure1_slot9;
+            offset = _closure2_slot3;
+            verify = _closure2_slot0;
+            option = _closure2_slot1;
+            golfie = _closure2_slot2;
+            yankee = undefined;
+            entity = yankee[oscard](offset, verify, option, golfie, oscard);
             return entity;
         };
         oscard = zuuluu.bind(oscard)(entity, michal);
-        zuuluu = _closure1_slot4;
+        zuuluu = _closure1_slot5;
         option = _closure1_slot0;
         verify = _closure1_slot2;
-        entity = 7;
+        entity = 10;
         entity = verify[entity];
         entity = option.bind(tangon)(entity);
         michal = entity.Navigator;
         entity = {};
         entity['screens'] = oscard;
-        report = _closure1_slot5;
+        report = _closure1_slot6;
         report = report.VERIFY_AGE;
         entity['initialRouteName'] = report;
-        report = 8;
+        report = 11;
         oscard = verify[report];
         oscard = option.bind(tangon)(oscard);
         golfie = oscard.intl;

@@ -240,73 +240,97 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: generateAvatarDescription
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            michal = argFoo;
-            entity = null;
-            if(!(entity == michal)) { _fun00010_ip = 11; continue _fun00009 }
+            entity = argFoo;
+            michal = null;
+            if(!(michal == entity)) { _fun00010_ip = 11; continue _fun00009 }
  9:
-            michal = {};
+            entity = {};
  11:
-            report = michal.filename;
-            tangon = michal.assetOrigin;
-            golfie = undefined;
-            if(!(golfie === tangon)) { _fun00010_ip = 64; continue _fun00009 }
+            oscard = entity.filename;
+            golfie = entity.assetOrigin;
+            option = undefined;
+            if(!(option === golfie)) { _fun00010_ip = 64; continue _fun00009 }
  29:
             zuuluu = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = 6;
-            michal = oscard[michal];
-            michal = zuuluu.bind(golfie)(michal);
-            michal = michal.AssetOriginTypes;
-            tangon = michal.NEW_ASSET;
+            tangon = _closure1_slot2;
+            entity = 6;
+            entity = tangon[entity];
+            entity = zuuluu.bind(option)(entity);
+            entity = entity.AssetOriginTypes;
+            golfie = entity.NEW_ASSET;
  64:
-            oscard = _closure1_slot0;
-            option = _closure1_slot2;
-            zuuluu = 6;
-            zuuluu = option[zuuluu];
-            zuuluu = oscard.bind(golfie)(zuuluu);
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            yankee = 6;
+            zuuluu = zuuluu[yankee];
+            zuuluu = tangon.bind(option)(zuuluu);
             zuuluu = zuuluu.AssetOriginTypes;
             zuuluu = zuuluu.ARCHIVED_ASSET;
-            if(!(tangon === zuuluu)) { _fun00010_ip = 105; continue _fun00009 }
+            if(!(golfie === zuuluu)) { _fun00010_ip = 105; continue _fun00009 }
  103:
-            return golfie;
+            return option;
  105:
-            if(!(entity == report)) { _fun00010_ip = 164; continue _fun00009 }
+            if(!(michal == oscard)) { _fun00010_ip = 164; continue _fun00009 }
  109:
-            oscard = _closure1_slot0;
-            option = _closure1_slot2;
-            entity = 5;
-            zuuluu = option[entity];
-            zuuluu = oscard.bind(golfie)(zuuluu);
+            report = _closure1_slot0;
+            verify = _closure1_slot2;
+            michal = 5;
+            zuuluu = verify[michal];
+            zuuluu = report.bind(option)(zuuluu);
             tangon = zuuluu.intl;
             zuuluu = tangon.string;
-            entity = option[entity];
-            entity = oscard.bind(golfie)(entity);
-            entity = entity.t;
-            entity = entity.lqaIxM;
-            report = zuuluu.bind(tangon)(entity);
+            michal = verify[michal];
+            michal = report.bind(option)(michal);
+            michal = michal.t;
+            michal = michal.lqaIxM;
+            oscard = zuuluu.bind(tangon)(michal);
  164:
-            entity = global;
-            zuuluu = entity.Date;
-            tangon = zuuluu.prototype;
-            tangon = Object.create(tangon, {constructor: {value: zuuluu}});
-            romeon = tangon;
-            zuuluu = new romeon[zuuluu](yankee);
-            oscard = zuuluu instanceof Object ? zuuluu : tangon;
-            tangon = oscard.toLocaleString;
-            zuuluu = _closure1_slot0;
-            option = _closure1_slot2;
-            michal = 5;
-            michal = option[michal];
-            michal = zuuluu.bind(golfie)(michal);
-            michal = michal.intl;
-            zuuluu = michal.currentLocale;
-            michal = {'year': 'numeric', 'day': 'numeric', 'month': 'long', 'hour': 'numeric', 'minute': 'numeric'};
-            tangon = tangon.bind(oscard)(zuuluu, michal);
-            entity = entity.HermesInternal;
-            zuuluu = entity.concat;
-            michal = '';
-            entity = ', ';
-            entity = zuuluu.bind(michal)(report, entity, tangon);
+            michal = global;
+            michal = michal.Date;
+            zuuluu = michal.prototype;
+            zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
+            kiloes = zuuluu;
+            michal = new kiloes[michal](backup);
+            romeon = michal instanceof Object ? michal : zuuluu;
+            report = romeon.toLocaleString;
+            offset = _closure1_slot0;
+            michal = _closure1_slot2;
+            verify = 5;
+            zuuluu = michal[verify];
+            zuuluu = offset.bind(option)(zuuluu);
+            zuuluu = zuuluu.intl;
+            tangon = zuuluu.currentLocale;
+            zuuluu = {'year': 'numeric', 'day': 'numeric', 'month': 'long', 'hour': 'numeric', 'minute': 'numeric'};
+            report = report.bind(romeon)(tangon, zuuluu);
+            zuuluu = michal[verify];
+            zuuluu = offset.bind(option)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.formatToPlainString;
+            michal = michal[yankee];
+            michal = offset.bind(option)(michal);
+            michal = michal.AssetOriginTypes;
+            michal = michal.EDITED_ARCHIVED_ASSET;
+            if(!(golfie !== michal)) { _fun00010_ip = 325; continue _fun00009 }
+ 293:
+            golfie = _closure1_slot0;
+            michal = _closure1_slot2;
+            michal = michal[verify];
+            michal = golfie.bind(option)(michal);
+            michal = michal.t;
+            michal = michal.DYil9/;
+            _fun00010_ip = 355; continue _fun00009;
+ 325:
+            golfie = _closure1_slot0;
+            entity = _closure1_slot2;
+            entity = entity[verify];
+            entity = golfie.bind(option)(entity);
+            entity = entity.t;
+            michal = entity.eC2sZm;
+ 355:
+            entity = {};
+            entity['name'] = oscard;
+            entity['dateTime'] = report;
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
@@ -323,15 +347,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.bind(tangon)(entity);
             entity = {};
             report = null;
-            if(!(report != golfie)) { _fun00012_ip = 66; continue _fun00011 }
- 44:
+            if(!(report != golfie)) { _fun00012_ip = 70; continue _fun00011 }
+ 48:
             oscard = golfie.split;
             report = ',';
             oscard = oscard.bind(golfie)(report);
             report = 0;
             option = oscard[report];
-            _fun00012_ip = 121; continue _fun00011;
- 66:
+            _fun00012_ip = 125; continue _fun00011;
+ 70:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             report = 5;
@@ -344,7 +368,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report.t;
             report = report.lqaIxM;
             option = oscard.bind(golfie)(report);
- 121:
+ 125:
             report = global;
             report = report.HermesInternal;
             golfie = report.concat;

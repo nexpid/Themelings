@@ -25,7 +25,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot4 = tangon;
-    tangon = 6;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.SoundOutputChannel;
+    var _closure1_slot5 = tangon;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -44,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  25:
             zuuluu = _closure1_slot0;
             report = _closure1_slot2;
-            entity = 2;
+            entity = 3;
             entity = report[entity];
             entity = zuuluu.bind(oscard)(entity);
             zuuluu = entity.SoundboardSettings;
@@ -59,19 +64,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  81:
             entity = zuuluu != entity;
  85:
+            entity = arguments[3];
+            if(!(entity === oscard)) { _fun00002_ip = 105; continue _fun00001 }
+ 92:
+            entity = _closure1_slot5;
+            entity = entity.DEFAULT;
+ 105:
             var _closure2_slot2 = oscard;
             golfie = _closure1_slot3;
             report = golfie.useContext;
             option = _closure1_slot1;
             offset = _closure1_slot2;
-            zuuluu = 3;
+            zuuluu = 4;
             zuuluu = offset[zuuluu];
             zuuluu = option.bind(oscard)(zuuluu);
             zuuluu = report.bind(golfie)(zuuluu);
             option = zuuluu.audioRef;
             _closure2_slot2 = option;
             report = _closure1_slot0;
-            zuuluu = 4;
+            zuuluu = 5;
             zuuluu = offset[zuuluu];
             offset = report.bind(oscard)(zuuluu);
             oscard = offset.useStateFromStores;
@@ -113,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  45:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot2;
-                    michal = 5;
+                    michal = 6;
                     zuuluu = zuuluu[michal];
                     michal = undefined;
                     report = tangon.bind(michal)(zuuluu);

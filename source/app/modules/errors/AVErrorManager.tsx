@@ -306,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.bind(oscard)(zuuluu);
             zuuluu = zuuluu.AVError;
             zuuluu = zuuluu.STREAM_FAILED_TO_START;
-            if(!(zuuluu !== report)) { _fun00014_ip = 621; continue _fun00013 }
+            if(!(zuuluu !== report)) { _fun00014_ip = 701; continue _fun00013 }
  50:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -314,7 +314,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.bind(oscard)(zuuluu);
             zuuluu = zuuluu.AVError;
             zuuluu = zuuluu.NO_INPUT_DEVICES;
-            if(!(zuuluu !== report)) { _fun00014_ip = 591; continue _fun00013 }
+            if(!(zuuluu !== report)) { _fun00014_ip = 671; continue _fun00013 }
  86:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -322,7 +322,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.bind(oscard)(zuuluu);
             zuuluu = zuuluu.AVError;
             zuuluu = zuuluu.NO_AUDIO_INPUT_DETECTED;
-            if(!(zuuluu !== report)) { _fun00014_ip = 591; continue _fun00013 }
+            if(!(zuuluu !== report)) { _fun00014_ip = 671; continue _fun00013 }
  122:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -332,7 +332,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.DEBUG_LOG_UPLOAD_FAILED;
             option = '';
             tangon = option;
-            if(!(zuuluu !== report)) { _fun00014_ip = 661; continue _fun00013 }
+            if(!(zuuluu !== report)) { _fun00014_ip = 741; continue _fun00013 }
  165:
             verify = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -340,7 +340,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = verify.bind(oscard)(zuuluu);
             zuuluu = zuuluu.AVError;
             zuuluu = zuuluu.STREAM_VIEW_LOW_FPS;
-            if(!(zuuluu !== report)) { _fun00014_ip = 553; continue _fun00013 }
+            if(!(zuuluu !== report)) { _fun00014_ip = 633; continue _fun00013 }
  201:
             verify = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -348,7 +348,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = verify.bind(oscard)(zuuluu);
             zuuluu = zuuluu.AVError;
             zuuluu = zuuluu.STREAM_VIEW_HIGH_PACKET_LOSS;
-            if(!(zuuluu !== report)) { _fun00014_ip = 553; continue _fun00013 }
+            if(!(zuuluu !== report)) { _fun00014_ip = 633; continue _fun00013 }
  237:
             verify = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -356,7 +356,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = verify.bind(oscard)(zuuluu);
             zuuluu = zuuluu.AVError;
             zuuluu = zuuluu.STREAM_SEND_LOW_FPS;
-            if(!(zuuluu !== report)) { _fun00014_ip = 553; continue _fun00013 }
+            if(!(zuuluu !== report)) { _fun00014_ip = 633; continue _fun00013 }
  273:
             verify = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -364,7 +364,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = verify.bind(oscard)(zuuluu);
             zuuluu = zuuluu.AVError;
             zuuluu = zuuluu.STREAM_SEND_HIGH_PACKET_LOSS;
-            if(!(zuuluu !== report)) { _fun00014_ip = 553; continue _fun00013 }
+            if(!(zuuluu !== report)) { _fun00014_ip = 633; continue _fun00013 }
  309:
             verify = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -372,7 +372,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = verify.bind(oscard)(zuuluu);
             zuuluu = zuuluu.AVError;
             zuuluu = zuuluu.STREAM_BAD_NETWORK_QUALITY;
-            if(!(zuuluu !== report)) { _fun00014_ip = 553; continue _fun00013 }
+            if(!(zuuluu !== report)) { _fun00014_ip = 633; continue _fun00013 }
  345:
             verify = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -380,7 +380,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = verify.bind(oscard)(zuuluu);
             zuuluu = zuuluu.AVError;
             zuuluu = zuuluu.STREAM_SOUNDSHARE_FAILED;
-            if(!(zuuluu !== report)) { _fun00014_ip = 553; continue _fun00013 }
+            if(!(zuuluu !== report)) { _fun00014_ip = 633; continue _fun00013 }
  381:
             verify = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -388,25 +388,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = verify.bind(oscard)(zuuluu);
             zuuluu = zuuluu.AVError;
             zuuluu = zuuluu.NOISE_CANCELLER_ERROR;
-            if(!(zuuluu !== report)) { _fun00014_ip = 527; continue _fun00013 }
- 414:
+            if(!(zuuluu !== report)) { _fun00014_ip = 607; continue _fun00013 }
+ 417:
             verify = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[golfie];
             zuuluu = verify.bind(oscard)(zuuluu);
             zuuluu = zuuluu.AVError;
             zuuluu = zuuluu.SCREENSHARE_OS_NOT_SUPPORTED;
-            if(!(zuuluu !== report)) { _fun00014_ip = 527; continue _fun00013 }
- 447:
+            if(!(zuuluu !== report)) { _fun00014_ip = 607; continue _fun00013 }
+ 453:
+            verify = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu[golfie];
+            zuuluu = verify.bind(oscard)(zuuluu);
+            zuuluu = zuuluu.AVError;
+            zuuluu = zuuluu.STREAM_RECONNECTING;
+            if(!(zuuluu !== report)) { _fun00014_ip = 566; continue _fun00013 }
+ 486:
+            verify = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu[golfie];
+            zuuluu = verify.bind(oscard)(zuuluu);
+            zuuluu = zuuluu.AVError;
+            zuuluu = zuuluu.VIDEO_ENCODE_ERROR;
+            if(!(zuuluu !== report)) { _fun00014_ip = 558; continue _fun00013 }
+ 519:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
             michal = michal[golfie];
             michal = zuuluu.bind(oscard)(michal);
             michal = michal.AVError;
-            michal = michal.STREAM_RECONNECTING;
+            michal = michal.VIDEO_DECODE_ERROR;
             tangon = report;
-            if(!(michal === tangon)) { _fun00014_ip = 661; continue _fun00013 }
- 486:
+            if(!(michal === tangon)) { _fun00014_ip = 741; continue _fun00013 }
+ 558:
+            tangon = option;
+            _fun00014_ip = 741; continue _fun00013;
+ 566:
             golfie = entity.streamKey;
             oscard = entity.mediaSessionId;
             michal = global;
@@ -414,15 +433,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = michal.concat;
             michal = ':';
             tangon = zuuluu.bind(option)(golfie, michal, oscard);
-            _fun00014_ip = 661; continue _fun00013;
- 527:
+            _fun00014_ip = 741; continue _fun00013;
+ 607:
             zuuluu = entity.mediaSessionId;
             michal = global;
             michal = michal.HermesInternal;
             michal = michal.concat;
             tangon = michal.bind(option)(zuuluu);
-            _fun00014_ip = 661; continue _fun00013;
- 553:
+            _fun00014_ip = 741; continue _fun00013;
+ 633:
             golfie = entity.streamKey;
             oscard = entity.mediaSessionId;
             michal = global;
@@ -430,16 +449,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = michal.concat;
             michal = ':';
             tangon = zuuluu.bind(option)(golfie, michal, oscard);
-            _fun00014_ip = 661; continue _fun00013;
- 591:
+            _fun00014_ip = 741; continue _fun00013;
+ 671:
             oscard = entity.mediaSessionId;
             michal = global;
             michal = michal.HermesInternal;
             zuuluu = michal.concat;
             michal = '';
             tangon = zuuluu.bind(michal)(oscard);
-            _fun00014_ip = 661; continue _fun00013;
- 621:
+            _fun00014_ip = 741; continue _fun00013;
+ 701:
             golfie = entity.streamKey;
             oscard = entity.mediaSessionId;
             entity = global;
@@ -448,7 +467,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = '';
             entity = ':';
             tangon = zuuluu.bind(michal)(golfie, entity, oscard);
- 661:
+ 741:
             entity = global;
             entity = entity.HermesInternal;
             zuuluu = entity.concat;

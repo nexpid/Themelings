@@ -45,8 +45,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = 6;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.WideBannerBlockRecord;
+    tangon = tangon.ShelfBlockRecord;
     var _closure1_slot8 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.WideBannerBlockRecord;
+    var _closure1_slot9 = tangon;
     michal = function() {
         report = function(argFoo) { // Original name: CollectiblesShopHomeRecord
             tangon = argFoo;
@@ -64,13 +69,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = zuuluu.type;
                     oscard = _closure1_slot0;
                     michal = _closure1_slot1;
-                    golfie = 7;
+                    golfie = 8;
                     tangon = michal[golfie];
                     michal = undefined;
                     tangon = oscard.bind(michal)(tangon);
                     tangon = tangon.ShopBlockType;
                     tangon = tangon.HERO;
-                    if(!(tangon !== report)) { _fun00002_ip = 204; continue _fun00001 }
+                    if(!(tangon !== report)) { _fun00002_ip = 257; continue _fun00001 }
  52:
                     oscard = _closure1_slot0;
                     tangon = _closure1_slot1;
@@ -78,41 +83,54 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = oscard.bind(michal)(tangon);
                     tangon = tangon.ShopBlockType;
                     tangon = tangon.FEATURED;
-                    if(!(tangon !== report)) { _fun00002_ip = 187; continue _fun00001 }
- 85:
+                    if(!(tangon !== report)) { _fun00002_ip = 240; continue _fun00001 }
+ 88:
                     oscard = _closure1_slot0;
                     tangon = _closure1_slot1;
                     tangon = tangon[golfie];
                     tangon = oscard.bind(michal)(tangon);
                     tangon = tangon.ShopBlockType;
                     tangon = tangon.FEED;
-                    if(!(tangon !== report)) { _fun00002_ip = 170; continue _fun00001 }
- 118:
+                    if(!(tangon !== report)) { _fun00002_ip = 223; continue _fun00001 }
+ 121:
                     oscard = _closure1_slot0;
                     tangon = _closure1_slot1;
                     tangon = tangon[golfie];
                     tangon = oscard.bind(michal)(tangon);
                     tangon = tangon.ShopBlockType;
                     tangon = tangon.WIDE_BANNER;
-                    if(!(tangon !== report)) { _fun00002_ip = 153; continue _fun00001 }
- 151:
+                    if(!(tangon !== report)) { _fun00002_ip = 206; continue _fun00001 }
+ 154:
+                    oscard = _closure1_slot0;
+                    tangon = _closure1_slot1;
+                    tangon = tangon[golfie];
+                    tangon = oscard.bind(michal)(tangon);
+                    tangon = tangon.ShopBlockType;
+                    tangon = tangon.SHELF;
+                    if(!(tangon !== report)) { _fun00002_ip = 189; continue _fun00001 }
+ 187:
                     return michal;
- 153:
+ 189:
                     tangon = _closure1_slot8;
                     michal = tangon.fromServer;
                     michal = michal.bind(tangon)(zuuluu);
                     return michal;
- 170:
+ 206:
+                    tangon = _closure1_slot9;
+                    michal = tangon.fromServer;
+                    michal = michal.bind(tangon)(zuuluu);
+                    return michal;
+ 223:
                     tangon = _closure1_slot6;
                     michal = tangon.fromServer;
                     michal = michal.bind(tangon)(zuuluu);
                     return michal;
- 187:
+ 240:
                     tangon = _closure1_slot5;
                     michal = tangon.fromServer;
                     michal = michal.bind(tangon)(zuuluu);
                     return michal;
- 204:
+ 257:
                     michal = _closure1_slot7;
                     entity = michal.fromServer;
                     entity = entity.bind(michal)(zuuluu);
@@ -166,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal = michal.bind(entity)();
-    tangon = 8;
+    tangon = 9;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
