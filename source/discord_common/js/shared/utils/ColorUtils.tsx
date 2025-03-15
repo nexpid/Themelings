@@ -454,11 +454,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = _closure1_slot2;
             oscard = michal.bind(zuuluu)(entity);
             entity = null;
-            if(!(entity == oscard)) { _fun00016_ip = 39; continue _fun00015 }
+            if(!(entity == oscard)) { _fun00016_ip = 43; continue _fun00015 }
  27:
             michal = {'red': 0, 'green': 0, 'blue': 0};
-            _fun00016_ip = 117; continue _fun00015;
- 39:
+            _fun00016_ip = 121; continue _fun00015;
+ 43:
             entity = {};
             zuuluu = global;
             golfie = zuuluu.parseInt;
@@ -478,7 +478,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.bind(report)(zuuluu);
             entity['blue'] = zuuluu;
             michal = entity;
- 117:
+ 121:
             zuuluu = michal.red;
             entity = 16;
             zuuluu = zuuluu << entity;

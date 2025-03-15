@@ -1054,10 +1054,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = new Array(3);
             report[0] = result;
             golfie = null;
-            if(!output) { _fun00002_ip = 2211; continue _fun00001 }
- 2208:
+            if(!output) { _fun00002_ip = 2207; continue _fun00001 }
+ 2204:
             golfie = option;
- 2211:
+ 2207:
             report[1] = golfie;
             option = _closure1_slot13;
             golfie = _closure1_slot0;

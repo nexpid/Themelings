@@ -48,6 +48,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     yankee = yankee.BACKGROUND_PRIMARY;
     verify['backgroundColor'] = yankee;
     tangon['container'] = verify;
+    verify = {};
+    verify['textAlign'] = offset;
+    tangon['title'] = verify;
     verify = {'width': 300, 'height': 200, 'resizeMode': 'contain'};
     tangon['emptyImage'] = verify;
     verify = {};
@@ -237,6 +240,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = golfie.bind(tangon)(sizing);
             source = sizing.Text;
             sizing = {'variant': 'heading-xxl/bold', 'maxFontSizeMultiplier': 2};
+            record = sequen.title;
+            sizing['style'] = record;
             sizing['children'] = config;
             source = ctrled.bind(tangon)(source, sizing);
             sizing = new Array(2);
@@ -260,12 +265,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = {};
             verify = null;
             yankee = verify != output;
-            if(!yankee) { _fun00002_ip = 552; continue _fun00001 }
- 548:
+            if(!yankee) { _fun00002_ip = 561; continue _fun00001 }
+ 557:
             yankee = verify != romeon;
- 552:
-            if(!yankee) { _fun00002_ip = 605; continue _fun00001 }
- 555:
+ 561:
+            if(!yankee) { _fun00002_ip = 614; continue _fun00001 }
+ 564:
             sizing = _closure1_slot4;
             romeon = _closure1_slot0;
             update = _closure1_slot1;
@@ -278,7 +283,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['onPress'] = result;
             verify['text'] = output;
             yankee = sizing.bind(tangon)(romeon, verify);
- 605:
+ 614:
             verify = new Array(2);
             verify[0] = yankee;
             romeon = _closure1_slot4;

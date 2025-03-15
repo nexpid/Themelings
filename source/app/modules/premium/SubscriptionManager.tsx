@@ -1,4 +1,4 @@
-// app/modules/premium/SubscriptionRemindersManager.tsx
+// app/modules/premium/SubscriptionManager.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     golfie = argBaz;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
-        zuuluu = function(argFoo) { // Original name: SubscriptionRemindersManager
+        zuuluu = function(argFoo) { // Original name: SubscriptionManager
             golfie = this;
             romeon = 0;
             option = copyRestArgs(romeon);
@@ -436,7 +436,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/SubscriptionRemindersManager.tsx';
+    tangon = 'modules/premium/SubscriptionManager.tsx';
     tangon = report.bind(oscard)(tangon);
     zuuluu['default'] = michal;
     return entity;

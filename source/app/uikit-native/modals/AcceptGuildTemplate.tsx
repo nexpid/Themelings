@@ -325,8 +325,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = 0;
             golfie = option > golfie;
             oscard = null;
-            if(!golfie) { _fun00002_ip = 1584; continue _fun00001 }
- 1335:
+            if(!golfie) { _fun00002_ip = 1592; continue _fun00001 }
+ 1339:
             verify = _closure1_slot11;
             option = _closure1_slot12;
             golfie = {};
@@ -377,7 +377,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset[2] = yankee;
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 1584:
+ 1592:
             report[10] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

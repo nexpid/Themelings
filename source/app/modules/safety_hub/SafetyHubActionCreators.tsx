@@ -628,13 +628,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = undefined;
         entity = undefined;
         tangon = _closure1_slot3;
-        zuuluu = function* () {
-            entity = function* () { // Original name: ?anon_0_
+        zuuluu = function* (argFoo) {
+            entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00022_ip = 189; continue _fun00021 }
+                    if(zuuluu) { _fun00022_ip = 199; continue _fun00021 }
  12:
                     golfie = _closure1_slot1;
                     oscard = _closure1_slot2;
@@ -662,6 +662,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['url'] = golfie;
                     golfie = {};
                     golfie['token'] = option;
+                    option = argFoo;
+                    golfie['fromClassificationId'] = option;
                     tangon['body'] = golfie;
                     golfie = false;
                     tangon['rejectWithError'] = golfie;
@@ -727,17 +729,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         }
                     };
                     michal = tangon.bind(report)(michal);
-                    SaveGenerator(address=177);
- 175:
+                    SaveGenerator(address=187);
+ 185:
                     return michal;
- 177:
+ 187:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00022_ip = 186; continue _fun00021 }
- 183:
+                    if(tangon) { _fun00022_ip = 196; continue _fun00021 }
+ 193:
                     return zuuluu;
- 186:
+ 196:
                     return michal;
- 189:
+ 199:
                     return entity;
                 }
             };

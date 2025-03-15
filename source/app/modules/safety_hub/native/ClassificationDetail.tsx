@@ -1279,7 +1279,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = _closure1_slot12;
                     tangon = tangon.APPEALS_LINK;
                     tangon = golfie.bind(option)(tangon);
-                    _fun00012_ip = 365; continue _fun00011;
+                    _fun00012_ip = 370; continue _fun00011;
  237:
                     tangon = 27;
                     tangon = oscard[tangon];
@@ -1302,17 +1302,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = _closure2_slot0;
                     tangon['classificationId'] = golfie;
                     tangon = report.bind(oscard)(tangon);
-                    _fun00012_ip = 365; continue _fun00011;
+                    _fun00012_ip = 370; continue _fun00011;
  330:
                     tangon = _closure1_slot1;
                     report = _closure1_slot2;
                     zuuluu = 26;
                     zuuluu = report[zuuluu];
-                    tangon = tangon.bind(entity)(zuuluu);
-                    zuuluu = tangon.open;
+                    report = tangon.bind(entity)(zuuluu);
+                    tangon = report.open;
+                    zuuluu = _closure2_slot0;
                     michal = _closure2_slot2;
-                    michal = zuuluu.bind(tangon)(michal);
- 365:
+                    michal = tangon.bind(report)(zuuluu, michal);
+ 370:
                     return entity;
                 }
             };

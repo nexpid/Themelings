@@ -333,7 +333,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity['onPressOptionItem'] = foxtra;
-            foxtra = function(argFoo) { // Original name: renderIcon
+            foxtra = function(argFoo) { // Original name: renderHeaderIcon
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     golfie = argFoo;
@@ -355,10 +355,54 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = option[oscard];
                     oscard = golfie.bind(tangon)(oscard);
                     oscard = oscard.GuildIconSizes;
+                    oscard = oscard.XSMALL;
+                    entity['size'] = oscard;
+                    entity = report.bind(tangon)(zuuluu, entity);
+                    _fun00008_ip = 141; continue _fun00007;
+ 93:
+                    report = _closure1_slot11;
+                    zuuluu = _closure1_slot0;
+                    tangon = _closure1_slot2;
+                    michal = 14;
+                    michal = tangon[michal];
+                    tangon = undefined;
+                    michal = zuuluu.bind(tangon)(michal);
+                    zuuluu = michal.GuildSelectDefaultIcon;
+                    michal = {};
+                    oscard = 'xs';
+                    michal['size'] = oscard;
+                    entity = report.bind(tangon)(zuuluu, michal);
+ 141:
+                    return entity;
+                }
+            };
+            entity['renderHeaderIcon'] = foxtra;
+            foxtra = function(argFoo) { // Original name: renderIcon
+                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+ 0:
+                    golfie = argFoo;
+                    zuuluu = golfie.value;
+                    entity = _closure1_slot5;
+                    if(!(zuuluu !== entity)) { _fun00010_ip = 93; continue _fun00009 }
+ 19:
+                    report = _closure1_slot11;
+                    zuuluu = _closure1_slot1;
+                    option = _closure1_slot2;
+                    oscard = 15;
+                    entity = option[oscard];
+                    tangon = undefined;
+                    zuuluu = zuuluu.bind(tangon)(entity);
+                    entity = {};
+                    golfie = golfie.guild;
+                    entity['guild'] = golfie;
+                    golfie = _closure1_slot0;
+                    oscard = option[oscard];
+                    oscard = golfie.bind(tangon)(oscard);
+                    oscard = oscard.GuildIconSizes;
                     oscard = oscard.SMALL_32;
                     entity['size'] = oscard;
                     entity = report.bind(tangon)(zuuluu, entity);
-                    _fun00008_ip = 133; continue _fun00007;
+                    _fun00010_ip = 133; continue _fun00009;
  93:
                     report = _closure1_slot11;
                     zuuluu = _closure1_slot0;

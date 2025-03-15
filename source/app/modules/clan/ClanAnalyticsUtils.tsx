@@ -59,55 +59,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = 'modules/clan/ClanAnalyticsUtils.tsx';
     report = oscard.bind(golfie)(report);
     zuuluu['GuildProfileCTATypes'] = tangon;
-    tangon = function(argFoo) { // Original name: trackClanProfileViewed
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            entity = argFoo;
-            foxtra = entity.guildId;
-            yankee = entity.hasJoinRequest;
-            offset = entity.source;
-            oscard = entity.messageId;
-            golfie = entity.tagUserId;
-            verify = entity.location;
-            report = _closure1_slot3;
-            entity = report.getId;
-            option = entity.bind(report)();
-            tangon = _closure1_slot4;
-            zuuluu = tangon.getMember;
-            entity = report.getId;
-            entity = entity.bind(report)();
-            report = zuuluu.bind(tangon)(foxtra, entity);
-            tangon = null;
-            romeon = tangon == report;
-            entity = undefined;
-            zuuluu = undefined;
-            if(romeon) { _fun00002_ip = 97; continue _fun00001 }
- 91:
-            zuuluu = report.joinedAt;
- 97:
-            romeon = tangon != zuuluu;
-            tangon = _closure1_slot1;
-            report = _closure1_slot2;
-            zuuluu = 5;
-            zuuluu = report[zuuluu];
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.track;
-            michal = _closure1_slot6;
-            zuuluu = michal.CLAN_PROFILE_VIEWED;
-            michal = {};
-            michal['guild_id'] = foxtra;
-            michal['is_member'] = romeon;
-            michal['has_join_request'] = yankee;
-            michal['source'] = offset;
-            michal['location'] = verify;
-            michal['viewing_user_id'] = option;
-            michal['tag_owner_user_id'] = golfie;
-            michal['message_id'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
-            return entity;
-        }
-    };
-    zuuluu['trackClanProfileViewed'] = tangon;
     tangon = function(argFoo) { // Original name: trackClanApplyToJoinViewed
         entity = argFoo;
         yankee = entity.guildId;
@@ -252,40 +203,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['trackConvertSuccessModalConfirm'] = tangon;
     tangon = function(argFoo) { // Original name: getProgressStepAnalyticsName
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zuuluu = _closure1_slot5;
             zuuluu = zuuluu.GAMES;
-            if(!(zuuluu !== entity)) { _fun00004_ip = 172; continue _fun00003 }
+            if(!(zuuluu !== entity)) { _fun00002_ip = 172; continue _fun00001 }
  23:
             zuuluu = _closure1_slot5;
             zuuluu = zuuluu.PLAYSTYLE;
-            if(!(zuuluu !== entity)) { _fun00004_ip = 166; continue _fun00003 }
+            if(!(zuuluu !== entity)) { _fun00002_ip = 166; continue _fun00001 }
  40:
             zuuluu = _closure1_slot5;
             zuuluu = zuuluu.UTILITY_TRAITS;
-            if(!(zuuluu !== entity)) { _fun00004_ip = 158; continue _fun00003 }
+            if(!(zuuluu !== entity)) { _fun00002_ip = 158; continue _fun00001 }
  54:
             zuuluu = _closure1_slot5;
             zuuluu = zuuluu.INTERESTS;
-            if(!(zuuluu !== entity)) { _fun00004_ip = 152; continue _fun00003 }
+            if(!(zuuluu !== entity)) { _fun00002_ip = 152; continue _fun00001 }
  68:
             zuuluu = _closure1_slot5;
             zuuluu = zuuluu.DESCRIPTION;
-            if(!(zuuluu !== entity)) { _fun00004_ip = 146; continue _fun00003 }
+            if(!(zuuluu !== entity)) { _fun00002_ip = 146; continue _fun00001 }
  82:
             zuuluu = _closure1_slot5;
             zuuluu = zuuluu.CUSTOMIZE_TAG_BADGE;
-            if(!(zuuluu !== entity)) { _fun00004_ip = 140; continue _fun00003 }
+            if(!(zuuluu !== entity)) { _fun00002_ip = 140; continue _fun00001 }
  96:
             zuuluu = _closure1_slot5;
             zuuluu = zuuluu.CUSTOMIZE_BANNER;
-            if(!(zuuluu !== entity)) { _fun00004_ip = 134; continue _fun00003 }
+            if(!(zuuluu !== entity)) { _fun00002_ip = 134; continue _fun00001 }
  110:
             michal = _closure1_slot5;
             michal = michal.MEMBER_APPLICATION;
-            if(!(michal !== entity)) { _fun00004_ip = 126; continue _fun00003 }
+            if(!(michal !== entity)) { _fun00002_ip = 126; continue _fun00001 }
  124:
             return entity;
  126:
@@ -380,7 +331,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['trackMemberVerificationApplicationViewed'] = tangon;
     tangon = function(argFoo) { // Original name: trackClanSendInterviewMessage
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             romeon = entity.guildId;
@@ -398,7 +349,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = tangon == report;
             entity = undefined;
             zuuluu = undefined;
-            if(option) { _fun00006_ip = 82; continue _fun00005 }
+            if(option) { _fun00004_ip = 82; continue _fun00003 }
  76:
             zuuluu = report.joinedAt;
  82:
@@ -499,7 +450,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['trackClanApplicationViewed'] = tangon;
     tangon = function(argFoo) { // Original name: trackClanApplyWaitlist
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             backup = entity.originGuildId;
@@ -520,7 +471,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.DismissibleContent;
             michal = michal.CLAN_TAG_WAITLIST;
             michal = zuuluu.bind(report)(michal);
-            if(michal) { _fun00008_ip = 263; continue _fun00007 }
+            if(michal) { _fun00006_ip = 263; continue _fun00005 }
  101:
             report = _closure1_slot1;
             michal = _closure1_slot2;

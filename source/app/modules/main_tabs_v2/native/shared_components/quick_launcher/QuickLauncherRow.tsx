@@ -657,16 +657,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             michal = oscard.bind(golfie)(zuuluu, michal);
-            oscard = michal.collectionsFetchState;
+            golfie = michal.collectionsFetchState;
             zuuluu = michal.collections;
             var _closure2_slot4 = zuuluu;
-            michal = _closure1_slot9;
-            michal = michal.FETCHING;
-            michal = oscard === michal;
-            if(michal) { _fun00014_ip = 234; continue _fun00013 }
- 231:
+            michal = null;
+            michal = michal == golfie;
+            if(michal) { _fun00014_ip = 237; continue _fun00013 }
+ 223:
+            oscard = _closure1_slot9;
+            oscard = oscard.FETCHING;
+            michal = golfie === oscard;
+ 237:
+            if(michal) { _fun00014_ip = 243; continue _fun00013 }
+ 240:
             michal = report;
- 234:
+ 243:
             var _closure2_slot5 = michal;
             golfie = _closure1_slot4;
             oscard = golfie.useMemo;
@@ -874,10 +879,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     zuuluu = _closure2_slot0;
                     zuuluu = zuuluu.current;
-                    if(zuuluu) { _fun00018_ip = 213; continue _fun00017 }
+                    if(zuuluu) { _fun00018_ip = 180; continue _fun00017 }
  20:
                     zuuluu = _closure2_slot5;
-                    if(zuuluu) { _fun00018_ip = 213; continue _fun00017 }
+                    if(zuuluu) { _fun00018_ip = 180; continue _fun00017 }
  30:
                     tangon = _closure2_slot0;
                     zuuluu = true;
@@ -895,13 +900,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = tangon.bind(report)(zuuluu);
                     tangon = report.map;
                     zuuluu = function(argFoo) {
-                        entity = global;
-                        zuuluu = entity.Number;
                         entity = argFoo;
                         entity = entity.application;
-                        michal = entity.id;
-                        entity = undefined;
-                        entity = zuuluu.bind(entity)(michal);
+                        entity = entity.id;
                         return entity;
                     };
                     oscard = tangon.bind(report)(zuuluu);
@@ -918,13 +919,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = zuuluu.bind(tangon)(michal);
                     michal = zuuluu.map;
                     entity = function(argFoo) {
-                        entity = global;
-                        zuuluu = entity.Number;
                         entity = argFoo;
                         entity = entity.application;
-                        michal = entity.id;
-                        entity = undefined;
-                        entity = zuuluu.bind(entity)(michal);
+                        entity = entity.id;
                         return entity;
                     };
                     report = michal.bind(zuuluu)(entity);
@@ -938,19 +935,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = _closure1_slot11;
                     michal = entity.APP_DMS_QUICK_LAUNCHER_IMPRESSION;
                     entity = {};
-                    golfie = new Array(0);
-                    verify = 0;
-                    yankee = golfie;
-                    offset = oscard;
-                    verify = arraySpread(yankee, offset, verify);
-                    yankee = golfie;
-                    offset = report;
-                    option = arraySpread(yankee, offset, verify);
-                    entity['apps_dm_quick_launcher_application_ids'] = golfie;
-                    entity['apps_dm_quick_launcher_application_ids_frecency'] = oscard;
-                    entity['apps_dm_quick_launcher_application_ids_recommendations'] = report;
+                    entity['apps_dm_quick_launcher_application_ids_frecency_v2'] = oscard;
+                    entity['apps_dm_quick_launcher_application_ids_recommendations_v2'] = report;
                     entity = zuuluu.bind(tangon)(michal, entity);
- 213:
+ 180:
                     entity = undefined;
                     return entity;
                 }

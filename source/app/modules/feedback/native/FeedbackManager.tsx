@@ -309,39 +309,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     entity = argFoo;
-                    report = entity.applicationId;
-                    var _closure4_slot0 = report;
+                    oscard = entity.applicationId;
+                    var _closure4_slot0 = oscard;
                     option = entity.location;
                     var _closure4_slot1 = option;
-                    golfie = entity.showFeedback;
+                    report = entity.showFeedback;
                     tangon = _closure1_slot8;
                     entity = tangon.getApplication;
-                    tangon = entity.bind(tangon)(report);
-                    var _closure4_slot2 = tangon;
-                    oscard = _closure1_slot0;
-                    report = _closure1_slot2;
+                    oscard = entity.bind(tangon)(oscard);
+                    var _closure4_slot2 = oscard;
+                    golfie = _closure1_slot0;
+                    tangon = _closure1_slot2;
                     entity = 15;
-                    report = report[entity];
+                    tangon = tangon[entity];
                     entity = undefined;
-                    oscard = oscard.bind(entity)(report);
-                    report = oscard.getEmbeddedActivityLocationChannelId;
-                    option = report.bind(oscard)(option);
-                    oscard = _closure1_slot9;
-                    report = oscard.getChannel;
-                    oscard = report.bind(oscard)(option);
-                    var _closure4_slot3 = oscard;
-                    report = null;
-                    tangon = report != tangon;
+                    golfie = golfie.bind(entity)(tangon);
+                    tangon = golfie.getEmbeddedActivityLocationChannelId;
+                    option = tangon.bind(golfie)(option);
+                    golfie = _closure1_slot9;
+                    tangon = golfie.getChannel;
+                    tangon = tangon.bind(golfie)(option);
+                    var _closure4_slot3 = tangon;
+                    tangon = null;
+                    tangon = tangon != oscard;
                     if(!tangon) { _fun00010_ip = 114; continue _fun00009 }
  111:
-                    tangon = golfie;
+                    tangon = report;
  114:
-                    if(!tangon) { _fun00010_ip = 121; continue _fun00009 }
+                    if(!tangon) { _fun00010_ip = 153; continue _fun00009 }
  117:
-                    tangon = report != oscard;
- 121:
-                    if(!tangon) { _fun00010_ip = 160; continue _fun00009 }
- 124:
                     report = _closure3_slot0;
                     tangon = report.possiblyShowFeedbackModal;
                     zuuluu = _closure1_slot12;
@@ -380,21 +376,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             oscard = zuuluu.bind(entity)(michal);
                             report = oscard.openLazy;
                             tangon = _closure5_slot0;
-                            michal = _closure4_slot1;
-                            offset = michal.id;
-                            verify = _closure4_slot0;
+                            golfie = _closure4_slot1;
+                            yankee = golfie.id;
+                            offset = _closure4_slot0;
                             michal = global;
                             michal = michal.HermesInternal;
                             zuuluu = michal.concat;
                             michal = 'ActivityFeedback';
-                            zuuluu = zuuluu.bind(michal)(offset, verify);
+                            zuuluu = zuuluu.bind(michal)(yankee, offset);
                             michal = {};
-                            option = _closure5_slot1;
-                            michal['analyticsData'] = option;
-                            option = _closure4_slot2;
-                            michal['activityApplication'] = option;
-                            golfie = _closure4_slot3;
-                            michal['channel'] = golfie;
+                            verify = _closure5_slot1;
+                            michal['analyticsData'] = verify;
+                            verify = _closure4_slot2;
+                            michal['activityApplication'] = verify;
+                            option = _closure4_slot3;
+                            michal['channel'] = option;
+                            michal['embeddedActivityLocation'] = golfie;
                             michal = report.bind(oscard)(tangon, zuuluu, michal);
                             return entity;
                         };
@@ -402,7 +399,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     michal = tangon.bind(report)(zuuluu, michal);
- 160:
+ 153:
                     return entity;
                 }
             };

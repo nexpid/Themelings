@@ -1112,7 +1112,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    michal['SubscriptionRemindersManager'] = entity;
+    michal['SubscriptionManager'] = entity;
     entity = {};
     option = ['CHANNEL_DELETE', 'MESSAGE_CREATE'];
     entity['actions'] = option;

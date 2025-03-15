@@ -1226,19 +1226,84 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = option;
  1381:
                     report['gpu_count'] = golfie;
+                    golfie = tangon == oscard;
+                    option = undefined;
+                    if(golfie) { _fun00016_ip = 1401; continue _fun00015 }
+ 1395:
+                    option = oscard.gpu_memory;
+ 1401:
+                    verify = tangon != option;
+                    golfie = null;
+                    if(!verify) { _fun00016_ip = 1413; continue _fun00015 }
+ 1410:
+                    golfie = option;
+ 1413:
+                    report['gpu_memory'] = golfie;
+                    golfie = tangon == oscard;
+                    option = undefined;
+                    if(golfie) { _fun00016_ip = 1433; continue _fun00015 }
+ 1427:
+                    option = oscard.gpu_device_vendor_id;
+ 1433:
+                    verify = tangon != option;
+                    golfie = null;
+                    if(!verify) { _fun00016_ip = 1445; continue _fun00015 }
+ 1442:
+                    golfie = option;
+ 1445:
+                    report['gpu_device_vendor_id'] = golfie;
+                    golfie = tangon == oscard;
+                    option = undefined;
+                    if(golfie) { _fun00016_ip = 1465; continue _fun00015 }
+ 1459:
+                    option = oscard.gpu_device_device_id;
+ 1465:
+                    verify = tangon != option;
+                    golfie = null;
+                    if(!verify) { _fun00016_ip = 1477; continue _fun00015 }
+ 1474:
+                    golfie = option;
+ 1477:
+                    report['gpu_device_device_id'] = golfie;
+                    golfie = tangon == oscard;
+                    option = undefined;
+                    if(golfie) { _fun00016_ip = 1497; continue _fun00015 }
+ 1491:
+                    option = oscard.gpu_device_sub_sys_id;
+ 1497:
+                    verify = tangon != option;
+                    golfie = null;
+                    if(!verify) { _fun00016_ip = 1509; continue _fun00015 }
+ 1506:
+                    golfie = option;
+ 1509:
+                    report['gpu_device_sub_sys_id'] = golfie;
+                    golfie = tangon == oscard;
+                    option = undefined;
+                    if(golfie) { _fun00016_ip = 1529; continue _fun00015 }
+ 1523:
+                    option = oscard.gpu_device_revision;
+ 1529:
+                    verify = tangon != option;
+                    golfie = null;
+                    if(!verify) { _fun00016_ip = 1541; continue _fun00015 }
+ 1538:
+                    golfie = option;
+ 1541:
+                    report['gpu_device_revision'] = golfie;
                     option = tangon == oscard;
                     golfie = undefined;
-                    if(option) { _fun00016_ip = 1401; continue _fun00015 }
- 1395:
-                    golfie = oscard.gpu_memory;
- 1401:
+                    if(option) { _fun00016_ip = 1561; continue _fun00015 }
+ 1555:
+                    golfie = oscard.gpu_driver_version;
+ 1561:
                     option = tangon != golfie;
                     oscard = null;
-                    if(!option) { _fun00016_ip = 1413; continue _fun00015 }
- 1410:
+                    if(!option) { _fun00016_ip = 1573; continue _fun00015 }
+ 1570:
                     oscard = golfie;
- 1413:
-                    report['gpu_memory'] = oscard;
+ 1573:
+                    report['gpu_driver_version'] = oscard;
                     golfie = _closure1_slot1;
                     oscard = _closure1_slot2;
                     option = 16;
@@ -1248,10 +1313,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = oscard.bind(golfie)();
                     verify = tangon != golfie;
                     oscard = null;
-                    if(!verify) { _fun00016_ip = 1460; continue _fun00015 }
- 1457:
+                    if(!verify) { _fun00016_ip = 1620; continue _fun00015 }
+ 1617:
                     oscard = golfie;
- 1460:
+ 1620:
                     report['cpu_usage'] = oscard;
                     golfie = _closure1_slot1;
                     oscard = _closure1_slot2;
@@ -1261,10 +1326,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = oscard.bind(golfie)();
                     option = tangon != golfie;
                     oscard = null;
-                    if(!option) { _fun00016_ip = 1506; continue _fun00015 }
- 1503:
+                    if(!option) { _fun00016_ip = 1666; continue _fun00015 }
+ 1663:
                     oscard = golfie;
- 1506:
+ 1666:
                     report['memory_usage'] = oscard;
                     golfie = _closure1_slot17;
                     oscard = _closure2_slot16;
@@ -1280,8 +1345,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report['hardware_enabled'] = oscard;
                     oscard = _closure2_slot1;
                     oscard = oscard.audioInputDeviceName;
-                    if(!(tangon == oscard)) { _fun00016_ip = 1633; continue _fun00015 }
- 1588:
+                    if(!(tangon == oscard)) { _fun00016_ip = 1793; continue _fun00015 }
+ 1748:
                     verify = _closure1_slot6;
                     golfie = verify.getInputDevices;
                     option = golfie.bind(verify)();
@@ -1290,17 +1355,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = option[golfie];
                     verify = tangon == option;
                     golfie = undefined;
-                    if(verify) { _fun00016_ip = 1630; continue _fun00015 }
- 1625:
+                    if(verify) { _fun00016_ip = 1790; continue _fun00015 }
+ 1785:
                     golfie = option.name;
- 1630:
+ 1790:
                     oscard = golfie;
- 1633:
+ 1793:
                     report['audio_input_device_name'] = oscard;
                     oscard = _closure2_slot1;
                     oscard = oscard.audioOutputDeviceName;
-                    if(!(tangon == oscard)) { _fun00016_ip = 1699; continue _fun00015 }
- 1654:
+                    if(!(tangon == oscard)) { _fun00016_ip = 1859; continue _fun00015 }
+ 1814:
                     verify = _closure1_slot6;
                     golfie = verify.getOutputDevices;
                     option = golfie.bind(verify)();
@@ -1309,17 +1374,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = option[golfie];
                     verify = tangon == option;
                     golfie = undefined;
-                    if(verify) { _fun00016_ip = 1696; continue _fun00015 }
- 1691:
+                    if(verify) { _fun00016_ip = 1856; continue _fun00015 }
+ 1851:
                     golfie = option.name;
- 1696:
+ 1856:
                     oscard = golfie;
- 1699:
+ 1859:
                     report['audio_output_device_name'] = oscard;
                     zuuluu = _closure2_slot1;
                     zuuluu = zuuluu.videoDeviceName;
-                    if(!(tangon == zuuluu)) { _fun00016_ip = 1765; continue _fun00015 }
- 1720:
+                    if(!(tangon == zuuluu)) { _fun00016_ip = 1925; continue _fun00015 }
+ 1880:
                     option = _closure1_slot6;
                     oscard = option.getVideoDevices;
                     golfie = oscard.bind(option)();
@@ -1328,12 +1393,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = golfie[oscard];
                     golfie = tangon == oscard;
                     tangon = undefined;
-                    if(golfie) { _fun00016_ip = 1762; continue _fun00015 }
- 1757:
+                    if(golfie) { _fun00016_ip = 1922; continue _fun00015 }
+ 1917:
                     tangon = oscard.name;
- 1762:
+ 1922:
                     zuuluu = tangon;
- 1765:
+ 1925:
                     report['video_device_name'] = zuuluu;
                     tangon = _closure1_slot6;
                     zuuluu = tangon.getMediaEngine;

@@ -210,7 +210,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     golfie = entity.Set;
     report = golfie.prototype;
     oscard = Object.create(report, {constructor: {value: golfie}});
-    yankee = ['activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'identify', 'lobbies.write', 'relationships.read', 'relationships.write'];
+    yankee = ['activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds', 'guilds.channels.read', 'identify', 'lobbies.write', 'relationships.read', 'relationships.write'];
     romeon = oscard;
     report = new romeon[golfie](yankee, offset);
     report = report instanceof Object ? report : oscard;
@@ -243,7 +243,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = entity.Set;
     oscard = option.prototype;
     golfie = Object.create(oscard, {constructor: {value: option}});
-    yankee = ['activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds.channels.read', 'identify', 'lobbies.write', 'relationships.read', 'relationships.write'];
+    yankee = ['activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds', 'guilds.channels.read', 'identify', 'lobbies.write', 'relationships.read', 'relationships.write'];
     romeon = golfie;
     oscard = new romeon[option](yankee, offset);
     oscard = oscard instanceof Object ? oscard : golfie;
@@ -260,7 +260,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     golfie = entity.Set;
     report = golfie.prototype;
     oscard = Object.create(report, {constructor: {value: golfie}});
-    yankee = ['activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'identify', 'lobbies.write', 'relationships.read', 'relationships.write'];
+    yankee = ['activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds', 'guilds.channels.read', 'identify', 'lobbies.write', 'relationships.read', 'relationships.write'];
     romeon = oscard;
     report = new romeon[golfie](yankee, offset);
     report = report instanceof Object ? report : oscard;

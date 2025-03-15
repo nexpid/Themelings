@@ -431,40 +431,60 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = function() {
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-                    zuuluu = _closure1_slot12;
-                    entity = zuuluu.getVoiceChannelId;
-                    option = entity.bind(zuuluu)();
-                    report = _closure1_slot7;
-                    entity = _closure3_slot0;
-                    tangon = _closure1_slot18;
+                    tangon = _closure1_slot12;
+                    zuuluu = tangon.getVoiceChannelId;
+                    verify = zuuluu.bind(tangon)();
+                    oscard = _closure1_slot7;
+                    tangon = _closure3_slot0;
+                    report = _closure1_slot18;
                     golfie = undefined;
-                    entity = report.bind(golfie)(entity, tangon);
-                    entity = entity[tangon];
-                    entity = entity.size;
+                    tangon = oscard.bind(golfie)(tangon, report);
+                    tangon = tangon[report];
+                    tangon = tangon.size;
                     report = 0;
-                    entity = entity > report;
-                    if(!entity) { _fun00012_ip = 196; continue _fun00011 }
- 61:
+                    oscard = tangon > report;
+                    if(!oscard) { _fun00012_ip = 250; continue _fun00011 }
+ 63:
                     tangon = null;
-                    if(!(tangon == option)) { _fun00012_ip = 73; continue _fun00011 }
- 67:
-                    if(entity) { _fun00012_ip = 198; continue _fun00011 }
- 73:
-                    if(!(tangon != option)) { _fun00012_ip = 196; continue _fun00011 }
- 77:
-                    oscard = _closure1_slot16;
-                    entity = oscard.getGuildRingingUsers;
-                    option = entity.bind(oscard)(option);
-                    verify = _closure1_slot7;
-                    entity = _closure3_slot0;
-                    oscard = _closure1_slot18;
-                    entity = verify.bind(golfie)(entity, oscard);
-                    oscard = entity[oscard];
-                    entity = oscard.difference;
-                    option = entity.bind(oscard)(option);
-                    entity = option.size;
-                    if(!(entity > report)) { _fun00012_ip = 196; continue _fun00011 }
- 134:
+                    if(!(tangon == verify)) { _fun00012_ip = 75; continue _fun00011 }
+ 69:
+                    if(oscard) { _fun00012_ip = 252; continue _fun00011 }
+ 75:
+                    if(!(tangon != verify)) { _fun00012_ip = 250; continue _fun00011 }
+ 82:
+                    option = _closure1_slot16;
+                    oscard = option.getGuildRingingUsers;
+                    oscard = oscard.bind(option)(verify);
+                    var _closure4_slot0 = oscard;
+                    oscard = global;
+                    verify = oscard.Set;
+                    offset = _closure1_slot7;
+                    oscard = _closure3_slot0;
+                    option = _closure1_slot18;
+                    oscard = offset.bind(golfie)(oscard, option);
+                    romeon = oscard[option];
+                    offset = new Array(0);
+                    foxtra = offset;
+                    yankee = 0;
+                    oscard = arraySpread(foxtra, romeon, yankee);
+                    option = offset.filter;
+                    oscard = function(argFoo) {
+                        zuuluu = _closure4_slot0;
+                        michal = zuuluu.has;
+                        entity = argFoo;
+                        entity = michal.bind(zuuluu)(entity);
+                        entity = !entity;
+                        return entity;
+                    };
+                    foxtra = option.bind(offset)(oscard);
+                    option = verify.prototype;
+                    option = Object.create(option, {constructor: {value: verify}});
+                    backup = option;
+                    oscard = new backup[verify](foxtra, romeon);
+                    option = oscard instanceof Object ? oscard : option;
+                    oscard = option.size;
+                    if(!(oscard > report)) { _fun00012_ip = 250; continue _fun00011 }
+ 190:
                     oscard = option.forEach;
                     entity = function(argFoo) {
                         tangon = _closure1_slot7;
@@ -488,9 +508,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = entity.size;
                     entity = entity > report;
                     entity = oscard.bind(option)(entity, tangon);
- 196:
+ 250:
                     return golfie;
- 198:
+ 252:
                     entity = _closure1_slot7;
                     zuuluu = _closure3_slot0;
                     oscard = _closure1_slot18;
@@ -499,8 +519,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = michal.Set;
                     verify = michal.prototype;
                     verify = Object.create(verify, {constructor: {value: michal}});
-                    romeon = verify;
-                    michal = new romeon[michal](yankee);
+                    backup = verify;
+                    michal = new backup[michal](foxtra);
                     michal = michal instanceof Object ? michal : verify;
                     option[oscard] = michal;
                     michal = zuuluu._handleRing;

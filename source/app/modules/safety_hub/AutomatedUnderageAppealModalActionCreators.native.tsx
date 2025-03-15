@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = michal.AGE_CHECK_POLL_DELAY_MS;
     var _closure1_slot4 = michal;
     michal = {};
-    golfie = function(argFoo) { // Original name: open
+    golfie = function(argFoo, argBar) { // Original name: open
         report = _closure1_slot1;
         zuuluu = _closure1_slot2;
         entity = 1;
@@ -51,6 +51,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu = _closure1_slot3;
         michal = {};
         golfie = argFoo;
+        michal['classificationId'] = golfie;
+        golfie = argBar;
         michal['onClose'] = golfie;
         michal = report.bind(oscard)(tangon, zuuluu, michal);
         return entity;

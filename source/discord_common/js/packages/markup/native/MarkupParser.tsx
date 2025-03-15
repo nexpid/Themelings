@@ -35,43 +35,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = '\n\n';
             golfie = verify + option;
  56:
-            option = oscard;
-            offset = michal;
-            foxtra = option.bind(report)(golfie, offset);
-            entity = foxtra;
+            verify = oscard;
+            option = golfie;
+            golfie = michal;
+            romeon = verify.bind(report)(option, golfie);
+            entity = romeon;
             option = _closure1_slot0;
-            yankee = _closure1_slot2;
+            offset = _closure1_slot2;
             golfie = 0;
-            verify = yankee[golfie];
-            romeon = option.bind(report)(verify);
-            verify = romeon.constrainAst;
-            verify = verify.bind(romeon)(foxtra);
+            verify = offset[golfie];
+            yankee = option.bind(report)(verify);
+            verify = yankee.constrainAst;
+            verify = verify.bind(yankee)(romeon);
             entity = verify;
-            golfie = yankee[golfie];
+            golfie = offset[golfie];
             option = option.bind(report)(golfie);
             golfie = option.flattenAst;
-            entity = golfie.bind(option)(offset, verify);
- 128: // try_end0
-            _fun00002_ip = 157; continue _fun00001;
- 130: // catch_target0
+            entity = golfie.bind(option)(verify);
+ 130: // try_end0
+            _fun00002_ip = 159; continue _fun00001;
+ 132: // catch_target0
             CatchBlockStart(arg_register=6);
             golfie = oscard;
             oscard = '';
-            if(!tangon) { _fun00002_ip = 148; continue _fun00001 }
- 142:
+            if(!tangon) { _fun00002_ip = 150; continue _fun00001 }
+ 144:
             oscard = '\n\n';
- 148:
+ 150:
             tangon = michal;
             entity = golfie.bind(report)(oscard, tangon);
- 157:
+ 159:
             tangon = zuuluu;
-            if(!tangon) { _fun00002_ip = 181; continue _fun00001 }
- 163:
+            if(!tangon) { _fun00002_ip = 183; continue _fun00001 }
+ 165:
             tangon = zuuluu;
             zuuluu = entity;
             michal = michal.inline;
             entity = tangon.bind(report)(zuuluu, michal);
- 181:
+ 183:
             return entity;
         }
     };

@@ -174,23 +174,31 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     michal['showReportSuccessToast'] = golfie;
-    tangon = function() { // Original name: showFailedToast
-        oscard = _closure1_slot0;
-        golfie = _closure1_slot1;
-        entity = 1;
-        zuuluu = golfie[entity];
-        entity = undefined;
-        tangon = oscard.bind(entity)(zuuluu);
-        zuuluu = tangon.presentFailedToast;
-        report = 2;
-        report = golfie[report];
-        oscard = oscard.bind(entity)(report);
-        report = oscard.getSafetyToastTypeContent;
-        michal = _closure1_slot2;
-        michal = michal.GENERIC_ERROR;
-        michal = report.bind(oscard)(michal);
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    tangon = function(argFoo) { // Original name: showFailedToast
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            oscard = argFoo;
+            report = _closure1_slot0;
+            option = _closure1_slot1;
+            entity = 1;
+            michal = option[entity];
+            entity = undefined;
+            tangon = report.bind(entity)(michal);
+            zuuluu = tangon.presentFailedToast;
+            michal = 2;
+            michal = option[michal];
+            report = report.bind(entity)(michal);
+            michal = report.getSafetyToastTypeContent;
+            option = null;
+            if(!(option == oscard)) { _fun00002_ip = 68; continue _fun00001 }
+ 58:
+            golfie = _closure1_slot2;
+            oscard = golfie.GENERIC_ERROR;
+ 68:
+            michal = michal.bind(report)(oscard);
+            michal = zuuluu.bind(tangon)(michal);
+            return entity;
+        }
     };
     michal['showFailedToast'] = tangon;
     tangon = 3;

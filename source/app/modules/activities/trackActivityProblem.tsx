@@ -30,18 +30,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            romeon = entity.problem;
-            offset = entity.channel;
-            golfie = entity.feedback;
-            yankee = entity.activityApplication;
+            yankee = entity.problem;
+            backup = entity.channel;
+            golfie = entity.embeddedActivityLocation;
+            option = entity.feedback;
+            romeon = entity.activityApplication;
             oscard = entity.analyticsData;
-            verify = entity.location;
-            option = entity.rating;
+            offset = entity.location;
+            verify = entity.rating;
             entity = undefined;
-            if(!(option === entity)) { _fun00002_ip = 51; continue _fun00001 }
- 49:
-            option = null;
- 51:
+            if(!(verify === entity)) { _fun00002_ip = 57; continue _fun00001 }
+ 55:
+            verify = null;
+ 57:
             tangon = _closure1_slot0;
             report = _closure1_slot1;
             zuuluu = 1;
@@ -51,33 +52,45 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot2;
             zuuluu = michal.ACTIVITY_REPORT_PROBLEM;
             michal = {};
-            michal['reason'] = romeon;
-            romeon = offset.getGuildId;
-            romeon = romeon.bind(offset)();
-            michal['guild_id'] = romeon;
-            offset = offset.id;
-            michal['channel_id'] = offset;
-            offset = null;
-            foxtra = offset == yankee;
-            romeon = undefined;
-            if(foxtra) { _fun00002_ip = 135; continue _fun00001 }
- 130:
-            romeon = yankee.id;
- 135:
-            michal['application_id'] = romeon;
-            romeon = offset == yankee;
-            offset = undefined;
-            if(romeon) { _fun00002_ip = 154; continue _fun00001 }
- 149:
-            offset = yankee.name;
+            michal['reason'] = yankee;
+            yankee = null;
+            kiloes = yankee == backup;
+            foxtra = undefined;
+            if(kiloes) { _fun00002_ip = 123; continue _fun00001 }
+ 113:
+            kiloes = backup.getGuildId;
+            foxtra = kiloes.bind(backup)();
+ 123:
+            michal['guild_id'] = foxtra;
+            kiloes = yankee == backup;
+            foxtra = undefined;
+            if(kiloes) { _fun00002_ip = 141; continue _fun00001 }
+ 136:
+            foxtra = backup.id;
+ 141:
+            michal['channel_id'] = foxtra;
+            backup = yankee == romeon;
+            foxtra = undefined;
+            if(backup) { _fun00002_ip = 159; continue _fun00001 }
  154:
-            michal['application_name'] = offset;
-            michal['location'] = verify;
-            michal['rating'] = option;
-            michal['feedback'] = golfie;
-            kiloes = michal;
-            backup = oscard;
-            oscard = copyDataProperties(kiloes, backup);
+            foxtra = romeon.id;
+ 159:
+            michal['application_id'] = foxtra;
+            foxtra = yankee == romeon;
+            yankee = undefined;
+            if(foxtra) { _fun00002_ip = 178; continue _fun00001 }
+ 173:
+            yankee = romeon.name;
+ 178:
+            michal['application_name'] = yankee;
+            michal['location'] = offset;
+            michal['rating'] = verify;
+            michal['feedback'] = option;
+            golfie = golfie.kind;
+            michal['embedded_activity_location_kind'] = golfie;
+            output = michal;
+            sizing = oscard;
+            oscard = copyDataProperties(output, sizing);
             michal = tangon.bind(report)(zuuluu, michal);
             return entity;
         }

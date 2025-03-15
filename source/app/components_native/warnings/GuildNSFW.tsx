@@ -73,11 +73,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         oscard = option.bind(verify)(oscard, report);
-        report = 5;
-        report = golfie[report];
-        option = tangon.bind(zuuluu)(report);
-        report = option.useShouldAgeVerifyForAgeGate;
-        report = report.bind(option)();
+        option = 5;
+        report = golfie[option];
+        verify = tangon.bind(zuuluu)(report);
+        report = verify.useShouldAgeVerifyForAgeGate;
+        report = report.bind(verify)();
+        option = golfie[option];
+        verify = tangon.bind(zuuluu)(option);
+        option = verify.useAgeGateVerifyContent;
+        option = option.bind(verify)();
+        verify = option.verifyAgreementButtonText;
+        var _closure2_slot1 = verify;
+        option = option.verifyGateDescription;
+        var _closure2_slot2 = option;
         option = function() { // Original name: handleDisagree
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -102,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             }
         };
-        var _closure2_slot1 = option;
+        var _closure2_slot3 = option;
         option = function() { // Original name: handleAgree
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
@@ -116,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             return entity;
         };
-        var _closure2_slot2 = option;
+        var _closure2_slot4 = option;
         offset = _closure1_slot3;
         verify = offset.useCallback;
         option = function() {
@@ -138,13 +146,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         };
         michal = new Array(0);
         michal = verify.bind(offset)(option, michal);
-        var _closure2_slot3 = michal;
+        var _closure2_slot5 = michal;
         michal = 9;
         michal = golfie[michal];
         option = tangon.bind(zuuluu)(michal);
         michal = option.useNsfwSource;
         michal = michal.bind(option)();
-        var _closure2_slot4 = michal;
+        var _closure2_slot6 = michal;
         michal = 10;
         michal = golfie[michal];
         tangon = tangon.bind(zuuluu)(michal);
@@ -178,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.NsfwSpaceWarningModalType;
             oscard = oscard.NSFW_CHANNEL_AGE_VERIFY;
             entity['modalType'] = oscard;
-            oscard = _closure2_slot4;
+            oscard = _closure2_slot6;
             entity['source'] = oscard;
             oscard = 12;
             golfie = offset[oscard];
@@ -191,25 +199,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = golfie.ZmwvDQ;
             golfie = option.bind(yankee)(golfie);
             entity['title'] = golfie;
-            golfie = offset[oscard];
-            golfie = verify.bind(zuuluu)(golfie);
-            yankee = golfie.intl;
-            option = yankee.string;
-            golfie = offset[oscard];
-            golfie = verify.bind(zuuluu)(golfie);
-            golfie = golfie.t;
-            golfie = golfie.NjO/s7;
-            golfie = option.bind(yankee)(golfie);
+            golfie = _closure2_slot2;
             entity['description'] = golfie;
-            golfie = offset[oscard];
-            golfie = verify.bind(zuuluu)(golfie);
-            yankee = golfie.intl;
-            option = yankee.string;
-            golfie = offset[oscard];
-            golfie = verify.bind(zuuluu)(golfie);
-            golfie = golfie.t;
-            golfie = golfie.SFWVER;
-            golfie = option.bind(yankee)(golfie);
+            golfie = _closure2_slot1;
             entity['agreement'] = golfie;
             golfie = offset[oscard];
             golfie = verify.bind(zuuluu)(golfie);
@@ -218,12 +210,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = offset[oscard];
             oscard = verify.bind(zuuluu)(oscard);
             oscard = oscard.t;
-            oscard = oscard.f3Pet7;
+            oscard = oscard./g10LC;
             oscard = golfie.bind(option)(oscard);
             entity['disagreement'] = oscard;
-            oscard = _closure2_slot3;
+            oscard = _closure2_slot5;
             entity['onAgree'] = oscard;
-            report = _closure2_slot1;
+            report = _closure2_slot3;
             entity['onDisagree'] = report;
             entity = tangon.bind(zuuluu)(michal, entity);
             return entity;
@@ -295,10 +287,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = offset[oscard];
             oscard = verify.bind(zuuluu)(oscard);
             oscard = oscard.t;
-            oscard = oscard.13/7kZ;
+            oscard = oscard./g10LC;
             oscard = golfie.bind(option)(oscard);
             entity['disagreement'] = oscard;
-            report = _closure2_slot1;
+            report = _closure2_slot3;
             entity['onDisagree'] = report;
             entity = tangon.bind(zuuluu)(michal, entity);
             return entity;
@@ -326,7 +318,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.NsfwSpaceWarningModalType;
             oscard = oscard.NSFW_CHANNEL_VERIFIED;
             entity['modalType'] = oscard;
-            oscard = _closure2_slot4;
+            oscard = _closure2_slot6;
             entity['source'] = oscard;
             oscard = 12;
             golfie = offset[oscard];
@@ -368,12 +360,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = offset[oscard];
             oscard = verify.bind(zuuluu)(oscard);
             oscard = oscard.t;
-            oscard = oscard.hg1uxs;
+            oscard = oscard./g10LC;
             oscard = golfie.bind(option)(oscard);
             entity['disagreement'] = oscard;
-            oscard = _closure2_slot2;
+            oscard = _closure2_slot4;
             entity['onAgree'] = oscard;
-            report = _closure2_slot1;
+            report = _closure2_slot3;
             entity['onDisagree'] = report;
             entity = tangon.bind(zuuluu)(michal, entity);
             return entity;

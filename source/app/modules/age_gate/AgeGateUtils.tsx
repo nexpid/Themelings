@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie = golfie.EXPLICIT;
     tangon[1] = golfie;
     var _closure1_slot5 = tangon;
-    tangon = 5;
+    tangon = 6;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     zuuluu['shouldAgeVerifyForAgeGate'] = tangon;
-    michal = function() { // Original name: useShouldAgeVerifyForAgeGate
+    tangon = function() { // Original name: useShouldAgeVerifyForAgeGate
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tangon = _closure1_slot0;
@@ -139,6 +139,66 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['useShouldAgeVerifyForAgeGate'] = michal;
+    zuuluu['useShouldAgeVerifyForAgeGate'] = tangon;
+    michal = function() { // Original name: useAgeGateVerifyContent
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+ 0:
+            michal = _closure1_slot0;
+            tangon = _closure1_slot2;
+            entity = 4;
+            entity = tangon[entity];
+            golfie = undefined;
+            michal = michal.bind(golfie)(entity);
+            entity = michal.useIsAgeVerified;
+            entity = entity.bind(michal)();
+            michal = {};
+            tangon = _closure1_slot0;
+            option = _closure1_slot2;
+            zuuluu = 5;
+            report = option[zuuluu];
+            report = tangon.bind(golfie)(report);
+            verify = report.intl;
+            oscard = verify.string;
+            report = option[zuuluu];
+            report = tangon.bind(golfie)(report);
+            report = report.t;
+            if(entity) { _fun00008_ip = 158; continue _fun00007 }
+ 84:
+            entity = report.SFWVER;
+            entity = oscard.bind(verify)(entity);
+            michal['verifyAgreementButtonText'] = entity;
+            entity = option[zuuluu];
+            entity = tangon.bind(golfie)(entity);
+            yankee = entity.intl;
+            offset = yankee.string;
+            entity = option[zuuluu];
+            entity = tangon.bind(golfie)(entity);
+            entity = entity.t;
+            entity = entity.NjO/s7;
+            entity = offset.bind(yankee)(entity);
+            michal['verifyGateDescription'] = entity;
+            entity = michal;
+            _fun00008_ip = 233; continue _fun00007;
+ 158:
+            report = report.2L5V8/;
+            report = oscard.bind(verify)(report);
+            michal['verifyAgreementButtonText'] = report;
+            report = option[zuuluu];
+            report = tangon.bind(golfie)(report);
+            oscard = report.intl;
+            report = oscard.format;
+            zuuluu = option[zuuluu];
+            zuuluu = tangon.bind(golfie)(zuuluu);
+            zuuluu = zuuluu.t;
+            tangon = zuuluu.ECL1eX;
+            zuuluu = {};
+            zuuluu = report.bind(oscard)(tangon, zuuluu);
+            michal['verifyGateDescription'] = zuuluu;
+            entity = michal;
+ 233:
+            return entity;
+        }
+    };
+    zuuluu['useAgeGateVerifyContent'] = michal;
     return entity;
 })();

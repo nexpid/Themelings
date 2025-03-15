@@ -924,7 +924,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = 2;
     golfie = verify[golfie];
     golfie = option.bind(entity)(golfie);
-    golfie = golfie.getBadgeAsset;
+    golfie = golfie.getBadgeAssetFromCDN;
     var _closure1_slot7 = golfie;
     golfie = 3;
     golfie = verify[golfie];

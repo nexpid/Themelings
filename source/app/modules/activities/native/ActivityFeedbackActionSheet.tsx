@@ -62,17 +62,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot0 = kiloes;
             michal = entity.channel;
             var _closure2_slot1 = michal;
+            michal = entity.embeddedActivityLocation;
+            var _closure2_slot2 = michal;
             entity = entity.analyticsData;
-            var _closure2_slot2 = entity;
+            var _closure2_slot3 = entity;
             michal = kiloes.embeddedActivityConfig;
             entity = null;
             zuuluu = entity == michal;
             tangon = undefined;
             entity = undefined;
-            if(zuuluu) { _fun00002_ip = 59; continue _fun00001 }
- 53:
+            if(zuuluu) { _fun00002_ip = 69; continue _fun00001 }
+ 63:
             entity = michal.displays_advertisements;
- 59:
+ 69:
             michal = _closure1_slot1;
             romeon = _closure1_slot2;
             zuuluu = 7;
@@ -206,7 +208,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = entity.POST_ACTIVITY_FEEDBACK;
                     entity = michal.bind(zuuluu)(entity);
  193:
-                    if(!(oscard != tangon)) { _fun00004_ip = 326; continue _fun00003 }
+                    if(!(oscard != tangon)) { _fun00004_ip = 335; continue _fun00003 }
  200:
                     verify = _closure1_slot0;
                     option = _closure1_slot2;
@@ -224,22 +226,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['problem'] = report;
                     option = _closure2_slot1;
                     entity['channel'] = option;
+                    option = _closure2_slot2;
+                    entity['embeddedActivityLocation'] = option;
                     option = oscard != golfie;
                     oscard = '';
-                    if(!option) { _fun00004_ip = 283; continue _fun00003 }
- 280:
+                    if(!option) { _fun00004_ip = 292; continue _fun00003 }
+ 289:
                     oscard = golfie;
- 283:
+ 292:
                     entity['feedback'] = oscard;
                     oscard = _closure2_slot0;
                     entity['activityApplication'] = oscard;
-                    report = _closure2_slot2;
+                    report = _closure2_slot3;
                     entity['analyticsData'] = report;
                     report = 'Activity End';
                     entity['location'] = report;
                     entity['rating'] = tangon;
                     entity = michal.bind(zuuluu)(entity);
- 326:
+ 335:
                     entity = undefined;
                     return entity;
                 }

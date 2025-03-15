@@ -78,27 +78,6 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
             return entity;
         };
         zuuluu['isGestureNavigationEnabled'] = report;
-        report = function() { // Original name: isTaskBarEnabled
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
- 0:
-                michal = _closure1_slot3;
-                entity = null;
-                tangon = entity == michal;
-                michal = undefined;
-                if(tangon) { _fun00004_ip = 28; continue _fun00003 }
- 18:
-                zuuluu = _closure1_slot3;
-                michal = zuuluu.isTaskBarEnabled;
- 28:
-                entity = entity != michal;
-                if(!entity) { _fun00004_ip = 38; continue _fun00003 }
- 35:
-                entity = michal;
- 38:
-                return entity;
-            }
-        };
-        zuuluu['isTaskBarEnabled'] = report;
         report = function() { // Original name: getSystemVersion
             entity = _closure1_slot3;
             entity = entity.systemVersion;
@@ -107,7 +86,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
         zuuluu['getSystemVersion'] = report;
         zuuluu['getDevice'] = tangon;
         tangon = function() { // Original name: getDeviceInfo
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 zuuluu = _closure1_slot0;
                 tangon = _closure1_slot2;
@@ -119,10 +98,10 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
                 entity = entity.bind(zuuluu)();
                 zuuluu = _closure1_slot6;
                 tangon = zuuluu.bind(tangon)();
-                if(entity) { _fun00006_ip = 50; continue _fun00005 }
+                if(entity) { _fun00004_ip = 50; continue _fun00003 }
  45:
                 entity = tangon;
-                _fun00006_ip = 82; continue _fun00005;
+                _fun00004_ip = 82; continue _fun00003;
  50:
                 zuuluu = ' (';
                 zuuluu = tangon + zuuluu;
@@ -137,7 +116,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
         };
         zuuluu['getDeviceInfo'] = tangon;
         tangon = function() { // Original name: getDeviceMediaPerformanceClass
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 zuuluu = _closure1_slot0;
                 tangon = _closure1_slot2;
@@ -149,11 +128,11 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
                 zuuluu = entity.bind(zuuluu)();
                 oscard = null;
                 entity = null;
-                if(!zuuluu) { _fun00008_ip = 185; continue _fun00007 }
+                if(!zuuluu) { _fun00006_ip = 185; continue _fun00005 }
  44:
                 zuuluu = _closure1_slot4;
                 zuuluu = oscard == zuuluu;
-                if(!zuuluu) { _fun00008_ip = 103; continue _fun00007 }
+                if(!zuuluu) { _fun00006_ip = 103; continue _fun00005 }
  55:
                 golfie = _closure1_slot0;
                 option = _closure1_slot2;
@@ -167,7 +146,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
                 _closure1_slot4 = tangon;
                 zuuluu = oscard == tangon;
  103:
-                if(!zuuluu) { _fun00008_ip = 181; continue _fun00007 }
+                if(!zuuluu) { _fun00006_ip = 181; continue _fun00005 }
  106:
                 tangon = _closure1_slot1;
                 oscard = _closure1_slot2;
@@ -230,14 +209,14 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
         };
         zuuluu['getSocName'] = tangon;
         tangon = function() { // Original name: getRamSize
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 entity = _closure1_slot3;
                 tangon = entity.ramSize;
                 zuuluu = undefined;
                 michal = '';
                 entity = undefined;
-                if(!(michal !== tangon)) { _fun00010_ip = 38; continue _fun00009 }
+                if(!(michal !== tangon)) { _fun00008_ip = 38; continue _fun00007 }
  25:
                 michal = global;
                 michal = michal.parseFloat;
@@ -248,14 +227,14 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
         };
         zuuluu['getRamSize'] = tangon;
         tangon = function() { // Original name: getMaxCpuFreq
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 entity = _closure1_slot3;
                 tangon = entity.maxCpuFreq;
                 zuuluu = undefined;
                 michal = '';
                 entity = undefined;
-                if(!(michal !== tangon)) { _fun00012_ip = 38; continue _fun00011 }
+                if(!(michal !== tangon)) { _fun00010_ip = 38; continue _fun00009 }
  25:
                 michal = global;
                 michal = michal.parseFloat;

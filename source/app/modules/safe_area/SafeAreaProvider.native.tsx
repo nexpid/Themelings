@@ -96,13 +96,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = argFoo;
                     report = entity.nativeEvent;
                     var _closure3_slot0 = report;
-                    zuuluu = report.imeInsetsBottom;
-                    entity = null;
-                    if(!(entity == zuuluu)) { _fun00004_ip = 34; continue _fun00003 }
- 26:
-                    entity = 0;
-                    report['imeInsetsBottom'] = entity;
- 34:
                     oscard = _closure1_slot1;
                     tangon = _closure1_slot2;
                     entity = 7;
@@ -115,32 +108,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = oscard.bottom;
                     tangon = report.bottom;
                     tangon = golfie === tangon;
-                    if(!tangon) { _fun00004_ip = 106; continue _fun00003 }
- 92:
+                    if(!tangon) { _fun00004_ip = 86; continue _fun00003 }
+ 72:
                     option = oscard.top;
                     golfie = report.top;
                     tangon = option === golfie;
- 106:
-                    if(!tangon) { _fun00004_ip = 123; continue _fun00003 }
- 109:
+ 86:
+                    if(!tangon) { _fun00004_ip = 103; continue _fun00003 }
+ 89:
                     option = oscard.left;
                     golfie = report.left;
                     tangon = option === golfie;
- 123:
-                    if(!tangon) { _fun00004_ip = 140; continue _fun00003 }
- 126:
-                    option = oscard.right;
-                    golfie = report.right;
-                    tangon = option === golfie;
- 140:
-                    if(!tangon) { _fun00004_ip = 159; continue _fun00003 }
- 143:
-                    oscard = oscard.imeInsetsBottom;
-                    report = report.imeInsetsBottom;
+ 103:
+                    if(!tangon) { _fun00004_ip = 120; continue _fun00003 }
+ 106:
+                    oscard = oscard.right;
+                    report = report.right;
                     tangon = oscard === report;
- 159:
-                    if(tangon) { _fun00004_ip = 200; continue _fun00003 }
- 162:
+ 120:
+                    if(tangon) { _fun00004_ip = 161; continue _fun00003 }
+ 123:
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
                     zuuluu = 8;
@@ -165,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     michal = zuuluu.bind(tangon)(michal);
- 200:
+ 161:
                     return entity;
                 }
             };
