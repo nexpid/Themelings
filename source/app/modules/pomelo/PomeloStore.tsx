@@ -444,15 +444,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = entity == report;
             entity = undefined;
             tangon = undefined;
-            if(oscard) { _fun00014_ip = 71; continue _fun00013 }
- 63:
+            if(oscard) { _fun00014_ip = 67; continue _fun00013 }
+ 59:
             tangon = report.invalid_current_username;
+ 67:
+            if(!(zuuluu === tangon)) { _fun00014_ip = 81; continue _fun00013 }
  71:
-            if(!(zuuluu === tangon)) { _fun00014_ip = 85; continue _fun00013 }
- 75:
             michal = _closure1_slot8;
             michal['currentUsernameInvalid'] = zuuluu;
- 85:
+ 81:
             return entity;
         }
     };

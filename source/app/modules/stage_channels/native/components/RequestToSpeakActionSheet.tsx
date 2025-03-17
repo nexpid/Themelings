@@ -75,15 +75,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes[echoed];
             kiloes = sizing.bind(tangon)(kiloes);
             sizing = kiloes.t;
-            if(romeon) { _fun00002_ip = 323; continue _fun00001 }
- 308:
+            if(romeon) { _fun00002_ip = 319; continue _fun00001 }
+ 304:
             kiloes = sizing.laPwJS;
             kiloes = output.bind(result)(kiloes);
-            _fun00002_ip = 336; continue _fun00001;
- 323:
+            _fun00002_ip = 332; continue _fun00001;
+ 319:
             sizing = sizing.JcFI/f;
             kiloes = output.bind(result)(sizing);
- 336:
+ 332:
             offset['children'] = kiloes;
             offset = backup.bind(tangon)(foxtra, offset);
             option[1] = offset;

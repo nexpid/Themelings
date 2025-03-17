@@ -65,7 +65,7 @@
 { "file": "app/modules/gateway/PrivateChannelHidingExperiment.tsx", "size": 2340 }
 { "file": "app/modules/experiments/index.tsx", "size": 765 }
 { "file": "app/modules/experiments/createExperiment.tsx", "size": 34860 }
-{ "file": "app/stores/AuthenticationStore.tsx", "size": 58025 }
+{ "file": "app/stores/AuthenticationStore.tsx", "size": 58064 }
 { "file": "app/stores/BrowserHandoffStore.native.tsx", "size": 6340 }
 { "file": "app/Dispatcher.tsx", "size": 2790 }
 { "file": "app/modules/devtools/Constants.tsx", "size": 967 }
@@ -113,7 +113,7 @@
 { "file": "app/modules/user_settings/UserSettingDefinitions.tsx", "size": 16653 }
 { "file": "app/modules/user_settings/SelectivelySyncedUserSettingsStore.tsx", "size": 16139 }
 { "file": "app/utils/Uint8ArrayUtils.tsx", "size": 4992 }
-{ "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/dismissible_content.tsx", "size": 58905 }
+{ "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/dismissible_content.tsx", "size": 59066 }
 { "file": "app/modules/user_settings/FriendRequestDefaultEveryoneOff.tsx", "size": 6590 }
 { "file": "app/modules/main_tabs_v2/ChannelListLayoutTypes.tsx", "size": 1211 }
 { "file": "app/modules/user_settings/DefaultGuildActivityExperiment.tsx", "size": 4015 }
@@ -570,7 +570,7 @@
 { "file": "discord_common/js/packages/media-engine/webrtc/Output.tsx", "size": 25503 }
 { "file": "discord_common/js/packages/media-engine/webrtc/UnifiedConnection.tsx", "size": 115383 }
 { "file": "discord_common/js/packages/media-engine/webrtc/LevelProcessor.worklet.tsx", "size": 22287 }
-{ "file": "discord_common/js/packages/media-engine/webrtc/DesktopInput.tsx", "size": 12525 }
+{ "file": "discord_common/js/packages/media-engine/webrtc/DesktopInput.tsx", "size": 12524 }
 { "file": "discord_common/js/packages/media-engine/webrtc/Loopback.tsx", "size": 24443 }
 { "file": "discord_common/js/packages/media-engine/MediaEngineDummy.tsx", "size": 32243 }
 { "file": "discord_common/js/packages/media-engine/MediaEngineEvent.tsx", "size": 2428 }
@@ -2210,7 +2210,7 @@
 { "file": "app/design/components/SegmentedControl/native/SegmentedControl.native.tsx", "size": 39919 }
 { "file": "app/design/components/SegmentedControl/native/SegmentedControlItem.native.tsx", "size": 10440 }
 { "file": "app/modules/reanimated/native/useStateFromSharedValue.tsx", "size": 20015 }
-{ "file": "app/modules/guild_scheduled_events/native/components/event_detail/EventDetailInfoSheet.tsx", "size": 27182 }
+{ "file": "app/modules/guild_scheduled_events/native/components/event_detail/EventDetailInfoSheet.tsx", "size": 27181 }
 { "file": "app/uikit-native/experimental/RoleDot.tsx", "size": 7980 }
 { "file": "app/modules/guild_scheduled_events/native/components/GuildEventRecurrences.tsx", "size": 8391 }
 { "file": "app/modules/guild_scheduled_events/useGuildEventRecurrences.tsx", "size": 15262 }

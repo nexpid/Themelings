@@ -1530,6 +1530,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['COLLECTIBLES_NAMEPLATE_SHOP_COACHMARK'] = michal;
     entity = 'COLLECTIBLES_NAMEPLATE_SHOP_COACHMARK';
     tangon[michal] = entity;
+    michal = 520;
+    tangon['PERMADECOS_NITRO_HOME_CARD_NEW_BADGE'] = michal;
+    entity = 'PERMADECOS_NITRO_HOME_CARD_NEW_BADGE';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

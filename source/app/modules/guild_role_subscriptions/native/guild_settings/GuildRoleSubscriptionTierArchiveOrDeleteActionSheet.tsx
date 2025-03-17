@@ -169,10 +169,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = source.RED;
             romeon['color'] = source;
             romeon['onPress'] = update;
-            if(result) { _fun00002_ip = 451; continue _fun00001 }
- 448:
+            if(result) { _fun00002_ip = 447; continue _fun00001 }
+ 444:
             result = echoed;
- 451:
+ 447:
             romeon['disabled'] = result;
             romeon = zuuluu.bind(tangon)(foxtra, romeon);
             offset[4] = romeon;
