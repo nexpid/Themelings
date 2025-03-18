@@ -94,9 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = oscard[entity];
             michal = michal.bind(tangon)(entity);
             entity = {};
-            report = report.channel;
-            report = report.guild_id;
-            entity['guildId'] = report;
+            entity['context'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }

@@ -1,12 +1,12 @@
 // app/modules/errors/AVErrorManager.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
+    oscard = argBar;
+    option = argBaz;
     zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = option;
+    var _closure1_slot2 = golfie;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -297,177 +297,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             report = argFoo;
+            michal = _closure1_slot24;
+            entity = michal.get;
+            zuuluu = entity.bind(michal)(report);
+            entity = null;
+            entity = entity == zuuluu;
+            tangon = undefined;
+            if(entity) { _fun00014_ip = 45; continue _fun00013 }
+ 31:
+            michal = zuuluu.makeErrorContextKey;
             entity = argBar;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            golfie = 20;
-            zuuluu = zuuluu[golfie];
-            oscard = undefined;
-            zuuluu = tangon.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.AVError;
-            zuuluu = zuuluu.STREAM_FAILED_TO_START;
-            if(!(zuuluu !== report)) { _fun00014_ip = 701; continue _fun00013 }
- 50:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[golfie];
-            zuuluu = tangon.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.AVError;
-            zuuluu = zuuluu.NO_INPUT_DEVICES;
-            if(!(zuuluu !== report)) { _fun00014_ip = 671; continue _fun00013 }
- 86:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[golfie];
-            zuuluu = tangon.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.AVError;
-            zuuluu = zuuluu.NO_AUDIO_INPUT_DETECTED;
-            if(!(zuuluu !== report)) { _fun00014_ip = 671; continue _fun00013 }
- 122:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[golfie];
-            zuuluu = tangon.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.AVError;
-            zuuluu = zuuluu.DEBUG_LOG_UPLOAD_FAILED;
-            option = '';
-            tangon = option;
-            if(!(zuuluu !== report)) { _fun00014_ip = 741; continue _fun00013 }
- 165:
-            verify = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[golfie];
-            zuuluu = verify.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.AVError;
-            zuuluu = zuuluu.STREAM_VIEW_LOW_FPS;
-            if(!(zuuluu !== report)) { _fun00014_ip = 633; continue _fun00013 }
- 201:
-            verify = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[golfie];
-            zuuluu = verify.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.AVError;
-            zuuluu = zuuluu.STREAM_VIEW_HIGH_PACKET_LOSS;
-            if(!(zuuluu !== report)) { _fun00014_ip = 633; continue _fun00013 }
- 237:
-            verify = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[golfie];
-            zuuluu = verify.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.AVError;
-            zuuluu = zuuluu.STREAM_SEND_LOW_FPS;
-            if(!(zuuluu !== report)) { _fun00014_ip = 633; continue _fun00013 }
- 273:
-            verify = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[golfie];
-            zuuluu = verify.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.AVError;
-            zuuluu = zuuluu.STREAM_SEND_HIGH_PACKET_LOSS;
-            if(!(zuuluu !== report)) { _fun00014_ip = 633; continue _fun00013 }
- 309:
-            verify = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[golfie];
-            zuuluu = verify.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.AVError;
-            zuuluu = zuuluu.STREAM_BAD_NETWORK_QUALITY;
-            if(!(zuuluu !== report)) { _fun00014_ip = 633; continue _fun00013 }
- 345:
-            verify = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[golfie];
-            zuuluu = verify.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.AVError;
-            zuuluu = zuuluu.STREAM_SOUNDSHARE_FAILED;
-            if(!(zuuluu !== report)) { _fun00014_ip = 633; continue _fun00013 }
- 381:
-            verify = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[golfie];
-            zuuluu = verify.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.AVError;
-            zuuluu = zuuluu.NOISE_CANCELLER_ERROR;
-            if(!(zuuluu !== report)) { _fun00014_ip = 607; continue _fun00013 }
- 417:
-            verify = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[golfie];
-            zuuluu = verify.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.AVError;
-            zuuluu = zuuluu.SCREENSHARE_OS_NOT_SUPPORTED;
-            if(!(zuuluu !== report)) { _fun00014_ip = 607; continue _fun00013 }
- 453:
-            verify = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[golfie];
-            zuuluu = verify.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.AVError;
-            zuuluu = zuuluu.STREAM_RECONNECTING;
-            if(!(zuuluu !== report)) { _fun00014_ip = 566; continue _fun00013 }
- 486:
-            verify = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[golfie];
-            zuuluu = verify.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.AVError;
-            zuuluu = zuuluu.VIDEO_ENCODE_ERROR;
-            if(!(zuuluu !== report)) { _fun00014_ip = 558; continue _fun00013 }
- 519:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[golfie];
-            michal = zuuluu.bind(oscard)(michal);
-            michal = michal.AVError;
-            michal = michal.VIDEO_DECODE_ERROR;
-            tangon = report;
-            if(!(michal === tangon)) { _fun00014_ip = 741; continue _fun00013 }
- 558:
-            tangon = option;
-            _fun00014_ip = 741; continue _fun00013;
- 566:
-            golfie = entity.streamKey;
-            oscard = entity.mediaSessionId;
-            michal = global;
-            michal = michal.HermesInternal;
-            zuuluu = michal.concat;
-            michal = ':';
-            tangon = zuuluu.bind(option)(golfie, michal, oscard);
-            _fun00014_ip = 741; continue _fun00013;
- 607:
-            zuuluu = entity.mediaSessionId;
-            michal = global;
-            michal = michal.HermesInternal;
-            michal = michal.concat;
-            tangon = michal.bind(option)(zuuluu);
-            _fun00014_ip = 741; continue _fun00013;
- 633:
-            golfie = entity.streamKey;
-            oscard = entity.mediaSessionId;
-            michal = global;
-            michal = michal.HermesInternal;
-            zuuluu = michal.concat;
-            michal = ':';
-            tangon = zuuluu.bind(option)(golfie, michal, oscard);
-            _fun00014_ip = 741; continue _fun00013;
- 671:
-            oscard = entity.mediaSessionId;
-            michal = global;
-            michal = michal.HermesInternal;
-            zuuluu = michal.concat;
-            michal = '';
-            tangon = zuuluu.bind(michal)(oscard);
-            _fun00014_ip = 741; continue _fun00013;
- 701:
-            golfie = entity.streamKey;
-            oscard = entity.mediaSessionId;
-            entity = global;
-            entity = entity.HermesInternal;
-            zuuluu = entity.concat;
-            michal = '';
-            entity = ':';
-            tangon = zuuluu.bind(michal)(golfie, entity, oscard);
- 741:
+            tangon = michal.bind(zuuluu)(entity);
+ 45:
             entity = global;
             entity = entity.HermesInternal;
             zuuluu = entity.concat;
@@ -503,7 +344,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot31 = entity;
-    entity = function(argFoo) { // Original name: getStreamContext
+    michal = function(argFoo) { // Original name: getStreamContext
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             tangon = argFoo;
@@ -530,20 +371,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = option.bind(golfie)();
  86:
             entity['mediaSessionId'] = oscard;
-            option = report == golfie;
-            oscard = undefined;
-            if(option) { _fun00016_ip = 106; continue _fun00015 }
- 100:
-            oscard = golfie.parentMediaSessionId;
- 106:
-            entity['parentMediaSessionId'] = oscard;
             oscard = report == golfie;
             report = undefined;
-            if(oscard) { _fun00016_ip = 130; continue _fun00015 }
- 120:
+            if(oscard) { _fun00016_ip = 110; continue _fun00015 }
+ 100:
             oscard = golfie.getRTCConnectionId;
             report = oscard.bind(golfie)();
- 130:
+ 110:
             entity['rtcConnectionId'] = report;
             report = _closure1_slot22;
             report = report.STREAM;
@@ -556,7 +390,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot32 = entity;
+    var _closure1_slot32 = michal;
     entity = function() { // Original name: getCommonContext
         _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
@@ -608,115 +442,115 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     var _closure1_slot33 = entity;
-    tangon = global;
-    offset = tangon.Object;
-    verify = offset.defineProperty;
-    option = {};
+    report = global;
+    yankee = report.Object;
+    offset = yankee.defineProperty;
+    verify = {};
     entity = true;
-    option['value'] = entity;
+    verify['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, option);
+    entity = offset.bind(yankee)(zuuluu, entity, verify);
     entity = 0;
-    option = oscard[entity];
+    verify = golfie[entity];
     entity = undefined;
-    option = golfie.bind(entity)(option);
-    var _closure1_slot3 = option;
-    option = 1;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot4 = option;
-    option = 2;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot5 = option;
-    option = 3;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot6 = option;
-    option = 4;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot7 = option;
-    option = 5;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot8 = option;
-    option = 6;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot9 = option;
-    option = 7;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot10 = option;
-    option = 8;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot11 = option;
-    option = 9;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot12 = option;
-    option = 10;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot13 = option;
-    option = 11;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot14 = option;
-    option = 12;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot15 = option;
-    option = 13;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot16 = option;
-    option = 14;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot17 = option;
-    option = 15;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot18 = option;
-    option = 16;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot19 = option;
-    option = 17;
-    option = oscard[option];
-    option = report.bind(entity)(option);
-    verify = option.ApplicationStreamStates;
-    var _closure1_slot20 = verify;
-    option = option.MediaEngineHookTypes;
-    var _closure1_slot21 = option;
-    option = 18;
-    option = oscard[option];
-    option = report.bind(entity)(option);
-    option = option.MediaEngineContextTypes;
-    var _closure1_slot22 = option;
-    option = 19;
-    option = oscard[option];
-    offset = golfie.bind(entity)(option);
-    option = offset.prototype;
-    verify = Object.create(option, {constructor: {value: offset}});
-    kiloes = 'AVErrorManager';
-    sizing = verify;
-    option = new sizing[offset](kiloes, backup);
-    option = option instanceof Object ? option : verify;
-    var _closure1_slot23 = option;
-    verify = tangon.Map;
-    option = 20;
-    tangon = oscard[option];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.AVError;
-    tangon = tangon.NO_AUDIO_INPUT_DETECTED;
-    offset = new Array(2);
-    offset[0] = tangon;
-    tangon = {};
-    yankee = function(argFoo) { // Original name: getActiveErrors
+    verify = option.bind(entity)(verify);
+    var _closure1_slot3 = verify;
+    verify = 1;
+    verify = golfie[verify];
+    verify = option.bind(entity)(verify);
+    var _closure1_slot4 = verify;
+    verify = 2;
+    verify = golfie[verify];
+    verify = option.bind(entity)(verify);
+    var _closure1_slot5 = verify;
+    verify = 3;
+    verify = golfie[verify];
+    verify = option.bind(entity)(verify);
+    var _closure1_slot6 = verify;
+    verify = 4;
+    verify = golfie[verify];
+    verify = option.bind(entity)(verify);
+    var _closure1_slot7 = verify;
+    verify = 5;
+    verify = golfie[verify];
+    verify = option.bind(entity)(verify);
+    var _closure1_slot8 = verify;
+    verify = 6;
+    verify = golfie[verify];
+    verify = option.bind(entity)(verify);
+    var _closure1_slot9 = verify;
+    verify = 7;
+    verify = golfie[verify];
+    verify = option.bind(entity)(verify);
+    var _closure1_slot10 = verify;
+    verify = 8;
+    verify = golfie[verify];
+    verify = option.bind(entity)(verify);
+    var _closure1_slot11 = verify;
+    verify = 9;
+    verify = golfie[verify];
+    verify = option.bind(entity)(verify);
+    var _closure1_slot12 = verify;
+    verify = 10;
+    verify = golfie[verify];
+    verify = option.bind(entity)(verify);
+    var _closure1_slot13 = verify;
+    verify = 11;
+    verify = golfie[verify];
+    verify = option.bind(entity)(verify);
+    var _closure1_slot14 = verify;
+    verify = 12;
+    verify = golfie[verify];
+    verify = option.bind(entity)(verify);
+    var _closure1_slot15 = verify;
+    verify = 13;
+    verify = golfie[verify];
+    verify = option.bind(entity)(verify);
+    var _closure1_slot16 = verify;
+    verify = 14;
+    verify = golfie[verify];
+    verify = option.bind(entity)(verify);
+    var _closure1_slot17 = verify;
+    verify = 15;
+    verify = golfie[verify];
+    verify = option.bind(entity)(verify);
+    var _closure1_slot18 = verify;
+    verify = 16;
+    verify = golfie[verify];
+    verify = option.bind(entity)(verify);
+    var _closure1_slot19 = verify;
+    verify = 17;
+    verify = golfie[verify];
+    verify = oscard.bind(entity)(verify);
+    offset = verify.ApplicationStreamStates;
+    var _closure1_slot20 = offset;
+    verify = verify.MediaEngineHookTypes;
+    var _closure1_slot21 = verify;
+    verify = 18;
+    verify = golfie[verify];
+    verify = oscard.bind(entity)(verify);
+    verify = verify.MediaEngineContextTypes;
+    var _closure1_slot22 = verify;
+    verify = 19;
+    verify = golfie[verify];
+    yankee = option.bind(entity)(verify);
+    verify = yankee.prototype;
+    offset = Object.create(verify, {constructor: {value: yankee}});
+    sizing = 'AVErrorManager';
+    output = offset;
+    verify = new output[yankee](sizing, kiloes);
+    verify = verify instanceof Object ? verify : offset;
+    var _closure1_slot23 = verify;
+    offset = report.Map;
+    verify = 20;
+    report = golfie[verify];
+    report = oscard.bind(entity)(report);
+    report = report.AVError;
+    report = report.NO_AUDIO_INPUT_DETECTED;
+    yankee = new Array(2);
+    yankee[0] = report;
+    report = {};
+    romeon = function(argFoo) { // Original name: getActiveErrors
         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             entity = argFoo;
@@ -768,18 +602,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    tangon['getActiveErrors'] = yankee;
-    offset[1] = tangon;
-    tangon = new Array(10);
-    tangon[0] = offset;
-    offset = oscard[option];
-    offset = report.bind(entity)(offset);
-    offset = offset.AVError;
-    yankee = offset.NO_INPUT_DEVICES;
-    offset = new Array(2);
-    offset[0] = yankee;
-    yankee = {};
-    romeon = function(argFoo) { // Original name: getActiveErrors
+    report['getActiveErrors'] = romeon;
+    romeon = function(argFoo) { // Original name: makeErrorContextKey
+        entity = argFoo;
+        zuuluu = entity.mediaSessionId;
+        entity = global;
+        entity = entity.HermesInternal;
+        michal = entity.concat;
+        entity = '';
+        entity = michal.bind(entity)(zuuluu);
+        return entity;
+    };
+    report['makeErrorContextKey'] = romeon;
+    yankee[1] = report;
+    report = new Array(10);
+    report[0] = yankee;
+    yankee = golfie[verify];
+    yankee = oscard.bind(entity)(yankee);
+    yankee = yankee.AVError;
+    romeon = yankee.NO_INPUT_DEVICES;
+    yankee = new Array(2);
+    yankee[0] = romeon;
+    romeon = {};
+    foxtra = function(argFoo) { // Original name: getActiveErrors
         _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
             entity = argFoo;
@@ -836,17 +681,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    yankee['getActiveErrors'] = romeon;
-    offset[1] = yankee;
-    tangon[1] = offset;
-    offset = oscard[option];
-    offset = report.bind(entity)(offset);
-    offset = offset.AVError;
-    yankee = offset.STREAM_VIEW_LOW_FPS;
-    offset = new Array(2);
-    offset[0] = yankee;
-    yankee = {};
-    romeon = function(argFoo) { // Original name: getActiveErrors
+    romeon['getActiveErrors'] = foxtra;
+    foxtra = function(argFoo) { // Original name: makeErrorContextKey
+        entity = argFoo;
+        zuuluu = entity.mediaSessionId;
+        entity = global;
+        entity = entity.HermesInternal;
+        michal = entity.concat;
+        entity = '';
+        entity = michal.bind(entity)(zuuluu);
+        return entity;
+    };
+    romeon['makeErrorContextKey'] = foxtra;
+    yankee[1] = romeon;
+    report[1] = yankee;
+    yankee = golfie[verify];
+    yankee = oscard.bind(entity)(yankee);
+    yankee = yankee.AVError;
+    romeon = yankee.STREAM_VIEW_LOW_FPS;
+    yankee = new Array(2);
+    yankee[0] = romeon;
+    romeon = {};
+    foxtra = function(argFoo) { // Original name: getActiveErrors
         _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
             entity = argFoo;
@@ -886,17 +742,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    yankee['getActiveErrors'] = romeon;
-    offset[1] = yankee;
-    tangon[2] = offset;
-    offset = oscard[option];
-    offset = report.bind(entity)(offset);
-    offset = offset.AVError;
-    yankee = offset.STREAM_VIEW_HIGH_PACKET_LOSS;
-    offset = new Array(2);
-    offset[0] = yankee;
-    yankee = {};
-    romeon = function(argFoo) { // Original name: getActiveErrors
+    romeon['getActiveErrors'] = foxtra;
+    foxtra = function(argFoo) { // Original name: makeErrorContextKey
+        entity = argFoo;
+        report = entity.streamKey;
+        tangon = entity.mediaSessionId;
+        entity = global;
+        entity = entity.HermesInternal;
+        zuuluu = entity.concat;
+        michal = '';
+        entity = ':';
+        entity = zuuluu.bind(michal)(report, entity, tangon);
+        return entity;
+    };
+    romeon['makeErrorContextKey'] = foxtra;
+    yankee[1] = romeon;
+    report[2] = yankee;
+    yankee = golfie[verify];
+    yankee = oscard.bind(entity)(yankee);
+    yankee = yankee.AVError;
+    romeon = yankee.STREAM_VIEW_HIGH_PACKET_LOSS;
+    yankee = new Array(2);
+    yankee[0] = romeon;
+    romeon = {};
+    foxtra = function(argFoo) { // Original name: getActiveErrors
         _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
             entity = argFoo;
@@ -936,17 +805,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    yankee['getActiveErrors'] = romeon;
-    offset[1] = yankee;
-    tangon[3] = offset;
-    offset = oscard[option];
-    offset = report.bind(entity)(offset);
-    offset = offset.AVError;
-    yankee = offset.STREAM_SEND_HIGH_PACKET_LOSS;
-    offset = new Array(2);
-    offset[0] = yankee;
-    yankee = {};
-    romeon = function(argFoo) { // Original name: getActiveErrors
+    romeon['getActiveErrors'] = foxtra;
+    foxtra = function(argFoo) { // Original name: makeErrorContextKey
+        entity = argFoo;
+        report = entity.streamKey;
+        tangon = entity.mediaSessionId;
+        entity = global;
+        entity = entity.HermesInternal;
+        zuuluu = entity.concat;
+        michal = '';
+        entity = ':';
+        entity = zuuluu.bind(michal)(report, entity, tangon);
+        return entity;
+    };
+    romeon['makeErrorContextKey'] = foxtra;
+    yankee[1] = romeon;
+    report[3] = yankee;
+    yankee = golfie[verify];
+    yankee = oscard.bind(entity)(yankee);
+    yankee = yankee.AVError;
+    romeon = yankee.STREAM_SEND_HIGH_PACKET_LOSS;
+    yankee = new Array(2);
+    yankee[0] = romeon;
+    romeon = {};
+    foxtra = function(argFoo) { // Original name: getActiveErrors
         _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
  0:
             entity = argFoo;
@@ -986,17 +868,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    yankee['getActiveErrors'] = romeon;
-    offset[1] = yankee;
-    tangon[4] = offset;
-    offset = oscard[option];
-    offset = report.bind(entity)(offset);
-    offset = offset.AVError;
-    yankee = offset.STREAM_SEND_LOW_FPS;
-    offset = new Array(2);
-    offset[0] = yankee;
-    yankee = {};
-    romeon = function(argFoo) { // Original name: getActiveErrors
+    romeon['getActiveErrors'] = foxtra;
+    foxtra = function(argFoo) { // Original name: makeErrorContextKey
+        entity = argFoo;
+        report = entity.streamKey;
+        tangon = entity.mediaSessionId;
+        entity = global;
+        entity = entity.HermesInternal;
+        zuuluu = entity.concat;
+        michal = '';
+        entity = ':';
+        entity = zuuluu.bind(michal)(report, entity, tangon);
+        return entity;
+    };
+    romeon['makeErrorContextKey'] = foxtra;
+    yankee[1] = romeon;
+    report[4] = yankee;
+    yankee = golfie[verify];
+    yankee = oscard.bind(entity)(yankee);
+    yankee = yankee.AVError;
+    romeon = yankee.STREAM_SEND_LOW_FPS;
+    yankee = new Array(2);
+    yankee[0] = romeon;
+    romeon = {};
+    foxtra = function(argFoo) { // Original name: getActiveErrors
         _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
  0:
             entity = argFoo;
@@ -1036,17 +931,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    yankee['getActiveErrors'] = romeon;
-    offset[1] = yankee;
-    tangon[5] = offset;
-    offset = oscard[option];
-    offset = report.bind(entity)(offset);
-    offset = offset.AVError;
-    yankee = offset.STREAM_BAD_NETWORK_QUALITY;
-    offset = new Array(2);
-    offset[0] = yankee;
-    yankee = {};
-    romeon = function(argFoo) { // Original name: getActiveErrors
+    romeon['getActiveErrors'] = foxtra;
+    foxtra = function(argFoo) { // Original name: makeErrorContextKey
+        entity = argFoo;
+        report = entity.streamKey;
+        tangon = entity.mediaSessionId;
+        entity = global;
+        entity = entity.HermesInternal;
+        zuuluu = entity.concat;
+        michal = '';
+        entity = ':';
+        entity = zuuluu.bind(michal)(report, entity, tangon);
+        return entity;
+    };
+    romeon['makeErrorContextKey'] = foxtra;
+    yankee[1] = romeon;
+    report[5] = yankee;
+    yankee = golfie[verify];
+    yankee = oscard.bind(entity)(yankee);
+    yankee = yankee.AVError;
+    romeon = yankee.STREAM_BAD_NETWORK_QUALITY;
+    yankee = new Array(2);
+    yankee[0] = romeon;
+    romeon = {};
+    foxtra = function(argFoo) { // Original name: getActiveErrors
         _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
  0:
             entity = argFoo;
@@ -1086,17 +994,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    yankee['getActiveErrors'] = romeon;
-    offset[1] = yankee;
-    tangon[6] = offset;
-    offset = oscard[option];
-    offset = report.bind(entity)(offset);
-    offset = offset.AVError;
-    yankee = offset.STREAM_SOUNDSHARE_FAILED;
-    offset = new Array(2);
-    offset[0] = yankee;
-    yankee = {};
-    romeon = function(argFoo) { // Original name: getActiveErrors
+    romeon['getActiveErrors'] = foxtra;
+    foxtra = function(argFoo) { // Original name: makeErrorContextKey
+        entity = argFoo;
+        report = entity.streamKey;
+        tangon = entity.mediaSessionId;
+        entity = global;
+        entity = entity.HermesInternal;
+        zuuluu = entity.concat;
+        michal = '';
+        entity = ':';
+        entity = zuuluu.bind(michal)(report, entity, tangon);
+        return entity;
+    };
+    romeon['makeErrorContextKey'] = foxtra;
+    yankee[1] = romeon;
+    report[6] = yankee;
+    yankee = golfie[verify];
+    yankee = oscard.bind(entity)(yankee);
+    yankee = yankee.AVError;
+    romeon = yankee.STREAM_SOUNDSHARE_FAILED;
+    yankee = new Array(2);
+    yankee[0] = romeon;
+    romeon = {};
+    foxtra = function(argFoo) { // Original name: getActiveErrors
         _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
  0:
             entity = argFoo;
@@ -1136,17 +1057,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    yankee['getActiveErrors'] = romeon;
-    offset[1] = yankee;
-    tangon[7] = offset;
-    offset = oscard[option];
-    offset = report.bind(entity)(offset);
-    offset = offset.AVError;
-    yankee = offset.STREAM_FAILED_TO_START;
-    offset = new Array(2);
-    offset[0] = yankee;
-    yankee = {};
-    romeon = function(argFoo) { // Original name: getActiveErrors
+    romeon['getActiveErrors'] = foxtra;
+    foxtra = function(argFoo) { // Original name: makeErrorContextKey
+        entity = argFoo;
+        report = entity.streamKey;
+        tangon = entity.mediaSessionId;
+        entity = global;
+        entity = entity.HermesInternal;
+        zuuluu = entity.concat;
+        michal = '';
+        entity = ':';
+        entity = zuuluu.bind(michal)(report, entity, tangon);
+        return entity;
+    };
+    romeon['makeErrorContextKey'] = foxtra;
+    yankee[1] = romeon;
+    report[7] = yankee;
+    yankee = golfie[verify];
+    yankee = oscard.bind(entity)(yankee);
+    yankee = yankee.AVError;
+    romeon = yankee.STREAM_FAILED_TO_START;
+    yankee = new Array(2);
+    yankee[0] = romeon;
+    romeon = {};
+    foxtra = function(argFoo) { // Original name: getActiveErrors
         michal = argFoo;
         tangon = michal.activeStreams;
         zuuluu = tangon.filter;
@@ -1177,17 +1111,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    yankee['getActiveErrors'] = romeon;
-    offset[1] = yankee;
-    tangon[8] = offset;
-    option = oscard[option];
-    option = report.bind(entity)(option);
-    option = option.AVError;
-    offset = option.STREAM_RECONNECTING;
-    option = new Array(2);
-    option[0] = offset;
-    offset = {};
-    yankee = function(argFoo) { // Original name: getActiveErrors
+    romeon['getActiveErrors'] = foxtra;
+    foxtra = function(argFoo) { // Original name: makeErrorContextKey
+        entity = argFoo;
+        report = entity.streamKey;
+        tangon = entity.mediaSessionId;
+        entity = global;
+        entity = entity.HermesInternal;
+        zuuluu = entity.concat;
+        michal = '';
+        entity = ':';
+        entity = zuuluu.bind(michal)(report, entity, tangon);
+        return entity;
+    };
+    romeon['makeErrorContextKey'] = foxtra;
+    yankee[1] = romeon;
+    report[8] = yankee;
+    verify = golfie[verify];
+    verify = oscard.bind(entity)(verify);
+    verify = verify.AVError;
+    yankee = verify.STREAM_RECONNECTING;
+    verify = new Array(2);
+    verify[0] = yankee;
+    yankee = {};
+    romeon = function(argFoo) { // Original name: getActiveErrors
         michal = argFoo;
         tangon = michal.activeStreams;
         zuuluu = tangon.filter;
@@ -1218,20 +1165,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    offset['getActiveErrors'] = yankee;
-    option[1] = offset;
-    tangon[9] = option;
-    option = verify.prototype;
-    option = Object.create(option, {constructor: {value: verify}});
-    sizing = option;
-    kiloes = tangon;
-    tangon = new sizing[verify](kiloes, backup);
-    tangon = tangon instanceof Object ? tangon : option;
-    var _closure1_slot24 = tangon;
-    tangon = 26;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    michal = function(argFoo) {
+    yankee['getActiveErrors'] = romeon;
+    romeon = function(argFoo) { // Original name: makeErrorContextKey
+        entity = argFoo;
+        report = entity.streamKey;
+        tangon = entity.mediaSessionId;
+        entity = global;
+        entity = entity.HermesInternal;
+        zuuluu = entity.concat;
+        michal = '';
+        entity = ':';
+        entity = zuuluu.bind(michal)(report, entity, tangon);
+        return entity;
+    };
+    yankee['makeErrorContextKey'] = romeon;
+    verify[1] = yankee;
+    report[9] = verify;
+    verify = offset.prototype;
+    verify = Object.create(verify, {constructor: {value: offset}});
+    output = verify;
+    sizing = report;
+    report = new output[offset](sizing, kiloes);
+    report = report instanceof Object ? report : verify;
+    var _closure1_slot24 = report;
+    report = 26;
+    report = golfie[report];
+    report = option.bind(entity)(report);
+    tangon = function(argFoo) {
         tangon = function(argFoo) { // Original name: AVErrorManager
             report = this;
             offset = 0;
@@ -1642,18 +1602,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
-    michal = michal.bind(entity)(tangon);
-    tangon = michal.prototype;
-    tangon = Object.create(tangon, {constructor: {value: michal}});
-    sizing = tangon;
-    michal = new sizing[michal](kiloes);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 27;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/errors/AVErrorManager.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
+    tangon = tangon.bind(entity)(report);
+    report = tangon.prototype;
+    report = Object.create(report, {constructor: {value: tangon}});
+    output = report;
+    tangon = new output[tangon](sizing);
+    tangon = tangon instanceof Object ? tangon : report;
+    report = 27;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
+    report = 'modules/errors/AVErrorManager.tsx';
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    zuuluu['getStreamContext'] = michal;
     return entity;
 })();

@@ -374,11 +374,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = _closure3_slot0;
                         option = zuuluu.bind(tangon)(michal);
                         michal = null;
-                        if(!(michal == option)) { _fun00012_ip = 46; continue _fun00011 }
+                        if(!(michal == option)) { _fun00012_ip = 42; continue _fun00011 }
  30:
                         zuuluu = {'selfDeaf': false, 'deaf': false};
-                        _fun00012_ip = 96; continue _fun00011;
- 46:
+                        _fun00012_ip = 92; continue _fun00011;
+ 42:
                         report = _closure1_slot0;
                         tangon = _closure1_slot2;
                         michal = 14;
@@ -392,7 +392,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         foxtra = golfie;
                         romeon = option;
                         zuuluu = foxtra[oscard](romeon, yankee, offset, verify, option);
- 96:
+ 92:
                         tangon = _closure1_slot0;
                         michal = _closure1_slot2;
                         entity = 13;

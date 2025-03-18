@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = !option;
  384:
         var _closure1_slot13 = tangon;
-        tangon = 16;
+        tangon = 17;
         tangon = oscard[tangon];
         tangon = golfie.bind(entity)(tangon);
         michal = function(argFoo) {
@@ -729,7 +729,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = oscard.bind(golfie)(report);
                         oscard = _closure1_slot0;
                         report = _closure1_slot2;
-                        michal = 15;
+                        michal = 16;
                         report = report[michal];
                         michal = undefined;
                         report = oscard.bind(michal)(report);
@@ -783,7 +783,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         kiloes = tangon;
         michal = new kiloes[michal](backup);
         michal = michal instanceof Object ? michal : tangon;
-        tangon = 17;
+        tangon = 18;
         tangon = oscard[tangon];
         oscard = report.bind(entity)(tangon);
         report = oscard.fileFinishedImporting;

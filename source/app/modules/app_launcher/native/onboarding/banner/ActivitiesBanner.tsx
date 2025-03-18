@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            tangon = entity.guildId;
+            tangon = entity.context;
             michal = _closure1_slot0;
             golfie = _closure1_slot2;
             entity = 3;
@@ -48,9 +48,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.bind(report)(entity);
             michal = zuuluu.useActivityApplications;
             entity = {};
-            entity['guildId'] = tangon;
-            tangon = false;
-            entity['fetchesShelf'] = tangon;
+            option = tangon.channel;
+            option = option.guild_id;
+            entity['guildId'] = option;
+            option = false;
+            entity['fetchesShelf'] = option;
+            entity['context'] = tangon;
             zuuluu = michal.bind(zuuluu)(entity);
             michal = _closure1_slot3;
             entity = 2;
@@ -71,12 +74,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = null;
             tangon = zuuluu == offset;
             entity = null;
-            if(tangon) { _fun00002_ip = 248; continue _fun00001 }
- 132:
+            if(tangon) { _fun00002_ip = 262; continue _fun00001 }
+ 146:
             michal = zuuluu == michal;
             entity = null;
-            if(michal) { _fun00002_ip = 248; continue _fun00001 }
- 141:
+            if(michal) { _fun00002_ip = 262; continue _fun00001 }
+ 155:
             tangon = _closure1_slot4;
             zuuluu = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -101,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(verify)(golfie, oscard);
             michal['text'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 248:
+ 262:
             return entity;
         }
     };

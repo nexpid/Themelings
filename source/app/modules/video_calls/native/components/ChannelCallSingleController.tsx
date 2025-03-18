@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
     var _closure1_slot8 = tangon;
-    tangon = 13;
+    tangon = 12;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -112,15 +112,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = golfie.type;
             entity = _closure1_slot7;
             entity = entity.STREAM;
-            if(!(entity !== michal)) { _fun00002_ip = 270; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 263; continue _fun00001 }
  136:
             entity = _closure1_slot7;
             entity = entity.USER;
-            if(!(entity !== michal)) { _fun00002_ip = 227; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 220; continue _fun00001 }
  150:
             entity = _closure1_slot7;
             entity = entity.HIDDEN_STREAM;
-            if(!(entity !== michal)) { _fun00002_ip = 223; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 216; continue _fun00001 }
  164:
             entity = _closure1_slot7;
             entity = entity.ACTIVITY;
@@ -128,21 +128,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  178:
             return report;
  180:
-            tangon = _closure1_slot8;
-            michal = _closure1_slot1;
-            verify = _closure1_slot2;
-            entity = 12;
-            entity = verify[entity];
-            michal = michal.bind(report)(entity);
-            entity = {};
-            entity['participant'] = golfie;
-            entity['channel'] = oscard;
-            entity = tangon.bind(report)(michal, entity);
-            return entity;
- 223:
+            entity = global;
+            tangon = entity.Error;
+            entity = tangon.prototype;
+            michal = Object.create(entity, {constructor: {value: tangon}});
+            yankee = 'Activities are not supported on old voice UI';
+            romeon = michal;
+            entity = new romeon[tangon](yankee, offset);
+            entity = entity instanceof Object ? entity : michal;
+            throw entity;
+ 216:
             entity = null;
             return entity;
- 227:
+ 220:
             tangon = _closure1_slot8;
             michal = _closure1_slot1;
             verify = _closure1_slot2;
@@ -154,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['channel'] = oscard;
             entity = tangon.bind(report)(michal, entity);
             return entity;
- 270:
+ 263:
             entity = golfie.user;
             verify = entity.id;
             michal = _closure1_slot5;
@@ -162,27 +160,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.bind(michal)();
             entity = null;
             zuuluu = entity != zuuluu;
-            if(!zuuluu) { _fun00002_ip = 361; continue _fun00001 }
- 303:
+            if(!zuuluu) { _fun00002_ip = 354; continue _fun00001 }
+ 296:
             tangon = _closure1_slot8;
             zuuluu = _closure1_slot1;
-            if(!(verify !== michal)) { _fun00002_ip = 328; continue _fun00001 }
- 315:
+            if(!(verify !== michal)) { _fun00002_ip = 321; continue _fun00001 }
+ 308:
             verify = _closure1_slot2;
             michal = 10;
             michal = verify[michal];
-            _fun00002_ip = 339; continue _fun00001;
- 328:
+            _fun00002_ip = 332; continue _fun00001;
+ 321:
             verify = _closure1_slot2;
             option = 9;
             michal = verify[option];
- 339:
+ 332:
             zuuluu = zuuluu.bind(report)(michal);
             michal = {};
             michal['participant'] = golfie;
             michal['channel'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 361:
+ 354:
             return entity;
         }
     };

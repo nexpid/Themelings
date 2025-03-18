@@ -545,28 +545,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = function(argFoo) {
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-                entity = argFoo;
-                zuuluu = entity.reason;
-                michal = _closure1_slot10;
-                michal = michal.STREAM_FULL;
-                if(!(zuuluu === michal)) { _fun00010_ip = 73; continue _fun00009 }
- 26:
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 26;
-                michal = michal[entity];
-                entity = undefined;
-                zuuluu = zuuluu.bind(entity)(michal);
+                michal = argFoo;
+                tangon = michal.reason;
+                zuuluu = _closure1_slot10;
+                zuuluu = zuuluu.STREAM_FULL;
+                if(!(tangon === zuuluu)) { _fun00010_ip = 154; continue _fun00009 }
+ 29:
+                verify = _closure1_slot0;
+                tangon = _closure1_slot2;
+                report = 26;
+                oscard = tangon[report];
+                zuuluu = undefined;
+                golfie = verify.bind(zuuluu)(oscard);
+                oscard = golfie.reportAVError;
+                report = tangon[report];
+                report = verify.bind(zuuluu)(report);
+                report = report.AVError;
+                report = report.STREAM_FULL;
+                option = 27;
+                option = tangon[option];
+                verify = verify.bind(zuuluu)(option);
+                option = verify.getStreamContext;
+                michal = michal.streamKey;
+                michal = option.bind(verify)(michal);
+                michal = oscard.bind(golfie)(report, michal);
+                michal = _closure1_slot1;
+                entity = 28;
+                entity = tangon[entity];
+                zuuluu = michal.bind(zuuluu)(entity);
                 michal = zuuluu.openLazy;
                 entity = {};
                 tangon = function() { // Original name: importer
                     zuuluu = _closure1_slot0;
                     entity = _closure1_slot2;
-                    michal = 28;
+                    michal = 30;
                     michal = entity[michal];
                     tangon = undefined;
                     zuuluu = zuuluu.bind(tangon)(michal);
-                    michal = 27;
+                    michal = 29;
                     michal = entity[michal];
                     entity = entity.paths;
                     zuuluu = zuuluu.bind(tangon)(michal, entity);
@@ -593,7 +609,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 entity['importer'] = tangon;
                 entity = michal.bind(zuuluu)(entity);
- 73:
+ 154:
                 entity = undefined;
                 return entity;
             }
@@ -679,7 +695,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  63:
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
-                entity = 29;
+                entity = 31;
                 michal = michal[entity];
                 entity = undefined;
                 zuuluu = zuuluu.bind(entity)(michal);
@@ -713,7 +729,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     michal['getApplicationNames'] = tangon;
-    tangon = 30;
+    tangon = 32;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

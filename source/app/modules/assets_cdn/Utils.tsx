@@ -2,23 +2,23 @@
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     zuuluu = argFre;
     entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    michal['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = argPlu;
     entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = 'modules/assets_cdn/Utils.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function(argFoo) { // Original name: getAssetCDNUrl
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/assets_cdn/Utils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: getAssetCDNUrl
         entity = global;
         entity = entity.HermesInternal;
         zuuluu = entity.concat;
@@ -27,6 +27,16 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity = zuuluu.bind(michal)(entity);
         return entity;
     };
-    zuuluu['getAssetCDNUrl'] = michal;
+    zuuluu['getAssetCDNUrl'] = tangon;
+    michal = function(argFoo) { // Original name: getAssetContentCDNUrl
+        entity = global;
+        entity = entity.HermesInternal;
+        zuuluu = entity.concat;
+        michal = 'https://cdn.discordapp.com/assets/content/';
+        entity = argFoo;
+        entity = zuuluu.bind(michal)(entity);
+        return entity;
+    };
+    zuuluu['getAssetContentCDNUrl'] = michal;
     return entity;
 })();

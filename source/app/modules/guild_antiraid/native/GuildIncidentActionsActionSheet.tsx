@@ -238,8 +238,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.hasDMsDisabled;
             echoed = michal.bind(zuuluu)(oscard);
             var _closure2_slot6 = echoed;
-            verify = null;
-            michal = verify == report;
+            offset = null;
+            michal = offset == report;
             foxtra = undefined;
             if(michal) { _fun00002_ip = 222; continue _fun00001 }
  201:
@@ -291,7 +291,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            offset = zuuluu.bind(report)(entity, michal);
+            verify = zuuluu.bind(report)(entity, michal);
             entity = function() { // Original name: onDurationSelectorClose
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
@@ -390,14 +390,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['icon'] = romeon;
             romeon = 'end';
             report['iconPosition'] = romeon;
-            romeon = verify != offset;
-            verify = '';
+            romeon = offset != verify;
+            offset = '';
             if(!romeon) { _fun00002_ip = 575; continue _fun00001 }
  572:
-            verify = offset;
+            offset = verify;
  575:
-            report['text'] = verify;
-            verify = function() { // Original name: onPress
+            report['text'] = offset;
+            offset = function() { // Original name: onPress
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
                 entity = 14;
@@ -418,13 +418,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            report['onPress'] = verify;
+            report['onPress'] = offset;
+            cntext = _closure1_slot0;
+            sequen = _closure1_slot2;
+            offset = sequen[result];
+            offset = cntext.bind(tangon)(offset);
+            backup = offset.intl;
+            romeon = backup.string;
+            offset = sequen[result];
+            offset = cntext.bind(tangon)(offset);
+            offset = offset.t;
+            offset = offset.vKYZzc;
+            offset = romeon.bind(backup)(offset);
+            report['accessibilityLabel'] = offset;
+            report['accessibilityHint'] = verify;
             oscard = golfie.bind(tangon)(oscard, report);
             report = new Array(4);
             report[0] = oscard;
             offset = _closure1_slot14;
-            cntext = _closure1_slot0;
-            sequen = _closure1_slot2;
             oscard = 18;
             oscard = sequen[oscard];
             oscard = cntext.bind(tangon)(oscard);
@@ -459,10 +470,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = config.bind(record)(sequen);
             romeon['subLabel'] = sequen;
             sequen = source;
-            if(sequen) { _fun00002_ip = 775; continue _fun00001 }
- 772:
+            if(sequen) { _fun00002_ip = 828; continue _fun00001 }
+ 825:
             sequen = foxtra;
- 775:
+ 828:
             romeon['value'] = sequen;
             sequen = function() { // Original name: onValueChange
                 zuuluu = _closure1_slot7;
@@ -477,8 +488,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = vacuum.bind(tangon)(backup, romeon);
             romeon = new Array(2);
             romeon[0] = backup;
-            if(!foxtra) { _fun00002_ip = 987; continue _fun00001 }
- 815:
+            if(!foxtra) { _fun00002_ip = 1040; continue _fun00001 }
+ 868:
             sequen = _closure1_slot13;
             papara = _closure1_slot0;
             config = _closure1_slot2;
@@ -517,7 +528,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = record.bind(cntext)(config);
             backup['label'] = config;
             foxtra = sequen.bind(tangon)(vacuum, backup);
- 987:
+ 1040:
             romeon[1] = foxtra;
             golfie['children'] = romeon;
             golfie = offset.bind(tangon)(verify, golfie);
@@ -686,14 +697,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = 'md';
             verify['size'] = foxtra;
             sizing = source !== sizing;
-            if(sizing) { _fun00002_ip = 1299; continue _fun00001 }
- 1295:
+            if(sizing) { _fun00002_ip = 1352; continue _fun00001 }
+ 1348:
             sizing = update !== echoed;
- 1299:
-            if(sizing) { _fun00002_ip = 1305; continue _fun00001 }
- 1302:
+ 1352:
+            if(sizing) { _fun00002_ip = 1358; continue _fun00001 }
+ 1355:
             sizing = output;
- 1305:
+ 1358:
             sizing = !sizing;
             verify['disabled'] = sizing;
             romeon = backup.bind(tangon)(romeon, verify);

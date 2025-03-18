@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = golfie.bind(entity)(oscard);
     oscard = oscard.Permissions;
     var _closure1_slot4 = oscard;
-    oscard = 6;
+    oscard = 5;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
     golfie = option.fileFinishedImporting;
@@ -238,87 +238,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['useIsAppLauncherEnabled'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: useShowActivitiesInOmniButtonMenu
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
- 0:
-            entity = argFoo;
-            var _closure2_slot0 = entity;
-            tangon = _closure1_slot0;
-            report = _closure1_slot1;
-            zuuluu = 4;
-            golfie = report[zuuluu];
-            oscard = undefined;
-            offset = tangon.bind(oscard)(golfie);
-            verify = offset.useStateFromStores;
-            golfie = _closure1_slot2;
-            option = new Array(1);
-            option[0] = golfie;
-            golfie = function() {
-                zuuluu = _closure1_slot2;
-                michal = zuuluu.getChannel;
-                entity = _closure2_slot0;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            golfie = verify.bind(offset)(option, golfie);
-            var _closure2_slot1 = golfie;
-            zuuluu = report[zuuluu];
-            report = tangon.bind(oscard)(zuuluu);
-            tangon = report.useStateFromStores;
-            option = _closure1_slot3;
-            zuuluu = new Array(1);
-            zuuluu[0] = option;
-            michal = function() {
-                tangon = _closure1_slot3;
-                zuuluu = tangon.can;
-                entity = _closure1_slot4;
-                michal = entity.USE_EMBEDDED_ACTIVITIES;
-                entity = _closure2_slot1;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
-            };
-            zuuluu = tangon.bind(report)(zuuluu, michal);
-            michal = _closure1_slot5;
-            tangon = michal.bind(oscard)(golfie);
-            report = null;
-            option = report == golfie;
-            michal = undefined;
-            if(option) { _fun00010_ip = 128; continue _fun00009 }
- 123:
-            michal = golfie.guild_id;
- 128:
-            report = report != michal;
-            michal = _closure1_slot0;
-            golfie = _closure1_slot1;
-            entity = 5;
-            entity = golfie[entity];
-            entity = michal.bind(oscard)(entity);
-            golfie = entity.AppLauncherDesktopExperiment;
-            oscard = golfie.useExperiment;
-            michal = {};
-            entity = argBar;
-            michal['location'] = entity;
-            entity = {};
-            option = false;
-            entity['autoTrackExposure'] = option;
-            entity = oscard.bind(golfie)(michal, entity);
-            entity = entity.enabled;
-            entity = !entity;
-            if(!entity) { _fun00010_ip = 217; continue _fun00009 }
- 199:
-            michal = tangon;
-            if(!report) { _fun00010_ip = 214; continue _fun00009 }
- 205:
-            if(!zuuluu) { _fun00010_ip = 211; continue _fun00009 }
- 208:
-            zuuluu = tangon;
- 211:
-            michal = zuuluu;
- 214:
-            entity = michal;
- 217:
-            return entity;
-        }
+    michal = function() { // Original name: useShowActivitiesInOmniButtonMenu
+        entity = false;
+        return entity;
     };
     zuuluu['useShowActivitiesInOmniButtonMenu'] = michal;
     return entity;

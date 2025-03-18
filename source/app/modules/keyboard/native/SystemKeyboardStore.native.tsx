@@ -55,27 +55,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = golfie.bind(report)(entity);
                 entity = golfie.isAndroid;
                 entity = entity.bind(golfie)();
-                if(entity) { _fun00004_ip = 169; continue _fun00003 }
+                if(entity) { _fun00004_ip = 163; continue _fun00003 }
  149:
                 entity = 0;
-                if(tangon) { _fun00004_ip = 163; continue _fun00003 }
+                if(tangon) { _fun00004_ip = 157; continue _fun00003 }
  154:
-                entity = 0;
-                if(!(entity !== zuuluu)) { _fun00004_ip = 163; continue _fun00003 }
- 160:
                 entity = oscard;
- 163:
+ 157:
                 entity = zuuluu + entity;
-                _fun00004_ip = 202; continue _fun00003;
- 169:
+                _fun00004_ip = 196; continue _fun00003;
+ 163:
                 zuuluu = _closure1_slot1;
                 oscard = _closure1_slot2;
                 michal = 3;
                 michal = oscard[michal];
                 zuuluu = zuuluu.bind(report)(michal);
-                michal = zuuluu.getKeyboardHeight;
+                michal = zuuluu.getImeInsets;
                 entity = michal.bind(zuuluu)(tangon);
- 202:
+ 196:
                 return entity;
             }
         };

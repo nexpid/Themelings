@@ -56,6 +56,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['PREMIUM_VOICE_FILTERS'] = entity;
     entity = 'appIcons';
     michal['APP_ICONS'] = entity;
+    entity = 'chatWallpapers';
+    michal['CHAT_WALLPAPERS'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

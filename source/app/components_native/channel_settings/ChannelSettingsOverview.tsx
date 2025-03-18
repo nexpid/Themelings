@@ -4457,17 +4457,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  995:
                 option['label'] = romeon;
                 romeon = function() { // Original name: onPress
-                    zuuluu = _closure1_slot0;
+                    zuuluu = _closure1_slot1;
                     michal = _closure1_slot2;
-                    entity = 80;
+                    entity = 76;
                     michal = michal[entity];
                     entity = undefined;
-                    tangon = zuuluu.bind(entity)(michal);
-                    zuuluu = tangon.copyGuildChannelOrThreadLink;
+                    zuuluu = zuuluu.bind(entity)(michal);
+                    michal = zuuluu.lockThread;
                     entity = _closure3_slot0;
-                    michal = entity.guild_id;
-                    entity = entity.id;
-                    entity = zuuluu.bind(tangon)(michal, entity);
+                    entity = michal.bind(zuuluu)(entity);
                     return entity;
                 };
                 option['onPress'] = romeon;
@@ -4501,15 +4499,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = yankee.bind(romeon)(offset);
                 oscard['label'] = offset;
                 verify = function() { // Original name: onPress
-                    zuuluu = _closure1_slot1;
+                    zuuluu = _closure1_slot0;
                     michal = _closure1_slot2;
-                    entity = 76;
+                    entity = 80;
                     michal = michal[entity];
                     entity = undefined;
-                    zuuluu = zuuluu.bind(entity)(michal);
-                    michal = zuuluu.lockThread;
+                    tangon = zuuluu.bind(entity)(michal);
+                    zuuluu = tangon.copyGuildChannelOrThreadLink;
                     entity = _closure3_slot0;
-                    entity = michal.bind(zuuluu)(entity);
+                    michal = entity.guild_id;
+                    entity = entity.id;
+                    entity = zuuluu.bind(tangon)(michal, entity);
                     return entity;
                 };
                 oscard['onPress'] = verify;

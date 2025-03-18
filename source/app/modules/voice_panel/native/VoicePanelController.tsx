@@ -3541,8 +3541,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = entity.bind(zuuluu)();
                         verify = null;
                         oscard = verify != offset;
-                        if(!oscard) { _fun00098_ip = 85; continue _fun00097 }
- 51:
+                        if(!oscard) { _fun00098_ip = 87; continue _fun00097 }
+ 53:
                         golfie = _closure1_slot27;
                         option = _closure1_slot8;
                         report = option.getParticipant;
@@ -3550,56 +3550,56 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = report.bind(option)(entity, offset);
                         entity = undefined;
                         oscard = golfie.bind(entity)(report);
- 85:
+ 87:
                         report = verify != yankee;
                         entity = undefined;
                         golfie = undefined;
-                        if(!report) { _fun00098_ip = 119; continue _fun00097 }
- 96:
+                        if(!report) { _fun00098_ip = 121; continue _fun00097 }
+ 98:
                         offset = _closure1_slot8;
                         option = offset.getParticipant;
                         report = _closure3_slot0;
                         golfie = option.bind(offset)(report, yankee);
- 119:
+ 121:
                         option = verify == golfie;
                         report = undefined;
-                        if(option) { _fun00098_ip = 134; continue _fun00097 }
- 128:
+                        if(option) { _fun00098_ip = 136; continue _fun00097 }
+ 130:
                         report = golfie.streamId;
- 134:
+ 136:
                         report = verify != report;
-                        if(!report) { _fun00098_ip = 177; continue _fun00097 }
- 141:
+                        if(!report) { _fun00098_ip = 179; continue _fun00097 }
+ 143:
                         offset = verify == golfie;
                         option = undefined;
-                        if(offset) { _fun00098_ip = 171; continue _fun00097 }
- 150:
+                        if(offset) { _fun00098_ip = 173; continue _fun00097 }
+ 152:
                         golfie = golfie.voiceState;
                         verify = verify == golfie;
                         option = undefined;
-                        if(verify) { _fun00098_ip = 171; continue _fun00097 }
- 165:
+                        if(verify) { _fun00098_ip = 173; continue _fun00097 }
+ 167:
                         option = golfie.selfVideo;
- 171:
+ 173:
                         golfie = true;
                         report = golfie === option;
- 177:
-                        if(!oscard) { _fun00098_ip = 432; continue _fun00097 }
- 183:
-                        if(!tangon) { _fun00098_ip = 432; continue _fun00097 }
- 189:
-                        if(zuuluu) { _fun00098_ip = 432; continue _fun00097 }
- 195:
+ 179:
+                        if(!oscard) { _fun00098_ip = 436; continue _fun00097 }
+ 185:
+                        if(!tangon) { _fun00098_ip = 436; continue _fun00097 }
+ 191:
+                        if(zuuluu) { _fun00098_ip = 436; continue _fun00097 }
+ 197:
                         tangon = _closure1_slot13;
                         zuuluu = tangon.isVideoEnabled;
                         zuuluu = zuuluu.bind(tangon)();
                         tangon = zuuluu;
-                        if(tangon) { _fun00098_ip = 218; continue _fun00097 }
- 215:
+                        if(tangon) { _fun00098_ip = 220; continue _fun00097 }
+ 217:
                         tangon = report;
- 218:
-                        if(!tangon) { _fun00098_ip = 366; continue _fun00097 }
- 224:
+ 220:
+                        if(!tangon) { _fun00098_ip = 370; continue _fun00097 }
+ 226:
                         verify = _closure1_slot1;
                         oscard = _closure1_slot2;
                         tangon = 24;
@@ -3629,9 +3629,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = report.bind(entity)(tangon);
                         tangon = report.trackActivityThermalStateNoticeShown;
                         tangon = tangon.bind(report)();
- 366:
-                        if(!zuuluu) { _fun00098_ip = 402; continue _fun00097 }
- 369:
+ 370:
+                        if(!zuuluu) { _fun00098_ip = 406; continue _fun00097 }
+ 373:
                         tangon = _closure1_slot1;
                         report = _closure1_slot2;
                         zuuluu = 28;
@@ -3640,7 +3640,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = report.setVideoEnabled;
                         zuuluu = false;
                         zuuluu = tangon.bind(report)(zuuluu);
- 402:
+ 406:
                         zuuluu = _closure1_slot0;
                         tangon = _closure1_slot2;
                         michal = 29;
@@ -3648,7 +3648,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = zuuluu.bind(entity)(michal);
                         michal = zuuluu.consumeRequestToReactToSeriousThermalState;
                         michal = michal.bind(zuuluu)();
- 432:
+ 436:
                         return entity;
                     }
                 };

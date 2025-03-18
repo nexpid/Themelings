@@ -1635,6 +1635,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = result.getGuildId;
                     golfie = golfie.bind(result)();
                     michal['guildId'] = golfie;
+                    michal['context'] = tangon;
                     foxtra = zuuluu.bind(echoed)(michal);
                     var _closure3_slot2 = foxtra;
                     michal = 39;
@@ -2142,19 +2143,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = null;
                     sequen = zuuluu == tangon;
                     vacuum = undefined;
-                    if(sequen) { _fun00040_ip = 681; continue _fun00039 }
- 675:
+                    if(sequen) { _fun00040_ip = 685; continue _fun00039 }
+ 679:
                     vacuum = tangon.sections;
- 681:
+ 685:
                     tangon = new Array(2);
                     tangon[0] = vacuum;
                     ctrled = ctrled.result;
                     vacuum = zuuluu == ctrled;
                     zuuluu = undefined;
-                    if(vacuum) { _fun00040_ip = 710; continue _fun00039 }
- 704:
+                    if(vacuum) { _fun00040_ip = 714; continue _fun00039 }
+ 708:
                     zuuluu = ctrled.sections;
- 710:
+ 714:
                     tangon[1] = zuuluu;
                     zuuluu = function() {
                         _fun00055: for(var _fun00056_ip = 0; ; ) switch(_fun00056_ip) {
@@ -2250,44 +2251,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     zuuluu = echoed.bind(update)(output, zuuluu);
                     output = tangon;
-                    if(!output) { _fun00040_ip = 783; continue _fun00039 }
- 780:
+                    if(!output) { _fun00040_ip = 787; continue _fun00039 }
+ 784:
                     output = report;
- 783:
-                    if(output) { _fun00040_ip = 789; continue _fun00039 }
- 786:
+ 787:
+                    if(output) { _fun00040_ip = 793; continue _fun00039 }
+ 790:
                     output = !zuuluu;
- 789:
+ 793:
                     tangon = report;
-                    if(!report) { _fun00040_ip = 798; continue _fun00039 }
- 795:
+                    if(!report) { _fun00040_ip = 802; continue _fun00039 }
+ 799:
                     tangon = !output;
- 798:
-                    if(!tangon) { _fun00040_ip = 814; continue _fun00039 }
- 801:
+ 802:
+                    if(!tangon) { _fun00040_ip = 818; continue _fun00039 }
+ 805:
                     zuuluu = result.isPrivate;
                     zuuluu = zuuluu.bind(result)();
                     tangon = !zuuluu;
- 814:
-                    if(!tangon) { _fun00040_ip = 820; continue _fun00039 }
- 817:
+ 818:
+                    if(!tangon) { _fun00040_ip = 824; continue _fun00039 }
+ 821:
                     tangon = !kiloes;
- 820:
+ 824:
                     zuuluu = report;
-                    if(!zuuluu) { _fun00040_ip = 829; continue _fun00039 }
- 826:
+                    if(!zuuluu) { _fun00040_ip = 833; continue _fun00039 }
+ 830:
                     zuuluu = output;
- 829:
-                    if(!zuuluu) { _fun00040_ip = 845; continue _fun00039 }
- 832:
+ 833:
+                    if(!zuuluu) { _fun00040_ip = 849; continue _fun00039 }
+ 836:
                     output = result.isPrivate;
                     output = output.bind(result)();
                     zuuluu = !output;
- 845:
-                    if(!zuuluu) { _fun00040_ip = 851; continue _fun00039 }
- 848:
+ 849:
+                    if(!zuuluu) { _fun00040_ip = 855; continue _fun00039 }
+ 852:
                     zuuluu = !kiloes;
- 851:
+ 855:
                     _closure3_slot14 = zuuluu;
                     result = _closure1_slot5;
                     output = result.useMemo;

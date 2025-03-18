@@ -26,8 +26,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/activities/useActivityShelfItemData.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: useActivityShelfItemData
-        report = argBar;
+    michal = function(argFoo, argBar, argBaz) { // Original name: useActivityShelfItemData
+        report = argBaz;
         var _closure2_slot0 = report;
         tangon = _closure1_slot0;
         oscard = _closure1_slot1;
@@ -36,8 +36,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = undefined;
         tangon = tangon.bind(oscard)(zuuluu);
         zuuluu = {};
-        golfie = argFoo;
+        golfie = argBar;
         zuuluu['guildId'] = golfie;
+        golfie = argFoo;
+        zuuluu['context'] = golfie;
         oscard = tangon.bind(oscard)(zuuluu);
         var _closure2_slot1 = oscard;
         tangon = _closure1_slot2;

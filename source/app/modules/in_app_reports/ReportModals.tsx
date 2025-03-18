@@ -357,6 +357,42 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     zuuluu['showStaffTestReportModalForMessage'] = tangon;
+    tangon = function(argFoo, argBar, argBaz) { // Original name: showStaffTestReportModalForGuild
+        michal = argFoo;
+        oscard = _closure1_slot10;
+        golfie = _closure1_slot0;
+        option = _closure1_slot2;
+        zuuluu = 5;
+        tangon = option[zuuluu];
+        entity = undefined;
+        tangon = golfie.bind(entity)(tangon);
+        tangon = tangon.ReportNames;
+        report = tangon.GUILD;
+        tangon = {};
+        verify = michal.id;
+        tangon['guild_id'] = verify;
+        tangon = oscard.bind(entity)(report, tangon);
+        tangon = 6;
+        tangon = option[tangon];
+        oscard = golfie.bind(entity)(tangon);
+        report = oscard.showReportModal;
+        tangon = {};
+        zuuluu = option[zuuluu];
+        zuuluu = golfie.bind(entity)(zuuluu);
+        zuuluu = zuuluu.ReportNames;
+        zuuluu = zuuluu.GUILD;
+        tangon['name'] = zuuluu;
+        tangon['record'] = michal;
+        zuuluu = {};
+        michal = 'staff';
+        zuuluu['variant'] = michal;
+        michal = {};
+        golfie = argBaz;
+        michal['onSubmit'] = golfie;
+        michal = report.bind(oscard)(tangon, zuuluu, michal);
+        return entity;
+    };
+    zuuluu['showStaffTestReportModalForGuild'] = tangon;
     tangon = function(argFoo, argBar) { // Original name: showReportModalForStageChannel
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:

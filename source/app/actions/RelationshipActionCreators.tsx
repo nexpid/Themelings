@@ -537,6 +537,43 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     tangon['removeFriend'] = option;
+    option = function(argFoo, argBar) { // Original name: blockUser
+        tangon = _closure1_slot11;
+        zuuluu = tangon.addRelationship;
+        michal = {};
+        report = argFoo;
+        michal['userId'] = report;
+        report = argBar;
+        michal['context'] = report;
+        entity = _closure1_slot8;
+        entity = entity.BLOCKED;
+        michal['type'] = entity;
+        entity = function() {
+            golfie = _closure1_slot0;
+            option = _closure1_slot3;
+            entity = 13;
+            michal = option[entity];
+            entity = undefined;
+            michal = golfie.bind(entity)(michal);
+            tangon = michal.AccessibilityAnnouncer;
+            zuuluu = tangon.announce;
+            michal = 7;
+            report = option[michal];
+            report = golfie.bind(entity)(report);
+            oscard = report.intl;
+            report = oscard.string;
+            michal = option[michal];
+            michal = golfie.bind(entity)(michal);
+            michal = michal.t;
+            michal = michal.mU0Vrq;
+            michal = report.bind(oscard)(michal);
+            michal = zuuluu.bind(tangon)(michal);
+            return entity;
+        };
+        entity = zuuluu.bind(tangon)(michal, entity);
+        return entity;
+    };
+    tangon['blockUser'] = option;
     option = function(argFoo, argBar) { // Original name: unblockUser
         report = _closure1_slot11;
         tangon = report.removeRelationship;

@@ -851,10 +851,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = null;
                 verify = golfie == option;
                 golfie = undefined;
-                if(verify) { _fun00018_ip = 120; continue _fun00017 }
- 114:
+                if(verify) { _fun00018_ip = 118; continue _fun00017 }
+ 112:
                 golfie = option.errorCode;
- 120:
+ 118:
                 michal['errorCode'] = golfie;
                 verify = tangon.bind(report)(zuuluu, michal);
                 zuuluu = _closure1_slot1;

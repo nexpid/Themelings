@@ -33,6 +33,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         var _closure2_slot0 = oscard;
         golfie = entity.fetchesShelf;
         var _closure2_slot1 = golfie;
+        option = entity.context;
         tangon = _closure1_slot1;
         report = _closure1_slot2;
         entity = 1;
@@ -40,6 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = undefined;
         tangon = tangon.bind(report)(entity);
         entity = {};
+        entity['context'] = option;
         entity['guildId'] = oscard;
         report = tangon.bind(report)(entity);
         tangon = report.map;

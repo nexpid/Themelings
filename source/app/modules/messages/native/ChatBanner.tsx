@@ -563,12 +563,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = new Array(0);
             tangon = report.bind(golfie)(tangon, michal, entity);
             entity = null;
-            if(!tangon) { _fun00008_ip = 520; continue _fun00007 }
+            if(!tangon) { _fun00008_ip = 516; continue _fun00007 }
  108:
             tangon = 0;
             tangon = record <= tangon;
             michal = null;
-            if(tangon) { _fun00008_ip = 517; continue _fun00007 }
+            if(tangon) { _fun00008_ip = 513; continue _fun00007 }
  122:
             report = _closure1_slot6;
             tangon = report.isEstimated;
@@ -671,9 +671,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie[1] = option;
             zuuluu['children'] = golfie;
             michal = report.bind(oscard)(tangon, zuuluu);
- 517:
+ 513:
             entity = michal;
- 520:
+ 516:
             return entity;
         }
     };
