@@ -1525,16 +1525,6 @@
         "width": 144,
         "height": 150
     },
-    "ChevronLargeDownIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/ChevronLargeDownIcon.png",
-        "hash": "a990bcbff9890bc8b72dcadb1907f9b1",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ChevronLargeLeftIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ChevronLargeLeftIcon.png",
         "hash": "801cfd1cdb8635da2a5d7cb56f502b7b",
