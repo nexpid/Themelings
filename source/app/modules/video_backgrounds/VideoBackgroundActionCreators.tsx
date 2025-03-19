@@ -17,8 +17,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 140; continue _fun00001 }
- 10:
+                    if(michal) { _fun00002_ip = 195; continue _fun00001 }
+ 10: // try_start_0
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
                     michal = 4;
@@ -53,10 +53,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = michal.body;
                     zuuluu['assets'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
+ 134: // try_end0
                     return michal;
  137:
                     return michal;
- 140:
+ 140: // catch_target0
+                    CatchBlockStart(arg_register=1);
+                    report = _closure1_slot1;
+                    tangon = _closure1_slot2;
+                    zuuluu = 5;
+                    tangon = tangon[zuuluu];
+                    zuuluu = undefined;
+                    report = report.bind(zuuluu)(tangon);
+                    tangon = report.dispatch;
+                    zuuluu = {};
+                    oscard = 'VIDEO_FILTER_ASSETS_FETCH_FAILURE';
+                    zuuluu['type'] = oscard;
+                    zuuluu['error'] = michal;
+                    zuuluu = tangon.bind(report)(zuuluu);
+                    throw michal;
+ 195:
                     return entity;
                 }
             };

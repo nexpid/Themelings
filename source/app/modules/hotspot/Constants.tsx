@@ -72,6 +72,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['APP_DIRECTORY_SETTINGS_NEW_PILL'] = entity;
     entity = 'INVITE_SPLASH_GUILD_HEADER_TOOLTIP';
     michal['INVITE_SPLASH_GUILD_HEADER_TOOLTIP'] = entity;
+    entity = 'VOICE_FILTER_FEEDBACK';
+    michal['VOICE_FILTER_FEEDBACK'] = entity;
     entity = 'ANIMATED_VIDEO_BG_CAPERNITE_DAY_NEW';
     michal['ANIMATED_VIDEO_BG_CAPERNITE_DAY_NEW'] = entity;
     entity = 'ANIMATED_VIDEO_BG_CAPERNITE_NIGHT_NEW';

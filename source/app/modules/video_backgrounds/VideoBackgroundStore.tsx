@@ -296,21 +296,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     romeon = golfie.bind(entity)(michal);
     michal = {};
     verify = function(argFoo) { // Original name: handleVideoFilterAssetFetchSuccess
-        entity = argFoo;
-        tangon = entity.assets;
-        zuuluu = tangon.reduce;
-        michal = function(argFoo, argBar) {
-            zuuluu = argBar;
-            entity = {};
-            tangon = argFoo;
-            report = entity;
-            michal = copyDataProperties(report, tangon);
-            michal = zuuluu.id;
-            entity[michal] = zuuluu;
+        michal = argFoo;
+        tangon = michal.assets;
+        michal = {};
+        var _closure2_slot0 = michal;
+        zuuluu = tangon.forEach;
+        entity = function(argFoo) {
+            entity = argFoo;
+            zuuluu = _closure2_slot0;
+            michal = entity.id;
+            zuuluu[michal] = entity;
             return entity;
         };
-        entity = {};
-        michal = zuuluu.bind(tangon)(michal, entity);
+        entity = zuuluu.bind(tangon)(entity);
         _closure1_slot14 = michal;
         entity = undefined;
         return entity;

@@ -437,6 +437,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['VOICE_CHANNEL_BLOCKED_USER_WARNING'] = michal;
     michal = 'impression_voice_feedback_modal';
     tangon['VOICE_FEEDBACK_MODAL'] = michal;
+    michal = 'impression_voice_filter_feedback_modal';
+    tangon['VOICE_FILTER_FEEDBACK_MODAL'] = michal;
     michal = {};
     report = 'network_action_account_revert';
     michal['ACCOUNT_REVERT'] = report;

@@ -95,8 +95,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.useIsCallSecureFramesVerified;
             entity = {};
             entity['channelId'] = golfie;
-            golfie = 'ChannelButton';
-            entity['location'] = golfie;
             golfie = michal.bind(zuuluu)(entity);
             zuuluu = _closure1_slot8;
             entity = 14;
@@ -118,25 +116,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = null;
             offset = option != verify;
             option = '???';
-            if(!offset) { _fun00002_ip = 228; continue _fun00001 }
- 225:
+            if(!offset) { _fun00002_ip = 218; continue _fun00001 }
+ 215:
             option = verify;
- 228:
+ 218:
             entity['text'] = option;
-            if(golfie) { _fun00002_ip = 257; continue _fun00001 }
- 235:
+            if(golfie) { _fun00002_ip = 247; continue _fun00001 }
+ 225:
             option = _closure1_slot1;
             verify = _closure1_slot2;
             golfie = 10;
             golfie = verify[golfie];
             golfie = option.bind(tangon)(golfie);
-            _fun00002_ip = 273; continue _fun00001;
- 257:
+            _fun00002_ip = 263; continue _fun00001;
+ 247:
             offset = _closure1_slot8;
             verify = _closure1_slot11;
             option = {};
             golfie = offset.bind(tangon)(verify, option);
- 273:
+ 263:
             entity['icon'] = golfie;
             golfie = _closure1_slot1;
             option = _closure1_slot2;

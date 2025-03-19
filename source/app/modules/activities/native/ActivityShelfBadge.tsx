@@ -101,70 +101,74 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             entity = argFoo;
             zuuluu = entity.labelType;
+            verify = entity.replacementStyles;
             entity = _closure1_slot4;
             report = undefined;
             option = entity.bind(report)();
-            michal = _closure1_slot0;
-            entity = _closure1_slot1;
-            tangon = 7;
-            entity = entity[tangon];
-            entity = michal.bind(report)(entity);
-            entity = entity.EmbeddedActivityLabelTypes;
-            entity = entity.NEW;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 268; continue _fun00001 }
- 61:
-            michal = _closure1_slot0;
-            entity = _closure1_slot1;
-            entity = entity[tangon];
-            entity = michal.bind(report)(entity);
-            entity = entity.EmbeddedActivityLabelTypes;
-            michal = entity.UPDATED;
             entity = null;
-            if(!(zuuluu === michal)) { _fun00002_ip = 263; continue _fun00001 }
- 99:
+            if(!(entity == verify)) { _fun00002_ip = 40; continue _fun00001 }
+ 34:
+            verify = option.badge;
+ 40:
+            tangon = _closure1_slot0;
+            michal = _closure1_slot1;
+            golfie = 7;
+            michal = michal[golfie];
+            michal = tangon.bind(report)(michal);
+            michal = michal.EmbeddedActivityLabelTypes;
+            michal = michal.NEW;
+            if(!(zuuluu !== michal)) { _fun00002_ip = 280; continue _fun00001 }
+ 79:
+            tangon = _closure1_slot0;
+            michal = _closure1_slot1;
+            michal = michal[golfie];
+            michal = tangon.bind(report)(michal);
+            michal = michal.EmbeddedActivityLabelTypes;
+            michal = michal.UPDATED;
+            entity = null;
+            if(!(zuuluu === michal)) { _fun00002_ip = 275; continue _fun00001 }
+ 117:
             tangon = _closure1_slot3;
             zuuluu = _closure1_slot2;
             michal = {};
-            verify = option.badge;
             golfie = new Array(3);
             golfie[0] = verify;
-            verify = option.updatedBadge;
-            golfie[1] = verify;
-            verify = option.elevationShadow;
-            golfie[2] = verify;
+            offset = option.updatedBadge;
+            golfie[1] = offset;
+            offset = option.elevationShadow;
+            golfie[2] = offset;
             michal['style'] = golfie;
-            foxtra = _closure1_slot0;
-            backup = _closure1_slot1;
+            backup = _closure1_slot0;
+            kiloes = _closure1_slot1;
             golfie = 8;
-            golfie = backup[golfie];
-            golfie = foxtra.bind(report)(golfie);
-            verify = golfie.Text;
+            golfie = kiloes[golfie];
+            golfie = backup.bind(report)(golfie);
+            offset = golfie.Text;
             golfie = {};
-            offset = 'text-xs/semibold';
-            golfie['variant'] = offset;
-            offset = option.badgeText;
-            golfie['style'] = offset;
-            offset = 9;
-            yankee = backup[offset];
-            yankee = foxtra.bind(report)(yankee);
-            romeon = yankee.intl;
-            yankee = romeon.string;
-            offset = backup[offset];
-            offset = foxtra.bind(report)(offset);
-            offset = offset.t;
-            offset = offset./qdhkp;
-            offset = yankee.bind(romeon)(offset);
-            golfie['children'] = offset;
-            golfie = tangon.bind(report)(verify, golfie);
+            yankee = 'text-xs/semibold';
+            golfie['variant'] = yankee;
+            yankee = option.badgeText;
+            golfie['style'] = yankee;
+            yankee = 9;
+            romeon = kiloes[yankee];
+            romeon = backup.bind(report)(romeon);
+            foxtra = romeon.intl;
+            romeon = foxtra.string;
+            yankee = kiloes[yankee];
+            yankee = backup.bind(report)(yankee);
+            yankee = yankee.t;
+            yankee = yankee./qdhkp;
+            yankee = romeon.bind(foxtra)(yankee);
+            golfie['children'] = yankee;
+            golfie = tangon.bind(report)(offset, golfie);
             michal['children'] = golfie;
             entity = tangon.bind(report)(zuuluu, michal);
- 263:
-            _fun00002_ip = 430; continue _fun00001;
- 268:
+ 275:
+            _fun00002_ip = 436; continue _fun00001;
+ 280:
             tangon = _closure1_slot3;
             zuuluu = _closure1_slot2;
             michal = {};
-            verify = option.badge;
             golfie = new Array(3);
             golfie[0] = verify;
             verify = option.newBadge;
@@ -197,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 430:
+ 436:
             return entity;
         }
     };

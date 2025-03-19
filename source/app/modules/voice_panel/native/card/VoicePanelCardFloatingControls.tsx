@@ -1170,7 +1170,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = offset[michal];
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = zuuluu.useAnimatedStyle;
-            entity = function() { // Original name: C
+            entity = function() { // Original name: h
                 entity = {};
                 zuuluu = {};
                 tangon = _closure2_slot2;
@@ -1340,8 +1340,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  225:
             entity['userId'] = golfie;
             entity['channelId'] = report;
-            golfie = 'VoicePanelCardFloatingControls';
-            entity['location'] = golfie;
             foxtra = michal.bind(zuuluu)(entity);
             zuuluu = _closure1_slot1;
             entity = _closure1_slot2;
@@ -1355,11 +1353,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = golfie.isStableParticipantWithUser;
             golfie = entity.bind(golfie)(source);
             entity = undefined;
-            if(!golfie) { _fun00030_ip = 312; continue _fun00029 }
- 302:
+            if(!golfie) { _fun00030_ip = 302; continue _fun00029 }
+ 292:
             golfie = source.user;
             entity = golfie.id;
- 312:
+ 302:
             target = undefined;
             papara = michal;
             cntext = entity;
@@ -1574,8 +1572,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = ctrled.length;
             option = 0;
             offset = offset > option;
-            if(!offset) { _fun00030_ip = 803; continue _fun00029 }
- 740:
+            if(!offset) { _fun00030_ip = 793; continue _fun00029 }
+ 730:
             kiloes = _closure1_slot16;
             yankee = _closure1_slot1;
             update = _closure1_slot2;
@@ -1600,7 +1598,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = update.bind(ctrled)(echoed);
             option['children'] = echoed;
             offset = kiloes.bind(tangon)(yankee, option);
- 803:
+ 793:
             option = new Array(2);
             option[0] = offset;
             yankee = _closure1_slot17;
@@ -1636,8 +1634,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = _closure1_slot14;
             kiloes = kiloes.USER;
             kiloes = sizing === kiloes;
-            if(!kiloes) { _fun00030_ip = 1023; continue _fun00029 }
- 972:
+            if(!kiloes) { _fun00030_ip = 1013; continue _fun00029 }
+ 962:
             echoed = _closure1_slot16;
             result = _closure1_slot1;
             ctrled = _closure1_slot2;
@@ -1650,10 +1648,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing['userId'] = source;
             sizing['textColor'] = update;
             kiloes = echoed.bind(tangon)(result, sizing);
- 1023:
+ 1013:
             romeon[1] = kiloes;
-            if(!foxtra) { _fun00030_ip = 1137; continue _fun00029 }
- 1030:
+            if(!foxtra) { _fun00030_ip = 1127; continue _fun00029 }
+ 1020:
             sizing = _closure1_slot16;
             update = _closure1_slot0;
             source = _closure1_slot2;
@@ -1678,7 +1676,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = result.bind(echoed)(output);
             backup['accessibilityLabel'] = output;
             foxtra = sizing.bind(tangon)(kiloes, backup);
- 1137:
+ 1127:
             romeon[2] = foxtra;
             verify['children'] = romeon;
             verify = yankee.bind(tangon)(offset, verify);

@@ -133,8 +133,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.useIsSecureFramesUIEnabled;
             michal = {};
             michal['channelId'] = offset;
-            oscard = 'SecureFramesUserVerificationBottomSheet';
-            michal['location'] = oscard;
             update = zuuluu.bind(report)(michal);
             var _closure2_slot6 = update;
             foxtra = 12;
@@ -144,8 +142,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {};
             michal['userId'] = kiloes;
             michal['channelId'] = offset;
-            oscard = 'WebSecureFramesUserVerificationModal';
-            michal['location'] = oscard;
             zuuluu = zuuluu.bind(report)(michal);
             var _closure2_slot7 = zuuluu;
             michal = 13;
@@ -561,17 +557,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = {};
             vacuum = romeon.iconContainer;
             option['style'] = vacuum;
-            if(result) { _fun00002_ip = 843; continue _fun00001 }
- 836:
-            if(echoed) { _fun00002_ip = 843; continue _fun00001 }
- 839:
-            if(!(offset == sizing)) { _fun00002_ip = 859; continue _fun00001 }
- 843:
+            if(result) { _fun00002_ip = 823; continue _fun00001 }
+ 816:
+            if(echoed) { _fun00002_ip = 823; continue _fun00001 }
+ 819:
+            if(!(offset == sizing)) { _fun00002_ip = 839; continue _fun00001 }
+ 823:
             echoed = _closure1_slot13;
             sizing = _closure1_slot5;
             offset = {};
             verify = echoed.bind(tangon)(sizing, offset);
- 859:
+ 839:
             option['children'] = verify;
             verify = zuuluu.bind(tangon)(oscard, option);
             option = new Array(5);
@@ -635,12 +631,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = echoed.0tvNAg;
             echoed = ctrled.bind(vacuum)(echoed);
             romeon['text'] = echoed;
-            if(result) { _fun00002_ip = 1173; continue _fun00001 }
- 1159:
+            if(result) { _fun00002_ip = 1153; continue _fun00001 }
+ 1139:
             echoed = _closure1_slot9;
             echoed = echoed.MATCH;
             result = source !== echoed;
- 1173:
+ 1153:
             romeon['disabled'] = result;
             kiloes = sizing.bind(tangon)(kiloes, romeon);
             romeon = new Array(2);

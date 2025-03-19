@@ -200,37 +200,40 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = argFoo;
                     tangon = michal.rating;
                     entity = michal.reason;
-                    report = michal.feedback;
+                    verify = michal.feedback;
                     zuuluu = null;
                     michal = zuuluu != entity;
-                    verify = null;
+                    offset = null;
                     option = null;
                     if(!michal) { _fun00004_ip = 44; continue _fun00003 }
  34:
-                    verify = entity.code;
+                    offset = entity.code;
                     option = entity.value;
  44:
-                    golfie = _closure1_slot1;
-                    oscard = _closure1_slot2;
+                    oscard = _closure1_slot1;
+                    report = _closure1_slot2;
                     entity = 10;
-                    oscard = oscard[entity];
+                    report = report[entity];
                     entity = undefined;
-                    golfie = golfie.bind(entity)(oscard);
-                    offset = zuuluu != report;
-                    oscard = '';
-                    if(!offset) { _fun00004_ip = 83; continue _fun00003 }
- 80:
-                    oscard = report;
- 83:
-                    yankee = _closure2_slot0;
-                    sizing = undefined;
-                    kiloes = tangon;
-                    backup = verify;
-                    foxtra = option;
-                    romeon = oscard;
-                    report = sizing[golfie](kiloes, backup, foxtra, romeon, yankee, offset);
-                    if(!(zuuluu != tangon)) { _fun00004_ip = 142; continue _fun00003 }
- 112:
+                    golfie = oscard.bind(entity)(report);
+                    report = _closure1_slot3;
+                    oscard = report.CALL_REPORT_PROBLEM;
+                    report = {};
+                    report['rating'] = tangon;
+                    report['reasonCode'] = offset;
+                    report['reasonDescription'] = option;
+                    offset = zuuluu != verify;
+                    option = '';
+                    if(!offset) { _fun00004_ip = 110; continue _fun00003 }
+ 107:
+                    option = verify;
+ 110:
+                    report['feedback'] = option;
+                    option = _closure2_slot0;
+                    report['analyticsData'] = option;
+                    report = golfie.bind(entity)(oscard, report);
+                    if(!(zuuluu != tangon)) { _fun00004_ip = 167; continue _fun00003 }
+ 137:
                     zuuluu = _closure1_slot0;
                     tangon = _closure1_slot2;
                     michal = 11;
@@ -238,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = zuuluu.bind(entity)(michal);
                     michal = zuuluu.presentFeedbackSent;
                     michal = michal.bind(zuuluu)();
- 142:
+ 167:
                     return entity;
                 }
             };

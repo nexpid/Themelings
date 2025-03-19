@@ -271,19 +271,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _closure2_slot4 = source;
             zuuluu = 11;
             zuuluu = vacuum[zuuluu];
-            option = ctrled.bind(tangon)(zuuluu);
-            report = option.useIsUserSecureFramesVerified;
+            golfie = ctrled.bind(tangon)(zuuluu);
+            report = golfie.useIsUserSecureFramesVerified;
             zuuluu = {};
             zuuluu['userId'] = source;
             zuuluu['channelId'] = update;
-            golfie = 'MemberRowItem';
-            zuuluu['location'] = golfie;
-            yankee = report.bind(option)(zuuluu);
+            yankee = report.bind(golfie)(zuuluu);
             zuuluu = 12;
             zuuluu = vacuum[zuuluu];
-            report = ctrled.bind(tangon)(zuuluu);
-            zuuluu = report.useCanRing;
-            report = zuuluu.bind(report)(output, golfie);
+            golfie = ctrled.bind(tangon)(zuuluu);
+            report = golfie.useCanRing;
+            zuuluu = 'MemberRowItem';
+            report = report.bind(golfie)(output, zuuluu);
             golfie = _closure1_slot3;
             option = golfie.useCallback;
             zuuluu = new Array(3);
@@ -428,34 +427,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = source.REFRESH_MEDIUM_32;
             option['size'] = source;
             source = undefined;
-            if(!echoed) { _fun00004_ip = 476; continue _fun00003 }
- 470:
+            if(!echoed) { _fun00004_ip = 472; continue _fun00003 }
+ 466:
             source = foxtra.notConnectedAvatar;
- 476:
+ 472:
             option['style'] = source;
             option = update.bind(tangon)(result, option);
             entity['icon'] = option;
             entity['subLabel'] = golfie;
-            if(!oscard) { _fun00004_ip = 501; continue _fun00003 }
- 498:
-            if(report) { _fun00004_ip = 544; continue _fun00003 }
- 501:
+            if(!oscard) { _fun00004_ip = 497; continue _fun00003 }
+ 494:
+            if(report) { _fun00004_ip = 540; continue _fun00003 }
+ 497:
             report = null;
-            if(!(report == kiloes)) { _fun00004_ip = 516; continue _fun00003 }
- 507:
+            if(!(report == kiloes)) { _fun00004_ip = 512; continue _fun00003 }
+ 503:
             oscard = report != romeon;
             report = undefined;
-            if(!oscard) { _fun00004_ip = 542; continue _fun00003 }
- 516:
+            if(!oscard) { _fun00004_ip = 538; continue _fun00003 }
+ 512:
             option = _closure1_slot5;
             golfie = _closure1_slot8;
             oscard = {};
             oscard['muteDeafenIconState'] = kiloes;
             oscard['videoIconState'] = romeon;
             report = option.bind(tangon)(golfie, oscard);
- 542:
-            _fun00004_ip = 656; continue _fun00003;
- 544:
+ 538:
+            _fun00004_ip = 652; continue _fun00003;
+ 540:
             option = _closure1_slot5;
             result = _closure1_slot0;
             update = _closure1_slot2;
@@ -493,11 +492,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = romeon.bind(kiloes)(verify);
             oscard['text'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 656:
+ 652:
             entity['trailing'] = report;
             romeon = null;
-            if(!(romeon == sizing)) { _fun00004_ip = 698; continue _fun00003 }
- 667:
+            if(!(romeon == sizing)) { _fun00004_ip = 694; continue _fun00003 }
+ 663:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
             report = 22;
@@ -505,7 +504,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.bind(tangon)(report);
             report = oscard.getName;
             sizing = report.bind(oscard)(output);
- 698:
+ 694:
             golfie = _closure1_slot6;
             oscard = _closure1_slot1;
             result = _closure1_slot2;
@@ -525,10 +524,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = 'text-md/semibold';
             option['variant'] = result;
             result = 'text-normal';
-            if(!echoed) { _fun00004_ip = 784; continue _fun00003 }
- 778:
+            if(!echoed) { _fun00004_ip = 780; continue _fun00003 }
+ 774:
             result = 'text-muted';
- 784:
+ 780:
             option['color'] = result;
             option['children'] = sizing;
             verify = kiloes.bind(tangon)(verify, option);
@@ -546,11 +545,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = sizing.bind(tangon)(kiloes, verify);
             option[1] = verify;
             verify = null;
-            if(!backup) { _fun00004_ip = 916; continue _fun00003 }
- 856:
+            if(!backup) { _fun00004_ip = 912; continue _fun00003 }
+ 852:
             verify = null;
-            if(!yankee) { _fun00004_ip = 916; continue _fun00003 }
- 861:
+            if(!yankee) { _fun00004_ip = 912; continue _fun00003 }
+ 857:
             romeon = _closure1_slot5;
             yankee = _closure1_slot0;
             backup = _closure1_slot2;
@@ -564,7 +563,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.icon;
             offset['style'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 916:
+ 912:
             option[2] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

@@ -37,8 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = argFoo;
         oscard = michal.userId;
         var _closure2_slot0 = oscard;
-        yankee = michal.channelId;
-        offset = michal.location;
+        offset = michal.channelId;
         report = _closure1_slot0;
         option = _closure1_slot1;
         zuuluu = 3;
@@ -47,8 +46,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         verify = report.bind(tangon)(zuuluu);
         golfie = verify.useIsSecureFramesUIEnabled;
         zuuluu = {};
-        zuuluu['channelId'] = yankee;
-        zuuluu['location'] = offset;
+        zuuluu['channelId'] = offset;
         golfie = golfie.bind(verify)(zuuluu);
         var _closure2_slot1 = golfie;
         zuuluu = 4;
@@ -108,8 +106,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = argFoo;
         oscard = michal.streamKey;
         var _closure2_slot0 = oscard;
-        yankee = michal.channelId;
-        offset = michal.location;
+        offset = michal.channelId;
         report = _closure1_slot0;
         verify = _closure1_slot1;
         zuuluu = 3;
@@ -118,8 +115,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         option = report.bind(tangon)(zuuluu);
         golfie = option.useIsSecureFramesUIEnabled;
         zuuluu = {};
-        zuuluu['channelId'] = yankee;
-        zuuluu['location'] = offset;
+        zuuluu['channelId'] = offset;
         golfie = golfie.bind(option)(zuuluu);
         var _closure2_slot1 = golfie;
         zuuluu = 5;
@@ -190,8 +186,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['useIsStreamSecureFramesVerified'] = tangon;
     michal = function(argFoo) { // Original name: useIsCallSecureFramesVerified
         michal = argFoo;
-        offset = michal.channelId;
-        verify = michal.location;
+        verify = michal.channelId;
         report = _closure1_slot0;
         option = _closure1_slot1;
         zuuluu = 3;
@@ -200,8 +195,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = report.bind(tangon)(zuuluu);
         oscard = golfie.useIsSecureFramesUIEnabled;
         zuuluu = {};
-        zuuluu['channelId'] = offset;
-        zuuluu['location'] = verify;
+        zuuluu['channelId'] = verify;
         oscard = oscard.bind(golfie)(zuuluu);
         var _closure2_slot0 = oscard;
         zuuluu = 5;

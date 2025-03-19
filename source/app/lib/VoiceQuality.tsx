@@ -911,12 +911,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = {};
                 report = michal.mosCount;
                 report = report > tangon;
-                if(!report) { _fun00012_ip = 116; continue _fun00011 }
- 100:
+                if(!report) { _fun00012_ip = 112; continue _fun00011 }
+ 96:
                 oscard = michal.mosSum;
                 report = michal.mosCount;
                 tangon = oscard / report;
- 116:
+ 112:
                 entity['mos_mean'] = tangon;
                 report = michal.mosBuckets;
                 tangon = 1;

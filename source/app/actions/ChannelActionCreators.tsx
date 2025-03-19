@@ -1241,6 +1241,64 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     michal['setIcon'] = golfie;
+    golfie = function(argFoo, argBar) { // Original name: setWallpaper
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        michal = argBar;
+        var _closure2_slot1 = michal;
+        zuuluu = _closure1_slot4;
+        michal = undefined;
+        entity = function* () {
+            entity = function* () { // Original name: ?anon_0_
+                _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
+ 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(michal) { _fun00032_ip = 118; continue _fun00031 }
+ 7:
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
+                    michal = 8;
+                    zuuluu = zuuluu[michal];
+                    michal = undefined;
+                    michal = tangon.bind(michal)(zuuluu);
+                    tangon = michal.HTTP;
+                    zuuluu = tangon.patch;
+                    michal = {};
+                    option = _closure1_slot11;
+                    golfie = option.CHANNEL;
+                    report = _closure2_slot0;
+                    report = golfie.bind(option)(report);
+                    michal['url'] = report;
+                    report = {};
+                    oscard = _closure2_slot1;
+                    report['wallpaper_id'] = oscard;
+                    michal['body'] = report;
+                    report = true;
+                    michal['oldFormErrors'] = report;
+                    michal['rejectWithError'] = report;
+                    michal = zuuluu.bind(tangon)(michal);
+                    SaveGenerator(address=106);
+ 104:
+                    return michal;
+ 106:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(zuuluu) { _fun00032_ip = 115; continue _fun00031 }
+ 112:
+                    return michal;
+ 115:
+                    return michal;
+ 118:
+                    return entity;
+                }
+            };
+            return entity;
+        };
+        entity = zuuluu.bind(michal)(entity);
+        entity = entity.bind(michal)();
+        return entity;
+    };
+    michal['setWallpaper'] = golfie;
     golfie = function(argFoo) { // Original name: convertToGuild
         zuuluu = _closure1_slot0;
         michal = _closure1_slot2;
@@ -1261,7 +1319,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     michal['convertToGuild'] = golfie;
     golfie = function(argFoo, argBar) { // Original name: preload
-        _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
+        _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
  0:
             golfie = argFoo;
             zuuluu = _closure1_slot1;
@@ -1276,7 +1334,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['type'] = oscard;
             option = _closure1_slot13;
             oscard = null;
-            if(!(golfie !== option)) { _fun00032_ip = 56; continue _fun00031 }
+            if(!(golfie !== option)) { _fun00034_ip = 56; continue _fun00033 }
  53:
             oscard = golfie;
  56:
@@ -1291,18 +1349,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     michal['preload'] = golfie;
     golfie = function(argFoo, argBar) { // Original name: fetchChannelStoreListing
-        _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
+        _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
  0:
             oscard = argFoo;
             report = argBar;
             var _closure2_slot0 = oscard;
             michal = null;
-            if(!(michal == report)) { _fun00034_ip = 38; continue _fun00033 }
+            if(!(michal == report)) { _fun00036_ip = 38; continue _fun00035 }
  18:
             zuuluu = _closure1_slot11;
             michal = zuuluu.CHANNEL_STORE_LISTING;
             tangon = michal.bind(zuuluu)(oscard);
-            _fun00034_ip = 57; continue _fun00033;
+            _fun00036_ip = 57; continue _fun00035;
  38:
             zuuluu = _closure1_slot11;
             michal = zuuluu.CHANNEL_STORE_LISTING_SKU;
@@ -1354,11 +1412,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
+                _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00036_ip = 218; continue _fun00035 }
+                    if(michal) { _fun00038_ip = 218; continue _fun00037 }
  10:
                     option = {};
                     michal = _closure1_slot15;
@@ -1370,13 +1428,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option['permission_overwrites'] = michal;
                     michal = _closure2_slot2;
                     report = null;
-                    if(!(report != michal)) { _fun00036_ip = 69; continue _fun00035 }
+                    if(!(report != michal)) { _fun00038_ip = 69; continue _fun00037 }
  59:
                     michal = _closure2_slot2;
                     option['parent_id'] = michal;
  69:
                     michal = _closure2_slot3;
-                    if(!(report != michal)) { _fun00036_ip = 87; continue _fun00035 }
+                    if(!(report != michal)) { _fun00038_ip = 87; continue _fun00037 }
  77:
                     michal = _closure2_slot3;
                     option['topic'] = michal;
@@ -1406,7 +1464,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  171:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00036_ip = 215; continue _fun00035 }
+                    if(report) { _fun00038_ip = 215; continue _fun00037 }
  177:
                     report = _closure1_slot1;
                     golfie = _closure1_slot2;
@@ -1437,11 +1495,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
+                _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00038_ip = 102; continue _fun00037 }
+                    if(michal) { _fun00040_ip = 102; continue _fun00039 }
  7:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot2;
@@ -1465,7 +1523,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  85:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00038_ip = 99; continue _fun00037 }
+                    if(zuuluu) { _fun00040_ip = 99; continue _fun00039 }
  91:
                     zuuluu = michal.body;
                     return zuuluu;

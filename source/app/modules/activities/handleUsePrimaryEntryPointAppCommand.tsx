@@ -129,99 +129,101 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 419; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 430; continue _fun00003 }
  13:
                     option = michal.targetApplication;
-                    output = michal.locationObject;
-                    ctrled = michal.channelId;
-                    sizing = michal.analyticsLocations;
-                    update = michal.componentId;
-                    echoed = michal.commandOrigin;
-                    result = michal.sectionName;
-                    kiloes = michal.source;
-                    backup = michal.onExecutedCallback;
-                    foxtra = michal.referrerId;
-                    romeon = michal.customId;
-                    yankee = michal.inviterUserId;
+                    result = michal.locationObject;
+                    vacuum = michal.channelId;
+                    output = michal.analyticsLocations;
+                    source = michal.componentId;
+                    update = michal.commandOrigin;
+                    echoed = michal.sectionName;
+                    sizing = michal.source;
+                    kiloes = michal.onExecutedCallback;
+                    backup = michal.referrerId;
+                    foxtra = michal.customId;
+                    romeon = michal.inviterUserId;
+                    yankee = michal.onConfirmActivityLaunchChecksAlertOpen;
                     golfie = undefined;
-                    SaveGenerator(address=89);
- 87:
+                    SaveGenerator(address=95);
+ 93:
                     return golfie;
- 89:
+ 95:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 416; continue _fun00003 }
- 98:
+                    if(zuuluu) { _fun00004_ip = 427; continue _fun00003 }
+ 104:
                     report = _closure1_slot1;
                     oscard = _closure1_slot3;
                     zuuluu = 7;
                     zuuluu = oscard[zuuluu];
                     zuuluu = report.bind(golfie)(zuuluu);
-                    source = zuuluu.bind(golfie)();
+                    ctrled = zuuluu.bind(golfie)();
                     report = _closure1_slot6;
                     zuuluu = report.getCurrentUser;
                     oscard = zuuluu.bind(report)();
                     report = null;
-                    if(!(report != ctrled)) { _fun00004_ip = 353; continue _fun00003 }
- 147:
+                    if(!(report != vacuum)) { _fun00004_ip = 364; continue _fun00003 }
+ 153:
                     verify = _closure1_slot5;
                     zuuluu = verify.getChannel;
-                    zuuluu = zuuluu.bind(verify)(ctrled);
+                    zuuluu = zuuluu.bind(verify)(vacuum);
                     zuuluu = report != zuuluu;
-                    if(!zuuluu) { _fun00004_ip = 348; continue _fun00003 }
- 171:
+                    if(!zuuluu) { _fun00004_ip = 359; continue _fun00003 }
+ 177:
                     oscard = report != oscard;
-                    if(!oscard) { _fun00004_ip = 182; continue _fun00003 }
- 178:
+                    if(!oscard) { _fun00004_ip = 188; continue _fun00003 }
+ 184:
                     oscard = report != option;
- 182:
-                    if(!oscard) { _fun00004_ip = 345; continue _fun00003 }
  188:
+                    if(!oscard) { _fun00004_ip = 356; continue _fun00003 }
+ 194:
                     verify = _closure1_slot2;
                     offset = _closure1_slot3;
                     report = 9;
                     report = offset[report];
-                    vacuum = verify.bind(golfie)(report);
-                    verify = vacuum.markActivityUsed;
+                    sequen = verify.bind(golfie)(report);
+                    verify = sequen.markActivityUsed;
                     report = option.id;
-                    report = verify.bind(vacuum)(report);
+                    report = verify.bind(sequen)(report);
                     verify = _closure1_slot0;
                     report = 10;
                     report = offset[report];
                     offset = verify.bind(golfie)(report);
                     verify = offset.runPrimaryAppCommandOrJoinEmbeddedActivity;
                     report = {};
-                    report['channelId'] = ctrled;
-                    ctrled = option.id;
-                    report['applicationId'] = ctrled;
-                    ctrled = true;
-                    report['isStart'] = ctrled;
-                    report['embeddedActivitiesManager'] = source;
-                    report['componentId'] = update;
-                    report['commandOrigin'] = echoed;
-                    report['sectionName'] = result;
-                    report['locationObject'] = output;
-                    report['analyticsLocations'] = sizing;
-                    report['source'] = kiloes;
-                    report['onExecutedCallback'] = backup;
-                    report['referrerId'] = foxtra;
-                    report['customId'] = romeon;
+                    report['channelId'] = vacuum;
+                    vacuum = option.id;
+                    report['applicationId'] = vacuum;
+                    vacuum = true;
+                    report['isStart'] = vacuum;
+                    report['embeddedActivitiesManager'] = ctrled;
+                    report['componentId'] = source;
+                    report['commandOrigin'] = update;
+                    report['sectionName'] = echoed;
+                    report['locationObject'] = result;
+                    report['analyticsLocations'] = output;
+                    report['source'] = sizing;
+                    report['onExecutedCallback'] = kiloes;
+                    report['referrerId'] = backup;
+                    report['customId'] = foxtra;
                     report['instanceId'] = golfie;
-                    report['inviterUserId'] = yankee;
+                    report['inviterUserId'] = romeon;
+                    report['onConfirmActivityLaunchChecksAlertOpen'] = yankee;
                     report = verify.bind(offset)(report);
-                    SaveGenerator(address=336);
- 334:
+                    SaveGenerator(address=347);
+ 345:
                     return report;
- 336:
+ 347:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=8);
                     oscard = report;
-                    if(verify) { _fun00004_ip = 350; continue _fun00003 }
- 345:
+                    if(verify) { _fun00004_ip = 361; continue _fun00003 }
+ 356:
                     zuuluu = oscard;
- 348:
-                    _fun00004_ip = 413; continue _fun00003;
- 350:
+ 359:
+                    _fun00004_ip = 424; continue _fun00003;
+ 361:
                     return report;
- 353:
+ 364:
                     oscard = _closure1_slot0;
                     verify = _closure1_slot3;
                     report = 8;
@@ -236,11 +238,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon['applicationId'] = option;
                     tangon = oscard.bind(golfie)(report, tangon);
                     zuuluu = false;
- 413:
+ 424:
                     return zuuluu;
- 416:
+ 427:
                     return michal;
- 419:
+ 430:
                     return entity;
                 }
             };

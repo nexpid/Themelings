@@ -227,10 +227,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  118:
             tangon = michal.customId;
             var _closure2_slot10 = tangon;
-            michal = michal.referrerId;
-            var _closure2_slot11 = michal;
-            var _closure2_slot12 = zuuluu;
+            tangon = michal.referrerId;
+            var _closure2_slot11 = tangon;
+            michal = michal.onConfirmActivityLaunchChecksAlertOpen;
+            var _closure2_slot12 = michal;
             var _closure2_slot13 = zuuluu;
+            var _closure2_slot14 = zuuluu;
             report = _closure1_slot9;
             tangon = {};
             tangon['context'] = option;
@@ -244,26 +246,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = oscard.bind(zuuluu)(tangon);
             tangon = tangon.bind(zuuluu)();
             tangon = tangon.analyticsLocations;
-            _closure2_slot12 = tangon;
+            _closure2_slot13 = tangon;
             tangon = 11;
             tangon = golfie[tangon];
             tangon = oscard.bind(zuuluu)(tangon);
             tangon = tangon.bind(zuuluu)();
-            _closure2_slot13 = tangon;
+            _closure2_slot14 = tangon;
             tangon = _closure1_slot7;
             tangon = tangon.START;
-            if(!(tangon !== report)) { _fun00008_ip = 298; continue _fun00007 }
- 241:
+            if(!(tangon !== report)) { _fun00008_ip = 308; continue _fun00007 }
+ 251:
             tangon = _closure1_slot7;
             tangon = tangon.JOIN;
-            if(!(tangon !== report)) { _fun00008_ip = 280; continue _fun00007 }
- 255:
+            if(!(tangon !== report)) { _fun00008_ip = 290; continue _fun00007 }
+ 265:
             tangon = _closure1_slot7;
             tangon = tangon.LEAVE;
-            if(!(tangon !== report)) { _fun00008_ip = 271; continue _fun00007 }
- 269:
+            if(!(tangon !== report)) { _fun00008_ip = 281; continue _fun00007 }
+ 279:
             return zuuluu;
- 271:
+ 281:
             tangon = function() {
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
@@ -272,14 +274,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = entity.bind(michal)();
                     if(entity) { _fun00010_ip = 100; continue _fun00009 }
  20:
-                    michal = _closure2_slot13;
+                    michal = _closure2_slot14;
                     zuuluu = null;
                     if(!(zuuluu != michal)) { _fun00010_ip = 71; continue _fun00009 }
  33:
                     report = _closure2_slot4;
                     tangon = report.leaveActivity;
                     michal = {};
-                    oscard = _closure2_slot13;
+                    oscard = _closure2_slot14;
                     oscard = oscard.location;
                     michal['location'] = oscard;
                     oscard = _closure2_slot0;
@@ -301,7 +303,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             return tangon;
- 280:
+ 290:
             report = _closure1_slot3;
             tangon = function* () {
                 entity = function* () { // Original name: ?anon_0_
@@ -338,7 +340,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal['activityChannelId'] = oscard;
                         oscard = _closure2_slot3;
                         michal['locationObject'] = oscard;
-                        oscard = _closure2_slot12;
+                        oscard = _closure2_slot13;
                         michal['analyticsLocations'] = oscard;
                         oscard = _closure2_slot6;
                         michal['componentId'] = oscard;
@@ -399,7 +401,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             tangon = report.bind(zuuluu)(tangon);
             return tangon;
- 298:
+ 308:
             michal = _closure1_slot3;
             entity = function* () {
                 entity = function* () { // Original name: ?anon_0_
@@ -407,7 +409,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00016_ip = 274; continue _fun00015 }
+                        if(michal) { _fun00016_ip = 283; continue _fun00015 }
  10:
                         michal = undefined;
                         golfie = undefined;
@@ -439,7 +441,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return zuuluu;
  105:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                        if(tangon) { _fun00016_ip = 266; continue _fun00015 }
+                        if(tangon) { _fun00016_ip = 275; continue _fun00015 }
  114:
                         golfie = zuuluu;
  117: // try_end0
@@ -454,7 +456,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         option = _closure2_slot3;
                         tangon['locationObject'] = option;
                         tangon['channelId'] = golfie;
-                        golfie = _closure2_slot12;
+                        golfie = _closure2_slot13;
                         tangon['analyticsLocations'] = golfie;
                         golfie = _closure2_slot6;
                         tangon['componentId'] = golfie;
@@ -466,8 +468,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         tangon['source'] = golfie;
                         golfie = _closure2_slot10;
                         tangon['customId'] = golfie;
-                        oscard = _closure2_slot11;
-                        tangon['referrerId'] = oscard;
+                        golfie = _closure2_slot11;
+                        tangon['referrerId'] = golfie;
+                        oscard = _closure2_slot12;
+                        tangon['onConfirmActivityLaunchChecksAlertOpen'] = oscard;
                         oscard = report.bind(michal)(tangon);
                         report = oscard.then;
                         tangon = function(argFoo) {
@@ -495,22 +499,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             }
                         };
                         tangon = report.bind(oscard)(tangon);
-                        SaveGenerator(address=254);
- 252:
+                        SaveGenerator(address=263);
+ 261:
                         return tangon;
- 254:
-                        ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                        if(report) { _fun00016_ip = 263; continue _fun00015 }
- 260:
-                        return michal;
  263:
+                        ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
+                        if(report) { _fun00016_ip = 272; continue _fun00015 }
+ 269:
+                        return michal;
+ 272:
                         return tangon;
- 266:
+ 275:
                         return zuuluu;
- 269: // catch_target0
+ 278: // catch_target0
                         CatchBlockStart(arg_register=2);
                         return michal;
- 274:
+ 283:
                         return entity;
                     }
                 };

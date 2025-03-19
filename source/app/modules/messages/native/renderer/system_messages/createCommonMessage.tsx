@@ -95,10 +95,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = _closure1_slot2;
         verify = 4;
         verify = golfie[verify];
-        yankee = zuuluu.bind(oscard)(verify);
-        verify = yankee.calendarFormat;
-        option = option.timestamp;
-        option = verify.bind(yankee)(option);
+        romeon = zuuluu.bind(oscard)(verify);
+        yankee = romeon.calendarFormat;
+        verify = option.timestamp;
+        option = true;
+        option = yankee.bind(romeon)(verify, option);
         entity['timestamp'] = option;
         option = report.timestampColor;
         entity['timestampColor'] = option;

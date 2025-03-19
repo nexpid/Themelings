@@ -330,60 +330,69 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: calendarFormat
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-            report = argFoo;
-            zuuluu = _closure1_slot1;
-            oscard = _closure1_slot2;
-            entity = 4;
-            golfie = oscard[entity];
-            tangon = undefined;
-            option = zuuluu.bind(tangon)(golfie);
-            golfie = option.localeData;
-            verify = golfie.bind(option)();
-            entity = oscard[entity];
-            entity = zuuluu.bind(tangon)(entity);
-            option = entity.bind(tangon)();
-            oscard = _closure1_slot9;
-            entity = _closure1_slot12;
-            zuuluu = entity.bind(tangon)(report);
-            entity = option.toDate;
-            entity = entity.bind(option)();
-            oscard = oscard.bind(tangon)(zuuluu, entity);
-            entity = -1;
-            if(!(!(oscard < entity))) { _fun00014_ip = 175; continue _fun00013 }
- 90:
-            entity = 0;
-            entity = oscard < entity;
+            tangon = argFoo;
+            michal = arguments[1];
+            zuuluu = undefined;
+            if(!(michal === zuuluu)) { _fun00014_ip = 14; continue _fun00013 }
+ 12:
+            michal = false;
+ 14:
+            oscard = _closure1_slot1;
+            golfie = _closure1_slot2;
+            report = 4;
+            option = golfie[report];
+            verify = oscard.bind(zuuluu)(option);
+            option = verify.localeData;
+            verify = option.bind(verify)();
+            report = golfie[report];
+            report = oscard.bind(zuuluu)(report);
+            option = report.bind(zuuluu)();
+            golfie = _closure1_slot9;
+            report = _closure1_slot12;
+            oscard = report.bind(zuuluu)(tangon);
+            report = option.toDate;
+            report = report.bind(option)();
+            oscard = golfie.bind(zuuluu)(oscard, report);
+            report = -1;
+            if(!(!(oscard < report))) { _fun00014_ip = 199; continue _fun00013 }
+ 99:
+            report = 0;
+            report = oscard < report;
             golfie = 'lastDay';
-            if(entity) { _fun00014_ip = 141; continue _fun00013 }
- 103:
-            entity = 1;
-            zuuluu = oscard < entity;
-            entity = 'sameDay';
-            if(zuuluu) { _fun00014_ip = 138; continue _fun00013 }
- 117:
-            zuuluu = 2;
-            oscard = oscard < zuuluu;
-            zuuluu = 'sameElse';
-            if(!oscard) { _fun00014_ip = 135; continue _fun00013 }
- 131:
-            zuuluu = 'nextDay';
- 135:
-            entity = zuuluu;
- 138:
-            golfie = entity;
- 141:
-            zuuluu = _closure1_slot10;
+            if(report) { _fun00014_ip = 165; continue _fun00013 }
+ 112:
+            report = 1;
+            if(!(!(oscard < report))) { _fun00014_ip = 142; continue _fun00013 }
+ 119:
+            report = 2;
+            oscard = oscard < report;
+            report = 'sameElse';
+            if(!oscard) { _fun00014_ip = 137; continue _fun00013 }
+ 133:
+            report = 'nextDay';
+ 137:
+            golfie = report;
+            _fun00014_ip = 165; continue _fun00013;
+ 142:
+            golfie = 'sameDay';
+            if(!michal) { _fun00014_ip = 165; continue _fun00013 }
+ 149:
+            report = _closure1_slot10;
+            michal = 'LT';
+            michal = report.bind(zuuluu)(tangon, michal);
+            return michal;
+ 165:
+            report = _closure1_slot10;
             oscard = verify.calendar;
-            entity = _closure1_slot11;
-            entity = entity.bind(tangon)(report);
-            entity = oscard.bind(verify)(golfie, entity, option);
-            entity = zuuluu.bind(tangon)(report, entity);
-            _fun00014_ip = 191; continue _fun00013;
- 175:
-            zuuluu = _closure1_slot10;
-            michal = 'L LT';
-            entity = zuuluu.bind(tangon)(report, michal);
- 191:
+            michal = _closure1_slot11;
+            michal = michal.bind(zuuluu)(tangon);
+            michal = oscard.bind(verify)(golfie, michal, option);
+            michal = report.bind(zuuluu)(tangon, michal);
+            return michal;
+ 199:
+            michal = _closure1_slot10;
+            entity = 'L LT';
+            entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         }
     };
@@ -524,16 +533,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot1 = report;
             entity = {'days': 0, 'hours': 0, 'minutes': 0};
             tangon = 0;
-            if(!zuuluu) { _fun00020_ip = 49; continue _fun00019 }
- 46:
+            if(!zuuluu) { _fun00020_ip = 45; continue _fun00019 }
+ 42:
             tangon = 1;
- 49:
+ 45:
             entity['seconds'] = tangon;
             _closure2_slot0 = entity;
-            if(!(!(oscard > golfie))) { _fun00020_ip = 161; continue _fun00019 }
- 62:
-            if(!zuuluu) { _fun00020_ip = 103; continue _fun00019 }
- 65:
+            if(!(!(oscard > golfie))) { _fun00020_ip = 157; continue _fun00019 }
+ 58:
+            if(!zuuluu) { _fun00020_ip = 99; continue _fun00019 }
+ 61:
             zuuluu = global;
             tangon = zuuluu.Number;
             option = tangon.bind(report)(oscard);
@@ -541,8 +550,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = option + tangon;
             zuuluu = zuuluu.Number;
             zuuluu = zuuluu.bind(report)(golfie);
-            if(!(!(tangon > zuuluu))) { _fun00020_ip = 159; continue _fun00019 }
- 103:
+            if(!(!(tangon > zuuluu))) { _fun00020_ip = 155; continue _fun00019 }
+ 99:
             zuuluu = global;
             tangon = zuuluu.Number;
             tangon = tangon.bind(report)(golfie);
@@ -575,9 +584,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             michal = zuuluu.bind(tangon)(michal);
             return entity;
- 159:
+ 155:
             return entity;
- 161:
+ 157:
             return entity;
         }
     };

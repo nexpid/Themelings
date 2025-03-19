@@ -15,8 +15,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['value'] = entity;
     entity = '__esModule';
     entity = golfie.bind(option)(zuuluu, entity, tangon);
-    foxtra = 0;
-    golfie = oscard[foxtra];
+    romeon = 0;
+    golfie = oscard[romeon];
     tangon = argCor;
     entity = undefined;
     tangon = tangon.bind(entity)(golfie);
@@ -51,55 +51,46 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['mediaBackground'] = verify;
     verify = {};
     offset = 5;
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.radii;
-    romeon = romeon.lg;
-    verify['borderRadius'] = romeon;
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.BG_SURFACE_RAISED;
-    verify['backgroundColor'] = romeon;
-    romeon = '100%';
-    verify['width'] = romeon;
-    romeon = 'hidden';
-    verify['overflow'] = romeon;
+    foxtra = oscard[offset];
+    foxtra = yankee.bind(entity)(foxtra);
+    foxtra = foxtra.radii;
+    foxtra = foxtra.lg;
+    verify['borderRadius'] = foxtra;
+    foxtra = oscard[offset];
+    foxtra = yankee.bind(entity)(foxtra);
+    foxtra = foxtra.colors;
+    foxtra = foxtra.BG_SURFACE_RAISED;
+    verify['backgroundColor'] = foxtra;
+    foxtra = '100%';
+    verify['width'] = foxtra;
+    foxtra = 'hidden';
+    verify['overflow'] = foxtra;
     tangon['container'] = verify;
     verify = {'width': '100%', 'height': 106, 'overflow': 'hidden'};
     tangon['banner'] = verify;
     verify = {'padding': null, 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between'};
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.spacing;
-    romeon = romeon.PX_16;
-    verify['padding'] = romeon;
-    romeon = 'center';
-    tangon['appDetailsContainer'] = verify;
-    verify = {'marginLeft': null, 'flexDirection': 'column', 'flexGrow': 1, 'flexShrink': 1};
-    backup = oscard[offset];
-    backup = yankee.bind(entity)(backup);
-    backup = backup.spacing;
-    backup = backup.PX_16;
-    verify['marginLeft'] = backup;
-    tangon['appDetails'] = verify;
-    verify = {};
-    verify['flexShrink'] = foxtra;
-    tangon['appIconContainer'] = verify;
-    verify = {};
     foxtra = oscard[offset];
     foxtra = yankee.bind(entity)(foxtra);
     foxtra = foxtra.spacing;
-    foxtra = foxtra.PX_4;
-    verify['paddingVertical'] = foxtra;
-    verify['justifyContent'] = romeon;
+    foxtra = foxtra.PX_16;
+    verify['padding'] = foxtra;
+    tangon['appDetailsContainer'] = verify;
+    verify = {'marginLeft': null, 'flexDirection': 'column', 'flexGrow': 1, 'flexShrink': 1};
+    foxtra = oscard[offset];
+    foxtra = yankee.bind(entity)(foxtra);
+    foxtra = foxtra.spacing;
+    foxtra = foxtra.PX_16;
+    verify['marginLeft'] = foxtra;
+    tangon['appDetails'] = verify;
+    verify = {};
+    verify['flexShrink'] = romeon;
+    tangon['appIconContainer'] = verify;
+    verify = {'position': 'absolute', 'display': 'flex'};
     romeon = oscard[offset];
     romeon = yankee.bind(entity)(romeon);
     romeon = romeon.spacing;
-    romeon = romeon.PX_8;
-    verify['paddingHorizontal'] = romeon;
-    romeon = 'absolute';
-    verify['position'] = romeon;
+    romeon = romeon.PX_4;
+    verify['gap'] = romeon;
     romeon = oscard[offset];
     romeon = yankee.bind(entity)(romeon);
     romeon = romeon.spacing;
@@ -110,6 +101,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     romeon = romeon.spacing;
     romeon = romeon.PX_8;
     verify['top'] = romeon;
+    romeon = 'flex-end';
+    verify['alignItems'] = romeon;
+    tangon['notifsContainer'] = verify;
+    verify = {};
+    tangon['badge'] = verify;
+    verify = {};
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.spacing;
+    romeon = romeon.PX_4;
+    verify['paddingVertical'] = romeon;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.spacing;
+    romeon = romeon.PX_8;
+    verify['paddingHorizontal'] = romeon;
     romeon = oscard[offset];
     romeon = yankee.bind(entity)(romeon);
     romeon = romeon.colors;
@@ -123,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['promotedLabelWrapper'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot8 = tangon;
-    tangon = 16;
+    tangon = 18;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -140,16 +147,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = michal.isFirst;
             oscard = michal.isLast;
             entity = michal.isLandscape;
-            result = michal.showsPromoted;
+            ctrled = michal.showsPromoted;
             report = undefined;
-            if(!(result === report)) { _fun00002_ip = 56; continue _fun00001 }
+            if(!(ctrled === report)) { _fun00002_ip = 56; continue _fun00001 }
  54:
-            result = false;
+            ctrled = false;
  56:
-            update = michal.overrideImageUrl;
+            echoed = michal.overrideImageUrl;
             tangon = _closure1_slot8;
             output = tangon.bind(report)();
-            if(result) { _fun00002_ip = 107; continue _fun00001 }
+            if(ctrled) { _fun00002_ip = 107; continue _fun00001 }
  76:
             verify = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -157,18 +164,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = yankee[tangon];
             verify = verify.bind(report)(tangon);
             tangon = verify.isPromotedApplication;
-            result = tangon.bind(verify)(offset);
+            ctrled = tangon.bind(verify)(offset);
  107:
+            verify = _closure1_slot0;
+            tangon = _closure1_slot2;
+            vacuum = 6;
+            tangon = tangon[vacuum];
+            verify = verify.bind(report)(tangon);
+            tangon = verify.getShelfBadgeTypeIfActive;
+            config = tangon.bind(verify)(offset);
             yankee = _closure1_slot3;
             verify = yankee.useEffect;
             tangon = offset.bot;
             kiloes = null;
             backup = kiloes == tangon;
             foxtra = undefined;
-            if(backup) { _fun00002_ip = 138; continue _fun00001 }
- 133:
+            if(backup) { _fun00002_ip = 169; continue _fun00001 }
+ 164:
             foxtra = tangon.id;
- 138:
+ 169:
             tangon = new Array(1);
             tangon[0] = foxtra;
             zuuluu = function() {
@@ -214,8 +228,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = true;
             zuuluu['botIconFirst'] = yankee;
             verify = tangon.bind(verify)(zuuluu);
-            if(entity) { _fun00002_ip = 907; continue _fun00001 }
- 234:
+            if(entity) { _fun00002_ip = 1063; continue _fun00001 }
+ 265:
             tangon = _closure1_slot7;
             zuuluu = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -229,15 +243,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee[0] = foxtra;
             foxtra = {};
             sizing = backup;
-            if(!golfie) { _fun00002_ip = 289; continue _fun00001 }
- 287:
+            if(!golfie) { _fun00002_ip = 320; continue _fun00001 }
+ 318:
             sizing = 0;
- 289:
+ 320:
             foxtra['marginTop'] = sizing;
-            if(!oscard) { _fun00002_ip = 298; continue _fun00001 }
- 296:
+            if(!oscard) { _fun00002_ip = 329; continue _fun00001 }
+ 327:
             backup = 0;
- 298:
+ 329:
             foxtra['marginBottom'] = backup;
             yankee[1] = foxtra;
             yankee[2] = romeon;
@@ -248,66 +262,98 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = {};
             backup = output.banner;
             yankee['style'] = backup;
-            echoed = _closure1_slot6;
+            result = _closure1_slot6;
             sizing = _closure1_slot1;
-            vacuum = _closure1_slot2;
+            update = _closure1_slot2;
             backup = 11;
-            backup = vacuum[backup];
+            backup = update[backup];
             sizing = sizing.bind(report)(backup);
             backup = {};
             source = offset.bot;
             backup['applicationBot'] = source;
-            ctrled = _closure1_slot0;
-            source = 6;
-            source = vacuum[source];
-            ctrled = ctrled.bind(report)(source);
-            source = ctrled.isEmbeddedApp;
-            source = source.bind(ctrled)(offset);
-            backup['applicationEmbedded'] = source;
-            source = offset.id;
-            backup['applicationId'] = source;
-            ctrled = offset.icon;
-            vacuum = kiloes != ctrled;
-            source = undefined;
-            if(!vacuum) { _fun00002_ip = 433; continue _fun00001 }
- 430:
-            source = ctrled;
- 433:
-            backup['applicationIcon'] = source;
-            backup['overrideImageUrl'] = update;
-            sizing = echoed.bind(report)(sizing, backup);
+            source = _closure1_slot0;
+            update = update[vacuum];
+            source = source.bind(report)(update);
+            update = source.isEmbeddedApp;
+            update = update.bind(source)(offset);
+            backup['applicationEmbedded'] = update;
+            update = offset.id;
+            backup['applicationId'] = update;
+            source = offset.icon;
+            vacuum = kiloes != source;
+            update = undefined;
+            if(!vacuum) { _fun00002_ip = 461; continue _fun00001 }
+ 458:
+            update = source;
+ 461:
+            backup['applicationIcon'] = update;
+            backup['overrideImageUrl'] = echoed;
+            sizing = result.bind(report)(sizing, backup);
             backup = new Array(2);
             backup[0] = sizing;
+            if(ctrled) { _fun00002_ip = 529; continue _fun00001 }
+ 488:
+            result = _closure1_slot0;
+            echoed = _closure1_slot2;
+            sizing = 12;
+            sizing = echoed[sizing];
+            sizing = result.bind(report)(sizing);
+            sizing = sizing.EmbeddedActivityLabelTypes;
+            result = sizing.NONE;
             sizing = null;
-            if(!result) { _fun00002_ip = 591; continue _fun00001 }
- 465:
-            update = _closure1_slot6;
+            if(!(config !== result)) { _fun00002_ip = 751; continue _fun00001 }
+ 529:
+            update = _closure1_slot7;
             echoed = _closure1_slot4;
             result = {};
-            source = output.promotedLabelWrapper;
+            source = output.notifsContainer;
             result['style'] = source;
-            record = _closure1_slot0;
-            cntext = _closure1_slot2;
-            source = 12;
-            source = cntext[source];
-            source = record.bind(report)(source);
-            ctrled = source.Text;
-            source = {'variant': 'text-xxs/medium', 'color': 'header-primary'};
-            vacuum = 13;
-            sequen = cntext[vacuum];
-            sequen = record.bind(report)(sequen);
-            config = sequen.intl;
-            sequen = config.string;
-            vacuum = cntext[vacuum];
-            vacuum = record.bind(report)(vacuum);
-            vacuum = vacuum.t;
-            vacuum = vacuum./eVltr;
-            vacuum = sequen.bind(config)(vacuum);
-            source['children'] = vacuum;
-            source = update.bind(report)(ctrled, source);
+            sequen = _closure1_slot6;
+            vacuum = _closure1_slot1;
+            record = _closure1_slot2;
+            source = 13;
+            source = record[source];
+            vacuum = vacuum.bind(report)(source);
+            source = {};
+            source['labelType'] = config;
+            config = output.badge;
+            source['replacementStyles'] = config;
+            vacuum = sequen.bind(report)(vacuum, source);
+            source = new Array(2);
+            source[0] = vacuum;
+            if(!ctrled) { _fun00002_ip = 737; continue _fun00001 }
+ 611:
+            config = _closure1_slot6;
+            sequen = _closure1_slot4;
+            vacuum = {};
+            record = output.promotedLabelWrapper;
+            vacuum['style'] = record;
+            sierra = _closure1_slot0;
+            limora = _closure1_slot2;
+            record = 14;
+            record = limora[record];
+            record = sierra.bind(report)(record);
+            cntext = record.Text;
+            record = {'variant': 'text-xxs/medium', 'color': 'header-primary'};
+            papara = 15;
+            target = limora[papara];
+            target = sierra.bind(report)(target);
+            status = target.intl;
+            target = status.string;
+            papara = limora[papara];
+            papara = sierra.bind(report)(papara);
+            papara = papara.t;
+            papara = papara./eVltr;
+            papara = target.bind(status)(papara);
+            record['children'] = papara;
+            record = config.bind(report)(cntext, record);
+            vacuum['children'] = record;
+            ctrled = config.bind(report)(sequen, vacuum);
+ 737:
+            source[1] = ctrled;
             result['children'] = source;
             sizing = update.bind(report)(echoed, result);
- 591:
+ 751:
             backup[1] = sizing;
             yankee['children'] = backup;
             romeon = foxtra.bind(report)(romeon, yankee);
@@ -319,12 +365,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = output.appDetailsContainer;
             romeon['style'] = sizing;
             sizing = kiloes != verify;
-            if(!sizing) { _fun00002_ip = 696; continue _fun00001 }
- 640:
+            if(!sizing) { _fun00002_ip = 856; continue _fun00001 }
+ 800:
             echoed = _closure1_slot6;
             result = _closure1_slot1;
             update = _closure1_slot2;
-            kiloes = 14;
+            kiloes = 16;
             kiloes = update[kiloes];
             result = result.bind(report)(kiloes);
             kiloes = {};
@@ -334,7 +380,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = output.appIconContainer;
             kiloes['wrapperStyle'] = update;
             sizing = echoed.bind(report)(result, kiloes);
- 696:
+ 856:
             kiloes = new Array(3);
             kiloes[0] = sizing;
             source = _closure1_slot7;
@@ -345,7 +391,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = _closure1_slot6;
             output = _closure1_slot0;
             echoed = _closure1_slot2;
-            vacuum = 12;
+            vacuum = 14;
             ctrled = echoed[vacuum];
             ctrled = output.bind(report)(ctrled);
             sequen = ctrled.Text;
@@ -366,7 +412,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing['children'] = ctrled;
             sizing = source.bind(report)(update, sizing);
             kiloes[1] = sizing;
-            sizing = 15;
+            sizing = 17;
             sizing = echoed[sizing];
             sizing = output.bind(report)(sizing);
             output = sizing.TableRowArrow;
@@ -378,8 +424,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee[1] = romeon;
             entity['children'] = yankee;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 968; continue _fun00001;
- 907:
+            _fun00002_ip = 1124; continue _fun00001;
+ 1063:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -394,7 +440,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['isFirstRow'] = golfie;
             michal['isLastRow'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 968:
+ 1124:
             return entity;
         }
     };

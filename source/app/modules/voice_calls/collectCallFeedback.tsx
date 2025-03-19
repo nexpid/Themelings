@@ -66,8 +66,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  51:
             michal = undefined;
             michal = tangon.bind(michal)();
-            _fun00002_ip = 525; continue _fun00001;
+            _fun00002_ip = 625; continue _fun00001;
  62:
+            golfie = _closure1_slot6;
+            michal = golfie.getVoiceFilterSpeakingDurationMs;
+            option = michal.bind(golfie)();
             michal = {};
             zuuluu = oscard.id;
             michal['channel_id'] = zuuluu;
@@ -76,7 +79,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = oscard.getGuildId;
             zuuluu = zuuluu.bind(oscard)();
             michal['guild_id'] = zuuluu;
-            golfie = _closure1_slot6;
             zuuluu = golfie.getRTCConnectionId;
             zuuluu = zuuluu.bind(golfie)();
             michal['rtc_connection_id'] = zuuluu;
@@ -86,26 +88,54 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = golfie.getMediaSessionId;
             zuuluu = zuuluu.bind(golfie)();
             michal['media_session_id'] = zuuluu;
-            option = _closure1_slot0;
+            verify = _closure1_slot0;
             oscard = _closure1_slot2;
             zuuluu = 6;
             oscard = oscard[zuuluu];
             zuuluu = undefined;
-            offset = option.bind(zuuluu)(oscard);
-            verify = offset.getVoiceStateMetadata;
+            yankee = verify.bind(zuuluu)(oscard);
+            offset = yankee.getVoiceStateMetadata;
             oscard = golfie.getGuildId;
-            option = oscard.bind(golfie)();
+            verify = oscard.bind(golfie)();
             oscard = golfie.getChannelId;
             golfie = oscard.bind(golfie)();
             oscard = argCor;
-            romeon = verify.bind(offset)(option, golfie, oscard);
-            foxtra = michal;
-            oscard = copyDataProperties(foxtra, romeon);
+            foxtra = offset.bind(yankee)(verify, golfie, oscard);
+            backup = michal;
+            oscard = copyDataProperties(backup, foxtra);
+            oscard = report != option;
+            golfie = null;
+            if(!oscard) { _fun00002_ip = 254; continue _fun00001 }
+ 229:
+            oscard = option.keys;
+            foxtra = oscard.bind(option)();
+            oscard = new Array(0);
+            romeon = 0;
+            backup = oscard;
+            verify = arraySpread(backup, foxtra, romeon);
+            golfie = oscard;
+ 254:
+            oscard = 'duration_speaking_voice_filter_ids';
+            michal[oscard] = golfie;
+            oscard = report != option;
+            golfie = null;
+            if(!oscard) { _fun00002_ip = 299; continue _fun00001 }
+ 274:
+            oscard = option.values;
+            foxtra = oscard.bind(option)();
+            oscard = new Array(0);
+            romeon = 0;
+            backup = oscard;
+            option = arraySpread(backup, foxtra, romeon);
+            golfie = oscard;
+ 299:
+            oscard = 'duration_speaking_voice_filter_ms';
+            michal[oscard] = golfie;
             tangon = tangon.bind(zuuluu)();
             tangon = _closure1_slot3;
             tangon = tangon.hasUsedBackgroundInCall;
-            if(tangon) { _fun00002_ip = 281; continue _fun00001 }
- 229:
+            if(tangon) { _fun00002_ip = 381; continue _fun00001 }
+ 329:
             oscard = _closure1_slot1;
             golfie = _closure1_slot2;
             tangon = 9;
@@ -117,12 +147,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon['type'] = option;
             tangon['analyticsData'] = michal;
             tangon = oscard.bind(golfie)(tangon);
-            _fun00002_ip = 525; continue _fun00001;
- 281:
+            _fun00002_ip = 625; continue _fun00001;
+ 381:
             tangon = {};
-            foxtra = tangon;
-            romeon = michal;
-            michal = copyDataProperties(foxtra, romeon);
+            backup = tangon;
+            foxtra = michal;
+            michal = copyDataProperties(backup, foxtra);
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
             michal = 7;
@@ -142,10 +172,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = golfie[oscard];
             golfie = report == oscard;
             report = undefined;
-            if(golfie) { _fun00002_ip = 381; continue _fun00001 }
- 376:
+            if(golfie) { _fun00002_ip = 481; continue _fun00001 }
+ 476:
             report = oscard.name;
- 381:
+ 481:
             michal['video_device_name'] = report;
             oscard = _closure1_slot5;
             report = oscard.getHardwareEncoding;
@@ -164,9 +194,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = golfie.getEffectDetailAnalyticsName;
             oscard = oscard.bind(golfie)(option);
             michal['video_effect_detail'] = oscard;
-            foxtra = tangon;
-            romeon = michal;
-            michal = copyDataProperties(foxtra, romeon);
+            backup = tangon;
+            foxtra = michal;
+            michal = copyDataProperties(backup, foxtra);
             michal = _closure1_slot1;
             entity = 9;
             entity = report[entity];
@@ -177,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['type'] = report;
             entity['analyticsData'] = tangon;
             entity = michal.bind(zuuluu)(entity);
- 525:
+ 625:
             entity = undefined;
             return entity;
         }

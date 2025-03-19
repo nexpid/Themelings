@@ -276,10 +276,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = undefined;
             zuuluu = report.bind(zuuluu)(tangon);
             zuuluu = zuuluu.isPlatformEmbedded;
-            if(zuuluu) { _fun00012_ip = 90; continue _fun00011 }
- 88:
+            if(zuuluu) { _fun00012_ip = 86; continue _fun00011 }
+ 84:
             zuuluu = false;
- 90:
+ 86:
             michal['autoThreshold'] = zuuluu;
             tangon = true;
             zuuluu = new Array(0);
@@ -8387,13 +8387,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = michal.enabled;
             _closure1_slot70 = zuuluu;
             michal = michal.unmute;
-            if(!michal) { _fun00218_ip = 45; continue _fun00217 }
+            if(!michal) { _fun00218_ip = 49; continue _fun00217 }
  24:
             tangon = _closure1_slot128;
             zuuluu = undefined;
             michal = {'mute': false, 'deaf': false};
             michal = tangon.bind(zuuluu)(michal);
- 45:
+ 49:
             zuuluu = _closure1_slot64;
             michal = zuuluu.eachConnection;
             entity = _closure1_slot120;

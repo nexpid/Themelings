@@ -1,49 +1,34 @@
 // app/modules/main_tabs_v2/native/settings/definitions/DisableStreamPreviewsSetting.tsx
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    oscard = argBar;
+    report = argBar;
     zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    michal = function() { // Original name: usePredicate
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 2;
-        michal = michal[entity];
-        entity = undefined;
-        zuuluu = zuuluu.bind(entity)(michal);
-        michal = zuuluu.useSecureFramesUIExperiment;
-        entity = {};
-        tangon = 'Disable Stream Previews Setting';
-        entity['location'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        entity = entity.enabled;
-        return entity;
-    };
+    oscard = argPlu;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = oscard;
     entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    michal = {};
     entity = true;
-    tangon['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
+    entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    tangon = golfie[entity];
+    michal = oscard[entity];
     entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    option = tangon.MobileSetting;
-    tangon = {};
-    verify = 1;
-    verify = golfie[verify];
-    verify = oscard.bind(entity)(verify);
-    verify = verify.RendererType;
-    verify = verify.TOGGLE;
-    tangon['type'] = verify;
-    verify = function() { // Original name: title
+    michal = report.bind(entity)(michal);
+    golfie = michal.MobileSetting;
+    michal = {};
+    option = 1;
+    option = oscard[option];
+    option = report.bind(entity)(option);
+    option = option.RendererType;
+    option = option.TOGGLE;
+    michal['type'] = option;
+    option = function() { // Original name: title
         report = _closure1_slot0;
         oscard = _closure1_slot1;
-        entity = 4;
+        entity = 3;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -56,11 +41,11 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    tangon['title'] = verify;
-    verify = function() { // Original name: useDescription
+    michal['title'] = option;
+    option = function() { // Original name: useDescription
         report = _closure1_slot0;
         oscard = _closure1_slot1;
-        entity = 4;
+        entity = 3;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -73,15 +58,15 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    tangon['useDescription'] = verify;
-    option = option.VOICE;
-    tangon['parent'] = option;
-    report = function() { // Original name: useValue
+    michal['useDescription'] = option;
+    golfie = golfie.VOICE;
+    michal['parent'] = golfie;
+    tangon = function() { // Original name: useValue
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot1;
-            entity = 3;
+            entity = 2;
             michal = michal[entity];
             entity = undefined;
             entity = zuuluu.bind(entity)(michal);
@@ -97,21 +82,19 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
             return entity;
         }
     };
-    tangon['useValue'] = report;
-    report = 3;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.DisableStreamPreviews;
-    report = report.updateSetting;
-    tangon['onValueChange'] = report;
-    tangon['usePredicate'] = michal;
-    report = 5;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/main_tabs_v2/native/settings/definitions/DisableStreamPreviewsSetting.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['default'] = tangon;
-    zuuluu['usePredicate'] = michal;
+    michal['useValue'] = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.DisableStreamPreviews;
+    tangon = tangon.updateSetting;
+    michal['onValueChange'] = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/settings/definitions/DisableStreamPreviewsSetting.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

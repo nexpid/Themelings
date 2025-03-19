@@ -370,118 +370,136 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     StartGenerator();
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 398; continue _fun00009 }
- 10:
-                    verify = argFoo;
-                    offset = argBar;
-                    report = undefined;
-                    golfie = undefined;
-                    zuuluu = _closure1_slot1;
-                    michal = _closure1_slot2;
-                    oscard = 6;
-                    michal = michal[oscard];
-                    option = zuuluu.bind(report)(michal);
-                    zuuluu = option.dispatch;
-                    michal = {};
-                    yankee = 'GUILD_APPLY_BOOST_START';
-                    michal['type'] = yankee;
-                    michal = zuuluu.bind(option)(michal);
- 65: // try_start_0
-                    zuuluu = _closure1_slot0;
-                    option = _closure1_slot2;
-                    michal = 5;
-                    michal = option[michal];
-                    michal = zuuluu.bind(report)(michal);
-                    option = michal.HTTP;
-                    zuuluu = option.put;
-                    michal = {};
-                    romeon = _closure1_slot7;
-                    yankee = romeon.APPLIED_GUILD_BOOSTS_FOR_GUILD;
-                    verify = yankee.bind(romeon)(verify);
-                    michal['url'] = verify;
-                    verify = {};
-                    verify['user_premium_guild_subscription_slot_ids'] = offset;
-                    michal['body'] = verify;
-                    verify = true;
-                    michal['oldFormErrors'] = verify;
-                    verify = false;
-                    michal['rejectWithError'] = verify;
-                    michal = zuuluu.bind(option)(michal);
-                    SaveGenerator(address=152);
- 150:
-                    return michal;
- 152:
+                    michal = arguments[2];
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
+                    if(zuuluu) { _fun00010_ip = 433; continue _fun00009 }
+ 13:
+                    offset = argFoo;
+                    romeon = argBar;
+                    oscard = undefined;
+                    if(!(michal === oscard)) { _fun00010_ip = 27; continue _fun00009 }
+ 25:
+                    michal = false;
+ 27:
+                    yankee = michal;
+                    option = undefined;
+                    SaveGenerator(address=36);
+ 34:
+                    return oscard;
+ 36:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00010_ip = 303; continue _fun00009 }
- 161:
-                    golfie = michal;
-                    zuuluu = global;
-                    verify = zuuluu.Array;
-                    option = verify.isArray;
-                    zuuluu = michal.body;
-                    zuuluu = option.bind(verify)(zuuluu);
-                    if(zuuluu) { _fun00010_ip = 223; continue _fun00009 }
- 190:
-                    verify = _closure1_slot4;
-                    option = verify.createFromServer;
-                    zuuluu = golfie;
-                    zuuluu = zuuluu.body;
-                    option = option.bind(verify)(zuuluu);
-                    zuuluu = new Array(1);
-                    zuuluu[0] = option;
-                    _fun00010_ip = 248; continue _fun00009;
- 223:
-                    verify = golfie.body;
-                    option = verify.map;
-                    golfie = _closure1_slot4;
-                    golfie = golfie.createFromServer;
-                    zuuluu = option.bind(verify)(golfie);
- 248:
-                    option = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    golfie = golfie[oscard];
-                    verify = option.bind(report)(golfie);
-                    option = verify.dispatch;
-                    golfie = {};
-                    offset = 'GUILD_APPLY_BOOST_SUCCESS';
-                    golfie['type'] = offset;
-                    golfie['appliedGuildBoost'] = zuuluu;
-                    golfie = option.bind(verify)(golfie);
-                    golfie = _closure1_slot10;
-                    golfie = golfie.bind(report)();
- 300: // try_end0
-                    return zuuluu;
- 303:
-                    return michal;
- 306: // catch_target0
-                    CatchBlockStart(arg_register=7);
-                    golfie = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 7;
-                    michal = zuuluu[michal];
-                    michal = golfie.bind(report)(michal);
-                    michal = michal.AppliedGuildBoostError;
-                    golfie = michal.prototype;
-                    golfie = Object.create(golfie, {constructor: {value: michal}});
-                    backup = golfie;
-                    foxtra = option;
-                    michal = new backup[michal](foxtra, romeon);
-                    michal = michal instanceof Object ? michal : golfie;
+                    if(zuuluu) { _fun00010_ip = 430; continue _fun00009 }
+ 45:
                     tangon = _closure1_slot1;
-                    zuuluu = zuuluu[oscard];
-                    report = tangon.bind(report)(zuuluu);
-                    tangon = report.dispatch;
+                    zuuluu = _closure1_slot2;
+                    golfie = 6;
+                    zuuluu = zuuluu[golfie];
+                    verify = tangon.bind(oscard)(zuuluu);
+                    tangon = verify.dispatch;
                     zuuluu = {};
-                    oscard = 'GUILD_APPLY_BOOST_FAIL';
-                    zuuluu['type'] = oscard;
-                    zuuluu['error'] = michal;
-                    zuuluu = tangon.bind(report)(zuuluu);
-                    throw michal;
- 398:
+                    foxtra = 'GUILD_APPLY_BOOST_START';
+                    zuuluu['type'] = foxtra;
+                    zuuluu = tangon.bind(verify)(zuuluu);
+ 90: // try_start_0
+                    tangon = _closure1_slot0;
+                    verify = _closure1_slot2;
+                    zuuluu = 5;
+                    zuuluu = verify[zuuluu];
+                    zuuluu = tangon.bind(oscard)(zuuluu);
+                    verify = zuuluu.HTTP;
+                    tangon = verify.put;
+                    zuuluu = {};
+                    backup = _closure1_slot7;
+                    foxtra = backup.APPLIED_GUILD_BOOSTS_FOR_GUILD;
+                    offset = foxtra.bind(backup)(offset);
+                    zuuluu['url'] = offset;
+                    offset = {};
+                    offset['user_premium_guild_subscription_slot_ids'] = romeon;
+                    offset['disable_powerup_auto_apply'] = yankee;
+                    zuuluu['body'] = offset;
+                    offset = true;
+                    zuuluu['oldFormErrors'] = offset;
+                    offset = false;
+                    zuuluu['rejectWithError'] = offset;
+                    zuuluu = tangon.bind(verify)(zuuluu);
+                    SaveGenerator(address=184);
+ 182:
+                    return zuuluu;
+ 184:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                    if(tangon) { _fun00010_ip = 335; continue _fun00009 }
+ 193:
+                    option = zuuluu;
+                    tangon = global;
+                    offset = tangon.Array;
+                    verify = offset.isArray;
+                    tangon = zuuluu.body;
+                    tangon = verify.bind(offset)(tangon);
+                    if(tangon) { _fun00010_ip = 255; continue _fun00009 }
+ 222:
+                    offset = _closure1_slot4;
+                    verify = offset.createFromServer;
+                    tangon = option;
+                    tangon = tangon.body;
+                    verify = verify.bind(offset)(tangon);
+                    tangon = new Array(1);
+                    tangon[0] = verify;
+                    _fun00010_ip = 280; continue _fun00009;
+ 255:
+                    offset = option.body;
+                    verify = offset.map;
+                    option = _closure1_slot4;
+                    option = option.createFromServer;
+                    tangon = verify.bind(offset)(option);
+ 280:
+                    verify = _closure1_slot1;
+                    option = _closure1_slot2;
+                    option = option[golfie];
+                    offset = verify.bind(oscard)(option);
+                    verify = offset.dispatch;
+                    option = {};
+                    yankee = 'GUILD_APPLY_BOOST_SUCCESS';
+                    option['type'] = yankee;
+                    option['appliedGuildBoost'] = tangon;
+                    option = verify.bind(offset)(option);
+                    option = _closure1_slot10;
+                    option = option.bind(oscard)();
+ 332: // try_end0
+                    return tangon;
+ 335:
+                    return zuuluu;
+ 338: // catch_target0
+                    CatchBlockStart(arg_register=8);
+                    option = _closure1_slot0;
+                    tangon = _closure1_slot2;
+                    zuuluu = 7;
+                    zuuluu = tangon[zuuluu];
+                    zuuluu = option.bind(oscard)(zuuluu);
+                    zuuluu = zuuluu.AppliedGuildBoostError;
+                    option = zuuluu.prototype;
+                    option = Object.create(option, {constructor: {value: zuuluu}});
+                    sizing = option;
+                    kiloes = verify;
+                    zuuluu = new sizing[zuuluu](kiloes, backup);
+                    zuuluu = zuuluu instanceof Object ? zuuluu : option;
+                    report = _closure1_slot1;
+                    tangon = tangon[golfie];
+                    oscard = report.bind(oscard)(tangon);
+                    report = oscard.dispatch;
+                    tangon = {};
+                    golfie = 'GUILD_APPLY_BOOST_FAIL';
+                    tangon['type'] = golfie;
+                    tangon['error'] = zuuluu;
+                    tangon = report.bind(oscard)(tangon);
+                    throw zuuluu;
+ 430:
+                    return michal;
+ 433:
                     return entity;
                 }
             };
+            michal = entity.next;
+            michal = michal.bind(entity)();
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);

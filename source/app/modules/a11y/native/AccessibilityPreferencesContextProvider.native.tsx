@@ -1,4 +1,4 @@
-// app/components_native/AccessibilityPreferencesContextProvider.native.tsx
+// app/modules/a11y/native/AccessibilityPreferencesContextProvider.native.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'components_native/AccessibilityPreferencesContextProvider.native.tsx';
+    tangon = 'modules/a11y/native/AccessibilityPreferencesContextProvider.native.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: AccessibilityPreferencesContextProvider
         entity = argFoo;

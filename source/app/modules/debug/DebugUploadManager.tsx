@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 941; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 943; continue _fun00003 }
  12:
                     zuuluu = argFoo;
                     michal = undefined;
@@ -380,17 +380,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard['Content-Type'] = golfie;
                     zuuluu['headers'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
-                    SaveGenerator(address=879);
- 877:
-                    return zuuluu;
+                    SaveGenerator(address=881);
  879:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 887; continue _fun00003 }
- 885: // try_end5
-                    _fun00004_ip = 938; continue _fun00003;
- 887:
                     return zuuluu;
- 890: // catch_target3 // catch_target4 // catch_target5
+ 881:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                    if(tangon) { _fun00004_ip = 889; continue _fun00003 }
+ 887: // try_end5
+                    _fun00004_ip = 940; continue _fun00003;
+ 889:
+                    return zuuluu;
+ 892: // catch_target3 // catch_target4 // catch_target5
                     CatchBlockStart(arg_register=2);
                     report = _closure1_slot9;
                     tangon = report.error;
@@ -401,9 +401,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = 'uploadAppLogFiles: upload app log files error ';
                     zuuluu = oscard.bind(zuuluu)(golfie);
                     zuuluu = tangon.bind(report)(zuuluu);
- 938:
+ 940:
                     return michal;
- 941:
+ 943:
                     return entity;
                 }
             };

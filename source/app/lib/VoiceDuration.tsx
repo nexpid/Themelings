@@ -237,7 +237,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         entity['value'] = michal;
-        michal = new Array(8);
+        michal = new Array(9);
         michal[0] = entity;
         entity = {};
         oscard = '_getVoiceFilterStopWatch';
@@ -477,6 +477,73 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity['value'] = oscard;
         michal[6] = entity;
         entity = {};
+        oscard = 'getVoiceFilterSpeakingDurationMs';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
+            entity = global;
+            zuuluu = entity.Map;
+            entity = this;
+            michal = entity.voiceFilterSpeaking;
+            entity = michal.entries;
+            oscard = entity.bind(michal)();
+            tangon = new Array(0);
+            report = 0;
+            golfie = tangon;
+            entity = arraySpread(golfie, oscard, report);
+            michal = tangon.map;
+            entity = function(argFoo) {
+                _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+ 0:
+                    report = argFoo;
+                    entity = report[Symbol.iterator];
+                    report = entity().next;
+                    zuuluu = report().value;
+                    michal = entity;
+                    golfie = undefined;
+                    tangon = michal === golfie;
+                    michal = undefined;
+                    if(tangon) { _fun00018_ip = 27; continue _fun00017 }
+ 24:
+                    michal = zuuluu;
+ 27:
+                    zuuluu = undefined;
+                    if(tangon) { _fun00018_ip = 57; continue _fun00017 }
+ 32:
+                    oscard = report().value;
+                    report = entity;
+                    report = report === golfie;
+                    zuuluu = undefined;
+                    tangon = report;
+                    if(report) { _fun00018_ip = 57; continue _fun00017 }
+ 51:
+                    zuuluu = oscard;
+                    tangon = report;
+ 57:
+                    if(tangon) { _fun00018_ip = 63; continue _fun00017 }
+ 60:
+                    entity.return();
+ 63:
+                    entity = new Array(2);
+                    entity[0] = michal;
+                    michal = zuuluu.elapsed;
+                    zuuluu = michal.bind(zuuluu)();
+                    michal = zuuluu.asMilliseconds;
+                    michal = michal.bind(zuuluu)();
+                    entity[1] = michal;
+                    return entity;
+                }
+            };
+            golfie = michal.bind(tangon)(entity);
+            michal = zuuluu.prototype;
+            michal = Object.create(michal, {constructor: {value: zuuluu}});
+            option = michal;
+            entity = new option[zuuluu](golfie, oscard);
+            entity = entity instanceof Object ? entity : michal;
+            return entity;
+        };
+        entity['value'] = oscard;
+        michal[7] = entity;
+        entity = {};
         oscard = 'getDurationStats';
         entity['key'] = oscard;
         report = function() { // Original name: value
@@ -540,7 +607,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         entity['value'] = report;
-        michal[7] = entity;
+        michal[8] = entity;
         entity = undefined;
         entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
