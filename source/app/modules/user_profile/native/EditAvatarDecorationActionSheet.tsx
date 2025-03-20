@@ -1228,7 +1228,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {};
             michal['analyticsLocations'] = oscard;
             michal = verify.bind(tangon)(michal);
-            kiloes = michal.pendingAvatarV2;
+            kiloes = michal.pendingAvatar;
             michal = 30;
             michal = zuuluu[michal];
             backup = option.bind(tangon)(michal);

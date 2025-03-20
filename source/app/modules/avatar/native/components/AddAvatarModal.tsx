@@ -77,7 +77,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                             report = 17;
                             report = option[report];
                             oscard = oscard.bind(zuuluu)(report);
-                            report = oscard.setPendingAvatarV2;
+                            report = oscard.setPendingAvatar;
                             report = report.bind(oscard)(golfie);
                             report = _closure2_slot2;
                             report = report.bind(zuuluu)(zuuluu);
@@ -147,7 +147,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             michal[0] = entity;
             entity = function() {
                 michal = _closure1_slot7;
-                entity = michal.getPendingAvatarV2;
+                entity = michal.getPendingAvatar;
                 entity = entity.bind(michal)();
                 return entity;
             };

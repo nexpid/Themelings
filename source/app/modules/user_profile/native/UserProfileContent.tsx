@@ -926,7 +926,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal = verify.bind(foxtra)(option, michal);
             ctrled = michal.pendingBanner;
-            verify = michal.pendingAvatarV2;
+            verify = michal.pendingAvatar;
             variable44 = michal.pendingAvatarDecoration;
             variable47 = michal.pendingGlobalName;
             variable45 = michal.pendingPronouns;

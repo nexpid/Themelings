@@ -1,6 +1,7 @@
 // app/modules/premium/powerups/hooks/useHasAllocateBoostPermission.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = argBar;
+    option = argBaz;
     zuuluu = argFre;
     golfie = argPlu;
     var _closure1_slot0 = oscard;
@@ -22,34 +23,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(michal) { _fun00002_ip = 62; continue _fun00001 }
  37:
             zuuluu = report.can;
-            michal = _closure1_slot3;
+            michal = _closure1_slot4;
             michal = michal.ADMINISTRATOR;
             entity = zuuluu.bind(report)(michal, tangon);
  62:
             return entity;
         }
     };
-    var _closure1_slot4 = michal;
+    var _closure1_slot5 = michal;
     entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
+    offset = entity.Object;
+    verify = offset.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    option = golfie[entity];
-    report = argBaz;
+    report = golfie[entity];
     entity = undefined;
-    report = report.bind(entity)(option);
+    report = option.bind(entity)(report);
     var _closure1_slot2 = report;
     report = 1;
     report = golfie[report];
+    report = option.bind(entity)(report);
+    var _closure1_slot3 = report;
+    report = 2;
+    report = golfie[report];
     report = oscard.bind(entity)(report);
     report = report.Permissions;
-    var _closure1_slot3 = report;
-    report = 3;
+    var _closure1_slot4 = report;
+    report = 4;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -58,20 +62,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: useHasAllocateBoostPermission
         michal = argFoo;
         var _closure2_slot0 = michal;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 2;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        tangon = report.bind(zuuluu)(tangon);
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 3;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
         zuuluu = tangon.useStateFromStores;
+        oscard = _closure1_slot3;
+        michal = new Array(2);
+        michal[0] = oscard;
         report = _closure1_slot2;
-        michal = new Array(1);
-        michal[0] = report;
+        michal[1] = report;
         entity = function() {
-            tangon = _closure1_slot4;
-            zuuluu = _closure1_slot2;
-            michal = _closure2_slot0;
+            tangon = _closure1_slot5;
+            zuuluu = _closure1_slot3;
+            report = _closure1_slot2;
+            michal = report.getGuild;
+            entity = _closure2_slot0;
+            michal = michal.bind(report)(entity);
             entity = undefined;
             entity = tangon.bind(entity)(zuuluu, michal);
             return entity;

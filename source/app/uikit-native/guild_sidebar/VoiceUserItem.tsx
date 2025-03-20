@@ -98,36 +98,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: VoiceUserItem
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            vacuum = argFoo;
-            entity = vacuum.member;
+            sequen = argFoo;
+            entity = sequen.member;
             var _closure2_slot0 = entity;
-            entity = vacuum.user;
+            entity = sequen.user;
             var _closure2_slot1 = entity;
-            entity = vacuum.guildId;
+            entity = sequen.guildId;
             var _closure2_slot2 = entity;
-            entity = vacuum.collapsed;
-            offset = vacuum.stream;
-            source = vacuum.serverMute;
-            output = vacuum.serverDeaf;
-            update = vacuum.mute;
-            result = vacuum.deaf;
-            echoed = vacuum.localMute;
-            sizing = vacuum.video;
-            backup = vacuum.disabled;
-            kiloes = vacuum.platform;
-            romeon = vacuum.isInEmbeddedActivity;
-            foxtra = vacuum.voicePlatform;
-            record = vacuum.ringing;
+            entity = sequen.collapsed;
+            offset = sequen.stream;
+            ctrled = sequen.serverMute;
+            result = sequen.serverDeaf;
+            source = sequen.mute;
+            echoed = sequen.deaf;
+            update = sequen.localMute;
+            output = sequen.video;
+            sizing = sequen.disabled;
+            kiloes = sequen.platform;
+            backup = sequen.isInEmbeddedActivity;
+            foxtra = sequen.voicePlatform;
+            record = sequen.ringing;
             var _closure2_slot3 = record;
             zuuluu = _closure1_slot8;
             report = undefined;
             oscard = zuuluu.bind(report)();
-            sequen = _closure1_slot0;
-            ctrled = _closure1_slot2;
+            verify = _closure1_slot0;
+            yankee = _closure1_slot2;
             zuuluu = 10;
-            zuuluu = ctrled[zuuluu];
-            verify = sequen.bind(report)(zuuluu);
-            golfie = verify.useStateFromStores;
+            zuuluu = yankee[zuuluu];
+            romeon = verify.bind(report)(zuuluu);
+            golfie = romeon.useStateFromStores;
             zuuluu = _closure1_slot4;
             tangon = new Array(1);
             tangon[0] = zuuluu;
@@ -137,12 +137,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            config = golfie.bind(verify)(tangon, zuuluu);
+            config = golfie.bind(romeon)(tangon, zuuluu);
             var _closure2_slot4 = config;
             tangon = 11;
-            zuuluu = ctrled[tangon];
-            verify = sequen.bind(report)(zuuluu);
-            golfie = verify.useAnimatedStyle;
+            zuuluu = yankee[tangon];
+            romeon = verify.bind(report)(zuuluu);
+            golfie = romeon.useAnimatedStyle;
             zuuluu = function() { // Original name: h
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -222,46 +222,59 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            yankee = {};
-            yankee['ringing'] = record;
-            yankee['shouldAnimate'] = config;
+            vacuum = {};
+            vacuum['ringing'] = record;
+            vacuum['shouldAnimate'] = config;
             config = 0.4;
-            yankee['PULSE_ENDING_OPACITY'] = config;
-            config = ctrled[tangon];
-            config = sequen.bind(report)(config);
+            vacuum['PULSE_ENDING_OPACITY'] = config;
+            config = yankee[tangon];
+            config = verify.bind(report)(config);
             config = config.withRepeat;
-            yankee['withRepeat'] = config;
-            config = ctrled[tangon];
-            config = sequen.bind(report)(config);
+            vacuum['withRepeat'] = config;
+            config = yankee[tangon];
+            config = verify.bind(report)(config);
             config = config.withSequence;
-            yankee['withSequence'] = config;
-            config = ctrled[tangon];
-            config = sequen.bind(report)(config);
+            vacuum['withSequence'] = config;
+            config = yankee[tangon];
+            config = verify.bind(report)(config);
             config = config.withDelay;
-            yankee['withDelay'] = config;
+            vacuum['withDelay'] = config;
             config = 100;
-            yankee['INNER_PULSE_DELAY'] = config;
+            vacuum['INNER_PULSE_DELAY'] = config;
             config = 12;
-            config = ctrled[config];
-            config = sequen.bind(report)(config);
+            config = yankee[config];
+            config = verify.bind(report)(config);
             config = config.withTiming;
-            yankee['withTiming'] = config;
+            vacuum['withTiming'] = config;
             config = 250;
-            yankee['PULSE_DURATION'] = config;
-            ctrled = ctrled[tangon];
-            ctrled = sequen.bind(report)(ctrled);
-            ctrled = ctrled.Easing;
-            yankee['Easing'] = ctrled;
-            ctrled = 0.1;
-            yankee['PULSE_STARTING_OPACITY'] = ctrled;
-            ctrled = 500;
-            yankee['FADE_DURATION'] = ctrled;
-            zuuluu['__closure'] = yankee;
-            yankee = 9430639809025.0;
-            zuuluu['__workletHash'] = yankee;
-            yankee = _closure1_slot9;
-            zuuluu['__initData'] = yankee;
-            golfie = golfie.bind(verify)(zuuluu);
+            vacuum['PULSE_DURATION'] = config;
+            config = yankee[tangon];
+            config = verify.bind(report)(config);
+            config = config.Easing;
+            vacuum['Easing'] = config;
+            config = 0.1;
+            vacuum['PULSE_STARTING_OPACITY'] = config;
+            config = 500;
+            vacuum['FADE_DURATION'] = config;
+            zuuluu['__closure'] = vacuum;
+            vacuum = 9430639809025.0;
+            zuuluu['__workletHash'] = vacuum;
+            vacuum = _closure1_slot9;
+            zuuluu['__initData'] = vacuum;
+            golfie = golfie.bind(romeon)(zuuluu);
+            zuuluu = 13;
+            zuuluu = yankee[zuuluu];
+            zuuluu = verify.bind(report)(zuuluu);
+            romeon = zuuluu.ActivitiesControllerIconMobileExperiment;
+            yankee = romeon.useExperiment;
+            verify = {};
+            zuuluu = 'VoiceUserItem';
+            verify['location'] = zuuluu;
+            zuuluu = {};
+            vacuum = true;
+            zuuluu['autoTrackExposure'] = vacuum;
+            zuuluu = yankee.bind(romeon)(verify, zuuluu);
+            romeon = zuuluu.enabled;
             verify = function() { // Original name: getSource
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -281,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  48:
                     report = _closure1_slot1;
                     tangon = _closure1_slot2;
-                    zuuluu = 13;
+                    zuuluu = 14;
                     tangon = tangon[zuuluu];
                     zuuluu = undefined;
                     report = report.bind(zuuluu)(tangon);
@@ -293,8 +306,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            if(entity) { _fun00002_ip = 1353; continue _fun00001 }
- 436:
+            if(entity) { _fun00002_ip = 1429; continue _fun00001 }
+ 492:
             zuuluu = _closure1_slot6;
             michal = _closure1_slot1;
             entity = _closure1_slot2;
@@ -305,159 +318,168 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = oscard.voiceState;
             tangon = new Array(3);
             tangon[0] = yankee;
-            yankee = backup;
-            if(!yankee) { _fun00002_ip = 489; continue _fun00001 }
- 484:
+            yankee = sizing;
+            if(!yankee) { _fun00002_ip = 545; continue _fun00001 }
+ 540:
             yankee = oscard.disabled;
- 489:
+ 545:
             tangon[1] = yankee;
             tangon[2] = golfie;
             entity['style'] = tangon;
-            ctrled = _closure1_slot5;
+            vacuum = _closure1_slot5;
             yankee = _closure1_slot1;
-            sequen = _closure1_slot2;
+            config = _closure1_slot2;
             tangon = 4;
-            tangon = sequen[tangon];
+            tangon = config[tangon];
             golfie = yankee.bind(report)(tangon);
             tangon = {};
             tangon['source'] = verify;
-            config = _closure1_slot7;
-            tangon['size'] = config;
-            golfie = ctrled.bind(report)(golfie, tangon);
+            record = _closure1_slot7;
+            tangon['size'] = record;
+            golfie = vacuum.bind(report)(golfie, tangon);
             tangon = new Array(8);
             tangon[0] = golfie;
-            golfie = 14;
-            golfie = sequen[golfie];
+            golfie = 15;
+            golfie = config[golfie];
             yankee = yankee.bind(report)(golfie);
             golfie = {'variant': 'text-sm/medium', 'color': 'redesign-channel-name-muted-text'};
             papara = golfie;
-            cntext = vacuum;
-            vacuum = copyDataProperties(papara, cntext);
-            golfie = ctrled.bind(report)(yankee, golfie);
+            cntext = sequen;
+            sequen = copyDataProperties(papara, cntext);
+            golfie = vacuum.bind(report)(yankee, golfie);
             tangon[1] = golfie;
             golfie = null;
             yankee = null;
-            if(backup) { _fun00002_ip = 816; continue _fun00001 }
- 609:
-            if(source) { _fun00002_ip = 751; continue _fun00001 }
- 615:
-            if(echoed) { _fun00002_ip = 687; continue _fun00001 }
- 618:
-            echoed = null;
-            if(!update) { _fun00002_ip = 685; continue _fun00001 }
- 623:
-            ctrled = _closure1_slot5;
-            source = _closure1_slot0;
-            vacuum = _closure1_slot2;
-            update = 16;
-            update = vacuum[update];
-            update = source.bind(report)(update);
-            source = update.MicrophoneSlashIcon;
-            update = {'style': null, 'size': 'custom', 'color': 'redesign-channel-name-muted-text'};
-            vacuum = oscard.voiceStateIcon;
-            update['style'] = vacuum;
-            echoed = ctrled.bind(report)(source, update);
- 685:
-            _fun00002_ip = 749; continue _fun00001;
- 687:
-            ctrled = _closure1_slot5;
-            source = _closure1_slot0;
-            vacuum = _closure1_slot2;
-            update = 15;
-            update = vacuum[update];
-            update = source.bind(report)(update);
-            source = update.MicrophoneDenyIcon;
-            update = {'style': null, 'size': 'custom', 'color': 'redesign-channel-name-muted-text'};
-            vacuum = oscard.voiceStateIcon;
-            update['style'] = vacuum;
-            echoed = ctrled.bind(report)(source, update);
- 749:
-            _fun00002_ip = 813; continue _fun00001;
- 751:
-            ctrled = _closure1_slot5;
-            source = _closure1_slot0;
-            vacuum = _closure1_slot2;
-            update = 15;
-            update = vacuum[update];
-            update = source.bind(report)(update);
-            source = update.MicrophoneDenyIcon;
-            update = {'style': null, 'color': 'status-danger', 'size': 'custom'};
-            vacuum = oscard.voiceStateIcon;
-            update['style'] = vacuum;
-            echoed = ctrled.bind(report)(source, update);
- 813:
-            yankee = echoed;
- 816:
+            if(sizing) { _fun00002_ip = 872; continue _fun00001 }
+ 665:
+            if(ctrled) { _fun00002_ip = 807; continue _fun00001 }
+ 671:
+            if(update) { _fun00002_ip = 743; continue _fun00001 }
+ 674:
+            update = null;
+            if(!source) { _fun00002_ip = 741; continue _fun00001 }
+ 679:
+            vacuum = _closure1_slot5;
+            ctrled = _closure1_slot0;
+            sequen = _closure1_slot2;
+            source = 17;
+            source = sequen[source];
+            source = ctrled.bind(report)(source);
+            ctrled = source.MicrophoneSlashIcon;
+            source = {'style': null, 'size': 'custom', 'color': 'redesign-channel-name-muted-text'};
+            sequen = oscard.voiceStateIcon;
+            source['style'] = sequen;
+            update = vacuum.bind(report)(ctrled, source);
+ 741:
+            _fun00002_ip = 805; continue _fun00001;
+ 743:
+            vacuum = _closure1_slot5;
+            ctrled = _closure1_slot0;
+            sequen = _closure1_slot2;
+            source = 16;
+            source = sequen[source];
+            source = ctrled.bind(report)(source);
+            ctrled = source.MicrophoneDenyIcon;
+            source = {'style': null, 'size': 'custom', 'color': 'redesign-channel-name-muted-text'};
+            sequen = oscard.voiceStateIcon;
+            source['style'] = sequen;
+            update = vacuum.bind(report)(ctrled, source);
+ 805:
+            _fun00002_ip = 869; continue _fun00001;
+ 807:
+            vacuum = _closure1_slot5;
+            ctrled = _closure1_slot0;
+            sequen = _closure1_slot2;
+            source = 16;
+            source = sequen[source];
+            source = ctrled.bind(report)(source);
+            ctrled = source.MicrophoneDenyIcon;
+            source = {'style': null, 'color': 'status-danger', 'size': 'custom'};
+            sequen = oscard.voiceStateIcon;
+            source['style'] = sequen;
+            update = vacuum.bind(report)(ctrled, source);
+ 869:
+            yankee = update;
+ 872:
             tangon[2] = yankee;
             yankee = null;
-            if(backup) { _fun00002_ip = 965; continue _fun00001 }
- 828:
-            if(output) { _fun00002_ip = 900; continue _fun00001 }
- 831:
-            output = null;
-            if(!result) { _fun00002_ip = 898; continue _fun00001 }
- 836:
-            update = _closure1_slot5;
-            echoed = _closure1_slot0;
-            source = _closure1_slot2;
-            result = 18;
-            result = source[result];
-            result = echoed.bind(report)(result);
-            echoed = result.HeadphonesSlashIcon;
-            result = {'style': null, 'size': 'custom', 'color': 'redesign-channel-name-muted-text'};
-            source = oscard.voiceStateIcon;
-            result['style'] = source;
-            output = update.bind(report)(echoed, result);
- 898:
-            _fun00002_ip = 962; continue _fun00001;
- 900:
-            update = _closure1_slot5;
-            echoed = _closure1_slot0;
-            source = _closure1_slot2;
-            result = 17;
-            result = source[result];
-            result = echoed.bind(report)(result);
-            echoed = result.HeadphonesDenyIcon;
-            result = {'style': null, 'color': 'status-danger', 'size': 'custom'};
-            source = oscard.voiceStateIcon;
-            result['style'] = source;
-            output = update.bind(report)(echoed, result);
- 962:
-            yankee = output;
- 965:
+            if(sizing) { _fun00002_ip = 1021; continue _fun00001 }
+ 884:
+            if(result) { _fun00002_ip = 956; continue _fun00001 }
+ 887:
+            result = null;
+            if(!echoed) { _fun00002_ip = 954; continue _fun00001 }
+ 892:
+            source = _closure1_slot5;
+            update = _closure1_slot0;
+            ctrled = _closure1_slot2;
+            echoed = 19;
+            echoed = ctrled[echoed];
+            echoed = update.bind(report)(echoed);
+            update = echoed.HeadphonesSlashIcon;
+            echoed = {'style': null, 'size': 'custom', 'color': 'redesign-channel-name-muted-text'};
+            ctrled = oscard.voiceStateIcon;
+            echoed['style'] = ctrled;
+            result = source.bind(report)(update, echoed);
+ 954:
+            _fun00002_ip = 1018; continue _fun00001;
+ 956:
+            source = _closure1_slot5;
+            update = _closure1_slot0;
+            ctrled = _closure1_slot2;
+            echoed = 18;
+            echoed = ctrled[echoed];
+            echoed = update.bind(report)(echoed);
+            update = echoed.HeadphonesDenyIcon;
+            echoed = {'style': null, 'color': 'status-danger', 'size': 'custom'};
+            ctrled = oscard.voiceStateIcon;
+            echoed['style'] = ctrled;
+            result = source.bind(report)(update, echoed);
+ 1018:
+            yankee = result;
+ 1021:
             tangon[3] = yankee;
             yankee = null;
-            if(!sizing) { _fun00002_ip = 1039; continue _fun00001 }
- 974:
+            if(!output) { _fun00002_ip = 1095; continue _fun00001 }
+ 1030:
             yankee = null;
-            if(backup) { _fun00002_ip = 1039; continue _fun00001 }
- 979:
-            output = _closure1_slot5;
-            sizing = _closure1_slot0;
-            result = _closure1_slot2;
-            backup = 19;
-            backup = result[backup];
-            backup = sizing.bind(report)(backup);
-            sizing = backup.VideoIcon;
-            backup = {'size': 'custom', 'color': 'redesign-channel-name-muted-text'};
-            result = oscard.voiceStateIcon;
-            backup['style'] = result;
-            yankee = output.bind(report)(sizing, backup);
- 1039:
+            if(sizing) { _fun00002_ip = 1095; continue _fun00001 }
+ 1035:
+            result = _closure1_slot5;
+            output = _closure1_slot0;
+            echoed = _closure1_slot2;
+            sizing = 20;
+            sizing = echoed[sizing];
+            sizing = output.bind(report)(sizing);
+            output = sizing.VideoIcon;
+            sizing = {'size': 'custom', 'color': 'redesign-channel-name-muted-text'};
+            echoed = oscard.voiceStateIcon;
+            sizing['style'] = echoed;
+            yankee = result.bind(report)(output, sizing);
+ 1095:
             tangon[4] = yankee;
             yankee = null;
-            if(!romeon) { _fun00002_ip = 1131; continue _fun00001 }
- 1048:
+            if(!backup) { _fun00002_ip = 1207; continue _fun00001 }
+ 1104:
+            backup = _closure1_slot1;
+            output = _closure1_slot2;
+            if(romeon) { _fun00002_ip = 1124; continue _fun00001 }
+ 1115:
+            romeon = 22;
+            romeon = output[romeon];
+            _fun00002_ip = 1131; continue _fun00001;
+ 1124:
+            sizing = 21;
+            romeon = output[sizing];
+ 1131:
+            update = backup.bind(report)(romeon);
             sizing = _closure1_slot5;
             result = _closure1_slot1;
             echoed = _closure1_slot2;
-            output = 20;
+            output = 23;
             romeon = echoed[output];
             backup = result.bind(report)(romeon);
             romeon = {};
-            update = 21;
-            update = echoed[update];
-            update = result.bind(report)(update);
             romeon['source'] = update;
             output = echoed[output];
             output = result.bind(report)(output);
@@ -467,37 +489,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = oscard.legacyVoiceStateIcon;
             romeon['style'] = output;
             yankee = sizing.bind(report)(backup, romeon);
- 1131:
+ 1207:
             tangon[5] = yankee;
             romeon = _closure1_slot1;
             yankee = _closure1_slot2;
-            backup = 22;
+            backup = 24;
             yankee = yankee[backup];
             romeon = romeon.bind(report)(yankee);
             sizing = golfie != kiloes;
             yankee = '';
-            if(!sizing) { _fun00002_ip = 1169; continue _fun00001 }
- 1166:
+            if(!sizing) { _fun00002_ip = 1245; continue _fun00001 }
+ 1242:
             yankee = kiloes;
- 1169:
+ 1245:
             result = romeon.bind(report)(yankee);
-            if(!(golfie == result)) { _fun00002_ip = 1206; continue _fun00001 }
- 1178:
+            if(!(golfie == result)) { _fun00002_ip = 1282; continue _fun00001 }
+ 1254:
             romeon = _closure1_slot0;
             yankee = _closure1_slot2;
             yankee = yankee[backup];
             romeon = romeon.bind(report)(yankee);
             yankee = romeon.getConsoleIconForVoicePlatform;
             result = yankee.bind(romeon)(foxtra);
- 1206:
+ 1282:
             romeon = golfie != result;
             yankee = null;
-            if(!romeon) { _fun00002_ip = 1286; continue _fun00001 }
- 1215:
+            if(!romeon) { _fun00002_ip = 1362; continue _fun00001 }
+ 1291:
             backup = _closure1_slot5;
             sizing = _closure1_slot1;
             output = _closure1_slot2;
-            kiloes = 20;
+            kiloes = 23;
             romeon = output[kiloes];
             foxtra = sizing.bind(report)(romeon);
             romeon = {};
@@ -510,27 +532,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = oscard.legacyVoiceStateIcon;
             romeon['style'] = kiloes;
             yankee = backup.bind(report)(foxtra, romeon);
- 1286:
+ 1362:
             tangon[6] = yankee;
             golfie = null;
-            if(!offset) { _fun00002_ip = 1337; continue _fun00001 }
- 1295:
+            if(!offset) { _fun00002_ip = 1413; continue _fun00001 }
+ 1371:
             romeon = _closure1_slot5;
             yankee = _closure1_slot1;
             foxtra = _closure1_slot2;
-            offset = 23;
+            offset = 25;
             offset = foxtra[offset];
             yankee = yankee.bind(report)(offset);
             offset = {};
             foxtra = oscard.legacyVoiceStateIcon;
             offset['style'] = foxtra;
             golfie = romeon.bind(report)(yankee, offset);
- 1337:
+ 1413:
             tangon[7] = golfie;
             entity['children'] = tangon;
             entity = zuuluu.bind(report)(michal, entity);
-            _fun00002_ip = 1423; continue _fun00001;
- 1353:
+            _fun00002_ip = 1499; continue _fun00001;
+ 1429:
             tangon = _closure1_slot5;
             zuuluu = _closure1_slot3;
             michal = {};
@@ -548,12 +570,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1423:
+ 1499:
             return entity;
         }
     };
     tangon = report.bind(option)(tangon);
-    report = 24;
+    report = 26;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

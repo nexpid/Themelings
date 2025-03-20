@@ -380,23 +380,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['setPendingAvatar'] = tangon;
-    tangon = function(argFoo) { // Original name: setPendingAvatarV2
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 2;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_AVATAR_V2';
-        michal['type'] = report;
-        report = argFoo;
-        michal['avatar'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
-    };
-    zuuluu['setPendingAvatarV2'] = tangon;
     tangon = function(argFoo) { // Original name: setPendingAvatarDecoration
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;

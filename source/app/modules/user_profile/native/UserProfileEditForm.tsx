@@ -259,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = entity.errors;
             variable48 = entity.isSubmitting;
             _closure2_slot4 = variable48;
-            backup = entity.pendingAvatarV2;
+            backup = entity.pendingAvatar;
             option = entity.pendingAvatarDecoration;
             _closure2_slot5 = option;
             record = entity.pendingBanner;

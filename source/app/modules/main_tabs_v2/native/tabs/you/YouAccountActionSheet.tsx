@@ -1141,10 +1141,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = 49;
                 michal = michal[entity];
                 entity = undefined;
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = '';
-                michal = null;
-                michal = tangon.bind(entity)(zuuluu, michal, michal);
+                michal = zuuluu.bind(entity)(michal);
+                michal = michal.bind(entity)();
                 return entity;
             };
             romeon['onPress'] = sizing;

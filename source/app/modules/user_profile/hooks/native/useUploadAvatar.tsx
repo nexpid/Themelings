@@ -208,7 +208,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         tangon = 12;
                         tangon = golfie[tangon];
                         verify = report.bind(zuuluu)(tangon);
-                        option = verify.setNewPendingAvatarV2;
+                        option = verify.setNewPendingAvatar;
                         tangon = _closure2_slot2;
                         yankee = yankee == tangon;
                         tangon = undefined;
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         tangon = 11;
                         tangon = golfie[tangon];
                         report = report.bind(zuuluu)(tangon);
-                        tangon = report.setTryItOutAvatarV2;
+                        tangon = report.setTryItOutAvatar;
                         tangon = tangon.bind(report)(oscard);
  362:
                         return zuuluu;

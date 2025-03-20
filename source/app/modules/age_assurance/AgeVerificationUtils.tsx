@@ -399,37 +399,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00018_ip = 254; continue _fun00017 }
+                        if(michal) { _fun00018_ip = 266; continue _fun00017 }
  10:
                         tangon = _closure2_slot1;
                         report = undefined;
                         michal = true;
                         michal = tangon.bind(report)(michal);
  26: // try_start_0 // try_start_1
-                        oscard = _closure1_slot0;
+                        oscard = _closure1_slot1;
                         golfie = _closure1_slot2;
+                        michal = 9;
+                        michal = golfie[michal];
+                        option = oscard.bind(report)(michal);
+                        oscard = option.dispatch;
+                        michal = {};
+                        verify = 'INITIATE_AGE_VERIFICATION';
+                        michal['type'] = verify;
+                        michal = oscard.bind(option)(michal);
+                        oscard = _closure1_slot0;
                         michal = 10;
                         michal = golfie[michal];
                         oscard = oscard.bind(report)(michal);
                         michal = oscard.initiateVerification;
                         michal = michal.bind(oscard)();
-                        SaveGenerator(address=63);
- 61:
+                        SaveGenerator(address=99);
+ 97:
                         return michal;
- 63:
+ 99:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                        if(oscard) { _fun00018_ip = 165; continue _fun00017 }
- 69:
+                        if(oscard) { _fun00018_ip = 169; continue _fun00017 }
+ 105:
                         oscard = _closure1_slot1;
                         golfie = _closure1_slot2;
-                        tangon = 9;
-                        tangon = golfie[tangon];
-                        verify = oscard.bind(report)(tangon);
-                        option = verify.dispatch;
-                        tangon = {};
-                        offset = 'INITIATE_AGE_VERIFICATION';
-                        tangon['type'] = offset;
-                        tangon = option.bind(verify)(tangon);
                         tangon = 11;
                         tangon = golfie[tangon];
                         golfie = oscard.bind(report)(tangon);
@@ -442,14 +443,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         option = _closure2_slot3;
                         tangon['onClose'] = option;
                         tangon = oscard.bind(golfie)(tangon);
- 163: // try_end0
-                        _fun00018_ip = 225; continue _fun00017;
- 165: // try_end1
+ 167: // try_end0
+                        _fun00018_ip = 237; continue _fun00017;
+ 169: // try_end1
                         oscard = _closure2_slot1;
                         tangon = false;
                         tangon = oscard.bind(report)(tangon);
                         return michal;
- 179: // try_start_2 // catch_target0
+ 183: // try_start_2 // catch_target0
                         CatchBlockStart(arg_register=1);
                         oscard = _closure1_slot1;
                         golfie = _closure1_slot2;
@@ -460,18 +461,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = _closure1_slot9;
                         michal = michal.TIGGER_PAWTECT_ERROR;
                         michal = tangon.bind(oscard)(michal);
- 225: // try_end2
+                        michal = _closure2_slot3;
+                        michal = michal.bind(report)();
+ 237: // try_end2
                         tangon = _closure2_slot1;
                         michal = false;
                         michal = tangon.bind(report)(michal);
                         return report;
- 239: // catch_target1 // catch_target2
+ 251: // catch_target1 // catch_target2
                         CatchBlockStart(arg_register=1);
                         tangon = _closure2_slot1;
                         zuuluu = false;
                         zuuluu = tangon.bind(report)(zuuluu);
                         throw michal;
- 254:
+ 266:
                         return entity;
                     }
                 };

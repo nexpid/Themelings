@@ -253,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         golfie = 8;
                         golfie = offset[golfie];
                         offset = option.bind(report)(golfie);
-                        option = offset.setNewPendingAvatarV2;
+                        option = offset.setNewPendingAvatar;
                         romeon = _closure2_slot0;
                         golfie = null;
                         romeon = golfie == romeon;
@@ -271,7 +271,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         golfie = 7;
                         golfie = offset[golfie];
                         option = option.bind(report)(golfie);
-                        golfie = option.setTryItOutAvatarV2;
+                        golfie = option.setTryItOutAvatar;
                         golfie = golfie.bind(option)(verify);
  397:
                         golfie = _closure1_slot1;

@@ -118,29 +118,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(!(option != backup)) { _fun00002_ip = 297; continue _fun00001 }
  286:
             report = backup.canEditThemes;
-            if(report) { _fun00002_ip = 322; continue _fun00001 }
+            if(report) { _fun00002_ip = 318; continue _fun00001 }
  297:
-            if(zuuluu) { _fun00002_ip = 322; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 318; continue _fun00001 }
  300:
             zuuluu = {'theme': null, 'primaryColor': null, 'secondaryColor': null};
             zuuluu['theme'] = offset;
             return zuuluu;
- 322:
+ 318:
             zuuluu = option == backup;
             report = undefined;
-            if(zuuluu) { _fun00002_ip = 344; continue _fun00001 }
- 331:
+            if(zuuluu) { _fun00002_ip = 340; continue _fun00001 }
+ 327:
             zuuluu = backup.getPreviewThemeColors;
             report = zuuluu.bind(backup)(romeon);
- 344:
+ 340:
             romeon = option == report;
             zuuluu = undefined;
-            if(romeon) { _fun00002_ip = 357; continue _fun00001 }
- 353:
+            if(romeon) { _fun00002_ip = 353; continue _fun00001 }
+ 349:
             zuuluu = report[michal];
+ 353:
+            if(!(option == zuuluu)) { _fun00002_ip = 388; continue _fun00001 }
  357:
-            if(!(option == zuuluu)) { _fun00002_ip = 392; continue _fun00001 }
- 361:
             romeon = _closure1_slot0;
             backup = _closure1_slot2;
             michal = 8;
@@ -148,15 +148,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             romeon = romeon.bind(yankee)(michal);
             michal = romeon.hex2int;
             zuuluu = michal.bind(romeon)(foxtra);
- 392:
+ 388:
             romeon = option == report;
             michal = undefined;
-            if(romeon) { _fun00002_ip = 405; continue _fun00001 }
- 401:
+            if(romeon) { _fun00002_ip = 401; continue _fun00001 }
+ 397:
             michal = report[golfie];
+ 401:
+            if(!(option == michal)) { _fun00002_ip = 436; continue _fun00001 }
  405:
-            if(!(option == michal)) { _fun00002_ip = 440; continue _fun00001 }
- 409:
             golfie = _closure1_slot0;
             romeon = _closure1_slot2;
             report = 8;
@@ -164,10 +164,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = golfie.bind(yankee)(report);
             report = golfie.hex2int;
             michal = report.bind(golfie)(verify);
- 440:
+ 436:
             report = offset;
-            if(tangon) { _fun00002_ip = 490; continue _fun00001 }
- 446:
+            if(tangon) { _fun00002_ip = 486; continue _fun00001 }
+ 442:
             golfie = _closure1_slot0;
             verify = _closure1_slot2;
             tangon = 9;
@@ -176,19 +176,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = golfie.getProfileTheme;
             golfie = tangon.bind(golfie)(zuuluu);
             tangon = offset;
-            if(!(option != golfie)) { _fun00002_ip = 487; continue _fun00001 }
- 484:
+            if(!(option != golfie)) { _fun00002_ip = 483; continue _fun00001 }
+ 480:
             tangon = golfie;
- 487:
+ 483:
             report = tangon;
- 490:
+ 486:
             tangon = report;
-            if(!entity) { _fun00002_ip = 614; continue _fun00001 }
- 496:
+            if(!entity) { _fun00002_ip = 610; continue _fun00001 }
+ 492:
             entity = _closure1_slot6;
             entity = entity.DARK;
-            if(!(report === entity)) { _fun00002_ip = 547; continue _fun00001 }
- 510:
+            if(!(report === entity)) { _fun00002_ip = 543; continue _fun00001 }
+ 506:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             entity = 10;
@@ -197,13 +197,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = golfie.isThemeDark;
             golfie = entity.bind(golfie)(offset);
             entity = offset;
-            if(golfie) { _fun00002_ip = 611; continue _fun00001 }
- 547:
+            if(golfie) { _fun00002_ip = 607; continue _fun00001 }
+ 543:
             golfie = _closure1_slot6;
             golfie = golfie.DARK;
             golfie = report === golfie;
-            if(!golfie) { _fun00002_ip = 595; continue _fun00001 }
- 564:
+            if(!golfie) { _fun00002_ip = 591; continue _fun00001 }
+ 560:
             verify = _closure1_slot0;
             romeon = _closure1_slot2;
             option = 10;
@@ -211,16 +211,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = verify.bind(yankee)(option);
             option = verify.isThemeLight;
             golfie = option.bind(verify)(offset);
- 595:
-            if(!golfie) { _fun00002_ip = 608; continue _fun00001 }
- 598:
+ 591:
+            if(!golfie) { _fun00002_ip = 604; continue _fun00001 }
+ 594:
             oscard = _closure1_slot6;
             report = oscard.DARKER;
- 608:
+ 604:
             entity = report;
- 611:
+ 607:
             tangon = entity;
- 614:
+ 610:
             entity = {};
             entity['theme'] = tangon;
             entity['primaryColor'] = zuuluu;

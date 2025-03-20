@@ -485,27 +485,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['setTryItOutAvatar'] = tangon;
-    tangon = function(argFoo) { // Original name: setTryItOutAvatarV2
-        tangon = _closure1_slot1;
-        zuuluu = _closure1_slot2;
-        entity = 7;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        report = tangon.bind(entity)(zuuluu);
-        tangon = report.dispatch;
-        zuuluu = {};
-        oscard = 'USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_AVATAR_V2';
-        zuuluu['type'] = oscard;
-        oscard = argFoo;
-        zuuluu['avatar'] = oscard;
-        zuuluu = tangon.bind(report)(zuuluu);
-        zuuluu = _closure1_slot10;
-        michal = _closure1_slot9;
-        michal = michal.ANIMATED_AVATAR;
-        michal = zuuluu.bind(entity)(michal);
-        return entity;
-    };
-    zuuluu['setTryItOutAvatarV2'] = tangon;
     tangon = function(argFoo) { // Original name: setTryItOutAvatarDecoration
         tangon = _closure1_slot1;
         zuuluu = _closure1_slot2;

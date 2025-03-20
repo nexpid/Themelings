@@ -197,9 +197,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     kiloes = kiloes.lg;
     verify['borderRadius'] = kiloes;
     tangon['card'] = verify;
-    verify = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center', 'gap': null, 'width': '100%'};
+    verify = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center'};
     verify['gap'] = backup;
     tangon['emojiTextContainer'] = verify;
+    verify = {};
+    verify['flexShrink'] = foxtra;
+    tangon['emojiText'] = verify;
     verify = {};
     kiloes = 'flex-start';
     verify['justifyContent'] = kiloes;
@@ -618,7 +621,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = zuuluu.hasTwoCutouts;
             variable39 = zuuluu.leftAligned;
             source = zuuluu.hasStatus;
-            if(!(entity != michal)) { _fun00004_ip = 3273; continue _fun00003 }
+            if(!(entity != michal)) { _fun00004_ip = 3283; continue _fun00003 }
  913:
             michal = status.kind;
             option = 'otherUserStatus';
@@ -947,7 +950,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed['style'] = papara;
             papara = new Array(3);
             papara[0] = whisks;
-            if(!sierra) { _fun00004_ip = 2275; continue _fun00003 }
+            if(!sierra) { _fun00004_ip = 2285; continue _fun00003 }
  2222:
             variable40 = _closure1_slot10;
             variable39 = _closure1_slot0;
@@ -956,16 +959,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             whisks = variable39.bind(report)(whisks);
             variable39 = whisks.Text;
             whisks = {};
+            variable42 = ctrled.emojiText;
+            whisks['style'] = variable42;
             variable42 = 'text-md/normal';
             whisks['variant'] = variable42;
             variable41 = variable41.status;
             whisks['children'] = variable41;
             sierra = variable40.bind(report)(variable39, whisks);
- 2275:
+ 2285:
             papara[1] = sierra;
             sierra = !source;
-            if(!sierra) { _fun00004_ip = 2382; continue _fun00003 }
- 2285:
+            if(!sierra) { _fun00004_ip = 2392; continue _fun00003 }
+ 2295:
             variable39 = _closure1_slot10;
             variable43 = _closure1_slot0;
             variable44 = _closure1_slot2;
@@ -987,7 +992,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable40 = variable41.bind(variable42)(variable40);
             limora['children'] = variable40;
             sierra = variable39.bind(report)(whisks, limora);
- 2382:
+ 2392:
             papara[2] = sierra;
             echoed['children'] = papara;
             vacuum = record.bind(report)(vacuum, echoed);
@@ -995,8 +1000,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed[0] = vacuum;
             vacuum = variable36.length;
             vacuum = vacuum > sequen;
-            if(!vacuum) { _fun00004_ip = 2535; continue _fun00003 }
- 2416:
+            if(!vacuum) { _fun00004_ip = 2545; continue _fun00003 }
+ 2426:
             papara = _closure1_slot11;
             record = _closure1_slot12;
             sequen = {};
@@ -1008,10 +1013,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sierra = limora.bind(report)(sierra);
             limora = sierra.GravityAttachmentMediaMosaic;
             sierra = {};
-            if(!(entity != variable38)) { _fun00004_ip = 2465; continue _fun00003 }
- 2462:
+            if(!(entity != variable38)) { _fun00004_ip = 2475; continue _fun00003 }
+ 2472:
             variable37 = variable38;
- 2465:
+ 2475:
             sierra['widthOverride'] = variable37;
             sierra['sources'] = variable36;
             sierra['handlePressMedia'] = quebec;
@@ -1020,26 +1025,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sierra = new Array(2);
             sierra[0] = limora;
             limora = !foxtra;
-            if(!limora) { _fun00004_ip = 2521; continue _fun00003 }
- 2505:
+            if(!limora) { _fun00004_ip = 2531; continue _fun00003 }
+ 2515:
             quebec = _closure1_slot10;
             equals = _closure1_slot5;
             whisks = {};
             limora = quebec.bind(report)(equals, whisks);
- 2521:
+ 2531:
             sierra[1] = limora;
             sequen['children'] = sierra;
             vacuum = papara.bind(report)(record, sequen);
- 2535:
+ 2545:
             echoed[1] = vacuum;
             source = !source;
-            if(!source) { _fun00004_ip = 2561; continue _fun00003 }
- 2545:
+            if(!source) { _fun00004_ip = 2571; continue _fun00003 }
+ 2555:
             record = _closure1_slot10;
             sequen = _closure1_slot16;
             vacuum = {};
             source = record.bind(report)(sequen, vacuum);
- 2561:
+ 2571:
             echoed[2] = source;
             kiloes['children'] = echoed;
             kiloes = result.bind(report)(sizing, kiloes);
@@ -1048,14 +1053,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = new Array(2);
             offset[0] = yankee;
             yankee = null;
-            if(foxtra) { _fun00004_ip = 3243; continue _fun00003 }
- 2601:
-            if(!romeon) { _fun00004_ip = 2622; continue _fun00003 }
- 2604:
+            if(foxtra) { _fun00004_ip = 3253; continue _fun00003 }
+ 2611:
+            if(!romeon) { _fun00004_ip = 2632; continue _fun00003 }
+ 2614:
             foxtra = status.kind;
             romeon = 'ownStatus';
-            if(!(romeon !== foxtra)) { _fun00004_ip = 2868; continue _fun00003 }
- 2622:
+            if(!(romeon !== foxtra)) { _fun00004_ip = 2878; continue _fun00003 }
+ 2632:
             backup = _closure1_slot10;
             foxtra = _closure1_slot0;
             source = _closure1_slot2;
@@ -1083,8 +1088,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['style'] = kiloes;
             sizing = status.kind;
             kiloes = 'ownStatus';
-            if(!(kiloes !== sizing)) { _fun00004_ip = 2807; continue _fun00003 }
- 2759:
+            if(!(kiloes !== sizing)) { _fun00004_ip = 2817; continue _fun00003 }
+ 2769:
             result = _closure1_slot10;
             sizing = _closure1_slot0;
             echoed = _closure1_slot2;
@@ -1096,8 +1101,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = 'xs';
             kiloes['size'] = echoed;
             kiloes = result.bind(report)(sizing, kiloes);
-            _fun00004_ip = 2853; continue _fun00003;
- 2807:
+            _fun00004_ip = 2863; continue _fun00003;
+ 2817:
             echoed = _closure1_slot10;
             result = _closure1_slot0;
             source = _closure1_slot2;
@@ -1109,11 +1114,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = 'xs';
             sizing['size'] = source;
             kiloes = echoed.bind(report)(result, sizing);
- 2853:
+ 2863:
             romeon['children'] = kiloes;
             romeon = backup.bind(report)(foxtra, romeon);
-            _fun00004_ip = 3240; continue _fun00003;
- 2868:
+            _fun00004_ip = 3250; continue _fun00003;
+ 2878:
             kiloes = _closure1_slot11;
             backup = _closure1_slot12;
             foxtra = {};
@@ -1194,9 +1199,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing[1] = output;
             foxtra['children'] = sizing;
             romeon = kiloes.bind(report)(backup, foxtra);
- 3240:
+ 3250:
             yankee = romeon;
- 3243:
+ 3253:
             offset[1] = yankee;
             golfie['children'] = offset;
             golfie = verify.bind(report)(option, golfie);
@@ -1204,7 +1209,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 3273:
+ 3283:
             return entity;
         }
     };

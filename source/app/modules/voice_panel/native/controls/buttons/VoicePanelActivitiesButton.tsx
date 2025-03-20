@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 7;
             entity = option[entity];
             entity = zuuluu.bind(tangon)(entity);
-            foxtra = entity.OpenPlatformAppLauncherExperiment;
+            foxtra = entity.ActivitiesControllerIconMobileExperiment;
             golfie = foxtra.useExperiment;
             zuuluu = {};
             entity = 'VoicePanelActivitiesButton';
@@ -167,14 +167,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = tangon[michal];
                     michal = undefined;
                     michal = golfie.bind(michal)(zuuluu);
-                    zuuluu = michal.ActivitiesIcon;
+                    zuuluu = michal.AppsIcon;
                     _fun00004_ip = 67; continue _fun00003;
  47:
                     michal = 9;
                     tangon = tangon[michal];
                     michal = undefined;
                     michal = golfie.bind(michal)(tangon);
-                    zuuluu = michal.AppsIcon;
+                    zuuluu = michal.GameControllerIcon;
  67:
                     michal = {};
                     tangon = _closure2_slot3;

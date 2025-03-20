@@ -90,6 +90,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['VIRTUAL_CURRENCY_BALANCE_WIDGET'] = entity;
     entity = 'virtual currency earned orbs coachmark';
     michal['VIRTUAL_CURRENCY_EARNED_ORBS_COACHMARK'] = entity;
+    entity = 'virtual currency orb profile badge';
+    michal['VIRTUAL_CURRENCY_ORB_PROFILE_BADGE'] = entity;
     entity = 'intro to orbs quest';
     michal['INTRO_TO_ORBS_QUEST'] = entity;
     entity = 'premium payment action sheet';

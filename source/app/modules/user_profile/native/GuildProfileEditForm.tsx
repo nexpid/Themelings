@@ -340,7 +340,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = michal.errors;
             variable45 = michal.isDisabled;
             variable57 = michal.pendingNickname;
-            verify = michal.pendingAvatarV2;
+            verify = michal.pendingAvatar;
             sequen = michal.pendingBanner;
             variable36 = michal.pendingThemeColors;
             variable53 = michal.pendingPronouns;

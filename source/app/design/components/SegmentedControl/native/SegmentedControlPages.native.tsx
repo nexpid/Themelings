@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = undefined;
         foxtra = golfie.bind(tangon)(offset);
         romeon = foxtra.useAnimatedProps;
-        offset = function() { // Original name: h
+        offset = function() { // Original name: v
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zuuluu = _closure2_slot0;
@@ -772,12 +772,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = _closure1_slot11;
             sizing['__initData'] = output;
             option['onScroll'] = sizing;
-            option = offset.bind(kiloes)(option);
+            offset = offset.bind(kiloes)(option);
             output = _closure1_slot4;
             sizing = output.useMemo;
             kiloes = new Array(1);
             kiloes[0] = romeon;
-            offset = function() {
+            option = function() {
                 entity = {};
                 michal = 1;
                 entity['flex'] = michal;
@@ -785,13 +785,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['width'] = michal;
                 return entity;
             };
-            kiloes = sizing.bind(output)(offset, kiloes);
+            kiloes = sizing.bind(output)(option, kiloes);
             var _closure2_slot14 = kiloes;
             output = _closure1_slot4;
             sizing = output.useMemo;
-            offset = new Array(2);
-            offset[0] = entity;
-            offset[1] = romeon;
+            option = new Array(2);
+            option[0] = entity;
+            option[1] = romeon;
             entity = function() {
                 _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
@@ -814,7 +814,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            offset = sizing.bind(output)(entity, offset);
+            option = sizing.bind(output)(entity, option);
             entity = function(argFoo, argBar) { // Original name: useFrozenPageIndices
                 yankee = argFoo;
                 var _closure3_slot0 = yankee;
@@ -965,7 +965,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = 1;
             zuuluu = tangon[zuuluu];
             var _closure2_slot16 = zuuluu;
-            if(!(entity !== romeon)) { _fun00008_ip = 1174; continue _fun00007 }
+            if(!(entity !== romeon)) { _fun00008_ip = 1179; continue _fun00007 }
  947:
             tangon = _closure1_slot5;
             zuuluu = _closure1_slot6;
@@ -975,17 +975,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra[0] = kiloes;
             foxtra[1] = backup;
             entity['style'] = foxtra;
-            entity['contentOffset'] = offset;
-            offset = true;
+            entity['contentOffset'] = option;
+            option = true;
             entity['snapToInterval'] = romeon;
             romeon = 'center';
             entity['snapToAlignment'] = romeon;
             romeon = 'fast';
             entity['decelerationRate'] = romeon;
-            entity['centerContent'] = offset;
+            entity['centerContent'] = option;
             entity['bounces'] = yankee;
-            entity['horizontal'] = offset;
-            entity['onScroll'] = option;
+            entity['horizontal'] = option;
+            entity['onScroll'] = offset;
+            entity['disableIntervalMomentum'] = option;
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
             option = 6;
@@ -994,10 +995,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = offset.isIOS;
             offset = option.bind(offset)();
             option = undefined;
-            if(!offset) { _fun00008_ip = 1084; continue _fun00007 }
- 1081:
+            if(!offset) { _fun00008_ip = 1089; continue _fun00007 }
+ 1086:
             option = 32;
- 1084:
+ 1089:
             entity['scrollEventThrottle'] = option;
             option = verify.map;
             oscard = function(argFoo, argBar) {
@@ -1025,8 +1026,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(zuuluu, entity);
             zuuluu = null;
             entity = oscard;
-            if(!(zuuluu != golfie)) { _fun00008_ip = 1172; continue _fun00007 }
- 1125:
+            if(!(zuuluu != golfie)) { _fun00008_ip = 1177; continue _fun00007 }
+ 1130:
             tangon = _closure1_slot5;
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
@@ -1038,9 +1039,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['gesture'] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1172:
+ 1177:
             return entity;
- 1174:
+ 1179:
             entity = null;
             return entity;
         }

@@ -320,62 +320,74 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = kiloes.roles;
             zuuluu = result.bind(echoed)(output, romeon);
  167:
-            if(!zuuluu) { _fun00012_ip = 210; continue _fun00011 }
+            if(!zuuluu) { _fun00012_ip = 234; continue _fun00011 }
  170:
             echoed = _closure1_slot0;
             result = _closure1_slot3;
             output = 31;
             result = result[output];
             output = undefined;
-            echoed = echoed.bind(output)(result);
-            result = echoed.isEqualAvatarDecoration;
+            update = echoed.bind(output)(result);
+            echoed = update.isEqualAvatarDecoration;
             output = kiloes.avatarDecoration;
-            zuuluu = result.bind(echoed)(output, verify);
- 210:
-            if(!zuuluu) { _fun00012_ip = 223; continue _fun00011 }
+            source = sizing != output;
+            result = null;
+            if(!source) { _fun00012_ip = 216; continue _fun00011 }
  213:
+            result = output;
+ 216:
+            source = sizing != verify;
+            output = null;
+            if(!source) { _fun00012_ip = 228; continue _fun00011 }
+ 225:
+            output = verify;
+ 228:
+            zuuluu = echoed.bind(update)(result, output);
+ 234:
+            if(!zuuluu) { _fun00012_ip = 247; continue _fun00011 }
+ 237:
             output = kiloes.premiumSince;
             zuuluu = output === option;
- 223:
-            if(!zuuluu) { _fun00012_ip = 236; continue _fun00011 }
- 226:
+ 247:
+            if(!zuuluu) { _fun00012_ip = 260; continue _fun00011 }
+ 250:
             output = kiloes.isPending;
             zuuluu = output === golfie;
- 236:
-            if(!zuuluu) { _fun00012_ip = 249; continue _fun00011 }
- 239:
+ 260:
+            if(!zuuluu) { _fun00012_ip = 273; continue _fun00011 }
+ 263:
             output = kiloes.joinedAt;
             zuuluu = output === oscard;
- 249:
-            if(!zuuluu) { _fun00012_ip = 262; continue _fun00011 }
- 252:
+ 273:
+            if(!zuuluu) { _fun00012_ip = 286; continue _fun00011 }
+ 276:
             output = kiloes.communicationDisabledUntil;
             zuuluu = output === report;
- 262:
-            if(!zuuluu) { _fun00012_ip = 274; continue _fun00011 }
- 265:
+ 286:
+            if(!zuuluu) { _fun00012_ip = 298; continue _fun00011 }
+ 289:
             output = kiloes.flags;
             zuuluu = output === entity;
- 274:
-            if(!zuuluu) { _fun00012_ip = 311; continue _fun00011 }
- 277:
+ 298:
+            if(!zuuluu) { _fun00012_ip = 335; continue _fun00011 }
+ 301:
             output = kiloes.unusualDMActivityUntil;
             result = sizing != output;
             kiloes = null;
-            if(!result) { _fun00012_ip = 295; continue _fun00011 }
- 292:
+            if(!result) { _fun00012_ip = 319; continue _fun00011 }
+ 316:
             kiloes = output;
- 295:
+ 319:
             output = sizing != tangon;
             sizing = null;
-            if(!output) { _fun00012_ip = 307; continue _fun00011 }
- 304:
+            if(!output) { _fun00012_ip = 331; continue _fun00011 }
+ 328:
             sizing = tangon;
- 307:
+ 331:
             zuuluu = kiloes === sizing;
- 311:
-            if(zuuluu) { _fun00012_ip = 392; continue _fun00011 }
- 314:
+ 335:
+            if(zuuluu) { _fun00012_ip = 416; continue _fun00011 }
+ 338:
             zuuluu = _closure1_slot25;
             michal = {};
             kiloes = 'GUILD_MEMBER_ADD';
@@ -394,7 +406,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['flags'] = entity;
             entity = undefined;
             entity = zuuluu.bind(entity)(michal);
- 392:
+ 416:
             entity = undefined;
             return entity;
         }

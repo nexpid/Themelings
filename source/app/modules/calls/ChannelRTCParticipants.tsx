@@ -398,12 +398,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = michal.channelId;
                 oscard = report.bind(oscard)(tangon);
                 report = null;
-                if(!(report != oscard)) { _fun00008_ip = 423; continue _fun00007 }
+                if(!(report != oscard)) { _fun00008_ip = 425; continue _fun00007 }
  40:
                 golfie = oscard.type;
                 tangon = _closure1_slot18;
                 tangon = tangon.GUILD_TEXT;
-                if(!(golfie !== tangon)) { _fun00008_ip = 423; continue _fun00007 }
+                if(!(golfie !== tangon)) { _fun00008_ip = 425; continue _fun00007 }
  62:
                 option = _closure1_slot8;
                 golfie = option.getCall;
@@ -415,21 +415,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 if(!tangon) { _fun00008_ip = 130; continue _fun00007 }
  101:
                 tangon = michal.call;
-                if(!(report != tangon)) { _fun00008_ip = 419; continue _fun00007 }
+                if(!(report != tangon)) { _fun00008_ip = 421; continue _fun00007 }
  113:
                 tangon = michal.call;
                 tangon = tangon.unavailable;
-                if(tangon) { _fun00008_ip = 419; continue _fun00007 }
+                if(tangon) { _fun00008_ip = 421; continue _fun00007 }
  130:
                 report = global;
                 golfie = report.Set;
                 tangon = oscard.isGuildVocalOrThread;
                 tangon = tangon.bind(oscard)();
-                if(tangon) { _fun00008_ip = 159; continue _fun00007 }
- 151:
+                if(tangon) { _fun00008_ip = 161; continue _fun00007 }
+ 153:
                 tangon = oscard.recipients;
-                _fun00008_ip = 195; continue _fun00007;
- 159:
+                _fun00008_ip = 197; continue _fun00007;
+ 161:
                 verify = report.Object;
                 option = verify.keys;
                 yankee = _closure1_slot14;
@@ -437,7 +437,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = oscard.id;
                 oscard = offset.bind(yankee)(oscard);
                 tangon = option.bind(verify)(oscard);
- 195:
+ 197:
                 oscard = golfie.prototype;
                 oscard = Object.create(oscard, {constructor: {value: golfie}});
                 kiloes = oscard;
@@ -454,8 +454,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = tangon.size;
                 oscard = 0;
                 tangon = option;
-                if(!(golfie > oscard)) { _fun00008_ip = 331; continue _fun00007 }
- 266:
+                if(!(golfie > oscard)) { _fun00008_ip = 333; continue _fun00007 }
+ 268:
                 golfie = report.Set;
                 report = new Array(0);
                 backup = report;
@@ -473,7 +473,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = report instanceof Object ? report : oscard;
                 _closure3_slot1 = report;
                 tangon = report;
- 331:
+ 333:
                 oscard = _closure1_slot6;
                 report = oscard.getAllActiveStreamsForChannel;
                 zuuluu = michal.channelId;
@@ -506,10 +506,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = entity.bind(michal)();
                 entity = true;
                 return entity;
- 419:
+ 421:
                 entity = false;
                 return entity;
- 423:
+ 425:
                 entity = false;
                 return entity;
             }

@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu[entity] = michal;
             entity = 'canBeAccepted';
             zuuluu[entity] = michal;
-            michal = _closure1_slot8;
+            michal = _closure1_slot9;
             oscard = michal.GUILD;
             michal = 'type';
             zuuluu[michal] = oscard;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot10 = entity;
+    var _closure1_slot11 = entity;
     entity = function(argFoo) { // Original name: buildSupportedOnMobileEmbedBodyText
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -170,71 +170,71 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot11 = entity;
+    var _closure1_slot12 = entity;
     entity = function(argFoo) { // Original name: buildQuestsEmbedProps
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             michal = argFoo;
-            oscard = michal.questId;
+            option = michal.questId;
             entity = michal.isEligibleForQuests;
             michal = michal.themeColors;
             if(entity) { _fun00006_ip = 204; continue _fun00005 }
  30:
-            report = _closure1_slot10;
+            report = _closure1_slot11;
             tangon = {};
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
-            golfie = 9;
-            option = yankee[golfie];
+            oscard = 9;
+            golfie = yankee[oscard];
             entity = undefined;
-            option = offset.bind(entity)(option);
-            romeon = option.intl;
+            golfie = offset.bind(entity)(golfie);
+            romeon = golfie.intl;
             verify = romeon.string;
-            option = yankee[golfie];
-            option = offset.bind(entity)(option);
-            option = option.t;
-            option = option.3Z/Ejo;
-            option = verify.bind(romeon)(option);
-            tangon['titleText'] = option;
-            option = yankee[golfie];
-            option = offset.bind(entity)(option);
-            verify = option.intl;
-            option = verify.string;
-            golfie = yankee[golfie];
+            golfie = yankee[oscard];
             golfie = offset.bind(entity)(golfie);
             golfie = golfie.t;
-            golfie = golfie.yHzB4e;
-            golfie = option.bind(verify)(golfie);
-            tangon['bodyText'] = golfie;
+            golfie = golfie.3Z/Ejo;
+            golfie = verify.bind(romeon)(golfie);
+            tangon['titleText'] = golfie;
+            golfie = yankee[oscard];
+            golfie = offset.bind(entity)(golfie);
+            verify = golfie.intl;
+            golfie = verify.string;
+            oscard = yankee[oscard];
+            oscard = offset.bind(entity)(oscard);
+            oscard = oscard.t;
+            oscard = oscard.yHzB4e;
+            oscard = golfie.bind(verify)(oscard);
+            tangon['bodyText'] = oscard;
             tangon['themeColors'] = michal;
             verify = _closure1_slot3;
-            option = verify.resolveAssetSource;
+            golfie = verify.resolveAssetSource;
             offset = _closure1_slot1;
-            golfie = 16;
-            golfie = yankee[golfie];
-            golfie = offset.bind(entity)(golfie);
-            golfie = option.bind(verify)(golfie);
-            golfie = golfie.uri;
-            tangon['thumbnailUrl'] = golfie;
+            oscard = 16;
+            oscard = yankee[oscard];
+            oscard = offset.bind(entity)(oscard);
+            oscard = golfie.bind(verify)(oscard);
+            oscard = oscard.uri;
+            tangon['thumbnailUrl'] = oscard;
             entity = report.bind(entity)(tangon);
             return entity;
  204:
             entity = _closure1_slot5;
             tangon = entity.quests;
             entity = tangon.get;
-            tangon = entity.bind(tangon)(oscard);
+            tangon = entity.bind(tangon)(option);
             entity = _closure1_slot5;
             report = entity.excludedQuests;
             entity = report.get;
-            entity = entity.bind(report)(oscard);
+            entity = entity.bind(report)(option);
             oscard = null;
             if(!(oscard == tangon)) { _fun00006_ip = 266; continue _fun00005 }
  250:
             report = _closure1_slot5;
             report = report.isFetchingCurrentQuests;
-            if(report) { _fun00006_ip = 1215; continue _fun00005 }
+            if(report) { _fun00006_ip = 1283; continue _fun00005 }
  266:
-            if(!(oscard == entity)) { _fun00006_ip = 1041; continue _fun00005 }
+            if(!(oscard == entity)) { _fun00006_ip = 1075; continue _fun00005 }
  273:
             if(!(oscard != tangon)) { _fun00006_ip = 864; continue _fun00005 }
  280:
@@ -242,127 +242,127 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['themeColors'] = michal;
             entity['quest'] = tangon;
             tangon = entity.themeColors;
-            sizing = entity.quest;
+            output = entity.quest;
             report = tangon.colors;
-            golfie = sizing.userStatus;
-            option = oscard == golfie;
-            romeon = undefined;
+            golfie = output.userStatus;
+            verify = oscard == golfie;
+            foxtra = undefined;
             entity = undefined;
-            if(option) { _fun00006_ip = 332; continue _fun00005 }
+            if(verify) { _fun00006_ip = 332; continue _fun00005 }
  326:
             entity = golfie.enrolledAt;
  332:
             golfie = oscard != entity;
-            entity = sizing.config;
+            entity = output.config;
             oscard = entity.expiresAt;
             entity = global;
             entity = entity.Date;
-            option = entity.prototype;
-            option = Object.create(option, {constructor: {value: entity}});
-            sequen = option;
-            entity = new sequen[entity](vacuum);
-            option = entity instanceof Object ? entity : option;
-            entity = option.toISOString;
-            entity = entity.bind(option)();
+            verify = entity.prototype;
+            verify = Object.create(verify, {constructor: {value: entity}});
+            config = verify;
+            entity = new config[entity](sequen);
+            verify = entity instanceof Object ? entity : verify;
+            entity = verify.toISOString;
+            entity = entity.bind(verify)();
             oscard = oscard < entity;
-            option = _closure1_slot4;
-            entity = option.getState;
-            entity = entity.bind(option)();
-            verify = entity.theme;
-            option = _closure1_slot0;
-            offset = _closure1_slot2;
+            verify = _closure1_slot4;
+            entity = verify.getState;
+            entity = entity.bind(verify)();
+            offset = entity.theme;
+            verify = _closure1_slot0;
+            yankee = _closure1_slot2;
             entity = 14;
-            entity = offset[entity];
-            option = option.bind(romeon)(entity);
-            entity = option.isThemeDark;
-            option = entity.bind(option)(verify);
-            entity = _closure1_slot7;
-            if(option) { _fun00006_ip = 455; continue _fun00005 }
+            entity = yankee[entity];
+            verify = verify.bind(foxtra)(entity);
+            entity = verify.isThemeDark;
+            verify = entity.bind(verify)(offset);
+            entity = _closure1_slot8;
+            if(verify) { _fun00006_ip = 455; continue _fun00005 }
  447:
-            kiloes = entity.LIGHT;
+            sizing = entity.LIGHT;
             _fun00006_ip = 461; continue _fun00005;
  455:
-            kiloes = entity.DARK;
+            sizing = entity.DARK;
  461:
             entity = {};
-            verify = _closure1_slot10;
-            option = {};
-            output = _closure1_slot0;
-            result = _closure1_slot2;
-            foxtra = 9;
-            offset = result[foxtra];
-            offset = output.bind(romeon)(offset);
-            echoed = offset.intl;
-            backup = echoed.formatToPlainString;
-            offset = result[foxtra];
-            offset = output.bind(romeon)(offset);
-            offset = offset.t;
-            yankee = offset.EAYZAg;
-            offset = {};
-            update = sizing.config;
-            update = update.messages;
-            update = update.questName;
-            offset['questName'] = update;
-            offset = backup.bind(echoed)(yankee, offset);
-            option['titleText'] = offset;
-            offset = sizing.config;
-            offset = offset.messages;
-            offset = offset.gamePublisher;
-            option['subtitle'] = offset;
-            yankee = _closure1_slot11;
-            offset = {};
-            offset['quest'] = sizing;
-            offset = yankee.bind(romeon)(offset);
-            option['bodyText'] = offset;
-            option['themeColors'] = tangon;
-            offset = 15;
-            yankee = result[offset];
-            backup = output.bind(romeon)(yankee);
-            yankee = backup.getQuestAsset;
-            offset = result[offset];
-            offset = output.bind(romeon)(offset);
-            offset = offset.QuestAssetType;
-            offset = offset.GAME_TILE;
-            offset = yankee.bind(backup)(sizing, offset, kiloes);
-            offset = offset.url;
-            option['thumbnailUrl'] = offset;
-            ctrled = verify.bind(romeon)(option);
-            vacuum = entity;
-            option = copyDataProperties(vacuum, ctrled);
+            offset = _closure1_slot11;
+            verify = {};
+            result = _closure1_slot0;
+            echoed = _closure1_slot2;
+            backup = 9;
+            yankee = echoed[backup];
+            yankee = result.bind(foxtra)(yankee);
+            update = yankee.intl;
+            kiloes = update.formatToPlainString;
+            yankee = echoed[backup];
+            yankee = result.bind(foxtra)(yankee);
+            yankee = yankee.t;
+            romeon = yankee.EAYZAg;
+            yankee = {};
+            source = output.config;
+            source = source.messages;
+            source = source.questName;
+            yankee['questName'] = source;
+            yankee = kiloes.bind(update)(romeon, yankee);
+            verify['titleText'] = yankee;
+            yankee = output.config;
+            yankee = yankee.messages;
+            yankee = yankee.gamePublisher;
+            verify['subtitle'] = yankee;
+            romeon = _closure1_slot12;
+            yankee = {};
+            yankee['quest'] = output;
+            yankee = romeon.bind(foxtra)(yankee);
+            verify['bodyText'] = yankee;
+            verify['themeColors'] = tangon;
+            yankee = 15;
+            romeon = echoed[yankee];
+            kiloes = result.bind(foxtra)(romeon);
+            romeon = kiloes.getQuestAsset;
+            yankee = echoed[yankee];
+            yankee = result.bind(foxtra)(yankee);
+            yankee = yankee.QuestAssetType;
+            yankee = yankee.GAME_TILE;
+            yankee = romeon.bind(kiloes)(output, yankee, sizing);
+            yankee = yankee.url;
+            verify['thumbnailUrl'] = yankee;
+            vacuum = offset.bind(foxtra)(verify);
+            sequen = entity;
+            verify = copyDataProperties(sequen, vacuum);
             if(golfie) { _fun00006_ip = 730; continue _fun00005 }
  673:
             if(oscard) { _fun00006_ip = 730; continue _fun00005 }
  676:
-            offset = _closure1_slot0;
-            golfie = _closure1_slot2;
-            option = golfie[foxtra];
-            option = offset.bind(romeon)(option);
-            verify = option.intl;
-            option = verify.string;
-            golfie = golfie[foxtra];
-            golfie = offset.bind(romeon)(golfie);
-            golfie = golfie.t;
-            golfie = golfie.kUQLMD;
-            golfie = option.bind(verify)(golfie);
-            _fun00006_ip = 803; continue _fun00005;
- 730:
             yankee = _closure1_slot0;
-            option = _closure1_slot2;
-            verify = option[foxtra];
-            verify = yankee.bind(romeon)(verify);
+            golfie = _closure1_slot2;
+            verify = golfie[backup];
+            verify = yankee.bind(foxtra)(verify);
             offset = verify.intl;
             verify = offset.string;
-            option = option[foxtra];
-            option = yankee.bind(romeon)(option);
-            option = option.t;
+            golfie = golfie[backup];
+            golfie = yankee.bind(foxtra)(golfie);
+            golfie = golfie.t;
+            golfie = golfie.kUQLMD;
+            golfie = verify.bind(offset)(golfie);
+            _fun00006_ip = 803; continue _fun00005;
+ 730:
+            romeon = _closure1_slot0;
+            verify = _closure1_slot2;
+            offset = verify[backup];
+            offset = romeon.bind(foxtra)(offset);
+            yankee = offset.intl;
+            offset = yankee.string;
+            verify = verify[backup];
+            verify = romeon.bind(foxtra)(verify);
+            verify = verify.t;
             if(oscard) { _fun00006_ip = 789; continue _fun00005 }
  774:
-            oscard = option.th2+0t;
-            oscard = verify.bind(offset)(oscard);
+            oscard = verify.th2+0t;
+            oscard = offset.bind(yankee)(oscard);
             _fun00006_ip = 800; continue _fun00005;
  789:
-            option = option.hvVgAQ;
-            oscard = verify.bind(offset)(option);
+            verify = verify.hvVgAQ;
+            oscard = offset.bind(yankee)(verify);
  800:
             golfie = oscard;
  803:
@@ -378,98 +378,112 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = 8;
             tangon = 'thumbnailCornerRadius';
             entity[tangon] = report;
-            _fun00006_ip = 1036; continue _fun00005;
+            _fun00006_ip = 1070; continue _fun00005;
  864:
-            oscard = _closure1_slot10;
-            report = {};
-            offset = _closure1_slot0;
-            yankee = _closure1_slot2;
+            yankee = _closure1_slot0;
+            romeon = _closure1_slot2;
+            tangon = 17;
+            tangon = romeon[tangon];
+            oscard = undefined;
+            golfie = yankee.bind(oscard)(tangon);
+            report = golfie.trackQuestEmbedFallbackViewed;
+            tangon = _closure1_slot7;
+            tangon = tangon.UNKNOWN_QUEST;
+            tangon = report.bind(golfie)(option, tangon);
+            report = _closure1_slot11;
+            tangon = {};
             golfie = 9;
-            option = yankee[golfie];
-            tangon = undefined;
-            option = offset.bind(tangon)(option);
-            romeon = option.intl;
-            verify = romeon.string;
-            option = yankee[golfie];
-            option = offset.bind(tangon)(option);
-            option = option.t;
-            option = option.rxf+n5;
-            option = verify.bind(romeon)(option);
-            report['titleText'] = option;
-            option = yankee[golfie];
-            option = offset.bind(tangon)(option);
-            verify = option.intl;
-            option = verify.string;
-            golfie = yankee[golfie];
-            golfie = offset.bind(tangon)(golfie);
+            verify = romeon[golfie];
+            verify = yankee.bind(oscard)(verify);
+            foxtra = verify.intl;
+            offset = foxtra.string;
+            verify = romeon[golfie];
+            verify = yankee.bind(oscard)(verify);
+            verify = verify.t;
+            verify = verify.rxf+n5;
+            verify = offset.bind(foxtra)(verify);
+            tangon['titleText'] = verify;
+            verify = romeon[golfie];
+            verify = yankee.bind(oscard)(verify);
+            offset = verify.intl;
+            verify = offset.string;
+            golfie = romeon[golfie];
+            golfie = yankee.bind(oscard)(golfie);
             golfie = golfie.t;
             golfie = golfie.Ow5AQE;
-            golfie = option.bind(verify)(golfie);
-            report['bodyText'] = golfie;
-            report['themeColors'] = michal;
-            verify = _closure1_slot3;
-            option = verify.resolveAssetSource;
-            offset = _closure1_slot1;
+            golfie = verify.bind(offset)(golfie);
+            tangon['bodyText'] = golfie;
+            tangon['themeColors'] = michal;
+            offset = _closure1_slot3;
+            verify = offset.resolveAssetSource;
+            yankee = _closure1_slot1;
             golfie = 16;
-            golfie = yankee[golfie];
-            golfie = offset.bind(tangon)(golfie);
-            golfie = option.bind(verify)(golfie);
+            golfie = romeon[golfie];
+            golfie = yankee.bind(oscard)(golfie);
+            golfie = verify.bind(offset)(golfie);
             golfie = golfie.uri;
-            report['thumbnailUrl'] = golfie;
-            entity = oscard.bind(tangon)(report);
- 1036:
-            _fun00006_ip = 1213; continue _fun00005;
- 1041:
-            oscard = _closure1_slot10;
-            report = {};
+            tangon['thumbnailUrl'] = golfie;
+            entity = report.bind(oscard)(tangon);
+ 1070:
+            _fun00006_ip = 1281; continue _fun00005;
+ 1075:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
+            tangon = 17;
+            tangon = yankee[tangon];
+            oscard = undefined;
+            golfie = offset.bind(oscard)(tangon);
+            report = golfie.trackQuestEmbedFallbackViewed;
+            tangon = _closure1_slot7;
+            tangon = tangon.EXCLUDED_QUEST;
+            tangon = report.bind(golfie)(option, tangon);
+            report = _closure1_slot11;
+            tangon = {};
             golfie = 9;
             option = yankee[golfie];
-            tangon = undefined;
-            option = offset.bind(tangon)(option);
+            option = offset.bind(oscard)(option);
             romeon = option.intl;
             verify = romeon.string;
             option = yankee[golfie];
-            option = offset.bind(tangon)(option);
+            option = offset.bind(oscard)(option);
             option = option.t;
             option = option.Dd6Da2;
             option = verify.bind(romeon)(option);
-            report['titleText'] = option;
+            tangon['titleText'] = option;
             option = yankee[golfie];
-            option = offset.bind(tangon)(option);
+            option = offset.bind(oscard)(option);
             verify = option.intl;
             option = verify.string;
             golfie = yankee[golfie];
-            golfie = offset.bind(tangon)(golfie);
+            golfie = offset.bind(oscard)(golfie);
             golfie = golfie.t;
             golfie = golfie.ii4mJi;
             golfie = option.bind(verify)(golfie);
-            report['bodyText'] = golfie;
-            report['themeColors'] = michal;
+            tangon['bodyText'] = golfie;
+            tangon['themeColors'] = michal;
             verify = _closure1_slot3;
             option = verify.resolveAssetSource;
             offset = _closure1_slot1;
             golfie = 16;
             golfie = yankee[golfie];
-            golfie = offset.bind(tangon)(golfie);
+            golfie = offset.bind(oscard)(golfie);
             golfie = option.bind(verify)(golfie);
             golfie = golfie.uri;
-            report['thumbnailUrl'] = golfie;
-            entity = oscard.bind(tangon)(report);
- 1213:
-            _fun00006_ip = 1233; continue _fun00005;
- 1215:
-            tangon = _closure1_slot10;
+            tangon['thumbnailUrl'] = golfie;
+            entity = report.bind(oscard)(tangon);
+ 1281:
+            _fun00006_ip = 1301; continue _fun00005;
+ 1283:
+            tangon = _closure1_slot11;
             zuuluu = {};
             zuuluu['themeColors'] = michal;
             michal = undefined;
             entity = tangon.bind(michal)(zuuluu);
- 1233:
+ 1301:
             return entity;
         }
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot13 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -499,24 +513,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 4;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.QuestsExperimentLocations;
-    var _closure1_slot6 = tangon;
+    golfie = tangon.QuestsExperimentLocations;
+    var _closure1_slot6 = golfie;
+    tangon = tangon.QuestEmbedFallbackReason;
+    var _closure1_slot7 = tangon;
     tangon = 5;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.ThemeTypes;
-    var _closure1_slot7 = tangon;
+    var _closure1_slot8 = tangon;
     tangon = 6;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.InviteTypes;
-    var _closure1_slot8 = tangon;
+    var _closure1_slot9 = tangon;
     tangon = 7;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
-    var _closure1_slot9 = tangon;
-    tangon = 21;
+    var _closure1_slot10 = tangon;
+    tangon = 22;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -529,22 +545,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = entity.questId;
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
-            entity = 19;
+            entity = 20;
             entity = golfie[entity];
             report = undefined;
             zuuluu = oscard.bind(report)(entity);
             entity = zuuluu.useMessageRendererTheme;
             verify = entity.bind(zuuluu)();
-            zuuluu = _closure1_slot12;
+            zuuluu = _closure1_slot13;
             entity = {};
             entity['questId'] = tangon;
-            tangon = 17;
+            tangon = 18;
             tangon = golfie[tangon];
             option = oscard.bind(report)(tangon);
             tangon = option.useEmbedThemeColors;
             tangon = tangon.bind(option)(verify);
             entity['themeColors'] = tangon;
-            tangon = 18;
+            tangon = 19;
             tangon = golfie[tangon];
             golfie = oscard.bind(report)(tangon);
             oscard = golfie.useIsEligibleForQuests;
@@ -559,10 +575,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity != oscard;
             if(!zuuluu) { _fun00008_ip = 183; continue _fun00007 }
  141:
-            tangon = _closure1_slot9;
+            tangon = _closure1_slot10;
             zuuluu = _closure1_slot1;
             golfie = _closure1_slot2;
-            michal = 20;
+            michal = 21;
             michal = golfie[michal];
             zuuluu = zuuluu.bind(report)(michal);
             michal = {};
@@ -579,19 +595,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = argFoo;
         entity = michal.questId;
         report = michal.theme;
-        zuuluu = _closure1_slot12;
+        zuuluu = _closure1_slot13;
         michal = {};
         michal['questId'] = entity;
         option = _closure1_slot1;
         oscard = _closure1_slot2;
-        entity = 17;
+        entity = 18;
         tangon = oscard[entity];
         entity = undefined;
         tangon = option.bind(entity)(tangon);
         tangon = tangon.bind(entity)(report);
         michal['themeColors'] = tangon;
         report = _closure1_slot0;
-        tangon = 18;
+        tangon = 19;
         tangon = oscard[tangon];
         oscard = report.bind(entity)(tangon);
         report = oscard.getIsEligibleForQuests;

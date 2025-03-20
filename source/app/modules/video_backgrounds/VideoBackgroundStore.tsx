@@ -359,7 +359,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     michal['VIDEO_SAVE_LAST_USED_BACKGROUND_OPTION'] = verify;
-    tangon = function(argFoo) { // Original name: handleApplyMediaFilterSettings
+    verify = function(argFoo) { // Original name: handleApplyMediaFilterSettings
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             entity = argFoo;
@@ -381,7 +381,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    michal['MEDIA_ENGINE_APPLY_MEDIA_FILTER_SETTINGS'] = tangon;
+    michal['MEDIA_ENGINE_APPLY_MEDIA_FILTER_SETTINGS'] = verify;
+    tangon = function() { // Original name: handleLogout
+        entity = false;
+        _closure1_slot11 = entity;
+        _closure1_slot13 = entity;
+        entity = null;
+        _closure1_slot12 = entity;
+        entity = {};
+        _closure1_slot14 = entity;
+        entity = undefined;
+        return entity;
+    };
+    michal['LOGOUT'] = tangon;
     tangon = option.prototype;
     tangon = Object.create(tangon, {constructor: {value: option}});
     foxtra = tangon;

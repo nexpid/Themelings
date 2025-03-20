@@ -276,10 +276,8 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                 zuuluu = _closure1_slot1;
                 michal = 12;
                 michal = option[michal];
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = '';
-                michal = null;
-                michal = tangon.bind(entity)(zuuluu, michal, michal);
+                michal = zuuluu.bind(entity)(michal);
+                michal = michal.bind(entity)();
                 michal = 13;
                 michal = option[michal];
                 michal = golfie.bind(entity)(michal);

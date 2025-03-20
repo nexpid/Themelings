@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity = oscard.bind(verify)(zuuluu, entity);
-            verify = entity.pendingAvatarV2;
+            verify = entity.pendingAvatar;
             oscard = entity.pendingAccentColor;
             entity = 21;
             entity = golfie[entity];

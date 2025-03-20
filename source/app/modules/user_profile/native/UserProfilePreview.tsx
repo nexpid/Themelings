@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity = zuuluu.bind(oscard)(michal, entity);
-            oscard = entity.pendingAvatarV2;
+            oscard = entity.pendingAvatar;
             romeon = entity.pendingBanner;
             sizing = entity.pendingAccentColor;
             kiloes = entity.pendingThemeColors;

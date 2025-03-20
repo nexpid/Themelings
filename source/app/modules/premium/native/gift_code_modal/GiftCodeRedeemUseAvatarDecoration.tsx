@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = {};
         michal['analyticsLocations'] = golfie;
         michal = zuuluu.bind(tangon)(michal);
-        verify = michal.pendingAvatarV2;
+        verify = michal.pendingAvatar;
         michal = 10;
         michal = sizing[michal];
         michal = offset.bind(tangon)(michal);

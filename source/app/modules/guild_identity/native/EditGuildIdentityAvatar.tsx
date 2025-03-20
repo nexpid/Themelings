@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = 15;
                     report = oscard[report];
                     golfie = golfie.bind(zuuluu)(report);
-                    report = golfie.setPendingAvatarV2;
+                    report = golfie.setPendingAvatar;
                     report = report.bind(golfie)(option);
                     report = _closure1_slot1;
                     tangon = 10;
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = tangon[entity];
             entity = undefined;
             oscard = report.bind(entity)(zuuluu);
-            report = oscard.setPendingAvatarV2;
+            report = oscard.setPendingAvatar;
             zuuluu = null;
             zuuluu = report.bind(oscard)(zuuluu);
             zuuluu = _closure1_slot1;
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset[0] = oscard;
             oscard = function() {
                 zuuluu = _closure1_slot8;
-                entity = zuuluu.getPendingAvatarV2;
+                entity = zuuluu.getPendingAvatar;
                 michal = entity.bind(zuuluu)();
                 entity = new Array(2);
                 entity[0] = michal;
@@ -319,7 +319,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = 18;
             michal = tangon[michal];
             tangon = zuuluu.bind(report)(michal);
-            zuuluu = tangon.showRemoveAvatarV2;
+            zuuluu = tangon.showRemoveAvatar;
             sizing = null;
             oscard = sizing == ctrled;
             michal = undefined;

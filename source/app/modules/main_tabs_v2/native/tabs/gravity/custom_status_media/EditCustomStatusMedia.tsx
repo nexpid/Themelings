@@ -1156,7 +1156,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00026_ip = 326; continue _fun00025 }
+                        if(michal) { _fun00026_ip = 341; continue _fun00025 }
  10:
                         zuuluu = _closure1_slot0;
                         report = _closure1_slot2;
@@ -1176,7 +1176,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = zuuluu.toDate;
                         zuuluu = michal.bind(zuuluu)();
                         michal = zuuluu.getTime;
-                        offset = michal.bind(zuuluu)();
+                        option = michal.bind(zuuluu)();
                         michal = _closure2_slot9;
                         zuuluu = michal.length;
                         michal = 0;
@@ -1186,37 +1186,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         golfie = _closure1_slot2;
                         michal = 39;
                         michal = golfie[michal];
-                        option = zuuluu.bind(tangon)(michal);
-                        golfie = option.handleUploadingMedia;
+                        verify = zuuluu.bind(tangon)(michal);
+                        golfie = verify.handleUploadingMedia;
                         zuuluu = _closure2_slot9;
                         michal = _closure2_slot1;
-                        michal = golfie.bind(option)(zuuluu, michal, offset);
+                        michal = golfie.bind(verify)(zuuluu, michal, option);
                         SaveGenerator(address=163);
  161:
                         return michal;
  163:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(zuuluu) { _fun00026_ip = 323; continue _fun00025 }
+                        if(zuuluu) { _fun00026_ip = 338; continue _fun00025 }
  172:
                         golfie = _closure1_slot1;
-                        option = _closure1_slot2;
+                        verify = _closure1_slot2;
                         zuuluu = 40;
-                        zuuluu = option[zuuluu];
-                        verify = golfie.bind(tangon)(zuuluu);
-                        output = _closure2_slot2;
-                        sizing = _closure2_slot3;
-                        kiloes = _closure2_slot5;
-                        result = undefined;
-                        backup = undefined;
-                        foxtra = offset;
-                        zuuluu = result[verify](output, sizing, kiloes, backup, foxtra, romeon);
-                        SaveGenerator(address=219);
- 217:
+                        zuuluu = verify[zuuluu];
+                        golfie = golfie.bind(tangon)(zuuluu);
+                        zuuluu = {};
+                        verify = _closure2_slot2;
+                        zuuluu['text'] = verify;
+                        verify = _closure2_slot3;
+                        zuuluu['emojiInfo'] = verify;
+                        verify = _closure2_slot5;
+                        zuuluu['clearAfter'] = verify;
+                        zuuluu['createdAtMs'] = option;
+                        zuuluu = golfie.bind(tangon)(zuuluu);
+                        SaveGenerator(address=234);
+ 232:
                         return zuuluu;
- 219:
+ 234:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                        if(golfie) { _fun00026_ip = 320; continue _fun00025 }
- 225:
+                        if(golfie) { _fun00026_ip = 335; continue _fun00025 }
+ 240:
                         yankee = _closure1_slot0;
                         romeon = _closure1_slot2;
                         oscard = 41;
@@ -1238,11 +1240,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = _closure2_slot0;
                         report = report.bind(tangon)();
                         return tangon;
- 320:
+ 335:
                         return zuuluu;
- 323:
+ 338:
                         return michal;
- 326:
+ 341:
                         return entity;
                     }
                 };

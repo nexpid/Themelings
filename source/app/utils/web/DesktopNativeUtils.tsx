@@ -286,97 +286,104 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = function(argFoo) { // Original name: normalizeRunningGame
             _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-                michal = argFoo;
+                zuuluu = argFoo;
                 entity = {};
                 golfie = _closure1_slot11;
-                option = michal.id;
-                tangon = null;
-                verify = tangon != option;
-                oscard = '';
-                report = oscard;
+                option = zuuluu.id;
+                michal = null;
+                verify = michal != option;
+                tangon = '';
+                oscard = tangon;
                 if(!verify) { _fun00012_ip = 36; continue _fun00011 }
  33:
-                report = option;
+                oscard = option;
  36:
-                report = golfie[report];
-                entity['id'] = report;
-                report = global;
-                verify = report.parseInt;
-                report = michal.id;
-                golfie = tangon != report;
-                option = oscard;
+                oscard = golfie[oscard];
+                entity['id'] = oscard;
+                oscard = global;
+                verify = oscard.parseInt;
+                oscard = zuuluu.id;
+                golfie = michal != oscard;
+                option = tangon;
                 if(!golfie) { _fun00012_ip = 70; continue _fun00011 }
  67:
-                option = report;
+                option = oscard;
  70:
-                report = undefined;
-                golfie = 10;
-                golfie = verify.bind(report)(option, golfie);
-                entity['nativeProcessObserverId'] = golfie;
-                golfie = michal.gameName;
-                if(!(tangon == golfie)) { _fun00012_ip = 101; continue _fun00011 }
+                golfie = undefined;
+                oscard = 10;
+                oscard = verify.bind(golfie)(option, oscard);
+                entity['nativeProcessObserverId'] = oscard;
+                oscard = zuuluu.gameName;
+                if(!(michal == oscard)) { _fun00012_ip = 101; continue _fun00011 }
  96:
-                golfie = michal.name;
+                oscard = zuuluu.name;
  101:
-                entity['name'] = golfie;
-                golfie = michal.name;
-                option = tangon != golfie;
+                entity['name'] = oscard;
+                oscard = zuuluu.name;
+                option = michal != oscard;
                 if(!option) { _fun00012_ip = 120; continue _fun00011 }
  117:
-                oscard = golfie;
+                tangon = oscard;
  120:
-                entity['processName'] = oscard;
-                oscard = michal.hidden;
-                entity['hidden'] = oscard;
-                oscard = michal.elevated;
-                entity['elevated'] = oscard;
-                golfie = michal.sandboxed;
-                oscard = tangon != golfie;
-                if(!oscard) { _fun00012_ip = 163; continue _fun00011 }
+                entity['processName'] = tangon;
+                tangon = zuuluu.hidden;
+                entity['hidden'] = tangon;
+                tangon = zuuluu.elevated;
+                entity['elevated'] = tangon;
+                oscard = zuuluu.sandboxed;
+                tangon = michal != oscard;
+                if(!tangon) { _fun00012_ip = 163; continue _fun00011 }
  160:
-                oscard = golfie;
+                tangon = oscard;
  163:
-                entity['sandboxed'] = oscard;
-                oscard = michal.lastFocused;
-                entity['lastFocused'] = oscard;
-                oscard = michal.exePath;
-                entity['exePath'] = oscard;
-                oscard = michal.exeName;
-                entity['exeName'] = oscard;
-                oscard = michal.cmdLine;
-                entity['cmdLine'] = oscard;
-                oscard = michal.distributor;
-                entity['distributor'] = oscard;
-                oscard = michal.sku;
-                entity['sku'] = oscard;
-                oscard = michal.pid;
-                entity['pid'] = oscard;
-                oscard = michal.pidPath;
-                if(!(tangon == oscard)) { _fun00012_ip = 259; continue _fun00011 }
+                entity['sandboxed'] = tangon;
+                tangon = zuuluu.lastFocused;
+                entity['lastFocused'] = tangon;
+                tangon = zuuluu.exePath;
+                entity['exePath'] = tangon;
+                tangon = zuuluu.exeName;
+                entity['exeName'] = tangon;
+                tangon = zuuluu.cmdLine;
+                entity['cmdLine'] = tangon;
+                tangon = zuuluu.distributor;
+                entity['distributor'] = tangon;
+                tangon = zuuluu.sku;
+                entity['sku'] = tangon;
+                tangon = zuuluu.pid;
+                entity['pid'] = tangon;
+                tangon = zuuluu.pidPath;
+                if(!(michal == tangon)) { _fun00012_ip = 259; continue _fun00011 }
  255:
-                oscard = new Array(0);
+                tangon = new Array(0);
  259:
-                entity['pidPath'] = oscard;
-                golfie = michal.windowHandle;
-                option = tangon != golfie;
-                oscard = null;
+                entity['pidPath'] = tangon;
+                oscard = zuuluu.windowHandle;
+                option = michal != oscard;
+                tangon = null;
                 if(!option) { _fun00012_ip = 282; continue _fun00011 }
  279:
-                oscard = golfie;
+                tangon = oscard;
  282:
-                entity['windowHandle'] = oscard;
-                michal = michal.fullscreenType;
-                if(!(tangon == michal)) { _fun00012_ip = 329; continue _fun00011 }
+                entity['windowHandle'] = tangon;
+                tangon = zuuluu.fullscreenType;
+                if(!(michal == tangon)) { _fun00012_ip = 329; continue _fun00011 }
  297:
-                tangon = _closure1_slot0;
-                oscard = _closure1_slot2;
-                zuuluu = 4;
-                zuuluu = oscard[zuuluu];
-                zuuluu = tangon.bind(report)(zuuluu);
-                zuuluu = zuuluu.RunningProcessFullscreenType;
-                michal = zuuluu.UNKNOWN;
+                oscard = _closure1_slot0;
+                option = _closure1_slot2;
+                report = 4;
+                report = option[report];
+                report = oscard.bind(golfie)(report);
+                report = report.RunningProcessFullscreenType;
+                tangon = report.UNKNOWN;
  329:
-                entity['fullscreenType'] = michal;
+                entity['fullscreenType'] = tangon;
+                zuuluu = zuuluu.isLauncher;
+                michal = michal != zuuluu;
+                if(!michal) { _fun00012_ip = 350; continue _fun00011 }
+ 347:
+                michal = zuuluu;
+ 350:
+                entity['isLauncher'] = michal;
                 return entity;
             }
         };

@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 8;
             entity = tangon[entity];
             zuuluu = zuuluu.bind(report)(entity);
-            entity = zuuluu.useCurrentUserAvailableClans;
+            entity = zuuluu.useUserAvailableGuildsWithTags;
             entity = entity.bind(zuuluu)();
             var _closure2_slot2 = entity;
             zuuluu = entity.length;

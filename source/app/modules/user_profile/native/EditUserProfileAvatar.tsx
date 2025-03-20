@@ -139,10 +139,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['isTryItOut'] = golfie;
             michal['analyticsLocations'] = papara;
             michal = report.bind(tangon)(michal);
-            cntext = michal.pendingAvatarV2;
+            cntext = michal.pendingAvatar;
             _closure2_slot5 = cntext;
             option = michal.pendingAvatarDecoration;
-            record = michal.setPendingAvatarV2;
+            record = michal.setPendingAvatar;
             _closure2_slot6 = record;
             report = _closure1_slot0;
             michal = 9;
@@ -290,7 +290,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = 17;
                 golfie = verify[golfie];
                 verify = option.bind(entity)(golfie);
-                option = verify.showRemoveAvatarV2;
+                option = verify.showRemoveAvatar;
                 golfie = _closure2_slot5;
                 michal = _closure2_slot0;
                 michal = michal.avatar;
@@ -358,7 +358,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = echoed[kiloes];
             sequen = result.bind(tangon)(zuuluu);
             backup = sequen.useAnimatedStyle;
-            zuuluu = function() { // Original name: V
+            zuuluu = function() { // Original name: C
                 entity = {};
                 zuuluu = {};
                 tangon = _closure2_slot11;

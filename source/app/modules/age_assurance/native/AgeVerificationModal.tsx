@@ -14,7 +14,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         var _closure2_slot1 = entity;
         entity = argCor;
         var _closure2_slot2 = entity;
-        golfie = function() { // Original name: handleClose
+        entity = function() { // Original name: handleClose
             michal = _closure2_slot2;
             entity = undefined;
             michal = michal.bind(entity)();
@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(zuuluu)();
             return entity;
         };
-        var _closure2_slot3 = golfie;
+        var _closure2_slot3 = entity;
         entity = {};
         michal = _closure1_slot6;
         zuuluu = michal.VERIFY_AGE;
@@ -35,19 +35,46 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = argFoo;
         oscard = oscard.headerStyle;
         michal['headerStyle'] = oscard;
-        oscard = function() { // Original name: headerTitle
-            entity = null;
+        verify = _closure1_slot0;
+        offset = _closure1_slot2;
+        report = 9;
+        oscard = offset[report];
+        option = undefined;
+        oscard = verify.bind(option)(oscard);
+        golfie = oscard.intl;
+        oscard = golfie.string;
+        report = offset[report];
+        report = verify.bind(option)(report);
+        report = report.t;
+        report = report.N+j4PD;
+        report = oscard.bind(golfie)(report);
+        michal['headerTitle'] = report;
+        report = function() { // Original name: headerLeft
+            tangon = _closure1_slot5;
+            option = _closure1_slot0;
+            verify = _closure1_slot2;
+            entity = 10;
+            entity = verify[entity];
+            zuuluu = undefined;
+            entity = option.bind(zuuluu)(entity);
+            michal = entity.HeaderActionButton;
+            entity = {};
+            report = _closure2_slot3;
+            entity['onPress'] = report;
+            report = 9;
+            oscard = verify[report];
+            oscard = option.bind(zuuluu)(oscard);
+            golfie = oscard.intl;
+            oscard = golfie.string;
+            report = verify[report];
+            report = option.bind(zuuluu)(report);
+            report = report.t;
+            report = report.cpT0Cg;
+            report = oscard.bind(golfie)(report);
+            entity['text'] = report;
+            entity = tangon.bind(zuuluu)(michal, entity);
             return entity;
         };
-        michal['headerTitle'] = oscard;
-        option = _closure1_slot0;
-        oscard = _closure1_slot2;
-        report = 9;
-        oscard = oscard[report];
-        report = undefined;
-        oscard = option.bind(report)(oscard);
-        report = oscard.getHeaderCloseButton;
-        report = report.bind(oscard)(golfie);
         michal['headerLeft'] = report;
         tangon = function() { // Original name: render
             tangon = _closure1_slot5;
@@ -263,7 +290,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = _closure1_slot5;
         option = _closure1_slot0;
         verify = _closure1_slot2;
-        entity = 10;
+        entity = 11;
         entity = verify[entity];
         entity = option.bind(tangon)(entity);
         michal = entity.Navigator;
@@ -272,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = _closure1_slot6;
         report = report.VERIFY_AGE;
         entity['initialRouteName'] = report;
-        report = 11;
+        report = 9;
         oscard = verify[report];
         oscard = option.bind(tangon)(oscard);
         golfie = oscard.intl;

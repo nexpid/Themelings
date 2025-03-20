@@ -644,7 +644,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['avatar'] = tangon;
             zuuluu = report.bind(oscard)(zuuluu);
             zuuluu = null;
-            if(!(zuuluu != tangon)) { _fun00010_ip = 147; continue _fun00009 }
+            if(!(zuuluu != tangon)) { _fun00010_ip = 149; continue _fun00009 }
  61:
             option = _closure1_slot0;
             verify = _closure1_slot2;
@@ -664,8 +664,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.NstziY;
             zuuluu = oscard.bind(golfie)(zuuluu);
             zuuluu = tangon.bind(report)(zuuluu);
-            _fun00010_ip = 231; continue _fun00009;
- 147:
+            _fun00010_ip = 235; continue _fun00009;
+ 149:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             michal = 12;
@@ -684,73 +684,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.f1+oNj;
             michal = report.bind(oscard)(michal);
             michal = zuuluu.bind(tangon)(michal);
- 231:
+ 235:
             return entity;
         }
     };
     zuuluu['setPendingAvatar'] = tangon;
-    tangon = function(argFoo) { // Original name: setPendingAvatarV2
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
- 0:
-            tangon = argFoo;
-            report = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 3;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            oscard = report.bind(entity)(zuuluu);
-            report = oscard.dispatch;
-            zuuluu = {};
-            golfie = 'USER_SETTINGS_ACCOUNT_SET_PENDING_AVATAR_V2';
-            zuuluu['type'] = golfie;
-            zuuluu['avatar'] = tangon;
-            zuuluu = report.bind(oscard)(zuuluu);
-            zuuluu = null;
-            if(!(zuuluu != tangon)) { _fun00012_ip = 147; continue _fun00011 }
- 61:
-            option = _closure1_slot0;
-            verify = _closure1_slot2;
-            zuuluu = 12;
-            zuuluu = verify[zuuluu];
-            zuuluu = option.bind(entity)(zuuluu);
-            report = zuuluu.AccessibilityAnnouncer;
-            tangon = report.announce;
-            zuuluu = 4;
-            oscard = verify[zuuluu];
-            oscard = option.bind(entity)(oscard);
-            golfie = oscard.intl;
-            oscard = golfie.string;
-            zuuluu = verify[zuuluu];
-            zuuluu = option.bind(entity)(zuuluu);
-            zuuluu = zuuluu.t;
-            zuuluu = zuuluu.NstziY;
-            zuuluu = oscard.bind(golfie)(zuuluu);
-            zuuluu = tangon.bind(report)(zuuluu);
-            _fun00012_ip = 231; continue _fun00011;
- 147:
-            golfie = _closure1_slot0;
-            option = _closure1_slot2;
-            michal = 12;
-            michal = option[michal];
-            michal = golfie.bind(entity)(michal);
-            tangon = michal.AccessibilityAnnouncer;
-            zuuluu = tangon.announce;
-            michal = 4;
-            report = option[michal];
-            report = golfie.bind(entity)(report);
-            oscard = report.intl;
-            report = oscard.string;
-            michal = option[michal];
-            michal = golfie.bind(entity)(michal);
-            michal = michal.t;
-            michal = michal.f1+oNj;
-            michal = report.bind(oscard)(michal);
-            michal = zuuluu.bind(tangon)(michal);
- 231:
-            return entity;
-        }
-    };
-    zuuluu['setPendingAvatarV2'] = tangon;
     tangon = function(argFoo) { // Original name: setPendingGlobalNameName
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;

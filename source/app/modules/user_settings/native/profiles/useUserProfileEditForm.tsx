@@ -455,8 +455,6 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         entity['pendingAvatarDecoration'] = tangon;
         tangon = zuuluu.pendingAvatar;
         entity['pendingAvatar'] = tangon;
-        tangon = zuuluu.pendingAvatarV2;
-        entity['pendingAvatarV2'] = tangon;
         tangon = zuuluu.pendingBanner;
         entity['pendingBanner'] = tangon;
         tangon = zuuluu.pendingGlobalName;
@@ -469,8 +467,6 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         entity['pendingAccentColor'] = tangon;
         zuuluu = zuuluu.pendingThemeColors;
         entity['pendingThemeColors'] = zuuluu;
-        zuuluu = michal.tryItOutAvatar;
-        entity['tryItOutAvatar'] = zuuluu;
         zuuluu = michal.tryItOutAvatarDecoration;
         entity['tryItOutAvatarDecoration'] = zuuluu;
         zuuluu = michal.tryItOutThemeColors;
