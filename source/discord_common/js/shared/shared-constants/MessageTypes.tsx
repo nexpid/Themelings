@@ -230,6 +230,14 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['HD_STREAMING_UPGRADED'] = oscard;
     michal = 'HD_STREAMING_UPGRADED';
     tangon[oscard] = michal;
+    oscard = 56;
+    tangon['CHAT_WALLPAPER_SET'] = oscard;
+    michal = 'CHAT_WALLPAPER_SET';
+    tangon[oscard] = michal;
+    oscard = 57;
+    tangon['CHAT_WALLPAPER_REMOVED'] = oscard;
+    michal = 'CHAT_WALLPAPER_REMOVED';
+    tangon[oscard] = michal;
     michal = {};
     option = entity.Set;
     oscard = option.prototype;

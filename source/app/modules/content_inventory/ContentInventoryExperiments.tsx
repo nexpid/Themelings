@@ -131,21 +131,22 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     oscard = function(argFoo) { // Original name: isEligibleForImpressionCapping
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            report = _closure1_slot2;
-            tangon = report.getCurrentConfig;
+            tangon = _closure1_slot2;
+            zuuluu = tangon.getCurrentConfig;
             michal = {};
             entity = argFoo;
             michal['location'] = entity;
             entity = {};
-            zuuluu = true;
-            entity['autoTrackExposure'] = zuuluu;
-            michal = tangon.bind(report)(michal, entity);
+            report = false;
+            entity['autoTrackExposure'] = report;
+            michal = zuuluu.bind(tangon)(michal, entity);
             entity = michal.enabled;
-            michal = michal.impressionCappingEnabled;
-            if(!entity) { _fun00004_ip = 55; continue _fun00003 }
+            zuuluu = michal.impressionCappingEnabled;
+            if(!entity) { _fun00004_ip = 57; continue _fun00003 }
  51:
-            entity = zuuluu === michal;
- 55:
+            michal = true;
+            entity = michal === zuuluu;
+ 57:
             return entity;
         }
     };

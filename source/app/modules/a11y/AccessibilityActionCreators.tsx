@@ -396,7 +396,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['setSyncForcedColors'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: systemColorPreferencesChanged
+    tangon = function(argFoo) { // Original name: systemColorPreferencesChanged
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 4;
@@ -408,8 +408,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = 'ACCESSIBILITY_SYSTEM_COLOR_PREFERENCES_CHANGED';
         michal['type'] = report;
         report = argFoo;
-        michal['systemPrefersColorScheme'] = report;
-        report = argBar;
         michal['systemForcedColors'] = report;
         michal = zuuluu.bind(tangon)(michal);
         return entity;

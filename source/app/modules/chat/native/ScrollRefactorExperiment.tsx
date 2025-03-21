@@ -1,4 +1,4 @@
-// app/modules/app_dms/AppDMOptOutSettingsExperiment.tsx
+// app/modules/chat/native/ScrollRefactorExperiment.tsx
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -7,8 +7,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     golfie = entity.Object;
     tangon = golfie.defineProperty;
     michal = {};
-    yankee = true;
-    michal['value'] = yankee;
+    entity = true;
+    michal['value'] = entity;
     entity = '__esModule';
     entity = tangon.bind(golfie)(zuuluu, entity, michal);
     entity = 0;
@@ -16,25 +16,26 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = undefined;
     option = report.bind(entity)(michal);
     golfie = option.createExperiment;
-    michal = {'kind': 'user', 'id': '2025-02_app_dm_opt_out_settings', 'label': 'App DM Opt Out Settings'};
-    tangon = {};
-    verify = false;
-    tangon['enabled'] = verify;
+    michal = {'kind': 'user', 'id': '2025-03_scroll_refactor_experiment', 'label': 'Use refactored scroll APIs'};
+    tangon = {'enabled': false, 'showDebug': false};
     michal['defaultConfig'] = tangon;
-    offset = {'id': 1, 'label': 'Enable user to opt out of DMs from apps'};
+    offset = {'id': 1, 'label': 'Enables using refactored scroll APIs'};
     tangon = 1;
-    verify = {};
-    verify['enabled'] = yankee;
+    verify = {'enabled': true, 'showDebug': false};
     offset['config'] = verify;
-    verify = new Array(1);
+    verify = new Array(2);
     verify[0] = offset;
+    offset = {'id': 2, 'label': 'With debug setting'};
+    yankee = {'enabled': true, 'showDebug': true};
+    offset['config'] = yankee;
+    verify[1] = offset;
     michal['treatments'] = verify;
     michal = golfie.bind(option)(michal);
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/app_dms/AppDMOptOutSettingsExperiment.tsx';
+    tangon = 'modules/chat/native/ScrollRefactorExperiment.tsx';
     tangon = report.bind(oscard)(tangon);
-    zuuluu['AppDMOptOutSettingsExperiment'] = michal;
+    zuuluu['ScrollRefactorExperiment'] = michal;
     return entity;
 })();

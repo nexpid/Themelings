@@ -887,16 +887,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             entity = argFoo;
-            zuuluu = _closure1_slot11;
+            report = _closure1_slot11;
+            zuuluu = {};
+            verify = zuuluu;
+            option = entity;
+            tangon = copyDataProperties(verify, option);
+            oscard = entity.currentUser;
+            tangon = null;
+            if(!(tangon == oscard)) { _fun00012_ip = 47; continue _fun00011 }
+ 34:
+            golfie = _closure1_slot3;
+            tangon = golfie.getCurrentUser;
+            oscard = tangon.bind(golfie)();
+ 47:
+            tangon = 'currentUser';
+            zuuluu[tangon] = oscard;
             tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(entity);
+            zuuluu = report.bind(tangon)(zuuluu);
             report = entity.withoutMarkdown;
             entity = zuuluu;
-            if(!report) { _fun00012_ip = 38; continue _fun00011 }
- 29:
+            if(!report) { _fun00012_ip = 84; continue _fun00011 }
+ 75:
             michal = _closure1_slot6;
             entity = michal.bind(tangon)(zuuluu);
- 38:
+ 84:
             return entity;
         }
     };

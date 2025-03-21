@@ -35,9 +35,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot5 = tangon;
     tangon = 4;
     tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot6 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
-    var _closure1_slot6 = tangon;
+    var _closure1_slot7 = tangon;
     tangon = golfie.memo;
     michal = function(argFoo) { // Original name: ChatInputImageCarousel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -47,22 +51,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot0 = offset;
             golfie = entity.channelId;
             var _closure2_slot1 = golfie;
-            tangon = _closure1_slot0;
-            option = _closure1_slot2;
-            entity = 5;
-            entity = option[entity];
-            report = undefined;
-            verify = tangon.bind(report)(entity);
-            zuuluu = verify.useChatInputManager;
-            entity = function(argFoo) {
-                entity = argFoo;
-                entity = entity.showingAutoComplete;
-                return entity;
-            };
-            entity = zuuluu.bind(verify)(entity);
+            tangon = _closure1_slot6;
+            zuuluu = tangon.useField;
+            entity = 'showingAutoComplete';
+            entity = zuuluu.bind(tangon)(entity);
             var _closure2_slot2 = entity;
+            tangon = _closure1_slot0;
+            report = _closure1_slot2;
             zuuluu = 6;
-            zuuluu = option[zuuluu];
+            zuuluu = report[zuuluu];
+            report = undefined;
             verify = tangon.bind(report)(zuuluu);
             option = verify.useStateFromStores;
             zuuluu = _closure1_slot5;
@@ -109,9 +107,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.bind(verify)(tangon, entity, zuuluu);
             entity = null;
             zuuluu = entity != option;
-            if(!zuuluu) { _fun00002_ip = 200; continue _fun00001 }
- 147:
-            tangon = _closure1_slot6;
+            if(!zuuluu) { _fun00002_ip = 189; continue _fun00001 }
+ 136:
+            tangon = _closure1_slot7;
             zuuluu = _closure1_slot1;
             verify = _closure1_slot2;
             michal = 7;
@@ -137,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal['onRemove'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 200:
+ 189:
             return entity;
         }
     };

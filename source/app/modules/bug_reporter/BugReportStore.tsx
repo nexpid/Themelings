@@ -1,61 +1,34 @@
 // app/modules/bug_reporter/BugReportStore.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    oscard = argBar;
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    report = argBar;
     zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
+    oscard = argPlu;
     entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
+    golfie = entity.Object;
+    tangon = golfie.defineProperty;
     michal = {};
     entity = true;
     michal['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, michal);
+    entity = tangon.bind(golfie)(zuuluu, entity, michal);
     entity = 0;
-    michal = golfie[entity];
+    michal = oscard[entity];
     entity = undefined;
-    option = oscard.bind(entity)(michal);
-    report = option.create;
+    michal = report.bind(entity)(michal);
+    tangon = michal.createZustandStore;
     michal = function() {
         entity = {};
         michal = false;
         entity['isReportOpen'] = michal;
         return entity;
     };
-    michal = report.bind(option)(michal);
-    var _closure1_slot2 = michal;
-    report = 2;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/bug_reporter/BugReportStore.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function(argFoo) {
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 1;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.batchUpdates;
-        michal = function() {
-            zuuluu = _closure1_slot2;
-            michal = zuuluu.setState;
-            entity = {};
-            tangon = _closure2_slot0;
-            entity['isReportOpen'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
-        };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
-    };
-    zuuluu['setReportOpen'] = tangon;
-    zuuluu['useBugReportStore'] = michal;
+    michal = tangon.bind(entity)(michal);
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/bug_reporter/BugReportStore.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
     return entity;
 })();

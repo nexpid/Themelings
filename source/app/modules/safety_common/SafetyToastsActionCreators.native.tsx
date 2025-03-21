@@ -174,6 +174,24 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     michal['showReportSuccessToast'] = golfie;
+    golfie = function(argFoo) { // Original name: showSuccessToast
+        report = argFoo;
+        oscard = _closure1_slot0;
+        golfie = _closure1_slot1;
+        entity = 1;
+        michal = golfie[entity];
+        entity = undefined;
+        tangon = oscard.bind(entity)(michal);
+        zuuluu = tangon.showSafetySuccess;
+        michal = 2;
+        michal = golfie[michal];
+        oscard = oscard.bind(entity)(michal);
+        michal = oscard.getSafetyToastTypeContent;
+        michal = michal.bind(oscard)(report);
+        michal = zuuluu.bind(tangon)(report, michal);
+        return entity;
+    };
+    michal['showSuccessToast'] = golfie;
     tangon = function(argFoo) { // Original name: showFailedToast
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:

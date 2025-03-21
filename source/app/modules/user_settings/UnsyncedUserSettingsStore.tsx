@@ -274,7 +274,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = entity;
-        entity = new Array(31);
+        entity = new Array(32);
         entity[0] = report;
         report = {};
         golfie = 'getUserAgnosticState';
@@ -822,7 +822,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = {};
         golfie = 'listDensity';
         report['key'] = golfie;
-        oscard = function() { // Original name: get
+        golfie = function() { // Original name: get
             _fun00059: for(var _fun00060_ip = 0; ; ) switch(_fun00060_ip) {
  0:
                 entity = _closure1_slot17;
@@ -836,8 +836,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             }
         };
-        report['get'] = oscard;
+        report['get'] = golfie;
         entity[30] = report;
+        report = {};
+        golfie = 'chatScrollRefactorEnabled';
+        report['key'] = golfie;
+        oscard = function() { // Original name: get
+            _fun00061: for(var _fun00062_ip = 0; ; ) switch(_fun00062_ip) {
+ 0:
+                entity = _closure1_slot17;
+                michal = entity.chatScrollRefactorEnabled;
+                entity = null;
+                entity = entity == michal;
+                if(entity) { _fun00062_ip = 25; continue _fun00061 }
+ 22:
+                entity = michal;
+ 25:
+                return entity;
+            }
+        };
+        report['get'] = oscard;
+        entity[31] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -929,11 +948,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     report['LOGOUT'] = yankee;
     yankee = function() { // Original name: handleLogInSuccess
-        _fun00061: for(var _fun00062_ip = 0; ; ) switch(_fun00062_ip) {
+        _fun00063: for(var _fun00064_ip = 0; ; ) switch(_fun00064_ip) {
  0:
             zuuluu = _closure1_slot17;
             entity = null;
-            if(!(entity == zuuluu)) { _fun00062_ip = 19; continue _fun00061 }
+            if(!(entity == zuuluu)) { _fun00064_ip = 19; continue _fun00063 }
  13:
             entity = {};
             _closure1_slot17 = entity;

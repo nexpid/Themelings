@@ -249,6 +249,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon['BILLING_INSUFFICIENT_FUNDS'] = verify;
     oscard = 'BILLING_INSUFFICIENT_FUNDS';
     tangon[verify] = oscard;
+    verify = 590001;
+    tangon['VIRTUAL_CURRENCY_INSUFFICIENT_BALANCE'] = verify;
+    oscard = 'VIRTUAL_CURRENCY_INSUFFICIENT_BALANCE';
+    tangon[verify] = oscard;
     var _closure1_slot7 = tangon;
     yankee = {};
     oscard = 'cardNumber';

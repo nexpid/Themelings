@@ -108,6 +108,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = 4;
     tangon = golfie[tangon];
     tangon = oscard.bind(entity)(tangon);
+    report = tangon.SystemTheme;
     tangon = tangon.SystemThemeState;
     var _closure1_slot7 = tangon;
     tangon = {};

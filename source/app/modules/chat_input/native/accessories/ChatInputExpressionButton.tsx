@@ -23,21 +23,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot3 = golfie;
     tangon = 1;
     tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.ExpressionPickerViewType;
+    tangon = romeon.bind(entity)(tangon);
     var _closure1_slot4 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
+    tangon = tangon.ExpressionPickerViewType;
     var _closure1_slot5 = tangon;
     tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot6 = tangon;
+    tangon = 4;
     tangon = oscard[tangon];
     verify = report.bind(entity)(tangon);
     option = verify.createStyles;
     tangon = {};
     offset = {'borderRadius': null, 'paddingHorizontal': 6, 'paddingVertical': 6, 'height': 36, 'width': 36};
-    yankee = 4;
+    yankee = 5;
     foxtra = oscard[yankee];
     foxtra = romeon.bind(entity)(foxtra);
     foxtra = foxtra.radii;
@@ -52,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset['tintColor'] = yankee;
     tangon['expressionButtonIcon'] = offset;
     tangon = option.bind(verify)(tangon);
-    var _closure1_slot6 = tangon;
+    var _closure1_slot7 = tangon;
     tangon = golfie.memo;
     michal = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -65,28 +69,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  22:
             verify = false;
  24:
-            option = michal.onPress;
-            var _closure2_slot0 = option;
+            oscard = michal.onPress;
+            var _closure2_slot0 = oscard;
             var _closure2_slot1 = tangon;
-            michal = _closure1_slot6;
+            michal = _closure1_slot7;
             yankee = michal.bind(tangon)();
-            backup = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = 5;
-            michal = oscard[michal];
-            report = backup.bind(tangon)(michal);
-            zuuluu = report.useChatInputManager;
-            michal = function(argFoo) {
-                entity = argFoo;
-                entity = entity.showingExpressionSuggestions;
-                return entity;
-            };
+            report = _closure1_slot4;
+            zuuluu = report.useField;
+            michal = 'showingExpressionSuggestions';
             golfie = zuuluu.bind(report)(michal);
             _closure2_slot1 = golfie;
             zuuluu = _closure1_slot3;
             report = zuuluu.useCallback;
             michal = new Array(2);
-            michal[0] = option;
+            michal[0] = oscard;
             michal[1] = golfie;
             entity = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -97,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = undefined;
                     if(!tangon) { _fun00004_ip = 31; continue _fun00003 }
  18:
-                    tangon = _closure1_slot4;
+                    tangon = _closure1_slot5;
                     michal = tangon.STICKER;
  31:
                     michal = zuuluu.bind(entity)(michal);
@@ -108,7 +104,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.useRef;
             entity = null;
             option = michal.bind(zuuluu)(entity);
-            zuuluu = _closure1_slot5;
+            zuuluu = _closure1_slot6;
+            backup = _closure1_slot0;
+            oscard = _closure1_slot2;
             entity = 6;
             entity = oscard[entity];
             entity = backup.bind(tangon)(entity);
@@ -142,22 +140,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = yankee.expressionButtonIcon;
             report['style'] = yankee;
             offset = _closure1_slot2;
-            if(verify) { _fun00002_ip = 305; continue _fun00001 }
- 284:
-            if(golfie) { _fun00002_ip = 296; continue _fun00001 }
- 287:
+            if(verify) { _fun00002_ip = 294; continue _fun00001 }
+ 273:
+            if(golfie) { _fun00002_ip = 285; continue _fun00001 }
+ 276:
             golfie = 11;
             golfie = offset[golfie];
-            _fun00002_ip = 303; continue _fun00001;
- 296:
+            _fun00002_ip = 292; continue _fun00001;
+ 285:
             verify = 10;
             golfie = offset[verify];
- 303:
-            _fun00002_ip = 312; continue _fun00001;
- 305:
+ 292:
+            _fun00002_ip = 301; continue _fun00001;
+ 294:
             verify = 9;
             golfie = offset[verify];
- 312:
+ 301:
             golfie = option.bind(tangon)(golfie);
             report['source'] = golfie;
             report = zuuluu.bind(tangon)(oscard, report);

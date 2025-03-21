@@ -640,11 +640,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = offset.description;
             source = null;
             verify = null;
-            if(!(tangon !== result)) { _fun00010_ip = 691; continue _fun00009 }
+            if(!(tangon !== result)) { _fun00010_ip = 693; continue _fun00009 }
  487:
             yankee = '';
             verify = null;
-            if(!(yankee !== result)) { _fun00010_ip = 691; continue _fun00009 }
+            if(!(yankee !== result)) { _fun00010_ip = 693; continue _fun00009 }
  500:
             foxtra = _closure1_slot13;
             romeon = _closure1_slot14;
@@ -686,16 +686,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup[1] = kiloes;
             yankee['children'] = backup;
             verify = foxtra.bind(tangon)(romeon, yankee);
- 691:
+ 693:
             report[1] = verify;
             verify = offset.terms_of_service_url;
-            if(!(source == verify)) { _fun00010_ip = 723; continue _fun00009 }
- 705:
+            if(!(source == verify)) { _fun00010_ip = 725; continue _fun00009 }
+ 707:
             verify = offset.privacy_policy_url;
             yankee = source != verify;
             verify = null;
-            if(!yankee) { _fun00010_ip = 1310; continue _fun00009 }
- 723:
+            if(!yankee) { _fun00010_ip = 1312; continue _fun00009 }
+ 725:
             foxtra = _closure1_slot13;
             romeon = _closure1_slot4;
             yankee = {};
@@ -704,8 +704,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = offset.terms_of_service_url;
             backup = source != backup;
             kiloes = null;
-            if(!backup) { _fun00010_ip = 984; continue _fun00009 }
- 761:
+            if(!backup) { _fun00010_ip = 986; continue _fun00009 }
+ 763:
             output = _closure1_slot12;
             sizing = _closure1_slot4;
             backup = {};
@@ -777,14 +777,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = ctrled.bind(tangon)(echoed, result);
             backup['children'] = result;
             kiloes = output.bind(tangon)(sizing, backup);
- 984:
+ 986:
             backup = new Array(2);
             backup[0] = kiloes;
             kiloes = offset.privacy_policy_url;
             sizing = source != kiloes;
             kiloes = null;
-            if(!sizing) { _fun00010_ip = 1296; continue _fun00009 }
- 1010:
+            if(!sizing) { _fun00010_ip = 1298; continue _fun00009 }
+ 1012:
             result = _closure1_slot13;
             output = _closure1_slot4;
             sizing = {};
@@ -793,15 +793,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = offset.terms_of_service_url;
             echoed = source != echoed;
             source = null;
-            if(!echoed) { _fun00010_ip = 1071; continue _fun00009 }
- 1045:
+            if(!echoed) { _fun00010_ip = 1073; continue _fun00009 }
+ 1047:
             config = _closure1_slot12;
             ctrled = _closure1_slot4;
             echoed = {};
             record = sequen.divider;
             echoed['style'] = record;
             source = config.bind(tangon)(ctrled, echoed);
- 1071:
+ 1073:
             echoed = new Array(2);
             echoed[0] = source;
             ctrled = _closure1_slot13;
@@ -873,11 +873,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed[1] = update;
             sizing['children'] = echoed;
             kiloes = result.bind(tangon)(output, sizing);
- 1296:
+ 1298:
             backup[1] = kiloes;
             yankee['children'] = backup;
             verify = foxtra.bind(tangon)(romeon, yankee);
- 1310:
+ 1312:
             report[2] = verify;
             option = function() {
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
@@ -1100,14 +1100,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             option = option.bind(tangon)();
             report[3] = option;
-            if(!oscard) { _fun00010_ip = 1352; continue _fun00009 }
- 1332:
+            if(!oscard) { _fun00010_ip = 1354; continue _fun00009 }
+ 1334:
             verify = _closure1_slot12;
             option = _closure1_slot20;
             golfie = {};
             golfie['application'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 1352:
+ 1354:
             report[4] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
@@ -1115,7 +1115,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     var _closure1_slot17 = report;
-    report = 38;
+    report = 39;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -1168,7 +1168,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 31;
             entity = option[entity];
             entity = golfie.bind(report)(entity);
-            romeon = entity.AppDMOptOutSettingsExperiment;
+            romeon = entity.AppSettingsRedesignExperiment;
             offset = romeon.useExperiment;
             tangon = {};
             entity = 'UserSettingsAuthedApps';
@@ -1345,11 +1345,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = michal.TableRow;
                 michal = {};
                 yankee = _closure1_slot12;
-                verify = 21;
+                verify = 38;
                 verify = foxtra[verify];
                 offset = offset.bind(report)(verify);
                 verify = {};
-                verify['source'] = romeon;
+                verify['iconSource'] = romeon;
                 verify = yankee.bind(report)(offset, verify);
                 michal['icon'] = verify;
                 verify = entity.application;

@@ -20,7 +20,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = 1;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.ThemeTypes;
+    tangon = tangon.SystemTheme;
     var _closure1_slot1 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
@@ -35,18 +35,19 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
             michal = zuuluu.getColorScheme;
             zuuluu = michal.bind(zuuluu)();
             michal = 'light';
-            if(!(michal !== zuuluu)) { _fun00002_ip = 49; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 57; continue _fun00001 }
  25:
             michal = 'dark';
-            if(!(michal !== zuuluu)) { _fun00002_ip = 37; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 45; continue _fun00001 }
  33:
-            michal = null;
+            michal = _closure1_slot1;
+            michal = michal.NO_PREFERENCE;
             return michal;
- 37:
+ 45:
             michal = _closure1_slot1;
             michal = michal.DARK;
             return michal;
- 49:
+ 57:
             entity = _closure1_slot1;
             entity = entity.LIGHT;
             return entity;

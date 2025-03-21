@@ -80,40 +80,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  141:
             michal = _closure1_slot5;
             michal = michal.IGNORE_SUCCESS;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 864; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 940; continue _fun00001 }
  158:
             michal = _closure1_slot5;
             michal = michal.UNIGNORE_SUCCESS;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 798; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 874; continue _fun00001 }
  175:
             michal = _closure1_slot5;
             michal = michal.BLOCK_SUCCESS;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 732; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 808; continue _fun00001 }
  192:
             michal = _closure1_slot5;
             michal = michal.UNBLOCK_SUCCESS;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 666; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 742; continue _fun00001 }
  209:
             michal = _closure1_slot5;
             michal = michal.MUTE_SUCCESS;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 600; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 676; continue _fun00001 }
  226:
             michal = _closure1_slot5;
             michal = michal.UNMUTE_SUCCESS;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 534; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 610; continue _fun00001 }
  243:
             michal = _closure1_slot5;
             michal = michal.REPORT_SUCCESS;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 468; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 544; continue _fun00001 }
  260:
             michal = _closure1_slot5;
             michal = michal.TIGGER_PAWTECT_ERROR;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 409; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 485; continue _fun00001 }
  277:
             michal = _closure1_slot5;
+            michal = michal.TIGGER_PAWTECT_VERIFIED;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 426; continue _fun00001 }
+ 294:
+            michal = _closure1_slot5;
             michal = michal.GENERIC_ERROR;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 350; continue _fun00001 }
- 291:
+            if(!(michal !== zuuluu)) { _fun00002_ip = 367; continue _fun00001 }
+ 308:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             michal = 5;
@@ -127,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.+c5xtb;
             michal = zuuluu.bind(tangon)(michal);
             return michal;
- 350:
+ 367:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             michal = 5;
@@ -141,7 +145,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.zBpoc3;
             michal = zuuluu.bind(tangon)(michal);
             return michal;
- 409:
+ 426:
+            golfie = _closure1_slot0;
+            option = _closure1_slot2;
+            michal = 5;
+            zuuluu = option[michal];
+            zuuluu = golfie.bind(oscard)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = option[michal];
+            michal = golfie.bind(oscard)(michal);
+            michal = michal.t;
+            michal = michal.EnTLDg;
+            michal = zuuluu.bind(tangon)(michal);
+            return michal;
+ 485:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             michal = 5;
@@ -155,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.c6kn6O;
             michal = zuuluu.bind(tangon)(michal);
             return michal;
- 468:
+ 544:
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
             michal = 5;
@@ -171,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['username'] = report;
             michal = tangon.bind(golfie)(zuuluu, michal);
             return michal;
- 534:
+ 610:
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
             michal = 5;
@@ -187,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['username'] = report;
             michal = tangon.bind(golfie)(zuuluu, michal);
             return michal;
- 600:
+ 676:
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
             michal = 5;
@@ -203,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['username'] = report;
             michal = tangon.bind(golfie)(zuuluu, michal);
             return michal;
- 666:
+ 742:
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
             michal = 5;
@@ -219,7 +237,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['username'] = report;
             michal = tangon.bind(golfie)(zuuluu, michal);
             return michal;
- 732:
+ 808:
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
             michal = 5;
@@ -235,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['username'] = report;
             michal = tangon.bind(golfie)(zuuluu, michal);
             return michal;
- 798:
+ 874:
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
             michal = 5;
@@ -251,7 +269,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['username'] = report;
             michal = tangon.bind(golfie)(zuuluu, michal);
             return michal;
- 864:
+ 940:
             michal = _closure1_slot0;
             golfie = _closure1_slot2;
             entity = 5;

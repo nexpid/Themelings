@@ -28,16 +28,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot4 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
+    tangon = yankee.bind(entity)(tangon);
     var _closure1_slot5 = tangon;
     tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot6 = tangon;
+    tangon = 4;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
     verify = {'borderRadius': null, 'position': 'absolute', 'right': 12};
-    offset = 4;
+    offset = 5;
     romeon = oscard[offset];
     romeon = yankee.bind(entity)(romeon);
     romeon = romeon.radii;
@@ -52,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify['backgroundColor'] = offset;
     tangon['iconColor'] = verify;
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot6 = tangon;
+    var _closure1_slot7 = tangon;
     tangon = 10;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -66,49 +70,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = entity.channelId;
             foxtra = entity.accessibilityLabel;
             romeon = entity.didTapJump;
-            entity = _closure1_slot6;
+            entity = _closure1_slot7;
             oscard = undefined;
             option = entity.bind(oscard)();
+            offset = _closure1_slot5;
+            michal = offset.useField;
+            entity = 'showingAutoComplete';
+            tangon = michal.bind(offset)(entity);
+            michal = offset.useField;
+            entity = 'showingExpressionSuggestions';
+            michal = michal.bind(offset)(entity);
+            zuuluu = offset.useField;
+            entity = 'shouldShowJumpToPresentButton';
+            entity = zuuluu.bind(offset)(entity);
+            report = offset.useField;
+            zuuluu = 'chatInputContainerHeight';
+            kiloes = report.bind(offset)(zuuluu);
+            var _closure2_slot0 = kiloes;
             offset = _closure1_slot0;
             backup = _closure1_slot2;
-            zuuluu = 5;
-            entity = backup[zuuluu];
-            tangon = offset.bind(oscard)(entity);
-            michal = tangon.useChatInputManager;
-            entity = function(argFoo) {
-                entity = argFoo;
-                entity = entity.showingAutoComplete;
-                return entity;
-            };
-            tangon = michal.bind(tangon)(entity);
-            entity = backup[zuuluu];
-            report = offset.bind(oscard)(entity);
-            michal = report.useChatInputManager;
-            entity = function(argFoo) {
-                entity = argFoo;
-                entity = entity.showingExpressionSuggestions;
-                return entity;
-            };
-            michal = michal.bind(report)(entity);
-            entity = backup[zuuluu];
-            kiloes = offset.bind(oscard)(entity);
-            report = kiloes.useChatInputManager;
-            entity = function(argFoo) {
-                entity = argFoo;
-                entity = entity.shouldShowJumpToPresentButton;
-                return entity;
-            };
-            entity = report.bind(kiloes)(entity);
-            zuuluu = backup[zuuluu];
-            kiloes = offset.bind(oscard)(zuuluu);
-            report = kiloes.useChatInputManager;
-            zuuluu = function(argFoo) {
-                entity = argFoo;
-                entity = entity.chatInputContainerHeight;
-                return entity;
-            };
-            kiloes = report.bind(kiloes)(zuuluu);
-            var _closure2_slot0 = kiloes;
             zuuluu = 6;
             report = backup[zuuluu];
             sizing = offset.bind(oscard)(report);
@@ -131,13 +111,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             verify = yankee.bind(backup)(verify, offset);
-            if(tangon) { _fun00002_ip = 352; continue _fun00001 }
- 233:
-            if(michal) { _fun00002_ip = 352; continue _fun00001 }
- 236:
-            if(!entity) { _fun00002_ip = 352; continue _fun00001 }
- 239:
-            tangon = _closure1_slot5;
+            if(tangon) { _fun00002_ip = 305; continue _fun00001 }
+ 186:
+            if(michal) { _fun00002_ip = 305; continue _fun00001 }
+ 189:
+            if(!entity) { _fun00002_ip = 305; continue _fun00001 }
+ 192:
+            tangon = _closure1_slot6;
             michal = _closure1_slot4;
             entity = {};
             yankee = option.container;
@@ -164,15 +144,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = tangon.bind(oscard)(yankee, offset);
             entity['children'] = offset;
             entity = tangon.bind(oscard)(michal, entity);
-            _fun00002_ip = 440; continue _fun00001;
- 352:
+            _fun00002_ip = 393; continue _fun00001;
+ 305:
             michal = null;
-            if(!report) { _fun00002_ip = 437; continue _fun00001 }
- 357:
+            if(!report) { _fun00002_ip = 390; continue _fun00001 }
+ 310:
             michal = null;
-            if(!zuuluu) { _fun00002_ip = 437; continue _fun00001 }
- 362:
-            report = _closure1_slot5;
+            if(!zuuluu) { _fun00002_ip = 390; continue _fun00001 }
+ 315:
+            report = _closure1_slot6;
             tangon = _closure1_slot4;
             zuuluu = {};
             offset = option.container;
@@ -190,9 +170,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = report.bind(oscard)(option, golfie);
             zuuluu['children'] = golfie;
             michal = report.bind(oscard)(tangon, zuuluu);
- 437:
+ 390:
             entity = michal;
- 440:
+ 393:
             return entity;
         }
     };

@@ -357,7 +357,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00014_ip = 514; continue _fun00013 }
+                        if(michal) { _fun00014_ip = 536; continue _fun00013 }
  10:
                         michal = undefined;
                         golfie = undefined;
@@ -365,6 +365,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         option = undefined;
                         romeon = undefined;
                         foxtra = undefined;
+                        backup = undefined;
                         report = _closure1_slot0;
                         tangon = _closure1_slot2;
                         verify = 9;
@@ -372,24 +373,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         report = report.bind(michal)(tangon);
                         tangon = report.isIOS;
                         tangon = tangon.bind(report)();
-                        if(tangon) { _fun00014_ip = 75; continue _fun00013 }
- 58:
+                        if(tangon) { _fun00014_ip = 77; continue _fun00013 }
+ 60:
                         report = _closure3_slot0;
                         tangon = report.handleSetCallNotificationExperiment;
                         tangon = tangon.bind(report)();
- 75: // try_start_0
+ 77: // try_start_0
                         report = _closure1_slot0;
                         tangon = _closure1_slot2;
                         tangon = tangon[verify];
                         report = report.bind(michal)(tangon);
                         tangon = report.isIOS;
                         tangon = tangon.bind(report)();
-                        backup = 'cache';
-                        if(!tangon) { _fun00014_ip = 113; continue _fun00013 }
- 109:
-                        backup = 'shared';
- 113:
-                        golfie = backup;
+                        kiloes = 'cache';
+                        if(!tangon) { _fun00014_ip = 115; continue _fun00013 }
+ 111:
+                        kiloes = 'shared';
+ 115:
+                        golfie = kiloes;
                         yankee = 'processing_notifications';
                         oscard = yankee;
                         report = _closure1_slot0;
@@ -399,109 +400,147 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         verify = report.bind(michal)(tangon);
                         report = verify.moveFile;
                         tangon = 'notifications_to_track';
-                        tangon = report.bind(verify)(backup, tangon, yankee);
-                        SaveGenerator(address=168);
- 166:
-                        return tangon;
+                        tangon = report.bind(verify)(kiloes, tangon, yankee);
+                        SaveGenerator(address=170);
  168:
+                        return tangon;
+ 170:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                        if(report) { _fun00014_ip = 485; continue _fun00013 }
- 177:
+                        if(report) { _fun00014_ip = 507; continue _fun00013 }
+ 179:
                         verify = _closure1_slot0;
                         report = _closure1_slot2;
                         report = report[offset];
-                        kiloes = verify.bind(michal)(report);
-                        backup = kiloes.readFile;
+                        sizing = verify.bind(michal)(report);
+                        kiloes = sizing.readFile;
                         yankee = golfie;
                         verify = oscard;
                         report = 'utf8';
-                        report = backup.bind(kiloes)(yankee, verify, report);
-                        SaveGenerator(address=223);
- 221:
-                        return report;
+                        report = kiloes.bind(sizing)(yankee, verify, report);
+                        SaveGenerator(address=225);
  223:
+                        return report;
+ 225:
                         ResumeGenerator(result_out_reg=4, return_bool_out_reg=8);
-                        if(verify) { _fun00014_ip = 482; continue _fun00013 }
- 232:
+                        if(verify) { _fun00014_ip = 504; continue _fun00013 }
+ 234:
                         option = report;
                         verify = null;
-                        if(!(verify != report)) { _fun00014_ip = 479; continue _fun00013 }
- 244:
+                        if(!(verify != report)) { _fun00014_ip = 501; continue _fun00013 }
+ 246:
+                        foxtra = function(argFoo) { // Original name: normalizeTimestampToMs
+                            _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+ 0:
+                                report = argFoo;
+                                entity = null;
+                                if(!(entity == report)) { _fun00016_ip = 13; continue _fun00015 }
+ 9:
+                                entity = undefined;
+                                return entity;
+ 13:
+                                zuuluu = typeof report;
+                                entity = 'number';
+                                if(!(entity !== zuuluu)) { _fun00016_ip = 55; continue _fun00015 }
+ 24:
+                                tangon = undefined;
+                                michal = 'string';
+                                entity = undefined;
+                                if(!(michal === zuuluu)) { _fun00016_ip = 53; continue _fun00015 }
+ 36:
+                                michal = global;
+                                zuuluu = michal.parseInt;
+                                michal = 10;
+                                entity = zuuluu.bind(tangon)(report, michal);
+ 53:
+                                _fun00016_ip = 83; continue _fun00015;
+ 55:
+                                michal = global;
+                                tangon = michal.Math;
+                                zuuluu = tangon.round;
+                                michal = 1000;
+                                michal = michal * report;
+                                entity = zuuluu.bind(tangon)(michal);
+ 83:
+                                return entity;
+                            }
+                        };
                         verify = _closure1_slot12;
                         yankee = option;
                         option = yankee.trim;
-                        backup = option.bind(yankee)();
-                        yankee = backup.split;
+                        kiloes = option.bind(yankee)();
+                        yankee = kiloes.split;
                         option = '\n';
-                        option = yankee.bind(backup)(option);
+                        option = yankee.bind(kiloes)(option);
                         option = verify.bind(michal)(option);
-                        foxtra = option;
+                        backup = option;
                         option = option.bind(michal)();
                         romeon = option;
                         option = option.done;
                         yankee = global;
                         verify = 11;
-                        if(option) { _fun00014_ip = 435; continue _fun00013 }
- 306:
+                        if(option) { _fun00014_ip = 457; continue _fun00013 }
+ 317:
                         option = romeon;
-                        kiloes = option.value;
-                        backup = yankee.JSON;
-                        option = backup.parse;
-                        output = option.bind(backup)(kiloes);
-                        backup = _closure1_slot1;
+                        sizing = option.value;
+                        kiloes = yankee.JSON;
+                        option = kiloes.parse;
+                        result = option.bind(kiloes)(sizing);
+                        kiloes = _closure1_slot1;
                         option = _closure1_slot2;
                         option = option[verify];
-                        sizing = backup.bind(michal)(option);
-                        kiloes = sizing.track;
+                        output = kiloes.bind(michal)(option);
+                        sizing = output.track;
                         option = _closure1_slot10;
-                        backup = option.PUSH_NOTIFICATION_RECEIVED;
+                        kiloes = option.PUSH_NOTIFICATION_RECEIVED;
                         option = {};
-                        result = output.join_id;
-                        option['join_id'] = result;
-                        result = output.notif_instance_id;
-                        option['notif_instance_id'] = result;
-                        result = output.notif_type_id;
-                        option['notif_type_id'] = result;
-                        output = output.timestamp;
-                        option['notification_received_timestamp'] = output;
-                        option = kiloes.bind(sizing)(backup, option);
-                        option = foxtra;
+                        echoed = result.join_id;
+                        option['join_id'] = echoed;
+                        echoed = result.notif_instance_id;
+                        option['notif_instance_id'] = echoed;
+                        echoed = result.notif_type_id;
+                        option['notif_type_id'] = echoed;
+                        echoed = foxtra;
+                        result = result.timestamp;
+                        result = echoed.bind(michal)(result);
+                        option['notification_received_timestamp'] = result;
+                        option = sizing.bind(output)(kiloes, option);
+                        option = backup;
                         option = option.bind(michal)();
                         romeon = option;
                         option = option.done;
-                        if(!option) { _fun00014_ip = 306; continue _fun00013 }
- 435:
+                        if(!option) { _fun00014_ip = 317; continue _fun00013 }
+ 457:
                         verify = _closure1_slot0;
                         option = _closure1_slot2;
                         option = option[offset];
                         verify = verify.bind(michal)(option);
                         option = verify.removeFile;
                         oscard = option.bind(verify)(golfie, oscard);
-                        SaveGenerator(address=468);
- 466:
+                        SaveGenerator(address=490);
+ 488:
                         return oscard;
- 468:
+ 490:
                         ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                        if(golfie) { _fun00014_ip = 476; continue _fun00013 }
- 474: // try_end0
-                        _fun00014_ip = 511; continue _fun00013;
- 476:
+                        if(golfie) { _fun00014_ip = 498; continue _fun00013 }
+ 496: // try_end0
+                        _fun00014_ip = 533; continue _fun00013;
+ 498:
                         return oscard;
- 479:
+ 501:
                         return michal;
- 482:
+ 504:
                         return report;
- 485:
+ 507:
                         return tangon;
- 488: // catch_target0
+ 510: // catch_target0
                         CatchBlockStart(arg_register=5);
                         report = _closure1_slot11;
                         tangon = report.error;
                         zuuluu = 'Error tracking push notifications';
                         zuuluu = tangon.bind(report)(zuuluu, oscard);
- 511:
+ 533:
                         return michal;
- 514:
+ 536:
                         return entity;
                     }
                 };
@@ -510,7 +549,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.bind(report)(zuuluu);
             entity['handlePostConnectionOpen'] = zuuluu;
             michal = function() {
-                _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+                _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot2;
@@ -520,7 +559,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = tangon.bind(entity)(zuuluu);
                     zuuluu = tangon.isIOS;
                     zuuluu = zuuluu.bind(tangon)();
-                    if(zuuluu) { _fun00016_ip = 215; continue _fun00015 }
+                    if(zuuluu) { _fun00018_ip = 215; continue _fun00017 }
  41:
                     tangon = _closure1_slot1;
                     report = _closure1_slot2;
@@ -545,12 +584,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = zuuluu.DCDNotificationManager;
                     zuuluu = zuuluu.setShowMissedCallNotifications;
                     report = null;
-                    if(!(report != zuuluu)) { _fun00016_ip = 174; continue _fun00015 }
+                    if(!(report != zuuluu)) { _fun00018_ip = 174; continue _fun00017 }
  147:
                     zuuluu = _closure1_slot9;
                     oscard = zuuluu.DCDNotificationManager;
                     zuuluu = oscard.setShowMissedCallNotifications;
-                    if(golfie) { _fun00016_ip = 169; continue _fun00015 }
+                    if(golfie) { _fun00018_ip = 169; continue _fun00017 }
  166:
                     golfie = tangon;
  169:
@@ -559,7 +598,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = _closure1_slot9;
                     zuuluu = zuuluu.DCDNotificationManager;
                     zuuluu = zuuluu.setShowFullscreenCallUI;
-                    if(!(report != zuuluu)) { _fun00016_ip = 215; continue _fun00015 }
+                    if(!(report != zuuluu)) { _fun00018_ip = 215; continue _fun00017 }
  194:
                     michal = _closure1_slot9;
                     zuuluu = michal.DCDNotificationManager;

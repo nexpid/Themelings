@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['setUseSystemTheme'] = tangon;
-    michal = function(argFoo) { // Original name: setDarkThemeOnClient
+    michal = function(argFoo) { // Original name: updateThemePreferences
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 2;
@@ -100,13 +100,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = zuuluu.bind(entity)(michal);
         zuuluu = tangon.dispatch;
         michal = {};
-        report = 'SET_DARK_MODE_THEME';
+        report = 'UPDATE_THEME_PREFERENCES';
         michal['type'] = report;
         report = argFoo;
-        michal['theme'] = report;
+        michal['preferences'] = report;
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zuuluu['setDarkThemeOnClient'] = michal;
+    zuuluu['updateThemePreferences'] = michal;
     return entity;
 })();

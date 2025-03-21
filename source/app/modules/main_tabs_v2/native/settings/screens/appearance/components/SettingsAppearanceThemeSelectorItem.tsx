@@ -313,23 +313,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.systemTheme;
                 return entity;
             };
-            entity = zuuluu.bind(oscard)(michal, entity);
-            michal = report.theme;
+            zuuluu = zuuluu.bind(oscard)(michal, entity);
+            entity = report.theme;
             golfie = 'system';
-            if(!(golfie !== michal)) { _fun00006_ip = 87; continue _fun00005 }
+            if(!(golfie !== entity)) { _fun00006_ip = 87; continue _fun00005 }
  79:
             oscard = report.theme;
-            _fun00006_ip = 114; continue _fun00005;
+            _fun00006_ip = 102; continue _fun00005;
  87:
-            michal = _closure1_slot5;
-            michal = michal.DARK;
-            if(!(entity === michal)) { _fun00006_ip = 111; continue _fun00005 }
- 101:
-            michal = _closure1_slot5;
-            entity = michal.DARKER;
- 111:
-            oscard = entity;
- 114:
+            michal = _closure1_slot4;
+            entity = michal.themePreferenceForSystemTheme;
+            oscard = entity.bind(michal)(zuuluu);
+ 102:
             michal = _closure1_slot0;
             romeon = _closure1_slot2;
             entity = 16;
@@ -373,8 +368,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['style'] = oscard;
             oscard = report.theme;
             report = null;
-            if(!(golfie === oscard)) { _fun00006_ip = 402; continue _fun00005 }
- 331:
+            if(!(golfie === oscard)) { _fun00006_ip = 390; continue _fun00005 }
+ 319:
             option = _closure1_slot6;
             golfie = _closure1_slot3;
             oscard = {};
@@ -390,7 +385,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = option.bind(tangon)(offset, verify);
             oscard['children'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 402:
+ 390:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

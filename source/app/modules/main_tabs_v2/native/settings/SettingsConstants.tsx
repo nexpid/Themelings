@@ -82,6 +82,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['AUTHORIZED_APPS'] = entity;
     entity = 'AUTHORIZED_APP';
     michal['AUTHORIZED_APP'] = entity;
+    entity = 'AUTHORIZED_APP_PERMISSIONS';
+    michal['AUTHORIZED_APP_PERMISSIONS'] = entity;
     entity = 'DEVICES';
     michal['DEVICES'] = entity;
     entity = 'CONNECTIONS';
@@ -374,6 +376,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['ALLOW_GAME_FRIEND_DMS'] = entity;
     entity = 'PLAY_SHORTCUT_ROW';
     michal['PLAY_SHORTCUT_ROW'] = entity;
+    entity = 'CHAT_SCROLL_REFACTOR';
+    michal['CHAT_SCROLL_REFACTOR'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

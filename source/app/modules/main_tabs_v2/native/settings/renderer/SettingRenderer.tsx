@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option.length;
             michal = 0;
             entity = null;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 92; continue _fun00003 }
+            if(!(michal !== zuuluu)) { _fun00004_ip = 96; continue _fun00003 }
  22:
             report = _closure1_slot17;
             zuuluu = _closure1_slot0;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = golfie.bind(option)(oscard);
             michal['children'] = oscard;
             entity = report.bind(tangon)(zuuluu, michal);
- 92:
+ 96:
             return entity;
         }
     };

@@ -446,8 +446,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['names'] = option;
             target = oscard.bind(tangon)(zuuluu);
             result = !michal;
-            if(!result) { _fun00006_ip = 419; continue _fun00005 }
- 344:
+            if(!result) { _fun00006_ip = 417; continue _fun00005 }
+ 342:
             oscard = _closure1_slot0;
             michal = _closure1_slot2;
             zuuluu = michal[verify];
@@ -464,7 +464,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.includes;
             michal = michal.bind(zuuluu)(romeon);
             result = !michal;
- 419:
+ 417:
             _closure2_slot1 = result;
             limora = _closure1_slot0;
             sierra = _closure1_slot2;
@@ -562,10 +562,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sierra = limora.bind(tangon)(sierra);
             sierra = sierra.ActivityAction;
             sierra = sierra.START;
-            if(!(romeon === sierra)) { _fun00006_ip = 741; continue _fun00005 }
- 738:
+            if(!(romeon === sierra)) { _fun00006_ip = 739; continue _fun00005 }
+ 736:
             target = status;
- 741:
+ 739:
             update['imageBackground'] = target;
             config = papara / config;
             update['aspectRatio'] = config;
@@ -589,8 +589,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = new Array(3);
             foxtra[0] = kiloes;
             kiloes = null;
-            if(!result) { _fun00006_ip = 881; continue _fun00005 }
- 844:
+            if(!result) { _fun00006_ip = 879; continue _fun00005 }
+ 842:
             update = _closure1_slot7;
             echoed = _closure1_slot1;
             vacuum = _closure1_slot2;
@@ -600,11 +600,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = {};
             result['labelType'] = source;
             kiloes = update.bind(tangon)(echoed, result);
- 881:
+ 879:
             foxtra[1] = kiloes;
             kiloes = null;
-            if(!output) { _fun00006_ip = 1016; continue _fun00005 }
- 893:
+            if(!output) { _fun00006_ip = 1014; continue _fun00005 }
+ 891:
             result = _closure1_slot7;
             sequen = _closure1_slot1;
             config = _closure1_slot2;
@@ -633,7 +633,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = source.bind(tangon)(update, echoed);
             sizing['children'] = echoed;
             kiloes = result.bind(tangon)(output, sizing);
- 1016:
+ 1014:
             foxtra[2] = kiloes;
             report['children'] = foxtra;
             oscard = option.bind(tangon)(oscard, report);
@@ -646,36 +646,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.ActivityAction;
             oscard = oscard.START;
             oscard = romeon === oscard;
-            if(!oscard) { _fun00006_ip = 1152; continue _fun00005 }
- 1074:
+            if(!oscard) { _fun00006_ip = 1150; continue _fun00005 }
+ 1072:
             verify = _closure1_slot7;
             option = _closure1_slot12;
             golfie = {};
             golfie['action'] = romeon;
             foxtra = yankee == backup;
             romeon = undefined;
-            if(foxtra) { _fun00006_ip = 1102; continue _fun00005 }
- 1097:
+            if(foxtra) { _fun00006_ip = 1100; continue _fun00005 }
+ 1095:
             romeon = backup.id;
- 1102:
+ 1100:
             golfie['channelId'] = romeon;
             foxtra = yankee == backup;
             romeon = undefined;
-            if(foxtra) { _fun00006_ip = 1125; continue _fun00005 }
- 1115:
+            if(foxtra) { _fun00006_ip = 1123; continue _fun00005 }
+ 1113:
             foxtra = backup.getGuildId;
             romeon = foxtra.bind(backup)();
- 1125:
+ 1123:
             foxtra = yankee != romeon;
             yankee = undefined;
-            if(!foxtra) { _fun00006_ip = 1137; continue _fun00005 }
- 1134:
+            if(!foxtra) { _fun00006_ip = 1135; continue _fun00005 }
+ 1132:
             yankee = romeon;
- 1137:
+ 1135:
             golfie['guildId'] = yankee;
             golfie['activityItem'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 1152:
+ 1150:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

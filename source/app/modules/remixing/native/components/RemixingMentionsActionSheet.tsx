@@ -439,7 +439,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = argFoo;
                     zuuluu = michal.length;
                     entity = _closure1_slot12;
-                    if(!(!(zuuluu > entity))) { _fun00010_ip = 267; continue _fun00009 }
+                    if(!(!(zuuluu > entity))) { _fun00010_ip = 269; continue _fun00009 }
  22:
                     entity = function(argFoo) { // Original name: removeRedundantLeadingSymbol
                         zuuluu = argFoo;
@@ -469,24 +469,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = michal.length;
                     option = report[golfie];
                     golfie = null;
-                    if(!(golfie != option)) { _fun00010_ip = 83; continue _fun00009 }
- 62:
+                    if(!(golfie != option)) { _fun00010_ip = 85; continue _fun00009 }
+ 64:
                     verify = _closure2_slot9;
                     option = michal.length;
                     option = verify[option];
                     option = option[michal];
-                    if(!(golfie == option)) { _fun00010_ip = 183; continue _fun00009 }
- 83:
+                    if(!(golfie == option)) { _fun00010_ip = 185; continue _fun00009 }
+ 85:
                     option = _closure2_slot0;
                     option = michal > option;
-                    if(!option) { _fun00010_ip = 108; continue _fun00009 }
- 94:
+                    if(!option) { _fun00010_ip = 110; continue _fun00009 }
+ 96:
                     offset = _closure2_slot4;
                     verify = 260;
                     option = offset > verify;
- 108:
-                    if(!option) { _fun00010_ip = 152; continue _fun00009 }
- 111:
+ 110:
+                    if(!option) { _fun00010_ip = 154; continue _fun00009 }
+ 113:
                     verify = _closure2_slot2;
                     offset = _closure1_slot0;
                     yankee = _closure1_slot2;
@@ -497,18 +497,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = 2;
                     oscard = offset + oscard;
                     option = verify >= oscard;
- 152:
+ 154:
                     oscard = tangon;
-                    if(!option) { _fun00010_ip = 212; continue _fun00009 }
- 158:
+                    if(!option) { _fun00010_ip = 214; continue _fun00009 }
+ 160:
                     verify = _closure2_slot3;
                     offset = _closure2_slot2;
                     option = 2;
                     option = offset - option;
                     verify = verify.bind(zuuluu)(option);
                     oscard = option;
-                    _fun00010_ip = 212; continue _fun00009;
- 183:
+                    _fun00010_ip = 214; continue _fun00009;
+ 185:
                     verify = _closure2_slot3;
                     offset = _closure2_slot9;
                     option = michal.length;
@@ -516,15 +516,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = option[michal];
                     option = verify.bind(zuuluu)(option);
                     oscard = tangon;
- 212:
+ 214:
                     tangon = michal.length;
                     tangon = report[tangon];
-                    if(!(golfie == tangon)) { _fun00010_ip = 236; continue _fun00009 }
- 225:
+                    if(!(golfie == tangon)) { _fun00010_ip = 238; continue _fun00009 }
+ 227:
                     golfie = michal.length;
                     tangon = {};
                     report[golfie] = tangon;
- 236:
+ 238:
                     tangon = michal.length;
                     tangon = report[tangon];
                     tangon[michal] = oscard;
@@ -532,7 +532,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = tangon.bind(zuuluu)(report);
                     entity = _closure2_slot1;
                     entity = entity.bind(zuuluu)(michal);
- 267:
+ 269:
                     entity = undefined;
                     return entity;
                 }
@@ -601,10 +601,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = sizing.isAndroid;
             sizing = kiloes.bind(sizing)();
             kiloes = 'ascii-capable';
-            if(!sizing) { _fun00004_ip = 594; continue _fun00003 }
- 588:
+            if(!sizing) { _fun00004_ip = 604; continue _fun00003 }
+ 598:
             kiloes = 'visible-password';
- 594:
+ 604:
             yankee['keyboardType'] = kiloes;
             yankee['value'] = backup;
             yankee = foxtra.bind(tangon)(romeon, yankee);

@@ -1,5 +1,5 @@
 // app/stores/views/SortedVoiceStateStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = argBar;
     yankee = argBaz;
     zuuluu = argFre;
@@ -349,60 +349,76 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     var _closure1_slot25 = tangon;
-    michal = function(argFoo, argBar, argBaz) { // Original name: makeSortedVoiceState
+    michal = function(argFoo, argBar, argBaz, argCor) { // Original name: makeSortedVoiceState
         _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
-            option = argFoo;
-            yankee = argBaz;
+            verify = argFoo;
+            romeon = argBaz;
+            report = argCor;
             zuuluu = _closure1_slot12;
             michal = zuuluu.getUser;
-            zuuluu = michal.bind(zuuluu)(yankee);
-            report = null;
-            michal = report == zuuluu;
-            golfie = zuuluu;
-            if(!(report == golfie)) { _fun00018_ip = 108; continue _fun00017 }
- 37:
-            oscard = _closure1_slot8;
+            zuuluu = michal.bind(zuuluu)(romeon);
+            tangon = null;
+            michal = tangon == zuuluu;
+            option = zuuluu;
+            if(!(tangon == option)) { _fun00018_ip = 111; continue _fun00017 }
+ 40:
+            golfie = _closure1_slot8;
             zuuluu = {};
-            zuuluu['id'] = yankee;
-            tangon = '...';
-            zuuluu['username'] = tangon;
-            offset = yankee.slice;
-            verify = -5;
-            tangon = -1;
-            tangon = offset.bind(yankee)(verify, tangon);
-            zuuluu['discriminator'] = tangon;
-            tangon = oscard.prototype;
-            tangon = Object.create(tangon, {constructor: {value: oscard}});
-            kiloes = tangon;
-            backup = zuuluu;
-            zuuluu = new kiloes[oscard](backup, foxtra);
-            golfie = zuuluu instanceof Object ? zuuluu : tangon;
- 108:
-            tangon = _closure1_slot24;
-            oscard = _closure1_slot23;
+            zuuluu['id'] = romeon;
+            oscard = '...';
+            zuuluu['username'] = oscard;
+            yankee = romeon.slice;
+            offset = -5;
+            oscard = -1;
+            oscard = yankee.bind(romeon)(offset, oscard);
+            zuuluu['discriminator'] = oscard;
+            oscard = golfie.prototype;
+            oscard = Object.create(oscard, {constructor: {value: golfie}});
+            sizing = oscard;
+            kiloes = zuuluu;
+            zuuluu = new sizing[golfie](kiloes, backup);
+            option = zuuluu instanceof Object ? zuuluu : oscard;
+ 111:
+            oscard = _closure1_slot24;
+            golfie = _closure1_slot23;
             zuuluu = undefined;
             entity = argBar;
-            entity = oscard.bind(zuuluu)(entity, golfie);
-            oscard = tangon.bind(zuuluu)(option, entity, golfie);
-            tangon = oscard.member;
+            entity = golfie.bind(zuuluu)(entity, option);
+            oscard = oscard.bind(zuuluu)(verify, entity, option);
+            golfie = oscard.member;
             entity = {};
-            entity['voiceState'] = option;
-            entity['user'] = golfie;
-            entity['member'] = tangon;
+            entity['voiceState'] = verify;
+            entity['user'] = option;
+            entity['member'] = golfie;
             oscard = oscard.comparator;
             entity['comparator'] = oscard;
-            report = report == tangon;
-            if(report) { _fun00018_ip = 180; continue _fun00017 }
- 174:
-            zuuluu = tangon.nick;
- 180:
-            entity['nick'] = zuuluu;
-            if(!michal) { _fun00018_ip = 196; continue _fun00017 }
- 188:
+            option = tangon == golfie;
+            oscard = undefined;
+            if(option) { _fun00018_ip = 185; continue _fun00017 }
+ 179:
+            oscard = golfie.nick;
+ 185:
+            entity['nick'] = oscard;
+            oscard = tangon == report;
+            zuuluu = undefined;
+            if(oscard) { _fun00018_ip = 205; continue _fun00017 }
+ 199:
+            zuuluu = report.connectedOn;
+ 205:
+            if(!(tangon == zuuluu)) { _fun00018_ip = 226; continue _fun00017 }
+ 209:
+            tangon = global;
+            report = tangon.Date;
+            tangon = report.now;
+            zuuluu = tangon.bind(report)();
+ 226:
+            entity['connectedOn'] = zuuluu;
+            if(!michal) { _fun00018_ip = 242; continue _fun00017 }
+ 234:
             michal = true;
             entity['_isPlaceholder'] = michal;
- 196:
+ 242:
             return entity;
         }
     };
@@ -829,17 +845,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
  0:
                         tangon = argFoo;
-                        golfie = argBar;
+                        offset = argBar;
                         zuuluu = _closure1_slot12;
                         michal = zuuluu.getUser;
-                        entity = golfie.user;
+                        entity = offset.user;
                         entity = entity.id;
                         michal = michal.bind(zuuluu)(entity);
                         zuuluu = null;
                         entity = tangon;
                         if(!(zuuluu != michal)) { _fun00032_ip = 115; continue _fun00031 }
  43:
-                        zuuluu = golfie.user;
+                        zuuluu = offset.user;
                         entity = tangon;
                         if(!(zuuluu !== michal)) { _fun00032_ip = 115; continue _fun00031 }
  55:
@@ -848,11 +864,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         tangon = report.set;
                         zuuluu = michal.id;
                         verify = _closure1_slot26;
-                        option = golfie.voiceState;
-                        golfie = oscard.guildId;
-                        oscard = michal.id;
-                        michal = undefined;
-                        michal = verify.bind(michal)(option, golfie, oscard);
+                        backup = offset.voiceState;
+                        foxtra = oscard.guildId;
+                        romeon = michal.id;
+                        kiloes = undefined;
+                        yankee = offset;
+                        michal = kiloes[verify](backup, foxtra, romeon, yankee, offset);
                         michal = tangon.bind(report)(zuuluu, michal);
                         entity = true;
  115:

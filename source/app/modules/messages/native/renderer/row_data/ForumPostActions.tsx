@@ -236,12 +236,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  330:
             michal = michal != zuuluu;
             entity = undefined;
-            if(!michal) { _fun00004_ip = 358; continue _fun00003 }
+            if(!michal) { _fun00004_ip = 362; continue _fun00003 }
  339:
             michal = {'emoji': null, 'me': false, 'count': 0};
             michal['emoji'] = zuuluu;
             entity = michal;
- 358:
+ 362:
             return entity;
         }
     };

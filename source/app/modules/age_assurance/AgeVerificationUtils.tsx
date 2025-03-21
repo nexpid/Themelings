@@ -1,67 +1,76 @@
 // app/modules/age_assurance/AgeVerificationUtils.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    golfie = argBar;
+    option = argBar;
     report = argBaz;
     zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
+    verify = argPlu;
+    var _closure1_slot0 = option;
     var _closure1_slot1 = report;
-    var _closure1_slot2 = option;
+    var _closure1_slot2 = verify;
     entity = global;
-    verify = entity.Object;
-    oscard = verify.defineProperty;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = oscard.bind(verify)(zuuluu, entity, tangon);
+    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
     entity = 0;
-    tangon = option[entity];
+    tangon = verify[entity];
     entity = undefined;
     tangon = report.bind(entity)(tangon);
     var _closure1_slot3 = tangon;
     tangon = 1;
-    tangon = option[tangon];
+    tangon = verify[tangon];
     tangon = report.bind(entity)(tangon);
     var _closure1_slot4 = tangon;
     tangon = 2;
-    oscard = option[tangon];
+    oscard = verify[tangon];
     tangon = argCor;
     tangon = tangon.bind(entity)(oscard);
     var _closure1_slot5 = tangon;
     tangon = 3;
-    tangon = option[tangon];
+    tangon = verify[tangon];
     tangon = report.bind(entity)(tangon);
     var _closure1_slot6 = tangon;
     tangon = 4;
-    tangon = option[tangon];
+    tangon = verify[tangon];
     tangon = report.bind(entity)(tangon);
     var _closure1_slot7 = tangon;
     tangon = 5;
-    tangon = option[tangon];
-    tangon = golfie.bind(entity)(tangon);
+    tangon = verify[tangon];
+    tangon = option.bind(entity)(tangon);
     tangon = tangon.MessageEmbedTypes;
     var _closure1_slot8 = tangon;
     tangon = 6;
-    tangon = option[tangon];
-    tangon = golfie.bind(entity)(tangon);
+    tangon = verify[tangon];
+    tangon = option.bind(entity)(tangon);
     tangon = tangon.SafetyToastType;
     var _closure1_slot9 = tangon;
-    report = {};
+    oscard = {};
     tangon = 'ctas';
-    report['CTAS'] = tangon;
-    var _closure1_slot10 = report;
+    oscard['CTAS'] = tangon;
+    tangon = 'content_type';
+    oscard['CONTENT_TYPE'] = tangon;
+    var _closure1_slot10 = oscard;
+    report = {};
+    tangon = 'retry';
+    report['RETRY'] = tangon;
+    var _closure1_slot11 = report;
     tangon = {};
-    oscard = 'retry';
-    tangon['RETRY'] = oscard;
-    var _closure1_slot11 = tangon;
-    oscard = 14;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/age_assurance/AgeVerificationUtils.tsx';
-    oscard = golfie.bind(option)(oscard);
-    oscard = function() { // Original name: shouldShowTiggerPawtect
+    golfie = 'verified_adult';
+    tangon['VERIFIED_ADULT'] = golfie;
+    golfie = 'verified_teen';
+    tangon['VERIFIED_TEEN'] = golfie;
+    golfie = 'error';
+    tangon['ERROR'] = golfie;
+    golfie = 14;
+    golfie = verify[golfie];
+    verify = option.bind(entity)(golfie);
+    option = verify.fileFinishedImporting;
+    golfie = 'modules/age_assurance/AgeVerificationUtils.tsx';
+    golfie = option.bind(verify)(golfie);
+    golfie = function() { // Original name: shouldShowTiggerPawtect
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zuuluu = _closure1_slot7;
@@ -86,8 +95,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['shouldShowTiggerPawtect'] = oscard;
-    oscard = function() { // Original name: useShouldShowTiggerPawtect
+    zuuluu['shouldShowTiggerPawtect'] = golfie;
+    golfie = function() { // Original name: useShouldShowTiggerPawtect
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zuuluu = _closure1_slot0;
@@ -125,8 +134,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['useShouldShowTiggerPawtect'] = oscard;
-    oscard = function() { // Original name: isVerifiedTeen
+    zuuluu['useShouldShowTiggerPawtect'] = golfie;
+    golfie = function() { // Original name: isVerifiedTeen
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             zuuluu = _closure1_slot7;
@@ -151,8 +160,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['isVerifiedTeen'] = oscard;
-    oscard = function() { // Original name: useIsVerifiedTeen
+    zuuluu['isVerifiedTeen'] = golfie;
+    golfie = function() { // Original name: useIsVerifiedTeen
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             zuuluu = _closure1_slot0;
@@ -190,9 +199,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['useIsVerifiedTeen'] = oscard;
-    zuuluu['AgeVerificationSystemNotificationEmbedKeys'] = report;
-    zuuluu['AgeVerificationSystemNotificationCtaTypes'] = tangon;
+    zuuluu['useIsVerifiedTeen'] = golfie;
+    zuuluu['AgeVerificationSystemNotificationEmbedKeys'] = oscard;
+    zuuluu['AgeVerificationSystemNotificationCtaTypes'] = report;
+    zuuluu['AgeVerificationSystemNotificationContentType'] = tangon;
     tangon = function(argFoo, argBar) { // Original name: isAgeVerificationMessageWithRetryCta
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:

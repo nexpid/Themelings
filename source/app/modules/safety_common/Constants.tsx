@@ -26,6 +26,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['REPORT_SUCCESS'] = entity;
     entity = 'TIGGER_PAWTECT_ERROR';
     michal['TIGGER_PAWTECT_ERROR'] = entity;
+    entity = 'TIGGER_PAWTECT_VERIFIED';
+    michal['TIGGER_PAWTECT_VERIFIED'] = entity;
     entity = 'GENERIC_ERROR';
     michal['GENERIC_ERROR'] = entity;
     tangon = argPlu;
