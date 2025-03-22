@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 314; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 313; continue _fun00003 }
  13:
                     verify = michal.token;
                     romeon = michal.feedId;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return oscard;
  41:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 311; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 310; continue _fun00003 }
  50: // try_start_0
                     golfie = _closure1_slot0;
                     option = _closure1_slot2;
@@ -156,20 +156,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = false;
                     zuuluu['rejectWithError'] = verify;
                     zuuluu = golfie.bind(option)(zuuluu);
-                    SaveGenerator(address=152);
- 150:
+                    SaveGenerator(address=151);
+ 149:
                     return zuuluu;
- 152:
+ 151:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(golfie) { _fun00004_ip = 252; continue _fun00003 }
- 158:
+                    if(golfie) { _fun00004_ip = 251; continue _fun00003 }
+ 157:
                     golfie = zuuluu.body;
                     tangon = golfie;
                     option = golfie.wait_ms_until_next_fetch;
                     report = option;
                     golfie = null;
-                    if(!(golfie != option)) { _fun00004_ip = 249; continue _fun00003 }
- 183:
+                    if(!(golfie != option)) { _fun00004_ip = 248; continue _fun00003 }
+ 182:
                     golfie = global;
                     option = golfie.Date;
                     verify = golfie.Date;
@@ -185,11 +185,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = option.toISOString;
                     report = report.bind(option)();
                     golfie['expired_at'] = report;
- 249: // try_end0
+ 248: // try_end0
                     return tangon;
- 252:
+ 251:
                     return zuuluu;
- 255: // catch_target0
+ 254: // catch_target0
                     CatchBlockStart(arg_register=4);
                     tangon = _closure1_slot0;
                     golfie = _closure1_slot2;
@@ -204,9 +204,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = new sizing[zuuluu](kiloes, backup);
                     zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
                     throw zuuluu;
- 311:
+ 310:
                     return michal;
- 314:
+ 313:
                     return entity;
                 }
             };

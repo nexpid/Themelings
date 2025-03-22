@@ -89,8 +89,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = yankee[oscard];
         golfie = golfie.bind(report)(oscard);
         oscard = {};
-        yankee = 'UserProfileMutualsActionSheet';
-        oscard['location'] = yankee;
         yankee = entity.id;
         oscard['userId'] = yankee;
         oscard['guildId'] = offset;

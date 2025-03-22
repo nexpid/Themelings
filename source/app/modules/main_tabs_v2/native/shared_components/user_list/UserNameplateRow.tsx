@@ -1,24 +1,24 @@
 // app/modules/main_tabs_v2/native/shared_components/user_list/UserNameplateRow.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golfie = argBaz;
+    yankee = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
+    var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscard;
     entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
+    option = entity.Object;
+    golfie = option.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
     tangon = oscard[entity];
     entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
+    tangon = yankee.bind(entity)(tangon);
     var _closure1_slot3 = tangon;
     tangon = 1;
     golfie = oscard[tangon];
@@ -43,11 +43,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
-    verify = {'padding': 0, 'overflow': 'hidden'};
+    verify = {'padding': 0, 'paddingRight': null, 'overflow': 'hidden'};
+    offset = 4;
+    offset = oscard[offset];
+    offset = yankee.bind(entity)(offset);
+    offset = offset.spacing;
+    offset = offset.PX_40;
+    verify['paddingRight'] = offset;
     tangon['card'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot8 = tangon;
-    tangon = 9;
+    tangon = 10;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -102,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = romeon.useContext;
             sequen = _closure1_slot0;
             papara = _closure1_slot2;
-            michal = 4;
+            michal = 5;
             michal = papara[michal];
             michal = sequen.bind(report)(michal);
             michal = michal.TableRowGroupContext;
@@ -171,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = _closure1_slot6;
             tangon = _closure1_slot0;
             cntext = _closure1_slot2;
-            entity = 5;
+            entity = 6;
             entity = cntext[entity];
             entity = tangon.bind(report)(entity);
             tangon = entity.Card;
@@ -196,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = _closure1_slot5;
             verify = _closure1_slot1;
             sequen = _closure1_slot2;
-            option = 6;
+            option = 7;
             option = sequen[option];
             verify = verify.bind(report)(option);
             option = {};
@@ -206,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = new Array(2);
             verify[0] = option;
             romeon = _closure1_slot0;
-            option = 7;
+            option = 8;
             option = sequen[option];
             option = romeon.bind(report)(option);
             romeon = option.TableRowInner;
@@ -241,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = _closure1_slot5;
             option = _closure1_slot0;
             romeon = _closure1_slot2;
-            golfie = 8;
+            golfie = 9;
             golfie = romeon[golfie];
             golfie = option.bind(report)(golfie);
             option = golfie.TableRowDivider;

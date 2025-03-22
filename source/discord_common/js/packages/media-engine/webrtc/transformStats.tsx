@@ -221,11 +221,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             variable41 = argBar;
             variable40 = argBaz;
             variable39 = argCor;
-            update = argGra;
+            echoed = argGra;
             zuuluu = {};
             variable38 = {};
             variable37 = new Array(0);
-            echoed = new Array(0);
+            result = new Array(0);
             michal = _closure1_slot2;
             entity = tangon.values;
             entity = entity.bind(tangon)();
@@ -249,8 +249,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  106:
             if(!(golfie === entity)) { _fun00008_ip = 154; continue _fun00007 }
  110:
-            entity = echoed.push;
-            entity = entity.bind(echoed)(verify);
+            entity = result.push;
+            entity = entity.bind(result)(verify);
             _fun00008_ip = 154; continue _fun00007;
  122:
             entity = variable37.push;
@@ -282,169 +282,168 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             oscard = michal.bind(zuuluu)(entity);
-            if(!(quebec !== oscard)) { _fun00008_ip = 1839; continue _fun00007 }
+            if(!(quebec !== oscard)) { _fun00008_ip = 1835; continue _fun00007 }
  211:
             zuuluu = new Array(0);
-            entity = echoed.length;
+            entity = result.length;
             golfie = 0;
             entity = golfie < entity;
             whisks = 'audio';
-            result = 'type';
-            output = 'averageEncodeTime';
+            output = 'type';
+            sizing = 'averageEncodeTime';
             limora = 'resolution';
-            sizing = 'framesSent';
-            kiloes = 'frameRateInput';
+            kiloes = 'framesSent';
+            backup = 'frameRateInput';
             sierra = 'video';
             michal = 1000;
             status = 1;
             verify = null;
-            backup = 'framesEncoded';
-            foxtra = 'keyFramesEncoded';
+            foxtra = 'framesEncoded';
+            romeon = 'keyFramesEncoded';
             target = 'firCount';
-            romeon = 'nackCount';
+            yankee = 'nackCount';
             papara = 'pliCount';
-            yankee = 'bitrateTarget';
             cntext = 'qpSum';
             offset = undefined;
             option = 0;
             report = undefined;
             tangon = undefined;
-            if(!entity) { _fun00008_ip = 850; continue _fun00007 }
- 307:
-            variable42 = echoed[option];
-            entity = variable42.codecId;
-            sequen = variable38[entity];
-            ctrled = offset;
-            source = tangon;
-            if(!(verify != sequen)) { _fun00008_ip = 829; continue _fun00007 }
- 334:
+            if(!entity) { _fun00008_ip = 846; continue _fun00007 }
+ 303:
+            record = result[option];
+            entity = record.codecId;
+            vacuum = variable38[entity];
+            source = offset;
+            update = tangon;
+            if(!(verify != vacuum)) { _fun00008_ip = 825; continue _fun00007 }
+ 330:
             entity = {};
-            vacuum = variable42.kind;
-            entity['type'] = vacuum;
-            vacuum = variable42.ssrc;
-            entity['ssrc'] = vacuum;
-            vacuum = variable42.timestamp;
-            entity['timestamp'] = vacuum;
-            config = _closure1_slot0;
-            vacuum = _closure1_slot1;
-            record = vacuum[golfie];
-            variable45 = config.bind(quebec)(record);
-            variable44 = variable45.formatSinkWantStat;
-            variable43 = variable42.ssrc;
-            record = variable42.kind;
-            record = sierra === record;
-            record = variable44.bind(variable45)(variable40, variable43, record);
-            entity['sinkWant'] = record;
-            vacuum = vacuum[golfie];
-            record = config.bind(quebec)(vacuum);
-            config = record.formatSinkWantAsInt;
-            vacuum = variable42.ssrc;
-            vacuum = config.bind(record)(variable40, vacuum);
-            entity['sinkWantAsInt'] = vacuum;
-            vacuum = _closure1_slot4;
-            vacuum = vacuum.bind(quebec)(sequen);
-            entity['codec'] = vacuum;
-            vacuum = variable42.bytesSent;
-            entity['bytesSent'] = vacuum;
-            vacuum = variable42.packetsSent;
-            entity['packetsSent'] = vacuum;
-            vacuum = variable42.kind;
-            if(!(whisks !== vacuum)) { _fun00008_ip = 793; continue _fun00007 }
- 497:
-            vacuum = variable42.kind;
-            ctrled = offset;
+            ctrled = record.kind;
+            entity['type'] = ctrled;
+            ctrled = record.ssrc;
+            entity['ssrc'] = ctrled;
+            ctrled = record.timestamp;
+            entity['timestamp'] = ctrled;
+            sequen = _closure1_slot0;
+            ctrled = _closure1_slot1;
+            config = ctrled[golfie];
+            variable44 = sequen.bind(quebec)(config);
+            variable43 = variable44.formatSinkWantStat;
+            variable42 = record.ssrc;
+            config = record.kind;
+            config = sierra === config;
+            config = variable43.bind(variable44)(variable40, variable42, config);
+            entity['sinkWant'] = config;
+            ctrled = ctrled[golfie];
+            config = sequen.bind(quebec)(ctrled);
+            sequen = config.formatSinkWantAsInt;
+            ctrled = record.ssrc;
+            ctrled = sequen.bind(config)(variable40, ctrled);
+            entity['sinkWantAsInt'] = ctrled;
+            ctrled = _closure1_slot4;
+            ctrled = ctrled.bind(quebec)(vacuum);
+            entity['codec'] = ctrled;
+            ctrled = record.bytesSent;
+            entity['bytesSent'] = ctrled;
+            ctrled = record.packetsSent;
+            entity['packetsSent'] = ctrled;
+            ctrled = record.targetBitrate;
+            entity['bitrateTarget'] = ctrled;
+            ctrled = record.kind;
+            if(!(whisks !== ctrled)) { _fun00008_ip = 789; continue _fun00007 }
+ 504:
+            ctrled = record.kind;
+            source = offset;
             report = entity;
-            source = tangon;
-            if(!(sierra === vacuum)) { _fun00008_ip = 829; continue _fun00007 }
- 518:
-            ctrled = offset;
+            update = tangon;
+            if(!(sierra === ctrled)) { _fun00008_ip = 825; continue _fun00007 }
+ 525:
+            source = offset;
             report = entity;
-            source = tangon;
-            if(!update) { _fun00008_ip = 829; continue _fun00007 }
- 533:
-            sequen = variable42.frameWidth;
-            vacuum = undefined;
-            if(!(verify !== sequen)) { _fun00008_ip = 570; continue _fun00007 }
- 545:
+            update = tangon;
+            if(!echoed) { _fun00008_ip = 825; continue _fun00007 }
+ 540:
+            vacuum = record.frameWidth;
+            ctrled = undefined;
+            if(!(verify !== vacuum)) { _fun00008_ip = 577; continue _fun00007 }
+ 552:
+            vacuum = {};
+            sequen = record.frameWidth;
+            vacuum['width'] = sequen;
+            sequen = record.frameHeight;
+            vacuum['height'] = sequen;
+            ctrled = vacuum;
+ 577:
+            config = zuuluu.push;
             sequen = {};
-            config = variable42.frameWidth;
-            sequen['width'] = config;
-            config = variable42.frameHeight;
-            sequen['height'] = config;
-            vacuum = sequen;
- 570:
-            record = zuuluu.push;
-            config = {};
-            variable55 = config;
+            variable55 = sequen;
+            variable54 = entity;
+            vacuum = copyDataProperties(variable55, variable54);
+            vacuum = record.framesEncoded;
+            sequen[foxtra] = vacuum;
+            vacuum = record.keyFramesEncoded;
+            sequen[romeon] = vacuum;
+            vacuum = record.firCount;
+            sequen[target] = vacuum;
+            vacuum = record.nackCount;
+            sequen[yankee] = vacuum;
+            vacuum = record.pliCount;
+            sequen[papara] = vacuum;
+            vacuum = record.qpSum;
+            sequen[cntext] = vacuum;
+            vacuum = record.framesEncoded;
+            variable43 = verify == vacuum;
+            vacuum = offset;
+            variable42 = undefined;
+            if(variable43) { _fun00008_ip = 736; continue _fun00007 }
+ 678:
+            variable44 = record.totalEncodeTime;
+            variable42 = undefined;
+            vacuum = variable44;
+            if(!(verify !== vacuum)) { _fun00008_ip = 736; continue _fun00007 }
+ 693:
+            vacuum = variable44;
+            variable42 = undefined;
+            if(!(golfie !== variable44)) { _fun00008_ip = 736; continue _fun00007 }
+ 702:
+            variable43 = record.totalEncodeTime;
+            variable45 = michal * variable43;
+            variable43 = record.framesEncoded;
+            variable45 = variable45 / variable43;
+            variable43 = variable45.toFixed;
+            variable42 = variable43.bind(variable45)(status);
+            vacuum = variable44;
+ 736:
+            sequen[sizing] = variable42;
+            sequen[limora] = ctrled;
+            variable42 = record.framesSent;
+            sequen[kiloes] = variable42;
+            record = record.framesPerSecond;
+            sequen[backup] = record;
+            sequen[output] = sierra;
+            sequen = config.bind(zuuluu)(sequen);
+            source = vacuum;
+            report = entity;
+            update = ctrled;
+            _fun00008_ip = 825; continue _fun00007;
+ 789:
+            vacuum = zuuluu.push;
+            ctrled = {};
+            variable55 = ctrled;
             variable54 = entity;
             sequen = copyDataProperties(variable55, variable54);
-            sequen = variable42.framesEncoded;
-            config[backup] = sequen;
-            sequen = variable42.keyFramesEncoded;
-            config[foxtra] = sequen;
-            sequen = variable42.firCount;
-            config[target] = sequen;
-            sequen = variable42.nackCount;
-            config[romeon] = sequen;
-            sequen = variable42.pliCount;
-            config[papara] = sequen;
-            sequen = variable42.targetBitrate;
-            config[yankee] = sequen;
-            sequen = variable42.qpSum;
-            config[cntext] = sequen;
-            sequen = variable42.framesEncoded;
-            variable44 = verify == sequen;
-            sequen = offset;
-            variable43 = undefined;
-            if(variable44) { _fun00008_ip = 740; continue _fun00007 }
- 682:
-            variable45 = variable42.totalEncodeTime;
-            variable43 = undefined;
-            sequen = variable45;
-            if(!(verify !== sequen)) { _fun00008_ip = 740; continue _fun00007 }
- 697:
-            sequen = variable45;
-            variable43 = undefined;
-            if(!(golfie !== variable45)) { _fun00008_ip = 740; continue _fun00007 }
- 706:
-            variable44 = variable42.totalEncodeTime;
-            variable46 = michal * variable44;
-            variable44 = variable42.framesEncoded;
-            variable46 = variable46 / variable44;
-            variable44 = variable46.toFixed;
-            variable43 = variable44.bind(variable46)(status);
-            sequen = variable45;
- 740:
-            config[output] = variable43;
-            config[limora] = vacuum;
-            variable43 = variable42.framesSent;
-            config[sizing] = variable43;
-            variable42 = variable42.framesPerSecond;
-            config[kiloes] = variable42;
-            config[result] = sierra;
-            config = record.bind(zuuluu)(config);
-            ctrled = sequen;
+            ctrled[output] = whisks;
+            ctrled = vacuum.bind(zuuluu)(ctrled);
+            source = offset;
             report = entity;
-            source = vacuum;
-            _fun00008_ip = 829; continue _fun00007;
- 793:
-            sequen = zuuluu.push;
-            vacuum = {};
-            variable55 = vacuum;
-            variable54 = entity;
-            config = copyDataProperties(variable55, variable54);
-            vacuum[result] = whisks;
-            vacuum = sequen.bind(zuuluu)(vacuum);
-            ctrled = offset;
-            report = entity;
-            source = tangon;
- 829:
+            update = tangon;
+ 825:
             option = option + 1;
-            entity = echoed.length;
-            offset = ctrled;
-            tangon = source;
-            if(option < entity) { _fun00008_ip = 307; continue _fun00007 }
- 850:
+            entity = result.length;
+            offset = source;
+            tangon = update;
+            if(option < entity) { _fun00008_ip = 303; continue _fun00007 }
+ 846:
             tangon = {};
             entity = variable37.length;
             entity = golfie < entity;
@@ -467,22 +466,22 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             offset = undefined;
             option = undefined;
             report = undefined;
-            if(!entity) { _fun00008_ip = 1737; continue _fun00007 }
- 939:
+            if(!entity) { _fun00008_ip = 1733; continue _fun00007 }
+ 935:
             variable49 = variable37[yankee];
             entity = variable49.codecId;
             variable46 = variable38[entity];
             variable43 = option;
             variable42 = report;
-            if(!(verify != variable46)) { _fun00008_ip = 1716; continue _fun00007 }
- 966:
+            if(!(verify != variable46)) { _fun00008_ip = 1712; continue _fun00007 }
+ 962:
             entity = variable49.ssrc;
             variable45 = variable41.bind(quebec)(entity);
             variable43 = option;
             variable42 = report;
             offset = variable45;
-            if(!(verify != offset)) { _fun00008_ip = 1716; continue _fun00007 }
- 993:
+            if(!(verify != offset)) { _fun00008_ip = 1712; continue _fun00007 }
+ 989:
             variable44 = {};
             entity = variable49.kind;
             variable44['type'] = entity;
@@ -532,31 +531,31 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity = variable49.nackCount;
             variable44['nackCount'] = entity;
             entity = variable49.kind;
-            if(!(whisks !== entity)) { _fun00008_ip = 1574; continue _fun00007 }
- 1252:
+            if(!(whisks !== entity)) { _fun00008_ip = 1570; continue _fun00007 }
+ 1248:
             entity = variable49.kind;
             offset = variable45;
             variable43 = variable44;
             variable42 = report;
-            if(!(sierra === entity)) { _fun00008_ip = 1716; continue _fun00007 }
- 1273:
+            if(!(sierra === entity)) { _fun00008_ip = 1712; continue _fun00007 }
+ 1269:
             entity = tangon[variable45];
-            if(!(verify == entity)) { _fun00008_ip = 1289; continue _fun00007 }
- 1281:
+            if(!(verify == entity)) { _fun00008_ip = 1285; continue _fun00007 }
+ 1277:
             entity = new Array(0);
             tangon[variable45] = entity;
- 1289:
+ 1285:
             entity = variable49.frameWidth;
             variable48 = undefined;
-            if(!(verify !== entity)) { _fun00008_ip = 1326; continue _fun00007 }
- 1301:
+            if(!(verify !== entity)) { _fun00008_ip = 1322; continue _fun00007 }
+ 1297:
             entity = {};
             variable46 = variable49.frameWidth;
             entity['width'] = variable46;
             variable46 = variable49.frameHeight;
             entity['height'] = variable46;
             variable48 = entity;
- 1326:
+ 1322:
             variable47 = tangon[variable45];
             variable46 = variable47.push;
             entity = {};
@@ -577,20 +576,20 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             variable48 = variable49.framesDecoded;
             variable50 = verify == variable48;
             variable48 = undefined;
-            if(variable50) { _fun00008_ip = 1468; continue _fun00007 }
- 1422:
+            if(variable50) { _fun00008_ip = 1464; continue _fun00007 }
+ 1418:
             variable50 = variable49.totalDecodeTime;
             variable50 = verify == variable50;
             variable48 = undefined;
-            if(variable50) { _fun00008_ip = 1468; continue _fun00007 }
- 1437:
+            if(variable50) { _fun00008_ip = 1464; continue _fun00007 }
+ 1433:
             variable50 = variable49.totalDecodeTime;
             variable51 = michal * variable50;
             variable50 = variable49.framesDecoded;
             variable51 = variable51 / variable50;
             variable50 = variable51.toFixed;
             variable48 = variable50.bind(variable51)(status);
- 1468:
+ 1464:
             entity[vacuum] = variable48;
             variable48 = variable49.firCount;
             entity[target] = variable48;
@@ -611,16 +610,16 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             offset = variable45;
             variable43 = variable44;
             variable42 = report;
-            _fun00008_ip = 1716; continue _fun00007;
- 1574:
+            _fun00008_ip = 1712; continue _fun00007;
+ 1570:
             variable46 = variable49.jitterBufferDelay;
             entity = 0;
-            if(!(quebec !== variable46)) { _fun00008_ip = 1634; continue _fun00007 }
- 1586:
+            if(!(quebec !== variable46)) { _fun00008_ip = 1630; continue _fun00007 }
+ 1582:
             variable46 = variable49.jitterBufferEmittedCount;
             entity = 0;
-            if(!(quebec !== variable46)) { _fun00008_ip = 1634; continue _fun00007 }
- 1598:
+            if(!(quebec !== variable46)) { _fun00008_ip = 1630; continue _fun00007 }
+ 1594:
             variable48 = equals.Math;
             variable47 = variable48.round;
             variable46 = variable49.jitterBufferDelay;
@@ -628,13 +627,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             variable46 = variable49.jitterBufferEmittedCount;
             variable46 = variable50 / variable46;
             entity = variable47.bind(variable48)(variable46);
- 1634:
+ 1630:
             variable46 = tangon[variable45];
-            if(!(verify == variable46)) { _fun00008_ip = 1650; continue _fun00007 }
- 1642:
+            if(!(verify == variable46)) { _fun00008_ip = 1646; continue _fun00007 }
+ 1638:
             variable46 = new Array(0);
             tangon[variable45] = variable46;
- 1650:
+ 1646:
             variable48 = tangon[variable45];
             variable47 = variable48.push;
             variable46 = {};
@@ -651,30 +650,30 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             offset = variable45;
             variable43 = variable44;
             variable42 = entity;
- 1716:
+ 1712:
             yankee = yankee + 1;
             entity = variable37.length;
             option = variable43;
             report = variable42;
-            if(yankee < entity) { _fun00008_ip = 939; continue _fun00007 }
- 1737:
+            if(yankee < entity) { _fun00008_ip = 935; continue _fun00007 }
+ 1733:
             report = oscard.currentRoundTripTime;
             option = verify != report;
             entity = 0;
-            if(!option) { _fun00008_ip = 1757; continue _fun00007 }
- 1754:
+            if(!option) { _fun00008_ip = 1753; continue _fun00007 }
+ 1750:
             entity = report;
- 1757:
+ 1753:
             report = michal * entity;
             entity = {};
             michal = {};
             option = oscard.availableOutgoingBitrate;
             verify = verify != option;
             golfie = 0;
-            if(!verify) { _fun00008_ip = 1783; continue _fun00007 }
- 1780:
+            if(!verify) { _fun00008_ip = 1779; continue _fun00007 }
+ 1776:
             golfie = option;
- 1783:
+ 1779:
             michal['availableOutgoingBitrate'] = golfie;
             golfie = oscard.bytesReceived;
             michal['bytesReceived'] = golfie;
@@ -687,7 +686,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal['outbound'] = zuuluu;
             entity['rtp'] = michal;
             return entity;
- 1839:
+ 1835:
             entity = null;
             return entity;
         }

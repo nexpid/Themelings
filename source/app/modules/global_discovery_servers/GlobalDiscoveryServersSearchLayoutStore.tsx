@@ -190,12 +190,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = zuuluu.getCounts;
             entity = entity.bind(zuuluu)(tangon);
             zuuluu = null;
-            if(!(zuuluu != entity)) { _fun00006_ip = 43; continue _fun00005 }
- 35:
+            if(!(zuuluu != entity)) { _fun00006_ip = 42; continue _fun00005 }
+ 34:
             _closure1_slot7 = entity;
             entity = undefined;
             return entity;
- 43:
+ 42:
             entity = false;
             return entity;
         }

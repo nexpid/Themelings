@@ -1,4 +1,4 @@
-// app/modules/activity_status/native/LiveActivityStatusIcon.tsx
+// app/modules/activity_status/native/ActivityStatusIcon.tsx
 export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -35,9 +35,9 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/activity_status/native/LiveActivityStatusIcon.tsx';
+    tangon = 'modules/activity_status/native/ActivityStatusIcon.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: LiveActivityStatusIcon
+    michal = function(argFoo) { // Original name: ActivityStatusIcon
         zuuluu = argFoo;
         tangon = zuuluu.icon;
         golfie = zuuluu.style;

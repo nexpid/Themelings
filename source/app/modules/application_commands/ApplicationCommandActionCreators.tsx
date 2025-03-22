@@ -71,8 +71,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = entity.source;
             report = entity.commandOrigin;
             entity = null;
-            if(!(entity != kiloes)) { _fun00002_ip = 152; continue _fun00001 }
- 77:
+            if(!(entity != kiloes)) { _fun00002_ip = 151; continue _fun00001 }
+ 76:
             zuuluu = _closure1_slot1;
             result = _closure1_slot2;
             michal = 3;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal !== entity;
             entity = 'command should not be placeholder';
             entity = zuuluu.bind(tangon)(michal, entity);
- 152:
+ 151:
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
             entity = 5;
@@ -279,8 +279,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = tangon.bind(report)(zuuluu);
             var _closure2_slot0 = golfie;
             zuuluu = verify.channel;
-            if(!(offset != zuuluu)) { _fun00006_ip = 431; continue _fun00005 }
- 127:
+            if(!(offset != zuuluu)) { _fun00006_ip = 429; continue _fun00005 }
+ 126:
             tangon = _closure1_slot1;
             report = _closure1_slot2;
             zuuluu = 5;
@@ -302,8 +302,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = verify.channel;
             zuuluu = zuuluu.id;
             zuuluu = tangon.bind(report)(zuuluu, oscard, yankee);
-            if(!(offset == zuuluu)) { _fun00006_ip = 431; continue _fun00005 }
- 231:
+            if(!(offset == zuuluu)) { _fun00006_ip = 429; continue _fun00005 }
+ 229:
             romeon = _closure1_slot0;
             foxtra = _closure1_slot2;
             zuuluu = 6;
@@ -328,10 +328,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = verify.guild;
             romeon = offset == yankee;
             offset = undefined;
-            if(romeon) { _fun00006_ip = 340; continue _fun00005 }
- 335:
+            if(romeon) { _fun00006_ip = 338; continue _fun00005 }
+ 333:
             offset = yankee.id;
- 340:
+ 338:
             oscard['guild_id'] = offset;
             verify = verify.channel;
             verify = verify.id;
@@ -367,7 +367,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             michal = zuuluu.bind(tangon)(michal);
- 431:
+ 429:
             return entity;
         }
     };

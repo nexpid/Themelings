@@ -479,7 +479,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[1] = verify;
             report[2] = option;
             verify = _closure1_slot13;
-            if(oscard) { _fun00002_ip = 1049; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 1048; continue _fun00001 }
  910:
             option = _closure1_slot1;
             result = _closure1_slot3;
@@ -511,8 +511,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = kiloes.bind(sizing)(backup, foxtra);
             oscard['body'] = foxtra;
             oscard = verify.bind(tangon)(option, oscard);
-            _fun00002_ip = 1130; continue _fun00001;
- 1049:
+            _fun00002_ip = 1129; continue _fun00001;
+ 1048:
             option = _closure1_slot8;
             golfie = {};
             golfie['sections'] = romeon;
@@ -703,7 +703,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['keyboardDismissMode'] = yankee;
             golfie['contentContainerStyle'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 1130:
+ 1129:
             report[3] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

@@ -2175,15 +2175,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = {};
                 tangon['location'] = golfie;
                 tangon = report.bind(oscard)(tangon);
-                if(zuuluu) { _fun00076_ip = 104; continue _fun00075 }
- 92:
+                if(zuuluu) { _fun00076_ip = 108; continue _fun00075 }
+ 96:
                 zuuluu = michal.getFrequentlyUsedEmojisWithoutFetchingLatest;
                 tangon = zuuluu.bind(michal)();
-                _fun00076_ip = 114; continue _fun00075;
- 104:
+                _fun00076_ip = 118; continue _fun00075;
+ 108:
                 zuuluu = michal.getFrequentlyUsedReactionEmojisWithoutFetchingLatest;
                 tangon = zuuluu.bind(michal)();
- 114:
+ 118:
                 zuuluu = global;
                 zuuluu = zuuluu.Set;
                 report = zuuluu.prototype;
@@ -3514,17 +3514,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = michal.query;
                 option = michal.count;
                 foxtra = undefined;
-                if(!(option === foxtra)) { _fun00130_ip = 36; continue _fun00129 }
- 34:
+                if(!(option === foxtra)) { _fun00130_ip = 35; continue _fun00129 }
+ 33:
                 option = 0;
- 36:
+ 35:
                 report = michal.intention;
                 var _closure3_slot1 = report;
                 zuuluu = michal.includeExternalGuilds;
-                if(!(zuuluu === foxtra)) { _fun00130_ip = 58; continue _fun00129 }
- 56:
+                if(!(zuuluu === foxtra)) { _fun00130_ip = 57; continue _fun00129 }
+ 55:
                 zuuluu = true;
- 58:
+ 57:
                 var _closure3_slot2 = zuuluu;
                 tangon = michal.matchComparator;
                 var _closure3_slot3 = foxtra;
@@ -3544,8 +3544,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = verify.escape;
                 yankee = zuuluu.bind(verify)(yankee);
                 verify = null;
-                if(!(verify == tangon)) { _fun00130_ip = 217; continue _fun00129 }
- 160:
+                if(!(verify == tangon)) { _fun00130_ip = 216; continue _fun00129 }
+ 159:
                 zuuluu = global;
                 foxtra = zuuluu.RegExp;
                 zuuluu = zuuluu.HermesInternal;
@@ -3569,14 +3569,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = michal.bind(zuuluu)(entity);
                     return entity;
                 };
- 217:
+ 216:
                 zuuluu = verify != offset;
                 verify = null;
-                if(!zuuluu) { _fun00130_ip = 236; continue _fun00129 }
- 226:
+                if(!zuuluu) { _fun00130_ip = 235; continue _fun00129 }
+ 225:
                 zuuluu = offset.getGuildId;
                 verify = zuuluu.bind(offset)();
- 236:
+ 235:
                 zuuluu = _closure1_slot38;
                 michal = zuuluu.get;
                 zuuluu = michal.bind(zuuluu)(verify);

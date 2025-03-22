@@ -354,8 +354,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard['value'] = entity;
     entity = '__esModule';
     entity = yankee.bind(romeon)(zuuluu, entity, oscard);
-    foxtra = 0;
-    oscard = offset[foxtra];
+    romeon = 0;
+    oscard = offset[romeon];
     entity = undefined;
     oscard = option.bind(entity)(oscard);
     var _closure1_slot4 = oscard;
@@ -381,8 +381,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot9 = oscard;
     oscard = 6;
     oscard = offset[oscard];
-    yankee = option.bind(entity)(oscard);
-    var _closure1_slot10 = yankee;
+    oscard = option.bind(entity)(oscard);
+    var _closure1_slot10 = oscard;
     oscard = 7;
     oscard = offset[oscard];
     oscard = option.bind(entity)(oscard);
@@ -391,18 +391,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = offset[oscard];
     oscard = verify.bind(entity)(oscard);
     oscard = oscard.RTCDebugSections;
-    romeon = 9;
-    romeon = offset[romeon];
-    backup = verify.bind(entity)(romeon);
-    romeon = backup.MediaEngineContextTypes;
-    var _closure1_slot12 = romeon;
-    kiloes = backup.Features;
-    var _closure1_slot13 = kiloes;
-    backup = backup.SimulcastOverrideQuality;
-    var _closure1_slot14 = backup;
-    romeon = romeon.DEFAULT;
+    yankee = 9;
+    yankee = offset[yankee];
+    foxtra = verify.bind(entity)(yankee);
+    yankee = foxtra.MediaEngineContextTypes;
+    var _closure1_slot12 = yankee;
+    backup = foxtra.Features;
+    var _closure1_slot13 = backup;
+    foxtra = foxtra.SimulcastOverrideQuality;
+    var _closure1_slot14 = foxtra;
+    yankee = yankee.DEFAULT;
     oscard = oscard.TRANSPORT;
-    oscard = tangon.bind(entity)(romeon, oscard, foxtra);
+    oscard = tangon.bind(entity)(yankee, oscard, romeon);
     var _closure1_slot15 = oscard;
     var _closure1_slot16 = oscard;
     oscard = {};
@@ -410,8 +410,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = report.Map;
     oscard = report.prototype;
     oscard = Object.create(oscard, {constructor: {value: report}});
-    echoed = oscard;
-    report = new echoed[report](result);
+    result = oscard;
+    report = new result[report](output);
     report = report instanceof Object ? report : oscard;
     var _closure1_slot18 = report;
     oscard = {'availableOutgoingBitrate': true, 'bitrate': true, 'bitrateTarget': true, 'bytesReceived': true, 'bytesSent': true, 'encoderQualityPsnr': true, 'encoderQualityVmaf': true, 'encodeUsage': true, 'frameRateDecode': true, 'frameRateEncode': true, 'frameRateInput': true, 'frameRateNetwork': true, 'frameRateRender': true, 'keyFramesEncoded': true, 'keyFramesDecoded': true, 'inboundBitrateEstimate': true, 'packetsLost': true, 'packetsReceived': true, 'packetsSent': true, 'ping': true, 'qpSum': true, 'videoEntropy': true};
@@ -530,18 +530,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     report = report.bind(entity)();
-    romeon = report.empty;
-    romeon = romeon.bind(report)();
-    var _closure1_slot21 = romeon;
-    romeon = false;
-    var _closure1_slot22 = romeon;
-    romeon = null;
-    var _closure1_slot23 = romeon;
+    yankee = report.empty;
+    yankee = yankee.bind(report)();
+    var _closure1_slot21 = yankee;
+    yankee = false;
+    var _closure1_slot22 = yankee;
+    yankee = null;
+    var _closure1_slot23 = yankee;
     golfie = golfie.bind(entity)();
     golfie = 13;
     golfie = offset[golfie];
     golfie = option.bind(entity)(golfie);
-    romeon = golfie.Store;
+    yankee = golfie.Store;
     golfie = function(argFoo) {
         tangon = function() { // Original name: RTCDebugStore
             report = this;
@@ -824,12 +824,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
-    foxtra = golfie.bind(entity)(romeon);
+    romeon = golfie.bind(entity)(yankee);
     golfie = 'RTCDebugStore';
-    foxtra['displayName'] = golfie;
-    golfie = 10;
+    romeon['displayName'] = golfie;
+    golfie = 12;
     golfie = offset[golfie];
-    result = option.bind(entity)(golfie);
+    output = option.bind(entity)(golfie);
     golfie = {};
     option = function(argFoo) { // Original name: handleOpen
         _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
@@ -862,73 +862,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     golfie['RTC_DEBUG_MODAL_SET_SECTION'] = option;
-    option = function(argFoo) { // Original name: handleUpdate
-        _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
- 0:
-            entity = argFoo;
-            golfie = entity.context;
-            oscard = entity.stats;
-            zuuluu = entity.index;
-            michal = _closure1_slot17;
-            michal = michal[golfie];
-            verify = null;
-            if(!(verify == oscard)) { _fun00026_ip = 45; continue _fun00025 }
- 36:
-            tangon = delete michal[zuuluu];
-            _fun00026_ip = 205; continue _fun00025;
- 45:
-            option = _closure1_slot16;
-            report = option.split;
-            tangon = ':';
-            offset = report.bind(option)(tangon);
-            option = _closure1_slot7;
-            report = undefined;
-            tangon = 3;
-            yankee = option.bind(report)(offset, tangon);
-            tangon = 0;
-            tangon = yankee[tangon];
-            option = 1;
-            option = yankee[option];
-            offset = 2;
-            offset = yankee[offset];
-            if(!(tangon === golfie)) { _fun00026_ip = 187; continue _fun00025 }
- 102:
-            tangon = global;
-            golfie = tangon.parseInt;
-            golfie = golfie.bind(report)(offset);
-            if(!(golfie === zuuluu)) { _fun00026_ip = 187; continue _fun00025 }
- 119:
-            offset = _closure1_slot11;
-            golfie = offset.getUser;
-            golfie = golfie.bind(offset)(option);
-            if(!(verify != golfie)) { _fun00026_ip = 187; continue _fun00025 }
- 138:
-            golfie = oscard.rtp;
-            verify = golfie.inbound;
-            golfie = tangon.Object;
-            tangon = golfie.keys;
-            golfie = tangon.bind(golfie)(verify);
-            tangon = golfie.includes;
-            tangon = tangon.bind(golfie)(option);
-            if(tangon) { _fun00026_ip = 187; continue _fun00025 }
- 179:
-            tangon = _closure1_slot15;
-            _closure1_slot16 = tangon;
- 187:
-            tangon = _closure1_slot30;
-            entity = michal[zuuluu];
-            entity = tangon.bind(report)(oscard, entity);
-            michal[zuuluu] = entity;
- 205:
-            entity = undefined;
-            return entity;
-        }
-    };
-    golfie['RTC_DEBUG_MODAL_UPDATE'] = option;
     option = function() { // Original name: handleOpenReplay
         zuuluu = _closure1_slot2;
         michal = _closure1_slot3;
-        entity = 11;
+        entity = 10;
         michal = michal[entity];
         entity = undefined;
         zuuluu = zuuluu.bind(entity)(michal);
@@ -938,7 +875,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     golfie['RTC_DEBUG_MODAL_OPEN_REPLAY'] = option;
     option = function(argFoo) { // Original name: handleOpenReplayAtPath
-        _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
+        _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
             entity = argFoo;
             golfie = entity.path;
@@ -953,11 +890,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = _closure1_slot13;
             tangon = tangon.CONNECTION_REPLAY;
             tangon = report.bind(oscard)(tangon);
-            if(!tangon) { _fun00028_ip = 197; continue _fun00027 }
+            if(!tangon) { _fun00026_ip = 197; continue _fun00025 }
  69:
             report = golfie.length;
             tangon = 0;
-            if(!(tangon !== report)) { _fun00028_ip = 197; continue _fun00027 }
+            if(!(tangon !== report)) { _fun00026_ip = 197; continue _fun00025 }
  80:
             report = oscard.createReplayConnection;
             tangon = _closure1_slot12;
@@ -965,25 +902,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = report.bind(oscard)(tangon, golfie);
             _closure2_slot0 = option;
             tangon = null;
-            if(!(tangon != option)) { _fun00028_ip = 197; continue _fun00027 }
+            if(!(tangon != option)) { _fun00026_ip = 197; continue _fun00025 }
  112:
             _closure1_slot23 = option;
             golfie = option.on;
             oscard = _closure1_slot0;
             report = _closure1_slot3;
-            tangon = 12;
+            tangon = 11;
             tangon = report[tangon];
             tangon = oscard.bind(entity)(tangon);
             tangon = tangon.BaseConnectionEvent;
             oscard = tangon.Video;
             tangon = function(argFoo, argBar, argBaz, argCor) {
-                _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
+                _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
                     oscard = argBar;
                     option = argCor;
                     zuuluu = _closure1_slot1;
                     michal = _closure1_slot3;
-                    entity = 10;
+                    entity = 12;
                     michal = michal[entity];
                     entity = undefined;
                     tangon = zuuluu.bind(entity)(michal);
@@ -999,14 +936,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = null;
                     verify = report != option;
                     golfie = 0;
-                    if(!verify) { _fun00030_ip = 87; continue _fun00029 }
+                    if(!verify) { _fun00028_ip = 87; continue _fun00027 }
  84:
                     golfie = option;
  87:
                     michal['videoSsrc'] = golfie;
                     golfie = report != oscard;
                     report = '';
-                    if(!golfie) { _fun00030_ip = 106; continue _fun00029 }
+                    if(!golfie) { _fun00028_ip = 106; continue _fun00027 }
  103:
                     report = oscard;
  106:
@@ -1017,14 +954,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             tangon = golfie.bind(option)(oscard, tangon);
             tangon = _closure1_slot1;
-            zuuluu = 10;
+            zuuluu = 12;
             zuuluu = report[zuuluu];
             tangon = tangon.bind(entity)(zuuluu);
             zuuluu = tangon.wait;
             michal = function() {
                 zuuluu = _closure1_slot2;
                 michal = _closure1_slot3;
-                entity = 11;
+                entity = 10;
                 michal = michal[entity];
                 entity = undefined;
                 michal = zuuluu.bind(entity)(michal);
@@ -1076,12 +1013,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     golfie['RTC_DEBUG_SET_SIMULCAST_OVERRIDE'] = option;
     option = function(argFoo) { // Original name: handleVoiceChannelSelect
-        _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
+        _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
             entity = argFoo;
             michal = entity.channelId;
             entity = null;
-            if(!(entity != michal)) { _fun00032_ip = 41; continue _fun00031 }
+            if(!(entity != michal)) { _fun00030_ip = 41; continue _fun00029 }
  14:
             zuuluu = _closure1_slot28;
             michal = undefined;
@@ -1096,12 +1033,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     golfie['VOICE_CHANNEL_SELECT'] = option;
     option = function(argFoo) { // Original name: handleVideo
-        _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
+        _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
  0:
             michal = argFoo;
             zuuluu = michal.streamId;
             entity = null;
-            if(!(entity === zuuluu)) { _fun00034_ip = 65; continue _fun00033 }
+            if(!(entity === zuuluu)) { _fun00032_ip = 65; continue _fun00031 }
  15:
             report = _closure1_slot27;
             tangon = michal.userId;
@@ -1119,22 +1056,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     golfie['RTC_CONNECTION_VIDEO'] = option;
-    option = foxtra.prototype;
-    option = Object.create(option, {constructor: {value: foxtra}});
-    echoed = option;
-    output = golfie;
-    golfie = new echoed[foxtra](result, output, sizing);
-    golfie = golfie instanceof Object ? golfie : option;
-    option = yankee.getMediaEngine;
-    foxtra = option.bind(yankee)();
-    romeon = foxtra.on;
-    option = 12;
-    option = offset[option];
-    option = verify.bind(entity)(option);
-    option = option.MediaEngineEvent;
-    yankee = option.ConnectionStats;
-    option = function(argFoo) { // Original name: handleStats
+    option = function(argFoo) { // Original name: handleMediaEngineConnectionStats
         michal = argFoo;
+        michal = michal.connectionStats;
         var _closure2_slot0 = michal;
         michal = global;
         tangon = michal.Object;
@@ -1158,28 +1082,73 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = zuuluu.forEach;
             entity = function(argFoo, argBar) {
-                report = argFoo;
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot3;
-                entity = 10;
-                michal = michal[entity];
-                entity = undefined;
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.dispatch;
-                michal = {};
-                oscard = 'RTC_DEBUG_MODAL_UPDATE';
-                michal['type'] = oscard;
-                oscard = report.stats;
-                michal['stats'] = oscard;
-                oscard = _closure3_slot0;
-                michal['context'] = oscard;
-                oscard = argBar;
-                michal['index'] = oscard;
-                report = report.connection;
-                report = report.mediaEngineConnectionId;
-                michal['mediaEngineConnectionId'] = report;
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+                _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
+ 0:
+                    entity = {};
+                    michal = _closure3_slot0;
+                    entity['context'] = michal;
+                    michal = argFoo;
+                    michal = michal.stats;
+                    entity['stats'] = michal;
+                    michal = argBar;
+                    entity['index'] = michal;
+                    golfie = entity.context;
+                    oscard = entity.stats;
+                    zuuluu = entity.index;
+                    michal = _closure1_slot17;
+                    michal = michal[golfie];
+                    verify = null;
+                    if(!(verify == oscard)) { _fun00034_ip = 76; continue _fun00033 }
+ 67:
+                    tangon = delete michal[zuuluu];
+                    _fun00034_ip = 236; continue _fun00033;
+ 76:
+                    option = _closure1_slot16;
+                    report = option.split;
+                    tangon = ':';
+                    offset = report.bind(option)(tangon);
+                    option = _closure1_slot7;
+                    report = undefined;
+                    tangon = 3;
+                    yankee = option.bind(report)(offset, tangon);
+                    tangon = 0;
+                    tangon = yankee[tangon];
+                    option = 1;
+                    option = yankee[option];
+                    offset = 2;
+                    offset = yankee[offset];
+                    if(!(tangon === golfie)) { _fun00034_ip = 218; continue _fun00033 }
+ 133:
+                    tangon = global;
+                    golfie = tangon.parseInt;
+                    golfie = golfie.bind(report)(offset);
+                    if(!(golfie === zuuluu)) { _fun00034_ip = 218; continue _fun00033 }
+ 150:
+                    offset = _closure1_slot11;
+                    golfie = offset.getUser;
+                    golfie = golfie.bind(offset)(option);
+                    if(!(verify != golfie)) { _fun00034_ip = 218; continue _fun00033 }
+ 169:
+                    golfie = oscard.rtp;
+                    verify = golfie.inbound;
+                    golfie = tangon.Object;
+                    tangon = golfie.keys;
+                    golfie = tangon.bind(golfie)(verify);
+                    tangon = golfie.includes;
+                    tangon = tangon.bind(golfie)(option);
+                    if(tangon) { _fun00034_ip = 218; continue _fun00033 }
+ 210:
+                    tangon = _closure1_slot15;
+                    _closure1_slot16 = tangon;
+ 218:
+                    tangon = _closure1_slot30;
+                    entity = michal[zuuluu];
+                    entity = tangon.bind(report)(oscard, entity);
+                    michal[zuuluu] = entity;
+ 236:
+                    entity = undefined;
+                    return entity;
+                }
             };
             entity = michal.bind(zuuluu)(entity);
             entity = undefined;
@@ -1189,7 +1158,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    option = romeon.bind(foxtra)(yankee, option);
+    golfie['MEDIA_ENGINE_CONNECTION_STATS'] = option;
+    option = romeon.prototype;
+    option = Object.create(option, {constructor: {value: romeon}});
+    result = option;
+    sizing = golfie;
+    golfie = new result[romeon](output, sizing, kiloes);
+    golfie = golfie instanceof Object ? golfie : option;
     option = 14;
     option = offset[option];
     offset = verify.bind(entity)(option);

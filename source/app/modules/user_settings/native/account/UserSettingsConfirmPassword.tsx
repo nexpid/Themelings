@@ -353,15 +353,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _closure2_slot5 = zuuluu;
             tangon = golfie.useEffect;
             zuuluu = function() {
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
+                zuuluu = _closure1_slot0;
+                michal = _closure1_slot2;
                 entity = 11;
-                zuuluu = zuuluu[entity];
+                michal = michal[entity];
                 entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
+                tangon = zuuluu.bind(entity)(michal);
                 zuuluu = tangon.trackPaneViewed;
-                michal = _closure1_slot9;
-                michal = michal.ACCOUNT_CONFIRM_PASSWORD;
+                michal = {};
+                report = _closure1_slot9;
+                report = report.ACCOUNT_CONFIRM_PASSWORD;
+                michal['destinationPane'] = report;
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };

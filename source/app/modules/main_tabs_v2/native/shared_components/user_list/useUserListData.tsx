@@ -1269,8 +1269,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         var _closure4_slot0 = entity;
                         tangon = _closure3_slot0;
                         tangon = tangon.currentQuery;
-                        if(!(tangon === report)) { _fun00048_ip = 108; continue _fun00047 }
- 40:
+                        if(!(tangon === report)) { _fun00048_ip = 107; continue _fun00047 }
+ 39:
                         tangon = new Array(0);
                         _closure4_slot0 = tangon;
                         oscard = golfie.reduce;
@@ -1334,18 +1334,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         };
                         zuuluu = false;
                         zuuluu = oscard.bind(golfie)(report, zuuluu);
-                        if(!zuuluu) { _fun00048_ip = 108; continue _fun00047 }
- 72:
+                        if(!zuuluu) { _fun00048_ip = 107; continue _fun00047 }
+ 71:
                         zuuluu = _closure3_slot0;
                         zuuluu['filteredGuildMembers'] = tangon;
                         tangon = zuuluu.onUpdate;
                         zuuluu = null;
-                        if(!(zuuluu != tangon)) { _fun00048_ip = 108; continue _fun00047 }
- 94:
+                        if(!(zuuluu != tangon)) { _fun00048_ip = 107; continue _fun00047 }
+ 93:
                         zuuluu = tangon.call;
                         michal = _closure3_slot0;
                         michal = zuuluu.bind(tangon)(michal);
- 108:
+ 107:
                         return entity;
                     }
                 };
@@ -2145,16 +2145,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot9 = golfie;
             oscard = zuuluu.excludeCurrentUser;
             update = undefined;
-            if(!(oscard === update)) { _fun00072_ip = 119; continue _fun00071 }
- 117:
+            if(!(oscard === update)) { _fun00072_ip = 118; continue _fun00071 }
+ 116:
             oscard = false;
- 119:
+ 118:
             var _closure2_slot10 = oscard;
             report = zuuluu.affinitySuggestionsLimit;
-            if(!(report === update)) { _fun00072_ip = 140; continue _fun00071 }
- 133:
+            if(!(report === update)) { _fun00072_ip = 139; continue _fun00071 }
+ 132:
             report = _closure1_slot15;
- 140:
+ 139:
             var _closure2_slot11 = report;
             var _closure2_slot12 = update;
             var _closure2_slot13 = update;

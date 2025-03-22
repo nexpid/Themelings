@@ -220,7 +220,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = report[zuuluu];
                 report = tangon.bind(entity)(zuuluu);
                 tangon = report.trackPaneViewed;
-                zuuluu = michal.PREMIUM_GIFTING;
+                zuuluu = {};
+                oscard = michal.PREMIUM_GIFTING;
+                zuuluu['destinationPane'] = oscard;
                 zuuluu = tangon.bind(report)(zuuluu);
                 tangon = _closure2_slot1;
                 zuuluu = tangon.push;

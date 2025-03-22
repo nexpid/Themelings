@@ -1,5 +1,5 @@
 // app/modules/activities/useShowActivityIndicator.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
@@ -25,22 +25,27 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/activities/useShowActivityIndicator.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function() {
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        michal = 1;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
+    michal = function(argFoo) {
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        report = _closure1_slot0;
+        tangon = _closure1_slot1;
+        zuuluu = 1;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        tangon = report.bind(zuuluu)(tangon);
         zuuluu = tangon.useStateFromStores;
-        entity = _closure1_slot2;
+        report = _closure1_slot2;
         michal = new Array(1);
-        michal[0] = entity;
+        michal[0] = report;
         entity = function() {
             michal = _closure1_slot2;
             entity = michal.getState;
             entity = entity.bind(michal)();
-            entity = entity.shouldShowNewActivityIndicator;
+            zuuluu = entity.surfacesToShowNewActivityIndicator;
+            michal = zuuluu.has;
+            entity = _closure2_slot0;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
         entity = zuuluu.bind(tangon)(michal, entity);

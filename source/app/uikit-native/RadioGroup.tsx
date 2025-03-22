@@ -331,26 +331,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = michal.length;
                     foxtra = 1;
                     michal = michal - foxtra;
-                    if(!(verify !== michal)) { _fun00010_ip = 117; continue _fun00009 }
- 92:
+                    if(!(verify !== michal)) { _fun00010_ip = 118; continue _fun00009 }
+ 93:
                     michal = _closure2_slot5;
-                    if(michal) { _fun00010_ip = 103; continue _fun00009 }
- 99:
+                    if(michal) { _fun00010_ip = 104; continue _fun00009 }
+ 100:
                     michal = {};
-                    _fun00010_ip = 115; continue _fun00009;
- 103:
+                    _fun00010_ip = 116; continue _fun00009;
+ 104:
                     golfie = {};
                     option = 8;
                     golfie['marginBottom'] = option;
                     michal = golfie;
- 115:
-                    _fun00010_ip = 128; continue _fun00009;
- 117:
+ 116:
+                    _fun00010_ip = 129; continue _fun00009;
+ 118:
                     golfie = {};
                     option = 0;
                     golfie['marginBottom'] = option;
                     michal = golfie;
- 128:
+ 129:
                     entity[1] = michal;
                     yankee['style'] = entity;
                     entity = _closure2_slot3;
@@ -381,12 +381,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = yankee.length;
                     foxtra = yankee - foxtra;
                     yankee = null;
-                    if(!(verify !== foxtra)) { _fun00010_ip = 305; continue _fun00009 }
- 266:
+                    if(!(verify !== foxtra)) { _fun00010_ip = 306; continue _fun00009 }
+ 267:
                     foxtra = _closure2_slot8;
                     yankee = null;
-                    if(!foxtra) { _fun00010_ip = 305; continue _fun00009 }
- 275:
+                    if(!foxtra) { _fun00010_ip = 306; continue _fun00009 }
+ 276:
                     backup = _closure1_slot5;
                     foxtra = _closure1_slot3;
                     romeon = {};
@@ -394,7 +394,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     kiloes = kiloes.divider;
                     romeon['style'] = kiloes;
                     yankee = backup.bind(michal)(foxtra, romeon);
- 305:
+ 306:
                     offset[1] = yankee;
                     zuuluu['children'] = offset;
                     yankee = entity.JSON;

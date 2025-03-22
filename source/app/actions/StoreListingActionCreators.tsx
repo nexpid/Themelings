@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = zuuluu.bind(tangon)(michal);
             zuuluu = oscard.length;
             michal = 0;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 131; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 130; continue _fun00001 }
  33:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -130,13 +130,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             entity = michal.bind(zuuluu)(entity);
-            _fun00002_ip = 149; continue _fun00001;
- 131:
+            _fun00002_ip = 148; continue _fun00001;
+ 130:
             michal = global;
             zuuluu = michal.Promise;
             michal = zuuluu.resolve;
             entity = michal.bind(zuuluu)();
- 149:
+ 148:
             return entity;
         }
     };

@@ -212,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             StartGenerator();
                             report = argFoo;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00008_ip = 567; continue _fun00007 }
+                            if(michal) { _fun00008_ip = 566; continue _fun00007 }
  13:
                             zuuluu = _closure3_slot0;
                             zuuluu = zuuluu.isFetchEnabled;
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             zuuluu = tangon.add;
                             michal = _closure1_slot11;
                             michal = zuuluu.bind(tangon)(michal);
-                            _fun00008_ip = 562; continue _fun00007;
+                            _fun00008_ip = 561; continue _fun00007;
  61:
                             zuuluu = null;
                             oscard = zuuluu == report;
@@ -253,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             report = report.bind(tangon)(zuuluu);
                             zuuluu = report.isStaleFeaturedGuilds;
                             zuuluu = zuuluu.bind(report)(oscard);
-                            if(!zuuluu) { _fun00008_ip = 562; continue _fun00007 }
+                            if(!zuuluu) { _fun00008_ip = 561; continue _fun00007 }
  159:
                             oscard = _closure1_slot1;
                             report = _closure1_slot3;
@@ -298,13 +298,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             option = false;
                             report['rejectWithError'] = option;
                             report = oscard.bind(golfie)(report);
-                            SaveGenerator(address=351);
- 349:
+                            SaveGenerator(address=350);
+ 348:
                             return report;
- 351:
+ 350:
                             ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                            if(oscard) { _fun00008_ip = 471; continue _fun00007 }
- 357:
+                            if(oscard) { _fun00008_ip = 470; continue _fun00007 }
+ 356:
                             oscard = report.body;
                             verify = oscard.total;
                             oscard = report.body;
@@ -329,11 +329,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             oscard['guilds'] = offset;
                             oscard['total'] = verify;
                             oscard = golfie.bind(option)(oscard);
- 469: // try_end0
-                            _fun00008_ip = 562; continue _fun00007;
- 471:
+ 468: // try_end0
+                            _fun00008_ip = 561; continue _fun00007;
+ 470:
                             return report;
- 474: // catch_target0
+ 473: // catch_target0
                             CatchBlockStart(arg_register=8);
                             report = _closure1_slot1;
                             oscard = _closure1_slot3;
@@ -355,10 +355,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             michal = {};
                             michal['categoryId'] = report;
                             michal = zuuluu.bind(tangon)(michal);
- 562:
+ 561:
                             michal = undefined;
                             return michal;
- 567:
+ 566:
                             return entity;
                         }
                     };
@@ -390,7 +390,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             StartGenerator();
                             michal = argFoo;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                            if(zuuluu) { _fun00010_ip = 541; continue _fun00009 }
+                            if(zuuluu) { _fun00010_ip = 540; continue _fun00009 }
  13:
                             golfie = michal.categoryId;
                             report = michal.forceRefresh;
@@ -404,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return zuuluu;
  37:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(tangon) { _fun00010_ip = 538; continue _fun00009 }
+                            if(tangon) { _fun00010_ip = 537; continue _fun00009 }
  46:
                             oscard = _closure3_slot0;
                             oscard = oscard.isFetchEnabled;
@@ -415,7 +415,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             oscard = option.add;
                             tangon = golfie;
                             tangon = oscard.bind(option)(tangon);
-                            _fun00010_ip = 535; continue _fun00009;
+                            _fun00010_ip = 534; continue _fun00009;
  90:
                             verify = _closure1_slot10;
                             option = verify.getLastFetchTimestamp;
@@ -432,7 +432,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             oscard = oscard.bind(zuuluu)(report);
                             report = oscard.isStaleFeaturedGuilds;
                             report = report.bind(oscard)(option);
-                            if(!report) { _fun00010_ip = 535; continue _fun00009 }
+                            if(!report) { _fun00010_ip = 534; continue _fun00009 }
  158:
                             option = _closure1_slot1;
                             oscard = _closure1_slot3;
@@ -473,13 +473,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             offset = false;
                             oscard['rejectWithError'] = offset;
                             oscard = option.bind(verify)(oscard);
-                            SaveGenerator(address=329);
- 327:
+                            SaveGenerator(address=328);
+ 326:
                             return oscard;
- 329:
+ 328:
                             ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
-                            if(option) { _fun00010_ip = 448; continue _fun00009 }
- 335:
+                            if(option) { _fun00010_ip = 447; continue _fun00009 }
+ 334:
                             option = oscard.body;
                             yankee = option.total;
                             option = oscard.body;
@@ -504,11 +504,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             option['guilds'] = romeon;
                             option['total'] = yankee;
                             option = verify.bind(offset)(option);
- 446: // try_end0
-                            _fun00010_ip = 535; continue _fun00009;
- 448:
+ 445: // try_end0
+                            _fun00010_ip = 534; continue _fun00009;
+ 447:
                             return oscard;
- 451: // catch_target0
+ 450: // catch_target0
                             CatchBlockStart(arg_register=9);
                             option = _closure1_slot1;
                             oscard = _closure1_slot3;
@@ -529,11 +529,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = {};
                             tangon['categoryId'] = golfie;
                             tangon = report.bind(oscard)(tangon);
- 535:
+ 534:
                             return zuuluu;
- 538:
+ 537:
                             return michal;
- 541:
+ 540:
                             return entity;
                         }
                     };

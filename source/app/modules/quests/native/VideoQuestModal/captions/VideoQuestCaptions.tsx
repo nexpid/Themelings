@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     foxtra = foxtra.BLACK_500;
     kiloes = backup.bind(entity)(foxtra);
     backup = kiloes.alpha;
-    foxtra = 0.5;
+    foxtra = 0.35;
     backup = backup.bind(kiloes)(foxtra);
     foxtra = backup.hex;
     foxtra = foxtra.bind(backup)();
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = 8;
             oscard = romeon[oscard];
             golfie = golfie.bind(report)(oscard);
-            oscard = {'style': null, 'blurTheme': 'dark', 'blurStyle': 'ultra-thin', 'blurAmount': 0.2};
+            oscard = {'style': null, 'blurTheme': 'dark', 'blurStyle': 'ultra-thin', 'blurAmount': 0.5};
             verify = yankee.captionBox;
             oscard['style'] = verify;
             verify = _closure1_slot0;

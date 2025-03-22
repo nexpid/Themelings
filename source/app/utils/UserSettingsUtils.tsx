@@ -304,7 +304,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     zuuluu['harvestDisabled'] = oscard;
-    oscard = function(argFoo, argBar) { // Original name: trackPaneViewed
+    oscard = function(argFoo) { // Original name: trackPaneViewed
+        entity = argFoo;
+        option = entity.destinationPane;
+        golfie = entity.source;
+        oscard = entity.applicationId;
         tangon = _closure1_slot1;
         zuuluu = _closure1_slot2;
         entity = 4;
@@ -315,12 +319,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = _closure1_slot5;
         zuuluu = michal.SETTINGS_PANE_VIEWED;
         michal = {};
-        oscard = 'user';
-        michal['settings_type'] = oscard;
-        oscard = argFoo;
-        michal['destination_pane'] = oscard;
-        oscard = argBar;
-        michal['source'] = oscard;
+        verify = 'user';
+        michal['settings_type'] = verify;
+        michal['destination_pane'] = option;
+        michal['source'] = golfie;
+        michal['application_id'] = oscard;
         michal = tangon.bind(report)(zuuluu, michal);
         return entity;
     };

@@ -834,7 +834,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = 'keyboardShouldPersistTaps';
             oscard[yankee] = romeon;
             oscard = golfie.bind(tangon)(option, oscard);
-            _fun00004_ip = 1860; continue _fun00003;
+            _fun00004_ip = 1859; continue _fun00003;
  1693:
             option = _closure1_slot16;
             golfie = {};
@@ -874,7 +874,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = 'children';
             golfie[offset] = yankee;
             oscard = option.bind(tangon)(verify, golfie);
- 1860:
+ 1859:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

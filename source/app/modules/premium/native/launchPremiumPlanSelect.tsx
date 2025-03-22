@@ -80,26 +80,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             zuuluu = _closure1_slot3;
-            tangon = zuuluu.PREMIUM_PLAN_SELECT;
+            report = zuuluu.PREMIUM_PLAN_SELECT;
             zuuluu = null;
             if(!(zuuluu == oscard)) { _fun00002_ip = 197; continue _fun00001 }
  88:
             foxtra = _closure1_slot1;
             zuuluu = _closure1_slot2;
-            report = 2;
-            report = zuuluu[report];
-            backup = foxtra.bind(entity)(report);
+            tangon = 2;
+            tangon = zuuluu[tangon];
+            backup = foxtra.bind(entity)(tangon);
             foxtra = backup.pushLazy;
             sizing = _closure1_slot0;
-            report = 4;
-            report = zuuluu[report];
-            sizing = sizing.bind(entity)(report);
-            report = 3;
-            report = zuuluu[report];
+            tangon = 4;
+            tangon = zuuluu[tangon];
+            sizing = sizing.bind(entity)(tangon);
+            tangon = 3;
+            tangon = zuuluu[tangon];
             zuuluu = zuuluu.paths;
-            report = sizing.bind(entity)(report, zuuluu);
+            tangon = sizing.bind(entity)(tangon, zuuluu);
             zuuluu = {};
-            zuuluu['initialRoute'] = tangon;
+            zuuluu['initialRoute'] = report;
             zuuluu['analyticsLocation'] = yankee;
             zuuluu['analyticsLocations'] = offset;
             zuuluu['predicate'] = romeon;
@@ -107,10 +107,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['planId'] = option;
             zuuluu['applicationId'] = golfie;
             zuuluu['onBack'] = kiloes;
-            zuuluu = foxtra.bind(backup)(report, zuuluu);
+            zuuluu = foxtra.bind(backup)(tangon, zuuluu);
             _fun00002_ip = 239; continue _fun00001;
  197:
-            report = oscard.push;
+            tangon = oscard.push;
             zuuluu = {};
             zuuluu['predicate'] = romeon;
             zuuluu['analyticsLocation'] = yankee;
@@ -118,15 +118,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['showCurrentPlan'] = verify;
             zuuluu['planId'] = option;
             zuuluu['applicationId'] = golfie;
-            zuuluu = report.bind(oscard)(tangon, zuuluu);
+            zuuluu = tangon.bind(oscard)(report, zuuluu);
  239:
             zuuluu = _closure1_slot0;
-            report = _closure1_slot2;
+            tangon = _closure1_slot2;
             michal = 5;
-            michal = report[michal];
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.trackPaneViewed;
-            michal = michal.bind(zuuluu)(tangon);
+            michal = tangon[michal];
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.trackPaneViewed;
+            michal = {};
+            michal['destinationPane'] = report;
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };

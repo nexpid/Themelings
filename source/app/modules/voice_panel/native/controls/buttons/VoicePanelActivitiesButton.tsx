@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['whiteBG'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot8 = tangon;
-    tangon = 14;
+    tangon = 15;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -99,16 +99,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot3 = verify;
             entity = 6;
             entity = option[entity];
-            golfie = zuuluu.bind(tangon)(entity);
-            entity = golfie.useShowActivityIndicator;
-            backup = entity.bind(golfie)();
+            offset = zuuluu.bind(tangon)(entity);
+            golfie = offset.useShowActivityIndicator;
+            entity = 7;
+            entity = option[entity];
+            entity = zuuluu.bind(tangon)(entity);
+            entity = entity.EmbeddedActivitySurfaces;
+            entity = entity.VOICE_LAUNCHER;
+            backup = golfie.bind(offset)(entity);
             var _closure2_slot4 = backup;
             offset = _closure1_slot3;
             golfie = offset.useRef;
             entity = null;
             entity = golfie.bind(offset)(entity);
             var _closure2_slot5 = entity;
-            entity = 7;
+            entity = 8;
             entity = option[entity];
             entity = zuuluu.bind(tangon)(entity);
             foxtra = entity.ActivitiesControllerIconMobileExperiment;
@@ -132,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['tab'] = entity;
                 report = _closure1_slot0;
                 tangon = _closure1_slot2;
-                entity = 8;
+                entity = 9;
                 tangon = tangon[entity];
                 entity = undefined;
                 tangon = report.bind(entity)(tangon);
@@ -163,14 +168,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = _closure1_slot2;
                     if(michal) { _fun00004_ip = 47; continue _fun00003 }
  25:
-                    michal = 10;
+                    michal = 11;
                     zuuluu = tangon[michal];
                     michal = undefined;
                     michal = golfie.bind(michal)(zuuluu);
                     zuuluu = michal.AppsIcon;
                     _fun00004_ip = 67; continue _fun00003;
  47:
-                    michal = 9;
+                    michal = 10;
                     tangon = tangon[michal];
                     michal = undefined;
                     michal = golfie.bind(michal)(tangon);
@@ -200,23 +205,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot8 = offset;
             zuuluu = _closure1_slot5;
             michal = _closure1_slot1;
-            entity = 11;
+            entity = 12;
             entity = option[entity];
             michal = michal.bind(tangon)(entity);
             entity = {};
             entity['onPress'] = golfie;
             entity['props'] = romeon;
             golfie = undefined;
-            if(backup) { _fun00002_ip = 328; continue _fun00001 }
- 319:
+            if(backup) { _fun00002_ip = 353; continue _fun00001 }
+ 344:
             option = {};
             option['backgroundColor'] = foxtra;
             golfie = option;
- 328:
+ 353:
             entity['style'] = golfie;
             sizing = _closure1_slot0;
             output = _closure1_slot2;
-            golfie = 12;
+            golfie = 13;
             option = output[golfie];
             option = sizing.bind(tangon)(option);
             kiloes = option.intl;
@@ -254,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = _closure1_slot5;
                     golfie = _closure1_slot1;
                     oscard = _closure1_slot2;
-                    michal = 13;
+                    michal = 14;
                     oscard = oscard[michal];
                     michal = undefined;
                     verify = golfie.bind(michal)(oscard);

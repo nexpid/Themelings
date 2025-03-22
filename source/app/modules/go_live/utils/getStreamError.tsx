@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.isNotNullish;
             entity = report.bind(oscard)(entity);
             report = entity.length;
-            if(!(zuuluu !== report)) { _fun00004_ip = 228; continue _fun00003 }
+            if(!(zuuluu !== report)) { _fun00004_ip = 226; continue _fun00003 }
  101:
             report = entity.forEach;
             tangon = function(argFoo, argBar, argBaz) {
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['resolution'] = tangon;
             entity['numDatapoints'] = zuuluu;
             return entity;
- 228:
+ 226:
             entity = {};
             zuuluu = 'streamer';
             entity['type'] = zuuluu;

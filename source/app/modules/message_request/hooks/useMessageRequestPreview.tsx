@@ -286,7 +286,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 474; continue _fun00009 }
+                    if(michal) { _fun00010_ip = 473; continue _fun00009 }
  10:
                     report = undefined;
                     zuuluu = undefined;
@@ -320,13 +320,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = true;
                     michal['rejectWithError'] = offset;
                     michal = option.bind(verify)(michal);
-                    SaveGenerator(address=136);
- 134:
+                    SaveGenerator(address=135);
+ 133:
                     return michal;
- 136:
+ 135:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=7);
-                    if(option) { _fun00010_ip = 205; continue _fun00009 }
- 142:
+                    if(option) { _fun00010_ip = 204; continue _fun00009 }
+ 141:
                     verify = _closure1_slot1;
                     offset = _closure1_slot2;
                     option = 8;
@@ -341,9 +341,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = michal.body;
                     option['supplementalData'] = yankee;
                     option = verify.bind(offset)(option);
- 200: // try_end0
-                    _fun00010_ip = 330; continue _fun00009;
- 205: // try_end1
+ 199: // try_end0
+                    _fun00010_ip = 329; continue _fun00009;
+ 204: // try_end1
                     verify = _closure1_slot11;
                     option = zuuluu;
                     option = verify.bind(report)(option);
@@ -351,8 +351,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = option.bind(report)();
                     oscard = option;
                     option = option.done;
-                    if(option) { _fun00010_ip = 275; continue _fun00009 }
- 235:
+                    if(option) { _fun00010_ip = 274; continue _fun00009 }
+ 234:
                     option = oscard;
                     offset = option.value;
                     verify = _closure1_slot9;
@@ -362,10 +362,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = option.bind(report)();
                     oscard = option;
                     option = option.done;
-                    if(!option) { _fun00010_ip = 235; continue _fun00009 }
- 275:
+                    if(!option) { _fun00010_ip = 234; continue _fun00009 }
+ 274:
                     return michal;
- 278: // try_start_2 // catch_target0
+ 277: // try_start_2 // catch_target0
                     CatchBlockStart(arg_register=1);
                     option = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -379,7 +379,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = zuuluu;
                     michal['requestedChannelIds'] = offset;
                     michal = option.bind(verify)(michal);
- 330: // try_end2
+ 329: // try_end2
                     option = _closure1_slot11;
                     michal = zuuluu;
                     michal = option.bind(report)(michal);
@@ -387,8 +387,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = michal.bind(report)();
                     oscard = michal;
                     michal = michal.done;
-                    if(michal) { _fun00010_ip = 400; continue _fun00009 }
- 360:
+                    if(michal) { _fun00010_ip = 399; continue _fun00009 }
+ 359:
                     michal = oscard;
                     verify = michal.value;
                     option = _closure1_slot9;
@@ -398,10 +398,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = michal.bind(report)();
                     oscard = michal;
                     michal = michal.done;
-                    if(!michal) { _fun00010_ip = 360; continue _fun00009 }
- 400:
+                    if(!michal) { _fun00010_ip = 359; continue _fun00009 }
+ 399:
                     return report;
- 403: // catch_target1 // catch_target2
+ 402: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=1);
                     option = _closure1_slot11;
                     zuuluu = option.bind(report)(zuuluu);
@@ -409,8 +409,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = zuuluu.bind(report)();
                     oscard = zuuluu;
                     zuuluu = zuuluu.done;
-                    if(zuuluu) { _fun00010_ip = 472; continue _fun00009 }
- 432:
+                    if(zuuluu) { _fun00010_ip = 471; continue _fun00009 }
+ 431:
                     zuuluu = oscard;
                     verify = zuuluu.value;
                     option = _closure1_slot9;
@@ -420,10 +420,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = zuuluu.bind(report)();
                     oscard = zuuluu;
                     zuuluu = zuuluu.done;
-                    if(!zuuluu) { _fun00010_ip = 432; continue _fun00009 }
- 472:
+                    if(!zuuluu) { _fun00010_ip = 431; continue _fun00009 }
+ 471:
                     throw michal;
- 474:
+ 473:
                     return entity;
                 }
             };

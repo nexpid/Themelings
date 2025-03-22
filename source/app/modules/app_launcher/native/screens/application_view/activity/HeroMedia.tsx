@@ -154,20 +154,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = null;
             yankee = option == zuuluu;
             entity = undefined;
-            if(yankee) { _fun00004_ip = 192; continue _fun00003 }
- 186:
+            if(yankee) { _fun00004_ip = 194; continue _fun00003 }
+ 188:
             entity = zuuluu.embeddedActivityConfig;
- 192:
+ 194:
             yankee = option == entity;
             zuuluu = undefined;
-            if(yankee) { _fun00004_ip = 207; continue _fun00003 }
- 201:
+            if(yankee) { _fun00004_ip = 209; continue _fun00003 }
+ 203:
             zuuluu = entity.activity_preview_video_asset_id;
- 207:
+ 209:
             zuuluu = option != zuuluu;
             foxtra = null;
-            if(!zuuluu) { _fun00004_ip = 248; continue _fun00003 }
- 216:
+            if(!zuuluu) { _fun00004_ip = 250; continue _fun00003 }
+ 218:
             yankee = _closure1_slot1;
             backup = _closure1_slot2;
             zuuluu = 10;
@@ -175,15 +175,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = yankee.bind(report)(zuuluu);
             entity = entity.activity_preview_video_asset_id;
             foxtra = zuuluu.bind(report)(tangon, entity);
- 248:
+ 250:
             zuuluu = option == foxtra;
             entity = null;
-            if(zuuluu) { _fun00004_ip = 496; continue _fun00003 }
- 260:
+            if(zuuluu) { _fun00004_ip = 498; continue _fun00003 }
+ 262:
             yankee = '';
             entity = null;
-            if(!(yankee !== foxtra)) { _fun00004_ip = 496; continue _fun00003 }
- 273:
+            if(!(yankee !== foxtra)) { _fun00004_ip = 498; continue _fun00003 }
+ 275:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot1;
             backup = _closure1_slot2;
@@ -192,24 +192,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(report)(michal);
             michal = {};
             michal['paused'] = verify;
-            if(!(option != foxtra)) { _fun00004_ip = 312; continue _fun00003 }
- 308:
-            if(!(yankee === foxtra)) { _fun00004_ip = 335; continue _fun00003 }
- 312:
+            if(!(option != foxtra)) { _fun00004_ip = 314; continue _fun00003 }
+ 310:
+            if(!(yankee === foxtra)) { _fun00004_ip = 337; continue _fun00003 }
+ 314:
             verify = {};
             backup = golfie.url;
             kiloes = option != backup;
-            if(!kiloes) { _fun00004_ip = 329; continue _fun00003 }
- 326:
+            if(!kiloes) { _fun00004_ip = 331; continue _fun00003 }
+ 328:
             yankee = backup;
- 329:
+ 331:
             verify['uri'] = yankee;
-            _fun00004_ip = 345; continue _fun00003;
- 335:
+            _fun00004_ip = 347; continue _fun00003;
+ 337:
             yankee = {};
             yankee['videoURI'] = foxtra;
             verify = yankee;
- 345:
+ 347:
             michal['src'] = verify;
             verify = offset.height;
             michal['height'] = verify;
@@ -227,8 +227,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['maxHeight'] = yankee;
             golfie[1] = verify;
             option = option != romeon;
-            if(!option) { _fun00004_ip = 464; continue _fun00003 }
- 424:
+            if(!option) { _fun00004_ip = 466; continue _fun00003 }
+ 426:
             verify = {};
             yankee = {};
             offset = offset.height;
@@ -240,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset[0] = yankee;
             verify['transform'] = offset;
             option = verify;
- 464:
+ 466:
             golfie[2] = option;
             michal['style'] = golfie;
             oscard = oscard.mediaBackground;
@@ -248,7 +248,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = false;
             michal['postponeRender'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 496:
+ 498:
             return entity;
         }
     };

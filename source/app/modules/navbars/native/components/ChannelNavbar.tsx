@@ -330,22 +330,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = output.bind(tangon)(zuuluu);
             zuuluu = zuuluu.SpecialNavigationPath;
             zuuluu = zuuluu.FRIENDS;
-            if(!(kiloes !== zuuluu)) { _fun00002_ip = 1755; continue _fun00001 }
+            if(!(kiloes !== zuuluu)) { _fun00002_ip = 1743; continue _fun00001 }
  382:
             zuuluu = _closure1_slot13;
             zuuluu = zuuluu.GUILD_HOME;
-            if(!(romeon !== zuuluu)) { _fun00002_ip = 1577; continue _fun00001 }
+            if(!(romeon !== zuuluu)) { _fun00002_ip = 1565; continue _fun00001 }
  399:
-            if(michal) { _fun00002_ip = 1429; continue _fun00001 }
+            if(michal) { _fun00002_ip = 1417; continue _fun00001 }
  405:
             romeon = null;
             if(!(romeon != entity)) { _fun00002_ip = 434; continue _fun00001 }
  411:
-            if(!(romeon != foxtra)) { _fun00002_ip = 1143; continue _fun00001 }
+            if(!(romeon != foxtra)) { _fun00002_ip = 1131; continue _fun00001 }
  418:
             michal = foxtra.isForumLikeChannel;
             michal = michal.bind(foxtra)();
-            if(!michal) { _fun00002_ip = 1143; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 1131; continue _fun00001 }
  434:
             zuuluu = _closure1_slot0;
             kiloes = _closure1_slot2;
@@ -354,9 +354,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = zuuluu.shouldNSFWGateGuild;
             michal = michal.bind(zuuluu)(offset);
-            if(michal) { _fun00002_ip = 1049; continue _fun00001 }
+            if(michal) { _fun00002_ip = 1037; continue _fun00001 }
  471:
-            if(!(romeon != foxtra)) { _fun00002_ip = 1007; continue _fun00001 }
+            if(!(romeon != foxtra)) { _fun00002_ip = 995; continue _fun00001 }
  478:
             zuuluu = _closure1_slot0;
             offset = _closure1_slot2;
@@ -465,14 +465,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = 20;
             michal = kiloes[michal];
             zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {'location': 'ChannelNavbar', 'hideActivityIcon': true};
+            michal = {};
             michal['userId'] = offset;
             kiloes = romeon == foxtra;
             offset = undefined;
-            if(kiloes) { _fun00002_ip = 936; continue _fun00001 }
- 931:
+            if(kiloes) { _fun00002_ip = 924; continue _fun00001 }
+ 919:
             offset = foxtra.guild_id;
- 936:
+ 924:
             michal['guildId'] = offset;
             kiloes = verify.bind(tangon)(zuuluu, michal);
             verify = _closure1_slot17;
@@ -490,7 +490,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = offset;
             michal = verify.bind(tangon)(zuuluu, michal);
             return michal;
- 1007:
+ 995:
             verify = _closure1_slot17;
             zuuluu = _closure1_slot20;
             michal = {};
@@ -502,7 +502,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = offset;
             michal = verify.bind(tangon)(zuuluu, michal);
             return michal;
- 1049:
+ 1037:
             verify = _closure1_slot17;
             zuuluu = _closure1_slot20;
             michal = {};
@@ -525,15 +525,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = offset;
             michal = verify.bind(tangon)(zuuluu, michal);
             return michal;
- 1143:
+ 1131:
             michal = entity.name;
-            if(!(romeon != michal)) { _fun00002_ip = 1168; continue _fun00001 }
- 1152:
+            if(!(romeon != michal)) { _fun00002_ip = 1156; continue _fun00001 }
+ 1140:
             michal = entity.name;
             zuuluu = michal.length;
             michal = 0;
-            if(!(!(zuuluu > michal))) { _fun00002_ip = 1222; continue _fun00001 }
- 1168:
+            if(!(!(zuuluu > michal))) { _fun00002_ip = 1210; continue _fun00001 }
+ 1156:
             offset = _closure1_slot0;
             michal = _closure1_slot2;
             zuuluu = michal[yankee];
@@ -545,10 +545,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.t;
             michal = michal.4WNcpq;
             kiloes = zuuluu.bind(verify)(michal);
-            _fun00002_ip = 1227; continue _fun00001;
- 1222:
+            _fun00002_ip = 1215; continue _fun00001;
+ 1210:
             kiloes = entity.name;
- 1227:
+ 1215:
             zuuluu = _closure1_slot0;
             verify = _closure1_slot2;
             michal = 19;
@@ -557,13 +557,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.getThreadChannelIcon;
             entity = entity.isPrivate;
             verify = _closure1_slot12;
-            if(entity) { _fun00002_ip = 1274; continue _fun00001 }
- 1266:
+            if(entity) { _fun00002_ip = 1262; continue _fun00001 }
+ 1254:
             entity = verify.PUBLIC_THREAD;
-            _fun00002_ip = 1280; continue _fun00001;
- 1274:
+            _fun00002_ip = 1268; continue _fun00001;
+ 1262:
             entity = verify.PRIVATE_THREAD;
- 1280:
+ 1268:
             foxtra = michal.bind(zuuluu)(entity);
             michal = _closure1_slot0;
             entity = _closure1_slot2;
@@ -588,20 +588,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['accessibleTitle'] = backup;
             verify['icon'] = foxtra;
             romeon = romeon != sizing;
-            if(!romeon) { _fun00002_ip = 1406; continue _fun00001 }
- 1385:
+            if(!romeon) { _fun00002_ip = 1394; continue _fun00001 }
+ 1373:
             kiloes = _closure1_slot17;
             backup = _closure1_slot22;
             foxtra = {};
             foxtra['parentChannel'] = sizing;
             romeon = kiloes.bind(tangon)(backup, foxtra);
- 1406:
+ 1394:
             verify['subTitle'] = romeon;
             verify = zuuluu.bind(tangon)(offset, verify);
             entity['children'] = verify;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 1429:
+ 1417:
             zuuluu = _closure1_slot17;
             offset = _closure1_slot1;
             foxtra = _closure1_slot2;
@@ -637,7 +637,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = verify;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 1577:
+ 1565:
             zuuluu = _closure1_slot17;
             romeon = _closure1_slot1;
             offset = _closure1_slot2;
@@ -679,7 +679,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = oscard;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 1755:
+ 1743:
             zuuluu = _closure1_slot17;
             michal = _closure1_slot20;
             entity = {};
@@ -1178,13 +1178,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = romeon[entity];
             michal = michal.bind(tangon)(entity);
             entity = {};
-            romeon = 'ChannelNavbar';
-            entity['location'] = romeon;
             entity['userId'] = yankee;
             golfie = golfie.guild_id;
             entity['guildId'] = golfie;
-            golfie = true;
-            entity['hideActivityIcon'] = golfie;
             golfie = zuuluu.bind(tangon)(michal, entity);
             michal = _closure1_slot20;
             entity = {};

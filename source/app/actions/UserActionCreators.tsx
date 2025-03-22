@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 780; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 779; continue _fun00001 }
  13:
                     option = argFoo;
                     yankee = undefined;
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return yankee;
  85:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 777; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 776; continue _fun00001 }
  94:
                     romeon = _closure1_slot1;
                     report = _closure1_slot2;
@@ -103,24 +103,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     backup = true;
                     report['rejectWithError'] = backup;
                     report = romeon.bind(foxtra)(report);
-                    SaveGenerator(address=321);
- 319:
+                    SaveGenerator(address=320);
+ 318:
                     return report;
- 321:
+ 320:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=11);
-                    if(romeon) { _fun00002_ip = 562; continue _fun00001 }
- 330:
+                    if(romeon) { _fun00002_ip = 561; continue _fun00001 }
+ 329:
                     oscard = report;
                     romeon = offset;
                     foxtra = null;
-                    if(!(foxtra != romeon)) { _fun00002_ip = 362; continue _fun00001 }
- 342:
+                    if(!(foxtra != romeon)) { _fun00002_ip = 361; continue _fun00001 }
+ 341:
                     backup = offset;
                     offset = oscard;
                     romeon = offset.body;
                     offset = golfie;
                     offset = backup.bind(yankee)(romeon, offset);
- 362:
+ 361:
                     romeon = _closure1_slot1;
                     offset = _closure1_slot2;
                     backup = offset[tangon];
@@ -147,15 +147,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon = golfie;
                     romeon = foxtra != romeon;
                     offset = romeon;
-                    if(!romeon) { _fun00002_ip = 488; continue _fun00001 }
- 470:
+                    if(!romeon) { _fun00002_ip = 487; continue _fun00001 }
+ 469:
                     romeon = oscard;
                     romeon = romeon.body;
                     romeon = romeon.guild_member;
                     offset = foxtra != romeon;
- 488:
-                    if(!offset) { _fun00002_ip = 554; continue _fun00001 }
- 491:
+ 487:
+                    if(!offset) { _fun00002_ip = 553; continue _fun00001 }
+ 490:
                     romeon = _closure1_slot1;
                     offset = _closure1_slot2;
                     offset = offset[tangon];
@@ -171,32 +171,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     backup = backup.guild_member;
                     offset['guildMember'] = backup;
                     offset = romeon.bind(foxtra)(offset);
- 554:
+ 553:
                     oscard = oscard.body;
- 559: // try_end0
+ 558: // try_end0
                     return oscard;
- 562:
+ 561:
                     return report;
- 565: // catch_target0
+ 564: // catch_target0
                     CatchBlockStart(arg_register=5);
                     zuuluu = oscard;
                     offset = null;
                     oscard = offset != oscard;
                     report = oscard;
-                    if(!oscard) { _fun00002_ip = 606; continue _fun00001 }
- 582:
+                    if(!oscard) { _fun00002_ip = 605; continue _fun00001 }
+ 581:
                     oscard = zuuluu;
                     romeon = offset == oscard;
                     oscard = undefined;
-                    if(romeon) { _fun00002_ip = 602; continue _fun00001 }
- 594:
+                    if(romeon) { _fun00002_ip = 601; continue _fun00001 }
+ 593:
                     romeon = zuuluu;
                     oscard = romeon.body;
- 602:
+ 601:
                     report = offset != oscard;
- 606:
-                    if(!report) { _fun00002_ip = 678; continue _fun00001 }
- 609:
+ 605:
+                    if(!report) { _fun00002_ip = 677; continue _fun00001 }
+ 608:
                     offset = _closure1_slot7;
                     oscard = offset.warn;
                     report = zuuluu;
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = ' - ';
                     report = foxtra.bind(romeon)(kiloes, report, backup);
                     report = oscard.bind(offset)(report);
- 678:
+ 677:
                     report = _closure1_slot1;
                     romeon = _closure1_slot2;
                     tangon = romeon[tangon];
@@ -236,9 +236,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['guildId'] = golfie;
                     tangon = report.bind(oscard)(tangon);
                     throw zuuluu;
- 777:
+ 776:
                     return michal;
- 780:
+ 779:
                     return entity;
                 }
             };

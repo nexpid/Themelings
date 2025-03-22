@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 var _closure2_slot0 = michal;
                 entity = null;
                 michal = entity == michal;
-                if(michal) { _fun00004_ip = 119; continue _fun00003 }
+                if(michal) { _fun00004_ip = 103; continue _fun00003 }
  18:
                 michal = {};
                 tangon = function() { // Original name: getData
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 michal['finish'] = zuuluu;
                 entity = michal;
- 119:
+ 103:
                 return entity;
             }
         };
@@ -157,15 +157,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         var _closure1_slot3 = option;
         michal = null;
         option = michal != option;
-        if(!option) { _fun00002_ip = 139; continue _fun00001 }
- 113:
+        if(!option) { _fun00002_ip = 137; continue _fun00001 }
+ 111:
         romeon = golfie.PushNotificationAndroid;
         option = verify.prototype;
         option = Object.create(option, {constructor: {value: verify}});
         foxtra = option;
         golfie = new foxtra[verify](romeon, yankee);
         michal = golfie instanceof Object ? golfie : option;
- 139:
+ 137:
         var _closure1_slot4 = michal;
         michal = {};
         golfie = function() { // Original name: getInitialNotification
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.bind(zuuluu)(entity);
                 entity = michal.getInitialNotification;
                 entity = entity.bind(michal)();
-                _fun00008_ip = 106; continue _fun00007;
+                _fun00008_ip = 104; continue _fun00007;
  69:
                 michal = global;
                 tangon = michal.Promise;
@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = zuuluu;
                 michal = new oscard[tangon](report, tangon);
                 entity = michal instanceof Object ? michal : zuuluu;
- 106:
+ 104:
                 return entity;
             }
         };
@@ -513,7 +513,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = zuuluu.requestPermissions;
                 entity = argFoo;
                 entity = michal.bind(zuuluu)(entity);
-                _fun00030_ip = 110; continue _fun00029;
+                _fun00030_ip = 108; continue _fun00029;
  73:
                 michal = global;
                 tangon = michal.Promise;
@@ -529,7 +529,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = zuuluu;
                 michal = new oscard[tangon](report, tangon);
                 entity = michal instanceof Object ? michal : zuuluu;
- 110:
+ 108:
                 return entity;
             }
         };
@@ -568,10 +568,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = oscard.bind(entity)(report);
                 report = oscard.addEventListener;
                 report = report.bind(oscard)(tangon, golfie);
-                _fun00032_ip = 162; continue _fun00031;
+                _fun00032_ip = 158; continue _fun00031;
  83:
                 option = 'notification';
-                if(!(option === tangon)) { _fun00032_ip = 114; continue _fun00031 }
+                if(!(option === tangon)) { _fun00032_ip = 112; continue _fun00031 }
  91:
                 golfie = _closure1_slot4;
                 oscard = golfie.addListener;
@@ -592,10 +592,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     }
                 };
                 report = oscard.bind(golfie)(option, report);
- 114:
+ 112:
                 golfie = 'localNotification';
-                if(!(golfie === tangon)) { _fun00032_ip = 147; continue _fun00031 }
- 124:
+                if(!(golfie === tangon)) { _fun00032_ip = 143; continue _fun00031 }
+ 122:
                 oscard = _closure1_slot4;
                 report = oscard.addListener;
                 zuuluu = function(argFoo) {
@@ -615,11 +615,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     }
                 };
                 zuuluu = report.bind(oscard)(golfie, zuuluu);
- 147:
+ 143:
                 zuuluu = _closure1_slot3;
                 michal = zuuluu.registerEventListener;
                 michal = michal.bind(zuuluu)(tangon);
- 162:
+ 158:
                 return entity;
             }
         };
@@ -647,7 +647,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = oscard.addEventListener;
                 tangon = 'register';
                 tangon = report.bind(oscard)(tangon, golfie);
-                _fun00038_ip = 126; continue _fun00037;
+                _fun00038_ip = 124; continue _fun00037;
  84:
                 oscard = _closure1_slot4;
                 report = oscard.addListener;
@@ -664,7 +664,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = _closure1_slot3;
                 michal = zuuluu.registerEventListener;
                 michal = michal.bind(zuuluu)(tangon);
- 126:
+ 124:
                 return entity;
             }
         };
@@ -691,7 +691,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  46:
                     tangon = false;
                     tangon = report.bind(entity)(tangon);
-                    _fun00040_ip = 86; continue _fun00039;
+                    _fun00040_ip = 84; continue _fun00039;
  55:
                     tangon = _closure1_slot3;
                     zuuluu = tangon.getSoundsEnabled;
@@ -705,7 +705,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     michal = zuuluu.bind(tangon)(michal);
- 86:
+ 84:
                     return entity;
                 }
             };
@@ -737,7 +737,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  46:
                     tangon = false;
                     tangon = report.bind(entity)(tangon);
-                    _fun00042_ip = 86; continue _fun00041;
+                    _fun00042_ip = 84; continue _fun00041;
  55:
                     tangon = _closure1_slot3;
                     zuuluu = tangon.getVibrationsEnabled;
@@ -751,7 +751,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     michal = zuuluu.bind(tangon)(michal);
- 86:
+ 84:
                     return entity;
                 }
             };
@@ -783,7 +783,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  46:
                     tangon = false;
                     tangon = report.bind(entity)(tangon);
-                    _fun00044_ip = 86; continue _fun00043;
+                    _fun00044_ip = 84; continue _fun00043;
  55:
                     tangon = _closure1_slot3;
                     zuuluu = tangon.getLightsEnabled;
@@ -797,7 +797,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     michal = zuuluu.bind(tangon)(michal);
- 86:
+ 84:
                     return entity;
                 }
             };
@@ -917,7 +917,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  46:
                     tangon = false;
                     tangon = report.bind(entity)(tangon);
-                    _fun00054_ip = 88; continue _fun00053;
+                    _fun00054_ip = 86; continue _fun00053;
  55:
                     tangon = _closure1_slot3;
                     zuuluu = tangon.shouldNotifyEveryTime;
@@ -931,7 +931,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     michal = zuuluu.bind(tangon)(michal);
- 88:
+ 86:
                     return entity;
                 }
             };

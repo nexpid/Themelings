@@ -779,8 +779,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             sizing = kiloes.FormHint;
             kiloes = {};
             result = null;
-            if(echoed) { _fun00002_ip = 1838; continue _fun00001 }
- 1827:
+            if(echoed) { _fun00002_ip = 1840; continue _fun00001 }
+ 1829:
             echoed = function() { // Original name: renderNitroUpsellText
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -902,7 +902,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             result = echoed.bind(tangon)();
- 1838:
+ 1840:
             kiloes['children'] = result;
             kiloes = output.bind(tangon)(sizing, kiloes);
             romeon[2] = kiloes;

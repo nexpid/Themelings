@@ -734,7 +734,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity.length;
             michal = 0;
             entity = null;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 2320; continue _fun00003 }
+            if(!(michal !== zuuluu)) { _fun00004_ip = 2324; continue _fun00003 }
  1586:
             tangon = _closure1_slot24;
             zuuluu = _closure1_slot0;
@@ -905,22 +905,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = 'lg';
             foxtra['size'] = result;
             ctrled = 'primary-overlay';
-            if(!echoed) { _fun00004_ip = 2007; continue _fun00003 }
- 2003:
-            ctrled = 'secondary';
+            if(!echoed) { _fun00004_ip = 2011; continue _fun00003 }
  2007:
+            ctrled = 'secondary';
+ 2011:
             foxtra['variant'] = ctrled;
             ctrled = _closure1_slot1;
             config = _closure1_slot2;
-            if(echoed) { _fun00004_ip = 2031; continue _fun00003 }
- 2022:
+            if(echoed) { _fun00004_ip = 2035; continue _fun00003 }
+ 2026:
             echoed = 50;
             echoed = config[echoed];
-            _fun00004_ip = 2038; continue _fun00003;
- 2031:
+            _fun00004_ip = 2042; continue _fun00003;
+ 2035:
             vacuum = 49;
             echoed = config[vacuum];
- 2038:
+ 2042:
             echoed = ctrled.bind(report)(echoed);
             foxtra['icon'] = echoed;
             kiloes = sizing.bind(report)(kiloes, foxtra);
@@ -980,7 +980,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 2320:
+ 2324:
             return entity;
         }
     };

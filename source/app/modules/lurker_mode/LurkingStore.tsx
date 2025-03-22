@@ -14,7 +14,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argBar;
             verify = michal.bind(zuuluu)(entity);
             michal = _closure1_slot2;
-            entity = _closure1_slot15;
+            entity = _closure1_slot14;
             entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot13 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -71,13 +71,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot15 = michal;
+            _closure1_slot14 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot15 = entity;
+    var _closure1_slot14 = entity;
     entity = function(argFoo) { // Original name: removeLurkedGuild
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot16 = entity;
+    var _closure1_slot15 = entity;
     entity = function(argFoo) { // Original name: addLurkingGuild
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot17 = entity;
+    var _closure1_slot16 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -192,7 +192,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot11 = michal;
     michal = null;
     var _closure1_slot12 = michal;
-    var _closure1_slot13 = michal;
     michal = 9;
     michal = oscard[michal];
     michal = golfie.bind(entity)(michal);
@@ -205,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = _closure1_slot0;
             zuuluu = _closure2_slot0;
             oscard = oscard.bind(tangon)(report, zuuluu);
-            michal = _closure1_slot14;
+            michal = _closure1_slot13;
             entity = arguments;
             entity = michal.bind(tangon)(report, zuuluu, entity);
             return entity;
@@ -229,28 +228,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(8);
+        entity = new Array(6);
         entity[0] = report;
-        report = {};
-        golfie = 'setHistorySnapshot';
-        report['key'] = golfie;
-        golfie = function(argFoo) { // Original name: value
-            entity = argFoo;
-            _closure1_slot12 = entity;
-            entity = undefined;
-            return entity;
-        };
-        report['value'] = golfie;
-        entity[1] = report;
-        report = {};
-        golfie = 'getHistorySnapshot';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            entity = _closure1_slot12;
-            return entity;
-        };
-        report['value'] = golfie;
-        entity[2] = report;
         report = {};
         golfie = 'lurkingGuildIds';
         report['key'] = golfie;
@@ -259,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[3] = report;
+        entity[1] = report;
         report = {};
         golfie = 'mostRecentLurkedGuildId';
         report['key'] = golfie;
@@ -282,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[4] = report;
+        entity[2] = report;
         report = {};
         golfie = 'isLurking';
         report['key'] = golfie;
@@ -317,16 +296,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[5] = report;
+        entity[3] = report;
         report = {};
         golfie = 'getLurkingSource';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot13;
+            entity = _closure1_slot12;
             return entity;
         };
         report['value'] = golfie;
-        entity[6] = report;
+        entity[4] = report;
         report = {};
         golfie = 'getLoadId';
         report['key'] = golfie;
@@ -345,7 +324,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = oscard;
-        entity[7] = report;
+        entity[5] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -410,7 +389,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = false;
             return entity;
  38:
-            tangon = _closure1_slot17;
+            tangon = _closure1_slot16;
             entity = undefined;
             entity = tangon.bind(entity)(golfie);
             entity = null;
@@ -427,7 +406,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.DIRECTORY_ENTRY;
             if(!(tangon !== report)) { _fun00018_ip = 100; continue _fun00017 }
  94:
-            _closure1_slot13 = entity;
+            _closure1_slot12 = entity;
             _fun00018_ip = 147; continue _fun00017;
  100:
             entity = {};
@@ -435,14 +414,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.DIRECTORY_ENTRY;
             entity['type'] = tangon;
             entity['directoryChannelId'] = zuuluu;
-            _closure1_slot13 = entity;
+            _closure1_slot12 = entity;
             _fun00018_ip = 147; continue _fun00017;
  127:
             entity = {};
             zuuluu = _closure1_slot8;
             zuuluu = zuuluu.MOBILE_GUILD_DISCOVERY;
             entity['type'] = zuuluu;
-            _closure1_slot13 = entity;
+            _closure1_slot12 = entity;
  147:
             entity = true;
             return entity;
@@ -493,7 +472,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             entity = zuuluu;
                             if(michal) { _fun00024_ip = 52; continue _fun00023 }
  29:
-                            tangon = _closure1_slot16;
+                            tangon = _closure1_slot15;
                             michal = undefined;
                             michal = tangon.bind(michal)(report);
                             if(michal) { _fun00024_ip = 49; continue _fun00023 }
@@ -512,12 +491,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             entity = undefined;
             entity = michal.bind(entity)(zuuluu);
-            if(!entity) { _fun00020_ip = 39; continue _fun00019 }
+            if(!entity) { _fun00020_ip = 35; continue _fun00019 }
  26:
             michal = null;
             _closure1_slot12 = michal;
-            _closure1_slot13 = michal;
- 39:
+ 35:
             return entity;
         }
     };
@@ -526,10 +504,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = argFoo;
         report = entity.lurkingGuildId;
         michal = entity.lurkingSource;
-        tangon = _closure1_slot17;
+        tangon = _closure1_slot16;
         zuuluu = undefined;
         zuuluu = tangon.bind(zuuluu)(report);
-        _closure1_slot13 = michal;
+        _closure1_slot12 = michal;
         entity = true;
         return entity;
     };
@@ -551,16 +529,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = !entity;
  48:
             entity = !michal;
-            if(michal) { _fun00026_ip = 83; continue _fun00025 }
+            if(michal) { _fun00026_ip = 79; continue _fun00025 }
  54:
-            oscard = _closure1_slot16;
+            oscard = _closure1_slot15;
             report = tangon.id;
             tangon = undefined;
             tangon = oscard.bind(tangon)(report);
             _closure1_slot12 = zuuluu;
-            _closure1_slot13 = zuuluu;
             entity = true;
- 83:
+ 79:
             return entity;
         }
     };
@@ -576,17 +553,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = tangon.bind(report)(entity);
             tangon = !entity;
             entity = !tangon;
-            if(tangon) { _fun00028_ip = 67; continue _fun00027 }
+            if(tangon) { _fun00028_ip = 63; continue _fun00027 }
  39:
-            report = _closure1_slot16;
+            report = _closure1_slot15;
             tangon = michal.id;
             michal = undefined;
             michal = report.bind(michal)(tangon);
             michal = null;
             _closure1_slot12 = michal;
-            _closure1_slot13 = michal;
             entity = true;
- 67:
+ 63:
             return entity;
         }
     };
@@ -623,14 +599,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = !entity;
  89:
             entity = !tangon;
-            if(tangon) { _fun00030_ip = 114; continue _fun00029 }
+            if(tangon) { _fun00030_ip = 110; continue _fun00029 }
  95:
-            tangon = _closure1_slot16;
+            tangon = _closure1_slot15;
             tangon = tangon.bind(report)(oscard);
             _closure1_slot12 = michal;
-            _closure1_slot13 = michal;
             entity = true;
- 114:
+ 110:
             return entity;
         }
     };

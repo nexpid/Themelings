@@ -125,18 +125,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = null;
             offset = zuuluu == oscard;
             yankee = undefined;
-            if(offset) { _fun00002_ip = 176; continue _fun00001 }
- 171:
+            if(offset) { _fun00002_ip = 170; continue _fun00001 }
+ 165:
             yankee = oscard.type;
- 176:
+ 170:
             zuuluu = zuuluu != yankee;
-            if(!zuuluu) { _fun00002_ip = 203; continue _fun00001 }
- 183:
+            if(!zuuluu) { _fun00002_ip = 197; continue _fun00001 }
+ 177:
             verify = _closure1_slot12;
             offset = verify.CALLABLE;
             verify = offset.has;
             zuuluu = verify.bind(offset)(yankee);
- 203:
+ 197:
             michal = function(argFoo) { // Original name: useCanRingToGuildVoiceChannel
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -231,10 +231,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = null;
                     verify = option == golfie;
                     entity = undefined;
-                    if(verify) { _fun00004_ip = 163; continue _fun00003 }
- 158:
+                    if(verify) { _fun00004_ip = 159; continue _fun00003 }
+ 154:
                     entity = golfie.id;
- 163:
+ 159:
                     entity = michal.bind(oscard)(entity);
                     michal = entity.needSubscriptionToAccess;
                     verify = _closure1_slot1;
@@ -246,70 +246,70 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = {};
                     foxtra = option == golfie;
                     romeon = undefined;
-                    if(foxtra) { _fun00004_ip = 216; continue _fun00003 }
- 211:
+                    if(foxtra) { _fun00004_ip = 212; continue _fun00003 }
+ 207:
                     romeon = golfie.guild_id;
- 216:
+ 212:
                     entity['guildId'] = romeon;
                     entity['location'] = yankee;
                     entity = verify.bind(offset)(entity);
                     entity = entity.enabled;
                     option = option == golfie;
                     oscard = undefined;
-                    if(option) { _fun00004_ip = 248; continue _fun00003 }
- 243:
+                    if(option) { _fun00004_ip = 244; continue _fun00003 }
+ 239:
                     oscard = golfie.type;
- 248:
+ 244:
                     report = _closure1_slot11;
                     report = report.GUILD_VOICE;
                     report = oscard === report;
-                    if(!entity) { _fun00004_ip = 268; continue _fun00003 }
- 265:
+                    if(!entity) { _fun00004_ip = 264; continue _fun00003 }
+ 261:
                     entity = report;
- 268:
-                    if(!entity) { _fun00004_ip = 274; continue _fun00003 }
- 271:
+ 264:
+                    if(!entity) { _fun00004_ip = 270; continue _fun00003 }
+ 267:
                     entity = tangon;
- 274:
-                    if(!entity) { _fun00004_ip = 280; continue _fun00003 }
- 277:
+ 270:
+                    if(!entity) { _fun00004_ip = 276; continue _fun00003 }
+ 273:
                     entity = zuuluu;
- 280:
-                    if(!entity) { _fun00004_ip = 286; continue _fun00003 }
- 283:
+ 276:
+                    if(!entity) { _fun00004_ip = 282; continue _fun00003 }
+ 279:
                     entity = !michal;
- 286:
+ 282:
                     return entity;
                 }
             };
             michal = michal.bind(golfie)(tangon, option, oscard);
-            if(!entity) { _fun00002_ip = 223; continue _fun00001 }
- 220:
+            if(!entity) { _fun00002_ip = 215; continue _fun00001 }
+ 212:
             entity = !report;
- 223:
-            if(!entity) { _fun00002_ip = 235; continue _fun00001 }
- 226:
+ 215:
+            if(!entity) { _fun00002_ip = 227; continue _fun00001 }
+ 218:
             report = tangon.bot;
             entity = !report;
- 235:
-            if(!entity) { _fun00002_ip = 247; continue _fun00001 }
- 238:
+ 227:
+            if(!entity) { _fun00002_ip = 239; continue _fun00001 }
+ 230:
             report = tangon.system;
             entity = !report;
- 247:
-            if(!entity) { _fun00002_ip = 259; continue _fun00001 }
- 250:
+ 239:
+            if(!entity) { _fun00002_ip = 251; continue _fun00001 }
+ 242:
             tangon = tangon.isProvisional;
             entity = !tangon;
- 259:
-            if(!entity) { _fun00002_ip = 271; continue _fun00001 }
- 262:
-            if(michal) { _fun00002_ip = 268; continue _fun00001 }
- 265:
+ 251:
+            if(!entity) { _fun00002_ip = 263; continue _fun00001 }
+ 254:
+            if(michal) { _fun00002_ip = 260; continue _fun00001 }
+ 257:
             michal = zuuluu;
- 268:
+ 260:
             entity = michal;
- 271:
+ 263:
             return entity;
         }
     };

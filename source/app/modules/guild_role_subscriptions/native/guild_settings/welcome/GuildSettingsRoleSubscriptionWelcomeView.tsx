@@ -916,10 +916,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             vacuum = output.id;
             entity = null;
             vacuum = entity == vacuum;
-            if(vacuum) { _fun00012_ip = 464; continue _fun00011 }
- 460:
+            if(vacuum) { _fun00012_ip = 466; continue _fun00011 }
+ 462:
             vacuum = entity == foxtra;
- 464:
+ 466:
             golfie['disableTrack'] = vacuum;
             golfie = ctrled.bind(report)(echoed, golfie);
             echoed = _closure1_slot5;
@@ -1022,14 +1022,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             update = update.bind(source)(offset, echoed);
-            if(verify) { _fun00012_ip = 1398; continue _fun00011 }
- 634:
-            if(!(entity != foxtra)) { _fun00012_ip = 1398; continue _fun00011 }
- 641:
-            if(oscard) { _fun00012_ip = 1398; continue _fun00011 }
- 647:
-            if(!(entity != tangon)) { _fun00012_ip = 743; continue _fun00011 }
- 651:
+            if(verify) { _fun00012_ip = 1400; continue _fun00011 }
+ 636:
+            if(!(entity != foxtra)) { _fun00012_ip = 1400; continue _fun00011 }
+ 643:
+            if(oscard) { _fun00012_ip = 1400; continue _fun00011 }
+ 649:
+            if(!(entity != tangon)) { _fun00012_ip = 745; continue _fun00011 }
+ 653:
             tangon = _closure1_slot2;
             source = _closure1_slot3;
             entity = 35;
@@ -1050,7 +1050,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity = tangon.bind(oscard)(entity);
             entity = zuuluu.pop;
             entity = entity.bind(zuuluu)();
- 743:
+ 745:
             tangon = _closure1_slot12;
             variable36 = _closure1_slot0;
             variable37 = _closure1_slot3;
@@ -1136,8 +1136,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             cntext = target.bind(report)(papara, cntext);
             record[1] = cntext;
             limora = _closure1_slot11;
-            if(option) { _fun00012_ip = 1194; continue _fun00011 }
- 1136:
+            if(option) { _fun00012_ip = 1196; continue _fun00011 }
+ 1138:
             papara = _closure1_slot17;
             cntext = {};
             target = result.startEarningButtonContainer;
@@ -1150,8 +1150,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             cntext['eligibility'] = foxtra;
             cntext['acceptTermsCheckboxText'] = romeon;
             cntext = limora.bind(report)(papara, cntext);
-            _fun00012_ip = 1226; continue _fun00011;
- 1194:
+            _fun00012_ip = 1228; continue _fun00011;
+ 1196:
             target = _closure1_slot15;
             papara = {};
             equals = result.statusNoticeContainer;
@@ -1160,7 +1160,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             variable39 = whisks;
             whisks = copyDataProperties(variable40, variable39);
             cntext = limora.bind(report)(target, papara);
- 1226:
+ 1228:
             record[2] = cntext;
             target = _closure1_slot11;
             papara = _closure1_slot18;
@@ -1178,16 +1178,16 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             verify = offset.bind(report)(verify, oscard);
             oscard = new Array(2);
             oscard[0] = verify;
-            if(!golfie) { _fun00012_ip = 1308; continue _fun00011 }
- 1305:
+            if(!golfie) { _fun00012_ip = 1310; continue _fun00011 }
+ 1307:
             golfie = backup;
- 1308:
-            if(!golfie) { _fun00012_ip = 1314; continue _fun00011 }
- 1311:
+ 1310:
+            if(!golfie) { _fun00012_ip = 1316; continue _fun00011 }
+ 1313:
             golfie = !option;
- 1314:
-            if(!golfie) { _fun00012_ip = 1382; continue _fun00011 }
- 1317:
+ 1316:
+            if(!golfie) { _fun00012_ip = 1384; continue _fun00011 }
+ 1319:
             offset = _closure1_slot11;
             verify = _closure1_slot17;
             option = {};
@@ -1202,12 +1202,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             option['acceptTermsCheckboxText'] = romeon;
             option['isFab'] = yankee;
             golfie = offset.bind(report)(verify, option);
- 1382:
+ 1384:
             oscard[1] = golfie;
             entity['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00012_ip = 1430; continue _fun00011;
- 1398:
+            _fun00012_ip = 1432; continue _fun00011;
+ 1400:
             tangon = _closure1_slot11;
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot3;
@@ -1216,7 +1216,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = zuuluu.bind(report)(michal);
             michal = {};
             entity = tangon.bind(report)(zuuluu, michal);
- 1430:
+ 1432:
             return entity;
         }
     };

@@ -960,16 +960,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         option = _closure2_slot4;
                         tangon['channel'] = option;
                         option = _closure2_slot7;
-                        if(option) { _fun00016_ip = 80; continue _fun00015 }
- 76:
+                        if(option) { _fun00016_ip = 79; continue _fun00015 }
+ 75:
                         option = _closure2_slot8;
- 80:
+ 79:
                         tangon['canMentionEveryone'] = option;
                         option = _closure2_slot7;
-                        if(option) { _fun00016_ip = 96; continue _fun00015 }
- 92:
+                        if(option) { _fun00016_ip = 95; continue _fun00015 }
+ 91:
                         option = _closure2_slot8;
- 96:
+ 95:
                         tangon['canMentionHere'] = option;
                         option = true;
                         tangon['canMentionUsers'] = option;

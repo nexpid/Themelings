@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 264; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 263; continue _fun00001 }
  10:
                     oscard = argFoo;
  13: // try_start_0
@@ -77,13 +77,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = true;
                     michal['rejectWithError'] = verify;
                     michal = tangon.bind(option)(michal);
-                    SaveGenerator(address=146);
- 144:
+                    SaveGenerator(address=145);
+ 143:
                     return michal;
- 146:
+ 145:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 207; continue _fun00001 }
- 152:
+                    if(tangon) { _fun00002_ip = 206; continue _fun00001 }
+ 151:
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
                     zuuluu = zuuluu[golfie];
@@ -96,11 +96,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = michal.body;
                     zuuluu['entries'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
- 205: // try_end0
-                    _fun00002_ip = 259; continue _fun00001;
- 207:
+ 204: // try_end0
+                    _fun00002_ip = 258; continue _fun00001;
+ 206:
                     return michal;
- 210: // catch_target0
+ 209: // catch_target0
                     CatchBlockStart(arg_register=1);
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -113,10 +113,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = 'EVENT_DIRECTORY_FETCH_FAILURE';
                     michal['type'] = report;
                     michal = zuuluu.bind(tangon)(michal);
- 259:
+ 258:
                     michal = undefined;
                     return michal;
- 264:
+ 263:
                     return entity;
                 }
             };

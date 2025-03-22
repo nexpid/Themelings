@@ -201,12 +201,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 zuuluu = _closure1_slot0;
                                 tangon = _closure1_slot2;
                                 entity = 15;
-                                report = tangon[entity];
+                                michal = tangon[entity];
                                 entity = undefined;
-                                golfie = zuuluu.bind(entity)(report);
+                                golfie = zuuluu.bind(entity)(michal);
                                 oscard = golfie.trackPaneViewed;
+                                michal = {};
                                 report = _closure1_slot7;
-                                michal = report.GUILD_BOOSTING;
+                                option = report.GUILD_BOOSTING;
+                                michal['destinationPane'] = option;
                                 michal = oscard.bind(golfie)(michal);
                                 michal = 8;
                                 michal = tangon[michal];

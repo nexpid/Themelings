@@ -137,13 +137,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing['onPress'] = option;
             sizing['activeOpacity'] = update;
             echoed = !echoed;
-            if(!echoed) { _fun00002_ip = 420; continue _fun00001 }
- 404:
+            if(!echoed) { _fun00002_ip = 428; continue _fun00001 }
+ 412:
             ctrled = _closure1_slot13;
             source = _closure1_slot17;
             update = {};
             echoed = ctrled.bind(tangon)(source, update);
- 420:
+ 428:
             sizing['children'] = echoed;
             sizing = result.bind(tangon)(output, sizing);
             kiloes[1] = sizing;

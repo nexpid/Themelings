@@ -673,36 +673,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     tangon = zuuluu.bind(tangon)(entity);
                     oscard = _closure1_slot1;
-                    option = _closure1_slot2;
+                    golfie = _closure1_slot2;
                     entity = 30;
-                    report = option[entity];
+                    report = golfie[entity];
                     entity = undefined;
                     verify = oscard.bind(entity)(report);
-                    golfie = verify.setSection;
-                    report = _closure1_slot16;
-                    oscard = report.GUILD_BOOSTING;
-                    oscard = golfie.bind(verify)(oscard);
-                    golfie = _closure1_slot0;
-                    oscard = 31;
-                    oscard = option[oscard];
-                    golfie = golfie.bind(entity)(oscard);
+                    oscard = verify.setSection;
+                    option = _closure1_slot16;
+                    report = option.GUILD_BOOSTING;
+                    report = oscard.bind(verify)(report);
+                    oscard = _closure1_slot0;
+                    report = 31;
+                    report = golfie[report];
+                    golfie = oscard.bind(entity)(report);
                     oscard = golfie.trackPaneViewed;
-                    report = report.GUILD_BOOSTING;
+                    report = {};
+                    option = option.GUILD_BOOSTING;
+                    report['destinationPane'] = option;
                     report = oscard.bind(golfie)(report);
                     report = null;
-                    if(!(report == tangon)) { _fun00012_ip = 151; continue _fun00011 }
- 125:
+                    if(!(report == tangon)) { _fun00012_ip = 158; continue _fun00011 }
+ 132:
                     oscard = _closure2_slot6;
                     report = oscard.push;
                     zuuluu = _closure1_slot16;
                     zuuluu = zuuluu.GUILD_BOOSTING;
                     zuuluu = report.bind(oscard)(zuuluu);
-                    _fun00012_ip = 166; continue _fun00011;
- 151:
+                    _fun00012_ip = 173; continue _fun00011;
+ 158:
                     zuuluu = _closure2_slot6;
                     michal = zuuluu.navigate;
                     michal = michal.bind(zuuluu)(tangon);
- 166:
+ 173:
                     return entity;
                 }
             };

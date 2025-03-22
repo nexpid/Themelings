@@ -295,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00012_ip = 171; continue _fun00011 }
+                    if(michal) { _fun00012_ip = 170; continue _fun00011 }
  10:
                     option = argFoo;
  13: // try_start_0
@@ -317,13 +317,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = true;
                     michal['rejectWithError'] = golfie;
                     michal = tangon.bind(oscard)(michal);
-                    SaveGenerator(address=93);
- 91:
+                    SaveGenerator(address=92);
+ 90:
                     return michal;
- 93:
+ 92:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00012_ip = 161; continue _fun00011 }
- 99:
+                    if(tangon) { _fun00012_ip = 160; continue _fun00011 }
+ 98:
                     tangon = _closure1_slot1;
                     oscard = _closure1_slot2;
                     zuuluu = 4;
@@ -337,16 +337,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = oscard.eligible_guilds;
                     zuuluu['eligibleGuilds'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
- 159: // try_end0
-                    _fun00012_ip = 166; continue _fun00011;
- 161:
+ 158: // try_end0
+                    _fun00012_ip = 165; continue _fun00011;
+ 160:
                     return michal;
- 164: // catch_target0
+ 163: // catch_target0
                     CatchBlockStart(arg_register=1);
- 166:
+ 165:
                     michal = undefined;
                     return michal;
- 171:
+ 170:
                     return entity;
                 }
             };

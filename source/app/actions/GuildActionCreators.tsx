@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = argFoo;
                     tangon = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 1246; continue _fun00001 }
+                    if(report) { _fun00002_ip = 1245; continue _fun00001 }
  18:
                     golfie = michal;
                     var _closure4_slot0 = michal;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return report;
  69:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=10);
-                    if(yankee) { _fun00002_ip = 1243; continue _fun00001 }
+                    if(yankee) { _fun00002_ip = 1242; continue _fun00001 }
  78:
                     yankee = tangon.source;
                     source = yankee;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  180:
                     if(!(yankee != foxtra)) { _fun00002_ip = 190; continue _fun00001 }
  184:
-                    if(foxtra) { _fun00002_ip = 1183; continue _fun00001 }
+                    if(foxtra) { _fun00002_ip = 1182; continue _fun00001 }
  190:
                     sizing = _closure1_slot1;
                     foxtra = _closure1_slot3;
@@ -181,18 +181,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     update = false;
                     foxtra['rejectWithError'] = update;
                     foxtra = sizing.bind(output)(foxtra);
-                    SaveGenerator(address=462);
- 460:
+                    SaveGenerator(address=461);
+ 459:
                     return foxtra;
- 462:
+ 461:
                     ResumeGenerator(result_out_reg=12, return_bool_out_reg=15);
-                    if(sizing) { _fun00002_ip = 930; continue _fun00001 }
- 471:
+                    if(sizing) { _fun00002_ip = 929; continue _fun00001 }
+ 470:
                     kiloes = foxtra;
                     sizing = foxtra.body;
                     sizing = sizing.join_request;
-                    if(!(yankee != sizing)) { _fun00002_ip = 554; continue _fun00001 }
- 489:
+                    if(!(yankee != sizing)) { _fun00002_ip = 553; continue _fun00001 }
+ 488:
                     output = _closure1_slot1;
                     sizing = _closure1_slot3;
                     sizing = sizing[result];
@@ -208,23 +208,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     source = source.join_request;
                     sizing['request'] = source;
                     sizing = output.bind(update)(sizing);
- 554:
+ 553:
                     update = _closure1_slot10;
                     output = update.getGuild;
                     sizing = golfie;
                     sizing = output.bind(update)(sizing);
-                    if(!(yankee == sizing)) { _fun00002_ip = 597; continue _fun00001 }
- 575:
+                    if(!(yankee == sizing)) { _fun00002_ip = 596; continue _fun00001 }
+ 574:
                     sizing = kiloes;
                     sizing = sizing.body;
                     sizing = sizing.show_verification_form;
-                    if(sizing) { _fun00002_ip = 878; continue _fun00001 }
- 597:
+                    if(sizing) { _fun00002_ip = 877; continue _fun00001 }
+ 596:
                     sizing = kiloes;
                     sizing = sizing.body;
                     sizing = sizing.welcome_screen;
-                    if(!(yankee != sizing)) { _fun00002_ip = 687; continue _fun00001 }
- 615:
+                    if(!(yankee != sizing)) { _fun00002_ip = 686; continue _fun00001 }
+ 614:
                     output = _closure1_slot1;
                     sizing = _closure1_slot3;
                     sizing = sizing[result];
@@ -241,12 +241,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     source = source.welcome_screen;
                     sizing['welcomeScreen'] = source;
                     sizing = output.bind(update)(sizing);
- 687:
+ 686:
                     sizing = kiloes;
                     sizing = sizing.body;
                     sizing = sizing.approximate_presence_count;
-                    if(!(yankee != sizing)) { _fun00002_ip = 776; continue _fun00001 }
- 705:
+                    if(!(yankee != sizing)) { _fun00002_ip = 775; continue _fun00001 }
+ 704:
                     output = _closure1_slot1;
                     sizing = _closure1_slot3;
                     sizing = sizing[result];
@@ -263,10 +263,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     update = update.approximate_presence_count;
                     sizing['count'] = update;
                     sizing = output.bind(result)(sizing);
- 776:
+ 775:
                     sizing = offset;
-                    if(sizing) { _fun00002_ip = 872; continue _fun00001 }
- 782:
+                    if(sizing) { _fun00002_ip = 871; continue _fun00001 }
+ 781:
                     result = _closure1_slot0;
                     sizing = _closure1_slot3;
                     output = 17;
@@ -276,34 +276,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     output = sizing[output];
                     sizing = sizing.paths;
                     sizing = result.bind(report)(output, sizing);
-                    SaveGenerator(address=824);
- 822:
+                    SaveGenerator(address=823);
+ 821:
                     return sizing;
- 824:
+ 823:
                     ResumeGenerator(result_out_reg=15, return_bool_out_reg=16);
-                    if(output) { _fun00002_ip = 869; continue _fun00001 }
- 830:
+                    if(output) { _fun00002_ip = 868; continue _fun00001 }
+ 829:
                     result = sizing.default;
                     output = {};
                     update = golfie;
                     output['guildId'] = update;
                     output['returnChannelId'] = echoed;
                     output = result.bind(report)(output);
-                    SaveGenerator(address=860);
- 858:
+                    SaveGenerator(address=859);
+ 857:
                     return output;
- 860:
+ 859:
                     ResumeGenerator(result_out_reg=16, return_bool_out_reg=17);
-                    if(!result) { _fun00002_ip = 872; continue _fun00001 }
- 866: // try_end0
+                    if(!result) { _fun00002_ip = 871; continue _fun00001 }
+ 865: // try_end0
                     return output;
- 869:
+ 868:
                     return sizing;
- 872: // try_start_1
+ 871: // try_start_1
                     sizing = kiloes;
- 875: // try_end1
+ 874: // try_end1
                     return sizing;
- 878: // try_start_2
+ 877: // try_start_2
                     output = _closure1_slot0;
                     result = _closure1_slot3;
                     sizing = 15;
@@ -315,25 +315,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sizing = golfie;
                     sizing = echoed.bind(update)(sizing);
                     sizing = output.bind(result)(sizing);
- 927: // try_end2
+ 926: // try_end2
                     return kiloes;
- 930:
+ 929:
                     return foxtra;
- 933: // catch_target0 // catch_target1 // catch_target2
+ 932: // catch_target0 // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=12);
                     oscard = foxtra;
                     foxtra = foxtra.body;
                     romeon = foxtra;
                     kiloes = yankee == foxtra;
                     foxtra = undefined;
-                    if(kiloes) { _fun00002_ip = 960; continue _fun00001 }
- 955:
+                    if(kiloes) { _fun00002_ip = 959; continue _fun00001 }
+ 954:
                     foxtra = romeon.code;
- 960:
+ 959:
                     romeon = _closure1_slot14;
                     romeon = romeon.TOO_MANY_USER_GUILDS;
-                    if(!(foxtra === romeon)) { _fun00002_ip = 1077; continue _fun00001 }
- 974:
+                    if(!(foxtra === romeon)) { _fun00002_ip = 1076; continue _fun00001 }
+ 973:
                     foxtra = _closure1_slot13;
                     romeon = foxtra.getCurrentUser;
                     sizing = romeon.bind(foxtra)();
@@ -346,68 +346,68 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     foxtra = kiloes.canUseIncreasedGuildCap;
                     foxtra = foxtra.bind(kiloes)(sizing);
                     romeon = foxtra;
-                    if(foxtra) { _fun00002_ip = 1055; continue _fun00001 }
- 1027:
+                    if(foxtra) { _fun00002_ip = 1054; continue _fun00001 }
+ 1026:
                     foxtra = backup;
                     kiloes = yankee == foxtra;
                     foxtra = undefined;
-                    if(kiloes) { _fun00002_ip = 1052; continue _fun00001 }
- 1039:
+                    if(kiloes) { _fun00002_ip = 1051; continue _fun00001 }
+ 1038:
                     kiloes = backup;
                     backup = kiloes.isStaff;
                     foxtra = backup.bind(kiloes)();
- 1052:
+ 1051:
                     romeon = foxtra;
- 1055:
+ 1054:
                     foxtra = _closure1_slot21;
-                    if(romeon) { _fun00002_ip = 1068; continue _fun00001 }
- 1062:
+                    if(romeon) { _fun00002_ip = 1067; continue _fun00001 }
+ 1061:
                     romeon = _closure1_slot17;
-                    _fun00002_ip = 1072; continue _fun00001;
- 1068:
+                    _fun00002_ip = 1071; continue _fun00001;
+ 1067:
                     romeon = _closure1_slot18;
- 1072:
+ 1071:
                     romeon = foxtra.bind(report)(romeon);
- 1077:
+ 1076:
                     romeon = oscard;
                     romeon = romeon.body;
                     option = romeon;
                     foxtra = yankee == romeon;
                     romeon = undefined;
-                    if(foxtra) { _fun00002_ip = 1102; continue _fun00001 }
- 1097:
+                    if(foxtra) { _fun00002_ip = 1101; continue _fun00001 }
+ 1096:
                     romeon = option.code;
- 1102:
+ 1101:
                     option = _closure1_slot14;
                     option = option.GUILD_AT_CAPACITY;
-                    if(!(romeon === option)) { _fun00002_ip = 1124; continue _fun00001 }
- 1116:
+                    if(!(romeon === option)) { _fun00002_ip = 1123; continue _fun00001 }
+ 1115:
                     option = _closure1_slot23;
                     option = option.bind(report)();
- 1124:
+ 1123:
                     option = offset;
-                    if(!offset) { _fun00002_ip = 1169; continue _fun00001 }
- 1130:
+                    if(!offset) { _fun00002_ip = 1168; continue _fun00001 }
+ 1129:
                     offset = oscard;
                     offset = offset.body;
                     verify = offset;
                     yankee = yankee == offset;
                     offset = undefined;
-                    if(yankee) { _fun00002_ip = 1155; continue _fun00001 }
- 1150:
+                    if(yankee) { _fun00002_ip = 1154; continue _fun00001 }
+ 1149:
                     offset = verify.code;
- 1155:
+ 1154:
                     verify = _closure1_slot14;
                     verify = verify.UNKNOWN_GUILD;
                     option = offset === verify;
- 1169:
-                    if(!option) { _fun00002_ip = 1181; continue _fun00001 }
- 1172:
+ 1168:
+                    if(!option) { _fun00002_ip = 1180; continue _fun00001 }
+ 1171:
                     option = _closure1_slot22;
                     golfie = option.bind(report)(golfie);
- 1181:
+ 1180:
                     throw oscard;
- 1183:
+ 1182:
                     oscard = _closure1_slot1;
                     golfie = _closure1_slot3;
                     tangon = 13;
@@ -435,9 +435,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = new target[report](papara, cntext);
                     zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
                     return zuuluu;
- 1243:
+ 1242:
                     return michal;
- 1246:
+ 1245:
                     return entity;
                 }
             };
@@ -2085,7 +2085,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00036_ip = 160; continue _fun00035 }
+                        if(michal) { _fun00036_ip = 159; continue _fun00035 }
  10:
                         oscard = {};
                         michal = _closure2_slot1;
@@ -2138,17 +2138,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return entity;
                         };
                         michal = tangon.bind(report)(michal);
-                        SaveGenerator(address=148);
- 146:
+                        SaveGenerator(address=147);
+ 145:
                         return michal;
- 148:
+ 147:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tangon) { _fun00036_ip = 157; continue _fun00035 }
- 154:
+                        if(tangon) { _fun00036_ip = 156; continue _fun00035 }
+ 153:
                         return zuuluu;
- 157:
+ 156:
                         return michal;
- 160:
+ 159:
                         return entity;
                     }
                 };
@@ -2183,7 +2183,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00040_ip = 230; continue _fun00039 }
+                        if(michal) { _fun00040_ip = 229; continue _fun00039 }
  10:
                         oscard = {};
                         michal = _closure2_slot3;
@@ -2260,17 +2260,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return entity;
                         };
                         michal = tangon.bind(report)(michal);
-                        SaveGenerator(address=218);
- 216:
+                        SaveGenerator(address=217);
+ 215:
                         return michal;
- 218:
+ 217:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tangon) { _fun00040_ip = 227; continue _fun00039 }
- 224:
+                        if(tangon) { _fun00040_ip = 226; continue _fun00039 }
+ 223:
                         return zuuluu;
- 227:
+ 226:
                         return michal;
- 230:
+ 229:
                         return entity;
                     }
                 };

@@ -554,7 +554,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = 26;
                 option = tangon[option];
                 verify = verify.bind(zuuluu)(option);
-                option = verify.getStreamContext;
+                option = verify.getStreamErrorContext;
                 michal = michal.streamKey;
                 michal = option.bind(verify)(michal);
                 michal = oscard.bind(golfie)(report, michal);

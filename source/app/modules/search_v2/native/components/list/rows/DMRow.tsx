@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = entity.bind(report)();
             entity = _closure1_slot12;
             entity = entity.PENDING_INCOMING;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 146; continue _fun00001 }
+            if(!(zuuluu !== entity)) { _fun00002_ip = 136; continue _fun00001 }
  51:
             tangon = _closure1_slot13;
             zuuluu = _closure1_slot1;
@@ -29,8 +29,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = offset[entity];
             zuuluu = zuuluu.bind(report)(entity);
             entity = {};
-            offset = 'DMRow';
-            entity['location'] = offset;
             offset = option.id;
             entity['userId'] = offset;
             entity['guildId'] = verify;
@@ -42,8 +40,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['emojiStyle'] = golfie;
             entity['animate'] = oscard;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 222; continue _fun00001;
- 146:
+            _fun00002_ip = 212; continue _fun00001;
+ 136:
             tangon = _closure1_slot13;
             golfie = _closure1_slot0;
             verify = _closure1_slot2;
@@ -59,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.bind(golfie)(option);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 222:
+ 212:
             return entity;
         }
     };
