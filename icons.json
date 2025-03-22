@@ -6654,16 +6654,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_rich_presence_dark_12px": {
-        "file": "images/native/icons/ic_rich_presence_dark_12px.png",
-        "hash": "0a5eb82ca11d7ca338150b6e9759dfcc",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 12,
-        "height": 12
-    },
     "ic_roles_24px": {
         "file": "images/native/audit_logs/ic_roles_24px.png",
         "hash": "3eb83672eb0790981989984875ac1356",
