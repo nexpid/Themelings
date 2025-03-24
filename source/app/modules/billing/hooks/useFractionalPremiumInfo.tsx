@@ -149,6 +149,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = _closure1_slot4;
             backup = report.useState;
             foxtra = {};
+            entity = false;
+            foxtra['isFractionalPremiumActive'] = entity;
             entity = _closure1_slot10;
             entity = entity.NONE;
             foxtra['fractionalState'] = entity;
@@ -225,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     zuuluu = _closure2_slot1;
                     report = null;
-                    if(!(report != zuuluu)) { _fun00006_ip = 574; continue _fun00005 }
+                    if(!(report != zuuluu)) { _fun00006_ip = 580; continue _fun00005 }
  18:
                     zuuluu = _closure2_slot2;
                     zuuluu = zuuluu.length;
@@ -234,7 +236,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  33:
                     zuuluu = _closure2_slot4;
                     zuuluu = zuuluu.length;
-                    if(!(option !== zuuluu)) { _fun00006_ip = 574; continue _fun00005 }
+                    if(!(option !== zuuluu)) { _fun00006_ip = 580; continue _fun00005 }
  49:
                     oscard = _closure2_slot2;
                     tangon = oscard.filter;
@@ -304,43 +306,43 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = golfie.length;
                     zuuluu = _closure2_slot2;
                     zuuluu = zuuluu.length;
-                    if(!(tangon === zuuluu)) { _fun00006_ip = 438; continue _fun00005 }
+                    if(!(tangon === zuuluu)) { _fun00006_ip = 444; continue _fun00005 }
  124:
                     zuuluu = golfie[option];
                     zuuluu = zuuluu.startsAt;
-                    if(!(report != zuuluu)) { _fun00006_ip = 438; continue _fun00005 }
+                    if(!(report != zuuluu)) { _fun00006_ip = 444; continue _fun00005 }
  141:
                     zuuluu = golfie[option];
                     zuuluu = zuuluu.endsAt;
-                    if(!(report != zuuluu)) { _fun00006_ip = 438; continue _fun00005 }
+                    if(!(report != zuuluu)) { _fun00006_ip = 444; continue _fun00005 }
  158:
                     zuuluu = golfie.length;
                     oscard = zuuluu > option;
-                    tangon = _closure1_slot10;
-                    if(oscard) { _fun00006_ip = 185; continue _fun00005 }
- 177:
-                    zuuluu = tangon.NONE;
-                    _fun00006_ip = 191; continue _fun00005;
- 185:
-                    zuuluu = tangon.FP_ONLY;
+                    zuuluu = _closure1_slot10;
+                    zuuluu = zuuluu.NONE;
+                    if(!oscard) { _fun00006_ip = 239; continue _fun00005 }
+ 183:
+                    tangon = _closure2_slot5;
+                    if(!(report != tangon)) { _fun00006_ip = 214; continue _fun00005 }
  191:
                     tangon = _closure2_slot5;
-                    tangon = report != tangon;
-                    if(!tangon) { _fun00006_ip = 225; continue _fun00005 }
- 202:
-                    report = _closure2_slot5;
-                    offset = report.status;
-                    report = _closure1_slot9;
-                    report = report.PAUSED;
-                    tangon = offset === report;
- 225:
-                    if(!tangon) { _fun00006_ip = 238; continue _fun00005 }
- 228:
+                    report = tangon.status;
+                    tangon = _closure1_slot9;
+                    tangon = tangon.PAUSED;
+                    if(!(report !== tangon)) { _fun00006_ip = 226; continue _fun00005 }
+ 214:
                     tangon = _closure1_slot10;
-                    zuuluu = tangon.FP_SUB_PAUSED;
- 238:
+                    tangon = tangon.FP_ONLY;
+                    _fun00006_ip = 236; continue _fun00005;
+ 226:
+                    report = _closure1_slot10;
+                    tangon = report.FP_SUB_PAUSED;
+ 236:
+                    zuuluu = tangon;
+ 239:
                     report = _closure2_slot6;
                     tangon = {};
+                    tangon['isFractionalPremiumActive'] = oscard;
                     tangon['fractionalState'] = zuuluu;
                     romeon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -348,25 +350,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = zuuluu[offset];
                     zuuluu = undefined;
                     foxtra = romeon.bind(zuuluu)(yankee);
-                    if(oscard) { _fun00006_ip = 281; continue _fun00005 }
- 274:
+                    if(oscard) { _fun00006_ip = 287; continue _fun00005 }
+ 280:
                     yankee = foxtra.bind(zuuluu)(option);
-                    _fun00006_ip = 296; continue _fun00005;
- 281:
+                    _fun00006_ip = 302; continue _fun00005;
+ 287:
                     romeon = golfie[option];
                     romeon = romeon.startsAt;
                     yankee = foxtra.bind(zuuluu)(romeon);
- 296:
+ 302:
                     tangon['startsAt'] = yankee;
                     yankee = _closure1_slot1;
                     romeon = _closure1_slot2;
                     offset = romeon[offset];
                     offset = yankee.bind(zuuluu)(offset);
-                    if(oscard) { _fun00006_ip = 328; continue _fun00005 }
- 321:
+                    if(oscard) { _fun00006_ip = 334; continue _fun00005 }
+ 327:
                     oscard = offset.bind(zuuluu)(option);
-                    _fun00006_ip = 375; continue _fun00005;
- 328:
+                    _fun00006_ip = 381; continue _fun00005;
+ 334:
                     yankee = _closure1_slot0;
                     verify = 14;
                     verify = romeon[verify];
@@ -377,24 +379,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = _closure2_slot4;
                     verify = romeon.bind(foxtra)(yankee, verify);
                     oscard = offset.bind(zuuluu)(verify);
- 375:
+ 381:
                     tangon['endsAt'] = oscard;
                     oscard = golfie.length;
                     verify = oscard > option;
                     oscard = '';
-                    if(!verify) { _fun00006_ip = 405; continue _fun00005 }
- 396:
+                    if(!verify) { _fun00006_ip = 411; continue _fun00005 }
+ 402:
                     golfie = golfie[option];
                     oscard = golfie.id;
- 405:
+ 411:
                     tangon['currentEntitlementId'] = oscard;
                     oscard = _closure2_slot4;
                     tangon['unactivatedUnits'] = oscard;
                     oscard = _closure2_slot3;
                     tangon['fetched'] = oscard;
                     zuuluu = report.bind(zuuluu)(tangon);
-                    _fun00006_ip = 692; continue _fun00005;
- 438:
+                    _fun00006_ip = 705; continue _fun00005;
+ 444:
                     zuuluu = global;
                     oscard = zuuluu.Array;
                     report = oscard.from;
@@ -430,8 +432,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = new sizing[zuuluu](kiloes, backup);
                     zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
                     throw zuuluu;
- 574:
+ 580:
                     tangon = {};
+                    zuuluu = false;
+                    tangon['isFractionalPremiumActive'] = zuuluu;
                     report = _closure1_slot10;
                     report = report.NONE;
                     tangon['fractionalState'] = report;
@@ -477,7 +481,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         }
                     };
                     entity = michal.bind(zuuluu)(entity);
- 692:
+ 705:
                     entity = undefined;
                     return entity;
                 }

@@ -559,8 +559,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.bind(michal)();
                 return entity;
             };
-            papara = oscard.bind(option)(report, michal);
-            cntext = papara.code;
+            status = oscard.bind(option)(report, michal);
+            target = status.code;
             entity = verify[entity];
             oscard = romeon.bind(tangon)(entity);
             report = oscard.useStateFromStores;
@@ -759,7 +759,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = sizing.bind(tangon)(verify);
             verify = verify.t;
             verify = verify.dI4d4e;
-            record = romeon.bind(foxtra)(verify);
+            papara = romeon.bind(foxtra)(verify);
             _fun00004_ip = 731; continue _fun00003;
  676:
             sizing = _closure1_slot0;
@@ -773,13 +773,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = sizing.bind(tangon)(verify);
             verify = verify.t;
             verify = verify.eJnn09;
-            record = romeon.bind(foxtra)(verify);
+            papara = romeon.bind(foxtra)(verify);
  731:
             foxtra = _closure1_slot19;
             romeon = foxtra.map;
             verify = _closure1_slot21;
-            target = romeon.bind(foxtra)(verify);
-            var _closure2_slot12 = target;
+            config = romeon.bind(foxtra)(verify);
+            var _closure2_slot12 = config;
             foxtra = _closure1_slot0;
             romeon = _closure1_slot2;
             verify = 26;
@@ -790,7 +790,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['pageWidth'] = michal;
             verify['defaultIndex'] = entity;
             verify['onSetActiveIndex'] = ctrled;
-            vacuum = target.map;
+            vacuum = config.map;
             ctrled = function(argFoo) {
                 michal = argFoo;
                 entity = {};
@@ -800,18 +800,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['page'] = michal;
                 return entity;
             };
-            ctrled = vacuum.bind(target)(ctrled);
+            ctrled = vacuum.bind(config)(ctrled);
             verify['items'] = ctrled;
             source = sizing.bind(source)(verify);
-            status = _closure1_slot5;
-            verify = status.useRef;
-            verify = verify.bind(status)(kiloes);
+            config = _closure1_slot5;
+            verify = config.useRef;
+            verify = verify.bind(config)(kiloes);
             var _closure2_slot13 = verify;
-            sizing = status.useRef;
+            sizing = config.useRef;
             verify = null;
-            target = sizing.bind(status)(verify);
-            var _closure2_slot14 = target;
-            vacuum = status.useLayoutEffect;
+            sierra = sizing.bind(config)(verify);
+            var _closure2_slot14 = sierra;
+            vacuum = config.useLayoutEffect;
             ctrled = new Array(3);
             ctrled[0] = kiloes;
             ctrled[1] = echoed;
@@ -861,7 +861,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            sizing = vacuum.bind(status)(sizing, ctrled);
+            sizing = vacuum.bind(config)(sizing, ctrled);
             romeon = romeon[output];
             romeon = foxtra.bind(tangon)(romeon);
             romeon = romeon.PhoneOrEmailSelectorForceMode;
@@ -944,9 +944,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  1203:
             zuuluu = _closure1_slot18;
             ctrled = _closure1_slot1;
-            status = _closure1_slot2;
+            config = _closure1_slot2;
             entity = 28;
-            entity = status[entity];
+            entity = config[entity];
             michal = ctrled.bind(tangon)(entity);
             entity = {};
             entity['headerText'] = report;
@@ -955,10 +955,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = yankee.container;
             report['style'] = romeon;
             sizing = _closure1_slot17;
-            foxtra = _closure1_slot0;
+            record = _closure1_slot0;
             romeon = 29;
-            romeon = status[romeon];
-            romeon = foxtra.bind(tangon)(romeon);
+            romeon = config[romeon];
+            romeon = record.bind(tangon)(romeon);
             foxtra = romeon.SegmentedControl;
             romeon = {};
             romeon['state'] = source;
@@ -969,14 +969,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = yankee.input;
             foxtra['style'] = source;
             source = 30;
-            source = status[source];
+            source = config[source];
             ctrled = ctrled.bind(tangon)(source);
             source = {};
-            source['ref'] = target;
-            papara = papara.alpha2;
-            source['alpha2'] = papara;
-            source['countryCode'] = cntext;
-            cntext = function(argFoo, argBar) { // Original name: onChange
+            source['ref'] = sierra;
+            status = status.alpha2;
+            source['alpha2'] = status;
+            source['countryCode'] = target;
+            target = function(argFoo, argBar) { // Original name: onChange
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                     tangon = argFoo;
@@ -1004,16 +1004,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            source['onChange'] = cntext;
+            source['onChange'] = target;
             source['onSubmitEditing'] = result;
-            source['placeholder'] = record;
-            cntext = 'next';
-            source['returnKeyType'] = cntext;
-            cntext = 'none';
-            source['autoCapitalize'] = cntext;
-            source['label'] = record;
+            source['placeholder'] = papara;
+            target = 'next';
+            source['returnKeyType'] = target;
+            target = 'none';
+            source['autoCapitalize'] = target;
+            source['label'] = papara;
             source['errorMessage'] = vacuum;
-            config = function() { // Original name: onPressCountrySelector
+            cntext = function() { // Original name: onPressCountrySelector
                 zuuluu = _closure2_slot0;
                 michal = zuuluu.push;
                 report = _closure1_slot0;
@@ -1027,25 +1027,35 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            source['onPressCountrySelector'] = config;
+            source['onPressCountrySelector'] = cntext;
             source['forceMode'] = kiloes;
+            config = config[output];
+            config = record.bind(tangon)(config);
+            config = config.PhoneOrEmailSelectorForceMode;
+            record = config.PHONE;
+            config = 'email';
+            if(!(kiloes === record)) { _fun00004_ip = 1440; continue _fun00003 }
+ 1436:
+            config = 'tel';
+ 1440:
+            source['autoComplete'] = config;
             source['isClearable'] = sequen;
             source = sizing.bind(tangon)(ctrled, source);
             foxtra['children'] = source;
             foxtra = sizing.bind(tangon)(oscard, foxtra);
             romeon[1] = foxtra;
             foxtra = !backup;
-            if(!foxtra) { _fun00004_ip = 1552; continue _fun00003 }
- 1438:
+            if(!foxtra) { _fun00004_ip = 1590; continue _fun00003 }
+ 1476:
             ctrled = _closure1_slot17;
             source = _closure1_slot6;
             sizing = {};
             sequen = verify != vacuum;
             vacuum = undefined;
-            if(!sequen) { _fun00004_ip = 1463; continue _fun00003 }
- 1457:
+            if(!sequen) { _fun00004_ip = 1501; continue _fun00003 }
+ 1495:
             vacuum = yankee.privacyNoticeWithError;
- 1463:
+ 1501:
             sizing['style'] = vacuum;
             sequen = _closure1_slot0;
             cntext = _closure1_slot2;
@@ -1065,7 +1075,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = config.bind(record)(sequen, vacuum);
             sizing['children'] = vacuum;
             foxtra = ctrled.bind(tangon)(source, sizing);
- 1552:
+ 1590:
             romeon[2] = foxtra;
             sizing = _closure1_slot0;
             foxtra = _closure1_slot2;
@@ -1074,12 +1084,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.PhoneOrEmailSelectorForceMode;
             foxtra = foxtra.EMAIL;
             foxtra = kiloes === foxtra;
-            if(!foxtra) { _fun00004_ip = 1595; continue _fun00003 }
- 1592:
+            if(!foxtra) { _fun00004_ip = 1633; continue _fun00003 }
+ 1630:
             foxtra = backup;
- 1595:
-            if(!foxtra) { _fun00004_ip = 1630; continue _fun00003 }
- 1598:
+ 1633:
+            if(!foxtra) { _fun00004_ip = 1668; continue _fun00003 }
+ 1636:
             sizing = _closure1_slot17;
             kiloes = _closure1_slot1;
             output = _closure1_slot2;
@@ -1088,7 +1098,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.bind(tangon)(backup);
             backup = {};
             foxtra = sizing.bind(tangon)(kiloes, backup);
- 1630:
+ 1668:
             romeon[3] = foxtra;
             kiloes = _closure1_slot17;
             backup = _closure1_slot6;
@@ -1118,10 +1128,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing['text'] = update;
             sizing['onPress'] = result;
             result = verify == echoed;
-            if(result) { _fun00004_ip = 1761; continue _fun00003 }
- 1757:
+            if(result) { _fun00004_ip = 1799; continue _fun00003 }
+ 1795:
             result = option === echoed;
- 1761:
+ 1799:
             sizing['disabled'] = result;
             sizing = kiloes.bind(tangon)(output, sizing);
             foxtra['children'] = sizing;
@@ -1133,11 +1143,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[0] = oscard;
             romeon = verify != offset;
             oscard = null;
-            if(!romeon) { _fun00004_ip = 1864; continue _fun00003 }
- 1812:
+            if(!romeon) { _fun00004_ip = 1902; continue _fun00003 }
+ 1850:
             oscard = null;
-            if(!(option !== offset)) { _fun00004_ip = 1864; continue _fun00003 }
- 1818:
+            if(!(option !== offset)) { _fun00004_ip = 1902; continue _fun00003 }
+ 1856:
             verify = _closure1_slot17;
             option = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -1149,7 +1159,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['style'] = yankee;
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 1864:
+ 1902:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

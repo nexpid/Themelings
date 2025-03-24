@@ -475,9 +475,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  111:
             option = michal.id;
  116:
-            if(!(golfie != option)) { _fun00022_ip = 384; continue _fun00021 }
+            if(!(golfie != option)) { _fun00022_ip = 417; continue _fun00021 }
  123:
-            if(!(golfie != entity)) { _fun00022_ip = 384; continue _fun00021 }
+            if(!(golfie != entity)) { _fun00022_ip = 417; continue _fun00021 }
  130:
             option = golfie == verify;
             entity = undefined;
@@ -485,9 +485,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  139:
             entity = verify.id;
  144:
-            if(!(golfie != entity)) { _fun00022_ip = 357; continue _fun00021 }
+            if(!(golfie != entity)) { _fun00022_ip = 385; continue _fun00021 }
  151:
-            if(!(golfie != report)) { _fun00022_ip = 340; continue _fun00021 }
+            if(!(golfie != report)) { _fun00022_ip = 363; continue _fun00021 }
  158:
             entity = {};
             offset = report.nick;
@@ -505,29 +505,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = offset;
  199:
             entity['colorString'] = option;
+            offset = report.colorStrings;
+            romeon = golfie != offset;
+            option = undefined;
+            if(!romeon) { _fun00022_ip = 222; continue _fun00021 }
+ 219:
+            option = offset;
+ 222:
+            entity['colorStrings'] = option;
             option = report.colorRoleId;
             offset = golfie != option;
             option = undefined;
-            if(!offset) { _fun00022_ip = 264; continue _fun00021 }
- 219:
+            if(!offset) { _fun00022_ip = 287; continue _fun00021 }
+ 242:
             verify = golfie != verify;
             option = undefined;
-            if(!verify) { _fun00022_ip = 264; continue _fun00021 }
- 228:
+            if(!verify) { _fun00022_ip = 287; continue _fun00021 }
+ 251:
             offset = golfie == yankee;
             verify = undefined;
-            if(offset) { _fun00022_ip = 261; continue _fun00021 }
- 237:
+            if(offset) { _fun00022_ip = 284; continue _fun00021 }
+ 260:
             offset = report.colorRoleId;
             offset = yankee[offset];
             yankee = golfie == offset;
             verify = undefined;
-            if(yankee) { _fun00022_ip = 261; continue _fun00021 }
- 256:
+            if(yankee) { _fun00022_ip = 284; continue _fun00021 }
+ 279:
             verify = offset.name;
- 261:
+ 284:
             option = verify;
- 264:
+ 287:
             entity['colorRoleName'] = option;
             option = report.colorRoleId;
             entity['colorRoleId'] = option;
@@ -540,37 +548,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = michal.primaryGuild;
             option = golfie != report;
             michal = undefined;
-            if(!option) { _fun00022_ip = 333; continue _fun00021 }
- 330:
+            if(!option) { _fun00022_ip = 356; continue _fun00021 }
+ 353:
             michal = report;
- 333:
+ 356:
             entity['primaryGuild'] = michal;
-            _fun00022_ip = 355; continue _fun00021;
- 340:
+            _fun00022_ip = 383; continue _fun00021;
+ 363:
             michal = {};
             michal['nick'] = tangon;
             michal['colorString'] = zuuluu;
+            michal['colorStrings'] = zuuluu;
             entity = michal;
- 355:
-            _fun00022_ip = 382; continue _fun00021;
- 357:
+ 383:
+            _fun00022_ip = 415; continue _fun00021;
+ 385:
             michal = {};
             report = tangon;
-            if(!(golfie != oscard)) { _fun00022_ip = 369; continue _fun00021 }
- 366:
+            if(!(golfie != oscard)) { _fun00022_ip = 397; continue _fun00021 }
+ 394:
             report = oscard;
- 369:
+ 397:
             michal['nick'] = report;
             michal['colorString'] = zuuluu;
+            michal['colorStrings'] = zuuluu;
             entity = michal;
- 382:
-            _fun00022_ip = 399; continue _fun00021;
- 384:
+ 415:
+            _fun00022_ip = 437; continue _fun00021;
+ 417:
             michal = {};
             michal['nick'] = tangon;
             michal['colorString'] = zuuluu;
+            michal['colorStrings'] = zuuluu;
             entity = michal;
- 399:
+ 437:
             return entity;
         }
     };

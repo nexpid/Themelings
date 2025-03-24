@@ -465,7 +465,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = 20;
                     michal = tangon[michal];
                     zuuluu = zuuluu.bind(entity)(michal);
-                    michal = zuuluu.closePortalKeyboardRequest;
+                    michal = zuuluu.closePortalKeyboard;
                     michal = michal.bind(zuuluu)();
                     return entity;
                 }

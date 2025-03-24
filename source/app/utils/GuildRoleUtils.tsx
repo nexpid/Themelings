@@ -22,11 +22,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = _closure1_slot3;
             michal = 0;
             tangon = tangon[michal];
-            option = undefined;
-            golfie = report.bind(option)(tangon);
-            report = golfie.deserialize;
+            offset = undefined;
+            oscard = report.bind(offset)(tangon);
+            report = oscard.deserialize;
             tangon = zuuluu.permissions;
-            tangon = report.bind(golfie)(tangon);
+            tangon = report.bind(oscard)(tangon);
             entity['permissions'] = tangon;
             tangon = zuuluu.mentionable;
             entity['mentionable'] = tangon;
@@ -38,24 +38,77 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['color'] = tangon;
             report = zuuluu.color;
             tangon = null;
-            golfie = tangon != report;
+            oscard = tangon != report;
             report = null;
-            if(!golfie) { _fun00002_ip = 171; continue _fun00001 }
+            if(!oscard) { _fun00002_ip = 171; continue _fun00001 }
  124:
-            golfie = zuuluu.color;
+            oscard = zuuluu.color;
             report = null;
-            if(!(michal !== golfie)) { _fun00002_ip = 171; continue _fun00001 }
+            if(!(michal !== oscard)) { _fun00002_ip = 171; continue _fun00001 }
  135:
             golfie = _closure1_slot0;
             verify = _closure1_slot3;
             oscard = 1;
             oscard = verify[oscard];
-            option = golfie.bind(option)(oscard);
-            golfie = option.int2hex;
+            verify = golfie.bind(offset)(oscard);
+            golfie = verify.int2hex;
             oscard = zuuluu.color;
-            report = golfie.bind(option)(oscard);
+            report = golfie.bind(verify)(oscard);
  171:
             entity['colorString'] = report;
+            report = zuuluu.colors;
+            entity['colors'] = report;
+            report = zuuluu.colors;
+            oscard = tangon != report;
+            report = null;
+            if(!oscard) { _fun00002_ip = 382; continue _fun00001 }
+ 202:
+            oscard = {};
+            verify = _closure1_slot0;
+            golfie = _closure1_slot3;
+            yankee = 1;
+            golfie = golfie[yankee];
+            romeon = verify.bind(offset)(golfie);
+            verify = romeon.int2hex;
+            golfie = zuuluu.colors;
+            golfie = golfie.primary_color;
+            golfie = verify.bind(romeon)(golfie);
+            oscard['primaryColor'] = golfie;
+            golfie = zuuluu.colors;
+            golfie = golfie.secondary_color;
+            verify = tangon != golfie;
+            golfie = undefined;
+            if(!verify) { _fun00002_ip = 310; continue _fun00001 }
+ 271:
+            romeon = _closure1_slot0;
+            verify = _closure1_slot3;
+            verify = verify[yankee];
+            foxtra = romeon.bind(offset)(verify);
+            romeon = foxtra.int2hex;
+            verify = zuuluu.colors;
+            verify = verify.secondary_color;
+            golfie = romeon.bind(foxtra)(verify);
+ 310:
+            oscard['secondaryColor'] = golfie;
+            golfie = zuuluu.colors;
+            golfie = golfie.tertiary_color;
+            verify = tangon != golfie;
+            golfie = undefined;
+            if(!verify) { _fun00002_ip = 374; continue _fun00001 }
+ 335:
+            verify = _closure1_slot0;
+            option = _closure1_slot3;
+            option = option[yankee];
+            offset = verify.bind(offset)(option);
+            verify = offset.int2hex;
+            option = zuuluu.colors;
+            option = option.tertiary_color;
+            golfie = verify.bind(offset)(option);
+ 374:
+            oscard['tertiaryColor'] = golfie;
+            report = oscard;
+ 382:
+            entity['colorStrings'] = report;
             report = zuuluu.hoist;
             entity['hoist'] = report;
             report = zuuluu.managed;
@@ -69,10 +122,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.flags;
             tangon = tangon != zuuluu;
             michal = 0;
-            if(!tangon) { _fun00002_ip = 246; continue _fun00001 }
- 243:
+            if(!tangon) { _fun00002_ip = 457; continue _fun00001 }
+ 454:
             michal = zuuluu;
- 246:
+ 457:
             entity['flags'] = michal;
             return entity;
         }
