@@ -159,7 +159,7 @@
 { "file": "app/utils/getDevicePixelRatio.native.tsx", "size": 1300 }
 { "file": "app/utils/NumberUtils.tsx", "size": 7757 }
 { "file": "app/modules/avatar_decorations/AvatarDecorationUtils.tsx", "size": 7344 }
-{ "file": "discord_common/js/shared/shared-constants/CollectiblesCategorySkuId.tsx", "size": 5447 }
+{ "file": "discord_common/js/shared/shared-constants/CollectiblesCategorySkuId.tsx", "size": 5542 }
 { "file": "app/utils/StringUtils.tsx", "size": 1984 }
 { "file": "discord_common/js/shared/utils/StringUtils.tsx", "size": 8732 }
 { "file": "discord_common/js/packages/design/utils/web/DomUtils.tsx", "size": 2817 }
@@ -5593,7 +5593,7 @@
 { "file": "app/modules/interaction_components/InteractionModalStore.tsx", "size": 14448 }
 { "file": "app/modules/debug/native/ReactotronConfig.tsx", "size": 704 }
 { "file": "app/utils/native/AttributionUtils.tsx", "size": 7497 }
-{ "file": "app/modules/a11y/native/AccessibilityManager.tsx", "size": 10032 }
+{ "file": "app/modules/a11y/native/AccessibilityManager.tsx", "size": 11563 }
 { "file": "app/modules/a11y/native/AccessibilitySystemFeatures.tsx", "size": 14458 }
 { "file": "app/modules/a11y/native/AccessibilityPreferencesSharedValue.tsx", "size": 1351 }
 { "file": "app/modules/themes/native/updateSaturation.tsx", "size": 2056 }

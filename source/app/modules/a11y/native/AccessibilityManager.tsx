@@ -23,24 +23,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = 1;
     michal = oscard[michal];
     michal = report.bind(entity)(michal);
-    michal = michal.AccessibilityInfo;
-    var _closure1_slot4 = michal;
+    option = michal.AccessibilityInfo;
+    var _closure1_slot4 = option;
+    michal = michal.Appearance;
+    var _closure1_slot5 = michal;
     michal = 2;
     michal = oscard[michal];
     michal = golfie.bind(entity)(michal);
-    var _closure1_slot5 = michal;
+    var _closure1_slot6 = michal;
     michal = 3;
     michal = oscard[michal];
     michal = report.bind(entity)(michal);
     michal = michal.AnalyticEvents;
-    var _closure1_slot6 = michal;
+    var _closure1_slot7 = michal;
+    michal = 4;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    michal = michal.SystemTheme;
+    var _closure1_slot8 = michal;
     michal = {};
     golfie = function() { // Original name: init
         zuuluu = this;
         var _closure2_slot0 = zuuluu;
         report = _closure1_slot1;
         oscard = _closure1_slot2;
-        entity = 4;
+        entity = 5;
         tangon = oscard[entity];
         entity = undefined;
         option = report.bind(entity)(tangon);
@@ -50,20 +57,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = tangon.bind(zuuluu)();
         tangon = zuuluu.updateMotionSettings;
         tangon = tangon.bind(zuuluu)();
-        verify = _closure1_slot5;
+        verify = _closure1_slot6;
         option = verify.addChangeListener;
         tangon = zuuluu.updateNativeColors;
         tangon = option.bind(verify)(tangon);
         option = verify.addChangeListener;
         tangon = zuuluu.updateMotionSettings;
         tangon = option.bind(verify)(tangon);
-        tangon = 5;
+        tangon = 6;
         option = oscard[tangon];
         yankee = report.bind(entity)(option);
         offset = yankee.subscribe;
         verify = zuuluu.updateMotionSettings;
         option = 'CONNECTION_OPEN';
         option = offset.bind(yankee)(option, verify);
+        offset = _closure1_slot5;
+        verify = offset.addChangeListener;
+        option = zuuluu.updateSystemAppearance;
+        option = verify.bind(offset)(option);
         offset = _closure1_slot4;
         verify = offset.addEventListener;
         option = 'screenReaderChanged';
@@ -83,15 +94,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = function() {
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
-            entity = 6;
+            entity = 7;
             michal = michal[entity];
             entity = undefined;
             report = zuuluu.bind(entity)(michal);
             tangon = report.track;
-            michal = _closure1_slot6;
+            michal = _closure1_slot7;
             zuuluu = michal.LOCAL_SETTINGS_UPDATED;
             michal = {};
-            oscard = _closure1_slot5;
+            oscard = _closure1_slot6;
             oscard = oscard.colorblindMode;
             michal['colorblind_enabled'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
@@ -106,12 +117,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie = function() { // Original name: updateNativeColors
         tangon = _closure1_slot0;
         zuuluu = _closure1_slot2;
-        entity = 7;
+        entity = 8;
         zuuluu = zuuluu[entity];
         entity = undefined;
         tangon = tangon.bind(entity)(zuuluu);
         zuuluu = tangon.updateSaturation;
-        michal = _closure1_slot5;
+        michal = _closure1_slot6;
         michal = michal.saturation;
         michal = zuuluu.bind(tangon)(michal);
         return entity;
@@ -120,17 +131,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie = function() { // Original name: updateMotionSettings
         zuuluu = _closure1_slot1;
         oscard = _closure1_slot2;
-        entity = 8;
+        entity = 9;
         michal = oscard[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
         zuuluu = _closure1_slot0;
-        michal = 9;
+        michal = 10;
         michal = oscard[michal];
         michal = zuuluu.bind(entity)(michal);
         zuuluu = michal.accessibilityPreferencesSharedValue;
         michal = {};
-        report = _closure1_slot5;
+        report = _closure1_slot6;
         oscard = report.useReducedMotion;
         michal['reduceMotion'] = oscard;
         report = report.systemPrefersCrossfades;
@@ -183,12 +194,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie = function(argFoo) { // Original name: updateScreenReaderEnabled
         tangon = _closure1_slot1;
         report = _closure1_slot2;
-        entity = 8;
+        entity = 9;
         zuuluu = report[entity];
         entity = undefined;
         tangon = tangon.bind(entity)(zuuluu);
         zuuluu = _closure1_slot0;
-        michal = 9;
+        michal = 10;
         michal = report[michal];
         michal = zuuluu.bind(entity)(michal);
         zuuluu = michal.accessibilityPreferencesSharedValue;
@@ -199,6 +210,38 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['updateScreenReaderEnabled'] = golfie;
+    golfie = function(argFoo) { // Original name: updateSystemAppearance
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            michal = _closure1_slot8;
+            tangon = michal.NO_PREFERENCE;
+            michal = argFoo;
+            zuuluu = michal.colorScheme;
+            michal = 'light';
+            if(!(michal !== zuuluu)) { _fun00004_ip = 50; continue _fun00003 }
+ 30:
+            michal = 'dark';
+            if(!(michal === zuuluu)) { _fun00004_ip = 60; continue _fun00003 }
+ 38:
+            michal = _closure1_slot8;
+            tangon = michal.DARK;
+            _fun00004_ip = 60; continue _fun00003;
+ 50:
+            michal = _closure1_slot8;
+            tangon = michal.LIGHT;
+ 60:
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
+            entity = 11;
+            michal = michal[entity];
+            entity = undefined;
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.setSystemTheme;
+            michal = michal.bind(zuuluu)(tangon);
+            return entity;
+        }
+    };
+    michal['updateSystemAppearance'] = golfie;
     tangon = function() { // Original name: startAnnouncementQueue
         michal = global;
         michal = michal.Set;
@@ -212,18 +255,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu = tangon.addEventListener;
         michal = 'announcementFinished';
         entity = function(argFoo) {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 entity = argFoo;
                 var _closure3_slot0 = entity;
                 zuuluu = entity.success;
-                if(zuuluu) { _fun00004_ip = 92; continue _fun00003 }
+                if(zuuluu) { _fun00006_ip = 92; continue _fun00005 }
  18:
                 oscard = _closure2_slot0;
                 report = oscard.has;
                 tangon = entity.announcement;
                 tangon = report.bind(oscard)(tangon);
-                if(tangon) { _fun00004_ip = 92; continue _fun00003 }
+                if(tangon) { _fun00006_ip = 92; continue _fun00005 }
  44:
                 report = _closure2_slot0;
                 tangon = report.add;
@@ -235,7 +278,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = function() {
                     zuuluu = _closure1_slot0;
                     michal = _closure1_slot2;
-                    entity = 10;
+                    entity = 12;
                     michal = michal[entity];
                     entity = undefined;
                     michal = zuuluu.bind(entity)(michal);
@@ -248,7 +291,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 michal = 150;
                 michal = report.bind(tangon)(zuuluu, michal);
-                _fun00004_ip = 115; continue _fun00003;
+                _fun00006_ip = 115; continue _fun00005;
  92:
                 zuuluu = _closure2_slot0;
                 michal = zuuluu.delete;
@@ -264,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['startAnnouncementQueue'] = tangon;
-    tangon = 11;
+    tangon = 13;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
