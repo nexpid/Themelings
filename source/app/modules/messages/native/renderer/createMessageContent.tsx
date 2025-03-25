@@ -469,7 +469,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  684:
             sizing = papara;
  687:
-            if(!(result == sizing)) { _fun00006_ip = 7351; continue _fun00005 }
+            if(!(result == sizing)) { _fun00006_ip = 7352; continue _fun00005 }
  694:
             target = _closure1_slot1;
             sierra = _closure1_slot2;
@@ -477,7 +477,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             papara = sierra[papara];
             papara = target.bind(oscard)(papara);
             papara = papara.bind(oscard)(michal);
-            if(papara) { _fun00006_ip = 7158; continue _fun00005 }
+            if(papara) { _fun00006_ip = 7159; continue _fun00005 }
  725:
             variable71 = !backup;
             if(variable71) { _fun00006_ip = 734; continue _fun00005 }
@@ -1673,87 +1673,87 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  5203:
             entity['username'] = variable78;
             variable78 = undefined;
-            if(variable71) { _fun00006_ip = 5217; continue _fun00005 }
+            if(variable71) { _fun00006_ip = 5218; continue _fun00005 }
  5212:
             variable78 = variable80.uri;
- 5217:
+ 5218:
             entity['avatarURL'] = variable78;
             variable78 = undefined;
-            if(variable71) { _fun00006_ip = 5230; continue _fun00005 }
- 5227:
+            if(variable71) { _fun00006_ip = 5231; continue _fun00005 }
+ 5228:
             variable78 = variable79;
- 5230:
+ 5231:
             entity['avatarDecorationURL'] = variable78;
             variable77 = variable77.id;
             entity['authorId'] = variable77;
-            if(variable71) { _fun00006_ip = 5277; continue _fun00005 }
- 5248:
+            if(variable71) { _fun00006_ip = 5278; continue _fun00005 }
+ 5249:
             variable77 = 'username';
-            if(!(variable77 === kiloes)) { _fun00006_ip = 5277; continue _fun00005 }
- 5256:
+            if(!(variable77 === kiloes)) { _fun00006_ip = 5278; continue _fun00005 }
+ 5257:
             variable77 = _closure1_slot3;
             variable77 = variable77.bind(oscard)(variable75);
-            if(!(result == variable77)) { _fun00006_ip = 5275; continue _fun00005 }
- 5269:
+            if(!(result == variable77)) { _fun00006_ip = 5276; continue _fun00005 }
+ 5270:
             variable77 = record.defaultUsernameColor;
- 5275:
-            _fun00006_ip = 5283; continue _fun00005;
- 5277:
+ 5276:
+            _fun00006_ip = 5284; continue _fun00005;
+ 5278:
             variable77 = record.defaultUsernameColor;
- 5283:
+ 5284:
             entity['usernameColor'] = variable77;
             variable77 = null;
-            if(variable71) { _fun00006_ip = 5317; continue _fun00005 }
- 5293:
+            if(variable71) { _fun00006_ip = 5318; continue _fun00005 }
+ 5294:
             variable78 = _closure1_slot3;
             variable79 = variable78.bind(oscard)(variable75);
             variable80 = result != variable79;
             variable78 = null;
-            if(!variable80) { _fun00006_ip = 5314; continue _fun00005 }
- 5311:
+            if(!variable80) { _fun00006_ip = 5315; continue _fun00005 }
+ 5312:
             variable78 = variable79;
- 5314:
+ 5315:
             variable77 = variable78;
- 5317:
+ 5318:
             entity['roleColor'] = variable77;
             variable77 = 'dot';
             variable77 = variable77 === kiloes;
-            if(!variable77) { _fun00006_ip = 5337; continue _fun00005 }
- 5333:
+            if(!variable77) { _fun00006_ip = 5338; continue _fun00005 }
+ 5334:
             variable77 = result != variable75;
- 5337:
+ 5338:
             entity['shouldShowRoleDot'] = variable77;
             variable77 = 'username';
             variable77 = variable77 === kiloes;
-            if(!variable77) { _fun00006_ip = 5357; continue _fun00005 }
- 5353:
+            if(!variable77) { _fun00006_ip = 5358; continue _fun00005 }
+ 5354:
             variable77 = result != variable75;
- 5357:
+ 5358:
             entity['shouldShowRoleOnName'] = variable77;
             entity['showLinkDecorations'] = variable70;
-            if(variable71) { _fun00006_ip = 5391; continue _fun00005 }
- 5370:
+            if(variable71) { _fun00006_ip = 5392; continue _fun00005 }
+ 5371:
             variable70 = _closure1_slot3;
             variable70 = variable70.bind(oscard)(variable75);
-            if(!(result == variable70)) { _fun00006_ip = 5389; continue _fun00005 }
- 5383:
+            if(!(result == variable70)) { _fun00006_ip = 5390; continue _fun00005 }
+ 5384:
             variable70 = record.defaultUsernameColor;
- 5389:
-            _fun00006_ip = 5397; continue _fun00005;
- 5391:
+ 5390:
+            _fun00006_ip = 5398; continue _fun00005;
+ 5392:
             variable70 = record.defaultUsernameColor;
- 5397:
+ 5398:
             entity['colorString'] = variable70;
             variable70 = undefined;
-            if(variable71) { _fun00006_ip = 5410; continue _fun00005 }
- 5407:
+            if(variable71) { _fun00006_ip = 5411; continue _fun00005 }
+ 5408:
             variable70 = variable74;
- 5410:
+ 5411:
             entity['roleIcon'] = variable70;
             variable74 = result != variable76;
             variable70 = undefined;
-            if(!variable74) { _fun00006_ip = 5455; continue _fun00005 }
- 5424:
+            if(!variable74) { _fun00006_ip = 5456; continue _fun00005 }
+ 5425:
             variable75 = _closure1_slot0;
             variable77 = _closure1_slot2;
             variable74 = 62;
@@ -1761,26 +1761,26 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             variable75 = variable75.bind(oscard)(variable74);
             variable74 = variable75.createConnectionsRoleTag;
             variable70 = variable74.bind(variable75)(variable76);
- 5455:
+ 5456:
             entity['connectionsRoleTag'] = variable70;
             variable70 = undefined;
-            if(variable71) { _fun00006_ip = 5470; continue _fun00005 }
- 5467:
+            if(variable71) { _fun00006_ip = 5471; continue _fun00005 }
+ 5468:
             variable70 = variable73;
- 5470:
+ 5471:
             entity['timestamp'] = variable70;
             variable70 = undefined;
-            if(variable71) { _fun00006_ip = 5486; continue _fun00005 }
- 5480:
+            if(variable71) { _fun00006_ip = 5487; continue _fun00005 }
+ 5481:
             variable70 = record.timestampColor;
- 5486:
+ 5487:
             entity['timestampColor'] = variable70;
             entity['content'] = variable69;
             entity['isEditing'] = foxtra;
             entity['renderContentOnly'] = variable56;
             variable69 = undefined;
-            if(!(oscard !== variable72)) { _fun00006_ip = 5544; continue _fun00005 }
- 5511:
+            if(!(oscard !== variable72)) { _fun00006_ip = 5545; continue _fun00005 }
+ 5512:
             variable71 = _closure1_slot0;
             variable73 = _closure1_slot2;
             variable70 = 63;
@@ -1788,7 +1788,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             variable71 = variable71.bind(oscard)(variable70);
             variable70 = variable71.createSurveyIndication;
             variable69 = variable70.bind(variable71)(michal, update, variable72);
- 5544:
+ 5545:
             entity['surveyIndication'] = variable69;
             variable70 = _closure1_slot0;
             variable71 = _closure1_slot2;
@@ -1800,8 +1800,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['ephemeralIndication'] = variable69;
             entity['interactionStatus'] = variable57;
             variable57 = undefined;
-            if(!variable59) { _fun00006_ip = 5650; continue _fun00005 }
- 5599:
+            if(!variable59) { _fun00006_ip = 5651; continue _fun00005 }
+ 5600:
             variable69 = _closure1_slot0;
             variable70 = _closure1_slot2;
             variable59 = 65;
@@ -1815,17 +1815,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             r103 = kiloes;
             r102 = update;
             variable57 = r106[variable69](r105, r104, r103, r102, r101, r100);
- 5650:
+ 5651:
             entity['executedCommand'] = variable57;
             variable57 = variable45.components;
             variable57 = variable57.length;
             variable59 = variable57 > variable54;
             variable57 = undefined;
-            if(!variable59) { _fun00006_ip = 5761; continue _fun00005 }
- 5677:
+            if(!variable59) { _fun00006_ip = 5762; continue _fun00005 }
+ 5678:
             variable57 = undefined;
-            if(!variable58) { _fun00006_ip = 5761; continue _fun00005 }
- 5682:
+            if(!variable58) { _fun00006_ip = 5762; continue _fun00005 }
+ 5683:
             variable59 = _closure1_slot1;
             variable69 = _closure1_slot2;
             variable58 = 66;
@@ -1844,32 +1844,32 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             variable58['shouldAutoPlayGifs'] = variable60;
             variable58['colors'] = record;
             variable57 = variable59.bind(oscard)(variable58);
- 5761:
+ 5762:
             entity['components'] = variable57;
             variable57 = 0;
-            if(variable56) { _fun00006_ip = 5777; continue _fun00005 }
- 5771:
+            if(variable56) { _fun00006_ip = 5778; continue _fun00005 }
+ 5772:
             variable57 = record.feedbackColor;
- 5777:
+ 5778:
             entity['feedbackColor'] = variable57;
             variable54 = 0;
-            if(variable56) { _fun00006_ip = 5793; continue _fun00005 }
- 5787:
+            if(variable56) { _fun00006_ip = 5794; continue _fun00005 }
+ 5788:
             variable54 = record.highlightColor;
- 5793:
+ 5794:
             entity['highlightColor'] = variable54;
             variable56 = result != variable55;
             variable54 = undefined;
-            if(!variable56) { _fun00006_ip = 5810; continue _fun00005 }
- 5807:
+            if(!variable56) { _fun00006_ip = 5811; continue _fun00005 }
+ 5808:
             variable54 = variable55;
- 5810:
+ 5811:
             entity['embeds'] = variable54;
-            if(variable53) { _fun00006_ip = 5824; continue _fun00005 }
- 5818:
+            if(variable53) { _fun00006_ip = 5825; continue _fun00005 }
+ 5819:
             variable53 = new Array(0);
-            _fun00006_ip = 5856; continue _fun00005;
- 5824:
+            _fun00006_ip = 5857; continue _fun00005;
+ 5825:
             variable55 = _closure1_slot0;
             variable56 = _closure1_slot2;
             variable54 = 67;
@@ -1877,13 +1877,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             variable55 = variable55.bind(oscard)(variable54);
             variable54 = variable55.createGiftCodeEmbed;
             variable53 = variable54.bind(variable55)(michal, update);
- 5856:
+ 5857:
             entity['giftCodes'] = variable53;
-            if(variable50) { _fun00006_ip = 5870; continue _fun00005 }
- 5864:
+            if(variable50) { _fun00006_ip = 5871; continue _fun00005 }
+ 5865:
             variable50 = new Array(0);
-            _fun00006_ip = 5903; continue _fun00005;
- 5870:
+            _fun00006_ip = 5904; continue _fun00005;
+ 5871:
             variable54 = _closure1_slot0;
             variable55 = _closure1_slot2;
             variable53 = 68;
@@ -1891,11 +1891,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             variable54 = variable54.bind(oscard)(variable53);
             variable53 = variable54.createCodedLinkEmbeds;
             variable50 = variable53.bind(variable54)(michal, variable45, update);
- 5903:
+ 5904:
             entity['codedLinks'] = variable50;
             variable50 = undefined;
-            if(!variable52) { _fun00006_ip = 5945; continue _fun00005 }
- 5913:
+            if(!variable52) { _fun00006_ip = 5946; continue _fun00005 }
+ 5914:
             variable53 = _closure1_slot0;
             variable54 = _closure1_slot2;
             variable52 = 69;
@@ -1903,11 +1903,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             variable53 = variable53.bind(oscard)(variable52);
             variable52 = variable53.createActivityInstanceEmbed;
             variable50 = variable52.bind(variable53)(michal, update);
- 5945:
+ 5946:
             entity['activityInstanceEmbed'] = variable50;
             variable50 = undefined;
-            if(!variable51) { _fun00006_ip = 5989; continue _fun00005 }
- 5957:
+            if(!variable51) { _fun00006_ip = 5990; continue _fun00005 }
+ 5958:
             variable52 = _closure1_slot0;
             variable53 = _closure1_slot2;
             variable51 = 70;
@@ -1915,39 +1915,39 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             variable52 = variable52.bind(oscard)(variable51);
             variable51 = variable52.createActivityInviteEmbed;
             variable50 = variable51.bind(variable52)(michal, update);
- 5989:
+ 5990:
             entity['activityInviteEmbed'] = variable50;
-            if(!variable43) { _fun00006_ip = 6020; continue _fun00005 }
- 5999:
-            if(!variable47) { _fun00006_ip = 6011; continue _fun00005 }
- 6002:
-            if(variable48) { _fun00006_ip = 6008; continue _fun00005 }
- 6005:
+            if(!variable43) { _fun00006_ip = 6021; continue _fun00005 }
+ 6000:
+            if(!variable47) { _fun00006_ip = 6012; continue _fun00005 }
+ 6003:
+            if(variable48) { _fun00006_ip = 6009; continue _fun00005 }
+ 6006:
             variable48 = variable49;
- 6008:
+ 6009:
             variable47 = variable48;
- 6011:
-            if(variable47) { _fun00006_ip = 6017; continue _fun00005 }
- 6014:
+ 6012:
+            if(variable47) { _fun00006_ip = 6018; continue _fun00005 }
+ 6015:
             variable47 = variable42;
- 6017:
+ 6018:
             variable43 = variable47;
- 6020:
+ 6021:
             entity['useAttachmentGridLayout'] = variable43;
             entity['useAttachmentUploadPreview'] = variable42;
             entity['attachments'] = variable41;
             variable47 = 1;
             variable41 = variable47;
-            if(!variable42) { _fun00006_ip = 6076; continue _fun00005 }
- 6044:
+            if(!variable42) { _fun00006_ip = 6077; continue _fun00005 }
+ 6045:
             variable43 = michal.state;
             variable42 = _closure1_slot24;
             variable42 = variable42.SEND_FAILED;
             variable41 = variable47;
-            if(!(variable43 === variable42)) { _fun00006_ip = 6076; continue _fun00005 }
- 6066:
+            if(!(variable43 === variable42)) { _fun00006_ip = 6077; continue _fun00005 }
+ 6067:
             variable41 = 0.2;
- 6076:
+ 6077:
             entity['attachmentsOpacity'] = variable41;
             variable42 = _closure1_slot1;
             variable43 = _closure1_slot2;
@@ -1968,42 +1968,42 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             variable41['isUserInteracting'] = variable43;
             variable41 = variable42.bind(oscard)(variable41);
             entity['stickers'] = variable41;
-            if(!variable39) { _fun00006_ip = 6171; continue _fun00005 }
- 6168:
+            if(!variable39) { _fun00006_ip = 6172; continue _fun00005 }
+ 6169:
             variable39 = variable40;
- 6171:
+ 6172:
             entity['communicationDisabled'] = variable39;
             entity['threadStarterMessageHeader'] = variable36;
             variable39 = result == ctrled;
-            if(variable39) { _fun00006_ip = 6201; continue _fun00005 }
- 6188:
+            if(variable39) { _fun00006_ip = 6202; continue _fun00005 }
+ 6189:
             variable36 = ctrled.isForumPost;
             variable36 = variable36.bind(ctrled)();
             variable39 = !variable36;
- 6201:
+ 6202:
             variable36 = !variable39;
-            if(variable39) { _fun00006_ip = 6221; continue _fun00005 }
- 6207:
+            if(variable39) { _fun00006_ip = 6222; continue _fun00005 }
+ 6208:
             variable40 = michal.id;
             variable39 = michal.channel_id;
             variable36 = variable40 === variable39;
- 6221:
+ 6222:
             entity['isFirstForumPostMessage'] = variable36;
             variable39 = result != ctrled;
             variable36 = undefined;
-            if(!variable39) { _fun00006_ip = 6265; continue _fun00005 }
- 6235:
+            if(!variable39) { _fun00006_ip = 6266; continue _fun00005 }
+ 6236:
             variable39 = ctrled.isForumPost;
             variable39 = variable39.bind(ctrled)();
             variable36 = undefined;
-            if(!variable39) { _fun00006_ip = 6265; continue _fun00005 }
- 6250:
+            if(!variable39) { _fun00006_ip = 6266; continue _fun00005 }
+ 6251:
             variable36 = undefined;
-            if(!variable38) { _fun00006_ip = 6265; continue _fun00005 }
- 6255:
+            if(!variable38) { _fun00006_ip = 6266; continue _fun00005 }
+ 6256:
             variable38 = _closure1_slot31;
             variable36 = variable38.bind(oscard)(michal, ctrled);
- 6265:
+ 6266:
             entity['postActions'] = variable36;
             variable36 = michal.author;
             variable36 = variable36.id;
@@ -2041,11 +2041,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['remixButtonBackgroundColor'] = quebec;
             entity['referralTrialOffer'] = whisks;
             entity['referralTrialOfferInfo'] = limora;
-            if(cntext) { _fun00006_ip = 6459; continue _fun00005 }
- 6453:
+            if(cntext) { _fun00006_ip = 6460; continue _fun00005 }
+ 6454:
             cntext = new Array(0);
-            _fun00006_ip = 6491; continue _fun00005;
- 6459:
+            _fun00006_ip = 6492; continue _fun00005;
+ 6460:
             whisks = _closure1_slot0;
             quebec = _closure1_slot2;
             limora = 74;
@@ -2053,7 +2053,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             whisks = whisks.bind(oscard)(limora);
             limora = whisks.createPostPreviewEmbeds;
             cntext = limora.bind(whisks)(michal, equals);
- 6491:
+ 6492:
             entity['postPreviewEmbeds'] = cntext;
             limora = _closure1_slot0;
             whisks = _closure1_slot2;
@@ -2090,10 +2090,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             source = whisks.bind(equals)(limora, source, record);
             entity['ctaButton'] = source;
             source = undefined;
-            if(!sierra) { _fun00006_ip = 6676; continue _fun00005 }
- 6670:
+            if(!sierra) { _fun00006_ip = 6677; continue _fun00005 }
+ 6671:
             source = record.embedBackgroundColor;
- 6676:
+ 6677:
             entity['audioAttachmentBackgroundColor'] = source;
             record = _closure1_slot0;
             source = _closure1_slot2;
@@ -2140,8 +2140,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             source = vacuum.bind(config)(source);
             entity['threadAccessibilityLabel'] = source;
             source = tangon;
-            if(!tangon) { _fun00006_ip = 6942; continue _fun00005 }
- 6909:
+            if(!tangon) { _fun00006_ip = 6943; continue _fun00005 }
+ 6910:
             config = _closure1_slot0;
             record = _closure1_slot2;
             vacuum = 79;
@@ -2149,11 +2149,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             config = config.bind(oscard)(vacuum);
             vacuum = config.canShowForwardShortcut;
             source = vacuum.bind(config)(michal, sequen, ctrled);
- 6942:
+ 6943:
             entity['showForwardShortcut'] = source;
             source = tangon;
-            if(!tangon) { _fun00006_ip = 6988; continue _fun00005 }
- 6955:
+            if(!tangon) { _fun00006_ip = 6989; continue _fun00005 }
+ 6956:
             config = _closure1_slot0;
             record = _closure1_slot2;
             vacuum = 79;
@@ -2161,14 +2161,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             config = config.bind(oscard)(vacuum);
             vacuum = config.canShowReplyShortcut;
             source = vacuum.bind(config)(michal, sequen, ctrled);
- 6988:
+ 6989:
             entity['showReplyShortcut'] = source;
-            if(report) { _fun00006_ip = 7001; continue _fun00005 }
- 6998:
+            if(report) { _fun00006_ip = 7002; continue _fun00005 }
+ 6999:
             report = tangon;
- 7001:
-            if(!report) { _fun00006_ip = 7037; continue _fun00005 }
- 7004:
+ 7002:
+            if(!report) { _fun00006_ip = 7038; continue _fun00005 }
+ 7005:
             vacuum = _closure1_slot0;
             config = _closure1_slot2;
             source = 79;
@@ -2176,10 +2176,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             vacuum = vacuum.bind(oscard)(source);
             source = vacuum.canShowReactionShortcut;
             report = source.bind(vacuum)(michal, sequen, ctrled);
- 7037:
+ 7038:
             entity['showReactionShortcut'] = report;
-            if(!tangon) { _fun00006_ip = 7079; continue _fun00005 }
- 7047:
+            if(!tangon) { _fun00006_ip = 7080; continue _fun00005 }
+ 7048:
             source = _closure1_slot0;
             vacuum = _closure1_slot2;
             report = 79;
@@ -2187,14 +2187,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             source = source.bind(oscard)(report);
             report = source.canShowThreadShortcut;
             tangon = report.bind(source)(michal, ctrled);
- 7079:
+ 7080:
             entity['showThreadShortcut'] = tangon;
             tangon = result == ctrled;
             report = undefined;
-            if(tangon) { _fun00006_ip = 7100; continue _fun00005 }
- 7095:
+            if(tangon) { _fun00006_ip = 7101; continue _fun00005 }
+ 7096:
             report = ctrled.type;
- 7100:
+ 7101:
             tangon = _closure1_slot26;
             tangon = tangon.GUILD_ANNOUNCEMENT;
             tangon = report === tangon;
@@ -2208,12 +2208,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = tangon.bind(report)();
             entity['shortcutsEnabled'] = tangon;
             return entity;
- 7158:
+ 7159:
             tangon = michal.type;
             entity = _closure1_slot23;
             entity = entity.THREAD_CREATED;
-            if(!(tangon !== entity)) { _fun00006_ip = 7255; continue _fun00005 }
- 7177:
+            if(!(tangon !== entity)) { _fun00006_ip = 7256; continue _fun00005 }
+ 7178:
             tangon = _closure1_slot0;
             report = _closure1_slot2;
             entity = 36;
@@ -2227,15 +2227,15 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['roleStyle'] = kiloes;
             source = result == ctrled;
             result = undefined;
-            if(source) { _fun00006_ip = 7243; continue _fun00005 }
- 7233:
+            if(source) { _fun00006_ip = 7244; continue _fun00005 }
+ 7234:
             source = ctrled.isForumPost;
             result = source.bind(ctrled)();
- 7243:
+ 7244:
             entity['isForumPost'] = result;
             entity = tangon.bind(report)(entity);
-            _fun00006_ip = 7349; continue _fun00005;
- 7255:
+            _fun00006_ip = 7350; continue _fun00005;
+ 7256:
             tangon = {};
             report = _closure1_slot30;
             r106 = undefined;
@@ -2261,13 +2261,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             r105 = tangon;
             report = copyDataProperties(r105, r104);
             entity = tangon;
- 7349:
+ 7350:
             return entity;
- 7351:
+ 7352:
             entity = michal.activityInstance;
             tangon = undefined;
-            if(!(tangon === entity)) { _fun00006_ip = 7418; continue _fun00005 }
- 7363:
+            if(!(tangon === entity)) { _fun00006_ip = 7419; continue _fun00005 }
+ 7364:
             result = _closure1_slot0;
             echoed = _closure1_slot2;
             entity = 24;
@@ -2280,7 +2280,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity = entity.t;
             entity = entity.uBid4u;
             tangon = report.bind(output)(entity);
- 7418:
+ 7419:
             entity = {};
             report = _closure1_slot32;
             zuuluu = {};

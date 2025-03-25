@@ -698,24 +698,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = null;
             zuuluu = tangon == report;
             option = undefined;
-            if(zuuluu) { _fun00010_ip = 115; continue _fun00009 }
- 90:
+            if(zuuluu) { _fun00010_ip = 116; continue _fun00009 }
+ 91:
             zuuluu = 0;
             report = report[zuuluu];
             zuuluu = tangon == report;
             option = undefined;
-            if(zuuluu) { _fun00010_ip = 115; continue _fun00009 }
- 105:
+            if(zuuluu) { _fun00010_ip = 116; continue _fun00009 }
+ 106:
             zuuluu = report.toLowerCase;
             option = zuuluu.bind(report)();
- 115:
+ 116:
             offset = tangon != option;
             report = '';
             zuuluu = report;
-            if(!offset) { _fun00010_ip = 132; continue _fun00009 }
- 129:
+            if(!offset) { _fun00010_ip = 133; continue _fun00009 }
+ 130:
             zuuluu = option;
- 132:
+ 133:
             _closure2_slot1 = zuuluu;
             yankee = _closure1_slot3;
             offset = yankee.find;
@@ -729,12 +729,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             option = offset.bind(yankee)(option);
             offset = tangon == option;
-            if(!offset) { _fun00010_ip = 169; continue _fun00009 }
- 165:
+            if(!offset) { _fun00010_ip = 170; continue _fun00009 }
+ 166:
             offset = tangon != kiloes;
- 169:
-            if(!offset) { _fun00010_ip = 191; continue _fun00009 }
- 172:
+ 170:
+            if(!offset) { _fun00010_ip = 192; continue _fun00009 }
+ 173:
             offset = _closure1_slot3;
             zuuluu = offset.find;
             entity = function(argFoo) {
@@ -746,26 +746,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             option = zuuluu.bind(offset)(entity);
- 191:
-            if(!(tangon != option)) { _fun00010_ip = 199; continue _fun00009 }
- 195:
-            if(!(tangon == kiloes)) { _fun00010_ip = 231; continue _fun00009 }
- 199:
-            if(!(tangon == option)) { _fun00010_ip = 219; continue _fun00009 }
- 203:
+ 192:
+            if(!(tangon != option)) { _fun00010_ip = 200; continue _fun00009 }
+ 196:
+            if(!(tangon == kiloes)) { _fun00010_ip = 232; continue _fun00009 }
+ 200:
+            if(!(tangon == option)) { _fun00010_ip = 220; continue _fun00009 }
+ 204:
             entity = tangon != kiloes;
             zuuluu = 'unknown';
-            if(!entity) { _fun00010_ip = 217; continue _fun00009 }
- 214:
+            if(!entity) { _fun00010_ip = 218; continue _fun00009 }
+ 215:
             zuuluu = kiloes;
- 217:
-            _fun00010_ip = 229; continue _fun00009;
- 219:
+ 218:
+            _fun00010_ip = 230; continue _fun00009;
+ 220:
             entity = option.name;
             zuuluu = entity.bind(option)(verify);
- 229:
-            _fun00010_ip = 345; continue _fun00009;
- 231:
+ 230:
+            _fun00010_ip = 346; continue _fun00009;
+ 232:
             entity = option.name;
             offset = entity.bind(option)(verify);
             entity = offset.split;
@@ -776,14 +776,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = kiloes.lastIndexOf;
             backup = entity.bind(kiloes)(foxtra);
             entity = -1;
-            if(!(entity === backup)) { _fun00010_ip = 308; continue _fun00009 }
- 286:
+            if(!(entity === backup)) { _fun00010_ip = 309; continue _fun00009 }
+ 287:
             entity = global;
             entity = entity.HermesInternal;
             entity = entity.concat;
             entity = entity.bind(report)(kiloes, foxtra, romeon);
-            _fun00010_ip = 342; continue _fun00009;
- 308:
+            _fun00010_ip = 343; continue _fun00009;
+ 309:
             yankee = kiloes.substr;
             offset = 0;
             yankee = yankee.bind(kiloes)(offset, backup);
@@ -791,70 +791,70 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = offset.HermesInternal;
             offset = offset.concat;
             entity = offset.bind(report)(yankee, foxtra, romeon);
- 342:
+ 343:
             zuuluu = entity;
- 345:
+ 346:
             entity = {};
             entity['uri'] = golfie;
             entity['filename'] = zuuluu;
             golfie = michal;
-            if(!(tangon == michal)) { _fun00010_ip = 380; continue _fun00009 }
- 363:
+            if(!(tangon == michal)) { _fun00010_ip = 382; continue _fun00009 }
+ 365:
             offset = tangon == option;
             zuuluu = undefined;
-            if(offset) { _fun00010_ip = 377; continue _fun00009 }
- 372:
+            if(offset) { _fun00010_ip = 379; continue _fun00009 }
+ 374:
             zuuluu = option.type;
- 377:
+ 379:
             golfie = zuuluu;
- 380:
+ 382:
             offset = tangon != golfie;
             zuuluu = 'unknown';
-            if(!offset) { _fun00010_ip = 394; continue _fun00009 }
- 391:
+            if(!offset) { _fun00010_ip = 396; continue _fun00009 }
+ 393:
             zuuluu = golfie;
- 394:
+ 396:
             entity['type'] = zuuluu;
             zuuluu = michal;
-            if(!(tangon == michal)) { _fun00010_ip = 427; continue _fun00009 }
- 405:
+            if(!(tangon == michal)) { _fun00010_ip = 429; continue _fun00009 }
+ 407:
             offset = tangon == option;
             golfie = undefined;
-            if(offset) { _fun00010_ip = 424; continue _fun00009 }
- 414:
+            if(offset) { _fun00010_ip = 426; continue _fun00009 }
+ 416:
             offset = option.name;
             golfie = offset.bind(option)(verify);
- 424:
+ 426:
             zuuluu = golfie;
- 427:
+ 429:
             golfie = tangon != zuuluu;
             offset = report;
-            if(!golfie) { _fun00010_ip = 440; continue _fun00009 }
- 437:
+            if(!golfie) { _fun00010_ip = 442; continue _fun00009 }
+ 439:
             offset = zuuluu;
- 440:
+ 442:
             golfie = offset.indexOf;
             zuuluu = 'video';
             golfie = golfie.bind(offset)(zuuluu);
             zuuluu = -1;
             golfie = zuuluu !== golfie;
             entity['isVideo'] = golfie;
-            if(!(tangon == michal)) { _fun00010_ip = 495; continue _fun00009 }
- 473:
+            if(!(tangon == michal)) { _fun00010_ip = 497; continue _fun00009 }
+ 475:
             golfie = tangon == option;
             oscard = undefined;
-            if(golfie) { _fun00010_ip = 492; continue _fun00009 }
- 482:
+            if(golfie) { _fun00010_ip = 494; continue _fun00009 }
+ 484:
             golfie = option.name;
             oscard = golfie.bind(option)(verify);
- 492:
+ 494:
             michal = oscard;
- 495:
+ 497:
             tangon = tangon != michal;
-            if(!tangon) { _fun00010_ip = 505; continue _fun00009 }
- 502:
+            if(!tangon) { _fun00010_ip = 507; continue _fun00009 }
+ 504:
             report = michal;
- 505:
+ 507:
             tangon = report.indexOf;
             michal = 'image';
             michal = tangon.bind(report)(michal);

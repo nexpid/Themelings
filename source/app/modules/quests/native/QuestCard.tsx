@@ -539,9 +539,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.paths;
                 tangon = tangon.bind(entity)(zuuluu, michal);
                 zuuluu = {};
-                michal = _closure2_slot2;
-                michal = michal.id;
-                zuuluu['questId'] = michal;
+                golfie = _closure2_slot2;
+                golfie = golfie.id;
+                zuuluu['questId'] = golfie;
+                michal = _closure2_slot3;
+                zuuluu['questContentPosition'] = michal;
                 michal = 'QuestBottomSheet';
                 michal = report.bind(oscard)(tangon, michal, zuuluu);
                 return entity;
@@ -1174,16 +1176,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = _closure1_slot10;
             romeon = _closure1_slot1;
             source = _closure1_slot2;
-            if(verify) { _fun00002_ip = 2811; continue _fun00001 }
- 2771:
+            if(verify) { _fun00002_ip = 2812; continue _fun00001 }
+ 2772:
             verify = 37;
             verify = source[verify];
             yankee = romeon.bind(report)(verify);
             verify = {'quest': null, 'height': 64, 'width': 64};
             verify['quest'] = entity;
             verify = output.bind(report)(yankee, verify);
-            _fun00002_ip = 2855; continue _fun00001;
- 2811:
+            _fun00002_ip = 2856; continue _fun00001;
+ 2812:
             yankee = 36;
             yankee = source[yankee];
             romeon = romeon.bind(report)(yankee);
@@ -1194,7 +1196,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = 'sm';
             yankee['size'] = update;
             verify = output.bind(report)(romeon, yankee);
- 2855:
+ 2856:
             option['children'] = verify;
             option = offset.bind(report)(result, option);
             update = new Array(2);

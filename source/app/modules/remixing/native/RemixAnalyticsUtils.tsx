@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = '';
             entity = '-';
             entity = tangon.bind(zuuluu)(oscard, entity, report);
-            _fun00008_ip = 82; continue _fun00007;
+            _fun00008_ip = 83; continue _fun00007;
  53:
             tangon = michal.uri;
             michal = global;
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.concat;
             michal = 'local-';
             entity = zuuluu.bind(michal)(tangon);
- 82:
+ 83:
             return entity;
         }
     };

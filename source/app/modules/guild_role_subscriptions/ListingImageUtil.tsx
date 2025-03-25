@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = argFoo;
             zuuluu = entity.image_asset;
             michal = null;
-            if(!(michal != zuuluu)) { _fun00002_ip = 85; continue _fun00001 }
+            if(!(michal != zuuluu)) { _fun00002_ip = 86; continue _fun00001 }
  15:
             report = _closure1_slot0;
             tangon = _closure1_slot1;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
  79:
             entity['uri'] = michal;
             return entity;
- 85:
+ 86:
             entity = {};
             michal = '';
             entity['uri'] = michal;

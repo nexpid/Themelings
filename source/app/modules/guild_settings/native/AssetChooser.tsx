@@ -296,7 +296,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = entity.guild;
                 entity = null;
                 michal = entity == tangon;
-                if(michal) { _fun00010_ip = 79; continue _fun00009 }
+                if(michal) { _fun00010_ip = 80; continue _fun00009 }
  34:
                 zuuluu = tangon.startsWith;
                 michal = 'data:';
@@ -306,14 +306,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = undefined;
                 michal = 192;
                 michal = oscard.bind(zuuluu)(report, michal);
-                _fun00010_ip = 76; continue _fun00009;
+                _fun00010_ip = 77; continue _fun00009;
  67:
                 zuuluu = {};
                 zuuluu['uri'] = tangon;
                 michal = zuuluu;
- 76:
+ 77:
                 entity = michal;
- 79:
+ 80:
                 return entity;
             }
         };

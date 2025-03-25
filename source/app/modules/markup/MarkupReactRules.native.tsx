@@ -1626,7 +1626,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu['children'] = entity;
                     entity = michal.key;
                     entity = oscard.bind(report)(tangon, zuuluu, entity);
-                    _fun00050_ip = 142; continue _fun00049;
+                    _fun00050_ip = 143; continue _fun00049;
  76:
                     report = _closure1_slot4;
                     tangon = {};
@@ -1645,7 +1645,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = michal.key;
                     michal = undefined;
                     entity = oscard.bind(michal)(report, tangon, zuuluu);
- 142:
+ 143:
                     return entity;
                 }
             };
@@ -2585,10 +2585,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     zuuluu = michal.Fragment;
                                     michal = {};
                                     verify = option;
-                                    if(!verify) { _fun00066_ip = 71; continue _fun00065 }
- 67:
+                                    if(!verify) { _fun00066_ip = 70; continue _fun00065 }
+ 66:
                                     verify = '\n';
- 71:
+ 70:
                                     oscard = new Array(3);
                                     oscard[0] = verify;
                                     offset = _closure3_slot1;
@@ -2596,14 +2596,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     entity = undefined;
                                     verify = offset.bind(entity)(yankee, verify);
                                     oscard[1] = verify;
-                                    if(!golfie) { _fun00066_ip = 108; continue _fun00065 }
- 105:
+                                    if(!golfie) { _fun00066_ip = 107; continue _fun00065 }
+ 104:
                                     golfie = !option;
- 108:
-                                    if(!golfie) { _fun00066_ip = 115; continue _fun00065 }
- 111:
+ 107:
+                                    if(!golfie) { _fun00066_ip = 114; continue _fun00065 }
+ 110:
                                     golfie = '\n';
- 115:
+ 114:
                                     oscard[2] = golfie;
                                     michal['children'] = oscard;
                                     entity = tangon.bind(entity)(zuuluu, michal, report);

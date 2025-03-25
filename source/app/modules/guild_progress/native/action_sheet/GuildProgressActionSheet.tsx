@@ -715,7 +715,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee[1] = romeon;
             golfie['style'] = yankee;
             foxtra = _closure1_slot13;
-            if(offset) { _fun00004_ip = 1116; continue _fun00003 }
+            if(offset) { _fun00004_ip = 1112; continue _fun00003 }
  975:
             source = _closure1_slot0;
             output = _closure1_slot2;
@@ -746,8 +746,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = sizing.bind(tangon)(backup, romeon);
             offset['children'] = romeon;
             offset = foxtra.bind(tangon)(yankee, offset);
-            _fun00004_ip = 1200; continue _fun00003;
- 1116:
+            _fun00004_ip = 1196; continue _fun00003;
+ 1112:
             romeon = _closure1_slot1;
             backup = _closure1_slot2;
             yankee = 27;
@@ -767,7 +767,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = kiloes.bind(sizing)(backup);
             yankee['text'] = backup;
             offset = foxtra.bind(tangon)(romeon, yankee);
- 1200:
+ 1196:
             golfie['children'] = offset;
             golfie = verify.bind(tangon)(option, golfie);
             oscard[4] = golfie;

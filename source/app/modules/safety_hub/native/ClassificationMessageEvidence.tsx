@@ -255,7 +255,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = offset.isImageFile;
                         entity = oscard.filename;
                         entity = michal.bind(offset)(entity);
-                        if(entity) { _fun00004_ip = 226; continue _fun00003 }
+                        if(entity) { _fun00004_ip = 227; continue _fun00003 }
  117:
                         michal = _closure1_slot0;
                         entity = _closure1_slot2;
@@ -265,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = oscard.filename;
                         michal = michal.bind(golfie)(entity);
                         entity = report;
-                        if(!michal) { _fun00004_ip = 224; continue _fun00003 }
+                        if(!michal) { _fun00004_ip = 225; continue _fun00003 }
  157:
                         michal = {};
                         romeon = michal;
@@ -283,9 +283,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         golfie = _closure1_slot16;
                         michal[option] = golfie;
                         entity = michal;
- 224:
-                        _fun00004_ip = 334; continue _fun00003;
- 226:
+ 225:
+                        _fun00004_ip = 335; continue _fun00003;
+ 227:
                         michal = {};
                         romeon = michal;
                         yankee = report;
@@ -296,14 +296,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = null;
                         offset = report == option;
                         verify = undefined;
-                        if(offset) { _fun00004_ip = 270; continue _fun00003 }
- 265:
+                        if(offset) { _fun00004_ip = 271; continue _fun00003 }
+ 266:
                         verify = option.width;
- 270:
-                        if(!(report == verify)) { _fun00004_ip = 278; continue _fun00003 }
- 274:
+ 271:
+                        if(!(report == verify)) { _fun00004_ip = 279; continue _fun00003 }
+ 275:
                         verify = _closure1_slot12;
- 278:
+ 279:
                         option = 'width';
                         michal[option] = verify;
                         golfie = _closure2_slot3;
@@ -311,18 +311,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         oscard = golfie[oscard];
                         golfie = report == oscard;
                         tangon = undefined;
-                        if(golfie) { _fun00004_ip = 314; continue _fun00003 }
- 309:
+                        if(golfie) { _fun00004_ip = 315; continue _fun00003 }
+ 310:
                         tangon = oscard.height;
- 314:
-                        if(!(report == tangon)) { _fun00004_ip = 322; continue _fun00003 }
- 318:
+ 315:
+                        if(!(report == tangon)) { _fun00004_ip = 323; continue _fun00003 }
+ 319:
                         tangon = _closure1_slot13;
- 322:
+ 323:
                         zuuluu = 'height';
                         michal[zuuluu] = tangon;
                         entity = michal;
- 334:
+ 335:
                         return entity;
                     }
                 };
@@ -376,10 +376,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         golfie = golfie.filename;
                         option = option.bind(offset)(golfie);
                         golfie = undefined;
-                        if(!option) { _fun00006_ip = 86; continue _fun00005 }
- 81:
+                        if(!option) { _fun00006_ip = 87; continue _fun00005 }
+ 82:
                         golfie = michal.url;
- 86:
+ 87:
                         entity['videoURI'] = golfie;
                         option = _closure1_slot0;
                         golfie = _closure1_slot2;
@@ -392,8 +392,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         golfie = golfie.filename;
                         option = option.bind(verify)(golfie);
                         golfie = undefined;
-                        if(!option) { _fun00006_ip = 178; continue _fun00005 }
- 144:
+                        if(!option) { _fun00006_ip = 181; continue _fun00005 }
+ 145:
                         option = {};
                         verify = _closure1_slot14;
                         option['width'] = verify;
@@ -403,7 +403,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         verify = verify.uri;
                         option['uri'] = verify;
                         golfie = option;
- 178:
+ 181:
                         entity['thumbnail'] = golfie;
                         entity['mediaIndex'] = report;
                         report = '1';
@@ -416,28 +416,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = null;
                         verify = report == option;
                         golfie = undefined;
-                        if(verify) { _fun00006_ip = 235; continue _fun00005 }
- 230:
+                        if(verify) { _fun00006_ip = 238; continue _fun00005 }
+ 233:
                         golfie = option.width;
- 235:
-                        if(!(report == golfie)) { _fun00006_ip = 243; continue _fun00005 }
- 239:
+ 238:
+                        if(!(report == golfie)) { _fun00006_ip = 246; continue _fun00005 }
+ 242:
                         golfie = _closure1_slot12;
- 243:
+ 246:
                         entity['width'] = golfie;
                         golfie = _closure2_slot3;
                         oscard = michal.id;
                         oscard = golfie[oscard];
                         golfie = report == oscard;
                         zuuluu = undefined;
-                        if(golfie) { _fun00006_ip = 274; continue _fun00005 }
- 269:
+                        if(golfie) { _fun00006_ip = 277; continue _fun00005 }
+ 272:
                         zuuluu = oscard.height;
- 274:
-                        if(!(report == zuuluu)) { _fun00006_ip = 282; continue _fun00005 }
- 278:
+ 277:
+                        if(!(report == zuuluu)) { _fun00006_ip = 285; continue _fun00005 }
+ 281:
                         zuuluu = _closure1_slot13;
- 282:
+ 285:
                         entity['height'] = zuuluu;
                         zuuluu = 'attachment';
                         entity['accessoryType'] = zuuluu;

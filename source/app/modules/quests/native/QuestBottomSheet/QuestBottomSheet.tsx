@@ -1404,15 +1404,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argFoo;
             michal = entity.questId;
             var _closure2_slot0 = michal;
-            entity = entity.initialStep;
-            var _closure2_slot1 = entity;
+            michal = entity.initialStep;
+            var _closure2_slot1 = michal;
+            golfie = entity.questContentPosition;
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
             entity = 17;
             entity = tangon[entity];
             report = undefined;
-            golfie = zuuluu.bind(report)(entity);
-            tangon = golfie.useStateFromStores;
+            option = zuuluu.bind(report)(entity);
+            tangon = option.useStateFromStores;
             entity = _closure1_slot7;
             zuuluu = new Array(1);
             zuuluu[0] = entity;
@@ -1423,28 +1424,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            golfie = tangon.bind(golfie)(zuuluu, entity);
+            option = tangon.bind(option)(zuuluu, entity);
             entity = null;
-            zuuluu = entity == golfie;
-            if(zuuluu) { _fun00020_ip = 179; continue _fun00019 }
- 89:
+            zuuluu = entity == option;
+            if(zuuluu) { _fun00020_ip = 190; continue _fun00019 }
+ 95:
             tangon = _closure1_slot10;
-            option = _closure1_slot0;
-            verify = _closure1_slot2;
+            verify = _closure1_slot0;
+            offset = _closure1_slot2;
             michal = 18;
-            michal = verify[michal];
-            michal = option.bind(report)(michal);
+            michal = offset[michal];
+            michal = verify.bind(report)(michal);
             zuuluu = michal.QuestContentImpressionTrackerNative;
             michal = {};
-            offset = true;
-            michal['overrideVisibility'] = offset;
-            michal['questOrQuests'] = golfie;
-            golfie = 15;
-            golfie = verify[golfie];
-            golfie = option.bind(report)(golfie);
-            golfie = golfie.QuestContent;
-            golfie = golfie.QUEST_BOTTOM_SHEET;
-            michal['questContent'] = golfie;
+            yankee = true;
+            michal['overrideVisibility'] = yankee;
+            michal['questOrQuests'] = option;
+            option = 15;
+            option = offset[option];
+            option = verify.bind(report)(option);
+            option = option.QuestContent;
+            option = option.QUEST_BOTTOM_SHEET;
+            michal['questContent'] = option;
+            michal['questContentPosition'] = golfie;
             oscard = function() { // Original name: children
                 tangon = _closure1_slot10;
                 zuuluu = _closure1_slot16;
@@ -1459,7 +1461,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 179:
+ 190:
             return entity;
         }
     };

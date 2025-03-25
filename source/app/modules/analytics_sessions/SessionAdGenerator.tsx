@@ -10,41 +10,65 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) { // Original name: isAdSessionExpired
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zuuluu = argFoo;
-            entity = global;
-            michal = entity.Date;
+            report = argFoo;
+            tangon = global;
+            michal = tangon.Date;
             entity = michal.now;
             option = entity.bind(michal)();
-            entity = zuuluu.lastUsed;
-            verify = option - entity;
+            entity = report.initialized;
+            if(!(!(option < entity))) { _fun00002_ip = 161; continue _fun00001 }
+ 33:
+            entity = report.lastUsed;
+            zuuluu = option - entity;
             michal = _closure1_slot0;
-            golfie = _closure1_slot2;
-            entity = 1;
-            entity = golfie[entity];
-            oscard = undefined;
-            entity = michal.bind(oscard)(entity);
-            offset = entity.SESSION_IDLE_TIMEOUT_MINS;
-            report = _closure1_slot1;
-            michal = 2;
-            entity = golfie[michal];
-            entity = report.bind(oscard)(entity);
+            offset = _closure1_slot2;
+            entity = 2;
+            entity = offset[entity];
+            verify = undefined;
+            entity = michal.bind(verify)(entity);
+            yankee = entity.SESSION_IDLE_TIMEOUT_MINS;
+            golfie = _closure1_slot1;
+            michal = 3;
+            entity = offset[michal];
+            entity = golfie.bind(verify)(entity);
             entity = entity.Millis;
             entity = entity.MINUTE;
-            entity = offset * entity;
-            entity = verify > entity;
-            zuuluu = zuuluu.initialized;
+            entity = yankee * entity;
+            entity = zuuluu > entity;
+            zuuluu = report.initialized;
             zuuluu = option - zuuluu;
-            tangon = _closure1_slot3;
-            michal = golfie[michal];
-            michal = report.bind(oscard)(michal);
+            oscard = _closure1_slot3;
+            michal = offset[michal];
+            michal = golfie.bind(verify)(michal);
             michal = michal.Millis;
             michal = michal.HOUR;
-            michal = tangon * michal;
+            michal = oscard * michal;
             michal = zuuluu > michal;
-            if(entity) { _fun00002_ip = 146; continue _fun00001 }
- 143:
+            if(entity) { _fun00002_ip = 159; continue _fun00001 }
+ 156:
             entity = michal;
- 146:
+ 159:
+            return entity;
+ 161:
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
+            entity = 1;
+            michal = michal[entity];
+            entity = undefined;
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.addBreadcrumb;
+            entity = {};
+            oscard = 'ad';
+            entity['category'] = oscard;
+            golfie = report.initialized;
+            tangon = tangon.HermesInternal;
+            oscard = tangon.concat;
+            report = 'future facing timestamp Date.now(): ';
+            tangon = ', initialized timestamp: ';
+            tangon = oscard.bind(report)(option, tangon, golfie);
+            entity['message'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
+            entity = true;
             return entity;
         }
     };
@@ -61,14 +85,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot3 = entity;
     entity = null;
     var _closure1_slot4 = entity;
-    entity = 3;
+    entity = 4;
     report = report[entity];
     entity = undefined;
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
     report = 'modules/analytics_sessions/SessionAdGenerator.tsx';
     report = oscard.bind(golfie)(report);
-    tangon = function() { // Original name: getOrRefreshAdSession
+    report = function() { // Original name: getOrRefreshAdSession
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = arguments[0];
@@ -115,7 +139,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['getOrRefreshAdSession'] = tangon;
+    zuuluu['getOrRefreshAdSession'] = report;
+    tangon = function() { // Original name: clearAdSession
+        entity = null;
+        _closure1_slot4 = entity;
+        entity = undefined;
+        return entity;
+    };
+    zuuluu['clearAdSession'] = tangon;
     zuuluu['isAdSessionExpired'] = michal;
     return entity;
 })();

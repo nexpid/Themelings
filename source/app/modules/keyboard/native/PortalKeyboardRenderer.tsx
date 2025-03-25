@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     var _closure1_slot9 = tangon;
-    tangon = 8;
+    tangon = 9;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -117,11 +117,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot2 = tangon;
             verify = _closure1_slot3;
             zuuluu = verify.useId;
-            oscard = zuuluu.bind(verify)();
-            _closure2_slot0 = oscard;
+            report = zuuluu.bind(verify)();
+            _closure2_slot0 = report;
             option = verify.useLayoutEffect;
-            report = new Array(1);
-            report[0] = oscard;
+            oscard = new Array(1);
+            oscard[0] = report;
             zuuluu = function() {
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
@@ -134,9 +134,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            zuuluu = option.bind(verify)(zuuluu, report);
+            zuuluu = option.bind(verify)(zuuluu, oscard);
             option = verify.useLayoutEffect;
-            report = function() {
+            oscard = function() {
                 tangon = function() { // Original name: onKeyboardStoreChange
                     _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -146,28 +146,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = entity[tangon];
                         entity = undefined;
                         zuuluu = report.bind(entity)(zuuluu);
-                        report = zuuluu.usePortalKeyboardStore;
-                        zuuluu = report.getState;
-                        zuuluu = zuuluu.bind(report)();
-                        report = zuuluu.keyboard;
+                        oscard = zuuluu.PortalKeyboardUIStore;
+                        report = oscard.getField;
+                        zuuluu = 'keyboard';
+                        report = report.bind(oscard)(zuuluu);
                         zuuluu = _closure1_slot4;
                         oscard = zuuluu.keyboardType;
                         zuuluu = null;
                         zuuluu = zuuluu != report;
-                        if(!zuuluu) { _fun00006_ip = 75; continue _fun00005 }
- 66:
+                        if(!zuuluu) { _fun00006_ip = 74; continue _fun00005 }
+ 65:
                         report = report.type;
                         zuuluu = oscard !== report;
- 75:
-                        if(!zuuluu) { _fun00006_ip = 105; continue _fun00005 }
- 78:
+ 74:
+                        if(!zuuluu) { _fun00006_ip = 104; continue _fun00005 }
+ 77:
                         zuuluu = _closure1_slot0;
                         michal = _closure1_slot2;
                         michal = michal[tangon];
                         zuuluu = zuuluu.bind(entity)(michal);
-                        michal = zuuluu.closeUnhandledPortalKeyboard;
+                        michal = zuuluu.closePortalKeyboardIfUnhandled;
                         michal = michal.bind(zuuluu)();
- 105:
+ 104:
                         return entity;
                     }
                 };
@@ -186,41 +186,47 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = michal[entity];
                     entity = undefined;
                     zuuluu = zuuluu.bind(entity)(michal);
-                    michal = zuuluu.closeUnhandledPortalKeyboard;
+                    michal = zuuluu.closePortalKeyboardIfUnhandled;
                     michal = michal.bind(zuuluu)();
                     return entity;
                 };
                 return entity;
             };
             zuuluu = new Array(0);
-            zuuluu = option.bind(verify)(report, zuuluu);
-            option = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            report = 7;
-            zuuluu = zuuluu[report];
-            option = option.bind(tangon)(zuuluu);
-            zuuluu = option.usePortalKeyboardStore;
-            zuuluu = zuuluu.bind(option)();
-            verify = zuuluu.keyboard;
-            _closure2_slot1 = verify;
-            option = zuuluu.renderers;
-            offset = option.length;
+            zuuluu = option.bind(verify)(oscard, zuuluu);
+            oscard = _closure1_slot0;
+            verify = _closure1_slot2;
+            zuuluu = 7;
+            option = verify[zuuluu];
+            option = oscard.bind(tangon)(option);
+            yankee = option.PortalKeyboardUIStore;
+            offset = yankee.useField;
+            option = 'keyboard';
+            option = offset.bind(yankee)(option);
+            _closure2_slot1 = option;
+            zuuluu = verify[zuuluu];
+            zuuluu = oscard.bind(tangon)(zuuluu);
+            verify = zuuluu.PortalKeyboardUIStore;
+            oscard = verify.useField;
+            zuuluu = 'renderers';
+            oscard = oscard.bind(verify)(zuuluu);
+            verify = oscard.length;
             zuuluu = 0;
-            offset = zuuluu === offset;
-            if(offset) { _fun00004_ip = 182; continue _fun00003 }
- 162:
-            yankee = option.length;
+            verify = zuuluu === verify;
+            if(verify) { _fun00004_ip = 211; continue _fun00003 }
+ 191:
+            offset = oscard.length;
             zuuluu = 1;
-            zuuluu = yankee - zuuluu;
-            zuuluu = option[zuuluu];
-            offset = zuuluu === oscard;
- 182:
-            _closure2_slot2 = offset;
-            option = _closure1_slot3;
-            oscard = option.useMemo;
+            zuuluu = offset - zuuluu;
+            zuuluu = oscard[zuuluu];
+            verify = zuuluu === report;
+ 211:
+            _closure2_slot2 = verify;
+            oscard = _closure1_slot3;
+            report = oscard.useMemo;
             zuuluu = new Array(2);
-            zuuluu[0] = offset;
-            zuuluu[1] = verify;
+            zuuluu[0] = verify;
+            zuuluu[1] = option;
             michal = function() {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -242,19 +248,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            option = oscard.bind(option)(michal, zuuluu);
-            if(entity) { _fun00004_ip = 235; continue _fun00003 }
- 223:
+            option = report.bind(oscard)(michal, zuuluu);
+            if(entity) { _fun00004_ip = 263; continue _fun00003 }
+ 252:
             entity = _closure1_slot3;
             zuuluu = entity.Fragment;
-            _fun00004_ip = 258; continue _fun00003;
- 235:
+            _fun00004_ip = 289; continue _fun00003;
+ 263:
             michal = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[report];
+            report = _closure1_slot2;
+            entity = 8;
+            entity = report[entity];
             entity = michal.bind(tangon)(entity);
             zuuluu = entity.PortalKeyboard;
- 258:
+ 289:
             michal = _closure1_slot6;
             entity = {};
             oscard = _closure1_slot0;

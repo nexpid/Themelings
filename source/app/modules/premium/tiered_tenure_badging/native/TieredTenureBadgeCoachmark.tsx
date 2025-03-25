@@ -16,12 +16,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = undefined;
             verify = entity.bind(report)();
             entity = null;
-            if(!(entity != michal)) { _fun00002_ip = 147; continue _fun00001 }
+            if(!(entity != michal)) { _fun00002_ip = 135; continue _fun00001 }
  28:
-            tangon = michal.badgeVersion;
-            zuuluu = 2;
-            if(!(zuuluu === tangon)) { _fun00002_ip = 147; continue _fun00001 }
- 41:
             yankee = michal.id;
             tangon = _closure1_slot8;
             zuuluu = _closure1_slot5;
@@ -48,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 147:
+ 135:
             return entity;
         }
     };
@@ -79,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = 3;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
-    report = michal.TieredTenureBadgeV2;
+    report = michal.TieredTenureBadge;
     michal = 4;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);

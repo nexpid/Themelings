@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     golfie = tangon.PremiumTypes;
     var _closure1_slot6 = golfie;
-    golfie = tangon.TieredTenureBadgeV2;
+    golfie = tangon.TieredTenureBadge;
     var _closure1_slot7 = golfie;
     yankee = 4;
     tangon = oscard[yankee];

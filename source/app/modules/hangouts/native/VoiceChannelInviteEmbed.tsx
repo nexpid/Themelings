@@ -551,10 +551,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = zuuluu.bind(tangon)(michal);
                     zuuluu = null;
                     zuuluu = zuuluu == michal;
-                    if(zuuluu) { _fun00012_ip = 78; continue _fun00011 }
+                    if(zuuluu) { _fun00012_ip = 79; continue _fun00011 }
  73:
                     entity = michal.uri;
- 78:
+ 79:
                     return entity;
                 }
             };
@@ -594,24 +594,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = kiloes.bind(sizing)(backup);
             backup = backup.uri;
             entity['joinIcon'] = backup;
-            if(!(romeon == foxtra)) { _fun00002_ip = 1449; continue _fun00001 }
- 1445:
+            if(!(romeon == foxtra)) { _fun00002_ip = 1450; continue _fun00001 }
+ 1446:
             foxtra = _closure1_slot8;
- 1449:
+ 1450:
             entity['guildId'] = foxtra;
-            if(!(romeon == offset)) { _fun00002_ip = 1461; continue _fun00001 }
- 1457:
+            if(!(romeon == offset)) { _fun00002_ip = 1462; continue _fun00001 }
+ 1458:
             offset = _closure1_slot8;
- 1461:
+ 1462:
             entity['channelId'] = offset;
             entity['avatars'] = verify;
             golfie = golfie.length;
             golfie = option === golfie;
             entity['isInactive'] = golfie;
-            if(report) { _fun00002_ip = 1492; continue _fun00001 }
- 1489:
+            if(report) { _fun00002_ip = 1493; continue _fun00001 }
+ 1490:
             report = !oscard;
- 1492:
+ 1493:
             entity['joinDisabled'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

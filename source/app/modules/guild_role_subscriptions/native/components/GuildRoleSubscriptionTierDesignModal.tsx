@@ -193,12 +193,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             entity = entity != michal;
             source = undefined;
-            if(!entity) { _fun00002_ip = 242; continue _fun00001 }
+            if(!entity) { _fun00002_ip = 243; continue _fun00001 }
  233:
             entity = {};
             entity['uri'] = michal;
             source = entity;
- 242:
+ 243:
             result = _closure1_slot0;
             romeon = _closure1_slot3;
             entity = 14;

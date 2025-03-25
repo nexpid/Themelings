@@ -1,4 +1,4 @@
-// app/modules/nameplates/experiments/NameplatesExperiment.tsx
+// app/modules/nameplates/experiments/NameplatesViewExperiment.tsx
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     oscard = argBar;
     zuuluu = argFre;
@@ -43,9 +43,9 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
-    report = 'modules/nameplates/experiments/NameplatesExperiment.tsx';
+    report = 'modules/nameplates/experiments/NameplatesViewExperiment.tsx';
     report = oscard.bind(golfie)(report);
-    zuuluu['NameplatesExperiment'] = tangon;
+    zuuluu['NameplatesViewExperiment'] = tangon;
     tangon = function(argFoo) {
         tangon = _closure1_slot0;
         zuuluu = tangon.useExperiment;

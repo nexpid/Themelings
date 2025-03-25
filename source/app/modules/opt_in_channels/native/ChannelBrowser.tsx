@@ -1014,7 +1014,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = oscard.FlashList;
             oscard = {};
             foxtra = null;
-            if(backup) { _fun00010_ip = 1173; continue _fun00009 }
+            if(backup) { _fun00010_ip = 1165; continue _fun00009 }
  615:
             sizing = _closure1_slot15;
             kiloes = _closure1_slot5;
@@ -1152,7 +1152,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output[2] = result;
             backup['children'] = output;
             foxtra = sizing.bind(tangon)(kiloes, backup);
- 1173:
+ 1165:
             oscard['ListHeaderComponent'] = foxtra;
             output = _closure1_slot0;
             foxtra = _closure1_slot2;

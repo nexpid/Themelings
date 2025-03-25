@@ -41,14 +41,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
             michal['location'] = entity;
             entity = {};
             entity['autoTrackExposure'] = report;
-            michal = zuuluu.bind(tangon)(michal, entity);
-            entity = {};
-            zuuluu = michal.enabled;
-            entity['enabled'] = zuuluu;
-            zuuluu = michal.version;
-            entity['version'] = zuuluu;
-            michal = michal.isBadgeVersion2;
-            entity['isBadgeVersion2'] = michal;
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };

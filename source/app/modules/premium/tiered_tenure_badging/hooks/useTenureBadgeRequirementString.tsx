@@ -17,10 +17,8 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     michal = golfie[entity];
     entity = undefined;
     michal = oscard.bind(entity)(michal);
-    report = michal.TieredTenureBadgeV1;
-    var _closure1_slot2 = report;
-    michal = michal.TieredTenureBadgeV2;
-    var _closure1_slot3 = michal;
+    michal = michal.TieredTenureBadge;
+    var _closure1_slot2 = michal;
     michal = function(argFoo, argBar) { // Original name: getTenureBadgeRequirementString
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -28,71 +26,39 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             report = argBar;
             michal = _closure1_slot2;
             michal = michal.PREMIUM_TENURE_1_MONTH;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 420; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 284; continue _fun00001 }
  26:
             michal = _closure1_slot2;
             michal = michal.PREMIUM_TENURE_3_MONTH;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 420; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 284; continue _fun00001 }
  43:
             michal = _closure1_slot2;
             michal = michal.PREMIUM_TENURE_6_MONTH;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 420; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 284; continue _fun00001 }
  60:
-            michal = _closure1_slot3;
-            michal = michal.PREMIUM_TENURE_1_MONTH;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 420; continue _fun00001 }
+            michal = _closure1_slot2;
+            michal = michal.PREMIUM_TENURE_12_MONTH;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 210; continue _fun00001 }
  77:
-            michal = _closure1_slot3;
-            michal = michal.PREMIUM_TENURE_3_MONTH;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 420; continue _fun00001 }
- 94:
-            michal = _closure1_slot3;
-            michal = michal.PREMIUM_TENURE_6_MONTH;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 420; continue _fun00001 }
- 111:
-            michal = _closure1_slot2;
-            michal = michal.PREMIUM_TENURE_12_MONTH;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 346; continue _fun00001 }
- 128:
             michal = _closure1_slot2;
             michal = michal.PREMIUM_TENURE_24_MONTH;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 346; continue _fun00001 }
- 145:
+            if(!(michal !== zuuluu)) { _fun00002_ip = 210; continue _fun00001 }
+ 91:
             michal = _closure1_slot2;
             michal = michal.PREMIUM_TENURE_36_MONTH;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 346; continue _fun00001 }
- 162:
+            if(!(michal !== zuuluu)) { _fun00002_ip = 210; continue _fun00001 }
+ 105:
             michal = _closure1_slot2;
             michal = michal.PREMIUM_TENURE_60_MONTH;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 346; continue _fun00001 }
- 179:
-            michal = _closure1_slot3;
-            michal = michal.PREMIUM_TENURE_12_MONTH;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 346; continue _fun00001 }
- 196:
-            michal = _closure1_slot3;
-            michal = michal.PREMIUM_TENURE_24_MONTH;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 346; continue _fun00001 }
- 213:
-            michal = _closure1_slot3;
-            michal = michal.PREMIUM_TENURE_36_MONTH;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 346; continue _fun00001 }
- 227:
-            michal = _closure1_slot3;
-            michal = michal.PREMIUM_TENURE_60_MONTH;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 346; continue _fun00001 }
- 241:
+            if(!(michal !== zuuluu)) { _fun00002_ip = 210; continue _fun00001 }
+ 119:
             michal = _closure1_slot2;
             michal = michal.PREMIUM_TENURE_72_MONTH;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 273; continue _fun00001 }
- 255:
-            michal = _closure1_slot3;
-            michal = michal.PREMIUM_TENURE_72_MONTH;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 273; continue _fun00001 }
- 269:
+            if(!(michal !== zuuluu)) { _fun00002_ip = 137; continue _fun00001 }
+ 133:
             michal = null;
             return michal;
- 273:
+ 137:
             golfie = _closure1_slot0;
             option = _closure1_slot1;
             michal = 3;
@@ -110,7 +76,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal['years'] = golfie;
             michal = tangon.bind(oscard)(zuuluu, michal);
             return michal;
- 346:
+ 210:
             golfie = _closure1_slot0;
             option = _closure1_slot1;
             michal = 3;
@@ -129,7 +95,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal['years'] = golfie;
             michal = tangon.bind(oscard)(zuuluu, michal);
             return michal;
- 420:
+ 284:
             oscard = _closure1_slot0;
             golfie = _closure1_slot1;
             entity = 3;
@@ -148,7 +114,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot4 = michal;
+    var _closure1_slot3 = michal;
     report = 4;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
@@ -178,7 +144,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = zuuluu.bind(tangon)(oscard);
             tangon = zuuluu.id;
             zuuluu = zuuluu.tenureReqNumMonths;
-            michal = _closure1_slot4;
+            michal = _closure1_slot3;
             michal = michal.bind(report)(tangon, zuuluu);
             return michal;
  95:

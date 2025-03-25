@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity.layoutUITime;
             michal = tangon != zuuluu;
  31:
-            if(!michal) { _fun00002_ip = 282; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 280; continue _fun00001 }
  37:
             report = _closure1_slot1;
             tangon = _closure1_slot2;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = oscard;
             verify = zuuluu;
             entity = foxtra[tangon](romeon, yankee, offset, verify, option);
- 282:
+ 280:
             entity = undefined;
             return entity;
         }

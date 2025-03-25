@@ -160,6 +160,63 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     var _closure1_slot9 = entity;
+    entity = function(argFoo, argBar) { // Original name: recalculateState
+        entity = argFoo;
+        oscard = entity.guildId;
+        report = entity.entitlements;
+        entity = argBar;
+        var _closure2_slot0 = entity;
+        tangon = _closure1_slot9;
+        entity = undefined;
+        golfie = tangon.bind(entity)(oscard);
+        var _closure2_slot1 = golfie;
+        tangon = report.forEach;
+        michal = function(argFoo) {
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+ 0:
+                tangon = argFoo;
+                entity = _closure2_slot0;
+                michal = _closure2_slot1;
+                zuuluu = michal.unlocked;
+                if(entity) { _fun00010_ip = 41; continue _fun00009 }
+ 23:
+                michal = zuuluu.delete;
+                entity = tangon.sku_id;
+                entity = michal.bind(zuuluu)(entity);
+                _fun00010_ip = 58; continue _fun00009;
+ 41:
+                michal = zuuluu.set;
+                entity = tangon.sku_id;
+                entity = michal.bind(zuuluu)(entity, tangon);
+ 58:
+                entity = undefined;
+                return entity;
+            }
+        };
+        michal = tangon.bind(report)(michal);
+        tangon = _closure1_slot8;
+        michal = golfie.unlocked;
+        option = tangon.bind(entity)(michal);
+        michal = global;
+        report = michal.Map;
+        offset = _closure1_slot5;
+        tangon = report.prototype;
+        tangon = Object.create(tangon, {constructor: {value: report}});
+        yankee = tangon;
+        michal = new yankee[report](offset, verify);
+        michal = michal instanceof Object ? michal : tangon;
+        report = michal.set;
+        tangon = {};
+        offset = tangon;
+        verify = golfie;
+        golfie = copyDataProperties(offset, verify);
+        golfie = 'appliedBoosts';
+        tangon[golfie] = option;
+        tangon = report.bind(michal)(oscard, tangon);
+        _closure1_slot5 = michal;
+        return entity;
+    };
+    var _closure1_slot10 = entity;
     michal = global;
     verify = michal.Object;
     option = verify.defineProperty;
@@ -300,88 +357,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['GUILD_UNLOCKED_POWERUPS_FETCH_SUCCESS'] = option;
     option = function(argFoo) { // Original name: handleGuildPowerupCreated
-        entity = argFoo;
-        oscard = entity.guildId;
-        report = entity.entitlements;
-        tangon = _closure1_slot9;
+        tangon = _closure1_slot10;
         entity = undefined;
-        golfie = tangon.bind(entity)(oscard);
-        var _closure2_slot0 = golfie;
-        tangon = report.forEach;
-        michal = function(argFoo) {
-            tangon = argFoo;
-            entity = _closure2_slot0;
-            zuuluu = entity.unlocked;
-            michal = zuuluu.set;
-            entity = tangon.sku_id;
-            entity = michal.bind(zuuluu)(entity, tangon);
-            entity = undefined;
-            return entity;
-        };
-        michal = tangon.bind(report)(michal);
-        tangon = _closure1_slot8;
-        michal = golfie.unlocked;
-        option = tangon.bind(entity)(michal);
-        michal = global;
-        report = michal.Map;
-        offset = _closure1_slot5;
-        tangon = report.prototype;
-        tangon = Object.create(tangon, {constructor: {value: report}});
-        yankee = tangon;
-        michal = new yankee[report](offset, verify);
-        michal = michal instanceof Object ? michal : tangon;
-        report = michal.set;
-        tangon = {};
-        offset = tangon;
-        verify = golfie;
-        golfie = copyDataProperties(offset, verify);
-        golfie = 'appliedBoosts';
-        tangon[golfie] = option;
-        tangon = report.bind(michal)(oscard, tangon);
-        _closure1_slot5 = michal;
+        zuuluu = argFoo;
+        michal = true;
+        michal = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
     michal['GUILD_POWERUP_ENTITLEMENTS_CREATE'] = option;
     tangon = function(argFoo) { // Original name: handleGuildPowerupDeleted
-        entity = argFoo;
-        oscard = entity.guildId;
-        report = entity.entitlements;
-        tangon = _closure1_slot9;
+        tangon = _closure1_slot10;
         entity = undefined;
-        golfie = tangon.bind(entity)(oscard);
-        var _closure2_slot0 = golfie;
-        tangon = report.forEach;
-        michal = function(argFoo) {
-            entity = _closure2_slot0;
-            zuuluu = entity.unlocked;
-            michal = zuuluu.delete;
-            entity = argFoo;
-            entity = entity.sku_id;
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
-        };
-        michal = tangon.bind(report)(michal);
-        tangon = _closure1_slot8;
-        michal = golfie.unlocked;
-        option = tangon.bind(entity)(michal);
-        michal = global;
-        report = michal.Map;
-        offset = _closure1_slot5;
-        tangon = report.prototype;
-        tangon = Object.create(tangon, {constructor: {value: report}});
-        yankee = tangon;
-        michal = new yankee[report](offset, verify);
-        michal = michal instanceof Object ? michal : tangon;
-        report = michal.set;
-        tangon = {};
-        offset = tangon;
-        verify = golfie;
-        golfie = copyDataProperties(offset, verify);
-        golfie = 'appliedBoosts';
-        tangon[golfie] = option;
-        tangon = report.bind(michal)(oscard, tangon);
-        _closure1_slot5 = michal;
+        zuuluu = argFoo;
+        michal = false;
+        michal = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
     michal['GUILD_POWERUP_ENTITLEMENTS_DELETE'] = tangon;

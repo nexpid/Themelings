@@ -948,11 +948,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = report.user_id;
                 entity['userId'] = michal;
                 michal = report.latest_invoice;
-                if(!(tangon == michal)) { _fun00030_ip = 568; continue _fun00029 }
- 564:
+                if(!(tangon == michal)) { _fun00030_ip = 566; continue _fun00029 }
+ 562:
                 michal = {};
-                _fun00030_ip = 599; continue _fun00029;
- 568:
+                _fun00030_ip = 597; continue _fun00029;
+ 566:
                 tangon = {};
                 golfie = _closure1_slot8;
                 oscard = golfie.createInvoiceFromServer;
@@ -960,7 +960,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = oscard.bind(golfie)(report);
                 tangon['latestInvoice'] = report;
                 michal = tangon;
- 599:
+ 597:
                 foxtra = entity;
                 romeon = michal;
                 michal = copyDataProperties(foxtra, romeon);

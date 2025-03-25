@@ -193,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00004_ip = 216; continue _fun00003 }
+                        if(michal) { _fun00004_ip = 217; continue _fun00003 }
  10:
                         golfie = {};
                         michal = _closure2_slot6;
@@ -225,19 +225,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         golfie['description'] = michal;
  89:
                         michal = _closure2_slot4;
-                        if(!(report != michal)) { _fun00004_ip = 112; continue _fun00003 }
+                        if(!(report != michal)) { _fun00004_ip = 113; continue _fun00003 }
  97:
                         michal = _closure2_slot4;
                         michal = michal.uri;
                         golfie['cover_image'] = michal;
- 112:
+ 113:
                         zuuluu = _closure2_slot3;
                         michal = _closure2_slot7;
-                        if(!(zuuluu !== michal)) { _fun00004_ip = 136; continue _fun00003 }
- 124:
+                        if(!(zuuluu !== michal)) { _fun00004_ip = 137; continue _fun00003 }
+ 125:
                         michal = _closure2_slot7;
                         golfie['full_server_gate'] = michal;
- 136:
+ 137:
                         oscard = _closure1_slot1;
                         zuuluu = _closure1_slot3;
                         michal = 16;
@@ -246,26 +246,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         oscard = oscard.bind(michal)(zuuluu);
                         zuuluu = oscard.isEmpty;
                         zuuluu = zuuluu.bind(oscard)(golfie);
-                        if(zuuluu) { _fun00004_ip = 213; continue _fun00003 }
- 175:
+                        if(zuuluu) { _fun00004_ip = 214; continue _fun00003 }
+ 176:
                         oscard = _closure2_slot9;
                         zuuluu = _closure2_slot0;
                         zuuluu = oscard.bind(michal)(zuuluu, golfie);
-                        SaveGenerator(address=193);
- 191:
+                        SaveGenerator(address=194);
+ 192:
                         return zuuluu;
- 193:
+ 194:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                        if(oscard) { _fun00004_ip = 210; continue _fun00003 }
- 199:
+                        if(oscard) { _fun00004_ip = 211; continue _fun00003 }
+ 200:
                         tangon = _closure2_slot5;
                         tangon = tangon.bind(michal)(report);
-                        _fun00004_ip = 213; continue _fun00003;
- 210:
+                        _fun00004_ip = 214; continue _fun00003;
+ 211:
                         return zuuluu;
- 213:
+ 214:
                         return michal;
- 216:
+ 217:
                         return entity;
                     }
                 };

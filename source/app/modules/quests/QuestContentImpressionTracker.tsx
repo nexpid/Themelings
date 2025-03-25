@@ -518,16 +518,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         };
         var _closure2_slot0 = zuuluu;
         entity = {};
-        report = 'getId';
-        entity['key'] = report;
+        michal = 'getId';
+        entity['key'] = michal;
         michal = function() { // Original name: value
             entity = this;
             entity = entity.id;
             return entity;
         };
         entity['value'] = michal;
-        michal = new Array(1);
+        michal = new Array(2);
         michal[0] = entity;
+        entity = {};
+        oscard = 'getQuestContentPosition';
+        entity['key'] = oscard;
+        report = function() { // Original name: value
+            entity = this;
+            entity = entity.questContentPosition;
+            return entity;
+        };
+        entity['value'] = report;
+        michal[1] = entity;
         entity = undefined;
         entity = tangon.bind(entity)(zuuluu, michal);
         return entity;

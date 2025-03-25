@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['variant'] = romeon;
             report['children'] = yankee;
             report = option.bind(tangon)(golfie, report);
-            _fun00002_ip = 245; continue _fun00001;
+            _fun00002_ip = 246; continue _fun00001;
  184:
             option = _closure1_slot6;
             golfie = _closure1_slot1;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['uri'] = offset;
             oscard['source'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 245:
+ 246:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

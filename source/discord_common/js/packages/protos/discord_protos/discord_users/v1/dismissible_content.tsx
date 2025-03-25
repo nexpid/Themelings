@@ -1550,6 +1550,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['NAMEPLATE_USER_SETTINGS_PROFILE_PAGE_NEW_BADGE'] = michal;
     entity = 'NAMEPLATE_USER_SETTINGS_PROFILE_PAGE_NEW_BADGE';
     tangon[michal] = entity;
+    michal = 525;
+    tangon['DESKTOP_REFRESH_ONBOARDING_MODAL'] = michal;
+    entity = 'DESKTOP_REFRESH_ONBOARDING_MODAL';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

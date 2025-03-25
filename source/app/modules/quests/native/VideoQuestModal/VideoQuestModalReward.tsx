@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsxs;
     var _closure1_slot6 = tangon;
-    tangon = 11;
+    tangon = 12;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -45,8 +45,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             michal = argFoo;
-            source = michal.quest;
-            var _closure2_slot0 = source;
             report = michal.style;
             offset = _closure1_slot0;
             backup = _closure1_slot2;
@@ -54,9 +52,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = backup[michal];
             tangon = undefined;
             zuuluu = offset.bind(tangon)(michal);
+            michal = zuuluu.useVideoQuestModalContext;
+            michal = michal.bind(zuuluu)();
+            source = michal.quest;
+            var _closure2_slot0 = source;
+            michal = 4;
+            michal = backup[michal];
+            zuuluu = offset.bind(tangon)(michal);
             michal = zuuluu.useQuestTaskDetails;
             sizing = michal.bind(zuuluu)(source);
-            michal = 4;
+            michal = 5;
             michal = backup[michal];
             oscard = offset.bind(tangon)(michal);
             zuuluu = oscard.useIsQuestBarRewardAvailableExclamationEnabled;
@@ -73,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = function() {
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
-                entity = 5;
+                entity = 6;
                 michal = michal[entity];
                 entity = undefined;
                 tangon = zuuluu.bind(entity)(michal);
@@ -87,13 +92,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             kiloes = zuuluu.bind(oscard)(entity, michal);
             zuuluu = _closure1_slot6;
-            oscard = 6;
+            oscard = 7;
             entity = backup[oscard];
             entity = offset.bind(tangon)(entity);
             michal = entity.Stack;
             entity = {};
             verify = _closure1_slot1;
-            option = 7;
+            option = 8;
             golfie = backup[option];
             golfie = verify.bind(tangon)(golfie);
             golfie = golfie.spacing;
@@ -101,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['spacing'] = golfie;
             entity['style'] = report;
             yankee = _closure1_slot5;
-            report = 8;
+            report = 9;
             report = backup[report];
             golfie = verify.bind(tangon)(report);
             report = {'hasConfetti': true, 'quest': null, 'size': 'md'};
@@ -123,12 +128,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.spacing;
             option = option.PX_4;
             oscard['spacing'] = option;
-            verify = 9;
+            verify = 10;
             option = backup[verify];
             option = offset.bind(tangon)(option);
             kiloes = option.Text;
             option = {'variant': 'heading-md/medium', 'color': 'text-primary'};
-            output = 10;
+            output = 11;
             sizing = backup[output];
             sizing = offset.bind(tangon)(sizing);
             update = sizing.intl;
@@ -160,15 +165,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra[output];
             foxtra = sizing.bind(tangon)(foxtra);
             foxtra = foxtra.t;
-            if(romeon) { _fun00002_ip = 512; continue _fun00001 }
- 497:
+            if(romeon) { _fun00002_ip = 534; continue _fun00001 }
+ 519:
             romeon = foxtra.2BD0CQ;
             romeon = backup.bind(kiloes)(romeon);
-            _fun00002_ip = 525; continue _fun00001;
- 512:
+            _fun00002_ip = 547; continue _fun00001;
+ 534:
             foxtra = foxtra.1Wvve3;
             romeon = backup.bind(kiloes)(foxtra);
- 525:
+ 547:
             verify['children'] = romeon;
             verify = yankee.bind(tangon)(offset, verify);
             option[1] = verify;

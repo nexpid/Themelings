@@ -7,8 +7,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     golfie = entity.Object;
     tangon = golfie.defineProperty;
     michal = {};
-    entity = true;
-    michal['value'] = entity;
+    yankee = true;
+    michal['value'] = yankee;
     entity = '__esModule';
     entity = tangon.bind(golfie)(zuuluu, entity, michal);
     entity = 0;
@@ -23,11 +23,14 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal = {'kind': 'user', 'id': '2025-01_tiered_tenure_badges_mobile', 'label': 'Tiered Tenure Badging Mobile Experience'};
     tangon = tangon.CONNECTION_OPEN;
     michal['commonTriggerPoint'] = tangon;
-    tangon = {'enabled': false, 'isBadgeVersion2': false};
+    tangon = {};
+    verify = false;
+    tangon['enabled'] = verify;
     michal['defaultConfig'] = tangon;
     offset = {'id': 2, 'label': 'Enable Tiered Tenure Badges v2 on mobile'};
     tangon = 2;
-    verify = {'enabled': true, 'version': 2, 'isBadgeVersion2': true};
+    verify = {};
+    verify['enabled'] = yankee;
     offset['config'] = verify;
     verify = new Array(1);
     verify[0] = offset;
