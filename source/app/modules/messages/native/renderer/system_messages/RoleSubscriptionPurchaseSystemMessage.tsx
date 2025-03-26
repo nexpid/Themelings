@@ -238,22 +238,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             oscard = entity == golfie;
             tangon = undefined;
-            if(oscard) { _fun00004_ip = 113; continue _fun00003 }
- 103:
+            if(oscard) { _fun00004_ip = 115; continue _fun00003 }
+ 105:
             oscard = golfie.getGuildId;
             tangon = oscard.bind(golfie)();
- 113:
+ 115:
             golfie = entity != tangon;
             oscard = undefined;
-            if(!golfie) { _fun00004_ip = 125; continue _fun00003 }
- 122:
+            if(!golfie) { _fun00004_ip = 127; continue _fun00003 }
+ 124:
             oscard = tangon;
- 125:
+ 127:
             golfie = zuuluu.roleSubscriptionData;
             zuuluu = entity == golfie;
             entity = null;
-            if(zuuluu) { _fun00004_ip = 170; continue _fun00003 }
- 140:
+            if(zuuluu) { _fun00004_ip = 172; continue _fun00003 }
+ 142:
             tangon = _closure1_slot7;
             zuuluu = _closure1_slot8;
             michal = {};
@@ -261,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['roleSubscriptionData'] = golfie;
             michal['guildId'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 170:
+ 172:
             return entity;
         }
     };

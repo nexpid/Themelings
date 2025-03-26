@@ -18,11 +18,13 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = report.fileFinishedImporting;
     michal = '../discord_common/js/shared/shared-constants/RecentAvatarsConstants.tsx';
     michal = tangon.bind(report)(michal);
-    michal = 6;
-    zuuluu['MAX_NUMBER_ARCHIVED_AVATARS'] = michal;
-    zuuluu['MAX_NUMBER_AVAILABLE_RECENT_AVATARS_WITH_PREMIUM'] = michal;
+    tangon = 6;
+    zuuluu['MAX_NUMBER_ARCHIVED_AVATARS'] = tangon;
+    zuuluu['MAX_NUMBER_AVAILABLE_RECENT_AVATARS_WITH_PREMIUM'] = tangon;
     michal = 2;
     zuuluu['MAX_NUMBER_AVAILABLE_RECENT_AVATARS_WITHOUT_PREMIUM'] = michal;
+    zuuluu['MAX_NUMBER_ARCHIVED_AVATARS_WITH_PREMIUM'] = tangon;
+    zuuluu['MAX_NUMBER_ARCHIVED_AVATARS_WITHOUT_PREMIUM'] = michal;
     michal = 1024;
     zuuluu['MAX_USER_ASSET_DESCRIPTION_LENGTH'] = michal;
     return entity;

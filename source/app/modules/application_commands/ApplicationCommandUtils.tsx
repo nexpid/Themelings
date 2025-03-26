@@ -1347,7 +1347,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.CommandOrigin;
             zuuluu = zuuluu.CHAT;
-            if(!(zuuluu !== tangon)) { _fun00032_ip = 589; continue _fun00031 }
+            if(!(zuuluu !== tangon)) { _fun00032_ip = 625; continue _fun00031 }
  47:
             report = _closure1_slot0;
             zuuluu = _closure1_slot3;
@@ -1355,7 +1355,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.CommandOrigin;
             zuuluu = zuuluu.APPLICATION_LAUNCHER;
-            if(!(zuuluu !== tangon)) { _fun00032_ip = 577; continue _fun00031 }
+            if(!(zuuluu !== tangon)) { _fun00032_ip = 613; continue _fun00031 }
  83:
             report = _closure1_slot0;
             zuuluu = _closure1_slot3;
@@ -1363,7 +1363,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.CommandOrigin;
             zuuluu = zuuluu.APP_LAUNCHER_APPLICATION_VIEW;
-            if(!(zuuluu !== tangon)) { _fun00032_ip = 577; continue _fun00031 }
+            if(!(zuuluu !== tangon)) { _fun00032_ip = 613; continue _fun00031 }
  119:
             report = _closure1_slot0;
             zuuluu = _closure1_slot3;
@@ -1371,7 +1371,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.CommandOrigin;
             zuuluu = zuuluu.CONTEXT_MENU;
-            if(!(zuuluu !== tangon)) { _fun00032_ip = 577; continue _fun00031 }
+            if(!(zuuluu !== tangon)) { _fun00032_ip = 613; continue _fun00031 }
  155:
             report = _closure1_slot0;
             zuuluu = _closure1_slot3;
@@ -1379,7 +1379,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.CommandOrigin;
             zuuluu = zuuluu.VOICE_UI;
-            if(!(zuuluu !== tangon)) { _fun00032_ip = 577; continue _fun00031 }
+            if(!(zuuluu !== tangon)) { _fun00032_ip = 613; continue _fun00031 }
  191:
             report = _closure1_slot0;
             zuuluu = _closure1_slot3;
@@ -1387,7 +1387,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.CommandOrigin;
             zuuluu = zuuluu.VOICE_TILE_ACTIVITY_SUGGESTIONS;
-            if(!(zuuluu !== tangon)) { _fun00032_ip = 577; continue _fun00031 }
+            if(!(zuuluu !== tangon)) { _fun00032_ip = 613; continue _fun00031 }
  227:
             report = _closure1_slot0;
             zuuluu = _closure1_slot3;
@@ -1395,7 +1395,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.CommandOrigin;
             zuuluu = zuuluu.MINI_SHELF;
-            if(!(zuuluu !== tangon)) { _fun00032_ip = 577; continue _fun00031 }
+            if(!(zuuluu !== tangon)) { _fun00032_ip = 613; continue _fun00031 }
  263:
             report = _closure1_slot0;
             zuuluu = _closure1_slot3;
@@ -1403,7 +1403,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.CommandOrigin;
             zuuluu = zuuluu.USER_PROFILE;
-            if(!(zuuluu !== tangon)) { _fun00032_ip = 577; continue _fun00031 }
+            if(!(zuuluu !== tangon)) { _fun00032_ip = 613; continue _fun00031 }
  299:
             report = _closure1_slot0;
             zuuluu = _closure1_slot3;
@@ -1411,7 +1411,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.CommandOrigin;
             zuuluu = zuuluu.NOW_PLAYING;
-            if(!(zuuluu !== tangon)) { _fun00032_ip = 577; continue _fun00031 }
+            if(!(zuuluu !== tangon)) { _fun00032_ip = 613; continue _fun00031 }
  335:
             report = _closure1_slot0;
             zuuluu = _closure1_slot3;
@@ -1419,7 +1419,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.CommandOrigin;
             zuuluu = zuuluu.ACTIVITY_DETAILS;
-            if(!(zuuluu !== tangon)) { _fun00032_ip = 577; continue _fun00031 }
+            if(!(zuuluu !== tangon)) { _fun00032_ip = 613; continue _fun00031 }
  371:
             report = _closure1_slot0;
             zuuluu = _closure1_slot3;
@@ -1427,7 +1427,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.CommandOrigin;
             zuuluu = zuuluu.ACTIVITIES_HOME;
-            if(!(zuuluu !== tangon)) { _fun00032_ip = 577; continue _fun00031 }
+            if(!(zuuluu !== tangon)) { _fun00032_ip = 613; continue _fun00031 }
  407:
             report = _closure1_slot0;
             zuuluu = _closure1_slot3;
@@ -1435,7 +1435,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.CommandOrigin;
             zuuluu = zuuluu.ACTIVITY_INSTANCE_EMBED;
-            if(!(zuuluu !== tangon)) { _fun00032_ip = 577; continue _fun00031 }
+            if(!(zuuluu !== tangon)) { _fun00032_ip = 613; continue _fun00031 }
  443:
             report = _closure1_slot0;
             zuuluu = _closure1_slot3;
@@ -1443,38 +1443,46 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.CommandOrigin;
             zuuluu = zuuluu.ACTIVITY_BOOKMARK_EMBED;
-            if(!(zuuluu !== tangon)) { _fun00032_ip = 577; continue _fun00031 }
- 476:
+            if(!(zuuluu !== tangon)) { _fun00032_ip = 613; continue _fun00031 }
+ 479:
+            report = _closure1_slot0;
+            zuuluu = _closure1_slot3;
+            zuuluu = zuuluu[oscard];
+            zuuluu = report.bind(michal)(zuuluu);
+            zuuluu = zuuluu.CommandOrigin;
+            zuuluu = zuuluu.APP_MESSAGE_EMBED;
+            if(!(zuuluu !== tangon)) { _fun00032_ip = 613; continue _fun00031 }
+ 512:
             report = _closure1_slot0;
             zuuluu = _closure1_slot3;
             zuuluu = zuuluu[oscard];
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.CommandOrigin;
             zuuluu = zuuluu.APP_DMS_ENTRY_POINT_COMMAND_BUTTON;
-            if(!(zuuluu !== tangon)) { _fun00032_ip = 577; continue _fun00031 }
- 509:
+            if(!(zuuluu !== tangon)) { _fun00032_ip = 613; continue _fun00031 }
+ 545:
             report = _closure1_slot0;
             zuuluu = _closure1_slot3;
             zuuluu = zuuluu[oscard];
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.CommandOrigin;
             zuuluu = zuuluu.IMAGE_RECS_MENU;
-            if(!(zuuluu !== tangon)) { _fun00032_ip = 577; continue _fun00031 }
- 542:
+            if(!(zuuluu !== tangon)) { _fun00032_ip = 613; continue _fun00031 }
+ 578:
             report = _closure1_slot0;
             zuuluu = _closure1_slot3;
             zuuluu = zuuluu[oscard];
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.CommandOrigin;
             zuuluu = zuuluu.IMAGE_RECS_SUBMENU;
-            if(!(zuuluu !== tangon)) { _fun00032_ip = 577; continue _fun00031 }
- 575:
+            if(!(zuuluu !== tangon)) { _fun00032_ip = 613; continue _fun00031 }
+ 611:
             return michal;
- 577:
+ 613:
             michal = _closure1_slot5;
             michal = michal.ApplicationLauncherCommand;
             return michal;
- 589:
+ 625:
             entity = _closure1_slot5;
             entity = entity.SlashCommand;
             return entity;
@@ -1716,7 +1724,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['trackCommandSelected'] = tangon;
-    michal = function(argFoo) { // Original name: getInitialInteractionMetadata
+    tangon = function(argFoo) { // Original name: getInitialInteractionMetadata
         _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
  0:
             entity = argFoo;
@@ -1737,6 +1745,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['getInitialInteractionMetadata'] = michal;
+    zuuluu['getInitialInteractionMetadata'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: hasCommandIndexForApp
+        _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
+ 0:
+            entity = argBar;
+            michal = entity.result;
+            entity = null;
+            tangon = entity == michal;
+            zuuluu = undefined;
+            if(tangon) { _fun00044_ip = 26; continue _fun00043 }
+ 20:
+            zuuluu = michal.sections;
+ 26:
+            entity = entity != zuuluu;
+            if(!entity) { _fun00044_ip = 40; continue _fun00043 }
+ 33:
+            michal = argFoo;
+            entity = michal in zuuluu;
+ 40:
+            return entity;
+        }
+    };
+    zuuluu['hasCommandIndexForApp'] = michal;
     return entity;
 })();

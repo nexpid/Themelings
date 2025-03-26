@@ -111,11 +111,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = golfie;
             verify = output[zuuluu](sizing, kiloes, backup, foxtra, romeon);
             entity = null;
-            if(!(entity != verify)) { _fun00002_ip = 368; continue _fun00001 }
- 144:
+            if(!(entity != verify)) { _fun00002_ip = 370; continue _fun00001 }
+ 146:
             option = verify.colorString;
-            if(!(entity == option)) { _fun00002_ip = 189; continue _fun00001 }
- 154:
+            if(!(entity == option)) { _fun00002_ip = 191; continue _fun00001 }
+ 156:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
             michal = 6;
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = tangon.int2hex;
             michal = _closure1_slot6;
             option = zuuluu.bind(tangon)(michal);
- 189:
+ 191:
             zuuluu = _closure1_slot1;
             yankee = _closure1_slot2;
             tangon = 7;
@@ -143,15 +143,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.getDarkness;
             zuuluu = michal.bind(zuuluu)(offset);
             michal = 0.3;
-            if(!(zuuluu < michal)) { _fun00002_ip = 309; continue _fun00001 }
- 281:
+            if(!(zuuluu < michal)) { _fun00002_ip = 311; continue _fun00001 }
+ 283:
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
             michal = michal[tangon];
             michal = zuuluu.bind(report)(michal);
             michal = michal.unsafe_rawColors;
             golfie = michal.PRIMARY_630;
- 309:
+ 311:
             tangon = _closure1_slot7;
             zuuluu = _closure1_slot8;
             michal = {};
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['iconColor'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 368:
+ 370:
             return entity;
         }
     };

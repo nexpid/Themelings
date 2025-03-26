@@ -377,7 +377,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = 2;
                 michal = tangon[michal];
                 tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.cancelLocalNotifications;
+                zuuluu = tangon.scheduleLocalNotification;
                 michal = argFoo;
                 michal = zuuluu.bind(tangon)(michal);
  71:

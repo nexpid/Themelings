@@ -91,11 +91,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = zuuluu.getCurrentUser;
             tangon = entity.bind(zuuluu)();
             entity = null;
-            if(!(entity != tangon)) { _fun00006_ip = 112; continue _fun00005 }
+            if(!(entity != tangon)) { _fun00006_ip = 110; continue _fun00005 }
  25:
             zuuluu = tangon.isStaff;
             zuuluu = zuuluu.bind(tangon)();
-            if(!zuuluu) { _fun00006_ip = 112; continue _fun00005 }
+            if(!zuuluu) { _fun00006_ip = 110; continue _fun00005 }
  38:
             oscard = _closure1_slot0;
             tangon = oscard.getChannel;
@@ -103,14 +103,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.channel_id;
             tangon = tangon.bind(oscard)(zuuluu);
             entity = entity != tangon;
-            if(!entity) { _fun00006_ip = 110; continue _fun00005 }
+            if(!entity) { _fun00006_ip = 108; continue _fun00005 }
  67:
             zuuluu = _closure1_slot4;
             michal = undefined;
             michal = zuuluu.bind(michal)(tangon);
             zuuluu = !michal;
             michal = !zuuluu;
-            if(zuuluu) { _fun00006_ip = 107; continue _fun00005 }
+            if(zuuluu) { _fun00006_ip = 105; continue _fun00005 }
  87:
             tangon = report.some;
             zuuluu = function(argFoo) {
@@ -140,11 +140,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             michal = tangon.bind(report)(zuuluu);
- 107:
+ 105:
             entity = michal;
- 110:
+ 108:
             return entity;
- 112:
+ 110:
             entity = false;
             return entity;
         }

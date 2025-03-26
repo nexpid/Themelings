@@ -1058,11 +1058,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             zuuluu = entity == tangon;
             sizing = undefined;
-            if(zuuluu) { _fun00004_ip = 208; continue _fun00003 }
- 198:
+            if(zuuluu) { _fun00004_ip = 214; continue _fun00003 }
+ 204:
             zuuluu = tangon.getGuildId;
             sizing = zuuluu.bind(tangon)();
- 208:
+ 214:
             tangon = _closure1_slot0;
             oscard = _closure1_slot2;
             zuuluu = 15;
@@ -1075,12 +1075,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = backup.author;
             zuuluu = entity != kiloes;
             offset = undefined;
-            if(!zuuluu) { _fun00004_ip = 324; continue _fun00003 }
- 266:
+            if(!zuuluu) { _fun00004_ip = 330; continue _fun00003 }
+ 272:
             zuuluu = entity != sizing;
             offset = undefined;
-            if(!zuuluu) { _fun00004_ip = 324; continue _fun00003 }
- 275:
+            if(!zuuluu) { _fun00004_ip = 330; continue _fun00003 }
+ 281:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
             zuuluu = 26;
@@ -1093,15 +1093,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = 18;
             zuuluu['size'] = kiloes;
             offset = oscard.bind(golfie)(zuuluu);
- 324:
+ 330:
             zuuluu = _closure1_slot4;
             zuuluu = zuuluu.bind(report)(tangon);
             tangon = entity != zuuluu;
             golfie = null;
-            if(!tangon) { _fun00004_ip = 345; continue _fun00003 }
- 342:
+            if(!tangon) { _fun00004_ip = 351; continue _fun00003 }
+ 348:
             golfie = zuuluu;
- 345:
+ 351:
             tangon = _closure1_slot0;
             oscard = _closure1_slot2;
             zuuluu = 33;
@@ -1144,8 +1144,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             michal = tangon.bind(oscard)(michal, zuuluu);
-            if(!(entity != michal)) { _fun00004_ip = 633; continue _fun00003 }
- 432:
+            if(!(entity != michal)) { _fun00004_ip = 641; continue _fun00003 }
+ 440:
             oscard = michal.autoModerationContext;
             tangon = _closure1_slot13;
             zuuluu = _closure1_slot1;
@@ -1190,7 +1190,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['autoModerationContext'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 633:
+ 641:
             return entity;
         }
     };

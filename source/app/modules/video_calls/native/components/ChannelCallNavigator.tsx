@@ -173,18 +173,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = option.useState;
             entity = verify == kiloes;
             yankee = undefined;
-            if(entity) { _fun00002_ip = 332; continue _fun00001 }
- 323:
+            if(entity) { _fun00002_ip = 336; continue _fun00001 }
+ 327:
             entity = kiloes.get;
             yankee = entity.bind(kiloes)();
- 332:
+ 336:
             backup = verify != yankee;
             entity = 0;
             zuuluu = 0;
-            if(!backup) { _fun00002_ip = 346; continue _fun00001 }
- 343:
+            if(!backup) { _fun00002_ip = 350; continue _fun00001 }
+ 347:
             zuuluu = yankee;
- 346:
+ 350:
             zuuluu = zuuluu > entity;
             report = report.bind(option)(zuuluu);
             zuuluu = _closure1_slot4;
@@ -294,23 +294,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = _closure1_slot14;
             kiloes = _closure1_slot1;
             echoed = _closure1_slot2;
-            if(option) { _fun00002_ip = 634; continue _fun00001 }
- 608:
+            if(option) { _fun00002_ip = 642; continue _fun00001 }
+ 616:
             option = 16;
             option = echoed[option];
             backup = kiloes.bind(tangon)(option);
             option = {};
             option['channel'] = foxtra;
             backup = sizing.bind(tangon)(backup, option);
-            _fun00002_ip = 658; continue _fun00001;
- 634:
+            _fun00002_ip = 666; continue _fun00001;
+ 642:
             option = 15;
             option = echoed[option];
             kiloes = kiloes.bind(tangon)(option);
             option = {};
             option['channel'] = foxtra;
             backup = sizing.bind(tangon)(kiloes, option);
- 658:
+ 666:
             option = new Array(2);
             option[0] = backup;
             sizing = _closure1_slot14;
@@ -340,8 +340,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = romeon.textContainer;
             oscard['style'] = romeon;
             verify = null;
-            if(!yankee) { _fun00002_ip = 820; continue _fun00001 }
- 784:
+            if(!yankee) { _fun00002_ip = 828; continue _fun00001 }
+ 792:
             romeon = _closure1_slot14;
             yankee = _closure1_slot1;
             backup = _closure1_slot2;
@@ -351,7 +351,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = {};
             offset['channel'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 820:
+ 828:
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
             report[1] = oscard;
@@ -613,21 +613,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(tangon)(entity);
             entity = zuuluu.useIsVoiceChannelLocked;
             entity = entity.bind(zuuluu)(option);
-            if(michal) { _fun00012_ip = 399; continue _fun00011 }
- 294:
-            if(entity) { _fun00012_ip = 332; continue _fun00011 }
- 297:
+            if(michal) { _fun00012_ip = 407; continue _fun00011 }
+ 302:
+            if(entity) { _fun00012_ip = 340; continue _fun00011 }
+ 305:
             entity = option.isVocalThread;
             entity = entity.bind(option)();
-            if(entity) { _fun00012_ip = 332; continue _fun00011 }
- 310:
+            if(entity) { _fun00012_ip = 340; continue _fun00011 }
+ 318:
             zuuluu = _closure1_slot14;
             michal = _closure1_slot22;
             entity = {};
             entity['channel'] = option;
             report = zuuluu.bind(tangon)(michal, entity);
-            _fun00012_ip = 397; continue _fun00011;
- 332:
+            _fun00012_ip = 405; continue _fun00011;
+ 340:
             zuuluu = _closure1_slot14;
             michal = _closure1_slot6;
             entity = {};
@@ -644,9 +644,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = yankee.bind(tangon)(offset, verify);
             entity['children'] = verify;
             report = zuuluu.bind(tangon)(michal, entity);
- 397:
-            _fun00012_ip = 472; continue _fun00011;
- 399:
+ 405:
+            _fun00012_ip = 480; continue _fun00011;
+ 407:
             zuuluu = _closure1_slot14;
             offset = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -664,7 +664,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.id;
             entity['channelId'] = option;
             report = zuuluu.bind(tangon)(michal, entity);
- 472:
+ 480:
             zuuluu = _closure1_slot14;
             michal = _closure1_slot1;
             verify = _closure1_slot2;
@@ -678,10 +678,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.bind(tangon)(golfie);
             golfie = option.isAndroid;
             golfie = golfie.bind(option)();
-            if(golfie) { _fun00012_ip = 529; continue _fun00011 }
- 526:
+            if(golfie) { _fun00012_ip = 537; continue _fun00011 }
+ 534:
             golfie = !oscard;
- 529:
+ 537:
             entity['forceHide'] = golfie;
             oscard = !oscard;
             entity['showWhenParticipantOnScreen'] = oscard;

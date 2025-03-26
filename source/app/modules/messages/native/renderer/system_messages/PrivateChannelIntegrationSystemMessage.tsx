@@ -88,10 +88,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = null;
             oscard = oscard == romeon;
             foxtra = undefined;
-            if(oscard) { _fun00002_ip = 165; continue _fun00001 }
- 159:
+            if(oscard) { _fun00002_ip = 167; continue _fun00001 }
+ 161:
             foxtra = romeon.bot;
- 165:
+ 167:
             _closure2_slot6 = foxtra;
             option = _closure1_slot3;
             yankee = option.useMemo;

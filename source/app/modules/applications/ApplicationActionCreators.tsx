@@ -9,7 +9,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot2 = verify;
     report = function() { // Original name: fetchApplication
         entity = undefined;
-        tangon = _closure1_slot12;
+        tangon = _closure1_slot13;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -17,7 +17,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot11 = report;
+    var _closure1_slot12 = report;
     entity = function() { // Original name: _fetchApplication
         report = undefined;
         entity = undefined;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot12 = tangon;
+        _closure1_slot13 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot13 = entity;
     entity = global;
     offset = entity.Object;
     golfie = offset.defineProperty;
@@ -169,8 +169,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot7 = oscard;
     oscard = tangon.Endpoints;
     var _closure1_slot8 = oscard;
-    tangon = tangon.NOOP;
-    var _closure1_slot9 = tangon;
+    oscard = tangon.NOOP;
+    var _closure1_slot9 = oscard;
+    tangon = tangon.QueryIds;
+    var _closure1_slot10 = tangon;
     oscard = {};
     tangon = function(argFoo) { // Original name: createApplication
         michal = argFoo;
@@ -652,28 +654,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie = offset.createFetchStore;
     tangon = {};
     foxtra = function(argFoo) { // Original name: queryId
-        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
- 0:
-            zuuluu = argFoo;
-            entity = null;
-            michal = entity != zuuluu;
-            if(!michal) { _fun00018_ip = 29; continue _fun00017 }
- 12:
-            michal = ['applications'];
-            michal[1] = zuuluu;
-            entity = michal;
- 29:
-            return entity;
-        }
+        zuuluu = _closure1_slot10;
+        michal = zuuluu.APPLICATIONS;
+        entity = argFoo;
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
     };
     tangon['queryId'] = foxtra;
     foxtra = function(argFoo) { // Original name: get
-        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             tangon = argFoo;
             entity = null;
             michal = entity != tangon;
-            if(!michal) { _fun00020_ip = 30; continue _fun00019 }
+            if(!michal) { _fun00018_ip = 30; continue _fun00017 }
  12:
             zuuluu = _closure1_slot6;
             michal = zuuluu.getApplication;
@@ -684,19 +678,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     tangon['get'] = foxtra;
     foxtra = function(argFoo, argBar) { // Original name: load
-        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             golfie = argBar;
             entity = null;
-            if(!(entity == golfie)) { _fun00022_ip = 29; continue _fun00021 }
+            if(!(entity == golfie)) { _fun00020_ip = 29; continue _fun00019 }
  9:
             entity = global;
             michal = entity.Promise;
             entity = michal.resolve;
             entity = entity.bind(michal)();
-            _fun00022_ip = 64; continue _fun00021;
+            _fun00020_ip = 64; continue _fun00019;
  29:
-            oscard = _closure1_slot11;
+            oscard = _closure1_slot12;
             report = undefined;
             tangon = false;
             zuuluu = argFoo;
@@ -714,7 +708,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     romeon = romeon.useStateFromStores;
     tangon['useStateHook'] = romeon;
     tangon = golfie.bind(offset)(yankee, tangon);
-    var _closure1_slot10 = tangon;
+    var _closure1_slot11 = tangon;
     golfie = 9;
     golfie = verify[golfie];
     verify = option.bind(entity)(golfie);
@@ -727,7 +721,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) { // Original name: useApplicationWithLoggedOutContext
         offset = argFoo;
         var _closure2_slot0 = offset;
-        entity = _closure1_slot10;
+        entity = _closure1_slot11;
         option = undefined;
         entity = entity.bind(option)(offset);
         verify = entity.data;
@@ -748,17 +742,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report[0] = offset;
         report[1] = verify;
         tangon = function() {
-            _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+            _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                 entity = _closure2_slot1;
                 tangon = null;
-                if(!(tangon == entity)) { _fun00024_ip = 39; continue _fun00023 }
+                if(!(tangon == entity)) { _fun00022_ip = 39; continue _fun00021 }
  13:
                 oscard = _closure1_slot4;
                 report = oscard.getApplication;
                 zuuluu = _closure2_slot0;
                 zuuluu = report.bind(oscard)(zuuluu);
-                if(!(tangon == zuuluu)) { _fun00024_ip = 45; continue _fun00023 }
+                if(!(tangon == zuuluu)) { _fun00022_ip = 45; continue _fun00021 }
  39:
                 michal = _closure2_slot1;
                 return michal;

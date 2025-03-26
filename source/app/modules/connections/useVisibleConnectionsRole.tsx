@@ -155,16 +155,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = null;
             zuuluu = option == yankee;
             entity = null;
-            if(zuuluu) { _fun00002_ip = 355; continue _fun00001 }
- 248:
+            if(zuuluu) { _fun00002_ip = 363; continue _fun00001 }
+ 256:
             zuuluu = option == offset;
             entity = null;
-            if(zuuluu) { _fun00002_ip = 355; continue _fun00001 }
- 257:
+            if(zuuluu) { _fun00002_ip = 363; continue _fun00001 }
+ 265:
             zuuluu = option == oscard;
             entity = null;
-            if(zuuluu) { _fun00002_ip = 355; continue _fun00001 }
- 266:
+            if(zuuluu) { _fun00002_ip = 363; continue _fun00001 }
+ 274:
             zuuluu = _closure1_slot0;
             romeon = _closure1_slot1;
             michal = 4;
@@ -176,22 +176,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['guildRoles'] = offset;
             michal['guildMember'] = oscard;
             oscard = verify;
-            if(!(option != verify)) { _fun00002_ip = 341; continue _fun00001 }
- 315:
+            if(!(option != verify)) { _fun00002_ip = 349; continue _fun00001 }
+ 323:
             offset = verify.isThread;
             offset = offset.bind(verify)();
             oscard = verify;
-            if(!offset) { _fun00002_ip = 341; continue _fun00001 }
- 331:
+            if(!offset) { _fun00002_ip = 349; continue _fun00001 }
+ 339:
             oscard = verify;
-            if(!(option != golfie)) { _fun00002_ip = 341; continue _fun00001 }
- 338:
+            if(!(option != golfie)) { _fun00002_ip = 349; continue _fun00001 }
+ 346:
             oscard = golfie;
- 341:
+ 349:
             michal['channel'] = oscard;
             michal['onlyChannelConnectionRoles'] = report;
             entity = zuuluu.bind(tangon)(michal);
- 355:
+ 363:
             return entity;
         }
     };

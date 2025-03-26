@@ -80,10 +80,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = _closure1_slot6;
             michal = entity.Provider;
             entity = {};
-            if(!(option != golfie)) { _fun00002_ip = 174; continue _fun00001 }
- 171:
+            if(!(option != golfie)) { _fun00002_ip = 178; continue _fun00001 }
+ 175:
             oscard = golfie;
- 174:
+ 178:
             entity['value'] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

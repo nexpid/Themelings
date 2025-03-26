@@ -551,12 +551,28 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['MemberVerificationApplicationManager'] = entity;
     entity = {};
-    option = ['NOTIFICATIONS_SET_DISABLED_SOUNDS'];
+    option = ['MESSAGE_UPDATE', 'MESSAGE_CREATE'];
     entity['actions'] = option;
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 35;
+        michal = michal[entity];
+        entity = undefined;
+        entity = zuuluu.bind(entity)(michal);
+        entity = entity.default;
+        return entity;
+    };
+    entity['inlineRequire'] = option;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
+    michal['MessageSessionMetadataManager'] = entity;
+    entity = {};
+    option = ['NOTIFICATIONS_SET_DISABLED_SOUNDS'];
+    entity['actions'] = option;
+    option = function() { // Original name: inlineRequire
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 36;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -572,7 +588,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 36;
+        entity = 37;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -587,7 +603,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 37;
+        entity = 38;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -602,7 +618,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 38;
+        entity = 39;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -617,7 +633,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 39;
+        entity = 40;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -632,7 +648,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 40;
+        entity = 41;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -647,7 +663,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 41;
+        entity = 42;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -663,7 +679,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 42;
+        entity = 43;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -678,7 +694,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 43;
+        entity = 44;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -693,7 +709,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 44;
+        entity = 45;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -709,7 +725,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     verify = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 45;
+        entity = 46;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -723,7 +739,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     verify = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 46;
+        entity = 47;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -739,7 +755,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     verify = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 47;
+        entity = 48;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -755,7 +771,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     verify = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 48;
+        entity = 49;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -771,7 +787,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 49;
+        entity = 50;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -786,7 +802,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 50;
+        entity = 51;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -801,7 +817,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 51;
+        entity = 52;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -816,7 +832,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 52;
+        entity = 53;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -832,7 +848,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 53;
+        entity = 54;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -846,7 +862,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 54;
+        entity = 55;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -862,7 +878,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 55;
+        entity = 56;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -877,7 +893,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 56;
+        entity = 57;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -890,7 +906,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 57;
+        entity = 58;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -906,7 +922,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 58;
+        entity = 59;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -921,7 +937,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 59;
+        entity = 60;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -936,7 +952,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 60;
+        entity = 61;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -951,7 +967,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 61;
+        entity = 62;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -967,7 +983,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 62;
+        entity = 63;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -983,7 +999,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 63;
+        entity = 64;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -999,7 +1015,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 64;
+        entity = 65;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1012,7 +1028,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 65;
+        entity = 66;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1028,7 +1044,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 66;
+        entity = 67;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1043,7 +1059,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 67;
+        entity = 68;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1059,7 +1075,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 68;
+        entity = 69;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1074,7 +1090,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 69;
+        entity = 70;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1089,7 +1105,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 70;
+        entity = 71;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1104,7 +1120,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 71;
+        entity = 72;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1119,7 +1135,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 72;
+        entity = 73;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1135,7 +1151,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 73;
+        entity = 74;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1150,7 +1166,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 74;
+        entity = 75;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1166,7 +1182,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 75;
+        entity = 76;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1181,7 +1197,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 76;
+        entity = 77;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1196,7 +1212,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 77;
+        entity = 78;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1211,7 +1227,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 78;
+        entity = 79;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1227,7 +1243,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 79;
+        entity = 80;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1242,7 +1258,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 80;
+        entity = 81;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1257,7 +1273,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 81;
+        entity = 82;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1272,7 +1288,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 82;
+        entity = 83;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1287,7 +1303,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 83;
+        entity = 84;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1302,7 +1318,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 84;
+        entity = 85;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1317,7 +1333,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 85;
+        entity = 86;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1333,7 +1349,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 86;
+        entity = 87;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1349,7 +1365,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 87;
+        entity = 88;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1363,7 +1379,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 88;
+        entity = 89;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1378,7 +1394,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 89;
+        entity = 90;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1394,7 +1410,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 90;
+        entity = 91;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1410,7 +1426,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 91;
+        entity = 92;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1426,7 +1442,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 92;
+        entity = 93;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1442,7 +1458,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 93;
+        entity = 94;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1457,7 +1473,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 94;
+        entity = 95;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1474,7 +1490,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 95;
+        entity = 96;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1490,7 +1506,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 96;
+        entity = 97;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1505,7 +1521,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 97;
+        entity = 98;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1520,7 +1536,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 98;
+        entity = 99;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1535,7 +1551,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 99;
+        entity = 100;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1552,7 +1568,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 100;
+        entity = 101;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1567,7 +1583,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 101;
+        entity = 102;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1580,10 +1596,26 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = {};
     option = ['MEDIA_ENGINE_SET_AUDIO_ENABLED', 'AUDIO_INPUT_DETECTED', 'AUDIO_SET_DISPLAY_SILENCE_WARNING', 'CERTIFIED_DEVICES_SET', 'AUDIO_SET_INPUT_DEVICE', 'AUDIO_SET_OUTPUT_DEVICE', 'MEDIA_ENGINE_DEVICES', 'RTC_CONNECTION_STATE', 'VOICE_STATE_UPDATES', 'MEDIA_ENGINE_SET_GO_LIVE_SOURCE', 'MEDIA_ENGINE_SOUNDSHARE_FAILED', 'MEDIA_ENGINE_NOISE_CANCELLATION_ERROR', 'MEDIA_ENGINE_VOICE_ACTIVITY_DETECTION_ERROR', 'MEDIA_ENGINE_VIDEO_STATE_CHANGED', 'NATIVE_SCREEN_SHARE_PICKER_UPDATE', 'NATIVE_SCREEN_SHARE_PICKER_ERROR', 'MEDIA_SESSION_JOINED', 'RTC_CONNECTION_UPDATE_ID', 'RTC_CONNECTION_USER_CREATE', 'REPORT_AV_ERROR'];
     entity['actions'] = option;
+    option = function() { // Original name: inlineRequire
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 103;
+        michal = michal[entity];
+        entity = undefined;
+        entity = zuuluu.bind(entity)(michal);
+        entity = entity.default;
+        return entity;
+    };
+    entity['inlineRequire'] = option;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
+    michal['AVErrorManager'] = entity;
+    entity = {};
+    option = ['STREAM_WATCH', 'STREAM_START', 'STREAM_CREATE', 'STREAM_UPDATE', 'STREAM_DELETE', 'STREAM_CLOSE', 'CALL_UPDATE', 'CHANNEL_UPDATES', 'VOICE_CHANNEL_SELECT', 'VOICE_STATE_UPDATES', 'MEDIA_ENGINE_VIDEO_STATE_CHANGED'];
+    entity['actions'] = option;
     golfie = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 102;
+        entity = 104;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1592,14 +1624,14 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     };
     entity['inlineRequire'] = golfie;
     entity['neverLoadBeforeConnectionOpen'] = tangon;
-    michal['AVErrorManager'] = entity;
-    entity = 103;
+    michal['ApplicationStreamingManager'] = entity;
+    entity = 105;
     tangon = oscard[entity];
     entity = undefined;
     golfie = report.bind(entity)(tangon);
     tangon = golfie.initialize;
     tangon = tangon.bind(golfie)(michal);
-    tangon = 104;
+    tangon = 106;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

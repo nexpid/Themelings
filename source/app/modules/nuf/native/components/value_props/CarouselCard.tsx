@@ -68,16 +68,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['shadowOffset'] = zuuluu;
             tangon = 24;
             zuuluu = tangon;
-            if(!report) { _fun00002_ip = 129; continue _fun00001 }
- 126:
+            if(!report) { _fun00002_ip = 133; continue _fun00001 }
+ 130:
             zuuluu = 12;
- 129:
+ 133:
             michal['paddingHorizontal'] = zuuluu;
             zuuluu = 48;
-            if(!report) { _fun00002_ip = 142; continue _fun00001 }
- 139:
+            if(!report) { _fun00002_ip = 146; continue _fun00001 }
+ 143:
             zuuluu = tangon;
- 142:
+ 146:
             michal['paddingVertical'] = zuuluu;
             entity['card'] = michal;
             michal = {'flex': 1, 'width': '95%', 'resizeMode': 'contain', 'justifyContent': 'center'};

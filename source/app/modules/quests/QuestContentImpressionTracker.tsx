@@ -414,8 +414,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = report.isEligibleForQuestsClientMonitoring;
                         zuuluu = 'QuestImpressionTracker';
                         zuuluu = tangon.bind(report)(zuuluu);
-                        if(!zuuluu) { _fun00010_ip = 327; continue _fun00009 }
- 194:
+                        if(!zuuluu) { _fun00010_ip = 331; continue _fun00009 }
+ 198:
                         tangon = _closure1_slot1;
                         verify = _closure1_slot2;
                         zuuluu = 8;
@@ -445,7 +445,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         oscard[0] = golfie;
                         zuuluu['tags'] = oscard;
                         zuuluu = tangon.bind(report)(zuuluu);
- 327:
+ 331:
                         zuuluu = _closure3_slot0;
                         michal = true;
                         zuuluu['isRunning'] = michal;
@@ -503,12 +503,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = golfie.isArray;
                 golfie = oscard.bind(golfie)(option);
                 oscard = option;
-                if(golfie) { _fun00004_ip = 274; continue _fun00003 }
- 263:
+                if(golfie) { _fun00004_ip = 286; continue _fun00003 }
+ 275:
                 golfie = new Array(1);
                 golfie[0] = option;
                 oscard = golfie;
- 274:
+ 286:
                 zuuluu['quests'] = oscard;
                 zuuluu['trackGuildAndChannelMetadata'] = report;
                 zuuluu['triggeredByStatusChange'] = tangon;
@@ -567,7 +567,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(michal) { _fun00014_ip = 31; continue _fun00013 }
  24:
             report = zuuluu.id;
-            _fun00014_ip = 72; continue _fun00013;
+            _fun00014_ip = 74; continue _fun00013;
  31:
             michal = zuuluu.sort;
             tangon = michal.bind(zuuluu)();
@@ -581,7 +581,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = tangon.join;
             michal = '_';
             report = zuuluu.bind(tangon)(michal);
- 72:
+ 74:
             entity = entity.HermesInternal;
             tangon = entity.concat;
             zuuluu = '';

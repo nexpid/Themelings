@@ -663,7 +663,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = {};
                     golfie['token'] = option;
                     option = argFoo;
-                    golfie['fromClassificationId'] = option;
+                    golfie['from_classification_id'] = option;
                     tangon['body'] = golfie;
                     golfie = false;
                     tangon['rejectWithError'] = golfie;

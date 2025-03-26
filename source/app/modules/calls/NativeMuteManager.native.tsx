@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = false;
                 zuuluu['playSoundEffect'] = golfie;
                 zuuluu = report.bind(oscard)(zuuluu);
-                _fun00004_ip = 166; continue _fun00003;
+                _fun00004_ip = 169; continue _fun00003;
  109:
                 return entity;
  111:
@@ -147,13 +147,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = _closure1_slot2;
                 zuuluu = 6;
                 zuuluu = report[zuuluu];
-                report = tangon.bind(entity)(zuuluu);
-                tangon = report.setSelfMute;
+                oscard = tangon.bind(entity)(zuuluu);
+                report = oscard.setSelfMute;
                 michal = _closure1_slot6;
-                zuuluu = michal.DEFAULT;
-                michal = argFoo;
-                michal = tangon.bind(report)(zuuluu, michal);
- 166:
+                tangon = michal.DEFAULT;
+                zuuluu = argFoo;
+                michal = false;
+                michal = report.bind(oscard)(tangon, zuuluu, michal);
+ 169:
                 return entity;
             }
         };

@@ -63,11 +63,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 70: // try_end0
-            _fun00004_ip = 74; continue _fun00003;
- 72: // catch_target0
+ 72: // try_end0
+            _fun00004_ip = 76; continue _fun00003;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  48:
             michal = zuuluu.@@iterator;
  54:
-            if(michal) { _fun00006_ip = 342; continue _fun00005 }
+            if(michal) { _fun00006_ip = 344; continue _fun00005 }
  60:
             oscard = report.Array;
             tangon = oscard.isArray;
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             return entity;
- 342:
+ 344:
             entity = michal.call;
             zuuluu = entity.bind(michal)(zuuluu);
             michal = zuuluu.next;
@@ -714,7 +714,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = null;
             michal = entity == tangon;
             entity = undefined;
-            if(michal) { _fun00024_ip = 37; continue _fun00023 }
+            if(michal) { _fun00024_ip = 39; continue _fun00023 }
  20:
             zuuluu = tangon.filter;
             michal = function(argFoo) {
@@ -742,7 +742,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             entity = zuuluu.bind(tangon)(michal);
- 37:
+ 39:
             return entity;
         }
     };
@@ -777,7 +777,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = null;
             michal = entity == tangon;
             entity = undefined;
-            if(michal) { _fun00028_ip = 37; continue _fun00027 }
+            if(michal) { _fun00028_ip = 39; continue _fun00027 }
  20:
             zuuluu = tangon.filter;
             michal = function(argFoo) {
@@ -805,7 +805,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             entity = zuuluu.bind(tangon)(michal);
- 37:
+ 39:
             return entity;
         }
     };
@@ -840,7 +840,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = null;
             michal = entity == tangon;
             entity = undefined;
-            if(michal) { _fun00032_ip = 37; continue _fun00031 }
+            if(michal) { _fun00032_ip = 39; continue _fun00031 }
  20:
             zuuluu = tangon.filter;
             michal = function(argFoo) {
@@ -868,7 +868,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             entity = zuuluu.bind(tangon)(michal);
- 37:
+ 39:
             return entity;
         }
     };
@@ -903,7 +903,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = null;
             michal = entity == tangon;
             entity = undefined;
-            if(michal) { _fun00036_ip = 37; continue _fun00035 }
+            if(michal) { _fun00036_ip = 39; continue _fun00035 }
  20:
             zuuluu = tangon.filter;
             michal = function(argFoo) {
@@ -931,7 +931,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             entity = zuuluu.bind(tangon)(michal);
- 37:
+ 39:
             return entity;
         }
     };
@@ -966,7 +966,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = null;
             michal = entity == tangon;
             entity = undefined;
-            if(michal) { _fun00040_ip = 37; continue _fun00039 }
+            if(michal) { _fun00040_ip = 39; continue _fun00039 }
  20:
             zuuluu = tangon.filter;
             michal = function(argFoo) {
@@ -994,7 +994,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             entity = zuuluu.bind(tangon)(michal);
- 37:
+ 39:
             return entity;
         }
     };
@@ -1029,7 +1029,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = null;
             michal = entity == tangon;
             entity = undefined;
-            if(michal) { _fun00044_ip = 37; continue _fun00043 }
+            if(michal) { _fun00044_ip = 39; continue _fun00043 }
  20:
             zuuluu = tangon.filter;
             michal = function(argFoo) {
@@ -1057,7 +1057,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             entity = zuuluu.bind(tangon)(michal);
- 37:
+ 39:
             return entity;
         }
     };
@@ -1213,8 +1213,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = tangon == oscard;
             zuuluu = undefined;
             michal = undefined;
-            if(golfie) { _fun00048_ip = 95; continue _fun00047 }
- 47:
+            if(golfie) { _fun00048_ip = 99; continue _fun00047 }
+ 49:
             oscard = oscard.stats;
             oscard = oscard.rtp;
             golfie = oscard.outbound;
@@ -1229,25 +1229,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = oscard.bind(golfie)(report);
             oscard = tangon == report;
             michal = undefined;
-            if(oscard) { _fun00048_ip = 95; continue _fun00047 }
- 89:
+            if(oscard) { _fun00048_ip = 99; continue _fun00047 }
+ 93:
             michal = report.sampleRateMismatchPercent;
- 95:
+ 99:
             report = tangon != michal;
             tangon = 0;
-            if(!report) { _fun00048_ip = 107; continue _fun00047 }
- 104:
+            if(!report) { _fun00048_ip = 111; continue _fun00047 }
+ 108:
             tangon = michal;
- 107:
+ 111:
             michal = global;
             report = michal.Math;
             michal = report.abs;
             report = michal.bind(report)(tangon);
             michal = 30;
-            if(!(!(report > michal))) { _fun00048_ip = 135; continue _fun00047 }
- 133:
+            if(!(!(report > michal))) { _fun00048_ip = 139; continue _fun00047 }
+ 137:
             return zuuluu;
- 135:
+ 139:
             michal = {};
             michal['audioSampleRateMismatchPercent'] = tangon;
             entity = _closure1_slot32;

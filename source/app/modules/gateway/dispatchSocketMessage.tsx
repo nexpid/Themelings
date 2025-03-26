@@ -1637,9 +1637,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 michal['notificationSettings'] = oscard;
                                 report = _closure4_slot3;
                                 michal['geoRestrictedGuilds'] = report;
+                                report = _closure2_slot0;
+                                report = report.explicit_content_scan_version;
+                                michal['explicitContentScanVersion'] = report;
                                 tangon = _closure2_slot0;
-                                tangon = tangon.explicit_content_scan_version;
-                                michal['explicitContentScanVersion'] = tangon;
+                                tangon = tangon.failed_states;
+                                michal['failedStates'] = tangon;
                                 michal = zuuluu.bind(entity)(michal);
                                 return entity;
                             }
@@ -1696,6 +1699,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     tangon = offset.bind(entity)(verify, golfie, tangon);
+    golfie = ['STATE_UPDATE'];
+    tangon = function() {
+        zuuluu = _closure1_slot25;
+        michal = {};
+        entity = 'STATE_UPDATE';
+        michal['type'] = entity;
+        entity = undefined;
+        michal = zuuluu.bind(entity)(michal);
+        return entity;
+    };
+    tangon = option.bind(entity)(golfie, tangon);
     golfie = ['RESUMED'];
     tangon = function() {
         tangon = _closure1_slot0;
@@ -2115,6 +2129,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal['guildId'] = tangon;
         entity = entity.channels;
         michal['channels'] = entity;
+        entity = undefined;
+        michal = zuuluu.bind(entity)(michal);
+        return entity;
+    };
+    tangon = option.bind(entity)(golfie, tangon);
+    golfie = ['CHANNEL_MEMBER_COUNT_UPDATE'];
+    tangon = function(argFoo, argBar) {
+        entity = argFoo;
+        zuuluu = _closure1_slot25;
+        michal = {};
+        tangon = argBar;
+        michal['type'] = tangon;
+        tangon = entity.guild_id;
+        michal['guildId'] = tangon;
+        tangon = entity.channel_id;
+        michal['channelId'] = tangon;
+        tangon = entity.presence_count;
+        michal['online'] = tangon;
+        entity = entity.member_count;
+        michal['total'] = entity;
         entity = undefined;
         michal = zuuluu.bind(entity)(michal);
         return entity;

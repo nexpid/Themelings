@@ -404,33 +404,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = yankee.bind(kiloes)(verify, offset);
             verify = entity == option;
             result = undefined;
-            if(verify) { _fun00002_ip = 663; continue _fun00001 }
- 658:
+            if(verify) { _fun00002_ip = 677; continue _fun00001 }
+ 672:
             result = option.applicationId;
- 663:
+ 677:
             zuuluu = !zuuluu;
-            if(zuuluu) { _fun00002_ip = 688; continue _fun00001 }
- 669:
+            if(zuuluu) { _fun00002_ip = 702; continue _fun00001 }
+ 683:
             verify = entity == ctrled;
             option = undefined;
-            if(verify) { _fun00002_ip = 684; continue _fun00001 }
- 678:
+            if(verify) { _fun00002_ip = 698; continue _fun00001 }
+ 692:
             option = ctrled.launchId;
- 684:
+ 698:
             zuuluu = entity == option;
- 688:
-            if(zuuluu) { _fun00002_ip = 694; continue _fun00001 }
- 691:
-            zuuluu = golfie;
- 694:
-            if(zuuluu) { _fun00002_ip = 701; continue _fun00001 }
- 697:
-            zuuluu = entity == result;
- 701:
+ 702:
             if(zuuluu) { _fun00002_ip = 708; continue _fun00001 }
- 704:
-            zuuluu = entity == echoed;
+ 705:
+            zuuluu = golfie;
  708:
+            if(zuuluu) { _fun00002_ip = 715; continue _fun00001 }
+ 711:
+            zuuluu = entity == result;
+ 715:
+            if(zuuluu) { _fun00002_ip = 722; continue _fun00001 }
+ 718:
+            zuuluu = entity == echoed;
+ 722:
             _closure2_slot11 = zuuluu;
             offset = _closure1_slot4;
             verify = offset.useLayoutEffect;
@@ -457,58 +457,58 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             golfie = verify.bind(offset)(golfie, option);
-            if(zuuluu) { _fun00002_ip = 1210; continue _fun00001 }
- 751:
+            if(zuuluu) { _fun00002_ip = 1228; continue _fun00001 }
+ 767:
             golfie = entity == ctrled;
             zuuluu = undefined;
-            if(golfie) { _fun00002_ip = 766; continue _fun00001 }
- 760:
+            if(golfie) { _fun00002_ip = 782; continue _fun00001 }
+ 776:
             zuuluu = ctrled.launchId;
- 766:
-            if(!(entity != zuuluu)) { _fun00002_ip = 1210; continue _fun00001 }
- 773:
-            if(!(entity != echoed)) { _fun00002_ip = 1210; continue _fun00001 }
- 780:
-            if(michal) { _fun00002_ip = 1208; continue _fun00001 }
- 786:
+ 782:
+            if(!(entity != zuuluu)) { _fun00002_ip = 1228; continue _fun00001 }
+ 789:
+            if(!(entity != echoed)) { _fun00002_ip = 1228; continue _fun00001 }
+ 796:
+            if(michal) { _fun00002_ip = 1226; continue _fun00001 }
+ 802:
             sizing = {};
             zuuluu = ctrled.compositeInstanceId;
-            if(!(entity == zuuluu)) { _fun00002_ip = 804; continue _fun00001 }
- 798:
+            if(!(entity == zuuluu)) { _fun00002_ip = 820; continue _fun00001 }
+ 814:
             zuuluu = ctrled.launchId;
- 804:
+ 820:
             option = entity != zuuluu;
             golfie = '';
             michal = golfie;
-            if(!option) { _fun00002_ip = 821; continue _fun00001 }
- 818:
+            if(!option) { _fun00002_ip = 837; continue _fun00001 }
+ 834:
             michal = zuuluu;
- 821:
+ 837:
             sizing['instance_id'] = michal;
             michal = vacuum.id;
             sizing['channel_id'] = michal;
             zuuluu = ctrled.location;
             option = entity == zuuluu;
             michal = undefined;
-            if(option) { _fun00002_ip = 854; continue _fun00001 }
- 849:
+            if(option) { _fun00002_ip = 870; continue _fun00001 }
+ 865:
             michal = zuuluu.id;
- 854:
+ 870:
             sizing['location_id'] = michal;
             michal = ctrled.launchId;
             sizing['launch_id'] = michal;
             michal = vacuum.guild_id;
             michal = entity != michal;
-            if(!michal) { _fun00002_ip = 893; continue _fun00001 }
- 884:
+            if(!michal) { _fun00002_ip = 909; continue _fun00001 }
+ 900:
             zuuluu = vacuum.guild_id;
             michal = golfie !== zuuluu;
- 893:
-            if(!michal) { _fun00002_ip = 907; continue _fun00001 }
- 896:
+ 909:
+            if(!michal) { _fun00002_ip = 923; continue _fun00001 }
+ 912:
             michal = vacuum.guild_id;
             sizing['guild_id'] = michal;
- 907:
+ 923:
             golfie = _closure1_slot13;
             zuuluu = _closure1_slot12;
             michal = {};
@@ -569,20 +569,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = sizing.has;
             sizing = kiloes.bind(sizing)(result);
             kiloes = 'origin';
-            if(!sizing) { _fun00002_ip = 1103; continue _fun00001 }
- 1097:
+            if(!sizing) { _fun00002_ip = 1121; continue _fun00001 }
+ 1115:
             kiloes = 'no-referrer';
- 1103:
+ 1121:
             verify['referrerPolicy'] = kiloes;
             kiloes = _closure1_slot8;
             kiloes = kiloes.PIP;
             kiloes = output === kiloes;
-            if(kiloes) { _fun00002_ip = 1139; continue _fun00001 }
- 1125:
+            if(kiloes) { _fun00002_ip = 1157; continue _fun00001 }
+ 1143:
             sizing = _closure1_slot8;
             sizing = sizing.GRID;
             kiloes = output === sizing;
- 1139:
+ 1157:
             verify['isPipOrGridMode'] = kiloes;
             sizing = _closure1_slot0;
             output = _closure1_slot2;
@@ -591,19 +591,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = sizing.bind(tangon)(kiloes);
             kiloes = kiloes.EMBEDDED_ACTIVITY_WEB_VIEW_KEY;
             verify['webViewKey'] = kiloes;
-            if(!backup) { _fun00002_ip = 1181; continue _fun00001 }
- 1178:
+            if(!backup) { _fun00002_ip = 1199; continue _fun00001 }
+ 1196:
             romeon = foxtra;
- 1181:
+ 1199:
             verify['safeAreasConfig'] = romeon;
             verify = yankee.bind(tangon)(offset, verify);
             option[1] = verify;
             michal['children'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 1208:
+ 1226:
             return entity;
- 1210:
+ 1228:
             zuuluu = _closure1_slot11;
             michal = _closure1_slot6;
             entity = {};

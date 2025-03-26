@@ -235,33 +235,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = null;
             offset = michal == report;
             golfie = undefined;
-            if(offset) { _fun00004_ip = 127; continue _fun00003 }
- 122:
+            if(offset) { _fun00004_ip = 129; continue _fun00003 }
+ 124:
             golfie = report.username;
- 127:
-            if(!(michal == golfie)) { _fun00004_ip = 162; continue _fun00003 }
- 131:
+ 129:
+            if(!(michal == golfie)) { _fun00004_ip = 164; continue _fun00003 }
+ 133:
             offset = michal == verify;
             report = undefined;
-            if(offset) { _fun00004_ip = 159; continue _fun00003 }
- 140:
+            if(offset) { _fun00004_ip = 161; continue _fun00003 }
+ 142:
             verify = verify.user;
             offset = michal == verify;
             report = undefined;
-            if(offset) { _fun00004_ip = 159; continue _fun00003 }
- 154:
+            if(offset) { _fun00004_ip = 161; continue _fun00003 }
+ 156:
             report = verify.username;
- 159:
+ 161:
             golfie = report;
- 162:
+ 164:
             report = _closure1_slot9;
             zuuluu = zuuluu.type;
             verify = michal == option;
             michal = undefined;
-            if(verify) { _fun00004_ip = 185; continue _fun00003 }
- 180:
+            if(verify) { _fun00004_ip = 187; continue _fun00003 }
+ 182:
             michal = option.name;
- 185:
+ 187:
             report = report.bind(tangon)(zuuluu, golfie, michal);
             zuuluu = _closure1_slot8;
             michal = _closure1_slot1;

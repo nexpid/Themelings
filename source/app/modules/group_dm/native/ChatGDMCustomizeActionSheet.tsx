@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  66:
                 entity = michal.preventable;
  72:
-                if(!entity) { _fun00002_ip = 159; continue _fun00001 }
+                if(!entity) { _fun00002_ip = 157; continue _fun00001 }
  75:
                 entity = michal.preventDefault;
                 entity = entity.bind(michal)();
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 entity['onConfirm'] = tangon;
                 entity = michal.bind(zuuluu)(entity);
- 159:
+ 157:
                 entity = undefined;
                 return entity;
             }

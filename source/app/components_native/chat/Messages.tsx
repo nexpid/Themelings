@@ -2512,6 +2512,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity['handleTapSoundmoji'] = tangon;
+            tangon = function(argFoo) {
+                michal = _closure3_slot0;
+                entity = michal.getHandlers;
+                zuuluu = entity.bind(michal)();
+                michal = zuuluu.handleTapAppMessageEmbed;
+                entity = argFoo;
+                entity = michal.bind(zuuluu)(entity);
+                return entity;
+            };
+            entity['handleTapAppMessageEmbed'] = tangon;
             tangon = function() {
                 _fun00045: for(var _fun00046_ip = 0; ; ) switch(_fun00046_ip) {
  0:
@@ -5570,6 +5580,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['onTapContentInventoryEntryEmbed'] = backup;
             backup = yankee.handleTapSoundmoji;
             report['onTapSoundmoji'] = backup;
+            backup = yankee.handleTapAppMessageEmbed;
+            report['onTapAppMessageEmbed'] = backup;
             report['children'] = foxtra;
             report['HACK_fixModalInteraction'] = romeon;
             romeon = yankee.handleTapTableView;

@@ -1,11 +1,11 @@
 // app/modules/quests/native/QuestRewardDetailsBottomSheet.native.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    romeon = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = romeon;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
     var _closure1_slot2 = oscard;
     entity = global;
     option = entity.Object;
@@ -21,12 +21,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     entity = undefined;
     tangon = tangon.bind(entity)(golfie);
     var _closure1_slot3 = tangon;
-    offset = 1;
-    tangon = oscard[offset];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot4 = tangon;
-    tangon = oscard[offset];
+    tangon = 1;
+    golfie = oscard[tangon];
+    golfie = report.bind(entity)(golfie);
+    golfie = golfie.jsx;
+    var _closure1_slot4 = golfie;
+    tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsxs;
     var _closure1_slot5 = tangon;
@@ -34,21 +34,43 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
-    tangon = {};
-    verify = {};
-    yankee = 3;
-    yankee = oscard[yankee];
-    yankee = romeon.bind(entity)(yankee);
-    yankee = yankee.spacing;
-    yankee = yankee.PX_16;
-    verify['paddingHorizontal'] = yankee;
-    tangon['wrapper'] = verify;
-    verify = {};
-    verify['flexShrink'] = offset;
-    tangon['rewardDetailsCopy'] = verify;
+    tangon = function(argFoo) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            entity = {};
+            michal = {};
+            report = _closure1_slot1;
+            zuuluu = _closure1_slot2;
+            golfie = 3;
+            zuuluu = zuuluu[golfie];
+            oscard = undefined;
+            zuuluu = report.bind(oscard)(zuuluu);
+            zuuluu = zuuluu.spacing;
+            zuuluu = zuuluu.PX_16;
+            michal['paddingHorizontal'] = zuuluu;
+            report = argFoo;
+            zuuluu = undefined;
+            if(!report) { _fun00002_ip = 79; continue _fun00001 }
+ 51:
+            report = _closure1_slot1;
+            tangon = _closure1_slot2;
+            tangon = tangon[golfie];
+            tangon = report.bind(oscard)(tangon);
+            tangon = tangon.spacing;
+            zuuluu = tangon.PX_8;
+ 79:
+            michal['paddingBottom'] = zuuluu;
+            entity['wrapper'] = michal;
+            michal = {};
+            zuuluu = 1;
+            michal['flexShrink'] = zuuluu;
+            entity['rewardDetailsCopy'] = michal;
+            return entity;
+        }
+    };
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot6 = tangon;
-    tangon = 11;
+    tangon = 12;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -66,8 +88,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = zuuluu.useNonNullableQuest;
         output = michal.bind(zuuluu)(report);
         var _closure2_slot0 = output;
-        michal = _closure1_slot6;
-        yankee = michal.bind(tangon)();
+        zuuluu = _closure1_slot6;
+        michal = 5;
+        michal = kiloes[michal];
+        report = foxtra.bind(tangon)(michal);
+        michal = report.isAndroid;
+        michal = michal.bind(report)();
+        yankee = zuuluu.bind(tangon)(michal);
         report = _closure1_slot3;
         zuuluu = report.useMemo;
         oscard = output.config;
@@ -76,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = function() {
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
-            entity = 5;
+            entity = 6;
             michal = michal[entity];
             entity = undefined;
             entity = zuuluu.bind(entity)(michal);
@@ -89,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         };
         backup = zuuluu.bind(report)(entity, michal);
         zuuluu = _closure1_slot4;
-        entity = 6;
+        entity = 7;
         entity = kiloes[entity];
         entity = foxtra.bind(tangon)(entity);
         michal = entity.BottomSheet;
@@ -97,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = true;
         entity['startExpanded'] = report;
         golfie = _closure1_slot5;
-        verify = 7;
+        verify = 8;
         report = kiloes[verify];
         report = foxtra.bind(tangon)(report);
         oscard = report.Stack;
@@ -111,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report['spacing'] = option;
         option = yankee.wrapper;
         report['style'] = option;
-        option = 8;
+        option = 9;
         option = kiloes[option];
         offset = sizing.bind(tangon)(option);
         option = {'quest': null, 'height': 56, 'width': 56};
@@ -132,12 +159,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         verify['spacing'] = romeon;
         yankee = yankee.rewardDetailsCopy;
         verify['style'] = yankee;
-        romeon = 9;
+        romeon = 10;
         yankee = kiloes[romeon];
         yankee = foxtra.bind(tangon)(yankee);
         sizing = yankee.Text;
         yankee = {'variant': 'eyebrow', 'color': 'text-secondary'};
-        output = 10;
+        output = 11;
         result = kiloes[output];
         result = foxtra.bind(tangon)(result);
         echoed = result.intl;

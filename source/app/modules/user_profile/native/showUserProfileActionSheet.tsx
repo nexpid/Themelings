@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = undefined;
     oscard = verify.bind(entity)(oscard);
     var _closure1_slot3 = oscard;
-    oscard = 7;
+    oscard = 6;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
     golfie = option.fileFinishedImporting;
@@ -55,32 +55,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = 1;
             zuuluu = zuuluu[entity];
             entity = undefined;
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.isEligibleForUserProfileBlockerSkeleton;
-            zuuluu = {};
-            option = golfie.location;
-            oscard = null;
-            verify = oscard != option;
-            oscard = 'UserProfileActionSheet';
-            if(!verify) { _fun00002_ip = 59; continue _fun00001 }
- 56:
-            oscard = option;
- 59:
-            zuuluu['location'] = oscard;
-            tangon = tangon.bind(report)(zuuluu);
-            report = _closure1_slot0;
-            oscard = _closure1_slot2;
-            zuuluu = 2;
-            zuuluu = oscard[zuuluu];
-            zuuluu = report.bind(entity)(zuuluu);
-            report = zuuluu.IgnoreProfileSpeedbumpDisabled;
-            zuuluu = report.getSetting;
-            zuuluu = zuuluu.bind(report)();
-            if(!tangon) { _fun00002_ip = 290; continue _fun00001 }
- 110:
+            zuuluu = tangon.bind(entity)(zuuluu);
+            tangon = zuuluu.IgnoreProfileSpeedbumpDisabled;
+            zuuluu = tangon.getSetting;
+            zuuluu = zuuluu.bind(tangon)();
             tangon = golfie.ignoreBlockedSpeedBump;
-            if(tangon) { _fun00002_ip = 290; continue _fun00001 }
- 122:
+            if(tangon) { _fun00002_ip = 224; continue _fun00001 }
+ 56:
             oscard = _closure1_slot3;
             report = oscard.isBlocked;
             tangon = golfie.userId;
@@ -88,25 +69,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = oscard.isIgnored;
             tangon = golfie.userId;
             tangon = report.bind(oscard)(tangon);
-            if(tangon) { _fun00002_ip = 167; continue _fun00001 }
- 161:
-            if(!verify) { _fun00002_ip = 290; continue _fun00001 }
- 167:
-            if(!tangon) { _fun00002_ip = 173; continue _fun00001 }
- 170:
-            if(zuuluu) { _fun00002_ip = 290; continue _fun00001 }
- 173:
+            if(tangon) { _fun00002_ip = 101; continue _fun00001 }
+ 95:
+            if(!verify) { _fun00002_ip = 224; continue _fun00001 }
+ 101:
+            if(!tangon) { _fun00002_ip = 107; continue _fun00001 }
+ 104:
+            if(zuuluu) { _fun00002_ip = 224; continue _fun00001 }
+ 107:
             tangon = _closure1_slot0;
             report = _closure1_slot2;
-            zuuluu = 4;
+            zuuluu = 3;
             zuuluu = report[zuuluu];
             oscard = tangon.bind(entity)(zuuluu);
-            zuuluu = 3;
+            zuuluu = 2;
             tangon = report[zuuluu];
             zuuluu = report.paths;
             option = oscard.bind(entity)(tangon, zuuluu);
             tangon = _closure1_slot1;
-            zuuluu = 5;
+            zuuluu = 4;
             zuuluu = report[zuuluu];
             oscard = tangon.bind(entity)(zuuluu);
             report = oscard.openLazy;
@@ -118,27 +99,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             foxtra = golfie;
             offset = copyDataProperties(backup, foxtra);
             offset = 'ignore';
-            if(!verify) { _fun00002_ip = 270; continue _fun00001 }
- 266:
+            if(!verify) { _fun00002_ip = 204; continue _fun00001 }
+ 200:
             offset = 'block';
- 270:
+ 204:
             verify = 'speedBumpType';
             zuuluu[verify] = offset;
             zuuluu = report.bind(oscard)(option, tangon, zuuluu);
             zuuluu = undefined;
             return zuuluu;
- 290:
+ 224:
             tangon = _closure1_slot0;
             report = _closure1_slot2;
-            zuuluu = 4;
+            zuuluu = 3;
             zuuluu = report[zuuluu];
             oscard = tangon.bind(entity)(zuuluu);
-            zuuluu = 6;
+            zuuluu = 5;
             tangon = report[zuuluu];
             zuuluu = report.paths;
             oscard = oscard.bind(entity)(tangon, zuuluu);
             tangon = _closure1_slot1;
-            zuuluu = 5;
+            zuuluu = 4;
             zuuluu = report[zuuluu];
             report = tangon.bind(entity)(zuuluu);
             tangon = report.openLazy;

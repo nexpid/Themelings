@@ -30,6 +30,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['EMBEDDED_ACTIVITY_INVITE'] = report;
     entity = 'EMBEDDED_ACTIVITY_INVITE';
     michal[report] = entity;
+    report = 5;
+    michal['APP_MESSAGE_EMBED'] = report;
+    entity = 'APP_MESSAGE_EMBED';
+    michal[report] = entity;
     entity = argPlu;
     report = entity[tangon];
     tangon = argBar;

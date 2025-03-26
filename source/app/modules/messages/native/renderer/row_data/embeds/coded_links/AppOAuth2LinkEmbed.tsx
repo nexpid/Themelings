@@ -211,8 +211,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = entity.colors;
             offset = entity.baseColors;
             entity = null;
-            if(!(entity != verify)) { _fun00002_ip = 858; continue _fun00001 }
- 296:
+            if(!(entity != verify)) { _fun00002_ip = 864; continue _fun00001 }
+ 302:
             tangon = _closure1_slot1;
             zuuluu = _closure1_slot2;
             foxtra = 12;
@@ -227,23 +227,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = tangon.bind(option)(zuuluu);
             tangon = 'number';
             zuuluu = typeof romeon;
-            if(!(tangon !== zuuluu)) { _fun00002_ip = 387; continue _fun00001 }
- 358:
+            if(!(tangon !== zuuluu)) { _fun00002_ip = 393; continue _fun00001 }
+ 364:
             option = romeon;
-            if(!(entity == option)) { _fun00002_ip = 408; continue _fun00001 }
- 365:
+            if(!(entity == option)) { _fun00002_ip = 414; continue _fun00001 }
+ 371:
             tangon = _closure1_slot1;
             kiloes = _closure1_slot2;
             zuuluu = 14;
             zuuluu = kiloes[zuuluu];
             option = tangon.bind(report)(zuuluu);
-            _fun00002_ip = 408; continue _fun00001;
- 387:
+            _fun00002_ip = 414; continue _fun00001;
+ 393:
             tangon = _closure1_slot5;
             zuuluu = tangon.resolveAssetSource;
             zuuluu = zuuluu.bind(tangon)(romeon);
             option = zuuluu.uri;
- 408:
+ 414:
             kiloes = verify.bot;
             tangon = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -252,18 +252,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon.bind(report)(zuuluu);
             zuuluu = tangon.isEmbeddedApp;
             zuuluu = zuuluu.bind(tangon)(verify);
-            if(zuuluu) { _fun00002_ip = 535; continue _fun00001 }
- 448:
+            if(zuuluu) { _fun00002_ip = 541; continue _fun00001 }
+ 454:
             tangon = entity == kiloes;
             zuuluu = undefined;
-            if(tangon) { _fun00002_ip = 463; continue _fun00001 }
- 457:
-            zuuluu = kiloes.banner;
+            if(tangon) { _fun00002_ip = 469; continue _fun00001 }
  463:
+            zuuluu = kiloes.banner;
+ 469:
             zuuluu = entity != zuuluu;
             romeon = undefined;
-            if(!zuuluu) { _fun00002_ip = 540; continue _fun00001 }
- 472:
+            if(!zuuluu) { _fun00002_ip = 546; continue _fun00001 }
+ 478:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[foxtra];
@@ -278,10 +278,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = false;
             zuuluu['canAnimate'] = backup;
             romeon = tangon.bind(foxtra)(zuuluu);
-            _fun00002_ip = 540; continue _fun00001;
- 535:
+            _fun00002_ip = 546; continue _fun00001;
+ 541:
             romeon = michal.url;
- 540:
+ 546:
             tangon = _closure1_slot10;
             zuuluu = _closure1_slot1;
             backup = _closure1_slot2;
@@ -323,10 +323,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = foxtra.isAndroid;
             offset = offset.bind(foxtra)();
             foxtra = undefined;
-            if(!offset) { _fun00002_ip = 722; continue _fun00001 }
- 720:
+            if(!offset) { _fun00002_ip = 728; continue _fun00001 }
+ 726:
             foxtra = null;
- 722:
+ 728:
             offset = 'headerText';
             michal[offset] = foxtra;
             foxtra = golfie.bodyTextColor;
@@ -356,7 +356,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal[oscard] = golfie;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 858:
+ 864:
             return entity;
         }
     };

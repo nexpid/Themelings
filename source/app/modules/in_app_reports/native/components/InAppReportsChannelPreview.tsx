@@ -104,10 +104,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             echoed = zuuluu.bind(tangon)(michal, entity);
             entity = null;
-            if(!(entity != echoed)) { _fun00002_ip = 555; continue _fun00001 }
- 85:
-            if(!(entity != romeon)) { _fun00002_ip = 555; continue _fun00001 }
- 92:
+            if(!(entity != echoed)) { _fun00002_ip = 557; continue _fun00001 }
+ 87:
+            if(!(entity != romeon)) { _fun00002_ip = 557; continue _fun00001 }
+ 94:
             offset = _closure1_slot0;
             backup = _closure1_slot2;
             michal = 7;
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 555:
+ 557:
             return entity;
         }
     };

@@ -562,10 +562,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie['image'] = tangon;
         tangon = {'flexGrow': 1, 'textAlign': 'center'};
         output = 0;
-        if(!foxtra) { _fun00002_ip = 624; continue _fun00001 }
- 621:
+        if(!foxtra) { _fun00002_ip = 628; continue _fun00001 }
+ 625:
         output = result;
- 624:
+ 628:
         tangon['marginTop'] = output;
         golfie['textContainer'] = tangon;
         tangon = {};
@@ -577,10 +577,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         offset = {};
         tangon = 20;
         offset['height'] = tangon;
-        if(!foxtra) { _fun00002_ip = 671; continue _fun00001 }
- 668:
+        if(!foxtra) { _fun00002_ip = 675; continue _fun00001 }
+ 672:
         yankee = romeon;
- 671:
+ 675:
         offset['marginBottom'] = yankee;
         golfie['paginationContainer'] = offset;
         golfie = option.bind(verify)(golfie);

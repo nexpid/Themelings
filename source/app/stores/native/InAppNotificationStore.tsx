@@ -893,27 +893,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             michal = argFoo;
             offset = michal.message;
-            report = michal.route;
+            oscard = michal.route;
             entity = michal.emoji;
             var _closure2_slot0 = entity;
-            backup = michal.reactorUserId;
+            foxtra = michal.reactorUserId;
             tangon = null;
-            if(!(tangon != offset)) { _fun00022_ip = 822; continue _fun00021 }
+            if(!(tangon != offset)) { _fun00022_ip = 753; continue _fun00021 }
  41:
             michal = offset.reactions;
-            if(!(tangon != michal)) { _fun00022_ip = 822; continue _fun00021 }
+            if(!(tangon != michal)) { _fun00022_ip = 753; continue _fun00021 }
  54:
-            if(!(tangon != entity)) { _fun00022_ip = 822; continue _fun00021 }
+            if(!(tangon != entity)) { _fun00022_ip = 753; continue _fun00021 }
  61:
             zuuluu = _closure1_slot0;
             entity = _closure1_slot2;
-            oscard = 24;
-            michal = entity[oscard];
+            report = 24;
+            michal = entity[report];
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(michal);
             michal = zuuluu.allowInAppNotifications;
             michal = michal.bind(zuuluu)();
-            if(!michal) { _fun00022_ip = 822; continue _fun00021 }
+            if(!michal) { _fun00022_ip = 753; continue _fun00021 }
  102:
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
@@ -921,93 +921,93 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = option[michal];
             zuuluu = zuuluu.bind(entity)(michal);
             michal = zuuluu.tryParseChannelPath;
-            michal = michal.bind(zuuluu)(report);
+            michal = michal.bind(zuuluu)(oscard);
             if(!(tangon == michal)) { _fun00022_ip = 151; continue _fun00021 }
  137:
             michal = {'channelId': null, 'guildId': null};
  151:
             yankee = michal.channelId;
-            michal = michal.guildId;
-            if(!(tangon != yankee)) { _fun00022_ip = 818; continue _fun00021 }
+            verify = michal.guildId;
+            if(!(tangon != yankee)) { _fun00022_ip = 749; continue _fun00021 }
  168:
-            report = _closure1_slot17;
-            zuuluu = report.getCurrentlySelectedChannelId;
-            zuuluu = zuuluu.bind(report)();
-            if(!(zuuluu !== yankee)) { _fun00022_ip = 818; continue _fun00021 }
+            zuuluu = _closure1_slot17;
+            michal = zuuluu.getCurrentlySelectedChannelId;
+            michal = michal.bind(zuuluu)();
+            if(!(michal !== yankee)) { _fun00022_ip = 749; continue _fun00021 }
  189:
-            if(!(tangon != michal)) { _fun00022_ip = 818; continue _fun00021 }
+            if(!(tangon != verify)) { _fun00022_ip = 749; continue _fun00021 }
  196:
-            option = _closure1_slot0;
-            verify = _closure1_slot2;
-            zuuluu = 33;
-            zuuluu = verify[zuuluu];
-            zuuluu = option.bind(entity)(zuuluu);
-            report = zuuluu.ReactionNotifications;
-            zuuluu = report.getSetting;
-            report = zuuluu.bind(report)();
-            zuuluu = 34;
-            zuuluu = verify[zuuluu];
-            zuuluu = option.bind(entity)(zuuluu);
-            zuuluu = zuuluu.ReactionNotificationType;
-            zuuluu = zuuluu.NOTIFICATIONS_DISABLED;
-            if(!(report !== zuuluu)) { _fun00022_ip = 814; continue _fun00021 }
+            oscard = _closure1_slot0;
+            option = _closure1_slot2;
+            michal = 33;
+            michal = option[michal];
+            michal = oscard.bind(entity)(michal);
+            zuuluu = michal.ReactionNotifications;
+            michal = zuuluu.getSetting;
+            zuuluu = michal.bind(zuuluu)();
+            michal = 34;
+            michal = option[michal];
+            michal = oscard.bind(entity)(michal);
+            michal = michal.ReactionNotificationType;
+            michal = michal.NOTIFICATIONS_DISABLED;
+            if(!(zuuluu !== michal)) { _fun00022_ip = 745; continue _fun00021 }
  263:
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[oscard];
-            report = report.bind(entity)(zuuluu);
-            zuuluu = report.shouldNotify;
-            zuuluu = zuuluu.bind(report)(offset, yankee);
-            if(zuuluu) { _fun00022_ip = 299; continue _fun00021 }
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
+            michal = michal[report];
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.shouldNotify;
+            michal = michal.bind(zuuluu)(offset, yankee);
+            if(michal) { _fun00022_ip = 299; continue _fun00021 }
  295:
-            zuuluu = false;
-            return zuuluu;
+            michal = false;
+            return michal;
  299:
-            report = _closure1_slot14;
-            zuuluu = report.getChannel;
-            oscard = zuuluu.bind(report)(yankee);
-            report = tangon == oscard;
-            zuuluu = undefined;
-            if(report) { _fun00022_ip = 327; continue _fun00021 }
+            zuuluu = _closure1_slot14;
+            michal = zuuluu.getChannel;
+            oscard = michal.bind(zuuluu)(yankee);
+            zuuluu = tangon == oscard;
+            michal = undefined;
+            if(zuuluu) { _fun00022_ip = 327; continue _fun00021 }
  322:
-            zuuluu = oscard.type;
+            michal = oscard.type;
  327:
-            foxtra = tangon != zuuluu;
-            if(!foxtra) { _fun00022_ip = 353; continue _fun00021 }
+            zuuluu = tangon != michal;
+            if(!zuuluu) { _fun00022_ip = 353; continue _fun00021 }
  334:
             report = oscard.type;
-            zuuluu = _closure1_slot19;
-            zuuluu = zuuluu.GUILD_ANNOUNCEMENT;
-            foxtra = report === zuuluu;
+            michal = _closure1_slot19;
+            michal = michal.GUILD_ANNOUNCEMENT;
+            zuuluu = report === michal;
  353:
             report = _closure1_slot0;
             option = _closure1_slot2;
-            zuuluu = 35;
-            zuuluu = option[zuuluu];
-            verify = report.bind(entity)(zuuluu);
-            option = verify.isReactionMilestoneNotification;
+            michal = 35;
+            michal = option[michal];
+            backup = report.bind(entity)(michal);
+            option = backup.isReactionMilestoneNotification;
             report = offset.reactions;
             kiloes = tangon == oscard;
-            zuuluu = undefined;
+            michal = undefined;
             if(kiloes) { _fun00022_ip = 399; continue _fun00021 }
  394:
-            zuuluu = oscard.type;
+            michal = oscard.type;
  399:
-            zuuluu = option.bind(verify)(report, zuuluu);
+            michal = option.bind(backup)(report, michal);
             option = _closure1_slot15;
             report = option.getGuild;
-            verify = report.bind(option)(michal);
+            verify = report.bind(option)(verify);
             option = _closure1_slot18;
             report = option.getUser;
-            option = report.bind(option)(backup);
-            if(!(tangon != oscard)) { _fun00022_ip = 810; continue _fun00021 }
+            option = report.bind(option)(foxtra);
+            if(!(tangon != oscard)) { _fun00022_ip = 741; continue _fun00021 }
  441:
             if(!(tangon == option)) { _fun00022_ip = 451; continue _fun00021 }
  445:
-            if(!foxtra) { _fun00022_ip = 810; continue _fun00021 }
+            if(!zuuluu) { _fun00022_ip = 741; continue _fun00021 }
  451:
-            kiloes = offset.reactions;
-            backup = kiloes.find;
+            backup = offset.reactions;
+            foxtra = backup.find;
             report = function(argFoo) {
                 _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
@@ -1035,64 +1035,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 }
             };
-            backup = backup.bind(kiloes)(report);
-            kiloes = tangon != backup;
+            foxtra = foxtra.bind(backup)(report);
+            backup = tangon != foxtra;
             report = undefined;
-            if(!kiloes) { _fun00022_ip = 486; continue _fun00021 }
+            if(!backup) { _fun00022_ip = 486; continue _fun00021 }
  483:
-            report = backup;
+            report = foxtra;
  486:
             if(!(tangon == report)) { _fun00022_ip = 500; continue _fun00021 }
  490:
-            if(foxtra) { _fun00022_ip = 500; continue _fun00021 }
- 493:
             if(zuuluu) { _fun00022_ip = 500; continue _fun00021 }
+ 493:
+            if(michal) { _fun00022_ip = 500; continue _fun00021 }
  496:
-            zuuluu = false;
-            return zuuluu;
+            michal = false;
+            return michal;
  500:
-            backup = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            foxtra = 36;
-            zuuluu = zuuluu[foxtra];
-            zuuluu = backup.bind(entity)(zuuluu);
-            output = zuuluu.InAppReactionNotificationGuildExperiment;
-            sizing = output.getCurrentConfig;
-            kiloes = {};
-            kiloes['guildId'] = michal;
-            michal = 'handleReactionAdd';
-            kiloes['location'] = michal;
-            zuuluu = {};
-            backup = true;
-            zuuluu['autoTrackExposure'] = backup;
-            zuuluu = sizing.bind(output)(kiloes, zuuluu);
-            zuuluu = zuuluu.enableInAppNotifications;
-            if(!(tangon != verify)) { _fun00022_ip = 580; continue _fun00021 }
- 573:
-            if(zuuluu) { _fun00022_ip = 580; continue _fun00021 }
- 576:
-            zuuluu = false;
-            return zuuluu;
- 580:
-            tangon = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[foxtra];
-            foxtra = tangon.bind(entity)(zuuluu);
+            zuuluu = _closure1_slot1;
+            tangon = _closure1_slot2;
+            michal = 36;
+            michal = tangon[michal];
+            foxtra = zuuluu.bind(entity)(michal);
             tangon = foxtra.getCurrentConfig;
             zuuluu = {};
+            michal = 'handleReactionAdd';
             zuuluu['location'] = michal;
             michal = {};
+            backup = true;
             michal['autoTrackExposure'] = backup;
             michal = tangon.bind(foxtra)(zuuluu, michal);
             zuuluu = michal.enableInAppNotifications;
             michal = michal.enableNotificationsForAllReactions;
-            if(!zuuluu) { _fun00022_ip = 640; continue _fun00021 }
- 637:
-            if(michal) { _fun00022_ip = 644; continue _fun00021 }
- 640:
+            if(!zuuluu) { _fun00022_ip = 571; continue _fun00021 }
+ 568:
+            if(michal) { _fun00022_ip = 575; continue _fun00021 }
+ 571:
             michal = false;
             return michal;
- 644:
+ 575:
             zuuluu = _closure1_slot29;
             michal = {};
             tangon = {};
@@ -1141,16 +1121,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['notification'] = tangon;
             michal = zuuluu.bind(entity)(michal);
             return entity;
- 810:
+ 741:
             entity = false;
             return entity;
- 814:
+ 745:
             entity = false;
             return entity;
- 818:
+ 749:
             entity = false;
             return entity;
- 822:
+ 753:
             entity = false;
             return entity;
         }

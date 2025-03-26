@@ -596,7 +596,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = michal;
-        michal = new Array(66);
+        michal = new Array(67);
         michal[0] = oscard;
         oscard = {};
         golfie = 'interact';
@@ -2179,6 +2179,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         oscard['value'] = option;
         michal[65] = oscard;
+        oscard = {};
+        option = 'setMaybePreprocessMute';
+        oscard['key'] = option;
+        option = function() { // Original name: value
+            entity = undefined;
+            return entity;
+        };
+        oscard['value'] = option;
+        michal[66] = oscard;
         oscard = {};
         oscard['key'] = golfie;
         entity = function() { // Original name: value

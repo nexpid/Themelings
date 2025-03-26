@@ -104,8 +104,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             echoed = zuuluu.bind(tangon)(michal, entity);
             entity = null;
-            if(!(entity != echoed)) { _fun00002_ip = 547; continue _fun00001 }
- 85:
+            if(!(entity != echoed)) { _fun00002_ip = 549; continue _fun00001 }
+ 87:
             offset = _closure1_slot0;
             backup = _closure1_slot2;
             michal = 7;
@@ -201,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 547:
+ 549:
             return entity;
         }
     };

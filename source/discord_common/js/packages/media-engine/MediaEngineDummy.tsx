@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(65);
+        entity = new Array(66);
         entity[0] = report;
         report = {};
         golfie = 'interact';
@@ -924,12 +924,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = {};
         golfie = 'releaseNativeDesktopVideoSourcePickerStream';
         report['key'] = golfie;
+        golfie = function() { // Original name: value
+            entity = undefined;
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[64] = report;
+        report = {};
+        golfie = 'setMaybePreprocessMute';
+        report['key'] = golfie;
         oscard = function() { // Original name: value
             entity = undefined;
             return entity;
         };
         report['value'] = oscard;
-        entity[64] = report;
+        entity[65] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

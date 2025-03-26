@@ -857,7 +857,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['updateUserSoundboardVolume'] = tangon;
-    michal = function(argFoo) { // Original name: muteCustomJoinSound
+    tangon = function(argFoo) { // Original name: muteCustomJoinSound
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
         entity = 7;
@@ -873,6 +873,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zuuluu['muteCustomJoinSound'] = michal;
+    zuuluu['muteCustomJoinSound'] = tangon;
+    michal = function(argFoo) { // Original name: toggleShowAllForGuild
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
+        entity = 7;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'GUILD_SOUNDBOARD_TOGGLE_SHOW_ALL';
+        michal['type'] = report;
+        report = argFoo;
+        michal['guildId'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    zuuluu['toggleShowAllForGuild'] = michal;
     return entity;
 })();

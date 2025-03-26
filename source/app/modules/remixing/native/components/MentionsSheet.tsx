@@ -223,10 +223,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = null;
                 zuuluu = offset == michal;
                 golfie = undefined;
-                if(zuuluu) { _fun00004_ip = 195; continue _fun00003 }
- 189:
+                if(zuuluu) { _fun00004_ip = 191; continue _fun00003 }
+ 185:
                 golfie = michal.colorString;
- 195:
+ 191:
                 _closure2_slot4 = golfie;
                 oscard = _closure1_slot4;
                 backup = oscard.useCallback;
@@ -493,10 +493,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard['size'] = romeon;
                 romeon = offset != yankee;
                 offset = undefined;
-                if(!romeon) { _fun00004_ip = 422; continue _fun00003 }
- 419:
+                if(!romeon) { _fun00004_ip = 412; continue _fun00003 }
+ 409:
                 offset = yankee;
- 422:
+ 412:
                 oscard['guildId'] = offset;
                 offset = true;
                 oscard['autoStatusCutout'] = offset;
@@ -835,12 +835,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = null;
                 verify = option != yankee;
                 option = undefined;
-                if(!verify) { _fun00010_ip = 291; continue _fun00009 }
- 282:
+                if(!verify) { _fun00010_ip = 285; continue _fun00009 }
+ 276:
                 verify = {};
                 verify['color'] = yankee;
                 option = verify;
- 291:
+ 285:
                 oscard['style'] = option;
                 option = global;
                 option = option.HermesInternal;

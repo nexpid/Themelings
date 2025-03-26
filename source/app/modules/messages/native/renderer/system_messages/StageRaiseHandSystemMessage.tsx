@@ -235,21 +235,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = null;
             zuuluu = option == report;
             kiloes = undefined;
-            if(zuuluu) { _fun00004_ip = 408; continue _fun00003 }
- 387:
+            if(zuuluu) { _fun00004_ip = 416; continue _fun00003 }
+ 395:
             zuuluu = report.voiceState;
             output = option == zuuluu;
             kiloes = undefined;
-            if(output) { _fun00004_ip = 408; continue _fun00003 }
- 402:
+            if(output) { _fun00004_ip = 416; continue _fun00003 }
+ 410:
             kiloes = zuuluu.requestToSpeakTimestamp;
- 408:
+ 416:
             output = option != kiloes;
             zuuluu = 0;
-            if(!output) { _fun00004_ip = 420; continue _fun00003 }
- 417:
+            if(!output) { _fun00004_ip = 428; continue _fun00003 }
+ 425:
             zuuluu = kiloes;
- 420:
+ 428:
             kiloes = sizing.prototype;
             kiloes = Object.create(kiloes, {constructor: {value: sizing}});
             ctrled = kiloes;
@@ -259,14 +259,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = kiloes.toISOString;
             zuuluu = zuuluu.bind(kiloes)();
             zuuluu = backup === zuuluu;
-            if(!golfie) { _fun00004_ip = 511; continue _fun00003 }
- 460:
+            if(!golfie) { _fun00004_ip = 519; continue _fun00003 }
+ 468:
             backup = option == report;
             option = undefined;
-            if(backup) { _fun00004_ip = 475; continue _fun00003 }
- 469:
+            if(backup) { _fun00004_ip = 483; continue _fun00003 }
+ 477:
             option = report.rtsState;
- 475:
+ 483:
             backup = _closure1_slot0;
             kiloes = _closure1_slot2;
             report = 11;
@@ -275,11 +275,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.RequestToSpeakStates;
             report = report.REQUESTED_TO_SPEAK;
             golfie = option === report;
- 511:
-            if(!golfie) { _fun00004_ip = 517; continue _fun00003 }
- 514:
+ 519:
+            if(!golfie) { _fun00004_ip = 525; continue _fun00003 }
+ 522:
             golfie = zuuluu;
- 517:
+ 525:
             report = _closure1_slot3;
             option = report.useMemo;
             zuuluu = new Array(5);

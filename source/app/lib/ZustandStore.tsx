@@ -1,33 +1,28 @@
 // app/lib/ZustandStore.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
-    oscard = argPlu;
+    tangon = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
+    var _closure1_slot1 = tangon;
     entity = function(argFoo, argBar) { // Original name: defaultStatesAreEqual
         michal = argFoo;
         entity = argBar;
         entity = michal === entity;
         return entity;
     };
-    var _closure1_slot3 = entity;
+    var _closure1_slot2 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
-    tangon = {};
+    oscard = {};
     entity = true;
-    tangon['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
+    entity = 3;
+    tangon = tangon[entity];
     entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
     tangon = 'lib/ZustandStore.tsx';
@@ -35,17 +30,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function(argFoo) { // Original name: createZustandStore
         entity = argFoo;
         var _closure2_slot0 = entity;
-        report = function(argFoo, argBar) { // Original name: useState
-            tangon = _closure2_slot1;
-            zuuluu = undefined;
-            michal = argFoo;
-            entity = argBar;
-            entity = tangon.bind(zuuluu)(michal, entity);
-            return entity;
+        report = function(argFoo) { // Original name: useState
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+                tangon = arguments[1];
+                zuuluu = undefined;
+                if(!(tangon === zuuluu)) { _fun00002_ip = 16; continue _fun00001 }
+ 9:
+                tangon = _closure1_slot2;
+ 16:
+                michal = _closure2_slot1;
+                entity = argFoo;
+                entity = michal.bind(zuuluu)(entity, tangon);
+                return entity;
+            }
         };
         var _closure2_slot3 = report;
         tangon = function(argFoo) { // Original name: getState
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 tangon = argFoo;
                 michal = _closure2_slot1;
@@ -53,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = entity.bind(michal)();
                 michal = null;
                 entity = zuuluu;
-                if(!(michal != tangon)) { _fun00002_ip = 36; continue _fun00001 }
+                if(!(michal != tangon)) { _fun00004_ip = 36; continue _fun00003 }
  29:
                 michal = undefined;
                 entity = tangon.bind(michal)(zuuluu);
@@ -62,26 +64,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         var _closure2_slot4 = tangon;
-        entity = function(argFoo) { // Original name: makeFieldSelector
-            michal = argFoo;
-            var _closure3_slot0 = michal;
-            entity = function(argFoo) {
-                michal = _closure3_slot0;
-                entity = argFoo;
-                entity = entity[michal];
-                return entity;
-            };
-            return entity;
-        };
-        var _closure2_slot5 = entity;
         option = _closure1_slot0;
         verify = _closure1_slot1;
-        entity = 1;
+        entity = 0;
         entity = verify[entity];
         golfie = undefined;
         oscard = option.bind(golfie)(entity);
         zuuluu = oscard.createWithEqualityFn;
-        entity = 2;
+        entity = 1;
         entity = verify[entity];
         option = option.bind(golfie)(entity);
         golfie = option.subscribeWithSelector;
@@ -95,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 var _closure4_slot0 = michal;
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot1;
-                michal = 3;
+                michal = 2;
                 zuuluu = zuuluu[michal];
                 michal = undefined;
                 zuuluu = tangon.bind(michal)(zuuluu);
@@ -123,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure3_slot0 = entity;
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
-            entity = 3;
+            entity = 2;
             zuuluu = zuuluu[entity];
             entity = undefined;
             tangon = tangon.bind(entity)(zuuluu);
@@ -143,40 +133,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity['useState'] = report;
         entity['getState'] = tangon;
         tangon = function(argFoo) { // Original name: useField
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                option = argFoo;
                 tangon = arguments[1];
-                var _closure3_slot0 = option;
+                michal = argFoo;
+                var _closure3_slot0 = michal;
                 zuuluu = undefined;
-                if(!(tangon === zuuluu)) { _fun00004_ip = 25; continue _fun00003 }
+                if(!(tangon === zuuluu)) { _fun00006_ip = 25; continue _fun00005 }
  18:
-                tangon = _closure1_slot3;
+                tangon = _closure1_slot2;
  25:
                 michal = _closure2_slot3;
-                golfie = _closure1_slot2;
-                oscard = golfie.useMemo;
-                report = new Array(1);
-                report[0] = option;
-                entity = function() {
-                    zuuluu = _closure2_slot5;
+                entity = function(argFoo) {
                     michal = _closure3_slot0;
-                    entity = undefined;
-                    entity = zuuluu.bind(entity)(michal);
+                    entity = argFoo;
+                    entity = entity[michal];
                     return entity;
                 };
-                entity = oscard.bind(golfie)(entity, report);
                 entity = michal.bind(zuuluu)(entity, tangon);
                 return entity;
             }
         };
         entity['useField'] = tangon;
         tangon = function(argFoo) { // Original name: getField
+            michal = argFoo;
+            var _closure3_slot0 = michal;
             zuuluu = _closure2_slot4;
-            tangon = _closure2_slot5;
             michal = undefined;
-            entity = argFoo;
-            entity = tangon.bind(michal)(entity);
+            entity = function(argFoo) {
+                michal = _closure3_slot0;
+                entity = argFoo;
+                entity = entity[michal];
+                return entity;
+            };
             entity = zuuluu.bind(michal)(entity);
             return entity;
         };

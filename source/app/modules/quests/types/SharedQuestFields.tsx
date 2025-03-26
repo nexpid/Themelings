@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         entity['get'] = zuuluu;
-        zuuluu = new Array(8);
+        zuuluu = new Array(9);
         zuuluu[0] = entity;
         entity = {};
         oscard = '_defaultRewardV2';
@@ -176,15 +176,61 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity['get'] = oscard;
         zuuluu[7] = entity;
         entity = {};
+        oscard = 'defaultInGameTask';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: get
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                michal = this;
+                entity = michal.quest;
+                entity = entity.taskConfig;
+                tangon = entity.type;
+                report = _closure1_slot0;
+                zuuluu = _closure1_slot1;
+                entity = 4;
+                zuuluu = zuuluu[entity];
+                entity = undefined;
+                entity = report.bind(entity)(zuuluu);
+                entity = entity.QuestTaskConfigTypes;
+                zuuluu = entity.THIRD_PARTY;
+                entity = null;
+                if(!(tangon === zuuluu)) { _fun00004_ip = 150; continue _fun00003 }
+ 63:
+                tangon = global;
+                golfie = tangon.Object;
+                report = golfie.keys;
+                zuuluu = michal.quest;
+                zuuluu = zuuluu.taskConfig;
+                zuuluu = zuuluu.tasks;
+                zuuluu = report.bind(golfie)(zuuluu);
+                report = zuuluu.length;
+                zuuluu = 0;
+                entity = null;
+                if(!(zuuluu !== report)) { _fun00004_ip = 150; continue _fun00003 }
+ 112:
+                report = tangon.Object;
+                tangon = report.values;
+                michal = michal.quest;
+                michal = michal.taskConfig;
+                michal = michal.tasks;
+                michal = tangon.bind(report)(michal);
+                entity = michal[zuuluu];
+ 150:
+                return entity;
+            }
+        };
+        entity['get'] = oscard;
+        zuuluu[8] = entity;
+        entity = {};
         oscard = 'build';
         entity['key'] = oscard;
         michal = function(argFoo) { // Original name: value
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 zuuluu = argFoo;
                 michal = zuuluu.configVersion;
                 entity = 2;
-                if(!(entity === michal)) { _fun00004_ip = 48; continue _fun00003 }
+                if(!(entity === michal)) { _fun00006_ip = 48; continue _fun00005 }
  16:
                 entity = _closure2_slot0;
                 michal = entity.prototype;
@@ -214,7 +260,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal = michal.bind(entity)();
-    tangon = 4;
+    tangon = 5;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

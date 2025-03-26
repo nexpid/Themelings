@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure2_slot0;
                     tangon = zuuluu.sourceURI;
                     zuuluu = null;
-                    if(!(zuuluu != tangon)) { _fun00008_ip = 116; continue _fun00007 }
+                    if(!(zuuluu != tangon)) { _fun00008_ip = 114; continue _fun00007 }
  54:
                     zuuluu = _closure1_slot0;
                     tangon = _closure1_slot2;
@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     michal['onConfirm'] = report;
                     michal = zuuluu.bind(tangon)(michal);
- 116:
+ 114:
                     return entity;
                 }
             };
@@ -414,23 +414,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.bind(output)(report);
             report = kiloes.useCanForwardMessage;
             report = report.bind(kiloes)(sizing);
-            if(!report) { _fun00002_ip = 512; continue _fun00001 }
- 509:
+            if(!report) { _fun00002_ip = 498; continue _fun00001 }
+ 495:
             report = zuuluu;
- 512:
-            if(!report) { _fun00002_ip = 547; continue _fun00001 }
- 515:
+ 498:
+            if(!report) { _fun00002_ip = 533; continue _fun00001 }
+ 501:
             kiloes = tangon.attachmentId;
             zuuluu = null;
             zuuluu = zuuluu != kiloes;
-            if(zuuluu) { _fun00002_ip = 544; continue _fun00001 }
- 530:
+            if(zuuluu) { _fun00002_ip = 530; continue _fun00001 }
+ 516:
             kiloes = tangon.accessoryType;
             tangon = 'embed';
             zuuluu = tangon === kiloes;
- 544:
+ 530:
             report = zuuluu;
- 547:
+ 533:
             _closure2_slot13 = report;
             tangon = _closure1_slot3;
             zuuluu = tangon.useMemo;

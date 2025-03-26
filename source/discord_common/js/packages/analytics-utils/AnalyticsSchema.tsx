@@ -87,6 +87,12 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['CHANNEL_CALL_VIDEO_GRID_VIEW'] = michal;
     michal = 'impression_channel_viewed';
     tangon['CHANNEL_VIEWED'] = michal;
+    michal = 'impression_chat_wallpaper_dm_context_menu_entry_point';
+    tangon['CHAT_WALLPAPER_DM_CONTEXT_MENU_ENTRY_POINT'] = michal;
+    michal = 'impression_chat_wallpaper_dm_list_coachmark';
+    tangon['CHAT_WALLPAPER_DM_LIST_COACHMARK'] = michal;
+    michal = 'impression_chat_wallpaper_picker_coachmark';
+    tangon['CHAT_WALLPAPER_PICKER_COACHMARK'] = michal;
     michal = 'impression_clip_editor_viewed';
     tangon['CLIP_EDITOR_VIEWED'] = michal;
     michal = 'impression_clip_gallery_viewed';

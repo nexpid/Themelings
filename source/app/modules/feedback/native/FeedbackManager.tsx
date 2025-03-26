@@ -131,15 +131,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.FeedbackType;
     var _closure1_slot12 = tangon;
-    tangon = 21;
+    tangon = 20;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
-        tangon = function(argFoo) { // Original name: FeedbackManager
+        zuuluu = function(argFoo) { // Original name: FeedbackManager
             oscard = this;
             yankee = 0;
             golfie = copyRestArgs(yankee);
-            zuuluu = _closure1_slot3;
+            zuuluu = _closure1_slot4;
             report = _closure2_slot0;
             tangon = undefined;
             zuuluu = zuuluu.bind(tangon)(oscard, report);
@@ -570,30 +570,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['handleBlockUserFeedback'] = michal;
             return entity;
         };
-        var _closure2_slot0 = tangon;
-        oscard = _closure1_slot7;
-        zuuluu = undefined;
-        report = argFoo;
-        report = oscard.bind(zuuluu)(tangon, report);
-        michal = _closure1_slot4;
-        report = {};
-        oscard = '_initialize';
-        report['key'] = oscard;
-        entity = function() { // Original name: value
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 20;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.init;
-            michal = michal.bind(zuuluu)();
-            return entity;
-        };
-        report['value'] = entity;
-        entity = new Array(1);
-        entity[0] = report;
-        entity = michal.bind(zuuluu)(tangon, entity);
+        var _closure2_slot0 = zuuluu;
+        report = _closure1_slot7;
+        michal = undefined;
+        tangon = argFoo;
+        tangon = report.bind(michal)(zuuluu, tangon);
+        entity = _closure1_slot3;
+        entity = entity.bind(michal)(zuuluu);
         return entity;
     };
     michal = michal.bind(entity)(tangon);
@@ -602,7 +585,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = tangon;
     michal = new foxtra[michal](romeon);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 22;
+    tangon = 21;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

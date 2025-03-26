@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  48:
             michal = zuuluu.@@iterator;
  54:
-            if(michal) { _fun00002_ip = 342; continue _fun00001 }
+            if(michal) { _fun00002_ip = 344; continue _fun00001 }
  60:
             oscard = report.Array;
             tangon = oscard.isArray;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             return entity;
- 342:
+ 344:
             entity = michal.call;
             zuuluu = entity.bind(michal)(zuuluu);
             michal = zuuluu.next;
@@ -478,37 +478,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = yankee.bind(zuuluu)(oscard);
             romeon = !offset;
             oscard = zuuluu;
-            if(!romeon) { _fun00014_ip = 315; continue _fun00013 }
- 312:
+            if(!romeon) { _fun00014_ip = 317; continue _fun00013 }
+ 314:
             romeon = yankee;
- 315:
+ 317:
             zuuluu = romeon;
-            if(romeon) { _fun00014_ip = 324; continue _fun00013 }
- 321:
+            if(romeon) { _fun00014_ip = 326; continue _fun00013 }
+ 323:
             zuuluu = verify;
- 324:
-            if(zuuluu) { _fun00014_ip = 330; continue _fun00013 }
- 327:
+ 326:
+            if(zuuluu) { _fun00014_ip = 332; continue _fun00013 }
+ 329:
             zuuluu = michal;
- 330:
+ 332:
             kiloes = golfie;
-            if(!golfie) { _fun00014_ip = 339; continue _fun00013 }
- 336:
+            if(!golfie) { _fun00014_ip = 341; continue _fun00013 }
+ 338:
             kiloes = option;
- 339:
-            if(!kiloes) { _fun00014_ip = 360; continue _fun00013 }
- 342:
+ 341:
+            if(!kiloes) { _fun00014_ip = 362; continue _fun00013 }
+ 344:
             sizing = !yankee;
-            if(sizing) { _fun00014_ip = 351; continue _fun00013 }
- 348:
+            if(sizing) { _fun00014_ip = 353; continue _fun00013 }
+ 350:
             sizing = offset;
- 351:
-            if(sizing) { _fun00014_ip = 357; continue _fun00013 }
- 354:
+ 353:
+            if(sizing) { _fun00014_ip = 359; continue _fun00013 }
+ 356:
             sizing = zuuluu;
- 357:
+ 359:
             kiloes = sizing;
- 360:
+ 362:
             source = _closure1_slot5;
             output = source.getChannel;
             sizing = ctrled.getChannelId;
@@ -516,24 +516,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             output = output.bind(source)(sizing);
             sizing = echoed == output;
             source = undefined;
-            if(sizing) { _fun00014_ip = 418; continue _fun00013 }
- 393:
+            if(sizing) { _fun00014_ip = 420; continue _fun00013 }
+ 395:
             sizing = output.getGuildId;
             sizing = echoed == sizing;
             source = undefined;
-            if(sizing) { _fun00014_ip = 418; continue _fun00013 }
- 408:
+            if(sizing) { _fun00014_ip = 420; continue _fun00013 }
+ 410:
             sizing = output.getGuildId;
             source = sizing.bind(output)();
- 418:
+ 420:
             sizing = echoed != source;
             echoed = null;
-            if(!sizing) { _fun00014_ip = 442; continue _fun00013 }
- 427:
+            if(!sizing) { _fun00014_ip = 444; continue _fun00013 }
+ 429:
             output = _closure1_slot6;
             sizing = output.getSelfMember;
             echoed = sizing.bind(output)(source);
- 442:
+ 444:
             sizing = _closure1_slot0;
             source = _closure1_slot2;
             entity = 13;
@@ -550,37 +550,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['poll'] = result;
             entity['canTapAnswers'] = kiloes;
             kiloes = romeon;
-            if(!kiloes) { _fun00014_ip = 517; continue _fun00013 }
- 514:
+            if(!kiloes) { _fun00014_ip = 519; continue _fun00013 }
+ 516:
             kiloes = golfie;
- 517:
-            if(!kiloes) { _fun00014_ip = 523; continue _fun00013 }
- 520:
+ 519:
+            if(!kiloes) { _fun00014_ip = 525; continue _fun00013 }
+ 522:
             kiloes = !verify;
- 523:
+ 525:
             entity['canRemoveVote'] = kiloes;
             entity['canShowVoteCounts'] = zuuluu;
             kiloes = !tangon;
-            if(!kiloes) { _fun00014_ip = 542; continue _fun00013 }
- 539:
+            if(!kiloes) { _fun00014_ip = 544; continue _fun00013 }
+ 541:
             kiloes = foxtra;
- 542:
-            if(!kiloes) { _fun00014_ip = 548; continue _fun00013 }
- 545:
+ 544:
+            if(!kiloes) { _fun00014_ip = 550; continue _fun00013 }
+ 547:
             kiloes = !romeon;
- 548:
-            if(!kiloes) { _fun00014_ip = 554; continue _fun00013 }
- 551:
+ 550:
+            if(!kiloes) { _fun00014_ip = 556; continue _fun00013 }
+ 553:
             kiloes = golfie;
- 554:
-            if(!kiloes) { _fun00014_ip = 560; continue _fun00013 }
- 557:
+ 556:
+            if(!kiloes) { _fun00014_ip = 562; continue _fun00013 }
+ 559:
             kiloes = !output;
- 560:
-            if(!kiloes) { _fun00014_ip = 566; continue _fun00013 }
- 563:
+ 562:
+            if(!kiloes) { _fun00014_ip = 568; continue _fun00013 }
+ 565:
             kiloes = !sizing;
- 566:
+ 568:
             entity['canSubmitVote'] = kiloes;
             entity['expirationLabel'] = backup;
             entity['hasSelectedAnswer'] = foxtra;
@@ -1028,19 +1028,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity['pollMedia'] = foxtra;
                     entity['isSelected'] = yankee;
                     yankee = _closure2_slot7;
-                    if(!yankee) { _fun00020_ip = 634; continue _fun00019 }
- 631:
+                    if(!yankee) { _fun00020_ip = 652; continue _fun00019 }
+ 649:
                     yankee = romeon;
- 634:
+ 652:
                     entity['isVictor'] = yankee;
                     entity['didSelfVote'] = verify;
                     entity['style'] = option;
                     option = _closure2_slot10;
-                    if(!option) { _fun00020_ip = 664; continue _fun00019 }
- 657:
+                    if(!option) { _fun00020_ip = 682; continue _fun00019 }
+ 675:
                     verify = _closure2_slot1;
                     option = !verify;
- 664:
+ 682:
                     entity['shouldAnimateTransition'] = option;
                     verify = tangon.Math;
                     option = verify.round;
@@ -1244,15 +1244,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal[papara];
             michal = ctrled.bind(kiloes)(michal);
             michal = michal.t;
-            if(result) { _fun00016_ip = 948; continue _fun00015 }
- 933:
+            if(result) { _fun00016_ip = 964; continue _fun00015 }
+ 949:
             result = michal.cHfFqq;
             result = zuuluu.bind(verify)(result);
-            _fun00016_ip = 961; continue _fun00015;
- 948:
+            _fun00016_ip = 977; continue _fun00015;
+ 964:
             michal = michal.PVATMz;
             result = zuuluu.bind(verify)(michal);
- 961:
+ 977:
             _closure2_slot15 = result;
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
@@ -1320,17 +1320,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             zuuluu = zuuluu.bind(verify)(michal);
             michal = undefined;
-            if(!yankee) { _fun00016_ip = 1178; continue _fun00015 }
- 1086:
+            if(!yankee) { _fun00016_ip = 1200; continue _fun00015 }
+ 1108:
             michal = undefined;
-            if(report) { _fun00016_ip = 1178; continue _fun00015 }
- 1091:
+            if(report) { _fun00016_ip = 1200; continue _fun00015 }
+ 1113:
             michal = undefined;
-            if(oscard) { _fun00016_ip = 1178; continue _fun00015 }
- 1096:
+            if(oscard) { _fun00016_ip = 1200; continue _fun00015 }
+ 1118:
             michal = undefined;
-            if(entity) { _fun00016_ip = 1178; continue _fun00015 }
- 1101:
+            if(entity) { _fun00016_ip = 1200; continue _fun00015 }
+ 1123:
             entity = {'label': null, 'presentation': 'textButton', 'enabled': true, 'type': 'showVotes'};
             record = _closure1_slot0;
             verify = _closure1_slot2;
@@ -1345,7 +1345,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = source.bind(ctrled)(verify);
             entity['label'] = verify;
             michal = entity;
- 1178:
+ 1200:
             verify = cntext.allow_multiselect;
             ctrled = _closure1_slot0;
             source = _closure1_slot2;
@@ -1488,10 +1488,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             backup = backup.bind(update)();
             entity['answersInteraction'] = backup;
             backup = undefined;
-            if(!echoed) { _fun00016_ip = 1500; continue _fun00015 }
- 1497:
+            if(!echoed) { _fun00016_ip = 1538; continue _fun00015 }
+ 1535:
             backup = result;
- 1500:
+ 1538:
             entity['answerTapAccessibilityLabel'] = backup;
             entity['layoutType'] = sizing;
             backup = _closure1_slot1;

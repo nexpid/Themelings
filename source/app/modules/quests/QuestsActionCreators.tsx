@@ -288,11 +288,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 469; continue _fun00005 }
+                    if(michal) { _fun00006_ip = 475; continue _fun00005 }
  12:
                     zuuluu = _closure1_slot4;
                     zuuluu = zuuluu.isFetchingCurrentQuests;
-                    if(zuuluu) { _fun00006_ip = 464; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 470; continue _fun00005 }
  31:
                     option = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -332,7 +332,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  169:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                    if(option) { _fun00006_ip = 341; continue _fun00005 }
+                    if(option) { _fun00006_ip = 347; continue _fun00005 }
  178:
                     option = zuuluu.body;
                     offset = option.quests;
@@ -421,11 +421,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = true;
                     tangon['wasSuccessful'] = yankee;
                     tangon = verify.bind(offset)(option, tangon);
- 336: // try_end0
-                    _fun00006_ip = 464; continue _fun00005;
- 341:
+ 342: // try_end0
+                    _fun00006_ip = 470; continue _fun00005;
+ 347:
                     return zuuluu;
- 344: // catch_target0
+ 350: // catch_target0
                     CatchBlockStart(arg_register=11);
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -455,10 +455,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = false;
                     michal['wasSuccessful'] = oscard;
                     michal = tangon.bind(report)(zuuluu, michal);
- 464:
+ 470:
                     michal = undefined;
                     return michal;
- 469:
+ 475:
                     return entity;
                 }
             };
@@ -1526,11 +1526,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00026_ip = 302; continue _fun00025 }
+                    if(michal) { _fun00026_ip = 304; continue _fun00025 }
  10:
                     michal = _closure1_slot4;
                     michal = michal.isFetchingClaimedQuests;
-                    if(michal) { _fun00026_ip = 297; continue _fun00025 }
+                    if(michal) { _fun00026_ip = 299; continue _fun00025 }
  29:
                     report = _closure1_slot1;
                     tangon = _closure1_slot2;
@@ -1563,7 +1563,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return tangon;
  134:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00026_ip = 214; continue _fun00025 }
+                    if(report) { _fun00026_ip = 216; continue _fun00025 }
  140:
                     report = tangon.body;
                     golfie = report.quests;
@@ -1591,11 +1591,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report['type'] = offset;
                     report['quests'] = verify;
                     report = oscard.bind(golfie)(report);
- 212: // try_end0
-                    _fun00026_ip = 297; continue _fun00025;
- 214:
+ 214: // try_end0
+                    _fun00026_ip = 299; continue _fun00025;
+ 216:
                     return tangon;
- 217: // catch_target0
+ 219: // catch_target0
                     CatchBlockStart(arg_register=6);
                     oscard = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -1616,10 +1616,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = report instanceof Object ? report : oscard;
                     michal['error'] = report;
                     michal = zuuluu.bind(tangon)(michal);
- 297:
+ 299:
                     michal = undefined;
                     return michal;
- 302:
+ 304:
                     return entity;
                 }
             };

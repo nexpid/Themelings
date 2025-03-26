@@ -74,12 +74,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 var _closure3_slot0 = zuuluu;
                 zuuluu = _closure2_slot2;
                 zuuluu = zuuluu.current;
-                if(!zuuluu) { _fun00002_ip = 59; continue _fun00001 }
- 46:
+                if(!zuuluu) { _fun00002_ip = 61; continue _fun00001 }
+ 48:
                 tangon = _closure2_slot3;
                 zuuluu = _closure2_slot0;
                 zuuluu = tangon.bind(report)(zuuluu);
- 59:
+ 61:
                 zuuluu = _closure2_slot2;
                 michal = false;
                 zuuluu['current'] = michal;

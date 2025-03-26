@@ -98,11 +98,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = null;
             report = michal == entity;
             foxtra = undefined;
-            if(report) { _fun00002_ip = 152; continue _fun00001 }
- 142:
+            if(report) { _fun00002_ip = 156; continue _fun00001 }
+ 146:
             report = entity.getGuildId;
             foxtra = report.bind(entity)();
- 152:
+ 156:
             var _closure2_slot3 = foxtra;
             verify = _closure1_slot0;
             option = _closure1_slot1;
@@ -198,8 +198,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             golfie = yankee.bind(romeon)(verify, golfie, option);
             michal = michal != golfie;
-            if(!michal) { _fun00002_ip = 377; continue _fun00001 }
- 326:
+            if(!michal) { _fun00002_ip = 387; continue _fun00001 }
+ 336:
             verify = _closure1_slot0;
             yankee = _closure1_slot1;
             option = 9;
@@ -211,25 +211,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.SUPPRESS_JOIN_NOTIFICATION_REPLIES;
             oscard = option.bind(verify)(golfie, oscard);
             michal = !oscard;
- 377:
+ 387:
             zuuluu = zuuluu.author;
             zuuluu = zuuluu.bot;
-            if(!entity) { _fun00002_ip = 395; continue _fun00001 }
- 392:
+            if(!entity) { _fun00002_ip = 405; continue _fun00001 }
+ 402:
             entity = !report;
- 395:
-            if(!entity) { _fun00002_ip = 401; continue _fun00001 }
- 398:
+ 405:
+            if(!entity) { _fun00002_ip = 411; continue _fun00001 }
+ 408:
             entity = !tangon;
- 401:
-            if(!entity) { _fun00002_ip = 407; continue _fun00001 }
- 404:
+ 411:
+            if(!entity) { _fun00002_ip = 417; continue _fun00001 }
+ 414:
             entity = !zuuluu;
- 407:
-            if(!entity) { _fun00002_ip = 413; continue _fun00001 }
- 410:
+ 417:
+            if(!entity) { _fun00002_ip = 423; continue _fun00001 }
+ 420:
             entity = michal;
- 413:
+ 423:
             return entity;
         }
     };

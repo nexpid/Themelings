@@ -395,7 +395,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = true;
  20:
             foxtra = null;
-            if(!(foxtra != golfie)) { _fun00008_ip = 381; continue _fun00007 }
+            if(!(foxtra != golfie)) { _fun00008_ip = 379; continue _fun00007 }
  29:
             option = _closure1_slot0;
             verify = _closure1_slot2;
@@ -514,7 +514,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             michal = tangon.bind(report)(zuuluu, oscard, michal);
- 381:
+ 379:
             return entity;
         }
     };
@@ -714,7 +714,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = oscard.bind(zuuluu)(report);
             zuuluu = report.isAndroid;
             zuuluu = zuuluu.bind(report)();
-            if(zuuluu) { _fun00018_ip = 83; continue _fun00017 }
+            if(zuuluu) { _fun00018_ip = 81; continue _fun00017 }
  46:
             zuuluu = global;
             report = zuuluu.Promise;
@@ -757,13 +757,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = zuuluu;
             entity = new option[report](golfie, oscard);
             entity = entity instanceof Object ? entity : zuuluu;
-            _fun00018_ip = 106; continue _fun00017;
- 83:
+            _fun00018_ip = 104; continue _fun00017;
+ 81:
             michal = _closure1_slot4;
             zuuluu = michal.DCDSend;
             michal = zuuluu.isPackageInstalled;
             entity = michal.bind(zuuluu)(tangon);
- 106:
+ 104:
             return entity;
         }
     };

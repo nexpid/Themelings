@@ -202,11 +202,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = undefined;
             golfie = entity.bind(report)();
             entity = null;
-            if(!(entity != zuuluu)) { _fun00004_ip = 112; continue _fun00003 }
+            if(!(entity != zuuluu)) { _fun00004_ip = 114; continue _fun00003 }
  48:
             option = zuuluu.type;
             tangon = 'checkbox';
-            if(!(tangon === option)) { _fun00004_ip = 112; continue _fun00003 }
+            if(!(tangon === option)) { _fun00004_ip = 114; continue _fun00003 }
  61:
             option = zuuluu.data;
             tangon = _closure1_slot4;
@@ -300,7 +300,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 112:
+ 114:
             return entity;
         }
     };

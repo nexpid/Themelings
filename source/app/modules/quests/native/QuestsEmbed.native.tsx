@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity instanceof Object ? entity : zuuluu;
             entity = zuuluu.toISOString;
             entity = entity.bind(zuuluu)();
-            if(!(!(michal < entity))) { _fun00004_ip = 265; continue _fun00003 }
+            if(!(!(michal < entity))) { _fun00004_ip = 267; continue _fun00003 }
  65:
             option = _closure1_slot0;
             offset = _closure1_slot2;
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['withSimplifiedCopy'] = tangon;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 265:
+ 267:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
             entity = 9;

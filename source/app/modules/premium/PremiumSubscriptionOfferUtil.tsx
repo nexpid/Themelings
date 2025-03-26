@@ -50,15 +50,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot12 = report;
     report = tangon.PREMIUM_TIER_2_LIKELIHOOD_DISCOUNT_ID;
     var _closure1_slot13 = report;
-    report = tangon.PREMIUM_TIER_2_LIKELIHOOD_TRIAL_ID;
-    var _closure1_slot14 = report;
     tangon = tangon.PREMIUM_TIER_2_REACTIVATION_DISCOUNT_ID;
-    var _closure1_slot15 = tangon;
+    var _closure1_slot14 = tangon;
     tangon = 5;
     tangon = golfie[tangon];
     tangon = oscard.bind(entity)(tangon);
     tangon = tangon.Endpoints;
-    var _closure1_slot16 = tangon;
+    var _closure1_slot15 = tangon;
     tangon = function() { // Original name: useHasDiscountApplied
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -112,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot17 = tangon;
+    var _closure1_slot16 = tangon;
     report = function() {
         tangon = _closure1_slot4;
         zuuluu = undefined;
@@ -137,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = zuuluu.HTTP;
                     oscard = golfie.post;
                     zuuluu = {};
-                    option = _closure1_slot16;
+                    option = _closure1_slot15;
                     option = option.CHURN_USER_OFFER;
                     zuuluu['url'] = option;
                     option = true;
@@ -189,8 +187,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     report = report.bind(entity)();
-    var _closure1_slot18 = report;
-    report = 14;
+    var _closure1_slot17 = report;
+    report = 13;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -217,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.bind(zuuluu)(tangon);
             tangon = oscard.usePremiumDiscountOffer;
             tangon = tangon.bind(oscard)();
-            michal = _closure1_slot17;
+            michal = _closure1_slot16;
             michal = michal.bind(zuuluu)();
             zuuluu = null;
             entity = zuuluu != entity;
@@ -282,7 +280,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = _closure1_slot13;
             if(!(tangon !== zuuluu)) { _fun00008_ip = 208; continue _fun00007 }
  126:
-            tangon = _closure1_slot15;
+            tangon = _closure1_slot14;
             if(!(tangon !== zuuluu)) { _fun00008_ip = 208; continue _fun00007 }
  134:
             tangon = _closure1_slot12;
@@ -365,7 +363,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  140:
             oscard = true;
             oscard = golfie.bind(report)(oscard);
-            tangon = _closure1_slot18;
+            tangon = _closure1_slot17;
             oscard = tangon.bind(report)();
             report = oscard.then;
             tangon = function(argFoo) {
@@ -419,7 +417,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             tangon = report.bind(oscard)(tangon, zuuluu);
-            entity = _closure1_slot17;
+            entity = _closure1_slot16;
             michal = entity.bind(michal)();
             report = null;
             entity = report !== tangon;
@@ -445,68 +443,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['useShouldFetchChurnOffer'] = tangon;
-    michal = function(argFoo) {
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
- 0:
-            entity = argFoo;
-            zuuluu = entity.location;
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot2;
-            michal = 9;
-            michal = golfie[michal];
-            report = undefined;
-            option = oscard.bind(report)(michal);
-            tangon = option.useStateFromStores;
-            entity = _closure1_slot6;
-            michal = new Array(1);
-            michal[0] = entity;
-            entity = function() {
-                _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
- 0:
-                    zuuluu = _closure1_slot6;
-                    michal = zuuluu.getPremiumTypeSubscription;
-                    zuuluu = michal.bind(zuuluu)();
-                    michal = null;
-                    tangon = michal == zuuluu;
-                    michal = undefined;
-                    if(tangon) { _fun00016_ip = 34; continue _fun00015 }
- 28:
-                    michal = zuuluu.trialId;
- 34:
-                    entity = _closure1_slot14;
-                    entity = michal === entity;
-                    return entity;
-                }
-            };
-            entity = tangon.bind(option)(michal, entity);
-            michal = 12;
-            michal = golfie[michal];
-            tangon = oscard.bind(report)(michal);
-            michal = tangon.useIsInReverseTrial;
-            michal = michal.bind(tangon)();
-            tangon = 13;
-            tangon = golfie[tangon];
-            tangon = oscard.bind(report)(tangon);
-            oscard = tangon.UpliftTrialNUXExperiment;
-            report = oscard.useExperiment;
-            tangon = {};
-            tangon['location'] = zuuluu;
-            zuuluu = {};
-            golfie = !entity;
-            zuuluu['disable'] = golfie;
-            zuuluu['autoTrackExposure'] = entity;
-            zuuluu = report.bind(oscard)(tangon, zuuluu);
-            zuuluu = zuuluu.enabled;
-            if(!entity) { _fun00014_ip = 149; continue _fun00013 }
- 146:
-            entity = zuuluu;
- 149:
-            if(entity) { _fun00014_ip = 155; continue _fun00013 }
- 152:
-            entity = michal;
- 155:
-            return entity;
-        }
+    michal = function() {
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
+        entity = 12;
+        michal = michal[entity];
+        entity = undefined;
+        michal = zuuluu.bind(entity)(michal);
+        entity = michal.useIsInReverseTrial;
+        entity = entity.bind(michal)();
+        return entity;
     };
     zuuluu['useIsNUXEligible'] = michal;
     return entity;

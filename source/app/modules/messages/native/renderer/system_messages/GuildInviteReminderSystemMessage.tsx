@@ -56,11 +56,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = null;
             zuuluu = zuuluu == report;
             verify = undefined;
-            if(zuuluu) { _fun00002_ip = 169; continue _fun00001 }
- 158:
+            if(zuuluu) { _fun00002_ip = 173; continue _fun00001 }
+ 162:
             zuuluu = report.isOwner;
             verify = zuuluu.bind(report)(golfie);
- 169:
+ 173:
             _closure2_slot2 = verify;
             golfie = _closure1_slot3;
             report = golfie.useMemo;
@@ -253,18 +253,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = null;
             option = tangon != oscard;
             entity = null;
-            if(!option) { _fun00006_ip = 183; continue _fun00005 }
- 153:
+            if(!option) { _fun00006_ip = 187; continue _fun00005 }
+ 157:
             entity = null;
-            if(!zuuluu) { _fun00006_ip = 183; continue _fun00005 }
- 158:
+            if(!zuuluu) { _fun00006_ip = 187; continue _fun00005 }
+ 162:
             tangon = _closure1_slot10;
             zuuluu = _closure1_slot11;
             michal = {};
             michal['row'] = golfie;
             michal['channel'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 183:
+ 187:
             return entity;
         }
     };

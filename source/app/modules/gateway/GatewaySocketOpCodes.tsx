@@ -224,6 +224,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     michal['GUILD_CHANNELS_RESYNC'] = offset;
     verify = 'GUILD_CHANNELS_RESYNC';
     michal[offset] = verify;
+    offset = 39;
+    michal['REQUEST_CHANNEL_MEMBER_COUNT'] = offset;
+    verify = 'REQUEST_CHANNEL_MEMBER_COUNT';
+    michal[offset] = verify;
     var _closure1_slot8 = michal;
     option = golfie[option];
     option = oscard.bind(entity)(option);
@@ -269,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(19);
+        entity = new Array(20);
         entity[0] = report;
         report = {};
         golfie = 'voiceStateUpdate';
@@ -783,6 +787,25 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         report['value'] = golfie;
         entity[17] = report;
         report = {};
+        golfie = 'requestChannelMemberCount';
+        report['key'] = golfie;
+        golfie = function(argFoo, argBar) { // Original name: value
+            tangon = this;
+            zuuluu = tangon.send;
+            entity = _closure1_slot8;
+            michal = entity.REQUEST_CHANNEL_MEMBER_COUNT;
+            entity = {};
+            report = argFoo;
+            entity['guild_id'] = report;
+            report = argBar;
+            entity['channel_id'] = report;
+            entity = zuuluu.bind(tangon)(michal, entity);
+            entity = undefined;
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[18] = report;
+        report = {};
         golfie = 'remoteCommand';
         report['key'] = golfie;
         oscard = function(argFoo, argBar) { // Original name: value
@@ -800,7 +823,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             return entity;
         };
         report['value'] = oscard;
-        entity[18] = report;
+        entity[19] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

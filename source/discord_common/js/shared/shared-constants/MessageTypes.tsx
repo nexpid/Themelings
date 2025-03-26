@@ -266,6 +266,14 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = entity.Set;
     oscard = option.prototype;
     golfie = Object.create(oscard, {constructor: {value: option}});
+    yankee = [7, 22, 46];
+    romeon = golfie;
+    oscard = new romeon[option](yankee, offset);
+    oscard = oscard instanceof Object ? oscard : golfie;
+    michal['NOTIFIABLE_SYSTEM_MESSAGE'] = oscard;
+    option = entity.Set;
+    oscard = option.prototype;
+    golfie = Object.create(oscard, {constructor: {value: option}});
     yankee = [0, 7, 19, 20, 23, 24, 25, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 45, 46];
     romeon = golfie;
     oscard = new romeon[option](yankee, offset);
