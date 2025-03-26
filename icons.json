@@ -11081,13 +11081,15 @@
         "height": 52
     },
     "mallow": {
-        "file": "modules/nuf_channels/native/images/mallow.png",
-        "hash": "94bb0fdcfba6a856a1567cdd4f281049",
+        "file": "modules/contact_sync/native/images/mallow.png",
+        "hash": "22ff64f3c42212e7404d5af41f019eda",
         "scales": [
-            1
+            1,
+            2,
+            3
         ],
-        "width": 120,
-        "height": 120
+        "width": 102,
+        "height": 106
     },
     "mallow_1": {
         "file": "images/native/avatars/mallow_1.png",
@@ -14142,12 +14144,11 @@
         "height": 1320
     },
     "video": {
-        "file": "modules/voice_panel/native/images/video.png",
-        "hash": "a9d9f17a82c0681a83d7c3c4c21e6009",
+        "file": "images/native/icons/voice_calls/video.png",
+        "hash": "c902e6fcc190a5ea75515cf2b526309d",
         "scales": [
             2,
-            3,
-            4
+            3
         ],
         "width": 24,
         "height": 24
