@@ -20,6 +20,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['ACCOUNT_EMAIL'] = entity;
     entity = 'PHONE';
     michal['ACCOUNT_PHONE'] = entity;
+    entity = 'AGE_GROUP_ADULT';
+    michal['ACCOUNT_AGE_GROUP_ADULT'] = entity;
+    entity = 'AGE_GROUP_NON_ADULT';
+    michal['ACCOUNT_AGE_GROUP_NON_ADULT'] = entity;
     entity = 'ACCOUNT_CHANGE_PASSWORD';
     michal['ACCOUNT_CHANGE_PASSWORD'] = entity;
     entity = 'ACCOUNT_CONFIRM_PASSWORD';

@@ -66,15 +66,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset = 7;
     foxtra = oscard[offset];
     foxtra = yankee.bind(entity)(foxtra);
-    foxtra = foxtra.colors;
-    foxtra = foxtra.BACKGROUND_MOBILE_PRIMARY;
-    verify['backgroundColor'] = foxtra;
-    foxtra = 'transparent';
-    verify['shadowColor'] = foxtra;
-    tangon['headerStyle'] = verify;
-    verify = {};
-    foxtra = oscard[offset];
-    foxtra = yankee.bind(entity)(foxtra);
     foxtra = foxtra.spacing;
     foxtra = foxtra.PX_16;
     verify['paddingHorizontal'] = foxtra;

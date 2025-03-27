@@ -514,7 +514,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee[1] = romeon;
             option['children'] = yankee;
             option = offset.bind(tangon)(verify, option);
-            _fun00004_ip = 1244; continue _fun00003;
+            _fun00004_ip = 1251; continue _fun00003;
  711:
             yankee = _closure1_slot13;
             offset = _closure1_slot14;
@@ -535,7 +535,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = sizing.bind(tangon)(backup);
             backup = sizing.isAndroid;
             backup = backup.bind(sizing)();
-            if(backup) { _fun00004_ip = 849; continue _fun00003 }
+            if(backup) { _fun00004_ip = 856; continue _fun00003 }
  787:
             update = _closure1_slot12;
             sizing = _closure1_slot1;
@@ -546,16 +546,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = {};
             sequen = source.emoji;
             backup['emoji'] = sequen;
+            sequen = 32;
+            backup['size'] = sequen;
             sequen = papara.largeEmoji;
             backup['style'] = sequen;
             sequen = false;
             backup['animate'] = sequen;
             sizing = update.bind(tangon)(sizing, backup);
-            _fun00004_ip = 889; continue _fun00003;
- 849:
-            backup = output != limora;
-            if(!backup) { _fun00004_ip = 886; continue _fun00003 }
+            _fun00004_ip = 896; continue _fun00003;
  856:
+            backup = output != limora;
+            if(!backup) { _fun00004_ip = 893; continue _fun00003 }
+ 863:
             cntext = _closure1_slot12;
             sequen = _closure1_slot7;
             update = {};
@@ -563,9 +565,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora = papara.largeEmoji;
             update['style'] = limora;
             backup = cntext.bind(tangon)(sequen, update);
- 886:
+ 893:
             sizing = backup;
- 889:
+ 896:
             backup = new Array(2);
             backup[0] = sizing;
             update = _closure1_slot15;
@@ -583,18 +585,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = michal.bind(oscard)(entity);
                     entity = michal.isAndroid;
                     entity = entity.bind(michal)();
-                    if(entity) { _fun00010_ip = 129; continue _fun00009 }
+                    if(entity) { _fun00010_ip = 133; continue _fun00009 }
  43:
                     tangon = _closure1_slot12;
                     michal = _closure1_slot1;
-                    report = _closure1_slot2;
-                    entity = 16;
-                    entity = report[entity];
+                    entity = _closure1_slot2;
+                    option = 16;
+                    entity = entity[option];
                     michal = michal.bind(oscard)(entity);
                     entity = {};
-                    option = _closure2_slot1;
-                    option = option.emoji;
-                    entity['emoji'] = option;
+                    offset = _closure2_slot1;
+                    offset = offset.emoji;
+                    entity['emoji'] = offset;
+                    entity['size'] = option;
                     report = _closure2_slot2;
                     option = report.smallEmoji;
                     report = new Array(2);
@@ -604,13 +607,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = false;
                     entity['animate'] = report;
                     entity = tangon.bind(oscard)(michal, entity, golfie);
-                    _fun00010_ip = 199; continue _fun00009;
- 129:
+                    _fun00010_ip = 203; continue _fun00009;
+ 133:
                     tangon = _closure2_slot4;
                     michal = null;
                     michal = michal != tangon;
-                    if(!michal) { _fun00010_ip = 196; continue _fun00009 }
- 145:
+                    if(!michal) { _fun00010_ip = 200; continue _fun00009 }
+ 149:
                     report = _closure1_slot12;
                     tangon = _closure1_slot7;
                     zuuluu = {};
@@ -623,9 +626,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option[1] = verify;
                     zuuluu['style'] = option;
                     michal = report.bind(oscard)(tangon, zuuluu, golfie);
- 196:
+ 200:
                     entity = michal;
- 199:
+ 203:
                     return entity;
                 }
             };
@@ -678,19 +681,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = source.state;
             sequen = output == vacuum;
             update = undefined;
-            if(sequen) { _fun00004_ip = 1133; continue _fun00003 }
- 1128:
+            if(sequen) { _fun00004_ip = 1140; continue _fun00003 }
+ 1135:
             update = vacuum.length;
- 1133:
+ 1140:
             vacuum = output != update;
             output = 0;
-            if(!vacuum) { _fun00004_ip = 1145; continue _fun00003 }
- 1142:
+            if(!vacuum) { _fun00004_ip = 1152; continue _fun00003 }
+ 1149:
             output = update;
- 1145:
-            output = output > echoed;
-            if(!output) { _fun00004_ip = 1216; continue _fun00003 }
  1152:
+            output = output > echoed;
+            if(!output) { _fun00004_ip = 1223; continue _fun00003 }
+ 1159:
             update = _closure1_slot12;
             echoed = _closure1_slot0;
             vacuum = _closure1_slot2;
@@ -703,14 +706,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = source.state;
             result['children'] = source;
             output = update.bind(tangon)(echoed, result);
- 1216:
+ 1223:
             sizing[2] = output;
             foxtra['children'] = sizing;
             foxtra = kiloes.bind(tangon)(backup, foxtra);
             romeon[1] = foxtra;
             verify['children'] = romeon;
             option = yankee.bind(tangon)(offset, verify);
- 1244:
+ 1251:
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);
             entity['children'] = report;

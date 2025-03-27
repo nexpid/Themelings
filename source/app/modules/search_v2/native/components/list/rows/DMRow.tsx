@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = entity.bind(report)();
             entity = _closure1_slot12;
             entity = entity.PENDING_INCOMING;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 136; continue _fun00001 }
+            if(!(zuuluu !== entity)) { _fun00002_ip = 133; continue _fun00001 }
  51:
             tangon = _closure1_slot13;
             zuuluu = _closure1_slot1;
@@ -34,14 +34,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['guildId'] = verify;
             verify = golfie.activityStatusIcon;
             entity['iconStyle'] = verify;
-            verify = golfie.activityStatusText;
-            entity['textStyle'] = verify;
-            golfie = golfie.activityStatusEmoji;
-            entity['emojiStyle'] = golfie;
+            golfie = golfie.activityStatusText;
+            entity['textStyle'] = golfie;
+            golfie = 16;
+            entity['emojiSize'] = golfie;
             entity['animate'] = oscard;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 212; continue _fun00001;
- 136:
+            _fun00002_ip = 209; continue _fun00001;
+ 133:
             tangon = _closure1_slot13;
             golfie = _closure1_slot0;
             verify = _closure1_slot2;
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.bind(golfie)(option);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 212:
+ 209:
             return entity;
         }
     };
@@ -138,8 +138,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     romeon = romeon.HEADER_SECONDARY;
     offset['color'] = romeon;
     tangon['activityStatusText'] = offset;
-    offset = {'width': 16, 'height': 16};
-    tangon['activityStatusEmoji'] = offset;
     offset = {};
     offset['marginLeft'] = yankee;
     tangon['tag'] = offset;

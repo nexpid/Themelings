@@ -578,50 +578,61 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = function(argFoo, argBar) { // Original name: value
             _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-                option = argFoo;
-                report = arguments[2];
-                oscard = this;
+                verify = argFoo;
+                oscard = arguments[2];
+                report = arguments[3];
+                golfie = this;
                 tangon = undefined;
-                if(!(report === tangon)) { _fun00016_ip = 17; continue _fun00015 }
- 15:
+                if(!(oscard === tangon)) { _fun00016_ip = 20; continue _fun00015 }
+ 18:
+                oscard = false;
+ 20:
+                if(!(report === tangon)) { _fun00016_ip = 26; continue _fun00015 }
+ 24:
                 report = false;
- 17:
-                entity = null;
-                michal = entity != option;
-                golfie = undefined;
-                if(!michal) { _fun00016_ip = 38; continue _fun00015 }
- 28:
-                michal = oscard.guildMemberAvatars;
-                golfie = michal[option];
- 38:
-                if(!(entity != golfie)) { _fun00016_ip = 46; continue _fun00015 }
- 42:
-                if(!(entity == option)) { _fun00016_ip = 87; continue _fun00015 }
- 46:
+ 26:
+                offset = null;
+                entity = offset != verify;
+                option = undefined;
+                if(!entity) { _fun00016_ip = 47; continue _fun00015 }
+ 37:
+                entity = golfie.guildMemberAvatars;
+                option = entity[verify];
+ 47:
+                if(!(offset != option)) { _fun00016_ip = 55; continue _fun00015 }
+ 51:
+                if(!(offset == verify)) { _fun00016_ip = 107; continue _fun00015 }
+ 55:
                 michal = _closure1_slot1;
                 zuuluu = _closure1_slot3;
                 entity = 12;
                 entity = zuuluu[entity];
                 zuuluu = michal.bind(tangon)(entity);
                 michal = zuuluu.getUserAvatarURL;
-                entity = argBar;
-                entity = michal.bind(zuuluu)(oscard, report, entity);
-                _fun00016_ip = 146; continue _fun00015;
- 87:
+                foxtra = argBar;
+                sizing = zuuluu;
+                kiloes = golfie;
+                backup = oscard;
+                romeon = null;
+                yankee = report;
+                entity = sizing[michal](kiloes, backup, foxtra, romeon, yankee, offset);
+                _fun00016_ip = 171; continue _fun00015;
+ 107:
                 zuuluu = _closure1_slot1;
-                verify = _closure1_slot3;
+                offset = _closure1_slot3;
                 michal = 12;
-                michal = verify[michal];
+                michal = offset[michal];
                 tangon = zuuluu.bind(tangon)(michal);
                 zuuluu = tangon.getGuildMemberAvatarURLSimple;
                 michal = {};
-                michal['guildId'] = option;
-                michal['avatar'] = golfie;
-                oscard = oscard.id;
-                michal['userId'] = oscard;
-                michal['canAnimate'] = report;
+                michal['guildId'] = verify;
+                michal['avatar'] = option;
+                golfie = golfie.id;
+                michal['userId'] = golfie;
+                michal['canAnimate'] = oscard;
+                michal['canWebP'] = report;
                 entity = zuuluu.bind(tangon)(michal);
- 146:
+ 171:
                 return entity;
             }
         };

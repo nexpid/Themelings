@@ -15,34 +15,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['value'] = entity;
     entity = '__esModule';
     entity = golfie.bind(option)(zuuluu, entity, tangon);
-    offset = 0;
-    golfie = oscard[offset];
+    entity = 0;
+    golfie = oscard[entity];
     tangon = argCor;
     entity = undefined;
     tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.StyleSheet;
     var _closure1_slot3 = tangon;
-    tangon = 2;
+    tangon = 1;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
     var _closure1_slot4 = tangon;
-    tangon = 3;
+    tangon = 2;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
-    verify = {};
-    verify['flexShrink'] = offset;
+    verify = {'flexShrink': 0, 'width': '100%', 'height': '100%'};
     tangon['emoji'] = verify;
-    verify = {'flexShrink': 0, 'textAlign': 'center', 'fontFamily': 'System', 'marginBottom': 4294967294};
+    verify = {'textAlign': 'center', 'fontFamily': 'System'};
     tangon['text'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot5 = tangon;
-    tangon = 9;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -51,137 +46,154 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function(argFoo) { // Original name: ActivityEmoji
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            entity = argFoo;
-            verify = entity.emoji;
-            oscard = entity.style;
-            zuuluu = entity.withPlaceholder;
+            michal = argFoo;
+            verify = michal.emoji;
+            var _closure2_slot0 = verify;
+            yankee = michal.size;
+            golfie = michal.style;
+            tangon = michal.withPlaceholder;
+            oscard = undefined;
+            if(!(tangon === oscard)) { _fun00002_ip = 39; continue _fun00001 }
+ 37:
+            tangon = false;
+ 39:
+            romeon = michal.animate;
+            if(!(romeon === oscard)) { _fun00002_ip = 51; continue _fun00001 }
+ 49:
+            romeon = true;
+ 51:
+            var _closure2_slot1 = oscard;
+            michal = _closure1_slot5;
+            option = michal.bind(oscard)();
+            report = _closure1_slot0;
+            offset = _closure1_slot2;
+            michal = 3;
+            michal = offset[michal];
+            michal = report.bind(oscard)(michal);
+            report = michal.AnimateEmoji;
+            michal = report.useSetting;
+            foxtra = michal.bind(report)();
+            michal = global;
+            offset = michal.Boolean;
+            michal = null;
+            backup = michal == verify;
             report = undefined;
-            if(!(zuuluu === report)) { _fun00002_ip = 28; continue _fun00001 }
- 26:
-            zuuluu = false;
- 28:
-            yankee = entity.animate;
-            if(!(yankee === report)) { _fun00002_ip = 40; continue _fun00001 }
- 38:
-            yankee = true;
- 40:
-            entity = _closure1_slot5;
-            offset = entity.bind(report)();
-            tangon = _closure1_slot3;
-            entity = tangon.flatten;
-            golfie = entity.bind(tangon)(oscard);
-            entity = null;
-            tangon = entity != golfie;
-            romeon = undefined;
-            if(!tangon) { _fun00002_ip = 94; continue _fun00001 }
- 77:
-            tangon = golfie.width;
-            if(!(entity == tangon)) { _fun00002_ip = 91; continue _fun00001 }
- 86:
-            tangon = golfie.height;
- 91:
-            romeon = tangon;
- 94:
-            golfie = _closure1_slot0;
-            option = _closure1_slot2;
-            tangon = 4;
-            tangon = option[tangon];
-            tangon = golfie.bind(report)(tangon);
-            golfie = tangon.AnimateEmoji;
-            tangon = golfie.useSetting;
-            foxtra = tangon.bind(golfie)();
-            if(!(entity != verify)) { _fun00002_ip = 416; continue _fun00001 }
- 137:
-            tangon = verify.id;
-            if(!(entity != tangon)) { _fun00002_ip = 334; continue _fun00001 }
- 149:
-            tangon = global;
-            option = tangon.Boolean;
-            golfie = verify.animated;
-            if(!golfie) { _fun00002_ip = 169; continue _fun00001 }
+            if(backup) { _fun00002_ip = 127; continue _fun00001 }
+ 121:
+            report = verify.animated;
+ 127:
+            if(!report) { _fun00002_ip = 133; continue _fun00001 }
+ 130:
+            report = foxtra;
+ 133:
+            if(!report) { _fun00002_ip = 139; continue _fun00001 }
+ 136:
+            report = romeon;
+ 139:
+            foxtra = offset.bind(oscard)(report);
+            _closure2_slot1 = foxtra;
+            romeon = _closure1_slot3;
+            offset = romeon.useMemo;
+            report = michal == verify;
+            backup = undefined;
+            if(report) { _fun00002_ip = 171; continue _fun00001 }
  166:
-            golfie = foxtra;
- 169:
-            if(!golfie) { _fun00002_ip = 175; continue _fun00001 }
- 172:
-            golfie = yankee;
- 175:
-            sizing = option.bind(report)(golfie);
-            yankee = _closure1_slot4;
-            kiloes = _closure1_slot1;
-            output = _closure1_slot2;
-            golfie = 7;
-            golfie = output[golfie];
-            option = kiloes.bind(report)(golfie);
-            golfie = {};
-            backup = offset.emoji;
-            foxtra = new Array(2);
-            foxtra[0] = backup;
-            foxtra[1] = oscard;
-            golfie['style'] = foxtra;
-            foxtra = {};
-            backup = 8;
-            backup = output[backup];
-            output = kiloes.bind(report)(backup);
-            kiloes = output.getEmojiURL;
-            backup = {};
-            result = verify.id;
-            backup['id'] = result;
-            backup['animated'] = sizing;
-            result = 48;
-            backup['size'] = result;
-            backup = kiloes.bind(output)(backup);
-            foxtra['uri'] = backup;
-            golfie['source'] = foxtra;
-            foxtra = 'contain';
-            golfie['resizeMode'] = foxtra;
-            kiloes = verify.id;
-            tangon = tangon.HermesInternal;
-            backup = tangon.concat;
-            foxtra = '';
-            tangon = '-';
-            tangon = backup.bind(foxtra)(kiloes, tangon, sizing);
-            tangon = yankee.bind(report)(option, golfie, tangon);
-            return tangon;
- 334:
-            option = _closure1_slot4;
-            golfie = _closure1_slot1;
-            yankee = _closure1_slot2;
-            tangon = 6;
-            tangon = yankee[tangon];
-            golfie = golfie.bind(report)(tangon);
-            tangon = {};
-            yankee = true;
-            tangon['adjustsFontSizeToFit'] = yankee;
-            yankee = offset.text;
-            offset = new Array(3);
-            offset[0] = yankee;
-            yankee = {};
-            yankee['fontSize'] = romeon;
-            offset[1] = yankee;
-            offset[2] = oscard;
-            tangon['style'] = offset;
-            verify = verify.name;
-            tangon['children'] = verify;
-            tangon = option.bind(report)(golfie, tangon);
-            return tangon;
- 416:
+            backup = verify.id;
+ 171:
+            report = new Array(2);
+            report[0] = backup;
+            report[1] = foxtra;
+            entity = function() {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                    entity = _closure2_slot0;
+                    michal = null;
+                    report = michal == entity;
+                    zuuluu = undefined;
+                    entity = undefined;
+                    if(report) { _fun00004_ip = 29; continue _fun00003 }
+ 20:
+                    report = _closure2_slot0;
+                    entity = report.id;
+ 29:
+                    if(!(michal == entity)) { _fun00004_ip = 35; continue _fun00003 }
+ 33:
+                    return zuuluu;
+ 35:
+                    michal = _closure1_slot1;
+                    report = _closure1_slot2;
+                    entity = 4;
+                    entity = report[entity];
+                    zuuluu = michal.bind(zuuluu)(entity);
+                    michal = zuuluu.getEmojiURL;
+                    entity = {};
+                    report = _closure2_slot0;
+                    report = report.id;
+                    entity['id'] = report;
+                    report = 48;
+                    entity['size'] = report;
+                    tangon = _closure2_slot1;
+                    entity['animated'] = tangon;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                }
+            };
+            offset = offset.bind(romeon)(entity, report);
+            if(!(michal == verify)) { _fun00002_ip = 206; continue _fun00001 }
+ 198:
             entity = null;
-            if(!zuuluu) { _fun00002_ip = 471; continue _fun00001 }
- 421:
-            tangon = _closure1_slot4;
-            zuuluu = _closure1_slot0;
-            golfie = _closure1_slot2;
-            michal = 5;
-            michal = golfie[michal];
-            michal = zuuluu.bind(report)(michal);
-            zuuluu = michal.ReactionIcon;
+            if(!tangon) { _fun00002_ip = 397; continue _fun00001 }
+ 206:
+            if(!(michal != verify)) { _fun00002_ip = 344; continue _fun00001 }
+ 213:
+            report = _closure1_slot4;
+            tangon = _closure1_slot1;
+            romeon = _closure1_slot2;
+            michal = 6;
+            michal = romeon[michal];
+            tangon = tangon.bind(oscard)(michal);
             michal = {};
-            michal['style'] = oscard;
-            oscard = 'sm';
-            michal['size'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
- 471:
+            michal['src'] = offset;
+            verify = verify.name;
+            michal['name'] = verify;
+            verify = new Array(2);
+            verify[0] = golfie;
+            offset = {};
+            offset['width'] = yankee;
+            offset['height'] = yankee;
+            verify[1] = offset;
+            michal['style'] = verify;
+            offset = option.emoji;
+            verify = new Array(3);
+            verify[0] = offset;
+            offset = option.text;
+            verify[1] = offset;
+            offset = {};
+            offset['fontSize'] = yankee;
+            verify[2] = offset;
+            michal['textEmojiStyle'] = verify;
+            option = option.emoji;
+            michal['fastImageStyle'] = option;
+            option = true;
+            michal['adjustsFontSizeToFit'] = option;
+            michal = report.bind(oscard)(tangon, michal);
+            _fun00002_ip = 394; continue _fun00001;
+ 344:
+            report = _closure1_slot4;
+            tangon = _closure1_slot0;
+            option = _closure1_slot2;
+            zuuluu = 5;
+            zuuluu = option[zuuluu];
+            zuuluu = tangon.bind(oscard)(zuuluu);
+            tangon = zuuluu.ReactionIcon;
+            zuuluu = {};
+            zuuluu['style'] = golfie;
+            golfie = 'sm';
+            zuuluu['size'] = golfie;
+            michal = report.bind(oscard)(tangon, zuuluu);
+ 394:
+            entity = michal;
+ 397:
             return entity;
         }
     };

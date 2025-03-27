@@ -854,8 +854,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option['alwaysRespectKeyboard'] = output;
                     output = _closure2_slot13;
                     option['channel'] = output;
-                    ctrled = _closure2_slot2;
-                    option['chatInputRef'] = ctrled;
+                    ctrled = _closure2_slot10;
+                    option['screenIndex'] = ctrled;
+                    vacuum = _closure2_slot2;
+                    option['chatInputRef'] = vacuum;
                     output = _closure2_slot17;
                     option['connected'] = output;
                     output = _closure2_slot4;
@@ -890,12 +892,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     output = source[output];
                     result = echoed.bind(tangon)(output);
                     output = {};
-                    output['ref'] = ctrled;
-                    ctrled = _closure2_slot13;
-                    output['channel'] = ctrled;
-                    ctrled = _closure2_slot23;
-                    output['isResourceChannel'] = ctrled;
-                    ctrled = _closure2_slot10;
+                    output['ref'] = vacuum;
+                    vacuum = _closure2_slot13;
+                    output['channel'] = vacuum;
+                    vacuum = _closure2_slot23;
+                    output['isResourceChannel'] = vacuum;
                     output['screenIndex'] = ctrled;
                     ctrled = _closure2_slot8;
                     output['secondaryTextFieldRef'] = ctrled;
@@ -917,11 +918,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     source = _closure2_slot19;
                     source = source.hasMoreBefore;
                     source = !source;
-                    if(!source) { _fun00020_ip = 629; continue _fun00019 }
- 622:
+                    if(!source) { _fun00020_ip = 634; continue _fun00019 }
+ 627:
                     ctrled = _closure2_slot5;
                     source = !ctrled;
- 629:
+ 634:
                     result['shouldRender'] = source;
                     result = update.bind(tangon)(echoed, result);
                     output[1] = result;
@@ -937,8 +938,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = option.bind(offset)();
                     echoed = null;
                     option = null;
-                    if(offset) { _fun00020_ip = 748; continue _fun00019 }
- 694:
+                    if(offset) { _fun00020_ip = 753; continue _fun00019 }
+ 699:
                     output = _closure1_slot14;
                     sizing = _closure1_slot1;
                     result = _closure1_slot2;
@@ -952,11 +953,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     result = _closure2_slot20;
                     offset['messagesRef'] = result;
                     option = output.bind(tangon)(sizing, offset);
- 748:
+ 753:
                     backup[2] = option;
                     option = _closure2_slot29;
-                    if(!option) { _fun00020_ip = 798; continue _fun00019 }
- 759:
+                    if(!option) { _fun00020_ip = 803; continue _fun00019 }
+ 764:
                     output = _closure1_slot14;
                     sizing = _closure1_slot5;
                     offset = {};
@@ -966,16 +967,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     result = result.overlay;
                     offset['style'] = result;
                     option = output.bind(tangon)(sizing, offset);
- 798:
+ 803:
                     backup[3] = option;
                     offset = _closure2_slot17;
                     option = null;
-                    if(!offset) { _fun00020_ip = 1009; continue _fun00019 }
- 814:
+                    if(!offset) { _fun00020_ip = 1023; continue _fun00019 }
+ 819:
                     offset = _closure2_slot24;
                     option = null;
-                    if(offset) { _fun00020_ip = 1009; continue _fun00019 }
- 826:
+                    if(offset) { _fun00020_ip = 1023; continue _fun00019 }
+ 831:
                     output = _closure1_slot14;
                     sizing = _closure1_slot1;
                     result = _closure1_slot2;
@@ -985,10 +986,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = {};
                     result = _closure2_slot1;
                     offset['channelId'] = result;
+                    result = _closure2_slot10;
+                    offset['screenIndex'] = result;
                     result = _closure2_slot19;
                     result = result.jumpReturnTargetId;
-                    if(!(echoed == result)) { _fun00020_ip = 933; continue _fun00019 }
- 874:
+                    if(!(echoed == result)) { _fun00020_ip = 947; continue _fun00019 }
+ 888:
                     source = _closure1_slot0;
                     ctrled = _closure1_slot2;
                     result = 17;
@@ -1001,8 +1004,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     result = result.t;
                     result = result.gpoQsL;
                     result = echoed.bind(update)(result);
-                    _fun00020_ip = 990; continue _fun00019;
- 933:
+                    _fun00020_ip = 1004; continue _fun00019;
+ 947:
                     ctrled = _closure1_slot0;
                     vacuum = _closure1_slot2;
                     echoed = 17;
@@ -1015,12 +1018,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     echoed = echoed.t;
                     echoed = echoed.dpjpOj;
                     result = update.bind(source)(echoed);
- 990:
+ 1004:
                     offset['accessibilityLabel'] = result;
                     result = _closure2_slot37;
                     offset['didTapJump'] = result;
                     option = output.bind(tangon)(sizing, offset);
- 1009:
+ 1023:
                     backup[4] = option;
                     option = _closure1_slot14;
                     sizing = _closure1_slot0;
@@ -1093,7 +1096,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  1586:
             report = new Array(2);
             report[0] = verify;
-            verify = function(argFoo, argBar) { // Original name: Ie
+            verify = function(argFoo, argBar) { // Original name: fe
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
                 entity = 48;

@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = 8;
             oscard = romeon[oscard];
             golfie = golfie.bind(report)(oscard);
-            oscard = {'style': null, 'blurTheme': 'dark', 'blurStyle': 'ultra-thin', 'blurAmount': 0.5};
+            oscard = {'style': null, 'blurTheme': 'dark', 'blurStyle': 'default', 'blurAmount': 0.2};
             verify = yankee.captionBox;
             oscard['style'] = verify;
             verify = _closure1_slot0;

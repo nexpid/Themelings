@@ -154,13 +154,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = foxtra.bind(tangon)(romeon, verify);
             verify = new Array(2);
             verify[0] = romeon;
-            if(offset) { _fun00004_ip = 208; continue _fun00003 }
- 202:
+            if(offset) { _fun00004_ip = 204; continue _fun00003 }
+ 198:
             romeon = 0;
             offset = kiloes > romeon;
- 208:
-            if(!offset) { _fun00004_ip = 261; continue _fun00003 }
- 211:
+ 204:
+            if(!offset) { _fun00004_ip = 257; continue _fun00003 }
+ 207:
             foxtra = _closure1_slot18;
             romeon = _closure1_slot1;
             output = _closure1_slot2;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup + kiloes;
             yankee['value'] = backup;
             offset = foxtra.bind(tangon)(romeon, yankee);
- 261:
+ 257:
             verify[1] = offset;
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);

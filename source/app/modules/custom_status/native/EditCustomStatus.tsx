@@ -79,7 +79,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     foxtra = foxtra.lg;
     verify['borderRadius'] = foxtra;
     tangon['statusContainer'] = verify;
-    verify = {'marginRight': 8, 'height': 20, 'width': 20};
+    verify = {};
+    verify['marginRight'] = offset;
     tangon['emoji'] = verify;
     verify = {'color': null, 'lineHeight': 16, 'flexGrow': 1, 'alignSelf': 'flex-start', 'paddingVertical': 0, 'paddingHorizontal': 0};
     foxtra = oscard[offset];
@@ -227,8 +228,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = report.bind(option)(entity);
             option = _closure1_slot3;
             entity = option.bind(tangon)(entity, yankee);
-            vacuum = entity[golfie];
-            _closure2_slot4 = vacuum;
+            result = entity[golfie];
+            _closure2_slot4 = result;
             entity = entity[zuuluu];
             _closure2_slot5 = entity;
             report = _closure1_slot4;
@@ -242,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = report.useCallback;
             zuuluu = new Array(4);
             zuuluu[0] = config;
-            zuuluu[1] = vacuum;
+            zuuluu[1] = result;
             zuuluu[2] = sizing;
             zuuluu[3] = michal;
             entity = function() {
@@ -403,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.useRef;
             michal = {};
             michal['statusText'] = config;
-            michal['statusEmoji'] = vacuum;
+            michal['statusEmoji'] = result;
             michal['clearAfter'] = sizing;
             michal = zuuluu.bind(report)(michal);
             _closure2_slot11 = michal;
@@ -412,7 +413,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal[0] = oscard;
             michal[1] = entity;
             michal[2] = config;
-            michal[3] = vacuum;
+            michal[3] = result;
             michal[4] = sizing;
             michal[5] = ctrled;
             entity = function() {
@@ -504,25 +505,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = 18;
             yankee = foxtra[yankee];
             yankee = papara.bind(tangon)(yankee);
-            result = yankee.PressableOpacity;
+            echoed = yankee.PressableOpacity;
             yankee = {};
             update = 14;
             output = foxtra[update];
             output = papara.bind(tangon)(output);
-            echoed = output.intl;
-            output = echoed.string;
+            vacuum = output.intl;
+            output = vacuum.string;
             foxtra = foxtra[update];
             foxtra = papara.bind(tangon)(foxtra);
             foxtra = foxtra.t;
             foxtra = foxtra.WkfRZG;
-            foxtra = output.bind(echoed)(foxtra);
+            foxtra = output.bind(vacuum)(foxtra);
             yankee['accessibilityLabel'] = foxtra;
             foxtra = {};
-            echoed = verify == vacuum;
+            vacuum = verify == result;
             output = undefined;
-            if(echoed) { _fun00002_ip = 704; continue _fun00001 }
+            if(vacuum) { _fun00002_ip = 704; continue _fun00001 }
  699:
-            output = vacuum.name;
+            output = result.name;
  704:
             foxtra['text'] = output;
             yankee['accessibilityValue'] = foxtra;
@@ -532,21 +533,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = _closure1_slot11;
             romeon = _closure1_slot1;
             output = _closure1_slot2;
-            echoed = 19;
-            echoed = output[echoed];
-            papara = romeon.bind(tangon)(echoed);
-            echoed = {};
-            echoed['emoji'] = vacuum;
-            vacuum = ctrled.emoji;
-            echoed['style'] = vacuum;
-            vacuum = true;
-            echoed['withPlaceholder'] = vacuum;
-            echoed = foxtra.bind(tangon)(papara, echoed);
-            yankee['children'] = echoed;
-            result = zuuluu.bind(tangon)(result, yankee);
-            yankee = new Array(2);
-            yankee[0] = result;
+            vacuum = 19;
+            vacuum = output[vacuum];
+            target = romeon.bind(tangon)(vacuum);
+            papara = {};
+            papara['emoji'] = result;
             result = 20;
+            papara['size'] = result;
+            vacuum = ctrled.emoji;
+            papara['style'] = vacuum;
+            vacuum = true;
+            papara['withPlaceholder'] = vacuum;
+            papara = foxtra.bind(tangon)(target, papara);
+            yankee['children'] = papara;
+            echoed = zuuluu.bind(tangon)(echoed, yankee);
+            yankee = new Array(2);
+            yankee[0] = echoed;
             result = output[result];
             echoed = romeon.bind(tangon)(result);
             result = {};
@@ -616,8 +618,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = foxtra.bind(tangon)(romeon, yankee);
             option[1] = yankee;
             verify = verify != offset;
-            if(!verify) { _fun00002_ip = 1285; continue _fun00001 }
- 1096:
+            if(!verify) { _fun00002_ip = 1289; continue _fun00001 }
+ 1100:
             romeon = _closure1_slot11;
             echoed = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -661,7 +663,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = romeon.bind(tangon)(backup, foxtra);
             offset['children'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 1285:
+ 1289:
             option[2] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

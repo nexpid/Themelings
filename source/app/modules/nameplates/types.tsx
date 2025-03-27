@@ -35,8 +35,12 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['ACCOUNT'] = entity;
     entity = 'channel';
     michal['CHANNEL'] = entity;
-    entity = 'shop_preview';
-    michal['SHOP_PREVIEW'] = entity;
+    entity = 'member_list';
+    michal['MEMBER_LIST'] = entity;
+    entity = 'preview';
+    michal['PREVIEW'] = entity;
+    entity = 'mini_preview';
+    michal['MINI_PREVIEW'] = entity;
     report = argPlu;
     entity = 0;
     oscard = report[entity];

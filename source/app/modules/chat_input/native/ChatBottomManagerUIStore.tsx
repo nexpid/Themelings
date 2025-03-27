@@ -1,8 +1,20 @@
 // app/modules/chat_input/native/ChatBottomManagerUIStore.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = argBar;
     zuuluu = argFre;
     golfie = argPlu;
+    entity = function(argFoo, argBar) { // Original name: getKey
+        entity = global;
+        entity = entity.HermesInternal;
+        report = entity.concat;
+        tangon = '';
+        zuuluu = argFoo;
+        michal = ':';
+        entity = argBar;
+        entity = report.bind(tangon)(zuuluu, michal, entity);
+        return entity;
+    };
+    var _closure1_slot1 = entity;
     entity = global;
     option = entity.Object;
     report = option.defineProperty;
@@ -17,7 +29,15 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = oscard.bind(entity)(tangon);
     report = tangon.createZustandStore;
     tangon = function() {
-        entity = {'chatInputContainerHeight': 0, 'showingAutoComplete': false, 'showingExpressionSuggestions': false, 'shouldShowJumpToPresentButton': false};
+        entity = {'chatInputContainerHeight': 0, 'showingAutoComplete': false, 'showingExpressionSuggestions': false};
+        michal = global;
+        michal = michal.Set;
+        zuuluu = michal.prototype;
+        zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
+        tangon = zuuluu;
+        michal = new tangon[michal](zuuluu);
+        michal = michal instanceof Object ? michal : zuuluu;
+        entity['shouldShowJumpToPresentButton'] = michal;
         return entity;
     };
     tangon = report.bind(entity)(tangon);
@@ -62,16 +82,64 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     zuuluu['updateShowingExpressionSuggestions'] = tangon;
-    michal = function(argFoo) { // Original name: updateShouldShowJumpToPresentButton
-        zuuluu = _closure1_slot0;
-        michal = zuuluu.setState;
-        entity = {};
+    tangon = function(argFoo, argBar, argBaz) { // Original name: updateShouldShowJumpToPresentButton
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            zuuluu = argBaz;
+            report = _closure1_slot0;
+            tangon = report.getField;
+            entity = 'shouldShowJumpToPresentButton';
+            golfie = tangon.bind(report)(entity);
+            oscard = _closure1_slot1;
+            entity = undefined;
+            report = argFoo;
+            tangon = argBar;
+            tangon = oscard.bind(entity)(report, tangon);
+            report = golfie.has;
+            report = report.bind(golfie)(tangon);
+            if(!(report !== zuuluu)) { _fun00002_ip = 135; continue _fun00001 }
+ 57:
+            report = global;
+            report = report.Set;
+            oscard = report.prototype;
+            oscard = Object.create(oscard, {constructor: {value: report}});
+            offset = oscard;
+            verify = golfie;
+            report = new offset[report](verify, option);
+            report = report instanceof Object ? report : oscard;
+            if(zuuluu) { _fun00002_ip = 103; continue _fun00001 }
+ 91:
+            zuuluu = report.delete;
+            zuuluu = zuuluu.bind(report)(tangon);
+            _fun00002_ip = 113; continue _fun00001;
+ 103:
+            zuuluu = report.add;
+            zuuluu = zuuluu.bind(report)(tangon);
+ 113:
+            tangon = _closure1_slot0;
+            zuuluu = tangon.setState;
+            michal = {};
+            michal['shouldShowJumpToPresentButton'] = report;
+            michal = zuuluu.bind(tangon)(michal);
+ 135:
+            return entity;
+        }
+    };
+    zuuluu['updateShouldShowJumpToPresentButton'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: useShouldShowJumpToPresentButton
+        tangon = _closure1_slot0;
+        zuuluu = tangon.useField;
+        michal = 'shouldShowJumpToPresentButton';
+        zuuluu = zuuluu.bind(tangon)(michal);
+        michal = zuuluu.has;
+        oscard = _closure1_slot1;
+        report = undefined;
         tangon = argFoo;
-        entity['shouldShowJumpToPresentButton'] = tangon;
+        entity = argBar;
+        entity = oscard.bind(report)(tangon, entity);
         entity = michal.bind(zuuluu)(entity);
-        entity = undefined;
         return entity;
     };
-    zuuluu['updateShouldShowJumpToPresentButton'] = michal;
+    zuuluu['useShouldShowJumpToPresentButton'] = michal;
     return entity;
 })();

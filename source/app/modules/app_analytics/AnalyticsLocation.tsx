@@ -823,6 +823,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['AUDIENCE_TILE'] = entity;
     entity = 'stage tile';
     michal['STAGE_TILE'] = entity;
+    entity = 'chat wallpaper picker';
+    michal['CHAT_WALLPAPER_PICKER'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

@@ -1078,18 +1078,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = 46;
             romeon = output[romeon];
             backup = backup.bind(tangon)(romeon);
-            romeon = {};
-            result = yankee != verify;
-            output = null;
-            if(!result) { _fun00018_ip = 368; continue _fun00017 }
- 362:
+            romeon = {'emoji': null, 'size': 32, 'withPlaceholder': true};
+            result = yankee == verify;
+            output = undefined;
+            if(result) { _fun00018_ip = 380; continue _fun00017 }
+ 374:
             output = verify.emoji;
- 368:
+ 380:
             romeon['emoji'] = output;
-            output = true;
-            romeon['withPlaceholder'] = output;
-            output = echoed.activityIcon;
-            romeon['style'] = output;
             romeon = kiloes.bind(tangon)(backup, romeon);
             report['icon'] = romeon;
             romeon = function() { // Original name: onPress
@@ -1122,8 +1118,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['onPress'] = romeon;
             romeon = yankee != verify;
             yankee = null;
-            if(!romeon) { _fun00018_ip = 527; continue _fun00017 }
- 420:
+            if(!romeon) { _fun00018_ip = 523; continue _fun00017 }
+ 416:
             kiloes = _closure1_slot16;
             backup = _closure1_slot0;
             source = _closure1_slot3;
@@ -1161,10 +1157,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = result.bind(tangon)(output, sizing);
             romeon['children'] = sizing;
             yankee = kiloes.bind(tangon)(backup, romeon);
- 527:
+ 523:
             report['trailing'] = yankee;
-            if(offset) { _fun00018_ip = 589; continue _fun00017 }
- 535:
+            if(offset) { _fun00018_ip = 585; continue _fun00017 }
+ 531:
             romeon = _closure1_slot0;
             option = _closure1_slot3;
             offset = option[foxtra];
@@ -1176,10 +1172,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.t;
             option = option./UonHB;
             option = offset.bind(yankee)(option);
-            _fun00018_ip = 594; continue _fun00017;
- 589:
+            _fun00018_ip = 590; continue _fun00017;
+ 585:
             option = verify.state;
- 594:
+ 590:
             report['label'] = option;
             report = golfie.bind(tangon)(oscard, report);
             entity['children'] = report;
@@ -1268,8 +1264,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['container'] = offset;
     offset = {'width': 32, 'alignItems': 'center', 'justifyContent': 'center'};
     tangon['icon'] = offset;
-    offset = {'width': 32, 'height': 32};
-    tangon['activityIcon'] = offset;
     offset = {'width': 24, 'height': 24, 'margin': 4};
     tangon['focusModeIcon'] = offset;
     offset = {'tintColor': null, 'width': 16, 'height': 16};

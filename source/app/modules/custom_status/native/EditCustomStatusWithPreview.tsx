@@ -142,7 +142,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     kiloes = kiloes.lg;
     verify['borderRadius'] = kiloes;
     tangon['statusInput'] = verify;
-    verify = {'marginRight': 8, 'height': 20, 'width': 20};
+    verify = {};
+    verify['marginRight'] = foxtra;
     tangon['emoji'] = verify;
     verify = {'color': null, 'lineHeight': 16, 'flexGrow': 1, 'alignSelf': 'flex-start', 'paddingVertical': 0, 'paddingHorizontal': 0};
     kiloes = oscard[offset];
@@ -651,7 +652,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = zuuluu.bind(tangon)(entity, michal);
             michal = offset == update;
             entity = null;
-            if(michal) { _fun00002_ip = 1891; continue _fun00001 }
+            if(michal) { _fun00002_ip = 1898; continue _fun00001 }
  659:
             tangon = _closure1_slot12;
             zuuluu = _closure1_slot6;
@@ -755,6 +756,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable36 = cntext.bind(report)(config);
             quebec = {};
             quebec['emoji'] = sizing;
+            config = 20;
+            quebec['size'] = config;
             config = status.emoji;
             quebec['style'] = config;
             config = true;
@@ -820,18 +823,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = target.bind(report)(cntext, update);
             kiloes[1] = update;
             sizing = offset != sizing;
-            if(sizing) { _fun00002_ip = 1407; continue _fun00001 }
- 1403:
-            sizing = echoed !== result;
- 1407:
-            if(!sizing) { _fun00002_ip = 1430; continue _fun00001 }
+            if(sizing) { _fun00002_ip = 1414; continue _fun00001 }
  1410:
+            sizing = echoed !== result;
+ 1414:
+            if(!sizing) { _fun00002_ip = 1437; continue _fun00001 }
+ 1417:
             update = _closure1_slot12;
             echoed = _closure1_slot15;
             result = {};
             result['onPress'] = record;
             sizing = update.bind(report)(echoed, result);
- 1430:
+ 1437:
             kiloes[2] = sizing;
             backup['children'] = kiloes;
             backup = option.bind(report)(golfie, backup);
@@ -915,8 +918,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = sizing.bind(report)(kiloes, foxtra);
             verify[2] = foxtra;
             offset = offset != romeon;
-            if(!offset) { _fun00002_ip = 1867; continue _fun00001 }
- 1676:
+            if(!offset) { _fun00002_ip = 1874; continue _fun00001 }
+ 1683:
             foxtra = _closure1_slot12;
             source = _closure1_slot0;
             result = _closure1_slot2;
@@ -960,13 +963,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = sizing.bind(report)(kiloes, backup);
             yankee['children'] = backup;
             offset = foxtra.bind(report)(romeon, yankee);
- 1867:
+ 1874:
             verify[3] = offset;
             oscard['children'] = verify;
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1891:
+ 1898:
             return entity;
         }
     };

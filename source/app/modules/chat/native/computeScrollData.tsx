@@ -46,60 +46,78 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = null;
             if(!(golfie == verify)) { _fun00002_ip = 77; continue _fun00001 }
  56:
-            zuuluu = function(argFoo) { // Original name: findUnreadSeperatorRow
-                zuuluu = argFoo;
-                michal = zuuluu.find;
-                entity = function(argFoo) {
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            zuuluu = function(argFoo) { // Original name: findUnreadSeperatorRowIndex
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                        michal = argFoo;
-                        zuuluu = michal.type;
-                        entity = _closure1_slot3;
-                        entity = entity.SEPARATOR;
-                        entity = zuuluu === entity;
-                        if(!entity) { _fun00004_ip = 40; continue _fun00003 }
+                    zuuluu = argFoo;
+                    michal = zuuluu.findIndex;
+                    entity = function(argFoo) {
+                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+                            michal = argFoo;
+                            zuuluu = michal.type;
+                            entity = _closure1_slot3;
+                            entity = entity.SEPARATOR;
+                            entity = zuuluu === entity;
+                            if(!entity) { _fun00006_ip = 40; continue _fun00005 }
  28:
-                        zuuluu = michal.scrollTo;
-                        michal = null;
-                        entity = michal != zuuluu;
+                            zuuluu = michal.scrollTo;
+                            michal = null;
+                            entity = michal != zuuluu;
  40:
-                        return entity;
-                    }
-                };
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+                            return entity;
+                        }
+                    };
+                    entity = michal.bind(zuuluu)(entity);
+                    michal = -1;
+                    if(!(michal === entity)) { _fun00004_ip = 37; continue _fun00003 }
+ 33:
+                    michal = undefined;
+                    return michal;
+ 37:
+                    return entity;
+                }
             };
             tangon = undefined;
             zuuluu = zuuluu.bind(tangon)(oscard);
-            if(!(golfie == zuuluu)) { _fun00002_ip = 228; continue _fun00001 }
+            if(!(golfie == zuuluu)) { _fun00002_ip = 223; continue _fun00001 }
  77:
             golfie = null;
             if(!(golfie != offset)) { _fun00002_ip = 102; continue _fun00001 }
  83:
-            entity = function(argFoo, argBar) { // Original name: findMessageRow
-                zuuluu = argFoo;
-                michal = argBar;
-                var _closure3_slot0 = michal;
-                michal = zuuluu.find;
-                entity = function(argFoo) {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            entity = function(argFoo, argBar) { // Original name: findMessageRowIndex
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                        michal = argFoo;
-                        zuuluu = michal.message;
-                        entity = null;
-                        entity = entity != zuuluu;
-                        if(!entity) { _fun00006_ip = 38; continue _fun00005 }
+                    zuuluu = argFoo;
+                    michal = argBar;
+                    var _closure3_slot0 = michal;
+                    michal = zuuluu.findIndex;
+                    entity = function(argFoo) {
+                        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+ 0:
+                            michal = argFoo;
+                            zuuluu = michal.message;
+                            entity = null;
+                            entity = entity != zuuluu;
+                            if(!entity) { _fun00010_ip = 38; continue _fun00009 }
  17:
-                        michal = michal.message;
-                        zuuluu = michal.id;
-                        michal = _closure3_slot0;
-                        entity = zuuluu === michal;
+                            michal = michal.message;
+                            zuuluu = michal.id;
+                            michal = _closure3_slot0;
+                            entity = zuuluu === michal;
  38:
-                        return entity;
-                    }
-                };
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+                            return entity;
+                        }
+                    };
+                    entity = michal.bind(zuuluu)(entity);
+                    michal = -1;
+                    if(!(michal === entity)) { _fun00008_ip = 44; continue _fun00007 }
+ 40:
+                    michal = undefined;
+                    return michal;
+ 44:
+                    return entity;
+                }
             };
             option = undefined;
             oscard = entity.bind(option)(oscard, offset);
@@ -109,13 +127,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
  106:
             entity = {};
-            oscard = oscard.index;
             entity['index'] = oscard;
             yankee = _closure1_slot2;
             yankee = yankee.useReducedMotion;
             yankee = !yankee;
-            if(!yankee) { _fun00002_ip = 172; continue _fun00001 }
- 136:
+            if(!yankee) { _fun00002_ip = 167; continue _fun00001 }
+ 131:
             backup = _closure1_slot0;
             kiloes = _closure1_slot1;
             romeon = 3;
@@ -124,12 +141,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             romeon = romeon.JumpTypes;
             romeon = romeon.INSTANT;
             yankee = foxtra !== romeon;
- 172:
+ 167:
             entity['animate'] = yankee;
             verify = offset === verify;
             entity['highlight'] = verify;
-            if(!(golfie == report)) { _fun00002_ip = 222; continue _fun00001 }
- 190:
+            if(!(golfie == report)) { _fun00002_ip = 217; continue _fun00001 }
+ 185:
             golfie = _closure1_slot0;
             verify = _closure1_slot1;
             oscard = 2;
@@ -137,19 +154,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie.bind(option)(oscard);
             oscard = oscard.ChatScrollPosition;
             report = oscard.TOP;
- 222:
+ 217:
             entity['position'] = report;
             return entity;
- 228:
+ 223:
             entity = {};
-            zuuluu = zuuluu.index;
             entity['index'] = zuuluu;
-            if(!michal) { _fun00002_ip = 258; continue _fun00001 }
- 242:
+            if(!michal) { _fun00002_ip = 248; continue _fun00001 }
+ 232:
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu.useReducedMotion;
             michal = !zuuluu;
- 258:
+ 248:
             entity['animate'] = michal;
             michal = false;
             entity['highlight'] = michal;

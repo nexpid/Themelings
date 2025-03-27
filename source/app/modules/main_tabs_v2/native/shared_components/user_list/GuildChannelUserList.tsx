@@ -1107,40 +1107,57 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = romeon;
  616:
                     michal['usernameColor'] = yankee;
+                    romeon = verify == option;
+                    yankee = undefined;
+                    if(romeon) { _fun00034_ip = 636; continue _fun00033 }
+ 630:
+                    yankee = option.colorStrings;
+ 636:
+                    if(!(verify == yankee)) { _fun00034_ip = 658; continue _fun00033 }
+ 640:
+                    backup = verify == foxtra;
+                    romeon = undefined;
+                    if(backup) { _fun00034_ip = 655; continue _fun00033 }
+ 649:
+                    romeon = foxtra.colorStrings;
+ 655:
+                    yankee = romeon;
+ 658:
+                    michal['roleColors'] = yankee;
                     yankee = _closure2_slot6;
                     michal['isNameplatedRow'] = yankee;
                     romeon = verify == option;
                     yankee = undefined;
-                    if(romeon) { _fun00034_ip = 645; continue _fun00033 }
- 639:
+                    if(romeon) { _fun00034_ip = 687; continue _fun00033 }
+ 681:
                     yankee = option.premiumSince;
- 645:
-                    if(!(verify == yankee)) { _fun00034_ip = 667; continue _fun00033 }
- 649:
+ 687:
+                    if(!(verify == yankee)) { _fun00034_ip = 709; continue _fun00033 }
+ 691:
                     backup = verify == foxtra;
                     romeon = undefined;
-                    if(backup) { _fun00034_ip = 664; continue _fun00033 }
- 658:
+                    if(backup) { _fun00034_ip = 706; continue _fun00033 }
+ 700:
                     romeon = foxtra.premiumSince;
- 664:
+ 706:
                     yankee = romeon;
- 667:
+ 709:
                     romeon = verify != yankee;
                     offset = undefined;
-                    if(!romeon) { _fun00034_ip = 679; continue _fun00033 }
- 676:
+                    if(!romeon) { _fun00034_ip = 721; continue _fun00033 }
+ 718:
                     offset = yankee;
- 679:
+ 721:
                     michal['premiumSince'] = offset;
-                    if(!(verify == option)) { _fun00034_ip = 703; continue _fun00033 }
- 688:
+                    if(!(verify == option)) { _fun00034_ip = 745; continue _fun00033 }
+ 730:
                     verify = _closure2_slot14;
                     golfie = golfie.id;
                     golfie = verify === golfie;
-                    _fun00034_ip = 709; continue _fun00033;
- 703:
+                    _fun00034_ip = 751; continue _fun00033;
+ 745:
                     golfie = option.isOwner;
- 709:
+ 751:
                     michal['isOwner'] = golfie;
                     golfie = _closure2_slot1;
                     michal['guildId'] = golfie;

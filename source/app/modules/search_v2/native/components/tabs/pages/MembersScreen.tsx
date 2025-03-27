@@ -246,20 +246,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         offset = romeon;
  148:
                         report['usernameColor'] = offset;
+                        offset = verify == yankee;
+                        romeon = undefined;
+                        if(offset) { _fun00010_ip = 168; continue _fun00009 }
+ 162:
+                        romeon = yankee.colorStrings;
+ 168:
+                        foxtra = verify != romeon;
+                        offset = undefined;
+                        if(!foxtra) { _fun00010_ip = 180; continue _fun00009 }
+ 177:
+                        offset = romeon;
+ 180:
+                        report['roleColors'] = offset;
                         offset = true;
                         report['isNameplatedRow'] = offset;
                         romeon = verify == yankee;
                         offset = undefined;
-                        if(romeon) { _fun00010_ip = 175; continue _fun00009 }
- 169:
+                        if(romeon) { _fun00010_ip = 207; continue _fun00009 }
+ 201:
                         offset = yankee.premiumSince;
- 175:
+ 207:
                         yankee = verify != offset;
                         verify = undefined;
-                        if(!yankee) { _fun00010_ip = 187; continue _fun00009 }
- 184:
+                        if(!yankee) { _fun00010_ip = 219; continue _fun00009 }
+ 216:
                         verify = offset;
- 187:
+ 219:
                         report['premiumSince'] = verify;
                         verify = _closure2_slot5;
                         option = option.record;

@@ -27,14 +27,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.View;
     var _closure1_slot4 = tangon;
     tangon = 2;
+    golfie = oscard[tangon];
+    golfie = yankee.bind(entity)(golfie);
+    var _closure1_slot5 = golfie;
     tangon = oscard[tangon];
-    tangon = yankee.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.useShouldShowJumpToPresentButton;
+    var _closure1_slot6 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
-    var _closure1_slot6 = tangon;
+    var _closure1_slot7 = tangon;
     tangon = 4;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
@@ -56,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify['backgroundColor'] = offset;
     tangon['iconColor'] = verify;
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot7 = tangon;
+    var _closure1_slot8 = tangon;
     tangon = 10;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -68,9 +72,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             entity = argFoo;
             yankee = entity.channelId;
+            zuuluu = entity.screenIndex;
             foxtra = entity.accessibilityLabel;
             romeon = entity.didTapJump;
-            entity = _closure1_slot7;
+            entity = _closure1_slot8;
             oscard = undefined;
             option = entity.bind(oscard)();
             offset = _closure1_slot5;
@@ -80,9 +85,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = offset.useField;
             entity = 'showingExpressionSuggestions';
             michal = michal.bind(offset)(entity);
-            zuuluu = offset.useField;
-            entity = 'shouldShowJumpToPresentButton';
-            entity = zuuluu.bind(offset)(entity);
+            entity = _closure1_slot6;
+            entity = entity.bind(oscard)(yankee, zuuluu);
             report = offset.useField;
             zuuluu = 'chatInputContainerHeight';
             kiloes = report.bind(offset)(zuuluu);
@@ -111,13 +115,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             verify = yankee.bind(backup)(verify, offset);
-            if(tangon) { _fun00002_ip = 305; continue _fun00001 }
- 186:
-            if(michal) { _fun00002_ip = 305; continue _fun00001 }
- 189:
-            if(!entity) { _fun00002_ip = 305; continue _fun00001 }
- 192:
-            tangon = _closure1_slot6;
+            if(tangon) { _fun00002_ip = 306; continue _fun00001 }
+ 187:
+            if(michal) { _fun00002_ip = 306; continue _fun00001 }
+ 190:
+            if(!entity) { _fun00002_ip = 306; continue _fun00001 }
+ 193:
+            tangon = _closure1_slot7;
             michal = _closure1_slot4;
             entity = {};
             yankee = option.container;
@@ -144,15 +148,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = tangon.bind(oscard)(yankee, offset);
             entity['children'] = offset;
             entity = tangon.bind(oscard)(michal, entity);
-            _fun00002_ip = 393; continue _fun00001;
- 305:
+            _fun00002_ip = 394; continue _fun00001;
+ 306:
             michal = null;
-            if(!report) { _fun00002_ip = 390; continue _fun00001 }
- 310:
+            if(!report) { _fun00002_ip = 391; continue _fun00001 }
+ 311:
             michal = null;
-            if(!zuuluu) { _fun00002_ip = 390; continue _fun00001 }
- 315:
-            report = _closure1_slot6;
+            if(!zuuluu) { _fun00002_ip = 391; continue _fun00001 }
+ 316:
+            report = _closure1_slot7;
             tangon = _closure1_slot4;
             zuuluu = {};
             offset = option.container;
@@ -170,9 +174,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = report.bind(oscard)(option, golfie);
             zuuluu['children'] = golfie;
             michal = report.bind(oscard)(tangon, zuuluu);
- 390:
+ 391:
             entity = michal;
- 393:
+ 394:
             return entity;
         }
     };

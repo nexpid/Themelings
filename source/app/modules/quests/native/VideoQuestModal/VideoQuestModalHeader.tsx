@@ -141,7 +141,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = undefined;
                     golfie = tangon.bind(zuuluu)(oscard);
                     oscard = golfie.parseMinutesAndSecondsFromSeconds;
+                    option = entity.duration;
                     entity = entity.timestampSec;
+                    entity = option - entity;
                     entity = oscard.bind(golfie)(entity);
                     michal = report[michal];
                     tangon = tangon.bind(zuuluu)(michal);

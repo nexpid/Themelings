@@ -48,6 +48,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = '1340102344645283891';
     zuuluu['GUILD_POWERUP_APPLICATION_ID'] = report;
     zuuluu['SKU_ID_TO_BOOSTING_TIER'] = tangon;
+    tangon = '1351706802684952639';
+    zuuluu['GUILD_POWERUP_RAPIDASH_SKU_ID'] = tangon;
     michal = function() {
         entity = {};
         michal = _closure1_slot4;

@@ -329,7 +329,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['label'] = zuuluu;
             zuuluu = _closure1_slot8;
             report = zuuluu.ACCOUNT_USERNAME;
-            zuuluu = new Array(4);
+            zuuluu = new Array(6);
             zuuluu[0] = report;
             report = _closure1_slot8;
             report = report.ACCOUNT_DISPLAY_NAME;
@@ -340,6 +340,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = _closure1_slot8;
             report = report.ACCOUNT_PHONE;
             zuuluu[3] = report;
+            report = _closure1_slot8;
+            report = report.ACCOUNT_AGE_GROUP_ADULT;
+            zuuluu[4] = report;
+            report = _closure1_slot8;
+            report = report.ACCOUNT_AGE_GROUP_NON_ADULT;
+            zuuluu[5] = report;
             entity['settings'] = zuuluu;
             zuuluu = new Array(3);
             zuuluu[0] = entity;

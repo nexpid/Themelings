@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['start'] = report;
                 michal['end'] = tangon;
                 entity['props'] = michal;
-                _fun00008_ip = 278; continue _fun00007;
+                _fun00008_ip = 298; continue _fun00007;
  138:
                 michal = {};
                 zuuluu = 'user';
@@ -334,13 +334,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify = offset.bind(yankee)(romeon);
  218:
                 zuuluu['nickname'] = verify;
+                offset = option == golfie;
+                verify = undefined;
+                if(offset) { _fun00008_ip = 238; continue _fun00007 }
+ 232:
+                verify = golfie.colorString;
+ 238:
+                zuuluu['usernameColor'] = verify;
                 option = option == golfie;
                 oscard = undefined;
-                if(option) { _fun00008_ip = 238; continue _fun00007 }
- 232:
-                oscard = golfie.colorString;
- 238:
-                zuuluu['usernameColor'] = oscard;
+                if(option) { _fun00008_ip = 258; continue _fun00007 }
+ 252:
+                oscard = golfie.colorStrings;
+ 258:
+                zuuluu['roleColors'] = oscard;
                 oscard = true;
                 zuuluu['isNameplatedRow'] = oscard;
                 oscard = function(argFoo) { // Original name: onPress
@@ -366,7 +373,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu['end'] = tangon;
                 michal['props'] = zuuluu;
                 entity = michal;
- 278:
+ 298:
                 return entity;
             }
         };

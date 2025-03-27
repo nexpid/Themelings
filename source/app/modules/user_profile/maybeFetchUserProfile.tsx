@@ -7,288 +7,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = golfie;
     var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _maybeFetchUserProfile
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar) {
-            entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-                    StartGenerator();
-                    offset = argFoo;
-                    source = argBar;
-                    michal = arguments[2];
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 777; continue _fun00001 }
- 21:
-                    var _closure4_slot0 = offset;
-                    zuuluu = undefined;
-                    if(!(michal === zuuluu)) { _fun00002_ip = 33; continue _fun00001 }
- 31:
-                    michal = {};
- 33:
-                    echoed = michal.type;
-                    sizing = michal.withMutualGuilds;
-                    if(!(sizing === zuuluu)) { _fun00002_ip = 50; continue _fun00001 }
- 48:
-                    sizing = false;
- 50:
-                    backup = michal.withMutualFriendsCount;
-                    if(!(backup === zuuluu)) { _fun00002_ip = 62; continue _fun00001 }
- 60:
-                    backup = false;
- 62:
-                    kiloes = michal.withMutualFriends;
-                    if(!(kiloes === zuuluu)) { _fun00002_ip = 74; continue _fun00001 }
- 72:
-                    kiloes = false;
- 74:
-                    foxtra = michal.friendToken;
-                    golfie = michal.preloadUserBanner;
-                    if(!(golfie === zuuluu)) { _fun00002_ip = 94; continue _fun00001 }
- 92:
-                    golfie = true;
- 94:
-                    oscard = michal.dispatchWait;
-                    if(!(oscard === zuuluu)) { _fun00002_ip = 106; continue _fun00001 }
- 104:
-                    oscard = false;
- 106:
-                    result = michal.guildId;
-                    output = michal.channelId;
-                    yankee = michal.joinRequestId;
-                    option = michal.abortSignal;
-                    var _closure4_slot1 = zuuluu;
-                    var _closure4_slot2 = zuuluu;
-                    SaveGenerator(address=140);
- 138:
-                    return zuuluu;
- 140:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 774; continue _fun00001 }
- 149:
-                    report = '';
-                    if(!(report !== offset)) { _fun00002_ip = 771; continue _fun00001 }
- 160:
-                    romeon = _closure1_slot6;
-                    verify = romeon.isFetchingProfile;
-                    verify = verify.bind(romeon)(offset, result);
-                    if(verify) { _fun00002_ip = 771; continue _fun00001 }
- 185:
-                    romeon = _closure1_slot6;
-                    verify = romeon.getUserProfile;
-                    update = verify.bind(romeon)(offset);
-                    verify = global;
-                    romeon = verify.Date;
-                    verify = romeon.now;
-                    ctrled = verify.bind(romeon)();
-                    romeon = null;
-                    verify = romeon == update;
-                    vacuum = undefined;
-                    if(verify) { _fun00002_ip = 234; continue _fun00001 }
- 228:
-                    vacuum = update.lastFetched;
- 234:
-                    sequen = romeon != vacuum;
-                    verify = 0;
-                    if(!sequen) { _fun00002_ip = 246; continue _fun00001 }
- 243:
-                    verify = vacuum;
- 246:
-                    ctrled = ctrled - verify;
-                    verify = _closure1_slot7;
-                    verify = ctrled >= verify;
-                    ctrled = romeon == update;
-                    vacuum = undefined;
-                    if(ctrled) { _fun00002_ip = 287; continue _fun00001 }
- 267:
-                    ctrled = update.fetchError;
-                    sequen = romeon == ctrled;
-                    vacuum = undefined;
-                    if(sequen) { _fun00002_ip = 287; continue _fun00001 }
- 282:
-                    vacuum = ctrled.status;
- 287:
-                    ctrled = 404;
-                    if(!(ctrled !== vacuum)) { _fun00002_ip = 336; continue _fun00001 }
- 297:
-                    vacuum = romeon == update;
-                    ctrled = undefined;
-                    if(vacuum) { _fun00002_ip = 326; continue _fun00001 }
- 306:
-                    update = update.fetchError;
-                    vacuum = romeon == update;
-                    ctrled = undefined;
-                    if(vacuum) { _fun00002_ip = 326; continue _fun00001 }
- 321:
-                    ctrled = update.status;
- 326:
-                    update = 429;
-                    if(!(update === ctrled)) { _fun00002_ip = 342; continue _fun00001 }
- 336:
-                    if(!verify) { _fun00002_ip = 771; continue _fun00001 }
- 342:
-                    ctrled = _closure1_slot6;
-                    update = ctrled.getGuildMemberProfile;
-                    update = update.bind(ctrled)(offset, result);
-                    vacuum = _closure1_slot6;
-                    ctrled = vacuum.getMutualGuilds;
-                    sequen = ctrled.bind(vacuum)(offset);
-                    vacuum = _closure1_slot6;
-                    ctrled = vacuum.getMutualFriends;
-                    vacuum = ctrled.bind(vacuum)(offset);
-                    config = _closure1_slot6;
-                    ctrled = config.getMutualFriendsCount;
-                    ctrled = ctrled.bind(config)(offset);
-                    if(sizing) { _fun00002_ip = 410; continue _fun00001 }
- 406:
-                    sizing = romeon != result;
- 410:
-                    if(!(romeon == sequen)) { _fun00002_ip = 417; continue _fun00001 }
- 414:
-                    if(sizing) { _fun00002_ip = 445; continue _fun00001 }
- 417:
-                    if(!(romeon == vacuum)) { _fun00002_ip = 424; continue _fun00001 }
- 421:
-                    if(kiloes) { _fun00002_ip = 445; continue _fun00001 }
- 424:
-                    if(!(romeon == ctrled)) { _fun00002_ip = 431; continue _fun00001 }
- 428:
-                    if(backup) { _fun00002_ip = 445; continue _fun00001 }
- 431:
-                    if(!(romeon != result)) { _fun00002_ip = 439; continue _fun00001 }
- 435:
-                    if(!(romeon != update)) { _fun00002_ip = 445; continue _fun00001 }
- 439:
-                    if(!verify) { _fun00002_ip = 771; continue _fun00001 }
- 445:
-                    update = _closure1_slot0;
-                    ctrled = _closure1_slot2;
-                    verify = 4;
-                    verify = ctrled[verify];
-                    update = update.bind(zuuluu)(verify);
-                    verify = update.fetchUserProfileEffects;
-                    verify = verify.bind(update)();
-                    if(!(romeon != source)) { _fun00002_ip = 510; continue _fun00001 }
- 479:
-                    update = _closure1_slot0;
-                    ctrled = _closure1_slot2;
-                    verify = 5;
-                    verify = ctrled[verify];
-                    update = update.bind(zuuluu)(verify);
-                    verify = update.maybeFetchColors;
-                    verify = verify.bind(update)(source);
- 510:
-                    verify = {};
-                    verify['type'] = echoed;
-                    verify['withMutualGuilds'] = sizing;
-                    verify['withMutualFriends'] = kiloes;
-                    verify['withMutualFriendsCount'] = backup;
-                    verify['friendToken'] = foxtra;
-                    verify['guildId'] = result;
-                    verify['joinRequestId'] = yankee;
-                    verify['abortSignal'] = option;
-                    yankee = romeon == result;
-                    option = undefined;
-                    if(yankee) { _fun00002_ip = 645; continue _fun00001 }
- 559:
-                    foxtra = _closure1_slot0;
-                    backup = _closure1_slot2;
-                    yankee = 6;
-                    yankee = backup[yankee];
-                    backup = foxtra.bind(zuuluu)(yankee);
-                    foxtra = backup.getVisibleConnectionsRole;
-                    yankee = {};
-                    sizing = _closure1_slot5;
-                    kiloes = sizing.getMember;
-                    kiloes = kiloes.bind(sizing)(result, offset);
-                    yankee['guildMember'] = kiloes;
-                    sizing = _closure1_slot4;
-                    kiloes = sizing.getChannel;
-                    kiloes = kiloes.bind(sizing)(output);
-                    yankee['channel'] = kiloes;
-                    yankee = foxtra.bind(backup)(yankee);
-                    romeon = romeon == yankee;
-                    option = undefined;
-                    if(romeon) { _fun00002_ip = 645; continue _fun00001 }
- 640:
-                    option = yankee.id;
- 645:
-                    verify['connectionsRoleId'] = option;
-                    _closure4_slot1 = verify;
-                    option = undefined;
-                    if(!golfie) { _fun00002_ip = 679; continue _fun00001 }
- 659:
-                    yankee = _closure1_slot1;
-                    romeon = _closure1_slot2;
-                    golfie = 7;
-                    golfie = romeon[golfie];
-                    option = yankee.bind(zuuluu)(golfie);
- 679:
-                    _closure4_slot2 = option;
-                    if(oscard) { _fun00002_ip = 732; continue _fun00001 }
- 686:
-                    golfie = _closure1_slot0;
-                    yankee = _closure1_slot2;
-                    oscard = 9;
-                    oscard = yankee[oscard];
-                    golfie = golfie.bind(zuuluu)(oscard);
-                    oscard = golfie.fetchProfile;
-                    oscard = oscard.bind(golfie)(offset, verify, option);
-                    SaveGenerator(address=723);
- 721:
-                    return oscard;
- 723:
-                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                    if(!golfie) { _fun00002_ip = 771; continue _fun00001 }
- 729:
-                    return oscard;
- 732:
-                    oscard = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    report = 8;
-                    report = golfie[report];
-                    oscard = oscard.bind(zuuluu)(report);
-                    report = oscard.wait;
-                    tangon = function() {
-                        zuuluu = _closure1_slot0;
-                        michal = _closure1_slot2;
-                        entity = 9;
-                        michal = michal[entity];
-                        entity = undefined;
-                        report = zuuluu.bind(entity)(michal);
-                        tangon = report.fetchProfile;
-                        zuuluu = _closure4_slot0;
-                        michal = _closure4_slot1;
-                        entity = _closure4_slot2;
-                        entity = tangon.bind(report)(zuuluu, michal, entity);
-                        return entity;
-                    };
-                    tangon = report.bind(oscard)(tangon);
-                    return tangon;
- 771:
-                    return zuuluu;
- 774:
-                    return michal;
- 777:
-                    return entity;
-                }
-            };
-            michal = entity.next;
-            michal = michal.bind(entity)();
-            return entity;
-        };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot8 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
-    };
-    var _closure1_slot8 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -310,27 +28,307 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 60000;
-    var _closure1_slot7 = tangon;
-    tangon = 10;
+    tangon = 9;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
     tangon = 'modules/user_profile/maybeFetchUserProfile.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: maybeFetchUserProfile
-        entity = undefined;
-        tangon = _closure1_slot8;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    michal = function(argFoo, argBar) { // Original name: maybeFetchUserProfile
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            yankee = argFoo;
+            ctrled = argBar;
+            entity = arguments[2];
+            var _closure2_slot0 = yankee;
+            report = undefined;
+            if(!(entity === report)) { _fun00002_ip = 23; continue _fun00001 }
+ 21:
+            entity = {};
+ 23:
+            update = entity.type;
+            output = entity.withMutualGuilds;
+            if(!(output === report)) { _fun00002_ip = 40; continue _fun00001 }
+ 38:
+            output = false;
+ 40:
+            kiloes = entity.withMutualFriendsCount;
+            if(!(kiloes === report)) { _fun00002_ip = 52; continue _fun00001 }
+ 50:
+            kiloes = false;
+ 52:
+            sizing = entity.withMutualFriends;
+            if(!(sizing === report)) { _fun00002_ip = 64; continue _fun00001 }
+ 62:
+            sizing = false;
+ 64:
+            backup = entity.friendToken;
+            golfie = entity.preloadUserBanner;
+            if(!(golfie === report)) { _fun00002_ip = 84; continue _fun00001 }
+ 82:
+            golfie = true;
+ 84:
+            tangon = entity.dispatchWait;
+            if(!(tangon === report)) { _fun00002_ip = 96; continue _fun00001 }
+ 94:
+            tangon = false;
+ 96:
+            oscard = entity.waitForRefetch;
+            if(!(oscard === report)) { _fun00002_ip = 110; continue _fun00001 }
+ 108:
+            oscard = true;
+ 110:
+            echoed = entity.guildId;
+            result = entity.channelId;
+            romeon = entity.joinRequestId;
+            verify = entity.abortSignal;
+            var _closure2_slot1 = report;
+            var _closure2_slot2 = report;
+            entity = '';
+            if(!(entity !== yankee)) { _fun00002_ip = 870; continue _fun00001 }
+ 151:
+            option = _closure1_slot5;
+            entity = option.isFetchingProfile;
+            option = entity.bind(option)(yankee, echoed);
+            entity = global;
+            if(option) { _fun00002_ip = 852; continue _fun00001 }
+ 178:
+            offset = _closure1_slot5;
+            option = offset.getUserProfile;
+            option = option.bind(offset)(yankee);
+            foxtra = entity.Date;
+            offset = foxtra.now;
+            source = offset.bind(foxtra)();
+            foxtra = null;
+            offset = foxtra == option;
+            vacuum = undefined;
+            if(offset) { _fun00002_ip = 225; continue _fun00001 }
+ 219:
+            vacuum = option.lastFetched;
+ 225:
+            sequen = foxtra != vacuum;
+            offset = 0;
+            if(!sequen) { _fun00002_ip = 237; continue _fun00001 }
+ 234:
+            offset = vacuum;
+ 237:
+            source = source - offset;
+            offset = 60000;
+            source = source >= offset;
+            offset = foxtra == option;
+            vacuum = undefined;
+            if(offset) { _fun00002_ip = 280; continue _fun00001 }
+ 260:
+            offset = option.fetchError;
+            sequen = foxtra == offset;
+            vacuum = undefined;
+            if(sequen) { _fun00002_ip = 280; continue _fun00001 }
+ 275:
+            vacuum = offset.status;
+ 280:
+            offset = 404;
+            if(!(offset !== vacuum)) { _fun00002_ip = 329; continue _fun00001 }
+ 290:
+            offset = foxtra == option;
+            vacuum = undefined;
+            if(offset) { _fun00002_ip = 319; continue _fun00001 }
+ 299:
+            offset = option.fetchError;
+            sequen = foxtra == offset;
+            vacuum = undefined;
+            if(sequen) { _fun00002_ip = 319; continue _fun00001 }
+ 314:
+            vacuum = offset.status;
+ 319:
+            offset = 429;
+            if(!(offset === vacuum)) { _fun00002_ip = 350; continue _fun00001 }
+ 329:
+            if(source) { _fun00002_ip = 350; continue _fun00001 }
+ 332:
+            vacuum = entity.Promise;
+            offset = vacuum.resolve;
+            offset = offset.bind(vacuum)();
+            return offset;
+ 350:
+            record = _closure1_slot5;
+            offset = record.getGuildMemberProfile;
+            offset = offset.bind(record)(yankee, echoed);
+            vacuum = record.getMutualGuilds;
+            config = vacuum.bind(record)(yankee);
+            vacuum = record.getMutualFriends;
+            sequen = vacuum.bind(record)(yankee);
+            vacuum = record.getMutualFriendsCount;
+            vacuum = vacuum.bind(record)(yankee);
+            if(!(foxtra != echoed)) { _fun00002_ip = 409; continue _fun00001 }
+ 403:
+            offset = foxtra == offset;
+            _fun00002_ip = 413; continue _fun00001;
+ 409:
+            offset = foxtra == option;
+ 413:
+            option = !offset;
+            if(offset) { _fun00002_ip = 470; continue _fun00001 }
+ 419:
+            if(source) { _fun00002_ip = 435; continue _fun00001 }
+ 422:
+            config = foxtra == config;
+            if(!config) { _fun00002_ip = 432; continue _fun00001 }
+ 429:
+            config = output;
+ 432:
+            source = config;
+ 435:
+            if(source) { _fun00002_ip = 451; continue _fun00001 }
+ 438:
+            sequen = foxtra == sequen;
+            if(!sequen) { _fun00002_ip = 448; continue _fun00001 }
+ 445:
+            sequen = sizing;
+ 448:
+            source = sequen;
+ 451:
+            if(source) { _fun00002_ip = 467; continue _fun00001 }
+ 454:
+            vacuum = foxtra == vacuum;
+            if(!vacuum) { _fun00002_ip = 464; continue _fun00001 }
+ 461:
+            vacuum = kiloes;
+ 464:
+            source = vacuum;
+ 467:
+            option = source;
+ 470:
+            if(offset) { _fun00002_ip = 494; continue _fun00001 }
+ 473:
+            if(option) { _fun00002_ip = 494; continue _fun00001 }
+ 476:
+            source = entity.Promise;
+            offset = source.resolve;
+            offset = offset.bind(source)();
+            return offset;
+ 494:
+            source = _closure1_slot0;
+            vacuum = _closure1_slot2;
+            offset = 3;
+            offset = vacuum[offset];
+            source = source.bind(report)(offset);
+            offset = source.fetchUserProfileEffects;
+            offset = offset.bind(source)();
+            if(!(foxtra != ctrled)) { _fun00002_ip = 559; continue _fun00001 }
+ 528:
+            source = _closure1_slot0;
+            vacuum = _closure1_slot2;
+            offset = 4;
+            offset = vacuum[offset];
+            source = source.bind(report)(offset);
+            offset = source.maybeFetchColors;
+            offset = offset.bind(source)(ctrled);
+ 559:
+            offset = {};
+            offset['type'] = update;
+            offset['withMutualGuilds'] = output;
+            offset['withMutualFriends'] = sizing;
+            offset['withMutualFriendsCount'] = kiloes;
+            offset['friendToken'] = backup;
+            offset['guildId'] = echoed;
+            offset['joinRequestId'] = romeon;
+            offset['abortSignal'] = verify;
+            romeon = foxtra == echoed;
+            verify = undefined;
+            if(romeon) { _fun00002_ip = 694; continue _fun00001 }
+ 608:
+            backup = _closure1_slot0;
+            kiloes = _closure1_slot2;
+            romeon = 5;
+            romeon = kiloes[romeon];
+            kiloes = backup.bind(report)(romeon);
+            backup = kiloes.getVisibleConnectionsRole;
+            romeon = {};
+            output = _closure1_slot4;
+            sizing = output.getMember;
+            sizing = sizing.bind(output)(echoed, yankee);
+            romeon['guildMember'] = sizing;
+            output = _closure1_slot3;
+            sizing = output.getChannel;
+            sizing = sizing.bind(output)(result);
+            romeon['channel'] = sizing;
+            romeon = backup.bind(kiloes)(romeon);
+            foxtra = foxtra == romeon;
+            verify = undefined;
+            if(foxtra) { _fun00002_ip = 694; continue _fun00001 }
+ 689:
+            verify = romeon.id;
+ 694:
+            offset['connectionsRoleId'] = verify;
+            _closure2_slot1 = offset;
+            verify = undefined;
+            if(!golfie) { _fun00002_ip = 728; continue _fun00001 }
+ 708:
+            romeon = _closure1_slot1;
+            foxtra = _closure1_slot2;
+            golfie = 6;
+            golfie = foxtra[golfie];
+            verify = romeon.bind(report)(golfie);
+ 728:
+            _closure2_slot2 = verify;
+            if(tangon) { _fun00002_ip = 798; continue _fun00001 }
+ 735:
+            golfie = _closure1_slot0;
+            romeon = _closure1_slot2;
+            tangon = 8;
+            tangon = romeon[tangon];
+            golfie = golfie.bind(report)(tangon);
+            tangon = golfie.fetchProfile;
+            golfie = tangon.bind(golfie)(yankee, offset, verify);
+            tangon = golfie;
+            if(!option) { _fun00002_ip = 796; continue _fun00001 }
+ 774:
+            tangon = golfie;
+            if(oscard) { _fun00002_ip = 796; continue _fun00001 }
+ 780:
+            golfie = entity.Promise;
+            oscard = golfie.resolve;
+            tangon = oscard.bind(golfie)();
+ 796:
+            return tangon;
+ 798:
+            tangon = _closure1_slot1;
+            oscard = _closure1_slot2;
+            zuuluu = 7;
+            zuuluu = oscard[zuuluu];
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = tangon.wait;
+            michal = function() {
+                zuuluu = _closure1_slot0;
+                michal = _closure1_slot2;
+                entity = 8;
+                michal = michal[entity];
+                entity = undefined;
+                report = zuuluu.bind(entity)(michal);
+                tangon = report.fetchProfile;
+                zuuluu = _closure2_slot0;
+                michal = _closure2_slot1;
+                entity = _closure2_slot2;
+                entity = tangon.bind(report)(zuuluu, michal, entity);
+                return entity;
+            };
+            michal = zuuluu.bind(tangon)(michal);
+            zuuluu = entity.Promise;
+            michal = zuuluu.resolve;
+            michal = michal.bind(zuuluu)();
+            return michal;
+ 852:
+            michal = entity.Promise;
+            entity = michal.resolve;
+            entity = entity.bind(michal)();
+            return entity;
+ 870:
+            entity = global;
+            michal = entity.Promise;
+            entity = michal.resolve;
+            entity = entity.bind(michal)();
+            return entity;
+        }
     };
     zuuluu['default'] = michal;
     return entity;

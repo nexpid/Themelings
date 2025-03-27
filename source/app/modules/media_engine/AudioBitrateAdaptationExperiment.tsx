@@ -1,4 +1,4 @@
-// app/modules/media_engine/AudioNackExperiment.tsx
+// app/modules/media_engine/AudioBitrateAdaptationExperiment.tsx
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -18,12 +18,12 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     entity = undefined;
     option = report.bind(entity)(tangon);
     golfie = option.createExperiment;
-    tangon = {'kind': 'user', 'id': '2025-01_audio_nack', 'label': 'Audio NACK'};
+    tangon = {'kind': 'user', 'id': '2025-03_audio_bitrate_adaptation', 'label': 'Audio Bitrate Adaptation'};
     verify = {};
     offset = false;
     verify['enabled'] = offset;
     tangon['defaultConfig'] = verify;
-    offset = {'id': 1, 'label': 'Enable NACK for audio'};
+    offset = {'id': 1, 'label': 'Enable audio bitrate adaptation'};
     verify = {};
     verify['enabled'] = yankee;
     offset['config'] = verify;
@@ -36,9 +36,9 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/media_engine/AudioNackExperiment.tsx';
+    tangon = 'modules/media_engine/AudioBitrateAdaptationExperiment.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: getAudioNackExperimentConfig
+    michal = function(argFoo) { // Original name: getAudioBitrateAdaptationExperimentConfig
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
@@ -72,6 +72,6 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['getAudioNackExperimentConfig'] = michal;
+    zuuluu['getAudioBitrateAdaptationExperimentConfig'] = michal;
     return entity;
 })();

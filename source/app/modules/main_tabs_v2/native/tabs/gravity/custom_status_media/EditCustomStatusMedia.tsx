@@ -773,7 +773,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify['borderRadius'] = result;
     verify['padding'] = foxtra;
     tangon['statusContainer'] = verify;
-    verify = {'marginRight': 8, 'height': 32, 'width': 32};
+    verify = {};
+    verify['marginRight'] = offset;
     tangon['emoji'] = verify;
     verify = {'color': null, 'lineHeight': 16, 'flexGrow': 1, 'alignSelf': 'flex-start', 'paddingVertical': 0, 'paddingHorizontal': 0};
     result = oscard[yankee];
@@ -1402,6 +1403,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = result.bind(tangon)(record);
             record = {};
             record['emoji'] = cntext;
+            cntext = 32;
+            record['size'] = cntext;
             cntext = papara.emoji;
             record['style'] = cntext;
             cntext = true;

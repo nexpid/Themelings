@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot10 = entity;
+    var _closure1_slot11 = entity;
     entity = function(argFoo, argBar) { // Original name: getAverage
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = oscard.filter;
             option = _closure1_slot0;
             golfie = _closure1_slot1;
-            entity = 1;
+            entity = 2;
             golfie = golfie[entity];
             entity = undefined;
             entity = option.bind(entity)(golfie);
@@ -151,32 +151,35 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot11 = entity;
-    entity = function(argFoo, argBar) { // Original name: getPerfErrorFromStats
+    var _closure1_slot12 = entity;
+    entity = function(argFoo, argBar, argBaz) { // Original name: getPerfErrorFromStats
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             michal = argFoo;
             tangon = argBar;
             zuuluu = michal.type;
             entity = 'streamer';
-            if(!(entity !== zuuluu)) { _fun00008_ip = 281; continue _fun00007 }
+            if(!(entity !== zuuluu)) { _fun00008_ip = 290; continue _fun00007 }
  24:
+            entity = argBaz;
+            if(!entity) { _fun00008_ip = 338; continue _fun00007 }
+ 33:
             zuuluu = michal.packetLossRate;
             entity = 100;
             report = entity * zuuluu;
             zuuluu = _closure1_slot7;
-            if(!(!(report > zuuluu))) { _fun00008_ip = 177; continue _fun00007 }
- 51:
+            if(!(!(report > zuuluu))) { _fun00008_ip = 186; continue _fun00007 }
+ 60:
             report = michal.frameRate;
-            zuuluu = _closure1_slot10;
+            zuuluu = _closure1_slot11;
             option = undefined;
             zuuluu = zuuluu.bind(option)(tangon);
-            if(!(report <= zuuluu)) { _fun00008_ip = 329; continue _fun00007 }
- 75:
-            golfie = _closure1_slot9;
+            if(!(report <= zuuluu)) { _fun00008_ip = 338; continue _fun00007 }
+ 84:
+            golfie = _closure1_slot10;
             verify = _closure1_slot0;
             offset = _closure1_slot1;
-            zuuluu = 3;
+            zuuluu = 4;
             report = offset[zuuluu];
             report = verify.bind(option)(report);
             oscard = report.intl;
@@ -186,20 +189,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.t;
             zuuluu = zuuluu.BcOif3;
             oscard = report.bind(oscard)(zuuluu);
-            zuuluu = _closure1_slot8;
+            zuuluu = _closure1_slot9;
             report = zuuluu.FRAME_RATE_NETWORK;
-            zuuluu = 4;
+            zuuluu = 5;
             zuuluu = offset[zuuluu];
             zuuluu = verify.bind(option)(zuuluu);
             zuuluu = zuuluu.AVError;
             zuuluu = zuuluu.STREAM_VIEW_LOW_FPS;
             zuuluu = golfie.bind(option)(oscard, report, zuuluu);
             return zuuluu;
- 177:
-            golfie = _closure1_slot9;
+ 186:
+            golfie = _closure1_slot10;
             option = _closure1_slot0;
             verify = _closure1_slot1;
-            zuuluu = 3;
+            zuuluu = 4;
             report = verify[zuuluu];
             oscard = undefined;
             report = option.bind(oscard)(report);
@@ -210,35 +213,35 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.t;
             zuuluu = zuuluu.BcOif3;
             report = report.bind(offset)(zuuluu);
-            entity = _closure1_slot8;
+            entity = _closure1_slot9;
             zuuluu = entity.PACKET_LOSS;
-            entity = 4;
+            entity = 5;
             entity = verify[entity];
             entity = option.bind(oscard)(entity);
             entity = entity.AVError;
             entity = entity.STREAM_VIEW_HIGH_PACKET_LOSS;
             entity = golfie.bind(oscard)(report, zuuluu, entity);
             return entity;
- 281:
+ 290:
             zuuluu = michal.packetLossRate;
             entity = 100;
             report = entity * zuuluu;
             zuuluu = _closure1_slot7;
-            if(!(!(report > zuuluu))) { _fun00008_ip = 435; continue _fun00007 }
- 308:
+            if(!(!(report > zuuluu))) { _fun00008_ip = 444; continue _fun00007 }
+ 317:
             zuuluu = michal.frameRate;
-            michal = _closure1_slot10;
+            michal = _closure1_slot11;
             oscard = undefined;
             michal = michal.bind(oscard)(tangon);
-            if(!(!(zuuluu <= michal))) { _fun00008_ip = 333; continue _fun00007 }
- 329:
+            if(!(!(zuuluu <= michal))) { _fun00008_ip = 342; continue _fun00007 }
+ 338:
             michal = null;
             return michal;
- 333:
-            report = _closure1_slot9;
+ 342:
+            report = _closure1_slot10;
             golfie = _closure1_slot0;
             option = _closure1_slot1;
-            michal = 3;
+            michal = 4;
             zuuluu = option[michal];
             zuuluu = golfie.bind(oscard)(zuuluu);
             tangon = zuuluu.intl;
@@ -248,20 +251,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.t;
             michal = michal.1f1LHh;
             tangon = zuuluu.bind(tangon)(michal);
-            michal = _closure1_slot8;
+            michal = _closure1_slot9;
             zuuluu = michal.FRAME_RATE_INPUT;
-            michal = 4;
+            michal = 5;
             michal = option[michal];
             michal = golfie.bind(oscard)(michal);
             michal = michal.AVError;
             michal = michal.STREAM_SEND_LOW_FPS;
             michal = report.bind(oscard)(tangon, zuuluu, michal);
             return michal;
- 435:
-            report = _closure1_slot9;
+ 444:
+            report = _closure1_slot10;
             oscard = _closure1_slot0;
             golfie = _closure1_slot1;
-            michal = 3;
+            michal = 4;
             zuuluu = golfie[michal];
             tangon = undefined;
             zuuluu = oscard.bind(tangon)(zuuluu);
@@ -272,9 +275,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.t;
             michal = michal.1f1LHh;
             zuuluu = zuuluu.bind(option)(michal);
-            entity = _closure1_slot8;
+            entity = _closure1_slot9;
             michal = entity.PACKET_LOSS;
-            entity = 4;
+            entity = 5;
             entity = golfie[entity];
             entity = oscard.bind(tangon)(entity);
             entity = entity.AVError;
@@ -283,7 +286,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot13 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -306,21 +309,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot5 = tangon;
     tangon = 3;
     var _closure1_slot6 = tangon;
-    tangon = 10;
-    var _closure1_slot7 = tangon;
-    tangon = {};
-    golfie = 'Packet Loss';
-    tangon['PACKET_LOSS'] = golfie;
-    golfie = 'Frame Rate Encode';
-    tangon['FRAME_RATE_INPUT'] = golfie;
-    golfie = 'Frame Rate Decode';
-    tangon['FRAME_RATE_NETWORK'] = golfie;
-    golfie = 'Soundshare Failed';
-    tangon['SOUNDSHARE_FAILED'] = golfie;
-    golfie = 'Bad Connection';
-    tangon['BAD_CONNECTION'] = golfie;
-    var _closure1_slot8 = tangon;
-    tangon = 2;
+    option = 10;
+    var _closure1_slot7 = option;
+    golfie = 1;
+    verify = oscard[golfie];
+    golfie = argBaz;
+    golfie = golfie.bind(entity)(verify);
+    golfie = golfie.Millis;
+    golfie = golfie.SECOND;
+    golfie = option * golfie;
+    var _closure1_slot8 = golfie;
+    golfie = {};
+    option = 'Packet Loss';
+    golfie['PACKET_LOSS'] = option;
+    option = 'Frame Rate Encode';
+    golfie['FRAME_RATE_INPUT'] = option;
+    option = 'Frame Rate Decode';
+    golfie['FRAME_RATE_NETWORK'] = option;
+    option = 'Soundshare Failed';
+    golfie['SOUNDSHARE_FAILED'] = option;
+    option = 'Bad Connection';
+    golfie['BAD_CONNECTION'] = option;
+    var _closure1_slot9 = golfie;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
     golfie = option.cachedFunction;
@@ -335,8 +345,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot9 = tangon;
-    tangon = 5;
+    var _closure1_slot10 = tangon;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -345,79 +355,104 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function(argFoo, argBar, argBaz, argCor) { // Original name: getStreamError
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            verify = argBar;
-            oscard = argCor;
+            report = argBar;
+            golfie = argCor;
             entity = argBaz;
-            if(entity) { _fun00010_ip = 245; continue _fun00009 }
+            if(entity) { _fun00010_ip = 353; continue _fun00009 }
  15:
             michal = null;
-            if(!(michal != verify)) { _fun00010_ip = 61; continue _fun00009 }
- 21:
-            tangon = _closure1_slot11;
-            report = undefined;
-            golfie = 5;
-            option = tangon.bind(report)(verify, golfie);
+            if(!(michal != report)) { _fun00010_ip = 167; continue _fun00009 }
+ 24:
+            tangon = _closure1_slot12;
+            oscard = undefined;
+            option = 5;
+            verify = tangon.bind(oscard)(report, option);
             entity = 30;
-            tangon = tangon.bind(report)(verify, entity);
-            entity = tangon.numDatapoints;
-            if(!(!(entity >= golfie))) { _fun00010_ip = 189; continue _fun00009 }
- 61:
+            report = tangon.bind(oscard)(report, entity);
+            tangon = _closure1_slot0;
+            entity = _closure1_slot1;
+            romeon = 6;
+            entity = entity[romeon];
+            entity = tangon.bind(oscard)(entity);
+            tangon = entity.WindowVisibilityVideoManager;
+            entity = tangon.isIncomingVideoEnabled;
+            tangon = entity.bind(tangon)();
+            if(!tangon) { _fun00010_ip = 154; continue _fun00009 }
+ 90:
+            entity = global;
+            offset = entity.Date;
+            entity = offset.now;
+            offset = entity.bind(offset)();
+            yankee = _closure1_slot0;
+            entity = _closure1_slot1;
+            entity = entity[romeon];
+            entity = yankee.bind(oscard)(entity);
+            yankee = entity.WindowVisibilityVideoManager;
+            entity = yankee.lastIncomingVideoEnabledChangeTime;
+            entity = entity.bind(yankee)();
+            offset = offset - entity;
+            entity = _closure1_slot8;
+            tangon = offset > entity;
+ 154:
+            entity = report.numDatapoints;
+            if(!(!(entity >= option))) { _fun00010_ip = 295; continue _fun00009 }
+ 167:
             entity = _closure1_slot2;
-            offset = entity.BAD;
-            verify = argFoo;
+            yankee = entity.BAD;
+            offset = argFoo;
             entity = null;
-            if(!(verify === offset)) { _fun00010_ip = 187; continue _fun00009 }
- 83:
-            romeon = _closure1_slot9;
-            foxtra = _closure1_slot0;
-            backup = _closure1_slot1;
-            verify = 3;
-            offset = backup[verify];
-            yankee = undefined;
-            offset = foxtra.bind(yankee)(offset);
-            kiloes = offset.intl;
-            offset = kiloes.string;
-            verify = backup[verify];
-            verify = foxtra.bind(yankee)(verify);
-            verify = verify.t;
-            verify = verify.Ic588P;
-            offset = offset.bind(kiloes)(verify);
-            golfie = _closure1_slot8;
-            verify = golfie.BAD_CONNECTION;
-            golfie = 4;
-            golfie = backup[golfie];
-            golfie = foxtra.bind(yankee)(golfie);
-            golfie = golfie.AVError;
-            golfie = golfie.STREAM_BAD_NETWORK_QUALITY;
-            entity = romeon.bind(yankee)(offset, verify, golfie);
- 187:
-            return entity;
+            if(!(offset === yankee)) { _fun00010_ip = 293; continue _fun00009 }
  189:
-            golfie = _closure1_slot12;
-            verify = michal == oscard;
-            entity = undefined;
-            if(verify) { _fun00010_ip = 208; continue _fun00009 }
- 202:
-            entity = oscard.maxFrameRate;
- 208:
-            entity = golfie.bind(report)(option, entity);
-            if(!(michal == entity)) { _fun00010_ip = 243; continue _fun00009 }
- 218:
-            zuuluu = _closure1_slot12;
-            golfie = michal == oscard;
-            michal = undefined;
-            if(golfie) { _fun00010_ip = 237; continue _fun00009 }
- 231:
-            michal = oscard.maxFrameRate;
- 237:
-            entity = zuuluu.bind(report)(tangon, michal);
- 243:
+            foxtra = _closure1_slot10;
+            backup = _closure1_slot0;
+            kiloes = _closure1_slot1;
+            offset = 4;
+            yankee = kiloes[offset];
+            romeon = undefined;
+            yankee = backup.bind(romeon)(yankee);
+            sizing = yankee.intl;
+            yankee = sizing.string;
+            offset = kiloes[offset];
+            offset = backup.bind(romeon)(offset);
+            offset = offset.t;
+            offset = offset.Ic588P;
+            yankee = yankee.bind(sizing)(offset);
+            option = _closure1_slot9;
+            offset = option.BAD_CONNECTION;
+            option = 5;
+            option = kiloes[option];
+            option = backup.bind(romeon)(option);
+            option = option.AVError;
+            option = option.STREAM_BAD_NETWORK_QUALITY;
+            entity = foxtra.bind(romeon)(yankee, offset, option);
+ 293:
             return entity;
- 245:
-            report = _closure1_slot9;
+ 295:
+            option = _closure1_slot13;
+            offset = michal == golfie;
+            entity = undefined;
+            if(offset) { _fun00010_ip = 314; continue _fun00009 }
+ 308:
+            entity = golfie.maxFrameRate;
+ 314:
+            entity = option.bind(oscard)(verify, entity, tangon);
+            if(!(michal == entity)) { _fun00010_ip = 351; continue _fun00009 }
+ 325:
+            zuuluu = _closure1_slot13;
+            option = michal == golfie;
+            michal = undefined;
+            if(option) { _fun00010_ip = 344; continue _fun00009 }
+ 338:
+            michal = golfie.maxFrameRate;
+ 344:
+            entity = zuuluu.bind(oscard)(report, michal, tangon);
+ 351:
+            return entity;
+ 353:
+            report = _closure1_slot10;
             oscard = _closure1_slot0;
             golfie = _closure1_slot1;
-            michal = 3;
+            michal = 4;
             zuuluu = golfie[michal];
             tangon = undefined;
             zuuluu = oscard.bind(tangon)(zuuluu);
@@ -428,9 +463,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.t;
             michal = michal.9lcycn;
             zuuluu = zuuluu.bind(option)(michal);
-            entity = _closure1_slot8;
+            entity = _closure1_slot9;
             michal = entity.SOUNDSHARE_FAILED;
-            entity = 4;
+            entity = 5;
             entity = golfie[entity];
             entity = oscard.bind(tangon)(entity);
             entity = entity.AVError;

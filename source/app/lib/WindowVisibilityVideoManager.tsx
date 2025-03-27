@@ -140,6 +140,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = true;
             entity['discordVisible'] = oscard;
             entity['incomingVideoEnabled'] = oscard;
+            oscard = global;
+            golfie = oscard.Date;
+            oscard = golfie.now;
+            oscard = oscard.bind(golfie)();
+            entity['lastEnabledChange'] = oscard;
             zuuluu = _closure1_slot1;
             oscard = 6;
             oscard = report[oscard];
@@ -249,8 +254,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(2);
+        entity = new Array(3);
         entity[0] = report;
+        report = {};
+        golfie = 'lastIncomingVideoEnabledChangeTime';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
+            entity = this;
+            entity = entity.lastEnabledChange;
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[1] = report;
         report = {};
         golfie = 'setIncomingVideoEnabled';
         report['key'] = golfie;
@@ -261,29 +276,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = this;
                 entity = tangon.incomingVideoEnabled;
                 tangon['incomingVideoEnabled'] = michal;
-                if(!(entity !== michal)) { _fun00008_ip = 99; continue _fun00007 }
+                if(!(entity !== michal)) { _fun00008_ip = 120; continue _fun00007 }
  22:
-                zuuluu = tangon.logger;
-                michal = zuuluu.info;
-                oscard = tangon.incomingVideoEnabled;
+                report = tangon.logger;
+                zuuluu = report.info;
+                golfie = tangon.incomingVideoEnabled;
                 entity = global;
-                entity = entity.HermesInternal;
-                report = entity.concat;
-                entity = 'Incoming video enabled changed, incomingVideoEnabled = ';
-                entity = report.bind(entity)(oscard);
-                entity = michal.bind(zuuluu)(entity);
+                michal = entity.HermesInternal;
+                oscard = michal.concat;
+                michal = 'Incoming video enabled changed, incomingVideoEnabled = ';
+                michal = oscard.bind(michal)(golfie);
+                michal = zuuluu.bind(report)(michal);
+                michal = entity.Date;
+                entity = michal.now;
+                entity = entity.bind(michal)();
+                tangon['lastEnabledChange'] = entity;
                 zuuluu = tangon.emit;
                 entity = _closure1_slot8;
                 michal = entity.IncomingVideoEnabledChanged;
                 entity = tangon.incomingVideoEnabled;
                 entity = zuuluu.bind(tangon)(michal, entity);
- 99:
+ 120:
                 entity = undefined;
                 return entity;
             }
         };
         report['value'] = oscard;
-        entity[1] = report;
+        entity[2] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

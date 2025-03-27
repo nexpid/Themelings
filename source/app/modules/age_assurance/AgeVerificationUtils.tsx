@@ -271,24 +271,40 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             zuuluu = _closure1_slot7;
-            michal = zuuluu.getCurrentUser;
-            zuuluu = michal.bind(zuuluu)();
-            michal = null;
-            report = michal == zuuluu;
-            tangon = undefined;
-            michal = undefined;
-            if(report) { _fun00012_ip = 35; continue _fun00011 }
+            entity = zuuluu.getCurrentUser;
+            tangon = entity.bind(zuuluu)();
+            zuuluu = null;
+            entity = zuuluu == tangon;
+            report = undefined;
+            golfie = undefined;
+            if(entity) { _fun00012_ip = 35; continue _fun00011 }
  29:
-            michal = zuuluu.ageVerificationStatus;
+            golfie = tangon.ageVerificationStatus;
  35:
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 7;
-            entity = report[entity];
-            entity = zuuluu.bind(tangon)(entity);
+            option = _closure1_slot0;
+            entity = _closure1_slot2;
+            oscard = 7;
+            entity = entity[oscard];
+            entity = option.bind(report)(entity);
             entity = entity.AgeVerificationStatusUkAndAusOnly;
             entity = entity.UNVERIFIED;
-            entity = michal !== entity;
+            entity = golfie !== entity;
+            if(!entity) { _fun00012_ip = 122; continue _fun00011 }
+ 74:
+            golfie = zuuluu == tangon;
+            zuuluu = undefined;
+            if(golfie) { _fun00012_ip = 89; continue _fun00011 }
+ 83:
+            zuuluu = tangon.ageVerificationStatus;
+ 89:
+            tangon = _closure1_slot0;
+            michal = _closure1_slot2;
+            michal = michal[oscard];
+            michal = tangon.bind(report)(michal);
+            michal = michal.AgeVerificationStatusUkAndAusOnly;
+            michal = michal.CLIENT_ONLY_PENDING;
+            entity = zuuluu !== michal;
+ 122:
             return entity;
         }
     };
@@ -298,36 +314,52 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
-            michal = 8;
-            michal = tangon[michal];
-            tangon = undefined;
-            oscard = zuuluu.bind(tangon)(michal);
-            report = oscard.useStateFromStores;
-            michal = _closure1_slot7;
+            entity = 8;
+            entity = tangon[entity];
+            report = undefined;
+            oscard = zuuluu.bind(report)(entity);
+            tangon = oscard.useStateFromStores;
+            entity = _closure1_slot7;
             zuuluu = new Array(1);
-            zuuluu[0] = michal;
-            michal = function() {
+            zuuluu[0] = entity;
+            entity = function() {
                 michal = _closure1_slot7;
                 entity = michal.getCurrentUser;
                 entity = entity.bind(michal)();
                 return entity;
             };
-            zuuluu = report.bind(oscard)(zuuluu, michal);
-            michal = null;
-            report = michal == zuuluu;
-            michal = undefined;
-            if(report) { _fun00014_ip = 72; continue _fun00013 }
+            tangon = tangon.bind(oscard)(zuuluu, entity);
+            zuuluu = null;
+            entity = zuuluu == tangon;
+            golfie = undefined;
+            if(entity) { _fun00014_ip = 72; continue _fun00013 }
  66:
-            michal = zuuluu.ageVerificationStatus;
+            golfie = tangon.ageVerificationStatus;
  72:
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 7;
-            entity = report[entity];
-            entity = zuuluu.bind(tangon)(entity);
+            option = _closure1_slot0;
+            entity = _closure1_slot2;
+            oscard = 7;
+            entity = entity[oscard];
+            entity = option.bind(report)(entity);
             entity = entity.AgeVerificationStatusUkAndAusOnly;
             entity = entity.UNVERIFIED;
-            entity = michal !== entity;
+            entity = golfie !== entity;
+            if(!entity) { _fun00014_ip = 159; continue _fun00013 }
+ 111:
+            golfie = zuuluu == tangon;
+            zuuluu = undefined;
+            if(golfie) { _fun00014_ip = 126; continue _fun00013 }
+ 120:
+            zuuluu = tangon.ageVerificationStatus;
+ 126:
+            tangon = _closure1_slot0;
+            michal = _closure1_slot2;
+            michal = michal[oscard];
+            michal = tangon.bind(report)(michal);
+            michal = michal.AgeVerificationStatusUkAndAusOnly;
+            michal = michal.CLIENT_ONLY_PENDING;
+            entity = zuuluu !== michal;
+ 159:
             return entity;
         }
     };

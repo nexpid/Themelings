@@ -34,6 +34,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['APP_MESSAGE_EMBED'] = report;
     entity = 'APP_MESSAGE_EMBED';
     michal[report] = entity;
+    report = 6;
+    michal['GUILD_PROFILE_INVITE'] = report;
+    entity = 'GUILD_PROFILE_INVITE';
+    michal[report] = entity;
     entity = argPlu;
     report = entity[tangon];
     tangon = argBar;

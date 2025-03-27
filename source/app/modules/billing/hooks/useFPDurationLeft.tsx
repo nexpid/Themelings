@@ -43,43 +43,43 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo, argBar) { // Original name: useFPDurationLeft
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
+            golfie = argFoo;
             yankee = argBar;
-            oscard = argFoo;
             tangon = undefined;
             zuuluu = undefined;
             report = undefined;
             entity = undefined;
-            golfie = _closure1_slot3;
-            golfie = golfie.SHORT_TIME_LEFT;
-            if(!(golfie !== yankee)) { _fun00002_ip = 435; continue _fun00001 }
+            oscard = _closure1_slot3;
+            oscard = oscard.SHORT_TIME_LEFT;
+            if(!(oscard !== yankee)) { _fun00002_ip = 435; continue _fun00001 }
  34:
-            golfie = _closure1_slot3;
-            golfie = golfie.LONG_TIME_LEFT;
-            if(!(golfie !== yankee)) { _fun00002_ip = 337; continue _fun00001 }
+            oscard = _closure1_slot3;
+            oscard = oscard.LONG_TIME_LEFT;
+            if(!(oscard !== yankee)) { _fun00002_ip = 337; continue _fun00001 }
  51:
-            golfie = _closure1_slot3;
-            golfie = golfie.ENDS_IN;
-            if(!(golfie !== yankee)) { _fun00002_ip = 236; continue _fun00001 }
+            oscard = _closure1_slot3;
+            oscard = oscard.ENDS_IN;
+            if(!(oscard !== yankee)) { _fun00002_ip = 236; continue _fun00001 }
  68:
-            golfie = _closure1_slot3;
-            golfie = golfie.SHORT_TIME;
-            if(!(golfie !== yankee)) { _fun00002_ip = 141; continue _fun00001 }
+            oscard = _closure1_slot3;
+            oscard = oscard.SHORT_TIME;
+            if(!(oscard !== yankee)) { _fun00002_ip = 141; continue _fun00001 }
  82:
-            golfie = global;
-            verify = golfie.Error;
-            golfie = golfie.HermesInternal;
-            offset = golfie.concat;
+            oscard = global;
+            verify = oscard.Error;
+            oscard = oscard.HermesInternal;
+            offset = oscard.concat;
             option = 'Unknown messageType (';
-            golfie = ') when rendering time left';
-            foxtra = offset.bind(option)(yankee, golfie);
+            oscard = ') when rendering time left';
+            foxtra = offset.bind(option)(yankee, oscard);
             option = verify.prototype;
             option = Object.create(option, {constructor: {value: verify}});
             backup = option;
-            golfie = new backup[verify](foxtra, romeon);
-            golfie = golfie instanceof Object ? golfie : option;
-            throw golfie;
+            oscard = new backup[verify](foxtra, romeon);
+            oscard = oscard instanceof Object ? oscard : option;
+            throw oscard;
  141:
-            golfie = {};
+            oscard = {};
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             option = 0;
@@ -87,21 +87,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = verify.bind(tangon)(yankee);
             yankee = yankee.t;
             yankee = yankee.fYmir6;
-            golfie['days'] = yankee;
+            oscard['days'] = yankee;
             yankee = offset[option];
             yankee = verify.bind(tangon)(yankee);
             yankee = yankee.t;
             yankee = yankee.C3RO+v;
-            golfie['hours'] = yankee;
+            oscard['hours'] = yankee;
             option = offset[option];
             option = verify.bind(tangon)(option);
             option = option.t;
             option = option.r77oHR;
-            golfie['minutes'] = option;
-            zuuluu = golfie;
+            oscard['minutes'] = option;
+            zuuluu = oscard;
             _fun00002_ip = 531; continue _fun00001;
  236:
-            golfie = {};
+            oscard = {};
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             option = 0;
@@ -109,21 +109,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = verify.bind(tangon)(yankee);
             yankee = yankee.t;
             yankee = yankee.rLqNaW;
-            golfie['days'] = yankee;
+            oscard['days'] = yankee;
             yankee = offset[option];
             yankee = verify.bind(tangon)(yankee);
             yankee = yankee.t;
             yankee = yankee.d1LvCA;
-            golfie['hours'] = yankee;
+            oscard['hours'] = yankee;
             option = offset[option];
             option = verify.bind(tangon)(option);
             option = option.t;
             option = option.Z2LX7O;
-            golfie['minutes'] = option;
-            zuuluu = golfie;
+            oscard['minutes'] = option;
+            zuuluu = oscard;
             _fun00002_ip = 531; continue _fun00001;
  337:
-            golfie = {};
+            oscard = {};
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             option = 0;
@@ -131,21 +131,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = verify.bind(tangon)(yankee);
             yankee = yankee.t;
             yankee = yankee.UD5nn5;
-            golfie['days'] = yankee;
+            oscard['days'] = yankee;
             yankee = offset[option];
             yankee = verify.bind(tangon)(yankee);
             yankee = yankee.t;
             yankee = yankee.Hg8FeX;
-            golfie['hours'] = yankee;
+            oscard['hours'] = yankee;
             option = offset[option];
             option = verify.bind(tangon)(option);
             option = option.t;
             option = option.XSbQZW;
-            golfie['minutes'] = option;
-            zuuluu = golfie;
+            oscard['minutes'] = option;
+            zuuluu = oscard;
             _fun00002_ip = 531; continue _fun00001;
  435:
-            golfie = {};
+            oscard = {};
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             option = 0;
@@ -153,31 +153,58 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = verify.bind(tangon)(yankee);
             yankee = yankee.t;
             yankee = yankee./wnvqK;
-            golfie['days'] = yankee;
+            oscard['days'] = yankee;
             yankee = offset[option];
             yankee = verify.bind(tangon)(yankee);
             yankee = yankee.t;
             yankee = yankee.Jsq0XF;
-            golfie['hours'] = yankee;
+            oscard['hours'] = yankee;
             option = offset[option];
             option = verify.bind(tangon)(option);
             option = option.t;
             option = option.SBd+Bg;
-            golfie['minutes'] = option;
-            zuuluu = golfie;
+            oscard['minutes'] = option;
+            zuuluu = oscard;
  531:
             option = _closure1_slot1;
-            verify = _closure1_slot2;
-            golfie = 1;
-            golfie = verify[golfie];
-            option = option.bind(tangon)(golfie);
-            golfie = oscard;
+            oscard = _closure1_slot2;
+            verify = 1;
+            oscard = oscard[verify];
+            option = option.bind(tangon)(oscard);
             oscard = golfie.toDate;
             golfie = oscard.bind(golfie)();
             oscard = 60000;
-            report = option.bind(tangon)(golfie, oscard);
+            option = option.bind(tangon)(golfie, oscard);
+            golfie = option.days;
+            oscard = 0;
+            if(!(!(golfie > oscard))) { _fun00002_ip = 646; continue _fun00001 }
+ 585:
+            golfie = option.hours;
+            oscard = 11;
+            if(!(!(golfie > oscard))) { _fun00002_ip = 630; continue _fun00001 }
+ 598:
+            offset = option.minutes;
+            golfie = 45;
+            oscard = option;
+            if(!(offset > golfie)) { _fun00002_ip = 628; continue _fun00001 }
+ 614:
+            oscard = {'days': 0, 'hours': 1, 'minutes': 0, 'seconds': 0};
+ 628:
+            _fun00002_ip = 644; continue _fun00001;
+ 630:
+            oscard = {'days': 1, 'hours': 0, 'minutes': 0, 'seconds': 0};
+ 644:
+            _fun00002_ip = 679; continue _fun00001;
+ 646:
+            golfie = {'days': null, 'hours': 0, 'minutes': 0, 'seconds': 0};
+            option = option.days;
+            option = option + verify;
+            golfie['days'] = option;
+            oscard = golfie;
+ 679:
+            report = oscard;
             entity = '';
- 580: // try_start_0
+ 686: // try_start_0
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             oscard = 2;
@@ -185,9 +212,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = golfie.bind(tangon)(oscard);
             oscard = golfie.unitsAsStrings;
             entity = oscard.bind(golfie)(report, zuuluu);
- 612: // try_end0
-            _fun00002_ip = 653; continue _fun00001;
- 614: // catch_target0
+ 718: // try_end0
+            _fun00002_ip = 759; continue _fun00001;
+ 720: // catch_target0
             CatchBlockStart(arg_register=2);
             zuuluu = _closure1_slot1;
             report = _closure1_slot2;
@@ -197,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.captureMessage;
             michal = 'Error trying to format string for fractional nitro duration pill';
             michal = zuuluu.bind(tangon)(michal);
- 653:
+ 759:
             return entity;
         }
     };

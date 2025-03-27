@@ -15,14 +15,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['value'] = entity;
     entity = '__esModule';
     entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
+    offset = 0;
+    option = oscard[offset];
     tangon = argCor;
     entity = undefined;
     tangon = tangon.bind(entity)(option);
     var _closure1_slot3 = tangon;
-    offset = 1;
-    tangon = oscard[offset];
+    yankee = 1;
+    tangon = oscard[yankee];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.View;
     var _closure1_slot4 = tangon;
@@ -69,9 +69,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 4};
     tangon['container'] = verify;
     verify = {};
-    verify['marginTop'] = offset;
+    verify['marginTop'] = yankee;
     tangon['icon'] = verify;
-    verify = {'marginRight': 0, 'width': 14, 'height': 14};
+    verify = {};
+    verify['marginRight'] = offset;
     tangon['emoji'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot13 = tangon;
@@ -92,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot1 = zuuluu;
             foxtra = michal.textStyle;
             var _closure2_slot2 = foxtra;
-            result = michal.emojiStyle;
+            echoed = michal.emojiSize;
             romeon = michal.maxFontSizeMultiplier;
             var _closure2_slot3 = romeon;
             sizing = michal.animate;
@@ -115,11 +116,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = _closure1_slot13;
             report = michal.bind(tangon)();
             _closure2_slot4 = report;
-            echoed = _closure1_slot0;
+            result = _closure1_slot0;
             kiloes = _closure1_slot2;
             option = 9;
             michal = kiloes[option];
-            golfie = echoed.bind(tangon)(michal);
+            golfie = result.bind(tangon)(michal);
             oscard = golfie.useStateFromStores;
             michal = _closure1_slot7;
             zuuluu = new Array(1);
@@ -133,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal = oscard.bind(golfie)(zuuluu, michal);
             zuuluu = kiloes[option];
-            backup = echoed.bind(tangon)(zuuluu);
+            backup = result.bind(tangon)(zuuluu);
             golfie = backup.useStateFromStores;
             zuuluu = _closure1_slot5;
             oscard = new Array(1);
@@ -156,19 +157,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _closure2_slot6 = oscard;
             oscard = 11;
             oscard = kiloes[oscard];
-            update = echoed.bind(tangon)(oscard);
-            echoed = update.useVoiceActivityStatusMobileExperiment;
+            update = result.bind(tangon)(oscard);
+            result = update.useVoiceActivityStatusMobileExperiment;
             oscard = {};
             source = 'ActivityStatus';
             oscard['location'] = source;
-            oscard = echoed.bind(update)(oscard);
-            echoed = oscard.voiceActivityStatusEnabled;
+            oscard = result.bind(update)(oscard);
+            result = oscard.voiceActivityStatusEnabled;
             oscard = 12;
             oscard = kiloes[oscard];
             golfie = golfie.bind(tangon)(oscard);
             oscard = {};
             kiloes = undefined;
-            if(!echoed) { _fun00002_ip = 306; continue _fun00001 }
+            if(!result) { _fun00002_ip = 306; continue _fun00001 }
  303:
             kiloes = output;
  306:
@@ -265,7 +266,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option.bind(offset)(golfie, zuuluu);
             if(!oscard) { _fun00002_ip = 451; continue _fun00001 }
  445:
-            if(zuuluu) { _fun00002_ip = 834; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 839; continue _fun00001 }
  451:
             option = null;
             oscard = option == michal;
@@ -426,7 +427,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = entity.bind(tangon)();
             entity = option == output;
             oscard = null;
-            if(entity) { _fun00002_ip = 714; continue _fun00001 }
+            if(entity) { _fun00002_ip = 719; continue _fun00001 }
  521:
             zuuluu = _closure1_slot12;
             michal = _closure1_slot11;
@@ -437,31 +438,35 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  544:
             offset = !verify;
  547:
-            if(!offset) { _fun00002_ip = 620; continue _fun00001 }
+            if(!offset) { _fun00002_ip = 625; continue _fun00001 }
  550:
             kiloes = _closure1_slot10;
             backup = _closure1_slot1;
-            echoed = _closure1_slot2;
+            result = _closure1_slot2;
             verify = 18;
-            verify = echoed[verify];
+            verify = result[verify];
             backup = backup.bind(tangon)(verify);
             verify = {};
-            echoed = output.emoji;
-            verify['emoji'] = echoed;
+            result = output.emoji;
+            verify['emoji'] = result;
+            update = option != echoed;
+            result = 14;
+            if(!update) { _fun00002_ip = 600; continue _fun00001 }
+ 597:
+            result = echoed;
+ 600:
+            verify['size'] = result;
             verify['animate'] = sizing;
-            echoed = report.emoji;
-            sizing = new Array(2);
-            sizing[0] = echoed;
-            sizing[1] = result;
+            sizing = report.emoji;
             verify['style'] = sizing;
             offset = kiloes.bind(tangon)(backup, verify);
- 620:
+ 625:
             verify = new Array(2);
             verify[0] = offset;
             offset = output.state;
             offset = option != offset;
-            if(!offset) { _fun00002_ip = 700; continue _fun00001 }
- 640:
+            if(!offset) { _fun00002_ip = 705; continue _fun00001 }
+ 645:
             sizing = _closure1_slot10;
             kiloes = _closure1_slot1;
             result = _closure1_slot2;
@@ -476,11 +481,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = output.state;
             backup['children'] = output;
             offset = sizing.bind(tangon)(kiloes, backup);
- 700:
+ 705:
             verify[1] = offset;
             entity['children'] = verify;
             oscard = zuuluu.bind(tangon)(michal, entity);
- 714:
+ 719:
             zuuluu = _closure1_slot12;
             michal = _closure1_slot4;
             entity = {};
@@ -489,12 +494,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = new Array(3);
             report[0] = golfie;
             golfie = option != golfie;
-            if(!golfie) { _fun00002_ip = 752; continue _fun00001 }
- 748:
+            if(!golfie) { _fun00002_ip = 757; continue _fun00001 }
+ 753:
             golfie = option != oscard;
- 752:
-            if(!golfie) { _fun00002_ip = 814; continue _fun00001 }
- 755:
+ 757:
+            if(!golfie) { _fun00002_ip = 819; continue _fun00001 }
+ 760:
             offset = _closure1_slot10;
             verify = _closure1_slot1;
             backup = _closure1_slot2;
@@ -509,13 +514,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = _closure1_slot8;
             option['children'] = yankee;
             golfie = offset.bind(tangon)(verify, option);
- 814:
+ 819:
             report[1] = golfie;
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 834:
+ 839:
             entity = null;
             return entity;
         }
