@@ -7,19 +7,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu = argFre;
         oscard = argPlu;
         var _closure1_slot0 = report;
-        var _closure1_slot1 = golfie;
-        var _closure1_slot2 = oscard;
+        var _closure1_slot1 = oscard;
         entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 tangon = argFoo;
                 oscard = argBaz;
-                michal = _closure1_slot6;
+                michal = _closure1_slot5;
                 zuuluu = undefined;
                 entity = argBar;
                 verify = michal.bind(zuuluu)(entity);
-                michal = _closure1_slot5;
-                entity = _closure1_slot15;
+                michal = _closure1_slot4;
+                entity = _closure1_slot13;
                 entity = entity.bind(zuuluu)();
                 if(entity) { _fun00004_ip = 51; continue _fun00003 }
  38:
@@ -34,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  67:
                 oscard = new Array(0);
  71:
-                report = _closure1_slot6;
+                report = _closure1_slot5;
                 report = report.bind(zuuluu)(tangon);
                 report = report.constructor;
                 entity = golfie.bind(option)(verify, oscard, report);
@@ -43,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             }
         };
-        var _closure1_slot14 = entity;
+        var _closure1_slot12 = entity;
         entity = function() { // Original name: _isNativeReflectConstruct
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -76,45 +75,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = !entity;
                     return entity;
                 };
-                _closure1_slot15 = michal;
+                _closure1_slot13 = michal;
                 entity = undefined;
                 entity = michal.bind(entity)();
                 return entity;
             }
         };
-        var _closure1_slot15 = entity;
-        entity = function(argFoo, argBar) { // Original name: track
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 7;
-            michal = michal[entity];
-            entity = undefined;
-            report = zuuluu.bind(entity)(michal);
-            tangon = report.track;
-            zuuluu = argFoo;
-            michal = argBar;
-            michal = tangon.bind(report)(zuuluu, michal);
-            return entity;
-        };
-        var _closure1_slot16 = entity;
+        var _closure1_slot13 = entity;
         verify = function(argFoo) { // Original name: handleSetDesktopType
             entity = argFoo;
-            report = entity.desktopType;
-            michal = _closure1_slot13;
-            michal['desktopType'] = report;
-            tangon = _closure1_slot16;
-            michal = _closure1_slot8;
-            zuuluu = michal.LOCAL_SETTINGS_UPDATED;
-            michal = {};
-            entity = _closure1_slot9;
-            entity = entity.ALL;
-            entity = report === entity;
-            michal['notifications_enabled'] = entity;
+            michal = entity.desktopType;
+            entity = _closure1_slot11;
+            entity['desktopType'] = michal;
             entity = undefined;
-            michal = tangon.bind(entity)(zuuluu, michal);
             return entity;
         };
-        var _closure1_slot17 = verify;
+        var _closure1_slot14 = verify;
         entity = global;
         offset = entity.Object;
         option = offset.defineProperty;
@@ -127,54 +103,52 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = oscard[entity];
         entity = undefined;
         michal = golfie.bind(entity)(michal);
-        var _closure1_slot3 = michal;
+        var _closure1_slot2 = michal;
         michal = 1;
         michal = oscard[michal];
         michal = golfie.bind(entity)(michal);
-        var _closure1_slot4 = michal;
+        var _closure1_slot3 = michal;
         michal = 2;
         michal = oscard[michal];
         michal = golfie.bind(entity)(michal);
-        var _closure1_slot5 = michal;
+        var _closure1_slot4 = michal;
         michal = 3;
         michal = oscard[michal];
         michal = golfie.bind(entity)(michal);
-        var _closure1_slot6 = michal;
+        var _closure1_slot5 = michal;
         michal = 4;
         michal = oscard[michal];
         michal = golfie.bind(entity)(michal);
-        var _closure1_slot7 = michal;
+        var _closure1_slot6 = michal;
         michal = 5;
         michal = oscard[michal];
         michal = report.bind(entity)(michal);
-        option = michal.AnalyticEvents;
-        var _closure1_slot8 = option;
         yankee = michal.DesktopNotificationTypes;
-        var _closure1_slot9 = yankee;
+        var _closure1_slot7 = yankee;
         option = michal.NotificationPermissionTypes;
-        var _closure1_slot10 = option;
+        var _closure1_slot8 = option;
         option = michal.TTSNotificationTypes;
-        var _closure1_slot11 = option;
+        var _closure1_slot9 = option;
         michal = {'desktopType': null, 'disableAllSounds': false, 'disabledSounds': null, 'ttsType': null, 'disableUnreadBadge': false, 'taskbarFlash': true, 'notifyMessagesInSelectedChannel': false};
         offset = 6;
         offset = oscard[offset];
         offset = report.bind(entity)(offset);
         offset = offset.isPlatformEmbedded;
-        if(offset) { _fun00002_ip = 277; continue _fun00001 }
- 269:
+        if(offset) { _fun00002_ip = 253; continue _fun00001 }
+ 245:
         offset = yankee.NEVER;
-        _fun00002_ip = 283; continue _fun00001;
- 277:
+        _fun00002_ip = 259; continue _fun00001;
+ 253:
         offset = yankee.ALL;
- 283:
+ 259:
         michal['desktopType'] = offset;
         offset = new Array(0);
         michal['disabledSounds'] = offset;
         option = option.NEVER;
         michal['ttsType'] = option;
-        var _closure1_slot12 = michal;
-        var _closure1_slot13 = michal;
-        michal = 8;
+        var _closure1_slot10 = michal;
+        var _closure1_slot11 = michal;
+        michal = 7;
         michal = oscard[michal];
         michal = golfie.bind(entity)(michal);
         option = michal.DeviceSettingsStore;
@@ -183,32 +157,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = this;
                 tangon = undefined;
                 entity = undefined;
-                oscard = _closure1_slot3;
+                oscard = _closure1_slot2;
                 zuuluu = _closure2_slot0;
                 oscard = oscard.bind(tangon)(report, zuuluu);
-                michal = _closure1_slot14;
+                michal = _closure1_slot12;
                 entity = arguments;
                 entity = michal.bind(tangon)(report, zuuluu, entity);
                 return entity;
             };
             var _closure2_slot0 = tangon;
-            report = _closure1_slot7;
+            report = _closure1_slot6;
             zuuluu = undefined;
             michal = argFoo;
             michal = report.bind(zuuluu)(tangon, michal);
-            michal = _closure1_slot4;
+            michal = _closure1_slot3;
             report = {};
             entity = 'initialize';
             report['key'] = entity;
             entity = function(argFoo) { // Original name: value
                 michal = {};
-                tangon = _closure1_slot12;
+                tangon = _closure1_slot10;
                 report = michal;
                 zuuluu = copyDataProperties(report, tangon);
                 tangon = argFoo;
                 report = michal;
                 zuuluu = copyDataProperties(report, tangon);
-                _closure1_slot13 = michal;
+                _closure1_slot11 = michal;
                 entity = undefined;
                 return entity;
             };
@@ -219,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = 'getUserAgnosticState';
             report['key'] = golfie;
             golfie = function() { // Original name: value
-                entity = _closure1_slot13;
+                entity = _closure1_slot11;
                 return entity;
             };
             report['value'] = golfie;
@@ -228,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = 'getDesktopType';
             report['key'] = golfie;
             golfie = function() { // Original name: value
-                entity = _closure1_slot13;
+                entity = _closure1_slot11;
                 entity = entity.desktopType;
                 return entity;
             };
@@ -238,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = 'getTTSType';
             report['key'] = golfie;
             golfie = function() { // Original name: value
-                entity = _closure1_slot13;
+                entity = _closure1_slot11;
                 entity = entity.ttsType;
                 return entity;
             };
@@ -248,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = 'getDisabledSounds';
             report['key'] = golfie;
             golfie = function() { // Original name: value
-                entity = _closure1_slot13;
+                entity = _closure1_slot11;
                 entity = entity.disabledSounds;
                 return entity;
             };
@@ -258,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = 'getDisableAllSounds';
             report['key'] = golfie;
             golfie = function() { // Original name: value
-                entity = _closure1_slot13;
+                entity = _closure1_slot11;
                 entity = entity.disableAllSounds;
                 return entity;
             };
@@ -268,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = 'getDisableUnreadBadge';
             report['key'] = golfie;
             golfie = function() { // Original name: value
-                entity = _closure1_slot13;
+                entity = _closure1_slot11;
                 entity = entity.disableUnreadBadge;
                 return entity;
             };
@@ -278,7 +252,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = 'getNotifyMessagesInSelectedChannel';
             report['key'] = golfie;
             golfie = function() { // Original name: value
-                entity = _closure1_slot13;
+                entity = _closure1_slot11;
                 entity = entity.notifyMessagesInSelectedChannel;
                 return entity;
             };
@@ -288,7 +262,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = 'taskbarFlash';
             report['key'] = golfie;
             golfie = function() { // Original name: get
-                entity = _closure1_slot13;
+                entity = _closure1_slot11;
                 entity = entity.taskbarFlash;
                 return entity;
             };
@@ -300,11 +274,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = function(argFoo) { // Original name: value
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                    entity = _closure1_slot13;
+                    entity = _closure1_slot11;
                     entity = entity.disableAllSounds;
                     if(entity) { _fun00008_ip = 49; continue _fun00007 }
  16:
-                    michal = _closure1_slot13;
+                    michal = _closure1_slot11;
                     tangon = michal.disabledSounds;
                     zuuluu = tangon.indexOf;
                     michal = argFoo;
@@ -356,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = entity.ttsType;
                 if(michal) { _fun00010_ip = 97; continue _fun00009 }
  84:
-                tangon = _closure1_slot11;
+                tangon = _closure1_slot9;
                 michal = tangon.NEVER;
  97:
                 entity['ttsType'] = michal;
@@ -364,13 +338,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 if(!(zuuluu == michal)) { _fun00010_ip = 171; continue _fun00009 }
  113:
                 report = _closure1_slot0;
-                tangon = _closure1_slot2;
+                tangon = _closure1_slot1;
                 michal = 6;
                 tangon = tangon[michal];
                 michal = undefined;
                 michal = report.bind(michal)(tangon);
                 michal = michal.isPlatformEmbedded;
-                zuuluu = _closure1_slot9;
+                zuuluu = _closure1_slot7;
                 if(michal) { _fun00010_ip = 159; continue _fun00009 }
  151:
                 michal = zuuluu.NEVER;
@@ -385,7 +359,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         michal[0] = offset;
         option['migrations'] = michal;
-        michal = 9;
+        michal = 8;
         michal = oscard[michal];
         kiloes = golfie.bind(entity)(michal);
         michal = {};
@@ -393,7 +367,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         verify = function(argFoo) { // Original name: handleSetTTSType
             entity = argFoo;
             michal = entity.ttsType;
-            entity = _closure1_slot13;
+            entity = _closure1_slot11;
             entity['ttsType'] = michal;
             entity = undefined;
             return entity;
@@ -402,14 +376,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         verify = function(argFoo) { // Original name: handleSetDisabledSounds
             entity = argFoo;
             michal = entity.sounds;
-            entity = _closure1_slot13;
+            entity = _closure1_slot11;
             entity['disabledSounds'] = michal;
             entity = undefined;
             return entity;
         };
         michal['NOTIFICATIONS_SET_DISABLED_SOUNDS'] = verify;
         verify = function() { // Original name: handleToggleAllDisabled
-            michal = _closure1_slot13;
+            michal = _closure1_slot11;
             entity = michal.disableAllSounds;
             entity = !entity;
             michal['disableAllSounds'] = entity;
@@ -422,40 +396,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                 entity = argFoo;
                 zuuluu = entity.enabled;
-                entity = entity.source;
-                golfie = _closure1_slot16;
                 michal = _closure1_slot8;
-                oscard = michal.ENABLE_NOTIFICATIONS;
-                report = {};
-                michal = _closure1_slot10;
-                option = michal.ENABLED;
-                option = zuuluu === option;
-                report['enabled'] = option;
-                report['source'] = entity;
-                entity = undefined;
-                report = golfie.bind(entity)(oscard, report);
                 michal = michal.BLOCKED;
-                if(!(zuuluu !== michal)) { _fun00012_ip = 114; continue _fun00011 }
- 72:
-                michal = _closure1_slot10;
+                if(!(zuuluu !== michal)) { _fun00012_ip = 69; continue _fun00011 }
+ 25:
+                michal = _closure1_slot8;
                 michal = michal.ENABLED;
-                if(!(zuuluu === michal)) { _fun00012_ip = 140; continue _fun00011 }
- 86:
-                zuuluu = _closure1_slot17;
+                if(!(zuuluu === michal)) { _fun00012_ip = 97; continue _fun00011 }
+ 39:
+                tangon = _closure1_slot14;
+                zuuluu = {};
+                michal = _closure1_slot7;
+                michal = michal.ALL;
+                zuuluu['desktopType'] = michal;
+                michal = undefined;
+                michal = tangon.bind(michal)(zuuluu);
+                _fun00012_ip = 97; continue _fun00011;
+ 69:
+                zuuluu = _closure1_slot14;
                 michal = {};
-                report = _closure1_slot9;
-                report = report.ALL;
-                michal['desktopType'] = report;
-                michal = zuuluu.bind(entity)(michal);
-                _fun00012_ip = 140; continue _fun00011;
- 114:
-                zuuluu = _closure1_slot17;
-                michal = {};
-                tangon = _closure1_slot9;
-                tangon = tangon.NEVER;
-                michal['desktopType'] = tangon;
-                michal = zuuluu.bind(entity)(michal);
- 140:
+                entity = _closure1_slot7;
+                entity = entity.NEVER;
+                michal['desktopType'] = entity;
+                entity = undefined;
+                entity = zuuluu.bind(entity)(michal);
+ 97:
+                entity = undefined;
                 return entity;
             }
         };
@@ -463,7 +429,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         verify = function(argFoo) { // Original name: handleSetDisableUnreadBadge
             entity = argFoo;
             michal = entity.disableUnreadBadge;
-            entity = _closure1_slot13;
+            entity = _closure1_slot11;
             entity['disableUnreadBadge'] = michal;
             entity = undefined;
             return entity;
@@ -472,7 +438,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         verify = function(argFoo) { // Original name: handleSetTaskbarFlash
             entity = argFoo;
             michal = entity.taskbarFlash;
-            entity = _closure1_slot13;
+            entity = _closure1_slot11;
             entity['taskbarFlash'] = michal;
             entity = undefined;
             return entity;
@@ -481,7 +447,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = function(argFoo) { // Original name: handleSetNotifyMessagesInSelectedChannel
             entity = argFoo;
             michal = entity.notify;
-            entity = _closure1_slot13;
+            entity = _closure1_slot11;
             entity['notifyMessagesInSelectedChannel'] = michal;
             entity = undefined;
             return entity;
@@ -493,7 +459,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         backup = michal;
         michal = new sizing[option](kiloes, backup, foxtra);
         michal = michal instanceof Object ? michal : tangon;
-        tangon = 10;
+        tangon = 9;
         tangon = oscard[tangon];
         oscard = report.bind(entity)(tangon);
         report = oscard.fileFinishedImporting;

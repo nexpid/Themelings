@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     oscard = 'potential_explicit_content';
     report['POTENTIAL_EXPLICIT_CONTENT'] = oscard;
     var _closure1_slot9 = report;
-    oscard = 14;
+    oscard = 13;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
     golfie = option.fileFinishedImporting;
@@ -450,22 +450,38 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     };
     zuuluu['useShouldObscure'] = tangon;
     michal = function(argFoo) {
-        report = _closure1_slot0;
-        tangon = _closure1_slot2;
-        zuuluu = 12;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.match;
-        zuuluu = argFoo;
-        oscard = tangon.bind(report)(zuuluu);
-        report = oscard.with;
-        zuuluu = _closure1_slot9;
-        tangon = zuuluu.EXPLICIT_CONTENT;
-        zuuluu = function() {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+ 0:
+            zuuluu = argFoo;
+            michal = _closure1_slot9;
+            michal = michal.EXPLICIT_CONTENT;
+            if(!(michal !== zuuluu)) { _fun00012_ip = 99; continue _fun00011 }
+ 20:
+            michal = _closure1_slot9;
+            michal = michal.SPOILER;
+            if(!(michal !== zuuluu)) { _fun00012_ip = 38; continue _fun00011 }
+ 34:
+            michal = undefined;
+            return michal;
+ 38:
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot2;
+            michal = 12;
+            zuuluu = golfie[michal];
+            report = undefined;
+            zuuluu = oscard.bind(report)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = golfie[michal];
+            michal = oscard.bind(report)(michal);
+            michal = michal.t;
+            michal = michal.XpfDHx;
+            michal = zuuluu.bind(tangon)(michal);
+            return michal;
+ 99:
             report = _closure1_slot0;
             oscard = _closure1_slot2;
-            entity = 13;
+            entity = 12;
             michal = oscard[entity];
             tangon = undefined;
             michal = report.bind(tangon)(michal);
@@ -477,35 +493,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity = entity.SEgHFh;
             entity = michal.bind(zuuluu)(entity);
             return entity;
-        };
-        report = report.bind(oscard)(tangon, zuuluu);
-        tangon = report.with;
-        michal = _closure1_slot9;
-        zuuluu = michal.SPOILER;
-        michal = function() {
-            report = _closure1_slot0;
-            oscard = _closure1_slot2;
-            entity = 13;
-            michal = oscard[entity];
-            tangon = undefined;
-            michal = report.bind(tangon)(michal);
-            zuuluu = michal.intl;
-            michal = zuuluu.string;
-            entity = oscard[entity];
-            entity = report.bind(tangon)(entity);
-            entity = entity.t;
-            entity = entity.XpfDHx;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
-        };
-        zuuluu = tangon.bind(report)(zuuluu, michal);
-        michal = zuuluu.otherwise;
-        entity = function() {
-            entity = undefined;
-            return entity;
-        };
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        }
     };
     zuuluu['getObscuredAlt'] = michal;
     return entity;

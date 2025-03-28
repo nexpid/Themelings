@@ -291,14 +291,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie.bind(option)(oscard);
             michal['confirmText'] = oscard;
             report = function() { // Original name: onConfirm
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot2;
+                zuuluu = _closure1_slot1;
+                michal = _closure1_slot2;
                 entity = 9;
-                zuuluu = zuuluu[entity];
+                michal = michal[entity];
                 entity = undefined;
-                zuuluu = tangon.bind(entity)(zuuluu);
-                michal = _closure1_slot6;
-                michal = michal.ONLINE;
+                zuuluu = zuuluu.bind(entity)(michal);
+                michal = {};
+                tangon = _closure1_slot6;
+                tangon = tangon.ONLINE;
+                michal['nextStatus'] = tangon;
                 michal = zuuluu.bind(entity)(michal);
                 return entity;
             };

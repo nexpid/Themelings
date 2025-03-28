@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = 9;
             report = backup[report];
             golfie = verify.bind(tangon)(report);
-            report = {'hasConfetti': true, 'quest': null, 'size': 'md'};
+            report = {'hasConfetti': true, 'quest': null, 'size': 'md-lg'};
             report['quest'] = source;
             sizing = sizing.percentComplete;
             report['progress'] = sizing;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = backup[verify];
             option = offset.bind(tangon)(option);
             kiloes = option.Text;
-            option = {'variant': 'heading-md/medium', 'color': 'text-primary'};
+            option = {'variant': 'heading-lg/semibold', 'color': 'text-primary'};
             output = 11;
             sizing = backup[output];
             sizing = offset.bind(tangon)(sizing);

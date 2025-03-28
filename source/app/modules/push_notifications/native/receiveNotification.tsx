@@ -1077,58 +1077,81 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = function() {
                         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-                            report = _closure1_slot0;
-                            oscard = _closure1_slot3;
+                            oscard = _closure1_slot0;
+                            golfie = _closure1_slot3;
                             entity = 34;
-                            michal = oscard[entity];
+                            michal = golfie[entity];
                             entity = undefined;
-                            verify = report.bind(entity)(michal);
-                            option = verify.transitionToChannel;
-                            tangon = _closure2_slot0;
-                            golfie = tangon.channel_id;
-                            golfie = option.bind(verify)(golfie);
-                            option = _closure1_slot1;
-                            golfie = 42;
-                            golfie = oscard[golfie];
-                            verify = option.bind(entity)(golfie);
+                            option = oscard.bind(entity)(michal);
+                            report = option.transitionToChannel;
+                            romeon = _closure2_slot0;
+                            tangon = romeon.channel_id;
+                            tangon = report.bind(option)(tangon);
+                            foxtra = _closure1_slot1;
+                            tangon = 42;
+                            tangon = golfie[tangon];
+                            verify = foxtra.bind(entity)(tangon);
                             option = verify.call;
-                            golfie = tangon.channel_id;
+                            report = romeon.channel_id;
                             tangon = false;
-                            tangon = option.bind(verify)(golfie, tangon, tangon);
-                            tangon = 43;
-                            tangon = oscard[tangon];
-                            report = report.bind(entity)(tangon);
-                            tangon = report.isAndroid;
-                            tangon = tangon.bind(report)();
-                            if(!tangon) { _fun00016_ip = 254; continue _fun00015 }
- 110:
-                            tangon = _closure2_slot0;
-                            tangon = tangon.is_fullscreen_call_ui;
-                            if(!tangon) { _fun00016_ip = 220; continue _fun00015 }
- 125:
-                            report = _closure1_slot1;
-                            offset = _closure1_slot3;
+                            tangon = option.bind(verify)(report, tangon, tangon);
                             tangon = 31;
-                            tangon = offset[tangon];
+                            report = golfie[tangon];
+                            yankee = foxtra.bind(entity)(report);
+                            verify = yankee.track;
+                            report = _closure1_slot9;
+                            option = report.RING_CALL_ACCEPTED;
+                            report = {};
+                            offset = 40;
+                            offset = golfie[offset];
+                            offset = foxtra.bind(entity)(offset);
+                            offset = offset.PUSH_NOTIFICATION;
+                            report['location'] = offset;
+                            offset = romeon.guild_id;
+                            report['guild_id'] = offset;
+                            offset = romeon.user_id;
+                            report['ringer_user_id'] = offset;
+                            offset = 43;
+                            foxtra = golfie[offset];
+                            backup = oscard.bind(entity)(foxtra);
+                            foxtra = backup.collectChannelAnalyticsMetadataFromId;
+                            romeon = romeon.channel_id;
+                            sizing = foxtra.bind(backup)(romeon);
+                            output = report;
+                            romeon = copyDataProperties(output, sizing);
+                            report = verify.bind(yankee)(option, report);
+                            report = 44;
+                            report = golfie[report];
+                            oscard = oscard.bind(entity)(report);
+                            report = oscard.isAndroid;
+                            report = report.bind(oscard)();
+                            if(!report) { _fun00016_ip = 360; continue _fun00015 }
+ 222:
+                            report = _closure2_slot0;
+                            report = report.is_fullscreen_call_ui;
+                            if(!report) { _fun00016_ip = 326; continue _fun00015 }
+ 237:
+                            report = _closure1_slot1;
+                            option = _closure1_slot3;
+                            tangon = option[tangon];
                             golfie = report.bind(entity)(tangon);
                             oscard = golfie.track;
                             tangon = _closure1_slot9;
                             report = tangon.CALLKIT_CLICKED;
                             tangon = {};
-                            option = 'join';
-                            tangon['action_type'] = option;
+                            verify = 'join';
+                            tangon['action_type'] = verify;
                             verify = _closure1_slot0;
-                            option = 44;
-                            option = offset[option];
+                            option = option[offset];
                             offset = verify.bind(entity)(option);
                             verify = offset.collectChannelAnalyticsMetadataFromId;
                             option = _closure2_slot0;
                             option = option.channel_id;
-                            romeon = verify.bind(offset)(option);
-                            foxtra = tangon;
-                            option = copyDataProperties(foxtra, romeon);
+                            sizing = verify.bind(offset)(option);
+                            output = tangon;
+                            option = copyDataProperties(output, sizing);
                             tangon = oscard.bind(golfie)(report, tangon);
- 220:
+ 326:
                             tangon = _closure1_slot1;
                             report = _closure1_slot3;
                             zuuluu = 45;
@@ -1137,7 +1160,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             michal = _closure2_slot0;
                             michal = michal.channel_id;
                             michal = zuuluu.bind(entity)(michal);
- 254:
+ 360:
                             return entity;
                         }
                     };

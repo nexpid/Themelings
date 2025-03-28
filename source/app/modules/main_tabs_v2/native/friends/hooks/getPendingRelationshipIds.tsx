@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/main_tabs_v2/native/friends/hooks/getPendingRelationshipIds.tsx';
     tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: getPendingRelationshipIds
+    michal = function() { // Original name: getPendingRelationshipIds
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = arguments[0];
@@ -151,96 +151,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['getPendingRelationshipIds'] = tangon;
-    tangon = function(argFoo) { // Original name: getPendingGameRelationshipUserIds
-        tangon = argFoo;
-        entity = new Array(0);
-        var _closure2_slot0 = entity;
-        zuuluu = global;
-        zuuluu = zuuluu.Set;
-        report = zuuluu.prototype;
-        report = Object.create(report, {constructor: {value: zuuluu}});
-        golfie = report;
-        zuuluu = new golfie[zuuluu](oscard);
-        zuuluu = zuuluu instanceof Object ? zuuluu : report;
-        var _closure2_slot1 = zuuluu;
-        zuuluu = tangon.values;
-        tangon = zuuluu.bind(tangon)();
-        zuuluu = tangon.forEach;
-        michal = function(argFoo) {
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
- 0:
-                entity = argFoo;
-                zuuluu = entity.id;
-                michal = entity.type;
-                entity = _closure1_slot3;
-                entity = entity.PENDING_INCOMING;
-                entity = michal !== entity;
-                if(entity) { _fun00010_ip = 50; continue _fun00009 }
- 33:
-                tangon = _closure2_slot1;
-                michal = tangon.has;
-                entity = michal.bind(tangon)(zuuluu);
- 50:
-                if(entity) { _fun00010_ip = 84; continue _fun00009 }
- 53:
-                tangon = _closure2_slot1;
-                michal = tangon.add;
-                michal = michal.bind(tangon)(zuuluu);
-                michal = _closure2_slot0;
-                entity = michal.push;
-                entity = entity.bind(michal)(zuuluu);
- 84:
-                entity = undefined;
-                return entity;
-            }
-        };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
-    };
-    zuuluu['getPendingGameRelationshipUserIds'] = tangon;
-    michal = function(argFoo) { // Original name: getPendingGameRelationships
-        report = argFoo;
-        zuuluu = new Array(0);
-        var _closure2_slot0 = zuuluu;
-        michal = new Array(0);
-        var _closure2_slot1 = michal;
-        tangon = report.values;
-        report = tangon.bind(report)();
-        tangon = report.forEach;
-        entity = function(argFoo) {
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
- 0:
-                zuuluu = argFoo;
-                tangon = zuuluu.type;
-                michal = _closure1_slot3;
-                michal = michal.PENDING_INCOMING;
-                if(!(tangon !== michal)) { _fun00012_ip = 63; continue _fun00011 }
- 25:
-                michal = zuuluu.type;
-                entity = _closure1_slot3;
-                entity = entity.PENDING_OUTGOING;
-                if(!(michal === entity)) { _fun00012_ip = 80; continue _fun00011 }
- 44:
-                michal = _closure2_slot1;
-                entity = michal.push;
-                entity = entity.bind(michal)(zuuluu);
-                _fun00012_ip = 80; continue _fun00011;
- 63:
-                michal = _closure2_slot0;
-                entity = michal.push;
-                entity = entity.bind(michal)(zuuluu);
- 80:
-                entity = undefined;
-                return entity;
-            }
-        };
-        entity = tangon.bind(report)(entity);
-        entity = {};
-        entity['pendingIncomingGameRelationships'] = zuuluu;
-        entity['pendingOutgoingGameRelationships'] = michal;
-        return entity;
-    };
-    zuuluu['getPendingGameRelationships'] = michal;
+    zuuluu['getPendingRelationshipIds'] = michal;
     return entity;
 })();

@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = report.bind(entity)(michal);
     michal = michal.AnalyticEvents;
     var _closure1_slot9 = michal;
-    michal = 12;
+    michal = 14;
     michal = oscard[michal];
     michal = golfie.bind(entity)(michal);
     option = michal.Store;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 var _closure1_slot11 = entity;
                 tangon = _closure1_slot0;
                 entity = _closure1_slot2;
-                report = 8;
+                report = 9;
                 zuuluu = entity[report];
                 entity = undefined;
                 zuuluu = tangon.bind(entity)(zuuluu);
@@ -194,7 +194,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  13:
                 report = _closure1_slot0;
                 tangon = _closure1_slot2;
-                zuuluu = 8;
+                zuuluu = 9;
                 tangon = tangon[zuuluu];
                 zuuluu = undefined;
                 zuuluu = report.bind(zuuluu)(tangon);
@@ -234,7 +234,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  20:
                     report = _closure1_slot1;
                     tangon = _closure1_slot2;
-                    michal = 7;
+                    michal = 8;
                     tangon = tangon[michal];
                     michal = undefined;
                     tangon = report.bind(michal)(tangon);
@@ -292,112 +292,128 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = function(argFoo) { // Original name: value
             _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-                zuuluu = this;
+                zuuluu = argFoo;
+                golfie = this;
                 michal = _closure1_slot0;
                 tangon = _closure1_slot2;
-                entity = 9;
+                entity = 7;
                 entity = tangon[entity];
-                option = undefined;
-                backup = michal.bind(option)(entity);
-                michal = _closure1_slot10;
+                tangon = undefined;
+                michal = michal.bind(tangon)(entity);
+                entity = michal.isLibdiscoreBlockedDomainsEnabled;
+                entity = entity.bind(michal)();
+                michal = _closure1_slot0;
+                report = _closure1_slot2;
+                if(entity) { _fun00012_ip = 443; continue _fun00011 }
+ 55:
+                entity = 11;
+                entity = report[entity];
+                output = michal.bind(tangon)(entity);
+                oscard = _closure1_slot10;
                 entity = null;
-                if(!(entity != michal)) { _fun00012_ip = 395; continue _fun00011 }
- 41:
-                tangon = _closure1_slot0;
-                oscard = _closure1_slot2;
-                michal = 10;
-                michal = oscard[michal];
-                oscard = tangon.bind(option)(michal);
-                tangon = oscard.getHostname;
-                michal = argFoo;
-                golfie = tangon.bind(oscard)(michal);
-                michal = backup.hash;
-                michal = michal.sha256;
-                tangon = michal.prototype;
-                tangon = Object.create(tangon, {constructor: {value: michal}});
-                ctrled = tangon;
-                michal = new ctrled[michal](source);
-                foxtra = michal instanceof Object ? michal : tangon;
-                michal = backup.codec;
-                oscard = michal.hex;
-                tangon = oscard.fromBits;
-                michal = foxtra.update;
-                verify = michal.bind(foxtra)(golfie);
-                michal = verify.finalize;
-                michal = michal.bind(verify)();
-                tangon = tangon.bind(oscard)(michal);
-                michal = _closure1_slot10;
-                michal = michal[tangon];
-                oscard = '';
-                kiloes = oscard;
-                if(!michal) { _fun00012_ip = 170; continue _fun00011 }
- 167:
-                kiloes = golfie;
- 170:
-                michal = golfie.indexOf;
-                romeon = '.';
-                michal = michal.bind(golfie)(romeon);
-                yankee = -1;
-                tangon = kiloes;
-                if(!(yankee !== michal)) { _fun00012_ip = 334; continue _fun00011 }
- 200:
-                offset = 1;
-                verify = golfie;
-                golfie = kiloes;
-                tangon = golfie;
-                if(!(oscard === tangon)) { _fun00012_ip = 334; continue _fun00011 }
- 216:
-                sizing = verify.substring;
-                kiloes = michal + offset;
-                output = sizing.bind(verify)(kiloes);
-                kiloes = foxtra.reset;
-                kiloes = kiloes.bind(foxtra)();
-                kiloes = backup.codec;
-                result = kiloes.hex;
-                sizing = result.fromBits;
-                kiloes = foxtra.update;
-                echoed = kiloes.bind(foxtra)(output);
-                kiloes = echoed.finalize;
-                kiloes = kiloes.bind(echoed)();
-                sizing = sizing.bind(result)(kiloes);
-                kiloes = _closure1_slot10;
-                kiloes = kiloes[sizing];
-                if(!kiloes) { _fun00012_ip = 298; continue _fun00011 }
- 295:
-                golfie = output;
- 298:
-                kiloes = output.indexOf;
-                sizing = kiloes.bind(output)(romeon);
-                kiloes = golfie;
-                tangon = kiloes;
-                if(!(yankee !== sizing)) { _fun00012_ip = 334; continue _fun00011 }
- 318:
-                verify = output;
-                golfie = kiloes;
-                michal = sizing;
-                tangon = golfie;
-                if(oscard === tangon) { _fun00012_ip = 216; continue _fun00011 }
+                if(!(entity != oscard)) { _fun00012_ip = 431; continue _fun00011 }
+ 80:
+                option = _closure1_slot0;
+                offset = _closure1_slot2;
+                oscard = 12;
+                oscard = offset[oscard];
+                option = option.bind(tangon)(oscard);
+                oscard = option.getHostname;
+                yankee = oscard.bind(option)(zuuluu);
+                oscard = output.hash;
+                oscard = oscard.sha256;
+                option = oscard.prototype;
+                option = Object.create(option, {constructor: {value: oscard}});
+                config = option;
+                oscard = new config[oscard](sequen);
+                sizing = oscard instanceof Object ? oscard : option;
+                oscard = output.codec;
+                offset = oscard.hex;
+                option = offset.fromBits;
+                oscard = sizing.update;
+                romeon = oscard.bind(sizing)(yankee);
+                oscard = romeon.finalize;
+                oscard = oscard.bind(romeon)();
+                option = option.bind(offset)(oscard);
+                oscard = _closure1_slot10;
+                oscard = oscard[option];
+                offset = '';
+                result = offset;
+                if(!oscard) { _fun00012_ip = 206; continue _fun00011 }
+ 203:
+                result = yankee;
+ 206:
+                oscard = yankee.indexOf;
+                kiloes = '.';
+                oscard = oscard.bind(yankee)(kiloes);
+                backup = -1;
+                option = result;
+                if(!(backup !== oscard)) { _fun00012_ip = 370; continue _fun00011 }
+ 236:
+                foxtra = 1;
+                romeon = yankee;
+                yankee = result;
+                option = yankee;
+                if(!(offset === option)) { _fun00012_ip = 370; continue _fun00011 }
+ 252:
+                echoed = romeon.substring;
+                result = oscard + foxtra;
+                update = echoed.bind(romeon)(result);
+                result = sizing.reset;
+                result = result.bind(sizing)();
+                result = output.codec;
+                source = result.hex;
+                echoed = source.fromBits;
+                result = sizing.update;
+                ctrled = result.bind(sizing)(update);
+                result = ctrled.finalize;
+                result = result.bind(ctrled)();
+                echoed = echoed.bind(source)(result);
+                result = _closure1_slot10;
+                result = result[echoed];
+                if(!result) { _fun00012_ip = 334; continue _fun00011 }
+ 331:
+                yankee = update;
  334:
-                michal = null;
-                if(!(oscard !== tangon)) { _fun00012_ip = 393; continue _fun00011 }
- 340:
-                golfie = _closure1_slot1;
-                verify = _closure1_slot2;
-                oscard = 11;
-                oscard = verify[oscard];
-                option = golfie.bind(option)(oscard);
-                golfie = option.track;
-                report = _closure1_slot9;
-                oscard = report.LINK_SECURITY_CHECK_BLOCKED;
-                report = {};
-                report['blocked_domain'] = tangon;
-                report = golfie.bind(option)(oscard, report);
-                michal = tangon;
- 393:
-                return michal;
- 395:
-                michal = zuuluu.getBlockedDomainList;
-                michal = michal.bind(zuuluu)();
+                result = update.indexOf;
+                echoed = result.bind(update)(kiloes);
+                result = yankee;
+                option = result;
+                if(!(backup !== echoed)) { _fun00012_ip = 370; continue _fun00011 }
+ 354:
+                romeon = update;
+                yankee = result;
+                oscard = echoed;
+                option = yankee;
+                if(offset === option) { _fun00012_ip = 252; continue _fun00011 }
+ 370:
+                oscard = null;
+                if(!(offset !== option)) { _fun00012_ip = 429; continue _fun00011 }
+ 376:
+                yankee = _closure1_slot1;
+                romeon = _closure1_slot2;
+                offset = 13;
+                offset = romeon[offset];
+                romeon = yankee.bind(tangon)(offset);
+                yankee = romeon.track;
+                verify = _closure1_slot9;
+                offset = verify.LINK_SECURITY_CHECK_BLOCKED;
+                verify = {};
+                verify['blocked_domain'] = option;
+                verify = yankee.bind(romeon)(offset, verify);
+                oscard = option;
+ 429:
+                return oscard;
+ 431:
+                oscard = golfie.getBlockedDomainList;
+                oscard = oscard.bind(golfie)();
+                return entity;
+ 443:
+                entity = 10;
+                entity = report[entity];
+                michal = michal.bind(tangon)(entity);
+                entity = michal.isBlockedDomain;
+                entity = entity.bind(michal)(zuuluu);
                 return entity;
             }
         };
@@ -409,7 +425,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = michal.bind(entity)(option);
     michal = 'BlockedDomainStore';
     option['displayName'] = michal;
-    michal = 13;
+    michal = 15;
     michal = oscard[michal];
     romeon = golfie.bind(entity)(michal);
     michal = {};
@@ -419,39 +435,49 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argFoo;
             golfie = entity.list;
             report = entity.revision;
-            entity = null;
-            _closure1_slot11 = entity;
-            entity = {};
-            _closure1_slot10 = entity;
-            entity = golfie.length;
-            tangon = 0;
-            entity = tangon < entity;
-            zuuluu = true;
-            if(!entity) { _fun00014_ip = 70; continue _fun00013 }
- 46:
-            oscard = _closure1_slot10;
-            entity = golfie[tangon];
-            oscard[entity] = zuuluu;
-            tangon = tangon + 1;
-            entity = golfie.length;
-            if(tangon < entity) { _fun00014_ip = 46; continue _fun00013 }
- 70:
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            entity = 7;
+            zuuluu = zuuluu[entity];
+            entity = undefined;
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.isLibdiscoreBlockedDomainsEnabled;
+            zuuluu = zuuluu.bind(tangon)();
+            if(zuuluu) { _fun00014_ip = 178; continue _fun00013 }
+ 56:
+            zuuluu = null;
+            _closure1_slot11 = zuuluu;
+            zuuluu = {};
+            _closure1_slot10 = zuuluu;
+            zuuluu = golfie.length;
+            oscard = 0;
+            zuuluu = oscard < zuuluu;
+            tangon = true;
+            if(!zuuluu) { _fun00014_ip = 108; continue _fun00013 }
+ 84:
+            option = _closure1_slot10;
+            zuuluu = golfie[oscard];
+            option[zuuluu] = tangon;
+            oscard = oscard + 1;
+            zuuluu = golfie.length;
+            if(oscard < zuuluu) { _fun00014_ip = 84; continue _fun00013 }
+ 108:
             oscard = _closure1_slot1;
             tangon = _closure1_slot2;
-            entity = 7;
-            zuuluu = tangon[entity];
-            entity = undefined;
+            zuuluu = 8;
+            zuuluu = tangon[zuuluu];
             oscard = oscard.bind(entity)(zuuluu);
             zuuluu = oscard.saveBlockedDomains;
             zuuluu = zuuluu.bind(oscard)(golfie);
             zuuluu = _closure1_slot0;
-            michal = 8;
+            michal = 9;
             michal = tangon[michal];
             michal = zuuluu.bind(entity)(michal);
             tangon = michal.Storage;
             zuuluu = tangon.set;
             michal = 'BlockedDomainRevision';
             michal = zuuluu.bind(tangon)(michal, report);
+ 178:
             return entity;
         }
     };
@@ -462,7 +488,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     yankee = michal;
     michal = new foxtra[option](romeon, yankee, offset);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 14;
+    tangon = 16;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

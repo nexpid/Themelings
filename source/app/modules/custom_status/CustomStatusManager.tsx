@@ -219,19 +219,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = tangon.Date;
                     option = tangon.Number;
                     oscard = oscard.expiresAtMs;
-                    sizing = option.bind(entity)(oscard);
+                    backup = option.bind(entity)(oscard);
                     option = verify.prototype;
                     option = Object.create(option, {constructor: {value: verify}});
-                    output = option;
-                    oscard = new output[verify](sizing, kiloes);
+                    kiloes = option;
+                    oscard = new kiloes[verify](backup, foxtra);
                     option = oscard instanceof Object ? oscard : option;
                     oscard = option.getTime;
                     oscard = oscard.bind(option)();
                     tangon = tangon.Date;
                     option = tangon.prototype;
                     option = Object.create(option, {constructor: {value: tangon}});
-                    output = option;
-                    tangon = new output[tangon](sizing);
+                    kiloes = option;
+                    tangon = new kiloes[tangon](backup);
                     option = tangon instanceof Object ? tangon : option;
                     tangon = option.getTime;
                     tangon = tangon.bind(option)();
@@ -293,61 +293,62 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     if(!(oscard === tangon)) { _fun00006_ip = 405; continue _fun00005 }
  375:
                     tangon = _closure1_slot11;
-                    if(!(report != tangon)) { _fun00006_ip = 619; continue _fun00005 }
+                    if(!(report != tangon)) { _fun00006_ip = 630; continue _fun00005 }
  386:
                     oscard = _closure1_slot11;
                     tangon = oscard.stop;
                     tangon = tangon.bind(oscard)();
-                    _fun00006_ip = 619; continue _fun00005;
+                    _fun00006_ip = 630; continue _fun00005;
  405:
                     tangon = global;
                     verify = tangon.Date;
                     oscard = tangon.Number;
-                    sizing = oscard.bind(entity)(option);
+                    backup = oscard.bind(entity)(option);
                     option = verify.prototype;
                     option = Object.create(option, {constructor: {value: verify}});
-                    output = option;
-                    oscard = new output[verify](sizing, kiloes);
+                    kiloes = option;
+                    oscard = new kiloes[verify](backup, foxtra);
                     option = oscard instanceof Object ? oscard : option;
                     oscard = option.getTime;
                     oscard = oscard.bind(option)();
                     tangon = tangon.Date;
                     option = tangon.prototype;
                     option = Object.create(option, {constructor: {value: tangon}});
-                    output = option;
-                    tangon = new output[tangon](sizing);
+                    kiloes = option;
+                    tangon = new kiloes[tangon](backup);
                     option = tangon instanceof Object ? tangon : option;
                     tangon = option.getTime;
                     tangon = tangon.bind(option)();
                     offset = oscard - tangon;
                     tangon = 0;
-                    if(!(!(offset > tangon))) { _fun00006_ip = 594; continue _fun00005 }
+                    if(!(!(offset > tangon))) { _fun00006_ip = 605; continue _fun00005 }
  500:
                     oscard = _closure1_slot1;
                     option = _closure1_slot2;
                     tangon = 9;
                     tangon = option[tangon];
-                    verify = oscard.bind(entity)(tangon);
-                    tangon = _closure1_slot10;
-                    sizing = tangon.ONLINE;
-                    oscard = _closure1_slot8;
-                    tangon = oscard.getStatus;
-                    kiloes = tangon.bind(oscard)();
+                    oscard = oscard.bind(entity)(tangon);
                     tangon = {};
-                    yankee = {};
-                    romeon = _closure1_slot9;
-                    romeon = romeon.CUSTOM_STATUS_MANAGER;
-                    yankee['object'] = romeon;
-                    tangon['location'] = yankee;
-                    output = undefined;
-                    backup = tangon;
-                    foxtra = undefined;
-                    tangon = output[verify](sizing, kiloes, backup, foxtra, romeon);
+                    option = _closure1_slot10;
+                    option = option.ONLINE;
+                    tangon['nextStatus'] = option;
+                    verify = _closure1_slot8;
+                    option = verify.getStatus;
+                    option = option.bind(verify)();
+                    tangon['prevStatus'] = option;
+                    option = {};
+                    verify = {};
+                    yankee = _closure1_slot9;
+                    yankee = yankee.CUSTOM_STATUS_MANAGER;
+                    verify['object'] = yankee;
+                    option['location'] = verify;
+                    tangon['analyticsContext'] = option;
+                    tangon = oscard.bind(entity)(tangon);
                     oscard = _closure1_slot11;
                     tangon = oscard.stop;
                     tangon = tangon.bind(oscard)();
-                    _fun00006_ip = 619; continue _fun00005;
- 594:
+                    _fun00006_ip = 630; continue _fun00005;
+ 605:
                     verify = _closure1_slot11;
                     option = verify.start;
                     oscard = function() {
@@ -356,27 +357,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         entity = 9;
                         michal = michal[entity];
                         entity = undefined;
-                        report = zuuluu.bind(entity)(michal);
-                        michal = _closure1_slot10;
-                        yankee = michal.ONLINE;
-                        zuuluu = _closure1_slot8;
-                        michal = zuuluu.getStatus;
-                        offset = michal.bind(zuuluu)();
+                        zuuluu = zuuluu.bind(entity)(michal);
                         michal = {};
-                        oscard = {};
-                        golfie = _closure1_slot9;
-                        golfie = golfie.CUSTOM_STATUS_MANAGER;
-                        oscard['object'] = golfie;
-                        michal['location'] = oscard;
-                        romeon = undefined;
-                        verify = michal;
-                        option = undefined;
-                        michal = romeon[report](yankee, offset, verify, option, golfie);
+                        tangon = _closure1_slot10;
+                        tangon = tangon.ONLINE;
+                        michal['nextStatus'] = tangon;
+                        report = _closure1_slot8;
+                        tangon = report.getStatus;
+                        tangon = tangon.bind(report)();
+                        michal['prevStatus'] = tangon;
+                        tangon = {};
+                        report = {};
+                        oscard = _closure1_slot9;
+                        oscard = oscard.CUSTOM_STATUS_MANAGER;
+                        report['object'] = oscard;
+                        tangon['location'] = report;
+                        michal['analyticsContext'] = tangon;
+                        michal = zuuluu.bind(entity)(michal);
                         return entity;
                     };
                     tangon = true;
                     tangon = option.bind(verify)(offset, oscard, tangon);
- 619:
+ 630:
                     oscard = _closure1_slot0;
                     tangon = _closure1_slot2;
                     tangon = tangon[golfie];
@@ -384,42 +386,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = tangon.FocusModeExpiresAtSetting;
                     tangon = oscard.getSetting;
                     oscard = tangon.bind(oscard)();
-                    if(!(report != oscard)) { _fun00006_ip = 666; continue _fun00005 }
- 656:
+                    if(!(report != oscard)) { _fun00006_ip = 677; continue _fun00005 }
+ 667:
                     tangon = '0';
-                    if(!(tangon === oscard)) { _fun00006_ip = 696; continue _fun00005 }
- 666:
-                    tangon = _closure1_slot12;
-                    if(!(report != tangon)) { _fun00006_ip = 865; continue _fun00005 }
+                    if(!(tangon === oscard)) { _fun00006_ip = 707; continue _fun00005 }
  677:
+                    tangon = _closure1_slot12;
+                    if(!(report != tangon)) { _fun00006_ip = 876; continue _fun00005 }
+ 688:
                     report = _closure1_slot12;
                     tangon = report.stop;
                     tangon = tangon.bind(report)();
-                    _fun00006_ip = 865; continue _fun00005;
- 696:
+                    _fun00006_ip = 876; continue _fun00005;
+ 707:
                     tangon = global;
                     golfie = tangon.Date;
                     report = tangon.Number;
-                    sizing = report.bind(entity)(oscard);
+                    backup = report.bind(entity)(oscard);
                     oscard = golfie.prototype;
                     oscard = Object.create(oscard, {constructor: {value: golfie}});
-                    output = oscard;
-                    report = new output[golfie](sizing, kiloes);
+                    kiloes = oscard;
+                    report = new kiloes[golfie](backup, foxtra);
                     oscard = report instanceof Object ? report : oscard;
                     report = oscard.getTime;
                     report = report.bind(oscard)();
                     tangon = tangon.Date;
                     oscard = tangon.prototype;
                     oscard = Object.create(oscard, {constructor: {value: tangon}});
-                    output = oscard;
-                    tangon = new output[tangon](sizing);
+                    kiloes = oscard;
+                    tangon = new kiloes[tangon](backup);
                     oscard = tangon instanceof Object ? tangon : oscard;
                     tangon = oscard.getTime;
                     tangon = tangon.bind(oscard)();
                     oscard = report - tangon;
                     tangon = 0;
-                    if(!(!(oscard > tangon))) { _fun00006_ip = 840; continue _fun00005 }
- 791:
+                    if(!(!(oscard > tangon))) { _fun00006_ip = 851; continue _fun00005 }
+ 802:
                     report = _closure1_slot0;
                     golfie = _closure1_slot2;
                     tangon = 10;
@@ -431,8 +433,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = _closure1_slot12;
                     tangon = report.stop;
                     tangon = tangon.bind(report)();
-                    _fun00006_ip = 865; continue _fun00005;
- 840:
+                    _fun00006_ip = 876; continue _fun00005;
+ 851:
                     report = _closure1_slot12;
                     tangon = report.start;
                     zuuluu = function() {
@@ -449,7 +451,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     michal = true;
                     michal = tangon.bind(report)(oscard, zuuluu, michal);
- 865:
+ 876:
                     return entity;
                 }
             };

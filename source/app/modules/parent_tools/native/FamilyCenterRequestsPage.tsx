@@ -178,86 +178,65 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     golfie = function() { // Original name: FamilyCenterHelpLineInfo
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            michal = _closure1_slot10;
+            entity = _closure1_slot10;
             report = undefined;
-            foxtra = michal.bind(report)();
+            foxtra = entity.bind(report)();
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
-            michal = 13;
-            oscard = tangon[michal];
-            option = zuuluu.bind(report)(oscard);
-            oscard = option.useShouldShowHelplineLink;
-            option = oscard.bind(option)();
-            michal = tangon[michal];
+            entity = 13;
+            michal = tangon[entity];
             oscard = zuuluu.bind(report)(michal);
-            michal = oscard.useShouldShowThroughlineLink;
-            oscard = michal.bind(oscard)();
-            michal = 14;
-            michal = tangon[michal];
-            tangon = zuuluu.bind(report)(michal);
-            zuuluu = tangon.match;
-            michal = {};
-            michal['helpline'] = option;
-            michal['throughline'] = oscard;
-            option = zuuluu.bind(tangon)(michal);
-            oscard = option.with;
-            tangon = {};
-            michal = true;
-            tangon['helpline'] = michal;
-            zuuluu = function() {
-                zuuluu = _closure1_slot0;
-                oscard = _closure1_slot2;
-                michal = 10;
-                michal = oscard[michal];
-                report = undefined;
-                michal = zuuluu.bind(report)(michal);
-                tangon = michal.intl;
-                zuuluu = tangon.format;
-                michal = _closure1_slot1;
-                entity = 11;
-                entity = oscard[entity];
-                entity = michal.bind(report)(entity);
-                michal = entity.KOwsf3;
-                entity = {};
-                report = 'https://support.discord.com/hc/articles/7925648993943-Crisis-Text-Line';
-                entity['helpLink'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
-            };
-            oscard = oscard.bind(option)(tangon, zuuluu);
-            tangon = oscard.with;
-            zuuluu = {};
-            zuuluu['throughline'] = michal;
-            michal = function() {
-                michal = _closure1_slot0;
-                golfie = _closure1_slot2;
-                entity = 10;
-                entity = golfie[entity];
-                oscard = undefined;
-                entity = michal.bind(oscard)(entity);
-                tangon = entity.intl;
-                zuuluu = tangon.format;
-                michal = _closure1_slot1;
-                entity = 11;
-                entity = golfie[entity];
-                entity = michal.bind(oscard)(entity);
-                michal = entity.6tsC8v;
-                entity = {};
-                report = _closure1_slot6;
-                entity['helpLink'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
-            };
-            zuuluu = tangon.bind(oscard)(zuuluu, michal);
-            michal = zuuluu.otherwise;
-            entity = function() {
-                entity = null;
-                return entity;
-            };
-            offset = michal.bind(zuuluu)(entity);
+            michal = oscard.useShouldShowHelplineLink;
+            michal = michal.bind(oscard)();
+            entity = tangon[entity];
+            zuuluu = zuuluu.bind(report)(entity);
+            entity = zuuluu.useShouldShowThroughlineLink;
+            entity = entity.bind(zuuluu)();
+            if(michal) { _fun00004_ip = 143; continue _fun00003 }
+ 65:
+            offset = null;
+            if(!entity) { _fun00004_ip = 141; continue _fun00003 }
+ 70:
+            michal = _closure1_slot0;
+            oscard = _closure1_slot2;
+            entity = 10;
+            entity = oscard[entity];
+            entity = michal.bind(report)(entity);
+            tangon = entity.intl;
+            zuuluu = tangon.format;
+            michal = _closure1_slot1;
+            entity = 11;
+            entity = oscard[entity];
+            entity = michal.bind(report)(entity);
+            michal = entity.6tsC8v;
+            entity = {};
+            oscard = _closure1_slot6;
+            entity['helpLink'] = oscard;
+            offset = zuuluu.bind(tangon)(michal, entity);
+ 141:
+            _fun00004_ip = 216; continue _fun00003;
+ 143:
+            michal = _closure1_slot0;
+            oscard = _closure1_slot2;
+            entity = 10;
+            entity = oscard[entity];
+            entity = michal.bind(report)(entity);
+            tangon = entity.intl;
+            zuuluu = tangon.format;
+            michal = _closure1_slot1;
+            entity = 11;
+            entity = oscard[entity];
+            entity = michal.bind(report)(entity);
+            michal = entity.KOwsf3;
+            entity = {};
+            oscard = 'https://support.discord.com/hc/articles/7925648993943-Crisis-Text-Line';
+            entity['helpLink'] = oscard;
+            offset = zuuluu.bind(tangon)(michal, entity);
+ 216:
             entity = null;
-            if(!(entity !== offset)) { _fun00004_ip = 379; continue _fun00003 }
- 180:
+            michal = entity == offset;
+            if(michal) { _fun00004_ip = 427; continue _fun00003 }
+ 228:
             tangon = _closure1_slot8;
             zuuluu = _closure1_slot3;
             michal = {};
@@ -291,7 +270,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             oscard = new Array(2);
             oscard[0] = verify;
             verify = _closure1_slot7;
-            golfie = 15;
+            golfie = 14;
             golfie = yankee[golfie];
             golfie = option.bind(report)(golfie);
             option = golfie.TextWithIOSLinkWorkaround;
@@ -301,7 +280,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 379:
+ 427:
             return entity;
         }
     };
@@ -319,7 +298,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     tangon['container'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot12 = tangon;
-    tangon = 19;
+    tangon = 18;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -337,7 +316,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         verify = _closure1_slot7;
         option = _closure1_slot1;
         offset = _closure1_slot2;
-        report = 16;
+        report = 15;
         report = offset[report];
         golfie = option.bind(tangon)(report);
         report = {};
@@ -345,14 +324,14 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         report = new Array(5);
         report[0] = golfie;
         yankee = _closure1_slot7;
-        golfie = 17;
+        golfie = 16;
         golfie = offset[golfie];
         verify = option.bind(tangon)(golfie);
         golfie = {};
         golfie = yankee.bind(tangon)(verify, golfie);
         report[1] = golfie;
         verify = _closure1_slot7;
-        golfie = 18;
+        golfie = 17;
         golfie = offset[golfie];
         option = option.bind(tangon)(golfie);
         golfie = {};

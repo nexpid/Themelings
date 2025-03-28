@@ -14,7 +14,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argBar;
             verify = michal.bind(zuuluu)(entity);
             michal = _closure1_slot2;
-            entity = _closure1_slot15;
+            entity = _closure1_slot16;
             entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot15 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -71,19 +71,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot15 = michal;
+            _closure1_slot16 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot15 = entity;
+    var _closure1_slot16 = entity;
     entity = function() { // Original name: recountRelationshipTypes
         michal = 0;
         var _closure2_slot0 = michal;
         var _closure2_slot1 = michal;
         var _closure2_slot2 = michal;
-        tangon = _closure1_slot10;
+        tangon = _closure1_slot11;
         zuuluu = tangon.values;
         report = zuuluu.bind(tangon)();
         tangon = report.forEach;
@@ -141,18 +141,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         zuuluu = tangon.bind(report)(zuuluu);
         zuuluu = _closure2_slot0;
-        _closure1_slot11 = zuuluu;
-        zuuluu = _closure2_slot1;
         _closure1_slot12 = zuuluu;
+        zuuluu = _closure2_slot1;
+        _closure1_slot13 = zuuluu;
         entity = _closure2_slot2;
-        _closure1_slot13 = entity;
+        _closure1_slot14 = entity;
         entity = undefined;
         return entity;
     };
-    var _closure1_slot16 = entity;
+    var _closure1_slot17 = entity;
     entity = function(argFoo) { // Original name: upsert
         report = argFoo;
-        tangon = _closure1_slot10;
+        tangon = _closure1_slot11;
         zuuluu = tangon.set;
         golfie = _closure1_slot7;
         oscard = report.id;
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = zuuluu.bind(tangon)(michal, report);
         return entity;
     };
-    var _closure1_slot17 = entity;
+    var _closure1_slot18 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = global;
         entity = entity.HermesInternal;
         zuuluu = entity.concat;
-        michal = 'app-id-';
+        michal = 'application-id-';
         entity = argFoo;
         entity = zuuluu.bind(michal)(entity);
         return entity;
@@ -233,6 +233,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot9 = option;
+    option = function(argFoo) { // Original name: GameRelationshipIndexes_BY_RELATIONSHIP_TYPE
+        entity = global;
+        entity = entity.HermesInternal;
+        zuuluu = entity.concat;
+        michal = 'relationship-type-';
+        entity = argFoo;
+        entity = zuuluu.bind(michal)(entity);
+        return entity;
+    };
+    var _closure1_slot10 = option;
     option = 7;
     option = oscard[option];
     option = report.bind(entity)(option);
@@ -248,9 +258,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = undefined;
         zuuluu = golfie.bind(report)(zuuluu);
         zuuluu = oscard.bind(entity)(zuuluu);
+        oscard = entity.push;
+        golfie = _closure1_slot9;
+        zuuluu = michal.id;
+        zuuluu = golfie.bind(report)(zuuluu);
+        zuuluu = oscard.bind(entity)(zuuluu);
         zuuluu = entity.push;
-        tangon = _closure1_slot9;
-        michal = michal.id;
+        tangon = _closure1_slot10;
+        michal = michal.type;
         michal = tangon.bind(report)(michal);
         michal = zuuluu.bind(entity)(michal);
         return entity;
@@ -268,10 +283,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     kiloes = verify;
     option = new kiloes[yankee](backup, foxtra, romeon);
     option = option instanceof Object ? option : verify;
-    var _closure1_slot10 = option;
-    var _closure1_slot11 = michal;
+    var _closure1_slot11 = option;
     var _closure1_slot12 = michal;
     var _closure1_slot13 = michal;
+    var _closure1_slot14 = michal;
     michal = 8;
     michal = oscard[michal];
     michal = golfie.bind(entity)(michal);
@@ -284,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = _closure1_slot0;
             zuuluu = _closure2_slot0;
             oscard = oscard.bind(tangon)(report, zuuluu);
-            michal = _closure1_slot14;
+            michal = _closure1_slot15;
             entity = arguments;
             entity = michal.bind(tangon)(report, zuuluu, entity);
             return entity;
@@ -307,13 +322,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(11);
+        entity = new Array(12);
         entity[0] = report;
         report = {};
         golfie = 'getPendingIncomingCount';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot11;
+            entity = _closure1_slot12;
             return entity;
         };
         report['value'] = golfie;
@@ -322,7 +337,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getPendingOutgoingCount';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot12;
+            entity = _closure1_slot13;
             return entity;
         };
         report['value'] = golfie;
@@ -331,7 +346,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getGameFriendCount';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot13;
+            entity = _closure1_slot14;
             return entity;
         };
         report['value'] = golfie;
@@ -340,7 +355,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getGameFriendsForApplication';
         report['key'] = golfie;
         golfie = function(argFoo) { // Original name: value
-            tangon = _closure1_slot10;
+            tangon = _closure1_slot11;
             zuuluu = tangon.values;
             report = _closure1_slot8;
             michal = undefined;
@@ -366,7 +381,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getGameRelationshipsForUser';
         report['key'] = golfie;
         golfie = function(argFoo) { // Original name: value
-            tangon = _closure1_slot10;
+            tangon = _closure1_slot11;
             zuuluu = tangon.values;
             report = _closure1_slot9;
             michal = undefined;
@@ -419,7 +434,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getGameRelationshipCount';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            michal = _closure1_slot10;
+            michal = _closure1_slot11;
             entity = michal.size;
             entity = entity.bind(michal)();
             return entity;
@@ -430,21 +445,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getGameRelationships';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot10;
+            entity = _closure1_slot11;
             return entity;
         };
         report['value'] = golfie;
         entity[9] = report;
         report = {};
+        golfie = 'getGameRelationshipsByType';
+        report['key'] = golfie;
+        golfie = function(argFoo) { // Original name: value
+            tangon = _closure1_slot11;
+            zuuluu = tangon.values;
+            report = _closure1_slot10;
+            michal = undefined;
+            entity = argFoo;
+            michal = report.bind(michal)(entity);
+            entity = true;
+            entity = zuuluu.bind(tangon)(michal, entity);
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[10] = report;
+        report = {};
         golfie = 'getGameRelationshipsVersion';
         report['key'] = golfie;
         oscard = function() { // Original name: value
-            entity = _closure1_slot10;
+            entity = _closure1_slot11;
             entity = entity.version;
             return entity;
         };
         report['value'] = oscard;
-        entity[10] = report;
+        entity[11] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -456,7 +487,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     backup = golfie.bind(entity)(michal);
     michal = {};
     verify = function(argFoo) { // Original name: handleConnectionOpen
-        zuuluu = _closure1_slot10;
+        zuuluu = _closure1_slot11;
         michal = zuuluu.clear;
         michal = michal.bind(zuuluu)();
         michal = argFoo;
@@ -464,7 +495,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu = tangon.forEach;
         michal = function(argFoo) {
             entity = argFoo;
-            zuuluu = _closure1_slot17;
+            zuuluu = _closure1_slot18;
             michal = {};
             tangon = entity.id;
             michal['id'] = tangon;
@@ -481,19 +512,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         michal = zuuluu.bind(tangon)(michal);
-        michal = _closure1_slot16;
+        michal = _closure1_slot17;
         entity = undefined;
         michal = michal.bind(entity)();
         return entity;
     };
     michal['CONNECTION_OPEN'] = verify;
     verify = function(argFoo) { // Original name: handleGameRelationshipAdd
-        tangon = _closure1_slot17;
+        tangon = _closure1_slot18;
         entity = argFoo;
         zuuluu = entity.gameRelationship;
         entity = undefined;
         zuuluu = tangon.bind(entity)(zuuluu);
-        michal = _closure1_slot16;
+        michal = _closure1_slot17;
         michal = michal.bind(entity)();
         return entity;
     };
@@ -502,13 +533,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = argFoo;
         golfie = entity.userId;
         oscard = entity.applicationId;
-        report = _closure1_slot10;
+        report = _closure1_slot11;
         tangon = report.delete;
         zuuluu = _closure1_slot7;
         entity = undefined;
         zuuluu = zuuluu.bind(entity)(golfie, oscard);
         zuuluu = tangon.bind(report)(zuuluu);
-        michal = _closure1_slot16;
+        michal = _closure1_slot17;
         michal = michal.bind(entity)();
         return entity;
     };

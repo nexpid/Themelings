@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['getChannelDetailsButtons'] = tangon;
-    michal = function(argFoo) { // Original name: useShouldShowCoachmark
+    tangon = function(argFoo) { // Original name: useShouldShowCoachmark
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             oscard = _closure1_slot3;
@@ -256,6 +256,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['useShouldShowCoachmark'] = michal;
+    zuuluu['useShouldShowCoachmark'] = tangon;
+    michal = function(argFoo, argBar, argBaz, argCor) { // Original name: navigateToChannelDetailsScreen
+        tangon = argFoo;
+        zuuluu = tangon.navigate;
+        michal = {};
+        entity = argBar;
+        michal['screen'] = entity;
+        entity = argBaz;
+        michal['channelId'] = entity;
+        entity = argCor;
+        michal['source'] = entity;
+        entity = 'sidebar';
+        entity = zuuluu.bind(tangon)(entity, michal);
+        entity = undefined;
+        return entity;
+    };
+    zuuluu['navigateToChannelDetailsScreen'] = michal;
     return entity;
 })();

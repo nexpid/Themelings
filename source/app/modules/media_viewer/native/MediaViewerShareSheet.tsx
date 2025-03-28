@@ -35,13 +35,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argFoo;
             zuuluu = entity.videoURI;
             michal = null;
-            if(!(michal == zuuluu)) { _fun00002_ip = 23; continue _fun00001 }
+            if(!(michal == zuuluu)) { _fun00002_ip = 33; continue _fun00001 }
  15:
+            zuuluu = entity.sourceURI;
+            if(!(michal == zuuluu)) { _fun00002_ip = 31; continue _fun00001 }
+ 25:
             zuuluu = entity.uri;
-            _fun00002_ip = 29; continue _fun00001;
- 23:
+ 31:
+            _fun00002_ip = 39; continue _fun00001;
+ 33:
             zuuluu = entity.videoURI;
- 29:
+ 39:
             golfie = _closure1_slot0;
             report = _closure1_slot2;
             entity = 1;

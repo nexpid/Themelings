@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  14:
             entity['tab'] = zuuluu;
  20:
-            if(!(tangon != michal)) { _fun00004_ip = 243; continue _fun00003 }
+            if(!(tangon != michal)) { _fun00004_ip = 267; continue _fun00003 }
  27:
             report = michal.noCache;
             zuuluu = true;
@@ -129,25 +129,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = michal.paymentGateway;
             entity['payment_gateway'] = zuuluu;
  161:
-            oscard = michal.variantsReturnStyle;
-            golfie = _closure1_slot0;
+            option = michal.variantsReturnStyle;
+            verify = _closure1_slot0;
+            report = _closure1_slot1;
+            golfie = 2;
+            report = report[golfie];
+            oscard = undefined;
+            report = verify.bind(oscard)(report);
+            report = report.ShopVariantsReturnStyle;
+            report = report.VARIANTS_GROUP;
+            if(!(option === report)) { _fun00004_ip = 243; continue _fun00003 }
+ 208:
+            report = _closure1_slot0;
             zuuluu = _closure1_slot1;
-            report = 2;
-            zuuluu = zuuluu[report];
-            tangon = undefined;
-            zuuluu = golfie.bind(tangon)(zuuluu);
+            zuuluu = zuuluu[golfie];
+            zuuluu = report.bind(oscard)(zuuluu);
             zuuluu = zuuluu.ShopVariantsReturnStyle;
             zuuluu = zuuluu.VARIANTS_GROUP;
-            if(!(oscard === zuuluu)) { _fun00004_ip = 243; continue _fun00003 }
- 208:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            michal = michal[report];
-            michal = zuuluu.bind(tangon)(michal);
-            michal = michal.ShopVariantsReturnStyle;
-            michal = michal.VARIANTS_GROUP;
-            entity['variants_return_style'] = michal;
+            entity['variants_return_style'] = zuuluu;
  243:
+            zuuluu = michal.shopHomeConfig;
+            if(!(tangon != zuuluu)) { _fun00004_ip = 267; continue _fun00003 }
+ 253:
+            michal = michal.shopHomeConfig;
+            entity['shop_home_config'] = michal;
+ 267:
             return entity;
         }
     };

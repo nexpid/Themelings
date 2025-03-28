@@ -587,22 +587,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  18:
                 oscard = false;
  20:
-                if(!(report === tangon)) { _fun00016_ip = 26; continue _fun00015 }
+                if(!(report === tangon)) { _fun00016_ip = 53; continue _fun00015 }
  24:
-                report = false;
- 26:
+                michal = _closure1_slot0;
+                zuuluu = _closure1_slot3;
+                entity = 12;
+                entity = zuuluu[entity];
+                entity = michal.bind(tangon)(entity);
+                report = entity.SUPPORTS_WEBP;
+ 53:
                 offset = null;
                 entity = offset != verify;
                 option = undefined;
-                if(!entity) { _fun00016_ip = 47; continue _fun00015 }
- 37:
+                if(!entity) { _fun00016_ip = 74; continue _fun00015 }
+ 64:
                 entity = golfie.guildMemberAvatars;
                 option = entity[verify];
- 47:
-                if(!(offset != option)) { _fun00016_ip = 55; continue _fun00015 }
- 51:
-                if(!(offset == verify)) { _fun00016_ip = 107; continue _fun00015 }
- 55:
+ 74:
+                if(!(offset != option)) { _fun00016_ip = 82; continue _fun00015 }
+ 78:
+                if(!(offset == verify)) { _fun00016_ip = 134; continue _fun00015 }
+ 82:
                 michal = _closure1_slot1;
                 zuuluu = _closure1_slot3;
                 entity = 12;
@@ -616,8 +621,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 romeon = null;
                 yankee = report;
                 entity = sizing[michal](kiloes, backup, foxtra, romeon, yankee, offset);
-                _fun00016_ip = 171; continue _fun00015;
- 107:
+                _fun00016_ip = 198; continue _fun00015;
+ 134:
                 zuuluu = _closure1_slot1;
                 offset = _closure1_slot3;
                 michal = 12;
@@ -632,7 +637,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['canAnimate'] = oscard;
                 michal['canWebP'] = report;
                 entity = zuuluu.bind(tangon)(michal);
- 171:
+ 198:
                 return entity;
             }
         };

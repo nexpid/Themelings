@@ -177,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             variable39 = variable39.bind(variable40)(zuuluu);
             source = variable39;
             zuuluu = null;
-            if(!(zuuluu != variable39)) { _fun00004_ip = 1987; continue _fun00003 }
+            if(!(zuuluu != variable39)) { _fun00004_ip = 1985; continue _fun00003 }
  224:
             variable39 = source;
             michal = variable39;
@@ -510,7 +510,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             cntext = record;
             record = entity;
             record = cntext.bind(offset)(record);
-            if(record) { _fun00004_ip = 1985; continue _fun00003 }
+            if(record) { _fun00004_ip = 1983; continue _fun00003 }
  1269:
             oscard = function() { // Original name: handleConfirm
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
@@ -576,8 +576,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             config = record.isBlockedDomain;
             ctrled = michal;
             ctrled = config.bind(record)(ctrled);
-            if(!(zuuluu === ctrled)) { _fun00004_ip = 1930; continue _fun00003 }
- 1321:
+            if(!(zuuluu === ctrled)) { _fun00004_ip = 1928; continue _fun00003 }
+ 1319:
             config = _closure1_slot0;
             record = _closure1_slot2;
             ctrled = 18;
@@ -586,18 +586,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             config = record.shouldShowLinkNotDiscordWarning;
             ctrled = michal;
             ctrled = config.bind(record)(ctrled);
-            if(ctrled) { _fun00004_ip = 1872; continue _fun00003 }
- 1361:
+            if(ctrled) { _fun00004_ip = 1870; continue _fun00003 }
+ 1359:
             ctrled = sequen;
             config = 'function';
             ctrled = typeof ctrled;
-            if(!(config !== ctrled)) { _fun00004_ip = 1380; continue _fun00003 }
- 1375:
+            if(!(config !== ctrled)) { _fun00004_ip = 1378; continue _fun00003 }
+ 1373:
             ctrled = sequen;
-            _fun00004_ip = 1384; continue _fun00003;
- 1380:
+            _fun00004_ip = 1382; continue _fun00003;
+ 1378:
             ctrled = sequen.bind(offset)();
- 1384:
+ 1382:
             echoed = ctrled;
             sequen = _closure1_slot0;
             config = _closure1_slot2;
@@ -611,41 +611,41 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             sequen = 'http:';
             sequen = sequen === config;
             ctrled = sequen;
-            if(sequen) { _fun00004_ip = 1449; continue _fun00003 }
- 1438:
+            if(sequen) { _fun00004_ip = 1447; continue _fun00003 }
+ 1436:
             sequen = vacuum;
             vacuum = 'https:';
             ctrled = vacuum === sequen;
- 1449:
+ 1447:
             result = !ctrled;
-            if(!ctrled) { _fun00004_ip = 1487; continue _fun00003 }
- 1455:
-            if(echoed) { _fun00004_ip = 1792; continue _fun00003 }
- 1461:
+            if(!ctrled) { _fun00004_ip = 1485; continue _fun00003 }
+ 1453:
+            if(echoed) { _fun00004_ip = 1790; continue _fun00003 }
+ 1459:
             vacuum = _closure1_slot6;
             ctrled = vacuum.isTrustedDomain;
             echoed = michal;
             echoed = ctrled.bind(vacuum)(echoed);
-            if(echoed) { _fun00004_ip = 1792; continue _fun00003 }
- 1487:
+            if(echoed) { _fun00004_ip = 1790; continue _fun00003 }
+ 1485:
             echoed = result;
-            if(!echoed) { _fun00004_ip = 1519; continue _fun00003 }
- 1493:
+            if(!echoed) { _fun00004_ip = 1517; continue _fun00003 }
+ 1491:
             vacuum = _closure1_slot6;
             ctrled = vacuum.isTrustedProtocol;
             echoed = michal;
             echoed = ctrled.bind(vacuum)(echoed);
-            if(echoed) { _fun00004_ip = 1792; continue _fun00003 }
- 1519:
+            if(echoed) { _fun00004_ip = 1790; continue _fun00003 }
+ 1517:
             echoed = entity;
-            if(!(zuuluu != echoed)) { _fun00004_ip = 1539; continue _fun00003 }
- 1526:
+            if(!(zuuluu != echoed)) { _fun00004_ip = 1537; continue _fun00003 }
+ 1524:
             ctrled = entity;
             echoed = ctrled.preventDefault;
             echoed = echoed.bind(ctrled)();
- 1539:
-            if(result) { _fun00004_ip = 1695; continue _fun00003 }
- 1545:
+ 1537:
+            if(result) { _fun00004_ip = 1693; continue _fun00003 }
+ 1543:
             echoed = _closure1_slot0;
             ctrled = _closure1_slot2;
             result = 20;
@@ -655,13 +655,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             result = michal;
             result = echoed.bind(ctrled)(result);
             output = result;
-            if(!(zuuluu == result)) { _fun00004_ip = 1591; continue _fun00003 }
- 1586:
+            if(!(zuuluu == result)) { _fun00004_ip = 1589; continue _fun00003 }
+ 1584:
             ctrled = michal;
-            _fun00004_ip = 1597; continue _fun00003;
- 1591:
+            _fun00004_ip = 1595; continue _fun00003;
+ 1589:
             ctrled = output.displayTarget;
- 1597:
+ 1595:
             result = _closure1_slot1;
             sequen = _closure1_slot2;
             output = 21;
@@ -684,8 +684,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             source = tangon;
             output['contextKey'] = source;
             output = result.bind(echoed)(output);
-            _fun00004_ip = 1870; continue _fun00003;
- 1695:
+            _fun00004_ip = 1868; continue _fun00003;
+ 1693:
             result = _closure1_slot1;
             vacuum = _closure1_slot2;
             output = 21;
@@ -709,18 +709,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             update = tangon;
             output['contextKey'] = update;
             output = result.bind(echoed)(output);
-            _fun00004_ip = 1870; continue _fun00003;
- 1792:
+            _fun00004_ip = 1868; continue _fun00003;
+ 1790:
             output = entity;
-            if(!(zuuluu != output)) { _fun00004_ip = 1866; continue _fun00003 }
- 1799:
+            if(!(zuuluu != output)) { _fun00004_ip = 1864; continue _fun00003 }
+ 1797:
             output = option;
-            if(!(zuuluu != output)) { _fun00004_ip = 1809; continue _fun00003 }
- 1806:
-            if(option) { _fun00004_ip = 1866; continue _fun00003 }
- 1809:
-            if(!golfie) { _fun00004_ip = 1870; continue _fun00003 }
- 1812:
+            if(!(zuuluu != output)) { _fun00004_ip = 1807; continue _fun00003 }
+ 1804:
+            if(option) { _fun00004_ip = 1864; continue _fun00003 }
+ 1807:
+            if(!golfie) { _fun00004_ip = 1868; continue _fun00003 }
+ 1810:
             option = _closure1_slot1;
             golfie = _closure1_slot2;
             golfie = golfie[yankee];
@@ -733,19 +733,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie['sourceChannelId'] = foxtra;
             golfie['sourceGuildId'] = romeon;
             golfie = option.bind(yankee)(golfie);
-            _fun00004_ip = 1870; continue _fun00003;
- 1866:
+            _fun00004_ip = 1868; continue _fun00003;
+ 1864:
             oscard = oscard.bind(offset)();
- 1870:
+ 1868:
             return offset;
- 1872:
+ 1870:
             oscard = entity;
-            if(!(zuuluu != oscard)) { _fun00004_ip = 1892; continue _fun00003 }
- 1879:
+            if(!(zuuluu != oscard)) { _fun00004_ip = 1890; continue _fun00003 }
+ 1877:
             golfie = entity;
             oscard = golfie.preventDefault;
             oscard = oscard.bind(golfie)();
- 1892:
+ 1890:
             golfie = _closure1_slot1;
             option = _closure1_slot2;
             oscard = 19;
@@ -756,14 +756,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie.bind(option)(oscard);
             oscard = undefined;
             return oscard;
- 1930:
+ 1928:
             oscard = entity;
-            if(!(zuuluu != oscard)) { _fun00004_ip = 1950; continue _fun00003 }
- 1937:
+            if(!(zuuluu != oscard)) { _fun00004_ip = 1948; continue _fun00003 }
+ 1935:
             golfie = entity;
             oscard = golfie.preventDefault;
             oscard = oscard.bind(golfie)();
- 1950:
+ 1948:
             golfie = _closure1_slot1;
             option = _closure1_slot2;
             oscard = 17;
@@ -773,16 +773,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = oscard.bind(golfie)(michal);
             michal = undefined;
             return michal;
- 1985:
+ 1983:
             return offset;
- 1987:
+ 1985:
             michal = entity;
-            if(!(zuuluu != michal)) { _fun00004_ip = 2007; continue _fun00003 }
- 1994:
+            if(!(zuuluu != michal)) { _fun00004_ip = 2005; continue _fun00003 }
+ 1992:
             michal = entity;
             entity = michal.preventDefault;
             entity = entity.bind(michal)();
- 2007:
+ 2005:
             michal = _closure1_slot1;
             yankee = _closure1_slot2;
             entity = 9;

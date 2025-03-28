@@ -25,7 +25,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
     var _closure1_slot3 = tangon;
-    tangon = 4;
+    tangon = 2;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.createStyles;
+    tangon = {};
+    verify = {};
+    offset = 'flex-start';
+    verify['alignSelf'] = offset;
+    tangon['text'] = verify;
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 5;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -35,52 +46,56 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            option = entity.messageContent;
-            romeon = entity.message;
+            verify = entity.messageContent;
+            foxtra = entity.message;
             report = entity.isMessageDeleted;
-            offset = entity.hasUnreads;
-            verify = entity.messageLoaded;
-            golfie = entity.textStyle;
+            yankee = entity.hasUnreads;
+            offset = entity.messageLoaded;
+            option = entity.textStyle;
             oscard = entity.lineClamp;
             tangon = undefined;
             if(!(oscard === tangon)) { _fun00002_ip = 53; continue _fun00001 }
  50:
             oscard = 2;
  53:
+            michal = _closure1_slot4;
+            golfie = michal.bind(tangon)();
             zuuluu = _closure1_slot1;
-            yankee = _closure1_slot2;
-            michal = 2;
-            michal = yankee[michal];
+            romeon = _closure1_slot2;
+            michal = 3;
+            michal = romeon[michal];
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
-            michal['message'] = romeon;
-            michal['messageLoaded'] = verify;
-            michal['messageContent'] = option;
+            michal['message'] = foxtra;
+            michal['messageLoaded'] = offset;
+            michal['messageContent'] = verify;
             michal['isMessageDeleted'] = report;
             michal = zuuluu.bind(tangon)(michal);
             report = michal.content;
-            option = michal.style;
-            verify = michal.variant;
+            verify = michal.style;
+            offset = michal.variant;
             zuuluu = _closure1_slot3;
             michal = _closure1_slot0;
-            entity = 3;
-            entity = yankee[entity];
+            entity = 4;
+            entity = romeon[entity];
             entity = michal.bind(tangon)(entity);
             michal = entity.Text;
             entity = {};
-            entity['variant'] = verify;
-            verify = 'text-muted';
-            if(!offset) { _fun00002_ip = 163; continue _fun00001 }
- 157:
-            verify = 'text-normal';
- 163:
-            entity['color'] = verify;
+            entity['variant'] = offset;
+            offset = 'text-muted';
+            if(!yankee) { _fun00002_ip = 171; continue _fun00001 }
+ 165:
+            offset = 'text-normal';
+ 171:
+            entity['color'] = offset;
             entity['lineClamp'] = oscard;
             oscard = 'tail';
             entity['ellipsizeMode'] = oscard;
-            oscard = new Array(2);
-            oscard[0] = option;
-            oscard[1] = golfie;
+            oscard = new Array(3);
+            oscard[0] = verify;
+            oscard[1] = option;
+            golfie = golfie.text;
+            oscard[2] = golfie;
             entity['style'] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

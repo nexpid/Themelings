@@ -13,7 +13,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argBar;
             verify = michal.bind(zuuluu)(entity);
             michal = _closure1_slot2;
-            entity = _closure1_slot13;
+            entity = _closure1_slot14;
             entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot13 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -70,13 +70,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot13 = michal;
+            _closure1_slot14 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot13 = entity;
+    var _closure1_slot14 = entity;
     michal = global;
     verify = michal.Object;
     option = verify.defineProperty;
@@ -150,6 +150,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = new foxtra[michal](romeon);
     michal = michal instanceof Object ? michal : golfie;
     var _closure1_slot11 = michal;
+    var _closure1_slot12 = entity;
     michal = 5;
     michal = report[michal];
     michal = oscard.bind(entity)(michal);
@@ -162,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = _closure1_slot0;
             zuuluu = _closure2_slot0;
             oscard = oscard.bind(tangon)(report, zuuluu);
-            michal = _closure1_slot12;
+            michal = _closure1_slot13;
             entity = arguments;
             entity = michal.bind(tangon)(report, zuuluu, entity);
             return entity;
@@ -184,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(6);
+        entity = new Array(7);
         entity[0] = report;
         report = {};
         golfie = 'getLastErrorTimestamp';
@@ -237,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = {};
         golfie = 'getShopBlocks';
         report['key'] = golfie;
-        oscard = function(argFoo) { // Original name: value
+        golfie = function(argFoo) { // Original name: value
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 tangon = _closure1_slot11;
@@ -252,8 +253,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             }
         };
-        report['value'] = oscard;
+        report['value'] = golfie;
         entity[5] = report;
+        report = {};
+        golfie = 'getShopHomeConfigOverride';
+        report['key'] = golfie;
+        oscard = function() { // Original name: value
+            entity = _closure1_slot12;
+            return entity;
+        };
+        report['value'] = oscard;
+        entity[6] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -354,26 +364,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['COLLECTIBLES_SHOP_HOME_FETCH_FAILURE'] = option;
+    option = function(argFoo) { // Original name: COLLECTIBLES_SET_SHOP_HOME_CONFIG_OVERRIDE
+        entity = argFoo;
+        michal = entity.shopHomeConfigOverride;
+        _closure1_slot12 = michal;
+        entity = undefined;
+        return entity;
+    };
+    michal['COLLECTIBLES_SET_SHOP_HOME_CONFIG_OVERRIDE'] = option;
     tangon = function() { // Original name: LOGOUT
         zuuluu = _closure1_slot11;
-        michal = zuuluu.clear;
-        michal = michal.bind(zuuluu)();
+        entity = zuuluu.clear;
+        entity = entity.bind(zuuluu)();
         zuuluu = _closure1_slot8;
-        michal = zuuluu.clear;
-        michal = michal.bind(zuuluu)();
+        entity = zuuluu.clear;
+        entity = entity.bind(zuuluu)();
         zuuluu = _closure1_slot9;
-        michal = zuuluu.clear;
-        michal = michal.bind(zuuluu)();
+        entity = zuuluu.clear;
+        entity = entity.bind(zuuluu)();
         zuuluu = _closure1_slot10;
-        michal = zuuluu.clear;
-        michal = michal.bind(zuuluu)();
+        entity = zuuluu.clear;
+        entity = entity.bind(zuuluu)();
         zuuluu = _closure1_slot6;
-        michal = zuuluu.clear;
-        michal = michal.bind(zuuluu)();
-        michal = _closure1_slot7;
-        entity = michal.clear;
-        entity = entity.bind(michal)();
+        entity = zuuluu.clear;
+        entity = entity.bind(zuuluu)();
+        zuuluu = _closure1_slot7;
+        entity = zuuluu.clear;
+        entity = entity.bind(zuuluu)();
         entity = undefined;
+        _closure1_slot12 = entity;
         return entity;
     };
     michal['LOGOUT'] = tangon;

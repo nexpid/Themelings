@@ -42,9 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal[0] = entity;
             entity = function() {
                 michal = _closure1_slot2;
-                entity = michal.getGameRelationships;
-                michal = entity.bind(michal)();
-                entity = michal.size;
+                entity = michal.getGameRelationshipCount;
                 michal = entity.bind(michal)();
                 entity = 0;
                 entity = michal > entity;

@@ -412,32 +412,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             tangon = option.bind(verify)(tangon, golfie);
-            if(zuuluu) { _fun00006_ip = 165; continue _fun00005 }
- 116:
-            if(entity) { _fun00006_ip = 147; continue _fun00005 }
- 119:
+            if(zuuluu) { _fun00006_ip = 169; continue _fun00005 }
+ 120:
+            if(entity) { _fun00006_ip = 151; continue _fun00005 }
+ 123:
             entity = null;
-            if(!(entity != oscard)) { _fun00006_ip = 147; continue _fun00005 }
- 125:
+            if(!(entity != oscard)) { _fun00006_ip = 151; continue _fun00005 }
+ 129:
             tangon = _closure1_slot7;
             zuuluu = _closure1_slot10;
             entity = {};
             entity['application'] = oscard;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00006_ip = 163; continue _fun00005;
- 147:
+            _fun00006_ip = 167; continue _fun00005;
+ 151:
             oscard = _closure1_slot7;
             tangon = _closure1_slot8;
             zuuluu = {};
             entity = oscard.bind(report)(tangon, zuuluu);
- 163:
-            _fun00006_ip = 181; continue _fun00005;
- 165:
+ 167:
+            _fun00006_ip = 185; continue _fun00005;
+ 169:
             tangon = _closure1_slot7;
             zuuluu = _closure1_slot9;
             michal = {};
             entity = tangon.bind(report)(zuuluu, michal);
- 181:
+ 185:
             return entity;
         }
     };

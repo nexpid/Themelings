@@ -609,12 +609,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report['getActiveErrors'] = romeon;
     romeon = function(argFoo) { // Original name: makeErrorContextKey
         entity = argFoo;
-        zuuluu = entity.mediaSessionId;
+        report = entity.mediaSessionId;
+        tangon = entity.audioInputDeviceName;
         entity = global;
         entity = entity.HermesInternal;
-        michal = entity.concat;
-        entity = '';
-        entity = michal.bind(entity)(zuuluu);
+        zuuluu = entity.concat;
+        michal = '';
+        entity = ':';
+        entity = zuuluu.bind(michal)(report, entity, tangon);
         return entity;
     };
     report['makeErrorContextKey'] = romeon;

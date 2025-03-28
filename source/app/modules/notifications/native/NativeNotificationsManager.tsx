@@ -357,7 +357,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00014_ip = 536; continue _fun00013 }
+                        if(michal) { _fun00014_ip = 542; continue _fun00013 }
  10:
                         michal = undefined;
                         golfie = undefined;
@@ -406,8 +406,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return tangon;
  170:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                        if(report) { _fun00014_ip = 507; continue _fun00013 }
+                        if(report) { _fun00014_ip = 513; continue _fun00013 }
  179:
+                        if(tangon) { _fun00014_ip = 185; continue _fun00013 }
+ 182: // try_end0
+                        return michal;
+ 185: // try_start_1
                         verify = _closure1_slot0;
                         report = _closure1_slot2;
                         report = report[offset];
@@ -417,17 +421,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         verify = oscard;
                         report = 'utf8';
                         report = kiloes.bind(sizing)(yankee, verify, report);
-                        SaveGenerator(address=225);
- 223:
+                        SaveGenerator(address=231);
+ 229:
                         return report;
- 225:
+ 231:
                         ResumeGenerator(result_out_reg=4, return_bool_out_reg=8);
-                        if(verify) { _fun00014_ip = 504; continue _fun00013 }
- 234:
+                        if(verify) { _fun00014_ip = 510; continue _fun00013 }
+ 240:
                         option = report;
                         verify = null;
-                        if(!(verify != report)) { _fun00014_ip = 501; continue _fun00013 }
- 246:
+                        if(!(verify != report)) { _fun00014_ip = 507; continue _fun00013 }
+ 252:
                         foxtra = function(argFoo) { // Original name: normalizeTimestampToMs
                             _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
@@ -478,8 +482,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         option = option.done;
                         yankee = global;
                         verify = 11;
-                        if(option) { _fun00014_ip = 457; continue _fun00013 }
- 317:
+                        if(option) { _fun00014_ip = 463; continue _fun00013 }
+ 323:
                         option = romeon;
                         sizing = option.value;
                         kiloes = yankee.JSON;
@@ -508,39 +512,39 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         option = option.bind(michal)();
                         romeon = option;
                         option = option.done;
-                        if(!option) { _fun00014_ip = 317; continue _fun00013 }
- 457:
+                        if(!option) { _fun00014_ip = 323; continue _fun00013 }
+ 463:
                         verify = _closure1_slot0;
                         option = _closure1_slot2;
                         option = option[offset];
                         verify = verify.bind(michal)(option);
                         option = verify.removeFile;
                         oscard = option.bind(verify)(golfie, oscard);
-                        SaveGenerator(address=490);
- 488:
+                        SaveGenerator(address=496);
+ 494:
                         return oscard;
- 490:
+ 496:
                         ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                        if(golfie) { _fun00014_ip = 498; continue _fun00013 }
- 496: // try_end0
-                        _fun00014_ip = 533; continue _fun00013;
- 498:
-                        return oscard;
- 501:
-                        return michal;
+                        if(golfie) { _fun00014_ip = 504; continue _fun00013 }
+ 502: // try_end1
+                        _fun00014_ip = 539; continue _fun00013;
  504:
-                        return report;
+                        return oscard;
  507:
+                        return michal;
+ 510:
+                        return report;
+ 513:
                         return tangon;
- 510: // catch_target0
+ 516: // catch_target0 // catch_target1
                         CatchBlockStart(arg_register=5);
                         report = _closure1_slot11;
                         tangon = report.error;
                         zuuluu = 'Error tracking push notifications';
                         zuuluu = tangon.bind(report)(zuuluu, oscard);
- 533:
+ 539:
                         return michal;
- 536:
+ 542:
                         return entity;
                     }
                 };

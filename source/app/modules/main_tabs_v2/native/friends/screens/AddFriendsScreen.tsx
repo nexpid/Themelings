@@ -719,11 +719,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = _closure1_slot24;
                     return tangon;
  21:
-                    report = _closure1_slot9;
-                    tangon = report.getGameRelationships;
-                    report = tangon.bind(report)();
-                    tangon = report.values;
-                    golfie = tangon.bind(report)();
+                    oscard = _closure1_slot9;
+                    report = oscard.getGameRelationshipsByType;
+                    tangon = _closure1_slot16;
+                    tangon = tangon.PENDING_INCOMING;
+                    golfie = report.bind(oscard)(tangon);
                     oscard = new Array(0);
                     var _closure3_slot0 = oscard;
                     report = golfie.forEach;
@@ -735,32 +735,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             var _closure4_slot0 = golfie;
                             tangon = entity.applicationId;
                             var _closure4_slot1 = tangon;
-                            oscard = entity.type;
                             report = _closure1_slot11;
                             entity = report.getUser;
                             report = entity.bind(report)(golfie);
-                            entity = _closure1_slot16;
-                            entity = entity.PENDING_INCOMING;
-                            entity = oscard !== entity;
-                            if(entity) { _fun00022_ip = 78; continue _fun00021 }
- 63:
-                            option = _closure1_slot10;
-                            oscard = option.isSpam;
-                            entity = oscard.bind(option)(golfie);
- 78:
-                            if(entity) { _fun00022_ip = 96; continue _fun00021 }
- 81:
+                            oscard = _closure1_slot10;
+                            entity = oscard.isSpam;
+                            entity = entity.bind(oscard)(golfie);
+                            if(entity) { _fun00022_ip = 74; continue _fun00021 }
+ 59:
                             oscard = _closure1_slot10;
                             zuuluu = oscard.isBlockedOrIgnored;
                             entity = zuuluu.bind(oscard)(golfie);
- 96:
-                            if(entity) { _fun00022_ip = 105; continue _fun00021 }
- 99:
+ 74:
+                            if(entity) { _fun00022_ip = 83; continue _fun00021 }
+ 77:
                             zuuluu = null;
                             entity = zuuluu == report;
- 105:
-                            if(entity) { _fun00022_ip = 133; continue _fun00021 }
- 108:
+ 83:
+                            if(entity) { _fun00022_ip = 111; continue _fun00021 }
+ 86:
                             oscard = _closure2_slot7;
                             zuuluu = oscard.some;
                             michal = function(argFoo) {
@@ -776,16 +769,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 return entity;
                             };
                             entity = zuuluu.bind(oscard)(michal);
- 133:
-                            if(entity) { _fun00022_ip = 163; continue _fun00021 }
- 136:
+ 111:
+                            if(entity) { _fun00022_ip = 141; continue _fun00021 }
+ 114:
                             zuuluu = _closure3_slot0;
                             michal = zuuluu.push;
                             entity = {};
                             entity['user'] = report;
                             entity['applicationId'] = tangon;
                             entity = michal.bind(zuuluu)(entity);
- 163:
+ 141:
                             entity = undefined;
                             return entity;
                         }

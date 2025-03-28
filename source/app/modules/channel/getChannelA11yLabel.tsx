@@ -47,15 +47,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = argFoo;
             michal = _closure1_slot6;
             michal = michal.ONLINE;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 251; continue _fun00003 }
+            if(!(michal !== zuuluu)) { _fun00004_ip = 209; continue _fun00003 }
  23:
             michal = _closure1_slot6;
             michal = michal.IDLE;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 192; continue _fun00003 }
+            if(!(michal !== zuuluu)) { _fun00004_ip = 164; continue _fun00003 }
  40:
             michal = _closure1_slot6;
             michal = michal.DND;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 133; continue _fun00003 }
+            if(!(michal !== zuuluu)) { _fun00004_ip = 119; continue _fun00003 }
  54:
             michal = _closure1_slot6;
             michal = michal.INVISIBLE;
@@ -64,63 +64,51 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = '';
             return michal;
  74:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot1;
-            michal = 4;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.bg24HB;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 6;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            tangon = tangon.bind(michal)(zuuluu);
+            zuuluu = tangon.humanizeStatus;
+            michal = _closure1_slot6;
+            michal = michal.INVISIBLE;
             michal = zuuluu.bind(tangon)(michal);
             return michal;
- 133:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot1;
-            michal = 4;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.jaNpQE;
+ 119:
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 6;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            tangon = tangon.bind(michal)(zuuluu);
+            zuuluu = tangon.humanizeStatus;
+            michal = _closure1_slot6;
+            michal = michal.DND;
             michal = zuuluu.bind(tangon)(michal);
             return michal;
- 192:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot1;
-            michal = 4;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.qWbtVV;
+ 164:
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 6;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            tangon = tangon.bind(michal)(zuuluu);
+            zuuluu = tangon.humanizeStatus;
+            michal = _closure1_slot6;
+            michal = michal.IDLE;
             michal = zuuluu.bind(tangon)(michal);
             return michal;
- 251:
-            report = _closure1_slot0;
-            oscard = _closure1_slot1;
-            entity = 4;
-            michal = oscard[entity];
-            tangon = undefined;
-            michal = report.bind(tangon)(michal);
-            zuuluu = michal.intl;
-            michal = zuuluu.string;
-            entity = oscard[entity];
-            entity = report.bind(tangon)(entity);
-            entity = entity.t;
-            entity = entity.WbGtnJ;
+ 209:
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 6;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            zuuluu = tangon.bind(michal)(zuuluu);
+            michal = zuuluu.humanizeStatus;
+            entity = _closure1_slot6;
+            entity = entity.ONLINE;
             entity = michal.bind(zuuluu)(entity);
             return entity;
         }
@@ -155,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot5 = option;
     report = report.StatusTypes;
     var _closure1_slot6 = report;
-    report = 6;
+    report = 7;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

@@ -1558,6 +1558,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['CHAT_WALLPAPERS_DM_LIST_COACHMARK'] = michal;
     entity = 'CHAT_WALLPAPERS_DM_LIST_COACHMARK';
     tangon[michal] = entity;
+    michal = 527;
+    tangon['EXPIRING_STATUS_COACHMARK'] = michal;
+    entity = 'EXPIRING_STATUS_COACHMARK';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

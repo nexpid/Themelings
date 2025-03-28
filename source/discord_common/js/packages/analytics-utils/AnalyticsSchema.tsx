@@ -93,6 +93,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['CHAT_WALLPAPER_DM_LIST_COACHMARK'] = michal;
     michal = 'impression_chat_wallpaper_picker_coachmark';
     tangon['CHAT_WALLPAPER_PICKER_COACHMARK'] = michal;
+    michal = 'impression_chat_wallpaper_wallpaper_option';
+    tangon['CHAT_WALLPAPER_WALLPAPER_OPTION'] = michal;
     michal = 'impression_clip_editor_viewed';
     tangon['CLIP_EDITOR_VIEWED'] = michal;
     michal = 'impression_clip_gallery_viewed';
@@ -345,6 +347,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['QUESTS_LANDING_PAGE'] = michal;
     michal = 'impression_request_review_modal';
     tangon['REQUEST_REVIEW_MODAL'] = michal;
+    michal = 'impression_ring_to_guild_vc_banner_shown';
+    tangon['RING_TO_GUILD_VC_BANNER_SHOWN'] = michal;
+    michal = 'impression_ring_to_guild_vc_menu_item_shown';
+    tangon['RING_TO_GUILD_VC_MENU_ITEM_SHOWN'] = michal;
     michal = 'impression_role_create_add_members';
     tangon['ROLE_CREATE_ADD_MEMBERS'] = michal;
     michal = 'impression_role_create_display';
