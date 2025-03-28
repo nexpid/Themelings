@@ -1361,7 +1361,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = argFoo;
             report = argBar;
             entity = null;
-            if(!(entity != zuuluu)) { _fun00026_ip = 361; continue _fun00025 }
+            if(!(entity != zuuluu)) { _fun00026_ip = 359; continue _fun00025 }
  15:
             michal = _closure1_slot15;
             tangon = michal[zuuluu];
@@ -1447,7 +1447,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['link'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 361:
+ 359:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
             entity = 11;

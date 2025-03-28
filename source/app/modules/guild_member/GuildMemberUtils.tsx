@@ -266,18 +266,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = 7;
             entity['maxDaysOld'] = verify;
             entity = report.bind(oscard)(option, entity, golfie);
-            if(!entity) { _fun00004_ip = 170; continue _fun00003 }
- 167:
-            entity = !tangon;
- 170:
             if(!entity) { _fun00004_ip = 176; continue _fun00003 }
  173:
-            entity = !zuuluu;
+            entity = !tangon;
  176:
             if(!entity) { _fun00004_ip = 182; continue _fun00003 }
  179:
-            entity = !michal;
+            entity = !zuuluu;
  182:
+            if(!entity) { _fun00004_ip = 188; continue _fun00003 }
+ 185:
+            entity = !michal;
+ 188:
             return entity;
         }
     };

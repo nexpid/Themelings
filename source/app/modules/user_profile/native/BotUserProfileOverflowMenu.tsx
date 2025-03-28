@@ -165,10 +165,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             echoed = entity == tangon;
             result = undefined;
-            if(echoed) { _fun00002_ip = 351; continue _fun00001 }
- 346:
+            if(echoed) { _fun00002_ip = 355; continue _fun00001 }
+ 350:
             result = tangon.id;
- 351:
+ 355:
             yankee[1] = result;
             yankee[2] = offset;
             yankee[3] = oscard;
@@ -221,19 +221,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _closure2_slot10 = romeon;
             sizing = entity == tangon;
             romeon = undefined;
-            if(sizing) { _fun00002_ip = 414; continue _fun00001 }
- 404:
+            if(sizing) { _fun00002_ip = 420; continue _fun00001 }
+ 410:
             sizing = tangon.getGuildId;
             romeon = sizing.bind(tangon)();
- 414:
+ 420:
             _closure2_slot11 = romeon;
             romeon = _closure1_slot10;
             romeon = romeon.BLOCKED;
             romeon = kiloes === romeon;
-            if(!foxtra) { _fun00002_ip = 520; continue _fun00001 }
- 435:
-            if(romeon) { _fun00002_ip = 520; continue _fun00001 }
- 438:
+            if(!foxtra) { _fun00002_ip = 528; continue _fun00001 }
+ 441:
+            if(romeon) { _fun00002_ip = 528; continue _fun00001 }
+ 444:
             kiloes = offset.push;
             foxtra = {};
             echoed = _closure1_slot0;
@@ -285,10 +285,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             foxtra['action'] = sizing;
             foxtra = kiloes.bind(offset)(foxtra);
-            _fun00002_ip = 603; continue _fun00001;
- 520:
-            if(romeon) { _fun00002_ip = 603; continue _fun00001 }
- 523:
+            _fun00002_ip = 613; continue _fun00001;
+ 528:
+            if(romeon) { _fun00002_ip = 613; continue _fun00001 }
+ 531:
             kiloes = offset.push;
             foxtra = {};
             echoed = _closure1_slot0;
@@ -353,9 +353,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             foxtra['action'] = sizing;
             foxtra = kiloes.bind(offset)(foxtra);
- 603:
-            if(!romeon) { _fun00002_ip = 686; continue _fun00001 }
- 606:
+ 613:
+            if(!romeon) { _fun00002_ip = 698; continue _fun00001 }
+ 616:
             kiloes = offset.push;
             foxtra = {};
             echoed = _closure1_slot0;
@@ -415,9 +415,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             foxtra['action'] = sizing;
             foxtra = kiloes.bind(offset)(foxtra);
- 686:
-            if(romeon) { _fun00002_ip = 984; continue _fun00001 }
- 692:
+ 698:
+            if(romeon) { _fun00002_ip = 1002; continue _fun00001 }
+ 704:
             kiloes = offset.push;
             romeon = {};
             result = _closure1_slot0;
@@ -500,8 +500,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             romeon['action'] = sizing;
             romeon = kiloes.bind(offset)(romeon);
-            if(verify) { _fun00002_ip = 903; continue _fun00001 }
- 785:
+            if(verify) { _fun00002_ip = 919; continue _fun00001 }
+ 799:
             romeon = _closure1_slot0;
             kiloes = _closure1_slot2;
             verify = 23;
@@ -509,8 +509,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = romeon.bind(report)(verify);
             verify = romeon.isAndroid;
             verify = verify.bind(romeon)();
-            if(!verify) { _fun00002_ip = 984; continue _fun00001 }
- 820:
+            if(!verify) { _fun00002_ip = 1002; continue _fun00001 }
+ 834:
             romeon = offset.push;
             verify = {};
             result = _closure1_slot0;
@@ -557,8 +557,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             verify['action'] = kiloes;
             verify = romeon.bind(offset)(verify);
-            _fun00002_ip = 984; continue _fun00001;
- 903:
+            _fun00002_ip = 1002; continue _fun00001;
+ 919:
             romeon = offset.push;
             verify = {};
             result = _closure1_slot0;
@@ -616,7 +616,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             verify['action'] = foxtra;
             verify = romeon.bind(offset)(verify);
- 984:
+ 1002:
             romeon = yankee.push;
             verify = {};
             result = _closure1_slot0;
@@ -667,8 +667,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             verify['action'] = foxtra;
             verify = romeon.bind(yankee)(verify);
-            if(!(entity != backup)) { _fun00002_ip = 1238; continue _fun00001 }
- 1071:
+            if(!(entity != backup)) { _fun00002_ip = 1260; continue _fun00001 }
+ 1091:
             romeon = _closure1_slot0;
             foxtra = _closure1_slot2;
             verify = 29;
@@ -678,10 +678,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = backup.flags;
             output = entity != verify;
             romeon = 0;
-            if(!output) { _fun00002_ip = 1114; continue _fun00001 }
- 1111:
+            if(!output) { _fun00002_ip = 1134; continue _fun00001 }
+ 1131:
             romeon = verify;
- 1114:
+ 1134:
             verify = _closure1_slot9;
             verify = verify.EMBEDDED;
             verify = foxtra.bind(sizing)(romeon, verify);
@@ -770,7 +770,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             verify['action'] = foxtra;
             verify = romeon.bind(yankee)(verify);
- 1238:
+ 1260:
             romeon = _closure1_slot0;
             foxtra = _closure1_slot2;
             verify = 32;
@@ -779,8 +779,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = verify.DeveloperMode;
             verify = romeon.getSetting;
             verify = verify.bind(romeon)();
-            if(!verify) { _fun00002_ip = 1354; continue _fun00001 }
- 1277:
+            if(!verify) { _fun00002_ip = 1378; continue _fun00001 }
+ 1299:
             romeon = yankee.push;
             verify = {};
             output = _closure1_slot0;
@@ -823,14 +823,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             verify['action'] = foxtra;
             verify = romeon.bind(yankee)(verify);
- 1354:
+ 1378:
             tangon = entity != tangon;
-            if(!tangon) { _fun00002_ip = 1365; continue _fun00001 }
- 1361:
+            if(!tangon) { _fun00002_ip = 1389; continue _fun00001 }
+ 1385:
             tangon = entity != golfie;
- 1365:
-            if(!tangon) { _fun00002_ip = 1445; continue _fun00001 }
- 1368:
+ 1389:
+            if(!tangon) { _fun00002_ip = 1471; continue _fun00001 }
+ 1392:
             golfie = yankee.push;
             tangon = {};
             backup = _closure1_slot0;
@@ -899,15 +899,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             tangon['action'] = verify;
             tangon = golfie.bind(yankee)(tangon);
- 1445:
+ 1471:
             tangon = yankee.length;
             golfie = 0;
-            if(!(golfie === tangon)) { _fun00002_ip = 1467; continue _fun00001 }
- 1456:
+            if(!(golfie === tangon)) { _fun00002_ip = 1493; continue _fun00001 }
+ 1482:
             tangon = offset.length;
             entity = null;
-            if(!(golfie !== tangon)) { _fun00002_ip = 1562; continue _fun00001 }
- 1467:
+            if(!(golfie !== tangon)) { _fun00002_ip = 1590; continue _fun00001 }
+ 1493:
             tangon = _closure1_slot13;
             golfie = _closure1_slot0;
             verify = _closure1_slot2;
@@ -979,7 +979,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1562:
+ 1590:
             return entity;
         }
     };

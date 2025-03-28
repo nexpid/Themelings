@@ -968,20 +968,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.getFontScale;
             michal = entity.bind(michal)();
             entity = 1.25;
-            if(!(!(michal < entity))) { _fun00030_ip = 66; continue _fun00029 }
+            if(!(!(michal < entity))) { _fun00030_ip = 70; continue _fun00029 }
  31:
             entity = 2;
-            if(!(!(michal < entity))) { _fun00030_ip = 50; continue _fun00029 }
+            if(!(!(michal < entity))) { _fun00030_ip = 54; continue _fun00029 }
  38:
             entity = {'width': 16, 'height': 16};
-            _fun00030_ip = 64; continue _fun00029;
- 50:
+            _fun00030_ip = 68; continue _fun00029;
+ 54:
             entity = {'width': 12, 'height': 12};
- 64:
-            _fun00030_ip = 80; continue _fun00029;
- 66:
+ 68:
+            _fun00030_ip = 84; continue _fun00029;
+ 70:
             entity = {'width': 8, 'height': 8};
- 80:
+ 84:
             return entity;
         }
     };

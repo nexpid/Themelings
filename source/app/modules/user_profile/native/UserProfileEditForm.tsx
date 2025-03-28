@@ -758,7 +758,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             michal = michal[entity];
                             entity = undefined;
                             tangon = zuuluu.bind(entity)(michal);
-                            zuuluu = tangon.setPendingGlobalNameName;
+                            zuuluu = tangon.setPendingGlobalName;
                             michal = _closure3_slot0;
                             oscard = michal.globalName;
                             michal = undefined;

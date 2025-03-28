@@ -182,14 +182,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = romeon.type;
             option = _closure1_slot4;
             option = option.TRENDING_GIFS;
-            if(!(offset !== option)) { _fun00002_ip = 317; continue _fun00001 }
- 207:
+            if(!(offset !== option)) { _fun00002_ip = 319; continue _fun00001 }
+ 209:
             yankee = romeon.type;
             option = _closure1_slot4;
             option = option.FAVORITES;
             offset = null;
-            if(!(yankee === option)) { _fun00002_ip = 315; continue _fun00001 }
- 228:
+            if(!(yankee === option)) { _fun00002_ip = 317; continue _fun00001 }
+ 230:
             foxtra = _closure1_slot5;
             yankee = _closure1_slot0;
             output = _closure1_slot2;
@@ -210,9 +210,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.WHITE;
             option['color'] = kiloes;
             offset = foxtra.bind(tangon)(yankee, option);
- 315:
-            _fun00002_ip = 404; continue _fun00001;
  317:
+            _fun00002_ip = 406; continue _fun00001;
+ 319:
             foxtra = _closure1_slot5;
             yankee = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup.WHITE;
             option['color'] = backup;
             offset = foxtra.bind(tangon)(yankee, option);
- 404:
+ 406:
             option = new Array(2);
             option[0] = offset;
             yankee = _closure1_slot5;

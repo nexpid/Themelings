@@ -179,8 +179,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['ChangelogManager'] = entity;
     entity = {};
-    option = ['GUILD_LOCAL_RING_START', 'GUILD_RING_STOP'];
-    entity['actions'] = option;
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;

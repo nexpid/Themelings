@@ -170,10 +170,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = option.bind(tangon)(michal);
             michal = michal.bind(tangon)(golfie);
             verify = !zuuluu;
-            if(verify) { _fun00004_ip = 151; continue _fun00003 }
- 148:
+            if(verify) { _fun00004_ip = 149; continue _fun00003 }
+ 146:
             verify = michal;
- 151:
+ 149:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
             michal = michal[report];
@@ -201,11 +201,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = report.bind(golfie)(zuuluu, michal);
             romeon = null;
             foxtra = romeon != kiloes;
-            if(!foxtra) { _fun00004_ip = 217; continue _fun00003 }
- 207:
+            if(!foxtra) { _fun00004_ip = 213; continue _fun00003 }
+ 203:
             michal = kiloes.isPrivate;
             foxtra = michal.bind(kiloes)();
- 217:
+ 213:
             _closure2_slot2 = foxtra;
             report = _closure1_slot1;
             zuuluu = _closure1_slot2;
@@ -291,18 +291,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['style'] = yankee;
             yankee = romeon == kiloes;
             sizing = undefined;
-            if(yankee) { _fun00004_ip = 385; continue _fun00003 }
- 380:
+            if(yankee) { _fun00004_ip = 379; continue _fun00003 }
+ 374:
             sizing = kiloes.type;
- 385:
+ 379:
             yankee = _closure1_slot8;
             backup = yankee.GUILD_ANNOUNCEMENT;
             yankee = null;
-            if(!(sizing === backup)) { _fun00004_ip = 442; continue _fun00003 }
- 401:
+            if(!(sizing === backup)) { _fun00004_ip = 436; continue _fun00003 }
+ 395:
             yankee = null;
-            if(!option) { _fun00004_ip = 442; continue _fun00003 }
- 406:
+            if(!option) { _fun00004_ip = 436; continue _fun00003 }
+ 400:
             backup = _closure1_slot10;
             romeon = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -312,12 +312,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = {};
             option['channel'] = kiloes;
             yankee = backup.bind(tangon)(romeon, option);
- 442:
+ 436:
             option = new Array(3);
             option[0] = yankee;
             option[1] = offset;
-            if(!verify) { _fun00004_ip = 499; continue _fun00003 }
- 457:
+            if(!verify) { _fun00004_ip = 493; continue _fun00003 }
+ 451:
             romeon = _closure1_slot10;
             yankee = _closure1_slot1;
             backup = _closure1_slot2;
@@ -328,7 +328,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.callPTTButton;
             offset['style'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 499:
+ 493:
             option[2] = verify;
             report['children'] = option;
             golfie = zuuluu.bind(tangon)(golfie, report);

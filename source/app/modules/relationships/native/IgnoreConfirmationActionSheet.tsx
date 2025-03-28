@@ -484,8 +484,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = null;
             zuuluu = ctrled == variable39;
             entity = null;
-            if(zuuluu) { _fun00002_ip = 1866; continue _fun00001 }
- 330:
+            if(zuuluu) { _fun00002_ip = 1880; continue _fun00001 }
+ 338:
             tangon = _closure1_slot14;
             offset = _closure1_slot0;
             kiloes = _closure1_slot2;
@@ -549,10 +549,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = {};
             config = ctrled != variable37;
             ctrled = undefined;
-            if(!config) { _fun00002_ip = 595; continue _fun00001 }
- 592:
+            if(!config) { _fun00002_ip = 603; continue _fun00001 }
+ 600:
             ctrled = variable37;
- 595:
+ 603:
             kiloes['guildId'] = ctrled;
             kiloes['user'] = variable39;
             kiloes['animate'] = source;
@@ -868,11 +868,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report.bind(oscard)(tangon);
                     report = _closure2_slot2;
                     tangon = null;
-                    if(!(tangon != report)) { _fun00008_ip = 113; continue _fun00007 }
- 105:
+                    if(!(tangon != report)) { _fun00008_ip = 115; continue _fun00007 }
+ 107:
                     zuuluu = _closure2_slot2;
                     zuuluu = zuuluu.bind(entity)();
- 113:
+ 115:
                     tangon = _closure1_slot1;
                     report = _closure1_slot2;
                     zuuluu = 21;
@@ -954,7 +954,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1866:
+ 1880:
             return entity;
         }
     };

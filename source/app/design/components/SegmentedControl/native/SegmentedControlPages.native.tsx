@@ -965,7 +965,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = 1;
             zuuluu = tangon[zuuluu];
             var _closure2_slot16 = zuuluu;
-            if(!(entity !== romeon)) { _fun00008_ip = 1179; continue _fun00007 }
+            if(!(entity !== romeon)) { _fun00008_ip = 1175; continue _fun00007 }
  947:
             tangon = _closure1_slot5;
             zuuluu = _closure1_slot6;
@@ -995,10 +995,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = offset.isIOS;
             offset = option.bind(offset)();
             option = undefined;
-            if(!offset) { _fun00008_ip = 1089; continue _fun00007 }
- 1086:
+            if(!offset) { _fun00008_ip = 1085; continue _fun00007 }
+ 1082:
             option = 32;
- 1089:
+ 1085:
             entity['scrollEventThrottle'] = option;
             option = verify.map;
             oscard = function(argFoo, argBar) {
@@ -1026,8 +1026,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(zuuluu, entity);
             zuuluu = null;
             entity = oscard;
-            if(!(zuuluu != golfie)) { _fun00008_ip = 1177; continue _fun00007 }
- 1130:
+            if(!(zuuluu != golfie)) { _fun00008_ip = 1173; continue _fun00007 }
+ 1126:
             tangon = _closure1_slot5;
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
@@ -1039,9 +1039,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['gesture'] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1177:
+ 1173:
             return entity;
- 1179:
+ 1175:
             entity = null;
             return entity;
         }

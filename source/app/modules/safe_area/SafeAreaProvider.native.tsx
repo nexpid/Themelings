@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!(report === michal)) { _fun00002_ip = 156; continue _fun00001 }
  114:
             report = entity.top;
-            michal = zuuluu.top;
+            michal = tangon.top;
             if(!(report === michal)) { _fun00002_ip = 156; continue _fun00001 }
  128:
             report = entity.left;
@@ -53,9 +53,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!(report !== michal)) { _fun00002_ip = 197; continue _fun00001 }
  156:
             michal = {};
-            tangon = tangon.bottom;
-            michal['bottom'] = tangon;
-            tangon = zuuluu.top;
+            report = tangon.bottom;
+            michal['bottom'] = report;
+            tangon = tangon.top;
             michal['top'] = tangon;
             tangon = zuuluu.left;
             michal['left'] = tangon;

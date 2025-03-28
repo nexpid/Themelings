@@ -473,6 +473,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['EDIT_PROFILE_EFFECT_MODAL'] = entity;
     entity = 'edit profile effect action sheet';
     michal['EDIT_PROFILE_EFFECT_ACTION_SHEET'] = entity;
+    entity = 'edit nameplate modal';
+    michal['EDIT_NAMEPLATE_MODAL'] = entity;
+    entity = 'edit nameplate sheet';
+    michal['EDIT_NAMEPLATE_SHEET'] = entity;
     entity = 'collectibles mobile shop marketing sheet';
     michal['COLLECTIBLES_MOBILE_SHOP_MARKETING_SHEET'] = entity;
     entity = 'account profile popout';
@@ -787,8 +791,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['USER_SETTINGS_SOUNDBOARD_TAB'] = entity;
     entity = 'user settings debug tab';
     michal['USER_SETTINGS_DEBUG_TAB'] = entity;
-    entity = 'user settings nameplate modal';
-    michal['USER_SETTINGS_NAMEPLATE_MODAL'] = entity;
     entity = 'deeplink';
     michal['DEEPLINK'] = entity;
     entity = 'holiday coachmark';

@@ -269,15 +269,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = vacuum.type;
             entity = _closure1_slot7;
             entity = entity.GUILD_CATEGORY;
-            if(!(entity !== tangon)) { _fun00006_ip = 2322; continue _fun00005 }
+            if(!(entity !== tangon)) { _fun00006_ip = 2318; continue _fun00005 }
  312:
             entity = _closure1_slot7;
             entity = entity.GUILD_VOICE;
-            if(!(entity !== tangon)) { _fun00006_ip = 1777; continue _fun00005 }
+            if(!(entity !== tangon)) { _fun00006_ip = 1773; continue _fun00005 }
  329:
             entity = _closure1_slot7;
             entity = entity.GUILD_STAGE_VOICE;
-            if(!(entity !== tangon)) { _fun00006_ip = 1243; continue _fun00005 }
+            if(!(entity !== tangon)) { _fun00006_ip = 1239; continue _fun00005 }
  346:
             entity = _closure1_slot7;
             entity = entity.GUILD_FORUM;
@@ -458,8 +458,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = yankee.generateChannelTextSection;
             michal = {'showPrivateThreads': false, 'showCreateThreads': false};
             backup = undefined;
-            if(!kiloes) { _fun00006_ip = 1107; continue _fun00005 }
- 1060:
+            if(!kiloes) { _fun00006_ip = 1103; continue _fun00005 }
+ 1056:
             source = _closure1_slot0;
             update = _closure1_slot3;
             update = update[echoed];
@@ -498,7 +498,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             update['setUpAutomod'] = sequen;
             backup = source.bind(ctrled)(vacuum, update);
- 1107:
+ 1103:
             michal['sectionDescription'] = backup;
             michal['showClydeAIPermissions'] = result;
             michal['inSoundmojiExperiment'] = output;
@@ -550,7 +550,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = entity;
             michal = arraySpread(papara, cntext, record);
             return entity;
- 1243:
+ 1239:
             report = _closure1_slot2;
             michal = _closure1_slot3;
             tangon = 15;
@@ -644,8 +644,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon.bind(yankee)(michal);
             michal = {};
             yankee = undefined;
-            if(!kiloes) { _fun00006_ip = 1754; continue _fun00005 }
- 1687:
+            if(!kiloes) { _fun00006_ip = 1750; continue _fun00005 }
+ 1683:
             backup = _closure1_slot0;
             foxtra = _closure1_slot3;
             sizing = foxtra[update];
@@ -673,13 +673,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             foxtra['setUpAutomod'] = update;
             yankee = sizing.bind(echoed)(backup, foxtra);
- 1754:
+ 1750:
             michal['sectionDescription'] = yankee;
             michal['inSoundmojiExperiment'] = output;
             michal = report.bind(verify)(oscard, tangon, michal);
             entity[5] = michal;
             return entity;
- 1777:
+ 1773:
             verify = _closure1_slot2;
             michal = _closure1_slot3;
             tangon = 15;
@@ -745,8 +745,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.bind(foxtra)(michal);
             michal = {};
             foxtra = undefined;
-            if(!kiloes) { _fun00006_ip = 2149; continue _fun00005 }
- 2082:
+            if(!kiloes) { _fun00006_ip = 2145; continue _fun00005 }
+ 2078:
             sizing = _closure1_slot0;
             kiloes = _closure1_slot3;
             echoed = kiloes[backup];
@@ -774,7 +774,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             kiloes['setUpAutomod'] = source;
             foxtra = echoed.bind(update)(sizing, kiloes);
- 2149:
+ 2145:
             michal['sectionDescription'] = foxtra;
             michal['inSoundmojiExperiment'] = output;
             michal = verify.bind(yankee)(oscard, report, michal);
@@ -811,7 +811,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = tangon.bind(report)(oscard, michal);
             entity[5] = michal;
             return entity;
- 2322:
+ 2318:
             report = _closure1_slot2;
             yankee = _closure1_slot3;
             tangon = 15;

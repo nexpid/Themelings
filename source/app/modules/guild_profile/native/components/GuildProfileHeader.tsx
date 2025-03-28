@@ -869,8 +869,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = {'gap': 15, 'flexDirection': 'row'};
             output['style'] = sequen;
             config = sizing != papara;
-            if(!config) { _fun00004_ip = 1766; continue _fun00003 }
- 1722:
+            if(!config) { _fun00004_ip = 1770; continue _fun00003 }
+ 1726:
             cntext = _closure1_slot12;
             record = _closure1_slot1;
             status = _closure1_slot2;
@@ -882,12 +882,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen['type'] = status;
             sequen['count'] = papara;
             config = cntext.bind(tangon)(record, sequen);
- 1766:
+ 1770:
             sequen = new Array(2);
             sequen[0] = config;
             config = sizing != target;
-            if(!config) { _fun00004_ip = 1825; continue _fun00003 }
- 1781:
+            if(!config) { _fun00004_ip = 1829; continue _fun00003 }
+ 1785:
             papara = _closure1_slot12;
             cntext = _closure1_slot1;
             status = _closure1_slot2;
@@ -899,7 +899,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record['type'] = status;
             record['count'] = target;
             config = papara.bind(tangon)(cntext, record);
- 1825:
+ 1829:
             sequen[1] = config;
             output['children'] = sequen;
             output = ctrled.bind(tangon)(source, output);
@@ -910,11 +910,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup.DISCOVERABLE;
             output = output.bind(source)(backup);
             backup = null;
-            if(!output) { _fun00004_ip = 2109; continue _fun00003 }
- 1877:
+            if(!output) { _fun00004_ip = 2113; continue _fun00003 }
+ 1881:
             backup = null;
-            if(kiloes) { _fun00004_ip = 2109; continue _fun00003 }
- 1885:
+            if(kiloes) { _fun00004_ip = 2113; continue _fun00003 }
+ 1889:
             output = _closure1_slot13;
             config = _closure1_slot0;
             record = _closure1_slot2;
@@ -989,7 +989,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result[1] = echoed;
             kiloes['children'] = result;
             backup = output.bind(tangon)(sizing, kiloes);
- 2109:
+ 2113:
             foxtra[2] = backup;
             offset['children'] = foxtra;
             offset = romeon.bind(tangon)(yankee, offset);

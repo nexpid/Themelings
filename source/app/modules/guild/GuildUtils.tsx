@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = argFoo;
             var _closure2_slot0 = tangon;
             michal = null;
-            if(!(michal != tangon)) { _fun00002_ip = 65; continue _fun00001 }
+            if(!(michal != tangon)) { _fun00002_ip = 67; continue _fun00001 }
  15:
             report = _closure1_slot0;
             zuuluu = _closure1_slot1;
@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             entity = michal.bind(zuuluu)(entity);
- 65:
+ 67:
             entity = undefined;
             return entity;
         }

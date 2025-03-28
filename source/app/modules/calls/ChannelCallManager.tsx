@@ -199,24 +199,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = golfie instanceof Object ? golfie : option;
             zuuluu['value'] = golfie;
             zuuluu = report.bind(oscard)(entity, tangon, zuuluu);
-            zuuluu = {};
-            tangon = function(argFoo) { // Original name: GUILD_LOCAL_RING_START
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleGuildRingStart;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            zuuluu['GUILD_LOCAL_RING_START'] = tangon;
-            tangon = function(argFoo) { // Original name: GUILD_RING_STOP
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleGuildRingStop;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            zuuluu['GUILD_RING_STOP'] = tangon;
-            entity['actions'] = zuuluu;
             zuuluu = function(argFoo, argBar) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -364,70 +346,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             entity['handleRingUpdate'] = zuuluu;
-            zuuluu = function(argFoo) {
-                entity = argFoo;
-                zuuluu = entity.ringing;
-                report = entity.guildId;
-                michal = zuuluu.forEach;
-                entity = function(argFoo) {
-                    tangon = _closure1_slot7;
-                    michal = _closure3_slot0;
-                    zuuluu = _closure1_slot18;
-                    entity = undefined;
-                    michal = tangon.bind(entity)(michal, zuuluu);
-                    tangon = michal[zuuluu];
-                    zuuluu = tangon.add;
-                    michal = argFoo;
-                    michal = zuuluu.bind(tangon)(michal);
-                    return entity;
-                };
-                entity = michal.bind(zuuluu)(entity);
-                tangon = _closure3_slot0;
-                zuuluu = tangon._handleRing;
-                michal = _closure1_slot7;
-                oscard = _closure1_slot18;
-                entity = undefined;
-                michal = michal.bind(entity)(tangon, oscard);
-                michal = michal[oscard];
-                oscard = michal.size;
-                michal = 0;
-                michal = oscard > michal;
-                michal = zuuluu.bind(tangon)(michal, report);
-                return entity;
-            };
-            entity['handleGuildRingStart'] = zuuluu;
-            zuuluu = function(argFoo) {
-                entity = argFoo;
-                zuuluu = entity.ringing;
-                report = entity.guildId;
-                michal = zuuluu.forEach;
-                entity = function(argFoo) {
-                    tangon = _closure1_slot7;
-                    michal = _closure3_slot0;
-                    zuuluu = _closure1_slot18;
-                    entity = undefined;
-                    michal = tangon.bind(entity)(michal, zuuluu);
-                    tangon = michal[zuuluu];
-                    zuuluu = tangon.delete;
-                    michal = argFoo;
-                    michal = zuuluu.bind(tangon)(michal);
-                    return entity;
-                };
-                entity = michal.bind(zuuluu)(entity);
-                tangon = _closure3_slot0;
-                zuuluu = tangon._handleRing;
-                michal = _closure1_slot7;
-                oscard = _closure1_slot18;
-                entity = undefined;
-                michal = michal.bind(entity)(tangon, oscard);
-                michal = michal[oscard];
-                oscard = michal.size;
-                michal = 0;
-                michal = oscard > michal;
-                michal = zuuluu.bind(tangon)(michal, report);
-                return entity;
-            };
-            entity['handleGuildRingStop'] = zuuluu;
             michal = function() {
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:

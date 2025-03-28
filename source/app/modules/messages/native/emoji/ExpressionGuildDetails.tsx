@@ -268,7 +268,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 kiloes = sizing.bind(source)(kiloes);
                 romeon['children'] = kiloes;
                 romeon = backup.bind(tangon)(foxtra, romeon);
-                _fun00004_ip = 1072; continue _fun00003;
+                _fun00004_ip = 1074; continue _fun00003;
  662:
                 kiloes = _closure1_slot7;
                 backup = _closure1_slot6;
@@ -303,9 +303,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 source['style'] = cntext;
                 source = record.bind(tangon)(sequen, source);
                 sizing[1] = source;
-                if(update) { _fun00004_ip = 966; continue _fun00003 }
+                if(update) { _fun00004_ip = 968; continue _fun00003 }
  819:
-                if(output) { _fun00004_ip = 966; continue _fun00003 }
+                if(output) { _fun00004_ip = 968; continue _fun00003 }
  825:
                 source = _closure1_slot5;
                 papara = _closure1_slot0;
@@ -348,8 +348,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 ctrled = source.bind(tangon)(vacuum, ctrled);
                 output['children'] = ctrled;
                 output = source.bind(tangon)(update, output);
-                _fun00004_ip = 1058; continue _fun00003;
- 966:
+                _fun00004_ip = 1060; continue _fun00003;
+ 968:
                 update = _closure1_slot5;
                 sequen = _closure1_slot0;
                 source = _closure1_slot2;
@@ -368,11 +368,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 source = ctrled.bind(vacuum)(source);
                 result['children'] = source;
                 output = update.bind(tangon)(echoed, result);
- 1058:
+ 1060:
                 sizing[2] = output;
                 foxtra['children'] = sizing;
                 romeon = kiloes.bind(tangon)(backup, foxtra);
- 1072:
+ 1074:
                 offset['children'] = romeon;
                 offset = yankee.bind(tangon)(michal, offset);
                 verify[1] = offset;

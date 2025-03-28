@@ -110,24 +110,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = tangon.bind(zuuluu)(entity);
                     entity = entity.EmojiTypes;
                     entity = entity.GUILD;
-                    if(!(michal !== entity)) { _fun00004_ip = 108; continue _fun00003 }
+                    if(!(michal !== entity)) { _fun00004_ip = 104; continue _fun00003 }
  92:
                     entity = {'emoji': null, 'joinedEmojiSourceGuildRecord': null};
-                    _fun00004_ip = 147; continue _fun00003;
- 108:
+                    _fun00004_ip = 143; continue _fun00003;
+ 104:
                     michal = {};
                     michal['emoji'] = oscard;
                     tangon = report.getGuild;
                     golfie = golfie == oscard;
                     zuuluu = undefined;
-                    if(golfie) { _fun00004_ip = 134; continue _fun00003 }
- 129:
+                    if(golfie) { _fun00004_ip = 130; continue _fun00003 }
+ 125:
                     zuuluu = oscard.guildId;
- 134:
+ 130:
                     zuuluu = tangon.bind(report)(zuuluu);
                     michal['joinedEmojiSourceGuildRecord'] = zuuluu;
                     entity = michal;
- 147:
+ 143:
                     return entity;
                 }
             };
@@ -137,22 +137,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = null;
             tangon = result != report;
             michal = result != report;
-            if(!michal) { _fun00002_ip = 159; continue _fun00001 }
- 138:
+            if(!michal) { _fun00002_ip = 161; continue _fun00001 }
+ 140:
             golfie = report.hasFeature;
             oscard = _closure1_slot10;
             oscard = oscard.DISCOVERABLE;
             michal = golfie.bind(report)(oscard);
- 159:
+ 161:
             yankee = !tangon;
-            if(!tangon) { _fun00002_ip = 168; continue _fun00001 }
- 165:
+            if(!tangon) { _fun00002_ip = 170; continue _fun00001 }
+ 167:
             yankee = michal;
- 168:
-            if(!yankee) { _fun00002_ip = 175; continue _fun00001 }
- 171:
+ 170:
+            if(!yankee) { _fun00002_ip = 177; continue _fun00001 }
+ 173:
             yankee = result != foxtra;
- 175:
+ 177:
             _closure2_slot2 = yankee;
             romeon = _closure1_slot4;
             michal = romeon.useState;
@@ -174,12 +174,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = result != report;
             romeon = yankee;
             kiloes = null;
-            if(!option) { _fun00002_ip = 278; continue _fun00001 }
- 263:
+            if(!option) { _fun00002_ip = 280; continue _fun00001 }
+ 265:
             yankee = _closure1_slot7;
             option = yankee.createFromGuildRecord;
             kiloes = option.bind(yankee)(report);
- 278:
+ 280:
             yankee = _closure1_slot4;
             option = yankee.useState;
             option = option.bind(yankee)(kiloes);
@@ -313,19 +313,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = undefined;
                     michal = michal.bind(entity)();
                     tangon = _closure2_slot2;
-                    if(tangon) { _fun00006_ip = 79; continue _fun00005 }
- 51:
+                    if(tangon) { _fun00006_ip = 81; continue _fun00005 }
+ 53:
                     tangon = _closure2_slot7;
                     tangon = tangon.current;
-                    if(!(report != tangon)) { _fun00006_ip = 83; continue _fun00005 }
- 64:
+                    if(!(report != tangon)) { _fun00006_ip = 85; continue _fun00005 }
+ 66:
                     tangon = _closure2_slot7;
                     zuuluu = tangon.current;
                     zuuluu = zuuluu.bind(tangon)();
-                    _fun00006_ip = 83; continue _fun00005;
- 79:
+                    _fun00006_ip = 85; continue _fun00005;
+ 81:
                     michal = michal.bind(entity)();
- 83:
+ 85:
                     return entity;
                 }
             };

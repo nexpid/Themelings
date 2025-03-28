@@ -160,12 +160,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = new Array(1);
             verify[0] = romeon;
             offset = !offset;
-            if(offset) { _fun00002_ip = 418; continue _fun00001 }
- 369:
+            if(offset) { _fun00002_ip = 426; continue _fun00001 }
+ 377:
             romeon = backup.isGuildStageVoice;
             romeon = romeon.bind(backup)();
-            if(!romeon) { _fun00002_ip = 415; continue _fun00001 }
- 382:
+            if(!romeon) { _fun00002_ip = 423; continue _fun00001 }
+ 390:
             output = _closure1_slot0;
             backup = _closure1_slot2;
             backup = backup[result];
@@ -173,11 +173,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup.RequestToSpeakStates;
             backup = backup.ON_STAGE;
             romeon = sizing !== backup;
- 415:
+ 423:
             offset = romeon;
- 418:
-            if(offset) { _fun00002_ip = 614; continue _fun00001 }
- 424:
+ 426:
+            if(offset) { _fun00002_ip = 624; continue _fun00001 }
+ 432:
             offset = verify.push;
             sizing = _closure1_slot9;
             backup = _closure1_slot0;
@@ -197,31 +197,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = source[output];
             output = result.bind(report)(output);
             result = output.t;
-            if(golfie) { _fun00002_ip = 521; continue _fun00001 }
- 508:
+            if(golfie) { _fun00002_ip = 529; continue _fun00001 }
+ 516:
             output = result.sWmtIy;
             output = echoed.bind(update)(output);
-            _fun00002_ip = 532; continue _fun00001;
- 521:
+            _fun00002_ip = 540; continue _fun00001;
+ 529:
             result = result.NHJxcn;
             output = echoed.bind(update)(result);
- 532:
+ 540:
             romeon['label'] = output;
             result = _closure1_slot0;
             echoed = _closure1_slot2;
-            if(golfie) { _fun00002_ip = 567; continue _fun00001 }
- 547:
+            if(golfie) { _fun00002_ip = 575; continue _fun00001 }
+ 555:
             golfie = 18;
             golfie = echoed[golfie];
             golfie = result.bind(report)(golfie);
             golfie = golfie.MicrophoneIcon;
-            _fun00002_ip = 585; continue _fun00001;
- 567:
+            _fun00002_ip = 593; continue _fun00001;
+ 575:
             output = 17;
             output = echoed[output];
             output = result.bind(report)(output);
             golfie = output.MicrophoneSlashIcon;
- 585:
+ 593:
             romeon['icon'] = golfie;
             golfie = function() { // Original name: onPress
                 tangon = _closure2_slot2;
@@ -245,7 +245,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = 'mute';
             golfie = sizing.bind(report)(backup, romeon, golfie);
             golfie = offset.bind(verify)(golfie);
- 614:
+ 624:
             golfie = verify.push;
             output = _closure1_slot9;
             backup = _closure1_slot0;
@@ -265,31 +265,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = result[romeon];
             result = echoed.bind(report)(result);
             echoed = result.t;
-            if(oscard) { _fun00002_ip = 713; continue _fun00001 }
- 698:
+            if(oscard) { _fun00002_ip = 723; continue _fun00001 }
+ 708:
             result = echoed.LxhEuL;
             result = update.bind(source)(result);
-            _fun00002_ip = 726; continue _fun00001;
- 713:
+            _fun00002_ip = 736; continue _fun00001;
+ 723:
             echoed = echoed.639hQU;
             result = update.bind(source)(echoed);
- 726:
+ 736:
             backup['label'] = result;
             echoed = _closure1_slot0;
             update = _closure1_slot2;
-            if(oscard) { _fun00002_ip = 761; continue _fun00001 }
- 741:
+            if(oscard) { _fun00002_ip = 771; continue _fun00001 }
+ 751:
             oscard = 20;
             oscard = update[oscard];
             oscard = echoed.bind(report)(oscard);
             oscard = oscard.SoundboardIcon;
-            _fun00002_ip = 779; continue _fun00001;
- 761:
+            _fun00002_ip = 789; continue _fun00001;
+ 771:
             result = 19;
             result = update[result];
             result = echoed.bind(report)(result);
             oscard = result.SoundboardSlashIcon;
- 779:
+ 789:
             backup['icon'] = oscard;
             oscard = function() { // Original name: onPress
                 tangon = _closure2_slot2;
@@ -313,8 +313,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = 'mute-soundboard';
             oscard = output.bind(report)(sizing, backup, oscard);
             oscard = golfie.bind(verify)(oscard);
-            if(!tangon) { _fun00002_ip = 1198; continue _fun00001 }
- 816:
+            if(!tangon) { _fun00002_ip = 1212; continue _fun00001 }
+ 828:
             tangon = verify.push;
             backup = _closure1_slot9;
             golfie = _closure1_slot0;
@@ -332,34 +332,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = sizing[romeon];
             sizing = output.bind(report)(sizing);
             output = sizing.t;
-            if(kiloes) { _fun00002_ip = 909; continue _fun00001 }
- 894:
+            if(kiloes) { _fun00002_ip = 921; continue _fun00001 }
+ 906:
             sizing = output.4MMsWF;
             sizing = result.bind(echoed)(sizing);
-            _fun00002_ip = 922; continue _fun00001;
- 909:
+            _fun00002_ip = 934; continue _fun00001;
+ 921:
             output = output.xc+Ps7;
             sizing = result.bind(echoed)(output);
- 922:
+ 934:
             oscard['label'] = sizing;
             output = _closure1_slot0;
             result = _closure1_slot2;
-            if(kiloes) { _fun00002_ip = 957; continue _fun00001 }
- 937:
+            if(kiloes) { _fun00002_ip = 969; continue _fun00001 }
+ 949:
             kiloes = 22;
             kiloes = result[kiloes];
             kiloes = output.bind(report)(kiloes);
             kiloes = kiloes.VideoIcon;
-            _fun00002_ip = 975; continue _fun00001;
- 957:
+            _fun00002_ip = 987; continue _fun00001;
+ 969:
             sizing = 21;
             sizing = result[sizing];
             sizing = output.bind(report)(sizing);
             kiloes = sizing.VideoSlashIcon;
- 975:
+ 987:
             oscard['icon'] = kiloes;
-            if(!zuuluu) { _fun00002_ip = 1166; continue _fun00001 }
- 985:
+            if(!zuuluu) { _fun00002_ip = 1178; continue _fun00001 }
+ 997:
             output = _closure1_slot10;
             sizing = _closure1_slot3;
             kiloes = {};
@@ -396,7 +396,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result[1] = echoed;
             kiloes['children'] = result;
             zuuluu = output.bind(report)(sizing, kiloes);
- 1166:
+ 1178:
             oscard['sublabel'] = zuuluu;
             zuuluu = function() { // Original name: onPress
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
@@ -428,7 +428,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = golfie.MANUAL_ENABLED;
  94:
                     zuuluu = report.bind(oscard)(tangon, zuuluu);
-                    _fun00006_ip = 140; continue _fun00005;
+                    _fun00006_ip = 142; continue _fun00005;
  102:
                     zuuluu = _closure1_slot0;
                     tangon = _closure1_slot2;
@@ -452,7 +452,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     michal = zuuluu.bind(tangon)(michal);
- 140:
+ 142:
                     return entity;
                 }
             };
@@ -460,9 +460,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = 'disable-video';
             zuuluu = backup.bind(report)(golfie, oscard, zuuluu);
             zuuluu = tangon.bind(verify)(zuuluu);
- 1198:
-            if(!michal) { _fun00002_ip = 1360; continue _fun00001 }
- 1204:
+ 1212:
+            if(!michal) { _fun00002_ip = 1376; continue _fun00001 }
+ 1218:
             michal = verify.push;
             oscard = _closure1_slot9;
             backup = _closure1_slot0;
@@ -540,12 +540,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 'view-secure-frames-verification-code';
             entity = oscard.bind(report)(tangon, zuuluu, entity);
             entity = michal.bind(verify)(entity);
- 1360:
+ 1376:
             zuuluu = verify.length;
             michal = 0;
             entity = null;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1525; continue _fun00001 }
- 1376:
+            if(!(michal !== zuuluu)) { _fun00002_ip = 1541; continue _fun00001 }
+ 1392:
             tangon = _closure1_slot9;
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot2;
@@ -579,7 +579,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1525:
+ 1541:
             return entity;
         }
     };
@@ -651,12 +651,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = golfie.id;
             zuuluu = tangon.bind(report)(zuuluu, entity);
             entity = null;
-            if(!michal) { _fun00008_ip = 566; continue _fun00007 }
- 194:
+            if(!michal) { _fun00008_ip = 572; continue _fun00007 }
+ 198:
             michal = golfie.isGuildStageVoice;
             michal = michal.bind(golfie)();
-            if(!michal) { _fun00008_ip = 245; continue _fun00007 }
- 207:
+            if(!michal) { _fun00008_ip = 249; continue _fun00007 }
+ 211:
             golfie = _closure1_slot0;
             michal = _closure1_slot2;
             michal = michal[offset];
@@ -664,8 +664,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.RequestToSpeakStates;
             michal = michal.ON_STAGE;
             entity = null;
-            if(!(zuuluu === michal)) { _fun00008_ip = 566; continue _fun00007 }
- 245:
+            if(!(zuuluu === michal)) { _fun00008_ip = 572; continue _fun00007 }
+ 249:
             tangon = _closure1_slot9;
             zuuluu = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -711,31 +711,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes[echoed];
             kiloes = sizing.bind(report)(kiloes);
             sizing = kiloes.t;
-            if(foxtra) { _fun00008_ip = 458; continue _fun00007 }
- 445:
+            if(foxtra) { _fun00008_ip = 462; continue _fun00007 }
+ 449:
             kiloes = sizing.sWmtIy;
             kiloes = output.bind(result)(kiloes);
-            _fun00008_ip = 469; continue _fun00007;
- 458:
+            _fun00008_ip = 473; continue _fun00007;
+ 462:
             sizing = sizing.NHJxcn;
             kiloes = output.bind(result)(sizing);
- 469:
+ 473:
             offset['label'] = kiloes;
             kiloes = _closure1_slot0;
             sizing = _closure1_slot2;
-            if(foxtra) { _fun00008_ip = 504; continue _fun00007 }
- 484:
+            if(foxtra) { _fun00008_ip = 508; continue _fun00007 }
+ 488:
             foxtra = 18;
             foxtra = sizing[foxtra];
             foxtra = kiloes.bind(report)(foxtra);
             foxtra = foxtra.MicrophoneIcon;
-            _fun00008_ip = 522; continue _fun00007;
- 504:
+            _fun00008_ip = 526; continue _fun00007;
+ 508:
             backup = 17;
             backup = sizing[backup];
             backup = kiloes.bind(report)(backup);
             foxtra = backup.MicrophoneSlashIcon;
- 522:
+ 526:
             offset['icon'] = foxtra;
             verify = function() { // Original name: onPress
                 zuuluu = _closure2_slot1;
@@ -760,7 +760,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 566:
+ 572:
             return entity;
         }
     };

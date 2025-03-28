@@ -216,6 +216,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['useGuildMemberAndUserPendingAvatarDecoration'] = tangon;
+    tangon = function() { // Original name: useGlobalPendingNameplate
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot2;
+        michal = 5;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStoresObject;
+        entity = _closure1_slot7;
+        michal = new Array(1);
+        michal[0] = entity;
+        entity = function() {
+            entity = {};
+            zuuluu = _closure1_slot7;
+            michal = zuuluu.getPendingNameplate;
+            michal = michal.bind(zuuluu)();
+            entity['pendingUserNameplate'] = michal;
+            michal = zuuluu.getErrors;
+            michal = michal.bind(zuuluu)();
+            michal = michal.nameplate;
+            entity['userErrors'] = michal;
+            return entity;
+        };
+        michal = zuuluu.bind(tangon)(michal, entity);
+        entity = {};
+        zuuluu = michal.pendingUserNameplate;
+        entity['pendingNameplate'] = zuuluu;
+        michal = michal.userErrors;
+        entity['pendingErrors'] = michal;
+        return entity;
+    };
+    zuuluu['useGlobalPendingNameplate'] = tangon;
     tangon = function(argFoo, argBar) { // Original name: useGlobalOrGuildIdentityProfileEffect
         golfie = argFoo;
         oscard = argBar;
@@ -434,6 +466,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['setNewPendingAvatarDecoration'] = tangon;
+    tangon = function(argFoo) { // Original name: setNewPendingNameplate
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
+        entity = 8;
+        michal = michal[entity];
+        entity = undefined;
+        michal = zuuluu.bind(entity)(michal);
+        zuuluu = michal.setPendingNameplate;
+        michal = argFoo;
+        michal = zuuluu.bind(entity)(michal);
+        michal = !michal;
+        return entity;
+    };
+    zuuluu['setNewPendingNameplate'] = tangon;
     tangon = function(argFoo, argBar, argBaz) { // Original name: setNewPendingProfileEffectId
         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:

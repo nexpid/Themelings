@@ -229,16 +229,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot6 = offset;
             option = null;
             result = option != offset;
-            if(!result) { _fun00002_ip = 306; continue _fun00001 }
- 288:
+            if(!result) { _fun00002_ip = 312; continue _fun00001 }
+ 294:
             michal = option == sizing;
             entity = undefined;
-            if(michal) { _fun00002_ip = 302; continue _fun00001 }
- 297:
+            if(michal) { _fun00002_ip = 308; continue _fun00001 }
+ 303:
             entity = sizing.id;
- 302:
+ 308:
             result = offset === entity;
- 306:
+ 312:
             michal = _closure1_slot1;
             report = _closure1_slot3;
             entity = 17;
@@ -314,14 +314,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = entity.isUnusableRoleSubscriptionEmoji;
             update = entity.userIsRoleSubscriber;
             entity = !cntext;
-            if(entity) { _fun00002_ip = 446; continue _fun00001 }
- 396:
+            if(entity) { _fun00002_ip = 454; continue _fun00001 }
+ 404:
             michal = option == zuuluu;
             report = undefined;
-            if(michal) { _fun00002_ip = 410; continue _fun00001 }
- 405:
+            if(michal) { _fun00002_ip = 418; continue _fun00001 }
+ 413:
             report = zuuluu.type;
- 410:
+ 418:
             golfie = _closure1_slot0;
             foxtra = _closure1_slot3;
             michal = 18;
@@ -330,10 +330,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.EmojiTypes;
             michal = michal.GUILD;
             entity = report !== michal;
- 446:
+ 454:
             echoed = !entity;
-            if(entity) { _fun00002_ip = 497; continue _fun00001 }
- 452:
+            if(entity) { _fun00002_ip = 505; continue _fun00001 }
+ 460:
             michal = _closure1_slot0;
             report = _closure1_slot3;
             entity = 20;
@@ -342,12 +342,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = report.shouldHideGuildPurchaseEntryPoints;
             golfie = option == zuuluu;
             entity = undefined;
-            if(golfie) { _fun00002_ip = 492; continue _fun00001 }
- 487:
+            if(golfie) { _fun00002_ip = 500; continue _fun00001 }
+ 495:
             entity = zuuluu.guildId;
- 492:
+ 500:
             echoed = michal.bind(report)(entity);
- 497:
+ 505:
             michal = _closure1_slot0;
             report = _closure1_slot3;
             entity = 21;
@@ -358,26 +358,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _closure2_slot8 = status;
             michal = option == sizing;
             entity = undefined;
-            if(michal) { _fun00002_ip = 552; continue _fun00001 }
- 542:
+            if(michal) { _fun00002_ip = 560; continue _fun00001 }
+ 550:
             michal = sizing.isDiscoverable;
             entity = michal.bind(sizing)();
- 552:
+ 560:
             golfie = option != entity;
-            if(!golfie) { _fun00002_ip = 562; continue _fun00001 }
- 559:
+            if(!golfie) { _fun00002_ip = 570; continue _fun00001 }
+ 567:
             golfie = entity;
- 562:
+ 570:
             entity = {};
-            if(!(option == offset)) { _fun00002_ip = 580; continue _fun00001 }
- 568:
+            if(!(option == offset)) { _fun00002_ip = 588; continue _fun00001 }
+ 576:
             michal = _closure1_slot11;
             michal = michal.DM_CHANNEL;
-            _fun00002_ip = 590; continue _fun00001;
- 580:
+            _fun00002_ip = 598; continue _fun00001;
+ 588:
             zuuluu = _closure1_slot11;
             michal = zuuluu.GUILD_CHANNEL;
- 590:
+ 598:
             entity['page'] = michal;
             michal = _closure1_slot12;
             michal = michal.EMOJI_UPSELL_POPOUT;
@@ -448,10 +448,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['popoutData'] = entity;
             foxtra = option == sizing;
             offset = undefined;
-            if(foxtra) { _fun00002_ip = 764; continue _fun00001 }
- 759:
+            if(foxtra) { _fun00002_ip = 774; continue _fun00001 }
+ 769:
             offset = sizing.id;
- 764:
+ 774:
             michal['emojiSourceGuildId'] = offset;
             michal['nonce'] = oscard;
             michal = zuuluu.bind(report)(michal);
@@ -514,15 +514,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity[sequen];
             entity = report.bind(tangon)(entity);
             entity = entity.t;
-            if(yankee) { _fun00002_ip = 869; continue _fun00001 }
- 854:
+            if(yankee) { _fun00002_ip = 881; continue _fun00001 }
+ 866:
             report = entity.eLfh+f;
             echoed = michal.bind(zuuluu)(report);
-            _fun00002_ip = 882; continue _fun00001;
- 869:
+            _fun00002_ip = 894; continue _fun00001;
+ 881:
             entity = entity.ohTzZG;
             echoed = michal.bind(zuuluu)(entity);
- 882:
+ 894:
             zuuluu = _closure1_slot0;
             entity = _closure1_slot3;
             michal = entity[output];
@@ -590,13 +590,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal[1] = entity;
             entity = michal.includes;
             entity = entity.bind(michal)(offset);
-            if(entity) { _fun00002_ip = 1001; continue _fun00001 }
- 993:
-            entity = backup.bottomCtaButton;
-            _fun00002_ip = 1007; continue _fun00001;
- 1001:
-            entity = backup.ctaButton;
+            if(entity) { _fun00002_ip = 1015; continue _fun00001 }
  1007:
+            entity = backup.bottomCtaButton;
+            _fun00002_ip = 1021; continue _fun00001;
+ 1015:
+            entity = backup.ctaButton;
+ 1021:
             variable37 = config;
             variable36 = entity;
             entity = copyDataProperties(variable37, variable36);
@@ -665,8 +665,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = new Array(2);
             record[0] = papara;
             papara = option != whisks;
-            if(!papara) { _fun00002_ip = 1351; continue _fun00001 }
- 1305:
+            if(!papara) { _fun00002_ip = 1365; continue _fun00001 }
+ 1319:
             limora = _closure1_slot13;
             sierra = _closure1_slot0;
             target = _closure1_slot3;
@@ -678,18 +678,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target['variant'] = equals;
             target['children'] = whisks;
             papara = limora.bind(tangon)(sierra, target);
- 1351:
+ 1365:
             record[1] = papara;
             ctrled['children'] = record;
             record = zuuluu.bind(tangon)(oscard, ctrled);
             ctrled = new Array(2);
             ctrled[0] = record;
             record = null;
-            if(cntext) { _fun00002_ip = 1564; continue _fun00001 }
- 1381:
+            if(cntext) { _fun00002_ip = 1582; continue _fun00001 }
+ 1395:
             record = null;
-            if(!yankee) { _fun00002_ip = 1564; continue _fun00001 }
- 1389:
+            if(!yankee) { _fun00002_ip = 1582; continue _fun00001 }
+ 1403:
             target = _closure1_slot13;
             papara = _closure1_slot0;
             sierra = _closure1_slot3;
@@ -707,29 +707,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sierra = sierra[sequen];
             sierra = limora.bind(tangon)(sierra);
             limora = sierra.t;
-            if(status) { _fun00002_ip = 1478; continue _fun00001 }
- 1465:
+            if(status) { _fun00002_ip = 1492; continue _fun00001 }
+ 1479:
             sierra = limora.yZFibW;
             sierra = whisks.bind(equals)(sierra);
-            _fun00002_ip = 1489; continue _fun00001;
- 1478:
+            _fun00002_ip = 1503; continue _fun00001;
+ 1492:
             limora = limora.aBUcp6;
             sierra = whisks.bind(equals)(limora);
- 1489:
+ 1503:
             cntext['accessibilityLabel'] = sierra;
             sierra = backup.starIcon;
             cntext['style'] = sierra;
             sierra = _closure1_slot1;
             whisks = _closure1_slot3;
-            if(status) { _fun00002_ip = 1523; continue _fun00001 }
- 1514:
+            if(status) { _fun00002_ip = 1537; continue _fun00001 }
+ 1528:
             status = 33;
             status = whisks[status];
-            _fun00002_ip = 1530; continue _fun00001;
- 1523:
+            _fun00002_ip = 1544; continue _fun00001;
+ 1537:
             limora = 32;
             status = whisks[limora];
- 1530:
+ 1544:
             status = sierra.bind(tangon)(status);
             cntext['source'] = status;
             status = function() { // Original name: IconComponent
@@ -795,8 +795,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = 29;
                     option = tangon[option];
                     option = verify.bind(entity)(option);
-                    if(golfie) { _fun00010_ip = 119; continue _fun00009 }
- 50:
+                    if(golfie) { _fun00010_ip = 123; continue _fun00009 }
+ 52:
                     verify = option.favoriteEmoji;
                     golfie = _closure2_slot1;
                     golfie = verify.bind(option)(golfie);
@@ -820,8 +820,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie['icon'] = yankee;
                     golfie['content'] = report;
                     golfie = verify.bind(offset)(golfie);
-                    _fun00010_ip = 186; continue _fun00009;
- 119:
+                    _fun00010_ip = 192; continue _fun00009;
+ 123:
                     golfie = option.unfavoriteEmoji;
                     zuuluu = _closure2_slot1;
                     zuuluu = golfie.bind(option)(zuuluu);
@@ -845,13 +845,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['icon'] = oscard;
                     michal['content'] = report;
                     michal = zuuluu.bind(tangon)(michal);
- 186:
+ 192:
                     return entity;
                 }
             };
             cntext['onPress'] = status;
             record = target.bind(tangon)(papara, cntext);
- 1564:
+ 1582:
             ctrled[1] = record;
             source['children'] = ctrled;
             source = zuuluu.bind(tangon)(oscard, source);
@@ -866,11 +866,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = foxtra.bind(tangon)(oscard);
             oscard = oscard.EmojiPopoutType;
             oscard = oscard.GET_PREMIUM;
-            if(!(offset !== oscard)) { _fun00002_ip = 1769; continue _fun00001 }
- 1636:
+            if(!(offset !== oscard)) { _fun00002_ip = 1789; continue _fun00001 }
+ 1654:
             oscard = null;
-            if(!result) { _fun00002_ip = 1767; continue _fun00001 }
- 1644:
+            if(!result) { _fun00002_ip = 1787; continue _fun00001 }
+ 1662:
             output = _closure1_slot13;
             ctrled = _closure1_slot1;
             source = _closure1_slot3;
@@ -920,9 +920,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             offset['onPress'] = update;
             oscard = output.bind(tangon)(foxtra, offset);
- 1767:
-            _fun00002_ip = 1778; continue _fun00001;
- 1769:
+ 1787:
+            _fun00002_ip = 1800; continue _fun00001;
+ 1789:
             verify = function() { // Original name: renderPremiumUpsellButton
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
@@ -936,7 +936,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = entity.EmojiPopoutType;
                     zuuluu = entity.GET_PREMIUM;
                     entity = null;
-                    if(!(tangon === zuuluu)) { _fun00016_ip = 156; continue _fun00015 }
+                    if(!(tangon === zuuluu)) { _fun00016_ip = 158; continue _fun00015 }
  50:
                     tangon = _closure1_slot13;
                     option = _closure1_slot1;
@@ -1020,22 +1020,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     michal['onPress'] = oscard;
                     entity = tangon.bind(report)(zuuluu, michal);
- 156:
+ 158:
                     return entity;
                 }
             };
             oscard = verify.bind(tangon)();
- 1778:
+ 1800:
             report[1] = oscard;
-            if(yankee) { _fun00002_ip = 1793; continue _fun00001 }
- 1785:
+            if(yankee) { _fun00002_ip = 1815; continue _fun00001 }
+ 1807:
             oscard = null;
-            if(!golfie) { _fun00002_ip = 1998; continue _fun00001 }
- 1793:
+            if(!golfie) { _fun00002_ip = 2020; continue _fun00001 }
+ 1815:
             golfie = option == sizing;
             oscard = null;
-            if(golfie) { _fun00002_ip = 1998; continue _fun00001 }
- 1805:
+            if(golfie) { _fun00002_ip = 2020; continue _fun00001 }
+ 1827:
             verify = _closure1_slot14;
             option = _closure1_slot15;
             golfie = {};
@@ -1064,8 +1064,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = output.bind(tangon)(backup, foxtra);
             offset[1] = foxtra;
             yankee = !yankee;
-            if(!yankee) { _fun00002_ip = 1984; continue _fun00001 }
- 1923:
+            if(!yankee) { _fun00002_ip = 2006; continue _fun00001 }
+ 1945:
             backup = _closure1_slot13;
             foxtra = _closure1_slot0;
             output = _closure1_slot3;
@@ -1080,11 +1080,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes[0] = sizing;
             romeon['doNotDisplayEmojiIds'] = kiloes;
             yankee = backup.bind(tangon)(foxtra, romeon);
- 1984:
+ 2006:
             offset[2] = yankee;
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 1998:
+ 2020:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

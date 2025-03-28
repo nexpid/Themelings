@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     option['channelNameAndAccessories'] = yankee;
     yankee = {'flexDirection': 'row', 'alignItems': 'center'};
     option['channelIcons'] = yankee;
-    yankee = {'flexDirection': 'row', 'justifyContent': 'flex-end', 'alignItems': 'center', 'borderRadius': null, 'paddingHorizontal': 4, 'paddingVertical': 1};
+    yankee = {'flexDirection': 'row', 'justifyContent': 'flex-end', 'alignItems': 'center', 'borderRadius': null, 'overflow': 'hidden', 'paddingHorizontal': 4, 'paddingVertical': 1};
     romeon = 7;
     backup = oscard[romeon];
     backup = foxtra.bind(entity)(backup);

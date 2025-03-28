@@ -35,10 +35,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     var _closure1_slot6 = golfie;
     golfie = michal.AnalyticEvents;
     var _closure1_slot7 = golfie;
-    golfie = michal.ChannelTypesSets;
-    var _closure1_slot8 = golfie;
-    michal = michal.ChannelTypes;
-    var _closure1_slot9 = michal;
+    michal = michal.ChannelTypesSets;
+    var _closure1_slot8 = michal;
     michal = {};
     golfie = function(argFoo, argBar, argBaz, argCor, argGra) { // Original name: call
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -245,90 +243,65 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     golfie = function(argFoo, argBar) { // Original name: ring
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            yankee = argFoo;
-            oscard = argBar;
-            zuuluu = _closure1_slot3;
-            entity = zuuluu.getChannel;
-            report = entity.bind(zuuluu)(yankee);
-            zuuluu = null;
-            if(!(zuuluu != report)) { _fun00010_ip = 144; continue _fun00009 }
- 29:
-            golfie = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 10;
-            entity = tangon[entity];
-            tangon = undefined;
-            golfie = golfie.bind(tangon)(entity);
-            entity = golfie.canRingUsersInChannel;
-            golfie = entity.bind(golfie)(report);
-            entity = _closure1_slot8;
-            verify = entity.CALLABLE;
-            option = verify.has;
-            entity = report.type;
-            entity = option.bind(verify)(entity);
-            if(golfie) { _fun00010_ip = 148; continue _fun00009 }
- 90:
-            if(!entity) { _fun00010_ip = 144; continue _fun00009 }
+            golfie = argFoo;
+            report = argBar;
+            michal = _closure1_slot3;
+            entity = michal.getChannel;
+            entity = entity.bind(michal)(golfie);
+            michal = null;
+            if(!(michal != entity)) { _fun00010_ip = 231; continue _fun00009 }
+ 32:
+            oscard = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            michal = 10;
+            michal = zuuluu[michal];
+            zuuluu = undefined;
+            oscard = oscard.bind(zuuluu)(michal);
+            michal = oscard.canRingUsersInChannel;
+            michal = michal.bind(oscard)(entity);
+            oscard = _closure1_slot8;
+            option = oscard.CALLABLE;
+            oscard = option.has;
+            entity = entity.type;
+            entity = oscard.bind(option)(entity);
+            if(michal) { _fun00010_ip = 152; continue _fun00009 }
  93:
-            golfie = _closure1_slot1;
-            option = _closure1_slot2;
+            if(!entity) { _fun00010_ip = 231; continue _fun00009 }
+ 99:
+            michal = _closure1_slot1;
+            oscard = _closure1_slot2;
             entity = 11;
-            entity = option[entity];
-            option = golfie.bind(tangon)(entity);
-            golfie = option.dispatch;
+            entity = oscard[entity];
+            oscard = michal.bind(zuuluu)(entity);
+            michal = oscard.dispatch;
             entity = {};
-            verify = 'CALL_ENQUEUE_RING';
-            entity['type'] = verify;
-            entity['channelId'] = yankee;
-            entity['recipients'] = oscard;
-            entity = golfie.bind(option)(entity);
- 144:
-            entity = undefined;
-            return entity;
- 148:
-            golfie = _closure1_slot0;
-            option = _closure1_slot2;
+            option = 'CALL_ENQUEUE_RING';
+            entity['type'] = option;
+            entity['channelId'] = golfie;
+            entity['recipients'] = report;
+            entity = michal.bind(oscard)(entity);
+            _fun00010_ip = 231; continue _fun00009;
+ 152:
+            michal = _closure1_slot0;
+            oscard = _closure1_slot2;
             entity = 5;
-            entity = option[entity];
-            entity = golfie.bind(tangon)(entity);
-            option = entity.HTTP;
-            golfie = option.post;
+            entity = oscard[entity];
+            entity = michal.bind(zuuluu)(entity);
+            zuuluu = entity.HTTP;
+            michal = zuuluu.post;
             entity = {};
-            offset = _closure1_slot6;
-            verify = offset.CALL_RING;
-            verify = verify.bind(offset)(yankee);
-            entity['url'] = verify;
-            verify = {};
-            verify['recipients'] = oscard;
-            entity['body'] = verify;
-            verify = true;
-            entity['oldFormErrors'] = verify;
-            entity['rejectWithError'] = verify;
-            entity = golfie.bind(option)(entity);
-            golfie = report.type;
-            entity = _closure1_slot9;
-            entity = entity.GUILD_VOICE;
-            entity = golfie === entity;
-            if(!entity) { _fun00010_ip = 253; continue _fun00009 }
- 249:
-            entity = zuuluu != oscard;
- 253:
-            if(!entity) { _fun00010_ip = 312; continue _fun00009 }
- 256:
-            zuuluu = _closure1_slot1;
-            golfie = _closure1_slot2;
-            michal = 11;
-            michal = golfie[michal];
-            tangon = zuuluu.bind(tangon)(michal);
-            zuuluu = tangon.dispatch;
-            michal = {};
-            golfie = 'GUILD_LOCAL_RING_START';
-            michal['type'] = golfie;
-            michal['ringing'] = oscard;
-            report = report.guild_id;
-            michal['guildId'] = report;
-            entity = zuuluu.bind(tangon)(michal);
- 312:
+            oscard = _closure1_slot6;
+            tangon = oscard.CALL_RING;
+            tangon = tangon.bind(oscard)(golfie);
+            entity['url'] = tangon;
+            tangon = {};
+            tangon['recipients'] = report;
+            entity['body'] = tangon;
+            tangon = true;
+            entity['oldFormErrors'] = tangon;
+            entity['rejectWithError'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
+ 231:
             entity = undefined;
             return entity;
         }

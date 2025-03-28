@@ -372,11 +372,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report.bind(entity)(tangon);
                     zuuluu = _closure2_slot2;
                     zuuluu = zuuluu.current;
-                    if(!(michal != zuuluu)) { _fun00006_ip = 154; continue _fun00005 }
- 144:
+                    if(!(michal != zuuluu)) { _fun00006_ip = 152; continue _fun00005 }
+ 142:
                     michal = zuuluu.focus;
                     michal = michal.bind(zuuluu)();
- 154:
+ 152:
                     return entity;
                 }
             };

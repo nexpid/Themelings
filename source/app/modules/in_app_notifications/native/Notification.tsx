@@ -523,14 +523,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = new Array(2);
             option[0] = yankee;
             yankee = verify != foxtra;
-            if(!yankee) { _fun00006_ip = 378; continue _fun00005 }
- 357:
+            if(!yankee) { _fun00006_ip = 372; continue _fun00005 }
+ 351:
             romeon = _closure1_slot6;
             yankee = _closure1_slot14;
             offset = {};
             offset['percent'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 378:
+ 372:
             option[1] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

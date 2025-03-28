@@ -200,8 +200,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = zuuluu.bind(report)(entity);
             entity = entity.Presets;
             entity = entity.CUSTOM;
-            if(!(michal !== entity)) { _fun00002_ip = 358; continue _fun00001 }
- 301:
+            if(!(michal !== entity)) { _fun00002_ip = 354; continue _fun00001 }
+ 297:
             zuuluu = _closure1_slot4;
             michal = _closure1_slot0;
             option = _closure1_slot1;
@@ -214,8 +214,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['variant'] = option;
             entity['state'] = tangon;
             entity = zuuluu.bind(report)(michal, entity);
-            _fun00002_ip = 729; continue _fun00001;
- 358:
+            _fun00002_ip = 723; continue _fun00001;
+ 354:
             tangon = _closure1_slot5;
             zuuluu = _closure1_slot3;
             michal = {};
@@ -310,7 +310,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 729:
+ 723:
             return entity;
         }
     };

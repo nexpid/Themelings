@@ -689,7 +689,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     zuuluu['setPendingAvatar'] = tangon;
-    tangon = function(argFoo) { // Original name: setPendingGlobalNameName
+    tangon = function(argFoo) { // Original name: setPendingGlobalName
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
         entity = 3;
@@ -705,7 +705,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zuuluu['setPendingGlobalNameName'] = tangon;
+    zuuluu['setPendingGlobalName'] = tangon;
     tangon = function(argFoo) { // Original name: setPendingAvatarDecoration
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
