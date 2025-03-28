@@ -1894,6 +1894,17 @@
         "width": 24,
         "height": 24
     },
+    "clouds_background": {
+        "file": "modules/quests/native/VideoQuestModal/images/clouds_background.png",
+        "hash": "e5d497e242dfffadb8102108e8df2b1a",
+        "scales": [
+            1,
+            2,
+            3
+        ],
+        "width": 375,
+        "height": 58
+    },
     "clyde-avatar": {
         "file": "modules/clyde_ai/assets/clyde-avatar.png",
         "hash": "df3228db1e67e406cba743551d2b055e",
