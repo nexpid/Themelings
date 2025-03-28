@@ -5030,7 +5030,7 @@
         "height": 24
     },
     "ic_eye": {
-        "file": "modules/media_viewer/native/images/ic_eye.png",
+        "file": "modules/parent_tools/images/ic_eye.png",
         "hash": "87391322b2483c883b3f5fd1ac4080a9",
         "scales": [
             2,
