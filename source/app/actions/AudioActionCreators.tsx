@@ -233,23 +233,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = entity.location;
             entity = _closure1_slot11;
             entity = entity.bind(tangon)();
-            if(entity) { _fun00006_ip = 199; continue _fun00005 }
- 91:
+            if(entity) { _fun00006_ip = 222; continue _fun00005 }
+ 94:
             zuuluu = _closure1_slot12;
             entity = {};
             entity['usedKeybind'] = offset;
             entity['location'] = verify;
             entity = zuuluu.bind(tangon)(entity);
+            if(!report) { _fun00006_ip = 134; continue _fun00005 }
+ 117:
+            zuuluu = _closure1_slot6;
+            entity = zuuluu.hasActiveCallKitCall;
+            entity = entity.bind(zuuluu)();
+            report = !entity;
+ 134:
             zuuluu = _closure1_slot6;
             entity = zuuluu.isEnabled;
             entity = entity.bind(zuuluu)();
-            if(entity) { _fun00006_ip = 143; continue _fun00005 }
- 128:
+            if(entity) { _fun00006_ip = 166; continue _fun00005 }
+ 151:
             zuuluu = option.enable;
             entity = true;
             entity = zuuluu.bind(option)(entity);
-            _fun00006_ip = 197; continue _fun00005;
- 143:
+            _fun00006_ip = 220; continue _fun00005;
+ 166:
             zuuluu = _closure1_slot1;
             option = _closure1_slot2;
             michal = 9;
@@ -263,14 +270,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['syncRemote'] = oscard;
             michal['playSoundEffect'] = report;
             entity = zuuluu.bind(tangon)(michal);
- 197:
-            _fun00006_ip = 217; continue _fun00005;
- 199:
+ 220:
+            _fun00006_ip = 240; continue _fun00005;
+ 222:
             michal = global;
             zuuluu = michal.Promise;
             michal = zuuluu.resolve;
             entity = michal.bind(zuuluu)();
- 217:
+ 240:
             return entity;
         }
     };
@@ -286,8 +293,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  11:
             zuuluu = _closure1_slot11;
             zuuluu = zuuluu.bind(entity)();
-            if(zuuluu) { _fun00008_ip = 87; continue _fun00007 }
+            if(zuuluu) { _fun00008_ip = 107; continue _fun00007 }
  25:
+            if(!report) { _fun00008_ip = 45; continue _fun00007 }
+ 28:
+            tangon = _closure1_slot6;
+            zuuluu = tangon.hasActiveCallKitCall;
+            zuuluu = zuuluu.bind(tangon)();
+            report = !zuuluu;
+ 45:
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
             michal = 9;
@@ -303,7 +317,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['mute'] = oscard;
             michal['playSoundEffect'] = report;
             michal = zuuluu.bind(tangon)(michal);
- 87:
+ 107:
             return entity;
         }
     };

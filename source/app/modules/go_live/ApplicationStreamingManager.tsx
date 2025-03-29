@@ -730,29 +730,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = michal.bind(tangon)();
                     michal = _closure1_slot15;
                     michal = michal.STREAM_FULL;
-                    if(!(zuuluu === michal)) { _fun00024_ip = 143; continue _fun00023 }
+                    if(!(zuuluu === michal)) { _fun00024_ip = 155; continue _fun00023 }
  46:
                     golfie = _closure1_slot0;
                     option = _closure1_slot2;
-                    entity = 21;
-                    michal = option[entity];
+                    tangon = 21;
+                    entity = option[tangon];
                     report = undefined;
-                    tangon = golfie.bind(report)(michal);
-                    zuuluu = tangon.reportAVError;
-                    entity = option[entity];
-                    entity = golfie.bind(report)(entity);
-                    entity = entity.AVError;
-                    michal = entity.STREAM_FULL;
-                    entity = 22;
-                    entity = option[entity];
-                    report = golfie.bind(report)(entity);
-                    entity = report.getStreamErrorContext;
-                    entity = entity.bind(report)(oscard);
-                    entity = zuuluu.bind(tangon)(michal, entity);
+                    zuuluu = golfie.bind(report)(entity);
+                    michal = zuuluu.reportAVError;
+                    entity = {};
+                    tangon = option[tangon];
+                    tangon = golfie.bind(report)(tangon);
+                    tangon = tangon.AVError;
+                    tangon = tangon.STREAM_FULL;
+                    entity['type'] = tangon;
+                    tangon = 22;
+                    tangon = option[tangon];
+                    report = golfie.bind(report)(tangon);
+                    tangon = report.getStreamErrorContext;
+                    verify = tangon.bind(report)(oscard);
+                    offset = entity;
+                    tangon = copyDataProperties(offset, verify);
+                    entity = michal.bind(zuuluu)(entity);
                     michal = _closure3_slot0;
                     entity = michal.platformShowStreamFull;
                     entity = entity.bind(michal)();
- 143:
+ 155:
                     entity = undefined;
                     return entity;
                 }

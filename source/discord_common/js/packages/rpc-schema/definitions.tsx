@@ -351,11 +351,6 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         oscard = golfie.max;
         option = 64;
         oscard = oscard.bind(golfie)(option);
-        entity['referrer_id'] = oscard;
-        oscard = report.string;
-        golfie = oscard.bind(report)();
-        oscard = golfie.max;
-        oscard = oscard.bind(golfie)(option);
         entity['custom_id'] = oscard;
         oscard = report.string;
         verify = oscard.bind(report)();
@@ -389,6 +384,11 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         tangon = report.required;
         tangon = tangon.bind(report)();
         entity['didCopyLink'] = tangon;
+        tangon = zuuluu.boolean;
+        report = tangon.bind(zuuluu)();
+        tangon = report.required;
+        tangon = tangon.bind(report)();
+        entity['didSendMessage'] = tangon;
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };

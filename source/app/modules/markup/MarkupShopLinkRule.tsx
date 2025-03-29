@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = entity.RegExp;
     entity = tangon.prototype;
     michal = Object.create(entity, {constructor: {value: tangon}});
-    romeon = '^https://(?:(?:canary\\.|ptb\\.)?discord(?:app)?.com|staging\\.discord\\.co)/shop#itemSkuId=(\\d+)?';
+    romeon = '^https://(?:(?:canary\\.|ptb\\.)?discord(?:app)?\\.com|staging\\.discord\\.co)/shop(?:\\?tab=[a-z]+)?#itemSkuId=(\\d+)';
     foxtra = michal;
     entity = new foxtra[tangon](romeon, yankee);
     entity = entity instanceof Object ? entity : michal;

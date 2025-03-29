@@ -94,9 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = undefined;
             entity = option.bind(zuuluu)(entity);
             michal = entity.Text;
-            entity = {};
-            report = 'redesign/heading-18/bold';
-            entity['variant'] = report;
+            entity = {'variant': 'redesign/heading-18/bold', 'accessibilityRole': 'header'};
             report = 4;
             oscard = verify[report];
             oscard = option.bind(zuuluu)(oscard);

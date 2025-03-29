@@ -616,7 +616,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['GLOBAL_DISCOVERY_SERVERS_SEARCH_FAILURE'] = verify;
-    tangon = function(argFoo) { // Original name: handleGlobalDiscoveryServersSearchClear
+    verify = function(argFoo) { // Original name: handleGlobalDiscoveryServersSearchClear
         michal = argFoo;
         report = michal.ignoreQueries;
         michal = global;
@@ -656,7 +656,48 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    michal['GLOBAL_DISCOVERY_SERVERS_SEARCH_CLEAR'] = tangon;
+    michal['GLOBAL_DISCOVERY_SERVERS_SEARCH_CLEAR'] = verify;
+    tangon = function(argFoo) { // Original name: handleGuildProfileFetchSuccess
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+ 0:
+            entity = argFoo;
+            tangon = entity.guildId;
+            oscard = entity.profile;
+            zuuluu = _closure1_slot11;
+            michal = zuuluu.get;
+            report = michal.bind(zuuluu)(tangon);
+            golfie = null;
+            if(!(golfie != report)) { _fun00018_ip = 118; continue _fun00017 }
+ 37:
+            zuuluu = _closure1_slot11;
+            michal = zuuluu.set;
+            entity = {};
+            yankee = entity;
+            offset = report;
+            option = copyDataProperties(yankee, offset);
+            verify = oscard.memberCount;
+            if(!(golfie == verify)) { _fun00018_ip = 74; continue _fun00017 }
+ 68:
+            verify = report.memberCount;
+ 74:
+            option = 'memberCount';
+            entity[option] = verify;
+            oscard = oscard.onlineCount;
+            if(!(golfie == oscard)) { _fun00018_ip = 99; continue _fun00017 }
+ 93:
+            oscard = report.presenceCount;
+ 99:
+            report = 'presenceCount';
+            entity[report] = oscard;
+            entity = michal.bind(zuuluu)(tangon, entity);
+            entity = undefined;
+            return entity;
+ 118:
+            entity = false;
+            return entity;
+        }
+    };
+    michal['GUILD_PROFILE_FETCH_SUCCESS'] = tangon;
     tangon = option.prototype;
     tangon = Object.create(tangon, {constructor: {value: option}});
     backup = tangon;

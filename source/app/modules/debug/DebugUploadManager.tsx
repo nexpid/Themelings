@@ -19,30 +19,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 269; continue _fun00001 }
+                    if(report) { _fun00002_ip = 577; continue _fun00001 }
  10:
                     zuuluu = argFoo;
                     tangon = argBar;
-                    option = undefined;
-                    golfie = undefined;
+                    verify = undefined;
+                    oscard = undefined;
  20: // try_start_0
-                    oscard = _closure1_slot13;
-                    zuuluu = oscard.bind(option)(zuuluu);
+                    golfie = _closure1_slot13;
+                    zuuluu = golfie.bind(verify)(zuuluu);
                     SaveGenerator(address=36);
  34:
                     return zuuluu;
  36:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 94; continue _fun00001 }
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
+                    if(golfie) { _fun00002_ip = 94; continue _fun00001 }
  42:
-                    verify = _closure1_slot0;
+                    option = _closure1_slot0;
                     offset = _closure1_slot3;
-                    oscard = 5;
-                    oscard = offset[oscard];
-                    verify = verify.bind(option)(oscard);
-                    oscard = verify.uploadRtcLogFiles;
+                    golfie = 7;
+                    golfie = offset[golfie];
+                    option = option.bind(verify)(golfie);
+                    golfie = option.uploadRtcLogFiles;
                     report = _closure1_slot8;
-                    tangon = oscard.bind(verify)(report, tangon);
+                    tangon = golfie.bind(option)(report, tangon);
                     SaveGenerator(address=82);
  80:
                     return tangon;
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
                     if(report) { _fun00002_ip = 91; continue _fun00001 }
  88: // try_end0
-                    return option;
+                    return verify;
  91:
                     return tangon;
  94:
@@ -58,46 +58,122 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  97: // catch_target0
                     CatchBlockStart(arg_register=4);
                     michal = report;
-                    verify = _closure1_slot0;
+                    golfie = _closure1_slot0;
                     tangon = _closure1_slot3;
-                    oscard = 6;
-                    tangon = tangon[oscard];
-                    tangon = verify.bind(option)(tangon);
+                    option = 5;
+                    tangon = tangon[option];
+                    tangon = golfie.bind(verify)(tangon);
                     tangon = tangon.UploadVoiceDebugLogsError;
                     tangon = report instanceof tangon;
-                    if(!tangon) { _fun00002_ip = 197; continue _fun00001 }
- 138:
+                    if(!tangon) { _fun00002_ip = 502; continue _fun00001 }
+ 141:
+                    tangon = michal;
+                    golfie = tangon.code;
                     report = _closure1_slot0;
                     tangon = _closure1_slot3;
-                    tangon = tangon[oscard];
-                    tangon = report.bind(option)(tangon);
-                    report = tangon.UploadErrorCodes;
-                    tangon = michal;
-                    tangon = tangon.code;
-                    oscard = report[tangon];
-                    tangon = global;
-                    tangon = tangon.HermesInternal;
-                    report = tangon.concat;
-                    tangon = 'UploadErrorCodes.';
-                    golfie = report.bind(tangon)(oscard);
- 197:
-                    tangon = _closure1_slot0;
-                    verify = _closure1_slot3;
-                    zuuluu = 7;
-                    report = verify[zuuluu];
-                    oscard = tangon.bind(option)(report);
-                    report = oscard.reportAVError;
-                    zuuluu = verify[zuuluu];
-                    zuuluu = tangon.bind(option)(zuuluu);
-                    zuuluu = zuuluu.AVError;
-                    tangon = zuuluu.DEBUG_LOG_UPLOAD_FAILED;
+                    tangon = tangon[option];
+                    tangon = report.bind(verify)(tangon);
+                    tangon = tangon.UploadErrorCodes;
+                    tangon = tangon.GENERAL;
+                    if(!(tangon !== golfie)) { _fun00002_ip = 467; continue _fun00001 }
+ 185:
+                    report = _closure1_slot0;
+                    tangon = _closure1_slot3;
+                    tangon = tangon[option];
+                    tangon = report.bind(verify)(tangon);
+                    tangon = tangon.UploadErrorCodes;
+                    tangon = tangon.NO_FILE;
+                    if(!(tangon !== golfie)) { _fun00002_ip = 433; continue _fun00001 }
+ 221:
+                    report = _closure1_slot0;
+                    tangon = _closure1_slot3;
+                    tangon = tangon[option];
+                    tangon = report.bind(verify)(tangon);
+                    tangon = tangon.UploadErrorCodes;
+                    tangon = tangon.PROGRESS;
+                    if(!(tangon !== golfie)) { _fun00002_ip = 399; continue _fun00001 }
+ 257:
+                    report = _closure1_slot0;
+                    tangon = _closure1_slot3;
+                    tangon = tangon[option];
+                    tangon = report.bind(verify)(tangon);
+                    tangon = tangon.UploadErrorCodes;
+                    tangon = tangon.UPLOAD;
+                    if(!(tangon !== golfie)) { _fun00002_ip = 365; continue _fun00001 }
+ 290:
+                    report = _closure1_slot0;
+                    tangon = _closure1_slot3;
+                    tangon = tangon[option];
+                    tangon = report.bind(verify)(tangon);
+                    tangon = tangon.UploadErrorCodes;
+                    report = tangon.READ;
+                    tangon = undefined;
+                    if(!(report === golfie)) { _fun00002_ip = 499; continue _fun00001 }
+ 328:
+                    golfie = _closure1_slot0;
+                    option = _closure1_slot3;
+                    report = 6;
+                    report = option[report];
+                    report = golfie.bind(verify)(report);
+                    report = report.AVUnderlyingError;
+                    tangon = report.UploadErrorRead;
+                    _fun00002_ip = 499; continue _fun00001;
+ 365:
+                    golfie = _closure1_slot0;
+                    option = _closure1_slot3;
+                    report = 6;
+                    report = option[report];
+                    report = golfie.bind(verify)(report);
+                    report = report.AVUnderlyingError;
+                    tangon = report.UploadErrorUpload;
+                    _fun00002_ip = 499; continue _fun00001;
+ 399:
+                    golfie = _closure1_slot0;
+                    option = _closure1_slot3;
+                    report = 6;
+                    report = option[report];
+                    report = golfie.bind(verify)(report);
+                    report = report.AVUnderlyingError;
+                    tangon = report.UploadErrorProgress;
+                    _fun00002_ip = 499; continue _fun00001;
+ 433:
+                    golfie = _closure1_slot0;
+                    option = _closure1_slot3;
+                    report = 6;
+                    report = option[report];
+                    report = golfie.bind(verify)(report);
+                    report = report.AVUnderlyingError;
+                    tangon = report.UploadErrorNoFile;
+                    _fun00002_ip = 499; continue _fun00001;
+ 467:
+                    golfie = _closure1_slot0;
+                    option = _closure1_slot3;
+                    report = 6;
+                    report = option[report];
+                    report = golfie.bind(verify)(report);
+                    report = report.AVUnderlyingError;
+                    tangon = report.UploadErrorGeneral;
+ 499:
+                    oscard = tangon;
+ 502:
+                    option = _closure1_slot0;
+                    offset = _closure1_slot3;
+                    golfie = 6;
+                    zuuluu = offset[golfie];
+                    report = option.bind(verify)(zuuluu);
+                    tangon = report.reportAVError;
                     zuuluu = {};
-                    zuuluu['underlyingError'] = golfie;
-                    golfie = michal.message;
-                    zuuluu['errorMessage'] = golfie;
-                    zuuluu = report.bind(oscard)(tangon, zuuluu);
+                    golfie = offset[golfie];
+                    golfie = option.bind(verify)(golfie);
+                    golfie = golfie.AVError;
+                    golfie = golfie.DEBUG_LOG_UPLOAD_FAILED;
+                    zuuluu['type'] = golfie;
+                    zuuluu['underlyingError'] = oscard;
+                    oscard = michal.message;
+                    zuuluu['errorMessage'] = oscard;
+                    zuuluu = tangon.bind(report)(zuuluu);
                     throw michal;
- 269:
+ 577:
                     return entity;
                 }
             };

@@ -5,6 +5,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = argPlu;
     var _closure1_slot0 = report;
     var _closure1_slot1 = verify;
+    entity = ['type'];
+    var _closure1_slot2 = entity;
     entity = global;
     golfie = entity.Object;
     oscard = golfie.defineProperty;
@@ -16,6 +18,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = 0;
     tangon = verify[entity];
     entity = undefined;
+    tangon = report.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = verify[tangon];
     oscard = report.bind(entity)(tangon);
     tangon = oscard.prototype;
     report = Object.create(tangon, {constructor: {value: oscard}});
@@ -23,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     output = report;
     tangon = new output[oscard](sizing, kiloes);
     tangon = tangon instanceof Object ? tangon : report;
-    var _closure1_slot2 = tangon;
+    var _closure1_slot4 = tangon;
     golfie = {};
     tangon = 'stream-failed-to-start';
     golfie['STREAM_FAILED_TO_START'] = tangon;
@@ -59,6 +65,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie['STREAM_FULL'] = tangon;
     tangon = 'audio-capture-sample-rate-mismatch';
     golfie['AUDIO_CAPTURE_SAMPLE_RATE_MISMATCH'] = tangon;
+    tangon = 'video-stream-sender-ready-timeout';
+    golfie['VIDEO_STREAM_SENDER_READY_TIMEOUT'] = tangon;
+    tangon = 'video-stream-receiver-ready-timeout';
+    golfie['VIDEO_STREAM_RECEIVER_READY_TIMEOUT'] = tangon;
     oscard = {};
     tangon = 'audio';
     oscard['Audio'] = tangon;
@@ -207,6 +217,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option['category'] = foxtra;
     option['isErrorOutbound'] = romeon;
     tangon[offset] = option;
+    offset = golfie.VIDEO_STREAM_SENDER_READY_TIMEOUT;
+    option = {};
+    foxtra = 2011;
+    option['errorCode'] = foxtra;
+    foxtra = report.Critical;
+    option['severity'] = foxtra;
+    foxtra = oscard.Video;
+    option['category'] = foxtra;
+    option['isErrorOutbound'] = yankee;
+    tangon[offset] = option;
+    offset = golfie.VIDEO_STREAM_RECEIVER_READY_TIMEOUT;
+    option = {};
+    foxtra = 2012;
+    option['errorCode'] = foxtra;
+    foxtra = report.Critical;
+    option['severity'] = foxtra;
+    foxtra = oscard.Video;
+    option['category'] = foxtra;
+    option['isErrorOutbound'] = romeon;
+    tangon[offset] = option;
     offset = golfie.NO_INPUT_DEVICES;
     option = {};
     romeon = 3001;
@@ -247,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option['category'] = romeon;
     option['isErrorOutbound'] = yankee;
     tangon[offset] = option;
-    var _closure1_slot3 = tangon;
+    var _closure1_slot5 = tangon;
     tangon = {};
     option = 'Unknown';
     tangon['Unknown'] = option;
@@ -267,14 +297,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon['NoiseCancellerFailed'] = option;
     option = 'NoiseCancellerError.VAD_CPU_OVERUSE';
     tangon['NoiseCancellerVadCpuOveruse'] = option;
-    var _closure1_slot4 = tangon;
     option = function() { // Original name: validateUniqueErrorCodes
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = global;
             oscard = entity.Object;
             report = oscard.values;
-            tangon = _closure1_slot3;
+            tangon = _closure1_slot5;
             oscard = report.bind(oscard)(tangon);
             report = oscard.map;
             tangon = function(argFoo) {
@@ -312,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot1 = tangon;
             report = entity.Object;
             tangon = report.entries;
-            zuuluu = _closure1_slot3;
+            zuuluu = _closure1_slot5;
             report = tangon.bind(report)(zuuluu);
             tangon = report.filter;
             zuuluu = function(argFoo) {
@@ -411,7 +440,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     option = option.bind(entity)();
-    option = 2;
+    option = 3;
     verify = verify[option];
     option = argBar;
     offset = option.bind(entity)(verify);
@@ -422,77 +451,50 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['AVErrorCategory'] = oscard;
     zuuluu['AVErrorSeverity'] = report;
     zuuluu['AVUnderlyingError'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: reportAVError
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
- 0:
-            oscard = argFoo;
-            tangon = argBar;
-            michal = tangon.underlyingError;
-            entity = null;
-            if(!(entity != michal)) { _fun00008_ip = 116; continue _fun00007 }
- 18:
-            entity = global;
-            golfie = entity.Object;
-            report = golfie.values;
-            zuuluu = _closure1_slot4;
-            golfie = report.bind(golfie)(zuuluu);
-            report = golfie.includes;
-            zuuluu = tangon.underlyingError;
-            zuuluu = report.bind(golfie)(zuuluu);
-            if(zuuluu) { _fun00008_ip = 116; continue _fun00007 }
- 62:
-            zuuluu = _closure1_slot2;
-            michal = zuuluu.error;
-            option = tangon.underlyingError;
-            entity = entity.HermesInternal;
-            golfie = entity.concat;
-            report = "Invalid underlying error string '";
-            entity = "', must be member of AVUnderlyingError";
-            entity = golfie.bind(report)(option, entity);
-            entity = michal.bind(zuuluu)(entity);
-            _fun00008_ip = 271; continue _fun00007;
- 116:
-            report = _closure1_slot2;
-            zuuluu = report.error;
-            michal = global;
-            option = michal.JSON;
-            golfie = option.stringify;
-            verify = golfie.bind(option)(tangon);
-            michal = michal.HermesInternal;
-            option = michal.concat;
-            golfie = 'AV error reported: ';
-            michal = ' ';
-            michal = option.bind(golfie)(oscard, michal, verify);
-            michal = zuuluu.bind(report)(michal);
-            michal = _closure1_slot3;
-            report = michal[oscard];
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 1;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.dispatch;
-            entity = {};
-            golfie = 'REPORT_AV_ERROR';
-            entity['type'] = golfie;
-            entity['error'] = oscard;
-            oscard = report.errorCode;
-            entity['errorCode'] = oscard;
-            oscard = report.severity;
-            entity['severity'] = oscard;
-            report = report.category;
-            entity['category'] = report;
-            entity['context'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
- 271:
-            entity = undefined;
-            return entity;
-        }
+    tangon = function(argFoo) { // Original name: reportAVError
+        report = argFoo;
+        golfie = report.type;
+        tangon = _closure1_slot3;
+        zuuluu = _closure1_slot2;
+        entity = undefined;
+        offset = tangon.bind(entity)(report, zuuluu);
+        oscard = _closure1_slot4;
+        tangon = oscard.error;
+        zuuluu = global;
+        verify = zuuluu.JSON;
+        option = verify.stringify;
+        offset = option.bind(verify)(offset);
+        zuuluu = zuuluu.HermesInternal;
+        verify = zuuluu.concat;
+        option = 'AV error reported: ';
+        zuuluu = ' ';
+        zuuluu = verify.bind(option)(golfie, zuuluu, offset);
+        zuuluu = tangon.bind(oscard)(zuuluu);
+        zuuluu = _closure1_slot5;
+        oscard = zuuluu[golfie];
+        zuuluu = _closure1_slot0;
+        tangon = _closure1_slot1;
+        michal = 2;
+        michal = tangon[michal];
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        option = 'REPORT_AV_ERROR';
+        michal['type'] = option;
+        michal['error'] = golfie;
+        golfie = oscard.errorCode;
+        michal['errorCode'] = golfie;
+        golfie = oscard.severity;
+        michal['severity'] = golfie;
+        oscard = oscard.category;
+        michal['category'] = oscard;
+        michal['context'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
     };
     zuuluu['reportAVError'] = tangon;
     michal = function(argFoo) { // Original name: getErrorInfo
-        michal = _closure1_slot3;
+        michal = _closure1_slot5;
         entity = argFoo;
         entity = michal[entity];
         return entity;

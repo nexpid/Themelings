@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot10 = tangon;
     tangon = ['embedded_cover'];
     var _closure1_slot11 = tangon;
-    tangon = 27;
+    tangon = 28;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -544,7 +544,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  223:
             tangon = _closure1_slot0;
             verify = _closure1_slot2;
-            michal = 26;
+            michal = 27;
             michal = verify[michal];
             verify = tangon.bind(entity)(michal);
             tangon = verify.assertNever;
@@ -554,13 +554,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  265:
             tangon = _closure1_slot0;
             verify = _closure1_slot2;
-            michal = 24;
+            michal = 25;
             michal = verify[michal];
             romeon = tangon.bind(entity)(michal);
             yankee = romeon.copy;
             michal = offset.embedUrl;
             michal = yankee.bind(romeon)(michal);
-            michal = 25;
+            michal = 26;
             michal = verify[michal];
             tangon = tangon.bind(entity)(michal);
             michal = tangon.presentLinkCopied;
@@ -571,7 +571,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  333:
             tangon = _closure1_slot0;
             verify = _closure1_slot2;
-            michal = 17;
+            michal = 24;
             michal = verify[michal];
             verify = tangon.bind(entity)(michal);
             tangon = verify.installApplication;

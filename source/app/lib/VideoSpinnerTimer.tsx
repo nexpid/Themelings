@@ -60,8 +60,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon['REMOTE_STREAM'] = option;
     option = 'change_video_background';
     tangon['CHANGE_VIDEO_BACKGROUND'] = option;
-    option = 'video_player';
-    tangon['VIDEO_PLAYER'] = option;
     option = 'replay_video_stream';
     tangon['REPLAY_VIDEO_STREAM'] = option;
     report = report.Map;

@@ -78,6 +78,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['VIDEO_QUEST_FORCE_END_CARD_CTA_SWAP'] = tangon;
     entity = 'VIDEO_QUEST_FORCE_END_CARD_CTA_SWAP';
     michal[tangon] = entity;
+    tangon = 20;
+    michal['EXPERIMENTAL_TARGETING_TRAITS'] = tangon;
+    entity = 'EXPERIMENTAL_TARGETING_TRAITS';
+    michal[tangon] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

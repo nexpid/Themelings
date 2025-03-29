@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
-    verify = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'bottom': 0};
+    verify = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'bottom': 0, 'zIndex': 1};
     tangon['loadingIndicator'] = verify;
     verify = {};
     offset = 6;

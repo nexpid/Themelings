@@ -655,7 +655,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = 500;
     michal = yankee.bind(romeon)(verify, michal);
     var _closure1_slot27 = michal;
-    michal = 15;
+    michal = 16;
     michal = oscard[michal];
     michal = option.bind(entity)(michal);
     verify = michal.Store;
@@ -848,7 +848,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = michal.bind(entity)(verify);
     michal = 'GuildSettingsRolesStore';
     verify['displayName'] = michal;
-    michal = 16;
+    michal = 17;
     michal = oscard[michal];
     kiloes = option.bind(entity)(michal);
     michal = {};
@@ -1073,8 +1073,42 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     michal['GUILD_SETTINGS_ROLES_UPDATE_COLOR'] = offset;
-    offset = function(argFoo) { // Original name: handleUpdateSettings
+    offset = function(argFoo) { // Original name: handleUpdateColors
         _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
+ 0:
+            entity = argFoo;
+            zuuluu = entity.id;
+            oscard = entity.colors;
+            michal = _closure1_slot34;
+            tangon = undefined;
+            zuuluu = michal.bind(tangon)(zuuluu);
+            michal = null;
+            if(!(michal != zuuluu)) { _fun00042_ip = 102; continue _fun00041 }
+ 33:
+            report = _closure1_slot1;
+            golfie = _closure1_slot3;
+            michal = 15;
+            michal = golfie[michal];
+            michal = report.bind(tangon)(michal);
+            report = michal.bind(tangon)(oscard);
+            michal = _closure1_slot33;
+            entity = {};
+            golfie = oscard.primary_color;
+            entity['color'] = golfie;
+            entity['colors'] = oscard;
+            oscard = report.primaryColor;
+            entity['colorString'] = oscard;
+            entity['colorStrings'] = report;
+            entity = michal.bind(tangon)(zuuluu, entity);
+            return entity;
+ 102:
+            entity = false;
+            return entity;
+        }
+    };
+    michal['GUILD_SETTINGS_ROLES_UPDATE_COLORS'] = offset;
+    offset = function(argFoo) { // Original name: handleUpdateSettings
+        _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
  0:
             entity = argFoo;
             zuuluu = entity.id;
@@ -1085,7 +1119,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = entity.bind(report)(zuuluu);
             entity = null;
             entity = entity != tangon;
-            if(!entity) { _fun00042_ip = 65; continue _fun00041 }
+            if(!entity) { _fun00044_ip = 65; continue _fun00043 }
  43:
             zuuluu = _closure1_slot33;
             michal = {};
@@ -1098,7 +1132,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     michal['GUILD_SETTINGS_ROLES_UPDATE_SETTINGS'] = offset;
     offset = function(argFoo) { // Original name: handleUpdateRoleIcon
-        _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
+        _fun00045: for(var _fun00046_ip = 0; ; ) switch(_fun00046_ip) {
  0:
             entity = argFoo;
             zuuluu = entity.id;
@@ -1109,7 +1143,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = entity.bind(report)(zuuluu);
             entity = null;
             entity = entity != tangon;
-            if(!entity) { _fun00044_ip = 63; continue _fun00043 }
+            if(!entity) { _fun00046_ip = 63; continue _fun00045 }
  42:
             zuuluu = _closure1_slot33;
             michal = {};
@@ -1122,24 +1156,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     michal['GUILD_SETTINGS_ROLES_UPDATE_ROLE_ICON'] = offset;
     offset = function(argFoo) { // Original name: handleInsertRole
-        _fun00045: for(var _fun00046_ip = 0; ; ) switch(_fun00046_ip) {
+        _fun00047: for(var _fun00048_ip = 0; ; ) switch(_fun00048_ip) {
  0:
             entity = argFoo;
             tangon = entity.role;
             michal = entity.searchQuery;
             var _closure1_slot15 = michal;
             report = null;
-            if(!(report != tangon)) { _fun00046_ip = 101; continue _fun00045 }
+            if(!(report != tangon)) { _fun00048_ip = 101; continue _fun00047 }
  28:
             oscard = _closure1_slot34;
             zuuluu = tangon.id;
             michal = undefined;
             zuuluu = oscard.bind(michal)(zuuluu);
-            if(!(report != zuuluu)) { _fun00046_ip = 60; continue _fun00045 }
+            if(!(report != zuuluu)) { _fun00048_ip = 60; continue _fun00047 }
  48:
             zuuluu = _closure1_slot33;
             zuuluu = zuuluu.bind(michal)(tangon, tangon);
-            _fun00046_ip = 101; continue _fun00045;
+            _fun00048_ip = 101; continue _fun00047;
  60:
             option = _closure1_slot21;
             zuuluu = new Array(1);
@@ -1159,7 +1193,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     michal['GUILD_SETTINGS_ROLE_SELECT'] = offset;
     offset = function(argFoo) { // Original name: handleFetchRoleConnectionConfigurations
-        _fun00047: for(var _fun00048_ip = 0; ; ) switch(_fun00048_ip) {
+        _fun00049: for(var _fun00050_ip = 0; ; ) switch(_fun00050_ip) {
  0:
             entity = argFoo;
             tangon = entity.roleId;
@@ -1168,7 +1202,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(tangon);
             tangon = null;
-            if(!(tangon != zuuluu)) { _fun00048_ip = 143; continue _fun00047 }
+            if(!(tangon != zuuluu)) { _fun00050_ip = 143; continue _fun00049 }
  35:
             golfie = _closure1_slot25;
             report = golfie.get;
@@ -1181,7 +1215,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.bind(entity)(tangon);
             tangon = report.isEqual;
             tangon = tangon.bind(report)(golfie, oscard);
-            if(tangon) { _fun00048_ip = 139; continue _fun00047 }
+            if(tangon) { _fun00050_ip = 139; continue _fun00049 }
  89:
             golfie = _closure1_slot26;
             report = golfie.set;
@@ -1204,7 +1238,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     michal['GUILD_ROLE_CONNECTIONS_CONFIGURATIONS_FETCH_SUCCESS'] = offset;
     offset = function(argFoo) { // Original name: handleUpdateRoleConnectionConfigurations
-        _fun00049: for(var _fun00050_ip = 0; ; ) switch(_fun00050_ip) {
+        _fun00051: for(var _fun00052_ip = 0; ; ) switch(_fun00052_ip) {
  0:
             entity = argFoo;
             tangon = entity.roleId;
@@ -1213,7 +1247,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(tangon);
             tangon = null;
-            if(!(tangon != zuuluu)) { _fun00050_ip = 90; continue _fun00049 }
+            if(!(tangon != zuuluu)) { _fun00052_ip = 90; continue _fun00051 }
  35:
             tangon = true;
             _closure1_slot23 = tangon;
@@ -1271,14 +1305,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal['GUILD_ROLE_CREATE'] = golfie;
     michal['GUILD_ROLE_UPDATE'] = golfie;
     golfie = function(argFoo) { // Original name: handleRoleDelete
-        _fun00051: for(var _fun00052_ip = 0; ; ) switch(_fun00052_ip) {
+        _fun00053: for(var _fun00054_ip = 0; ; ) switch(_fun00054_ip) {
  0:
             zuuluu = argFoo;
             report = _closure1_slot24;
             tangon = report.has;
             michal = zuuluu.roleId;
             michal = tangon.bind(report)(michal);
-            if(!michal) { _fun00052_ip = 95; continue _fun00051 }
+            if(!michal) { _fun00054_ip = 95; continue _fun00053 }
  29:
             report = _closure1_slot24;
             tangon = report.delete;
@@ -1336,7 +1370,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = new sizing[verify](kiloes, backup, foxtra);
     michal = michal instanceof Object ? michal : golfie;
     var _closure1_slot28 = michal;
-    tangon = 17;
+    tangon = 18;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

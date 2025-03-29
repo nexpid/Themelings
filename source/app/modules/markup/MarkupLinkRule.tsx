@@ -636,7 +636,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = new output[verify](sizing, kiloes);
     tangon = tangon instanceof Object ? tangon : report;
     var _closure1_slot4 = tangon;
-    tangon = ['http:', 'https:', 'discord:'];
+    tangon = ['http:', 'https:', 'discord:', 'tel:', 'sms:', 'mailto:'];
     var _closure1_slot5 = tangon;
     verify = 3;
     report = option[verify];

@@ -56,11 +56,16 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     michal['getAudioPid'] = tangon;
-    entity = function() { // Original name: generateSessionFromPid
+    tangon = function() { // Original name: generateSessionFromPid
         entity = '';
         return entity;
     };
-    michal['generateSessionFromPid'] = entity;
+    michal['generateSessionFromPid'] = tangon;
+    entity = function() { // Original name: getAppHardwareAccelerationEnabled
+        entity = true;
+        return entity;
+    };
+    michal['getAppHardwareAccelerationEnabled'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

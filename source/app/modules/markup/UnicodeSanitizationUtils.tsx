@@ -838,44 +838,56 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = '//';
             michal = tangon.bind(report)(zuuluu);
  43:
-            if(michal) { _fun00004_ip = 159; continue _fun00003 }
- 46:
+            if(michal) { _fun00004_ip = 207; continue _fun00003 }
+ 49:
             michal = entity.username;
             golfie = '';
             tangon = golfie;
-            if(!(tangon !== michal)) { _fun00004_ip = 70; continue _fun00003 }
- 62:
+            if(!(golfie !== michal)) { _fun00004_ip = 73; continue _fun00003 }
+ 65:
             michal = entity.username;
             tangon = '' + michal;
- 70:
+ 73:
             michal = entity.password;
             zuuluu = tangon;
-            if(!(golfie !== michal)) { _fun00004_ip = 101; continue _fun00003 }
- 83:
+            if(!(golfie !== michal)) { _fun00004_ip = 104; continue _fun00003 }
+ 86:
             report = entity.password;
             michal = ':';
             michal = michal + report;
             zuuluu = tangon + michal;
- 101:
+ 104:
             oscard = zuuluu;
-            if(!(golfie !== oscard)) { _fun00004_ip = 116; continue _fun00003 }
- 108:
+            if(!(golfie !== oscard)) { _fun00004_ip = 119; continue _fun00003 }
+ 111:
             michal = '@';
             oscard = zuuluu + michal;
- 116:
+ 119:
+            report = entity.href;
+            tangon = report.substr;
+            michal = entity.protocol;
+            zuuluu = michal.length;
+            michal = 2;
+            zuuluu = tangon.bind(report)(zuuluu, michal);
+            michal = '//';
+            report = golfie;
+            if(!(michal === zuuluu)) { _fun00004_ip = 167; continue _fun00003 }
+ 164:
+            report = michal;
+ 167:
             yankee = entity.protocol;
             option = entity.host;
             michal = global;
             michal = michal.HermesInternal;
-            zuuluu = michal.concat;
-            offset = '//';
+            michal = michal.concat;
             romeon = golfie;
+            offset = report;
             verify = oscard;
-            report = romeon[zuuluu](yankee, offset, verify, option, golfie);
-            _fun00004_ip = 165; continue _fun00003;
- 159:
+            report = romeon[michal](yankee, offset, verify, option, golfie);
+            _fun00004_ip = 213; continue _fun00003;
+ 207:
             report = entity.protocol;
- 165:
+ 213:
             tangon = _closure1_slot3;
             michal = entity.pathname;
             zuuluu = undefined;

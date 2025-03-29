@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = entity.hasJoinedEmojiSourceGuild;
                 yankee = entity.emoji;
                 entity = entity.isFetching;
-                if(entity) { _fun00004_ip = 285; continue _fun00003 }
+                if(entity) { _fun00004_ip = 287; continue _fun00003 }
  113:
                 michal = _closure1_slot0;
                 sizing = _closure1_slot2;
@@ -202,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['children'] = report;
                 entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
- 285:
+ 287:
                 entity = null;
                 return entity;
             }

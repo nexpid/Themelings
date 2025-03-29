@@ -50,11 +50,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.bind(report)(zuuluu, entity);
             tangon = ':pizza:';
             entity = oscard;
-            if(!(tangon === oscard)) { _fun00002_ip = 142; continue _fun00001 }
- 71:
+            if(!(tangon === oscard)) { _fun00002_ip = 144; continue _fun00001 }
+ 73:
             entity = oscard;
-            if(!zuuluu) { _fun00002_ip = 142; continue _fun00001 }
- 77:
+            if(!zuuluu) { _fun00002_ip = 144; continue _fun00001 }
+ 79:
             zuuluu = _closure1_slot0;
             option = _closure1_slot1;
             michal = 2;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = {};
             michal['emojiName'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 142:
+ 144:
             return entity;
         }
     };

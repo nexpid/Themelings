@@ -103,15 +103,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = _closure1_slot6;
             zuuluu = zuuluu.totalUnavailableGuilds;
             tangon = 0;
-            if(!(!(zuuluu > tangon))) { _fun00004_ip = 141; continue _fun00003 }
- 22:
+            if(!(!(zuuluu > tangon))) { _fun00004_ip = 146; continue _fun00003 }
+ 25:
             report = _closure1_slot5;
             zuuluu = report.isConnected;
             zuuluu = zuuluu.bind(report)();
-            if(zuuluu) { _fun00004_ip = 41; continue _fun00003 }
- 39:
+            if(zuuluu) { _fun00004_ip = 44; continue _fun00003 }
+ 42:
             return entity;
- 41:
+ 44:
             report = entity.map;
             zuuluu = function(argFoo) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = 0;
             zuuluu = arraySpread(romeon, yankee, offset);
             return michal;
- 141:
+ 146:
             return entity;
         }
     };

@@ -615,15 +615,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = _closure2_slot1;
                 michal['message'] = oscard;
                 report = function(argFoo, argBar) { // Original name: onShare
-                    zuuluu = _closure3_slot0;
-                    michal = {};
-                    entity = argFoo;
-                    michal['success'] = entity;
-                    entity = argBar;
-                    michal['didCopyLink'] = entity;
-                    entity = undefined;
-                    michal = zuuluu.bind(entity)(michal);
-                    return entity;
+                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+ 0:
+                        entity = argFoo;
+                        tangon = argBar;
+                        zuuluu = _closure3_slot0;
+                        michal = {};
+                        report = tangon;
+                        if(report) { _fun00008_ip = 24; continue _fun00007 }
+ 21:
+                        report = entity;
+ 24:
+                        michal['success'] = report;
+                        michal['didCopyLink'] = tangon;
+                        michal['didSendMessage'] = entity;
+                        entity = undefined;
+                        michal = zuuluu.bind(entity)(michal);
+                        return entity;
+                    }
                 };
                 michal['onShare'] = report;
                 michal = zuuluu.bind(tangon)(michal);

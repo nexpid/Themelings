@@ -227,28 +227,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = michal.values;
                 michal = entity.bind(michal)();
                 entity = undefined;
-                oscard = zuuluu.bind(entity)(michal);
-                zuuluu = oscard.bind(entity)();
+                option = zuuluu.bind(entity)(michal);
+                zuuluu = option.bind(entity)();
                 michal = zuuluu.done;
+                oscard = 'streamError';
+                report = 'streamKey';
                 tangon = zuuluu;
-                if(michal) { _fun00008_ip = 104; continue _fun00007 }
- 55:
+                if(michal) { _fun00008_ip = 121; continue _fun00007 }
+ 63:
                 michal = tangon.value;
-                michal = michal.context;
-                golfie = michal.streamKey;
+                zuuluu = report in michal;
+                if(!zuuluu) { _fun00008_ip = 96; continue _fun00007 }
+ 75:
+                zuuluu = oscard in michal;
+                if(!zuuluu) { _fun00008_ip = 96; continue _fun00007 }
+ 82:
+                verify = michal.streamKey;
                 zuuluu = _closure2_slot0;
-                if(!(golfie !== zuuluu)) { _fun00008_ip = 96; continue _fun00007 }
- 79:
-                golfie = oscard.bind(entity)();
-                zuuluu = golfie.done;
-                tangon = golfie;
-                if(zuuluu) { _fun00008_ip = 104; continue _fun00007 }
- 94:
-                _fun00008_ip = 55; continue _fun00007;
+                if(!(verify !== zuuluu)) { _fun00008_ip = 113; continue _fun00007 }
  96:
+                verify = option.bind(entity)();
+                zuuluu = verify.done;
+                tangon = verify;
+                if(zuuluu) { _fun00008_ip = 121; continue _fun00007 }
+ 111:
+                _fun00008_ip = 63; continue _fun00007;
+ 113:
                 michal = michal.streamError;
                 return michal;
- 104:
+ 121:
                 return entity;
             }
         };

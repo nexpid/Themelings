@@ -6,47 +6,60 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot0 = oscard;
     var _closure1_slot1 = golfie;
     tangon = function(argFoo) { // Original name: useUrlParts
-        report = argFoo;
-        var _closure2_slot0 = report;
-        tangon = _closure1_slot3;
-        zuuluu = tangon.useMemo;
-        michal = new Array(1);
-        michal[0] = report;
-        entity = function() {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            report = argFoo;
+            var _closure2_slot0 = report;
+            tangon = _closure1_slot3;
+            zuuluu = tangon.useMemo;
+            michal = new Array(1);
+            michal[0] = report;
+            entity = function() {
+                entity = {};
+                report = _closure1_slot0;
+                oscard = _closure1_slot1;
+                michal = 2;
+                tangon = oscard[michal];
+                zuuluu = undefined;
+                option = report.bind(zuuluu)(tangon);
+                golfie = option.getProtocol;
+                tangon = _closure2_slot0;
+                golfie = golfie.bind(option)(tangon);
+                entity['protocol'] = golfie;
+                michal = oscard[michal];
+                zuuluu = report.bind(zuuluu)(michal);
+                michal = zuuluu.getHostname;
+                michal = michal.bind(zuuluu)(tangon);
+                entity['hostname'] = michal;
+                return entity;
+            };
+            entity = zuuluu.bind(tangon)(entity, michal);
+            option = entity.protocol;
+            golfie = entity.hostname;
+            zuuluu = report.substr;
+            michal = option.length;
+            entity = 2;
+            michal = zuuluu.bind(report)(michal, entity);
+            tangon = '';
+            entity = '//';
+            oscard = tangon;
+            if(!(entity === michal)) { _fun00002_ip = 92; continue _fun00001 }
+ 89:
+            oscard = entity;
+ 92:
             entity = {};
-            report = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 2;
-            tangon = oscard[michal];
-            zuuluu = undefined;
-            option = report.bind(zuuluu)(tangon);
-            golfie = option.getProtocol;
-            tangon = _closure2_slot0;
-            golfie = golfie.bind(option)(tangon);
-            entity['protocol'] = golfie;
-            michal = oscard[michal];
-            zuuluu = report.bind(zuuluu)(michal);
-            michal = zuuluu.getHostname;
-            michal = michal.bind(zuuluu)(tangon);
-            entity['hostname'] = michal;
+            entity['protocol'] = option;
+            entity['authorityPrefix'] = oscard;
+            entity['hostname'] = golfie;
+            zuuluu = report.replace;
+            michal = global;
+            michal = michal.HermesInternal;
+            michal = michal.concat;
+            michal = michal.bind(tangon)(option, oscard, golfie);
+            michal = zuuluu.bind(report)(michal, tangon);
+            entity['theRestOfTheUrl'] = michal;
             return entity;
-        };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        option = entity.protocol;
-        golfie = entity.hostname;
-        entity = {};
-        entity['protocol'] = option;
-        entity['hostname'] = golfie;
-        tangon = report.replace;
-        michal = global;
-        michal = michal.HermesInternal;
-        oscard = michal.concat;
-        zuuluu = '';
-        michal = '//';
-        michal = oscard.bind(zuuluu)(option, michal, golfie);
-        michal = tangon.bind(report)(michal, zuuluu);
-        entity['theRestOfTheUrl'] = michal;
-        return entity;
+        }
     };
     var _closure1_slot4 = tangon;
     entity = global;
@@ -77,16 +90,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     zuuluu['useUrlParts'] = tangon;
     michal = function(argFoo) { // Original name: useModalState
         michal = argFoo;
-        kiloes = michal.url;
-        var _closure2_slot0 = kiloes;
-        backup = michal.trustUrl;
-        var _closure2_slot1 = backup;
+        sizing = michal.url;
+        var _closure2_slot0 = sizing;
+        kiloes = michal.trustUrl;
+        var _closure2_slot1 = kiloes;
         zuuluu = michal.onConfirm;
         var _closure2_slot2 = zuuluu;
-        romeon = michal.onCancel;
-        var _closure2_slot3 = romeon;
-        yankee = michal.onClose;
-        var _closure2_slot4 = yankee;
+        foxtra = michal.onCancel;
+        var _closure2_slot3 = foxtra;
+        romeon = michal.onClose;
+        var _closure2_slot4 = romeon;
         oscard = _closure1_slot3;
         report = oscard.useState;
         tangon = false;
@@ -101,23 +114,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = 1;
         tangon = oscard[tangon];
         oscard = _closure1_slot4;
-        oscard = oscard.bind(golfie)(kiloes);
-        option = oscard.protocol;
+        oscard = oscard.bind(golfie)(sizing);
+        verify = oscard.protocol;
+        option = oscard.authorityPrefix;
         golfie = oscard.hostname;
         oscard = oscard.theRestOfTheUrl;
-        foxtra = _closure1_slot3;
-        offset = foxtra.useCallback;
-        verify = new Array(5);
-        verify[0] = kiloes;
-        verify[1] = report;
-        verify[2] = backup;
-        verify[3] = zuuluu;
-        verify[4] = yankee;
+        backup = _closure1_slot3;
+        yankee = backup.useCallback;
+        offset = new Array(5);
+        offset[0] = sizing;
+        offset[1] = report;
+        offset[2] = kiloes;
+        offset[3] = zuuluu;
+        offset[4] = romeon;
         zuuluu = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 michal = _closure2_slot5;
-                if(!michal) { _fun00002_ip = 25; continue _fun00001 }
+                if(!michal) { _fun00004_ip = 25; continue _fun00003 }
  10:
                 tangon = _closure2_slot1;
                 zuuluu = _closure2_slot0;
@@ -126,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  25:
                 zuuluu = _closure2_slot4;
                 michal = null;
-                if(!(michal != zuuluu)) { _fun00002_ip = 45; continue _fun00001 }
+                if(!(michal != zuuluu)) { _fun00004_ip = 45; continue _fun00003 }
  35:
                 zuuluu = _closure2_slot4;
                 michal = undefined;
@@ -138,18 +152,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             }
         };
-        zuuluu = offset.bind(foxtra)(zuuluu, verify);
-        offset = _closure1_slot3;
-        verify = offset.useCallback;
+        zuuluu = yankee.bind(backup)(zuuluu, offset);
+        yankee = _closure1_slot3;
+        offset = yankee.useCallback;
         michal = new Array(2);
-        michal[0] = romeon;
-        michal[1] = yankee;
+        michal[0] = foxtra;
+        michal[1] = romeon;
         entity = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 zuuluu = _closure2_slot4;
                 michal = null;
-                if(!(michal != zuuluu)) { _fun00004_ip = 23; continue _fun00003 }
+                if(!(michal != zuuluu)) { _fun00006_ip = 23; continue _fun00005 }
  13:
                 zuuluu = _closure2_slot4;
                 michal = undefined;
@@ -161,9 +175,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             }
         };
-        michal = verify.bind(offset)(entity, michal);
+        michal = offset.bind(yankee)(entity, michal);
         entity = {};
-        entity['protocol'] = option;
+        entity['protocol'] = verify;
+        entity['authorityPrefix'] = option;
         entity['hostname'] = golfie;
         entity['theRestOfTheUrl'] = oscard;
         entity['shouldTrustUrl'] = report;

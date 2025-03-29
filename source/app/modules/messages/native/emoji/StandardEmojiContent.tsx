@@ -276,21 +276,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset[kiloes];
             offset = romeon.bind(tangon)(offset);
             romeon = offset.t;
-            if(yankee) { _fun00004_ip = 599; continue _fun00003 }
- 586:
+            if(yankee) { _fun00004_ip = 601; continue _fun00003 }
+ 588:
             offset = romeon.yZFibW;
             offset = foxtra.bind(backup)(offset);
-            _fun00004_ip = 610; continue _fun00003;
- 599:
+            _fun00004_ip = 612; continue _fun00003;
+ 601:
             romeon = romeon.aBUcp6;
             offset = foxtra.bind(backup)(romeon);
- 610:
+ 612:
             oscard['text'] = offset;
             offset = 'primary';
-            if(!yankee) { _fun00004_ip = 627; continue _fun00003 }
- 621:
+            if(!yankee) { _fun00004_ip = 629; continue _fun00003 }
+ 623:
             offset = 'destructive';
- 627:
+ 629:
             oscard['variant'] = offset;
             verify = function() { // Original name: onPress
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {

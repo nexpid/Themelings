@@ -88,15 +88,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot5 = report;
     report = 11;
     report = golfie[report];
-    verify = oscard.bind(entity)(report);
-    option = verify.fileFinishedImporting;
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
     report = 'utils/native/ApplicationUtils.tsx';
-    report = option.bind(verify)(report);
-    report = 12;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.canInstallApplication;
-    zuuluu['canInstallApplication'] = report;
+    report = oscard.bind(golfie)(report);
     report = function(argFoo) { // Original name: installApplication
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:

@@ -1,0 +1,38 @@
+// app/modules/device/constants/DeviceState.tsx
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
+    entity = global;
+    report = entity.Object;
+    tangon = report.defineProperty;
+    michal = {};
+    entity = true;
+    michal['value'] = entity;
+    entity = '__esModule';
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    tangon = {};
+    entity = 'NOMINAL';
+    tangon['NOMINAL'] = entity;
+    entity = 'FAIR';
+    tangon['FAIR'] = entity;
+    entity = 'SERIOUS';
+    tangon['SERIOUS'] = entity;
+    entity = 'CRITICAL';
+    tangon['CRITICAL'] = entity;
+    entity = 'UNKNOWN';
+    tangon['UNKNOWN'] = entity;
+    michal = {'thermalState': null, 'batteryLevel': 1, 'isLowPowerMode': false};
+    entity = tangon.UNKNOWN;
+    michal['thermalState'] = entity;
+    report = argPlu;
+    entity = 0;
+    oscard = report[entity];
+    report = argBar;
+    entity = undefined;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
+    report = 'modules/device/constants/DeviceState.tsx';
+    report = oscard.bind(golfie)(report);
+    zuuluu['ThermalState'] = tangon;
+    zuuluu['DEFAULT_DEVICE_STATE'] = michal;
+    return entity;
+})();

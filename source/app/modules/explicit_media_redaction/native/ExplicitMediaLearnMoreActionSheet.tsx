@@ -268,7 +268,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = backup[yankee];
             offset = foxtra.bind(tangon)(offset);
             kiloes = offset.Text;
-            offset = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/bold', 'color': 'header-primary'};
+            offset = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/bold', 'color': 'header-primary'};
             echoed = result.infoHeader;
             offset['style'] = echoed;
             ctrled = 18;
@@ -288,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = backup[yankee];
             yankee = foxtra.bind(tangon)(yankee);
             foxtra = yankee.Text;
-            yankee = {'style': null, 'variant': 'text-md/normal', 'color': 'header-secondary'};
+            yankee = {'style': null, 'variant': 'text-md/medium', 'color': 'text-normal'};
             backup = result.infoDesc;
             yankee['style'] = backup;
             kiloes = _closure1_slot0;

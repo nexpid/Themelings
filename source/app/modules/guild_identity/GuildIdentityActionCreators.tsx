@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 744; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 592; continue _fun00001 }
  13:
                     sizing = argFoo;
                     backup = michal.nick;
@@ -35,11 +35,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return oscard;
  58:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 741; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 589; continue _fun00001 }
  67:
                     tangon = sizing;
                     verify = null;
-                    if(!(verify != tangon)) { _fun00002_ip = 705; continue _fun00001 }
+                    if(!(verify != tangon)) { _fun00002_ip = 553; continue _fun00001 }
  79:
                     result = _closure1_slot1;
                     option = _closure1_slot2;
@@ -93,14 +93,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     backup = option.HTTP;
                     yankee = backup.patch;
                     option = {};
-                    echoed = _closure1_slot5;
+                    echoed = _closure1_slot4;
                     result = echoed.SET_GUILD_MEMBER;
                     output = sizing;
                     output = result.bind(echoed)(output);
                     option['url'] = output;
                     option['body'] = kiloes;
-                    result = true;
-                    option['oldFormErrors'] = result;
+                    kiloes = true;
+                    option['oldFormErrors'] = kiloes;
                     kiloes = false;
                     option['rejectWithError'] = kiloes;
                     option = yankee.bind(backup)(option);
@@ -109,77 +109,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return option;
  295:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=10);
-                    if(yankee) { _fun00002_ip = 600; continue _fun00001 }
+                    if(yankee) { _fun00002_ip = 448; continue _fun00001 }
  304:
                     offset = option;
-                    echoed = option.body;
-                    backup = _closure1_slot1;
-                    ctrled = _closure1_slot2;
-                    yankee = 4;
-                    yankee = ctrled[yankee];
-                    output = backup.bind(oscard)(yankee);
-                    kiloes = output.track;
-                    yankee = _closure1_slot4;
-                    backup = yankee.USER_AVATAR_UPDATED;
-                    yankee = {};
-                    source = _closure1_slot0;
-                    update = 5;
-                    update = ctrled[update];
-                    source = source.bind(oscard)(update);
-                    update = source.isAnimatedIconHash;
-                    echoed = echoed.avatar;
-                    echoed = update.bind(source)(echoed);
-                    yankee['animated'] = echoed;
-                    yankee['is_guild_profile'] = result;
-                    result = romeon;
-                    echoed = verify != result;
-                    result = undefined;
-                    if(!echoed) { _fun00002_ip = 420; continue _fun00001 }
- 404:
-                    echoed = global;
-                    update = echoed.Number;
-                    echoed = romeon;
-                    result = update.bind(oscard)(echoed);
- 420:
-                    yankee['recent_avatar_id'] = result;
-                    echoed = foxtra;
-                    echoed = verify != echoed;
-                    result = echoed;
-                    if(!echoed) { _fun00002_ip = 445; continue _fun00001 }
- 438:
-                    echoed = romeon;
-                    result = verify != echoed;
- 445:
-                    yankee['is_edited_recent_avatar'] = result;
-                    yankee = kiloes.bind(output)(backup, yankee);
+                    output = option.body;
                     backup = _closure1_slot1;
                     yankee = _closure1_slot2;
                     kiloes = yankee[golfie];
-                    result = backup.bind(oscard)(kiloes);
-                    output = result.dispatch;
+                    echoed = backup.bind(oscard)(kiloes);
+                    result = echoed.dispatch;
                     kiloes = {};
-                    echoed = 'GUILD_IDENTITY_SETTINGS_SUBMIT_SUCCESS';
-                    kiloes['type'] = echoed;
-                    kiloes = output.bind(result)(kiloes);
+                    update = 'GUILD_IDENTITY_SETTINGS_SUBMIT_SUCCESS';
+                    kiloes['type'] = update;
+                    kiloes = result.bind(echoed)(kiloes);
                     yankee = yankee[golfie];
                     kiloes = backup.bind(oscard)(yankee);
                     backup = kiloes.dispatch;
                     yankee = {};
-                    output = 'GUILD_MEMBER_PROFILE_UPDATE';
-                    yankee['type'] = output;
-                    output = offset;
-                    output = output.body;
+                    result = 'GUILD_MEMBER_PROFILE_UPDATE';
+                    yankee['type'] = result;
                     yankee['guildMember'] = output;
                     yankee['guildId'] = sizing;
                     yankee = backup.bind(kiloes)(yankee);
                     foxtra = verify == foxtra;
                     yankee = foxtra;
-                    if(!foxtra) { _fun00002_ip = 555; continue _fun00001 }
- 551:
+                    if(!foxtra) { _fun00002_ip = 403; continue _fun00001 }
+ 399:
                     yankee = verify == romeon;
- 555:
-                    if(yankee) { _fun00002_ip = 597; continue _fun00001 }
- 558:
+ 403:
+                    if(yankee) { _fun00002_ip = 445; continue _fun00001 }
+ 406:
                     romeon = _closure1_slot1;
                     yankee = _closure1_slot2;
                     yankee = yankee[golfie];
@@ -189,28 +148,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     backup = 'RECENT_AVATARS_UPDATE';
                     yankee['type'] = backup;
                     yankee = romeon.bind(foxtra)(yankee);
- 597: // try_end0
+ 445: // try_end0
                     return offset;
- 600:
+ 448:
                     return option;
- 603: // catch_target0
+ 451: // catch_target0
                     CatchBlockStart(arg_register=7);
                     zuuluu = option;
                     option = option.body;
                     report = option;
                     offset = verify == option;
                     option = undefined;
-                    if(offset) { _fun00002_ip = 633; continue _fun00001 }
- 625:
+                    if(offset) { _fun00002_ip = 481; continue _fun00001 }
+ 473:
                     offset = report;
                     option = offset.username;
- 633:
-                    if(!(verify != option)) { _fun00002_ip = 653; continue _fun00001 }
- 637:
+ 481:
+                    if(!(verify != option)) { _fun00002_ip = 501; continue _fun00001 }
+ 485:
                     option = report.username;
                     report['nick'] = option;
                     report = delete report.username;
- 653:
+ 501:
                     report = _closure1_slot1;
                     tangon = _closure1_slot2;
                     tangon = tangon[golfie];
@@ -223,19 +182,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['errors'] = golfie;
                     tangon = report.bind(oscard)(tangon);
                     return zuuluu;
- 705:
+ 553:
                     zuuluu = global;
                     report = zuuluu.Error;
                     zuuluu = report.prototype;
                     tangon = Object.create(zuuluu, {constructor: {value: report}});
-                    sequen = 'Need guildId';
-                    config = tangon;
-                    zuuluu = new config[report](sequen, vacuum);
+                    source = 'Need guildId';
+                    ctrled = tangon;
+                    zuuluu = new ctrled[report](source, update);
                     zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
                     throw zuuluu;
- 741:
+ 589:
                     return michal;
- 744:
+ 592:
                     return entity;
                 }
             };
@@ -244,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot6 = tangon;
+        _closure1_slot5 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -252,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot6 = entity;
+    var _closure1_slot5 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -269,12 +228,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = 1;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    golfie = tangon.AnalyticEvents;
-    var _closure1_slot4 = golfie;
     golfie = tangon.Endpoints;
-    var _closure1_slot5 = golfie;
+    var _closure1_slot4 = golfie;
     tangon = tangon.Layers;
-    tangon = 6;
+    tangon = 4;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -282,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     tangon = function() { // Original name: saveGuildIdentityChanges
         entity = undefined;
-        tangon = _closure1_slot6;
+        tangon = _closure1_slot5;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;

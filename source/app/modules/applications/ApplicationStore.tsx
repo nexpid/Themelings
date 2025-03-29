@@ -1325,16 +1325,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00055: for(var _fun00056_ip = 0; ; ) switch(_fun00056_ip) {
  0:
             entity = argFoo;
+            entity = entity.userProfile;
             tangon = entity.user;
             entity = entity.application;
             michal = tangon.bot;
-            if(!michal) { _fun00056_ip = 28; continue _fun00055 }
- 22:
+            if(!michal) { _fun00056_ip = 34; continue _fun00055 }
+ 28:
             zuuluu = null;
             michal = zuuluu != entity;
- 28:
-            if(!michal) { _fun00056_ip = 65; continue _fun00055 }
- 31:
+ 34:
+            if(!michal) { _fun00056_ip = 71; continue _fun00055 }
+ 37:
             zuuluu = _closure1_slot21;
             michal = {};
             tangon = tangon.id;
@@ -1343,7 +1344,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['applicationId'] = entity;
             entity = undefined;
             entity = zuuluu.bind(entity)(michal);
- 65:
+ 71:
             entity = undefined;
             return entity;
         }

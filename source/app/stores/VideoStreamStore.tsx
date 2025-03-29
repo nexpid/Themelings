@@ -14,7 +14,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argBar;
             verify = michal.bind(zuuluu)(entity);
             michal = _closure1_slot2;
-            entity = _closure1_slot11;
+            entity = _closure1_slot12;
             entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot10 = entity;
+    var _closure1_slot11 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -71,13 +71,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot11 = michal;
+            _closure1_slot12 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot11 = entity;
+    var _closure1_slot12 = entity;
+    entity = function(argFoo, argBar) { // Original name: makeTimeoutKey
+        entity = global;
+        entity = entity.HermesInternal;
+        report = entity.concat;
+        tangon = '';
+        zuuluu = argFoo;
+        michal = ':';
+        entity = argBar;
+        entity = report.bind(tangon)(zuuluu, michal, entity);
+        return entity;
+    };
+    var _closure1_slot13 = entity;
     entity = function(argFoo, argBar) { // Original name: clearUser
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -137,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot14 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -182,6 +194,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot8 = michal;
     michal = {};
     var _closure1_slot9 = michal;
+    michal = {};
+    var _closure1_slot10 = michal;
     michal = 7;
     michal = oscard[michal];
     michal = golfie.bind(entity)(michal);
@@ -194,7 +208,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = _closure1_slot0;
             zuuluu = _closure2_slot0;
             oscard = oscard.bind(tangon)(report, zuuluu);
-            michal = _closure1_slot10;
+            michal = _closure1_slot11;
             entity = arguments;
             entity = michal.bind(tangon)(report, zuuluu, entity);
             return entity;
@@ -247,12 +261,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = entity;
-        entity = new Array(2);
+        entity = new Array(4);
         entity[0] = report;
         report = {};
         golfie = 'getUserStreamData';
         report['key'] = golfie;
-        oscard = function(argFoo, argBar) { // Original name: value
+        golfie = function(argFoo, argBar) { // Original name: value
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 oscard = argBar;
@@ -285,8 +299,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             }
         };
-        report['value'] = oscard;
+        report['value'] = golfie;
         entity[1] = report;
+        report = {};
+        golfie = 'getTimedoutVideos';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
+            entity = _closure1_slot10;
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[2] = report;
+        report = {};
+        golfie = 'getTimedoutVideo';
+        report['key'] = golfie;
+        oscard = function(argFoo, argBar) { // Original name: value
+            michal = _closure1_slot10;
+            report = _closure1_slot13;
+            tangon = undefined;
+            zuuluu = argFoo;
+            entity = argBar;
+            entity = report.bind(tangon)(zuuluu, entity);
+            entity = michal[entity];
+            return entity;
+        };
+        report['value'] = oscard;
+        entity[3] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -330,7 +368,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = null;
             if(!(golfie == oscard)) { _fun00012_ip = 48; continue _fun00011 }
  30:
-            zuuluu = _closure1_slot12;
+            zuuluu = _closure1_slot14;
             entity = undefined;
             entity = zuuluu.bind(entity)(option, michal, report);
             _fun00012_ip = 145; continue _fun00011;
@@ -375,7 +413,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     michal['RTC_CONNECTION_VIDEO'] = verify;
-    tangon = function(argFoo) { // Original name: handleVoiceStateUpdates
+    verify = function(argFoo) { // Original name: handleVoiceStateUpdates
         entity = argFoo;
         tangon = entity.voiceStates;
         zuuluu = tangon.reduce;
@@ -412,7 +450,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  85:
                 if(!(verify != option)) { _fun00014_ip = 101; continue _fun00013 }
  89:
-                michal = _closure1_slot12;
+                michal = _closure1_slot14;
                 michal = michal.bind(report)(golfie, oscard);
                 _fun00014_ip = 117; continue _fun00013;
  101:
@@ -434,7 +472,49 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    michal['VOICE_STATE_UPDATES'] = tangon;
+    michal['VOICE_STATE_UPDATES'] = verify;
+    verify = function(argFoo) { // Original name: handleVideoStreamReadyTimeout
+        entity = argFoo;
+        option = entity.videoStreamId;
+        golfie = entity.userId;
+        oscard = entity.streamKey;
+        report = entity.mediaContext;
+        tangon = _closure1_slot10;
+        michal = _closure1_slot13;
+        entity = undefined;
+        zuuluu = michal.bind(entity)(report, golfie);
+        michal = {};
+        michal['videoStreamId'] = option;
+        michal['userId'] = golfie;
+        michal['streamKey'] = oscard;
+        michal['mediaContext'] = report;
+        tangon[zuuluu] = michal;
+        return entity;
+    };
+    michal['VIDEO_STREAM_READY_TIMEOUT'] = verify;
+    tangon = function(argFoo) { // Original name: handleClearVideoStreamTimeout
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+ 0:
+            entity = argFoo;
+            report = entity.mediaContext;
+            tangon = entity.userId;
+            zuuluu = _closure1_slot13;
+            entity = undefined;
+            zuuluu = zuuluu.bind(entity)(report, tangon);
+            tangon = _closure1_slot10;
+            report = tangon[zuuluu];
+            tangon = null;
+            if(!(tangon != report)) { _fun00016_ip = 53; continue _fun00015 }
+ 43:
+            michal = _closure1_slot10;
+            michal = delete michal[zuuluu];
+            return entity;
+ 53:
+            entity = false;
+            return entity;
+        }
+    };
+    michal['CLEAR_VIDEO_STREAM_READY_TIMEOUT'] = tangon;
     tangon = option.prototype;
     tangon = Object.create(tangon, {constructor: {value: option}});
     foxtra = tangon;

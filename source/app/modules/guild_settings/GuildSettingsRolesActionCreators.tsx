@@ -911,6 +911,25 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         return entity;
     };
     zuuluu['updateRoleColor'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: updateRoleColors
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
+        entity = 1;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'GUILD_SETTINGS_ROLES_UPDATE_COLORS';
+        michal['type'] = report;
+        report = argFoo;
+        michal['id'] = report;
+        report = argBar;
+        michal['colors'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    zuuluu['updateRoleColors'] = tangon;
     tangon = function(argFoo, argBar, argBaz) { // Original name: toggleRoleSettings
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;

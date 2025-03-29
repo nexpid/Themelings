@@ -1,10 +1,10 @@
 // discord_common/js/packages/media-engine/native/ui/Video.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBaz;
     zuuluu = argFre;
-    report = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = report;
+    tangon = argPlu;
+    michal = argBaz;
+    var _closure1_slot0 = michal;
+    var _closure1_slot1 = tangon;
     michal = function(argFoo) { // Original name: Video
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -34,30 +34,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     var _closure1_slot2 = michal;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
+    report = global;
+    option = report.Object;
+    golfie = option.defineProperty;
     oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, oscard);
-    entity = 1;
-    oscard = report[entity];
-    entity = undefined;
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.defaultProps;
-    michal['defaultProps'] = oscard;
-    oscard = false;
-    michal['useDirectVideo'] = oscard;
-    tangon = function() {
+    report = true;
+    oscard['value'] = report;
+    report = '__esModule';
+    report = golfie.bind(option)(zuuluu, report, oscard);
+    report = false;
+    michal['useDirectVideo'] = report;
+    entity = function() {
         entity = undefined;
         return entity;
     };
-    michal['onContainerResized'] = tangon;
-    tangon = 2;
-    report = report[tangon];
+    michal['onContainerResized'] = entity;
+    entity = 2;
+    report = tangon[entity];
     tangon = argBar;
+    entity = undefined;
     oscard = tangon.bind(entity)(report);
     report = oscard.fileFinishedImporting;
     tangon = '../discord_common/js/packages/media-engine/native/ui/Video.tsx';

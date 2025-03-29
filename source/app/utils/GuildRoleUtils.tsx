@@ -22,11 +22,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = _closure1_slot3;
             michal = 0;
             tangon = tangon[michal];
-            offset = undefined;
-            oscard = report.bind(offset)(tangon);
-            report = oscard.deserialize;
+            option = undefined;
+            golfie = report.bind(option)(tangon);
+            report = golfie.deserialize;
             tangon = zuuluu.permissions;
-            tangon = report.bind(oscard)(tangon);
+            tangon = report.bind(golfie)(tangon);
             entity['permissions'] = tangon;
             tangon = zuuluu.mentionable;
             entity['mentionable'] = tangon;
@@ -38,76 +38,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['color'] = tangon;
             report = zuuluu.color;
             tangon = null;
-            oscard = tangon != report;
+            golfie = tangon != report;
             report = null;
-            if(!oscard) { _fun00002_ip = 171; continue _fun00001 }
+            if(!golfie) { _fun00002_ip = 171; continue _fun00001 }
  124:
-            oscard = zuuluu.color;
+            golfie = zuuluu.color;
             report = null;
-            if(!(michal !== oscard)) { _fun00002_ip = 171; continue _fun00001 }
+            if(!(michal !== golfie)) { _fun00002_ip = 171; continue _fun00001 }
  135:
-            golfie = _closure1_slot0;
-            verify = _closure1_slot3;
-            oscard = 1;
-            oscard = verify[oscard];
-            verify = golfie.bind(offset)(oscard);
-            golfie = verify.int2hex;
-            oscard = zuuluu.color;
-            report = golfie.bind(verify)(oscard);
+            verify = _closure1_slot0;
+            offset = _closure1_slot3;
+            golfie = 1;
+            golfie = offset[golfie];
+            offset = verify.bind(option)(golfie);
+            verify = offset.int2hex;
+            golfie = zuuluu.color;
+            report = verify.bind(offset)(golfie);
  171:
             entity['colorString'] = report;
             report = zuuluu.colors;
             entity['colors'] = report;
             report = zuuluu.colors;
-            oscard = tangon != report;
+            golfie = tangon != report;
             report = null;
-            if(!oscard) { _fun00002_ip = 382; continue _fun00001 }
- 202:
-            oscard = {};
-            verify = _closure1_slot0;
-            golfie = _closure1_slot3;
-            yankee = 1;
-            golfie = golfie[yankee];
-            romeon = verify.bind(offset)(golfie);
-            verify = romeon.int2hex;
-            golfie = zuuluu.colors;
-            golfie = golfie.primary_color;
-            golfie = verify.bind(romeon)(golfie);
-            oscard['primaryColor'] = golfie;
-            golfie = zuuluu.colors;
-            golfie = golfie.secondary_color;
-            verify = tangon != golfie;
-            golfie = undefined;
-            if(!verify) { _fun00002_ip = 310; continue _fun00001 }
- 271:
-            romeon = _closure1_slot0;
+            if(!golfie) { _fun00002_ip = 229; continue _fun00001 }
+ 199:
+            golfie = _closure1_slot1;
             verify = _closure1_slot3;
-            verify = verify[yankee];
-            foxtra = romeon.bind(offset)(verify);
-            romeon = foxtra.int2hex;
-            verify = zuuluu.colors;
-            verify = verify.secondary_color;
-            golfie = romeon.bind(foxtra)(verify);
- 310:
-            oscard['secondaryColor'] = golfie;
-            golfie = zuuluu.colors;
-            golfie = golfie.tertiary_color;
-            verify = tangon != golfie;
-            golfie = undefined;
-            if(!verify) { _fun00002_ip = 374; continue _fun00001 }
- 335:
-            verify = _closure1_slot0;
-            option = _closure1_slot3;
-            option = option[yankee];
-            offset = verify.bind(offset)(option);
-            verify = offset.int2hex;
-            option = zuuluu.colors;
-            option = option.tertiary_color;
-            golfie = verify.bind(offset)(option);
- 374:
-            oscard['tertiaryColor'] = golfie;
-            report = oscard;
- 382:
+            oscard = 2;
+            oscard = verify[oscard];
+            golfie = golfie.bind(option)(oscard);
+            oscard = zuuluu.colors;
+            report = golfie.bind(option)(oscard);
+ 229:
             entity['colorStrings'] = report;
             report = zuuluu.hoist;
             entity['hoist'] = report;
@@ -122,10 +85,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.flags;
             tangon = tangon != zuuluu;
             michal = 0;
-            if(!tangon) { _fun00002_ip = 457; continue _fun00001 }
- 454:
+            if(!tangon) { _fun00002_ip = 304; continue _fun00001 }
+ 301:
             michal = zuuluu;
- 457:
+ 304:
             entity['flags'] = michal;
             return entity;
         }
@@ -195,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  118:
                     oscard = _closure1_slot1;
                     report = _closure1_slot3;
-                    tangon = 2;
+                    tangon = 3;
                     report = report[tangon];
                     tangon = undefined;
                     report = oscard.bind(tangon)(report);
@@ -237,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option['value'] = entity;
     entity = '__esModule';
     entity = verify.bind(offset)(zuuluu, entity, option);
-    entity = 3;
+    entity = 4;
     oscard = oscard[entity];
     entity = undefined;
     option = golfie.bind(entity)(oscard);
