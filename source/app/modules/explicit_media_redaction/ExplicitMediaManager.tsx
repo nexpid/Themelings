@@ -484,58 +484,58 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = report.channel_id;
                 entity = zuuluu[entity];
                 tangon = null;
-                if(!(tangon == entity)) { _fun00016_ip = 54; continue _fun00015 }
+                if(!(tangon == entity)) { _fun00016_ip = 50; continue _fun00015 }
  27:
                 golfie = _closure2_slot1;
                 zuuluu = report.channel_id;
                 entity = {'numOfAttachments': 0, 'numOfAttachmentsPendingScan': 0, 'numOfEmbeds': 0, 'numOfEmbedsPendingScan': 0};
                 golfie[zuuluu] = entity;
- 54:
+ 50:
                 zuuluu = _closure2_slot2;
                 entity = report.id;
                 entity = zuuluu[entity];
-                if(!(tangon == entity)) { _fun00016_ip = 109; continue _fun00015 }
- 71:
+                if(!(tangon == entity)) { _fun00016_ip = 105; continue _fun00015 }
+ 67:
                 golfie = _closure2_slot2;
                 zuuluu = report.id;
                 entity = {'channelId': null, 'numOfAttachments': 0, 'numOfGoreAttachments': 0, 'numOfExplicitAttachments': 0, 'numOfEmbeds': 0, 'numOfGoreEmbeds': 0, 'numOfExplicitEmbeds': 0};
                 option = report.channel_id;
                 entity['channelId'] = option;
                 golfie[zuuluu] = entity;
- 109:
+ 105:
                 zuuluu = report.attachments;
                 option = tangon == zuuluu;
                 entity = undefined;
                 golfie = undefined;
-                if(option) { _fun00016_ip = 131; continue _fun00015 }
- 126:
+                if(option) { _fun00016_ip = 127; continue _fun00015 }
+ 122:
                 golfie = zuuluu.length;
- 131:
+ 127:
                 option = tangon != golfie;
                 zuuluu = 0;
                 verify = 0;
-                if(!option) { _fun00016_ip = 145; continue _fun00015 }
- 142:
+                if(!option) { _fun00016_ip = 141; continue _fun00015 }
+ 138:
                 verify = golfie;
- 145:
+ 141:
                 option = report.embeds;
                 offset = tangon == option;
                 golfie = undefined;
-                if(offset) { _fun00016_ip = 165; continue _fun00015 }
- 160:
+                if(offset) { _fun00016_ip = 161; continue _fun00015 }
+ 156:
                 golfie = option.length;
- 165:
+ 161:
                 offset = tangon != golfie;
                 option = 0;
-                if(!offset) { _fun00016_ip = 177; continue _fun00015 }
- 174:
+                if(!offset) { _fun00016_ip = 173; continue _fun00015 }
+ 170:
                 option = golfie;
- 177:
+ 173:
                 romeon = report.attachments;
                 offset = tangon == romeon;
                 golfie = undefined;
-                if(offset) { _fun00016_ip = 212; continue _fun00015 }
- 192:
+                if(offset) { _fun00016_ip = 208; continue _fun00015 }
+ 188:
                 yankee = romeon.filter;
                 offset = function(argFoo) {
                     zuuluu = _closure1_slot0;
@@ -552,18 +552,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 offset = yankee.bind(romeon)(offset);
                 golfie = offset.length;
- 212:
+ 208:
                 offset = tangon != golfie;
                 romeon = 0;
-                if(!offset) { _fun00016_ip = 224; continue _fun00015 }
- 221:
+                if(!offset) { _fun00016_ip = 220; continue _fun00015 }
+ 217:
                 romeon = golfie;
- 224:
+ 220:
                 foxtra = report.embeds;
                 offset = tangon == foxtra;
                 golfie = undefined;
-                if(offset) { _fun00016_ip = 259; continue _fun00015 }
- 239:
+                if(offset) { _fun00016_ip = 255; continue _fun00015 }
+ 235:
                 yankee = foxtra.filter;
                 offset = function(argFoo) {
                     zuuluu = _closure1_slot0;
@@ -580,13 +580,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 offset = yankee.bind(foxtra)(offset);
                 golfie = offset.length;
- 259:
+ 255:
                 offset = tangon != golfie;
                 yankee = 0;
-                if(!offset) { _fun00016_ip = 271; continue _fun00015 }
- 268:
+                if(!offset) { _fun00016_ip = 267; continue _fun00015 }
+ 264:
                 yankee = golfie;
- 271:
+ 267:
                 offset = _closure2_slot1;
                 golfie = report.channel_id;
                 offset = offset[golfie];
@@ -614,8 +614,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 offset = report.attachments;
                 golfie = tangon == offset;
                 option = undefined;
-                if(golfie) { _fun00016_ip = 428; continue _fun00015 }
- 408:
+                if(golfie) { _fun00016_ip = 424; continue _fun00015 }
+ 404:
                 verify = offset.filter;
                 golfie = function(argFoo) {
                     oscard = _closure1_slot0;
@@ -639,19 +639,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 golfie = verify.bind(offset)(golfie);
                 option = golfie.length;
- 428:
+ 424:
                 verify = tangon != option;
                 golfie = 0;
-                if(!verify) { _fun00016_ip = 440; continue _fun00015 }
- 437:
+                if(!verify) { _fun00016_ip = 436; continue _fun00015 }
+ 433:
                 golfie = option;
- 440:
+ 436:
                 michal['numOfExplicitAttachments'] = golfie;
                 option = report.embeds;
                 golfie = tangon == option;
                 report = undefined;
-                if(golfie) { _fun00016_ip = 481; continue _fun00015 }
- 461:
+                if(golfie) { _fun00016_ip = 477; continue _fun00015 }
+ 457:
                 golfie = option.filter;
                 oscard = function(argFoo) {
                     oscard = _closure1_slot0;
@@ -675,13 +675,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 oscard = golfie.bind(option)(oscard);
                 report = oscard.length;
- 481:
+ 477:
                 oscard = tangon != report;
                 tangon = 0;
-                if(!oscard) { _fun00016_ip = 493; continue _fun00015 }
- 490:
+                if(!oscard) { _fun00016_ip = 489; continue _fun00015 }
+ 486:
                 tangon = report;
- 493:
+ 489:
                 michal['numOfExplicitEmbeds'] = tangon;
                 michal['numOfGoreAttachments'] = zuuluu;
                 michal['numOfGoreEmbeds'] = zuuluu;

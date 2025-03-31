@@ -159,7 +159,7 @@
 { "file": "app/utils/getDevicePixelRatio.native.tsx", "size": 1300 }
 { "file": "app/utils/NumberUtils.tsx", "size": 7757 }
 { "file": "app/modules/avatar_decorations/AvatarDecorationUtils.tsx", "size": 7344 }
-{ "file": "discord_common/js/shared/shared-constants/CollectiblesCategorySkuId.tsx", "size": 5542 }
+{ "file": "discord_common/js/shared/shared-constants/CollectiblesCategorySkuId.tsx", "size": 5636 }
 { "file": "discord_common/js/shared/shared-constants/FractionalPremiumSKUs.tsx", "size": 1782 }
 { "file": "app/utils/StringUtils.tsx", "size": 1984 }
 { "file": "discord_common/js/shared/utils/StringUtils.tsx", "size": 8732 }
@@ -300,7 +300,7 @@
 { "file": "app/utils/BraintreeUtils.tsx", "size": 5296 }
 { "file": "app/stores/billing/BraintreeStore.tsx", "size": 13832 }
 { "file": "discord_common/js/packages/code-splitting/CodeSplittingUtils.tsx", "size": 14027 }
-{ "file": "app/utils/DateUtils.tsx", "size": 23387 }
+{ "file": "app/utils/DateUtils.tsx", "size": 23385 }
 { "file": "app/lib/makeDateFormatter.tsx", "size": 64920 }
 { "file": "app/modules/system_date_format/SystemDateFormatterExperiment.tsx", "size": 1523 }
 { "file": "app/lib/intlFormatDate.tsx", "size": 7358 }
@@ -310,8 +310,8 @@
 { "file": "app/utils/native/LinkingUtils.tsx", "size": 129061 }
 { "file": "app/modules/gateway/PostConnectionCallbackStore.tsx", "size": 4125 }
 { "file": "app/modules/nuf/NewUserStore.tsx", "size": 7596 }
-{ "file": "app/modules/gateway/GatewayConnectionStore.tsx", "size": 62658 }
-{ "file": "app/stores/CallStore.tsx", "size": 21977 }
+{ "file": "app/modules/gateway/GatewayConnectionStore.tsx", "size": 62654 }
+{ "file": "app/stores/CallStore.tsx", "size": 21975 }
 { "file": "app/stores/SelectedChannelStore.tsx", "size": 55461 }
 { "file": "app/stores/GuildChannelStore.tsx", "size": 56027 }
 { "file": "app/modules/channel/GatedChannelStore.tsx", "size": 35713 }
@@ -7331,7 +7331,7 @@
 { "file": "app/modules/share/native/AppShare.tsx", "size": 16764 }
 { "file": "app/modules/app_startup/native/executeHeadlessTask.tsx", "size": 15684 }
 { "file": "app/modules/headless_tasks/android/BackgroundSync.tsx", "size": 3969 }
-{ "file": "app/modules/headless_tasks/android/TTITestAction.tsx", "size": 79615 }
+{ "file": "app/modules/headless_tasks/android/TTITestAction.tsx", "size": 80079 }
 { "file": "app/modules/headless_tasks/android/Disconnect.tsx", "size": 2668 }
 { "file": "app/modules/headless_tasks/HeadlessTaskUtils.tsx", "size": 1625 }
 { "file": "app/modules/headless_tasks/android/MarkAsRead.tsx", "size": 1633 }

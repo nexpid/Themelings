@@ -554,15 +554,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(!(zuuluu === golfie)) { _fun00020_ip = 41; continue _fun00019 }
  35:
             zuuluu = null;
-            if(!(zuuluu == oscard)) { _fun00020_ip = 78; continue _fun00019 }
+            if(!(zuuluu == oscard)) { _fun00020_ip = 74; continue _fun00019 }
  41:
             zuuluu = {'channelId': null, 'ringing': null, 'messageId': null, 'region': null, 'regionUpdated': false};
             zuuluu['channelId'] = michal;
             report = new Array(0);
             zuuluu['ringing'] = report;
             zuuluu['unavailable'] = golfie;
-            _fun00020_ip = 102; continue _fun00019;
- 78:
+            _fun00020_ip = 98; continue _fun00019;
+ 74:
             report = {};
             verify = report;
             option = oscard;
@@ -570,16 +570,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = 'unavailable';
             report[oscard] = golfie;
             zuuluu = report;
- 102:
+ 98:
             tangon[michal] = zuuluu;
             zuuluu = _closure1_slot13;
             tangon = zuuluu[michal];
             zuuluu = null;
-            if(!(zuuluu != tangon)) { _fun00020_ip = 128; continue _fun00019 }
- 120:
+            if(!(zuuluu != tangon)) { _fun00020_ip = 124; continue _fun00019 }
+ 116:
             entity = _closure1_slot13;
             entity = delete entity[michal];
- 128:
+ 124:
             entity = undefined;
             return entity;
         }

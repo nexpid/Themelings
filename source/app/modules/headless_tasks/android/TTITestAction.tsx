@@ -1459,6 +1459,20 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
         return entity;
     };
     report['flux-dispatch'] = oscard;
+    oscard = function() { // Original name: get-token
+        report = _closure1_slot16;
+        tangon = {};
+        michal = _closure1_slot8;
+        entity = michal.getToken;
+        entity = entity.bind(michal)();
+        tangon['token'] = entity;
+        entity = undefined;
+        zuuluu = 'success';
+        michal = 'get-token';
+        michal = report.bind(entity)(zuuluu, michal, tangon);
+        return entity;
+    };
+    report['get-token'] = oscard;
     oscard = function() { // Original name: get-resource-usage
         report = _closure1_slot16;
         tangon = {};
