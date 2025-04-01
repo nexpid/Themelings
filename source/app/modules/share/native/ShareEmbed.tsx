@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  29:
                     michal = entity != oscard;
                     entity = null;
-                    if(!michal) { _fun00010_ip = 106; continue _fun00009 }
+                    if(!michal) { _fun00010_ip = 110; continue _fun00009 }
  38:
                     tangon = _closure1_slot7;
                     zuuluu = _closure1_slot0;
@@ -286,7 +286,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['style'] = golfie;
                     michal['children'] = oscard;
                     entity = tangon.bind(report)(zuuluu, michal);
- 106:
+ 110:
                     return entity;
                 }
             };
@@ -312,11 +312,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = _closure2_slot3;
                     michal = zuuluu == entity;
                     entity = null;
-                    if(!michal) { _fun00012_ip = 119; continue _fun00011 }
+                    if(!michal) { _fun00012_ip = 123; continue _fun00011 }
  42:
                     michal = zuuluu != oscard;
                     entity = null;
-                    if(!michal) { _fun00012_ip = 119; continue _fun00011 }
+                    if(!michal) { _fun00012_ip = 123; continue _fun00011 }
  51:
                     tangon = _closure1_slot7;
                     zuuluu = _closure1_slot0;
@@ -332,7 +332,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['style'] = golfie;
                     michal['children'] = oscard;
                     entity = tangon.bind(report)(zuuluu, michal);
- 119:
+ 123:
                     return entity;
                 }
             };
@@ -355,7 +355,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  29:
                     michal = entity != oscard;
                     entity = null;
-                    if(!michal) { _fun00014_ip = 106; continue _fun00013 }
+                    if(!michal) { _fun00014_ip = 110; continue _fun00013 }
  38:
                     tangon = _closure1_slot7;
                     zuuluu = _closure1_slot0;
@@ -371,7 +371,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['style'] = golfie;
                     michal['children'] = oscard;
                     entity = tangon.bind(report)(zuuluu, michal);
- 106:
+ 110:
                     return entity;
                 }
             };

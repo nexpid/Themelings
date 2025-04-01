@@ -302,28 +302,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['context'] = option;
             entity = zuuluu.bind(report)(entity);
             tangon = _closure1_slot11;
-            if(entity) { _fun00006_ip = 109; continue _fun00005 }
+            if(entity) { _fun00006_ip = 124; continue _fun00005 }
  73:
             zuuluu = _closure1_slot13;
             entity = {};
             entity['application'] = offset;
-            yankee = option.channel;
-            yankee = yankee.guild_id;
+            foxtra = option.type;
+            romeon = 'channel';
+            yankee = undefined;
+            if(!(romeon === foxtra)) { _fun00006_ip = 108; continue _fun00005 }
+ 98:
+            romeon = option.channel;
+            yankee = romeon.guild_id;
+ 108:
             entity['guildId'] = yankee;
             entity['style'] = golfie;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00006_ip = 149; continue _fun00005;
- 109:
+            _fun00006_ip = 159; continue _fun00005;
+ 124:
             zuuluu = _closure1_slot15;
             michal = {};
             michal['profileApplication'] = offset;
             michal['botUserId'] = verify;
-            option = option.channel;
-            michal['channel'] = option;
+            michal['context'] = option;
             michal['style'] = golfie;
             michal['onOpenApp'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 149:
+ 159:
             return entity;
         }
     };
@@ -332,7 +337,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = argFoo;
         yankee = michal.profileApplication;
         var _closure2_slot0 = yankee;
-        romeon = michal.channel;
+        romeon = michal.context;
         var _closure2_slot1 = romeon;
         verify = michal.style;
         offset = michal.onOpenApp;
@@ -546,7 +551,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 3;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.getSectionFromChannel;
+    tangon = tangon.getSection;
     var _closure1_slot6 = tangon;
     yankee = 4;
     tangon = oscard[yankee];

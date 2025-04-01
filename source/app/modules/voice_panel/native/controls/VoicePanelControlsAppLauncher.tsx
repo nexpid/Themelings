@@ -120,12 +120,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        echoed = yankee.bind(romeon)(golfie, report);
+        update = yankee.bind(romeon)(golfie, report);
         report = 10;
         report = sizing[report];
         yankee = offset.bind(tangon)(report);
         report = null;
-        golfie = report != echoed;
+        golfie = report != update;
         report = 'channel should not be null';
         report = yankee.bind(tangon)(golfie, report);
         report = 11;
@@ -180,12 +180,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = michal.DISMISSED;
         backup = report.bind(zuuluu)(michal);
         michal = zuuluu.useRef;
-        update = michal.bind(zuuluu)(tangon);
+        echoed = michal.bind(zuuluu)(tangon);
         report = 15;
         michal = sizing[report];
         golfie = kiloes.bind(tangon)(michal);
         zuuluu = golfie.useDerivedValue;
-        michal = function() { // Original name: L
+        michal = function() { // Original name: x
             michal = _closure2_slot0;
             entity = michal.get;
             entity = entity.bind(michal)();
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = sizing[report];
         zuuluu = kiloes.bind(tangon)(michal);
         michal = zuuluu.useAnimatedStyle;
-        entity = function() { // Original name: V
+        entity = function() { // Original name: L
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = {};
@@ -252,9 +252,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         option = sizing[option];
         verify = offset.bind(tangon)(option);
         option = {};
-        option['bottomSheetExpandReasonRef'] = update;
-        echoed = echoed.id;
-        option['channelId'] = echoed;
+        option['bottomSheetExpandReasonRef'] = echoed;
+        echoed = {};
+        source = 'channel';
+        echoed['type'] = source;
+        echoed['channel'] = update;
+        option['context'] = echoed;
         option['chatInputRef'] = result;
         option['entrypoint'] = output;
         option['keyboardCloseReasonRef'] = backup;

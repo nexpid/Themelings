@@ -1,12 +1,12 @@
 // app/utils/GuildRecordUtils.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    verify = argBaz;
+    golfie = argBar;
+    offset = argBaz;
     zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = verify;
-    var _closure1_slot2 = golfie;
+    option = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = offset;
+    var _closure1_slot2 = option;
     entity = function(argFoo, argBar) { // Original name: _createForOfIteratorHelperLoose
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -183,6 +183,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     var _closure1_slot12 = entity;
+    report = function(argFoo) { // Original name: fromPremiumFeatures
+        michal = argFoo;
+        entity = {};
+        zuuluu = michal.features;
+        entity['features'] = zuuluu;
+        zuuluu = michal.additional_emoji_slots;
+        entity['additionalEmojiSlots'] = zuuluu;
+        zuuluu = michal.additional_sticker_slots;
+        entity['additionalStickerSlots'] = zuuluu;
+        michal = michal.additional_sound_slots;
+        entity['additionalSoundSlots'] = michal;
+        return entity;
+    };
+    var _closure1_slot13 = report;
     tangon = function(argFoo) { // Original name: toServer
         michal = argFoo;
         entity = {};
@@ -260,267 +274,277 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity['profile'] = michal;
         return entity;
     };
-    var _closure1_slot13 = tangon;
+    var _closure1_slot14 = tangon;
     entity = global;
-    offset = entity.Object;
-    option = offset.defineProperty;
-    report = {};
+    yankee = entity.Object;
+    verify = yankee.defineProperty;
+    oscard = {};
     entity = true;
-    report['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(offset)(zuuluu, entity, report);
-    report = 0;
-    option = golfie[report];
+    entity = verify.bind(yankee)(zuuluu, entity, oscard);
+    oscard = 0;
+    verify = option[oscard];
     entity = undefined;
-    option = verify.bind(entity)(option);
-    var _closure1_slot3 = option;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.GuildRecordWithRoles;
-    var _closure1_slot4 = report;
-    report = 1;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    option = report.BoostedGuildTiers;
-    var _closure1_slot5 = option;
-    option = report.GuildExplicitContentFilterTypes;
-    var _closure1_slot6 = option;
-    option = report.GuildNSFWContentLevel;
-    var _closure1_slot7 = option;
-    option = report.MFALevels;
-    var _closure1_slot8 = option;
-    option = report.UserNotificationSettings;
-    var _closure1_slot9 = option;
-    report = report.VerificationLevels;
-    var _closure1_slot10 = report;
-    report = 5;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'utils/GuildRecordUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function(argFoo, argBar) { // Original name: fromServer
+    verify = offset.bind(entity)(verify);
+    var _closure1_slot3 = verify;
+    oscard = option[oscard];
+    oscard = golfie.bind(entity)(oscard);
+    oscard = oscard.GuildRecordWithRoles;
+    var _closure1_slot4 = oscard;
+    oscard = 1;
+    oscard = option[oscard];
+    oscard = golfie.bind(entity)(oscard);
+    verify = oscard.BoostedGuildTiers;
+    var _closure1_slot5 = verify;
+    verify = oscard.GuildExplicitContentFilterTypes;
+    var _closure1_slot6 = verify;
+    verify = oscard.GuildNSFWContentLevel;
+    var _closure1_slot7 = verify;
+    verify = oscard.MFALevels;
+    var _closure1_slot8 = verify;
+    verify = oscard.UserNotificationSettings;
+    var _closure1_slot9 = verify;
+    oscard = oscard.VerificationLevels;
+    var _closure1_slot10 = oscard;
+    oscard = 5;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'utils/GuildRecordUtils.tsx';
+    oscard = golfie.bind(option)(oscard);
+    oscard = function(argFoo, argBar) { // Original name: fromServer
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            michal = argFoo;
+            zuuluu = argFoo;
             tangon = argBar;
-            zuuluu = michal.joined_at;
+            michal = zuuluu.joined_at;
             entity = null;
-            if(!(entity == zuuluu)) { _fun00008_ip = 35; continue _fun00007 }
+            if(!(entity == michal)) { _fun00008_ip = 35; continue _fun00007 }
  18:
-            zuuluu = entity == tangon;
+            michal = entity == tangon;
             oscard = undefined;
-            if(zuuluu) { _fun00008_ip = 33; continue _fun00007 }
+            if(michal) { _fun00008_ip = 33; continue _fun00007 }
  27:
             oscard = tangon.joinedAt;
  33:
             _fun00008_ip = 69; continue _fun00007;
  35:
-            zuuluu = global;
-            golfie = zuuluu.Date;
-            romeon = michal.joined_at;
+            michal = global;
+            golfie = michal.Date;
+            romeon = zuuluu.joined_at;
             report = golfie.prototype;
             report = Object.create(report, {constructor: {value: golfie}});
             foxtra = report;
-            zuuluu = new foxtra[golfie](romeon, yankee);
-            oscard = zuuluu instanceof Object ? zuuluu : report;
+            michal = new foxtra[golfie](romeon, yankee);
+            oscard = michal instanceof Object ? michal : report;
  69:
-            zuuluu = michal.premium_subscription_count;
-            golfie = entity != zuuluu;
+            michal = zuuluu.premium_subscription_count;
+            golfie = entity != michal;
             report = 0;
             if(!golfie) { _fun00008_ip = 87; continue _fun00007 }
  84:
-            report = zuuluu;
+            report = michal;
  87:
-            zuuluu = michal.properties;
-            if(!(entity != zuuluu)) { _fun00008_ip = 954; continue _fun00007 }
+            michal = zuuluu.properties;
+            if(!(entity != michal)) { _fun00008_ip = 989; continue _fun00007 }
  100:
             verify = {};
-            zuuluu = michal.id;
-            verify['id'] = zuuluu;
+            michal = zuuluu.id;
+            verify['id'] = michal;
             verify['joinedAt'] = oscard;
             verify['premiumSubscriberCount'] = report;
-            zuuluu = michal.properties;
-            golfie = zuuluu.name;
+            michal = zuuluu.properties;
+            golfie = michal.name;
             option = entity != golfie;
-            zuuluu = '';
+            michal = '';
             if(!option) { _fun00008_ip = 146; continue _fun00007 }
  143:
-            zuuluu = golfie;
+            michal = golfie;
  146:
-            verify['name'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.description;
-            verify['description'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.icon;
-            verify['icon'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.splash;
-            verify['splash'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.banner;
-            verify['banner'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.home_header;
-            verify['homeHeader'] = zuuluu;
-            zuuluu = global;
-            option = zuuluu.Set;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.features;
-            if(!(entity == zuuluu)) { _fun00008_ip = 259; continue _fun00007 }
+            verify['name'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.description;
+            verify['description'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.icon;
+            verify['icon'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.splash;
+            verify['splash'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.banner;
+            verify['banner'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.home_header;
+            verify['homeHeader'] = michal;
+            michal = global;
+            option = michal.Set;
+            michal = zuuluu.properties;
+            michal = michal.features;
+            if(!(entity == michal)) { _fun00008_ip = 259; continue _fun00007 }
  255:
-            zuuluu = new Array(0);
+            michal = new Array(0);
  259:
             golfie = option.prototype;
             golfie = Object.create(golfie, {constructor: {value: option}});
             foxtra = golfie;
-            romeon = zuuluu;
-            zuuluu = new foxtra[option](romeon, yankee);
-            zuuluu = zuuluu instanceof Object ? zuuluu : golfie;
-            verify['features'] = zuuluu;
-            zuuluu = michal.properties;
-            golfie = zuuluu.preferred_locale;
+            romeon = michal;
+            michal = new foxtra[option](romeon, yankee);
+            michal = michal instanceof Object ? michal : golfie;
+            verify['features'] = michal;
+            michal = zuuluu.properties;
+            golfie = michal.preferred_locale;
             option = entity != golfie;
-            zuuluu = 'en-us';
+            michal = 'en-us';
             if(!option) { _fun00008_ip = 315; continue _fun00007 }
  312:
-            zuuluu = golfie;
+            michal = golfie;
  315:
-            verify['preferredLocale'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.owner_id;
-            verify['ownerId'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.application_id;
-            verify['application_id'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.afk_channel_id;
-            verify['afkChannelId'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.afk_timeout;
-            verify['afkTimeout'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.system_channel_id;
-            verify['systemChannelId'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.verification_level;
-            if(!(entity == zuuluu)) { _fun00008_ip = 434; continue _fun00007 }
+            verify['preferredLocale'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.owner_id;
+            verify['ownerId'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.application_id;
+            verify['application_id'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.afk_channel_id;
+            verify['afkChannelId'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.afk_timeout;
+            verify['afkTimeout'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.system_channel_id;
+            verify['systemChannelId'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.verification_level;
+            if(!(entity == michal)) { _fun00008_ip = 434; continue _fun00007 }
  421:
             golfie = _closure1_slot10;
-            zuuluu = golfie.NONE;
+            michal = golfie.NONE;
  434:
-            verify['verificationLevel'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.explicit_content_filter;
-            if(!(entity == zuuluu)) { _fun00008_ip = 468; continue _fun00007 }
+            verify['verificationLevel'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.explicit_content_filter;
+            if(!(entity == michal)) { _fun00008_ip = 468; continue _fun00007 }
  455:
             golfie = _closure1_slot6;
-            zuuluu = golfie.DISABLED;
+            michal = golfie.DISABLED;
  468:
-            verify['explicitContentFilter'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.default_message_notifications;
-            if(!(entity == zuuluu)) { _fun00008_ip = 502; continue _fun00007 }
+            verify['explicitContentFilter'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.default_message_notifications;
+            if(!(entity == michal)) { _fun00008_ip = 502; continue _fun00007 }
  489:
             golfie = _closure1_slot9;
-            zuuluu = golfie.ALL_MESSAGES;
+            michal = golfie.ALL_MESSAGES;
  502:
-            verify['defaultMessageNotifications'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.mfa_level;
-            if(!(entity == zuuluu)) { _fun00008_ip = 536; continue _fun00007 }
+            verify['defaultMessageNotifications'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.mfa_level;
+            if(!(entity == michal)) { _fun00008_ip = 536; continue _fun00007 }
  523:
             golfie = _closure1_slot8;
-            zuuluu = golfie.NONE;
+            michal = golfie.NONE;
  536:
-            verify['mfaLevel'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.vanity_url_code;
-            verify['vanityURLCode'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.premium_tier;
-            if(!(entity == zuuluu)) { _fun00008_ip = 587; continue _fun00007 }
+            verify['mfaLevel'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.vanity_url_code;
+            verify['vanityURLCode'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.premium_tier;
+            if(!(entity == michal)) { _fun00008_ip = 587; continue _fun00007 }
  574:
             golfie = _closure1_slot5;
-            zuuluu = golfie.NONE;
+            michal = golfie.NONE;
  587:
-            verify['premiumTier'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.premium_progress_bar_enabled;
-            if(zuuluu) { _fun00008_ip = 609; continue _fun00007 }
+            verify['premiumTier'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.premium_progress_bar_enabled;
+            if(michal) { _fun00008_ip = 609; continue _fun00007 }
  607:
-            zuuluu = false;
+            michal = false;
  609:
-            verify['premiumProgressBarEnabled'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.system_channel_flags;
-            verify['systemChannelFlags'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.discovery_splash;
-            verify['discoverySplash'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.rules_channel_id;
-            verify['rulesChannelId'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.safety_alerts_channel_id;
-            verify['safetyAlertsChannelId'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.public_updates_channel_id;
-            verify['publicUpdatesChannelId'] = zuuluu;
-            zuuluu = michal.properties;
-            option = zuuluu.max_stage_video_channel_users;
+            verify['premiumProgressBarEnabled'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.system_channel_flags;
+            verify['systemChannelFlags'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.discovery_splash;
+            verify['discoverySplash'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.rules_channel_id;
+            verify['rulesChannelId'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.safety_alerts_channel_id;
+            verify['safetyAlertsChannelId'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.public_updates_channel_id;
+            verify['publicUpdatesChannelId'] = michal;
+            michal = zuuluu.properties;
+            option = michal.max_stage_video_channel_users;
             offset = entity != option;
-            zuuluu = -1;
-            golfie = zuuluu;
+            michal = -1;
+            golfie = michal;
             if(!offset) { _fun00008_ip = 730; continue _fun00007 }
  727:
             golfie = option;
  730:
             verify['maxStageVideoChannelUsers'] = golfie;
-            golfie = michal.properties;
+            golfie = zuuluu.properties;
             option = golfie.max_video_channel_users;
             offset = entity != option;
-            golfie = zuuluu;
+            golfie = michal;
             if(!offset) { _fun00008_ip = 760; continue _fun00007 }
  757:
             golfie = option;
  760:
             verify['maxVideoChannelUsers'] = golfie;
-            golfie = michal.properties;
+            golfie = zuuluu.properties;
             golfie = golfie.max_members;
             option = entity != golfie;
             if(!option) { _fun00008_ip = 787; continue _fun00007 }
  784:
-            zuuluu = golfie;
+            michal = golfie;
  787:
-            verify['maxMembers'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.nsfw_level;
-            if(!(entity == zuuluu)) { _fun00008_ip = 821; continue _fun00007 }
+            verify['maxMembers'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.nsfw_level;
+            if(!(entity == michal)) { _fun00008_ip = 821; continue _fun00007 }
  808:
             golfie = _closure1_slot7;
-            zuuluu = golfie.DEFAULT;
+            michal = golfie.DEFAULT;
  821:
-            verify['nsfwLevel'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.hub_type;
-            verify['hubType'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.latest_onboarding_question_id;
-            verify['latestOnboardingQuestionId'] = zuuluu;
-            zuuluu = michal.properties;
-            zuuluu = zuuluu.profile;
-            verify['profile'] = zuuluu;
-            michal = michal.properties;
+            verify['nsfwLevel'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.hub_type;
+            verify['hubType'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.latest_onboarding_question_id;
+            verify['latestOnboardingQuestionId'] = michal;
+            michal = zuuluu.properties;
+            michal = michal.profile;
+            verify['profile'] = michal;
+            michal = zuuluu.properties;
             michal = michal.premium_features;
-            verify['premiumFeatures'] = michal;
-            if(!(entity != tangon)) { _fun00008_ip = 911; continue _fun00007 }
+            golfie = entity != michal;
+            michal = null;
+            if(!golfie) { _fun00008_ip = 924; continue _fun00007 }
  898:
+            option = _closure1_slot13;
+            zuuluu = zuuluu.properties;
+            golfie = zuuluu.premium_features;
+            zuuluu = undefined;
+            michal = option.bind(zuuluu)(golfie);
+ 924:
+            verify['premiumFeatures'] = michal;
+            if(!(entity != tangon)) { _fun00008_ip = 946; continue _fun00007 }
+ 933:
             michal = tangon.merge;
             michal = michal.bind(tangon)(verify);
-            _fun00008_ip = 952; continue _fun00007;
- 911:
+            _fun00008_ip = 987; continue _fun00007;
+ 946:
             offset = _closure1_slot0;
             option = _closure1_slot2;
             golfie = 3;
@@ -530,9 +554,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.dangerouslyCast;
             zuuluu = _closure1_slot3;
             michal = golfie.bind(option)(verify, zuuluu);
- 952:
+ 987:
             return michal;
- 954:
+ 989:
             zuuluu = _closure1_slot1;
             golfie = _closure1_slot2;
             michal = 2;
@@ -547,39 +571,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.Date;
             michal = zuuluu instanceof michal;
             golfie = tangon.joinedAt;
-            if(michal) { _fun00008_ip = 1027; continue _fun00007 }
- 1022:
+            if(michal) { _fun00008_ip = 1062; continue _fun00007 }
+ 1057:
             zuuluu = golfie;
-            _fun00008_ip = 1037; continue _fun00007;
- 1027:
+            _fun00008_ip = 1072; continue _fun00007;
+ 1062:
             michal = golfie.getTime;
             zuuluu = michal.bind(golfie)();
- 1037:
+ 1072:
             entity = entity.Date;
             entity = oscard instanceof entity;
             michal = oscard;
-            if(!entity) { _fun00008_ip = 1063; continue _fun00007 }
- 1053:
+            if(!entity) { _fun00008_ip = 1098; continue _fun00007 }
+ 1088:
             entity = oscard.getTime;
             michal = entity.bind(oscard)();
- 1063:
+ 1098:
             entity = tangon.premiumSubscriberCount;
-            if(!(report === entity)) { _fun00008_ip = 1080; continue _fun00007 }
- 1073:
+            if(!(report === entity)) { _fun00008_ip = 1115; continue _fun00007 }
+ 1108:
             entity = tangon;
-            if(!(zuuluu !== michal)) { _fun00008_ip = 1103; continue _fun00007 }
- 1080:
+            if(!(zuuluu !== michal)) { _fun00008_ip = 1138; continue _fun00007 }
+ 1115:
             zuuluu = tangon.merge;
             michal = {};
             michal['joinedAt'] = oscard;
             michal['premiumSubscriberCount'] = report;
             entity = zuuluu.bind(tangon)(michal);
- 1103:
+ 1138:
             return entity;
         }
     };
-    zuuluu['fromServer'] = report;
-    report = function(argFoo, argBar) { // Original name: attachSerializedData
+    zuuluu['fromServer'] = oscard;
+    oscard = function(argFoo, argBar) { // Original name: attachSerializedData
         zuuluu = _closure1_slot4;
         entity = {};
         tangon = argFoo;
@@ -596,8 +620,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = entity instanceof Object ? entity : michal;
         return entity;
     };
-    zuuluu['attachSerializedData'] = report;
-    report = function(argFoo, argBar) { // Original name: fromBackgroundSync
+    zuuluu['attachSerializedData'] = oscard;
+    oscard = function(argFoo, argBar) { // Original name: fromBackgroundSync
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             tangon = argFoo;
@@ -606,7 +630,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = null;
             if(!(report == entity)) { _fun00010_ip = 32; continue _fun00009 }
  18:
-            oscard = _closure1_slot13;
+            oscard = _closure1_slot14;
             michal = undefined;
             entity = oscard.bind(michal)(zuuluu);
  32:
@@ -758,132 +782,143 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['fromBackgroundSync'] = report;
-    report = function(argFoo, argBar) { // Original name: fromServerUpdate
+    zuuluu['fromBackgroundSync'] = oscard;
+    oscard = function(argFoo, argBar) { // Original name: fromServerUpdate
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            report = argFoo;
+            oscard = argFoo;
             zuuluu = argBar;
             tangon = {};
-            entity = report.id;
+            entity = oscard.id;
             tangon['id'] = entity;
-            entity = report.name;
+            entity = oscard.name;
             tangon['name'] = entity;
-            entity = report.description;
+            entity = oscard.description;
             tangon['description'] = entity;
-            entity = report.icon;
+            entity = oscard.icon;
             tangon['icon'] = entity;
-            entity = report.splash;
+            entity = oscard.splash;
             tangon['splash'] = entity;
-            entity = report.banner;
+            entity = oscard.banner;
             tangon['banner'] = entity;
-            entity = report.home_header;
+            entity = oscard.home_header;
             tangon['homeHeader'] = entity;
-            entity = report.features;
+            entity = oscard.features;
             tangon['features'] = entity;
-            entity = report.preferred_locale;
+            entity = oscard.preferred_locale;
             tangon['preferredLocale'] = entity;
-            entity = report.owner_id;
+            entity = oscard.owner_id;
             tangon['ownerId'] = entity;
-            entity = report.application_id;
+            entity = oscard.application_id;
             tangon['application_id'] = entity;
-            golfie = _closure1_slot0;
-            oscard = _closure1_slot2;
+            report = _closure1_slot0;
+            golfie = _closure1_slot2;
             entity = 4;
-            entity = oscard[entity];
-            oscard = undefined;
-            verify = golfie.bind(oscard)(entity);
-            option = verify.sortServerRoles;
-            golfie = report.id;
-            entity = report.roles;
-            entity = option.bind(verify)(golfie, entity);
+            entity = golfie[entity];
+            option = undefined;
+            verify = report.bind(option)(entity);
+            golfie = verify.sortServerRoles;
+            report = oscard.id;
+            entity = oscard.roles;
+            entity = golfie.bind(verify)(report, entity);
             tangon['roles'] = entity;
-            entity = report.afk_channel_id;
+            entity = oscard.afk_channel_id;
             tangon['afkChannelId'] = entity;
-            entity = report.afk_timeout;
+            entity = oscard.afk_timeout;
             tangon['afkTimeout'] = entity;
-            entity = report.system_channel_id;
+            entity = oscard.system_channel_id;
             tangon['systemChannelId'] = entity;
-            golfie = report.joined_at;
+            report = oscard.joined_at;
             entity = null;
-            if(!(entity == golfie)) { _fun00012_ip = 236; continue _fun00011 }
+            if(!(entity == report)) { _fun00012_ip = 236; continue _fun00011 }
  219:
             golfie = entity == zuuluu;
-            oscard = undefined;
+            report = undefined;
             if(golfie) { _fun00012_ip = 234; continue _fun00011 }
  228:
-            oscard = zuuluu.joinedAt;
+            report = zuuluu.joinedAt;
  234:
             _fun00012_ip = 270; continue _fun00011;
  236:
             golfie = global;
-            verify = golfie.Date;
-            yankee = report.joined_at;
-            option = verify.prototype;
-            option = Object.create(option, {constructor: {value: verify}});
-            romeon = option;
-            golfie = new romeon[verify](yankee, offset);
-            oscard = golfie instanceof Object ? golfie : option;
+            offset = golfie.Date;
+            romeon = oscard.joined_at;
+            verify = offset.prototype;
+            verify = Object.create(verify, {constructor: {value: offset}});
+            foxtra = verify;
+            golfie = new foxtra[offset](romeon, yankee);
+            report = golfie instanceof Object ? golfie : verify;
  270:
-            tangon['joinedAt'] = oscard;
-            oscard = report.verification_level;
-            tangon['verificationLevel'] = oscard;
-            oscard = report.explicit_content_filter;
-            tangon['explicitContentFilter'] = oscard;
-            oscard = report.default_message_notifications;
-            tangon['defaultMessageNotifications'] = oscard;
-            oscard = report.mfa_level;
-            tangon['mfaLevel'] = oscard;
-            oscard = report.vanity_url_code;
-            tangon['vanityURLCode'] = oscard;
-            oscard = report.premium_tier;
-            tangon['premiumTier'] = oscard;
-            oscard = report.premium_subscription_count;
-            tangon['premiumSubscriberCount'] = oscard;
-            oscard = report.premium_progress_bar_enabled;
-            tangon['premiumProgressBarEnabled'] = oscard;
-            oscard = report.system_channel_flags;
-            tangon['systemChannelFlags'] = oscard;
-            oscard = report.discovery_splash;
-            tangon['discoverySplash'] = oscard;
-            oscard = report.rules_channel_id;
-            tangon['rulesChannelId'] = oscard;
-            oscard = report.safety_alerts_channel_id;
-            tangon['safetyAlertsChannelId'] = oscard;
-            oscard = report.public_updates_channel_id;
-            tangon['publicUpdatesChannelId'] = oscard;
-            oscard = report.max_stage_video_channel_users;
-            tangon['maxStageVideoChannelUsers'] = oscard;
-            oscard = report.max_video_channel_users;
-            tangon['maxVideoChannelUsers'] = oscard;
-            oscard = report.max_members;
-            tangon['maxMembers'] = oscard;
-            oscard = report.nsfw_level;
-            tangon['nsfwLevel'] = oscard;
-            oscard = report.hub_type;
-            tangon['hubType'] = oscard;
-            oscard = report.latest_onboarding_question_id;
-            tangon['latestOnboardingQuestionId'] = oscard;
-            report = report.profile;
+            tangon['joinedAt'] = report;
+            report = oscard.verification_level;
+            tangon['verificationLevel'] = report;
+            report = oscard.explicit_content_filter;
+            tangon['explicitContentFilter'] = report;
+            report = oscard.default_message_notifications;
+            tangon['defaultMessageNotifications'] = report;
+            report = oscard.mfa_level;
+            tangon['mfaLevel'] = report;
+            report = oscard.vanity_url_code;
+            tangon['vanityURLCode'] = report;
+            report = oscard.premium_tier;
+            tangon['premiumTier'] = report;
+            report = oscard.premium_subscription_count;
+            tangon['premiumSubscriberCount'] = report;
+            report = oscard.premium_progress_bar_enabled;
+            tangon['premiumProgressBarEnabled'] = report;
+            report = oscard.system_channel_flags;
+            tangon['systemChannelFlags'] = report;
+            report = oscard.discovery_splash;
+            tangon['discoverySplash'] = report;
+            report = oscard.rules_channel_id;
+            tangon['rulesChannelId'] = report;
+            report = oscard.safety_alerts_channel_id;
+            tangon['safetyAlertsChannelId'] = report;
+            report = oscard.public_updates_channel_id;
+            tangon['publicUpdatesChannelId'] = report;
+            report = oscard.max_stage_video_channel_users;
+            tangon['maxStageVideoChannelUsers'] = report;
+            report = oscard.max_video_channel_users;
+            tangon['maxVideoChannelUsers'] = report;
+            report = oscard.max_members;
+            tangon['maxMembers'] = report;
+            report = oscard.nsfw_level;
+            tangon['nsfwLevel'] = report;
+            report = oscard.hub_type;
+            tangon['hubType'] = report;
+            report = oscard.latest_onboarding_question_id;
+            tangon['latestOnboardingQuestionId'] = report;
+            report = oscard.profile;
             tangon['profile'] = report;
-            if(!(entity != zuuluu)) { _fun00012_ip = 512; continue _fun00011 }
- 499:
+            report = oscard.premium_features;
+            golfie = entity != report;
+            report = null;
+            if(!golfie) { _fun00012_ip = 525; continue _fun00011 }
+ 510:
+            golfie = _closure1_slot13;
+            oscard = oscard.premium_features;
+            report = golfie.bind(option)(oscard);
+ 525:
+            tangon['premiumFeatures'] = report;
+            if(!(entity != zuuluu)) { _fun00012_ip = 547; continue _fun00011 }
+ 534:
             entity = zuuluu.merge;
             entity = entity.bind(zuuluu)(tangon);
-            _fun00012_ip = 539; continue _fun00011;
- 512:
+            _fun00012_ip = 574; continue _fun00011;
+ 547:
             michal = _closure1_slot3;
             zuuluu = michal.prototype;
             zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
-            romeon = zuuluu;
-            yankee = tangon;
-            michal = new romeon[michal](yankee, offset);
+            foxtra = zuuluu;
+            romeon = tangon;
+            michal = new foxtra[michal](romeon, yankee);
             entity = michal instanceof Object ? michal : zuuluu;
- 539:
+ 574:
             return entity;
         }
     };
-    zuuluu['fromServerUpdate'] = report;
+    zuuluu['fromServerUpdate'] = oscard;
+    zuuluu['fromPremiumFeatures'] = report;
     report = function(argFoo) { // Original name: fromInviteGuild
         entity = argFoo;
         zuuluu = {};
@@ -909,8 +944,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu['premiumSubscriberCount'] = michal;
         michal = entity.nsfw_level;
         zuuluu['nsfwLevel'] = michal;
-        entity = entity.approximate_member_count;
-        zuuluu['memberCount'] = entity;
+        michal = entity.approximate_member_count;
+        zuuluu['memberCount'] = michal;
+        entity = entity.premium_tier;
+        zuuluu['premiumTier'] = entity;
         entity = _closure1_slot3;
         michal = entity.prototype;
         michal = Object.create(michal, {constructor: {value: entity}});

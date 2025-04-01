@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = michal.location;
             offset = michal.application;
             report = michal.navigation;
-            verify = michal.channelId;
+            verify = michal.context;
             golfie = michal.sectionName;
             option = michal.installOnDemand;
             kiloes = michal.query;
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.APPLICATION_VIEW;
             michal = {};
             michal['application'] = offset;
-            michal['channelId'] = verify;
+            michal['context'] = verify;
             michal['installOnDemand'] = option;
             michal['sectionName'] = golfie;
             michal['entrypoint'] = oscard;
@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = argFoo;
             kiloes = entity.location;
             report = entity.navigation;
-            backup = entity.channelId;
+            backup = entity.context;
             foxtra = entity.sectionName;
             romeon = entity.sectionOverallPosition;
             yankee = entity.applications;
@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.APP_LIST_VIEW;
             michal = {};
             michal['analyticsLocation'] = kiloes;
-            michal['channelId'] = backup;
+            michal['context'] = backup;
             michal['sectionName'] = foxtra;
             michal['sectionOverallPosition'] = romeon;
             michal['applications'] = yankee;
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             entity = argFoo;
             foxtra = entity.location;
-            verify = entity.channel;
+            verify = entity.context;
             kiloes = entity.command;
             var _closure2_slot0 = kiloes;
             offset = entity.section;
@@ -239,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = sizing.bind(entity)(tangon);
             tangon = tangon.ApplicationCommandType;
             tangon = tangon.PRIMARY_ENTRY_POINT;
-            if(!(backup !== tangon)) { _fun00006_ip = 365; continue _fun00005 }
+            if(!(backup !== tangon)) { _fun00006_ip = 380; continue _fun00005 }
  213:
             sizing = offset.id;
             tangon = _closure1_slot10;
@@ -263,13 +263,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  261:
             backup = zuuluu;
  264:
+            tangon = verify.type;
+            zuuluu = 'channel';
+            if(!(zuuluu === tangon)) { _fun00006_ip = 378; continue _fun00005 }
+ 277:
             tangon = _closure1_slot2;
             yankee = _closure1_slot3;
             zuuluu = 11;
             zuuluu = yankee[zuuluu];
             yankee = tangon.bind(entity)(zuuluu);
             tangon = yankee.setAppLauncherActiveCommand;
-            zuuluu = verify.id;
+            zuuluu = verify.channel;
+            zuuluu = zuuluu.id;
             zuuluu = tangon.bind(yankee)(zuuluu, kiloes);
             yankee = report.navigate;
             zuuluu = _closure1_slot8;
@@ -277,28 +282,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = {};
             zuuluu['command'] = kiloes;
             zuuluu['section'] = backup;
-            backup = verify.id;
-            zuuluu['channelId'] = backup;
+            zuuluu['context'] = verify;
             zuuluu['installOnDemand'] = option;
             zuuluu['sectionName'] = golfie;
             zuuluu['analyticsLocation'] = foxtra;
             zuuluu['onCommandExecuted'] = romeon;
             zuuluu = yankee.bind(report)(tangon, zuuluu);
-            _fun00006_ip = 422; continue _fun00005;
- 365:
+            _fun00006_ip = 432; continue _fun00005;
+ 378:
+            return entity;
+ 380:
             tangon = report.navigate;
             michal = _closure1_slot8;
             zuuluu = michal.APPLICATION_VIEW;
             michal = {};
             offset = offset.application;
             michal['application'] = offset;
-            verify = verify.id;
-            michal['channelId'] = verify;
+            michal['context'] = verify;
             michal['installOnDemand'] = option;
             michal['sectionName'] = golfie;
             michal['entrypoint'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
- 422:
+ 432:
             return entity;
         }
     };

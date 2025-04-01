@@ -1,11 +1,11 @@
 // app/modules/search_v2/native/components/layout/SearchScreenLayout.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
+    romeon = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
+    var _closure1_slot1 = romeon;
     var _closure1_slot2 = oscard;
     entity = function(argFoo) { // Original name: SearchFreezeContainer
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot5;
             michal = _closure1_slot0;
             oscard = _closure1_slot2;
-            entity = 5;
+            entity = 6;
             entity = oscard[entity];
             entity = michal.bind(tangon)(entity);
             michal = entity.Freeze;
@@ -59,8 +59,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['value'] = entity;
     entity = '__esModule';
     entity = golfie.bind(option)(zuuluu, entity, tangon);
-    romeon = 0;
-    golfie = oscard[romeon];
+    foxtra = 0;
+    golfie = oscard[foxtra];
     tangon = argCor;
     entity = undefined;
     golfie = tangon.bind(entity)(golfie);
@@ -93,10 +93,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = verify.createStyles;
     tangon = {};
     offset = {};
-    offset['opacity'] = romeon;
+    offset['opacity'] = foxtra;
     tangon['hidden'] = offset;
     offset = {};
     offset['flex'] = yankee;
+    yankee = 5;
+    yankee = oscard[yankee];
+    yankee = romeon.bind(entity)(yankee);
+    yankee = yankee.colors;
+    yankee = yankee.BG_BASE_PRIMARY;
+    offset['backgroundColor'] = yankee;
     tangon['visible'] = offset;
     tangon = option.bind(verify)(tangon);
     var _closure1_slot8 = tangon;
@@ -104,35 +110,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function(argFoo) {
         entity = argFoo;
         romeon = entity.searchContext;
+        yankee = entity.containerStyle;
         entity = _closure1_slot4;
         tangon = undefined;
-        yankee = entity.bind(tangon)(romeon);
+        backup = entity.bind(tangon)(romeon);
         zuuluu = _closure1_slot7;
         michal = _closure1_slot6;
         entity = {};
         oscard = _closure1_slot5;
         option = _closure1_slot9;
         report = {};
-        golfie = !yankee;
+        golfie = !backup;
         report['visible'] = golfie;
-        kiloes = _closure1_slot5;
+        report['containerStyle'] = yankee;
+        sizing = _closure1_slot5;
         offset = _closure1_slot1;
         foxtra = _closure1_slot2;
-        golfie = 6;
+        golfie = 7;
         golfie = foxtra[golfie];
-        backup = offset.bind(tangon)(golfie);
+        kiloes = offset.bind(tangon)(golfie);
         golfie = {};
         golfie['searchContext'] = romeon;
-        golfie = kiloes.bind(tangon)(backup, golfie);
+        golfie = sizing.bind(tangon)(kiloes, golfie);
         report['children'] = golfie;
         oscard = oscard.bind(tangon)(option, report);
         report = new Array(2);
         report[0] = oscard;
         golfie = _closure1_slot5;
         oscard = {};
-        oscard['visible'] = yankee;
+        oscard['visible'] = backup;
+        oscard['containerStyle'] = yankee;
         yankee = _closure1_slot5;
-        verify = 7;
+        verify = 8;
         verify = foxtra[verify];
         offset = offset.bind(tangon)(verify);
         verify = {};
@@ -146,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     michal = tangon.bind(golfie)(michal);
-    tangon = 8;
+    tangon = 9;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

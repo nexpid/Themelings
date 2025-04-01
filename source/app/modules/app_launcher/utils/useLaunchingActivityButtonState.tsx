@@ -38,22 +38,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.applicationId;
             var _closure2_slot0 = zuuluu;
             zuuluu = michal.context;
+            var _closure2_slot1 = zuuluu;
             oscard = michal.launchingComponentId;
             golfie = michal.onSubmissionComplete;
-            var _closure2_slot1 = golfie;
+            var _closure2_slot2 = golfie;
             report = undefined;
-            var _closure2_slot2 = report;
             var _closure2_slot3 = report;
             var _closure2_slot4 = report;
-            option = zuuluu.type;
-            tangon = 'channel';
-            michal = undefined;
-            if(!(tangon === option)) { _fun00002_ip = 74; continue _fun00001 }
- 64:
-            zuuluu = zuuluu.channel;
-            michal = zuuluu.id;
- 74:
-            _closure2_slot2 = michal;
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
             michal = 2;
@@ -64,25 +55,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = new Array(1);
             zuuluu[0] = michal;
             michal = function() {
-                tangon = _closure1_slot4;
-                zuuluu = tangon.getLaunchState;
-                michal = _closure2_slot0;
-                entity = _closure2_slot2;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                    tangon = _closure1_slot4;
+                    zuuluu = tangon.getLaunchState;
+                    michal = _closure2_slot0;
+                    entity = _closure2_slot1;
+                    golfie = entity.type;
+                    oscard = 'channel';
+                    entity = undefined;
+                    if(!(oscard === golfie)) { _fun00004_ip = 53; continue _fun00003 }
+ 39:
+                    report = _closure2_slot1;
+                    report = report.channel;
+                    entity = report.id;
+ 53:
+                    entity = zuuluu.bind(tangon)(michal, entity);
+                    return entity;
+                }
             };
             michal = option.bind(verify)(zuuluu, michal);
             zuuluu = null;
             zuuluu = zuuluu != michal;
-            if(!zuuluu) { _fun00002_ip = 146; continue _fun00001 }
- 140:
+            if(!zuuluu) { _fun00002_ip = 117; continue _fun00001 }
+ 111:
             zuuluu = michal.isLaunching;
- 146:
-            if(!zuuluu) { _fun00002_ip = 159; continue _fun00001 }
- 149:
+ 117:
+            if(!zuuluu) { _fun00002_ip = 130; continue _fun00001 }
+ 120:
             michal = michal.componentId;
             zuuluu = michal === oscard;
- 159:
+ 130:
             _closure2_slot3 = zuuluu;
             oscard = _closure1_slot1;
             option = _closure1_slot2;
@@ -98,21 +101,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon[1] = michal;
             tangon[2] = golfie;
             entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     michal = _closure2_slot3;
                     michal = !michal;
-                    if(!michal) { _fun00004_ip = 17; continue _fun00003 }
+                    if(!michal) { _fun00006_ip = 17; continue _fun00005 }
  13:
                     michal = _closure2_slot4;
  17:
-                    if(!michal) { _fun00004_ip = 40; continue _fun00003 }
+                    if(!michal) { _fun00006_ip = 40; continue _fun00005 }
  20:
-                    zuuluu = _closure2_slot1;
+                    zuuluu = _closure2_slot2;
                     michal = null;
-                    if(!(michal != zuuluu)) { _fun00004_ip = 40; continue _fun00003 }
+                    if(!(michal != zuuluu)) { _fun00006_ip = 40; continue _fun00005 }
  30:
-                    michal = _closure2_slot1;
+                    michal = _closure2_slot2;
                     entity = undefined;
                     entity = michal.bind(entity)();
  40:

@@ -833,27 +833,50 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['isApplicationAdSupported'] = tangon;
     tangon = function(argFoo) { // Original name: appLauncherShowsRecommendations
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 18;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        entity = entity.AppLauncherEntrypoint;
-        michal = entity.TEXT;
-        entity = argFoo;
-        entity = entity === michal;
-        return entity;
+        _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
+ 0:
+            zuuluu = argFoo;
+            tangon = _closure1_slot0;
+            entity = _closure1_slot2;
+            oscard = 18;
+            entity = entity[oscard];
+            report = undefined;
+            entity = tangon.bind(report)(entity);
+            entity = entity.AppLauncherEntrypoint;
+            entity = entity.TEXT;
+            entity = zuuluu === entity;
+            if(entity) { _fun00032_ip = 80; continue _fun00031 }
+ 47:
+            golfie = _closure1_slot0;
+            tangon = _closure1_slot2;
+            tangon = tangon[oscard];
+            tangon = golfie.bind(report)(tangon);
+            tangon = tangon.AppLauncherEntrypoint;
+            tangon = tangon.PLAY_TAB;
+            entity = zuuluu === tangon;
+ 80:
+            if(entity) { _fun00032_ip = 116; continue _fun00031 }
+ 83:
+            tangon = _closure1_slot0;
+            michal = _closure1_slot2;
+            michal = michal[oscard];
+            michal = tangon.bind(report)(michal);
+            michal = michal.AppLauncherEntrypoint;
+            michal = michal.QUICK_LAUNCHER;
+            entity = zuuluu === michal;
+ 116:
+            return entity;
+        }
     };
     zuuluu['appLauncherShowsRecommendations'] = tangon;
     tangon = function(argFoo) { // Original name: formatPrimaryEntryPointCommandName
-        _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
+        _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
  0:
             report = argFoo;
             entity = null;
             michal = entity == report;
             entity = '';
-            if(michal) { _fun00032_ip = 76; continue _fun00031 }
+            if(michal) { _fun00034_ip = 76; continue _fun00033 }
  16:
             zuuluu = report.charAt;
             michal = 0;
@@ -874,7 +897,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['formatPrimaryEntryPointCommandName'] = tangon;
     tangon = function(argFoo) { // Original name: ensureRecommendationSectionsOnlyContainActivities
-        _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
+        _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
  0:
             entity = new Array(0);
             zuuluu = _closure1_slot11;
@@ -885,13 +908,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.done;
             report = 'application_directory_collection_items';
             tangon = 0;
-            if(michal) { _fun00034_ip = 118; continue _fun00033 }
+            if(michal) { _fun00036_ip = 118; continue _fun00035 }
  41:
             yankee = zuuluu.value;
             offset = yankee.application_directory_collection_items;
             verify = offset.filter;
             michal = function(argFoo) {
-                _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
+                _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
  0:
                     michal = argFoo;
                     report = michal.type;
@@ -904,7 +927,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = entity.ApplicationDirectoryCollectionItemType;
                     entity = entity.APPLICATION;
                     entity = report === entity;
-                    if(!entity) { _fun00036_ip = 66; continue _fun00035 }
+                    if(!entity) { _fun00038_ip = 66; continue _fun00037 }
  52:
                     zuuluu = _closure1_slot14;
                     michal = michal.application;
@@ -915,7 +938,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             offset = verify.bind(offset)(michal);
             michal = offset.length;
-            if(!(tangon !== michal)) { _fun00034_ip = 103; continue _fun00033 }
+            if(!(tangon !== michal)) { _fun00036_ip = 103; continue _fun00035 }
  76:
             verify = entity.push;
             michal = {};
@@ -928,7 +951,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = oscard.bind(golfie)();
             michal = verify.done;
             zuuluu = verify;
-            if(!michal) { _fun00034_ip = 41; continue _fun00033 }
+            if(!michal) { _fun00036_ip = 41; continue _fun00035 }
  118:
             return entity;
         }
@@ -949,7 +972,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['getInstallAppPropsFromProfileApplication'] = tangon;
     tangon = function(argFoo) { // Original name: getInstallAppProps
-        _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
+        _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
  0:
             zuuluu = argFoo;
             entity = _closure1_slot7;
@@ -957,7 +980,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = {};
             tangon = zuuluu.id;
             michal['applicationId'] = tangon;
-            if(entity) { _fun00038_ip = 66; continue _fun00037 }
+            if(entity) { _fun00040_ip = 66; continue _fun00039 }
  28:
             entity = zuuluu.custom_install_url;
             michal['customInstallUrl'] = entity;
@@ -966,7 +989,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = zuuluu.integration_types_config;
             michal['integrationTypesConfig'] = entity;
             entity = michal;
-            _fun00038_ip = 102; continue _fun00037;
+            _fun00040_ip = 102; continue _fun00039;
  66:
             tangon = zuuluu.customInstallUrl;
             michal['customInstallUrl'] = tangon;
@@ -981,21 +1004,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['getInstallAppProps'] = tangon;
     michal = function(argFoo, argBar) { // Original name: isAppAvailableInAppLauncher
-        _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
+        _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
  0:
             tangon = argFoo;
             report = argBar;
             entity = null;
             michal = entity != report;
             oscard = null;
-            if(!michal) { _fun00040_ip = 37; continue _fun00039 }
+            if(!michal) { _fun00042_ip = 37; continue _fun00041 }
  17:
             zuuluu = _closure1_slot6;
             michal = zuuluu.getGuildState;
             oscard = michal.bind(zuuluu)(report);
  37:
             michal = entity != oscard;
-            if(!michal) { _fun00040_ip = 86; continue _fun00039 }
+            if(!michal) { _fun00042_ip = 86; continue _fun00041 }
  44:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -1015,7 +1038,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = report.bind(entity)(zuuluu);
             entity = zuuluu.isAppUserInstallable;
             entity = entity.bind(zuuluu)(tangon);
-            if(entity) { _fun00040_ip = 128; continue _fun00039 }
+            if(entity) { _fun00042_ip = 128; continue _fun00041 }
  125:
             entity = michal;
  128:

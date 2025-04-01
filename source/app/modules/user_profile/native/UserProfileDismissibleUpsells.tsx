@@ -269,7 +269,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.DismissibleContent;
                 michal = entity.USER_PROFILE_PREMIUM_AND_SHOP_ENTRY_POINTS;
                 entity = null;
-                if(!(zuuluu === michal)) { _fun00002_ip = 886; continue _fun00001 }
+                if(!(zuuluu === michal)) { _fun00002_ip = 946; continue _fun00001 }
  67:
                 tangon = _closure1_slot8;
                 golfie = _closure1_slot1;
@@ -327,9 +327,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = sizing[offset];
                 offset = result.bind(report)(offset);
                 foxtra = offset.Text;
-                offset = {};
-                echoed = 'text-sm/semibold';
-                offset['variant'] = echoed;
+                offset = {'accessibilityRole': 'header', 'variant': 'text-sm/semibold'};
                 config = 16;
                 echoed = sizing[config];
                 echoed = result.bind(report)(echoed);
@@ -349,6 +347,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 foxtra = result.bind(report)(foxtra);
                 echoed = foxtra.PressableOpacity;
                 foxtra = {};
+                ctrled = 'button';
+                foxtra['accessibilityRole'] = ctrled;
+                ctrled = sizing[config];
+                ctrled = result.bind(report)(ctrled);
+                sequen = ctrled.intl;
+                vacuum = sequen.string;
+                ctrled = sizing[config];
+                ctrled = result.bind(report)(ctrled);
+                ctrled = ctrled.t;
+                ctrled = ctrled.WAI6xs;
+                ctrled = vacuum.bind(sequen)(ctrled);
+                foxtra['accessibilityLabel'] = ctrled;
                 update = function() { // Original name: onPress
                     zuuluu = _closure3_slot0;
                     entity = _closure1_slot7;
@@ -394,24 +404,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 echoed = echoed[config];
                 echoed = sequen.bind(report)(echoed);
                 echoed = echoed.t;
-                if(sizing) { _fun00002_ip = 574; continue _fun00001 }
- 559:
+                if(sizing) { _fun00002_ip = 634; continue _fun00001 }
+ 619:
                 sizing = echoed.x6rkDg;
                 sizing = update.bind(ctrled)(sizing);
-                _fun00002_ip = 587; continue _fun00001;
- 574:
+                _fun00002_ip = 647; continue _fun00001;
+ 634:
                 echoed = echoed.0Q61kJ;
                 sizing = update.bind(ctrled)(echoed);
- 587:
+ 647:
                 result['text'] = sizing;
                 sizing = _closure2_slot5;
-                if(sizing) { _fun00002_ip = 606; continue _fun00001 }
- 600:
+                if(sizing) { _fun00002_ip = 666; continue _fun00001 }
+ 660:
                 sizing = _closure2_slot7;
-                _fun00002_ip = 610; continue _fun00001;
- 606:
+                _fun00002_ip = 670; continue _fun00001;
+ 666:
                 sizing = _closure2_slot8;
- 610:
+ 670:
                 result['onPress'] = sizing;
                 sizing = _closure1_slot8;
                 ctrled = _closure1_slot0;
@@ -473,7 +483,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = option.bind(report)(golfie, oscard);
                 michal['children'] = oscard;
                 entity = tangon.bind(report)(zuuluu, michal);
- 886:
+ 946:
                 return entity;
             }
         };

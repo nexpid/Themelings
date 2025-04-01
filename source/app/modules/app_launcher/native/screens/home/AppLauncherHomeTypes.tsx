@@ -47,10 +47,14 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = 'RECOMMENDATION_APP';
     michal[report] = entity;
     report = 9;
+    michal['RECOMMENDATION_TUPLE'] = report;
+    entity = 'RECOMMENDATION_TUPLE';
+    michal[report] = entity;
+    report = 10;
     michal['VIEW_ALL'] = report;
     entity = 'VIEW_ALL';
     michal[report] = entity;
-    report = 10;
+    report = 11;
     michal['LEARN_MORE'] = report;
     entity = 'LEARN_MORE';
     michal[report] = entity;

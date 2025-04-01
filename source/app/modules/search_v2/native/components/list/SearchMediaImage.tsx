@@ -418,7 +418,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['sound'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot11 = tangon;
-    tangon = 18;
+    tangon = 19;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -617,7 +617,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     zuuluu['SearchEmbedMediaImage'] = tangon;
-    michal = function(argFoo) { // Original name: SearchSoundMediaImage
+    tangon = function(argFoo) { // Original name: SearchSoundMediaImage
         michal = argFoo;
         offset = michal.height;
         var _closure2_slot0 = offset;
@@ -663,6 +663,55 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zuuluu['SearchSoundMediaImage'] = michal;
+    zuuluu['SearchSoundMediaImage'] = tangon;
+    michal = function(argFoo) { // Original name: SearchFileMediaImage
+        michal = argFoo;
+        option = michal.fileName;
+        yankee = michal.height;
+        var _closure2_slot0 = yankee;
+        offset = michal.width;
+        var _closure2_slot1 = offset;
+        verify = michal.containerStyle;
+        michal = _closure1_slot11;
+        tangon = undefined;
+        oscard = michal.bind(tangon)();
+        golfie = _closure1_slot4;
+        zuuluu = golfie.useMemo;
+        michal = new Array(2);
+        michal[0] = yankee;
+        michal[1] = offset;
+        entity = function() {
+            entity = {};
+            zuuluu = _closure2_slot0;
+            entity['height'] = zuuluu;
+            michal = _closure2_slot1;
+            entity['width'] = michal;
+            return entity;
+        };
+        golfie = zuuluu.bind(golfie)(entity, michal);
+        zuuluu = _closure1_slot8;
+        michal = _closure1_slot7;
+        entity = {};
+        offset = oscard.sound;
+        oscard = new Array(3);
+        oscard[0] = offset;
+        oscard[1] = verify;
+        oscard[2] = golfie;
+        entity['style'] = oscard;
+        golfie = _closure1_slot8;
+        oscard = _closure1_slot0;
+        verify = _closure1_slot2;
+        report = 18;
+        report = verify[report];
+        report = oscard.bind(tangon)(report);
+        oscard = report.AttachmentIcon;
+        report = {};
+        report['fileName'] = option;
+        report = golfie.bind(tangon)(oscard, report);
+        entity['children'] = report;
+        entity = zuuluu.bind(tangon)(michal, entity);
+        return entity;
+    };
+    zuuluu['SearchFileMediaImage'] = michal;
     return entity;
 })();

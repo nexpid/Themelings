@@ -94,24 +94,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.Date;
             zuuluu = entity.prototype;
             zuuluu = Object.create(zuuluu, {constructor: {value: entity}});
-            foxtra = zuuluu;
-            entity = new foxtra[entity](romeon);
+            backup = zuuluu;
+            entity = new backup[entity](foxtra);
             zuuluu = entity instanceof Object ? entity : zuuluu;
             entity = zuuluu.toISOString;
             entity = entity.bind(zuuluu)();
-            if(!(!(michal < entity))) { _fun00004_ip = 267; continue _fun00003 }
+            if(!(!(michal < entity))) { _fun00004_ip = 314; continue _fun00003 }
  65:
-            option = _closure1_slot0;
+            verify = _closure1_slot0;
             offset = _closure1_slot2;
             entity = 10;
+            michal = offset[entity];
+            option = undefined;
+            zuuluu = verify.bind(option)(michal);
+            michal = zuuluu.getQuestTaskDetails;
+            oscard = michal.bind(zuuluu)(report);
             entity = offset[entity];
-            golfie = undefined;
-            michal = option.bind(golfie)(entity);
-            entity = michal.getQuestTaskDetails;
-            oscard = entity.bind(michal)(report);
+            michal = verify.bind(option)(entity);
+            entity = michal.getThirdPartyTaskDetails;
+            golfie = entity.bind(michal)(report);
             entity = 11;
             entity = offset[entity];
-            zuuluu = option.bind(golfie)(entity);
+            zuuluu = verify.bind(option)(entity);
             michal = zuuluu.getQuestsInstructionsToWinReward;
             entity = {};
             entity['quest'] = report;
@@ -121,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['location'] = oscard;
             oscard = 12;
             oscard = offset[oscard];
-            oscard = option.bind(golfie)(oscard);
+            oscard = verify.bind(option)(oscard);
             oscard = oscard.QuestContent;
             oscard = oscard.QUEST_EMBED_MOBILE;
             entity['questContent'] = oscard;
@@ -130,11 +134,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity['connectedConsoleLinkOnClick'] = oscard;
+            oscard = null;
+            verify = oscard != golfie;
+            oscard = undefined;
+            if(!verify) { _fun00004_ip = 224; continue _fun00003 }
+ 221:
+            oscard = golfie;
+ 224:
+            entity['thirdPartyTaskDetails'] = oscard;
             verify = true;
             entity['withoutMarkdown'] = verify;
+            golfie = _closure1_slot0;
+            offset = _closure1_slot2;
             oscard = 13;
             oscard = offset[oscard];
-            oscard = option.bind(golfie)(oscard);
+            oscard = golfie.bind(option)(oscard);
             option = oscard.QuestBarCopySimplification;
             golfie = option.getCurrentConfig;
             oscard = {};
@@ -148,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['withSimplifiedCopy'] = tangon;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 267:
+ 314:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
             entity = 9;

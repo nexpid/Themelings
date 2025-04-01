@@ -1050,11 +1050,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
  0:
             report = argFoo;
-            zuuluu = _closure1_slot11;
+            michal = arguments[1];
             entity = undefined;
+            if(!(michal === entity)) { _fun00038_ip = 14; continue _fun00037 }
+ 12:
+            michal = {};
+ 14:
+            option = michal.analyticsLocations;
+            zuuluu = _closure1_slot11;
             zuuluu = zuuluu.bind(entity)();
-            if(zuuluu) { _fun00038_ip = 104; continue _fun00037 }
- 19:
+            if(zuuluu) { _fun00038_ip = 124; continue _fun00037 }
+ 34:
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
             oscard = 11;
@@ -1062,9 +1068,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = zuuluu.bind(entity)(oscard);
             oscard = _closure1_slot6;
             michal = oscard.getSidechainCompression;
-            oscard = michal.bind(oscard)();
-            michal = 'stream_attenuation_enabled';
-            michal = golfie.bind(entity)(michal, report, oscard);
+            offset = michal.bind(oscard)();
+            romeon = 'stream_attenuation_enabled';
+            foxtra = undefined;
+            yankee = report;
+            verify = option;
+            michal = foxtra[golfie](romeon, yankee, offset, verify, option);
             michal = 9;
             michal = tangon[michal];
             tangon = zuuluu.bind(entity)(michal);
@@ -1074,7 +1083,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['type'] = oscard;
             michal['enabled'] = report;
             michal = zuuluu.bind(tangon)(michal);
- 104:
+ 124:
             return entity;
         }
     };
@@ -1083,11 +1092,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
  0:
             report = argFoo;
-            zuuluu = _closure1_slot11;
+            michal = arguments[1];
             entity = undefined;
+            if(!(michal === entity)) { _fun00040_ip = 14; continue _fun00039 }
+ 12:
+            michal = {};
+ 14:
+            option = michal.analyticsLocations;
+            zuuluu = _closure1_slot11;
             zuuluu = zuuluu.bind(entity)();
-            if(zuuluu) { _fun00040_ip = 107; continue _fun00039 }
- 19:
+            if(zuuluu) { _fun00040_ip = 127; continue _fun00039 }
+ 34:
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
             oscard = 11;
@@ -1095,9 +1110,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = zuuluu.bind(entity)(oscard);
             oscard = _closure1_slot6;
             michal = oscard.getSidechainCompressionStrength;
-            oscard = michal.bind(oscard)();
-            michal = 'stream_attenuation_strength';
-            michal = golfie.bind(entity)(michal, report, oscard);
+            offset = michal.bind(oscard)();
+            romeon = 'stream_attenuation_strength';
+            foxtra = undefined;
+            yankee = report;
+            verify = option;
+            michal = foxtra[golfie](romeon, yankee, offset, verify, option);
             michal = 9;
             michal = tangon[michal];
             tangon = zuuluu.bind(entity)(michal);
@@ -1107,7 +1125,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['type'] = oscard;
             michal['strength'] = report;
             michal = zuuluu.bind(tangon)(michal);
- 107:
+ 127:
             return entity;
         }
     };

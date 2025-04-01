@@ -517,7 +517,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = golfie[tangon];
     romeon = option.bind(entity)(tangon);
     yankee = romeon.debounce;
-    verify = function(argFoo) {
+    verify = function(argFoo, argBar) {
         report = argFoo;
         oscard = _closure1_slot1;
         tangon = _closure1_slot2;
@@ -540,6 +540,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         verify = verify.bind(romeon)(report);
         verify = offset.bind(yankee)(verify);
         michal['volume'] = verify;
+        verify = argBar;
+        michal['location_stack'] = verify;
         michal = golfie.bind(option)(oscard, michal);
         michal = 14;
         michal = tangon[michal];
@@ -1128,10 +1130,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon['GUILD_SOUNDBOARD_TOGGLE_SHOW_ALL'] = offset;
     offset = function(argFoo) { // Original name: handleSetLocalVolume
         entity = argFoo;
-        zuuluu = entity.volume;
+        tangon = entity.volume;
+        zuuluu = entity.location;
         michal = _closure1_slot24;
         entity = undefined;
-        michal = michal.bind(entity)(zuuluu);
+        michal = michal.bind(entity)(tangon, zuuluu);
         return entity;
     };
     tangon['USER_SOUNDBOARD_SET_VOLUME'] = offset;

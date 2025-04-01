@@ -596,7 +596,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = michal;
-        michal = new Array(67);
+        michal = new Array(66);
         michal[0] = oscard;
         oscard = {};
         golfie = 'interact';
@@ -2000,7 +2000,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard['value'] = option;
         michal[49] = oscard;
         oscard = {};
-        option = 'setUseDirectVideo';
+        option = 'setOnVideoContainerResized';
         oscard['key'] = option;
         option = function() { // Original name: value
             entity = undefined;
@@ -2009,15 +2009,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard['value'] = option;
         michal[50] = oscard;
         oscard = {};
-        option = 'setOnVideoContainerResized';
-        oscard['key'] = option;
-        option = function() { // Original name: value
-            entity = undefined;
-            return entity;
-        };
-        oscard['value'] = option;
-        michal[51] = oscard;
-        oscard = {};
         option = 'setMaxSyncDelayOverride';
         oscard['key'] = option;
         option = function() { // Original name: value
@@ -2025,7 +2016,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[52] = oscard;
+        michal[51] = oscard;
         oscard = {};
         option = 'rankRtcRegions';
         oscard['key'] = option;
@@ -2044,7 +2035,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[53] = oscard;
+        michal[52] = oscard;
         oscard = {};
         option = 'applyMediaFilterSettings';
         oscard['key'] = option;
@@ -2056,7 +2047,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[54] = oscard;
+        michal[53] = oscard;
         oscard = {};
         option = 'startLocalAudioRecording';
         oscard['key'] = option;
@@ -2075,7 +2066,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[55] = oscard;
+        michal[54] = oscard;
         oscard = {};
         option = 'stopLocalAudioRecording';
         oscard['key'] = option;
@@ -2084,7 +2075,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[56] = oscard;
+        michal[55] = oscard;
         oscard = {};
         option = 'setHasFullbandPerformance';
         oscard['key'] = option;
@@ -2093,7 +2084,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[57] = oscard;
+        michal[56] = oscard;
         oscard = {};
         option = 'getSupportedSecureFramesProtocolVersion';
         oscard['key'] = option;
@@ -2102,7 +2093,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[58] = oscard;
+        michal[57] = oscard;
         oscard = {};
         option = 'getSupportedBandwidthEstimationExperiments';
         oscard['key'] = option;
@@ -2114,7 +2105,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[59] = oscard;
+        michal[58] = oscard;
         oscard = {};
         option = 'getMLSSigningKey';
         oscard['key'] = option;
@@ -2133,7 +2124,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[60] = oscard;
+        michal[59] = oscard;
         oscard = {};
         option = 'setSidechainCompression';
         oscard['key'] = option;
@@ -2142,7 +2133,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[61] = oscard;
+        michal[60] = oscard;
         oscard = {};
         option = 'setSidechainCompressionStrength';
         oscard['key'] = option;
@@ -2151,7 +2142,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[62] = oscard;
+        michal[61] = oscard;
         oscard = {};
         option = 'setNativeDesktopVideoSourcePickerActive';
         oscard['key'] = option;
@@ -2160,7 +2151,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[63] = oscard;
+        michal[62] = oscard;
         oscard = {};
         option = 'presentNativeScreenSharePicker';
         oscard['key'] = option;
@@ -2169,7 +2160,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[64] = oscard;
+        michal[63] = oscard;
         oscard = {};
         option = 'releaseNativeDesktopVideoSourcePickerStream';
         oscard['key'] = option;
@@ -2178,7 +2169,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[65] = oscard;
+        michal[64] = oscard;
         oscard = {};
         option = 'setMaybePreprocessMute';
         oscard['key'] = option;
@@ -2187,7 +2178,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[66] = oscard;
+        michal[65] = oscard;
         oscard = {};
         oscard['key'] = golfie;
         entity = function() { // Original name: value

@@ -350,7 +350,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 option = option.env;
                 option = option.BUILT_AT;
                 golfie['built_at'] = option;
-                option = '3870';
+                option = '3874';
                 golfie['build_number'] = option;
                 oscard['client_info'] = golfie;
                 zuuluu['body'] = oscard;

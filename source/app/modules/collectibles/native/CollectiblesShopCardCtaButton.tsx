@@ -624,7 +624,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['children'] = golfie;
             entity = oscard.bind(report)(tangon, zuuluu);
  376:
-            _fun00014_ip = 480; continue _fun00013;
+            _fun00014_ip = 478; continue _fun00013;
  378:
             tangon = _closure1_slot8;
             verify = _closure1_slot0;
@@ -646,7 +646,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = golfie.bind(option)(oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 480:
+ 478:
             return entity;
         }
     };

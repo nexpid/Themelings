@@ -840,7 +840,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['reportSoundFinishedPlaying'] = tangon;
-    tangon = function(argFoo) { // Original name: updateUserSoundboardVolume
+    tangon = function(argFoo, argBar) { // Original name: updateUserSoundboardVolume
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
         entity = 7;
@@ -853,6 +853,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal['type'] = report;
         report = argFoo;
         michal['volume'] = report;
+        report = argBar;
+        michal['location'] = report;
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };

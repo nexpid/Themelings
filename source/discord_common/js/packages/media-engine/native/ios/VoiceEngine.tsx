@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  252:
         if(!(offset == yankee)) { _fun00002_ip = 266; continue _fun00001 }
  256:
-        yankee = ['voice_sound_stop_loop', 'voice_relative_sounds', 'voice_legacy_subsystem', 'voice_experimental_subsystem', 'elevated_hook', 'soundshare', 'soundshare_loopback', 'set_audio_device_by_id', 'set_video_device_by_id', 'loopback', 'wumpus_video', 'hybrid_video', 'experimental_encoders', 'experiment_config', 'remote_locus_network_control', 'screen_previews', 'window_previews', 'audio_debug_state', 'connection_replay', 'simulcast_bugfix', 'RTC_REGION_RANKING', 'video_effects', 'direct_video', 'electron_video', 'mediapipe', 'fixed_keyframe_interval'];
+        yankee = ['voice_sound_stop_loop', 'voice_relative_sounds', 'voice_legacy_subsystem', 'voice_experimental_subsystem', 'elevated_hook', 'soundshare', 'soundshare_loopback', 'set_audio_device_by_id', 'set_video_device_by_id', 'loopback', 'wumpus_video', 'hybrid_video', 'experimental_encoders', 'experiment_config', 'remote_locus_network_control', 'screen_previews', 'window_previews', 'audio_debug_state', 'connection_replay', 'simulcast_bugfix', 'RTC_REGION_RANKING', 'video_effects', 'electron_video', 'mediapipe', 'fixed_keyframe_interval'];
  266:
         var _closure1_slot5 = yankee;
         yankee = function(argFoo) {

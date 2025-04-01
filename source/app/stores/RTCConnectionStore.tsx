@@ -589,22 +589,35 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     entity = function() { // Original name: destroyRTCConnection
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            zuuluu = _closure1_slot15;
+            michal = _closure1_slot15;
             entity = null;
-            if(!(entity != zuuluu)) { _fun00010_ip = 57; continue _fun00009 }
+            if(!(entity != michal)) { _fun00010_ip = 113; continue _fun00009 }
  13:
-            tangon = _closure1_slot15;
-            zuuluu = tangon.getDuration;
-            zuuluu = zuuluu.bind(tangon)();
-            _closure1_slot21 = zuuluu;
-            tangon = _closure1_slot15;
-            zuuluu = tangon.destroy;
-            zuuluu = zuuluu.bind(tangon)();
+            zuuluu = _closure1_slot15;
+            michal = zuuluu.getDuration;
+            michal = michal.bind(zuuluu)();
+            _closure1_slot21 = michal;
+            zuuluu = _closure1_slot15;
+            michal = zuuluu.destroy;
+            michal = michal.bind(zuuluu)();
             var _closure1_slot15 = entity;
             _closure1_slot20 = entity;
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
+            entity = 12;
+            michal = michal[entity];
             entity = undefined;
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.dispatch;
+            michal = {};
+            oscard = 'MEDIA_ENGINE_CONNECTION_STATS_HISTORY_RESET';
+            michal['type'] = oscard;
+            report = _closure1_slot14;
+            report = report.DEFAULT;
+            michal['context'] = report;
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
- 57:
+ 113:
             entity = false;
             return entity;
         }

@@ -2888,18 +2888,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = verify.cancel;
                 option = option.bind(verify)();
                 golfie = golfie.clearCache;
-                if(golfie) { _fun00068_ip = 462; continue _fun00067 }
- 444:
+                if(golfie) { _fun00068_ip = 460; continue _fun00067 }
+ 442:
                 option = zuuluu.dispatchExceptionBackoff;
                 verify = option._fails;
                 option = 0;
                 golfie = verify > option;
- 462:
+ 460:
                 option = zuuluu.dispatchExceptionBackoff;
                 option = option._fails;
                 offset = 0;
-                if(!(offset !== option)) { _fun00068_ip = 506; continue _fun00067 }
- 480:
+                if(!(offset !== option)) { _fun00068_ip = 504; continue _fun00067 }
+ 478:
                 romeon = zuuluu.dispatchExceptionBackoff;
                 verify = romeon.fail;
                 option = function() {
@@ -2909,8 +2909,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 option = verify.bind(romeon)(option);
-                _fun00068_ip = 570; continue _fun00067;
- 506:
+                _fun00068_ip = 568; continue _fun00067;
+ 504:
                 romeon = _closure1_slot14;
                 verify = romeon.verbose;
                 option = 'Triggering fast reconnect';
@@ -2930,9 +2930,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 option = verify.bind(entity)(option, offset);
- 570:
-                if(!golfie) { _fun00068_ip = 646; continue _fun00067 }
- 573:
+ 568:
+                if(!golfie) { _fun00068_ip = 644; continue _fun00067 }
+ 571:
                 zuuluu['didForceClearGuildHashes'] = oscard;
                 golfie = _closure1_slot1;
                 option = _closure1_slot3;
@@ -2949,7 +2949,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify = offset.bind(verify)(yankee);
                 oscard['reason'] = verify;
                 oscard = golfie.bind(option)(oscard);
- 646:
+ 644:
                 golfie = report.clearTimeout;
                 oscard = zuuluu.dispatchSuccessTimer;
                 oscard = golfie.bind(entity)(oscard);

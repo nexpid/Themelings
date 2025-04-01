@@ -77,54 +77,61 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             entity = argFoo;
             foxtra = entity.bottomSheetExpandReasonRef;
-            config = entity.channelId;
+            record = entity.context;
             romeon = entity.chatInputRef;
-            ctrled = entity.contentStyle;
+            vacuum = entity.contentStyle;
             yankee = entity.entrypoint;
             var _closure2_slot0 = yankee;
-            record = entity.expandBottomSheet;
+            cntext = entity.expandBottomSheet;
             verify = entity.keyboardCloseReasonRef;
             option = entity.onActivityItemSelected;
             golfie = entity.width;
-            sequen = _closure1_slot1;
-            papara = _closure1_slot2;
-            offset = 9;
-            zuuluu = papara[offset];
+            report = entity.overrideParams;
+            offset = _closure1_slot1;
+            kiloes = _closure1_slot2;
+            backup = 9;
+            zuuluu = kiloes[backup];
             tangon = undefined;
-            report = sequen.bind(tangon)(zuuluu);
+            oscard = offset.bind(tangon)(zuuluu);
             zuuluu = 10;
-            zuuluu = papara[zuuluu];
-            zuuluu = sequen.bind(tangon)(zuuluu);
+            zuuluu = kiloes[zuuluu];
+            zuuluu = offset.bind(tangon)(zuuluu);
             zuuluu = zuuluu.APP_LAUNCHER;
-            zuuluu = report.bind(tangon)(zuuluu);
-            kiloes = zuuluu.analyticsLocations;
+            zuuluu = oscard.bind(tangon)(zuuluu);
+            sizing = zuuluu.analyticsLocations;
             zuuluu = _closure1_slot12;
-            source = zuuluu.bind(tangon)();
-            backup = _closure1_slot0;
+            ctrled = zuuluu.bind(tangon)();
+            offset = _closure1_slot0;
             zuuluu = 11;
-            zuuluu = papara[zuuluu];
-            sizing = backup.bind(tangon)(zuuluu);
-            oscard = sizing.useStateFromStores;
+            zuuluu = kiloes[zuuluu];
+            result = offset.bind(tangon)(zuuluu);
+            output = result.useStateFromStores;
             zuuluu = _closure1_slot6;
-            report = new Array(1);
-            report[0] = zuuluu;
+            oscard = new Array(1);
+            oscard[0] = zuuluu;
             zuuluu = function() {
                 entity = _closure1_slot6;
                 entity = entity.appLauncherKeyboardParams;
                 return entity;
             };
-            zuuluu = oscard.bind(sizing)(report, zuuluu);
-            report = 12;
-            report = papara[report];
-            oscard = backup.bind(tangon)(report);
-            report = oscard.useAccessibilityNativeStackOptions;
-            update = report.bind(oscard)();
-            cntext = zuuluu.initialRouteName;
+            zuuluu = output.bind(result)(oscard, zuuluu);
+            oscard = 12;
+            oscard = kiloes[oscard];
+            offset = offset.bind(tangon)(oscard);
+            oscard = offset.useAccessibilityNativeStackOptions;
+            source = oscard.bind(offset)();
+            offset = null;
+            kiloes = zuuluu;
+            if(!(offset != report)) { _fun00002_ip = 209; continue _fun00001 }
+ 206:
+            kiloes = report;
+ 209:
+            papara = kiloes.initialRouteName;
             oscard = _closure1_slot4;
             report = _closure1_slot3;
-            vacuum = oscard.bind(tangon)(zuuluu, report);
-            sizing = _closure1_slot5;
-            oscard = sizing.useLayoutEffect;
+            sequen = oscard.bind(tangon)(kiloes, report);
+            kiloes = _closure1_slot5;
+            oscard = kiloes.useLayoutEffect;
             report = new Array(1);
             report[0] = yankee;
             michal = function() {
@@ -145,153 +152,164 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = tangon.bind(report)(zuuluu, michal);
                 return entity;
             };
-            michal = oscard.bind(sizing)(michal, report);
+            michal = oscard.bind(kiloes)(michal, report);
             oscard = _closure1_slot9;
+            kiloes = _closure1_slot0;
+            target = _closure1_slot2;
             michal = 14;
-            michal = papara[michal];
-            michal = backup.bind(tangon)(michal);
+            michal = target[michal];
+            michal = kiloes.bind(tangon)(michal);
             report = michal.NavigationContainer;
             michal = {};
-            sizing = true;
-            michal['independent'] = sizing;
-            offset = papara[offset];
-            offset = backup.bind(tangon)(offset);
-            backup = offset.AnalyticsLocationProvider;
-            offset = {};
-            offset['value'] = kiloes;
-            output = _closure1_slot10;
-            echoed = _closure1_slot11;
-            sizing = echoed.Navigator;
-            kiloes = {};
-            kiloes['initialRouteName'] = cntext;
-            result = {'contentStyle': null, 'headerShown': false, 'fullScreenGestureEnabled': true};
-            target = source.navigator;
-            source = new Array(2);
-            source[0] = target;
-            source[1] = ctrled;
-            result['contentStyle'] = source;
-            sierra = result;
-            status = update;
-            update = copyDataProperties(sierra, status);
-            kiloes['screenOptions'] = result;
-            update = echoed.Screen;
-            result = {};
-            ctrled = _closure1_slot7;
-            source = ctrled.HOME;
-            result['name'] = source;
-            source = 15;
-            source = papara[source];
-            source = sequen.bind(tangon)(source);
-            result['component'] = source;
-            source = {};
-            source['channelId'] = config;
-            result['initialParams'] = source;
-            update = oscard.bind(tangon)(update, result);
-            result = new Array(4);
-            result[0] = update;
-            update = echoed.Screen;
-            echoed = {};
-            source = ctrled.APPLICATION_VIEW;
-            echoed['name'] = source;
-            source = 16;
-            source = papara[source];
-            source = sequen.bind(tangon)(source);
-            echoed['component'] = source;
-            source = {};
-            source['channelId'] = config;
-            sequen = ctrled.APPLICATION_VIEW;
-            ctrled = vacuum;
-            if(!(cntext !== sequen)) { _fun00002_ip = 488; continue _fun00001 }
- 486:
-            ctrled = {};
- 488:
+            output = true;
+            michal['independent'] = output;
+            backup = target[backup];
+            backup = kiloes.bind(tangon)(backup);
+            kiloes = backup.AnalyticsLocationProvider;
+            backup = {};
+            backup['value'] = sizing;
+            result = _closure1_slot10;
+            update = _closure1_slot11;
+            output = update.Navigator;
+            sizing = {};
+            sizing['initialRouteName'] = papara;
+            echoed = {'contentStyle': null, 'headerShown': false, 'fullScreenGestureEnabled': true};
+            config = ctrled.navigator;
+            ctrled = new Array(2);
+            ctrled[0] = config;
+            ctrled[1] = vacuum;
+            echoed['contentStyle'] = ctrled;
+            limora = echoed;
             sierra = source;
-            status = ctrled;
-            ctrled = copyDataProperties(sierra, status);
-            sequen = 'expandBottomSheet';
-            source[sequen] = record;
-            echoed['initialParams'] = source;
-            echoed = oscard.bind(tangon)(update, echoed);
-            result[1] = echoed;
-            source = _closure1_slot9;
-            echoed = _closure1_slot11;
-            update = echoed.Screen;
+            source = copyDataProperties(limora, sierra);
+            sizing['screenOptions'] = echoed;
+            source = update.Screen;
             echoed = {};
-            cntext = _closure1_slot7;
-            ctrled = cntext.COMMAND_VIEW;
+            vacuum = _closure1_slot7;
+            ctrled = vacuum.HOME;
             echoed['name'] = ctrled;
+            config = _closure1_slot1;
+            ctrled = 15;
+            ctrled = target[ctrled];
+            ctrled = config.bind(tangon)(ctrled);
+            echoed['component'] = ctrled;
+            ctrled = {};
+            ctrled['context'] = record;
+            echoed['initialParams'] = ctrled;
+            source = oscard.bind(tangon)(source, echoed);
+            echoed = new Array(4);
+            echoed[0] = source;
+            source = update.Screen;
+            update = {};
+            ctrled = vacuum.APPLICATION_VIEW;
+            update['name'] = ctrled;
+            ctrled = 16;
+            ctrled = target[ctrled];
+            ctrled = config.bind(tangon)(ctrled);
+            update['component'] = ctrled;
+            ctrled = {};
+            ctrled['context'] = record;
+            config = vacuum.APPLICATION_VIEW;
+            vacuum = sequen;
+            if(!(papara !== config)) { _fun00002_ip = 518; continue _fun00001 }
+ 516:
+            vacuum = {};
+ 518:
+            limora = ctrled;
+            sierra = vacuum;
+            vacuum = copyDataProperties(limora, sierra);
+            config = 'expandBottomSheet';
+            ctrled[config] = cntext;
+            update['initialParams'] = ctrled;
+            update = oscard.bind(tangon)(source, update);
+            echoed[1] = update;
+            ctrled = _closure1_slot9;
+            update = _closure1_slot11;
+            source = update.Screen;
+            update = {};
+            vacuum = _closure1_slot7;
+            vacuum = vacuum.COMMAND_VIEW;
+            update['name'] = vacuum;
             papara = _closure1_slot1;
             target = _closure1_slot2;
-            ctrled = 17;
-            ctrled = target[ctrled];
-            ctrled = papara.bind(tangon)(ctrled);
-            echoed['component'] = ctrled;
-            ctrled = {};
-            ctrled['channelId'] = config;
-            target = zuuluu.initialRouteName;
-            papara = cntext.COMMAND_VIEW;
-            cntext = vacuum;
-            if(!(target !== papara)) { _fun00002_ip = 604; continue _fun00001 }
- 602:
-            cntext = {};
- 604:
-            sierra = ctrled;
-            status = cntext;
-            cntext = copyDataProperties(sierra, status);
-            ctrled[sequen] = record;
-            echoed['initialParams'] = ctrled;
-            echoed = source.bind(tangon)(update, echoed);
-            result[2] = echoed;
-            source = _closure1_slot9;
-            echoed = _closure1_slot11;
-            update = echoed.Screen;
-            echoed = {};
-            sequen = _closure1_slot7;
-            ctrled = sequen.APP_LIST_VIEW;
-            echoed['name'] = ctrled;
-            record = _closure1_slot1;
-            cntext = _closure1_slot2;
-            ctrled = 18;
-            ctrled = cntext[ctrled];
-            ctrled = record.bind(tangon)(ctrled);
-            echoed['component'] = ctrled;
-            ctrled = {};
-            ctrled['channelId'] = config;
-            config = zuuluu.initialRouteName;
-            sequen = sequen.APP_LIST_VIEW;
-            if(!(config !== sequen)) { _fun00002_ip = 713; continue _fun00001 }
- 711:
+            vacuum = 17;
+            vacuum = target[vacuum];
+            vacuum = papara.bind(tangon)(vacuum);
+            update['component'] = vacuum;
             vacuum = {};
- 713:
-            sierra = ctrled;
-            status = vacuum;
-            vacuum = copyDataProperties(sierra, status);
-            echoed['initialParams'] = ctrled;
-            echoed = source.bind(tangon)(update, echoed);
-            result[3] = echoed;
-            kiloes['children'] = result;
-            kiloes = output.bind(tangon)(sizing, kiloes);
-            offset['children'] = kiloes;
-            offset = oscard.bind(tangon)(backup, offset);
-            michal['children'] = offset;
+            status = record.type;
+            target = 'channel';
+            papara = undefined;
+            if(!(target === status)) { _fun00002_ip = 627; continue _fun00001 }
+ 624:
+            papara = record;
+ 627:
+            vacuum['context'] = papara;
+            status = zuuluu.initialRouteName;
+            papara = _closure1_slot7;
+            target = papara.COMMAND_VIEW;
+            papara = sequen;
+            if(!(status !== target)) { _fun00002_ip = 656; continue _fun00001 }
+ 654:
+            papara = {};
+ 656:
+            limora = vacuum;
+            sierra = papara;
+            papara = copyDataProperties(limora, sierra);
+            vacuum[config] = cntext;
+            update['initialParams'] = vacuum;
+            update = ctrled.bind(tangon)(source, update);
+            echoed[2] = update;
+            ctrled = _closure1_slot9;
+            update = _closure1_slot11;
+            source = update.Screen;
+            update = {};
+            config = _closure1_slot7;
+            vacuum = config.APP_LIST_VIEW;
+            update['name'] = vacuum;
+            cntext = _closure1_slot1;
+            papara = _closure1_slot2;
+            vacuum = 18;
+            vacuum = papara[vacuum];
+            vacuum = cntext.bind(tangon)(vacuum);
+            update['component'] = vacuum;
+            vacuum = {};
+            vacuum['context'] = record;
+            record = zuuluu.initialRouteName;
+            config = config.APP_LIST_VIEW;
+            if(!(record !== config)) { _fun00002_ip = 765; continue _fun00001 }
+ 763:
+            sequen = {};
+ 765:
+            limora = vacuum;
+            sierra = sequen;
+            sequen = copyDataProperties(limora, sierra);
+            update['initialParams'] = vacuum;
+            update = ctrled.bind(tangon)(source, update);
+            echoed[3] = update;
+            sizing['children'] = echoed;
+            sizing = result.bind(tangon)(output, sizing);
+            backup['children'] = sizing;
+            backup = oscard.bind(tangon)(kiloes, backup);
+            michal['children'] = backup;
             report = oscard.bind(tangon)(report, michal);
             michal = 'customId';
             michal = michal in zuuluu;
-            if(michal) { _fun00002_ip = 787; continue _fun00001 }
- 779:
+            if(michal) { _fun00002_ip = 839; continue _fun00001 }
+ 831:
             oscard = 'referrerId';
             michal = oscard in zuuluu;
- 787:
+ 839:
             offset = null;
-            if(!michal) { _fun00002_ip = 819; continue _fun00001 }
- 792:
+            if(!michal) { _fun00002_ip = 871; continue _fun00001 }
+ 844:
             michal = {};
             oscard = zuuluu.customId;
             michal['customId'] = oscard;
             zuuluu = zuuluu.referrerId;
             michal['referrerId'] = zuuluu;
             offset = michal;
- 819:
+ 871:
             zuuluu = _closure1_slot9;
             michal = _closure1_slot0;
             oscard = _closure1_slot2;

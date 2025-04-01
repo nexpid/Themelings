@@ -272,25 +272,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 michal = argBar;
-                tangon = _closure2_slot3;
+                zuuluu = _closure2_slot3;
                 entity = argFoo;
-                entity = tangon[entity];
+                entity = zuuluu[entity];
                 entity = entity.userIds;
-                oscard = _closure1_slot7;
-                report = oscard.getUser;
-                tangon = entity[michal];
-                romeon = report.bind(oscard)(tangon);
+                report = _closure1_slot7;
+                tangon = report.getUser;
+                zuuluu = entity[michal];
+                romeon = tangon.bind(report)(zuuluu);
                 option = null;
-                tangon = option != romeon;
+                zuuluu = option != romeon;
                 oscard = undefined;
                 golfie = undefined;
-                if(!tangon) { _fun00008_ip = 83; continue _fun00007 }
+                if(!zuuluu) { _fun00008_ip = 83; continue _fun00007 }
  58:
-                verify = _closure1_slot5;
-                report = verify.getMember;
+                yankee = _closure1_slot5;
+                report = yankee.getMember;
                 tangon = _closure2_slot1;
                 zuuluu = romeon.id;
-                golfie = report.bind(verify)(tangon, zuuluu);
+                golfie = report.bind(yankee)(tangon, zuuluu);
  83:
                 zuuluu = 0;
                 report = zuuluu === michal;
@@ -307,24 +307,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['start'] = report;
                 michal['end'] = tangon;
                 entity['props'] = michal;
-                _fun00008_ip = 298; continue _fun00007;
+                _fun00008_ip = 306; continue _fun00007;
  138:
                 michal = {};
                 zuuluu = 'user';
                 michal['type'] = zuuluu;
                 zuuluu = {};
-                verify = _closure1_slot8;
-                verify = verify.NONE;
-                zuuluu['type'] = verify;
+                yankee = _closure1_slot8;
+                yankee = yankee.NONE;
+                zuuluu['type'] = yankee;
                 zuuluu['user'] = romeon;
+                verify = _closure2_slot1;
+                zuuluu['guildId'] = verify;
                 yankee = option == golfie;
                 verify = undefined;
-                if(yankee) { _fun00008_ip = 183; continue _fun00007 }
- 177:
+                if(yankee) { _fun00008_ip = 191; continue _fun00007 }
+ 185:
                 verify = golfie.nick;
- 183:
-                if(!(option == verify)) { _fun00008_ip = 218; continue _fun00007 }
- 187:
+ 191:
+                if(!(option == verify)) { _fun00008_ip = 226; continue _fun00007 }
+ 195:
                 yankee = _closure1_slot1;
                 foxtra = _closure1_slot2;
                 offset = 13;
@@ -332,21 +334,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 yankee = yankee.bind(oscard)(offset);
                 offset = yankee.getGlobalName;
                 verify = offset.bind(yankee)(romeon);
- 218:
+ 226:
                 zuuluu['nickname'] = verify;
                 offset = option == golfie;
                 verify = undefined;
-                if(offset) { _fun00008_ip = 238; continue _fun00007 }
- 232:
+                if(offset) { _fun00008_ip = 246; continue _fun00007 }
+ 240:
                 verify = golfie.colorString;
- 238:
+ 246:
                 zuuluu['usernameColor'] = verify;
                 option = option == golfie;
                 oscard = undefined;
-                if(option) { _fun00008_ip = 258; continue _fun00007 }
- 252:
+                if(option) { _fun00008_ip = 266; continue _fun00007 }
+ 260:
                 oscard = golfie.colorStrings;
- 258:
+ 266:
                 zuuluu['roleColors'] = oscard;
                 oscard = true;
                 zuuluu['isNameplatedRow'] = oscard;
@@ -373,7 +375,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu['end'] = tangon;
                 michal['props'] = zuuluu;
                 entity = michal;
- 298:
+ 306:
                 return entity;
             }
         };

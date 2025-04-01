@@ -641,17 +641,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = _closure2_slot7;
                     report['bottomSheetExpandReasonRef'] = option;
                     option = _closure2_slot0;
-                    option = option.channel;
-                    option = option.id;
-                    report['channelId'] = option;
+                    report['context'] = option;
                     option = _closure2_slot1;
                     report['chatInputRef'] = option;
                     option = _closure2_slot14;
-                    if(!option) { _fun00018_ip = 115; continue _fun00017 }
- 105:
+                    if(!option) { _fun00018_ip = 105; continue _fun00017 }
+ 95:
                     verify = _closure2_slot8;
                     option = verify.onboardingNavigatorContent;
- 115:
+ 105:
                     report['contentStyle'] = option;
                     option = _closure2_slot4;
                     report['entrypoint'] = option;

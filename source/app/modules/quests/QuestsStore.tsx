@@ -1206,35 +1206,47 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['QUESTS_FETCH_QUEST_TO_DELIVER_FAILURE'] = verify;
     verify = function(argFoo) { // Original name: handleSendHeartbeatSuccess
-        entity = argFoo;
-        oscard = entity.questId;
-        zuuluu = entity.streamKey;
-        entity = entity.userStatus;
-        report = _closure1_slot12;
-        tangon = report.add;
-        tangon = tangon.bind(report)(oscard);
-        report = _closure1_slot32;
-        tangon = {};
-        tangon['userStatus'] = entity;
-        entity = undefined;
-        tangon = report.bind(entity)(oscard, tangon);
-        michal = _closure1_slot35;
-        michal = michal.bind(entity)(zuuluu);
-        return entity;
-    };
-    michal['QUESTS_SEND_HEARTBEAT_SUCCESS'] = verify;
-    verify = function(argFoo) { // Original name: handleSendHeartbeatFailure
         _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
             entity = argFoo;
             oscard = entity.questId;
+            zuuluu = entity.streamKey;
+            entity = entity.userStatus;
+            report = _closure1_slot12;
+            tangon = report.add;
+            tangon = tangon.bind(report)(oscard);
+            report = _closure1_slot32;
+            tangon = {};
+            tangon['userStatus'] = entity;
+            entity = undefined;
+            tangon = report.bind(entity)(oscard, tangon);
+            tangon = null;
+            if(!(tangon != zuuluu)) { _fun00030_ip = 72; continue _fun00029 }
+ 63:
+            michal = _closure1_slot35;
+            michal = michal.bind(entity)(zuuluu);
+ 72:
+            return entity;
+        }
+    };
+    michal['QUESTS_SEND_HEARTBEAT_SUCCESS'] = verify;
+    verify = function(argFoo) { // Original name: handleSendHeartbeatFailure
+        _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
+ 0:
+            entity = argFoo;
+            oscard = entity.questId;
             tangon = entity.streamKey;
-            zuuluu = _closure1_slot15;
-            michal = zuuluu.get;
-            zuuluu = michal.bind(zuuluu)(tangon);
-            michal = null;
-            if(!(michal == zuuluu)) { _fun00030_ip = 119; continue _fun00029 }
- 38:
+            zuuluu = null;
+            entity = zuuluu != tangon;
+            if(!entity) { _fun00032_ip = 45; continue _fun00031 }
+ 24:
+            report = _closure1_slot15;
+            michal = report.get;
+            michal = michal.bind(report)(tangon);
+            entity = zuuluu == michal;
+ 45:
+            if(!entity) { _fun00032_ip = 132; continue _fun00031 }
+ 48:
             report = global;
             golfie = report.Map;
             verify = _closure1_slot15;
@@ -1253,7 +1265,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report.bind(oscard)();
             entity['firstFailedAt'] = report;
             entity = michal.bind(zuuluu)(tangon, entity);
- 119:
+ 132:
             entity = undefined;
             return entity;
         }
@@ -1320,7 +1332,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['QUESTS_FETCH_REWARD_CODE_BEGIN'] = verify;
     verify = function(argFoo) { // Original name: handleFetchRewardCodeSuccess
-        _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
+        _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
  0:
             entity = argFoo;
             tangon = entity.questId;
@@ -1345,17 +1357,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = null;
             report = option == zuuluu;
             golfie = undefined;
-            if(report) { _fun00032_ip = 107; continue _fun00031 }
+            if(report) { _fun00034_ip = 107; continue _fun00033 }
  101:
             golfie = zuuluu.userStatus;
  107:
             zuuluu = option != golfie;
-            if(!zuuluu) { _fun00032_ip = 124; continue _fun00031 }
+            if(!zuuluu) { _fun00034_ip = 124; continue _fun00033 }
  114:
             report = golfie.claimedAt;
             zuuluu = option == report;
  124:
-            if(!zuuluu) { _fun00032_ip = 171; continue _fun00031 }
+            if(!zuuluu) { _fun00034_ip = 171; continue _fun00033 }
  127:
             zuuluu = _closure1_slot32;
             michal = {};
@@ -1491,7 +1503,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['QUESTS_DISMISS_CONTENT_FAILURE'] = verify;
     verify = function(argFoo) { // Original name: handleQuestUserStatusUpdate
-        _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
+        _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
  0:
             entity = argFoo;
             report = entity.user_status;
@@ -1532,14 +1544,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = report.length;
             report = 0;
             report = report === golfie;
-            if(!report) { _fun00034_ip = 205; continue _fun00033 }
+            if(!report) { _fun00036_ip = 205; continue _fun00035 }
  185:
             verify = _closure1_slot26;
             option = verify.has;
             golfie = michal.questId;
             report = option.bind(verify)(golfie);
  205:
-            if(!report) { _fun00034_ip = 267; continue _fun00033 }
+            if(!report) { _fun00036_ip = 267; continue _fun00035 }
  208:
             report = oscard.log;
             option = michal.questId;
@@ -1576,7 +1588,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['QUESTS_DISMISS_PROGRESS_TRACKING_FAILURE_NOTICE'] = verify;
     verify = function(argFoo) { // Original name: handlePreviewUpdateSuccess
-        _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
+        _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
  0:
             entity = argFoo;
             michal = entity.previewQuestUserStatus;
@@ -1588,7 +1600,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = oscard.bind(entity)(report, tangon);
             tangon = michal.claimedAt;
             report = null;
-            if(!(report == tangon)) { _fun00036_ip = 101; continue _fun00035 }
+            if(!(report == tangon)) { _fun00038_ip = 101; continue _fun00037 }
  49:
             tangon = global;
             golfie = tangon.Map;
@@ -1604,7 +1616,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = oscard.bind(golfie)(tangon);
  101:
             tangon = michal.enrolledAt;
-            if(!(report == tangon)) { _fun00036_ip = 194; continue _fun00035 }
+            if(!(report == tangon)) { _fun00038_ip = 194; continue _fun00037 }
  111:
             tangon = global;
             oscard = tangon.Map;
@@ -1630,13 +1642,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['QUESTS_PREVIEW_UPDATE_SUCCESS'] = verify;
     verify = function(argFoo) { // Original name: handleDeliveryOverride
-        _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
+        _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
  0:
             entity = argFoo;
             zuuluu = entity.questId;
             tangon = _closure1_slot16;
             entity = null;
-            if(!(tangon !== zuuluu)) { _fun00038_ip = 25; continue _fun00037 }
+            if(!(tangon !== zuuluu)) { _fun00040_ip = 25; continue _fun00039 }
  22:
             entity = zuuluu;
  25:
@@ -1647,7 +1659,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['QUESTS_DELIVERY_OVERRIDE'] = verify;
     verify = function(argFoo) { // Original name: handleSelectTaskPlatform
-        _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
+        _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
  0:
             entity = argFoo;
             zuuluu = entity.questId;
@@ -1662,12 +1674,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal instanceof Object ? michal : tangon;
             _closure1_slot17 = michal;
             michal = null;
-            if(!(michal != report)) { _fun00040_ip = 77; continue _fun00039 }
+            if(!(michal != report)) { _fun00042_ip = 77; continue _fun00041 }
  60:
             tangon = _closure1_slot17;
             michal = tangon.set;
             michal = michal.bind(tangon)(zuuluu, report);
-            _fun00040_ip = 91; continue _fun00039;
+            _fun00042_ip = 91; continue _fun00041;
  77:
             michal = _closure1_slot17;
             entity = michal.delete;
@@ -1679,7 +1691,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['QUESTS_SELECT_TASK_PLATFORM'] = verify;
     tangon = function(argFoo) { // Original name: handleUpdateOptimisticProgress
-        _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
+        _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
  0:
             entity = argFoo;
             tangon = entity.questId;
@@ -1689,7 +1701,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.get;
             zuuluu = michal.bind(zuuluu)(tangon);
             michal = null;
-            if(!(michal == zuuluu)) { _fun00042_ip = 72; continue _fun00041 }
+            if(!(michal == zuuluu)) { _fun00044_ip = 72; continue _fun00043 }
  44:
             michal = global;
             michal = michal.Map;

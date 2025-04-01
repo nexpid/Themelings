@@ -664,16 +664,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = argFoo;
             option = entity.channel;
             var _closure2_slot0 = option;
-            romeon = entity.isInChannel;
+            yankee = entity.isInChannel;
             entity = entity.onAction;
             var _closure2_slot1 = entity;
             entity = _closure1_slot21;
             tangon = undefined;
             report = entity.bind(tangon)();
             michal = _closure1_slot1;
-            yankee = _closure1_slot2;
+            foxtra = _closure1_slot2;
             entity = 17;
-            entity = yankee[entity];
+            entity = foxtra[entity];
             entity = michal.bind(tangon)(entity);
             entity = entity.bind(tangon)();
             entity = entity.newestAnalyticsLocation;
@@ -683,7 +683,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot3 = backup;
             golfie = _closure1_slot0;
             entity = 40;
-            entity = yankee[entity];
+            entity = foxtra[entity];
             zuuluu = golfie.bind(tangon)(entity);
             michal = zuuluu.useUserProfileVoiceActivityCardChatButtonExperiment;
             entity = {};
@@ -698,38 +698,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['style'] = report;
             verify = _closure1_slot19;
             report = 28;
-            report = yankee[report];
+            report = foxtra[report];
             report = golfie.bind(tangon)(report);
             golfie = report.Button;
             report = {};
-            yankee = option.isDM;
-            kiloes = yankee.bind(option)();
-            if(romeon) { _fun00012_ip = 347; continue _fun00011 }
+            foxtra = option.isDM;
+            kiloes = foxtra.bind(option)();
+            if(yankee) { _fun00012_ip = 347; continue _fun00011 }
  196:
             if(kiloes) { _fun00012_ip = 285; continue _fun00011 }
  199:
-            yankee = option.isGroupDM;
-            yankee = yankee.bind(option)();
-            if(yankee) { _fun00012_ip = 285; continue _fun00011 }
+            foxtra = option.isGroupDM;
+            foxtra = foxtra.bind(option)();
+            if(foxtra) { _fun00012_ip = 285; continue _fun00011 }
  212:
             sizing = _closure1_slot0;
             echoed = _closure1_slot2;
-            yankee = 29;
-            output = echoed[yankee];
+            foxtra = 29;
+            output = echoed[foxtra];
             output = sizing.bind(tangon)(output);
             result = output.intl;
             output = result.string;
-            yankee = echoed[yankee];
-            yankee = sizing.bind(tangon)(yankee);
-            sizing = yankee.t;
+            foxtra = echoed[foxtra];
+            foxtra = sizing.bind(tangon)(foxtra);
+            sizing = foxtra.t;
             if(backup) { _fun00012_ip = 272; continue _fun00011 }
  259:
-            yankee = sizing.96ANUF;
-            yankee = output.bind(result)(yankee);
+            foxtra = sizing.96ANUF;
+            foxtra = output.bind(result)(foxtra);
             _fun00012_ip = 283; continue _fun00011;
  272:
             sizing = sizing.7vb2cX;
-            yankee = output.bind(result)(sizing);
+            foxtra = output.bind(result)(sizing);
  283:
             _fun00012_ip = 342; continue _fun00011;
  285:
@@ -744,7 +744,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = echoed.bind(tangon)(sizing);
             sizing = sizing.t;
             sizing = sizing.ozoE2N;
-            yankee = output.bind(result)(sizing);
+            foxtra = output.bind(result)(sizing);
  342:
             _fun00012_ip = 500; continue _fun00011;
  347:
@@ -788,12 +788,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.7hwn2N;
             backup = sizing.bind(output)(kiloes);
  497:
-            yankee = backup;
+            foxtra = backup;
  500:
-            report['text'] = yankee;
-            yankee = 'active';
-            backup = yankee;
-            if(!romeon) { _fun00012_ip = 518; continue _fun00011 }
+            report['text'] = foxtra;
+            foxtra = 'active';
+            backup = foxtra;
+            if(!yankee) { _fun00012_ip = 518; continue _fun00011 }
  514:
             backup = 'secondary';
  518:
@@ -849,57 +849,56 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.isGuildVocal;
             oscard = golfie.bind(option)();
  565:
-            if(!oscard) { _fun00012_ip = 775; continue _fun00011 }
+            if(!oscard) { _fun00012_ip = 763; continue _fun00011 }
  571:
             verify = _closure1_slot19;
             kiloes = _closure1_slot0;
-            result = _closure1_slot2;
+            sizing = _closure1_slot2;
             golfie = 43;
-            golfie = result[golfie];
+            golfie = sizing[golfie];
             golfie = kiloes.bind(tangon)(golfie);
             option = golfie.IconButton;
             golfie = {};
             backup = 44;
-            backup = result[backup];
+            backup = sizing[backup];
             backup = kiloes.bind(tangon)(backup);
             kiloes = backup.ChatIcon;
             backup = {};
             sizing = 'sm';
             backup['size'] = sizing;
-            output = _closure1_slot1;
-            sizing = 16;
-            sizing = result[sizing];
-            sizing = output.bind(tangon)(sizing);
-            sizing = sizing.colors;
-            sizing = sizing.REDESIGN_BUTTON_SECONDARY_TEXT;
+            sizing = 'redesign-button-active-text';
+            if(!yankee) { _fun00012_ip = 646; continue _fun00011 }
+ 640:
+            sizing = 'redesign-button-secondary-text';
+ 646:
             backup['color'] = sizing;
             backup = verify.bind(tangon)(kiloes, backup);
             golfie['icon'] = backup;
-            backup = _closure1_slot0;
-            output = _closure1_slot2;
-            foxtra = 29;
-            kiloes = output[foxtra];
-            kiloes = backup.bind(tangon)(kiloes);
-            sizing = kiloes.intl;
-            kiloes = sizing.string;
-            foxtra = output[foxtra];
-            foxtra = backup.bind(tangon)(foxtra);
-            backup = foxtra.t;
-            if(romeon) { _fun00012_ip = 732; continue _fun00011 }
- 719:
-            foxtra = backup.ZXxLQk;
-            foxtra = kiloes.bind(sizing)(foxtra);
-            _fun00012_ip = 745; continue _fun00011;
- 732:
-            backup = backup.kkKapK;
-            foxtra = kiloes.bind(sizing)(backup);
- 745:
-            golfie['accessibilityLabel'] = foxtra;
-            if(!romeon) { _fun00012_ip = 756; continue _fun00011 }
- 752:
-            yankee = 'secondary';
- 756:
-            golfie['variant'] = yankee;
+            if(!yankee) { _fun00012_ip = 667; continue _fun00011 }
+ 663:
+            foxtra = 'secondary';
+ 667:
+            golfie['variant'] = foxtra;
+            kiloes = _closure1_slot0;
+            sizing = _closure1_slot2;
+            romeon = 29;
+            foxtra = sizing[romeon];
+            foxtra = kiloes.bind(tangon)(foxtra);
+            backup = foxtra.intl;
+            foxtra = backup.string;
+            romeon = sizing[romeon];
+            romeon = kiloes.bind(tangon)(romeon);
+            romeon = romeon.t;
+            if(yankee) { _fun00012_ip = 731; continue _fun00011 }
+ 718:
+            yankee = romeon.ZXxLQk;
+            yankee = foxtra.bind(backup)(yankee);
+            _fun00012_ip = 744; continue _fun00011;
+ 731:
+            romeon = romeon.kkKapK;
+            yankee = foxtra.bind(backup)(romeon);
+ 744:
+            golfie['accessibilityLabel'] = yankee;
             offset = function() { // Original name: onPress
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
@@ -962,7 +961,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             golfie['onPress'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 775:
+ 763:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

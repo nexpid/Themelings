@@ -499,61 +499,57 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = function(argFoo) { // Original name: getFiles
         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
-            report = argFoo;
-            var _closure2_slot0 = report;
+            zuuluu = argFoo;
+            var _closure2_slot0 = zuuluu;
             entity = new Array(0);
             var _closure2_slot1 = entity;
-            oscard = 0;
-            var _closure2_slot2 = oscard;
-            golfie = report.attachments;
-            option = null;
-            if(!(option != golfie)) { _fun00020_ip = 52; continue _fun00019 }
- 35:
-            tangon = golfie.forEach;
+            tangon = 0;
+            var _closure2_slot2 = tangon;
+            golfie = _closure1_slot0;
+            oscard = _closure1_slot2;
+            report = 5;
+            oscard = oscard[report];
+            report = undefined;
+            golfie = golfie.bind(report)(oscard);
+            oscard = golfie.hasFlag;
+            report = zuuluu.flags;
+            tangon = _closure1_slot8;
+            tangon = tangon.IS_VOICE_MESSAGE;
+            tangon = oscard.bind(golfie)(report, tangon);
+            var _closure2_slot3 = tangon;
+            tangon = zuuluu.attachments;
+            zuuluu = null;
+            if(!(zuuluu != tangon)) { _fun00020_ip = 108; continue _fun00019 }
+ 91:
+            zuuluu = tangon.forEach;
             michal = function(argFoo) {
                 _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
-                    tangon = argFoo;
-                    entity = tangon.width;
-                    zuuluu = null;
-                    entity = zuuluu != entity;
-                    if(!entity) { _fun00022_ip = 28; continue _fun00021 }
- 17:
-                    report = tangon.width;
-                    michal = 0;
-                    entity = report > michal;
- 28:
-                    if(!entity) { _fun00022_ip = 40; continue _fun00021 }
- 31:
-                    michal = tangon.height;
-                    entity = zuuluu != michal;
- 40:
-                    if(!entity) { _fun00022_ip = 54; continue _fun00021 }
- 43:
-                    zuuluu = tangon.height;
-                    michal = 0;
-                    entity = zuuluu > michal;
- 54:
-                    if(!entity) { _fun00022_ip = 140; continue _fun00021 }
- 57:
-                    zuuluu = _closure2_slot1;
-                    michal = zuuluu.push;
+                    tangon = _closure2_slot1;
+                    zuuluu = tangon.push;
                     entity = {};
+                    report = _closure2_slot3;
                     oscard = _closure1_slot7;
-                    oscard = oscard.ATTACHMENT;
-                    entity['type'] = oscard;
-                    oscard = _closure2_slot0;
-                    golfie = oscard.id;
-                    entity['messageId'] = golfie;
-                    golfie = oscard.channel_id;
-                    entity['channelId'] = golfie;
-                    oscard = oscard.author;
-                    entity['author'] = oscard;
+                    if(report) { _fun00022_ip = 36; continue _fun00021 }
+ 28:
+                    report = oscard.ATTACHMENT;
+                    _fun00022_ip = 42; continue _fun00021;
+ 36:
+                    report = oscard.SOUND;
+ 42:
+                    entity['type'] = report;
+                    report = _closure2_slot0;
+                    oscard = report.id;
+                    entity['messageId'] = oscard;
+                    oscard = report.channel_id;
+                    entity['channelId'] = oscard;
+                    report = report.author;
+                    entity['author'] = report;
                     report = _closure2_slot2;
                     entity['mediaIndex'] = report;
-                    entity['attachment'] = tangon;
-                    entity = michal.bind(zuuluu)(entity);
- 140:
+                    report = argFoo;
+                    entity['attachment'] = report;
+                    entity = zuuluu.bind(tangon)(entity);
                     entity = _closure2_slot2;
                     entity = entity + 1;
                     _closure2_slot2 = entity;
@@ -561,53 +557,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 }
             };
-            michal = tangon.bind(golfie)(michal);
- 52:
-            verify = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 5;
-            tangon = tangon[michal];
-            michal = undefined;
-            offset = verify.bind(michal)(tangon);
-            verify = offset.hasFlag;
-            tangon = report.flags;
-            michal = _closure1_slot8;
-            michal = michal.IS_VOICE_MESSAGE;
-            michal = verify.bind(offset)(tangon, michal);
-            if(!michal) { _fun00020_ip = 117; continue _fun00019 }
- 107:
-            tangon = report.attachments;
-            michal = option != tangon;
- 117:
-            if(!michal) { _fun00020_ip = 135; continue _fun00019 }
- 120:
-            tangon = report.attachments;
-            tangon = tangon.length;
-            michal = tangon > oscard;
- 135:
-            if(!michal) { _fun00020_ip = 228; continue _fun00019 }
- 138:
-            tangon = entity.push;
-            michal = {};
-            golfie = _closure1_slot7;
-            golfie = golfie.SOUND;
-            michal['type'] = golfie;
-            golfie = report.id;
-            michal['messageId'] = golfie;
-            golfie = report.channel_id;
-            michal['channelId'] = golfie;
-            golfie = report.author;
-            michal['author'] = golfie;
-            golfie = _closure2_slot2;
-            michal['mediaIndex'] = golfie;
-            report = report.attachments;
-            report = report[oscard];
-            michal['attachment'] = report;
-            michal = tangon.bind(entity)(michal);
-            michal = _closure2_slot2;
-            michal = michal + 1;
-            _closure2_slot2 = michal;
- 228:
+            michal = zuuluu.bind(tangon)(michal);
+ 108:
             return entity;
         }
     };

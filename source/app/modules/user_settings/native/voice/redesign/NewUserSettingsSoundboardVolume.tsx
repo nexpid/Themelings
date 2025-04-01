@@ -1,5 +1,5 @@
 // app/modules/user_settings/native/voice/redesign/NewUserSettingsSoundboardVolume.tsx
-export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
@@ -55,7 +55,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     tangon['text'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot8 = tangon;
-    tangon = 12;
+    tangon = 13;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -69,14 +69,21 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         tangon = undefined;
         michal = backup.bind(tangon)(entity);
         entity = michal.getAmplitudinalSoundboardVolume;
-        result = entity.bind(michal)();
-        zuuluu = _closure1_slot5;
+        source = entity.bind(michal)();
+        echoed = _closure1_slot1;
         entity = 5;
+        entity = update[entity];
+        entity = echoed.bind(tangon)(entity);
+        entity = entity.bind(tangon)();
+        entity = entity.analyticsLocations;
+        var _closure2_slot0 = entity;
+        zuuluu = _closure1_slot5;
+        entity = 6;
         entity = update[entity];
         entity = backup.bind(tangon)(entity);
         michal = entity.NewUserSettingsTableRowGroup;
         entity = {};
-        foxtra = 6;
+        foxtra = 7;
         report = update[foxtra];
         report = backup.bind(tangon)(report);
         golfie = report.intl;
@@ -87,7 +94,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         report = report.xbMc8v;
         report = oscard.bind(golfie)(report);
         entity['title'] = report;
-        report = 7;
+        report = 8;
         report = update[report];
         report = backup.bind(tangon)(report);
         oscard = report.TableRow;
@@ -110,25 +117,33 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         kiloes = _closure1_slot8;
         romeon = kiloes.slider;
         offset['style'] = romeon;
-        echoed = _closure1_slot1;
-        romeon = 8;
+        romeon = 9;
         romeon = update[romeon];
         sizing = echoed.bind(tangon)(romeon);
         romeon = {};
-        romeon['value'] = result;
-        result = 100;
-        romeon['maxVolume'] = result;
-        result = 9;
-        result = update[result];
-        result = backup.bind(tangon)(result);
-        result = result.updateUserSoundboardVolume;
+        romeon['value'] = source;
+        source = 100;
+        romeon['maxVolume'] = source;
+        result = function(argFoo) { // Original name: onValueChange
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
+            entity = 10;
+            michal = michal[entity];
+            entity = undefined;
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.updateUserSoundboardVolume;
+            michal = _closure2_slot0;
+            entity = argFoo;
+            entity = zuuluu.bind(tangon)(entity, michal);
+            return entity;
+        };
         romeon['onValueChange'] = result;
         romeon = zuuluu.bind(tangon)(sizing, romeon);
         offset['children'] = romeon;
         yankee = zuuluu.bind(tangon)(yankee, offset);
         offset = new Array(2);
         offset[0] = yankee;
-        yankee = 10;
+        yankee = 11;
         yankee = update[yankee];
         yankee = backup.bind(tangon)(yankee);
         romeon = yankee.TextWithIOSLinkWorkaround;
@@ -146,7 +161,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         foxtra = foxtra.t;
         backup = foxtra.BPbGq6;
         foxtra = {};
-        result = 11;
+        result = 12;
         result = update[result];
         echoed = echoed.bind(tangon)(result);
         result = echoed.getArticleURL;

@@ -348,7 +348,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = michal;
-        michal = new Array(22);
+        michal = new Array(23);
         michal[0] = oscard;
         oscard = {};
         golfie = 'isPremium';
@@ -778,6 +778,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard['get'] = golfie;
         michal[20] = oscard;
         oscard = {};
+        golfie = 'hasAnyPremiumNitro';
+        oscard['key'] = golfie;
+        golfie = function() { // Original name: get
+            entity = this;
+            zuuluu = entity.items;
+            michal = zuuluu.some;
+            entity = function(argFoo) {
+                zuuluu = _closure1_slot14;
+                michal = zuuluu.has;
+                entity = argFoo;
+                entity = entity.planId;
+                entity = michal.bind(zuuluu)(entity);
+                return entity;
+            };
+            entity = michal.bind(zuuluu)(entity);
+            return entity;
+        };
+        oscard['get'] = golfie;
+        michal[21] = oscard;
+        oscard = {};
         golfie = 'hasPremiumAtLeast';
         oscard['key'] = golfie;
         golfie = function(argFoo) { // Original name: value
@@ -816,7 +836,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = golfie;
-        michal[21] = oscard;
+        michal[22] = oscard;
         oscard = {};
         golfie = 'createFromServer';
         oscard['key'] = golfie;

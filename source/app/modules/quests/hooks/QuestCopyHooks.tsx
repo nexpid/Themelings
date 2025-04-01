@@ -224,11 +224,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.bind(tangon)(oscard);
             michal = _closure1_slot9;
             michal = michal.PLAY;
-            if(!(michal !== zuuluu)) { _fun00010_ip = 2772; continue _fun00009 }
+            if(!(michal !== zuuluu)) { _fun00010_ip = 2719; continue _fun00009 }
  76:
             michal = _closure1_slot9;
             michal = michal.STREAM;
-            if(!(michal !== zuuluu)) { _fun00010_ip = 2691; continue _fun00009 }
+            if(!(michal !== zuuluu)) { _fun00010_ip = 2638; continue _fun00009 }
  93:
             michal = _closure1_slot9;
             michal = michal.WATCH_VIDEO;
@@ -854,37 +854,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.description;
             return michal;
  2579:
-            option = _closure1_slot12;
-            zuuluu = _closure1_slot0;
-            verify = _closure1_slot1;
+            verify = _closure1_slot0;
+            offset = _closure1_slot1;
             michal = 5;
-            michal = verify[michal];
-            michal = zuuluu.bind(tangon)(michal);
+            zuuluu = offset[michal];
+            zuuluu = verify.bind(tangon)(zuuluu);
+            option = zuuluu.intl;
+            zuuluu = option.string;
+            michal = offset[michal];
+            michal = verify.bind(tangon)(michal);
             michal = michal.t;
-            zuuluu = michal.zus71N;
-            michal = {};
-            verify = golfie.targetMinutes;
-            michal['targetMinutes'] = verify;
-            verify = oscard.config;
-            yankee = verify.videoMetadata;
-            verify = null;
-            romeon = verify == yankee;
-            offset = undefined;
-            if(romeon) { _fun00010_ip = 2663; continue _fun00009 }
- 2651:
-            yankee = yankee.messages;
-            offset = yankee.videoTitle;
- 2663:
-            yankee = verify != offset;
-            verify = 'video';
-            if(!yankee) { _fun00010_ip = 2677; continue _fun00009 }
- 2674:
-            verify = offset;
- 2677:
-            michal['videoTitle'] = verify;
-            michal = option.bind(tangon)(zuuluu, michal, report);
+            michal = michal.f/J8v7;
+            michal = zuuluu.bind(option)(michal);
             return michal;
- 2691:
+ 2638:
             option = _closure1_slot12;
             zuuluu = _closure1_slot0;
             verify = _closure1_slot1;
@@ -902,7 +885,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['gameTitle'] = verify;
             michal = option.bind(tangon)(zuuluu, michal, report);
             return michal;
- 2772:
+ 2719:
             zuuluu = _closure1_slot12;
             michal = _closure1_slot0;
             option = _closure1_slot1;

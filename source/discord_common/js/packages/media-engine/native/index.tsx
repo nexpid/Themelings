@@ -954,7 +954,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = michal;
-        michal = new Array(67);
+        michal = new Array(66);
         michal[0] = oscard;
         oscard = {};
         golfie = 'interact';
@@ -983,226 +983,222 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = argFoo;
                 michal = _closure1_slot19;
                 michal = michal.LEGACY_AUDIO_SUBSYSTEM;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 2675; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 2590; continue _fun00021 }
  23:
                 michal = _closure1_slot19;
                 michal = michal.EXPERIMENTAL_AUDIO_SUBSYSTEM;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 2630; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 2545; continue _fun00021 }
  40:
                 michal = _closure1_slot19;
                 michal = michal.AUTOMATIC_AUDIO_SUBSYSTEM;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 2585; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 2500; continue _fun00021 }
  57:
                 michal = _closure1_slot19;
                 michal = michal.AUDIO_SUBSYSTEM_DEFERRED_SWITCH;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 2540; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 2455; continue _fun00021 }
  74:
                 michal = _closure1_slot19;
                 michal = michal.DEBUG_LOGGING;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 2495; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 2410; continue _fun00021 }
  91:
                 michal = _closure1_slot19;
                 michal = michal.SOUNDSHARE;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 2450; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 2365; continue _fun00021 }
  108:
                 michal = _closure1_slot19;
                 michal = michal.SCREEN_SOUNDSHARE;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 2405; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 2320; continue _fun00021 }
  125:
                 michal = _closure1_slot19;
                 michal = michal.ELEVATED_HOOK;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 2360; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 2275; continue _fun00021 }
  142:
                 michal = _closure1_slot19;
                 michal = michal.LOOPBACK;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 2315; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 2230; continue _fun00021 }
  159:
                 michal = _closure1_slot19;
                 michal = michal.WUMPUS_VIDEO;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 2270; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 2185; continue _fun00021 }
  176:
                 michal = _closure1_slot19;
                 michal = michal.HYBRID_VIDEO;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 2225; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 2140; continue _fun00021 }
  193:
                 michal = _closure1_slot19;
                 michal = michal.ATTENUATION;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 2092; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 2007; continue _fun00021 }
  210:
                 michal = _closure1_slot19;
                 michal = michal.VIDEO_HOOK;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 2092; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 2007; continue _fun00021 }
  227:
                 michal = _closure1_slot19;
                 michal = michal.EXPERIMENTAL_SOUNDSHARE;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 2047; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 1962; continue _fun00021 }
  244:
                 michal = _closure1_slot19;
                 michal = michal.OPEN_H264;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 1914; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 1829; continue _fun00021 }
  261:
                 michal = _closure1_slot19;
                 michal = michal.EXPERIMENTAL_ENCODERS;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 1869; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 1784; continue _fun00021 }
  278:
                 michal = _closure1_slot19;
                 michal = michal.REMOTE_LOCUS_NETWORK_CONTROL;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 1824; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 1739; continue _fun00021 }
  295:
                 michal = _closure1_slot19;
                 michal = michal.SCREEN_PREVIEWS;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 1779; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 1694; continue _fun00021 }
  312:
                 michal = _closure1_slot19;
                 michal = michal.CLIPS;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 1734; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 1649; continue _fun00021 }
  329:
                 michal = _closure1_slot19;
                 michal = michal.WINDOW_PREVIEWS;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 1689; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 1604; continue _fun00021 }
  346:
                 michal = _closure1_slot19;
                 michal = michal.AUDIO_DEBUG_STATE;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 1644; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 1559; continue _fun00021 }
  363:
                 michal = _closure1_slot19;
                 michal = michal.CONNECTION_REPLAY;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 1599; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 1514; continue _fun00021 }
  380:
                 michal = _closure1_slot19;
                 michal = michal.SIMULCAST;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 1513; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 1428; continue _fun00021 }
  397:
                 michal = _closure1_slot19;
                 michal = michal.RTC_REGION_RANKING;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 1468; continue _fun00021 }
+                if(!(michal !== zuuluu)) { _fun00022_ip = 1383; continue _fun00021 }
  414:
                 michal = _closure1_slot19;
-                michal = michal.DIRECT_VIDEO;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 1400; continue _fun00021 }
+                michal = michal.ELECTRON_VIDEO;
+                if(!(michal !== zuuluu)) { _fun00022_ip = 1338; continue _fun00021 }
  431:
                 michal = _closure1_slot19;
-                michal = michal.ELECTRON_VIDEO;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 1355; continue _fun00021 }
+                michal = michal.MEDIAPIPE;
+                if(!(michal !== zuuluu)) { _fun00022_ip = 1293; continue _fun00021 }
  448:
                 michal = _closure1_slot19;
-                michal = michal.MEDIAPIPE;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 1310; continue _fun00021 }
+                michal = michal.FIXED_KEYFRAME_INTERVAL;
+                if(!(michal !== zuuluu)) { _fun00022_ip = 1248; continue _fun00021 }
  465:
                 michal = _closure1_slot19;
-                michal = michal.FIXED_KEYFRAME_INTERVAL;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 1265; continue _fun00021 }
+                michal = michal.FIRST_FRAME_CALLBACK;
+                if(!(michal !== zuuluu)) { _fun00022_ip = 1203; continue _fun00021 }
  482:
                 michal = _closure1_slot19;
-                michal = michal.FIRST_FRAME_CALLBACK;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 1220; continue _fun00021 }
+                michal = michal.REMOTE_USER_MULTI_STREAM;
+                if(!(michal !== zuuluu)) { _fun00022_ip = 1158; continue _fun00021 }
  499:
                 michal = _closure1_slot19;
-                michal = michal.REMOTE_USER_MULTI_STREAM;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 1175; continue _fun00021 }
+                michal = michal.IMAGE_QUALITY_MEASUREMENT;
+                if(!(michal !== zuuluu)) { _fun00022_ip = 1113; continue _fun00021 }
  516:
                 michal = _closure1_slot19;
-                michal = michal.IMAGE_QUALITY_MEASUREMENT;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 1130; continue _fun00021 }
+                michal = michal.GO_LIVE_HARDWARE;
+                if(!(michal !== zuuluu)) { _fun00022_ip = 1068; continue _fun00021 }
  533:
                 michal = _closure1_slot19;
-                michal = michal.GO_LIVE_HARDWARE;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 1085; continue _fun00021 }
+                michal = michal.SCREEN_CAPTURE_KIT;
+                if(!(michal !== zuuluu)) { _fun00022_ip = 1023; continue _fun00021 }
  550:
                 michal = _closure1_slot19;
-                michal = michal.SCREEN_CAPTURE_KIT;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 1040; continue _fun00021 }
+                michal = michal.CAPTURE_TIMEOUT_EXPERIMENTS;
+                if(!(michal !== zuuluu)) { _fun00022_ip = 978; continue _fun00021 }
  567:
                 michal = _closure1_slot19;
-                michal = michal.CAPTURE_TIMEOUT_EXPERIMENTS;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 995; continue _fun00021 }
+                michal = michal.NATIVE_SCREENSHARE_PICKER;
+                if(!(michal !== zuuluu)) { _fun00022_ip = 933; continue _fun00021 }
  584:
                 michal = _closure1_slot19;
-                michal = michal.NATIVE_SCREENSHARE_PICKER;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 950; continue _fun00021 }
+                michal = michal.MLS_PAIRWISE_FINGERPRINTS;
+                if(!(michal !== zuuluu)) { _fun00022_ip = 888; continue _fun00021 }
  601:
                 michal = _closure1_slot19;
-                michal = michal.MLS_PAIRWISE_FINGERPRINTS;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 905; continue _fun00021 }
+                michal = michal.DIAGNOSTICS;
+                if(!(michal !== zuuluu)) { _fun00022_ip = 884; continue _fun00021 }
  618:
                 michal = _closure1_slot19;
-                michal = michal.DIAGNOSTICS;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 901; continue _fun00021 }
+                michal = michal.NATIVE_PING;
+                if(!(michal !== zuuluu)) { _fun00022_ip = 884; continue _fun00021 }
  635:
                 michal = _closure1_slot19;
-                michal = michal.NATIVE_PING;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 901; continue _fun00021 }
+                michal = michal.AUTOMATIC_VAD;
+                if(!(michal !== zuuluu)) { _fun00022_ip = 884; continue _fun00021 }
  652:
                 michal = _closure1_slot19;
-                michal = michal.AUTOMATIC_VAD;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 901; continue _fun00021 }
+                michal = michal.AUDIO_INPUT_DEVICE;
+                if(!(michal !== zuuluu)) { _fun00022_ip = 884; continue _fun00021 }
  669:
                 michal = _closure1_slot19;
-                michal = michal.AUDIO_INPUT_DEVICE;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 901; continue _fun00021 }
+                michal = michal.AUDIO_OUTPUT_DEVICE;
+                if(!(michal !== zuuluu)) { _fun00022_ip = 884; continue _fun00021 }
  686:
                 michal = _closure1_slot19;
-                michal = michal.AUDIO_OUTPUT_DEVICE;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 901; continue _fun00021 }
+                michal = michal.QOS;
+                if(!(michal !== zuuluu)) { _fun00022_ip = 884; continue _fun00021 }
  703:
                 michal = _closure1_slot19;
-                michal = michal.QOS;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 901; continue _fun00021 }
+                michal = michal.VOICE_PROCESSING;
+                if(!(michal !== zuuluu)) { _fun00022_ip = 884; continue _fun00021 }
  720:
                 michal = _closure1_slot19;
-                michal = michal.VOICE_PROCESSING;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 901; continue _fun00021 }
+                michal = michal.AUTO_ENABLE;
+                if(!(michal !== zuuluu)) { _fun00022_ip = 884; continue _fun00021 }
  737:
                 michal = _closure1_slot19;
-                michal = michal.AUTO_ENABLE;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 901; continue _fun00021 }
+                michal = michal.VIDEO;
+                if(!(michal !== zuuluu)) { _fun00022_ip = 884; continue _fun00021 }
  754:
                 michal = _closure1_slot19;
-                michal = michal.VIDEO;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 901; continue _fun00021 }
- 771:
-                michal = _closure1_slot19;
                 michal = michal.DESKTOP_CAPTURE;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 901; continue _fun00021 }
- 785:
+                if(!(michal !== zuuluu)) { _fun00022_ip = 884; continue _fun00021 }
+ 768:
                 michal = _closure1_slot19;
                 michal = michal.DESKTOP_CAPTURE_FORMAT;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 901; continue _fun00021 }
- 799:
+                if(!(michal !== zuuluu)) { _fun00022_ip = 884; continue _fun00021 }
+ 782:
                 michal = _closure1_slot19;
                 michal = michal.DESKTOP_CAPTURE_APPLICATIONS;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 901; continue _fun00021 }
- 813:
+                if(!(michal !== zuuluu)) { _fun00022_ip = 884; continue _fun00021 }
+ 796:
                 michal = _closure1_slot19;
                 michal = michal.VOICE_PANNING;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 901; continue _fun00021 }
- 827:
+                if(!(michal !== zuuluu)) { _fun00022_ip = 884; continue _fun00021 }
+ 810:
                 michal = _closure1_slot19;
                 michal = michal.AEC_DUMP;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 901; continue _fun00021 }
- 841:
+                if(!(michal !== zuuluu)) { _fun00022_ip = 884; continue _fun00021 }
+ 824:
                 michal = _closure1_slot19;
                 michal = michal.DISABLE_VIDEO;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 901; continue _fun00021 }
- 855:
+                if(!(michal !== zuuluu)) { _fun00022_ip = 884; continue _fun00021 }
+ 838:
                 michal = _closure1_slot19;
                 michal = michal.SAMPLE_PLAYBACK;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 901; continue _fun00021 }
- 869:
+                if(!(michal !== zuuluu)) { _fun00022_ip = 884; continue _fun00021 }
+ 852:
                 michal = _closure1_slot19;
                 michal = michal.NOISE_SUPPRESSION;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 901; continue _fun00021 }
- 883:
+                if(!(michal !== zuuluu)) { _fun00022_ip = 884; continue _fun00021 }
+ 866:
                 michal = _closure1_slot19;
                 michal = michal.AUTOMATIC_GAIN_CONTROL;
-                if(!(michal !== zuuluu)) { _fun00022_ip = 901; continue _fun00021 }
- 897:
+                if(!(michal !== zuuluu)) { _fun00022_ip = 884; continue _fun00021 }
+ 880:
                 michal = false;
                 return michal;
- 901:
+ 884:
                 michal = true;
                 return michal;
- 905:
+ 888:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1214,7 +1210,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.MLS_PAIRWISE_FINGERPRINTS;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 950:
+ 933:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1226,7 +1222,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.NATIVE_SCREENSHARE_PICKER;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 995:
+ 978:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1238,7 +1234,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.CAPTURE_TIMEOUT_EXPERIMENTS;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1040:
+ 1023:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1250,7 +1246,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.SCREEN_CAPTURE_KIT;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1085:
+ 1068:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1262,7 +1258,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.GO_LIVE_HARDWARE;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1130:
+ 1113:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1274,7 +1270,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.IMAGE_QUALITY_MEASUREMENT;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1175:
+ 1158:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1286,7 +1282,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.REMOTE_USER_MULTI_STREAM;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1220:
+ 1203:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1298,7 +1294,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.FIRST_FRAME_CALLBACK;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1265:
+ 1248:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1310,7 +1306,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.FIXED_KEYFRAME_INTERVAL;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1310:
+ 1293:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1322,7 +1318,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.MEDIAPIPE;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1355:
+ 1338:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1334,27 +1330,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.ELECTRON_VIDEO;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1400:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                michal = 15;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                tangon = tangon.bind(michal)(zuuluu);
-                zuuluu = tangon.supportsFeature;
-                michal = _closure1_slot22;
-                michal = michal.DIRECT_VIDEO;
-                michal = zuuluu.bind(tangon)(michal);
-                if(!michal) { _fun00022_ip = 1466; continue _fun00021 }
- 1446:
-                zuuluu = global;
-                zuuluu = zuuluu.window;
-                tangon = zuuluu.createDiscordStream;
-                zuuluu = null;
-                michal = zuuluu != tangon;
- 1466:
-                return michal;
- 1468:
+ 1383:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1366,7 +1342,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.RTC_REGION_RANKING;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1513:
+ 1428:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
                 oscard = 15;
@@ -1377,8 +1353,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = _closure1_slot22;
                 michal = michal.SIMULCAST;
                 michal = zuuluu.bind(tangon)(michal);
-                if(!michal) { _fun00022_ip = 1597; continue _fun00021 }
- 1559:
+                if(!michal) { _fun00022_ip = 1512; continue _fun00021 }
+ 1474:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 zuuluu = zuuluu[oscard];
@@ -1387,9 +1363,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = _closure1_slot22;
                 zuuluu = zuuluu.SIMULCAST_BUGFIX;
                 michal = tangon.bind(report)(zuuluu);
- 1597:
+ 1512:
                 return michal;
- 1599:
+ 1514:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1401,7 +1377,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.CONNECTION_REPLAY;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1644:
+ 1559:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1413,7 +1389,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.AUDIO_DEBUG_STATE;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1689:
+ 1604:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1425,7 +1401,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.WINDOW_PREVIEWS;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1734:
+ 1649:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1437,7 +1413,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.CLIPS;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1779:
+ 1694:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1449,7 +1425,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.SCREEN_PREVIEWS;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1824:
+ 1739:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1461,7 +1437,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.REMOTE_LOCUS_NETWORK_CONTROL;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1869:
+ 1784:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1473,7 +1449,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.EXPERIMENTAL_ENCODERS;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1914:
+ 1829:
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
                 option = 17;
@@ -1483,8 +1459,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = null;
                 tangon = zuuluu == michal;
                 michal = undefined;
-                if(tangon) { _fun00022_ip = 1985; continue _fun00021 }
- 1947:
+                if(tangon) { _fun00022_ip = 1900; continue _fun00021 }
+ 1862:
                 report = _closure1_slot1;
                 tangon = _closure1_slot2;
                 tangon = tangon[option];
@@ -1492,13 +1468,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = tangon.os;
                 report = zuuluu == tangon;
                 michal = undefined;
-                if(report) { _fun00022_ip = 1985; continue _fun00021 }
- 1979:
+                if(report) { _fun00022_ip = 1900; continue _fun00021 }
+ 1894:
                 michal = tangon.family;
- 1985:
+ 1900:
                 michal = zuuluu != michal;
-                if(!michal) { _fun00022_ip = 2045; continue _fun00021 }
- 1992:
+                if(!michal) { _fun00022_ip = 1960; continue _fun00021 }
+ 1907:
                 report = /^win|linux|OS X/i;
                 tangon = report.test;
                 oscard = _closure1_slot1;
@@ -1508,9 +1484,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = zuuluu.os;
                 zuuluu = zuuluu.family;
                 michal = tangon.bind(report)(zuuluu);
- 2045:
+ 1960:
                 return michal;
- 2047:
+ 1962:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1522,7 +1498,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.SOUNDSHARE_LOOPBACK;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 2092:
+ 2007:
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
                 option = 17;
@@ -1532,8 +1508,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = null;
                 tangon = zuuluu == michal;
                 michal = undefined;
-                if(tangon) { _fun00022_ip = 2163; continue _fun00021 }
- 2125:
+                if(tangon) { _fun00022_ip = 2078; continue _fun00021 }
+ 2040:
                 report = _closure1_slot1;
                 tangon = _closure1_slot2;
                 tangon = tangon[option];
@@ -1541,13 +1517,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = tangon.os;
                 report = zuuluu == tangon;
                 michal = undefined;
-                if(report) { _fun00022_ip = 2163; continue _fun00021 }
- 2157:
+                if(report) { _fun00022_ip = 2078; continue _fun00021 }
+ 2072:
                 michal = tangon.family;
- 2163:
+ 2078:
                 michal = zuuluu != michal;
-                if(!michal) { _fun00022_ip = 2223; continue _fun00021 }
- 2170:
+                if(!michal) { _fun00022_ip = 2138; continue _fun00021 }
+ 2085:
                 report = /^win/i;
                 tangon = report.test;
                 oscard = _closure1_slot1;
@@ -1557,9 +1533,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = zuuluu.os;
                 zuuluu = zuuluu.family;
                 michal = tangon.bind(report)(zuuluu);
- 2223:
+ 2138:
                 return michal;
- 2225:
+ 2140:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1571,7 +1547,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.HYBRID_VIDEO;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 2270:
+ 2185:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1583,7 +1559,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.WUMPUS_VIDEO;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 2315:
+ 2230:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1595,7 +1571,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.LOOPBACK;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 2360:
+ 2275:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1607,7 +1583,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.ELEVATED_HOOK;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 2405:
+ 2320:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1619,7 +1595,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.SCREEN_SOUNDSHARE;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 2450:
+ 2365:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1631,7 +1607,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.SOUNDSHARE;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 2495:
+ 2410:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1643,7 +1619,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.DEBUG_LOGGING;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 2540:
+ 2455:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1655,7 +1631,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.VOICE_SUBSYSTEM_DEFERRED_SWITCH;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 2585:
+ 2500:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1667,7 +1643,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.VOICE_AUTOMATIC_SUBSYSTEM;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 2630:
+ 2545:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1679,7 +1655,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.VOICE_EXPERIMENTAL_SUBSYSTEM;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 2675:
+ 2590:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -3881,22 +3857,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard['value'] = option;
         michal[49] = oscard;
         oscard = {};
-        option = 'setUseDirectVideo';
-        oscard['key'] = option;
-        option = function(argFoo) { // Original name: value
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 10;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = argFoo;
-            zuuluu['useDirectVideo'] = michal;
-            return entity;
-        };
-        oscard['value'] = option;
-        michal[50] = oscard;
-        oscard = {};
         option = 'setOnVideoContainerResized';
         oscard['key'] = option;
         option = function(argFoo) { // Original name: value
@@ -3911,7 +3871,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[51] = oscard;
+        michal[50] = oscard;
         oscard = {};
         option = 'setMaxSyncDelayOverride';
         oscard['key'] = option;
@@ -3937,7 +3897,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[52] = oscard;
+        michal[51] = oscard;
         oscard = {};
         option = 'applyMediaFilterSettings';
         oscard['key'] = option;
@@ -3990,7 +3950,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[53] = oscard;
+        michal[52] = oscard;
         oscard = {};
         option = 'startLocalAudioRecording';
         oscard['key'] = option;
@@ -4070,7 +4030,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[54] = oscard;
+        michal[53] = oscard;
         oscard = {};
         option = 'stopLocalAudioRecording';
         oscard['key'] = option;
@@ -4141,7 +4101,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[55] = oscard;
+        michal[54] = oscard;
         oscard = {};
         option = 'setHasFullbandPerformance';
         oscard['key'] = option;
@@ -4168,7 +4128,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[56] = oscard;
+        michal[55] = oscard;
         oscard = {};
         option = 'getSupportedSecureFramesProtocolVersion';
         oscard['key'] = option;
@@ -4195,7 +4155,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[57] = oscard;
+        michal[56] = oscard;
         oscard = {};
         option = 'getSupportedBandwidthEstimationExperiments';
         oscard['key'] = option;
@@ -4222,7 +4182,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[58] = oscard;
+        michal[57] = oscard;
         oscard = {};
         option = 'getMLSSigningKey';
         oscard['key'] = option;
@@ -4289,7 +4249,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[59] = oscard;
+        michal[58] = oscard;
         oscard = {};
         option = 'setSidechainCompression';
         oscard['key'] = option;
@@ -4316,7 +4276,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[60] = oscard;
+        michal[59] = oscard;
         oscard = {};
         option = 'setSidechainCompressionStrength';
         oscard['key'] = option;
@@ -4355,7 +4315,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[61] = oscard;
+        michal[60] = oscard;
         oscard = {};
         option = 'setNativeDesktopVideoSourcePickerActive';
         oscard['key'] = option;
@@ -4382,7 +4342,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[62] = oscard;
+        michal[61] = oscard;
         oscard = {};
         option = 'presentNativeScreenSharePicker';
         oscard['key'] = option;
@@ -4415,7 +4375,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[63] = oscard;
+        michal[62] = oscard;
         oscard = {};
         option = 'releaseNativeDesktopVideoSourcePickerStream';
         oscard['key'] = option;
@@ -4441,7 +4401,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[64] = oscard;
+        michal[63] = oscard;
         oscard = {};
         option = 'watchdogTick';
         oscard['key'] = option;
@@ -4510,7 +4470,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[65] = oscard;
+        michal[64] = oscard;
         oscard = {};
         option = 'connectionsEmpty';
         oscard['key'] = option;
@@ -4523,7 +4483,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[66] = oscard;
+        michal[65] = oscard;
         oscard = {};
         oscard['key'] = golfie;
         entity = function() { // Original name: value

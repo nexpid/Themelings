@@ -1,5 +1,5 @@
 // app/modules/user_settings/trackVoiceAndVideoSettingsUpdate.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/user_settings/trackVoiceAndVideoSettingsUpdate.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar, argBaz) { // Original name: trackVoiceAndVideoDebuggingSettingsUpdated
+    michal = function(argFoo, argBar, argBaz, argCor) { // Original name: trackVoiceAndVideoDebuggingSettingsUpdated
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             option = argBaz;
@@ -52,6 +52,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['previous_setting_value'] = report;
             oscard = argBar;
             report = argFoo;
+            entity[report] = oscard;
+            oscard = argCor;
+            report = 'location_stack';
             entity[report] = oscard;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

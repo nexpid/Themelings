@@ -56,6 +56,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     zuuluu['CHANNEL_TOPIC_LINE_CLAMP'] = tangon;
     zuuluu['DESCRIPTION_HORIZONTAL_MARGIN'] = michal;
     michal = {'mass': 1, 'damping': 30, 'stiffness': 300};
-    zuuluu['springChannelDetails'] = michal;
+    zuuluu['SPRING_CHANNEL_DETAILS'] = michal;
+    michal = {'mass': 1, 'damping': 80, 'stiffness': 1280};
+    zuuluu['SPRING_CHANNEL_HEADER'] = michal;
     return entity;
 })();

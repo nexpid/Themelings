@@ -199,6 +199,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = golfie instanceof Object ? golfie : option;
             zuuluu['value'] = golfie;
             zuuluu = report.bind(oscard)(entity, tangon, zuuluu);
+            zuuluu = {};
+            tangon = function(argFoo) { // Original name: GUILD_LOCAL_RING_START
+                zuuluu = _closure3_slot0;
+                michal = zuuluu.handleGuildRingStart;
+                entity = argFoo;
+                entity = michal.bind(zuuluu)(entity);
+                return entity;
+            };
+            zuuluu['GUILD_LOCAL_RING_START'] = tangon;
+            tangon = function(argFoo) { // Original name: GUILD_RING_STOP
+                zuuluu = _closure3_slot0;
+                michal = zuuluu.handleGuildRingStop;
+                entity = argFoo;
+                entity = michal.bind(zuuluu)(entity);
+                return entity;
+            };
+            zuuluu['GUILD_RING_STOP'] = tangon;
+            entity['actions'] = zuuluu;
             zuuluu = function(argFoo, argBar) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -206,55 +224,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = tangon.getCurrentClientVoiceChannelId;
                     michal = argBar;
                     tangon = zuuluu.bind(tangon)(michal);
-                    zuuluu = _closure1_slot10;
-                    michal = zuuluu.getChannel;
-                    oscard = michal.bind(zuuluu)(tangon);
                     zuuluu = null;
                     michal = zuuluu != tangon;
-                    if(!michal) { _fun00006_ip = 62; continue _fun00005 }
- 44:
-                    golfie = zuuluu == oscard;
-                    report = undefined;
-                    if(golfie) { _fun00006_ip = 58; continue _fun00005 }
- 53:
-                    report = oscard.guild_id;
- 58:
-                    michal = zuuluu == report;
- 62:
-                    if(!michal) { _fun00006_ip = 87; continue _fun00005 }
- 65:
+                    if(!michal) { _fun00006_ip = 52; continue _fun00005 }
+ 30:
                     oscard = _closure1_slot15;
                     report = oscard.countVoiceStatesForChannel;
                     oscard = report.bind(oscard)(tangon);
                     report = 2;
                     michal = oscard >= report;
- 87:
-                    if(!(zuuluu != tangon)) { _fun00006_ip = 151; continue _fun00005 }
- 91:
-                    if(michal) { _fun00006_ip = 151; continue _fun00005 }
- 94:
+ 52:
+                    if(!(zuuluu != tangon)) { _fun00006_ip = 116; continue _fun00005 }
+ 56:
+                    if(michal) { _fun00006_ip = 116; continue _fun00005 }
+ 59:
                     michal = argFoo;
-                    if(!michal) { _fun00006_ip = 151; continue _fun00005 }
- 100:
+                    if(!michal) { _fun00006_ip = 116; continue _fun00005 }
+ 65:
                     tangon = _closure1_slot11;
                     zuuluu = tangon.isSoundDisabled;
                     michal = 'call_calling';
                     michal = zuuluu.bind(tangon)(michal);
-                    if(michal) { _fun00006_ip = 151; continue _fun00005 }
- 122:
+                    if(michal) { _fun00006_ip = 116; continue _fun00005 }
+ 87:
                     michal = _closure1_slot13;
                     michal = michal.disableSounds;
-                    if(michal) { _fun00006_ip = 151; continue _fun00005 }
- 135:
+                    if(michal) { _fun00006_ip = 116; continue _fun00005 }
+ 100:
                     zuuluu = _closure1_slot17;
                     michal = zuuluu.loop;
                     michal = michal.bind(zuuluu)();
-                    _fun00006_ip = 165; continue _fun00005;
- 151:
+                    _fun00006_ip = 130; continue _fun00005;
+ 116:
                     michal = _closure1_slot17;
                     entity = michal.stop;
                     entity = entity.bind(michal)();
- 165:
+ 130:
                     entity = undefined;
                     return entity;
                 }
@@ -346,6 +351,70 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             entity['handleRingUpdate'] = zuuluu;
+            zuuluu = function(argFoo) {
+                entity = argFoo;
+                zuuluu = entity.ringing;
+                report = entity.guildId;
+                michal = zuuluu.forEach;
+                entity = function(argFoo) {
+                    tangon = _closure1_slot7;
+                    michal = _closure3_slot0;
+                    zuuluu = _closure1_slot18;
+                    entity = undefined;
+                    michal = tangon.bind(entity)(michal, zuuluu);
+                    tangon = michal[zuuluu];
+                    zuuluu = tangon.add;
+                    michal = argFoo;
+                    michal = zuuluu.bind(tangon)(michal);
+                    return entity;
+                };
+                entity = michal.bind(zuuluu)(entity);
+                tangon = _closure3_slot0;
+                zuuluu = tangon._handleRing;
+                michal = _closure1_slot7;
+                oscard = _closure1_slot18;
+                entity = undefined;
+                michal = michal.bind(entity)(tangon, oscard);
+                michal = michal[oscard];
+                oscard = michal.size;
+                michal = 0;
+                michal = oscard > michal;
+                michal = zuuluu.bind(tangon)(michal, report);
+                return entity;
+            };
+            entity['handleGuildRingStart'] = zuuluu;
+            zuuluu = function(argFoo) {
+                entity = argFoo;
+                zuuluu = entity.ringing;
+                report = entity.guildId;
+                michal = zuuluu.forEach;
+                entity = function(argFoo) {
+                    tangon = _closure1_slot7;
+                    michal = _closure3_slot0;
+                    zuuluu = _closure1_slot18;
+                    entity = undefined;
+                    michal = tangon.bind(entity)(michal, zuuluu);
+                    tangon = michal[zuuluu];
+                    zuuluu = tangon.delete;
+                    michal = argFoo;
+                    michal = zuuluu.bind(tangon)(michal);
+                    return entity;
+                };
+                entity = michal.bind(zuuluu)(entity);
+                tangon = _closure3_slot0;
+                zuuluu = tangon._handleRing;
+                michal = _closure1_slot7;
+                oscard = _closure1_slot18;
+                entity = undefined;
+                michal = michal.bind(entity)(tangon, oscard);
+                michal = michal[oscard];
+                oscard = michal.size;
+                michal = 0;
+                michal = oscard > michal;
+                michal = zuuluu.bind(tangon)(michal, report);
+                return entity;
+            };
+            entity['handleGuildRingStop'] = zuuluu;
             michal = function() {
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:

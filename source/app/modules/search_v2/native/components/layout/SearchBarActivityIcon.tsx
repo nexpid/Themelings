@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     foxtra = oscard[foxtra];
     foxtra = backup.bind(entity)(foxtra);
     foxtra = foxtra.colors;
-    foxtra = foxtra.TEXT_MUTED;
+    foxtra = foxtra.INTERACTIVE_NORMAL;
     romeon['color'] = foxtra;
     tangon['spinnerColor'] = romeon;
     romeon = {'width': 18, 'height': 18, 'alignItems': 'center', 'justifyContent': 'center', 'position': 'absolute'};
@@ -88,20 +88,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = michal.searchContext;
             michal = _closure1_slot8;
             tangon = undefined;
-            romeon = michal.bind(tangon)();
-            foxtra = _closure1_slot0;
-            backup = _closure1_slot2;
+            yankee = michal.bind(tangon)();
+            romeon = _closure1_slot0;
+            foxtra = _closure1_slot2;
             michal = 5;
-            michal = backup[michal];
-            report = foxtra.bind(tangon)(michal);
+            michal = foxtra[michal];
+            report = romeon.bind(tangon)(michal);
             zuuluu = report.useIsSearchSpinnerVisible;
             michal = {};
             michal['searchContext'] = oscard;
             michal = zuuluu.bind(report)(michal);
             var _closure2_slot0 = michal;
             oscard = 6;
-            zuuluu = backup[oscard];
-            golfie = foxtra.bind(tangon)(zuuluu);
+            zuuluu = foxtra[oscard];
+            golfie = romeon.bind(tangon)(zuuluu);
             report = golfie.useSharedValue;
             zuuluu = _closure1_slot9;
             zuuluu = zuuluu.START;
@@ -141,10 +141,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             michal = report.bind(golfie)(michal, zuuluu);
-            michal = backup[oscard];
-            report = foxtra.bind(tangon)(michal);
+            michal = foxtra[oscard];
+            report = romeon.bind(tangon)(michal);
             zuuluu = report.useAnimatedStyle;
-            michal = function() { // Original name: h
+            michal = function() { // Original name: p
                 entity = {};
                 report = _closure1_slot0;
                 tangon = _closure1_slot2;
@@ -163,8 +163,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             verify = {};
-            golfie = backup[oscard];
-            golfie = foxtra.bind(tangon)(golfie);
+            golfie = foxtra[oscard];
+            golfie = romeon.bind(tangon)(golfie);
             golfie = golfie.interpolate;
             verify['interpolate'] = golfie;
             verify['fadeAnimationState'] = option;
@@ -176,10 +176,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = _closure1_slot11;
             michal['__initData'] = verify;
             kiloes = zuuluu.bind(report)(michal);
-            michal = backup[oscard];
-            zuuluu = foxtra.bind(tangon)(michal);
+            michal = foxtra[oscard];
+            zuuluu = romeon.bind(tangon)(michal);
             michal = zuuluu.useAnimatedStyle;
-            entity = function() { // Original name: N
+            entity = function() { // Original name: h
                 entity = {};
                 report = _closure1_slot0;
                 tangon = _closure1_slot2;
@@ -198,8 +198,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             report = {};
-            verify = backup[oscard];
-            verify = foxtra.bind(tangon)(verify);
+            verify = foxtra[oscard];
+            verify = romeon.bind(tangon)(verify);
             verify = verify.interpolate;
             report['interpolate'] = verify;
             report['fadeAnimationState'] = option;
@@ -215,57 +215,51 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             option = _closure1_slot5;
             golfie = _closure1_slot1;
-            report = backup[oscard];
+            report = foxtra[oscard];
             report = golfie.bind(tangon)(report);
             offset = report.View;
             report = {};
             report['style'] = kiloes;
-            sizing = _closure1_slot4;
-            kiloes = {};
-            output = romeon.spinnerColor;
-            output = output.color;
-            kiloes['color'] = output;
-            result = romeon.icon;
-            output = new Array(2);
-            output[0] = result;
-            result = romeon.spinner;
-            output[1] = result;
-            kiloes['style'] = output;
-            kiloes = option.bind(tangon)(sizing, kiloes);
-            report['children'] = kiloes;
+            kiloes = _closure1_slot4;
+            backup = {};
+            sizing = yankee.spinnerColor;
+            sizing = sizing.color;
+            backup['color'] = sizing;
+            output = yankee.icon;
+            sizing = new Array(2);
+            sizing[0] = output;
+            output = yankee.spinner;
+            sizing[1] = output;
+            backup['style'] = sizing;
+            backup = option.bind(tangon)(kiloes, backup);
+            report['children'] = backup;
             offset = option.bind(tangon)(offset, report);
             report = new Array(2);
             report[0] = offset;
-            oscard = backup[oscard];
+            oscard = foxtra[oscard];
             oscard = golfie.bind(tangon)(oscard);
             golfie = oscard.View;
             oscard = {};
             oscard['style'] = verify;
             verify = 8;
-            verify = backup[verify];
-            verify = foxtra.bind(tangon)(verify);
+            verify = foxtra[verify];
+            verify = romeon.bind(tangon)(verify);
             offset = verify.MagnifyingGlassIcon;
             verify = {};
-            romeon = romeon.icon;
-            verify['style'] = romeon;
-            romeon = 9;
-            romeon = backup[romeon];
-            foxtra = foxtra.bind(tangon)(romeon);
-            romeon = foxtra.isAndroid;
-            foxtra = romeon.bind(foxtra)();
-            romeon = 'xs';
-            if(!foxtra) { _fun00002_ip = 513; continue _fun00001 }
- 509:
-            romeon = 'sm';
- 513:
-            verify['size'] = romeon;
-            romeon = _closure1_slot1;
-            foxtra = _closure1_slot2;
-            yankee = 4;
+            yankee = yankee.icon;
+            verify['style'] = yankee;
+            yankee = 9;
             yankee = foxtra[yankee];
-            yankee = romeon.bind(tangon)(yankee);
-            yankee = yankee.colors;
-            yankee = yankee.TEXT_MUTED;
+            romeon = romeon.bind(tangon)(yankee);
+            yankee = romeon.isAndroid;
+            romeon = yankee.bind(romeon)();
+            yankee = 'xs';
+            if(!romeon) { _fun00002_ip = 513; continue _fun00001 }
+ 509:
+            yankee = 'sm';
+ 513:
+            verify['size'] = yankee;
+            yankee = 'interactive-normal';
             verify['color'] = yankee;
             verify = option.bind(tangon)(offset, verify);
             oscard['children'] = verify;

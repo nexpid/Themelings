@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = offset.bind(golfie)(option);
                     offset = yankee.getGuildPowerupsExperimentEnabled;
                     option = 'isAccessibleChannelOrThread';
-                    option = offset.bind(yankee)(verify, option);
+                    option = offset.bind(yankee)(oscard, option);
                     return option;
  484:
                     offset = _closure1_slot0;

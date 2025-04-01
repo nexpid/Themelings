@@ -1,23 +1,25 @@
 // app/modules/main_tabs_v2/native/settings/definitions/SoundboardVolumeSetting.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscard;
     entity = global;
     option = entity.Object;
-    tangon = option.defineProperty;
+    golfie = option.defineProperty;
     michal = {};
     entity = true;
     michal['value'] = entity;
     entity = '__esModule';
-    entity = tangon.bind(option)(zuuluu, entity, michal);
+    entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = 0;
     michal = oscard[entity];
     entity = undefined;
     michal = report.bind(entity)(michal);
-    tangon = michal.MobileSetting;
+    golfie = michal.MobileSetting;
     michal = {};
     option = 1;
     option = oscard[option];
@@ -25,9 +27,9 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = option.RendererType;
     option = option.VOLUME_SLIDER;
     michal['type'] = option;
-    golfie = function() { // Original name: title
+    option = function() { // Original name: title
         report = _closure1_slot0;
-        oscard = _closure1_slot1;
+        oscard = _closure1_slot2;
         entity = 2;
         michal = oscard[entity];
         tangon = undefined;
@@ -41,22 +43,37 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    michal['title'] = golfie;
-    tangon = tangon.VOICE;
-    michal['parent'] = tangon;
-    tangon = 100;
-    michal['maximum'] = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.getAmplitudinalSoundboardVolume;
-    michal['useValue'] = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.updateUserSoundboardVolume;
+    michal['title'] = option;
+    golfie = golfie.VOICE;
+    michal['parent'] = golfie;
+    golfie = 100;
+    michal['maximum'] = golfie;
+    golfie = 3;
+    golfie = oscard[golfie];
+    golfie = report.bind(entity)(golfie);
+    golfie = golfie.getAmplitudinalSoundboardVolume;
+    michal['useValue'] = golfie;
+    tangon = function(argFoo) { // Original name: onValueChange
+        zuuluu = _closure1_slot0;
+        oscard = _closure1_slot2;
+        michal = 4;
+        michal = oscard[michal];
+        report = undefined;
+        tangon = zuuluu.bind(report)(michal);
+        zuuluu = tangon.updateUserSoundboardVolume;
+        michal = _closure1_slot1;
+        entity = 5;
+        entity = oscard[entity];
+        entity = michal.bind(report)(entity);
+        entity = entity.USER_SETTINGS;
+        michal = new Array(1);
+        michal[0] = entity;
+        entity = argFoo;
+        entity = zuuluu.bind(tangon)(entity, michal);
+        return entity;
+    };
     michal['onValueChange'] = tangon;
-    tangon = 5;
+    tangon = 6;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

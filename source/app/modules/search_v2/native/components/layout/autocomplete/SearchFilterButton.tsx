@@ -132,14 +132,14 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             option = option.bind(verify)(report);
             report = 'accessibilityLabel';
             entity[report] = option;
-            option = 'md';
+            option = 'sm';
             report = 'size';
             entity[report] = option;
             report = 8;
             report = golfie[report];
             report = oscard.bind(zuuluu)(report);
             oscard = report.FiltersHorizontalIcon;
-            report = {'size': 'sm', 'color': 'interactive-normal'};
+            report = {'size': 'sm', 'color': 'redesign-button-tertiary-text'};
             oscard = tangon.bind(zuuluu)(oscard, report);
             report = 'icon';
             entity[report] = oscard;

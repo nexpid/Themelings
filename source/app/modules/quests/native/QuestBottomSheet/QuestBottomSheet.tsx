@@ -31,9 +31,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             output = entity.handleTaskSelect;
             kiloes = entity.showMicrophone;
             oscard = _closure1_slot0;
-            config = _closure1_slot2;
+            record = _closure1_slot2;
             entity = 16;
-            entity = config[entity];
+            entity = record[entity];
             report = oscard.bind(tangon)(entity);
             zuuluu = report.useShouldAllowMobileVideoTask;
             michal = result.config;
@@ -43,16 +43,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['location'] = golfie;
             verify = zuuluu.bind(report)(michal, entity);
             entity = 13;
-            entity = config[entity];
+            entity = record[entity];
             michal = oscard.bind(tangon)(entity);
             entity = michal.useQuestTaskDetails;
             entity = entity.bind(michal)(result);
-            offset = entity.taskType;
+            vacuum = entity.taskType;
             entity = 19;
-            entity = config[entity];
+            entity = record[entity];
             entity = oscard.bind(tangon)(entity);
             entity = entity.FirstPartyQuestTaskTypes;
-            option = entity.WATCH_VIDEO;
+            romeon = entity.WATCH_VIDEO;
+            entity = 14;
+            entity = record[entity];
+            michal = oscard.bind(tangon)(entity);
+            entity = michal.isInGameQuest;
+            sequen = entity.bind(michal)(result);
             entity = _closure1_slot5;
             foxtra = 0;
             zuuluu = entity.bind(tangon)(foxtra);
@@ -80,28 +85,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['value'] = report;
             golfie = _closure1_slot10;
             report = 20;
-            report = config[report];
+            report = record[report];
             report = oscard.bind(tangon)(report);
             oscard = report.BottomSheet;
             report = {};
-            sequen = _closure1_slot10;
-            vacuum = _closure1_slot1;
-            romeon = 21;
-            romeon = config[romeon];
-            vacuum = vacuum.bind(tangon)(romeon);
-            romeon = {};
-            romeon['quest'] = result;
-            romeon['step'] = backup;
-            config = _closure1_slot8;
-            config = config.QUEST_HOME_MOBILE;
-            romeon['location'] = config;
-            romeon = sequen.bind(tangon)(vacuum, romeon);
-            report['header'] = romeon;
-            if(!(offset === option)) { _fun00002_ip = 381; continue _fun00001 }
- 376:
+            config = _closure1_slot10;
+            offset = _closure1_slot1;
+            option = 21;
+            option = record[option];
+            offset = offset.bind(tangon)(option);
+            option = {};
+            option['quest'] = result;
+            option['step'] = backup;
+            record = _closure1_slot8;
+            record = record.QUEST_HOME_MOBILE;
+            option['location'] = record;
+            option = config.bind(tangon)(offset, option);
+            report['header'] = option;
             option = null;
-            if(!verify) { _fun00002_ip = 492; continue _fun00001 }
- 381:
+            if(sequen) { _fun00002_ip = 520; continue _fun00001 }
+ 400:
+            if(!(vacuum === romeon)) { _fun00002_ip = 409; continue _fun00001 }
+ 404:
+            option = null;
+            if(!verify) { _fun00002_ip = 520; continue _fun00001 }
+ 409:
             romeon = _closure1_slot10;
             offset = _closure1_slot1;
             vacuum = _closure1_slot2;
@@ -134,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             source = source.onNext;
             verify['onConnectConsoleNext'] = source;
             option = romeon.bind(tangon)(offset, verify);
- 492:
+ 520:
             report['footer'] = option;
             option = true;
             report['startExpanded'] = option;
@@ -148,10 +156,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             source = _closure1_slot13;
             source = source.TASK_SELECT;
             foxtra = 0;
-            if(!(backup !== source)) { _fun00002_ip = 549; continue _fun00001 }
- 546:
+            if(!(backup !== source)) { _fun00002_ip = 577; continue _fun00001 }
+ 574:
             foxtra = update;
- 549:
+ 577:
             romeon['paddingBottom'] = foxtra;
             yankee[1] = romeon;
             option['style'] = yankee;
@@ -918,97 +926,144 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: QuestBottomSheetContent
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-            entity = argFoo;
-            echoed = entity.defibrillator;
-            offset = entity.quest;
-            romeon = entity.handleTaskSelect;
-            oscard = entity.location;
-            backup = entity.showMicrophone;
+            michal = argFoo;
+            echoed = michal.defibrillator;
+            offset = michal.quest;
+            var _closure2_slot0 = offset;
+            romeon = michal.handleTaskSelect;
+            verify = michal.location;
+            backup = michal.showMicrophone;
             tangon = undefined;
-            if(!(backup === tangon)) { _fun00016_ip = 40; continue _fun00015 }
- 38:
+            if(!(backup === tangon)) { _fun00016_ip = 46; continue _fun00015 }
+ 44:
             backup = false;
- 40:
-            option = entity.step;
-            michal = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 16;
-            entity = zuuluu[entity];
-            report = michal.bind(tangon)(entity);
-            zuuluu = report.useShouldAllowMobileVideoTask;
-            michal = offset.config;
-            entity = {};
-            entity['location'] = oscard;
-            kiloes = zuuluu.bind(report)(michal, entity);
+ 46:
+            option = michal.step;
+            var _closure2_slot1 = tangon;
+            zuuluu = _closure1_slot0;
+            report = _closure1_slot2;
+            michal = 16;
+            michal = report[michal];
+            oscard = zuuluu.bind(tangon)(michal);
+            report = oscard.useShouldAllowMobileVideoTask;
+            zuuluu = offset.config;
+            michal = {};
+            michal['location'] = verify;
+            kiloes = report.bind(oscard)(zuuluu, michal);
+            _closure2_slot1 = kiloes;
+            report = _closure1_slot4;
+            zuuluu = report.useMemo;
+            michal = new Array(2);
+            michal[0] = offset;
+            michal[1] = kiloes;
+            entity = function() {
+                _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+ 0:
+                    entity = _closure2_slot1;
+                    if(entity) { _fun00018_ip = 127; continue _fun00017 }
+ 13:
+                    zuuluu = _closure1_slot0;
+                    tangon = _closure1_slot2;
+                    entity = 14;
+                    entity = tangon[entity];
+                    golfie = undefined;
+                    tangon = zuuluu.bind(golfie)(entity);
+                    zuuluu = tangon.isInGameQuest;
+                    entity = _closure2_slot0;
+                    entity = zuuluu.bind(tangon)(entity);
+                    report = _closure1_slot10;
+                    tangon = _closure1_slot0;
+                    option = _closure1_slot2;
+                    zuuluu = 25;
+                    zuuluu = option[zuuluu];
+                    zuuluu = tangon.bind(golfie)(zuuluu);
+                    if(entity) { _fun00018_ip = 102; continue _fun00017 }
+ 77:
+                    tangon = zuuluu.QuestBottomSheetProgressCardPlayStreamTask;
+                    entity = {};
+                    option = _closure2_slot0;
+                    entity['quest'] = option;
+                    entity = report.bind(golfie)(tangon, entity);
+                    _fun00018_ip = 125; continue _fun00017;
+ 102:
+                    tangon = zuuluu.QuestBottomSheetProgressCardInGameTask;
+                    zuuluu = {};
+                    option = _closure2_slot0;
+                    zuuluu['quest'] = option;
+                    entity = report.bind(golfie)(tangon, zuuluu);
+ 125:
+                    _fun00018_ip = 176; continue _fun00017;
+ 127:
+                    report = _closure1_slot10;
+                    zuuluu = _closure1_slot0;
+                    tangon = _closure1_slot2;
+                    michal = 25;
+                    michal = tangon[michal];
+                    tangon = undefined;
+                    michal = zuuluu.bind(tangon)(michal);
+                    zuuluu = michal.QuestBottomSheetProgressCardWatchTask;
+                    michal = {};
+                    oscard = _closure2_slot0;
+                    michal['quest'] = oscard;
+                    entity = report.bind(tangon)(zuuluu, michal);
+ 176:
+                    return entity;
+                }
+            };
+            sizing = zuuluu.bind(report)(entity, michal);
             zuuluu = _closure1_slot11;
             michal = _closure1_slot12;
             entity = {};
             report = _closure1_slot13;
             report = report.TASK_SELECT;
             oscard = option === report;
-            if(!oscard) { _fun00016_ip = 156; continue _fun00015 }
- 119:
+            if(!oscard) { _fun00016_ip = 204; continue _fun00015 }
+ 167:
             yankee = _closure1_slot10;
             verify = _closure1_slot1;
             foxtra = _closure1_slot2;
-            report = 25;
+            report = 26;
             report = foxtra[report];
             verify = verify.bind(tangon)(report);
             report = {};
             report['onTaskSelect'] = romeon;
             oscard = yankee.bind(tangon)(verify, report);
- 156:
+ 204:
             report = new Array(4);
             report[0] = oscard;
             oscard = _closure1_slot13;
             oscard = oscard.CONSOLE_CONNECT;
             oscard = option === oscard;
-            if(!oscard) { _fun00016_ip = 223; continue _fun00015 }
- 181:
+            if(!oscard) { _fun00016_ip = 271; continue _fun00015 }
+ 229:
             romeon = _closure1_slot10;
             yankee = _closure1_slot1;
             foxtra = _closure1_slot2;
-            verify = 26;
+            verify = 27;
             verify = foxtra[verify];
             yankee = yankee.bind(tangon)(verify);
             verify = {};
             verify['quest'] = offset;
             verify['step'] = option;
             oscard = romeon.bind(tangon)(yankee, verify);
- 223:
+ 271:
             report[1] = oscard;
             oscard = _closure1_slot13;
             oscard = oscard.TASK_STATUS;
             oscard = option === oscard;
-            if(!oscard) { _fun00016_ip = 385; continue _fun00015 }
- 247:
+            if(!oscard) { _fun00016_ip = 376; continue _fun00015 }
+ 292:
             romeon = _closure1_slot11;
             yankee = _closure1_slot6;
             verify = {};
-            output = _closure1_slot10;
-            sizing = _closure1_slot0;
-            result = _closure1_slot2;
-            foxtra = 27;
-            foxtra = result[foxtra];
-            foxtra = sizing.bind(tangon)(foxtra);
-            if(kiloes) { _fun00016_ip = 292; continue _fun00015 }
- 284:
-            sizing = foxtra.QuestBottomSheetProgressCardPlayStreamTask;
-            _fun00016_ip = 298; continue _fun00015;
- 292:
-            sizing = foxtra.QuestBottomSheetProgressCardWatchTask;
- 298:
-            foxtra = {};
-            foxtra['quest'] = offset;
-            sizing = output.bind(tangon)(sizing, foxtra);
             foxtra = new Array(2);
             foxtra[0] = sizing;
-            if(!backup) { _fun00016_ip = 325; continue _fun00015 }
- 322:
+            if(!backup) { _fun00016_ip = 316; continue _fun00015 }
+ 313:
             backup = !kiloes;
- 325:
-            if(!backup) { _fun00016_ip = 371; continue _fun00015 }
- 328:
+ 316:
+            if(!backup) { _fun00016_ip = 362; continue _fun00015 }
+ 319:
             output = _closure1_slot10;
             sizing = _closure1_slot20;
             kiloes = {};
@@ -1016,33 +1071,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             result = null;
             update = result == echoed;
             result = undefined;
-            if(update) { _fun00016_ip = 360; continue _fun00015 }
- 354:
+            if(update) { _fun00016_ip = 351; continue _fun00015 }
+ 345:
             result = echoed.errorHints;
- 360:
+ 351:
             kiloes['errorHints'] = result;
             backup = output.bind(tangon)(sizing, kiloes);
- 371:
+ 362:
             foxtra[1] = backup;
             verify['children'] = foxtra;
             oscard = romeon.bind(tangon)(yankee, verify);
- 385:
+ 376:
             report[2] = oscard;
             oscard = _closure1_slot13;
             oscard = oscard.TASK_STATUS;
             oscard = option === oscard;
-            if(!oscard) { _fun00016_ip = 412; continue _fun00015 }
- 406:
+            if(!oscard) { _fun00016_ip = 403; continue _fun00015 }
+ 397:
             oscard = offset.preview;
- 412:
-            if(!oscard) { _fun00016_ip = 436; continue _fun00015 }
- 415:
+ 403:
+            if(!oscard) { _fun00016_ip = 427; continue _fun00015 }
+ 406:
             verify = _closure1_slot10;
             option = _closure1_slot19;
             golfie = {};
             golfie['quest'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 436:
+ 427:
             report[3] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
@@ -1079,7 +1134,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     var _closure1_slot19 = entity;
     entity = function(argFoo) { // Original name: MicrophoneUnit
-        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             entity = argFoo;
             echoed = entity.quest;
@@ -1098,21 +1153,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = null;
             zuuluu = entity == golfie;
             option = undefined;
-            if(zuuluu) { _fun00018_ip = 81; continue _fun00017 }
+            if(zuuluu) { _fun00020_ip = 81; continue _fun00019 }
  76:
             option = golfie.length;
  81:
             verify = entity != option;
             report = 0;
             zuuluu = 0;
-            if(!verify) { _fun00018_ip = 95; continue _fun00017 }
+            if(!verify) { _fun00020_ip = 95; continue _fun00019 }
  92:
             zuuluu = option;
  95:
             backup = zuuluu > report;
-            if(!backup) { _fun00018_ip = 106; continue _fun00017 }
+            if(!backup) { _fun00020_ip = 106; continue _fun00019 }
  102:
-            if(!(entity == golfie)) { _fun00018_ip = 198; continue _fun00017 }
+            if(!(entity == golfie)) { _fun00020_ip = 198; continue _fun00019 }
  106:
             zuuluu = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -1133,7 +1188,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = option.bind(verify)(zuuluu, entity);
             option = new Array(1);
             option[0] = entity;
-            _fun00018_ip = 243; continue _fun00017;
+            _fun00020_ip = 243; continue _fun00019;
  198:
             zuuluu = golfie.map;
             entity = function(argFoo) {
@@ -1170,7 +1225,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = offset.WarningIcon;
             offset = {};
             foxtra = 'text-warning';
-            if(!backup) { _fun00018_ip = 330; continue _fun00017 }
+            if(!backup) { _fun00020_ip = 330; continue _fun00019 }
  324:
             foxtra = 'text-danger';
  330:
@@ -1192,16 +1247,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             output = update[kiloes];
             output = sizing.bind(tangon)(output);
             result = output.intl;
-            if(backup) { _fun00018_ip = 449; continue _fun00017 }
- 415:
+            if(backup) { _fun00020_ip = 453; continue _fun00019 }
+ 419:
             output = result.string;
             backup = update[kiloes];
             backup = sizing.bind(tangon)(backup);
             backup = backup.t;
             backup = backup.YstzGB;
             backup = output.bind(result)(backup);
-            _fun00018_ip = 506; continue _fun00017;
- 449:
+            _fun00020_ip = 510; continue _fun00019;
+ 453:
             output = result.formatToPlainString;
             kiloes = update[kiloes];
             kiloes = sizing.bind(tangon)(kiloes);
@@ -1213,7 +1268,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             echoed = echoed.gameTitle;
             kiloes['gameTitle'] = echoed;
             backup = output.bind(result)(sizing, kiloes);
- 506:
+ 510:
             yankee['children'] = backup;
             yankee = foxtra.bind(tangon)(romeon, yankee);
             offset[1] = yankee;
@@ -1399,7 +1454,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = 'modules/quests/native/QuestBottomSheet/QuestBottomSheet.tsx';
     option = verify.bind(offset)(option);
     golfie = function(argFoo) { // Original name: QuestBottomSheetConnected
-        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
             entity = argFoo;
             michal = entity.questId;
@@ -1427,7 +1482,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = tangon.bind(option)(zuuluu, entity);
             entity = null;
             zuuluu = entity == option;
-            if(zuuluu) { _fun00020_ip = 190; continue _fun00019 }
+            if(zuuluu) { _fun00022_ip = 190; continue _fun00021 }
  95:
             tangon = _closure1_slot10;
             verify = _closure1_slot0;

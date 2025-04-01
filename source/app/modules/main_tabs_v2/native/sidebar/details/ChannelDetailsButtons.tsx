@@ -757,7 +757,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee['withSpring'] = result;
             yankee['opacity'] = foxtra;
             result = _closure1_slot15;
-            yankee['springChannelDetails'] = result;
+            yankee['SPRING_CHANNEL_DETAILS'] = result;
             yankee['animated'] = output;
             yankee['transitionState'] = romeon;
             sizing = entity[sizing];
@@ -775,7 +775,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee['interpolate'] = backup;
             yankee['width'] = oscard;
             golfie['__closure'] = yankee;
-            yankee = 10441983518603.0;
+            yankee = 6692494091051.0;
             golfie['__workletHash'] = yankee;
             yankee = _closure1_slot22;
             golfie['__initData'] = yankee;
@@ -880,7 +880,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot13 = offset;
     offset = tangon.ChannelDetailsNavigatorScreens;
     var _closure1_slot14 = offset;
-    tangon = tangon.springChannelDetails;
+    tangon = tangon.SPRING_CHANNEL_DETAILS;
     var _closure1_slot15 = tangon;
     tangon = 7;
     tangon = oscard[tangon];
@@ -941,7 +941,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = option;
     var _closure1_slot21 = tangon;
     tangon = {};
-    option = "function ChannelDetailsButtonsTsx3(){const{withSpring,opacity,springChannelDetails,animated,transitionState,TransitionStates,runOnJS,cleanUp,interpolate,width}=this.__closure;return{opacity:withSpring(opacity.get(),springChannelDetails,animated?'respect-motion-settings':'animate-never',function(finished){if(finished&&transitionState===TransitionStates.YEETED){runOnJS(cleanUp)();}}),width:withSpring(interpolate(opacity.get(),[0,1],[0,width]),springChannelDetails,animated?'respect-motion-settings':'animate-never'),position:opacity.get()===1?'relative':'absolute'};}";
+    option = "function ChannelDetailsButtonsTsx3(){const{withSpring,opacity,SPRING_CHANNEL_DETAILS,animated,transitionState,TransitionStates,runOnJS,cleanUp,interpolate,width}=this.__closure;return{opacity:withSpring(opacity.get(),SPRING_CHANNEL_DETAILS,animated?'respect-motion-settings':'animate-never',function(finished){if(finished&&transitionState===TransitionStates.YEETED){runOnJS(cleanUp)();}}),width:withSpring(interpolate(opacity.get(),[0,1],[0,width]),SPRING_CHANNEL_DETAILS,animated?'respect-motion-settings':'animate-never'),position:opacity.get()===1?'relative':'absolute'};}";
     tangon['code'] = option;
     var _closure1_slot22 = tangon;
     tangon = {};
@@ -955,7 +955,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['SEARCH'] = option;
     var _closure1_slot24 = tangon;
     tangon = {};
-    option = "function ChannelDetailsButtonsTsx5(){const{withSpring,activeState,CHANNEL_DETAILS_SEARCH_HEIGHT,BUTTON_DEFAULT_HEIGHT,springChannelDetails,animated}=this.__closure;return{minHeight:withSpring(activeState?CHANNEL_DETAILS_SEARCH_HEIGHT:BUTTON_DEFAULT_HEIGHT,springChannelDetails,animated?'respect-motion-settings':'animate-never')};}";
+    option = "function ChannelDetailsButtonsTsx5(){const{withSpring,activeState,CHANNEL_DETAILS_SEARCH_HEIGHT,BUTTON_DEFAULT_HEIGHT,SPRING_CHANNEL_DETAILS,animated}=this.__closure;return{minHeight:withSpring(activeState?CHANNEL_DETAILS_SEARCH_HEIGHT:BUTTON_DEFAULT_HEIGHT,SPRING_CHANNEL_DETAILS,animated?'respect-motion-settings':'animate-never')};}";
     tangon['code'] = option;
     var _closure1_slot25 = tangon;
     tangon = golfie.forwardRef;
@@ -1176,10 +1176,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         kiloes = _closure1_slot11;
         foxtra['BUTTON_DEFAULT_HEIGHT'] = kiloes;
         kiloes = _closure1_slot15;
-        foxtra['springChannelDetails'] = kiloes;
+        foxtra['SPRING_CHANNEL_DETAILS'] = kiloes;
         foxtra['animated'] = backup;
         michal['__closure'] = foxtra;
-        foxtra = 4584923337796.0;
+        foxtra = 17218558972164.0;
         michal['__workletHash'] = foxtra;
         foxtra = _closure1_slot25;
         michal['__initData'] = foxtra;

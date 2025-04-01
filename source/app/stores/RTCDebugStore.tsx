@@ -1073,7 +1073,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = tangon.filter;
             michal = function(argFoo) {
                 entity = argFoo;
-                entity = entity.connection;
                 michal = entity.context;
                 entity = _closure3_slot0;
                 entity = michal === entity;

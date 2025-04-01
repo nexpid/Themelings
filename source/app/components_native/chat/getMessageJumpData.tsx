@@ -31,11 +31,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             option = argFoo;
             golfie = argBar;
-            foxtra = argBaz;
+            romeon = argBaz;
             entity = option.messages;
             michal = entity.last;
-            backup = michal.bind(entity)();
-            oscard = foxtra.messages;
+            foxtra = michal.bind(entity)();
+            oscard = romeon.messages;
             michal = oscard.last;
             zuuluu = michal.bind(oscard)();
             tangon = _closure1_slot3;
@@ -45,8 +45,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = _closure1_slot2;
             michal = 1;
             michal = verify[michal];
-            yankee = undefined;
-            michal = tangon.bind(yankee)(michal);
+            backup = undefined;
+            michal = tangon.bind(backup)(michal);
             michal = michal.JumpTypes;
             offset = michal.ANIMATED;
             tangon = entity.jumpSequenceId;
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  121:
             if(!kiloes) { _fun00002_ip = 136; continue _fun00001 }
  124:
-            verify = foxtra.messages;
+            verify = romeon.messages;
             kiloes = verify.cached;
  136:
             if(kiloes) { _fun00002_ip = 155; continue _fun00001 }
@@ -83,16 +83,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = oscard.loadingMore;
             if(oscard) { _fun00002_ip = 346; continue _fun00001 }
  209:
-            if(!(verify != backup)) { _fun00002_ip = 346; continue _fun00001 }
+            if(!(verify != foxtra)) { _fun00002_ip = 346; continue _fun00001 }
  216:
             if(!(verify != report)) { _fun00002_ip = 346; continue _fun00001 }
  223:
-            oscard = backup.author;
+            oscard = foxtra.author;
             golfie = oscard.id;
             oscard = report.id;
             if(!(golfie !== oscard)) { _fun00002_ip = 277; continue _fun00001 }
  243:
-            golfie = backup.interaction;
+            golfie = foxtra.interaction;
             sizing = verify == golfie;
             oscard = undefined;
             if(sizing) { _fun00002_ip = 268; continue _fun00001 }
@@ -109,16 +109,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = _closure1_slot2;
             report = 2;
             report = golfie[report];
-            golfie = oscard.bind(yankee)(report);
+            golfie = oscard.bind(backup)(report);
             oscard = golfie.compare;
             report = zuuluu.id;
-            zuuluu = backup.id;
+            zuuluu = foxtra.id;
             report = oscard.bind(golfie)(report, zuuluu);
             zuuluu = 0;
             if(!(report < zuuluu)) { _fun00002_ip = 346; continue _fun00001 }
  329:
-            golfie = backup.id;
-            oscard = undefined;
+            golfie = foxtra.id;
+            oscard = null;
             report = offset;
             zuuluu = false;
             _fun00002_ip = 532; continue _fun00001;
@@ -131,41 +131,41 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  364:
             if(!kiloes) { _fun00002_ip = 388; continue _fun00001 }
  367:
-            if(!(verify != backup)) { _fun00002_ip = 388; continue _fun00001 }
+            if(!(verify != foxtra)) { _fun00002_ip = 388; continue _fun00001 }
  371:
-            golfie = backup.id;
+            golfie = foxtra.id;
             zuuluu = false;
-            oscard = undefined;
+            oscard = null;
             report = offset;
             _fun00002_ip = 532; continue _fun00001;
  388:
-            backup = _closure1_slot0;
+            foxtra = _closure1_slot0;
             kiloes = _closure1_slot2;
-            romeon = 3;
-            romeon = kiloes[romeon];
-            backup = backup.bind(yankee)(romeon);
-            romeon = backup.isAndroid;
-            romeon = romeon.bind(backup)();
-            if(!romeon) { _fun00002_ip = 436; continue _fun00001 }
+            yankee = 3;
+            yankee = kiloes[yankee];
+            foxtra = foxtra.bind(backup)(yankee);
+            yankee = foxtra.isAndroid;
+            yankee = yankee.bind(foxtra)();
+            if(!yankee) { _fun00002_ip = 436; continue _fun00001 }
  420:
-            backup = foxtra.androidKeyboardHeight;
-            foxtra = option.androidKeyboardHeight;
-            romeon = backup < foxtra;
+            foxtra = romeon.androidKeyboardHeight;
+            romeon = option.androidKeyboardHeight;
+            yankee = foxtra < romeon;
  436:
-            if(!romeon) { _fun00002_ip = 449; continue _fun00001 }
+            if(!yankee) { _fun00002_ip = 449; continue _fun00001 }
  439:
-            foxtra = option.replyingMessageId;
-            romeon = verify != foxtra;
+            romeon = option.replyingMessageId;
+            yankee = verify != romeon;
  449:
             zuuluu = false;
-            golfie = undefined;
-            oscard = undefined;
+            golfie = null;
+            oscard = null;
             report = offset;
-            if(!romeon) { _fun00002_ip = 532; continue _fun00001 }
+            if(!yankee) { _fun00002_ip = 532; continue _fun00001 }
  461:
             golfie = option.replyingMessageId;
             zuuluu = true;
-            oscard = undefined;
+            oscard = null;
             report = offset;
             _fun00002_ip = 532; continue _fun00001;
  476:

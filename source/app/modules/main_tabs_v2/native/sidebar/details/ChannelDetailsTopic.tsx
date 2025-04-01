@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = echoed[michal];
             michal = golfie.bind(tangon)(michal);
             michal = michal.colors;
-            michal = michal.BG_BASE_SECONDARY;
+            michal = michal.BG_BASE_PRIMARY;
             michal = zuuluu.bind(report)(michal);
             var _closure2_slot1 = michal;
             golfie = _closure1_slot4;
@@ -148,9 +148,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee['withSpring'] = backup;
             yankee['expanded'] = target;
             backup = _closure1_slot9;
-            yankee['springChannelDetails'] = backup;
+            yankee['SPRING_CHANNEL_DETAILS'] = backup;
             golfie['__closure'] = yankee;
-            yankee = 229604398036.0;
+            yankee = 11932535786068.0;
             golfie['__workletHash'] = yankee;
             yankee = _closure1_slot17;
             golfie['__initData'] = yankee;
@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = echoed[offset];
             verify = foxtra.bind(tangon)(golfie);
             option = verify.useAnimatedStyle;
-            golfie = function() { // Original name: f
+            golfie = function() { // Original name: L
                 entity = {};
                 report = _closure1_slot0;
                 tangon = _closure1_slot2;
@@ -216,9 +216,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee['withSpring'] = romeon;
             yankee['gradient'] = zuuluu;
             romeon = _closure1_slot9;
-            yankee['springChannelDetails'] = romeon;
+            yankee['SPRING_CHANNEL_DETAILS'] = romeon;
             golfie['__closure'] = yankee;
-            yankee = 13036700961746.0;
+            yankee = 12423301233362.0;
             golfie['__workletHash'] = yankee;
             yankee = _closure1_slot19;
             golfie['__initData'] = yankee;
@@ -455,16 +455,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = _closure1_slot11;
             backup = {};
             backup['onPress'] = source;
+            source = 0.7;
+            backup['activeOpacity'] = source;
             vacuum = _closure1_slot11;
             ctrled = _closure1_slot5;
             source = {};
-            if(target) { _fun00002_ip = 1065; continue _fun00001 }
- 1059:
+            if(target) { _fun00002_ip = 1080; continue _fun00001 }
+ 1074:
             sequen = foxtra;
-            if(status) { _fun00002_ip = 1067; continue _fun00001 }
- 1065:
+            if(status) { _fun00002_ip = 1082; continue _fun00001 }
+ 1080:
             sequen = undefined;
- 1067:
+ 1082:
             source['pointerEvents'] = sequen;
             record = _closure1_slot11;
             config = _closure1_slot0;
@@ -475,30 +477,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = {'color': 'interactive-normal', 'variant': 'heading-sm/normal'};
             sequen['onLayout'] = sierra;
             sierra = undefined;
-            if(target) { _fun00002_ip = 1126; continue _fun00001 }
- 1122:
-            sierra = _closure1_slot8;
- 1126:
-            sequen['lineClamp'] = sierra;
-            if(target) { _fun00002_ip = 1143; continue _fun00001 }
- 1134:
-            if(!status) { _fun00002_ip = 1143; continue _fun00001 }
+            if(target) { _fun00002_ip = 1141; continue _fun00001 }
  1137:
-            sierra = _closure1_slot15;
-            _fun00002_ip = 1149; continue _fun00001;
- 1143:
-            sierra = result.expanded;
+            sierra = _closure1_slot8;
+ 1141:
+            sequen['lineClamp'] = sierra;
+            if(target) { _fun00002_ip = 1158; continue _fun00001 }
  1149:
+            if(!status) { _fun00002_ip = 1158; continue _fun00001 }
+ 1152:
+            sierra = _closure1_slot15;
+            _fun00002_ip = 1164; continue _fun00001;
+ 1158:
+            sierra = result.expanded;
+ 1164:
             status = new Array(2);
             status[0] = sierra;
             sierra = {};
             sierra['textAlign'] = limora;
             status[1] = sierra;
             sequen['style'] = status;
-            if(!target) { _fun00002_ip = 1177; continue _fun00001 }
- 1174:
+            if(!target) { _fun00002_ip = 1192; continue _fun00001 }
+ 1189:
             cntext = papara;
- 1177:
+ 1192:
             sequen['children'] = cntext;
             sequen = record.bind(tangon)(config, sequen);
             source['children'] = sequen;
@@ -706,7 +708,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     option = tangon.CHANNEL_TOPIC_LINE_CLAMP;
     var _closure1_slot8 = option;
-    tangon = tangon.springChannelDetails;
+    tangon = tangon.SPRING_CHANNEL_DETAILS;
     var _closure1_slot9 = tangon;
     tangon = 5;
     tangon = oscard[tangon];
@@ -756,7 +758,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon[verify] = option;
     var _closure1_slot16 = tangon;
     tangon = {};
-    option = 'function ChannelDetailsTopicTsx1(){const{expandedHeight,truncatedHeight,EMPTY_STYLE,withSpring,expanded,springChannelDetails}=this.__closure;const _expandedHeight=expandedHeight.get();const _truncatedHeight=truncatedHeight.get();if(_truncatedHeight==null||_expandedHeight==null)return EMPTY_STYLE;return{height:withSpring(expanded?_expandedHeight:_truncatedHeight,springChannelDetails)};}';
+    option = 'function ChannelDetailsTopicTsx1(){const{expandedHeight,truncatedHeight,EMPTY_STYLE,withSpring,expanded,SPRING_CHANNEL_DETAILS}=this.__closure;const _expandedHeight=expandedHeight.get();const _truncatedHeight=truncatedHeight.get();if(_truncatedHeight==null||_expandedHeight==null)return EMPTY_STYLE;return{height:withSpring(expanded?_expandedHeight:_truncatedHeight,SPRING_CHANNEL_DETAILS)};}';
     tangon['code'] = option;
     var _closure1_slot17 = tangon;
     tangon = {};
@@ -764,7 +766,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = option;
     var _closure1_slot18 = tangon;
     tangon = {};
-    option = 'function ChannelDetailsTopicTsx3(){const{withSpring,gradient,springChannelDetails}=this.__closure;return{opacity:withSpring(gradient.get(),springChannelDetails)};}';
+    option = 'function ChannelDetailsTopicTsx3(){const{withSpring,gradient,SPRING_CHANNEL_DETAILS}=this.__closure;return{opacity:withSpring(gradient.get(),SPRING_CHANNEL_DETAILS)};}';
     tangon['code'] = option;
     var _closure1_slot19 = tangon;
     tangon = golfie.memo;

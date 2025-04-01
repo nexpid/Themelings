@@ -557,7 +557,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['QuestBottomSheetProgressCardPlayStreamTask'] = tangon;
-    michal = function(argFoo) { // Original name: QuestBottomSheetProgressCardWatchTask
+    tangon = function(argFoo) { // Original name: QuestBottomSheetProgressCardWatchTask
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             michal = argFoo;
@@ -762,6 +762,68 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['QuestBottomSheetProgressCardWatchTask'] = michal;
+    zuuluu['QuestBottomSheetProgressCardWatchTask'] = tangon;
+    michal = function(argFoo) { // Original name: QuestBottomSheetProgressCardInGameTask
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+ 0:
+            entity = argFoo;
+            verify = entity.quest;
+            entity = _closure1_slot8;
+            tangon = undefined;
+            option = entity.bind(tangon)();
+            michal = _closure1_slot0;
+            offset = _closure1_slot2;
+            entity = 5;
+            entity = offset[entity];
+            zuuluu = michal.bind(tangon)(entity);
+            entity = zuuluu.useThirdPartyTaskDetails;
+            yankee = entity.bind(zuuluu)(verify);
+            zuuluu = _closure1_slot6;
+            entity = 11;
+            entity = offset[entity];
+            entity = michal.bind(tangon)(entity);
+            michal = entity.Card;
+            entity = {};
+            report = option.card;
+            entity['style'] = report;
+            report = 'subtle';
+            entity['border'] = report;
+            oscard = _closure1_slot4;
+            report = {};
+            option = option.content;
+            report['style'] = option;
+            option = _closure1_slot1;
+            golfie = 14;
+            golfie = offset[golfie];
+            option = option.bind(tangon)(golfie);
+            golfie = {};
+            golfie['quest'] = verify;
+            verify = 'lg';
+            golfie['size'] = verify;
+            verify = null;
+            romeon = verify == yankee;
+            offset = undefined;
+            if(romeon) { _fun00008_ip = 161; continue _fun00007 }
+ 155:
+            offset = yankee.percentComplete;
+ 161:
+            yankee = verify != offset;
+            verify = 0;
+            if(!yankee) { _fun00008_ip = 173; continue _fun00007 }
+ 170:
+            verify = offset;
+ 173:
+            golfie['progress'] = verify;
+            verify = true;
+            golfie['hasConfetti'] = verify;
+            golfie = zuuluu.bind(tangon)(option, golfie);
+            report['children'] = golfie;
+            report = zuuluu.bind(tangon)(oscard, report);
+            entity['children'] = report;
+            entity = zuuluu.bind(tangon)(michal, entity);
+            return entity;
+        }
+    };
+    zuuluu['QuestBottomSheetProgressCardInGameTask'] = michal;
     return entity;
 })();

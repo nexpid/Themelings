@@ -14,7 +14,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         var _closure2_slot0 = offset;
         option = michal.bannerHeight;
         var _closure2_slot1 = option;
-        michal = _closure1_slot18;
+        michal = _closure1_slot19;
         tangon = undefined;
         yankee = michal.bind(tangon)();
         zuuluu = _closure1_slot0;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal['__closure'] = backup;
         backup = 6302330113586.0;
         michal['__workletHash'] = backup;
-        backup = _closure1_slot19;
+        backup = _closure1_slot20;
         michal['__initData'] = backup;
         golfie = oscard.bind(golfie)(michal);
         michal = foxtra[report];
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity['__closure'] = oscard;
         oscard = 16710117141903.0;
         entity['__workletHash'] = oscard;
-        oscard = _closure1_slot20;
+        oscard = _closure1_slot21;
         entity['__initData'] = oscard;
         option = michal.bind(zuuluu)(entity);
         zuuluu = _closure1_slot14;
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot23 = entity;
+    var _closure1_slot24 = entity;
     entity = function(argFoo) { // Original name: ReanimatedGuildBanner
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -273,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = source[romeon];
             sizing = ctrled.bind(report)(yankee);
             kiloes = sizing.useAnimatedStyle;
-            yankee = function() { // Original name: _
+            yankee = function() { // Original name: p
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     michal = _closure2_slot1;
@@ -353,7 +353,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee['__closure'] = output;
             output = 16532496584630.0;
             yankee['__workletHash'] = output;
-            output = _closure1_slot21;
+            output = _closure1_slot22;
             yankee['__initData'] = output;
             result = kiloes.bind(sizing)(yankee);
             yankee = source[romeon];
@@ -386,7 +386,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee['__closure'] = output;
             output = 13777976622560.0;
             yankee['__workletHash'] = output;
-            output = _closure1_slot22;
+            output = _closure1_slot23;
             yankee['__initData'] = output;
             yankee = kiloes.bind(sizing)(yankee);
             output = _closure1_slot3;
@@ -502,7 +502,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot24 = entity;
+    var _closure1_slot25 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -617,29 +617,57 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     report = verify.bind(offset)(report);
     var _closure1_slot17 = report;
+    report = golfie[tangon];
+    offset = oscard.bind(entity)(report);
+    verify = offset.experimental_createToken;
+    report = function(argFoo) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+ 0:
+            entity = argFoo;
+            michal = entity.gradient;
+            entity = null;
+            if(!(entity == michal)) { _fun00008_ip = 53; continue _fun00007 }
+ 15:
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
+            entity = 17;
+            michal = michal[entity];
+            entity = undefined;
+            entity = zuuluu.bind(entity)(michal);
+            entity = entity.colors;
+            entity = entity.PANEL_BG;
+            _fun00008_ip = 89; continue _fun00007;
+ 53:
+            tangon = _closure1_slot1;
+            zuuluu = _closure1_slot2;
+            michal = 17;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            michal = tangon.bind(michal)(zuuluu);
+            michal = michal.colors;
+            entity = michal.BG_BASE_PRIMARY;
+ 89:
+            return entity;
+        }
+    };
+    report = verify.bind(offset)(report);
+    var _closure1_slot18 = report;
     tangon = golfie[tangon];
     verify = oscard.bind(entity)(tangon);
     report = verify.createStyles;
     tangon = function() {
         entity = {};
         michal = {};
-        report = _closure1_slot1;
-        tangon = _closure1_slot2;
-        zuuluu = 17;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        zuuluu = report.bind(zuuluu)(tangon);
-        zuuluu = zuuluu.colors;
-        zuuluu = zuuluu.PANEL_BG;
+        zuuluu = _closure1_slot18;
         michal['backgroundColor'] = zuuluu;
         entity['headerWrapper'] = michal;
         return entity;
     };
     tangon = report.bind(verify)(tangon);
-    var _closure1_slot18 = tangon;
+    var _closure1_slot19 = tangon;
     report = option.memo;
     tangon = function(argFoo) { // Original name: RedesignGuildHeader
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             michal = argFoo;
             kiloes = michal.guild;
@@ -663,12 +691,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = null;
             oscard = sizing == zuuluu;
             michal = undefined;
-            if(oscard) { _fun00008_ip = 107; continue _fun00007 }
+            if(oscard) { _fun00010_ip = 107; continue _fun00009 }
  101:
             michal = zuuluu.shouldShowSubscribeTooltip;
  107:
             option = sizing != michal;
-            if(!option) { _fun00008_ip = 117; continue _fun00007 }
+            if(!option) { _fun00010_ip = 117; continue _fun00009 }
  114:
             option = michal;
  117:
@@ -680,10 +708,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal[0] = verify;
             michal[1] = option;
             entity = function() {
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     michal = _closure2_slot1;
-                    if(!michal) { _fun00010_ip = 78; continue _fun00009 }
+                    if(!michal) { _fun00012_ip = 78; continue _fun00011 }
  10:
                     oscard = _closure1_slot0;
                     golfie = _closure1_slot2;
@@ -714,7 +742,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = true;
             entity['preventClipping'] = report;
             verify = _closure1_slot13;
-            oscard = _closure1_slot24;
+            oscard = _closure1_slot25;
             report = {};
             report['guild'] = kiloes;
             report['scrollPosition'] = yankee;
@@ -725,14 +753,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = new Array(3);
             report[0] = oscard;
             output = _closure1_slot13;
-            verify = _closure1_slot23;
+            verify = _closure1_slot24;
             oscard = {};
             oscard['guild'] = kiloes;
             oscard['scrollPosition'] = yankee;
             foxtra = kiloes.banner;
             echoed = sizing != foxtra;
             result = 0;
-            if(!echoed) { _fun00008_ip = 271; continue _fun00007 }
+            if(!echoed) { _fun00010_ip = 271; continue _fun00009 }
  268:
             result = backup;
  271:
@@ -740,7 +768,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = output.bind(tangon)(verify, oscard);
             report[1] = oscard;
             oscard = null;
-            if(!option) { _fun00008_ip = 361; continue _fun00007 }
+            if(!option) { _fun00010_ip = 361; continue _fun00009 }
  291:
             verify = _closure1_slot13;
             option = _closure1_slot1;
@@ -752,7 +780,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.banner;
             kiloes = sizing != kiloes;
             foxtra = 0;
-            if(!kiloes) { _fun00008_ip = 335; continue _fun00007 }
+            if(!kiloes) { _fun00010_ip = 335; continue _fun00009 }
  332:
             foxtra = backup;
  335:
@@ -772,19 +800,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = {};
     option = 'function RedesignGuildHeaderTsx1(){const{scrollPosition,bannerHeight}=this.__closure;return{transform:[{translateY:Math.max(0,scrollPosition.get()-bannerHeight)}]};}';
     report['code'] = option;
-    var _closure1_slot19 = report;
+    var _closure1_slot20 = report;
     report = {};
     option = 'function RedesignGuildHeaderTsx2(){const{scrollPosition,bannerHeight}=this.__closure;return{transform:[{translateY:Math.min(0,scrollPosition.get()-bannerHeight)}]};}';
     report['code'] = option;
-    var _closure1_slot20 = report;
+    var _closure1_slot21 = report;
     report = {};
     option = "function RedesignGuildHeaderTsx3(){const{scrollPosition,interpolate,maxScrollPosition,bannerHeight}=this.__closure;const scrollPosValue=scrollPosition.get();return{opacity:interpolate(scrollPosValue,[0,maxScrollPosition],[1,0],'clamp'),transform:[{translateY:scrollPosValue>=0?interpolate(-scrollPosValue,[0,bannerHeight],[0,-bannerHeight],'clamp'):scrollPosValue/2},{scale:scrollPosValue>=0?1:(bannerHeight-scrollPosValue)/bannerHeight}]};}";
     report['code'] = option;
-    var _closure1_slot21 = report;
+    var _closure1_slot22 = report;
     report = {};
     option = 'function RedesignGuildHeaderTsx4(){const{interpolate,pressed}=this.__closure;return{opacity:interpolate(pressed.get(),[0,1],[0,0.3])};}';
     report['code'] = option;
-    var _closure1_slot22 = report;
+    var _closure1_slot23 = report;
     report = 31;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
@@ -793,7 +821,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = oscard.bind(golfie)(report);
     zuuluu['default'] = tangon;
     michal = function(argFoo) { // Original name: useRedesignGuildHeaderHeight
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             report = _closure1_slot1;
             oscard = _closure1_slot2;
@@ -806,7 +834,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = oscard[tangon];
             tangon = report.bind(zuuluu)(tangon);
             report = tangon.bind(zuuluu)();
-            if(option) { _fun00012_ip = 79; continue _fun00011 }
+            if(option) { _fun00014_ip = 79; continue _fun00013 }
  48:
             tangon = _closure1_slot0;
             oscard = _closure1_slot2;
@@ -839,12 +867,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon.lineHeight;
             oscard = tangon * report;
             tangon = 0;
-            if(!option) { _fun00012_ip = 181; continue _fun00011 }
+            if(!option) { _fun00014_ip = 181; continue _fun00013 }
  178:
             tangon = 1;
  181:
             golfie = 0;
-            if(!michal) { _fun00012_ip = 225; continue _fun00011 }
+            if(!michal) { _fun00014_ip = 225; continue _fun00013 }
  186:
             option = _closure1_slot0;
             michal = _closure1_slot2;

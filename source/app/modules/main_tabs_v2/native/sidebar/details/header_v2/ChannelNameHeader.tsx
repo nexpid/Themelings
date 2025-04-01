@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = foxtra[offset];
             offset = romeon.bind(report)(offset);
             offset = offset.AvatarSizes;
-            offset = offset.REFRESH_MEDIUM_32;
+            offset = offset.NORMAL;
             michal['size'] = offset;
             if(!(option != yankee)) { _fun00002_ip = 248; continue _fun00001 }
  233:
@@ -177,9 +177,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = report.bind(entity)(tangon);
     option = verify.createStyles;
     tangon = {};
-    offset = {};
-    yankee = 'row';
-    offset['flexDirection'] = yankee;
+    offset = {'flexDirection': 'row', 'gap': null, 'alignItems': 'center'};
     yankee = 9;
     backup = oscard[yankee];
     backup = romeon.bind(entity)(backup);
@@ -187,14 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     backup = backup.PX_12;
     offset['gap'] = backup;
     tangon['container'] = offset;
-    offset = {};
-    backup = oscard[yankee];
-    backup = romeon.bind(entity)(backup);
-    backup = backup.spacing;
-    backup = backup.PX_8;
-    offset['padding'] = backup;
-    backup = 'center';
-    offset['justifyContent'] = backup;
+    offset = {'height': 40, 'width': 40, 'justifyContent': 'center', 'alignItems': 'center'};
     tangon['channelIcon'] = offset;
     offset = {};
     backup = oscard[yankee];
@@ -203,18 +194,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     backup = backup.md;
     offset['borderRadius'] = backup;
     offset['borderWidth'] = foxtra;
-    foxtra = oscard[yankee];
-    foxtra = romeon.bind(entity)(foxtra);
-    foxtra = foxtra.colors;
-    foxtra = foxtra.BORDER_SUBTLE;
-    offset['borderColor'] = foxtra;
-    foxtra = oscard[yankee];
-    foxtra = romeon.bind(entity)(foxtra);
-    foxtra = foxtra.colors;
-    foxtra = foxtra.BG_MOD_FAINT;
-    offset['backgroundColor'] = foxtra;
+    backup = oscard[yankee];
+    backup = romeon.bind(entity)(backup);
+    backup = backup.colors;
+    backup = backup.BORDER_SUBTLE;
+    offset['borderColor'] = backup;
+    backup = oscard[yankee];
+    backup = romeon.bind(entity)(backup);
+    backup = backup.colors;
+    backup = backup.BG_MOD_FAINT;
+    offset['backgroundColor'] = backup;
     tangon['channelTypeBox'] = offset;
-    offset = {'flex': 1, 'gap': 2};
+    offset = {};
+    offset['flex'] = foxtra;
     tangon['channelData'] = offset;
     offset = {};
     yankee = oscard[yankee];
@@ -610,7 +602,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = romeon[golfie];
         golfie = verify.bind(tangon)(golfie);
         verify = golfie.Text;
-        golfie = {'variant': 'heading-lg/semibold', 'color': 'header-primary', 'lineClamp': 1, 'ellipsizeMode': 'tail'};
+        golfie = {'variant': 'redesign/heading-18/bold', 'color': 'header-primary', 'lineClamp': 1, 'ellipsizeMode': 'tail'};
         golfie['children'] = yankee;
         verify = offset.bind(tangon)(verify, golfie);
         golfie = new Array(2);

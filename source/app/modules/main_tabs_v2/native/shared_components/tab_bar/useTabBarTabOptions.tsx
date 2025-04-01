@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
     var _closure1_slot4 = tangon;
-    tangon = 21;
+    tangon = 22;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -491,7 +491,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 entity['icymi'] = zuuluu;
-                michal = function(argFoo) { // Original name: discovery
+                zuuluu = function(argFoo) { // Original name: discovery
                     entity = argFoo;
                     entity = entity.navigation;
                     var _closure4_slot0 = entity;
@@ -549,7 +549,66 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['tabBarLabel'] = michal;
                     return entity;
                 };
-                entity['discovery'] = michal;
+                entity['discovery'] = zuuluu;
+                michal = function(argFoo) { // Original name: play
+                    entity = argFoo;
+                    entity = entity.navigation;
+                    var _closure4_slot0 = entity;
+                    entity = {};
+                    michal = function(argFoo) { // Original name: tabBarIcon
+                        tangon = _closure1_slot4;
+                        michal = _closure1_slot0;
+                        golfie = _closure1_slot2;
+                        entity = 4;
+                        entity = golfie[entity];
+                        zuuluu = undefined;
+                        entity = michal.bind(zuuluu)(entity);
+                        michal = entity.BadgableTabBarIcon;
+                        entity = {};
+                        option = argFoo;
+                        verify = entity;
+                        oscard = copyDataProperties(verify, option);
+                        oscard = _closure1_slot1;
+                        report = 21;
+                        report = golfie[report];
+                        oscard = oscard.bind(zuuluu)(report);
+                        report = 'icon';
+                        entity[report] = oscard;
+                        oscard = function() { // Original name: useBadgeCount
+                            entity = {'value': 0, 'showDot': false};
+                            return entity;
+                        };
+                        report = 'useBadgeCount';
+                        entity[report] = oscard;
+                        oscard = _closure4_slot0;
+                        report = 'navigation';
+                        entity[report] = oscard;
+                        entity = tangon.bind(zuuluu)(michal, entity);
+                        return entity;
+                    };
+                    entity['tabBarIcon'] = michal;
+                    option = _closure1_slot0;
+                    verify = _closure1_slot2;
+                    michal = 9;
+                    michal = verify[michal];
+                    golfie = undefined;
+                    tangon = option.bind(golfie)(michal);
+                    zuuluu = tangon.getTabLabelRenderMethod;
+                    michal = 5;
+                    report = verify[michal];
+                    report = option.bind(golfie)(report);
+                    oscard = report.intl;
+                    report = oscard.string;
+                    michal = verify[michal];
+                    michal = option.bind(golfie)(michal);
+                    michal = michal.t;
+                    michal = michal.RscU7O;
+                    michal = report.bind(oscard)(michal);
+                    michal = zuuluu.bind(tangon)(michal);
+                    entity['tabBarLabel'] = michal;
+                    return entity;
+                };
+                entity['play'] = michal;
                 return entity;
             }
         };

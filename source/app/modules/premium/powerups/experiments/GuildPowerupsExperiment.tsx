@@ -44,55 +44,35 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = oscard.bind(golfie)(report);
     zuuluu['default'] = tangon;
     tangon = function(argFoo, argBar) { // Original name: useGuildPowerupsExperimentEnabled
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            report = argFoo;
-            tangon = _closure1_slot0;
-            zuuluu = tangon.useExperiment;
-            michal = {};
-            entity = null;
-            oscard = entity == report;
-            entity = undefined;
-            if(oscard) { _fun00002_ip = 34; continue _fun00001 }
- 29:
-            entity = report.id;
- 34:
-            michal['guildId'] = entity;
-            entity = argBar;
-            michal['location'] = entity;
-            entity = {};
-            report = false;
-            entity['autoTrackExposure'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            entity = entity.enabled;
-            return entity;
-        }
+        tangon = _closure1_slot0;
+        zuuluu = tangon.useExperiment;
+        michal = {};
+        entity = argFoo;
+        michal['guildId'] = entity;
+        entity = argBar;
+        michal['location'] = entity;
+        entity = {};
+        report = false;
+        entity['autoTrackExposure'] = report;
+        entity = zuuluu.bind(tangon)(michal, entity);
+        entity = entity.enabled;
+        return entity;
     };
     zuuluu['useGuildPowerupsExperimentEnabled'] = tangon;
     michal = function(argFoo, argBar) { // Original name: getGuildPowerupsExperimentEnabled
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
- 0:
-            report = argFoo;
-            tangon = _closure1_slot0;
-            zuuluu = tangon.getCurrentConfig;
-            michal = {};
-            entity = null;
-            oscard = entity == report;
-            entity = undefined;
-            if(oscard) { _fun00004_ip = 34; continue _fun00003 }
- 29:
-            entity = report.id;
- 34:
-            michal['guildId'] = entity;
-            entity = argBar;
-            michal['location'] = entity;
-            entity = {};
-            report = false;
-            entity['autoTrackExposure'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            entity = entity.enabled;
-            return entity;
-        }
+        tangon = _closure1_slot0;
+        zuuluu = tangon.getCurrentConfig;
+        michal = {};
+        entity = argFoo;
+        michal['guildId'] = entity;
+        entity = argBar;
+        michal['location'] = entity;
+        entity = {};
+        report = false;
+        entity['autoTrackExposure'] = report;
+        entity = zuuluu.bind(tangon)(michal, entity);
+        entity = entity.enabled;
+        return entity;
     };
     zuuluu['getGuildPowerupsExperimentEnabled'] = michal;
     return entity;

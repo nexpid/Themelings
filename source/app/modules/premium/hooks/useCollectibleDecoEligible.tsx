@@ -45,44 +45,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: withinReactivationCooldown
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            michal = argFoo;
-            tangon = global;
-            entity = tangon.Date;
-            zuuluu = entity.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: entity}});
-            verify = zuuluu;
-            entity = new verify[entity](option);
-            zuuluu = entity instanceof Object ? entity : zuuluu;
-            report = zuuluu.setDate;
+            entity = global;
+            entity = entity.Date;
+            michal = entity.prototype;
+            michal = Object.create(michal, {constructor: {value: entity}});
+            oscard = michal;
+            entity = new oscard[entity](report);
+            zuuluu = entity instanceof Object ? entity : michal;
+            michal = zuuluu.setDate;
             entity = zuuluu.getDate;
-            oscard = entity.bind(zuuluu)();
+            tangon = entity.bind(zuuluu)();
             entity = 10;
-            entity = oscard - entity;
-            entity = report.bind(zuuluu)(entity);
-            oscard = michal.metadata;
-            report = null;
-            golfie = report == oscard;
-            entity = undefined;
-            if(golfie) { _fun00002_ip = 82; continue _fun00001 }
+            entity = tangon - entity;
+            entity = michal.bind(zuuluu)(entity);
+            entity = argFoo;
+            michal = entity.endedAt;
+            entity = null;
+            entity = entity != michal;
+            if(!entity) { _fun00002_ip = 80; continue _fun00001 }
  76:
-            entity = oscard.ended_at;
- 82:
-            if(!(report == entity)) { _fun00002_ip = 98; continue _fun00001 }
- 86:
-            entity = michal.currentPeriodEnd;
-            entity = entity >= zuuluu;
-            _fun00002_ip = 140; continue _fun00001;
- 98:
-            report = tangon.Date;
-            michal = michal.metadata;
-            option = michal.ended_at;
-            tangon = report.prototype;
-            tangon = Object.create(tangon, {constructor: {value: report}});
-            verify = tangon;
-            michal = new verify[report](option, golfie);
-            michal = michal instanceof Object ? michal : tangon;
             entity = michal >= zuuluu;
- 140:
+ 80:
             return entity;
         }
     };

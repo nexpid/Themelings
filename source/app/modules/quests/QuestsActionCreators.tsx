@@ -1646,11 +1646,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     verify = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00028_ip = 411; continue _fun00027 }
+                    if(michal) { _fun00028_ip = 472; continue _fun00027 }
  13:
                     oscard = verify;
                     michal = undefined;
-                    backup = undefined;
+                    sizing = undefined;
+                    yankee = undefined;
                     golfie = _closure1_slot1;
                     report = _closure1_slot2;
                     zuuluu = 5;
@@ -1662,7 +1663,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report['type'] = offset;
                     report['placement'] = verify;
                     report = golfie.bind(option)(report);
- 70: // try_start_0
+ 72: // try_start_0
                     golfie = _closure1_slot0;
                     option = _closure1_slot2;
                     report = 15;
@@ -1670,74 +1671,93 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = golfie.bind(michal)(report);
                     report = golfie.getSession;
                     report = report.bind(golfie)();
-                    SaveGenerator(address=104);
- 102:
-                    return report;
+                    SaveGenerator(address=106);
  104:
+                    return report;
+ 106:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(golfie) { _fun00028_ip = 320; continue _fun00027 }
- 113:
-                    backup = report;
+                    if(golfie) { _fun00028_ip = 381; continue _fun00027 }
+ 115:
+                    sizing = report;
                     option = _closure1_slot0;
                     verify = _closure1_slot2;
-                    golfie = 4;
+                    golfie = 16;
                     golfie = verify[golfie];
-                    golfie = option.bind(michal)(golfie);
-                    verify = golfie.HTTP;
-                    option = verify.get;
-                    golfie = {};
-                    foxtra = _closure1_slot7;
-                    romeon = foxtra.QUEST_FETCH_QUEST_TO_DELIVER;
-                    yankee = oscard;
-                    offset = null;
-                    kiloes = offset == report;
-                    offset = undefined;
-                    if(kiloes) { _fun00028_ip = 178; continue _fun00027 }
- 172:
-                    offset = backup.uuid;
- 178:
-                    offset = romeon.bind(foxtra)(yankee, offset);
-                    golfie['url'] = offset;
-                    offset = false;
-                    golfie['rejectWithError'] = offset;
-                    golfie = option.bind(verify)(golfie);
-                    SaveGenerator(address=203);
- 201:
+                    option = option.bind(michal)(golfie);
+                    golfie = option.getOrRefreshAdSession;
+                    golfie = golfie.bind(option)();
+                    SaveGenerator(address=152);
+ 150:
                     return golfie;
- 203:
+ 152:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(option) { _fun00028_ip = 317; continue _fun00027 }
- 209:
-                    verify = _closure1_slot1;
-                    foxtra = _closure1_slot2;
-                    option = foxtra[zuuluu];
-                    offset = verify.bind(michal)(option);
-                    verify = offset.dispatch;
+                    if(option) { _fun00028_ip = 378; continue _fun00027 }
+ 161:
+                    yankee = golfie;
+                    verify = _closure1_slot0;
+                    offset = _closure1_slot2;
+                    option = 4;
+                    option = offset[option];
+                    option = verify.bind(michal)(option);
+                    offset = option.HTTP;
+                    verify = offset.get;
                     option = {};
-                    yankee = 'QUESTS_FETCH_QUEST_TO_DELIVER_SUCCESS';
-                    option['type'] = yankee;
-                    yankee = golfie.body;
-                    yankee = yankee.request_id;
-                    option['decisionId'] = yankee;
-                    romeon = _closure1_slot0;
-                    yankee = 10;
-                    yankee = foxtra[yankee];
-                    foxtra = romeon.bind(michal)(yankee);
-                    romeon = foxtra.questConfigFromServer;
-                    yankee = golfie.body;
-                    yankee = yankee.quest;
-                    yankee = romeon.bind(foxtra)(yankee);
-                    option['quest'] = yankee;
-                    yankee = oscard;
-                    option['placement'] = yankee;
+                    kiloes = _closure1_slot7;
+                    backup = kiloes.QUEST_FETCH_QUEST_TO_DELIVER;
+                    foxtra = oscard;
+                    output = sizing;
+                    romeon = null;
+                    output = romeon == output;
+                    romeon = undefined;
+                    if(output) { _fun00028_ip = 229; continue _fun00027 }
+ 223:
+                    romeon = sizing.uuid;
+ 229:
+                    yankee = yankee.uuid;
+                    yankee = backup.bind(kiloes)(foxtra, romeon, yankee);
+                    option['url'] = yankee;
+                    yankee = false;
+                    option['rejectWithError'] = yankee;
                     option = verify.bind(offset)(option);
- 315: // try_end0
-                    _fun00028_ip = 408; continue _fun00027;
- 317:
+                    SaveGenerator(address=261);
+ 259:
+                    return option;
+ 261:
+                    ResumeGenerator(result_out_reg=7, return_bool_out_reg=8);
+                    if(verify) { _fun00028_ip = 375; continue _fun00027 }
+ 267:
+                    offset = _closure1_slot1;
+                    backup = _closure1_slot2;
+                    verify = backup[zuuluu];
+                    yankee = offset.bind(michal)(verify);
+                    offset = yankee.dispatch;
+                    verify = {};
+                    romeon = 'QUESTS_FETCH_QUEST_TO_DELIVER_SUCCESS';
+                    verify['type'] = romeon;
+                    romeon = option.body;
+                    romeon = romeon.request_id;
+                    verify['decisionId'] = romeon;
+                    foxtra = _closure1_slot0;
+                    romeon = 10;
+                    romeon = backup[romeon];
+                    backup = foxtra.bind(michal)(romeon);
+                    foxtra = backup.questConfigFromServer;
+                    romeon = option.body;
+                    romeon = romeon.quest;
+                    romeon = foxtra.bind(backup)(romeon);
+                    verify['quest'] = romeon;
+                    romeon = oscard;
+                    verify['placement'] = romeon;
+                    verify = offset.bind(yankee)(verify);
+ 373: // try_end0
+                    _fun00028_ip = 469; continue _fun00027;
+ 375:
+                    return option;
+ 378:
                     return golfie;
- 320:
+ 381:
                     return report;
- 323: // catch_target0
+ 384: // catch_target0
                     CatchBlockStart(arg_register=8);
                     option = _closure1_slot1;
                     offset = _closure1_slot2;
@@ -1752,16 +1772,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = option.bind(michal)(golfie);
                     option = golfie.prototype;
                     option = Object.create(option, {constructor: {value: golfie}});
-                    result = option;
-                    output = verify;
-                    golfie = new result[golfie](output, sizing);
+                    source = option;
+                    update = verify;
+                    golfie = new source[golfie](update, echoed);
                     golfie = golfie instanceof Object ? golfie : option;
                     zuuluu['error'] = golfie;
                     zuuluu['placement'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
- 408:
+ 469:
                     return michal;
- 411:
+ 472:
                     return entity;
                 }
             };
@@ -1884,7 +1904,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = undefined;
                     offset = _closure1_slot0;
                     yankee = _closure1_slot2;
-                    zuuluu = 16;
+                    zuuluu = 17;
                     tangon = yankee[zuuluu];
                     report = offset.bind(michal)(tangon);
                     tangon = report.resolveVideoQuestAsset;
@@ -2088,7 +2108,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot7 = tangon;
     tangon = 5;
     var _closure1_slot8 = tangon;
-    tangon = 17;
+    tangon = 18;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

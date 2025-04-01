@@ -1207,29 +1207,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     yankee = function() { // Original name: getActiveErrors
         _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
  0:
-            michal = _closure1_slot11;
-            entity = michal.getConnectionStats;
-            tangon = entity.bind(michal)();
-            michal = tangon.find;
-            entity = function(argFoo) {
-                entity = argFoo;
-                entity = entity.connection;
-                michal = entity.context;
-                entity = _closure1_slot25;
-                entity = entity.DEFAULT;
-                entity = michal === entity;
-                return entity;
-            };
-            oscard = michal.bind(tangon)(entity);
+            zuuluu = _closure1_slot11;
+            michal = zuuluu.getFirstConnectionStatsByContext;
+            entity = _closure1_slot25;
+            entity = entity.DEFAULT;
+            zuuluu = michal.bind(zuuluu)(entity);
             entity = null;
-            golfie = entity == oscard;
+            oscard = entity == zuuluu;
             tangon = undefined;
             michal = undefined;
-            if(golfie) { _fun00044_ip = 99; continue _fun00043 }
- 49:
-            oscard = oscard.stats;
-            oscard = oscard.rtp;
-            golfie = oscard.outbound;
+            if(oscard) { _fun00044_ip = 93; continue _fun00043 }
+ 41:
+            zuuluu = zuuluu.stats;
+            zuuluu = zuuluu.rtp;
+            golfie = zuuluu.outbound;
             oscard = golfie.find;
             zuuluu = function(argFoo) {
                 entity = argFoo;
@@ -1241,25 +1232,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = oscard.bind(golfie)(zuuluu);
             oscard = entity == zuuluu;
             michal = undefined;
-            if(oscard) { _fun00044_ip = 99; continue _fun00043 }
- 93:
+            if(oscard) { _fun00044_ip = 93; continue _fun00043 }
+ 87:
             michal = zuuluu.sampleRateMismatchPercent;
- 99:
+ 93:
             zuuluu = entity != michal;
             entity = 0;
-            if(!zuuluu) { _fun00044_ip = 111; continue _fun00043 }
- 108:
+            if(!zuuluu) { _fun00044_ip = 105; continue _fun00043 }
+ 102:
             entity = michal;
- 111:
+ 105:
             michal = global;
             zuuluu = michal.Math;
             michal = zuuluu.abs;
             zuuluu = michal.bind(zuuluu)(entity);
             michal = 30;
-            if(!(!(zuuluu > michal))) { _fun00044_ip = 139; continue _fun00043 }
- 137:
+            if(!(!(zuuluu > michal))) { _fun00044_ip = 133; continue _fun00043 }
+ 131:
             return tangon;
- 139:
+ 133:
             michal = {};
             zuuluu = _closure1_slot0;
             report = _closure1_slot2;

@@ -88,64 +88,89 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = entity.quests;
                     michal = zuuluu.forEach;
                     entity = function(argFoo) {
-                        option = argFoo;
-                        zuuluu = _closure1_slot0;
-                        tangon = _closure1_slot2;
-                        entity = 5;
-                        michal = tangon[entity];
-                        entity = undefined;
-                        report = zuuluu.bind(entity)(michal);
-                        michal = report.getQuestLogger;
-                        yankee = michal.bind(report)();
-                        offset = yankee.info;
-                        michal = option.config;
-                        michal = michal.messages;
-                        sizing = michal.questName;
-                        report = _closure3_slot0;
-                        echoed = report.minViewTimeSeconds;
-                        michal = 6;
-                        golfie = tangon[michal];
-                        romeon = zuuluu.bind(entity)(golfie);
-                        verify = romeon.getQuestContentName;
-                        golfie = report.questContent;
-                        output = verify.bind(romeon)(golfie);
-                        golfie = global;
-                        golfie = golfie.HermesInternal;
-                        foxtra = golfie.concat;
-                        ctrled = '';
-                        update = ' Quest viewed for at least ';
-                        result = 's at ';
-                        source = sizing;
-                        verify = ctrled[foxtra](source, update, echoed, result, output, sizing);
-                        golfie = {};
-                        romeon = report.id;
-                        golfie['impressionId'] = romeon;
-                        golfie = offset.bind(yankee)(verify, golfie);
-                        michal = tangon[michal];
-                        tangon = zuuluu.bind(entity)(michal);
-                        zuuluu = tangon.trackQuestEvent;
-                        michal = {};
-                        golfie = option.id;
-                        michal['questId'] = golfie;
-                        oscard = _closure1_slot6;
-                        oscard = oscard.QUEST_CONTENT_VIEWED;
-                        michal['event'] = oscard;
-                        oscard = {};
-                        golfie = report.minViewTimeSeconds;
-                        oscard['min_view_time_seconds'] = golfie;
-                        golfie = report.minViewportPercentage;
-                        oscard['min_viewport_percentage'] = golfie;
-                        golfie = report.triggeredByStatusChange;
-                        oscard['triggered_by_status_change'] = golfie;
-                        golfie = report.commonProperties;
-                        update = golfie.bind(report)(option);
-                        source = oscard;
-                        golfie = copyDataProperties(source, update);
-                        michal['properties'] = oscard;
-                        report = report.trackGuildAndChannelMetadata;
-                        michal['trackGuildAndChannelMetadata'] = report;
-                        michal = zuuluu.bind(tangon)(michal);
-                        return entity;
+                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+                            romeon = argFoo;
+                            offset = _closure1_slot0;
+                            option = _closure1_slot2;
+                            entity = 5;
+                            michal = option[entity];
+                            entity = undefined;
+                            zuuluu = offset.bind(entity)(michal);
+                            michal = zuuluu.getQuestLogger;
+                            yankee = michal.bind(zuuluu)();
+                            verify = yankee.info;
+                            michal = romeon.config;
+                            michal = michal.messages;
+                            output = michal.questName;
+                            report = _closure3_slot0;
+                            update = report.minViewTimeSeconds;
+                            michal = 6;
+                            zuuluu = option[michal];
+                            foxtra = offset.bind(entity)(zuuluu);
+                            tangon = foxtra.getQuestContentName;
+                            zuuluu = report.questContent;
+                            result = tangon.bind(foxtra)(zuuluu);
+                            zuuluu = global;
+                            zuuluu = zuuluu.HermesInternal;
+                            backup = zuuluu.concat;
+                            vacuum = '';
+                            source = ' Quest viewed for at least ';
+                            echoed = 's at ';
+                            ctrled = output;
+                            tangon = vacuum[backup](ctrled, source, update, echoed, result, output);
+                            zuuluu = {};
+                            foxtra = report.id;
+                            zuuluu['impressionId'] = foxtra;
+                            zuuluu = verify.bind(yankee)(tangon, zuuluu);
+                            michal = option[michal];
+                            tangon = offset.bind(entity)(michal);
+                            zuuluu = tangon.trackQuestEvent;
+                            michal = {};
+                            verify = romeon.id;
+                            michal['questId'] = verify;
+                            verify = _closure1_slot6;
+                            verify = verify.QUEST_CONTENT_VIEWED;
+                            michal['event'] = verify;
+                            verify = {};
+                            yankee = report.minViewTimeSeconds;
+                            verify['min_view_time_seconds'] = yankee;
+                            yankee = report.minViewportPercentage;
+                            verify['min_viewport_percentage'] = yankee;
+                            yankee = report.triggeredByStatusChange;
+                            verify['triggered_by_status_change'] = yankee;
+                            yankee = report.commonProperties;
+                            source = yankee.bind(report)(romeon);
+                            ctrled = verify;
+                            yankee = copyDataProperties(ctrled, source);
+                            michal['properties'] = verify;
+                            verify = report.trackGuildAndChannelMetadata;
+                            michal['trackGuildAndChannelMetadata'] = verify;
+                            verify = 7;
+                            option = option[verify];
+                            option = offset.bind(entity)(option);
+                            option = option.QuestContentSets;
+                            offset = option.DESKTOP_DELIVERY;
+                            option = offset.has;
+                            report = report.questContent;
+                            report = option.bind(offset)(report);
+                            if(report) { _fun00006_ip = 364; continue _fun00005 }
+ 315:
+                            option = _closure1_slot0;
+                            golfie = _closure1_slot2;
+                            golfie = golfie[verify];
+                            golfie = option.bind(entity)(golfie);
+                            golfie = golfie.QuestContentSets;
+                            option = golfie.MOBILE_DELIVERY;
+                            golfie = option.has;
+                            oscard = _closure3_slot0;
+                            oscard = oscard.questContent;
+                            report = golfie.bind(option)(oscard);
+ 364:
+                            michal['shouldExtendSession'] = report;
+                            michal = zuuluu.bind(tangon)(michal);
+                            return entity;
+                        }
                     };
                     entity = michal.bind(zuuluu)(entity);
                     entity = undefined;
@@ -153,11 +178,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 zuuluu['onMinViewTimeReached'] = foxtra;
                 foxtra = function() {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                         zuuluu = arguments[0];
                         entity = undefined;
-                        if(!(zuuluu === entity)) { _fun00006_ip = 13; continue _fun00005 }
+                        if(!(zuuluu === entity)) { _fun00008_ip = 13; continue _fun00007 }
  11:
                         zuuluu = false;
  13:
@@ -166,13 +191,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = zuuluu.quests;
                         tangon = report.forEach;
                         michal = function(argFoo) {
-                            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                                 golfie = argFoo;
                                 entity = _closure3_slot0;
                                 michal = entity.lastBeatTime;
                                 entity = null;
-                                if(!(entity != michal)) { _fun00008_ip = 343; continue _fun00007 }
+                                if(!(entity != michal)) { _fun00010_ip = 343; continue _fun00009 }
  25:
                                 entity = global;
                                 report = entity.Math;
@@ -199,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 michal = _closure4_slot0;
                                 backup = '';
                                 foxtra = backup;
-                                if(!michal) { _fun00008_ip = 153; continue _fun00007 }
+                                if(!michal) { _fun00010_ip = 153; continue _fun00009 }
  147:
                                 foxtra = 'terminal ';
  153:
@@ -319,7 +344,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 zuuluu['clone'] = foxtra;
                 foxtra = function() {
-                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+                    _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                         zuuluu = _closure3_slot0;
                         report = zuuluu.stop;
@@ -407,24 +432,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = zuuluu.bind(tangon)(entity);
                         tangon = _closure1_slot0;
                         zuuluu = _closure1_slot2;
-                        entity = 7;
+                        entity = 8;
                         zuuluu = zuuluu[entity];
                         entity = undefined;
                         report = tangon.bind(entity)(zuuluu);
                         tangon = report.isEligibleForQuestsClientMonitoring;
                         zuuluu = 'QuestImpressionTracker';
                         zuuluu = tangon.bind(report)(zuuluu);
-                        if(!zuuluu) { _fun00010_ip = 331; continue _fun00009 }
+                        if(!zuuluu) { _fun00012_ip = 331; continue _fun00011 }
  198:
                         tangon = _closure1_slot1;
                         verify = _closure1_slot2;
-                        zuuluu = 8;
+                        zuuluu = 9;
                         zuuluu = verify[zuuluu];
                         report = tangon.bind(entity)(zuuluu);
                         tangon = report.increment;
                         zuuluu = {};
                         option = _closure1_slot0;
-                        golfie = 9;
+                        golfie = 10;
                         golfie = verify[golfie];
                         golfie = option.bind(entity)(golfie);
                         golfie = golfie.MetricEvents;
@@ -454,15 +479,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 zuuluu['start'] = foxtra;
                 romeon = function() {
-                    _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+                    _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                         michal = arguments[0];
                         entity = undefined;
-                        if(!(michal === entity)) { _fun00012_ip = 11; continue _fun00011 }
+                        if(!(michal === entity)) { _fun00014_ip = 11; continue _fun00013 }
  9:
                         michal = true;
  11:
-                        if(!michal) { _fun00012_ip = 34; continue _fun00011 }
+                        if(!michal) { _fun00014_ip = 34; continue _fun00013 }
  14:
                         tangon = _closure3_slot0;
                         zuuluu = tangon.beat;
@@ -486,7 +511,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu['stop'] = romeon;
                 romeon = _closure1_slot0;
                 foxtra = _closure1_slot2;
-                yankee = 10;
+                yankee = 11;
                 yankee = foxtra[yankee];
                 romeon = romeon.bind(entity)(yankee);
                 yankee = romeon.v4;
@@ -547,7 +572,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = verify.createContext;
     oscard = oscard.bind(verify)(entity);
     var _closure1_slot9 = oscard;
-    oscard = 14;
+    oscard = 15;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
     golfie = option.fileFinishedImporting;
@@ -557,17 +582,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     zuuluu['MIN_QUEST_CONTENT_VISIBILITY_PERCENTAGE'] = oscard;
     zuuluu['QuestContentImpression'] = report;
     report = function(argFoo, argBar) {
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             zuuluu = argFoo;
             entity = global;
             tangon = entity.Array;
             michal = tangon.isArray;
             michal = michal.bind(tangon)(zuuluu);
-            if(michal) { _fun00014_ip = 31; continue _fun00013 }
+            if(michal) { _fun00016_ip = 31; continue _fun00015 }
  24:
             report = zuuluu.id;
-            _fun00014_ip = 74; continue _fun00013;
+            _fun00016_ip = 74; continue _fun00015;
  31:
             michal = zuuluu.sort;
             tangon = michal.bind(zuuluu)();
@@ -594,14 +619,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     zuuluu['getQuestContentImpressionTrackerKey'] = report;
     zuuluu['useQuestImpression'] = tangon;
     tangon = function() { // Original name: useQuestImpressionId
-        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             michal = _closure1_slot10;
             entity = undefined;
             zuuluu = michal.bind(entity)();
             michal = null;
             michal = michal == zuuluu;
-            if(michal) { _fun00016_ip = 32; continue _fun00015 }
+            if(michal) { _fun00018_ip = 32; continue _fun00017 }
  22:
             michal = zuuluu.getId;
             entity = michal.bind(zuuluu)();
@@ -611,7 +636,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     zuuluu['useQuestImpressionId'] = tangon;
     michal = function(argFoo) { // Original name: QuestContentImpressionTrackerInner
-        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             option = argFoo;
             var _closure2_slot0 = option;
@@ -632,7 +657,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = zuuluu.isArray;
             entity = entity.bind(zuuluu)(tangon);
             report = null;
-            if(entity) { _fun00018_ip = 134; continue _fun00017 }
+            if(entity) { _fun00020_ip = 134; continue _fun00019 }
  98:
             verify = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -645,7 +670,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  134:
             verify = _closure1_slot1;
             sizing = _closure1_slot2;
-            zuuluu = 11;
+            zuuluu = 12;
             zuuluu = sizing[zuuluu];
             tangon = undefined;
             zuuluu = verify.bind(tangon)(zuuluu);
@@ -653,11 +678,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = report !== zuuluu;
             var _closure2_slot6 = yankee;
             offset = _closure1_slot0;
-            zuuluu = 12;
+            zuuluu = 13;
             zuuluu = sizing[zuuluu];
             verify = offset.bind(tangon)(zuuluu);
             report = verify.useQuestDecisionId;
-            zuuluu = 13;
+            zuuluu = 14;
             zuuluu = sizing[zuuluu];
             sizing = offset.bind(tangon)(zuuluu);
             offset = sizing.getQuestPlacementFromQuestContent;
@@ -671,12 +696,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[0] = oscard;
             zuuluu = function() {
                 entity = function() {
-                    _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+                    _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                         michal = _closure2_slot5;
                         zuuluu = michal.current;
                         michal = null;
-                        if(!(michal != zuuluu)) { _fun00020_ip = 37; continue _fun00019 }
+                        if(!(michal != zuuluu)) { _fun00022_ip = 37; continue _fun00021 }
  18:
                         entity = _closure2_slot5;
                         michal = entity.current;
@@ -713,59 +738,59 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu[11] = yankee;
             zuuluu[12] = offset;
             michal = function() {
-                _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+                _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
                     tangon = _closure2_slot3;
-                    if(!tangon) { _fun00022_ip = 14; continue _fun00021 }
+                    if(!tangon) { _fun00024_ip = 14; continue _fun00023 }
  10:
                     tangon = _closure2_slot1;
  14:
                     entity = _closure2_slot2;
-                    if(entity) { _fun00022_ip = 25; continue _fun00021 }
+                    if(entity) { _fun00024_ip = 25; continue _fun00023 }
  21:
                     entity = _closure2_slot4;
  25:
-                    if(entity) { _fun00022_ip = 32; continue _fun00021 }
+                    if(entity) { _fun00024_ip = 32; continue _fun00023 }
  28:
                     entity = _closure2_slot6;
  32:
-                    if(!entity) { _fun00022_ip = 38; continue _fun00021 }
+                    if(!entity) { _fun00024_ip = 38; continue _fun00023 }
  35:
                     entity = tangon;
  38:
                     michal = entity;
-                    if(michal) { _fun00022_ip = 64; continue _fun00021 }
+                    if(michal) { _fun00024_ip = 64; continue _fun00023 }
  44:
                     zuuluu = _closure2_slot2;
-                    if(zuuluu) { _fun00022_ip = 55; continue _fun00021 }
+                    if(zuuluu) { _fun00024_ip = 55; continue _fun00023 }
  51:
                     zuuluu = _closure2_slot4;
  55:
-                    if(!zuuluu) { _fun00022_ip = 61; continue _fun00021 }
+                    if(!zuuluu) { _fun00024_ip = 61; continue _fun00023 }
  58:
                     zuuluu = !tangon;
  61:
                     michal = zuuluu;
  64:
-                    if(michal) { _fun00022_ip = 71; continue _fun00021 }
+                    if(michal) { _fun00024_ip = 71; continue _fun00023 }
  67:
                     michal = _closure2_slot6;
  71:
-                    if(!michal) { _fun00022_ip = 89; continue _fun00021 }
+                    if(!michal) { _fun00024_ip = 89; continue _fun00023 }
  74:
                     zuuluu = _closure2_slot5;
                     tangon = zuuluu.current;
                     zuuluu = null;
                     michal = zuuluu != tangon;
  89:
-                    if(!michal) { _fun00022_ip = 111; continue _fun00021 }
+                    if(!michal) { _fun00024_ip = 111; continue _fun00023 }
  92:
                     michal = _closure2_slot5;
                     zuuluu = michal.current;
                     michal = zuuluu.stop;
                     michal = michal.bind(zuuluu)();
  111:
-                    if(!entity) { _fun00022_ip = 261; continue _fun00021 }
+                    if(!entity) { _fun00024_ip = 261; continue _fun00023 }
  117:
                     entity = _closure2_slot5;
                     tangon = _closure1_slot8;

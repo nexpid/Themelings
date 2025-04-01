@@ -302,8 +302,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = ctrled.bind(tangon)(update, output);
             kiloes[3] = output;
             output = null;
-            if(!echoed) { _fun00002_ip = 963; continue _fun00001 }
- 855:
+            if(!echoed) { _fun00002_ip = 959; continue _fun00001 }
+ 851:
             update = _closure1_slot7;
             papara = _closure1_slot0;
             ctrled = _closure1_slot2;
@@ -324,7 +324,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = record.bind(cntext)(ctrled);
             result['children'] = ctrled;
             output = update.bind(tangon)(echoed, result);
- 963:
+ 959:
             kiloes[4] = output;
             option['children'] = kiloes;
             yankee = golfie.bind(tangon)(yankee, option);
@@ -334,10 +334,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = _closure1_slot5;
             kiloes = {};
             yankee = backup;
-            if(!yankee) { _fun00002_ip = 1007; continue _fun00001 }
- 1001:
+            if(!yankee) { _fun00002_ip = 1003; continue _fun00001 }
+ 997:
             yankee = foxtra.button;
- 1007:
+ 1003:
             kiloes['style'] = yankee;
             ctrled = _closure1_slot7;
             update = _closure1_slot0;
@@ -350,10 +350,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = 'primary';
             echoed['variant'] = record;
             record = 'lg';
-            if(!backup) { _fun00002_ip = 1062; continue _fun00001 }
- 1058:
+            if(!backup) { _fun00002_ip = 1058; continue _fun00001 }
+ 1054:
             record = 'md';
- 1062:
+ 1058:
             echoed['size'] = record;
             echoed['text'] = config;
             config = function() { // Original name: onPress
@@ -373,8 +373,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = result.bind(tangon)(output, kiloes);
             option[1] = kiloes;
             offset = null;
-            if(!backup) { _fun00002_ip = 1231; continue _fun00001 }
- 1123:
+            if(!backup) { _fun00002_ip = 1227; continue _fun00001 }
+ 1119:
             kiloes = _closure1_slot7;
             update = _closure1_slot0;
             output = _closure1_slot2;
@@ -410,7 +410,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             yankee['onPress'] = sizing;
             offset = kiloes.bind(tangon)(backup, yankee);
- 1231:
+ 1227:
             option[2] = offset;
             yankee = _closure1_slot7;
             offset = _closure1_slot1;

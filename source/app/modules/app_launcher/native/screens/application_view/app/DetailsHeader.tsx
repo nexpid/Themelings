@@ -751,7 +751,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = new Array(2);
             report[0] = golfie;
             oscard = !oscard;
-            if(!oscard) { _fun00002_ip = 2060; continue _fun00001 }
+            if(!oscard) { _fun00002_ip = 2064; continue _fun00001 }
  1711:
             verify = _closure1_slot8;
             option = _closure1_slot5;
@@ -795,8 +795,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             golfie['onLayout'] = offset;
             romeon = !sizing;
-            if(!romeon) { _fun00002_ip = 1826; continue _fun00001 }
- 1773:
+            if(!romeon) { _fun00002_ip = 1830; continue _fun00001 }
+ 1777:
             backup = _closure1_slot7;
             foxtra = _closure1_slot0;
             result = _closure1_slot2;
@@ -807,19 +807,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = {'variant': 'heading-lg/bold', 'color': 'text-normal'};
             offset['children'] = output;
             romeon = backup.bind(tangon)(foxtra, offset);
- 1826:
+ 1830:
             offset = new Array(2);
             offset[0] = romeon;
-            if(!yankee) { _fun00002_ip = 2046; continue _fun00001 }
- 1840:
+            if(!yankee) { _fun00002_ip = 2050; continue _fun00001 }
+ 1844:
             backup = _closure1_slot8;
             foxtra = _closure1_slot5;
             romeon = {};
             sizing = !sizing;
-            if(!sizing) { _fun00002_ip = 1862; continue _fun00001 }
- 1856:
+            if(!sizing) { _fun00002_ip = 1866; continue _fun00001 }
+ 1860:
             sizing = echoed.descriptionContainer;
- 1862:
+ 1866:
             romeon['style'] = sizing;
             result = _closure1_slot7;
             ctrled = _closure1_slot0;
@@ -884,11 +884,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes[1] = sizing;
             romeon['children'] = kiloes;
             yankee = backup.bind(tangon)(foxtra, romeon);
- 2046:
+ 2050:
             offset[1] = yankee;
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 2060:
+ 2064:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

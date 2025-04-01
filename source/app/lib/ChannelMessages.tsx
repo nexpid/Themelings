@@ -636,6 +636,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = true;
             zuuluu['jumpFlash'] = report;
             zuuluu['jumpReturnTargetId'] = oscard;
+            zuuluu['focusTargetId'] = oscard;
             zuuluu['hasMoreBefore'] = report;
             zuuluu['hasMoreAfter'] = michal;
             zuuluu['loadingMore'] = michal;
@@ -2358,19 +2359,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         verify = function(argFoo) { // Original name: value
             _fun00055: for(var _fun00056_ip = 0; ; ) switch(_fun00056_ip) {
  0:
-                michal = arguments[1];
+                report = arguments[1];
+                michal = arguments[3];
                 tangon = this;
                 zuuluu = argFoo;
                 var _closure3_slot0 = zuuluu;
                 zuuluu = undefined;
-                if(!(michal === zuuluu)) { _fun00056_ip = 23; continue _fun00055 }
- 21:
-                michal = true;
- 23:
-                var _closure3_slot1 = michal;
-                michal = arguments[2];
-                var _closure3_slot2 = michal;
-                michal = arguments[3];
+                if(!(report === zuuluu)) { _fun00056_ip = 26; continue _fun00055 }
+ 24:
+                report = true;
+ 26:
+                var _closure3_slot1 = report;
+                report = arguments[2];
+                var _closure3_slot2 = report;
+                if(!(michal === zuuluu)) { _fun00056_ip = 43; continue _fun00055 }
+ 41:
+                michal = null;
+ 43:
                 var _closure3_slot3 = michal;
                 michal = arguments[4];
                 var _closure3_slot4 = michal;

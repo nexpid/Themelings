@@ -141,141 +141,142 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = vacuum.bind(sequen)(golfie, zuuluu);
             zuuluu = 15;
             zuuluu = ctrled[zuuluu];
-            vacuum = tangon.bind(source)(zuuluu);
-            tangon = vacuum.useGuildPowerupsExperimentEnabled;
+            sequen = tangon.bind(source)(zuuluu);
+            vacuum = sequen.useGuildPowerupsExperimentEnabled;
+            tangon = offset.id;
             zuuluu = 'useGuildActionRow';
-            zuuluu = tangon.bind(vacuum)(offset, zuuluu);
+            zuuluu = vacuum.bind(sequen)(tangon, zuuluu);
             tangon = 16;
             tangon = ctrled[tangon];
             update = update.bind(source)(tangon);
             tangon = offset.id;
             tangon = update.bind(source)(tangon);
-            if(!foxtra) { _fun00002_ip = 512; continue _fun00001 }
- 492:
+            if(!foxtra) { _fun00002_ip = 517; continue _fun00001 }
+ 497:
             source = entity.push;
             update = _closure1_slot4;
             update = update.GUILD_HUB_HEADER_OPTIONS;
             update = source.bind(entity)(update);
- 512:
-            if(echoed) { _fun00002_ip = 560; continue _fun00001 }
- 515:
-            if(!output) { _fun00002_ip = 560; continue _fun00001 }
- 518:
-            if(!result) { _fun00002_ip = 560; continue _fun00001 }
- 521:
+ 517:
+            if(echoed) { _fun00002_ip = 565; continue _fun00001 }
+ 520:
+            if(!output) { _fun00002_ip = 565; continue _fun00001 }
+ 523:
+            if(!result) { _fun00002_ip = 565; continue _fun00001 }
+ 526:
             result = null;
-            if(!(result != sizing)) { _fun00002_ip = 560; continue _fun00001 }
- 527:
+            if(!(result != sizing)) { _fun00002_ip = 565; continue _fun00001 }
+ 532:
             result = sizing.length;
             sizing = 0;
-            if(!(result > sizing)) { _fun00002_ip = 560; continue _fun00001 }
- 538:
+            if(!(result > sizing)) { _fun00002_ip = 565; continue _fun00001 }
+ 543:
             result = entity.push;
             sizing = _closure1_slot4;
             sizing = sizing.GUILD_NEW_MEMBER_ACTIONS_PROGRESS_BAR;
             sizing = result.bind(entity)(sizing);
-            _fun00002_ip = 566; continue _fun00001;
- 560:
+            _fun00002_ip = 571; continue _fun00001;
+ 565:
             sizing = offset.premiumProgressBarEnabled;
- 566:
+ 571:
             sizing = !foxtra;
-            if(!sizing) { _fun00002_ip = 575; continue _fun00001 }
- 572:
+            if(!sizing) { _fun00002_ip = 580; continue _fun00001 }
+ 577:
             sizing = output;
- 575:
-            if(!sizing) { _fun00002_ip = 598; continue _fun00001 }
- 578:
+ 580:
+            if(!sizing) { _fun00002_ip = 603; continue _fun00001 }
+ 583:
             output = entity.push;
             sizing = _closure1_slot4;
             sizing = sizing.GUILD_HOME;
             sizing = output.bind(entity)(sizing);
- 598:
-            if(!kiloes) { _fun00002_ip = 621; continue _fun00001 }
- 601:
+ 603:
+            if(!kiloes) { _fun00002_ip = 626; continue _fun00001 }
+ 606:
             sizing = entity.push;
             kiloes = _closure1_slot4;
             kiloes = kiloes.GUILD_SCHEDULED_EVENTS;
             kiloes = sizing.bind(entity)(kiloes);
- 621:
+ 626:
             foxtra = !foxtra;
-            if(!foxtra) { _fun00002_ip = 630; continue _fun00001 }
- 627:
+            if(!foxtra) { _fun00002_ip = 635; continue _fun00001 }
+ 632:
             foxtra = oscard;
- 630:
-            if(!foxtra) { _fun00002_ip = 636; continue _fun00001 }
- 633:
+ 635:
+            if(!foxtra) { _fun00002_ip = 641; continue _fun00001 }
+ 638:
             foxtra = backup;
- 636:
-            if(!foxtra) { _fun00002_ip = 659; continue _fun00001 }
- 639:
+ 641:
+            if(!foxtra) { _fun00002_ip = 664; continue _fun00001 }
+ 644:
             backup = entity.push;
             foxtra = _closure1_slot4;
             foxtra = foxtra.CHANNELS_AND_ROLES;
             foxtra = backup.bind(entity)(foxtra);
- 659:
-            if(!romeon) { _fun00002_ip = 682; continue _fun00001 }
- 662:
+ 664:
+            if(!romeon) { _fun00002_ip = 687; continue _fun00001 }
+ 667:
             foxtra = entity.push;
             romeon = _closure1_slot4;
             romeon = romeon.GUILD_ROLE_SUBSCRIPTIONS;
             romeon = foxtra.bind(entity)(romeon);
- 682:
-            if(!verify) { _fun00002_ip = 705; continue _fun00001 }
- 685:
+ 687:
+            if(!verify) { _fun00002_ip = 710; continue _fun00001 }
+ 690:
             romeon = entity.push;
             verify = _closure1_slot4;
             verify = verify.GUILD_SHOP;
             verify = romeon.bind(entity)(verify);
- 705:
+ 710:
             verify = !golfie;
-            if(!verify) { _fun00002_ip = 714; continue _fun00001 }
- 711:
+            if(!verify) { _fun00002_ip = 719; continue _fun00001 }
+ 716:
             verify = yankee;
- 714:
-            if(!verify) { _fun00002_ip = 737; continue _fun00001 }
- 717:
+ 719:
+            if(!verify) { _fun00002_ip = 742; continue _fun00001 }
+ 722:
             yankee = entity.push;
             verify = _closure1_slot4;
             verify = verify.GUILD_MEMBER_APPLICATIONS;
             verify = yankee.bind(entity)(verify);
- 737:
-            if(!report) { _fun00002_ip = 779; continue _fun00001 }
- 740:
-            if(oscard) { _fun00002_ip = 746; continue _fun00001 }
- 743:
+ 742:
+            if(!report) { _fun00002_ip = 784; continue _fun00001 }
+ 745:
+            if(oscard) { _fun00002_ip = 751; continue _fun00001 }
+ 748:
             oscard = option;
- 746:
-            if(oscard) { _fun00002_ip = 776; continue _fun00001 }
- 749:
-            if(!golfie) { _fun00002_ip = 773; continue _fun00001 }
- 752:
+ 751:
+            if(oscard) { _fun00002_ip = 781; continue _fun00001 }
+ 754:
+            if(!golfie) { _fun00002_ip = 778; continue _fun00001 }
+ 757:
             verify = offset.hasFeature;
             option = _closure1_slot5;
             option = option.MEMBER_VERIFICATION_MANUAL_APPROVAL;
             golfie = verify.bind(offset)(option);
- 773:
+ 778:
             oscard = golfie;
- 776:
+ 781:
             report = oscard;
- 779:
-            if(!report) { _fun00002_ip = 802; continue _fun00001 }
- 782:
+ 784:
+            if(!report) { _fun00002_ip = 807; continue _fun00001 }
+ 787:
             oscard = entity.push;
             report = _closure1_slot4;
             report = report.GUILD_MOD_DASH_MEMBER_SAFETY;
             report = oscard.bind(entity)(report);
- 802:
-            if(!zuuluu) { _fun00002_ip = 808; continue _fun00001 }
- 805:
+ 807:
+            if(!zuuluu) { _fun00002_ip = 813; continue _fun00001 }
+ 810:
             zuuluu = tangon;
- 808:
-            if(!zuuluu) { _fun00002_ip = 831; continue _fun00001 }
- 811:
+ 813:
+            if(!zuuluu) { _fun00002_ip = 836; continue _fun00001 }
+ 816:
             zuuluu = entity.push;
             michal = _closure1_slot4;
             michal = michal.GUILD_BOOSTS;
             michal = zuuluu.bind(entity)(michal);
- 831:
+ 836:
             return entity;
         }
     };

@@ -319,6 +319,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['CHAT_SIDEBAR'] = entity;
     entity = 'create thread';
     michal['CREATE_THREAD'] = entity;
+    entity = 'soundboard context menu';
+    michal['SOUNDBOARD_CONTEXT_MENU'] = entity;
     entity = 'premium preview upsell header';
     michal['PREMIUM_PREVIEW_UPSELL_HEADER'] = entity;
     entity = 'premium upsell overlay';
@@ -403,6 +405,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['ACTIVE_NOW_COLUMN'] = entity;
     entity = 'context menu';
     michal['CONTEXT_MENU'] = entity;
+    entity = 'stream context menu';
+    michal['STREAM_CONTEXT_MENU'] = entity;
     entity = 'channel activity feed voice menu';
     michal['CHANNEL_ACTIVITY_FEED_VOICE_MENU'] = entity;
     entity = 'channel audit log menu';
@@ -781,6 +785,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['APP_DMS_QUICK_LAUNCHER_FRECENCY'] = entity;
     entity = 'app_dms_quick_launcher_recommendations';
     michal['APP_DMS_QUICK_LAUNCHER_RECOMMENDATIONS'] = entity;
+    entity = 'app_dms_quick_launcher_more';
+    michal['APP_DMS_QUICK_LAUNCHER_MORE'] = entity;
+    entity = 'play tab';
+    michal['PLAY_TAB'] = entity;
     entity = 'user settings voice and video';
     michal['USER_SETTINGS_VOICE_AND_VIDEO'] = entity;
     entity = 'user settings video tab';

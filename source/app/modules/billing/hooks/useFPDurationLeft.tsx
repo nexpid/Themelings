@@ -177,34 +177,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = option.bind(tangon)(golfie, oscard);
             golfie = option.days;
             oscard = 0;
-            if(!(!(golfie > oscard))) { _fun00002_ip = 646; continue _fun00001 }
+            if(!(!(golfie > oscard))) { _fun00002_ip = 642; continue _fun00001 }
  585:
             golfie = option.hours;
             oscard = 11;
-            if(!(!(golfie > oscard))) { _fun00002_ip = 630; continue _fun00001 }
+            if(!(!(golfie > oscard))) { _fun00002_ip = 626; continue _fun00001 }
  598:
             offset = option.minutes;
             golfie = 45;
             oscard = option;
-            if(!(offset > golfie)) { _fun00002_ip = 628; continue _fun00001 }
+            if(!(offset > golfie)) { _fun00002_ip = 624; continue _fun00001 }
  614:
             oscard = {'days': 0, 'hours': 1, 'minutes': 0, 'seconds': 0};
- 628:
-            _fun00002_ip = 644; continue _fun00001;
- 630:
+ 624:
+            _fun00002_ip = 640; continue _fun00001;
+ 626:
             oscard = {'days': 1, 'hours': 0, 'minutes': 0, 'seconds': 0};
- 644:
-            _fun00002_ip = 679; continue _fun00001;
- 646:
+ 640:
+            _fun00002_ip = 675; continue _fun00001;
+ 642:
             golfie = {'days': null, 'hours': 0, 'minutes': 0, 'seconds': 0};
             option = option.days;
             option = option + verify;
             golfie['days'] = option;
             oscard = golfie;
- 679:
+ 675:
             report = oscard;
             entity = '';
- 686: // try_start_0
+ 682: // try_start_0
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             oscard = 2;
@@ -212,9 +212,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = golfie.bind(tangon)(oscard);
             oscard = golfie.unitsAsStrings;
             entity = oscard.bind(golfie)(report, zuuluu);
- 718: // try_end0
-            _fun00002_ip = 759; continue _fun00001;
- 720: // catch_target0
+ 714: // try_end0
+            _fun00002_ip = 755; continue _fun00001;
+ 716: // catch_target0
             CatchBlockStart(arg_register=2);
             zuuluu = _closure1_slot1;
             report = _closure1_slot2;
@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.captureMessage;
             michal = 'Error trying to format string for fractional nitro duration pill';
             michal = zuuluu.bind(tangon)(michal);
- 759:
+ 755:
             return entity;
         }
     };
