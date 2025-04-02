@@ -472,28 +472,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = _closure1_slot20;
             zuuluu = {};
             tangon = option.bind(report)(tangon, zuuluu);
-            if(entity) { _fun00004_ip = 168; continue _fun00003 }
- 144:
+            if(entity) { _fun00004_ip = 164; continue _fun00003 }
+ 140:
             entity = null;
-            if(!(entity == golfie)) { _fun00004_ip = 168; continue _fun00003 }
- 150:
+            if(!(entity == golfie)) { _fun00004_ip = 164; continue _fun00003 }
+ 146:
             option = _closure1_slot14;
             zuuluu = _closure1_slot21;
             entity = {};
             entity = option.bind(report)(zuuluu, entity);
-            _fun00004_ip = 201; continue _fun00003;
- 168:
+            _fun00004_ip = 197; continue _fun00003;
+ 164:
             zuuluu = null;
             entity = tangon;
-            if(!(zuuluu != golfie)) { _fun00004_ip = 201; continue _fun00003 }
- 177:
+            if(!(zuuluu != golfie)) { _fun00004_ip = 197; continue _fun00003 }
+ 173:
             tangon = _closure1_slot14;
             zuuluu = _closure1_slot19;
             michal = {};
             michal['guild'] = golfie;
             michal['channelId'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 201:
+ 197:
             return entity;
         }
     };

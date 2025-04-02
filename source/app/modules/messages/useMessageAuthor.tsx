@@ -623,21 +623,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = verify.fileFinishedImporting;
     golfie = 'modules/messages/useMessageAuthor.tsx';
     golfie = option.bind(verify)(golfie);
-    golfie = function(argFoo) { // Original name: useMessageNickAndColor
-        zuuluu = _closure1_slot8;
-        report = undefined;
-        entity = argFoo;
-        entity = zuuluu.bind(report)(entity);
-        zuuluu = _closure1_slot1;
-        tangon = _closure1_slot2;
-        michal = 5;
-        michal = tangon[michal];
-        tangon = zuuluu.bind(report)(michal);
-        michal = null;
-        zuuluu = michal != entity;
-        michal = 'Result cannot be null because the message is not null';
-        michal = tangon.bind(report)(zuuluu, michal);
-        return entity;
+    golfie = function(argFoo, argBar) { // Original name: useMessageNickAndColor
+        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+ 0:
+            michal = argBar;
+            tangon = _closure1_slot8;
+            golfie = undefined;
+            entity = argFoo;
+            entity = tangon.bind(golfie)(entity);
+            tangon = _closure1_slot1;
+            report = _closure1_slot2;
+            zuuluu = 5;
+            zuuluu = report[zuuluu];
+            oscard = tangon.bind(golfie)(zuuluu);
+            zuuluu = null;
+            report = zuuluu != entity;
+            tangon = 'Result cannot be null because the message is not null';
+            tangon = oscard.bind(golfie)(report, tangon);
+            if(!(zuuluu != michal)) { _fun00024_ip = 65; continue _fun00023 }
+ 62:
+            entity = michal;
+ 65:
+            return entity;
+        }
     };
     zuuluu['default'] = golfie;
     zuuluu['useNullableMessageAuthor'] = oscard;

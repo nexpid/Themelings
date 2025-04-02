@@ -1378,7 +1378,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             sizing = option.bind(offset)(zuuluu, tangon);
-            if(!(entity == verify)) { _fun00010_ip = 790; continue _fun00009 }
+            if(!(entity == verify)) { _fun00010_ip = 794; continue _fun00009 }
  601:
             tangon = _closure1_slot19;
             zuuluu = _closure1_slot20;
@@ -1450,8 +1450,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option[1] = offset;
             entity['children'] = option;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00010_ip = 858; continue _fun00009;
- 790:
+            _fun00010_ip = 862; continue _fun00009;
+ 794:
             tangon = _closure1_slot18;
             zuuluu = _closure1_slot1;
             option = _closure1_slot2;
@@ -1468,7 +1468,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['channelName'] = golfie;
             michal['tagFilter'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 858:
+ 862:
             return entity;
         }
     };

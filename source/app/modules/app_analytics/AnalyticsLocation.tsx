@@ -819,6 +819,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['YOU_ACCOUNT_ACTION_SHEET'] = entity;
     entity = 'user profile custom status bubble';
     michal['USER_PROFILE_CUSTOM_STATUS_BUBBLE'] = entity;
+    entity = 'clicker game';
+    michal['CLICKER_GAME'] = entity;
     entity = 'activity PIP';
     michal['ACTIVITY_PIP'] = entity;
     entity = 'video PIP';

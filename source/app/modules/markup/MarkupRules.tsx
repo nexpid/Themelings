@@ -379,7 +379,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = oscard[golfie];
     kiloes = output.bind(entity)(verify);
     backup = kiloes.inlineRegex;
-    verify = /^<((?:(?:tel|sms):\+?|\+)(?:[0-9]+)(?:-[0-9]+)*)>/;
+    verify = /^<((?:(?:tel|sms):\+?|\+)(?:([0-9]+|\([0-9]+\)))(?:[- .\\/]?([0-9]+|\([0-9]+\)))+)>/;
     verify = backup.bind(kiloes)(verify);
     michal[romeon] = verify;
     verify = function(argFoo) { // Original name: parse
@@ -388,21 +388,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = argFoo;
             entity = 1;
             zuuluu = michal[entity];
-            tangon = michal[entity];
+            report = michal[entity];
+            tangon = report.replaceAll;
+            michal = /[ \\/]+/g;
+            entity = '-';
+            tangon = tangon.bind(report)(michal, entity);
             michal = tangon.startsWith;
             entity = 'tel:';
             report = michal.bind(tangon)(entity);
-            if(report) { _fun00016_ip = 51; continue _fun00015 }
- 34:
+            if(report) { _fun00016_ip = 81; continue _fun00015 }
+ 64:
             oscard = tangon.startsWith;
             michal = 'sms:';
             report = oscard.bind(tangon)(michal);
- 51:
+ 81:
             michal = tangon;
-            if(report) { _fun00016_ip = 61; continue _fun00015 }
- 57:
+            if(report) { _fun00016_ip = 91; continue _fun00015 }
+ 87:
             michal = entity + tangon;
- 61:
+ 91:
             entity = {};
             tangon = 'link';
             entity['type'] = tangon;

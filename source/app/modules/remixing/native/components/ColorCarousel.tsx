@@ -261,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = 0;
                             michal = tangon === report;
  77:
-                            if(!michal) { _fun00008_ip = 99; continue _fun00007 }
+                            if(!michal) { _fun00008_ip = 101; continue _fun00007 }
  80:
                             tangon = _closure3_slot0;
                             michal = function(argFoo) {
@@ -288,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 }
                             };
                             michal = tangon.bind(zuuluu)(michal);
- 99:
+ 101:
                             michal = _closure2_slot3;
                             entity = _closure3_slot1;
                             entity = michal.bind(zuuluu)(entity);
@@ -422,14 +422,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 foxtra = foxtra.bind(sizing)(golfie);
                 golfie = new Array(2);
                 golfie[0] = foxtra;
-                if(romeon) { _fun00004_ip = 609; continue _fun00003 }
- 365:
-                if(!option) { _fun00004_ip = 372; continue _fun00003 }
- 368:
+                if(romeon) { _fun00004_ip = 619; continue _fun00003 }
+ 373:
+                if(!option) { _fun00004_ip = 380; continue _fun00003 }
+ 376:
                 option = offset === yankee;
- 372:
-                if(!option) { _fun00004_ip = 604; continue _fun00003 }
- 378:
+ 380:
+                if(!option) { _fun00004_ip = 614; continue _fun00003 }
+ 386:
                 foxtra = _closure1_slot8;
                 romeon = _closure1_slot5;
                 yankee = {};
@@ -464,10 +464,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 result = result.RemixShader;
                 result = result.RAINBOW;
                 result = echoed === result;
-                if(!result) { _fun00004_ip = 482; continue _fun00003 }
- 476:
+                if(!result) { _fun00004_ip = 492; continue _fun00003 }
+ 486:
                 result = kiloes.selectedColor;
- 482:
+ 492:
                 output[2] = result;
                 offset['style'] = output;
                 echoed = _closure1_slot8;
@@ -489,9 +489,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 yankee['children'] = offset;
                 offset = 'RAINBOW';
                 option = foxtra.bind(tangon)(romeon, yankee, offset);
- 604:
-                _fun00004_ip = 790; continue _fun00003;
- 609:
+ 614:
+                _fun00004_ip = 802; continue _fun00003;
+ 619:
                 romeon = _closure1_slot8;
                 yankee = _closure1_slot5;
                 offset = {};
@@ -547,7 +547,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset['children'] = verify;
                 verify = 'next colors';
                 option = romeon.bind(tangon)(yankee, offset, verify);
- 790:
+ 802:
                 golfie[1] = option;
                 report['children'] = golfie;
                 report = oscard.bind(tangon)(michal, report);
@@ -755,8 +755,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 romeon['scrollAnimationDuration'] = backup;
                 romeon = zuuluu.bind(tangon)(foxtra, romeon);
                 offset[1] = romeon;
-                if(!yankee) { _fun00018_ip = 559; continue _fun00017 }
- 505:
+                if(!yankee) { _fun00018_ip = 561; continue _fun00017 }
+ 507:
                 backup = _closure1_slot8;
                 foxtra = _closure1_slot13;
                 romeon = {};
@@ -769,7 +769,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 kiloes = kiloes.length;
                 romeon['pageCount'] = kiloes;
                 yankee = backup.bind(tangon)(foxtra, romeon);
- 559:
+ 561:
                 offset[2] = yankee;
                 golfie['children'] = offset;
                 golfie = verify.bind(tangon)(option, golfie);

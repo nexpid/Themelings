@@ -360,10 +360,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['emojis'] = cntext;
             offset['onPressEmoji'] = sequen;
             sequen = undefined;
-            if(record) { _fun00004_ip = 567; continue _fun00003 }
- 563:
-            sequen = _closure1_slot13;
+            if(record) { _fun00004_ip = 571; continue _fun00003 }
  567:
+            sequen = _closure1_slot13;
+ 571:
             offset['onLongPressEmoji'] = sequen;
             offset['channel'] = vacuum;
             vacuum = _closure1_slot9;

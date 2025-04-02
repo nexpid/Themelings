@@ -1566,6 +1566,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['CHAT_WALLPAPERS_TOOLBAR_ENTRYPOINT_BADGE'] = michal;
     entity = 'CHAT_WALLPAPERS_TOOLBAR_ENTRYPOINT_BADGE';
     tangon[michal] = entity;
+    michal = 529;
+    tangon['GUILD_POWERUP_NOTIFICATION'] = michal;
+    entity = 'GUILD_POWERUP_NOTIFICATION';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

@@ -119,8 +119,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             kiloes = option.bind(verify)(tangon, zuuluu);
-            if(!(entity != echoed)) { _fun00002_ip = 635; continue _fun00001 }
- 174:
+            if(!(entity != echoed)) { _fun00002_ip = 629; continue _fun00001 }
+ 170:
             option = function() { // Original name: onConfirm
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -235,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal[oscard] = golfie;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 635:
+ 629:
             return entity;
         }
     };

@@ -746,12 +746,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_THEME_COLORS'] = foxtra;
     foxtra = function(argFoo) { // Original name: handleSetTryItOutPreset
         entity = argFoo;
-        entity = entity.preset;
-        tangon = entity.themeColors;
-        zuuluu = entity.bannerImage;
+        tangon = entity.banner;
+        zuuluu = entity.themeColors;
         michal = entity.avatarDecoration;
-        _closure1_slot20 = tangon;
-        _closure1_slot24 = zuuluu;
+        _closure1_slot24 = tangon;
+        _closure1_slot20 = zuuluu;
         _closure1_slot22 = michal;
         entity = undefined;
         return entity;

@@ -17,7 +17,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argBar;
             verify = michal.bind(zuuluu)(entity);
             michal = _closure1_slot5;
-            entity = _closure1_slot11;
+            entity = _closure1_slot12;
             entity = entity.bind(zuuluu)();
             if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot10 = entity;
+    var _closure1_slot11 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -74,13 +74,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot11 = michal;
+            _closure1_slot12 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot11 = entity;
+    var _closure1_slot12 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -117,6 +117,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot8 = option;
     tangon = tangon.AppStates;
     var _closure1_slot9 = tangon;
+    tangon = {};
+    option = 'DEFAULT';
+    tangon['DEFAULT'] = option;
+    option = 'USER_LOGOUT';
+    tangon['USER_LOGOUT'] = option;
+    option = 'WINDOW_FOCUS';
+    tangon['WINDOW_FOCUS'] = option;
+    option = 'APP_STATE_UPDATE';
+    tangon['APP_STATE_UPDATE'] = option;
+    var _closure1_slot10 = tangon;
     tangon = 13;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
@@ -129,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = _closure2_slot0;
             report = undefined;
             entity = entity.bind(report)(golfie, oscard);
-            tangon = _closure1_slot10;
+            tangon = _closure1_slot11;
             entity = new Array(0);
             romeon = entity;
             yankee = option;
@@ -269,27 +279,75 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = function() {
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-                    michal = _closure3_slot0;
-                    michal = michal.schedulerStarted;
-                    if(!michal) { _fun00012_ip = 94; continue _fun00011 }
- 16:
-                    entity = _closure3_slot0;
-                    michal = false;
-                    entity['schedulerStarted'] = michal;
-                    tangon = _closure1_slot1;
-                    zuuluu = _closure1_slot2;
-                    michal = 8;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    tangon = tangon.bind(michal)(zuuluu);
-                    zuuluu = tangon.addBreadcrumb;
-                    michal = {'category': 'ad', 'message': 'Stopping ad session heartbeat'};
-                    michal = zuuluu.bind(tangon)(michal);
-                    michal = entity.heartbeatInterval;
-                    entity = michal.stop;
-                    entity = entity.bind(michal)();
- 94:
+                    option = arguments[0];
                     entity = undefined;
+                    if(!(option === entity)) { _fun00012_ip = 22; continue _fun00011 }
+ 9:
+                    michal = _closure1_slot10;
+                    option = michal.DEFAULT;
+ 22:
+                    zuuluu = _closure3_slot0;
+                    zuuluu = zuuluu.schedulerStarted;
+                    if(!zuuluu) { _fun00012_ip = 271; continue _fun00011 }
+ 41:
+                    tangon = _closure3_slot0;
+                    zuuluu = false;
+                    tangon['schedulerStarted'] = zuuluu;
+                    report = _closure1_slot0;
+                    oscard = _closure1_slot2;
+                    tangon = 9;
+                    tangon = oscard[tangon];
+                    report = report.bind(entity)(tangon);
+                    tangon = report.getCurrentAdSession;
+                    offset = tangon.bind(report)();
+                    report = _closure1_slot1;
+                    tangon = 10;
+                    tangon = oscard[tangon];
+                    golfie = report.bind(entity)(tangon);
+                    oscard = golfie.track;
+                    tangon = _closure1_slot8;
+                    report = tangon.CLIENT_AD_HEARTBEAT_TERMINATION;
+                    tangon = {};
+                    verify = null;
+                    romeon = verify == offset;
+                    yankee = undefined;
+                    if(romeon) { _fun00012_ip = 136; continue _fun00011 }
+ 130:
+                    yankee = offset.uuid;
+ 136:
+                    tangon['client_ad_session_id'] = yankee;
+                    yankee = verify == offset;
+                    verify = undefined;
+                    if(yankee) { _fun00012_ip = 156; continue _fun00011 }
+ 150:
+                    verify = offset.initialized;
+ 156:
+                    tangon['client_heartbeat_initialization_timestamp'] = verify;
+                    verify = 1;
+                    tangon['client_heartbeat_version'] = verify;
+                    tangon['reason'] = option;
+                    tangon = oscard.bind(golfie)(report, tangon);
+                    tangon = _closure1_slot1;
+                    report = _closure1_slot2;
+                    zuuluu = 8;
+                    zuuluu = report[zuuluu];
+                    report = tangon.bind(entity)(zuuluu);
+                    tangon = report.addBreadcrumb;
+                    zuuluu = {};
+                    oscard = 'ad';
+                    zuuluu['category'] = oscard;
+                    oscard = global;
+                    oscard = oscard.HermesInternal;
+                    golfie = oscard.concat;
+                    oscard = 'Stopping ad session heartbeat: ';
+                    oscard = golfie.bind(oscard)(option);
+                    zuuluu['message'] = oscard;
+                    zuuluu = tangon.bind(report)(zuuluu);
+                    michal = _closure3_slot0;
+                    zuuluu = michal.heartbeatInterval;
+                    michal = zuuluu.stop;
+                    michal = michal.bind(zuuluu)();
+ 271:
                     return entity;
                 }
             };
@@ -297,32 +355,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = function() {
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-                    michal = _closure3_slot0;
-                    michal = michal.focusedOrForegrounded;
-                    if(michal) { _fun00014_ip = 32; continue _fun00013 }
- 16:
+                    report = arguments[0];
+                    entity = undefined;
+                    if(!(report === entity)) { _fun00014_ip = 22; continue _fun00013 }
+ 9:
+                    michal = _closure1_slot10;
+                    report = michal.DEFAULT;
+ 22:
                     zuuluu = _closure3_slot0;
-                    michal = zuuluu.stopAnalyticHeartbeat;
+                    zuuluu = zuuluu.focusedOrForegrounded;
+                    if(zuuluu) { _fun00014_ip = 55; continue _fun00013 }
+ 38:
+                    tangon = _closure3_slot0;
+                    zuuluu = tangon.stopAnalyticHeartbeat;
+                    zuuluu = zuuluu.bind(tangon)(report);
+                    _fun00014_ip = 107; continue _fun00013;
+ 55: // try_start_0
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.startAnalyticHeartbeat;
                     michal = michal.bind(zuuluu)();
-                    _fun00014_ip = 86; continue _fun00013;
- 32: // try_start_0
-                    michal = _closure3_slot0;
-                    entity = michal.startAnalyticHeartbeat;
-                    entity = entity.bind(michal)();
- 46: // try_end0
-                    _fun00014_ip = 86; continue _fun00013;
- 48: // catch_target0
-                    CatchBlockStart(arg_register=2);
-                    tangon = _closure1_slot1;
-                    michal = _closure1_slot2;
-                    entity = 8;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = tangon.bind(entity)(michal);
-                    entity = michal.captureException;
-                    entity = entity.bind(michal)(zuuluu);
- 86:
-                    entity = undefined;
+ 69: // try_end0
+                    _fun00014_ip = 107; continue _fun00013;
+ 71: // catch_target0
+                    CatchBlockStart(arg_register=3);
+                    zuuluu = _closure1_slot1;
+                    report = _closure1_slot2;
+                    michal = 8;
+                    michal = report[michal];
+                    zuuluu = zuuluu.bind(entity)(michal);
+                    michal = zuuluu.captureException;
+                    michal = michal.bind(zuuluu)(tangon);
+ 107:
                     return entity;
                 }
             };
@@ -339,9 +402,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             entity['handleLogin'] = zuuluu;
             zuuluu = function() {
-                michal = _closure3_slot0;
-                entity = michal.stopAnalyticHeartbeat;
-                entity = entity.bind(michal)();
+                tangon = _closure3_slot0;
+                zuuluu = tangon.stopAnalyticHeartbeat;
+                michal = _closure1_slot10;
+                michal = michal.USER_LOGOUT;
+                michal = zuuluu.bind(tangon)(michal);
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
                 entity = 9;
@@ -369,24 +434,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = function(argFoo) {
                 entity = argFoo;
                 entity = entity.focused;
-                michal = _closure3_slot0;
-                michal['focusedOrForegrounded'] = entity;
-                entity = michal.scheduleHeartbeatTracking;
-                entity = entity.bind(michal)();
+                zuuluu = _closure3_slot0;
+                zuuluu['focusedOrForegrounded'] = entity;
+                michal = zuuluu.scheduleHeartbeatTracking;
+                entity = _closure1_slot10;
+                entity = entity.WINDOW_FOCUS;
+                entity = michal.bind(zuuluu)(entity);
                 entity = undefined;
                 return entity;
             };
             entity['handleWindowFocus'] = zuuluu;
             michal = function(argFoo) {
                 entity = argFoo;
-                zuuluu = entity.state;
-                michal = _closure3_slot0;
-                entity = _closure1_slot9;
-                entity = entity.ACTIVE;
-                entity = zuuluu === entity;
-                michal['focusedOrForegrounded'] = entity;
-                entity = michal.scheduleHeartbeatTracking;
-                entity = entity.bind(michal)();
+                tangon = entity.state;
+                zuuluu = _closure3_slot0;
+                michal = _closure1_slot9;
+                michal = michal.ACTIVE;
+                michal = tangon === michal;
+                zuuluu['focusedOrForegrounded'] = michal;
+                michal = zuuluu.scheduleHeartbeatTracking;
+                entity = _closure1_slot10;
+                entity = entity.APP_STATE_UPDATE;
+                entity = michal.bind(zuuluu)(entity);
                 entity = undefined;
                 return entity;
             };
@@ -445,6 +514,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = zuuluu.handleLogout;
             michal = 'LOGOUT';
             michal = report.bind(oscard)(michal, tangon);
+            tangon = zuuluu.trackHeartbeat;
+            michal = true;
+            michal = tangon.bind(zuuluu)(michal);
             michal = zuuluu.scheduleHeartbeatTracking;
             michal = michal.bind(zuuluu)();
             return entity;

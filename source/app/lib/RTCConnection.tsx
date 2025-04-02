@@ -3029,32 +3029,32 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                         StartGenerator();
                         michal = argBar;
-                        yankee = argBaz;
-                        echoed = argCor;
+                        offset = argBaz;
+                        backup = argCor;
                         golfie = this;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                        if(zuuluu) { _fun00094_ip = 2412; continue _fun00093 }
+                        if(zuuluu) { _fun00094_ip = 2424; continue _fun00093 }
  24:
                         var _closure4_slot0 = golfie;
-                        var _closure4_slot1 = echoed;
+                        var _closure4_slot1 = backup;
                         zuuluu = undefined;
                         var _closure4_slot2 = zuuluu;
                         var _closure4_slot3 = zuuluu;
-                        verify = golfie.logger;
-                        option = verify.info;
-                        source = golfie.state;
+                        option = golfie.logger;
+                        report = option.info;
+                        output = golfie.state;
                         oscard = global;
                         tangon = oscard.HermesInternal;
-                        backup = tangon.concat;
-                        papara = 'Disconnected from RTC server, clean: ';
-                        record = ', code: ';
-                        sequen = ', reason: ';
-                        ctrled = ', state: ';
-                        cntext = michal;
-                        config = yankee;
-                        vacuum = echoed;
-                        tangon = papara[backup](cntext, record, config, sequen, vacuum, ctrled, source, update);
-                        tangon = option.bind(verify)(tangon);
+                        kiloes = tangon.concat;
+                        sequen = 'Disconnected from RTC server, clean: ';
+                        ctrled = ', code: ';
+                        update = ', reason: ';
+                        result = ', state: ';
+                        vacuum = michal;
+                        source = offset;
+                        echoed = backup;
+                        tangon = sequen[kiloes](vacuum, ctrled, source, update, echoed, result, output, sizing);
+                        tangon = report.bind(option)(tangon);
                         if(michal) { _fun00094_ip = 125; continue _fun00093 }
  116:
                         tangon = golfie._connecting;
@@ -3066,96 +3066,96 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  134:
                         if(michal) { _fun00094_ip = 258; continue _fun00093 }
  137:
-                        option = _closure1_slot1;
-                        verify = _closure1_slot3;
+                        report = _closure1_slot1;
+                        option = _closure1_slot3;
                         tangon = 20;
-                        tangon = verify[tangon];
-                        verify = option.bind(zuuluu)(tangon);
-                        option = verify.track;
+                        tangon = option[tangon];
+                        option = report.bind(zuuluu)(tangon);
+                        report = option.track;
                         michal = _closure1_slot20;
                         tangon = michal.VOICE_CONNECTION_SOCKET_FAILURE;
                         michal = {};
-                        offset = golfie._getAnalyticsProperties;
-                        record = offset.bind(golfie)();
-                        cntext = michal;
-                        offset = copyDataProperties(cntext, record);
+                        verify = golfie._getAnalyticsProperties;
+                        ctrled = verify.bind(golfie)();
+                        vacuum = michal;
+                        verify = copyDataProperties(vacuum, ctrled);
                         romeon = golfie.hostname;
-                        offset = 'hostname';
-                        michal[offset] = romeon;
+                        verify = 'hostname';
+                        michal[verify] = romeon;
                         romeon = golfie._connectCount;
-                        offset = 'connect_count';
-                        michal[offset] = romeon;
-                        offset = 'code';
-                        michal[offset] = yankee;
-                        offset = 'reason';
-                        michal[offset] = echoed;
-                        michal = option.bind(verify)(tangon, michal);
+                        verify = 'connect_count';
+                        michal[verify] = romeon;
+                        verify = 'code';
+                        michal[verify] = offset;
+                        verify = 'reason';
+                        michal[verify] = backup;
+                        michal = report.bind(option)(tangon, michal);
                         michal = true;
                         golfie['_encountered_socket_failure'] = michal;
  258:
-                        option = _closure1_slot16;
-                        michal = option.getRemoteDisconnectVoiceChannelId;
-                        option = michal.bind(option)();
+                        report = _closure1_slot16;
+                        michal = report.getRemoteDisconnectVoiceChannelId;
+                        report = michal.bind(report)();
                         michal = golfie.channelId;
-                        if(!(option === michal)) { _fun00094_ip = 308; continue _fun00093 }
+                        if(!(report === michal)) { _fun00094_ip = 308; continue _fun00093 }
  286:
-                        option = golfie._connection;
+                        report = golfie._connection;
                         michal = null;
-                        if(!(michal != option)) { _fun00094_ip = 308; continue _fun00093 }
+                        if(!(michal != report)) { _fun00094_ip = 308; continue _fun00093 }
  298:
-                        michal = option.wasRemoteDisconnected;
-                        michal = michal.bind(option)();
+                        michal = report.wasRemoteDisconnected;
+                        michal = michal.bind(report)();
  308:
                         michal = 'Force Close';
-                        option = michal !== echoed;
+                        option = michal !== backup;
                         if(!option) { _fun00094_ip = 419; continue _fun00093 }
  321:
-                        offset = golfie._backoff;
-                        verify = offset.fail;
+                        verify = golfie._backoff;
+                        report = verify.fail;
                         michal = golfie.reconnect;
-                        yankee = verify.bind(offset)(michal);
-                        offset = golfie.logger;
-                        verify = offset.warn;
+                        offset = report.bind(verify)(michal);
+                        verify = golfie.logger;
+                        report = verify.warn;
                         michal = 1000;
-                        romeon = yankee / michal;
-                        yankee = romeon.toFixed;
+                        romeon = offset / michal;
+                        offset = romeon.toFixed;
                         michal = 2;
-                        config = yankee.bind(romeon)(michal);
+                        source = offset.bind(romeon)(michal);
                         michal = oscard.HermesInternal;
                         foxtra = michal.concat;
-                        papara = 'Disconnect was not clean! reason=';
-                        record = '. Reconnecting in ';
-                        sequen = ' seconds.';
-                        cntext = echoed;
-                        michal = papara[foxtra](cntext, record, config, sequen, vacuum);
-                        michal = verify.bind(offset)(michal);
+                        sequen = 'Disconnect was not clean! reason=';
+                        ctrled = '. Reconnecting in ';
+                        update = ' seconds.';
+                        vacuum = backup;
+                        michal = sequen[foxtra](vacuum, ctrled, source, update, echoed);
+                        michal = report.bind(verify)(michal);
  419:
-                        verify = golfie.state;
+                        report = golfie.state;
                         michal = _closure1_slot22;
                         michal = michal.DISCONNECTED;
-                        if(!(verify !== michal)) { _fun00094_ip = 2086; continue _fun00093 }
+                        if(!(report !== michal)) { _fun00094_ip = 2098; continue _fun00093 }
  441:
-                        verify = golfie._videoQuality;
-                        _closure4_slot2 = verify;
-                        foxtra = null;
-                        michal = foxtra != verify;
+                        report = golfie._videoQuality;
+                        _closure4_slot2 = report;
+                        romeon = null;
+                        michal = romeon != report;
                         if(!michal) { _fun00094_ip = 479; continue _fun00093 }
  460:
-                        yankee = golfie.context;
-                        offset = _closure1_slot25;
-                        offset = offset.DEFAULT;
-                        michal = yankee === offset;
+                        offset = golfie.context;
+                        verify = _closure1_slot25;
+                        verify = verify.DEFAULT;
+                        michal = offset === verify;
  479:
                         if(!michal) { _fun00094_ip = 551; continue _fun00093 }
  482:
-                        michal = verify.stop;
-                        michal = michal.bind(verify)();
+                        michal = report.stop;
+                        michal = michal.bind(report)();
                         michal = golfie._sentVideo;
                         if(!michal) { _fun00094_ip = 526; continue _fun00093 }
  501:
-                        michal = verify.getOutboundStats;
-                        yankee = michal.bind(verify)();
-                        offset = yankee.forEach;
+                        michal = report.getOutboundStats;
+                        offset = michal.bind(report)();
+                        verify = offset.forEach;
                         michal = function(argFoo) {
                             _fun00095: for(var _fun00096_ip = 0; ; ) switch(_fun00096_ip) {
  0:
@@ -3251,11 +3251,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                                 return entity;
                             }
                         };
-                        michal = offset.bind(yankee)(michal);
+                        michal = verify.bind(offset)(michal);
  526:
-                        michal = verify.getInboundParticipants;
-                        offset = michal.bind(verify)();
-                        verify = offset.forEach;
+                        michal = report.getInboundParticipants;
+                        verify = michal.bind(report)();
+                        report = verify.forEach;
                         michal = function(argFoo) {
                             _fun00097: for(var _fun00098_ip = 0; ; ) switch(_fun00098_ip) {
  0:
@@ -3345,391 +3345,18 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                                 return entity;
                             }
                         };
-                        michal = verify.bind(offset)(michal);
+                        michal = report.bind(verify)(michal);
  551:
-                        verify = _closure1_slot18;
-                        michal = verify.shouldIncludePreferredRegion;
-                        michal = michal.bind(verify)();
-                        output = null;
-                        if(!michal) { _fun00094_ip = 584; continue _fun00093 }
- 570:
-                        verify = _closure1_slot18;
-                        michal = verify.getPreferredRegion;
-                        output = michal.bind(verify)();
- 584:
-                        offset = golfie._systemResources;
-                        verify = foxtra == offset;
-                        michal = undefined;
-                        if(verify) { _fun00094_ip = 611; continue _fun00093 }
- 599:
-                        verify = offset.getBatteryLevelStats;
-                        michal = verify.bind(offset)();
- 611:
-                        SaveGenerator(address=615);
- 613:
-                        return michal;
- 615:
-                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=8);
-                        if(verify) { _fun00094_ip = 2409; continue _fun00093 }
- 624:
-                        offset = _closure1_slot15;
-                        verify = offset.getSettings;
-                        backup = verify.bind(offset)();
-                        yankee = _closure1_slot14;
-                        offset = yankee.getChannel;
-                        verify = golfie.channelId;
-                        sizing = offset.bind(yankee)(verify);
-                        yankee = _closure1_slot11;
-                        offset = yankee.getFirstConnectionStatsByContext;
-                        verify = _closure1_slot25;
-                        verify = verify.DEFAULT;
-                        verify = offset.bind(yankee)(verify);
-                        offset = foxtra == verify;
-                        kiloes = undefined;
-                        if(offset) { _fun00094_ip = 739; continue _fun00093 }
- 691:
-                        verify = verify.stats;
-                        verify = verify.rtp;
-                        yankee = verify.outbound;
-                        offset = yankee.find;
-                        verify = function(argFoo) {
-                            entity = argFoo;
-                            michal = entity.type;
-                            entity = 'audio';
-                            entity = entity === michal;
-                            return entity;
-                        };
-                        verify = offset.bind(yankee)(verify);
-                        offset = foxtra == verify;
-                        kiloes = undefined;
-                        if(offset) { _fun00094_ip = 739; continue _fun00093 }
- 733:
-                        kiloes = verify.sampleRateMismatchPercent;
- 739:
-                        offset = _closure1_slot1;
-                        yankee = _closure1_slot3;
-                        verify = 20;
-                        verify = yankee[verify];
-                        romeon = offset.bind(zuuluu)(verify);
-                        yankee = romeon.track;
-                        verify = _closure1_slot20;
-                        offset = verify.VOICE_DISCONNECT;
-                        verify = {};
-                        result = golfie._getAnalyticsProperties;
-                        record = result.bind(golfie)();
-                        cntext = verify;
-                        result = copyDataProperties(cntext, record);
-                        update = golfie.hostname;
-                        result = 'hostname';
-                        verify[result] = update;
-                        update = golfie.port;
-                        result = 'port';
-                        verify[result] = update;
-                        update = golfie.protocol;
-                        result = 'protocol';
-                        verify[result] = update;
-                        result = 'reconnect';
-                        verify[result] = option;
-                        result = 'reason';
-                        verify[result] = echoed;
-                        result = golfie.getDuration;
-                        echoed = result.bind(golfie)();
-                        result = 'duration';
-                        verify[result] = echoed;
-                        update = golfie._voiceQuality;
-                        echoed = foxtra == update;
-                        result = undefined;
-                        if(echoed) { _fun00094_ip = 902; continue _fun00093 }
- 890:
-                        echoed = update.getMosStats;
-                        result = echoed.bind(update)();
- 902:
-                        cntext = verify;
-                        record = result;
-                        result = copyDataProperties(cntext, record);
-                        update = golfie._voiceQuality;
-                        echoed = foxtra == update;
-                        result = undefined;
-                        if(echoed) { _fun00094_ip = 937; continue _fun00093 }
- 927:
-                        echoed = update.getPacketStats;
-                        result = echoed.bind(update)();
- 937:
-                        cntext = verify;
-                        record = result;
-                        result = copyDataProperties(cntext, record);
-                        update = golfie._voiceQuality;
-                        echoed = foxtra == update;
-                        result = undefined;
-                        if(echoed) { _fun00094_ip = 974; continue _fun00093 }
- 962:
-                        echoed = update.getBytesStats;
-                        result = echoed.bind(update)();
- 974:
-                        cntext = verify;
-                        record = result;
-                        result = copyDataProperties(cntext, record);
-                        update = golfie._voiceQuality;
-                        echoed = foxtra == update;
-                        result = undefined;
-                        if(echoed) { _fun00094_ip = 1011; continue _fun00093 }
- 999:
-                        echoed = update.getBufferStats;
-                        result = echoed.bind(update)();
- 1011:
-                        cntext = verify;
-                        record = result;
-                        result = copyDataProperties(cntext, record);
-                        update = golfie._voiceQuality;
-                        echoed = foxtra == update;
-                        result = undefined;
-                        if(echoed) { _fun00094_ip = 1046; continue _fun00093 }
- 1036:
-                        echoed = update.getNetworkStats;
-                        result = echoed.bind(update)();
- 1046:
-                        cntext = verify;
-                        record = result;
-                        result = copyDataProperties(cntext, record);
-                        update = golfie._voiceQuality;
-                        echoed = foxtra == update;
-                        result = undefined;
-                        if(echoed) { _fun00094_ip = 1083; continue _fun00093 }
- 1071:
-                        echoed = update.getSystemResourceStats;
-                        result = echoed.bind(update)();
- 1083:
-                        cntext = verify;
-                        record = result;
-                        result = copyDataProperties(cntext, record);
-                        update = golfie._voiceQuality;
-                        echoed = foxtra == update;
-                        result = undefined;
-                        if(echoed) { _fun00094_ip = 1120; continue _fun00093 }
- 1108:
-                        echoed = update.getFrameOpStats;
-                        result = echoed.bind(update)();
- 1120:
-                        cntext = verify;
-                        record = result;
-                        result = copyDataProperties(cntext, record);
-                        update = golfie._voiceQuality;
-                        echoed = foxtra == update;
-                        result = undefined;
-                        if(echoed) { _fun00094_ip = 1155; continue _fun00093 }
- 1145:
-                        echoed = update.getDurationStats;
-                        result = echoed.bind(update)();
- 1155:
-                        cntext = verify;
-                        record = result;
-                        result = copyDataProperties(cntext, record);
-                        update = golfie._voiceQuality;
-                        echoed = foxtra == update;
-                        result = undefined;
-                        if(echoed) { _fun00094_ip = 1192; continue _fun00093 }
- 1180:
-                        echoed = update.getTransportStats;
-                        result = echoed.bind(update)();
- 1192:
-                        cntext = verify;
-                        record = result;
-                        result = copyDataProperties(cntext, record);
-                        update = golfie._voiceQuality;
-                        echoed = foxtra == update;
-                        result = undefined;
-                        if(echoed) { _fun00094_ip = 1229; continue _fun00093 }
- 1217:
-                        echoed = update.getE2EEStats;
-                        result = echoed.bind(update)();
- 1229:
-                        cntext = verify;
-                        record = result;
-                        result = copyDataProperties(cntext, record);
-                        update = golfie._voiceQuality;
-                        echoed = foxtra == update;
-                        result = undefined;
-                        if(echoed) { _fun00094_ip = 1266; continue _fun00093 }
- 1254:
-                        echoed = update.getAudioDeviceStats;
-                        result = echoed.bind(update)();
- 1266:
-                        cntext = verify;
-                        record = result;
-                        result = copyDataProperties(cntext, record);
-                        update = golfie._voiceDuration;
-                        echoed = foxtra == update;
-                        result = undefined;
-                        if(echoed) { _fun00094_ip = 1301; continue _fun00093 }
- 1291:
-                        echoed = update.getDurationStats;
-                        result = echoed.bind(update)();
- 1301:
-                        cntext = verify;
-                        record = result;
-                        result = copyDataProperties(cntext, record);
-                        result = golfie.getAudioDeviceStates;
-                        record = result.bind(golfie)();
-                        cntext = verify;
-                        result = copyDataProperties(cntext, record);
-                        update = golfie._systemResponsiveness;
-                        echoed = foxtra == update;
-                        result = undefined;
-                        if(echoed) { _fun00094_ip = 1355; continue _fun00093 }
- 1343:
-                        echoed = update.getPttQueueLatencyStats;
-                        result = echoed.bind(update)();
- 1355:
-                        cntext = verify;
-                        record = result;
-                        result = copyDataProperties(cntext, record);
-                        result = golfie.getMediaSessionId;
-                        echoed = result.bind(golfie)();
-                        result = 'media_session_id';
-                        verify[result] = echoed;
-                        echoed = foxtra != sizing;
-                        result = null;
-                        if(!echoed) { _fun00094_ip = 1399; continue _fun00093 }
- 1393:
-                        result = sizing.bitrate;
- 1399:
-                        sizing = 'channel_bitrate';
-                        verify[sizing] = result;
-                        sizing = 'cloudflare_best_region';
-                        verify[sizing] = output;
-                        output = golfie._connectCount;
-                        sizing = 'connect_count';
-                        verify[sizing] = output;
-                        result = oscard.Math;
-                        output = result.round;
-                        sizing = golfie.getAveragePing;
-                        sizing = sizing.bind(golfie)();
-                        output = output.bind(result)(sizing);
-                        sizing = 'ping_average';
-                        verify[sizing] = output;
-                        output = golfie._pingBadCount;
-                        sizing = 'ping_bad_count';
-                        verify[sizing] = output;
-                        sizing = golfie._pingTimeouts;
-                        output = sizing.length;
-                        sizing = 'ping_timeout';
-                        verify[sizing] = output;
-                        output = golfie._inputDetected;
-                        sizing = 'input_detected';
-                        verify[sizing] = output;
-                        output = _closure1_slot15;
-                        sizing = output.getNoInputDetectedNotice;
-                        output = sizing.bind(output)();
-                        sizing = 'no_input_detected_notice';
-                        verify[sizing] = output;
-                        output = backup.mode;
-                        sizing = 'audio_input_mode';
-                        verify[sizing] = output;
-                        sizing = backup.modeOptions;
-                        output = sizing.autoThreshold;
-                        sizing = 'automatic_audio_input_sensitivity_enabled';
-                        verify[sizing] = output;
-                        sizing = backup.modeOptions;
-                        output = sizing.threshold;
-                        sizing = 'audio_input_sensitivity';
-                        verify[sizing] = output;
-                        output = backup.echoCancellation;
-                        sizing = 'echo_cancellation_enabled';
-                        verify[sizing] = output;
-                        output = backup.sidechainCompression;
-                        sizing = 'sidechain_compression_enabled';
-                        verify[sizing] = output;
-                        output = backup.noiseSuppression;
-                        sizing = 'noise_suppression_enabled';
-                        verify[sizing] = output;
-                        output = backup.noiseCancellation;
-                        sizing = 'noise_cancellation_enabled';
-                        verify[sizing] = output;
-                        output = golfie._noiseCancellationError;
-                        sizing = 'noise_canceller_error';
-                        verify[sizing] = output;
-                        output = backup.automaticGainControl;
-                        sizing = 'automatic_gain_control_enabled';
-                        verify[sizing] = output;
-                        output = backup.outputVolume;
-                        sizing = 'voice_output_volume';
-                        verify[sizing] = output;
-                        output = golfie._encryptionMode;
-                        sizing = 'encryption_mode';
-                        verify[sizing] = output;
-                        sizing = golfie.channelIds;
-                        output = sizing.size;
-                        sizing = 'channel_count';
-                        verify[sizing] = output;
-                        output = _closure1_slot1;
-                        result = _closure1_slot3;
-                        sizing = 43;
-                        sizing = result[sizing];
-                        sizing = output.bind(zuuluu)(sizing);
-                        output = sizing.bind(zuuluu)();
-                        sizing = 'device_performance_class';
-                        verify[sizing] = output;
-                        sizing = golfie._connection;
-                        sizing = foxtra != sizing;
-                        output = null;
-                        if(!sizing) { _fun00094_ip = 1840; continue _fun00093 }
- 1810:
-                        echoed = golfie._connection;
-                        result = foxtra == echoed;
-                        sizing = undefined;
-                        if(result) { _fun00094_ip = 1837; continue _fun00093 }
- 1825:
-                        result = echoed.getNumFastUdpReconnects;
-                        sizing = result.bind(echoed)();
- 1837:
-                        output = sizing;
- 1840:
-                        sizing = 'num_fast_udp_reconnects';
-                        verify[sizing] = output;
-                        output = golfie.parentMediaSessionId;
-                        sizing = 'parent_media_session_id';
-                        verify[sizing] = output;
-                        output = _closure1_slot15;
-                        sizing = output.getMediaEngine;
-                        result = sizing.bind(output)();
-                        sizing = result.getAudioSubsystem;
-                        result = sizing.bind(result)();
-                        sizing = 'audio_subsystem';
-                        verify[sizing] = result;
-                        sizing = output.getMediaEngine;
-                        output = sizing.bind(output)();
-                        sizing = output.getAudioLayer;
-                        output = sizing.bind(output)();
-                        sizing = 'audio_layer';
-                        verify[sizing] = output;
-                        sizing = backup.automaticAudioSubsystem;
-                        backup = 'automatic_audio_subsystem';
-                        verify[backup] = sizing;
-                        backup = golfie.getVoiceParticipantType;
-                        sizing = backup.bind(golfie)();
-                        backup = 'participant_type';
-                        verify[backup] = sizing;
-                        backup = 'audio_capture_sample_rate_mismatch_percent';
-                        verify[backup] = kiloes;
-                        foxtra = foxtra == michal;
-                        backup = undefined;
-                        if(foxtra) { _fun00094_ip = 1988; continue _fun00093 }
- 1982:
-                        backup = michal.batteryUsageRounded;
- 1988:
-                        foxtra = 'battery_usage';
-                        verify[foxtra] = backup;
-                        verify = yankee.bind(romeon)(offset, verify);
-                        verify = golfie.getMediaSessionId;
-                        verify = verify.bind(golfie)();
-                        _closure4_slot3 = verify;
-                        offset = _closure1_slot15;
-                        verify = offset.getMediaEngine;
-                        offset = verify.bind(offset)();
-                        verify = offset.getCodecSurvey;
-                        yankee = verify.bind(offset)();
-                        offset = yankee.then;
-                        verify = function(argFoo) {
+                        michal = golfie.getMediaSessionId;
+                        michal = michal.bind(golfie)();
+                        _closure4_slot3 = michal;
+                        report = _closure1_slot15;
+                        michal = report.getMediaEngine;
+                        report = michal.bind(report)();
+                        michal = report.getCodecSurvey;
+                        verify = michal.bind(report)();
+                        report = verify.then;
+                        michal = function(argFoo) {
                             _fun00099: for(var _fun00100_ip = 0; ; ) switch(_fun00100_ip) {
  0:
                                 entity = global;
@@ -3780,9 +3407,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                                 throw entity;
                             }
                         };
-                        offset = offset.bind(yankee)(verify);
-                        verify = offset.catch;
-                        report = function(argFoo) {
+                        verify = report.bind(verify)(michal);
+                        report = verify.catch;
+                        michal = function(argFoo) {
                             entity = _closure4_slot0;
                             zuuluu = entity.logger;
                             michal = zuuluu.warn;
@@ -3791,10 +3418,387 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             entity = undefined;
                             return entity;
                         };
-                        report = verify.bind(offset)(report);
-                        report = golfie._trackMLSFailures;
-                        report = report.bind(golfie)();
- 2086:
+                        michal = report.bind(verify)(michal);
+                        michal = golfie._trackMLSFailures;
+                        michal = michal.bind(golfie)();
+                        report = _closure1_slot18;
+                        michal = report.shouldIncludePreferredRegion;
+                        michal = michal.bind(report)();
+                        offset = null;
+                        if(!michal) { _fun00094_ip = 665; continue _fun00093 }
+ 651:
+                        report = _closure1_slot18;
+                        michal = report.getPreferredRegion;
+                        offset = michal.bind(report)();
+ 665:
+                        report = _closure1_slot15;
+                        michal = report.getSettings;
+                        michal = michal.bind(report)();
+                        foxtra = _closure1_slot14;
+                        verify = foxtra.getChannel;
+                        report = golfie.channelId;
+                        verify = verify.bind(foxtra)(report);
+                        kiloes = _closure1_slot11;
+                        foxtra = kiloes.getFirstConnectionStatsByContext;
+                        report = _closure1_slot25;
+                        report = report.DEFAULT;
+                        foxtra = foxtra.bind(kiloes)(report);
+                        kiloes = romeon == foxtra;
+                        report = undefined;
+                        if(kiloes) { _fun00094_ip = 780; continue _fun00093 }
+ 732:
+                        foxtra = foxtra.stats;
+                        foxtra = foxtra.rtp;
+                        kiloes = foxtra.outbound;
+                        foxtra = kiloes.find;
+                        yankee = function(argFoo) {
+                            entity = argFoo;
+                            michal = entity.type;
+                            entity = 'audio';
+                            entity = entity === michal;
+                            return entity;
+                        };
+                        yankee = foxtra.bind(kiloes)(yankee);
+                        foxtra = romeon == yankee;
+                        report = undefined;
+                        if(foxtra) { _fun00094_ip = 780; continue _fun00093 }
+ 774:
+                        report = yankee.sampleRateMismatchPercent;
+ 780:
+                        foxtra = {};
+                        yankee = golfie._getAnalyticsProperties;
+                        ctrled = yankee.bind(golfie)();
+                        vacuum = foxtra;
+                        yankee = copyDataProperties(vacuum, ctrled);
+                        kiloes = golfie.hostname;
+                        yankee = 'hostname';
+                        foxtra[yankee] = kiloes;
+                        kiloes = golfie.port;
+                        yankee = 'port';
+                        foxtra[yankee] = kiloes;
+                        kiloes = golfie.protocol;
+                        yankee = 'protocol';
+                        foxtra[yankee] = kiloes;
+                        yankee = 'reconnect';
+                        foxtra[yankee] = option;
+                        yankee = 'reason';
+                        foxtra[yankee] = backup;
+                        yankee = golfie.getDuration;
+                        backup = yankee.bind(golfie)();
+                        yankee = 'duration';
+                        foxtra[yankee] = backup;
+                        kiloes = golfie._voiceQuality;
+                        backup = romeon == kiloes;
+                        yankee = undefined;
+                        if(backup) { _fun00094_ip = 908; continue _fun00093 }
+ 896:
+                        backup = kiloes.getMosStats;
+                        yankee = backup.bind(kiloes)();
+ 908:
+                        vacuum = foxtra;
+                        ctrled = yankee;
+                        yankee = copyDataProperties(vacuum, ctrled);
+                        kiloes = golfie._voiceQuality;
+                        backup = romeon == kiloes;
+                        yankee = undefined;
+                        if(backup) { _fun00094_ip = 943; continue _fun00093 }
+ 933:
+                        backup = kiloes.getPacketStats;
+                        yankee = backup.bind(kiloes)();
+ 943:
+                        vacuum = foxtra;
+                        ctrled = yankee;
+                        yankee = copyDataProperties(vacuum, ctrled);
+                        kiloes = golfie._voiceQuality;
+                        backup = romeon == kiloes;
+                        yankee = undefined;
+                        if(backup) { _fun00094_ip = 980; continue _fun00093 }
+ 968:
+                        backup = kiloes.getBytesStats;
+                        yankee = backup.bind(kiloes)();
+ 980:
+                        vacuum = foxtra;
+                        ctrled = yankee;
+                        yankee = copyDataProperties(vacuum, ctrled);
+                        kiloes = golfie._voiceQuality;
+                        backup = romeon == kiloes;
+                        yankee = undefined;
+                        if(backup) { _fun00094_ip = 1017; continue _fun00093 }
+ 1005:
+                        backup = kiloes.getBufferStats;
+                        yankee = backup.bind(kiloes)();
+ 1017:
+                        vacuum = foxtra;
+                        ctrled = yankee;
+                        yankee = copyDataProperties(vacuum, ctrled);
+                        kiloes = golfie._voiceQuality;
+                        backup = romeon == kiloes;
+                        yankee = undefined;
+                        if(backup) { _fun00094_ip = 1052; continue _fun00093 }
+ 1042:
+                        backup = kiloes.getNetworkStats;
+                        yankee = backup.bind(kiloes)();
+ 1052:
+                        vacuum = foxtra;
+                        ctrled = yankee;
+                        yankee = copyDataProperties(vacuum, ctrled);
+                        kiloes = golfie._voiceQuality;
+                        backup = romeon == kiloes;
+                        yankee = undefined;
+                        if(backup) { _fun00094_ip = 1089; continue _fun00093 }
+ 1077:
+                        backup = kiloes.getSystemResourceStats;
+                        yankee = backup.bind(kiloes)();
+ 1089:
+                        vacuum = foxtra;
+                        ctrled = yankee;
+                        yankee = copyDataProperties(vacuum, ctrled);
+                        kiloes = golfie._voiceQuality;
+                        backup = romeon == kiloes;
+                        yankee = undefined;
+                        if(backup) { _fun00094_ip = 1126; continue _fun00093 }
+ 1114:
+                        backup = kiloes.getFrameOpStats;
+                        yankee = backup.bind(kiloes)();
+ 1126:
+                        vacuum = foxtra;
+                        ctrled = yankee;
+                        yankee = copyDataProperties(vacuum, ctrled);
+                        kiloes = golfie._voiceQuality;
+                        backup = romeon == kiloes;
+                        yankee = undefined;
+                        if(backup) { _fun00094_ip = 1161; continue _fun00093 }
+ 1151:
+                        backup = kiloes.getDurationStats;
+                        yankee = backup.bind(kiloes)();
+ 1161:
+                        vacuum = foxtra;
+                        ctrled = yankee;
+                        yankee = copyDataProperties(vacuum, ctrled);
+                        kiloes = golfie._voiceQuality;
+                        backup = romeon == kiloes;
+                        yankee = undefined;
+                        if(backup) { _fun00094_ip = 1198; continue _fun00093 }
+ 1186:
+                        backup = kiloes.getTransportStats;
+                        yankee = backup.bind(kiloes)();
+ 1198:
+                        vacuum = foxtra;
+                        ctrled = yankee;
+                        yankee = copyDataProperties(vacuum, ctrled);
+                        kiloes = golfie._voiceQuality;
+                        backup = romeon == kiloes;
+                        yankee = undefined;
+                        if(backup) { _fun00094_ip = 1235; continue _fun00093 }
+ 1223:
+                        backup = kiloes.getE2EEStats;
+                        yankee = backup.bind(kiloes)();
+ 1235:
+                        vacuum = foxtra;
+                        ctrled = yankee;
+                        yankee = copyDataProperties(vacuum, ctrled);
+                        kiloes = golfie._voiceQuality;
+                        backup = romeon == kiloes;
+                        yankee = undefined;
+                        if(backup) { _fun00094_ip = 1272; continue _fun00093 }
+ 1260:
+                        backup = kiloes.getAudioDeviceStats;
+                        yankee = backup.bind(kiloes)();
+ 1272:
+                        vacuum = foxtra;
+                        ctrled = yankee;
+                        yankee = copyDataProperties(vacuum, ctrled);
+                        kiloes = golfie._voiceDuration;
+                        backup = romeon == kiloes;
+                        yankee = undefined;
+                        if(backup) { _fun00094_ip = 1307; continue _fun00093 }
+ 1297:
+                        backup = kiloes.getDurationStats;
+                        yankee = backup.bind(kiloes)();
+ 1307:
+                        vacuum = foxtra;
+                        ctrled = yankee;
+                        yankee = copyDataProperties(vacuum, ctrled);
+                        yankee = golfie.getAudioDeviceStates;
+                        ctrled = yankee.bind(golfie)();
+                        vacuum = foxtra;
+                        yankee = copyDataProperties(vacuum, ctrled);
+                        kiloes = golfie._systemResponsiveness;
+                        backup = romeon == kiloes;
+                        yankee = undefined;
+                        if(backup) { _fun00094_ip = 1361; continue _fun00093 }
+ 1349:
+                        backup = kiloes.getPttQueueLatencyStats;
+                        yankee = backup.bind(kiloes)();
+ 1361:
+                        vacuum = foxtra;
+                        ctrled = yankee;
+                        yankee = copyDataProperties(vacuum, ctrled);
+                        yankee = golfie.getMediaSessionId;
+                        backup = yankee.bind(golfie)();
+                        yankee = 'media_session_id';
+                        foxtra[yankee] = backup;
+                        backup = romeon != verify;
+                        yankee = null;
+                        if(!backup) { _fun00094_ip = 1405; continue _fun00093 }
+ 1399:
+                        yankee = verify.bitrate;
+ 1405:
+                        verify = 'channel_bitrate';
+                        foxtra[verify] = yankee;
+                        verify = 'cloudflare_best_region';
+                        foxtra[verify] = offset;
+                        offset = golfie._connectCount;
+                        verify = 'connect_count';
+                        foxtra[verify] = offset;
+                        yankee = oscard.Math;
+                        offset = yankee.round;
+                        verify = golfie.getAveragePing;
+                        verify = verify.bind(golfie)();
+                        offset = offset.bind(yankee)(verify);
+                        verify = 'ping_average';
+                        foxtra[verify] = offset;
+                        offset = golfie._pingBadCount;
+                        verify = 'ping_bad_count';
+                        foxtra[verify] = offset;
+                        verify = golfie._pingTimeouts;
+                        offset = verify.length;
+                        verify = 'ping_timeout';
+                        foxtra[verify] = offset;
+                        offset = golfie._inputDetected;
+                        verify = 'input_detected';
+                        foxtra[verify] = offset;
+                        offset = _closure1_slot15;
+                        verify = offset.getNoInputDetectedNotice;
+                        offset = verify.bind(offset)();
+                        verify = 'no_input_detected_notice';
+                        foxtra[verify] = offset;
+                        offset = michal.mode;
+                        verify = 'audio_input_mode';
+                        foxtra[verify] = offset;
+                        verify = michal.modeOptions;
+                        offset = verify.autoThreshold;
+                        verify = 'automatic_audio_input_sensitivity_enabled';
+                        foxtra[verify] = offset;
+                        verify = michal.modeOptions;
+                        offset = verify.threshold;
+                        verify = 'audio_input_sensitivity';
+                        foxtra[verify] = offset;
+                        offset = michal.echoCancellation;
+                        verify = 'echo_cancellation_enabled';
+                        foxtra[verify] = offset;
+                        offset = michal.sidechainCompression;
+                        verify = 'sidechain_compression_enabled';
+                        foxtra[verify] = offset;
+                        offset = michal.noiseSuppression;
+                        verify = 'noise_suppression_enabled';
+                        foxtra[verify] = offset;
+                        offset = michal.noiseCancellation;
+                        verify = 'noise_cancellation_enabled';
+                        foxtra[verify] = offset;
+                        offset = golfie._noiseCancellationError;
+                        verify = 'noise_canceller_error';
+                        foxtra[verify] = offset;
+                        offset = michal.automaticGainControl;
+                        verify = 'automatic_gain_control_enabled';
+                        foxtra[verify] = offset;
+                        offset = michal.outputVolume;
+                        verify = 'voice_output_volume';
+                        foxtra[verify] = offset;
+                        offset = golfie._encryptionMode;
+                        verify = 'encryption_mode';
+                        foxtra[verify] = offset;
+                        verify = golfie.channelIds;
+                        offset = verify.size;
+                        verify = 'channel_count';
+                        foxtra[verify] = offset;
+                        offset = _closure1_slot1;
+                        yankee = _closure1_slot3;
+                        verify = 43;
+                        verify = yankee[verify];
+                        verify = offset.bind(zuuluu)(verify);
+                        offset = verify.bind(zuuluu)();
+                        verify = 'device_performance_class';
+                        foxtra[verify] = offset;
+                        verify = golfie._connection;
+                        verify = romeon != verify;
+                        offset = null;
+                        if(!verify) { _fun00094_ip = 1846; continue _fun00093 }
+ 1816:
+                        backup = golfie._connection;
+                        yankee = romeon == backup;
+                        verify = undefined;
+                        if(yankee) { _fun00094_ip = 1843; continue _fun00093 }
+ 1831:
+                        yankee = backup.getNumFastUdpReconnects;
+                        verify = yankee.bind(backup)();
+ 1843:
+                        offset = verify;
+ 1846:
+                        verify = 'num_fast_udp_reconnects';
+                        foxtra[verify] = offset;
+                        offset = golfie.parentMediaSessionId;
+                        verify = 'parent_media_session_id';
+                        foxtra[verify] = offset;
+                        offset = _closure1_slot15;
+                        verify = offset.getMediaEngine;
+                        yankee = verify.bind(offset)();
+                        verify = yankee.getAudioSubsystem;
+                        yankee = verify.bind(yankee)();
+                        verify = 'audio_subsystem';
+                        foxtra[verify] = yankee;
+                        verify = offset.getMediaEngine;
+                        offset = verify.bind(offset)();
+                        verify = offset.getAudioLayer;
+                        offset = verify.bind(offset)();
+                        verify = 'audio_layer';
+                        foxtra[verify] = offset;
+                        verify = michal.automaticAudioSubsystem;
+                        michal = 'automatic_audio_subsystem';
+                        foxtra[michal] = verify;
+                        michal = golfie.getVoiceParticipantType;
+                        verify = michal.bind(golfie)();
+                        michal = 'participant_type';
+                        foxtra[michal] = verify;
+                        michal = 'audio_capture_sample_rate_mismatch_percent';
+                        foxtra[michal] = report;
+                        verify = golfie._systemResources;
+                        report = romeon == verify;
+                        michal = undefined;
+                        if(report) { _fun00094_ip = 2006; continue _fun00093 }
+ 1994:
+                        report = verify.getBatteryLevelStats;
+                        michal = report.bind(verify)();
+ 2006:
+                        SaveGenerator(address=2010);
+ 2008:
+                        return michal;
+ 2010:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                        if(report) { _fun00094_ip = 2421; continue _fun00093 }
+ 2019:
+                        verify = _closure1_slot1;
+                        offset = _closure1_slot3;
+                        report = 20;
+                        report = offset[report];
+                        yankee = verify.bind(zuuluu)(report);
+                        offset = yankee.track;
+                        report = _closure1_slot20;
+                        verify = report.VOICE_DISCONNECT;
+                        report = {};
+                        vacuum = report;
+                        ctrled = foxtra;
+                        foxtra = copyDataProperties(vacuum, ctrled);
+                        romeon = romeon == michal;
+                        foxtra = undefined;
+                        if(romeon) { _fun00094_ip = 2081; continue _fun00093 }
+ 2075:
+                        foxtra = michal.batteryUsageRounded;
+ 2081:
+                        romeon = 'battery_usage';
+                        report[romeon] = foxtra;
+                        report = offset.bind(yankee)(verify, report);
+ 2098:
                         report = new Array(0);
                         golfie['_pingTimeouts'] = report;
                         report = new Array(0);
@@ -3807,11 +3811,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         report = null;
                         golfie['_mediaSessionId'] = report;
                         yankee = golfie._voiceQuality;
-                        if(!(report != yankee)) { _fun00094_ip = 2156; continue _fun00093 }
- 2146:
+                        if(!(report != yankee)) { _fun00094_ip = 2168; continue _fun00093 }
+ 2158:
                         offset = yankee.stop;
                         offset = offset.bind(yankee)();
- 2156:
+ 2168:
                         golfie['_voiceQuality'] = report;
                         yankee = oscard.clearInterval;
                         offset = golfie._voiceQualityPeriodicStatsInterval;
@@ -3820,26 +3824,26 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         golfie['_voiceQualityPeriodicStatsSequenceId'] = verify;
                         golfie['_noiseCancellationError'] = verify;
                         offset = golfie._voiceDuration;
-                        if(!(report != offset)) { _fun00094_ip = 2217; continue _fun00093 }
- 2207:
+                        if(!(report != offset)) { _fun00094_ip = 2229; continue _fun00093 }
+ 2219:
                         verify = offset.stop;
                         verify = verify.bind(offset)();
- 2217:
+ 2229:
                         golfie['_voiceDuration'] = report;
                         offset = golfie._videoQuality;
-                        if(!(report != offset)) { _fun00094_ip = 2243; continue _fun00093 }
- 2233:
+                        if(!(report != offset)) { _fun00094_ip = 2255; continue _fun00093 }
+ 2245:
                         verify = offset.stop;
                         verify = verify.bind(offset)();
- 2243:
+ 2255:
                         golfie['_videoQuality'] = report;
                         golfie['_videoHealthManager'] = report;
                         offset = golfie._localMediaSinkWantsManager;
-                        if(!(report != offset)) { _fun00094_ip = 2275; continue _fun00093 }
- 2265:
+                        if(!(report != offset)) { _fun00094_ip = 2287; continue _fun00093 }
+ 2277:
                         verify = offset.reset;
                         verify = verify.bind(offset)();
- 2275:
+ 2287:
                         golfie['_secureFramesState'] = report;
                         offset = oscard.Set;
                         verify = golfie.userId;
@@ -3847,22 +3851,22 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         oscard[0] = verify;
                         verify = offset.prototype;
                         verify = Object.create(verify, {constructor: {value: offset}});
-                        papara = verify;
-                        cntext = oscard;
-                        oscard = new papara[offset](cntext, record);
+                        sequen = verify;
+                        vacuum = oscard;
+                        oscard = new sequen[offset](vacuum, ctrled);
                         oscard = oscard instanceof Object ? oscard : verify;
                         golfie['_userIds'] = oscard;
                         verify = golfie._secureFramesRosterMap;
                         oscard = verify.clear;
                         oscard = oscard.bind(verify)();
                         oscard = golfie._connection;
-                        if(!(report != oscard)) { _fun00094_ip = 2377; continue _fun00093 }
- 2355:
+                        if(!(report != oscard)) { _fun00094_ip = 2389; continue _fun00093 }
+ 2367:
                         oscard = golfie._connection;
                         golfie['_connection'] = report;
                         report = oscard.destroy;
                         report = report.bind(oscard)();
- 2377:
+ 2389:
                         oscard = golfie.setState;
                         tangon = _closure1_slot22;
                         report = tangon.DISCONNECTED;
@@ -3870,9 +3874,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         tangon['willReconnect'] = option;
                         tangon = oscard.bind(golfie)(report, tangon);
                         return zuuluu;
- 2409:
+ 2421:
                         return michal;
- 2412:
+ 2424:
                         return entity;
                     }
                 };

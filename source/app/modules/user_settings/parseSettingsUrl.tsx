@@ -26,6 +26,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot3 = tangon;
     tangon = /-/g;
     var _closure1_slot4 = tangon;
+    tangon = {};
+    golfie = 'CLICKER_GAME';
+    tangon['THE_LAST_MEADOW'] = golfie;
+    var _closure1_slot5 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -59,34 +63,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = '_';
             report = golfie.bind(offset)(zuuluu, entity);
  89:
+            entity = _closure1_slot5;
+            entity = entity[report];
+            if(!(oscard != entity)) { _fun00002_ip = 104; continue _fun00001 }
+ 101:
+            report = entity;
+ 104:
             entity = oscard == michal;
             zuuluu = undefined;
-            if(entity) { _fun00002_ip = 127; continue _fun00001 }
- 98:
+            if(entity) { _fun00002_ip = 142; continue _fun00001 }
+ 113:
             entity = michal.toUpperCase;
             offset = entity.bind(michal)();
             golfie = offset.replace;
             michal = _closure1_slot4;
             entity = '_';
             zuuluu = golfie.bind(offset)(michal, entity);
- 127:
+ 142:
             michal = _closure1_slot3;
             entity = michal.hasOwnProperty;
             michal = entity.bind(michal)(report);
             entity = null;
-            if(!michal) { _fun00002_ip = 252; continue _fun00001 }
- 147:
-            if(!(oscard != zuuluu)) { _fun00002_ip = 179; continue _fun00001 }
- 151:
+            if(!michal) { _fun00002_ip = 267; continue _fun00001 }
+ 162:
+            if(!(oscard != zuuluu)) { _fun00002_ip = 194; continue _fun00001 }
+ 166:
             michal = '';
-            if(!(michal !== zuuluu)) { _fun00002_ip = 179; continue _fun00001 }
- 159:
+            if(!(michal !== zuuluu)) { _fun00002_ip = 194; continue _fun00001 }
+ 174:
             golfie = _closure1_slot3;
             michal = golfie.hasOwnProperty;
             michal = michal.bind(golfie)(zuuluu);
             entity = null;
-            if(!michal) { _fun00002_ip = 252; continue _fun00001 }
- 179:
+            if(!michal) { _fun00002_ip = 267; continue _fun00001 }
+ 194:
             michal = {};
             golfie = _closure1_slot0;
             oscard = _closure1_slot1;
@@ -104,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['section'] = tangon;
             michal['subsection'] = zuuluu;
             entity = michal;
- 252:
+ 267:
             return entity;
         }
     };

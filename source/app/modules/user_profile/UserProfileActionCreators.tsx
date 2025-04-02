@@ -580,8 +580,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu = {};
         oscard = 'USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_PRESET';
         zuuluu['type'] = oscard;
-        oscard = argFoo;
-        zuuluu['preset'] = oscard;
+        golfie = argFoo;
+        option = zuuluu;
+        oscard = copyDataProperties(option, golfie);
         zuuluu = tangon.bind(report)(zuuluu);
         zuuluu = _closure1_slot10;
         michal = _closure1_slot9;

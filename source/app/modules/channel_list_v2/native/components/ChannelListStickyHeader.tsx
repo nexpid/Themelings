@@ -181,11 +181,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['onPress'] = romeon;
             report['onPressIn'] = yankee;
             report['onPressOut'] = oscard;
+            oscard = true;
+            report['accessible'] = oscard;
+            oscard = 'button';
+            report['accessibilityRole'] = oscard;
+            sequen = 9;
+            oscard = result[sequen];
+            oscard = foxtra.bind(tangon)(oscard);
+            romeon = oscard.intl;
+            yankee = romeon.string;
+            oscard = result[sequen];
+            oscard = foxtra.bind(tangon)(oscard);
+            oscard = oscard.t;
+            oscard = oscard.Gpyp/f;
+            oscard = yankee.bind(romeon)(oscard);
+            report['accessibilityHint'] = oscard;
             oscard = {};
             yankee = source.header;
             oscard['style'] = yankee;
             backup = _closure1_slot5;
-            output = 9;
+            output = 10;
             yankee = result[output];
             yankee = foxtra.bind(tangon)(yankee);
             romeon = yankee.Text;
@@ -197,12 +212,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = backup.bind(tangon)(romeon, yankee);
             yankee = new Array(3);
             yankee[0] = romeon;
-            romeon = 10;
+            romeon = 11;
             romeon = result[romeon];
             kiloes = sizing.bind(tangon)(romeon);
             romeon = {};
             romeon['guild'] = offset;
-            echoed = 11;
+            echoed = 12;
             echoed = result[echoed];
             echoed = sizing.bind(tangon)(echoed);
             echoed = echoed.Sizes;
@@ -212,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['style'] = echoed;
             romeon = backup.bind(tangon)(kiloes, romeon);
             yankee[1] = romeon;
-            romeon = 12;
+            romeon = 13;
             romeon = result[romeon];
             romeon = foxtra.bind(tangon)(romeon);
             foxtra = romeon.ChevronSmallRightIcon;
@@ -236,13 +251,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = null;
             foxtra = oscard != papara;
             romeon = null;
-            if(!foxtra) { _fun00002_ip = 702; continue _fun00001 }
- 438:
+            if(!foxtra) { _fun00002_ip = 768; continue _fun00001 }
+ 507:
             foxtra = 0;
             foxtra = papara > foxtra;
             romeon = null;
-            if(!foxtra) { _fun00002_ip = 702; continue _fun00001 }
- 452:
+            if(!foxtra) { _fun00002_ip = 768; continue _fun00001 }
+ 521:
             kiloes = _closure1_slot6;
             backup = _closure1_slot4;
             foxtra = {};
@@ -250,17 +265,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['style'] = sizing;
             echoed = _closure1_slot5;
             vacuum = _closure1_slot0;
-            sequen = _closure1_slot2;
-            sizing = sequen[output];
+            update = _closure1_slot2;
+            sizing = update[output];
             sizing = vacuum.bind(tangon)(sizing);
             result = sizing.Text;
             sizing = {'experimental_useNativeText': true, 'color': 'text-muted', 'variant': 'text-xs/medium', 'lineClamp': 1};
-            update = 13;
-            ctrled = sequen[update];
+            ctrled = update[sequen];
             ctrled = vacuum.bind(tangon)(ctrled);
             cntext = ctrled.intl;
             record = cntext.format;
-            ctrled = sequen[update];
+            ctrled = update[sequen];
             ctrled = vacuum.bind(tangon)(ctrled);
             ctrled = ctrled.t;
             config = ctrled.zRl6XV;
@@ -276,15 +290,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['style'] = source;
             result = echoed.bind(tangon)(backup, result);
             sizing[1] = result;
-            output = sequen[output];
+            output = update[output];
             output = vacuum.bind(tangon)(output);
             result = output.Text;
             output = {'experimental_useNativeText': true, 'color': 'text-muted', 'variant': 'text-xs/medium', 'lineClamp': 1};
-            source = sequen[update];
+            source = update[sequen];
             source = vacuum.bind(tangon)(source);
             ctrled = source.intl;
             source = ctrled.string;
-            update = sequen[update];
+            update = update[sequen];
             update = vacuum.bind(tangon)(update);
             update = update.t;
             update = update.1g9A/f;
@@ -294,15 +308,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing[2] = output;
             foxtra['children'] = sizing;
             romeon = kiloes.bind(tangon)(backup, foxtra);
- 702:
+ 768:
             yankee[1] = romeon;
             report['children'] = yankee;
             verify = zuuluu.bind(tangon)(verify, report);
             report = new Array(2);
             report[0] = verify;
             oscard = null;
-            if(!option) { _fun00002_ip = 779; continue _fun00001 }
- 729:
+            if(!option) { _fun00002_ip = 845; continue _fun00001 }
+ 795:
             verify = _closure1_slot5;
             option = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -312,7 +326,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = {'guild': null, 'useButtonComponent': true, 'useEventsButton': true};
             golfie['guild'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 779:
+ 845:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

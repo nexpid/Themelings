@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot0;
-                    if(entity) { _fun00004_ip = 632; continue _fun00003 }
+                    if(entity) { _fun00004_ip = 624; continue _fun00003 }
  13:
                     zuuluu = _closure1_slot5;
                     michal = zuuluu.loop;
@@ -316,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = michal.bind(zuuluu)(entity);
                     entity = michal.start;
                     entity = entity.bind(michal)();
- 632:
+ 624:
                     entity = undefined;
                     return entity;
                 }

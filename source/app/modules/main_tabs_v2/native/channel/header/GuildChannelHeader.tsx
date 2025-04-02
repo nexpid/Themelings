@@ -711,7 +711,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = !zuuluu;
                     if(!offset) { _fun00018_ip = 163; continue _fun00017 }
  153:
-                    zuuluu = 800000;
+                    zuuluu = 500;
                     offset = tangon < zuuluu;
  163:
                     if(!offset) { _fun00018_ip = 170; continue _fun00017 }

@@ -208,7 +208,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             entity = _closure3_slot0;
                             entity = entity.id;
                             entity = report.bind(oscard)(tangon, entity);
-                            entity = zuuluu !== entity;
+                            entity = zuuluu != entity;
                             zuuluu = _closure1_slot7;
                             michal = zuuluu.getCheck;
                             michal = michal.bind(zuuluu)(tangon);

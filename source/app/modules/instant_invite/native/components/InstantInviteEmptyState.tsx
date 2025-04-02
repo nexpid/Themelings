@@ -169,10 +169,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = null;
             echoed = offset != foxtra;
             offset = '';
-            if(!echoed) { _fun00002_ip = 361; continue _fun00001 }
- 358:
+            if(!echoed) { _fun00002_ip = 365; continue _fun00001 }
+ 362:
             offset = foxtra;
- 361:
+ 365:
             golfie['value'] = offset;
             offset = romeon.inviteInput;
             golfie['style'] = offset;

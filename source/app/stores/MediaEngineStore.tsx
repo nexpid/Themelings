@@ -3045,7 +3045,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                 michal = this;
                 entity = michal.started;
-                if(!entity) { _fun00094_ip = 161; continue _fun00093 }
+                if(!entity) { _fun00094_ip = 157; continue _fun00093 }
  15:
                 entity = false;
                 michal['started'] = entity;
@@ -3079,7 +3079,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 michal = zuuluu.dispatch;
                 entity = {'type': 'AUDIO_INPUT_DETECTED', 'inputDetected': null};
                 entity = michal.bind(zuuluu)(entity);
- 161:
+ 157:
                 entity = undefined;
                 return entity;
             }

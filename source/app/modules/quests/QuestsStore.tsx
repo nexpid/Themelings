@@ -1172,24 +1172,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
             entity = argFoo;
-            oscard = entity.decisionId;
-            report = entity.quest;
+            golfie = entity.decisionId;
+            oscard = entity.quest;
             zuuluu = entity.placement;
+            report = entity.adIdentifiers;
             entity = null;
-            if(!(entity != report)) { _fun00028_ip = 59; continue _fun00027 }
- 27:
+            if(!(entity != oscard)) { _fun00028_ip = 70; continue _fun00027 }
+ 33:
             tangon = _closure1_slot18;
             michal = tangon.set;
             entity = {};
-            entity['decisionId'] = oscard;
-            entity['quest'] = report;
+            entity['decisionId'] = golfie;
+            entity['quest'] = oscard;
+            entity['adIdentifiers'] = report;
             entity = michal.bind(tangon)(zuuluu, entity);
-            _fun00028_ip = 76; continue _fun00027;
- 59:
+            _fun00028_ip = 87; continue _fun00027;
+ 70:
             michal = _closure1_slot18;
             entity = michal.delete;
             entity = entity.bind(michal)(zuuluu);
- 76:
+ 87:
             entity = undefined;
             return entity;
         }

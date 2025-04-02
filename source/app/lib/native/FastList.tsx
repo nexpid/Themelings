@@ -3083,7 +3083,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = verify.bind(entity)(oscard, option);
             michal['children'] = report;
             entity = tangon.bind(entity)(zuuluu, michal);
-            _fun00062_ip = 184; continue _fun00061;
+            _fun00062_ip = 188; continue _fun00061;
  88:
             report = _closure1_slot15;
             zuuluu = _closure1_slot1;
@@ -3095,15 +3095,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {'collapsable': false, 'style': null, 'preventClipping': true};
             golfie = false;
             yankee = {};
-            if(offset) { _fun00062_ip = 143; continue _fun00061 }
- 134:
+            if(offset) { _fun00062_ip = 147; continue _fun00061 }
+ 138:
             yankee['height'] = romeon;
             offset = yankee;
-            _fun00062_ip = 150; continue _fun00061;
- 143:
+            _fun00062_ip = 154; continue _fun00061;
+ 147:
             yankee['width'] = romeon;
             offset = yankee;
- 150:
+ 154:
             michal['style'] = offset;
             option = verify.bind(tangon)(oscard, option);
             oscard = new Array(2);
@@ -3111,7 +3111,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = report.bind(tangon)(zuuluu, michal);
- 184:
+ 188:
             return entity;
         }
     };
@@ -3266,7 +3266,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = option.bind(entity)(oscard);
             michal['children'] = report;
             entity = tangon.bind(entity)(zuuluu, michal);
-            _fun00068_ip = 177; continue _fun00067;
+            _fun00068_ip = 181; continue _fun00067;
  82:
             report = _closure1_slot15;
             zuuluu = _closure1_slot1;
@@ -3278,15 +3278,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {'collapsable': false, 'style': null, 'preventClipping': true};
             golfie = false;
             offset = {};
-            if(verify) { _fun00068_ip = 137; continue _fun00067 }
- 128:
+            if(verify) { _fun00068_ip = 141; continue _fun00067 }
+ 132:
             offset['height'] = yankee;
             verify = offset;
-            _fun00068_ip = 144; continue _fun00067;
- 137:
+            _fun00068_ip = 148; continue _fun00067;
+ 141:
             offset['width'] = yankee;
             verify = offset;
- 144:
+ 148:
             michal['style'] = verify;
             option = option.bind(tangon)(oscard);
             oscard = new Array(2);
@@ -3294,7 +3294,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = report.bind(tangon)(zuuluu, michal);
- 177:
+ 181:
             return entity;
         }
     };

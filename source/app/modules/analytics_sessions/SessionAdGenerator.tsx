@@ -140,13 +140,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     zuuluu['getOrRefreshAdSession'] = report;
-    tangon = function() { // Original name: clearAdSession
+    report = function() { // Original name: clearAdSession
         entity = null;
         _closure1_slot4 = entity;
         entity = undefined;
         return entity;
     };
-    zuuluu['clearAdSession'] = tangon;
+    zuuluu['clearAdSession'] = report;
+    tangon = function() { // Original name: getCurrentAdSession
+        entity = _closure1_slot4;
+        return entity;
+    };
+    zuuluu['getCurrentAdSession'] = tangon;
     zuuluu['isAdSessionExpired'] = michal;
     return entity;
 })();

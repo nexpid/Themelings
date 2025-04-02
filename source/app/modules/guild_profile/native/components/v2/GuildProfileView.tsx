@@ -123,21 +123,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = zuuluu.bind(tangon)(report, verify);
             zuuluu = golfie.brandColorPrimary;
             report = null;
-            if(!(report != zuuluu)) { _fun00004_ip = 251; continue _fun00003 }
- 245:
+            if(!(report != zuuluu)) { _fun00004_ip = 249; continue _fun00003 }
+ 243:
             yankee = golfie.brandColorPrimary;
- 251:
-            if(!(report != offset)) { _fun00004_ip = 289; continue _fun00003 }
- 255:
+ 249:
+            if(!(report != offset)) { _fun00004_ip = 287; continue _fun00003 }
+ 253:
             verify = offset.hasFeature;
             zuuluu = _closure1_slot8;
             zuuluu = zuuluu.DISCOVERABLE;
             zuuluu = verify.bind(offset)(zuuluu);
-            if(!zuuluu) { _fun00004_ip = 289; continue _fun00003 }
- 279:
+            if(!zuuluu) { _fun00004_ip = 287; continue _fun00003 }
+ 277:
             zuuluu = golfie.customBanner;
-            if(!(report == zuuluu)) { _fun00004_ip = 375; continue _fun00003 }
- 289:
+            if(!(report == zuuluu)) { _fun00004_ip = 373; continue _fun00003 }
+ 287:
             verify = _closure1_slot10;
             report = _closure1_slot1;
             offset = _closure1_slot2;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['colors'] = offset;
             zuuluu = verify.bind(tangon)(report, zuuluu);
             return zuuluu;
- 375:
+ 373:
             verify = _closure1_slot1;
             offset = _closure1_slot2;
             michal = offset[michal];

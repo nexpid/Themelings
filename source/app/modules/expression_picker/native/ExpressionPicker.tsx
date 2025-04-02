@@ -274,12 +274,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot5;
             zuuluu = zuuluu.EMOJI;
             zuuluu = romeon === zuuluu;
-            if(zuuluu) { _fun00002_ip = 398; continue _fun00001 }
- 384:
+            if(zuuluu) { _fun00002_ip = 408; continue _fun00001 }
+ 394:
             report = _closure1_slot5;
             report = report.STICKER;
             zuuluu = romeon === report;
- 398:
+ 408:
             entity['hasCategories'] = zuuluu;
             michal = michal.bind(tangon)(entity);
             zuuluu = _closure1_slot0;
@@ -289,16 +289,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(tangon)(entity);
             entity = zuuluu.useIsScreenReaderEnabled;
             entity = entity.bind(zuuluu)();
-            if(entity) { _fun00002_ip = 445; continue _fun00001 }
- 441:
+            if(entity) { _fun00002_ip = 455; continue _fun00001 }
+ 451:
             echoed = {};
-            _fun00002_ip = 460; continue _fun00001;
- 445:
+            _fun00002_ip = 470; continue _fun00001;
+ 455:
             entity = {};
             michal = michal.safeAreaBottomKeyboardAware;
             entity['marginBottom'] = michal;
             echoed = entity;
- 460:
+ 470:
             zuuluu = _closure1_slot10;
             michal = _closure1_slot4;
             entity = {};
@@ -307,26 +307,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[0] = oscard;
             verify = null;
             oscard = verify != option;
-            if(!oscard) { _fun00002_ip = 502; continue _fun00001 }
- 493:
+            if(!oscard) { _fun00002_ip = 512; continue _fun00001 }
+ 503:
             golfie = {};
             golfie['height'] = option;
             oscard = golfie;
- 502:
+ 512:
             report[1] = oscard;
             entity['style'] = report;
             golfie = _closure1_slot9;
             oscard = _closure1_slot4;
             report = {};
-            if(!backup) { _fun00002_ip = 534; continue _fun00001 }
- 523:
-            if(foxtra) { _fun00002_ip = 534; continue _fun00001 }
- 526:
+            if(!backup) { _fun00002_ip = 544; continue _fun00001 }
+ 533:
+            if(foxtra) { _fun00002_ip = 544; continue _fun00001 }
+ 536:
             option = yankee.segmentedControlUnpadded;
-            _fun00002_ip = 540; continue _fun00001;
- 534:
+            _fun00002_ip = 550; continue _fun00001;
+ 544:
             option = yankee.segmentedControl;
- 540:
+ 550:
             report['style'] = option;
             option = _closure1_slot9;
             config = _closure1_slot0;
@@ -351,17 +351,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['style'] = yankee;
             yankee = _closure1_slot5;
             yankee = yankee.EMOJI;
-            if(!(romeon !== yankee)) { _fun00002_ip = 804; continue _fun00001 }
- 649:
+            if(!(romeon !== yankee)) { _fun00002_ip = 814; continue _fun00001 }
+ 659:
             yankee = _closure1_slot5;
             yankee = yankee.GIF;
-            if(!(romeon !== yankee)) { _fun00002_ip = 737; continue _fun00001 }
- 663:
+            if(!(romeon !== yankee)) { _fun00002_ip = 747; continue _fun00001 }
+ 673:
             yankee = _closure1_slot5;
             yankee = yankee.STICKER;
             verify = null;
-            if(!(romeon === yankee)) { _fun00002_ip = 735; continue _fun00001 }
- 679:
+            if(!(romeon === yankee)) { _fun00002_ip = 745; continue _fun00001 }
+ 689:
             echoed = _closure1_slot9;
             romeon = _closure1_slot1;
             sequen = _closure1_slot2;
@@ -375,9 +375,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee['inActionSheet'] = backup;
             yankee['inPortalKeyboard'] = foxtra;
             verify = echoed.bind(tangon)(romeon, yankee);
- 735:
-            _fun00002_ip = 802; continue _fun00001;
- 737:
+ 745:
+            _fun00002_ip = 812; continue _fun00001;
+ 747:
             echoed = _closure1_slot9;
             romeon = _closure1_slot1;
             ctrled = _closure1_slot2;
@@ -393,9 +393,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee['onPressGIF'] = update;
             yankee['inActionSheet'] = backup;
             verify = echoed.bind(tangon)(romeon, yankee);
- 802:
-            _fun00002_ip = 865; continue _fun00001;
- 804:
+ 812:
+            _fun00002_ip = 875; continue _fun00001;
+ 814:
             romeon = _closure1_slot9;
             yankee = _closure1_slot1;
             echoed = _closure1_slot2;
@@ -410,7 +410,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['inActionSheet'] = backup;
             offset['inPortalKeyboard'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 865:
+ 875:
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
             report[1] = oscard;

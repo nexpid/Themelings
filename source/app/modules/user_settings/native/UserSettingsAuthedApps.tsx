@@ -1352,6 +1352,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = offset.bind(report)(verify);
                 verify = {};
                 verify['iconSource'] = romeon;
+                romeon = 6;
+                verify['iconBorderRadius'] = romeon;
                 verify = yankee.bind(report)(offset, verify);
                 michal['icon'] = verify;
                 verify = entity.application;

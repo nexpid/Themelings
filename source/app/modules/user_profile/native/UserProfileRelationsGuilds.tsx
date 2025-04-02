@@ -68,15 +68,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = golfie.bind(tangon)(oscard);
             golfie = oscard.Text;
             oscard = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
-            if(!(offset == verify)) { _fun00002_ip = 253; continue _fun00001 }
- 240:
+            if(!(offset == verify)) { _fun00002_ip = 249; continue _fun00001 }
+ 236:
             offset = null;
-            if(!romeon) { _fun00002_ip = 250; continue _fun00001 }
- 245:
+            if(!romeon) { _fun00002_ip = 246; continue _fun00001 }
+ 241:
             offset = yankee.username;
- 250:
+ 246:
             verify = offset;
- 253:
+ 249:
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
             report[1] = oscard;

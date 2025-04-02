@@ -19,11 +19,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = argCor;
     entity = undefined;
     tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
     tangon = 1;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
-    var _closure1_slot2 = tangon;
+    var _closure1_slot3 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
@@ -47,8 +48,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify['paddingRight'] = offset;
     tangon['withClearButton'] = verify;
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 7;
+    var _closure1_slot4 = tangon;
+    tangon = 8;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -58,73 +59,91 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zuuluu = argFoo;
-            backup = zuuluu.label;
-            foxtra = zuuluu.description;
-            romeon = zuuluu.errorMessage;
+            option = zuuluu.label;
+            kiloes = zuuluu.description;
+            oscard = zuuluu.errorMessage;
             report = zuuluu.containerStyle;
             offset = zuuluu.clearButtonVisibility;
             tangon = undefined;
             if(!(offset === tangon)) { _fun00002_ip = 72; continue _fun00001 }
  37:
             michal = _closure1_slot0;
-            oscard = _closure1_slot1;
+            golfie = _closure1_slot1;
             entity = 4;
-            entity = oscard[entity];
+            entity = golfie[entity];
             entity = michal.bind(tangon)(entity);
             entity = entity.ClearButtonVisibility;
             offset = entity.WITH_CONTENT;
  72:
             golfie = zuuluu.multiline;
             michal = {'label': 0, 'description': 0, 'errorMessage': 0, 'containerStyle': 0, 'clearButtonVisibility': 0, 'multiline': 0};
-            sizing = null;
+            result = null;
+            echoed = michal;
+            entity = silentSetPrototypeOf(echoed, result);
+            echoed = {};
+            result = zuuluu;
             output = michal;
-            entity = silentSetPrototypeOf(output, sizing);
-            output = {};
-            sizing = zuuluu;
-            kiloes = michal;
-            option = copyDataProperties(output, sizing, kiloes);
-            michal = _closure1_slot3;
+            yankee = copyDataProperties(echoed, result, output);
+            michal = _closure1_slot4;
             zuuluu = michal.bind(tangon)();
+            verify = _closure1_slot2;
+            michal = verify.useId;
+            backup = michal.bind(verify)();
             michal = zuuluu.textField;
             verify = new Array(2);
             verify[0] = michal;
-            oscard = _closure1_slot0;
-            yankee = _closure1_slot1;
+            romeon = _closure1_slot0;
+            foxtra = _closure1_slot1;
             michal = 4;
-            michal = yankee[michal];
-            michal = oscard.bind(tangon)(michal);
+            michal = foxtra[michal];
+            michal = romeon.bind(tangon)(michal);
             michal = michal.ClearButtonVisibility;
-            oscard = michal.NEVER;
+            romeon = michal.NEVER;
             michal = undefined;
-            if(!(offset !== oscard)) { _fun00002_ip = 190; continue _fun00001 }
- 176:
-            oscard = true;
-            michal = undefined;
-            if(!(oscard !== golfie)) { _fun00002_ip = 190; continue _fun00001 }
- 184:
-            michal = zuuluu.withClearButton;
+            if(!(offset !== romeon)) { _fun00002_ip = 204; continue _fun00001 }
  190:
+            romeon = true;
+            michal = undefined;
+            if(!(romeon !== golfie)) { _fun00002_ip = 204; continue _fun00001 }
+ 198:
+            michal = zuuluu.withClearButton;
+ 204:
             verify[1] = michal;
-            zuuluu = _closure1_slot2;
-            oscard = _closure1_slot0;
-            yankee = _closure1_slot1;
+            zuuluu = _closure1_slot3;
+            romeon = _closure1_slot0;
+            foxtra = _closure1_slot1;
             entity = 5;
-            entity = yankee[entity];
-            entity = oscard.bind(tangon)(entity);
+            entity = foxtra[entity];
+            entity = romeon.bind(tangon)(entity);
             michal = entity.Input;
             entity = {};
-            entity['label'] = backup;
-            entity['description'] = foxtra;
-            entity['errorMessage'] = romeon;
+            entity['label'] = option;
+            entity['labelId'] = backup;
+            entity['description'] = kiloes;
+            entity['errorMessage'] = oscard;
             entity['containerStyle'] = report;
             report = 6;
-            report = yankee[report];
-            report = oscard.bind(tangon)(report);
+            report = foxtra[report];
+            report = romeon.bind(tangon)(report);
             oscard = report.FormInput;
             report = {};
-            output = report;
-            sizing = option;
-            option = copyDataProperties(output, sizing);
+            echoed = report;
+            result = yankee;
+            yankee = copyDataProperties(echoed, result);
+            yankee = 'accessibilityLabelledBy';
+            report[yankee] = backup;
+            yankee = 7;
+            yankee = foxtra[yankee];
+            romeon = romeon.bind(tangon)(yankee);
+            yankee = romeon.isAndroid;
+            romeon = yankee.bind(romeon)();
+            yankee = undefined;
+            if(romeon) { _fun00002_ip = 331; continue _fun00001 }
+ 328:
+            yankee = option;
+ 331:
+            option = 'accessibilityLabel';
+            report[option] = yankee;
             option = 'clearButtonVisibility';
             report[option] = offset;
             option = 'multiline';
@@ -137,17 +156,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = 'style';
             report[option] = verify;
             verify = 'center';
-            if(!golfie) { _fun00002_ip = 332; continue _fun00001 }
- 328:
+            if(!golfie) { _fun00002_ip = 398; continue _fun00001 }
+ 394:
             verify = 'top';
- 332:
+ 398:
             option = 'textAlignVertical';
             report[option] = verify;
             option = 'done';
-            if(!golfie) { _fun00002_ip = 352; continue _fun00001 }
- 348:
+            if(!golfie) { _fun00002_ip = 418; continue _fun00001 }
+ 414:
             option = 'default';
- 352:
+ 418:
             golfie = 'returnKeyType';
             report[golfie] = option;
             report = zuuluu.bind(tangon)(oscard, report);

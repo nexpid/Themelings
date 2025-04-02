@@ -371,8 +371,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = tangon.bind(golfie)(zuuluu, michal);
             michal = foxtra == entity;
             entity = null;
-            if(michal) { _fun00002_ip = 1106; continue _fun00001 }
- 321:
+            if(michal) { _fun00002_ip = 1096; continue _fun00001 }
+ 311:
             tangon = _closure1_slot11;
             zuuluu = _closure1_slot7;
             michal = {'style': null, 'keyboardShouldPersistTaps': 'handled', 'alwaysBounceVertical': false};
@@ -382,8 +382,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie[1] = option;
             michal['style'] = golfie;
             golfie = null;
-            if(oscard) { _fun00002_ip = 404; continue _fun00001 }
- 372:
+            if(oscard) { _fun00002_ip = 394; continue _fun00001 }
+ 362:
             verify = _closure1_slot10;
             option = _closure1_slot1;
             offset = _closure1_slot2;
@@ -392,7 +392,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.bind(report)(oscard);
             oscard = {};
             golfie = verify.bind(report)(option, oscard);
- 404:
+ 394:
             oscard = new Array(2);
             oscard[0] = golfie;
             verify = _closure1_slot11;
@@ -476,11 +476,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee['onSubmitEditing'] = result;
             config = foxtra == update;
             sequen = undefined;
-            if(config) { _fun00002_ip = 818; continue _fun00001 }
- 807:
+            if(config) { _fun00002_ip = 808; continue _fun00001 }
+ 797:
             config = update.getFieldMessage;
             sequen = config.bind(update)(echoed);
- 818:
+ 808:
             yankee['error'] = sequen;
             sequen = 'done';
             yankee['returnKeyType'] = sequen;
@@ -491,14 +491,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset[2] = yankee;
             romeon = foxtra != update;
             yankee = null;
-            if(!romeon) { _fun00002_ip = 935; continue _fun00001 }
- 864:
+            if(!romeon) { _fun00002_ip = 925; continue _fun00001 }
+ 854:
             romeon = update.getFieldMessage;
             romeon = romeon.bind(update)(echoed);
             romeon = foxtra == romeon;
             yankee = null;
-            if(!romeon) { _fun00002_ip = 935; continue _fun00001 }
- 884:
+            if(!romeon) { _fun00002_ip = 925; continue _fun00001 }
+ 874:
             echoed = _closure1_slot10;
             foxtra = _closure1_slot1;
             source = _closure1_slot2;
@@ -511,7 +511,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = update.message;
             romeon['children'] = update;
             yankee = echoed.bind(report)(foxtra, romeon);
- 935:
+ 925:
             offset[3] = yankee;
             foxtra = _closure1_slot10;
             romeon = _closure1_slot6;
@@ -536,10 +536,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = update.bind(source)(echoed);
             backup['text'] = echoed;
             backup['onPress'] = result;
-            if(sizing) { _fun00002_ip = 1057; continue _fun00001 }
- 1054:
+            if(sizing) { _fun00002_ip = 1047; continue _fun00001 }
+ 1044:
             sizing = output;
- 1057:
+ 1047:
             backup['loading'] = sizing;
             backup = foxtra.bind(report)(kiloes, backup);
             yankee['children'] = backup;
@@ -550,7 +550,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1106:
+ 1096:
             return entity;
         }
     };

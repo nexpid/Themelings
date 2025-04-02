@@ -536,7 +536,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = output[sizing];
             sizing = echoed.bind(tangon)(sizing);
             sizing = sizing.radii;
-            sizing = sizing.xl;
+            sizing = sizing.md;
             romeon['iconBorderRadius'] = sizing;
             sizing = 64;
             romeon['iconSize'] = sizing;

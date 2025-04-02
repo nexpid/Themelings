@@ -299,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = verify.bind(offset)(option);
             zuuluu['text'] = option;
             zuuluu['onPress'] = golfie;
-            _fun00004_ip = 239; continue _fun00003;
+            _fun00004_ip = 237; continue _fun00003;
  152:
             golfie = {};
             yankee = _closure1_slot0;
@@ -330,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             golfie['onPress'] = option;
             zuuluu = golfie;
- 239:
+ 237:
             zuuluu = oscard.bind(entity)(tangon, zuuluu);
             _closure2_slot3 = zuuluu;
             oscard = _closure1_slot2;

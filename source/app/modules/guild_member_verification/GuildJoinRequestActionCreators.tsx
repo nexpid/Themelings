@@ -510,7 +510,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = argFoo;
                     offset = arguments[3];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 308; continue _fun00009 }
+                    if(michal) { _fun00010_ip = 306; continue _fun00009 }
  16:
                     tangon = undefined;
                     if(!(offset === tangon)) { _fun00010_ip = 57; continue _fun00009 }
@@ -528,7 +528,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return tangon;
  61:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00010_ip = 305; continue _fun00009 }
+                    if(zuuluu) { _fun00010_ip = 303; continue _fun00009 }
  70:
                     oscard = _closure1_slot0;
                     golfie = _closure1_slot2;
@@ -621,13 +621,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         }
                     };
                     zuuluu = oscard.bind(golfie)(zuuluu);
-                    SaveGenerator(address=224);
- 222:
+                    SaveGenerator(address=222);
+ 220:
                     return zuuluu;
- 224:
+ 222:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscard) { _fun00010_ip = 302; continue _fun00009 }
- 230:
+                    if(oscard) { _fun00010_ip = 300; continue _fun00009 }
+ 228:
                     oscard = _closure1_slot1;
                     golfie = _closure1_slot2;
                     report = 6;
@@ -645,11 +645,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report['request'] = option;
                     report = oscard.bind(golfie)(report);
                     return tangon;
- 302:
+ 300:
                     return zuuluu;
- 305:
+ 303:
                     return michal;
- 308:
+ 306:
                     return entity;
                 }
             };

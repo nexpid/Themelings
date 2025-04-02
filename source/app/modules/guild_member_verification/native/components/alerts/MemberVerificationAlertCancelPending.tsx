@@ -112,8 +112,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = golfie.bind(option)(report);
             report = 'header';
             entity[report] = golfie;
-            if(!(sizing == oscard)) { _fun00002_ip = 268; continue _fun00001 }
- 214:
+            if(!(sizing == oscard)) { _fun00002_ip = 266; continue _fun00001 }
+ 212:
             verify = _closure1_slot0;
             report = _closure1_slot2;
             golfie = report[output];
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.t;
             report = report.nQHxqq;
             oscard = golfie.bind(option)(report);
- 268:
+ 266:
             report = 'subtitle';
             entity[report] = oscard;
             golfie = _closure1_slot6;
@@ -141,8 +141,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = {};
             result = 'destructive';
             option['variant'] = result;
-            if(!(sizing == kiloes)) { _fun00002_ip = 387; continue _fun00001 }
- 333:
+            if(!(sizing == kiloes)) { _fun00002_ip = 385; continue _fun00001 }
+ 331:
             update = _closure1_slot0;
             sizing = _closure1_slot2;
             result = sizing[output];
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = sizing.t;
             sizing = sizing.OzHPdX;
             kiloes = result.bind(echoed)(sizing);
- 387:
+ 385:
             option['text'] = kiloes;
             option['onPress'] = backup;
             yankee = foxtra.bind(zuuluu)(yankee, option);

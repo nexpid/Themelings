@@ -412,8 +412,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['height'] = yankee;
             echoed['canvasContainer'] = entity;
             entity = null;
-            if(michal) { _fun00002_ip = 1602; continue _fun00001 }
- 1042:
+            if(michal) { _fun00002_ip = 1618; continue _fun00001 }
+ 1056:
             tangon = _closure1_slot9;
             zuuluu = _closure1_slot5;
             michal = {};
@@ -437,8 +437,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = echoed.canvasStyle;
             output['style'] = echoed;
             source = null;
-            if(!update) { _fun00002_ip = 1216; continue _fun00001 }
- 1140:
+            if(!update) { _fun00002_ip = 1230; continue _fun00001 }
+ 1154:
             sierra = _closure1_slot8;
             ctrled = _closure1_slot0;
             echoed = _closure1_slot2;
@@ -457,12 +457,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora = 'white';
             echoed['color'] = limora;
             source = sierra.bind(report)(ctrled, echoed);
- 1216:
+ 1230:
             echoed = new Array(3);
             echoed[0] = source;
             golfie = null;
-            if(!update) { _fun00002_ip = 1297; continue _fun00001 }
- 1229:
+            if(!update) { _fun00002_ip = 1311; continue _fun00001 }
+ 1243:
             ctrled = _closure1_slot8;
             source = _closure1_slot0;
             update = _closure1_slot2;
@@ -479,7 +479,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update['r'] = sequen;
             update['color'] = vacuum;
             golfie = ctrled.bind(report)(source, update);
- 1297:
+ 1311:
             echoed[1] = golfie;
             ctrled = _closure1_slot9;
             cntext = _closure1_slot0;
@@ -552,7 +552,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1602:
+ 1618:
             return entity;
         }
     };
