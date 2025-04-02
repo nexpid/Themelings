@@ -9287,14 +9287,14 @@
         "height": 80
     },
     "img_nitro_badge": {
-        "file": "images/native/premium/upsell/img_nitro_badge.png",
-        "hash": "ff5825c454c175379e6be98cbe46511a",
+        "file": "images/native/premium/perks/img_nitro_badge.png",
+        "hash": "9d054f4a2e6965892d17aa00d900146e",
         "scales": [
             2,
             3
         ],
-        "width": 120,
-        "height": 80
+        "width": 24,
+        "height": 24
     },
     "img_nitro_basic": {
         "file": "images/native/premium/perks/img_nitro_basic.png",
