@@ -266,125 +266,74 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                             tangon = argFoo;
-                            michal = tangon.type;
-                            zuuluu = _closure1_slot0;
-                            report = _closure1_slot2;
+                            zuuluu = tangon.type;
+                            report = _closure1_slot0;
+                            michal = _closure1_slot2;
                             entity = 7;
-                            entity = report[entity];
-                            oscard = undefined;
-                            entity = zuuluu.bind(oscard)(entity);
+                            entity = michal[entity];
+                            michal = undefined;
+                            entity = report.bind(michal)(entity);
                             entity = entity.GravityItemTypes;
                             entity = entity.MESSAGE;
-                            if(!(michal !== entity)) { _fun00010_ip = 55; continue _fun00009 }
+                            if(!(zuuluu !== entity)) { _fun00010_ip = 55; continue _fun00009 }
  49:
                             entity = new Array(0);
                             return entity;
  55:
                             entity = new Array(0);
-                            michal = tangon.data;
-                            report = michal.message_context;
+                            zuuluu = tangon.data;
+                            oscard = zuuluu.message_context;
                             zuuluu = null;
-                            golfie = zuuluu == report;
-                            michal = undefined;
+                            golfie = zuuluu == oscard;
+                            report = undefined;
                             if(golfie) { _fun00010_ip = 87; continue _fun00009 }
  81:
-                            michal = report.reply_message_id;
+                            report = oscard.reply_message_id;
  87:
-                            michal = zuuluu != michal;
-                            if(!michal) { _fun00010_ip = 139; continue _fun00009 }
- 94:
-                            report = global;
-                            golfie = report.parseInt;
-                            report = tangon.data;
-                            option = report.message_context;
-                            verify = zuuluu == option;
-                            report = undefined;
-                            if(verify) { _fun00010_ip = 128; continue _fun00009 }
- 122:
-                            report = option.reply_message_id;
- 128:
-                            golfie = golfie.bind(oscard)(report);
-                            report = 0;
-                            michal = report !== golfie;
- 139:
-                            if(!michal) { _fun00010_ip = 190; continue _fun00009 }
- 142:
-                            report = entity.push;
-                            michal = {};
+                            if(!(zuuluu != report)) { _fun00010_ip = 139; continue _fun00009 }
+ 91:
+                            oscard = entity.push;
+                            report = {};
                             golfie = tangon.data;
                             golfie = golfie.channel_id;
-                            michal['channel_id'] = golfie;
+                            report['channel_id'] = golfie;
                             golfie = tangon.data;
                             golfie = golfie.message_context;
                             golfie = golfie.reply_message_id;
-                            michal['message_id'] = golfie;
-                            michal = report.bind(entity)(michal);
- 190:
-                            michal = tangon.data;
-                            report = michal.message_context;
-                            golfie = zuuluu == report;
-                            michal = undefined;
-                            if(golfie) { _fun00010_ip = 216; continue _fun00009 }
- 210:
-                            michal = report.before_message_id;
- 216:
-                            michal = zuuluu != michal;
-                            if(!michal) { _fun00010_ip = 268; continue _fun00009 }
- 223:
-                            report = global;
-                            golfie = report.parseInt;
+                            report['message_id'] = golfie;
+                            report = oscard.bind(entity)(report);
+ 139:
                             report = tangon.data;
-                            option = report.message_context;
-                            verify = zuuluu == option;
+                            oscard = report.message_context;
+                            golfie = zuuluu == oscard;
                             report = undefined;
-                            if(verify) { _fun00010_ip = 257; continue _fun00009 }
- 251:
-                            report = option.before_message_id;
- 257:
-                            golfie = golfie.bind(oscard)(report);
-                            report = 0;
-                            michal = report !== golfie;
- 268:
-                            if(!michal) { _fun00010_ip = 319; continue _fun00009 }
- 271:
-                            report = entity.push;
-                            michal = {};
+                            if(golfie) { _fun00010_ip = 165; continue _fun00009 }
+ 159:
+                            report = oscard.before_message_id;
+ 165:
+                            if(!(zuuluu != report)) { _fun00010_ip = 217; continue _fun00009 }
+ 169:
+                            oscard = entity.push;
+                            report = {};
                             golfie = tangon.data;
                             golfie = golfie.channel_id;
-                            michal['channel_id'] = golfie;
+                            report['channel_id'] = golfie;
                             golfie = tangon.data;
                             golfie = golfie.message_context;
                             golfie = golfie.before_message_id;
-                            michal['message_id'] = golfie;
-                            michal = report.bind(entity)(michal);
- 319:
-                            michal = tangon.data;
-                            report = michal.message_context;
-                            golfie = zuuluu == report;
+                            report['message_id'] = golfie;
+                            report = oscard.bind(entity)(report);
+ 217:
+                            report = tangon.data;
+                            report = report.message_context;
+                            oscard = zuuluu == report;
                             michal = undefined;
-                            if(golfie) { _fun00010_ip = 345; continue _fun00009 }
- 339:
+                            if(oscard) { _fun00010_ip = 243; continue _fun00009 }
+ 237:
                             michal = report.after_message_id;
- 345:
-                            michal = zuuluu != michal;
-                            if(!michal) { _fun00010_ip = 397; continue _fun00009 }
- 352:
-                            report = global;
-                            report = report.parseInt;
-                            golfie = tangon.data;
-                            golfie = golfie.message_context;
-                            option = zuuluu == golfie;
-                            zuuluu = undefined;
-                            if(option) { _fun00010_ip = 386; continue _fun00009 }
- 380:
-                            zuuluu = golfie.after_message_id;
- 386:
-                            report = report.bind(oscard)(zuuluu);
-                            zuuluu = 0;
-                            michal = zuuluu !== report;
- 397:
-                            if(!michal) { _fun00010_ip = 448; continue _fun00009 }
- 400:
+ 243:
+                            if(!(zuuluu != michal)) { _fun00010_ip = 295; continue _fun00009 }
+ 247:
                             zuuluu = entity.push;
                             michal = {};
                             report = tangon.data;
@@ -395,7 +344,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             tangon = tangon.after_message_id;
                             michal['message_id'] = tangon;
                             michal = zuuluu.bind(entity)(michal);
- 448:
+ 295:
                             return entity;
                         }
                     };

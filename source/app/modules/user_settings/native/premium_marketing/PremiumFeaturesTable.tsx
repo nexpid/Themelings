@@ -448,9 +448,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = _closure1_slot10;
             golfie = _closure1_slot5;
             oscard = 'nitro_home';
-            if(!(oscard === verify)) { _fun00008_ip = 625; continue _fun00007 }
+            if(!(oscard === verify)) { _fun00008_ip = 627; continue _fun00007 }
  386:
-            if(kiloes) { _fun00008_ip = 625; continue _fun00007 }
+            if(kiloes) { _fun00008_ip = 627; continue _fun00007 }
  392:
             oscard = {};
             yankee = backup;
@@ -512,8 +512,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['children'] = offset;
             verify = sizing.bind(tangon)(yankee, verify);
             oscard['children'] = verify;
-            _fun00008_ip = 704; continue _fun00007;
- 625:
+            _fun00008_ip = 706; continue _fun00007;
+ 627:
             verify = {};
             sizing = foxtra.cell;
             yankee = new Array(5);
@@ -521,25 +521,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = foxtra.dataCell;
             yankee[1] = sizing;
             kiloes = !kiloes;
-            if(!kiloes) { _fun00008_ip = 663; continue _fun00007 }
- 657:
+            if(!kiloes) { _fun00008_ip = 665; continue _fun00007 }
+ 659:
             kiloes = foxtra.themedHighlightedCell;
- 663:
+ 665:
             yankee[2] = kiloes;
-            if(!backup) { _fun00008_ip = 676; continue _fun00007 }
- 670:
+            if(!backup) { _fun00008_ip = 678; continue _fun00007 }
+ 672:
             backup = foxtra.topBorderRadius;
- 676:
+ 678:
             yankee[3] = backup;
-            if(!romeon) { _fun00008_ip = 689; continue _fun00007 }
- 683:
+            if(!romeon) { _fun00008_ip = 691; continue _fun00007 }
+ 685:
             romeon = foxtra.bottomBorderRadius;
- 689:
+ 691:
             yankee[4] = romeon;
             verify['style'] = yankee;
             verify['children'] = offset;
             oscard = verify;
- 704:
+ 706:
             oscard = option.bind(tangon)(golfie, oscard);
             report[2] = oscard;
             entity['children'] = report;

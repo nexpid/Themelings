@@ -1135,7 +1135,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  1523:
             sequen[4] = config;
             config = null;
-            if(!cntext) { _fun00008_ip = 1699; continue _fun00007 }
+            if(!cntext) { _fun00008_ip = 1703; continue _fun00007 }
  1535:
             sierra = _closure1_slot0;
             target = _closure1_slot3;
@@ -1144,7 +1144,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = sierra.isEmbeddedApp;
             target = target.bind(sierra)(foxtra);
             config = null;
-            if(target) { _fun00008_ip = 1699; continue _fun00007 }
+            if(target) { _fun00008_ip = 1703; continue _fun00007 }
  1571:
             limora = _closure1_slot12;
             sierra = _closure1_slot5;
@@ -1173,16 +1173,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable36 = variable38.bind(tangon)(variable37, variable36);
             target['children'] = variable36;
             config = limora.bind(tangon)(sierra, target);
- 1699:
+ 1703:
             sequen[5] = config;
             config = null;
-            if(cntext) { _fun00008_ip = 1952; continue _fun00007 }
- 1711:
+            if(cntext) { _fun00008_ip = 1956; continue _fun00007 }
+ 1715:
             cntext = record.type;
             record = 'channel';
             config = null;
-            if(!(record === cntext)) { _fun00008_ip = 1952; continue _fun00007 }
- 1729:
+            if(!(record === cntext)) { _fun00008_ip = 1956; continue _fun00007 }
+ 1733:
             papara = _closure1_slot13;
             cntext = _closure1_slot5;
             record = {};
@@ -1217,8 +1217,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sierra = limora.bind(tangon)(sierra, target);
             target = new Array(2);
             target[0] = sierra;
-            if(!status) { _fun00008_ip = 1938; continue _fun00007 }
- 1892:
+            if(!status) { _fun00008_ip = 1942; continue _fun00007 }
+ 1896:
             whisks = _closure1_slot12;
             limora = _closure1_slot1;
             sierra = _closure1_slot3;
@@ -1235,11 +1235,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             sierra['onSortOptionPress'] = equals;
             status = whisks.bind(tangon)(limora, sierra);
- 1938:
+ 1942:
             target[1] = status;
             record['children'] = target;
             config = papara.bind(tangon)(cntext, record);
- 1952:
+ 1956:
             sequen[6] = config;
             vacuum['children'] = sequen;
             vacuum = zuuluu.bind(tangon)(michal, vacuum);
@@ -1265,10 +1265,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.animatedProps;
             golfie['animatedProps'] = report;
             report = undefined;
-            if(!kiloes) { _fun00008_ip = 2078; continue _fun00007 }
- 2074:
-            report = 'loading';
+            if(!kiloes) { _fun00008_ip = 2082; continue _fun00007 }
  2078:
+            report = 'loading';
+ 2082:
             golfie = backup.bind(tangon)(option, golfie, report);
             report = new Array(2);
             report[0] = golfie;

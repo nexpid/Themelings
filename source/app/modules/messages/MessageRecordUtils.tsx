@@ -99,21 +99,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: createMessageRecord
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            golfie = argFoo;
+            option = argFoo;
             entity = arguments[1];
-            report = undefined;
-            if(!(entity === report)) { _fun00004_ip = 14; continue _fun00003 }
+            oscard = undefined;
+            if(!(entity === oscard)) { _fun00004_ip = 14; continue _fun00003 }
  12:
             entity = {};
  14:
-            foxtra = entity.reactions;
-            offset = entity.interactionData;
+            backup = entity.reactions;
+            yankee = entity.interactionData;
             entity = _closure1_slot15;
-            verify = entity.bind(report)(golfie);
-            zuuluu = golfie.mentions;
-            oscard = null;
-            entity = oscard == zuuluu;
-            echoed = undefined;
+            offset = entity.bind(oscard)(option);
+            zuuluu = option.mentions;
+            golfie = null;
+            entity = golfie == zuuluu;
+            update = undefined;
             if(entity) { _fun00004_ip = 72; continue _fun00003 }
  55:
             michal = zuuluu.map;
@@ -122,318 +122,338 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = entity.id;
                 return entity;
             };
-            echoed = michal.bind(zuuluu)(entity);
+            update = michal.bind(zuuluu)(entity);
  72:
-            if(!(oscard == echoed)) { _fun00004_ip = 80; continue _fun00003 }
+            if(!(golfie == update)) { _fun00004_ip = 80; continue _fun00003 }
  76:
-            echoed = new Array(0);
+            update = new Array(0);
  80:
-            result = golfie.mention_roles;
-            if(!(oscard == result)) { _fun00004_ip = 94; continue _fun00003 }
+            echoed = option.mention_roles;
+            if(!(golfie == echoed)) { _fun00004_ip = 94; continue _fun00003 }
  90:
-            result = new Array(0);
+            echoed = new Array(0);
  94:
-            output = golfie.mention_channels;
-            if(!(oscard == output)) { _fun00004_ip = 108; continue _fun00003 }
+            result = option.mention_channels;
+            if(!(golfie == result)) { _fun00004_ip = 108; continue _fun00003 }
  104:
-            output = new Array(0);
+            result = new Array(0);
  108:
-            sizing = golfie.message_reference;
-            entity = golfie.author;
-            if(!(oscard != entity)) { _fun00004_ip = 228; continue _fun00003 }
+            output = option.message_reference;
+            entity = option.author;
+            if(!(golfie != entity)) { _fun00004_ip = 228; continue _fun00003 }
  124:
-            entity = golfie.webhook_id;
-            if(!(oscard == entity)) { _fun00004_ip = 196; continue _fun00003 }
+            entity = option.webhook_id;
+            if(!(golfie == entity)) { _fun00004_ip = 196; continue _fun00003 }
  134:
             zuuluu = _closure1_slot10;
             michal = zuuluu.getUser;
-            entity = golfie.author;
+            entity = option.author;
             entity = entity.id;
-            update = michal.bind(zuuluu)(entity);
-            if(!(oscard == update)) { _fun00004_ip = 194; continue _fun00003 }
+            source = michal.bind(zuuluu)(entity);
+            if(!(golfie == source)) { _fun00004_ip = 194; continue _fun00003 }
  164:
             zuuluu = _closure1_slot7;
-            config = golfie.author;
+            record = option.author;
             michal = zuuluu.prototype;
             michal = Object.create(michal, {constructor: {value: zuuluu}});
-            record = michal;
-            entity = new record[zuuluu](config, sequen);
-            update = entity instanceof Object ? entity : michal;
+            cntext = michal;
+            entity = new cntext[zuuluu](record, config);
+            source = entity instanceof Object ? entity : michal;
  194:
             _fun00004_ip = 226; continue _fun00003;
  196:
             zuuluu = _closure1_slot7;
-            config = golfie.author;
+            record = option.author;
             michal = zuuluu.prototype;
             michal = Object.create(michal, {constructor: {value: zuuluu}});
-            record = michal;
-            entity = new record[zuuluu](config, sequen);
-            update = entity instanceof Object ? entity : michal;
+            cntext = michal;
+            entity = new cntext[zuuluu](record, config);
+            source = entity instanceof Object ? entity : michal;
  226:
             _fun00004_ip = 232; continue _fun00003;
  228:
-            update = _closure1_slot14;
+            source = _closure1_slot14;
  232:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 10;
             entity = zuuluu[entity];
-            zuuluu = michal.bind(report)(entity);
+            zuuluu = michal.bind(oscard)(entity);
             michal = zuuluu.getMessageAuthor;
             entity = {};
-            tangon = golfie.channel_id;
+            tangon = option.channel_id;
             entity['channel_id'] = tangon;
-            entity['author'] = update;
-            romeon = michal.bind(zuuluu)(entity);
-            entity = oscard == golfie;
+            entity['author'] = source;
+            foxtra = michal.bind(zuuluu)(entity);
+            entity = golfie == option;
             michal = undefined;
             if(entity) { _fun00004_ip = 294; continue _fun00003 }
  288:
-            michal = golfie.gift_info;
+            michal = option.gift_info;
  294:
-            tangon = golfie.gifting_prompt;
-            entity = golfie.interaction;
-            entity = oscard != entity;
-            yankee = null;
+            report = option.gifting_prompt;
+            entity = option.interaction;
+            entity = golfie != entity;
+            romeon = null;
             if(!entity) { _fun00004_ip = 336; continue _fun00003 }
  315:
-            backup = _closure1_slot3;
-            zuuluu = backup.createFromServer;
-            entity = golfie.interaction;
-            yankee = zuuluu.bind(backup)(entity);
+            tangon = _closure1_slot3;
+            zuuluu = tangon.createFromServer;
+            entity = option.interaction;
+            romeon = zuuluu.bind(tangon)(entity);
  336:
-            zuuluu = golfie.type;
+            zuuluu = option.type;
             entity = _closure1_slot13;
             entity = entity.THREAD_STARTER_MESSAGE;
-            vacuum = undefined;
+            sequen = undefined;
             if(!(zuuluu === entity)) { _fun00004_ip = 395; continue _fun00003 }
  357:
-            zuuluu = golfie.referenced_message;
-            backup = oscard == zuuluu;
+            zuuluu = option.referenced_message;
+            tangon = golfie == zuuluu;
             entity = undefined;
-            if(backup) { _fun00004_ip = 392; continue _fun00003 }
+            if(tangon) { _fun00004_ip = 392; continue _fun00003 }
  372:
             zuuluu = zuuluu.author;
-            backup = oscard == zuuluu;
+            tangon = golfie == zuuluu;
             entity = undefined;
-            if(backup) { _fun00004_ip = 392; continue _fun00003 }
+            if(tangon) { _fun00004_ip = 392; continue _fun00003 }
  387:
             entity = zuuluu.id;
  392:
-            vacuum = entity;
+            sequen = entity;
  395:
-            kiloes = golfie.content;
-            zuuluu = golfie.type;
+            sizing = option.content;
+            zuuluu = option.type;
             entity = _closure1_slot13;
             entity = entity.PREMIUM_REFERRAL;
-            backup = undefined;
-            if(!(zuuluu === entity)) { _fun00004_ip = 474; continue _fun00003 }
- 421:
+            if(!(zuuluu !== entity)) { _fun00004_ip = 480; continue _fun00003 }
+ 419:
+            zuuluu = option.type;
+            entity = _closure1_slot13;
+            entity = entity.CHAT_WALLPAPER_SET;
+            kiloes = undefined;
+            tangon = undefined;
+            if(!(zuuluu === entity)) { _fun00004_ip = 535; continue _fun00003 }
+ 442:
             zuuluu = _closure1_slot1;
-            source = _closure1_slot2;
+            ctrled = _closure1_slot2;
+            entity = 12;
+            entity = ctrled[entity];
+            zuuluu = zuuluu.bind(oscard)(entity);
+            entity = option.content;
+            tangon = zuuluu.bind(oscard)(entity);
+            sizing = '';
+            kiloes = undefined;
+            _fun00004_ip = 535; continue _fun00003;
+ 480:
+            zuuluu = _closure1_slot1;
+            ctrled = _closure1_slot2;
             entity = 11;
-            entity = source[entity];
-            source = zuuluu.bind(report)(entity);
-            zuuluu = source.isProbablyAValidSnowflake;
-            entity = golfie.content;
-            entity = zuuluu.bind(source)(entity);
+            entity = ctrled[entity];
+            ctrled = zuuluu.bind(oscard)(entity);
+            zuuluu = ctrled.isProbablyAValidSnowflake;
+            entity = option.content;
+            entity = zuuluu.bind(ctrled)(entity);
             zuuluu = undefined;
-            if(!entity) { _fun00004_ip = 467; continue _fun00003 }
- 462:
-            zuuluu = golfie.content;
- 467:
-            kiloes = '';
-            backup = zuuluu;
- 474:
+            if(!entity) { _fun00004_ip = 526; continue _fun00003 }
+ 521:
+            zuuluu = option.content;
+ 526:
+            sizing = '';
+            kiloes = zuuluu;
+            tangon = undefined;
+ 535:
             zuuluu = _closure1_slot6;
             entity = {};
-            config = entity;
-            sequen = golfie;
-            source = copyDataProperties(config, sequen);
-            config = entity;
-            sequen = romeon;
-            romeon = copyDataProperties(config, sequen);
-            romeon = verify.toJS;
-            sequen = romeon.bind(verify)();
-            config = entity;
-            romeon = copyDataProperties(config, sequen);
-            romeon = 'author';
-            entity[romeon] = update;
-            update = golfie.webhook_id;
-            romeon = 'webhookId';
-            entity[romeon] = update;
-            update = _closure1_slot9;
-            romeon = update.isBlockedForMessage;
-            update = romeon.bind(update)(golfie);
-            if(update) { _fun00004_ip = 584; continue _fun00003 }
- 559:
-            romeon = oscard != vacuum;
-            if(!romeon) { _fun00004_ip = 581; continue _fun00003 }
- 566:
-            ctrled = _closure1_slot9;
-            source = ctrled.isBlocked;
-            romeon = source.bind(ctrled)(vacuum);
- 581:
-            update = romeon;
- 584:
-            romeon = 'blocked';
-            entity[romeon] = update;
-            update = _closure1_slot9;
-            romeon = update.isIgnoredForMessage;
-            update = romeon.bind(update)(golfie);
-            if(update) { _fun00004_ip = 636; continue _fun00003 }
- 611:
-            romeon = oscard != vacuum;
-            if(!romeon) { _fun00004_ip = 633; continue _fun00003 }
- 618:
-            ctrled = _closure1_slot9;
-            source = ctrled.isIgnored;
-            romeon = source.bind(ctrled)(vacuum);
- 633:
-            update = romeon;
- 636:
-            romeon = 'ignored';
-            entity[romeon] = update;
-            update = golfie.mention_everyone;
-            romeon = 'mentionEveryone';
-            entity[romeon] = update;
-            romeon = 'mentions';
-            entity[romeon] = echoed;
-            romeon = 'mentionRoles';
-            entity[romeon] = result;
-            romeon = 'mentionChannels';
-            entity[romeon] = output;
-            romeon = 'messageReference';
-            entity[romeon] = sizing;
-            sizing = _closure1_slot0;
-            output = _closure1_slot2;
-            romeon = 12;
-            romeon = output[romeon];
-            output = sizing.bind(report)(romeon);
-            sizing = output.isMentioned;
-            romeon = {};
-            source = _closure1_slot8;
-            update = source.getId;
-            update = update.bind(source)();
-            romeon['userId'] = update;
-            update = golfie.channel_id;
-            romeon['channelId'] = update;
-            source = golfie.mention_everyone;
-            update = oscard != source;
-            if(!update) { _fun00004_ip = 767; continue _fun00003 }
- 764:
-            update = source;
- 767:
-            romeon['mentionEveryone'] = update;
-            romeon['mentionUsers'] = echoed;
-            romeon['mentionRoles'] = result;
-            sizing = sizing.bind(output)(romeon);
-            romeon = 'mentioned';
-            entity[romeon] = sizing;
-            sizing = _closure1_slot0;
-            romeon = _closure1_slot2;
-            result = 13;
-            romeon = romeon[result];
-            sizing = sizing.bind(report)(romeon);
-            romeon = sizing.isGiftCodeEmbed;
-            romeon = romeon.bind(sizing)(golfie);
+            record = entity;
+            config = option;
+            ctrled = copyDataProperties(record, config);
+            record = entity;
+            config = foxtra;
+            foxtra = copyDataProperties(record, config);
+            foxtra = offset.toJS;
+            config = foxtra.bind(offset)();
+            record = entity;
+            foxtra = copyDataProperties(record, config);
+            foxtra = 'author';
+            entity[foxtra] = source;
+            source = option.webhook_id;
+            foxtra = 'webhookId';
+            entity[foxtra] = source;
+            source = _closure1_slot9;
+            foxtra = source.isBlockedForMessage;
+            source = foxtra.bind(source)(option);
+            if(source) { _fun00004_ip = 645; continue _fun00003 }
+ 620:
+            foxtra = golfie != sequen;
+            if(!foxtra) { _fun00004_ip = 642; continue _fun00003 }
+ 627:
+            vacuum = _closure1_slot9;
+            ctrled = vacuum.isBlocked;
+            foxtra = ctrled.bind(vacuum)(sequen);
+ 642:
+            source = foxtra;
+ 645:
+            foxtra = 'blocked';
+            entity[foxtra] = source;
+            source = _closure1_slot9;
+            foxtra = source.isIgnoredForMessage;
+            source = foxtra.bind(source)(option);
+            if(source) { _fun00004_ip = 697; continue _fun00003 }
+ 672:
+            foxtra = golfie != sequen;
+            if(!foxtra) { _fun00004_ip = 694; continue _fun00003 }
+ 679:
+            vacuum = _closure1_slot9;
+            ctrled = vacuum.isIgnored;
+            foxtra = ctrled.bind(vacuum)(sequen);
+ 694:
+            source = foxtra;
+ 697:
+            foxtra = 'ignored';
+            entity[foxtra] = source;
+            source = option.mention_everyone;
+            foxtra = 'mentionEveryone';
+            entity[foxtra] = source;
+            foxtra = 'mentions';
+            entity[foxtra] = update;
+            foxtra = 'mentionRoles';
+            entity[foxtra] = echoed;
+            foxtra = 'mentionChannels';
+            entity[foxtra] = result;
+            foxtra = 'messageReference';
+            entity[foxtra] = output;
             output = _closure1_slot0;
-            sizing = _closure1_slot2;
-            sizing = sizing[result];
-            result = output.bind(report)(sizing);
-            output = result.findGiftCodes;
-            if(romeon) { _fun00004_ip = 865; continue _fun00003 }
- 853:
-            romeon = golfie.content;
-            sizing = output.bind(result)(romeon);
-            _fun00004_ip = 896; continue _fun00003;
- 865:
-            echoed = oscard == golfie;
-            romeon = undefined;
-            if(echoed) { _fun00004_ip = 891; continue _fun00003 }
- 874:
-            update = golfie.embeds;
-            echoed = 0;
-            echoed = update[echoed];
-            romeon = echoed.url;
- 891:
-            sizing = output.bind(result)(romeon);
- 896:
-            romeon = 'giftCodes';
-            entity[romeon] = sizing;
-            romeon = 'content';
-            entity[romeon] = kiloes;
-            romeon = 'referralTrialOfferId';
-            entity[romeon] = backup;
-            backup = _closure1_slot18;
-            romeon = golfie.call;
-            verify = verify.timestamp;
-            romeon = backup.bind(report)(romeon, verify);
-            verify = 'call';
-            entity[verify] = romeon;
-            verify = _closure1_slot21;
-            romeon = verify.bind(report)(golfie);
-            verify = 'messageSnapshots';
-            entity[verify] = romeon;
-            romeon = _closure1_slot20;
-            if(!(oscard == foxtra)) { _fun00004_ip = 985; continue _fun00003 }
- 979:
-            foxtra = golfie.reactions;
- 985:
-            verify = golfie.poll;
-            romeon = romeon.bind(report)(foxtra, verify);
-            verify = 'reactions';
-            entity[verify] = romeon;
-            verify = 'interaction';
-            entity[verify] = yankee;
-            if(!(oscard == offset)) { _fun00004_ip = 1025; continue _fun00003 }
- 1019:
-            offset = golfie.interaction_data;
- 1025:
-            verify = 'interactionData';
+            result = _closure1_slot2;
+            foxtra = 13;
+            foxtra = result[foxtra];
+            result = output.bind(oscard)(foxtra);
+            output = result.isMentioned;
+            foxtra = {};
+            ctrled = _closure1_slot8;
+            source = ctrled.getId;
+            source = source.bind(ctrled)();
+            foxtra['userId'] = source;
+            source = option.channel_id;
+            foxtra['channelId'] = source;
+            ctrled = option.mention_everyone;
+            source = golfie != ctrled;
+            if(!source) { _fun00004_ip = 828; continue _fun00003 }
+ 825:
+            source = ctrled;
+ 828:
+            foxtra['mentionEveryone'] = source;
+            foxtra['mentionUsers'] = update;
+            foxtra['mentionRoles'] = echoed;
+            output = output.bind(result)(foxtra);
+            foxtra = 'mentioned';
+            entity[foxtra] = output;
+            output = _closure1_slot0;
+            foxtra = _closure1_slot2;
+            echoed = 14;
+            foxtra = foxtra[echoed];
+            output = output.bind(oscard)(foxtra);
+            foxtra = output.isGiftCodeEmbed;
+            foxtra = foxtra.bind(output)(option);
+            result = _closure1_slot0;
+            output = _closure1_slot2;
+            output = output[echoed];
+            echoed = result.bind(oscard)(output);
+            result = echoed.findGiftCodes;
+            if(foxtra) { _fun00004_ip = 926; continue _fun00003 }
+ 914:
+            foxtra = option.content;
+            output = result.bind(echoed)(foxtra);
+            _fun00004_ip = 957; continue _fun00003;
+ 926:
+            update = golfie == option;
+            foxtra = undefined;
+            if(update) { _fun00004_ip = 952; continue _fun00003 }
+ 935:
+            source = option.embeds;
+            update = 0;
+            update = source[update];
+            foxtra = update.url;
+ 952:
+            output = result.bind(echoed)(foxtra);
+ 957:
+            foxtra = 'giftCodes';
+            entity[foxtra] = output;
+            foxtra = 'content';
+            entity[foxtra] = sizing;
+            foxtra = 'referralTrialOfferId';
+            entity[foxtra] = kiloes;
+            kiloes = _closure1_slot18;
+            foxtra = option.call;
+            offset = offset.timestamp;
+            foxtra = kiloes.bind(oscard)(foxtra, offset);
+            offset = 'call';
+            entity[offset] = foxtra;
+            offset = _closure1_slot21;
+            foxtra = offset.bind(oscard)(option);
+            offset = 'messageSnapshots';
+            entity[offset] = foxtra;
+            foxtra = _closure1_slot20;
+            if(!(golfie == backup)) { _fun00004_ip = 1046; continue _fun00003 }
+ 1040:
+            backup = option.reactions;
+ 1046:
+            offset = option.poll;
+            foxtra = foxtra.bind(oscard)(backup, offset);
+            offset = 'reactions';
+            entity[offset] = foxtra;
+            offset = 'interaction';
+            entity[offset] = romeon;
+            if(!(golfie == yankee)) { _fun00004_ip = 1086; continue _fun00003 }
+ 1080:
+            yankee = option.interaction_data;
+ 1086:
+            offset = 'interactionData';
+            entity[offset] = yankee;
+            yankee = option.interaction_metadata;
+            offset = 'interactionMetadata';
+            entity[offset] = yankee;
+            yankee = option.role_subscription_data;
+            offset = 'roleSubscriptionData';
+            entity[offset] = yankee;
+            yankee = option.purchase_notification;
+            offset = 'purchaseNotification';
+            entity[offset] = yankee;
+            offset = option.poll;
+            yankee = golfie == offset;
+            offset = undefined;
+            if(yankee) { _fun00004_ip = 1186; continue _fun00003 }
+ 1155:
+            yankee = _closure1_slot1;
+            romeon = _closure1_slot2;
+            verify = 15;
+            verify = romeon[verify];
+            yankee = yankee.bind(oscard)(verify);
+            verify = option.poll;
+            offset = yankee.bind(oscard)(verify);
+ 1186:
+            verify = 'poll';
             entity[verify] = offset;
-            offset = golfie.interaction_metadata;
-            verify = 'interactionMetadata';
-            entity[verify] = offset;
-            offset = golfie.role_subscription_data;
-            verify = 'roleSubscriptionData';
-            entity[verify] = offset;
-            offset = golfie.purchase_notification;
-            verify = 'purchaseNotification';
-            entity[verify] = offset;
-            verify = golfie.poll;
-            offset = oscard == verify;
-            verify = undefined;
-            if(offset) { _fun00004_ip = 1125; continue _fun00003 }
- 1094:
-            offset = _closure1_slot1;
-            yankee = _closure1_slot2;
-            option = 14;
-            option = yankee[option];
-            offset = offset.bind(report)(option);
-            option = golfie.poll;
-            verify = offset.bind(report)(option);
- 1125:
-            option = 'poll';
+            verify = option.potions;
+            option = 'potions';
             entity[option] = verify;
-            option = golfie.potions;
-            golfie = 'potions';
-            entity[golfie] = option;
-            oscard = oscard == michal;
-            report = undefined;
-            if(oscard) { _fun00004_ip = 1161; continue _fun00003 }
- 1158:
-            report = michal;
- 1161:
+            golfie = golfie == michal;
+            oscard = undefined;
+            if(golfie) { _fun00004_ip = 1222; continue _fun00003 }
+ 1219:
+            oscard = michal;
+ 1222:
             michal = 'giftInfo';
-            entity[michal] = report;
+            entity[michal] = oscard;
             michal = 'giftingPrompt';
+            entity[michal] = report;
+            michal = 'chatWallpaperInfo';
             entity[michal] = tangon;
             michal = zuuluu.prototype;
             michal = Object.create(michal, {constructor: {value: zuuluu}});
-            record = michal;
-            config = entity;
-            entity = new record[zuuluu](config, sequen);
+            cntext = michal;
+            record = entity;
+            entity = new cntext[zuuluu](record, config);
             entity = entity instanceof Object ? entity : michal;
             return entity;
         }
@@ -488,7 +508,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  26:
             report = _closure1_slot1;
             oscard = _closure1_slot2;
-            entity = 15;
+            entity = 16;
             entity = oscard[entity];
             oscard = undefined;
             report = report.bind(oscard)(entity);
@@ -508,7 +528,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  99:
             oscard = _closure1_slot1;
             report = _closure1_slot2;
-            entity = 15;
+            entity = 16;
             report = report[entity];
             entity = undefined;
             oscard = oscard.bind(entity)(report);
@@ -541,7 +561,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = function(argFoo) {
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
-                entity = 16;
+                entity = 17;
                 michal = michal[entity];
                 entity = undefined;
                 report = zuuluu.bind(entity)(michal);
@@ -556,7 +576,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = michal.bind(zuuluu)(entity);
             tangon = _closure1_slot0;
             michal = _closure1_slot2;
-            entity = 16;
+            entity = 17;
             michal = michal[entity];
             entity = undefined;
             michal = tangon.bind(entity)(michal);
@@ -702,14 +722,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  173:
                     oscard = _closure1_slot0;
                     option = _closure1_slot2;
-                    michal = 17;
+                    michal = 18;
                     michal = option[michal];
                     tangon = oscard.bind(golfie)(michal);
                     zuuluu = tangon.buildPlatformedThemedEmojiColorPalette;
                     michal = {};
                     report = entity.burst_colors;
                     michal['colors'] = report;
-                    report = 18;
+                    report = 19;
                     report = option[report];
                     oscard = oscard.bind(golfie)(report);
                     report = oscard.isIOS;
@@ -823,7 +843,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = new backup[verify](foxtra, romeon);
     report = report instanceof Object ? report : option;
     var _closure1_slot14 = report;
-    report = 20;
+    report = 21;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -1034,7 +1054,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie.set;
             zuuluu = _closure1_slot1;
             option = _closure1_slot2;
-            michal = 14;
+            michal = 15;
             michal = option[michal];
             option = undefined;
             zuuluu = zuuluu.bind(option)(michal);
@@ -1097,7 +1117,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie.set;
             report = _closure1_slot1;
             option = _closure1_slot2;
-            zuuluu = 12;
+            zuuluu = 13;
             zuuluu = option[zuuluu];
             option = undefined;
             report = report.bind(option)(zuuluu);
@@ -1131,7 +1151,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = argFoo;
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            entity = 19;
+            entity = 20;
             zuuluu = zuuluu[entity];
             entity = undefined;
             zuuluu = tangon.bind(entity)(zuuluu);

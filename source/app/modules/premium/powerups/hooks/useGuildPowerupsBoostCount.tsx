@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['spent'] = michal;
                     michal = _closure2_slot2;
                     entity['total'] = michal;
-                    _fun00008_ip = 138; continue _fun00007;
+                    _fun00008_ip = 134; continue _fun00007;
  39:
                     zuuluu = _closure2_slot3;
                     michal = null;
@@ -148,15 +148,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['spent'] = zuuluu;
                     zuuluu = _closure2_slot2;
                     michal['total'] = zuuluu;
-                    _fun00008_ip = 135; continue _fun00007;
+                    _fun00008_ip = 131; continue _fun00007;
  109:
                     zuuluu = {'available': 0, 'spent': 0};
                     tangon = _closure2_slot2;
                     zuuluu['total'] = tangon;
                     michal = zuuluu;
- 135:
+ 131:
                     entity = michal;
- 138:
+ 134:
                     return entity;
                 }
             };

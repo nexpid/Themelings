@@ -466,18 +466,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = _closure1_slot17;
             tangon = golfie.getMediaSessionId;
             tangon = tangon.bind(golfie)();
-            if(!(report != oscard)) { _fun00016_ip = 200; continue _fun00015 }
- 94:
-            if(!(report != tangon)) { _fun00016_ip = 200; continue _fun00015 }
- 98:
+            if(!(report != oscard)) { _fun00016_ip = 220; continue _fun00015 }
+ 97:
+            if(!(report != tangon)) { _fun00016_ip = 220; continue _fun00015 }
+ 101:
             report = _closure1_slot16;
             tangon = report.getInputDetected;
             report = tangon.bind(report)();
             tangon = false;
-            if(!(tangon === report)) { _fun00016_ip = 200; continue _fun00015 }
- 120:
-            if(zuuluu) { _fun00016_ip = 200; continue _fun00015 }
+            if(!(tangon === report)) { _fun00016_ip = 220; continue _fun00015 }
  123:
+            if(zuuluu) { _fun00016_ip = 220; continue _fun00015 }
+ 126:
+            tangon = _closure1_slot16;
+            zuuluu = tangon.isSelfMute;
+            zuuluu = zuuluu.bind(tangon)();
+            if(zuuluu) { _fun00016_ip = 220; continue _fun00015 }
+ 143:
             zuuluu = {};
             tangon = _closure1_slot0;
             report = _closure1_slot2;
@@ -497,7 +502,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = new Array(1);
             michal[0] = zuuluu;
             return michal;
- 200:
+ 220:
             return entity;
         }
     };
@@ -1465,6 +1470,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['RTC_CONNECTION_UPDATE_ID'] = zuuluu;
             zuuluu = entity.updateActiveErrors;
             michal['RTC_CONNECTION_USER_CREATE'] = zuuluu;
+            zuuluu = entity.updateActiveErrors;
+            michal['RTC_CONNECTION_VIDEO'] = zuuluu;
             zuuluu = entity.updateActiveErrors;
             michal['VIDEO_STREAM_READY_TIMEOUT'] = zuuluu;
             zuuluu = entity.updateActiveErrors;

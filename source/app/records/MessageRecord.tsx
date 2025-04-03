@@ -296,253 +296,259 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = function(argFoo) { // Original name: MessageRecord
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                zuuluu = argFoo;
+                michal = argFoo;
                 golfie = this;
                 entity = _closure1_slot3;
                 oscard = _closure2_slot0;
                 report = undefined;
                 entity = entity.bind(report)(golfie, oscard);
-                michal = _closure1_slot13;
+                zuuluu = _closure1_slot13;
                 entity = new Array(1);
-                entity[0] = zuuluu;
-                entity = michal.bind(report)(golfie, oscard, entity);
-                michal = zuuluu.id;
-                entity['id'] = michal;
-                michal = zuuluu.channel_id;
-                entity['channel_id'] = michal;
-                michal = zuuluu.author;
-                entity['author'] = michal;
-                michal = zuuluu.customRenderedContent;
-                entity['customRenderedContent'] = michal;
-                michal = zuuluu.mentions;
-                if(michal) { _fun00008_ip = 106; continue _fun00007 }
+                entity[0] = michal;
+                entity = zuuluu.bind(report)(golfie, oscard, entity);
+                zuuluu = michal.id;
+                entity['id'] = zuuluu;
+                zuuluu = michal.channel_id;
+                entity['channel_id'] = zuuluu;
+                zuuluu = michal.author;
+                entity['author'] = zuuluu;
+                zuuluu = michal.customRenderedContent;
+                entity['customRenderedContent'] = zuuluu;
+                zuuluu = michal.mentions;
+                if(zuuluu) { _fun00008_ip = 106; continue _fun00007 }
  102:
-                michal = new Array(0);
+                zuuluu = new Array(0);
  106:
-                entity['mentions'] = michal;
-                michal = zuuluu.mentionRoles;
-                if(michal) { _fun00008_ip = 125; continue _fun00007 }
+                entity['mentions'] = zuuluu;
+                zuuluu = michal.mentionRoles;
+                if(zuuluu) { _fun00008_ip = 125; continue _fun00007 }
  121:
-                michal = new Array(0);
+                zuuluu = new Array(0);
  125:
-                entity['mentionRoles'] = michal;
-                michal = zuuluu.mentionChannels;
-                if(michal) { _fun00008_ip = 144; continue _fun00007 }
+                entity['mentionRoles'] = zuuluu;
+                zuuluu = michal.mentionChannels;
+                if(zuuluu) { _fun00008_ip = 144; continue _fun00007 }
  140:
-                michal = new Array(0);
+                zuuluu = new Array(0);
  144:
-                entity['mentionChannels'] = michal;
-                michal = zuuluu.mentioned;
-                if(michal) { _fun00008_ip = 161; continue _fun00007 }
+                entity['mentionChannels'] = zuuluu;
+                zuuluu = michal.mentioned;
+                if(zuuluu) { _fun00008_ip = 161; continue _fun00007 }
  159:
-                michal = false;
+                zuuluu = false;
  161:
-                entity['mentioned'] = michal;
-                michal = zuuluu.pinned;
-                if(michal) { _fun00008_ip = 178; continue _fun00007 }
+                entity['mentioned'] = zuuluu;
+                zuuluu = michal.pinned;
+                if(zuuluu) { _fun00008_ip = 178; continue _fun00007 }
  176:
-                michal = false;
+                zuuluu = false;
  178:
-                entity['pinned'] = michal;
-                michal = zuuluu.mentionEveryone;
-                if(michal) { _fun00008_ip = 195; continue _fun00007 }
+                entity['pinned'] = zuuluu;
+                zuuluu = michal.mentionEveryone;
+                if(zuuluu) { _fun00008_ip = 195; continue _fun00007 }
  193:
-                michal = false;
+                zuuluu = false;
  195:
-                entity['mentionEveryone'] = michal;
-                michal = zuuluu.tts;
-                if(michal) { _fun00008_ip = 212; continue _fun00007 }
+                entity['mentionEveryone'] = zuuluu;
+                zuuluu = michal.tts;
+                if(zuuluu) { _fun00008_ip = 212; continue _fun00007 }
  210:
-                michal = false;
+                zuuluu = false;
  212:
-                entity['tts'] = michal;
-                michal = zuuluu.giftCodes;
-                if(michal) { _fun00008_ip = 231; continue _fun00007 }
+                entity['tts'] = zuuluu;
+                zuuluu = michal.giftCodes;
+                if(zuuluu) { _fun00008_ip = 231; continue _fun00007 }
  227:
-                michal = new Array(0);
+                zuuluu = new Array(0);
  231:
-                entity['giftCodes'] = michal;
-                michal = zuuluu.state;
-                if(michal) { _fun00008_ip = 255; continue _fun00007 }
+                entity['giftCodes'] = zuuluu;
+                zuuluu = michal.state;
+                if(zuuluu) { _fun00008_ip = 255; continue _fun00007 }
  245:
                 tangon = _closure1_slot10;
-                michal = tangon.SENT;
+                zuuluu = tangon.SENT;
  255:
-                entity['state'] = michal;
-                michal = zuuluu.nonce;
-                if(michal) { _fun00008_ip = 272; continue _fun00007 }
+                entity['state'] = zuuluu;
+                zuuluu = michal.nonce;
+                if(zuuluu) { _fun00008_ip = 272; continue _fun00007 }
  270:
-                michal = null;
- 272:
-                entity['nonce'] = michal;
-                michal = zuuluu.blocked;
-                if(michal) { _fun00008_ip = 289; continue _fun00007 }
- 287:
-                michal = false;
- 289:
-                entity['blocked'] = michal;
-                michal = zuuluu.ignored;
-                if(michal) { _fun00008_ip = 306; continue _fun00007 }
- 304:
-                michal = false;
- 306:
-                entity['ignored'] = michal;
-                michal = zuuluu.call;
-                if(michal) { _fun00008_ip = 322; continue _fun00007 }
- 320:
-                michal = null;
- 322:
-                entity['call'] = michal;
-                michal = zuuluu.bot;
-                if(michal) { _fun00008_ip = 339; continue _fun00007 }
- 337:
-                michal = false;
- 339:
-                entity['bot'] = michal;
-                michal = zuuluu.webhookId;
-                if(michal) { _fun00008_ip = 356; continue _fun00007 }
- 354:
-                michal = null;
- 356:
-                entity['webhookId'] = michal;
-                michal = zuuluu.reactions;
-                if(michal) { _fun00008_ip = 375; continue _fun00007 }
- 371:
-                michal = new Array(0);
- 375:
-                entity['reactions'] = michal;
-                michal = zuuluu.application_id;
-                if(michal) { _fun00008_ip = 395; continue _fun00007 }
- 390:
-                michal = zuuluu.applicationId;
- 395:
-                if(michal) { _fun00008_ip = 400; continue _fun00007 }
- 398:
-                michal = null;
- 400:
-                entity['applicationId'] = michal;
-                michal = zuuluu.application;
-                if(michal) { _fun00008_ip = 416; continue _fun00007 }
- 414:
-                michal = null;
- 416:
-                entity['application'] = michal;
-                michal = zuuluu.activity;
-                if(michal) { _fun00008_ip = 433; continue _fun00007 }
- 431:
-                michal = null;
- 433:
-                entity['activity'] = michal;
-                michal = zuuluu.activity_instance;
-                if(michal) { _fun00008_ip = 454; continue _fun00007 }
- 448:
-                michal = zuuluu.activityInstance;
- 454:
-                if(michal) { _fun00008_ip = 459; continue _fun00007 }
- 457:
-                michal = null;
- 459:
-                entity['activityInstance'] = michal;
-                michal = zuuluu.messageReference;
-                if(michal) { _fun00008_ip = 476; continue _fun00007 }
- 474:
-                michal = null;
- 476:
-                entity['messageReference'] = michal;
-                michal = zuuluu.hit;
-                if(michal) { _fun00008_ip = 499; continue _fun00007 }
- 493:
-                michal = zuuluu.isSearchHit;
- 499:
-                if(michal) { _fun00008_ip = 504; continue _fun00007 }
- 502:
-                michal = false;
- 504:
-                entity['isSearchHit'] = michal;
-                michal = zuuluu.loggingName;
-                if(michal) { _fun00008_ip = 521; continue _fun00007 }
- 519:
-                michal = null;
- 521:
-                entity['loggingName'] = michal;
-                michal = zuuluu.colorString;
-                entity['colorString'] = michal;
-                michal = zuuluu.nick;
-                entity['nick'] = michal;
-                michal = zuuluu.interaction;
-                if(michal) { _fun00008_ip = 562; continue _fun00007 }
- 560:
-                michal = null;
- 562:
-                entity['interaction'] = michal;
-                michal = zuuluu.interactionData;
-                if(michal) { _fun00008_ip = 579; continue _fun00007 }
- 577:
-                michal = null;
- 579:
-                entity['interactionData'] = michal;
-                michal = zuuluu.interactionMetadata;
-                if(michal) { _fun00008_ip = 596; continue _fun00007 }
- 594:
-                michal = null;
- 596:
-                entity['interactionMetadata'] = michal;
-                michal = zuuluu.interactionError;
-                if(michal) { _fun00008_ip = 613; continue _fun00007 }
- 611:
-                michal = null;
- 613:
-                entity['interactionError'] = michal;
-                michal = zuuluu.roleSubscriptionData;
-                entity['roleSubscriptionData'] = michal;
-                michal = zuuluu.purchaseNotification;
-                entity['purchaseNotification'] = michal;
-                michal = zuuluu.poll;
-                entity['poll'] = michal;
-                michal = zuuluu.potions;
-                entity['potions'] = michal;
-                michal = zuuluu.referralTrialOfferId;
-                if(michal) { _fun00008_ip = 678; continue _fun00007 }
- 676:
-                michal = null;
- 678:
-                entity['referralTrialOfferId'] = michal;
-                michal = zuuluu.gift_info;
-                tangon = null;
-                if(!(tangon == michal)) { _fun00008_ip = 702; continue _fun00007 }
- 696:
-                michal = zuuluu.giftInfo;
- 702:
-                entity['giftInfo'] = michal;
-                michal = zuuluu.giftingPrompt;
-                if(michal) { _fun00008_ip = 719; continue _fun00007 }
- 717:
-                michal = null;
- 719:
-                entity['giftingPrompt'] = michal;
-                michal = zuuluu.messageSnapshots;
-                if(michal) { _fun00008_ip = 738; continue _fun00007 }
- 734:
-                michal = new Array(0);
- 738:
-                entity['messageSnapshots'] = michal;
-                michal = zuuluu.isUnsupported;
-                if(michal) { _fun00008_ip = 755; continue _fun00007 }
- 753:
-                michal = false;
- 755:
-                entity['isUnsupported'] = michal;
-                michal = zuuluu.changelog_id;
-                if(!(tangon == michal)) { _fun00008_ip = 785; continue _fun00007 }
- 771:
-                zuuluu = zuuluu.changelogId;
-                if(zuuluu) { _fun00008_ip = 782; continue _fun00007 }
- 780:
                 zuuluu = null;
+ 272:
+                entity['nonce'] = zuuluu;
+                zuuluu = michal.blocked;
+                if(zuuluu) { _fun00008_ip = 289; continue _fun00007 }
+ 287:
+                zuuluu = false;
+ 289:
+                entity['blocked'] = zuuluu;
+                zuuluu = michal.ignored;
+                if(zuuluu) { _fun00008_ip = 306; continue _fun00007 }
+ 304:
+                zuuluu = false;
+ 306:
+                entity['ignored'] = zuuluu;
+                zuuluu = michal.call;
+                if(zuuluu) { _fun00008_ip = 322; continue _fun00007 }
+ 320:
+                zuuluu = null;
+ 322:
+                entity['call'] = zuuluu;
+                zuuluu = michal.bot;
+                if(zuuluu) { _fun00008_ip = 339; continue _fun00007 }
+ 337:
+                zuuluu = false;
+ 339:
+                entity['bot'] = zuuluu;
+                zuuluu = michal.webhookId;
+                if(zuuluu) { _fun00008_ip = 356; continue _fun00007 }
+ 354:
+                zuuluu = null;
+ 356:
+                entity['webhookId'] = zuuluu;
+                zuuluu = michal.reactions;
+                if(zuuluu) { _fun00008_ip = 375; continue _fun00007 }
+ 371:
+                zuuluu = new Array(0);
+ 375:
+                entity['reactions'] = zuuluu;
+                zuuluu = michal.application_id;
+                if(zuuluu) { _fun00008_ip = 395; continue _fun00007 }
+ 390:
+                zuuluu = michal.applicationId;
+ 395:
+                if(zuuluu) { _fun00008_ip = 400; continue _fun00007 }
+ 398:
+                zuuluu = null;
+ 400:
+                entity['applicationId'] = zuuluu;
+                zuuluu = michal.application;
+                if(zuuluu) { _fun00008_ip = 416; continue _fun00007 }
+ 414:
+                zuuluu = null;
+ 416:
+                entity['application'] = zuuluu;
+                zuuluu = michal.activity;
+                if(zuuluu) { _fun00008_ip = 433; continue _fun00007 }
+ 431:
+                zuuluu = null;
+ 433:
+                entity['activity'] = zuuluu;
+                zuuluu = michal.activity_instance;
+                if(zuuluu) { _fun00008_ip = 454; continue _fun00007 }
+ 448:
+                zuuluu = michal.activityInstance;
+ 454:
+                if(zuuluu) { _fun00008_ip = 459; continue _fun00007 }
+ 457:
+                zuuluu = null;
+ 459:
+                entity['activityInstance'] = zuuluu;
+                zuuluu = michal.messageReference;
+                if(zuuluu) { _fun00008_ip = 476; continue _fun00007 }
+ 474:
+                zuuluu = null;
+ 476:
+                entity['messageReference'] = zuuluu;
+                zuuluu = michal.hit;
+                if(zuuluu) { _fun00008_ip = 499; continue _fun00007 }
+ 493:
+                zuuluu = michal.isSearchHit;
+ 499:
+                if(zuuluu) { _fun00008_ip = 504; continue _fun00007 }
+ 502:
+                zuuluu = false;
+ 504:
+                entity['isSearchHit'] = zuuluu;
+                zuuluu = michal.loggingName;
+                if(zuuluu) { _fun00008_ip = 521; continue _fun00007 }
+ 519:
+                zuuluu = null;
+ 521:
+                entity['loggingName'] = zuuluu;
+                zuuluu = michal.colorString;
+                entity['colorString'] = zuuluu;
+                zuuluu = michal.nick;
+                entity['nick'] = zuuluu;
+                zuuluu = michal.interaction;
+                if(zuuluu) { _fun00008_ip = 562; continue _fun00007 }
+ 560:
+                zuuluu = null;
+ 562:
+                entity['interaction'] = zuuluu;
+                zuuluu = michal.interactionData;
+                if(zuuluu) { _fun00008_ip = 579; continue _fun00007 }
+ 577:
+                zuuluu = null;
+ 579:
+                entity['interactionData'] = zuuluu;
+                zuuluu = michal.interactionMetadata;
+                if(zuuluu) { _fun00008_ip = 596; continue _fun00007 }
+ 594:
+                zuuluu = null;
+ 596:
+                entity['interactionMetadata'] = zuuluu;
+                zuuluu = michal.interactionError;
+                if(zuuluu) { _fun00008_ip = 613; continue _fun00007 }
+ 611:
+                zuuluu = null;
+ 613:
+                entity['interactionError'] = zuuluu;
+                zuuluu = michal.roleSubscriptionData;
+                entity['roleSubscriptionData'] = zuuluu;
+                zuuluu = michal.purchaseNotification;
+                entity['purchaseNotification'] = zuuluu;
+                zuuluu = michal.poll;
+                entity['poll'] = zuuluu;
+                zuuluu = michal.potions;
+                entity['potions'] = zuuluu;
+                zuuluu = michal.referralTrialOfferId;
+                if(zuuluu) { _fun00008_ip = 678; continue _fun00007 }
+ 676:
+                zuuluu = null;
+ 678:
+                entity['referralTrialOfferId'] = zuuluu;
+                tangon = michal.gift_info;
+                zuuluu = null;
+                if(!(zuuluu == tangon)) { _fun00008_ip = 702; continue _fun00007 }
+ 696:
+                tangon = michal.giftInfo;
+ 702:
+                entity['giftInfo'] = tangon;
+                tangon = michal.giftingPrompt;
+                if(tangon) { _fun00008_ip = 719; continue _fun00007 }
+ 717:
+                tangon = null;
+ 719:
+                entity['giftingPrompt'] = tangon;
+                tangon = michal.messageSnapshots;
+                if(tangon) { _fun00008_ip = 738; continue _fun00007 }
+ 734:
+                tangon = new Array(0);
+ 738:
+                entity['messageSnapshots'] = tangon;
+                tangon = michal.isUnsupported;
+                if(tangon) { _fun00008_ip = 755; continue _fun00007 }
+ 753:
+                tangon = false;
+ 755:
+                entity['isUnsupported'] = tangon;
+                tangon = michal.changelog_id;
+                if(!(zuuluu == tangon)) { _fun00008_ip = 785; continue _fun00007 }
+ 771:
+                report = michal.changelogId;
+                if(report) { _fun00008_ip = 782; continue _fun00007 }
+ 780:
+                report = null;
  782:
-                michal = zuuluu;
+                tangon = report;
  785:
-                entity['changelogId'] = michal;
+                entity['changelogId'] = tangon;
+                michal = michal.chatWallpaperInfo;
+                if(michal) { _fun00008_ip = 802; continue _fun00007 }
+ 800:
+                michal = null;
+ 802:
+                entity['chatWallpaperInfo'] = michal;
                 return entity;
             }
         };

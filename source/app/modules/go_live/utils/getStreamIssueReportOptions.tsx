@@ -25,188 +25,230 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/go_live/utils/getStreamIssueReportOptions.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: getStreamIssueReportOptions
+    michal = function(argFoo) { // Original name: getStreamIssueReportOptions
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tangon = argBar;
+            michal = argFoo;
+            zuuluu = global;
+            zuuluu = zuuluu.Set;
+            tangon = zuuluu.prototype;
+            tangon = Object.create(tangon, {constructor: {value: zuuluu}});
+            backup = tangon;
+            zuuluu = new backup[zuuluu](foxtra);
+            report = zuuluu instanceof Object ? zuuluu : tangon;
+            var _closure2_slot0 = report;
+            zuuluu = michal.showVibesHoneypot;
+            if(zuuluu) { _fun00002_ip = 69; continue _fun00001 }
+ 46:
+            tangon = report.add;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu.VIBES_OFF;
+            zuuluu = tangon.bind(report)(zuuluu);
+ 69:
+            report = michal.isEndStream;
             michal = {};
-            entity = _closure1_slot2;
-            entity = entity.BLACK_SCREEN;
-            michal['value'] = entity;
-            report = _closure1_slot0;
-            entity = _closure1_slot1;
-            option = 1;
-            oscard = entity[option];
-            golfie = undefined;
-            oscard = report.bind(golfie)(oscard);
-            verify = oscard.intl;
-            oscard = verify.string;
-            entity = entity[option];
-            entity = report.bind(golfie)(entity);
-            report = entity.t;
-            if(tangon) { _fun00002_ip = 86; continue _fun00001 }
- 71:
-            entity = report.fxiRNj;
-            entity = oscard.bind(verify)(entity);
-            _fun00002_ip = 99; continue _fun00001;
- 86:
-            report = report.0X5Zbm;
-            entity = oscard.bind(verify)(report);
- 99:
-            michal['label'] = entity;
-            entity = new Array(8);
-            entity[0] = michal;
-            michal = {};
-            report = _closure1_slot2;
-            report = report.BLURRY;
-            michal['value'] = report;
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
-            verify = report[option];
-            verify = oscard.bind(golfie)(verify);
-            offset = verify.intl;
-            verify = offset.string;
-            report = report[option];
-            report = oscard.bind(golfie)(report);
-            oscard = report.t;
-            if(tangon) { _fun00002_ip = 186; continue _fun00001 }
- 171:
-            report = oscard.E8jTMD;
-            report = verify.bind(offset)(report);
-            _fun00002_ip = 199; continue _fun00001;
- 186:
-            oscard = oscard.VVPQy8;
-            report = verify.bind(offset)(oscard);
- 199:
-            michal['label'] = report;
-            entity[1] = michal;
-            michal = {};
-            report = _closure1_slot2;
-            report = report.LAGGING;
-            michal['value'] = report;
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
-            verify = report[option];
-            verify = oscard.bind(golfie)(verify);
-            offset = verify.intl;
-            verify = offset.string;
-            report = report[option];
-            report = oscard.bind(golfie)(report);
-            oscard = report.t;
-            if(tangon) { _fun00002_ip = 282; continue _fun00001 }
- 267:
-            report = oscard.VoSJER;
-            report = verify.bind(offset)(report);
-            _fun00002_ip = 295; continue _fun00001;
- 282:
-            oscard = oscard.ObEHd3;
-            report = verify.bind(offset)(oscard);
- 295:
-            michal['label'] = report;
-            entity[2] = michal;
-            michal = {};
-            report = _closure1_slot2;
-            report = report.OUT_OF_SYNC;
-            michal['value'] = report;
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
-            verify = report[option];
-            verify = oscard.bind(golfie)(verify);
-            offset = verify.intl;
-            verify = offset.string;
-            report = report[option];
-            report = oscard.bind(golfie)(report);
-            oscard = report.t;
-            if(tangon) { _fun00002_ip = 378; continue _fun00001 }
- 363:
-            report = oscard.+NluQk;
-            report = verify.bind(offset)(report);
-            _fun00002_ip = 391; continue _fun00001;
- 378:
-            oscard = oscard.mYmwDw;
-            report = verify.bind(offset)(oscard);
- 391:
-            michal['label'] = report;
-            entity[3] = michal;
-            michal = {};
-            report = _closure1_slot2;
-            report = report.AUDIO_MISSING;
-            michal['value'] = report;
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
-            verify = report[option];
-            verify = oscard.bind(golfie)(verify);
-            offset = verify.intl;
-            verify = offset.string;
-            report = report[option];
-            report = oscard.bind(golfie)(report);
-            oscard = report.t;
-            if(tangon) { _fun00002_ip = 474; continue _fun00001 }
- 459:
-            report = oscard.G2egzc;
-            report = verify.bind(offset)(report);
-            _fun00002_ip = 487; continue _fun00001;
- 474:
-            oscard = oscard.Xwv419;
-            report = verify.bind(offset)(oscard);
- 487:
-            michal['label'] = report;
-            entity[4] = michal;
-            michal = {};
-            report = _closure1_slot2;
-            report = report.AUDIO_POOR;
-            michal['value'] = report;
-            offset = _closure1_slot0;
-            report = _closure1_slot1;
-            oscard = report[option];
-            oscard = offset.bind(golfie)(oscard);
-            verify = oscard.intl;
-            oscard = verify.string;
-            report = report[option];
-            report = offset.bind(golfie)(report);
-            report = report.t;
-            if(tangon) { _fun00002_ip = 570; continue _fun00001 }
- 555:
-            tangon = report.aHOfIi;
-            tangon = oscard.bind(verify)(tangon);
-            _fun00002_ip = 583; continue _fun00001;
- 570:
-            report = report.fHey+f;
-            tangon = oscard.bind(verify)(report);
- 583:
-            michal['label'] = tangon;
-            entity[5] = michal;
-            michal = {};
-            tangon = _closure1_slot2;
-            report = tangon.STREAM_STOPPED;
-            michal['value'] = report;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu.BLACK_SCREEN;
+            michal['value'] = zuuluu;
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot1;
-            report = zuuluu[option];
-            report = oscard.bind(golfie)(report);
-            offset = report.intl;
-            verify = offset.string;
-            report = zuuluu[option];
-            report = oscard.bind(golfie)(report);
-            report = report.t;
-            report = report.uEoqQk;
-            report = verify.bind(offset)(report);
-            michal['label'] = report;
-            entity[6] = michal;
-            michal = {};
-            tangon = tangon.OTHER;
-            michal['value'] = tangon;
-            tangon = zuuluu[option];
-            tangon = oscard.bind(golfie)(tangon);
-            report = tangon.intl;
-            tangon = report.string;
-            zuuluu = zuuluu[option];
-            zuuluu = oscard.bind(golfie)(zuuluu);
-            zuuluu = zuuluu.t;
-            zuuluu = zuuluu.emlT9/;
-            zuuluu = tangon.bind(report)(zuuluu);
+            verify = 1;
+            golfie = zuuluu[verify];
+            option = undefined;
+            golfie = oscard.bind(option)(golfie);
+            offset = golfie.intl;
+            golfie = offset.string;
+            zuuluu = zuuluu[verify];
+            zuuluu = oscard.bind(option)(zuuluu);
+            oscard = zuuluu.t;
+            if(report) { _fun00002_ip = 158; continue _fun00001 }
+ 143:
+            zuuluu = oscard.fxiRNj;
+            zuuluu = golfie.bind(offset)(zuuluu);
+            _fun00002_ip = 171; continue _fun00001;
+ 158:
+            oscard = oscard.0X5Zbm;
+            zuuluu = golfie.bind(offset)(oscard);
+ 171:
             michal['label'] = zuuluu;
-            entity[7] = michal;
+            zuuluu = new Array(9);
+            zuuluu[0] = michal;
+            michal = {};
+            oscard = _closure1_slot2;
+            oscard = oscard.BLURRY;
+            michal['value'] = oscard;
+            golfie = _closure1_slot0;
+            oscard = _closure1_slot1;
+            offset = oscard[verify];
+            offset = golfie.bind(option)(offset);
+            yankee = offset.intl;
+            offset = yankee.string;
+            oscard = oscard[verify];
+            oscard = golfie.bind(option)(oscard);
+            golfie = oscard.t;
+            if(report) { _fun00002_ip = 258; continue _fun00001 }
+ 243:
+            oscard = golfie.E8jTMD;
+            oscard = offset.bind(yankee)(oscard);
+            _fun00002_ip = 271; continue _fun00001;
+ 258:
+            golfie = golfie.VVPQy8;
+            oscard = offset.bind(yankee)(golfie);
+ 271:
+            michal['label'] = oscard;
+            zuuluu[1] = michal;
+            michal = {};
+            oscard = _closure1_slot2;
+            oscard = oscard.LAGGING;
+            michal['value'] = oscard;
+            golfie = _closure1_slot0;
+            oscard = _closure1_slot1;
+            offset = oscard[verify];
+            offset = golfie.bind(option)(offset);
+            yankee = offset.intl;
+            offset = yankee.string;
+            oscard = oscard[verify];
+            oscard = golfie.bind(option)(oscard);
+            golfie = oscard.t;
+            if(report) { _fun00002_ip = 354; continue _fun00001 }
+ 339:
+            oscard = golfie.VoSJER;
+            oscard = offset.bind(yankee)(oscard);
+            _fun00002_ip = 367; continue _fun00001;
+ 354:
+            golfie = golfie.ObEHd3;
+            oscard = offset.bind(yankee)(golfie);
+ 367:
+            michal['label'] = oscard;
+            zuuluu[2] = michal;
+            michal = {};
+            oscard = _closure1_slot2;
+            oscard = oscard.OUT_OF_SYNC;
+            michal['value'] = oscard;
+            golfie = _closure1_slot0;
+            oscard = _closure1_slot1;
+            offset = oscard[verify];
+            offset = golfie.bind(option)(offset);
+            yankee = offset.intl;
+            offset = yankee.string;
+            oscard = oscard[verify];
+            oscard = golfie.bind(option)(oscard);
+            golfie = oscard.t;
+            if(report) { _fun00002_ip = 450; continue _fun00001 }
+ 435:
+            oscard = golfie.+NluQk;
+            oscard = offset.bind(yankee)(oscard);
+            _fun00002_ip = 463; continue _fun00001;
+ 450:
+            golfie = golfie.mYmwDw;
+            oscard = offset.bind(yankee)(golfie);
+ 463:
+            michal['label'] = oscard;
+            zuuluu[3] = michal;
+            michal = {};
+            oscard = _closure1_slot2;
+            oscard = oscard.AUDIO_MISSING;
+            michal['value'] = oscard;
+            golfie = _closure1_slot0;
+            oscard = _closure1_slot1;
+            offset = oscard[verify];
+            offset = golfie.bind(option)(offset);
+            yankee = offset.intl;
+            offset = yankee.string;
+            oscard = oscard[verify];
+            oscard = golfie.bind(option)(oscard);
+            golfie = oscard.t;
+            if(report) { _fun00002_ip = 546; continue _fun00001 }
+ 531:
+            oscard = golfie.G2egzc;
+            oscard = offset.bind(yankee)(oscard);
+            _fun00002_ip = 559; continue _fun00001;
+ 546:
+            golfie = golfie.Xwv419;
+            oscard = offset.bind(yankee)(golfie);
+ 559:
+            michal['label'] = oscard;
+            zuuluu[4] = michal;
+            michal = {};
+            oscard = _closure1_slot2;
+            oscard = oscard.AUDIO_POOR;
+            michal['value'] = oscard;
+            yankee = _closure1_slot0;
+            oscard = _closure1_slot1;
+            golfie = oscard[verify];
+            golfie = yankee.bind(option)(golfie);
+            offset = golfie.intl;
+            golfie = offset.string;
+            oscard = oscard[verify];
+            oscard = yankee.bind(option)(oscard);
+            oscard = oscard.t;
+            if(report) { _fun00002_ip = 642; continue _fun00001 }
+ 627:
+            report = oscard.aHOfIi;
+            report = golfie.bind(offset)(report);
+            _fun00002_ip = 655; continue _fun00001;
+ 642:
+            oscard = oscard.fHey+f;
+            report = golfie.bind(offset)(oscard);
+ 655:
+            michal['label'] = report;
+            zuuluu[5] = michal;
+            michal = {};
+            report = _closure1_slot2;
+            oscard = report.STREAM_STOPPED;
+            michal['value'] = oscard;
+            golfie = _closure1_slot0;
+            tangon = _closure1_slot1;
+            oscard = tangon[verify];
+            oscard = golfie.bind(option)(oscard);
+            yankee = oscard.intl;
+            offset = yankee.string;
+            oscard = tangon[verify];
+            oscard = golfie.bind(option)(oscard);
+            oscard = oscard.t;
+            oscard = oscard.uEoqQk;
+            oscard = offset.bind(yankee)(oscard);
+            michal['label'] = oscard;
+            zuuluu[6] = michal;
+            michal = {};
+            oscard = report.VIBES_OFF;
+            michal['value'] = oscard;
+            oscard = tangon[verify];
+            oscard = golfie.bind(option)(oscard);
+            yankee = oscard.intl;
+            offset = yankee.string;
+            oscard = tangon[verify];
+            oscard = golfie.bind(option)(oscard);
+            oscard = oscard.t;
+            oscard = oscard.++JLLy;
+            oscard = offset.bind(yankee)(oscard);
+            michal['label'] = oscard;
+            zuuluu[7] = michal;
+            michal = {};
+            report = report.OTHER;
+            michal['value'] = report;
+            report = tangon[verify];
+            report = golfie.bind(option)(report);
+            oscard = report.intl;
+            report = oscard.string;
+            tangon = tangon[verify];
+            tangon = golfie.bind(option)(tangon);
+            tangon = tangon.t;
+            tangon = tangon.emlT9/;
+            tangon = report.bind(oscard)(tangon);
+            michal['label'] = tangon;
+            zuuluu[8] = michal;
+            michal = zuuluu.filter;
+            entity = function(argFoo) {
+                entity = argFoo;
+                zuuluu = entity.value;
+                michal = _closure2_slot0;
+                entity = michal.has;
+                entity = entity.bind(michal)(zuuluu);
+                entity = !entity;
+                return entity;
+            };
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         }
     };

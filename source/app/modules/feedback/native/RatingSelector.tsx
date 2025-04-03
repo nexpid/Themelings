@@ -231,8 +231,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
-                    option = entity.rating;
-                    var _closure3_slot0 = option;
+                    oscard = entity.rating;
+                    var _closure3_slot0 = oscard;
                     michal = entity.source;
                     foxtra = michal.selected;
                     romeon = michal.normal;
@@ -250,37 +250,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = michal.bind(zuuluu)(entity);
                     michal = entity.PressableOpacity;
                     entity = {};
-                    oscard = 'button';
-                    entity['accessibilityRole'] = oscard;
-                    oscard = backup.bind(zuuluu)();
-                    entity['accessibilityLabel'] = oscard;
-                    oscard = {};
-                    golfie = _closure2_slot1;
-                    offset = golfie === option;
-                    oscard['selected'] = offset;
-                    entity['accessibilityState'] = oscard;
-                    oscard = function() { // Original name: onPress
+                    golfie = 'button';
+                    entity['accessibilityRole'] = golfie;
+                    golfie = backup.bind(zuuluu)();
+                    entity['accessibilityLabel'] = golfie;
+                    golfie = {};
+                    option = _closure2_slot1;
+                    offset = option === oscard;
+                    golfie['selected'] = offset;
+                    entity['accessibilityState'] = golfie;
+                    golfie = function() { // Original name: onPress
                         zuuluu = _closure2_slot2;
                         michal = _closure3_slot0;
                         entity = undefined;
                         entity = zuuluu.bind(entity)(michal);
                         return entity;
                     };
-                    entity['onPress'] = oscard;
-                    oscard = _closure1_slot4;
+                    entity['onPress'] = golfie;
+                    golfie = _closure1_slot4;
                     report = {};
-                    golfie = _closure2_slot3;
-                    golfie = golfie.emoji;
-                    report['style'] = golfie;
-                    golfie = romeon;
+                    option = _closure2_slot3;
+                    option = option.emoji;
+                    report['style'] = option;
+                    option = romeon;
                     if(!offset) { _fun00004_ip = 167; continue _fun00003 }
  164:
-                    golfie = foxtra;
+                    option = foxtra;
  167:
-                    report['source'] = golfie;
-                    report = tangon.bind(zuuluu)(oscard, report);
+                    report['source'] = option;
+                    report = tangon.bind(zuuluu)(golfie, report);
                     entity['children'] = report;
-                    entity = tangon.bind(zuuluu)(michal, entity, option);
+                    entity = tangon.bind(zuuluu)(michal, entity, oscard);
                     _fun00004_ip = 366; continue _fun00003;
  193:
                     report = _closure1_slot7;
@@ -289,23 +289,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure2_slot3;
                     michal = michal.rating;
                     zuuluu['style'] = michal;
-                    golfie = _closure1_slot0;
-                    oscard = _closure1_slot2;
+                    option = _closure1_slot0;
+                    golfie = _closure1_slot2;
                     michal = 12;
-                    oscard = oscard[michal];
+                    golfie = golfie[michal];
                     michal = undefined;
-                    oscard = golfie.bind(michal)(oscard);
-                    golfie = oscard.RowButton;
-                    oscard = {};
+                    golfie = option.bind(michal)(golfie);
+                    option = golfie.RowButton;
+                    golfie = {};
                     kiloes = 'button';
-                    oscard['accessibilityRole'] = kiloes;
+                    golfie['accessibilityRole'] = kiloes;
                     backup = backup.bind(michal)();
-                    oscard['accessibilityLabel'] = backup;
+                    golfie['accessibilityLabel'] = backup;
                     kiloes = {};
                     backup = _closure2_slot1;
-                    backup = backup === option;
+                    backup = backup === oscard;
                     kiloes['selected'] = backup;
-                    oscard['accessibilityState'] = kiloes;
+                    golfie['accessibilityState'] = kiloes;
                     yankee = function() { // Original name: onPress
                         zuuluu = _closure2_slot2;
                         michal = _closure3_slot0;
@@ -313,7 +313,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = zuuluu.bind(entity)(michal);
                         return entity;
                     };
-                    oscard['onPress'] = yankee;
+                    golfie['onPress'] = yankee;
                     yankee = _closure1_slot4;
                     offset = {};
                     kiloes = _closure2_slot3;
@@ -325,13 +325,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  323:
                     offset['source'] = romeon;
                     offset = report.bind(michal)(yankee, offset);
-                    oscard['icon'] = offset;
+                    golfie['icon'] = offset;
                     verify = _closure2_slot0;
-                    verify = verify[option];
-                    oscard['label'] = verify;
-                    oscard = report.bind(michal)(golfie, oscard, option);
-                    zuuluu['children'] = oscard;
-                    entity = report.bind(michal)(tangon, zuuluu);
+                    verify = verify[oscard];
+                    golfie['label'] = verify;
+                    golfie = report.bind(michal)(option, golfie);
+                    zuuluu['children'] = golfie;
+                    entity = report.bind(michal)(tangon, zuuluu, oscard);
  366:
                     return entity;
                 }

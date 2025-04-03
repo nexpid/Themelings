@@ -32,6 +32,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report['NO_ISSUE'] = entity;
     entity = 'OTHER';
     report['OTHER'] = entity;
+    entity = 'VIBES_OFF';
+    report['VIBES_OFF'] = entity;
     tangon = {};
     entity = 'guild';
     tangon['GUILD'] = entity;

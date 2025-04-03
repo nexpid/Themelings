@@ -1,5 +1,5 @@
 // app/actions/ChannelRTCActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
@@ -201,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['updateStageVideoLimitBoostUpsellDismissed'] = golfie;
-    tangon = function(argFoo, argBar) { // Original name: updateChatOpen
+    golfie = function(argFoo, argBar) { // Original name: updateChatOpen
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             option = argFoo;
@@ -259,7 +259,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    michal['updateChatOpen'] = tangon;
+    michal['updateChatOpen'] = golfie;
+    tangon = function(argFoo, argBar, argBaz, argCor) { // Original name: jumpToVoiceChannelMessage
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
+        entity = 1;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'CHANNEL_RTC_JUMP_TO_VOICE_CHANNEL_MESSAGE';
+        michal['type'] = report;
+        report = argFoo;
+        michal['guildId'] = report;
+        report = argBar;
+        michal['channelId'] = report;
+        report = argBaz;
+        michal['messageId'] = report;
+        report = argCor;
+        michal['jumpType'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    michal['jumpToVoiceChannelMessage'] = tangon;
     tangon = 5;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);

@@ -1,24 +1,29 @@
 // app/modules/guild_profile/GuildProfileUtils.tsx
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    report = argBar;
     zuuluu = argFre;
+    oscard = argPlu;
     entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    michal['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
+    tangon = oscard[entity];
     entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = 'modules/guild_profile/GuildProfileUtils.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function(argFoo, argBar) { // Original name: getEstablishedDate
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.GuildFeatures;
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/guild_profile/GuildProfileUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo, argBar) { // Original name: getEstablishedDate
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
@@ -59,6 +64,15 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['getEstablishedDate'] = michal;
+    zuuluu['getEstablishedDate'] = tangon;
+    michal = function(argFoo) { // Original name: guildSupportsTags
+        zuuluu = argFoo;
+        michal = zuuluu.hasFeature;
+        entity = _closure1_slot0;
+        entity = entity.GUILD_TAGS;
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    zuuluu['guildSupportsTags'] = michal;
     return entity;
 })();

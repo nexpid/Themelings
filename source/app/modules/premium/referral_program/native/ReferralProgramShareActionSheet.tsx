@@ -159,12 +159,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             michal = _closure1_slot15;
             tangon = undefined;
-            update = michal.bind(tangon)();
-            config = _closure1_slot5;
-            michal = config.useRef;
+            source = michal.bind(tangon)();
+            ctrled = _closure1_slot5;
+            michal = ctrled.useRef;
             golfie = null;
-            sizing = michal.bind(config)(golfie);
-            var _closure2_slot0 = sizing;
+            output = michal.bind(ctrled)(golfie);
+            var _closure2_slot0 = output;
             verify = _closure1_slot0;
             cntext = _closure1_slot2;
             offset = 12;
@@ -182,44 +182,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             papara = report.bind(option)(zuuluu, michal);
             var _closure2_slot1 = papara;
-            zuuluu = config.useState;
+            zuuluu = ctrled.useState;
             michal = '';
-            michal = zuuluu.bind(config)(michal);
+            michal = zuuluu.bind(ctrled)(michal);
             backup = _closure1_slot4;
             foxtra = 2;
             michal = backup.bind(tangon)(michal, foxtra);
             zuuluu = 0;
             option = michal[zuuluu];
             romeon = 1;
-            sequen = michal[romeon];
-            report = config.useState;
+            config = michal[romeon];
+            report = ctrled.useState;
             michal = new Array(0);
-            michal = report.bind(config)(michal);
+            michal = report.bind(ctrled)(michal);
             michal = backup.bind(tangon)(michal, foxtra);
             report = michal[zuuluu];
             var _closure2_slot2 = report;
             michal = michal[romeon];
             var _closure2_slot3 = michal;
-            source = _closure1_slot1;
+            update = _closure1_slot1;
             michal = 13;
             michal = cntext[michal];
-            yankee = source.bind(tangon)(michal);
+            yankee = update.bind(tangon)(michal);
             michal = 400;
             yankee = yankee.bind(tangon)(option, michal);
-            kiloes = config.useState;
+            kiloes = ctrled.useState;
             michal = false;
-            michal = kiloes.bind(config)(michal);
+            michal = kiloes.bind(ctrled)(michal);
             michal = backup.bind(tangon)(michal, foxtra);
             record = michal[zuuluu];
             michal = michal[romeon];
             var _closure2_slot4 = michal;
             michal = 14;
             michal = cntext[michal];
-            foxtra = source.bind(tangon)(michal);
+            foxtra = update.bind(tangon)(michal);
             romeon = golfie != papara;
             michal = 'Referrals remaining should not be null';
             michal = foxtra.bind(tangon)(romeon, michal);
-            foxtra = config.useMemo;
+            foxtra = ctrled.useMemo;
             romeon = new Array(1);
             romeon[0] = report;
             michal = function() {
@@ -247,9 +247,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            foxtra = foxtra.bind(config)(michal, romeon);
+            foxtra = foxtra.bind(ctrled)(michal, romeon);
             var _closure2_slot5 = foxtra;
-            backup = config.useMemo;
+            backup = ctrled.useMemo;
             romeon = new Array(1);
             romeon[0] = foxtra;
             michal = function() {
@@ -277,9 +277,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            ctrled = backup.bind(config)(michal, romeon);
-            var _closure2_slot6 = ctrled;
-            backup = config.useLayoutEffect;
+            vacuum = backup.bind(ctrled)(michal, romeon);
+            var _closure2_slot6 = vacuum;
+            backup = ctrled.useLayoutEffect;
             romeon = new Array(1);
             romeon[0] = option;
             michal = function() {
@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            michal = backup.bind(config)(michal, romeon);
+            michal = backup.bind(ctrled)(michal, romeon);
             michal = 17;
             michal = cntext[michal];
             romeon = verify.bind(tangon)(michal);
@@ -319,7 +319,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot10 = romeon;
             status = backup.resendUsers;
             var _closure2_slot11 = status;
-            output = config.useMemo;
+            sizing = ctrled.useMemo;
             kiloes = new Array(2);
             kiloes[0] = report;
             kiloes[1] = status;
@@ -337,9 +337,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            backup = output.bind(config)(backup, kiloes);
+            backup = sizing.bind(ctrled)(backup, kiloes);
             var _closure2_slot12 = backup;
-            output = config.useMemo;
+            sizing = ctrled.useMemo;
             kiloes = new Array(3);
             kiloes[0] = foxtra;
             kiloes[1] = romeon;
@@ -363,18 +363,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            output = output.bind(config)(foxtra, kiloes);
+            result = sizing.bind(ctrled)(foxtra, kiloes);
             foxtra = 18;
             foxtra = cntext[foxtra];
-            kiloes = source.bind(tangon)(foxtra);
+            kiloes = update.bind(tangon)(foxtra);
             foxtra = {};
-            result = backup.length;
-            foxtra['numNewSelected'] = result;
-            result = report.length;
-            result = result > zuuluu;
-            foxtra['anySelected'] = result;
+            sizing = backup.length;
+            foxtra['numNewSelected'] = sizing;
+            sizing = report.length;
+            sizing = sizing > zuuluu;
+            foxtra['anySelected'] = sizing;
             target = kiloes.bind(tangon)(foxtra);
-            result = config.useCallback;
+            sizing = ctrled.useCallback;
             kiloes = function(argFoo) {
                 entity = argFoo;
                 var _closure3_slot0 = entity;
@@ -413,12 +413,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             foxtra = new Array(0);
-            sierra = result.bind(config)(kiloes, foxtra);
+            sierra = sizing.bind(ctrled)(kiloes, foxtra);
             var _closure2_slot13 = sierra;
-            result = config.useCallback;
+            sizing = ctrled.useCallback;
             kiloes = new Array(2);
             kiloes[0] = sierra;
-            kiloes[1] = ctrled;
+            kiloes[1] = vacuum;
             foxtra = function(argFoo) {
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
@@ -461,8 +461,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            vacuum = result.bind(config)(foxtra, kiloes);
-            result = config.useMemo;
+            sequen = sizing.bind(ctrled)(foxtra, kiloes);
+            sizing = ctrled.useMemo;
             kiloes = new Array(1);
             kiloes[0] = michal;
             foxtra = function() {
@@ -472,9 +472,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity[0] = michal;
                 return entity;
             };
-            kiloes = result.bind(config)(foxtra, kiloes);
-            echoed = config.useCallback;
-            result = function() {
+            kiloes = sizing.bind(ctrled)(foxtra, kiloes);
+            echoed = ctrled.useCallback;
+            sizing = function() {
                 entity = {};
                 michal = 'section';
                 entity['type'] = michal;
@@ -485,15 +485,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             foxtra = new Array(0);
-            foxtra = echoed.bind(config)(result, foxtra);
-            echoed = config.useCallback;
-            result = new Array(6);
-            result[0] = michal;
-            result[1] = sierra;
-            result[2] = report;
-            result[3] = status;
-            result[4] = papara;
-            result[5] = backup;
+            foxtra = echoed.bind(ctrled)(sizing, foxtra);
+            echoed = ctrled.useCallback;
+            sizing = new Array(6);
+            sizing[0] = michal;
+            sizing[1] = sierra;
+            sizing[2] = report;
+            sizing[3] = status;
+            sizing[4] = papara;
+            sizing[5] = backup;
             backup = function(argFoo, argBar) {
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
@@ -551,19 +551,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            backup = echoed.bind(config)(backup, result);
-            result = 21;
-            result = cntext[result];
-            echoed = source.bind(tangon)(result);
-            result = 22;
-            result = cntext[result];
-            result = source.bind(tangon)(result);
-            result = result.PREMIUM_MARKETING_REFERALL_PROGRAM_SHARE_MODAL;
-            result = echoed.bind(tangon)(result);
-            cntext = result.analyticsLocations;
+            backup = echoed.bind(ctrled)(backup, sizing);
+            sizing = 21;
+            sizing = cntext[sizing];
+            echoed = update.bind(tangon)(sizing);
+            sizing = 22;
+            sizing = cntext[sizing];
+            sizing = update.bind(tangon)(sizing);
+            sizing = sizing.PREMIUM_MARKETING_REFERALL_PROGRAM_SHARE_MODAL;
+            sizing = echoed.bind(tangon)(sizing);
+            cntext = sizing.analyticsLocations;
             var _closure2_slot14 = cntext;
-            source = config.useCallback;
-            result = function() {
+            update = ctrled.useCallback;
+            sizing = function() {
                 tangon = _closure1_slot3;
                 zuuluu = undefined;
                 michal = function* (argFoo) {
@@ -685,32 +685,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 return entity;
             };
-            echoed = result.bind(tangon)();
-            result = new Array(1);
-            result[0] = cntext;
-            result = source.bind(config)(echoed, result);
-            var _closure2_slot15 = result;
+            echoed = sizing.bind(tangon)();
+            sizing = new Array(1);
+            sizing[0] = cntext;
+            sizing = update.bind(ctrled)(echoed, sizing);
+            var _closure2_slot15 = sizing;
             report = report.length;
             report = report > zuuluu;
             cntext = null;
             if(!report) { _fun00002_ip = 926; continue _fun00001 }
  788:
-            source = _closure1_slot13;
+            update = _closure1_slot13;
             echoed = _closure1_slot0;
-            config = _closure1_slot2;
+            ctrled = _closure1_slot2;
             if(record) { _fun00002_ip = 897; continue _fun00001 }
  803:
             report = 30;
-            report = config[report];
+            report = ctrled[report];
             report = echoed.bind(tangon)(report);
-            result = report.HeaderActionButton;
+            sizing = report.HeaderActionButton;
             report = {};
             status = 20;
-            sierra = config[status];
+            sierra = ctrled[status];
             sierra = echoed.bind(tangon)(sierra);
             limora = sierra.intl;
             sierra = limora.string;
-            status = config[status];
+            status = ctrled[status];
             status = echoed.bind(tangon)(status);
             status = status.t;
             status = status.RDE0SU;
@@ -731,30 +731,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             report['onPress'] = status;
             report['disabled'] = record;
-            report = source.bind(tangon)(result, report);
+            report = update.bind(tangon)(sizing, report);
             _fun00002_ip = 923; continue _fun00001;
  897:
-            result = 29;
-            result = config[result];
-            result = echoed.bind(tangon)(result);
-            echoed = result.HeaderSubmittingIndicator;
-            result = {};
-            report = source.bind(tangon)(echoed, result);
+            sizing = 29;
+            sizing = ctrled[sizing];
+            sizing = echoed.bind(tangon)(sizing);
+            echoed = sizing.HeaderSubmittingIndicator;
+            sizing = {};
+            report = update.bind(tangon)(echoed, sizing);
  923:
             cntext = report;
  926:
-            source = _closure1_slot14;
-            result = _closure1_slot7;
+            update = _closure1_slot14;
+            sizing = _closure1_slot7;
             report = {};
-            echoed = update.header;
+            echoed = source.header;
             report['style'] = echoed;
             record = _closure1_slot13;
-            config = _closure1_slot0;
+            ctrled = _closure1_slot0;
             status = _closure1_slot2;
             echoed = 31;
             echoed = status[echoed];
-            echoed = config.bind(tangon)(echoed);
-            config = echoed.BottomSheetTitleHeader;
+            echoed = ctrled.bind(tangon)(echoed);
+            ctrled = echoed.BottomSheetTitleHeader;
             echoed = {};
             if(!(zuuluu !== papara)) { _fun00002_ip = 1038; continue _fun00001 }
  981:
@@ -787,9 +787,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  1093:
             echoed['title'] = papara;
             echoed['trailing'] = cntext;
-            echoed = record.bind(tangon)(config, echoed);
-            config = new Array(2);
-            config[0] = echoed;
+            echoed = record.bind(tangon)(ctrled, echoed);
+            ctrled = new Array(2);
+            ctrled[0] = echoed;
             papara = _closure1_slot13;
             cntext = _closure1_slot0;
             record = _closure1_slot2;
@@ -798,13 +798,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = cntext.bind(tangon)(record);
             cntext = record.Text;
             record = {'variant': 'text-xs/medium', 'color': 'header-secondary', 'lineClamp': 2};
-            status = update.subtitle;
+            status = source.subtitle;
             record['style'] = status;
             record['children'] = target;
             record = papara.bind(tangon)(cntext, record);
-            config[1] = record;
-            report['children'] = config;
-            report = source.bind(tangon)(result, report);
+            ctrled[1] = record;
+            report['children'] = ctrled;
+            report = update.bind(tangon)(sizing, report);
             if(romeon) { _fun00002_ip = 1544; continue _fun00001 }
  1199:
             michal = michal.length;
@@ -819,37 +819,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = _closure1_slot14;
             yankee = _closure1_slot7;
             michal = {};
-            result = update.centeredContainer;
-            michal['style'] = result;
+            sizing = source.centeredContainer;
+            michal['style'] = sizing;
             record = _closure1_slot13;
             papara = _closure1_slot1;
             sierra = _closure1_slot2;
-            result = 33;
-            result = sierra[result];
-            source = papara.bind(tangon)(result);
-            result = {};
-            config = {};
+            sizing = 33;
+            sizing = sierra[sizing];
+            update = papara.bind(tangon)(sizing);
+            sizing = {};
+            ctrled = {};
             cntext = 35;
             cntext = sierra[cntext];
             cntext = papara.bind(tangon)(cntext);
-            config['uri'] = cntext;
-            result['source'] = config;
-            config = 'contain';
-            result['resizeMode'] = config;
-            config = update.emptyImage;
-            result['style'] = config;
-            source = record.bind(tangon)(source, result);
-            result = new Array(3);
-            result[0] = source;
+            ctrled['uri'] = cntext;
+            sizing['source'] = ctrled;
+            ctrled = 'contain';
+            sizing['resizeMode'] = ctrled;
+            ctrled = source.emptyImage;
+            sizing['style'] = ctrled;
+            update = record.bind(tangon)(update, sizing);
+            sizing = new Array(3);
+            sizing[0] = update;
             status = _closure1_slot0;
-            source = sierra[echoed];
-            source = status.bind(tangon)(source);
-            config = source.Text;
-            source = {};
+            update = sierra[echoed];
+            update = status.bind(tangon)(update);
+            ctrled = update.Text;
+            update = {};
             cntext = 'heading-xl/bold';
-            source['variant'] = cntext;
-            cntext = update.subtitle;
-            source['style'] = cntext;
+            update['variant'] = cntext;
+            cntext = source.subtitle;
+            update['style'] = cntext;
             cntext = 20;
             papara = sierra[cntext];
             papara = status.bind(tangon)(papara);
@@ -860,15 +860,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = papara.t;
             papara = papara.PFp+aG;
             papara = target.bind(limora)(papara);
-            source['children'] = papara;
-            source = record.bind(tangon)(config, source);
-            result[1] = source;
-            source = sierra[echoed];
-            source = status.bind(tangon)(source);
-            config = source.Text;
-            source = {'variant': 'text-md/medium', 'color': 'header-secondary'};
-            papara = update.subtitle;
-            source['style'] = papara;
+            update['children'] = papara;
+            update = record.bind(tangon)(ctrled, update);
+            sizing[1] = update;
+            update = sierra[echoed];
+            update = status.bind(tangon)(update);
+            ctrled = update.Text;
+            update = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+            papara = source.subtitle;
+            update['style'] = papara;
             papara = sierra[cntext];
             papara = status.bind(tangon)(papara);
             target = papara.intl;
@@ -878,47 +878,47 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = cntext.t;
             cntext = cntext.eBIGBw;
             cntext = papara.bind(target)(cntext);
-            source['children'] = cntext;
-            source = record.bind(tangon)(config, source);
-            result[2] = source;
-            michal['children'] = result;
+            update['children'] = cntext;
+            update = record.bind(tangon)(ctrled, update);
+            sizing[2] = update;
+            michal['children'] = sizing;
             report = romeon.bind(tangon)(yankee, michal);
             _fun00002_ip = 1857; continue _fun00001;
  1544:
             romeon = _closure1_slot14;
             yankee = _closure1_slot7;
             michal = {};
-            result = update.centeredContainer;
-            michal['style'] = result;
-            config = _closure1_slot13;
+            sizing = source.centeredContainer;
+            michal['style'] = sizing;
+            ctrled = _closure1_slot13;
             papara = _closure1_slot1;
             status = _closure1_slot2;
-            result = 33;
-            result = status[result];
-            source = papara.bind(tangon)(result);
-            result = {};
+            sizing = 33;
+            sizing = status[sizing];
+            update = papara.bind(tangon)(sizing);
+            sizing = {};
             record = {};
             cntext = 34;
             cntext = status[cntext];
             cntext = papara.bind(tangon)(cntext);
             record['uri'] = cntext;
-            result['source'] = record;
+            sizing['source'] = record;
             record = 'contain';
-            result['resizeMode'] = record;
-            record = update.errorImage;
-            result['style'] = record;
-            source = config.bind(tangon)(source, result);
-            result = new Array(3);
-            result[0] = source;
+            sizing['resizeMode'] = record;
+            record = source.errorImage;
+            sizing['style'] = record;
+            update = ctrled.bind(tangon)(update, sizing);
+            sizing = new Array(3);
+            sizing[0] = update;
             target = _closure1_slot0;
-            source = status[echoed];
-            source = target.bind(tangon)(source);
-            cntext = source.Text;
-            source = {};
+            update = status[echoed];
+            update = target.bind(tangon)(update);
+            cntext = update.Text;
+            update = {};
             record = 'heading-xl/bold';
-            source['variant'] = record;
-            record = update.subtitle;
-            source['style'] = record;
+            update['variant'] = record;
+            record = source.subtitle;
+            update['style'] = record;
             record = 20;
             papara = status[record];
             papara = target.bind(tangon)(papara);
@@ -929,14 +929,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = papara.t;
             papara = papara.a9HOKi;
             papara = sierra.bind(limora)(papara);
-            source['children'] = papara;
-            source = config.bind(tangon)(cntext, source);
-            result[1] = source;
+            update['children'] = papara;
+            update = ctrled.bind(tangon)(cntext, update);
+            sizing[1] = update;
             echoed = status[echoed];
             echoed = target.bind(tangon)(echoed);
-            source = echoed.Text;
+            update = echoed.Text;
             echoed = {'variant': 'text-md/medium', 'color': 'header-secondary'};
-            cntext = update.subtitle;
+            cntext = source.subtitle;
             echoed['style'] = cntext;
             cntext = status[record];
             cntext = target.bind(tangon)(cntext);
@@ -948,9 +948,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = record.JjjeZW;
             record = cntext.bind(papara)(record);
             echoed['children'] = record;
-            echoed = config.bind(tangon)(source, echoed);
-            result[2] = echoed;
-            michal['children'] = result;
+            echoed = ctrled.bind(tangon)(update, echoed);
+            sizing[2] = echoed;
+            michal['children'] = sizing;
             report = romeon.bind(tangon)(yankee, michal);
  1857:
             michal = option.trim;
@@ -969,7 +969,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = undefined;
             if(romeon) { _fun00002_ip = 1924; continue _fun00001 }
  1918:
-            yankee = update.searchBarRowContainer;
+            yankee = source.searchBarRowContainer;
  1924:
             michal['style'] = yankee;
             michal = zuuluu.bind(option)(michal);
@@ -1006,68 +1006,70 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             verify = zuuluu.bind(option)(entity, michal);
-            echoed = _closure1_slot13;
+            update = _closure1_slot13;
             michal = _closure1_slot6;
             entity = {'size': 'large', 'color': null, 'animating': true};
-            source = _closure1_slot1;
-            record = _closure1_slot2;
+            ctrled = _closure1_slot1;
+            cntext = _closure1_slot2;
             zuuluu = 11;
-            zuuluu = record[zuuluu];
-            zuuluu = source.bind(tangon)(zuuluu);
+            zuuluu = cntext[zuuluu];
+            zuuluu = ctrled.bind(tangon)(zuuluu);
             zuuluu = zuuluu.unsafe_rawColors;
             zuuluu = zuuluu.BRAND_500;
             entity['color'] = zuuluu;
-            option = echoed.bind(tangon)(michal, entity);
+            sizing = true;
+            option = update.bind(tangon)(michal, entity);
             zuuluu = _closure1_slot14;
-            config = _closure1_slot0;
+            record = _closure1_slot0;
             entity = 37;
-            entity = record[entity];
-            entity = config.bind(tangon)(entity);
+            entity = cntext[entity];
+            entity = record.bind(tangon)(entity);
             michal = entity.BottomSheet;
             entity = {'scrollable': true, 'startExpanded': true};
             entity['header'] = report;
-            result = _closure1_slot7;
+            echoed = _closure1_slot7;
             report = {};
-            update = update.searchBarContainer;
-            report['style'] = update;
-            update = 38;
-            update = record[update];
-            source = source.bind(tangon)(update);
-            update = {};
-            update['onChangeText'] = sequen;
-            update['onRemove'] = vacuum;
-            update['tags'] = ctrled;
-            ctrled = 20;
-            vacuum = record[ctrled];
-            vacuum = config.bind(tangon)(vacuum);
-            sequen = vacuum.intl;
-            vacuum = sequen.string;
-            ctrled = record[ctrled];
-            ctrled = config.bind(tangon)(ctrled);
-            ctrled = ctrled.t;
-            ctrled = ctrled.CaEER0;
-            ctrled = vacuum.bind(sequen)(ctrled);
-            update['placeholder'] = ctrled;
-            update = echoed.bind(tangon)(source, update);
-            report['children'] = update;
-            result = echoed.bind(tangon)(result, report);
+            source = source.searchBarContainer;
+            report['style'] = source;
+            source = 38;
+            source = cntext[source];
+            ctrled = ctrled.bind(tangon)(source);
+            source = {};
+            source['onChangeText'] = config;
+            source['onRemove'] = sequen;
+            source['tags'] = vacuum;
+            vacuum = 20;
+            sequen = cntext[vacuum];
+            sequen = record.bind(tangon)(sequen);
+            config = sequen.intl;
+            sequen = config.string;
+            vacuum = cntext[vacuum];
+            vacuum = record.bind(tangon)(vacuum);
+            vacuum = vacuum.t;
+            vacuum = vacuum.CaEER0;
+            vacuum = sequen.bind(config)(vacuum);
+            source['placeholder'] = vacuum;
+            source = update.bind(tangon)(ctrled, source);
+            report['children'] = source;
+            echoed = update.bind(tangon)(echoed, report);
             report = new Array(3);
-            report[0] = result;
+            report[0] = echoed;
             golfie = null;
-            if(!output) { _fun00002_ip = 2213; continue _fun00001 }
- 2210:
+            if(!result) { _fun00002_ip = 2215; continue _fun00001 }
+ 2212:
             golfie = option;
- 2213:
+ 2215:
             report[1] = golfie;
             option = _closure1_slot13;
             golfie = _closure1_slot0;
-            output = _closure1_slot2;
+            result = _closure1_slot2;
             oscard = 39;
-            oscard = output[oscard];
+            oscard = result[oscard];
             oscard = golfie.bind(tangon)(oscard);
             golfie = oscard.UsersFastList;
             oscard = {};
-            oscard['ref'] = sizing;
+            oscard['ref'] = output;
+            oscard['inActionSheet'] = sizing;
             oscard['sections'] = kiloes;
             oscard['getItemProps'] = backup;
             oscard['getSectionProps'] = foxtra;

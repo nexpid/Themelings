@@ -62,22 +62,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot0 = option;
             entity = entity.analyticsData;
             var _closure2_slot1 = entity;
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot2;
+            report = _closure1_slot0;
+            oscard = _closure1_slot2;
             zuuluu = 6;
-            zuuluu = golfie[zuuluu];
+            zuuluu = oscard[zuuluu];
             tangon = undefined;
-            report = oscard.bind(tangon)(zuuluu);
-            zuuluu = report.useGetStreamApplication;
-            zuuluu = zuuluu.bind(report)(option);
+            golfie = report.bind(tangon)(zuuluu);
+            zuuluu = golfie.useGetStreamApplication;
+            zuuluu = zuuluu.bind(golfie)(option);
             var _closure2_slot2 = zuuluu;
             zuuluu = 7;
-            zuuluu = golfie[zuuluu];
-            verify = oscard.bind(tangon)(zuuluu);
+            zuuluu = oscard[zuuluu];
+            verify = report.bind(tangon)(zuuluu);
             option = verify.useStateFromStores;
             zuuluu = _closure1_slot3;
-            report = new Array(1);
-            report[0] = zuuluu;
+            golfie = new Array(1);
+            golfie[0] = zuuluu;
             zuuluu = function() {
                 michal = _closure1_slot3;
                 entity = michal.getId;
@@ -87,123 +87,127 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal === entity;
                 return entity;
             };
-            offset = option.bind(verify)(report, zuuluu);
-            report = _closure1_slot1;
+            yankee = option.bind(verify)(golfie, zuuluu);
             zuuluu = 8;
-            zuuluu = golfie[zuuluu];
-            report = report.bind(tangon)(zuuluu);
-            zuuluu = false;
-            yankee = true;
-            zuuluu = report.bind(tangon)(zuuluu, yankee);
-            report = 9;
-            report = golfie[report];
-            golfie = oscard.bind(tangon)(report);
-            oscard = golfie.useCallSurveyRefreshExperiment;
-            report = {};
-            option = 'StreamFeedbackActionSheet';
-            report['location'] = option;
-            report = oscard.bind(golfie)(report);
-            option = report.showRefreshedSurvey;
+            zuuluu = oscard[zuuluu];
+            oscard = report.bind(tangon)(zuuluu);
+            report = oscard.useCallSurveyRefreshExperiment;
+            zuuluu = {};
+            golfie = 'StreamFeedbackActionSheet';
+            zuuluu['location'] = golfie;
+            oscard = report.bind(oscard)(zuuluu);
+            zuuluu = oscard.showFormStyleSurvey;
+            report = oscard.hideNeutralOption;
+            backup = oscard.showVibesHoneypot;
+            offset = _closure1_slot0;
+            oscard = _closure1_slot2;
+            golfie = 9;
+            option = oscard[golfie];
+            option = offset.bind(tangon)(option);
+            verify = option.intl;
+            option = verify.string;
+            oscard = oscard[golfie];
+            oscard = offset.bind(tangon)(oscard);
+            oscard = oscard.t;
+            if(zuuluu) { _fun00002_ip = 222; continue _fun00001 }
+ 207:
+            offset = oscard.5smP3d;
+            foxtra = option.bind(verify)(offset);
+            _fun00002_ip = 235; continue _fun00001;
+ 222:
+            oscard = oscard.OR6KNz;
+            foxtra = option.bind(verify)(oscard);
+ 235:
+            offset = undefined;
+            if(zuuluu) { _fun00002_ip = 294; continue _fun00001 }
+ 240:
             romeon = _closure1_slot0;
-            report = _closure1_slot2;
-            golfie = 10;
-            oscard = report[golfie];
+            oscard = _closure1_slot2;
+            option = oscard[golfie];
+            option = romeon.bind(tangon)(option);
+            verify = option.intl;
+            option = verify.string;
+            oscard = oscard[golfie];
             oscard = romeon.bind(tangon)(oscard);
-            verify = oscard.intl;
-            oscard = verify.string;
-            report = report[golfie];
-            report = romeon.bind(tangon)(report);
-            report = report.t;
-            if(option) { _fun00002_ip = 236; continue _fun00001 }
- 221:
-            romeon = report.5smP3d;
-            romeon = oscard.bind(verify)(romeon);
-            _fun00002_ip = 249; continue _fun00001;
- 236:
-            report = report.OR6KNz;
-            romeon = oscard.bind(verify)(report);
- 249:
+            oscard = oscard.t;
+            oscard = oscard.0uxA2d;
+            offset = option.bind(verify)(oscard);
+ 294:
             verify = undefined;
-            if(option) { _fun00002_ip = 308; continue _fun00001 }
- 254:
-            backup = _closure1_slot0;
-            report = _closure1_slot2;
-            oscard = report[golfie];
-            oscard = backup.bind(tangon)(oscard);
-            foxtra = oscard.intl;
-            oscard = foxtra.string;
-            report = report[golfie];
-            report = backup.bind(tangon)(report);
-            report = report.t;
-            report = report.0uxA2d;
-            verify = oscard.bind(foxtra)(report);
- 308:
-            oscard = undefined;
-            if(option) { _fun00002_ip = 367; continue _fun00001 }
- 313:
+            if(zuuluu) { _fun00002_ip = 353; continue _fun00001 }
+ 299:
             kiloes = _closure1_slot0;
+            oscard = _closure1_slot2;
+            option = oscard[golfie];
+            option = kiloes.bind(tangon)(option);
+            romeon = option.intl;
+            option = romeon.string;
+            oscard = oscard[golfie];
+            oscard = kiloes.bind(tangon)(oscard);
+            oscard = oscard.t;
+            oscard = oscard.CqjnLC;
+            verify = option.bind(romeon)(oscard);
+ 353:
+            option = undefined;
+            if(!report) { _fun00002_ip = 389; continue _fun00001 }
+ 358:
+            oscard = _closure1_slot5;
+            romeon = oscard.BAD;
+            report = new Array(2);
+            report[0] = romeon;
+            oscard = oscard.GOOD;
+            report[1] = oscard;
+            option = report;
+ 389:
+            oscard = undefined;
+            if(!zuuluu) { _fun00002_ip = 528; continue _fun00001 }
+ 397:
+            zuuluu = {};
+            romeon = _closure1_slot5;
+            sizing = romeon.BAD;
+            output = _closure1_slot0;
             report = _closure1_slot2;
-            foxtra = report[golfie];
-            foxtra = kiloes.bind(tangon)(foxtra);
-            backup = foxtra.intl;
-            foxtra = backup.string;
+            kiloes = report[golfie];
+            kiloes = output.bind(tangon)(kiloes);
+            echoed = kiloes.intl;
+            result = echoed.string;
+            kiloes = report[golfie];
+            kiloes = output.bind(tangon)(kiloes);
+            kiloes = kiloes.t;
+            kiloes = kiloes.ISINlJ;
+            kiloes = result.bind(echoed)(kiloes);
+            zuuluu[sizing] = kiloes;
+            romeon = romeon.GOOD;
+            kiloes = report[golfie];
+            kiloes = output.bind(tangon)(kiloes);
+            sizing = kiloes.intl;
+            kiloes = sizing.string;
             report = report[golfie];
-            report = kiloes.bind(tangon)(report);
+            report = output.bind(tangon)(report);
             report = report.t;
-            report = report.CqjnLC;
-            oscard = foxtra.bind(backup)(report);
- 367:
+            report = report.IySkjY;
+            report = kiloes.bind(sizing)(report);
+            zuuluu[romeon] = report;
+            oscard = zuuluu;
+ 528:
+            report = _closure1_slot1;
+            romeon = _closure1_slot2;
+            zuuluu = 10;
+            zuuluu = romeon[zuuluu];
+            report = report.bind(tangon)(zuuluu);
+            zuuluu = {'isStreamer': false, 'isEndStream': true};
+            romeon = true;
+            zuuluu['showVibesHoneypot'] = backup;
+            zuuluu = report.bind(tangon)(zuuluu);
             report = {};
-            report['headerLabel'] = romeon;
-            report['showHeaderCloseButton'] = yankee;
-            if(!offset) { _fun00002_ip = 385; continue _fun00001 }
- 382:
-            oscard = verify;
- 385:
-            report['ratingsBodyLabel'] = oscard;
-            oscard = undefined;
-            if(!option) { _fun00002_ip = 426; continue _fun00001 }
- 395:
-            offset = _closure1_slot5;
-            yankee = offset.BAD;
-            verify = new Array(2);
-            verify[0] = yankee;
-            offset = offset.GOOD;
-            verify[1] = offset;
-            oscard = verify;
- 426:
-            report['ratingOptions'] = oscard;
-            oscard = undefined;
-            if(!option) { _fun00002_ip = 570; continue _fun00001 }
- 439:
-            option = {};
-            offset = _closure1_slot5;
-            romeon = offset.BAD;
-            foxtra = _closure1_slot0;
-            verify = _closure1_slot2;
-            yankee = verify[golfie];
-            yankee = foxtra.bind(tangon)(yankee);
-            kiloes = yankee.intl;
-            backup = kiloes.string;
-            yankee = verify[golfie];
-            yankee = foxtra.bind(tangon)(yankee);
-            yankee = yankee.t;
-            yankee = yankee.ISINlJ;
-            yankee = backup.bind(kiloes)(yankee);
-            option[romeon] = yankee;
-            offset = offset.GOOD;
-            yankee = verify[golfie];
-            yankee = foxtra.bind(tangon)(yankee);
-            romeon = yankee.intl;
-            yankee = romeon.string;
-            verify = verify[golfie];
-            verify = foxtra.bind(tangon)(verify);
-            verify = verify.t;
-            verify = verify.IySkjY;
-            verify = yankee.bind(romeon)(verify);
-            option[offset] = verify;
-            oscard = option;
- 570:
+            report['headerLabel'] = foxtra;
+            report['showHeaderCloseButton'] = romeon;
+            if(!yankee) { _fun00002_ip = 592; continue _fun00001 }
+ 589:
+            verify = offset;
+ 592:
+            report['ratingsBodyLabel'] = verify;
+            report['ratingOptions'] = option;
             report['ratingTextLabels'] = oscard;
             offset = _closure1_slot0;
             oscard = _closure1_slot2;
@@ -333,9 +337,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = oscard[entity];
             michal = michal.bind(tangon)(entity);
             entity = {};
-            output = entity;
-            sizing = report;
-            report = copyDataProperties(output, sizing);
+            source = entity;
+            update = report;
+            report = copyDataProperties(source, update);
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }

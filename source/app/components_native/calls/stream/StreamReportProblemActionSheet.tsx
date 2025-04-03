@@ -126,8 +126,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = 12;
         zuuluu = offset[zuuluu];
         report = report.bind(tangon)(zuuluu);
-        zuuluu = false;
-        report = report.bind(tangon)(zuuluu, zuuluu);
+        zuuluu = {'isStreamer': false, 'isEndStream': false, 'showVibesHoneypot': false};
+        report = report.bind(tangon)(zuuluu);
         zuuluu = report.map;
         michal = function(argFoo, argBar) {
             michal = argFoo;

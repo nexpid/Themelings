@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = michal.jumpType;
             offset = _closure1_slot0;
             entity = _closure1_slot2;
-            yankee = 21;
+            yankee = 22;
             entity = entity[yankee];
             verify = undefined;
             entity = offset.bind(verify)(entity);
@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['guildId'] = zuuluu;
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            michal = 21;
+            michal = 22;
             zuuluu = zuuluu[michal];
             michal = undefined;
             michal = tangon.bind(michal)(zuuluu);
@@ -314,7 +314,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie[0] = offset;
     golfie[1] = oscard;
     var _closure1_slot16 = golfie;
-    golfie = 22;
+    golfie = 23;
     golfie = verify[golfie];
     verify = option.bind(entity)(golfie);
     option = verify.fileFinishedImporting;
@@ -657,7 +657,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = michal.preserveDrawerState;
             if(!(offset == result)) { _fun00014_ip = 83; continue _fun00013 }
  76:
-            if(!(offset != output)) { _fun00014_ip = 793; continue _fun00013 }
+            if(!(offset != output)) { _fun00014_ip = 859; continue _fun00013 }
  83:
             yankee = _closure1_slot7;
             michal = yankee.getChannel;
@@ -684,7 +684,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(!(romeon !== yankee)) { _fun00014_ip = 332; continue _fun00013 }
  163:
             yankee = _closure1_slot15;
-            if(!(offset != yankee)) { _fun00014_ip = 791; continue _fun00013 }
+            if(!(offset != yankee)) { _fun00014_ip = 857; continue _fun00013 }
  174:
             foxtra = _closure1_slot15;
             romeon = foxtra.log;
@@ -722,7 +722,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             config = yankee;
             yankee = whisks[source](limora, sierra, status, target, papara, cntext, record, config, sequen);
             yankee = romeon.bind(foxtra)(yankee);
-            _fun00014_ip = 791; continue _fun00013;
+            _fun00014_ip = 857; continue _fun00013;
  332:
             yankee = _closure1_slot15;
             if(!(offset != yankee)) { _fun00014_ip = 467; continue _fun00013 }
@@ -841,19 +841,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = michal.isGuildStageVoice;
             verify = yankee.bind(michal)();
  763:
-            if(!verify) { _fun00014_ip = 791; continue _fun00013 }
+            if(!verify) { _fun00014_ip = 857; continue _fun00013 }
  766:
             yankee = _closure1_slot5;
             verify = michal.id;
             michal = _closure1_slot14;
             michal = michal.OPEN;
             michal = yankee.bind(zuuluu)(verify, michal);
- 791:
+            michal = offset != output;
+            if(!michal) { _fun00014_ip = 802; continue _fun00013 }
+ 798:
+            michal = offset != result;
+ 802:
+            if(!michal) { _fun00014_ip = 809; continue _fun00013 }
+ 805:
+            michal = offset != sizing;
+ 809:
+            if(!michal) { _fun00014_ip = 857; continue _fun00013 }
+ 812:
+            verify = _closure1_slot1;
+            yankee = _closure1_slot2;
+            michal = 21;
+            michal = yankee[michal];
+            verify = verify.bind(zuuluu)(michal);
+            michal = verify.jumpToVoiceChannelMessage;
+            whisks = verify;
+            limora = output;
+            sierra = result;
+            status = sizing;
+            target = report;
+            michal = whisks[michal](limora, sierra, status, target, papara);
+ 857:
             return zuuluu;
- 793:
+ 859:
             michal = _closure1_slot15;
-            if(!(offset != michal)) { _fun00014_ip = 928; continue _fun00013 }
- 804:
+            if(!(offset != michal)) { _fun00014_ip = 994; continue _fun00013 }
+ 870:
             yankee = _closure1_slot15;
             verify = yankee.verbose;
             michal = global;
@@ -881,7 +904,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             target = michal;
             michal = whisks[foxtra](limora, sierra, status, target, papara);
             michal = verify.bind(yankee)(michal);
- 928:
+ 994:
             verify = _closure1_slot10;
             michal = verify.getLastSelectedChannelId;
             yankee = michal.bind(verify)();
@@ -889,23 +912,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = verify.getChannel;
             michal = michal.bind(verify)(yankee);
             verify = offset != michal;
-            if(!verify) { _fun00014_ip = 973; continue _fun00013 }
- 963:
+            if(!verify) { _fun00014_ip = 1039; continue _fun00013 }
+ 1029:
             yankee = michal.isGuildVoice;
             verify = yankee.bind(michal)();
- 973:
-            if(verify) { _fun00014_ip = 996; continue _fun00013 }
- 976:
+ 1039:
+            if(verify) { _fun00014_ip = 1062; continue _fun00013 }
+ 1042:
             offset = offset != michal;
-            if(!offset) { _fun00014_ip = 993; continue _fun00013 }
- 983:
+            if(!offset) { _fun00014_ip = 1059; continue _fun00013 }
+ 1049:
             yankee = michal.isGuildStageVoice;
             offset = yankee.bind(michal)();
- 993:
+ 1059:
             verify = offset;
- 996:
-            if(!verify) { _fun00014_ip = 1062; continue _fun00013 }
- 999:
+ 1062:
+            if(!verify) { _fun00014_ip = 1128; continue _fun00013 }
+ 1065:
             offset = _closure1_slot1;
             foxtra = _closure1_slot2;
             verify = 15;
@@ -920,7 +943,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.id;
             michal = yankee.bind(romeon)(michal);
             michal = verify.bind(offset)(michal);
- 1062:
+ 1128:
             michal = _closure1_slot1;
             verify = _closure1_slot2;
             entity = 17;

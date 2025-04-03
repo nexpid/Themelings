@@ -495,6 +495,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report['INVITE_OPTIONS_6_HOURS'] = offset;
     offset = option[verify];
     offset = golfie.bind(entity)(offset);
+    offset = offset.INVITE_OPTIONS_8_HOURS;
+    report['INVITE_OPTIONS_8_HOURS'] = offset;
+    offset = option[verify];
+    offset = golfie.bind(entity)(offset);
     offset = offset.INVITE_OPTIONS_1_HOUR;
     report['INVITE_OPTIONS_1_HOUR'] = offset;
     offset = option[verify];

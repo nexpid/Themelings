@@ -433,8 +433,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['badge'] = zuuluu;
             zuuluu = michal.badge_color_primary;
             entity['badgeColorPrimary'] = zuuluu;
-            michal = michal.badge_color_secondary;
-            entity['badgeColorSecondary'] = michal;
+            zuuluu = michal.badge_color_secondary;
+            entity['badgeColorSecondary'] = zuuluu;
+            michal = michal.badge_hash;
+            entity['badgeHash'] = michal;
             return entity;
         }
     };
@@ -648,11 +650,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = undefined;
             entity = zuuluu.bind(michal)(oscard);
  39:
-            if(!(tangon == entity)) { _fun00020_ip = 303; continue _fun00019 }
+            if(!(tangon == entity)) { _fun00020_ip = 308; continue _fun00019 }
  46:
             zuuluu = tangon == report;
             michal = null;
-            if(zuuluu) { _fun00020_ip = 300; continue _fun00019 }
+            if(zuuluu) { _fun00020_ip = 305; continue _fun00019 }
  58:
             zuuluu = {};
             oscard = report.id;
@@ -719,12 +721,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['brandColorPrimary'] = tangon;
             zuuluu['tag'] = tangon;
             zuuluu['badge'] = tangon;
+            zuuluu['badgeHash'] = tangon;
             zuuluu['badgeColorPrimary'] = tangon;
             zuuluu['badgeColorSecondary'] = tangon;
             michal = zuuluu;
- 300:
+ 305:
             entity = michal;
- 303:
+ 308:
             return entity;
         }
     };

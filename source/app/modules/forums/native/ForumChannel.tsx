@@ -446,7 +446,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = output.size;
             offset = 0;
             offset = yankee > offset;
-            if(!offset) { _fun00006_ip = 387; continue _fun00005 }
+            if(!offset) { _fun00006_ip = 391; continue _fun00005 }
  306:
             foxtra = _closure1_slot18;
             romeon = _closure1_slot4;
@@ -465,7 +465,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = sizing.bind(tangon)(kiloes, backup);
             yankee['children'] = backup;
             offset = foxtra.bind(tangon)(romeon, yankee);
- 387:
+ 391:
             option[1] = offset;
             yankee = _closure1_slot18;
             offset = _closure1_slot0;
