@@ -921,6 +921,16 @@
         "width": 24,
         "height": 24
     },
+    "BoostSlashIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/BoostSlashIcon.png",
+        "hash": "220d3bbbdb6da856027259c4fcb34e0f",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "BoostTier2Icon": {
         "file": "design/components/Icon/native/redesign/generated/images/BoostTier2Icon.png",
         "hash": "76a2a5f225fb13b578cca85e148337ef",
