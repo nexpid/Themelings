@@ -278,7 +278,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(7);
+        entity = new Array(8);
         entity[0] = report;
         report = {};
         golfie = 'getCumulativeCPUUsage';
@@ -311,6 +311,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[3] = report;
         report = {};
+        golfie = 'getMemoryUsageElectronProcessTypeDetails';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
+            entity = null;
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[4] = report;
+        report = {};
         golfie = 'getMemoryUsageDetails';
         report['key'] = golfie;
         golfie = function() { // Original name: value
@@ -321,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[4] = report;
+        entity[5] = report;
         report = {};
         golfie = 'getMemoryUsageElectronRenderer';
         report['key'] = golfie;
@@ -330,7 +339,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[5] = report;
+        entity[6] = report;
         report = {};
         golfie = 'getMemoryUsageElectronRendererUsedHeapSize';
         report['key'] = golfie;
@@ -339,7 +348,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = oscard;
-        entity[6] = report;
+        entity[7] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

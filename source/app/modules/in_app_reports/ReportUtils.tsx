@@ -696,7 +696,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = yankee.bind(verify)(tangon);
             tangon = tangon.ReportNames;
             tangon = tangon.MESSAGE;
-            if(!(option !== tangon)) { _fun00018_ip = 1235; continue _fun00017 }
+            if(!(option !== tangon)) { _fun00018_ip = 1346; continue _fun00017 }
  201:
             option = michal.name;
             yankee = _closure1_slot0;
@@ -705,7 +705,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = yankee.bind(verify)(tangon);
             tangon = tangon.ReportNames;
             tangon = tangon.FIRST_DM;
-            if(!(option !== tangon)) { _fun00018_ip = 1235; continue _fun00017 }
+            if(!(option !== tangon)) { _fun00018_ip = 1346; continue _fun00017 }
  242:
             option = michal.name;
             yankee = _closure1_slot0;
@@ -714,7 +714,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = yankee.bind(verify)(tangon);
             tangon = tangon.ReportNames;
             tangon = tangon.GUILD;
-            if(!(option !== tangon)) { _fun00018_ip = 1177; continue _fun00017 }
+            if(!(option !== tangon)) { _fun00018_ip = 1288; continue _fun00017 }
  283:
             option = michal.name;
             yankee = _closure1_slot0;
@@ -723,7 +723,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = yankee.bind(verify)(tangon);
             tangon = tangon.ReportNames;
             tangon = tangon.GUILD_DISCOVERY;
-            if(!(option !== tangon)) { _fun00018_ip = 1177; continue _fun00017 }
+            if(!(option !== tangon)) { _fun00018_ip = 1288; continue _fun00017 }
  324:
             option = michal.name;
             yankee = _closure1_slot0;
@@ -732,7 +732,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = yankee.bind(verify)(tangon);
             tangon = tangon.ReportNames;
             tangon = tangon.GUILD_DIRECTORY_ENTRY;
-            if(!(option !== tangon)) { _fun00018_ip = 1105; continue _fun00017 }
+            if(!(option !== tangon)) { _fun00018_ip = 1216; continue _fun00017 }
  365:
             option = michal.name;
             yankee = _closure1_slot0;
@@ -741,7 +741,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = yankee.bind(verify)(tangon);
             tangon = tangon.ReportNames;
             tangon = tangon.STAGE_CHANNEL;
-            if(!(option !== tangon)) { _fun00018_ip = 1019; continue _fun00017 }
+            if(!(option !== tangon)) { _fun00018_ip = 1130; continue _fun00017 }
  406:
             option = michal.name;
             yankee = _closure1_slot0;
@@ -750,7 +750,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = yankee.bind(verify)(tangon);
             tangon = tangon.ReportNames;
             tangon = tangon.GUILD_SCHEDULED_EVENT;
-            if(!(option !== tangon)) { _fun00018_ip = 947; continue _fun00017 }
+            if(!(option !== tangon)) { _fun00018_ip = 1058; continue _fun00017 }
  447:
             option = michal.name;
             yankee = _closure1_slot0;
@@ -759,7 +759,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = yankee.bind(verify)(tangon);
             tangon = tangon.ReportNames;
             tangon = tangon.USER;
-            if(!(option !== tangon)) { _fun00018_ip = 871; continue _fun00017 }
+            if(!(option !== tangon)) { _fun00018_ip = 982; continue _fun00017 }
  488:
             option = michal.name;
             yankee = _closure1_slot0;
@@ -768,7 +768,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = yankee.bind(verify)(tangon);
             tangon = tangon.UnauthenticatedReportNames;
             tangon = tangon.USER;
-            if(!(option !== tangon)) { _fun00018_ip = 786; continue _fun00017 }
+            if(!(option !== tangon)) { _fun00018_ip = 897; continue _fun00017 }
  529:
             option = michal.name;
             yankee = _closure1_slot0;
@@ -777,8 +777,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = yankee.bind(verify)(tangon);
             tangon = tangon.UnauthenticatedReportNames;
             tangon = tangon.MESSAGE;
-            if(!(option !== tangon)) { _fun00018_ip = 716; continue _fun00017 }
+            if(!(option !== tangon)) { _fun00018_ip = 827; continue _fun00017 }
  570:
+            option = michal.name;
+            yankee = _closure1_slot0;
+            tangon = _closure1_slot2;
+            tangon = tangon[offset];
+            tangon = yankee.bind(verify)(tangon);
+            tangon = tangon.UnauthenticatedReportNames;
+            tangon = tangon.GUILD;
+            if(!(option !== tangon)) { _fun00018_ip = 757; continue _fun00017 }
+ 611:
             tangon = michal.name;
             option = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -787,8 +796,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = zuuluu.ReportNames;
             zuuluu = zuuluu.APPLICATION;
             entity = null;
-            if(!(tangon === zuuluu)) { _fun00018_ip = 714; continue _fun00017 }
- 610:
+            if(!(tangon === zuuluu)) { _fun00018_ip = 755; continue _fun00017 }
+ 651:
             zuuluu = {};
             foxtra = zuuluu;
             romeon = oscard;
@@ -813,9 +822,29 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = 'entrypoint';
             zuuluu[tangon] = option;
             entity = zuuluu;
- 714:
-            _fun00018_ip = 784; continue _fun00017;
- 716:
+ 755:
+            _fun00018_ip = 825; continue _fun00017;
+ 757:
+            zuuluu = {};
+            foxtra = zuuluu;
+            romeon = oscard;
+            tangon = copyDataProperties(foxtra, romeon);
+            foxtra = zuuluu;
+            romeon = report;
+            tangon = copyDataProperties(foxtra, romeon);
+            option = michal.name;
+            tangon = 'name';
+            zuuluu[tangon] = option;
+            tangon = michal.record;
+            option = tangon.id;
+            tangon = 'guild_id';
+            zuuluu[tangon] = option;
+            tangon = 'email_token';
+            zuuluu[tangon] = golfie;
+            entity = zuuluu;
+ 825:
+            _fun00018_ip = 895; continue _fun00017;
+ 827:
             zuuluu = {};
             foxtra = zuuluu;
             romeon = oscard;
@@ -833,9 +862,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = 'email_token';
             zuuluu[tangon] = golfie;
             entity = zuuluu;
- 784:
-            _fun00018_ip = 869; continue _fun00017;
- 786:
+ 895:
+            _fun00018_ip = 980; continue _fun00017;
+ 897:
             zuuluu = {};
             foxtra = zuuluu;
             romeon = oscard;
@@ -856,9 +885,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = 'email_token';
             zuuluu[tangon] = golfie;
             entity = zuuluu;
- 869:
-            _fun00018_ip = 945; continue _fun00017;
- 871:
+ 980:
+            _fun00018_ip = 1056; continue _fun00017;
+ 982:
             zuuluu = {};
             foxtra = zuuluu;
             romeon = oscard;
@@ -877,9 +906,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = 'guild_id';
             zuuluu[tangon] = golfie;
             entity = zuuluu;
- 945:
+ 1056:
             return entity;
- 947:
+ 1058:
             entity = michal.record;
             tangon = entity.id;
             golfie = entity.guild_id;
@@ -898,7 +927,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = 'guild_scheduled_event_id';
             entity[zuuluu] = tangon;
             return entity;
- 1019:
+ 1130:
             entity = michal.record;
             tangon = entity.id;
             golfie = entity.guild_id;
@@ -920,7 +949,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = 'stage_instance_id';
             entity[zuuluu] = tangon;
             return entity;
- 1105:
+ 1216:
             entity = michal.record;
             tangon = entity.guildId;
             golfie = entity.channelId;
@@ -939,7 +968,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = 'guild_id';
             entity[zuuluu] = tangon;
             return entity;
- 1177:
+ 1288:
             entity = michal.record;
             tangon = entity.id;
             entity = {};
@@ -955,7 +984,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = 'guild_id';
             entity[zuuluu] = tangon;
             return entity;
- 1235:
+ 1346:
             entity = michal.record;
             tangon = entity.channel_id;
             zuuluu = entity.id;

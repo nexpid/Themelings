@@ -193,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup[0] = sizing;
             backup[1] = kiloes;
             option['style'] = backup;
-            if(!foxtra) { _fun00002_ip = 320; continue _fun00001 }
+            if(!foxtra) { _fun00002_ip = 316; continue _fun00001 }
  270:
             sizing = _closure1_slot5;
             kiloes = _closure1_slot0;
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = backup.Ellipsis;
             backup = {'variant': 'active', 'size': 'md'};
             foxtra = sizing.bind(tangon)(kiloes, backup);
- 320:
+ 316:
             option['children'] = foxtra;
             option = romeon.bind(tangon)(yankee, option);
             golfie[1] = option;

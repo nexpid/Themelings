@@ -75,16 +75,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = {'variant': 'primary', 'size': 'md'};
             golfie['text'] = source;
             update = !update;
-            if(update) { _fun00002_ip = 199; continue _fun00001 }
- 196:
+            if(update) { _fun00002_ip = 195; continue _fun00001 }
+ 192:
             update = verify;
- 199:
+ 195:
             golfie['disabled'] = update;
             update = undefined;
-            if(echoed) { _fun00002_ip = 211; continue _fun00001 }
- 208:
+            if(echoed) { _fun00002_ip = 207; continue _fun00001 }
+ 204:
             update = offset;
- 211:
+ 207:
             golfie['onPress'] = update;
             golfie['loading'] = echoed;
             golfie = zuuluu.bind(tangon)(option, golfie);

@@ -1059,56 +1059,67 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = function(argFoo) {
         _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
-            tangon = argFoo;
-            option = tangon.setting;
-            romeon = tangon.onValueChange;
-            result = tangon.title;
-            michal = tangon.useDescription;
-            entity = tangon.useIsDisabled;
-            zuuluu = tangon.useValue;
-            backup = tangon.variant;
-            yankee = tangon.start;
-            offset = tangon.end;
-            update = tangon.IconComponent;
-            oscard = _closure1_slot0;
-            report = _closure1_slot2;
+            entity = argFoo;
+            verify = entity.setting;
+            romeon = entity.onValueChange;
+            result = entity.title;
+            zuuluu = entity.useDescription;
+            michal = entity.useIsDisabled;
+            report = entity.useValue;
+            backup = entity.variant;
+            yankee = entity.start;
+            offset = entity.end;
+            update = entity.IconComponent;
+            entity = entity.useReactiveTitle;
+            option = _closure1_slot0;
+            oscard = _closure1_slot2;
             tangon = 21;
-            report = report[tangon];
+            oscard = oscard[tangon];
             tangon = undefined;
-            oscard = oscard.bind(tangon)(report);
-            report = oscard.useHighlightSettingItem;
-            oscard = report.bind(oscard)(option);
-            kiloes = zuuluu.bind(tangon)();
+            option = option.bind(tangon)(oscard);
+            oscard = option.useHighlightSettingItem;
+            oscard = oscard.bind(option)(verify);
+            kiloes = report.bind(tangon)();
             sizing = null;
-            zuuluu = sizing == michal;
+            report = sizing == zuuluu;
             output = undefined;
-            if(zuuluu) { _fun00026_ip = 114; continue _fun00025 }
- 110:
-            output = michal.bind(tangon)();
- 114:
-            michal = sizing == entity;
+            if(report) { _fun00026_ip = 120; continue _fun00025 }
+ 116:
+            output = zuuluu.bind(tangon)();
+ 120:
+            zuuluu = sizing == michal;
             foxtra = undefined;
-            if(michal) { _fun00026_ip = 127; continue _fun00025 }
- 123:
-            foxtra = entity.bind(tangon)();
- 127:
+            if(zuuluu) { _fun00026_ip = 133; continue _fun00025 }
+ 129:
+            foxtra = michal.bind(tangon)();
+ 133:
+            michal = sizing == entity;
+            echoed = undefined;
+            if(michal) { _fun00026_ip = 146; continue _fun00025 }
+ 142:
+            echoed = entity.bind(tangon)();
+ 146:
             zuuluu = _closure1_slot19;
             michal = _closure1_slot18;
             entity = {};
             verify = _closure1_slot17;
             option = _closure1_slot0;
-            echoed = _closure1_slot2;
+            source = _closure1_slot2;
             report = 23;
-            report = echoed[report];
+            report = source[report];
             report = option.bind(tangon)(report);
             option = report.TableSwitchRow;
             report = {};
+            if(!(sizing != echoed)) { _fun00026_ip = 195; continue _fun00025 }
+ 192:
+            result = echoed;
+ 195:
             report['label'] = result;
             report['subLabel'] = output;
             output = sizing != update;
             sizing = null;
-            if(!output) { _fun00026_ip = 240; continue _fun00025 }
- 187:
+            if(!output) { _fun00026_ip = 266; continue _fun00025 }
+ 213:
             echoed = _closure1_slot17;
             result = _closure1_slot0;
             source = _closure1_slot2;
@@ -1121,7 +1132,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output['IconComponent'] = update;
             output['variant'] = backup;
             sizing = echoed.bind(tangon)(result, output);
- 240:
+ 266:
             report['icon'] = sizing;
             report['value'] = kiloes;
             report['variant'] = backup;
@@ -1132,8 +1143,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = verify.bind(tangon)(option, report);
             report = new Array(2);
             report[0] = option;
-            if(!oscard) { _fun00026_ip = 326; continue _fun00025 }
- 286:
+            if(!oscard) { _fun00026_ip = 352; continue _fun00025 }
+ 312:
             verify = _closure1_slot17;
             option = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -1144,7 +1155,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['start'] = yankee;
             golfie['end'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 326:
+ 352:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

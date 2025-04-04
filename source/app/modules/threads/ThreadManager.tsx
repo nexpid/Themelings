@@ -316,6 +316,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['CHANNEL_DELETE'] = zuuluu;
             zuuluu = entity.handleMessageCreate;
             michal['MESSAGE_CREATE'] = zuuluu;
+            zuuluu = entity.handleGuildDelete;
+            michal['GUILD_DELETE'] = zuuluu;
             entity['actions'] = michal;
             return entity;
         };
@@ -392,12 +394,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = entity;
-        entity = new Array(2);
+        entity = new Array(3);
         entity[0] = report;
         report = {};
         golfie = 'handleMessageCreate';
         report['key'] = golfie;
-        oscard = function(argFoo) { // Original name: value
+        golfie = function(argFoo) { // Original name: value
             _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                 entity = argFoo;
@@ -468,8 +470,72 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             }
         };
-        report['value'] = oscard;
+        report['value'] = golfie;
         entity[1] = report;
+        report = {};
+        golfie = 'handleGuildDelete';
+        report['key'] = golfie;
+        oscard = function(argFoo) { // Original name: value
+            _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+ 0:
+                michal = argFoo;
+                zuuluu = michal.guild;
+                report = _closure1_slot8;
+                tangon = report.getAllThreadsForGuild;
+                zuuluu = zuuluu.id;
+                zuuluu = tangon.bind(report)(zuuluu);
+                var _closure3_slot0 = zuuluu;
+                tangon = zuuluu.length;
+                zuuluu = 0;
+                if(!(zuuluu !== tangon)) { _fun00018_ip = 94; continue _fun00017 }
+ 48:
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot1;
+                michal = 7;
+                zuuluu = zuuluu[michal];
+                michal = undefined;
+                michal = tangon.bind(michal)(zuuluu);
+                zuuluu = michal.Emitter;
+                michal = zuuluu.batched;
+                entity = function() {
+                    _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+ 0:
+                        zuuluu = _closure1_slot9;
+                        michal = _closure3_slot0;
+                        entity = undefined;
+                        oscard = zuuluu.bind(entity)(michal);
+                        zuuluu = oscard.bind(entity)();
+                        michal = zuuluu.done;
+                        report = 8;
+                        tangon = 'THREAD_DELETE';
+                        if(michal) { _fun00020_ip = 97; continue _fun00019 }
+ 40:
+                        offset = zuuluu.value;
+                        option = _closure1_slot0;
+                        michal = _closure1_slot1;
+                        michal = michal[report];
+                        verify = option.bind(entity)(michal);
+                        option = verify.dispatch;
+                        michal = {};
+                        michal['type'] = tangon;
+                        michal['channel'] = offset;
+                        michal = option.bind(verify)(michal);
+                        option = oscard.bind(entity)();
+                        michal = option.done;
+                        zuuluu = option;
+                        if(!michal) { _fun00020_ip = 40; continue _fun00019 }
+ 97:
+                        return entity;
+                    }
+                };
+                entity = michal.bind(zuuluu)(entity);
+ 94:
+                entity = undefined;
+                return entity;
+            }
+        };
+        report['value'] = oscard;
+        entity[2] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

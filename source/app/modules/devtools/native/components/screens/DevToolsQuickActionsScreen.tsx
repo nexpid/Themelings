@@ -389,7 +389,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     tangon = tangon.bind(entity)();
     var _closure1_slot25 = tangon;
-    tangon = 62;
+    tangon = 63;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -569,7 +569,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             kiloes = oscard.bind(golfie)(zuuluu, report);
-            if(michal) { _fun00008_ip = 2765; continue _fun00007 }
+            if(michal) { _fun00008_ip = 2840; continue _fun00007 }
  457:
             report = _closure1_slot21;
             zuuluu = _closure1_slot6;
@@ -1147,7 +1147,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             offset['onPress'] = result;
             romeon = foxtra.bind(tangon)(romeon, offset);
-            offset = new Array(3);
+            offset = new Array(4);
             offset[0] = romeon;
             romeon = kiloes[yankee];
             romeon = sizing.bind(tangon)(romeon);
@@ -1175,6 +1175,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['onPress'] = echoed;
             romeon = foxtra.bind(tangon)(result, romeon);
             offset[1] = romeon;
+            romeon = kiloes[yankee];
+            romeon = sizing.bind(tangon)(romeon);
+            result = romeon.TableRow;
+            romeon = {};
+            echoed = kiloes[output];
+            echoed = sizing.bind(tangon)(echoed);
+            update = echoed.WrenchIcon;
+            echoed = {};
+            echoed = foxtra.bind(tangon)(update, echoed);
+            romeon['icon'] = echoed;
+            echoed = 'Force JS Boundary Crash';
+            romeon['label'] = echoed;
+            echoed = function() { // Original name: onPress
+                zuuluu = _closure2_slot4;
+                entity = undefined;
+                michal = true;
+                michal = zuuluu.bind(entity)(michal);
+                return entity;
+            };
+            romeon['onPress'] = echoed;
+            romeon = foxtra.bind(tangon)(result, romeon);
+            offset[2] = romeon;
             yankee = kiloes[yankee];
             yankee = sizing.bind(tangon)(yankee);
             romeon = yankee.TableRow;
@@ -1185,25 +1207,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = {};
             kiloes = foxtra.bind(tangon)(sizing, kiloes);
             yankee['icon'] = kiloes;
-            kiloes = 'Force JS Boundary Crash';
+            kiloes = 'Force libdiscore Crash';
             yankee['label'] = kiloes;
             backup = function() { // Original name: onPress
-                zuuluu = _closure2_slot4;
+                zuuluu = _closure1_slot0;
+                michal = _closure1_slot2;
+                entity = 62;
+                michal = michal[entity];
                 entity = undefined;
-                michal = true;
-                michal = zuuluu.bind(entity)(michal);
+                zuuluu = zuuluu.bind(entity)(michal);
+                michal = zuuluu.crash;
+                michal = michal.bind(zuuluu)();
                 return entity;
             };
             yankee['onPress'] = backup;
             yankee = foxtra.bind(tangon)(romeon, yankee);
-            offset[2] = yankee;
+            offset[3] = yankee;
             golfie['children'] = offset;
             golfie = verify.bind(tangon)(option, golfie);
             oscard[8] = golfie;
             michal['children'] = oscard;
             michal = report.bind(tangon)(zuuluu, michal);
             return michal;
- 2765:
+ 2840:
             zuuluu = _closure1_slot0;
             report = _closure1_slot2;
             michal = 38;

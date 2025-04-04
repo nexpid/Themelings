@@ -156,11 +156,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = undefined;
                 tangon = tangon.bind(entity)(zuuluu);
                 zuuluu = tangon.isLibdiscoreBlockedDomainsEnabled;
-                zuuluu = zuuluu.bind(tangon)();
-                if(zuuluu) { _fun00006_ip = 174; continue _fun00005 }
- 43:
-                tangon = global;
-                golfie = tangon.setTimeout;
+                tangon = zuuluu.bind(tangon)();
+                zuuluu = global;
+                if(tangon) { _fun00006_ip = 174; continue _fun00005 }
+ 45:
+                golfie = zuuluu.setTimeout;
                 oscard = function() {
                     zuuluu = _closure1_slot1;
                     michal = _closure1_slot2;
@@ -180,18 +180,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = tangon.bind(report)(zuuluu, michal, entity);
                     return entity;
                 };
-                zuuluu = 1000;
-                zuuluu = golfie.bind(entity)(oscard, zuuluu);
-                option = tangon.setTimeout;
-                golfie = _closure1_slot1;
-                oscard = _closure1_slot2;
-                zuuluu = 6;
-                zuuluu = oscard[zuuluu];
-                zuuluu = golfie.bind(entity)(zuuluu);
-                zuuluu = zuuluu.Millis;
-                golfie = zuuluu.SECOND;
-                zuuluu = 10;
-                golfie = zuuluu * golfie;
+                tangon = 1000;
+                tangon = golfie.bind(entity)(oscard, tangon);
+                option = zuuluu.setTimeout;
+                oscard = _closure1_slot1;
+                golfie = _closure1_slot2;
+                tangon = 6;
+                tangon = golfie[tangon];
+                tangon = oscard.bind(entity)(tangon);
+                tangon = tangon.Millis;
+                oscard = tangon.SECOND;
+                tangon = 10;
+                oscard = tangon * oscard;
                 report = function() {
                     zuuluu = _closure1_slot0;
                     michal = _closure1_slot2;
@@ -203,26 +203,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = entity.bind(michal)();
                     return entity;
                 };
-                report = option.bind(entity)(report, golfie);
-                report = tangon.setInterval;
-                tangon = _closure1_slot0;
-                zuuluu = oscard[zuuluu];
-                zuuluu = tangon.bind(entity)(zuuluu);
-                tangon = zuuluu.fetchBlockedDomainList;
-                zuuluu = _closure1_slot9;
-                tangon = report.bind(entity)(tangon, zuuluu);
-                zuuluu = this;
-                zuuluu['intervalID'] = tangon;
-                _fun00006_ip = 204; continue _fun00005;
+                report = option.bind(entity)(report, oscard);
+                oscard = zuuluu.setInterval;
+                report = _closure1_slot0;
+                tangon = golfie[tangon];
+                tangon = report.bind(entity)(tangon);
+                report = tangon.fetchBlockedDomainList;
+                tangon = _closure1_slot9;
+                report = oscard.bind(entity)(report, tangon);
+                tangon = this;
+                tangon['intervalID'] = report;
+                _fun00006_ip = 250; continue _fun00005;
  174:
+                tangon = zuuluu.window;
+                tangon = tangon.GLOBAL_ENV;
+                oscard = tangon.WEBAPP_ENDPOINT;
+                zuuluu = zuuluu.HermesInternal;
+                report = zuuluu.concat;
+                tangon = 'https:';
+                zuuluu = '/bad-hash-delta';
+                tangon = report.bind(tangon)(oscard, zuuluu);
                 zuuluu = _closure1_slot0;
-                tangon = _closure1_slot2;
+                report = _closure1_slot2;
                 michal = 8;
-                michal = tangon[michal];
+                michal = report[michal];
                 zuuluu = zuuluu.bind(entity)(michal);
                 michal = zuuluu.startFetchingBlockedDomains;
-                michal = michal.bind(zuuluu)();
- 204:
+                michal = michal.bind(zuuluu)(tangon);
+ 250:
                 return entity;
             }
         };

@@ -1156,23 +1156,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = tangon.getUserAffinities;
                         report = zuuluu.bind(tangon)();
                         tangon = report.forEach;
-                        zuuluu = function(argFoo, argBar) {
+                        zuuluu = function(argFoo) {
                             _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
  0:
                                 entity = argFoo;
-                                zuuluu = entity.user_id;
-                                tangon = entity.affinity;
+                                zuuluu = entity.otherUserId;
+                                report = entity.communicationProbability;
+                                tangon = entity.communicationRank;
                                 michal = _closure3_slot0;
                                 michal = michal.affinities;
-                                michal[zuuluu] = tangon;
-                                tangon = _closure1_slot15;
-                                michal = argBar;
-                                if(!(michal < tangon)) { _fun00042_ip = 61; continue _fun00041 }
- 46:
+                                michal[zuuluu] = report;
+                                michal = _closure1_slot15;
+                                if(!(tangon <= michal)) { _fun00042_ip = 64; continue _fun00041 }
+ 49:
                                 michal = _closure3_slot0;
                                 entity = michal.updateUser;
                                 entity = entity.bind(michal)(zuuluu);
- 61:
+ 64:
                                 entity = undefined;
                                 return entity;
                             }
@@ -2286,7 +2286,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal[entity];
                 entity = undefined;
                 zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.fetchUserAffinities;
+                michal = zuuluu.fetchUserAffinitiesV2;
                 michal = michal.bind(zuuluu)();
                 return entity;
             };

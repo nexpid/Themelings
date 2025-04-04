@@ -420,7 +420,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 romeon = undefined;
                 if(kiloes) { _fun00010_ip = 186; continue _fun00009 }
  180:
-                romeon = zuuluu.affinity;
+                romeon = zuuluu.communicationProbability;
  186:
                 sizing = yankee != romeon;
                 kiloes = 0;
@@ -495,7 +495,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 romeon = undefined;
                 if(kiloes) { _fun00010_ip = 451; continue _fun00009 }
  445:
-                romeon = zuuluu.affinity;
+                romeon = zuuluu.communicationProbability;
  451:
                 sizing = yankee != romeon;
                 kiloes = 0;

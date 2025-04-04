@@ -675,7 +675,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['getFileContentLength'] = tangon;
-    michal = function(argFoo) { // Original name: getFile
+    tangon = function(argFoo) { // Original name: getFile
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             michal = argFoo;
@@ -863,6 +863,41 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['getFile'] = michal;
+    zuuluu['getFile'] = tangon;
+    michal = function(argFoo) { // Original name: getOptimalChunkSize
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+ 0:
+            tangon = arguments[1];
+            golfie = arguments[2];
+            oscard = arguments[3];
+            entity = undefined;
+            if(!(tangon === entity)) { _fun00012_ip = 21; continue _fun00011 }
+ 15:
+            tangon = 4096;
+ 21:
+            if(!(golfie === entity)) { _fun00012_ip = 31; continue _fun00011 }
+ 25:
+            golfie = 8388608;
+ 31:
+            if(!(oscard === entity)) { _fun00012_ip = 45; continue _fun00011 }
+ 35:
+            oscard = 0.01;
+ 45:
+            entity = global;
+            report = entity.Math;
+            zuuluu = report.ceil;
+            michal = argFoo;
+            michal = michal * oscard;
+            oscard = zuuluu.bind(report)(michal);
+            zuuluu = entity.Math;
+            michal = zuuluu.max;
+            report = entity.Math;
+            entity = report.min;
+            entity = entity.bind(report)(oscard, golfie);
+            entity = michal.bind(zuuluu)(tangon, entity);
+            return entity;
+        }
+    };
+    zuuluu['getOptimalChunkSize'] = michal;
     return entity;
 })();

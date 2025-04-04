@@ -1878,7 +1878,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(19);
+        entity = new Array(20);
         entity[0] = report;
         report = {};
         golfie = 'hasChannel';
@@ -2258,6 +2258,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[16] = report;
         report = {};
+        golfie = 'getAllThreadsForGuild';
+        report['key'] = golfie;
+        golfie = function(argFoo) { // Original name: value
+            michal = argFoo;
+            var _closure3_slot0 = michal;
+            report = _closure1_slot1;
+            tangon = _closure1_slot2;
+            zuuluu = 24;
+            tangon = tangon[zuuluu];
+            zuuluu = undefined;
+            tangon = report.bind(zuuluu)(tangon);
+            zuuluu = tangon.values;
+            michal = _closure1_slot28;
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = zuuluu.filter;
+            entity = function(argFoo) {
+                entity = argFoo;
+                michal = entity.guild_id;
+                entity = _closure3_slot0;
+                entity = michal === entity;
+                return entity;
+            };
+            entity = michal.bind(zuuluu)(entity);
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[17] = report;
+        report = {};
         golfie = 'getInitialOverlayState';
         report['key'] = golfie;
         golfie = function() { // Original name: value
@@ -2274,7 +2302,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[17] = report;
+        entity[18] = report;
         report = {};
         golfie = 'getDebugInfo';
         report['key'] = golfie;
@@ -2333,7 +2361,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = oscard;
-        entity[18] = report;
+        entity[19] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

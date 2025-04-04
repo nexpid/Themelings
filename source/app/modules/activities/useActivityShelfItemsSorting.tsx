@@ -1,30 +1,26 @@
 // app/modules/activities/useActivityShelfItemsSorting.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golfie = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
     var _closure1_slot2 = oscard;
     entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
+    option = entity.Object;
+    golfie = option.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    option = oscard[entity];
+    golfie = oscard[entity];
     tangon = argCor;
     entity = undefined;
-    tangon = tangon.bind(entity)(option);
+    tangon = tangon.bind(entity)(golfie);
     var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
     tangon = function(argFoo, argBar) { // Original name: applySorting
         tangon = argBar;
         zuuluu = new Array(0);
@@ -129,11 +125,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = entity.client_platform_config;
                 golfie = _closure1_slot1;
                 option = _closure1_slot2;
-                report = 4;
+                report = 2;
                 report = option[report];
                 report = golfie.bind(oscard)(report);
                 golfie = _closure1_slot0;
-                entity = 5;
+                entity = 3;
                 entity = option[entity];
                 golfie = golfie.bind(oscard)(entity);
                 entity = golfie.getOS;
@@ -152,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  143:
                 report = _closure1_slot0;
                 michal = _closure1_slot2;
-                golfie = 6;
+                golfie = 4;
                 michal = michal[golfie];
                 michal = report.bind(oscard)(michal);
                 michal = michal.EmbeddedActivityLabelTypes;
@@ -257,44 +253,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = _closure2_slot0;
         return entity;
     };
-    var _closure1_slot5 = tangon;
-    tangon = 7;
+    var _closure1_slot4 = tangon;
+    tangon = 5;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
     tangon = 'modules/activities/useActivityShelfItemsSorting.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: useActivityShelfItemsSorting
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot0;
-        golfie = _closure1_slot2;
-        zuuluu = 2;
-        zuuluu = golfie[zuuluu];
-        tangon = undefined;
-        zuuluu = report.bind(tangon)(zuuluu);
-        option = zuuluu.FrecencyUserSettingsActionCreators;
-        zuuluu = option.loadIfNecessary;
-        zuuluu = zuuluu.bind(option)();
-        zuuluu = 3;
-        zuuluu = golfie[zuuluu];
-        zuuluu = report.bind(tangon)(zuuluu);
-        golfie = zuuluu.WeightedSampleActivityShelfExperiment;
-        report = golfie.getCurrentConfig;
-        tangon = {};
-        zuuluu = 'useActivityShelfItemsSorting';
-        tangon['location'] = zuuluu;
-        zuuluu = {};
-        option = false;
-        zuuluu['autoTrackExposure'] = option;
-        zuuluu = report.bind(golfie)(tangon, zuuluu);
-        report = zuuluu.enabled;
-        var _closure2_slot1 = report;
+        report = argFoo;
+        var _closure2_slot0 = report;
+        oscard = _closure1_slot0;
+        tangon = _closure1_slot2;
+        zuuluu = 1;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        zuuluu = oscard.bind(zuuluu)(tangon);
+        tangon = zuuluu.FrecencyUserSettingsActionCreators;
+        zuuluu = tangon.loadIfNecessary;
+        zuuluu = zuuluu.bind(tangon)();
         tangon = _closure1_slot3;
         zuuluu = tangon.useMemo;
-        michal = new Array(2);
-        michal[0] = oscard;
-        michal[1] = report;
+        michal = new Array(1);
+        michal[0] = report;
         entity = function() {
             report = new Array(0);
             var _closure3_slot0 = report;
@@ -319,23 +300,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = function(argFoo, argBar) {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                    zuuluu = argFoo;
-                    report = argBar;
-                    var _closure4_slot0 = zuuluu;
-                    var _closure4_slot1 = report;
-                    michal = _closure2_slot1;
-                    if(michal) { _fun00008_ip = 65; continue _fun00007 }
- 26:
-                    tangon = _closure1_slot4;
-                    michal = tangon.getScoreWithoutLoadingLatest;
-                    zuuluu = michal.bind(tangon)(zuuluu);
-                    michal = tangon.getScoreWithoutLoadingLatest;
-                    michal = michal.bind(tangon)(report);
-                    if(!(zuuluu !== michal)) { _fun00008_ip = 65; continue _fun00007 }
- 59:
-                    michal = michal - zuuluu;
-                    return michal;
- 65:
+                    michal = argFoo;
+                    var _closure4_slot0 = michal;
+                    michal = argBar;
+                    var _closure4_slot1 = michal;
                     tangon = _closure3_slot0;
                     zuuluu = tangon.findIndex;
                     michal = function(argFoo) {
@@ -355,15 +323,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = zuuluu.bind(tangon)(entity);
                     michal = michal < entity;
                     entity = 1;
-                    if(!michal) { _fun00008_ip = 124; continue _fun00007 }
- 118:
+                    if(!michal) { _fun00008_ip = 75; continue _fun00007 }
+ 69:
                     entity = -1;
- 124:
+ 75:
                     return entity;
                 }
             };
             entity = michal.bind(zuuluu)(entity);
-            michal = _closure1_slot5;
+            michal = _closure1_slot4;
             entity = undefined;
             entity = michal.bind(entity)(tangon, zuuluu);
             return entity;

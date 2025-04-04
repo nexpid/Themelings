@@ -230,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 option = zuuluu.bind(entity)(michal);
                 zuuluu = option.bind(entity)();
                 michal = zuuluu.done;
-                oscard = 'streamError';
+                oscard = 'videoError';
                 report = 'streamKey';
                 tangon = zuuluu;
                 if(michal) { _fun00008_ip = 121; continue _fun00007 }
@@ -253,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  111:
                 _fun00008_ip = 63; continue _fun00007;
  113:
-                michal = michal.streamError;
+                michal = michal.videoError;
                 return michal;
  121:
                 return entity;

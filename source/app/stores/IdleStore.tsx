@@ -290,8 +290,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = 6;
         michal = oscard[michal];
         michal = report.bind(entity)(michal);
-        romeon = michal.IDLE_DURATION;
-        var _closure1_slot9 = romeon;
+        offset = michal.IDLE_DURATION;
+        var _closure1_slot9 = offset;
         michal = michal.AppStates;
         var _closure1_slot10 = michal;
         michal = 7;
@@ -318,23 +318,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = 12;
         offset = oscard[michal];
         offset = golfie.bind(entity)(offset);
-        foxtra = null;
-        backup = foxtra == offset;
+        romeon = null;
+        foxtra = romeon == offset;
         offset = undefined;
-        if(backup) { _fun00002_ip = 354; continue _fun00001 }
+        if(foxtra) { _fun00002_ip = 354; continue _fun00001 }
  339:
-        backup = oscard[michal];
-        backup = golfie.bind(entity)(backup);
-        offset = backup.remotePowerMonitor;
+        foxtra = oscard[michal];
+        foxtra = golfie.bind(entity)(foxtra);
+        offset = foxtra.remotePowerMonitor;
  354:
-        if(!(foxtra == offset)) { _fun00002_ip = 389; continue _fun00001 }
+        if(!(romeon == offset)) { _fun00002_ip = 406; continue _fun00001 }
  358:
         offset = option.setInterval;
-        option = 0.25;
+        option = 10;
+        option = oscard[option];
+        option = golfie.bind(entity)(option);
+        option = option.Millis;
+        romeon = option.SECOND;
+        option = 30;
         option = option * romeon;
         option = offset.bind(entity)(yankee, option);
-        _fun00002_ip = 552; continue _fun00001;
- 389:
+        _fun00002_ip = 569; continue _fun00001;
+ 406:
         option = function() { // Original name: checkNativeIdle
             _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
@@ -480,7 +485,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         michal = offset.bind(yankee)(option, michal);
- 552:
+ 569:
         michal = 14;
         michal = oscard[michal];
         michal = golfie.bind(entity)(michal);
@@ -548,7 +553,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         option['displayName'] = michal;
         michal = 11;
         michal = oscard[michal];
-        output = golfie.bind(entity)(michal);
+        sizing = golfie.bind(entity)(michal);
         michal = {};
         offset = function(argFoo) { // Original name: handleIdle
             entity = argFoo;
@@ -622,9 +627,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal['USER_SETTINGS_PROTO_UPDATE'] = tangon;
         tangon = option.prototype;
         tangon = Object.create(tangon, {constructor: {value: option}});
-        result = tangon;
-        sizing = michal;
-        michal = new result[option](output, sizing, kiloes);
+        output = tangon;
+        kiloes = michal;
+        michal = new output[option](sizing, kiloes, backup);
         michal = michal instanceof Object ? michal : tangon;
         tangon = 15;
         tangon = oscard[tangon];

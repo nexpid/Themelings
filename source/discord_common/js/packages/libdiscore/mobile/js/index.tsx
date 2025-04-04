@@ -9,25 +9,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = global;
         offset = report.Object;
         verify = offset.defineProperty;
-        michal = {};
+        tangon = {};
         entity = true;
-        michal['value'] = entity;
+        tangon['value'] = entity;
         entity = '__esModule';
-        entity = verify.bind(offset)(zuuluu, entity, michal);
+        entity = verify.bind(offset)(zuuluu, entity, tangon);
         entity = 0;
-        michal = golfie[entity];
+        tangon = golfie[entity];
         entity = undefined;
-        michal = option.bind(entity)(michal);
-        var _closure1_slot0 = michal;
-        michal = 1;
-        michal = golfie[michal];
-        michal = option.bind(entity)(michal);
-        var _closure1_slot1 = michal;
-        michal = 2;
-        michal = golfie[michal];
-        michal = oscard.bind(entity)(michal);
-        michal = michal.NativeModules;
-        option = michal.LibDiscoreModule;
+        tangon = option.bind(entity)(tangon);
+        var _closure1_slot0 = tangon;
+        tangon = 1;
+        tangon = golfie[tangon];
+        tangon = option.bind(entity)(tangon);
+        var _closure1_slot1 = tangon;
+        tangon = 2;
+        tangon = golfie[tangon];
+        tangon = oscard.bind(entity)(tangon);
+        tangon = tangon.NativeModules;
+        option = tangon.LibDiscoreModule;
         if(option) { _fun00002_ip = 150; continue _fun00001 }
  106:
         offset = report.Proxy;
@@ -53,13 +53,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = report instanceof Object ? report : option;
         _fun00002_ip = 156; continue _fun00001;
  150:
-        report = michal.LibDiscoreModule;
+        report = tangon.LibDiscoreModule;
  156:
-        michal = report.bridgeJSIFunctions;
-        michal = michal.bind(report)();
-        michal = argFoo;
-        var _closure1_slot2 = michal;
-        michal = function() {
+        tangon = report.bridgeJSIFunctions;
+        tangon = tangon.bind(report)();
+        tangon = argFoo;
+        tangon = tangon.LIBDISCORE_JSI;
+        var _closure1_slot2 = tangon;
+        tangon = function() {
             report = _closure1_slot1;
             tangon = function() { // Original name: BlockedDomainsStore
                 tangon = _closure1_slot0;
@@ -86,10 +87,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = {};
             oscard = 'startFetchingBlockedDomains';
             entity['key'] = oscard;
-            michal = function() { // Original name: value
-                michal = _closure1_slot2;
-                entity = michal.startFetchingBlockedDomains;
-                entity = entity.bind(michal)();
+            michal = function(argFoo) { // Original name: value
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.startFetchingBlockedDomains;
+                entity = argFoo;
+                entity = michal.bind(zuuluu)(entity);
                 entity = undefined;
                 return entity;
             };
@@ -100,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = report.bind(michal)(tangon, entity, zuuluu);
             return entity;
         };
-        michal = michal.bind(entity)();
+        tangon = tangon.bind(entity)();
         report = 3;
         report = golfie[report];
         golfie = oscard.bind(entity)(report);
@@ -116,14 +118,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         zuuluu['rustMultiply'] = report;
-        tangon = function() { // Original name: consumeLogs
+        report = function() { // Original name: consumeLogs
             michal = _closure1_slot2;
             entity = michal.consumeLogs;
             entity = entity.bind(michal)();
             return entity;
         };
-        zuuluu['consumeLogs'] = tangon;
-        zuuluu['BlockedDomainsStore'] = michal;
+        zuuluu['consumeLogs'] = report;
+        zuuluu['BlockedDomainsStore'] = tangon;
+        michal = function() { // Original name: crash
+            michal = _closure1_slot2;
+            entity = michal.crash;
+            entity = entity.bind(michal)();
+            entity = undefined;
+            return entity;
+        };
+        zuuluu['crash'] = michal;
         return entity;
     }
 })();

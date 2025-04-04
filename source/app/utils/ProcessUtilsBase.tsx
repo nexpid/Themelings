@@ -1,8 +1,8 @@
 // app/utils/ProcessUtilsBase.tsx
 export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    oscard = argBaz;
+    report = argBaz;
     zuuluu = argFre;
-    report = argPlu;
+    oscard = argPlu;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -12,14 +12,27 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     entity = '__esModule';
     entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tangon = report[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
+    tangon = report.bind(entity)(tangon);
     var _closure1_slot0 = tangon;
     tangon = 1;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
     var _closure1_slot1 = tangon;
+    tangon = {};
+    report = 'unknown';
+    tangon['Unknown'] = report;
+    report = 'main';
+    tangon['Main'] = report;
+    report = 'renderer';
+    tangon['Renderer'] = report;
+    report = 'gpu';
+    tangon['GPU'] = report;
+    report = 'utility';
+    tangon['Utility'] = report;
+    report = 'crashpad';
+    tangon['Crashpad'] = report;
     michal = function() {
         tangon = _closure1_slot1;
         zuuluu = function() { // Original name: ProcessUtils
@@ -47,13 +60,14 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
         return entity;
     };
     michal = michal.bind(entity)();
-    tangon = 2;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'utils/ProcessUtilsBase.tsx';
-    tangon = report.bind(oscard)(tangon);
+    report = 2;
+    oscard = oscard[report];
+    report = argBar;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
+    report = 'utils/ProcessUtilsBase.tsx';
+    report = oscard.bind(golfie)(report);
+    zuuluu['ElectronProcessType'] = tangon;
     zuuluu['ProcessUtils'] = michal;
     return entity;
 })();

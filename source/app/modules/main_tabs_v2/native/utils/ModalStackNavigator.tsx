@@ -116,10 +116,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report['name'] = verify;
         report['children'] = option;
         golfie = function() { // Original name: options
-            entity = {};
-            michal = _closure2_slot0;
-            entity['title'] = michal;
-            return entity;
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+                entity = {};
+                michal = _closure2_slot0;
+                entity['title'] = michal;
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot2;
+                michal = 6;
+                zuuluu = zuuluu[michal];
+                michal = undefined;
+                tangon = tangon.bind(michal)(zuuluu);
+                zuuluu = tangon.isIOS;
+                zuuluu = zuuluu.bind(tangon)();
+                if(!zuuluu) { _fun00002_ip = 57; continue _fun00001 }
+ 51:
+                michal = 'portrait';
+ 57:
+                entity['orientation'] = michal;
+                return entity;
+            }
         };
         report['options'] = golfie;
         report = zuuluu.bind(tangon)(oscard, report);
@@ -128,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     michal = tangon.bind(golfie)(michal);
-    tangon = 6;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

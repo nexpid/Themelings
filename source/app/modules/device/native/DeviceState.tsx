@@ -1,5 +1,5 @@
 // app/modules/device/native/DeviceState.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     oscard = argBar;
     zuuluu = argFre;
     golfie = argPlu;
@@ -9,65 +9,67 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = undefined;
         entity = undefined;
         tangon = _closure1_slot2;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
+        zuuluu = function* () {
+            entity = function* () { // Original name: ?anon_0_
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 147; continue _fun00001 }
- 10:
-                    michal = argFoo;
-                    michal = michal.fallback;
+                    michal = arguments[0];
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
+                    if(tangon) { _fun00002_ip = 154; continue _fun00001 }
+ 13:
                     oscard = undefined;
-                    if(!(michal === oscard)) { _fun00002_ip = 27; continue _fun00001 }
- 25:
-                    michal = true;
- 27:
-                    report = michal;
-                    SaveGenerator(address=34);
- 32:
+                    if(!(michal === oscard)) { _fun00002_ip = 31; continue _fun00001 }
+ 19:
+                    golfie = {};
+                    option = true;
+                    golfie['fallback'] = option;
+                    michal = golfie;
+ 31:
+                    report = michal.fallback;
+                    SaveGenerator(address=41);
+ 39:
                     return oscard;
- 34:
+ 41:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 144; continue _fun00001 }
- 40: // try_start_0
+                    if(tangon) { _fun00002_ip = 151; continue _fun00001 }
+ 47: // try_start_0
                     tangon = _closure1_slot3;
                     golfie = tangon.MediaManager;
                     tangon = golfie.getDeviceStateInfo;
                     tangon = tangon.bind(golfie)();
-                    SaveGenerator(address=69);
- 67:
+                    SaveGenerator(address=76);
+ 74:
                     return tangon;
- 69:
+ 76:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 78; continue _fun00001 }
- 75: // try_end0
+                    if(golfie) { _fun00002_ip = 85; continue _fun00001 }
+ 82: // try_end0
                     return tangon;
- 78:
+ 85:
                     return tangon;
- 81: // catch_target0
+ 88: // catch_target0
                     CatchBlockStart(arg_register=9);
                     zuuluu = offset;
                     verify = _closure1_slot4;
                     option = verify.warn;
                     golfie = 'Failed to get device state:';
                     golfie = option.bind(verify)(golfie, offset);
-                    if(report) { _fun00002_ip = 115; continue _fun00001 }
- 113:
-                    _fun00002_ip = 141; continue _fun00001;
- 115:
+                    if(report) { _fun00002_ip = 122; continue _fun00001 }
+ 120:
+                    _fun00002_ip = 148; continue _fun00001;
+ 122:
                     report = _closure1_slot0;
                     golfie = _closure1_slot1;
                     tangon = 3;
                     tangon = golfie[tangon];
                     tangon = report.bind(oscard)(tangon);
                     zuuluu = tangon.DEFAULT_DEVICE_STATE;
- 141:
+ 148:
                     return zuuluu;
- 144:
+ 151:
                     return michal;
- 147:
+ 154:
                     return entity;
                 }
             };

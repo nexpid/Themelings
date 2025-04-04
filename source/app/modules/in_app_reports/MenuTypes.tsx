@@ -33,6 +33,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report['MESSAGE'] = entity;
     entity = 'user_urf';
     report['USER'] = entity;
+    entity = 'guild_urf';
+    report['GUILD'] = entity;
     tangon = {};
     entity = 'sub_spam';
     tangon['SUB_SPAM'] = entity;

@@ -1286,7 +1286,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(golfie)(zuuluu);
             _fun00020_ip = 258; continue _fun00019;
  245:
-            tangon = tangon.E80Bdn;
+            tangon = tangon.ToGcxM;
             zuuluu = report.bind(golfie)(tangon);
  258:
             return zuuluu;

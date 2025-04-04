@@ -343,48 +343,48 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  600:
                 entity['guildMemberAvatars'] = golfie;
                 option = report.has_bounced_email;
-                if(!(michal == option)) { _fun00006_ip = 622; continue _fun00005 }
- 616:
+                if(!(michal == option)) { _fun00006_ip = 624; continue _fun00005 }
+ 618:
                 option = report.hasBouncedEmail;
- 622:
+ 624:
                 golfie = michal != option;
-                if(!golfie) { _fun00006_ip = 632; continue _fun00005 }
- 629:
+                if(!golfie) { _fun00006_ip = 634; continue _fun00005 }
+ 631:
                 golfie = option;
- 632:
+ 634:
                 entity['hasBouncedEmail'] = golfie;
                 option = report.personal_connection_id;
-                if(!(michal == option)) { _fun00006_ip = 654; continue _fun00005 }
- 648:
+                if(!(michal == option)) { _fun00006_ip = 656; continue _fun00005 }
+ 650:
                 option = report.personalConnectionId;
- 654:
+ 656:
                 offset = michal != option;
                 golfie = null;
-                if(!offset) { _fun00006_ip = 666; continue _fun00005 }
- 663:
+                if(!offset) { _fun00006_ip = 668; continue _fun00005 }
+ 665:
                 golfie = option;
- 666:
+ 668:
                 entity['personalConnectionId'] = golfie;
                 golfie = report.global_name;
-                if(!(michal == golfie)) { _fun00006_ip = 688; continue _fun00005 }
- 682:
+                if(!(michal == golfie)) { _fun00006_ip = 690; continue _fun00005 }
+ 684:
                 golfie = report.globalName;
- 688:
+ 690:
                 entity['globalName'] = golfie;
                 golfie = report.banner;
                 entity['banner'] = golfie;
                 golfie = _closure1_slot13;
                 option = report.primary_guild;
-                if(!(michal == option)) { _fun00006_ip = 726; continue _fun00005 }
- 720:
+                if(!(michal == option)) { _fun00006_ip = 728; continue _fun00005 }
+ 722:
                 option = report.primaryGuild;
- 726:
+ 728:
                 offset = michal != option;
                 oscard = null;
-                if(!offset) { _fun00006_ip = 738; continue _fun00005 }
- 735:
+                if(!offset) { _fun00006_ip = 740; continue _fun00005 }
+ 737:
                 oscard = option;
- 738:
+ 740:
                 oscard = golfie.bind(zuuluu)(oscard);
                 entity['primaryGuild'] = oscard;
                 report = report.collectibles;
@@ -508,14 +508,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = entity.globalName;
                 oscard = michal == report;
                 zuuluu = undefined;
-                if(oscard) { _fun00006_ip = 899; continue _fun00005 }
- 894:
+                if(oscard) { _fun00006_ip = 901; continue _fun00005 }
+ 896:
                 zuuluu = report.length;
- 899:
-                if(!(tangon === zuuluu)) { _fun00006_ip = 909; continue _fun00005 }
- 903:
+ 901:
+                if(!(tangon === zuuluu)) { _fun00006_ip = 911; continue _fun00005 }
+ 905:
                 entity['globalName'] = michal;
- 909:
+ 911:
                 return entity;
             }
         };
@@ -1103,18 +1103,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = this;
                 entity = tangon.isSystemUser;
                 entity = entity.bind(tangon)();
-                if(entity) { _fun00040_ip = 26; continue _fun00039 }
+                if(entity) { _fun00040_ip = 28; continue _fun00039 }
  16:
                 michal = tangon.isLocalBot;
                 entity = michal.bind(tangon)();
- 26:
-                if(entity) { _fun00040_ip = 53; continue _fun00039 }
- 29:
+ 28:
+                if(entity) { _fun00040_ip = 55; continue _fun00039 }
+ 31:
                 zuuluu = tangon.hasFlag;
                 michal = _closure1_slot12;
                 michal = michal.VERIFIED_BOT;
                 entity = zuuluu.bind(tangon)(michal);
- 53:
+ 55:
                 return entity;
             }
         };

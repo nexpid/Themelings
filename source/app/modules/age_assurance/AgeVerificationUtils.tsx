@@ -200,11 +200,76 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['useIsVerifiedTeen'] = golfie;
+    golfie = function() { // Original name: isVerifiedAdult
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+ 0:
+            zuuluu = _closure1_slot7;
+            michal = zuuluu.getCurrentUser;
+            zuuluu = michal.bind(zuuluu)();
+            michal = null;
+            report = michal == zuuluu;
+            tangon = undefined;
+            michal = undefined;
+            if(report) { _fun00010_ip = 35; continue _fun00009 }
+ 29:
+            michal = zuuluu.ageVerificationStatus;
+ 35:
+            zuuluu = _closure1_slot0;
+            report = _closure1_slot2;
+            entity = 7;
+            entity = report[entity];
+            entity = zuuluu.bind(tangon)(entity);
+            entity = entity.AgeVerificationStatusUkAndAusOnly;
+            entity = entity.VERIFIED_ADULT;
+            entity = michal === entity;
+            return entity;
+        }
+    };
+    zuuluu['isVerifiedAdult'] = golfie;
+    golfie = function() { // Original name: useIsVerifiedAdult
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+ 0:
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot2;
+            michal = 8;
+            michal = tangon[michal];
+            tangon = undefined;
+            oscard = zuuluu.bind(tangon)(michal);
+            report = oscard.useStateFromStores;
+            michal = _closure1_slot7;
+            zuuluu = new Array(1);
+            zuuluu[0] = michal;
+            michal = function() {
+                michal = _closure1_slot7;
+                entity = michal.getCurrentUser;
+                entity = entity.bind(michal)();
+                return entity;
+            };
+            zuuluu = report.bind(oscard)(zuuluu, michal);
+            michal = null;
+            report = michal == zuuluu;
+            michal = undefined;
+            if(report) { _fun00012_ip = 72; continue _fun00011 }
+ 66:
+            michal = zuuluu.ageVerificationStatus;
+ 72:
+            zuuluu = _closure1_slot0;
+            report = _closure1_slot2;
+            entity = 7;
+            entity = report[entity];
+            entity = zuuluu.bind(tangon)(entity);
+            entity = entity.AgeVerificationStatusUkAndAusOnly;
+            entity = entity.VERIFIED_ADULT;
+            entity = michal === entity;
+            return entity;
+        }
+    };
+    zuuluu['useIsVerifiedAdult'] = golfie;
     zuuluu['AgeVerificationSystemNotificationEmbedKeys'] = oscard;
     zuuluu['AgeVerificationSystemNotificationCtaTypes'] = report;
     zuuluu['AgeVerificationSystemNotificationContentType'] = tangon;
     tangon = function(argFoo, argBar) { // Original name: isAgeVerificationMessageWithRetryCta
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             report = _closure1_slot6;
             tangon = report.getMessage;
@@ -212,27 +277,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = argBar;
             zuuluu = tangon.bind(report)(zuuluu, entity);
             entity = null;
-            if(!(entity != zuuluu)) { _fun00010_ip = 200; continue _fun00009 }
+            if(!(entity != zuuluu)) { _fun00014_ip = 200; continue _fun00013 }
  34:
             tangon = zuuluu.embeds;
-            if(!(entity != tangon)) { _fun00010_ip = 200; continue _fun00009 }
+            if(!(entity != tangon)) { _fun00014_ip = 200; continue _fun00013 }
  47:
             tangon = zuuluu.embeds;
             report = tangon.length;
             tangon = 0;
-            if(!(tangon !== report)) { _fun00010_ip = 200; continue _fun00009 }
+            if(!(tangon !== report)) { _fun00014_ip = 200; continue _fun00013 }
  67:
             report = zuuluu.embeds;
             report = report[tangon];
             report = report.fields;
-            if(!(entity != report)) { _fun00010_ip = 200; continue _fun00009 }
+            if(!(entity != report)) { _fun00014_ip = 200; continue _fun00013 }
  87:
             report = zuuluu.embeds;
             report = report[tangon];
             oscard = report.type;
             report = _closure1_slot8;
             report = report.AGE_VERIFICATION_SYSTEM_NOTIFICATION;
-            if(!(oscard === report)) { _fun00010_ip = 200; continue _fun00009 }
+            if(!(oscard === report)) { _fun00014_ip = 200; continue _fun00013 }
  116:
             zuuluu = zuuluu.embeds;
             zuuluu = zuuluu[tangon];
@@ -249,7 +314,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = tangon.bind(report)(zuuluu);
             tangon = entity == zuuluu;
             entity = undefined;
-            if(tangon) { _fun00010_ip = 198; continue _fun00009 }
+            if(tangon) { _fun00014_ip = 198; continue _fun00013 }
  158:
             report = zuuluu.rawValue;
             tangon = report.split;
@@ -268,7 +333,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     zuuluu['isAgeVerificationMessageWithRetryCta'] = tangon;
     tangon = function() { // Original name: isAgeVerified
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             zuuluu = _closure1_slot7;
             entity = zuuluu.getCurrentUser;
@@ -277,7 +342,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = zuuluu == tangon;
             report = undefined;
             golfie = undefined;
-            if(entity) { _fun00012_ip = 35; continue _fun00011 }
+            if(entity) { _fun00016_ip = 35; continue _fun00015 }
  29:
             golfie = tangon.ageVerificationStatus;
  35:
@@ -289,11 +354,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.AgeVerificationStatusUkAndAusOnly;
             entity = entity.UNVERIFIED;
             entity = golfie !== entity;
-            if(!entity) { _fun00012_ip = 122; continue _fun00011 }
+            if(!entity) { _fun00016_ip = 122; continue _fun00015 }
  74:
             golfie = zuuluu == tangon;
             zuuluu = undefined;
-            if(golfie) { _fun00012_ip = 89; continue _fun00011 }
+            if(golfie) { _fun00016_ip = 89; continue _fun00015 }
  83:
             zuuluu = tangon.ageVerificationStatus;
  89:
@@ -310,7 +375,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     zuuluu['isAgeVerified'] = tangon;
     tangon = function() { // Original name: useIsAgeVerified
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -332,7 +397,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = null;
             entity = zuuluu == tangon;
             golfie = undefined;
-            if(entity) { _fun00014_ip = 72; continue _fun00013 }
+            if(entity) { _fun00018_ip = 72; continue _fun00017 }
  66:
             golfie = tangon.ageVerificationStatus;
  72:
@@ -344,11 +409,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.AgeVerificationStatusUkAndAusOnly;
             entity = entity.UNVERIFIED;
             entity = golfie !== entity;
-            if(!entity) { _fun00014_ip = 159; continue _fun00013 }
+            if(!entity) { _fun00018_ip = 159; continue _fun00017 }
  111:
             golfie = zuuluu == tangon;
             zuuluu = undefined;
-            if(golfie) { _fun00014_ip = 126; continue _fun00013 }
+            if(golfie) { _fun00018_ip = 126; continue _fun00017 }
  120:
             zuuluu = tangon.ageVerificationStatus;
  126:
@@ -365,7 +430,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     zuuluu['useIsAgeVerified'] = tangon;
     tangon = function(argFoo) { // Original name: useInitiateAgeVerification
-        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             golfie = argFoo;
             var _closure2_slot0 = golfie;
@@ -402,7 +467,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             offset = entity == verify;
             entity = undefined;
-            if(offset) { _fun00016_ip = 130; continue _fun00015 }
+            if(offset) { _fun00020_ip = 130; continue _fun00019 }
  124:
             entity = verify.ageVerificationStatus;
  130:
@@ -437,11 +502,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot3;
             michal = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+                    _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00018_ip = 275; continue _fun00017 }
+                        if(michal) { _fun00022_ip = 275; continue _fun00021 }
  10:
                         tangon = _closure2_slot1;
                         report = undefined;
@@ -469,7 +534,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return michal;
  99:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                        if(oscard) { _fun00018_ip = 178; continue _fun00017 }
+                        if(oscard) { _fun00022_ip = 178; continue _fun00021 }
  105:
                         oscard = _closure1_slot1;
                         golfie = _closure1_slot2;
@@ -488,7 +553,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon['onCancel'] = option;
                         tangon = oscard.bind(golfie)(tangon);
  176: // try_end0
-                        _fun00018_ip = 246; continue _fun00017;
+                        _fun00022_ip = 246; continue _fun00021;
  178: // try_end1
                         oscard = _closure2_slot1;
                         tangon = false;
@@ -548,7 +613,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = new Array(1);
         report[0] = tangon;
         tangon = function() {
-            _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+            _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
                 michal = _closure1_slot7;
                 entity = michal.getCurrentUser;
@@ -556,7 +621,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = null;
                 zuuluu = entity == michal;
                 entity = undefined;
-                if(zuuluu) { _fun00020_ip = 33; continue _fun00019 }
+                if(zuuluu) { _fun00024_ip = 33; continue _fun00023 }
  27:
                 entity = michal.ageVerificationStatus;
  33:
@@ -578,23 +643,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu[1] = golfie;
         zuuluu[2] = oscard;
         michal = function() {
-            _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+            _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
                 michal = _closure2_slot2;
                 tangon = null;
                 michal = tangon != michal;
-                if(!michal) { _fun00022_ip = 24; continue _fun00021 }
+                if(!michal) { _fun00026_ip = 24; continue _fun00025 }
  16:
                 zuuluu = _closure2_slot1;
                 michal = tangon != zuuluu;
  24:
-                if(!michal) { _fun00022_ip = 39; continue _fun00021 }
+                if(!michal) { _fun00026_ip = 39; continue _fun00025 }
  27:
                 tangon = _closure2_slot2;
                 zuuluu = _closure2_slot1;
                 michal = tangon !== zuuluu;
  39:
-                if(!michal) { _fun00022_ip = 52; continue _fun00021 }
+                if(!michal) { _fun00026_ip = 52; continue _fun00025 }
  42:
                 michal = _closure2_slot0;
                 entity = undefined;

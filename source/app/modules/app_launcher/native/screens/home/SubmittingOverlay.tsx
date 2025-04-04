@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie[1] = verify;
             golfie[2] = option;
             entity['style'] = golfie;
-            if(!report) { _fun00002_ip = 257; continue _fun00001 }
+            if(!report) { _fun00002_ip = 253; continue _fun00001 }
  207:
             option = _closure1_slot3;
             golfie = _closure1_slot0;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = oscard.Ellipsis;
             oscard = {'variant': 'active', 'size': 'md'};
             report = option.bind(tangon)(golfie, oscard);
- 257:
+ 253:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

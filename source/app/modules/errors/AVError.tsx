@@ -69,6 +69,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie['VIDEO_STREAM_SENDER_READY_TIMEOUT'] = tangon;
     tangon = 'video-stream-receiver-ready-timeout';
     golfie['VIDEO_STREAM_RECEIVER_READY_TIMEOUT'] = tangon;
+    tangon = 'camera-send-low-encode-fps';
+    golfie['CAMERA_SEND_LOW_FPS'] = tangon;
     oscard = {};
     tangon = 'audio';
     oscard['Audio'] = tangon;
@@ -236,6 +238,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = oscard.Video;
     option['category'] = foxtra;
     option['isErrorOutbound'] = romeon;
+    tangon[offset] = option;
+    offset = golfie.CAMERA_SEND_LOW_FPS;
+    option = {};
+    romeon = 2013;
+    option['errorCode'] = romeon;
+    romeon = report.Warning;
+    option['severity'] = romeon;
+    romeon = oscard.Video;
+    option['category'] = romeon;
+    option['isErrorOutbound'] = yankee;
     tangon[offset] = option;
     offset = golfie.NO_INPUT_DEVICES;
     option = {};

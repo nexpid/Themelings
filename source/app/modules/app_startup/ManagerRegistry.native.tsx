@@ -1147,7 +1147,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity['inlineRequire'] = option;
     michal['SubscriptionManager'] = entity;
     entity = {};
-    option = ['CHANNEL_DELETE', 'MESSAGE_CREATE'];
+    option = ['CHANNEL_DELETE', 'MESSAGE_CREATE', 'GUILD_DELETE'];
     entity['actions'] = option;
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
