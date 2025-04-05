@@ -122,12 +122,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = report.BotTagTypes;
     var _closure1_slot4 = report;
     option = 4;
-    verify = golfie[option];
-    verify = oscard.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot5 = verify;
     option = golfie[option];
     option = oscard.bind(entity)(option);
+    verify = option.jsx;
+    var _closure1_slot5 = verify;
     option = option.jsxs;
     var _closure1_slot6 = option;
     option = 5;

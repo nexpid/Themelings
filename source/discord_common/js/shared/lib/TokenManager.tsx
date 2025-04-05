@@ -129,47 +129,46 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
  0:
                 golfie = argFoo;
                 entity = null;
-                if(!(entity != golfie)) { _fun00008_ip = 135; continue _fun00007 }
- 12:
+                if(!(entity != golfie)) { _fun00008_ip = 126; continue _fun00007 }
+ 9:
                 zuuluu = golfie.length;
                 michal = 0;
-                if(!(michal !== zuuluu)) { _fun00008_ip = 135; continue _fun00007 }
- 23:
+                if(!(michal !== zuuluu)) { _fun00008_ip = 126; continue _fun00007 }
+ 20:
                 michal = _closure1_slot5;
-                if(!(entity != michal)) { _fun00008_ip = 65; continue _fun00007 }
- 34:
+                if(!(entity != michal)) { _fun00008_ip = 62; continue _fun00007 }
+ 31:
                 entity = michal.isEncryptionAvailable;
                 entity = entity.bind(michal)();
-                if(!entity) { _fun00008_ip = 65; continue _fun00007 }
- 47:
+                if(!entity) { _fun00008_ip = 62; continue _fun00007 }
+ 44:
                 michal = golfie.startsWith;
                 entity = _closure1_slot4;
                 entity = michal.bind(golfie)(entity);
-                if(entity) { _fun00008_ip = 81; continue _fun00007 }
- 65:
+                if(entity) { _fun00008_ip = 78; continue _fun00007 }
+ 62:
                 entity = {};
                 entity['decryptedToken'] = golfie;
                 michal = false;
                 entity['wasEncrypted'] = michal;
-                _fun00008_ip = 133; continue _fun00007;
- 81:
+                _fun00008_ip = 124; continue _fun00007;
+ 78:
                 michal = {};
                 report = _closure1_slot5;
                 tangon = report.decryptString;
                 oscard = golfie.substring;
-                zuuluu = _closure1_slot4;
-                zuuluu = zuuluu.length;
+                zuuluu = 12;
                 zuuluu = oscard.bind(golfie)(zuuluu);
                 zuuluu = tangon.bind(report)(zuuluu);
                 michal['decryptedToken'] = zuuluu;
                 zuuluu = true;
                 michal['wasEncrypted'] = zuuluu;
                 entity = michal;
- 133:
-                _fun00008_ip = 145; continue _fun00007;
- 135:
+ 124:
+                _fun00008_ip = 136; continue _fun00007;
+ 126:
                 entity = {'decryptedToken': null, 'wasEncrypted': false};
- 145:
+ 136:
                 return entity;
             }
         };

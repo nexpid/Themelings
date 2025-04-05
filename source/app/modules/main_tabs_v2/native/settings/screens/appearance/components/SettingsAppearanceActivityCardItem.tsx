@@ -40,12 +40,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     output = tangon.HAPPENING_NOW_CARD_PADDING_RIGHT;
     foxtra = tangon.HAPPENING_NOW_CONTENT_HEIGHT;
     tangon = 4;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot5 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot5 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot6 = tangon;
     tangon = 5;

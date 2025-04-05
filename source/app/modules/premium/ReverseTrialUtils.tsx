@@ -17,7 +17,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 384; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 386; continue _fun00001 }
  10:
                     zuuluu = _closure1_slot4;
                     michal = zuuluu.getCurrentUser;
@@ -69,12 +69,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = option.getReverseTrialEntitlement;
                     zuuluu = true;
                     michal = michal.bind(option)(zuuluu);
-                    if(oscard) { _fun00002_ip = 379; continue _fun00001 }
+                    if(oscard) { _fun00002_ip = 381; continue _fun00001 }
  180:
-                    if(!(report != michal)) { _fun00002_ip = 379; continue _fun00001 }
+                    if(!(report != michal)) { _fun00002_ip = 381; continue _fun00001 }
  187:
                     oscard = michal.endsAt;
-                    if(!(report != oscard)) { _fun00002_ip = 379; continue _fun00001 }
+                    if(!(report != oscard)) { _fun00002_ip = 381; continue _fun00001 }
  200:
                     option = michal.endsAt;
                     oscard = option.getTime;
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = oscard.Date;
                     option = offset.now;
                     option = option.bind(offset)();
-                    if(!(verify < option)) { _fun00002_ip = 379; continue _fun00001 }
+                    if(!(verify < option)) { _fun00002_ip = 381; continue _fun00001 }
  240:
                     verify = michal.endsAt;
                     option = verify.getTime;
@@ -91,18 +91,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = oscard.Date;
                     oscard = verify.now;
                     verify = oscard.bind(verify)();
-                    oscard = _closure1_slot10;
+                    oscard = 259200000;
                     oscard = verify - oscard;
-                    if(!(!(option < oscard))) { _fun00002_ip = 379; continue _fun00001 }
- 283:
+                    if(!(!(option < oscard))) { _fun00002_ip = 381; continue _fun00001 }
+ 285:
                     oscard = michal.sourceType;
                     michal = _closure1_slot8;
                     michal = michal.REVERSE_TRIAL;
-                    if(!(oscard === michal)) { _fun00002_ip = 379; continue _fun00001 }
- 303:
+                    if(!(oscard === michal)) { _fun00002_ip = 381; continue _fun00001 }
+ 305:
                     michal = argFoo;
-                    if(!(report == michal)) { _fun00002_ip = 350; continue _fun00001 }
- 310:
+                    if(!(report == michal)) { _fun00002_ip = 352; continue _fun00001 }
+ 312:
                     oscard = _closure1_slot0;
                     option = _closure1_slot2;
                     michal = 8;
@@ -110,33 +110,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = oscard.bind(golfie)(michal);
                     michal = oscard.fetchUserOffer;
                     michal = michal.bind(oscard)();
-                    SaveGenerator(address=344);
- 342:
-                    return michal;
+                    SaveGenerator(address=346);
  344:
+                    return michal;
+ 346:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 376; continue _fun00001 }
- 350:
+                    if(oscard) { _fun00002_ip = 378; continue _fun00001 }
+ 352:
                     golfie = _closure1_slot5;
                     oscard = golfie.getUserTrialOffer;
                     tangon = _closure1_slot7;
                     tangon = oscard.bind(golfie)(tangon);
-                    if(!(report != tangon)) { _fun00002_ip = 379; continue _fun00001 }
- 373:
+                    if(!(report != tangon)) { _fun00002_ip = 381; continue _fun00001 }
+ 375:
                     return zuuluu;
- 376:
+ 378:
                     return michal;
- 379:
+ 381:
                     michal = false;
                     return michal;
- 384:
+ 386:
                     return entity;
                 }
             };
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot11 = tangon;
+        _closure1_slot10 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot11 = entity;
+    var _closure1_slot10 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -182,8 +182,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot8 = golfie;
     tangon = tangon.EntitlementTypes;
     var _closure1_slot9 = tangon;
-    tangon = 259200000;
-    var _closure1_slot10 = tangon;
     tangon = 11;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -192,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     tangon = function() { // Original name: shouldShowReverseTrialFollowUpUpsell
         entity = undefined;
-        tangon = _closure1_slot11;
+        tangon = _closure1_slot10;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;

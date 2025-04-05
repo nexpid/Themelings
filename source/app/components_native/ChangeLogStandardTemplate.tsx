@@ -346,12 +346,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot13 = oscard;
     backup = report.Fonts;
     report = 9;
-    oscard = offset[report];
-    oscard = verify.bind(entity)(oscard);
-    oscard = oscard.jsx;
-    var _closure1_slot14 = oscard;
     report = offset[report];
     report = verify.bind(entity)(report);
+    oscard = report.jsx;
+    var _closure1_slot14 = oscard;
     report = report.jsxs;
     var _closure1_slot15 = report;
     report = 10;

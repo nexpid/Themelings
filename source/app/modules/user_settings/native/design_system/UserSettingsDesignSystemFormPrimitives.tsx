@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    var _closure1_slot13 = entity;
+    var _closure1_slot12 = entity;
     entity = function() { // Original name: Switch
         entity = _closure1_slot11;
         tangon = undefined;
@@ -188,11 +188,48 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot13 = entity;
     entity = function(argFoo) { // Original name: InlineCheckbox
         entity = argFoo;
         verify = entity.label;
-        entity = _closure1_slot12;
+        entity = function() {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+                oscard = undefined;
+                report = undefined;
+                if(!(report === report)) { _fun00002_ip = 12; continue _fun00001 }
+ 10:
+                report = true;
+ 12:
+                var _closure3_slot0 = oscard;
+                tangon = _closure1_slot3;
+                entity = tangon.useState;
+                report = entity.bind(tangon)(report);
+                tangon = _closure1_slot2;
+                entity = 2;
+                report = tangon.bind(oscard)(report, entity);
+                entity = 0;
+                tangon = report[entity];
+                entity = 1;
+                entity = report[entity];
+                _closure3_slot0 = entity;
+                entity = {};
+                entity['checked'] = tangon;
+                report = _closure1_slot3;
+                tangon = report.useCallback;
+                zuuluu = function(argFoo) {
+                    zuuluu = _closure3_slot0;
+                    entity = undefined;
+                    michal = argFoo;
+                    michal = zuuluu.bind(entity)(michal);
+                    return entity;
+                };
+                michal = new Array(0);
+                michal = tangon.bind(report)(zuuluu, michal);
+                entity['onPress'] = michal;
+                return entity;
+            }
+        };
         tangon = undefined;
         entity = entity.bind(tangon)();
         romeon = entity.checked;
@@ -246,7 +283,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot15 = entity;
+    var _closure1_slot14 = entity;
     entity = function() { // Original name: InlineCheckboxDemo
         tangon = _closure1_slot8;
         zuuluu = _closure1_slot9;
@@ -264,7 +301,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = new Array(2);
         report[0] = golfie;
         option = _closure1_slot7;
-        golfie = _closure1_slot15;
+        golfie = _closure1_slot14;
         oscard = {};
         verify = 'Trust google.com links from now on';
         oscard['label'] = verify;
@@ -274,7 +311,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    var _closure1_slot16 = entity;
+    var _closure1_slot15 = entity;
     entity = function() { // Original name: Checkbox
         tangon = _closure1_slot8;
         zuuluu = _closure1_slot9;
@@ -342,7 +379,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    var _closure1_slot17 = entity;
+    var _closure1_slot16 = entity;
     entity = function() { // Original name: SliderDemo
         tangon = _closure1_slot8;
         zuuluu = _closure1_slot9;
@@ -397,7 +434,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    var _closure1_slot18 = entity;
+    var _closure1_slot17 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -429,16 +466,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.NOOP;
     var _closure1_slot6 = tangon;
     tangon = 4;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot7 = golfie;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsxs;
-    var _closure1_slot8 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot7 = golfie;
+    golfie = tangon.jsxs;
+    var _closure1_slot8 = golfie;
     tangon = tangon.Fragment;
     var _closure1_slot9 = tangon;
     tangon = 5;
@@ -464,26 +497,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot10 = tangon;
     tangon = function() { // Original name: useSwitchState
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tangon = arguments[0];
+            report = arguments[0];
             oscard = undefined;
-            if(!(tangon === oscard)) { _fun00002_ip = 13; continue _fun00001 }
+            if(!(report === oscard)) { _fun00004_ip = 13; continue _fun00003 }
  11:
-            tangon = true;
+            report = true;
  13:
             var _closure2_slot0 = oscard;
+            tangon = _closure1_slot3;
+            zuuluu = tangon.useState;
+            report = zuuluu.bind(tangon)(report);
+            tangon = _closure1_slot2;
+            zuuluu = 2;
+            report = tangon.bind(oscard)(report, zuuluu);
+            zuuluu = 0;
+            zuuluu = report[zuuluu];
+            tangon = 1;
+            tangon = report[tangon];
+            _closure2_slot0 = tangon;
             report = _closure1_slot3;
-            zuuluu = report.useState;
-            tangon = zuuluu.bind(report)(tangon);
-            zuuluu = _closure1_slot2;
-            michal = 2;
-            tangon = zuuluu.bind(oscard)(tangon, michal);
-            michal = 0;
-            zuuluu = tangon[michal];
-            michal = 1;
-            michal = tangon[michal];
-            _closure2_slot0 = michal;
             tangon = report.useCallback;
             michal = function(argFoo) {
                 zuuluu = _closure2_slot0;
@@ -501,44 +535,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     var _closure1_slot11 = tangon;
-    tangon = function() { // Original name: useCheckboxState
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
- 0:
-            tangon = arguments[0];
-            oscard = undefined;
-            if(!(tangon === oscard)) { _fun00004_ip = 13; continue _fun00003 }
- 11:
-            tangon = true;
- 13:
-            var _closure2_slot0 = oscard;
-            report = _closure1_slot3;
-            zuuluu = report.useState;
-            tangon = zuuluu.bind(report)(tangon);
-            zuuluu = _closure1_slot2;
-            entity = 2;
-            tangon = zuuluu.bind(oscard)(tangon, entity);
-            entity = 0;
-            zuuluu = tangon[entity];
-            entity = 1;
-            entity = tangon[entity];
-            _closure2_slot0 = entity;
-            entity = {};
-            entity['checked'] = zuuluu;
-            tangon = report.useCallback;
-            zuuluu = function(argFoo) {
-                zuuluu = _closure2_slot0;
-                entity = undefined;
-                michal = argFoo;
-                michal = zuuluu.bind(entity)(michal);
-                return entity;
-            };
-            michal = new Array(0);
-            michal = tangon.bind(report)(zuuluu, michal);
-            entity['onPress'] = michal;
-            return entity;
-        }
-    };
-    var _closure1_slot12 = tangon;
     tangon = 19;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -565,28 +561,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         option = option.container;
         report['style'] = option;
         yankee = _closure1_slot7;
-        offset = _closure1_slot13;
+        offset = _closure1_slot12;
         option = {};
         offset = yankee.bind(tangon)(offset, option);
         option = new Array(5);
         option[0] = offset;
         romeon = _closure1_slot7;
-        yankee = _closure1_slot14;
+        yankee = _closure1_slot13;
         offset = {};
         offset = romeon.bind(tangon)(yankee, offset);
         option[1] = offset;
         romeon = _closure1_slot7;
-        yankee = _closure1_slot17;
+        yankee = _closure1_slot16;
         offset = {};
         offset = romeon.bind(tangon)(yankee, offset);
         option[2] = offset;
         romeon = _closure1_slot7;
-        yankee = _closure1_slot16;
+        yankee = _closure1_slot15;
         offset = {};
         offset = romeon.bind(tangon)(yankee, offset);
         option[3] = offset;
         yankee = _closure1_slot7;
-        offset = _closure1_slot18;
+        offset = _closure1_slot17;
         verify = {};
         verify = yankee.bind(tangon)(offset, verify);
         option[4] = verify;

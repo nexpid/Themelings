@@ -177,12 +177,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = option.SearchNavigatorScreens;
     var _closure1_slot7 = option;
     option = 5;
-    verify = oscard[option];
-    verify = report.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot8 = verify;
     option = oscard[option];
     option = report.bind(entity)(option);
+    verify = option.jsx;
+    var _closure1_slot8 = verify;
     option = option.jsxs;
     var _closure1_slot9 = option;
     verify = tangon.Object;

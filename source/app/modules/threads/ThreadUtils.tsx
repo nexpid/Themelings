@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot0 = golfie;
     var _closure1_slot1 = report;
     var _closure1_slot2 = oscard;
-    entity = ['can_send_message'];
+    entity = ['can_send_message', 'parent_channel_type'];
     var _closure1_slot3 = entity;
     entity = global;
     verify = entity.Object;
@@ -172,9 +172,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = undefined;
             report = report.bind(entity)(tangon);
             tangon = report.collectThreadMetadata;
-            echoed = tangon.bind(report)(offset);
+            result = tangon.bind(report)(offset);
             golfie = null;
-            if(!(golfie != echoed)) { _fun00004_ip = 539; continue _fun00003 }
+            if(!(golfie != result)) { _fun00004_ip = 545; continue _fun00003 }
  51:
             tangon = offset.getGuildId;
             kiloes = tangon.bind(offset)();
@@ -265,46 +265,47 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = report.bind(verify)(tangon);
             report = golfie != tangon;
             foxtra = 0;
-            sizing = 0;
-            if(!report) { _fun00004_ip = 139; continue _fun00003 }
- 136:
-            sizing = tangon;
- 139:
-            yankee = romeon.bind(entity)(sizing);
-            update = _closure1_slot7;
-            report = update.isMuted;
+            if(!report) { _fun00004_ip = 137; continue _fun00003 }
+ 134:
+            foxtra = tangon;
+ 137:
+            yankee = romeon.bind(entity)(foxtra);
+            echoed = _closure1_slot7;
+            report = echoed.isMuted;
             tangon = offset.id;
-            verify = report.bind(update)(tangon);
+            verify = report.bind(echoed)(tangon);
             report = _closure1_slot0;
             tangon = _closure1_slot2;
             tangon = tangon[option];
-            output = report.bind(entity)(tangon);
-            report = output.muteConfigToTimestamp;
-            result = update.getMuteConfig;
+            sizing = report.bind(entity)(tangon);
+            report = sizing.muteConfigToTimestamp;
+            output = echoed.getMuteConfig;
             tangon = offset.id;
-            tangon = result.bind(update)(tangon);
-            tangon = report.bind(output)(tangon);
-            report = echoed.can_send_message;
+            tangon = output.bind(echoed)(tangon);
+            tangon = report.bind(sizing)(tangon);
+            report = result.can_send_message;
+            report = result.parent_channel_type;
             report = {};
-            result = _closure1_slot4;
-            output = _closure1_slot3;
-            source = result.bind(entity)(echoed, output);
-            ctrled = report;
-            output = copyDataProperties(ctrled, source);
-            result = offset.id;
-            output = 'channel_id';
-            report[output] = result;
-            output = 'guild_id';
-            report[output] = kiloes;
-            output = 'parent_id';
-            report[output] = backup;
-            output = offset.type;
+            output = _closure1_slot4;
+            sizing = _closure1_slot3;
+            update = output.bind(entity)(result, sizing);
+            source = report;
+            sizing = copyDataProperties(source, update);
+            output = offset.id;
+            sizing = 'channel_id';
+            report[sizing] = output;
+            sizing = 'guild_id';
+            report[sizing] = kiloes;
+            sizing = 'parent_id';
+            report[sizing] = backup;
+            sizing = offset.type;
             offset = 'channel_type';
-            report[offset] = output;
+            report[offset] = sizing;
             offset = _closure1_slot8;
             offset = offset.HAS_INTERACTED;
-            offset = sizing & offset;
-            foxtra = foxtra != offset;
+            offset = foxtra & offset;
+            offset = !offset;
+            foxtra = !offset;
             offset = 'has_interacted_with_thread';
             report[offset] = foxtra;
             foxtra = _closure1_slot6;
@@ -315,11 +316,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = 'old_thread_notification_setting';
             report[offset] = yankee;
             offset = zuuluu.flags;
-            if(!(golfie != offset)) { _fun00004_ip = 369; continue _fun00003 }
- 359:
+            if(!(golfie != offset)) { _fun00004_ip = 375; continue _fun00003 }
+ 365:
             offset = zuuluu.flags;
             yankee = romeon.bind(entity)(offset);
- 369:
+ 375:
             offset = 'new_thread_notification_setting';
             report[offset] = yankee;
             offset = oscard.channel_message_notification_settings;
@@ -328,17 +329,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = 'old_thread_is_muted';
             report[oscard] = verify;
             oscard = zuuluu.muted;
-            if(!(golfie != oscard)) { _fun00004_ip = 421; continue _fun00003 }
- 418:
+            if(!(golfie != oscard)) { _fun00004_ip = 427; continue _fun00003 }
+ 424:
             verify = oscard;
- 421:
+ 427:
             oscard = 'new_thread_is_muted';
             report[oscard] = verify;
             oscard = 'old_thread_muted_until';
             report[oscard] = tangon;
             oscard = zuuluu.mute_config;
-            if(!(golfie != oscard)) { _fun00004_ip = 487; continue _fun00003 }
- 453:
+            if(!(golfie != oscard)) { _fun00004_ip = 493; continue _fun00003 }
+ 459:
             golfie = _closure1_slot0;
             oscard = _closure1_slot2;
             oscard = oscard[option];
@@ -346,7 +347,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie.muteConfigToTimestamp;
             zuuluu = zuuluu.mute_config;
             tangon = oscard.bind(golfie)(zuuluu);
- 487:
+ 493:
             zuuluu = 'new_thread_muted_until';
             report[zuuluu] = tangon;
             tangon = _closure1_slot1;
@@ -358,7 +359,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot9;
             michal = michal.THREAD_NOTIFICATION_SETTINGS_UPDATED;
             michal = zuuluu.bind(tangon)(michal, report);
- 539:
+ 545:
             return entity;
         }
     };

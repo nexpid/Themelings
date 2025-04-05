@@ -80,12 +80,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     yankee = tangon.SEARCH_ROW_TAP_STATE_PADDING;
     tangon = 4;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot6 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot6 = option;
     tangon = tangon.jsxs;
     var _closure1_slot7 = tangon;
     tangon = 5;

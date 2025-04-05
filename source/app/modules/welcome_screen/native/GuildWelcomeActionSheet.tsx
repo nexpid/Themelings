@@ -76,12 +76,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = michal.Permissions;
     var _closure1_slot16 = michal;
     michal = 11;
-    report = golfie[michal];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot17 = report;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
+    report = michal.jsx;
+    var _closure1_slot17 = report;
     michal = michal.jsxs;
     var _closure1_slot18 = michal;
     michal = 12;

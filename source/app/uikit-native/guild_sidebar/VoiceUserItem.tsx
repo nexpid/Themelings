@@ -30,12 +30,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = foxtra.bind(entity)(tangon);
     var _closure1_slot4 = tangon;
     tangon = 3;
-    report = golfie[tangon];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot5 = report;
     tangon = golfie[tangon];
     tangon = oscard.bind(entity)(tangon);
+    report = tangon.jsx;
+    var _closure1_slot5 = report;
     tangon = tangon.jsxs;
     var _closure1_slot6 = tangon;
     tangon = 4;
@@ -143,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = yankee[tangon];
             romeon = verify.bind(report)(zuuluu);
             golfie = romeon.useAnimatedStyle;
-            zuuluu = function() { // Original name: h
+            zuuluu = function() { // Original name: l
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot3;

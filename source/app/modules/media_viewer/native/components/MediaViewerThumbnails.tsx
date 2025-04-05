@@ -39,12 +39,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.THUMBNAIL_WIDTH_MARGIN;
     var _closure1_slot6 = tangon;
     tangon = 4;
-    offset = oscard[tangon];
-    offset = report.bind(entity)(offset);
-    offset = offset.jsx;
-    var _closure1_slot7 = offset;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    offset = tangon.jsx;
+    var _closure1_slot7 = offset;
     tangon = tangon.jsxs;
     var _closure1_slot8 = tangon;
     tangon = function(argFoo) { // Original name: ObscuredView

@@ -302,16 +302,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         var _closure1_slot10 = verify;
         kiloes = oscard.CATEGORY_VERTICAL_PADDING;
         oscard = 6;
-        verify = option[oscard];
-        verify = golfie.bind(entity)(verify);
-        verify = verify.jsx;
-        var _closure1_slot11 = verify;
-        verify = option[oscard];
-        verify = golfie.bind(entity)(verify);
-        verify = verify.Fragment;
-        var _closure1_slot12 = verify;
         oscard = option[oscard];
         oscard = golfie.bind(entity)(oscard);
+        verify = oscard.jsx;
+        var _closure1_slot11 = verify;
+        verify = oscard.Fragment;
+        var _closure1_slot12 = verify;
         oscard = oscard.jsxs;
         var _closure1_slot13 = oscard;
         verify = offset.create;
@@ -326,10 +322,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         kiloes = golfie.bind(entity)(backup);
         backup = kiloes.isAndroid;
         backup = backup.bind(kiloes)();
-        if(!backup) { _fun00002_ip = 359; continue _fun00001 }
- 353:
+        if(!backup) { _fun00002_ip = 341; continue _fun00001 }
+ 335:
         foxtra = -1;
- 359:
+ 341:
         yankee['marginTop'] = foxtra;
         oscard['categoryText'] = yankee;
         yankee = {};

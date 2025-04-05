@@ -17,11 +17,11 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     entity = undefined;
     michal = michal.bind(entity)(tangon);
     var _closure1_slot0 = michal;
+    michal = 1;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    tangon = michal.RPCCommands;
     michal = {};
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.RPCCommands;
     golfie = tangon.USER_SETTINGS_GET_LOCALE;
     tangon = {};
     verify = 2;

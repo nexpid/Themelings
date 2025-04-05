@@ -445,12 +445,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     romeon = oscard.ICYMI_MARGIN;
     foxtra = oscard.MESSAGE_CONTENT_INSET;
     oscard = 5;
-    verify = option[oscard];
-    verify = golfie.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot7 = verify;
     oscard = option[oscard];
     oscard = golfie.bind(entity)(oscard);
+    verify = oscard.jsx;
+    var _closure1_slot7 = verify;
     oscard = oscard.jsxs;
     var _closure1_slot8 = oscard;
     oscard = 6;

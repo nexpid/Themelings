@@ -56,12 +56,10 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     option = tangon.bind(entity)(report);
     var _closure1_slot0 = option;
     tangon = 1;
-    report = offset[tangon];
-    report = verify.bind(entity)(report);
-    report = report.Fragment;
-    var _closure1_slot1 = report;
     tangon = offset[tangon];
     tangon = verify.bind(entity)(tangon);
+    report = tangon.Fragment;
+    var _closure1_slot1 = report;
     tangon = tangon.jsx;
     var _closure1_slot2 = tangon;
     tangon = {'theme': 'light', 'primaryColor': null, 'secondaryColor': null, 'gradient': null, 'flags': 0, 'contrast': 1, 'saturation': 1, 'density': 'compact', 'disableAdaptiveTheme': false};

@@ -7,43 +7,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = foxtra;
     var _closure1_slot2 = oscard;
-    entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            tangon = argFoo;
-            oscard = argBaz;
-            michal = _closure1_slot6;
-            zuuluu = undefined;
-            entity = argBar;
-            verify = michal.bind(zuuluu)(entity);
-            michal = _closure1_slot5;
-            entity = _closure1_slot22;
-            entity = entity.bind(zuuluu)();
-            if(entity) { _fun00002_ip = 51; continue _fun00001 }
- 38:
-            entity = verify.apply;
-            entity = entity.bind(verify)(tangon, oscard);
-            _fun00002_ip = 92; continue _fun00001;
- 51:
-            golfie = global;
-            option = golfie.Reflect;
-            golfie = option.construct;
-            if(oscard) { _fun00002_ip = 71; continue _fun00001 }
- 67:
-            oscard = new Array(0);
- 71:
-            report = _closure1_slot6;
-            report = report.bind(zuuluu)(tangon);
-            report = report.constructor;
-            entity = golfie.bind(option)(verify, oscard, report);
- 92:
-            entity = michal.bind(zuuluu)(tangon, entity);
-            return entity;
-        }
-    };
-    var _closure1_slot21 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
  2: // try_start_0
             michal = global;
@@ -64,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = !michal;
             var _closure2_slot0 = michal;
  72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
+            _fun00002_ip = 76; continue _fun00001;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -74,13 +39,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot22 = michal;
+            _closure1_slot21 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot22 = entity;
+    var _closure1_slot21 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -143,12 +108,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = golfie.LoginRequiredActions;
     var _closure1_slot15 = golfie;
     golfie = 11;
-    option = oscard[golfie];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot16 = option;
     golfie = oscard[golfie];
     golfie = report.bind(entity)(golfie);
+    option = golfie.jsx;
+    var _closure1_slot16 = option;
     golfie = golfie.jsxs;
     var _closure1_slot17 = golfie;
     golfie = {};
@@ -190,83 +153,52 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = tangon.Component;
     tangon = function(argFoo) {
         tangon = function(argFoo) { // Original name: EditPassword
-            golfie = this;
-            romeon = 0;
-            option = copyRestArgs(romeon);
-            entity = _closure1_slot3;
-            oscard = _closure2_slot0;
-            report = undefined;
-            entity = entity.bind(report)(golfie, oscard);
-            tangon = _closure1_slot21;
-            entity = new Array(0);
-            romeon = entity;
-            yankee = option;
-            offset = 0;
-            option = arraySpread(romeon, yankee, offset);
-            entity = tangon.bind(report)(golfie, oscard, entity);
-            var _closure3_slot0 = entity;
-            zuuluu = _closure1_slot18;
-            entity['state'] = zuuluu;
-            zuuluu = null;
-            entity['newPasswordRef'] = zuuluu;
-            entity['passwordManagerRef'] = zuuluu;
-            zuuluu = function(argFoo) {
-                report = argFoo;
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.setState;
-                entity = {};
-                entity['password'] = report;
-                entity = michal.bind(zuuluu)(entity);
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 14;
-                michal = michal[entity];
-                entity = undefined;
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.updateAccount;
-                michal = {};
-                michal['password'] = report;
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
-            };
-            entity['handlePasswordChange'] = zuuluu;
-            zuuluu = function(argFoo) {
-                michal = _closure3_slot0;
-                entity = argFoo;
-                michal['newPasswordRef'] = entity;
-                entity = undefined;
-                return entity;
-            };
-            entity['handleSetNewPasswordRef'] = zuuluu;
-            zuuluu = function() {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    entity = _closure3_slot0;
-                    michal = entity.newPasswordRef;
-                    entity = null;
-                    if(!(entity != michal)) { _fun00006_ip = 29; continue _fun00005 }
- 19:
-                    entity = michal.focus;
-                    entity = entity.bind(michal)();
- 29:
-                    entity = undefined;
-                    return entity;
-                }
-            };
-            entity['handleFocusNewPassword'] = zuuluu;
-            zuuluu = function(argFoo) {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
- 0:
+                oscard = this;
+                backup = 0;
+                entity = copyRestArgs(backup);
+                option = _closure1_slot3;
+                tangon = _closure2_slot0;
+                report = undefined;
+                option = option.bind(report)(oscard, tangon);
+                yankee = new Array(0);
+                backup = yankee;
+                foxtra = entity;
+                romeon = 0;
+                entity = arraySpread(backup, foxtra, romeon);
+                entity = _closure1_slot6;
+                offset = entity.bind(report)(tangon);
+                tangon = _closure1_slot5;
+                entity = _closure1_slot21;
+                entity = entity.bind(report)();
+                if(entity) { _fun00004_ip = 86; continue _fun00003 }
+ 73:
+                entity = offset.apply;
+                entity = entity.bind(offset)(oscard, yankee);
+                _fun00004_ip = 120; continue _fun00003;
+ 86:
+                golfie = global;
+                verify = golfie.Reflect;
+                option = verify.construct;
+                golfie = _closure1_slot6;
+                golfie = golfie.bind(report)(oscard);
+                golfie = golfie.constructor;
+                entity = option.bind(verify)(offset, yankee, golfie);
+ 120:
+                entity = tangon.bind(report)(oscard, entity);
+                var _closure3_slot0 = entity;
+                zuuluu = _closure1_slot18;
+                entity['state'] = zuuluu;
+                zuuluu = null;
+                entity['newPasswordRef'] = zuuluu;
+                entity['passwordManagerRef'] = zuuluu;
+                zuuluu = function(argFoo) {
                     report = argFoo;
-                    entity = '';
-                    if(!(entity === report)) { _fun00008_ip = 13; continue _fun00007 }
- 11:
-                    report = undefined;
- 13:
                     zuuluu = _closure3_slot0;
                     michal = zuuluu.setState;
                     entity = {};
-                    entity['newPassword'] = report;
+                    entity['password'] = report;
                     entity = michal.bind(zuuluu)(entity);
                     zuuluu = _closure1_slot1;
                     michal = _closure1_slot2;
@@ -276,165 +208,217 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = zuuluu.bind(entity)(michal);
                     zuuluu = tangon.updateAccount;
                     michal = {};
-                    michal['newPassword'] = report;
+                    michal['password'] = report;
                     michal = zuuluu.bind(tangon)(michal);
                     return entity;
-                }
-            };
-            entity['handleNewPasswordChange'] = zuuluu;
-            zuuluu = function() {
-                entity = _closure3_slot0;
-                zuuluu = entity.state;
-                golfie = zuuluu.password;
-                zuuluu = zuuluu.newPassword;
-                entity = entity.props;
-                entity = entity.showForcedPasswordUpdate;
-                var _closure4_slot0 = entity;
-                report = _closure1_slot1;
-                tangon = _closure1_slot2;
-                entity = 14;
-                tangon = tangon[entity];
-                entity = undefined;
-                oscard = report.bind(entity)(tangon);
-                report = oscard.saveAccountChanges;
-                tangon = {};
-                tangon['password'] = golfie;
-                tangon['newPassword'] = zuuluu;
-                zuuluu = {};
-                golfie = false;
-                zuuluu['close'] = golfie;
-                tangon = report.bind(oscard)(tangon, zuuluu);
-                zuuluu = tangon.then;
-                michal = function(argFoo) {
-                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+                };
+                entity['handlePasswordChange'] = zuuluu;
+                zuuluu = function(argFoo) {
+                    michal = _closure3_slot0;
+                    entity = argFoo;
+                    michal['newPasswordRef'] = entity;
+                    entity = undefined;
+                    return entity;
+                };
+                entity['handleSetNewPasswordRef'] = zuuluu;
+                zuuluu = function() {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                        michal = argFoo;
-                        entity = michal.ok;
-                        if(entity) { _fun00010_ip = 37; continue _fun00009 }
- 12:
-                        tangon = michal.body;
-                        zuuluu = null;
-                        report = zuuluu == tangon;
-                        michal = undefined;
-                        if(report) { _fun00010_ip = 33; continue _fun00009 }
- 28:
-                        michal = tangon.username;
- 33:
-                        entity = zuuluu == michal;
- 37:
-                        if(entity) { _fun00010_ip = 75; continue _fun00009 }
- 40:
-                        zuuluu = _closure1_slot0;
-                        michal = _closure1_slot2;
-                        entity = 15;
-                        michal = michal[entity];
-                        entity = undefined;
-                        michal = zuuluu.bind(entity)(michal);
-                        entity = michal.showInvalidUsernameToast;
+                        entity = _closure3_slot0;
+                        michal = entity.newPasswordRef;
+                        entity = null;
+                        if(!(entity != michal)) { _fun00006_ip = 29; continue _fun00005 }
+ 19:
+                        entity = michal.focus;
                         entity = entity.bind(michal)();
- 75:
-                        zuuluu = _closure1_slot12;
-                        michal = zuuluu.getProps;
-                        michal = michal.bind(zuuluu)();
-                        report = michal.errors;
-                        michal = null;
-                        michal = michal == report;
-                        if(michal) { _fun00010_ip = 144; continue _fun00009 }
- 107:
-                        oscard = _closure1_slot1;
-                        tangon = _closure1_slot2;
-                        zuuluu = 16;
-                        zuuluu = tangon[zuuluu];
-                        tangon = undefined;
-                        zuuluu = oscard.bind(tangon)(zuuluu);
-                        tangon = zuuluu.bind(tangon)(report);
-                        zuuluu = tangon.isEmpty;
-                        michal = zuuluu.bind(tangon)();
- 144:
-                        if(!michal) { _fun00010_ip = 251; continue _fun00009 }
- 147:
-                        michal = _closure4_slot0;
-                        if(michal) { _fun00010_ip = 187; continue _fun00009 }
- 157:
-                        michal = _closure3_slot0;
-                        michal = michal.props;
-                        zuuluu = michal.navigation;
-                        michal = zuuluu.pop;
-                        michal = michal.bind(zuuluu)();
-                        _fun00010_ip = 251; continue _fun00009;
- 187:
-                        zuuluu = _closure1_slot1;
-                        tangon = _closure1_slot2;
-                        michal = 17;
-                        report = tangon[michal];
-                        michal = undefined;
-                        oscard = zuuluu.bind(michal)(report);
-                        report = oscard.track;
-                        entity = _closure1_slot14;
-                        entity = entity.FORCED_UPDATE_PASSWORD_SUCCEEDED;
-                        entity = report.bind(oscard)(entity);
-                        entity = 14;
-                        entity = tangon[entity];
-                        michal = zuuluu.bind(michal)(entity);
-                        entity = michal.close;
-                        entity = entity.bind(michal)();
- 251:
+ 29:
                         entity = undefined;
                         return entity;
                     }
                 };
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
-            };
-            entity['handleSubmit'] = zuuluu;
-            zuuluu = function(argFoo) {
-                michal = _closure3_slot0;
-                entity = argFoo;
-                michal['passwordManagerRef'] = entity;
-                entity = undefined;
-                return entity;
-            };
-            entity['handleSetPasswordManagerRef'] = zuuluu;
-            michal = function() {
-                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+                entity['handleFocusNewPassword'] = zuuluu;
+                zuuluu = function(argFoo) {
+                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
+                        report = argFoo;
+                        entity = '';
+                        if(!(entity === report)) { _fun00008_ip = 13; continue _fun00007 }
+ 11:
+                        report = undefined;
+ 13:
+                        zuuluu = _closure3_slot0;
+                        michal = zuuluu.setState;
+                        entity = {};
+                        entity['newPassword'] = report;
+                        entity = michal.bind(zuuluu)(entity);
+                        zuuluu = _closure1_slot1;
+                        michal = _closure1_slot2;
+                        entity = 14;
+                        michal = michal[entity];
+                        entity = undefined;
+                        tangon = zuuluu.bind(entity)(michal);
+                        zuuluu = tangon.updateAccount;
+                        michal = {};
+                        michal['newPassword'] = report;
+                        michal = zuuluu.bind(tangon)(michal);
+                        return entity;
+                    }
+                };
+                entity['handleNewPasswordChange'] = zuuluu;
+                zuuluu = function() {
                     entity = _closure3_slot0;
-                    entity = entity.state;
-                    michal = entity.password;
-                    zuuluu = entity.newPassword;
-                    tangon = null;
-                    entity = tangon != michal;
-                    if(!entity) { _fun00012_ip = 41; continue _fun00011 }
+                    zuuluu = entity.state;
+                    golfie = zuuluu.password;
+                    zuuluu = zuuluu.newPassword;
+                    entity = entity.props;
+                    entity = entity.showForcedPasswordUpdate;
+                    var _closure4_slot0 = entity;
+                    report = _closure1_slot1;
+                    tangon = _closure1_slot2;
+                    entity = 14;
+                    tangon = tangon[entity];
+                    entity = undefined;
+                    oscard = report.bind(entity)(tangon);
+                    report = oscard.saveAccountChanges;
+                    tangon = {};
+                    tangon['password'] = golfie;
+                    tangon['newPassword'] = zuuluu;
+                    zuuluu = {};
+                    golfie = false;
+                    zuuluu['close'] = golfie;
+                    tangon = report.bind(oscard)(tangon, zuuluu);
+                    zuuluu = tangon.then;
+                    michal = function(argFoo) {
+                        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+ 0:
+                            michal = argFoo;
+                            entity = michal.ok;
+                            if(entity) { _fun00010_ip = 37; continue _fun00009 }
+ 12:
+                            tangon = michal.body;
+                            zuuluu = null;
+                            report = zuuluu == tangon;
+                            michal = undefined;
+                            if(report) { _fun00010_ip = 33; continue _fun00009 }
+ 28:
+                            michal = tangon.username;
  33:
-                    report = '';
-                    entity = report !== michal;
- 41:
-                    if(!entity) { _fun00012_ip = 48; continue _fun00011 }
- 44:
-                    entity = tangon != zuuluu;
- 48:
-                    if(!entity) { _fun00012_ip = 59; continue _fun00011 }
- 51:
-                    tangon = '';
-                    entity = tangon !== zuuluu;
- 59:
-                    if(!entity) { _fun00012_ip = 88; continue _fun00011 }
- 62:
-                    michal = michal.length;
-                    tangon = 0;
-                    michal = michal > tangon;
-                    if(!michal) { _fun00012_ip = 85; continue _fun00011 }
- 76:
-                    zuuluu = zuuluu.length;
-                    michal = zuuluu > tangon;
- 85:
-                    entity = michal;
- 88:
+                            entity = zuuluu == michal;
+ 37:
+                            if(entity) { _fun00010_ip = 75; continue _fun00009 }
+ 40:
+                            zuuluu = _closure1_slot0;
+                            michal = _closure1_slot2;
+                            entity = 15;
+                            michal = michal[entity];
+                            entity = undefined;
+                            michal = zuuluu.bind(entity)(michal);
+                            entity = michal.showInvalidUsernameToast;
+                            entity = entity.bind(michal)();
+ 75:
+                            zuuluu = _closure1_slot12;
+                            michal = zuuluu.getProps;
+                            michal = michal.bind(zuuluu)();
+                            report = michal.errors;
+                            michal = null;
+                            michal = michal == report;
+                            if(michal) { _fun00010_ip = 144; continue _fun00009 }
+ 107:
+                            oscard = _closure1_slot1;
+                            tangon = _closure1_slot2;
+                            zuuluu = 16;
+                            zuuluu = tangon[zuuluu];
+                            tangon = undefined;
+                            zuuluu = oscard.bind(tangon)(zuuluu);
+                            tangon = zuuluu.bind(tangon)(report);
+                            zuuluu = tangon.isEmpty;
+                            michal = zuuluu.bind(tangon)();
+ 144:
+                            if(!michal) { _fun00010_ip = 251; continue _fun00009 }
+ 147:
+                            michal = _closure4_slot0;
+                            if(michal) { _fun00010_ip = 187; continue _fun00009 }
+ 157:
+                            michal = _closure3_slot0;
+                            michal = michal.props;
+                            zuuluu = michal.navigation;
+                            michal = zuuluu.pop;
+                            michal = michal.bind(zuuluu)();
+                            _fun00010_ip = 251; continue _fun00009;
+ 187:
+                            zuuluu = _closure1_slot1;
+                            tangon = _closure1_slot2;
+                            michal = 17;
+                            report = tangon[michal];
+                            michal = undefined;
+                            oscard = zuuluu.bind(michal)(report);
+                            report = oscard.track;
+                            entity = _closure1_slot14;
+                            entity = entity.FORCED_UPDATE_PASSWORD_SUCCEEDED;
+                            entity = report.bind(oscard)(entity);
+                            entity = 14;
+                            entity = tangon[entity];
+                            michal = zuuluu.bind(michal)(entity);
+                            entity = michal.close;
+                            entity = entity.bind(michal)();
+ 251:
+                            entity = undefined;
+                            return entity;
+                        }
+                    };
+                    michal = zuuluu.bind(tangon)(michal);
                     return entity;
-                }
-            };
-            entity['canSubmit'] = michal;
-            return entity;
+                };
+                entity['handleSubmit'] = zuuluu;
+                zuuluu = function(argFoo) {
+                    michal = _closure3_slot0;
+                    entity = argFoo;
+                    michal['passwordManagerRef'] = entity;
+                    entity = undefined;
+                    return entity;
+                };
+                entity['handleSetPasswordManagerRef'] = zuuluu;
+                michal = function() {
+                    _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+ 0:
+                        entity = _closure3_slot0;
+                        entity = entity.state;
+                        michal = entity.password;
+                        zuuluu = entity.newPassword;
+                        tangon = null;
+                        entity = tangon != michal;
+                        if(!entity) { _fun00012_ip = 41; continue _fun00011 }
+ 33:
+                        report = '';
+                        entity = report !== michal;
+ 41:
+                        if(!entity) { _fun00012_ip = 48; continue _fun00011 }
+ 44:
+                        entity = tangon != zuuluu;
+ 48:
+                        if(!entity) { _fun00012_ip = 59; continue _fun00011 }
+ 51:
+                        tangon = '';
+                        entity = tangon !== zuuluu;
+ 59:
+                        if(!entity) { _fun00012_ip = 88; continue _fun00011 }
+ 62:
+                        michal = michal.length;
+                        tangon = 0;
+                        michal = michal > tangon;
+                        if(!michal) { _fun00012_ip = 85; continue _fun00011 }
+ 76:
+                        zuuluu = zuuluu.length;
+                        michal = zuuluu > tangon;
+ 85:
+                        entity = michal;
+ 88:
+                        return entity;
+                    }
+                };
+                entity['canSubmit'] = michal;
+                return entity;
+            }
         };
         var _closure2_slot0 = tangon;
         report = _closure1_slot7;

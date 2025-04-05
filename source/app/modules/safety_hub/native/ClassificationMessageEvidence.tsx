@@ -67,12 +67,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.MessageTypes;
     var _closure1_slot17 = tangon;
     tangon = 8;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot18 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot18 = option;
     tangon = tangon.jsxs;
     var _closure1_slot19 = tangon;
     tangon = 9;

@@ -33,12 +33,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.SearchTypes;
     var _closure1_slot5 = tangon;
     tangon = 3;
-    report = golfie[tangon];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot6 = report;
     tangon = golfie[tangon];
     tangon = oscard.bind(entity)(tangon);
+    report = tangon.jsx;
+    var _closure1_slot6 = report;
     tangon = tangon.jsxs;
     var _closure1_slot7 = tangon;
     yankee = 4;
@@ -136,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = yankee[oscard];
         offset = echoed.bind(tangon)(michal);
         zuuluu = offset.useAnimatedStyle;
-        michal = function() { // Original name: u
+        michal = function() { // Original name: c
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = {};

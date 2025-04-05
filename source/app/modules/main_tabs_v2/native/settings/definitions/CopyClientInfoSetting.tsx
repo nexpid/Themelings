@@ -432,12 +432,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = oscard.bind(entity)(tangon);
     verify = tangon.RendererType;
     tangon = 2;
-    offset = golfie[tangon];
-    offset = oscard.bind(entity)(offset);
-    offset = offset.jsx;
-    var _closure1_slot4 = offset;
     tangon = golfie[tangon];
     tangon = oscard.bind(entity)(tangon);
+    offset = tangon.jsx;
+    var _closure1_slot4 = offset;
     tangon = tangon.jsxs;
     var _closure1_slot5 = tangon;
     tangon = 3;

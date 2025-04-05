@@ -60,12 +60,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.UserSettingsSections;
     var _closure1_slot13 = tangon;
     tangon = 9;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot14 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot14 = option;
     tangon = tangon.jsxs;
     var _closure1_slot15 = tangon;
     tangon = 10;

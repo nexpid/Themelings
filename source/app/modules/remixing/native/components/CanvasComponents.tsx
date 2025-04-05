@@ -26,12 +26,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.bind(entity)(golfie);
     var _closure1_slot4 = tangon;
     tangon = 2;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot5 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot5 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot6 = tangon;
     tangon = {};
@@ -372,8 +370,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = null;
             option = verify == romeon;
             golfie = undefined;
-            if(option) { _fun00006_ip = 300; continue _fun00005 }
- 283:
+            if(option) { _fun00006_ip = 294; continue _fun00005 }
+ 279:
             option = romeon.map;
             report = function(argFoo) {
                 report = _closure1_slot10;
@@ -385,7 +383,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             golfie = option.bind(romeon)(report);
- 300:
+ 294:
             report = new Array(2);
             report[0] = golfie;
             option = _closure1_slot5;
@@ -396,10 +394,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = golfie.bind(tangon)(oscard);
             oscard = {};
             verify = verify != offset;
-            if(!verify) { _fun00006_ip = 345; continue _fun00005 }
- 341:
+            if(!verify) { _fun00006_ip = 339; continue _fun00005 }
+ 335:
             verify = yankee !== offset;
- 345:
+ 339:
             oscard['gesturing'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
             report[1] = oscard;

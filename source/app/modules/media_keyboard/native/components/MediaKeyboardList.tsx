@@ -90,12 +90,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = option.NativePermissionStatus;
     var _closure1_slot16 = option;
     option = 10;
-    offset = oscard[option];
-    offset = report.bind(entity)(offset);
-    offset = offset.jsx;
-    var _closure1_slot17 = offset;
     option = oscard[option];
     option = report.bind(entity)(option);
+    offset = option.jsx;
+    var _closure1_slot17 = offset;
     option = option.jsxs;
     var _closure1_slot18 = option;
     output = tangon.PhotoLibraryHelper;

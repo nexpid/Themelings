@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report[entity];
             golfie = backup.bind(tangon)(zuuluu);
             zuuluu = golfie.useAnimatedStyle;
-            michal = function() { // Original name: T
+            michal = function() { // Original name: S
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     report = {};
@@ -213,12 +213,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     romeon = tangon.Fonts;
     tangon = 4;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot6 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot6 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot7 = tangon;
     tangon = 5;

@@ -417,12 +417,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = oscard.bind(entity)(michal);
     sizing = michal.Fonts;
     michal = 5;
-    option = golfie[michal];
-    option = oscard.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot8 = option;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
+    option = michal.jsx;
+    var _closure1_slot8 = option;
     michal = michal.jsxs;
     var _closure1_slot9 = michal;
     michal = 6;

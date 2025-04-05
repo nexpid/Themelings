@@ -1018,10 +1018,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     romeon = 10;
     oscard = option[romeon];
     oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.jsx;
-    var _closure1_slot18 = oscard;
-    oscard = option[romeon];
-    oscard = golfie.bind(entity)(oscard);
+    verify = oscard.jsx;
+    var _closure1_slot18 = verify;
     oscard = oscard.jsxs;
     var _closure1_slot19 = oscard;
     oscard = 11;

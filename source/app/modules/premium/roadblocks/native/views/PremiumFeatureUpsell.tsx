@@ -471,12 +471,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.Colors;
     var _closure1_slot11 = tangon;
     tangon = 5;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot12 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot12 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot13 = tangon;
     tangon = 9;

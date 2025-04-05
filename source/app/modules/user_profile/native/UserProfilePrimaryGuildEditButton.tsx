@@ -83,24 +83,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    entity = _closure2_slot0;
-                    entity = entity.primaryGuild;
-                    michal = null;
-                    michal = michal == entity;
-                    zuuluu = undefined;
-                    if(michal) { _fun00004_ip = 30; continue _fun00003 }
- 24:
-                    zuuluu = entity.identityGuildId;
- 30:
-                    michal = _closure1_slot3;
-                    entity = michal.getGuild;
-                    entity = entity.bind(michal)(zuuluu);
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
+                    entity = 8;
+                    zuuluu = zuuluu[entity];
+                    entity = undefined;
+                    report = tangon.bind(entity)(zuuluu);
+                    tangon = report.getUserPrimaryGuild;
+                    zuuluu = _closure2_slot0;
+                    zuuluu = zuuluu.primaryGuild;
+                    tangon = tangon.bind(report)(zuuluu);
+                    zuuluu = _closure1_slot3;
+                    michal = zuuluu.getGuild;
+                    report = null;
+                    report = report == tangon;
+                    if(report) { _fun00004_ip = 72; continue _fun00003 }
+ 67:
+                    entity = tangon.guildId;
+ 72:
+                    entity = michal.bind(zuuluu)(entity);
                     return entity;
                 }
             };
             output = verify.bind(offset)(option, entity);
             var _closure2_slot1 = output;
-            entity = 8;
+            entity = 9;
             entity = tangon[entity];
             zuuluu = zuuluu.bind(report)(entity);
             entity = zuuluu.useUserAvailableGuildsWithTags;
@@ -112,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = function(argFoo) { // Original name: handleSelectPrimaryGuild
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
-                entity = 9;
+                entity = 10;
                 zuuluu = zuuluu[entity];
                 entity = undefined;
                 oscard = tangon.bind(entity)(zuuluu);
@@ -141,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  177:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
-            michal = 10;
+            michal = 8;
             michal = tangon[michal];
             offset = zuuluu.bind(report)(michal);
             option = offset.getClanBadgeUrl;

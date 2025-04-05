@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = golfie.bind(verify)(oscard, zuuluu);
             verify = _closure1_slot3;
             oscard = verify.useCallback;
-            zuuluu = function(argFoo) { // Original name: _
+            zuuluu = function(argFoo) { // Original name: h
                 zuuluu = argFoo;
                 entity = {};
                 michal = {};
@@ -381,12 +381,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     romeon = tangon.WRAPPER_SIZE;
     var _closure1_slot8 = romeon;
     tangon = 4;
-    oscard = option[tangon];
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.jsx;
-    var _closure1_slot9 = oscard;
     tangon = option[tangon];
     tangon = golfie.bind(entity)(tangon);
+    oscard = tangon.jsx;
+    var _closure1_slot9 = oscard;
     tangon = tangon.jsxs;
     var _closure1_slot10 = tangon;
     tangon = {'mass': 0.8, 'damping': 100, 'stiffness': 150};

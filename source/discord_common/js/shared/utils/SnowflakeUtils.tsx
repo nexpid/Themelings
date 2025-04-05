@@ -20,34 +20,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = michal + entity;
         return entity;
     };
-    var _closure1_slot6 = oscard;
+    var _closure1_slot5 = oscard;
     report = function(argFoo) { // Original name: fromTimestamp
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zuuluu = _closure1_slot4;
             entity = argFoo;
-            report = entity - zuuluu;
+            tangon = entity - zuuluu;
             entity = '0';
             zuuluu = 0;
-            if(!(!(report <= zuuluu))) { _fun00002_ip = 77; continue _fun00001 }
+            if(!(!(tangon <= zuuluu))) { _fun00002_ip = 76; continue _fun00001 }
  26:
-            oscard = _closure1_slot0;
-            tangon = _closure1_slot1;
-            zuuluu = 2;
-            zuuluu = tangon[zuuluu];
-            tangon = undefined;
-            zuuluu = oscard.bind(tangon)(zuuluu);
-            tangon = zuuluu.bind(tangon)(report);
+            report = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 2;
+            michal = zuuluu[michal];
+            zuuluu = undefined;
+            michal = report.bind(zuuluu)(michal);
+            tangon = michal.bind(zuuluu)(tangon);
             zuuluu = tangon.shiftLeft;
-            michal = _closure1_slot5;
+            michal = 22;
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = zuuluu.toString;
             entity = michal.bind(zuuluu)();
- 77:
+ 76:
             return entity;
         }
     };
-    var _closure1_slot7 = report;
+    var _closure1_slot6 = report;
     entity = global;
     offset = entity.Object;
     option = offset.defineProperty;
@@ -67,8 +67,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot3 = michal;
     golfie = 1420070400000.0;
     var _closure1_slot4 = golfie;
-    michal = 22;
-    var _closure1_slot5 = michal;
     michal = function() {
         tangon = _closure1_slot3;
         zuuluu = function() { // Original name: SnowflakeSequence
@@ -152,21 +150,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = argBar;
             zuuluu = _closure1_slot4;
             michal = argFoo;
-            oscard = michal - zuuluu;
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot1;
-            michal = 2;
-            michal = report[michal];
-            report = undefined;
-            zuuluu = zuuluu.bind(report)(michal);
-            michal = 0;
-            if(!(!(oscard <= michal))) { _fun00006_ip = 48; continue _fun00005 }
+            report = michal - zuuluu;
+            michal = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            entity = 2;
+            entity = zuuluu[entity];
+            zuuluu = undefined;
+            michal = michal.bind(zuuluu)(entity);
+            entity = 0;
+            if(!(!(report <= entity))) { _fun00006_ip = 48; continue _fun00005 }
  45:
-            michal = oscard;
+            entity = report;
  48:
-            zuuluu = zuuluu.bind(report)(michal);
+            zuuluu = michal.bind(zuuluu)(entity);
             michal = zuuluu.shiftLeft;
-            entity = _closure1_slot5;
+            entity = 22;
             zuuluu = michal.bind(zuuluu)(entity);
             michal = zuuluu.add;
             entity = tangon.next;
@@ -179,8 +177,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['fromTimestampWithSequence'] = report;
     report = function(argFoo) { // Original name: atPreviousMillisecond
-        zuuluu = _closure1_slot7;
-        tangon = _closure1_slot6;
+        zuuluu = _closure1_slot6;
+        tangon = _closure1_slot5;
         michal = undefined;
         entity = argFoo;
         tangon = tangon.bind(michal)(entity);
@@ -195,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = entity.Date;
         entity = michal.now;
         michal = entity.bind(michal)();
-        tangon = _closure1_slot6;
+        tangon = _closure1_slot5;
         zuuluu = undefined;
         entity = argFoo;
         entity = tangon.bind(zuuluu)(entity);
@@ -270,7 +268,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = false;
             return entity;
  46: // try_start_0
-            tangon = _closure1_slot6;
+            tangon = _closure1_slot5;
             zuuluu = michal;
             michal = undefined;
             michal = tangon.bind(michal)(zuuluu);

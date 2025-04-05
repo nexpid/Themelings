@@ -29,12 +29,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         var _closure1_slot3 = option;
         option = golfie.StyleSheet;
         golfie = 2;
-        verify = oscard[golfie];
-        verify = report.bind(entity)(verify);
-        verify = verify.jsx;
-        var _closure1_slot4 = verify;
         golfie = oscard[golfie];
         golfie = report.bind(entity)(golfie);
+        verify = golfie.jsx;
+        var _closure1_slot4 = verify;
         golfie = golfie.jsxs;
         var _closure1_slot5 = golfie;
         golfie = 3;
@@ -43,10 +41,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = verify.isAndroid;
         golfie = golfie.bind(verify)();
         offset = 16;
-        if(!golfie) { _fun00002_ip = 169; continue _fun00001 }
- 167:
+        if(!golfie) { _fun00002_ip = 160; continue _fun00001 }
+ 158:
         offset = 0;
- 169:
+ 160:
         golfie = option.create;
         tangon = {};
         verify = {'flexDirection': 'row', 'alignItems': 'center'};

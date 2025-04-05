@@ -55,12 +55,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.NUM_FREE_GUILD_BOOSTS_WITH_PREMIUM;
     var _closure1_slot13 = tangon;
     tangon = 6;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot14 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot14 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot15 = tangon;
     golfie = {};

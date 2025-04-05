@@ -48,12 +48,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = yankee.bind(entity)(michal);
     var _closure1_slot9 = michal;
     michal = 7;
-    report = golfie[michal];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot10 = report;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
+    report = michal.jsx;
+    var _closure1_slot10 = report;
     michal = michal.jsxs;
     var _closure1_slot11 = michal;
     michal = 8;

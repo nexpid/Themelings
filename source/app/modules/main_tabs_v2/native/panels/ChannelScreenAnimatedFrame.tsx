@@ -36,12 +36,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.ThemeTypes;
     var _closure1_slot4 = tangon;
     tangon = 4;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot5 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot5 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot6 = tangon;
     tangon = 5;
@@ -106,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = report[entity];
             offset = option.bind(tangon)(golfie);
             golfie = offset.useAnimatedStyle;
-            zuuluu = function() { // Original name: D
+            zuuluu = function() { // Original name: S
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zuuluu = _closure2_slot0;

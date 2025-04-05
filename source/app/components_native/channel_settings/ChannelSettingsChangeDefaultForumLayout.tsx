@@ -283,12 +283,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = romeon.bind(entity)(report);
     var _closure1_slot6 = report;
     report = 4;
-    option = golfie[report];
-    option = oscard.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot7 = option;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    option = report.jsx;
+    var _closure1_slot7 = option;
     report = report.jsxs;
     var _closure1_slot8 = report;
     report = 5;

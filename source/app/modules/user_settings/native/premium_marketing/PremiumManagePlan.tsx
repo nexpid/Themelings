@@ -1450,12 +1450,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = michal.SubscriptionPlanInfo;
     var _closure1_slot19 = michal;
     michal = 11;
-    report = golfie[michal];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot20 = report;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
+    report = michal.jsx;
+    var _closure1_slot20 = report;
     michal = michal.jsxs;
     var _closure1_slot21 = michal;
     report = 12;

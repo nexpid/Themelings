@@ -392,12 +392,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset = offset.UnreadSetting;
     var _closure1_slot12 = offset;
     offset = 9;
-    yankee = golfie[offset];
-    yankee = oscard.bind(entity)(yankee);
-    yankee = yankee.jsx;
-    var _closure1_slot13 = yankee;
     offset = golfie[offset];
     offset = oscard.bind(entity)(offset);
+    yankee = offset.jsx;
+    var _closure1_slot13 = yankee;
     offset = offset.jsxs;
     var _closure1_slot14 = offset;
     offset = report.Set;

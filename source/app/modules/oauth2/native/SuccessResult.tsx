@@ -60,16 +60,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.KeyboardTypes;
     var _closure1_slot13 = tangon;
     tangon = 8;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot14 = golfie;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsxs;
-    var _closure1_slot15 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot14 = golfie;
+    golfie = tangon.jsxs;
+    var _closure1_slot15 = golfie;
     tangon = tangon.Fragment;
     var _closure1_slot16 = tangon;
     tangon = 9;
@@ -703,10 +699,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['size'] = update;
             echoed = result != echoed;
             result = undefined;
-            if(!echoed) { _fun00002_ip = 1135; continue _fun00001 }
+            if(!echoed) { _fun00002_ip = 1133; continue _fun00001 }
  1129:
             result = 'tertiary';
- 1135:
+ 1133:
             foxtra['variant'] = result;
             update = _closure1_slot0;
             output = _closure1_slot2;

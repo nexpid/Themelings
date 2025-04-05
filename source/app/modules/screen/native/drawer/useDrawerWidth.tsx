@@ -11,24 +11,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argBar;
-            if(entity) { _fun00002_ip = 45; continue _fun00001 }
+            if(entity) { _fun00002_ip = 44; continue _fun00001 }
  9:
             entity = global;
             report = entity.Math;
             tangon = report.min;
             zuuluu = _closure1_slot4;
-            oscard = _closure1_slot5;
-            entity = argFoo;
-            entity = entity - oscard;
+            oscard = argFoo;
+            entity = 32;
+            entity = oscard - entity;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 49; continue _fun00001;
- 45:
+            _fun00002_ip = 48; continue _fun00001;
+ 44:
             entity = _closure1_slot3;
- 49:
+ 48:
             return entity;
         }
     };
-    var _closure1_slot6 = entity;
+    var _closure1_slot5 = entity;
     entity = global;
     option = entity.Object;
     report = option.defineProperty;
@@ -48,8 +48,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = 300;
     report = report + option;
     var _closure1_slot4 = report;
-    report = 32;
-    var _closure1_slot5 = report;
     report = 3;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
@@ -79,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = tangon;
             if(!oscard) { _fun00004_ip = 90; continue _fun00003 }
  80:
-            michal = _closure1_slot6;
+            michal = _closure1_slot5;
             entity = michal.bind(report)(tangon, zuuluu);
  90:
             return entity;
@@ -106,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = tangon;
             if(!oscard) { _fun00006_ip = 78; continue _fun00005 }
  68:
-            michal = _closure1_slot6;
+            michal = _closure1_slot5;
             entity = michal.bind(report)(tangon, zuuluu);
  78:
             return entity;

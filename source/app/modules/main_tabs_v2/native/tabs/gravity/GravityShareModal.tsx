@@ -755,12 +755,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = report.AbortCodes;
     var _closure1_slot14 = report;
     report = 12;
-    option = golfie[report];
-    option = oscard.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot15 = option;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    option = report.jsx;
+    var _closure1_slot15 = option;
     report = report.jsxs;
     var _closure1_slot16 = report;
     report = 13;

@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = undefined;
         offset = michal.bind(tangon)(oscard);
         oscard = offset.useAnimatedStyle;
-        zuuluu = function() { // Original name: T
+        zuuluu = function() { // Original name: B
             entity = {};
             option = _closure1_slot0;
             verify = _closure1_slot2;
@@ -55,9 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.get;
             offset = zuuluu.bind(report)();
             zuuluu = _closure1_slot5;
-            report = new Array(2);
-            report[0] = zuuluu;
-            zuuluu = _closure1_slot6;
+            report = [20];
             report[1] = zuuluu;
             zuuluu = [0, 1];
             report = yankee.bind(romeon)(offset, zuuluu, report);
@@ -68,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = 'animate-always';
             zuuluu = oscard.bind(golfie)(report, tangon, zuuluu);
             entity['paddingHorizontal'] = zuuluu;
-            michal = _closure1_slot6;
+            michal = _closure1_slot5;
             entity['paddingVertical'] = michal;
             return entity;
         };
@@ -88,9 +86,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         romeon = romeon.interpolate;
         yankee['interpolate'] = romeon;
         yankee['collapseText'] = option;
-        romeon = _closure1_slot5;
+        romeon = 20;
         yankee['FAB_PADDING_HORIZONTAL'] = romeon;
-        romeon = _closure1_slot6;
+        romeon = _closure1_slot5;
         yankee['FAB_PADDING_VERTICAL'] = romeon;
         romeon = 6;
         romeon = verify[romeon];
@@ -100,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu['__closure'] = yankee;
         yankee = 5958377845220.0;
         zuuluu['__workletHash'] = yankee;
-        yankee = _closure1_slot8;
+        yankee = _closure1_slot7;
         zuuluu['__initData'] = yankee;
         oscard = oscard.bind(offset)(zuuluu);
         zuuluu = _closure1_slot4;
@@ -129,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot8 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -149,8 +147,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
     var _closure1_slot4 = tangon;
-    yankee = 20;
-    var _closure1_slot5 = yankee;
     tangon = 2;
     golfie = oscard[tangon];
     verify = report.bind(entity)(golfie);
@@ -162,22 +158,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.FAB_BUTTON_ICON_SIZE;
     offset = option.bind(verify)(golfie, tangon);
-    var _closure1_slot6 = offset;
+    var _closure1_slot5 = offset;
     tangon = 3;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
     verify = {};
+    yankee = 20;
     verify['paddingHorizontal'] = yankee;
     verify['paddingVertical'] = offset;
     tangon['textButtonPill'] = verify;
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot7 = tangon;
+    var _closure1_slot6 = tangon;
     tangon = {};
     golfie = "function CollapsibleFloatingActionButtonNativeTsx1(){const{FAB_BUTTON_SIZE,withSpring,interpolate,collapseText,FAB_PADDING_HORIZONTAL,FAB_PADDING_VERTICAL,SUBTLE_SPRING}=this.__closure;return{minWidth:FAB_BUTTON_SIZE,minHeight:FAB_BUTTON_SIZE,paddingHorizontal:withSpring(interpolate(collapseText.get(),[0,1],[FAB_PADDING_HORIZONTAL,FAB_PADDING_VERTICAL]),SUBTLE_SPRING,'animate-always'),paddingVertical:FAB_PADDING_VERTICAL};}";
     tangon['code'] = golfie;
-    var _closure1_slot8 = tangon;
+    var _closure1_slot7 = tangon;
     tangon = 10;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -201,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = tangon;
             result = zuuluu;
             oscard = copyDataProperties(update, echoed, result);
-            zuuluu = _closure1_slot7;
+            zuuluu = _closure1_slot6;
             report = undefined;
             yankee = zuuluu.bind(report)();
             tangon = _closure1_slot0;
@@ -277,7 +274,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _fun00002_ip = 414; continue _fun00001;
  352:
             tangon = _closure1_slot4;
-            zuuluu = _closure1_slot9;
+            zuuluu = _closure1_slot8;
             michal = {};
             update = michal;
             echoed = oscard;

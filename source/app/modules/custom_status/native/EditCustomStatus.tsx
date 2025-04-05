@@ -51,12 +51,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.EmojiIntention;
     var _closure1_slot10 = tangon;
     tangon = 6;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot11 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot11 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot12 = tangon;
     tangon = 7;

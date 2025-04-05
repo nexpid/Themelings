@@ -16,40 +16,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = michal.now;
             option = entity.bind(michal)();
             entity = report.initialized;
-            if(!(!(option < entity))) { _fun00002_ip = 161; continue _fun00001 }
+            if(!(!(option < entity))) { _fun00002_ip = 160; continue _fun00001 }
  33:
             entity = report.lastUsed;
             zuuluu = option - entity;
-            michal = _closure1_slot0;
-            offset = _closure1_slot2;
-            entity = 2;
-            entity = offset[entity];
-            verify = undefined;
-            entity = michal.bind(verify)(entity);
-            yankee = entity.SESSION_IDLE_TIMEOUT_MINS;
-            golfie = _closure1_slot1;
+            oscard = _closure1_slot0;
+            verify = _closure1_slot2;
+            michal = 2;
+            michal = verify[michal];
+            golfie = undefined;
+            michal = oscard.bind(golfie)(michal);
+            offset = michal.SESSION_IDLE_TIMEOUT_MINS;
+            oscard = _closure1_slot1;
             michal = 3;
-            entity = offset[michal];
-            entity = golfie.bind(verify)(entity);
+            entity = verify[michal];
+            entity = oscard.bind(golfie)(entity);
             entity = entity.Millis;
             entity = entity.MINUTE;
-            entity = yankee * entity;
+            entity = offset * entity;
             entity = zuuluu > entity;
             zuuluu = report.initialized;
             zuuluu = option - zuuluu;
-            oscard = _closure1_slot3;
-            michal = offset[michal];
-            michal = golfie.bind(verify)(michal);
+            michal = verify[michal];
+            michal = oscard.bind(golfie)(michal);
             michal = michal.Millis;
-            michal = michal.HOUR;
-            michal = oscard * michal;
+            oscard = michal.HOUR;
+            michal = 12;
+            michal = michal * oscard;
             michal = zuuluu > michal;
-            if(entity) { _fun00002_ip = 159; continue _fun00001 }
- 156:
+            if(entity) { _fun00002_ip = 158; continue _fun00001 }
+ 155:
             entity = michal;
- 159:
+ 158:
             return entity;
- 161:
+ 160:
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
             entity = 1;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot5 = michal;
+    var _closure1_slot4 = michal;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -81,10 +81,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie['value'] = entity;
     entity = '__esModule';
     entity = option.bind(verify)(zuuluu, entity, golfie);
-    entity = 12;
-    var _closure1_slot3 = entity;
     entity = null;
-    var _closure1_slot4 = entity;
+    var _closure1_slot3 = entity;
     entity = 4;
     report = report[entity];
     entity = undefined;
@@ -105,21 +103,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = michal.Date;
             michal = zuuluu.now;
             tangon = michal.bind(zuuluu)();
-            report = _closure1_slot4;
+            report = _closure1_slot3;
             michal = null;
             if(!(michal != report)) { _fun00004_ip = 76; continue _fun00003 }
  41:
-            report = _closure1_slot5;
-            michal = _closure1_slot4;
+            report = _closure1_slot4;
+            michal = _closure1_slot3;
             michal = report.bind(golfie)(michal);
             if(michal) { _fun00004_ip = 76; continue _fun00003 }
  57:
             if(!entity) { _fun00004_ip = 70; continue _fun00003 }
  60:
-            entity = _closure1_slot4;
+            entity = _closure1_slot3;
             entity['lastUsed'] = tangon;
  70:
-            entity = _closure1_slot4;
+            entity = _closure1_slot3;
             _fun00004_ip = 129; continue _fun00003;
  76:
             michal = {};
@@ -133,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['uuid'] = report;
             michal['initialized'] = tangon;
             michal['lastUsed'] = tangon;
-            _closure1_slot4 = michal;
+            _closure1_slot3 = michal;
             entity = michal;
  129:
             return entity;
@@ -142,13 +140,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['getOrRefreshAdSession'] = report;
     report = function() { // Original name: clearAdSession
         entity = null;
-        _closure1_slot4 = entity;
+        _closure1_slot3 = entity;
         entity = undefined;
         return entity;
     };
     zuuluu['clearAdSession'] = report;
     tangon = function() { // Original name: getCurrentAdSession
-        entity = _closure1_slot4;
+        entity = _closure1_slot3;
         return entity;
     };
     zuuluu['getCurrentAdSession'] = tangon;

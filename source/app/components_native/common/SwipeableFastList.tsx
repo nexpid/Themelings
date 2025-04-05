@@ -6,43 +6,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = argPlu;
     var _closure1_slot0 = tangon;
     var _closure1_slot1 = oscard;
-    entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            tangon = argFoo;
-            oscard = argBaz;
-            michal = _closure1_slot5;
-            zuuluu = undefined;
-            entity = argBar;
-            verify = michal.bind(zuuluu)(entity);
-            michal = _closure1_slot4;
-            entity = _closure1_slot9;
-            entity = entity.bind(zuuluu)();
-            if(entity) { _fun00002_ip = 51; continue _fun00001 }
- 38:
-            entity = verify.apply;
-            entity = entity.bind(verify)(tangon, oscard);
-            _fun00002_ip = 92; continue _fun00001;
- 51:
-            golfie = global;
-            option = golfie.Reflect;
-            golfie = option.construct;
-            if(oscard) { _fun00002_ip = 71; continue _fun00001 }
- 67:
-            oscard = new Array(0);
- 71:
-            report = _closure1_slot5;
-            report = report.bind(zuuluu)(tangon);
-            report = report.constructor;
-            entity = golfie.bind(option)(verify, oscard, report);
- 92:
-            entity = michal.bind(zuuluu)(tangon, entity);
-            return entity;
-        }
-    };
-    var _closure1_slot8 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
  2: // try_start_0
             michal = global;
@@ -63,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = !michal;
             var _closure2_slot0 = michal;
  72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
+            _fun00002_ip = 76; continue _fun00001;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -73,13 +38,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot9 = michal;
+            _closure1_slot8 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot8 = entity;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -121,157 +86,178 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = michal.Component;
     michal = function(argFoo) {
         tangon = function(argFoo) { // Original name: SwipeableFastList
-            oscard = this;
-            yankee = 0;
-            golfie = copyRestArgs(yankee);
-            zuuluu = _closure1_slot2;
-            report = _closure2_slot0;
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(oscard, report);
-            zuuluu = _closure1_slot8;
-            entity = new Array(0);
-            yankee = entity;
-            offset = golfie;
-            verify = 0;
-            golfie = arraySpread(yankee, offset, verify);
-            entity = zuuluu.bind(tangon)(oscard, report, entity);
-            var _closure3_slot0 = entity;
-            zuuluu = entity.props;
-            zuuluu = zuuluu.bounceFirstRowOnMount;
-            entity['_shouldBounceFirstRowOnMount'] = zuuluu;
-            zuuluu = null;
-            entity['_openRowKey'] = zuuluu;
-            tangon = {};
-            entity['_refs'] = tangon;
-            entity['_bounceTimeout'] = zuuluu;
-            zuuluu = function(argFoo, argBar, argBaz) {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    option = argFoo;
-                    golfie = argBar;
-                    var _closure4_slot0 = option;
-                    var _closure4_slot1 = golfie;
-                    zuuluu = _closure3_slot0;
-                    michal = zuuluu.props;
-                    tangon = michal.renderQuickActions;
-                    var _closure4_slot2 = tangon;
-                    oscard = michal.renderItem;
-                    michal = global;
-                    michal = michal.HermesInternal;
-                    verify = michal.concat;
-                    tangon = '';
-                    michal = ':';
-                    michal = verify.bind(tangon)(option, michal, golfie);
-                    var _closure4_slot3 = michal;
-                    michal = false;
-                    var _closure4_slot4 = michal;
-                    zuuluu = zuuluu._shouldBounceFirstRowOnMount;
-                    if(!zuuluu) { _fun00006_ip = 107; continue _fun00005 }
+                report = this;
+                foxtra = 0;
+                entity = copyRestArgs(foxtra);
+                option = _closure1_slot2;
+                zuuluu = _closure2_slot0;
+                tangon = undefined;
+                option = option.bind(tangon)(report, zuuluu);
+                offset = new Array(0);
+                foxtra = offset;
+                romeon = entity;
+                yankee = 0;
+                entity = arraySpread(foxtra, romeon, yankee);
+                entity = _closure1_slot5;
+                verify = entity.bind(tangon)(zuuluu);
+                zuuluu = _closure1_slot4;
+                entity = _closure1_slot8;
+                entity = entity.bind(tangon)();
+                if(entity) { _fun00004_ip = 86; continue _fun00003 }
+ 73:
+                entity = verify.apply;
+                entity = entity.bind(verify)(report, offset);
+                _fun00004_ip = 120; continue _fun00003;
+ 86:
+                golfie = global;
+                option = golfie.Reflect;
+                golfie = option.construct;
+                oscard = _closure1_slot5;
+                oscard = oscard.bind(tangon)(report);
+                oscard = oscard.constructor;
+                entity = golfie.bind(option)(verify, offset, oscard);
+ 120:
+                entity = zuuluu.bind(tangon)(report, entity);
+                var _closure3_slot0 = entity;
+                zuuluu = entity.props;
+                zuuluu = zuuluu.bounceFirstRowOnMount;
+                entity['_shouldBounceFirstRowOnMount'] = zuuluu;
+                zuuluu = null;
+                entity['_openRowKey'] = zuuluu;
+                tangon = {};
+                entity['_refs'] = tangon;
+                entity['_bounceTimeout'] = zuuluu;
+                zuuluu = function(argFoo, argBar, argBaz) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+                        option = argFoo;
+                        golfie = argBar;
+                        var _closure4_slot0 = option;
+                        var _closure4_slot1 = golfie;
+                        zuuluu = _closure3_slot0;
+                        michal = zuuluu.props;
+                        tangon = michal.renderQuickActions;
+                        var _closure4_slot2 = tangon;
+                        oscard = michal.renderItem;
+                        michal = global;
+                        michal = michal.HermesInternal;
+                        verify = michal.concat;
+                        tangon = '';
+                        michal = ':';
+                        michal = verify.bind(tangon)(option, michal, golfie);
+                        var _closure4_slot3 = michal;
+                        michal = false;
+                        var _closure4_slot4 = michal;
+                        zuuluu = zuuluu._shouldBounceFirstRowOnMount;
+                        if(!zuuluu) { _fun00006_ip = 107; continue _fun00005 }
  91:
-                    entity = _closure3_slot0;
-                    entity['_shouldBounceFirstRowOnMount'] = michal;
-                    entity = true;
-                    _closure4_slot4 = entity;
+                        entity = _closure3_slot0;
+                        entity['_shouldBounceFirstRowOnMount'] = michal;
+                        entity = true;
+                        _closure4_slot4 = entity;
  107:
-                    tangon = _closure1_slot7;
-                    michal = _closure1_slot0;
-                    zuuluu = _closure1_slot1;
-                    entity = 7;
-                    entity = zuuluu[entity];
-                    zuuluu = undefined;
-                    michal = michal.bind(zuuluu)(entity);
-                    entity = {};
-                    verify = function() { // Original name: renderRightActions
-                        tangon = _closure4_slot2;
-                        zuuluu = _closure4_slot0;
-                        michal = _closure4_slot1;
-                        entity = undefined;
-                        entity = tangon.bind(entity)(zuuluu, michal);
-                        return entity;
-                    };
-                    entity['renderRightActions'] = verify;
-                    verify = function(argFoo) { // Original name: ref
-                        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
- 0:
-                            report = argFoo;
-                            michal = _closure3_slot0;
-                            zuuluu = michal._refs;
-                            michal = _closure4_slot3;
-                            zuuluu[michal] = report;
-                            zuuluu = null;
-                            michal = zuuluu != report;
-                            if(!michal) { _fun00008_ip = 40; continue _fun00007 }
- 36:
-                            michal = _closure4_slot4;
- 40:
-                            if(!michal) { _fun00008_ip = 94; continue _fun00007 }
- 43:
-                            michal = _closure3_slot0;
-                            tangon = michal.bounceSwipeable;
-                            tangon = tangon.bind(michal)(report);
-                            michal = michal.props;
-                            michal = michal.onBounceSwipable;
-                            if(!(zuuluu != michal)) { _fun00008_ip = 94; continue _fun00007 }
- 75:
-                            entity = _closure3_slot0;
-                            michal = entity.props;
-                            entity = michal.onBounceSwipable;
-                            entity = entity.bind(michal)();
- 94:
+                        tangon = _closure1_slot7;
+                        michal = _closure1_slot0;
+                        zuuluu = _closure1_slot1;
+                        entity = 7;
+                        entity = zuuluu[entity];
+                        zuuluu = undefined;
+                        michal = michal.bind(zuuluu)(entity);
+                        entity = {};
+                        verify = function() { // Original name: renderRightActions
+                            tangon = _closure4_slot2;
+                            zuuluu = _closure4_slot0;
+                            michal = _closure4_slot1;
                             entity = undefined;
+                            entity = tangon.bind(entity)(zuuluu, michal);
                             return entity;
-                        }
-                    };
-                    entity['ref'] = verify;
-                    verify = 8;
-                    entity['overshootFriction'] = verify;
-                    verify = function() { // Original name: onSwipeableWillOpen
-                        zuuluu = _closure3_slot0;
-                        michal = zuuluu.handleOpen;
-                        entity = _closure4_slot3;
-                        entity = michal.bind(zuuluu)(entity);
-                        return entity;
-                    };
-                    entity['onSwipeableWillOpen'] = verify;
-                    report = function() { // Original name: onSwipeableClose
-                        zuuluu = _closure3_slot0;
-                        michal = zuuluu.handleClose;
-                        entity = _closure4_slot3;
-                        entity = michal.bind(zuuluu)(entity);
-                        return entity;
-                    };
-                    entity['onSwipeableClose'] = report;
-                    report = true;
-                    entity['useNativeAnimations'] = report;
-                    report = argBaz;
-                    report = oscard.bind(zuuluu)(option, golfie, report);
-                    entity['children'] = report;
-                    entity = tangon.bind(zuuluu)(michal, entity);
-                    return entity;
-                }
-            };
-            entity['renderRow'] = zuuluu;
-            michal = function(argFoo) {
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+                        };
+                        entity['renderRightActions'] = verify;
+                        verify = function(argFoo) { // Original name: ref
+                            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                    entity = _closure3_slot0;
-                    michal = entity.closeOpenRow;
-                    michal = michal.bind(entity)();
-                    entity = entity.props;
-                    zuuluu = entity.onScroll;
-                    entity = null;
-                    if(!(entity != zuuluu)) { _fun00010_ip = 44; continue _fun00009 }
+                                report = argFoo;
+                                michal = _closure3_slot0;
+                                zuuluu = michal._refs;
+                                michal = _closure4_slot3;
+                                zuuluu[michal] = report;
+                                zuuluu = null;
+                                michal = zuuluu != report;
+                                if(!michal) { _fun00008_ip = 40; continue _fun00007 }
+ 36:
+                                michal = _closure4_slot4;
+ 40:
+                                if(!michal) { _fun00008_ip = 94; continue _fun00007 }
+ 43:
+                                michal = _closure3_slot0;
+                                tangon = michal.bounceSwipeable;
+                                tangon = tangon.bind(michal)(report);
+                                michal = michal.props;
+                                michal = michal.onBounceSwipable;
+                                if(!(zuuluu != michal)) { _fun00008_ip = 94; continue _fun00007 }
+ 75:
+                                entity = _closure3_slot0;
+                                michal = entity.props;
+                                entity = michal.onBounceSwipable;
+                                entity = entity.bind(michal)();
+ 94:
+                                entity = undefined;
+                                return entity;
+                            }
+                        };
+                        entity['ref'] = verify;
+                        verify = 8;
+                        entity['overshootFriction'] = verify;
+                        verify = function() { // Original name: onSwipeableWillOpen
+                            zuuluu = _closure3_slot0;
+                            michal = zuuluu.handleOpen;
+                            entity = _closure4_slot3;
+                            entity = michal.bind(zuuluu)(entity);
+                            return entity;
+                        };
+                        entity['onSwipeableWillOpen'] = verify;
+                        report = function() { // Original name: onSwipeableClose
+                            zuuluu = _closure3_slot0;
+                            michal = zuuluu.handleClose;
+                            entity = _closure4_slot3;
+                            entity = michal.bind(zuuluu)(entity);
+                            return entity;
+                        };
+                        entity['onSwipeableClose'] = report;
+                        report = true;
+                        entity['useNativeAnimations'] = report;
+                        report = argBaz;
+                        report = oscard.bind(zuuluu)(option, golfie, report);
+                        entity['children'] = report;
+                        entity = tangon.bind(zuuluu)(michal, entity);
+                        return entity;
+                    }
+                };
+                entity['renderRow'] = zuuluu;
+                michal = function(argFoo) {
+                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+ 0:
+                        entity = _closure3_slot0;
+                        michal = entity.closeOpenRow;
+                        michal = michal.bind(entity)();
+                        entity = entity.props;
+                        zuuluu = entity.onScroll;
+                        entity = null;
+                        if(!(entity != zuuluu)) { _fun00010_ip = 44; continue _fun00009 }
  34:
-                    michal = undefined;
-                    entity = argFoo;
-                    entity = zuuluu.bind(michal)(entity);
+                        michal = undefined;
+                        entity = argFoo;
+                        entity = zuuluu.bind(michal)(entity);
  44:
-                    entity = undefined;
-                    return entity;
-                }
-            };
-            entity['handleScroll'] = michal;
-            return entity;
+                        entity = undefined;
+                        return entity;
+                    }
+                };
+                entity['handleScroll'] = michal;
+                return entity;
+            }
         };
         var _closure2_slot0 = tangon;
         report = _closure1_slot6;

@@ -986,10 +986,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     foxtra = 5;
     verify = oscard[foxtra];
     verify = report.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot8 = verify;
-    verify = oscard[foxtra];
-    verify = report.bind(entity)(verify);
+    offset = verify.jsx;
+    var _closure1_slot8 = offset;
     verify = verify.jsxs;
     var _closure1_slot9 = verify;
     tangon = tangon.RNIapIosSk2;

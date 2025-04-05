@@ -29,12 +29,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     romeon = tangon.StyleSheet;
     var _closure1_slot5 = romeon;
     tangon = 2;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot6 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot6 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot7 = tangon;
     tangon = 3;
@@ -645,7 +643,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['border'] = option;
             result = null;
             verify = result != update;
-            if(!verify) { _fun00006_ip = 487; continue _fun00005 }
+            if(!verify) { _fun00006_ip = 483; continue _fun00005 }
  253:
             yankee = _closure1_slot7;
             offset = _closure1_slot4;
@@ -696,7 +694,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon[1] = foxtra;
             option['children'] = romeon;
             verify = yankee.bind(tangon)(offset, option);
- 487:
+ 483:
             option = new Array(3);
             option[0] = verify;
             romeon = _closure1_slot7;

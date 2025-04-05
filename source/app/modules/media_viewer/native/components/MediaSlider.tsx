@@ -34,12 +34,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         var _closure1_slot5 = golfie;
         option = tangon.StyleSheet;
         tangon = 3;
-        golfie = oscard[tangon];
-        golfie = report.bind(entity)(golfie);
-        golfie = golfie.jsx;
-        var _closure1_slot6 = golfie;
         tangon = oscard[tangon];
         tangon = report.bind(entity)(tangon);
+        golfie = tangon.jsx;
+        var _closure1_slot6 = golfie;
         tangon = tangon.jsxs;
         var _closure1_slot7 = tangon;
         golfie = option.create;
@@ -58,10 +56,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         foxtra = kiloes.isAndroid;
         kiloes = foxtra.bind(kiloes)();
         foxtra = undefined;
-        if(!kiloes) { _fun00002_ip = 233; continue _fun00001 }
- 230:
+        if(!kiloes) { _fun00002_ip = 224; continue _fun00001 }
+ 221:
         foxtra = backup;
- 233:
+ 224:
         verify['lineHeight'] = foxtra;
         tangon['centerText'] = verify;
         verify = {'flex': 1, 'marginHorizontal': 16, 'backgroundColor': 'transparent', 'zIndex': 0};
@@ -71,10 +69,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         foxtra = report.bind(entity)(romeon);
         romeon = foxtra.isAndroid;
         romeon = romeon.bind(foxtra)();
-        if(!romeon) { _fun00002_ip = 301; continue _fun00001 }
- 299:
+        if(!romeon) { _fun00002_ip = 292; continue _fun00001 }
+ 290:
         offset = 0;
- 301:
+ 292:
         verify['marginHorizontal'] = offset;
         tangon['sliderContainer'] = verify;
         verify = {'position': 'relative', 'flex': 1, 'marginHorizontal': 0, 'justifyContent': 'center'};

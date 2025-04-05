@@ -15,7 +15,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         update = entity.title;
         echoed = entity.subtitle;
         verify = entity.percentComplete;
-        entity = _closure1_slot8;
+        entity = _closure1_slot7;
         tangon = undefined;
         offset = entity.bind(tangon)();
         zuuluu = _closure1_slot6;
@@ -25,11 +25,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = yankee[entity];
         entity = output.bind(tangon)(entity);
         michal = entity.PressableOpacity;
-        entity = {};
-        option = 'button';
-        entity['accessibilityRole'] = option;
-        option = _closure1_slot7;
-        entity['activeOpacity'] = option;
+        entity = {'accessibilityRole': 'button', 'activeOpacity': 0.4};
         option = offset.container;
         entity['style'] = option;
         entity['onPress'] = golfie;
@@ -102,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot9 = michal;
+    var _closure1_slot8 = michal;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -127,16 +123,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = oscard.bind(entity)(report);
     romeon = report.Fonts;
     report = 3;
-    option = golfie[report];
-    option = oscard.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot5 = option;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    option = report.jsx;
+    var _closure1_slot5 = option;
     report = report.jsxs;
     var _closure1_slot6 = report;
-    report = 0.4;
-    var _closure1_slot7 = report;
     report = 4;
     report = golfie[report];
     offset = oscard.bind(entity)(report);
@@ -166,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     yankee['marginTop'] = romeon;
     option['progressBar'] = yankee;
     option = verify.bind(offset)(option);
-    var _closure1_slot8 = option;
+    var _closure1_slot7 = option;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -232,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             entity = zuuluu.bind(yankee)(entity, michal);
             zuuluu = _closure1_slot5;
-            michal = _closure1_slot9;
+            michal = _closure1_slot8;
             entity = {};
             entity['titleStyle'] = offset;
             offset = function() { // Original name: onPress

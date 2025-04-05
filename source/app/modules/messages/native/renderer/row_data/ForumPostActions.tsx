@@ -1,11 +1,11 @@
 // app/modules/messages/native/renderer/row_data/ForumPostActions.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = argBar;
-    verify = argBaz;
+    option = argBaz;
     zuuluu = argFre;
     golfie = argPlu;
     var _closure1_slot0 = oscard;
-    var _closure1_slot1 = verify;
+    var _closure1_slot1 = option;
     var _closure1_slot2 = golfie;
     entity = function(argFoo) { // Original name: getForumPostFollowIcon
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot11 = entity;
     entity = function() { // Original name: getShareIcon
         zuuluu = _closure1_slot0;
         oscard = _closure1_slot2;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    var _closure1_slot13 = entity;
+    var _closure1_slot12 = entity;
     entity = function() { // Original name: createMediaPostSharePrompt
         entity = {};
         zuuluu = _closure1_slot0;
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity['closeIcon'] = michal;
         return entity;
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot13 = entity;
     tangon = function(argFoo) { // Original name: createDefaultReaction
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -245,7 +245,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot15 = tangon;
+    var _closure1_slot14 = tangon;
     entity = function(argFoo) { // Original name: ForumPostActionsData
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -304,7 +304,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = undefined;
                     if(!michal) { _fun00008_ip = 25; continue _fun00007 }
  14:
-                    michal = _closure1_slot14;
+                    michal = _closure1_slot13;
                     entity = michal.bind(zuuluu)();
  25:
                     return entity;
@@ -312,12 +312,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             report = zuuluu.bind(report)(entity, michal);
             zuuluu = _closure1_slot9;
-            michal = _closure1_slot11;
+            michal = _closure1_slot10;
             entity = {};
-            verify = _closure1_slot10;
+            verify = 3;
             entity['numDisplayedReactions'] = verify;
             entity['isFollowing'] = oscard;
-            verify = _closure1_slot12;
+            verify = _closure1_slot11;
             verify = verify.bind(tangon)(oscard);
             entity['followIcon'] = verify;
             backup = _closure1_slot0;
@@ -330,17 +330,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify[yankee];
             verify = backup.bind(tangon)(verify);
             verify = verify.t;
-            if(oscard) { _fun00006_ip = 266; continue _fun00005 }
- 253:
+            if(oscard) { _fun00006_ip = 265; continue _fun00005 }
+ 252:
             oscard = verify.0rQinJ;
             oscard = romeon.bind(foxtra)(oscard);
-            _fun00006_ip = 277; continue _fun00005;
- 266:
+            _fun00006_ip = 276; continue _fun00005;
+ 265:
             verify = verify.OtF+lJ;
             oscard = romeon.bind(foxtra)(verify);
- 277:
+ 276:
             entity['followLabel'] = oscard;
-            oscard = _closure1_slot13;
+            oscard = _closure1_slot12;
             oscard = oscard.bind(tangon)();
             entity['shareIcon'] = oscard;
             foxtra = _closure1_slot0;
@@ -357,19 +357,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['shareLabel'] = oscard;
             entity['defaultReaction'] = offset;
             oscard = undefined;
-            if(option) { _fun00006_ip = 440; continue _fun00005 }
- 362:
+            if(option) { _fun00006_ip = 439; continue _fun00005 }
+ 361:
             verify = null;
             romeon = verify == offset;
             option = undefined;
-            if(romeon) { _fun00006_ip = 379; continue _fun00005 }
- 373:
+            if(romeon) { _fun00006_ip = 378; continue _fun00005 }
+ 372:
             option = offset.emoji;
- 379:
+ 378:
             option = verify != option;
             oscard = undefined;
-            if(option) { _fun00006_ip = 440; continue _fun00005 }
- 388:
+            if(option) { _fun00006_ip = 439; continue _fun00005 }
+ 387:
             offset = _closure1_slot0;
             golfie = _closure1_slot2;
             option = golfie[yankee];
@@ -381,14 +381,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = golfie.t;
             golfie = golfie.xpOyTE;
             oscard = option.bind(verify)(golfie);
- 440:
+ 439:
             entity['addReactLabel'] = oscard;
             entity['sharePrompt'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    var _closure1_slot16 = entity;
+    var _closure1_slot15 = entity;
     entity = function(argFoo) { // Original name: ForumPostActionsWithDefaultReaction
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
@@ -471,7 +471,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu[0] = verify;
             zuuluu[1] = option;
             michal = function() {
-                zuuluu = _closure1_slot15;
+                zuuluu = _closure1_slot14;
                 michal = {};
                 tangon = _closure2_slot1;
                 michal['defaultReactionEmoji'] = tangon;
@@ -483,7 +483,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             report = report.bind(golfie)(michal, zuuluu);
             zuuluu = _closure1_slot9;
-            michal = _closure1_slot16;
+            michal = _closure1_slot15;
             entity = {};
             golfie = false;
             entity['hasReactions'] = golfie;
@@ -493,55 +493,54 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot17 = entity;
+    var _closure1_slot16 = entity;
     entity = global;
     offset = entity.Object;
-    option = offset.defineProperty;
+    verify = offset.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(offset)(zuuluu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    option = golfie[entity];
+    verify = golfie[entity];
     report = argCor;
     entity = undefined;
-    report = report.bind(entity)(option);
+    report = report.bind(entity)(verify);
     var _closure1_slot3 = report;
     report = 1;
     report = golfie[report];
-    report = verify.bind(entity)(report);
+    report = option.bind(entity)(report);
     var _closure1_slot4 = report;
     report = 2;
     report = golfie[report];
-    report = verify.bind(entity)(report);
+    report = option.bind(entity)(report);
     var _closure1_slot5 = report;
     report = 3;
-    option = golfie[report];
-    option = verify.bind(entity)(option);
-    var _closure1_slot6 = option;
-    option = 4;
-    option = golfie[option];
-    option = verify.bind(entity)(option);
-    var _closure1_slot7 = option;
-    option = 5;
-    option = golfie[option];
-    option = oscard.bind(entity)(option);
-    option = option.HelpdeskArticles;
-    var _closure1_slot8 = option;
-    option = 6;
-    option = golfie[option];
-    option = oscard.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot9 = option;
-    var _closure1_slot10 = report;
+    report = golfie[report];
+    report = option.bind(entity)(report);
+    var _closure1_slot6 = report;
+    report = 4;
+    report = golfie[report];
+    report = option.bind(entity)(report);
+    var _closure1_slot7 = report;
+    report = 5;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    report = report.HelpdeskArticles;
+    var _closure1_slot8 = report;
+    report = 6;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    report = report.jsx;
+    var _closure1_slot9 = report;
     report = 19;
     report = golfie[report];
     verify = oscard.bind(entity)(report);
     option = verify.makeKeyedDataComponent;
     report = 'postActions';
     report = option.bind(verify)(report);
-    var _closure1_slot11 = report;
+    var _closure1_slot10 = report;
     report = 21;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
@@ -592,14 +591,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!(michal === tangon)) { _fun00016_ip = 153; continue _fun00015 }
  131:
             report = _closure1_slot9;
-            tangon = _closure1_slot17;
+            tangon = _closure1_slot16;
             michal = {};
             michal['channel'] = golfie;
             michal = report.bind(oscard)(tangon, michal);
             _fun00016_ip = 180; continue _fun00015;
  153:
             report = _closure1_slot9;
-            tangon = _closure1_slot16;
+            tangon = _closure1_slot15;
             zuuluu = {};
             option = true;
             zuuluu['hasReactions'] = option;
@@ -621,10 +620,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.hasReactions;
             tangon = entity.defaultReaction;
             entity = entity.showMediaPostSharePrompt;
-            zuuluu = _closure1_slot12;
+            zuuluu = _closure1_slot11;
             verify = undefined;
             option = zuuluu.bind(verify)(golfie);
-            zuuluu = _closure1_slot13;
+            zuuluu = _closure1_slot12;
             oscard = zuuluu.bind(verify)();
             zuuluu = undefined;
             if(michal) { _fun00018_ip = 135; continue _fun00017 }
@@ -656,11 +655,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = undefined;
             if(!entity) { _fun00018_ip = 148; continue _fun00017 }
  140:
-            entity = _closure1_slot14;
+            entity = _closure1_slot13;
             michal = entity.bind(verify)();
  148:
             entity = {};
-            offset = _closure1_slot10;
+            offset = 3;
             entity['numDisplayedReactions'] = offset;
             entity['isFollowing'] = golfie;
             entity['followIcon'] = option;
@@ -674,15 +673,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option[offset];
             option = foxtra.bind(verify)(option);
             option = option.t;
-            if(golfie) { _fun00018_ip = 229; continue _fun00017 }
- 216:
+            if(golfie) { _fun00018_ip = 228; continue _fun00017 }
+ 215:
             golfie = option.0rQinJ;
             golfie = yankee.bind(romeon)(golfie);
-            _fun00018_ip = 240; continue _fun00017;
- 229:
+            _fun00018_ip = 239; continue _fun00017;
+ 228:
             option = option.OtF+lJ;
             golfie = yankee.bind(romeon)(option);
- 240:
+ 239:
             entity['followLabel'] = golfie;
             entity['shareIcon'] = oscard;
             option = _closure1_slot0;

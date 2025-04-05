@@ -43,12 +43,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.UserSettingsSections;
     var _closure1_slot9 = tangon;
     tangon = 4;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot10 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot10 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot11 = tangon;
     tangon = 5;
@@ -344,10 +342,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = update[ctrled];
             update = config.bind(tangon)(update);
             update = update.t;
-            if(sizing) { _fun00002_ip = 813; continue _fun00001 }
- 746:
-            if(romeon) { _fun00002_ip = 780; continue _fun00001 }
- 749:
+            if(sizing) { _fun00002_ip = 817; continue _fun00001 }
+ 750:
+            if(romeon) { _fun00002_ip = 784; continue _fun00001 }
+ 753:
             romeon = update.hvVgAQ;
             romeon = vacuum.bind(sequen)(romeon);
             echoed['text'] = romeon;
@@ -369,8 +367,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             echoed['onPress'] = romeon;
             romeon = echoed;
-            _fun00002_ip = 811; continue _fun00001;
- 780:
+            _fun00002_ip = 815; continue _fun00001;
+ 784:
             config = update.9D+zGR;
             config = vacuum.bind(sequen)(config);
             echoed['text'] = config;
@@ -404,9 +402,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             echoed['onPress'] = config;
             romeon = echoed;
- 811:
-            _fun00002_ip = 842; continue _fun00001;
- 813:
+ 815:
+            _fun00002_ip = 846; continue _fun00001;
+ 817:
             update = update.+2/AhI;
             update = vacuum.bind(sequen)(update);
             echoed['text'] = update;
@@ -441,7 +439,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             echoed['onPress'] = update;
             romeon = echoed;
- 842:
+ 846:
             backup = kiloes.bind(tangon)(backup, romeon);
             romeon = new Array(3);
             romeon[0] = backup;
@@ -500,8 +498,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = output[ctrled];
             output = result.bind(tangon)(output);
             output = output.t;
-            if(sizing) { _fun00002_ip = 1086; continue _fun00001 }
- 1056:
+            if(sizing) { _fun00002_ip = 1090; continue _fun00001 }
+ 1060:
             result = output.Ge0HUl;
             sizing = {};
             ctrled = function() { // Original name: handleFalsePositiveHook
@@ -546,8 +544,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             sizing['handleFalsePositiveHook'] = ctrled;
             sizing = echoed.bind(update)(result, sizing);
-            _fun00002_ip = 1114; continue _fun00001;
- 1086:
+            _fun00002_ip = 1118; continue _fun00001;
+ 1090:
             result = output.3HvI8P;
             output = {};
             source = function() { // Original name: handleOnHelpUrlHook
@@ -578,7 +576,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             output['handleOnHelpUrlHook'] = source;
             sizing = echoed.bind(update)(result, output);
- 1114:
+ 1118:
             foxtra['children'] = sizing;
             foxtra = kiloes.bind(tangon)(backup, foxtra);
             romeon[2] = foxtra;

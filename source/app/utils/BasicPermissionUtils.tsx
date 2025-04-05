@@ -40,9 +40,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = function(argFoo, argBar) { // Original name: value
             michal = argFoo;
             entity = argBar;
-            michal = michal & entity;
-            entity = 0;
-            entity = entity != michal;
+            entity = michal & entity;
+            entity = !entity;
+            entity = !entity;
             return entity;
         };
         entity['value'] = zuuluu;

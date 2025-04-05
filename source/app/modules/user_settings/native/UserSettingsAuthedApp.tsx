@@ -152,12 +152,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.BLOCK_CONFIRMATION_ACTION_SHEET_KEY;
     var _closure1_slot14 = tangon;
     tangon = 8;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot15 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot15 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot16 = tangon;
     tangon = 9;

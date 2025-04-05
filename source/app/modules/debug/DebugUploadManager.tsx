@@ -19,43 +19,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 577; continue _fun00001 }
+                    if(report) { _fun00002_ip = 582; continue _fun00001 }
  10:
                     zuuluu = argFoo;
                     tangon = argBar;
                     verify = undefined;
                     oscard = undefined;
  20: // try_start_0
-                    golfie = _closure1_slot13;
+                    golfie = _closure1_slot12;
                     zuuluu = golfie.bind(verify)(zuuluu);
                     SaveGenerator(address=36);
  34:
                     return zuuluu;
  36:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 94; continue _fun00001 }
+                    if(golfie) { _fun00002_ip = 99; continue _fun00001 }
  42:
-                    option = _closure1_slot0;
-                    offset = _closure1_slot3;
-                    golfie = 7;
-                    golfie = offset[golfie];
-                    option = option.bind(verify)(golfie);
+                    golfie = _closure1_slot0;
+                    option = _closure1_slot3;
+                    report = 7;
+                    report = option[report];
+                    option = golfie.bind(verify)(report);
                     golfie = option.uploadRtcLogFiles;
-                    report = _closure1_slot8;
-                    tangon = golfie.bind(option)(report, tangon);
-                    SaveGenerator(address=82);
- 80:
+                    report = tangon;
+                    tangon = 14680064;
+                    tangon = golfie.bind(option)(tangon, report);
+                    SaveGenerator(address=87);
+ 85:
                     return tangon;
- 82:
+ 87:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 91; continue _fun00001 }
- 88: // try_end0
+                    if(report) { _fun00002_ip = 96; continue _fun00001 }
+ 93: // try_end0
                     return verify;
- 91:
+ 96:
                     return tangon;
- 94:
+ 99:
                     return zuuluu;
- 97: // catch_target0
+ 102: // catch_target0
                     CatchBlockStart(arg_register=4);
                     michal = report;
                     golfie = _closure1_slot0;
@@ -65,8 +66,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = golfie.bind(verify)(tangon);
                     tangon = tangon.UploadVoiceDebugLogsError;
                     tangon = report instanceof tangon;
-                    if(!tangon) { _fun00002_ip = 502; continue _fun00001 }
- 141:
+                    if(!tangon) { _fun00002_ip = 507; continue _fun00001 }
+ 146:
                     tangon = michal;
                     golfie = tangon.code;
                     report = _closure1_slot0;
@@ -75,32 +76,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report.bind(verify)(tangon);
                     tangon = tangon.UploadErrorCodes;
                     tangon = tangon.GENERAL;
-                    if(!(tangon !== golfie)) { _fun00002_ip = 467; continue _fun00001 }
- 185:
+                    if(!(tangon !== golfie)) { _fun00002_ip = 472; continue _fun00001 }
+ 190:
                     report = _closure1_slot0;
                     tangon = _closure1_slot3;
                     tangon = tangon[option];
                     tangon = report.bind(verify)(tangon);
                     tangon = tangon.UploadErrorCodes;
                     tangon = tangon.NO_FILE;
-                    if(!(tangon !== golfie)) { _fun00002_ip = 433; continue _fun00001 }
- 221:
+                    if(!(tangon !== golfie)) { _fun00002_ip = 438; continue _fun00001 }
+ 226:
                     report = _closure1_slot0;
                     tangon = _closure1_slot3;
                     tangon = tangon[option];
                     tangon = report.bind(verify)(tangon);
                     tangon = tangon.UploadErrorCodes;
                     tangon = tangon.PROGRESS;
-                    if(!(tangon !== golfie)) { _fun00002_ip = 399; continue _fun00001 }
- 257:
+                    if(!(tangon !== golfie)) { _fun00002_ip = 404; continue _fun00001 }
+ 262:
                     report = _closure1_slot0;
                     tangon = _closure1_slot3;
                     tangon = tangon[option];
                     tangon = report.bind(verify)(tangon);
                     tangon = tangon.UploadErrorCodes;
                     tangon = tangon.UPLOAD;
-                    if(!(tangon !== golfie)) { _fun00002_ip = 365; continue _fun00001 }
- 290:
+                    if(!(tangon !== golfie)) { _fun00002_ip = 370; continue _fun00001 }
+ 295:
                     report = _closure1_slot0;
                     tangon = _closure1_slot3;
                     tangon = tangon[option];
@@ -108,8 +109,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = tangon.UploadErrorCodes;
                     report = tangon.READ;
                     tangon = undefined;
-                    if(!(report === golfie)) { _fun00002_ip = 499; continue _fun00001 }
- 328:
+                    if(!(report === golfie)) { _fun00002_ip = 504; continue _fun00001 }
+ 333:
                     golfie = _closure1_slot0;
                     option = _closure1_slot3;
                     report = 6;
@@ -117,8 +118,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = golfie.bind(verify)(report);
                     report = report.AVUnderlyingError;
                     tangon = report.UploadErrorRead;
-                    _fun00002_ip = 499; continue _fun00001;
- 365:
+                    _fun00002_ip = 504; continue _fun00001;
+ 370:
                     golfie = _closure1_slot0;
                     option = _closure1_slot3;
                     report = 6;
@@ -126,8 +127,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = golfie.bind(verify)(report);
                     report = report.AVUnderlyingError;
                     tangon = report.UploadErrorUpload;
-                    _fun00002_ip = 499; continue _fun00001;
- 399:
+                    _fun00002_ip = 504; continue _fun00001;
+ 404:
                     golfie = _closure1_slot0;
                     option = _closure1_slot3;
                     report = 6;
@@ -135,8 +136,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = golfie.bind(verify)(report);
                     report = report.AVUnderlyingError;
                     tangon = report.UploadErrorProgress;
-                    _fun00002_ip = 499; continue _fun00001;
- 433:
+                    _fun00002_ip = 504; continue _fun00001;
+ 438:
                     golfie = _closure1_slot0;
                     option = _closure1_slot3;
                     report = 6;
@@ -144,8 +145,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = golfie.bind(verify)(report);
                     report = report.AVUnderlyingError;
                     tangon = report.UploadErrorNoFile;
-                    _fun00002_ip = 499; continue _fun00001;
- 467:
+                    _fun00002_ip = 504; continue _fun00001;
+ 472:
                     golfie = _closure1_slot0;
                     option = _closure1_slot3;
                     report = 6;
@@ -153,9 +154,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = golfie.bind(verify)(report);
                     report = report.AVUnderlyingError;
                     tangon = report.UploadErrorGeneral;
- 499:
+ 504:
                     oscard = tangon;
- 502:
+ 507:
                     option = _closure1_slot0;
                     offset = _closure1_slot3;
                     golfie = 6;
@@ -173,14 +174,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu['errorMessage'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
                     throw michal;
- 577:
+ 582:
                     return entity;
                 }
             };
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot12 = tangon;
+        _closure1_slot11 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -188,10 +189,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot11 = entity;
     michal = function() { // Original name: uploadAppLogFiles
         entity = undefined;
-        tangon = _closure1_slot14;
+        tangon = _closure1_slot13;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -199,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot13 = michal;
+    var _closure1_slot12 = michal;
     entity = function() { // Original name: _uploadAppLogFiles
         report = undefined;
         entity = undefined;
@@ -238,13 +239,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = 'Logs failed: ';
                     yankee = romeon.bind(golfie)(foxtra);
  90: // try_start_1
-                    golfie = _closure1_slot10;
+                    golfie = _closure1_slot9;
                     romeon = null;
                     backup = romeon == golfie;
                     golfie = undefined;
                     if(backup) { _fun00004_ip = 118; continue _fun00003 }
  108:
-                    foxtra = _closure1_slot10;
+                    foxtra = _closure1_slot9;
                     golfie = foxtra.getSystemLog;
  118:
                     golfie = romeon != golfie;
@@ -256,7 +257,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = backup.prototype;
                     foxtra = Object.create(golfie, {constructor: {value: backup}});
                     variable39 = function(argFoo) {
-                        zuuluu = _closure1_slot10;
+                        zuuluu = _closure1_slot9;
                         michal = zuuluu.getSystemLog;
                         entity = argFoo;
                         entity = michal.bind(zuuluu)(entity);
@@ -413,20 +414,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = romeon - tangon;
                     verify = report.bind(oscard)(tangon);
  648:
-                    tangon = _closure1_slot11;
+                    tangon = _closure1_slot10;
                     oscard = null;
                     report = oscard == tangon;
                     tangon = undefined;
                     if(report) { _fun00004_ip = 673; continue _fun00003 }
  663:
-                    report = _closure1_slot11;
+                    report = _closure1_slot10;
                     tangon = report.AppOpenedTimestamp;
  673:
                     tangon = oscard != tangon;
                     oscard = null;
                     if(!tangon) { _fun00004_ip = 692; continue _fun00003 }
  682:
-                    tangon = _closure1_slot11;
+                    tangon = _closure1_slot10;
                     oscard = tangon.AppOpenedTimestamp;
  692:
                     kiloes = _closure1_slot1;
@@ -511,7 +512,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return zuuluu;
  1042: // catch_target4 // catch_target5 // catch_target6
                     CatchBlockStart(arg_register=2);
-                    report = _closure1_slot9;
+                    report = _closure1_slot8;
                     tangon = report.error;
                     golfie = zuuluu.message;
                     zuuluu = global;
@@ -529,7 +530,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot14 = tangon;
+        _closure1_slot13 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -537,7 +538,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot13 = entity;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -562,8 +563,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot6 = report;
     report = 9437184;
     var _closure1_slot7 = report;
-    report = 14680064;
-    var _closure1_slot8 = report;
     report = 3;
     report = golfie[report];
     verify = option.bind(entity)(report);
@@ -573,18 +572,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     backup = option;
     report = new backup[verify](foxtra, romeon);
     report = report instanceof Object ? report : option;
-    var _closure1_slot9 = report;
+    var _closure1_slot8 = report;
     report = 4;
     option = golfie[report];
     option = oscard.bind(entity)(option);
     option = option.NativeModules;
     option = option.CrashReportingManager;
-    var _closure1_slot10 = option;
+    var _closure1_slot9 = option;
     report = golfie[report];
     report = oscard.bind(entity)(report);
     report = report.NativeModules;
     report = report.TTIManager;
-    var _closure1_slot11 = report;
+    var _closure1_slot10 = report;
     report = 16;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
@@ -593,7 +592,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = oscard.bind(golfie)(report);
     tangon = function() { // Original name: uploadDebugLogFiles
         entity = undefined;
-        tangon = _closure1_slot12;
+        tangon = _closure1_slot11;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;

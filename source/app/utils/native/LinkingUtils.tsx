@@ -1976,22 +1976,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     offset = argFoo;
+                    yankee = argBar;
                     option = arguments[4];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00032_ip = 482; continue _fun00031 }
- 16:
+                    if(michal) { _fun00032_ip = 473; continue _fun00031 }
+ 19:
                     oscard = undefined;
-                    if(!(option === oscard)) { _fun00032_ip = 24; continue _fun00031 }
- 22:
+                    if(!(option === oscard)) { _fun00032_ip = 27; continue _fun00031 }
+ 25:
                     option = false;
- 24:
-                    SaveGenerator(address=28);
- 26:
+ 27:
+                    SaveGenerator(address=31);
+ 29:
                     return oscard;
- 28:
+ 31:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00032_ip = 479; continue _fun00031 }
- 37:
+                    if(zuuluu) { _fun00032_ip = 470; continue _fun00031 }
+ 40:
                     tangon = _closure1_slot1;
                     report = _closure1_slot3;
                     zuuluu = 74;
@@ -1999,62 +2000,58 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = tangon.bind(oscard)(zuuluu);
                     zuuluu = tangon.fetchApplication;
                     zuuluu = zuuluu.bind(tangon)(offset);
-                    SaveGenerator(address=75);
- 73:
+                    SaveGenerator(address=78);
+ 76:
                     return zuuluu;
- 75:
+ 78:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00032_ip = 476; continue _fun00031 }
- 84:
+                    if(tangon) { _fun00032_ip = 467; continue _fun00031 }
+ 87:
                     tangon = zuuluu.bot;
                     golfie = null;
                     report = golfie == tangon;
                     verify = undefined;
-                    if(report) { _fun00032_ip = 106; continue _fun00031 }
- 101:
+                    if(report) { _fun00032_ip = 109; continue _fun00031 }
+ 104:
                     verify = tangon.id;
- 106:
-                    if(!(golfie != zuuluu)) { _fun00032_ip = 467; continue _fun00031 }
- 113:
-                    if(!(golfie != verify)) { _fun00032_ip = 467; continue _fun00031 }
- 120:
+ 109:
+                    if(!(golfie != zuuluu)) { _fun00032_ip = 458; continue _fun00031 }
+ 116:
+                    if(!(golfie != verify)) { _fun00032_ip = 458; continue _fun00031 }
+ 123:
                     report = _closure1_slot1;
-                    yankee = _closure1_slot3;
+                    romeon = _closure1_slot3;
                     tangon = 75;
-                    tangon = yankee[tangon];
+                    tangon = romeon[tangon];
                     report = report.bind(oscard)(tangon);
                     tangon = report.openPrivateChannel;
                     tangon = tangon.bind(report)(verify);
-                    SaveGenerator(address=155);
- 153:
+                    SaveGenerator(address=158);
+ 156:
                     return tangon;
- 155:
+ 158:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00032_ip = 473; continue _fun00031 }
- 164:
+                    if(report) { _fun00032_ip = 464; continue _fun00031 }
+ 167:
                     verify = _closure1_slot0;
-                    yankee = _closure1_slot3;
+                    romeon = _closure1_slot3;
                     report = 76;
-                    report = yankee[report];
+                    report = romeon[report];
                     backup = verify.bind(oscard)(report);
                     romeon = backup.getCustomActivityLinkParams;
-                    result = argCor;
-                    output = argBaz;
-                    sizing = argBar;
-                    update = backup;
-                    echoed = offset;
-                    report = update[romeon](echoed, result, output, sizing, kiloes);
-                    SaveGenerator(address=213);
- 211:
+                    verify = argCor;
+                    report = argBaz;
+                    report = romeon.bind(backup)(offset, verify, report);
+                    SaveGenerator(address=210);
+ 208:
                     return report;
- 213:
+ 210:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=8);
-                    if(verify) { _fun00032_ip = 470; continue _fun00031 }
- 222:
+                    if(verify) { _fun00032_ip = 461; continue _fun00031 }
+ 219:
                     romeon = report.customId;
-                    yankee = report.referrerId;
-                    if(option) { _fun00032_ip = 370; continue _fun00031 }
- 240:
+                    if(option) { _fun00032_ip = 361; continue _fun00031 }
+ 231:
                     backup = _closure1_slot1;
                     kiloes = _closure1_slot3;
                     option = 77;
@@ -2082,15 +2079,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option['referrerId'] = yankee;
                     option['customId'] = romeon;
                     option = verify.bind(oscard)(option);
-                    SaveGenerator(address=361);
- 359:
+                    SaveGenerator(address=352);
+ 350:
+                    return option;
+ 352:
+                    ResumeGenerator(result_out_reg=7, return_bool_out_reg=8);
+                    if(!verify) { _fun00032_ip = 458; continue _fun00031 }
+ 358:
                     return option;
  361:
-                    ResumeGenerator(result_out_reg=7, return_bool_out_reg=8);
-                    if(!verify) { _fun00032_ip = 467; continue _fun00031 }
- 367:
-                    return option;
- 370:
                     verify = _closure1_slot0;
                     offset = _closure1_slot3;
                     option = 79;
@@ -2098,8 +2095,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = verify.bind(oscard)(option);
                     option = verify.getBestActiveInput;
                     verify = option.bind(verify)();
-                    if(!(golfie != verify)) { _fun00032_ip = 467; continue _fun00031 }
- 404:
+                    if(!(golfie != verify)) { _fun00032_ip = 458; continue _fun00031 }
+ 395:
                     option = verify.openCustomKeyboard;
                     golfie = {};
                     offset = _closure1_slot21;
@@ -2114,17 +2111,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset['referrerId'] = yankee;
                     golfie['context'] = offset;
                     golfie = option.bind(verify)(golfie);
- 467:
+ 458:
                     return oscard;
- 470:
+ 461:
                     return report;
- 473:
+ 464:
                     return tangon;
- 476:
+ 467:
                     return zuuluu;
- 479:
+ 470:
                     return michal;
- 482:
+ 473:
                     return entity;
                 }
             };

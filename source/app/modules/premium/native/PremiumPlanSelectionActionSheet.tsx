@@ -133,16 +133,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = michal.CurrencyCodes;
     var _closure1_slot21 = michal;
     michal = 11;
-    report = golfie[michal];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot22 = report;
-    report = golfie[michal];
-    report = oscard.bind(entity)(report);
-    report = report.jsxs;
-    var _closure1_slot23 = report;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
+    report = michal.jsx;
+    var _closure1_slot22 = report;
+    report = michal.jsxs;
+    var _closure1_slot23 = report;
     michal = michal.Fragment;
     var _closure1_slot24 = michal;
     michal = 12;
@@ -717,7 +713,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = entity.initialSelectedCriteria;
             if(!(option === tangon)) { _fun00008_ip = 94; continue _fun00007 }
  89:
-            option = function(argFoo) { // Original name: D
+            option = function(argFoo) { // Original name: b
                 entity = argFoo;
                 michal = entity.interval;
                 entity = _closure1_slot14;

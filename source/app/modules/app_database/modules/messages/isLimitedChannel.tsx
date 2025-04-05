@@ -1,9 +1,9 @@
 // app/modules/app_database/modules/messages/isLimitedChannel.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    oscard = argBaz;
+    oscard = argBar;
+    option = argBaz;
     zuuluu = argFre;
-    option = argPlu;
+    golfie = argPlu;
     tangon = function(argFoo) { // Original name: isLimitedChannel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -34,20 +34,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  75:
             if(!entity) { _fun00002_ip = 97; continue _fun00001 }
  78:
-            report = tangon.type;
-            tangon = _closure1_slot2;
-            tangon = tangon.GROUP_DM;
-            entity = report !== tangon;
+            tangon = tangon.type;
+            michal = _closure1_slot2;
+            michal = michal.GROUP_DM;
+            entity = tangon !== michal;
  97:
-            if(!entity) { _fun00002_ip = 108; continue _fun00001 }
+            if(!entity) { _fun00002_ip = 110; continue _fun00001 }
  100:
-            michal = _closure1_slot3;
+            michal = 10000;
             entity = zuuluu >= michal;
- 108:
+ 110:
             return entity;
         }
     };
-    var _closure1_slot4 = tangon;
+    var _closure1_slot3 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -57,34 +57,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = '__esModule';
     entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    report = option[entity];
+    report = golfie[entity];
     entity = undefined;
-    report = oscard.bind(entity)(report);
+    report = option.bind(entity)(report);
     var _closure1_slot0 = report;
     report = 1;
-    report = option[report];
-    report = oscard.bind(entity)(report);
+    report = golfie[report];
+    report = option.bind(entity)(report);
     var _closure1_slot1 = report;
     report = 2;
-    report = option[report];
-    report = golfie.bind(entity)(report);
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
     report = report.ChannelTypes;
     var _closure1_slot2 = report;
+    report = 3;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
+    report = 'modules/app_database/modules/messages/isLimitedChannel.tsx';
+    report = oscard.bind(golfie)(report);
     report = 10000;
-    var _closure1_slot3 = report;
-    oscard = 3;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/app_database/modules/messages/isLimitedChannel.tsx';
-    oscard = golfie.bind(option)(oscard);
     zuuluu['LIMITED_GUILD_MEMBER_THRESHOLD'] = report;
     zuuluu['isLimitedChannel'] = tangon;
     michal = function(argFoo) { // Original name: isLimitedChannelId
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
-            zuuluu = _closure1_slot4;
+            zuuluu = _closure1_slot3;
             tangon = _closure1_slot0;
             michal = tangon.getBasicChannel;
             entity = null;

@@ -762,12 +762,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = michal.POP_RESISTANCE;
     var _closure1_slot19 = michal;
     michal = 10;
-    report = golfie[michal];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot20 = report;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
+    report = michal.jsx;
+    var _closure1_slot20 = report;
     michal = michal.jsxs;
     var _closure1_slot21 = michal;
     report = 11;
@@ -1739,7 +1737,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = update[michal];
                 quebec = foxtra.bind(kiloes)(golfie);
                 romeon = quebec.useAnimatedReaction;
-                option = function() { // Original name: me
+                option = function() { // Original name: _e
                     _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                         michal = _closure3_slot13;
@@ -1775,7 +1773,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option['__workletHash'] = golfie;
                 golfie = _closure1_slot32;
                 option['__initData'] = golfie;
-                golfie = function(argFoo, argBar) { // Original name: we
+                golfie = function(argFoo, argBar) { // Original name: Pe
                     _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
                         zuuluu = argFoo;
@@ -2846,7 +2844,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = foxtra.bind(kiloes)(oscard);
                 golfie = option.useAnimatedScrollHandler;
                 oscard = {};
-                source = function(argFoo) { // Original name: Ae
+                source = function(argFoo) { // Original name: ve
                     tangon = _closure3_slot0;
                     zuuluu = tangon.set;
                     michal = argFoo;
@@ -2869,7 +2867,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 ctrled = _closure1_slot42;
                 source['__initData'] = ctrled;
                 oscard['onBeginDrag'] = source;
-                source = function() { // Original name: Oe
+                source = function() { // Original name: Ve
                     zuuluu = _closure3_slot1;
                     michal = zuuluu.set;
                     entity = false;
@@ -2885,7 +2883,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 ctrled = _closure1_slot43;
                 source['__initData'] = ctrled;
                 oscard['onEndDrag'] = source;
-                source = function() { // Original name: ve
+                source = function() { // Original name: Ie
                     zuuluu = _closure3_slot1;
                     michal = zuuluu.set;
                     entity = false;
@@ -2901,7 +2899,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 ctrled = _closure1_slot44;
                 source['__initData'] = ctrled;
                 oscard['onMomentumEnd'] = source;
-                source = function(argFoo) { // Original name: Ve
+                source = function(argFoo) { // Original name: me
                     _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
  0:
                         zuuluu = argFoo;
@@ -3003,7 +3001,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = update[michal];
                 ctrled = foxtra.bind(kiloes)(oscard);
                 source = ctrled.useAnimatedReaction;
-                golfie = function() { // Original name: be
+                golfie = function() { // Original name: Ae
                     michal = _closure3_slot13;
                     entity = michal.get;
                     entity = entity.bind(michal)();
@@ -3016,7 +3014,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie['__workletHash'] = oscard;
                 oscard = _closure1_slot46;
                 golfie['__initData'] = oscard;
-                oscard = function(argFoo, argBar) { // Original name: De
+                oscard = function(argFoo, argBar) { // Original name: Oe
                     _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
  0:
                         michal = argFoo;
@@ -3069,7 +3067,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = update[michal];
                 source = foxtra.bind(kiloes)(oscard);
                 golfie = source.useAnimatedProps;
-                oscard = function() { // Original name: Me
+                oscard = function() { // Original name: Ce
                     _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
  0:
                         michal = _closure3_slot13;
@@ -3163,7 +3161,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = update[michal];
                 foxtra = foxtra.bind(kiloes)(michal);
                 michal = foxtra.useDerivedValue;
-                entity = function() { // Original name: ke
+                entity = function() { // Original name: Ee
                     _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
  0:
                         zuuluu = _closure3_slot13;

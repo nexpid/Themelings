@@ -279,13 +279,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             michal = michal * entity;
                             zuuluu = zuuluu.bind(oscard)(michal);
                             michal = 3;
-                            michal = tangon.bind(report)(michal, zuuluu);
-                            var _closure4_slot0 = michal;
+                            tangon = tangon.bind(report)(michal, zuuluu);
+                            var _closure4_slot0 = tangon;
                             zuuluu = null;
-                            if(!(zuuluu != michal)) { _fun00010_ip = 72; continue _fun00009 }
+                            if(!(zuuluu != tangon)) { _fun00010_ip = 73; continue _fun00009 }
  69:
-                            entity = michal;
- 72:
+                            entity = _closure4_slot0;
+ 73:
                             return entity;
                         }
                     };
@@ -304,12 +304,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             michal = michal * entity;
                             zuuluu = zuuluu.bind(oscard)(michal);
                             michal = 6;
-                            michal = tangon.bind(report)(michal, zuuluu);
+                            tangon = tangon.bind(report)(michal, zuuluu);
+                            var _closure4_slot1 = tangon;
                             zuuluu = null;
-                            if(!(zuuluu != michal)) { _fun00012_ip = 65; continue _fun00011 }
- 62:
-                            entity = michal;
- 65:
+                            if(!(zuuluu != tangon)) { _fun00012_ip = 73; continue _fun00011 }
+ 69:
+                            entity = _closure4_slot1;
+ 73:
                             return entity;
                         }
                     };

@@ -427,12 +427,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.CHANGELOG_MODAL_KEY;
     var _closure1_slot13 = tangon;
     tangon = 11;
-    oscard = option[tangon];
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.jsx;
-    var _closure1_slot14 = oscard;
     tangon = option[tangon];
     tangon = golfie.bind(entity)(tangon);
+    oscard = tangon.jsx;
+    var _closure1_slot14 = oscard;
     tangon = tangon.jsxs;
     var _closure1_slot15 = tangon;
     tangon = 12;

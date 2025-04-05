@@ -213,12 +213,10 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     tangon = tangon.UserSettingsSections;
     var _closure1_slot8 = tangon;
     tangon = 6;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot9 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot9 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot10 = tangon;
     tangon = 7;

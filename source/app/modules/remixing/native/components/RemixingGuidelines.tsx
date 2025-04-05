@@ -35,12 +35,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.useRemixingEditorStore;
     var _closure1_slot5 = tangon;
     tangon = 4;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot6 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot6 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot7 = tangon;
     tangon = function() { // Original name: createVerticalDottedLine
@@ -178,10 +176,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.bind(tangon)(entity);
             michal = entity.Group;
             entity = {};
-            if(!verify) { _fun00006_ip = 157; continue _fun00005 }
- 154:
+            if(!verify) { _fun00006_ip = 155; continue _fun00005 }
+ 152:
             oscard = option;
- 157:
+ 155:
             entity['opacity'] = oscard;
             option = _closure1_slot6;
             offset = _closure1_slot0;

@@ -45,9 +45,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = function(argFoo, argBar) { // Original name: hasAnyFlag
         michal = argFoo;
         entity = argBar;
-        michal = michal & entity;
-        entity = 0;
-        entity = entity != michal;
+        entity = michal & entity;
+        entity = !entity;
+        entity = !entity;
         return entity;
     };
     zuuluu['hasAnyFlag'] = oscard;

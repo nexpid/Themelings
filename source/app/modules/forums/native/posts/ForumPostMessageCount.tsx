@@ -30,10 +30,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         romeon = 2;
         tangon = oscard[romeon];
         tangon = report.bind(entity)(tangon);
-        tangon = tangon.jsx;
-        var _closure1_slot4 = tangon;
-        tangon = oscard[romeon];
-        tangon = report.bind(entity)(tangon);
+        golfie = tangon.jsx;
+        var _closure1_slot4 = golfie;
         tangon = tangon.jsxs;
         var _closure1_slot5 = tangon;
         tangon = 3;
@@ -55,10 +53,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         backup = sizing.isAndroid;
         sizing = backup.bind(sizing)();
         backup = 0;
-        if(!sizing) { _fun00002_ip = 217; continue _fun00001 }
- 214:
+        if(!sizing) { _fun00002_ip = 208; continue _fun00001 }
+ 205:
         backup = romeon;
- 217:
+ 208:
         verify['marginTop'] = backup;
         tangon['iconRead'] = verify;
         verify = {};
@@ -73,10 +71,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         foxtra = backup.isAndroid;
         foxtra = foxtra.bind(backup)();
         yankee = 0;
-        if(!foxtra) { _fun00002_ip = 284; continue _fun00001 }
- 281:
+        if(!foxtra) { _fun00002_ip = 275; continue _fun00001 }
+ 272:
         yankee = romeon;
- 284:
+ 275:
         verify['marginTop'] = yankee;
         tangon['iconUnread'] = verify;
         verify = {};

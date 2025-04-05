@@ -7,43 +7,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = golfie;
     var _closure1_slot2 = oscard;
-    entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            tangon = argFoo;
-            oscard = argBaz;
-            michal = _closure1_slot7;
-            zuuluu = undefined;
-            entity = argBar;
-            verify = michal.bind(zuuluu)(entity);
-            michal = _closure1_slot6;
-            entity = _closure1_slot15;
-            entity = entity.bind(zuuluu)();
-            if(entity) { _fun00002_ip = 51; continue _fun00001 }
- 38:
-            entity = verify.apply;
-            entity = entity.bind(verify)(tangon, oscard);
-            _fun00002_ip = 92; continue _fun00001;
- 51:
-            golfie = global;
-            option = golfie.Reflect;
-            golfie = option.construct;
-            if(oscard) { _fun00002_ip = 71; continue _fun00001 }
- 67:
-            oscard = new Array(0);
- 71:
-            report = _closure1_slot7;
-            report = report.bind(zuuluu)(tangon);
-            report = report.constructor;
-            entity = golfie.bind(option)(verify, oscard, report);
- 92:
-            entity = michal.bind(zuuluu)(tangon, entity);
-            return entity;
-        }
-    };
-    var _closure1_slot14 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
  2: // try_start_0
             michal = global;
@@ -64,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = !michal;
             var _closure2_slot0 = michal;
  72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
+            _fun00002_ip = 76; continue _fun00001;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -74,13 +39,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot15 = michal;
+            _closure1_slot14 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot15 = entity;
+    var _closure1_slot14 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -139,29 +104,50 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
         tangon = function(argFoo) { // Original name: AgeGateManager
-            report = this;
-            offset = 0;
-            oscard = copyRestArgs(offset);
-            michal = _closure1_slot4;
-            tangon = _closure2_slot0;
-            zuuluu = undefined;
-            michal = michal.bind(zuuluu)(report, tangon);
-            michal = _closure1_slot14;
-            entity = new Array(0);
-            offset = entity;
-            verify = oscard;
-            option = 0;
-            oscard = arraySpread(offset, verify, option);
-            entity = michal.bind(zuuluu)(report, tangon, entity);
-            michal = {};
-            zuuluu = entity.handleChannelSelect;
-            michal['CHANNEL_SELECT'] = zuuluu;
-            zuuluu = entity.handleAgeGateModalOpen;
-            michal['AGE_GATE_MODAL_OPEN'] = zuuluu;
-            zuuluu = entity.handleAgeGateModalClose;
-            michal['AGE_GATE_MODAL_CLOSE'] = zuuluu;
-            entity['actions'] = michal;
-            return entity;
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                tangon = this;
+                romeon = 0;
+                entity = copyRestArgs(romeon);
+                golfie = _closure1_slot4;
+                michal = _closure2_slot0;
+                zuuluu = undefined;
+                golfie = golfie.bind(zuuluu)(tangon, michal);
+                verify = new Array(0);
+                romeon = verify;
+                yankee = entity;
+                offset = 0;
+                entity = arraySpread(romeon, yankee, offset);
+                entity = _closure1_slot7;
+                option = entity.bind(zuuluu)(michal);
+                michal = _closure1_slot6;
+                entity = _closure1_slot14;
+                entity = entity.bind(zuuluu)();
+                if(entity) { _fun00004_ip = 84; continue _fun00003 }
+ 71:
+                entity = option.apply;
+                entity = entity.bind(option)(tangon, verify);
+                _fun00004_ip = 118; continue _fun00003;
+ 84:
+                oscard = global;
+                golfie = oscard.Reflect;
+                oscard = golfie.construct;
+                report = _closure1_slot7;
+                report = report.bind(zuuluu)(tangon);
+                report = report.constructor;
+                entity = oscard.bind(golfie)(option, verify, report);
+ 118:
+                entity = michal.bind(zuuluu)(tangon, entity);
+                michal = {};
+                zuuluu = entity.handleChannelSelect;
+                michal['CHANNEL_SELECT'] = zuuluu;
+                zuuluu = entity.handleAgeGateModalOpen;
+                michal['AGE_GATE_MODAL_OPEN'] = zuuluu;
+                zuuluu = entity.handleAgeGateModalClose;
+                michal['AGE_GATE_MODAL_CLOSE'] = zuuluu;
+                entity['actions'] = michal;
+                return entity;
+            }
         };
         var _closure2_slot0 = tangon;
         report = _closure1_slot8;

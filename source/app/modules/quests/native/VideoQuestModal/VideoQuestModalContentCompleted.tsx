@@ -34,12 +34,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot6 = golfie;
     backup = tangon.StyleSheet;
     tangon = 3;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot7 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot7 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot8 = tangon;
     tangon = 4;
@@ -393,17 +391,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = output.contentRewardsWrapper;
             option[1] = romeon;
             oscard['style'] = option;
-            if(golfie) { _fun00002_ip = 873; continue _fun00001 }
- 851:
+            if(golfie) { _fun00002_ip = 871; continue _fun00001 }
+ 849:
             option = _closure1_slot1;
             romeon = _closure1_slot2;
             golfie = 22;
             golfie = romeon[golfie];
             option = option.bind(tangon)(golfie);
-            _fun00002_ip = 877; continue _fun00001;
- 873:
+            _fun00002_ip = 875; continue _fun00001;
+ 871:
             option = _closure1_slot5;
- 877:
+ 875:
             golfie = {};
             golfie = verify.bind(tangon)(option, golfie);
             romeon = new Array(2);

@@ -160,12 +160,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = michal.KeyboardTypes;
     var _closure1_slot7 = michal;
     michal = 5;
-    tangon = option[michal];
-    tangon = golfie.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot8 = tangon;
     michal = option[michal];
     michal = golfie.bind(entity)(michal);
+    tangon = michal.jsx;
+    var _closure1_slot8 = tangon;
     michal = michal.jsxs;
     var _closure1_slot9 = michal;
     michal = 6;

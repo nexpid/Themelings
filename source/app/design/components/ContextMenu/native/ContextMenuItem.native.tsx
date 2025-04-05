@@ -26,12 +26,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     option = tangon.Pressable;
     tangon = 2;
-    verify = oscard[tangon];
-    verify = report.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot4 = verify;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    verify = tangon.jsx;
+    var _closure1_slot4 = verify;
     tangon = tangon.jsxs;
     var _closure1_slot5 = tangon;
     tangon = 3;

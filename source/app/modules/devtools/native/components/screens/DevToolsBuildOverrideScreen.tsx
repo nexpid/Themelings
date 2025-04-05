@@ -35,12 +35,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = foxtra.bind(entity)(tangon);
     var _closure1_slot6 = tangon;
     tangon = 4;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    yankee = option.jsx;
-    var _closure1_slot7 = yankee;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    yankee = tangon.jsx;
+    var _closure1_slot7 = yankee;
     tangon = tangon.jsxs;
     var _closure1_slot8 = tangon;
     tangon = 5;

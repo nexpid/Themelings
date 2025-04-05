@@ -184,12 +184,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = golfie.StatusTypes;
     var _closure1_slot7 = golfie;
     golfie = 4;
-    verify = oscard[golfie];
-    verify = report.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot8 = verify;
     golfie = oscard[golfie];
     golfie = report.bind(entity)(golfie);
+    verify = golfie.jsx;
+    var _closure1_slot8 = verify;
     golfie = golfie.jsxs;
     var _closure1_slot9 = golfie;
     golfie = 5;

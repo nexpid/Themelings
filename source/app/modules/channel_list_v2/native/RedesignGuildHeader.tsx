@@ -550,12 +550,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.GuildFeatures;
     var _closure1_slot12 = tangon;
     tangon = 6;
-    offset = golfie[tangon];
-    offset = oscard.bind(entity)(offset);
-    offset = offset.jsx;
-    var _closure1_slot13 = offset;
     tangon = golfie[tangon];
     tangon = oscard.bind(entity)(tangon);
+    offset = tangon.jsx;
+    var _closure1_slot13 = offset;
     tangon = tangon.jsxs;
     var _closure1_slot14 = tangon;
     tangon = 7;

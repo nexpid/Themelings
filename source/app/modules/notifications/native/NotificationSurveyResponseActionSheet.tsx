@@ -34,12 +34,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = golfie.HelpdeskArticles;
     var _closure1_slot5 = golfie;
     golfie = 3;
-    option = oscard[golfie];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot6 = option;
     golfie = oscard[golfie];
     golfie = report.bind(entity)(golfie);
+    option = golfie.jsx;
+    var _closure1_slot6 = option;
     golfie = golfie.jsxs;
     var _closure1_slot7 = golfie;
     golfie = 4;

@@ -396,10 +396,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     yankee = 12;
     tangon = oscard[yankee];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot15 = tangon;
-    tangon = oscard[yankee];
-    tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot15 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot16 = tangon;
     tangon = 13;

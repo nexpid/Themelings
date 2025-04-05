@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot0 = golfie;
     tangon = function() { // Original name: importWithRetry
         entity = undefined;
-        tangon = _closure1_slot13;
+        tangon = _closure1_slot10;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -15,7 +15,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot12 = tangon;
+    var _closure1_slot9 = tangon;
     entity = function() { // Original name: _importWithRetry
         report = undefined;
         entity = undefined;
@@ -29,75 +29,75 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
                     if(tangon) { _fun00002_ip = 209; continue _fun00001 }
  13:
-                    offset = michal.createPromise;
-                    yankee = michal.webpackId;
-                    verify = undefined;
-                    romeon = undefined;
-                    foxtra = undefined;
+                    romeon = michal.createPromise;
+                    foxtra = michal.webpackId;
+                    yankee = undefined;
+                    backup = undefined;
+                    kiloes = undefined;
                     SaveGenerator(address=35);
  33:
-                    return verify;
+                    return yankee;
  35:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                     if(tangon) { _fun00002_ip = 206; continue _fun00001 }
  44:
-                    romeon = _closure1_slot8;
-                    foxtra = 0;
-                    golfie = global;
-                    oscard = 2;
- 58: // try_start_0
-                    tangon = offset;
-                    tangon = tangon.bind(verify)();
-                    SaveGenerator(address=69);
- 67:
-                    return tangon;
- 69:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 78; continue _fun00001 }
- 75: // try_end0
-                    return tangon;
+                    backup = 500;
+                    kiloes = 0;
+                    offset = global;
+                    verify = 2;
+                    option = 5000;
+                    oscard = 50;
+ 69: // try_start_0
+                    tangon = romeon;
+                    tangon = tangon.bind(yankee)();
+                    SaveGenerator(address=80);
  78:
                     return tangon;
- 81: // catch_target0
+ 80:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
+                    if(report) { _fun00002_ip = 89; continue _fun00001 }
+ 86: // try_end0
+                    return tangon;
+ 89:
+                    return tangon;
+ 92: // catch_target0
                     CatchBlockStart(arg_register=2);
-                    report = yankee;
+                    report = foxtra;
                     tangon = _closure1_slot0;
                     tangon = tangon.cache;
                     tangon = report in tangon;
                     if(tangon) { _fun00002_ip = 204; continue _fun00001 }
- 103:
-                    report = foxtra;
-                    tangon = _closure1_slot7;
-                    if(!(!(report >= tangon))) { _fun00002_ip = 199; continue _fun00001 }
  114:
-                    report = _closure1_slot11;
-                    tangon = romeon;
-                    tangon = report.bind(verify)(tangon);
-                    SaveGenerator(address=130);
- 128:
+                    tangon = kiloes;
+                    if(!(!(tangon >= oscard))) { _fun00002_ip = 199; continue _fun00001 }
+ 121:
+                    report = _closure1_slot8;
+                    tangon = backup;
+                    tangon = report.bind(yankee)(tangon);
+                    SaveGenerator(address=137);
+ 135:
                     return tangon;
- 130:
+ 137:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
                     if(report) { _fun00002_ip = 196; continue _fun00001 }
- 136:
-                    report = _closure1_slot10;
-                    report = report.bind(verify)();
-                    SaveGenerator(address=148);
- 146:
+ 143:
+                    report = _closure1_slot7;
+                    report = report.bind(yankee)();
+                    SaveGenerator(address=155);
+ 153:
                     return report;
- 148:
-                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=13);
-                    if(backup) { _fun00002_ip = 193; continue _fun00001 }
- 154:
-                    output = golfie.Math;
-                    sizing = output.min;
-                    kiloes = _closure1_slot9;
-                    backup = romeon;
-                    backup = oscard * backup;
-                    romeon = sizing.bind(output)(kiloes, backup);
-                    backup = foxtra;
-                    foxtra = backup + 1;
-                    _fun00002_ip = 58; continue _fun00001;
+ 155:
+                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=15);
+                    if(sizing) { _fun00002_ip = 193; continue _fun00001 }
+ 161:
+                    result = offset.Math;
+                    output = result.min;
+                    sizing = backup;
+                    sizing = verify * sizing;
+                    backup = output.bind(result)(option, sizing);
+                    sizing = kiloes;
+                    kiloes = sizing + 1;
+                    _fun00002_ip = 69; continue _fun00001;
  193:
                     return report;
  196:
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot13 = tangon;
+        _closure1_slot10 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot13 = entity;
+    var _closure1_slot10 = entity;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -150,12 +150,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = report.bind(entity)(oscard);
     var _closure1_slot3 = report;
     report = 3;
-    oscard = option[report];
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.jsx;
-    var _closure1_slot4 = oscard;
     report = option[report];
     report = golfie.bind(entity)(report);
+    oscard = report.jsx;
+    var _closure1_slot4 = oscard;
     report = report.Fragment;
     var _closure1_slot5 = report;
     report = function() { // Original name: loaderMaker
@@ -184,12 +182,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     var _closure1_slot6 = report;
-    oscard = 50;
-    var _closure1_slot7 = oscard;
-    oscard = 500;
-    var _closure1_slot8 = oscard;
-    oscard = 5000;
-    var _closure1_slot9 = oscard;
     oscard = function() { // Original name: awaitOnline
         entity = global;
         michal = entity.Promise;
@@ -197,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = entity.bind(michal)();
         return entity;
     };
-    var _closure1_slot10 = oscard;
+    var _closure1_slot7 = oscard;
     oscard = function(argFoo) { // Original name: pausedPromise
         michal = argFoo;
         var _closure2_slot0 = michal;
@@ -219,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = entity instanceof Object ? entity : michal;
         return entity;
     };
-    var _closure1_slot11 = oscard;
+    var _closure1_slot8 = oscard;
     oscard = 4;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
@@ -229,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     zuuluu['loaderMaker'] = report;
     report = function(argFoo) { // Original name: setAwaitOnline
         entity = argFoo;
-        _closure1_slot10 = entity;
+        _closure1_slot7 = entity;
         entity = undefined;
         return entity;
     };
@@ -256,7 +248,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = _closure1_slot3;
             oscard = golfie.lazy;
             tangon = function() {
-                zuuluu = _closure1_slot12;
+                zuuluu = _closure1_slot9;
                 michal = {};
                 tangon = _closure2_slot0;
                 michal['createPromise'] = tangon;
@@ -350,7 +342,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot2 = zuuluu;
             verify = offset.useEffect;
             zuuluu = function() {
-                zuuluu = _closure1_slot12;
+                zuuluu = _closure1_slot9;
                 michal = {};
                 tangon = _closure2_slot0;
                 michal['createPromise'] = tangon;

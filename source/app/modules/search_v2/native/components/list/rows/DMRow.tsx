@@ -111,12 +111,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.RelationshipTypes;
     var _closure1_slot12 = tangon;
     tangon = 8;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot13 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot13 = option;
     tangon = tangon.jsxs;
     var _closure1_slot14 = tangon;
     tangon = 9;
@@ -236,16 +234,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = function() {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                    entity = _closure2_slot1;
-                    zuuluu = null;
-                    if(!(zuuluu == entity)) { _fun00006_ip = 40; continue _fun00005 }
+                    zuuluu = _closure2_slot1;
+                    entity = null;
+                    if(!(entity == zuuluu)) { _fun00006_ip = 42; continue _fun00005 }
  13:
                     tangon = _closure1_slot10;
                     zuuluu = tangon.getNickname;
-                    michal = _closure2_slot0;
-                    michal = michal.id;
-                    entity = zuuluu.bind(tangon)(michal);
- 40:
+                    entity = _closure2_slot0;
+                    entity = entity.id;
+                    entity = zuuluu.bind(tangon)(entity);
+                    _fun00006_ip = 46; continue _fun00005;
+ 42:
+                    entity = _closure2_slot1;
+ 46:
                     return entity;
                 }
             };

@@ -89,12 +89,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = tangon.ThemeTypes;
         var _closure1_slot13 = golfie;
         tangon = 10;
-        option = oscard[tangon];
-        option = report.bind(entity)(option);
-        option = option.jsx;
-        var _closure1_slot14 = option;
         tangon = oscard[tangon];
         tangon = report.bind(entity)(tangon);
+        option = tangon.jsx;
+        var _closure1_slot14 = option;
         tangon = tangon.jsxs;
         var _closure1_slot15 = tangon;
         tangon = 11;
@@ -120,13 +118,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         sizing = report.bind(entity)(kiloes);
         kiloes = sizing.isIOS;
         kiloes = kiloes.bind(sizing)();
-        if(kiloes) { _fun00002_ip = 433; continue _fun00001 }
- 414:
+        if(kiloes) { _fun00002_ip = 424; continue _fun00001 }
+ 405:
         kiloes = oscard[offset];
         kiloes = yankee.bind(entity)(kiloes);
         kiloes = kiloes.spacing;
         backup = kiloes.PX_16;
- 433:
+ 424:
         romeon['marginBottom'] = backup;
         tangon['container'] = romeon;
         romeon = {'width': '100%', 'gap': null, 'alignItems': 'center'};

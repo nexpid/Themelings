@@ -88,22 +88,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot0 = golfie;
             oscard = _closure1_slot6;
             tangon = _closure1_slot5;
-            entity = 1;
-            zuuluu = 2;
-            option = entity & zuuluu;
-            entity = report;
+            zuuluu = 1;
+            entity = 2;
+            option = zuuluu & entity;
+            zuuluu = report;
             if(!option) { _fun00006_ip = 44; continue _fun00005 }
  39:
-            entity = report.prototype;
+            zuuluu = report.prototype;
  44:
             report = undefined;
-            tangon = tangon.bind(report)(entity);
-            entity = 'fromServer';
-            entity = oscard.bind(report)(tangon, entity, golfie);
-            var _closure2_slot1 = entity;
-            zuuluu = zuuluu & zuuluu;
-            if(!zuuluu) { _fun00006_ip = 78; continue _fun00005 }
- 73:
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = 'fromServer';
+            report = oscard.bind(report)(tangon, zuuluu, golfie);
+            var _closure2_slot1 = report;
+            zuuluu = entity & entity;
+            entity = report;
+            if(!zuuluu) { _fun00006_ip = 95; continue _fun00005 }
+ 76:
+            tangon = 'function';
+            zuuluu = typeof report;
+            entity = report;
+            if(!(tangon === zuuluu)) { _fun00006_ip = 95; continue _fun00005 }
+ 90:
             entity = function(argFoo) {
                 tangon = _closure2_slot1;
                 zuuluu = tangon.apply;
@@ -112,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             };
- 78:
+ 95:
             return entity;
         }
     };

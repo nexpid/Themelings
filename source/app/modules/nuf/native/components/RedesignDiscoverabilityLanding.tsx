@@ -30,10 +30,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     romeon = 2;
     tangon = oscard[romeon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot5 = tangon;
-    tangon = oscard[romeon];
-    tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot5 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot6 = tangon;
     tangon = 3;

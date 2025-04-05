@@ -183,12 +183,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = oscard.bind(entity)(report);
     foxtra = report.Fonts;
     report = 9;
-    option = golfie[report];
-    option = oscard.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot11 = option;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    option = report.jsx;
+    var _closure1_slot11 = option;
     report = report.jsxs;
     var _closure1_slot12 = report;
     yankee = 10;

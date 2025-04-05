@@ -37,12 +37,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     romeon = tangon.MAX_AUDIENCE_ROW_LIMIT;
     tangon = 4;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot7 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot7 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot8 = tangon;
     tangon = {'direction': null, 'radius': 13, 'inset': 4294967290};

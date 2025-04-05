@@ -10,37 +10,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = function(argFoo) { // Original name: calculateFromWidth
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zuuluu = argFoo;
+            michal = argFoo;
+            entity = 360;
+            if(!(!(michal <= entity))) { _fun00002_ip = 78; continue _fun00001 }
+ 13:
+            entity = 600;
+            if(!(!(michal <= entity))) { _fun00002_ip = 63; continue _fun00001 }
+ 23:
+            entity = 840;
+            if(!(!(michal <= entity))) { _fun00002_ip = 48; continue _fun00001 }
+ 33:
             entity = _closure1_slot3;
-            if(!(!(zuuluu <= entity))) { _fun00002_ip = 66; continue _fun00001 }
- 14:
-            entity = _closure1_slot4;
-            if(!(!(zuuluu <= entity))) { _fun00002_ip = 54; continue _fun00001 }
- 22:
-            entity = _closure1_slot5;
-            if(!(!(zuuluu <= entity))) { _fun00002_ip = 42; continue _fun00001 }
- 30:
-            entity = _closure1_slot6;
             entity = entity.XLARGE;
-            _fun00002_ip = 52; continue _fun00001;
- 42:
-            zuuluu = _closure1_slot6;
-            entity = zuuluu.LARGE;
- 52:
-            _fun00002_ip = 64; continue _fun00001;
- 54:
-            zuuluu = _closure1_slot6;
-            entity = zuuluu.NORMAL;
- 64:
+            _fun00002_ip = 61; continue _fun00001;
+ 48:
+            michal = _closure1_slot3;
+            entity = michal.LARGE;
+ 61:
             _fun00002_ip = 76; continue _fun00001;
- 66:
-            michal = _closure1_slot6;
-            entity = michal.SMALL;
+ 63:
+            michal = _closure1_slot3;
+            entity = michal.NORMAL;
  76:
+            _fun00002_ip = 91; continue _fun00001;
+ 78:
+            michal = _closure1_slot3;
+            entity = michal.SMALL;
+ 91:
             return entity;
         }
     };
-    var _closure1_slot7 = entity;
+    var _closure1_slot4 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -49,12 +49,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon['value'] = entity;
     entity = '__esModule';
     entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 360;
-    var _closure1_slot3 = entity;
-    entity = 600;
-    var _closure1_slot4 = entity;
-    entity = 840;
-    var _closure1_slot5 = entity;
     tangon = {};
     golfie = 0;
     tangon['SMALL'] = golfie;
@@ -72,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon['XLARGE'] = option;
     golfie = 'XLARGE';
     tangon[option] = golfie;
-    var _closure1_slot6 = tangon;
+    var _closure1_slot3 = tangon;
     report = report[entity];
     entity = undefined;
     golfie = oscard.bind(entity)(report);
@@ -80,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = 'modules/screen/native/useWindowSizeClassifier.tsx';
     report = oscard.bind(golfie)(report);
     report = function() { // Original name: useWindowSizeClassifier
-        zuuluu = _closure1_slot7;
+        zuuluu = _closure1_slot4;
         tangon = _closure1_slot1;
         michal = _closure1_slot2;
         entity = 0;
@@ -95,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['default'] = report;
     zuuluu['WindowSizeClassifier'] = tangon;
     michal = function() { // Original name: getWindowSizeClassifier
-        zuuluu = _closure1_slot7;
+        zuuluu = _closure1_slot4;
         tangon = _closure1_slot0;
         michal = _closure1_slot2;
         entity = 0;

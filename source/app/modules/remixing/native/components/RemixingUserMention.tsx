@@ -117,18 +117,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = offset.bind(vacuum)(entity, tangon);
             tangon = oscard == echoed;
             entity = null;
-            if(tangon) { _fun00002_ip = 912; continue _fun00001 }
- 315:
+            if(tangon) { _fun00002_ip = 908; continue _fun00001 }
+ 313:
             tangon = oscard == source;
             entity = null;
-            if(tangon) { _fun00002_ip = 912; continue _fun00001 }
- 327:
+            if(tangon) { _fun00002_ip = 908; continue _fun00001 }
+ 325:
             tangon = oscard == yankee;
             entity = null;
-            if(tangon) { _fun00002_ip = 912; continue _fun00001 }
- 339:
-            if(!golfie) { _fun00002_ip = 370; continue _fun00001 }
- 342:
+            if(tangon) { _fun00002_ip = 908; continue _fun00001 }
+ 337:
+            if(!golfie) { _fun00002_ip = 366; continue _fun00001 }
+ 340:
             tangon = global;
             offset = tangon.setTimeout;
             tangon = function() {
@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = 30;
             zuuluu = offset.bind(report)(tangon, zuuluu);
             michal = michal.bind(report)();
- 370:
+ 366:
             tangon = _closure1_slot5;
             vacuum = _closure1_slot0;
             offset = _closure1_slot2;
@@ -165,8 +165,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = backup.bind(ctrled)(offset);
             michal['origin'] = offset;
             oscard = null;
-            if(golfie) { _fun00002_ip = 902; continue _fun00001 }
- 478:
+            if(golfie) { _fun00002_ip = 898; continue _fun00001 }
+ 474:
             offset = _closure1_slot0;
             golfie = _closure1_slot2;
             backup = 8;
@@ -174,24 +174,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = offset.bind(report)(golfie);
             golfie = golfie.MentionStyle;
             golfie = golfie.AVATAR;
-            if(!(verify !== golfie)) { _fun00002_ip = 810; continue _fun00001 }
- 517:
+            if(!(verify !== golfie)) { _fun00002_ip = 806; continue _fun00001 }
+ 513:
             offset = _closure1_slot0;
             golfie = _closure1_slot2;
             golfie = golfie[backup];
             golfie = offset.bind(report)(golfie);
             golfie = golfie.MentionStyle;
             golfie = golfie.AVATAR_AND_TAG;
-            if(!(verify !== golfie)) { _fun00002_ip = 735; continue _fun00001 }
- 553:
+            if(!(verify !== golfie)) { _fun00002_ip = 731; continue _fun00001 }
+ 549:
             offset = _closure1_slot0;
             golfie = _closure1_slot2;
             golfie = golfie[backup];
             golfie = offset.bind(report)(golfie);
             golfie = golfie.MentionStyle;
             golfie = golfie.CARD;
-            if(!(verify !== golfie)) { _fun00002_ip = 656; continue _fun00001 }
- 586:
+            if(!(verify !== golfie)) { _fun00002_ip = 652; continue _fun00001 }
+ 582:
             offset = _closure1_slot5;
             verify = _closure1_slot1;
             backup = _closure1_slot2;
@@ -208,8 +208,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['width'] = backup;
             golfie['mentionDisplayText'] = sizing;
             golfie = offset.bind(report)(verify, golfie);
-            _fun00002_ip = 733; continue _fun00001;
- 656:
+            _fun00002_ip = 729; continue _fun00001;
+ 652:
             backup = _closure1_slot5;
             offset = _closure1_slot1;
             ctrled = _closure1_slot2;
@@ -228,9 +228,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['width'] = source;
             verify['mentionDisplayText'] = sizing;
             golfie = backup.bind(report)(offset, verify);
- 733:
-            _fun00002_ip = 808; continue _fun00001;
- 735:
+ 729:
+            _fun00002_ip = 804; continue _fun00001;
+ 731:
             backup = _closure1_slot5;
             offset = _closure1_slot1;
             source = _closure1_slot2;
@@ -248,9 +248,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['width'] = output;
             verify['mentionDisplayText'] = sizing;
             golfie = backup.bind(report)(offset, verify);
- 808:
-            _fun00002_ip = 899; continue _fun00001;
- 810:
+ 804:
+            _fun00002_ip = 895; continue _fun00001;
+ 806:
             offset = _closure1_slot5;
             verify = _closure1_slot1;
             backup = _closure1_slot2;
@@ -273,12 +273,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee['y'] = romeon;
             option['position'] = yankee;
             golfie = offset.bind(report)(verify, option);
- 899:
+ 895:
             oscard = golfie;
- 902:
+ 898:
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 912:
+ 908:
             return entity;
         }
     };

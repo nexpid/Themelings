@@ -801,7 +801,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = oscard[source];
             output = foxtra.bind(tangon)(zuuluu);
             yankee = output.useDerivedValue;
-            zuuluu = function() { // Original name: E
+            zuuluu = function() { // Original name: T
                 _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                     zuuluu = _closure2_slot12;
@@ -1882,7 +1882,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _closure2_slot32 = result;
             verify = _closure1_slot4;
             golfie = verify.useCallback;
-            zuuluu = function(argFoo) { // Original name: N
+            zuuluu = function(argFoo) { // Original name: D
                 _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
  0:
                     tangon = argFoo;
@@ -2153,16 +2153,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = tangon.SCALE_PHYSICS;
     var _closure1_slot19 = verify;
     tangon = 13;
-    offset = oscard[tangon];
-    offset = report.bind(entity)(offset);
-    offset = offset.jsx;
-    var _closure1_slot20 = offset;
-    offset = oscard[tangon];
-    offset = report.bind(entity)(offset);
-    offset = offset.Fragment;
-    var _closure1_slot21 = offset;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    offset = tangon.jsx;
+    var _closure1_slot20 = offset;
+    offset = tangon.Fragment;
+    var _closure1_slot21 = offset;
     tangon = tangon.jsxs;
     var _closure1_slot22 = tangon;
     tangon = 14;
@@ -3389,7 +3385,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu[offset];
             offset = option.bind(tangon)(zuuluu);
             option = offset.useDerivedValue;
-            zuuluu = function() { // Original name: U
+            zuuluu = function() { // Original name: $
                 _fun00071: for(var _fun00072_ip = 0; ; ) switch(_fun00072_ip) {
  0:
                     zuuluu = _closure1_slot16;

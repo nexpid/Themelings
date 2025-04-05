@@ -241,12 +241,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = oscard.Permissions;
     var _closure1_slot13 = oscard;
     oscard = 10;
-    verify = option[oscard];
-    verify = golfie.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot14 = verify;
     oscard = option[oscard];
     oscard = golfie.bind(entity)(oscard);
+    verify = oscard.jsx;
+    var _closure1_slot14 = verify;
     oscard = oscard.jsxs;
     var _closure1_slot15 = oscard;
     oscard = 11;

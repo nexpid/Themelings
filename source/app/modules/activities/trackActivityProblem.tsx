@@ -29,20 +29,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) { // Original name: trackActivityProblem
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            entity = argFoo;
-            yankee = entity.problem;
-            backup = entity.channel;
-            golfie = entity.embeddedActivityLocation;
-            option = entity.feedback;
-            romeon = entity.activityApplication;
-            oscard = entity.analyticsData;
-            offset = entity.location;
-            verify = entity.rating;
+            michal = argFoo;
+            yankee = michal.problem;
+            backup = michal.channel;
+            golfie = michal.embeddedActivityLocation;
+            option = michal.feedback;
+            romeon = michal.activityApplication;
+            oscard = michal.analyticsData;
             entity = undefined;
-            if(!(verify === entity)) { _fun00002_ip = 57; continue _fun00001 }
- 55:
+            if(!(oscard === entity)) { _fun00002_ip = 46; continue _fun00001 }
+ 44:
+            oscard = {};
+ 46:
+            offset = michal.location;
+            verify = michal.rating;
+            if(!(verify === entity)) { _fun00002_ip = 63; continue _fun00001 }
+ 61:
             verify = null;
- 57:
+ 63:
             tangon = _closure1_slot0;
             report = _closure1_slot1;
             zuuluu = 1;
@@ -56,41 +60,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = null;
             kiloes = yankee == backup;
             foxtra = undefined;
-            if(kiloes) { _fun00002_ip = 123; continue _fun00001 }
- 113:
+            if(kiloes) { _fun00002_ip = 129; continue _fun00001 }
+ 119:
             kiloes = backup.getGuildId;
             foxtra = kiloes.bind(backup)();
- 123:
+ 129:
             michal['guild_id'] = foxtra;
             kiloes = yankee == backup;
             foxtra = undefined;
-            if(kiloes) { _fun00002_ip = 141; continue _fun00001 }
- 136:
+            if(kiloes) { _fun00002_ip = 147; continue _fun00001 }
+ 142:
             foxtra = backup.id;
- 141:
+ 147:
             michal['channel_id'] = foxtra;
             backup = yankee == romeon;
             foxtra = undefined;
-            if(backup) { _fun00002_ip = 159; continue _fun00001 }
- 154:
+            if(backup) { _fun00002_ip = 165; continue _fun00001 }
+ 160:
             foxtra = romeon.id;
- 159:
+ 165:
             michal['application_id'] = foxtra;
             foxtra = yankee == romeon;
             yankee = undefined;
-            if(foxtra) { _fun00002_ip = 178; continue _fun00001 }
- 173:
+            if(foxtra) { _fun00002_ip = 184; continue _fun00001 }
+ 179:
             yankee = romeon.name;
- 178:
+ 184:
             michal['application_name'] = yankee;
             michal['location'] = offset;
             michal['rating'] = verify;
             michal['feedback'] = option;
             golfie = golfie.kind;
             michal['embedded_activity_location_kind'] = golfie;
-            output = michal;
-            sizing = oscard;
-            oscard = copyDataProperties(output, sizing);
+            golfie = oscard.rtc_connection_id;
+            michal['rtc_connection_id'] = golfie;
+            oscard = oscard.media_session_id;
+            michal['media_session_id'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return entity;
         }

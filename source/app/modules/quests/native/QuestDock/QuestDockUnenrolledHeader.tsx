@@ -51,16 +51,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.ThemeTypes;
     var _closure1_slot11 = tangon;
     tangon = 5;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot12 = option;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsxs;
-    var _closure1_slot13 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot12 = option;
+    option = tangon.jsxs;
+    var _closure1_slot13 = option;
     tangon = tangon.Fragment;
     var _closure1_slot14 = tangon;
     tangon = 6;
@@ -455,7 +451,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = kiloes[report];
             romeon = michal.bind(tangon)(golfie);
             option = romeon.useAnimatedStyle;
-            golfie = function() { // Original name: h
+            golfie = function() { // Original name: l
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = {};
@@ -511,7 +507,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = kiloes[report];
             romeon = michal.bind(tangon)(golfie);
             option = romeon.useAnimatedProps;
-            golfie = function() { // Original name: M
+            golfie = function() { // Original name: Q
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     entity = {};

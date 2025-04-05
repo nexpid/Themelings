@@ -20,15 +20,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon[0] = option;
         tangon[1] = zuuluu;
         zuuluu = function() {
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            michal = 3;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            tangon = tangon.bind(michal)(zuuluu);
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
+            entity = 3;
+            michal = michal[entity];
+            entity = undefined;
+            tangon = zuuluu.bind(entity)(michal);
             zuuluu = tangon.throttle;
-            michal = _closure1_slot6;
-            entity = function(argFoo) {
+            michal = function(argFoo) {
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
                 entity = 4;
@@ -46,7 +45,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            entity = zuuluu.bind(tangon)(entity, michal);
+            entity = 3000;
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         };
         oscard = oscard.bind(golfie)(zuuluu, tangon);
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    var _closure1_slot7 = entity;
+    var _closure1_slot6 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -113,8 +113,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot5 = tangon;
-    tangon = 3000;
-    var _closure1_slot6 = tangon;
     tangon = 6;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -155,7 +153,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             verify = verify.bind(yankee)(option, golfie);
-            option = _closure1_slot7;
+            option = _closure1_slot6;
             golfie = 'GUILD_HEADER_MEMBER_COUNT';
             golfie = option.bind(tangon)(golfie, offset, verify);
             zuuluu = oscard[zuuluu];
@@ -207,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             verify = verify.bind(yankee)(option, golfie);
-            option = _closure1_slot7;
+            option = _closure1_slot6;
             golfie = 'GUILD_HEADER_ONLINE_COUNT';
             golfie = option.bind(tangon)(golfie, offset, verify);
             zuuluu = oscard[zuuluu];

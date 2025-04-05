@@ -60,12 +60,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = report.ActivityTypes;
     var _closure1_slot12 = report;
     report = 10;
-    verify = golfie[report];
-    verify = oscard.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot13 = verify;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    verify = report.jsx;
+    var _closure1_slot13 = verify;
     report = report.jsxs;
     var _closure1_slot14 = report;
     report = 11;

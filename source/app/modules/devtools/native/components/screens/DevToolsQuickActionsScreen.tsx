@@ -185,12 +185,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.SystemThemeState;
     var _closure1_slot19 = tangon;
     tangon = 16;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot20 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot20 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot21 = tangon;
     tangon = 17;

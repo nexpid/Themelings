@@ -27,12 +27,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.ScrollView;
     var _closure1_slot3 = tangon;
     tangon = 2;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot4 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot4 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot5 = tangon;
     tangon = 3;
@@ -220,8 +218,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['children'] = echoed;
             result = option.bind(tangon)(golfie, result);
             sizing[2] = result;
-            if(!output) { _fun00002_ip = 574; continue _fun00001 }
- 448:
+            if(!output) { _fun00002_ip = 578; continue _fun00001 }
+ 452:
             update = _closure1_slot4;
             echoed = _closure1_slot2;
             result = {};
@@ -250,7 +248,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = update.bind(tangon)(ctrled, source);
             result['children'] = source;
             output = update.bind(tangon)(echoed, result);
- 574:
+ 578:
             sizing[3] = output;
             kiloes['children'] = sizing;
             kiloes = zuuluu.bind(tangon)(golfie, kiloes);

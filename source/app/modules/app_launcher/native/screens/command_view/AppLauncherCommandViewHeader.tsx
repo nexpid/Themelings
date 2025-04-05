@@ -33,12 +33,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot5 = foxtra;
     kiloes = report.SCREEN_BACKGROUND_COLOR;
     report = 3;
-    oscard = offset[report];
-    oscard = verify.bind(entity)(oscard);
-    oscard = oscard.jsx;
-    var _closure1_slot6 = oscard;
     report = offset[report];
     report = verify.bind(entity)(report);
+    oscard = report.jsx;
+    var _closure1_slot6 = oscard;
     report = report.jsxs;
     var _closure1_slot7 = report;
     sizing = 4;
@@ -179,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = zuuluu[romeon];
             verify = michal.bind(tangon)(golfie);
             option = verify.useAnimatedStyle;
-            golfie = function() { // Original name: f
+            golfie = function() { // Original name: O
                 entity = {};
                 golfie = _closure1_slot0;
                 verify = _closure1_slot2;

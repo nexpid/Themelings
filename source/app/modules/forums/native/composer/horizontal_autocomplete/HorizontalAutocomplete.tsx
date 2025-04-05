@@ -115,12 +115,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = report.bind(entity)(michal);
     sizing = michal.AUTOCOMPLETE_ROW_HEIGHT;
     michal = 7;
-    golfie = oscard[michal];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot10 = golfie;
     michal = oscard[michal];
     michal = report.bind(entity)(michal);
+    golfie = michal.jsx;
+    var _closure1_slot10 = golfie;
     michal = michal.jsxs;
     var _closure1_slot11 = michal;
     offset = 8;

@@ -585,12 +585,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = report.Permissions;
     var _closure1_slot10 = report;
     report = 6;
-    verify = golfie[report];
-    verify = oscard.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot11 = verify;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    verify = report.jsx;
+    var _closure1_slot11 = verify;
     report = report.jsxs;
     var _closure1_slot12 = report;
     report = 7;

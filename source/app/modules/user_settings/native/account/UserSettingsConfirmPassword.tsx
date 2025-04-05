@@ -46,12 +46,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.UserSettingsSections;
     var _closure1_slot9 = tangon;
     tangon = 6;
-    report = golfie[tangon];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot10 = report;
     tangon = golfie[tangon];
     tangon = oscard.bind(entity)(tangon);
+    report = tangon.jsx;
+    var _closure1_slot10 = report;
     tangon = tangon.jsxs;
     var _closure1_slot11 = tangon;
     tangon = 7;

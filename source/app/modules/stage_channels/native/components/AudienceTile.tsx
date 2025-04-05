@@ -94,12 +94,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = romeon.bind(entity)(michal);
     var _closure1_slot5 = michal;
     michal = 3;
-    tangon = option[michal];
-    tangon = golfie.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot6 = tangon;
     michal = option[michal];
     michal = golfie.bind(entity)(michal);
+    tangon = michal.jsx;
+    var _closure1_slot6 = tangon;
     michal = michal.jsxs;
     var _closure1_slot7 = michal;
     michal = 4;

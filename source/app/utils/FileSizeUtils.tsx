@@ -12,7 +12,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             golfie = undefined;
             if(!(entity === golfie)) { _fun00002_ip = 16; continue _fun00001 }
  9:
-            entity = _closure1_slot4;
+            entity = _closure1_slot3;
  16:
             zuuluu = entity.useKibibytes;
             michal = 1000;
@@ -22,32 +22,32 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             option = _closure1_slot2;
  41:
             zuuluu = entity.useKibibytes;
-            if(!zuuluu) { _fun00002_ip = 57; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 56; continue _fun00001 }
  50:
-            michal = _closure1_slot3;
- 57:
+            michal = 1024;
+ 56:
             tangon = global;
             oscard = tangon.Math;
             report = oscard.ceil;
             zuuluu = argFoo;
             zuuluu = zuuluu / option;
             oscard = report.bind(oscard)(zuuluu);
-            if(!(!(oscard < michal))) { _fun00002_ip = 236; continue _fun00001 }
- 90:
+            if(!(!(oscard < michal))) { _fun00002_ip = 235; continue _fun00001 }
+ 89:
             michal = oscard / michal;
             zuuluu = entity.showDecimalForGB;
             report = tangon.Math;
             tangon = report.round;
-            if(zuuluu) { _fun00002_ip = 121; continue _fun00001 }
- 114:
+            if(zuuluu) { _fun00002_ip = 120; continue _fun00001 }
+ 113:
             verify = tangon.bind(report)(michal);
-            _fun00002_ip = 137; continue _fun00001;
- 121:
+            _fun00002_ip = 136; continue _fun00001;
+ 120:
             zuuluu = 10;
             michal = zuuluu * michal;
             michal = tangon.bind(report)(michal);
             verify = michal / zuuluu;
- 137:
+ 136:
             michal = entity.useSpace;
             tangon = _closure1_slot0;
             offset = _closure1_slot1;
@@ -59,21 +59,21 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = offset[zuuluu];
             zuuluu = tangon.bind(golfie)(zuuluu);
             zuuluu = zuuluu.t;
-            if(michal) { _fun00002_ip = 214; continue _fun00001 }
- 192:
+            if(michal) { _fun00002_ip = 213; continue _fun00001 }
+ 191:
             tangon = zuuluu.TbMX9P;
             michal = {};
             michal['size'] = verify;
             michal = report.bind(option)(tangon, michal);
-            _fun00002_ip = 234; continue _fun00001;
- 214:
+            _fun00002_ip = 233; continue _fun00001;
+ 213:
             tangon = zuuluu.yhEXX1;
             zuuluu = {};
             zuuluu['size'] = verify;
             michal = report.bind(option)(tangon, zuuluu);
- 234:
+ 233:
             return michal;
- 236:
+ 235:
             entity = entity.useSpace;
             zuuluu = _closure1_slot0;
             option = _closure1_slot1;
@@ -85,23 +85,23 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = option[michal];
             michal = zuuluu.bind(golfie)(michal);
             michal = michal.t;
-            if(entity) { _fun00002_ip = 311; continue _fun00001 }
- 291:
+            if(entity) { _fun00002_ip = 310; continue _fun00001 }
+ 290:
             zuuluu = michal.pIn7AQ;
             entity = {};
             entity['size'] = oscard;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 331; continue _fun00001;
- 311:
+            _fun00002_ip = 330; continue _fun00001;
+ 310:
             zuuluu = michal.cS889P;
             michal = {};
             michal['size'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 331:
+ 330:
             return entity;
         }
     };
-    var _closure1_slot5 = tangon;
+    var _closure1_slot4 = tangon;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -112,9 +112,8 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     entity = option.bind(verify)(zuuluu, entity, report);
     report = 1024;
     var _closure1_slot2 = report;
-    var _closure1_slot3 = report;
     entity = {'useKibibytes': false, 'showDecimalForGB': true, 'useSpace': true};
-    var _closure1_slot4 = entity;
+    var _closure1_slot3 = entity;
     entity = 1;
     oscard = oscard[entity];
     entity = undefined;
@@ -132,7 +131,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             tangon = undefined;
             if(!(report === tangon)) { _fun00004_ip = 16; continue _fun00003 }
  9:
-            report = _closure1_slot4;
+            report = _closure1_slot3;
  16:
             michal = report.useKibibytes;
             entity = 1000;
@@ -186,7 +185,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
  212:
             _fun00004_ip = 227; continue _fun00003;
  214:
-            michal = _closure1_slot5;
+            michal = _closure1_slot4;
             entity = michal.bind(tangon)(zuuluu, report);
  227:
             return entity;

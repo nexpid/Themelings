@@ -167,12 +167,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.MetadataFields;
     var _closure1_slot12 = tangon;
     tangon = 7;
-    report = golfie[tangon];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot13 = report;
     tangon = golfie[tangon];
     tangon = oscard.bind(entity)(tangon);
+    report = tangon.jsx;
+    var _closure1_slot13 = report;
     tangon = tangon.jsxs;
     var _closure1_slot14 = tangon;
     tangon = 8;

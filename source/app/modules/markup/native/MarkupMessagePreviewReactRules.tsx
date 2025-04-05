@@ -992,12 +992,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = option.MUTED_OPACITY_CONTENT;
     var _closure1_slot3 = option;
     option = 2;
-    verify = golfie[option];
-    verify = oscard.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot4 = verify;
     option = golfie[option];
     option = oscard.bind(entity)(option);
+    verify = option.jsx;
+    var _closure1_slot4 = verify;
     option = option.jsxs;
     var _closure1_slot5 = option;
     offset = report.RegExp;

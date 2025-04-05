@@ -17,32 +17,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = 'undefined';
             michal = typeof michal;
             michal = tangon !== michal;
-            if(!michal) { _fun00002_ip = 45; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 46; continue _fun00001 }
  30:
             tangon = report.Symbol;
             tangon = tangon.iterator;
             michal = zuuluu[tangon];
- 45:
-            if(michal) { _fun00002_ip = 54; continue _fun00001 }
- 48:
+ 46:
+            if(michal) { _fun00002_ip = 55; continue _fun00001 }
+ 49:
             michal = zuuluu.@@iterator;
- 54:
-            if(michal) { _fun00002_ip = 344; continue _fun00001 }
- 60:
+ 55:
+            if(michal) { _fun00002_ip = 345; continue _fun00001 }
+ 61:
             oscard = report.Array;
             tangon = oscard.isArray;
             oscard = tangon.bind(oscard)(zuuluu);
             tangon = michal;
-            if(oscard) { _fun00002_ip = 322; continue _fun00001 }
- 85:
+            if(oscard) { _fun00002_ip = 323; continue _fun00001 }
+ 86:
             option = undefined;
             oscard = undefined;
-            if(!zuuluu) { _fun00002_ip = 282; continue _fun00001 }
- 95:
+            if(!zuuluu) { _fun00002_ip = 283; continue _fun00001 }
+ 96:
             verify = 'string';
             golfie = typeof zuuluu;
-            if(!(verify !== golfie)) { _fun00002_ip = 269; continue _fun00001 }
- 109:
+            if(!(verify !== golfie)) { _fun00002_ip = 270; continue _fun00001 }
+ 110:
             golfie = {};
             verify = golfie.toString;
             golfie = verify.call;
@@ -53,49 +53,49 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = offset.bind(yankee)(verify, golfie);
             golfie = 'Object';
             golfie = golfie === verify;
-            if(!golfie) { _fun00002_ip = 162; continue _fun00001 }
- 157:
+            if(!golfie) { _fun00002_ip = 163; continue _fun00001 }
+ 158:
             golfie = zuuluu.constructor;
- 162:
+ 163:
             offset = verify;
-            if(!golfie) { _fun00002_ip = 178; continue _fun00001 }
- 168:
+            if(!golfie) { _fun00002_ip = 179; continue _fun00001 }
+ 169:
             golfie = zuuluu.constructor;
             offset = golfie.name;
- 178:
+ 179:
             golfie = 'Map';
-            if(!(golfie !== offset)) { _fun00002_ip = 248; continue _fun00001 }
- 186:
+            if(!(golfie !== offset)) { _fun00002_ip = 249; continue _fun00001 }
+ 187:
             golfie = 'Set';
-            if(!(golfie !== offset)) { _fun00002_ip = 248; continue _fun00001 }
- 194:
+            if(!(golfie !== offset)) { _fun00002_ip = 249; continue _fun00001 }
+ 195:
             golfie = 'Arguments';
-            if(!(golfie !== offset)) { _fun00002_ip = 233; continue _fun00001 }
- 204:
+            if(!(golfie !== offset)) { _fun00002_ip = 234; continue _fun00001 }
+ 205:
             verify = /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/;
             golfie = verify.test;
             verify = golfie.bind(verify)(offset);
             golfie = undefined;
-            if(!verify) { _fun00002_ip = 246; continue _fun00001 }
- 233:
+            if(!verify) { _fun00002_ip = 247; continue _fun00001 }
+ 234:
             verify = _closure1_slot13;
             golfie = verify.bind(option)(zuuluu, option);
- 246:
-            _fun00002_ip = 264; continue _fun00001;
- 248:
+ 247:
+            _fun00002_ip = 265; continue _fun00001;
+ 249:
             offset = report.Array;
             verify = offset.from;
             golfie = verify.bind(offset)(zuuluu);
- 264:
+ 265:
             oscard = golfie;
-            _fun00002_ip = 282; continue _fun00001;
- 269:
+            _fun00002_ip = 283; continue _fun00001;
+ 270:
             golfie = _closure1_slot13;
             oscard = golfie.bind(option)(zuuluu, option);
- 282:
+ 283:
             tangon = oscard;
-            if(tangon) { _fun00002_ip = 322; continue _fun00001 }
- 288:
+            if(tangon) { _fun00002_ip = 323; continue _fun00001 }
+ 289:
             golfie = report.TypeError;
             report = golfie.prototype;
             oscard = Object.create(report, {constructor: {value: golfie}});
@@ -104,11 +104,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = new backup[golfie](foxtra, romeon);
             report = report instanceof Object ? report : oscard;
             throw report;
- 322:
-            if(!tangon) { _fun00002_ip = 329; continue _fun00001 }
- 325:
+ 323:
+            if(!tangon) { _fun00002_ip = 330; continue _fun00001 }
+ 326:
             _closure2_slot0 = tangon;
- 329:
+ 330:
             tangon = 0;
             var _closure2_slot1 = tangon;
             entity = function() {
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             return entity;
- 344:
+ 345:
             entity = michal.call;
             zuuluu = entity.bind(michal)(zuuluu);
             michal = zuuluu.next;
@@ -183,43 +183,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     var _closure1_slot13 = entity;
-    entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
- 0:
-            tangon = argFoo;
-            oscard = argBaz;
-            michal = _closure1_slot7;
-            zuuluu = undefined;
-            entity = argBar;
-            verify = michal.bind(zuuluu)(entity);
-            michal = _closure1_slot6;
-            entity = _closure1_slot15;
-            entity = entity.bind(zuuluu)();
-            if(entity) { _fun00008_ip = 51; continue _fun00007 }
- 38:
-            entity = verify.apply;
-            entity = entity.bind(verify)(tangon, oscard);
-            _fun00008_ip = 92; continue _fun00007;
- 51:
-            golfie = global;
-            option = golfie.Reflect;
-            golfie = option.construct;
-            if(oscard) { _fun00008_ip = 71; continue _fun00007 }
- 67:
-            oscard = new Array(0);
- 71:
-            report = _closure1_slot7;
-            report = report.bind(zuuluu)(tangon);
-            report = report.constructor;
-            entity = golfie.bind(option)(verify, oscard, report);
- 92:
-            entity = michal.bind(zuuluu)(tangon, entity);
-            return entity;
-        }
-    };
-    var _closure1_slot14 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
  2: // try_start_0
             michal = global;
@@ -240,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = !michal;
             var _closure2_slot0 = michal;
  72: // try_end0
-            _fun00010_ip = 76; continue _fun00009;
+            _fun00008_ip = 76; continue _fun00007;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -250,13 +215,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot15 = michal;
+            _closure1_slot14 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot15 = entity;
+    var _closure1_slot14 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -314,130 +279,151 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = tangon.Store;
     michal = function(argFoo) {
         tangon = function() { // Original name: MessagePreviewStore
-            oscard = this;
-            zuuluu = _closure1_slot4;
-            report = _closure2_slot0;
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(oscard, report);
-            zuuluu = _closure1_slot14;
-            golfie = _closure1_slot1;
-            option = _closure1_slot2;
-            entity = 9;
-            entity = option[entity];
-            golfie = golfie.bind(tangon)(entity);
-            entity = new Array(2);
-            entity[0] = golfie;
-            golfie = {};
-            option = function(argFoo) { // Original name: CONNECTION_OPEN
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleConnectionOpen;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+ 0:
+                report = this;
+                entity = _closure1_slot4;
+                zuuluu = _closure2_slot0;
+                tangon = undefined;
+                entity = entity.bind(tangon)(report, zuuluu);
+                golfie = _closure1_slot1;
+                option = _closure1_slot2;
+                entity = 9;
+                entity = option[entity];
+                entity = golfie.bind(tangon)(entity);
+                offset = new Array(2);
+                offset[0] = entity;
+                entity = {};
+                golfie = function(argFoo) { // Original name: CONNECTION_OPEN
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.handleConnectionOpen;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                entity['CONNECTION_OPEN'] = golfie;
+                golfie = function(argFoo) { // Original name: GUILD_CREATE
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.handleGuildCreate;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                entity['GUILD_CREATE'] = golfie;
+                golfie = function(argFoo) { // Original name: GUILD_DELETE
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.handleGuildDelete;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                entity['GUILD_DELETE'] = golfie;
+                golfie = function(argFoo) { // Original name: LOAD_MESSAGES_SUCCESS
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.handleLoadMessagesSuccess;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                entity['LOAD_MESSAGES_SUCCESS'] = golfie;
+                golfie = function(argFoo) { // Original name: LOCAL_MESSAGES_LOADED
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.handleLocalMessagesLoaded;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                entity['LOCAL_MESSAGES_LOADED'] = golfie;
+                golfie = function(argFoo) { // Original name: LOGOUT
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.handleLogout;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                entity['LOGOUT'] = golfie;
+                golfie = function(argFoo) { // Original name: MESSAGE_CREATE
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.handleMessageCreate;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                entity['MESSAGE_CREATE'] = golfie;
+                golfie = function(argFoo) { // Original name: MESSAGE_DELETE
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.handleMessageDelete;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                entity['MESSAGE_DELETE'] = golfie;
+                golfie = function(argFoo) { // Original name: MESSAGE_PREVIEWS_LOADED
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.handleMessagePreviewsLoaded;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                entity['MESSAGE_PREVIEWS_LOADED'] = golfie;
+                golfie = function(argFoo) { // Original name: MESSAGE_PREVIEWS_LOCALLY_LOADED
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.handleMessagePreviewsLocallyLoaded;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                entity['MESSAGE_PREVIEWS_LOCALLY_LOADED'] = golfie;
+                golfie = function(argFoo) { // Original name: MESSAGE_UPDATE
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.handleMessageUpdate;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                entity['MESSAGE_UPDATE'] = golfie;
+                golfie = function(argFoo) { // Original name: THREAD_LIST_SYNC
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.handleThreadListSync;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                entity['THREAD_LIST_SYNC'] = golfie;
+                offset[1] = entity;
+                entity = _closure1_slot7;
+                verify = entity.bind(tangon)(zuuluu);
+                zuuluu = _closure1_slot6;
+                entity = _closure1_slot14;
+                entity = entity.bind(tangon)();
+                if(entity) { _fun00010_ip = 244; continue _fun00009 }
+ 231:
+                entity = verify.apply;
+                entity = entity.bind(verify)(report, offset);
+                _fun00010_ip = 278; continue _fun00009;
+ 244:
+                golfie = global;
+                option = golfie.Reflect;
+                golfie = option.construct;
+                oscard = _closure1_slot7;
+                oscard = oscard.bind(tangon)(report);
+                oscard = oscard.constructor;
+                entity = golfie.bind(option)(verify, offset, oscard);
+ 278:
+                entity = zuuluu.bind(tangon)(report, entity);
+                var _closure3_slot0 = entity;
+                michal = global;
+                michal = michal.Map;
+                zuuluu = michal.prototype;
+                zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
+                backup = zuuluu;
+                michal = new backup[michal](foxtra);
+                michal = michal instanceof Object ? michal : zuuluu;
+                entity['guilds'] = michal;
+                michal = 0;
+                entity['generation'] = michal;
                 return entity;
-            };
-            golfie['CONNECTION_OPEN'] = option;
-            option = function(argFoo) { // Original name: GUILD_CREATE
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleGuildCreate;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            golfie['GUILD_CREATE'] = option;
-            option = function(argFoo) { // Original name: GUILD_DELETE
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleGuildDelete;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            golfie['GUILD_DELETE'] = option;
-            option = function(argFoo) { // Original name: LOAD_MESSAGES_SUCCESS
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleLoadMessagesSuccess;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            golfie['LOAD_MESSAGES_SUCCESS'] = option;
-            option = function(argFoo) { // Original name: LOCAL_MESSAGES_LOADED
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleLocalMessagesLoaded;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            golfie['LOCAL_MESSAGES_LOADED'] = option;
-            option = function(argFoo) { // Original name: LOGOUT
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleLogout;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            golfie['LOGOUT'] = option;
-            option = function(argFoo) { // Original name: MESSAGE_CREATE
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleMessageCreate;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            golfie['MESSAGE_CREATE'] = option;
-            option = function(argFoo) { // Original name: MESSAGE_DELETE
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleMessageDelete;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            golfie['MESSAGE_DELETE'] = option;
-            option = function(argFoo) { // Original name: MESSAGE_PREVIEWS_LOADED
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleMessagePreviewsLoaded;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            golfie['MESSAGE_PREVIEWS_LOADED'] = option;
-            option = function(argFoo) { // Original name: MESSAGE_PREVIEWS_LOCALLY_LOADED
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleMessagePreviewsLocallyLoaded;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            golfie['MESSAGE_PREVIEWS_LOCALLY_LOADED'] = option;
-            option = function(argFoo) { // Original name: MESSAGE_UPDATE
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleMessageUpdate;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            golfie['MESSAGE_UPDATE'] = option;
-            option = function(argFoo) { // Original name: THREAD_LIST_SYNC
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleThreadListSync;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            golfie['THREAD_LIST_SYNC'] = option;
-            entity[1] = golfie;
-            entity = zuuluu.bind(tangon)(oscard, report, entity);
-            var _closure3_slot0 = entity;
-            michal = global;
-            michal = michal.Map;
-            zuuluu = michal.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
-            romeon = zuuluu;
-            michal = new romeon[michal](yankee);
-            michal = michal instanceof Object ? michal : zuuluu;
-            entity['guilds'] = michal;
-            michal = 0;
-            entity['generation'] = michal;
-            return entity;
+            }
         };
         var _closure2_slot0 = tangon;
         report = _closure1_slot8;

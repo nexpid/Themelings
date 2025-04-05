@@ -37,10 +37,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     foxtra = 4;
     tangon = oscard[foxtra];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot7 = tangon;
-    tangon = oscard[foxtra];
-    tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot7 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot8 = tangon;
     offset = 5;

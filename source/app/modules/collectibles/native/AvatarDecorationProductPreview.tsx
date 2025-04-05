@@ -34,12 +34,10 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     tangon = yankee.bind(entity)(tangon);
     var _closure1_slot5 = tangon;
     tangon = 4;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot6 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot6 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot7 = tangon;
     tangon = 5;

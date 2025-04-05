@@ -82,19 +82,21 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = function() { // Original name: getVoiceEngine
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            michal = _closure1_slot3;
+            zuuluu = _closure1_slot3;
             entity = undefined;
-            entity = michal.bind(entity)();
-            entity = _closure1_slot1;
-            michal = null;
-            if(!(michal == entity)) { _fun00004_ip = 44; continue _fun00003 }
+            entity = zuuluu.bind(entity)();
+            zuuluu = _closure1_slot1;
+            entity = null;
+            if(!(entity == zuuluu)) { _fun00004_ip = 43; continue _fun00003 }
  23:
-            tangon = _closure1_slot0;
-            michal = tangon.getVoiceEngine;
-            michal = michal.bind(tangon)();
-            var _closure1_slot1 = michal;
-            entity = michal;
- 44:
+            zuuluu = _closure1_slot0;
+            entity = zuuluu.getVoiceEngine;
+            entity = entity.bind(zuuluu)();
+            var _closure1_slot1 = entity;
+            _fun00004_ip = 47; continue _fun00003;
+ 43:
+            entity = _closure1_slot1;
+ 47:
             return entity;
         }
     };
@@ -102,19 +104,21 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     michal = function() { // Original name: getVoiceFilters
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            michal = _closure1_slot3;
+            zuuluu = _closure1_slot3;
             entity = undefined;
-            entity = michal.bind(entity)();
-            entity = _closure1_slot2;
-            michal = null;
-            if(!(michal == entity)) { _fun00006_ip = 44; continue _fun00005 }
+            entity = zuuluu.bind(entity)();
+            zuuluu = _closure1_slot2;
+            entity = null;
+            if(!(entity == zuuluu)) { _fun00006_ip = 43; continue _fun00005 }
  23:
-            tangon = _closure1_slot0;
-            michal = tangon.getVoiceFilters;
-            michal = michal.bind(tangon)();
-            var _closure1_slot2 = michal;
-            entity = michal;
- 44:
+            zuuluu = _closure1_slot0;
+            entity = zuuluu.getVoiceFilters;
+            entity = entity.bind(zuuluu)();
+            var _closure1_slot2 = entity;
+            _fun00006_ip = 47; continue _fun00005;
+ 43:
+            entity = _closure1_slot2;
+ 47:
             return entity;
         }
     };

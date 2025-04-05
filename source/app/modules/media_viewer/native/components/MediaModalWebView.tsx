@@ -34,10 +34,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         offset = 2;
         michal = golfie[offset];
         michal = oscard.bind(entity)(michal);
-        michal = michal.jsx;
-        var _closure1_slot6 = michal;
-        michal = golfie[offset];
-        michal = oscard.bind(entity)(michal);
+        report = michal.jsx;
+        var _closure1_slot6 = report;
         michal = michal.jsxs;
         var _closure1_slot7 = michal;
         option = 3;
@@ -46,10 +44,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = report.isIOS;
         report = michal.bind(report)();
         michal = '';
-        if(!report) { _fun00002_ip = 189; continue _fun00001 }
- 183:
+        if(!report) { _fun00002_ip = 180; continue _fun00001 }
+ 174:
         michal = "\n  window.addEventListener('click', function(event) {\n    window.ReactNativeWebView.postMessage(JSON.stringify({event: 'click'}));\n  });\n";
- 189:
+ 180:
         var _closure1_slot8 = michal;
         michal = {};
         michal['UNREADY'] = foxtra;

@@ -246,10 +246,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     kiloes = 2;
     oscard = option[kiloes];
     oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.jsx;
-    var _closure1_slot5 = oscard;
-    oscard = option[kiloes];
-    oscard = golfie.bind(entity)(oscard);
+    verify = oscard.jsx;
+    var _closure1_slot5 = verify;
     oscard = oscard.jsxs;
     var _closure1_slot6 = oscard;
     oscard = 3;

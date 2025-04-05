@@ -370,7 +370,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity = foxtra[result];
             zuuluu = whisks.bind(tangon)(entity);
             michal = zuuluu.useAnimatedProps;
-            entity = function() { // Original name: N
+            entity = function() { // Original name: I
                 entity = {};
                 zuuluu = _closure2_slot0;
                 michal = zuuluu.get;
@@ -632,12 +632,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     report = report.MessageTypes;
     var _closure1_slot11 = report;
     report = 6;
-    option = golfie[report];
-    option = oscard.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot12 = option;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    option = report.jsx;
+    var _closure1_slot12 = option;
     report = report.jsxs;
     var _closure1_slot13 = report;
     report = 7;

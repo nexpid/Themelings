@@ -331,21 +331,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     michal = _closure2_slot1;
-                    if(michal) { _fun00010_ip = 62; continue _fun00009 }
+                    if(michal) { _fun00010_ip = 58; continue _fun00009 }
  10:
                     michal = _closure2_slot0;
                     tangon = michal.current;
                     michal = null;
-                    if(!(michal != tangon)) { _fun00010_ip = 50; continue _fun00009 }
+                    if(!(michal != tangon)) { _fun00010_ip = 46; continue _fun00009 }
  25:
                     zuuluu = tangon.scrollToOffset;
                     michal = {'offset': 0, 'animated': false};
                     michal = zuuluu.bind(tangon)(michal);
- 50:
+ 46:
                     michal = _closure2_slot4;
                     entity = 0;
                     michal['current'] = entity;
- 62:
+ 58:
                     entity = undefined;
                     return entity;
                 }
@@ -388,30 +388,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = argFoo;
                     tangon = michal + entity;
                     michal = _closure2_slot9;
-                    if(!(!(tangon < michal))) { _fun00012_ip = 56; continue _fun00011 }
+                    if(!(!(tangon < michal))) { _fun00012_ip = 53; continue _fun00011 }
  21:
                     zuuluu = _closure2_slot8;
                     michal = _closure2_slot9;
                     report = tangon - michal;
                     michal = _closure1_slot9;
-                    report = report / michal;
-                    michal = 0;
-                    michal = report >> michal;
+                    michal = report / michal;
+                    michal = michal | 0;
                     michal = zuuluu + michal;
-                    _fun00012_ip = 73; continue _fun00011;
- 56:
+                    _fun00012_ip = 67; continue _fun00011;
+ 53:
                     zuuluu = _closure1_slot8;
-                    tangon = tangon / zuuluu;
-                    zuuluu = 0;
-                    michal = tangon >> zuuluu;
- 73:
+                    zuuluu = tangon / zuuluu;
+                    michal = zuuluu | 0;
+ 67:
                     zuuluu = _closure2_slot4;
                     zuuluu = zuuluu.current;
-                    if(!(michal > zuuluu)) { _fun00012_ip = 96; continue _fun00011 }
- 86:
+                    if(!(michal > zuuluu)) { _fun00012_ip = 90; continue _fun00011 }
+ 80:
                     entity = _closure2_slot4;
                     entity['current'] = michal;
- 96:
+ 90:
                     entity = undefined;
                     return entity;
                 }

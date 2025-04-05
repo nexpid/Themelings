@@ -24,12 +24,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = argCor;
     tangon = tangon.bind(entity)(golfie);
     tangon = 2;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.Fragment;
-    var _closure1_slot3 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.Fragment;
+    var _closure1_slot3 = golfie;
     tangon = tangon.jsx;
     var _closure1_slot4 = tangon;
     tangon = 5;

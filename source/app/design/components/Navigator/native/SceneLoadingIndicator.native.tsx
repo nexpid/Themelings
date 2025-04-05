@@ -29,12 +29,10 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     var _closure1_slot4 = golfie;
     option = tangon.StyleSheet;
     tangon = 2;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot5 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot5 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot6 = tangon;
     golfie = option.create;

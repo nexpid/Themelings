@@ -64,12 +64,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     yankee = report.bind(entity)(yankee);
     backup = yankee.Fonts;
     yankee = 9;
-    romeon = oscard[yankee];
-    romeon = report.bind(entity)(romeon);
-    romeon = romeon.jsx;
-    var _closure1_slot13 = romeon;
     yankee = oscard[yankee];
     yankee = report.bind(entity)(yankee);
+    romeon = yankee.jsx;
+    var _closure1_slot13 = romeon;
     yankee = yankee.jsxs;
     var _closure1_slot14 = yankee;
     yankee = tangon.Set;

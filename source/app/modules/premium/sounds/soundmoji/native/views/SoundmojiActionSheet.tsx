@@ -29,12 +29,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = tangon.View;
         var _closure1_slot4 = tangon;
         tangon = 2;
-        golfie = oscard[tangon];
-        golfie = report.bind(entity)(golfie);
-        golfie = golfie.jsx;
-        var _closure1_slot5 = golfie;
         tangon = oscard[tangon];
         tangon = report.bind(entity)(tangon);
+        golfie = tangon.jsx;
+        var _closure1_slot5 = golfie;
         tangon = tangon.jsxs;
         var _closure1_slot6 = tangon;
         tangon = 3;
@@ -65,10 +63,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         romeon = backup.isIOS;
         backup = romeon.bind(backup)();
         romeon = undefined;
-        if(!backup) { _fun00002_ip = 280; continue _fun00001 }
- 277:
+        if(!backup) { _fun00002_ip = 271; continue _fun00001 }
+ 268:
         romeon = foxtra;
- 280:
+ 271:
         verify['fontSize'] = romeon;
         romeon = oscard[offset];
         romeon = yankee.bind(entity)(romeon);

@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         michal['__workletHash'] = oscard;
         oscard = _closure1_slot9;
         michal['__initData'] = oscard;
-        entity = function(argFoo, argBar) { // Original name: b
+        entity = function(argFoo, argBar) { // Original name: s
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tangon = argFoo;
@@ -167,12 +167,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     tangon = tangon.View;
     var _closure1_slot5 = tangon;
     tangon = 3;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot6 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot6 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot7 = tangon;
     tangon = 4;

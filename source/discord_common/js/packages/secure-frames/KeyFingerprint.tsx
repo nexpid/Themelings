@@ -15,43 +15,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = argBar;
                     oscard = argBaz;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 379; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 366; continue _fun00001 }
  19:
                     verify = 0;
-                    if(!(verify === offset)) { _fun00002_ip = 343; continue _fun00001 }
+                    if(!(verify === offset)) { _fun00002_ip = 330; continue _fun00001 }
  28:
                     michal = tangon.byteLength;
-                    if(!(verify !== michal)) { _fun00002_ip = 307; continue _fun00001 }
+                    if(!(verify !== michal)) { _fun00002_ip = 294; continue _fun00001 }
  41:
                     michal = oscard.length;
-                    if(!(verify !== michal)) { _fun00002_ip = 271; continue _fun00001 }
+                    if(!(verify !== michal)) { _fun00002_ip = 258; continue _fun00001 }
  53:
                     michal = global;
                     report = michal.BigInt;
                     zuuluu = undefined;
                     golfie = report.bind(zuuluu)(oscard);
                     zuuluu = 0n;
-                    if(!(!(golfie < zuuluu))) { _fun00002_ip = 237; continue _fun00001 }
+                    if(!(!(golfie < zuuluu))) { _fun00002_ip = 224; continue _fun00001 }
  79:
                     foxtra = 2n;
                     romeon = 64n;
                     zuuluu = exponentiationOperator(foxtra, romeon);
-                    if(!(!(golfie >= zuuluu))) { _fun00002_ip = 237; continue _fun00001 }
+                    if(!(!(golfie >= zuuluu))) { _fun00002_ip = 224; continue _fun00001 }
  98:
                     oscard = michal.Uint8Array;
-                    report = _closure1_slot1;
                     zuuluu = tangon.byteLength;
-                    report = report + zuuluu;
-                    zuuluu = _closure1_slot2;
-                    foxtra = report + zuuluu;
-                    report = oscard.prototype;
-                    report = Object.create(report, {constructor: {value: oscard}});
+                    option = 2;
+                    yankee = option + zuuluu;
+                    zuuluu = oscard.prototype;
+                    report = Object.create(zuuluu, {constructor: {value: oscard}});
+                    zuuluu = 8;
+                    foxtra = yankee + zuuluu;
                     backup = report;
                     zuuluu = new backup[oscard](foxtra, romeon);
                     zuuluu = zuuluu instanceof Object ? zuuluu : report;
-                    oscard = zuuluu.set;
-                    report = _closure1_slot1;
-                    report = oscard.bind(zuuluu)(tangon, report);
+                    report = zuuluu.set;
+                    report = report.bind(zuuluu)(tangon, option);
                     yankee = michal.DataView;
                     foxtra = zuuluu.buffer;
                     oscard = yankee.prototype;
@@ -62,12 +61,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = oscard.setUint16;
                     report = report.bind(oscard)(verify, offset);
                     report = oscard.setBigUint64;
-                    option = _closure1_slot1;
                     tangon = tangon.byteLength;
                     tangon = option + tangon;
                     tangon = report.bind(oscard)(tangon, golfie);
                     return zuuluu;
- 237:
+ 224:
                     tangon = michal.Error;
                     michal = tangon.prototype;
                     zuuluu = Object.create(michal, {constructor: {value: tangon}});
@@ -76,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = new backup[tangon](foxtra, romeon);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 271:
+ 258:
                     michal = global;
                     tangon = michal.Error;
                     michal = tangon.prototype;
@@ -86,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = new backup[tangon](foxtra, romeon);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 307:
+ 294:
                     michal = global;
                     tangon = michal.Error;
                     michal = tangon.prototype;
@@ -96,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = new backup[tangon](foxtra, romeon);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 343:
+ 330:
                     michal = global;
                     tangon = michal.Error;
                     michal = tangon.prototype;
@@ -106,14 +104,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = new backup[tangon](foxtra, romeon);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 379:
+ 366:
                     return entity;
                 }
             };
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot3 = tangon;
+        _closure1_slot1 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -121,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot3 = entity;
+    var _closure1_slot1 = entity;
     entity = global;
     golfie = entity.Object;
     oscard = golfie.defineProperty;
@@ -136,10 +134,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = undefined;
     tangon = tangon.bind(entity)(oscard);
     var _closure1_slot0 = tangon;
-    tangon = 2;
-    var _closure1_slot1 = tangon;
-    tangon = 8;
-    var _closure1_slot2 = tangon;
     tangon = 1;
     report = report[tangon];
     tangon = argBar;
@@ -149,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     michal = function() { // Original name: generateKeyFingerprint
         entity = undefined;
-        tangon = _closure1_slot3;
+        tangon = _closure1_slot1;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;

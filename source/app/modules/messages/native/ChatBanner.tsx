@@ -720,12 +720,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot9 = option;
     sizing = report.Fonts;
     report = 6;
-    option = golfie[report];
-    option = oscard.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot10 = option;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    option = report.jsx;
+    var _closure1_slot10 = option;
     report = report.jsxs;
     var _closure1_slot11 = report;
     report = 7;

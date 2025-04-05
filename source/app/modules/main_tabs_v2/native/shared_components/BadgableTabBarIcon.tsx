@@ -1,11 +1,11 @@
 // app/modules/main_tabs_v2/native/shared_components/BadgableTabBarIcon.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    kiloes = argBaz;
+    foxtra = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = kiloes;
+    var _closure1_slot1 = foxtra;
     var _closure1_slot2 = oscard;
     entity = function(argFoo) { // Original name: BadgeContent
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -30,10 +30,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = zuuluu.XNn2u7;
  78:
             zuuluu = 0;
-            if(!(!(foxtra > zuuluu))) { _fun00002_ip = 144; continue _fun00001 }
+            if(!(!(foxtra > zuuluu))) { _fun00002_ip = 143; continue _fun00001 }
  84:
             entity = null;
-            if(!michal) { _fun00002_ip = 139; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 138; continue _fun00001 }
  89:
             tangon = _closure1_slot12;
             zuuluu = _closure1_slot1;
@@ -42,14 +42,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = oscard[michal];
             zuuluu = zuuluu.bind(report)(michal);
             michal = {};
-            oscard = _closure1_slot17;
+            oscard = 12;
             michal['size'] = oscard;
             oscard = yankee.unread;
             michal['style'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 139:
-            _fun00002_ip = 280; continue _fun00001;
- 144:
+ 138:
+            _fun00002_ip = 279; continue _fun00001;
+ 143:
             tangon = _closure1_slot12;
             zuuluu = _closure1_slot4;
             michal = {};
@@ -64,10 +64,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = backup[oscard];
             golfie = golfie.bind(report)(oscard);
             oscard = {};
-            if(!offset) { _fun00002_ip = 203; continue _fun00001 }
- 197:
+            if(!offset) { _fun00002_ip = 202; continue _fun00001 }
+ 196:
             offset = yankee.lowPriorityBadge;
- 203:
+ 202:
             oscard['style'] = offset;
             oscard['value'] = foxtra;
             offset = false;
@@ -86,11 +86,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 280:
+ 279:
             return entity;
         }
     };
-    var _closure1_slot19 = entity;
+    var _closure1_slot17 = entity;
     entity = function(argFoo) { // Original name: useIconContentStyle
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -120,33 +120,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = {};
-                    michal = _closure1_slot16;
+                    michal = 8;
                     entity['borderRadius'] = michal;
                     zuuluu = _closure2_slot2;
                     report = _closure2_slot0;
-                    if(zuuluu) { _fun00006_ip = 36; continue _fun00005 }
- 27:
+                    if(zuuluu) { _fun00006_ip = 32; continue _fun00005 }
+ 23:
                     zuuluu = 3;
                     tangon = report / zuuluu;
-                    _fun00006_ip = 50; continue _fun00005;
- 36:
+                    _fun00006_ip = 46; continue _fun00005;
+ 32:
                     zuuluu = 0.55;
                     tangon = zuuluu * report;
- 50:
+ 46:
                     zuuluu = _closure2_slot1;
                     zuuluu = tangon + zuuluu;
                     entity['top'] = zuuluu;
                     zuuluu = _closure2_slot2;
                     report = _closure2_slot0;
-                    if(zuuluu) { _fun00006_ip = 89; continue _fun00005 }
- 73:
+                    if(zuuluu) { _fun00006_ip = 85; continue _fun00005 }
+ 69:
                     zuuluu = 0.625;
                     zuuluu = zuuluu * report;
-                    _fun00006_ip = 103; continue _fun00005;
- 89:
+                    _fun00006_ip = 99; continue _fun00005;
+ 85:
                     tangon = 0.65;
                     zuuluu = tangon * report;
- 103:
+ 99:
                     michal = _closure2_slot1;
                     michal = zuuluu + michal;
                     entity['left'] = michal;
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot20 = entity;
+    var _closure1_slot18 = entity;
     entity = function(argFoo) { // Original name: useIconBadgeCutout
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -259,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot21 = entity;
+    var _closure1_slot19 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -274,169 +274,165 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     entity = undefined;
     tangon = tangon.bind(entity)(golfie);
     var _closure1_slot3 = tangon;
-    foxtra = 1;
-    tangon = oscard[foxtra];
+    yankee = 1;
+    tangon = oscard[yankee];
     tangon = report.bind(entity)(tangon);
     golfie = tangon.View;
     var _closure1_slot4 = golfie;
     tangon = tangon.Image;
     var _closure1_slot5 = tangon;
-    result = 2;
-    tangon = oscard[result];
-    tangon = kiloes.bind(entity)(tangon);
+    sizing = 2;
+    tangon = oscard[sizing];
+    tangon = foxtra.bind(entity)(tangon);
     var _closure1_slot6 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
-    tangon = kiloes.bind(entity)(tangon);
+    tangon = foxtra.bind(entity)(tangon);
     var _closure1_slot7 = tangon;
     tangon = 4;
     tangon = oscard[tangon];
-    tangon = kiloes.bind(entity)(tangon);
+    tangon = foxtra.bind(entity)(tangon);
     var _closure1_slot8 = tangon;
     tangon = 5;
     tangon = oscard[tangon];
-    tangon = kiloes.bind(entity)(tangon);
+    tangon = foxtra.bind(entity)(tangon);
     var _closure1_slot9 = tangon;
     tangon = 6;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    output = tangon.BADGE_SIZE;
+    kiloes = tangon.BADGE_SIZE;
     tangon = 7;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.StatusSizes;
     var _closure1_slot10 = tangon;
-    golfie = 8;
-    tangon = oscard[golfie];
+    tangon = 8;
+    tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.StatusTypes;
     var _closure1_slot11 = tangon;
     tangon = 9;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot12 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot12 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot13 = tangon;
     tangon = 10;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    option = tangon.AVATAR_SIZE_MAP;
+    golfie = tangon.AVATAR_SIZE_MAP;
     tangon = 11;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.AvatarSizes;
     tangon = tangon.NORMAL;
-    romeon = option[tangon];
-    var _closure1_slot14 = romeon;
+    offset = golfie[tangon];
+    var _closure1_slot14 = offset;
     tangon = 12;
-    option = oscard[tangon];
-    offset = report.bind(entity)(option);
-    verify = offset.createStyles;
-    option = {};
-    yankee = {};
-    backup = 'relative';
-    yankee['position'] = backup;
-    option['container'] = yankee;
-    yankee = {};
-    sizing = 13;
-    backup = oscard[sizing];
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.createStyles;
+    tangon = {};
+    verify = {};
+    romeon = 'relative';
+    verify['position'] = romeon;
+    tangon['container'] = verify;
+    verify = {};
+    backup = 13;
+    romeon = oscard[backup];
+    romeon = report.bind(entity)(romeon);
+    romeon = romeon.TABLET_ICON_YOU_WIDTH;
+    romeon = romeon - offset;
+    romeon = -romeon;
+    result = romeon / sizing;
+    romeon = 14;
+    output = oscard[romeon];
+    output = foxtra.bind(entity)(output);
+    output = output.spacing;
+    output = output.PX_24;
+    output = result + output;
+    verify['left'] = output;
+    tangon['containerTablet'] = verify;
+    verify = {};
+    output = 'absolute';
+    verify['position'] = output;
+    tangon['content'] = verify;
+    verify = {};
+    output = oscard[romeon];
+    output = foxtra.bind(entity)(output);
+    output = output.unsafe_rawColors;
+    output = output.PRIMARY_400;
+    verify['backgroundColor'] = output;
+    tangon['lowPriorityBadge'] = verify;
+    verify = {'height': 22, 'width': 22};
+    kiloes = kiloes / sizing;
+    verify['borderRadius'] = kiloes;
+    tangon['unread'] = verify;
+    verify = {};
+    verify['width'] = offset;
+    verify['height'] = offset;
+    tangon['avatarTablet'] = verify;
+    verify = {};
+    kiloes = oscard[romeon];
+    kiloes = foxtra.bind(entity)(kiloes);
+    kiloes = kiloes.spacing;
+    kiloes = kiloes.PX_4;
+    verify['padding'] = kiloes;
+    tangon['avatarCutout'] = verify;
+    verify = {'width': null, 'left': null, 'height': null, 'justifyContent': 'center', 'position': 'absolute', 'bottom': 0, 'top': 0};
+    backup = oscard[backup];
     backup = report.bind(entity)(backup);
     backup = backup.TABLET_ICON_YOU_WIDTH;
-    backup = backup - romeon;
-    backup = -backup;
-    update = backup / result;
-    backup = 14;
-    echoed = oscard[backup];
-    echoed = kiloes.bind(entity)(echoed);
-    echoed = echoed.spacing;
-    echoed = echoed.PX_24;
-    echoed = update + echoed;
-    yankee['left'] = echoed;
-    option['containerTablet'] = yankee;
-    yankee = {};
-    echoed = 'absolute';
-    yankee['position'] = echoed;
-    option['content'] = yankee;
-    yankee = {};
-    echoed = oscard[backup];
-    echoed = kiloes.bind(entity)(echoed);
-    echoed = echoed.unsafe_rawColors;
-    echoed = echoed.PRIMARY_400;
-    yankee['backgroundColor'] = echoed;
-    option['lowPriorityBadge'] = yankee;
-    yankee = {'height': 22, 'width': 22};
-    output = output / result;
-    yankee['borderRadius'] = output;
-    option['unread'] = yankee;
-    yankee = {};
-    yankee['width'] = romeon;
-    yankee['height'] = romeon;
-    option['avatarTablet'] = yankee;
-    yankee = {};
-    output = oscard[backup];
-    output = kiloes.bind(entity)(output);
-    output = output.spacing;
-    output = output.PX_4;
-    yankee['padding'] = output;
-    option['avatarCutout'] = yankee;
-    yankee = {'width': null, 'left': null, 'height': null, 'justifyContent': 'center', 'position': 'absolute', 'bottom': 0, 'top': 0};
-    sizing = oscard[sizing];
-    sizing = report.bind(entity)(sizing);
-    sizing = sizing.TABLET_ICON_YOU_WIDTH;
-    output = sizing - romeon;
-    sizing = oscard[backup];
-    sizing = kiloes.bind(entity)(sizing);
-    sizing = sizing.spacing;
-    sizing = sizing.PX_24;
-    sizing = output - sizing;
-    yankee['width'] = sizing;
-    backup = oscard[backup];
-    backup = kiloes.bind(entity)(backup);
+    kiloes = backup - offset;
+    backup = oscard[romeon];
+    backup = foxtra.bind(entity)(backup);
     backup = backup.spacing;
-    backup = backup.PX_16;
-    backup = romeon + backup;
-    yankee['left'] = backup;
-    yankee['height'] = romeon;
-    option['usernameTablet'] = yankee;
-    yankee = {};
-    romeon = 15;
-    backup = oscard[romeon];
-    backup = report.bind(entity)(backup);
-    backup = backup.ICON_SIZE;
-    backup = backup.md;
-    yankee['width'] = backup;
-    backup = oscard[romeon];
-    backup = report.bind(entity)(backup);
-    backup = backup.ICON_SIZE;
-    backup = backup.md;
-    yankee['height'] = backup;
-    yankee['opacity'] = foxtra;
-    option['tabBarIconSelected'] = yankee;
-    yankee = {};
-    foxtra = oscard[romeon];
-    foxtra = report.bind(entity)(foxtra);
-    foxtra = foxtra.ICON_SIZE;
-    foxtra = foxtra.md;
-    yankee['width'] = foxtra;
+    backup = backup.PX_24;
+    backup = kiloes - backup;
+    verify['width'] = backup;
     romeon = oscard[romeon];
+    romeon = foxtra.bind(entity)(romeon);
+    romeon = romeon.spacing;
+    romeon = romeon.PX_16;
+    romeon = offset + romeon;
+    verify['left'] = romeon;
+    verify['height'] = offset;
+    tangon['usernameTablet'] = verify;
+    verify = {};
+    offset = 15;
+    romeon = oscard[offset];
     romeon = report.bind(entity)(romeon);
     romeon = romeon.ICON_SIZE;
     romeon = romeon.md;
-    yankee['height'] = romeon;
-    romeon = 0.5;
-    yankee['opacity'] = romeon;
-    option['tabBarIconUnselected'] = yankee;
-    option = verify.bind(offset)(option);
-    var _closure1_slot15 = option;
-    var _closure1_slot16 = golfie;
-    var _closure1_slot17 = tangon;
+    verify['width'] = romeon;
+    romeon = oscard[offset];
+    romeon = report.bind(entity)(romeon);
+    romeon = romeon.ICON_SIZE;
+    romeon = romeon.md;
+    verify['height'] = romeon;
+    verify['opacity'] = yankee;
+    tangon['tabBarIconSelected'] = verify;
+    verify = {};
+    yankee = oscard[offset];
+    yankee = report.bind(entity)(yankee);
+    yankee = yankee.ICON_SIZE;
+    yankee = yankee.md;
+    verify['width'] = yankee;
+    offset = oscard[offset];
+    offset = report.bind(entity)(offset);
+    offset = offset.ICON_SIZE;
+    offset = offset.md;
+    verify['height'] = offset;
+    offset = 0.5;
+    verify['opacity'] = offset;
+    tangon['tabBarIconUnselected'] = verify;
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot15 = tangon;
     tangon = {};
     golfie = 'function BadgableTabBarIconTsx1(){const{scaleDownAnimation,rotationAnimation,wobbleAnimationX,wobbleAnimationY}=this.__closure;return{transform:[{scale:scaleDownAnimation.get()},{rotate:rotationAnimation.get()+"deg"},{scaleX:wobbleAnimationX.get()},{scaleY:wobbleAnimationY.get()}]};}';
     tangon['code'] = golfie;
-    var _closure1_slot18 = tangon;
+    var _closure1_slot16 = tangon;
     tangon = 35;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -481,7 +477,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  142:
             source = oscard.tabBarIconSelected;
  148:
-            verify = _closure1_slot20;
+            verify = _closure1_slot18;
             golfie = {};
             golfie['iconSize'] = yankee;
             verify = verify.bind(tangon)(golfie);
@@ -489,7 +485,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = entity.value;
             echoed = entity.showDot;
             result = entity.lowPriority;
-            golfie = _closure1_slot21;
+            golfie = _closure1_slot19;
             entity = {};
             entity['iconSize'] = yankee;
             yankee = 11;
@@ -572,7 +568,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option[1] = verify;
             michal['style'] = option;
             sizing = _closure1_slot12;
-            verify = _closure1_slot19;
+            verify = _closure1_slot17;
             option = {};
             option['value'] = vacuum;
             option['countA11yLabel'] = ctrled;
@@ -826,7 +822,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.useRef;
             papara = michal.bind(zuuluu)(vacuum);
             _closure2_slot2 = papara;
-            zuuluu = _closure1_slot20;
+            zuuluu = _closure1_slot18;
             michal = {};
             michal['iconSize'] = option;
             verify = yankee.avatarCutout;
@@ -834,7 +830,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['offset'] = verify;
             michal['adjustForYouTab'] = golfie;
             echoed = zuuluu.bind(tangon)(michal);
-            zuuluu = _closure1_slot21;
+            zuuluu = _closure1_slot19;
             michal = {};
             michal['iconSize'] = option;
             option = yankee.avatarCutout;
@@ -1195,7 +1191,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['__closure'] = sequen;
             sequen = 3024112617373.0;
             option['__workletHash'] = sequen;
-            sequen = _closure1_slot18;
+            sequen = _closure1_slot16;
             option['__initData'] = sequen;
             equals = backup.bind(sizing)(option);
             sizing = _closure1_slot3;

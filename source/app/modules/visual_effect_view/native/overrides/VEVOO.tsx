@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = romeon[entity];
         report = backup.bind(tangon)(zuuluu);
         zuuluu = report.useAnimatedStyle;
-        michal = function() { // Original name: w
+        michal = function() { // Original name: _
             entity = {};
             golfie = _closure1_slot0;
             option = _closure1_slot2;
@@ -190,12 +190,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = michal.DEV_WIDGET_SIZE;
     var _closure1_slot5 = michal;
     michal = 4;
-    report = golfie[michal];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot6 = report;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
+    report = michal.jsx;
+    var _closure1_slot6 = report;
     michal = michal.jsxs;
     var _closure1_slot7 = michal;
     report = 5;

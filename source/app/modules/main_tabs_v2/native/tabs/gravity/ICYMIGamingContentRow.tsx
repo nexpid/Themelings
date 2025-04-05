@@ -227,12 +227,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = report.MESSAGE_CONTENT_INSET;
     var _closure1_slot6 = report;
     report = 3;
-    option = golfie[report];
-    option = oscard.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot7 = option;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    option = report.jsx;
+    var _closure1_slot7 = option;
     report = report.jsxs;
     var _closure1_slot8 = report;
     report = 4;
@@ -497,7 +495,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = zuuluu.bind(tangon)(entity, michal);
             michal = yankee == vacuum;
             entity = null;
-            if(michal) { _fun00008_ip = 1077; continue _fun00007 }
+            if(michal) { _fun00008_ip = 1075; continue _fun00007 }
  246:
             zuuluu = yankee == offset;
             michal = undefined;
@@ -507,7 +505,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  261:
             michal = yankee == michal;
             entity = null;
-            if(michal) { _fun00008_ip = 1077; continue _fun00007 }
+            if(michal) { _fun00008_ip = 1075; continue _fun00007 }
  273:
             tangon = _closure1_slot8;
             zuuluu = _closure1_slot4;
@@ -687,7 +685,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1077:
+ 1075:
             return entity;
         }
     };

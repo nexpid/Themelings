@@ -485,12 +485,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     romeon = tangon.ICYMI_MARGIN;
     offset = tangon.MESSAGE_CONTENT_INSET;
     tangon = 6;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot10 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot10 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot11 = tangon;
     tangon = 7;

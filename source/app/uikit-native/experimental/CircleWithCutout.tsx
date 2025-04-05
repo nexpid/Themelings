@@ -49,12 +49,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     entity = undefined;
     verify = verify.bind(entity)(offset);
     verify = 1;
-    offset = option[verify];
-    offset = golfie.bind(entity)(offset);
-    offset = offset.jsx;
-    var _closure1_slot3 = offset;
     verify = option[verify];
     verify = golfie.bind(entity)(verify);
+    offset = verify.jsx;
+    var _closure1_slot3 = offset;
     verify = verify.jsxs;
     var _closure1_slot4 = verify;
     oscard = oscard.Math;

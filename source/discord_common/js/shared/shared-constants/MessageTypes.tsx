@@ -242,7 +242,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = entity.Set;
     oscard = option.prototype;
     golfie = Object.create(oscard, {constructor: {value: option}});
-    yankee = [1, 2, 3, 4, 5, 21];
+    yankee = [1, 2, 3, 4, 5, 21, 56, 57];
     romeon = golfie;
     oscard = new romeon[option](yankee, offset);
     oscard = oscard instanceof Object ? oscard : golfie;

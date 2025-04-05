@@ -130,12 +130,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = report.StyleSheet;
     var _closure1_slot12 = report;
     report = 8;
-    oscard = verify[report];
-    oscard = option.bind(entity)(oscard);
-    oscard = oscard.jsx;
-    var _closure1_slot13 = oscard;
     report = verify[report];
     report = option.bind(entity)(report);
+    oscard = report.jsx;
+    var _closure1_slot13 = oscard;
     report = report.jsxs;
     var _closure1_slot14 = report;
     report = 9;

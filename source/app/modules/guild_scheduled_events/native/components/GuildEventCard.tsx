@@ -225,12 +225,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = michal.isGuildScheduledEventActive;
     var _closure1_slot6 = michal;
     michal = 5;
-    report = golfie[michal];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot7 = report;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
+    report = michal.jsx;
+    var _closure1_slot7 = report;
     michal = michal.jsxs;
     var _closure1_slot8 = michal;
     michal = 6;

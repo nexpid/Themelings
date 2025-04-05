@@ -22,12 +22,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = tangon.bind(entity)(golfie);
     var _closure1_slot3 = golfie;
     tangon = 1;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot4 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot4 = option;
     tangon = tangon.jsxs;
     var _closure1_slot5 = tangon;
     tangon = golfie.memo;

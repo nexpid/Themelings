@@ -45,12 +45,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = michal.AnalyticsPages;
     var _closure1_slot8 = michal;
     michal = 6;
-    tangon = golfie[michal];
-    tangon = oscard.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot9 = tangon;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
+    tangon = michal.jsx;
+    var _closure1_slot9 = tangon;
     michal = michal.jsxs;
     var _closure1_slot10 = michal;
     michal = 7;

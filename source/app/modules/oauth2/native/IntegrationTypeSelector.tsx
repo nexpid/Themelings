@@ -28,12 +28,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot4 = report;
     backup = michal.StyleSheet;
     michal = 2;
-    report = golfie[michal];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot5 = report;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
+    report = michal.jsx;
+    var _closure1_slot5 = report;
     michal = michal.jsxs;
     var _closure1_slot6 = michal;
     michal = 3;

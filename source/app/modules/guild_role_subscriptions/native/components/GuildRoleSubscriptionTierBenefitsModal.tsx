@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot18 = entity;
+    var _closure1_slot17 = entity;
     entity = function(argFoo) { // Original name: getSectionLabel
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot19 = entity;
+    var _closure1_slot18 = entity;
     entity = function(argFoo) { // Original name: getAddItemLabel
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot20 = entity;
+    var _closure1_slot19 = entity;
     entity = function() { // Original name: Separator
         michal = _closure1_slot15;
         tangon = undefined;
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot21 = entity;
+    var _closure1_slot20 = entity;
     entity = function() { // Original name: ItemSeparator
         entity = _closure1_slot15;
         tangon = undefined;
@@ -243,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot22 = entity;
+    var _closure1_slot21 = entity;
     entity = function(argFoo) { // Original name: EmojiRowLabel
         entity = argFoo;
         verify = entity.emoji;
@@ -272,7 +272,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         foxtra['id'] = sizing;
         sizing = verify.animated;
         foxtra['animated'] = sizing;
-        sizing = _closure1_slot17;
+        sizing = 48;
         foxtra['size'] = sizing;
         foxtra = backup.bind(kiloes)(foxtra);
         romeon['uri'] = foxtra;
@@ -293,7 +293,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot23 = entity;
+    var _closure1_slot22 = entity;
     entity = function(argFoo) { // Original name: ListFooterSection
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -556,7 +556,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot24 = entity;
+    var _closure1_slot23 = entity;
     entity = function(argFoo) { // Original name: Content
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
@@ -596,7 +596,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = {};
                 golfie = golfie.header;
                 entity['style'] = golfie;
-                report = _closure1_slot19;
+                report = _closure1_slot18;
                 report = report.bind(tangon)(oscard);
                 entity['children'] = report;
                 entity = zuuluu.bind(tangon)(michal, entity);
@@ -991,7 +991,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(entity) { _fun00012_ip = 758; continue _fun00011 }
  722:
             zuuluu = _closure1_slot12;
-            michal = _closure1_slot24;
+            michal = _closure1_slot23;
             entity = {};
             entity['interval'] = update;
             entity['onChangeTrialInterval'] = echoed;
@@ -1106,7 +1106,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie[1] = option;
                     zuuluu['style'] = golfie;
                     option = _closure1_slot12;
-                    golfie = _closure1_slot23;
+                    golfie = _closure1_slot22;
                     oscard = {};
                     oscard['emoji'] = michal;
                     michal = undefined;
@@ -1169,9 +1169,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = entity.type;
                 var _closure3_slot0 = golfie;
                 tangon = _closure1_slot12;
-                zuuluu = _closure1_slot18;
+                zuuluu = _closure1_slot17;
                 michal = {};
-                oscard = _closure1_slot20;
+                oscard = _closure1_slot19;
                 entity = undefined;
                 oscard = oscard.bind(entity)(golfie);
                 michal['label'] = oscard;
@@ -1243,22 +1243,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity['renderSectionFooter'] = golfie;
-            golfie = _closure1_slot22;
+            golfie = _closure1_slot21;
             entity['ItemSeparatorComponent'] = golfie;
-            oscard = _closure1_slot21;
+            oscard = _closure1_slot20;
             entity['SectionSeparatorComponent'] = oscard;
             entity['ListFooterComponent'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    var _closure1_slot25 = entity;
+    var _closure1_slot24 = entity;
     tangon = function(argFoo) { // Original name: GuildRoleSubscriptionTierBenefitsTab
         entity = argFoo;
         report = entity.onlyChannels;
         entity = entity.onlyIntangible;
         tangon = _closure1_slot12;
-        zuuluu = _closure1_slot25;
+        zuuluu = _closure1_slot24;
         michal = {};
         michal['onlyChannels'] = report;
         michal['onlyIntangible'] = entity;
@@ -1266,7 +1266,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    var _closure1_slot26 = tangon;
+    var _closure1_slot25 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -1309,16 +1309,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = report.GuildRoleSubscriptionsTierScenes;
     var _closure1_slot11 = report;
     report = 6;
-    option = golfie[report];
-    option = oscard.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot12 = option;
-    option = golfie[report];
-    option = oscard.bind(entity)(option);
-    option = option.jsxs;
-    var _closure1_slot13 = option;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    option = report.jsx;
+    var _closure1_slot12 = option;
+    option = report.jsxs;
+    var _closure1_slot13 = option;
     report = report.Fragment;
     var _closure1_slot14 = report;
     report = 7;
@@ -1436,8 +1432,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = 'EMOJI';
     report[verify] = option;
     var _closure1_slot16 = report;
-    report = 48;
-    var _closure1_slot17 = report;
     report = 34;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
@@ -1488,7 +1482,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = 'scrollable';
         entity[oscard] = golfie;
         golfie = _closure1_slot12;
-        oscard = _closure1_slot26;
+        oscard = _closure1_slot25;
         report = {};
         report['onlyChannels'] = option;
         oscard = golfie.bind(zuuluu)(oscard, report);
@@ -1541,7 +1535,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = 'scrollable';
         entity[oscard] = golfie;
         golfie = _closure1_slot12;
-        oscard = _closure1_slot26;
+        oscard = _closure1_slot25;
         report = {};
         report['onlyIntangible'] = option;
         oscard = golfie.bind(zuuluu)(oscard, report);

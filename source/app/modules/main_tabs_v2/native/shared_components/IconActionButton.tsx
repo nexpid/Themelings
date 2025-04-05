@@ -69,10 +69,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         sizing = 1;
         tangon = option[sizing];
         tangon = golfie.bind(entity)(tangon);
-        tangon = tangon.jsx;
-        var _closure1_slot4 = tangon;
-        tangon = option[sizing];
-        tangon = golfie.bind(entity)(tangon);
+        oscard = tangon.jsx;
+        var _closure1_slot4 = oscard;
         tangon = tangon.jsxs;
         var _closure1_slot5 = tangon;
         tangon = 2;
@@ -129,10 +127,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         output = golfie.bind(entity)(sizing);
         sizing = output.isAndroid;
         sizing = sizing.bind(output)();
-        if(!sizing) { _fun00002_ip = 390; continue _fun00001 }
- 384:
+        if(!sizing) { _fun00002_ip = 381; continue _fun00001 }
+ 375:
         kiloes = -2;
- 390:
+ 381:
         romeon['marginTop'] = kiloes;
         oscard['actionText'] = romeon;
         romeon = {'position': 'absolute', 'left': 4294967294, 'top': 4294967295};

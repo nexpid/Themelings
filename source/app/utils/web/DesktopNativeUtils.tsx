@@ -19,32 +19,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = 'undefined';
                 michal = typeof michal;
                 michal = tangon !== michal;
-                if(!michal) { _fun00004_ip = 45; continue _fun00003 }
+                if(!michal) { _fun00004_ip = 46; continue _fun00003 }
  30:
                 tangon = report.Symbol;
                 tangon = tangon.iterator;
                 michal = zuuluu[tangon];
- 45:
-                if(michal) { _fun00004_ip = 54; continue _fun00003 }
- 48:
+ 46:
+                if(michal) { _fun00004_ip = 55; continue _fun00003 }
+ 49:
                 michal = zuuluu.@@iterator;
- 54:
-                if(michal) { _fun00004_ip = 342; continue _fun00003 }
- 60:
+ 55:
+                if(michal) { _fun00004_ip = 343; continue _fun00003 }
+ 61:
                 oscard = report.Array;
                 tangon = oscard.isArray;
                 oscard = tangon.bind(oscard)(zuuluu);
                 tangon = michal;
-                if(oscard) { _fun00004_ip = 322; continue _fun00003 }
- 85:
+                if(oscard) { _fun00004_ip = 323; continue _fun00003 }
+ 86:
                 option = undefined;
                 oscard = undefined;
-                if(!zuuluu) { _fun00004_ip = 282; continue _fun00003 }
- 95:
+                if(!zuuluu) { _fun00004_ip = 283; continue _fun00003 }
+ 96:
                 verify = 'string';
                 golfie = typeof zuuluu;
-                if(!(verify !== golfie)) { _fun00004_ip = 269; continue _fun00003 }
- 109:
+                if(!(verify !== golfie)) { _fun00004_ip = 270; continue _fun00003 }
+ 110:
                 golfie = {};
                 verify = golfie.toString;
                 golfie = verify.call;
@@ -55,49 +55,49 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify = offset.bind(yankee)(verify, golfie);
                 golfie = 'Object';
                 golfie = golfie === verify;
-                if(!golfie) { _fun00004_ip = 162; continue _fun00003 }
- 157:
+                if(!golfie) { _fun00004_ip = 163; continue _fun00003 }
+ 158:
                 golfie = zuuluu.constructor;
- 162:
+ 163:
                 offset = verify;
-                if(!golfie) { _fun00004_ip = 178; continue _fun00003 }
- 168:
+                if(!golfie) { _fun00004_ip = 179; continue _fun00003 }
+ 169:
                 golfie = zuuluu.constructor;
                 offset = golfie.name;
- 178:
+ 179:
                 golfie = 'Map';
-                if(!(golfie !== offset)) { _fun00004_ip = 248; continue _fun00003 }
- 186:
+                if(!(golfie !== offset)) { _fun00004_ip = 249; continue _fun00003 }
+ 187:
                 golfie = 'Set';
-                if(!(golfie !== offset)) { _fun00004_ip = 248; continue _fun00003 }
- 194:
+                if(!(golfie !== offset)) { _fun00004_ip = 249; continue _fun00003 }
+ 195:
                 golfie = 'Arguments';
-                if(!(golfie !== offset)) { _fun00004_ip = 233; continue _fun00003 }
- 204:
+                if(!(golfie !== offset)) { _fun00004_ip = 234; continue _fun00003 }
+ 205:
                 verify = /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/;
                 golfie = verify.test;
                 verify = golfie.bind(verify)(offset);
                 golfie = undefined;
-                if(!verify) { _fun00004_ip = 246; continue _fun00003 }
- 233:
+                if(!verify) { _fun00004_ip = 247; continue _fun00003 }
+ 234:
                 verify = _closure1_slot15;
                 golfie = verify.bind(option)(zuuluu, option);
- 246:
-                _fun00004_ip = 264; continue _fun00003;
- 248:
+ 247:
+                _fun00004_ip = 265; continue _fun00003;
+ 249:
                 offset = report.Array;
                 verify = offset.from;
                 golfie = verify.bind(offset)(zuuluu);
- 264:
+ 265:
                 oscard = golfie;
-                _fun00004_ip = 282; continue _fun00003;
- 269:
+                _fun00004_ip = 283; continue _fun00003;
+ 270:
                 golfie = _closure1_slot15;
                 oscard = golfie.bind(option)(zuuluu, option);
- 282:
+ 283:
                 tangon = oscard;
-                if(tangon) { _fun00004_ip = 322; continue _fun00003 }
- 288:
+                if(tangon) { _fun00004_ip = 323; continue _fun00003 }
+ 289:
                 golfie = report.TypeError;
                 report = golfie.prototype;
                 oscard = Object.create(report, {constructor: {value: golfie}});
@@ -106,11 +106,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = new backup[golfie](foxtra, romeon);
                 report = report instanceof Object ? report : oscard;
                 throw report;
- 322:
-                if(!tangon) { _fun00004_ip = 329; continue _fun00003 }
- 325:
+ 323:
+                if(!tangon) { _fun00004_ip = 330; continue _fun00003 }
+ 326:
                 _closure2_slot0 = tangon;
- 329:
+ 330:
                 tangon = 0;
                 var _closure2_slot1 = tangon;
                 entity = function() {
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     }
                 };
                 return entity;
- 342:
+ 343:
                 entity = michal.call;
                 zuuluu = entity.bind(michal)(zuuluu);
                 michal = zuuluu.next;
@@ -3783,12 +3783,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                 entity = argBar;
                 tangon = this;
-                report = _closure1_slot8;
+                zuuluu = _closure1_slot8;
                 michal = null;
-                if(!(michal == report)) { _fun00170_ip = 29; continue _fun00169 }
+                if(!(michal == zuuluu)) { _fun00170_ip = 31; continue _fun00169 }
  19:
                 report = [0, 0, 0];
- 29:
+                _fun00170_ip = 35; continue _fun00169;
+ 31:
+                report = _closure1_slot8;
+ 35:
                 zuuluu = new Array(0);
                 option = 0;
                 backup = zuuluu;
@@ -3800,24 +3803,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = michal == yankee;
                 golfie = undefined;
                 offset = undefined;
-                if(report) { _fun00170_ip = 78; continue _fun00169 }
- 71:
+                if(report) { _fun00170_ip = 84; continue _fun00169 }
+ 77:
                 report = argFoo;
                 offset = yankee[report];
- 78:
+ 84:
                 yankee = michal != offset;
                 report = 0;
-                if(!yankee) { _fun00170_ip = 90; continue _fun00169 }
- 87:
+                if(!yankee) { _fun00170_ip = 96; continue _fun00169 }
+ 93:
                 report = offset;
- 90:
+ 96:
                 report = oscard.bind(zuuluu)(report);
                 tangon = tangon.releaseChannel;
                 oscard = entity[tangon];
-                if(!(michal == oscard)) { _fun00170_ip = 115; continue _fun00169 }
- 109:
-                oscard = entity.stable;
+                if(!(michal == oscard)) { _fun00170_ip = 121; continue _fun00169 }
  115:
+                oscard = entity.stable;
+ 121:
                 michal = _closure1_slot14;
                 entity = zuuluu.entries;
                 entity = entity.bind(zuuluu)();
@@ -3826,32 +3829,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.done;
                 tangon = 2;
                 zuuluu = 1;
-                if(entity) { _fun00170_ip = 216; continue _fun00169 }
- 152:
+                if(entity) { _fun00170_ip = 222; continue _fun00169 }
+ 158:
                 offset = michal.value;
                 entity = _closure1_slot3;
                 offset = entity.bind(golfie)(offset, tangon);
                 entity = offset[option];
                 offset = offset[zuuluu];
                 yankee = oscard[entity];
-                if(!(!(offset > yankee))) { _fun00170_ip = 212; continue _fun00169 }
- 183:
+                if(!(!(offset > yankee))) { _fun00170_ip = 218; continue _fun00169 }
+ 189:
                 entity = oscard[entity];
-                if(!(!(offset < entity))) { _fun00170_ip = 208; continue _fun00169 }
- 191:
+                if(!(!(offset < entity))) { _fun00170_ip = 214; continue _fun00169 }
+ 197:
                 offset = report.bind(golfie)();
                 entity = offset.done;
                 michal = offset;
-                if(entity) { _fun00170_ip = 216; continue _fun00169 }
- 206:
-                _fun00170_ip = 152; continue _fun00169;
- 208:
+                if(entity) { _fun00170_ip = 222; continue _fun00169 }
+ 212:
+                _fun00170_ip = 158; continue _fun00169;
+ 214:
                 entity = false;
                 return entity;
- 212:
+ 218:
                 entity = true;
                 return entity;
- 216:
+ 222:
                 entity = true;
                 return entity;
             }

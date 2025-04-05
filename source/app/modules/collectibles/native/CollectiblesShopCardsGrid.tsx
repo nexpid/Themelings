@@ -1,12 +1,12 @@
 // app/modules/collectibles/native/CollectiblesShopCardsGrid.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
+    report = argBar;
     zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
+    oscard = argPlu;
+    var _closure1_slot0 = report;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function(argFoo) { // Original name: CollectibleShopCardsGridRow
         entity = argFoo;
         golfie = entity.itemGroup;
@@ -28,11 +28,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = offset[michal];
         michal = verify.bind(tangon)(michal);
         verify = michal.COLLECTIBLES_SHOP_CARD_WIDTH;
-        michal = _closure1_slot7;
+        michal = 16;
         michal = verify + michal;
         michal = option / michal;
         zuuluu = zuuluu.bind(oscard)(michal);
-        michal = _closure1_slot8;
+        michal = _closure1_slot7;
         oscard = michal.bind(tangon)(zuuluu);
         zuuluu = _closure1_slot6;
         michal = _closure1_slot4;
@@ -81,71 +81,63 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot8 = entity;
     entity = global;
     option = entity.Object;
-    report = option.defineProperty;
-    michal = {};
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    michal['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, michal);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    report = golfie[entity];
-    michal = argCor;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    michal = michal.bind(entity)(report);
-    var _closure1_slot3 = michal;
-    michal = 1;
-    michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
-    report = michal.View;
-    var _closure1_slot4 = report;
-    michal = michal.FlatList;
-    var _closure1_slot5 = michal;
-    michal = 2;
-    michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
-    michal = michal.jsx;
-    var _closure1_slot6 = michal;
-    michal = 16;
-    var _closure1_slot7 = michal;
-    report = 3;
-    report = golfie[report];
-    verify = oscard.bind(entity)(report);
-    option = verify.createStyles;
-    report = function() {
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.View;
+    var _closure1_slot4 = golfie;
+    tangon = tangon.FlatList;
+    var _closure1_slot5 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot6 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.createStyles;
+    tangon = function() {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golfie = arguments[0];
-            option = undefined;
-            if(!(golfie === option)) { _fun00002_ip = 12; continue _fun00001 }
+            report = arguments[0];
+            golfie = undefined;
+            if(!(report === golfie)) { _fun00002_ip = 12; continue _fun00001 }
  9:
-            golfie = 2;
+            report = 2;
  12:
             entity = {};
-            tangon = 1;
+            zuuluu = 1;
             michal = {'flex': 1, 'alignItems': 'center'};
             entity['rootContainer'] = michal;
-            michal = {};
+            michal = {'width': null, 'flexDirection': 'row', 'gap': 16, 'paddingBottom': 16};
             oscard = _closure1_slot0;
-            verify = _closure1_slot2;
-            report = 4;
-            report = verify[report];
-            report = oscard.bind(option)(report);
-            report = report.COLLECTIBLES_SHOP_CARD_WIDTH;
-            report = report * golfie;
-            oscard = _closure1_slot7;
-            tangon = golfie - tangon;
-            tangon = oscard * tangon;
-            tangon = report + tangon;
-            michal['width'] = tangon;
-            tangon = 'row';
-            michal['flexDirection'] = tangon;
-            tangon = _closure1_slot7;
-            michal['gap'] = tangon;
-            zuuluu = _closure1_slot7;
-            michal['paddingBottom'] = zuuluu;
+            option = _closure1_slot2;
+            tangon = 4;
+            tangon = option[tangon];
+            tangon = oscard.bind(golfie)(tangon);
+            tangon = tangon.COLLECTIBLES_SHOP_CARD_WIDTH;
+            tangon = tangon * report;
+            report = report - zuuluu;
+            zuuluu = 16;
+            zuuluu = zuuluu * report;
+            zuuluu = tangon + zuuluu;
+            michal['width'] = zuuluu;
             entity['rowContainer'] = michal;
             michal = {};
             zuuluu = '100%';
@@ -156,22 +148,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    report = option.bind(verify)(report);
-    var _closure1_slot8 = report;
-    report = 9;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/collectibles/native/CollectiblesShopCardsGrid.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function(argFoo) { // Original name: CollectiblesShopCardsGrid
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot7 = tangon;
+    tangon = 9;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/collectibles/native/CollectiblesShopCardsGrid.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: CollectiblesShopCardsGrid
         michal = argFoo;
         oscard = michal.products;
         var _closure2_slot0 = oscard;
         entity = michal.column;
         var _closure2_slot1 = entity;
         romeon = michal.onScroll;
-        michal = _closure1_slot8;
+        michal = _closure1_slot7;
         tangon = undefined;
         backup = michal.bind(tangon)();
         report = _closure1_slot3;
@@ -225,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.item;
             report = michal.index;
             tangon = _closure1_slot6;
-            zuuluu = _closure1_slot9;
+            zuuluu = _closure1_slot8;
             michal = {};
             michal['itemGroup'] = entity;
             entity = _closure2_slot1;
@@ -259,7 +251,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zuuluu['default'] = tangon;
+    zuuluu['default'] = michal;
+    michal = 16;
     zuuluu['SHOP_CARD_GAP'] = michal;
     return entity;
 })();

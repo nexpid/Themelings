@@ -63,16 +63,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.AnalyticEvents;
     var _closure1_slot12 = tangon;
     tangon = 10;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.Fragment;
-    var _closure1_slot13 = option;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsxs;
-    var _closure1_slot14 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.Fragment;
+    var _closure1_slot13 = option;
+    option = tangon.jsxs;
+    var _closure1_slot14 = option;
     tangon = tangon.jsx;
     var _closure1_slot15 = tangon;
     option = verify.create;
@@ -466,7 +462,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = report.bind(result)(sequen);
             _closure2_slot7 = result;
             record = cntext.useCallback;
-            report = function(argFoo) { // Original name: y
+            report = function(argFoo) { // Original name: A
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     zuuluu = argFoo;

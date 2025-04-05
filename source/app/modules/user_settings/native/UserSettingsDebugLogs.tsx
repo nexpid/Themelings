@@ -35,12 +35,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     offset = tangon.Fonts;
     tangon = 4;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsxs;
-    var _closure1_slot6 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsxs;
+    var _closure1_slot6 = golfie;
     tangon = tangon.jsx;
     var _closure1_slot7 = tangon;
     tangon = 5;

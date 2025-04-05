@@ -116,8 +116,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = option[michal];
     michal = golfie.bind(entity)(michal);
     offset = michal.RPC_AUTHENTICATED_SCOPE;
-    tangon = {};
     michal = michal.RPC_SCOPE_CONFIG;
+    tangon = {};
     verify = michal.ANY;
     michal = new Array(1);
     michal[0] = offset;

@@ -58,12 +58,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = report.MAX_AUDIENCE_ROW_LIMIT;
     var _closure1_slot3 = report;
     report = 3;
-    verify = golfie[report];
-    verify = oscard.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot4 = verify;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    verify = report.jsx;
+    var _closure1_slot4 = verify;
     report = report.jsxs;
     var _closure1_slot5 = report;
     report = 4;

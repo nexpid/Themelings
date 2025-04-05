@@ -86,9 +86,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    var _closure1_slot25 = entity;
+    var _closure1_slot24 = entity;
     entity = function() { // Original name: MuteDeafen
-        report = _closure1_slot25;
+        report = _closure1_slot24;
         zuuluu = _closure1_slot11;
         tangon = new Array(2);
         tangon[0] = zuuluu;
@@ -180,9 +180,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = null;
         return entity;
     };
-    var _closure1_slot26 = entity;
+    var _closure1_slot25 = entity;
     entity = function() { // Original name: RTCConnect
-        report = _closure1_slot25;
+        report = _closure1_slot24;
         zuuluu = _closure1_slot9;
         tangon = new Array(4);
         tangon[0] = zuuluu;
@@ -322,9 +322,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = null;
         return entity;
     };
-    var _closure1_slot27 = entity;
+    var _closure1_slot26 = entity;
     entity = function() { // Original name: Speaking
-        report = _closure1_slot25;
+        report = _closure1_slot24;
         michal = _closure1_slot15;
         tangon = new Array(1);
         tangon[0] = michal;
@@ -369,9 +369,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = null;
         return entity;
     };
-    var _closure1_slot28 = entity;
+    var _closure1_slot27 = entity;
     entity = function() { // Original name: VoiceFilter
-        report = _closure1_slot25;
+        report = _closure1_slot24;
         michal = _closure1_slot11;
         tangon = new Array(1);
         tangon[0] = michal;
@@ -412,9 +412,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = null;
         return entity;
     };
-    var _closure1_slot29 = entity;
+    var _closure1_slot28 = entity;
     entity = function() { // Original name: SelfMutedTemporarily
-        report = _closure1_slot25;
+        report = _closure1_slot24;
         michal = _closure1_slot11;
         tangon = new Array(1);
         tangon[0] = michal;
@@ -459,9 +459,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = null;
         return entity;
     };
-    var _closure1_slot30 = entity;
+    var _closure1_slot29 = entity;
     entity = function() { // Original name: UserHasBeenMoved
-        report = _closure1_slot25;
+        report = _closure1_slot24;
         michal = _closure1_slot16;
         tangon = new Array(1);
         tangon[0] = michal;
@@ -489,9 +489,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = null;
         return entity;
     };
-    var _closure1_slot31 = entity;
+    var _closure1_slot30 = entity;
     entity = function() { // Original name: UserInvitedToSpeak
-        report = _closure1_slot25;
+        report = _closure1_slot24;
         zuuluu = _closure1_slot14;
         tangon = new Array(2);
         tangon[0] = zuuluu;
@@ -559,9 +559,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = null;
         return entity;
     };
-    var _closure1_slot32 = entity;
+    var _closure1_slot31 = entity;
     entity = function() { // Original name: VoiceChannel
-        report = _closure1_slot25;
+        report = _closure1_slot24;
         zuuluu = _closure1_slot14;
         tangon = new Array(5);
         tangon[0] = zuuluu;
@@ -701,9 +701,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = argFoo;
                 entity = argBar;
                 var _closure3_slot0 = option;
-                romeon = entity.channelType;
+                yankee = entity.channelType;
                 foxtra = entity.voiceChannelId;
-                yankee = entity.voiceChannelUserCount;
+                golfie = entity.voiceChannelUserCount;
                 report = entity.streamingUserIds;
                 var _closure3_slot1 = report;
                 tangon = entity.singleActiveStreamKey;
@@ -713,44 +713,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = undefined;
                 var _closure3_slot3 = entity;
                 zuuluu = option.voiceChannelId;
-                if(!(zuuluu === foxtra)) { _fun00024_ip = 497; continue _fun00023 }
+                if(!(zuuluu === foxtra)) { _fun00024_ip = 484; continue _fun00023 }
  81:
                 oscard = null;
-                if(!(oscard != foxtra)) { _fun00024_ip = 497; continue _fun00023 }
+                if(!(oscard != foxtra)) { _fun00024_ip = 484; continue _fun00023 }
  90:
-                offset = _closure1_slot9;
-                zuuluu = offset.getChannel;
-                foxtra = zuuluu.bind(offset)(foxtra);
-                offset = oscard == foxtra;
-                zuuluu = false;
-                if(offset) { _fun00024_ip = 174; continue _fun00023 }
+                romeon = _closure1_slot9;
+                offset = romeon.getChannel;
+                foxtra = offset.bind(romeon)(foxtra);
+                romeon = oscard == foxtra;
+                offset = false;
+                if(romeon) { _fun00024_ip = 174; continue _fun00023 }
  116:
-                offset = foxtra.getGuildId;
-                kiloes = offset.bind(foxtra)();
-                offset = oscard == kiloes;
-                zuuluu = false;
-                if(offset) { _fun00024_ip = 174; continue _fun00023 }
+                romeon = foxtra.getGuildId;
+                kiloes = romeon.bind(foxtra)();
+                romeon = oscard == kiloes;
+                offset = false;
+                if(romeon) { _fun00024_ip = 174; continue _fun00023 }
  135:
                 backup = _closure1_slot10;
-                offset = backup.getGuild;
-                backup = offset.bind(backup)(kiloes);
-                offset = oscard != backup;
-                if(!offset) { _fun00024_ip = 171; continue _fun00023 }
+                romeon = backup.getGuild;
+                backup = romeon.bind(backup)(kiloes);
+                romeon = oscard != backup;
+                if(!romeon) { _fun00024_ip = 171; continue _fun00023 }
  156:
                 backup = backup.afkChannelId;
                 foxtra = foxtra.id;
-                offset = backup === foxtra;
+                romeon = backup === foxtra;
  171:
-                zuuluu = offset;
+                offset = romeon;
  174:
-                if(zuuluu) { _fun00024_ip = 497; continue _fun00023 }
+                if(offset) { _fun00024_ip = 484; continue _fun00023 }
  180:
-                if(!(oscard != romeon)) { _fun00024_ip = 204; continue _fun00023 }
+                if(!(oscard != yankee)) { _fun00024_ip = 204; continue _fun00023 }
  184:
                 offset = _closure1_slot6;
                 zuuluu = offset.has;
-                zuuluu = zuuluu.bind(offset)(romeon);
-                if(zuuluu) { _fun00024_ip = 497; continue _fun00023 }
+                zuuluu = zuuluu.bind(offset)(yankee);
+                if(zuuluu) { _fun00024_ip = 484; continue _fun00023 }
  204:
                 offset = oscard != tangon;
                 if(!offset) { _fun00024_ip = 221; continue _fun00023 }
@@ -769,14 +769,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 zuuluu = tangon.bind(report)(zuuluu);
-                romeon = option.allActiveStreams;
-                report = romeon.map;
+                yankee = option.allActiveStreams;
+                report = yankee.map;
                 tangon = function(argFoo) {
                     entity = argFoo;
                     entity = entity.ownerId;
                     return entity;
                 };
-                tangon = report.bind(romeon)(tangon);
+                tangon = report.bind(yankee)(tangon);
                 _closure3_slot3 = tangon;
                 report = option.streamingUserIds;
                 tangon = report.some;
@@ -805,78 +805,75 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 tangon = tangon.bind(report)(michal);
                 michal = 'stream_started';
-                if(zuuluu) { _fun00024_ip = 495; continue _fun00023 }
+                if(zuuluu) { _fun00024_ip = 482; continue _fun00023 }
  300:
                 zuuluu = 'stream_ended';
-                if(tangon) { _fun00024_ip = 492; continue _fun00023 }
+                if(tangon) { _fun00024_ip = 479; continue _fun00023 }
  310:
-                report = option.singleActiveStreamViewerCount;
-                tangon = _closure1_slot24;
-                if(!(report <= tangon)) { _fun00024_ip = 347; continue _fun00023 }
- 324:
-                if(!offset) { _fun00024_ip = 347; continue _fun00023 }
- 327:
+                tangon = option.singleActiveStreamViewerCount;
+                yankee = 25;
+                if(!(tangon <= yankee)) { _fun00024_ip = 346; continue _fun00023 }
+ 323:
+                if(!offset) { _fun00024_ip = 346; continue _fun00023 }
+ 326:
                 tangon = option.singleActiveStreamViewerCount;
                 report = verify > tangon;
                 tangon = 'stream_user_joined';
-                if(report) { _fun00024_ip = 489; continue _fun00023 }
- 347:
+                if(report) { _fun00024_ip = 476; continue _fun00023 }
+ 346:
                 report = option.voiceChannelUserCount;
-                if(!(oscard != report)) { _fun00024_ip = 392; continue _fun00023 }
- 357:
-                if(!(oscard != yankee)) { _fun00024_ip = 392; continue _fun00023 }
- 361:
-                romeon = option.voiceChannelUserCount;
-                report = _closure1_slot24;
-                if(!(romeon <= report)) { _fun00024_ip = 392; continue _fun00023 }
- 375:
+                if(!(oscard != report)) { _fun00024_ip = 387; continue _fun00023 }
+ 356:
+                if(!(oscard != golfie)) { _fun00024_ip = 387; continue _fun00023 }
+ 360:
                 report = option.voiceChannelUserCount;
-                romeon = yankee > report;
+                if(!(report <= yankee)) { _fun00024_ip = 387; continue _fun00023 }
+ 370:
+                report = option.voiceChannelUserCount;
+                romeon = golfie > report;
                 report = 'user_join';
-                if(romeon) { _fun00024_ip = 486; continue _fun00023 }
- 392:
+                if(romeon) { _fun00024_ip = 473; continue _fun00023 }
+ 387:
                 romeon = option.voiceChannelUserCount;
-                if(!(oscard != romeon)) { _fun00024_ip = 437; continue _fun00023 }
- 402:
-                if(!(oscard != yankee)) { _fun00024_ip = 437; continue _fun00023 }
- 406:
-                romeon = option.voiceChannelUserCount;
-                oscard = _closure1_slot24;
-                if(!(romeon <= oscard)) { _fun00024_ip = 437; continue _fun00023 }
- 420:
+                if(!(oscard != romeon)) { _fun00024_ip = 428; continue _fun00023 }
+ 397:
+                if(!(oscard != golfie)) { _fun00024_ip = 428; continue _fun00023 }
+ 401:
                 oscard = option.voiceChannelUserCount;
-                yankee = yankee < oscard;
+                if(!(oscard <= yankee)) { _fun00024_ip = 428; continue _fun00023 }
+ 411:
+                oscard = option.voiceChannelUserCount;
+                golfie = golfie < oscard;
                 oscard = 'user_leave';
-                if(yankee) { _fun00024_ip = 483; continue _fun00023 }
- 437:
-                yankee = option.singleActiveStreamViewerCount;
-                golfie = _closure1_slot24;
-                yankee = yankee <= golfie;
+                if(golfie) { _fun00024_ip = 470; continue _fun00023 }
+ 428:
+                golfie = option.singleActiveStreamViewerCount;
+                yankee = golfie <= yankee;
                 golfie = undefined;
-                if(!yankee) { _fun00024_ip = 480; continue _fun00023 }
- 456:
+                if(!yankee) { _fun00024_ip = 467; continue _fun00023 }
+ 443:
                 golfie = undefined;
-                if(!offset) { _fun00024_ip = 480; continue _fun00023 }
- 461:
+                if(!offset) { _fun00024_ip = 467; continue _fun00023 }
+ 448:
                 option = option.singleActiveStreamViewerCount;
                 option = verify < option;
                 golfie = undefined;
-                if(!option) { _fun00024_ip = 480; continue _fun00023 }
- 476:
+                if(!option) { _fun00024_ip = 467; continue _fun00023 }
+ 463:
                 golfie = 'stream_user_left';
- 480:
+ 467:
                 oscard = golfie;
- 483:
+ 470:
                 report = oscard;
- 486:
+ 473:
                 tangon = report;
- 489:
+ 476:
                 zuuluu = tangon;
- 492:
+ 479:
                 michal = zuuluu;
- 495:
+ 482:
                 return michal;
- 497:
+ 484:
                 return entity;
             }
         };
@@ -884,9 +881,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = null;
         return entity;
     };
-    var _closure1_slot33 = entity;
+    var _closure1_slot32 = entity;
     entity = function() { // Original name: ActivitySounds
-        report = _closure1_slot25;
+        report = _closure1_slot24;
         zuuluu = _closure1_slot14;
         tangon = new Array(3);
         tangon[0] = zuuluu;
@@ -1292,7 +1289,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = null;
         return entity;
     };
-    var _closure1_slot34 = entity;
+    var _closure1_slot33 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -1378,20 +1375,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.RTCConnectionStates;
     var _closure1_slot20 = tangon;
     tangon = 16;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot21 = golfie;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.Fragment;
-    var _closure1_slot22 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot21 = golfie;
+    golfie = tangon.Fragment;
+    var _closure1_slot22 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot23 = tangon;
-    tangon = 25;
-    var _closure1_slot24 = tangon;
     tangon = 23;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -1403,41 +1394,41 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = _closure1_slot22;
         michal = {};
         option = _closure1_slot21;
-        golfie = _closure1_slot26;
+        golfie = _closure1_slot25;
         entity = undefined;
         report = {};
         golfie = option.bind(entity)(golfie, report);
         report = new Array(9);
         report[0] = golfie;
-        verify = _closure1_slot27;
+        verify = _closure1_slot26;
         golfie = {};
         golfie = option.bind(entity)(verify, golfie);
         report[1] = golfie;
-        verify = _closure1_slot28;
+        verify = _closure1_slot27;
         golfie = {};
         golfie = option.bind(entity)(verify, golfie);
         report[2] = golfie;
-        verify = _closure1_slot30;
+        verify = _closure1_slot29;
         golfie = {};
         golfie = option.bind(entity)(verify, golfie);
         report[3] = golfie;
-        verify = _closure1_slot31;
+        verify = _closure1_slot30;
         golfie = {};
         golfie = option.bind(entity)(verify, golfie);
         report[4] = golfie;
-        verify = _closure1_slot33;
-        golfie = {};
-        golfie = option.bind(entity)(verify, golfie);
-        report[5] = golfie;
         verify = _closure1_slot32;
         golfie = {};
         golfie = option.bind(entity)(verify, golfie);
+        report[5] = golfie;
+        verify = _closure1_slot31;
+        golfie = {};
+        golfie = option.bind(entity)(verify, golfie);
         report[6] = golfie;
-        verify = _closure1_slot34;
+        verify = _closure1_slot33;
         golfie = {};
         golfie = option.bind(entity)(verify, golfie);
         report[7] = golfie;
-        golfie = _closure1_slot29;
+        golfie = _closure1_slot28;
         oscard = {};
         oscard = option.bind(entity)(golfie, oscard);
         report[8] = oscard;

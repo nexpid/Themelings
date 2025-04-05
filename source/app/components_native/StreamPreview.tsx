@@ -127,12 +127,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = backup.bind(entity)(tangon);
     var _closure1_slot10 = tangon;
     tangon = 8;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot11 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot11 = option;
     tangon = tangon.jsxs;
     var _closure1_slot12 = tangon;
     option = 9;

@@ -7,43 +7,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = option;
     var _closure1_slot2 = oscard;
-    entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            tangon = argFoo;
-            oscard = argBaz;
-            michal = _closure1_slot6;
-            zuuluu = undefined;
-            entity = argBar;
-            verify = michal.bind(zuuluu)(entity);
-            michal = _closure1_slot5;
-            entity = _closure1_slot19;
-            entity = entity.bind(zuuluu)();
-            if(entity) { _fun00002_ip = 51; continue _fun00001 }
- 38:
-            entity = verify.apply;
-            entity = entity.bind(verify)(tangon, oscard);
-            _fun00002_ip = 92; continue _fun00001;
- 51:
-            golfie = global;
-            option = golfie.Reflect;
-            golfie = option.construct;
-            if(oscard) { _fun00002_ip = 71; continue _fun00001 }
- 67:
-            oscard = new Array(0);
- 71:
-            report = _closure1_slot6;
-            report = report.bind(zuuluu)(tangon);
-            report = report.constructor;
-            entity = golfie.bind(option)(verify, oscard, report);
- 92:
-            entity = michal.bind(zuuluu)(tangon, entity);
-            return entity;
-        }
-    };
-    var _closure1_slot18 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
  2: // try_start_0
             michal = global;
@@ -64,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = !michal;
             var _closure2_slot0 = michal;
  72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
+            _fun00002_ip = 76; continue _fun00001;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -74,15 +39,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot19 = michal;
+            _closure1_slot18 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot19 = entity;
+    var _closure1_slot18 = entity;
     entity = function(argFoo) { // Original name: GraceOption
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             kiloes = entity.integration;
@@ -138,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = new Array(2);
             report[0] = oscard;
             oscard = null;
-            if(option) { _fun00006_ip = 259; continue _fun00005 }
+            if(option) { _fun00004_ip = 259; continue _fun00003 }
  217:
             verify = _closure1_slot13;
             option = _closure1_slot0;
@@ -157,9 +122,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot20 = entity;
+    var _closure1_slot19 = entity;
     entity = function(argFoo) { // Original name: ForceSyncIcon
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             michal = argFoo;
             entity = michal.isSyncing;
@@ -174,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot16;
             verify = tangon.bind(golfie)(zuuluu);
             tangon = _closure1_slot13;
-            if(entity) { _fun00008_ip = 262; continue _fun00007 }
+            if(entity) { _fun00006_ip = 262; continue _fun00005 }
  64:
             golfie = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -220,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(report)(golfie, oscard);
             entity['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00008_ip = 286; continue _fun00007;
+            _fun00006_ip = 286; continue _fun00005;
  262:
             zuuluu = _closure1_slot10;
             michal = {'animating': true, 'size': 'small'};
@@ -229,7 +194,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot21 = entity;
+    var _closure1_slot20 = entity;
     entity = function(argFoo) { // Original name: TwitchEmoticonsRow
         entity = argFoo;
         option = entity.integration;
@@ -286,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = tangon.bind(zuuluu)(michal, entity);
         return entity;
     };
-    var _closure1_slot22 = entity;
+    var _closure1_slot21 = entity;
     entity = global;
     verify = entity.Object;
     golfie = verify.defineProperty;
@@ -338,16 +303,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = option.bind(entity)(golfie);
     var _closure1_slot12 = golfie;
     golfie = 9;
-    option = oscard[golfie];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot13 = option;
-    option = oscard[golfie];
-    option = report.bind(entity)(option);
-    option = option.jsxs;
-    var _closure1_slot14 = option;
     golfie = oscard[golfie];
     golfie = report.bind(entity)(golfie);
+    option = golfie.jsx;
+    var _closure1_slot13 = option;
+    option = golfie.jsxs;
+    var _closure1_slot14 = option;
     golfie = golfie.Fragment;
     var _closure1_slot15 = golfie;
     golfie = 11;
@@ -374,105 +335,126 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = tangon.PureComponent;
     tangon = function(argFoo) {
         tangon = function(argFoo) { // Original name: GuildSettingsModalIntegrationSettings
-            oscard = this;
-            yankee = 0;
-            golfie = copyRestArgs(yankee);
-            zuuluu = _closure1_slot3;
-            report = _closure2_slot0;
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(oscard, report);
-            zuuluu = _closure1_slot18;
-            entity = new Array(0);
-            yankee = entity;
-            offset = golfie;
-            verify = 0;
-            golfie = arraySpread(yankee, offset, verify);
-            entity = zuuluu.bind(tangon)(oscard, report, entity);
-            var _closure3_slot0 = entity;
-            zuuluu = function(argFoo) {
-                entity = _closure3_slot0;
-                entity = entity.props;
-                option = entity.guildId;
-                michal = entity.integration;
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                entity = 16;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                golfie = tangon.bind(entity)(zuuluu);
-                oscard = golfie.updateIntegration;
-                romeon = michal.id;
-                offset = michal.expire_grace_period;
-                verify = michal.enable_emoticons;
-                yankee = argFoo;
-                backup = golfie;
-                foxtra = option;
-                michal = backup[oscard](foxtra, romeon, yankee, offset, verify, option);
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+ 0:
+                report = this;
+                foxtra = 0;
+                entity = copyRestArgs(foxtra);
+                option = _closure1_slot3;
+                zuuluu = _closure2_slot0;
+                tangon = undefined;
+                option = option.bind(tangon)(report, zuuluu);
+                offset = new Array(0);
+                foxtra = offset;
+                romeon = entity;
+                yankee = 0;
+                entity = arraySpread(foxtra, romeon, yankee);
+                entity = _closure1_slot6;
+                verify = entity.bind(tangon)(zuuluu);
+                zuuluu = _closure1_slot5;
+                entity = _closure1_slot18;
+                entity = entity.bind(tangon)();
+                if(entity) { _fun00008_ip = 86; continue _fun00007 }
+ 73:
+                entity = verify.apply;
+                entity = entity.bind(verify)(report, offset);
+                _fun00008_ip = 120; continue _fun00007;
+ 86:
+                golfie = global;
+                option = golfie.Reflect;
+                golfie = option.construct;
+                oscard = _closure1_slot6;
+                oscard = oscard.bind(tangon)(report);
+                oscard = oscard.constructor;
+                entity = golfie.bind(option)(verify, offset, oscard);
+ 120:
+                entity = zuuluu.bind(tangon)(report, entity);
+                var _closure3_slot0 = entity;
+                zuuluu = function(argFoo) {
+                    entity = _closure3_slot0;
+                    entity = entity.props;
+                    option = entity.guildId;
+                    michal = entity.integration;
+                    tangon = _closure1_slot1;
+                    zuuluu = _closure1_slot2;
+                    entity = 16;
+                    zuuluu = zuuluu[entity];
+                    entity = undefined;
+                    golfie = tangon.bind(entity)(zuuluu);
+                    oscard = golfie.updateIntegration;
+                    romeon = michal.id;
+                    offset = michal.expire_grace_period;
+                    verify = michal.enable_emoticons;
+                    yankee = argFoo;
+                    backup = golfie;
+                    foxtra = option;
+                    michal = backup[oscard](foxtra, romeon, yankee, offset, verify, option);
+                    return entity;
+                };
+                entity['handleExpireBehaviorChange'] = zuuluu;
+                zuuluu = function(argFoo) {
+                    entity = _closure3_slot0;
+                    entity = entity.props;
+                    option = entity.guildId;
+                    michal = entity.integration;
+                    tangon = _closure1_slot1;
+                    zuuluu = _closure1_slot2;
+                    entity = 16;
+                    zuuluu = zuuluu[entity];
+                    entity = undefined;
+                    golfie = tangon.bind(entity)(zuuluu);
+                    oscard = golfie.updateIntegration;
+                    romeon = michal.id;
+                    yankee = michal.expire_behavior;
+                    verify = michal.enable_emoticons;
+                    offset = argFoo;
+                    backup = golfie;
+                    foxtra = option;
+                    michal = backup[oscard](foxtra, romeon, yankee, offset, verify, option);
+                    return entity;
+                };
+                entity['handleExpireGracePeriodChange'] = zuuluu;
+                zuuluu = function(argFoo) {
+                    entity = _closure3_slot0;
+                    entity = entity.props;
+                    option = entity.guildId;
+                    michal = entity.integration;
+                    tangon = _closure1_slot1;
+                    zuuluu = _closure1_slot2;
+                    entity = 16;
+                    zuuluu = zuuluu[entity];
+                    entity = undefined;
+                    golfie = tangon.bind(entity)(zuuluu);
+                    oscard = golfie.updateIntegration;
+                    romeon = michal.id;
+                    yankee = michal.expire_behavior;
+                    offset = michal.expire_grace_period;
+                    verify = argFoo;
+                    backup = golfie;
+                    foxtra = option;
+                    michal = backup[oscard](foxtra, romeon, yankee, offset, verify, option);
+                    return entity;
+                };
+                entity['handleToggleEmotes'] = zuuluu;
+                michal = function() {
+                    entity = _closure3_slot0;
+                    entity = entity.props;
+                    report = entity.guildId;
+                    michal = entity.integration;
+                    tangon = _closure1_slot1;
+                    zuuluu = _closure1_slot2;
+                    entity = 16;
+                    zuuluu = zuuluu[entity];
+                    entity = undefined;
+                    tangon = tangon.bind(entity)(zuuluu);
+                    zuuluu = tangon.syncIntegration;
+                    michal = michal.id;
+                    michal = zuuluu.bind(tangon)(report, michal);
+                    return entity;
+                };
+                entity['handleSync'] = michal;
                 return entity;
-            };
-            entity['handleExpireBehaviorChange'] = zuuluu;
-            zuuluu = function(argFoo) {
-                entity = _closure3_slot0;
-                entity = entity.props;
-                option = entity.guildId;
-                michal = entity.integration;
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                entity = 16;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                golfie = tangon.bind(entity)(zuuluu);
-                oscard = golfie.updateIntegration;
-                romeon = michal.id;
-                yankee = michal.expire_behavior;
-                verify = michal.enable_emoticons;
-                offset = argFoo;
-                backup = golfie;
-                foxtra = option;
-                michal = backup[oscard](foxtra, romeon, yankee, offset, verify, option);
-                return entity;
-            };
-            entity['handleExpireGracePeriodChange'] = zuuluu;
-            zuuluu = function(argFoo) {
-                entity = _closure3_slot0;
-                entity = entity.props;
-                option = entity.guildId;
-                michal = entity.integration;
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                entity = 16;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                golfie = tangon.bind(entity)(zuuluu);
-                oscard = golfie.updateIntegration;
-                romeon = michal.id;
-                yankee = michal.expire_behavior;
-                offset = michal.expire_grace_period;
-                verify = argFoo;
-                backup = golfie;
-                foxtra = option;
-                michal = backup[oscard](foxtra, romeon, yankee, offset, verify, option);
-                return entity;
-            };
-            entity['handleToggleEmotes'] = zuuluu;
-            michal = function() {
-                entity = _closure3_slot0;
-                entity = entity.props;
-                report = entity.guildId;
-                michal = entity.integration;
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                entity = 16;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.syncIntegration;
-                michal = michal.id;
-                michal = zuuluu.bind(tangon)(report, michal);
-                return entity;
-            };
-            entity['handleSync'] = michal;
-            return entity;
+            }
         };
         var _closure2_slot0 = tangon;
         oscard = _closure1_slot7;
@@ -583,7 +565,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.t;
                 status = entity.RdUTrq;
                 golfie = _closure1_slot13;
-                report = _closure1_slot22;
+                report = _closure1_slot21;
                 entity = {};
                 entity['integration'] = cntext;
                 option = oscard.handleToggleEmotes;
@@ -793,7 +775,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 vacuum = config.bind(target)(sequen, vacuum);
                 output['subLabel'] = vacuum;
                 config = _closure1_slot13;
-                sequen = _closure1_slot21;
+                sequen = _closure1_slot20;
                 vacuum = {};
                 target = cntext.syncing;
                 record = record != target;
@@ -926,7 +908,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 foxtra = function(argFoo, argBar) {
                     report = argBar;
                     tangon = _closure1_slot13;
-                    zuuluu = _closure1_slot20;
+                    zuuluu = _closure1_slot19;
                     michal = {};
                     oscard = _closure3_slot1;
                     michal['integration'] = oscard;

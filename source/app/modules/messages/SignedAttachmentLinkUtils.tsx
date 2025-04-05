@@ -15,16 +15,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = argFoo;
                 var _closure2_slot0 = entity;
                 report = _closure1_slot8;
-                zuuluu = report.has;
+                tangon = report.has;
                 entity = entity.hostname;
-                entity = zuuluu.bind(report)(entity);
-                zuuluu = _closure1_slot10;
-                report = global;
-                oscard = report.Array;
-                report = oscard.from;
-                tangon = _closure1_slot5;
-                report = report.bind(oscard)(tangon);
-                tangon = report.some;
+                entity = tangon.bind(report)(entity);
+                tangon = global;
+                report = tangon.Array;
+                tangon = report.from;
+                zuuluu = _closure1_slot5;
+                tangon = tangon.bind(report)(zuuluu);
+                zuuluu = tangon.some;
                 michal = function(argFoo) {
                     entity = _closure2_slot0;
                     zuuluu = entity.pathname;
@@ -33,19 +32,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = michal.bind(zuuluu)(entity);
                     return entity;
                 };
-                michal = tangon.bind(report)(michal);
-                if(entity) { _fun00004_ip = 80; continue _fun00003 }
- 77:
-                entity = zuuluu;
- 80:
-                if(!entity) { _fun00004_ip = 86; continue _fun00003 }
- 83:
+                michal = zuuluu.bind(tangon)(michal);
+                zuuluu = !entity;
+                entity = !zuuluu;
+                if(zuuluu) { _fun00004_ip = 82; continue _fun00003 }
+ 79:
                 entity = michal;
- 86:
+ 82:
                 return entity;
             }
         };
-        var _closure1_slot11 = report;
+        var _closure1_slot10 = report;
         tangon = function(argFoo) { // Original name: getSignedAttachmentExpiration
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -83,11 +80,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             }
         };
-        var _closure1_slot12 = tangon;
+        var _closure1_slot11 = tangon;
         entity = function(argFoo) { // Original name: shouldRefreshAttachmentUrl
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                tangon = _closure1_slot12;
+                tangon = _closure1_slot11;
                 zuuluu = undefined;
                 entity = argFoo;
                 zuuluu = tangon.bind(zuuluu)(entity);
@@ -106,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             }
         };
-        var _closure1_slot13 = entity;
+        var _closure1_slot12 = entity;
         entity = function(argFoo) { // Original name: isAttachmentExpired
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
@@ -124,13 +121,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = entity != zuuluu;
                 if(!entity) { _fun00010_ip = 62; continue _fun00009 }
  53:
-                michal = _closure1_slot13;
+                michal = _closure1_slot12;
                 entity = michal.bind(tangon)(zuuluu);
  62:
                 return entity;
             }
         };
-        var _closure1_slot14 = entity;
+        var _closure1_slot13 = entity;
         entity = function(argFoo) { // Original name: isEmbedMediaExpiredAttachment
             _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
@@ -150,13 +147,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = entity != tangon;
                 if(!entity) { _fun00012_ip = 87; continue _fun00011 }
  57:
-                michal = _closure1_slot11;
+                michal = _closure1_slot10;
                 michal = michal.bind(report)(tangon);
                 oscard = !michal;
                 michal = !oscard;
                 if(oscard) { _fun00012_ip = 84; continue _fun00011 }
  75:
-                zuuluu = _closure1_slot13;
+                zuuluu = _closure1_slot12;
                 michal = zuuluu.bind(report)(tangon);
  84:
                 entity = michal;
@@ -167,12 +164,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             }
         };
-        var _closure1_slot15 = entity;
+        var _closure1_slot14 = entity;
         entity = function(argFoo) { // Original name: embedHasExpiredAttachmentUrl
             _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                 michal = argFoo;
-                report = _closure1_slot15;
+                report = _closure1_slot14;
                 entity = michal.image;
                 tangon = undefined;
                 entity = report.bind(tangon)(entity);
@@ -185,21 +182,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 if(oscard) { _fun00014_ip = 58; continue _fun00013 }
  43:
                 golfie = option.some;
-                oscard = _closure1_slot15;
+                oscard = _closure1_slot14;
                 report = golfie.bind(option)(oscard);
  58:
                 entity = report;
  61:
                 if(entity) { _fun00014_ip = 79; continue _fun00013 }
  64:
-                zuuluu = _closure1_slot15;
+                zuuluu = _closure1_slot14;
                 michal = michal.video;
                 entity = zuuluu.bind(tangon)(michal);
  79:
                 return entity;
             }
         };
-        var _closure1_slot16 = entity;
+        var _closure1_slot15 = entity;
         entity = function() { // Original name: _refreshAttachmentUrl
             report = undefined;
             entity = undefined;
@@ -260,7 +257,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             tangon = tangon.bind(report)(zuuluu);
-            _closure1_slot17 = tangon;
+            _closure1_slot16 = tangon;
             zuuluu = tangon.apply;
             entity = arguments;
             michal = entity;
@@ -268,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = zuuluu.bind(tangon)(entity, michal);
             return entity;
         };
-        var _closure1_slot17 = entity;
+        var _closure1_slot16 = entity;
         entity = function() { // Original name: _maybeRefreshAttachmentUrl
             report = undefined;
             entity = undefined;
@@ -293,7 +290,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         report = null;
                         if(!(report != oscard)) { _fun00018_ip = 105; continue _fun00017 }
  52:
-                        zuuluu = _closure1_slot13;
+                        zuuluu = _closure1_slot12;
                         zuuluu = zuuluu.bind(tangon)(oscard);
                         if(zuuluu) { _fun00018_ip = 67; continue _fun00017 }
  64:
@@ -301,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  67:
                         zuuluu = function() { // Original name: refreshAttachmentUrl
                             entity = undefined;
-                            tangon = _closure1_slot17;
+                            tangon = _closure1_slot16;
                             zuuluu = tangon.apply;
                             entity = arguments;
                             michal = entity;
@@ -334,7 +331,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             tangon = tangon.bind(report)(zuuluu);
-            _closure1_slot18 = tangon;
+            _closure1_slot17 = tangon;
             zuuluu = tangon.apply;
             entity = arguments;
             michal = entity;
@@ -342,7 +339,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = zuuluu.bind(tangon)(entity, michal);
             return entity;
         };
-        var _closure1_slot18 = entity;
+        var _closure1_slot17 = entity;
         oscard = global;
         romeon = oscard.Object;
         offset = romeon.defineProperty;
@@ -467,8 +464,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = new update[offset](echoed, result);
         oscard = oscard instanceof Object ? oscard : verify;
         var _closure1_slot9 = oscard;
-        oscard = false;
-        var _closure1_slot10 = oscard;
         oscard = 5;
         oscard = option[oscard];
         option = golfie.bind(entity)(oscard);
@@ -552,13 +547,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = argFoo;
                 report = zuuluu.attachments;
                 tangon = report.some;
-                entity = _closure1_slot14;
+                entity = _closure1_slot13;
                 entity = tangon.bind(report)(entity);
                 if(entity) { _fun00026_ip = 51; continue _fun00025 }
  30:
                 tangon = zuuluu.embeds;
                 zuuluu = tangon.some;
-                michal = _closure1_slot16;
+                michal = _closure1_slot15;
                 entity = zuuluu.bind(tangon)(michal);
  51:
                 return entity;
@@ -567,7 +562,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu['messageHasExpiredAttachmentUrl'] = tangon;
         michal = function() { // Original name: maybeRefreshAttachmentUrl
             entity = undefined;
-            tangon = _closure1_slot18;
+            tangon = _closure1_slot17;
             zuuluu = tangon.apply;
             entity = arguments;
             michal = entity;

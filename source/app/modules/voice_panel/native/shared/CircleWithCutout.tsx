@@ -25,12 +25,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = tangon.bind(entity)(oscard);
     option = oscard.PixelRatio;
     oscard = 2;
-    verify = report[oscard];
-    verify = tangon.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot3 = verify;
     oscard = report[oscard];
     oscard = tangon.bind(entity)(oscard);
+    verify = oscard.jsx;
+    var _closure1_slot3 = verify;
     oscard = oscard.jsxs;
     var _closure1_slot4 = oscard;
     oscard = option.get;

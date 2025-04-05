@@ -90,12 +90,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.ParticipantTypes;
     var _closure1_slot20 = tangon;
     tangon = 15;
-    offset = oscard[tangon];
-    offset = report.bind(entity)(offset);
-    offset = offset.jsx;
-    var _closure1_slot21 = offset;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    offset = tangon.jsx;
+    var _closure1_slot21 = offset;
     tangon = tangon.jsxs;
     var _closure1_slot22 = tangon;
     tangon = 16;
@@ -748,7 +746,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = report[entity];
             echoed = michal.bind(tangon)(oscard);
             kiloes = echoed.useAnimatedReaction;
-            foxtra = function() { // Original name: V
+            foxtra = function() { // Original name: v
                 _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                     michal = _closure2_slot3;

@@ -40,10 +40,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     kiloes = 4;
     tangon = oscard[kiloes];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot7 = tangon;
-    tangon = oscard[kiloes];
-    tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot7 = option;
     tangon = tangon.jsxs;
     var _closure1_slot8 = tangon;
     tangon = 5;
@@ -128,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = echoed[michal];
             option = update.bind(tangon)(zuuluu);
             report = option.useAnimatedStyle;
-            zuuluu = function() { // Original name: M
+            zuuluu = function() { // Original name: D
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = {};

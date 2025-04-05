@@ -45,40 +45,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = function(argFoo) { // Original name: manualOverrideLinkMeta
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                zuuluu = argFoo;
-                michal = zuuluu.match;
+                tangon = argFoo;
+                zuuluu = tangon.match;
                 entity = _closure1_slot7;
-                golfie = michal.bind(zuuluu)(entity);
-                report = null;
-                michal = report == golfie;
+                zuuluu = zuuluu.bind(tangon)(entity);
                 entity = null;
-                if(michal) { _fun00006_ip = 163; continue _fun00005 }
- 35:
-                zuuluu = golfie.length;
-                michal = 2;
-                entity = null;
-                if(!(michal === zuuluu)) { _fun00006_ip = 163; continue _fun00005 }
- 49:
+                if(!(entity != zuuluu)) { _fun00006_ip = 155; continue _fun00005 }
+ 30:
+                report = zuuluu.length;
+                tangon = 2;
+                if(!(tangon === report)) { _fun00006_ip = 155; continue _fun00005 }
+ 42:
+                report = _closure1_slot0;
+                tangon = _closure1_slot3;
+                michal = 3;
+                tangon = tangon[michal];
+                michal = undefined;
+                tangon = report.bind(michal)(tangon);
+                michal = tangon.getNativePlatform;
+                golfie = michal.bind(tangon)();
+                michal = 1;
+                oscard = zuuluu[michal];
                 michal = {};
                 zuuluu = {};
-                oscard = _closure1_slot0;
-                report = _closure1_slot3;
-                tangon = 3;
-                report = report[tangon];
-                tangon = undefined;
-                report = oscard.bind(tangon)(report);
-                tangon = report.getNativePlatform;
-                oscard = tangon.bind(report)();
                 tangon = global;
                 tangon = tangon.HermesInternal;
                 report = tangon.concat;
                 tangon = 'discord_';
-                report = report.bind(tangon)(oscard);
+                report = report.bind(tangon)(golfie);
                 tangon = {};
-                oscard = 'branch';
-                tangon['type'] = oscard;
-                oscard = 1;
-                oscard = golfie[oscard];
+                golfie = 'branch';
+                tangon['type'] = golfie;
                 tangon['id'] = oscard;
                 zuuluu[report] = tangon;
                 michal['targetBuildOverride'] = zuuluu;
@@ -86,8 +83,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['validForUserIds'] = zuuluu;
                 zuuluu = 'Mon, 1 Jan 2038 00:00:00 GMT';
                 michal['expiresAt'] = zuuluu;
-                entity = michal;
- 163:
+                return michal;
+ 155:
                 return entity;
             }
         };

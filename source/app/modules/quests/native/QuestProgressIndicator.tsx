@@ -38,12 +38,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot8 = tangon;
     tangon = 3;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot9 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot9 = option;
     tangon = tangon.jsxs;
     var _closure1_slot10 = tangon;
     tangon = ['#666777', '#535564'];

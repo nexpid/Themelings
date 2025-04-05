@@ -36,10 +36,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = 3;
     tangon = oscard[verify];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot7 = tangon;
-    tangon = oscard[verify];
-    tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot7 = option;
     tangon = tangon.jsxs;
     var _closure1_slot8 = tangon;
     option = foxtra.create;

@@ -38,12 +38,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = tangon.ClanTagBadgeSize;
         var _closure1_slot5 = tangon;
         tangon = 4;
-        golfie = oscard[tangon];
-        golfie = report.bind(entity)(golfie);
-        golfie = golfie.jsx;
-        var _closure1_slot6 = golfie;
         tangon = oscard[tangon];
         tangon = report.bind(entity)(tangon);
+        golfie = tangon.jsx;
+        var _closure1_slot6 = golfie;
         tangon = tangon.jsxs;
         var _closure1_slot7 = tangon;
         tangon = 5;
@@ -60,10 +58,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         backup = sizing.isAndroid;
         sizing = backup.bind(sizing)();
         backup = 10;
-        if(!sizing) { _fun00002_ip = 237; continue _fun00001 }
- 234:
+        if(!sizing) { _fun00002_ip = 228; continue _fun00001 }
+ 225:
         backup = 14;
- 237:
+ 228:
         verify['height'] = backup;
         tangon['gapContainer'] = verify;
         verify = {'alignItems': 'center', 'justifyContent': 'center', 'flexDirection': 'row', 'backgroundColor': null, 'borderRadius': 4, 'paddingHorizontal': 4, 'paddingVertical': null, 'height': 16};
@@ -78,10 +76,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         backup = kiloes.isAndroid;
         backup = backup.bind(kiloes)();
         offset = 0;
-        if(!backup) { _fun00002_ip = 315; continue _fun00001 }
- 312:
+        if(!backup) { _fun00002_ip = 306; continue _fun00001 }
+ 303:
         offset = foxtra;
- 315:
+ 306:
         verify['paddingVertical'] = offset;
         offset = 16;
         tangon['tagContainer'] = verify;
@@ -91,10 +89,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         romeon = report.bind(entity)(yankee);
         yankee = romeon.isAndroid;
         yankee = yankee.bind(romeon)();
-        if(!yankee) { _fun00002_ip = 360; continue _fun00001 }
- 357:
+        if(!yankee) { _fun00002_ip = 351; continue _fun00001 }
+ 348:
         offset = 13;
- 360:
+ 351:
         verify['lineHeight'] = offset;
         tangon['tag'] = verify;
         verify = {'width': 4, 'height': 4};

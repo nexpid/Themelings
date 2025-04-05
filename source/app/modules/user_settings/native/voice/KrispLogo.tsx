@@ -91,12 +91,10 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     report = report.HelpdeskArticles;
     var _closure1_slot9 = report;
     report = 4;
-    option = golfie[report];
-    option = oscard.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot10 = option;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    option = report.jsx;
+    var _closure1_slot10 = option;
     report = report.jsxs;
     var _closure1_slot11 = report;
     report = {};

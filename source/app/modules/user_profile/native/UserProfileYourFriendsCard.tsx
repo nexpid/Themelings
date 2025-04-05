@@ -48,12 +48,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = golfie.RelationshipTypes;
     var _closure1_slot9 = golfie;
     golfie = 7;
-    option = oscard[golfie];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot10 = option;
     golfie = oscard[golfie];
     golfie = report.bind(entity)(golfie);
+    option = golfie.jsx;
+    var _closure1_slot10 = option;
     golfie = golfie.jsxs;
     var _closure1_slot11 = golfie;
     option = tangon.Object;

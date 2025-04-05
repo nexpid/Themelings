@@ -522,12 +522,10 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     tangon = tangon.UPLOAD_MEDIUM_SIZE;
     var _closure1_slot8 = tangon;
     tangon = 6;
-    verify = oscard[tangon];
-    verify = report.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot9 = verify;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    verify = tangon.jsx;
+    var _closure1_slot9 = verify;
     tangon = tangon.jsxs;
     var _closure1_slot10 = tangon;
     tangon = 7;

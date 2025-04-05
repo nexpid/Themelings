@@ -134,12 +134,10 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     golfie = golfie.HelpdeskArticles;
     var _closure1_slot7 = golfie;
     option = 4;
-    offset = oscard[option];
-    offset = report.bind(entity)(offset);
-    offset = offset.jsx;
-    var _closure1_slot8 = offset;
     option = oscard[option];
     option = report.bind(entity)(option);
+    offset = option.jsx;
+    var _closure1_slot8 = offset;
     option = option.jsxs;
     var _closure1_slot9 = option;
     option = 5;

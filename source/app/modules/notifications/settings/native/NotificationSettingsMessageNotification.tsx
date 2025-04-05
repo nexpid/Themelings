@@ -218,12 +218,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = report.View;
     var _closure1_slot3 = report;
     report = 2;
-    option = golfie[report];
-    option = oscard.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot4 = option;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    option = report.jsx;
+    var _closure1_slot4 = option;
     report = report.jsxs;
     var _closure1_slot5 = report;
     report = 3;

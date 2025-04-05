@@ -238,12 +238,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = report.bind(entity)(michal);
     option = michal.RendererType;
     michal = 3;
-    verify = oscard[michal];
-    verify = report.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot5 = verify;
     michal = oscard[michal];
     michal = report.bind(entity)(michal);
+    verify = michal.jsx;
+    var _closure1_slot5 = verify;
     michal = michal.jsxs;
     var _closure1_slot6 = michal;
     michal = 'CacheActionsActionSheet';

@@ -53,16 +53,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = michal.ClanTagBadgeSize;
         var _closure1_slot10 = michal;
         michal = 7;
-        tangon = option[michal];
-        tangon = golfie.bind(entity)(tangon);
-        tangon = tangon.jsx;
-        var _closure1_slot11 = tangon;
-        tangon = option[michal];
-        tangon = golfie.bind(entity)(tangon);
-        tangon = tangon.Fragment;
-        var _closure1_slot12 = tangon;
         michal = option[michal];
         michal = golfie.bind(entity)(michal);
+        tangon = michal.jsx;
+        var _closure1_slot11 = tangon;
+        tangon = michal.Fragment;
+        var _closure1_slot12 = tangon;
         michal = michal.jsxs;
         var _closure1_slot13 = michal;
         michal = 8;
@@ -85,10 +81,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         yankee = romeon.isAndroid;
         romeon = yankee.bind(romeon)();
         yankee = 16;
-        if(!romeon) { _fun00002_ip = 356; continue _fun00001 }
- 353:
+        if(!romeon) { _fun00002_ip = 338; continue _fun00001 }
+ 335:
         yankee = 14;
- 356:
+ 338:
         offset['lineHeight'] = yankee;
         yankee = 'hidden';
         offset['overflow'] = yankee;

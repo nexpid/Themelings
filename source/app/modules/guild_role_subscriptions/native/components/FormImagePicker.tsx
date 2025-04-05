@@ -338,12 +338,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.View;
     var _closure1_slot5 = tangon;
     tangon = 3;
-    oscard = option[tangon];
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.jsx;
-    var _closure1_slot6 = oscard;
     tangon = option[tangon];
     tangon = golfie.bind(entity)(tangon);
+    oscard = tangon.jsx;
+    var _closure1_slot6 = oscard;
     tangon = tangon.jsxs;
     var _closure1_slot7 = tangon;
     tangon = 4;

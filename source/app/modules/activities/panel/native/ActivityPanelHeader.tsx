@@ -51,12 +51,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.ThemeTypes;
     var _closure1_slot11 = tangon;
     tangon = 6;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot12 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot12 = option;
     tangon = tangon.jsxs;
     var _closure1_slot13 = tangon;
     tangon = 7;
@@ -275,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = kiloes.bind(tangon)(verify, backup);
             _closure2_slot7 = verify;
             kiloes = tangon.useCallback;
-            backup = function() { // Original name: S
+            backup = function() { // Original name: A
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 entity = 12;

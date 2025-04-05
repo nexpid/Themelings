@@ -209,12 +209,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.ReadStateTypes;
     var _closure1_slot16 = tangon;
     tangon = 11;
-    report = verify[tangon];
-    report = option.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot17 = report;
     tangon = verify[tangon];
     tangon = option.bind(entity)(tangon);
+    report = tangon.jsx;
+    var _closure1_slot17 = report;
     tangon = tangon.jsxs;
     var _closure1_slot18 = tangon;
     offset = 12;

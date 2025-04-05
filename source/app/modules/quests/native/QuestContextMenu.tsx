@@ -456,12 +456,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = result.bind(yankee)(offset, romeon);
             _closure2_slot18 = result;
             romeon = yankee.useMemo;
-            offset = new Array(5);
+            offset = new Array(6);
             offset[0] = result;
             offset[1] = output;
             offset[2] = sizing;
             offset[3] = kiloes;
             offset[4] = option;
+            option = zuuluu.id;
+            offset[5] = option;
             option = function() {
                 michal = {};
                 entity = 'Set Random Quest Progress';
@@ -481,30 +483,50 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 michal['action'] = entity;
-                entity = new Array(4);
+                entity = new Array(5);
                 entity[0] = michal;
                 zuuluu = {};
                 michal = 'Complete Quest';
                 zuuluu['label'] = michal;
-                tangon = _closure2_slot3;
-                zuuluu['action'] = tangon;
+                report = _closure2_slot3;
+                zuuluu['action'] = report;
                 entity[1] = zuuluu;
                 zuuluu = {};
-                tangon = 'Reset Quest';
-                zuuluu['label'] = tangon;
-                tangon = _closure2_slot6;
-                zuuluu['action'] = tangon;
+                report = 'Reset Quest';
+                zuuluu['label'] = report;
+                report = _closure2_slot6;
+                zuuluu['action'] = report;
                 entity[2] = zuuluu;
                 zuuluu = {};
-                tangon = 'Reset Dismissibility';
-                zuuluu['label'] = tangon;
-                tangon = _closure2_slot5;
-                zuuluu['action'] = tangon;
+                report = 'Reset Dismissibility';
+                zuuluu['label'] = report;
+                report = _closure2_slot5;
+                zuuluu['action'] = report;
                 entity[3] = zuuluu;
-                oscard = _closure2_slot18;
-                report = 4;
-                golfie = entity;
-                michal = arraySpread(golfie, oscard, report);
+                golfie = _closure2_slot18;
+                oscard = 4;
+                option = entity;
+                zuuluu = arraySpread(option, golfie, oscard);
+                michal = {};
+                report = 'Copy Quest ID';
+                michal['label'] = report;
+                tangon = function() { // Original name: action
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    entity = 18;
+                    michal = michal[entity];
+                    entity = undefined;
+                    zuuluu = zuuluu.bind(entity)(michal);
+                    michal = zuuluu.copy;
+                    entity = _closure2_slot0;
+                    entity = entity.id;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                michal['action'] = tangon;
+                entity[zuuluu] = michal;
+                michal = 1;
+                michal = zuuluu + michal;
                 return entity;
             };
             romeon = romeon.bind(yankee)(option, offset);
@@ -517,10 +539,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = null;
             kiloes = golfie == backup;
             golfie = undefined;
-            if(kiloes) { _fun00002_ip = 720; continue _fun00001 }
- 715:
+            if(kiloes) { _fun00002_ip = 729; continue _fun00001 }
+ 724:
             golfie = backup.id;
- 720:
+ 729:
             option[2] = golfie;
             golfie = function() {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
@@ -547,7 +569,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  64:
                     tangon = _closure1_slot0;
                     oscard = _closure1_slot2;
-                    zuuluu = 18;
+                    zuuluu = 19;
                     zuuluu = oscard[zuuluu];
                     zuuluu = tangon.bind(report)(zuuluu);
                     michal = zuuluu.CheckmarkLargeIcon;
@@ -649,7 +671,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot5;
             michal = _closure1_slot0;
             option = _closure1_slot2;
-            entity = 19;
+            entity = 20;
             entity = option[entity];
             entity = michal.bind(tangon)(entity);
             michal = entity.ContextMenu;
@@ -662,7 +684,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     michal = tangon.bind(golfie)(michal);
-    tangon = 20;
+    tangon = 21;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

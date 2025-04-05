@@ -25,12 +25,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     verify = tangon.View;
     tangon = 2;
-    offset = oscard[tangon];
-    offset = report.bind(entity)(offset);
-    offset = offset.jsx;
-    var _closure1_slot3 = offset;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    offset = tangon.jsx;
+    var _closure1_slot3 = offset;
     tangon = tangon.jsxs;
     var _closure1_slot4 = tangon;
     tangon = 3;

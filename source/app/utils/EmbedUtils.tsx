@@ -27,20 +27,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            option = entity.url;
-            golfie = entity.proxy_url;
-            oscard = entity.width;
-            report = entity.height;
-            tangon = entity.placeholder;
-            michal = entity.placeholder_version;
+            verify = entity.url;
+            option = entity.proxy_url;
+            golfie = entity.width;
+            oscard = entity.height;
+            report = entity.placeholder;
+            tangon = entity.placeholder_version;
+            michal = entity.description;
             zuuluu = entity.flags;
             entity = {};
-            entity['url'] = option;
-            entity['proxyURL'] = golfie;
-            entity['width'] = oscard;
-            entity['height'] = report;
-            entity['placeholder'] = tangon;
-            entity['placeholderVersion'] = michal;
+            entity['url'] = verify;
+            entity['proxyURL'] = option;
+            entity['width'] = golfie;
+            entity['height'] = oscard;
+            entity['placeholder'] = report;
+            entity['placeholderVersion'] = tangon;
+            entity['description'] = michal;
             oscard = _closure1_slot0;
             tangon = _closure1_slot2;
             michal = 3;
@@ -51,20 +53,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = null;
             verify = tangon != zuuluu;
             oscard = 0;
-            if(!verify) { _fun00004_ip = 115; continue _fun00003 }
- 112:
+            if(!verify) { _fun00004_ip = 124; continue _fun00003 }
+ 121:
             oscard = zuuluu;
- 115:
+ 124:
             report = _closure1_slot3;
             report = report.IS_ANIMATED;
             report = golfie.bind(option)(oscard, report);
             entity['srcIsAnimated'] = report;
             tangon = tangon != zuuluu;
             michal = 0;
-            if(!tangon) { _fun00004_ip = 148; continue _fun00003 }
- 145:
+            if(!tangon) { _fun00004_ip = 157; continue _fun00003 }
+ 154:
             michal = zuuluu;
- 148:
+ 157:
             entity['flags'] = michal;
             return entity;
         }

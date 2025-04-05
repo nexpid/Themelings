@@ -43,12 +43,10 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     michal = michal.PomeloEntrypoints;
     var _closure1_slot5 = michal;
     michal = 6;
-    offset = oscard[michal];
-    offset = report.bind(entity)(offset);
-    offset = offset.jsx;
-    var _closure1_slot6 = offset;
     michal = oscard[michal];
     michal = report.bind(entity)(michal);
+    offset = michal.jsx;
+    var _closure1_slot6 = offset;
     michal = michal.jsxs;
     var _closure1_slot7 = michal;
     michal = 7;

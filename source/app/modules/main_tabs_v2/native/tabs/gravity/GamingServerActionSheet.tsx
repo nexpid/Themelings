@@ -544,12 +544,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.GuildFeatures;
     var _closure1_slot12 = tangon;
     tangon = 9;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot13 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot13 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot14 = tangon;
     tangon = {'363445589247131668': '150074202727251969', '356869127241072640': '417825368062558219', '432980957394370572': '322850917248663552', '700136079562375258': '679875946597056683', '356875570916753438': '302094807046684672', '1158877933042143272': '574217343635554305', '356876176465199104': '224565836277481473', '356875221078245376': '94882524378968064', '1149118246826561609': '136986169563938816', '762434991303950386': '522681957373575168', '1205090671527071784': '1102970375731691612', '1276737795012165766': '1243977533133820045'};

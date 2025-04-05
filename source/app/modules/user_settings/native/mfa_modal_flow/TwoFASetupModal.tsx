@@ -63,12 +63,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     backup = tangon.Fonts;
     tangon = 4;
-    verify = oscard[tangon];
-    verify = report.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot6 = verify;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    verify = tangon.jsx;
+    var _closure1_slot6 = verify;
     tangon = tangon.jsxs;
     var _closure1_slot7 = tangon;
     tangon = 5;

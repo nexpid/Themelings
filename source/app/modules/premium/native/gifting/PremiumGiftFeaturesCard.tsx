@@ -38,16 +38,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.Fonts;
     var _closure1_slot6 = tangon;
     tangon = 4;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot7 = option;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.Fragment;
-    var _closure1_slot8 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot7 = option;
+    option = tangon.Fragment;
+    var _closure1_slot8 = option;
     tangon = tangon.jsxs;
     var _closure1_slot9 = tangon;
     tangon = 5;
@@ -181,16 +177,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['featureText'] = michal;
             michal = {'position': 'absolute', 'top': 22, 'right': null, 'height': null, 'zIndex': 2};
             zuuluu = 10;
-            if(!tangon) { _fun00002_ip = 578; continue _fun00001 }
- 575:
+            if(!tangon) { _fun00002_ip = 582; continue _fun00001 }
+ 579:
             zuuluu = 20;
- 578:
+ 582:
             michal['right'] = zuuluu;
             zuuluu = 64;
-            if(!tangon) { _fun00002_ip = 593; continue _fun00001 }
- 590:
+            if(!tangon) { _fun00002_ip = 597; continue _fun00001 }
+ 594:
             zuuluu = 80;
- 593:
+ 597:
             michal['height'] = zuuluu;
             oscard = _closure1_slot1;
             zuuluu = _closure1_slot2;
@@ -201,10 +197,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['backgroundColor'] = zuuluu;
             zuuluu = 33;
             oscard = zuuluu;
-            if(!tangon) { _fun00002_ip = 643; continue _fun00001 }
- 640:
+            if(!tangon) { _fun00002_ip = 647; continue _fun00001 }
+ 644:
             oscard = 41;
- 643:
+ 647:
             michal['borderRadius'] = oscard;
             entity['promotionalAvatar'] = michal;
             michal = {'position': 'absolute', 'top': 22, 'right': 55, 'height': 64, 'zIndex': 2};
@@ -215,10 +211,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.colors;
             report = report.BUTTON_OUTLINE_POSITIVE_BORDER;
             michal['backgroundColor'] = report;
-            if(!tangon) { _fun00002_ip = 704; continue _fun00001 }
- 701:
+            if(!tangon) { _fun00002_ip = 708; continue _fun00001 }
+ 705:
             zuuluu = 41;
- 704:
+ 708:
             michal['borderRadius'] = zuuluu;
             entity['promotionalAvatarSecondary'] = michal;
             michal = {'position': 'absolute', 'top': 0, 'right': 10, 'height': 120, 'width': 150, 'zIndex': 2};

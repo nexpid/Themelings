@@ -37,12 +37,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.ScrollView;
     var _closure1_slot7 = tangon;
     tangon = 4;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsxs;
-    var _closure1_slot8 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsxs;
+    var _closure1_slot8 = option;
     tangon = tangon.jsx;
     var _closure1_slot9 = tangon;
     tangon = 5;

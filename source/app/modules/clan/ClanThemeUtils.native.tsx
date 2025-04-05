@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot5 = report;
+    var _closure1_slot4 = report;
     entity = function(argFoo) { // Original name: getColorFromChroma
         michal = argFoo;
         tangon = _closure1_slot1;
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = entity instanceof Object ? entity : michal;
         return entity;
     };
-    var _closure1_slot6 = entity;
+    var _closure1_slot5 = entity;
     tangon = function(argFoo, argBar) { // Original name: getAccessibleClanColor
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = function(argFoo) {
                         entity = argFoo;
                         michal = entity.distance;
-                        entity = _closure1_slot4;
+                        entity = 15;
                         entity = michal < entity;
                         return entity;
                     };
@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = oscard.bind(zuuluu)(tangon);
             oscard = golfie.getAccessibleColor;
             tangon = {};
-            offset = _closure1_slot6;
+            offset = _closure1_slot5;
             romeon = offset.bind(zuuluu)(verify);
             verify = new Array(2);
             verify[0] = romeon;
@@ -219,7 +219,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot7 = tangon;
+    var _closure1_slot6 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -234,8 +234,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = golfie.bind(entity)(oscard);
     oscard = oscard.CLAN_BRAND_PALETTE_PRESETS;
     var _closure1_slot3 = oscard;
-    oscard = 15;
-    var _closure1_slot4 = oscard;
     oscard = 7;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
@@ -254,7 +252,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = undefined;
             if(!michal) { _fun00008_ip = 83; continue _fun00007 }
  16:
-            oscard = _closure1_slot7;
+            oscard = _closure1_slot6;
             report = _closure1_slot0;
             option = _closure1_slot2;
             michal = 5;
@@ -277,7 +275,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  89:
             entity = {};
             entity['backgroundColor'] = zuuluu;
-            michal = _closure1_slot5;
+            michal = _closure1_slot4;
             michal = michal.bind(tangon)(zuuluu);
             entity['color'] = michal;
             return entity;

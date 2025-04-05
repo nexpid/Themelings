@@ -18,44 +18,48 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             report = entity.bind(michal)(tangon);
             entity = {};
             tangon = null;
-            golfie = tangon == report;
-            oscard = undefined;
-            if(golfie) { _fun00002_ip = 50; continue _fun00001 }
+            oscard = tangon == report;
+            option = undefined;
+            if(oscard) { _fun00002_ip = 50; continue _fun00001 }
  45:
-            oscard = report.guild_id;
+            option = report.guild_id;
  50:
-            if(!(tangon == oscard)) { _fun00002_ip = 58; continue _fun00001 }
- 54:
-            oscard = _closure1_slot8;
- 58:
-            entity['guild_id'] = oscard;
-            golfie = tangon == report;
-            oscard = undefined;
-            if(golfie) { _fun00002_ip = 76; continue _fun00001 }
- 71:
-            oscard = report.id;
- 76:
-            if(!(tangon == oscard)) { _fun00002_ip = 84; continue _fun00001 }
- 80:
-            oscard = _closure1_slot9;
- 84:
+            verify = tangon != option;
+            oscard = '10000';
+            golfie = oscard;
+            if(!verify) { _fun00002_ip = 69; continue _fun00001 }
+ 66:
+            golfie = option;
+ 69:
+            entity['guild_id'] = golfie;
+            option = tangon == report;
+            golfie = undefined;
+            if(option) { _fun00002_ip = 87; continue _fun00001 }
+ 82:
+            golfie = report.id;
+ 87:
+            option = tangon != golfie;
+            if(!option) { _fun00002_ip = 97; continue _fun00001 }
+ 94:
+            oscard = golfie;
+ 97:
             entity['channel_id'] = oscard;
             oscard = tangon == report;
             michal = undefined;
-            if(oscard) { _fun00002_ip = 102; continue _fun00001 }
- 97:
+            if(oscard) { _fun00002_ip = 115; continue _fun00001 }
+ 110:
             michal = report.type;
- 102:
-            if(!(tangon == michal)) { _fun00002_ip = 116; continue _fun00001 }
- 106:
+ 115:
+            if(!(tangon == michal)) { _fun00002_ip = 129; continue _fun00001 }
+ 119:
             zuuluu = _closure1_slot6;
             michal = zuuluu.UNKNOWN;
- 116:
+ 129:
             entity['channel_type'] = michal;
             return entity;
         }
     };
-    var _closure1_slot10 = tangon;
+    var _closure1_slot8 = tangon;
     entity = function() { // Original name: _authorize
         report = undefined;
         entity = undefined;
@@ -142,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     oscard['permissions'] = yankee;
                     oscard['authorize'] = offset;
                     oscard['integration_type'] = verify;
-                    golfie = _closure1_slot10;
+                    golfie = _closure1_slot8;
                     golfie = golfie.bind(option)();
                     oscard['location_context'] = golfie;
                     zuuluu['body'] = oscard;
@@ -173,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot11 = tangon;
+        _closure1_slot9 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -181,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot11 = entity;
+    var _closure1_slot9 = entity;
     entity = function() { // Original name: _fetchAuthorization
         report = undefined;
         entity = undefined;
@@ -262,7 +266,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot12 = tangon;
+        _closure1_slot10 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -270,7 +274,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot10 = entity;
     entity = function() { // Original name: _startSamsungAuthorization
         report = undefined;
         entity = undefined;
@@ -332,7 +336,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot13 = tangon;
+        _closure1_slot11 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -340,7 +344,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot13 = entity;
+    var _closure1_slot11 = entity;
     entity = function() { // Original name: _fetchChannels
         report = undefined;
         entity = undefined;
@@ -392,7 +396,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot14 = tangon;
+        _closure1_slot12 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -400,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot12 = entity;
     entity = function() { // Original name: _verifyUserCode
         report = undefined;
         entity = undefined;
@@ -449,7 +453,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot15 = tangon;
+        _closure1_slot13 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -457,7 +461,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot15 = entity;
+    var _closure1_slot13 = entity;
     entity = function() { // Original name: _finishUserCode
         report = undefined;
         entity = undefined;
@@ -508,7 +512,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot16 = tangon;
+        _closure1_slot14 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -516,7 +520,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot16 = entity;
+    var _closure1_slot14 = entity;
     entity = function() { // Original name: _finishUserCodeTwoWayLinkError
         report = undefined;
         entity = undefined;
@@ -571,7 +575,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot17 = tangon;
+        _closure1_slot15 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -579,7 +583,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot17 = entity;
+    var _closure1_slot15 = entity;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -608,9 +612,6 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     var _closure1_slot6 = option;
     report = report.Endpoints;
     var _closure1_slot7 = report;
-    report = '10000';
-    var _closure1_slot8 = report;
-    var _closure1_slot9 = report;
     report = 7;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
@@ -645,7 +646,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     zuuluu['acceptWhitelist'] = tangon;
     tangon = function() { // Original name: authorize
         entity = undefined;
-        tangon = _closure1_slot11;
+        tangon = _closure1_slot9;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -656,7 +657,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     zuuluu['authorize'] = tangon;
     tangon = function() { // Original name: fetchAuthorization
         entity = undefined;
-        tangon = _closure1_slot12;
+        tangon = _closure1_slot10;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -667,7 +668,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     zuuluu['fetchAuthorization'] = tangon;
     tangon = function() { // Original name: startSamsungAuthorization
         entity = undefined;
-        tangon = _closure1_slot13;
+        tangon = _closure1_slot11;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -678,7 +679,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     zuuluu['startSamsungAuthorization'] = tangon;
     tangon = function() { // Original name: fetchChannels
         entity = undefined;
-        tangon = _closure1_slot14;
+        tangon = _closure1_slot12;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -712,7 +713,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     zuuluu['logoutWithRedirect'] = tangon;
     tangon = function() { // Original name: verifyUserCode
         entity = undefined;
-        tangon = _closure1_slot15;
+        tangon = _closure1_slot13;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -723,7 +724,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     zuuluu['verifyUserCode'] = tangon;
     tangon = function() { // Original name: finishUserCode
         entity = undefined;
-        tangon = _closure1_slot16;
+        tangon = _closure1_slot14;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -734,7 +735,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     zuuluu['finishUserCode'] = tangon;
     michal = function() { // Original name: finishUserCodeTwoWayLinkError
         entity = undefined;
-        tangon = _closure1_slot17;
+        tangon = _closure1_slot15;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;

@@ -1,12 +1,12 @@
 // app/modules/chat/native/NativeChatUtils.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
+    golfie = argBar;
     zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
+    option = argPlu;
+    var _closure1_slot0 = golfie;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = golfie;
+    var _closure1_slot2 = option;
     entity = function(argFoo) { // Original name: logMissingView
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
@@ -27,39 +27,46 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     var _closure1_slot5 = entity;
     entity = global;
-    option = entity.Object;
-    tangon = option.defineProperty;
+    report = entity.Object;
+    tangon = report.defineProperty;
     michal = {};
     entity = true;
     michal['value'] = entity;
     entity = '__esModule';
-    entity = tangon.bind(option)(zuuluu, entity, michal);
-    option = 0;
-    michal = golfie[option];
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    offset = 0;
+    michal = option[offset];
     entity = undefined;
-    michal = oscard.bind(entity)(michal);
+    michal = golfie.bind(entity)(michal);
     tangon = michal.NativeModules;
     var _closure1_slot3 = tangon;
     michal = michal.findNodeHandle;
     var _closure1_slot4 = michal;
-    michal = {};
-    michal['TOP'] = option;
-    tangon = 'TOP';
-    michal[option] = tangon;
-    option = 1;
-    michal['MIDDLE'] = option;
-    tangon = 'MIDDLE';
-    michal[option] = tangon;
-    option = 2;
-    michal['BOTTOM'] = option;
-    tangon = 'BOTTOM';
-    michal[option] = tangon;
-    option = 3;
-    michal['NONE'] = option;
-    tangon = 'NONE';
-    michal[option] = tangon;
     tangon = {};
-    option = function(argFoo, argBar, argBaz) { // Original name: scrollTo
+    tangon['TOP'] = offset;
+    michal = 'TOP';
+    tangon[offset] = michal;
+    verify = 1;
+    tangon['MIDDLE'] = verify;
+    michal = 'MIDDLE';
+    tangon[verify] = michal;
+    report = 2;
+    tangon['BOTTOM'] = report;
+    michal = 'BOTTOM';
+    tangon[report] = michal;
+    report = 3;
+    tangon['NONE'] = report;
+    michal = 'NONE';
+    tangon[report] = michal;
+    michal = {};
+    michal['SCROLL'] = offset;
+    report = 'SCROLL';
+    michal[offset] = report;
+    michal['FOCUS_ONLY'] = verify;
+    report = 'FOCUS_ONLY';
+    michal[verify] = report;
+    report = {};
+    verify = function(argFoo, argBar, argBaz) { // Original name: scrollTo
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golfie = argFoo;
@@ -107,8 +114,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    tangon['scrollTo'] = option;
-    option = function(argFoo, argBar) { // Original name: scrollToBottom
+    report['scrollTo'] = verify;
+    verify = function(argFoo, argBar) { // Original name: scrollToBottom
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             oscard = argFoo;
@@ -155,8 +162,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    tangon['scrollToBottom'] = option;
-    option = function(argFoo, argBar) { // Original name: scrollToTop
+    report['scrollToBottom'] = verify;
+    verify = function(argFoo, argBar) { // Original name: scrollToTop
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             report = argFoo;
@@ -193,8 +200,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    tangon['scrollToTop'] = option;
-    option = function(argFoo, argBar, argBaz) { // Original name: scrollToRelativeOffset
+    report['scrollToTop'] = verify;
+    verify = function(argFoo, argBar, argBaz) { // Original name: scrollToRelativeOffset
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             report = argFoo;
@@ -232,8 +239,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    tangon['scrollToRelativeOffset'] = option;
-    option = function(argFoo, argBar, argBaz) { // Original name: scrollIntoView
+    report['scrollToRelativeOffset'] = verify;
+    verify = function(argFoo, argBar, argBaz) { // Original name: scrollIntoView
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             golfie = argFoo;
@@ -281,8 +288,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    tangon['scrollIntoView'] = option;
-    option = function(argFoo, argBar, argBaz) { // Original name: updateRows
+    report['scrollIntoView'] = verify;
+    verify = function(argFoo, argBar, argBaz) { // Original name: updateRows
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             verify = argFoo;
@@ -355,8 +362,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    tangon['updateRows'] = option;
-    option = function(argFoo) { // Original name: clearRows
+    report['updateRows'] = verify;
+    verify = function(argFoo) { // Original name: clearRows
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             oscard = argFoo;
@@ -412,8 +419,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    tangon['clearRows'] = option;
-    report = function(argFoo) { // Original name: fadeIn
+    report['clearRows'] = verify;
+    verify = function(argFoo) { // Original name: fadeIn
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             report = argFoo;
@@ -449,14 +456,51 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    tangon['fadeIn'] = report;
-    report = 6;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/chat/native/NativeChatUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['default'] = tangon;
-    zuuluu['ChatScrollPosition'] = michal;
+    report['fadeIn'] = verify;
+    oscard = function(argFoo, argBar) { // Original name: focus
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+ 0:
+            report = argFoo;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            entity = 2;
+            zuuluu = zuuluu[entity];
+            entity = undefined;
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.isIOS;
+            zuuluu = zuuluu.bind(tangon)();
+            if(!zuuluu) { _fun00018_ip = 100; continue _fun00017 }
+ 41:
+            zuuluu = null;
+            if(!(zuuluu == report)) { _fun00018_ip = 62; continue _fun00017 }
+ 47:
+            oscard = _closure1_slot5;
+            tangon = 'focus';
+            tangon = oscard.bind(entity)(tangon);
+            _fun00018_ip = 100; continue _fun00017;
+ 62:
+            tangon = _closure1_slot4;
+            report = tangon.bind(entity)(report);
+            if(!(zuuluu != report)) { _fun00018_ip = 100; continue _fun00017 }
+ 75:
+            michal = _closure1_slot3;
+            tangon = michal.DCDChatManager;
+            zuuluu = tangon.focus;
+            michal = argBar;
+            michal = zuuluu.bind(tangon)(report, michal);
+ 100:
+            return entity;
+        }
+    };
+    report['focus'] = oscard;
+    oscard = 6;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/chat/native/NativeChatUtils.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['default'] = report;
+    zuuluu['ChatScrollPosition'] = tangon;
+    zuuluu['ChatScrollType'] = michal;
     return entity;
 })();

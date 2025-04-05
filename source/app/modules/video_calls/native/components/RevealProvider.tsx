@@ -146,12 +146,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.useIsVoiceChatFocused;
     var _closure1_slot9 = tangon;
     tangon = 4;
-    oscard = option[tangon];
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.jsx;
-    var _closure1_slot10 = oscard;
     tangon = option[tangon];
     tangon = golfie.bind(entity)(tangon);
+    oscard = tangon.jsx;
+    var _closure1_slot10 = oscard;
     tangon = tangon.jsxs;
     var _closure1_slot11 = tangon;
     oscard = verify.createContext;

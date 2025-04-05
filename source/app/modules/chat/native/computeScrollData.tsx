@@ -1,65 +1,101 @@
 // app/modules/chat/native/computeScrollData.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
+    oscard = argBar;
     zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.RowType;
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/chat/native/computeScrollData.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: computeScrollData
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    michal = function(argFoo, argBar) { // Original name: findMessageRowIndex
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tangon = argFoo;
-            oscard = tangon.rows;
-            offset = tangon.scrollToMessageId;
-            verify = tangon.jumpTargetId;
-            foxtra = tangon.jumpType;
-            zuuluu = tangon.newlyLoaded;
-            michal = tangon.animated;
-            report = tangon.scrollPosition;
-            if(!zuuluu) { _fun00002_ip = 77; continue _fun00001 }
- 50:
-            golfie = null;
-            if(!(golfie == verify)) { _fun00002_ip = 77; continue _fun00001 }
- 56:
-            zuuluu = function(argFoo) { // Original name: findUnreadSeperatorRowIndex
+            zuuluu = argFoo;
+            michal = argBar;
+            var _closure2_slot0 = michal;
+            michal = zuuluu.findIndex;
+            entity = function(argFoo) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                    michal = argFoo;
+                    zuuluu = michal.message;
+                    entity = null;
+                    entity = entity != zuuluu;
+                    if(!entity) { _fun00004_ip = 38; continue _fun00003 }
+ 17:
+                    michal = michal.message;
+                    zuuluu = michal.id;
+                    michal = _closure2_slot0;
+                    entity = zuuluu === michal;
+ 38:
+                    return entity;
+                }
+            };
+            entity = michal.bind(zuuluu)(entity);
+            michal = -1;
+            if(!(michal === entity)) { _fun00002_ip = 44; continue _fun00001 }
+ 40:
+            michal = undefined;
+            return michal;
+ 44:
+            return entity;
+        }
+    };
+    var _closure1_slot4 = michal;
+    entity = global;
+    verify = entity.Object;
+    option = verify.defineProperty;
+    report = {};
+    entity = true;
+    report['value'] = entity;
+    entity = '__esModule';
+    entity = option.bind(verify)(zuuluu, entity, report);
+    entity = 0;
+    option = golfie[entity];
+    report = argBaz;
+    entity = undefined;
+    report = report.bind(entity)(option);
+    var _closure1_slot2 = report;
+    report = 1;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    report = report.RowType;
+    var _closure1_slot3 = report;
+    report = 4;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
+    report = 'modules/chat/native/computeScrollData.tsx';
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo) { // Original name: computeScrollData
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+            michal = argFoo;
+            yankee = michal.rows;
+            backup = michal.scrollToMessageId;
+            romeon = michal.jumpTargetId;
+            output = michal.jumpType;
+            entity = michal.newlyLoaded;
+            zuuluu = michal.animated;
+            golfie = michal.scrollPosition;
+            verify = michal.focusTargetId;
+            if(!entity) { _fun00006_ip = 83; continue _fun00005 }
+ 54:
+            entity = null;
+            if(!(entity == romeon)) { _fun00006_ip = 83; continue _fun00005 }
+ 60:
+            michal = function(argFoo) { // Original name: findUnreadSeperatorRowIndex
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     zuuluu = argFoo;
                     michal = zuuluu.findIndex;
                     entity = function(argFoo) {
-                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                             michal = argFoo;
                             zuuluu = michal.type;
                             entity = _closure1_slot3;
                             entity = entity.SEPARATOR;
                             entity = zuuluu === entity;
-                            if(!entity) { _fun00006_ip = 40; continue _fun00005 }
+                            if(!entity) { _fun00010_ip = 40; continue _fun00009 }
  28:
                             zuuluu = michal.scrollTo;
                             michal = null;
@@ -70,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     entity = michal.bind(zuuluu)(entity);
                     michal = -1;
-                    if(!(michal === entity)) { _fun00004_ip = 37; continue _fun00003 }
+                    if(!(michal === entity)) { _fun00008_ip = 37; continue _fun00007 }
  33:
                     michal = undefined;
                     return michal;
@@ -79,100 +115,110 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(oscard);
-            if(!(golfie == zuuluu)) { _fun00002_ip = 223; continue _fun00001 }
- 77:
-            golfie = null;
-            if(!(golfie != offset)) { _fun00002_ip = 102; continue _fun00001 }
+            oscard = michal.bind(tangon)(yankee);
+            if(!(entity == oscard)) { _fun00006_ip = 357; continue _fun00005 }
  83:
-            entity = function(argFoo, argBar) { // Original name: findMessageRowIndex
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
- 0:
-                    zuuluu = argFoo;
-                    michal = argBar;
-                    var _closure3_slot0 = michal;
-                    michal = zuuluu.findIndex;
-                    entity = function(argFoo) {
-                        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
- 0:
-                            michal = argFoo;
-                            zuuluu = michal.message;
-                            entity = null;
-                            entity = entity != zuuluu;
-                            if(!entity) { _fun00010_ip = 38; continue _fun00009 }
- 17:
-                            michal = michal.message;
-                            zuuluu = michal.id;
-                            michal = _closure3_slot0;
-                            entity = zuuluu === michal;
- 38:
-                            return entity;
-                        }
-                    };
-                    entity = michal.bind(zuuluu)(entity);
-                    michal = -1;
-                    if(!(michal === entity)) { _fun00008_ip = 44; continue _fun00007 }
- 40:
-                    michal = undefined;
-                    return michal;
- 44:
-                    return entity;
-                }
-            };
-            option = undefined;
-            oscard = entity.bind(option)(oscard, offset);
-            if(!(golfie == oscard)) { _fun00002_ip = 106; continue _fun00001 }
- 102:
+            report = null;
+            michal = report != backup;
+            offset = undefined;
             entity = undefined;
+            if(!michal) { _fun00006_ip = 272; continue _fun00005 }
+ 99:
+            michal = _closure1_slot4;
+            kiloes = michal.bind(offset)(yankee, backup);
+            michal = report != kiloes;
+            entity = undefined;
+            if(!michal) { _fun00006_ip = 272; continue _fun00005 }
+ 124:
+            michal = {};
+            result = _closure1_slot0;
+            sizing = _closure1_slot1;
+            foxtra = 2;
+            sizing = sizing[foxtra];
+            sizing = result.bind(offset)(sizing);
+            sizing = sizing.ChatScrollType;
+            sizing = sizing.SCROLL;
+            michal['type'] = sizing;
+            michal['index'] = kiloes;
+            kiloes = _closure1_slot2;
+            kiloes = kiloes.useReducedMotion;
+            kiloes = !kiloes;
+            if(!kiloes) { _fun00006_ip = 218; continue _fun00005 }
+ 182:
+            result = _closure1_slot0;
+            echoed = _closure1_slot1;
+            sizing = 3;
+            sizing = echoed[sizing];
+            sizing = result.bind(offset)(sizing);
+            sizing = sizing.JumpTypes;
+            sizing = sizing.INSTANT;
+            kiloes = output !== sizing;
+ 218:
+            michal['animate'] = kiloes;
+            romeon = backup === romeon;
+            michal['highlight'] = romeon;
+            if(!(report == golfie)) { _fun00006_ip = 265; continue _fun00005 }
+ 236:
+            romeon = _closure1_slot0;
+            option = _closure1_slot1;
+            option = option[foxtra];
+            option = romeon.bind(offset)(option);
+            option = option.ChatScrollPosition;
+            golfie = option.TOP;
+ 265:
+            michal['position'] = golfie;
+            entity = michal;
+ 272:
+            if(!(report == entity)) { _fun00006_ip = 355; continue _fun00005 }
+ 276:
+            golfie = report != verify;
+            michal = undefined;
+            if(!golfie) { _fun00006_ip = 352; continue _fun00005 }
+ 285:
+            golfie = _closure1_slot4;
+            golfie = golfie.bind(offset)(yankee, verify);
+            report = report != golfie;
+            michal = undefined;
+            if(!report) { _fun00006_ip = 352; continue _fun00005 }
+ 307:
+            report = {};
+            verify = _closure1_slot0;
+            yankee = _closure1_slot1;
+            option = 2;
+            option = yankee[option];
+            option = verify.bind(offset)(option);
+            option = option.ChatScrollType;
+            option = option.FOCUS_ONLY;
+            report['type'] = option;
+            report['index'] = golfie;
+            michal = report;
+ 352:
+            entity = michal;
+ 355:
             return entity;
- 106:
+ 357:
             entity = {};
+            option = _closure1_slot0;
+            golfie = _closure1_slot1;
+            report = 2;
+            golfie = golfie[report];
+            golfie = option.bind(tangon)(golfie);
+            golfie = golfie.ChatScrollType;
+            golfie = golfie.SCROLL;
+            entity['type'] = golfie;
             entity['index'] = oscard;
-            yankee = _closure1_slot2;
-            yankee = yankee.useReducedMotion;
-            yankee = !yankee;
-            if(!yankee) { _fun00002_ip = 167; continue _fun00001 }
- 131:
-            backup = _closure1_slot0;
-            kiloes = _closure1_slot1;
-            romeon = 3;
-            romeon = kiloes[romeon];
-            romeon = backup.bind(option)(romeon);
-            romeon = romeon.JumpTypes;
-            romeon = romeon.INSTANT;
-            yankee = foxtra !== romeon;
- 167:
-            entity['animate'] = yankee;
-            verify = offset === verify;
-            entity['highlight'] = verify;
-            if(!(golfie == report)) { _fun00002_ip = 217; continue _fun00001 }
- 185:
-            golfie = _closure1_slot0;
-            verify = _closure1_slot1;
-            oscard = 2;
-            oscard = verify[oscard];
-            oscard = golfie.bind(option)(oscard);
-            oscard = oscard.ChatScrollPosition;
-            report = oscard.TOP;
- 217:
-            entity['position'] = report;
-            return entity;
- 223:
-            entity = {};
-            entity['index'] = zuuluu;
-            if(!michal) { _fun00002_ip = 248; continue _fun00001 }
- 232:
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.useReducedMotion;
-            michal = !zuuluu;
- 248:
-            entity['animate'] = michal;
-            michal = false;
-            entity['highlight'] = michal;
+            if(!zuuluu) { _fun00006_ip = 418; continue _fun00005 }
+ 405:
+            oscard = _closure1_slot2;
+            oscard = oscard.useReducedMotion;
+            zuuluu = !oscard;
+ 418:
+            entity['animate'] = zuuluu;
+            zuuluu = false;
+            entity['highlight'] = zuuluu;
             zuuluu = _closure1_slot0;
-            report = _closure1_slot1;
-            michal = 2;
-            michal = report[michal];
+            michal = _closure1_slot1;
+            michal = michal[report];
             michal = zuuluu.bind(tangon)(michal);
             michal = michal.ChatScrollPosition;
             michal = michal.TOP;
@@ -180,6 +226,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['default'] = michal;
+    zuuluu['default'] = tangon;
+    zuuluu['findMessageRowIndex'] = michal;
     return entity;
 })();

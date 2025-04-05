@@ -42,12 +42,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.RelationshipTypes;
     var _closure1_slot8 = tangon;
     tangon = 5;
-    report = golfie[tangon];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot9 = report;
     tangon = golfie[tangon];
     tangon = oscard.bind(entity)(tangon);
+    report = tangon.jsx;
+    var _closure1_slot9 = report;
     tangon = tangon.jsxs;
     var _closure1_slot10 = tangon;
     tangon = 6;

@@ -279,14 +279,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = 6;
     option = golfie[verify];
     option = oscard.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot12 = option;
-    option = golfie[verify];
-    option = oscard.bind(entity)(option);
-    option = option.jsxs;
-    var _closure1_slot13 = option;
-    option = golfie[verify];
-    option = oscard.bind(entity)(option);
+    offset = option.jsx;
+    var _closure1_slot12 = offset;
+    offset = option.jsxs;
+    var _closure1_slot13 = offset;
     option = option.Fragment;
     var _closure1_slot14 = option;
     option = 7;
@@ -473,7 +469,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = report.Math;
             report = golfie.max;
             quebec = 36;
-            zuuluu = zuuluu * quebec;
+            zuuluu = quebec * zuuluu;
             zuuluu = zuuluu - quebec;
             variable46 = 0;
             report = report.bind(golfie)(zuuluu, variable46);

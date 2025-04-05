@@ -41,12 +41,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = report.UserSettingsSections;
     var _closure1_slot8 = report;
     report = 4;
-    oscard = verify[report];
-    oscard = option.bind(entity)(oscard);
-    oscard = oscard.jsx;
-    var _closure1_slot9 = oscard;
     report = verify[report];
     report = option.bind(entity)(report);
+    oscard = report.jsx;
+    var _closure1_slot9 = oscard;
     report = report.jsxs;
     var _closure1_slot10 = report;
     oscard = {};

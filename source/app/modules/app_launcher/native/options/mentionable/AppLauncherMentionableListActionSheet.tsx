@@ -31,12 +31,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = michal.RelationshipTypes;
     var _closure1_slot5 = michal;
     michal = 3;
-    report = golfie[michal];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot6 = report;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
+    report = michal.jsx;
+    var _closure1_slot6 = report;
     michal = michal.jsxs;
     var _closure1_slot7 = michal;
     michal = {};
@@ -214,12 +212,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure2_slot6;
                     tangon = michal.current;
                     michal = null;
-                    if(!(michal != tangon)) { _fun00004_ip = 67; continue _fun00003 }
+                    if(!(michal != tangon)) { _fun00004_ip = 63; continue _fun00003 }
  42:
                     zuuluu = tangon.scrollToOffset;
                     michal = {'offset': 0, 'animated': false};
                     michal = zuuluu.bind(tangon)(michal);
- 67:
+ 63:
                     return entity;
                 }
             };

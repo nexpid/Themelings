@@ -621,15 +621,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['jumpTargetId'] = oscard;
             report = 0;
             zuuluu['jumpTargetOffset'] = report;
-            report = 1;
-            zuuluu['jumpSequenceId'] = report;
+            golfie = 1;
+            zuuluu['jumpSequenceId'] = golfie;
             zuuluu['jumped'] = michal;
             zuuluu['jumpedToPresent'] = michal;
-            golfie = _closure1_slot0;
-            option = _closure1_slot3;
+            option = _closure1_slot0;
+            verify = _closure1_slot3;
             report = 7;
-            report = option[report];
-            report = golfie.bind(entity)(report);
+            report = verify[report];
+            report = option.bind(entity)(report);
             report = report.JumpTypes;
             report = report.ANIMATED;
             zuuluu['jumpType'] = report;
@@ -637,6 +637,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['jumpFlash'] = report;
             zuuluu['jumpReturnTargetId'] = oscard;
             zuuluu['focusTargetId'] = oscard;
+            zuuluu['focusSequenceId'] = golfie;
             zuuluu['hasMoreBefore'] = report;
             zuuluu['hasMoreAfter'] = michal;
             zuuluu['loadingMore'] = michal;
@@ -646,16 +647,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = _closure1_slot12;
             oscard = tangon.prototype;
             oscard = Object.create(oscard, {constructor: {value: tangon}});
-            yankee = oscard;
-            offset = true;
-            report = new yankee[tangon](offset, verify);
+            romeon = oscard;
+            yankee = true;
+            report = new romeon[tangon](yankee, offset);
             report = report instanceof Object ? report : oscard;
             zuuluu['_before'] = report;
             report = tangon.prototype;
             report = Object.create(report, {constructor: {value: tangon}});
-            yankee = report;
-            offset = false;
-            tangon = new yankee[tangon](offset, verify);
+            romeon = report;
+            yankee = false;
+            tangon = new romeon[tangon](yankee, offset);
             tangon = tangon instanceof Object ? tangon : report;
             zuuluu['_after'] = tangon;
             zuuluu['cached'] = michal;
@@ -736,11 +737,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = global;
                 report = report.Function;
                 report = zuuluu instanceof report;
-                if(report) { _fun00012_ip = 763; continue _fun00011 }
+                if(report) { _fun00012_ip = 793; continue _fun00011 }
  201:
                 oscard = 'object';
                 report = typeof zuuluu;
-                if(!(oscard === report)) { _fun00012_ip = 971; continue _fun00011 }
+                if(!(oscard === report)) { _fun00012_ip = 1013; continue _fun00011 }
  215:
                 report = zuuluu.ready;
                 if(!(michal === report)) { _fun00012_ip = 233; continue _fun00011 }
@@ -840,75 +841,84 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = zuuluu.focusTargetId;
  533:
                 entity['focusTargetId'] = report;
-                report = zuuluu.hasMoreBefore;
+                report = zuuluu.focusSequenceId;
                 if(!(michal === report)) { _fun00012_ip = 557; continue _fun00011 }
  549:
-                report = tangon.hasMoreBefore;
-                _fun00012_ip = 569; continue _fun00011;
+                report = tangon.focusSequenceId;
+                _fun00012_ip = 563; continue _fun00011;
  557:
+                report = zuuluu.focusSequenceId;
+ 563:
+                entity['focusSequenceId'] = report;
+                report = zuuluu.hasMoreBefore;
+                if(!(michal === report)) { _fun00012_ip = 587; continue _fun00011 }
+ 579:
+                report = tangon.hasMoreBefore;
+                _fun00012_ip = 599; continue _fun00011;
+ 587:
                 golfie = zuuluu.hasMoreBefore;
                 oscard = true;
                 report = oscard === golfie;
- 569:
+ 599:
                 entity['hasMoreBefore'] = report;
                 report = zuuluu.hasMoreAfter;
-                if(!(michal === report)) { _fun00012_ip = 593; continue _fun00011 }
- 585:
+                if(!(michal === report)) { _fun00012_ip = 623; continue _fun00011 }
+ 615:
                 report = tangon.hasMoreAfter;
-                _fun00012_ip = 605; continue _fun00011;
- 593:
+                _fun00012_ip = 635; continue _fun00011;
+ 623:
                 golfie = zuuluu.hasMoreAfter;
                 oscard = true;
                 report = oscard === golfie;
- 605:
+ 635:
                 entity['hasMoreAfter'] = report;
                 report = zuuluu.loadingMore;
-                if(!(michal === report)) { _fun00012_ip = 629; continue _fun00011 }
- 621:
-                report = tangon.loadingMore;
-                _fun00012_ip = 635; continue _fun00011;
- 629:
-                report = zuuluu.loadingMore;
- 635:
-                entity['loadingMore'] = report;
-                report = zuuluu.revealedMessageId;
                 if(!(michal === report)) { _fun00012_ip = 659; continue _fun00011 }
  651:
-                report = tangon.revealedMessageId;
+                report = tangon.loadingMore;
                 _fun00012_ip = 665; continue _fun00011;
  659:
-                report = zuuluu.revealedMessageId;
+                report = zuuluu.loadingMore;
  665:
-                entity['revealedMessageId'] = report;
-                report = zuuluu.cached;
+                entity['loadingMore'] = report;
+                report = zuuluu.revealedMessageId;
                 if(!(michal === report)) { _fun00012_ip = 689; continue _fun00011 }
  681:
-                report = tangon.cached;
+                report = tangon.revealedMessageId;
                 _fun00012_ip = 695; continue _fun00011;
  689:
-                report = zuuluu.cached;
+                report = zuuluu.revealedMessageId;
  695:
-                entity['cached'] = report;
-                report = zuuluu.hasFetched;
+                entity['revealedMessageId'] = report;
+                report = zuuluu.cached;
                 if(!(michal === report)) { _fun00012_ip = 719; continue _fun00011 }
  711:
-                report = tangon.hasFetched;
+                report = tangon.cached;
                 _fun00012_ip = 725; continue _fun00011;
  719:
-                report = zuuluu.hasFetched;
+                report = zuuluu.cached;
  725:
+                entity['cached'] = report;
+                report = zuuluu.hasFetched;
+                if(!(michal === report)) { _fun00012_ip = 749; continue _fun00011 }
+ 741:
+                report = tangon.hasFetched;
+                _fun00012_ip = 755; continue _fun00011;
+ 749:
+                report = zuuluu.hasFetched;
+ 755:
                 entity['hasFetched'] = report;
                 report = zuuluu.error;
-                if(!(michal === report)) { _fun00012_ip = 747; continue _fun00011 }
- 740:
+                if(!(michal === report)) { _fun00012_ip = 777; continue _fun00011 }
+ 770:
                 report = tangon.error;
-                _fun00012_ip = 752; continue _fun00011;
- 747:
+                _fun00012_ip = 782; continue _fun00011;
+ 777:
                 report = zuuluu.error;
- 752:
+ 782:
                 entity['error'] = report;
-                _fun00012_ip = 971; continue _fun00011;
- 763:
+                _fun00012_ip = 1013; continue _fun00011;
+ 793:
                 report = tangon.ready;
                 entity['ready'] = report;
                 report = tangon.jumpType;
@@ -929,6 +939,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['jumpReturnTargetId'] = report;
                 report = tangon.focusTargetId;
                 entity['focusTargetId'] = report;
+                report = tangon.focusSequenceId;
+                entity['focusSequenceId'] = report;
                 report = tangon.hasMoreBefore;
                 entity['hasMoreBefore'] = report;
                 report = tangon.hasMoreAfter;
@@ -944,7 +956,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = tangon.error;
                 entity['error'] = tangon;
                 michal = zuuluu.bind(michal)(entity);
- 971:
+ 1013:
                 return entity;
             }
         };
@@ -2452,6 +2464,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = argFoo;
                 entity = _closure3_slot0;
                 michal['focusTargetId'] = entity;
+                zuuluu = michal.focusSequenceId;
+                entity = 1;
+                entity = zuuluu + entity;
+                michal['focusSequenceId'] = entity;
                 entity = true;
                 michal['ready'] = entity;
                 entity = false;

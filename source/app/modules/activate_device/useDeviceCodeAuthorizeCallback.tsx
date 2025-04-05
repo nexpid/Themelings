@@ -16,96 +16,96 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 726; continue _fun00001 }
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
+                    if(zuuluu) { _fun00002_ip = 721; continue _fun00001 }
  10:
-                    result = argBar;
-                    zuuluu = argBaz;
+                    echoed = argBar;
+                    michal = argBaz;
                     oscard = undefined;
                     option = undefined;
                     romeon = undefined;
                     tangon = undefined;
                     offset = undefined;
-                    output = undefined;
+                    result = undefined;
                     golfie = undefined;
-                    backup = undefined;
+                    kiloes = undefined;
                     verify = _closure1_slot0;
-                    foxtra = _closure1_slot2;
-                    report = 2;
-                    report = foxtra[report];
-                    foxtra = verify.bind(oscard)(report);
-                    verify = foxtra.clientIdToActivateDevicePlatform;
+                    report = _closure1_slot2;
+                    foxtra = 2;
+                    report = report[foxtra];
+                    backup = verify.bind(oscard)(report);
+                    verify = backup.clientIdToActivateDevicePlatform;
                     report = argFoo;
-                    report = verify.bind(foxtra)(report);
+                    report = verify.bind(backup)(report);
                     option = report;
                     verify = null;
-                    if(!(verify != report)) { _fun00002_ip = 655; continue _fun00001 }
+                    if(!(verify != report)) { _fun00002_ip = 651; continue _fun00001 }
  81:
                     romeon = null;
  83: // try_start_0
-                    foxtra = _closure1_slot1;
-                    vacuum = _closure1_slot2;
-                    sizing = 3;
-                    report = vacuum[sizing];
-                    update = foxtra.bind(oscard)(report);
-                    echoed = update.authorize;
-                    foxtra = option;
+                    backup = _closure1_slot1;
+                    sequen = _closure1_slot2;
+                    output = 3;
+                    report = sequen[output];
+                    source = backup.bind(oscard)(report);
+                    update = source.authorize;
+                    backup = option;
                     report = {};
-                    ctrled = _closure1_slot0;
-                    source = 4;
-                    source = vacuum[source];
-                    source = ctrled.bind(oscard)(source);
-                    source = source.TwoWayLinkType;
-                    source = source.DEVICE_CODE;
-                    report['twoWayLinkType'] = source;
-                    source = zuuluu;
-                    report['userCode'] = source;
-                    report = echoed.bind(update)(foxtra, report);
+                    vacuum = _closure1_slot0;
+                    ctrled = 4;
+                    ctrled = sequen[ctrled];
+                    ctrled = vacuum.bind(oscard)(ctrled);
+                    ctrled = ctrled.TwoWayLinkType;
+                    ctrled = ctrled.DEVICE_CODE;
+                    report['twoWayLinkType'] = ctrled;
+                    ctrled = michal;
+                    report['userCode'] = ctrled;
+                    report = update.bind(source)(backup, report);
                     SaveGenerator(address=165);
  163:
                     return report;
  165:
-                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=12);
-                    if(foxtra) { _fun00002_ip = 534; continue _fun00001 }
+                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=13);
+                    if(backup) { _fun00002_ip = 530; continue _fun00001 }
  174:
-                    foxtra = report.body;
-                    romeon = foxtra.url;
+                    backup = report.body;
+                    romeon = backup.url;
  184: // try_end0
-                    output = null;
+                    result = null;
  186: // try_start_1
-                    echoed = _closure1_slot1;
-                    update = _closure1_slot2;
-                    foxtra = 5;
-                    source = update[foxtra];
-                    vacuum = echoed.bind(oscard)(source);
-                    ctrled = romeon;
-                    source = verify != ctrled;
+                    update = _closure1_slot1;
+                    source = _closure1_slot2;
+                    backup = 5;
+                    ctrled = source[backup];
+                    sequen = update.bind(oscard)(ctrled);
+                    vacuum = romeon;
+                    ctrled = verify != vacuum;
                     romeon = 'No URL in authorize response';
-                    romeon = vacuum.bind(oscard)(source, romeon);
-                    source = _closure1_slot0;
+                    romeon = sequen.bind(oscard)(ctrled, romeon);
+                    ctrled = _closure1_slot0;
                     romeon = 6;
-                    romeon = update[romeon];
-                    source = source.bind(oscard)(romeon);
-                    romeon = source.getCallbackParamsFromURL;
-                    romeon = romeon.bind(source)(ctrled);
+                    romeon = source[romeon];
+                    ctrled = ctrled.bind(oscard)(romeon);
+                    romeon = ctrled.getCallbackParamsFromURL;
+                    romeon = romeon.bind(ctrled)(vacuum);
                     romeon = romeon.state;
-                    foxtra = update[foxtra];
-                    update = echoed.bind(oscard)(foxtra);
-                    echoed = verify != romeon;
-                    foxtra = 'Authorize URL state query parameter must be present';
-                    foxtra = update.bind(oscard)(echoed, foxtra);
-                    output = romeon;
+                    backup = source[backup];
+                    source = update.bind(oscard)(backup);
+                    update = verify != romeon;
+                    backup = 'Authorize URL state query parameter must be present';
+                    backup = source.bind(oscard)(update, backup);
+                    result = romeon;
  285: // try_start_2 // try_end1
-                    foxtra = _closure1_slot1;
+                    backup = _closure1_slot1;
                     romeon = _closure1_slot2;
-                    romeon = romeon[sizing];
-                    sizing = foxtra.bind(oscard)(romeon);
-                    foxtra = sizing.callback;
+                    romeon = romeon[output];
+                    output = backup.bind(oscard)(romeon);
+                    backup = output.callback;
                     romeon = option;
                     option = {};
-                    option['code'] = result;
-                    option['state'] = output;
-                    option = foxtra.bind(sizing)(romeon, option);
+                    option['code'] = echoed;
+                    option['state'] = result;
+                    option = backup.bind(output)(romeon, option);
                     SaveGenerator(address=331);
  329:
                     return option;
@@ -118,30 +118,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return option;
  343: // catch_target2
                     CatchBlockStart(arg_register=7);
-                    kiloes = option;
-                    foxtra = _closure1_slot8;
-                    romeon = zuuluu;
-                    sizing = verify == option;
+                    sizing = option;
+                    backup = _closure1_slot6;
+                    romeon = michal;
+                    output = verify == option;
+                    option = undefined;
+                    if(output) { _fun00002_ip = 386; continue _fun00001 }
+ 364:
+                    sizing = sizing.body;
+                    kiloes = sizing;
+                    sizing = verify == sizing;
                     option = undefined;
                     if(sizing) { _fun00002_ip = 386; continue _fun00001 }
- 364:
-                    kiloes = kiloes.body;
-                    backup = kiloes;
-                    kiloes = verify == kiloes;
-                    option = undefined;
-                    if(kiloes) { _fun00002_ip = 386; continue _fun00001 }
  381:
-                    option = backup.code;
+                    option = kiloes.code;
  386:
                     golfie = option;
-                    backup = verify != option;
+                    kiloes = verify != option;
                     option = 0;
-                    if(!backup) { _fun00002_ip = 401; continue _fun00001 }
+                    if(!kiloes) { _fun00002_ip = 401; continue _fun00001 }
  398:
                     option = golfie;
  401:
                     golfie = 'callback';
-                    golfie = foxtra.bind(oscard)(romeon, option, golfie);
+                    golfie = backup.bind(oscard)(romeon, option, golfie);
                     SaveGenerator(address=416);
  414:
                     return golfie;
@@ -150,119 +150,118 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     if(option) { _fun00002_ip = 458; continue _fun00001 }
  422:
                     option = global;
-                    foxtra = option.Error;
-                    option = foxtra.prototype;
-                    romeon = Object.create(option, {constructor: {value: foxtra}});
-                    record = 'error during two way callback';
-                    cntext = romeon;
-                    option = new cntext[foxtra](record, config);
+                    backup = option.Error;
+                    option = backup.prototype;
+                    romeon = Object.create(option, {constructor: {value: backup}});
+                    cntext = 'error during two way callback';
+                    papara = romeon;
+                    option = new papara[backup](cntext, record);
                     option = option instanceof Object ? option : romeon;
                     throw option;
  458:
                     return golfie;
  461: // catch_target1
                     CatchBlockStart(arg_register=6);
-                    foxtra = _closure1_slot8;
-                    romeon = zuuluu;
-                    option = _closure1_slot6;
+                    romeon = _closure1_slot6;
+                    option = michal;
                     golfie = 'authorize';
-                    golfie = foxtra.bind(oscard)(romeon, option, golfie);
-                    SaveGenerator(address=489);
- 487:
+                    golfie = romeon.bind(oscard)(option, foxtra, golfie);
+                    SaveGenerator(address=485);
+ 483:
                     return golfie;
- 489:
+ 485:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(option) { _fun00002_ip = 531; continue _fun00001 }
- 495:
+                    if(option) { _fun00002_ip = 527; continue _fun00001 }
+ 491:
                     option = global;
                     foxtra = option.Error;
                     option = foxtra.prototype;
                     romeon = Object.create(option, {constructor: {value: foxtra}});
-                    record = 'error parsing callback params';
-                    cntext = romeon;
-                    option = new cntext[foxtra](record, config);
+                    cntext = 'error parsing callback params';
+                    papara = romeon;
+                    option = new papara[foxtra](cntext, record);
                     option = option instanceof Object ? option : romeon;
                     throw option;
- 531:
+ 527:
                     return golfie;
- 534:
+ 530:
                     return report;
- 537: // catch_target0
+ 533: // catch_target0
                     CatchBlockStart(arg_register=4);
                     yankee = report;
-                    option = _closure1_slot8;
-                    golfie = zuuluu;
+                    option = _closure1_slot6;
+                    golfie = michal;
                     romeon = verify == report;
                     report = undefined;
-                    if(romeon) { _fun00002_ip = 580; continue _fun00001 }
- 558:
+                    if(romeon) { _fun00002_ip = 576; continue _fun00001 }
+ 554:
                     yankee = yankee.body;
                     offset = yankee;
                     yankee = verify == yankee;
                     report = undefined;
-                    if(yankee) { _fun00002_ip = 580; continue _fun00001 }
- 575:
+                    if(yankee) { _fun00002_ip = 576; continue _fun00001 }
+ 571:
                     report = offset.code;
- 580:
+ 576:
                     tangon = report;
                     verify = verify != report;
                     report = 0;
-                    if(!verify) { _fun00002_ip = 595; continue _fun00001 }
- 592:
+                    if(!verify) { _fun00002_ip = 591; continue _fun00001 }
+ 588:
                     report = tangon;
- 595:
+ 591:
                     tangon = 'authorize';
                     tangon = option.bind(oscard)(golfie, report, tangon);
-                    SaveGenerator(address=610);
- 608:
+                    SaveGenerator(address=606);
+ 604:
                     return tangon;
- 610:
+ 606:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 652; continue _fun00001 }
- 616:
+                    if(report) { _fun00002_ip = 648; continue _fun00001 }
+ 612:
                     report = global;
                     option = report.Error;
                     report = option.prototype;
                     golfie = Object.create(report, {constructor: {value: option}});
-                    record = 'error during two way authorize';
-                    cntext = golfie;
-                    report = new cntext[option](record, config);
+                    cntext = 'error during two way authorize';
+                    papara = golfie;
+                    report = new papara[option](cntext, record);
                     report = report instanceof Object ? report : golfie;
                     throw report;
- 652:
+ 648:
                     return tangon;
- 655:
-                    report = _closure1_slot8;
-                    tangon = zuuluu;
-                    zuuluu = _closure1_slot5;
+ 651:
+                    report = _closure1_slot6;
+                    tangon = michal;
+                    zuuluu = 1;
                     michal = 'authorize';
                     michal = report.bind(oscard)(tangon, zuuluu, michal);
-                    SaveGenerator(address=681);
- 679:
+                    SaveGenerator(address=676);
+ 674:
                     return michal;
- 681:
+ 676:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 723; continue _fun00001 }
- 687:
+                    if(zuuluu) { _fun00002_ip = 718; continue _fun00001 }
+ 682:
                     zuuluu = global;
                     report = zuuluu.Error;
                     zuuluu = report.prototype;
                     tangon = Object.create(zuuluu, {constructor: {value: report}});
-                    record = 'Unsupported client_id for two way link';
-                    cntext = tangon;
-                    zuuluu = new cntext[report](record, config);
+                    cntext = 'Unsupported client_id for two way link';
+                    papara = tangon;
+                    zuuluu = new papara[report](cntext, record);
                     zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
                     throw zuuluu;
- 723:
+ 718:
                     return michal;
- 726:
+ 721:
                     return entity;
                 }
             };
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot7 = tangon;
+        _closure1_slot5 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -270,10 +269,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot7 = entity;
+    var _closure1_slot5 = entity;
     entity = function() { // Original name: silentlyFinishTwoWayLinkError
         entity = undefined;
-        tangon = _closure1_slot9;
+        tangon = _closure1_slot7;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -281,7 +280,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot8 = entity;
+    var _closure1_slot6 = entity;
     entity = function() { // Original name: _silentlyFinishTwoWayLinkError
         report = undefined;
         entity = undefined;
@@ -328,7 +327,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot9 = tangon;
+        _closure1_slot7 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -336,7 +335,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot7 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -351,13 +350,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot3 = tangon;
     tangon = 1;
-    option = oscard[tangon];
-    golfie = argCor;
-    golfie = golfie.bind(entity)(option);
-    var _closure1_slot4 = golfie;
-    var _closure1_slot5 = tangon;
-    tangon = 2;
-    var _closure1_slot6 = tangon;
+    golfie = oscard[tangon];
+    tangon = argCor;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot4 = tangon;
     tangon = 8;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -428,7 +424,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = zuuluu.userCode;
                         zuuluu = function() { // Original name: createTwoWayLink
                             entity = undefined;
-                            tangon = _closure1_slot7;
+                            tangon = _closure1_slot5;
                             zuuluu = tangon.apply;
                             entity = arguments;
                             michal = entity;

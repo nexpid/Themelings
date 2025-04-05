@@ -55,12 +55,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = michal.ThemeTypes;
     var _closure1_slot12 = michal;
     michal = 6;
-    option = golfie[michal];
-    option = oscard.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot13 = option;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
+    option = michal.jsx;
+    var _closure1_slot13 = option;
     michal = michal.jsxs;
     var _closure1_slot14 = michal;
     michal = 7;

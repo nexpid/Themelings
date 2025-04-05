@@ -19,10 +19,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = entity.openExpressionPicker;
             verify = entity.emojiSize;
             tangon = undefined;
-            if(!(verify === tangon)) { _fun00002_ip = 57; continue _fun00001 }
+            if(!(verify === tangon)) { _fun00002_ip = 53; continue _fun00001 }
  50:
-            verify = _closure1_slot15;
- 57:
+            verify = 24;
+ 53:
             foxtra = entity.containerStyle;
             golfie = entity.imageSize;
             report = entity.answerIndex;
@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.openImageInputActionSheet;
             var _closure2_slot2 = tangon;
             var _closure2_slot3 = tangon;
-            option = _closure1_slot16;
+            option = _closure1_slot15;
             yankee = option.bind(tangon)();
             kiloes = _closure1_slot1;
             output = _closure1_slot2;
@@ -168,25 +168,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = option.bind(backup)(michal, report);
             option = null;
             report = option != romeon;
-            if(report) { _fun00002_ip = 267; continue _fun00001 }
- 248:
+            if(report) { _fun00002_ip = 263; continue _fun00001 }
+ 244:
             kiloes = option == zuuluu;
             michal = undefined;
-            if(kiloes) { _fun00002_ip = 263; continue _fun00001 }
- 257:
+            if(kiloes) { _fun00002_ip = 259; continue _fun00001 }
+ 253:
             michal = zuuluu.emoji;
- 263:
+ 259:
             report = option != michal;
- 267:
-            if(!report) { _fun00002_ip = 273; continue _fun00001 }
- 270:
+ 263:
+            if(!report) { _fun00002_ip = 269; continue _fun00001 }
+ 266:
             sizing = entity;
- 273:
+ 269:
             kiloes = undefined;
-            if(report) { _fun00002_ip = 281; continue _fun00001 }
- 278:
+            if(report) { _fun00002_ip = 277; continue _fun00001 }
+ 274:
             kiloes = entity;
- 281:
+ 277:
             zuuluu = _closure1_slot12;
             michal = _closure1_slot0;
             result = _closure1_slot2;
@@ -202,23 +202,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['onLongPress'] = kiloes;
             kiloes = option == golfie;
             golfie = undefined;
-            if(!kiloes) { _fun00002_ip = 346; continue _fun00001 }
- 343:
+            if(!kiloes) { _fun00002_ip = 342; continue _fun00001 }
+ 339:
             golfie = backup;
- 346:
+ 342:
             entity['onLayout'] = golfie;
             golfie = new Array(2);
             golfie[0] = foxtra;
             option = option != romeon;
-            if(!option) { _fun00002_ip = 372; continue _fun00001 }
- 366:
+            if(!option) { _fun00002_ip = 368; continue _fun00001 }
+ 362:
             option = yankee.uploadContainer;
- 372:
+ 368:
             golfie[1] = option;
             entity['style'] = golfie;
             option = _closure1_slot12;
-            if(report) { _fun00002_ip = 421; continue _fun00001 }
- 387:
+            if(report) { _fun00002_ip = 417; continue _fun00001 }
+ 383:
             golfie = _closure1_slot1;
             yankee = _closure1_slot2;
             report = 14;
@@ -227,24 +227,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = {};
             report['source'] = offset;
             report = option.bind(tangon)(golfie, report);
-            _fun00002_ip = 437; continue _fun00001;
- 421:
+            _fun00002_ip = 433; continue _fun00001;
+ 417:
             golfie = _closure1_slot5;
             oscard = {};
             oscard['children'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 437:
+ 433:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    var _closure1_slot17 = entity;
+    var _closure1_slot16 = entity;
     entity = function(argFoo) { // Original name: ImageAnswerAltBadge
         entity = argFoo;
         report = entity.onPress;
         golfie = entity.accessibilityLabel;
-        entity = _closure1_slot16;
+        entity = _closure1_slot15;
         tangon = undefined;
         oscard = entity.bind(tangon)();
         zuuluu = _closure1_slot12;
@@ -290,7 +290,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot18 = entity;
+    var _closure1_slot17 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -338,20 +338,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.EmojiIntention;
     var _closure1_slot11 = tangon;
     tangon = 7;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot12 = golfie;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsxs;
-    var _closure1_slot13 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot12 = golfie;
+    golfie = tangon.jsxs;
+    var _closure1_slot13 = golfie;
     tangon = tangon.Fragment;
     var _closure1_slot14 = tangon;
-    tangon = 24;
-    var _closure1_slot15 = tangon;
     tangon = 8;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
@@ -429,7 +423,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify['borderWidth'] = offset;
     tangon['errorInput'] = verify;
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot16 = tangon;
+    var _closure1_slot15 = tangon;
     tangon = 29;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -459,7 +453,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot6 = tangon;
             record = zuuluu.onSubmitEditing;
             yankee = zuuluu.error;
-            zuuluu = _closure1_slot16;
+            zuuluu = _closure1_slot15;
             report = undefined;
             echoed = zuuluu.bind(report)();
             sequen = entity.image;
@@ -618,7 +612,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = echoed.imageOnlyContainer;
             entity['style'] = tangon;
             offset = _closure1_slot12;
-            verify = _closure1_slot17;
+            verify = _closure1_slot16;
             tangon = {};
             tangon['channelId'] = cntext;
             tangon['localCreationAnswerId'] = config;
@@ -642,7 +636,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!oscard) { _fun00006_ip = 527; continue _fun00005 }
  424:
             foxtra = _closure1_slot12;
-            offset = _closure1_slot18;
+            offset = _closure1_slot17;
             verify = {};
             backup = function() { // Original name: onPress
                 zuuluu = _closure1_slot0;
@@ -720,7 +714,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes[1] = result;
             offset['style'] = kiloes;
             update = _closure1_slot12;
-            result = _closure1_slot17;
+            result = _closure1_slot16;
             kiloes = {};
             kiloes['channelId'] = cntext;
             kiloes['localCreationAnswerId'] = config;

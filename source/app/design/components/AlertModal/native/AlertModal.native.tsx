@@ -399,12 +399,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = golfie.bind(entity)(report);
     offset = report.NOOP;
     report = 6;
-    yankee = option[report];
-    yankee = golfie.bind(entity)(yankee);
-    yankee = yankee.jsx;
-    var _closure1_slot11 = yankee;
     report = option[report];
     report = golfie.bind(entity)(report);
+    yankee = report.jsx;
+    var _closure1_slot11 = yankee;
     report = report.jsxs;
     var _closure1_slot12 = report;
     report = 7;
@@ -867,7 +865,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = verify[entity];
             yankee = record.bind(tangon)(golfie);
             offset = yankee.useAnimatedStyle;
-            golfie = function() { // Original name: f
+            golfie = function() { // Original name: p
                 _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                     michal = _closure2_slot9;

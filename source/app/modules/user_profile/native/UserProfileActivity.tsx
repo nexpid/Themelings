@@ -1930,16 +1930,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = tangon.StatusTypes;
         var _closure1_slot15 = tangon;
         tangon = 10;
-        golfie = oscard[tangon];
-        golfie = report.bind(entity)(golfie);
-        golfie = golfie.jsx;
-        var _closure1_slot16 = golfie;
-        golfie = oscard[tangon];
-        golfie = report.bind(entity)(golfie);
-        golfie = golfie.jsxs;
-        var _closure1_slot17 = golfie;
         tangon = oscard[tangon];
         tangon = report.bind(entity)(tangon);
+        golfie = tangon.jsx;
+        var _closure1_slot16 = golfie;
+        golfie = tangon.jsxs;
+        var _closure1_slot17 = golfie;
         tangon = tangon.Fragment;
         var _closure1_slot18 = tangon;
         tangon = 11;
@@ -2049,10 +2045,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         kiloes = report.bind(entity)(backup);
         backup = kiloes.isAndroid;
         backup = backup.bind(kiloes)();
-        if(!backup) { _fun00002_ip = 1001; continue _fun00001 }
- 998:
+        if(!backup) { _fun00002_ip = 983; continue _fun00001 }
+ 980:
         foxtra = yankee;
- 1001:
+ 983:
         offset['height'] = foxtra;
         golfie['voiceCallNameIconWrapper'] = offset;
         offset = {};

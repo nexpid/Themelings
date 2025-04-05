@@ -120,12 +120,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.MediaKeyboardTarget;
     var _closure1_slot31 = tangon;
     tangon = 18;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot32 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot32 = option;
     tangon = tangon.jsxs;
     var _closure1_slot33 = tangon;
     tangon = 19;

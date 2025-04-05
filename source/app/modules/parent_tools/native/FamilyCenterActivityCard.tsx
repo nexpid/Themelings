@@ -661,10 +661,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     echoed = 4;
     golfie = verify[echoed];
     golfie = option.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot9 = golfie;
-    golfie = verify[echoed];
-    golfie = option.bind(entity)(golfie);
+    offset = golfie.jsx;
+    var _closure1_slot9 = offset;
     golfie = golfie.jsxs;
     var _closure1_slot10 = golfie;
     golfie = 'FamilyCenterTeenAccountSelect';

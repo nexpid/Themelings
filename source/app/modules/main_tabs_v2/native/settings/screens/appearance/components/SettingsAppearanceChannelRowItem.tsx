@@ -33,12 +33,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = tangon.StatusTypes;
         var _closure1_slot4 = tangon;
         tangon = 3;
-        golfie = oscard[tangon];
-        golfie = report.bind(entity)(golfie);
-        golfie = golfie.jsx;
-        var _closure1_slot5 = golfie;
         tangon = oscard[tangon];
         tangon = report.bind(entity)(tangon);
+        golfie = tangon.jsx;
+        var _closure1_slot5 = golfie;
         tangon = tangon.jsxs;
         var _closure1_slot6 = tangon;
         verify = 4;
@@ -142,10 +140,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         yankee = romeon.bind(foxtra)(yankee);
         romeon = null;
         romeon = romeon != yankee;
-        if(!romeon) { _fun00002_ip = 679; continue _fun00001 }
- 676:
+        if(!romeon) { _fun00002_ip = 670; continue _fun00001 }
+ 667:
         offset = yankee;
- 679:
+ 670:
         option = offset / option;
         option = option + verify;
         tangon['radius'] = option;

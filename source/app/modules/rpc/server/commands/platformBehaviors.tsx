@@ -11,12 +11,12 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['value'] = entity;
     entity = '__esModule';
     entity = tangon.bind(golfie)(zuuluu, entity, michal);
-    michal = {};
     entity = 0;
-    tangon = oscard[entity];
+    michal = oscard[entity];
     entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.RPCCommands;
+    michal = report.bind(entity)(michal);
+    tangon = michal.RPCCommands;
+    michal = {};
     golfie = tangon.GET_PLATFORM_BEHAVIORS;
     tangon = {};
     option = function() { // Original name: handler

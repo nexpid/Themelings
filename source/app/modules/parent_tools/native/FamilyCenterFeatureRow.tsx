@@ -114,10 +114,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     kiloes = 2;
     report = golfie[kiloes];
     report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot5 = report;
-    report = golfie[kiloes];
-    report = oscard.bind(entity)(report);
+    option = report.jsx;
+    var _closure1_slot5 = option;
     report = report.jsxs;
     var _closure1_slot6 = report;
     report = 3;

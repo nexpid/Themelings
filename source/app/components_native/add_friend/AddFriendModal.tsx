@@ -544,10 +544,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     yankee = 8;
     golfie = oscard[yankee];
     golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot13 = golfie;
-    golfie = oscard[yankee];
-    golfie = report.bind(entity)(golfie);
+    option = golfie.jsx;
+    var _closure1_slot13 = option;
     golfie = golfie.jsxs;
     var _closure1_slot14 = golfie;
     golfie = 9;

@@ -320,12 +320,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = golfie.ContentDismissActionType;
     var _closure1_slot7 = golfie;
     golfie = 5;
-    offset = verify[golfie];
-    offset = option.bind(entity)(offset);
-    offset = offset.jsx;
-    var _closure1_slot8 = offset;
     golfie = verify[golfie];
     golfie = option.bind(entity)(golfie);
+    offset = golfie.jsx;
+    var _closure1_slot8 = offset;
     golfie = golfie.jsxs;
     var _closure1_slot9 = golfie;
     golfie = {'overshootClamping': true, 'stiffness': 20, 'damping': 15, 'mass': 0.03};
@@ -441,7 +439,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = romeon[yankee];
             report = golfie.bind(tangon)(michal);
             zuuluu = report.useAnimatedStyle;
-            michal = function() { // Original name: b
+            michal = function() { // Original name: f
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     entity = {};

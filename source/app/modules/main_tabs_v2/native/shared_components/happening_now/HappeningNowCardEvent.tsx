@@ -52,12 +52,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = option.AnalyticEvents;
     var _closure1_slot11 = option;
     option = 6;
-    verify = oscard[option];
-    verify = report.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot12 = verify;
     option = oscard[option];
     option = report.bind(entity)(option);
+    verify = option.jsx;
+    var _closure1_slot12 = verify;
     option = option.jsxs;
     var _closure1_slot13 = option;
     option = 7;

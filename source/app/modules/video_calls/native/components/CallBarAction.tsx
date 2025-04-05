@@ -34,12 +34,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.resetFocusTimer;
     var _closure1_slot6 = tangon;
     tangon = 3;
-    oscard = option[tangon];
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.jsx;
-    var _closure1_slot7 = oscard;
     tangon = option[tangon];
     tangon = golfie.bind(entity)(tangon);
+    oscard = tangon.jsx;
+    var _closure1_slot7 = oscard;
     tangon = tangon.jsxs;
     var _closure1_slot8 = tangon;
     tangon = 4;

@@ -233,12 +233,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = oscard.AnalyticEvents;
     var _closure1_slot9 = oscard;
     oscard = 7;
-    offset = option[oscard];
-    offset = golfie.bind(entity)(offset);
-    offset = offset.jsx;
-    var _closure1_slot10 = offset;
     oscard = option[oscard];
     oscard = golfie.bind(entity)(oscard);
+    offset = oscard.jsx;
+    var _closure1_slot10 = offset;
     oscard = oscard.jsxs;
     var _closure1_slot11 = oscard;
     oscard = 8;

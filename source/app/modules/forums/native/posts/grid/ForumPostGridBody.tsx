@@ -224,12 +224,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.useWindowDimensions;
     var _closure1_slot6 = tangon;
     tangon = 3;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot7 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot7 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot8 = tangon;
     tangon = 4;
@@ -453,7 +451,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 michal = 1;
                                 entity = golfie - michal;
                                 oscard = 2;
-                                entity = entity * oscard;
+                                entity = oscard * entity;
                                 entity = entity / golfie;
                                 tangon = tangon - entity;
                                 entity = {};
@@ -470,7 +468,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 zuuluu = 225;
                                 zuuluu = zuuluu / report;
                                 michal = report - michal;
-                                michal = michal * oscard;
+                                michal = oscard * michal;
                                 michal = michal / report;
                                 michal = zuuluu - michal;
                                 _fun00006_ip = 120; continue _fun00005;

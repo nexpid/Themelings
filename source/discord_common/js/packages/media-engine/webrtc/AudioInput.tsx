@@ -7,39 +7,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = golfie;
     var _closure1_slot2 = oscard;
-    entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            tangon = argFoo;
-            michal = _closure1_slot7;
-            zuuluu = undefined;
-            entity = argBar;
-            verify = michal.bind(zuuluu)(entity);
-            michal = _closure1_slot6;
-            entity = _closure1_slot14;
-            entity = entity.bind(zuuluu)();
-            if(entity) { _fun00002_ip = 48; continue _fun00001 }
- 35:
-            entity = verify.apply;
-            entity = entity.bind(verify)(tangon, zuuluu);
-            _fun00002_ip = 86; continue _fun00001;
- 48:
-            oscard = global;
-            option = oscard.Reflect;
-            golfie = option.construct;
-            oscard = new Array(0);
-            report = _closure1_slot7;
-            report = report.bind(zuuluu)(tangon);
-            report = report.constructor;
-            entity = golfie.bind(option)(verify, oscard, report);
- 86:
-            entity = michal.bind(zuuluu)(tangon, entity);
-            return entity;
-        }
-    };
-    var _closure1_slot13 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
  2: // try_start_0
             michal = global;
@@ -60,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = !michal;
             var _closure2_slot0 = michal;
  70: // try_end0
-            _fun00004_ip = 74; continue _fun00003;
+            _fun00002_ip = 74; continue _fun00001;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -70,13 +39,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot14 = michal;
+            _closure1_slot13 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot13 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -146,31 +115,53 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = tangon.EventEmitter;
     michal = function(argFoo) {
         tangon = function(argFoo) { // Original name: AudioInput
-            report = this;
-            entity = _closure1_slot4;
-            michal = _closure2_slot1;
-            tangon = undefined;
-            entity = entity.bind(tangon)(report, michal);
-            entity = _closure1_slot13;
-            entity = entity.bind(tangon)(report, michal);
-            michal = false;
-            entity['_mute'] = michal;
-            report = true;
-            entity['_echoCancellation'] = report;
-            entity['_noiseSuppression'] = report;
-            entity['_automaticGainControl'] = report;
-            entity['_noiseCancellation'] = michal;
-            entity['_audioFilter'] = tangon;
-            entity['speaking'] = michal;
-            zuuluu = _closure1_slot9;
-            zuuluu = zuuluu.VOICE_ACTIVITY;
-            entity['mode'] = zuuluu;
-            zuuluu = {'delay': 20, 'threshold': 4294967256};
-            entity['modeOptions'] = zuuluu;
-            entity['destroyed'] = michal;
-            michal = argFoo;
-            entity['context'] = michal;
-            return entity;
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                report = this;
+                entity = _closure1_slot4;
+                michal = _closure2_slot1;
+                tangon = undefined;
+                entity = entity.bind(tangon)(report, michal);
+                entity = _closure1_slot7;
+                offset = entity.bind(tangon)(michal);
+                michal = _closure1_slot6;
+                entity = _closure1_slot13;
+                entity = entity.bind(tangon)();
+                if(entity) { _fun00004_ip = 62; continue _fun00003 }
+ 49:
+                entity = offset.apply;
+                entity = entity.bind(offset)(report, tangon);
+                _fun00004_ip = 100; continue _fun00003;
+ 62:
+                oscard = global;
+                verify = oscard.Reflect;
+                option = verify.construct;
+                oscard = _closure1_slot7;
+                oscard = oscard.bind(tangon)(report);
+                golfie = oscard.constructor;
+                oscard = new Array(0);
+                entity = option.bind(verify)(offset, oscard, golfie);
+ 100:
+                entity = michal.bind(tangon)(report, entity);
+                michal = false;
+                entity['_mute'] = michal;
+                report = true;
+                entity['_echoCancellation'] = report;
+                entity['_noiseSuppression'] = report;
+                entity['_automaticGainControl'] = report;
+                entity['_noiseCancellation'] = michal;
+                entity['_audioFilter'] = tangon;
+                entity['speaking'] = michal;
+                zuuluu = _closure1_slot9;
+                zuuluu = zuuluu.VOICE_ACTIVITY;
+                entity['mode'] = zuuluu;
+                zuuluu = {'delay': 20, 'threshold': 4294967256};
+                entity['modeOptions'] = zuuluu;
+                entity['destroyed'] = michal;
+                michal = argFoo;
+                entity['context'] = michal;
+                return entity;
+            }
         };
         var _closure2_slot1 = tangon;
         michal = _closure1_slot8;

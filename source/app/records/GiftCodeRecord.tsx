@@ -7,39 +7,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot0 = oscard;
     var _closure1_slot1 = verify;
     var _closure1_slot2 = golfie;
-    entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            tangon = argFoo;
-            michal = _closure1_slot6;
-            zuuluu = undefined;
-            entity = argBar;
-            verify = michal.bind(zuuluu)(entity);
-            michal = _closure1_slot5;
-            entity = _closure1_slot12;
-            entity = entity.bind(zuuluu)();
-            if(entity) { _fun00002_ip = 48; continue _fun00001 }
- 35:
-            entity = verify.apply;
-            entity = entity.bind(verify)(tangon, zuuluu);
-            _fun00002_ip = 86; continue _fun00001;
- 48:
-            oscard = global;
-            option = oscard.Reflect;
-            golfie = option.construct;
-            oscard = new Array(0);
-            report = _closure1_slot6;
-            report = report.bind(zuuluu)(tangon);
-            report = report.constructor;
-            entity = golfie.bind(option)(verify, oscard, report);
- 86:
-            entity = michal.bind(zuuluu)(tangon, entity);
-            return entity;
-        }
-    };
-    var _closure1_slot11 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
  2: // try_start_0
             michal = global;
@@ -60,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = !michal;
             var _closure2_slot0 = michal;
  70: // try_end0
-            _fun00004_ip = 74; continue _fun00003;
+            _fun00002_ip = 74; continue _fun00001;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -70,13 +39,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot12 = michal;
+            _closure1_slot11 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot11 = entity;
     michal = global;
     offset = michal.Object;
     option = offset.defineProperty;
@@ -125,49 +94,71 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot10 = michal;
     tangon = function(argFoo) {
         report = function(argFoo) { // Original name: GiftCodeRecord
-            michal = argFoo;
-            report = this;
-            oscard = _closure1_slot3;
-            tangon = _closure2_slot0;
-            zuuluu = undefined;
-            oscard = oscard.bind(zuuluu)(report, tangon);
-            entity = _closure1_slot11;
-            entity = entity.bind(zuuluu)(report, tangon);
-            zuuluu = michal.userId;
-            entity['userId'] = zuuluu;
-            zuuluu = michal.code;
-            entity['code'] = zuuluu;
-            zuuluu = michal.skuId;
-            entity['skuId'] = zuuluu;
-            zuuluu = michal.applicationId;
-            entity['applicationId'] = zuuluu;
-            zuuluu = michal.uses;
-            entity['uses'] = zuuluu;
-            zuuluu = michal.maxUses;
-            entity['maxUses'] = zuuluu;
-            zuuluu = michal.expiresAt;
-            entity['expiresAt'] = zuuluu;
-            zuuluu = michal.redeemed;
-            entity['redeemed'] = zuuluu;
-            zuuluu = michal.storeListingId;
-            entity['storeListingId'] = zuuluu;
-            zuuluu = michal.subscriptionPlanId;
-            entity['subscriptionPlanId'] = zuuluu;
-            zuuluu = michal.subscriptionPlan;
-            entity['subscriptionPlan'] = zuuluu;
-            zuuluu = michal.revoked;
-            entity['revoked'] = zuuluu;
-            zuuluu = michal.entitlementBranches;
-            entity['entitlementBranches'] = zuuluu;
-            zuuluu = michal.flags;
-            entity['flags'] = zuuluu;
-            zuuluu = michal.subscriptionTrial;
-            entity['subscriptionTrial'] = zuuluu;
-            zuuluu = michal.promotion;
-            entity['promotion'] = zuuluu;
-            michal = michal.giftStyle;
-            entity['giftStyle'] = michal;
-            return entity;
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                michal = argFoo;
+                report = this;
+                entity = _closure1_slot3;
+                zuuluu = _closure2_slot0;
+                tangon = undefined;
+                entity = entity.bind(tangon)(report, zuuluu);
+                entity = _closure1_slot6;
+                offset = entity.bind(tangon)(zuuluu);
+                zuuluu = _closure1_slot5;
+                entity = _closure1_slot11;
+                entity = entity.bind(tangon)();
+                if(entity) { _fun00004_ip = 65; continue _fun00003 }
+ 52:
+                entity = offset.apply;
+                entity = entity.bind(offset)(report, tangon);
+                _fun00004_ip = 103; continue _fun00003;
+ 65:
+                golfie = global;
+                verify = golfie.Reflect;
+                option = verify.construct;
+                oscard = _closure1_slot6;
+                oscard = oscard.bind(tangon)(report);
+                golfie = oscard.constructor;
+                oscard = new Array(0);
+                entity = option.bind(verify)(offset, oscard, golfie);
+ 103:
+                entity = zuuluu.bind(tangon)(report, entity);
+                zuuluu = michal.userId;
+                entity['userId'] = zuuluu;
+                zuuluu = michal.code;
+                entity['code'] = zuuluu;
+                zuuluu = michal.skuId;
+                entity['skuId'] = zuuluu;
+                zuuluu = michal.applicationId;
+                entity['applicationId'] = zuuluu;
+                zuuluu = michal.uses;
+                entity['uses'] = zuuluu;
+                zuuluu = michal.maxUses;
+                entity['maxUses'] = zuuluu;
+                zuuluu = michal.expiresAt;
+                entity['expiresAt'] = zuuluu;
+                zuuluu = michal.redeemed;
+                entity['redeemed'] = zuuluu;
+                zuuluu = michal.storeListingId;
+                entity['storeListingId'] = zuuluu;
+                zuuluu = michal.subscriptionPlanId;
+                entity['subscriptionPlanId'] = zuuluu;
+                zuuluu = michal.subscriptionPlan;
+                entity['subscriptionPlan'] = zuuluu;
+                zuuluu = michal.revoked;
+                entity['revoked'] = zuuluu;
+                zuuluu = michal.entitlementBranches;
+                entity['entitlementBranches'] = zuuluu;
+                zuuluu = michal.flags;
+                entity['flags'] = zuuluu;
+                zuuluu = michal.subscriptionTrial;
+                entity['subscriptionTrial'] = zuuluu;
+                zuuluu = michal.promotion;
+                entity['promotion'] = zuuluu;
+                michal = michal.giftStyle;
+                entity['giftStyle'] = michal;
+                return entity;
+            }
         };
         var _closure2_slot0 = report;
         oscard = _closure1_slot7;

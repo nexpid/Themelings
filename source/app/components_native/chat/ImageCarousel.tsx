@@ -741,12 +741,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = report.IMAGE_CAROUSEL_TILE_HEIGHT;
     var _closure1_slot11 = report;
     report = 6;
-    verify = golfie[report];
-    verify = oscard.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot12 = verify;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    verify = report.jsx;
+    var _closure1_slot12 = verify;
     report = report.jsxs;
     var _closure1_slot13 = report;
     report = 7;

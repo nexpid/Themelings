@@ -26,12 +26,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = michal.View;
     var _closure1_slot3 = michal;
     michal = 2;
-    report = golfie[michal];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot4 = report;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
+    report = michal.jsx;
+    var _closure1_slot4 = report;
     michal = michal.jsxs;
     var _closure1_slot5 = michal;
     michal = 3;

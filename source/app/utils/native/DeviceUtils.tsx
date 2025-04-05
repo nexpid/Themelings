@@ -244,12 +244,18 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
             }
         };
         zuuluu['getMaxCpuFreq'] = tangon;
-        michal = function() { // Original name: getTimeZone
+        tangon = function() { // Original name: getTimeZone
             entity = _closure1_slot3;
             entity = entity.timeZone;
             return entity;
         };
-        zuuluu['getTimeZone'] = michal;
+        zuuluu['getTimeZone'] = tangon;
+        michal = function() { // Original name: getIsRunningOnSimulator
+            entity = _closure1_slot3;
+            entity = entity.isRunningOnSimulator;
+            return entity;
+        };
+        zuuluu['getIsRunningOnSimulator'] = michal;
         return entity;
     }
 })();

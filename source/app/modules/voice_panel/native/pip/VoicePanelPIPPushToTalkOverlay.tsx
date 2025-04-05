@@ -39,16 +39,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.PUSH_TO_TALK_PIP_PHYSICS;
     var _closure1_slot6 = tangon;
     tangon = 5;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot7 = golfie;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.Fragment;
-    var _closure1_slot8 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot7 = golfie;
+    golfie = tangon.Fragment;
+    var _closure1_slot8 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot9 = tangon;
     tangon = 6;
@@ -302,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = kiloes[michal];
         option = golfie.bind(tangon)(zuuluu);
         report = option.useAnimatedStyle;
-        zuuluu = function() { // Original name: H
+        zuuluu = function() { // Original name: P
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 entity = {};

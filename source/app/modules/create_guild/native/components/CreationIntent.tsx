@@ -45,12 +45,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = golfie.AnalyticsLocations;
     var _closure1_slot10 = golfie;
     golfie = 4;
-    option = oscard[golfie];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot11 = option;
     golfie = oscard[golfie];
     golfie = report.bind(entity)(golfie);
+    option = golfie.jsx;
+    var _closure1_slot11 = option;
     golfie = golfie.jsxs;
     var _closure1_slot12 = golfie;
     golfie = 5;

@@ -69,12 +69,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.IS_IOS;
     var _closure1_slot14 = tangon;
     tangon = 10;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot15 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot15 = option;
     tangon = tangon.jsxs;
     var _closure1_slot16 = tangon;
     tangon = {};
@@ -515,7 +513,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = backup[option];
             result = verify.bind(romeon)(golfie);
             output = result.useAnimatedStyle;
-            golfie = function() { // Original name: U
+            golfie = function() { // Original name: f
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     zuuluu = _closure2_slot7;

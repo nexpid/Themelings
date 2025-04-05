@@ -298,12 +298,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = golfie.bind(entity)(report);
     foxtra = report.Fonts;
     report = 4;
-    oscard = option[report];
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.jsx;
-    var _closure1_slot6 = oscard;
     report = option[report];
     report = golfie.bind(entity)(report);
+    oscard = report.jsx;
+    var _closure1_slot6 = oscard;
     report = report.jsxs;
     var _closure1_slot7 = report;
     report = 5;

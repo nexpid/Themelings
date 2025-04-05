@@ -85,12 +85,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.ContentDismissActionType;
     var _closure1_slot9 = tangon;
     tangon = 7;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot10 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot10 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot11 = tangon;
     golfie = option.create;

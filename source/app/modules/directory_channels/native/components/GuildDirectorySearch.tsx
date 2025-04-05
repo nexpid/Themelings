@@ -50,12 +50,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = golfie.AnalyticEvents;
     var _closure1_slot11 = golfie;
     golfie = 6;
-    option = oscard[golfie];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot12 = option;
     golfie = oscard[golfie];
     golfie = report.bind(entity)(golfie);
+    option = golfie.jsx;
+    var _closure1_slot12 = option;
     golfie = golfie.jsxs;
     var _closure1_slot13 = golfie;
     golfie = 7;

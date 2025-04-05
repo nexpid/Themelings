@@ -38,12 +38,10 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     tangon = tangon.QUEST_DOCK_EXPANDED_HEIGHT;
     var _closure1_slot6 = tangon;
     tangon = 4;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot7 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot7 = option;
     tangon = tangon.jsxs;
     var _closure1_slot8 = tangon;
     tangon = 5;

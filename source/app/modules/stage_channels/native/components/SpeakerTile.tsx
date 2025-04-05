@@ -38,12 +38,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = michal.ParticipantTypes;
     var _closure1_slot7 = michal;
     michal = 4;
-    tangon = offset[michal];
-    tangon = verify.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot8 = tangon;
     michal = offset[michal];
     michal = verify.bind(entity)(michal);
+    tangon = michal.jsx;
+    var _closure1_slot8 = tangon;
     michal = michal.jsxs;
     var _closure1_slot9 = michal;
     oscard = {};

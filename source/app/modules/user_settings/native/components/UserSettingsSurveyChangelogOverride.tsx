@@ -671,12 +671,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = romeon.bind(entity)(tangon);
     var _closure1_slot8 = tangon;
     tangon = 5;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot9 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot9 = option;
     tangon = tangon.jsxs;
     var _closure1_slot10 = tangon;
     tangon = 6;

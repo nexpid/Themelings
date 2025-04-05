@@ -23,10 +23,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset = 1;
     tangon = oscard[offset];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot3 = tangon;
-    tangon = oscard[offset];
-    tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot3 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot4 = tangon;
     tangon = 2;

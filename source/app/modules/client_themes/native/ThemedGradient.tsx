@@ -39,12 +39,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = michal.Color;
     var _closure1_slot6 = michal;
     michal = 5;
-    report = golfie[michal];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot7 = report;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
+    report = michal.jsx;
+    var _closure1_slot7 = report;
     michal = michal.jsxs;
     var _closure1_slot8 = michal;
     michal = 6;
@@ -304,34 +302,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  227:
             entity['angle'] = backup;
             report = report.angleCenter;
-            if(!(foxtra == report)) { _fun00002_ip = 256; continue _fun00001 }
+            if(!(foxtra == report)) { _fun00002_ip = 252; continue _fun00001 }
  242:
             report = {'x': 0.5, 'y': 0.5};
- 256:
+ 252:
             entity['angleCenter'] = report;
             report = true;
             entity['useAngle'] = report;
-            if(!offset) { _fun00002_ip = 280; continue _fun00001 }
- 271:
+            if(!offset) { _fun00002_ip = 276; continue _fun00001 }
+ 267:
             report = {};
             report['width'] = romeon;
             offset = report;
- 280:
+ 276:
             report = new Array(5);
             report[0] = offset;
-            if(!verify) { _fun00002_ip = 300; continue _fun00001 }
- 291:
+            if(!verify) { _fun00002_ip = 296; continue _fun00001 }
+ 287:
             offset = {};
             offset['height'] = yankee;
             verify = offset;
- 300:
+ 296:
             report[1] = verify;
             verify = option.linearGradient;
             report[2] = verify;
-            if(!golfie) { _fun00002_ip = 323; continue _fun00001 }
- 317:
+            if(!golfie) { _fun00002_ip = 319; continue _fun00001 }
+ 313:
             golfie = option.absolute;
- 323:
+ 319:
             report[3] = golfie;
             report[4] = oscard;
             entity['style'] = report;

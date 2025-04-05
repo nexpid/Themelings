@@ -13,27 +13,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = michal - entity;
         entity = {};
         entity['width'] = zuuluu;
-        michal = _closure1_slot17;
+        michal = _closure1_slot15;
         michal = zuuluu / michal;
         entity['height'] = michal;
         return entity;
     };
-    var _closure1_slot19 = entity;
+    var _closure1_slot17 = entity;
     michal = function(argFoo) { // Original name: calculateActivityRowHeight
-        tangon = _closure1_slot19;
-        zuuluu = undefined;
-        michal = argFoo;
-        michal = tangon.bind(zuuluu)(michal);
-        zuuluu = michal.height;
-        michal = 40;
-        zuuluu = michal + zuuluu;
-        michal = _closure1_slot13;
-        michal = zuuluu + michal;
-        entity = _closure1_slot14;
+        zuuluu = _closure1_slot17;
+        michal = undefined;
+        entity = argFoo;
+        entity = zuuluu.bind(michal)(entity);
+        michal = entity.height;
+        entity = 40;
+        michal = entity + michal;
+        entity = 12;
+        michal = michal + entity;
+        entity = 16;
         entity = michal + entity;
         return entity;
     };
-    var _closure1_slot20 = michal;
+    var _closure1_slot18 = michal;
     entity = global;
     offset = entity.Object;
     option = offset.defineProperty;
@@ -84,31 +84,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = oscard.bind(entity)(report);
     option = report.getThemedRippleConfig;
     report = 9;
-    offset = golfie[report];
-    offset = oscard.bind(entity)(offset);
-    offset = offset.jsx;
-    var _closure1_slot11 = offset;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    offset = report.jsx;
+    var _closure1_slot11 = offset;
     report = report.jsxs;
     var _closure1_slot12 = report;
-    yankee = 12;
-    var _closure1_slot13 = yankee;
-    report = 16;
-    var _closure1_slot14 = report;
     report = 10;
     report = golfie[report];
     report = oscard.bind(entity)(report);
     report = report.AvatarSizes;
     backup = report.XSMALL;
-    var _closure1_slot15 = backup;
+    var _closure1_slot13 = backup;
     report = {};
     report['foreground'] = verify;
     report = option.bind(entity)(report);
-    var _closure1_slot16 = report;
+    var _closure1_slot14 = report;
     kiloes = {'width': 32, 'height': 32, 'marginRight': 16, 'borderRadius': 4};
     report = 1.7777777777777777;
-    var _closure1_slot17 = report;
+    var _closure1_slot15 = report;
     report = 11;
     report = golfie[report];
     verify = oscard.bind(entity)(report);
@@ -117,6 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     foxtra = 'center';
     offset = {'justifyContent': 'center', 'alignItems': 'center'};
     report['pressableOpacity'] = offset;
+    yankee = 12;
     offset = {'paddingTop': 12, 'paddingBottom': 16, 'flexDirection': 'column', 'display': 'flex', 'justifyContent': 'flex-start'};
     report['voiceMemberItemRow'] = offset;
     offset = {'paddingHorizontal': 16, 'alignItems': 'center'};
@@ -171,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset['backgroundColor'] = yankee;
     report['overflowBackgroundColorActionSheet'] = offset;
     report = option.bind(verify)(report);
-    var _closure1_slot18 = report;
+    var _closure1_slot16 = report;
     report = 27;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
@@ -220,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             var _closure2_slot8 = entity;
-            entity = _closure1_slot18;
+            entity = _closure1_slot16;
             config = entity.bind(report)();
             zuuluu = _closure1_slot1;
             entity = _closure1_slot2;
@@ -365,7 +360,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = oscard.min;
             zuuluu = _closure1_slot10;
             zuuluu = tangon.bind(oscard)(zuuluu, golfie);
-            tangon = _closure1_slot20;
+            tangon = _closure1_slot18;
             yankee = tangon.bind(report)(zuuluu);
             if(!(entity != update)) { _fun00002_ip = 1429; continue _fun00001 }
  489:
@@ -399,7 +394,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             _closure2_slot7 = michal;
-            michal = _closure1_slot19;
+            michal = _closure1_slot17;
             source = michal.bind(report)(zuuluu);
             tangon = _closure1_slot11;
             golfie = _closure1_slot0;
@@ -424,7 +419,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['applicationName'] = cntext;
             oscard = option.bind(verify)(golfie, oscard);
             michal['accessibilityLabel'] = oscard;
-            oscard = _closure1_slot16;
+            oscard = _closure1_slot14;
             michal['androidRippleConfig'] = oscard;
             oscard = function() { // Original name: onPress
                 michal = _closure2_slot7;
@@ -530,7 +525,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['user'] = report;
                     report = _closure2_slot5;
                     entity['guildId'] = report;
-                    report = _closure1_slot15;
+                    report = _closure1_slot13;
                     entity['size'] = report;
                     oscard = argBar;
                     report = undefined;
@@ -542,7 +537,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = golfie[verify];
                     yankee = option.bind(zuuluu)(yankee);
                     yankee = yankee.AVATAR_SIZE_MAP;
-                    offset = _closure1_slot15;
+                    offset = _closure1_slot13;
                     yankee = yankee[offset];
                     offset = 2;
                     yankee = yankee / offset;

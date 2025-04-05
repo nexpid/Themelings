@@ -1,11 +1,11 @@
 // app/modules/errors/native/SentryInitUtils.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = argBar;
-    verify = argBaz;
+    option = argBaz;
     zuuluu = argFre;
     golfie = argPlu;
     var _closure1_slot0 = oscard;
-    var _closure1_slot1 = verify;
+    var _closure1_slot1 = option;
     entity = argCor;
     var _closure1_slot2 = entity;
     var _closure1_slot3 = golfie;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  114:
             zuuluu = true;
  116:
-            if(zuuluu) { _fun00002_ip = 726; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 737; continue _fun00001 }
  122:
             oscard = entity == tangon;
             zuuluu = undefined;
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  178:
             zuuluu = true;
  180:
-            if(zuuluu) { _fun00002_ip = 726; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 737; continue _fun00001 }
  186:
             option = _closure1_slot9;
             golfie = option.info;
@@ -104,23 +104,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = michal.level;
             oscard = 'error';
             tangon = michal;
-            if(!(oscard === golfie)) { _fun00002_ip = 669; continue _fun00001 }
+            if(!(oscard === golfie)) { _fun00002_ip = 674; continue _fun00001 }
  257:
-            golfie = _closure1_slot11;
             option = michal.level;
+            golfie = 1;
             oscard = 'error';
-            if(!(oscard === option)) { _fun00002_ip = 279; continue _fun00001 }
- 275:
-            golfie = _closure1_slot12;
- 279:
-            oscard = _closure1_slot15;
-            if(oscard) { _fun00002_ip = 303; continue _fun00001 }
- 286:
-            oscard = _closure1_slot20;
+            if(!(oscard === option)) { _fun00002_ip = 284; continue _fun00001 }
+ 274:
+            golfie = 0.01;
+ 284:
+            oscard = _closure1_slot12;
+            if(oscard) { _fun00002_ip = 308; continue _fun00001 }
+ 291:
+            oscard = _closure1_slot17;
             oscard = oscard.bind(report)(golfie);
             tangon = undefined;
-            if(!oscard) { _fun00002_ip = 669; continue _fun00001 }
- 303:
+            if(!oscard) { _fun00002_ip = 674; continue _fun00001 }
+ 308:
             golfie = _closure1_slot0;
             option = _closure1_slot3;
             oscard = 5;
@@ -140,25 +140,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.pathname;
             oscard['path'] = offset;
             oscard['extra'] = report;
-            offset = _closure1_slot18;
+            offset = _closure1_slot15;
             offset = offset.bind(report)(michal);
             oscard['error_message'] = offset;
             offset = michal.level;
             oscard['error_level'] = offset;
-            offset = _closure1_slot19;
+            offset = _closure1_slot16;
             offset = offset.bind(report)(michal);
             oscard['error_stack'] = offset;
             oscard = option.bind(verify)(golfie, oscard);
             oscard = michal.tags;
             option = entity == oscard;
             golfie = undefined;
-            if(option) { _fun00002_ip = 455; continue _fun00001 }
- 449:
+            if(option) { _fun00002_ip = 460; continue _fun00001 }
+ 454:
             golfie = oscard.event.origin;
- 455:
+ 460:
             oscard = 'javascript';
-            if(!(oscard !== golfie)) { _fun00002_ip = 497; continue _fun00001 }
- 463:
+            if(!(oscard !== golfie)) { _fun00002_ip = 502; continue _fun00001 }
+ 468:
             golfie = _closure1_slot0;
             option = _closure1_slot3;
             oscard = 7;
@@ -166,8 +166,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = golfie.bind(report)(oscard);
             oscard = oscard.AppCrashedReasons;
             romeon = oscard.UNHANDLED_NATIVE_ERROR;
-            _fun00002_ip = 529; continue _fun00001;
- 497:
+            _fun00002_ip = 534; continue _fun00001;
+ 502:
             golfie = _closure1_slot0;
             option = _closure1_slot3;
             oscard = 7;
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = golfie.bind(report)(oscard);
             oscard = oscard.AppCrashedReasons;
             romeon = oscard.UNHANDLED_JS_ERROR;
- 529:
+ 534:
             golfie = _closure1_slot1;
             yankee = _closure1_slot3;
             oscard = 8;
@@ -207,32 +207,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = true;
             oscard = option.bind(verify)(golfie, oscard);
             tangon = michal;
- 669:
+ 674:
             tangon = !tangon;
-            tangon = _closure1_slot13;
+            tangon = _closure1_slot11;
             golfie = michal.level;
             oscard = 'error';
-            if(!(oscard === golfie)) { _fun00002_ip = 694; continue _fun00001 }
- 690:
-            tangon = _closure1_slot14;
- 694:
-            oscard = _closure1_slot15;
-            if(oscard) { _fun00002_ip = 724; continue _fun00001 }
- 701:
-            oscard = _closure1_slot16;
-            oscard = oscard.bind(report)();
-            if(!oscard) { _fun00002_ip = 726; continue _fun00001 }
+            if(!(oscard === golfie)) { _fun00002_ip = 705; continue _fun00001 }
+ 695:
+            tangon = 0.005;
+ 705:
+            oscard = _closure1_slot12;
+            if(oscard) { _fun00002_ip = 735; continue _fun00001 }
  712:
-            zuuluu = _closure1_slot20;
+            oscard = _closure1_slot13;
+            oscard = oscard.bind(report)();
+            if(!oscard) { _fun00002_ip = 737; continue _fun00001 }
+ 723:
+            zuuluu = _closure1_slot17;
             zuuluu = zuuluu.bind(report)(tangon);
-            if(!zuuluu) { _fun00002_ip = 726; continue _fun00001 }
- 724:
+            if(!zuuluu) { _fun00002_ip = 737; continue _fun00001 }
+ 735:
             return michal;
- 726:
+ 737:
             return entity;
         }
     };
-    var _closure1_slot17 = entity;
+    var _closure1_slot14 = entity;
     entity = function(argFoo) { // Original name: getCrashErrorMessage
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -268,7 +268,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot18 = entity;
+    var _closure1_slot15 = entity;
     entity = function(argFoo) { // Original name: getErrorStackTrace
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -326,7 +326,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot19 = entity;
+    var _closure1_slot16 = entity;
     entity = function(argFoo) { // Original name: sample
         entity = global;
         michal = entity.Math;
@@ -336,27 +336,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = michal <= entity;
         return entity;
     };
-    var _closure1_slot20 = entity;
-    offset = global;
-    option = offset.Object;
-    report = option.defineProperty;
+    var _closure1_slot17 = entity;
+    verify = global;
+    offset = verify.Object;
+    report = offset.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, tangon);
+    entity = report.bind(offset)(zuuluu, entity, tangon);
     entity = 0;
     tangon = golfie[entity];
     entity = undefined;
     tangon = oscard.bind(entity)(tangon);
     tangon = tangon.NativeModules;
     var _closure1_slot4 = tangon;
-    report = 1;
-    tangon = golfie[report];
+    tangon = 1;
+    tangon = golfie[tangon];
     tangon = oscard.bind(entity)(tangon);
-    option = tangon.AnalyticEvents;
-    var _closure1_slot5 = option;
-    yankee = tangon.Endpoints;
+    report = tangon.AnalyticEvents;
+    var _closure1_slot5 = report;
+    offset = tangon.Endpoints;
     tangon = 2;
     tangon = golfie[tangon];
     tangon = oscard.bind(entity)(tangon);
@@ -366,89 +366,84 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = golfie[tangon];
     tangon = oscard.bind(entity)(tangon);
     tangon = tangon.ReactNavigationInstrumentation;
-    option = tangon.prototype;
-    option = Object.create(option, {constructor: {value: tangon}});
-    source = option;
-    tangon = new source[tangon](update);
-    tangon = tangon instanceof Object ? tangon : option;
+    report = tangon.prototype;
+    report = Object.create(report, {constructor: {value: tangon}});
+    update = report;
+    tangon = new update[tangon](echoed);
+    tangon = tangon instanceof Object ? tangon : report;
     var _closure1_slot7 = tangon;
-    backup = offset.RegExp;
-    option = offset.window;
-    option = option.GLOBAL_ENV;
-    foxtra = option.API_VERSION;
-    romeon = yankee.METRICS;
-    option = offset.HermesInternal;
-    option = option.concat;
-    kiloes = '/v';
-    update = option.bind(kiloes)(foxtra, romeon);
-    romeon = backup.prototype;
-    romeon = Object.create(romeon, {constructor: {value: backup}});
-    foxtra = 'g';
-    source = romeon;
-    echoed = foxtra;
-    option = new source[backup](update, echoed, result);
-    romeon = option instanceof Object ? option : romeon;
-    option = new Array(3);
-    option[0] = romeon;
-    sizing = offset.RegExp;
-    romeon = offset.window;
-    romeon = romeon.GLOBAL_ENV;
-    output = romeon.API_VERSION;
-    backup = yankee.METRICS_V2;
-    romeon = offset.HermesInternal;
-    romeon = romeon.concat;
-    update = romeon.bind(kiloes)(output, backup);
-    backup = sizing.prototype;
-    backup = Object.create(backup, {constructor: {value: sizing}});
-    source = backup;
-    echoed = foxtra;
-    romeon = new source[sizing](update, echoed, result);
-    romeon = romeon instanceof Object ? romeon : backup;
-    option[1] = romeon;
-    romeon = offset.RegExp;
-    backup = offset.window;
-    backup = backup.GLOBAL_ENV;
-    backup = backup.API_VERSION;
-    yankee = yankee.TRACK;
-    offset = offset.HermesInternal;
-    offset = offset.concat;
-    update = offset.bind(kiloes)(backup, yankee);
-    yankee = romeon.prototype;
-    yankee = Object.create(yankee, {constructor: {value: romeon}});
-    source = yankee;
-    echoed = foxtra;
-    offset = new source[romeon](update, echoed, result);
-    offset = offset instanceof Object ? offset : yankee;
-    option[2] = offset;
-    var _closure1_slot8 = option;
-    option = 4;
-    option = golfie[option];
-    offset = verify.bind(entity)(option);
-    option = offset.prototype;
-    verify = Object.create(option, {constructor: {value: offset}});
-    update = 'Sentry';
-    source = verify;
-    option = new source[offset](update, echoed);
-    option = option instanceof Object ? option : verify;
-    var _closure1_slot9 = option;
-    option = ['The operation couldn’t be completed. (com.apple.CallKit.error.requesttransaction', 'Request has been terminated', "couldn't execute statement: database is disabled", "couldn't delete database: database is currently open", 'database is no longer open'];
-    var _closure1_slot10 = option;
-    var _closure1_slot11 = report;
-    report = 0.01;
-    var _closure1_slot12 = report;
+    foxtra = verify.RegExp;
+    report = verify.window;
+    report = report.GLOBAL_ENV;
+    romeon = report.API_VERSION;
+    yankee = offset.METRICS;
+    report = verify.HermesInternal;
+    report = report.concat;
+    backup = '/v';
+    echoed = report.bind(backup)(romeon, yankee);
+    yankee = foxtra.prototype;
+    yankee = Object.create(yankee, {constructor: {value: foxtra}});
+    romeon = 'g';
+    update = yankee;
+    result = romeon;
+    report = new update[foxtra](echoed, result, output);
+    yankee = report instanceof Object ? report : yankee;
+    report = new Array(3);
+    report[0] = yankee;
+    kiloes = verify.RegExp;
+    yankee = verify.window;
+    yankee = yankee.GLOBAL_ENV;
+    sizing = yankee.API_VERSION;
+    foxtra = offset.METRICS_V2;
+    yankee = verify.HermesInternal;
+    yankee = yankee.concat;
+    echoed = yankee.bind(backup)(sizing, foxtra);
+    foxtra = kiloes.prototype;
+    foxtra = Object.create(foxtra, {constructor: {value: kiloes}});
+    update = foxtra;
+    result = romeon;
+    yankee = new update[kiloes](echoed, result, output);
+    yankee = yankee instanceof Object ? yankee : foxtra;
+    report[1] = yankee;
+    yankee = verify.RegExp;
+    foxtra = verify.window;
+    foxtra = foxtra.GLOBAL_ENV;
+    foxtra = foxtra.API_VERSION;
+    offset = offset.TRACK;
+    verify = verify.HermesInternal;
+    verify = verify.concat;
+    echoed = verify.bind(backup)(foxtra, offset);
+    offset = yankee.prototype;
+    offset = Object.create(offset, {constructor: {value: yankee}});
+    update = offset;
+    result = romeon;
+    verify = new update[yankee](echoed, result, output);
+    verify = verify instanceof Object ? verify : offset;
+    report[2] = verify;
+    var _closure1_slot8 = report;
+    report = 4;
+    report = golfie[report];
+    verify = option.bind(entity)(report);
+    report = verify.prototype;
+    option = Object.create(report, {constructor: {value: verify}});
+    echoed = 'Sentry';
+    update = option;
+    report = new update[verify](echoed, result);
+    report = report instanceof Object ? report : option;
+    var _closure1_slot9 = report;
+    report = ['The operation couldn’t be completed. (com.apple.CallKit.error.requesttransaction', 'Request has been terminated', "couldn't execute statement: database is disabled", "couldn't delete database: database is currently open", 'database is no longer open'];
+    var _closure1_slot10 = report;
     report = 0.05;
-    var _closure1_slot13 = report;
-    report = 0.005;
-    var _closure1_slot14 = report;
+    var _closure1_slot11 = report;
     report = false;
-    var _closure1_slot15 = report;
+    var _closure1_slot12 = report;
     report = 10;
     report = golfie[report];
     verify = oscard.bind(entity)(report);
     option = verify.filterThrottle;
     report = {'maxBudgetMinute': 1, 'maxBudgetHour': 15};
     report = option.bind(verify)(report);
-    var _closure1_slot16 = report;
+    var _closure1_slot13 = report;
     report = 16;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
@@ -469,7 +464,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     michal = argFoo;
-                    _closure1_slot15 = michal;
+                    _closure1_slot12 = michal;
                     tangon = _closure1_slot2;
                     zuuluu = _closure1_slot3;
                     entity = 11;
@@ -525,19 +520,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     if(!(golfie === oscard)) { _fun00010_ip = 673; continue _fun00009 }
  240:
                     oscard = 0.05;
-                    _closure1_slot13 = oscard;
+                    _closure1_slot11 = oscard;
                     oscard = tangon.SentryDsn;
                     if(report) { _fun00010_ip = 280; continue _fun00009 }
  265:
                     report = 1;
-                    _closure1_slot13 = report;
+                    _closure1_slot11 = report;
                     oscard = tangon.SentryAlphaBetaDsn;
  280:
                     if(!michal) { _fun00010_ip = 298; continue _fun00009 }
  283:
                     oscard = tangon.SentryStaffDsn;
                     report = 1;
-                    _closure1_slot13 = report;
+                    _closure1_slot11 = report;
  298:
                     offset = _closure1_slot0;
                     verify = _closure1_slot3;
@@ -560,9 +555,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report['tunnel'] = verify;
                     verify = false;
                     report['autoInitializeNativeSdk'] = verify;
-                    verify = _closure1_slot17;
+                    verify = _closure1_slot14;
                     report['beforeSend'] = verify;
-                    verify = '3887';
+                    verify = '3891';
                     report['dist'] = verify;
                     report['dsn'] = oscard;
                     report['environment'] = zuuluu;
@@ -572,7 +567,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report['sampleRate'] = zuuluu;
                     zuuluu = _closure1_slot10;
                     report['ignoreErrors'] = zuuluu;
-                    zuuluu = 'discord_android@275.5.0-2+275205';
+                    zuuluu = 'discord_android@275.6.0-2+275206';
                     report['release'] = zuuluu;
                     zuuluu = _closure1_slot0;
                     oscard = _closure1_slot3;

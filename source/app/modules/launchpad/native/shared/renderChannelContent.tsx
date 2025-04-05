@@ -42,10 +42,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         foxtra = 4;
         tangon = oscard[foxtra];
         tangon = report.bind(entity)(tangon);
-        tangon = tangon.jsx;
-        var _closure1_slot7 = tangon;
-        tangon = oscard[foxtra];
-        tangon = report.bind(entity)(tangon);
+        golfie = tangon.jsx;
+        var _closure1_slot7 = golfie;
         tangon = tangon.jsxs;
         var _closure1_slot8 = tangon;
         golfie = option.create;
@@ -59,10 +57,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         result = kiloes.bind(output)();
         kiloes = -1;
         output = kiloes;
-        if(!result) { _fun00002_ip = 238; continue _fun00001 }
- 235:
+        if(!result) { _fun00002_ip = 229; continue _fun00001 }
+ 226:
         output = yankee;
- 238:
+ 229:
         verify['marginTop'] = output;
         tangon['channelContent'] = verify;
         verify = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between'};
@@ -78,10 +76,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         result = report.bind(entity)(output);
         output = result.isAndroid;
         output = output.bind(result)();
-        if(!output) { _fun00002_ip = 349; continue _fun00001 }
- 346:
+        if(!output) { _fun00002_ip = 340; continue _fun00001 }
+ 337:
         kiloes = sizing;
- 349:
+ 340:
         verify['marginTop'] = kiloes;
         kiloes = 8;
         verify['marginRight'] = kiloes;
@@ -96,10 +94,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         backup = kiloes.isAndroid;
         kiloes = backup.bind(kiloes)();
         backup = 0;
-        if(!kiloes) { _fun00002_ip = 422; continue _fun00001 }
- 419:
+        if(!kiloes) { _fun00002_ip = 413; continue _fun00001 }
+ 410:
         backup = yankee;
- 422:
+ 413:
         verify['marginTop'] = backup;
         tangon['channelTraitIcon'] = verify;
         verify = {};
@@ -109,10 +107,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         romeon = foxtra.isAndroid;
         romeon = romeon.bind(foxtra)();
         offset = 0;
-        if(!romeon) { _fun00002_ip = 464; continue _fun00001 }
- 461:
+        if(!romeon) { _fun00002_ip = 455; continue _fun00001 }
+ 452:
         offset = yankee;
- 464:
+ 455:
         verify['marginTop'] = offset;
         tangon['channelTraitIconMuted'] = verify;
         tangon = golfie.bind(option)(tangon);

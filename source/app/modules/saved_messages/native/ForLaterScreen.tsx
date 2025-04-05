@@ -208,12 +208,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = romeon.bind(entity)(michal);
     var _closure1_slot6 = michal;
     michal = 4;
-    tangon = oscard[michal];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot7 = tangon;
     michal = oscard[michal];
     michal = report.bind(entity)(michal);
+    tangon = michal.jsx;
+    var _closure1_slot7 = tangon;
     michal = michal.jsxs;
     var _closure1_slot8 = michal;
     michal = 5;

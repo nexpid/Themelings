@@ -15,7 +15,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.onPressClose;
             var _closure2_slot0 = zuuluu;
             golfie = michal.inviteError;
-            michal = _closure1_slot12;
+            michal = _closure1_slot11;
             tangon = undefined;
             romeon = michal.bind(tangon)();
             zuuluu = _closure1_slot0;
@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot13 = entity;
+    var _closure1_slot12 = entity;
     entity = function(argFoo) { // Original name: InviteDisabledError
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -193,12 +193,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.invite;
             michal = michal.onPressClose;
             var _closure2_slot0 = michal;
-            michal = _closure1_slot12;
+            michal = _closure1_slot11;
             report = undefined;
             foxtra = michal.bind(report)();
             oscard = entity.guild;
             entity = null;
-            if(!(entity != oscard)) { _fun00004_ip = 663; continue _fun00003 }
+            if(!(entity != oscard)) { _fun00004_ip = 662; continue _fun00003 }
  48:
             update = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['id'] = option;
             oscard = oscard.icon;
             michal['icon'] = oscard;
-            oscard = _closure1_slot11;
+            oscard = 64;
             michal['size'] = oscard;
             oscard = false;
             michal['canAnimate'] = oscard;
@@ -335,11 +335,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 663:
+ 662:
             return entity;
         }
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot13 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -370,20 +370,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.InviteStates;
     var _closure1_slot7 = tangon;
     tangon = 3;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot8 = golfie;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.Fragment;
-    var _closure1_slot9 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot8 = golfie;
+    golfie = tangon.Fragment;
+    var _closure1_slot9 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot10 = tangon;
-    tangon = 64;
-    var _closure1_slot11 = tangon;
     tangon = 4;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
@@ -421,7 +415,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = {'flex': 1, 'width': '100%', 'marginVertical': 0};
     tangon['disabledButton'] = verify;
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot12 = tangon;
+    var _closure1_slot11 = tangon;
     tangon = 20;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -442,7 +436,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!(tangon !== entity)) { _fun00006_ip = 67; continue _fun00005 }
  37:
             oscard = _closure1_slot8;
-            report = _closure1_slot13;
+            report = _closure1_slot12;
             tangon = {};
             option = tangon;
             golfie = michal;
@@ -452,7 +446,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _fun00006_ip = 95; continue _fun00005;
  67:
             oscard = _closure1_slot8;
-            report = _closure1_slot14;
+            report = _closure1_slot13;
             tangon = {};
             option = tangon;
             golfie = michal;
@@ -463,7 +457,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _fun00006_ip = 128; continue _fun00005;
  97:
             report = _closure1_slot8;
-            tangon = _closure1_slot13;
+            tangon = _closure1_slot12;
             zuuluu = {};
             option = zuuluu;
             golfie = michal;

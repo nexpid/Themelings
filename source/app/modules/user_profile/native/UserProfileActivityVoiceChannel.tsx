@@ -24,12 +24,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = tangon.View;
         var _closure1_slot3 = tangon;
         tangon = 1;
-        golfie = oscard[tangon];
-        golfie = report.bind(entity)(golfie);
-        golfie = golfie.jsx;
-        var _closure1_slot4 = golfie;
         tangon = oscard[tangon];
         tangon = report.bind(entity)(tangon);
+        golfie = tangon.jsx;
+        var _closure1_slot4 = golfie;
         tangon = tangon.jsxs;
         var _closure1_slot5 = tangon;
         tangon = 2;
@@ -48,10 +46,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         offset = yankee.isAndroid;
         yankee = offset.bind(yankee)();
         offset = -1;
-        if(!yankee) { _fun00002_ip = 225; continue _fun00001 }
- 219:
+        if(!yankee) { _fun00002_ip = 216; continue _fun00001 }
+ 210:
         offset = -2;
- 225:
+ 216:
         verify['marginTop'] = offset;
         tangon['channelName'] = verify;
         tangon = golfie.bind(option)(tangon);

@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 660; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 659; continue _fun00001 }
  13:
                     yankee = argFoo;
                     verify = undefined;
@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return verify;
  37:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 657; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 656; continue _fun00001 }
  46: // try_start_0
                     golfie = _closure1_slot0;
                     option = _closure1_slot2;
@@ -68,34 +68,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return tangon;
  145:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 308; continue _fun00001 }
+                    if(golfie) { _fun00002_ip = 307; continue _fun00001 }
  154:
                     golfie = tangon.body;
                     offset = golfie;
                     golfie = golfie.quest_user_status;
                     option = null;
-                    if(!(option == golfie)) { _fun00002_ip = 241; continue _fun00001 }
+                    if(!(option == golfie)) { _fun00002_ip = 240; continue _fun00001 }
  174:
                     golfie = offset;
                     golfie = golfie.error_hints_v2;
-                    if(!(option != golfie)) { _fun00002_ip = 294; continue _fun00001 }
+                    if(!(option != golfie)) { _fun00002_ip = 293; continue _fun00001 }
  187:
                     golfie = offset;
                     golfie = golfie.error_hints_v2;
                     golfie = golfie.length;
                     foxtra = 0;
-                    if(!(golfie > foxtra)) { _fun00002_ip = 294; continue _fun00001 }
+                    if(!(golfie > foxtra)) { _fun00002_ip = 293; continue _fun00001 }
  207:
                     golfie = {};
                     option = offset;
                     romeon = option.error_hints_v2;
                     yankee = romeon.slice;
-                    option = _closure1_slot8;
+                    option = 5;
                     option = yankee.bind(romeon)(foxtra, option);
                     golfie['errorHints'] = option;
- 238: // try_end0
+ 237: // try_end0
                     return golfie;
- 241: // try_start_1
+ 240: // try_start_1
                     golfie = _closure1_slot1;
                     option = _closure1_slot2;
                     oscard = 5;
@@ -108,14 +108,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = offset.quest_user_status;
                     oscard['user_status'] = offset;
                     oscard = golfie.bind(option)(oscard);
- 294: // try_end1
+ 293: // try_end1
                     oscard = {};
                     golfie = new Array(0);
                     oscard['errorHints'] = golfie;
                     return oscard;
- 308:
+ 307:
                     return tangon;
- 311: // catch_target0 // catch_target1
+ 310: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=7);
                     golfie = _closure1_slot1;
                     offset = _closure1_slot2;
@@ -131,15 +131,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = oscard;
                     golfie = oscard.status;
                     oscard = 429;
-                    if(!(oscard !== golfie)) { _fun00002_ip = 536; continue _fun00001 }
- 380:
+                    if(!(oscard !== golfie)) { _fun00002_ip = 535; continue _fun00001 }
+ 379:
                     oscard = report;
                     report = oscard.getAnyErrorMessage;
                     oscard = report.bind(oscard)();
                     zuuluu = oscard;
                     report = null;
-                    if(!(report == oscard)) { _fun00002_ip = 459; continue _fun00001 }
- 402:
+                    if(!(report == oscard)) { _fun00002_ip = 458; continue _fun00001 }
+ 401:
                     option = _closure1_slot0;
                     offset = _closure1_slot2;
                     report = 8;
@@ -152,10 +152,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = report.t;
                     report = report.xSCvBQ;
                     report = oscard.bind(golfie)(report);
-                    _fun00002_ip = 462; continue _fun00001;
- 459:
+                    _fun00002_ip = 461; continue _fun00001;
+ 458:
                     report = zuuluu;
- 462:
+ 461:
                     zuuluu = {};
                     oscard = {};
                     option = _closure1_slot0;
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report[0] = oscard;
                     zuuluu['errorHints'] = report;
                     return zuuluu;
- 536:
+ 535:
                     zuuluu = {};
                     report = {};
                     option = _closure1_slot0;
@@ -203,9 +203,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon[0] = report;
                     zuuluu['errorHints'] = tangon;
                     return zuuluu;
- 657:
+ 656:
                     return michal;
- 660:
+ 659:
                     return entity;
                 }
             };
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot9 = tangon;
+        _closure1_slot8 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot8 = entity;
     entity = function() { // Original name: _manualStopConsoleQuest
         report = undefined;
         entity = undefined;
@@ -269,7 +269,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot10 = tangon;
+        _closure1_slot9 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -277,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot10 = entity;
+    var _closure1_slot9 = entity;
     entity = function() { // Original name: _fetchCurrentQuests
         report = undefined;
         entity = undefined;
@@ -465,7 +465,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot11 = tangon;
+        _closure1_slot10 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -473,7 +473,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot11 = entity;
+    var _closure1_slot10 = entity;
     entity = function() { // Original name: _sendHeartbeat
         report = undefined;
         entity = undefined;
@@ -627,7 +627,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot12 = tangon;
+        _closure1_slot11 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -635,7 +635,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot11 = entity;
     entity = function() { // Original name: _enrollInQuest
         report = undefined;
         entity = undefined;
@@ -766,7 +766,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot13 = tangon;
+        _closure1_slot12 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -774,7 +774,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot13 = entity;
+    var _closure1_slot12 = entity;
     entity = function() { // Original name: _claimQuestReward
         report = undefined;
         entity = undefined;
@@ -917,7 +917,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot14 = tangon;
+        _closure1_slot13 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -925,7 +925,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot13 = entity;
     entity = function() { // Original name: _fetchQuestRewardCode
         report = undefined;
         entity = undefined;
@@ -1038,7 +1038,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot15 = tangon;
+        _closure1_slot14 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -1046,7 +1046,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot15 = entity;
+    var _closure1_slot14 = entity;
     entity = function() { // Original name: _dismissQuestContent
         report = undefined;
         entity = undefined;
@@ -1169,7 +1169,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot16 = tangon;
+        _closure1_slot15 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -1177,7 +1177,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot16 = entity;
+    var _closure1_slot15 = entity;
     entity = function() { // Original name: _completeQuestPreview
         report = undefined;
         entity = undefined;
@@ -1289,7 +1289,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot17 = tangon;
+        _closure1_slot16 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -1297,7 +1297,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot17 = entity;
+    var _closure1_slot16 = entity;
     entity = function() { // Original name: _resetQuestPreviewStatus
         report = undefined;
         entity = undefined;
@@ -1394,7 +1394,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot18 = tangon;
+        _closure1_slot17 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -1402,7 +1402,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot18 = entity;
+    var _closure1_slot17 = entity;
     entity = function() { // Original name: _resetQuestDismissibilityStatus
         report = undefined;
         entity = undefined;
@@ -1507,7 +1507,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot19 = tangon;
+        _closure1_slot18 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -1515,7 +1515,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot19 = entity;
+    var _closure1_slot18 = entity;
     entity = function() { // Original name: _fetchClaimedQuests
         report = undefined;
         entity = undefined;
@@ -1626,7 +1626,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot20 = tangon;
+        _closure1_slot19 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -1634,7 +1634,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot20 = entity;
+    var _closure1_slot19 = entity;
     entity = function() { // Original name: _fetchQuestToDeliver
         report = undefined;
         entity = undefined;
@@ -1793,7 +1793,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot21 = tangon;
+        _closure1_slot20 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -1801,7 +1801,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot21 = entity;
+    var _closure1_slot20 = entity;
     entity = function() { // Original name: _updateVideoProgress
         report = undefined;
         entity = undefined;
@@ -1882,7 +1882,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot22 = tangon;
+        _closure1_slot21 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -1890,7 +1890,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot22 = entity;
+    var _closure1_slot21 = entity;
     entity = function() { // Original name: _fetchVideoTranscript
         report = undefined;
         entity = undefined;
@@ -2009,7 +2009,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot23 = tangon;
+        _closure1_slot22 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2017,7 +2017,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot23 = entity;
+    var _closure1_slot22 = entity;
     entity = function() { // Original name: _fetchQuest
         report = undefined;
         entity = undefined;
@@ -2072,7 +2072,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot24 = tangon;
+        _closure1_slot23 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2080,7 +2080,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot24 = entity;
+    var _closure1_slot23 = entity;
     entity = global;
     verify = entity.Object;
     golfie = verify.defineProperty;
@@ -2111,8 +2111,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.Endpoints;
     var _closure1_slot7 = tangon;
-    tangon = 5;
-    var _closure1_slot8 = tangon;
     tangon = 18;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -2121,7 +2119,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     tangon = function() { // Original name: manuallyStartConsoleQuest
         entity = undefined;
-        tangon = _closure1_slot9;
+        tangon = _closure1_slot8;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2132,7 +2130,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['manuallyStartConsoleQuest'] = tangon;
     tangon = function() { // Original name: manualStopConsoleQuest
         entity = undefined;
-        tangon = _closure1_slot10;
+        tangon = _closure1_slot9;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2143,7 +2141,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['manualStopConsoleQuest'] = tangon;
     tangon = function() { // Original name: fetchCurrentQuests
         entity = undefined;
-        tangon = _closure1_slot11;
+        tangon = _closure1_slot10;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2154,7 +2152,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['fetchCurrentQuests'] = tangon;
     tangon = function() { // Original name: sendHeartbeat
         entity = undefined;
-        tangon = _closure1_slot12;
+        tangon = _closure1_slot11;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2165,7 +2163,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['sendHeartbeat'] = tangon;
     tangon = function() { // Original name: enrollInQuest
         entity = undefined;
-        tangon = _closure1_slot13;
+        tangon = _closure1_slot12;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2176,7 +2174,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['enrollInQuest'] = tangon;
     tangon = function() { // Original name: claimQuestReward
         entity = undefined;
-        tangon = _closure1_slot14;
+        tangon = _closure1_slot13;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2187,7 +2185,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['claimQuestReward'] = tangon;
     tangon = function() { // Original name: fetchQuestRewardCode
         entity = undefined;
-        tangon = _closure1_slot15;
+        tangon = _closure1_slot14;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2198,7 +2196,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['fetchQuestRewardCode'] = tangon;
     tangon = function() { // Original name: dismissQuestContent
         entity = undefined;
-        tangon = _closure1_slot16;
+        tangon = _closure1_slot15;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2226,7 +2224,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['dismissProgressTrackingFailureNotice'] = tangon;
     tangon = function() { // Original name: completeQuestPreview
         entity = undefined;
-        tangon = _closure1_slot17;
+        tangon = _closure1_slot16;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2237,7 +2235,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['completeQuestPreview'] = tangon;
     tangon = function() { // Original name: resetQuestPreviewStatus
         entity = undefined;
-        tangon = _closure1_slot18;
+        tangon = _closure1_slot17;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2248,7 +2246,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['resetQuestPreviewStatus'] = tangon;
     tangon = function() { // Original name: resetQuestDismissibilityStatus
         entity = undefined;
-        tangon = _closure1_slot19;
+        tangon = _closure1_slot18;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2312,7 +2310,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['questsVisibleMobileMessagesChanged'] = tangon;
     tangon = function() { // Original name: fetchClaimedQuests
         entity = undefined;
-        tangon = _closure1_slot20;
+        tangon = _closure1_slot19;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2344,7 +2342,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['updateOptimisticProgress'] = tangon;
     tangon = function() { // Original name: fetchQuestToDeliver
         entity = undefined;
-        tangon = _closure1_slot21;
+        tangon = _closure1_slot20;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2372,7 +2370,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['updatePrevRestingQuestDockMode'] = tangon;
     tangon = function() { // Original name: updateVideoProgress
         entity = undefined;
-        tangon = _closure1_slot22;
+        tangon = _closure1_slot21;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2383,7 +2381,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['updateVideoProgress'] = tangon;
     tangon = function() { // Original name: fetchVideoTranscript
         entity = undefined;
-        tangon = _closure1_slot23;
+        tangon = _closure1_slot22;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2412,7 +2410,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['updateQuestDockVisibilityOverride'] = tangon;
     michal = function() { // Original name: fetchQuest
         entity = undefined;
-        tangon = _closure1_slot24;
+        tangon = _closure1_slot23;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;

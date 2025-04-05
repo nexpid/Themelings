@@ -251,12 +251,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = tangon.PADDING_VERTICAL;
         var _closure1_slot6 = tangon;
         tangon = 5;
-        option = oscard[tangon];
-        option = report.bind(entity)(option);
-        option = option.jsx;
-        var _closure1_slot7 = option;
         tangon = oscard[tangon];
         tangon = report.bind(entity)(tangon);
+        option = tangon.jsx;
+        var _closure1_slot7 = option;
         tangon = tangon.jsxs;
         var _closure1_slot8 = tangon;
         tangon = 6;
@@ -292,10 +290,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         backup = kiloes.isAndroid;
         kiloes = backup.bind(kiloes)();
         backup = 30;
-        if(!kiloes) { _fun00002_ip = 369; continue _fun00001 }
- 366:
+        if(!kiloes) { _fun00002_ip = 360; continue _fun00001 }
+ 357:
         backup = 26;
- 369:
+ 360:
         offset['fontSize'] = backup;
         tangon['surrogates'] = offset;
         offset = {'height': null, 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between'};

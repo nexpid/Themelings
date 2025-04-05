@@ -10,7 +10,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     entity = function(argFoo) { // Original name: SeeMoreFooter
         entity = argFoo;
         report = entity.openInviteSheet;
-        entity = _closure1_slot22;
+        entity = _closure1_slot21;
         tangon = undefined;
         romeon = entity.bind(tangon)();
         zuuluu = _closure1_slot19;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot23 = entity;
+    var _closure1_slot22 = entity;
     entity = function(argFoo) { // Original name: GuildInviteSuggestionRows
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = entity.suggestions;
             var _closure2_slot1 = romeon;
             backup = entity.openInviteSheet;
-            entity = _closure1_slot22;
+            entity = _closure1_slot21;
             report = undefined;
             foxtra = entity.bind(report)();
             tangon = _closure1_slot4;
@@ -75,16 +75,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = function() {
                 tangon = _closure2_slot1;
                 zuuluu = tangon.slice;
-                michal = _closure1_slot21;
-                entity = 0;
-                entity = zuuluu.bind(tangon)(entity, michal);
+                michal = 0;
+                entity = 6;
+                entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             };
             kiloes = zuuluu.bind(tangon)(entity, michal);
             zuuluu = romeon.length;
             michal = 0;
             entity = null;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 231; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 230; continue _fun00001 }
  90:
             tangon = _closure1_slot19;
             zuuluu = _closure1_slot6;
@@ -121,17 +121,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.suggestionRowsContainer;
             oscard['contentContainerStyle'] = foxtra;
             foxtra = romeon.length;
-            romeon = _closure1_slot21;
+            romeon = 6;
             romeon = foxtra > romeon;
             offset = null;
-            if(!romeon) { _fun00002_ip = 186; continue _fun00001 }
- 165:
+            if(!romeon) { _fun00002_ip = 185; continue _fun00001 }
+ 164:
             foxtra = _closure1_slot19;
-            romeon = _closure1_slot23;
+            romeon = _closure1_slot22;
             yankee = {};
             yankee['openInviteSheet'] = backup;
             offset = foxtra.bind(report)(romeon, yankee);
- 186:
+ 185:
             oscard['ListFooterComponent'] = offset;
             offset = function() { // Original name: ItemSeparatorComponent
                 tangon = _closure1_slot19;
@@ -159,11 +159,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 231:
+ 230:
             return entity;
         }
     };
-    var _closure1_slot24 = entity;
+    var _closure1_slot23 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -205,41 +205,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = romeon.bind(entity)(tangon);
     var _closure1_slot10 = tangon;
     tangon = 6;
-    golfie = oscard[tangon];
-    golfie = romeon.bind(entity)(golfie);
-    var _closure1_slot11 = golfie;
-    golfie = 7;
-    golfie = oscard[golfie];
-    golfie = romeon.bind(entity)(golfie);
-    var _closure1_slot12 = golfie;
+    tangon = oscard[tangon];
+    tangon = romeon.bind(entity)(tangon);
+    var _closure1_slot11 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    tangon = romeon.bind(entity)(tangon);
+    var _closure1_slot12 = tangon;
     backup = 8;
-    golfie = oscard[backup];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.CreateGuildModalStates;
-    var _closure1_slot13 = golfie;
-    golfie = 9;
-    golfie = oscard[golfie];
-    golfie = report.bind(entity)(golfie);
-    option = golfie.AnalyticEvents;
-    var _closure1_slot14 = option;
-    option = golfie.AnalyticsSections;
-    var _closure1_slot15 = option;
-    option = golfie.InstantInviteSources;
-    var _closure1_slot16 = option;
-    option = golfie.Permissions;
-    var _closure1_slot17 = option;
-    golfie = golfie.SearchTypes;
-    var _closure1_slot18 = golfie;
-    golfie = 10;
-    option = oscard[golfie];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot19 = option;
-    golfie = oscard[golfie];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsxs;
-    var _closure1_slot20 = golfie;
-    var _closure1_slot21 = tangon;
+    tangon = oscard[backup];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.CreateGuildModalStates;
+    var _closure1_slot13 = tangon;
+    tangon = 9;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.AnalyticEvents;
+    var _closure1_slot14 = golfie;
+    golfie = tangon.AnalyticsSections;
+    var _closure1_slot15 = golfie;
+    golfie = tangon.InstantInviteSources;
+    var _closure1_slot16 = golfie;
+    golfie = tangon.Permissions;
+    var _closure1_slot17 = golfie;
+    tangon = tangon.SearchTypes;
+    var _closure1_slot18 = tangon;
+    tangon = 10;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot19 = golfie;
+    tangon = tangon.jsxs;
+    var _closure1_slot20 = tangon;
     tangon = 11;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
@@ -319,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify['marginHorizontal'] = offset;
     tangon['suggestionRowsContainer'] = verify;
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot22 = tangon;
+    var _closure1_slot21 = tangon;
     tangon = 37;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -346,7 +343,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot6 = report;
             var _closure2_slot7 = report;
             var _closure2_slot8 = report;
-            entity = _closure1_slot22;
+            entity = _closure1_slot21;
             sizing = entity.bind(report)();
             verify = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -734,7 +731,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!golfie) { _fun00004_ip = 621; continue _fun00003 }
  590:
             tangon = _closure1_slot19;
-            zuuluu = _closure1_slot24;
+            zuuluu = _closure1_slot23;
             michal = {};
             michal['invite'] = offset;
             michal['suggestions'] = option;

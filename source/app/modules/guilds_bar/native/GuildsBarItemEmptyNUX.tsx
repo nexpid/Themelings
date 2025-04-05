@@ -51,12 +51,10 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     tangon = tangon.MODE_CHANGE_PHYSICS;
     var _closure1_slot9 = tangon;
     tangon = 6;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot10 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot10 = option;
     tangon = tangon.jsxs;
     var _closure1_slot11 = tangon;
     tangon = {'top': 4, 'left': 12, 'bottom': 4, 'right': 12};

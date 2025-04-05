@@ -33,16 +33,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = tangon.ExpressionSourceGuildRecord;
         var _closure1_slot4 = tangon;
         tangon = 3;
-        golfie = oscard[tangon];
-        golfie = report.bind(entity)(golfie);
-        golfie = golfie.jsx;
-        var _closure1_slot5 = golfie;
-        golfie = oscard[tangon];
-        golfie = report.bind(entity)(golfie);
-        golfie = golfie.Fragment;
-        var _closure1_slot6 = golfie;
         tangon = oscard[tangon];
         tangon = report.bind(entity)(tangon);
+        golfie = tangon.jsx;
+        var _closure1_slot5 = golfie;
+        golfie = tangon.Fragment;
+        var _closure1_slot6 = golfie;
         tangon = tangon.jsxs;
         var _closure1_slot7 = tangon;
         tangon = 4;
@@ -60,10 +56,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         foxtra = tangon.bind(yankee)();
         tangon = 16;
         yankee = tangon;
-        if(!foxtra) { _fun00002_ip = 236; continue _fun00001 }
- 233:
+        if(!foxtra) { _fun00002_ip = 218; continue _fun00001 }
+ 215:
         yankee = 12;
- 236:
+ 218:
         offset['marginTop'] = yankee;
         golfie['guildDetailsContainer'] = offset;
         foxtra = 8;

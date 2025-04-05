@@ -198,12 +198,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.GuildOnboardingTab;
     var _closure1_slot7 = tangon;
     tangon = 5;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot8 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot8 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot9 = tangon;
     tangon = 6;

@@ -142,12 +142,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = golfie.UnreadSetting;
     var _closure1_slot5 = golfie;
     golfie = 3;
-    option = offset[golfie];
-    option = verify.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot6 = option;
     golfie = offset[golfie];
     golfie = verify.bind(entity)(golfie);
+    option = golfie.jsx;
+    var _closure1_slot6 = option;
     golfie = golfie.jsxs;
     var _closure1_slot7 = golfie;
     golfie = 4;

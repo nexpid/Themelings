@@ -6,43 +6,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = argPlu;
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscard;
-    entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            tangon = argFoo;
-            oscard = argBaz;
-            michal = _closure1_slot6;
-            zuuluu = undefined;
-            entity = argBar;
-            verify = michal.bind(zuuluu)(entity);
-            michal = _closure1_slot5;
-            entity = _closure1_slot9;
-            entity = entity.bind(zuuluu)();
-            if(entity) { _fun00002_ip = 51; continue _fun00001 }
- 38:
-            entity = verify.apply;
-            entity = entity.bind(verify)(tangon, oscard);
-            _fun00002_ip = 92; continue _fun00001;
- 51:
-            golfie = global;
-            option = golfie.Reflect;
-            golfie = option.construct;
-            if(oscard) { _fun00002_ip = 71; continue _fun00001 }
- 67:
-            oscard = new Array(0);
- 71:
-            report = _closure1_slot6;
-            report = report.bind(zuuluu)(tangon);
-            report = report.constructor;
-            entity = golfie.bind(option)(verify, oscard, report);
- 92:
-            entity = michal.bind(zuuluu)(tangon, entity);
-            return entity;
-        }
-    };
-    var _closure1_slot8 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
  2: // try_start_0
             michal = global;
@@ -63,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = !michal;
             var _closure2_slot0 = michal;
  70: // try_end0
-            _fun00004_ip = 74; continue _fun00003;
+            _fun00002_ip = 74; continue _fun00001;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -73,13 +38,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot9 = michal;
+            _closure1_slot8 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot8 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -119,23 +84,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.MessageType;
     michal = function(argFoo) {
         tangon = function() { // Original name: Versions$Type
-            report = this;
-            michal = _closure1_slot3;
-            tangon = _closure2_slot0;
-            zuuluu = undefined;
-            michal = michal.bind(zuuluu)(report, tangon);
-            michal = _closure1_slot8;
-            oscard = new Array(3);
-            entity = {'no': 1, 'name': 'client_version', 'kind': 'scalar', 'T': 13};
-            oscard[0] = entity;
-            entity = {'no': 2, 'name': 'server_version', 'kind': 'scalar', 'T': 13};
-            oscard[1] = entity;
-            entity = {'no': 3, 'name': 'data_version', 'kind': 'scalar', 'T': 13};
-            oscard[2] = entity;
-            entity = ['discord_protos.discord_users.v1.Versions'];
-            entity[1] = oscard;
-            entity = michal.bind(zuuluu)(report, tangon, entity);
-            return entity;
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                tangon = this;
+                entity = _closure1_slot3;
+                michal = _closure2_slot0;
+                zuuluu = undefined;
+                entity = entity.bind(zuuluu)(tangon, michal);
+                entity = new Array(3);
+                oscard = {'no': 1, 'name': 'client_version', 'kind': 'scalar', 'T': 13};
+                entity[0] = oscard;
+                oscard = {'no': 2, 'name': 'server_version', 'kind': 'scalar', 'T': 13};
+                entity[1] = oscard;
+                oscard = {'no': 3, 'name': 'data_version', 'kind': 'scalar', 'T': 13};
+                entity[2] = oscard;
+                verify = ['discord_protos.discord_users.v1.Versions'];
+                verify[1] = entity;
+                entity = _closure1_slot6;
+                option = entity.bind(zuuluu)(michal);
+                michal = _closure1_slot5;
+                entity = _closure1_slot8;
+                entity = entity.bind(zuuluu)();
+                if(entity) { _fun00004_ip = 130; continue _fun00003 }
+ 117:
+                entity = option.apply;
+                entity = entity.bind(option)(tangon, verify);
+                _fun00004_ip = 164; continue _fun00003;
+ 130:
+                oscard = global;
+                golfie = oscard.Reflect;
+                oscard = golfie.construct;
+                report = _closure1_slot6;
+                report = report.bind(zuuluu)(tangon);
+                report = report.constructor;
+                entity = oscard.bind(golfie)(option, verify, report);
+ 164:
+                entity = michal.bind(zuuluu)(tangon, entity);
+                return entity;
+            }
         };
         var _closure2_slot0 = tangon;
         report = _closure1_slot7;

@@ -39,10 +39,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         offset = 4;
         tangon = oscard[offset];
         tangon = report.bind(entity)(tangon);
-        tangon = tangon.jsx;
-        var _closure1_slot6 = tangon;
-        tangon = oscard[offset];
-        tangon = report.bind(entity)(tangon);
+        golfie = tangon.jsx;
+        var _closure1_slot6 = golfie;
         tangon = tangon.jsxs;
         var _closure1_slot7 = tangon;
         tangon = 5;
@@ -57,10 +55,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         romeon = backup.isAndroid;
         backup = romeon.bind(backup)();
         romeon = 0;
-        if(!backup) { _fun00002_ip = 234; continue _fun00001 }
- 231:
+        if(!backup) { _fun00002_ip = 225; continue _fun00001 }
+ 222:
         romeon = 16;
- 234:
+ 225:
         verify['paddingBottom'] = romeon;
         tangon['contentWrapper'] = verify;
         verify = {};

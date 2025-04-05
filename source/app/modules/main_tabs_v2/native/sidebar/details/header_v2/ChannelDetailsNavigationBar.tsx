@@ -79,12 +79,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.ChannelSettingsSections;
     var _closure1_slot12 = tangon;
     tangon = 8;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot13 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot13 = option;
     tangon = tangon.jsxs;
     var _closure1_slot14 = tangon;
     tangon = 9;
@@ -238,15 +236,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['size'] = golfie;
             golfie = _closure1_slot1;
             verify = _closure1_slot2;
-            if(oscard) { _fun00002_ip = 262; continue _fun00001 }
- 253:
+            if(oscard) { _fun00002_ip = 260; continue _fun00001 }
+ 251:
             oscard = 17;
             oscard = verify[oscard];
-            _fun00002_ip = 269; continue _fun00001;
- 262:
+            _fun00002_ip = 267; continue _fun00001;
+ 260:
             option = 16;
             oscard = verify[option];
- 269:
+ 267:
             oscard = golfie.bind(report)(oscard);
             michal['icon'] = oscard;
             entity = _closure1_slot10;

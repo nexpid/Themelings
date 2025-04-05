@@ -42,12 +42,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = tangon.EmojiIntention;
         var _closure1_slot6 = tangon;
         tangon = 5;
-        golfie = oscard[tangon];
-        golfie = report.bind(entity)(golfie);
-        golfie = golfie.jsx;
-        var _closure1_slot7 = golfie;
         tangon = oscard[tangon];
         tangon = report.bind(entity)(tangon);
+        golfie = tangon.jsx;
+        var _closure1_slot7 = golfie;
         tangon = tangon.jsxs;
         var _closure1_slot8 = tangon;
         tangon = 6;
@@ -77,10 +75,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         sizing = result.isAndroid;
         result = sizing.bind(result)();
         sizing = 0;
-        if(!result) { _fun00002_ip = 329; continue _fun00001 }
- 326:
+        if(!result) { _fun00002_ip = 320; continue _fun00001 }
+ 317:
         sizing = yankee;
- 329:
+ 320:
         sizing = output - sizing;
         verify['paddingVertical'] = sizing;
         tangon['container'] = verify;
@@ -113,10 +111,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         romeon = foxtra.isAndroid;
         romeon = romeon.bind(foxtra)();
         offset = 0;
-        if(!romeon) { _fun00002_ip = 515; continue _fun00001 }
- 512:
+        if(!romeon) { _fun00002_ip = 506; continue _fun00001 }
+ 503:
         offset = yankee;
- 515:
+ 506:
         verify['paddingBottom'] = offset;
         tangon['emojiButton'] = verify;
         tangon = golfie.bind(option)(tangon);

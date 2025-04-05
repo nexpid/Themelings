@@ -32,12 +32,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = golfie.bind(entity)(michal);
         romeon = michal.Fonts;
         michal = 3;
-        tangon = option[michal];
-        tangon = golfie.bind(entity)(tangon);
-        tangon = tangon.jsx;
-        var _closure1_slot3 = tangon;
         michal = option[michal];
         michal = golfie.bind(entity)(michal);
+        tangon = michal.jsx;
+        var _closure1_slot3 = tangon;
         michal = michal.jsxs;
         var _closure1_slot4 = michal;
         michal = 4;
@@ -46,19 +44,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = oscard.isAndroid;
         oscard = tangon.bind(oscard)();
         tangon = 58;
-        if(!oscard) { _fun00002_ip = 184; continue _fun00001 }
- 181:
+        if(!oscard) { _fun00002_ip = 175; continue _fun00001 }
+ 172:
         tangon = 48;
- 184:
+ 175:
         michal = option[michal];
         oscard = golfie.bind(entity)(michal);
         michal = oscard.isAndroid;
         oscard = michal.bind(oscard)();
         michal = 48;
-        if(!oscard) { _fun00002_ip = 211; continue _fun00001 }
- 208:
+        if(!oscard) { _fun00002_ip = 202; continue _fun00001 }
+ 199:
         michal = 56;
- 211:
+ 202:
         oscard = 5;
         oscard = option[oscard];
         offset = golfie.bind(entity)(oscard);

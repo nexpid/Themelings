@@ -7,43 +7,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = golfie;
     var _closure1_slot2 = oscard;
-    entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            tangon = argFoo;
-            oscard = argBaz;
-            michal = _closure1_slot6;
-            zuuluu = undefined;
-            entity = argBar;
-            verify = michal.bind(zuuluu)(entity);
-            michal = _closure1_slot5;
-            entity = _closure1_slot9;
-            entity = entity.bind(zuuluu)();
-            if(entity) { _fun00002_ip = 51; continue _fun00001 }
- 38:
-            entity = verify.apply;
-            entity = entity.bind(verify)(tangon, oscard);
-            _fun00002_ip = 92; continue _fun00001;
- 51:
-            golfie = global;
-            option = golfie.Reflect;
-            golfie = option.construct;
-            if(oscard) { _fun00002_ip = 71; continue _fun00001 }
- 67:
-            oscard = new Array(0);
- 71:
-            report = _closure1_slot6;
-            report = report.bind(zuuluu)(tangon);
-            report = report.constructor;
-            entity = golfie.bind(option)(verify, oscard, report);
- 92:
-            entity = michal.bind(zuuluu)(tangon, entity);
-            return entity;
-        }
-    };
-    var _closure1_slot8 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
  2: // try_start_0
             michal = global;
@@ -64,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = !michal;
             var _closure2_slot0 = michal;
  70: // try_end0
-            _fun00004_ip = 74; continue _fun00003;
+            _fun00002_ip = 74; continue _fun00001;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -74,13 +39,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot9 = michal;
+            _closure1_slot8 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot8 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -116,73 +81,94 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = tangon.Store;
     michal = function(argFoo) {
         report = function(argFoo, argBar) { // Original name: SnapshotStore
-            tangon = argFoo;
-            yankee = this;
-            zuuluu = _closure1_slot3;
-            michal = _closure2_slot0;
-            oscard = undefined;
-            zuuluu = zuuluu.bind(oscard)(yankee, michal);
-            offset = _closure1_slot8;
-            golfie = _closure1_slot1;
-            option = _closure1_slot2;
-            entity = 5;
-            entity = option[entity];
-            zuuluu = golfie.bind(oscard)(entity);
-            entity = new Array(3);
-            entity[0] = zuuluu;
-            romeon = {};
-            sizing = romeon;
-            kiloes = tangon;
-            zuuluu = copyDataProperties(sizing, kiloes);
-            zuuluu = function() { // Original name: CLEAR_CACHES
-                michal = _closure3_slot0;
-                entity = michal.clear;
-                entity = entity.bind(michal)();
-                entity = false;
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                tangon = argFoo;
+                yankee = this;
+                entity = _closure1_slot3;
+                michal = _closure2_slot0;
+                oscard = undefined;
+                entity = entity.bind(oscard)(yankee, michal);
+                golfie = _closure1_slot1;
+                option = _closure1_slot2;
+                entity = 5;
+                entity = option[entity];
+                entity = golfie.bind(oscard)(entity);
+                sizing = new Array(3);
+                sizing[0] = entity;
+                entity = {};
+                echoed = entity;
+                result = tangon;
+                zuuluu = copyDataProperties(echoed, result);
+                zuuluu = function() { // Original name: CLEAR_CACHES
+                    michal = _closure3_slot0;
+                    entity = michal.clear;
+                    entity = entity.bind(michal)();
+                    entity = false;
+                    return entity;
+                };
+                verify = 'CLEAR_CACHES';
+                entity[verify] = zuuluu;
+                offset = function() { // Original name: WRITE_CACHES
+                    michal = _closure3_slot0;
+                    entity = michal.save;
+                    entity = entity.bind(michal)();
+                    entity = false;
+                    return entity;
+                };
+                zuuluu = 'WRITE_CACHES';
+                entity[zuuluu] = offset;
+                sizing[1] = entity;
+                entity = argBar;
+                sizing[2] = entity;
+                entity = _closure1_slot6;
+                kiloes = entity.bind(oscard)(michal);
+                offset = _closure1_slot5;
+                entity = _closure1_slot8;
+                entity = entity.bind(oscard)();
+                if(entity) { _fun00004_ip = 146; continue _fun00003 }
+ 133:
+                entity = kiloes.apply;
+                entity = entity.bind(kiloes)(yankee, sizing);
+                _fun00004_ip = 180; continue _fun00003;
+ 146:
+                foxtra = global;
+                backup = foxtra.Reflect;
+                foxtra = backup.construct;
+                romeon = _closure1_slot6;
+                romeon = romeon.bind(oscard)(yankee);
+                romeon = romeon.constructor;
+                entity = foxtra.bind(backup)(kiloes, sizing, romeon);
+ 180:
+                entity = offset.bind(oscard)(yankee, entity);
+                var _closure3_slot0 = entity;
+                report = 6;
+                offset = option[report];
+                romeon = golfie.bind(oscard)(offset);
+                offset = entity.getClass;
+                offset = offset.bind(entity)();
+                yankee = offset.displayName;
+                offset = null;
+                yankee = offset != yankee;
+                offset = 'Snapshot stores need a display name';
+                offset = romeon.bind(oscard)(yankee, offset);
+                offset = option[report];
+                yankee = golfie.bind(oscard)(offset);
+                verify = verify in tangon;
+                offset = !verify;
+                verify = "SnapshotStores cannot use the 'CLEAR_CACHES' action";
+                verify = yankee.bind(oscard)(offset, verify);
+                report = option[report];
+                report = golfie.bind(oscard)(report);
+                zuuluu = zuuluu in tangon;
+                tangon = !zuuluu;
+                zuuluu = "SnapshotStores cannot use the 'WRITE_CACHES' action";
+                zuuluu = report.bind(oscard)(tangon, zuuluu);
+                zuuluu = michal.allStores;
+                michal = zuuluu.push;
+                michal = michal.bind(zuuluu)(entity);
                 return entity;
-            };
-            verify = 'CLEAR_CACHES';
-            romeon[verify] = zuuluu;
-            foxtra = function() { // Original name: WRITE_CACHES
-                michal = _closure3_slot0;
-                entity = michal.save;
-                entity = entity.bind(michal)();
-                entity = false;
-                return entity;
-            };
-            zuuluu = 'WRITE_CACHES';
-            romeon[zuuluu] = foxtra;
-            entity[1] = romeon;
-            romeon = argBar;
-            entity[2] = romeon;
-            entity = offset.bind(oscard)(yankee, michal, entity);
-            var _closure3_slot0 = entity;
-            report = 6;
-            offset = option[report];
-            romeon = golfie.bind(oscard)(offset);
-            offset = entity.getClass;
-            offset = offset.bind(entity)();
-            yankee = offset.displayName;
-            offset = null;
-            yankee = offset != yankee;
-            offset = 'Snapshot stores need a display name';
-            offset = romeon.bind(oscard)(yankee, offset);
-            offset = option[report];
-            yankee = golfie.bind(oscard)(offset);
-            verify = verify in tangon;
-            offset = !verify;
-            verify = "SnapshotStores cannot use the 'CLEAR_CACHES' action";
-            verify = yankee.bind(oscard)(offset, verify);
-            report = option[report];
-            report = golfie.bind(oscard)(report);
-            zuuluu = zuuluu in tangon;
-            tangon = !zuuluu;
-            zuuluu = "SnapshotStores cannot use the 'WRITE_CACHES' action";
-            zuuluu = report.bind(oscard)(tangon, zuuluu);
-            zuuluu = michal.allStores;
-            michal = zuuluu.push;
-            michal = michal.bind(zuuluu)(entity);
-            return entity;
+            }
         };
         var _closure2_slot0 = report;
         oscard = _closure1_slot7;

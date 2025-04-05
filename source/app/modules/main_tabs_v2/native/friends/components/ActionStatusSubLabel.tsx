@@ -21,12 +21,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     entity = undefined;
     tangon = tangon.bind(entity)(option);
     tangon = 1;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot3 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot3 = option;
     tangon = tangon.jsxs;
     var _closure1_slot4 = tangon;
     tangon = 2;

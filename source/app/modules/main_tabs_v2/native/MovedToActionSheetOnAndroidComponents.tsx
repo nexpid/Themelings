@@ -17,14 +17,10 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     entity = undefined;
     michal = michal.bind(entity)(tangon);
     michal = 1;
-    tangon = oscard[michal];
-    tangon = report.bind(entity)(tangon);
-    yankee = tangon.jsx;
-    tangon = oscard[michal];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.Fragment;
     michal = oscard[michal];
     michal = report.bind(entity)(michal);
+    yankee = michal.jsx;
+    golfie = michal.Fragment;
     tangon = michal.jsxs;
     michal = {};
     option = 2;

@@ -44,12 +44,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = tangon.FAMILY_CENTER_LINK_REQUEST_REGEX;
         var _closure1_slot7 = tangon;
         tangon = 5;
-        option = oscard[tangon];
-        option = report.bind(entity)(option);
-        option = option.jsx;
-        var _closure1_slot8 = option;
         tangon = oscard[tangon];
         tangon = report.bind(entity)(tangon);
+        option = tangon.jsx;
+        var _closure1_slot8 = option;
         tangon = tangon.jsxs;
         var _closure1_slot9 = tangon;
         tangon = 6;
@@ -57,16 +55,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         option = report.bind(entity)(tangon);
         tangon = option.isAndroid;
         tangon = tangon.bind(option)();
-        if(tangon) { _fun00002_ip = 241; continue _fun00001 }
- 228:
+        if(tangon) { _fun00002_ip = 232; continue _fun00001 }
+ 219:
         tangon = 'DCDQRScanner';
         tangon = golfie.bind(entity)(tangon);
-        _fun00002_ip = 253; continue _fun00001;
- 241:
+        _fun00002_ip = 244; continue _fun00001;
+ 232:
         golfie = 7;
         golfie = oscard[golfie];
         tangon = verify.bind(entity)(golfie);
- 253:
+ 244:
         var _closure1_slot10 = tangon;
         tangon = function(argFoo) { // Original name: DCDQRScanner
             tangon = _closure1_slot8;

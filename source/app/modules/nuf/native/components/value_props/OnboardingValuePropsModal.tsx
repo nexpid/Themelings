@@ -137,12 +137,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = oscard.bind(entity)(report);
     option = report.ModalAnimation;
     report = 3;
-    verify = golfie[report];
-    verify = oscard.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot5 = verify;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    verify = report.jsx;
+    var _closure1_slot5 = verify;
     report = report.jsxs;
     var _closure1_slot6 = report;
     report = 4;

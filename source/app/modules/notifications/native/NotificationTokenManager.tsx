@@ -7,43 +7,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = golfie;
     var _closure1_slot2 = oscard;
-    entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            tangon = argFoo;
-            oscard = argBaz;
-            michal = _closure1_slot6;
-            zuuluu = undefined;
-            entity = argBar;
-            verify = michal.bind(zuuluu)(entity);
-            michal = _closure1_slot5;
-            entity = _closure1_slot12;
-            entity = entity.bind(zuuluu)();
-            if(entity) { _fun00002_ip = 51; continue _fun00001 }
- 38:
-            entity = verify.apply;
-            entity = entity.bind(verify)(tangon, oscard);
-            _fun00002_ip = 92; continue _fun00001;
- 51:
-            golfie = global;
-            option = golfie.Reflect;
-            golfie = option.construct;
-            if(oscard) { _fun00002_ip = 71; continue _fun00001 }
- 67:
-            oscard = new Array(0);
- 71:
-            report = _closure1_slot6;
-            report = report.bind(zuuluu)(tangon);
-            report = report.constructor;
-            entity = golfie.bind(option)(verify, oscard, report);
- 92:
-            entity = michal.bind(zuuluu)(tangon, entity);
-            return entity;
-        }
-    };
-    var _closure1_slot11 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
  2: // try_start_0
             michal = global;
@@ -64,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = !michal;
             var _closure2_slot0 = michal;
  72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
+            _fun00002_ip = 76; continue _fun00001;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -74,13 +39,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot12 = michal;
+            _closure1_slot11 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot11 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -128,221 +93,242 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
         tangon = function(argFoo) { // Original name: NotificationTokenManager
-            oscard = this;
-            yankee = 0;
-            golfie = copyRestArgs(yankee);
-            zuuluu = _closure1_slot3;
-            report = _closure2_slot0;
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(oscard, report);
-            zuuluu = _closure1_slot11;
-            entity = new Array(0);
-            yankee = entity;
-            offset = golfie;
-            verify = 0;
-            golfie = arraySpread(yankee, offset, verify);
-            entity = zuuluu.bind(tangon)(oscard, report, entity);
-            var _closure3_slot0 = entity;
-            zuuluu = null;
-            entity['token'] = zuuluu;
-            tangon = false;
-            entity['hasRegisterEventListener'] = tangon;
-            entity['postConnectionOpenTimeoutID'] = zuuluu;
-            zuuluu = function(argFoo) {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    michal = _closure3_slot0;
-                    zuuluu = argFoo;
-                    michal['token'] = zuuluu;
-                    michal = michal.canSync;
-                    if(!michal) { _fun00006_ip = 39; continue _fun00005 }
+                report = this;
+                foxtra = 0;
+                entity = copyRestArgs(foxtra);
+                option = _closure1_slot3;
+                zuuluu = _closure2_slot0;
+                tangon = undefined;
+                option = option.bind(tangon)(report, zuuluu);
+                offset = new Array(0);
+                foxtra = offset;
+                romeon = entity;
+                yankee = 0;
+                entity = arraySpread(foxtra, romeon, yankee);
+                entity = _closure1_slot6;
+                verify = entity.bind(tangon)(zuuluu);
+                zuuluu = _closure1_slot5;
+                entity = _closure1_slot11;
+                entity = entity.bind(tangon)();
+                if(entity) { _fun00004_ip = 86; continue _fun00003 }
+ 73:
+                entity = verify.apply;
+                entity = entity.bind(verify)(report, offset);
+                _fun00004_ip = 120; continue _fun00003;
+ 86:
+                golfie = global;
+                option = golfie.Reflect;
+                golfie = option.construct;
+                oscard = _closure1_slot6;
+                oscard = oscard.bind(tangon)(report);
+                oscard = oscard.constructor;
+                entity = golfie.bind(option)(verify, offset, oscard);
+ 120:
+                entity = zuuluu.bind(tangon)(report, entity);
+                var _closure3_slot0 = entity;
+                zuuluu = null;
+                entity['token'] = zuuluu;
+                tangon = false;
+                entity['hasRegisterEventListener'] = tangon;
+                entity['postConnectionOpenTimeoutID'] = zuuluu;
+                zuuluu = function(argFoo) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+                        michal = _closure3_slot0;
+                        zuuluu = argFoo;
+                        michal['token'] = zuuluu;
+                        michal = michal.canSync;
+                        if(!michal) { _fun00006_ip = 39; continue _fun00005 }
  25:
-                    michal = _closure3_slot0;
-                    entity = michal.registerToken;
-                    entity = entity.bind(michal)();
+                        michal = _closure3_slot0;
+                        entity = michal.registerToken;
+                        entity = entity.bind(michal)();
  39:
-                    entity = undefined;
-                    return entity;
-                }
-            };
-            entity['handleToken'] = zuuluu;
-            zuuluu = function() {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
- 0:
-                    michal = _closure3_slot0;
-                    zuuluu = michal.token;
-                    michal = null;
-                    if(!(michal != zuuluu)) { _fun00008_ip = 279; continue _fun00007 }
- 22:
-                    zuuluu = _closure1_slot8;
-                    offset = zuuluu.DCDNotificationCategoryUtils;
-                    verify = offset.registerNotificationReplyCategories;
-                    romeon = _closure1_slot0;
-                    foxtra = _closure1_slot2;
-                    report = 8;
-                    oscard = foxtra[report];
-                    tangon = undefined;
-                    oscard = romeon.bind(tangon)(oscard);
-                    option = oscard.intl;
-                    golfie = option.string;
-                    oscard = foxtra[report];
-                    oscard = romeon.bind(tangon)(oscard);
-                    oscard = oscard.t;
-                    oscard = oscard.TBA5Xl;
-                    option = golfie.bind(option)(oscard);
-                    oscard = foxtra[report];
-                    oscard = romeon.bind(tangon)(oscard);
-                    yankee = oscard.intl;
-                    golfie = yankee.string;
-                    oscard = foxtra[report];
-                    oscard = romeon.bind(tangon)(oscard);
-                    oscard = oscard.t;
-                    oscard = oscard.TXNS7e;
-                    sizing = golfie.bind(yankee)(oscard);
-                    oscard = foxtra[report];
-                    oscard = romeon.bind(tangon)(oscard);
-                    yankee = oscard.intl;
-                    oscard = yankee.string;
-                    report = foxtra[report];
-                    report = romeon.bind(tangon)(report);
-                    report = report.t;
-                    report = report.TBA5Xl;
-                    kiloes = oscard.bind(yankee)(report);
-                    backup = function() {
                         entity = undefined;
                         return entity;
-                    };
-                    result = offset;
-                    output = option;
-                    report = result[verify](output, sizing, kiloes, backup, foxtra);
-                    zuuluu = zuuluu.PushNotificationAndroid;
-                    if(!zuuluu) { _fun00008_ip = 238; continue _fun00007 }
+                    }
+                };
+                entity['handleToken'] = zuuluu;
+                zuuluu = function() {
+                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+ 0:
+                        michal = _closure3_slot0;
+                        zuuluu = michal.token;
+                        michal = null;
+                        if(!(michal != zuuluu)) { _fun00008_ip = 279; continue _fun00007 }
+ 22:
+                        zuuluu = _closure1_slot8;
+                        offset = zuuluu.DCDNotificationCategoryUtils;
+                        verify = offset.registerNotificationReplyCategories;
+                        romeon = _closure1_slot0;
+                        foxtra = _closure1_slot2;
+                        report = 8;
+                        oscard = foxtra[report];
+                        tangon = undefined;
+                        oscard = romeon.bind(tangon)(oscard);
+                        option = oscard.intl;
+                        golfie = option.string;
+                        oscard = foxtra[report];
+                        oscard = romeon.bind(tangon)(oscard);
+                        oscard = oscard.t;
+                        oscard = oscard.TBA5Xl;
+                        option = golfie.bind(option)(oscard);
+                        oscard = foxtra[report];
+                        oscard = romeon.bind(tangon)(oscard);
+                        yankee = oscard.intl;
+                        golfie = yankee.string;
+                        oscard = foxtra[report];
+                        oscard = romeon.bind(tangon)(oscard);
+                        oscard = oscard.t;
+                        oscard = oscard.TXNS7e;
+                        sizing = golfie.bind(yankee)(oscard);
+                        oscard = foxtra[report];
+                        oscard = romeon.bind(tangon)(oscard);
+                        yankee = oscard.intl;
+                        oscard = yankee.string;
+                        report = foxtra[report];
+                        report = romeon.bind(tangon)(report);
+                        report = report.t;
+                        report = report.TBA5Xl;
+                        kiloes = oscard.bind(yankee)(report);
+                        backup = function() {
+                            entity = undefined;
+                            return entity;
+                        };
+                        result = offset;
+                        output = option;
+                        report = result[verify](output, sizing, kiloes, backup, foxtra);
+                        zuuluu = zuuluu.PushNotificationAndroid;
+                        if(!zuuluu) { _fun00008_ip = 238; continue _fun00007 }
  216:
-                    zuuluu = _closure1_slot8;
-                    report = zuuluu.PushNotificationAndroid;
-                    zuuluu = report.onRegisterNotificationToken;
-                    zuuluu = zuuluu.bind(report)();
+                        zuuluu = _closure1_slot8;
+                        report = zuuluu.PushNotificationAndroid;
+                        zuuluu = report.onRegisterNotificationToken;
+                        zuuluu = zuuluu.bind(report)();
  238:
-                    zuuluu = _closure1_slot1;
-                    report = _closure1_slot2;
-                    michal = 9;
-                    michal = report[michal];
-                    zuuluu = zuuluu.bind(tangon)(michal);
-                    michal = zuuluu.registerDevice;
-                    entity = _closure3_slot0;
-                    entity = entity.token;
-                    entity = michal.bind(zuuluu)(entity);
+                        zuuluu = _closure1_slot1;
+                        report = _closure1_slot2;
+                        michal = 9;
+                        michal = report[michal];
+                        zuuluu = zuuluu.bind(tangon)(michal);
+                        michal = zuuluu.registerDevice;
+                        entity = _closure3_slot0;
+                        entity = entity.token;
+                        entity = michal.bind(zuuluu)(entity);
  279:
-                    entity = undefined;
-                    return entity;
-                }
-            };
-            entity['registerToken'] = zuuluu;
-            zuuluu = function() {
-                michal = _closure3_slot0;
-                entity = michal.handleSyncNoMultiAccount;
-                entity = entity.bind(michal)();
-                entity = undefined;
-                return entity;
-            };
-            entity['handleSyncNoMultiAccountOnLoginSuccess'] = zuuluu;
-            zuuluu = function() {
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
- 0:
-                    zuuluu = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    entity = 10;
-                    michal = michal[entity];
-                    entity = undefined;
-                    tangon = zuuluu.bind(entity)(michal);
-                    zuuluu = tangon.shouldRegisterDevicePostConnectionOpen;
-                    michal = 'notification_token_manager';
-                    michal = zuuluu.bind(tangon)(michal);
-                    zuuluu = _closure3_slot0;
-                    if(michal) { _fun00010_ip = 64; continue _fun00009 }
- 52:
-                    michal = zuuluu.handleSyncNoMultiAccount;
-                    michal = michal.bind(zuuluu)();
-                    _fun00010_ip = 96; continue _fun00009;
- 64:
-                    michal = global;
-                    report = michal.setTimeout;
-                    tangon = zuuluu.handleSyncNoMultiAccountOnPostConnectionOpen;
-                    michal = 5000;
-                    michal = report.bind(entity)(tangon, michal);
-                    zuuluu['postConnectionOpenTimeoutID'] = michal;
- 96:
-                    return entity;
-                }
-            };
-            entity['handleSyncNoMultiAccountOnRegisterSuccess'] = zuuluu;
-            zuuluu = function() {
-                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
- 0:
-                    entity = _closure3_slot0;
-                    zuuluu = entity.postConnectionOpenTimeoutID;
-                    entity = null;
-                    if(!(entity != zuuluu)) { _fun00012_ip = 60; continue _fun00011 }
- 19:
-                    zuuluu = global;
-                    report = zuuluu.clearTimeout;
+                        entity = undefined;
+                        return entity;
+                    }
+                };
+                entity['registerToken'] = zuuluu;
+                zuuluu = function() {
                     michal = _closure3_slot0;
-                    tangon = michal.postConnectionOpenTimeoutID;
-                    zuuluu = undefined;
-                    zuuluu = report.bind(zuuluu)(tangon);
-                    michal['postConnectionOpenTimeoutID'] = entity;
                     entity = michal.handleSyncNoMultiAccount;
                     entity = entity.bind(michal)();
+                    entity = undefined;
+                    return entity;
+                };
+                entity['handleSyncNoMultiAccountOnLoginSuccess'] = zuuluu;
+                zuuluu = function() {
+                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+ 0:
+                        zuuluu = _closure1_slot0;
+                        michal = _closure1_slot2;
+                        entity = 10;
+                        michal = michal[entity];
+                        entity = undefined;
+                        tangon = zuuluu.bind(entity)(michal);
+                        zuuluu = tangon.shouldRegisterDevicePostConnectionOpen;
+                        michal = 'notification_token_manager';
+                        michal = zuuluu.bind(tangon)(michal);
+                        zuuluu = _closure3_slot0;
+                        if(michal) { _fun00010_ip = 64; continue _fun00009 }
+ 52:
+                        michal = zuuluu.handleSyncNoMultiAccount;
+                        michal = michal.bind(zuuluu)();
+                        _fun00010_ip = 96; continue _fun00009;
+ 64:
+                        michal = global;
+                        report = michal.setTimeout;
+                        tangon = zuuluu.handleSyncNoMultiAccountOnPostConnectionOpen;
+                        michal = 5000;
+                        michal = report.bind(entity)(tangon, michal);
+                        zuuluu['postConnectionOpenTimeoutID'] = michal;
+ 96:
+                        return entity;
+                    }
+                };
+                entity['handleSyncNoMultiAccountOnRegisterSuccess'] = zuuluu;
+                zuuluu = function() {
+                    _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+ 0:
+                        entity = _closure3_slot0;
+                        zuuluu = entity.postConnectionOpenTimeoutID;
+                        entity = null;
+                        if(!(entity != zuuluu)) { _fun00012_ip = 60; continue _fun00011 }
+ 19:
+                        zuuluu = global;
+                        report = zuuluu.clearTimeout;
+                        michal = _closure3_slot0;
+                        tangon = michal.postConnectionOpenTimeoutID;
+                        zuuluu = undefined;
+                        zuuluu = report.bind(zuuluu)(tangon);
+                        michal['postConnectionOpenTimeoutID'] = entity;
+                        entity = michal.handleSyncNoMultiAccount;
+                        entity = entity.bind(michal)();
  60:
-                    entity = undefined;
-                    return entity;
-                }
-            };
-            entity['handleSyncNoMultiAccountOnPostConnectionOpen'] = zuuluu;
-            zuuluu = function() {
-                _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+                        entity = undefined;
+                        return entity;
+                    }
+                };
+                entity['handleSyncNoMultiAccountOnPostConnectionOpen'] = zuuluu;
+                zuuluu = function() {
+                    _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-                    michal = _closure3_slot0;
-                    michal = michal.canSync;
-                    if(!michal) { _fun00014_ip = 32; continue _fun00013 }
+                        michal = _closure3_slot0;
+                        michal = michal.canSync;
+                        if(!michal) { _fun00014_ip = 32; continue _fun00013 }
  16:
-                    zuuluu = _closure1_slot9;
-                    zuuluu = zuuluu.canUseMultiAccountNotifications;
-                    michal = !zuuluu;
+                        zuuluu = _closure1_slot9;
+                        zuuluu = zuuluu.canUseMultiAccountNotifications;
+                        michal = !zuuluu;
  32:
-                    if(!michal) { _fun00014_ip = 49; continue _fun00013 }
+                        if(!michal) { _fun00014_ip = 49; continue _fun00013 }
  35:
-                    michal = _closure3_slot0;
-                    entity = michal.registerToken;
-                    entity = entity.bind(michal)();
+                        michal = _closure3_slot0;
+                        entity = michal.registerToken;
+                        entity = entity.bind(michal)();
  49:
-                    entity = undefined;
-                    return entity;
-                }
-            };
-            entity['handleSyncNoMultiAccount'] = zuuluu;
-            michal = function() {
-                _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+                        entity = undefined;
+                        return entity;
+                    }
+                };
+                entity['handleSyncNoMultiAccount'] = zuuluu;
+                michal = function() {
+                    _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-                    michal = _closure3_slot0;
-                    michal = michal.canSync;
-                    if(!michal) { _fun00016_ip = 29; continue _fun00015 }
+                        michal = _closure3_slot0;
+                        michal = michal.canSync;
+                        if(!michal) { _fun00016_ip = 29; continue _fun00015 }
  16:
-                    zuuluu = _closure1_slot9;
-                    michal = zuuluu.canUseMultiAccountNotifications;
+                        zuuluu = _closure1_slot9;
+                        michal = zuuluu.canUseMultiAccountNotifications;
  29:
-                    if(!michal) { _fun00016_ip = 46; continue _fun00015 }
+                        if(!michal) { _fun00016_ip = 46; continue _fun00015 }
  32:
-                    michal = _closure3_slot0;
-                    entity = michal.registerToken;
-                    entity = entity.bind(michal)();
+                        michal = _closure3_slot0;
+                        entity = michal.registerToken;
+                        entity = entity.bind(michal)();
  46:
-                    entity = undefined;
-                    return entity;
-                }
-            };
-            entity['handleSyncWithMultiAccount'] = michal;
-            return entity;
+                        entity = undefined;
+                        return entity;
+                    }
+                };
+                entity['handleSyncWithMultiAccount'] = michal;
+                return entity;
+            }
         };
         var _closure2_slot0 = tangon;
         report = _closure1_slot7;

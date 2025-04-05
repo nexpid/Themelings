@@ -18,11 +18,11 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = undefined;
     michal = report.bind(entity)(michal);
     offset = michal.RPC_SCOPE_CONFIG;
+    michal = 1;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    tangon = michal.RPCCommands;
     michal = {};
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.RPCCommands;
     golfie = tangon.GET_VOICE_SETTINGS;
     tangon = {};
     verify = {};

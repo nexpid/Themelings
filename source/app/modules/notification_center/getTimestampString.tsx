@@ -11,25 +11,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            romeon = entity.seconds;
+            yankee = entity.seconds;
             entity = entity.getFormatter;
             report = undefined;
             michal = entity.bind(report)();
-            entity = _closure1_slot3;
-            if(!(!(romeon < entity))) { _fun00002_ip = 461; continue _fun00001 }
- 35:
-            entity = _closure1_slot4;
-            if(!(!(romeon < entity))) { _fun00002_ip = 384; continue _fun00001 }
- 46:
-            entity = _closure1_slot5;
-            if(!(!(romeon < entity))) { _fun00002_ip = 307; continue _fun00001 }
+            option = 60;
+            if(!(!(yankee < option))) { _fun00002_ip = 458; continue _fun00001 }
+ 31:
+            verify = 3600;
+            if(!(!(yankee < verify))) { _fun00002_ip = 382; continue _fun00001 }
+ 44:
+            offset = 86400;
+            if(!(!(yankee < offset))) { _fun00002_ip = 306; continue _fun00001 }
  57:
-            entity = _closure1_slot6;
-            if(!(!(romeon < entity))) { _fun00002_ip = 230; continue _fun00001 }
- 68:
-            entity = _closure1_slot7;
-            if(!(!(romeon < entity))) { _fun00002_ip = 153; continue _fun00001 }
- 76:
+            entity = _closure1_slot3;
+            if(!(!(yankee < entity))) { _fun00002_ip = 233; continue _fun00001 }
+ 71:
+            entity = _closure1_slot4;
+            if(!(!(yankee < entity))) { _fun00002_ip = 156; continue _fun00001 }
+ 79:
             tangon = _closure1_slot0;
             oscard = _closure1_slot2;
             entity = 0;
@@ -39,96 +39,93 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie.formatToPlainString;
             tangon = michal.years;
             entity = {};
-            option = global;
-            offset = option.Math;
-            verify = offset.floor;
-            option = _closure1_slot7;
-            option = romeon / option;
-            option = verify.bind(offset)(option);
-            entity['years'] = option;
+            romeon = global;
+            backup = romeon.Math;
+            foxtra = backup.floor;
+            romeon = _closure1_slot4;
+            romeon = yankee / romeon;
+            romeon = foxtra.bind(backup)(romeon);
+            entity['years'] = romeon;
             entity = oscard.bind(golfie)(tangon, entity);
-            _fun00002_ip = 228; continue _fun00001;
- 153:
+            _fun00002_ip = 231; continue _fun00001;
+ 156:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
             tangon = 0;
             tangon = golfie[tangon];
             tangon = oscard.bind(report)(tangon);
-            option = tangon.intl;
-            golfie = option.formatToPlainString;
+            romeon = tangon.intl;
+            golfie = romeon.formatToPlainString;
             oscard = michal.months;
             tangon = {};
-            verify = global;
-            yankee = verify.Math;
-            offset = yankee.floor;
-            verify = _closure1_slot6;
-            verify = romeon / verify;
-            verify = offset.bind(yankee)(verify);
-            tangon['months'] = verify;
-            entity = golfie.bind(option)(oscard, tangon);
- 228:
-            _fun00002_ip = 305; continue _fun00001;
- 230:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot2;
-            tangon = 0;
-            tangon = golfie[tangon];
-            tangon = oscard.bind(report)(tangon);
-            option = tangon.intl;
-            golfie = option.formatToPlainString;
-            oscard = michal.days;
-            tangon = {};
-            verify = global;
-            yankee = verify.Math;
-            offset = yankee.floor;
-            verify = _closure1_slot5;
-            verify = romeon / verify;
-            verify = offset.bind(yankee)(verify);
-            tangon['days'] = verify;
-            entity = golfie.bind(option)(oscard, tangon);
- 305:
-            _fun00002_ip = 382; continue _fun00001;
- 307:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot2;
-            tangon = 0;
-            tangon = golfie[tangon];
-            tangon = oscard.bind(report)(tangon);
-            option = tangon.intl;
-            golfie = option.formatToPlainString;
-            oscard = michal.hours;
-            tangon = {};
-            verify = global;
-            yankee = verify.Math;
-            offset = yankee.floor;
-            verify = _closure1_slot4;
-            verify = romeon / verify;
-            verify = offset.bind(yankee)(verify);
-            tangon['hours'] = verify;
-            entity = golfie.bind(option)(oscard, tangon);
+            foxtra = global;
+            kiloes = foxtra.Math;
+            backup = kiloes.floor;
+            foxtra = _closure1_slot3;
+            foxtra = yankee / foxtra;
+            foxtra = backup.bind(kiloes)(foxtra);
+            tangon['months'] = foxtra;
+            entity = golfie.bind(romeon)(oscard, tangon);
+ 231:
+            _fun00002_ip = 304; continue _fun00001;
+ 233:
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot2;
+            zuuluu = 0;
+            zuuluu = oscard[zuuluu];
+            zuuluu = tangon.bind(report)(zuuluu);
+            golfie = zuuluu.intl;
+            oscard = golfie.formatToPlainString;
+            tangon = michal.days;
+            zuuluu = {};
+            romeon = global;
+            foxtra = romeon.Math;
+            romeon = foxtra.floor;
+            offset = yankee / offset;
+            offset = romeon.bind(foxtra)(offset);
+            zuuluu['days'] = offset;
+            entity = oscard.bind(golfie)(tangon, zuuluu);
+ 304:
+            _fun00002_ip = 380; continue _fun00001;
+ 306:
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot2;
+            zuuluu = 0;
+            zuuluu = oscard[zuuluu];
+            zuuluu = tangon.bind(report)(zuuluu);
+            golfie = zuuluu.intl;
+            oscard = golfie.formatToPlainString;
+            tangon = michal.hours;
+            zuuluu = {};
+            offset = global;
+            romeon = offset.Math;
+            offset = romeon.floor;
+            verify = yankee / verify;
+            verify = offset.bind(romeon)(verify);
+            zuuluu['hours'] = verify;
+            entity = oscard.bind(golfie)(tangon, zuuluu);
+ 380:
+            _fun00002_ip = 456; continue _fun00001;
  382:
-            _fun00002_ip = 459; continue _fun00001;
- 384:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot2;
-            tangon = 0;
-            tangon = golfie[tangon];
-            tangon = oscard.bind(report)(tangon);
-            option = tangon.intl;
-            golfie = option.formatToPlainString;
-            oscard = michal.minutes;
-            tangon = {};
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot2;
+            zuuluu = 0;
+            zuuluu = oscard[zuuluu];
+            zuuluu = tangon.bind(report)(zuuluu);
+            golfie = zuuluu.intl;
+            oscard = golfie.formatToPlainString;
+            tangon = michal.minutes;
+            zuuluu = {};
             verify = global;
-            yankee = verify.Math;
-            offset = yankee.floor;
-            verify = _closure1_slot3;
-            verify = romeon / verify;
-            verify = offset.bind(yankee)(verify);
-            tangon['minutes'] = verify;
-            entity = golfie.bind(option)(oscard, tangon);
- 459:
+            offset = verify.Math;
+            verify = offset.floor;
+            option = yankee / option;
+            option = verify.bind(offset)(option);
+            zuuluu['minutes'] = option;
+            entity = oscard.bind(golfie)(tangon, zuuluu);
+ 456:
             _fun00002_ip = 512; continue _fun00001;
- 461:
+ 458:
             tangon = _closure1_slot0;
             oscard = _closure1_slot2;
             zuuluu = 0;
@@ -145,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot8 = michal;
+    var _closure1_slot5 = michal;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -154,16 +151,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie['value'] = entity;
     entity = '__esModule';
     entity = option.bind(verify)(zuuluu, entity, golfie);
-    entity = 60;
-    var _closure1_slot3 = entity;
-    entity = 3600;
-    var _closure1_slot4 = entity;
-    entity = 86400;
-    var _closure1_slot5 = entity;
     entity = 2592000;
-    var _closure1_slot6 = entity;
+    var _closure1_slot3 = entity;
     entity = 31104000;
-    var _closure1_slot7 = entity;
+    var _closure1_slot4 = entity;
     entity = 2;
     report = report[entity];
     entity = undefined;
@@ -175,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = argFoo;
         oscard = entity.since;
         tangon = entity.getFormatter;
-        zuuluu = _closure1_slot8;
+        zuuluu = _closure1_slot5;
         michal = {};
         verify = _closure1_slot1;
         offset = _closure1_slot2;

@@ -9,7 +9,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot2 = oscard;
     entity = function() { // Original name: fetchBlockedDomainList_
         entity = undefined;
-        tangon = _closure1_slot10;
+        tangon = _closure1_slot8;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -17,7 +17,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot7 = entity;
     entity = function() { // Original name: _fetchBlockedDomainList_
         report = undefined;
         entity = undefined;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     foxtra = undefined;
                     backup = undefined;
                     var _closure4_slot2 = michal;
-                    golfie = _closure1_slot8;
+                    golfie = _closure1_slot6;
                     oscard = golfie.verbose;
                     tangon = 'Fetching blocked domain list';
                     tangon = oscard.bind(golfie)(tangon);
@@ -53,15 +53,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = oscard.bind(michal)(tangon);
                     offset = tangon.HTTP;
                     oscard = offset.get;
-                    tangon = _closure1_slot6;
+                    tangon = 'https://cdn.discordapp.com/bad-domains/current_revision.txt';
                     tangon = oscard.bind(offset)(tangon);
-                    SaveGenerator(address=111);
- 109:
-                    return tangon;
+                    SaveGenerator(address=113);
  111:
+                    return tangon;
+ 113:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
                     if(oscard) { _fun00002_ip = 1089; continue _fun00001 }
- 120:
+ 122:
                     oscard = tangon.text;
                     echoed = golfie.bind(michal)(oscard);
                     output = echoed;
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = golfie.getCurrentRevision;
                     golfie = oscard.bind(golfie)();
                     report = golfie;
-                    kiloes = _closure1_slot8;
+                    kiloes = _closure1_slot6;
                     offset = kiloes.verbose;
                     oscard = verify.HermesInternal;
                     result = oscard.concat;
@@ -79,19 +79,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = result.bind(sizing)(echoed, oscard, golfie);
                     oscard = offset.bind(kiloes)(oscard);
                     oscard = null;
-                    if(!(oscard !== golfie)) { _fun00002_ip = 220; continue _fun00001 }
- 207:
+                    if(!(oscard !== golfie)) { _fun00002_ip = 222; continue _fun00001 }
+ 209:
                     offset = report;
                     golfie = output;
                     if(!(offset !== golfie)) { _fun00002_ip = 1068; continue _fun00001 }
- 220: // try_start_0
+ 222: // try_start_0
                     golfie = report;
-                    if(!(oscard !== golfie)) { _fun00002_ip = 746; continue _fun00001 }
- 230:
+                    if(!(oscard !== golfie)) { _fun00002_ip = 748; continue _fun00001 }
+ 232:
                     offset = report;
                     golfie = output;
-                    if(!(!(offset > golfie))) { _fun00002_ip = 746; continue _fun00001 }
- 243:
+                    if(!(!(offset > golfie))) { _fun00002_ip = 748; continue _fun00001 }
+ 245:
                     offset = _closure1_slot0;
                     golfie = _closure1_slot2;
                     golfie = golfie[yankee];
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     kiloes = golfie.HTTP;
                     offset = kiloes.get;
                     golfie = {};
-                    sizing = _closure1_slot7;
+                    sizing = _closure1_slot5;
                     golfie['url'] = sizing;
                     sizing = {};
                     result = report;
@@ -109,26 +109,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     sizing = false;
                     golfie['rejectWithError'] = sizing;
                     golfie = offset.bind(kiloes)(golfie);
-                    SaveGenerator(address=316);
- 314:
-                    return golfie;
+                    SaveGenerator(address=318);
  316:
+                    return golfie;
+ 318:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=9);
-                    if(offset) { _fun00002_ip = 743; continue _fun00001 }
- 325:
+                    if(offset) { _fun00002_ip = 745; continue _fun00001 }
+ 327:
                     offset = golfie.body;
                     foxtra = offset;
                     offset = offset.ADDED;
                     offset = offset.length;
                     kiloes = 0;
-                    if(!(kiloes === offset)) { _fun00002_ip = 371; continue _fun00001 }
- 350:
+                    if(!(kiloes === offset)) { _fun00002_ip = 373; continue _fun00001 }
+ 352:
                     offset = foxtra;
                     offset = offset.REMOVED;
                     offset = offset.length;
-                    if(!(kiloes !== offset)) { _fun00002_ip = 717; continue _fun00001 }
- 371:
-                    sizing = _closure1_slot8;
+                    if(!(kiloes !== offset)) { _fun00002_ip = 719; continue _fun00001 }
+ 373:
+                    sizing = _closure1_slot6;
                     kiloes = sizing.verbose;
                     offset = foxtra;
                     output = offset.ADDED;
@@ -156,18 +156,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     offset = output.bind(result)(sizing, kiloes, offset);
-                    SaveGenerator(address=493);
- 491:
-                    return offset;
+                    SaveGenerator(address=495);
  493:
+                    return offset;
+ 495:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=14);
-                    if(kiloes) { _fun00002_ip = 714; continue _fun00001 }
- 502:
+                    if(kiloes) { _fun00002_ip = 716; continue _fun00001 }
+ 504:
                     backup = offset;
                     _closure4_slot2 = offset;
-                    if(!(oscard !== offset)) { _fun00002_ip = 680; continue _fun00001 }
- 516:
-                    output = _closure1_slot8;
+                    if(!(oscard !== offset)) { _fun00002_ip = 682; continue _fun00001 }
+ 518:
+                    output = _closure1_slot6;
                     sizing = output.verbose;
                     kiloes = backup;
                     update = kiloes.size;
@@ -254,13 +254,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     foxtra = backup.bind(kiloes)(foxtra);
                     romeon = foxtra;
                     _closure4_slot0 = foxtra;
-                    kiloes = _closure1_slot8;
+                    kiloes = _closure1_slot6;
                     backup = kiloes.verbose;
                     foxtra = 'Delta applied successfully';
                     foxtra = backup.bind(kiloes)(foxtra);
- 675: // try_end0
+ 677: // try_end0
                     _fun00002_ip = 969; continue _fun00001;
- 680: // try_start_1
+ 682: // try_start_1
                     kiloes = verify.Error;
                     foxtra = kiloes.prototype;
                     backup = Object.create(foxtra, {constructor: {value: kiloes}});
@@ -269,25 +269,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     foxtra = new sequen[kiloes](vacuum, ctrled);
                     foxtra = foxtra instanceof Object ? foxtra : backup;
                     throw foxtra;
- 714: // try_end1 // try_end4
+ 716: // try_end1 // try_end4
                     return offset;
- 717: // try_start_2 // try_start_5
-                    backup = _closure1_slot8;
+ 719: // try_start_2 // try_start_5
+                    backup = _closure1_slot6;
                     foxtra = backup.verbose;
                     offset = 'No changes to blocked domains list.';
                     offset = foxtra.bind(backup)(offset);
- 738: // try_end2 // try_end5
+ 740: // try_end2 // try_end5
                     offset = undefined;
                     return offset;
- 743:
+ 745:
                     return golfie;
- 746: // try_start_3 // try_start_6
+ 748: // try_start_3 // try_start_6
                     golfie = verify.Error;
                     offset = 'greater than server revision number';
-                    if(!(oscard === report)) { _fun00002_ip = 766; continue _fun00001 }
- 762:
+                    if(!(oscard === report)) { _fun00002_ip = 768; continue _fun00001 }
+ 764:
                     offset = 'null';
- 766:
+ 768:
                     report = golfie.prototype;
                     oscard = Object.create(report, {constructor: {value: golfie}});
                     report = 'Client revision number is ';
@@ -296,9 +296,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = new sequen[golfie](vacuum, ctrled);
                     report = report instanceof Object ? report : oscard;
                     throw report;
- 798: // try_end3 // catch_target0 // catch_target1 // catch_target2 // catch_target3
+ 800: // try_end3 // catch_target0 // catch_target1 // catch_target2 // catch_target3
                     CatchBlockStart(arg_register=4);
-                    golfie = _closure1_slot8;
+                    golfie = _closure1_slot6;
                     oscard = golfie.verbose;
                     foxtra = report.message;
                     report = verify.HermesInternal;
@@ -313,10 +313,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = oscard.bind(michal)(report);
                     report = oscard.isSlowNetwork;
                     report = report.bind(oscard)();
-                    golfie = _closure1_slot8;
+                    golfie = _closure1_slot6;
                     oscard = golfie.verbose;
                     if(report) { _fun00002_ip = 1073; continue _fun00001 }
- 888:
+ 890:
                     report = 'Downloading the full bad domains file';
                     report = oscard.bind(golfie)(report);
                     offset = _closure1_slot0;
@@ -325,11 +325,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = offset.bind(michal)(report);
                     yankee = report.HTTP;
                     offset = yankee.get;
-                    report = {};
-                    foxtra = _closure1_slot5;
-                    report['url'] = foxtra;
-                    foxtra = false;
-                    report['rejectWithError'] = foxtra;
+                    report = {'url': 'https://cdn.discordapp.com/bad-domains/updated_hashes.json', 'rejectWithError': false};
                     report = offset.bind(yankee)(report);
                     SaveGenerator(address=951);
  949:
@@ -342,7 +338,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon = offset;
                     _closure4_slot0 = offset;
  969:
-                    yankee = _closure1_slot8;
+                    yankee = _closure1_slot6;
                     offset = yankee.verbose;
                     backup = romeon.length;
                     verify = verify.HermesInternal;
@@ -392,7 +388,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return tangon;
  1092: // catch_target4 // catch_target5 // catch_target6 // catch_target7
                     CatchBlockStart(arg_register=4);
-                    tangon = _closure1_slot8;
+                    tangon = _closure1_slot6;
                     zuuluu = tangon.error;
                     zuuluu = zuuluu.bind(tangon)(report);
  1108:
@@ -404,7 +400,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot10 = tangon;
+        _closure1_slot8 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -412,7 +408,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot10 = entity;
+    var _closure1_slot8 = entity;
     tangon = global;
     offset = tangon.Object;
     verify = offset.defineProperty;
@@ -430,10 +426,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = oscard[option];
     option = golfie.bind(entity)(option);
     var _closure1_slot4 = option;
-    option = 'https://cdn.discordapp.com/bad-domains/updated_hashes.json';
-    var _closure1_slot5 = option;
-    option = 'https://cdn.discordapp.com/bad-domains/current_revision.txt';
-    var _closure1_slot6 = option;
     option = tangon.window;
     option = option.GLOBAL_ENV;
     offset = option.WEBAPP_ENDPOINT;
@@ -442,7 +434,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = 'https:';
     tangon = '/bad-hash-delta';
     tangon = verify.bind(option)(offset, tangon);
-    var _closure1_slot7 = tangon;
+    var _closure1_slot5 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
     option = golfie.bind(entity)(tangon);
@@ -452,7 +444,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     backup = golfie;
     tangon = new backup[option](foxtra, romeon);
     tangon = tangon instanceof Object ? tangon : golfie;
-    var _closure1_slot8 = tangon;
+    var _closure1_slot6 = tangon;
     tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -467,7 +459,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = undefined;
         report = tangon.bind(michal)(zuuluu);
         tangon = report.timeAsync;
-        zuuluu = _closure1_slot9;
+        zuuluu = _closure1_slot7;
         michal = '💾';
         entity = 'fetchBlockedDomainList';
         entity = tangon.bind(report)(michal, entity, zuuluu);

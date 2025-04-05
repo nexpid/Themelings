@@ -325,12 +325,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = golfie.bind(entity)(option);
     var _closure1_slot2 = golfie;
     golfie = 1;
-    option = oscard[golfie];
-    option = report.bind(entity)(option);
-    option = option.Fragment;
-    var _closure1_slot3 = option;
     golfie = oscard[golfie];
     golfie = report.bind(entity)(golfie);
+    option = golfie.Fragment;
+    var _closure1_slot3 = option;
     golfie = golfie.jsx;
     var _closure1_slot4 = golfie;
     tangon = oscard[tangon];

@@ -30,12 +30,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.View;
     var _closure1_slot4 = tangon;
     tangon = 3;
-    option = report[tangon];
-    option = oscard.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot5 = option;
     tangon = report[tangon];
     tangon = oscard.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot5 = option;
     tangon = tangon.jsxs;
     var _closure1_slot6 = tangon;
     tangon = 4;

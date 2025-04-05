@@ -4,31 +4,31 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = function(argFoo, argBar) { // Original name: hasBit
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscard = argFoo;
-            report = argBar;
-            entity = oscard.length;
-            zuuluu = 0;
-            entity = zuuluu !== entity;
-            if(!entity) { _fun00002_ip = 77; continue _fun00001 }
+            report = argFoo;
+            tangon = argBar;
+            michal = report.length;
+            entity = 0;
+            entity = entity !== michal;
+            if(!entity) { _fun00002_ip = 71; continue _fun00001 }
  20:
             michal = global;
-            option = michal.Math;
-            golfie = option.floor;
-            tangon = _closure1_slot0;
-            tangon = report / tangon;
-            tangon = golfie.bind(option)(tangon);
-            tangon = oscard[tangon];
-            michal = _closure1_slot0;
-            report = report % michal;
+            golfie = michal.Math;
+            oscard = golfie.floor;
+            michal = 8;
+            zuuluu = tangon / michal;
+            zuuluu = oscard.bind(golfie)(zuuluu);
+            zuuluu = report[zuuluu];
+            tangon = tangon % michal;
             michal = 1;
-            michal = michal << report;
-            michal = tangon & michal;
-            entity = zuuluu !== michal;
- 77:
+            michal = michal << tangon;
+            michal = zuuluu & michal;
+            michal = !michal;
+            entity = !michal;
+ 71:
             return entity;
         }
     };
-    var _closure1_slot1 = tangon;
+    var _closure1_slot0 = tangon;
     entity = global;
     golfie = entity.Object;
     oscard = golfie.defineProperty;
@@ -37,8 +37,6 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report['value'] = entity;
     entity = '__esModule';
     entity = oscard.bind(golfie)(zuuluu, entity, report);
-    entity = 8;
-    var _closure1_slot0 = entity;
     report = argPlu;
     entity = 0;
     oscard = report[entity];
@@ -57,13 +55,13 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             tangon = global;
             oscard = tangon.Math;
             zuuluu = oscard.floor;
-            entity = _closure1_slot0;
-            entity = report / entity;
+            michal = 8;
+            entity = report / michal;
             zuuluu = zuuluu.bind(oscard)(entity);
             oscard = option.length;
             entity = option;
-            if(!(oscard <= zuuluu)) { _fun00004_ip = 97; continue _fun00003 }
- 48:
+            if(!(oscard <= zuuluu)) { _fun00004_ip = 93; continue _fun00003 }
+ 44:
             golfie = tangon.Uint8Array;
             tangon = 1;
             offset = zuuluu + tangon;
@@ -76,9 +74,8 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             oscard = 0;
             oscard = golfie.bind(tangon)(option, oscard);
             entity = tangon;
- 97:
+ 93:
             tangon = entity[zuuluu];
-            michal = _closure1_slot0;
             report = report % michal;
             michal = 1;
             michal = michal << report;
@@ -93,26 +90,25 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
  0:
             entity = argFoo;
             report = argBar;
-            tangon = _closure1_slot1;
-            zuuluu = undefined;
-            zuuluu = tangon.bind(zuuluu)(entity, report);
-            if(!zuuluu) { _fun00006_ip = 81; continue _fun00005 }
- 24:
-            zuuluu = global;
-            oscard = zuuluu.Math;
-            tangon = oscard.floor;
             zuuluu = _closure1_slot0;
-            zuuluu = report / zuuluu;
+            michal = undefined;
+            michal = zuuluu.bind(michal)(entity, report);
+            if(!michal) { _fun00006_ip = 76; continue _fun00005 }
+ 24:
+            michal = global;
+            oscard = michal.Math;
+            tangon = oscard.floor;
+            michal = 8;
+            zuuluu = report / michal;
             zuuluu = tangon.bind(oscard)(zuuluu);
             tangon = entity[zuuluu];
-            michal = _closure1_slot0;
             report = report % michal;
             michal = 1;
             michal = michal << report;
             michal = ~michal;
             michal = tangon & michal;
             entity[zuuluu] = michal;
- 81:
+ 76:
             return entity;
         }
     };

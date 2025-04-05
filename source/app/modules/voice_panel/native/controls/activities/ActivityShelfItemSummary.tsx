@@ -69,12 +69,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.View;
     var _closure1_slot4 = tangon;
     tangon = 3;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot5 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot5 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot6 = tangon;
     tangon = 4;
@@ -193,7 +191,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup[0] = sizing;
             backup[1] = kiloes;
             option['style'] = backup;
-            if(!foxtra) { _fun00002_ip = 316; continue _fun00001 }
+            if(!foxtra) { _fun00002_ip = 320; continue _fun00001 }
  270:
             sizing = _closure1_slot5;
             kiloes = _closure1_slot0;
@@ -204,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = backup.Ellipsis;
             backup = {'variant': 'active', 'size': 'md'};
             foxtra = sizing.bind(tangon)(kiloes, backup);
- 316:
+ 320:
             option['children'] = foxtra;
             option = romeon.bind(tangon)(yankee, option);
             golfie[1] = option;

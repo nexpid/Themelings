@@ -37,12 +37,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset = offset.SubscriptionStatusTypes;
     var _closure1_slot6 = offset;
     offset = 4;
-    yankee = golfie[offset];
-    yankee = oscard.bind(entity)(yankee);
-    yankee = yankee.jsx;
-    var _closure1_slot7 = yankee;
     offset = golfie[offset];
     offset = oscard.bind(entity)(offset);
+    yankee = offset.jsx;
+    var _closure1_slot7 = yankee;
     offset = offset.jsxs;
     var _closure1_slot8 = offset;
     offset = 5;

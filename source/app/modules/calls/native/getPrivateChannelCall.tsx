@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.oCqlGB;
             report = option.bind(offset)(michal);
  330:
-            michal = function() { // Original name: f
+            michal = function() { // Original name: C
                 tangon = _closure2_slot2;
                 zuuluu = _closure2_slot0;
                 michal = _closure2_slot1;
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  495:
             offset = option;
  498:
-            michal = function() { // Original name: f
+            michal = function() { // Original name: C
                 tangon = _closure2_slot3;
                 zuuluu = _closure2_slot0;
                 michal = _closure2_slot1;
@@ -202,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = verify.4ry6ys;
             option = offset.bind(yankee)(verify);
  570:
-            michal = function() { // Original name: f
+            michal = function() { // Original name: C
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot1;
                 entity = 5;

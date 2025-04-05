@@ -167,10 +167,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = 2;
     michal = golfie[verify];
     michal = oscard.bind(entity)(michal);
-    michal = michal.jsx;
-    var _closure1_slot4 = michal;
-    michal = golfie[verify];
-    michal = oscard.bind(entity)(michal);
+    report = michal.jsx;
+    var _closure1_slot4 = report;
     michal = michal.jsxs;
     var _closure1_slot5 = michal;
     option = 3;

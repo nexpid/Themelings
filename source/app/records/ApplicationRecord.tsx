@@ -149,10 +149,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot9 = michal;
     michal = 8;
     michal = option[michal];
-    verify = golfie.bind(entity)(michal);
-    offset = verify.END_GAME_APPLICATION_ID;
+    michal = golfie.bind(entity)(michal);
+    offset = michal.END_GAME_APPLICATION_ID;
+    verify = michal.POKER_NIGHT_APPLICATION_ID;
     michal = {};
-    verify = verify.POKER_NIGHT_APPLICATION_ID;
     michal[verify] = yankee;
     verify = 12;
     michal[offset] = verify;

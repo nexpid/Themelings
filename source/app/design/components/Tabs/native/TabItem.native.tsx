@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = offset[entity];
         yankee = oscard.bind(tangon)(zuuluu);
         zuuluu = yankee.useAnimatedStyle;
-        michal = function() { // Original name: I
+        michal = function() { // Original name: v
             entity = {};
             verify = _closure1_slot0;
             offset = _closure1_slot2;
@@ -241,12 +241,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     option = tangon.Pressable;
     tangon = 2;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot4 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot4 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot5 = tangon;
     tangon = 3;
@@ -353,7 +351,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = zuuluu[entity];
             zuuluu = michal.bind(tangon)(entity);
             michal = zuuluu.useAnimatedProps;
-            entity = function() { // Original name: S
+            entity = function() { // Original name: I
                 entity = {};
                 michal = {};
                 report = _closure2_slot1;

@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot7 = tangon;
+        _closure1_slot6 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot7 = entity;
+    var _closure1_slot6 = entity;
     entity = function() { // Original name: _applyPublicBuildOverride
         report = undefined;
         entity = undefined;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 198; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 200; continue _fun00003 }
  10:
                     romeon = argFoo;
                     report = undefined;
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = yankee[verify];
                     backup = offset.bind(report)(option);
                     foxtra = backup.getAPIEndpoint;
-                    option = _closure1_slot6;
+                    option = '/__development/link';
                     option = foxtra.bind(backup)(option);
                     michal['url'] = option;
                     option = {};
@@ -152,39 +152,39 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = false;
                     michal['rejectWithError'] = option;
                     michal = oscard.bind(golfie)(michal);
-                    SaveGenerator(address=156);
- 154:
-                    return michal;
+                    SaveGenerator(address=158);
  156:
+                    return michal;
+ 158:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(oscard) { _fun00004_ip = 190; continue _fun00003 }
- 162:
+                    if(oscard) { _fun00004_ip = 192; continue _fun00003 }
+ 164:
                     tangon = michal;
                     zuuluu = _closure1_slot2;
                     zuuluu = zuuluu.bind(report)(michal);
-                    SaveGenerator(address=178);
- 176:
-                    return zuuluu;
+                    SaveGenerator(address=180);
  178:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun00004_ip = 187; continue _fun00003 }
- 184: // try_end0
-                    return tangon;
- 187:
                     return zuuluu;
- 190:
+ 180:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                    if(report) { _fun00004_ip = 189; continue _fun00003 }
+ 186: // try_end0
+                    return tangon;
+ 189:
+                    return zuuluu;
+ 192:
                     return michal;
- 193: // catch_target0
+ 195: // catch_target0
                     CatchBlockStart(arg_register=1);
                     return michal;
- 198:
+ 200:
                     return entity;
                 }
             };
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot8 = tangon;
+        _closure1_slot7 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot8 = entity;
+    var _closure1_slot7 = entity;
     entity = function() { // Original name: _clearBuildOverride
         report = undefined;
         entity = undefined;
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot9 = tangon;
+        _closure1_slot8 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -258,7 +258,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot8 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -278,8 +278,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot4 = tangon;
     tangon = '/__development/build_overrides';
     var _closure1_slot5 = tangon;
-    tangon = '/__development/link';
-    var _closure1_slot6 = tangon;
     tangon = function() {
         tangon = _closure1_slot3;
         zuuluu = undefined;
@@ -343,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     tangon = function() { // Original name: applyStaffBuildOverride
         entity = undefined;
-        tangon = _closure1_slot7;
+        tangon = _closure1_slot6;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -354,7 +352,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['applyStaffBuildOverride'] = tangon;
     tangon = function() { // Original name: applyPublicBuildOverride
         entity = undefined;
-        tangon = _closure1_slot8;
+        tangon = _closure1_slot7;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -365,7 +363,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['applyPublicBuildOverride'] = tangon;
     tangon = function() { // Original name: clearBuildOverride
         entity = undefined;
-        tangon = _closure1_slot9;
+        tangon = _closure1_slot8;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;

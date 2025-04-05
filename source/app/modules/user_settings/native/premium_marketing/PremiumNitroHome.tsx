@@ -643,12 +643,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = michal.FractionalPremiumStates;
     var _closure1_slot13 = michal;
     michal = 7;
-    report = golfie[michal];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot14 = report;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
+    report = michal.jsx;
+    var _closure1_slot14 = report;
     michal = michal.jsxs;
     var _closure1_slot15 = michal;
     michal = 'NewTab';

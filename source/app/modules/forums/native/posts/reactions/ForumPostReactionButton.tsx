@@ -77,21 +77,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  231:
             kiloes['borderColor'] = foxtra;
             foxtra = 0;
-            if(!backup) { _fun00002_ip = 245; continue _fun00001 }
+            if(!backup) { _fun00002_ip = 251; continue _fun00001 }
  241:
-            foxtra = _closure1_slot7;
- 245:
+            foxtra = 1.5;
+ 251:
             kiloes['borderWidth'] = foxtra;
             foxtra = {};
             backup = michal == zuuluu;
             michal = undefined;
-            if(backup) { _fun00002_ip = 267; continue _fun00001 }
- 261:
-            michal = zuuluu.accentColor;
+            if(backup) { _fun00002_ip = 273; continue _fun00001 }
  267:
+            michal = zuuluu.accentColor;
+ 273:
             foxtra['color'] = michal;
             zuuluu = _closure1_slot6;
-            michal = _closure1_slot10;
+            michal = _closure1_slot9;
             entity = {};
             backup = new Array(2);
             backup[0] = sizing;
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot9 = tangon;
+    var _closure1_slot8 = tangon;
     michal = function(argFoo) { // Original name: ReactionButton
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  78:
             report = false;
  80:
-            entity = _closure1_slot8;
+            entity = _closure1_slot7;
             yankee = entity.bind(tangon)();
             entity = verify.id;
             oscard = null;
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot10 = michal;
+    var _closure1_slot9 = michal;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -263,16 +263,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = oscard.View;
     var _closure1_slot4 = oscard;
     oscard = 2;
-    verify = option[oscard];
-    verify = golfie.bind(entity)(verify);
-    verify = verify.jsxs;
-    var _closure1_slot5 = verify;
     oscard = option[oscard];
     oscard = golfie.bind(entity)(oscard);
+    verify = oscard.jsxs;
+    var _closure1_slot5 = verify;
     oscard = oscard.jsx;
     var _closure1_slot6 = oscard;
-    foxtra = 1.5;
-    var _closure1_slot7 = foxtra;
     oscard = 3;
     oscard = option[oscard];
     offset = golfie.bind(entity)(oscard);
@@ -280,11 +276,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = {};
     yankee = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center', 'paddingHorizontal': 8, 'borderRadius': null, 'borderWidth': 1.5, 'borderColor': null, 'backgroundColor': null, 'minWidth': 32, 'minHeight': 26, 'maxHeight': 26};
     romeon = 4;
-    kiloes = option[romeon];
-    kiloes = backup.bind(entity)(kiloes);
-    kiloes = kiloes.radii;
-    kiloes = kiloes.sm;
-    yankee['borderRadius'] = kiloes;
+    foxtra = option[romeon];
+    foxtra = backup.bind(entity)(foxtra);
+    foxtra = foxtra.radii;
+    foxtra = foxtra.sm;
+    yankee['borderRadius'] = foxtra;
+    foxtra = 1.5;
     kiloes = option[romeon];
     kiloes = backup.bind(entity)(kiloes);
     kiloes = kiloes.colors;
@@ -325,7 +322,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     yankee['paddingStart'] = romeon;
     oscard['countContainer'] = yankee;
     oscard = verify.bind(offset)(oscard);
-    var _closure1_slot8 = oscard;
+    var _closure1_slot7 = oscard;
     oscard = 20;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
@@ -339,7 +336,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         verify = entity.count;
         zuuluu = entity.threadId;
         yankee = entity.containerStyle;
-        entity = _closure1_slot8;
+        entity = _closure1_slot7;
         tangon = undefined;
         offset = entity.bind(tangon)();
         michal = _closure1_slot1;
@@ -410,7 +407,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.ReactionTypes;
             michal = entity.NORMAL;
  62:
-            entity = _closure1_slot8;
+            entity = _closure1_slot7;
             option = entity.bind(tangon)();
             zuuluu = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -560,7 +557,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!(!(zuuluu > entity))) { _fun00008_ip = 394; continue _fun00007 }
  306:
             tangon = _closure1_slot6;
-            zuuluu = _closure1_slot10;
+            zuuluu = _closure1_slot9;
             entity = {};
             entity['accessible'] = backup;
             kiloes = foxtra.emoji;
@@ -580,7 +577,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _fun00008_ip = 501; continue _fun00007;
  394:
             tangon = _closure1_slot6;
-            zuuluu = _closure1_slot9;
+            zuuluu = _closure1_slot8;
             michal = {};
             michal['accessible'] = backup;
             backup = foxtra.emoji;

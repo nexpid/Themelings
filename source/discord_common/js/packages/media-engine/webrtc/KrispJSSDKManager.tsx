@@ -28,13 +28,13 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     michal = function() { // Original name: getKrispSDK
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            entity = _closure1_slot2;
-            michal = null;
-            if(!(michal == entity)) { _fun00002_ip = 42; continue _fun00001 }
+            zuuluu = _closure1_slot2;
+            entity = null;
+            if(!(entity == zuuluu)) { _fun00002_ip = 41; continue _fun00001 }
  13:
-            report = _closure1_slot3;
-            tangon = undefined;
-            michal = function* () {
+            tangon = _closure1_slot3;
+            zuuluu = undefined;
+            entity = function* () {
                 entity = function* () { // Original name: ?anon_0_
                     _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -91,11 +91,13 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
                 };
                 return entity;
             };
-            michal = report.bind(tangon)(michal);
-            michal = michal.bind(tangon)();
-            var _closure1_slot2 = michal;
-            entity = michal;
- 42:
+            entity = tangon.bind(zuuluu)(entity);
+            entity = entity.bind(zuuluu)();
+            var _closure1_slot2 = entity;
+            _fun00002_ip = 45; continue _fun00001;
+ 41:
+            entity = _closure1_slot2;
+ 45:
             return entity;
         }
     };

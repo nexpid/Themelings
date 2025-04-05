@@ -537,7 +537,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = backup[report];
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = zuuluu.useAnimatedStyle;
-            entity = function() { // Original name: M
+            entity = function() { // Original name: f
                 entity = {};
                 zuuluu = _closure2_slot2;
                 tangon = zuuluu.get;
@@ -684,16 +684,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     michal = oscard.bind(entity)(michal);
     kiloes = michal.CHAT_INPUT_HORIZONTAL_PADDING;
     michal = 10;
-    yankee = golfie[michal];
-    yankee = oscard.bind(entity)(yankee);
-    yankee = yankee.jsx;
-    var _closure1_slot14 = yankee;
-    yankee = golfie[michal];
-    yankee = oscard.bind(entity)(yankee);
-    yankee = yankee.jsxs;
-    var _closure1_slot15 = yankee;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
+    yankee = michal.jsx;
+    var _closure1_slot14 = yankee;
+    yankee = michal.jsxs;
+    var _closure1_slot15 = yankee;
     michal = michal.Fragment;
     var _closure1_slot16 = michal;
     michal = 11;
@@ -1927,7 +1923,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = limora[update];
             report = sierra.bind(tangon)(michal);
             zuuluu = report.useAnimatedStyle;
-            michal = function() { // Original name: w
+            michal = function() { // Original name: V
                 entity = {};
                 oscard = _closure2_slot4;
                 zuuluu = oscard.get;
@@ -2106,7 +2102,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity = limora[update];
             zuuluu = sierra.bind(tangon)(entity);
             michal = zuuluu.useAnimatedStyle;
-            entity = function() { // Original name: L
+            entity = function() { // Original name: G
                 _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
                     entity = _closure2_slot1;
@@ -2151,7 +2147,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity = limora[update];
             zuuluu = sierra.bind(tangon)(entity);
             michal = zuuluu.useDerivedValue;
-            entity = function() { // Original name: ae
+            entity = function() { // Original name: Z
                 michal = _closure2_slot3;
                 zuuluu = _closure2_slot5;
                 entity = zuuluu.get;

@@ -9,43 +9,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     entity = argCor;
     var _closure1_slot2 = entity;
     var _closure1_slot3 = oscard;
-    entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            tangon = argFoo;
-            oscard = argBaz;
-            michal = _closure1_slot8;
-            zuuluu = undefined;
-            entity = argBar;
-            verify = michal.bind(zuuluu)(entity);
-            michal = _closure1_slot7;
-            entity = _closure1_slot23;
-            entity = entity.bind(zuuluu)();
-            if(entity) { _fun00002_ip = 51; continue _fun00001 }
- 38:
-            entity = verify.apply;
-            entity = entity.bind(verify)(tangon, oscard);
-            _fun00002_ip = 92; continue _fun00001;
- 51:
-            golfie = global;
-            option = golfie.Reflect;
-            golfie = option.construct;
-            if(oscard) { _fun00002_ip = 71; continue _fun00001 }
- 67:
-            oscard = new Array(0);
- 71:
-            report = _closure1_slot8;
-            report = report.bind(zuuluu)(tangon);
-            report = report.constructor;
-            entity = golfie.bind(option)(verify, oscard, report);
- 92:
-            entity = michal.bind(zuuluu)(tangon, entity);
-            return entity;
-        }
-    };
-    var _closure1_slot22 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
  2: // try_start_0
             michal = global;
@@ -66,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = !michal;
             var _closure2_slot0 = michal;
  72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
+            _fun00002_ip = 76; continue _fun00001;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -76,13 +41,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot23 = michal;
+            _closure1_slot22 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot23 = entity;
+    var _closure1_slot22 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -167,124 +132,145 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
         tangon = function(argFoo) { // Original name: ClipsManager
-            oscard = this;
-            yankee = 0;
-            golfie = copyRestArgs(yankee);
-            michal = _closure1_slot5;
-            report = _closure2_slot1;
-            tangon = undefined;
-            michal = michal.bind(tangon)(oscard, report);
-            michal = _closure1_slot22;
-            entity = new Array(0);
-            yankee = entity;
-            offset = golfie;
-            verify = 0;
-            golfie = arraySpread(yankee, offset, verify);
-            entity = michal.bind(tangon)(oscard, report, entity);
-            var _closure3_slot0 = entity;
-            michal = {};
-            tangon = function() { // Original name: POST_CONNECTION_OPEN
-                michal = _closure3_slot0;
-                entity = michal.handlePostConnectionOpen;
-                entity = entity.bind(michal)();
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                report = this;
+                foxtra = 0;
+                entity = copyRestArgs(foxtra);
+                option = _closure1_slot5;
+                michal = _closure2_slot1;
+                tangon = undefined;
+                option = option.bind(tangon)(report, michal);
+                offset = new Array(0);
+                foxtra = offset;
+                romeon = entity;
+                yankee = 0;
+                entity = arraySpread(foxtra, romeon, yankee);
+                entity = _closure1_slot8;
+                verify = entity.bind(tangon)(michal);
+                michal = _closure1_slot7;
+                entity = _closure1_slot22;
+                entity = entity.bind(tangon)();
+                if(entity) { _fun00004_ip = 86; continue _fun00003 }
+ 73:
+                entity = verify.apply;
+                entity = entity.bind(verify)(report, offset);
+                _fun00004_ip = 120; continue _fun00003;
+ 86:
+                golfie = global;
+                option = golfie.Reflect;
+                golfie = option.construct;
+                oscard = _closure1_slot8;
+                oscard = oscard.bind(tangon)(report);
+                oscard = oscard.constructor;
+                entity = golfie.bind(option)(verify, offset, oscard);
+ 120:
+                entity = michal.bind(tangon)(report, entity);
+                var _closure3_slot0 = entity;
+                michal = {};
+                tangon = function() { // Original name: POST_CONNECTION_OPEN
+                    michal = _closure3_slot0;
+                    entity = michal.handlePostConnectionOpen;
+                    entity = entity.bind(michal)();
+                    return entity;
+                };
+                michal['POST_CONNECTION_OPEN'] = tangon;
+                tangon = function(argFoo) { // Original name: RTC_CONNECTION_FLAGS
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.handleRTCConnectionFlags;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                michal['RTC_CONNECTION_FLAGS'] = tangon;
+                tangon = function(argFoo) { // Original name: RTC_CONNECTION_USER_CREATE
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.handleRTCUserCreate;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                michal['RTC_CONNECTION_USER_CREATE'] = tangon;
+                tangon = function(argFoo) { // Original name: CLIPS_INIT_FAILURE
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.handleClipsInitFailure;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                michal['CLIPS_INIT_FAILURE'] = tangon;
+                tangon = function(argFoo) { // Original name: CLIPS_SETTINGS_UPDATE
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.applyNativeClipsSettings;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                michal['CLIPS_SETTINGS_UPDATE'] = tangon;
+                tangon = function() { // Original name: CLIPS_ALLOW_VOICE_RECORDING_UPDATE
+                    michal = _closure3_slot0;
+                    entity = michal.handleClipsAllowVoiceRecordingUpdate;
+                    entity = entity.bind(michal)();
+                    return entity;
+                };
+                michal['CLIPS_ALLOW_VOICE_RECORDING_UPDATE'] = tangon;
+                tangon = function() { // Original name: STREAM_START
+                    michal = _closure3_slot0;
+                    entity = michal.applyNativeClipsSettings;
+                    entity = entity.bind(michal)();
+                    return entity;
+                };
+                michal['STREAM_START'] = tangon;
+                tangon = function(argFoo) { // Original name: RUNNING_GAME_TOGGLE_DETECTION
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.handleClipsInitOnToggleDetection;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                michal['RUNNING_GAME_TOGGLE_DETECTION'] = tangon;
+                tangon = function(argFoo) { // Original name: RUNNING_GAMES_CHANGE
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.handleClipsInitOnGamesChange;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                michal['RUNNING_GAMES_CHANGE'] = tangon;
+                tangon = function() { // Original name: CLIPS_RESTART
+                    michal = _closure3_slot0;
+                    entity = michal.fireClipsInitEvent;
+                    entity = entity.bind(michal)();
+                    return entity;
+                };
+                michal['CLIPS_RESTART'] = tangon;
+                tangon = function(argFoo) { // Original name: RTC_CONNECTION_VIDEO
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.handleRTCConnectionVideo;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                michal['RTC_CONNECTION_VIDEO'] = tangon;
+                tangon = function(argFoo) { // Original name: RTC_CONNECTION_STATE
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.handleRTCConnectionState;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                michal['RTC_CONNECTION_STATE'] = tangon;
+                zuuluu = function(argFoo) { // Original name: MEDIA_ENGINE_SET_HARDWARE_ENCODING
+                    zuuluu = _closure3_slot0;
+                    michal = zuuluu.handleMediaEngineSetHardwareEncoding;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    return entity;
+                };
+                michal['MEDIA_ENGINE_SET_HARDWARE_ENCODING'] = zuuluu;
+                entity['actions'] = michal;
                 return entity;
-            };
-            michal['POST_CONNECTION_OPEN'] = tangon;
-            tangon = function(argFoo) { // Original name: RTC_CONNECTION_FLAGS
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleRTCConnectionFlags;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            michal['RTC_CONNECTION_FLAGS'] = tangon;
-            tangon = function(argFoo) { // Original name: RTC_CONNECTION_USER_CREATE
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleRTCUserCreate;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            michal['RTC_CONNECTION_USER_CREATE'] = tangon;
-            tangon = function(argFoo) { // Original name: CLIPS_INIT_FAILURE
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleClipsInitFailure;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            michal['CLIPS_INIT_FAILURE'] = tangon;
-            tangon = function(argFoo) { // Original name: CLIPS_SETTINGS_UPDATE
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.applyNativeClipsSettings;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            michal['CLIPS_SETTINGS_UPDATE'] = tangon;
-            tangon = function() { // Original name: CLIPS_ALLOW_VOICE_RECORDING_UPDATE
-                michal = _closure3_slot0;
-                entity = michal.handleClipsAllowVoiceRecordingUpdate;
-                entity = entity.bind(michal)();
-                return entity;
-            };
-            michal['CLIPS_ALLOW_VOICE_RECORDING_UPDATE'] = tangon;
-            tangon = function() { // Original name: STREAM_START
-                michal = _closure3_slot0;
-                entity = michal.applyNativeClipsSettings;
-                entity = entity.bind(michal)();
-                return entity;
-            };
-            michal['STREAM_START'] = tangon;
-            tangon = function(argFoo) { // Original name: RUNNING_GAME_TOGGLE_DETECTION
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleClipsInitOnToggleDetection;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            michal['RUNNING_GAME_TOGGLE_DETECTION'] = tangon;
-            tangon = function(argFoo) { // Original name: RUNNING_GAMES_CHANGE
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleClipsInitOnGamesChange;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            michal['RUNNING_GAMES_CHANGE'] = tangon;
-            tangon = function() { // Original name: CLIPS_RESTART
-                michal = _closure3_slot0;
-                entity = michal.fireClipsInitEvent;
-                entity = entity.bind(michal)();
-                return entity;
-            };
-            michal['CLIPS_RESTART'] = tangon;
-            tangon = function(argFoo) { // Original name: RTC_CONNECTION_VIDEO
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleRTCConnectionVideo;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            michal['RTC_CONNECTION_VIDEO'] = tangon;
-            tangon = function(argFoo) { // Original name: RTC_CONNECTION_STATE
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleRTCConnectionState;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            michal['RTC_CONNECTION_STATE'] = tangon;
-            zuuluu = function(argFoo) { // Original name: MEDIA_ENGINE_SET_HARDWARE_ENCODING
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleMediaEngineSetHardwareEncoding;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            michal['MEDIA_ENGINE_SET_HARDWARE_ENCODING'] = zuuluu;
-            entity['actions'] = michal;
-            return entity;
+            }
         };
         var _closure2_slot1 = tangon;
         michal = _closure1_slot9;

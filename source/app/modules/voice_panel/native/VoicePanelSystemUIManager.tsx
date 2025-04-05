@@ -45,16 +45,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.ParticipantTypes;
     var _closure1_slot8 = tangon;
     tangon = 6;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot9 = option;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.Fragment;
-    var _closure1_slot10 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot9 = option;
+    option = tangon.Fragment;
+    var _closure1_slot10 = option;
     tangon = tangon.jsxs;
     var _closure1_slot11 = tangon;
     tangon = {};
@@ -334,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['__workletHash'] = option;
             option = _closure1_slot12;
             michal['__initData'] = option;
-            entity = function(argFoo, argBar) { // Original name: _
+            entity = function(argFoo, argBar) { // Original name: u
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     zuuluu = argFoo;

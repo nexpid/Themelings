@@ -51,12 +51,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = michal.GuildFeatures;
     var _closure1_slot12 = michal;
     michal = 5;
-    golfie = oscard[michal];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot13 = golfie;
     michal = oscard[michal];
     michal = report.bind(entity)(michal);
+    golfie = michal.jsx;
+    var _closure1_slot13 = golfie;
     michal = michal.jsxs;
     var _closure1_slot14 = michal;
     michal = 6;

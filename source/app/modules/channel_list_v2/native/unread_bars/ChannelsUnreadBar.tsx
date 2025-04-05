@@ -42,12 +42,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.AnalyticEvents;
     var _closure1_slot7 = tangon;
     tangon = 5;
-    offset = oscard[tangon];
-    offset = report.bind(entity)(offset);
-    offset = offset.jsx;
-    var _closure1_slot8 = offset;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    offset = tangon.jsx;
+    var _closure1_slot8 = offset;
     tangon = tangon.jsxs;
     var _closure1_slot9 = tangon;
     tangon = 6;

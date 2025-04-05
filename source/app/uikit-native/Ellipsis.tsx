@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         var _closure2_slot2 = sizing;
         oscard = entity.sequenceEndDelay;
         var _closure2_slot3 = oscard;
-        entity = _closure1_slot11;
+        entity = _closure1_slot6;
         tangon = undefined;
         report = entity.bind(tangon)();
         verify = _closure1_slot0;
@@ -27,13 +27,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         offset = option[entity];
         foxtra = verify.bind(tangon)(offset);
         yankee = foxtra.useSharedValue;
-        offset = _closure1_slot7;
+        offset = 0.4;
         foxtra = yankee.bind(foxtra)(offset);
         var _closure2_slot4 = foxtra;
         offset = option[entity];
         backup = verify.bind(tangon)(offset);
         yankee = backup.useSharedValue;
-        offset = _closure1_slot9;
+        offset = 0.75;
         yankee = yankee.bind(backup)(offset);
         var _closure2_slot5 = yankee;
         kiloes = _closure1_slot3;
@@ -86,15 +86,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sequen = backup.bind(entity)(report);
                     vacuum = sequen.withTiming;
                     update = {};
-                    report = _closure1_slot6;
-                    update['duration'] = report;
+                    config = 350;
+                    update['duration'] = config;
                     report = argBaz;
                     update = vacuum.bind(sequen)(report, update);
                     report = kiloes[michal];
                     sequen = backup.bind(entity)(report);
                     vacuum = sequen.withTiming;
                     report = {};
-                    config = _closure1_slot6;
                     report['duration'] = config;
                     report = vacuum.bind(sequen)(sizing, report);
                     report = source.bind(ctrled)(update, report);
@@ -119,20 +118,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = {};
                 option = _closure1_slot0;
                 verify = _closure1_slot2;
-                zuuluu = 5;
-                golfie = verify[zuuluu];
+                michal = 5;
+                golfie = verify[michal];
                 report = undefined;
                 golfie = option.bind(report)(golfie);
                 golfie = golfie.withRepeat;
                 tangon['withRepeat'] = golfie;
-                golfie = verify[zuuluu];
+                golfie = verify[michal];
                 golfie = option.bind(report)(golfie);
                 golfie = golfie.withSequence;
                 tangon['withSequence'] = golfie;
-                zuuluu = verify[zuuluu];
-                zuuluu = option.bind(report)(zuuluu);
-                zuuluu = zuuluu.withDelay;
-                tangon['withDelay'] = zuuluu;
+                michal = verify[michal];
+                michal = option.bind(report)(michal);
+                michal = michal.withDelay;
+                tangon['withDelay'] = michal;
                 golfie = _closure2_slot2;
                 tangon['sequenceStartDelay'] = golfie;
                 golfie = 6;
@@ -142,27 +141,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon['withTiming'] = golfie;
                 golfie = _closure2_slot1;
                 tangon['delay'] = golfie;
-                golfie = _closure1_slot6;
+                golfie = 350;
                 tangon['animationTimeMs'] = golfie;
                 golfie = _closure2_slot3;
                 tangon['sequenceEndDelay'] = golfie;
                 oscard['__closure'] = tangon;
                 tangon = 377125103421.0;
                 oscard['__workletHash'] = tangon;
-                tangon = _closure1_slot12;
-                oscard['__initData'] = tangon;
-                option = _closure2_slot4;
-                golfie = _closure1_slot7;
-                tangon = _closure1_slot8;
-                tangon = oscard.bind(report)(option, golfie, tangon);
-                tangon = _closure2_slot0;
-                if(tangon) { _fun00002_ip = 224; continue _fun00001 }
- 205:
-                tangon = _closure2_slot5;
-                zuuluu = _closure1_slot9;
-                michal = _closure1_slot10;
-                michal = oscard.bind(report)(tangon, zuuluu, michal);
- 224:
+                zuuluu = _closure1_slot7;
+                oscard['__initData'] = zuuluu;
+                golfie = _closure2_slot4;
+                zuuluu = 0.4;
+                tangon = 1;
+                zuuluu = oscard.bind(report)(golfie, zuuluu, tangon);
+                zuuluu = _closure2_slot0;
+                if(zuuluu) { _fun00002_ip = 233; continue _fun00001 }
+ 212:
+                zuuluu = _closure2_slot5;
+                michal = 0.75;
+                michal = oscard.bind(report)(zuuluu, michal, tangon);
+ 233:
                 entity = function() {
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
@@ -187,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = option[entity];
         verify = verify.bind(tangon)(oscard);
         oscard = verify.useAnimatedStyle;
-        zuuluu = function() { // Original name: V
+        zuuluu = function() { // Original name: p
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = {};
@@ -219,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu['__closure'] = offset;
         offset = 5071157079925.0;
         zuuluu['__workletHash'] = offset;
-        offset = _closure1_slot13;
+        offset = _closure1_slot8;
         zuuluu['__initData'] = offset;
         oscard = oscard.bind(verify)(zuuluu);
         zuuluu = _closure1_slot5;
@@ -237,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot9 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -253,23 +251,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = tangon.bind(entity)(golfie);
     var _closure1_slot3 = golfie;
     tangon = 1;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.View;
-    var _closure1_slot4 = option;
-    option = 2;
-    option = oscard[option];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot5 = option;
-    option = 350;
-    var _closure1_slot6 = option;
-    option = 0.4;
-    var _closure1_slot7 = option;
-    var _closure1_slot8 = tangon;
-    option = 0.75;
-    var _closure1_slot9 = option;
-    var _closure1_slot10 = tangon;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.View;
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot5 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
     verify = report.bind(entity)(tangon);
@@ -291,15 +281,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset['borderRadius'] = yankee;
     tangon['typingIndicatorDot'] = offset;
     tangon = option.bind(verify)(tangon);
-    var _closure1_slot11 = tangon;
+    var _closure1_slot6 = tangon;
     tangon = {};
     option = 'function EllipsisTsx1(value,fromValue,toValue){const{withRepeat,withSequence,withDelay,sequenceStartDelay,withTiming,delay,animationTimeMs,sequenceEndDelay}=this.__closure;value.set(withRepeat(withSequence(withDelay(sequenceStartDelay,withTiming(fromValue,{duration:0})),withDelay(delay,withSequence(withTiming(toValue,{duration:animationTimeMs}),withTiming(fromValue,{duration:animationTimeMs}))),withDelay(sequenceEndDelay,withTiming(fromValue,{duration:0}))),-1));}';
     tangon['code'] = option;
-    var _closure1_slot12 = tangon;
+    var _closure1_slot7 = tangon;
     tangon = {};
     option = 'function EllipsisTsx2(){const{opacityValue,disableScale,scaleValue}=this.__closure;return{opacity:opacityValue.get(),transform:disableScale?undefined:[{scale:scaleValue.get()}]};}';
     tangon['code'] = option;
-    var _closure1_slot13 = tangon;
+    var _closure1_slot8 = tangon;
     tangon = golfie.memo;
     michal = function(argFoo) { // Original name: Ellipsis
         entity = argFoo;
@@ -308,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = entity.style;
         entity = entity.disableScale;
         var _closure2_slot1 = entity;
-        michal = _closure1_slot11;
+        michal = _closure1_slot6;
         tangon = undefined;
         oscard = michal.bind(tangon)();
         zuuluu = _closure1_slot5;
@@ -326,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = function(argFoo, argBar, argBaz) {
             report = argFoo;
             tangon = _closure1_slot5;
-            zuuluu = _closure1_slot14;
+            zuuluu = _closure1_slot9;
             michal = {};
             golfie = 233.33333333333334;
             entity = report * golfie;

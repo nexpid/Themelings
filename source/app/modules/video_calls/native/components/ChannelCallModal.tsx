@@ -132,12 +132,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = oscard.bind(entity)(report);
     verify = report.ModalAnimation;
     report = 8;
-    yankee = golfie[report];
-    yankee = oscard.bind(entity)(yankee);
-    yankee = yankee.jsx;
-    var _closure1_slot14 = yankee;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    yankee = report.jsx;
+    var _closure1_slot14 = yankee;
     report = report.jsxs;
     var _closure1_slot15 = report;
     yankee = romeon.memo;

@@ -19,61 +19,61 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot1 = entity;
             entity = _closure1_slot10;
             entity = entity.GAMING;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 1006; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 1005; continue _fun00001 }
  57:
             entity = _closure1_slot10;
             entity = entity.ENTERTAINMENT;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 952; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 951; continue _fun00001 }
  74:
             entity = _closure1_slot10;
             entity = entity.GENERAL_CHATTING;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 898; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 897; continue _fun00001 }
  91:
             entity = _closure1_slot10;
             entity = entity.SCIENCE_AND_TECH;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 841; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 840; continue _fun00001 }
  108:
             entity = _closure1_slot10;
             entity = entity.MUSIC;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 784; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 783; continue _fun00001 }
  125:
             entity = _closure1_slot10;
             entity = entity.EDUCATION;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 727; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 726; continue _fun00001 }
  142:
             entity = _closure1_slot10;
             entity = entity.CREATIVE_ARTS;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 670; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 669; continue _fun00001 }
  159:
             entity = _closure1_slot10;
             entity = entity.FINANCE;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 613; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 612; continue _fun00001 }
  176:
             entity = _closure1_slot10;
             entity = entity.BOTS;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 556; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 555; continue _fun00001 }
  193:
             entity = _closure1_slot10;
             entity = entity.SPORTS;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 499; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 498; continue _fun00001 }
  210:
             entity = _closure1_slot10;
             entity = entity.TRAVEL_AND_FOOD;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 442; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 441; continue _fun00001 }
  227:
             entity = _closure1_slot10;
             entity = entity.FASHION_AND_BEAUTY;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 385; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 384; continue _fun00001 }
  244:
             entity = _closure1_slot10;
             entity = entity.FITNESS_AND_HEALTH;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 328; continue _fun00001 }
+            if(!(entity !== zuuluu)) { _fun00002_ip = 327; continue _fun00001 }
  258:
-            entity = _closure1_slot14;
             report = undefined;
+            entity = 16;
             oscard = undefined;
-            if(!(entity === zuuluu)) { _fun00002_ip = 1058; continue _fun00001 }
- 273:
+            if(!(entity === zuuluu)) { _fun00002_ip = 1057; continue _fun00001 }
+ 272:
             tangon = _closure1_slot11;
             zuuluu = _closure1_slot0;
             verify = _closure1_slot2;
@@ -83,8 +83,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity.PencilSparkleIcon;
             entity = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
             oscard = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 1058; continue _fun00001;
- 328:
+            _fun00002_ip = 1057; continue _fun00001;
+ 327:
             report = _closure1_slot11;
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -95,8 +95,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity.BicycleIcon;
             entity = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
             oscard = report.bind(tangon)(zuuluu, entity);
-            _fun00002_ip = 1058; continue _fun00001;
- 385:
+            _fun00002_ip = 1057; continue _fun00001;
+ 384:
             report = _closure1_slot11;
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -107,8 +107,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity.PaintbrushThinIcon;
             entity = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
             oscard = report.bind(tangon)(zuuluu, entity);
-            _fun00002_ip = 1058; continue _fun00001;
- 442:
+            _fun00002_ip = 1057; continue _fun00001;
+ 441:
             report = _closure1_slot11;
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -119,8 +119,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity.FoodIcon;
             entity = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
             oscard = report.bind(tangon)(zuuluu, entity);
-            _fun00002_ip = 1058; continue _fun00001;
- 499:
+            _fun00002_ip = 1057; continue _fun00001;
+ 498:
             report = _closure1_slot11;
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -131,8 +131,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity.MedalIcon;
             entity = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
             oscard = report.bind(tangon)(zuuluu, entity);
-            _fun00002_ip = 1058; continue _fun00001;
- 556:
+            _fun00002_ip = 1057; continue _fun00001;
+ 555:
             report = _closure1_slot11;
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -143,8 +143,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity.RobotIcon;
             entity = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
             oscard = report.bind(tangon)(zuuluu, entity);
-            _fun00002_ip = 1058; continue _fun00001;
- 613:
+            _fun00002_ip = 1057; continue _fun00001;
+ 612:
             report = _closure1_slot11;
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -155,8 +155,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity.PiggyBankIcon;
             entity = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
             oscard = report.bind(tangon)(zuuluu, entity);
-            _fun00002_ip = 1058; continue _fun00001;
- 670:
+            _fun00002_ip = 1057; continue _fun00001;
+ 669:
             report = _closure1_slot11;
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -167,8 +167,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity.PaintPaletteIcon;
             entity = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
             oscard = report.bind(tangon)(zuuluu, entity);
-            _fun00002_ip = 1058; continue _fun00001;
- 727:
+            _fun00002_ip = 1057; continue _fun00001;
+ 726:
             report = _closure1_slot11;
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -179,8 +179,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity.BookCheckIcon;
             entity = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
             oscard = report.bind(tangon)(zuuluu, entity);
-            _fun00002_ip = 1058; continue _fun00001;
- 784:
+            _fun00002_ip = 1057; continue _fun00001;
+ 783:
             report = _closure1_slot11;
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -191,8 +191,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity.MusicIcon;
             entity = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
             oscard = report.bind(tangon)(zuuluu, entity);
-            _fun00002_ip = 1058; continue _fun00001;
- 841:
+            _fun00002_ip = 1057; continue _fun00001;
+ 840:
             report = _closure1_slot11;
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -203,8 +203,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity.ScienceIcon;
             entity = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
             oscard = report.bind(tangon)(zuuluu, entity);
-            _fun00002_ip = 1058; continue _fun00001;
- 898:
+            _fun00002_ip = 1057; continue _fun00001;
+ 897:
             report = _closure1_slot11;
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -215,8 +215,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity.ForumIcon;
             entity = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
             oscard = report.bind(tangon)(zuuluu, entity);
-            _fun00002_ip = 1058; continue _fun00001;
- 952:
+            _fun00002_ip = 1057; continue _fun00001;
+ 951:
             report = _closure1_slot11;
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -227,8 +227,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity.TvIcon;
             entity = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
             oscard = report.bind(tangon)(zuuluu, entity);
-            _fun00002_ip = 1058; continue _fun00001;
- 1006:
+            _fun00002_ip = 1057; continue _fun00001;
+ 1005:
             report = _closure1_slot11;
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -239,11 +239,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity.GameControllerIcon;
             entity = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
             oscard = report.bind(tangon)(zuuluu, entity);
- 1058:
+ 1057:
             entity = null;
             zuuluu = entity == oscard;
-            if(zuuluu) { _fun00002_ip = 1163; continue _fun00001 }
- 1067:
+            if(zuuluu) { _fun00002_ip = 1160; continue _fun00001 }
+ 1066:
             report = _closure1_slot11;
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -259,10 +259,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['checked'] = offset;
             michal['accessibilityState'] = verify;
             verify = 'tertiary';
-            if(!offset) { _fun00002_ip = 1134; continue _fun00001 }
- 1130:
+            if(!offset) { _fun00002_ip = 1131; continue _fun00001 }
+ 1127:
             verify = 'primary';
- 1134:
+ 1131:
             michal['variant'] = verify;
             michal['text'] = option;
             golfie = function() { // Original name: onPress
@@ -275,11 +275,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['onPress'] = golfie;
             michal['icon'] = oscard;
             entity = report.bind(tangon)(zuuluu, michal);
- 1163:
+ 1160:
             return entity;
         }
     };
-    var _closure1_slot16 = entity;
+    var _closure1_slot15 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -325,20 +325,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.GuildPrimaryCategory;
     var _closure1_slot10 = tangon;
     tangon = 7;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot11 = golfie;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.Fragment;
-    var _closure1_slot12 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot11 = golfie;
+    golfie = tangon.Fragment;
+    var _closure1_slot12 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot13 = tangon;
-    tangon = 16;
-    var _closure1_slot14 = tangon;
     tangon = 22;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
@@ -430,7 +424,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify['paddingTop'] = offset;
     tangon['scrollContentContainer'] = verify;
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot15 = tangon;
+    var _closure1_slot14 = tangon;
     tangon = 35;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -440,7 +434,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function() { // Original name: ICYMITopicsScreen
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            entity = _closure1_slot15;
+            entity = _closure1_slot14;
             tangon = undefined;
             romeon = entity.bind(tangon)();
             source = _closure1_slot1;
@@ -750,7 +744,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = function(argFoo) {
                 entity = argFoo;
                 report = _closure1_slot11;
-                tangon = _closure1_slot16;
+                tangon = _closure1_slot15;
                 zuuluu = {};
                 option = _closure2_slot0;
                 golfie = option.has;

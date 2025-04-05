@@ -65,12 +65,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = report.View;
     var _closure1_slot4 = report;
     report = 2;
-    option = golfie[report];
-    option = oscard.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot5 = option;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    option = report.jsx;
+    var _closure1_slot5 = option;
     report = report.jsxs;
     var _closure1_slot6 = report;
     report = {'mass': 0.5, 'damping': 15, 'stiffness': 200, 'overshootClamping': true};
@@ -451,7 +449,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = romeon[report];
             zuuluu = offset.bind(tangon)(michal);
             michal = zuuluu.useAnimatedStyle;
-            entity = function() { // Original name: u
+            entity = function() { // Original name: s
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     zuuluu = _closure2_slot2;

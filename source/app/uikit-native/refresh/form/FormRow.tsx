@@ -53,12 +53,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = golfie.View;
     var _closure1_slot4 = golfie;
     golfie = 2;
-    verify = oscard[golfie];
-    verify = report.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot5 = verify;
     golfie = oscard[golfie];
     golfie = report.bind(entity)(golfie);
+    verify = golfie.jsx;
+    var _closure1_slot5 = verify;
     golfie = golfie.jsxs;
     var _closure1_slot6 = golfie;
     golfie = 3;

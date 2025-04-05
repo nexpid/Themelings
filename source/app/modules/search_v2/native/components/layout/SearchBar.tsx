@@ -242,12 +242,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.SearchTypes;
     var _closure1_slot27 = tangon;
     tangon = 10;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot28 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot28 = option;
     tangon = tangon.jsxs;
     var _closure1_slot29 = tangon;
     tangon = 11;
@@ -685,7 +683,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = output[oscard];
         kiloes = zuuluu.bind(tangon)(oscard);
         backup = kiloes.useAnimatedStyle;
-        oscard = function() { // Original name: Q
+        oscard = function() { // Original name: V
             _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                 entity = {};

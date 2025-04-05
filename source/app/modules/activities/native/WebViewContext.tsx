@@ -29,12 +29,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot2 = verify;
     verify = tangon.StyleSheet;
     tangon = 3;
-    offset = golfie[tangon];
-    offset = oscard.bind(entity)(offset);
-    offset = offset.jsx;
-    var _closure1_slot3 = offset;
     tangon = golfie[tangon];
     tangon = oscard.bind(entity)(tangon);
+    offset = tangon.jsx;
+    var _closure1_slot3 = offset;
     tangon = tangon.jsxs;
     var _closure1_slot4 = tangon;
     tangon = report.createContext;

@@ -59,8 +59,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 backup = tangon.bind(report)();
                 var _closure3_slot2 = backup;
                 golfie = _closure1_slot1;
-                tangon = 4;
-                tangon = output[tangon];
+                update = 4;
+                tangon = output[update];
                 tangon = golfie.bind(kiloes)(tangon);
                 tangon = tangon.bind(kiloes)();
                 report = tangon.width;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = output[oscard];
                 oscard = golfie.bind(kiloes)(oscard);
                 oscard = oscard.bind(kiloes)();
-                update = function() { // Original name: onSelectedIndexChange
+                cntext = function() { // Original name: onSelectedIndexChange
                     _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         zuuluu = _closure2_slot9;
@@ -126,18 +126,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     }
                 };
-                var _closure3_slot3 = update;
+                var _closure3_slot3 = cntext;
                 golfie = output[verify];
                 offset = sizing.bind(kiloes)(golfie);
                 option = offset.useAnimatedScrollHandler;
                 golfie = {};
-                yankee = function() { // Original name: C
+                romeon = function() { // Original name: V
                     tangon = _closure2_slot4;
                     zuuluu = tangon.set;
                     michal = tangon.get;
                     report = michal.bind(tangon)();
-                    michal = _closure1_slot10;
-                    michal = report | michal;
+                    michal = 2;
+                    michal = michal | report;
                     michal = zuuluu.bind(tangon)(michal);
                     zuuluu = _closure2_slot9;
                     michal = zuuluu.set;
@@ -146,20 +146,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = undefined;
                     return entity;
                 };
-                romeon = {};
-                sequen = _closure2_slot4;
-                romeon['thumbnailsScrolling'] = sequen;
+                foxtra = {};
+                config = _closure2_slot4;
+                foxtra['thumbnailsScrolling'] = config;
+                yankee = 2;
+                foxtra['SCROLLING_DRAG'] = yankee;
+                source = _closure2_slot9;
+                foxtra['swipeSource'] = source;
+                romeon['__closure'] = foxtra;
+                foxtra = 16224520186325.0;
+                romeon['__workletHash'] = foxtra;
                 foxtra = _closure1_slot10;
-                romeon['SCROLLING_DRAG'] = foxtra;
-                foxtra = _closure2_slot9;
-                romeon['swipeSource'] = foxtra;
-                yankee['__closure'] = romeon;
-                romeon = 16224520186325.0;
-                yankee['__workletHash'] = romeon;
-                romeon = _closure1_slot12;
-                yankee['__initData'] = romeon;
-                golfie['onBeginDrag'] = yankee;
-                yankee = function() { // Original name: P
+                romeon['__initData'] = foxtra;
+                golfie['onBeginDrag'] = romeon;
+                romeon = function() { // Original name: H
                     zuuluu = _closure2_slot4;
                     michal = zuuluu.set;
                     entity = zuuluu.get;
@@ -170,17 +170,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = undefined;
                     return entity;
                 };
-                romeon = {};
-                romeon['thumbnailsScrolling'] = sequen;
-                echoed = _closure1_slot10;
-                romeon['SCROLLING_DRAG'] = echoed;
-                yankee['__closure'] = romeon;
-                romeon = 5779899826871.0;
-                yankee['__workletHash'] = romeon;
-                romeon = _closure1_slot13;
-                yankee['__initData'] = romeon;
-                golfie['onEndDrag'] = yankee;
-                yankee = function(argFoo) { // Original name: V
+                foxtra = {};
+                foxtra['thumbnailsScrolling'] = config;
+                foxtra['SCROLLING_DRAG'] = yankee;
+                romeon['__closure'] = foxtra;
+                foxtra = 5779899826871.0;
+                romeon['__workletHash'] = foxtra;
+                foxtra = _closure1_slot11;
+                romeon['__initData'] = foxtra;
+                golfie['onEndDrag'] = romeon;
+                romeon = function(argFoo) { // Original name: D
                     _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         entity = argFoo;
@@ -294,41 +293,41 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     }
                 };
-                romeon = {};
-                source = false;
-                romeon['variableWidthThumbnailsEnabled'] = source;
+                foxtra = {};
+                ctrled = false;
+                foxtra['variableWidthThumbnailsEnabled'] = ctrled;
                 echoed = _closure2_slot1;
-                romeon['thumbnailScrollPositions'] = echoed;
-                romeon['thumbnailSize'] = entity;
-                romeon['swipeSource'] = foxtra;
-                ctrled = _closure2_slot3;
-                romeon['thumbnailsIndex'] = ctrled;
-                romeon['maxIndex'] = vacuum;
-                config = _closure2_slot5;
-                romeon['thumbnailsAnimateTo'] = config;
+                foxtra['thumbnailScrollPositions'] = echoed;
+                foxtra['thumbnailSize'] = entity;
+                foxtra['swipeSource'] = source;
+                sequen = _closure2_slot3;
+                foxtra['thumbnailsIndex'] = sequen;
+                foxtra['maxIndex'] = vacuum;
+                record = _closure2_slot5;
+                foxtra['thumbnailsAnimateTo'] = record;
                 vacuum = _closure2_slot2;
-                romeon['selectedIndex'] = vacuum;
+                foxtra['selectedIndex'] = vacuum;
                 vacuum = _closure2_slot7;
-                romeon['viewerScrolling'] = vacuum;
-                romeon['thumbnailsScrolling'] = sequen;
-                record = output[verify];
-                record = sizing.bind(kiloes)(record);
-                record = record.runOnJS;
-                romeon['runOnJS'] = record;
-                romeon['onSelectedIndexChange'] = update;
-                yankee['__closure'] = romeon;
-                romeon = 6907172845212.0;
-                yankee['__workletHash'] = romeon;
-                romeon = _closure1_slot14;
-                yankee['__initData'] = romeon;
-                golfie['onScroll'] = yankee;
-                yankee = function() { // Original name: H
+                foxtra['viewerScrolling'] = vacuum;
+                foxtra['thumbnailsScrolling'] = config;
+                papara = output[verify];
+                papara = sizing.bind(kiloes)(papara);
+                papara = papara.runOnJS;
+                foxtra['runOnJS'] = papara;
+                foxtra['onSelectedIndexChange'] = cntext;
+                romeon['__closure'] = foxtra;
+                foxtra = 6907172845212.0;
+                romeon['__workletHash'] = foxtra;
+                foxtra = _closure1_slot12;
+                romeon['__initData'] = foxtra;
+                golfie['onScroll'] = romeon;
+                romeon = function() { // Original name: N
                     tangon = _closure2_slot4;
                     zuuluu = tangon.set;
                     michal = tangon.get;
                     report = michal.bind(tangon)();
-                    michal = _closure1_slot11;
-                    michal = report | michal;
+                    michal = 4;
+                    michal = michal | report;
                     michal = zuuluu.bind(tangon)(michal);
                     zuuluu = _closure2_slot9;
                     michal = zuuluu.set;
@@ -337,18 +336,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = undefined;
                     return entity;
                 };
-                romeon = {};
-                romeon['thumbnailsScrolling'] = sequen;
-                update = _closure1_slot11;
-                romeon['SCROLLING_MOMENTUM'] = update;
-                romeon['swipeSource'] = foxtra;
-                yankee['__closure'] = romeon;
-                romeon = 4138169755088.0;
-                yankee['__workletHash'] = romeon;
-                romeon = _closure1_slot15;
-                yankee['__initData'] = romeon;
-                golfie['onMomentumBegin'] = yankee;
-                yankee = function() { // Original name: D
+                foxtra = {};
+                foxtra['thumbnailsScrolling'] = config;
+                foxtra['SCROLLING_MOMENTUM'] = update;
+                foxtra['swipeSource'] = source;
+                romeon['__closure'] = foxtra;
+                foxtra = 4138169755088.0;
+                romeon['__workletHash'] = foxtra;
+                foxtra = _closure1_slot13;
+                romeon['__initData'] = foxtra;
+                golfie['onMomentumBegin'] = romeon;
+                romeon = function() { // Original name: L
                     zuuluu = _closure2_slot4;
                     michal = zuuluu.set;
                     entity = zuuluu.get;
@@ -359,19 +357,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = undefined;
                     return entity;
                 };
-                romeon = {};
-                romeon['thumbnailsScrolling'] = sequen;
-                foxtra = _closure1_slot11;
-                romeon['SCROLLING_MOMENTUM'] = foxtra;
-                yankee['__closure'] = romeon;
-                romeon = 1471443652144.0;
-                yankee['__workletHash'] = romeon;
-                romeon = _closure1_slot16;
-                yankee['__initData'] = romeon;
-                golfie['onMomentumEnd'] = yankee;
+                foxtra = {};
+                foxtra['thumbnailsScrolling'] = config;
+                foxtra['SCROLLING_MOMENTUM'] = update;
+                romeon['__closure'] = foxtra;
+                foxtra = 1471443652144.0;
+                romeon['__workletHash'] = foxtra;
+                foxtra = _closure1_slot14;
+                romeon['__initData'] = foxtra;
+                golfie['onMomentumEnd'] = romeon;
                 option = option.bind(offset)(golfie);
-                romeon = _closure1_slot4;
-                yankee = romeon.useCallback;
+                foxtra = _closure1_slot4;
+                romeon = foxtra.useCallback;
                 offset = function(argFoo) {
                     _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -394,11 +391,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     }
                 };
                 golfie = new Array(0);
-                golfie = yankee.bind(romeon)(offset, golfie);
-                foxtra = _closure1_slot4;
-                romeon = foxtra.useCallback;
-                yankee = new Array(1);
-                yankee[0] = backup;
+                golfie = romeon.bind(foxtra)(offset, golfie);
+                update = _closure1_slot4;
+                foxtra = update.useCallback;
+                romeon = new Array(1);
+                romeon[0] = backup;
                 offset = function(argFoo) {
                     michal = _closure2_slot1;
                     entity = argFoo;
@@ -418,11 +415,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = romeon[report](yankee, offset, verify, option, golfie);
                     return entity;
                 };
-                update = romeon.bind(foxtra)(offset, yankee);
+                source = foxtra.bind(update)(offset, romeon);
                 offset = output[verify];
-                romeon = sizing.bind(kiloes)(offset);
-                yankee = romeon.useDerivedValue;
-                offset = function() { // Original name: y
+                foxtra = sizing.bind(kiloes)(offset);
+                romeon = foxtra.useDerivedValue;
+                offset = function() { // Original name: P
                     _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                         zuuluu = _closure2_slot5;
@@ -453,30 +450,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     }
                 };
-                foxtra = {};
-                foxtra['thumbnailsAnimateTo'] = config;
-                foxtra['variableWidthThumbnailsEnabled'] = source;
-                config = output[verify];
-                config = sizing.bind(kiloes)(config);
-                config = config.runOnJS;
-                foxtra['runOnJS'] = config;
-                foxtra['scrollVarWidthThumbnails'] = update;
-                update = output[verify];
-                update = sizing.bind(kiloes)(update);
-                update = update.scrollTo;
-                foxtra['scrollTo'] = update;
-                foxtra['ref'] = backup;
-                foxtra['thumbnailSize'] = entity;
-                offset['__closure'] = foxtra;
-                foxtra = 1697086875584.0;
-                offset['__workletHash'] = foxtra;
-                foxtra = _closure1_slot17;
-                offset['__initData'] = foxtra;
-                offset = yankee.bind(romeon)(offset);
-                foxtra = _closure1_slot4;
-                romeon = foxtra.useCallback;
-                yankee = new Array(1);
-                yankee[0] = backup;
+                update = {};
+                update['thumbnailsAnimateTo'] = record;
+                update['variableWidthThumbnailsEnabled'] = ctrled;
+                record = output[verify];
+                record = sizing.bind(kiloes)(record);
+                record = record.runOnJS;
+                update['runOnJS'] = record;
+                update['scrollVarWidthThumbnails'] = source;
+                source = output[verify];
+                source = sizing.bind(kiloes)(source);
+                source = source.scrollTo;
+                update['scrollTo'] = source;
+                update['ref'] = backup;
+                update['thumbnailSize'] = entity;
+                offset['__closure'] = update;
+                update = 1697086875584.0;
+                offset['__workletHash'] = update;
+                update = _closure1_slot15;
+                offset['__initData'] = update;
+                offset = romeon.bind(foxtra)(offset);
+                update = _closure1_slot4;
+                foxtra = update.useCallback;
+                romeon = new Array(1);
+                romeon[0] = backup;
                 offset = function(argFoo) {
                     zuuluu = _closure1_slot0;
                     tangon = _closure1_slot2;
@@ -499,11 +496,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = romeon[report](yankee, offset, verify, option, golfie);
                     return entity;
                 };
-                update = romeon.bind(foxtra)(offset, yankee);
+                source = foxtra.bind(update)(offset, romeon);
                 offset = output[verify];
-                romeon = sizing.bind(kiloes)(offset);
-                yankee = romeon.useDerivedValue;
-                offset = function() { // Original name: ee
+                foxtra = sizing.bind(kiloes)(offset);
+                romeon = foxtra.useDerivedValue;
+                offset = function() { // Original name: Z
                     _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                         zuuluu = _closure2_slot7;
@@ -545,38 +542,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     }
                 };
-                foxtra = {};
-                foxtra['viewerScrolling'] = vacuum;
-                foxtra['thumbnailsIndex'] = ctrled;
-                ctrled = _closure2_slot6;
-                foxtra['viewerPos'] = ctrled;
-                foxtra['variableWidthThumbnailsEnabled'] = source;
+                update = {};
+                update['viewerScrolling'] = vacuum;
+                update['thumbnailsIndex'] = sequen;
+                sequen = _closure2_slot6;
+                update['viewerPos'] = sequen;
+                update['variableWidthThumbnailsEnabled'] = ctrled;
+                ctrled = output[verify];
+                ctrled = sizing.bind(kiloes)(ctrled);
+                ctrled = ctrled.runOnJS;
+                update['runOnJS'] = ctrled;
+                update['lerpScrollVarWidthThumbnails'] = source;
                 source = output[verify];
                 source = sizing.bind(kiloes)(source);
-                source = source.runOnJS;
-                foxtra['runOnJS'] = source;
-                foxtra['lerpScrollVarWidthThumbnails'] = update;
-                update = output[verify];
-                update = sizing.bind(kiloes)(update);
-                update = update.scrollTo;
-                foxtra['scrollTo'] = update;
-                foxtra['ref'] = backup;
-                foxtra['thumbnailSize'] = entity;
-                offset['__closure'] = foxtra;
-                foxtra = 10477949154269.0;
-                offset['__workletHash'] = foxtra;
-                foxtra = _closure1_slot18;
-                offset['__initData'] = foxtra;
-                offset = yankee.bind(romeon)(offset);
-                romeon = _closure2_slot0;
-                yankee = romeon.map;
+                source = source.scrollTo;
+                update['scrollTo'] = source;
+                update['ref'] = backup;
+                update['thumbnailSize'] = entity;
+                offset['__closure'] = update;
+                update = 10477949154269.0;
+                offset['__workletHash'] = update;
+                update = _closure1_slot16;
+                offset['__initData'] = update;
+                offset = romeon.bind(foxtra)(offset);
+                foxtra = _closure2_slot0;
+                romeon = foxtra.map;
                 offset = function(argFoo, argBar) {
                     entity = argBar;
                     return entity;
                 };
-                source = yankee.bind(romeon)(offset);
-                var _closure3_slot4 = source;
-                yankee = romeon.map;
+                ctrled = romeon.bind(foxtra)(offset);
+                var _closure3_slot4 = ctrled;
+                romeon = foxtra.map;
                 offset = function(argFoo) {
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot2;
@@ -607,12 +604,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = michal / entity;
                     return entity;
                 };
-                update = yankee.bind(romeon)(offset);
-                var _closure3_slot5 = update;
+                source = romeon.bind(foxtra)(offset);
+                var _closure3_slot5 = source;
                 offset = output[verify];
-                romeon = sizing.bind(kiloes)(offset);
-                yankee = romeon.useDerivedValue;
-                offset = function() { // Original name: ie
+                foxtra = sizing.bind(kiloes)(offset);
+                romeon = foxtra.useDerivedValue;
+                offset = function() { // Original name: ee
                     _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                         zuuluu = _closure2_slot4;
@@ -642,24 +639,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     }
                 };
-                foxtra = {};
-                foxtra['thumbnailsScrolling'] = sequen;
-                sequen = output[verify];
-                sequen = sizing.bind(kiloes)(sequen);
-                sequen = sequen.interpolate;
-                foxtra['interpolate'] = sequen;
-                foxtra['viewerPos'] = ctrled;
-                foxtra['interpolateInput'] = source;
-                foxtra['interpolateOutput'] = update;
-                offset['__closure'] = foxtra;
-                foxtra = 10097839523885.0;
-                offset['__workletHash'] = foxtra;
-                foxtra = _closure1_slot19;
-                offset['__initData'] = foxtra;
-                ctrled = yankee.bind(romeon)(offset);
+                update = {};
+                update['thumbnailsScrolling'] = config;
+                config = output[verify];
+                config = sizing.bind(kiloes)(config);
+                config = config.interpolate;
+                update['interpolate'] = config;
+                update['viewerPos'] = sequen;
+                update['interpolateInput'] = ctrled;
+                update['interpolateOutput'] = source;
+                offset['__closure'] = update;
+                update = 10097839523885.0;
+                offset['__workletHash'] = update;
+                update = _closure1_slot17;
+                offset['__initData'] = update;
+                ctrled = romeon.bind(foxtra)(offset);
                 var _closure3_slot6 = ctrled;
                 offset = report - entity;
-                yankee = 2;
                 romeon = offset / yankee;
                 offset = oscard.left;
                 romeon = romeon - offset;
@@ -667,7 +663,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = output[verify];
                 update = sizing.bind(kiloes)(offset);
                 foxtra = update.useAnimatedStyle;
-                offset = function() { // Original name: ne
+                offset = function() { // Original name: te
                     _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                         entity = {};
@@ -717,7 +713,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset['__closure'] = sequen;
                 sequen = 11328769587377.0;
                 offset['__workletHash'] = sequen;
-                sequen = _closure1_slot20;
+                sequen = _closure1_slot18;
                 offset['__initData'] = sequen;
                 foxtra = foxtra.bind(update)(offset);
                 update = echoed.length;
@@ -732,7 +728,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = output[verify];
                 echoed = sizing.bind(kiloes)(oscard);
                 yankee = echoed.useAnimatedStyle;
-                oscard = function() { // Original name: re
+                oscard = function() { // Original name: ie
                     _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                         entity = {};
@@ -781,7 +777,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard['__closure'] = update;
                 update = 10532164558483.0;
                 oscard['__workletHash'] = update;
-                update = _closure1_slot21;
+                update = _closure1_slot19;
                 oscard['__initData'] = update;
                 yankee = yankee.bind(echoed)(oscard);
                 source = _closure1_slot4;
@@ -834,7 +830,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report['__closure'] = romeon;
                     romeon = 5784737783661.0;
                     report['__workletHash'] = romeon;
-                    romeon = _closure1_slot22;
+                    romeon = _closure1_slot20;
                     report['__initData'] = romeon;
                     oscard = oscard.bind(golfie)(report);
                     var _closure4_slot1 = oscard;
@@ -917,7 +913,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu['__closure'] = romeon;
                     romeon = 12440745987072.0;
                     zuuluu['__workletHash'] = romeon;
-                    romeon = _closure1_slot23;
+                    romeon = _closure1_slot21;
                     zuuluu['__initData'] = romeon;
                     golfie = report.bind(golfie)(zuuluu);
                     var _closure4_slot3 = golfie;
@@ -979,7 +975,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['__closure'] = report;
                     report = 513826663139.0;
                     entity['__workletHash'] = report;
-                    tangon = _closure1_slot24;
+                    tangon = _closure1_slot22;
                     entity['__initData'] = tangon;
                     entity = michal.bind(zuuluu)(entity);
                     return entity;
@@ -989,7 +985,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify = output[verify];
                 sizing = sizing.bind(kiloes)(verify);
                 kiloes = sizing.useDerivedValue;
-                verify = function() { // Original name: le
+                verify = function() { // Original name: ne
                     michal = _closure2_slot8;
                     entity = michal.get;
                     entity = entity.bind(michal)();
@@ -1002,7 +998,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify['__closure'] = output;
                 output = 7667674289153.0;
                 verify['__workletHash'] = output;
-                output = _closure1_slot25;
+                output = _closure1_slot23;
                 verify['__initData'] = output;
                 verify = kiloes.bind(sizing)(verify);
                 sizing = _closure1_slot4;
@@ -1064,8 +1060,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = tangon.bind(report)();
                 var _closure3_slot0 = report;
                 oscard = _closure1_slot1;
-                tangon = 4;
-                tangon = yankee[tangon];
+                backup = 4;
+                tangon = yankee[backup];
                 tangon = oscard.bind(option)(tangon);
                 tangon = tangon.bind(option)();
                 offset = tangon.width;
@@ -1107,18 +1103,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     }
                 };
                 foxtra = {};
-                output = _closure2_slot5;
-                foxtra['thumbnailsAnimateTo'] = output;
-                backup = yankee[zuuluu];
-                backup = verify.bind(option)(backup);
-                backup = backup.scrollTo;
-                foxtra['scrollTo'] = backup;
+                result = _closure2_slot5;
+                foxtra['thumbnailsAnimateTo'] = result;
+                kiloes = yankee[zuuluu];
+                kiloes = verify.bind(option)(kiloes);
+                kiloes = kiloes.scrollTo;
+                foxtra['scrollTo'] = kiloes;
                 foxtra['ref'] = report;
                 foxtra['screenWidth'] = offset;
                 tangon['__closure'] = foxtra;
                 foxtra = 11860326453239.0;
                 tangon['__workletHash'] = foxtra;
-                foxtra = _closure1_slot26;
+                foxtra = _closure1_slot24;
                 tangon['__initData'] = foxtra;
                 tangon = golfie.bind(romeon)(tangon);
                 tangon = yankee[zuuluu];
@@ -1164,35 +1160,35 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     }
                 };
                 foxtra = {};
-                result = _closure2_slot4;
-                foxtra['thumbnailsScrolling'] = result;
-                backup = _closure2_slot7;
-                foxtra['viewerScrolling'] = backup;
-                kiloes = yankee[zuuluu];
-                kiloes = verify.bind(option)(kiloes);
-                kiloes = kiloes.scrollTo;
-                foxtra['scrollTo'] = kiloes;
+                echoed = _closure2_slot4;
+                foxtra['thumbnailsScrolling'] = echoed;
+                kiloes = _closure2_slot7;
+                foxtra['viewerScrolling'] = kiloes;
+                sizing = yankee[zuuluu];
+                sizing = verify.bind(option)(sizing);
+                sizing = sizing.scrollTo;
+                foxtra['scrollTo'] = sizing;
                 foxtra['ref'] = report;
-                kiloes = _closure2_slot3;
-                foxtra['thumbnailsIndex'] = kiloes;
+                sizing = _closure2_slot3;
+                foxtra['thumbnailsIndex'] = sizing;
                 foxtra['screenWidth'] = offset;
                 tangon['__closure'] = foxtra;
                 foxtra = 6332404461490.0;
                 tangon['__workletHash'] = foxtra;
-                foxtra = _closure1_slot27;
+                foxtra = _closure1_slot25;
                 tangon['__initData'] = foxtra;
                 tangon = golfie.bind(romeon)(tangon);
                 zuuluu = yankee[zuuluu];
                 golfie = verify.bind(option)(zuuluu);
                 tangon = golfie.useAnimatedScrollHandler;
                 zuuluu = {};
-                romeon = function() { // Original name: M
+                romeon = function() { // Original name: b
                     tangon = _closure2_slot7;
                     zuuluu = tangon.set;
                     michal = tangon.get;
                     report = michal.bind(tangon)();
-                    michal = _closure1_slot10;
-                    michal = report | michal;
+                    michal = 2;
+                    michal = michal | report;
                     michal = zuuluu.bind(tangon)(michal);
                     zuuluu = _closure2_slot9;
                     michal = zuuluu.set;
@@ -1202,18 +1198,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 foxtra = {};
-                foxtra['viewerScrolling'] = backup;
-                kiloes = _closure1_slot10;
-                foxtra['SCROLLING_DRAG'] = kiloes;
-                kiloes = _closure2_slot9;
-                foxtra['swipeSource'] = kiloes;
+                foxtra['viewerScrolling'] = kiloes;
+                update = 2;
+                foxtra['SCROLLING_DRAG'] = update;
+                sizing = _closure2_slot9;
+                foxtra['swipeSource'] = sizing;
                 romeon['__closure'] = foxtra;
                 foxtra = 1082965969005.0;
                 romeon['__workletHash'] = foxtra;
-                foxtra = _closure1_slot28;
+                foxtra = _closure1_slot26;
                 romeon['__initData'] = foxtra;
                 zuuluu['onBeginDrag'] = romeon;
-                romeon = function() { // Original name: f
+                romeon = function() { // Original name: w
                     zuuluu = _closure2_slot7;
                     michal = zuuluu.set;
                     entity = zuuluu.get;
@@ -1225,16 +1221,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 foxtra = {};
-                foxtra['viewerScrolling'] = backup;
-                echoed = _closure1_slot10;
-                foxtra['SCROLLING_DRAG'] = echoed;
+                foxtra['viewerScrolling'] = kiloes;
+                foxtra['SCROLLING_DRAG'] = update;
                 romeon['__closure'] = foxtra;
                 foxtra = 1722948238280.0;
                 romeon['__workletHash'] = foxtra;
-                foxtra = _closure1_slot29;
+                foxtra = _closure1_slot27;
                 romeon['__initData'] = foxtra;
                 zuuluu['onEndDrag'] = romeon;
-                romeon = function(argFoo) { // Original name: b
+                romeon = function(argFoo) { // Original name: S
                     _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
                         zuuluu = _closure2_slot7;
@@ -1273,25 +1268,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     }
                 };
                 foxtra = {};
-                foxtra['viewerScrolling'] = backup;
-                foxtra['thumbnailsScrolling'] = result;
-                foxtra['thumbnailsAnimateTo'] = output;
-                sizing = _closure2_slot6;
-                foxtra['viewerPos'] = sizing;
+                foxtra['viewerScrolling'] = kiloes;
+                foxtra['thumbnailsScrolling'] = echoed;
+                foxtra['thumbnailsAnimateTo'] = result;
+                output = _closure2_slot6;
+                foxtra['viewerPos'] = output;
                 foxtra['screenWidth'] = offset;
                 romeon['__closure'] = foxtra;
                 foxtra = 2738090250956.0;
                 romeon['__workletHash'] = foxtra;
-                foxtra = _closure1_slot30;
+                foxtra = _closure1_slot28;
                 romeon['__initData'] = foxtra;
                 zuuluu['onScroll'] = romeon;
-                romeon = function() { // Original name: w
+                romeon = function() { // Original name: _
                     tangon = _closure2_slot7;
                     zuuluu = tangon.set;
                     michal = tangon.get;
                     report = michal.bind(tangon)();
-                    michal = _closure1_slot11;
-                    michal = report | michal;
+                    michal = 4;
+                    michal = michal | report;
                     michal = zuuluu.bind(tangon)(michal);
                     zuuluu = _closure2_slot9;
                     michal = zuuluu.set;
@@ -1301,17 +1296,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 foxtra = {};
-                foxtra['viewerScrolling'] = backup;
-                sizing = _closure1_slot11;
-                foxtra['SCROLLING_MOMENTUM'] = sizing;
-                foxtra['swipeSource'] = kiloes;
+                foxtra['viewerScrolling'] = kiloes;
+                foxtra['SCROLLING_MOMENTUM'] = backup;
+                foxtra['swipeSource'] = sizing;
                 romeon['__closure'] = foxtra;
                 foxtra = 16635271467463.0;
                 romeon['__workletHash'] = foxtra;
-                foxtra = _closure1_slot31;
+                foxtra = _closure1_slot29;
                 romeon['__initData'] = foxtra;
                 zuuluu['onMomentumBegin'] = romeon;
-                romeon = function() { // Original name: S
+                romeon = function() { // Original name: h
                     zuuluu = _closure2_slot7;
                     michal = zuuluu.set;
                     entity = zuuluu.get;
@@ -1323,13 +1317,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 foxtra = {};
-                foxtra['viewerScrolling'] = backup;
-                backup = _closure1_slot11;
+                foxtra['viewerScrolling'] = kiloes;
                 foxtra['SCROLLING_MOMENTUM'] = backup;
                 romeon['__closure'] = foxtra;
                 foxtra = 8806989101472.0;
                 romeon['__workletHash'] = foxtra;
-                foxtra = _closure1_slot32;
+                foxtra = _closure1_slot30;
                 romeon['__initData'] = foxtra;
                 zuuluu['onMomentumEnd'] = romeon;
                 tangon = tangon.bind(golfie)(zuuluu);
@@ -1451,7 +1444,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu['__closure'] = golfie;
                     golfie = 16460720517812.0;
                     zuuluu['__workletHash'] = golfie;
-                    golfie = _closure1_slot33;
+                    golfie = _closure1_slot31;
                     zuuluu['__initData'] = golfie;
                     michal = function(argFoo, argBar) { // Original name: l
                         _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
@@ -1490,7 +1483,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['__closure'] = golfie;
                     golfie = 2991686939184.0;
                     michal['__workletHash'] = golfie;
-                    oscard = _closure1_slot34;
+                    oscard = _closure1_slot32;
                     michal['__initData'] = oscard;
                     michal = tangon.bind(report)(zuuluu, michal);
                     return entity;
@@ -1508,7 +1501,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot35 = tangon;
+    var _closure1_slot33 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -1528,113 +1521,110 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = report.bind(entity)(option);
     var _closure1_slot4 = report;
     report = 2;
-    option = golfie[report];
-    option = oscard.bind(entity)(option);
-    verify = option.THUMBNAIL_MARGIN;
-    var _closure1_slot5 = verify;
-    verify = option.THUMBNAIL_HEIGHT;
-    var _closure1_slot6 = verify;
-    verify = option.THUMBNAIL_MAX_WIDTH;
-    var _closure1_slot7 = verify;
-    verify = option.THUMBNAIL_MIN_WIDTH;
-    var _closure1_slot8 = verify;
-    option = option.THUMBNAIL_WIDTH_MARGIN;
-    var _closure1_slot9 = option;
-    var _closure1_slot10 = report;
-    report = 4;
-    var _closure1_slot11 = report;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    option = report.THUMBNAIL_MARGIN;
+    var _closure1_slot5 = option;
+    option = report.THUMBNAIL_HEIGHT;
+    var _closure1_slot6 = option;
+    option = report.THUMBNAIL_MAX_WIDTH;
+    var _closure1_slot7 = option;
+    option = report.THUMBNAIL_MIN_WIDTH;
+    var _closure1_slot8 = option;
+    report = report.THUMBNAIL_WIDTH_MARGIN;
+    var _closure1_slot9 = report;
     report = {};
     option = "function useMediaViewerSyncerTsx1(){const{thumbnailsScrolling,SCROLLING_DRAG,swipeSource}=this.__closure;thumbnailsScrolling.set(thumbnailsScrolling.get()|SCROLLING_DRAG);swipeSource.set('thumbnails');}";
     report['code'] = option;
-    var _closure1_slot12 = report;
+    var _closure1_slot10 = report;
     report = {};
     option = 'function useMediaViewerSyncerTsx2(){const{thumbnailsScrolling,SCROLLING_DRAG}=this.__closure;thumbnailsScrolling.set(thumbnailsScrolling.get()&~SCROLLING_DRAG);}';
     report['code'] = option;
-    var _closure1_slot13 = report;
+    var _closure1_slot11 = report;
     report = {};
     option = "function useMediaViewerSyncerTsx3(event){const{variableWidthThumbnailsEnabled,thumbnailScrollPositions,thumbnailSize,swipeSource,thumbnailsIndex,maxIndex,thumbnailsAnimateTo,selectedIndex,viewerScrolling,thumbnailsScrolling,runOnJS,onSelectedIndexChange}=this.__closure;let thumbnails=0;if(variableWidthThumbnailsEnabled){if(event.contentOffset.x<0){thumbnails=0;}else if(event.contentOffset.x>=thumbnailScrollPositions[thumbnailScrollPositions.length-1].end){thumbnails=thumbnailScrollPositions.length-1;}else{for(let i=0;i<thumbnailScrollPositions.length;i++){const startPos=thumbnailScrollPositions[i].scrollStart;let endPos=i<thumbnailScrollPositions.length-1?thumbnailScrollPositions[i+1].scrollStart:startPos;if(i===thumbnailScrollPositions.length-1){endPos=thumbnailScrollPositions[i].end;}if(event.contentOffset.x>=startPos&&event.contentOffset.x<endPos){thumbnails=i+(event.contentOffset.x-startPos)/(endPos-startPos);break;}}}}else{thumbnails=event.contentOffset.x/thumbnailSize;}if(swipeSource.get()==='thumbnails'||Math.abs(Math.round(thumbnails)-thumbnails)<0.01){thumbnailsIndex.set(Math.max(0,Math.min(Math.round(thumbnails),maxIndex)));}if(thumbnailsAnimateTo.get()>=0){if(thumbnailsIndex.get()===thumbnailsAnimateTo.get()){thumbnailsAnimateTo.set(-1);selectedIndex.set(thumbnailsIndex.get());}return;}const wasTouched=viewerScrolling.get()!==0||thumbnailsScrolling.get()!==0;if(wasTouched&&thumbnailsIndex.get()!==selectedIndex.get()){selectedIndex.set(thumbnailsIndex.get());runOnJS(onSelectedIndexChange)();}}";
     report['code'] = option;
-    var _closure1_slot14 = report;
+    var _closure1_slot12 = report;
     report = {};
     option = "function useMediaViewerSyncerTsx4(){const{thumbnailsScrolling,SCROLLING_MOMENTUM,swipeSource}=this.__closure;thumbnailsScrolling.set(thumbnailsScrolling.get()|SCROLLING_MOMENTUM);swipeSource.set('thumbnails');}";
     report['code'] = option;
-    var _closure1_slot15 = report;
+    var _closure1_slot13 = report;
     report = {};
     option = 'function useMediaViewerSyncerTsx5(){const{thumbnailsScrolling,SCROLLING_MOMENTUM}=this.__closure;thumbnailsScrolling.set(thumbnailsScrolling.get()&~SCROLLING_MOMENTUM);}';
     report['code'] = option;
-    var _closure1_slot16 = report;
+    var _closure1_slot14 = report;
     report = {};
     option = 'function useMediaViewerSyncerTsx6(){const{thumbnailsAnimateTo,variableWidthThumbnailsEnabled,runOnJS,scrollVarWidthThumbnails,scrollTo,ref,thumbnailSize}=this.__closure;if(thumbnailsAnimateTo.get()<0)return;if(variableWidthThumbnailsEnabled){runOnJS(scrollVarWidthThumbnails)(thumbnailsAnimateTo.get());}else{scrollTo(ref,thumbnailsAnimateTo.get()*thumbnailSize,0,true);}}';
     report['code'] = option;
-    var _closure1_slot17 = report;
+    var _closure1_slot15 = report;
     report = {};
     option = 'function useMediaViewerSyncerTsx7(){const{viewerScrolling,thumbnailsIndex,viewerPos,variableWidthThumbnailsEnabled,runOnJS,lerpScrollVarWidthThumbnails,scrollTo,ref,thumbnailSize}=this.__closure;if(viewerScrolling.get()===0)return;else if(thumbnailsIndex.get()!==viewerPos.get()){if(variableWidthThumbnailsEnabled){runOnJS(lerpScrollVarWidthThumbnails)(viewerPos.get());}else{scrollTo(ref,viewerPos.get()*thumbnailSize,0,false);}}}';
     report['code'] = option;
-    var _closure1_slot18 = report;
+    var _closure1_slot16 = report;
     report = {};
     option = "function useMediaViewerSyncerTsx8(){const{thumbnailsScrolling,interpolate,viewerPos,interpolateInput,interpolateOutput}=this.__closure;return thumbnailsScrolling.get()>0?0:-interpolate(viewerPos.get(),interpolateInput,interpolateOutput,'clamp');}";
     report['code'] = option;
-    var _closure1_slot19 = report;
+    var _closure1_slot17 = report;
     report = {};
     option = 'function useMediaViewerSyncerTsx9(){const{viewerScrolling,headerBufferSize,margin,withSpring}=this.__closure;return{width:viewerScrolling.get()>0?headerBufferSize+margin.get():withSpring(headerBufferSize+margin.get(),{overshootClamping:true})};}';
     report['code'] = option;
-    var _closure1_slot20 = report;
+    var _closure1_slot18 = report;
     report = {};
     option = 'function useMediaViewerSyncerTsx10(){const{viewerScrolling,footerBufferSize,margin,withSpring}=this.__closure;return{width:viewerScrolling.get()>0?footerBufferSize+margin.get():withSpring(footerBufferSize+margin.get(),{overshootClamping:true})};}';
     report['code'] = option;
-    var _closure1_slot21 = report;
+    var _closure1_slot19 = report;
     report = {};
     option = "function useMediaViewerSyncerTsx11(){const{interpolate,viewerPos,index}=this.__closure;return interpolate(viewerPos.get(),[index-1,index,index+1],[0.4,1,0.4],'clamp');}";
     report['code'] = option;
-    var _closure1_slot22 = report;
+    var _closure1_slot20 = report;
     report = {};
     option = "function useMediaViewerSyncerTsx13(){const{thumbnailsScrolling,THUMBNAIL_MIN_WIDTH,interpolate,viewerPos,index,sourceWidth}=this.__closure;return thumbnailsScrolling.get()>0?THUMBNAIL_MIN_WIDTH:interpolate(viewerPos.get(),[index-1,index,index+1],[THUMBNAIL_MIN_WIDTH,sourceWidth,THUMBNAIL_MIN_WIDTH],'clamp');}";
     report['code'] = option;
-    var _closure1_slot23 = report;
+    var _closure1_slot21 = report;
     report = {};
     option = 'function useMediaViewerSyncerTsx14(){const{viewerScrolling,_width,withSpring,THUMBNAIL_HEIGHT,opacity}=this.__closure;return{width:viewerScrolling.get()>0?_width.get():withSpring(_width.get(),{overshootClamping:true}),height:THUMBNAIL_HEIGHT,opacity:opacity.get()};}';
     report['code'] = option;
-    var _closure1_slot24 = report;
+    var _closure1_slot22 = report;
     report = {};
     option = 'function useMediaViewerSyncerTsx15(){const{zoomed}=this.__closure;return!zoomed.get();}';
     report['code'] = option;
-    var _closure1_slot25 = report;
+    var _closure1_slot23 = report;
     report = {};
     option = 'function useMediaViewerSyncerTsx16(){const{thumbnailsAnimateTo,scrollTo,ref,screenWidth}=this.__closure;if(thumbnailsAnimateTo.get()===-1)return;scrollTo(ref,thumbnailsAnimateTo.get()*screenWidth,0,false);}';
     report['code'] = option;
-    var _closure1_slot26 = report;
+    var _closure1_slot24 = report;
     report = {};
     option = 'function useMediaViewerSyncerTsx17(){const{thumbnailsScrolling,viewerScrolling,scrollTo,ref,thumbnailsIndex,screenWidth}=this.__closure;if(thumbnailsScrolling.get()===0||viewerScrolling.get()>0)return;scrollTo(ref,thumbnailsIndex.get()*screenWidth,0,false);}';
     report['code'] = option;
-    var _closure1_slot27 = report;
+    var _closure1_slot25 = report;
     report = {};
     option = "function useMediaViewerSyncerTsx18(){const{viewerScrolling,SCROLLING_DRAG,swipeSource}=this.__closure;viewerScrolling.set(viewerScrolling.get()|SCROLLING_DRAG);swipeSource.set('viewer');}";
     report['code'] = option;
-    var _closure1_slot28 = report;
+    var _closure1_slot26 = report;
     report = {};
     option = 'function useMediaViewerSyncerTsx19(){const{viewerScrolling,SCROLLING_DRAG}=this.__closure;viewerScrolling.set(viewerScrolling.get()&~SCROLLING_DRAG);}';
     report['code'] = option;
-    var _closure1_slot29 = report;
+    var _closure1_slot27 = report;
     report = {};
     option = 'function useMediaViewerSyncerTsx20(event){const{viewerScrolling,thumbnailsScrolling,thumbnailsAnimateTo,viewerPos,screenWidth}=this.__closure;if(viewerScrolling.get()===0&&thumbnailsScrolling.get()===0&&thumbnailsAnimateTo.get()===-1)return;viewerPos.set(event.contentOffset.x/screenWidth);}';
     report['code'] = option;
-    var _closure1_slot30 = report;
+    var _closure1_slot28 = report;
     report = {};
     option = "function useMediaViewerSyncerTsx21(){const{viewerScrolling,SCROLLING_MOMENTUM,swipeSource}=this.__closure;viewerScrolling.set(viewerScrolling.get()|SCROLLING_MOMENTUM);swipeSource.set('viewer');}";
     report['code'] = option;
-    var _closure1_slot31 = report;
+    var _closure1_slot29 = report;
     report = {};
     option = 'function useMediaViewerSyncerTsx22(){const{viewerScrolling,SCROLLING_MOMENTUM}=this.__closure;viewerScrolling.set(viewerScrolling.get()&~SCROLLING_MOMENTUM);}';
     report['code'] = option;
-    var _closure1_slot32 = report;
+    var _closure1_slot30 = report;
     report = {};
     option = 'function useMediaViewerSyncerTsx23(){const{index,selectedIndex}=this.__closure;return index===selectedIndex.get();}';
     report['code'] = option;
-    var _closure1_slot33 = report;
+    var _closure1_slot31 = report;
     report = {};
     option = 'function useMediaViewerSyncerTsx24(result,previous){const{runOnJS,setVisible}=this.__closure;if(previous==null||previous===result)return;runOnJS(setVisible)(result);}';
     report['code'] = option;
-    var _closure1_slot34 = report;
+    var _closure1_slot32 = report;
     report = 11;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
@@ -1777,7 +1767,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = foxtra;
                 if(golfie < oscard) { _fun00038_ip = 45; continue _fun00037 }
  261:
-                michal = _closure1_slot35;
+                michal = _closure1_slot33;
                 entity = _closure2_slot2;
                 entity = michal.bind(zuuluu)(report, entity, tangon);
                 return entity;

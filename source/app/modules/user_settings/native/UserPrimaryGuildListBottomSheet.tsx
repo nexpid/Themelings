@@ -40,10 +40,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         kiloes = 4;
         tangon = oscard[kiloes];
         tangon = report.bind(entity)(tangon);
-        tangon = tangon.jsx;
-        var _closure1_slot7 = tangon;
-        tangon = oscard[kiloes];
-        tangon = report.bind(entity)(tangon);
+        golfie = tangon.jsx;
+        var _closure1_slot7 = golfie;
         tangon = tangon.jsxs;
         var _closure1_slot8 = tangon;
         tangon = 5;
@@ -99,10 +97,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         foxtra = kiloes.isAndroid;
         kiloes = foxtra.bind(kiloes)();
         foxtra = 18;
-        if(!kiloes) { _fun00002_ip = 411; continue _fun00001 }
- 408:
+        if(!kiloes) { _fun00002_ip = 402; continue _fun00001 }
+ 399:
         foxtra = backup;
- 411:
+ 402:
         tangon['lineHeight'] = foxtra;
         golfie['tagStyles'] = tangon;
         tangon = {};

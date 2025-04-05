@@ -48,12 +48,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.SCALE_PHYSICS;
     var _closure1_slot9 = tangon;
     tangon = 6;
-    verify = oscard[tangon];
-    verify = report.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot10 = verify;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    verify = tangon.jsx;
+    var _closure1_slot10 = verify;
     tangon = tangon.jsxs;
     var _closure1_slot11 = tangon;
     tangon = {};
@@ -509,7 +507,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = option[config];
             record = michal.bind(tangon)(report);
             echoed = record.useAnimatedReaction;
-            output = function() { // Original name: Ze
+            output = function() { // Original name: Ge
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     zuuluu = _closure2_slot7;
@@ -547,7 +545,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output['__workletHash'] = report;
             report = _closure1_slot54;
             output['__initData'] = report;
-            report = function(argFoo, argBar) { // Original name: $e
+            report = function(argFoo, argBar) { // Original name: ke
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     oscard = argFoo;
@@ -676,7 +674,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option[config];
             output = michal.bind(tangon)(zuuluu);
             report = output.useDerivedValue;
-            zuuluu = function() { // Original name: We
+            zuuluu = function() { // Original name: $e
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                     michal = _closure2_slot8;
@@ -830,7 +828,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = equals[sierra];
                 verify = limora.bind(whisks)(entity);
                 option = verify.useDerivedValue;
-                entity = function() { // Original name: P
+                entity = function() { // Original name: w
                     entity = global;
                     tangon = entity.Math;
                     zuuluu = tangon.max;
@@ -866,7 +864,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = equals[sierra];
                 verify = limora.bind(whisks)(entity);
                 option = verify.useDerivedValue;
-                entity = function() { // Original name: O
+                entity = function() { // Original name: I
                     entity = global;
                     tangon = entity.Math;
                     zuuluu = tangon.min;
@@ -902,7 +900,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = equals[sierra];
                 verify = limora.bind(whisks)(entity);
                 option = verify.useDerivedValue;
-                entity = function() { // Original name: le
+                entity = function() { // Original name: D
                     _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                         michal = _closure3_slot16;
@@ -955,7 +953,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sizing = option.bind(verify)(entity);
                 var _closure3_slot25 = sizing;
                 verify = offset.useCallback;
-                option = function(argFoo) { // Original name: de
+                option = function(argFoo) { // Original name: ae
                     _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
                         tangon = argFoo;
@@ -1070,7 +1068,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 quebec = verify.bind(offset)(option, entity);
                 var _closure3_slot26 = quebec;
                 verify = offset.useCallback;
-                option = function() { // Original name: ue
+                option = function() { // Original name: re
                     _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                         zuuluu = _closure3_slot2;
@@ -1150,7 +1148,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = equals[sierra];
                 update = limora.bind(whisks)(entity);
                 verify = update.useAnimatedReaction;
-                option = function() { // Original name: ge
+                option = function() { // Original name: le
                     michal = _closure3_slot5;
                     entity = michal.get;
                     entity = entity.bind(michal)();
@@ -1163,7 +1161,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option['__workletHash'] = entity;
                 entity = _closure1_slot22;
                 option['__initData'] = entity;
-                entity = function(argFoo, argBar) { // Original name: he
+                entity = function(argFoo, argBar) { // Original name: ce
                     _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
                         oscard = argFoo;
@@ -1228,7 +1226,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['__initData'] = variable38;
                 entity = verify.bind(update)(option, entity);
                 verify = offset.useCallback;
-                option = function() { // Original name: xe
+                option = function() { // Original name: Le
                     _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
                         michal = _closure3_slot23;
@@ -1417,7 +1415,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 update = verify.bind(offset)(option, entity);
                 var _closure3_slot28 = update;
                 verify = offset.useCallback;
-                option = function() { // Original name: Ye
+                option = function() { // Original name: ye
                     _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
                         zuuluu = _closure3_slot18;
@@ -1567,7 +1565,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = equals[sierra];
                 papara = limora.bind(whisks)(entity);
                 verify = papara.useAnimatedReaction;
-                option = function() { // Original name: ke
+                option = function() { // Original name: be
                     _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
                         michal = _closure3_slot2;
@@ -1609,7 +1607,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option['__workletHash'] = entity;
                 entity = _closure1_slot26;
                 option['__initData'] = entity;
-                entity = function(argFoo, argBar) { // Original name: Me
+                entity = function(argFoo, argBar) { // Original name: Ne
                     _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
  0:
                         zuuluu = argFoo;
@@ -1635,7 +1633,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = equals[sierra];
                 papara = limora.bind(whisks)(entity);
                 verify = papara.useAnimatedReaction;
-                option = function() { // Original name: Xe
+                option = function() { // Original name: Ye
                     _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
  0:
                         zuuluu = _closure3_slot2;
@@ -1661,7 +1659,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option['__workletHash'] = entity;
                 entity = _closure1_slot28;
                 option['__initData'] = entity;
-                entity = function(argFoo, argBar) { // Original name: Ge
+                entity = function(argFoo, argBar) { // Original name: xe
                     _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
  0:
                         michal = argFoo;
@@ -1687,7 +1685,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = equals[sierra];
                 papara = limora.bind(whisks)(entity);
                 verify = papara.useAnimatedReaction;
-                option = function() { // Original name: $e
+                option = function() { // Original name: ke
                     michal = _closure3_slot3;
                     entity = michal.get;
                     entity = entity.bind(michal)();
@@ -1700,7 +1698,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option['__workletHash'] = entity;
                 entity = _closure1_slot30;
                 option['__initData'] = entity;
-                entity = function(argFoo, argBar) { // Original name: Fe
+                entity = function(argFoo, argBar) { // Original name: Me
                     _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
  0:
                         michal = argFoo;
@@ -1726,7 +1724,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = equals[sierra];
                 papara = limora.bind(whisks)(entity);
                 verify = papara.useAnimatedReaction;
-                option = function() { // Original name: ze
+                option = function() { // Original name: Xe
                     michal = _closure3_slot6;
                     entity = michal.get;
                     entity = entity.bind(michal)();
@@ -1739,7 +1737,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option['__workletHash'] = entity;
                 entity = _closure1_slot32;
                 option['__initData'] = entity;
-                entity = function(argFoo, argBar) { // Original name: Ze
+                entity = function(argFoo, argBar) { // Original name: Ge
                     _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
  0:
                         report = argFoo;
@@ -1789,7 +1787,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = equals[sierra];
                 papara = limora.bind(whisks)(entity);
                 verify = papara.useAnimatedReaction;
-                option = function() { // Original name: We
+                option = function() { // Original name: $e
                     michal = _closure3_slot23;
                     entity = michal.get;
                     entity = entity.bind(michal)();
@@ -1802,7 +1800,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option['__workletHash'] = entity;
                 entity = _closure1_slot34;
                 option['__initData'] = entity;
-                entity = function(argFoo, argBar) { // Original name: Je
+                entity = function(argFoo, argBar) { // Original name: Fe
                     _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
  0:
                         zuuluu = _closure3_slot22;
@@ -1838,7 +1836,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = equals[sierra];
                 papara = limora.bind(whisks)(entity);
                 verify = papara.useAnimatedReaction;
-                option = function() { // Original name: qe
+                option = function() { // Original name: ze
                     michal = _closure3_slot19;
                     entity = michal.get;
                     entity = entity.bind(michal)();
@@ -1851,7 +1849,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option['__workletHash'] = entity;
                 entity = _closure1_slot36;
                 option['__initData'] = entity;
-                entity = function(argFoo, argBar) { // Original name: je
+                entity = function(argFoo, argBar) { // Original name: Ze
                     _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
  0:
                         michal = argFoo;
@@ -1952,7 +1950,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = 2;
                     offset = zuuluu.bind(offset)(michal);
                     zuuluu = offset.onTouchesMove;
-                    michal = function(argFoo, argBar) { // Original name: A
+                    michal = function(argFoo, argBar) { // Original name: V
                         michal = argBar;
                         entity = michal.fail;
                         entity = entity.bind(michal)();
@@ -1966,7 +1964,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['__initData'] = yankee;
                     offset = zuuluu.bind(offset)(michal);
                     zuuluu = offset.onStart;
-                    michal = function() { // Original name: V
+                    michal = function() { // Original name: O
                         _fun00045: for(var _fun00046_ip = 0; ; ) switch(_fun00046_ip) {
  0:
                             zuuluu = _closure3_slot25;
@@ -2047,7 +2045,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = offset.Tap;
                     yankee = michal.bind(offset)();
                     offset = yankee.onTouchesMove;
-                    michal = function(argFoo, argBar) { // Original name: O
+                    michal = function(argFoo, argBar) { // Original name: E
                         michal = argBar;
                         entity = michal.fail;
                         entity = entity.bind(michal)();
@@ -2169,7 +2167,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['__initData'] = yankee;
                     yankee = verify.bind(offset)(michal);
                     verify = yankee.onStart;
-                    michal = function() { // Original name: C
+                    michal = function() { // Original name: I
                         tangon = _closure3_slot18;
                         zuuluu = tangon.set;
                         michal = tangon.get;
@@ -2202,7 +2200,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['__initData'] = romeon;
                     yankee = verify.bind(yankee)(michal);
                     verify = yankee.onChange;
-                    michal = function(argFoo) { // Original name: T
+                    michal = function(argFoo) { // Original name: w
                         tangon = argFoo;
                         option = _closure3_slot15;
                         report = option.set;
@@ -2292,7 +2290,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['__initData'] = romeon;
                     yankee = verify.bind(yankee)(michal);
                     verify = yankee.onEnd;
-                    michal = function() { // Original name: v
+                    michal = function() { // Original name: p
                         tangon = _closure3_slot18;
                         zuuluu = tangon.set;
                         michal = tangon.get;
@@ -2641,7 +2639,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option[config];
             backup = michal.bind(tangon)(zuuluu);
             oscard = backup.useAnimatedStyle;
-            zuuluu = function() { // Original name: je
+            zuuluu = function() { // Original name: Ze
                 _fun00057: for(var _fun00058_ip = 0; ; ) switch(_fun00058_ip) {
  0:
                     michal = _closure2_slot13;
@@ -2756,7 +2754,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option[config];
             backup = michal.bind(tangon)(zuuluu);
             oscard = backup.useAnimatedStyle;
-            zuuluu = function() { // Original name: qe
+            zuuluu = function() { // Original name: ze
                 _fun00059: for(var _fun00060_ip = 0; ; ) switch(_fun00060_ip) {
  0:
                     michal = _closure2_slot22;
@@ -2845,7 +2843,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['__initData'] = output;
             output = oscard.bind(backup)(zuuluu);
             oscard = golfie.useCallback;
-            zuuluu = function(argFoo) { // Original name: Ue
+            zuuluu = function(argFoo) { // Original name: Je
                 tangon = _closure2_slot6;
                 michal = _closure2_slot12;
                 entity = michal.get;

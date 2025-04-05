@@ -123,12 +123,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = report.MultiAccountTokenStatus;
     var _closure1_slot8 = report;
     report = 6;
-    option = golfie[report];
-    option = oscard.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot9 = option;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    option = report.jsx;
+    var _closure1_slot9 = option;
     report = report.jsxs;
     var _closure1_slot10 = report;
     report = 7;

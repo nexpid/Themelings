@@ -281,12 +281,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = report.bind(entity)(tangon);
         romeon = tangon.Fonts;
         tangon = 4;
-        golfie = oscard[tangon];
-        golfie = report.bind(entity)(golfie);
-        golfie = golfie.jsx;
-        var _closure1_slot6 = golfie;
         tangon = oscard[tangon];
         tangon = report.bind(entity)(tangon);
+        golfie = tangon.jsx;
+        var _closure1_slot6 = golfie;
         tangon = tangon.jsxs;
         var _closure1_slot7 = tangon;
         tangon = 5;
@@ -358,10 +356,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         output = report.bind(entity)(sizing);
         sizing = output.isAndroid;
         sizing = sizing.bind(output)();
-        if(!sizing) { _fun00002_ip = 604; continue _fun00001 }
- 601:
+        if(!sizing) { _fun00002_ip = 595; continue _fun00001 }
+ 592:
         foxtra = kiloes;
- 604:
+ 595:
         backup['translateY'] = foxtra;
         foxtra = new Array(1);
         foxtra[0] = backup;

@@ -17,97 +17,170 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     michal = argFoo;
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 334; continue _fun00001 }
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
+                    if(tangon) { _fun00002_ip = 342; continue _fun00001 }
  13:
-                    foxtra = michal.iFrameUri;
-                    romeon = michal.iFrameSandboxAttributes;
-                    yankee = michal.referrerPolicy;
-                    offset = michal.insets;
-                    verify = michal.messageForDisallowedNavigationError;
+                    yankee = michal.iFrameUri;
+                    offset = michal.iFrameSandboxAttributes;
+                    verify = michal.referrerPolicy;
+                    option = michal.insets;
+                    zuuluu = michal.messageForDisallowedNavigationError;
                     oscard = undefined;
-                    option = undefined;
                     golfie = undefined;
+                    report = undefined;
                     SaveGenerator(address=53);
  51:
                     return oscard;
  53:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 331; continue _fun00001 }
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(tangon) { _fun00002_ip = 339; continue _fun00001 }
  62:
-                    option = 'discord_activity_data/activity.html';
-                    report = _closure1_slot7;
+                    golfie = 'discord_activity_data/activity.html';
                     tangon = {};
-                    tangon['iFrameUri'] = foxtra;
-                    tangon['iFrameSandboxAttributes'] = romeon;
-                    tangon['referrerPolicy'] = yankee;
-                    tangon['insets'] = offset;
-                    tangon['messageForDisallowedNavigationError'] = verify;
-                    golfie = report.bind(oscard)(tangon);
- 107: // try_start_0
-                    report = _closure1_slot0;
+                    tangon['iFrameUri'] = yankee;
+                    tangon['iFrameSandboxAttributes'] = offset;
+                    tangon['referrerPolicy'] = verify;
+                    tangon['insets'] = option;
+                    tangon['messageForDisallowedNavigationError'] = zuuluu;
+                    zuuluu = function(argFoo) {
+                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                            entity = argFoo;
+                            romeon = entity.iFrameUri;
+                            yankee = entity.iFrameSandboxAttributes;
+                            offset = entity.referrerPolicy;
+                            report = entity.insets;
+                            golfie = entity.messageForDisallowedNavigationError;
+                            tangon = _closure1_slot0;
+                            zuuluu = _closure1_slot2;
+                            michal = 2;
+                            michal = zuuluu[michal];
+                            zuuluu = undefined;
+                            tangon = tangon.bind(zuuluu)(michal);
+                            michal = tangon.isAndroid;
+                            michal = michal.bind(tangon)();
+                            verify = '';
+                            option = verify;
+                            if(!michal) { _fun00004_ip = 167; continue _fun00003 }
+ 77:
+                            tangon = _closure1_slot5;
+                            michal = {'insets': null, 'iframeWindowVarName': 'iframeWindow', 'isIframeLoadedVarName': 'isIframeLoaded'};
+                            michal['insets'] = report;
+                            oscard = tangon.bind(zuuluu)(michal);
+                            michal = _closure1_slot6;
+                            entity = {'iframeWindowVarName': 'iframeWindow', 'isIframeLoadedVarName': 'isIframeLoaded'};
+                            update = michal.bind(zuuluu)(entity);
+                            entity = global;
+                            entity = entity.HermesInternal;
+                            tangon = entity.concat;
+                            vacuum = '\n      <script type="text/javascript">\n        var iframe = document.getElementById("activityFrame");\n        var iframeWindow = iframe.contentWindow;\n        var isIframeLoaded = false;\n        ';
+                            source = '\n        ';
+                            echoed = '\n      </script>\n      ';
+                            ctrled = oscard;
+                            option = vacuum[tangon](ctrled, source, update, echoed, result);
+ 167:
+                            entity = null;
+                            entity = entity != golfie;
+                            if(!entity) { _fun00004_ip = 249; continue _fun00003 }
+ 176:
+                            entity = global;
+                            michal = entity.HermesInternal;
+                            oscard = michal.concat;
+                            vacuum = '\n  ';
+                            ctrled = 'iframeWindow';
+                            source = ".addEventListener('beforeunload', function (e) {\n    window.ReactNativeWebView.postMessage('";
+                            echoed = "');\n    e.preventDefault();\n  });\n";
+                            update = golfie;
+                            tangon = vacuum[oscard](ctrled, source, update, echoed, result);
+                            entity = entity.HermesInternal;
+                            zuuluu = entity.concat;
+                            michal = '\n      <script type="text/javascript">\n        var iframe = document.getElementById("activityFrame");\n        var iframeWindow = iframe.contentWindow;\n        ';
+                            entity = '\n      </script>\n      ';
+                            verify = zuuluu.bind(michal)(tangon, entity);
+ 249:
+                            entity = global;
+                            entity = entity.HermesInternal;
+                            golfie = entity.concat;
+                            vacuum = '\n  <html>\n  <head>\n      <style>\n      body {\n          padding: 0;\n          margin: 0;\n          width: 100vw;\n          min-height: 100vh; /* This keeps a small white gap at the bottom of the screen, the options below help prevent this. */\n          min-height: -moz-available; /* See: https://ilxanlar.medium.com/you-shouldnt-rely-on-css-100vh-and-here-s-why-1b4721e74487 for more info */\n          min-height: -webkit-fill-available;\n          min-height: fill-available;\n      }\n      </style>\n      <meta\n      name="viewport"\n      content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover"\n      />\n  </head>\n  <body>\n      <script type="text/javascript">\n          window.addEventListener(\'message\', e => {\n            window.ReactNativeWebView.postMessage(JSON.stringify(e.data));\n          });\n      </script>\n      <iframe id="activityFrame" width="100%" height="100%" src="';
+                            source = '" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen sandbox="';
+                            echoed = '" referrerPolicy="';
+                            output = '">\n      </iframe>\n      ';
+                            kiloes = '\n      ';
+                            foxtra = '\n  </body>\n  </html>\n';
+                            ctrled = romeon;
+                            update = yankee;
+                            result = offset;
+                            sizing = option;
+                            backup = verify;
+                            entity = vacuum[golfie](ctrled, source, update, echoed, result, output, sizing, kiloes, backup, foxtra, romeon);
+                            return entity;
+                        }
+                    };
+                    report = zuuluu.bind(oscard)(tangon);
+ 109: // try_start_0
+                    tangon = _closure1_slot0;
                     verify = _closure1_slot2;
-                    tangon = 2;
-                    tangon = verify[tangon];
-                    report = report.bind(oscard)(tangon);
-                    tangon = report.isAndroid;
-                    tangon = tangon.bind(report)();
-                    if(tangon) { _fun00002_ip = 197; continue _fun00001 }
- 139:
-                    tangon = _closure1_slot4;
-                    romeon = tangon.DCDFileManager;
+                    zuuluu = 2;
+                    zuuluu = verify[zuuluu];
+                    tangon = tangon.bind(oscard)(zuuluu);
+                    zuuluu = tangon.isAndroid;
+                    zuuluu = zuuluu.bind(tangon)();
+                    if(zuuluu) { _fun00002_ip = 202; continue _fun00001 }
+ 144:
+                    zuuluu = _closure1_slot4;
+                    romeon = zuuluu.DCDFileManager;
                     yankee = romeon.writeFile;
-                    sizing = option;
                     kiloes = golfie;
-                    output = 'cache';
-                    backup = 'utf8';
-                    result = romeon;
-                    tangon = result[yankee](output, sizing, kiloes, backup, foxtra);
-                    SaveGenerator(address=182);
- 180:
-                    return tangon;
- 182:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    verify = report;
-                    report = tangon;
-                    if(!verify) { _fun00002_ip = 287; continue _fun00001 }
- 194: // try_end0
-                    return tangon;
- 197: // try_start_1
+                    backup = report;
+                    sizing = 'cache';
+                    foxtra = 'utf8';
+                    output = romeon;
+                    zuuluu = output[yankee](sizing, kiloes, backup, foxtra, romeon);
+                    SaveGenerator(address=187);
+ 185:
+                    return zuuluu;
+ 187:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                    verify = tangon;
+                    tangon = zuuluu;
+                    if(!verify) { _fun00002_ip = 292; continue _fun00001 }
+ 199: // try_end0
+                    return zuuluu;
+ 202: // try_start_1
                     verify = _closure1_slot1;
-                    tangon = _closure1_slot2;
-                    yankee = 3;
-                    tangon = tangon[yankee];
-                    verify = verify.bind(oscard)(tangon);
-                    tangon = null;
-                    verify = tangon == verify;
-                    tangon = undefined;
-                    if(verify) { _fun00002_ip = 274; continue _fun00001 }
- 228:
-                    offset = _closure1_slot1;
-                    verify = _closure1_slot2;
-                    verify = verify[yankee];
-                    romeon = offset.bind(oscard)(verify);
-                    yankee = romeon.writeFile;
-                    sizing = option;
+                    zuuluu = _closure1_slot2;
+                    offset = 3;
+                    zuuluu = zuuluu[offset];
+                    verify = verify.bind(oscard)(zuuluu);
+                    zuuluu = null;
+                    verify = zuuluu == verify;
+                    zuuluu = undefined;
+                    if(verify) { _fun00002_ip = 279; continue _fun00001 }
+ 233:
+                    verify = _closure1_slot1;
+                    option = _closure1_slot2;
+                    option = option[offset];
+                    yankee = verify.bind(oscard)(option);
+                    offset = yankee.writeFile;
                     kiloes = golfie;
-                    output = 'cache';
-                    backup = 'utf8';
-                    result = romeon;
-                    tangon = result[yankee](output, sizing, kiloes, backup, foxtra);
- 274:
-                    SaveGenerator(address=278);
- 276:
+                    backup = report;
+                    sizing = 'cache';
+                    foxtra = 'utf8';
+                    output = yankee;
+                    zuuluu = output[offset](sizing, kiloes, backup, foxtra, romeon);
+ 279:
+                    SaveGenerator(address=283);
+ 281:
+                    return zuuluu;
+ 283:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                    tangon = zuuluu;
+                    if(report) { _fun00002_ip = 295; continue _fun00001 }
+ 292: // try_end1
                     return tangon;
- 278:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    report = tangon;
-                    if(golfie) { _fun00002_ip = 290; continue _fun00001 }
- 287: // try_end1
-                    return report;
- 290:
-                    return tangon;
- 293: // catch_target0 // catch_target1
+ 295:
+                    return zuuluu;
+ 298: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=4);
                     tangon = _closure1_slot1;
                     golfie = _closure1_slot2;
@@ -118,9 +191,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = zuuluu.bind(tangon)(report);
                     zuuluu = null;
                     return zuuluu;
- 331:
+ 339:
                     return michal;
- 334:
+ 342:
                     return entity;
                 }
             };
@@ -129,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot8 = tangon;
+        _closure1_slot7 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -137,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot8 = entity;
+    var _closure1_slot7 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -157,14 +230,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = tangon.NativeModules;
     var _closure1_slot4 = tangon;
     tangon = function(argFoo) { // Original name: safeAreaInitJs
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             michal = argFoo;
             entity = michal.insets;
             kiloes = michal.iframeWindowVarName;
             backup = michal.isIframeLoadedVarName;
             michal = null;
-            if(!(michal == entity)) { _fun00004_ip = 41; continue _fun00003 }
+            if(!(michal == entity)) { _fun00006_ip = 41; continue _fun00005 }
  27:
             entity = {'top': 0, 'bottom': 0, 'left': 0, 'right': 0};
  41:
@@ -212,81 +285,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot6 = tangon;
-    tangon = function(argFoo) { // Original name: generateWebviewHtml
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
- 0:
-            entity = argFoo;
-            romeon = entity.iFrameUri;
-            yankee = entity.iFrameSandboxAttributes;
-            offset = entity.referrerPolicy;
-            report = entity.insets;
-            golfie = entity.messageForDisallowedNavigationError;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            michal = 2;
-            michal = zuuluu[michal];
-            zuuluu = undefined;
-            tangon = tangon.bind(zuuluu)(michal);
-            michal = tangon.isAndroid;
-            michal = michal.bind(tangon)();
-            verify = '';
-            option = verify;
-            if(!michal) { _fun00006_ip = 167; continue _fun00005 }
- 77:
-            tangon = _closure1_slot5;
-            michal = {'insets': null, 'iframeWindowVarName': 'iframeWindow', 'isIframeLoadedVarName': 'isIframeLoaded'};
-            michal['insets'] = report;
-            oscard = tangon.bind(zuuluu)(michal);
-            michal = _closure1_slot6;
-            entity = {'iframeWindowVarName': 'iframeWindow', 'isIframeLoadedVarName': 'isIframeLoaded'};
-            update = michal.bind(zuuluu)(entity);
-            entity = global;
-            entity = entity.HermesInternal;
-            tangon = entity.concat;
-            vacuum = '\n      <script type="text/javascript">\n        var iframe = document.getElementById("activityFrame");\n        var iframeWindow = iframe.contentWindow;\n        var isIframeLoaded = false;\n        ';
-            source = '\n        ';
-            echoed = '\n      </script>\n      ';
-            ctrled = oscard;
-            option = vacuum[tangon](ctrled, source, update, echoed, result);
- 167:
-            entity = null;
-            entity = entity != golfie;
-            if(!entity) { _fun00006_ip = 249; continue _fun00005 }
- 176:
-            entity = global;
-            michal = entity.HermesInternal;
-            oscard = michal.concat;
-            vacuum = '\n  ';
-            ctrled = 'iframeWindow';
-            source = ".addEventListener('beforeunload', function (e) {\n    window.ReactNativeWebView.postMessage('";
-            echoed = "');\n    e.preventDefault();\n  });\n";
-            update = golfie;
-            tangon = vacuum[oscard](ctrled, source, update, echoed, result);
-            entity = entity.HermesInternal;
-            zuuluu = entity.concat;
-            michal = '\n      <script type="text/javascript">\n        var iframe = document.getElementById("activityFrame");\n        var iframeWindow = iframe.contentWindow;\n        ';
-            entity = '\n      </script>\n      ';
-            verify = zuuluu.bind(michal)(tangon, entity);
- 249:
-            entity = global;
-            entity = entity.HermesInternal;
-            golfie = entity.concat;
-            vacuum = '\n  <html>\n  <head>\n      <style>\n      body {\n          padding: 0;\n          margin: 0;\n          width: 100vw;\n          min-height: 100vh; /* This keeps a small white gap at the bottom of the screen, the options below help prevent this. */\n          min-height: -moz-available; /* See: https://ilxanlar.medium.com/you-shouldnt-rely-on-css-100vh-and-here-s-why-1b4721e74487 for more info */\n          min-height: -webkit-fill-available;\n          min-height: fill-available;\n      }\n      </style>\n      <meta\n      name="viewport"\n      content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover"\n      />\n  </head>\n  <body>\n      <script type="text/javascript">\n          window.addEventListener(\'message\', e => {\n            window.ReactNativeWebView.postMessage(JSON.stringify(e.data));\n          });\n      </script>\n      <iframe id="activityFrame" width="100%" height="100%" src="';
-            source = '" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen sandbox="';
-            echoed = '" referrerPolicy="';
-            output = '">\n      </iframe>\n      ';
-            kiloes = '\n      ';
-            foxtra = '\n  </body>\n  </html>\n';
-            ctrled = romeon;
-            update = yankee;
-            result = offset;
-            sizing = option;
-            backup = verify;
-            entity = vacuum[golfie](ctrled, source, update, echoed, result, output, sizing, kiloes, backup, foxtra, romeon);
-            return entity;
-        }
-    };
-    var _closure1_slot7 = tangon;
     tangon = 5;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -295,7 +293,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     tangon = function() { // Original name: createWebviewHtmlFile
         entity = undefined;
-        tangon = _closure1_slot8;
+        tangon = _closure1_slot7;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;

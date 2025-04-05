@@ -11,10 +11,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             zuuluu = arguments[0];
             michal = undefined;
-            if(!(zuuluu === michal)) { _fun00002_ip = 18; continue _fun00001 }
+            if(!(zuuluu === michal)) { _fun00002_ip = 17; continue _fun00001 }
  11:
-            zuuluu = _closure1_slot4;
- 18:
+            zuuluu = 500;
+ 17:
             var _closure2_slot0 = zuuluu;
             var _closure2_slot1 = michal;
             report = _closure1_slot2;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot5 = michal;
+    var _closure1_slot4 = michal;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -102,8 +102,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = oscard.bind(entity)(report);
     report = report.jsx;
     var _closure1_slot3 = report;
-    report = 500;
-    var _closure1_slot4 = report;
     report = 3;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
@@ -119,10 +117,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = report.onPressOut;
             zuuluu = report.throttleMs;
             tangon = undefined;
-            if(!(zuuluu === tangon)) { _fun00006_ip = 39; continue _fun00005 }
+            if(!(zuuluu === tangon)) { _fun00006_ip = 38; continue _fun00005 }
  32:
-            zuuluu = _closure1_slot4;
- 39:
+            zuuluu = 500;
+ 38:
             michal = {'onPress': 0, 'onPressIn': 0, 'onPressOut': 0, 'throttleMs': 0};
             romeon = null;
             foxtra = michal;
@@ -131,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = report;
             yankee = michal;
             romeon = copyDataProperties(foxtra, romeon, yankee);
-            michal = _closure1_slot5;
+            michal = _closure1_slot4;
             report = michal.bind(tangon)(zuuluu);
             zuuluu = _closure1_slot3;
             michal = _closure1_slot0;

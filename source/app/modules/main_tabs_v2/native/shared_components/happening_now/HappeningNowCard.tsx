@@ -64,10 +64,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset = 4;
     option = oscard[offset];
     option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot19 = option;
-    option = oscard[offset];
-    option = report.bind(entity)(option);
+    verify = option.jsx;
+    var _closure1_slot19 = verify;
     option = option.jsxs;
     var _closure1_slot20 = option;
     tangon = tangon + golfie;

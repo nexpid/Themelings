@@ -37,12 +37,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = report.bind(entity)(tangon);
         foxtra = tangon.SOUND_BUTTON_HEIGHT;
         tangon = 4;
-        golfie = oscard[tangon];
-        golfie = report.bind(entity)(golfie);
-        golfie = golfie.jsx;
-        var _closure1_slot6 = golfie;
         tangon = oscard[tangon];
         tangon = report.bind(entity)(tangon);
+        golfie = tangon.jsx;
+        var _closure1_slot6 = golfie;
         tangon = tangon.jsxs;
         var _closure1_slot7 = tangon;
         golfie = 5;
@@ -114,10 +112,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = result.isIOS;
         result = tangon.bind(result)();
         tangon = undefined;
-        if(!result) { _fun00002_ip = 536; continue _fun00001 }
- 533:
+        if(!result) { _fun00002_ip = 527; continue _fun00001 }
+ 524:
         tangon = output;
- 536:
+ 527:
         foxtra['fontSize'] = tangon;
         tangon = 28;
         offset['emoji'] = foxtra;

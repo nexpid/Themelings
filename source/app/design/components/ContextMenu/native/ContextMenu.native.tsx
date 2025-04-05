@@ -22,12 +22,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     tangon = tangon.bind(entity)(golfie);
     var _closure1_slot3 = tangon;
     tangon = 1;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.Fragment;
-    var _closure1_slot4 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.Fragment;
+    var _closure1_slot4 = golfie;
     tangon = tangon.jsx;
     var _closure1_slot5 = tangon;
     tangon = {};
@@ -468,7 +466,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             echoed = kiloes.bind(backup)(option, verify);
             _closure2_slot23 = echoed;
             kiloes = backup.useCallback;
-            verify = function() { // Original name: R
+            verify = function() { // Original name: B
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                     tangon = function(argFoo) { // Original name: autoPositionVertical
@@ -997,7 +995,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     offset = _closure2_slot9;
                     romeon = tangon.bind(golfie)(offset);
                     golfie = romeon.onUpdate;
-                    tangon = function(argFoo) { // Original name: E
+                    tangon = function(argFoo) { // Original name: i
                         michal = argFoo;
                         tangon = _closure1_slot0;
                         zuuluu = _closure1_slot2;

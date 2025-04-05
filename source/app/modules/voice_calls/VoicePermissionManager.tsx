@@ -7,43 +7,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot0 = oscard;
     var _closure1_slot1 = option;
     var _closure1_slot2 = golfie;
-    entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            tangon = argFoo;
-            oscard = argBaz;
-            michal = _closure1_slot6;
-            zuuluu = undefined;
-            entity = argBar;
-            verify = michal.bind(zuuluu)(entity);
-            michal = _closure1_slot5;
-            entity = _closure1_slot18;
-            entity = entity.bind(zuuluu)();
-            if(entity) { _fun00002_ip = 51; continue _fun00001 }
- 38:
-            entity = verify.apply;
-            entity = entity.bind(verify)(tangon, oscard);
-            _fun00002_ip = 92; continue _fun00001;
- 51:
-            golfie = global;
-            option = golfie.Reflect;
-            golfie = option.construct;
-            if(oscard) { _fun00002_ip = 71; continue _fun00001 }
- 67:
-            oscard = new Array(0);
- 71:
-            report = _closure1_slot6;
-            report = report.bind(zuuluu)(tangon);
-            report = report.constructor;
-            entity = golfie.bind(option)(verify, oscard, report);
- 92:
-            entity = michal.bind(zuuluu)(tangon, entity);
-            return entity;
-        }
-    };
-    var _closure1_slot17 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
  2: // try_start_0
             michal = global;
@@ -64,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = !michal;
             var _closure2_slot0 = michal;
  72: // try_end0
-            _fun00004_ip = 76; continue _fun00003;
+            _fun00002_ip = 76; continue _fun00001;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -74,15 +39,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot18 = michal;
+            _closure1_slot17 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot18 = entity;
+    var _closure1_slot17 = entity;
     entity = function() { // Original name: voicePermissionRequest
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tangon = _closure1_slot1;
             entity = _closure1_slot2;
@@ -96,10 +61,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = tangon.bind(oscard)(zuuluu);
             tangon = oscard.then;
             zuuluu = function(argFoo) {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = argFoo;
-                    if(!entity) { _fun00008_ip = 38; continue _fun00007 }
+                    if(!entity) { _fun00006_ip = 38; continue _fun00005 }
  6:
                     michal = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -120,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = zuuluu.bind(tangon)();
             zuuluu = _closure1_slot14;
             zuuluu = zuuluu.PUSH_TO_TALK;
-            if(!(tangon === zuuluu)) { _fun00006_ip = 131; continue _fun00005 }
+            if(!(tangon === zuuluu)) { _fun00004_ip = 131; continue _fun00003 }
  93:
             tangon = _closure1_slot1;
             zuuluu = _closure1_slot2;
@@ -134,9 +99,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot19 = entity;
+    var _closure1_slot18 = entity;
     michal = function(argFoo, argBar) { // Original name: shouldImmediatelyRequestVoicePermissions
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             report = argBar;
             zuuluu = _closure1_slot11;
@@ -145,13 +110,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = null;
             zuuluu = entity == tangon;
             entity = undefined;
-            if(zuuluu) { _fun00010_ip = 41; continue _fun00009 }
+            if(zuuluu) { _fun00008_ip = 41; continue _fun00007 }
  31:
             zuuluu = tangon.isListenModeCapable;
             entity = zuuluu.bind(tangon)();
  41:
             entity = !entity;
-            if(entity) { _fun00010_ip = 66; continue _fun00009 }
+            if(entity) { _fun00008_ip = 66; continue _fun00007 }
  47:
             tangon = _closure1_slot8;
             zuuluu = tangon.isSpeaker;
@@ -161,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot20 = michal;
+    var _closure1_slot19 = michal;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -232,27 +197,48 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = option.bind(entity)(report);
     tangon = function(argFoo) {
         tangon = function(argFoo) { // Original name: VoicePermissionManager
-            report = this;
-            offset = 0;
-            oscard = copyRestArgs(offset);
-            michal = _closure1_slot3;
-            tangon = _closure2_slot0;
-            zuuluu = undefined;
-            michal = michal.bind(zuuluu)(report, tangon);
-            michal = _closure1_slot17;
-            entity = new Array(0);
-            offset = entity;
-            verify = oscard;
-            option = 0;
-            oscard = arraySpread(offset, verify, option);
-            entity = michal.bind(zuuluu)(report, tangon, entity);
-            michal = {};
-            zuuluu = entity.handleVoiceStateUpdates;
-            michal['VOICE_STATE_UPDATES'] = zuuluu;
-            zuuluu = entity.handleVoiceChannelSelect;
-            michal['VOICE_CHANNEL_SELECT'] = zuuluu;
-            entity['actions'] = michal;
-            return entity;
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+ 0:
+                tangon = this;
+                romeon = 0;
+                entity = copyRestArgs(romeon);
+                golfie = _closure1_slot3;
+                michal = _closure2_slot0;
+                zuuluu = undefined;
+                golfie = golfie.bind(zuuluu)(tangon, michal);
+                verify = new Array(0);
+                romeon = verify;
+                yankee = entity;
+                offset = 0;
+                entity = arraySpread(romeon, yankee, offset);
+                entity = _closure1_slot6;
+                option = entity.bind(zuuluu)(michal);
+                michal = _closure1_slot5;
+                entity = _closure1_slot17;
+                entity = entity.bind(zuuluu)();
+                if(entity) { _fun00010_ip = 84; continue _fun00009 }
+ 71:
+                entity = option.apply;
+                entity = entity.bind(option)(tangon, verify);
+                _fun00010_ip = 118; continue _fun00009;
+ 84:
+                oscard = global;
+                golfie = oscard.Reflect;
+                oscard = golfie.construct;
+                report = _closure1_slot6;
+                report = report.bind(zuuluu)(tangon);
+                report = report.constructor;
+                entity = oscard.bind(golfie)(option, verify, report);
+ 118:
+                entity = michal.bind(zuuluu)(tangon, entity);
+                michal = {};
+                zuuluu = entity.handleVoiceStateUpdates;
+                michal['VOICE_STATE_UPDATES'] = zuuluu;
+                zuuluu = entity.handleVoiceChannelSelect;
+                michal['VOICE_CHANNEL_SELECT'] = zuuluu;
+                entity['actions'] = michal;
+                return entity;
+            }
         };
         var _closure2_slot0 = tangon;
         report = _closure1_slot7;
@@ -309,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = _closure1_slot16;
                     if(!(entity !== zuuluu)) { _fun00014_ip = 182; continue _fun00013 }
  72:
-                    tangon = _closure1_slot20;
+                    tangon = _closure1_slot19;
                     entity = undefined;
                     tangon = tangon.bind(entity)(report, zuuluu);
                     if(tangon) { _fun00014_ip = 186; continue _fun00013 }
@@ -335,14 +321,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     if(!(report === tangon)) { _fun00014_ip = 182; continue _fun00013 }
  170:
                     _closure1_slot16 = zuuluu;
-                    tangon = _closure1_slot19;
+                    tangon = _closure1_slot18;
                     tangon = tangon.bind(entity)();
  182:
                     tangon = undefined;
                     return tangon;
  186:
                     _closure1_slot16 = zuuluu;
-                    michal = _closure1_slot19;
+                    michal = _closure1_slot18;
                     michal = michal.bind(entity)();
                     return entity;
                 }

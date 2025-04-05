@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot9 = tangon;
+        _closure1_slot8 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot8 = entity;
     entity = function() { // Original name: _getClanInfo
         report = undefined;
         entity = undefined;
@@ -247,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot10 = tangon;
+        _closure1_slot9 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -255,7 +255,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot10 = entity;
+    var _closure1_slot9 = entity;
     entity = function() { // Original name: _adoptClanIdentity
         report = undefined;
         entity = undefined;
@@ -363,7 +363,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot11 = tangon;
+        _closure1_slot10 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -371,7 +371,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot11 = entity;
+    var _closure1_slot10 = entity;
     entity = function() { // Original name: _fetchClanSettings
         report = undefined;
         entity = undefined;
@@ -381,67 +381,144 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     StartGenerator();
-                    option = argFoo;
+                    golfie = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00008_ip = 196; continue _fun00007 }
+                    if(michal) { _fun00008_ip = 485; continue _fun00007 }
  13:
-                    tangon = _closure1_slot1;
-                    report = _closure1_slot2;
+                    report = _closure1_slot1;
+                    option = _closure1_slot2;
                     oscard = 5;
-                    michal = report[oscard];
+                    michal = option[oscard];
                     zuuluu = undefined;
-                    verify = tangon.bind(zuuluu)(michal);
-                    tangon = verify.dispatch;
+                    verify = report.bind(zuuluu)(michal);
+                    report = verify.dispatch;
                     michal = {};
                     offset = 'CLAN_SETTINGS_FETCH_START';
                     michal['type'] = offset;
-                    michal = tangon.bind(verify)(michal);
-                    tangon = _closure1_slot0;
+                    michal = report.bind(verify)(michal);
+                    report = _closure1_slot0;
                     michal = 6;
-                    michal = report[michal];
-                    michal = tangon.bind(zuuluu)(michal);
-                    report = michal.HTTP;
-                    tangon = report.get;
+                    michal = option[michal];
+                    michal = report.bind(zuuluu)(michal);
+                    option = michal.HTTP;
+                    report = option.get;
                     michal = {};
                     offset = _closure1_slot7;
                     verify = offset.CLAN_SETTINGS;
-                    verify = verify.bind(offset)(option);
+                    verify = verify.bind(offset)(golfie);
                     michal['url'] = verify;
                     verify = false;
                     michal['rejectWithError'] = verify;
-                    michal = tangon.bind(report)(michal);
+                    michal = report.bind(option)(michal);
                     SaveGenerator(address=122);
  120:
                     return michal;
  122:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00008_ip = 193; continue _fun00007 }
- 128:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(report) { _fun00008_ip = 482; continue _fun00007 }
+ 131:
                     report = _closure1_slot1;
                     tangon = _closure1_slot2;
                     tangon = tangon[oscard];
                     oscard = report.bind(zuuluu)(tangon);
                     report = oscard.dispatch;
                     tangon = {};
-                    verify = 'CLAN_SETTINGS_FETCH_SUCCESS';
-                    tangon['type'] = verify;
-                    tangon['guildId'] = option;
-                    option = _closure1_slot8;
-                    golfie = michal.body;
-                    golfie = option.bind(zuuluu)(golfie);
+                    option = 'CLAN_SETTINGS_FETCH_SUCCESS';
+                    tangon['type'] = option;
+                    tangon['guildId'] = golfie;
+                    option = michal.body;
+                    golfie = {};
+                    verify = option.tag;
+                    golfie['tag'] = verify;
+                    verify = global;
+                    foxtra = verify.Set;
+                    offset = option.game_application_ids;
+                    romeon = null;
+                    if(!(romeon == offset)) { _fun00008_ip = 209; continue _fun00007 }
+ 205:
+                    offset = new Array(0);
+ 209:
+                    yankee = foxtra.prototype;
+                    yankee = Object.create(yankee, {constructor: {value: foxtra}});
+                    sizing = yankee;
+                    kiloes = offset;
+                    offset = new sizing[foxtra](kiloes, backup);
+                    offset = offset instanceof Object ? offset : yankee;
+                    golfie['gameApplicationIds'] = offset;
+                    yankee = verify.Set;
+                    verify = option.search_terms;
+                    if(!(romeon == verify)) { _fun00008_ip = 257; continue _fun00007 }
+ 253:
+                    verify = new Array(0);
+ 257:
+                    offset = yankee.prototype;
+                    offset = Object.create(offset, {constructor: {value: yankee}});
+                    sizing = offset;
+                    kiloes = verify;
+                    verify = new sizing[yankee](kiloes, backup);
+                    verify = verify instanceof Object ? verify : offset;
+                    golfie['interests'] = verify;
+                    verify = option.play_style;
+                    golfie['playstyle'] = verify;
+                    verify = option.description;
+                    golfie['description'] = verify;
+                    verify = option.wildcard_descriptors;
+                    golfie['wildcardDescriptors'] = verify;
+                    verify = {};
+                    offset = option.verification_form;
+                    yankee = romeon == offset;
+                    foxtra = undefined;
+                    if(yankee) { _fun00008_ip = 338; continue _fun00007 }
+ 333:
+                    foxtra = offset.description;
+ 338:
+                    backup = romeon != foxtra;
+                    offset = '';
+                    yankee = offset;
+                    if(!backup) { _fun00008_ip = 355; continue _fun00007 }
+ 352:
+                    yankee = foxtra;
+ 355:
+                    verify['description'] = yankee;
+                    foxtra = option.verification_form;
+                    backup = romeon == foxtra;
+                    yankee = undefined;
+                    if(backup) { _fun00008_ip = 380; continue _fun00007 }
+ 374:
+                    yankee = foxtra.form_fields;
+ 380:
+                    if(!(romeon == yankee)) { _fun00008_ip = 388; continue _fun00007 }
+ 384:
+                    yankee = new Array(0);
+ 388:
+                    verify['formFields'] = yankee;
+                    verify['version'] = offset;
+                    golfie['verificationForm'] = verify;
+                    verify = option.badge;
+                    golfie['badgeKind'] = verify;
+                    verify = option.badge_color_primary;
+                    golfie['badgePrimaryColor'] = verify;
+                    verify = option.badge_color_secondary;
+                    golfie['badgeSecondaryColor'] = verify;
+                    verify = option.banner;
+                    golfie['banner'] = verify;
+                    verify = option.brand_color_primary;
+                    golfie['brandPrimaryColor'] = verify;
+                    option = option.brand_color_secondary;
+                    golfie['brandSecondaryColor'] = option;
                     tangon['settings'] = golfie;
                     tangon = report.bind(oscard)(tangon);
                     return zuuluu;
- 193:
+ 482:
                     return michal;
- 196:
+ 485:
                     return entity;
                 }
             };
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot12 = tangon;
+        _closure1_slot11 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -449,7 +526,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot11 = entity;
     entity = function() { // Original name: _saveClanSettings
         report = undefined;
         entity = undefined;
@@ -629,7 +706,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot13 = tangon;
+        _closure1_slot12 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -637,7 +714,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot13 = entity;
+    var _closure1_slot12 = entity;
     entity = function() { // Original name: _disableClan
         report = undefined;
         entity = undefined;
@@ -688,7 +765,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot14 = tangon;
+        _closure1_slot13 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -696,7 +773,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot13 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -728,93 +805,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.Endpoints;
     var _closure1_slot7 = tangon;
-    tangon = function(argFoo) { // Original name: _clanSettingsFromServer
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
- 0:
-            michal = argFoo;
-            entity = {};
-            zuuluu = michal.tag;
-            entity['tag'] = zuuluu;
-            zuuluu = global;
-            golfie = zuuluu.Set;
-            tangon = michal.game_application_ids;
-            oscard = null;
-            if(!(oscard == tangon)) { _fun00014_ip = 38; continue _fun00013 }
- 34:
-            tangon = new Array(0);
- 38:
-            report = golfie.prototype;
-            report = Object.create(report, {constructor: {value: golfie}});
-            yankee = report;
-            offset = tangon;
-            tangon = new yankee[golfie](offset, verify);
-            tangon = tangon instanceof Object ? tangon : report;
-            entity['gameApplicationIds'] = tangon;
-            report = zuuluu.Set;
-            zuuluu = michal.search_terms;
-            if(!(oscard == zuuluu)) { _fun00014_ip = 86; continue _fun00013 }
- 82:
-            zuuluu = new Array(0);
- 86:
-            tangon = report.prototype;
-            tangon = Object.create(tangon, {constructor: {value: report}});
-            yankee = tangon;
-            offset = zuuluu;
-            zuuluu = new yankee[report](offset, verify);
-            zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
-            entity['interests'] = zuuluu;
-            zuuluu = michal.play_style;
-            entity['playstyle'] = zuuluu;
-            zuuluu = michal.description;
-            entity['description'] = zuuluu;
-            zuuluu = michal.wildcard_descriptors;
-            entity['wildcardDescriptors'] = zuuluu;
-            zuuluu = {};
-            tangon = michal.verification_form;
-            golfie = oscard == tangon;
-            option = undefined;
-            if(golfie) { _fun00014_ip = 167; continue _fun00013 }
- 162:
-            option = tangon.description;
- 167:
-            verify = oscard != option;
-            tangon = '';
-            golfie = tangon;
-            if(!verify) { _fun00014_ip = 184; continue _fun00013 }
- 181:
-            golfie = option;
- 184:
-            zuuluu['description'] = golfie;
-            golfie = michal.verification_form;
-            option = oscard == golfie;
-            report = undefined;
-            if(option) { _fun00014_ip = 209; continue _fun00013 }
- 203:
-            report = golfie.form_fields;
- 209:
-            if(!(oscard == report)) { _fun00014_ip = 217; continue _fun00013 }
- 213:
-            report = new Array(0);
- 217:
-            zuuluu['formFields'] = report;
-            zuuluu['version'] = tangon;
-            entity['verificationForm'] = zuuluu;
-            zuuluu = michal.badge;
-            entity['badgeKind'] = zuuluu;
-            zuuluu = michal.badge_color_primary;
-            entity['badgePrimaryColor'] = zuuluu;
-            zuuluu = michal.badge_color_secondary;
-            entity['badgeSecondaryColor'] = zuuluu;
-            zuuluu = michal.banner;
-            entity['banner'] = zuuluu;
-            zuuluu = michal.brand_color_primary;
-            entity['brandPrimaryColor'] = zuuluu;
-            michal = michal.brand_color_secondary;
-            entity['brandSecondaryColor'] = michal;
-            return entity;
-        }
-    };
-    var _closure1_slot8 = tangon;
     tangon = 9;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -823,7 +813,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     tangon = function() { // Original name: convertGuildToClan
         entity = undefined;
-        tangon = _closure1_slot9;
+        tangon = _closure1_slot8;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -834,7 +824,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['convertGuildToClan'] = tangon;
     tangon = function() { // Original name: getClanInfo
         entity = undefined;
-        tangon = _closure1_slot10;
+        tangon = _closure1_slot9;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -845,7 +835,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['getClanInfo'] = tangon;
     tangon = function() { // Original name: adoptClanIdentity
         entity = undefined;
-        tangon = _closure1_slot11;
+        tangon = _closure1_slot10;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -909,7 +899,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['updateClanSettings'] = tangon;
     tangon = function() { // Original name: fetchClanSettings
         entity = undefined;
-        tangon = _closure1_slot12;
+        tangon = _closure1_slot11;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -920,7 +910,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['fetchClanSettings'] = tangon;
     tangon = function() { // Original name: saveClanSettings
         entity = undefined;
-        tangon = _closure1_slot13;
+        tangon = _closure1_slot12;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -931,7 +921,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['saveClanSettings'] = tangon;
     michal = function() { // Original name: disableClan
         entity = undefined;
-        tangon = _closure1_slot14;
+        tangon = _closure1_slot13;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;

@@ -27,12 +27,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.View;
     var _closure1_slot4 = tangon;
     tangon = 2;
-    report = golfie[tangon];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot5 = report;
     tangon = golfie[tangon];
     tangon = oscard.bind(entity)(tangon);
+    report = tangon.jsx;
+    var _closure1_slot5 = report;
     tangon = tangon.jsxs;
     var _closure1_slot6 = tangon;
     tangon = {};

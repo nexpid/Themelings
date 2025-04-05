@@ -59,16 +59,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = michal.MEDIA_PICKER_SEND_BUTTON_SPRING;
     var _closure1_slot12 = michal;
     michal = 9;
-    report = golfie[michal];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot13 = report;
-    report = golfie[michal];
-    report = oscard.bind(entity)(report);
-    report = report.jsxs;
-    var _closure1_slot14 = report;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
+    report = michal.jsx;
+    var _closure1_slot13 = report;
+    report = michal.jsxs;
+    var _closure1_slot14 = report;
     michal = michal.Fragment;
     var _closure1_slot15 = michal;
     michal = 10;
@@ -302,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  50:
                     michal = zuuluu;
  53:
-                    if(michal) { _fun00006_ip = 126; continue _fun00005 }
+                    if(michal) { _fun00006_ip = 122; continue _fun00005 }
  56:
                     zuuluu = _closure1_slot1;
                     tangon = _closure1_slot2;
@@ -317,7 +313,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = michal.bind(oscard)(golfie, entity);
                     entity = {'withMutualGuilds': true, 'dispatchWait': true};
                     entity = tangon.bind(report)(zuuluu, michal, entity);
- 126:
+ 122:
                     entity = undefined;
                     return entity;
                 }

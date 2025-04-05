@@ -101,12 +101,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = romeon.bind(entity)(report);
     var _closure1_slot5 = report;
     report = 3;
-    option = golfie[report];
-    option = oscard.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot6 = option;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    option = report.jsx;
+    var _closure1_slot6 = option;
     report = report.jsxs;
     var _closure1_slot7 = report;
     report = 4;
@@ -257,12 +255,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure2_slot6;
                     tangon = michal.current;
                     michal = null;
-                    if(!(michal != tangon)) { _fun00006_ip = 67; continue _fun00005 }
+                    if(!(michal != tangon)) { _fun00006_ip = 63; continue _fun00005 }
  42:
                     zuuluu = tangon.scrollToOffset;
                     michal = {'offset': 0, 'animated': false};
                     michal = zuuluu.bind(tangon)(michal);
- 67:
+ 63:
                     return entity;
                 }
             };

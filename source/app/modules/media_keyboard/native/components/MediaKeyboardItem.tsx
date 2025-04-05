@@ -184,12 +184,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = report.DeviceMediaType;
     var _closure1_slot10 = report;
     report = 5;
-    golfie = verify[report];
-    golfie = option.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot11 = golfie;
     report = verify[report];
     report = option.bind(entity)(report);
+    golfie = report.jsx;
+    var _closure1_slot11 = golfie;
     report = report.jsxs;
     var _closure1_slot12 = report;
     report = 6;

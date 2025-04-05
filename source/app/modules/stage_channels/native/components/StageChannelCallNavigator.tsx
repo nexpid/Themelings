@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['__closure'] = romeon;
             romeon = 3663814804791.0;
             golfie['__workletHash'] = romeon;
-            romeon = _closure1_slot14;
+            romeon = _closure1_slot13;
             golfie['__initData'] = romeon;
             romeon = option.bind(yankee)(golfie);
             yankee = _closure1_slot4;
@@ -88,9 +88,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = function() {
                 michal = global;
                 report = michal.setTimeout;
-                tangon = _closure1_slot13;
-                zuuluu = undefined;
-                michal = function() {
+                tangon = undefined;
+                zuuluu = function() {
                     _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         michal = _closure2_slot0;
@@ -105,7 +104,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     }
                 };
-                michal = report.bind(zuuluu)(michal, tangon);
+                michal = 500;
+                michal = report.bind(tangon)(zuuluu, michal);
                 var _closure3_slot0 = michal;
                 entity = function() {
                     entity = global;
@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot15 = entity;
+    var _closure1_slot14 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -202,16 +202,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.ThemeTypes;
     var _closure1_slot7 = tangon;
     tangon = 4;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot8 = golfie;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsxs;
-    var _closure1_slot9 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot8 = golfie;
+    golfie = tangon.jsxs;
+    var _closure1_slot9 = golfie;
     tangon = tangon.Fragment;
     var _closure1_slot10 = tangon;
     tangon = {'mass': 0.5, 'stiffness': 600, 'damping': 30, 'overshootClamping': false, 'restSpeedThreshold': 0.01, 'restDisplacementThreshold': 0.01};
@@ -221,12 +217,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie['flex'] = option;
     tangon['fullScreen'] = golfie;
     var _closure1_slot12 = tangon;
-    tangon = 500;
-    var _closure1_slot13 = tangon;
     tangon = {};
     golfie = 'function StageChannelCallNavigatorTsx1(){const{withSpring,showStartStageView,viewAnimationConfig}=this.__closure;return{opacity:withSpring(showStartStageView?1:0,viewAnimationConfig)};}';
     tangon['code'] = golfie;
-    var _closure1_slot14 = tangon;
+    var _closure1_slot13 = tangon;
     tangon = 28;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -451,7 +445,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.bind(tangon)(option);
             _fun00008_ip = 591; continue _fun00007;
  587:
-            verify = _closure1_slot15;
+            verify = _closure1_slot14;
  591:
             option = {};
             option['channel'] = sequen;

@@ -44,12 +44,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.useBannerHeight;
     var _closure1_slot9 = tangon;
     tangon = 5;
-    golfie = oscard[tangon];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot10 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot10 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot11 = tangon;
     tangon = 6;
@@ -169,7 +167,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = golfie[offset];
             yankee = tangon.bind(report)(michal);
             zuuluu = yankee.useAnimatedScrollHandler;
-            michal = function(argFoo) { // Original name: A
+            michal = function(argFoo) { // Original name: _
                 entity = argFoo;
                 entity = entity.contentOffset;
                 zuuluu = entity.y;

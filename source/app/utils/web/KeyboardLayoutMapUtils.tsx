@@ -8,43 +8,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         offset = argPlu;
         var _closure1_slot0 = verify;
         var _closure1_slot1 = offset;
-        entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
- 0:
-                tangon = argFoo;
-                oscard = argBaz;
-                michal = _closure1_slot3;
-                zuuluu = undefined;
-                entity = argBar;
-                verify = michal.bind(zuuluu)(entity);
-                michal = _closure1_slot2;
-                entity = _closure1_slot18;
-                entity = entity.bind(zuuluu)();
-                if(entity) { _fun00004_ip = 51; continue _fun00003 }
- 38:
-                entity = verify.apply;
-                entity = entity.bind(verify)(tangon, oscard);
-                _fun00004_ip = 92; continue _fun00003;
- 51:
-                golfie = global;
-                option = golfie.Reflect;
-                golfie = option.construct;
-                if(oscard) { _fun00004_ip = 71; continue _fun00003 }
- 67:
-                oscard = new Array(0);
- 71:
-                report = _closure1_slot3;
-                report = report.bind(zuuluu)(tangon);
-                report = report.constructor;
-                entity = golfie.bind(option)(verify, oscard, report);
- 92:
-                entity = michal.bind(zuuluu)(tangon, entity);
-                return entity;
-            }
-        };
-        var _closure1_slot17 = entity;
         entity = function() { // Original name: _isNativeReflectConstruct
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
                 michal = global;
@@ -65,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = !michal;
                 var _closure2_slot0 = michal;
  72: // try_end0
-                _fun00006_ip = 76; continue _fun00005;
+                _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
                 CatchBlockStart(arg_register=1);
  76:
@@ -99,34 +64,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = _closure1_slot6;
             zuuluu = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00008_ip = 194; continue _fun00007 }
+                        if(michal) { _fun00006_ip = 184; continue _fun00005 }
  10:
                         zuuluu = global;
                         michal = zuuluu.navigator;
-                        michal = michal.keyboard;
+                        report = michal.keyboard;
                         tangon = null;
-                        if(!(tangon != michal)) { _fun00008_ip = 189; continue _fun00007 }
- 33:
-                        michal = zuuluu.navigator;
-                        michal = michal.keyboard;
-                        michal = michal.getLayoutMap;
-                        if(!(tangon != michal)) { _fun00008_ip = 189; continue _fun00007 }
- 58: // try_start_0
+                        oscard = tangon == report;
+                        michal = undefined;
+                        if(oscard) { _fun00006_ip = 41; continue _fun00005 }
+ 35:
+                        michal = report.getLayoutMap;
+ 41:
+                        if(!(tangon != michal)) { _fun00006_ip = 179; continue _fun00005 }
+ 48: // try_start_0
                         michal = zuuluu.navigator;
                         tangon = michal.keyboard;
                         michal = tangon.getLayoutMap;
                         michal = michal.bind(tangon)();
-                        SaveGenerator(address=84);
- 82:
+                        SaveGenerator(address=74);
+ 72:
                         return michal;
- 84:
+ 74:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tangon) { _fun00008_ip = 153; continue _fun00007 }
- 90:
+                        if(tangon) { _fun00006_ip = 143; continue _fun00005 }
+ 80:
                         oscard = _closure1_slot13;
                         golfie = zuuluu.Object;
                         report = golfie.fromEntries;
@@ -139,12 +105,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         zuuluu = new verify[oscard](option, golfie);
                         zuuluu = zuuluu instanceof Object ? zuuluu : report;
                         _closure1_slot14 = zuuluu;
- 148: // try_end0
+ 138: // try_end0
                         zuuluu = true;
                         return zuuluu;
- 153:
+ 143:
                         return michal;
- 156: // catch_target0
+ 146: // catch_target0
                         CatchBlockStart(arg_register=1);
                         michal = _closure1_slot13;
                         tangon = michal.prototype;
@@ -153,10 +119,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal = new verify[michal](option);
                         michal = michal instanceof Object ? michal : tangon;
                         _closure1_slot14 = michal;
- 189:
+ 179:
                         michal = false;
                         return michal;
- 194:
+ 184:
                         return entity;
                     }
                 };
@@ -178,101 +144,118 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         var _closure1_slot21 = entity;
         oscard = function() { // Original name: initializeKeyboardMapper
-            entity = undefined;
-            tangon = _closure1_slot23;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
-        };
-        var _closure1_slot22 = oscard;
-        entity = function() { // Original name: _initializeKeyboardMapper
-            report = undefined;
-            entity = undefined;
-            tangon = _closure1_slot6;
-            zuuluu = function* () {
-                entity = function* () { // Original name: ?anon_0_
-                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                        StartGenerator();
-                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00010_ip = 101; continue _fun00009 }
+                zuuluu = _closure1_slot17;
+                michal = null;
+                if(!(michal == zuuluu)) { _fun00008_ip = 60; continue _fun00007 }
+ 13:
+                michal = global;
+                tangon = michal.Promise;
+                zuuluu = function() {
+                    tangon = _closure1_slot6;
+                    zuuluu = undefined;
+                    michal = function* (argFoo) {
+                        entity = function* (argFoo) { // Original name: ?anon_0_
+                            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+ 0:
+                                StartGenerator();
+                                ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                                if(michal) { _fun00010_ip = 108; continue _fun00009 }
  7:
-                        michal = _closure1_slot19;
-                        zuuluu = undefined;
-                        michal = michal.bind(zuuluu)();
-                        SaveGenerator(address=24);
+                                michal = _closure1_slot19;
+                                zuuluu = undefined;
+                                michal = michal.bind(zuuluu)();
+                                SaveGenerator(address=24);
  22:
-                        return michal;
+                                return michal;
  24:
-                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tangon) { _fun00010_ip = 98; continue _fun00009 }
+                                ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                                if(tangon) { _fun00010_ip = 105; continue _fun00009 }
  30:
-                        golfie = _closure1_slot15;
-                        verify = _closure1_slot10;
-                        oscard = golfie.prototype;
-                        oscard = Object.create(oscard, {constructor: {value: golfie}});
-                        offset = oscard;
-                        tangon = new offset[golfie](verify, option);
-                        tangon = tangon instanceof Object ? tangon : oscard;
-                        _closure1_slot16 = tangon;
-                        tangon = global;
-                        golfie = tangon.document;
-                        oscard = golfie.addEventListener;
-                        report = 'keydown';
-                        tangon = function(argFoo) {
-                            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+                                golfie = _closure1_slot15;
+                                verify = _closure1_slot10;
+                                oscard = golfie.prototype;
+                                oscard = Object.create(oscard, {constructor: {value: golfie}});
+                                offset = oscard;
+                                tangon = new offset[golfie](verify, option);
+                                tangon = tangon instanceof Object ? tangon : oscard;
+                                _closure1_slot16 = tangon;
+                                tangon = global;
+                                golfie = tangon.document;
+                                oscard = golfie.addEventListener;
+                                report = 'keydown';
+                                tangon = function(argFoo) {
+                                    _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-                                oscard = argFoo;
-                                entity = undefined;
-                                michal = undefined;
+                                        oscard = argFoo;
+                                        entity = undefined;
+                                        michal = undefined;
  7: // try_start_0
-                                tangon = _closure1_slot16;
-                                michal = tangon;
-                                zuuluu = null;
-                                if(!(zuuluu != tangon)) { _fun00012_ip = 40; continue _fun00011 }
+                                        tangon = _closure1_slot16;
+                                        michal = tangon;
+                                        zuuluu = null;
+                                        if(!(zuuluu != tangon)) { _fun00012_ip = 40; continue _fun00011 }
  23:
-                                tangon = michal;
-                                zuuluu = tangon.addEvent;
-                                michal = oscard;
-                                michal = zuuluu.bind(tangon)(michal);
+                                        tangon = michal;
+                                        zuuluu = tangon.addEvent;
+                                        michal = oscard;
+                                        michal = zuuluu.bind(tangon)(michal);
  40: // try_end0
-                                _fun00012_ip = 79; continue _fun00011;
+                                        _fun00012_ip = 79; continue _fun00011;
  42: // catch_target0
-                                CatchBlockStart(arg_register=1);
-                                report = _closure1_slot9;
-                                tangon = report.error;
-                                zuuluu = {};
-                                zuuluu['event'] = oscard;
-                                zuuluu['error'] = michal;
-                                michal = 'KeyboardMapper - Error adding event';
-                                michal = tangon.bind(report)(michal, zuuluu);
+                                        CatchBlockStart(arg_register=1);
+                                        report = _closure1_slot9;
+                                        tangon = report.error;
+                                        zuuluu = {};
+                                        zuuluu['event'] = oscard;
+                                        zuuluu['error'] = michal;
+                                        michal = 'KeyboardMapper - Error adding event';
+                                        michal = tangon.bind(report)(michal, zuuluu);
  79:
+                                        return entity;
+                                    }
+                                };
+                                tangon = oscard.bind(golfie)(report, tangon);
+                                tangon = argFoo;
+                                tangon = tangon.bind(zuuluu)();
+                                return zuuluu;
+ 105:
+                                return michal;
+ 108:
                                 return entity;
                             }
                         };
-                        tangon = oscard.bind(golfie)(report, tangon);
-                        return zuuluu;
- 98:
-                        return michal;
- 101:
                         return entity;
-                    }
+                    };
+                    michal = tangon.bind(zuuluu)(michal);
+                    var _closure3_slot0 = michal;
+                    entity = function() {
+                        entity = undefined;
+                        tangon = _closure3_slot0;
+                        zuuluu = tangon.apply;
+                        entity = arguments;
+                        michal = entity;
+                        entity = this;
+                        entity = zuuluu.bind(tangon)(entity, michal);
+                        return entity;
+                    };
+                    return entity;
                 };
+                michal = undefined;
+                report = zuuluu.bind(michal)();
+                zuuluu = tangon.prototype;
+                zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
+                oscard = zuuluu;
+                michal = new oscard[tangon](report, tangon);
+                michal = michal instanceof Object ? michal : zuuluu;
+                _closure1_slot17 = michal;
+ 60:
+                entity = _closure1_slot17;
                 return entity;
-            };
-            tangon = tangon.bind(report)(zuuluu);
-            _closure1_slot23 = tangon;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+            }
         };
-        var _closure1_slot23 = entity;
+        var _closure1_slot22 = oscard;
         report = function() { // Original name: getKeyboardMapper
             _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
@@ -291,7 +274,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             }
         };
-        var _closure1_slot24 = report;
+        var _closure1_slot23 = report;
         entity = function() { // Original name: _resetKeyboardMapper
             report = undefined;
             entity = undefined;
@@ -314,7 +297,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
                         if(report) { _fun00016_ip = 57; continue _fun00015 }
  30:
-                        tangon = _closure1_slot24;
+                        tangon = _closure1_slot23;
                         report = tangon.bind(zuuluu)();
                         tangon = null;
                         if(!(tangon != report)) { _fun00016_ip = 54; continue _fun00015 }
@@ -332,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             tangon = tangon.bind(report)(zuuluu);
-            _closure1_slot25 = tangon;
+            _closure1_slot24 = tangon;
             zuuluu = tangon.apply;
             entity = arguments;
             michal = entity;
@@ -340,11 +323,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = zuuluu.bind(tangon)(entity, michal);
             return entity;
         };
-        var _closure1_slot25 = entity;
+        var _closure1_slot24 = entity;
         tangon = function(argFoo) { // Original name: reverseLookupCodeFromKey
             _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
-                michal = _closure1_slot24;
+                michal = _closure1_slot23;
                 entity = undefined;
                 oscard = michal.bind(entity)();
                 zuuluu = null;
@@ -365,7 +348,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             }
         };
-        var _closure1_slot26 = tangon;
+        var _closure1_slot25 = tangon;
         golfie = global;
         romeon = golfie.Object;
         yankee = romeon.defineProperty;
@@ -425,29 +408,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         sizing = verify.bind(entity)(kiloes);
         kiloes = sizing.isLinux;
         kiloes = kiloes.bind(sizing)();
-        if(kiloes) { _fun00002_ip = 448; continue _fun00001 }
- 380:
+        if(kiloes) { _fun00002_ip = 426; continue _fun00001 }
+ 358:
         kiloes = offset[foxtra];
         sizing = verify.bind(entity)(kiloes);
         kiloes = sizing.isMac;
         kiloes = kiloes.bind(sizing)();
-        if(kiloes) { _fun00002_ip = 445; continue _fun00001 }
- 402:
+        if(kiloes) { _fun00002_ip = 423; continue _fun00001 }
+ 380:
         foxtra = offset[foxtra];
         kiloes = verify.bind(entity)(foxtra);
         foxtra = kiloes.isWindows;
         foxtra = foxtra.bind(kiloes)();
-        if(foxtra) { _fun00002_ip = 442; continue _fun00001 }
- 424:
+        if(foxtra) { _fun00002_ip = 420; continue _fun00001 }
+ 402:
         foxtra = 10;
         foxtra = offset[foxtra];
         foxtra = backup.bind(entity)(foxtra);
         romeon = foxtra.codes;
- 442:
+ 420:
         yankee = romeon;
- 445:
+ 423:
         option = yankee;
- 448:
+ 426:
         var _closure1_slot10 = option;
         option = 'keyboardMapper.keyMap';
         var _closure1_slot11 = option;
@@ -1310,16 +1293,39 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         yankee = option.bind(entity)();
         option = function(argFoo) {
             tangon = function() { // Original name: KeyboardMapper
-                report = this;
-                tangon = undefined;
-                entity = undefined;
-                oscard = _closure1_slot7;
-                zuuluu = _closure2_slot0;
-                oscard = oscard.bind(tangon)(report, zuuluu);
-                michal = _closure1_slot17;
-                entity = arguments;
-                entity = michal.bind(tangon)(report, zuuluu, entity);
-                return entity;
+                _fun00051: for(var _fun00052_ip = 0; ; ) switch(_fun00052_ip) {
+ 0:
+                    tangon = this;
+                    zuuluu = undefined;
+                    report = undefined;
+                    entity = _closure1_slot7;
+                    michal = _closure2_slot0;
+                    entity = entity.bind(zuuluu)(tangon, michal);
+                    entity = _closure1_slot3;
+                    verify = entity.bind(zuuluu)(michal);
+                    michal = _closure1_slot2;
+                    entity = _closure1_slot18;
+                    entity = entity.bind(zuuluu)();
+                    if(entity) { _fun00052_ip = 69; continue _fun00051 }
+ 51:
+                    golfie = verify.apply;
+                    report = arguments;
+                    entity = report;
+                    entity = golfie.bind(verify)(tangon, entity);
+                    _fun00052_ip = 105; continue _fun00051;
+ 69:
+                    golfie = global;
+                    option = golfie.Reflect;
+                    golfie = option.construct;
+                    oscard = _closure1_slot3;
+                    oscard = oscard.bind(zuuluu)(tangon);
+                    oscard = oscard.constructor;
+                    report = arguments;
+                    entity = golfie.bind(option)(verify, report, oscard);
+ 105:
+                    entity = michal.bind(zuuluu)(tangon, entity);
+                    return entity;
+                }
             };
             var _closure2_slot0 = tangon;
             report = _closure1_slot4;
@@ -1331,7 +1337,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = 'getKeyString';
             report['key'] = entity;
             entity = function(argFoo, argBar) { // Original name: value
-                _fun00051: for(var _fun00052_ip = 0; ; ) switch(_fun00052_ip) {
+                _fun00053: for(var _fun00054_ip = 0; ; ) switch(_fun00054_ip) {
  0:
                     tangon = argFoo;
                     michal = this;
@@ -1343,12 +1349,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = zuuluu.bind(michal)(tangon);
                     report = zuuluu.length;
                     tangon = 0;
-                    if(!(tangon === report)) { _fun00052_ip = 85; continue _fun00051 }
+                    if(!(tangon === report)) { _fun00054_ip = 85; continue _fun00053 }
  45:
                     report = michal.cachedKeyMapEntries;
                     tangon = report.filter;
                     michal = function(argFoo) {
-                        _fun00053: for(var _fun00054_ip = 0; ; ) switch(_fun00054_ip) {
+                        _fun00055: for(var _fun00056_ip = 0; ; ) switch(_fun00056_ip) {
  0:
                             tangon = argFoo;
                             michal = tangon[Symbol.iterator];
@@ -1358,19 +1364,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             oscard = undefined;
                             zuuluu = entity === oscard;
                             entity = undefined;
-                            if(zuuluu) { _fun00054_ip = 49; continue _fun00053 }
+                            if(zuuluu) { _fun00056_ip = 49; continue _fun00055 }
  24:
                             report = tangon().value;
                             tangon = michal;
                             tangon = tangon === oscard;
                             entity = undefined;
                             zuuluu = tangon;
-                            if(tangon) { _fun00054_ip = 49; continue _fun00053 }
+                            if(tangon) { _fun00056_ip = 49; continue _fun00055 }
  43:
                             entity = report;
                             zuuluu = tangon;
  49:
-                            if(zuuluu) { _fun00054_ip = 55; continue _fun00053 }
+                            if(zuuluu) { _fun00056_ip = 55; continue _fun00055 }
  52:
                             michal.return();
  55:
@@ -1381,7 +1387,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = tangon.bind(report)(michal);
                     tangon = report.map;
                     michal = function(argFoo) {
-                        _fun00055: for(var _fun00056_ip = 0; ; ) switch(_fun00056_ip) {
+                        _fun00057: for(var _fun00058_ip = 0; ; ) switch(_fun00058_ip) {
  0:
                             tangon = argFoo;
                             entity = tangon[Symbol.iterator];
@@ -1391,24 +1397,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             golfie = undefined;
                             zuuluu = zuuluu === golfie;
                             report = undefined;
-                            if(zuuluu) { _fun00056_ip = 27; continue _fun00055 }
+                            if(zuuluu) { _fun00058_ip = 27; continue _fun00057 }
  24:
                             report = michal;
  27:
                             michal = undefined;
-                            if(zuuluu) { _fun00056_ip = 57; continue _fun00055 }
+                            if(zuuluu) { _fun00058_ip = 57; continue _fun00057 }
  32:
                             oscard = tangon().value;
                             tangon = entity;
                             tangon = tangon === golfie;
                             michal = undefined;
                             zuuluu = tangon;
-                            if(tangon) { _fun00056_ip = 57; continue _fun00055 }
+                            if(tangon) { _fun00058_ip = 57; continue _fun00057 }
  51:
                             michal = oscard;
                             zuuluu = tangon;
  57:
-                            if(zuuluu) { _fun00056_ip = 63; continue _fun00055 }
+                            if(zuuluu) { _fun00058_ip = 63; continue _fun00057 }
  60:
                             entity.return();
  63:
@@ -1417,12 +1423,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             entity['keyCode'] = michal;
                             tangon = _closure3_slot2;
                             michal = null;
-                            if(!(michal == tangon)) { _fun00056_ip = 104; continue _fun00055 }
+                            if(!(michal == tangon)) { _fun00058_ip = 104; continue _fun00057 }
  87:
                             tangon = _closure3_slot0;
                             michal = tangon.findCodeFromKeyboardLayoutMap;
                             michal = michal.bind(tangon)(report);
-                            _fun00056_ip = 108; continue _fun00055;
+                            _fun00058_ip = 108; continue _fun00057;
  104:
                             michal = _closure3_slot2;
  108:
@@ -1434,7 +1440,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  85:
                     michal = zuuluu.find;
                     entity = function(argFoo) {
-                        _fun00057: for(var _fun00058_ip = 0; ; ) switch(_fun00058_ip) {
+                        _fun00059: for(var _fun00060_ip = 0; ; ) switch(_fun00060_ip) {
  0:
                             tangon = argFoo;
                             michal = tangon.keyCode;
@@ -1443,10 +1449,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             oscard = _closure3_slot2;
                             michal = null;
                             entity = report;
-                            if(!(michal != oscard)) { _fun00058_ip = 55; continue _fun00057 }
+                            if(!(michal != oscard)) { _fun00060_ip = 55; continue _fun00059 }
  33:
                             michal = report;
-                            if(!report) { _fun00058_ip = 52; continue _fun00057 }
+                            if(!report) { _fun00060_ip = 52; continue _fun00059 }
  39:
                             tangon = tangon.code;
                             zuuluu = _closure3_slot2;
@@ -1461,7 +1467,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = null;
                     zuuluu = entity == michal;
                     entity = undefined;
-                    if(zuuluu) { _fun00052_ip = 118; continue _fun00051 }
+                    if(zuuluu) { _fun00054_ip = 118; continue _fun00053 }
  113:
                     entity = michal.key;
  118:
@@ -1475,7 +1481,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = 'findExactKeyboardEventMatch';
             report['key'] = golfie;
             golfie = function(argFoo, argBar, argBaz) { // Original name: value
-                _fun00059: for(var _fun00060_ip = 0; ; ) switch(_fun00060_ip) {
+                _fun00061: for(var _fun00062_ip = 0; ; ) switch(_fun00062_ip) {
  0:
                     tangon = argFoo;
                     report = argBar;
@@ -1485,7 +1491,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = argBaz;
                     var _closure3_slot2 = zuuluu;
                     zuuluu = null;
-                    if(!(zuuluu == report)) { _fun00060_ip = 47; continue _fun00059 }
+                    if(!(zuuluu == report)) { _fun00062_ip = 47; continue _fun00061 }
  32:
                     zuuluu = michal.findCodeFromKeyboardLayoutMap;
                     zuuluu = zuuluu.bind(michal)(tangon);
@@ -1494,7 +1500,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = michal.cachedAllEvents;
                     zuuluu = tangon.filter;
                     michal = function(argFoo) {
-                        _fun00061: for(var _fun00062_ip = 0; ; ) switch(_fun00062_ip) {
+                        _fun00063: for(var _fun00064_ip = 0; ; ) switch(_fun00064_ip) {
  0:
                             tangon = argFoo;
                             michal = tangon.key;
@@ -1503,10 +1509,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             oscard = _closure3_slot1;
                             michal = null;
                             entity = report;
-                            if(!(michal != oscard)) { _fun00062_ip = 54; continue _fun00061 }
+                            if(!(michal != oscard)) { _fun00064_ip = 54; continue _fun00063 }
  32:
                             michal = report;
-                            if(!report) { _fun00062_ip = 51; continue _fun00061 }
+                            if(!report) { _fun00064_ip = 51; continue _fun00063 }
  38:
                             tangon = tangon.code;
                             zuuluu = _closure3_slot1;
@@ -1520,20 +1526,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = zuuluu.bind(tangon)(michal);
                     tangon = zuuluu.length;
                     michal = 0;
-                    if(!(michal === tangon)) { _fun00060_ip = 85; continue _fun00059 }
+                    if(!(michal === tangon)) { _fun00062_ip = 85; continue _fun00061 }
  81:
                     michal = undefined;
                     return michal;
  85:
                     michal = zuuluu.find;
                     entity = function(argFoo) {
-                        _fun00063: for(var _fun00064_ip = 0; ; ) switch(_fun00064_ip) {
+                        _fun00065: for(var _fun00066_ip = 0; ; ) switch(_fun00066_ip) {
  0:
                             tangon = argFoo;
                             michal = tangon.key;
                             entity = _closure3_slot0;
                             report = michal === entity;
-                            if(!report) { _fun00064_ip = 36; continue _fun00063 }
+                            if(!report) { _fun00066_ip = 36; continue _fun00065 }
  22:
                             michal = tangon.keyCode;
                             entity = _closure3_slot2;
@@ -1542,10 +1548,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             oscard = _closure3_slot1;
                             michal = null;
                             entity = report;
-                            if(!(michal != oscard)) { _fun00064_ip = 71; continue _fun00063 }
+                            if(!(michal != oscard)) { _fun00066_ip = 71; continue _fun00065 }
  49:
                             michal = report;
-                            if(!report) { _fun00064_ip = 68; continue _fun00063 }
+                            if(!report) { _fun00066_ip = 68; continue _fun00065 }
  55:
                             tangon = tangon.code;
                             zuuluu = _closure3_slot1;
@@ -1566,7 +1572,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = 'findKeyboardEventByKey';
             report['key'] = golfie;
             golfie = function(argFoo, argBar, argBaz) { // Original name: value
-                _fun00065: for(var _fun00066_ip = 0; ; ) switch(_fun00066_ip) {
+                _fun00067: for(var _fun00068_ip = 0; ; ) switch(_fun00068_ip) {
  0:
                     report = argFoo;
                     zuuluu = argBar;
@@ -1576,7 +1582,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = argBaz;
                     var _closure3_slot2 = tangon;
                     tangon = null;
-                    if(!(tangon == zuuluu)) { _fun00066_ip = 47; continue _fun00065 }
+                    if(!(tangon == zuuluu)) { _fun00068_ip = 47; continue _fun00067 }
  32:
                     zuuluu = michal.findCodeFromKeyboardLayoutMap;
                     zuuluu = zuuluu.bind(michal)(report);
@@ -1585,7 +1591,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = michal.cachedAllEvents;
                     zuuluu = report.filter;
                     michal = function(argFoo) {
-                        _fun00067: for(var _fun00068_ip = 0; ; ) switch(_fun00068_ip) {
+                        _fun00069: for(var _fun00070_ip = 0; ; ) switch(_fun00070_ip) {
  0:
                             tangon = argFoo;
                             michal = tangon.key;
@@ -1594,10 +1600,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             oscard = _closure3_slot1;
                             michal = null;
                             entity = report;
-                            if(!(michal != oscard)) { _fun00068_ip = 54; continue _fun00067 }
+                            if(!(michal != oscard)) { _fun00070_ip = 54; continue _fun00069 }
  32:
                             michal = report;
-                            if(!report) { _fun00068_ip = 51; continue _fun00067 }
+                            if(!report) { _fun00070_ip = 51; continue _fun00069 }
  38:
                             tangon = tangon.code;
                             zuuluu = _closure3_slot1;
@@ -1611,20 +1617,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = zuuluu.bind(report)(michal);
                     report = zuuluu.length;
                     michal = 0;
-                    if(!(michal === report)) { _fun00066_ip = 85; continue _fun00065 }
+                    if(!(michal === report)) { _fun00068_ip = 85; continue _fun00067 }
  81:
                     report = undefined;
                     return report;
  85:
                     report = zuuluu.find;
                     entity = function(argFoo) {
-                        _fun00069: for(var _fun00070_ip = 0; ; ) switch(_fun00070_ip) {
+                        _fun00071: for(var _fun00072_ip = 0; ; ) switch(_fun00072_ip) {
  0:
                             tangon = argFoo;
                             michal = tangon.key;
                             entity = _closure3_slot0;
                             report = michal === entity;
-                            if(!report) { _fun00070_ip = 36; continue _fun00069 }
+                            if(!report) { _fun00072_ip = 36; continue _fun00071 }
  22:
                             michal = tangon.keyCode;
                             entity = _closure3_slot2;
@@ -1633,10 +1639,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             oscard = _closure3_slot1;
                             michal = null;
                             entity = report;
-                            if(!(michal != oscard)) { _fun00070_ip = 71; continue _fun00069 }
+                            if(!(michal != oscard)) { _fun00072_ip = 71; continue _fun00071 }
  49:
                             michal = report;
-                            if(!report) { _fun00070_ip = 68; continue _fun00069 }
+                            if(!report) { _fun00072_ip = 68; continue _fun00071 }
  55:
                             tangon = tangon.code;
                             zuuluu = _closure3_slot1;
@@ -1648,7 +1654,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         }
                     };
                     entity = report.bind(zuuluu)(entity);
-                    if(!(tangon == entity)) { _fun00066_ip = 110; continue _fun00065 }
+                    if(!(tangon == entity)) { _fun00068_ip = 110; continue _fun00067 }
  106:
                     entity = zuuluu[michal];
  110:
@@ -1661,7 +1667,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = 'findKeyboardEventByKeyCode';
             report['key'] = golfie;
             golfie = function(argFoo, argBar) { // Original name: value
-                _fun00071: for(var _fun00072_ip = 0; ; ) switch(_fun00072_ip) {
+                _fun00073: for(var _fun00074_ip = 0; ; ) switch(_fun00074_ip) {
  0:
                     oscard = argFoo;
                     report = argBar;
@@ -1672,24 +1678,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = entity.bind(tangon)(oscard, report);
                     entity = null;
                     golfie = entity == michal;
-                    if(!golfie) { _fun00072_ip = 46; continue _fun00071 }
+                    if(!golfie) { _fun00074_ip = 46; continue _fun00073 }
  42:
                     golfie = entity != report;
  46:
-                    if(!golfie) { _fun00072_ip = 69; continue _fun00071 }
+                    if(!golfie) { _fun00074_ip = 69; continue _fun00073 }
  49:
                     golfie = tangon.getLayoutMap;
                     option = golfie.bind(tangon)();
                     golfie = option.get;
                     michal = golfie.bind(option)(report);
  69:
-                    if(!(entity == michal)) { _fun00072_ip = 118; continue _fun00071 }
+                    if(!(entity == michal)) { _fun00074_ip = 118; continue _fun00073 }
  73:
                     golfie = tangon.getKeyCodeMapItem;
                     option = golfie.bind(tangon)(oscard);
                     golfie = option.find;
                     zuuluu = function(argFoo) {
-                        _fun00073: for(var _fun00074_ip = 0; ; ) switch(_fun00074_ip) {
+                        _fun00075: for(var _fun00076_ip = 0; ; ) switch(_fun00076_ip) {
  0:
                             tangon = argFoo;
                             michal = tangon.keyCode;
@@ -1698,10 +1704,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             oscard = _closure3_slot1;
                             michal = null;
                             entity = report;
-                            if(!(michal != oscard)) { _fun00074_ip = 55; continue _fun00073 }
+                            if(!(michal != oscard)) { _fun00076_ip = 55; continue _fun00075 }
  33:
                             michal = report;
-                            if(!report) { _fun00074_ip = 52; continue _fun00073 }
+                            if(!report) { _fun00076_ip = 52; continue _fun00075 }
  39:
                             tangon = tangon.code;
                             zuuluu = _closure3_slot1;
@@ -1715,17 +1721,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = golfie.bind(option)(zuuluu);
                     option = entity == golfie;
                     zuuluu = undefined;
-                    if(option) { _fun00072_ip = 115; continue _fun00071 }
+                    if(option) { _fun00074_ip = 115; continue _fun00073 }
  110:
                     zuuluu = golfie.key;
  115:
                     michal = zuuluu;
  118:
-                    if(!(entity != michal)) { _fun00072_ip = 137; continue _fun00071 }
+                    if(!(entity != michal)) { _fun00074_ip = 137; continue _fun00073 }
  122:
                     entity = tangon.findKeyboardEventByKey;
                     entity = entity.bind(tangon)(michal, report, oscard);
-                    _fun00072_ip = 152; continue _fun00071;
+                    _fun00074_ip = 152; continue _fun00073;
  137:
                     zuuluu = tangon.getDefaultKeyboardEventShape;
                     michal = undefined;
@@ -1740,16 +1746,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = 'getDefaultKeyboardEventShape';
             report['key'] = golfie;
             oscard = function(argFoo, argBar, argBaz) { // Original name: value
-                _fun00075: for(var _fun00076_ip = 0; ; ) switch(_fun00076_ip) {
+                _fun00077: for(var _fun00078_ip = 0; ; ) switch(_fun00078_ip) {
  0:
                     report = argFoo;
                     golfie = argBar;
                     michal = argBaz;
                     tangon = this;
                     zuuluu = null;
-                    if(!(zuuluu == report)) { _fun00076_ip = 109; continue _fun00075 }
+                    if(!(zuuluu == report)) { _fun00078_ip = 109; continue _fun00077 }
  18:
-                    if(!(zuuluu == golfie)) { _fun00076_ip = 26; continue _fun00075 }
+                    if(!(zuuluu == golfie)) { _fun00078_ip = 26; continue _fun00077 }
  22:
                     entity = undefined;
                     return entity;
@@ -1757,7 +1763,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = tangon.cachedKeyMapEntries;
                     oscard = option.find;
                     entity = function(argFoo) {
-                        _fun00077: for(var _fun00078_ip = 0; ; ) switch(_fun00078_ip) {
+                        _fun00079: for(var _fun00080_ip = 0; ; ) switch(_fun00080_ip) {
  0:
                             tangon = argFoo;
                             michal = tangon[Symbol.iterator];
@@ -1767,19 +1773,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             oscard = undefined;
                             zuuluu = entity === oscard;
                             entity = undefined;
-                            if(zuuluu) { _fun00078_ip = 49; continue _fun00077 }
+                            if(zuuluu) { _fun00080_ip = 49; continue _fun00079 }
  24:
                             report = tangon().value;
                             tangon = michal;
                             tangon = tangon === oscard;
                             entity = undefined;
                             zuuluu = tangon;
-                            if(tangon) { _fun00078_ip = 49; continue _fun00077 }
+                            if(tangon) { _fun00080_ip = 49; continue _fun00079 }
  43:
                             entity = report;
                             zuuluu = tangon;
  49:
-                            if(zuuluu) { _fun00078_ip = 55; continue _fun00077 }
+                            if(zuuluu) { _fun00080_ip = 55; continue _fun00079 }
  52:
                             michal.return();
  55:
@@ -1791,18 +1797,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = zuuluu == option;
                     entity = undefined;
                     verify = undefined;
-                    if(oscard) { _fun00076_ip = 68; continue _fun00075 }
+                    if(oscard) { _fun00078_ip = 68; continue _fun00077 }
  62:
                     oscard = 0;
                     verify = option[oscard];
  68:
-                    if(!(zuuluu != verify)) { _fun00076_ip = 107; continue _fun00075 }
+                    if(!(zuuluu != verify)) { _fun00078_ip = 107; continue _fun00077 }
  72:
                     oscard = {};
                     oscard['keyCode'] = golfie;
                     oscard['key'] = verify;
                     golfie = michal;
-                    if(!(zuuluu == michal)) { _fun00076_ip = 101; continue _fun00075 }
+                    if(!(zuuluu == michal)) { _fun00078_ip = 101; continue _fun00077 }
  90:
                     option = tangon.findCodeFromKeyboardLayoutMap;
                     golfie = option.bind(tangon)(verify);
@@ -1814,12 +1820,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  109:
                     entity = tangon.keyMap;
                     oscard = entity[report];
-                    if(!(zuuluu != oscard)) { _fun00076_ip = 155; continue _fun00075 }
+                    if(!(zuuluu != oscard)) { _fun00078_ip = 155; continue _fun00077 }
  123:
                     entity = {};
                     entity['keyCode'] = oscard;
                     entity['key'] = report;
-                    if(!(zuuluu == michal)) { _fun00076_ip = 149; continue _fun00075 }
+                    if(!(zuuluu == michal)) { _fun00078_ip = 149; continue _fun00077 }
  138:
                     zuuluu = tangon.findCodeFromKeyboardLayoutMap;
                     michal = zuuluu.bind(tangon)(report);
@@ -1840,6 +1846,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         var _closure1_slot15 = option;
         option = null;
         var _closure1_slot16 = option;
+        var _closure1_slot17 = option;
         option = 12;
         option = offset[option];
         offset = verify.bind(entity)(option);
@@ -1849,7 +1856,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu['DefaultKeyboardLayout'] = golfie;
         zuuluu['initializeKeyboardMapper'] = oscard;
         oscard = function(argFoo, argBar) { // Original name: __DEV_overrideLayoutMapKey
-            _fun00079: for(var _fun00080_ip = 0; ; ) switch(_fun00080_ip) {
+            _fun00081: for(var _fun00082_ip = 0; ; ) switch(_fun00082_ip) {
  0:
                 report = _closure1_slot14;
                 tangon = report._set;
@@ -1858,13 +1865,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = tangon.bind(report)(zuuluu, entity);
                 tangon = _closure1_slot16;
                 entity = null;
-                if(!(entity != tangon)) { _fun00080_ip = 45; continue _fun00079 }
+                if(!(entity != tangon)) { _fun00082_ip = 45; continue _fun00081 }
  35:
                 zuuluu = tangon._initializeInternalLayoutMap;
                 zuuluu = zuuluu.bind(tangon)();
  45:
                 michal = _closure1_slot16;
-                if(!(entity != michal)) { _fun00080_ip = 63; continue _fun00079 }
+                if(!(entity != michal)) { _fun00082_ip = 63; continue _fun00081 }
  53:
                 entity = michal.updateCaches;
                 entity = entity.bind(michal)();
@@ -1877,7 +1884,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu['getKeyboardMapper'] = report;
         report = function() { // Original name: resetKeyboardMapper
             entity = undefined;
-            tangon = _closure1_slot25;
+            tangon = _closure1_slot24;
             zuuluu = tangon.apply;
             entity = arguments;
             michal = entity;
@@ -1887,32 +1894,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         zuuluu['resetKeyboardMapper'] = report;
         report = function() { // Original name: getLayoutMap
-            _fun00081: for(var _fun00082_ip = 0; ; ) switch(_fun00082_ip) {
+            _fun00083: for(var _fun00084_ip = 0; ; ) switch(_fun00084_ip) {
  0:
                 entity = arguments[0];
                 zuuluu = undefined;
-                if(!(entity === zuuluu)) { _fun00082_ip = 11; continue _fun00081 }
+                if(!(entity === zuuluu)) { _fun00084_ip = 11; continue _fun00083 }
  9:
                 entity = false;
  11:
-                if(entity) { _fun00082_ip = 60; continue _fun00081 }
+                if(entity) { _fun00084_ip = 60; continue _fun00083 }
  17:
-                entity = _closure1_slot24;
+                entity = _closure1_slot23;
                 oscard = entity.bind(zuuluu)();
                 tangon = null;
                 report = tangon == oscard;
                 entity = undefined;
-                if(report) { _fun00082_ip = 46; continue _fun00081 }
+                if(report) { _fun00084_ip = 46; continue _fun00083 }
  36:
                 report = oscard.getLayoutMap;
                 entity = report.bind(oscard)();
  46:
-                if(!(tangon == entity)) { _fun00082_ip = 58; continue _fun00081 }
+                if(!(tangon == entity)) { _fun00084_ip = 58; continue _fun00083 }
  50:
                 tangon = _closure1_slot21;
                 entity = tangon.bind(zuuluu)();
  58:
-                _fun00082_ip = 68; continue _fun00081;
+                _fun00084_ip = 68; continue _fun00083;
  60:
                 michal = _closure1_slot21;
                 entity = michal.bind(zuuluu)();
@@ -1923,20 +1930,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu['getLayoutMap'] = report;
         zuuluu['reverseLookupCodeFromKey'] = tangon;
         tangon = function(argFoo) { // Original name: getExactKeyboardEventMatchFromAny
-            _fun00083: for(var _fun00084_ip = 0; ; ) switch(_fun00084_ip) {
+            _fun00085: for(var _fun00086_ip = 0; ; ) switch(_fun00086_ip) {
  0:
                 zuuluu = argFoo;
                 entity = zuuluu.key;
                 tangon = null;
                 michal = tangon != entity;
                 entity = null;
-                if(!michal) { _fun00084_ip = 82; continue _fun00083 }
+                if(!michal) { _fun00086_ip = 82; continue _fun00085 }
  19:
-                report = _closure1_slot24;
+                report = _closure1_slot23;
                 michal = undefined;
                 option = report.bind(michal)();
                 report = tangon == option;
-                if(report) { _fun00084_ip = 70; continue _fun00083 }
+                if(report) { _fun00086_ip = 70; continue _fun00085 }
  39:
                 golfie = option.findExactKeyboardEventMatch;
                 oscard = zuuluu.key;
@@ -1946,7 +1953,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  70:
                 zuuluu = tangon != michal;
                 entity = null;
-                if(!zuuluu) { _fun00084_ip = 82; continue _fun00083 }
+                if(!zuuluu) { _fun00086_ip = 82; continue _fun00085 }
  79:
                 entity = michal;
  82:
@@ -1955,23 +1962,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         zuuluu['getExactKeyboardEventMatchFromAny'] = tangon;
         tangon = function(argFoo) { // Original name: getKeyboardEventShapeFromAny
-            _fun00085: for(var _fun00086_ip = 0; ; ) switch(_fun00086_ip) {
+            _fun00087: for(var _fun00088_ip = 0; ; ) switch(_fun00088_ip) {
  0:
                 tangon = argFoo;
                 entity = tangon.key;
                 michal = null;
-                if(!(michal == entity)) { _fun00086_ip = 86; continue _fun00085 }
+                if(!(michal == entity)) { _fun00088_ip = 86; continue _fun00087 }
  14:
                 entity = tangon.keyCode;
                 zuuluu = michal != entity;
                 entity = null;
-                if(!zuuluu) { _fun00086_ip = 84; continue _fun00085 }
+                if(!zuuluu) { _fun00088_ip = 84; continue _fun00087 }
  29:
-                report = _closure1_slot24;
+                report = _closure1_slot23;
                 zuuluu = undefined;
                 option = report.bind(zuuluu)();
                 report = michal == option;
-                if(report) { _fun00086_ip = 72; continue _fun00085 }
+                if(report) { _fun00088_ip = 72; continue _fun00087 }
  49:
                 golfie = option.findKeyboardEventByKeyCode;
                 oscard = tangon.keyCode;
@@ -1980,17 +1987,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  72:
                 report = michal != zuuluu;
                 entity = null;
-                if(!report) { _fun00086_ip = 84; continue _fun00085 }
+                if(!report) { _fun00088_ip = 84; continue _fun00087 }
  81:
                 entity = zuuluu;
  84:
-                _fun00086_ip = 150; continue _fun00085;
+                _fun00088_ip = 150; continue _fun00087;
  86:
-                report = _closure1_slot24;
+                report = _closure1_slot23;
                 zuuluu = undefined;
                 option = report.bind(zuuluu)();
                 report = michal == option;
-                if(report) { _fun00086_ip = 135; continue _fun00085 }
+                if(report) { _fun00088_ip = 135; continue _fun00087 }
  106:
                 golfie = option.findKeyboardEventByKey;
                 oscard = tangon.key;
@@ -2000,7 +2007,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  135:
                 tangon = michal != zuuluu;
                 michal = null;
-                if(!tangon) { _fun00086_ip = 147; continue _fun00085 }
+                if(!tangon) { _fun00088_ip = 147; continue _fun00087 }
  144:
                 michal = zuuluu;
  147:
@@ -2011,7 +2018,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         zuuluu['getKeyboardEventShapeFromAny'] = tangon;
         tangon = function(argFoo) { // Original name: getKeyboardEventShapeFromKey
-            _fun00087: for(var _fun00088_ip = 0; ; ) switch(_fun00088_ip) {
+            _fun00089: for(var _fun00090_ip = 0; ; ) switch(_fun00090_ip) {
  0:
                 michal = argFoo;
                 golfie = michal;
@@ -2020,14 +2027,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = undefined;
                 option = undefined;
                 zuuluu = undefined;
-                entity = _closure1_slot26;
+                entity = _closure1_slot25;
                 oscard = entity.bind(offset)(michal);
-                entity = _closure1_slot24;
+                entity = _closure1_slot23;
                 foxtra = entity.bind(offset)();
                 michal = null;
                 entity = michal == foxtra;
                 verify = undefined;
-                if(entity) { _fun00088_ip = 65; continue _fun00087 }
+                if(entity) { _fun00090_ip = 65; continue _fun00089 }
  47:
                 romeon = foxtra.findKeyboardEventByKey;
                 yankee = golfie;
@@ -2036,18 +2043,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  65:
                 yankee = michal != verify;
                 entity = null;
-                if(!yankee) { _fun00088_ip = 77; continue _fun00087 }
+                if(!yankee) { _fun00090_ip = 77; continue _fun00089 }
  74:
                 entity = verify;
  77:
-                if(!(michal == entity)) { _fun00088_ip = 216; continue _fun00087 }
+                if(!(michal == entity)) { _fun00090_ip = 216; continue _fun00089 }
  84: // try_start_0
-                tangon = _closure1_slot24;
+                tangon = _closure1_slot23;
                 tangon = tangon.bind(offset)();
                 option = tangon;
                 verify = michal == tangon;
                 tangon = undefined;
-                if(verify) { _fun00088_ip = 120; continue _fun00087 }
+                if(verify) { _fun00090_ip = 120; continue _fun00089 }
  104:
                 verify = option;
                 option = verify.getDefaultKeyboardEventShape;
@@ -2056,12 +2063,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = tangon;
                 oscard = michal != tangon;
                 tangon = null;
-                if(!oscard) { _fun00088_ip = 135; continue _fun00087 }
+                if(!oscard) { _fun00090_ip = 135; continue _fun00089 }
  132:
                 tangon = report;
  135:
                 zuuluu = tangon;
-                if(!(michal != tangon)) { _fun00088_ip = 210; continue _fun00087 }
+                if(!(michal != tangon)) { _fun00090_ip = 210; continue _fun00089 }
  142:
                 tangon = global;
                 oscard = tangon.KeyboardEvent;
@@ -2092,19 +2099,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         zuuluu['getKeyboardEventShapeFromKey'] = tangon;
         michal = function(argFoo) { // Original name: getKeyboardEventShapeFromKeycode
-            _fun00089: for(var _fun00090_ip = 0; ; ) switch(_fun00090_ip) {
+            _fun00091: for(var _fun00092_ip = 0; ; ) switch(_fun00092_ip) {
  0:
                 oscard = argFoo;
                 verify = undefined;
                 report = undefined;
                 golfie = undefined;
                 zuuluu = undefined;
-                entity = _closure1_slot24;
+                entity = _closure1_slot23;
                 yankee = entity.bind(verify)();
                 michal = null;
                 entity = michal == yankee;
                 option = undefined;
-                if(entity) { _fun00090_ip = 47; continue _fun00089 }
+                if(entity) { _fun00092_ip = 47; continue _fun00091 }
  33:
                 offset = yankee.findKeyboardEventByKeyCode;
                 entity = oscard;
@@ -2112,18 +2119,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  47:
                 offset = michal != option;
                 entity = null;
-                if(!offset) { _fun00090_ip = 59; continue _fun00089 }
+                if(!offset) { _fun00092_ip = 59; continue _fun00091 }
  56:
                 entity = option;
  59:
-                if(!(michal == entity)) { _fun00090_ip = 197; continue _fun00089 }
+                if(!(michal == entity)) { _fun00092_ip = 197; continue _fun00091 }
  66: // try_start_0
-                tangon = _closure1_slot24;
+                tangon = _closure1_slot23;
                 tangon = tangon.bind(verify)();
                 golfie = tangon;
                 option = michal == tangon;
                 tangon = undefined;
-                if(option) { _fun00090_ip = 101; continue _fun00089 }
+                if(option) { _fun00092_ip = 101; continue _fun00091 }
  86:
                 option = golfie;
                 golfie = option.getDefaultKeyboardEventShape;
@@ -2132,12 +2139,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = tangon;
                 oscard = michal != tangon;
                 tangon = null;
-                if(!oscard) { _fun00090_ip = 116; continue _fun00089 }
+                if(!oscard) { _fun00092_ip = 116; continue _fun00091 }
  113:
                 tangon = report;
  116:
                 zuuluu = tangon;
-                if(!(michal != tangon)) { _fun00090_ip = 191; continue _fun00089 }
+                if(!(michal != tangon)) { _fun00092_ip = 191; continue _fun00091 }
  123:
                 tangon = global;
                 oscard = tangon.KeyboardEvent;

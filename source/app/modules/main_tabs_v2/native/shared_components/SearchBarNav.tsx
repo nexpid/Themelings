@@ -26,12 +26,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot2 = option;
     backup = tangon.StyleSheet;
     tangon = 2;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot3 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot3 = option;
     tangon = tangon.jsxs;
     var _closure1_slot4 = tangon;
     tangon = 3;
@@ -212,10 +210,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = verify.isAndroid;
             option = option.bind(verify)();
             oscard = null;
-            if(option) { _fun00002_ip = 532; continue _fun00001 }
- 529:
+            if(option) { _fun00002_ip = 536; continue _fun00001 }
+ 533:
             oscard = golfie;
- 532:
+ 536:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

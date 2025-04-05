@@ -6,39 +6,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie = argPlu;
     var _closure1_slot0 = oscard;
     var _closure1_slot1 = golfie;
-    entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            tangon = argFoo;
-            michal = _closure1_slot5;
-            zuuluu = undefined;
-            entity = argBar;
-            verify = michal.bind(zuuluu)(entity);
-            michal = _closure1_slot4;
-            entity = _closure1_slot12;
-            entity = entity.bind(zuuluu)();
-            if(entity) { _fun00002_ip = 48; continue _fun00001 }
- 35:
-            entity = verify.apply;
-            entity = entity.bind(verify)(tangon, zuuluu);
-            _fun00002_ip = 86; continue _fun00001;
- 48:
-            oscard = global;
-            option = oscard.Reflect;
-            golfie = option.construct;
-            oscard = new Array(0);
-            report = _closure1_slot5;
-            report = report.bind(zuuluu)(tangon);
-            report = report.constructor;
-            entity = golfie.bind(option)(verify, oscard, report);
- 86:
-            entity = michal.bind(zuuluu)(tangon, entity);
-            return entity;
-        }
-    };
-    var _closure1_slot11 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
  2: // try_start_0
             michal = global;
@@ -59,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = !michal;
             var _closure2_slot0 = michal;
  70: // try_end0
-            _fun00004_ip = 74; continue _fun00003;
+            _fun00002_ip = 74; continue _fun00001;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -69,13 +38,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot12 = michal;
+            _closure1_slot11 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot11 = entity;
     entity = global;
     verify = entity.Object;
     report = verify.defineProperty;
@@ -136,39 +105,61 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = option.bind(entity)(report);
     tangon = function(argFoo) {
         tangon = function(argFoo, argBar) { // Original name: Output
-            report = this;
-            entity = _closure1_slot2;
-            tangon = _closure2_slot0;
-            zuuluu = undefined;
-            entity = entity.bind(zuuluu)(report, tangon);
-            entity = _closure1_slot11;
-            entity = entity.bind(zuuluu)(report, tangon);
-            zuuluu = _closure1_slot7;
-            zuuluu = zuuluu.NONE;
-            entity['_speakingFlags'] = zuuluu;
-            zuuluu = false;
-            entity['_mute'] = zuuluu;
-            michal = _closure1_slot8;
-            entity['_volume'] = michal;
-            michal = null;
-            entity['sinkId'] = michal;
-            entity['audioElement'] = michal;
-            zuuluu = global;
-            zuuluu = zuuluu.MediaStream;
-            tangon = zuuluu.prototype;
-            tangon = Object.create(tangon, {constructor: {value: zuuluu}});
-            option = tangon;
-            zuuluu = new option[zuuluu](golfie);
-            zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
-            entity['stream'] = zuuluu;
-            entity['videoStreamId'] = michal;
-            entity['levelNode'] = michal;
-            entity['streamSourceNode'] = michal;
-            michal = argFoo;
-            entity['id'] = michal;
-            michal = argBar;
-            entity['audioContext'] = michal;
-            return entity;
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                report = this;
+                entity = _closure1_slot2;
+                zuuluu = _closure2_slot0;
+                tangon = undefined;
+                entity = entity.bind(tangon)(report, zuuluu);
+                entity = _closure1_slot5;
+                offset = entity.bind(tangon)(zuuluu);
+                zuuluu = _closure1_slot4;
+                entity = _closure1_slot11;
+                entity = entity.bind(tangon)();
+                if(entity) { _fun00004_ip = 62; continue _fun00003 }
+ 49:
+                entity = offset.apply;
+                entity = entity.bind(offset)(report, tangon);
+                _fun00004_ip = 100; continue _fun00003;
+ 62:
+                oscard = global;
+                verify = oscard.Reflect;
+                option = verify.construct;
+                oscard = _closure1_slot5;
+                oscard = oscard.bind(tangon)(report);
+                golfie = oscard.constructor;
+                oscard = new Array(0);
+                entity = option.bind(verify)(offset, oscard, golfie);
+ 100:
+                entity = zuuluu.bind(tangon)(report, entity);
+                zuuluu = _closure1_slot7;
+                zuuluu = zuuluu.NONE;
+                entity['_speakingFlags'] = zuuluu;
+                zuuluu = false;
+                entity['_mute'] = zuuluu;
+                michal = _closure1_slot8;
+                entity['_volume'] = michal;
+                michal = null;
+                entity['sinkId'] = michal;
+                entity['audioElement'] = michal;
+                zuuluu = global;
+                zuuluu = zuuluu.MediaStream;
+                tangon = zuuluu.prototype;
+                tangon = Object.create(tangon, {constructor: {value: zuuluu}});
+                backup = tangon;
+                zuuluu = new backup[zuuluu](foxtra);
+                zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
+                entity['stream'] = zuuluu;
+                entity['videoStreamId'] = michal;
+                entity['levelNode'] = michal;
+                entity['streamSourceNode'] = michal;
+                michal = argFoo;
+                entity['id'] = michal;
+                michal = argBar;
+                entity['audioContext'] = michal;
+                return entity;
+            }
         };
         var _closure2_slot0 = tangon;
         report = _closure1_slot6;

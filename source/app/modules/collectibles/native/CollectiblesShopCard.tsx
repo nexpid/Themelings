@@ -36,12 +36,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = foxtra.bind(entity)(michal);
         var _closure1_slot5 = michal;
         michal = 4;
-        oscard = option[michal];
-        oscard = golfie.bind(entity)(oscard);
-        oscard = oscard.jsx;
-        var _closure1_slot6 = oscard;
         michal = option[michal];
         michal = golfie.bind(entity)(michal);
+        oscard = michal.jsx;
+        var _closure1_slot6 = oscard;
         michal = michal.jsxs;
         var _closure1_slot7 = michal;
         michal = tangon.getFontScale;
@@ -49,10 +47,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = 1.78;
         michal = tangon >= michal;
         tangon = 282;
-        if(!michal) { _fun00002_ip = 206; continue _fun00001 }
- 200:
+        if(!michal) { _fun00002_ip = 197; continue _fun00001 }
+ 191:
         tangon = 362;
- 206:
+ 197:
         michal = 5;
         michal = option[michal];
         offset = golfie.bind(entity)(michal);

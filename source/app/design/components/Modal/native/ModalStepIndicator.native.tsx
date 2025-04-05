@@ -17,7 +17,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot1 = tangon;
             var _closure2_slot2 = tangon;
             var _closure2_slot3 = tangon;
-            report = _closure1_slot9;
+            report = _closure1_slot7;
             oscard = report.bind(tangon)();
             option = _closure1_slot0;
             golfie = _closure1_slot2;
@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  73:
             romeon = option.bind(verify)(golfie);
             _closure2_slot1 = romeon;
-            golfie = _closure1_slot10;
+            golfie = _closure1_slot8;
             golfie = golfie.bind(tangon)();
             offset = golfie.activeColor;
             _closure2_slot2 = offset;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = undefined;
                     oscard = oscard.bind(entity)(report);
                     report = oscard.withSpring;
-                    michal = _closure1_slot8;
+                    michal = _closure1_slot6;
                     michal = report.bind(oscard)(golfie, michal);
                     michal = zuuluu.bind(tangon)(michal);
                     return entity;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = entity[report];
             option = foxtra.bind(tangon)(golfie);
             golfie = option.useAnimatedStyle;
-            zuuluu = function() { // Original name: T
+            zuuluu = function() { // Original name: I
                 entity = {};
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
@@ -82,16 +82,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = undefined;
                 yankee = report.bind(tangon)(michal);
                 offset = yankee.interpolate;
-                verify = _closure2_slot1;
-                option = verify.get;
-                verify = option.bind(verify)();
-                romeon = _closure1_slot7;
-                option = new Array(2);
-                option[0] = romeon;
-                golfie = _closure1_slot6;
-                option[1] = golfie;
-                golfie = [0, 1];
-                golfie = offset.bind(yankee)(verify, golfie, option);
+                option = _closure2_slot1;
+                golfie = option.get;
+                verify = golfie.bind(option)();
+                option = [0, 1];
+                golfie = [12, 36];
+                golfie = offset.bind(yankee)(verify, option, golfie);
                 entity['width'] = golfie;
                 zuuluu = oscard[zuuluu];
                 oscard = report.bind(tangon)(zuuluu);
@@ -115,9 +111,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup.interpolate;
             verify['interpolate'] = backup;
             verify['sharedValue'] = romeon;
-            romeon = _closure1_slot7;
+            romeon = 12;
             verify['WIDTH_INACTIVE'] = romeon;
-            romeon = _closure1_slot6;
+            romeon = 36;
             verify['WIDTH_ACTIVE'] = romeon;
             romeon = entity[report];
             romeon = foxtra.bind(tangon)(romeon);
@@ -128,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['__closure'] = verify;
             verify = 607318056197.0;
             zuuluu['__workletHash'] = verify;
-            verify = _closure1_slot11;
+            verify = _closure1_slot9;
             zuuluu['__initData'] = verify;
             golfie = golfie.bind(option)(zuuluu);
             zuuluu = _closure1_slot5;
@@ -146,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot10 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -171,13 +167,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
     var _closure1_slot5 = tangon;
-    tangon = 36;
-    var _closure1_slot6 = tangon;
-    tangon = 12;
-    var _closure1_slot7 = tangon;
     tangon = {};
     tangon['overshootClamping'] = golfie;
-    var _closure1_slot8 = tangon;
+    var _closure1_slot6 = tangon;
     tangon = 3;
     golfie = oscard[tangon];
     yankee = report.bind(entity)(golfie);
@@ -189,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     romeon = {'height': 4, 'borderRadius': 2};
     golfie['stepPill'] = romeon;
     golfie = option.bind(yankee)(golfie);
-    var _closure1_slot9 = golfie;
+    var _closure1_slot7 = golfie;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
     golfie = option.createStyleProperties;
@@ -205,11 +197,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = verify.BG_MOD_STRONG;
     tangon['inactiveColor'] = verify;
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot10 = tangon;
+    var _closure1_slot8 = tangon;
     tangon = {};
     golfie = 'function ModalStepIndicatorNativeTsx1(){const{interpolate,sharedValue,WIDTH_INACTIVE,WIDTH_ACTIVE,interpolateColor,inactiveColor,activeColor}=this.__closure;return{width:interpolate(sharedValue.get(),[0,1],[WIDTH_INACTIVE,WIDTH_ACTIVE]),backgroundColor:interpolateColor(sharedValue.get(),[0,1],[inactiveColor,activeColor])};}';
     tangon['code'] = golfie;
-    var _closure1_slot11 = tangon;
+    var _closure1_slot9 = tangon;
     tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -222,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = argFoo;
             golfie = entity.currentStep;
             zuuluu = entity.totalSteps;
-            michal = _closure1_slot9;
+            michal = _closure1_slot7;
             tangon = undefined;
             oscard = michal.bind(tangon)();
             report = new Array(0);
@@ -232,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  41:
             verify = report.push;
             yankee = _closure1_slot5;
-            offset = _closure1_slot12;
+            offset = _closure1_slot10;
             option = {};
             romeon = michal === golfie;
             option['isActive'] = romeon;

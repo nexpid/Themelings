@@ -442,10 +442,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     yankee = 3;
     tangon = option[yankee];
     tangon = golfie.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot5 = tangon;
-    tangon = option[yankee];
-    tangon = golfie.bind(entity)(tangon);
+    oscard = tangon.jsx;
+    var _closure1_slot5 = oscard;
     tangon = tangon.jsxs;
     var _closure1_slot6 = tangon;
     oscard = {};

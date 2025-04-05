@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = status[source];
             output = target.bind(tangon)(verify);
             sizing = output.useAnimatedScrollHandler;
-            verify = function(argFoo) { // Original name: z
+            verify = function(argFoo) { // Original name: N
                 zuuluu = _closure2_slot4;
                 michal = zuuluu.set;
                 entity = argFoo;
@@ -1441,12 +1441,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = report.ContentDismissActionType;
     var _closure1_slot22 = report;
     report = 11;
-    yankee = golfie[report];
-    yankee = oscard.bind(entity)(yankee);
-    yankee = yankee.jsx;
-    var _closure1_slot23 = yankee;
     report = golfie[report];
     report = oscard.bind(entity)(report);
+    yankee = report.jsx;
+    var _closure1_slot23 = yankee;
     report = report.jsxs;
     var _closure1_slot24 = report;
     report = 12;

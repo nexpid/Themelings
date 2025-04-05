@@ -34,12 +34,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = tangon.View;
         var _closure1_slot5 = tangon;
         tangon = 3;
-        option = oscard[tangon];
-        option = report.bind(entity)(option);
-        option = option.jsx;
-        var _closure1_slot6 = option;
         tangon = oscard[tangon];
         tangon = report.bind(entity)(tangon);
+        option = tangon.jsx;
+        var _closure1_slot6 = option;
         tangon = tangon.jsxs;
         var _closure1_slot7 = tangon;
         option = verify.create;
@@ -79,13 +77,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         backup = oscard[backup];
         backup = kiloes.bind(entity)(backup);
         backup = backup.unsafe_rawColors;
-        if(foxtra) { _fun00002_ip = 357; continue _fun00001 }
- 349:
+        if(foxtra) { _fun00002_ip = 348; continue _fun00001 }
+ 340:
         foxtra = backup.PRIMARY_600;
-        _fun00002_ip = 363; continue _fun00001;
- 357:
+        _fun00002_ip = 354; continue _fun00001;
+ 348:
         foxtra = backup.PRIMARY_800;
- 363:
+ 354:
         offset['backgroundColor'] = foxtra;
         offset['flexGrow'] = romeon;
         offset['justifyContent'] = yankee;

@@ -212,12 +212,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = oscard.SubscriptionPlans;
     var _closure1_slot11 = oscard;
     oscard = 5;
-    golfie = verify[oscard];
-    golfie = option.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot12 = golfie;
     oscard = verify[oscard];
     oscard = option.bind(entity)(oscard);
+    golfie = oscard.jsx;
+    var _closure1_slot12 = golfie;
     oscard = oscard.jsxs;
     var _closure1_slot13 = oscard;
     oscard = 6;

@@ -12,7 +12,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             entity = argFoo;
             zuuluu = entity.voicePlatform;
-            report = _closure1_slot21;
+            report = _closure1_slot20;
             tangon = undefined;
             report = report.bind(tangon)();
             offset = _closure1_slot3;
@@ -39,20 +39,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = entity.mode;
                     entity = _closure1_slot11;
                     entity = entity.HIDDEN;
-                    tangon = michal === entity;
+                    zuuluu = michal === entity;
                     entity = {};
-                    zuuluu = 2;
-                    michal = zuuluu;
-                    if(tangon) { _fun00004_ip = 53; continue _fun00003 }
+                    michal = 4;
+                    if(!zuuluu) { _fun00004_ip = 49; continue _fun00003 }
+ 46:
+                    michal = 2;
  49:
-                    michal = _closure1_slot20;
- 53:
                     entity['marginLeft'] = michal;
                     michal = 0;
-                    if(!tangon) { _fun00004_ip = 66; continue _fun00003 }
- 63:
-                    michal = zuuluu;
- 66:
+                    if(!zuuluu) { _fun00004_ip = 62; continue _fun00003 }
+ 59:
+                    michal = 2;
+ 62:
                     entity['marginRight'] = michal;
                     return entity;
                 }
@@ -61,12 +60,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['controlsSpecs'] = yankee;
             yankee = _closure1_slot11;
             offset['VoicePanelControlsModes'] = yankee;
-            yankee = _closure1_slot20;
+            yankee = 4;
             offset['GAP'] = yankee;
             michal['__closure'] = offset;
             offset = 3270040588948.0;
             michal['__workletHash'] = offset;
-            offset = _closure1_slot22;
+            offset = _closure1_slot21;
             michal['__initData'] = offset;
             oscard = oscard.bind(verify)(michal);
             michal = 17;
@@ -74,25 +73,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = golfie.bind(tangon)(michal);
             michal = _closure1_slot15;
             michal = michal.XBOX;
-            if(!(zuuluu !== michal)) { _fun00002_ip = 222; continue _fun00001 }
- 186:
+            if(!(zuuluu !== michal)) { _fun00002_ip = 221; continue _fun00001 }
+ 185:
             michal = _closure1_slot15;
             michal = michal.MOBILE;
-            if(!(zuuluu === michal)) { _fun00002_ip = 242; continue _fun00001 }
- 200:
+            if(!(zuuluu === michal)) { _fun00002_ip = 241; continue _fun00001 }
+ 199:
             zuuluu = _closure1_slot1;
             option = _closure1_slot2;
             michal = 19;
             michal = option[michal];
             golfie = zuuluu.bind(tangon)(michal);
-            _fun00002_ip = 242; continue _fun00001;
- 222:
+            _fun00002_ip = 241; continue _fun00001;
+ 221:
             zuuluu = _closure1_slot1;
             option = _closure1_slot2;
             michal = 18;
             michal = option[michal];
             golfie = zuuluu.bind(tangon)(michal);
- 242:
+ 241:
             zuuluu = _closure1_slot16;
             michal = _closure1_slot19;
             entity = {};
@@ -106,13 +105,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot40 = entity;
+    var _closure1_slot39 = entity;
     entity = function(argFoo) { // Original name: AnimatedLabelIcon
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             report = entity.icon;
-            michal = _closure1_slot21;
+            michal = _closure1_slot20;
             tangon = undefined;
             offset = michal.bind(tangon)();
             zuuluu = report.type;
@@ -241,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return michal;
  533:
             zuuluu = _closure1_slot16;
-            michal = _closure1_slot40;
+            michal = _closure1_slot39;
             entity = {};
             report = report.voicePlatform;
             entity['voicePlatform'] = report;
@@ -249,7 +248,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot41 = entity;
+    var _closure1_slot40 = entity;
     entity = function(argFoo, argBar) { // Original name: getAccessibilityLabel
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -363,7 +362,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot42 = entity;
+    var _closure1_slot41 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -393,65 +392,60 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = romeon.bind(entity)(tangon);
     var _closure1_slot6 = tangon;
     tangon = 4;
-    option = oscard[tangon];
-    option = romeon.bind(entity)(option);
-    var _closure1_slot7 = option;
-    option = 5;
-    option = oscard[option];
-    option = romeon.bind(entity)(option);
-    var _closure1_slot8 = option;
-    option = 6;
-    option = oscard[option];
-    option = report.bind(entity)(option);
-    verify = option.MODE_CHANGE_PHYSICS;
-    var _closure1_slot9 = verify;
-    option = option.VoicePanelModes;
-    var _closure1_slot10 = option;
-    option = 7;
-    option = oscard[option];
-    option = report.bind(entity)(option);
-    option = option.VoicePanelControlsModes;
-    var _closure1_slot11 = option;
-    option = 8;
-    option = oscard[option];
-    option = report.bind(entity)(option);
-    option = option.VOICE_PANEL_CARD_INNER_PADDING;
-    var _closure1_slot12 = option;
-    option = 9;
-    option = oscard[option];
-    option = report.bind(entity)(option);
-    option = option.ThemeTypes;
-    var _closure1_slot13 = option;
-    option = 10;
-    option = oscard[option];
-    option = report.bind(entity)(option);
-    verify = option.ParticipantTypes;
-    var _closure1_slot14 = verify;
-    option = option.VoicePlatforms;
-    var _closure1_slot15 = option;
-    option = 11;
-    verify = oscard[option];
-    verify = report.bind(entity)(verify);
-    verify = verify.jsx;
-    var _closure1_slot16 = verify;
-    verify = oscard[option];
-    verify = report.bind(entity)(verify);
-    verify = verify.jsxs;
-    var _closure1_slot17 = verify;
-    option = oscard[option];
-    option = report.bind(entity)(option);
-    option = option.Fragment;
-    var _closure1_slot18 = option;
-    option = 12;
-    option = oscard[option];
-    offset = romeon.bind(entity)(option);
-    verify = offset.createAnimatedComponent;
-    option = 13;
-    option = oscard[option];
-    option = romeon.bind(entity)(option);
-    option = verify.bind(offset)(option);
-    var _closure1_slot19 = option;
-    var _closure1_slot20 = tangon;
+    tangon = oscard[tangon];
+    tangon = romeon.bind(entity)(tangon);
+    var _closure1_slot7 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    tangon = romeon.bind(entity)(tangon);
+    var _closure1_slot8 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    option = tangon.MODE_CHANGE_PHYSICS;
+    var _closure1_slot9 = option;
+    tangon = tangon.VoicePanelModes;
+    var _closure1_slot10 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.VoicePanelControlsModes;
+    var _closure1_slot11 = tangon;
+    tangon = 8;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.VOICE_PANEL_CARD_INNER_PADDING;
+    var _closure1_slot12 = tangon;
+    tangon = 9;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.ThemeTypes;
+    var _closure1_slot13 = tangon;
+    tangon = 10;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    option = tangon.ParticipantTypes;
+    var _closure1_slot14 = option;
+    tangon = tangon.VoicePlatforms;
+    var _closure1_slot15 = tangon;
+    tangon = 11;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot16 = option;
+    option = tangon.jsxs;
+    var _closure1_slot17 = option;
+    tangon = tangon.Fragment;
+    var _closure1_slot18 = tangon;
+    tangon = 12;
+    tangon = oscard[tangon];
+    verify = romeon.bind(entity)(tangon);
+    option = verify.createAnimatedComponent;
+    tangon = 13;
+    tangon = oscard[tangon];
+    tangon = romeon.bind(entity)(tangon);
+    tangon = option.bind(verify)(tangon);
+    var _closure1_slot19 = tangon;
     tangon = 14;
     tangon = oscard[tangon];
     verify = report.bind(entity)(tangon);
@@ -525,15 +519,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset['marginEnd'] = yankee;
     tangon['secureFramesIcon'] = offset;
     tangon = option.bind(verify)(tangon);
-    var _closure1_slot21 = tangon;
+    var _closure1_slot20 = tangon;
     tangon = {};
     option = 'function VoicePanelCardFloatingControlsTsx1(){const{controlsSpecs,VoicePanelControlsModes,GAP}=this.__closure;const hidden=controlsSpecs.get().mode===VoicePanelControlsModes.HIDDEN;return{marginLeft:hidden?2:GAP,marginRight:hidden?2:0};}';
     tangon['code'] = option;
-    var _closure1_slot22 = tangon;
+    var _closure1_slot21 = tangon;
     tangon = {};
     option = "function VoicePanelCardFloatingControlsTsx2(){const{controlsHidden,FLOATING_BAR_HEIGHT,VOICE_PANEL_CARD_INNER_PADDING,withSpring,MODE_CHANGE_PHYSICS}=this.__closure;const hidden=controlsHidden.get();return{position:'absolute',top:hidden?-(FLOATING_BAR_HEIGHT+VOICE_PANEL_CARD_INNER_PADDING*2):VOICE_PANEL_CARD_INNER_PADDING,left:VOICE_PANEL_CARD_INNER_PADDING,opacity:withSpring(hidden?0:1,MODE_CHANGE_PHYSICS),zIndex:1};}";
     tangon['code'] = option;
-    var _closure1_slot23 = tangon;
+    var _closure1_slot22 = tangon;
     option = golfie.memo;
     tangon = function(argFoo) {
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
@@ -627,7 +621,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['__closure'] = report;
                 report = 4080439075039.0;
                 entity['__workletHash'] = report;
-                tangon = _closure1_slot23;
+                tangon = _closure1_slot22;
                 entity['__initData'] = tangon;
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
@@ -765,11 +759,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     tangon = option.bind(golfie)(tangon);
-    var _closure1_slot24 = tangon;
+    var _closure1_slot23 = tangon;
     tangon = {};
     option = "function VoicePanelCardFloatingControlsTsx3(){const{controlsHidden,mode,VoicePanelModes,FLOATING_BAR_HEIGHT,VOICE_PANEL_CARD_INNER_PADDING,withSpring,MODE_CHANGE_PHYSICS}=this.__closure;const hidden=controlsHidden.get()||mode.get()===VoicePanelModes.PIP;return{position:'absolute',top:hidden?-(FLOATING_BAR_HEIGHT+VOICE_PANEL_CARD_INNER_PADDING*2):VOICE_PANEL_CARD_INNER_PADDING,right:VOICE_PANEL_CARD_INNER_PADDING,opacity:withSpring(hidden?0:1,MODE_CHANGE_PHYSICS),zIndex:1};}";
     tangon['code'] = option;
-    var _closure1_slot25 = tangon;
+    var _closure1_slot24 = tangon;
     option = golfie.memo;
     tangon = function(argFoo) {
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
@@ -884,7 +878,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['__closure'] = golfie;
             golfie = 12421495364262.0;
             entity['__workletHash'] = golfie;
-            golfie = _closure1_slot25;
+            golfie = _closure1_slot24;
             entity['__initData'] = golfie;
             golfie = michal.bind(zuuluu)(entity);
             zuuluu = _closure1_slot16;
@@ -937,33 +931,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     tangon = option.bind(golfie)(tangon);
-    var _closure1_slot26 = tangon;
+    var _closure1_slot25 = tangon;
     tangon = {'mass': 0.1, 'stiffness': 400, 'overshootClamping': true};
-    var _closure1_slot27 = tangon;
+    var _closure1_slot26 = tangon;
     tangon = {};
     option = 'function VoicePanelCardFloatingControlsTsx4(){const{flip}=this.__closure;return flip.get();}';
     tangon['code'] = option;
-    var _closure1_slot28 = tangon;
+    var _closure1_slot27 = tangon;
     tangon = {};
     option = "function VoicePanelCardFloatingControlsTsx5(flipped){const{angle,withSpring,getRandomNumberInRange,RING_PHYSICS,flip}=this.__closure;if(flipped){angle.set(withSpring(getRandomNumberInRange(45-10,45+10),RING_PHYSICS,'respect-motion-settings',function(finished){if(!finished)return;flip.set(!flip.get());}));}else{angle.set(withSpring(getRandomNumberInRange(0-10,0+10),RING_PHYSICS,'respect-motion-settings',function(finished){if(!finished)return;flip.set(!flip.get());}));}}";
     tangon['code'] = option;
-    var _closure1_slot29 = tangon;
+    var _closure1_slot28 = tangon;
     tangon = {};
     option = 'function VoicePanelCardFloatingControlsTsx6(finished){const{flip}=this.__closure;if(!finished)return;flip.set(!flip.get());}';
     tangon['code'] = option;
-    var _closure1_slot30 = tangon;
+    var _closure1_slot29 = tangon;
     tangon = {};
     option = 'function VoicePanelCardFloatingControlsTsx7(finished){const{flip}=this.__closure;if(!finished)return;flip.set(!flip.get());}';
     tangon['code'] = option;
-    var _closure1_slot31 = tangon;
+    var _closure1_slot30 = tangon;
     tangon = {};
     option = 'function VoicePanelCardFloatingControlsTsx8(){const{controlsHidden,FLOATING_BAR_HEIGHT,VOICE_PANEL_CARD_INNER_PADDING}=this.__closure;return{top:controlsHidden.get()?-(FLOATING_BAR_HEIGHT+VOICE_PANEL_CARD_INNER_PADDING*2):0};}';
     tangon['code'] = option;
-    var _closure1_slot32 = tangon;
+    var _closure1_slot31 = tangon;
     tangon = {};
     option = 'function VoicePanelCardFloatingControlsTsx9(){const{angle}=this.__closure;return{transform:[{rotate:angle.get()+"deg"}]};}';
     tangon['code'] = option;
-    var _closure1_slot33 = tangon;
+    var _closure1_slot32 = tangon;
     option = golfie.memo;
     tangon = function(argFoo) {
         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
@@ -971,7 +965,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = argFoo;
             kiloes = michal.controlsHidden;
             var _closure2_slot0 = kiloes;
-            michal = _closure1_slot21;
+            michal = _closure1_slot20;
             tangon = undefined;
             yankee = michal.bind(tangon)();
             zuuluu = _closure1_slot0;
@@ -1016,7 +1010,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['__closure'] = report;
             report = 7663309832237.0;
             verify['__workletHash'] = report;
-            report = _closure1_slot28;
+            report = _closure1_slot27;
             verify['__initData'] = report;
             report = function(argFoo) { // Original name: n
                 _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
@@ -1040,7 +1034,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = -10;
                     oscard = 10;
                     echoed = golfie.bind(entity)(romeon, oscard);
-                    result = _closure1_slot27;
+                    result = _closure1_slot26;
                     romeon = function(argFoo) { // Original name: n
                         _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
@@ -1064,7 +1058,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon['__closure'] = oscard;
                     oscard = 1799436949573.0;
                     romeon['__workletHash'] = oscard;
-                    oscard = _closure1_slot31;
+                    oscard = _closure1_slot30;
                     romeon['__initData'] = oscard;
                     output = 'respect-motion-settings';
                     update = verify;
@@ -1075,7 +1069,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  158:
                     oscard = 55;
                     echoed = golfie.bind(entity)(offset, oscard);
-                    result = _closure1_slot27;
+                    result = _closure1_slot26;
                     report = function(argFoo) { // Original name: o
                         _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
@@ -1099,7 +1093,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report['__closure'] = offset;
                     offset = 17264907521028.0;
                     report['__workletHash'] = offset;
-                    michal = _closure1_slot30;
+                    michal = _closure1_slot29;
                     report['__initData'] = michal;
                     output = 'respect-motion-settings';
                     update = verify;
@@ -1122,13 +1116,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = offset[result];
             result = oscard.bind(tangon)(result);
             sizing['getRandomNumberInRange'] = result;
-            result = _closure1_slot27;
+            result = _closure1_slot26;
             sizing['RING_PHYSICS'] = result;
             sizing['flip'] = output;
             report['__closure'] = sizing;
             sizing = 15646860695268.0;
             report['__workletHash'] = sizing;
-            sizing = _closure1_slot29;
+            sizing = _closure1_slot28;
             report['__initData'] = sizing;
             report = romeon.bind(backup)(verify, report);
             report = offset[michal];
@@ -1164,7 +1158,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['__closure'] = backup;
             backup = 726627995932.0;
             report['__workletHash'] = backup;
-            backup = _closure1_slot32;
+            backup = _closure1_slot31;
             report['__initData'] = backup;
             romeon = verify.bind(romeon)(report);
             michal = offset[michal];
@@ -1193,7 +1187,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['__closure'] = report;
             report = 791392364030.0;
             entity['__workletHash'] = report;
-            report = _closure1_slot33;
+            report = _closure1_slot32;
             entity['__initData'] = report;
             verify = michal.bind(zuuluu)(entity);
             zuuluu = _closure1_slot16;
@@ -1246,7 +1240,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     tangon = option.bind(golfie)(tangon);
-    var _closure1_slot34 = tangon;
+    var _closure1_slot33 = tangon;
     option = golfie.memo;
     tangon = function(argFoo) {
         entity = argFoo;
@@ -1264,7 +1258,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = oscard.LIGHT;
         entity['theme'] = oscard;
         golfie = _closure1_slot16;
-        oscard = _closure1_slot34;
+        oscard = _closure1_slot33;
         report = {};
         report['controlsHidden'] = option;
         report = golfie.bind(zuuluu)(oscard, report);
@@ -1273,15 +1267,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     tangon = option.bind(golfie)(tangon);
-    var _closure1_slot35 = tangon;
+    var _closure1_slot34 = tangon;
     tangon = {};
     option = 'function VoicePanelCardFloatingControlsTsx10(){const{hasHiddenVisibleIcon,focused,connected,mode,VoicePanelModes,controlsHidden,withSpring,MODE_CHANGE_PHYSICS,FLOATING_BAR_HEIGHT,VOICE_PANEL_CARD_INNER_PADDING}=this.__closure;const showIcon=hasHiddenVisibleIcon&&focused.get()==null;const hidden=!connected.get()||mode.get()===VoicePanelModes.PIP||!showIcon&&controlsHidden.get();return{opacity:withSpring(hidden?0:1,MODE_CHANGE_PHYSICS),top:hidden?FLOATING_BAR_HEIGHT+VOICE_PANEL_CARD_INNER_PADDING:0};}';
     tangon['code'] = option;
-    var _closure1_slot36 = tangon;
+    var _closure1_slot35 = tangon;
     tangon = {};
     option = "function VoicePanelCardFloatingControlsTsx11(){const{connected,isScreenReaderEnabled,controlsSpecs,VoicePanelControlsModes,hasIcon,GAP}=this.__closure;const hidden=!connected.get()||!isScreenReaderEnabled&&controlsSpecs.get().mode===VoicePanelControlsModes.HIDDEN&&hasIcon;const shouldCollapseWidth=hidden&&hasIcon;return{width:shouldCollapseWidth?0:'auto',marginRight:hidden?-GAP:0};}";
     tangon['code'] = option;
-    var _closure1_slot37 = tangon;
+    var _closure1_slot36 = tangon;
     option = golfie.memo;
     tangon = function(argFoo) {
         _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
@@ -1320,7 +1314,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.useIsScreenReaderEnabled;
             verify = entity.bind(michal)();
             var _closure2_slot5 = verify;
-            entity = _closure1_slot21;
+            entity = _closure1_slot20;
             output = entity.bind(tangon)();
             entity = 40;
             entity = golfie[entity];
@@ -1478,7 +1472,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['__closure'] = kiloes;
             kiloes = 6051665012297.0;
             zuuluu['__workletHash'] = kiloes;
-            kiloes = _closure1_slot36;
+            kiloes = _closure1_slot35;
             zuuluu['__initData'] = kiloes;
             yankee = oscard.bind(yankee)(zuuluu);
             entity = report[entity];
@@ -1539,12 +1533,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = _closure1_slot11;
             oscard['VoicePanelControlsModes'] = option;
             oscard['hasIcon'] = golfie;
-            golfie = _closure1_slot20;
+            golfie = 4;
             oscard['GAP'] = golfie;
             entity['__closure'] = oscard;
             oscard = 9793041057235.0;
             entity['__workletHash'] = oscard;
-            oscard = _closure1_slot37;
+            oscard = _closure1_slot36;
             entity['__initData'] = oscard;
             sizing = michal.bind(zuuluu)(entity);
             zuuluu = _closure1_slot16;
@@ -1572,8 +1566,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = ctrled.length;
             option = 0;
             offset = offset > option;
-            if(!offset) { _fun00030_ip = 793; continue _fun00029 }
- 730:
+            if(!offset) { _fun00030_ip = 792; continue _fun00029 }
+ 729:
             kiloes = _closure1_slot16;
             yankee = _closure1_slot1;
             update = _closure1_slot2;
@@ -1587,7 +1581,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = function(argFoo) {
                 entity = argFoo;
                 report = _closure1_slot16;
-                tangon = _closure1_slot41;
+                tangon = _closure1_slot40;
                 zuuluu = {};
                 zuuluu['icon'] = entity;
                 michal = entity.type;
@@ -1598,7 +1592,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = update.bind(ctrled)(echoed);
             option['children'] = echoed;
             offset = kiloes.bind(tangon)(yankee, option);
- 793:
+ 792:
             option = new Array(2);
             option[0] = offset;
             yankee = _closure1_slot17;
@@ -1623,7 +1617,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = 'always-white';
             echoed = output.floatingText;
             romeon['style'] = echoed;
-            echoed = _closure1_slot42;
+            echoed = _closure1_slot41;
             echoed = echoed.bind(tangon)(ctrled, result);
             romeon['accessibilityLabel'] = echoed;
             romeon['children'] = result;
@@ -1634,8 +1628,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = _closure1_slot14;
             kiloes = kiloes.USER;
             kiloes = sizing === kiloes;
-            if(!kiloes) { _fun00030_ip = 1013; continue _fun00029 }
- 962:
+            if(!kiloes) { _fun00030_ip = 1012; continue _fun00029 }
+ 961:
             echoed = _closure1_slot16;
             result = _closure1_slot1;
             ctrled = _closure1_slot2;
@@ -1648,10 +1642,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing['userId'] = source;
             sizing['textColor'] = update;
             kiloes = echoed.bind(tangon)(result, sizing);
- 1013:
+ 1012:
             romeon[1] = kiloes;
-            if(!foxtra) { _fun00030_ip = 1127; continue _fun00029 }
- 1020:
+            if(!foxtra) { _fun00030_ip = 1126; continue _fun00029 }
+ 1019:
             sizing = _closure1_slot16;
             update = _closure1_slot0;
             source = _closure1_slot2;
@@ -1676,7 +1670,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = result.bind(echoed)(output);
             backup['accessibilityLabel'] = output;
             foxtra = sizing.bind(tangon)(kiloes, backup);
- 1127:
+ 1126:
             romeon[2] = foxtra;
             verify['children'] = romeon;
             verify = yankee.bind(tangon)(offset, verify);
@@ -1689,11 +1683,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     tangon = option.bind(golfie)(tangon);
-    var _closure1_slot38 = tangon;
+    var _closure1_slot37 = tangon;
     tangon = {};
     option = 'function VoicePanelCardFloatingControlsTsx12(){const{controlsSpecs,VoicePanelControlsModes,focused,mode,VoicePanelModes}=this.__closure;return controlsSpecs.get().mode===VoicePanelControlsModes.HIDDEN||focused.get()!=null||mode.get()===VoicePanelModes.PIP;}';
     tangon['code'] = option;
-    var _closure1_slot39 = tangon;
+    var _closure1_slot38 = tangon;
     tangon = golfie.memo;
     michal = function(argFoo) { // Original name: FloatingControls
         _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
@@ -1865,7 +1859,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['__closure'] = report;
             report = 3747005516083.0;
             entity['__workletHash'] = report;
-            report = _closure1_slot39;
+            report = _closure1_slot38;
             entity['__initData'] = report;
             foxtra = michal.bind(zuuluu)(entity);
             zuuluu = _closure1_slot17;
@@ -1874,7 +1868,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!verify) { _fun00036_ip = 416; continue _fun00035 }
  395:
             sizing = _closure1_slot16;
-            kiloes = _closure1_slot35;
+            kiloes = _closure1_slot34;
             report = {};
             report['controlsHidden'] = foxtra;
             verify = sizing.bind(tangon)(kiloes, report);
@@ -1889,7 +1883,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!verify) { _fun00036_ip = 472; continue _fun00035 }
  436:
             sizing = _closure1_slot16;
-            kiloes = _closure1_slot24;
+            kiloes = _closure1_slot23;
             backup = {};
             backup['controlsHidden'] = foxtra;
             backup['participant'] = offset;
@@ -1905,7 +1899,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!oscard) { _fun00036_ip = 526; continue _fun00035 }
  485:
             backup = _closure1_slot16;
-            verify = _closure1_slot26;
+            verify = _closure1_slot25;
             option = {};
             option['controlsHidden'] = foxtra;
             kiloes = offset.id;
@@ -1920,7 +1914,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!oscard) { _fun00036_ip = 574; continue _fun00035 }
  539:
             verify = _closure1_slot16;
-            option = _closure1_slot38;
+            option = _closure1_slot37;
             golfie = {};
             golfie['controlsHidden'] = foxtra;
             golfie['label'] = romeon;

@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = echoed[offset];
             verify = foxtra.bind(tangon)(golfie);
             option = verify.useAnimatedStyle;
-            golfie = function() { // Original name: H
+            golfie = function() { // Original name: _
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zuuluu = _closure2_slot7;
@@ -716,16 +716,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.VerticalGradient;
     var _closure1_slot10 = tangon;
     tangon = 6;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot11 = option;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsxs;
-    var _closure1_slot12 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot11 = option;
+    option = tangon.jsxs;
+    var _closure1_slot12 = option;
     tangon = tangon.Fragment;
     var _closure1_slot13 = tangon;
     tangon = 7;

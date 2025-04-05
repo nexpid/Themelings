@@ -20,67 +20,71 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     michal = argFoo;
-                    oscard = argBar;
+                    option = argBar;
+                    golfie = michal.guid;
                     report = michal.guid;
-                    zuuluu = michal.guid;
-                    backup = michal.name;
-                    tangon = michal.name;
+                    sizing = michal.name;
+                    oscard = michal.name;
                     entity = michal.index;
-                    michal = michal.facing;
-                    offset = _closure2_slot0;
-                    option = _closure1_slot4;
-                    option = option.VIDEO_INPUT;
-                    if(!(offset === option)) { _fun00004_ip = 90; continue _fun00003 }
- 63:
-                    offset = /^front/i;
-                    option = offset.test;
-                    option = option.bind(offset)(backup);
-                    if(option) { _fun00004_ip = 176; continue _fun00003 }
- 90:
-                    offset = /^default/;
-                    option = offset.test;
-                    option = option.bind(offset)(backup);
-                    if(option) { _fun00004_ip = 145; continue _fun00003 }
- 117:
-                    offset = null;
-                    option = backup;
-                    if(!(offset != report)) { _fun00004_ip = 140; continue _fun00003 }
- 126:
-                    offset = '';
-                    option = backup;
-                    if(!(offset !== report)) { _fun00004_ip = 140; continue _fun00003 }
- 137:
-                    option = report;
- 140:
-                    report = backup;
-                    _fun00004_ip = 184; continue _fun00003;
- 145:
-                    offset = true;
-                    _closure2_slot1 = offset;
-                    option = _closure1_slot3;
-                    foxtra = backup.replace;
-                    romeon = 'default';
-                    offset = 'Default';
-                    report = foxtra.bind(backup)(romeon, offset);
-                    _fun00004_ip = 184; continue _fun00003;
- 176:
-                    option = _closure1_slot3;
-                    report = 'Default';
- 184:
-                    verify = null;
-                    if(!(verify != entity)) { _fun00004_ip = 193; continue _fun00003 }
- 190:
-                    oscard = entity;
- 193:
+                    tangon = michal.facing;
+                    zuuluu = michal.hardwareId;
+                    michal = michal.containerId;
+                    romeon = _closure2_slot0;
+                    offset = _closure1_slot4;
+                    offset = offset.VIDEO_INPUT;
+                    if(!(romeon === offset)) { _fun00004_ip = 102; continue _fun00003 }
+ 75:
+                    romeon = /^front/i;
+                    offset = romeon.test;
+                    offset = offset.bind(romeon)(sizing);
+                    if(offset) { _fun00004_ip = 188; continue _fun00003 }
+ 102:
+                    romeon = /^default/;
+                    offset = romeon.test;
+                    offset = offset.bind(romeon)(sizing);
+                    if(offset) { _fun00004_ip = 157; continue _fun00003 }
+ 129:
+                    romeon = null;
+                    offset = sizing;
+                    if(!(romeon != golfie)) { _fun00004_ip = 152; continue _fun00003 }
+ 138:
+                    romeon = '';
+                    offset = sizing;
+                    if(!(romeon !== golfie)) { _fun00004_ip = 152; continue _fun00003 }
+ 149:
+                    offset = golfie;
+ 152:
+                    golfie = sizing;
+                    _fun00004_ip = 196; continue _fun00003;
+ 157:
+                    romeon = true;
+                    _closure2_slot1 = romeon;
+                    offset = _closure1_slot3;
+                    kiloes = sizing.replace;
+                    backup = 'default';
+                    romeon = 'Default';
+                    golfie = kiloes.bind(sizing)(backup, romeon);
+                    _fun00004_ip = 196; continue _fun00003;
+ 188:
+                    offset = _closure1_slot3;
+                    golfie = 'Default';
+ 196:
+                    yankee = null;
+                    if(!(yankee != entity)) { _fun00004_ip = 205; continue _fun00003 }
+ 202:
+                    option = entity;
+ 205:
                     entity = {};
-                    entity['id'] = option;
-                    golfie = _closure2_slot0;
-                    entity['type'] = golfie;
-                    entity['index'] = oscard;
-                    entity['name'] = report;
-                    entity['originalName'] = tangon;
-                    entity['originalId'] = zuuluu;
-                    entity['facing'] = michal;
+                    entity['id'] = offset;
+                    verify = _closure2_slot0;
+                    entity['type'] = verify;
+                    entity['index'] = option;
+                    entity['name'] = golfie;
+                    entity['originalName'] = oscard;
+                    entity['originalId'] = report;
+                    entity['facing'] = tangon;
+                    entity['hardwareId'] = zuuluu;
+                    entity['containerId'] = michal;
                     return entity;
                 }
             };

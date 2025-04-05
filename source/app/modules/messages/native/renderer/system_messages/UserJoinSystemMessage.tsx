@@ -255,25 +255,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  182:
             entity = foxtra != option;
             oscard = undefined;
-            if(!entity) { _fun00006_ip = 362; continue _fun00005 }
+            if(!entity) { _fun00006_ip = 359; continue _fun00005 }
  194:
             entity = foxtra != verify;
             oscard = undefined;
-            if(!entity) { _fun00006_ip = 362; continue _fun00005 }
+            if(!entity) { _fun00006_ip = 359; continue _fun00005 }
  206:
             report = _closure1_slot6;
             entity = report.getGuild;
             entity = entity.bind(report)(option);
             golfie = foxtra != entity;
-            if(!golfie) { _fun00006_ip = 253; continue _fun00005 }
+            if(!golfie) { _fun00006_ip = 250; continue _fun00005 }
  227:
             report = entity.systemChannelFlags;
             entity = _closure1_slot7;
             entity = entity.SUPPRESS_JOIN_NOTIFICATION_REPLIES;
-            report = report & entity;
-            entity = 0;
-            golfie = entity == report;
- 253:
+            entity = report & entity;
+            golfie = !entity;
+ 250:
             report = _closure1_slot0;
             kiloes = _closure1_slot2;
             entity = 8;
@@ -287,8 +286,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = golfie;
             entity = source[entity](update, echoed, result, output, sizing);
             oscard = undefined;
-            if(!entity) { _fun00006_ip = 362; continue _fun00005 }
- 303:
+            if(!entity) { _fun00006_ip = 359; continue _fun00005 }
+ 300:
             option = _closure1_slot0;
             verify = _closure1_slot2;
             entity = 9;
@@ -302,7 +301,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = romeon.id;
             entity = option.bind(verify)(entity);
             oscard = report.bind(golfie)(entity);
- 362:
+ 359:
             entity = {};
             option = _closure1_slot0;
             golfie = _closure1_slot2;
@@ -321,10 +320,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee['userId'] = kiloes;
             kiloes = 'username';
             foxtra = null;
-            if(!(kiloes === sizing)) { _fun00006_ip = 441; continue _fun00005 }
- 438:
+            if(!(kiloes === sizing)) { _fun00006_ip = 438; continue _fun00005 }
+ 435:
             foxtra = backup;
- 441:
+ 438:
             yankee['linkColor'] = foxtra;
             romeon = romeon.channel_id;
             yankee['messageChannelId'] = romeon;

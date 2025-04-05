@@ -127,12 +127,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.AnalyticEvents;
     var _closure1_slot14 = tangon;
     tangon = 9;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot15 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    option = tangon.jsx;
+    var _closure1_slot15 = option;
     tangon = tangon.jsxs;
     var _closure1_slot16 = tangon;
     tangon = 10;

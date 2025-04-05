@@ -259,12 +259,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = michal.BoostedGuildTiers;
     var _closure1_slot6 = oscard;
     michal = 3;
-    tangon = option[michal];
-    tangon = golfie.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot7 = tangon;
     michal = option[michal];
     michal = golfie.bind(entity)(michal);
+    tangon = michal.jsx;
+    var _closure1_slot7 = tangon;
     michal = michal.jsxs;
     var _closure1_slot8 = michal;
     michal = {};

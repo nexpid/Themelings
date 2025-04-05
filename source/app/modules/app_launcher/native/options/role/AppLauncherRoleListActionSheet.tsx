@@ -90,12 +90,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = michal.DEFAULT_ROLE_COLOR;
     var _closure1_slot8 = michal;
     michal = 5;
-    oscard = option[michal];
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.jsx;
-    var _closure1_slot9 = oscard;
     michal = option[michal];
     michal = golfie.bind(entity)(michal);
+    oscard = michal.jsx;
+    var _closure1_slot9 = oscard;
     michal = michal.jsxs;
     var _closure1_slot10 = michal;
     michal = function(argFoo) { // Original name: getRoleColor
@@ -399,12 +397,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure2_slot5;
                     tangon = michal.current;
                     michal = null;
-                    if(!(michal != tangon)) { _fun00014_ip = 67; continue _fun00013 }
+                    if(!(michal != tangon)) { _fun00014_ip = 63; continue _fun00013 }
  42:
                     zuuluu = tangon.scrollToOffset;
                     michal = {'offset': 0, 'animated': false};
                     michal = zuuluu.bind(tangon)(michal);
- 67:
+ 63:
                     return entity;
                 }
             };

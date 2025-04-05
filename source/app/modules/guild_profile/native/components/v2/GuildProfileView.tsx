@@ -51,9 +51,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = entity.guildProfile;
             var _closure2_slot0 = golfie;
             zuuluu = _closure1_slot0;
-            foxtra = _closure1_slot2;
-            tangon = 12;
-            report = foxtra[tangon];
+            offset = _closure1_slot2;
+            tangon = 10;
+            report = offset[tangon];
             tangon = undefined;
             option = zuuluu.bind(tangon)(report);
             oscard = option.useStateFromStores;
@@ -82,85 +82,70 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            offset = oscard.bind(option)(report, michal);
-            yankee = _closure1_slot1;
-            michal = 13;
-            michal = foxtra[michal];
-            michal = yankee.bind(tangon)(michal);
+            verify = oscard.bind(option)(report, michal);
+            foxtra = _closure1_slot1;
+            michal = 11;
+            michal = offset[michal];
+            michal = foxtra.bind(tangon)(michal);
             michal = michal.bind(tangon)();
             option = michal.width;
             michal = _closure1_slot12;
             oscard = michal.bind(tangon)();
-            michal = 14;
-            michal = foxtra[michal];
-            michal = yankee.bind(tangon)(michal);
-            romeon = michal.bind(tangon)();
-            michal = 15;
-            michal = foxtra[michal];
-            report = zuuluu.bind(tangon)(michal);
-            zuuluu = report.useToken;
-            michal = 11;
-            michal = foxtra[michal];
-            michal = yankee.bind(tangon)(michal);
+            michal = 12;
+            michal = offset[michal];
+            michal = foxtra.bind(tangon)(michal);
+            yankee = michal.bind(tangon)();
+            michal = 13;
+            michal = offset[michal];
+            romeon = zuuluu.bind(tangon)(michal);
+            report = romeon.useToken;
+            michal = 9;
+            michal = offset[michal];
+            michal = foxtra.bind(tangon)(michal);
             michal = michal.colors;
             michal = michal.BG_BASE_TERTIARY;
-            verify = zuuluu.bind(report)(michal);
-            michal = 8;
-            zuuluu = foxtra[michal];
-            backup = yankee.bind(tangon)(zuuluu);
-            report = backup.getGuildIconURL;
-            zuuluu = {};
-            kiloes = golfie.id;
-            zuuluu['id'] = kiloes;
-            kiloes = golfie.icon;
-            zuuluu['icon'] = kiloes;
-            kiloes = 64;
-            zuuluu['size'] = kiloes;
-            report = report.bind(backup)(zuuluu);
-            zuuluu = 9;
-            zuuluu = foxtra[zuuluu];
-            zuuluu = yankee.bind(tangon)(zuuluu);
-            yankee = zuuluu.bind(tangon)(report, verify);
-            zuuluu = golfie.brandColorPrimary;
-            report = null;
-            if(!(report != zuuluu)) { _fun00004_ip = 249; continue _fun00003 }
- 243:
-            yankee = golfie.brandColorPrimary;
- 249:
-            if(!(report != offset)) { _fun00004_ip = 287; continue _fun00003 }
- 253:
-            verify = offset.hasFeature;
-            zuuluu = _closure1_slot8;
-            zuuluu = zuuluu.DISCOVERABLE;
-            zuuluu = verify.bind(offset)(zuuluu);
-            if(!zuuluu) { _fun00004_ip = 287; continue _fun00003 }
- 277:
-            zuuluu = golfie.customBanner;
-            if(!(report == zuuluu)) { _fun00004_ip = 373; continue _fun00003 }
- 287:
-            verify = _closure1_slot10;
-            report = _closure1_slot1;
-            offset = _closure1_slot2;
-            zuuluu = 17;
-            zuuluu = offset[zuuluu];
-            report = report.bind(tangon)(zuuluu);
-            zuuluu = {};
-            offset = oscard.colorBanner;
-            zuuluu['style'] = offset;
-            offset = _closure1_slot13;
-            offset = offset.START;
-            zuuluu['start'] = offset;
-            offset = _closure1_slot13;
-            offset = offset.END;
-            zuuluu['end'] = offset;
-            offset = _closure1_slot14;
-            offset = offset.bind(tangon)(romeon, yankee);
-            zuuluu['colors'] = offset;
-            zuuluu = verify.bind(tangon)(report, zuuluu);
-            return zuuluu;
- 373:
+            report = report.bind(romeon)(michal);
+            michal = 14;
+            michal = offset[michal];
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = zuuluu.useProfilePrimaryColor;
+            offset = michal.bind(zuuluu)(golfie, report);
+            zuuluu = null;
+            if(!(zuuluu != verify)) { _fun00004_ip = 227; continue _fun00003 }
+ 193:
+            report = verify.hasFeature;
+            michal = _closure1_slot8;
+            michal = michal.DISCOVERABLE;
+            michal = report.bind(verify)(michal);
+            if(!michal) { _fun00004_ip = 227; continue _fun00003 }
+ 217:
+            michal = golfie.customBanner;
+            if(!(zuuluu == michal)) { _fun00004_ip = 313; continue _fun00003 }
+ 227:
+            report = _closure1_slot10;
+            zuuluu = _closure1_slot1;
+            verify = _closure1_slot2;
+            michal = 17;
+            michal = verify[michal];
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = {};
+            verify = oscard.colorBanner;
+            michal['style'] = verify;
+            verify = _closure1_slot13;
+            verify = verify.START;
+            michal['start'] = verify;
+            verify = _closure1_slot13;
+            verify = verify.END;
+            michal['end'] = verify;
+            verify = _closure1_slot14;
+            verify = verify.bind(tangon)(yankee, offset);
+            michal['colors'] = verify;
+            michal = report.bind(tangon)(zuuluu, michal);
+            return michal;
+ 313:
             verify = _closure1_slot1;
             offset = _closure1_slot2;
+            michal = 15;
             michal = offset[michal];
             report = verify.bind(tangon)(michal);
             zuuluu = report.getGuildDiscoverySplashSource;
@@ -224,21 +209,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.ThemeTypes;
     var _closure1_slot9 = tangon;
     tangon = 5;
-    golfie = verify[tangon];
-    golfie = option.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot10 = golfie;
     tangon = verify[tangon];
     tangon = option.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot10 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot11 = tangon;
-    tangon = 10;
+    tangon = 8;
     tangon = verify[tangon];
     offset = option.bind(entity)(tangon);
     golfie = offset.createStyles;
     tangon = {};
     yankee = {};
-    romeon = 11;
+    romeon = 9;
     backup = verify[romeon];
     backup = foxtra.bind(entity)(backup);
     backup = backup.colors;
@@ -303,7 +286,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  13:
                 tangon = _closure1_slot1;
                 zuuluu = _closure1_slot2;
-                michal = 8;
+                michal = 15;
                 zuuluu = zuuluu[michal];
                 michal = undefined;
                 tangon = tangon.bind(michal)(zuuluu);
