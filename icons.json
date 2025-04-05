@@ -2968,16 +2968,6 @@
         "width": 216,
         "height": 216
     },
-    "ExperimentalImageBrokenIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/ExperimentalImageBrokenIcon.png",
-        "hash": "2cc12475b86ec666f22048081ae849a6",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "EyeDropperIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/EyeDropperIcon.png",
         "hash": "0d5f6f930c3377ed28c00aa3228ac56a",
@@ -7860,6 +7850,16 @@
         ],
         "width": 330,
         "height": 112
+    },
+    "ImageBrokenIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/ImageBrokenIcon.png",
+        "hash": "2cc12475b86ec666f22048081ae849a6",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
     },
     "ImageFileIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ImageFileIcon.png",
