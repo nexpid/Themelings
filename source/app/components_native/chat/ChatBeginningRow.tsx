@@ -2428,7 +2428,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     michal = _closure2_slot3;
                     option = null;
-                    if(!(option != michal)) { _fun00044_ip = 101; continue _fun00043 }
+                    if(!(option != michal)) { _fun00044_ip = 105; continue _fun00043 }
  13:
                     zuuluu = _closure1_slot1;
                     tangon = _closure1_slot2;
@@ -2451,7 +2451,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = oscard.bind(golfie)(michal, entity);
                     entity = {'withMutualGuilds': true, 'dispatchWait': true};
                     entity = tangon.bind(report)(zuuluu, michal, entity);
- 101:
+ 105:
                     entity = undefined;
                     return entity;
                 }

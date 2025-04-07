@@ -941,14 +941,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00020_ip = 256; continue _fun00019 }
+                        if(michal) { _fun00020_ip = 252; continue _fun00019 }
  10:
                         michal = _closure2_slot0;
                         zuuluu = null;
-                        if(!(zuuluu != michal)) { _fun00020_ip = 249; continue _fun00019 }
+                        if(!(zuuluu != michal)) { _fun00020_ip = 245; continue _fun00019 }
  26:
                         michal = _closure2_slot2;
-                        if(!(zuuluu != michal)) { _fun00020_ip = 249; continue _fun00019 }
+                        if(!(zuuluu != michal)) { _fun00020_ip = 245; continue _fun00019 }
  37:
                         tangon = _closure1_slot0;
                         report = _closure1_slot2;
@@ -973,13 +973,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         option = false;
                         michal['rejectWithError'] = option;
                         michal = tangon.bind(golfie)(michal);
-                        SaveGenerator(address=150);
- 148:
+                        SaveGenerator(address=146);
+ 144:
                         return michal;
- 150:
+ 146:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tangon) { _fun00020_ip = 246; continue _fun00019 }
- 156:
+                        if(tangon) { _fun00020_ip = 242; continue _fun00019 }
+ 152:
                         tangon = _closure1_slot1;
                         golfie = _closure1_slot2;
                         zuuluu = 10;
@@ -1001,12 +1001,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         zuuluu = michal.body;
                         zuuluu = zuuluu.users;
                         return zuuluu;
- 246:
+ 242:
                         return michal;
- 249:
+ 245:
                         michal = new Array(0);
                         return michal;
- 256:
+ 252:
                         return entity;
                     }
                 };

@@ -1026,19 +1026,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity['pollMedia'] = foxtra;
                     entity['isSelected'] = yankee;
                     yankee = _closure2_slot7;
-                    if(!yankee) { _fun00020_ip = 652; continue _fun00019 }
- 649:
+                    if(!yankee) { _fun00020_ip = 644; continue _fun00019 }
+ 641:
                     yankee = romeon;
- 652:
+ 644:
                     entity['isVictor'] = yankee;
                     entity['didSelfVote'] = verify;
                     entity['style'] = option;
                     option = _closure2_slot10;
-                    if(!option) { _fun00020_ip = 682; continue _fun00019 }
- 675:
+                    if(!option) { _fun00020_ip = 674; continue _fun00019 }
+ 667:
                     verify = _closure2_slot1;
                     option = !verify;
- 682:
+ 674:
                     entity['shouldAnimateTransition'] = option;
                     verify = tangon.Math;
                     option = verify.round;
