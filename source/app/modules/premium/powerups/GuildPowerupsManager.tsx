@@ -226,17 +226,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'handleEntitlementUpdate';
         report['key'] = golfie;
         oscard = function(argFoo) { // Original name: value
-            entity = argFoo;
-            tangon = entity.guildId;
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 9;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.fetchGuildUnlockedPowerups;
-            michal = michal.bind(zuuluu)(tangon);
-            return entity;
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+ 0:
+                entity = argFoo;
+                tangon = entity.guildId;
+                report = _closure1_slot0;
+                zuuluu = _closure1_slot1;
+                entity = 8;
+                zuuluu = zuuluu[entity];
+                entity = undefined;
+                oscard = report.bind(entity)(zuuluu);
+                report = oscard.getGuildPowerupsExperimentEnabled;
+                zuuluu = 'GuildPowerupsManager';
+                zuuluu = report.bind(oscard)(tangon, zuuluu);
+                if(!zuuluu) { _fun00008_ip = 85; continue _fun00007 }
+ 54:
+                zuuluu = _closure1_slot0;
+                report = _closure1_slot1;
+                michal = 9;
+                michal = report[michal];
+                zuuluu = zuuluu.bind(entity)(michal);
+                michal = zuuluu.fetchGuildUnlockedPowerups;
+                michal = michal.bind(zuuluu)(tangon);
+ 85:
+                return entity;
+            }
         };
         report['value'] = oscard;
         entity[1] = report;

@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  1057:
             entity = null;
             zuuluu = entity == oscard;
-            if(zuuluu) { _fun00002_ip = 1160; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 1162; continue _fun00001 }
  1066:
             report = _closure1_slot11;
             zuuluu = _closure1_slot0;
@@ -259,10 +259,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['checked'] = offset;
             michal['accessibilityState'] = verify;
             verify = 'tertiary';
-            if(!offset) { _fun00002_ip = 1131; continue _fun00001 }
- 1127:
+            if(!offset) { _fun00002_ip = 1133; continue _fun00001 }
+ 1129:
             verify = 'primary';
- 1131:
+ 1133:
             michal['variant'] = verify;
             michal['text'] = option;
             golfie = function() { // Original name: onPress
@@ -275,7 +275,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['onPress'] = golfie;
             michal['icon'] = oscard;
             entity = report.bind(tangon)(zuuluu, michal);
- 1160:
+ 1162:
             return entity;
         }
     };

@@ -112,12 +112,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = result.useState;
             record = 0;
             entity = entity.bind(result)(record);
-            vacuum = _closure1_slot3;
+            cntext = _closure1_slot3;
             romeon = 2;
-            entity = vacuum.bind(tangon)(entity, romeon);
+            entity = cntext.bind(tangon)(entity, romeon);
             foxtra = entity[record];
-            ctrled = 1;
-            sequen = entity[ctrled];
+            vacuum = 1;
+            sequen = entity[vacuum];
             michal = result.useRef;
             entity = null;
             kiloes = michal.bind(result)(entity);
@@ -141,8 +141,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.bind(michal)();
                 return entity;
             };
-            echoed = verify.bind(offset)(option, golfie);
-            var _closure2_slot1 = echoed;
+            source = verify.bind(offset)(option, golfie);
+            var _closure2_slot1 = source;
             golfie = report[entity];
             offset = oscard.bind(tangon)(golfie);
             verify = offset.useStateFromStores;
@@ -161,38 +161,46 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = report[golfie];
             backup = option.bind(tangon)(verify);
             verify = {};
-            source = true;
-            verify['filterOutEmptyCurrentGuild'] = source;
+            echoed = true;
+            verify['filterOutEmptyCurrentGuild'] = echoed;
             verify = backup.bind(tangon)(sizing, verify);
             backup = verify.categories;
-            var _closure2_slot2 = backup;
-            source = _closure1_slot7;
+            echoed = verify.allSounds;
+            var _closure2_slot2 = echoed;
+            ctrled = _closure1_slot7;
             verify = function(argFoo) {
                 entity = argFoo;
                 entity = entity.searchQuery;
                 return entity;
             };
-            source = source.bind(tangon)(verify);
-            cntext = result.useState;
+            ctrled = ctrled.bind(tangon)(verify);
+            papara = result.useState;
             verify = 15;
             verify = report[verify];
-            papara = oscard.bind(tangon)(verify);
-            verify = papara.searchSoundsWithSections;
-            variable41 = papara;
-            variable40 = source;
-            variable39 = backup;
-            variable38 = echoed;
+            status = oscard.bind(tangon)(verify);
+            target = status.searchSounds;
+            verify = global;
+            limora = verify.Array;
+            sierra = limora.from;
+            verify = echoed.values;
+            verify = verify.bind(echoed)();
+            sierra = sierra.bind(limora)(verify);
+            verify = sierra.flat;
+            variable39 = verify.bind(sierra)();
+            variable41 = status;
+            variable40 = ctrled;
+            variable38 = source;
             variable37 = sizing;
-            verify = variable41[verify](variable40, variable39, variable38, variable37, variable36);
-            verify = cntext.bind(result)(verify);
-            verify = vacuum.bind(tangon)(verify, romeon);
+            verify = variable41[target](variable40, variable39, variable38, variable37, variable36);
+            verify = papara.bind(result)(verify);
+            verify = cntext.bind(tangon)(verify, romeon);
             romeon = verify[record];
-            verify = verify[ctrled];
+            verify = verify[vacuum];
             var _closure2_slot3 = verify;
             golfie = report[golfie];
             verify = oscard.bind(tangon)(golfie);
             golfie = verify.useSearchCategories;
-            vacuum = golfie.bind(verify)(backup, romeon, source);
+            vacuum = golfie.bind(verify)(backup, romeon, ctrled);
             golfie = 16;
             golfie = report[golfie];
             golfie = option.bind(tangon)(golfie);
@@ -221,8 +229,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = result.useCallback;
             verify = new Array(3);
             verify[0] = sizing;
-            verify[1] = echoed;
-            verify[2] = backup;
+            verify[1] = source;
+            verify[2] = echoed;
             zuuluu = function(argFoo) {
                 option = argFoo;
                 michal = _closure1_slot6;
@@ -234,13 +242,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = 15;
                 tangon = oscard[tangon];
                 golfie = report.bind(entity)(tangon);
-                oscard = golfie.searchSoundsWithSections;
-                yankee = _closure2_slot2;
-                offset = _closure2_slot1;
-                verify = _closure2_slot0;
-                foxtra = golfie;
-                romeon = option;
-                michal = foxtra[oscard](romeon, yankee, offset, verify, option);
+                oscard = golfie.searchSounds;
+                tangon = global;
+                verify = tangon.Array;
+                report = verify.from;
+                offset = _closure2_slot2;
+                tangon = offset.values;
+                tangon = tangon.bind(offset)();
+                report = report.bind(verify)(tangon);
+                tangon = report.flat;
+                foxtra = tangon.bind(report)();
+                romeon = _closure2_slot1;
+                yankee = _closure2_slot0;
+                kiloes = golfie;
+                backup = option;
+                michal = kiloes[oscard](backup, foxtra, romeon, yankee, offset);
                 michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
@@ -288,8 +304,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.bind(tangon)(report);
             report = oscard.isIOS;
             oscard = report.bind(oscard)();
-            if(!oscard) { _fun00002_ip = 715; continue _fun00001 }
- 667:
+            if(!oscard) { _fun00002_ip = 755; continue _fun00001 }
+ 707:
             option = _closure1_slot12;
             golfie = _closure1_slot1;
             verify = _closure1_slot2;
@@ -301,7 +317,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = 'soundboard-footer';
             report['portalHostName'] = verify;
             oscard = option.bind(tangon)(golfie, report);
- 715:
+ 755:
             report = new Array(2);
             report[0] = oscard;
             option = _closure1_slot13;
@@ -318,8 +334,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = offset.isAndroid;
             offset = verify.bind(offset)();
             verify = undefined;
-            if(!offset) { _fun00002_ip = 844; continue _fun00001 }
- 796:
+            if(!offset) { _fun00002_ip = 884; continue _fun00001 }
+ 836:
             romeon = _closure1_slot12;
             yankee = _closure1_slot0;
             result = _closure1_slot2;
@@ -331,7 +347,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = 'soundboard-footer';
             offset['name'] = result;
             verify = romeon.bind(tangon)(yankee, offset);
- 844:
+ 884:
             oscard['footer'] = verify;
             result = _closure1_slot13;
             offset = _closure1_slot5;
@@ -400,8 +416,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update['listRef'] = kiloes;
             update['channel'] = sizing;
             cntext = _closure1_slot11;
-            if(!target) { _fun00002_ip = 1175; continue _fun00001 }
- 1143:
+            if(!target) { _fun00002_ip = 1215; continue _fun00001 }
+ 1183:
             status = _closure1_slot0;
             target = _closure1_slot2;
             target = target[sierra];
@@ -409,10 +425,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = status.isIOS;
             target = target.bind(status)();
             record = 0;
-            if(target) { _fun00002_ip = 1180; continue _fun00001 }
- 1175:
+            if(target) { _fun00002_ip = 1220; continue _fun00001 }
+ 1215:
             record = papara.bottom;
- 1180:
+ 1220:
             record = cntext + record;
             update['insetBottom'] = record;
             update['scrollPosition'] = config;

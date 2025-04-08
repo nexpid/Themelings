@@ -23,12 +23,12 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
     var _closure1_slot2 = tangon;
-    tangon = ['Null 6', 'Cover Open', 'Closed Box', 'GHOST 7', 'GHOST 5', 'GHOST 4', 'GHOST 6', 'Bat_02_Ctrl', 'Bat_02', 'Bat_03_Ctrl', 'Bat_03', 'Open_Shadow', 'Box_Ctrl', 'Closed Box 2', 'Cover Open 2', 'Box', 'LOGO Discord', 'BG 2', 'Card'];
+    tangon = ['Null 6', 'Cover Open', 'Eyes', 'Closed Box', 'Open_Shadow', 'Box_Ctrl', 'Box 3', 'Box', 'Bat_03_Ctrl', 'Bat_03', 'LOGO Discord', 'BG', 'Card'];
     var _closure1_slot3 = tangon;
     tangon = new Array(2);
     option = {'name': 'Start', 'start': 0, 'duration': 0};
     tangon[0] = option;
-    option = {'name': 'End', 'start': 64, 'duration': 0};
+    option = {'name': 'End', 'start': 72, 'duration': 0};
     tangon[1] = option;
     var _closure1_slot4 = tangon;
     tangon = golfie.forwardRef;

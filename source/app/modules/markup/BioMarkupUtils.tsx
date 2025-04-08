@@ -50,9 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset = 2;
     offset = option[offset];
     romeon = yankee.bind(entity)(offset);
-    offset = {};
-    foxtra = false;
-    offset['enableBuildOverrides'] = foxtra;
+    offset = {'enableBuildOverrides': false, 'mustConfirmExternalLink': true};
     offset = romeon.bind(entity)(offset);
     oscard[1] = offset;
     foxtra = golfie.bind(entity)(oscard);

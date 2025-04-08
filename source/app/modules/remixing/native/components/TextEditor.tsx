@@ -572,8 +572,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             oscard = oscard.bind(tangon)(report);
             report = {};
             verify = option;
-            if(!verify) { _fun00002_ip = 1001; continue _fun00001 }
- 968:
+            if(!verify) { _fun00002_ip = 1009; continue _fun00001 }
+ 976:
             yankee = _closure1_slot12;
             offset = _closure1_slot1;
             option = _closure1_slot2;
@@ -582,7 +582,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             option = {};
             option['text'] = sequen;
             verify = yankee.bind(tangon)(offset, option);
- 1001:
+ 1009:
             option = new Array(2);
             option[0] = verify;
             yankee = _closure1_slot13;
@@ -617,10 +617,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             config = record.isAndroid;
             record = config.bind(record)();
             config = 'ascii-capable';
-            if(!record) { _fun00002_ip = 1158; continue _fun00001 }
- 1152:
+            if(!record) { _fun00002_ip = 1166; continue _fun00001 }
+ 1160:
             config = 'visible-password';
- 1158:
+ 1166:
             romeon['keyboardType'] = config;
             romeon['value'] = sequen;
             romeon['onLayout'] = update;

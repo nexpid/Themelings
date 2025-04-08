@@ -51,13 +51,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = entity.message;
             var _closure2_slot0 = record;
             sequen = entity.forwardOptions;
-            ctrled = entity.sendLabel;
-            source = entity.canSend;
+            source = entity.sendLabel;
+            update = entity.canSend;
             oscard = entity.selectedDestinations;
-            update = entity.isSending;
-            papara = entity.onSend;
-            var _closure2_slot1 = papara;
-            verify = entity.showPreview;
+            echoed = entity.isSending;
+            cntext = entity.onSend;
+            var _closure2_slot1 = cntext;
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
             entity = 4;
@@ -69,16 +68,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot2 = report;
             entity = 5;
             michal = option[entity];
-            yankee = zuuluu.bind(tangon)(michal);
-            michal = yankee.useSelectedDestinationChannel;
-            config = michal.bind(yankee)(oscard);
+            offset = zuuluu.bind(tangon)(michal);
+            michal = offset.useSelectedDestinationChannel;
+            config = michal.bind(offset)(oscard);
             michal = 6;
             michal = option[michal];
-            foxtra = zuuluu.bind(tangon)(michal);
-            romeon = foxtra.useStateFromStoresObject;
+            romeon = zuuluu.bind(tangon)(michal);
+            yankee = romeon.useStateFromStoresObject;
             michal = _closure1_slot5;
-            yankee = new Array(1);
-            yankee[0] = michal;
+            offset = new Array(1);
+            offset[0] = michal;
             michal = function() {
                 tangon = _closure1_slot5;
                 zuuluu = tangon.getDraft;
@@ -89,23 +88,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             };
-            yankee = romeon.bind(foxtra)(yankee, michal);
-            cntext = _closure1_slot4;
-            michal = cntext.useState;
-            romeon = michal.bind(cntext)(yankee);
-            yankee = _closure1_slot3;
+            offset = yankee.bind(romeon)(offset, michal);
+            vacuum = _closure1_slot4;
+            michal = vacuum.useState;
+            yankee = michal.bind(vacuum)(offset);
+            offset = _closure1_slot3;
             michal = 2;
-            romeon = yankee.bind(tangon)(romeon, michal);
+            yankee = offset.bind(tangon)(yankee, michal);
             michal = 0;
-            sizing = romeon[michal];
+            sizing = yankee[michal];
             var _closure2_slot3 = sizing;
-            yankee = 1;
-            romeon = romeon[yankee];
-            var _closure2_slot4 = romeon;
-            foxtra = cntext.useCallback;
-            yankee = new Array(2);
-            yankee[0] = record;
-            yankee[1] = report;
+            offset = 1;
+            yankee = yankee[offset];
+            var _closure2_slot4 = yankee;
+            romeon = vacuum.useCallback;
+            offset = new Array(2);
+            offset[0] = record;
+            offset[1] = report;
             report = function(argFoo) {
                 tangon = _closure2_slot4;
                 entity = undefined;
@@ -118,12 +117,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = tangon.bind(entity)(zuuluu, michal);
                 return entity;
             };
-            kiloes = foxtra.bind(cntext)(report, yankee);
-            foxtra = cntext.useEffect;
-            yankee = new Array(2);
-            yankee[0] = sizing;
+            kiloes = romeon.bind(vacuum)(report, offset);
+            romeon = vacuum.useEffect;
+            offset = new Array(2);
+            offset[0] = sizing;
             report = record.channel_id;
-            yankee[1] = report;
+            offset[1] = report;
             report = function() {
                 tangon = _closure1_slot1;
                 zuuluu = _closure1_slot2;
@@ -140,25 +139,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = report.bind(oscard)(tangon, zuuluu, michal);
                 return entity;
             };
-            report = foxtra.bind(cntext)(report, yankee);
+            report = romeon.bind(vacuum)(report, offset);
             result = 8;
             report = option[result];
-            yankee = zuuluu.bind(tangon)(report);
-            report = yankee.useShareChatInputActions;
-            yankee = report.bind(yankee)(romeon, config);
-            output = yankee.textInputRef;
-            report = yankee.isInputFocused;
-            backup = yankee.handleSelectionChange;
-            foxtra = yankee.handleMessageFocus;
-            romeon = yankee.handleMessageBlur;
-            yankee = yankee.handlePressEmoji;
-            vacuum = cntext.useCallback;
-            echoed = new Array(3);
-            echoed[0] = sizing;
-            target = record.channel_id;
-            echoed[1] = target;
-            echoed[2] = papara;
-            offset = function() {
+            offset = zuuluu.bind(tangon)(report);
+            report = offset.useShareChatInputActions;
+            offset = report.bind(offset)(yankee, config);
+            output = offset.textInputRef;
+            report = offset.isInputFocused;
+            backup = offset.handleSelectionChange;
+            foxtra = offset.handleMessageFocus;
+            romeon = offset.handleMessageBlur;
+            yankee = offset.handlePressEmoji;
+            ctrled = vacuum.useCallback;
+            offset = new Array(3);
+            offset[0] = sizing;
+            papara = record.channel_id;
+            offset[1] = papara;
+            offset[2] = cntext;
+            verify = function() {
                 tangon = _closure1_slot1;
                 michal = _closure1_slot2;
                 entity = 7;
@@ -176,84 +175,75 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
-            offset = vacuum.bind(cntext)(offset, echoed);
+            offset = ctrled.bind(vacuum)(verify, offset);
             entity = option[entity];
             zuuluu = zuuluu.bind(tangon)(entity);
             entity = zuuluu.useDestinationNamesWithSlowmode;
-            cntext = entity.bind(zuuluu)(oscard);
-            entity = cntext.length;
+            vacuum = entity.bind(zuuluu)(oscard);
+            entity = vacuum.length;
             entity = entity > michal;
             oscard = undefined;
-            if(!entity) { _fun00002_ip = 509; continue _fun00001 }
- 403:
+            if(!entity) { _fun00002_ip = 503; continue _fun00001 }
+ 397:
             entity = sizing.length;
             entity = entity > michal;
             oscard = undefined;
-            if(!entity) { _fun00002_ip = 509; continue _fun00001 }
- 417:
+            if(!entity) { _fun00002_ip = 503; continue _fun00001 }
+ 411:
             michal = _closure1_slot0;
-            echoed = _closure1_slot2;
+            verify = _closure1_slot2;
             entity = 9;
-            zuuluu = echoed[entity];
+            zuuluu = verify[entity];
             zuuluu = michal.bind(tangon)(zuuluu);
             option = zuuluu.intl;
             zuuluu = option.formatToPlainString;
-            entity = echoed[entity];
+            entity = verify[entity];
             entity = michal.bind(tangon)(entity);
             entity = entity.t;
             michal = entity.xJFpio;
             entity = {};
-            echoed = cntext.length;
-            entity['count'] = echoed;
-            vacuum = cntext.join;
-            echoed = ', ';
-            echoed = vacuum.bind(cntext)(echoed);
-            entity['channelNames'] = echoed;
+            verify = vacuum.length;
+            entity['count'] = verify;
+            ctrled = vacuum.join;
+            verify = ', ';
+            verify = ctrled.bind(vacuum)(verify);
+            entity['channelNames'] = verify;
             oscard = zuuluu.bind(option)(michal, entity);
- 509:
+ 503:
             zuuluu = _closure1_slot7;
             michal = _closure1_slot1;
-            option = _closure1_slot2;
+            ctrled = _closure1_slot2;
             entity = 10;
-            entity = option[entity];
+            entity = ctrled[entity];
             michal = michal.bind(tangon)(entity);
             entity = {};
-            option = undefined;
-            if(!verify) { _fun00002_ip = 591; continue _fun00001 }
- 540:
-            vacuum = _closure1_slot7;
-            echoed = _closure1_slot0;
-            cntext = _closure1_slot2;
-            verify = 11;
-            verify = cntext[verify];
-            verify = echoed.bind(tangon)(verify);
-            echoed = verify.ForwardPreview;
-            verify = {};
-            verify['message'] = record;
-            verify['channel'] = config;
-            verify['forwardOptions'] = sequen;
-            option = vacuum.bind(tangon)(echoed, verify);
- 591:
-            entity['preview'] = option;
-            echoed = _closure1_slot7;
             verify = _closure1_slot0;
-            vacuum = _closure1_slot2;
+            option = 11;
+            option = ctrled[option];
+            option = verify.bind(tangon)(option);
+            vacuum = option.ForwardPreview;
+            option = {};
+            option['message'] = record;
+            option['channel'] = config;
+            option['forwardOptions'] = sequen;
+            option = zuuluu.bind(tangon)(vacuum, option);
+            entity['preview'] = option;
             option = 12;
-            option = vacuum[option];
+            option = ctrled[option];
             option = verify.bind(tangon)(option);
             verify = option.Button;
             option = {'variant': 'primary', 'size': 'md'};
-            option['text'] = ctrled;
-            source = !source;
-            option['disabled'] = source;
-            source = undefined;
-            if(update) { _fun00002_ip = 659; continue _fun00001 }
- 656:
-            source = offset;
- 659:
-            option['onPress'] = source;
-            option['loading'] = update;
-            option = echoed.bind(tangon)(verify, option);
+            option['text'] = source;
+            update = !update;
+            option['disabled'] = update;
+            update = undefined;
+            if(echoed) { _fun00002_ip = 628; continue _fun00001 }
+ 625:
+            update = offset;
+ 628:
+            option['onPress'] = update;
+            option['loading'] = echoed;
+            option = zuuluu.bind(tangon)(verify, option);
             entity['sendButton'] = option;
             verify = _closure1_slot7;
             option = _closure1_slot1;

@@ -1193,13 +1193,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = argFoo;
                     oscard = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00020_ip = 314; continue _fun00019 }
+                    if(michal) { _fun00020_ip = 322; continue _fun00019 }
  18:
                     var _closure4_slot0 = yankee;
                     option = undefined;
                     var _closure4_slot1 = option;
                     report = null;
-                    if(!(report != yankee)) { _fun00020_ip = 282; continue _fun00019 }
+                    if(!(report != yankee)) { _fun00020_ip = 286; continue _fun00019 }
  37:
                     golfie = _closure1_slot1;
                     verify = _closure1_slot3;
@@ -1213,7 +1213,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  74:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(golfie) { _fun00020_ip = 279; continue _fun00019 }
+                    if(golfie) { _fun00020_ip = 283; continue _fun00019 }
  83:
                     offset = michal.initial_guild_id;
                     golfie = report == offset;
@@ -1283,16 +1283,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = {'channels': null, 'guildId': null};
                     zuuluu = tangon.bind(report)(zuuluu);
                     return zuuluu;
- 279:
+ 283:
                     return michal;
- 282:
+ 286:
                     michal = global;
                     tangon = michal.Promise;
                     zuuluu = tangon.resolve;
                     michal = {'channels': null, 'guildId': null};
                     michal = zuuluu.bind(tangon)(michal);
                     return michal;
- 314:
+ 322:
                     return entity;
                 }
             };

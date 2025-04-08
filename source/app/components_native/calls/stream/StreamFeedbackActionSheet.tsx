@@ -202,10 +202,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = {};
             report['headerLabel'] = foxtra;
             report['showHeaderCloseButton'] = romeon;
-            if(!yankee) { _fun00002_ip = 588; continue _fun00001 }
- 585:
+            if(!yankee) { _fun00002_ip = 592; continue _fun00001 }
+ 589:
             verify = offset;
- 588:
+ 592:
             report['ratingsBodyLabel'] = verify;
             report['ratingOptions'] = option;
             report['ratingTextLabels'] = oscard;

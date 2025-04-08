@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = 1;
             michal['flex'] = verify;
             entity['wrapper'] = michal;
-            michal = {'height': 210, 'position': 'relative'};
+            michal = {'aspectRatio': 1.7777777777777777, 'width': '100%', 'position': 'relative'};
             entity['videoLandscape'] = michal;
             michal = {'borderRadius': null, 'backgroundColor': null, 'flexGrow': 1, 'flexShrink': 0, 'overflow': 'hidden'};
             option = _closure1_slot1;
@@ -116,6 +116,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['videoContentHeaderWrapper'] = michal;
             michal = {'flexGrow': 1, 'flexShrink': 1};
             entity['videoContentHeading'] = michal;
+            michal = {};
+            michal['flex'] = verify;
+            entity['rewardContainer'] = michal;
             michal = {'alignItems': 'center', 'flexDirection': 'row'};
             entity['questDetails'] = michal;
             michal = {};
@@ -164,15 +167,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon.PX_24;
             michal['padding'] = tangon;
             tangon = argFoo;
-            if(!tangon) { _fun00002_ip = 604; continue _fun00001 }
- 577:
+            if(!tangon) { _fun00002_ip = 615; continue _fun00001 }
+ 588:
             option = _closure1_slot1;
             tangon = _closure1_slot2;
             tangon = tangon[oscard];
             tangon = option.bind(report)(tangon);
             tangon = tangon.spacing;
             zuuluu = tangon.PX_16;
- 604:
+ 615:
             michal['paddingBottom'] = zuuluu;
             tangon = _closure1_slot1;
             zuuluu = _closure1_slot2;
@@ -754,7 +757,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = new Array(4);
             foxtra[0] = result;
             result = sierra;
-            if(oscard) { _fun00004_ip = 1363; continue _fun00003 }
+            if(oscard) { _fun00004_ip = 1373; continue _fun00003 }
  1331:
             ctrled = _closure1_slot8;
             source = _closure1_slot1;
@@ -763,12 +766,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = config[update];
             source = source.bind(tangon)(update);
             update = {};
+            config = sequen.rewardContainer;
+            update['style'] = config;
             result = ctrled.bind(tangon)(source, update);
- 1363:
+ 1373:
             foxtra[1] = result;
             result = sierra;
-            if(oscard) { _fun00004_ip = 1414; continue _fun00003 }
- 1373:
+            if(oscard) { _fun00004_ip = 1424; continue _fun00003 }
+ 1383:
             ctrled = _closure1_slot8;
             source = _closure1_slot1;
             config = _closure1_slot2;
@@ -779,7 +784,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = 'top';
             update['align'] = config;
             result = ctrled.bind(tangon)(source, update);
- 1414:
+ 1424:
             foxtra[2] = result;
             ctrled = _closure1_slot9;
             update = _closure1_slot0;
@@ -799,10 +804,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = config.PX_24;
             result['spacing'] = config;
             cntext = sierra;
-            if(oscard) { _fun00004_ip = 1502; continue _fun00003 }
- 1496:
+            if(oscard) { _fun00004_ip = 1512; continue _fun00003 }
+ 1506:
             cntext = sequen.questDetailsLandscape;
- 1502:
+ 1512:
             config = new Array(1);
             config[0] = cntext;
             result['style'] = config;
@@ -823,10 +828,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable36 = whisks.Text;
             whisks = {'variant': 'heading-lg/semibold', 'color': 'white'};
             variable42 = oscard;
-            if(!oscard) { _fun00004_ip = 1601; continue _fun00003 }
- 1595:
+            if(!oscard) { _fun00004_ip = 1611; continue _fun00003 }
+ 1605:
             variable42 = sequen.textShadow;
- 1601:
+ 1611:
             variable40 = new Array(1);
             variable40[0] = variable42;
             whisks['style'] = variable40;
@@ -845,10 +850,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable39 = variable36.Text;
             variable36 = {'variant': 'heading-sm/semibold', 'color': 'text-normal'};
             variable42 = oscard;
-            if(!oscard) { _fun00004_ip = 1700; continue _fun00003 }
- 1694:
+            if(!oscard) { _fun00004_ip = 1710; continue _fun00003 }
+ 1704:
             variable42 = sequen.textShadow;
- 1700:
+ 1710:
             variable41 = new Array(1);
             variable41[0] = variable42;
             variable36['style'] = variable41;
@@ -863,8 +868,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora = new Array(3);
             limora[0] = whisks;
             whisks = oscard;
-            if(!oscard) { _fun00004_ip = 1858; continue _fun00003 }
- 1767:
+            if(!oscard) { _fun00004_ip = 1868; continue _fun00003 }
+ 1777:
             variable40 = _closure1_slot8;
             variable39 = _closure1_slot5;
             variable36 = {};
@@ -886,11 +891,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable41 = variable40.bind(tangon)(variable42, variable41);
             variable36['children'] = variable41;
             whisks = variable40.bind(tangon)(variable39, variable36);
- 1858:
+ 1868:
             limora[1] = whisks;
             whisks = sierra;
-            if(oscard) { _fun00004_ip = 1961; continue _fun00003 }
- 1868:
+            if(oscard) { _fun00004_ip = 1971; continue _fun00003 }
+ 1878:
             variable40 = _closure1_slot8;
             variable39 = _closure1_slot5;
             variable36 = {};
@@ -947,19 +952,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable41 = variable40.bind(tangon)(variable42, variable41);
             variable36['children'] = variable41;
             whisks = variable40.bind(tangon)(variable39, variable36);
- 1961:
+ 1971:
             limora[2] = whisks;
             config['children'] = limora;
             cntext = target.bind(tangon)(cntext, config);
             config = new Array(3);
             config[0] = cntext;
             cntext = sierra;
-            if(oscard) { _fun00004_ip = 1993; continue _fun00003 }
- 1989:
+            if(oscard) { _fun00004_ip = 2003; continue _fun00003 }
+ 1999:
             cntext = papara != quebec;
- 1993:
-            if(!cntext) { _fun00004_ip = 2054; continue _fun00003 }
- 1996:
+ 2003:
+            if(!cntext) { _fun00004_ip = 2064; continue _fun00003 }
+ 2006:
             limora = _closure1_slot8;
             target = _closure1_slot1;
             whisks = _closure1_slot2;
@@ -974,7 +979,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             whisks = sequen.playerThumbnail;
             papara['style'] = whisks;
             cntext = limora.bind(tangon)(target, papara);
- 2054:
+ 2064:
             config[1] = cntext;
             papara = _closure1_slot9;
             variable36 = _closure1_slot0;
@@ -1008,8 +1013,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora = whisks.bind(tangon)(limora, target);
             target = new Array(3);
             target[0] = limora;
-            if(oscard) { _fun00004_ip = 2322; continue _fun00003 }
- 2201:
+            if(oscard) { _fun00004_ip = 2332; continue _fun00003 }
+ 2211:
             quebec = _closure1_slot8;
             variable40 = _closure1_slot0;
             variable38 = _closure1_slot2;
@@ -1038,10 +1043,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable36 = 'secondary';
             limora['variant'] = variable36;
             sierra = quebec.bind(tangon)(whisks, limora);
- 2322:
+ 2332:
             target[1] = sierra;
-            if(!status) { _fun00004_ip = 2450; continue _fun00003 }
- 2329:
+            if(!status) { _fun00004_ip = 2460; continue _fun00003 }
+ 2339:
             whisks = _closure1_slot8;
             variable39 = _closure1_slot0;
             variable37 = _closure1_slot2;
@@ -1070,7 +1075,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = 'secondary';
             sierra['variant'] = equals;
             status = whisks.bind(tangon)(limora, sierra);
- 2450:
+ 2460:
             target[2] = status;
             record['children'] = target;
             record = papara.bind(tangon)(cntext, record);
@@ -1085,8 +1090,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = zuuluu.bind(tangon)(golfie, report);
             report = new Array(2);
             report[0] = golfie;
-            if(!oscard) { _fun00004_ip = 2907; continue _fun00003 }
- 2520:
+            if(!oscard) { _fun00004_ip = 2917; continue _fun00003 }
+ 2530:
             verify = _closure1_slot9;
             option = _closure1_slot5;
             golfie = {};
@@ -1127,15 +1132,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = ctrled.bind(tangon)(echoed);
             ctrled = echoed.CaptionIcon;
             echoed = {};
-            if(vacuum) { _fun00004_ip = 2704; continue _fun00003 }
- 2691:
+            if(vacuum) { _fun00004_ip = 2714; continue _fun00003 }
+ 2701:
             vacuum = sequen.iconDisabled;
             vacuum = vacuum.color;
-            _fun00004_ip = 2714; continue _fun00003;
- 2704:
+            _fun00004_ip = 2724; continue _fun00003;
+ 2714:
             sequen = sequen.icon;
             vacuum = sequen.color;
- 2714:
+ 2724:
             echoed['color'] = vacuum;
             echoed = result.bind(tangon)(ctrled, echoed);
             foxtra['children'] = echoed;
@@ -1211,7 +1216,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset[3] = yankee;
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 2907:
+ 2917:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

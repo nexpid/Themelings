@@ -210,10 +210,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = verify.isAndroid;
             option = option.bind(verify)();
             oscard = null;
-            if(option) { _fun00002_ip = 536; continue _fun00001 }
- 533:
+            if(option) { _fun00002_ip = 532; continue _fun00001 }
+ 529:
             oscard = golfie;
- 536:
+ 532:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

@@ -110,33 +110,45 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = global;
             zuuluu = michal.Error;
             zuuluu = entity instanceof zuuluu;
-            if(zuuluu) { _fun00004_ip = 48; continue _fun00003 }
+            if(zuuluu) { _fun00004_ip = 50; continue _fun00003 }
  18:
-            zuuluu = null;
-            zuuluu = zuuluu != entity;
-            report = 'Unknown error';
+            oscard = null;
+            zuuluu = oscard != entity;
+            golfie = 'Unknown error';
             if(!zuuluu) { _fun00004_ip = 46; continue _fun00003 }
  33:
-            zuuluu = michal.String;
-            michal = undefined;
-            report = zuuluu.bind(michal)(entity);
+            tangon = michal.String;
+            zuuluu = undefined;
+            golfie = tangon.bind(zuuluu)(entity);
  46:
-            _fun00004_ip = 53; continue _fun00003;
- 48:
-            report = entity.message;
- 53:
-            zuuluu = report.length;
-            michal = 1000;
-            entity = report;
-            if(!(zuuluu > michal)) { _fun00004_ip = 101; continue _fun00003 }
- 71:
-            tangon = report.substring;
+            oscard = null;
+            _fun00004_ip = 60; continue _fun00003;
+ 50:
+            golfie = entity.message;
+            oscard = entity.name;
+ 60:
+            zuuluu = golfie.length;
+            entity = 1000;
+            report = golfie;
+            if(!(zuuluu > entity)) { _fun00004_ip = 108; continue _fun00003 }
+ 78:
+            tangon = golfie.substring;
             zuuluu = 0;
-            michal = 997;
-            zuuluu = tangon.bind(report)(zuuluu, michal);
-            michal = '...';
-            entity = zuuluu + michal;
- 101:
+            entity = 997;
+            zuuluu = tangon.bind(golfie)(zuuluu, entity);
+            entity = '...';
+            report = zuuluu + entity;
+ 108:
+            zuuluu = null;
+            entity = report;
+            if(!(zuuluu != oscard)) { _fun00004_ip = 145; continue _fun00003 }
+ 117:
+            michal = michal.HermesInternal;
+            tangon = michal.concat;
+            zuuluu = '';
+            michal = ': ';
+            entity = tangon.bind(zuuluu)(oscard, michal, report);
+ 145:
             return entity;
         }
     };

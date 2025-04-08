@@ -236,15 +236,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['size'] = golfie;
             golfie = _closure1_slot1;
             verify = _closure1_slot2;
-            if(oscard) { _fun00002_ip = 260; continue _fun00001 }
- 251:
+            if(oscard) { _fun00002_ip = 262; continue _fun00001 }
+ 253:
             oscard = 17;
             oscard = verify[oscard];
-            _fun00002_ip = 267; continue _fun00001;
- 260:
+            _fun00002_ip = 269; continue _fun00001;
+ 262:
             option = 16;
             oscard = verify[option];
- 267:
+ 269:
             oscard = golfie.bind(report)(oscard);
             michal['icon'] = oscard;
             entity = _closure1_slot10;

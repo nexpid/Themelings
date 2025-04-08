@@ -1578,6 +1578,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['GUILD_POWERUP_PERKS_COACHMARK'] = michal;
     entity = 'GUILD_POWERUP_PERKS_COACHMARK';
     tangon[michal] = entity;
+    michal = 532;
+    tangon['THIRD_PARTY_OUTBOUND_PROMO_NAGBAR'] = michal;
+    entity = 'THIRD_PARTY_OUTBOUND_PROMO_NAGBAR';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

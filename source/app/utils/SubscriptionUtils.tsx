@@ -212,58 +212,52 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = function(argFoo, argBar, argBaz) { // Original name: subscriptionCanSwitchImmediately
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            michal = argFoo;
-            oscard = argBar;
-            report = argBaz;
-            entity = michal.getCurrentSubscriptionPlanIdForGroup;
-            tangon = entity.bind(michal)(report);
-            zuuluu = michal.type;
+            entity = argFoo;
+            report = argBar;
+            tangon = argBaz;
+            michal = entity.getCurrentSubscriptionPlanIdForGroup;
+            zuuluu = michal.bind(entity)(tangon);
+            michal = entity.type;
             entity = _closure1_slot7;
             entity = entity.PREMIUM;
-            entity = zuuluu === entity;
+            entity = michal === entity;
             if(!entity) { _fun00008_ip = 51; continue _fun00007 }
  45:
-            zuuluu = null;
-            entity = zuuluu == tangon;
+            michal = null;
+            entity = michal == zuuluu;
  51:
-            if(entity) { _fun00008_ip = 191; continue _fun00007 }
- 57:
-            michal = michal.isPausedAllowsUpdatesButNotResume;
-            michal = !michal;
-            if(!michal) { _fun00008_ip = 188; continue _fun00007 }
- 69:
-            option = _closure1_slot1;
-            offset = _closure1_slot2;
-            zuuluu = 5;
-            yankee = offset[zuuluu];
-            verify = undefined;
-            foxtra = option.bind(verify)(yankee);
-            yankee = null;
-            romeon = yankee != tangon;
-            yankee = 'Current subscription has no plan in group';
-            yankee = foxtra.bind(verify)(romeon, yankee);
-            zuuluu = offset[zuuluu];
-            option = option.bind(verify)(zuuluu);
-            zuuluu = _closure1_slot8;
-            zuuluu = zuuluu.PREMIUM_YEAR_TIER_1;
-            zuuluu = tangon === zuuluu;
-            if(!zuuluu) { _fun00008_ip = 149; continue _fun00007 }
- 135:
-            golfie = _closure1_slot8;
-            golfie = golfie.PREMIUM_MONTH_TIER_2;
-            zuuluu = oscard === golfie;
- 149:
-            golfie = !zuuluu;
-            zuuluu = 'Unexpected plan switch';
-            zuuluu = option.bind(verify)(golfie, zuuluu);
-            zuuluu = report.indexOf;
-            tangon = zuuluu.bind(report)(tangon);
-            zuuluu = report.indexOf;
-            zuuluu = zuuluu.bind(report)(oscard);
-            michal = tangon < zuuluu;
- 188:
-            entity = michal;
- 191:
+            if(entity) { _fun00008_ip = 173; continue _fun00007 }
+ 54:
+            golfie = _closure1_slot1;
+            verify = _closure1_slot2;
+            michal = 5;
+            offset = verify[michal];
+            option = undefined;
+            romeon = golfie.bind(option)(offset);
+            offset = null;
+            yankee = offset != zuuluu;
+            offset = 'Current subscription has no plan in group';
+            offset = romeon.bind(option)(yankee, offset);
+            michal = verify[michal];
+            golfie = golfie.bind(option)(michal);
+            michal = _closure1_slot8;
+            michal = michal.PREMIUM_YEAR_TIER_1;
+            michal = zuuluu === michal;
+            if(!michal) { _fun00008_ip = 134; continue _fun00007 }
+ 120:
+            oscard = _closure1_slot8;
+            oscard = oscard.PREMIUM_MONTH_TIER_2;
+            michal = report === oscard;
+ 134:
+            oscard = !michal;
+            michal = 'Unexpected plan switch';
+            michal = golfie.bind(option)(oscard, michal);
+            michal = tangon.indexOf;
+            zuuluu = michal.bind(tangon)(zuuluu);
+            michal = tangon.indexOf;
+            michal = michal.bind(tangon)(report);
+            entity = zuuluu < michal;
+ 173:
             return entity;
         }
     };

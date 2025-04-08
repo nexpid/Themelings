@@ -1687,22 +1687,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             zuuluu = _closure1_slot27;
             tangon = null;
-            if(!(tangon != zuuluu)) { _fun00062_ip = 189; continue _fun00061 }
+            if(!(tangon != zuuluu)) { _fun00062_ip = 216; continue _fun00061 }
  18:
             zuuluu = _closure1_slot27;
             report = zuuluu.id;
             zuuluu = argFoo;
             zuuluu = zuuluu.guild;
             zuuluu = zuuluu.id;
-            if(!(report === zuuluu)) { _fun00062_ip = 189; continue _fun00061 }
+            if(!(report === zuuluu)) { _fun00062_ip = 216; continue _fun00061 }
  47:
             oscard = _closure1_slot13;
             report = oscard.getGuild;
             zuuluu = _closure1_slot27;
             zuuluu = zuuluu.id;
             zuuluu = report.bind(oscard)(zuuluu);
-            if(!(tangon != zuuluu)) { _fun00062_ip = 185; continue _fun00061 }
- 74:
+            if(!(tangon != zuuluu)) { _fun00062_ip = 212; continue _fun00061 }
+ 77:
             oscard = _closure1_slot8;
             report = oscard.getProfile;
             tangon = _closure1_slot27;
@@ -1712,11 +1712,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = _closure1_slot23;
             tangon = _closure1_slot17;
             tangon = tangon.PROFILE;
-            if(!(report !== tangon)) { _fun00062_ip = 128; continue _fun00061 }
- 120:
+            tangon = report !== tangon;
+            if(!tangon) { _fun00062_ip = 144; continue _fun00061 }
+ 126:
+            oscard = _closure1_slot23;
+            report = _closure1_slot17;
+            report = report.TAG;
+            tangon = oscard !== report;
+ 144:
+            if(!tangon) { _fun00062_ip = 155; continue _fun00061 }
+ 147:
             tangon = _closure1_slot28;
             _closure1_slot29 = tangon;
- 128:
+ 155:
             _closure1_slot26 = zuuluu;
             var _closure2_slot0 = zuuluu;
             tangon = _closure1_slot27;
@@ -1783,10 +1791,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             _closure1_slot27 = entity;
             entity = undefined;
             return entity;
- 185:
+ 212:
             entity = false;
             return entity;
- 189:
+ 216:
             entity = false;
             return entity;
         }

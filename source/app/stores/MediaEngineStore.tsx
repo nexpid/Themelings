@@ -239,10 +239,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = undefined;
             zuuluu = report.bind(zuuluu)(tangon);
             zuuluu = zuuluu.isPlatformEmbedded;
-            if(zuuluu) { _fun00010_ip = 76; continue _fun00009 }
- 74:
+            if(zuuluu) { _fun00010_ip = 80; continue _fun00009 }
+ 78:
             zuuluu = false;
- 76:
+ 80:
             michal['autoThreshold'] = zuuluu;
             tangon = true;
             zuuluu = new Array(0);

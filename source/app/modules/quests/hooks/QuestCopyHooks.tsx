@@ -224,15 +224,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.bind(tangon)(oscard);
             michal = _closure1_slot9;
             michal = michal.PLAY;
-            if(!(michal !== zuuluu)) { _fun00010_ip = 2719; continue _fun00009 }
+            if(!(michal !== zuuluu)) { _fun00010_ip = 2726; continue _fun00009 }
  76:
             michal = _closure1_slot9;
             michal = michal.STREAM;
-            if(!(michal !== zuuluu)) { _fun00010_ip = 2638; continue _fun00009 }
+            if(!(michal !== zuuluu)) { _fun00010_ip = 2645; continue _fun00009 }
  93:
             michal = _closure1_slot9;
             michal = michal.WATCH_VIDEO;
-            if(!(michal !== zuuluu)) { _fun00010_ip = 2579; continue _fun00009 }
+            if(!(michal !== zuuluu)) { _fun00010_ip = 2586; continue _fun00009 }
  110:
             michal = _closure1_slot9;
             michal = michal.IN_GAME;
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.bind(option)(michal);
             michal = michal.defaultInGameTask;
             zuuluu = null;
-            if(!(zuuluu == michal)) { _fun00010_ip = 2572; continue _fun00009 }
+            if(!(zuuluu == michal)) { _fun00010_ip = 2579; continue _fun00009 }
  181:
             yankee = _closure1_slot0;
             zuuluu = _closure1_slot1;
@@ -279,7 +279,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = yankee.bind(romeon)(zuuluu);
             zuuluu = yankee.shouldUsePlayOnDesktopTask;
             zuuluu = zuuluu.bind(yankee)(oscard);
-            if(zuuluu) { _fun00010_ip = 2217; continue _fun00009 }
+            if(zuuluu) { _fun00010_ip = 2224; continue _fun00009 }
  313:
             yankee = _closure1_slot0;
             zuuluu = _closure1_slot1;
@@ -287,7 +287,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = yankee.bind(romeon)(zuuluu);
             zuuluu = yankee.isConsoleQuest;
             zuuluu = zuuluu.bind(yankee)(oscard);
-            if(zuuluu) { _fun00010_ip = 1859; continue _fun00009 }
+            if(zuuluu) { _fun00010_ip = 1866; continue _fun00009 }
  347:
             yankee = _closure1_slot0;
             zuuluu = _closure1_slot1;
@@ -295,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = yankee.bind(romeon)(zuuluu);
             zuuluu = yankee.shouldUsePlayOnDesktopTask;
             zuuluu = zuuluu.bind(yankee)(oscard);
-            if(zuuluu) { _fun00010_ip = 1499; continue _fun00009 }
+            if(zuuluu) { _fun00010_ip = 1506; continue _fun00009 }
  381:
             yankee = _closure1_slot0;
             zuuluu = _closure1_slot1;
@@ -305,7 +305,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = {};
             zuuluu['quest'] = oscard;
             zuuluu = yankee.bind(foxtra)(zuuluu);
-            if(zuuluu) { _fun00010_ip = 1380; continue _fun00009 }
+            if(zuuluu) { _fun00010_ip = 1387; continue _fun00009 }
  422:
             yankee = _closure1_slot0;
             zuuluu = _closure1_slot1;
@@ -449,7 +449,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['questReward'] = kiloes;
             zuuluu = foxtra.bind(romeon)(yankee, offset, backup);
  1012:
-            _fun00010_ip = 1378; continue _fun00009;
+            _fun00010_ip = 1385; continue _fun00009;
  1017:
             offset = oscard.config;
             foxtra = offset.videoMetadata;
@@ -461,45 +461,47 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.messages;
             offset = foxtra.videoTitle;
  1051:
-            yankee = yankee != offset;
+            foxtra = yankee != offset;
             kiloes = 'video';
-            if(!yankee) { _fun00010_ip = 1065; continue _fun00009 }
+            if(!foxtra) { _fun00010_ip = 1065; continue _fun00009 }
  1062:
             kiloes = offset;
  1065:
             foxtra = _closure1_slot0;
             offset = _closure1_slot1;
-            yankee = 6;
-            yankee = offset[yankee];
-            yankee = foxtra.bind(romeon)(yankee);
-            sizing = yankee.SharedQuestFields;
-            backup = sizing.build;
-            yankee = oscard.config;
-            yankee = backup.bind(sizing)(yankee);
-            yankee = yankee.defaultReward;
-            yankee = yankee.messages;
-            backup = yankee.nameWithArticle;
-            yankee = offset[update];
-            result = foxtra.bind(romeon)(yankee);
-            sizing = result.isCollectibleQuestRewardPremiumExtendable;
-            yankee = oscard.config;
-            yankee = sizing.bind(result)(yankee);
+            backup = 6;
+            backup = offset[backup];
+            backup = foxtra.bind(romeon)(backup);
+            result = backup.SharedQuestFields;
+            sizing = result.build;
+            backup = oscard.config;
+            backup = sizing.bind(result)(backup);
+            backup = backup.defaultReward;
+            backup = backup.messages;
+            backup = backup.nameWithArticle;
+            sizing = offset[update];
+            echoed = foxtra.bind(romeon)(sizing);
+            result = echoed.isCollectibleQuestRewardPremiumExtendable;
+            sizing = oscard.config;
+            sizing = result.bind(echoed)(sizing);
             offset = offset[update];
-            sizing = foxtra.bind(romeon)(offset);
-            foxtra = sizing.isCollectibleQuestRewardPermanentWithPremiumSubscription;
+            result = foxtra.bind(romeon)(offset);
+            foxtra = result.isCollectibleQuestRewardPermanentWithPremiumSubscription;
             offset = oscard.config;
-            offset = foxtra.bind(sizing)(offset);
+            offset = foxtra.bind(result)(offset);
             foxtra = _closure1_slot12;
-            if(!yankee) { _fun00010_ip = 1185; continue _fun00009 }
+            if(!sizing) { _fun00010_ip = 1188; continue _fun00009 }
  1182:
-            if(verify) { _fun00010_ip = 1306; continue _fun00009 }
- 1185:
-            if(yankee) { _fun00010_ip = 1271; continue _fun00009 }
+            if(verify) { _fun00010_ip = 1313; continue _fun00009 }
  1188:
+            if(sizing) { _fun00010_ip = 1278; continue _fun00009 }
+ 1191:
+            if(!(yankee == option)) { _fun00010_ip = 1278; continue _fun00009 }
+ 1195:
             sizing = oscard.id;
             yankee = _closure1_slot4;
-            if(!(sizing !== yankee)) { _fun00010_ip = 1236; continue _fun00009 }
- 1201:
+            if(!(sizing !== yankee)) { _fun00010_ip = 1243; continue _fun00009 }
+ 1208:
             sizing = _closure1_slot0;
             result = _closure1_slot1;
             yankee = 5;
@@ -507,8 +509,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = sizing.bind(romeon)(yankee);
             yankee = yankee.t;
             yankee = yankee.yMsQ7e;
-            _fun00010_ip = 1269; continue _fun00009;
- 1236:
+            _fun00010_ip = 1276; continue _fun00009;
+ 1243:
             result = _closure1_slot0;
             echoed = _closure1_slot1;
             sizing = 5;
@@ -516,9 +518,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = result.bind(romeon)(sizing);
             sizing = sizing.t;
             yankee = sizing.Rsd5bG;
- 1269:
-            _fun00010_ip = 1304; continue _fun00009;
- 1271:
+ 1276:
+            _fun00010_ip = 1311; continue _fun00009;
+ 1278:
             result = _closure1_slot0;
             echoed = _closure1_slot1;
             sizing = 5;
@@ -526,32 +528,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = result.bind(romeon)(sizing);
             sizing = sizing.t;
             yankee = sizing.W/HkLC;
- 1304:
-            _fun00010_ip = 1355; continue _fun00009;
- 1306:
+ 1311:
+            _fun00010_ip = 1362; continue _fun00009;
+ 1313:
             result = _closure1_slot0;
             echoed = _closure1_slot1;
             sizing = 5;
             sizing = echoed[sizing];
             sizing = result.bind(romeon)(sizing);
             sizing = sizing.t;
-            if(offset) { _fun00010_ip = 1344; continue _fun00009 }
- 1334:
+            if(offset) { _fun00010_ip = 1351; continue _fun00009 }
+ 1341:
             offset = sizing.vs/xBg;
-            _fun00010_ip = 1352; continue _fun00009;
- 1344:
+            _fun00010_ip = 1359; continue _fun00009;
+ 1351:
             offset = sizing.xqX+golfie;
- 1352:
+ 1359:
             yankee = offset;
- 1355:
+ 1362:
             offset = {};
             offset['videoTitle'] = kiloes;
             offset['rewardNameWithArticle'] = backup;
             offset['duration'] = option;
             zuuluu = foxtra.bind(romeon)(yankee, offset, report);
- 1378:
-            _fun00010_ip = 1494; continue _fun00009;
- 1380:
+ 1385:
+            _fun00010_ip = 1501; continue _fun00009;
+ 1387:
             foxtra = {};
             foxtra['quest'] = oscard;
             foxtra['taskDetails'] = golfie;
@@ -575,9 +577,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['gameTitle'] = sizing;
             offset['streamingDurationRequirement'] = kiloes;
             zuuluu = foxtra.bind(romeon)(yankee, offset, backup);
- 1494:
-            _fun00010_ip = 1854; continue _fun00009;
- 1499:
+ 1501:
+            _fun00010_ip = 1861; continue _fun00009;
+ 1506:
             foxtra = {};
             foxtra['quest'] = oscard;
             foxtra['taskDetails'] = golfie;
@@ -616,15 +618,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.config;
             offset = foxtra.bind(ctrled)(offset);
             foxtra = _closure1_slot12;
-            if(!source) { _fun00010_ip = 1699; continue _fun00009 }
- 1696:
-            if(yankee) { _fun00010_ip = 1776; continue _fun00009 }
- 1699:
-            if(yankee) { _fun00010_ip = 1743; continue _fun00009 }
- 1702:
+            if(!source) { _fun00010_ip = 1706; continue _fun00009 }
+ 1703:
+            if(yankee) { _fun00010_ip = 1783; continue _fun00009 }
+ 1706:
+            if(yankee) { _fun00010_ip = 1750; continue _fun00009 }
+ 1709:
             yankee = null;
-            if(!(yankee == sizing)) { _fun00010_ip = 1743; continue _fun00009 }
- 1708:
+            if(!(yankee == sizing)) { _fun00010_ip = 1750; continue _fun00009 }
+ 1715:
             source = _closure1_slot0;
             ctrled = _closure1_slot1;
             yankee = 5;
@@ -632,8 +634,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = source.bind(romeon)(yankee);
             yankee = yankee.t;
             yankee = yankee.FZL5Q0;
-            _fun00010_ip = 1774; continue _fun00009;
- 1743:
+            _fun00010_ip = 1781; continue _fun00009;
+ 1750:
             ctrled = _closure1_slot0;
             vacuum = _closure1_slot1;
             source = 5;
@@ -641,24 +643,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = ctrled.bind(romeon)(source);
             source = source.t;
             yankee = source.AwuMRU;
- 1774:
-            _fun00010_ip = 1821; continue _fun00009;
- 1776:
+ 1781:
+            _fun00010_ip = 1828; continue _fun00009;
+ 1783:
             ctrled = _closure1_slot0;
             vacuum = _closure1_slot1;
             source = 5;
             source = vacuum[source];
             source = ctrled.bind(romeon)(source);
             source = source.t;
-            if(offset) { _fun00010_ip = 1812; continue _fun00009 }
- 1804:
+            if(offset) { _fun00010_ip = 1819; continue _fun00009 }
+ 1811:
             offset = source.ziB0HB;
-            _fun00010_ip = 1818; continue _fun00009;
- 1812:
+            _fun00010_ip = 1825; continue _fun00009;
+ 1819:
             offset = source.eb/SnZ;
- 1818:
+ 1825:
             yankee = offset;
- 1821:
+ 1828:
             offset = {};
             offset['gameTitle'] = echoed;
             offset['streamingDurationRequirement'] = result;
@@ -666,9 +668,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['duration'] = sizing;
             offset['questReward'] = kiloes;
             zuuluu = foxtra.bind(romeon)(yankee, offset, backup);
- 1854:
-            _fun00010_ip = 2212; continue _fun00009;
- 1859:
+ 1861:
+            _fun00010_ip = 2219; continue _fun00009;
+ 1866:
             foxtra = {};
             foxtra['quest'] = oscard;
             foxtra['taskDetails'] = golfie;
@@ -707,15 +709,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.config;
             offset = foxtra.bind(ctrled)(offset);
             foxtra = _closure1_slot12;
-            if(!source) { _fun00010_ip = 2059; continue _fun00009 }
- 2056:
-            if(yankee) { _fun00010_ip = 2134; continue _fun00009 }
- 2059:
-            if(yankee) { _fun00010_ip = 2101; continue _fun00009 }
- 2062:
+            if(!source) { _fun00010_ip = 2066; continue _fun00009 }
+ 2063:
+            if(yankee) { _fun00010_ip = 2141; continue _fun00009 }
+ 2066:
+            if(yankee) { _fun00010_ip = 2108; continue _fun00009 }
+ 2069:
             yankee = null;
-            if(!(yankee == sizing)) { _fun00010_ip = 2101; continue _fun00009 }
- 2068:
+            if(!(yankee == sizing)) { _fun00010_ip = 2108; continue _fun00009 }
+ 2075:
             source = _closure1_slot0;
             ctrled = _closure1_slot1;
             yankee = 5;
@@ -723,8 +725,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = source.bind(romeon)(yankee);
             yankee = yankee.t;
             yankee = yankee.NIimTk;
-            _fun00010_ip = 2132; continue _fun00009;
- 2101:
+            _fun00010_ip = 2139; continue _fun00009;
+ 2108:
             ctrled = _closure1_slot0;
             vacuum = _closure1_slot1;
             source = 5;
@@ -732,24 +734,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = ctrled.bind(romeon)(source);
             source = source.t;
             yankee = source.AwuMRU;
- 2132:
-            _fun00010_ip = 2179; continue _fun00009;
- 2134:
+ 2139:
+            _fun00010_ip = 2186; continue _fun00009;
+ 2141:
             ctrled = _closure1_slot0;
             vacuum = _closure1_slot1;
             source = 5;
             source = vacuum[source];
             source = ctrled.bind(romeon)(source);
             source = source.t;
-            if(offset) { _fun00010_ip = 2170; continue _fun00009 }
- 2162:
+            if(offset) { _fun00010_ip = 2177; continue _fun00009 }
+ 2169:
             offset = source.ziB0HB;
-            _fun00010_ip = 2176; continue _fun00009;
- 2170:
+            _fun00010_ip = 2183; continue _fun00009;
+ 2177:
             offset = source.eb/SnZ;
- 2176:
+ 2183:
             yankee = offset;
- 2179:
+ 2186:
             offset = {};
             offset['gameTitle'] = echoed;
             offset['targetMinutes'] = kiloes;
@@ -757,9 +759,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['duration'] = sizing;
             offset['streamingDurationRequirement'] = kiloes;
             zuuluu = foxtra.bind(romeon)(yankee, offset, backup);
- 2212:
-            _fun00010_ip = 2570; continue _fun00009;
- 2217:
+ 2219:
+            _fun00010_ip = 2577; continue _fun00009;
+ 2224:
             offset = {};
             offset['quest'] = oscard;
             offset['taskDetails'] = golfie;
@@ -798,15 +800,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.config;
             option = offset.bind(echoed)(option);
             offset = _closure1_slot12;
-            if(!result) { _fun00010_ip = 2417; continue _fun00009 }
- 2414:
-            if(verify) { _fun00010_ip = 2492; continue _fun00009 }
- 2417:
-            if(verify) { _fun00010_ip = 2459; continue _fun00009 }
- 2420:
+            if(!result) { _fun00010_ip = 2424; continue _fun00009 }
+ 2421:
+            if(verify) { _fun00010_ip = 2499; continue _fun00009 }
+ 2424:
+            if(verify) { _fun00010_ip = 2466; continue _fun00009 }
+ 2427:
             verify = null;
-            if(!(verify == backup)) { _fun00010_ip = 2459; continue _fun00009 }
- 2426:
+            if(!(verify == backup)) { _fun00010_ip = 2466; continue _fun00009 }
+ 2433:
             result = _closure1_slot0;
             echoed = _closure1_slot1;
             verify = 5;
@@ -814,8 +816,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = result.bind(romeon)(verify);
             verify = verify.t;
             verify = verify.NIimTk;
-            _fun00010_ip = 2490; continue _fun00009;
- 2459:
+            _fun00010_ip = 2497; continue _fun00009;
+ 2466:
             echoed = _closure1_slot0;
             update = _closure1_slot1;
             result = 5;
@@ -823,24 +825,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = echoed.bind(romeon)(result);
             result = result.t;
             verify = result.AwuMRU;
- 2490:
-            _fun00010_ip = 2537; continue _fun00009;
- 2492:
+ 2497:
+            _fun00010_ip = 2544; continue _fun00009;
+ 2499:
             result = _closure1_slot0;
             echoed = _closure1_slot1;
             output = 5;
             output = echoed[output];
             output = result.bind(romeon)(output);
             output = output.t;
-            if(option) { _fun00010_ip = 2528; continue _fun00009 }
- 2520:
+            if(option) { _fun00010_ip = 2535; continue _fun00009 }
+ 2527:
             option = output.ziB0HB;
-            _fun00010_ip = 2534; continue _fun00009;
- 2528:
+            _fun00010_ip = 2541; continue _fun00009;
+ 2535:
             option = output.eb/SnZ;
- 2534:
+ 2541:
             verify = option;
- 2537:
+ 2544:
             option = {};
             option['gameTitle'] = sizing;
             option['streamingDurationRequirement'] = foxtra;
@@ -848,12 +850,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['duration'] = backup;
             option['targetMinutes'] = foxtra;
             zuuluu = offset.bind(romeon)(verify, option, yankee);
- 2570:
+ 2577:
             return zuuluu;
- 2572:
+ 2579:
             michal = michal.description;
             return michal;
- 2579:
+ 2586:
             verify = _closure1_slot0;
             offset = _closure1_slot1;
             michal = 5;
@@ -867,7 +869,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.f/J8v7;
             michal = zuuluu.bind(option)(michal);
             return michal;
- 2638:
+ 2645:
             option = _closure1_slot12;
             zuuluu = _closure1_slot0;
             verify = _closure1_slot1;
@@ -885,7 +887,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['gameTitle'] = verify;
             michal = option.bind(tangon)(zuuluu, michal, report);
             return michal;
- 2719:
+ 2726:
             zuuluu = _closure1_slot12;
             michal = _closure1_slot0;
             option = _closure1_slot1;

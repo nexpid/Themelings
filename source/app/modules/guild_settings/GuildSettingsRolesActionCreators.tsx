@@ -198,25 +198,25 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                                     StartGenerator();
                                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                    if(michal) { _fun00010_ip = 265; continue _fun00009 }
+                                    if(michal) { _fun00010_ip = 256; continue _fun00009 }
  10:
                                     tangon = _closure4_slot1;
                                     zuuluu = null;
-                                    if(!(zuuluu != tangon)) { _fun00010_ip = 244; continue _fun00009 }
+                                    if(!(zuuluu != tangon)) { _fun00010_ip = 235; continue _fun00009 }
  26:
                                     tangon = _closure4_slot1;
                                     report = tangon.length;
                                     tangon = 0;
-                                    if(!(tangon !== report)) { _fun00010_ip = 244; continue _fun00009 }
+                                    if(!(tangon !== report)) { _fun00010_ip = 235; continue _fun00009 }
  44:
                                     report = _closure4_slot1;
                                     tangon = report.pop;
                                     option = tangon.bind(report)();
-                                    if(!(zuuluu != option)) { _fun00010_ip = 252; continue _fun00009 }
+                                    if(!(zuuluu != option)) { _fun00010_ip = 243; continue _fun00009 }
  65:
                                     tangon = option.name;
                                     zuuluu = '';
-                                    if(!(zuuluu !== tangon)) { _fun00010_ip = 252; continue _fun00009 }
+                                    if(!(zuuluu !== tangon)) { _fun00010_ip = 243; continue _fun00009 }
  81:
                                     report = _closure1_slot1;
                                     tangon = _closure1_slot2;
@@ -236,8 +236,6 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                                     zuuluu['permissions'] = verify;
                                     verify = option.color;
                                     zuuluu['color'] = verify;
-                                    verify = option.colors;
-                                    zuuluu['colors'] = verify;
                                     verify = option.hoist;
                                     zuuluu['hoist'] = verify;
                                     verify = option.mentionable;
@@ -250,23 +248,23 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                                     tangon = report.then;
                                     zuuluu = _closure4_slot2;
                                     zuuluu = tangon.bind(report)(zuuluu, zuuluu);
-                                    SaveGenerator(address=238);
- 236:
+                                    SaveGenerator(address=229);
+ 227:
                                     return zuuluu;
- 238:
+ 229:
                                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                                    if(tangon) { _fun00010_ip = 249; continue _fun00009 }
- 244:
+                                    if(tangon) { _fun00010_ip = 240; continue _fun00009 }
+ 235:
                                     tangon = undefined;
                                     return tangon;
- 249:
+ 240:
                                     return zuuluu;
- 252:
+ 243:
                                     zuuluu = _closure4_slot2;
                                     michal = undefined;
                                     michal = zuuluu.bind(michal)();
                                     return michal;
- 265:
+ 256:
                                     return entity;
                                 }
                             };

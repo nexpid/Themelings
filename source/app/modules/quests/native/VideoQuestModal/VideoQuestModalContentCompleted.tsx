@@ -391,17 +391,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = output.contentRewardsWrapper;
             option[1] = romeon;
             oscard['style'] = option;
-            if(golfie) { _fun00002_ip = 871; continue _fun00001 }
- 849:
+            if(golfie) { _fun00002_ip = 873; continue _fun00001 }
+ 851:
             option = _closure1_slot1;
             romeon = _closure1_slot2;
             golfie = 22;
             golfie = romeon[golfie];
             option = option.bind(tangon)(golfie);
-            _fun00002_ip = 875; continue _fun00001;
- 871:
+            _fun00002_ip = 877; continue _fun00001;
+ 873:
             option = _closure1_slot5;
- 875:
+ 877:
             golfie = {};
             golfie = verify.bind(tangon)(option, golfie);
             romeon = new Array(2);

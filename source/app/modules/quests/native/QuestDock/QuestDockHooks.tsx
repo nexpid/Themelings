@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = golfie;
     var _closure1_slot15 = tangon;
     tangon = {};
-    golfie = 'function QuestDockHooksTsx2(props,previous){const{cheapWorkletShallowEqual,QuestDockMode,runOnJS,setRestingQuestDockMode,questDockWrapperSpecs,QUEST_DOCK_VERTICAL_EDGE_GUTTER_COLLAPSED,getQuestDockCollapsedWidth,QUEST_DOCK_COLLAPSED_HEIGHT,activeQuestDockMode,QUEST_DOCK_VERTICAL_EDGE_GUTTER_CLOSED,getQuestDockClosedWidth,QUEST_DOCK_CLOSED_HEIGHT,getQuestDockExpandedHeightLimits,QUEST_DOCK_VERTICAL_EDGE_GUTTER_EXPANDED,getQuestDockExpandedWidth}=this.__closure;var _previous$restingQues;if(cheapWorkletShallowEqual(props,previous!==null&&previous!==void 0?previous:undefined))return;const{restingQuestDockMode:restingQuestDockMode,minExpandedContentHeight:minExpandedContentHeight,windowWidth:windowWidth,windowHeight:windowHeight,safeArea:safeArea}=props;switch(restingQuestDockMode){case QuestDockMode.RESET_TO_PREVIOUS:runOnJS(setRestingQuestDockMode)((_previous$restingQues=previous===null||previous===void 0?void 0:previous.restingQuestDockMode)!==null&&_previous$restingQues!==void 0?_previous$restingQues:QuestDockMode.COLLAPSED);return;case QuestDockMode.COLLAPSED:questDockWrapperSpecs.set({x:0,y:QUEST_DOCK_VERTICAL_EDGE_GUTTER_COLLAPSED*-1,width:getQuestDockCollapsedWidth(windowWidth,safeArea.left,safeArea.right),height:QUEST_DOCK_COLLAPSED_HEIGHT});activeQuestDockMode.set(QuestDockMode.COLLAPSED);break;case QuestDockMode.CLOSED:case QuestDockMode.SOFT_DISMISSED:questDockWrapperSpecs.set({x:0,y:QUEST_DOCK_VERTICAL_EDGE_GUTTER_CLOSED*-1,width:getQuestDockClosedWidth(windowWidth,safeArea.left,safeArea.right),height:QUEST_DOCK_CLOSED_HEIGHT});activeQuestDockMode.set(restingQuestDockMode);break;case QuestDockMode.EXPANDED:const minContentHeight=minExpandedContentHeight;const{minHeight:minHeight,maxHeight:maxHeight}=getQuestDockExpandedHeightLimits(windowHeight,safeArea.top,minContentHeight);const heightMidpoint=(maxHeight+minHeight)/2;let height;if(questDockWrapperSpecs.get().height<=QUEST_DOCK_COLLAPSED_HEIGHT){height=maxHeight;}else if(previous!=null&&questDockWrapperSpecs.get().height===getQuestDockExpandedHeightLimits(previous.windowHeight,previous.safeArea.top,minContentHeight).maxHeight){height=maxHeight;}else if(questDockWrapperSpecs.get().height>=heightMidpoint){height=maxHeight;}else{height=maxHeight;}questDockWrapperSpecs.set({x:0,y:QUEST_DOCK_VERTICAL_EDGE_GUTTER_EXPANDED,width:getQuestDockExpandedWidth(windowWidth,safeArea.left,safeArea.right),height:height});activeQuestDockMode.set(QuestDockMode.EXPANDED);break;}}';
+    golfie = 'function QuestDockHooksTsx2(props,previous){const{cheapWorkletShallowEqual,QuestDockMode,runOnJS,setRestingQuestDockMode,questDockWrapperSpecs,QUEST_DOCK_VERTICAL_EDGE_GUTTER_COLLAPSED,getQuestDockCollapsedWidth,QUEST_DOCK_COLLAPSED_HEIGHT,activeQuestDockMode,QUEST_DOCK_VERTICAL_EDGE_GUTTER_CLOSED,getQuestDockClosedWidth,QUEST_DOCK_CLOSED_HEIGHT,getQuestDockExpandedHeightLimits,QUEST_DOCK_VERTICAL_EDGE_GUTTER_EXPANDED,getQuestDockExpandedWidth}=this.__closure;var _previous$restingQues;if(cheapWorkletShallowEqual(props,previous!==null&&previous!==void 0?previous:undefined))return;const{restingQuestDockMode:restingQuestDockMode,minExpandedContentHeight:minExpandedContentHeight,windowWidth:windowWidth,windowHeight:windowHeight,safeArea:safeArea}=props;switch(restingQuestDockMode){case QuestDockMode.RESET_TO_PREVIOUS:runOnJS(setRestingQuestDockMode)((_previous$restingQues=previous===null||previous===void 0?void 0:previous.restingQuestDockMode)!==null&&_previous$restingQues!==void 0?_previous$restingQues:QuestDockMode.COLLAPSED);return;case QuestDockMode.COLLAPSED:questDockWrapperSpecs.set({...questDockWrapperSpecs.get(),x:0,y:QUEST_DOCK_VERTICAL_EDGE_GUTTER_COLLAPSED*-1,width:getQuestDockCollapsedWidth(windowWidth,safeArea.left,safeArea.right),height:QUEST_DOCK_COLLAPSED_HEIGHT});activeQuestDockMode.set(QuestDockMode.COLLAPSED);break;case QuestDockMode.CLOSED:case QuestDockMode.SOFT_DISMISSED:questDockWrapperSpecs.set({...questDockWrapperSpecs.get(),x:0,y:QUEST_DOCK_VERTICAL_EDGE_GUTTER_CLOSED*-1,width:getQuestDockClosedWidth(windowWidth,safeArea.left,safeArea.right),height:QUEST_DOCK_CLOSED_HEIGHT});activeQuestDockMode.set(restingQuestDockMode);break;case QuestDockMode.EXPANDED:const minContentHeight=minExpandedContentHeight;const{minHeight:minHeight,maxHeight:maxHeight}=getQuestDockExpandedHeightLimits(windowHeight,safeArea.top,minContentHeight);const heightMidpoint=(maxHeight+minHeight)/2;let height;if(questDockWrapperSpecs.get().height<=QUEST_DOCK_COLLAPSED_HEIGHT){height=maxHeight;}else if(previous!=null&&questDockWrapperSpecs.get().height===getQuestDockExpandedHeightLimits(previous.windowHeight,previous.safeArea.top,minContentHeight).maxHeight){height=maxHeight;}else if(questDockWrapperSpecs.get().height>=heightMidpoint){height=maxHeight;}else{height=maxHeight;}questDockWrapperSpecs.set({...questDockWrapperSpecs.get(),x:0,y:QUEST_DOCK_VERTICAL_EDGE_GUTTER_EXPANDED,width:getQuestDockExpandedWidth(windowWidth,safeArea.left,safeArea.right),height:height});activeQuestDockMode.set(QuestDockMode.EXPANDED);break;}}';
     tangon['code'] = golfie;
     var _closure1_slot16 = tangon;
     tangon = 18;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = oscard;
  51:
                 zuuluu = golfie.bind(option)(michal, zuuluu);
-                if(zuuluu) { _fun00002_ip = 789; continue _fun00001 }
+                if(zuuluu) { _fun00002_ip = 897; continue _fun00001 }
  63:
                 golfie = michal.restingQuestDockMode;
                 result = michal.minExpandedContentHeight;
@@ -170,23 +170,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify = michal.safeArea;
                 michal = _closure1_slot6;
                 michal = michal.RESET_TO_PREVIOUS;
-                if(!(michal !== golfie)) { _fun00002_ip = 714; continue _fun00001 }
+                if(!(michal !== golfie)) { _fun00002_ip = 822; continue _fun00001 }
  110:
                 michal = _closure1_slot6;
                 michal = michal.COLLAPSED;
-                if(!(michal !== golfie)) { _fun00002_ip = 590; continue _fun00001 }
+                if(!(michal !== golfie)) { _fun00002_ip = 662; continue _fun00001 }
  127:
                 michal = _closure1_slot6;
                 michal = michal.CLOSED;
-                if(!(michal !== golfie)) { _fun00002_ip = 473; continue _fun00001 }
+                if(!(michal !== golfie)) { _fun00002_ip = 509; continue _fun00001 }
  144:
                 michal = _closure1_slot6;
                 michal = michal.SOFT_DISMISSED;
-                if(!(michal !== golfie)) { _fun00002_ip = 473; continue _fun00001 }
+                if(!(michal !== golfie)) { _fun00002_ip = 509; continue _fun00001 }
  161:
                 michal = _closure1_slot6;
                 michal = michal.EXPANDED;
-                if(!(michal === golfie)) { _fun00002_ip = 789; continue _fun00001 }
+                if(!(michal === golfie)) { _fun00002_ip = 897; continue _fun00001 }
  178:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = verify.top;
                 michal = zuuluu.bind(option)(offset, michal, result);
                 zuuluu = michal.minHeight;
-                yankee = michal.maxHeight;
+                romeon = michal.maxHeight;
                 option = _closure2_slot0;
                 zuuluu = option.get;
                 zuuluu = zuuluu.bind(option)();
@@ -209,10 +209,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = report != oscard;
                 if(!option) { _fun00002_ip = 342; continue _fun00001 }
  267:
-                romeon = _closure2_slot0;
-                offset = romeon.get;
-                offset = offset.bind(romeon)();
-                romeon = offset.height;
+                yankee = _closure2_slot0;
+                offset = yankee.get;
+                offset = offset.bind(yankee)();
+                yankee = offset.height;
                 backup = _closure1_slot0;
                 offset = _closure1_slot2;
                 offset = offset[kiloes];
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = offset.top;
                 offset = sizing.bind(output)(backup, offset, result);
                 offset = offset.maxHeight;
-                option = romeon === offset;
+                option = yankee === offset;
  342:
                 zuuluu = option;
  345:
@@ -237,37 +237,51 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = _closure2_slot0;
                 option = offset.set;
                 zuuluu = {};
-                romeon = 0;
-                zuuluu['x'] = romeon;
-                romeon = _closure1_slot14;
-                zuuluu['y'] = romeon;
+                yankee = offset.get;
+                update = yankee.bind(offset)();
+                source = zuuluu;
+                yankee = copyDataProperties(source, update);
+                backup = 0;
+                yankee = 'x';
+                zuuluu[yankee] = backup;
+                backup = _closure1_slot14;
+                yankee = 'y';
+                zuuluu[yankee] = backup;
                 backup = _closure1_slot0;
-                romeon = _closure1_slot2;
-                romeon = romeon[kiloes];
-                sizing = backup.bind(entity)(romeon);
+                yankee = _closure1_slot2;
+                yankee = yankee[kiloes];
+                sizing = backup.bind(entity)(yankee);
                 kiloes = sizing.getQuestDockExpandedWidth;
                 backup = verify.left;
-                romeon = verify.right;
-                romeon = kiloes.bind(sizing)(foxtra, backup, romeon);
-                zuuluu['width'] = romeon;
-                zuuluu['height'] = yankee;
+                yankee = verify.right;
+                backup = kiloes.bind(sizing)(foxtra, backup, yankee);
+                yankee = 'width';
+                zuuluu[yankee] = backup;
+                yankee = 'height';
+                zuuluu[yankee] = romeon;
                 zuuluu = option.bind(offset)(zuuluu);
                 option = _closure2_slot2;
                 zuuluu = option.set;
                 michal = _closure1_slot6;
                 michal = michal.EXPANDED;
                 michal = zuuluu.bind(option)(michal);
-                _fun00002_ip = 789; continue _fun00001;
- 473:
+                _fun00002_ip = 897; continue _fun00001;
+ 509:
                 offset = _closure2_slot0;
                 option = offset.set;
                 zuuluu = {};
-                yankee = 0;
-                zuuluu['x'] = yankee;
+                yankee = offset.get;
+                update = yankee.bind(offset)();
+                source = zuuluu;
+                yankee = copyDataProperties(source, update);
+                romeon = 0;
+                yankee = 'x';
+                zuuluu[yankee] = romeon;
                 romeon = _closure1_slot12;
                 yankee = -1;
-                yankee = yankee * romeon;
-                zuuluu['y'] = yankee;
+                romeon = yankee * romeon;
+                yankee = 'y';
+                zuuluu[yankee] = romeon;
                 romeon = _closure1_slot0;
                 backup = _closure1_slot2;
                 yankee = 10;
@@ -276,25 +290,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 backup = kiloes.getQuestDockClosedWidth;
                 romeon = verify.left;
                 yankee = verify.right;
-                yankee = backup.bind(kiloes)(foxtra, romeon, yankee);
-                zuuluu['width'] = yankee;
-                yankee = _closure1_slot7;
-                zuuluu['height'] = yankee;
+                romeon = backup.bind(kiloes)(foxtra, romeon, yankee);
+                yankee = 'width';
+                zuuluu[yankee] = romeon;
+                romeon = _closure1_slot7;
+                yankee = 'height';
+                zuuluu[yankee] = romeon;
                 zuuluu = option.bind(offset)(zuuluu);
                 zuuluu = _closure2_slot2;
                 michal = zuuluu.set;
                 michal = michal.bind(zuuluu)(golfie);
-                _fun00002_ip = 789; continue _fun00001;
- 590:
+                _fun00002_ip = 897; continue _fun00001;
+ 662:
                 option = _closure2_slot0;
                 golfie = option.set;
                 zuuluu = {};
-                offset = 0;
-                zuuluu['x'] = offset;
+                offset = option.get;
+                update = offset.bind(option)();
+                source = zuuluu;
+                offset = copyDataProperties(source, update);
+                yankee = 0;
+                offset = 'x';
+                zuuluu[offset] = yankee;
                 yankee = _closure1_slot13;
                 offset = -1;
-                offset = offset * yankee;
-                zuuluu['y'] = offset;
+                yankee = offset * yankee;
+                offset = 'y';
+                zuuluu[offset] = yankee;
                 yankee = _closure1_slot0;
                 romeon = _closure1_slot2;
                 offset = 10;
@@ -303,18 +325,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 yankee = romeon.getQuestDockCollapsedWidth;
                 offset = verify.left;
                 verify = verify.right;
-                verify = yankee.bind(romeon)(foxtra, offset, verify);
-                zuuluu['width'] = verify;
-                verify = _closure1_slot8;
-                zuuluu['height'] = verify;
+                offset = yankee.bind(romeon)(foxtra, offset, verify);
+                verify = 'width';
+                zuuluu[verify] = offset;
+                offset = _closure1_slot8;
+                verify = 'height';
+                zuuluu[verify] = offset;
                 zuuluu = golfie.bind(option)(zuuluu);
                 golfie = _closure2_slot2;
                 zuuluu = golfie.set;
                 michal = _closure1_slot6;
                 michal = michal.COLLAPSED;
                 michal = zuuluu.bind(golfie)(michal);
-                _fun00002_ip = 789; continue _fun00001;
- 714:
+                _fun00002_ip = 897; continue _fun00001;
+ 822:
                 zuuluu = _closure1_slot0;
                 golfie = _closure1_slot2;
                 michal = 8;
@@ -325,19 +349,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = zuuluu.bind(golfie)(michal);
                 golfie = report == oscard;
                 michal = undefined;
-                if(golfie) { _fun00002_ip = 766; continue _fun00001 }
- 760:
+                if(golfie) { _fun00002_ip = 874; continue _fun00001 }
+ 868:
                 michal = oscard.restingQuestDockMode;
- 766:
-                if(!(report == michal)) { _fun00002_ip = 780; continue _fun00001 }
- 770:
+ 874:
+                if(!(report == michal)) { _fun00002_ip = 888; continue _fun00001 }
+ 878:
                 tangon = _closure1_slot6;
                 michal = tangon.COLLAPSED;
- 780:
+ 888:
                 michal = zuuluu.bind(entity)(michal);
                 michal = undefined;
                 return michal;
- 789:
+ 897:
                 return entity;
             }
         };
@@ -384,7 +408,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         option = option.getQuestDockExpandedWidth;
         golfie['getQuestDockExpandedWidth'] = option;
         michal['__closure'] = golfie;
-        golfie = 9618314280124.0;
+        golfie = 8147170339175.0;
         michal['__workletHash'] = golfie;
         oscard = _closure1_slot16;
         michal['__initData'] = oscard;

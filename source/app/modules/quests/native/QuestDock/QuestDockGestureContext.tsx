@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     romeon = golfie[verify];
     backup = oscard.bind(entity)(romeon);
     foxtra = backup.createFakeSharedValue;
-    romeon = {'width': 0, 'height': 0, 'x': 0, 'y': 0};
+    romeon = {'width': 0, 'height': 0, 'x': 0, 'y': 0, 'prevDeltaY': 0};
     romeon = foxtra.bind(backup)(romeon);
     tangon['questDockWrapperSpecs'] = romeon;
     romeon = golfie[verify];
@@ -135,11 +135,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.right;
             foxtra = sizing.bind(output)(kiloes, backup, foxtra);
             oscard['width'] = foxtra;
-            foxtra = _closure1_slot6;
-            oscard['height'] = foxtra;
-            backup = 0;
-            oscard['x'] = backup;
-            oscard['y'] = foxtra;
+            backup = _closure1_slot6;
+            oscard['height'] = backup;
+            foxtra = 0;
+            oscard['x'] = foxtra;
+            oscard['y'] = backup;
+            oscard['prevDeltaY'] = foxtra;
             verify = option.bind(verify)(oscard);
             var _closure2_slot3 = verify;
             oscard = romeon[golfie];
@@ -152,13 +153,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.questDockSoftDismissedAt;
             report = yankee.bind(romeon)(report);
             yankee = _closure1_slot5;
-            if(report) { _fun00002_ip = 373; continue _fun00001 }
- 365:
+            if(report) { _fun00002_ip = 378; continue _fun00001 }
+ 370:
             report = yankee.COLLAPSED;
-            _fun00002_ip = 379; continue _fun00001;
- 373:
+            _fun00002_ip = 384; continue _fun00001;
+ 378:
             report = yankee.SOFT_DISMISSED;
- 379:
+ 384:
             option = oscard.bind(option)(report);
             var _closure2_slot4 = option;
             oscard = _closure1_slot0;

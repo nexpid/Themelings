@@ -643,13 +643,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     entity = _closure3_slot1;
                     verify = null;
-                    if(!(verify == entity)) { _fun00018_ip = 45; continue _fun00017 }
+                    if(!(verify == entity)) { _fun00018_ip = 41; continue _fun00017 }
  13:
                     tangon = _closure1_slot19;
                     zuuluu = tangon.setState;
                     entity = {'rate': 0, 'isPlaying': false};
                     entity = zuuluu.bind(tangon)(entity);
- 45:
+ 41:
                     oscard = _closure1_slot18;
                     report = oscard.verbose;
                     yankee = _closure3_slot2;
@@ -657,11 +657,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = verify == entity;
                     entity = undefined;
                     offset = undefined;
-                    if(tangon) { _fun00018_ip = 86; continue _fun00017 }
- 77:
+                    if(tangon) { _fun00018_ip = 82; continue _fun00017 }
+ 73:
                     tangon = _closure3_slot1;
                     offset = tangon.id;
- 86:
+ 82:
                     tangon = global;
                     tangon = tangon.HermesInternal;
                     option = tangon.concat;
@@ -683,13 +683,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = _closure3_slot1;
                     verify = verify != tangon;
                     tangon = undefined;
-                    if(!verify) { _fun00018_ip = 192; continue _fun00017 }
- 188:
+                    if(!verify) { _fun00018_ip = 188; continue _fun00017 }
+ 184:
                     tangon = _closure3_slot1;
- 192:
+ 188:
                     tangon = report.bind(entity)(oscard, tangon);
-                    if(tangon) { _fun00018_ip = 256; continue _fun00017 }
- 201:
+                    if(tangon) { _fun00018_ip = 252; continue _fun00017 }
+ 197:
                     oscard = _closure3_slot0;
                     report = oscard.handleMediaPlayerPlaybackSourceChanged;
                     tangon = {};
@@ -704,7 +704,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = report.bind(oscard)(tangon);
                     tangon = undefined;
                     return tangon;
- 256:
+ 252:
                     report = _closure1_slot19;
                     tangon = report.setState;
                     zuuluu = {};
@@ -715,16 +715,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['isPlaying'] = oscard;
                     oscard = false;
                     option = oscard === option;
-                    if(!option) { _fun00018_ip = 305; continue _fun00017 }
- 297:
+                    if(!option) { _fun00018_ip = 301; continue _fun00017 }
+ 293:
                     oscard = _closure3_slot2;
                     option = oscard > verify;
- 305:
+ 301:
                     oscard = !option;
-                    if(option) { _fun00018_ip = 314; continue _fun00017 }
- 311:
+                    if(option) { _fun00018_ip = 310; continue _fun00017 }
+ 307:
                     oscard = golfie;
- 314:
+ 310:
                     zuuluu['wasPipClosedByUser'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
                     zuuluu = _closure3_slot0;

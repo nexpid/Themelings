@@ -47,12 +47,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = tangon.bind(report)(oscard);
             golfie = option.useGuildPowerupsExperimentEnabled;
             oscard = 'useGuildPowerupsBoostCount';
-            golfie = golfie.bind(option)(verify, oscard);
-            var _closure2_slot1 = golfie;
-            option = 4;
-            zuuluu = zuuluu[option];
+            option = golfie.bind(option)(verify, oscard);
+            var _closure2_slot1 = option;
+            oscard = 4;
+            zuuluu = zuuluu[oscard];
             verify = tangon.bind(report)(zuuluu);
-            oscard = verify.useStateFromStores;
+            golfie = verify.useStateFromStores;
             zuuluu = _closure1_slot3;
             tangon = new Array(1);
             tangon[0] = zuuluu;
@@ -73,48 +73,60 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            zuuluu = oscard.bind(verify)(tangon, zuuluu);
+            zuuluu = golfie.bind(verify)(tangon, zuuluu);
             tangon = null;
             tangon = tangon != zuuluu;
-            oscard = 0;
+            golfie = 0;
             if(!tangon) { _fun00002_ip = 112; continue _fun00001 }
  109:
-            oscard = zuuluu;
+            golfie = zuuluu;
  112:
-            var _closure2_slot2 = oscard;
+            var _closure2_slot2 = golfie;
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[option];
-            option = tangon.bind(report)(zuuluu);
-            report = option.useStateFromStores;
+            zuuluu = zuuluu[oscard];
+            oscard = tangon.bind(report)(zuuluu);
+            report = oscard.useStateFromStoresObject;
             zuuluu = _closure1_slot4;
             tangon = new Array(1);
             tangon[0] = zuuluu;
             zuuluu = function() {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                    zuuluu = _closure1_slot4;
-                    michal = zuuluu.getStateForGuild;
-                    entity = _closure2_slot0;
-                    michal = michal.bind(zuuluu)(entity);
-                    entity = null;
-                    zuuluu = entity == michal;
-                    entity = undefined;
-                    if(zuuluu) { _fun00006_ip = 42; continue _fun00005 }
- 36:
-                    entity = michal.appliedBoosts;
- 42:
+                    entity = {};
+                    oscard = _closure1_slot4;
+                    report = oscard.getStateForGuild;
+                    tangon = _closure2_slot0;
+                    report = report.bind(oscard)(tangon);
+                    tangon = null;
+                    oscard = tangon == report;
+                    tangon = undefined;
+                    if(oscard) { _fun00006_ip = 44; continue _fun00005 }
+ 38:
+                    tangon = report.appliedBoosts;
+ 44:
+                    entity['spent'] = tangon;
+                    tangon = _closure1_slot4;
+                    zuuluu = tangon.hasFetchedUnlockedPowerups;
+                    michal = _closure2_slot0;
+                    michal = zuuluu.bind(tangon)(michal);
+                    michal = !michal;
+                    entity['loading'] = michal;
                     return entity;
                 }
             };
-            report = report.bind(option)(tangon, zuuluu);
+            zuuluu = report.bind(oscard)(tangon, zuuluu);
+            report = zuuluu.spent;
             var _closure2_slot3 = report;
+            oscard = zuuluu.loading;
+            var _closure2_slot4 = oscard;
             tangon = _closure1_slot2;
             zuuluu = tangon.useMemo;
-            michal = new Array(3);
-            michal[0] = golfie;
-            michal[1] = oscard;
-            michal[2] = report;
+            michal = new Array(4);
+            michal[0] = option;
+            michal[1] = golfie;
+            michal[2] = oscard;
+            michal[3] = report;
             entity = function() {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -128,12 +140,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['spent'] = michal;
                     michal = _closure2_slot2;
                     entity['total'] = michal;
-                    _fun00008_ip = 134; continue _fun00007;
+                    _fun00008_ip = 145; continue _fun00007;
  39:
+                    michal = _closure2_slot4;
+                    if(michal) { _fun00008_ip = 116; continue _fun00007 }
+ 46:
                     zuuluu = _closure2_slot3;
                     michal = null;
-                    if(!(michal != zuuluu)) { _fun00008_ip = 109; continue _fun00007 }
- 49:
+                    if(!(michal != zuuluu)) { _fun00008_ip = 116; continue _fun00007 }
+ 56:
                     michal = {};
                     zuuluu = global;
                     golfie = zuuluu.Math;
@@ -148,15 +163,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['spent'] = zuuluu;
                     zuuluu = _closure2_slot2;
                     michal['total'] = zuuluu;
-                    _fun00008_ip = 131; continue _fun00007;
- 109:
+                    _fun00008_ip = 142; continue _fun00007;
+ 116:
                     zuuluu = {'available': 0, 'spent': 0};
                     tangon = _closure2_slot2;
                     zuuluu['total'] = tangon;
                     michal = zuuluu;
- 131:
+ 142:
                     entity = michal;
- 134:
+ 145:
                     return entity;
                 }
             };
@@ -169,66 +184,74 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             golfie = argFoo;
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
+            michal = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             entity = 3;
-            entity = michal[entity];
-            michal = undefined;
-            tangon = zuuluu.bind(michal)(entity);
-            zuuluu = tangon.getGuildPowerupsExperimentEnabled;
+            entity = zuuluu[entity];
+            zuuluu = undefined;
+            tangon = michal.bind(zuuluu)(entity);
+            michal = tangon.getGuildPowerupsExperimentEnabled;
             entity = 'getGuildPowerupsBoostCount';
-            entity = zuuluu.bind(tangon)(golfie, entity);
+            entity = michal.bind(tangon)(golfie, entity);
             tangon = _closure1_slot3;
-            zuuluu = tangon.getGuild;
-            zuuluu = zuuluu.bind(tangon)(golfie);
-            tangon = null;
-            option = tangon == zuuluu;
+            michal = tangon.getGuild;
+            tangon = michal.bind(tangon)(golfie);
+            michal = null;
+            option = michal == tangon;
             oscard = undefined;
             if(option) { _fun00010_ip = 75; continue _fun00009 }
  69:
-            oscard = zuuluu.premiumSubscriberCount;
+            oscard = tangon.premiumSubscriberCount;
  75:
-            verify = tangon != oscard;
+            verify = michal != oscard;
             option = 0;
-            zuuluu = 0;
+            tangon = 0;
             if(!verify) { _fun00010_ip = 89; continue _fun00009 }
  86:
-            zuuluu = oscard;
+            tangon = oscard;
  89:
-            oscard = _closure1_slot4;
-            report = oscard.getStateForGuild;
-            report = report.bind(oscard)(golfie);
-            oscard = tangon == report;
-            michal = undefined;
-            if(oscard) { _fun00010_ip = 119; continue _fun00009 }
+            verify = _closure1_slot4;
+            oscard = verify.getStateForGuild;
+            oscard = oscard.bind(verify)(golfie);
+            verify = michal == oscard;
+            zuuluu = undefined;
+            if(verify) { _fun00010_ip = 119; continue _fun00009 }
  113:
-            michal = report.appliedBoosts;
+            zuuluu = oscard.appliedBoosts;
  119:
-            report = tangon != michal;
-            tangon = 0;
-            if(!report) { _fun00010_ip = 131; continue _fun00009 }
- 128:
-            tangon = michal;
- 131:
+            oscard = _closure1_slot4;
+            report = oscard.hasFetchedUnlockedPowerups;
+            report = report.bind(oscard)(golfie);
+            report = !report;
+            if(entity) { _fun00010_ip = 159; continue _fun00009 }
+ 140:
+            entity = {};
+            entity['available'] = tangon;
+            entity['spend'] = option;
+            entity['total'] = tangon;
+            _fun00010_ip = 233; continue _fun00009;
+ 159:
+            if(report) { _fun00010_ip = 208; continue _fun00009 }
+ 162:
+            if(!(michal != zuuluu)) { _fun00010_ip = 208; continue _fun00009 }
+ 166:
             michal = {};
-            if(entity) { _fun00010_ip = 158; continue _fun00009 }
- 136:
-            michal['available'] = zuuluu;
-            michal['spend'] = option;
-            michal['total'] = zuuluu;
-            entity = michal;
-            _fun00010_ip = 199; continue _fun00009;
- 158:
             report = global;
             golfie = report.Math;
             oscard = golfie.max;
-            report = zuuluu - tangon;
+            report = tangon - zuuluu;
             report = oscard.bind(golfie)(option, report);
             michal['available'] = report;
-            michal['spent'] = tangon;
-            michal['total'] = zuuluu;
+            michal['spent'] = zuuluu;
+            michal['total'] = tangon;
+            _fun00010_ip = 230; continue _fun00009;
+ 208:
+            zuuluu = {'available': 0, 'spend': 0};
+            zuuluu['total'] = tangon;
+            michal = zuuluu;
+ 230:
             entity = michal;
- 199:
+ 233:
             return entity;
         }
     };
