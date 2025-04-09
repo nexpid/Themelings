@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  116:
             foxtra = michal.product_name;
  122:
-            if(!(entity != foxtra)) { _fun00004_ip = 512; continue _fun00003 }
+            if(!(entity != foxtra)) { _fun00004_ip = 511; continue _fun00003 }
  129:
             michal = report.message;
             golfie = michal.author;
@@ -293,7 +293,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = michal;
             zuuluu = copyDataProperties(echoed, result);
             return michal;
- 512:
+ 511:
             return entity;
         }
     };

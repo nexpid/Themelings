@@ -424,12 +424,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00012_ip = 171; continue _fun00011 }
+                            if(michal) { _fun00012_ip = 183; continue _fun00011 }
  10:
                             oscard = _closure1_slot1;
-                            option = _closure1_slot2;
-                            golfie = 19;
-                            michal = option[golfie];
+                            golfie = _closure1_slot2;
+                            option = 19;
+                            michal = golfie[option];
                             zuuluu = undefined;
                             offset = oscard.bind(zuuluu)(michal);
                             verify = offset.init;
@@ -437,40 +437,43 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             michal = verify.bind(offset)(michal);
                             verify = _closure1_slot0;
                             michal = 9;
-                            michal = option[michal];
+                            michal = golfie[michal];
                             offset = verify.bind(zuuluu)(michal);
                             verify = offset.hideActionSheet;
                             michal = _closure2_slot0;
                             michal = michal.id;
                             michal = verify.bind(offset)(michal);
                             michal = 20;
-                            michal = option[michal];
-                            option = oscard.bind(zuuluu)(michal);
-                            oscard = option.openImagePicker;
-                            michal = _closure1_slot10;
-                            michal = oscard.bind(option)(michal);
-                            SaveGenerator(address=120);
- 118:
+                            michal = golfie[michal];
+                            golfie = oscard.bind(zuuluu)(michal);
+                            oscard = golfie.openImagePicker;
+                            michal = {};
+                            verify = _closure1_slot10;
+                            michal['size'] = verify;
+                            michal = oscard.bind(golfie)(michal);
+                            SaveGenerator(address=126);
+ 124:
                             return michal;
- 120:
-                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                            if(oscard) { _fun00012_ip = 168; continue _fun00011 }
  126:
-                            oscard = null;
-                            if(!(oscard != michal)) { _fun00012_ip = 165; continue _fun00011 }
+                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
+                            if(oscard) { _fun00012_ip = 180; continue _fun00011 }
  132:
+                            golfie = michal.base64;
+                            oscard = null;
+                            if(!(oscard != golfie)) { _fun00012_ip = 177; continue _fun00011 }
+ 144:
                             oscard = _closure1_slot1;
                             report = _closure1_slot2;
-                            report = report[golfie];
+                            report = report[option];
                             oscard = oscard.bind(zuuluu)(report);
                             report = oscard.updateIcon;
                             tangon = _closure2_slot5;
-                            tangon = report.bind(oscard)(tangon, michal);
- 165:
+                            tangon = report.bind(oscard)(tangon, golfie);
+ 177:
                             return zuuluu;
- 168:
+ 180:
                             return michal;
- 171:
+ 183:
                             return entity;
                         }
                     };

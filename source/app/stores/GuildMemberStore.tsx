@@ -401,7 +401,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = argBar;
             entity = tangon.length;
             romeon = 0;
-            if(!(romeon !== entity)) { _fun00016_ip = 598; continue _fun00015 }
+            if(!(romeon !== entity)) { _fun00016_ip = 604; continue _fun00015 }
  20:
             zuuluu = _closure1_slot28;
             michal = undefined;
@@ -517,7 +517,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = tangon != option;
             verify = undefined;
             report = undefined;
-            if(!offset) { _fun00016_ip = 508; continue _fun00015 }
+            if(!offset) { _fun00016_ip = 514; continue _fun00015 }
  338:
             offset = option.colorString;
             offset = tangon == offset;
@@ -552,60 +552,61 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             romeon = option.colors;
             yankee = tangon != romeon;
  445:
-            if(!yankee) { _fun00016_ip = 484; continue _fun00015 }
+            if(!yankee) { _fun00016_ip = 490; continue _fun00015 }
  448:
-            yankee = _closure1_slot1;
+            yankee = _closure1_slot0;
             romeon = _closure1_slot2;
             entity = 14;
             entity = romeon[entity];
-            yankee = yankee.bind(michal)(entity);
+            romeon = yankee.bind(michal)(entity);
+            yankee = romeon.extractColorStringsFromServerColors;
             entity = option.colors;
-            entity = yankee.bind(michal)(entity);
+            entity = yankee.bind(romeon)(entity);
             option['colorStrings'] = entity;
- 484:
+ 490:
             yankee = option.colorStrings;
             romeon = tangon != yankee;
             entity = undefined;
-            if(!romeon) { _fun00016_ip = 502; continue _fun00015 }
- 499:
+            if(!romeon) { _fun00016_ip = 508; continue _fun00015 }
+ 505:
             entity = yankee;
- 502:
+ 508:
             report = entity;
             verify = offset;
- 508:
+ 514:
             entity = {};
             entity['colorString'] = verify;
             entity['colorStrings'] = report;
             verify = tangon == option;
             report = undefined;
-            if(verify) { _fun00016_ip = 534; continue _fun00015 }
- 529:
+            if(verify) { _fun00016_ip = 540; continue _fun00015 }
+ 535:
             report = option.id;
- 534:
+ 540:
             entity['colorRoleId'] = report;
             option = tangon == golfie;
             report = undefined;
-            if(option) { _fun00016_ip = 553; continue _fun00015 }
- 548:
+            if(option) { _fun00016_ip = 559; continue _fun00015 }
+ 554:
             report = golfie.id;
- 553:
+ 559:
             entity['iconRoleId'] = report;
             golfie = tangon == oscard;
             report = undefined;
-            if(golfie) { _fun00016_ip = 572; continue _fun00015 }
- 567:
+            if(golfie) { _fun00016_ip = 578; continue _fun00015 }
+ 573:
             report = oscard.id;
- 572:
+ 578:
             entity['hoistRoleId'] = report;
             tangon = tangon == zuuluu;
             michal = undefined;
-            if(tangon) { _fun00016_ip = 591; continue _fun00015 }
- 586:
+            if(tangon) { _fun00016_ip = 597; continue _fun00015 }
+ 592:
             michal = zuuluu.id;
- 591:
+ 597:
             entity['highestRoleId'] = michal;
             return entity;
- 598:
+ 604:
             entity = {};
             michal = undefined;
             entity['colorString'] = michal;

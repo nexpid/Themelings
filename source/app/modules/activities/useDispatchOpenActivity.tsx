@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            oscard = entity.userActivity;
+            oscard = entity.connectedEmbeddedActivity;
             var _closure2_slot0 = oscard;
             entity = undefined;
             var _closure2_slot1 = entity;

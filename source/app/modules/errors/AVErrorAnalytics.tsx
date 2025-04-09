@@ -335,9 +335,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo, argBar) { // Original name: sendAVErrorAnalyticsEvent
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-            oscard = argFoo;
-            verify = argBar;
-            var _closure2_slot0 = oscard;
+            golfie = argFoo;
+            oscard = argBar;
+            var _closure2_slot0 = golfie;
             report = _closure1_slot0;
             tangon = _closure1_slot2;
             entity = 12;
@@ -345,202 +345,191 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = undefined;
             report = report.bind(entity)(tangon);
             tangon = report.getErrorInfo;
-            report = tangon.bind(report)(oscard);
+            report = tangon.bind(report)(golfie);
             var _closure2_slot2 = report;
-            oscard = _closure1_slot10;
-            tangon = oscard.getVoiceChannelId;
-            tangon = tangon.bind(oscard)();
-            oscard = 'channelId';
-            golfie = oscard in verify;
-            oscard = undefined;
+            golfie = _closure1_slot10;
+            tangon = golfie.getVoiceChannelId;
+            tangon = tangon.bind(golfie)();
+            golfie = 'channelId';
+            golfie = golfie in oscard;
+            option = undefined;
             if(!golfie) { _fun00014_ip = 84; continue _fun00013 }
  79:
-            oscard = verify.channelId;
+            option = oscard.channelId;
  84:
             golfie = null;
-            if(!(golfie != oscard)) { _fun00014_ip = 93; continue _fun00013 }
+            if(!(golfie != option)) { _fun00014_ip = 93; continue _fun00013 }
  90:
-            tangon = oscard;
+            tangon = option;
  93:
-            oscard = golfie != tangon;
-            option = null;
-            if(!oscard) { _fun00014_ip = 105; continue _fun00013 }
+            option = golfie != tangon;
+            verify = null;
+            if(!option) { _fun00014_ip = 105; continue _fun00013 }
  102:
-            option = tangon;
+            verify = tangon;
  105:
-            var _closure2_slot3 = option;
-            oscard = _closure1_slot6;
-            tangon = oscard.getChannel;
-            tangon = tangon.bind(oscard)(option);
+            var _closure2_slot3 = verify;
+            option = _closure1_slot6;
+            tangon = option.getChannel;
+            tangon = tangon.bind(option)(verify);
             var _closure2_slot4 = tangon;
-            offset = 'streamKey';
-            oscard = offset in verify;
+            tangon = 'streamKey';
+            option = tangon in oscard;
             tangon = undefined;
-            if(!oscard) { _fun00014_ip = 146; continue _fun00013 }
+            if(!option) { _fun00014_ip = 146; continue _fun00013 }
  140:
-            tangon = verify.streamKey;
+            tangon = oscard.streamKey;
  146:
-            oscard = 'mediaContext';
-            oscard = oscard in verify;
+            option = 'mediaContext';
+            verify = option in oscard;
             option = undefined;
-            if(!oscard) { _fun00014_ip = 165; continue _fun00013 }
+            if(!verify) { _fun00014_ip = 165; continue _fun00013 }
  159:
-            option = verify.mediaContext;
+            option = oscard.mediaContext;
  165:
             var _closure2_slot5 = option;
-            oscard = 'underlyingError';
-            yankee = oscard in verify;
-            oscard = undefined;
-            if(!yankee) { _fun00014_ip = 188; continue _fun00013 }
+            verify = 'underlyingError';
+            offset = verify in oscard;
+            verify = undefined;
+            if(!offset) { _fun00014_ip = 188; continue _fun00013 }
  182:
-            oscard = verify.underlyingError;
+            verify = oscard.underlyingError;
  188:
-            var _closure2_slot6 = oscard;
-            oscard = 'errorMessage';
-            yankee = oscard in verify;
-            oscard = undefined;
-            if(!yankee) { _fun00014_ip = 211; continue _fun00013 }
+            var _closure2_slot6 = verify;
+            verify = 'errorMessage';
+            offset = verify in oscard;
+            verify = undefined;
+            if(!offset) { _fun00014_ip = 211; continue _fun00013 }
  205:
-            oscard = verify.errorMessage;
+            verify = oscard.errorMessage;
  211:
-            var _closure2_slot7 = oscard;
-            oscard = 'mediaSessionId';
-            yankee = oscard in verify;
-            oscard = undefined;
-            if(!yankee) { _fun00014_ip = 234; continue _fun00013 }
+            var _closure2_slot7 = verify;
+            verify = 'mediaSessionId';
+            offset = verify in oscard;
+            verify = undefined;
+            if(!offset) { _fun00014_ip = 234; continue _fun00013 }
  228:
-            oscard = verify.mediaSessionId;
+            verify = oscard.mediaSessionId;
  234:
-            var _closure2_slot8 = oscard;
-            oscard = 'rtcConnectionId';
-            yankee = oscard in verify;
-            oscard = undefined;
-            if(!yankee) { _fun00014_ip = 257; continue _fun00013 }
+            var _closure2_slot8 = verify;
+            verify = 'rtcConnectionId';
+            offset = verify in oscard;
+            verify = undefined;
+            if(!offset) { _fun00014_ip = 257; continue _fun00013 }
  251:
-            oscard = verify.rtcConnectionId;
+            verify = oscard.rtcConnectionId;
  257:
-            var _closure2_slot9 = oscard;
-            oscard = 'videoCodec';
-            yankee = oscard in verify;
-            oscard = undefined;
-            if(!yankee) { _fun00014_ip = 280; continue _fun00013 }
+            var _closure2_slot9 = verify;
+            verify = 'videoCodec';
+            offset = verify in oscard;
+            verify = undefined;
+            if(!offset) { _fun00014_ip = 280; continue _fun00013 }
  274:
-            oscard = verify.videoCodec;
+            verify = oscard.videoCodec;
  280:
-            var _closure2_slot10 = oscard;
-            oscard = 'videoEncoder';
-            yankee = oscard in verify;
-            oscard = undefined;
-            if(!yankee) { _fun00014_ip = 303; continue _fun00013 }
+            var _closure2_slot10 = verify;
+            verify = 'videoEncoder';
+            offset = verify in oscard;
+            verify = undefined;
+            if(!offset) { _fun00014_ip = 303; continue _fun00013 }
  297:
-            oscard = verify.videoEncoder;
+            verify = oscard.videoEncoder;
  303:
-            var _closure2_slot11 = oscard;
-            oscard = 'videoDecoder';
-            yankee = oscard in verify;
-            oscard = undefined;
-            if(!yankee) { _fun00014_ip = 330; continue _fun00013 }
+            var _closure2_slot11 = verify;
+            verify = 'videoDecoder';
+            offset = verify in oscard;
+            verify = undefined;
+            if(!offset) { _fun00014_ip = 330; continue _fun00013 }
  322:
-            oscard = verify.videoDecoder;
+            verify = oscard.videoDecoder;
  330:
-            var _closure2_slot12 = oscard;
-            oscard = 'audioCaptureSampleRateMismatchPercent';
-            yankee = oscard in verify;
-            oscard = undefined;
-            if(!yankee) { _fun00014_ip = 353; continue _fun00013 }
+            var _closure2_slot12 = verify;
+            verify = 'audioCaptureSampleRateMismatchPercent';
+            offset = verify in oscard;
+            verify = undefined;
+            if(!offset) { _fun00014_ip = 353; continue _fun00013 }
  347:
-            oscard = verify.audioCaptureSampleRateMismatchPercent;
+            verify = oscard.audioCaptureSampleRateMismatchPercent;
  353:
-            var _closure2_slot13 = oscard;
-            oscard = 'audioInputDeviceName';
-            yankee = oscard in verify;
-            oscard = undefined;
-            if(!yankee) { _fun00014_ip = 376; continue _fun00013 }
+            var _closure2_slot13 = verify;
+            verify = 'audioInputDeviceName';
+            offset = verify in oscard;
+            verify = undefined;
+            if(!offset) { _fun00014_ip = 376; continue _fun00013 }
  370:
-            oscard = verify.audioInputDeviceName;
+            verify = oscard.audioInputDeviceName;
  376:
-            var _closure2_slot14 = oscard;
-            oscard = 'audioOutputDeviceName';
-            yankee = oscard in verify;
-            oscard = undefined;
-            if(!yankee) { _fun00014_ip = 399; continue _fun00013 }
+            var _closure2_slot14 = verify;
+            verify = 'audioOutputDeviceName';
+            offset = verify in oscard;
+            verify = undefined;
+            if(!offset) { _fun00014_ip = 399; continue _fun00013 }
  393:
-            oscard = verify.audioOutputDeviceName;
+            verify = oscard.audioOutputDeviceName;
  399:
-            var _closure2_slot15 = oscard;
-            oscard = 'videoDeviceName';
-            yankee = oscard in verify;
-            oscard = undefined;
-            if(!yankee) { _fun00014_ip = 422; continue _fun00013 }
+            var _closure2_slot15 = verify;
+            verify = 'videoDeviceName';
+            offset = verify in oscard;
+            verify = undefined;
+            if(!offset) { _fun00014_ip = 422; continue _fun00013 }
  416:
-            oscard = verify.videoDeviceName;
+            verify = oscard.videoDeviceName;
  422:
-            var _closure2_slot16 = oscard;
-            oscard = 'userId';
-            oscard = oscard in verify;
+            var _closure2_slot16 = verify;
+            verify = 'userId';
+            verify = verify in oscard;
             yankee = undefined;
-            if(!oscard) { _fun00014_ip = 444; continue _fun00013 }
+            if(!verify) { _fun00014_ip = 444; continue _fun00013 }
  439:
-            yankee = verify.userId;
+            yankee = oscard.userId;
  444:
-            romeon = golfie != tangon;
+            verify = golfie != tangon;
             oscard = null;
-            if(!romeon) { _fun00014_ip = 484; continue _fun00013 }
+            if(!verify) { _fun00014_ip = 484; continue _fun00013 }
  453:
-            foxtra = _closure1_slot0;
-            backup = _closure1_slot2;
-            romeon = 13;
-            romeon = backup[romeon];
-            foxtra = foxtra.bind(entity)(romeon);
-            romeon = foxtra.decodeStreamKey;
-            oscard = romeon.bind(foxtra)(tangon);
+            offset = _closure1_slot0;
+            romeon = _closure1_slot2;
+            verify = 13;
+            verify = romeon[verify];
+            offset = offset.bind(entity)(verify);
+            verify = offset.decodeStreamKey;
+            oscard = verify.bind(offset)(tangon);
  484:
             var _closure2_slot17 = oscard;
-            offset = offset in verify;
-            romeon = null;
-            if(!offset) { _fun00014_ip = 545; continue _fun00013 }
+            verify = golfie != tangon;
+            foxtra = null;
+            if(!verify) { _fun00014_ip = 512; continue _fun00013 }
  497:
-            offset = verify.streamKey;
-            offset = golfie != offset;
-            romeon = null;
-            if(!offset) { _fun00014_ip = 545; continue _fun00013 }
+            offset = _closure1_slot11;
+            verify = offset.getRTCConnection;
+            foxtra = verify.bind(offset)(tangon);
  512:
-            foxtra = _closure1_slot11;
-            offset = foxtra.getRTCConnection;
-            verify = verify.streamKey;
-            verify = offset.bind(foxtra)(verify);
-            offset = golfie != verify;
-            romeon = null;
-            if(!offset) { _fun00014_ip = 545; continue _fun00013 }
- 542:
-            romeon = verify;
- 545:
-            var _closure2_slot18 = romeon;
-            verify = romeon;
-            if(!(golfie == tangon)) { _fun00014_ip = 570; continue _fun00013 }
- 556:
-            foxtra = _closure1_slot8;
-            offset = foxtra.getRTCConnection;
-            verify = offset.bind(foxtra)();
- 570:
+            var _closure2_slot18 = foxtra;
+            verify = foxtra;
+            if(!(golfie == tangon)) { _fun00014_ip = 537; continue _fun00013 }
+ 523:
+            romeon = _closure1_slot8;
+            offset = romeon.getRTCConnection;
+            verify = offset.bind(romeon)();
+ 537:
             var _closure2_slot19 = verify;
             offset = golfie != tangon;
-            foxtra = null;
-            if(!offset) { _fun00014_ip = 616; continue _fun00013 }
- 583:
-            backup = golfie == romeon;
+            backup = null;
+            if(!offset) { _fun00014_ip = 583; continue _fun00013 }
+ 550:
+            romeon = golfie == foxtra;
             offset = undefined;
-            if(backup) { _fun00014_ip = 613; continue _fun00013 }
- 592:
-            romeon = romeon.analyticsContext;
-            backup = golfie == romeon;
+            if(romeon) { _fun00014_ip = 580; continue _fun00013 }
+ 559:
+            romeon = foxtra.analyticsContext;
+            kiloes = golfie == romeon;
             offset = undefined;
-            if(backup) { _fun00014_ip = 613; continue _fun00013 }
- 607:
+            if(kiloes) { _fun00014_ip = 580; continue _fun00013 }
+ 574:
             offset = romeon.streamApplication;
- 613:
-            foxtra = offset;
- 616:
+ 580:
+            backup = offset;
+ 583:
             romeon = _closure1_slot5;
             offset = romeon.getState;
             offset = offset.bind(romeon)();
@@ -549,12 +538,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = offset.fps;
             var _closure2_slot21 = offset;
             romeon = _closure1_slot0;
-            backup = _closure1_slot2;
+            kiloes = _closure1_slot2;
             offset = 14;
-            offset = backup[offset];
+            offset = kiloes[offset];
             romeon = romeon.bind(entity)(offset);
             offset = romeon.getRunningGameAnalytics;
-            offset = offset.bind(romeon)(foxtra);
+            offset = offset.bind(romeon)(backup);
             romeon = offset.gameName;
             var _closure2_slot22 = romeon;
             romeon = offset.gameId;
@@ -565,71 +554,71 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot25 = offset;
             report = report.isErrorOutbound;
             var _closure2_slot26 = report;
-            if(!(golfie == option)) { _fun00014_ip = 745; continue _fun00013 }
- 735:
+            if(!(golfie == option)) { _fun00014_ip = 712; continue _fun00013 }
+ 702:
             offset = _closure1_slot14;
             option = offset.DEFAULT;
- 745:
+ 712:
             var _closure2_slot27 = option;
-            if(!(golfie != oscard)) { _fun00014_ip = 759; continue _fun00013 }
- 753:
+            if(!(golfie != oscard)) { _fun00014_ip = 726; continue _fun00013 }
+ 720:
             yankee = oscard.ownerId;
- 759:
+ 726:
             var _closure2_slot28 = yankee;
-            if(!(golfie == oscard)) { _fun00014_ip = 780; continue _fun00013 }
- 767:
+            if(!(golfie == foxtra)) { _fun00014_ip = 747; continue _fun00013 }
+ 734:
             option = 'receiver';
-            if(!report) { _fun00014_ip = 778; continue _fun00013 }
- 774:
+            if(!report) { _fun00014_ip = 745; continue _fun00013 }
+ 741:
             option = 'sender';
- 778:
-            _fun00014_ip = 802; continue _fun00013;
- 780:
-            romeon = golfie == verify;
+ 745:
+            _fun00014_ip = 769; continue _fun00013;
+ 747:
+            romeon = golfie == foxtra;
             offset = undefined;
-            if(romeon) { _fun00014_ip = 799; continue _fun00013 }
- 789:
-            romeon = verify.getVoiceParticipantType;
-            offset = romeon.bind(verify)();
- 799:
+            if(romeon) { _fun00014_ip = 766; continue _fun00013 }
+ 756:
+            romeon = foxtra.getVoiceParticipantType;
+            offset = romeon.bind(foxtra)();
+ 766:
             option = offset;
- 802:
+ 769:
             var _closure2_slot29 = option;
             option = golfie == verify;
             offset = undefined;
-            if(option) { _fun00014_ip = 825; continue _fun00013 }
- 815:
+            if(option) { _fun00014_ip = 792; continue _fun00013 }
+ 782:
             option = verify.getMediaEngineConnectionId;
             offset = option.bind(verify)();
- 825:
+ 792:
             romeon = golfie != offset;
             option = null;
-            if(!romeon) { _fun00014_ip = 837; continue _fun00013 }
- 834:
+            if(!romeon) { _fun00014_ip = 804; continue _fun00013 }
+ 801:
             option = offset;
- 837:
+ 804:
             var _closure2_slot30 = option;
-            if(!(golfie != tangon)) { _fun00014_ip = 849; continue _fun00013 }
- 845:
-            if(!(golfie == oscard)) { _fun00014_ip = 969; continue _fun00013 }
- 849:
-            if(report) { _fun00014_ip = 886; continue _fun00013 }
- 852:
+            if(!(golfie != tangon)) { _fun00014_ip = 816; continue _fun00013 }
+ 812:
+            if(!(golfie == oscard)) { _fun00014_ip = 936; continue _fun00013 }
+ 816:
+            if(report) { _fun00014_ip = 853; continue _fun00013 }
+ 819:
             option = golfie != yankee;
             tangon = null;
-            if(!option) { _fun00014_ip = 884; continue _fun00013 }
- 861:
+            if(!option) { _fun00014_ip = 851; continue _fun00013 }
+ 828:
             offset = golfie == verify;
             option = undefined;
-            if(offset) { _fun00014_ip = 881; continue _fun00013 }
- 870:
+            if(offset) { _fun00014_ip = 848; continue _fun00013 }
+ 837:
             offset = verify.getInboundStats;
             option = offset.bind(verify)(yankee);
- 881:
+ 848:
             tangon = option;
- 884:
-            _fun00014_ip = 967; continue _fun00013;
- 886:
+ 851:
+            _fun00014_ip = 934; continue _fun00013;
+ 853:
             offset = _closure1_slot1;
             yankee = _closure1_slot2;
             option = 15;
@@ -638,15 +627,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = romeon.maxBy;
             option = golfie == verify;
             offset = undefined;
-            if(option) { _fun00014_ip = 931; continue _fun00013 }
- 921:
+            if(option) { _fun00014_ip = 898; continue _fun00013 }
+ 888:
             option = verify.getOutboundStats;
             offset = option.bind(verify)();
- 931:
-            if(!(golfie == offset)) { _fun00014_ip = 939; continue _fun00013 }
- 935:
+ 898:
+            if(!(golfie == offset)) { _fun00014_ip = 906; continue _fun00013 }
+ 902:
             offset = new Array(0);
- 939:
+ 906:
             option = function(argFoo) {
                 entity = argFoo;
                 entity = entity.num_frames;
@@ -655,35 +644,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = yankee.bind(romeon)(offset, option);
             yankee = golfie != offset;
             option = null;
-            if(!yankee) { _fun00014_ip = 964; continue _fun00013 }
- 961:
+            if(!yankee) { _fun00014_ip = 931; continue _fun00013 }
+ 928:
             option = offset;
- 964:
+ 931:
             tangon = option;
- 967:
-            _fun00014_ip = 1047; continue _fun00013;
- 969:
+ 934:
+            _fun00014_ip = 1014; continue _fun00013;
+ 936:
             option = golfie == verify;
-            if(report) { _fun00014_ip = 1000; continue _fun00013 }
- 976:
+            if(report) { _fun00014_ip = 967; continue _fun00013 }
+ 943:
             report = undefined;
-            if(option) { _fun00014_ip = 998; continue _fun00013 }
- 981:
+            if(option) { _fun00014_ip = 965; continue _fun00013 }
+ 948:
             offset = verify.getInboundStats;
             oscard = oscard.ownerId;
             report = offset.bind(verify)(oscard);
- 998:
-            _fun00014_ip = 1044; continue _fun00013;
- 1000:
+ 965:
+            _fun00014_ip = 1011; continue _fun00013;
+ 967:
             oscard = undefined;
-            if(option) { _fun00014_ip = 1041; continue _fun00013 }
- 1005:
+            if(option) { _fun00014_ip = 1008; continue _fun00013 }
+ 972:
             option = verify.getOutboundStats;
             verify = option.bind(verify)();
             golfie = golfie == verify;
             oscard = undefined;
-            if(golfie) { _fun00014_ip = 1041; continue _fun00013 }
- 1024:
+            if(golfie) { _fun00014_ip = 1008; continue _fun00013 }
+ 991:
             option = verify.find;
             golfie = function(argFoo) {
                 entity = argFoo;
@@ -693,11 +682,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             oscard = option.bind(verify)(golfie);
- 1041:
+ 1008:
             report = oscard;
- 1044:
+ 1011:
             tangon = report;
- 1047:
+ 1014:
             var _closure2_slot1 = tangon;
             zuuluu = _closure1_slot12;
             tangon = zuuluu.bind(entity)();

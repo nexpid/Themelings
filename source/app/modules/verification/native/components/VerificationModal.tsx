@@ -272,9 +272,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             entity = 14;
                             michal = michal[entity];
                             entity = undefined;
-                            michal = zuuluu.bind(entity)(michal);
-                            entity = michal.logout;
-                            entity = entity.bind(michal)();
+                            zuuluu = zuuluu.bind(entity)(michal);
+                            michal = zuuluu.logout;
+                            entity = 'verification_modal';
+                            entity = michal.bind(zuuluu)(entity);
                             return entity;
                         };
                         oscard['onPress'] = report;

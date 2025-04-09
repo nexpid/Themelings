@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = verify.headerContainer;
             entity['style'] = golfie;
             golfie = null;
-            if(!report) { _fun00002_ip = 320; continue _fun00001 }
+            if(!report) { _fun00002_ip = 324; continue _fun00001 }
  220:
             offset = _closure1_slot7;
             option = _closure1_slot6;
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee[1] = romeon;
             report['children'] = yankee;
             golfie = offset.bind(tangon)(option, report);
- 320:
+ 324:
             report = new Array(2);
             report[0] = golfie;
             option = _closure1_slot5;

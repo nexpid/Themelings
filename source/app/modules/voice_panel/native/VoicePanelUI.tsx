@@ -11,7 +11,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    var _closure1_slot60 = entity;
+    var _closure1_slot63 = entity;
     entity = function(argFoo) { // Original name: AnimatedWrapper
         entity = argFoo;
         michal = entity.wrapperOffset;
@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = function(argFoo) { // Original name: useWrapperStyles
             kiloes = argFoo;
             var _closure3_slot0 = kiloes;
-            zuuluu = _closure1_slot28;
+            zuuluu = _closure1_slot31;
             offset = undefined;
             report = zuuluu.bind(offset)();
             var _closure3_slot1 = report;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = yankee[option];
             oscard = verify.bind(offset)(zuuluu);
             tangon = oscard.useDerivedValue;
-            zuuluu = function() { // Original name: n
+            zuuluu = function() { // Original name: o
                 michal = _closure3_slot4;
                 entity = michal.get;
                 entity = entity.bind(michal)();
@@ -64,9 +64,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = {};
             golfie['controlsSpecs'] = update;
             zuuluu['__closure'] = golfie;
-            golfie = 498323530850.0;
+            golfie = 6243014585347.0;
             zuuluu['__workletHash'] = golfie;
-            golfie = _closure1_slot52;
+            golfie = _closure1_slot55;
             zuuluu['__initData'] = golfie;
             update = tangon.bind(oscard)(zuuluu);
             var _closure3_slot11 = update;
@@ -128,9 +128,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['controlsHeight'] = update;
             zuuluu['preJoinContentSize'] = result;
             tangon['__closure'] = zuuluu;
-            zuuluu = 2197561805094.0;
+            zuuluu = 5273555735813.0;
             tangon['__workletHash'] = zuuluu;
-            zuuluu = _closure1_slot53;
+            zuuluu = _closure1_slot56;
             tangon['__initData'] = zuuluu;
             zuuluu = function(argFoo, argBar) { // Original name: s
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -366,9 +366,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['roundToNearestPixel'] = update;
             result['windowDimensions'] = echoed;
             zuuluu['__closure'] = result;
-            result = 9108904650303.0;
+            result = 4141680172446.0;
             zuuluu['__workletHash'] = result;
-            result = _closure1_slot54;
+            result = _closure1_slot57;
             zuuluu['__initData'] = result;
             zuuluu = oscard.bind(golfie)(tangon, zuuluu);
             zuuluu = yankee[option];
@@ -436,7 +436,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sizing = tangon + entity;
  205:
                     entity = function() {
-                        entity = function(argFoo) { // Original name: VoicePanelUITsx28
+                        entity = function(argFoo) { // Original name: VoicePanelUITsx29
                             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                                 entity = argFoo;
@@ -490,15 +490,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = tangon.updateSourceTrackingView;
                         zuuluu['updateSourceTrackingView'] = tangon;
                         entity['__closure'] = zuuluu;
-                        zuuluu = 13624002649125.0;
+                        zuuluu = 10394717541764.0;
                         entity['__workletHash'] = zuuluu;
-                        michal = _closure1_slot56;
+                        michal = _closure1_slot59;
                         entity['__initData'] = michal;
                         return entity;
                     };
                     oscard = undefined;
                     foxtra = entity.bind(oscard)();
-                    tangon = _closure1_slot51;
+                    tangon = _closure1_slot54;
                     entity = {};
                     golfie = _closure3_slot6;
                     report = golfie.get;
@@ -523,7 +523,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = tangon.gestureActive;
                     if(tangon) { _fun00004_ip = 326; continue _fun00003 }
  320:
-                    verify = _closure1_slot25;
+                    verify = _closure1_slot28;
                     _fun00004_ip = 330; continue _fun00003;
  326:
                     verify = _closure1_slot16;
@@ -555,7 +555,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = verify.gestureActive;
                     if(verify) { _fun00004_ip = 432; continue _fun00003 }
  426:
-                    verify = _closure1_slot25;
+                    verify = _closure1_slot28;
                     _fun00004_ip = 436; continue _fun00003;
  432:
                     verify = _closure1_slot16;
@@ -632,7 +632,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = romeon.bind(offset)(option);
             option = option.updateSourceTrackingView;
             golfie['updateSourceTrackingView'] = option;
-            option = _closure1_slot51;
+            option = _closure1_slot54;
             golfie['computeBorderRadii'] = option;
             option = 12;
             option = yankee[option];
@@ -641,15 +641,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['withSpring'] = option;
             option = _closure1_slot16;
             golfie['DRAWER_SPRING_PHYSICS_GESTURE_ACTIVE'] = option;
-            option = _closure1_slot25;
+            option = _closure1_slot28;
             golfie['DRAWER_SIZE_PHYSICS'] = option;
             option = _closure1_slot9;
             golfie['BORDER_RADIUS_PHYSICS'] = option;
             golfie['styles'] = report;
             zuuluu['__closure'] = golfie;
-            golfie = 14514627555985.0;
+            golfie = 5539911019838.0;
             zuuluu['__workletHash'] = golfie;
-            golfie = _closure1_slot55;
+            golfie = _closure1_slot58;
             zuuluu['__initData'] = golfie;
             oscard = tangon.bind(oscard)(zuuluu);
             var _closure3_slot13 = oscard;
@@ -687,7 +687,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot61 = entity;
+    var _closure1_slot64 = entity;
     entity = global;
     option = entity.Object;
     report = option.defineProperty;
@@ -711,7 +711,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = oscard.bind(entity)(michal);
     output = michal.StyleSheet;
     var _closure1_slot5 = output;
-    sizing = michal.Pressable;
+    update = michal.Pressable;
     offset = michal.ScrollView;
     michal = 3;
     michal = golfie[michal];
@@ -734,7 +734,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot10 = result;
     report = michal.DEFAULT_BORDER_RADIUS_PIP;
     var _closure1_slot11 = report;
-    ctrled = michal.DRAWER_SPRING_PHYSICS;
+    yankee = michal.DRAWER_SPRING_PHYSICS;
     report = michal.IS_IOS;
     var _closure1_slot12 = report;
     foxtra = michal.MODE_CHANGE_PHYSICS;
@@ -742,8 +742,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot13 = report;
     report = michal.VoicePanelModes;
     var _closure1_slot14 = report;
-    report = michal.LAYOUT_PHYSICS;
-    var _closure1_slot15 = report;
+    backup = michal.LAYOUT_PHYSICS;
+    var _closure1_slot15 = backup;
     michal = michal.DRAWER_SPRING_PHYSICS_GESTURE_ACTIVE;
     var _closure1_slot16 = michal;
     michal = 7;
@@ -770,13 +770,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot21 = michal;
     report = 11;
     michal = golfie[report];
-    backup = verify.bind(entity)(michal);
-    michal = backup.createAnimatedComponent;
-    michal = michal.bind(backup)(sizing);
+    sizing = verify.bind(entity)(michal);
+    michal = sizing.createAnimatedComponent;
+    michal = michal.bind(sizing)(update);
     var _closure1_slot22 = michal;
     michal = {};
-    backup = "function layoutTransition_VoicePanelUITsx1(values){const{withSpring,LAYOUT_PHYSICS}=this.__closure;return{animations:{originX:withSpring(values.targetOriginX,LAYOUT_PHYSICS,'animate-always'),originY:withSpring(values.targetOriginY,LAYOUT_PHYSICS,'animate-always'),width:withSpring(values.targetWidth,LAYOUT_PHYSICS,'animate-always'),height:withSpring(values.targetHeight,LAYOUT_PHYSICS,'animate-always')},initialValues:{originX:values.currentOriginX,originY:values.currentOriginY,width:values.currentWidth,height:values.currentHeight}};}";
-    michal['code'] = backup;
+    sizing = "function layoutTransition_VoicePanelUITsx1(values){const{withSpring,LAYOUT_PHYSICS}=this.__closure;return{animations:{originX:withSpring(values.targetOriginX,LAYOUT_PHYSICS,'animate-always'),originY:withSpring(values.targetOriginY,LAYOUT_PHYSICS,'animate-always'),width:withSpring(values.targetWidth,LAYOUT_PHYSICS,'animate-always'),height:withSpring(values.targetHeight,LAYOUT_PHYSICS,'animate-always')},initialValues:{originX:values.currentOriginX,originY:values.currentOriginY,width:values.currentWidth,height:values.currentHeight}};}";
+    michal['code'] = sizing;
     var _closure1_slot23 = michal;
     michal = function() {
         entity = function(argFoo) { // Original name: layoutTransition
@@ -848,25 +848,107 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot24 = michal;
     michal = {};
     vacuum = michal;
-    yankee = copyDataProperties(vacuum, ctrled);
-    backup = 0.3;
-    yankee = 'mass';
-    michal[yankee] = backup;
-    sizing = 100;
+    ctrled = backup;
+    backup = copyDataProperties(vacuum, ctrled);
     backup = 'damping';
+    michal[backup] = kiloes;
+    var _closure1_slot25 = michal;
+    michal = {};
+    sizing = "function scrollViewLayoutTransition_VoicePanelUITsx2(values){const{withSpring,LAYOUT_PHYSICS,EMBEDDED_ACTIVITY_ORIENTATION_UPDATE_SAFE_LAYOUT_PHYSICS}=this.__closure;return{animations:{originX:withSpring(values.targetOriginX,LAYOUT_PHYSICS,'animate-always'),originY:withSpring(values.targetOriginY,LAYOUT_PHYSICS,'animate-always'),width:withSpring(values.targetWidth,EMBEDDED_ACTIVITY_ORIENTATION_UPDATE_SAFE_LAYOUT_PHYSICS,'animate-always'),height:withSpring(values.targetHeight,EMBEDDED_ACTIVITY_ORIENTATION_UPDATE_SAFE_LAYOUT_PHYSICS,'animate-always')},initialValues:{originX:values.currentOriginX,originY:values.currentOriginY,width:values.currentWidth,height:values.currentHeight}};}";
+    michal['code'] = sizing;
+    var _closure1_slot26 = michal;
+    michal = function() {
+        entity = function(argFoo) { // Original name: scrollViewLayoutTransition
+            zuuluu = argFoo;
+            entity = {};
+            michal = {};
+            oscard = _closure1_slot0;
+            verify = _closure1_slot2;
+            tangon = 12;
+            option = verify[tangon];
+            report = undefined;
+            romeon = oscard.bind(report)(option);
+            yankee = romeon.withSpring;
+            offset = zuuluu.targetOriginX;
+            foxtra = _closure1_slot15;
+            option = 'animate-always';
+            offset = yankee.bind(romeon)(offset, foxtra, option);
+            michal['originX'] = offset;
+            offset = verify[tangon];
+            romeon = oscard.bind(report)(offset);
+            yankee = romeon.withSpring;
+            offset = zuuluu.targetOriginY;
+            offset = yankee.bind(romeon)(offset, foxtra, option);
+            michal['originY'] = offset;
+            offset = verify[tangon];
+            romeon = oscard.bind(report)(offset);
+            yankee = romeon.withSpring;
+            offset = zuuluu.targetWidth;
+            golfie = _closure1_slot25;
+            offset = yankee.bind(romeon)(offset, golfie, option);
+            michal['width'] = offset;
+            tangon = verify[tangon];
+            oscard = oscard.bind(report)(tangon);
+            report = oscard.withSpring;
+            tangon = zuuluu.targetHeight;
+            tangon = report.bind(oscard)(tangon, golfie, option);
+            michal['height'] = tangon;
+            entity['animations'] = michal;
+            michal = {};
+            tangon = zuuluu.currentOriginX;
+            michal['originX'] = tangon;
+            tangon = zuuluu.currentOriginY;
+            michal['originY'] = tangon;
+            tangon = zuuluu.currentWidth;
+            michal['width'] = tangon;
+            zuuluu = zuuluu.currentHeight;
+            michal['height'] = zuuluu;
+            entity['initialValues'] = michal;
+            return entity;
+        };
+        zuuluu = {};
+        oscard = _closure1_slot0;
+        report = _closure1_slot2;
+        tangon = 12;
+        report = report[tangon];
+        tangon = undefined;
+        tangon = oscard.bind(tangon)(report);
+        tangon = tangon.withSpring;
+        zuuluu['withSpring'] = tangon;
+        tangon = _closure1_slot15;
+        zuuluu['LAYOUT_PHYSICS'] = tangon;
+        tangon = _closure1_slot25;
+        zuuluu['EMBEDDED_ACTIVITY_ORIENTATION_UPDATE_SAFE_LAYOUT_PHYSICS'] = tangon;
+        entity['__closure'] = zuuluu;
+        zuuluu = 11745134918460.0;
+        entity['__workletHash'] = zuuluu;
+        michal = _closure1_slot26;
+        entity['__initData'] = michal;
+        return entity;
+    };
+    michal = michal.bind(entity)();
+    var _closure1_slot27 = michal;
+    michal = {};
+    vacuum = michal;
+    ctrled = yankee;
+    yankee = copyDataProperties(vacuum, ctrled);
+    sizing = 0.3;
+    yankee = 'mass';
+    michal[yankee] = sizing;
+    sizing = 100;
     michal[backup] = sizing;
     backup = 'stiffness';
     michal[backup] = sizing;
-    var _closure1_slot25 = michal;
+    var _closure1_slot28 = michal;
     michal = {};
     vacuum = michal;
     ctrled = foxtra;
     foxtra = copyDataProperties(vacuum, ctrled);
     michal[yankee] = romeon;
     yankee = {};
-    romeon = 'function computeViewableChunksFromScrollPosition_VoicePanelUITsx2(scrollPosition,windowHeight,contentHeight,extraChunks=1){const{VOICE_PANEL_CHUNK_DIVISOR}=this.__closure;const chunkSize=Math.ceil(windowHeight/VOICE_PANEL_CHUNK_DIVISOR);let start=Math.max(Math.floor(scrollPosition/chunkSize)-extraChunks,0);const end=Math.min(start+VOICE_PANEL_CHUNK_DIVISOR+extraChunks*2,Math.ceil(contentHeight/chunkSize));start=Math.max(end-VOICE_PANEL_CHUNK_DIVISOR-extraChunks*2,0);return{start:start,end:end};}';
+    romeon = 'function computeViewableChunksFromScrollPosition_VoicePanelUITsx3(scrollPosition,windowHeight,contentHeight,extraChunks=1){const{VOICE_PANEL_CHUNK_DIVISOR}=this.__closure;const chunkSize=Math.ceil(windowHeight/VOICE_PANEL_CHUNK_DIVISOR);let start=Math.max(Math.floor(scrollPosition/chunkSize)-extraChunks,0);const end=Math.min(start+VOICE_PANEL_CHUNK_DIVISOR+extraChunks*2,Math.ceil(contentHeight/chunkSize));start=Math.max(end-VOICE_PANEL_CHUNK_DIVISOR-extraChunks*2,0);return{start:start,end:end};}';
     yankee['code'] = romeon;
-    var _closure1_slot26 = yankee;
+    var _closure1_slot29 = yankee;
     yankee = function() {
         entity = function(argFoo, argBar, argBaz) { // Original name: computeViewableChunksFromScrollPosition
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
@@ -922,14 +1004,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = _closure1_slot13;
         zuuluu['VOICE_PANEL_CHUNK_DIVISOR'] = tangon;
         entity['__closure'] = zuuluu;
-        zuuluu = 13126578243788.0;
+        zuuluu = 3008066799757.0;
         entity['__workletHash'] = zuuluu;
-        michal = _closure1_slot26;
+        michal = _closure1_slot29;
         entity['__initData'] = michal;
         return entity;
     };
     yankee = yankee.bind(entity)();
-    var _closure1_slot27 = yankee;
+    var _closure1_slot30 = yankee;
     yankee = 13;
     yankee = golfie[yankee];
     foxtra = oscard.bind(entity)(yankee);
@@ -978,96 +1060,96 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     backup['zIndex'] = kiloes;
     yankee['shade'] = backup;
     yankee = romeon.bind(foxtra)(yankee);
-    var _closure1_slot28 = yankee;
+    var _closure1_slot31 = yankee;
     report = golfie[report];
     verify = verify.bind(entity)(report);
     report = verify.createAnimatedComponent;
     report = report.bind(verify)(offset);
-    var _closure1_slot29 = report;
-    report = {};
-    verify = 'function VoicePanelUITsx3(){const{gestureState,connected,mode}=this.__closure;return{gestureActive:gestureState.get().active,connected:connected.get(),mode:mode.get()};}';
-    report['code'] = verify;
-    var _closure1_slot30 = report;
-    report = {};
-    verify = 'function VoicePanelUITsx4(props,previous){const{cheapWorkletShallowEqual,VoicePanelModes,runOnJS,setPanelFullscreen,setPanelOpen,setPanelPIP}=this.__closure;if(cheapWorkletShallowEqual(props,previous!==null&&previous!==void 0?previous:undefined))return;const{gestureActive:gestureActive,connected:connected,mode:mode}=props;if(!connected||gestureActive||mode!==VoicePanelModes.PANEL){runOnJS(setPanelFullscreen)(false);}else{runOnJS(setPanelFullscreen)(true);}if(mode===VoicePanelModes.PANEL){runOnJS(setPanelOpen)(true);}else{runOnJS(setPanelOpen)(false);}if(mode===VoicePanelModes.PIP){runOnJS(setPanelPIP)(true);}else{runOnJS(setPanelPIP)(false);}}';
-    report['code'] = verify;
-    var _closure1_slot31 = report;
-    report = {};
-    verify = 'function VoicePanelUITsx5(){const{mode,VoicePanelModes,focused}=this.__closure;var _focused$get;return mode.get()===VoicePanelModes.PANEL?(_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id:undefined;}';
-    report['code'] = verify;
     var _closure1_slot32 = report;
     report = {};
-    verify = 'function VoicePanelUITsx6(manualId,previousManualId){const{runOnJS,handleFocusChange}=this.__closure;if(manualId!==previousManualId){runOnJS(handleFocusChange)(manualId);}}';
+    verify = 'function VoicePanelUITsx4(){const{gestureState,connected,mode}=this.__closure;return{gestureActive:gestureState.get().active,connected:connected.get(),mode:mode.get()};}';
     report['code'] = verify;
     var _closure1_slot33 = report;
     report = {};
-    verify = 'function VoicePanelUITsx7(){const{connected,mode,VoicePanelModes,controlsSpecs,VoicePanelControlsModes,runOnJS,showControls,hideControls}=this.__closure;if(!connected.get())return;if(mode.get()===VoicePanelModes.PIP){}else if(controlsSpecs.get().mode===VoicePanelControlsModes.HIDDEN){runOnJS(showControls)({debounce:true});}else{runOnJS(hideControls)({debounce:true});}}';
+    verify = 'function VoicePanelUITsx5(props,previous){const{cheapWorkletShallowEqual,VoicePanelModes,runOnJS,setPanelFullscreen,setPanelOpen,setPanelPIP}=this.__closure;if(cheapWorkletShallowEqual(props,previous!==null&&previous!==void 0?previous:undefined))return;const{gestureActive:gestureActive,connected:connected,mode:mode}=props;if(!connected||gestureActive||mode!==VoicePanelModes.PANEL){runOnJS(setPanelFullscreen)(false);}else{runOnJS(setPanelFullscreen)(true);}if(mode===VoicePanelModes.PANEL){runOnJS(setPanelOpen)(true);}else{runOnJS(setPanelOpen)(false);}if(mode===VoicePanelModes.PIP){runOnJS(setPanelPIP)(true);}else{runOnJS(setPanelPIP)(false);}}';
     report['code'] = verify;
     var _closure1_slot34 = report;
     report = {};
-    verify = 'function VoicePanelUITsx8(event,manager){const{IS_IOS,windowDimensions,safeArea,gestureState,isFocusedVideoZoomed,mode,VoicePanelModes,controlsSpecs,VoicePanelControlsModes}=this.__closure;const touch=event.allTouches[0];if(IS_IOS&&touch!=null&&touch.absoluteY>windowDimensions.get().height-safeArea.get().bottom){gestureState.set({...gestureState.get(),cancel:true});manager.activate();return;}if(isFocusedVideoZoomed.get()||mode.get()===VoicePanelModes.PANEL&&controlsSpecs.get().mode===VoicePanelControlsModes.DRAWER){gestureState.set({...gestureState.get(),cancel:true});manager.fail();}}';
+    verify = 'function VoicePanelUITsx6(){const{mode,VoicePanelModes,focused}=this.__closure;var _focused$get;return mode.get()===VoicePanelModes.PANEL?(_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id:undefined;}';
     report['code'] = verify;
     var _closure1_slot35 = report;
     report = {};
-    verify = 'function VoicePanelUITsx9(event){const{gestureState,updateSharedValueIfChanged,wrapperOffset,connected,mode,VoicePanelModes}=this.__closure;if(gestureState.get().cancel)return;updateSharedValueIfChanged(wrapperOffset,{x:0,y:0});gestureState.set({absoluteXStart:event.absoluteX,absoluteYStart:event.absoluteY,active:false,cancel:false,requiresPop:connected.get()&&mode.get()===VoicePanelModes.PANEL});}';
+    verify = 'function VoicePanelUITsx7(manualId,previousManualId){const{runOnJS,handleFocusChange}=this.__closure;if(manualId!==previousManualId){runOnJS(handleFocusChange)(manualId);}}';
     report['code'] = verify;
     var _closure1_slot36 = report;
     report = {};
-    verify = 'function VoicePanelUITsx10(event,manager){const{State,gestureState,mode,VoicePanelModes,scrollPosition,focused,MIN_GESTURE_MOVE,runOnJS,triggerIOSHaptic,updateSharedValueIfChanged,wrapperOffset,lockScrolling}=this.__closure;if(event.state!==State.BEGAN||gestureState.get().active||gestureState.get().cancel)return;const{absoluteY:absoluteY,absoluteX:absoluteX}=event.changedTouches[0];const yDiff=gestureState.get().absoluteYStart-absoluteY;const xDiff=gestureState.get().absoluteXStart-absoluteX;const absoluteMovement=Math.max(Math.abs(yDiff),Math.abs(xDiff));const isNotPullDownGesture=Math.abs(xDiff)>=Math.abs(yDiff)||yDiff>0;let startGesture=false;if(mode.get()===VoicePanelModes.PANEL){var _focused$get;const scrollPos=Math.floor(scrollPosition.get());if(yDiff<0&&scrollPos<=0){startGesture=true;}else if(((_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id)!=null&&isNotPullDownGesture){manager.fail();}}else if(mode.get()===VoicePanelModes.PIP&&absoluteMovement>MIN_GESTURE_MOVE){startGesture=true;runOnJS(triggerIOSHaptic)();}if(startGesture){updateSharedValueIfChanged(wrapperOffset,{gestureActive:true});gestureState.set({absoluteXStart:absoluteX,absoluteYStart:absoluteY+scrollPosition.get(),cancel:false,active:true,requiresPop:gestureState.get().requiresPop});lockScrolling.set(true);manager.activate();}else{updateSharedValueIfChanged(gestureState,{absoluteYStart:absoluteY,absoluteXStart:absoluteX});}}';
+    verify = 'function VoicePanelUITsx8(){const{connected,mode,VoicePanelModes,controlsSpecs,VoicePanelControlsModes,runOnJS,showControls,hideControls}=this.__closure;if(!connected.get())return;if(mode.get()===VoicePanelModes.PIP){}else if(controlsSpecs.get().mode===VoicePanelControlsModes.HIDDEN){runOnJS(showControls)({debounce:true});}else{runOnJS(hideControls)({debounce:true});}}';
     report['code'] = verify;
     var _closure1_slot37 = report;
     report = {};
-    verify = 'function VoicePanelUITsx11(event){const{gestureState,mode,VoicePanelModes,connected,lockScrolling,scrollPosition,POP_RESISTANCE,PIP_POP_HEIGHT,runOnJS,triggerHapticFeedback,HapticFeedbackTypes,updateSharedValueIfChanged,wrapperOffset}=this.__closure;if(gestureState.get().cancel)return;if(mode.get()!==VoicePanelModes.PIP){const minYOffset=0;let newYOffset=(gestureState.get().absoluteYStart-event.absoluteY)*-1;if(connected.get()&&!gestureState.get().requiresPop&&newYOffset<=minYOffset){gestureState.set({...gestureState.get(),requiresPop:true});}if(lockScrolling.get()&&newYOffset<minYOffset){lockScrolling.set(false);}else if(!lockScrolling.get()&&scrollPosition.get()<=0){lockScrolling.set(true);}if(gestureState.get().requiresPop){const distance=Math.max(newYOffset,0);const resistance=distance*POP_RESISTANCE;if(distance<=PIP_POP_HEIGHT){newYOffset=distance-resistance;}else{gestureState.set({...gestureState.get(),requiresPop:false});runOnJS(triggerHapticFeedback)(HapticFeedbackTypes.IMPACT_MEDIUM);}}updateSharedValueIfChanged(wrapperOffset,{y:newYOffset,x:0});}else{updateSharedValueIfChanged(wrapperOffset,{x:(gestureState.get().absoluteXStart-event.absoluteX)*-1,y:(gestureState.get().absoluteYStart-event.absoluteY)*-1});}}';
+    verify = 'function VoicePanelUITsx9(event,manager){const{IS_IOS,windowDimensions,safeArea,gestureState,isFocusedVideoZoomed,mode,VoicePanelModes,controlsSpecs,VoicePanelControlsModes}=this.__closure;const touch=event.allTouches[0];if(IS_IOS&&touch!=null&&touch.absoluteY>windowDimensions.get().height-safeArea.get().bottom){gestureState.set({...gestureState.get(),cancel:true});manager.activate();return;}if(isFocusedVideoZoomed.get()||mode.get()===VoicePanelModes.PANEL&&controlsSpecs.get().mode===VoicePanelControlsModes.DRAWER){gestureState.set({...gestureState.get(),cancel:true});manager.fail();}}';
     report['code'] = verify;
     var _closure1_slot38 = report;
     report = {};
-    verify = "function VoicePanelUITsx12(_e){const{lockScrolling,updateSharedValueIfChanged,gestureState,wrapperOffset}=this.__closure;lockScrolling.set(false);updateSharedValueIfChanged(gestureState,{cancel:false,active:false});updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});console.log('onTouchesCancelled');}";
+    verify = 'function VoicePanelUITsx10(event){const{gestureState,updateSharedValueIfChanged,wrapperOffset,connected,mode,VoicePanelModes}=this.__closure;if(gestureState.get().cancel)return;updateSharedValueIfChanged(wrapperOffset,{x:0,y:0});gestureState.set({absoluteXStart:event.absoluteX,absoluteYStart:event.absoluteY,active:false,cancel:false,requiresPop:connected.get()&&mode.get()===VoicePanelModes.PANEL});}';
     report['code'] = verify;
     var _closure1_slot39 = report;
     report = {};
-    verify = 'function VoicePanelUITsx13(event){const{gestureState,mode,VoicePanelModes,calculatePIPPositionFromVelocity,windowDimensions,safeArea,updateSharedValueIfChanged,wrapperDimensions,wrapperOffset,connected,runOnJS,setMode,lockScrolling,dismissPanel}=this.__closure;if(gestureState.get().cancel)return;const{velocityX:velocityX,velocityY:velocityY,absoluteX:absoluteX,absoluteY:absoluteY}=event;if(mode.get()===VoicePanelModes.PIP){const{pipX:pipX,pipY:pipY}=calculatePIPPositionFromVelocity({velocityX:velocityX,velocityY:velocityY,absoluteX:absoluteX,absoluteY:absoluteY,windowDimensions:windowDimensions.get(),safeArea:safeArea.get()});updateSharedValueIfChanged(wrapperDimensions,{pipX:pipX,pipY:pipY});updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});}else if(mode.get()===VoicePanelModes.PANEL){if(velocityY>0){if(connected.get()){if(!gestureState.get().requiresPop){runOnJS(setMode)(VoicePanelModes.PIP);updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});}else{updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});lockScrolling.set(false);}}else{updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});runOnJS(dismissPanel)();return;}}else{updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});lockScrolling.set(false);}}}';
+    verify = 'function VoicePanelUITsx11(event,manager){const{State,gestureState,mode,VoicePanelModes,scrollPosition,focused,MIN_GESTURE_MOVE,runOnJS,triggerIOSHaptic,updateSharedValueIfChanged,wrapperOffset,lockScrolling}=this.__closure;if(event.state!==State.BEGAN||gestureState.get().active||gestureState.get().cancel)return;const{absoluteY:absoluteY,absoluteX:absoluteX}=event.changedTouches[0];const yDiff=gestureState.get().absoluteYStart-absoluteY;const xDiff=gestureState.get().absoluteXStart-absoluteX;const absoluteMovement=Math.max(Math.abs(yDiff),Math.abs(xDiff));const isNotPullDownGesture=Math.abs(xDiff)>=Math.abs(yDiff)||yDiff>0;let startGesture=false;if(mode.get()===VoicePanelModes.PANEL){var _focused$get;const scrollPos=Math.floor(scrollPosition.get());if(yDiff<0&&scrollPos<=0){startGesture=true;}else if(((_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id)!=null&&isNotPullDownGesture){manager.fail();}}else if(mode.get()===VoicePanelModes.PIP&&absoluteMovement>MIN_GESTURE_MOVE){startGesture=true;runOnJS(triggerIOSHaptic)();}if(startGesture){updateSharedValueIfChanged(wrapperOffset,{gestureActive:true});gestureState.set({absoluteXStart:absoluteX,absoluteYStart:absoluteY+scrollPosition.get(),cancel:false,active:true,requiresPop:gestureState.get().requiresPop});lockScrolling.set(true);manager.activate();}else{updateSharedValueIfChanged(gestureState,{absoluteYStart:absoluteY,absoluteXStart:absoluteX});}}';
     report['code'] = verify;
     var _closure1_slot40 = report;
     report = {};
-    verify = 'function VoicePanelUITsx14(){const{updateSharedValueIfChanged,gestureState}=this.__closure;updateSharedValueIfChanged(gestureState,{cancel:false,active:false});}';
+    verify = 'function VoicePanelUITsx12(event){const{gestureState,mode,VoicePanelModes,connected,lockScrolling,scrollPosition,POP_RESISTANCE,PIP_POP_HEIGHT,runOnJS,triggerHapticFeedback,HapticFeedbackTypes,updateSharedValueIfChanged,wrapperOffset}=this.__closure;if(gestureState.get().cancel)return;if(mode.get()!==VoicePanelModes.PIP){const minYOffset=0;let newYOffset=(gestureState.get().absoluteYStart-event.absoluteY)*-1;if(connected.get()&&!gestureState.get().requiresPop&&newYOffset<=minYOffset){gestureState.set({...gestureState.get(),requiresPop:true});}if(lockScrolling.get()&&newYOffset<minYOffset){lockScrolling.set(false);}else if(!lockScrolling.get()&&scrollPosition.get()<=0){lockScrolling.set(true);}if(gestureState.get().requiresPop){const distance=Math.max(newYOffset,0);const resistance=distance*POP_RESISTANCE;if(distance<=PIP_POP_HEIGHT){newYOffset=distance-resistance;}else{gestureState.set({...gestureState.get(),requiresPop:false});runOnJS(triggerHapticFeedback)(HapticFeedbackTypes.IMPACT_MEDIUM);}}updateSharedValueIfChanged(wrapperOffset,{y:newYOffset,x:0});}else{updateSharedValueIfChanged(wrapperOffset,{x:(gestureState.get().absoluteXStart-event.absoluteX)*-1,y:(gestureState.get().absoluteYStart-event.absoluteY)*-1});}}';
     report['code'] = verify;
     var _closure1_slot41 = report;
     report = {};
-    verify = 'function onBeginDrag_VoicePanelUITsx15(event){const{scrollPosition,dragScrolling}=this.__closure;scrollPosition.set(event.contentOffset.y);dragScrolling.set(true);}';
+    verify = "function VoicePanelUITsx13(_e){const{lockScrolling,updateSharedValueIfChanged,gestureState,wrapperOffset}=this.__closure;lockScrolling.set(false);updateSharedValueIfChanged(gestureState,{cancel:false,active:false});updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});console.log('onTouchesCancelled');}";
     report['code'] = verify;
     var _closure1_slot42 = report;
     report = {};
-    verify = 'function onEndDrag_VoicePanelUITsx16(){const{dragScrolling}=this.__closure;dragScrolling.set(false);}';
+    verify = 'function VoicePanelUITsx14(event){const{gestureState,mode,VoicePanelModes,calculatePIPPositionFromVelocity,windowDimensions,safeArea,updateSharedValueIfChanged,wrapperDimensions,wrapperOffset,connected,runOnJS,setMode,lockScrolling,dismissPanel}=this.__closure;if(gestureState.get().cancel)return;const{velocityX:velocityX,velocityY:velocityY,absoluteX:absoluteX,absoluteY:absoluteY}=event;if(mode.get()===VoicePanelModes.PIP){const{pipX:pipX,pipY:pipY}=calculatePIPPositionFromVelocity({velocityX:velocityX,velocityY:velocityY,absoluteX:absoluteX,absoluteY:absoluteY,windowDimensions:windowDimensions.get(),safeArea:safeArea.get()});updateSharedValueIfChanged(wrapperDimensions,{pipX:pipX,pipY:pipY});updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});}else if(mode.get()===VoicePanelModes.PANEL){if(velocityY>0){if(connected.get()){if(!gestureState.get().requiresPop){runOnJS(setMode)(VoicePanelModes.PIP);updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});}else{updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});lockScrolling.set(false);}}else{updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});runOnJS(dismissPanel)();return;}}else{updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});lockScrolling.set(false);}}}';
     report['code'] = verify;
     var _closure1_slot43 = report;
     report = {};
-    verify = 'function onMomentumEnd_VoicePanelUITsx17(){const{dragScrolling}=this.__closure;dragScrolling.set(false);}';
+    verify = 'function VoicePanelUITsx15(){const{updateSharedValueIfChanged,gestureState}=this.__closure;updateSharedValueIfChanged(gestureState,{cancel:false,active:false});}';
     report['code'] = verify;
     var _closure1_slot44 = report;
     report = {};
-    verify = 'function onScroll_VoicePanelUITsx18(event){const{lockScrolling,scrollPosition,scrollTo,scrollerRef,computeViewableChunksFromScrollPosition,windowDimensions,scrollableRegionSize,updateSharedValueIfChanged,viewableChunks}=this.__closure;if(lockScrolling.get()){if(scrollPosition.get()<0){scrollPosition.set(0);}scrollTo(scrollerRef,0,scrollPosition.get(),false);}else{let newViewableChunks;if(scrollPosition.get()!==event.contentOffset.y){newViewableChunks=computeViewableChunksFromScrollPosition(scrollPosition.get(),windowDimensions.get().height,scrollableRegionSize.get());}scrollPosition.set(event.contentOffset.y);newViewableChunks!=null&&updateSharedValueIfChanged(viewableChunks,newViewableChunks);}}';
+    verify = 'function onBeginDrag_VoicePanelUITsx16(event){const{scrollPosition,dragScrolling}=this.__closure;scrollPosition.set(event.contentOffset.y);dragScrolling.set(true);}';
     report['code'] = verify;
     var _closure1_slot45 = report;
     report = {};
-    verify = 'function VoicePanelUITsx19(){const{mode}=this.__closure;return mode.get();}';
+    verify = 'function onEndDrag_VoicePanelUITsx17(){const{dragScrolling}=this.__closure;dragScrolling.set(false);}';
     report['code'] = verify;
     var _closure1_slot46 = report;
     report = {};
-    verify = 'function VoicePanelUITsx20(mode,previous){const{VoicePanelModes,lockScrolling}=this.__closure;if(previous==null||mode===previous)return;if(mode===VoicePanelModes.PANEL&&previous===VoicePanelModes.PIP){lockScrolling.set(false);}else if(mode===VoicePanelModes.PIP){lockScrolling.set(true);}}';
+    verify = 'function onMomentumEnd_VoicePanelUITsx18(){const{dragScrolling}=this.__closure;dragScrolling.set(false);}';
     report['code'] = verify;
     var _closure1_slot47 = report;
     report = {};
-    verify = "function VoicePanelUITsx21(){const{mode,VoicePanelModes,focused,lockScrolling,calculateVoicePanelHeaderSpecs,safeArea}=this.__closure;const isPIPMode=mode.get()===VoicePanelModes.PIP;const disableScroll=isPIPMode||focused.get()!=null;return{pointerEvents:isPIPMode?'none':'auto',scrollEnabled:!disableScroll,showsVerticalScrollIndicator:lockScrolling.get()?false:!disableScroll,scrollIndicatorInsets:{top:calculateVoicePanelHeaderSpecs(safeArea.get()).height-safeArea.get().top,bottom:safeArea.get().bottom}};}";
+    verify = 'function onScroll_VoicePanelUITsx19(event){const{lockScrolling,scrollPosition,scrollTo,scrollerRef,computeViewableChunksFromScrollPosition,windowDimensions,scrollableRegionSize,updateSharedValueIfChanged,viewableChunks}=this.__closure;if(lockScrolling.get()){if(scrollPosition.get()<0){scrollPosition.set(0);}scrollTo(scrollerRef,0,scrollPosition.get(),false);}else{let newViewableChunks;if(scrollPosition.get()!==event.contentOffset.y){newViewableChunks=computeViewableChunksFromScrollPosition(scrollPosition.get(),windowDimensions.get().height,scrollableRegionSize.get());}scrollPosition.set(event.contentOffset.y);newViewableChunks!=null&&updateSharedValueIfChanged(viewableChunks,newViewableChunks);}}';
     report['code'] = verify;
     var _closure1_slot48 = report;
     report = {};
-    verify = 'function VoicePanelUITsx22(){const{mode,VoicePanelModes,connected,gestureState,wrapperDimensions,wrapperOffset,windowDimensions}=this.__closure;switch(mode.get()){case VoicePanelModes.PIP:case VoicePanelModes.DISMISSED:return 0;default:{if(connected.get()&&gestureState.get().active&&gestureState.get().requiresPop){return 1;}const drawerTop=wrapperDimensions.get().drawerY+(wrapperOffset.get().gestureActive?wrapperOffset.get().y:0);const screenSize=windowDimensions.get().height;const percentage=(screenSize-drawerTop)/screenSize;return Math.min(Math.max(percentage,0),1);}}}';
+    verify = 'function VoicePanelUITsx20(){const{mode}=this.__closure;return mode.get();}';
     report['code'] = verify;
     var _closure1_slot49 = report;
     report = {};
-    verify = 'function computeBorderRadii_VoicePanelUITsx23({mode:mode,connected:connected}){const{VoicePanelModes,DEFAULT_BORDER_RADIUS_PIP,DEFAULT_BORDER_RADIUS}=this.__closure;if(mode===VoicePanelModes.PIP){return DEFAULT_BORDER_RADIUS_PIP;}return!connected?DEFAULT_BORDER_RADIUS:0;}';
+    verify = 'function VoicePanelUITsx21(mode,previous){const{VoicePanelModes,lockScrolling}=this.__closure;if(previous==null||mode===previous)return;if(mode===VoicePanelModes.PANEL&&previous===VoicePanelModes.PIP){lockScrolling.set(false);}else if(mode===VoicePanelModes.PIP){lockScrolling.set(true);}}';
     report['code'] = verify;
     var _closure1_slot50 = report;
+    report = {};
+    verify = "function VoicePanelUITsx22(){const{mode,VoicePanelModes,focused,lockScrolling,calculateVoicePanelHeaderSpecs,safeArea}=this.__closure;const isPIPMode=mode.get()===VoicePanelModes.PIP;const disableScroll=isPIPMode||focused.get()!=null;return{pointerEvents:isPIPMode?'none':'auto',scrollEnabled:!disableScroll,showsVerticalScrollIndicator:lockScrolling.get()?false:!disableScroll,scrollIndicatorInsets:{top:calculateVoicePanelHeaderSpecs(safeArea.get()).height-safeArea.get().top,bottom:safeArea.get().bottom}};}";
+    report['code'] = verify;
+    var _closure1_slot51 = report;
+    report = {};
+    verify = 'function VoicePanelUITsx23(){const{mode,VoicePanelModes,connected,gestureState,wrapperDimensions,wrapperOffset,windowDimensions}=this.__closure;switch(mode.get()){case VoicePanelModes.PIP:case VoicePanelModes.DISMISSED:return 0;default:{if(connected.get()&&gestureState.get().active&&gestureState.get().requiresPop){return 1;}const drawerTop=wrapperDimensions.get().drawerY+(wrapperOffset.get().gestureActive?wrapperOffset.get().y:0);const screenSize=windowDimensions.get().height;const percentage=(screenSize-drawerTop)/screenSize;return Math.min(Math.max(percentage,0),1);}}}';
+    report['code'] = verify;
+    var _closure1_slot52 = report;
+    report = {};
+    verify = 'function computeBorderRadii_VoicePanelUITsx24({mode:mode,connected:connected}){const{VoicePanelModes,DEFAULT_BORDER_RADIUS_PIP,DEFAULT_BORDER_RADIUS}=this.__closure;if(mode===VoicePanelModes.PIP){return DEFAULT_BORDER_RADIUS_PIP;}return!connected?DEFAULT_BORDER_RADIUS:0;}';
+    report['code'] = verify;
+    var _closure1_slot53 = report;
     report = function() {
         entity = function(argFoo) { // Original name: computeBorderRadii
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
@@ -1099,47 +1181,47 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = _closure1_slot10;
         zuuluu['DEFAULT_BORDER_RADIUS'] = tangon;
         entity['__closure'] = zuuluu;
-        zuuluu = 16915793093789.0;
+        zuuluu = 4574399878042.0;
         entity['__workletHash'] = zuuluu;
-        michal = _closure1_slot50;
+        michal = _closure1_slot53;
         entity['__initData'] = michal;
         return entity;
     };
     report = report.bind(entity)();
-    var _closure1_slot51 = report;
-    report = {};
-    verify = 'function VoicePanelUITsx24(){const{controlsSpecs}=this.__closure;return controlsSpecs.get().height;}';
-    report['code'] = verify;
-    var _closure1_slot52 = report;
-    report = {};
-    verify = 'function VoicePanelUITsx25(){const{mode,connected,windowDimensions,safeArea,focused,pipState,controlsHeight,preJoinContentSize}=this.__closure;return{modeToSet:mode.get(),connected:connected.get(),windowWidth:windowDimensions.get().width,windowHeight:windowDimensions.get().height,safeArea:safeArea.get(),focused:focused.get(),pipState:pipState,controlsHeight:controlsHeight.get(),preJoinContentSize:preJoinContentSize.get()};}';
-    report['code'] = verify;
-    var _closure1_slot53 = report;
-    report = {};
-    verify = 'function VoicePanelUITsx26(props,previous){const{cheapWorkletShallowEqual,VoicePanelModes,wrapperDimensions,updateSharedValueIfChanged,wrapperOffset,getMaxPanelWidth,getPanelX,roundToNearestPixel,windowDimensions}=this.__closure;if(cheapWorkletShallowEqual(props,previous!==null&&previous!==void 0?previous:undefined))return;const{modeToSet:modeToSet,connected:connected,windowWidth:windowWidth,windowHeight:windowHeight,safeArea:safeArea,pipState:pipState,controlsHeight:controlsHeight,preJoinContentSize:preJoinContentSize}=props;if(modeToSet===VoicePanelModes.PIP&&pipState.id==null){return;}const animated=previous!=null?windowHeight===previous.windowHeight&&windowWidth===previous.windowWidth&&safeArea.top===previous.safeArea.top&&safeArea.bottom===previous.safeArea.bottom&&safeArea.left===previous.safeArea.left&&safeArea.right===previous.safeArea.right:true;let{drawerX:drawerX,drawerY:drawerY}=wrapperDimensions.get();if(modeToSet===VoicePanelModes.PANEL){if(connected){drawerX=0;drawerY=0;updateSharedValueIfChanged(wrapperDimensions,{drawerWidth:windowWidth,drawerHeight:windowHeight,drawerX:drawerX,drawerY:drawerY,animated:animated,mode:modeToSet});updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});}else{const drawerWidth=getMaxPanelWidth({windowWidth:windowWidth,connected:connected,safeAreaLeft:safeArea.left,safeAreaRight:safeArea.right});drawerX=getPanelX(windowWidth,drawerWidth);drawerY=connected?0:roundToNearestPixel(Math.max(windowHeight-preJoinContentSize-controlsHeight-safeArea.bottom,windowDimensions.get().height-0.8*windowDimensions.get().height));updateSharedValueIfChanged(wrapperDimensions,{drawerWidth:drawerWidth,drawerHeight:windowHeight,drawerX:drawerX,drawerY:drawerY,animated:animated,mode:modeToSet});}}else if(modeToSet===VoicePanelModes.DISMISSED){if(connected){updateSharedValueIfChanged(wrapperDimensions,{mode:modeToSet});}else{updateSharedValueIfChanged(wrapperDimensions,{drawerY:windowDimensions.get().height+60,mode:modeToSet});}}}';
-    report['code'] = verify;
     var _closure1_slot54 = report;
     report = {};
-    verify = "function VoicePanelUITsx27(){const{useReducedMotion,wrapperDimensions,wrapperOffset,connected,mode,VoicePanelModes,runOnJS,updateSourceTrackingView,computeBorderRadii,withSpring,DRAWER_SPRING_PHYSICS_GESTURE_ACTIVE,DRAWER_SIZE_PHYSICS,BORDER_RADIUS_PHYSICS,styles}=this.__closure;const animateXY=!useReducedMotion.get()&&wrapperDimensions.get().animated||wrapperOffset.get().gestureActive;let{gestureActive:gestureActive}=wrapperOffset.get();let{drawerY:y,drawerX:x}=wrapperDimensions.get();gestureActive=gestureActive&&!connected.get();if(gestureActive){y+=Math.max(gestureActive?wrapperOffset.get().y:0,0);x+=wrapperOffset.get().x;}const updateSourceTrackingViewHelper=function(finished){if(finished&&mode.get()!==VoicePanelModes.DISMISSED){runOnJS(updateSourceTrackingView)();}};const borderRadius=computeBorderRadii({mode:mode.get(),connected:connected.get()});return{transform:[{translateX:withSpring(x,wrapperOffset.get().gestureActive?DRAWER_SPRING_PHYSICS_GESTURE_ACTIVE:DRAWER_SIZE_PHYSICS,animateXY?'animate-always':'animate-never',updateSourceTrackingViewHelper)},{translateY:withSpring(y,wrapperOffset.get().gestureActive?DRAWER_SPRING_PHYSICS_GESTURE_ACTIVE:DRAWER_SIZE_PHYSICS,animateXY?'animate-always':'animate-never',updateSourceTrackingViewHelper)}],width:wrapperDimensions.get().drawerWidth,height:wrapperDimensions.get().drawerHeight,borderRadius:withSpring(borderRadius,BORDER_RADIUS_PHYSICS),pointerEvents:mode.get()===VoicePanelModes.PANEL?'auto':'none',backgroundColor:connected.get()?'transparent':styles.maskDefaultBackground.backgroundColor};}";
+    verify = 'function VoicePanelUITsx25(){const{controlsSpecs}=this.__closure;return controlsSpecs.get().height;}';
     report['code'] = verify;
     var _closure1_slot55 = report;
     report = {};
-    verify = 'function VoicePanelUITsx28(finished){const{mode,VoicePanelModes,runOnJS,updateSourceTrackingView}=this.__closure;if(finished&&mode.get()!==VoicePanelModes.DISMISSED){runOnJS(updateSourceTrackingView)();}}';
+    verify = 'function VoicePanelUITsx26(){const{mode,connected,windowDimensions,safeArea,focused,pipState,controlsHeight,preJoinContentSize}=this.__closure;return{modeToSet:mode.get(),connected:connected.get(),windowWidth:windowDimensions.get().width,windowHeight:windowDimensions.get().height,safeArea:safeArea.get(),focused:focused.get(),pipState:pipState,controlsHeight:controlsHeight.get(),preJoinContentSize:preJoinContentSize.get()};}';
     report['code'] = verify;
     var _closure1_slot56 = report;
-    report = {'mass': 0.6, 'damping': 30, 'stiffness': 400, 'overshootClamping': true};
+    report = {};
+    verify = 'function VoicePanelUITsx27(props,previous){const{cheapWorkletShallowEqual,VoicePanelModes,wrapperDimensions,updateSharedValueIfChanged,wrapperOffset,getMaxPanelWidth,getPanelX,roundToNearestPixel,windowDimensions}=this.__closure;if(cheapWorkletShallowEqual(props,previous!==null&&previous!==void 0?previous:undefined))return;const{modeToSet:modeToSet,connected:connected,windowWidth:windowWidth,windowHeight:windowHeight,safeArea:safeArea,pipState:pipState,controlsHeight:controlsHeight,preJoinContentSize:preJoinContentSize}=props;if(modeToSet===VoicePanelModes.PIP&&pipState.id==null){return;}const animated=previous!=null?windowHeight===previous.windowHeight&&windowWidth===previous.windowWidth&&safeArea.top===previous.safeArea.top&&safeArea.bottom===previous.safeArea.bottom&&safeArea.left===previous.safeArea.left&&safeArea.right===previous.safeArea.right:true;let{drawerX:drawerX,drawerY:drawerY}=wrapperDimensions.get();if(modeToSet===VoicePanelModes.PANEL){if(connected){drawerX=0;drawerY=0;updateSharedValueIfChanged(wrapperDimensions,{drawerWidth:windowWidth,drawerHeight:windowHeight,drawerX:drawerX,drawerY:drawerY,animated:animated,mode:modeToSet});updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});}else{const drawerWidth=getMaxPanelWidth({windowWidth:windowWidth,connected:connected,safeAreaLeft:safeArea.left,safeAreaRight:safeArea.right});drawerX=getPanelX(windowWidth,drawerWidth);drawerY=connected?0:roundToNearestPixel(Math.max(windowHeight-preJoinContentSize-controlsHeight-safeArea.bottom,windowDimensions.get().height-0.8*windowDimensions.get().height));updateSharedValueIfChanged(wrapperDimensions,{drawerWidth:drawerWidth,drawerHeight:windowHeight,drawerX:drawerX,drawerY:drawerY,animated:animated,mode:modeToSet});}}else if(modeToSet===VoicePanelModes.DISMISSED){if(connected){updateSharedValueIfChanged(wrapperDimensions,{mode:modeToSet});}else{updateSharedValueIfChanged(wrapperDimensions,{drawerY:windowDimensions.get().height+60,mode:modeToSet});}}}';
+    report['code'] = verify;
     var _closure1_slot57 = report;
     report = {};
-    verify = "function VoicePanelUITsx29(){const{withSpring,opacity,DrawerShadeOpacityPhysics,accessibilityPreferencesSharedValue}=this.__closure;return{opacity:withSpring(opacity.get(),DrawerShadeOpacityPhysics),display:accessibilityPreferencesSharedValue.get().screenReaderEnabled&&opacity.get()===0?'none':'flex',pointerEvents:opacity.get()===0?'none':'auto'};}";
+    verify = "function VoicePanelUITsx28(){const{useReducedMotion,wrapperDimensions,wrapperOffset,connected,mode,VoicePanelModes,runOnJS,updateSourceTrackingView,computeBorderRadii,withSpring,DRAWER_SPRING_PHYSICS_GESTURE_ACTIVE,DRAWER_SIZE_PHYSICS,BORDER_RADIUS_PHYSICS,styles}=this.__closure;const animateXY=!useReducedMotion.get()&&wrapperDimensions.get().animated||wrapperOffset.get().gestureActive;let{gestureActive:gestureActive}=wrapperOffset.get();let{drawerY:y,drawerX:x}=wrapperDimensions.get();gestureActive=gestureActive&&!connected.get();if(gestureActive){y+=Math.max(gestureActive?wrapperOffset.get().y:0,0);x+=wrapperOffset.get().x;}const updateSourceTrackingViewHelper=function(finished){if(finished&&mode.get()!==VoicePanelModes.DISMISSED){runOnJS(updateSourceTrackingView)();}};const borderRadius=computeBorderRadii({mode:mode.get(),connected:connected.get()});return{transform:[{translateX:withSpring(x,wrapperOffset.get().gestureActive?DRAWER_SPRING_PHYSICS_GESTURE_ACTIVE:DRAWER_SIZE_PHYSICS,animateXY?'animate-always':'animate-never',updateSourceTrackingViewHelper)},{translateY:withSpring(y,wrapperOffset.get().gestureActive?DRAWER_SPRING_PHYSICS_GESTURE_ACTIVE:DRAWER_SIZE_PHYSICS,animateXY?'animate-always':'animate-never',updateSourceTrackingViewHelper)}],width:wrapperDimensions.get().drawerWidth,height:wrapperDimensions.get().drawerHeight,borderRadius:withSpring(borderRadius,BORDER_RADIUS_PHYSICS),pointerEvents:mode.get()===VoicePanelModes.PANEL?'auto':'none',backgroundColor:connected.get()?'transparent':styles.maskDefaultBackground.backgroundColor};}";
     report['code'] = verify;
     var _closure1_slot58 = report;
+    report = {};
+    verify = 'function VoicePanelUITsx29(finished){const{mode,VoicePanelModes,runOnJS,updateSourceTrackingView}=this.__closure;if(finished&&mode.get()!==VoicePanelModes.DISMISSED){runOnJS(updateSourceTrackingView)();}}';
+    report['code'] = verify;
+    var _closure1_slot59 = report;
+    report = {'mass': 0.6, 'damping': 30, 'stiffness': 400, 'overshootClamping': true};
+    var _closure1_slot60 = report;
+    report = {};
+    verify = "function VoicePanelUITsx30(){const{withSpring,opacity,DrawerShadeOpacityPhysics,accessibilityPreferencesSharedValue}=this.__closure;return{opacity:withSpring(opacity.get(),DrawerShadeOpacityPhysics),display:accessibilityPreferencesSharedValue.get().screenReaderEnabled&&opacity.get()===0?'none':'flex',pointerEvents:opacity.get()===0?'none':'auto'};}";
+    report['code'] = verify;
+    var _closure1_slot61 = report;
     verify = option.memo;
     report = function(argFoo) {
         michal = argFoo;
         verify = michal.opacity;
         var _closure2_slot0 = verify;
         report = michal.onPress;
-        michal = _closure1_slot28;
+        michal = _closure1_slot31;
         tangon = undefined;
         option = michal.bind(tangon)();
         offset = _closure1_slot0;
@@ -1148,7 +1230,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = yankee[michal];
         zuuluu = offset.bind(tangon)(michal);
         michal = zuuluu.useAnimatedStyle;
-        entity = function() { // Original name: n
+        entity = function() { // Original name: o
             _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                 entity = {};
@@ -1162,7 +1244,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = _closure2_slot0;
                 golfie = offset.get;
                 golfie = golfie.bind(offset)();
-                zuuluu = _closure1_slot57;
+                zuuluu = _closure1_slot60;
                 zuuluu = option.bind(verify)(golfie, zuuluu);
                 entity['opacity'] = zuuluu;
                 zuuluu = 29;
@@ -1206,7 +1288,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         romeon = romeon.withSpring;
         golfie['withSpring'] = romeon;
         golfie['opacity'] = verify;
-        verify = _closure1_slot57;
+        verify = _closure1_slot60;
         golfie['DrawerShadeOpacityPhysics'] = verify;
         verify = 29;
         verify = yankee[verify];
@@ -1214,9 +1296,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         verify = verify.accessibilityPreferencesSharedValue;
         golfie['accessibilityPreferencesSharedValue'] = verify;
         entity['__closure'] = golfie;
-        golfie = 16013154880935.0;
+        golfie = 4107656223951.0;
         entity['__workletHash'] = golfie;
-        golfie = _closure1_slot58;
+        golfie = _closure1_slot61;
         entity['__initData'] = golfie;
         golfie = michal.bind(zuuluu)(entity);
         zuuluu = _closure1_slot20;
@@ -1235,12 +1317,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     report = verify.bind(option)(report);
-    var _closure1_slot59 = report;
+    var _closure1_slot62 = report;
     report = option.memo;
     tangon = function() { // Original name: VoicePanelUI
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-            michal = _closure1_slot28;
+            michal = _closure1_slot31;
             report = undefined;
             sierra = michal.bind(report)();
             golfie = _closure1_slot1;
@@ -1545,7 +1627,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = update[michal];
                 variable36 = foxtra.bind(kiloes)(option);
                 quebec = variable36.useAnimatedReaction;
-                romeon = function() { // Original name: h
+                romeon = function() { // Original name: f
                     entity = {};
                     tangon = _closure3_slot28;
                     zuuluu = tangon.get;
@@ -1567,11 +1649,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option['connected'] = result;
                 option['mode'] = echoed;
                 romeon['__closure'] = option;
-                option = 15934113207567.0;
+                option = 5596084348360.0;
                 romeon['__workletHash'] = option;
-                option = _closure1_slot30;
+                option = _closure1_slot33;
                 romeon['__initData'] = option;
-                option = function(argFoo, argBar) { // Original name: f
+                option = function(argFoo, argBar) { // Original name: h
                     _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                         tangon = argFoo;
@@ -1700,9 +1782,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 variable37['setPanelOpen'] = variable39;
                 variable37['setPanelPIP'] = variable38;
                 option['__closure'] = variable37;
-                variable37 = 4124011607367.0;
+                variable37 = 10989484188294.0;
                 option['__workletHash'] = variable37;
-                variable37 = _closure1_slot31;
+                variable37 = _closure1_slot34;
                 option['__initData'] = variable37;
                 option = quebec.bind(variable36)(romeon, option);
                 quebec = _closure1_slot4;
@@ -1737,7 +1819,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = update[michal];
                 quebec = foxtra.bind(kiloes)(golfie);
                 romeon = quebec.useAnimatedReaction;
-                option = function() { // Original name: _e
+                option = function() { // Original name: Pe
                     _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                         michal = _closure3_slot13;
@@ -1769,11 +1851,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie['VoicePanelModes'] = variable36;
                 golfie['focused'] = record;
                 option['__closure'] = golfie;
-                golfie = 13008800930588.0;
+                golfie = 6595654888031.0;
                 option['__workletHash'] = golfie;
-                golfie = _closure1_slot32;
+                golfie = _closure1_slot35;
                 option['__initData'] = golfie;
-                golfie = function(argFoo, argBar) { // Original name: Pe
+                golfie = function(argFoo, argBar) { // Original name: _e
                     _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
                         zuuluu = argFoo;
@@ -1802,9 +1884,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 variable36['runOnJS'] = variable38;
                 variable36['handleFocusChange'] = variable37;
                 golfie['__closure'] = variable36;
-                variable36 = 7888261498414.0;
+                variable36 = 15236018210415.0;
                 golfie['__workletHash'] = variable36;
-                variable36 = _closure1_slot33;
+                variable36 = _closure1_slot36;
                 golfie['__initData'] = variable36;
                 golfie = romeon.bind(quebec)(option, golfie);
                 romeon = _closure1_slot4;
@@ -1862,7 +1944,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = 30;
                     oscard = report.bind(oscard)(michal);
                     report = oscard.onStart;
-                    michal = function() { // Original name: f
+                    michal = function() { // Original name: h
                         _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
                             zuuluu = _closure3_slot6;
@@ -1939,9 +2021,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     source = _closure3_slot11;
                     update['hideControls'] = source;
                     michal['__closure'] = update;
-                    update = 16572228285752.0;
+                    update = 15350003421175.0;
                     michal['__workletHash'] = update;
-                    update = _closure1_slot34;
+                    update = _closure1_slot37;
                     michal['__initData'] = update;
                     michal = report.bind(oscard)(michal);
                     report = foxtra[sizing];
@@ -2078,9 +2160,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset['controlsSpecs'] = backup;
                     offset['VoicePanelControlsModes'] = yankee;
                     report['__closure'] = offset;
-                    offset = 17478959727965.0;
+                    offset = 8664483010460.0;
                     report['__workletHash'] = offset;
-                    offset = _closure1_slot35;
+                    offset = _closure1_slot38;
                     report['__initData'] = offset;
                     option = oscard.bind(option)(report);
                     oscard = option.onBegin;
@@ -2146,9 +2228,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sequen = _closure1_slot14;
                     backup['VoicePanelModes'] = sequen;
                     report['__closure'] = backup;
-                    backup = 11835038495155.0;
+                    backup = 17111872009323.0;
                     report['__workletHash'] = backup;
-                    backup = _closure1_slot36;
+                    backup = _closure1_slot39;
                     report['__initData'] = backup;
                     option = oscard.bind(option)(report);
                     oscard = option.onTouchesMove;
@@ -2360,9 +2442,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sizing = _closure3_slot22;
                     backup['lockScrolling'] = sizing;
                     report['__closure'] = backup;
-                    backup = 6089239902254.0;
+                    backup = 258923978639.0;
                     report['__workletHash'] = backup;
-                    backup = _closure1_slot37;
+                    backup = _closure1_slot40;
                     report['__initData'] = backup;
                     option = oscard.bind(option)(report);
                     oscard = option.onChange;
@@ -2578,9 +2660,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     backup['updateSharedValueIfChanged'] = sequen;
                     backup['wrapperOffset'] = update;
                     report['__closure'] = backup;
-                    backup = 3397826364238.0;
+                    backup = 2084376677229.0;
                     report['__workletHash'] = backup;
-                    backup = _closure1_slot38;
+                    backup = _closure1_slot41;
                     report['__initData'] = backup;
                     option = oscard.bind(option)(report);
                     oscard = option.onTouchesCancelled;
@@ -2614,13 +2696,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     backup['gestureState'] = verify;
                     backup['wrapperOffset'] = update;
                     report['__closure'] = backup;
-                    backup = 7213681978921.0;
+                    backup = 1545455953096.0;
                     report['__workletHash'] = backup;
-                    backup = _closure1_slot39;
+                    backup = _closure1_slot42;
                     report['__initData'] = backup;
                     option = oscard.bind(option)(report);
                     oscard = option.onEnd;
-                    report = function(argFoo) { // Original name: o
+                    report = function(argFoo) { // Original name: n
                         _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
  0:
                             michal = argFoo;
@@ -2807,9 +2889,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     kiloes = _closure3_slot8;
                     backup['dismissPanel'] = kiloes;
                     report['__closure'] = backup;
-                    backup = 17405252124925.0;
+                    backup = 6620044474202.0;
                     report['__workletHash'] = backup;
-                    backup = _closure1_slot40;
+                    backup = _closure1_slot43;
                     report['__initData'] = backup;
                     oscard = oscard.bind(option)(report);
                     report = oscard.onFinalize;
@@ -2831,9 +2913,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option['updateSharedValueIfChanged'] = offset;
                     option['gestureState'] = verify;
                     entity['__closure'] = option;
-                    option = 10256381593154.0;
+                    option = 4997727145379.0;
                     entity['__workletHash'] = option;
-                    golfie = _closure1_slot41;
+                    golfie = _closure1_slot44;
                     entity['__initData'] = golfie;
                     entity = report.bind(oscard)(entity);
                     entity = zuuluu.bind(tangon)(michal, entity);
@@ -2844,7 +2926,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = foxtra.bind(kiloes)(oscard);
                 golfie = option.useAnimatedScrollHandler;
                 oscard = {};
-                source = function(argFoo) { // Original name: ve
+                source = function(argFoo) { // Original name: Oe
                     tangon = _closure3_slot0;
                     zuuluu = tangon.set;
                     michal = argFoo;
@@ -2862,12 +2944,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 ctrled['scrollPosition'] = cntext;
                 ctrled['dragScrolling'] = papara;
                 source['__closure'] = ctrled;
-                ctrled = 11642227717143.0;
+                ctrled = 57033362164.0;
                 source['__workletHash'] = ctrled;
-                ctrled = _closure1_slot42;
+                ctrled = _closure1_slot45;
                 source['__initData'] = ctrled;
                 oscard['onBeginDrag'] = source;
-                source = function() { // Original name: Ve
+                source = function() { // Original name: ve
                     zuuluu = _closure3_slot1;
                     michal = zuuluu.set;
                     entity = false;
@@ -2878,9 +2960,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 ctrled = {};
                 ctrled['dragScrolling'] = papara;
                 source['__closure'] = ctrled;
-                ctrled = 12259366631184.0;
+                ctrled = 14366146937201.0;
                 source['__workletHash'] = ctrled;
-                ctrled = _closure1_slot43;
+                ctrled = _closure1_slot46;
                 source['__initData'] = ctrled;
                 oscard['onEndDrag'] = source;
                 source = function() { // Original name: Ie
@@ -2894,9 +2976,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 ctrled = {};
                 ctrled['dragScrolling'] = papara;
                 source['__closure'] = ctrled;
-                ctrled = 11977263965289.0;
+                ctrled = 12919609750790.0;
                 source['__workletHash'] = ctrled;
-                ctrled = _closure1_slot44;
+                ctrled = _closure1_slot47;
                 source['__initData'] = ctrled;
                 oscard['onMomentumEnd'] = source;
                 source = function(argFoo) { // Original name: me
@@ -2917,7 +2999,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = undefined;
                         if(!(michal !== tangon)) { _fun00038_ip = 115; continue _fun00037 }
  57:
-                        verify = _closure1_slot27;
+                        verify = _closure1_slot30;
                         golfie = _closure3_slot0;
                         tangon = golfie.get;
                         option = tangon.bind(golfie)();
@@ -2982,7 +3064,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 cntext = cntext.scrollTo;
                 ctrled['scrollTo'] = cntext;
                 ctrled['scrollerRef'] = yankee;
-                cntext = _closure1_slot27;
+                cntext = _closure1_slot30;
                 ctrled['computeViewableChunksFromScrollPosition'] = cntext;
                 ctrled['windowDimensions'] = sizing;
                 ctrled['scrollableRegionSize'] = tangon;
@@ -2992,9 +3074,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 ctrled['updateSharedValueIfChanged'] = cntext;
                 ctrled['viewableChunks'] = verify;
                 source['__closure'] = ctrled;
-                ctrled = 11677922125392.0;
+                ctrled = 12772858977553.0;
                 source['__workletHash'] = ctrled;
-                ctrled = _closure1_slot45;
+                ctrled = _closure1_slot48;
                 source['__initData'] = ctrled;
                 oscard['onScroll'] = source;
                 option = golfie.bind(option)(oscard);
@@ -3010,11 +3092,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = {};
                 oscard['mode'] = echoed;
                 golfie['__closure'] = oscard;
-                oscard = 4256903359069.0;
+                oscard = 9335671323831.0;
                 golfie['__workletHash'] = oscard;
-                oscard = _closure1_slot46;
+                oscard = _closure1_slot49;
                 golfie['__initData'] = oscard;
-                oscard = function(argFoo, argBar) { // Original name: Oe
+                oscard = function(argFoo, argBar) { // Original name: Ve
                     _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
  0:
                         michal = argFoo;
@@ -3059,9 +3141,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 cntext['VoicePanelModes'] = papara;
                 cntext['lockScrolling'] = sequen;
                 oscard['__closure'] = cntext;
-                cntext = 4765310921809.0;
+                cntext = 15902278985136.0;
                 oscard['__workletHash'] = cntext;
-                cntext = _closure1_slot47;
+                cntext = _closure1_slot50;
                 oscard['__initData'] = cntext;
                 oscard = source.bind(ctrled)(golfie, oscard);
                 oscard = update[michal];
@@ -3140,9 +3222,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 ctrled['calculateVoicePanelHeaderSpecs'] = sequen;
                 ctrled['safeArea'] = vacuum;
                 oscard['__closure'] = ctrled;
-                ctrled = 10088152825578.0;
+                ctrled = 11925957642441.0;
                 oscard['__workletHash'] = ctrled;
-                ctrled = _closure1_slot48;
+                ctrled = _closure1_slot51;
                 oscard['__initData'] = ctrled;
                 golfie = golfie.bind(source)(oscard);
                 vacuum = _closure1_slot4;
@@ -3161,7 +3243,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = update[michal];
                 foxtra = foxtra.bind(kiloes)(michal);
                 michal = foxtra.useDerivedValue;
-                entity = function() { // Original name: Ee
+                entity = function() { // Original name: be
                     _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
  0:
                         zuuluu = _closure3_slot13;
@@ -3243,9 +3325,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 kiloes['wrapperOffset'] = report;
                 kiloes['windowDimensions'] = sizing;
                 entity['__closure'] = kiloes;
-                kiloes = 2192115121372.0;
+                kiloes = 7328947258749.0;
                 entity['__workletHash'] = kiloes;
-                backup = _closure1_slot49;
+                backup = _closure1_slot52;
                 entity['__initData'] = backup;
                 michal = michal.bind(foxtra)(entity);
                 entity = {};
@@ -3328,7 +3410,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = new Array(3);
             verify[0] = offset;
             romeon = _closure1_slot20;
-            yankee = _closure1_slot59;
+            yankee = _closure1_slot62;
             offset = {};
             offset['opacity'] = update;
             offset['onPress'] = kiloes;
@@ -3362,7 +3444,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = output.bind(report)(kiloes, romeon);
             romeon = new Array(4);
             romeon[0] = kiloes;
-            output = _closure1_slot61;
+            output = _closure1_slot64;
             kiloes = {};
             kiloes['wrapperOffset'] = record;
             source = _closure1_slot20;
@@ -3409,13 +3491,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = record.GestureDetector;
             record = {};
             record['gesture'] = target;
-            status = _closure1_slot29;
+            status = _closure1_slot32;
             target = {};
-            variable37 = _closure1_slot24;
+            variable37 = _closure1_slot27;
             target['layout'] = variable37;
             target['ref'] = variable36;
             target['onScroll'] = quebec;
-            quebec = _closure1_slot60;
+            quebec = _closure1_slot63;
             target['onMomentumScrollEnd'] = quebec;
             target['animatedProps'] = whisks;
             whisks = sierra.scrollView;

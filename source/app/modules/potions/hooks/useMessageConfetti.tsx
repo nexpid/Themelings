@@ -101,10 +101,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         yankee = foxtra[yankee];
         var _closure2_slot4 = yankee;
         yankee = verify.useRef;
-        yankee = yankee.bind(verify)();
+        foxtra = null;
+        yankee = yankee.bind(verify)(foxtra);
         var _closure2_slot5 = yankee;
         yankee = verify.useRef;
-        yankee = yankee.bind(verify)();
+        yankee = yankee.bind(verify)(foxtra);
         var _closure2_slot6 = yankee;
         yankee = verify.useRef;
         option = _closure1_slot5;

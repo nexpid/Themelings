@@ -114,12 +114,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zuuluu = _closure2_slot3;
-                    if(zuuluu) { _fun00004_ip = 69; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 59; continue _fun00003 }
  12:
-                    tangon = _closure2_slot0;
-                    zuuluu = null;
-                    if(!(zuuluu != tangon)) { _fun00004_ip = 69; continue _fun00003 }
- 22:
                     michal = _closure2_slot4;
                     report = michal.current;
                     var _closure3_slot0 = report;
@@ -150,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     return entity;
- 69:
+ 59:
                     entity = undefined;
                     return entity;
                 }

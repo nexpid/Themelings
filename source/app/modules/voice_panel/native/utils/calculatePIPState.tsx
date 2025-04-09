@@ -121,45 +121,47 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal['blockList'] = report;
             report = entity.mode;
             michal['panelMode'] = report;
+            report = entity.showSecondaryPIP;
+            michal['showSecondaryPIP'] = report;
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = offset == zuuluu;
             tangon = undefined;
-            if(michal) { _fun00002_ip = 318; continue _fun00001 }
- 313:
+            if(michal) { _fun00002_ip = 329; continue _fun00001 }
+ 324:
             tangon = zuuluu.type;
- 318:
+ 329:
             michal = _closure1_slot5;
             michal = michal.STREAM;
             oscard = tangon !== michal;
-            if(!oscard) { _fun00002_ip = 363; continue _fun00001 }
- 335:
+            if(!oscard) { _fun00002_ip = 374; continue _fun00001 }
+ 346:
             michal = offset == zuuluu;
             tangon = undefined;
-            if(michal) { _fun00002_ip = 349; continue _fun00001 }
- 344:
+            if(michal) { _fun00002_ip = 360; continue _fun00001 }
+ 355:
             tangon = zuuluu.type;
- 349:
+ 360:
             michal = _closure1_slot5;
             michal = michal.ACTIVITY;
             oscard = tangon !== michal;
- 363:
-            if(!oscard) { _fun00002_ip = 406; continue _fun00001 }
- 366:
+ 374:
+            if(!oscard) { _fun00002_ip = 417; continue _fun00001 }
+ 377:
             michal = entity.focusedId;
             michal = offset == michal;
-            if(michal) { _fun00002_ip = 403; continue _fun00001 }
- 379:
+            if(michal) { _fun00002_ip = 414; continue _fun00001 }
+ 390:
             tangon = offset == zuuluu;
             report = undefined;
-            if(tangon) { _fun00002_ip = 393; continue _fun00001 }
- 388:
+            if(tangon) { _fun00002_ip = 404; continue _fun00001 }
+ 399:
             report = zuuluu.id;
- 393:
+ 404:
             tangon = entity.focusedId;
             michal = report !== tangon;
- 403:
+ 414:
             oscard = michal;
- 406:
+ 417:
             tangon = _closure1_slot0;
             michal = _closure1_slot1;
             michal = michal[romeon];
@@ -168,23 +170,23 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             foxtra = backup.getTargetDimensions;
             kiloes = offset == zuuluu;
             michal = undefined;
-            if(kiloes) { _fun00002_ip = 449; continue _fun00001 }
- 444:
+            if(kiloes) { _fun00002_ip = 460; continue _fun00001 }
+ 455:
             michal = zuuluu.id;
- 449:
+ 460:
             michal = foxtra.bind(backup)(michal);
-            if(!(offset == michal)) { _fun00002_ip = 481; continue _fun00001 }
- 458:
+            if(!(offset == michal)) { _fun00002_ip = 492; continue _fun00001 }
+ 469:
             offset = _closure1_slot0;
             verify = _closure1_slot1;
             verify = verify[romeon];
             verify = offset.bind(yankee)(verify);
             michal = verify.SquarePIPReferenceDimensions;
- 481:
-            if(!golfie) { _fun00002_ip = 487; continue _fun00001 }
- 484:
+ 492:
+            if(!golfie) { _fun00002_ip = 498; continue _fun00001 }
+ 495:
             golfie = option;
- 487:
+ 498:
             sizing = entity.showSecondaryPIP;
             update = report;
             echoed = michal;

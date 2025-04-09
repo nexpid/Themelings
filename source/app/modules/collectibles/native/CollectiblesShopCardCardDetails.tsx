@@ -57,8 +57,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     backup = backup - foxtra;
     offset['height'] = backup;
     tangon['regularMetadataContainer'] = offset;
-    offset = {'height': 100, 'width': 210, 'paddingHorizontal': 10, 'paddingVertical': 2, 'flex': 1, 'overflow': 'hidden'};
-    tangon['condensedMetadataContainer'] = offset;
     offset = {};
     backup = 7;
     sizing = oscard[backup];
@@ -85,8 +83,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     sizing = 'auto';
     offset['marginTop'] = sizing;
     tangon['ctaButtonContainer'] = offset;
-    offset = {'marginTop': 'auto', 'width': 100, 'marginRight': 10};
-    tangon['condensedCtaButtonContainer'] = offset;
     offset = {};
     sizing = oscard[backup];
     sizing = kiloes.bind(entity)(sizing);
@@ -262,7 +258,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot10 = option;
     tangon = 'PriceDescription';
     option['displayName'] = tangon;
-    tangon = function(argFoo) { // Original name: RegularCardDetails
+    tangon = golfie.memo;
+    michal = function(argFoo) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
@@ -477,121 +474,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[4] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
-        }
-    };
-    var _closure1_slot11 = tangon;
-    tangon = function(argFoo) { // Original name: CondensedCardDetails
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
- 0:
-            entity = argFoo;
-            foxtra = entity.product;
-            entity = _closure1_slot9;
-            tangon = undefined;
-            yankee = entity.bind(tangon)();
-            golfie = _closure1_slot0;
-            kiloes = _closure1_slot2;
-            entity = 16;
-            entity = kiloes[entity];
-            michal = golfie.bind(tangon)(entity);
-            entity = michal.useCurrentUser;
-            zuuluu = entity.bind(michal)();
-            entity = 18;
-            entity = kiloes[entity];
-            michal = golfie.bind(tangon)(entity);
-            entity = michal.isPremiumCollectiblesProduct;
-            option = entity.bind(michal)(foxtra);
-            backup = _closure1_slot1;
-            entity = 19;
-            entity = kiloes[entity];
-            michal = backup.bind(tangon)(entity);
-            entity = michal.canUseCollectibles;
-            romeon = entity.bind(michal)(zuuluu);
-            zuuluu = _closure1_slot8;
-            michal = _closure1_slot4;
-            entity = {};
-            report = yankee.condensedMetadataContainer;
-            entity['style'] = report;
-            offset = _closure1_slot7;
-            oscard = 10;
-            report = kiloes[oscard];
-            report = golfie.bind(tangon)(report);
-            sizing = report.Text;
-            report = {'style': null, 'variant': 'heading-sm/bold', 'color': 'header-primary', 'lineClamp': 1};
-            output = yankee.assetName;
-            report['style'] = output;
-            output = foxtra.name;
-            report['children'] = output;
-            sizing = offset.bind(tangon)(sizing, report);
-            report = new Array(3);
-            report[0] = sizing;
-            oscard = kiloes[oscard];
-            oscard = golfie.bind(tangon)(oscard);
-            golfie = oscard.Text;
-            oscard = {'style': null, 'variant': 'heading-sm/normal', 'color': 'header-primary', 'lineClamp': 2};
-            sizing = yankee.assetDescription;
-            oscard['style'] = sizing;
-            sizing = foxtra.summary;
-            oscard['children'] = sizing;
-            oscard = offset.bind(tangon)(golfie, oscard);
-            report[1] = oscard;
-            oscard = {};
-            golfie = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
-            oscard['style'] = golfie;
-            golfie = {};
-            yankee = yankee.condensedCtaButtonContainer;
-            golfie['style'] = yankee;
-            yankee = 21;
-            yankee = kiloes[yankee];
-            backup = backup.bind(tangon)(yankee);
-            yankee = {};
-            yankee['product'] = foxtra;
-            kiloes = true;
-            yankee['onMainScreen'] = kiloes;
-            yankee = offset.bind(tangon)(backup, yankee);
-            golfie['children'] = yankee;
-            offset = offset.bind(tangon)(michal, golfie);
-            golfie = new Array(2);
-            golfie[0] = offset;
-            option = !option;
-            if(!option) { _fun00006_ip = 366; continue _fun00005 }
- 340:
-            yankee = _closure1_slot7;
-            offset = _closure1_slot10;
-            verify = {};
-            verify['product'] = foxtra;
-            verify['isPremiumUser'] = romeon;
-            option = yankee.bind(tangon)(offset, verify);
- 366:
-            golfie[1] = option;
-            oscard['children'] = golfie;
-            oscard = zuuluu.bind(tangon)(michal, oscard);
-            report[2] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
-        }
-    };
-    var _closure1_slot12 = tangon;
-    tangon = golfie.memo;
-    michal = function(argFoo) {
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
- 0:
-            michal = argFoo;
-            entity = michal.product;
-            zuuluu = michal.condensed;
-            tangon = _closure1_slot7;
-            if(zuuluu) { _fun00008_ip = 31; continue _fun00007 }
- 25:
-            zuuluu = _closure1_slot11;
-            _fun00008_ip = 35; continue _fun00007;
- 31:
-            zuuluu = _closure1_slot12;
- 35:
-            michal = {};
-            michal['product'] = entity;
-            entity = undefined;
-            entity = tangon.bind(entity)(zuuluu, michal);
             return entity;
         }
     };

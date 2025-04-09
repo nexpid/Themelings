@@ -1356,51 +1356,61 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = function(argFoo) { // Original name: children
                 _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
+                    zuuluu = argFoo;
+                    report = zuuluu.ref;
+                    option = null;
+                    michal = Object.create(option);
+                    verify = 0;
+                    michal['ref'] = verify;
+                    echoed = {};
+                    result = zuuluu;
+                    output = michal;
+                    result = copyDataProperties(echoed, result, output);
                     tangon = _closure1_slot12;
                     zuuluu = _closure1_slot5;
                     michal = {};
-                    entity = _closure2_slot8;
-                    entity = entity.header;
-                    michal['style'] = entity;
-                    kiloes = argFoo;
-                    sizing = michal;
-                    entity = copyDataProperties(sizing, kiloes);
+                    oscard = _closure2_slot8;
+                    oscard = oscard.header;
+                    michal['style'] = oscard;
+                    echoed = michal;
+                    entity = copyDataProperties(echoed, result);
+                    entity = 'ref';
+                    michal[entity] = report;
                     golfie = _closure1_slot11;
-                    romeon = _closure1_slot0;
-                    backup = _closure1_slot2;
+                    kiloes = _closure1_slot0;
+                    sizing = _closure1_slot2;
                     entity = 26;
-                    report = backup[entity];
+                    report = sizing[entity];
                     entity = undefined;
-                    report = romeon.bind(entity)(report);
+                    report = kiloes.bind(entity)(report);
                     oscard = report.Text;
                     report = {'variant': 'text-lg/bold', 'color': 'header-primary'};
-                    option = 19;
-                    verify = backup[option];
-                    verify = romeon.bind(entity)(verify);
-                    yankee = verify.intl;
-                    verify = yankee.string;
-                    option = backup[option];
-                    option = romeon.bind(entity)(option);
-                    option = option.t;
-                    option = option.acSE0t;
-                    option = verify.bind(yankee)(option);
-                    report['children'] = option;
+                    yankee = 19;
+                    romeon = sizing[yankee];
+                    romeon = kiloes.bind(entity)(romeon);
+                    backup = romeon.intl;
+                    romeon = backup.string;
+                    yankee = sizing[yankee];
+                    yankee = kiloes.bind(entity)(yankee);
+                    yankee = yankee.t;
+                    yankee = yankee.acSE0t;
+                    yankee = romeon.bind(backup)(yankee);
+                    report['children'] = yankee;
                     report = golfie.bind(entity)(oscard, report);
                     oscard = new Array(2);
                     oscard[0] = report;
                     report = _closure2_slot2;
                     report = report.length;
-                    verify = 0;
                     golfie = report > verify;
                     report = null;
-                    if(!golfie) { _fun00022_ip = 297; continue _fun00021 }
- 172:
+                    if(!golfie) { _fun00022_ip = 332; continue _fun00021 }
+ 207:
                     golfie = _closure2_slot4;
                     golfie = golfie.length;
                     golfie = golfie > verify;
                     report = null;
-                    if(!golfie) { _fun00022_ip = 297; continue _fun00021 }
- 190:
+                    if(!golfie) { _fun00022_ip = 332; continue _fun00021 }
+ 225:
                     verify = _closure1_slot11;
                     option = _closure1_slot1;
                     backup = _closure1_slot2;
@@ -1426,7 +1436,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = romeon.bind(entity)(yankee, offset);
                     golfie['children'] = offset;
                     report = verify.bind(entity)(option, golfie);
- 297:
+ 332:
                     oscard[1] = report;
                     report = 'children';
                     michal[report] = oscard;

@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
     var _closure1_slot9 = tangon;
-    tangon = 50;
+    tangon = 51;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             tangon = _closure1_slot1;
             golfie = _closure1_slot2;
-            michal = 45;
+            michal = 46;
             michal = golfie[michal];
             report = undefined;
             michal = tangon.bind(report)(michal);
@@ -81,14 +81,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = michal.bottom;
             var _closure2_slot0 = verify;
             oscard = _closure1_slot0;
-            michal = 46;
+            michal = 47;
             michal = golfie[michal];
             zuuluu = oscard.bind(report)(michal);
             michal = zuuluu.useAndroidNavScrim;
             michal = michal.bind(zuuluu)();
             zuuluu = michal.scrim;
             var _closure2_slot1 = zuuluu;
-            michal = 47;
+            michal = 48;
             michal = golfie[michal];
             tangon = tangon.bind(report)(michal);
             michal = function() {
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal = tangon.bind(report)(michal);
             var _closure2_slot2 = michal;
-            tangon = 48;
+            tangon = 49;
             tangon = golfie[tangon];
             option = oscard.bind(report)(tangon);
             golfie = option.useStateFromStores;
@@ -408,6 +408,43 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         };
                         zuuluu['render'] = romeon;
                         entity[oscard] = zuuluu;
+                        oscard = michal.STICKERS;
+                        zuuluu = {};
+                        romeon = offset[golfie];
+                        romeon = verify.bind(option)(romeon);
+                        romeon = romeon.ImpressionNames;
+                        romeon = romeon.GUILD_SETTINGS_STICKERS;
+                        zuuluu['impressionName'] = romeon;
+                        romeon = offset[report];
+                        romeon = verify.bind(option)(romeon);
+                        backup = romeon.intl;
+                        foxtra = backup.string;
+                        romeon = offset[report];
+                        romeon = verify.bind(option)(romeon);
+                        romeon = romeon.t;
+                        romeon = romeon.R5nQkZ;
+                        romeon = foxtra.bind(backup)(romeon);
+                        zuuluu['title'] = romeon;
+                        zuuluu['postponeRender'] = yankee;
+                        romeon = function() { // Original name: render
+                            tangon = _closure1_slot9;
+                            michal = _closure1_slot1;
+                            zuuluu = _closure1_slot2;
+                            entity = 18;
+                            entity = zuuluu[entity];
+                            zuuluu = undefined;
+                            michal = michal.bind(zuuluu)(entity);
+                            entity = {};
+                            oscard = _closure4_slot0;
+                            entity['guildId'] = oscard;
+                            golfie = _closure4_slot1;
+                            option = entity;
+                            report = copyDataProperties(option, golfie);
+                            entity = tangon.bind(zuuluu)(michal, entity);
+                            return entity;
+                        };
+                        zuuluu['render'] = romeon;
+                        entity[oscard] = zuuluu;
                         oscard = michal.WEBHOOKS;
                         zuuluu = {};
                         romeon = offset[golfie];
@@ -429,7 +466,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 18;
+                            entity = 19;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -463,7 +500,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 19;
+                            entity = 20;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -500,7 +537,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 18;
+                            entity = 19;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -539,7 +576,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 20;
+                            entity = 21;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -571,7 +608,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 21;
+                            entity = 22;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -606,7 +643,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 22;
+                            entity = 23;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -637,7 +674,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 23;
+                            entity = 24;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -675,7 +712,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 24;
+                            entity = 25;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -711,7 +748,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 25;
+                            entity = 26;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -747,7 +784,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 26;
+                            entity = 27;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -778,7 +815,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 27;
+                            entity = 28;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -812,7 +849,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 28;
+                            entity = 29;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -849,7 +886,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 29;
+                            entity = 30;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -886,7 +923,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 30;
+                            entity = 31;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -907,7 +944,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot0;
                             zuuluu = _closure1_slot2;
-                            entity = 31;
+                            entity = 32;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             entity = michal.bind(zuuluu)(entity);
@@ -937,7 +974,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 32;
+                            entity = 33;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -966,7 +1003,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 33;
+                            entity = 34;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -1006,7 +1043,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 34;
+                            entity = 35;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -1043,7 +1080,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 35;
+                            entity = 36;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -1080,7 +1117,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 36;
+                            entity = 37;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -1114,7 +1151,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 37;
+                            entity = 38;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -1142,7 +1179,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 38;
+                            entity = 39;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -1170,7 +1207,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 39;
+                            entity = 40;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -1198,7 +1235,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 40;
+                            entity = 41;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -1226,7 +1263,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 41;
+                            entity = 42;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -1258,7 +1295,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 42;
+                            entity = 43;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -1286,7 +1323,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 43;
+                            entity = 44;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -1314,7 +1351,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot9;
                             michal = _closure1_slot1;
                             zuuluu = _closure1_slot2;
-                            entity = 44;
+                            entity = 45;
                             entity = zuuluu[entity];
                             zuuluu = undefined;
                             michal = michal.bind(zuuluu)(entity);
@@ -1408,7 +1445,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = _closure1_slot9;
             zuuluu = _closure1_slot0;
             yankee = _closure1_slot2;
-            michal = 49;
+            michal = 50;
             michal = yankee[michal];
             michal = zuuluu.bind(report)(michal);
             zuuluu = michal.Navigator;

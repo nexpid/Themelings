@@ -1392,7 +1392,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(entity)(zuuluu);
             zuuluu = zuuluu.MessageTypes;
             zuuluu = zuuluu.DEFAULT;
-            if(!(zuuluu !== tangon)) { _fun00022_ip = 595; continue _fun00021 }
+            if(!(zuuluu !== tangon)) { _fun00022_ip = 631; continue _fun00021 }
  47:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -1400,7 +1400,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(entity)(zuuluu);
             zuuluu = zuuluu.MessageTypes;
             zuuluu = zuuluu.CHANGELOG;
-            if(!(zuuluu !== tangon)) { _fun00022_ip = 595; continue _fun00021 }
+            if(!(zuuluu !== tangon)) { _fun00022_ip = 631; continue _fun00021 }
  83:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -1408,7 +1408,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(entity)(zuuluu);
             zuuluu = zuuluu.MessageTypes;
             zuuluu = zuuluu.REPLY;
-            if(!(zuuluu !== tangon)) { _fun00022_ip = 595; continue _fun00021 }
+            if(!(zuuluu !== tangon)) { _fun00022_ip = 631; continue _fun00021 }
  119:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -1416,7 +1416,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(entity)(zuuluu);
             zuuluu = zuuluu.MessageTypes;
             zuuluu = zuuluu.CHAT_INPUT_COMMAND;
-            if(!(zuuluu !== tangon)) { _fun00022_ip = 595; continue _fun00021 }
+            if(!(zuuluu !== tangon)) { _fun00022_ip = 631; continue _fun00021 }
  155:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -1424,7 +1424,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(entity)(zuuluu);
             zuuluu = zuuluu.MessageTypes;
             zuuluu = zuuluu.CONTEXT_MENU_COMMAND;
-            if(!(zuuluu !== tangon)) { _fun00022_ip = 595; continue _fun00021 }
+            if(!(zuuluu !== tangon)) { _fun00022_ip = 631; continue _fun00021 }
  191:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -1432,119 +1432,127 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(entity)(zuuluu);
             zuuluu = zuuluu.MessageTypes;
             zuuluu = zuuluu.POLL_RESULT;
-            if(!(zuuluu !== tangon)) { _fun00022_ip = 595; continue _fun00021 }
+            if(!(zuuluu !== tangon)) { _fun00022_ip = 631; continue _fun00021 }
  227:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[oscard];
             zuuluu = report.bind(entity)(zuuluu);
             zuuluu = zuuluu.MessageTypes;
-            zuuluu = zuuluu.RECIPIENT_ADD;
-            if(!(zuuluu !== tangon)) { _fun00022_ip = 589; continue _fun00021 }
+            zuuluu = zuuluu.AUTO_MODERATION_ACTION;
+            if(!(zuuluu !== tangon)) { _fun00022_ip = 631; continue _fun00021 }
  263:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[oscard];
             zuuluu = report.bind(entity)(zuuluu);
             zuuluu = zuuluu.MessageTypes;
-            zuuluu = zuuluu.RECIPIENT_REMOVE;
-            if(!(zuuluu !== tangon)) { _fun00022_ip = 583; continue _fun00021 }
+            zuuluu = zuuluu.RECIPIENT_ADD;
+            if(!(zuuluu !== tangon)) { _fun00022_ip = 625; continue _fun00021 }
  299:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[oscard];
             zuuluu = report.bind(entity)(zuuluu);
             zuuluu = zuuluu.MessageTypes;
-            zuuluu = zuuluu.CALL;
-            if(!(zuuluu !== tangon)) { _fun00022_ip = 577; continue _fun00021 }
+            zuuluu = zuuluu.RECIPIENT_REMOVE;
+            if(!(zuuluu !== tangon)) { _fun00022_ip = 619; continue _fun00021 }
  335:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[oscard];
             zuuluu = report.bind(entity)(zuuluu);
             zuuluu = zuuluu.MessageTypes;
-            zuuluu = zuuluu.CHANNEL_NAME_CHANGE;
-            if(!(zuuluu !== tangon)) { _fun00022_ip = 571; continue _fun00021 }
+            zuuluu = zuuluu.CALL;
+            if(!(zuuluu !== tangon)) { _fun00022_ip = 613; continue _fun00021 }
  371:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[oscard];
             zuuluu = report.bind(entity)(zuuluu);
             zuuluu = zuuluu.MessageTypes;
-            zuuluu = zuuluu.CHANNEL_ICON_CHANGE;
-            if(!(zuuluu !== tangon)) { _fun00022_ip = 565; continue _fun00021 }
+            zuuluu = zuuluu.CHANNEL_NAME_CHANGE;
+            if(!(zuuluu !== tangon)) { _fun00022_ip = 607; continue _fun00021 }
  407:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[oscard];
             zuuluu = report.bind(entity)(zuuluu);
             zuuluu = zuuluu.MessageTypes;
+            zuuluu = zuuluu.CHANNEL_ICON_CHANGE;
+            if(!(zuuluu !== tangon)) { _fun00022_ip = 601; continue _fun00021 }
+ 443:
+            report = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu[oscard];
+            zuuluu = report.bind(entity)(zuuluu);
+            zuuluu = zuuluu.MessageTypes;
             zuuluu = zuuluu.CHANNEL_PINNED_MESSAGE;
-            if(!(zuuluu !== tangon)) { _fun00022_ip = 559; continue _fun00021 }
- 440:
+            if(!(zuuluu !== tangon)) { _fun00022_ip = 595; continue _fun00021 }
+ 476:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[oscard];
             zuuluu = report.bind(entity)(zuuluu);
             zuuluu = zuuluu.MessageTypes;
             zuuluu = zuuluu.USER_JOIN;
-            if(!(zuuluu !== tangon)) { _fun00022_ip = 553; continue _fun00021 }
- 473:
+            if(!(zuuluu !== tangon)) { _fun00022_ip = 589; continue _fun00021 }
+ 509:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[oscard];
             zuuluu = report.bind(entity)(zuuluu);
             zuuluu = zuuluu.MessageTypes;
             zuuluu = zuuluu.THREAD_CREATED;
-            if(!(zuuluu !== tangon)) { _fun00022_ip = 547; continue _fun00021 }
- 506:
+            if(!(zuuluu !== tangon)) { _fun00022_ip = 583; continue _fun00021 }
+ 542:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[oscard];
             zuuluu = report.bind(entity)(zuuluu);
             zuuluu = zuuluu.MessageTypes;
             zuuluu = zuuluu.PREMIUM_REFERRAL;
-            if(!(zuuluu !== tangon)) { _fun00022_ip = 541; continue _fun00021 }
- 539:
-            return entity;
- 541:
-            entity = _closure1_slot27;
-            return entity;
- 547:
-            entity = _closure1_slot26;
-            return entity;
- 553:
-            entity = _closure1_slot25;
-            return entity;
- 559:
-            entity = _closure1_slot24;
-            return entity;
- 565:
-            entity = _closure1_slot23;
-            return entity;
- 571:
-            entity = _closure1_slot22;
+            if(!(zuuluu !== tangon)) { _fun00022_ip = 577; continue _fun00021 }
+ 575:
             return entity;
  577:
-            entity = _closure1_slot17;
+            entity = _closure1_slot27;
             return entity;
  583:
-            entity = _closure1_slot21;
+            entity = _closure1_slot26;
             return entity;
  589:
-            entity = _closure1_slot20;
+            entity = _closure1_slot25;
             return entity;
  595:
+            entity = _closure1_slot24;
+            return entity;
+ 601:
+            entity = _closure1_slot23;
+            return entity;
+ 607:
+            entity = _closure1_slot22;
+            return entity;
+ 613:
+            entity = _closure1_slot17;
+            return entity;
+ 619:
+            entity = _closure1_slot21;
+            return entity;
+ 625:
+            entity = _closure1_slot20;
+            return entity;
+ 631:
             entity = _closure1_slot13;
             zuuluu = entity.STREAMLINED;
             entity = argBar;
-            if(!(entity !== zuuluu)) { _fun00022_ip = 618; continue _fun00021 }
- 612:
+            if(!(entity !== zuuluu)) { _fun00022_ip = 654; continue _fun00021 }
+ 648:
             entity = _closure1_slot19;
-            _fun00022_ip = 622; continue _fun00021;
- 618:
+            _fun00022_ip = 658; continue _fun00021;
+ 654:
             entity = _closure1_slot18;
- 622:
+ 658:
             return entity;
         }
     };

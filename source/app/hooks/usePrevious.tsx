@@ -28,9 +28,10 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     michal = function(argFoo) { // Original name: usePrevious
         oscard = argFoo;
         var _closure2_slot0 = oscard;
-        entity = _closure1_slot0;
+        tangon = _closure1_slot0;
         report = undefined;
-        entity = entity.bind(report)();
+        entity = null;
+        entity = tangon.bind(report)(entity);
         var _closure2_slot1 = entity;
         tangon = _closure1_slot1;
         zuuluu = new Array(1);

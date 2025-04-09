@@ -177,13 +177,13 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             var _closure2_slot0 = zuuluu;
             tangon = _closure1_slot2;
             zuuluu = tangon.useRef;
-            zuuluu = zuuluu.bind(tangon)();
+            report = undefined;
+            zuuluu = zuuluu.bind(tangon)(report);
             var _closure2_slot1 = zuuluu;
             tangon = _closure1_slot0;
             oscard = _closure1_slot1;
             zuuluu = 1;
             zuuluu = oscard[zuuluu];
-            report = undefined;
             zuuluu = tangon.bind(report)(zuuluu);
             zuuluu = zuuluu.AppLauncherEntrypoint;
             golfie = zuuluu.TEXT;
@@ -228,10 +228,10 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             michal = _closure1_slot4;
             michal = zuuluu.bind(tangon)(michal);
             zuuluu = null;
-            if(!(zuuluu != michal)) { _fun00010_ip = 203; continue _fun00009 }
- 200:
+            if(!(zuuluu != michal)) { _fun00010_ip = 204; continue _fun00009 }
+ 201:
             entity = michal;
- 203:
+ 204:
             return entity;
         }
     };

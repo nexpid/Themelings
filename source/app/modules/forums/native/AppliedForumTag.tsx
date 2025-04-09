@@ -71,48 +71,58 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = function(argFoo) { // Original name: children
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
+                    zuuluu = argFoo;
+                    golfie = zuuluu.ref;
+                    romeon = null;
+                    michal = Object.create(romeon);
+                    entity = 0;
+                    michal['ref'] = entity;
+                    update = {};
+                    echoed = zuuluu;
+                    result = michal;
+                    oscard = copyDataProperties(update, echoed, result);
                     tangon = _closure1_slot7;
                     zuuluu = _closure1_slot3;
                     michal = {};
                     entity = _closure2_slot1;
-                    oscard = entity.container;
+                    option = entity.container;
                     entity = new Array(2);
-                    entity[0] = oscard;
-                    oscard = _closure2_slot0;
-                    entity[1] = oscard;
+                    entity[0] = option;
+                    option = _closure2_slot0;
+                    entity[1] = option;
                     michal['style'] = entity;
                     entity = true;
                     michal['accessible'] = entity;
-                    golfie = _closure1_slot0;
-                    yankee = _closure1_slot2;
-                    oscard = 9;
-                    option = yankee[oscard];
+                    offset = _closure1_slot0;
+                    backup = _closure1_slot2;
+                    option = 9;
+                    yankee = backup[option];
                     entity = undefined;
-                    option = golfie.bind(entity)(option);
-                    offset = option.intl;
-                    option = offset.formatToPlainString;
-                    oscard = yankee[oscard];
-                    oscard = golfie.bind(entity)(oscard);
-                    oscard = oscard.t;
-                    golfie = oscard.tXXD6u;
-                    oscard = {};
-                    yankee = _closure2_slot2;
-                    oscard['tagName'] = yankee;
-                    oscard = option.bind(offset)(golfie, oscard);
-                    michal['accessibilityLabel'] = oscard;
-                    result = argFoo;
-                    echoed = michal;
-                    oscard = copyDataProperties(echoed, result);
+                    yankee = offset.bind(entity)(yankee);
+                    foxtra = yankee.intl;
+                    yankee = foxtra.formatToPlainString;
+                    option = backup[option];
+                    option = offset.bind(entity)(option);
+                    option = option.t;
+                    offset = option.tXXD6u;
+                    option = {};
+                    backup = _closure2_slot2;
+                    option['tagName'] = backup;
+                    option = yankee.bind(foxtra)(offset, option);
+                    michal['accessibilityLabel'] = option;
+                    michal['ref'] = golfie;
+                    update = michal;
+                    echoed = oscard;
+                    oscard = copyDataProperties(update, echoed);
                     oscard = _closure2_slot4;
-                    romeon = null;
                     golfie = romeon != oscard;
-                    if(golfie) { _fun00006_ip = 158; continue _fun00005 }
- 150:
+                    if(golfie) { _fun00006_ip = 191; continue _fun00005 }
+ 183:
                     oscard = _closure2_slot3;
                     golfie = romeon != oscard;
- 158:
-                    if(!golfie) { _fun00006_ip = 328; continue _fun00005 }
- 164:
+ 191:
+                    if(!golfie) { _fun00006_ip = 361; continue _fun00005 }
+ 197:
                     offset = _closure1_slot6;
                     option = _closure1_slot1;
                     yankee = _closure1_slot2;
@@ -128,8 +138,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = _closure2_slot5;
                     foxtra = romeon != yankee;
                     yankee = undefined;
-                    if(!foxtra) { _fun00006_ip = 294; continue _fun00005 }
- 229:
+                    if(!foxtra) { _fun00006_ip = 327; continue _fun00005 }
+ 262:
                     backup = _closure1_slot1;
                     kiloes = _closure1_slot2;
                     foxtra = 11;
@@ -145,18 +155,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sizing = _closure1_slot5;
                     foxtra['size'] = sizing;
                     yankee = backup.bind(kiloes)(foxtra);
- 294:
+ 327:
                     oscard['src'] = yankee;
                     yankee = _closure2_slot4;
                     romeon = romeon != yankee;
                     yankee = '';
-                    if(!romeon) { _fun00006_ip = 318; continue _fun00005 }
- 314:
+                    if(!romeon) { _fun00006_ip = 351; continue _fun00005 }
+ 347:
                     yankee = _closure2_slot4;
- 318:
+ 351:
                     oscard['name'] = yankee;
                     golfie = offset.bind(entity)(option, oscard);
- 328:
+ 361:
                     oscard = new Array(2);
                     oscard[0] = golfie;
                     option = _closure1_slot6;

@@ -313,16 +313,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = golfie.bind(option)(oscard, michal, zuuluu);
             oscard = _closure1_slot4;
             michal = oscard.useRef;
-            foxtra = michal.bind(oscard)();
+            foxtra = michal.bind(oscard)(report);
             var _closure2_slot2 = foxtra;
             michal = oscard.useRef;
-            yankee = michal.bind(oscard)();
+            yankee = michal.bind(oscard)(report);
             var _closure2_slot3 = yankee;
             michal = oscard.useRef;
-            output = michal.bind(oscard)();
+            output = michal.bind(oscard)(report);
             var _closure2_slot4 = output;
             michal = oscard.useRef;
-            kiloes = michal.bind(oscard)();
+            kiloes = michal.bind(oscard)(report);
             var _closure2_slot5 = kiloes;
             verify = 16;
             michal = backup[verify];
@@ -387,17 +387,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = tangon[michal];
             var _closure2_slot13 = michal;
             michal = backup;
-            if(michal) { _fun00010_ip = 448; continue _fun00009 }
- 426:
+            if(michal) { _fun00010_ip = 452; continue _fun00009 }
+ 430:
             tangon = null;
             tangon = tangon != echoed;
-            if(!tangon) { _fun00010_ip = 445; continue _fun00009 }
- 435:
+            if(!tangon) { _fun00010_ip = 449; continue _fun00009 }
+ 439:
             oscard = echoed.isGuildStageVoice;
             tangon = oscard.bind(echoed)();
- 445:
+ 449:
             michal = tangon;
- 448:
+ 452:
             golfie = !michal;
             tangon = {};
             tangon['channelId'] = update;
@@ -735,10 +735,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon['width'] = option;
             tangon['translateX'] = offset;
             zuuluu = !zuuluu;
-            if(!zuuluu) { _fun00010_ip = 937; continue _fun00009 }
- 934:
+            if(!zuuluu) { _fun00010_ip = 941; continue _fun00009 }
+ 938:
             zuuluu = !backup;
- 937:
+ 941:
             tangon['enabled'] = zuuluu;
             zuuluu = function(argFoo) { // Original name: useSwipeToChatGesture
                 entity = argFoo;
@@ -1080,8 +1080,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = tangon.bind(golfie)(entity, zuuluu);
             entity = null;
             zuuluu = entity == echoed;
-            if(zuuluu) { _fun00010_ip = 1475; continue _fun00009 }
- 1232:
+            if(zuuluu) { _fun00010_ip = 1479; continue _fun00009 }
+ 1236:
             tangon = _closure1_slot14;
             foxtra = _closure1_slot0;
             output = _closure1_slot2;
@@ -1138,7 +1138,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1475:
+ 1479:
             return entity;
         }
     };

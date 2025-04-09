@@ -4,8 +4,9 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     golfie = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = oscard;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -18,20 +19,16 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     tangon = oscard[entity];
     entity = undefined;
     tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
+    var _closure1_slot3 = tangon;
     tangon = 1;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
+    var _closure1_slot4 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
     var _closure1_slot5 = tangon;
-    tangon = 4;
+    tangon = 3;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.AnalyticEvents;
@@ -45,36 +42,41 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     michal = function() { // Original name: trackActivityThermalStateNoticeShown
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            michal = _closure1_slot4;
-            entity = michal.getVoiceChannelId;
-            yankee = entity.bind(michal)();
-            michal = _closure1_slot2;
-            entity = michal.getBasicChannel;
-            option = entity.bind(michal)(yankee);
-            golfie = null;
-            entity = golfie != yankee;
-            michal = null;
-            if(!entity) { _fun00002_ip = 58; continue _fun00001 }
- 43:
-            zuuluu = _closure1_slot5;
-            entity = zuuluu.getSelfEmbeddedActivityForChannel;
-            michal = entity.bind(zuuluu)(yankee);
- 58:
-            zuuluu = golfie == michal;
+            michal = _closure1_slot5;
+            entity = michal.getCurrentEmbeddedActivity;
+            michal = entity.bind(michal)();
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            entity = 4;
+            zuuluu = zuuluu[entity];
             entity = undefined;
+            report = tangon.bind(entity)(zuuluu);
+            tangon = report.getEmbeddedActivityLocationChannelId;
+            golfie = null;
+            option = golfie == michal;
+            zuuluu = undefined;
+            if(option) { _fun00002_ip = 61; continue _fun00001 }
+ 56:
+            zuuluu = michal.location;
+ 61:
+            yankee = tangon.bind(report)(zuuluu);
+            tangon = _closure1_slot3;
+            zuuluu = tangon.getBasicChannel;
+            option = zuuluu.bind(tangon)(yankee);
+            zuuluu = golfie == michal;
             verify = undefined;
-            if(zuuluu) { _fun00002_ip = 75; continue _fun00001 }
- 69:
+            if(zuuluu) { _fun00002_ip = 96; continue _fun00001 }
+ 90:
             verify = michal.compositeInstanceId;
- 75:
+ 96:
             zuuluu = golfie == michal;
             offset = undefined;
-            if(zuuluu) { _fun00002_ip = 89; continue _fun00001 }
- 84:
+            if(zuuluu) { _fun00002_ip = 110; continue _fun00001 }
+ 105:
             offset = michal.applicationId;
- 89:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
+ 110:
+            zuuluu = _closure1_slot1;
+            tangon = _closure1_slot2;
             michal = 5;
             michal = tangon[michal];
             report = zuuluu.bind(entity)(michal);
@@ -87,12 +89,12 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
             michal['activity_session_id'] = verify;
             verify = golfie == option;
             golfie = undefined;
-            if(verify) { _fun00002_ip = 154; continue _fun00001 }
- 149:
+            if(verify) { _fun00002_ip = 175; continue _fun00001 }
+ 170:
             golfie = option.guild_id;
- 154:
+ 175:
             michal['guild_id'] = golfie;
-            golfie = _closure1_slot3;
+            golfie = _closure1_slot4;
             oscard = golfie.getMediaSessionId;
             oscard = oscard.bind(golfie)();
             michal['media_session_id'] = oscard;

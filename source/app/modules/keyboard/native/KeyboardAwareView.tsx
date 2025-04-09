@@ -81,9 +81,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _closure2_slot3 = offset;
             zuuluu = zuuluu.keyboardDuration;
             _closure2_slot4 = zuuluu;
-            option = _closure1_slot2;
-            golfie = option.useRef;
-            golfie = golfie.bind(option)();
+            yankee = _closure1_slot2;
+            option = yankee.useRef;
+            golfie = false;
+            golfie = option.bind(yankee)(golfie);
             _closure2_slot5 = golfie;
             yankee = _closure1_slot2;
             option = yankee.useEffect;

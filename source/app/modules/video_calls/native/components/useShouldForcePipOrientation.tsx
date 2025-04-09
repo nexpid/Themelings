@@ -113,13 +113,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = function() {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                    report = _closure1_slot3;
-                    zuuluu = report.getSelfEmbeddedActivityForChannel;
-                    entity = _closure2_slot0;
-                    michal = entity.id;
-                    zuuluu = zuuluu.bind(report)(michal);
+                    michal = _closure1_slot3;
+                    entity = michal.getCurrentEmbeddedActivity;
+                    zuuluu = entity.bind(michal)();
                     report = _closure1_slot4;
                     michal = report.getSelectedParticipant;
+                    entity = _closure2_slot0;
                     entity = entity.id;
                     oscard = michal.bind(report)(entity);
                     entity = {};
@@ -127,20 +126,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = michal == zuuluu;
                     offset = undefined;
                     report = undefined;
-                    if(golfie) { _fun00006_ip = 70; continue _fun00005 }
- 65:
+                    if(golfie) { _fun00006_ip = 64; continue _fun00005 }
+ 59:
                     report = zuuluu.applicationId;
- 70:
+ 64:
                     golfie = michal != report;
                     report = null;
-                    if(!golfie) { _fun00006_ip = 155; continue _fun00005 }
- 79:
+                    if(!golfie) { _fun00006_ip = 149; continue _fun00005 }
+ 73:
                     golfie = michal == oscard;
                     option = undefined;
-                    if(golfie) { _fun00006_ip = 93; continue _fun00005 }
- 88:
+                    if(golfie) { _fun00006_ip = 87; continue _fun00005 }
+ 82:
                     option = oscard.id;
- 93:
+ 87:
                     verify = _closure1_slot0;
                     yankee = _closure1_slot2;
                     golfie = 7;
@@ -154,20 +153,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie['instanceId'] = yankee;
                     golfie = verify.bind(offset)(golfie);
                     report = null;
-                    if(!(option === golfie)) { _fun00006_ip = 155; continue _fun00005 }
- 152:
+                    if(!(option === golfie)) { _fun00006_ip = 149; continue _fun00005 }
+ 146:
                     report = oscard;
- 155:
+ 149:
                     entity['focusedEmbeddedActivityParticipant'] = report;
                     report = michal == zuuluu;
                     michal = null;
-                    if(report) { _fun00006_ip = 189; continue _fun00005 }
- 169:
+                    if(report) { _fun00006_ip = 183; continue _fun00005 }
+ 163:
                     report = _closure1_slot3;
                     tangon = report.getPipOrientationLockStateForApp;
                     zuuluu = zuuluu.applicationId;
                     michal = tangon.bind(report)(zuuluu);
- 189:
+ 183:
                     entity['activityLockOrientation'] = michal;
                     return entity;
                 }

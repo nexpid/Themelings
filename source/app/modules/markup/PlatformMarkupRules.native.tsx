@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = zuuluu.type;
                     michal = 'channel';
                     entity = zuuluu;
-                    if(!(michal === tangon)) { _fun00004_ip = 115; continue _fun00003 }
+                    if(!(michal === tangon)) { _fun00004_ip = 114; continue _fun00003 }
  19:
                     michal = {};
                     offset = michal;
@@ -58,14 +58,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = report.bind(oscard)(zuuluu);
                     report = null;
                     report = report == zuuluu;
-                    if(report) { _fun00004_ip = 103; continue _fun00003 }
+                    if(report) { _fun00004_ip = 102; continue _fun00003 }
  97:
                     tangon = zuuluu.uri;
- 103:
+ 102:
                     zuuluu = 'icon';
                     michal[zuuluu] = tangon;
                     entity = michal;
- 115:
+ 114:
                     return entity;
                 }
             };

@@ -49,9 +49,10 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
         michal = michal.bind(report)();
         michal = 7;
         michal = tangon[michal];
-        zuuluu = zuuluu.bind(entity)(michal);
-        michal = zuuluu.logout;
-        michal = michal.bind(zuuluu)();
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.logout;
+        michal = 'confirm_logout_alert';
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
     var _closure1_slot6 = entity;

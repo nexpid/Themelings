@@ -762,7 +762,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(michal) { _fun00020_ip = 392; continue _fun00019 }
  253:
             zuuluu = _closure1_slot8;
-            michal = zuuluu.getConnectedActivityChannelId;
+            michal = zuuluu.getConnectedActivityLocation;
             zuuluu = michal.bind(zuuluu)();
             michal = null;
             if(!(michal != zuuluu)) { _fun00020_ip = 303; continue _fun00019 }

@@ -96,39 +96,40 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             oscard = option.bind(offset)(oscard);
             var _closure2_slot2 = oscard;
-            yankee = _closure1_slot4;
-            oscard = yankee.useState;
-            oscard = oscard.bind(yankee)(kiloes);
+            romeon = _closure1_slot4;
+            oscard = romeon.useState;
+            oscard = oscard.bind(romeon)(kiloes);
             backup = _closure1_slot3;
             foxtra = 2;
-            option = backup.bind(tangon)(oscard, foxtra);
-            romeon = 0;
-            oscard = option[romeon];
-            var _closure2_slot3 = oscard;
+            oscard = backup.bind(tangon)(oscard, foxtra);
+            yankee = 0;
+            option = oscard[yankee];
+            var _closure2_slot3 = option;
             offset = 1;
-            option = option[offset];
-            var _closure2_slot4 = option;
-            option = yankee.useState;
-            option = option.bind(yankee)(kiloes);
-            option = backup.bind(tangon)(option, foxtra);
-            romeon = option[romeon];
-            var _closure2_slot5 = romeon;
-            option = option[offset];
-            var _closure2_slot6 = option;
-            option = yankee.useRef;
-            option = option.bind(yankee)();
-            var _closure2_slot7 = option;
-            option = 11;
-            option = zuuluu[option];
-            offset = michal.bind(tangon)(option);
-            option = offset.useAccessibilityNativeStackOptions;
-            option = option.bind(offset)();
-            var _closure2_slot8 = option;
-            offset = _closure1_slot1;
-            option = 12;
-            option = zuuluu[option];
-            offset = offset.bind(tangon)(option);
-            option = function() {
+            oscard = oscard[offset];
+            var _closure2_slot4 = oscard;
+            oscard = romeon.useState;
+            oscard = oscard.bind(romeon)(kiloes);
+            oscard = backup.bind(tangon)(oscard, foxtra);
+            foxtra = oscard[yankee];
+            var _closure2_slot5 = foxtra;
+            oscard = oscard[offset];
+            var _closure2_slot6 = oscard;
+            offset = romeon.useRef;
+            oscard = null;
+            offset = offset.bind(romeon)(oscard);
+            var _closure2_slot7 = offset;
+            offset = 11;
+            offset = zuuluu[offset];
+            yankee = michal.bind(tangon)(offset);
+            offset = yankee.useAccessibilityNativeStackOptions;
+            offset = offset.bind(yankee)();
+            var _closure2_slot8 = offset;
+            yankee = _closure1_slot1;
+            offset = 12;
+            offset = zuuluu[offset];
+            yankee = yankee.bind(tangon)(offset);
+            offset = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tangon = _closure1_slot0;
@@ -227,12 +228,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            option = offset.bind(tangon)(option);
-            offset = yankee.useCallback;
-            option = new Array(2);
-            option[0] = romeon;
-            option[1] = oscard;
-            oscard = function(argFoo) {
+            offset = yankee.bind(tangon)(offset);
+            yankee = romeon.useCallback;
+            offset = new Array(2);
+            offset[0] = foxtra;
+            offset[1] = option;
+            option = function(argFoo) {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     michal = argFoo;
@@ -303,13 +304,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            offset = offset.bind(yankee)(oscard, option);
+            offset = yankee.bind(romeon)(option, offset);
             var _closure2_slot9 = offset;
             entity = zuuluu[entity];
             zuuluu = michal.bind(tangon)(entity);
             michal = zuuluu.useFocusEffect;
-            option = yankee.useCallback;
-            oscard = function() {
+            yankee = romeon.useCallback;
+            option = function() {
                 report = _closure1_slot5;
                 tangon = report.addEventListener;
                 zuuluu = 'hardwareBackPress';
@@ -332,13 +333,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity = new Array(0);
-            entity = option.bind(yankee)(oscard, entity);
+            entity = yankee.bind(romeon)(option, entity);
             entity = michal.bind(zuuluu)(entity);
             zuuluu = _closure1_slot9;
             entity = _closure1_slot10;
             michal = entity.Navigator;
             entity = {};
-            oscard = function(argFoo) { // Original name: screenOptions
+            option = function(argFoo) { // Original name: screenOptions
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     entity = argFoo;
@@ -381,15 +382,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            entity['screenOptions'] = oscard;
-            oscard = null;
+            entity['screenOptions'] = option;
             option = oscard != golfie;
             romeon = 'choose-avatar';
             oscard = romeon;
-            if(!option) { _fun00002_ip = 371; continue _fun00001 }
- 368:
+            if(!option) { _fun00002_ip = 372; continue _fun00001 }
+ 369:
             oscard = golfie;
- 371:
+ 372:
             entity['initialRouteName'] = oscard;
             option = _closure1_slot8;
             oscard = _closure1_slot10;

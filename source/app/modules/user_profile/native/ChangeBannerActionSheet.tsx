@@ -393,7 +393,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00008_ip = 103; continue _fun00007 }
+                            if(michal) { _fun00008_ip = 109; continue _fun00007 }
  7:
                             report = _closure1_slot1;
                             oscard = _closure1_slot2;
@@ -414,18 +414,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return michal;
  73:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(tangon) { _fun00008_ip = 100; continue _fun00007 }
+                            if(tangon) { _fun00008_ip = 106; continue _fun00007 }
  79:
+                            report = michal.base64;
                             tangon = null;
-                            if(!(tangon != michal)) { _fun00008_ip = 97; continue _fun00007 }
- 85:
+                            if(!(tangon != report)) { _fun00008_ip = 103; continue _fun00007 }
+ 91:
                             tangon = _closure2_slot0;
-                            tangon = tangon.bind(zuuluu)(michal);
- 97:
-                            return zuuluu;
- 100:
-                            return michal;
+                            tangon = tangon.bind(zuuluu)(report);
  103:
+                            return zuuluu;
+ 106:
+                            return michal;
+ 109:
                             return entity;
                         }
                     };

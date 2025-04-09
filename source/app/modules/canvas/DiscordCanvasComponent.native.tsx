@@ -100,8 +100,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             romeon = option.bind(oscard)(zuuluu, report);
-            zuuluu = oscard.useRef;
-            zuuluu = zuuluu.bind(oscard)();
+            report = oscard.useRef;
+            zuuluu = null;
+            zuuluu = report.bind(oscard)(zuuluu);
             _closure2_slot5 = zuuluu;
             zuuluu = oscard.useState;
             report = 0;

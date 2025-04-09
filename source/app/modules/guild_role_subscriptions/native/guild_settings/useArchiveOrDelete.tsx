@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.archiveSubscriptionListing;
             var _closure2_slot9 = foxtra;
             foxtra = _closure1_slot7;
-            foxtra = foxtra.bind(offset)();
+            foxtra = foxtra.bind(offset)(offset);
             var _closure2_slot10 = foxtra;
             report = romeon[report];
             golfie = golfie.bind(offset)(report);
@@ -97,24 +97,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = null;
             report = golfie == tangon;
             verify = undefined;
-            if(report) { _fun00002_ip = 252; continue _fun00001 }
- 246:
+            if(report) { _fun00002_ip = 253; continue _fun00001 }
+ 247:
             verify = tangon.archived;
- 252:
+ 253:
             report = true;
             report = report === verify;
             var _closure2_slot11 = report;
             tangon = offset === tangon;
             var _closure2_slot12 = tangon;
-            if(!(golfie != oscard)) { _fun00002_ip = 277; continue _fun00001 }
- 274:
+            if(!(golfie != oscard)) { _fun00002_ip = 278; continue _fun00001 }
+ 275:
             yankee = oscard;
- 277:
+ 278:
             var _closure2_slot13 = yankee;
-            if(report) { _fun00002_ip = 605; continue _fun00001 }
- 287:
-            if(tangon) { _fun00002_ip = 605; continue _fun00001 }
- 293:
+            if(report) { _fun00002_ip = 606; continue _fun00001 }
+ 288:
+            if(tangon) { _fun00002_ip = 606; continue _fun00001 }
+ 294:
             backup = _closure1_slot0;
             kiloes = _closure1_slot3;
             verify = 5;
@@ -177,8 +177,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.170XOD;
             verify = romeon.bind(foxtra)(verify);
             var _closure2_slot6 = verify;
-            _fun00002_ip = 955; continue _fun00001;
- 605:
+            _fun00002_ip = 956; continue _fun00001;
+ 606:
             kiloes = _closure1_slot0;
             verify = _closure1_slot3;
             output = 5;
@@ -211,15 +211,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra[output];
             foxtra = sizing.bind(offset)(foxtra);
             foxtra = foxtra.t;
-            if(tangon) { _fun00002_ip = 775; continue _fun00001 }
- 760:
+            if(tangon) { _fun00002_ip = 776; continue _fun00001 }
+ 761:
             tangon = foxtra.Y4KjUF;
             tangon = backup.bind(kiloes)(tangon);
-            _fun00002_ip = 788; continue _fun00001;
- 775:
+            _fun00002_ip = 789; continue _fun00001;
+ 776:
             foxtra = foxtra.DHWKJS;
             tangon = backup.bind(kiloes)(foxtra);
- 788:
+ 789:
             sizing = _closure1_slot0;
             foxtra = _closure1_slot3;
             backup = foxtra[output];
@@ -255,7 +255,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = tangon;
             golfie = romeon;
             oscard = verify;
- 955:
+ 956:
             tangon = function() {
                 tangon = _closure1_slot4;
                 zuuluu = undefined;

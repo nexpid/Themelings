@@ -224,10 +224,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot5 = entity;
             tangon = _closure1_slot3;
             report = tangon.useRef;
-            report = report.bind(tangon)();
+            report = report.bind(tangon)(entity);
             _closure2_slot3 = report;
             report = tangon.useRef;
-            report = report.bind(tangon)();
+            report = report.bind(tangon)(entity);
             _closure2_slot4 = report;
             report = function() { // Original name: trackImpressionEffect
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {

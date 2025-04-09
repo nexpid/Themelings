@@ -54,6 +54,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['VoiceFiltersFailed'] = entity;
     entity = 'video-codec-error';
     michal['VideoCodecError'] = entity;
+    entity = 'voice-queue-metrics';
+    michal['VoiceQueueMetrics'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

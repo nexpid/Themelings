@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity.CHAT_INPUT;
             entity = golfie.bind(verify)(offset, michal, entity);
             michal = zuuluu != tangon;
-            if(!michal) { _fun00002_ip = 240; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 239; continue _fun00001 }
  189:
             golfie = _closure1_slot0;
             verify = _closure1_slot2;
@@ -102,21 +102,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = tangon.filename;
             tangon = tangon.mimeType;
             michal = option.bind(verify)(golfie, oscard, tangon);
- 240:
-            if(!entity) { _fun00002_ip = 263; continue _fun00001 }
- 243:
+ 239:
+            if(!entity) { _fun00002_ip = 262; continue _fun00001 }
+ 242:
             zuuluu = zuuluu != report;
-            if(!zuuluu) { _fun00002_ip = 260; continue _fun00001 }
- 250:
+            if(!zuuluu) { _fun00002_ip = 259; continue _fun00001 }
+ 249:
             tangon = report.isForumLikeChannel;
             zuuluu = tangon.bind(report)();
- 260:
+ 259:
             entity = !zuuluu;
- 263:
-            if(!entity) { _fun00002_ip = 269; continue _fun00001 }
- 266:
+ 262:
+            if(!entity) { _fun00002_ip = 268; continue _fun00001 }
+ 265:
             entity = michal;
- 269:
+ 268:
             return entity;
         }
     };

@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(michal) { _fun00006_ip = 430; continue _fun00005 }
+                                if(michal) { _fun00006_ip = 442; continue _fun00005 }
  12:
                                 report = undefined;
                                 option = undefined;
@@ -123,33 +123,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 michal = offset[michal];
                                 offset = tangon.bind(report)(michal);
                                 tangon = offset.openImagePicker;
-                                michal = _closure1_slot11;
+                                michal = {};
+                                yankee = _closure1_slot11;
+                                michal['size'] = yankee;
                                 michal = tangon.bind(offset)(michal);
-                                SaveGenerator(address=183);
- 181:
+                                SaveGenerator(address=189);
+ 187:
                                 return michal;
- 183:
+ 189:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                                if(tangon) { _fun00006_ip = 401; continue _fun00005 }
- 192:
-                                option = michal;
-                                if(!(verify != michal)) { _fun00006_ip = 373; continue _fun00005 }
- 202:
+                                if(tangon) { _fun00006_ip = 413; continue _fun00005 }
+ 198:
+                                tangon = michal.base64;
+                                option = tangon;
+                                if(!(verify != tangon)) { _fun00006_ip = 385; continue _fun00005 }
+ 214:
                                 tangon = _closure2_slot2;
                                 verify = verify == tangon;
                                 tangon = undefined;
-                                if(verify) { _fun00006_ip = 223; continue _fun00005 }
- 215:
+                                if(verify) { _fun00006_ip = 235; continue _fun00005 }
+ 227:
                                 verify = _closure2_slot2;
                                 tangon = verify.bind(report)();
- 223:
-                                SaveGenerator(address=227);
- 225:
+ 235:
+                                SaveGenerator(address=239);
+ 237:
                                 return tangon;
- 227:
+ 239:
                                 ResumeGenerator(result_out_reg=3, return_bool_out_reg=8);
-                                if(verify) { _fun00006_ip = 387; continue _fun00005 }
- 236:
+                                if(verify) { _fun00006_ip = 399; continue _fun00005 }
+ 248:
                                 offset = option;
                                 _closure5_slot0 = offset;
                                 option = _closure1_slot0;
@@ -299,28 +302,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     }
                                 };
                                 oscard = golfie.bind(option)(oscard);
- 373: // try_end0
+ 385: // try_end0
                                 golfie = _closure2_slot4;
                                 oscard = false;
                                 oscard = golfie.bind(report)(oscard);
                                 return report;
- 387:
+ 399:
                                 golfie = _closure2_slot4;
                                 oscard = false;
                                 oscard = golfie.bind(report)(oscard);
                                 return tangon;
- 401:
+ 413:
                                 oscard = _closure2_slot4;
                                 tangon = false;
                                 tangon = oscard.bind(report)(tangon);
                                 return michal;
- 415: // catch_target0
+ 427: // catch_target0
                                 CatchBlockStart(arg_register=1);
                                 tangon = _closure2_slot4;
                                 zuuluu = false;
                                 zuuluu = tangon.bind(report)(zuuluu);
                                 throw michal;
- 430:
+ 442:
                                 return entity;
                             }
                         };

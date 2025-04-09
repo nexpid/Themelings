@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.bind(report)();
             michal = zuuluu.bind(tangon)(michal);
             report = null;
-            if(!(report != michal)) { _fun00004_ip = 235; continue _fun00003 }
+            if(!(report != michal)) { _fun00004_ip = 229; continue _fun00003 }
  40:
             tangon = _closure1_slot9;
             zuuluu = tangon.getAllActiveStreams;
@@ -76,15 +76,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = oscard.isVideoEnabled;
             tangon = zuuluu.bind(oscard)();
  105:
-            golfie = _closure1_slot7;
-            oscard = golfie.getSelfEmbeddedActivityForChannel;
-            zuuluu = michal.id;
-            zuuluu = oscard.bind(golfie)(zuuluu);
+            oscard = _closure1_slot7;
+            zuuluu = oscard.getCurrentEmbeddedActivity;
+            zuuluu = zuuluu.bind(oscard)();
             zuuluu = report != zuuluu;
-            if(tangon) { _fun00004_ip = 217; continue _fun00003 }
- 132:
-            if(zuuluu) { _fun00004_ip = 217; continue _fun00003 }
- 135:
+            if(tangon) { _fun00004_ip = 211; continue _fun00003 }
+ 126:
+            if(zuuluu) { _fun00004_ip = 211; continue _fun00003 }
+ 129:
             report = _closure1_slot0;
             tangon = _closure1_slot1;
             zuuluu = 16;
@@ -99,43 +98,43 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.bind(report)(zuuluu, michal);
             michal = _closure1_slot17;
             michal = michal.AVAudioSessionMode;
-            if(zuuluu) { _fun00004_ip = 209; continue _fun00003 }
- 201:
+            if(zuuluu) { _fun00004_ip = 203; continue _fun00003 }
+ 195:
             zuuluu = michal.LISTEN;
-            _fun00004_ip = 215; continue _fun00003;
- 209:
+            _fun00004_ip = 209; continue _fun00003;
+ 203:
             zuuluu = michal.VOICE;
- 215:
-            _fun00004_ip = 233; continue _fun00003;
- 217:
+ 209:
+            _fun00004_ip = 227; continue _fun00003;
+ 211:
             michal = _closure1_slot17;
             michal = michal.AVAudioSessionMode;
             zuuluu = michal.VIDEO;
- 233:
-            _fun00004_ip = 251; continue _fun00003;
- 235:
+ 227:
+            _fun00004_ip = 245; continue _fun00003;
+ 229:
             michal = _closure1_slot17;
             michal = michal.AVAudioSessionMode;
             zuuluu = michal.DEFAULT;
- 251:
+ 245:
             michal = _closure1_slot18;
             michal = michal !== zuuluu;
-            if(!michal) { _fun00004_ip = 290; continue _fun00003 }
- 262:
+            if(!michal) { _fun00004_ip = 284; continue _fun00003 }
+ 256:
             report = _closure1_slot15;
             tangon = report.getState;
             report = tangon.bind(report)();
             tangon = _closure1_slot16;
             tangon = tangon.ACTIVE;
             michal = report === tangon;
- 290:
-            if(!michal) { _fun00004_ip = 314; continue _fun00003 }
- 293:
+ 284:
+            if(!michal) { _fun00004_ip = 308; continue _fun00003 }
+ 287:
             _closure1_slot18 = zuuluu;
             michal = _closure1_slot17;
             entity = michal.setAVAudioSessionMode;
             entity = entity.bind(michal)(zuuluu);
- 314:
+ 308:
             entity = undefined;
             return entity;
         }

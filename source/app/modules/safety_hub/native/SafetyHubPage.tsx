@@ -151,11 +151,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             michal = 8;
                             zuuluu = zuuluu[michal];
                             michal = undefined;
-                            zuuluu = tangon.bind(michal)(zuuluu);
-                            michal = zuuluu.logout;
+                            tangon = tangon.bind(michal)(zuuluu);
+                            zuuluu = tangon.logout;
                             entity = _closure1_slot11;
-                            entity = entity.LOGIN;
-                            entity = michal.bind(zuuluu)(entity);
+                            michal = entity.LOGIN;
+                            entity = 'safety_hub_page_appeal_success';
+                            entity = zuuluu.bind(tangon)(entity, michal);
                             return entity;
                         };
                         entity['onPress'] = report;

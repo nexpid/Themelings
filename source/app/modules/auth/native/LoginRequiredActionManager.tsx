@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = entity.bind(michal)();
                 var _closure3_slot0 = entity;
                 michal = null;
-                if(!(michal != entity)) { _fun00006_ip = 204; continue _fun00005 }
+                if(!(michal != entity)) { _fun00006_ip = 211; continue _fun00005 }
  31:
                 golfie = _closure1_slot9;
                 zuuluu = golfie.wasLoginAttemptedInSession;
@@ -170,22 +170,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = oscard.bind(golfie)(zuuluu, entity);
                 if(!michal) { _fun00006_ip = 94; continue _fun00005 }
  91:
-                if(entity) { _fun00006_ip = 142; continue _fun00005 }
+                if(entity) { _fun00006_ip = 149; continue _fun00005 }
  94:
-                if(!entity) { _fun00006_ip = 204; continue _fun00005 }
+                if(!entity) { _fun00006_ip = 211; continue _fun00005 }
  97:
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
                 entity = 9;
                 michal = michal[entity];
                 entity = undefined;
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.logout;
+                oscard = zuuluu.bind(entity)(michal);
+                zuuluu = oscard.logout;
                 entity = _closure1_slot11;
-                entity = entity.LOGIN;
-                entity = michal.bind(zuuluu)(entity);
-                _fun00006_ip = 204; continue _fun00005;
- 142:
+                michal = entity.LOGIN;
+                entity = 'login_required_account_manager';
+                entity = zuuluu.bind(oscard)(entity, michal);
+                _fun00006_ip = 211; continue _fun00005;
+ 149:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
                 entity = 8;
@@ -209,26 +210,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal = new Array(1);
                         michal[0] = oscard;
                         michal = tangon.bind(report)(zuuluu, michal);
-                        if(!michal) { _fun00008_ip = 95; continue _fun00007 }
+                        if(!michal) { _fun00008_ip = 102; continue _fun00007 }
  52:
                         tangon = _closure1_slot1;
                         zuuluu = _closure1_slot2;
                         michal = 9;
                         zuuluu = zuuluu[michal];
                         michal = undefined;
-                        zuuluu = tangon.bind(michal)(zuuluu);
-                        michal = zuuluu.logout;
+                        tangon = tangon.bind(michal)(zuuluu);
+                        zuuluu = tangon.logout;
                         entity = _closure1_slot11;
-                        entity = entity.LOGIN;
-                        entity = michal.bind(zuuluu)(entity);
- 95:
+                        michal = entity.LOGIN;
+                        entity = 'login_required_account_manager';
+                        entity = zuuluu.bind(tangon)(entity, michal);
+ 102:
                         entity = undefined;
                         return entity;
                     }
                 };
                 entity['onClose'] = tangon;
                 entity = michal.bind(zuuluu)(entity);
- 204:
+ 211:
                 entity = undefined;
                 return entity;
             }

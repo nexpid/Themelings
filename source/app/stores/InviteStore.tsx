@@ -540,9 +540,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = entity.invite;
                 zuuluu = zuuluu.type;
                 michal['type'] = zuuluu;
+                zuuluu = entity.invite;
+                zuuluu = zuuluu.is_nickname_changeable;
+                michal['is_nickname_changeable'] = zuuluu;
                 entity = entity.invite;
-                entity = entity.is_nickname_changeable;
-                michal['is_nickname_changeable'] = entity;
+                entity = entity.profile;
+                michal['profile'] = entity;
                 entity = undefined;
                 return entity;
             }

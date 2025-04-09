@@ -106,8 +106,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = verify.bind(offset)(oscard, michal);
             var _closure2_slot3 = michal;
             oscard = _closure1_slot3;
-            verify = oscard.useRef;
-            verify = verify.bind(oscard)();
+            offset = oscard.useRef;
+            verify = null;
+            verify = offset.bind(oscard)(verify);
             var _closure2_slot4 = verify;
             offset = oscard.useEffect;
             verify = new Array(2);
@@ -221,15 +222,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity[output];
             entity = oscard.bind(tangon)(entity);
             entity = entity.t;
-            if(report) { _fun00002_ip = 293; continue _fun00001 }
- 278:
+            if(report) { _fun00002_ip = 296; continue _fun00001 }
+ 281:
             oscard = entity.ZFWofn;
             echoed = michal.bind(zuuluu)(oscard);
-            _fun00002_ip = 306; continue _fun00001;
- 293:
+            _fun00002_ip = 309; continue _fun00001;
+ 296:
             entity = entity.j3rC+f;
             echoed = michal.bind(zuuluu)(entity);
- 306:
+ 309:
             oscard = _closure1_slot0;
             entity = _closure1_slot2;
             michal = entity[output];
@@ -239,15 +240,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity[output];
             entity = oscard.bind(tangon)(entity);
             entity = entity.t;
-            if(report) { _fun00002_ip = 365; continue _fun00001 }
- 350:
+            if(report) { _fun00002_ip = 368; continue _fun00001 }
+ 353:
             report = entity.pCBti4;
             yankee = michal.bind(zuuluu)(report);
-            _fun00002_ip = 378; continue _fun00001;
- 365:
+            _fun00002_ip = 381; continue _fun00001;
+ 368:
             entity = entity.6eNTWV;
             yankee = michal.bind(zuuluu)(entity);
- 378:
+ 381:
             zuuluu = _closure1_slot7;
             kiloes = _closure1_slot1;
             sizing = _closure1_slot2;

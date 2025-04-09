@@ -1239,50 +1239,46 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['HideSelfVideo'] = tangon;
-    tangon = function(argFoo) { // Original name: LeaveActivitiesButton
-        entity = argFoo;
-        entity = entity.channelId;
-        var _closure2_slot0 = entity;
+    tangon = function() { // Original name: LeaveActivitiesButton
         tangon = _closure1_slot16;
-        verify = _closure1_slot0;
-        offset = _closure1_slot2;
+        option = _closure1_slot0;
+        verify = _closure1_slot2;
         entity = 25;
-        entity = offset[entity];
+        entity = verify[entity];
         zuuluu = undefined;
-        entity = verify.bind(zuuluu)(entity);
+        entity = option.bind(zuuluu)(entity);
         michal = entity.TableRow;
         entity = {};
-        option = _closure1_slot16;
-        oscard = 26;
-        oscard = offset[oscard];
-        oscard = verify.bind(zuuluu)(oscard);
-        golfie = oscard.TableRowIcon;
-        oscard = {};
-        romeon = _closure1_slot1;
-        yankee = 49;
-        yankee = offset[yankee];
-        yankee = romeon.bind(zuuluu)(yankee);
-        oscard['source'] = yankee;
-        oscard = option.bind(zuuluu)(golfie, oscard);
-        entity['icon'] = oscard;
-        oscard = 17;
-        golfie = offset[oscard];
-        golfie = verify.bind(zuuluu)(golfie);
-        option = golfie.intl;
-        golfie = option.string;
-        oscard = offset[oscard];
-        oscard = verify.bind(zuuluu)(oscard);
-        oscard = oscard.t;
-        oscard = oscard.R/FK4O;
-        oscard = golfie.bind(option)(oscard);
-        entity['label'] = oscard;
+        golfie = _closure1_slot16;
+        report = 26;
+        report = verify[report];
+        report = option.bind(zuuluu)(report);
+        oscard = report.TableRowIcon;
+        report = {};
+        yankee = _closure1_slot1;
+        offset = 49;
+        offset = verify[offset];
+        offset = yankee.bind(zuuluu)(offset);
+        report['source'] = offset;
+        report = golfie.bind(zuuluu)(oscard, report);
+        entity['icon'] = report;
+        report = 17;
+        oscard = verify[report];
+        oscard = option.bind(zuuluu)(oscard);
+        golfie = oscard.intl;
+        oscard = golfie.string;
+        report = verify[report];
+        report = option.bind(zuuluu)(report);
+        report = report.t;
+        report = report.R/FK4O;
+        report = oscard.bind(golfie)(report);
+        entity['label'] = report;
         report = function() { // Original name: onPress
             _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
-                tangon = _closure1_slot5;
-                zuuluu = tangon.getSelfEmbeddedActivityForChannel;
-                michal = _closure2_slot0;
-                oscard = zuuluu.bind(tangon)(michal);
+                zuuluu = _closure1_slot5;
+                michal = zuuluu.getCurrentEmbeddedActivity;
+                oscard = michal.bind(zuuluu)();
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
                 entity = 50;
@@ -1294,17 +1290,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = null;
                 option = report == oscard;
                 golfie = undefined;
-                if(option) { _fun00024_ip = 71; continue _fun00023 }
- 66:
+                if(option) { _fun00024_ip = 63; continue _fun00023 }
+ 58:
                 golfie = oscard.location;
- 71:
+ 63:
                 michal['location'] = golfie;
                 golfie = report == oscard;
                 report = undefined;
-                if(golfie) { _fun00024_ip = 89; continue _fun00023 }
- 84:
+                if(golfie) { _fun00024_ip = 81; continue _fun00023 }
+ 76:
                 report = oscard.applicationId;
- 89:
+ 81:
                 michal['applicationId'] = report;
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;

@@ -320,21 +320,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = michal.isValidElement;
                         michal = entity.bind(michal)(golfie);
                         entity = golfie;
-                        if(!michal) { _fun00012_ip = 157; continue _fun00011 }
+                        if(!michal) { _fun00012_ip = 166; continue _fun00011 }
  30:
                         michal = golfie.type;
                         zuuluu = michal.displayName;
                         michal = 'Image';
-                        if(!(michal !== zuuluu)) { _fun00012_ip = 64; continue _fun00011 }
+                        if(!(michal !== zuuluu)) { _fun00012_ip = 73; continue _fun00011 }
  48:
-                        michal = golfie.props;
-                        zuuluu = michal.source;
-                        michal = null;
-                        if(!(michal != zuuluu)) { _fun00012_ip = 108; continue _fun00011 }
+                        tangon = golfie.props;
+                        zuuluu = null;
+                        oscard = zuuluu == tangon;
+                        michal = undefined;
+                        if(oscard) { _fun00012_ip = 69; continue _fun00011 }
  64:
+                        michal = tangon.source;
+ 69:
+                        if(!(zuuluu != michal)) { _fun00012_ip = 117; continue _fun00011 }
+ 73:
                         zuuluu = _closure3_slot1;
-                        if(zuuluu) { _fun00012_ip = 108; continue _fun00011 }
- 74:
+                        if(zuuluu) { _fun00012_ip = 117; continue _fun00011 }
+ 83:
                         oscard = _closure1_slot10;
                         tangon = _closure1_slot8;
                         zuuluu = {};
@@ -343,26 +348,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu['style'] = michal;
                         michal = undefined;
                         michal = oscard.bind(michal)(tangon, zuuluu);
-                        _fun00012_ip = 154; continue _fun00011;
- 108:
+                        _fun00012_ip = 163; continue _fun00011;
+ 117:
                         oscard = golfie.props;
                         tangon = null;
                         zuuluu = golfie;
-                        if(!(tangon != oscard)) { _fun00012_ip = 151; continue _fun00011 }
- 122:
+                        if(!(tangon != oscard)) { _fun00012_ip = 160; continue _fun00011 }
+ 131:
                         oscard = _closure3_slot1;
                         zuuluu = golfie;
-                        if(oscard) { _fun00012_ip = 151; continue _fun00011 }
- 135:
+                        if(oscard) { _fun00012_ip = 160; continue _fun00011 }
+ 144:
                         oscard = _closure1_slot12;
                         report = _closure3_slot0;
                         tangon = undefined;
                         zuuluu = oscard.bind(tangon)(golfie, report);
- 151:
+ 160:
                         michal = zuuluu;
- 154:
+ 163:
                         entity = michal;
- 157:
+ 166:
                         return entity;
                     }
                 };

@@ -684,11 +684,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = option.TextInput;
                     option = {};
                     backup = function(argFoo) { // Original name: ref
-                        entity = argFoo;
-                        michal = _closure2_slot7;
-                        zuuluu = michal.current;
+                        entity = _closure2_slot7;
+                        zuuluu = entity.current;
                         michal = _closure3_slot0;
+                        entity = argFoo;
                         zuuluu[michal] = entity;
+                        entity = undefined;
                         return entity;
                     };
                     option['ref'] = backup;

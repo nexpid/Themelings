@@ -210,6 +210,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = function(argFoo) { // Original name: children
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
+                zuuluu = argFoo;
+                golfie = zuuluu.ref;
+                romeon = null;
+                michal = Object.create(romeon);
+                entity = 0;
+                michal['ref'] = entity;
+                update = {};
+                echoed = zuuluu;
+                result = michal;
+                echoed = copyDataProperties(update, echoed, result);
                 tangon = _closure1_slot8;
                 michal = _closure1_slot0;
                 zuuluu = _closure1_slot2;
@@ -219,34 +229,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 michal = entity.PressableOpacity;
                 entity = {};
-                oscard = _closure2_slot10;
-                entity['style'] = oscard;
-                oscard = _closure1_slot6;
-                entity['androidRippleConfig'] = oscard;
-                oscard = 'button';
-                entity['accessibilityRole'] = oscard;
-                oscard = {};
-                golfie = _closure2_slot3;
-                oscard['selected'] = golfie;
-                entity['accessibilityState'] = oscard;
-                oscard = _closure2_slot2;
-                entity['disabled'] = oscard;
-                result = argFoo;
-                echoed = entity;
-                oscard = copyDataProperties(echoed, result);
+                option = _closure2_slot10;
+                entity['style'] = option;
+                option = _closure1_slot6;
+                entity['androidRippleConfig'] = option;
+                option = 'button';
+                entity['accessibilityRole'] = option;
+                option = {};
+                offset = _closure2_slot3;
+                option['selected'] = offset;
+                entity['accessibilityState'] = option;
+                option = _closure2_slot2;
+                entity['disabled'] = option;
+                entity['ref'] = golfie;
+                update = entity;
+                oscard = copyDataProperties(update, echoed);
                 golfie = _closure2_slot9;
                 oscard = 'onPress';
                 entity[oscard] = golfie;
                 oscard = _closure2_slot8;
-                romeon = null;
                 golfie = romeon != oscard;
-                if(golfie) { _fun00008_ip = 133; continue _fun00007 }
- 125:
+                if(golfie) { _fun00008_ip = 163; continue _fun00007 }
+ 155:
                 oscard = _closure2_slot7;
                 golfie = romeon != oscard;
- 133:
-                if(!golfie) { _fun00008_ip = 313; continue _fun00007 }
- 139:
+ 163:
+                if(!golfie) { _fun00008_ip = 343; continue _fun00007 }
+ 169:
                 offset = _closure1_slot7;
                 option = _closure1_slot1;
                 yankee = _closure1_slot2;
@@ -264,8 +273,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 yankee = _closure2_slot8;
                 foxtra = romeon != yankee;
                 yankee = undefined;
-                if(!foxtra) { _fun00008_ip = 279; continue _fun00007 }
- 214:
+                if(!foxtra) { _fun00008_ip = 309; continue _fun00007 }
+ 244:
                 backup = _closure1_slot1;
                 kiloes = _closure1_slot2;
                 foxtra = 13;
@@ -281,18 +290,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sizing = _closure1_slot5;
                 foxtra['size'] = sizing;
                 yankee = backup.bind(kiloes)(foxtra);
- 279:
+ 309:
                 oscard['src'] = yankee;
                 yankee = _closure2_slot7;
                 romeon = romeon != yankee;
                 yankee = '';
-                if(!romeon) { _fun00008_ip = 303; continue _fun00007 }
- 299:
+                if(!romeon) { _fun00008_ip = 333; continue _fun00007 }
+ 329:
                 yankee = _closure2_slot7;
- 303:
+ 333:
                 oscard['name'] = yankee;
                 golfie = offset.bind(zuuluu)(option, oscard);
- 313:
+ 343:
                 oscard = new Array(2);
                 oscard[0] = golfie;
                 option = _closure1_slot7;

@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                 zuuluu = _closure2_slot1;
                 michal = null;
-                if(!(michal != zuuluu)) { _fun00002_ip = 231; continue _fun00001 }
+                if(!(michal != zuuluu)) { _fun00002_ip = 230; continue _fun00001 }
  18:
                 zuuluu = {};
                 michal = _closure2_slot1;
@@ -191,7 +191,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 entity = michal.bind(zuuluu)(entity);
- 231:
+ 230:
                 entity = undefined;
                 return entity;
             }

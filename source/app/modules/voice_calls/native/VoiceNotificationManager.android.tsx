@@ -176,22 +176,21 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     michal = _closure3_slot0;
                     zuuluu = michal.channelId;
                     michal = null;
-                    if(!(michal != zuuluu)) { _fun00006_ip = 87; continue _fun00005 }
+                    if(!(michal != zuuluu)) { _fun00006_ip = 81; continue _fun00005 }
  18:
                     zuuluu = _closure1_slot8;
-                    michal = zuuluu.getSelfEmbeddedActivityForChannel;
-                    option = _closure3_slot0;
-                    entity = option.channelId;
-                    offset = michal.bind(zuuluu)(entity);
-                    oscard = option.handleUpdate;
-                    backup = option.channelId;
-                    foxtra = option.connectionState;
-                    romeon = option.selfMute;
-                    yankee = option.deafened;
-                    verify = option.isStreaming;
-                    kiloes = option;
+                    michal = zuuluu.getCurrentEmbeddedActivity;
+                    offset = michal.bind(zuuluu)();
+                    golfie = _closure3_slot0;
+                    oscard = golfie.handleUpdate;
+                    backup = golfie.channelId;
+                    foxtra = golfie.connectionState;
+                    romeon = golfie.selfMute;
+                    yankee = golfie.deafened;
+                    verify = golfie.isStreaming;
+                    kiloes = golfie;
                     entity = kiloes[oscard](backup, foxtra, romeon, yankee, offset, verify, option);
- 87:
+ 81:
                     entity = undefined;
                     return entity;
                 }
@@ -300,13 +299,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     tangon = undefined;
                     if(oscard) { _fun00008_ip = 270; continue _fun00007 }
  264:
-                    tangon = michal.launchId;
+                    tangon = michal.compositeInstanceId;
  270:
                     oscard = zuuluu == verify;
                     michal = undefined;
                     if(oscard) { _fun00008_ip = 285; continue _fun00007 }
  279:
-                    michal = verify.launchId;
+                    michal = verify.compositeInstanceId;
  285:
                     if(!(tangon !== michal)) { _fun00008_ip = 299; continue _fun00007 }
  289:

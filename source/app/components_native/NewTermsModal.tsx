@@ -46,9 +46,10 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             entity = 11;
             michal = michal[entity];
             entity = undefined;
-            michal = zuuluu.bind(entity)(michal);
-            entity = michal.logout;
-            entity = entity.bind(michal)();
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.logout;
+            entity = 'new_terms_modal';
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         };
         oscard['onPress'] = report;

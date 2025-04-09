@@ -360,11 +360,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify = entity.isImageLoaded;
                 offset = entity.isImageErrored;
                 entity = null;
-                if(!(entity != echoed)) { _fun00008_ip = 225; continue _fun00007 }
+                if(!(entity != echoed)) { _fun00008_ip = 224; continue _fun00007 }
  102:
-                if(backup) { _fun00008_ip = 225; continue _fun00007 }
+                if(backup) { _fun00008_ip = 224; continue _fun00007 }
  105:
-                if(offset) { _fun00008_ip = 225; continue _fun00007 }
+                if(offset) { _fun00008_ip = 224; continue _fun00007 }
  108:
                 offset = undefined;
                 if(verify) { _fun00008_ip = 133; continue _fun00007 }
@@ -397,17 +397,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 output = output.handleError;
                 verify['onError'] = output;
                 verify = sizing.bind(tangon)(kiloes, verify);
-                _fun00008_ip = 245; continue _fun00007;
- 225:
+                _fun00008_ip = 244; continue _fun00007;
+ 224:
                 kiloes = entity == zuuluu;
                 entity = undefined;
-                if(kiloes) { _fun00008_ip = 240; continue _fun00007 }
- 234:
+                if(kiloes) { _fun00008_ip = 239; continue _fun00007 }
+ 233:
                 entity = zuuluu.bind(tangon)(backup, michal);
- 240:
+ 239:
                 offset = entity;
                 verify = undefined;
- 245:
+ 244:
                 zuuluu = _closure1_slot12;
                 michal = _closure1_slot0;
                 backup = _closure1_slot2;

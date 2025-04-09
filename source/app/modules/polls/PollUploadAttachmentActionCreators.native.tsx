@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     kiloes = argBar;
                     backup = argBaz;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 487; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 486; continue _fun00001 }
  16:
                     yankee = argFoo;
                     golfie = kiloes;
@@ -48,11 +48,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  102:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=11);
-                    if(romeon) { _fun00002_ip = 479; continue _fun00001 }
+                    if(romeon) { _fun00002_ip = 478; continue _fun00001 }
  111:
                     tangon = zuuluu;
                     foxtra = null;
-                    if(!(foxtra != zuuluu)) { _fun00002_ip = 476; continue _fun00001 }
+                    if(!(foxtra != zuuluu)) { _fun00002_ip = 475; continue _fun00001 }
  123:
                     romeon = _closure1_slot0;
                     backup = _closure1_slot2;
@@ -75,10 +75,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return tangon;
  194:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 473; continue _fun00001 }
+                    if(report) { _fun00002_ip = 472; continue _fun00001 }
  203:
                     oscard = tangon;
-                    if(!(foxtra != tangon)) { _fun00002_ip = 470; continue _fun00001 }
+                    if(!(foxtra != tangon)) { _fun00002_ip = 469; continue _fun00001 }
  213:
                     romeon = _closure1_slot0;
                     backup = _closure1_slot2;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return report;
  251:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=11);
-                    if(romeon) { _fun00002_ip = 467; continue _fun00001 }
+                    if(romeon) { _fun00002_ip = 466; continue _fun00001 }
  260:
                     verify = report;
                     romeon = {};
@@ -114,19 +114,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon['mimeType'] = option;
                     backup = foxtra == report;
                     option = undefined;
-                    if(backup) { _fun00002_ip = 352; continue _fun00001 }
- 344:
+                    if(backup) { _fun00002_ip = 351; continue _fun00001 }
+ 343:
                     backup = verify;
                     option = backup.width;
- 352:
+ 351:
                     romeon['width'] = option;
                     option = verify;
                     foxtra = foxtra == option;
                     option = undefined;
-                    if(foxtra) { _fun00002_ip = 373; continue _fun00001 }
- 368:
+                    if(foxtra) { _fun00002_ip = 372; continue _fun00001 }
+ 367:
                     option = verify.height;
- 373:
+ 372:
                     romeon['height'] = option;
                     option = _closure1_slot0;
                     verify = _closure1_slot2;
@@ -147,22 +147,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = offset.Poll;
                     golfie['draftType'] = offset;
                     golfie = option.bind(verify)(golfie);
- 464: // try_end0
+ 463: // try_end0
                     return oscard;
- 467:
+ 466:
                     return report;
- 470:
+ 469:
                     return michal;
- 473:
+ 472:
                     return tangon;
- 476:
+ 475:
                     return michal;
- 479:
+ 478:
                     return zuuluu;
- 482: // catch_target0
+ 481: // catch_target0
                     CatchBlockStart(arg_register=2);
                     return michal;
- 487:
+ 486:
                     return entity;
                 }
             };

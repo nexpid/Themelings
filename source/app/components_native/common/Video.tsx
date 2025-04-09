@@ -256,12 +256,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['aria-hidden'] = golfie;
             entity['mixWithOthers'] = report;
             report = null;
+            option = report == oscard;
+            golfie = undefined;
+            if(option) { _fun00004_ip = 383; continue _fun00003 }
+ 364:
+            option = oscard.props;
+            verify = report == option;
+            golfie = undefined;
+            if(verify) { _fun00004_ip = 383; continue _fun00003 }
+ 378:
+            golfie = option.ref;
+ 383:
+            entity['ref'] = golfie;
             golfie = report == oscard;
             report = undefined;
-            if(golfie) { _fun00004_ip = 369; continue _fun00003 }
- 364:
+            if(golfie) { _fun00004_ip = 401; continue _fun00003 }
+ 396:
             report = oscard.props;
- 369:
+ 401:
             record = entity;
             config = report;
             report = copyDataProperties(record, config);
@@ -495,18 +507,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = michal.disableFocus;
                 michal = 'videoURI';
                 michal = michal in entity;
-                if(!michal) { _fun00018_ip = 223; continue _fun00017 }
+                if(!michal) { _fun00018_ip = 222; continue _fun00017 }
  80:
                 zuuluu = entity.videoURI;
                 michal = '';
-                if(!(michal !== zuuluu)) { _fun00018_ip = 223; continue _fun00017 }
+                if(!(michal !== zuuluu)) { _fun00018_ip = 222; continue _fun00017 }
  97:
                 foxtra = entity.videoURI;
                 entity = null;
                 michal = entity != foxtra;
                 report = undefined;
                 entity = undefined;
-                if(!michal) { _fun00018_ip = 221; continue _fun00017 }
+                if(!michal) { _fun00018_ip = 220; continue _fun00017 }
  116:
                 tangon = _closure1_slot13;
                 zuuluu = _closure1_slot15;
@@ -532,9 +544,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['ariaHidden'] = golfie;
                 michal['disableFocus'] = oscard;
                 entity = tangon.bind(report)(zuuluu, michal);
- 221:
+ 220:
                 return entity;
- 223:
+ 222:
                 entity = null;
                 return entity;
             }
@@ -555,15 +567,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.ariaHidden;
                 michal = 'uri';
                 michal = michal in option;
-                if(!michal) { _fun00020_ip = 55; continue _fun00019 }
+                if(!michal) { _fun00020_ip = 54; continue _fun00019 }
  41:
                 zuuluu = option.uri;
                 michal = '';
-                if(!(michal === zuuluu)) { _fun00020_ip = 59; continue _fun00019 }
- 55:
+                if(!(michal === zuuluu)) { _fun00020_ip = 58; continue _fun00019 }
+ 54:
                 michal = undefined;
                 return michal;
- 59:
+ 58:
                 tangon = _closure1_slot13;
                 zuuluu = _closure1_slot11;
                 michal = {};

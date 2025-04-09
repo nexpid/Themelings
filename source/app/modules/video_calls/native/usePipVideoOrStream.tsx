@@ -404,46 +404,45 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = _closure2_slot1;
                     entity = zuuluu.bind(report)(entity);
                     report = null;
-                    if(!(report != entity)) { _fun00014_ip = 138; continue _fun00013 }
+                    if(!(report != entity)) { _fun00014_ip = 132; continue _fun00013 }
  30:
-                    oscard = _closure1_slot3;
-                    zuuluu = oscard.getSelfEmbeddedActivityForChannel;
-                    entity = entity.id;
-                    entity = zuuluu.bind(oscard)(entity);
+                    zuuluu = _closure1_slot3;
+                    entity = zuuluu.getCurrentEmbeddedActivity;
+                    entity = entity.bind(zuuluu)();
                     zuuluu = _closure2_slot2;
                     zuuluu = report != zuuluu;
-                    if(!zuuluu) { _fun00014_ip = 85; continue _fun00013 }
- 61:
+                    if(!zuuluu) { _fun00014_ip = 79; continue _fun00013 }
+ 55:
                     golfie = _closure1_slot8;
                     oscard = golfie.isLocalVideoDisabled;
                     michal = _closure2_slot2;
                     michal = michal.id;
                     zuuluu = oscard.bind(golfie)(michal);
- 85:
+ 79:
                     entity = report != entity;
-                    if(!entity) { _fun00014_ip = 99; continue _fun00013 }
- 92:
+                    if(!entity) { _fun00014_ip = 93; continue _fun00013 }
+ 86:
                     michal = _closure2_slot0;
                     entity = !michal;
- 99:
-                    if(entity) { _fun00014_ip = 136; continue _fun00013 }
- 102:
+ 93:
+                    if(entity) { _fun00014_ip = 130; continue _fun00013 }
+ 96:
                     michal = _closure2_slot2;
                     michal = report != michal;
-                    if(!michal) { _fun00014_ip = 127; continue _fun00013 }
- 113:
+                    if(!michal) { _fun00014_ip = 121; continue _fun00013 }
+ 107:
                     tangon = _closure2_slot2;
                     tangon = tangon.streamId;
                     michal = report != tangon;
- 127:
-                    if(!michal) { _fun00014_ip = 133; continue _fun00013 }
- 130:
+ 121:
+                    if(!michal) { _fun00014_ip = 127; continue _fun00013 }
+ 124:
                     michal = !zuuluu;
- 133:
+ 127:
                     entity = michal;
- 136:
+ 130:
                     return entity;
- 138:
+ 132:
                     entity = false;
                     return entity;
                 }

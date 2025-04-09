@@ -315,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     tangon = argFoo;
                     michal = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=5);
-                    if(oscard) { _fun00010_ip = 1344; continue _fun00009 }
+                    if(oscard) { _fun00010_ip = 1351; continue _fun00009 }
  18:
                     update = tangon;
                     var _closure4_slot0 = tangon;
@@ -337,12 +337,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     return tangon;
  58:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(oscard) { _fun00010_ip = 1341; continue _fun00009 }
+                    if(oscard) { _fun00010_ip = 1348; continue _fun00009 }
  67:
                     oscard = update;
                     oscard = oscard.user;
                     ctrled = null;
-                    if(!(ctrled != oscard)) { _fun00010_ip = 472; continue _fun00009 }
+                    if(!(ctrled != oscard)) { _fun00010_ip = 479; continue _fun00009 }
  84:
                     oscard = update;
                     golfie = oscard.user;
@@ -367,7 +367,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     golfie = foxtra;
                     oscard = verify !== golfie;
  177:
-                    if(!oscard) { _fun00010_ip = 238; continue _fun00009 }
+                    if(!oscard) { _fun00010_ip = 245; continue _fun00009 }
  180:
                     golfie = _closure1_slot17;
                     oscard = 'Logging out old user';
@@ -376,22 +376,23 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     verify = _closure1_slot2;
                     oscard = 15;
                     oscard = verify[oscard];
-                    golfie = golfie.bind(tangon)(oscard);
-                    oscard = golfie.logout;
-                    oscard = oscard.bind(golfie)();
-                    SaveGenerator(address=229);
- 227:
+                    verify = golfie.bind(tangon)(oscard);
+                    golfie = verify.logout;
+                    oscard = 'TTI_test';
+                    oscard = golfie.bind(verify)(oscard);
+                    SaveGenerator(address=236);
+ 234:
                     return oscard;
- 229:
+ 236:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                    if(golfie) { _fun00010_ip = 1303; continue _fun00009 }
- 238:
+                    if(golfie) { _fun00010_ip = 1310; continue _fun00009 }
+ 245:
                     verify = _closure1_slot8;
                     golfie = verify.getId;
                     verify = golfie.bind(verify)();
                     golfie = foxtra;
-                    if(!(verify !== golfie)) { _fun00010_ip = 472; continue _fun00009 }
- 262:
+                    if(!(verify !== golfie)) { _fun00010_ip = 479; continue _fun00009 }
+ 269:
                     verify = _closure1_slot17;
                     golfie = 'Logging in new user';
                     golfie = verify.bind(tangon)(golfie);
@@ -496,20 +497,20 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     golfie['login'] = output;
                     golfie['password'] = sizing;
                     golfie = verify.bind(kiloes)(golfie);
-                    SaveGenerator(address=362);
- 360:
+                    SaveGenerator(address=369);
+ 367:
                     return golfie;
- 362:
+ 369:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=8);
-                    if(verify) { _fun00010_ip = 1300; continue _fun00009 }
- 371:
-                    SaveGenerator(address=375);
- 373:
+                    if(verify) { _fun00010_ip = 1307; continue _fun00009 }
+ 378:
+                    SaveGenerator(address=382);
+ 380:
                     return option;
- 375:
+ 382:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=8);
-                    if(verify) { _fun00010_ip = 1297; continue _fun00009 }
- 384:
+                    if(verify) { _fun00010_ip = 1304; continue _fun00009 }
+ 391:
                     kiloes = _closure1_slot17;
                     verify = 'Waiting for socket connection';
                     verify = kiloes.bind(tangon)(verify);
@@ -526,20 +527,20 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     limora = kiloes;
                     verify = new limora[sizing](sierra, status);
                     verify = verify instanceof Object ? verify : kiloes;
-                    SaveGenerator(address=436);
- 434:
+                    SaveGenerator(address=443);
+ 441:
                     return verify;
- 436:
+ 443:
                     ResumeGenerator(result_out_reg=8, return_bool_out_reg=14);
-                    if(kiloes) { _fun00010_ip = 1294; continue _fun00009 }
- 445:
+                    if(kiloes) { _fun00010_ip = 1301; continue _fun00009 }
+ 452:
                     kiloes = _closure1_slot8;
                     romeon = kiloes.getId;
                     kiloes = romeon.bind(kiloes)();
                     yankee = kiloes;
                     romeon = foxtra;
-                    if(!(kiloes === romeon)) { _fun00010_ip = 1224; continue _fun00009 }
- 472: // try_end0
+                    if(!(kiloes === romeon)) { _fun00010_ip = 1231; continue _fun00009 }
+ 479: // try_end0
                     kiloes = _closure1_slot17;
                     romeon = 'Waiting for socket connection';
                     romeon = kiloes.bind(tangon)(romeon);
@@ -557,13 +558,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     limora = kiloes;
                     romeon = new limora[sizing](sierra, status);
                     romeon = romeon instanceof Object ? romeon : kiloes;
-                    SaveGenerator(address=529);
- 527:
+                    SaveGenerator(address=536);
+ 534:
                     return romeon;
- 529:
+ 536:
                     ResumeGenerator(result_out_reg=11, return_bool_out_reg=14);
-                    if(kiloes) { _fun00010_ip = 1221; continue _fun00009 }
- 538:
+                    if(kiloes) { _fun00010_ip = 1228; continue _fun00009 }
+ 545:
                     output = result.Promise;
                     kiloes = output.prototype;
                     sizing = Object.create(kiloes, {constructor: {value: output}});
@@ -579,18 +580,18 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     limora = sizing;
                     kiloes = new limora[output](sierra, status);
                     kiloes = kiloes instanceof Object ? kiloes : sizing;
-                    SaveGenerator(address=575);
- 573:
+                    SaveGenerator(address=582);
+ 580:
                     return kiloes;
- 575:
+ 582:
                     ResumeGenerator(result_out_reg=14, return_bool_out_reg=15);
-                    if(sizing) { _fun00010_ip = 1218; continue _fun00009 }
- 584:
+                    if(sizing) { _fun00010_ip = 1225; continue _fun00009 }
+ 591:
                     sizing = update;
                     sizing = sizing.invite;
                     sizing = ctrled != sizing;
-                    if(!sizing) { _fun00010_ip = 633; continue _fun00009 }
- 600:
+                    if(!sizing) { _fun00010_ip = 640; continue _fun00009 }
+ 607:
                     sequen = _closure1_slot10;
                     source = sequen.getGuild;
                     output = update;
@@ -598,16 +599,16 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     output = output.expectedGuildId;
                     output = source.bind(sequen)(output);
                     sizing = ctrled == output;
- 633:
-                    if(!sizing) { _fun00010_ip = 815; continue _fun00009 }
- 639:
+ 640:
+                    if(!sizing) { _fun00010_ip = 822; continue _fun00009 }
+ 646:
                     sizing = report;
-                    if(sizing) { _fun00010_ip = 660; continue _fun00009 }
- 645:
+                    if(sizing) { _fun00010_ip = 667; continue _fun00009 }
+ 652:
                     output = _closure1_slot17;
                     sizing = 'Inviting to target guild';
                     sizing = output.bind(tangon)(sizing);
- 660:
+ 667:
                     output = _closure1_slot1;
                     source = _closure1_slot2;
                     sizing = 16;
@@ -626,20 +627,20 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     sequen = true;
                     sizing['skipOnboarding'] = sequen;
                     sizing = output.bind(source)(sizing);
-                    SaveGenerator(address=739);
- 737:
+                    SaveGenerator(address=746);
+ 744:
                     return sizing;
- 739:
+ 746:
                     ResumeGenerator(result_out_reg=15, return_bool_out_reg=16);
-                    if(output) { _fun00010_ip = 1215; continue _fun00009 }
- 748:
+                    if(output) { _fun00010_ip = 1222; continue _fun00009 }
+ 755:
                     output = report;
-                    if(output) { _fun00010_ip = 769; continue _fun00009 }
- 754:
+                    if(output) { _fun00010_ip = 776; continue _fun00009 }
+ 761:
                     source = _closure1_slot17;
                     output = 'Invite API call finished';
                     output = source.bind(tangon)(output);
- 769:
+ 776:
                     sequen = result.Promise;
                     output = sequen.prototype;
                     source = Object.create(output, {constructor: {value: sequen}});
@@ -695,31 +696,31 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     limora = source;
                     output = new limora[sequen](sierra, status);
                     output = output instanceof Object ? output : source;
-                    SaveGenerator(address=806);
- 804:
+                    SaveGenerator(address=813);
+ 811:
                     return output;
- 806:
+ 813:
                     ResumeGenerator(result_out_reg=16, return_bool_out_reg=20);
-                    if(source) { _fun00010_ip = 1212; continue _fun00009 }
- 815:
+                    if(source) { _fun00010_ip = 1219; continue _fun00009 }
+ 822:
                     source = update;
                     source = source.channelId;
-                    if(!(ctrled != source)) { _fun00010_ip = 965; continue _fun00009 }
- 830:
+                    if(!(ctrled != source)) { _fun00010_ip = 972; continue _fun00009 }
+ 837:
                     config = _closure1_slot9;
                     sequen = config.getChannel;
                     source = update;
                     source = source.channelId;
                     source = sequen.bind(config)(source);
-                    if(!(ctrled != source)) { _fun00010_ip = 1122; continue _fun00009 }
- 859:
+                    if(!(ctrled != source)) { _fun00010_ip = 1129; continue _fun00009 }
+ 866:
                     source = report;
-                    if(source) { _fun00010_ip = 880; continue _fun00009 }
- 865:
+                    if(source) { _fun00010_ip = 887; continue _fun00009 }
+ 872:
                     ctrled = _closure1_slot17;
                     source = 'Switching to desired channel';
                     source = ctrled.bind(tangon)(source);
- 880:
+ 887:
                     ctrled = _closure1_slot0;
                     sequen = _closure1_slot2;
                     source = 17;
@@ -744,20 +745,20 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     limora = ctrled;
                     source = new limora[sequen](sierra, status);
                     source = source instanceof Object ? source : ctrled;
-                    SaveGenerator(address=956);
- 954:
+                    SaveGenerator(address=963);
+ 961:
                     return source;
- 956:
+ 963:
                     ResumeGenerator(result_out_reg=20, return_bool_out_reg=21);
-                    if(ctrled) { _fun00010_ip = 1119; continue _fun00009 }
- 965:
+                    if(ctrled) { _fun00010_ip = 1126; continue _fun00009 }
+ 972:
                     ctrled = report;
-                    if(ctrled) { _fun00010_ip = 986; continue _fun00009 }
- 971:
+                    if(ctrled) { _fun00010_ip = 993; continue _fun00009 }
+ 978:
                     sequen = _closure1_slot17;
                     ctrled = 'Writing caches';
                     ctrled = sequen.bind(tangon)(ctrled);
- 986:
+ 993:
                     sequen = _closure1_slot0;
                     config = _closure1_slot2;
                     ctrled = 18;
@@ -765,13 +766,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     sequen = sequen.bind(tangon)(ctrled);
                     ctrled = sequen.writeCaches;
                     ctrled = ctrled.bind(sequen)();
-                    SaveGenerator(address=1020);
- 1018:
+                    SaveGenerator(address=1027);
+ 1025:
                     return ctrled;
- 1020:
+ 1027:
                     ResumeGenerator(result_out_reg=21, return_bool_out_reg=23);
-                    if(sequen) { _fun00010_ip = 1116; continue _fun00009 }
- 1026:
+                    if(sequen) { _fun00010_ip = 1123; continue _fun00009 }
+ 1033:
                     config = result.Promise;
                     sequen = config.prototype;
                     sequen = Object.create(sequen, {constructor: {value: config}});
@@ -787,16 +788,16 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     limora = sequen;
                     vacuum = new limora[config](sierra, status);
                     vacuum = vacuum instanceof Object ? vacuum : sequen;
-                    SaveGenerator(address=1063);
- 1061:
+                    SaveGenerator(address=1070);
+ 1068:
                     return vacuum;
- 1063:
+ 1070:
                     ResumeGenerator(result_out_reg=22, return_bool_out_reg=23);
-                    if(sequen) { _fun00010_ip = 1113; continue _fun00009 }
- 1069:
+                    if(sequen) { _fun00010_ip = 1120; continue _fun00009 }
+ 1076:
                     sequen = report;
-                    if(sequen) { _fun00010_ip = 1110; continue _fun00009 }
- 1075:
+                    if(sequen) { _fun00010_ip = 1117; continue _fun00009 }
+ 1082:
                     config = _closure1_slot17;
                     sequen = 'Sending reply';
                     sequen = config.bind(tangon)(sequen);
@@ -804,15 +805,15 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     config = 'success';
                     sequen = 'Setup Complete';
                     sequen = record.bind(tangon)(config, sequen);
- 1110:
+ 1117:
                     return tangon;
- 1113:
+ 1120:
                     return vacuum;
- 1116:
+ 1123:
                     return ctrled;
- 1119:
+ 1126:
                     return source;
- 1122:
+ 1129:
                     source = result.Error;
                     vacuum = update.channelId;
                     result = result.HermesInternal;
@@ -826,24 +827,24 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     result = new limora[source](sierra, status);
                     result = result instanceof Object ? result : update;
                     update = report;
-                    if(update) { _fun00010_ip = 1210; continue _fun00009 }
- 1188:
+                    if(update) { _fun00010_ip = 1217; continue _fun00009 }
+ 1195:
                     source = _closure1_slot16;
                     update = result.message;
                     echoed = 'error';
                     echoed = source.bind(tangon)(echoed, update);
                     return tangon;
- 1210:
+ 1217:
                     throw result;
- 1212:
+ 1219:
                     return output;
- 1215:
+ 1222:
                     return sizing;
- 1218:
+ 1225:
                     return kiloes;
- 1221:
+ 1228:
                     return romeon;
- 1224: // try_start_1
+ 1231: // try_start_1
                     romeon = offset.Error;
                     sierra = backup;
                     target = foxtra;
@@ -860,29 +861,29 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     offset = new limora[romeon](sierra, status);
                     offset = offset instanceof Object ? offset : yankee;
                     throw offset;
- 1294: // try_end1
+ 1301: // try_end1
                     return verify;
- 1297:
+ 1304:
                     return option;
- 1300:
+ 1307:
                     return golfie;
- 1303:
+ 1310:
                     return oscard;
- 1306: // catch_target0 // catch_target1
+ 1313: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=2);
-                    if(report) { _fun00010_ip = 1339; continue _fun00009 }
- 1311:
+                    if(report) { _fun00010_ip = 1346; continue _fun00009 }
+ 1318:
                     golfie = _closure1_slot16;
                     report = zuuluu;
                     oscard = report.message;
                     report = 'error';
                     report = golfie.bind(tangon)(report, oscard);
                     return tangon;
- 1339:
+ 1346:
                     throw zuuluu;
- 1341:
+ 1348:
                     return michal;
- 1344:
+ 1351:
                     return entity;
                 }
             };
@@ -924,7 +925,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     michal = argBaz;
                     sizing = argCor;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00016_ip = 547; continue _fun00015 }
+                    if(zuuluu) { _fun00016_ip = 554; continue _fun00015 }
  21:
                     var _closure4_slot0 = output;
                     zuuluu = argBar;
@@ -935,36 +936,37 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     if(!(zuuluu === sizing)) { _fun00016_ip = 83; continue _fun00015 }
  53:
                     tangon = null;
-                    if(!(tangon == michal)) { _fun00016_ip = 544; continue _fun00015 }
+                    if(!(tangon == michal)) { _fun00016_ip = 551; continue _fun00015 }
  62:
                     report = _closure1_slot8;
                     zuuluu = report.getToken;
                     zuuluu = zuuluu.bind(report)();
-                    if(!(tangon == zuuluu)) { _fun00016_ip = 541; continue _fun00015 }
+                    if(!(tangon == zuuluu)) { _fun00016_ip = 548; continue _fun00015 }
  83:
                     report = _closure1_slot8;
                     tangon = report.getId;
                     tangon = tangon.bind(report)();
                     report = null;
-                    if(!(report != tangon)) { _fun00016_ip = 148; continue _fun00015 }
+                    if(!(report != tangon)) { _fun00016_ip = 155; continue _fun00015 }
  103:
                     golfie = _closure1_slot1;
                     oscard = _closure1_slot2;
                     tangon = 15;
                     oscard = oscard[tangon];
                     tangon = undefined;
-                    oscard = golfie.bind(tangon)(oscard);
-                    tangon = oscard.logout;
-                    tangon = tangon.bind(oscard)();
-                    SaveGenerator(address=139);
- 137:
+                    golfie = golfie.bind(tangon)(oscard);
+                    oscard = golfie.logout;
+                    tangon = 'TTI_test';
+                    tangon = oscard.bind(golfie)(tangon);
+                    SaveGenerator(address=146);
+ 144:
                     return tangon;
- 139:
+ 146:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(oscard) { _fun00016_ip = 538; continue _fun00015 }
- 148:
-                    if(!(report != michal)) { _fun00016_ip = 338; continue _fun00015 }
+                    if(oscard) { _fun00016_ip = 545; continue _fun00015 }
  155:
+                    if(!(report != michal)) { _fun00016_ip = 345; continue _fun00015 }
+ 162:
                     golfie = global;
                     option = golfie.fetch;
                     oscard = {};
@@ -976,16 +978,16 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     offset = undefined;
                     report = 'https://discord.com/api/users/@me/settings-proto/2';
                     report = option.bind(offset)(report, oscard);
-                    SaveGenerator(address=206);
- 204:
+                    SaveGenerator(address=213);
+ 211:
                     return report;
- 206:
+ 213:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                    if(oscard) { _fun00016_ip = 535; continue _fun00015 }
- 215:
+                    if(oscard) { _fun00016_ip = 542; continue _fun00015 }
+ 222:
                     oscard = report.ok;
-                    if(!oscard) { _fun00016_ip = 338; continue _fun00015 }
- 224:
+                    if(!oscard) { _fun00016_ip = 345; continue _fun00015 }
+ 231:
                     option = _closure1_slot1;
                     romeon = _closure1_slot2;
                     oscard = 15;
@@ -994,13 +996,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     option = offset.loginToken;
                     oscard = false;
                     oscard = option.bind(offset)(michal, oscard);
-                    SaveGenerator(address=262);
- 260:
+                    SaveGenerator(address=269);
+ 267:
                     return oscard;
- 262:
+ 269:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
-                    if(option) { _fun00016_ip = 532; continue _fun00015 }
- 271:
+                    if(option) { _fun00016_ip = 539; continue _fun00015 }
+ 278:
                     offset = golfie.Promise;
                     golfie = offset.prototype;
                     option = Object.create(golfie, {constructor: {value: offset}});
@@ -1014,18 +1016,18 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     vacuum = option;
                     golfie = new vacuum[offset](ctrled, source);
                     golfie = golfie instanceof Object ? golfie : option;
-                    SaveGenerator(address=308);
- 306:
+                    SaveGenerator(address=315);
+ 313:
                     return golfie;
- 308:
+ 315:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(option) { _fun00016_ip = 529; continue _fun00015 }
- 317:
+                    if(option) { _fun00016_ip = 536; continue _fun00015 }
+ 324:
                     offset = _closure1_slot8;
                     option = offset.getId;
                     option = option.bind(offset)();
-                    if(!(option !== sizing)) { _fun00016_ip = 526; continue _fun00015 }
- 338:
+                    if(!(option !== sizing)) { _fun00016_ip = 533; continue _fun00015 }
+ 345:
                     offset = global;
                     foxtra = offset.Promise;
                     option = foxtra.prototype;
@@ -1116,13 +1118,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     vacuum = romeon;
                     option = new vacuum[foxtra](ctrled, source);
                     option = option instanceof Object ? option : romeon;
-                    SaveGenerator(address=377);
- 375:
+                    SaveGenerator(address=384);
+ 382:
                     return option;
- 377:
+ 384:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=11);
-                    if(romeon) { _fun00016_ip = 523; continue _fun00015 }
- 386:
+                    if(romeon) { _fun00016_ip = 530; continue _fun00015 }
+ 393:
                     foxtra = offset.Promise;
                     romeon = foxtra.prototype;
                     romeon = Object.create(romeon, {constructor: {value: foxtra}});
@@ -1136,20 +1138,20 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     vacuum = romeon;
                     verify = new vacuum[foxtra](ctrled, source);
                     verify = verify instanceof Object ? verify : romeon;
-                    SaveGenerator(address=423);
- 421:
+                    SaveGenerator(address=430);
+ 428:
                     return verify;
- 423:
+ 430:
                     ResumeGenerator(result_out_reg=8, return_bool_out_reg=11);
-                    if(romeon) { _fun00016_ip = 520; continue _fun00015 }
- 429:
+                    if(romeon) { _fun00016_ip = 527; continue _fun00015 }
+ 436:
                     romeon = _closure1_slot8;
                     yankee = romeon.getId;
                     kiloes = yankee.bind(romeon)();
-                    if(!(kiloes === sizing)) { _fun00016_ip = 450; continue _fun00015 }
- 447:
+                    if(!(kiloes === sizing)) { _fun00016_ip = 457; continue _fun00015 }
+ 454:
                     return option;
- 450:
+ 457:
                     romeon = offset.Error;
                     offset = offset.HermesInternal;
                     backup = offset.concat;
@@ -1166,25 +1168,25 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     offset = new vacuum[romeon](ctrled, source);
                     offset = offset instanceof Object ? offset : yankee;
                     throw offset;
- 520:
+ 527:
                     return verify;
- 523:
+ 530:
                     return option;
- 526:
+ 533:
                     return michal;
- 529:
+ 536:
                     return golfie;
- 532:
+ 539:
                     return oscard;
- 535:
+ 542:
                     return report;
- 538:
+ 545:
                     return tangon;
- 541:
+ 548:
                     return zuuluu;
- 544:
+ 551:
                     return michal;
- 547:
+ 554:
                     return entity;
                 }
             };

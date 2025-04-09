@@ -234,9 +234,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             cntext = update.bind(cntext)(output, romeon);
             output = null;
-            if(!(output == entity)) { _fun00002_ip = 2269; continue _fun00001 }
+            if(!(output == entity)) { _fun00002_ip = 2260; continue _fun00001 }
  601:
-            if(kiloes) { _fun00002_ip = 2269; continue _fun00001 }
+            if(kiloes) { _fun00002_ip = 2260; continue _fun00001 }
  607:
             romeon = _closure1_slot0;
             entity = _closure1_slot2;
@@ -583,10 +583,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = record.bind(tangon)(yankee, oscard);
             report[3] = oscard;
             oscard = null;
-            if(!golfie) { _fun00002_ip = 2044; continue _fun00001 }
+            if(!golfie) { _fun00002_ip = 2035; continue _fun00001 }
  1824:
             oscard = null;
-            if(!backup) { _fun00002_ip = 2044; continue _fun00001 }
+            if(!backup) { _fun00002_ip = 2035; continue _fun00001 }
  1832:
             yankee = _closure1_slot0;
             golfie = _closure1_slot2;
@@ -595,7 +595,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = golfie.EmbeddedActivityLaunchability;
             golfie = golfie.CAN_LAUNCH;
             oscard = null;
-            if(!(option === golfie)) { _fun00002_ip = 2044; continue _fun00001 }
+            if(!(option === golfie)) { _fun00002_ip = 2035; continue _fun00001 }
  1870:
             yankee = _closure1_slot11;
             option = _closure1_slot3;
@@ -603,7 +603,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = sizing.container;
             golfie['style'] = config;
             config = null;
-            if(!romeon) { _fun00002_ip = 1938; continue _fun00001 }
+            if(!romeon) { _fun00002_ip = 1929; continue _fun00001 }
  1894:
             cntext = _closure1_slot10;
             record = _closure1_slot0;
@@ -612,15 +612,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = record.bind(tangon)(romeon);
             record = romeon.LeaveActivitiesButton;
             romeon = {};
-            papara = foxtra.id;
-            romeon['channelId'] = papara;
             config = cntext.bind(tangon)(record, romeon);
- 1938:
+ 1929:
             romeon = new Array(3);
             romeon[0] = config;
             config = null;
-            if(!result) { _fun00002_ip = 1986; continue _fun00001 }
- 1951:
+            if(!result) { _fun00002_ip = 1977; continue _fun00001 }
+ 1942:
             papara = _closure1_slot10;
             cntext = _closure1_slot0;
             record = _closure1_slot2;
@@ -629,11 +627,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = record.ShareActivityLogsButton;
             record = {};
             config = papara.bind(tangon)(cntext, record);
- 1986:
+ 1977:
             romeon[1] = config;
             config = null;
-            if(!result) { _fun00002_ip = 2030; continue _fun00001 }
- 1995:
+            if(!result) { _fun00002_ip = 2021; continue _fun00001 }
+ 1986:
             papara = _closure1_slot10;
             cntext = _closure1_slot0;
             record = _closure1_slot2;
@@ -642,11 +640,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = record.ToggleShowActivitiesDebugOverlay;
             record = {};
             config = papara.bind(tangon)(cntext, record);
- 2030:
+ 2021:
             romeon[2] = config;
             golfie['children'] = romeon;
             oscard = yankee.bind(tangon)(option, golfie);
- 2044:
+ 2035:
             report[4] = oscard;
             option = _closure1_slot11;
             golfie = _closure1_slot3;
@@ -672,8 +670,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee[0] = romeon;
             source = output != sequen;
             romeon = null;
-            if(!source) { _fun00002_ip = 2185; continue _fun00001 }
- 2145:
+            if(!source) { _fun00002_ip = 2176; continue _fun00001 }
+ 2136:
             vacuum = _closure1_slot10;
             ctrled = _closure1_slot0;
             source = _closure1_slot2;
@@ -683,14 +681,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = {};
             source['stream'] = sequen;
             romeon = vacuum.bind(tangon)(ctrled, source);
- 2185:
+ 2176:
             yankee[1] = romeon;
             romeon = null;
-            if(!result) { _fun00002_ip = 2239; continue _fun00001 }
- 2194:
+            if(!result) { _fun00002_ip = 2230; continue _fun00001 }
+ 2185:
             romeon = null;
-            if(!backup) { _fun00002_ip = 2239; continue _fun00001 }
- 2199:
+            if(!backup) { _fun00002_ip = 2230; continue _fun00001 }
+ 2190:
             result = _closure1_slot10;
             output = _closure1_slot0;
             backup = _closure1_slot2;
@@ -700,7 +698,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = {};
             backup['onOpenRTCDebugOverlay'] = echoed;
             romeon = result.bind(tangon)(output, backup);
- 2239:
+ 2230:
             yankee[2] = romeon;
             oscard['children'] = yankee;
             oscard = option.bind(tangon)(golfie, oscard);
@@ -708,7 +706,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 2269:
+ 2260:
             zuuluu = _closure1_slot11;
             michal = _closure1_slot12;
             entity = {};
@@ -744,8 +742,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = romeon.bind(tangon)(yankee, option);
             option = new Array(2);
             option[0] = yankee;
-            if(!verify) { _fun00002_ip = 2455; continue _fun00001 }
- 2416:
+            if(!verify) { _fun00002_ip = 2446; continue _fun00001 }
+ 2407:
             romeon = _closure1_slot10;
             yankee = _closure1_slot0;
             offset = _closure1_slot2;
@@ -755,7 +753,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = {};
             offset['channel'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 2455:
+ 2446:
             option[1] = verify;
             oscard['children'] = option;
             oscard = zuuluu.bind(tangon)(golfie, oscard);

@@ -19,8 +19,8 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
         entity = function(argFoo) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zuuluu = argFoo;
-                tangon = zuuluu.type;
+                michal = argFoo;
+                zuuluu = michal.type;
                 oscard = _closure1_slot0;
                 report = _closure1_slot1;
                 entity = 4;
@@ -28,27 +28,24 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
                 report = undefined;
                 entity = oscard.bind(report)(entity);
                 entity = entity.I18nLinkComponent;
-                if(!(tangon !== entity)) { _fun00002_ip = 86; continue _fun00001 }
+                if(!(zuuluu !== entity)) { _fun00002_ip = 81; continue _fun00001 }
  43:
-                entity = zuuluu.props;
-                tangon = entity.children;
+                zuuluu = michal.props;
+                oscard = zuuluu.children;
                 entity = null;
-                if(!(entity == tangon)) { _fun00002_ip = 65; continue _fun00001 }
+                if(!(entity == oscard)) { _fun00002_ip = 65; continue _fun00001 }
  59:
                 entity = new Array(0);
-                _fun00002_ip = 84; continue _fun00001;
+                _fun00002_ip = 79; continue _fun00001;
  65:
                 tangon = _closure1_slot7;
-                michal = zuuluu.props;
-                michal = michal.children;
-                entity = tangon.bind(report)(michal);
- 84:
-                _fun00002_ip = 97; continue _fun00001;
- 86:
-                michal = new Array(1);
-                michal[0] = zuuluu;
-                entity = michal;
- 97:
+                zuuluu = zuuluu.children;
+                entity = tangon.bind(report)(zuuluu);
+ 79:
+                return entity;
+ 81:
+                entity = new Array(1);
+                entity[0] = michal;
                 return entity;
             }
         };

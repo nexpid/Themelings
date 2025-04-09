@@ -62,14 +62,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = option;
     var _closure1_slot11 = tangon;
     tangon = {};
-    option = "function VoicePanelControlsAppLauncherTsx2(){const{isGestureActive,windowDimensions,safeArea}=this.__closure;const height=isGestureActive.get()?windowDimensions.height-safeArea.top:'100%';return{height:height};}";
+    option = 'function VoicePanelControlsAppLauncherTsx2(){const{gestureSpecs}=this.__closure;return gestureSpecs.get().isDrawer;}';
     tangon['code'] = option;
     var _closure1_slot12 = tangon;
+    tangon = {};
+    option = "function VoicePanelControlsAppLauncherTsx3(){const{isGestureActive,isGestureDrawerMode,windowDimensions,safeArea}=this.__closure;const height=isGestureActive.get()||!isGestureDrawerMode.get()?windowDimensions.height-safeArea.top:'100%';return{height:height};}";
+    tangon['code'] = option;
+    var _closure1_slot13 = tangon;
     tangon = golfie.memo;
     michal = function(argFoo) { // Original name: VoicePanelControlsAppLauncher
         michal = argFoo;
-        sequen = michal.gestureSpecs;
-        var _closure2_slot0 = sequen;
+        config = michal.gestureSpecs;
+        var _closure2_slot0 = config;
         michal = _closure1_slot10;
         tangon = undefined;
         option = michal.bind(tangon)();
@@ -181,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = sizing[report];
         golfie = kiloes.bind(tangon)(michal);
         zuuluu = golfie.useDerivedValue;
-        michal = function() { // Original name: x
+        michal = function() { // Original name: b
             michal = _closure2_slot0;
             entity = michal.get;
             entity = entity.bind(michal)();
@@ -189,14 +193,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         vacuum = {};
-        vacuum['gestureSpecs'] = sequen;
+        vacuum['gestureSpecs'] = config;
         michal['__closure'] = vacuum;
         vacuum = 1130089519653.0;
         michal['__workletHash'] = vacuum;
         vacuum = _closure1_slot11;
         michal['__initData'] = vacuum;
+        sequen = zuuluu.bind(golfie)(michal);
+        var _closure2_slot5 = sequen;
+        michal = sizing[report];
+        golfie = kiloes.bind(tangon)(michal);
+        zuuluu = golfie.useDerivedValue;
+        michal = function() { // Original name: x
+            michal = _closure2_slot0;
+            entity = michal.get;
+            entity = entity.bind(michal)();
+            entity = entity.isDrawer;
+            return entity;
+        };
+        vacuum = {};
+        vacuum['gestureSpecs'] = config;
+        michal['__closure'] = vacuum;
+        vacuum = 13970291088135.0;
+        michal['__workletHash'] = vacuum;
+        vacuum = _closure1_slot12;
+        michal['__initData'] = vacuum;
         vacuum = zuuluu.bind(golfie)(michal);
-        var _closure2_slot5 = vacuum;
+        var _closure2_slot6 = vacuum;
         michal = sizing[report];
         zuuluu = kiloes.bind(tangon)(michal);
         michal = zuuluu.useAnimatedStyle;
@@ -206,28 +229,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = {};
                 tangon = _closure2_slot5;
                 michal = tangon.get;
+                michal = michal.bind(tangon)();
+                if(michal) { _fun00002_ip = 43; continue _fun00001 }
+ 21:
+                tangon = _closure2_slot6;
+                michal = tangon.get;
                 tangon = michal.bind(tangon)();
                 michal = '100%';
-                if(!tangon) { _fun00002_ip = 49; continue _fun00001 }
- 27:
+                if(tangon) { _fun00002_ip = 65; continue _fun00001 }
+ 43:
                 tangon = _closure2_slot3;
                 tangon = tangon.height;
                 zuuluu = _closure2_slot4;
                 zuuluu = zuuluu.top;
                 michal = tangon - zuuluu;
- 49:
+ 65:
                 entity['height'] = michal;
                 return entity;
             }
         };
         golfie = {};
-        golfie['isGestureActive'] = vacuum;
+        golfie['isGestureActive'] = sequen;
+        golfie['isGestureDrawerMode'] = vacuum;
         golfie['windowDimensions'] = ctrled;
         golfie['safeArea'] = verify;
         entity['__closure'] = golfie;
-        golfie = 14027096386092.0;
+        golfie = 3671157204025.0;
         entity['__workletHash'] = golfie;
-        golfie = _closure1_slot12;
+        golfie = _closure1_slot13;
         entity['__initData'] = golfie;
         verify = michal.bind(zuuluu)(entity);
         zuuluu = _closure1_slot7;

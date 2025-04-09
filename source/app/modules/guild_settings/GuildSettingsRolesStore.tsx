@@ -1029,34 +1029,50 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
  0:
             entity = argFoo;
-            tangon = entity.id;
-            golfie = entity.color;
-            entity = null;
-            michal = 0;
-            oscard = null;
-            if(!(michal !== golfie)) { _fun00040_ip = 59; continue _fun00039 }
+            zuuluu = entity.id;
+            verify = entity.color;
+            golfie = null;
+            entity = 0;
+            option = null;
+            if(!(entity !== verify)) { _fun00040_ip = 59; continue _fun00039 }
  23:
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot3;
-            michal = 14;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            zuuluu = report.bind(michal)(zuuluu);
-            michal = zuuluu.int2hex;
-            oscard = michal.bind(zuuluu)(golfie);
+            tangon = _closure1_slot0;
+            michal = _closure1_slot3;
+            entity = 14;
+            michal = michal[entity];
+            entity = undefined;
+            michal = tangon.bind(entity)(michal);
+            entity = michal.int2hex;
+            option = entity.bind(michal)(verify);
  59:
-            zuuluu = _closure1_slot33;
+            entity = _closure1_slot33;
             report = undefined;
-            tangon = zuuluu.bind(report)(tangon);
-            entity = entity != tangon;
-            if(!entity) { _fun00040_ip = 101; continue _fun00039 }
+            tangon = entity.bind(report)(zuuluu);
+            entity = golfie != tangon;
+            if(!entity) { _fun00040_ip = 156; continue _fun00039 }
  80:
             zuuluu = _closure1_slot32;
             michal = {};
-            michal['color'] = golfie;
-            michal['colorString'] = oscard;
+            michal['color'] = verify;
+            michal['colorString'] = option;
+            oscard = {};
+            oscard['primary_color'] = verify;
+            oscard['secondary_color'] = report;
+            oscard['tertiary_color'] = report;
+            michal['colors'] = oscard;
+            oscard = {};
+            verify = golfie != option;
+            golfie = undefined;
+            if(!verify) { _fun00040_ip = 130; continue _fun00039 }
+ 127:
+            golfie = option;
+ 130:
+            oscard['primaryColor'] = golfie;
+            oscard['secondaryColor'] = report;
+            oscard['tertiaryColor'] = report;
+            michal['colorStrings'] = oscard;
             entity = zuuluu.bind(report)(tangon, michal);
- 101:
+ 156:
             return entity;
         }
     };
@@ -1071,14 +1087,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = undefined;
             zuuluu = michal.bind(tangon)(zuuluu);
             michal = null;
-            if(!(michal != zuuluu)) { _fun00042_ip = 102; continue _fun00041 }
+            if(!(michal != zuuluu)) { _fun00042_ip = 108; continue _fun00041 }
  33:
-            report = _closure1_slot1;
+            report = _closure1_slot0;
             golfie = _closure1_slot3;
             michal = 15;
             michal = golfie[michal];
-            michal = report.bind(tangon)(michal);
-            report = michal.bind(tangon)(oscard);
+            report = report.bind(tangon)(michal);
+            michal = report.extractColorStringsFromServerColors;
+            report = michal.bind(report)(oscard);
             michal = _closure1_slot32;
             entity = {};
             golfie = oscard.primary_color;
@@ -1089,7 +1106,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['colorStrings'] = report;
             entity = michal.bind(tangon)(zuuluu, entity);
             return entity;
- 102:
+ 108:
             entity = false;
             return entity;
         }

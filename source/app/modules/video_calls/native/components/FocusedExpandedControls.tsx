@@ -840,35 +840,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = function(argFoo) {
         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
-            michal = argFoo;
-            golfie = michal.channel;
-            var _closure2_slot0 = golfie;
-            report = _closure1_slot1;
+            entity = argFoo;
+            golfie = entity.channel;
+            michal = _closure1_slot1;
             zuuluu = _closure1_slot2;
-            michal = 43;
-            michal = zuuluu[michal];
+            entity = 43;
+            entity = zuuluu[entity];
             tangon = undefined;
-            michal = report.bind(tangon)(michal);
-            report = michal.bind(tangon)(golfie);
+            entity = michal.bind(tangon)(entity);
+            report = entity.bind(tangon)(golfie);
             michal = _closure1_slot0;
-            option = 21;
-            option = zuuluu[option];
-            yankee = michal.bind(tangon)(option);
+            entity = 21;
+            entity = zuuluu[entity];
+            yankee = michal.bind(tangon)(entity);
             offset = yankee.useStateFromStores;
-            option = _closure1_slot8;
+            entity = _closure1_slot8;
             verify = new Array(1);
-            verify[0] = option;
-            option = new Array(1);
-            option[0] = golfie;
-            entity = function() {
-                zuuluu = _closure1_slot8;
-                michal = zuuluu.getSelfEmbeddedActivityForChannel;
-                entity = _closure2_slot0;
-                entity = entity.id;
-                entity = michal.bind(zuuluu)(entity);
+            verify[0] = entity;
+            option = function() {
+                michal = _closure1_slot8;
+                entity = michal.getCurrentEmbeddedActivity;
+                entity = entity.bind(michal)();
                 return entity;
             };
-            option = offset.bind(yankee)(verify, entity, option);
+            entity = new Array(0);
+            option = offset.bind(yankee)(verify, option, entity);
             entity = 44;
             entity = zuuluu[entity];
             zuuluu = michal.bind(tangon)(entity);
@@ -876,10 +872,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             verify = entity == option;
             entity = undefined;
-            if(verify) { _fun00020_ip = 133; continue _fun00019 }
- 128:
+            if(verify) { _fun00020_ip = 125; continue _fun00019 }
+ 120:
             entity = option.applicationId;
- 133:
+ 125:
             entity = michal.bind(zuuluu)(golfie, report, entity);
             report = entity.label;
             golfie = entity.onPress;
@@ -921,20 +917,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     zuuluu['ShareActivityLogsButton'] = tangon;
-    tangon = function(argFoo) {
-        michal = argFoo;
-        michal = michal.channelId;
-        var _closure2_slot0 = michal;
+    tangon = function() {
         tangon = _closure1_slot20;
         zuuluu = _closure1_slot25;
         michal = {};
         entity = function() { // Original name: onPress
             _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
-                tangon = _closure1_slot8;
-                zuuluu = tangon.getSelfEmbeddedActivityForChannel;
-                michal = _closure2_slot0;
-                oscard = zuuluu.bind(tangon)(michal);
+                zuuluu = _closure1_slot8;
+                michal = zuuluu.getCurrentEmbeddedActivity;
+                oscard = michal.bind(zuuluu)();
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
                 entity = 46;
@@ -946,17 +938,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = null;
                 option = report == oscard;
                 golfie = undefined;
-                if(option) { _fun00022_ip = 71; continue _fun00021 }
- 66:
+                if(option) { _fun00022_ip = 63; continue _fun00021 }
+ 58:
                 golfie = oscard.location;
- 71:
+ 63:
                 michal['location'] = golfie;
                 golfie = report == oscard;
                 report = undefined;
-                if(golfie) { _fun00022_ip = 89; continue _fun00021 }
- 84:
+                if(golfie) { _fun00022_ip = 81; continue _fun00021 }
+ 76:
                 report = oscard.applicationId;
- 89:
+ 81:
                 michal['applicationId'] = report;
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;

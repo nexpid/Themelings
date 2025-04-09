@@ -82,89 +82,89 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = golfie.bind(tangon)();
             foxtra = _closure1_slot2;
             golfie = foxtra.useRef;
-            golfie = golfie.bind(foxtra)();
+            golfie = golfie.bind(foxtra)(offset);
             _closure2_slot0 = golfie;
-            if(!(offset == zuuluu)) { _fun00002_ip = 155; continue _fun00001 }
- 153:
+            if(!(offset == zuuluu)) { _fun00002_ip = 156; continue _fun00001 }
+ 154:
             zuuluu = {};
- 155:
+ 156:
             output = zuuluu.paddingTop;
-            if(output) { _fun00002_ip = 170; continue _fun00001 }
- 164:
+            if(output) { _fun00002_ip = 171; continue _fun00001 }
+ 165:
             output = zuuluu.paddingVertical;
- 170:
-            if(output) { _fun00002_ip = 175; continue _fun00001 }
- 173:
+ 171:
+            if(output) { _fun00002_ip = 176; continue _fun00001 }
+ 174:
             output = 0;
- 175:
+ 176:
             kiloes = zuuluu.paddingBottom;
-            if(kiloes) { _fun00002_ip = 190; continue _fun00001 }
- 184:
+            if(kiloes) { _fun00002_ip = 191; continue _fun00001 }
+ 185:
             kiloes = zuuluu.paddingVertical;
- 190:
-            if(kiloes) { _fun00002_ip = 195; continue _fun00001 }
- 193:
+ 191:
+            if(kiloes) { _fun00002_ip = 196; continue _fun00001 }
+ 194:
             kiloes = 0;
- 195:
+ 196:
             foxtra = zuuluu.paddingLeft;
-            if(foxtra) { _fun00002_ip = 209; continue _fun00001 }
- 204:
+            if(foxtra) { _fun00002_ip = 210; continue _fun00001 }
+ 205:
             foxtra = zuuluu.paddingHorizontal;
- 209:
-            if(foxtra) { _fun00002_ip = 214; continue _fun00001 }
- 212:
+ 210:
+            if(foxtra) { _fun00002_ip = 215; continue _fun00001 }
+ 213:
             foxtra = 0;
- 214:
+ 215:
             offset = zuuluu.paddingRight;
-            if(offset) { _fun00002_ip = 228; continue _fun00001 }
- 223:
+            if(offset) { _fun00002_ip = 229; continue _fun00001 }
+ 224:
             offset = zuuluu.paddingHorizontal;
- 228:
-            if(offset) { _fun00002_ip = 233; continue _fun00001 }
- 231:
+ 229:
+            if(offset) { _fun00002_ip = 234; continue _fun00001 }
+ 232:
             offset = 0;
- 233:
+ 234:
             oscard = new Array(5);
             oscard[0] = zuuluu;
             zuuluu = undefined;
-            if(!backup) { _fun00002_ip = 265; continue _fun00001 }
- 246:
+            if(!backup) { _fun00002_ip = 266; continue _fun00001 }
+ 247:
             backup = {};
             sizing = verify.top;
             sizing = sizing + output;
             backup['paddingTop'] = sizing;
             zuuluu = backup;
- 265:
+ 266:
             oscard[1] = zuuluu;
             zuuluu = undefined;
-            if(!romeon) { _fun00002_ip = 293; continue _fun00001 }
- 274:
+            if(!romeon) { _fun00002_ip = 294; continue _fun00001 }
+ 275:
             romeon = {};
             backup = verify.bottom;
             backup = backup + kiloes;
             romeon['paddingBottom'] = backup;
             zuuluu = romeon;
- 293:
+ 294:
             oscard[2] = zuuluu;
             zuuluu = undefined;
-            if(!yankee) { _fun00002_ip = 321; continue _fun00001 }
- 302:
+            if(!yankee) { _fun00002_ip = 322; continue _fun00001 }
+ 303:
             yankee = {};
             romeon = verify.left;
             romeon = romeon + foxtra;
             yankee['paddingLeft'] = romeon;
             zuuluu = yankee;
- 321:
+ 322:
             oscard[3] = zuuluu;
             zuuluu = undefined;
-            if(!option) { _fun00002_ip = 349; continue _fun00001 }
- 330:
+            if(!option) { _fun00002_ip = 350; continue _fun00001 }
+ 331:
             option = {};
             verify = verify.right;
             verify = verify + offset;
             option['paddingRight'] = verify;
             zuuluu = option;
- 349:
+ 350:
             oscard[4] = zuuluu;
             _closure2_slot1 = oscard;
             option = _closure1_slot0;
@@ -178,11 +178,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.bind(tangon)(golfie);
             golfie = golfie.bind(tangon)(oscard, zuuluu);
             _closure2_slot2 = golfie;
-            if(!golfie) { _fun00002_ip = 414; continue _fun00001 }
- 407:
+            if(!golfie) { _fun00002_ip = 415; continue _fun00001 }
+ 408:
             _closure2_slot1 = zuuluu;
             oscard = zuuluu;
- 414:
+ 415:
             golfie = _closure1_slot2;
             zuuluu = golfie.useInsertionEffect;
             michal = function() {

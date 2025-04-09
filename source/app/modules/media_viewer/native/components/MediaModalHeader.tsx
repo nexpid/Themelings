@@ -287,52 +287,63 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = function(argFoo) { // Original name: children
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
+                    zuuluu = argFoo;
+                    oscard = zuuluu.ref;
+                    entity = null;
+                    michal = Object.create(entity);
+                    entity = 0;
+                    michal['ref'] = entity;
+                    kiloes = {};
+                    backup = zuuluu;
+                    foxtra = michal;
+                    report = copyDataProperties(kiloes, backup, foxtra);
                     tangon = _closure1_slot5;
-                    golfie = _closure1_slot0;
-                    option = _closure1_slot2;
+                    verify = _closure1_slot0;
+                    offset = _closure1_slot2;
                     entity = 18;
-                    entity = option[entity];
+                    entity = offset[entity];
                     zuuluu = undefined;
-                    entity = golfie.bind(zuuluu)(entity);
+                    entity = verify.bind(zuuluu)(entity);
                     michal = entity.IconButton;
                     entity = {};
-                    report = 10;
-                    verify = option[report];
-                    verify = golfie.bind(zuuluu)(verify);
-                    offset = verify.intl;
-                    verify = offset.string;
-                    report = option[report];
-                    report = golfie.bind(zuuluu)(report);
-                    report = report.t;
-                    report = report.PdRCRk;
-                    report = verify.bind(offset)(report);
-                    entity['accessibilityLabel'] = report;
-                    report = 'md';
-                    entity['size'] = report;
-                    report = 19;
-                    report = option[report];
-                    golfie = golfie.bind(zuuluu)(report);
-                    report = golfie.isAndroid;
-                    report = report.bind(golfie)();
-                    golfie = _closure1_slot1;
-                    option = _closure1_slot2;
-                    if(report) { _fun00004_ip = 142; continue _fun00003 }
- 128:
-                    report = 21;
-                    report = option[report];
-                    report = golfie.bind(zuuluu)(report);
-                    _fun00004_ip = 154; continue _fun00003;
- 142:
-                    oscard = 20;
-                    oscard = option[oscard];
-                    report = golfie.bind(zuuluu)(oscard);
- 154:
-                    entity['icon'] = report;
-                    report = 'secondary-overlay';
-                    entity['variant'] = report;
-                    yankee = argFoo;
-                    romeon = entity;
-                    report = copyDataProperties(romeon, yankee);
+                    golfie = 10;
+                    yankee = offset[golfie];
+                    yankee = verify.bind(zuuluu)(yankee);
+                    romeon = yankee.intl;
+                    yankee = romeon.string;
+                    golfie = offset[golfie];
+                    golfie = verify.bind(zuuluu)(golfie);
+                    golfie = golfie.t;
+                    golfie = golfie.PdRCRk;
+                    golfie = yankee.bind(romeon)(golfie);
+                    entity['accessibilityLabel'] = golfie;
+                    golfie = 'md';
+                    entity['size'] = golfie;
+                    golfie = 19;
+                    golfie = offset[golfie];
+                    verify = verify.bind(zuuluu)(golfie);
+                    golfie = verify.isAndroid;
+                    golfie = golfie.bind(verify)();
+                    verify = _closure1_slot1;
+                    offset = _closure1_slot2;
+                    if(golfie) { _fun00004_ip = 173; continue _fun00003 }
+ 159:
+                    golfie = 21;
+                    golfie = offset[golfie];
+                    golfie = verify.bind(zuuluu)(golfie);
+                    _fun00004_ip = 185; continue _fun00003;
+ 173:
+                    option = 20;
+                    option = offset[option];
+                    golfie = verify.bind(zuuluu)(option);
+ 185:
+                    entity['icon'] = golfie;
+                    golfie = 'secondary-overlay';
+                    entity['variant'] = golfie;
+                    entity['ref'] = oscard;
+                    kiloes = entity;
+                    backup = report;
+                    report = copyDataProperties(kiloes, backup);
                     entity = tangon.bind(zuuluu)(michal, entity);
                     return entity;
                 }

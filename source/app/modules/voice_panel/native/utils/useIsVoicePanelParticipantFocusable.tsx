@@ -9,39 +9,39 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo, argBar, argBaz) { // Original name: isVoicePanelParticipantFocusable
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscard = argBar;
             golfie = argBaz;
-            zuuluu = arguments[3];
-            verify = arguments[4];
+            oscard = arguments[3];
+            option = arguments[4];
             report = arguments[5];
-            offset = arguments[6];
+            verify = arguments[6];
             entity = undefined;
-            if(!(zuuluu === entity)) { _fun00002_ip = 31; continue _fun00001 }
- 24:
-            zuuluu = _closure1_slot3;
- 31:
-            if(!(verify === entity)) { _fun00002_ip = 42; continue _fun00001 }
- 35:
-            verify = _closure1_slot5;
- 42:
-            if(!(report === entity)) { _fun00002_ip = 53; continue _fun00001 }
- 46:
+            if(!(oscard === entity)) { _fun00002_ip = 28; continue _fun00001 }
+ 21:
+            oscard = _closure1_slot3;
+ 28:
+            if(!(option === entity)) { _fun00002_ip = 39; continue _fun00001 }
+ 32:
+            option = _closure1_slot5;
+ 39:
+            if(!(report === entity)) { _fun00002_ip = 50; continue _fun00001 }
+ 43:
             report = _closure1_slot2;
- 53:
-            if(!(offset === entity)) { _fun00002_ip = 64; continue _fun00001 }
- 57:
-            offset = _closure1_slot4;
- 64:
+ 50:
+            if(!(verify === entity)) { _fun00002_ip = 61; continue _fun00001 }
+ 54:
+            verify = _closure1_slot4;
+ 61:
             tangon = null;
-            if(!(tangon != golfie)) { _fun00002_ip = 294; continue _fun00001 }
- 73:
-            michal = zuuluu.getParticipant;
-            zuuluu = michal.bind(zuuluu)(oscard, golfie);
-            if(!(tangon != zuuluu)) { _fun00002_ip = 290; continue _fun00001 }
+            if(!(tangon != golfie)) { _fun00002_ip = 293; continue _fun00001 }
+ 70:
+            zuuluu = oscard.getParticipant;
+            michal = argBar;
+            zuuluu = zuuluu.bind(oscard)(michal, golfie);
+            if(!(tangon != zuuluu)) { _fun00002_ip = 289; continue _fun00001 }
  92:
             michal = _closure1_slot7;
             michal = michal.bind(entity)(zuuluu);
-            if(michal) { _fun00002_ip = 286; continue _fun00001 }
+            if(michal) { _fun00002_ip = 285; continue _fun00001 }
  110:
             michal = _closure1_slot6;
             michal = michal.bind(entity)(zuuluu);
@@ -53,58 +53,58 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  134:
             michal = _closure1_slot9;
             michal = michal.bind(entity)(zuuluu);
-            option = _closure1_slot0;
-            yankee = _closure1_slot1;
+            golfie = _closure1_slot0;
+            offset = _closure1_slot1;
             if(michal) { _fun00002_ip = 181; continue _fun00001 }
  154:
             michal = 6;
-            michal = yankee[michal];
-            golfie = option.bind(entity)(michal);
-            michal = golfie.assertNever;
-            michal = michal.bind(golfie)(zuuluu);
+            michal = offset[michal];
+            oscard = golfie.bind(entity)(michal);
+            michal = oscard.assertNever;
+            michal = michal.bind(oscard)(zuuluu);
             michal = undefined;
             _fun00002_ip = 205; continue _fun00001;
  181:
-            golfie = 5;
-            golfie = yankee[golfie];
-            option = option.bind(entity)(golfie);
-            golfie = option.canRenderParticipantVideo;
-            michal = golfie.bind(option)(zuuluu, verify);
+            oscard = 5;
+            oscard = offset[oscard];
+            golfie = golfie.bind(entity)(oscard);
+            oscard = golfie.canRenderParticipantVideo;
+            michal = oscard.bind(golfie)(zuuluu, option);
  205:
             _fun00002_ip = 236; continue _fun00001;
  207:
-            verify = offset.getActiveStreamForUser;
-            golfie = zuuluu.user;
-            option = golfie.id;
-            golfie = argFoo;
-            golfie = verify.bind(offset)(option, golfie);
-            michal = tangon != golfie;
+            option = verify.getActiveStreamForUser;
+            oscard = zuuluu.user;
+            golfie = oscard.id;
+            oscard = argFoo;
+            oscard = option.bind(verify)(golfie, oscard);
+            michal = tangon != oscard;
  236:
             return michal;
  238:
-            michal = report.getSelfEmbeddedActivityForChannel;
-            michal = michal.bind(report)(oscard);
+            michal = report.getCurrentEmbeddedActivity;
+            michal = michal.bind(report)();
             report = tangon == michal;
             entity = undefined;
-            if(report) { _fun00002_ip = 263; continue _fun00001 }
- 258:
+            if(report) { _fun00002_ip = 262; continue _fun00001 }
+ 257:
             entity = michal.applicationId;
- 263:
+ 262:
             entity = tangon != entity;
-            if(!entity) { _fun00002_ip = 284; continue _fun00001 }
- 270:
+            if(!entity) { _fun00002_ip = 283; continue _fun00001 }
+ 269:
             zuuluu = zuuluu.applicationId;
             michal = michal.applicationId;
             entity = zuuluu === michal;
- 284:
+ 283:
             return entity;
- 286:
+ 285:
             entity = false;
             return entity;
- 290:
+ 289:
             entity = false;
             return entity;
- 294:
+ 293:
             entity = false;
             return entity;
         }

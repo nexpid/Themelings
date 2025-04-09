@@ -303,7 +303,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['messageAttachmentToMediaItem'] = tangon;
-    tangon = function(argFoo) { // Original name: unfurledMediaItemToMediaItem
+    tangon = function(argFoo, argBar) { // Original name: unfurledMediaItemToMediaItem
         tangon = argFoo;
         entity = {};
         oscard = entity;
@@ -313,6 +313,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = undefined;
         zuuluu = zuuluu.bind(michal)(tangon);
         michal = 'type';
+        entity[michal] = zuuluu;
+        zuuluu = {};
+        michal = argBar;
+        zuuluu['message'] = michal;
+        michal = 'sourceMetadata';
         entity[michal] = zuuluu;
         return entity;
     };

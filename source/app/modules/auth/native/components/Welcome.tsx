@@ -914,11 +914,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = 30;
                 zuuluu = zuuluu[entity];
                 entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.track;
+                report = tangon.bind(entity)(zuuluu);
+                tangon = report.track;
                 michal = _closure1_slot15;
-                michal = michal.LOGIN_VIEWED;
-                michal = zuuluu.bind(tangon)(michal);
+                zuuluu = michal.LOGIN_VIEWED;
+                michal = {};
+                oscard = 'welcome';
+                michal['source'] = oscard;
+                michal = tangon.bind(report)(zuuluu, michal);
                 return entity;
             };
             output['onPress'] = source;

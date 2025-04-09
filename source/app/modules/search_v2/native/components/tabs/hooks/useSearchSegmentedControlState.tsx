@@ -1,12 +1,10 @@
 // app/modules/search_v2/native/components/tabs/hooks/useSearchSegmentedControlState.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
+    var _closure1_slot1 = oscard;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -20,24 +18,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = argCor;
     entity = undefined;
     tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = tangon;
+    var _closure1_slot2 = tangon;
     tangon = {};
     golfie = 'function useSearchSegmentedControlStateTsx1(){const{defaultIndex}=this.__closure;return defaultIndex.get();}';
     tangon['code'] = golfie;
-    var _closure1_slot4 = tangon;
+    var _closure1_slot3 = tangon;
     tangon = {};
     golfie = 'function useSearchSegmentedControlStateTsx2(value){const{activeIndex,runOnJS,onDefaultIndexChange}=this.__closure;if(value!==activeIndex.get()){runOnJS(onDefaultIndexChange)(value);}}';
     tangon['code'] = golfie;
-    var _closure1_slot5 = tangon;
+    var _closure1_slot4 = tangon;
     tangon = {};
     golfie = 'function useSearchSegmentedControlStateTsx3(){const{activeIndex}=this.__closure;return activeIndex.get();}';
     tangon['code'] = golfie;
-    var _closure1_slot6 = tangon;
+    var _closure1_slot5 = tangon;
     tangon = {};
     golfie = 'function useSearchSegmentedControlStateTsx4(index){const{runOnJS,handleSetActiveIndex}=this.__closure;return runOnJS(handleSetActiveIndex)(index);}';
     tangon['code'] = golfie;
-    var _closure1_slot7 = tangon;
-    tangon = 4;
+    var _closure1_slot6 = tangon;
+    tangon = 3;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -50,8 +48,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = zuuluu.onSetActiveIndex;
         var _closure2_slot1 = michal;
         golfie = zuuluu.onPageChange;
+        offset = zuuluu.width;
         backup = _closure1_slot0;
-        kiloes = _closure1_slot2;
+        kiloes = _closure1_slot1;
         romeon = 1;
         zuuluu = kiloes[romeon];
         foxtra = undefined;
@@ -66,13 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = null;
         report = tangon.bind(report)(zuuluu);
         var _closure2_slot3 = report;
-        tangon = _closure1_slot1;
         zuuluu = 2;
-        zuuluu = kiloes[zuuluu];
-        zuuluu = tangon.bind(foxtra)(zuuluu);
-        zuuluu = zuuluu.bind(foxtra)();
-        offset = zuuluu.width;
-        zuuluu = 3;
         zuuluu = kiloes[zuuluu];
         oscard = backup.bind(foxtra)(zuuluu);
         tangon = oscard.useSegmentedControlState;
@@ -85,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu['onPageChange'] = golfie;
         oscard = tangon.bind(oscard)(zuuluu);
         var _closure2_slot4 = oscard;
-        tangon = _closure1_slot3;
+        tangon = _closure1_slot2;
         offset = tangon.useLayoutEffect;
         golfie = new Array(3);
         golfie[0] = option;
@@ -170,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie['__closure'] = zuuluu;
         zuuluu = 11274860585991.0;
         golfie['__workletHash'] = zuuluu;
-        zuuluu = _closure1_slot4;
+        zuuluu = _closure1_slot3;
         golfie['__initData'] = zuuluu;
         zuuluu = function(argFoo) { // Original name: f
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -182,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 if(!(zuuluu !== michal)) { _fun00004_ip = 67; continue _fun00003 }
  23:
                 report = _closure1_slot0;
-                tangon = _closure1_slot2;
+                tangon = _closure1_slot1;
                 michal = 1;
                 tangon = tangon[michal];
                 michal = undefined;
@@ -206,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu['__closure'] = output;
         output = 13469718094124.0;
         zuuluu['__workletHash'] = output;
-        output = _closure1_slot5;
+        output = _closure1_slot4;
         zuuluu['__initData'] = output;
         zuuluu = yankee.bind(sizing)(golfie, zuuluu);
         golfie = tangon.useCallback;
@@ -258,11 +251,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu['__closure'] = michal;
         michal = 6835202510981.0;
         zuuluu['__workletHash'] = michal;
-        michal = _closure1_slot6;
+        michal = _closure1_slot5;
         zuuluu['__initData'] = michal;
         michal = function(argFoo) { // Original name: J
             michal = _closure1_slot0;
-            zuuluu = _closure1_slot2;
+            zuuluu = _closure1_slot1;
             entity = 1;
             entity = zuuluu[entity];
             zuuluu = undefined;
@@ -283,7 +276,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal['__closure'] = offset;
         offset = 2367900681335.0;
         michal['__workletHash'] = offset;
-        verify = _closure1_slot7;
+        verify = _closure1_slot6;
         michal['__initData'] = verify;
         michal = golfie.bind(option)(zuuluu, michal);
         zuuluu = tangon.useMemo;

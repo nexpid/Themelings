@@ -44,6 +44,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     zuuluu['STICKER_SEARCH_HEADER_HEIGHT'] = tangon;
     tangon = '710982414301790216';
     zuuluu['STICKER_APPLICATION_ID'] = tangon;
+    tangon = new Array(0);
+    zuuluu['EMPTY_STICKERS'] = tangon;
     tangon = ['781323769960202280', '809209266556764241', '818597810047680532', '819129296374595614'];
     zuuluu['EMPTY_STATE_STICKERS'] = tangon;
     tangon = 524288;

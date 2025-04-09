@@ -3,6 +3,8 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = oscard;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -16,8 +18,8 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     entity = undefined;
     tangon = report.bind(entity)(tangon);
     tangon = tangon.ActivityFlags;
-    var _closure1_slot0 = tangon;
-    tangon = 1;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -26,31 +28,40 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     michal = function(argFoo, argBar) { // Original name: hasFlag
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = argBar;
-            entity = _closure1_slot0;
+            golfie = argFoo;
+            oscard = argBar;
+            entity = _closure1_slot2;
             entity = entity.INSTANCE;
-            entity = tangon !== entity;
-            if(!entity) { _fun00002_ip = 74; continue _fun00001 }
+            entity = oscard !== entity;
+            if(!entity) { _fun00002_ip = 101; continue _fun00001 }
  26:
-            oscard = null;
-            michal = oscard != zuuluu;
+            zuuluu = null;
+            michal = zuuluu != golfie;
             if(!michal) { _fun00002_ip = 44; continue _fun00001 }
  35:
-            report = zuuluu.flags;
-            michal = oscard != report;
+            report = golfie.flags;
+            michal = zuuluu != report;
  44:
-            if(!michal) { _fun00002_ip = 71; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 98; continue _fun00001 }
  47:
-            report = global;
-            report = report.Boolean;
-            zuuluu = zuuluu.flags;
-            tangon = zuuluu & tangon;
-            zuuluu = undefined;
-            michal = report.bind(zuuluu)(tangon);
- 71:
+            option = _closure1_slot0;
+            report = _closure1_slot1;
+            tangon = 1;
+            report = report[tangon];
+            tangon = undefined;
+            report = option.bind(tangon)(report);
+            tangon = report.hasFlag;
+            golfie = golfie.flags;
+            option = zuuluu != golfie;
+            zuuluu = 0;
+            if(!option) { _fun00002_ip = 92; continue _fun00001 }
+ 89:
+            zuuluu = golfie;
+ 92:
+            michal = tangon.bind(report)(zuuluu, oscard);
+ 98:
             entity = michal;
- 74:
+ 101:
             return entity;
         }
     };

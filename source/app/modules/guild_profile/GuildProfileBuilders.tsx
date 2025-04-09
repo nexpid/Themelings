@@ -435,8 +435,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['badgeColorPrimary'] = zuuluu;
             zuuluu = michal.badge_color_secondary;
             entity['badgeColorSecondary'] = zuuluu;
-            michal = michal.badge_hash;
-            entity['badgeHash'] = michal;
+            zuuluu = michal.badge_hash;
+            entity['badgeHash'] = zuuluu;
+            zuuluu = michal.premium_subscription_count;
+            entity['premiumSubscriberCount'] = zuuluu;
+            michal = michal.premium_tier;
+            entity['premiumTier'] = michal;
             return entity;
         }
     };
@@ -639,10 +643,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             option = argFoo;
-            report = option.guild;
+            tangon = option.guild;
             oscard = option.profile;
-            tangon = null;
-            michal = tangon != oscard;
+            report = null;
+            michal = report != oscard;
             entity = null;
             if(!michal) { _fun00020_ip = 39; continue _fun00019 }
  25:
@@ -650,47 +654,47 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = undefined;
             entity = zuuluu.bind(michal)(oscard);
  39:
-            if(!(tangon == entity)) { _fun00020_ip = 308; continue _fun00019 }
+            if(!(report == entity)) { _fun00020_ip = 330; continue _fun00019 }
  46:
-            zuuluu = tangon == report;
+            zuuluu = report == tangon;
             michal = null;
-            if(zuuluu) { _fun00020_ip = 305; continue _fun00019 }
+            if(zuuluu) { _fun00020_ip = 327; continue _fun00019 }
  58:
             zuuluu = {};
-            oscard = report.id;
+            oscard = tangon.id;
             zuuluu['id'] = oscard;
-            oscard = report.name;
+            oscard = tangon.name;
             zuuluu['name'] = oscard;
-            golfie = report.description;
-            verify = tangon != golfie;
+            golfie = tangon.description;
+            verify = report != golfie;
             oscard = '';
             if(!verify) { _fun00020_ip = 97; continue _fun00019 }
  94:
             oscard = golfie;
  97:
             zuuluu['description'] = oscard;
-            oscard = report.icon;
+            oscard = tangon.icon;
             zuuluu['icon'] = oscard;
-            oscard = report.banner;
+            oscard = tangon.banner;
             zuuluu['customBanner'] = oscard;
-            verify = report.approximate_presence_count;
-            if(!(tangon == verify)) { _fun00020_ip = 137; continue _fun00019 }
+            verify = tangon.approximate_presence_count;
+            if(!(report == verify)) { _fun00020_ip = 137; continue _fun00019 }
  131:
             verify = option.approximate_presence_count;
  137:
-            offset = tangon != verify;
+            offset = report != verify;
             golfie = 0;
             if(!offset) { _fun00020_ip = 149; continue _fun00019 }
  146:
             golfie = verify;
  149:
             zuuluu['onlineCount'] = golfie;
-            golfie = report.approximate_member_count;
-            if(!(tangon == golfie)) { _fun00020_ip = 170; continue _fun00019 }
+            golfie = tangon.approximate_member_count;
+            if(!(report == golfie)) { _fun00020_ip = 170; continue _fun00019 }
  164:
             golfie = option.approximate_member_count;
  170:
-            option = tangon != golfie;
+            option = report != golfie;
             oscard = 0;
             if(!option) { _fun00020_ip = 182; continue _fun00019 }
  179:
@@ -712,22 +716,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['gameApplicationIds'] = oscard;
             oscard = {};
             zuuluu['gameActivity'] = oscard;
-            report = report.features;
-            if(!(tangon == report)) { _fun00020_ip = 268; continue _fun00019 }
+            oscard = tangon.features;
+            if(!(report == oscard)) { _fun00020_ip = 268; continue _fun00019 }
  264:
-            report = new Array(0);
+            oscard = new Array(0);
  268:
-            zuuluu['features'] = report;
-            zuuluu['brandColorPrimary'] = tangon;
-            zuuluu['tag'] = tangon;
-            zuuluu['badge'] = tangon;
-            zuuluu['badgeHash'] = tangon;
-            zuuluu['badgeColorPrimary'] = tangon;
-            zuuluu['badgeColorSecondary'] = tangon;
+            zuuluu['features'] = oscard;
+            zuuluu['brandColorPrimary'] = report;
+            zuuluu['tag'] = report;
+            zuuluu['badge'] = report;
+            zuuluu['badgeHash'] = report;
+            zuuluu['badgeColorPrimary'] = report;
+            zuuluu['badgeColorSecondary'] = report;
+            report = tangon.premium_subscription_count;
+            zuuluu['premiumSubscriberCount'] = report;
+            tangon = tangon.premium_tier;
+            zuuluu['premiumTier'] = tangon;
             michal = zuuluu;
- 305:
+ 327:
             entity = michal;
- 308:
+ 330:
             return entity;
         }
     };

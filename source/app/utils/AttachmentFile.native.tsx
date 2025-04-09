@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     zuuluu = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 348; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 345; continue _fun00001 }
  13:
                     verify = zuuluu;
                     tangon = argBar;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  149:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=11);
-                    if(romeon) { _fun00002_ip = 317; continue _fun00001 }
+                    if(romeon) { _fun00002_ip = 314; continue _fun00001 }
  158:
                     option = zuuluu;
                     foxtra = _closure1_slot0;
@@ -80,21 +80,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = option;
                     tangon = tangon.uri;
                     tangon = verify.bind(offset)(tangon);
-                    SaveGenerator(address=246);
- 244:
+                    SaveGenerator(address=245);
+ 243:
                     return tangon;
- 246:
+ 245:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=8);
-                    if(verify) { _fun00002_ip = 257; continue _fun00001 }
- 252:
+                    if(verify) { _fun00002_ip = 256; continue _fun00001 }
+ 251:
                     report = tangon;
- 255: // try_end0
-                    _fun00002_ip = 262; continue _fun00001;
- 257: // try_end1
+ 254: // try_end0
+                    _fun00002_ip = 261; continue _fun00001;
+ 256: // try_end1
                     return tangon;
- 260: // try_start_2 // catch_target0
+ 259: // try_start_2 // catch_target0
                     CatchBlockStart(arg_register=3);
- 262:
+ 261:
                     tangon = {};
                     tangon['file'] = option;
                     option = option.uri;
@@ -104,17 +104,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = null;
                     option = oscard != option;
                     oscard = '';
-                    if(!option) { _fun00002_ip = 305; continue _fun00001 }
- 302:
+                    if(!option) { _fun00002_ip = 302; continue _fun00001 }
+ 299:
                     oscard = golfie;
- 305:
+ 302:
                     tangon['name'] = oscard;
                     tangon['fileSize'] = report;
- 314: // try_end2
+ 311: // try_end2
                     return tangon;
- 317:
+ 314:
                     return zuuluu;
- 320: // catch_target1 // catch_target2
+ 317: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=4);
                     tangon = _closure1_slot4;
                     zuuluu = tangon.error;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = zuuluu.bind(tangon)(michal, report);
                     michal = undefined;
                     return michal;
- 348:
+ 345:
                     return entity;
                 }
             };

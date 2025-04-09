@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = yankee[verify];
             var _closure2_slot1 = verify;
             verify = offset.useRef;
-            verify = verify.bind(offset)();
+            verify = verify.bind(offset)(tangon);
             var _closure2_slot2 = verify;
             offset = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -137,8 +137,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             option = verify.bind(tangon)(option);
-            if(!zuuluu) { _fun00002_ip = 173; continue _fun00001 }
- 135:
+            if(!zuuluu) { _fun00002_ip = 174; continue _fun00001 }
+ 136:
             verify = _closure1_slot6;
             option = _closure1_slot0;
             offset = _closure1_slot2;
@@ -148,18 +148,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = zuuluu.SceneLoadingIndicator;
             zuuluu = {};
             report = verify.bind(tangon)(option, zuuluu);
- 173:
-            if(michal) { _fun00002_ip = 198; continue _fun00001 }
- 176:
+ 174:
+            if(michal) { _fun00002_ip = 199; continue _fun00001 }
+ 177:
             zuuluu = _closure1_slot1;
             option = _closure1_slot2;
             michal = 9;
             michal = option[michal];
             zuuluu = zuuluu.bind(tangon)(michal);
-            _fun00002_ip = 202; continue _fun00001;
- 198:
+            _fun00002_ip = 203; continue _fun00001;
+ 199:
             zuuluu = _closure1_slot5;
- 202:
+ 203:
             michal = _closure1_slot6;
             entity = {};
             option = oscard.view;

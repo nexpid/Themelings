@@ -62,8 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = argFoo;
         foxtra = entity.isPurchased;
         romeon = entity.deco;
-        output = entity.pfx;
-        sizing = entity.condensed;
+        sizing = entity.pfx;
         yankee = entity.isDarkTheme;
         entity = _closure1_slot6;
         tangon = undefined;
@@ -84,9 +83,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = backup[oscard];
         kiloes = offset.bind(tangon)(oscard);
         oscard = {};
-        oscard['item'] = output;
+        oscard['item'] = sizing;
         oscard['isPurchased'] = foxtra;
-        oscard['condensed'] = sizing;
         oscard['isDarkTheme'] = yankee;
         yankee = true;
         oscard['bundle'] = yankee;

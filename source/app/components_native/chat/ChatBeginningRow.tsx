@@ -1970,7 +1970,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00034_ip = 166; continue _fun00033 }
+                            if(michal) { _fun00034_ip = 178; continue _fun00033 }
  10:
                             report = _closure1_slot1;
                             oscard = _closure1_slot2;
@@ -1985,36 +1985,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             michal = oscard[michal];
                             oscard = report.bind(zuuluu)(michal);
                             report = oscard.openImagePicker;
-                            michal = _closure1_slot35;
+                            michal = {};
+                            verify = _closure1_slot35;
+                            michal['size'] = verify;
                             michal = report.bind(oscard)(michal);
-                            SaveGenerator(address=84);
- 82:
+                            SaveGenerator(address=90);
+ 88:
                             return michal;
- 84:
-                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(report) { _fun00034_ip = 163; continue _fun00033 }
  90:
-                            report = null;
-                            if(!(report != michal)) { _fun00034_ip = 160; continue _fun00033 }
+                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                            if(report) { _fun00034_ip = 175; continue _fun00033 }
  96:
+                            yankee = michal.base64;
+                            report = null;
+                            if(!(report != yankee)) { _fun00034_ip = 172; continue _fun00033 }
+ 108:
                             oscard = _closure1_slot1;
                             report = _closure1_slot2;
                             verify = report[option];
                             offset = oscard.bind(zuuluu)(verify);
                             verify = offset.updateIcon;
                             golfie = _closure2_slot2;
-                            verify = verify.bind(offset)(golfie, michal);
+                            verify = verify.bind(offset)(golfie, yankee);
                             report = report[option];
                             oscard = oscard.bind(zuuluu)(report);
                             report = oscard.open;
                             tangon = _closure1_slot30;
                             tangon = tangon.LANDING;
                             tangon = report.bind(oscard)(golfie, tangon);
- 160:
+ 172:
                             return zuuluu;
- 163:
+ 175:
                             return michal;
- 166:
+ 178:
                             return entity;
                         }
                     };

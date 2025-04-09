@@ -25,7 +25,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.ActivityPanelModes;
     var _closure1_slot4 = tangon;
-    tangon = 4;
+    tangon = 5;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -45,31 +45,32 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zuuluu = _closure1_slot3;
-                entity = zuuluu.getConnectedActivityChannelId;
-                tangon = entity.bind(zuuluu)();
-                entity = null;
-                entity = entity != tangon;
-                if(!entity) { _fun00002_ip = 54; continue _fun00001 }
- 26:
+                zuuluu = _closure1_slot0;
+                tangon = _closure1_slot2;
+                entity = 3;
+                entity = tangon[entity];
+                tangon = undefined;
+                oscard = zuuluu.bind(tangon)(entity);
+                zuuluu = oscard.getEmbeddedActivityLocationChannelId;
                 report = _closure1_slot3;
-                zuuluu = report.getActivityPanelMode;
-                report = zuuluu.bind(report)();
-                zuuluu = _closure1_slot4;
-                zuuluu = zuuluu.PANEL;
-                entity = report === zuuluu;
- 54:
-                if(!entity) { _fun00002_ip = 87; continue _fun00001 }
- 57:
+                entity = report.getConnectedActivityLocation;
+                entity = entity.bind(report)();
+                zuuluu = zuuluu.bind(oscard)(entity);
+                entity = report.getActivityPanelMode;
+                report = entity.bind(report)();
+                entity = _closure1_slot4;
+                entity = entity.PANEL;
+                entity = report === entity;
+                if(!entity) { _fun00002_ip = 105; continue _fun00001 }
+ 77:
                 report = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                michal = 3;
-                michal = zuuluu[michal];
-                zuuluu = undefined;
-                michal = report.bind(zuuluu)(michal);
-                michal = michal.bind(zuuluu)(tangon);
+                oscard = _closure1_slot2;
+                michal = 4;
+                michal = oscard[michal];
+                michal = report.bind(tangon)(michal);
+                michal = michal.bind(tangon)(zuuluu);
                 entity = !michal;
- 87:
+ 105:
                 return entity;
             }
         };

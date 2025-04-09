@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00004_ip = 368; continue _fun00003 }
+                        if(michal) { _fun00004_ip = 380; continue _fun00003 }
  10:
                         tangon = _closure1_slot1;
                         report = _closure1_slot2;
@@ -141,21 +141,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal = report[michal];
                         report = tangon.bind(zuuluu)(michal);
                         tangon = report.openImagePicker;
-                        michal = _closure1_slot7;
+                        michal = {};
+                        oscard = _closure1_slot7;
+                        michal['size'] = oscard;
                         michal = tangon.bind(report)(michal);
-                        SaveGenerator(address=76);
- 74:
+                        SaveGenerator(address=82);
+ 80:
                         return michal;
- 76:
+ 82:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tangon) { _fun00004_ip = 365; continue _fun00003 }
- 85:
+                        if(tangon) { _fun00004_ip = 377; continue _fun00003 }
+ 91:
+                        foxtra = michal.base64;
                         yankee = null;
-                        if(!(yankee != michal)) { _fun00004_ip = 362; continue _fun00003 }
- 94:
+                        if(!(yankee != foxtra)) { _fun00004_ip = 374; continue _fun00003 }
+ 106:
                         tangon = _closure2_slot0;
-                        if(tangon) { _fun00004_ip = 139; continue _fun00003 }
- 104:
+                        if(tangon) { _fun00004_ip = 151; continue _fun00003 }
+ 116:
                         oscard = _closure1_slot1;
                         option = _closure1_slot2;
                         report = 9;
@@ -164,8 +167,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         oscard = option.canUseAnimatedAvatar;
                         report = _closure2_slot2;
                         tangon = oscard.bind(option)(report);
- 139:
-                        oscard = michal.match;
+ 151:
+                        oscard = foxtra.match;
                         report = global;
                         romeon = report.RegExp;
                         option = _closure1_slot8;
@@ -177,15 +180,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         sizing = option;
                         report = new sizing[romeon](kiloes, backup, foxtra);
                         report = report instanceof Object ? report : option;
-                        report = oscard.bind(michal)(report);
-                        if(!(yankee != report)) { _fun00004_ip = 214; continue _fun00003 }
- 198:
-                        if(tangon) { _fun00004_ip = 214; continue _fun00003 }
- 201:
+                        report = oscard.bind(foxtra)(report);
+                        if(!(yankee != report)) { _fun00004_ip = 226; continue _fun00003 }
+ 210:
+                        if(tangon) { _fun00004_ip = 226; continue _fun00003 }
+ 213:
                         tangon = _closure2_slot3;
                         tangon = tangon.bind(zuuluu)();
-                        _fun00004_ip = 362; continue _fun00003;
- 214:
+                        _fun00004_ip = 374; continue _fun00003;
+ 226:
                         verify = _closure1_slot0;
                         romeon = _closure1_slot2;
                         option = 10;
@@ -193,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         oscard = verify.bind(zuuluu)(tangon);
                         report = oscard.createPendingImage;
                         tangon = {};
-                        tangon['imageUri'] = michal;
+                        tangon['imageUri'] = foxtra;
                         option = romeon[option];
                         verify = verify.bind(zuuluu)(option);
                         option = verify.generateAvatarDescription;
@@ -203,8 +206,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         tangon = _closure2_slot0;
                         report = _closure1_slot0;
                         golfie = _closure1_slot2;
-                        if(tangon) { _fun00004_ip = 339; continue _fun00003 }
- 290:
+                        if(tangon) { _fun00004_ip = 351; continue _fun00003 }
+ 302:
                         tangon = 12;
                         tangon = golfie[tangon];
                         verify = report.bind(zuuluu)(tangon);
@@ -212,24 +215,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         tangon = _closure2_slot2;
                         yankee = yankee == tangon;
                         tangon = undefined;
-                        if(yankee) { _fun00004_ip = 331; continue _fun00003 }
- 321:
+                        if(yankee) { _fun00004_ip = 343; continue _fun00003 }
+ 333:
                         offset = _closure2_slot2;
                         tangon = offset.avatar;
- 331:
+ 343:
                         tangon = option.bind(verify)(oscard, tangon);
-                        _fun00004_ip = 362; continue _fun00003;
- 339:
+                        _fun00004_ip = 374; continue _fun00003;
+ 351:
                         tangon = 11;
                         tangon = golfie[tangon];
                         report = report.bind(zuuluu)(tangon);
                         tangon = report.setTryItOutAvatar;
                         tangon = tangon.bind(report)(oscard);
- 362:
+ 374:
                         return zuuluu;
- 365:
+ 377:
                         return michal;
- 368:
+ 380:
                         return entity;
                     }
                 };

@@ -61,16 +61,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = zuuluu.colors;
             golfie = tangon != report;
             report = null;
-            if(!golfie) { _fun00002_ip = 229; continue _fun00001 }
+            if(!golfie) { _fun00002_ip = 235; continue _fun00001 }
  199:
-            golfie = _closure1_slot1;
+            golfie = _closure1_slot0;
             verify = _closure1_slot3;
             oscard = 2;
             oscard = verify[oscard];
-            golfie = golfie.bind(option)(oscard);
+            option = golfie.bind(option)(oscard);
+            golfie = option.extractColorStringsFromServerColors;
             oscard = zuuluu.colors;
             report = golfie.bind(option)(oscard);
- 229:
+ 235:
             entity['colorStrings'] = report;
             report = zuuluu.hoist;
             entity['hoist'] = report;
@@ -85,10 +86,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.flags;
             tangon = tangon != zuuluu;
             michal = 0;
-            if(!tangon) { _fun00002_ip = 304; continue _fun00001 }
- 301:
+            if(!tangon) { _fun00002_ip = 310; continue _fun00001 }
+ 307:
             michal = zuuluu;
- 304:
+ 310:
             entity['flags'] = michal;
             return entity;
         }

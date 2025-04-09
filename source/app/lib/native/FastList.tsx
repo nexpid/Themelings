@@ -2888,7 +2888,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = undefined;
             option = echoed.bind(tangon)(zuuluu);
             zuuluu = option.useAnimatedStyle;
-            michal = function() { // Original name: z
+            michal = function() { // Original name: v
                 _fun00057: for(var _fun00058_ip = 0; ; ) switch(_fun00058_ip) {
  0:
                     entity = _closure2_slot1;
@@ -2966,31 +2966,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = oscard[entity];
             michal = michal.bind(tangon)(entity);
             entity = {'style': null, 'collapsable': false, 'preventClipping': true};
-            oscard = golfie == offset;
+            oscard = golfie != offset;
             verify = undefined;
-            if(oscard) { _fun00056_ip = 483; continue _fun00055 }
+            if(!oscard) { _fun00056_ip = 487; continue _fun00055 }
  464:
-            oscard = offset.props;
-            yankee = golfie == oscard;
+            oscard = 'props';
+            oscard = oscard in offset;
             verify = undefined;
-            if(yankee) { _fun00056_ip = 483; continue _fun00055 }
- 478:
+            if(!oscard) { _fun00056_ip = 487; continue _fun00055 }
+ 477:
+            oscard = offset.props;
             verify = oscard.style;
- 483:
+ 487:
             oscard = new Array(3);
             oscard[0] = verify;
             verify = {'zIndex': 10, 'position': 'relative'};
             yankee = undefined;
-            if(foxtra) { _fun00056_ip = 509; continue _fun00055 }
- 506:
+            if(foxtra) { _fun00056_ip = 513; continue _fun00055 }
+ 510:
             yankee = romeon;
- 509:
+ 513:
             verify['height'] = yankee;
             yankee = undefined;
-            if(!foxtra) { _fun00056_ip = 521; continue _fun00055 }
- 518:
+            if(!foxtra) { _fun00056_ip = 525; continue _fun00055 }
+ 522:
             yankee = romeon;
- 521:
+ 525:
             verify['width'] = yankee;
             oscard[1] = verify;
             oscard[2] = option;
@@ -2998,8 +2999,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = false;
             option = golfie != offset;
             golfie = undefined;
-            if(!option) { _fun00056_ip = 581; continue _fun00055 }
- 550:
+            if(!option) { _fun00056_ip = 585; continue _fun00055 }
+ 554:
             verify = _closure1_slot11;
             option = verify.cloneElement;
             report = {};
@@ -3008,7 +3009,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee['flex'] = romeon;
             report['style'] = yankee;
             golfie = option.bind(verify)(offset, report);
- 581:
+ 585:
             report = new Array(2);
             report[0] = golfie;
             report[1] = oscard;

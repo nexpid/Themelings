@@ -196,42 +196,58 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00006_ip = 105; continue _fun00005 }
- 7:
+                            if(michal) { _fun00006_ip = 150; continue _fun00005 }
+ 10:
                             michal = _closure3_slot0;
                             michal = michal.props;
-                            golfie = michal.size;
-                            tangon = michal.onChooseAsset;
-                            report = _closure1_slot1;
+                            option = michal.size;
+                            report = michal.onChooseAsset;
+                            tangon = _closure1_slot1;
                             zuuluu = _closure1_slot2;
                             michal = 13;
                             michal = zuuluu[michal];
                             zuuluu = undefined;
-                            oscard = report.bind(zuuluu)(michal);
-                            michal = oscard.openImagePicker;
-                            report = null;
-                            if(!(report == golfie)) { _fun00006_ip = 71; continue _fun00005 }
- 67:
-                            golfie = _closure1_slot13;
- 71:
-                            michal = michal.bind(oscard)(golfie);
-                            SaveGenerator(address=80);
- 78:
-                            return michal;
- 80:
-                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                            if(oscard) { _fun00006_ip = 102; continue _fun00005 }
- 86:
-                            if(!(report != michal)) { _fun00006_ip = 99; continue _fun00005 }
- 90:
-                            if(!(report != tangon)) { _fun00006_ip = 99; continue _fun00005 }
- 94:
-                            tangon = tangon.bind(zuuluu)(michal);
+                            oscard = tangon.bind(zuuluu)(michal);
+                            tangon = oscard.openImagePicker;
+                            golfie = 'number';
+                            michal = typeof option;
+                            if(!(golfie !== michal)) { _fun00006_ip = 99; continue _fun00005 }
+ 75:
+                            golfie = null;
+                            michal = option;
+                            if(!(golfie == michal)) { _fun00006_ip = 97; continue _fun00005 }
+ 84:
+                            golfie = {};
+                            verify = _closure1_slot13;
+                            golfie['size'] = verify;
+                            michal = golfie;
+ 97:
+                            _fun00006_ip = 108; continue _fun00005;
  99:
-                            return zuuluu;
- 102:
+                            golfie = {};
+                            golfie['size'] = option;
+                            michal = golfie;
+ 108:
+                            michal = tangon.bind(oscard)(michal);
+                            SaveGenerator(address=117);
+ 115:
                             return michal;
- 105:
+ 117:
+                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                            if(tangon) { _fun00006_ip = 147; continue _fun00005 }
+ 123:
+                            tangon = michal.base64;
+                            oscard = null;
+                            if(!(oscard != tangon)) { _fun00006_ip = 144; continue _fun00005 }
+ 135:
+                            if(!(oscard != report)) { _fun00006_ip = 144; continue _fun00005 }
+ 139:
+                            tangon = report.bind(zuuluu)(tangon);
+ 144:
+                            return zuuluu;
+ 147:
+                            return michal;
+ 150:
                             return entity;
                         }
                     };
@@ -278,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = entity.guild;
                 entity = null;
                 michal = entity == tangon;
-                if(michal) { _fun00010_ip = 80; continue _fun00009 }
+                if(michal) { _fun00010_ip = 79; continue _fun00009 }
  34:
                 zuuluu = tangon.startsWith;
                 michal = 'data:';
@@ -288,14 +304,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = undefined;
                 michal = 192;
                 michal = oscard.bind(zuuluu)(report, michal);
-                _fun00010_ip = 77; continue _fun00009;
+                _fun00010_ip = 76; continue _fun00009;
  67:
                 zuuluu = {};
                 zuuluu['uri'] = tangon;
                 michal = zuuluu;
- 77:
+ 76:
                 entity = michal;
- 80:
+ 79:
                 return entity;
             }
         };

@@ -304,8 +304,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         michal = oscard.bind(report)(michal, zuuluu);
-        michal = report.useRef;
-        michal = michal.bind(report)();
+        zuuluu = report.useRef;
+        michal = null;
+        michal = zuuluu.bind(report)(michal);
         var _closure2_slot3 = michal;
         oscard = report.useEffect;
         zuuluu = function() {

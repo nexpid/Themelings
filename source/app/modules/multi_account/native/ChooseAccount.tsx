@@ -165,11 +165,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = 11;
                 zuuluu = zuuluu[michal];
                 michal = undefined;
-                zuuluu = tangon.bind(michal)(zuuluu);
-                michal = zuuluu.track;
+                tangon = tangon.bind(michal)(zuuluu);
+                zuuluu = tangon.track;
                 entity = _closure1_slot8;
-                entity = entity.LOGIN_VIEWED;
-                entity = michal.bind(zuuluu)(entity);
+                michal = entity.LOGIN_VIEWED;
+                entity = {};
+                report = 'choose_account_user_invalid';
+                entity['source'] = report;
+                entity = zuuluu.bind(tangon)(michal, entity);
                 entity = undefined;
                 return entity;
             }
@@ -535,15 +538,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = _closure2_slot1;
                 zuuluu = michal.length;
                 michal = _closure1_slot7;
-                if(!(!(zuuluu >= michal))) { _fun00006_ip = 52; continue _fun00005 }
+                if(!(!(zuuluu >= michal))) { _fun00006_ip = 107; continue _fun00005 }
  23:
                 zuuluu = _closure2_slot0;
                 michal = zuuluu.push;
                 entity = _closure1_slot9;
                 entity = entity.LOGIN;
                 entity = michal.bind(zuuluu)(entity);
-                _fun00006_ip = 209; continue _fun00005;
- 52:
+                zuuluu = _closure1_slot1;
+                michal = _closure1_slot3;
+                entity = 11;
+                michal = michal[entity];
+                entity = undefined;
+                tangon = zuuluu.bind(entity)(michal);
+                zuuluu = tangon.track;
+                entity = _closure1_slot8;
+                michal = entity.LOGIN_VIEWED;
+                entity = {};
+                report = 'choose_account_add_account';
+                entity['source'] = report;
+                entity = zuuluu.bind(tangon)(michal, entity);
+                _fun00006_ip = 264; continue _fun00005;
+ 107:
                 michal = _closure1_slot1;
                 offset = _closure1_slot3;
                 entity = 13;
@@ -580,7 +596,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = true;
                 entity['isDismissable'] = tangon;
                 entity = michal.bind(zuuluu)(entity);
- 209:
+ 264:
                 entity = undefined;
                 return entity;
             }

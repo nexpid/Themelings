@@ -9,6 +9,8 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon['value'] = entity;
     entity = '__esModule';
     entity = report.bind(oscard)(zuuluu, entity, tangon);
+    entity = /^i-[^-]+-cl-[^-]+-\d+-(\d+)$/;
+    var _closure1_slot0 = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];
@@ -81,7 +83,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         }
     };
     zuuluu['getEmbeddedActivityLocationStartingChannelId'] = tangon;
-    michal = function(argFoo) { // Original name: getEmbeddedActivityLocationStartingGuildId
+    tangon = function(argFoo) { // Original name: getEmbeddedActivityLocationStartingGuildId
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             michal = argFoo;
@@ -101,6 +103,38 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['getEmbeddedActivityLocationStartingGuildId'] = michal;
+    zuuluu['getEmbeddedActivityLocationStartingGuildId'] = tangon;
+    michal = function(argFoo) { // Original name: getStartingChannelIdForContextlessInstanceId
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+ 0:
+            zuuluu = argFoo;
+            michal = 'string';
+            entity = typeof zuuluu;
+            if(!(michal !== entity)) { _fun00010_ip = 18; continue _fun00009 }
+ 14:
+            entity = undefined;
+            return entity;
+ 18:
+            michal = zuuluu.match;
+            entity = _closure1_slot0;
+            tangon = michal.bind(zuuluu)(entity);
+            entity = null;
+            zuuluu = entity != tangon;
+            michal = undefined;
+            if(!zuuluu) { _fun00010_ip = 54; continue _fun00009 }
+ 47:
+            zuuluu = 1;
+            michal = tangon[zuuluu];
+ 54:
+            zuuluu = '0';
+            entity = undefined;
+            if(!(zuuluu !== michal)) { _fun00010_ip = 69; continue _fun00009 }
+ 66:
+            entity = michal;
+ 69:
+            return entity;
+        }
+    };
+    zuuluu['getStartingChannelIdForContextlessInstanceId'] = michal;
     return entity;
 })();

@@ -219,8 +219,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = michal.disabled;
                 var _closure3_slot1 = report;
                 tangon = _closure1_slot4;
-                michal = tangon.useRef;
-                michal = michal.bind(tangon)();
+                zuuluu = tangon.useRef;
+                michal = false;
+                michal = zuuluu.bind(tangon)(michal);
                 var _closure3_slot2 = michal;
                 zuuluu = tangon.useEffect;
                 michal = new Array(3);

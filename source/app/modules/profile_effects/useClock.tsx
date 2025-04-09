@@ -74,10 +74,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(offset)(option);
             _closure2_slot7 = michal;
             michal = offset.useRef;
-            michal = michal.bind(offset)();
+            michal = michal.bind(offset)(oscard);
             _closure2_slot8 = michal;
             michal = offset.useRef;
-            michal = michal.bind(offset)();
+            michal = michal.bind(offset)(oscard);
             _closure2_slot9 = michal;
             tangon = offset.useRef;
             michal = true;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon.bind(offset)(option);
             _closure2_slot11 = tangon;
             tangon = offset.useRef;
-            tangon = tangon.bind(offset)();
+            tangon = tangon.bind(offset)(oscard);
             _closure2_slot12 = tangon;
             verify = offset.useCallback;
             option = function() {

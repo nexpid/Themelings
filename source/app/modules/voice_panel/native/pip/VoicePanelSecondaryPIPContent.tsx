@@ -58,7 +58,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     golfie = "function VoicePanelSecondaryPIPContentTsx1(){const{getActivityContainerPipStylesSpec,pipState,pipOrientationLockState,windowDimensions}=this.__closure;const{width:width,height:height,shouldVerticallyCenter:shouldVerticallyCenter,shouldHorizontallyCenter:shouldHorizontallyCenter,marginLeft:marginLeft,marginTop:marginTop}=getActivityContainerPipStylesSpec({pipWidth:pipState.width,pipHeight:pipState.height,pipOrientationLockState:pipOrientationLockState,isLandscape:windowDimensions.get().landscape});return{width:width,height:height,left:shouldHorizontallyCenter?'50%':'0%',top:shouldVerticallyCenter?'50%':'0%',marginLeft:marginLeft,marginTop:marginTop};}";
     tangon['code'] = golfie;
     var _closure1_slot10 = tangon;
-    tangon = 17;
+    tangon = 18;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -98,52 +98,36 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zuuluu = _closure1_slot4;
-                    entity = zuuluu.getConnectedActivityChannelId;
+                    entity = zuuluu.getConnectedActivityLocation;
                     verify = entity.bind(zuuluu)();
+                    entity = zuuluu.getSelfEmbeddedActivityForLocation;
+                    report = entity.bind(zuuluu)(verify);
                     tangon = null;
-                    report = tangon != verify;
-                    entity = undefined;
-                    if(!report) { _fun00004_ip = 55; continue _fun00003 }
- 28:
-                    oscard = _closure1_slot4;
-                    report = oscard.getSelfEmbeddedActivityForChannel;
-                    report = report.bind(oscard)(verify);
-                    oscard = tangon != report;
-                    entity = undefined;
-                    if(!oscard) { _fun00004_ip = 55; continue _fun00003 }
- 52:
-                    entity = report;
- 55:
-                    report = tangon == entity;
+                    entity = tangon == report;
+                    zuuluu = undefined;
                     oscard = undefined;
-                    if(report) { _fun00004_ip = 69; continue _fun00003 }
- 64:
-                    oscard = entity.applicationId;
- 69:
+                    if(entity) { _fun00004_ip = 46; continue _fun00003 }
+ 41:
+                    oscard = report.applicationId;
+ 46:
                     entity = {};
-                    entity['activityChannelId'] = verify;
-                    golfie = tangon != verify;
-                    report = undefined;
-                    if(!golfie) { _fun00004_ip = 112; continue _fun00003 }
- 85:
-                    option = _closure1_slot4;
-                    golfie = option.getSelfEmbeddedActivityForChannel;
+                    option = _closure1_slot0;
+                    offset = _closure1_slot2;
+                    golfie = 10;
+                    golfie = offset[golfie];
+                    option = option.bind(zuuluu)(golfie);
+                    golfie = option.getEmbeddedActivityLocationChannelId;
                     golfie = golfie.bind(option)(verify);
-                    option = tangon != golfie;
-                    report = undefined;
-                    if(!option) { _fun00004_ip = 112; continue _fun00003 }
- 109:
-                    report = golfie;
- 112:
-                    entity['activity'] = report;
+                    entity['connectedEmbeddedActivityChannelId'] = golfie;
+                    entity['connectedEmbeddedActivity'] = report;
                     tangon = tangon == oscard;
                     zuuluu = undefined;
-                    if(tangon) { _fun00004_ip = 141; continue _fun00003 }
- 126:
+                    if(tangon) { _fun00004_ip = 113; continue _fun00003 }
+ 98:
                     report = _closure1_slot4;
                     tangon = report.getPipOrientationLockStateForApp;
                     zuuluu = tangon.bind(report)(oscard);
- 141:
+ 113:
                     entity['pipOrientationLockState'] = zuuluu;
                     zuuluu = _closure1_slot4;
                     michal = zuuluu.getActivityPanelMode;
@@ -153,9 +137,9 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                 }
             };
             zuuluu = oscard.bind(golfie)(zuuluu, entity);
-            golfie = zuuluu.activityChannelId;
+            golfie = zuuluu.connectedEmbeddedActivityChannelId;
             var _closure2_slot2 = golfie;
-            entity = zuuluu.activity;
+            entity = zuuluu.connectedEmbeddedActivity;
             backup = zuuluu.pipOrientationLockState;
             var _closure2_slot3 = backup;
             zuuluu = zuuluu.panelMode;
@@ -189,7 +173,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                 entity['height'] = oscard;
                 golfie = _closure1_slot1;
                 option = _closure1_slot2;
-                tangon = 10;
+                tangon = 11;
                 michal = option[tangon];
                 report = undefined;
                 verify = golfie.bind(report)(michal);
@@ -208,7 +192,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                 return entity;
             };
             oscard = romeon.bind(sizing)(tangon, oscard);
-            tangon = 11;
+            tangon = 12;
             tangon = result[tangon];
             verify = verify.bind(report)(tangon);
             tangon = verify.useAnimatedStyle;
@@ -217,7 +201,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
  0:
                     michal = _closure1_slot1;
                     zuuluu = _closure1_slot2;
-                    entity = 12;
+                    entity = 13;
                     entity = zuuluu[entity];
                     zuuluu = undefined;
                     michal = michal.bind(zuuluu)(entity);
@@ -262,7 +246,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                 }
             };
             romeon = {};
-            sizing = 12;
+            sizing = 13;
             sizing = result[sizing];
             sizing = output.bind(report)(sizing);
             romeon['getActivityContainerPipStylesSpec'] = sizing;
@@ -278,41 +262,33 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             tangon = null;
             michal = tangon == entity;
             entity = null;
-            if(michal) { _fun00002_ip = 574; continue _fun00001 }
+            if(michal) { _fun00002_ip = 550; continue _fun00001 }
  364:
-            michal = tangon == yankee;
-            entity = null;
-            if(michal) { _fun00002_ip = 574; continue _fun00001 }
- 376:
-            michal = tangon == golfie;
-            entity = null;
-            if(michal) { _fun00002_ip = 574; continue _fun00001 }
- 388:
             verify = _closure1_slot1;
             romeon = _closure1_slot2;
-            michal = 13;
+            michal = 14;
             michal = romeon[michal];
             michal = verify.bind(report)(michal);
             michal = michal.bind(report)(golfie);
             entity = null;
-            if(michal) { _fun00002_ip = 574; continue _fun00001 }
- 421:
+            if(michal) { _fun00002_ip = 550; continue _fun00001 }
+ 397:
             michal = _closure1_slot7;
             michal = michal.PIP;
             entity = null;
-            if(!(zuuluu === michal)) { _fun00002_ip = 574; continue _fun00001 }
- 440:
+            if(!(zuuluu === michal)) { _fun00002_ip = 550; continue _fun00001 }
+ 416:
             tangon = _closure1_slot8;
             verify = _closure1_slot1;
             romeon = _closure1_slot2;
-            michal = 14;
+            michal = 15;
             michal = romeon[michal];
             zuuluu = verify.bind(report)(michal);
             michal = {};
             michal['style'] = oscard;
             oscard = 'none';
             michal['pointerEvents'] = oscard;
-            oscard = 15;
+            oscard = 16;
             oscard = romeon[oscard];
             golfie = verify.bind(report)(oscard);
             oscard = {};
@@ -321,7 +297,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             option[0] = backup;
             option[1] = foxtra;
             oscard['style'] = option;
-            option = 16;
+            option = 17;
             option = romeon[option];
             verify = verify.bind(report)(option);
             option = {};
@@ -334,7 +310,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             oscard = tangon.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 574:
+ 550:
             return entity;
         }
     };

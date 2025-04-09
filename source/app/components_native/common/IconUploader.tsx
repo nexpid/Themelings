@@ -118,11 +118,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00004_ip = 150; continue _fun00003 }
+                            if(michal) { _fun00004_ip = 162; continue _fun00003 }
  10:
                             michal = _closure2_slot1;
-                            oscard = null;
-                            if(!(oscard != michal)) { _fun00004_ip = 33; continue _fun00003 }
+                            golfie = null;
+                            if(!(golfie != michal)) { _fun00004_ip = 33; continue _fun00003 }
  23:
                             tangon = _closure2_slot1;
                             michal = undefined;
@@ -130,45 +130,48 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  33:
                             michal = _closure2_slot2;
                             michal = michal.current;
-                            if(michal) { _fun00004_ip = 145; continue _fun00003 }
+                            if(michal) { _fun00004_ip = 157; continue _fun00003 }
  45:
                             tangon = _closure2_slot2;
                             michal = true;
                             tangon['current'] = michal;
-                            golfie = _closure1_slot1;
+                            tangon = _closure1_slot1;
                             report = _closure1_slot2;
-                            tangon = 5;
-                            tangon = report[tangon];
-                            report = undefined;
-                            golfie = golfie.bind(report)(tangon);
-                            tangon = golfie.openImagePicker;
-                            michal = _closure1_slot7;
-                            michal = tangon.bind(golfie)(michal);
-                            SaveGenerator(address=101);
- 99:
+                            michal = 5;
+                            michal = report[michal];
+                            oscard = undefined;
+                            report = tangon.bind(oscard)(michal);
+                            tangon = report.openImagePicker;
+                            michal = {};
+                            option = _closure1_slot7;
+                            michal['size'] = option;
+                            michal = tangon.bind(report)(michal);
+                            SaveGenerator(address=107);
+ 105:
                             return michal;
- 101:
-                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(tangon) { _fun00004_ip = 142; continue _fun00003 }
  107:
-                            if(!(oscard != michal)) { _fun00004_ip = 128; continue _fun00003 }
- 111:
+                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                            if(tangon) { _fun00004_ip = 154; continue _fun00003 }
+ 113:
+                            report = michal.base64;
+                            if(!(golfie != report)) { _fun00004_ip = 140; continue _fun00003 }
+ 123:
                             tangon = _closure2_slot0;
-                            if(!(oscard != tangon)) { _fun00004_ip = 128; continue _fun00003 }
- 119:
+                            if(!(golfie != tangon)) { _fun00004_ip = 140; continue _fun00003 }
+ 131:
                             tangon = _closure2_slot0;
-                            tangon = tangon.bind(report)(michal);
- 128:
+                            tangon = tangon.bind(oscard)(report);
+ 140:
                             tangon = _closure2_slot2;
                             zuuluu = false;
                             tangon['current'] = zuuluu;
-                            _fun00004_ip = 145; continue _fun00003;
- 142:
+                            _fun00004_ip = 157; continue _fun00003;
+ 154:
                             return michal;
- 145:
+ 157:
                             michal = undefined;
                             return michal;
- 150:
+ 162:
                             return entity;
                         }
                     };

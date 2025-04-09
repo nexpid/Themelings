@@ -186,34 +186,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00006_ip = 81; continue _fun00005 }
+                        if(michal) { _fun00006_ip = 93; continue _fun00005 }
  7:
-                        report = _closure1_slot1;
-                        tangon = _closure1_slot2;
-                        zuuluu = 11;
-                        tangon = tangon[zuuluu];
+                        tangon = _closure1_slot1;
+                        zuuluu = _closure1_slot2;
+                        michal = 11;
+                        michal = zuuluu[michal];
                         zuuluu = undefined;
-                        report = report.bind(zuuluu)(tangon);
+                        report = tangon.bind(zuuluu)(michal);
                         tangon = report.openImagePicker;
-                        michal = _closure1_slot9;
+                        michal = {};
+                        oscard = _closure1_slot9;
+                        michal['size'] = oscard;
                         michal = tangon.bind(report)(michal);
-                        SaveGenerator(address=51);
- 49:
+                        SaveGenerator(address=57);
+ 55:
                         return michal;
- 51:
-                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tangon) { _fun00006_ip = 78; continue _fun00005 }
  57:
-                        tangon = null;
-                        if(!(tangon != michal)) { _fun00006_ip = 75; continue _fun00005 }
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                        if(tangon) { _fun00006_ip = 90; continue _fun00005 }
  63:
-                        tangon = _closure2_slot6;
-                        tangon = tangon.bind(zuuluu)(michal);
+                        report = michal.base64;
+                        tangon = null;
+                        if(!(tangon != report)) { _fun00006_ip = 87; continue _fun00005 }
  75:
+                        tangon = _closure2_slot6;
+                        tangon = tangon.bind(zuuluu)(report);
+ 87:
                         return zuuluu;
- 78:
+ 90:
                         return michal;
- 81:
+ 93:
                         return entity;
                     }
                 };

@@ -196,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = oscard[zuuluu];
             var _closure2_slot3 = zuuluu;
             zuuluu = report.useRef;
-            zuuluu = zuuluu.bind(report)();
+            zuuluu = zuuluu.bind(report)(tangon);
             var _closure2_slot4 = zuuluu;
             offset = report.useCallback;
             oscard = _closure1_slot4;
@@ -362,10 +362,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon[0] = golfie;
             golfie = null;
             sizing = golfie != result;
-            if(!sizing) { _fun00004_ip = 328; continue _fun00003 }
- 325:
+            if(!sizing) { _fun00004_ip = 329; continue _fun00003 }
+ 326:
             sizing = result;
- 328:
+ 329:
             romeon[1] = sizing;
             oscard['style'] = romeon;
             option = offset.bind(tangon)(option, oscard);
@@ -394,8 +394,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = sizing.bind(tangon)(romeon, offset);
             oscard[2] = offset;
             golfie = golfie != echoed;
-            if(!golfie) { _fun00004_ip = 593; continue _fun00003 }
- 474:
+            if(!golfie) { _fun00004_ip = 594; continue _fun00003 }
+ 475:
             romeon = _closure1_slot9;
             sizing = _closure1_slot0;
             update = _closure1_slot2;
@@ -419,7 +419,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = output.bind(result)(sizing, kiloes);
             option['children'] = kiloes;
             golfie = romeon.bind(tangon)(offset, option);
- 593:
+ 594:
             oscard[3] = golfie;
             report['children'] = oscard;
             oscard = zuuluu.bind(tangon)(michal, report);

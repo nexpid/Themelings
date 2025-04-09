@@ -864,16 +864,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = function() {
                 _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
-                    oscard = _closure1_slot7;
-                    report = oscard.getSelfEmbeddedActivityForChannel;
-                    entity = _closure2_slot0;
-                    entity = entity.id;
-                    report = report.bind(oscard)(entity);
-                    var _closure3_slot0 = report;
+                    tangon = _closure1_slot7;
+                    entity = tangon.getCurrentEmbeddedActivity;
+                    tangon = entity.bind(tangon)();
+                    var _closure3_slot0 = tangon;
                     entity = null;
-                    report = entity == report;
-                    if(report) { _fun00022_ip = 84; continue _fun00021 }
- 45:
+                    tangon = entity == tangon;
+                    if(tangon) { _fun00022_ip = 74; continue _fun00021 }
+ 32:
                     report = _closure1_slot8;
                     tangon = report.getParticipants;
                     zuuluu = _closure2_slot0;
@@ -901,7 +899,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     entity = zuuluu.bind(tangon)(michal);
- 84:
+ 74:
                     return entity;
                 }
             };

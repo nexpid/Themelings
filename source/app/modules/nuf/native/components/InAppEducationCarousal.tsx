@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot3 = echoed;
             michal = _closure1_slot4;
             entity = michal.useRef;
-            romeon = entity.bind(michal)();
+            romeon = entity.bind(michal)(tangon);
             var _closure2_slot4 = romeon;
             zuuluu = _closure1_slot11;
             michal = _closure1_slot6;
@@ -560,10 +560,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie['image'] = tangon;
         tangon = {'flexGrow': 1, 'textAlign': 'center'};
         output = 0;
-        if(!foxtra) { _fun00002_ip = 615; continue _fun00001 }
- 612:
+        if(!foxtra) { _fun00002_ip = 611; continue _fun00001 }
+ 608:
         output = result;
- 615:
+ 611:
         tangon['marginTop'] = output;
         golfie['textContainer'] = tangon;
         tangon = {};
@@ -575,10 +575,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         offset = {};
         tangon = 20;
         offset['height'] = tangon;
-        if(!foxtra) { _fun00002_ip = 662; continue _fun00001 }
- 659:
+        if(!foxtra) { _fun00002_ip = 658; continue _fun00001 }
+ 655:
         yankee = romeon;
- 662:
+ 658:
         offset['marginBottom'] = yankee;
         golfie['paginationContainer'] = offset;
         golfie = option.bind(verify)(golfie);

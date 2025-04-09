@@ -772,17 +772,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = tangon.subscriptions;
                     report = tangon.length;
                     tangon = 0;
-                    if(!(tangon !== report)) { _fun00026_ip = 511; continue _fun00025 }
+                    if(!(tangon !== report)) { _fun00026_ip = 539; continue _fun00025 }
  54:
                     tangon = golfie.application;
                     verify = golfie.activity;
                     report = null;
-                    if(!(report != tangon)) { _fun00026_ip = 511; continue _fun00025 }
+                    if(!(report != tangon)) { _fun00026_ip = 539; continue _fun00025 }
  74:
-                    if(!(report != verify)) { _fun00026_ip = 511; continue _fun00025 }
+                    if(!(report != verify)) { _fun00026_ip = 539; continue _fun00025 }
  81:
                     oscard = verify.party_id;
-                    if(!(report != oscard)) { _fun00026_ip = 511; continue _fun00025 }
+                    if(!(report != oscard)) { _fun00026_ip = 539; continue _fun00025 }
  94:
                     romeon = _closure1_slot14;
                     offset = romeon.getUser;
@@ -794,16 +794,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = foxtra.id;
  127:
                     romeon = offset.bind(romeon)(oscard);
-                    if(!(report != romeon)) { _fun00026_ip = 511; continue _fun00025 }
+                    if(!(report != romeon)) { _fun00026_ip = 539; continue _fun00025 }
  139:
                     offset = _closure1_slot14;
                     oscard = offset.getCurrentUser;
                     oscard = oscard.bind(offset)();
-                    if(!(report != oscard)) { _fun00026_ip = 511; continue _fun00025 }
+                    if(!(report != oscard)) { _fun00026_ip = 539; continue _fun00025 }
  159:
                     foxtra = romeon.id;
                     offset = oscard.id;
-                    if(!(foxtra !== offset)) { _fun00026_ip = 511; continue _fun00025 }
+                    if(!(foxtra !== offset)) { _fun00026_ip = 539; continue _fun00025 }
  176:
                     foxtra = verify.type;
                     offset = _closure1_slot16;
@@ -823,26 +823,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = tangon.id;
                     offset = foxtra.bind(backup)(oscard, tangon);
  249:
-                    if(!(report != offset)) { _fun00026_ip = 511; continue _fun00025 }
+                    if(!(report != offset)) { _fun00026_ip = 539; continue _fun00025 }
  256:
                     tangon = offset.party;
-                    if(!(report != tangon)) { _fun00026_ip = 511; continue _fun00025 }
+                    if(!(report != tangon)) { _fun00026_ip = 539; continue _fun00025 }
  269:
                     tangon = offset.party;
                     report = tangon.id;
                     tangon = verify.party_id;
-                    if(!(report === tangon)) { _fun00026_ip = 511; continue _fun00025 }
+                    if(!(report === tangon)) { _fun00026_ip = 539; continue _fun00025 }
  293:
                     tangon = offset.application_id;
                     _closure4_slot0 = tangon;
                     report = verify.type;
                     tangon = _closure1_slot16;
                     tangon = tangon.JOIN;
-                    if(!(tangon !== report)) { _fun00026_ip = 412; continue _fun00025 }
+                    if(!(tangon !== report)) { _fun00026_ip = 440; continue _fun00025 }
  322:
                     tangon = _closure1_slot16;
                     tangon = tangon.JOIN_REQUEST;
-                    if(!(tangon === report)) { _fun00026_ip = 511; continue _fun00025 }
+                    if(!(tangon === report)) { _fun00026_ip = 539; continue _fun00025 }
  339:
                     tangon = _closure3_slot0;
                     backup = tangon.rpcServer;
@@ -857,6 +857,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = kiloes.bind(entity)(tangon);
                     tangon = tangon.bind(entity)(romeon);
                     report['user'] = tangon;
+                    report['activity'] = offset;
+                    tangon = verify.type;
+                    report['type'] = tangon;
+                    report['channel_id'] = option;
+                    tangon = golfie.id;
+                    report['message_id'] = tangon;
                     tangon = function(argFoo) {
                         entity = argFoo;
                         entity = entity.socket;
@@ -867,8 +873,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     tangon = foxtra.bind(backup)(oscard, tangon, report);
-                    _fun00026_ip = 511; continue _fun00025;
- 412:
+                    _fun00026_ip = 539; continue _fun00025;
+ 440:
                     zuuluu = _closure3_slot0;
                     oscard = zuuluu.rpcServer;
                     report = oscard.dispatchToSubscriptions;
@@ -898,7 +904,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     michal = report.bind(oscard)(tangon, michal, zuuluu);
- 511:
+ 539:
                     return entity;
                 }
             };

@@ -15,16 +15,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = entity.EmbeddedActivitiesStore;
             entity = michal.getSelectedParticipant;
             michal = entity.bind(michal)(tangon);
-            entity = zuuluu.getSelfEmbeddedActivityForChannel;
-            golfie = entity.bind(zuuluu)(tangon);
+            entity = zuuluu.getCurrentEmbeddedActivity;
+            golfie = entity.bind(zuuluu)();
             option = null;
             entity = option != michal;
-            if(!entity) { _fun00002_ip = 55; continue _fun00001 }
- 51:
+            if(!entity) { _fun00002_ip = 54; continue _fun00001 }
+ 50:
             entity = option != golfie;
- 55:
-            if(!entity) { _fun00002_ip = 132; continue _fun00001 }
- 58:
+ 54:
+            if(!entity) { _fun00002_ip = 131; continue _fun00001 }
+ 57:
             zuuluu = michal.id;
             tangon = _closure1_slot0;
             report = _closure1_slot1;
@@ -37,14 +37,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = golfie.applicationId;
             michal['applicationId'] = verify;
             option = option == golfie;
-            if(option) { _fun00002_ip = 118; continue _fun00001 }
- 112:
+            if(option) { _fun00002_ip = 117; continue _fun00001 }
+ 111:
             oscard = golfie.compositeInstanceId;
- 118:
+ 117:
             michal['instanceId'] = oscard;
             michal = tangon.bind(report)(michal);
             entity = zuuluu === michal;
- 132:
+ 131:
             return entity;
         }
     };

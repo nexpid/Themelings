@@ -292,30 +292,30 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     zuuluu = michal.uri;
                     entity = 'urn:ietf:params:rtp-hdrext:toffset';
                     entity = entity === zuuluu;
-                    if(entity) { _fun00004_ip = 38; continue _fun00003 }
- 22:
+                    if(entity) { _fun00004_ip = 36; continue _fun00003 }
+ 21:
                     tangon = michal.uri;
                     zuuluu = 'http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time';
                     entity = zuuluu === tangon;
- 38:
-                    if(entity) { _fun00004_ip = 57; continue _fun00003 }
- 41:
+ 36:
+                    if(entity) { _fun00004_ip = 54; continue _fun00003 }
+ 39:
                     tangon = michal.uri;
                     zuuluu = 'urn:3gpp:video-orientation';
                     entity = zuuluu === tangon;
+ 54:
+                    if(entity) { _fun00004_ip = 72; continue _fun00003 }
  57:
-                    if(entity) { _fun00004_ip = 76; continue _fun00003 }
- 60:
                     tangon = michal.uri;
                     zuuluu = 'http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01';
                     entity = zuuluu === tangon;
- 76:
-                    if(entity) { _fun00004_ip = 95; continue _fun00003 }
- 79:
+ 72:
+                    if(entity) { _fun00004_ip = 90; continue _fun00003 }
+ 75:
                     zuuluu = michal.uri;
                     michal = 'http://www.webrtc.org/experiments/rtp-hdrext/playout-delay';
                     entity = michal === zuuluu;
- 95:
+ 90:
                     return entity;
                 }
             };
@@ -415,12 +415,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     zuuluu = michal.uri;
                     entity = 'urn:ietf:params:rtp-hdrext:ssrc-audio-level';
                     entity = entity === zuuluu;
-                    if(entity) { _fun00006_ip = 38; continue _fun00005 }
- 22:
+                    if(entity) { _fun00006_ip = 36; continue _fun00005 }
+ 21:
                     zuuluu = michal.uri;
                     michal = 'http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01';
                     entity = michal === zuuluu;
- 38:
+ 36:
                     return entity;
                 }
             };
@@ -1070,7 +1070,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = verify.bind(zuuluu)(golfie);
             golfie = 0;
             if(!(kiloes > golfie)) { _fun00020_ip = 514; continue _fun00019 }
- 363:
+ 359:
             verify = option.filter;
             golfie = function(argFoo) {
                 _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {

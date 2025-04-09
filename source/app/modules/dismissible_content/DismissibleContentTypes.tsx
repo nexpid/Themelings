@@ -43,7 +43,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = golfie.bind(entity)(tangon);
     tangon = tangon.DismissibleContent;
     oscard = tangon.GIFTING_INTENT_FRIENDS_TAB_BADGE;
-    tangon = new Array(4);
+    tangon = new Array(5);
     tangon[0] = oscard;
     oscard = option[michal];
     oscard = golfie.bind(entity)(oscard);
@@ -58,8 +58,13 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     oscard = option[michal];
     oscard = golfie.bind(entity)(oscard);
     oscard = oscard.DismissibleContent;
-    oscard = oscard.THIRD_PARTY_OUTBOUND_PROMO_NAGBAR;
+    oscard = oscard.GUILD_POWERUP_NOTIFICATION;
     tangon[3] = oscard;
+    oscard = option[michal];
+    oscard = golfie.bind(entity)(oscard);
+    oscard = oscard.DismissibleContent;
+    oscard = oscard.THIRD_PARTY_OUTBOUND_PROMO_NAGBAR;
+    tangon[4] = oscard;
     michal = option[michal];
     michal = golfie.bind(entity)(michal);
     michal = michal.DismissibleContent;

@@ -661,8 +661,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = new Array(2);
             record[0] = papara;
             papara = option != whisks;
-            if(!papara) { _fun00002_ip = 1365; continue _fun00001 }
- 1319:
+            if(!papara) { _fun00002_ip = 1364; continue _fun00001 }
+ 1318:
             limora = _closure1_slot13;
             sierra = _closure1_slot0;
             target = _closure1_slot3;
@@ -674,18 +674,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target['variant'] = equals;
             target['children'] = whisks;
             papara = limora.bind(tangon)(sierra, target);
- 1365:
+ 1364:
             record[1] = papara;
             ctrled['children'] = record;
             record = zuuluu.bind(tangon)(oscard, ctrled);
             ctrled = new Array(2);
             ctrled[0] = record;
             record = null;
-            if(cntext) { _fun00002_ip = 1582; continue _fun00001 }
- 1395:
+            if(cntext) { _fun00002_ip = 1581; continue _fun00001 }
+ 1394:
             record = null;
-            if(!yankee) { _fun00002_ip = 1582; continue _fun00001 }
- 1403:
+            if(!yankee) { _fun00002_ip = 1581; continue _fun00001 }
+ 1402:
             target = _closure1_slot13;
             papara = _closure1_slot0;
             sierra = _closure1_slot3;
@@ -703,29 +703,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sierra = sierra[sequen];
             sierra = limora.bind(tangon)(sierra);
             limora = sierra.t;
-            if(status) { _fun00002_ip = 1492; continue _fun00001 }
- 1479:
+            if(status) { _fun00002_ip = 1491; continue _fun00001 }
+ 1478:
             sierra = limora.yZFibW;
             sierra = whisks.bind(equals)(sierra);
-            _fun00002_ip = 1503; continue _fun00001;
- 1492:
+            _fun00002_ip = 1502; continue _fun00001;
+ 1491:
             limora = limora.aBUcp6;
             sierra = whisks.bind(equals)(limora);
- 1503:
+ 1502:
             cntext['accessibilityLabel'] = sierra;
             sierra = backup.starIcon;
             cntext['style'] = sierra;
             sierra = _closure1_slot1;
             whisks = _closure1_slot3;
-            if(status) { _fun00002_ip = 1537; continue _fun00001 }
- 1528:
+            if(status) { _fun00002_ip = 1536; continue _fun00001 }
+ 1527:
             status = 33;
             status = whisks[status];
-            _fun00002_ip = 1544; continue _fun00001;
- 1537:
+            _fun00002_ip = 1543; continue _fun00001;
+ 1536:
             limora = 32;
             status = whisks[limora];
- 1544:
+ 1543:
             status = sierra.bind(tangon)(status);
             cntext['source'] = status;
             status = function() { // Original name: IconComponent
@@ -847,7 +847,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             cntext['onPress'] = status;
             record = target.bind(tangon)(papara, cntext);
- 1582:
+ 1581:
             ctrled[1] = record;
             source['children'] = ctrled;
             source = zuuluu.bind(tangon)(oscard, source);
@@ -862,11 +862,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = foxtra.bind(tangon)(oscard);
             oscard = oscard.EmojiPopoutType;
             oscard = oscard.GET_PREMIUM;
-            if(!(offset !== oscard)) { _fun00002_ip = 1789; continue _fun00001 }
- 1654:
+            if(!(offset !== oscard)) { _fun00002_ip = 1788; continue _fun00001 }
+ 1653:
             oscard = null;
-            if(!result) { _fun00002_ip = 1787; continue _fun00001 }
- 1662:
+            if(!result) { _fun00002_ip = 1786; continue _fun00001 }
+ 1661:
             output = _closure1_slot13;
             ctrled = _closure1_slot1;
             source = _closure1_slot3;
@@ -916,9 +916,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             offset['onPress'] = update;
             oscard = output.bind(tangon)(foxtra, offset);
- 1787:
-            _fun00002_ip = 1800; continue _fun00001;
- 1789:
+ 1786:
+            _fun00002_ip = 1799; continue _fun00001;
+ 1788:
             verify = function() { // Original name: renderPremiumUpsellButton
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
@@ -1021,17 +1021,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             oscard = verify.bind(tangon)();
- 1800:
+ 1799:
             report[1] = oscard;
-            if(yankee) { _fun00002_ip = 1815; continue _fun00001 }
- 1807:
+            if(yankee) { _fun00002_ip = 1814; continue _fun00001 }
+ 1806:
             oscard = null;
-            if(!golfie) { _fun00002_ip = 2020; continue _fun00001 }
- 1815:
+            if(!golfie) { _fun00002_ip = 2019; continue _fun00001 }
+ 1814:
             golfie = option == sizing;
             oscard = null;
-            if(golfie) { _fun00002_ip = 2020; continue _fun00001 }
- 1827:
+            if(golfie) { _fun00002_ip = 2019; continue _fun00001 }
+ 1826:
             verify = _closure1_slot14;
             option = _closure1_slot15;
             golfie = {};
@@ -1060,8 +1060,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = output.bind(tangon)(backup, foxtra);
             offset[1] = foxtra;
             yankee = !yankee;
-            if(!yankee) { _fun00002_ip = 2006; continue _fun00001 }
- 1945:
+            if(!yankee) { _fun00002_ip = 2005; continue _fun00001 }
+ 1944:
             backup = _closure1_slot13;
             foxtra = _closure1_slot0;
             output = _closure1_slot3;
@@ -1076,11 +1076,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes[0] = sizing;
             romeon['doNotDisplayEmojiIds'] = kiloes;
             yankee = backup.bind(tangon)(foxtra, romeon);
- 2006:
+ 2005:
             offset[2] = yankee;
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 2020:
+ 2019:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

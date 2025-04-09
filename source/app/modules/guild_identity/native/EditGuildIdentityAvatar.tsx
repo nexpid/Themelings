@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 182; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 197; continue _fun00001 }
  10:
                     report = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -106,18 +106,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = undefined;
                     oscard = report.bind(zuuluu)(michal);
                     report = oscard.openImagePicker;
-                    michal = _closure1_slot9;
+                    michal = {};
+                    golfie = _closure1_slot9;
+                    michal['size'] = golfie;
                     michal = report.bind(oscard)(michal);
-                    SaveGenerator(address=54);
- 52:
+                    SaveGenerator(address=60);
+ 58:
                     return michal;
- 54:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 179; continue _fun00001 }
  60:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(report) { _fun00002_ip = 194; continue _fun00001 }
+ 69:
+                    yankee = michal.base64;
                     report = null;
-                    if(!(report != michal)) { _fun00002_ip = 176; continue _fun00001 }
- 66:
+                    if(!(report != yankee)) { _fun00002_ip = 191; continue _fun00001 }
+ 81:
                     golfie = _closure1_slot0;
                     oscard = _closure1_slot2;
                     offset = 14;
@@ -125,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = golfie.bind(zuuluu)(report);
                     option = verify.createPendingImage;
                     report = {};
-                    report['imageUri'] = michal;
+                    report['imageUri'] = yankee;
                     offset = oscard[offset];
                     yankee = golfie.bind(zuuluu)(offset);
                     offset = yankee.generateAvatarDescription;
@@ -143,11 +146,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = report.bind(zuuluu)(tangon);
                     tangon = report.hideActionSheet;
                     tangon = tangon.bind(report)();
- 176:
+ 191:
                     return zuuluu;
- 179:
+ 194:
                     return michal;
- 182:
+ 197:
                     return entity;
                 }
             };

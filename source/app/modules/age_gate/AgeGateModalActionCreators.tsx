@@ -205,11 +205,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = _closure1_slot0;
         zuuluu = 5;
         zuuluu = report[zuuluu];
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.transitionTo;
+        report = tangon.bind(entity)(zuuluu);
+        tangon = report.transitionTo;
         michal = _closure1_slot4;
-        michal = michal.LOGIN;
-        michal = zuuluu.bind(tangon)(michal);
+        zuuluu = michal.LOGIN;
+        michal = {};
+        oscard = 'age_gate_modal';
+        michal['source'] = oscard;
+        michal = tangon.bind(report)(zuuluu, michal);
         return entity;
     };
     zuuluu['closeFailedAgeGate'] = michal;

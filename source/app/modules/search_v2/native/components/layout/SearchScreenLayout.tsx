@@ -107,6 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = argFoo;
         romeon = entity.searchContext;
         yankee = entity.containerStyle;
+        output = entity.width;
         entity = _closure1_slot4;
         tangon = undefined;
         backup = entity.bind(tangon)(romeon);
@@ -127,6 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         kiloes = offset.bind(tangon)(golfie);
         golfie = {};
         golfie['searchContext'] = romeon;
+        golfie['width'] = output;
         golfie = sizing.bind(tangon)(kiloes, golfie);
         report['children'] = golfie;
         oscard = oscard.bind(tangon)(option, report);
