@@ -931,6 +931,16 @@
         "width": 24,
         "height": 24
     },
+    "BoostTier1Icon": {
+        "file": "design/components/Icon/native/redesign/generated/images/BoostTier1Icon.png",
+        "hash": "702300c9ecb22278989a87dfe793b02a",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "BoostTier2Icon": {
         "file": "design/components/Icon/native/redesign/generated/images/BoostTier2Icon.png",
         "hash": "76a2a5f225fb13b578cca85e148337ef",
@@ -12611,17 +12621,6 @@
         "width": 98,
         "height": 98
     },
-    "sample-profile-small-light": {
-        "file": "images/native/sample-profile-small-light.png",
-        "hash": "046f323d2cf3e9946d612c6d4bc4822f",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 100,
-        "height": 100
-    },
     "ScienceIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ScienceIcon.png",
         "hash": "8a4a1069bf57ea1e4fd89f15b14de70e",
@@ -13343,6 +13342,16 @@
     "StickerIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/StickerIcon.png",
         "hash": "3a83d347232beb2ab0a2279d72f8651b",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "StickerPlusIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/StickerPlusIcon.png",
+        "hash": "dd86c67fa2b2c5e85266c66ac58a5632",
         "scales": [
             2,
             3
