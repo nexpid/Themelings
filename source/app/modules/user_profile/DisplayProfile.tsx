@@ -145,6 +145,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = zuuluu.profileEffectExpiresAt;
                 michal['profileEffectExpiresAt'] = report;
  322:
+                report = tangon.fetchStartedAt;
+                michal['fetchStartedAt'] = report;
+                report = tangon.fetchEndedAt;
+                michal['fetchEndedAt'] = report;
                 michal['_userProfile'] = tangon;
                 michal['_guildMemberProfile'] = zuuluu;
                 return entity;
@@ -252,28 +256,55 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity['get'] = oscard;
         michal[6] = entity;
         entity = {};
+        oscard = 'isLoaded';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: get
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+ 0:
+                zuuluu = this;
+                entity = zuuluu._userProfile;
+                tangon = undefined;
+                entity = tangon !== entity;
+                if(!entity) { _fun00008_ip = 45; continue _fun00007 }
+ 18:
+                report = zuuluu.guildId;
+                michal = null;
+                michal = michal == report;
+                if(michal) { _fun00008_ip = 42; continue _fun00007 }
+ 32:
+                zuuluu = zuuluu._guildMemberProfile;
+                michal = tangon !== zuuluu;
+ 42:
+                entity = michal;
+ 45:
+                return entity;
+            }
+        };
+        entity['get'] = oscard;
+        michal[7] = entity;
+        entity = {};
         oscard = 'hasThemeColors';
         entity['key'] = oscard;
         oscard = function() { // Original name: value
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 tangon = this;
                 oscard = tangon.themeColors;
                 zuuluu = null;
                 report = zuuluu == oscard;
                 entity = undefined;
-                if(report) { _fun00008_ip = 26; continue _fun00007 }
+                if(report) { _fun00010_ip = 26; continue _fun00009 }
  20:
                 report = 0;
                 entity = oscard[report];
  26:
                 entity = zuuluu != entity;
-                if(entity) { _fun00008_ip = 59; continue _fun00007 }
+                if(entity) { _fun00010_ip = 59; continue _fun00009 }
  33:
                 report = tangon.themeColors;
                 tangon = zuuluu == report;
                 michal = undefined;
-                if(tangon) { _fun00008_ip = 55; continue _fun00007 }
+                if(tangon) { _fun00010_ip = 55; continue _fun00009 }
  48:
                 tangon = 1;
                 michal = report[tangon];
@@ -284,65 +315,38 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[7] = entity;
+        michal[8] = entity;
         entity = {};
         oscard = 'hasPremiumCustomization';
         entity['key'] = oscard;
         oscard = function() { // Original name: value
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                 michal = this;
                 entity = michal.isUsingGuildMemberBanner;
                 entity = entity.bind(michal)();
-                if(entity) { _fun00010_ip = 26; continue _fun00009 }
+                if(entity) { _fun00012_ip = 26; continue _fun00011 }
  16:
                 zuuluu = michal.isUsingGuildMemberBio;
                 entity = zuuluu.bind(michal)();
  26:
-                if(entity) { _fun00010_ip = 41; continue _fun00009 }
+                if(entity) { _fun00012_ip = 41; continue _fun00011 }
  29:
                 tangon = michal.banner;
                 zuuluu = null;
                 entity = zuuluu != tangon;
  41:
-                if(entity) { _fun00010_ip = 54; continue _fun00009 }
+                if(entity) { _fun00012_ip = 54; continue _fun00011 }
  44:
                 zuuluu = michal.hasThemeColors;
                 entity = zuuluu.bind(michal)();
  54:
-                if(entity) { _fun00010_ip = 69; continue _fun00009 }
+                if(entity) { _fun00012_ip = 69; continue _fun00011 }
  57:
                 zuuluu = michal.popoutAnimationParticleType;
                 michal = null;
                 entity = michal != zuuluu;
  69:
-                return entity;
-            }
-        };
-        entity['value'] = oscard;
-        michal[8] = entity;
-        entity = {};
-        oscard = 'hasFullProfile';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
- 0:
-                zuuluu = this;
-                entity = zuuluu._userProfile;
-                tangon = undefined;
-                entity = tangon !== entity;
-                if(!entity) { _fun00012_ip = 45; continue _fun00011 }
- 18:
-                report = zuuluu.guildId;
-                michal = null;
-                michal = michal == report;
-                if(michal) { _fun00012_ip = 42; continue _fun00011 }
- 32:
-                zuuluu = zuuluu._guildMemberProfile;
-                michal = tangon !== zuuluu;
- 42:
-                entity = michal;
- 45:
                 return entity;
             }
         };

@@ -42,34 +42,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = argFoo;
             oscard = entity.value;
             report = entity.children;
-            verify = entity.shouldTrackViewOnMount;
+            zuuluu = entity.openedAt;
+            var _closure2_slot0 = zuuluu;
+            zuuluu = entity.fetchStartedAt;
+            var _closure2_slot1 = zuuluu;
+            zuuluu = entity.fetchEndedAt;
+            var _closure2_slot2 = zuuluu;
+            verify = entity.isLoaded;
             tangon = undefined;
-            if(!(verify === tangon)) { _fun00002_ip = 29; continue _fun00001 }
- 27:
-            verify = true;
- 29:
-            var _closure2_slot0 = verify;
-            var _closure2_slot1 = tangon;
-            var _closure2_slot2 = tangon;
-            golfie = {};
-            option = _closure1_slot1;
-            offset = _closure1_slot2;
+            if(!(verify === tangon)) { _fun00002_ip = 59; continue _fun00001 }
+ 57:
+            verify = false;
+ 59:
+            var _closure2_slot3 = verify;
+            var _closure2_slot4 = tangon;
+            var _closure2_slot5 = tangon;
+            var _closure2_slot6 = tangon;
+            golfie = _closure1_slot1;
+            option = _closure1_slot2;
             zuuluu = 2;
-            zuuluu = offset[zuuluu];
-            zuuluu = option.bind(tangon)(zuuluu);
+            zuuluu = option[zuuluu];
+            zuuluu = golfie.bind(tangon)(zuuluu);
             zuuluu = zuuluu.bind(tangon)();
             zuuluu = zuuluu.analyticsLocations;
+            option = _closure1_slot3;
+            golfie = option.useRef;
+            golfie = golfie.bind(option)(tangon);
+            _closure2_slot4 = golfie;
+            golfie = {};
             golfie['analyticsLocations'] = zuuluu;
             golfie['value'] = oscard;
-            _closure2_slot1 = golfie;
-            option = _closure1_slot3;
+            _closure2_slot5 = golfie;
             zuuluu = option.useRef;
             zuuluu = zuuluu.bind(option)(golfie);
-            _closure2_slot2 = zuuluu;
+            _closure2_slot6 = zuuluu;
             golfie = option.useEffect;
             zuuluu = function() {
-                michal = _closure2_slot2;
-                entity = _closure2_slot1;
+                michal = _closure2_slot6;
+                entity = _closure2_slot5;
                 michal['current'] = entity;
                 entity = undefined;
                 return entity;
@@ -81,28 +91,91 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
+                    entity = global;
+                    michal = entity.Date;
+                    entity = michal.now;
+                    yankee = entity.bind(michal)();
+                    entity = _closure2_slot4;
+                    entity = entity.current;
+                    offset = null;
+                    entity = offset == entity;
+                    if(!entity) { _fun00004_ip = 46; continue _fun00003 }
+ 38:
                     michal = _closure2_slot0;
-                    if(!michal) { _fun00004_ip = 88; continue _fun00003 }
- 10:
-                    entity = _closure2_slot2;
+                    entity = offset != michal;
+ 46:
+                    if(!entity) { _fun00004_ip = 67; continue _fun00003 }
+ 49:
+                    michal = _closure2_slot4;
+                    entity = _closure2_slot0;
+                    entity = yankee - entity;
+                    michal['current'] = entity;
+ 67:
+                    entity = _closure2_slot3;
+                    if(!entity) { _fun00004_ip = 305; continue _fun00003 }
+ 77:
+                    entity = _closure2_slot6;
                     entity = entity.current;
                     report = entity.analyticsLocations;
-                    golfie = entity.value;
-                    zuuluu = _closure1_slot0;
-                    michal = _closure1_slot2;
+                    tangon = entity.value;
+                    michal = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
                     entity = 3;
-                    michal = michal[entity];
-                    entity = undefined;
-                    zuuluu = zuuluu.bind(entity)(michal);
-                    michal = zuuluu.trackUserProfileAction;
+                    golfie = zuuluu[entity];
+                    verify = undefined;
+                    romeon = michal.bind(verify)(golfie);
+                    option = romeon.trackUserProfileAction;
+                    golfie = {};
+                    foxtra = 'VIEW';
+                    golfie['action'] = foxtra;
+                    golfie['analyticsLocations'] = report;
+                    kiloes = golfie;
+                    backup = tangon;
+                    foxtra = copyDataProperties(kiloes, backup);
+                    golfie = option.bind(romeon)(golfie);
+                    entity = zuuluu[entity];
+                    zuuluu = michal.bind(verify)(entity);
+                    michal = zuuluu.maybeTrackUserProfileUiViewed;
                     entity = {};
-                    oscard = 'VIEW';
-                    entity['action'] = oscard;
+                    golfie = 'USER_PROFILE';
+                    entity['profileUi'] = golfie;
+                    golfie = _closure2_slot4;
+                    golfie = golfie.current;
+                    entity['timeToInteractiveMs'] = golfie;
+                    golfie = _closure2_slot0;
+                    option = offset != golfie;
+                    golfie = undefined;
+                    if(!option) { _fun00004_ip = 219; continue _fun00003 }
+ 211:
+                    option = _closure2_slot0;
+                    golfie = yankee - option;
+ 219:
+                    entity['timeToLoadMs'] = golfie;
+                    golfie = _closure2_slot1;
+                    option = offset != golfie;
+                    golfie = undefined;
+                    if(!option) { _fun00004_ip = 262; continue _fun00003 }
+ 237:
+                    option = _closure2_slot2;
+                    option = offset != option;
+                    golfie = undefined;
+                    if(!option) { _fun00004_ip = 262; continue _fun00003 }
+ 250:
+                    verify = _closure2_slot2;
+                    option = _closure2_slot1;
+                    golfie = verify - option;
+ 262:
+                    entity['timeToFetchMs'] = golfie;
+                    golfie = _closure2_slot0;
+                    entity['viewStartedAt'] = golfie;
+                    oscard = _closure2_slot1;
+                    entity['fetchStartedAt'] = oscard;
                     entity['analyticsLocations'] = report;
-                    option = entity;
-                    tangon = copyDataProperties(option, golfie);
+                    kiloes = entity;
+                    backup = tangon;
+                    tangon = copyDataProperties(kiloes, backup);
                     entity = michal.bind(zuuluu)(entity);
- 88:
+ 305:
                     entity = undefined;
                     return entity;
                 }

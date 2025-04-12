@@ -18,223 +18,230 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 769; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 799; continue _fun00001 }
  13:
                     option = argFoo;
-                    yankee = undefined;
-                    if(!(michal === yankee)) { _fun00002_ip = 24; continue _fun00001 }
+                    romeon = undefined;
+                    if(!(michal === romeon)) { _fun00002_ip = 24; continue _fun00001 }
  22:
                     michal = {};
  24:
-                    ctrled = michal.type;
-                    source = michal.friendToken;
-                    result = michal.withMutualGuilds;
-                    echoed = michal.withMutualFriendsCount;
-                    update = michal.withMutualFriends;
+                    sequen = michal.type;
+                    vacuum = michal.friendToken;
+                    update = michal.withMutualGuilds;
+                    source = michal.withMutualFriendsCount;
+                    ctrled = michal.withMutualFriends;
                     golfie = michal.guildId;
-                    output = michal.connectionsRoleId;
-                    sizing = michal.joinRequestId;
-                    backup = michal.abortSignal;
-                    oscard = arguments[2];
-                    foxtra = undefined;
-                    SaveGenerator(address=85);
- 83:
-                    return yankee;
+                    echoed = michal.connectionsRoleId;
+                    result = michal.joinRequestId;
+                    sizing = michal.abortSignal;
+                    yankee = arguments[2];
+                    verify = undefined;
+                    kiloes = undefined;
+                    SaveGenerator(address=87);
  85:
+                    return romeon;
+ 87:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 766; continue _fun00001 }
- 94:
-                    offset = _closure1_slot1;
-                    report = _closure1_slot2;
+                    if(tangon) { _fun00002_ip = 796; continue _fun00001 }
+ 96:
+                    report = global;
+                    oscard = report.Date;
+                    tangon = oscard.now;
+                    verify = tangon.bind(oscard)();
+                    foxtra = _closure1_slot1;
+                    oscard = _closure1_slot2;
                     tangon = 6;
-                    report = report[tangon];
-                    romeon = offset.bind(yankee)(report);
-                    offset = romeon.dispatch;
-                    report = {};
-                    kiloes = 'USER_PROFILE_FETCH_START';
-                    report['type'] = kiloes;
-                    kiloes = option;
-                    report['userId'] = kiloes;
-                    kiloes = golfie;
-                    report['guildId'] = kiloes;
-                    kiloes = update;
-                    report['withMutualFriends'] = kiloes;
-                    report = offset.bind(romeon)(report);
- 161: // try_start_0
-                    offset = _closure1_slot0;
-                    romeon = _closure1_slot2;
-                    report = 5;
-                    report = romeon[report];
-                    report = offset.bind(yankee)(report);
-                    romeon = report.HTTP;
-                    offset = romeon.get;
-                    report = {};
-                    sequen = _closure1_slot6;
-                    vacuum = sequen.USER_PROFILE;
-                    kiloes = option;
-                    kiloes = vacuum.bind(sequen)(kiloes);
-                    report['url'] = kiloes;
-                    kiloes = {};
-                    kiloes['type'] = ctrled;
-                    kiloes['friend_token'] = source;
-                    kiloes['with_mutual_guilds'] = result;
-                    result = update;
-                    kiloes['with_mutual_friends'] = result;
-                    result = echoed;
-                    if(!echoed) { _fun00002_ip = 270; continue _fun00001 }
- 249:
-                    ctrled = update;
-                    source = null;
-                    source = source == ctrled;
-                    echoed = source;
-                    if(source) { _fun00002_ip = 267; continue _fun00001 }
- 264:
-                    echoed = !update;
- 267:
-                    result = echoed;
- 270:
-                    kiloes['with_mutual_friends_count'] = result;
-                    result = golfie;
-                    kiloes['guild_id'] = result;
-                    kiloes['connections_role_id'] = output;
-                    kiloes['join_request_id'] = sizing;
-                    report['query'] = kiloes;
-                    report['signal'] = backup;
-                    backup = true;
-                    report['rejectWithError'] = backup;
-                    report = offset.bind(romeon)(report);
-                    SaveGenerator(address=320);
- 318:
-                    return report;
- 320:
-                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=9);
-                    if(offset) { _fun00002_ip = 551; continue _fun00001 }
- 329:
-                    foxtra = report;
-                    offset = oscard;
-                    romeon = null;
-                    if(!(romeon != offset)) { _fun00002_ip = 361; continue _fun00001 }
- 341:
-                    backup = oscard;
-                    oscard = foxtra;
-                    offset = oscard.body;
-                    oscard = golfie;
-                    oscard = backup.bind(yankee)(offset, oscard);
- 361:
-                    offset = _closure1_slot1;
-                    oscard = _closure1_slot2;
-                    backup = oscard[tangon];
-                    output = offset.bind(yankee)(backup);
-                    sizing = output.dispatch;
-                    backup = {};
-                    kiloes = 'USER_UPDATE';
-                    backup['type'] = kiloes;
-                    kiloes = foxtra;
-                    result = kiloes.body;
-                    result = result.user;
-                    backup['user'] = result;
-                    backup = sizing.bind(output)(backup);
                     oscard = oscard[tangon];
-                    backup = offset.bind(yankee)(oscard);
-                    offset = backup.dispatch;
+                    backup = foxtra.bind(romeon)(oscard);
+                    foxtra = backup.dispatch;
                     oscard = {};
-                    sizing = 'USER_PROFILE_FETCH_SUCCESS';
-                    oscard['type'] = sizing;
-                    kiloes = kiloes.body;
-                    oscard['userProfile'] = kiloes;
-                    oscard = offset.bind(backup)(oscard);
-                    offset = golfie;
-                    offset = romeon != offset;
-                    oscard = offset;
-                    if(!offset) { _fun00002_ip = 485; continue _fun00001 }
- 467:
-                    offset = foxtra;
-                    offset = offset.body;
-                    offset = offset.guild_member;
-                    oscard = romeon != offset;
- 485:
-                    if(!oscard) { _fun00002_ip = 548; continue _fun00001 }
- 488:
-                    offset = _closure1_slot1;
-                    oscard = _closure1_slot2;
-                    oscard = oscard[tangon];
-                    romeon = offset.bind(yankee)(oscard);
-                    offset = romeon.dispatch;
+                    output = 'USER_PROFILE_FETCH_START';
+                    oscard['type'] = output;
+                    output = option;
+                    oscard['userId'] = output;
+                    output = golfie;
+                    oscard['guildId'] = output;
+                    output = ctrled;
+                    oscard['withMutualFriends'] = output;
+                    oscard = foxtra.bind(backup)(oscard);
+ 180: // try_start_0
+                    foxtra = _closure1_slot0;
+                    backup = _closure1_slot2;
+                    oscard = 5;
+                    oscard = backup[oscard];
+                    oscard = foxtra.bind(romeon)(oscard);
+                    backup = oscard.HTTP;
+                    foxtra = backup.get;
                     oscard = {};
-                    backup = 'GUILD_MEMBER_PROFILE_UPDATE';
-                    oscard['type'] = backup;
-                    backup = golfie;
-                    oscard['guildId'] = backup;
+                    record = _closure1_slot6;
+                    config = record.USER_PROFILE;
+                    output = option;
+                    output = config.bind(record)(output);
+                    oscard['url'] = output;
+                    output = {};
+                    output['type'] = sequen;
+                    output['friend_token'] = vacuum;
+                    output['with_mutual_guilds'] = update;
+                    update = ctrled;
+                    output['with_mutual_friends'] = update;
+                    update = source;
+                    if(!source) { _fun00002_ip = 289; continue _fun00001 }
+ 268:
+                    sequen = ctrled;
+                    vacuum = null;
+                    vacuum = vacuum == sequen;
+                    source = vacuum;
+                    if(vacuum) { _fun00002_ip = 286; continue _fun00001 }
+ 283:
+                    source = !ctrled;
+ 286:
+                    update = source;
+ 289:
+                    output['with_mutual_friends_count'] = update;
+                    update = golfie;
+                    output['guild_id'] = update;
+                    output['connections_role_id'] = echoed;
+                    output['join_request_id'] = result;
+                    oscard['query'] = output;
+                    oscard['signal'] = sizing;
+                    sizing = true;
+                    oscard['rejectWithError'] = sizing;
+                    oscard = foxtra.bind(backup)(oscard);
+                    SaveGenerator(address=339);
+ 337:
+                    return oscard;
+ 339:
+                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=12);
+                    if(foxtra) { _fun00002_ip = 578; continue _fun00001 }
+ 348:
+                    kiloes = oscard;
+                    foxtra = yankee;
+                    backup = null;
+                    if(!(backup != foxtra)) { _fun00002_ip = 380; continue _fun00001 }
+ 360:
+                    sizing = yankee;
+                    yankee = kiloes;
+                    foxtra = yankee.body;
+                    yankee = golfie;
+                    yankee = sizing.bind(romeon)(foxtra, yankee);
+ 380:
+                    foxtra = _closure1_slot1;
+                    yankee = _closure1_slot2;
+                    sizing = yankee[tangon];
+                    echoed = foxtra.bind(romeon)(sizing);
+                    result = echoed.dispatch;
+                    sizing = {};
+                    output = 'USER_UPDATE';
+                    sizing['type'] = output;
+                    output = kiloes;
+                    update = output.body;
+                    update = update.user;
+                    sizing['user'] = update;
+                    sizing = result.bind(echoed)(sizing);
+                    yankee = yankee[tangon];
+                    sizing = foxtra.bind(romeon)(yankee);
+                    foxtra = sizing.dispatch;
+                    yankee = {};
+                    result = 'USER_PROFILE_FETCH_SUCCESS';
+                    yankee['type'] = result;
+                    output = output.body;
+                    yankee['userProfile'] = output;
+                    output = verify;
+                    yankee['fetchStartedAt'] = output;
+                    yankee = foxtra.bind(sizing)(yankee);
+                    foxtra = golfie;
+                    foxtra = backup != foxtra;
+                    yankee = foxtra;
+                    if(!foxtra) { _fun00002_ip = 512; continue _fun00001 }
+ 494:
+                    foxtra = kiloes;
                     foxtra = foxtra.body;
                     foxtra = foxtra.guild_member;
-                    oscard['guildMember'] = foxtra;
-                    oscard = offset.bind(romeon)(oscard);
- 548: // try_end0
-                    return yankee;
- 551:
-                    return report;
- 554: // catch_target0
-                    CatchBlockStart(arg_register=5);
-                    zuuluu = oscard;
-                    offset = null;
-                    oscard = offset != oscard;
-                    report = oscard;
-                    if(!oscard) { _fun00002_ip = 595; continue _fun00001 }
- 571:
-                    oscard = zuuluu;
-                    romeon = offset == oscard;
-                    oscard = undefined;
-                    if(romeon) { _fun00002_ip = 591; continue _fun00001 }
- 583:
-                    romeon = zuuluu;
-                    oscard = romeon.body;
- 591:
-                    report = offset != oscard;
- 595:
-                    if(!report) { _fun00002_ip = 667; continue _fun00001 }
+                    yankee = backup != foxtra;
+ 512:
+                    if(!yankee) { _fun00002_ip = 575; continue _fun00001 }
+ 515:
+                    foxtra = _closure1_slot1;
+                    yankee = _closure1_slot2;
+                    yankee = yankee[tangon];
+                    backup = foxtra.bind(romeon)(yankee);
+                    foxtra = backup.dispatch;
+                    yankee = {};
+                    sizing = 'GUILD_MEMBER_PROFILE_UPDATE';
+                    yankee['type'] = sizing;
+                    sizing = golfie;
+                    yankee['guildId'] = sizing;
+                    kiloes = kiloes.body;
+                    kiloes = kiloes.guild_member;
+                    yankee['guildMember'] = kiloes;
+                    yankee = foxtra.bind(backup)(yankee);
+ 575: // try_end0
+                    return romeon;
+ 578:
+                    return oscard;
+ 581: // catch_target0
+                    CatchBlockStart(arg_register=10);
+                    zuuluu = yankee;
+                    foxtra = null;
+                    yankee = foxtra != yankee;
+                    oscard = yankee;
+                    if(!yankee) { _fun00002_ip = 622; continue _fun00001 }
  598:
-                    offset = _closure1_slot7;
-                    oscard = offset.warn;
-                    report = zuuluu;
-                    romeon = report.body;
-                    kiloes = romeon.code;
-                    report = report.body;
-                    backup = report.message;
-                    report = global;
+                    yankee = zuuluu;
+                    backup = foxtra == yankee;
+                    yankee = undefined;
+                    if(backup) { _fun00002_ip = 618; continue _fun00001 }
+ 610:
+                    backup = zuuluu;
+                    yankee = backup.body;
+ 618:
+                    oscard = foxtra != yankee;
+ 622:
+                    if(!oscard) { _fun00002_ip = 692; continue _fun00001 }
+ 625:
+                    yankee = _closure1_slot7;
+                    oscard = yankee.warn;
+                    foxtra = zuuluu;
+                    backup = foxtra.body;
+                    sizing = backup.code;
+                    foxtra = foxtra.body;
+                    kiloes = foxtra.message;
                     report = report.HermesInternal;
-                    foxtra = report.concat;
-                    romeon = 'fetchProfile error: ';
+                    backup = report.concat;
+                    foxtra = 'fetchProfile error: ';
                     report = ' - ';
-                    report = foxtra.bind(romeon)(kiloes, report, backup);
-                    report = oscard.bind(offset)(report);
- 667:
+                    report = backup.bind(foxtra)(sizing, report, kiloes);
+                    report = oscard.bind(yankee)(report);
+ 692:
                     report = _closure1_slot1;
-                    romeon = _closure1_slot2;
-                    tangon = romeon[tangon];
-                    oscard = report.bind(yankee)(tangon);
+                    foxtra = _closure1_slot2;
+                    tangon = foxtra[tangon];
+                    oscard = report.bind(romeon)(tangon);
                     report = oscard.dispatch;
                     tangon = {};
-                    offset = 'USER_PROFILE_FETCH_FAILURE';
-                    tangon['type'] = offset;
-                    offset = _closure1_slot0;
-                    verify = 10;
-                    verify = romeon[verify];
-                    verify = offset.bind(yankee)(verify);
-                    verify = verify.APIError;
-                    offset = verify.prototype;
-                    offset = Object.create(offset, {constructor: {value: verify}});
-                    papara = offset;
-                    cntext = zuuluu;
-                    verify = new papara[verify](cntext, record);
-                    verify = verify instanceof Object ? verify : offset;
-                    tangon['apiError'] = verify;
+                    yankee = 'USER_PROFILE_FETCH_FAILURE';
+                    tangon['type'] = yankee;
+                    yankee = _closure1_slot0;
+                    offset = 10;
+                    offset = foxtra[offset];
+                    offset = yankee.bind(romeon)(offset);
+                    offset = offset.APIError;
+                    yankee = offset.prototype;
+                    yankee = Object.create(yankee, {constructor: {value: offset}});
+                    status = yankee;
+                    target = zuuluu;
+                    offset = new status[offset](target, papara);
+                    offset = offset instanceof Object ? offset : yankee;
+                    tangon['apiError'] = offset;
+                    tangon['fetchStartedAt'] = verify;
                     tangon['userId'] = option;
                     tangon['guildId'] = golfie;
                     tangon = report.bind(oscard)(tangon);
                     throw zuuluu;
- 766:
+ 796:
                     return michal;
- 769:
+ 799:
                     return entity;
                 }
             };

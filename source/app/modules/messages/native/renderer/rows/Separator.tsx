@@ -66,7 +66,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             entity = argFoo;
             michal = entity.row;
-            offset = entity.scrollToUnread;
             golfie = michal.rowType;
             report = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -80,16 +79,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = zuuluu.bind(tangon)(report);
             zuuluu = _closure1_slot4;
             zuuluu = zuuluu.DAY;
-            if(!(zuuluu !== golfie)) { _fun00002_ip = 302; continue _fun00001 }
- 84:
+            if(!(zuuluu !== golfie)) { _fun00002_ip = 289; continue _fun00001 }
+ 76:
             zuuluu = _closure1_slot4;
             zuuluu = zuuluu.UNREAD;
-            if(!(zuuluu !== golfie)) { _fun00002_ip = 234; continue _fun00001 }
- 101:
+            if(!(zuuluu !== golfie)) { _fun00002_ip = 226; continue _fun00001 }
+ 93:
             zuuluu = _closure1_slot4;
             zuuluu = zuuluu.SUMMARY;
-            if(!(zuuluu !== golfie)) { _fun00002_ip = 148; continue _fun00001 }
- 115:
+            if(!(zuuluu !== golfie)) { _fun00002_ip = 140; continue _fun00001 }
+ 107:
             report = _closure1_slot0;
             option = _closure1_slot2;
             zuuluu = 7;
@@ -98,28 +97,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.assertNever;
             zuuluu = zuuluu.bind(report)(golfie);
             return tangon;
- 148:
-            yankee = michal.summary;
+ 140:
+            offset = michal.summary;
             verify = michal.isBeforeContent;
-            option = _closure1_slot5;
-            report = _closure1_slot1;
-            romeon = _closure1_slot2;
-            zuuluu = 6;
-            zuuluu = romeon[zuuluu];
-            zuuluu = report.bind(tangon)(zuuluu);
-            report = zuuluu.Separator;
-            zuuluu = {};
-            zuuluu['id'] = golfie;
-            romeon = oscard.summaryColor;
-            zuuluu['color'] = romeon;
-            romeon = yankee.topic;
-            zuuluu['text'] = romeon;
-            zuuluu['summary'] = yankee;
-            zuuluu['isBeforeContent'] = verify;
-            zuuluu = option.bind(tangon)(report, zuuluu);
-            return zuuluu;
- 234:
-            verify = michal.text;
             option = _closure1_slot5;
             report = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -129,13 +109,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = zuuluu.Separator;
             zuuluu = {};
             zuuluu['id'] = golfie;
-            yankee = oscard.unreadColor;
+            yankee = oscard.summaryColor;
             zuuluu['color'] = yankee;
-            zuuluu['scrollTo'] = offset;
+            yankee = offset.topic;
+            zuuluu['text'] = yankee;
+            zuuluu['summary'] = offset;
+            zuuluu['isBeforeContent'] = verify;
+            zuuluu = option.bind(tangon)(report, zuuluu);
+            return zuuluu;
+ 226:
+            verify = michal.text;
+            option = _closure1_slot5;
+            report = _closure1_slot1;
+            offset = _closure1_slot2;
+            zuuluu = 6;
+            zuuluu = offset[zuuluu];
+            zuuluu = report.bind(tangon)(zuuluu);
+            report = zuuluu.Separator;
+            zuuluu = {};
+            zuuluu['id'] = golfie;
+            offset = oscard.unreadColor;
+            zuuluu['color'] = offset;
             zuuluu['text'] = verify;
             zuuluu = option.bind(tangon)(report, zuuluu);
             return zuuluu;
- 302:
+ 289:
             report = michal.text;
             zuuluu = _closure1_slot5;
             michal = _closure1_slot1;
@@ -167,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = golfie.bind(zuuluu)(tangon);
             golfie = _closure1_slot4;
             golfie = golfie.DAY;
-            if(!(golfie !== report)) { _fun00004_ip = 247; continue _fun00003 }
+            if(!(golfie !== report)) { _fun00004_ip = 225; continue _fun00003 }
  49:
             golfie = _closure1_slot4;
             golfie = golfie.UNREAD;
@@ -202,22 +200,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['changeType'] = michal;
             return zuuluu;
  179:
-            option = entity.text;
-            verify = entity.scrollTo;
-            golfie = entity.animated;
+            golfie = entity.text;
             zuuluu = {};
-            offset = _closure1_slot3;
-            offset = offset.SEPARATOR;
-            zuuluu['type'] = offset;
+            option = _closure1_slot3;
+            option = option.SEPARATOR;
+            zuuluu['type'] = option;
             zuuluu['id'] = report;
-            offset = tangon.unreadColor;
-            zuuluu['color'] = offset;
-            zuuluu['scrollTo'] = verify;
+            option = tangon.unreadColor;
+            zuuluu['color'] = option;
             zuuluu['changeType'] = michal;
-            zuuluu['text'] = option;
-            zuuluu['animated'] = golfie;
+            zuuluu['text'] = golfie;
             return zuuluu;
- 247:
+ 225:
             zuuluu = entity.text;
             entity = {};
             oscard = _closure1_slot3;

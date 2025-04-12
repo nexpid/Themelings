@@ -1533,7 +1533,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['MessageSendFailureNotificationManager'] = entity;
     entity = {};
-    option = ['POST_CONNECTION_OPEN', 'UNSYNCED_USER_SETTINGS_UPDATE'];
+    option = ['POST_CONNECTION_OPEN'];
     entity['actions'] = option;
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;

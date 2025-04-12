@@ -1,5 +1,5 @@
 // discord_common/js/packages/rtn-codegen/js/ChatNativeComponent.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu) {
     golfie = argBar;
     zuuluu = argFre;
     option = argPlu;
@@ -408,7 +408,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     report = report.bind(verify)(offset, michal);
     michal = {};
-    verify = function(argFoo, argBar, argBaz) { // Original name: scrollTo
+    verify = function(argFoo, argBar, argBaz, argCor, argGra) { // Original name: scrollTo
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 2;
@@ -416,11 +416,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = undefined;
         oscard = zuuluu.bind(entity)(michal);
         report = oscard.dispatchCommand;
-        tangon = new Array(2);
+        tangon = new Array(4);
         michal = argBar;
         tangon[0] = michal;
         michal = argBaz;
         tangon[1] = michal;
+        michal = argCor;
+        tangon[2] = michal;
+        michal = argGra;
+        tangon[3] = michal;
         zuuluu = argFoo;
         michal = 'scrollTo';
         michal = report.bind(oscard)(zuuluu, michal, tangon);
@@ -444,7 +448,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['scrollToBottom'] = verify;
-    oscard = function(argFoo, argBar, argBaz) { // Original name: scrollIntoView
+    oscard = function(argFoo, argBar, argBaz, argCor) { // Original name: scrollIntoView
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 2;
@@ -452,11 +456,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = undefined;
         oscard = zuuluu.bind(entity)(michal);
         report = oscard.dispatchCommand;
-        tangon = new Array(2);
+        tangon = new Array(3);
         michal = argBar;
         tangon[0] = michal;
         michal = argBaz;
         tangon[1] = michal;
+        michal = argCor;
+        tangon[2] = michal;
         zuuluu = argFoo;
         michal = 'scrollIntoView';
         michal = report.bind(oscard)(zuuluu, michal, tangon);

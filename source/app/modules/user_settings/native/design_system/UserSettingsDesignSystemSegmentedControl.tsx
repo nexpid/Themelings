@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = 6;
                     tangon = undefined;
                     zuuluu = 'heading-xxl/bold';
-                    if(!michal) { _fun00002_ip = 224; continue _fun00001 }
+                    if(!michal) { _fun00002_ip = 226; continue _fun00001 }
  54:
                     foxtra = entity.push;
                     michal = {};
@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = yankee + 1;
                     michal = _closure3_slot0;
                     if(yankee < michal) { _fun00002_ip = 54; continue _fun00001 }
- 224:
+ 226:
                     return entity;
                 }
             };

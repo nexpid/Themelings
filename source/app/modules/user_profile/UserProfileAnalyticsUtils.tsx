@@ -529,7 +529,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     var _closure1_slot18 = tangon;
-    report = 14;
+    report = 15;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -594,6 +594,83 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) {
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
+            backup = argFoo;
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
+            entity = 14;
+            michal = michal[entity];
+            entity = undefined;
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.isUserProfilePerformanceAnalyticsEnabled;
+            michal = {};
+            report = 'UserProfileAnalyticsUtils';
+            michal['location'] = report;
+            michal = zuuluu.bind(tangon)(michal);
+            if(!michal) { _fun00012_ip = 320; continue _fun00011 }
+ 57:
+            source = backup.guildId;
+            output = backup.channelId;
+            foxtra = backup.analyticsLocations;
+            romeon = backup.profileUi;
+            yankee = backup.viewStartedAt;
+            offset = backup.fetchStartedAt;
+            verify = backup.timeToInteractiveMs;
+            option = backup.timeToLoadMs;
+            golfie = backup.timeToFetchMs;
+            zuuluu = _closure1_slot1;
+            result = _closure1_slot2;
+            michal = 12;
+            michal = result[michal];
+            report = zuuluu.bind(entity)(michal);
+            tangon = report.track;
+            michal = _closure1_slot12;
+            zuuluu = michal.USER_PROFILE_UI_VIEWED;
+            michal = {};
+            sizing = _closure1_slot0;
+            kiloes = 13;
+            echoed = result[kiloes];
+            update = sizing.bind(entity)(echoed);
+            echoed = update.collectGuildAnalyticsMetadata;
+            ctrled = echoed.bind(update)(source);
+            vacuum = michal;
+            echoed = copyDataProperties(vacuum, ctrled);
+            kiloes = result[kiloes];
+            sizing = sizing.bind(entity)(kiloes);
+            kiloes = sizing.collectChannelAnalyticsMetadataFromId;
+            ctrled = kiloes.bind(sizing)(output);
+            vacuum = michal;
+            kiloes = copyDataProperties(vacuum, ctrled);
+            kiloes = _closure1_slot17;
+            ctrled = kiloes.bind(entity)(backup);
+            vacuum = michal;
+            kiloes = copyDataProperties(vacuum, ctrled);
+            oscard = _closure1_slot18;
+            ctrled = oscard.bind(entity)(backup);
+            vacuum = michal;
+            oscard = copyDataProperties(vacuum, ctrled);
+            oscard = 'location_stack';
+            michal[oscard] = foxtra;
+            oscard = 'profile_ui';
+            michal[oscard] = romeon;
+            oscard = 'view_started_at';
+            michal[oscard] = yankee;
+            oscard = 'fetch_started_at';
+            michal[oscard] = offset;
+            oscard = 'time_to_interactive_ms';
+            michal[oscard] = verify;
+            oscard = 'time_to_load_ms';
+            michal[oscard] = option;
+            oscard = 'time_to_fetch_ms';
+            michal[oscard] = golfie;
+            michal = tangon.bind(report)(zuuluu, michal);
+ 320:
+            return entity;
+        }
+    };
+    zuuluu['maybeTrackUserProfileUiViewed'] = tangon;
+    tangon = function(argFoo) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+ 0:
             kiloes = argFoo;
             source = kiloes.guildId;
             output = kiloes.channelId;
@@ -641,7 +718,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             romeon = null;
             backup = romeon != golfie;
             romeon = 'VOICE';
-            if(backup) { _fun00012_ip = 222; continue _fun00011 }
+            if(backup) { _fun00014_ip = 222; continue _fun00013 }
  213:
             oscard = _closure1_slot16;
             romeon = oscard.bind(entity)(foxtra);
@@ -664,7 +741,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['trackUserProfileActivityJoined'] = tangon;
     tangon = function(argFoo) {
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             output = argFoo;
             vacuum = output.guildId;
@@ -717,15 +794,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal[option] = foxtra;
             foxtra = _closure1_slot16;
             option = null;
-            if(!(option == romeon)) { _fun00014_ip = 253; continue _fun00013 }
+            if(!(option == romeon)) { _fun00016_ip = 253; continue _fun00015 }
  237:
             kiloes = option == yankee;
             romeon = undefined;
-            if(kiloes) { _fun00014_ip = 251; continue _fun00013 }
+            if(kiloes) { _fun00016_ip = 251; continue _fun00015 }
  246:
             romeon = yankee.type;
  251:
-            _fun00014_ip = 263; continue _fun00013;
+            _fun00016_ip = 263; continue _fun00015;
  253:
             backup = _closure1_slot11;
             romeon = backup.STREAMING;
@@ -735,7 +812,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal[romeon] = foxtra;
             romeon = option == yankee;
             foxtra = undefined;
-            if(romeon) { _fun00014_ip = 293; continue _fun00013 }
+            if(romeon) { _fun00016_ip = 293; continue _fun00015 }
  288:
             foxtra = yankee.name;
  293:
@@ -743,7 +820,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal[romeon] = foxtra;
             romeon = option == yankee;
             foxtra = undefined;
-            if(romeon) { _fun00014_ip = 317; continue _fun00013 }
+            if(romeon) { _fun00016_ip = 317; continue _fun00015 }
  311:
             foxtra = yankee.platform;
  317:
@@ -751,7 +828,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal[romeon] = foxtra;
             romeon = option == yankee;
             foxtra = undefined;
-            if(romeon) { _fun00014_ip = 343; continue _fun00013 }
+            if(romeon) { _fun00016_ip = 343; continue _fun00015 }
  337:
             foxtra = yankee.session_id;
  343:
@@ -759,7 +836,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal[romeon] = foxtra;
             foxtra = option == yankee;
             romeon = undefined;
-            if(foxtra) { _fun00014_ip = 367; continue _fun00013 }
+            if(foxtra) { _fun00016_ip = 367; continue _fun00015 }
  361:
             romeon = yankee.application_id;
  367:
@@ -767,7 +844,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal[yankee] = romeon;
             yankee = option == offset;
             romeon = undefined;
-            if(yankee) { _fun00014_ip = 392; continue _fun00013 }
+            if(yankee) { _fun00016_ip = 392; continue _fun00015 }
  387:
             romeon = offset.id;
  392:
@@ -775,7 +852,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal[yankee] = romeon;
             romeon = option == offset;
             yankee = undefined;
-            if(romeon) { _fun00014_ip = 418; continue _fun00013 }
+            if(romeon) { _fun00016_ip = 418; continue _fun00015 }
  412:
             yankee = offset.author_id;
  418:
@@ -783,7 +860,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal[offset] = yankee;
             offset = option == verify;
             yankee = undefined;
-            if(offset) { _fun00014_ip = 459; continue _fun00013 }
+            if(offset) { _fun00016_ip = 459; continue _fun00015 }
  438:
             foxtra = verify.entries;
             romeon = foxtra.map;
@@ -798,7 +875,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal[offset] = yankee;
             offset = option == verify;
             option = undefined;
-            if(offset) { _fun00014_ip = 500; continue _fun00013 }
+            if(offset) { _fun00016_ip = 500; continue _fun00015 }
  479:
             offset = verify.entries;
             verify = offset.map;
@@ -911,7 +988,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['trackUserProfileBadgeHovered'] = tangon;
     michal = function(argFoo) {
-        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             entity = argFoo;
             option = entity.displayProfile;
@@ -921,19 +998,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = null;
             zuuluu = golfie == option;
             oscard = undefined;
-            if(zuuluu) { _fun00016_ip = 39; continue _fun00015 }
+            if(zuuluu) { _fun00018_ip = 39; continue _fun00017 }
  34:
             oscard = option.userId;
  39:
             _closure2_slot0 = oscard;
             zuuluu = golfie != oscard;
             foxtra = null;
-            if(!zuuluu) { _fun00016_ip = 76; continue _fun00015 }
+            if(!zuuluu) { _fun00018_ip = 76; continue _fun00017 }
  52:
             tangon = _closure1_slot6;
             zuuluu = tangon.findActivity;
             michal = function(argFoo) {
-                _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+                _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
                     entity = argFoo;
                     zuuluu = entity.type;
@@ -942,12 +1019,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = _closure2_slot0;
                     tangon = tangon.bind(report)(entity);
                     entity = null;
-                    if(!(entity == tangon)) { _fun00018_ip = 55; continue _fun00017 }
+                    if(!(entity == tangon)) { _fun00020_ip = 55; continue _fun00019 }
  39:
                     entity = _closure1_slot11;
                     entity = entity.CUSTOM_STATUS;
                     entity = zuuluu !== entity;
-                    _fun00018_ip = 69; continue _fun00017;
+                    _fun00020_ip = 69; continue _fun00019;
  55:
                     michal = _closure1_slot11;
                     michal = michal.PLAYING;
@@ -972,25 +1049,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = offset.Boolean;
             romeon = golfie == foxtra;
             offset = undefined;
-            if(romeon) { _fun00016_ip = 161; continue _fun00015 }
+            if(romeon) { _fun00018_ip = 161; continue _fun00017 }
  140:
             romeon = foxtra.assets;
             backup = golfie == romeon;
             offset = undefined;
-            if(backup) { _fun00016_ip = 161; continue _fun00015 }
+            if(backup) { _fun00018_ip = 161; continue _fun00017 }
  155:
             offset = romeon.large_image;
  161:
-            if(!(golfie == offset)) { _fun00016_ip = 198; continue _fun00015 }
+            if(!(golfie == offset)) { _fun00018_ip = 198; continue _fun00017 }
  165:
             backup = golfie == foxtra;
             romeon = undefined;
-            if(backup) { _fun00016_ip = 195; continue _fun00015 }
+            if(backup) { _fun00018_ip = 195; continue _fun00017 }
  174:
             foxtra = foxtra.assets;
             backup = golfie == foxtra;
             romeon = undefined;
-            if(backup) { _fun00016_ip = 195; continue _fun00015 }
+            if(backup) { _fun00018_ip = 195; continue _fun00017 }
  189:
             romeon = foxtra.small_image;
  195:
@@ -1005,7 +1082,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['viewed_profile_user_id'] = oscard;
             verify = golfie == option;
             oscard = undefined;
-            if(verify) { _fun00016_ip = 254; continue _fun00015 }
+            if(verify) { _fun00018_ip = 254; continue _fun00017 }
  244:
             verify = option.hasPremiumCustomization;
             oscard = verify.bind(option)();
@@ -1013,7 +1090,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['profile_has_nitro_customization'] = oscard;
             verify = golfie == option;
             oscard = undefined;
-            if(verify) { _fun00016_ip = 278; continue _fun00015 }
+            if(verify) { _fun00018_ip = 278; continue _fun00017 }
  268:
             verify = option.hasThemeColors;
             oscard = verify.bind(option)();
@@ -1021,7 +1098,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['profile_has_theme_color_customized'] = oscard;
             verify = golfie == option;
             oscard = undefined;
-            if(verify) { _fun00016_ip = 298; continue _fun00015 }
+            if(verify) { _fun00018_ip = 298; continue _fun00017 }
  292:
             oscard = option.popoutAnimationParticleType;
  298:

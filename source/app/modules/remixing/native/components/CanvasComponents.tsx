@@ -370,8 +370,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = null;
             option = verify == romeon;
             golfie = undefined;
-            if(option) { _fun00006_ip = 294; continue _fun00005 }
- 279:
+            if(option) { _fun00006_ip = 300; continue _fun00005 }
+ 283:
             option = romeon.map;
             report = function(argFoo) {
                 report = _closure1_slot10;
@@ -383,7 +383,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             golfie = option.bind(romeon)(report);
- 294:
+ 300:
             report = new Array(2);
             report[0] = golfie;
             option = _closure1_slot5;
@@ -394,10 +394,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = golfie.bind(tangon)(oscard);
             oscard = {};
             verify = verify != offset;
-            if(!verify) { _fun00006_ip = 339; continue _fun00005 }
- 335:
+            if(!verify) { _fun00006_ip = 345; continue _fun00005 }
+ 341:
             verify = yankee !== offset;
- 339:
+ 345:
             oscard['gesturing'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
             report[1] = oscard;

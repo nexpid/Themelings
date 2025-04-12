@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             ctrled = undefined;
             if(offset) { _fun00002_ip = 207; continue _fun00001 }
  201:
-            ctrled = option.lastFetched;
+            ctrled = option.fetchEndedAt;
  207:
             vacuum = romeon != ctrled;
             offset = 0;

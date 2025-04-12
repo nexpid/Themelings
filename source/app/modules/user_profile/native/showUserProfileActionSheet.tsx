@@ -49,88 +49,101 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = function(argFoo) { // Original name: showUserProfileActionSheet
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golfie = argFoo;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
+            michal = argFoo;
+            entity = global;
+            zuuluu = entity.Date;
+            entity = zuuluu.now;
+            option = entity.bind(zuuluu)();
+            report = _closure1_slot0;
+            tangon = _closure1_slot2;
             entity = 1;
-            zuuluu = zuuluu[entity];
+            tangon = tangon[entity];
             entity = undefined;
-            zuuluu = tangon.bind(entity)(zuuluu);
-            tangon = zuuluu.IgnoreProfileSpeedbumpDisabled;
-            zuuluu = tangon.getSetting;
-            zuuluu = zuuluu.bind(tangon)();
-            tangon = golfie.ignoreBlockedSpeedBump;
-            if(tangon) { _fun00002_ip = 224; continue _fun00001 }
- 56:
-            oscard = _closure1_slot3;
-            report = oscard.isBlocked;
-            tangon = golfie.userId;
-            verify = report.bind(oscard)(tangon);
-            report = oscard.isIgnored;
-            tangon = golfie.userId;
-            tangon = report.bind(oscard)(tangon);
-            if(tangon) { _fun00002_ip = 101; continue _fun00001 }
- 95:
-            if(!verify) { _fun00002_ip = 224; continue _fun00001 }
- 101:
-            if(!tangon) { _fun00002_ip = 107; continue _fun00001 }
- 104:
-            if(zuuluu) { _fun00002_ip = 224; continue _fun00001 }
- 107:
-            tangon = _closure1_slot0;
-            report = _closure1_slot2;
-            zuuluu = 3;
-            zuuluu = report[zuuluu];
-            oscard = tangon.bind(entity)(zuuluu);
-            zuuluu = 2;
-            tangon = report[zuuluu];
-            zuuluu = report.paths;
-            option = oscard.bind(entity)(tangon, zuuluu);
-            tangon = _closure1_slot1;
-            zuuluu = 4;
-            zuuluu = report[zuuluu];
-            oscard = tangon.bind(entity)(zuuluu);
+            tangon = report.bind(entity)(tangon);
+            report = tangon.IgnoreProfileSpeedbumpDisabled;
+            tangon = report.getSetting;
+            tangon = tangon.bind(report)();
+            report = michal.ignoreBlockedSpeedBump;
+            if(report) { _fun00002_ip = 253; continue _fun00001 }
+ 73:
+            golfie = _closure1_slot3;
+            oscard = golfie.isBlocked;
+            report = michal.userId;
+            offset = oscard.bind(golfie)(report);
+            oscard = golfie.isIgnored;
+            report = michal.userId;
+            report = oscard.bind(golfie)(report);
+            if(report) { _fun00002_ip = 118; continue _fun00001 }
+ 112:
+            if(!offset) { _fun00002_ip = 253; continue _fun00001 }
+ 118:
+            if(!report) { _fun00002_ip = 127; continue _fun00001 }
+ 121:
+            if(tangon) { _fun00002_ip = 253; continue _fun00001 }
+ 127:
+            report = _closure1_slot0;
+            oscard = _closure1_slot2;
+            tangon = 3;
+            tangon = oscard[tangon];
+            golfie = report.bind(entity)(tangon);
+            tangon = 2;
+            report = oscard[tangon];
+            tangon = oscard.paths;
+            verify = golfie.bind(entity)(report, tangon);
+            report = _closure1_slot1;
+            tangon = 4;
+            tangon = oscard[tangon];
+            golfie = report.bind(entity)(tangon);
+            oscard = golfie.openLazy;
+            report = _closure1_slot5;
+            tangon = michal.userId;
+            report = report.bind(entity)(tangon);
+            tangon = {};
+            kiloes = tangon;
+            backup = michal;
+            yankee = copyDataProperties(kiloes, backup);
+            yankee = 'ignore';
+            if(!offset) { _fun00002_ip = 224; continue _fun00001 }
+ 220:
+            yankee = 'block';
+ 224:
+            offset = 'speedBumpType';
+            tangon[offset] = yankee;
+            offset = 'openedAt';
+            tangon[offset] = option;
+            tangon = oscard.bind(golfie)(verify, report, tangon);
+            tangon = undefined;
+            return tangon;
+ 253:
+            report = _closure1_slot0;
+            oscard = _closure1_slot2;
+            tangon = 3;
+            tangon = oscard[tangon];
+            golfie = report.bind(entity)(tangon);
+            tangon = 5;
+            report = oscard[tangon];
+            tangon = oscard.paths;
+            golfie = golfie.bind(entity)(report, tangon);
+            report = _closure1_slot1;
+            tangon = 4;
+            tangon = oscard[tangon];
+            oscard = report.bind(entity)(tangon);
             report = oscard.openLazy;
-            tangon = _closure1_slot5;
-            zuuluu = golfie.userId;
+            tangon = _closure1_slot4;
+            zuuluu = michal.userId;
             tangon = tangon.bind(entity)(zuuluu);
             zuuluu = {};
-            backup = zuuluu;
-            foxtra = golfie;
-            offset = copyDataProperties(backup, foxtra);
-            offset = 'ignore';
-            if(!verify) { _fun00002_ip = 204; continue _fun00001 }
- 200:
-            offset = 'block';
- 204:
-            verify = 'speedBumpType';
-            zuuluu[verify] = offset;
-            zuuluu = report.bind(oscard)(option, tangon, zuuluu);
-            zuuluu = undefined;
-            return zuuluu;
- 224:
-            tangon = _closure1_slot0;
-            report = _closure1_slot2;
-            zuuluu = 3;
-            zuuluu = report[zuuluu];
-            oscard = tangon.bind(entity)(zuuluu);
-            zuuluu = 5;
-            tangon = report[zuuluu];
-            zuuluu = report.paths;
-            oscard = oscard.bind(entity)(tangon, zuuluu);
-            tangon = _closure1_slot1;
-            zuuluu = 4;
-            zuuluu = report[zuuluu];
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.openLazy;
-            zuuluu = _closure1_slot4;
-            michal = golfie.userId;
-            foxtra = zuuluu.bind(entity)(michal);
-            yankee = 'replaceAll';
-            kiloes = report;
-            backup = oscard;
-            romeon = golfie;
-            michal = kiloes[tangon](backup, foxtra, romeon, yankee, offset);
+            kiloes = zuuluu;
+            backup = michal;
+            michal = copyDataProperties(kiloes, backup);
+            michal = 'openedAt';
+            zuuluu[michal] = option;
+            romeon = 'replaceAll';
+            sizing = oscard;
+            kiloes = golfie;
+            backup = tangon;
+            foxtra = zuuluu;
+            michal = sizing[report](kiloes, backup, foxtra, romeon, yankee);
             return entity;
         }
     };

@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot4 = michal;
+    var _closure1_slot5 = michal;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -57,8 +57,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = 1;
     report = golfie[report];
     report = oscard.bind(entity)(report);
-    report = report.RowType;
-    var _closure1_slot3 = report;
+    option = report.RowType;
+    var _closure1_slot3 = option;
+    report = report.SeparatorType;
+    var _closure1_slot4 = report;
     report = 4;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
@@ -90,17 +92,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = function(argFoo) {
                         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-                            michal = argFoo;
-                            zuuluu = michal.type;
+                            zuuluu = argFoo;
+                            tangon = zuuluu.type;
                             entity = _closure1_slot3;
                             entity = entity.SEPARATOR;
-                            entity = zuuluu === entity;
-                            if(!entity) { _fun00010_ip = 40; continue _fun00009 }
+                            entity = tangon === entity;
+                            if(!entity) { _fun00010_ip = 47; continue _fun00009 }
  28:
-                            zuuluu = michal.scrollTo;
-                            michal = null;
-                            entity = michal != zuuluu;
- 40:
+                            zuuluu = zuuluu.id;
+                            michal = _closure1_slot4;
+                            michal = michal.UNREAD;
+                            entity = zuuluu === michal;
+ 47:
                             return entity;
                         }
                     };
@@ -124,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = undefined;
             if(!michal) { _fun00006_ip = 272; continue _fun00005 }
  99:
-            michal = _closure1_slot4;
+            michal = _closure1_slot5;
             kiloes = michal.bind(offset)(yankee, backup);
             michal = report != kiloes;
             entity = undefined;
@@ -175,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = undefined;
             if(!golfie) { _fun00006_ip = 352; continue _fun00005 }
  285:
-            golfie = _closure1_slot4;
+            golfie = _closure1_slot5;
             golfie = golfie.bind(offset)(yankee, verify);
             report = report != golfie;
             michal = undefined;

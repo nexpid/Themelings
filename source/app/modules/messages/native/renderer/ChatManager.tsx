@@ -538,7 +538,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = new Array(0);
                 entity = zuuluu._messages;
                 backup = null;
-                if(!(backup != entity)) { _fun00020_ip = 1424; continue _fun00019 }
+                if(!(backup != entity)) { _fun00020_ip = 1384; continue _fun00019 }
  22:
                 entity = zuuluu._rows;
                 entity = entity.length;
@@ -565,7 +565,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = undefined;
                 report = undefined;
                 michal = undefined;
-                if(!entity) { _fun00020_ip = 1403; continue _fun00019 }
+                if(!entity) { _fun00020_ip = 1363; continue _fun00019 }
  95:
                 entity = zuuluu.rows;
                 entity = entity.length;
@@ -587,7 +587,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 result = oscard;
                 output = report;
                 sizing = michal;
-                _fun00020_ip = 1319; continue _fun00019;
+                _fun00020_ip = 1279; continue _fun00019;
  177:
                 entity = zuuluu._rows;
                 entity = entity.length;
@@ -610,7 +610,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 result = oscard;
                 output = report;
                 sizing = michal;
-                _fun00020_ip = 1319; continue _fun00019;
+                _fun00020_ip = 1279; continue _fun00019;
  270:
                 entity = zuuluu._rows;
                 vacuum = entity[golfie];
@@ -639,7 +639,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 result = vacuum;
                 output = entity;
                 sizing = michal;
-                _fun00020_ip = 1319; continue _fun00019;
+                _fun00020_ip = 1279; continue _fun00019;
  386:
                 record = vacuum.type;
                 sequen = _closure1_slot5;
@@ -675,11 +675,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 result = vacuum;
                 output = entity;
                 sizing = michal;
-                _fun00020_ip = 1319; continue _fun00019;
+                _fun00020_ip = 1279; continue _fun00019;
  522:
                 record = entity.type;
                 sequen = vacuum.type;
-                if(!(record === sequen)) { _fun00020_ip = 1161; continue _fun00019 }
+                if(!(record === sequen)) { _fun00020_ip = 1121; continue _fun00019 }
  539:
                 record = entity.type;
                 sequen = _closure1_slot5;
@@ -688,7 +688,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  558:
                 record = entity.id;
                 sequen = vacuum.id;
-                if(!(record === sequen)) { _fun00020_ip = 1161; continue _fun00019 }
+                if(!(record === sequen)) { _fun00020_ip = 1121; continue _fun00019 }
  575:
                 record = entity.type;
                 sequen = _closure1_slot5;
@@ -697,7 +697,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  594:
                 record = entity.id;
                 sequen = vacuum.id;
-                if(!(record === sequen)) { _fun00020_ip = 1161; continue _fun00019 }
+                if(!(record === sequen)) { _fun00020_ip = 1121; continue _fun00019 }
  611:
                 record = entity.type;
                 sequen = _closure1_slot5;
@@ -720,104 +720,93 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 record = sequen.nonce;
                 sequen = vacuum.message;
                 sequen = sequen.id;
-                if(!(record === sequen)) { _fun00020_ip = 1161; continue _fun00019 }
+                if(!(record === sequen)) { _fun00020_ip = 1121; continue _fun00019 }
  700:
                 record = entity.changeType;
                 sequen = _closure1_slot4;
                 sequen = sequen.NOOP;
                 status = yankee;
                 target = offset;
-                if(!(record === sequen)) { _fun00020_ip = 1047; continue _fun00019 }
+                if(!(record === sequen)) { _fun00020_ip = 1007; continue _fun00019 }
  729:
                 record = entity.type;
                 sequen = _closure1_slot5;
                 sequen = sequen.SEPARATOR;
-                if(!(record === sequen)) { _fun00020_ip = 796; continue _fun00019 }
+                if(!(record === sequen)) { _fun00020_ip = 771; continue _fun00019 }
  748:
                 record = entity.text;
                 sequen = vacuum.text;
                 papara = yankee;
                 cntext = offset;
-                if(!(record === sequen)) { _fun00020_ip = 1096; continue _fun00019 }
+                if(!(record === sequen)) { _fun00020_ip = 1056; continue _fun00019 }
  771:
-                record = entity.scrollTo;
-                sequen = vacuum.scrollTo;
-                papara = yankee;
-                cntext = offset;
-                if(!(record === sequen)) { _fun00020_ip = 1096; continue _fun00019 }
- 796:
                 record = entity.type;
                 sequen = _closure1_slot5;
                 sequen = sequen.LOADING;
-                if(!(record === sequen)) { _fun00020_ip = 840; continue _fun00019 }
- 815:
+                if(!(record === sequen)) { _fun00020_ip = 815; continue _fun00019 }
+ 790:
                 record = entity.isLoading;
                 sequen = vacuum.isLoading;
                 papara = yankee;
                 cntext = offset;
-                if(!(record === sequen)) { _fun00020_ip = 1096; continue _fun00019 }
- 840:
+                if(!(record === sequen)) { _fun00020_ip = 1056; continue _fun00019 }
+ 815:
                 record = entity.type;
                 sequen = _closure1_slot5;
                 sequen = sequen.BLOCKED_GROUP;
-                if(!(record !== sequen)) { _fun00020_ip = 878; continue _fun00019 }
- 859:
+                if(!(record !== sequen)) { _fun00020_ip = 853; continue _fun00019 }
+ 834:
                 record = entity.type;
                 sequen = _closure1_slot5;
                 sequen = sequen.IGNORED_GROUP;
-                if(!(record === sequen)) { _fun00020_ip = 926; continue _fun00019 }
- 878:
+                if(!(record === sequen)) { _fun00020_ip = 901; continue _fun00019 }
+ 853:
                 record = entity.text;
                 sequen = vacuum.text;
                 papara = yankee;
                 cntext = offset;
-                if(!(record === sequen)) { _fun00020_ip = 1096; continue _fun00019 }
- 901:
+                if(!(record === sequen)) { _fun00020_ip = 1056; continue _fun00019 }
+ 876:
                 record = entity.revealed;
                 sequen = vacuum.revealed;
                 papara = yankee;
                 cntext = offset;
-                if(!(record === sequen)) { _fun00020_ip = 1096; continue _fun00019 }
- 926:
+                if(!(record === sequen)) { _fun00020_ip = 1056; continue _fun00019 }
+ 901:
                 record = entity.type;
                 sequen = _closure1_slot5;
                 sequen = sequen.MESSAGE;
-                if(!(record === sequen)) { _fun00020_ip = 991; continue _fun00019 }
- 945:
+                if(!(record === sequen)) { _fun00020_ip = 951; continue _fun00019 }
+ 920:
                 record = entity.separatorBefore;
                 sequen = vacuum.separatorBefore;
-                if(!(record !== sequen)) { _fun00020_ip = 976; continue _fun00019 }
- 961:
+                if(!(record !== sequen)) { _fun00020_ip = 951; continue _fun00019 }
+ 936:
                 sequen = zuuluu.maybeRemove;
                 papara = yankee;
                 cntext = offset;
-                if(!sequen) { _fun00020_ip = 1096; continue _fun00019 }
- 976:
-                sequen = entity.jumped;
-                papara = yankee;
-                cntext = offset;
-                if(sequen) { _fun00020_ip = 1096; continue _fun00019 }
- 991:
+                if(!sequen) { _fun00020_ip = 1056; continue _fun00019 }
+ 951:
                 limora = entity.message;
                 sequen = backup == limora;
                 record = undefined;
-                if(sequen) { _fun00020_ip = 1011; continue _fun00019 }
- 1005:
+                if(sequen) { _fun00020_ip = 971; continue _fun00019 }
+ 965:
                 record = limora.isFirst;
- 1011:
+ 971:
                 sierra = vacuum.message;
                 whisks = backup == sierra;
                 sequen = undefined;
-                if(whisks) { _fun00020_ip = 1031; continue _fun00019 }
- 1025:
+                if(whisks) { _fun00020_ip = 991; continue _fun00019 }
+ 985:
                 sequen = sierra.isFirst;
- 1031:
+ 991:
                 status = limora;
                 target = sierra;
                 papara = status;
                 cntext = target;
-                if(!(record === sequen)) { _fun00020_ip = 1096; continue _fun00019 }
- 1047:
+                if(!(record === sequen)) { _fun00020_ip = 1056; continue _fun00019 }
+ 1007:
                 sequen = verify + option;
                 entity['index'] = sequen;
                 sequen = tangon.push;
@@ -830,8 +819,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 result = vacuum;
                 output = entity;
                 sizing = michal;
-                _fun00020_ip = 1319; continue _fun00019;
- 1096:
+                _fun00020_ip = 1279; continue _fun00019;
+ 1056:
                 sequen = _closure1_slot4;
                 sequen = sequen.UPDATE;
                 entity['changeType'] = sequen;
@@ -847,8 +836,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 result = vacuum;
                 output = entity;
                 sizing = michal;
-                _fun00020_ip = 1319; continue _fun00019;
- 1161:
+                _fun00020_ip = 1279; continue _fun00019;
+ 1121:
                 record = tangon.push;
                 sequen = {};
                 cntext = _closure1_slot4;
@@ -858,8 +847,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 sequen['index'] = cntext;
                 sequen = record.bind(tangon)(sequen);
                 sequen = verify + option;
-                if(!(sequen > foxtra)) { _fun00020_ip = 1295; continue _fun00019 }
- 1204:
+                if(!(sequen > foxtra)) { _fun00020_ip = 1255; continue _fun00019 }
+ 1164:
                 record = verify + option;
                 sequen = 1;
                 sequen = record - sequen;
@@ -868,25 +857,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 record = _closure1_slot4;
                 record = record.NOOP;
                 record = cntext !== record;
-                if(record) { _fun00020_ip = 1261; continue _fun00019 }
- 1242:
+                if(record) { _fun00020_ip = 1221; continue _fun00019 }
+ 1202:
                 papara = sequen.type;
                 cntext = _closure1_slot5;
                 cntext = cntext.MESSAGE;
                 record = papara !== cntext;
- 1261:
-                if(record) { _fun00020_ip = 1270; continue _fun00019 }
- 1264:
+ 1221:
+                if(record) { _fun00020_ip = 1230; continue _fun00019 }
+ 1224:
                 record = zuuluu.maybeRemove;
- 1270:
+ 1230:
                 michal = sequen;
-                if(record) { _fun00020_ip = 1295; continue _fun00019 }
- 1276:
+                if(record) { _fun00020_ip = 1255; continue _fun00019 }
+ 1236:
                 config = _closure1_slot4;
                 config = config.UPDATE;
                 sequen['changeType'] = config;
                 michal = sequen;
- 1295:
+ 1255:
                 echoed = golfie + 1;
                 update = option + 1;
                 sizing = michal;
@@ -895,7 +884,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 kiloes = verify;
                 result = vacuum;
                 output = entity;
- 1319:
+ 1279:
                 entity = zuuluu._rows;
                 entity = entity.length;
                 yankee = ctrled;
@@ -907,7 +896,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = output;
                 michal = sizing;
                 if(echoed < entity) { _fun00020_ip = 95; continue _fun00019 }
- 1361:
+ 1321:
                 entity = zuuluu.rows;
                 entity = entity.length;
                 yankee = ctrled;
@@ -919,7 +908,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = sizing;
                 verify = kiloes;
                 if(verify < entity) { _fun00020_ip = 95; continue _fun00019 }
- 1403:
+ 1363:
                 michal = tangon.filter;
                 entity = function(argFoo) {
                     entity = argFoo;
@@ -930,10 +919,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 };
                 entity = michal.bind(tangon)(entity);
-                _fun00020_ip = 1430; continue _fun00019;
- 1424:
+                _fun00020_ip = 1390; continue _fun00019;
+ 1384:
                 entity = zuuluu.rows;
- 1430:
+ 1390:
                 michal = zuuluu.messages;
                 zuuluu['_messages'] = michal;
                 michal = zuuluu.rows;

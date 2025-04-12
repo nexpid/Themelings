@@ -38,91 +38,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot9 = michal;
+            _closure1_slot7 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
+    };
+    var _closure1_slot7 = entity;
+    entity = function() { // Original name: updateIOSExperiments
+        entity = undefined;
+        return entity;
+    };
+    var _closure1_slot8 = entity;
+    entity = function() { // Original name: updateAndroidExperiments
+        entity = undefined;
+        return entity;
     };
     var _closure1_slot9 = entity;
-    entity = function() { // Original name: isScrollExperimentEnabled
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
- 0:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 7;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            entity = tangon.bind(entity)(zuuluu);
-            tangon = entity.ScrollRefactorExperiment;
-            zuuluu = tangon.getCurrentConfig;
-            entity = {};
-            report = 'NativeExperimentBridgeManager';
-            entity['location'] = report;
-            entity = zuuluu.bind(tangon)(entity);
-            zuuluu = entity.enabled;
-            tangon = entity.showDebug;
-            entity = zuuluu;
-            if(!tangon) { _fun00004_ip = 96; continue _fun00003 }
- 71:
-            michal = _closure1_slot8;
-            michal = michal.chatScrollRefactorEnabled;
-            tangon = !michal;
-            michal = !tangon;
-            if(tangon) { _fun00004_ip = 93; continue _fun00003 }
- 90:
-            michal = zuuluu;
- 93:
-            entity = michal;
- 96:
-            return entity;
-        }
-    };
-    var _closure1_slot10 = entity;
-    entity = function() { // Original name: updateIOSExperiments
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
- 0:
-            michal = _closure1_slot7;
-            zuuluu = michal.NSUserDefaultsBridge;
-            michal = null;
-            if(!(michal != zuuluu)) { _fun00006_ip = 42; continue _fun00005 }
- 19:
-            michal = zuuluu.setScrollRefactorExperimentEnabled;
-            tangon = _closure1_slot10;
-            entity = undefined;
-            entity = tangon.bind(entity)();
-            entity = michal.bind(zuuluu)(entity);
- 42:
-            entity = undefined;
-            return entity;
-        }
-    };
-    var _closure1_slot11 = entity;
-    entity = function() { // Original name: updateAndroidExperiments
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
- 0:
-            michal = _closure1_slot7;
-            tangon = michal.NativeCacheModule;
-            michal = null;
-            if(!(michal != tangon)) { _fun00008_ip = 58; continue _fun00007 }
- 19:
-            zuuluu = tangon.setItem;
-            michal = _closure1_slot10;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            michal = 'false';
-            if(!entity) { _fun00008_ip = 46; continue _fun00007 }
- 42:
-            michal = 'true';
- 46:
-            entity = 'scrollToRefactorExperimentEnabled';
-            entity = zuuluu.bind(tangon)(entity, michal);
- 58:
-            entity = undefined;
-            return entity;
-        }
-    };
-    var _closure1_slot12 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -152,21 +84,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot6 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.NativeModules;
-    var _closure1_slot7 = tangon;
     tangon = 6;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot8 = tangon;
-    tangon = 9;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
         zuuluu = function(argFoo) { // Original name: NativeExperimentBridgeManager
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 tangon = this;
                 foxtra = 0;
@@ -183,13 +106,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot5;
                 verify = entity.bind(report)(michal);
                 michal = _closure1_slot4;
-                entity = _closure1_slot9;
+                entity = _closure1_slot7;
                 entity = entity.bind(report)();
-                if(entity) { _fun00010_ip = 84; continue _fun00009 }
+                if(entity) { _fun00004_ip = 84; continue _fun00003 }
  71:
                 entity = verify.apply;
                 entity = entity.bind(verify)(tangon, offset);
-                _fun00010_ip = 118; continue _fun00009;
+                _fun00004_ip = 118; continue _fun00003;
  84:
                 oscard = global;
                 option = oscard.Reflect;
@@ -202,12 +125,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = michal.bind(report)(tangon, entity);
                 tangon = _closure1_slot0;
                 michal = _closure1_slot1;
-                oscard = 8;
+                oscard = 5;
                 michal = michal[oscard];
                 tangon = tangon.bind(report)(michal);
                 michal = tangon.isIOS;
                 michal = michal.bind(tangon)();
-                if(michal) { _fun00010_ip = 203; continue _fun00009 }
+                if(michal) { _fun00004_ip = 203; continue _fun00003 }
  157:
                 tangon = _closure1_slot0;
                 michal = _closure1_slot1;
@@ -215,26 +138,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = tangon.bind(report)(michal);
                 michal = tangon.isAndroid;
                 michal = michal.bind(tangon)();
-                if(michal) { _fun00010_ip = 197; continue _fun00009 }
+                if(michal) { _fun00004_ip = 197; continue _fun00003 }
  186:
                 michal = function() {
                     entity = undefined;
                     return entity;
                 };
-                _fun00010_ip = 201; continue _fun00009;
+                _fun00004_ip = 201; continue _fun00003;
  197:
-                michal = _closure1_slot12;
+                michal = _closure1_slot9;
  201:
-                _fun00010_ip = 207; continue _fun00009;
+                _fun00004_ip = 207; continue _fun00003;
  203:
-                michal = _closure1_slot11;
+                michal = _closure1_slot8;
  207:
                 entity['handleUpdate'] = michal;
                 michal = {};
                 zuuluu = entity.handleUpdate;
                 michal['POST_CONNECTION_OPEN'] = zuuluu;
-                zuuluu = entity.handleUpdate;
-                michal['UNSYNCED_USER_SETTINGS_UPDATE'] = zuuluu;
                 entity['actions'] = michal;
                 return entity;
             }
@@ -254,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = tangon;
     michal = new foxtra[michal](romeon);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 10;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
