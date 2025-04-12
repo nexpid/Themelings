@@ -1415,12 +1415,6 @@
     "midnight": "#c269c3",
     "darker": "#c269c3"
   },
-  "PROFILE_GRADIENT_MESSAGE_INPUT_BORDER": {
-    "dark": "#4e50587a",
-    "light": "#6d6f783d",
-    "midnight": "#4e50587a",
-    "darker": "#4e50587a"
-  },
   "PROFILE_GRADIENT_NOTE_BACKGROUND": {
     "dark": "#0000004d",
     "light": "#ffffff4d",
@@ -1438,12 +1432,6 @@
     "light": "#ffffffcc",
     "midnight": "#000000cc",
     "darker": "#000000cc"
-  },
-  "PROFILE_GRADIENT_PROFILE_BODY_BACKGROUND_HOVER": {
-    "dark": "#ffffff29",
-    "light": "#00000014",
-    "midnight": "#ffffff29",
-    "darker": "#ffffff29"
   },
   "PROFILE_GRADIENT_ROLE_PILL_BACKGROUND": {
     "dark": "#23242880",
@@ -2087,11 +2075,41 @@
     "midnight": "#000000",
     "darker": "#1c1d23"
   },
+  "USER_PROFILE_BACKGROUND_HOVER": {
+    "dark": "#4e50584d",
+    "light": "#80848e29",
+    "midnight": "#4d505b4d",
+    "darker": "#4d505b4d"
+  },
+  "USER_PROFILE_BORDER": {
+    "dark": "#ffffff14",
+    "light": "#00000014",
+    "midnight": "#6c6f7c24",
+    "darker": "#6c6f7c1f"
+  },
   "USER_PROFILE_HEADER_OVERFLOW_BACKGROUND": {
     "dark": "#1e1f2280",
     "light": "#ffffff80",
     "midnight": "#1c1d2380",
     "darker": "#1c1d2380"
+  },
+  "USER_PROFILE_NOTE_BACKGROUND_FOCUS": {
+    "dark": "#1e1f22",
+    "light": "#e3e5e8",
+    "midnight": "#212229",
+    "darker": "#31323b"
+  },
+  "USER_PROFILE_OVERLAY_BACKGROUND": {
+    "dark": "#111214",
+    "light": "#ffffff",
+    "midnight": "#131318",
+    "darker": "#26272f"
+  },
+  "USER_PROFILE_OVERLAY_BACKGROUND_HOVER": {
+    "dark": "#4e50584d",
+    "light": "#80848e29",
+    "midnight": "#4d505b4d",
+    "darker": "#4d505b4d"
   },
   "VOICE_VIDEO_VIDEO_TILE_BACKGROUND": {
     "dark": "#2c2d3566",

@@ -7079,36 +7079,6 @@
       }
     ]
   },
-  "PROFILE_GRADIENT_MESSAGE_INPUT_BORDER": {
-    "dark": [
-      "#4e50587a",
-      {
-        "raw": "PRIMARY_500",
-        "opacity": 0.48
-      }
-    ],
-    "light": [
-      "#6d6f783d",
-      {
-        "raw": "PRIMARY_430",
-        "opacity": 0.24
-      }
-    ],
-    "midnight": [
-      "#4e50587a",
-      {
-        "raw": "PRIMARY_500",
-        "opacity": 0.48
-      }
-    ],
-    "darker": [
-      "#4e50587a",
-      {
-        "raw": "PRIMARY_500",
-        "opacity": 0.48
-      }
-    ]
-  },
   "PROFILE_GRADIENT_NOTE_BACKGROUND": {
     "dark": [
       "#0000004d",
@@ -7196,36 +7166,6 @@
       {
         "raw": "BLACK",
         "opacity": 0.8
-      }
-    ]
-  },
-  "PROFILE_GRADIENT_PROFILE_BODY_BACKGROUND_HOVER": {
-    "dark": [
-      "#ffffff29",
-      {
-        "raw": "WHITE",
-        "opacity": 0.16
-      }
-    ],
-    "light": [
-      "#00000014",
-      {
-        "raw": "BLACK",
-        "opacity": 0.08
-      }
-    ],
-    "midnight": [
-      "#ffffff29",
-      {
-        "raw": "WHITE",
-        "opacity": 0.16
-      }
-    ],
-    "darker": [
-      "#ffffff29",
-      {
-        "raw": "WHITE",
-        "opacity": 0.16
       }
     ]
   },
@@ -10439,6 +10379,66 @@
       }
     ]
   },
+  "USER_PROFILE_BACKGROUND_HOVER": {
+    "dark": [
+      "#4e50584d",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 0.3
+      }
+    ],
+    "light": [
+      "#80848e29",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 0.16
+      }
+    ],
+    "midnight": [
+      "#4d505b4d",
+      {
+        "raw": "PLUM_13",
+        "opacity": 0.3
+      }
+    ],
+    "darker": [
+      "#4d505b4d",
+      {
+        "raw": "PLUM_13",
+        "opacity": 0.3
+      }
+    ]
+  },
+  "USER_PROFILE_BORDER": {
+    "dark": [
+      "#ffffff14",
+      {
+        "raw": "WHITE",
+        "opacity": 0.08
+      }
+    ],
+    "light": [
+      "#00000014",
+      {
+        "raw": "BLACK",
+        "opacity": 0.08
+      }
+    ],
+    "midnight": [
+      "#6c6f7c24",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.14
+      }
+    ],
+    "darker": [
+      "#6c6f7c1f",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.12
+      }
+    ]
+  },
   "USER_PROFILE_HEADER_OVERFLOW_BACKGROUND": {
     "dark": [
       "#1e1f2280",
@@ -10466,6 +10466,96 @@
       {
         "raw": "PLUM_20",
         "opacity": 0.5
+      }
+    ]
+  },
+  "USER_PROFILE_NOTE_BACKGROUND_FOCUS": {
+    "dark": [
+      "#1e1f22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#e3e5e8",
+      {
+        "raw": "PRIMARY_200",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#212229",
+      {
+        "raw": "PLUM_19",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#31323b",
+      {
+        "raw": "PLUM_16",
+        "opacity": 1
+      }
+    ]
+  },
+  "USER_PROFILE_OVERLAY_BACKGROUND": {
+    "dark": [
+      "#111214",
+      {
+        "raw": "PRIMARY_800",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#ffffff",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#131318",
+      {
+        "raw": "PLUM_23",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#26272f",
+      {
+        "raw": "PLUM_18",
+        "opacity": 1
+      }
+    ]
+  },
+  "USER_PROFILE_OVERLAY_BACKGROUND_HOVER": {
+    "dark": [
+      "#4e50584d",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 0.3
+      }
+    ],
+    "light": [
+      "#80848e29",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 0.16
+      }
+    ],
+    "midnight": [
+      "#4d505b4d",
+      {
+        "raw": "PLUM_13",
+        "opacity": 0.3
+      }
+    ],
+    "darker": [
+      "#4d505b4d",
+      {
+        "raw": "PLUM_13",
+        "opacity": 0.3
       }
     ]
   },
