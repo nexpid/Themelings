@@ -937,6 +937,105 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         }
     };
     zuuluu['useGetSnowflakeBoundDismissibleContent'] = tangon;
+    tangon = function(argFoo, argBar, argBaz, argCor, argGra) { // Original name: useGetTimeReccuringSnowflakeBoundDismissibleContent
+        _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
+ 0:
+            entity = argFoo;
+            oscard = argBaz;
+            option = argCor;
+            var _closure2_slot0 = oscard;
+            var _closure2_slot1 = option;
+            golfie = _closure1_slot0;
+            report = _closure1_slot2;
+            tangon = 6;
+            tangon = report[tangon];
+            report = undefined;
+            offset = golfie.bind(report)(tangon);
+            verify = offset.useStateFromStores;
+            tangon = _closure1_slot5;
+            golfie = new Array(1);
+            golfie[0] = tangon;
+            tangon = function() {
+                michal = _closure1_slot5;
+                entity = michal.getGuildId;
+                entity = entity.bind(michal)();
+                return entity;
+            };
+            golfie = verify.bind(offset)(golfie, tangon);
+            var _closure2_slot2 = golfie;
+            verify = null;
+            var _closure2_slot3 = verify;
+            tangon = verify == entity;
+            if(tangon) { _fun00038_ip = 125; continue _fun00037 }
+ 89:
+            yankee = _closure1_slot0;
+            romeon = _closure1_slot2;
+            offset = 7;
+            offset = romeon[offset];
+            romeon = yankee.bind(report)(offset);
+            yankee = romeon.isTimeRecurringSnowflakeBoundDismissibleContentDismissed;
+            offset = argBar;
+            tangon = yankee.bind(romeon)(entity, oscard, offset);
+ 125:
+            verify = null;
+            if(tangon) { _fun00038_ip = 137; continue _fun00037 }
+ 130:
+            _closure2_slot3 = entity;
+            verify = entity;
+ 137:
+            tangon = _closure1_slot10;
+            foxtra = argGra;
+            output = undefined;
+            sizing = verify;
+            kiloes = golfie;
+            backup = option;
+            tangon = output[tangon](sizing, kiloes, backup, foxtra, romeon);
+            entity = new Array(2);
+            entity[0] = tangon;
+            report = _closure1_slot3;
+            tangon = report.useCallback;
+            zuuluu = new Array(4);
+            zuuluu[0] = verify;
+            zuuluu[1] = option;
+            zuuluu[2] = golfie;
+            zuuluu[3] = oscard;
+            michal = function(argFoo, argBar) {
+                _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
+ 0:
+                    michal = _closure2_slot3;
+                    entity = null;
+                    if(!(entity != michal)) { _fun00040_ip = 94; continue _fun00039 }
+ 13:
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    entity = 7;
+                    michal = michal[entity];
+                    entity = undefined;
+                    report = zuuluu.bind(entity)(michal);
+                    tangon = report.markSnowflakeBoundDismissibleContentAsDismissed;
+                    zuuluu = _closure2_slot3;
+                    michal = _closure2_slot0;
+                    entity = {};
+                    golfie = argFoo;
+                    entity['dismissAction'] = golfie;
+                    golfie = _closure2_slot1;
+                    entity['groupName'] = golfie;
+                    oscard = _closure2_slot2;
+                    entity['guildId'] = oscard;
+                    oscard = argBar;
+                    entity['forceTrack'] = oscard;
+                    entity = tangon.bind(report)(zuuluu, michal, entity);
+ 94:
+                    entity = undefined;
+                    return entity;
+                }
+            };
+            michal = tangon.bind(report)(michal, zuuluu);
+            entity[1] = michal;
+            return entity;
+        }
+    };
+    zuuluu['useGetTimeReccuringSnowflakeBoundDismissibleContent'] = tangon;
     michal = function(argFoo) { // Original name: useDangerouslyPeekDismissibleContents
         zuuluu = argFoo;
         oscard = _closure1_slot0;
@@ -950,7 +1049,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         tangon = new Array(1);
         tangon[0] = michal;
         michal = function() {
-            _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
+            _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
  0:
                 entity = _closure1_slot4;
                 entity = entity.settings;
@@ -958,7 +1057,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 entity = null;
                 zuuluu = entity == michal;
                 entity = undefined;
-                if(zuuluu) { _fun00038_ip = 36; continue _fun00037 }
+                if(zuuluu) { _fun00042_ip = 36; continue _fun00041 }
  30:
                 entity = michal.dismissedContents;
  36:
@@ -969,12 +1068,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         var _closure2_slot0 = michal;
         michal = zuuluu.filter;
         entity = function(argFoo) {
-            _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
+            _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
  0:
                 zuuluu = _closure2_slot0;
                 entity = null;
                 entity = entity != zuuluu;
-                if(!entity) { _fun00040_ip = 63; continue _fun00039 }
+                if(!entity) { _fun00044_ip = 63; continue _fun00043 }
  16:
                 report = _closure1_slot0;
                 tangon = _closure1_slot2;

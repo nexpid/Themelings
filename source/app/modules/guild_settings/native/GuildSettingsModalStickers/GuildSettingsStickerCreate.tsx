@@ -1152,7 +1152,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = result.ReactionIcon;
             result = {'size': 'md', 'color': 'text-secondary'};
             source = config.bind(tangon)(source, result);
-            _fun00002_ip = 1888; continue _fun00001;
+            _fun00002_ip = 1892; continue _fun00001;
  1736:
             record = _closure1_slot15;
             config = _closure1_slot1;
@@ -1164,19 +1164,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = {'width': 24, 'height': 24};
             result['fastImageStyle'] = status;
             status = papara.id;
-            if(!(cntext != status)) { _fun00002_ip = 1793; continue _fun00001 }
- 1786:
+            if(!(cntext != status)) { _fun00002_ip = 1797; continue _fun00001 }
+ 1790:
             status = papara.name;
-            _fun00002_ip = 1798; continue _fun00001;
- 1793:
+            _fun00002_ip = 1802; continue _fun00001;
+ 1797:
             status = papara.surrogates;
- 1798:
+ 1802:
             result['name'] = status;
             status = papara.id;
             sierra = cntext != status;
             status = undefined;
-            if(!sierra) { _fun00002_ip = 1877; continue _fun00001 }
- 1816:
+            if(!sierra) { _fun00002_ip = 1881; continue _fun00001 }
+ 1820:
             limora = _closure1_slot1;
             whisks = _closure1_slot2;
             sierra = 29;
@@ -1191,10 +1191,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = _closure1_slot12;
             sierra['size'] = equals;
             status = limora.bind(whisks)(sierra);
- 1877:
+ 1881:
             result['src'] = status;
             source = record.bind(tangon)(config, result);
- 1888:
+ 1892:
             result = new Array(2);
             result[0] = source;
             record = _closure1_slot15;
@@ -1204,8 +1204,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = config.bind(tangon)(source);
             config = source.Text;
             source = {'variant': 'text-md/semibold', 'color': 'input-placeholder-text'};
-            if(!(cntext == papara)) { _fun00002_ip = 1996; continue _fun00001 }
- 1940:
+            if(!(cntext == papara)) { _fun00002_ip = 2000; continue _fun00001 }
+ 1944:
             sierra = _closure1_slot0;
             cntext = _closure1_slot2;
             target = cntext[echoed];
@@ -1217,15 +1217,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = cntext.t;
             cntext = cntext.QTK0TE;
             cntext = target.bind(status)(cntext);
-            _fun00002_ip = 2024; continue _fun00001;
- 1996:
+            _fun00002_ip = 2028; continue _fun00001;
+ 2000:
             status = papara.name;
             papara = global;
             papara = papara.HermesInternal;
             target = papara.concat;
             papara = ':';
             cntext = target.bind(papara)(status, papara);
- 2024:
+ 2028:
             source['children'] = cntext;
             source = record.bind(tangon)(config, source);
             result[1] = source;
@@ -1345,10 +1345,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['text'] = kiloes;
             sizing = backup.bind(tangon)(foxtra);
             kiloes = 'secondary';
-            if(!sizing) { _fun00002_ip = 2479; continue _fun00001 }
- 2475:
-            kiloes = 'primary';
+            if(!sizing) { _fun00002_ip = 2483; continue _fun00001 }
  2479:
+            kiloes = 'primary';
+ 2483:
             offset['variant'] = kiloes;
             backup = backup.bind(tangon)(foxtra);
             backup = !backup;

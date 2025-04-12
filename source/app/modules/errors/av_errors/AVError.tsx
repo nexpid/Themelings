@@ -1,4 +1,4 @@
-// app/modules/errors/AVError.tsx
+// app/modules/errors/av_errors/AVError.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBaz;
     zuuluu = argFre;
@@ -481,7 +481,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = argBar;
     offset = option.bind(entity)(verify);
     verify = offset.fileFinishedImporting;
-    option = 'modules/errors/AVError.tsx';
+    option = 'modules/errors/av_errors/AVError.tsx';
     option = verify.bind(offset)(option);
     zuuluu['AVError'] = golfie;
     zuuluu['AVErrorCategory'] = oscard;

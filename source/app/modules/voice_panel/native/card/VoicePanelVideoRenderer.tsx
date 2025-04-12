@@ -466,6 +466,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = {};
             report['streamId'] = source;
             report['userId'] = record;
+            report['loading'] = offset;
             report['videoSpinnerContext'] = limora;
             report['streamKey'] = update;
             report = output.bind(tangon)(report);
@@ -2908,8 +2909,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = _closure1_slot10;
             backup = _closure1_slot1;
             kiloes = _closure1_slot2;
-            if(offset) { _fun00006_ip = 1527; continue _fun00005 }
- 1490:
+            if(offset) { _fun00006_ip = 1532; continue _fun00005 }
+ 1495:
             verify = kiloes[verify];
             offset = backup.bind(tangon)(verify);
             verify = {};
@@ -2918,8 +2919,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = 'none';
             verify['pointerEvents'] = yankee;
             verify = romeon.bind(tangon)(offset, verify);
-            _fun00006_ip = 1589; continue _fun00005;
- 1527:
+            _fun00006_ip = 1594; continue _fun00005;
+ 1532:
             offset = 22;
             offset = kiloes[offset];
             yankee = backup.bind(tangon)(offset);
@@ -2934,7 +2935,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.BRAND_500;
             offset['color'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 1589:
+ 1594:
             option[1] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

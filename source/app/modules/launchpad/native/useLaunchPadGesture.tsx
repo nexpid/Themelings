@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = golfie;
     var _closure1_slot10 = tangon;
     tangon = {};
-    golfie = 'function useLaunchPadGestureTsx2(event,manager){const{gestureState,State,getWindowDimensionsWorklet,launchPadType,LaunchPadTypes,LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE,LAUNCH_PAD_PULL_TAB_WIDTH,LAUNCH_PAD_PULL_TAB_HIT_SLOP,launchPadPullTabState,LAUNCH_PAD_PULL_TAB_HEIGHT,updaters,LAUNCH_PAD_PULL_TAB_SCALE_FACTOR,launchPadSharedState}=this.__closure;const{active:active,initialLaunchPadPosition:initialLaunchPadPosition,initialTouchX:initialTouchX,initialTouchY:initialTouchY}=gestureState.get();if(event.state!==State.BEGAN||active)return;const currentTouch=event.changedTouches[0];const{x:x,y:y}=currentTouch;const{width:windowWidth}=getWindowDimensionsWorklet();if(currentTouch==null||launchPadType===LaunchPadTypes.GESTURE_EDGE&&initialLaunchPadPosition===0&&initialTouchX<windowWidth-LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE||launchPadType===LaunchPadTypes.DISABLED){manager.fail();return;}if(launchPadType===LaunchPadTypes.PULL_TAB&&initialLaunchPadPosition===0){const inPullTabX=x>windowWidth-LAUNCH_PAD_PULL_TAB_WIDTH-LAUNCH_PAD_PULL_TAB_HIT_SLOP&&x<windowWidth;const inPullTabY=y>launchPadPullTabState.get().position-LAUNCH_PAD_PULL_TAB_HIT_SLOP&&y<launchPadPullTabState.get().position+LAUNCH_PAD_PULL_TAB_HEIGHT+LAUNCH_PAD_PULL_TAB_HIT_SLOP;if(inPullTabX&&inPullTabY){gestureState.set({...gestureState.get(),initialPullTabPosition:launchPadPullTabState.get().position,active:true});updaters.setLaunchPadPullTabScale(LAUNCH_PAD_PULL_TAB_SCALE_FACTOR);updaters.setLaunchPadShown(true);manager.activate();return;}}if(launchPadType!==LaunchPadTypes.PULL_TAB||launchPadType===LaunchPadTypes.PULL_TAB&&initialLaunchPadPosition>0){const horizontalDistance=x-initialTouchX;const verticalDistance=Math.abs(y-initialTouchY);const hasMovedCorrectDirection=launchPadSharedState.get()>0&&horizontalDistance>0||launchPadSharedState.get()<=0&&horizontalDistance<0;if(hasMovedCorrectDirection&&Math.abs(horizontalDistance)>verticalDistance){gestureState.set({...gestureState.get(),active:true});updaters.setLaunchPadShown(true);manager.activate();return;}}manager.fail();}';
+    golfie = 'function useLaunchPadGestureTsx2(event,manager){const{gestureState,State,getWindowDimensionsWorklet,launchPadType,LaunchPadTypes,LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE,LAUNCH_PAD_PULL_TAB_WIDTH,LAUNCH_PAD_PULL_TAB_HIT_SLOP,launchPadPullTabState,LAUNCH_PAD_PULL_TAB_HEIGHT,updaters,LAUNCH_PAD_PULL_TAB_SCALE_FACTOR,launchPadSharedState,MANUAL_ACTIVATION_THRESHOLD}=this.__closure;const{active:active,initialLaunchPadPosition:initialLaunchPadPosition,initialTouchX:initialTouchX,initialTouchY:initialTouchY}=gestureState.get();if(event.state!==State.BEGAN||active)return;const currentTouch=event.changedTouches[0];const{x:x,y:y}=currentTouch;const{width:windowWidth}=getWindowDimensionsWorklet();if(currentTouch==null||launchPadType===LaunchPadTypes.GESTURE_EDGE&&initialLaunchPadPosition===0&&initialTouchX<windowWidth-LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE||launchPadType===LaunchPadTypes.DISABLED){manager.fail();return;}if(launchPadType===LaunchPadTypes.PULL_TAB&&initialLaunchPadPosition===0){const inPullTabX=x>windowWidth-LAUNCH_PAD_PULL_TAB_WIDTH-LAUNCH_PAD_PULL_TAB_HIT_SLOP&&x<windowWidth;const inPullTabY=y>launchPadPullTabState.get().position-LAUNCH_PAD_PULL_TAB_HIT_SLOP&&y<launchPadPullTabState.get().position+LAUNCH_PAD_PULL_TAB_HEIGHT+LAUNCH_PAD_PULL_TAB_HIT_SLOP;if(inPullTabX&&inPullTabY){gestureState.set({...gestureState.get(),initialPullTabPosition:launchPadPullTabState.get().position,active:true});updaters.setLaunchPadPullTabScale(LAUNCH_PAD_PULL_TAB_SCALE_FACTOR);updaters.setLaunchPadShown(true);manager.activate();return;}}if(launchPadType!==LaunchPadTypes.PULL_TAB||launchPadType===LaunchPadTypes.PULL_TAB&&initialLaunchPadPosition>0){const horizontalDistance=x-initialTouchX;const verticalDistance=Math.abs(y-initialTouchY);const hasMovedCorrectDirection=launchPadSharedState.get()>0&&horizontalDistance>0||launchPadSharedState.get()<=0&&horizontalDistance<0;if(hasMovedCorrectDirection&&Math.abs(horizontalDistance)>verticalDistance){if(Math.abs(horizontalDistance)<MANUAL_ACTIVATION_THRESHOLD){return;}gestureState.set({...gestureState.get(),active:true});updaters.setLaunchPadShown(true);manager.activate();return;}}manager.fail();}';
     tangon['code'] = golfie;
     var _closure1_slot11 = tangon;
     tangon = {};
@@ -228,26 +228,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = entity.bind(michal)();
                         oscard = entity.active;
                         verify = entity.initialLaunchPadPosition;
-                        option = entity.initialTouchX;
+                        golfie = entity.initialTouchX;
                         yankee = entity.initialTouchY;
                         offset = report.state;
                         romeon = _closure1_slot0;
-                        golfie = _closure1_slot2;
+                        option = _closure1_slot2;
                         entity = 4;
-                        golfie = golfie[entity];
+                        option = option[entity];
                         entity = undefined;
-                        golfie = romeon.bind(entity)(golfie);
-                        golfie = golfie.State;
-                        golfie = golfie.BEGAN;
-                        if(!(offset === golfie)) { _fun00004_ip = 689; continue _fun00003 }
+                        option = romeon.bind(entity)(option);
+                        option = option.State;
+                        option = option.BEGAN;
+                        if(!(offset === option)) { _fun00004_ip = 715; continue _fun00003 }
  95:
-                        if(oscard) { _fun00004_ip = 689; continue _fun00003 }
+                        if(oscard) { _fun00004_ip = 715; continue _fun00003 }
  101:
                         report = report.changedTouches;
-                        golfie = 0;
-                        foxtra = report[golfie];
+                        oscard = 0;
+                        foxtra = report[oscard];
                         report = foxtra.x;
-                        oscard = foxtra.y;
+                        option = foxtra.y;
                         romeon = _closure1_slot0;
                         backup = _closure1_slot2;
                         offset = 6;
@@ -257,30 +257,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         offset = offset.bind(romeon)();
                         romeon = offset.width;
                         offset = null;
-                        if(!(offset != foxtra)) { _fun00004_ip = 679; continue _fun00003 }
+                        if(!(offset != foxtra)) { _fun00004_ip = 705; continue _fun00003 }
  167:
                         foxtra = _closure2_slot0;
                         offset = _closure1_slot9;
                         offset = offset.GESTURE_EDGE;
                         if(!(foxtra === offset)) { _fun00004_ip = 204; continue _fun00003 }
  185:
-                        if(!(golfie === verify)) { _fun00004_ip = 204; continue _fun00003 }
+                        if(!(oscard === verify)) { _fun00004_ip = 204; continue _fun00003 }
  189:
                         offset = _closure1_slot4;
                         offset = romeon - offset;
-                        if(!(!(option < offset))) { _fun00004_ip = 679; continue _fun00003 }
+                        if(!(!(golfie < offset))) { _fun00004_ip = 705; continue _fun00003 }
  204:
                         foxtra = _closure2_slot0;
                         offset = _closure1_slot9;
                         offset = offset.DISABLED;
-                        if(!(foxtra !== offset)) { _fun00004_ip = 679; continue _fun00003 }
+                        if(!(foxtra !== offset)) { _fun00004_ip = 705; continue _fun00003 }
  225:
                         foxtra = _closure2_slot0;
                         offset = _closure1_slot9;
                         offset = offset.PULL_TAB;
                         if(!(foxtra === offset)) { _fun00004_ip = 348; continue _fun00003 }
  243:
-                        if(!(golfie === verify)) { _fun00004_ip = 348; continue _fun00003 }
+                        if(!(oscard === verify)) { _fun00004_ip = 348; continue _fun00003 }
  247:
                         foxtra = _closure2_slot2;
                         offset = foxtra.get;
@@ -288,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         foxtra = offset.position;
                         offset = _closure1_slot6;
                         offset = foxtra - offset;
-                        offset = oscard > offset;
+                        offset = option > offset;
                         if(!offset) { _fun00004_ip = 318; continue _fun00003 }
  280:
                         backup = _closure2_slot2;
@@ -299,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         backup = backup + foxtra;
                         foxtra = _closure1_slot6;
                         foxtra = backup + foxtra;
-                        offset = oscard < foxtra;
+                        offset = option < foxtra;
  318:
                         foxtra = _closure1_slot8;
                         backup = romeon - foxtra;
@@ -309,7 +309,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  338:
                         if(!(report < romeon)) { _fun00004_ip = 348; continue _fun00003 }
  342:
-                        if(offset) { _fun00004_ip = 565; continue _fun00003 }
+                        if(offset) { _fun00004_ip = 591; continue _fun00003 }
  348:
                         romeon = _closure2_slot0;
                         offset = _closure1_slot9;
@@ -321,37 +321,43 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         offset = offset.PULL_TAB;
                         if(!(romeon === offset)) { _fun00004_ip = 478; continue _fun00003 }
  384:
-                        if(!(verify > golfie)) { _fun00004_ip = 478; continue _fun00003 }
+                        if(!(verify > oscard)) { _fun00004_ip = 478; continue _fun00003 }
  388:
-                        option = report - option;
+                        golfie = report - golfie;
                         report = global;
                         offset = report.Math;
                         verify = offset.abs;
-                        oscard = oscard - yankee;
-                        oscard = verify.bind(offset)(oscard);
+                        option = option - yankee;
+                        option = verify.bind(offset)(option);
                         offset = _closure2_slot1;
                         verify = offset.get;
                         verify = verify.bind(offset)();
-                        if(!(verify > golfie)) { _fun00004_ip = 436; continue _fun00003 }
+                        if(!(verify > oscard)) { _fun00004_ip = 436; continue _fun00003 }
  432:
-                        if(!(!(option > golfie))) { _fun00004_ip = 457; continue _fun00003 }
+                        if(!(!(golfie > oscard))) { _fun00004_ip = 457; continue _fun00003 }
  436:
                         offset = _closure2_slot1;
                         verify = offset.get;
                         verify = verify.bind(offset)();
-                        if(!(verify <= golfie)) { _fun00004_ip = 478; continue _fun00003 }
+                        if(!(verify <= oscard)) { _fun00004_ip = 478; continue _fun00003 }
  453:
-                        if(!(option < golfie)) { _fun00004_ip = 478; continue _fun00003 }
+                        if(!(golfie < oscard)) { _fun00004_ip = 478; continue _fun00003 }
  457:
-                        golfie = report.Math;
-                        report = golfie.abs;
-                        report = report.bind(golfie)(option);
-                        if(!(!(report > oscard))) { _fun00004_ip = 493; continue _fun00003 }
+                        verify = report.Math;
+                        oscard = verify.abs;
+                        oscard = oscard.bind(verify)(golfie);
+                        if(!(!(oscard > option))) { _fun00004_ip = 493; continue _fun00003 }
  478:
-                        report = zuuluu.fail;
-                        report = report.bind(zuuluu)();
-                        _fun00004_ip = 689; continue _fun00003;
+                        oscard = zuuluu.fail;
+                        oscard = oscard.bind(zuuluu)();
+                        _fun00004_ip = 715; continue _fun00003;
  493:
+                        oscard = report.Math;
+                        report = oscard.abs;
+                        oscard = report.bind(oscard)(golfie);
+                        report = 3;
+                        if(!(!(oscard < report))) { _fun00004_ip = 589; continue _fun00003 }
+ 517:
                         option = _closure2_slot3;
                         oscard = option.set;
                         report = {};
@@ -370,7 +376,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = report.bind(zuuluu)();
                         report = undefined;
                         return report;
- 565:
+ 589:
+                        return entity;
+ 591:
                         option = _closure2_slot3;
                         golfie = option.set;
                         oscard = {};
@@ -398,10 +406,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = michal.bind(zuuluu)();
                         michal = undefined;
                         return michal;
- 679:
+ 705:
                         michal = zuuluu.fail;
                         michal = michal.bind(zuuluu)();
- 689:
+ 715:
                         return entity;
                     }
                 };
@@ -435,14 +443,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sizing = _closure1_slot7;
                 romeon['LAUNCH_PAD_PULL_TAB_SCALE_FACTOR'] = sizing;
                 romeon['launchPadSharedState'] = foxtra;
+                sizing = 3;
+                romeon['MANUAL_ACTIVATION_THRESHOLD'] = sizing;
                 michal['__closure'] = romeon;
-                romeon = 9461076312347.0;
+                romeon = 8283215225024.0;
                 michal['__workletHash'] = romeon;
                 romeon = _closure1_slot11;
                 michal['__initData'] = romeon;
                 report = zuuluu.bind(report)(michal);
                 zuuluu = report.onChange;
-                michal = function(argFoo) { // Original name: O
+                michal = function(argFoo) { // Original name: X
                     _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         entity = argFoo;
@@ -611,7 +621,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['__initData'] = romeon;
                 report = zuuluu.bind(report)(michal);
                 zuuluu = report.onEnd;
-                michal = function(argFoo) { // Original name: X
+                michal = function(argFoo) { // Original name: v
                     _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                         entity = argFoo;
@@ -688,7 +698,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['__initData'] = romeon;
                 report = zuuluu.bind(report)(michal);
                 zuuluu = report.onTouchesCancelled;
-                michal = function() { // Original name: E
+                michal = function() { // Original name: O
                     _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                         zuuluu = _closure2_slot3;

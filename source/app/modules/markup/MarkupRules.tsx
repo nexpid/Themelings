@@ -364,6 +364,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     ctrled = verify.mailto;
     vacuum = michal;
     verify = copyDataProperties(vacuum, ctrled);
+    verify = oscard[golfie];
+    kiloes = output.bind(entity)(verify);
+    backup = kiloes.inlineRegex;
+    verify = /^<([^\s<>@]+@[^\s<>@]+\.[^\s<>@]+)>/;
+    verify = backup.bind(kiloes)(verify);
+    michal[romeon] = verify;
     verify = ['<'];
     michal[foxtra] = verify;
     option['mailto'] = michal;

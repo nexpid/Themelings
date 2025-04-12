@@ -318,6 +318,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['saveProfileChanges'] = report;
+    report = function(argFoo, argBar) { // Original name: pinUserProfileBadgesOnClient
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            zuuluu = _closure1_slot4;
+            entity = zuuluu.getCurrentUser;
+            tangon = entity.bind(zuuluu)();
+            zuuluu = null;
+            oscard = zuuluu == tangon;
+            entity = undefined;
+            report = undefined;
+            if(oscard) { _fun00004_ip = 34; continue _fun00003 }
+ 29:
+            report = tangon.id;
+ 34:
+            if(!(zuuluu != report)) { _fun00004_ip = 100; continue _fun00003 }
+ 38:
+            zuuluu = _closure1_slot1;
+            tangon = _closure1_slot2;
+            michal = 7;
+            michal = tangon[michal];
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.dispatch;
+            michal = {};
+            oscard = 'USER_PROFILE_PIN_BADGES_ON_CLIENT';
+            michal['type'] = oscard;
+            oscard = argFoo;
+            michal['badges'] = oscard;
+            oscard = argBar;
+            michal['ttlInSeconds'] = oscard;
+            michal['userId'] = report;
+            michal = zuuluu.bind(tangon)(michal);
+ 100:
+            return entity;
+        }
+    };
+    zuuluu['pinUserProfileBadgesOnClient'] = report;
     report = function() { // Original name: resetPendingProfileChanges
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
@@ -334,27 +370,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['resetPendingProfileChanges'] = report;
     report = function(argFoo) { // Original name: setPendingBannerUrl
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tangon = argFoo;
             zuuluu = null;
             report = zuuluu == tangon;
             entity = undefined;
             oscard = undefined;
-            if(report) { _fun00004_ip = 33; continue _fun00003 }
+            if(report) { _fun00006_ip = 33; continue _fun00005 }
  18:
             golfie = tangon.startsWith;
             report = 'https:';
             oscard = golfie.bind(tangon)(report);
  33:
             report = true;
-            if(!(report !== oscard)) { _fun00004_ip = 57; continue _fun00003 }
+            if(!(report !== oscard)) { _fun00006_ip = 57; continue _fun00005 }
  39:
-            if(!(zuuluu != tangon)) { _fun00004_ip = 115; continue _fun00003 }
+            if(!(zuuluu != tangon)) { _fun00006_ip = 115; continue _fun00005 }
  43:
             zuuluu = _closure1_slot12;
             zuuluu = zuuluu.bind(entity)(tangon);
-            _fun00004_ip = 115; continue _fun00003;
+            _fun00006_ip = 115; continue _fun00005;
  57:
             zuuluu = global;
             zuuluu = zuuluu.fetch;

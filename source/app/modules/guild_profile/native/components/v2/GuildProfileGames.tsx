@@ -247,6 +247,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = offset.bind(report)(zuuluu, tangon);
             offset = report.useCallback;
             tangon = function(argFoo) {
+                report = argFoo;
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
                 entity = 8;
@@ -255,9 +256,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = zuuluu.bind(entity)(michal);
                 zuuluu = tangon.open;
                 michal = {};
-                report = 'profile-game';
-                michal['key'] = report;
-                report = argFoo;
+                option = report.id;
+                oscard = global;
+                oscard = oscard.HermesInternal;
+                golfie = oscard.concat;
+                oscard = 'profile-game-';
+                oscard = golfie.bind(oscard)(option);
+                michal['key'] = oscard;
                 report = report.name;
                 michal['content'] = report;
                 michal = zuuluu.bind(tangon)(michal);

@@ -521,10 +521,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot0 = tangon;
             tangon = entity.message;
             var _closure2_slot1 = tangon;
-            tangon = entity.link_id;
-            var _closure2_slot2 = tangon;
-            entity = entity.referrer_id;
-            var _closure2_slot3 = entity;
+            entity = entity.link_id;
+            var _closure2_slot2 = entity;
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
             report = 7;
@@ -539,10 +537,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie.validateApplication;
             report = zuuluu.application;
             oscard = oscard.bind(golfie)(report);
-            var _closure2_slot4 = oscard;
+            var _closure2_slot3 = oscard;
             report = null;
-            if(!(report != oscard)) { _fun00006_ip = 308; continue _fun00005 }
- 136:
+            if(!(report != oscard)) { _fun00006_ip = 298; continue _fun00005 }
+ 126:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             oscard = 19;
@@ -553,15 +551,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.flags;
             option = report != zuuluu;
             report = 0;
-            if(!option) { _fun00006_ip = 184; continue _fun00005 }
- 181:
+            if(!option) { _fun00006_ip = 174; continue _fun00005 }
+ 171:
             report = zuuluu;
- 184:
+ 174:
             zuuluu = _closure1_slot5;
             zuuluu = zuuluu.EMBEDDED;
             zuuluu = oscard.bind(golfie)(report, zuuluu);
-            if(zuuluu) { _fun00006_ip = 271; continue _fun00005 }
- 203:
+            if(zuuluu) { _fun00006_ip = 261; continue _fun00005 }
+ 193:
             report = _closure1_slot1;
             oscard = _closure1_slot2;
             zuuluu = 16;
@@ -579,7 +577,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = new foxtra[golfie](romeon, yankee, offset);
             zuuluu = zuuluu instanceof Object ? zuuluu : report;
             throw zuuluu;
- 271:
+ 261:
             zuuluu = global;
             report = zuuluu.Promise;
             zuuluu = report.prototype;
@@ -595,15 +593,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = zuuluu.bind(entity)(michal);
                 zuuluu = tangon.openActivityShareLinkModal;
                 michal = {};
-                golfie = _closure2_slot4;
+                golfie = _closure2_slot3;
                 michal['applicationId'] = golfie;
                 golfie = _closure2_slot0;
                 michal['customId'] = golfie;
                 golfie = _closure2_slot2;
                 michal['linkId'] = golfie;
-                golfie = _closure2_slot1;
-                michal['message'] = golfie;
-                oscard = function(argFoo, argBar) { // Original name: onShare
+                oscard = _closure2_slot1;
+                michal['message'] = oscard;
+                report = function(argFoo, argBar) { // Original name: onShare
                     _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                         entity = argFoo;
@@ -623,9 +621,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     }
                 };
-                michal['onShare'] = oscard;
-                report = _closure2_slot3;
-                michal['referrerId'] = report;
+                michal['onShare'] = report;
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
@@ -633,7 +629,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = new foxtra[report](romeon, yankee);
             michal = michal instanceof Object ? michal : zuuluu;
             return michal;
- 308:
+ 298:
             zuuluu = _closure1_slot1;
             report = _closure1_slot2;
             michal = 16;

@@ -216,6 +216,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu['mentionable'] = report;
                 report = tangon.color;
                 zuuluu['color'] = report;
+                report = tangon.colors;
+                zuuluu['colors'] = report;
                 tangon = tangon.hoist;
                 zuuluu['hoist'] = tangon;
                 entity['state'] = zuuluu;
@@ -426,34 +428,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             var _closure5_slot5 = report;
                             report = tangon.color;
                             var _closure5_slot6 = report;
+                            report = tangon.colors;
+                            var _closure5_slot7 = report;
                             tangon = tangon.hoist;
-                            var _closure5_slot7 = tangon;
+                            var _closure5_slot8 = tangon;
                             tangon = zuuluu.props;
                             tangon = tangon.guild;
                             tangon = tangon.id;
-                            var _closure5_slot8 = tangon;
+                            var _closure5_slot9 = tangon;
                             zuuluu = zuuluu.props;
                             zuuluu = zuuluu.role;
                             report = zuuluu.id;
-                            var _closure5_slot9 = report;
+                            var _closure5_slot10 = report;
                             tangon = _closure1_slot18;
                             tangon = tangon.hasRoleConfigurationChanges;
-                            if(!tangon) { _fun00008_ip = 163; continue _fun00007 }
- 141:
+                            if(!tangon) { _fun00008_ip = 172; continue _fun00007 }
+ 150:
                             oscard = _closure1_slot18;
                             golfie = oscard.editedRoleIdsForConfigurations;
                             oscard = golfie.has;
                             tangon = oscard.bind(golfie)(report);
- 163:
-                            if(!tangon) { _fun00008_ip = 194; continue _fun00007 }
- 166:
+ 172:
+                            if(!tangon) { _fun00008_ip = 203; continue _fun00007 }
+ 175:
                             tangon = _closure1_slot18;
                             zuuluu = tangon.getEditedRoleConnectionConfigurationsMap;
                             tangon = zuuluu.bind(tangon)();
                             zuuluu = tangon.get;
                             zuuluu = zuuluu.bind(tangon)(report);
                             var _closure5_slot1 = zuuluu;
- 194:
+ 203:
                             zuuluu = function() { // Original name: success
                                 zuuluu = _closure5_slot2;
                                 entity = zuuluu.pop;
@@ -493,7 +497,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 michal = michal.bind(entity)();
                                 return entity;
                             };
-                            var _closure5_slot10 = zuuluu;
+                            var _closure5_slot11 = zuuluu;
                             zuuluu = function() { // Original name: failure
                                 zuuluu = _closure3_slot0;
                                 michal = zuuluu.setState;
@@ -532,7 +536,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 michal = michal.bind(entity)();
                                 return entity;
                             };
-                            var _closure5_slot11 = zuuluu;
+                            var _closure5_slot12 = zuuluu;
                             tangon = _closure3_slot0;
                             zuuluu = tangon.setState;
                             michal = {};
@@ -546,8 +550,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 michal = undefined;
                                 oscard = tangon.bind(michal)(zuuluu);
                                 report = oscard.updateRole;
-                                tangon = _closure5_slot8;
-                                zuuluu = _closure5_slot9;
+                                tangon = _closure5_slot9;
+                                zuuluu = _closure5_slot10;
                                 michal = {};
                                 option = _closure5_slot3;
                                 michal['name'] = option;
@@ -556,6 +560,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 option = _closure5_slot6;
                                 michal['color'] = option;
                                 option = _closure5_slot7;
+                                michal['colors'] = option;
+                                option = _closure5_slot8;
                                 michal['hoist'] = option;
                                 golfie = _closure5_slot5;
                                 michal['mentionable'] = golfie;
@@ -568,7 +574,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                         michal = null;
                                         if(!(michal == zuuluu)) { _fun00010_ip = 25; continue _fun00009 }
  13:
-                                        zuuluu = _closure5_slot10;
+                                        zuuluu = _closure5_slot11;
                                         michal = undefined;
                                         michal = zuuluu.bind(michal)();
                                         _fun00010_ip = 94; continue _fun00009;
@@ -580,13 +586,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                         michal = undefined;
                                         oscard = tangon.bind(michal)(zuuluu);
                                         report = oscard.putRoleConnectionsConfigurations;
-                                        tangon = _closure5_slot8;
-                                        zuuluu = _closure5_slot9;
+                                        tangon = _closure5_slot9;
+                                        zuuluu = _closure5_slot10;
                                         michal = _closure5_slot1;
                                         tangon = report.bind(oscard)(tangon, zuuluu, michal);
                                         zuuluu = tangon.then;
-                                        michal = _closure5_slot10;
-                                        entity = _closure5_slot11;
+                                        michal = _closure5_slot11;
+                                        entity = _closure5_slot12;
                                         entity = zuuluu.bind(tangon)(michal, entity);
  94:
                                         entity = undefined;
@@ -594,7 +600,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     }
                                 };
                                 entity = function() {
-                                    michal = _closure5_slot11;
+                                    michal = _closure5_slot12;
                                     entity = undefined;
                                     michal = michal.bind(entity)();
                                     return entity;

@@ -1,4 +1,4 @@
-// app/modules/errors/AVErrorAnalytics.tsx
+// app/modules/errors/av_errors/AVErrorAnalytics.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     golfie = argBaz;
@@ -330,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/errors/AVErrorAnalytics.tsx';
+    tangon = 'modules/errors/av_errors/AVErrorAnalytics.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo, argBar) { // Original name: sendAVErrorAnalyticsEvent
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {

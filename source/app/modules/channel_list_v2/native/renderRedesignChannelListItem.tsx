@@ -104,15 +104,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.bind(michal)();
             entity = entity.length;
             zuuluu = 0;
-            if(!(!(entity > zuuluu))) { _fun00006_ip = 73; continue _fun00005 }
+            if(!(!(entity > zuuluu))) { _fun00006_ip = 69; continue _fun00005 }
  44:
             entity = michal.isEmpty;
             entity = entity.bind(michal)();
-            if(!entity) { _fun00006_ip = 73; continue _fun00005 }
+            if(!entity) { _fun00006_ip = 69; continue _fun00005 }
  57:
             entity = {'render': false, 'lastShownChannelActive': false};
             return entity;
- 73:
+ 69:
             entity = michal.getShownChannelIds;
             entity = entity.bind(michal)();
             tangon = entity.length;

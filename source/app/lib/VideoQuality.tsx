@@ -1450,13 +1450,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = function(argFoo, argBar) {
                 _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
  0:
-                    yankee = argFoo;
+                    golfie = argFoo;
                     entity = argBar;
                     var _closure4_slot0 = entity;
                     entity = _closure3_slot0;
                     zuuluu = entity.connection;
-                    oscard = null;
-                    michal = oscard == zuuluu;
+                    option = null;
+                    michal = option == zuuluu;
                     entity = undefined;
                     tangon = undefined;
                     if(michal) { _fun00040_ip = 48; continue _fun00039 }
@@ -1465,8 +1465,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = michal.bind(zuuluu)();
  48:
                     michal = tangon.length;
-                    offset = 1;
-                    if(!(michal > offset)) { _fun00040_ip = 75; continue _fun00039 }
+                    foxtra = 1;
+                    if(!(michal > foxtra)) { _fun00040_ip = 75; continue _fun00039 }
  60:
                     zuuluu = tangon.forEach;
                     michal = function(argFoo) {
@@ -1498,42 +1498,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  75:
                     report = [1, 5, 10, 25, 50, 75];
                     tangon = [1, 5, 10, 25, 50, 75, 99];
-                    zuuluu = yankee.vmafHistogram;
+                    zuuluu = golfie.vmafHistogram;
                     michal = zuuluu.getReport;
-                    foxtra = michal.bind(zuuluu)(report);
-                    zuuluu = yankee.psnrHistogram;
+                    backup = michal.bind(zuuluu)(report);
+                    zuuluu = golfie.psnrHistogram;
                     michal = zuuluu.getReport;
                     romeon = michal.bind(zuuluu)(report);
-                    zuuluu = yankee.targetBitrateHistogram;
+                    zuuluu = golfie.targetBitrateHistogram;
                     michal = zuuluu.getReport;
                     sizing = michal.bind(zuuluu)(tangon);
-                    zuuluu = yankee.outboundBandwidthSurplus;
-                    michal = zuuluu.getReport;
-                    verify = michal.bind(zuuluu)(tangon);
-                    kiloes = _closure3_slot0;
-                    zuuluu = kiloes.videoEntropy;
+                    zuuluu = golfie.outboundBandwidthSurplus;
                     michal = zuuluu.getReport;
                     report = michal.bind(zuuluu)(tangon);
-                    zuuluu = yankee.aggregationDuration;
+                    yankee = _closure3_slot0;
+                    zuuluu = yankee.videoEntropy;
+                    michal = zuuluu.getReport;
+                    oscard = michal.bind(zuuluu)(tangon);
+                    zuuluu = golfie.aggregationDuration;
                     michal = 1000;
                     echoed = zuuluu / michal;
                     tangon = _closure3_slot1;
                     zuuluu = tangon.push;
                     michal = {};
-                    option = kiloes.getStats;
-                    sequen = option.bind(kiloes)(yankee);
+                    verify = yankee.getStats;
+                    sequen = verify.bind(yankee)(golfie);
                     config = michal;
-                    option = copyDataProperties(config, sequen);
-                    option = 0;
-                    kiloes = echoed > option;
+                    verify = copyDataProperties(config, sequen);
+                    yankee = 0;
+                    verify = echoed > yankee;
                     result = 0;
-                    if(!kiloes) { _fun00040_ip = 280; continue _fun00039 }
+                    if(!verify) { _fun00040_ip = 280; continue _fun00039 }
  240:
                     output = global;
                     source = output.Math;
                     update = source.round;
-                    ctrled = yankee.targetFrames;
-                    vacuum = oscard != ctrled;
+                    ctrled = golfie.targetFrames;
+                    vacuum = option != ctrled;
                     output = 0;
                     if(!vacuum) { _fun00040_ip = 271; continue _fun00039 }
  268:
@@ -1545,13 +1545,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     output = 'target_fps';
                     michal[output] = result;
                     result = 0;
-                    if(!kiloes) { _fun00040_ip = 343; continue _fun00039 }
+                    if(!verify) { _fun00040_ip = 343; continue _fun00039 }
  296:
                     output = global;
                     source = output.Math;
                     update = source.round;
-                    output = yankee.targetBytesNetwork;
-                    vacuum = oscard != output;
+                    output = golfie.targetBytesNetwork;
+                    vacuum = option != output;
                     ctrled = 0;
                     if(!vacuum) { _fun00040_ip = 327; continue _fun00039 }
  324:
@@ -1565,17 +1565,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     output = 'target_bitrate_network';
                     michal[output] = result;
                     output = sizing.count;
-                    output = output > option;
+                    output = output > yankee;
                     result = null;
                     if(!output) { _fun00040_ip = 378; continue _fun00039 }
  368:
                     output = sizing.percentiles;
-                    result = output[offset];
+                    result = output[foxtra];
  378:
                     output = 'target_bitrate_network_percentile1';
                     michal[output] = result;
                     output = sizing.count;
-                    output = output > option;
+                    output = output > yankee;
                     result = null;
                     if(!output) { _fun00040_ip = 416; continue _fun00039 }
  403:
@@ -1586,7 +1586,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     output = 'target_bitrate_network_percentile5';
                     michal[output] = result;
                     output = sizing.count;
-                    output = output > option;
+                    output = output > yankee;
                     result = null;
                     if(!output) { _fun00040_ip = 454; continue _fun00039 }
  441:
@@ -1597,7 +1597,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     output = 'target_bitrate_network_percentile10';
                     michal[output] = result;
                     output = sizing.count;
-                    output = output > option;
+                    output = output > yankee;
                     result = null;
                     if(!output) { _fun00040_ip = 492; continue _fun00039 }
  479:
@@ -1608,7 +1608,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     output = 'target_bitrate_network_percentile25';
                     michal[output] = result;
                     output = sizing.count;
-                    output = output > option;
+                    output = output > yankee;
                     result = null;
                     if(!output) { _fun00040_ip = 530; continue _fun00039 }
  517:
@@ -1619,7 +1619,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     output = 'target_bitrate_network_percentile50';
                     michal[output] = result;
                     output = sizing.count;
-                    output = output > option;
+                    output = output > yankee;
                     result = null;
                     if(!output) { _fun00040_ip = 568; continue _fun00039 }
  555:
@@ -1630,7 +1630,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     output = 'target_bitrate_network_percentile75';
                     michal[output] = result;
                     output = sizing.count;
-                    result = output > option;
+                    result = output > yankee;
                     output = null;
                     if(!result) { _fun00040_ip = 606; continue _fun00039 }
  593:
@@ -1641,13 +1641,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     sizing = 'target_bitrate_network_percentile99';
                     michal[sizing] = output;
                     output = 0;
-                    if(!kiloes) { _fun00040_ip = 669; continue _fun00039 }
+                    if(!verify) { _fun00040_ip = 669; continue _fun00039 }
  622:
                     sizing = global;
                     update = sizing.Math;
                     result = update.round;
-                    sizing = yankee.targetBytesMax;
-                    ctrled = oscard != sizing;
+                    sizing = golfie.targetBytesMax;
+                    ctrled = option != sizing;
                     source = 0;
                     if(!ctrled) { _fun00040_ip = 653; continue _fun00039 }
  650:
@@ -1661,483 +1661,495 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     sizing = 'target_bitrate_max';
                     michal[sizing] = output;
                     sizing = 0;
-                    if(!kiloes) { _fun00040_ip = 732; continue _fun00039 }
+                    if(!verify) { _fun00040_ip = 732; continue _fun00039 }
  685:
-                    kiloes = global;
-                    result = kiloes.Math;
+                    verify = global;
+                    result = verify.Math;
                     output = result.round;
-                    kiloes = yankee.outboundBytesAvailable;
-                    source = oscard != kiloes;
+                    verify = golfie.outboundBytesAvailable;
+                    source = option != verify;
                     update = 0;
                     if(!source) { _fun00040_ip = 716; continue _fun00039 }
  713:
-                    update = kiloes;
+                    update = verify;
  716:
-                    kiloes = 8;
-                    kiloes = kiloes * update;
-                    kiloes = kiloes / echoed;
-                    sizing = output.bind(result)(kiloes);
+                    verify = 8;
+                    verify = verify * update;
+                    verify = verify / echoed;
+                    sizing = output.bind(result)(verify);
  732:
-                    kiloes = 'outbound_bandwidth_estimate';
-                    michal[kiloes] = sizing;
-                    kiloes = verify.count;
-                    kiloes = kiloes > option;
+                    verify = 'outbound_bandwidth_estimate';
+                    michal[verify] = sizing;
+                    verify = report.count;
+                    verify = verify > yankee;
                     sizing = null;
-                    if(!kiloes) { _fun00040_ip = 767; continue _fun00039 }
+                    if(!verify) { _fun00040_ip = 767; continue _fun00039 }
  757:
-                    kiloes = verify.percentiles;
-                    sizing = kiloes[offset];
+                    verify = report.percentiles;
+                    sizing = verify[foxtra];
  767:
-                    kiloes = 'outbound_bandwidth_surplus_percentile1';
-                    michal[kiloes] = sizing;
-                    kiloes = verify.count;
-                    kiloes = kiloes > option;
+                    verify = 'outbound_bandwidth_surplus_percentile1';
+                    michal[verify] = sizing;
+                    verify = report.count;
+                    verify = verify > yankee;
                     sizing = null;
-                    if(!kiloes) { _fun00040_ip = 805; continue _fun00039 }
+                    if(!verify) { _fun00040_ip = 805; continue _fun00039 }
  792:
-                    output = verify.percentiles;
-                    kiloes = 5;
-                    sizing = output[kiloes];
+                    output = report.percentiles;
+                    verify = 5;
+                    sizing = output[verify];
  805:
-                    kiloes = 'outbound_bandwidth_surplus_percentile5';
-                    michal[kiloes] = sizing;
-                    kiloes = verify.count;
-                    kiloes = kiloes > option;
+                    verify = 'outbound_bandwidth_surplus_percentile5';
+                    michal[verify] = sizing;
+                    verify = report.count;
+                    verify = verify > yankee;
                     sizing = null;
-                    if(!kiloes) { _fun00040_ip = 843; continue _fun00039 }
+                    if(!verify) { _fun00040_ip = 843; continue _fun00039 }
  830:
-                    output = verify.percentiles;
-                    kiloes = 10;
-                    sizing = output[kiloes];
+                    output = report.percentiles;
+                    verify = 10;
+                    sizing = output[verify];
  843:
-                    kiloes = 'outbound_bandwidth_surplus_percentile10';
-                    michal[kiloes] = sizing;
-                    kiloes = verify.count;
-                    kiloes = kiloes > option;
+                    verify = 'outbound_bandwidth_surplus_percentile10';
+                    michal[verify] = sizing;
+                    verify = report.count;
+                    verify = verify > yankee;
                     sizing = null;
-                    if(!kiloes) { _fun00040_ip = 881; continue _fun00039 }
+                    if(!verify) { _fun00040_ip = 881; continue _fun00039 }
  868:
-                    output = verify.percentiles;
-                    kiloes = 25;
-                    sizing = output[kiloes];
+                    output = report.percentiles;
+                    verify = 25;
+                    sizing = output[verify];
  881:
-                    kiloes = 'outbound_bandwidth_surplus_percentile25';
-                    michal[kiloes] = sizing;
-                    kiloes = verify.count;
-                    kiloes = kiloes > option;
+                    verify = 'outbound_bandwidth_surplus_percentile25';
+                    michal[verify] = sizing;
+                    verify = report.count;
+                    verify = verify > yankee;
                     sizing = null;
-                    if(!kiloes) { _fun00040_ip = 919; continue _fun00039 }
+                    if(!verify) { _fun00040_ip = 919; continue _fun00039 }
  906:
-                    output = verify.percentiles;
-                    kiloes = 50;
-                    sizing = output[kiloes];
+                    output = report.percentiles;
+                    verify = 50;
+                    sizing = output[verify];
  919:
-                    kiloes = 'outbound_bandwidth_surplus_percentile50';
-                    michal[kiloes] = sizing;
-                    kiloes = verify.count;
-                    kiloes = kiloes > option;
+                    verify = 'outbound_bandwidth_surplus_percentile50';
+                    michal[verify] = sizing;
+                    verify = report.count;
+                    verify = verify > yankee;
                     sizing = null;
-                    if(!kiloes) { _fun00040_ip = 957; continue _fun00039 }
+                    if(!verify) { _fun00040_ip = 957; continue _fun00039 }
  944:
-                    output = verify.percentiles;
-                    kiloes = 75;
-                    sizing = output[kiloes];
+                    output = report.percentiles;
+                    verify = 75;
+                    sizing = output[verify];
  957:
-                    kiloes = 'outbound_bandwidth_surplus_percentile75';
-                    michal[kiloes] = sizing;
-                    kiloes = verify.count;
-                    sizing = kiloes > option;
-                    kiloes = null;
+                    verify = 'outbound_bandwidth_surplus_percentile75';
+                    michal[verify] = sizing;
+                    verify = report.count;
+                    sizing = verify > yankee;
+                    verify = null;
                     if(!sizing) { _fun00040_ip = 995; continue _fun00039 }
  982:
-                    sizing = verify.percentiles;
-                    verify = 99;
-                    kiloes = sizing[verify];
+                    sizing = report.percentiles;
+                    report = 99;
+                    verify = sizing[report];
  995:
-                    verify = 'outbound_bandwidth_surplus_percentile99';
-                    michal[verify] = kiloes;
-                    sizing = _closure1_slot13;
-                    update = yankee.encoderBuckets;
-                    result = _closure1_slot0;
-                    echoed = _closure1_slot2;
-                    kiloes = 9;
-                    output = echoed[kiloes];
-                    output = result.bind(entity)(output);
-                    output = output.Encoders;
-                    output = output.NVIDIA_CUDA;
-                    output = update[output];
-                    update = sizing.bind(entity)(output);
-                    output = 'duration_encoder_nvidia_cuda';
-                    michal[output] = update;
-                    update = yankee.encoderBuckets;
-                    output = echoed[kiloes];
-                    output = result.bind(entity)(output);
-                    output = output.Encoders;
-                    output = output.NVIDIA_DIRECT_3D;
-                    output = update[output];
-                    update = sizing.bind(entity)(output);
-                    output = 'duration_encoder_nvidia_direct3d';
-                    michal[output] = update;
-                    update = yankee.encoderBuckets;
-                    output = echoed[kiloes];
-                    output = result.bind(entity)(output);
-                    output = output.Encoders;
-                    output = output.OPENH264;
-                    output = update[output];
-                    update = sizing.bind(entity)(output);
-                    output = 'duration_encoder_openh264';
-                    michal[output] = update;
-                    update = yankee.encoderBuckets;
-                    output = echoed[kiloes];
-                    output = result.bind(entity)(output);
-                    output = output.Encoders;
-                    output = output.VIDEOTOOLBOX;
-                    output = update[output];
-                    update = sizing.bind(entity)(output);
-                    output = 'duration_encoder_videotoolbox';
-                    michal[output] = update;
-                    update = yankee.encoderBuckets;
-                    output = echoed[kiloes];
-                    output = result.bind(entity)(output);
-                    output = output.Encoders;
-                    output = output.AMD_DIRECT_3D;
-                    output = update[output];
-                    update = sizing.bind(entity)(output);
-                    output = 'duration_encoder_amd_direct3d';
-                    michal[output] = update;
-                    update = yankee.encoderBuckets;
-                    output = echoed[kiloes];
-                    output = result.bind(entity)(output);
-                    output = output.Encoders;
-                    output = output.INTEL;
-                    output = update[output];
-                    update = sizing.bind(entity)(output);
-                    output = 'duration_encoder_intel';
-                    michal[output] = update;
-                    update = yankee.encoderBuckets;
-                    output = echoed[kiloes];
-                    output = result.bind(entity)(output);
-                    output = output.Encoders;
-                    output = output.INTEL_DIRECT_3D;
-                    output = update[output];
-                    update = sizing.bind(entity)(output);
-                    output = 'duration_encoder_intel_direct3d';
-                    michal[output] = update;
-                    update = yankee.encoderBuckets;
-                    output = echoed[kiloes];
-                    output = result.bind(entity)(output);
-                    output = output.Encoders;
-                    output = output.VP8_LIBVPX;
-                    output = update[output];
-                    update = sizing.bind(entity)(output);
-                    output = 'duration_encoder_vp8_libvpx';
-                    michal[output] = update;
-                    update = yankee.encoderBuckets;
-                    output = echoed[kiloes];
-                    output = result.bind(entity)(output);
-                    output = output.Encoders;
-                    output = output.UNCATEGORIZED;
-                    output = update[output];
-                    update = sizing.bind(entity)(output);
-                    output = 'duration_encoder_uncategorized';
-                    michal[output] = update;
-                    output = yankee.encoderBuckets;
-                    kiloes = echoed[kiloes];
-                    kiloes = result.bind(entity)(kiloes);
-                    kiloes = kiloes.Encoders;
-                    kiloes = kiloes.UNKNOWN;
-                    kiloes = output[kiloes];
-                    sizing = sizing.bind(entity)(kiloes);
-                    kiloes = 'duration_encoder_unknown';
+                    report = 'outbound_bandwidth_surplus_percentile99';
+                    michal[report] = verify;
+                    output = _closure1_slot13;
+                    update = golfie.encoderBuckets;
+                    echoed = _closure1_slot0;
+                    sizing = _closure1_slot2;
+                    verify = 9;
+                    result = sizing[verify];
+                    result = echoed.bind(entity)(result);
+                    result = result.Encoders;
+                    result = result.NVIDIA_CUDA;
+                    result = update[result];
+                    update = output.bind(entity)(result);
+                    result = 'duration_encoder_nvidia_cuda';
+                    michal[result] = update;
+                    update = golfie.encoderBuckets;
+                    result = sizing[verify];
+                    result = echoed.bind(entity)(result);
+                    result = result.Encoders;
+                    result = result.NVIDIA_DIRECT_3D;
+                    result = update[result];
+                    update = output.bind(entity)(result);
+                    result = 'duration_encoder_nvidia_direct3d';
+                    michal[result] = update;
+                    update = golfie.encoderBuckets;
+                    result = sizing[verify];
+                    result = echoed.bind(entity)(result);
+                    result = result.Encoders;
+                    result = result.OPENH264;
+                    result = update[result];
+                    update = output.bind(entity)(result);
+                    result = 'duration_encoder_openh264';
+                    michal[result] = update;
+                    update = golfie.encoderBuckets;
+                    result = sizing[verify];
+                    result = echoed.bind(entity)(result);
+                    result = result.Encoders;
+                    result = result.VIDEOTOOLBOX;
+                    result = update[result];
+                    update = output.bind(entity)(result);
+                    result = 'duration_encoder_videotoolbox';
+                    michal[result] = update;
+                    update = golfie.encoderBuckets;
+                    result = sizing[verify];
+                    result = echoed.bind(entity)(result);
+                    result = result.Encoders;
+                    result = result.AMD_DIRECT_3D;
+                    result = update[result];
+                    update = output.bind(entity)(result);
+                    result = 'duration_encoder_amd_direct3d';
+                    michal[result] = update;
+                    update = golfie.encoderBuckets;
+                    result = sizing[verify];
+                    result = echoed.bind(entity)(result);
+                    result = result.Encoders;
+                    result = result.INTEL;
+                    result = update[result];
+                    update = output.bind(entity)(result);
+                    result = 'duration_encoder_intel';
+                    michal[result] = update;
+                    update = golfie.encoderBuckets;
+                    result = sizing[verify];
+                    result = echoed.bind(entity)(result);
+                    result = result.Encoders;
+                    result = result.INTEL_DIRECT_3D;
+                    result = update[result];
+                    update = output.bind(entity)(result);
+                    result = 'duration_encoder_intel_direct3d';
+                    michal[result] = update;
+                    update = golfie.encoderBuckets;
+                    result = sizing[verify];
+                    result = echoed.bind(entity)(result);
+                    result = result.Encoders;
+                    result = result.VP8_LIBVPX;
+                    result = update[result];
+                    update = output.bind(entity)(result);
+                    result = 'duration_encoder_vp8_libvpx';
+                    michal[result] = update;
+                    update = golfie.encoderBuckets;
+                    result = sizing[verify];
+                    result = echoed.bind(entity)(result);
+                    result = result.Encoders;
+                    result = result.UNCATEGORIZED;
+                    result = update[result];
+                    update = output.bind(entity)(result);
+                    result = 'duration_encoder_uncategorized';
+                    michal[result] = update;
+                    result = golfie.encoderBuckets;
+                    sizing = sizing[verify];
+                    sizing = echoed.bind(entity)(sizing);
+                    sizing = sizing.Encoders;
+                    sizing = sizing.UNKNOWN;
+                    sizing = result[sizing];
+                    output = output.bind(entity)(sizing);
+                    sizing = 'duration_encoder_unknown';
+                    michal[sizing] = output;
+                    sizing = _closure4_slot1;
+                    kiloes = 'quality';
                     michal[kiloes] = sizing;
-                    kiloes = _closure4_slot1;
-                    backup = 'quality';
-                    michal[backup] = kiloes;
-                    kiloes = yankee.averageEncodeTime;
-                    backup = 'average_encode_time_ms';
-                    michal[backup] = kiloes;
-                    backup = yankee.vmafScoreNum;
-                    backup = backup > option;
-                    kiloes = null;
-                    if(!backup) { _fun00040_ip = 1555; continue _fun00039 }
+                    sizing = golfie.averageEncodeTime;
+                    kiloes = 'average_encode_time_ms';
+                    michal[kiloes] = sizing;
+                    kiloes = golfie.vmafScoreNum;
+                    kiloes = kiloes > yankee;
+                    sizing = null;
+                    if(!kiloes) { _fun00040_ip = 1555; continue _fun00039 }
  1539:
-                    sizing = yankee.vmafScoreSum;
-                    backup = yankee.vmafScoreNum;
-                    kiloes = sizing / backup;
+                    output = golfie.vmafScoreSum;
+                    kiloes = golfie.vmafScoreNum;
+                    sizing = output / kiloes;
  1555:
-                    backup = 'average_encoder_vmaf_score';
-                    michal[backup] = kiloes;
-                    backup = foxtra.count;
-                    backup = backup > option;
-                    kiloes = null;
-                    if(!backup) { _fun00040_ip = 1590; continue _fun00039 }
+                    kiloes = 'average_encoder_vmaf_score';
+                    michal[kiloes] = sizing;
+                    kiloes = backup.count;
+                    kiloes = kiloes > yankee;
+                    sizing = null;
+                    if(!kiloes) { _fun00040_ip = 1590; continue _fun00039 }
  1580:
-                    backup = foxtra.percentiles;
-                    kiloes = backup[offset];
+                    kiloes = backup.percentiles;
+                    sizing = kiloes[foxtra];
  1590:
-                    backup = 'encoder_vmaf_score_percentile1';
-                    michal[backup] = kiloes;
-                    backup = foxtra.count;
-                    backup = backup > option;
-                    kiloes = null;
-                    if(!backup) { _fun00040_ip = 1628; continue _fun00039 }
+                    kiloes = 'encoder_vmaf_score_percentile1';
+                    michal[kiloes] = sizing;
+                    kiloes = backup.count;
+                    kiloes = kiloes > yankee;
+                    sizing = null;
+                    if(!kiloes) { _fun00040_ip = 1628; continue _fun00039 }
  1615:
-                    sizing = foxtra.percentiles;
+                    output = backup.percentiles;
+                    kiloes = 5;
+                    sizing = output[kiloes];
+ 1628:
+                    kiloes = 'encoder_vmaf_score_percentile5';
+                    michal[kiloes] = sizing;
+                    kiloes = backup.count;
+                    kiloes = kiloes > yankee;
+                    sizing = null;
+                    if(!kiloes) { _fun00040_ip = 1666; continue _fun00039 }
+ 1653:
+                    output = backup.percentiles;
+                    kiloes = 10;
+                    sizing = output[kiloes];
+ 1666:
+                    kiloes = 'encoder_vmaf_score_percentile10';
+                    michal[kiloes] = sizing;
+                    kiloes = backup.count;
+                    kiloes = kiloes > yankee;
+                    sizing = null;
+                    if(!kiloes) { _fun00040_ip = 1704; continue _fun00039 }
+ 1691:
+                    output = backup.percentiles;
+                    kiloes = 25;
+                    sizing = output[kiloes];
+ 1704:
+                    kiloes = 'encoder_vmaf_score_percentile25';
+                    michal[kiloes] = sizing;
+                    kiloes = backup.count;
+                    kiloes = kiloes > yankee;
+                    sizing = null;
+                    if(!kiloes) { _fun00040_ip = 1742; continue _fun00039 }
+ 1729:
+                    output = backup.percentiles;
+                    kiloes = 50;
+                    sizing = output[kiloes];
+ 1742:
+                    kiloes = 'encoder_vmaf_score_percentile50';
+                    michal[kiloes] = sizing;
+                    kiloes = backup.count;
+                    sizing = kiloes > yankee;
+                    kiloes = null;
+                    if(!sizing) { _fun00040_ip = 1780; continue _fun00039 }
+ 1767:
+                    sizing = backup.percentiles;
+                    backup = 75;
+                    kiloes = sizing[backup];
+ 1780:
+                    backup = 'encoder_vmaf_score_percentile75';
+                    michal[backup] = kiloes;
+                    backup = golfie.psnrDbNum;
+                    backup = backup > yankee;
+                    kiloes = null;
+                    if(!backup) { _fun00040_ip = 1822; continue _fun00039 }
+ 1806:
+                    sizing = golfie.psnrDbSum;
+                    backup = golfie.psnrDbNum;
+                    kiloes = sizing / backup;
+ 1822:
+                    backup = 'average_encoder_psnr_db';
+                    michal[backup] = kiloes;
+                    backup = romeon.count;
+                    backup = backup > yankee;
+                    kiloes = null;
+                    if(!backup) { _fun00040_ip = 1857; continue _fun00039 }
+ 1847:
+                    backup = romeon.percentiles;
+                    kiloes = backup[foxtra];
+ 1857:
+                    backup = 'encoder_psnr_db_percentile1';
+                    michal[backup] = kiloes;
+                    backup = romeon.count;
+                    backup = backup > yankee;
+                    kiloes = null;
+                    if(!backup) { _fun00040_ip = 1895; continue _fun00039 }
+ 1882:
+                    sizing = romeon.percentiles;
                     backup = 5;
                     kiloes = sizing[backup];
- 1628:
-                    backup = 'encoder_vmaf_score_percentile5';
+ 1895:
+                    backup = 'encoder_psnr_db_percentile5';
                     michal[backup] = kiloes;
-                    backup = foxtra.count;
-                    backup = backup > option;
+                    backup = romeon.count;
+                    backup = backup > yankee;
                     kiloes = null;
-                    if(!backup) { _fun00040_ip = 1666; continue _fun00039 }
- 1653:
-                    sizing = foxtra.percentiles;
+                    if(!backup) { _fun00040_ip = 1933; continue _fun00039 }
+ 1920:
+                    sizing = romeon.percentiles;
                     backup = 10;
                     kiloes = sizing[backup];
- 1666:
-                    backup = 'encoder_vmaf_score_percentile10';
+ 1933:
+                    backup = 'encoder_psnr_db_percentile10';
                     michal[backup] = kiloes;
-                    backup = foxtra.count;
-                    backup = backup > option;
+                    backup = romeon.count;
+                    backup = backup > yankee;
                     kiloes = null;
-                    if(!backup) { _fun00040_ip = 1704; continue _fun00039 }
- 1691:
-                    sizing = foxtra.percentiles;
+                    if(!backup) { _fun00040_ip = 1971; continue _fun00039 }
+ 1958:
+                    sizing = romeon.percentiles;
                     backup = 25;
                     kiloes = sizing[backup];
- 1704:
-                    backup = 'encoder_vmaf_score_percentile25';
+ 1971:
+                    backup = 'encoder_psnr_db_percentile25';
                     michal[backup] = kiloes;
-                    backup = foxtra.count;
-                    backup = backup > option;
+                    backup = romeon.count;
+                    backup = backup > yankee;
                     kiloes = null;
-                    if(!backup) { _fun00040_ip = 1742; continue _fun00039 }
- 1729:
-                    sizing = foxtra.percentiles;
+                    if(!backup) { _fun00040_ip = 2009; continue _fun00039 }
+ 1996:
+                    sizing = romeon.percentiles;
                     backup = 50;
                     kiloes = sizing[backup];
- 1742:
-                    backup = 'encoder_vmaf_score_percentile50';
-                    michal[backup] = kiloes;
-                    backup = foxtra.count;
-                    kiloes = backup > option;
-                    backup = null;
-                    if(!kiloes) { _fun00040_ip = 1780; continue _fun00039 }
- 1767:
-                    kiloes = foxtra.percentiles;
-                    foxtra = 75;
-                    backup = kiloes[foxtra];
- 1780:
-                    foxtra = 'encoder_vmaf_score_percentile75';
-                    michal[foxtra] = backup;
-                    foxtra = yankee.psnrDbNum;
-                    foxtra = foxtra > option;
-                    backup = null;
-                    if(!foxtra) { _fun00040_ip = 1822; continue _fun00039 }
- 1806:
-                    kiloes = yankee.psnrDbSum;
-                    foxtra = yankee.psnrDbNum;
-                    backup = kiloes / foxtra;
- 1822:
-                    foxtra = 'average_encoder_psnr_db';
-                    michal[foxtra] = backup;
-                    foxtra = romeon.count;
-                    foxtra = foxtra > option;
-                    backup = null;
-                    if(!foxtra) { _fun00040_ip = 1857; continue _fun00039 }
- 1847:
-                    foxtra = romeon.percentiles;
-                    backup = foxtra[offset];
- 1857:
-                    foxtra = 'encoder_psnr_db_percentile1';
-                    michal[foxtra] = backup;
-                    foxtra = romeon.count;
-                    foxtra = foxtra > option;
-                    backup = null;
-                    if(!foxtra) { _fun00040_ip = 1895; continue _fun00039 }
- 1882:
-                    kiloes = romeon.percentiles;
-                    foxtra = 5;
-                    backup = kiloes[foxtra];
- 1895:
-                    foxtra = 'encoder_psnr_db_percentile5';
-                    michal[foxtra] = backup;
-                    foxtra = romeon.count;
-                    foxtra = foxtra > option;
-                    backup = null;
-                    if(!foxtra) { _fun00040_ip = 1933; continue _fun00039 }
- 1920:
-                    kiloes = romeon.percentiles;
-                    foxtra = 10;
-                    backup = kiloes[foxtra];
- 1933:
-                    foxtra = 'encoder_psnr_db_percentile10';
-                    michal[foxtra] = backup;
-                    foxtra = romeon.count;
-                    foxtra = foxtra > option;
-                    backup = null;
-                    if(!foxtra) { _fun00040_ip = 1971; continue _fun00039 }
- 1958:
-                    kiloes = romeon.percentiles;
-                    foxtra = 25;
-                    backup = kiloes[foxtra];
- 1971:
-                    foxtra = 'encoder_psnr_db_percentile25';
-                    michal[foxtra] = backup;
-                    foxtra = romeon.count;
-                    foxtra = foxtra > option;
-                    backup = null;
-                    if(!foxtra) { _fun00040_ip = 2009; continue _fun00039 }
- 1996:
-                    kiloes = romeon.percentiles;
-                    foxtra = 50;
-                    backup = kiloes[foxtra];
  2009:
-                    foxtra = 'encoder_psnr_db_percentile50';
-                    michal[foxtra] = backup;
-                    foxtra = romeon.count;
-                    backup = foxtra > option;
-                    foxtra = null;
-                    if(!backup) { _fun00040_ip = 2047; continue _fun00039 }
+                    backup = 'encoder_psnr_db_percentile50';
+                    michal[backup] = kiloes;
+                    backup = romeon.count;
+                    kiloes = backup > yankee;
+                    backup = null;
+                    if(!kiloes) { _fun00040_ip = 2047; continue _fun00039 }
  2034:
-                    backup = romeon.percentiles;
+                    kiloes = romeon.percentiles;
                     romeon = 75;
-                    foxtra = backup[romeon];
+                    backup = kiloes[romeon];
  2047:
                     romeon = 'encoder_psnr_db_percentile75';
-                    michal[romeon] = foxtra;
-                    romeon = yankee.outboundSinkWantNum;
-                    romeon = romeon > option;
-                    foxtra = null;
+                    michal[romeon] = backup;
+                    romeon = golfie.outboundSinkWantNum;
+                    romeon = romeon > yankee;
+                    backup = null;
                     if(!romeon) { _fun00040_ip = 2089; continue _fun00039 }
  2073:
-                    backup = yankee.outboundSinkWantSum;
-                    romeon = yankee.outboundSinkWantNum;
-                    foxtra = backup / romeon;
+                    kiloes = golfie.outboundSinkWantSum;
+                    romeon = golfie.outboundSinkWantNum;
+                    backup = kiloes / romeon;
  2089:
                     romeon = 'average_outbound_want';
-                    michal[romeon] = foxtra;
-                    foxtra = yankee.framesDroppedRateLimiter;
+                    michal[romeon] = backup;
+                    backup = golfie.framesDroppedRateLimiter;
                     romeon = 'frames_dropped_rate_limiter';
-                    michal[romeon] = foxtra;
-                    foxtra = yankee.framesDroppedEncoderQueue;
+                    michal[romeon] = backup;
+                    backup = golfie.framesDroppedEncoderQueue;
                     romeon = 'frames_dropped_encoder_queue';
-                    michal[romeon] = foxtra;
-                    foxtra = yankee.framesDroppedCongestionWindow;
+                    michal[romeon] = backup;
+                    backup = golfie.framesDroppedCongestionWindow;
                     romeon = 'frames_dropped_congestion_window';
-                    michal[romeon] = foxtra;
-                    romeon = yankee.framesDroppedEncoder;
-                    yankee = 'frames_dropped_encoder';
-                    michal[yankee] = romeon;
-                    verify = _closure1_slot13;
-                    golfie = _closure3_slot0;
-                    romeon = golfie.hqSimulcastStreamEncoded;
-                    yankee = romeon.totalDurationSeconds;
-                    yankee = yankee.bind(romeon)();
-                    romeon = verify.bind(entity)(yankee);
-                    yankee = 'duration_hq_simulcast_stream_encoded';
-                    michal[yankee] = romeon;
-                    romeon = golfie.lqSimulcastStreamEncoded;
-                    yankee = romeon.totalDurationSeconds;
-                    yankee = yankee.bind(romeon)();
-                    romeon = verify.bind(entity)(yankee);
-                    yankee = 'duration_lq_simulcast_stream_encoded';
-                    michal[yankee] = romeon;
-                    romeon = golfie.bothSimulcastStreamsEncoded;
-                    yankee = romeon.totalDurationSeconds;
-                    yankee = yankee.bind(romeon)();
-                    romeon = verify.bind(entity)(yankee);
-                    yankee = 'duration_both_simulcast_streams_encoded';
-                    michal[yankee] = romeon;
-                    romeon = golfie.bandwidthLimitedFramerate;
-                    yankee = romeon.totalDurationSeconds;
-                    yankee = yankee.bind(romeon)();
-                    romeon = verify.bind(entity)(yankee);
-                    yankee = 'duration_fps_bandwidth_limited';
-                    michal[yankee] = romeon;
-                    yankee = golfie.bandwidthLimitedResolution;
-                    golfie = yankee.totalDurationSeconds;
-                    golfie = golfie.bind(yankee)();
-                    verify = verify.bind(entity)(golfie);
-                    golfie = 'duration_resolution_bandwidth_limited';
-                    michal[golfie] = verify;
-                    golfie = report.count;
-                    golfie = golfie > option;
-                    verify = null;
-                    if(!golfie) { _fun00040_ip = 2360; continue _fun00039 }
+                    michal[romeon] = backup;
+                    backup = golfie.framesDroppedEncoder;
+                    romeon = 'frames_dropped_encoder';
+                    michal[romeon] = backup;
+                    romeon = _closure1_slot13;
+                    offset = _closure3_slot0;
+                    kiloes = offset.hqSimulcastStreamEncoded;
+                    backup = kiloes.totalDurationSeconds;
+                    backup = backup.bind(kiloes)();
+                    kiloes = romeon.bind(entity)(backup);
+                    backup = 'duration_hq_simulcast_stream_encoded';
+                    michal[backup] = kiloes;
+                    kiloes = offset.lqSimulcastStreamEncoded;
+                    backup = kiloes.totalDurationSeconds;
+                    backup = backup.bind(kiloes)();
+                    kiloes = romeon.bind(entity)(backup);
+                    backup = 'duration_lq_simulcast_stream_encoded';
+                    michal[backup] = kiloes;
+                    kiloes = offset.bothSimulcastStreamsEncoded;
+                    backup = kiloes.totalDurationSeconds;
+                    backup = backup.bind(kiloes)();
+                    kiloes = romeon.bind(entity)(backup);
+                    backup = 'duration_both_simulcast_streams_encoded';
+                    michal[backup] = kiloes;
+                    kiloes = offset.bandwidthLimitedFramerate;
+                    backup = kiloes.totalDurationSeconds;
+                    backup = backup.bind(kiloes)();
+                    kiloes = romeon.bind(entity)(backup);
+                    backup = 'duration_fps_bandwidth_limited';
+                    michal[backup] = kiloes;
+                    backup = offset.bandwidthLimitedResolution;
+                    offset = backup.totalDurationSeconds;
+                    offset = offset.bind(backup)();
+                    romeon = romeon.bind(entity)(offset);
+                    offset = 'duration_resolution_bandwidth_limited';
+                    michal[offset] = romeon;
+                    offset = oscard.count;
+                    offset = offset > yankee;
+                    romeon = null;
+                    if(!offset) { _fun00040_ip = 2360; continue _fun00039 }
  2350:
-                    golfie = report.percentiles;
-                    verify = golfie[offset];
+                    offset = oscard.percentiles;
+                    romeon = offset[foxtra];
  2360:
-                    golfie = 'video_entropy_percentile1';
-                    michal[golfie] = verify;
-                    golfie = report.count;
-                    golfie = golfie > option;
-                    verify = null;
-                    if(!golfie) { _fun00040_ip = 2398; continue _fun00039 }
+                    offset = 'video_entropy_percentile1';
+                    michal[offset] = romeon;
+                    offset = oscard.count;
+                    offset = offset > yankee;
+                    romeon = null;
+                    if(!offset) { _fun00040_ip = 2398; continue _fun00039 }
  2385:
-                    offset = report.percentiles;
-                    golfie = 5;
-                    verify = offset[golfie];
+                    foxtra = oscard.percentiles;
+                    offset = 5;
+                    romeon = foxtra[offset];
  2398:
-                    golfie = 'video_entropy_percentile5';
-                    michal[golfie] = verify;
-                    golfie = report.count;
-                    golfie = golfie > option;
-                    verify = null;
-                    if(!golfie) { _fun00040_ip = 2436; continue _fun00039 }
+                    offset = 'video_entropy_percentile5';
+                    michal[offset] = romeon;
+                    offset = oscard.count;
+                    offset = offset > yankee;
+                    romeon = null;
+                    if(!offset) { _fun00040_ip = 2436; continue _fun00039 }
  2423:
-                    offset = report.percentiles;
-                    golfie = 10;
-                    verify = offset[golfie];
+                    foxtra = oscard.percentiles;
+                    offset = 10;
+                    romeon = foxtra[offset];
  2436:
-                    golfie = 'video_entropy_percentile10';
-                    michal[golfie] = verify;
-                    golfie = report.count;
-                    golfie = golfie > option;
-                    verify = null;
-                    if(!golfie) { _fun00040_ip = 2474; continue _fun00039 }
+                    offset = 'video_entropy_percentile10';
+                    michal[offset] = romeon;
+                    offset = oscard.count;
+                    offset = offset > yankee;
+                    romeon = null;
+                    if(!offset) { _fun00040_ip = 2474; continue _fun00039 }
  2461:
-                    offset = report.percentiles;
-                    golfie = 25;
-                    verify = offset[golfie];
+                    foxtra = oscard.percentiles;
+                    offset = 25;
+                    romeon = foxtra[offset];
  2474:
-                    golfie = 'video_entropy_percentile25';
-                    michal[golfie] = verify;
-                    golfie = report.count;
-                    golfie = golfie > option;
-                    verify = null;
-                    if(!golfie) { _fun00040_ip = 2512; continue _fun00039 }
+                    offset = 'video_entropy_percentile25';
+                    michal[offset] = romeon;
+                    offset = oscard.count;
+                    offset = offset > yankee;
+                    romeon = null;
+                    if(!offset) { _fun00040_ip = 2512; continue _fun00039 }
  2499:
-                    offset = report.percentiles;
-                    golfie = 50;
-                    verify = offset[golfie];
+                    foxtra = oscard.percentiles;
+                    offset = 50;
+                    romeon = foxtra[offset];
  2512:
-                    golfie = 'video_entropy_percentile50';
-                    michal[golfie] = verify;
-                    golfie = report.count;
-                    golfie = golfie > option;
-                    verify = null;
-                    if(!golfie) { _fun00040_ip = 2550; continue _fun00039 }
+                    offset = 'video_entropy_percentile50';
+                    michal[offset] = romeon;
+                    offset = oscard.count;
+                    offset = offset > yankee;
+                    romeon = null;
+                    if(!offset) { _fun00040_ip = 2550; continue _fun00039 }
  2537:
-                    offset = report.percentiles;
-                    golfie = 75;
-                    verify = offset[golfie];
+                    foxtra = oscard.percentiles;
+                    offset = 75;
+                    romeon = foxtra[offset];
  2550:
-                    golfie = 'video_entropy_percentile75';
-                    michal[golfie] = verify;
-                    golfie = report.count;
-                    golfie = golfie > option;
-                    oscard = null;
-                    if(!golfie) { _fun00040_ip = 2588; continue _fun00039 }
+                    offset = 'video_entropy_percentile75';
+                    michal[offset] = romeon;
+                    offset = oscard.count;
+                    offset = offset > yankee;
+                    option = null;
+                    if(!offset) { _fun00040_ip = 2588; continue _fun00039 }
  2575:
-                    golfie = report.percentiles;
-                    report = 99;
-                    oscard = golfie[report];
+                    offset = oscard.percentiles;
+                    oscard = 99;
+                    option = offset[oscard];
  2588:
-                    report = 'video_entropy_percentile99';
+                    oscard = 'video_entropy_percentile99';
+                    michal[oscard] = option;
+                    oscard = _closure1_slot13;
+                    golfie = golfie.encoderBuckets;
+                    option = _closure1_slot0;
+                    report = _closure1_slot2;
+                    report = report[verify];
+                    report = option.bind(entity)(report);
+                    report = report.Encoders;
+                    report = report.EXYNOS;
+                    report = golfie[report];
+                    oscard = oscard.bind(entity)(report);
+                    report = 'duration_encoder_exynos';
                     michal[report] = oscard;
                     michal = zuuluu.bind(tangon)(michal);
                     return entity;
@@ -2262,7 +2274,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = argFoo;
                 oscard = this;
                 entity = null;
-                if(!(entity != zuuluu)) { _fun00046_ip = 3107; continue _fun00045 }
+                if(!(entity != zuuluu)) { _fun00046_ip = 3193; continue _fun00045 }
  15:
                 papara = global;
                 tangon = papara.Number;
@@ -2727,6 +2739,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = oscard[tangon];
                 tangon = report.bind(variable37)(tangon);
                 cntext['duration_decoder_unknown'] = tangon;
+                oscard = zuuluu.decoderBuckets;
+                tangon = variable38[quebec];
+                tangon = variable36.bind(variable37)(tangon);
+                tangon = tangon.Decoders;
+                tangon = tangon.EXYNOS;
+                tangon = oscard[tangon];
+                tangon = report.bind(variable37)(tangon);
+                cntext['duration_decoder_exynos'] = tangon;
+                oscard = zuuluu.decoderBuckets;
+                tangon = variable38[quebec];
+                tangon = variable36.bind(variable37)(tangon);
+                tangon = tangon.Decoders;
+                tangon = tangon.WEBRTC;
+                tangon = oscard[tangon];
+                tangon = report.bind(variable37)(tangon);
+                cntext['duration_decoder_webrtc'] = tangon;
                 variable40 = cntext;
                 variable39 = michal;
                 michal = copyDataProperties(variable40, variable39);
@@ -2763,56 +2791,56 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 quebec = variable36.bind(variable37)(quebec);
                 quebec = quebec.OutboundStats;
                 quebec = zuuluu instanceof quebec;
-                if(quebec) { _fun00046_ip = 2713; continue _fun00045 }
- 2671:
+                if(quebec) { _fun00046_ip = 2799; continue _fun00045 }
+ 2757:
                 cntext['receiver_freeze_count'] = limora;
                 cntext['receiver_total_freezes_duration'] = target;
                 cntext['receiver_total_frames_duration'] = michal;
                 cntext['receiver_pause_count'] = equals;
                 cntext['receiver_total_pauses_duration'] = whisks;
-                _fun00046_ip = 2737; continue _fun00045;
- 2713:
+                _fun00046_ip = 2823; continue _fun00045;
+ 2799:
                 cntext['sender_freeze_count'] = limora;
                 cntext['sender_total_freezes_duration'] = target;
                 cntext['sender_total_frames_duration'] = michal;
- 2737:
+ 2823:
                 michal = {};
                 variable40 = michal;
                 variable39 = cntext;
                 cntext = copyDataProperties(variable40, variable39);
                 target = status > source;
                 limora = 0;
-                if(!target) { _fun00046_ip = 2797; continue _fun00045 }
- 2758:
+                if(!target) { _fun00046_ip = 2883; continue _fun00045 }
+ 2844:
                 equals = papara.Math;
                 whisks = equals.round;
                 cntext = entity != record;
                 quebec = 0;
-                if(!cntext) { _fun00046_ip = 2781; continue _fun00045 }
- 2778:
+                if(!cntext) { _fun00046_ip = 2867; continue _fun00045 }
+ 2864:
                 quebec = record;
- 2781:
+ 2867:
                 cntext = 8;
                 cntext = cntext * quebec;
                 cntext = cntext / status;
                 limora = whisks.bind(equals)(cntext);
- 2797:
+ 2883:
                 cntext = 'avg_bitrate';
                 michal[cntext] = limora;
                 cntext = 0;
-                if(!target) { _fun00046_ip = 2843; continue _fun00045 }
- 2811:
+                if(!target) { _fun00046_ip = 2929; continue _fun00045 }
+ 2897:
                 target = papara.Math;
                 papara = target.round;
                 limora = entity != sierra;
                 source = 0;
-                if(!limora) { _fun00046_ip = 2834; continue _fun00045 }
- 2831:
+                if(!limora) { _fun00046_ip = 2920; continue _fun00045 }
+ 2917:
                 source = sierra;
- 2834:
+ 2920:
                 source = source / status;
                 cntext = papara.bind(target)(source);
- 2843:
+ 2929:
                 source = 'avg_fps';
                 michal[source] = cntext;
                 source = 'num_bytes';
@@ -2863,7 +2891,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = 'encoder_quality_size_mismatches';
                 michal[zuuluu] = tangon;
                 return michal;
- 3107:
+ 3193:
                 return entity;
             }
         };

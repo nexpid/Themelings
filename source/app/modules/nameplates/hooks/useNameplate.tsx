@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = 6;
             oscard = offset[oscard];
             golfie = option.bind(report)(oscard);
-            oscard = golfie.useCanSeeNameplates;
+            oscard = golfie.useCanViewNameplates;
             verify = oscard.bind(golfie)(verify);
             golfie = _closure1_slot4;
             oscard = new Array(1);

@@ -23,18 +23,16 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = {'kind': 'user', 'id': '2025-02_name_plate_experiment', 'label': 'Nameplates Experiment'};
     report = report.CONNECTION_OPEN;
     tangon['commonTriggerPoint'] = report;
-    report = {};
-    offset = false;
-    report['canSee'] = offset;
+    report = {'canSee': false, 'canSeeOffline': false, 'hasUpdatedDMBehavior': false};
     tangon['defaultConfig'] = report;
     report = {'id': 1, 'label': 'Can see'};
-    offset = {'canSee': true, 'defaultPaletteOpacity': '33'};
+    offset = {'canSee': true, 'canSeeOffline': false, 'hasUpdatedDMBehavior': false};
     report['config'] = offset;
     offset = new Array(2);
     offset[0] = report;
-    yankee = {'id': 2, 'label': 'Can see and default palette opacity 10%'};
+    yankee = {'id': 2, 'label': 'Can see (updated)'};
     report = 2;
-    romeon = {'canSee': true, 'defaultPaletteOpacity': '1A'};
+    romeon = {'canSee': true, 'canSeeOffline': true, 'hasUpdatedDMBehavior': true};
     yankee['config'] = romeon;
     offset[1] = yankee;
     tangon['treatments'] = offset;
@@ -59,7 +57,21 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity = entity.canSee;
         return entity;
     };
-    zuuluu['useCanSeeNameplates'] = tangon;
+    zuuluu['useCanViewNameplates'] = tangon;
+    tangon = function(argFoo) {
+        tangon = _closure1_slot0;
+        zuuluu = tangon.useExperiment;
+        michal = {};
+        entity = argFoo;
+        michal['location'] = entity;
+        entity = {};
+        report = false;
+        entity['autoTrackExposure'] = report;
+        entity = zuuluu.bind(tangon)(michal, entity);
+        entity = entity.canSeeOffline;
+        return entity;
+    };
+    zuuluu['useCanViewOfflineNameplates'] = tangon;
     michal = function(argFoo) {
         tangon = _closure1_slot0;
         zuuluu = tangon.useExperiment;
@@ -70,9 +82,9 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         report = false;
         entity['autoTrackExposure'] = report;
         entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.defaultPaletteOpacity;
+        entity = entity.hasUpdatedDMBehavior;
         return entity;
     };
-    zuuluu['useDefaultPaletteOpacity'] = michal;
+    zuuluu['useHasUpdatedDMBehavior'] = michal;
     return entity;
 })();

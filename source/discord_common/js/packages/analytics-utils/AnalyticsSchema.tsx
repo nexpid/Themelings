@@ -41,6 +41,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['ACTIVITY_SHELF'] = michal;
     michal = 'impression_activity_shelf_select_channel';
     tangon['ACTIVITY_SHELF_SELECT_CHANNEL'] = michal;
+    michal = 'impression_app_launcher_badge';
+    tangon['APP_LAUNCHER_BADGE'] = michal;
     michal = 'impression_app_launcher_home_activity_item';
     tangon['APP_LAUNCHER_HOME_ACTIVITY_ITEM'] = michal;
     michal = 'impression_app_launcher_item';

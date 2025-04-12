@@ -565,7 +565,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 993; continue _fun00003 }
+                    if(tangon) { _fun00004_ip = 1002; continue _fun00003 }
  15:
                     oscard = michal.applicationId;
                     echoed = oscard;
@@ -607,7 +607,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return option;
  160:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 990; continue _fun00003 }
+                    if(tangon) { _fun00004_ip = 999; continue _fun00003 }
  169:
                     result = null;
                     record = null;
@@ -626,7 +626,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return tangon;
  216:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=20);
-                    if(source) { _fun00004_ip = 913; continue _fun00003 }
+                    if(source) { _fun00004_ip = 922; continue _fun00003 }
  225:
                     record = tangon;
                     _closure4_slot9 = tangon;
@@ -642,13 +642,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     source = source.APP_HANDLER;
                     source = ctrled !== source;
                     report = source;
-                    if(source) { _fun00004_ip = 507; continue _fun00003 }
+                    if(source) { _fun00004_ip = 516; continue _fun00003 }
  286:
                     vacuum = _closure1_slot23;
                     ctrled = vacuum.includes;
                     source = echoed;
                     source = ctrled.bind(vacuum)(source);
-                    if(source) { _fun00004_ip = 507; continue _fun00003 }
+                    if(source) { _fun00004_ip = 516; continue _fun00003 }
  309:
                     source = verify;
                     if(!(result != source)) { _fun00004_ip = 355; continue _fun00003 }
@@ -665,7 +665,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return source;
  346:
                     ResumeGenerator(result_out_reg=20, return_bool_out_reg=21);
-                    if(ctrled) { _fun00004_ip = 504; continue _fun00003 }
+                    if(ctrled) { _fun00004_ip = 513; continue _fun00003 }
  355:
                     vacuum = _closure1_slot4;
                     ctrled = {};
@@ -677,8 +677,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return ctrled;
  378:
                     ResumeGenerator(result_out_reg=21, return_bool_out_reg=22);
-                    if(vacuum) { _fun00004_ip = 501; continue _fun00003 }
- 384:
+                    if(vacuum) { _fun00004_ip = 510; continue _fun00003 }
+ 387:
                     config = _closure1_slot9;
                     sequen = config.getChannel;
                     vacuum = verify;
@@ -696,15 +696,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     record = record.integration_types;
                     vacuum['commandIntegrationTypes'] = record;
                     vacuum = sequen.bind(config)(vacuum);
-                    SaveGenerator(address=460);
- 458:
+                    SaveGenerator(address=463);
+ 461:
                     return vacuum;
- 460:
+ 463:
                     ResumeGenerator(result_out_reg=22, return_bool_out_reg=23);
-                    if(sequen) { _fun00004_ip = 498; continue _fun00003 }
- 466:
-                    if(vacuum) { _fun00004_ip = 507; continue _fun00003 }
+                    if(sequen) { _fun00004_ip = 507; continue _fun00003 }
  469:
+                    sequen = vacuum.isAuthorized;
+                    if(sequen) { _fun00004_ip = 516; continue _fun00003 }
+ 478:
                     sequen = {};
                     config = 'failure';
                     sequen['result'] = config;
@@ -712,13 +713,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     config = config.UNAUTHORIZED;
                     sequen['reason'] = config;
                     return sequen;
- 498:
-                    return vacuum;
- 501:
-                    return ctrled;
- 504:
-                    return source;
  507:
+                    return vacuum;
+ 510:
+                    return ctrled;
+ 513:
+                    return source;
+ 516:
                     ctrled = _closure1_slot9;
                     source = ctrled.getChannel;
                     verify = source.bind(ctrled)(verify);
@@ -727,18 +728,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = offset;
                     source = result != verify;
                     verify = null;
-                    if(!source) { _fun00004_ip = 554; continue _fun00003 }
- 540:
+                    if(!source) { _fun00004_ip = 563; continue _fun00003 }
+ 549:
                     ctrled = _closure1_slot10;
                     source = ctrled.getGuild;
                     verify = source.bind(ctrled)(offset);
- 554:
+ 563:
                     _closure4_slot11 = verify;
                     verify = kiloes;
-                    if(!(result != verify)) { _fun00004_ip = 884; continue _fun00003 }
- 568:
-                    if(!report) { _fun00004_ip = 821; continue _fun00003 }
- 574:
+                    if(!(result != verify)) { _fun00004_ip = 893; continue _fun00003 }
+ 577:
+                    if(!report) { _fun00004_ip = 830; continue _fun00003 }
+ 583:
                     offset = _closure1_slot5;
                     verify = offset.getApplication;
                     report = echoed;
@@ -750,30 +751,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     backup = undefined;
                     verify = result == report;
                     report = undefined;
-                    if(verify) { _fun00004_ip = 628; continue _fun00003 }
- 620:
+                    if(verify) { _fun00004_ip = 637; continue _fun00003 }
+ 629:
                     verify = update;
                     report = verify.applicationId;
- 628:
-                    if(!(result != report)) { _fun00004_ip = 664; continue _fun00003 }
- 632:
+ 637:
+                    if(!(result != report)) { _fun00004_ip = 673; continue _fun00003 }
+ 641:
                     offset = _closure1_slot5;
                     verify = offset.getApplication;
                     report = update;
                     source = result == report;
                     report = undefined;
-                    if(source) { _fun00004_ip = 659; continue _fun00003 }
- 654:
+                    if(source) { _fun00004_ip = 668; continue _fun00003 }
+ 663:
                     report = update.applicationId;
- 659:
+ 668:
                     backup = verify.bind(offset)(report);
- 664:
+ 673:
                     verify = _closure1_slot12;
                     report = verify.getCurrentUser;
                     report = report.bind(verify)();
                     romeon = report;
-                    if(!(result != report)) { _fun00004_ip = 821; continue _fun00003 }
- 687:
+                    if(!(result != report)) { _fun00004_ip = 830; continue _fun00003 }
+ 696:
                     verify = _closure1_slot0;
                     offset = _closure1_slot2;
                     report = 30;
@@ -787,10 +788,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     output = sizing;
                     output = result != output;
                     kiloes = output;
-                    if(!output) { _fun00004_ip = 743; continue _fun00003 }
- 740:
+                    if(!output) { _fun00004_ip = 752; continue _fun00003 }
+ 749:
                     kiloes = sizing;
- 743:
+ 752:
                     report['isContextless'] = kiloes;
                     report['currentEmbeddedApplication'] = backup;
                     report['embeddedActivitiesManager'] = foxtra;
@@ -799,15 +800,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = false;
                     report['shouldClosePopoutOnLeaveCurrentEmbeddedApplication'] = yankee;
                     report = verify.bind(offset)(report);
-                    SaveGenerator(address=783);
- 781:
+                    SaveGenerator(address=792);
+ 790:
                     return report;
- 783:
-                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=8);
-                    if(verify) { _fun00004_ip = 881; continue _fun00003 }
- 789:
-                    if(report) { _fun00004_ip = 821; continue _fun00003 }
  792:
+                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=8);
+                    if(verify) { _fun00004_ip = 890; continue _fun00003 }
+ 798:
+                    if(report) { _fun00004_ip = 830; continue _fun00003 }
+ 801:
                     verify = {};
                     offset = 'failure';
                     verify['result'] = offset;
@@ -815,7 +816,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = offset.FAILED_ACTIVITY_LAUNCH_CHECKS;
                     verify['reason'] = offset;
                     return verify;
- 821:
+ 830:
                     verify = global;
                     offset = verify.Promise;
                     verify = offset.prototype;
@@ -1001,22 +1002,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sierra = verify;
                     golfie = new sierra[offset](status, target);
                     golfie = golfie instanceof Object ? golfie : verify;
-                    SaveGenerator(address=858);
- 856:
+                    SaveGenerator(address=867);
+ 865:
                     return golfie;
- 858:
+ 867:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=8);
-                    if(verify) { _fun00004_ip = 878; continue _fun00003 }
- 864:
+                    if(verify) { _fun00004_ip = 887; continue _fun00003 }
+ 873:
                     verify = {};
                     offset = 'success';
                     verify['result'] = offset;
                     return verify;
- 878:
+ 887:
                     return golfie;
- 881:
+ 890:
                     return report;
- 884:
+ 893:
                     report = {};
                     golfie = 'failure';
                     report['result'] = golfie;
@@ -1024,9 +1025,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = oscard.NO_CHANNEL;
                     report['reason'] = oscard;
                     return report;
- 913:
+ 922:
                     return tangon;
- 916: // catch_target0
+ 925: // catch_target0
                     CatchBlockStart(arg_register=3);
                     zuuluu = tangon;
                     oscard = tangon.message;
@@ -1036,10 +1037,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = verify[report];
                     report = golfie.bind(option)(report);
                     report = report.NO_PRIMARY_APP_COMMAND_ERROR;
-                    if(!(oscard !== report)) { _fun00004_ip = 961; continue _fun00003 }
- 959:
+                    if(!(oscard !== report)) { _fun00004_ip = 970; continue _fun00003 }
+ 968:
                     throw zuuluu;
- 961:
+ 970:
                     zuuluu = {};
                     report = 'failure';
                     zuuluu['result'] = report;
@@ -1047,9 +1048,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = tangon.NO_PRIMARY_APP_COMMAND;
                     zuuluu['reason'] = tangon;
                     return zuuluu;
- 990:
+ 999:
                     return michal;
- 993:
+ 1002:
                     return entity;
                 }
             };

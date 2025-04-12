@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = 'heading-xxl/bold';
                         tangon = 100;
                         zuuluu = 'Item ';
-                        if(!michal) { _fun00004_ip = 279; continue _fun00003 }
+                        if(!michal) { _fun00004_ip = 277; continue _fun00003 }
  57:
                         backup = entity.push;
                         michal = {};
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         romeon = romeon + 1;
                         michal = _closure3_slot0;
                         if(romeon < michal) { _fun00004_ip = 57; continue _fun00003 }
- 279:
+ 277:
                         return entity;
                     }
                 };

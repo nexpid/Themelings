@@ -2140,15 +2140,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = {};
                 tangon['location'] = golfie;
                 tangon = report.bind(oscard)(tangon);
-                if(zuuluu) { _fun00074_ip = 104; continue _fun00073 }
- 92:
+                if(zuuluu) { _fun00074_ip = 108; continue _fun00073 }
+ 96:
                 zuuluu = michal.getFrequentlyUsedEmojisWithoutFetchingLatest;
                 tangon = zuuluu.bind(michal)();
-                _fun00074_ip = 114; continue _fun00073;
- 104:
+                _fun00074_ip = 118; continue _fun00073;
+ 108:
                 zuuluu = michal.getFrequentlyUsedReactionEmojisWithoutFetchingLatest;
                 tangon = zuuluu.bind(michal)();
- 114:
+ 118:
                 zuuluu = global;
                 zuuluu = zuuluu.Set;
                 report = zuuluu.prototype;

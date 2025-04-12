@@ -168,6 +168,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['streamId'] = ctrled;
             zuuluu['userId'] = echoed;
             zuuluu['videoSpinnerContext'] = result;
+            zuuluu['loading'] = backup;
             zuuluu['streamKey'] = romeon;
             zuuluu = offset.bind(report)(zuuluu);
             zuuluu = zuuluu.onReady;
@@ -540,8 +541,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             verify = zuuluu.bind(verify)(entity, michal);
             output = null;
-            if(!backup) { _fun00002_ip = 844; continue _fun00001 }
- 770:
+            if(!backup) { _fun00002_ip = 849; continue _fun00001 }
+ 775:
             zuuluu = _closure1_slot9;
             cntext = _closure1_slot1;
             papara = _closure1_slot2;
@@ -559,7 +560,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = romeon.BRAND_500;
             entity['color'] = romeon;
             output = zuuluu.bind(report)(michal, entity);
- 844:
+ 849:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 11;
@@ -583,10 +584,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.isAndroid;
             entity = entity.bind(michal)();
             tangon = _closure1_slot10;
-            if(entity) { _fun00002_ip = 1225; continue _fun00001 }
- 938:
-            if(foxtra) { _fun00002_ip = 1013; continue _fun00001 }
- 941:
+            if(entity) { _fun00002_ip = 1230; continue _fun00001 }
+ 943:
+            if(foxtra) { _fun00002_ip = 1018; continue _fun00001 }
+ 946:
             michal = _closure1_slot5;
             entity = {};
             entity['onLayout'] = golfie;
@@ -603,8 +604,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu[1] = output;
             entity['children'] = zuuluu;
             entity = tangon.bind(report)(michal, entity);
-            _fun00002_ip = 1220; continue _fun00001;
- 1013:
+            _fun00002_ip = 1225; continue _fun00001;
+ 1018:
             zuuluu = _closure1_slot8;
             michal = {};
             michal['ref'] = result;
@@ -642,16 +643,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = new Array(2);
             vacuum[0] = cntext;
             cntext = null;
-            if(!romeon) { _fun00002_ip = 1184; continue _fun00001 }
- 1168:
+            if(!romeon) { _fun00002_ip = 1189; continue _fun00001 }
+ 1173:
             target = offset == yankee;
             papara = undefined;
-            if(target) { _fun00002_ip = 1181; continue _fun00001 }
- 1177:
+            if(target) { _fun00002_ip = 1186; continue _fun00001 }
+ 1182:
             papara = yankee.bind(report)();
- 1181:
+ 1186:
             cntext = papara;
- 1184:
+ 1189:
             vacuum[1] = cntext;
             option['children'] = vacuum;
             result = tangon.bind(report)(result, option);
@@ -660,9 +661,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option[1] = output;
             michal['children'] = option;
             entity = tangon.bind(report)(zuuluu, michal);
- 1220:
-            _fun00002_ip = 1493; continue _fun00001;
  1225:
+            _fun00002_ip = 1498; continue _fun00001;
+ 1230:
             zuuluu = _closure1_slot5;
             michal = {};
             michal['onLayout'] = golfie;
@@ -716,28 +717,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = {};
             golfie['style'] = verify;
             verify = null;
-            if(backup) { _fun00002_ip = 1469; continue _fun00001 }
- 1443:
-            verify = null;
-            if(!foxtra) { _fun00002_ip = 1469; continue _fun00001 }
+            if(backup) { _fun00002_ip = 1474; continue _fun00001 }
  1448:
             verify = null;
-            if(!romeon) { _fun00002_ip = 1469; continue _fun00001 }
+            if(!foxtra) { _fun00002_ip = 1474; continue _fun00001 }
  1453:
+            verify = null;
+            if(!romeon) { _fun00002_ip = 1474; continue _fun00001 }
+ 1458:
             romeon = offset == yankee;
             offset = undefined;
-            if(romeon) { _fun00002_ip = 1466; continue _fun00001 }
- 1462:
+            if(romeon) { _fun00002_ip = 1471; continue _fun00001 }
+ 1467:
             offset = yankee.bind(report)();
- 1466:
+ 1471:
             verify = offset;
- 1469:
+ 1474:
             golfie['children'] = verify;
             golfie = option.bind(report)(zuuluu, golfie);
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1493:
+ 1498:
             return entity;
         }
     };

@@ -1,4 +1,4 @@
-// app/modules/errors/AVErrorContext.tsx
+// app/modules/errors/av_errors/AVErrorContext.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = argBar;
     option = argBaz;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
-    report = 'modules/errors/AVErrorContext.tsx';
+    report = 'modules/errors/av_errors/AVErrorContext.tsx';
     report = oscard.bind(golfie)(report);
     report = function() { // Original name: getVoiceChannelErrorContext
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {

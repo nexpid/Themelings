@@ -94,6 +94,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['VIRTUAL_CURRENCY_ORB_PROFILE_BADGE'] = entity;
     entity = 'intro to orbs quest';
     michal['INTRO_TO_ORBS_QUEST'] = entity;
+    entity = 'orbs balance menu';
+    michal['ORBS_BALANCE_MENU'] = entity;
     entity = 'premium payment action sheet';
     michal['PREMIUM_PAYMENT_ACTION_SHEET'] = entity;
     entity = 'channel call';
@@ -605,6 +607,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['COLLECTIBLES_SHOP_HOME_SCREEN'] = entity;
     entity = 'collectibles shop fullscreen';
     michal['COLLECTIBLES_SHOP_FULLSCREEN'] = entity;
+    entity = 'collectibles shop orbs tab';
+    michal['COLLECTIBLES_SHOP_ORBS_TAB'] = entity;
     entity = 'collectibles shop index page';
     michal['COLLECTIBLES_SHOP_INDEX_PAGE'] = entity;
     entity = 'collectibles shop card';

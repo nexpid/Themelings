@@ -1,4 +1,4 @@
-// app/modules/errors/AVErrorStore.tsx
+// app/modules/errors/av_errors/AVErrorStore.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     golfie = argBaz;
@@ -540,7 +540,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/errors/AVErrorStore.tsx';
+    tangon = 'modules/errors/av_errors/AVErrorStore.tsx';
     tangon = report.bind(oscard)(tangon);
     zuuluu['default'] = michal;
     return entity;

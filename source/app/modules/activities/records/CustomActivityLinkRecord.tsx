@@ -80,8 +80,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu['title'] = tangon;
                 tangon = michal.description;
                 zuuluu['description'] = tangon;
-                tangon = michal.primary_cta;
-                zuuluu['primaryCta'] = tangon;
                 michal = michal.custom_id;
                 zuuluu['customId'] = michal;
                 return entity;

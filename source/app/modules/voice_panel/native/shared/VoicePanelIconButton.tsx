@@ -67,10 +67,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[offset] = yankee;
             offset = verify != golfie;
             verify = 'secondary-overlay';
-            if(!offset) { _fun00002_ip = 160; continue _fun00001 }
- 157:
+            if(!offset) { _fun00002_ip = 164; continue _fun00001 }
+ 161:
             verify = golfie;
- 160:
+ 164:
             golfie = 'variant';
             report[golfie] = verify;
             golfie = 'maxFontSizeMultiplier';

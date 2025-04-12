@@ -38,6 +38,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     zuuluu['APP_LAUNCHER_APP_DM_ENTRYPOINT_CLASSNAME'] = tangon;
     tangon = 'app-launcher-app-details-more-menu';
     zuuluu['APP_LAUNCHER_APP_DETAILS_MORE_MENU_CLASSNAME'] = tangon;
+    tangon = 'app-launcher-profile-friend-activity-entry';
+    zuuluu['APP_LAUNCHER_PROFILE_FRIEND_ACTIVITY_ENTRY'] = tangon;
     tangon = 500;
     zuuluu['APP_LAUNCHER_WIDTH'] = tangon;
     tangon = 680;

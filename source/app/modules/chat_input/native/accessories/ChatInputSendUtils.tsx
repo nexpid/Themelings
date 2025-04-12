@@ -421,49 +421,73 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00010_ip = 305; continue _fun00009 }
+                    if(zuuluu) { _fun00010_ip = 395; continue _fun00009 }
  13:
                     tangon = michal.applicationCommand;
-                    oscard = tangon.command;
-                    offset = tangon.optionValues;
-                    golfie = michal.params;
-                    tangon = undefined;
+                    golfie = tangon.command;
+                    yankee = tangon.optionValues;
+                    option = michal.params;
+                    report = undefined;
                     SaveGenerator(address=43);
  41:
-                    return tangon;
+                    return report;
  43:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00010_ip = 302; continue _fun00009 }
+                    if(zuuluu) { _fun00010_ip = 392; continue _fun00009 }
  52:
-                    foxtra = golfie.channel;
-                    zuuluu = golfie.chatInputRef;
-                    report = zuuluu.current;
-                    option = null;
-                    if(!(option != report)) { _fun00010_ip = 84; continue _fun00009 }
+                    backup = option.channel;
+                    zuuluu = option.chatInputRef;
+                    tangon = zuuluu.current;
+                    verify = null;
+                    if(!(verify != tangon)) { _fun00010_ip = 84; continue _fun00009 }
  74:
-                    zuuluu = report.clearText;
-                    zuuluu = zuuluu.bind(report)();
+                    zuuluu = tangon.clearText;
+                    zuuluu = zuuluu.bind(tangon)();
  84:
-                    verify = _closure1_slot1;
-                    romeon = _closure1_slot2;
+                    tangon = _closure1_slot0;
+                    offset = _closure1_slot2;
                     zuuluu = 27;
-                    zuuluu = romeon[zuuluu];
-                    verify = verify.bind(tangon)(zuuluu);
+                    zuuluu = offset[zuuluu];
+                    offset = tangon.bind(report)(zuuluu);
+                    tangon = offset.installApplicationOnDemandIfNeeded;
                     zuuluu = {};
-                    zuuluu['command'] = oscard;
-                    zuuluu['optionValues'] = offset;
-                    yankee = _closure1_slot0;
-                    offset = 28;
-                    offset = romeon[offset];
-                    romeon = yankee.bind(tangon)(offset);
-                    yankee = romeon.getCommandContext;
-                    offset = {};
-                    offset['channel'] = foxtra;
-                    foxtra = 'channel';
-                    offset['type'] = foxtra;
-                    offset = yankee.bind(romeon)(offset);
-                    zuuluu['context'] = offset;
-                    offset = function(argFoo, argBar) { // Original name: maxSizeCallback
+                    romeon = golfie.applicationId;
+                    zuuluu['applicationId'] = romeon;
+                    romeon = option.channel;
+                    zuuluu['channel'] = romeon;
+                    romeon = golfie.integration_types;
+                    zuuluu['commandIntegrationTypes'] = romeon;
+                    zuuluu = tangon.bind(offset)(zuuluu);
+                    SaveGenerator(address=153);
+ 151:
+                    return zuuluu;
+ 153:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                    if(tangon) { _fun00010_ip = 389; continue _fun00009 }
+ 162:
+                    tangon = zuuluu.isAuthorized;
+                    if(!tangon) { _fun00010_ip = 383; continue _fun00009 }
+ 174:
+                    offset = _closure1_slot1;
+                    foxtra = _closure1_slot2;
+                    tangon = 28;
+                    tangon = foxtra[tangon];
+                    offset = offset.bind(report)(tangon);
+                    tangon = {};
+                    tangon['command'] = golfie;
+                    tangon['optionValues'] = yankee;
+                    romeon = _closure1_slot0;
+                    yankee = 29;
+                    yankee = foxtra[yankee];
+                    foxtra = romeon.bind(report)(yankee);
+                    romeon = foxtra.getCommandContext;
+                    yankee = {};
+                    yankee['channel'] = backup;
+                    backup = 'channel';
+                    yankee['type'] = backup;
+                    yankee = romeon.bind(foxtra)(yankee);
+                    tangon['context'] = yankee;
+                    yankee = function(argFoo, argBar) { // Original name: maxSizeCallback
                         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                             michal = _closure1_slot8;
@@ -494,7 +518,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             option = option.FILE_UPLOAD_POPOUT;
                             golfie['section'] = option;
                             michal['analyticsLocation'] = golfie;
-                            golfie = 30;
+                            golfie = 31;
                             golfie = yankee[golfie];
                             golfie = zuuluu.bind(entity)(golfie);
                             option = golfie.FILE_UPLOAD_POPOUT;
@@ -537,7 +561,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             report = report.t;
                             oscard = report.fxEKdX;
                             report = {};
-                            verify = 29;
+                            verify = 30;
                             verify = yankee[verify];
                             yankee = offset.bind(entity)(verify);
                             offset = yankee.sizeString;
@@ -551,48 +575,50 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             return entity;
                         }
                     };
-                    zuuluu['maxSizeCallback'] = offset;
-                    zuuluu = verify.bind(tangon)(zuuluu);
-                    SaveGenerator(address=187);
- 185:
-                    return zuuluu;
- 187:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=8);
-                    if(verify) { _fun00010_ip = 299; continue _fun00009 }
- 193:
-                    verify = oscard.inputType;
-                    offset = _closure1_slot0;
-                    yankee = _closure1_slot2;
-                    oscard = 31;
-                    oscard = yankee[oscard];
-                    oscard = offset.bind(tangon)(oscard);
-                    oscard = oscard.ApplicationCommandInputType;
-                    oscard = oscard.BUILT_IN_TEXT;
-                    oscard = verify === oscard;
-                    if(!oscard) { _fun00010_ip = 242; continue _fun00009 }
- 238:
-                    oscard = option != zuuluu;
- 242:
-                    if(!oscard) { _fun00010_ip = 296; continue _fun00009 }
- 245:
-                    oscard = _closure1_slot15;
-                    report = {};
-                    option = zuuluu.content;
-                    report['text'] = option;
-                    report['parsedMessage'] = tangon;
-                    option = zuuluu.tts;
-                    report['tts'] = option;
-                    option = 'handleSendApplicationCommand';
-                    report['source'] = option;
-                    report['params'] = golfie;
-                    report = oscard.bind(tangon)(report);
- 296:
+                    tangon['maxSizeCallback'] = yankee;
+                    tangon = offset.bind(report)(tangon);
+                    SaveGenerator(address=274);
+ 272:
                     return tangon;
- 299:
+ 274:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=9);
+                    if(offset) { _fun00010_ip = 386; continue _fun00009 }
+ 280:
+                    offset = golfie.inputType;
+                    yankee = _closure1_slot0;
+                    romeon = _closure1_slot2;
+                    golfie = 32;
+                    golfie = romeon[golfie];
+                    golfie = yankee.bind(report)(golfie);
+                    golfie = golfie.ApplicationCommandInputType;
+                    golfie = golfie.BUILT_IN_TEXT;
+                    golfie = offset === golfie;
+                    if(!golfie) { _fun00010_ip = 329; continue _fun00009 }
+ 325:
+                    golfie = verify != tangon;
+ 329:
+                    if(!golfie) { _fun00010_ip = 383; continue _fun00009 }
+ 332:
+                    golfie = _closure1_slot15;
+                    oscard = {};
+                    verify = tangon.content;
+                    oscard['text'] = verify;
+                    oscard['parsedMessage'] = report;
+                    verify = tangon.tts;
+                    oscard['tts'] = verify;
+                    verify = 'handleSendApplicationCommand';
+                    oscard['source'] = verify;
+                    oscard['params'] = option;
+                    oscard = golfie.bind(report)(oscard);
+ 383:
+                    return report;
+ 386:
+                    return tangon;
+ 389:
                     return zuuluu;
- 302:
+ 392:
                     return michal;
- 305:
+ 395:
                     return entity;
                 }
             };
@@ -658,7 +684,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.PremiumUpsellTypes;
     var _closure1_slot12 = tangon;
-    tangon = 32;
+    tangon = 33;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

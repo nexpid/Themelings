@@ -267,7 +267,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.DismissibleContent;
                 michal = entity.USER_PROFILE_PREMIUM_AND_SHOP_ENTRY_POINTS;
                 entity = null;
-                if(!(zuuluu === michal)) { _fun00002_ip = 946; continue _fun00001 }
+                if(!(zuuluu === michal)) { _fun00002_ip = 948; continue _fun00001 }
  67:
                 tangon = _closure1_slot8;
                 golfie = _closure1_slot1;
@@ -354,7 +354,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 ctrled = sizing[config];
                 ctrled = result.bind(report)(ctrled);
                 ctrled = ctrled.t;
-                ctrled = ctrled.WAI6xs;
+                ctrled = ctrled.6Xcq+f;
                 ctrled = vacuum.bind(sequen)(ctrled);
                 foxtra['accessibilityLabel'] = ctrled;
                 update = function() { // Original name: onPress
@@ -402,24 +402,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 echoed = echoed[config];
                 echoed = sequen.bind(report)(echoed);
                 echoed = echoed.t;
-                if(sizing) { _fun00002_ip = 634; continue _fun00001 }
- 619:
+                if(sizing) { _fun00002_ip = 636; continue _fun00001 }
+ 621:
                 sizing = echoed.x6rkDg;
                 sizing = update.bind(ctrled)(sizing);
-                _fun00002_ip = 647; continue _fun00001;
- 634:
+                _fun00002_ip = 649; continue _fun00001;
+ 636:
                 echoed = echoed.0Q61kJ;
                 sizing = update.bind(ctrled)(echoed);
- 647:
+ 649:
                 result['text'] = sizing;
                 sizing = _closure2_slot5;
-                if(sizing) { _fun00002_ip = 666; continue _fun00001 }
- 660:
+                if(sizing) { _fun00002_ip = 668; continue _fun00001 }
+ 662:
                 sizing = _closure2_slot7;
-                _fun00002_ip = 670; continue _fun00001;
- 666:
+                _fun00002_ip = 672; continue _fun00001;
+ 668:
                 sizing = _closure2_slot8;
- 670:
+ 672:
                 result['onPress'] = sizing;
                 sizing = _closure1_slot8;
                 ctrled = _closure1_slot0;
@@ -481,7 +481,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = option.bind(report)(golfie, oscard);
                 michal['children'] = oscard;
                 entity = tangon.bind(report)(zuuluu, michal);
- 946:
+ 948:
                 return entity;
             }
         };

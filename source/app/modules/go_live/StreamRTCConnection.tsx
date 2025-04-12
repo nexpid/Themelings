@@ -394,6 +394,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         entity['streamId'] = oscard;
                         report = _closure4_slot1;
                         entity['rtcServerId'] = report;
+                        oscard = _closure3_slot0;
+                        report = oscard.getMediaEngineConnectionId;
+                        report = report.bind(oscard)();
+                        entity['mediaEngineConnectionId'] = report;
                         tangon = _closure1_slot20;
                         tangon = tangon.STREAM;
                         entity['context'] = tangon;

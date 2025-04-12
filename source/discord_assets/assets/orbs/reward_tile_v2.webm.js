@@ -1,4 +1,4 @@
-// discord_assets/assets/orbs/reward_tile.webm.js
+// discord_assets/assets/orbs/reward_tile_v2.webm.js
 module.exports = (function(_, argBar, __, ___, ____, argFre, argPlu) {
     zuuluu = argFre;
     entity = global;
@@ -16,12 +16,12 @@ module.exports = (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = undefined;
     report = michal.bind(entity)(tangon);
     tangon = report.fileFinishedImporting;
-    michal = '../discord_assets/assets/orbs/reward_tile.webm.js';
+    michal = '../discord_assets/assets/orbs/reward_tile_v2.webm.js';
     michal = tangon.bind(report)(michal);
-    michal = 'https://cdn.discordapp.com/assets/content/ea32565494378862df70a45cad70bf0e32a265c34f1a4c78cf37002d5bd8c31d.webm';
+    michal = 'https://cdn.discordapp.com/assets/content/eff35518172b971fa47c521ca21c7576d3a245433a669a6765f63b744b7b733a.webm';
     zuuluu['default'] = michal;
     michal = {};
-    tangon = 317923;
+    tangon = 130591;
     michal['fileBytes'] = tangon;
     zuuluu['metadata'] = michal;
     return entity;

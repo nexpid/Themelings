@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu['staticImageUrl'] = tangon;
             report = _closure1_slot2;
             report = report.LEVEL;
-            if(!(report !== oscard)) { _fun00002_ip = 310; continue _fun00001 }
+            if(!(report !== oscard)) { _fun00002_ip = 303; continue _fun00001 }
  236:
             report = _closure1_slot2;
             report = report.PERK;
@@ -120,23 +120,21 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             oscard = golfie;
  287:
             report['description'] = oscard;
-            oscard = false;
-            report['bundle'] = oscard;
             config = report;
             sequen = zuuluu;
             oscard = copyDataProperties(config, sequen);
             return report;
- 310:
+ 303:
             report = michal.sku;
             oscard = report.powerup_metadata;
             golfie = sizing == oscard;
             report = undefined;
-            if(golfie) { _fun00002_ip = 337; continue _fun00001 }
- 331:
+            if(golfie) { _fun00002_ip = 330; continue _fun00001 }
+ 324:
             report = oscard.guild_features;
+ 330:
+            if(!(sizing != report)) { _fun00002_ip = 823; continue _fun00001 }
  337:
-            if(!(sizing != report)) { _fun00002_ip = 830; continue _fun00001 }
- 344:
             golfie = _closure1_slot3;
             oscard = report.additional_emoji_slots;
             backup = golfie + oscard;
@@ -156,8 +154,8 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             option = backup;
             golfie = foxtra;
             oscard = romeon;
-            if(!michal) { _fun00002_ip = 758; continue _fun00001 }
- 427:
+            if(!michal) { _fun00002_ip = 751; continue _fun00001 }
+ 420:
             echoed = output.find;
             michal = function(argFoo) {
                 michal = _closure2_slot0;
@@ -170,107 +168,107 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             ctrled = echoed.bind(output)(michal);
             michal = sizing == ctrled;
             echoed = undefined;
-            if(michal) { _fun00002_ip = 516; continue _fun00001 }
- 453:
+            if(michal) { _fun00002_ip = 509; continue _fun00001 }
+ 446:
             michal = ctrled.sku;
             update = sizing == michal;
             yankee = michal;
             echoed = undefined;
-            if(update) { _fun00002_ip = 516; continue _fun00001 }
- 471:
+            if(update) { _fun00002_ip = 509; continue _fun00001 }
+ 464:
             michal = michal.powerup_metadata;
             update = sizing == michal;
             yankee = michal;
             echoed = undefined;
-            if(update) { _fun00002_ip = 516; continue _fun00001 }
- 489:
+            if(update) { _fun00002_ip = 509; continue _fun00001 }
+ 482:
             update = michal.guild_features;
             michal = sizing == update;
             yankee = update;
             echoed = undefined;
-            if(michal) { _fun00002_ip = 516; continue _fun00001 }
- 507:
+            if(michal) { _fun00002_ip = 509; continue _fun00001 }
+ 500:
             echoed = update.additional_emoji_slots;
             yankee = update;
- 516:
+ 509:
             update = sizing != echoed;
             michal = 0;
-            if(!update) { _fun00002_ip = 528; continue _fun00001 }
- 525:
+            if(!update) { _fun00002_ip = 521; continue _fun00001 }
+ 518:
             michal = echoed;
- 528:
+ 521:
             source = backup + michal;
             michal = sizing == ctrled;
             echoed = undefined;
-            if(michal) { _fun00002_ip = 604; continue _fun00001 }
- 541:
+            if(michal) { _fun00002_ip = 597; continue _fun00001 }
+ 534:
             michal = ctrled.sku;
             update = sizing == michal;
             offset = michal;
             echoed = undefined;
-            if(update) { _fun00002_ip = 604; continue _fun00001 }
- 559:
+            if(update) { _fun00002_ip = 597; continue _fun00001 }
+ 552:
             michal = michal.powerup_metadata;
             update = sizing == michal;
             offset = michal;
             echoed = undefined;
-            if(update) { _fun00002_ip = 604; continue _fun00001 }
- 577:
+            if(update) { _fun00002_ip = 597; continue _fun00001 }
+ 570:
             update = michal.guild_features;
             michal = sizing == update;
             offset = update;
             echoed = undefined;
-            if(michal) { _fun00002_ip = 604; continue _fun00001 }
- 595:
+            if(michal) { _fun00002_ip = 597; continue _fun00001 }
+ 588:
             echoed = update.additional_sound_slots;
             offset = update;
- 604:
+ 597:
             update = sizing != echoed;
             michal = 0;
-            if(!update) { _fun00002_ip = 616; continue _fun00001 }
- 613:
+            if(!update) { _fun00002_ip = 609; continue _fun00001 }
+ 606:
             michal = echoed;
- 616:
+ 609:
             update = foxtra + michal;
             michal = sizing == ctrled;
             echoed = undefined;
-            if(michal) { _fun00002_ip = 692; continue _fun00001 }
- 629:
+            if(michal) { _fun00002_ip = 685; continue _fun00001 }
+ 622:
             michal = ctrled.sku;
             vacuum = sizing == michal;
             verify = michal;
             echoed = undefined;
-            if(vacuum) { _fun00002_ip = 692; continue _fun00001 }
- 647:
+            if(vacuum) { _fun00002_ip = 685; continue _fun00001 }
+ 640:
             michal = michal.powerup_metadata;
             vacuum = sizing == michal;
             verify = michal;
             echoed = undefined;
-            if(vacuum) { _fun00002_ip = 692; continue _fun00001 }
- 665:
+            if(vacuum) { _fun00002_ip = 685; continue _fun00001 }
+ 658:
             vacuum = michal.guild_features;
             michal = sizing == vacuum;
             verify = vacuum;
             echoed = undefined;
-            if(michal) { _fun00002_ip = 692; continue _fun00001 }
- 683:
+            if(michal) { _fun00002_ip = 685; continue _fun00001 }
+ 676:
             echoed = vacuum.additional_sticker_slots;
             verify = vacuum;
- 692:
+ 685:
             vacuum = sizing != echoed;
             michal = 0;
-            if(!vacuum) { _fun00002_ip = 704; continue _fun00001 }
- 701:
+            if(!vacuum) { _fun00002_ip = 697; continue _fun00001 }
+ 694:
             michal = echoed;
- 704:
+ 697:
             echoed = romeon + michal;
             vacuum = sizing == ctrled;
             michal = undefined;
-            if(vacuum) { _fun00002_ip = 729; continue _fun00001 }
- 717:
+            if(vacuum) { _fun00002_ip = 722; continue _fun00001 }
+ 710:
             ctrled = ctrled.sku;
             michal = ctrled.dependent_sku_id;
- 729:
+ 722:
             _closure2_slot0 = michal;
             backup = source;
             foxtra = update;
@@ -278,8 +276,8 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             option = backup;
             golfie = foxtra;
             oscard = romeon;
-            if(sizing != michal) { _fun00002_ip = 427; continue _fun00001 }
- 758:
+            if(sizing != michal) { _fun00002_ip = 420; continue _fun00001 }
+ 751:
             michal = {};
             tangon = _closure1_slot2;
             tangon = tangon.LEVEL;
@@ -299,7 +297,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             sequen = zuuluu;
             zuuluu = copyDataProperties(config, sequen);
             return michal;
- 830:
+ 823:
             return entity;
         }
     };

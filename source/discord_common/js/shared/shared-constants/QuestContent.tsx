@@ -122,6 +122,14 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['VIDEO_MODAL_MOBILE'] = oscard;
     michal = 'VIDEO_MODAL_MOBILE';
     tangon[oscard] = michal;
+    oscard = 28;
+    tangon['ORBS_ANNOUNCEMENT_MODAL'] = oscard;
+    michal = 'ORBS_ANNOUNCEMENT_MODAL';
+    tangon[oscard] = michal;
+    oscard = 29;
+    tangon['ORBS_BALANCE_MENU'] = oscard;
+    michal = 'ORBS_BALANCE_MENU';
+    tangon[oscard] = michal;
     michal = {};
     option = entity.Set;
     oscard = option.prototype;

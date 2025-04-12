@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = result[sizing];
             sizing = output.bind(tangon)(sizing);
             sizing = sizing.Sizes;
-            sizing = sizing.EXTRA_SMALL;
+            sizing = sizing.REFRESH_SMALL_16;
             foxtra['size'] = sizing;
             sizing = yankee.arrowIcon;
             foxtra['style'] = sizing;
@@ -312,7 +312,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _fun00008_ip = 136; continue _fun00007;
  112:
             zuuluu = _closure1_slot11;
-            michal = {'size': 'sm', 'color': 'text-primary'};
+            michal = {'size': 'md', 'color': 'text-primary'};
             entity = zuuluu.bind(tangon)(report, michal);
  136:
             return entity;
@@ -464,7 +464,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     foxtra = foxtra.TEXT_PRIMARY;
     offset['tintColor'] = foxtra;
     report['guildChannelIcon'] = offset;
-    offset = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 4, 'paddingBottom': 6};
+    offset = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 4, 'marginBottom': 4};
     report['subTitleContainer'] = offset;
     offset = {'lineHeight': 16, 'flexShrink': 1};
     report['parentChannelName'] = offset;

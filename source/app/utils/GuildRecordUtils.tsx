@@ -958,6 +958,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     zuuluu['fromInviteGuild'] = report;
+    report = function(argFoo) { // Original name: fromGuildProfile
+        entity = argFoo;
+        zuuluu = {};
+        michal = entity.id;
+        zuuluu['id'] = michal;
+        michal = entity.name;
+        zuuluu['name'] = michal;
+        michal = entity.description;
+        zuuluu['description'] = michal;
+        michal = entity.icon;
+        zuuluu['icon'] = michal;
+        michal = entity.premiumSubscriberCount;
+        zuuluu['premiumSubscriberCount'] = michal;
+        michal = entity.premiumTier;
+        zuuluu['premiumTier'] = michal;
+        entity = entity.features;
+        zuuluu['features'] = entity;
+        entity = _closure1_slot3;
+        michal = entity.prototype;
+        michal = Object.create(michal, {constructor: {value: entity}});
+        report = michal;
+        tangon = zuuluu;
+        entity = new report[entity](tangon, zuuluu);
+        entity = entity instanceof Object ? entity : michal;
+        return entity;
+    };
+    zuuluu['fromGuildProfile'] = report;
     zuuluu['toServer'] = tangon;
     tangon = function(argFoo) { // Original name: fromSerializedGuildRecord
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {

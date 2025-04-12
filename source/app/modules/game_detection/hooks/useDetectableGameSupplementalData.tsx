@@ -121,9 +121,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure3_slot0 = entity;
             oscard = new Array(0);
             var _closure3_slot1 = oscard;
-            tangon = entity._pending;
-            zuuluu = tangon.forEach;
-            entity = function(argFoo) {
+            report = entity._pending;
+            tangon = report.forEach;
+            zuuluu = function(argFoo) {
                 zuuluu = argFoo;
                 michal = _closure3_slot0;
                 tangon = michal._fetched;
@@ -135,7 +135,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = undefined;
                 return entity;
             };
-            entity = zuuluu.bind(tangon)(entity);
+            zuuluu = tangon.bind(report)(zuuluu);
+            zuuluu = entity._pending;
+            entity = zuuluu.clear;
+            entity = entity.bind(zuuluu)();
             tangon = _closure1_slot1;
             zuuluu = _closure1_slot2;
             entity = 5;

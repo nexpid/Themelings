@@ -171,6 +171,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     tangon = _closure1_slot15;
                     tangon = tangon.DEFAULT;
                     entity['context'] = tangon;
+                    report = _closure2_slot0;
+                    tangon = report.getMediaEngineConnectionId;
+                    tangon = tangon.bind(report)();
+                    entity['mediaEngineConnectionId'] = tangon;
                     entity = michal.bind(zuuluu)(entity);
                     return entity;
                 };

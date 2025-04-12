@@ -20,7 +20,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     golfie = tangon.bind(entity)(report);
     var _closure1_slot2 = golfie;
     report = golfie.createContext;
-    tangon = {'quest': null, 'videoSessionId': ''};
+    tangon = {'quest': null, 'videoSessionId': '', 'isModalPanGestureActive': null};
     tangon = report.bind(golfie)(tangon);
     var _closure1_slot3 = tangon;
     report = 2;

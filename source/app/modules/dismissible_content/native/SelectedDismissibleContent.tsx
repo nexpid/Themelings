@@ -225,6 +225,46 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['useSelectedSnowflakeBoundDismissibleContent'] = tangon;
+    tangon = function(argFoo, argBar, argBaz, argCor) { // Original name: useSelectedTimeReccuringSnowflakeBoundDismissibleContent
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+ 0:
+            report = arguments[4];
+            oscard = undefined;
+            if(!(report === oscard)) { _fun00010_ip = 11; continue _fun00009 }
+ 9:
+            report = false;
+ 11:
+            tangon = _closure1_slot0;
+            golfie = _closure1_slot1;
+            michal = 3;
+            michal = golfie[michal];
+            yankee = tangon.bind(oscard)(michal);
+            offset = yankee.useGetTimeReccuringSnowflakeBoundDismissibleContent;
+            kiloes = argFoo;
+            backup = argBaz;
+            foxtra = argBar;
+            romeon = argCor;
+            sizing = yankee;
+            zuuluu = sizing[offset](kiloes, backup, foxtra, romeon, yankee);
+            michal = _closure1_slot2;
+            entity = 2;
+            michal = michal.bind(oscard)(zuuluu, entity);
+            entity = 0;
+            zuuluu = michal[entity];
+            entity = 1;
+            michal = michal[entity];
+            entity = 4;
+            entity = golfie[entity];
+            tangon = tangon.bind(oscard)(entity);
+            entity = tangon.useSelectedDismissibleContentShared;
+            entity = entity.bind(tangon)(zuuluu, michal, report);
+            entity = new Array(2);
+            entity[0] = zuuluu;
+            entity[1] = michal;
+            return entity;
+        }
+    };
+    zuuluu['useSelectedTimeReccuringSnowflakeBoundDismissibleContent'] = tangon;
     tangon = function(argFoo) { // Original name: SelectedVersionedDismissibleContent
         entity = argFoo;
         yankee = entity.contentType;
@@ -303,7 +343,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     zuuluu['SelectedTimeRecurringDismissibleContent'] = tangon;
-    michal = function(argFoo) { // Original name: SelectedSnowflakeBoundDismissibleContent
+    tangon = function(argFoo) { // Original name: SelectedSnowflakeBoundDismissibleContent
         entity = argFoo;
         yankee = entity.contentType;
         offset = entity.newSnowflakeId;
@@ -341,6 +381,48 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zuuluu['SelectedSnowflakeBoundDismissibleContent'] = michal;
+    zuuluu['SelectedSnowflakeBoundDismissibleContent'] = tangon;
+    michal = function(argFoo) { // Original name: SelectedTimeReccuringSnowflakeBoundDismissibleContent
+        entity = argFoo;
+        romeon = entity.contentType;
+        backup = entity.newSnowflakeId;
+        kiloes = entity.timeRecurringConfig;
+        foxtra = entity.groupName;
+        report = entity.bypassAutoDismiss;
+        oscard = entity.children;
+        zuuluu = _closure1_slot0;
+        verify = _closure1_slot1;
+        michal = 3;
+        michal = verify[michal];
+        tangon = undefined;
+        golfie = zuuluu.bind(tangon)(michal);
+        michal = golfie.useGetTimeReccuringSnowflakeBoundDismissibleContent;
+        output = golfie;
+        sizing = romeon;
+        option = output[michal](sizing, kiloes, backup, foxtra, romeon);
+        golfie = _closure1_slot2;
+        michal = 2;
+        golfie = golfie.bind(tangon)(option, michal);
+        michal = 0;
+        option = golfie[michal];
+        michal = 1;
+        golfie = golfie[michal];
+        michal = 4;
+        michal = verify[michal];
+        zuuluu = zuuluu.bind(tangon)(michal);
+        michal = zuuluu.useSelectedDismissibleContentShared;
+        michal = michal.bind(zuuluu)(option, golfie, report);
+        zuuluu = _closure1_slot4;
+        michal = _closure1_slot3;
+        entity = {};
+        report = {};
+        report['visibleContent'] = option;
+        report['markAsDismissed'] = golfie;
+        report = oscard.bind(tangon)(report);
+        entity['children'] = report;
+        entity = zuuluu.bind(tangon)(michal, entity);
+        return entity;
+    };
+    zuuluu['SelectedTimeReccuringSnowflakeBoundDismissibleContent'] = michal;
     return entity;
 })();

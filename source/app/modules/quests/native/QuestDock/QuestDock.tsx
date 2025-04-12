@@ -1008,8 +1008,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 34;
             backup = foxtra[entity];
             kiloes = zuuluu.bind(report)(backup);
-            backup = kiloes.useQuestDockHeroAssetUrl;
-            sizing = backup.bind(kiloes)(offset);
+            backup = kiloes.useQuestDockHeroAsset;
+            backup = backup.bind(kiloes)(offset);
+            sizing = backup.staticUrl;
             var _closure2_slot6 = sizing;
             entity = foxtra[entity];
             zuuluu = zuuluu.bind(report)(entity);
@@ -1020,10 +1021,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             kiloes = entity == backup;
             foxtra = undefined;
-            if(kiloes) { _fun00016_ip = 437; continue _fun00015 }
- 431:
-            foxtra = backup.enrolledAt;
+            if(kiloes) { _fun00016_ip = 443; continue _fun00015 }
  437:
+            foxtra = backup.enrolledAt;
+ 443:
             foxtra = entity != foxtra;
             var _closure2_slot8 = foxtra;
             backup = _closure1_slot0;
@@ -1046,14 +1047,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = backup.bind(output)(foxtra);
             output = entity == kiloes;
             backup = undefined;
-            if(output) { _fun00016_ip = 539; continue _fun00015 }
- 534:
+            if(output) { _fun00016_ip = 545; continue _fun00015 }
+ 540:
             backup = kiloes.backgroundColor;
- 539:
-            if(!(entity != backup)) { _fun00016_ip = 546; continue _fun00015 }
- 543:
+ 545:
+            if(!(entity != backup)) { _fun00016_ip = 552; continue _fun00015 }
+ 549:
             foxtra = backup;
- 546:
+ 552:
             var _closure2_slot9 = foxtra;
             kiloes = _closure1_slot5;
             backup = kiloes.useEffect;
@@ -1233,14 +1234,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             zuuluu = backup.bind(kiloes)(zuuluu, foxtra);
             zuuluu = entity == offset;
-            if(zuuluu) { _fun00016_ip = 603; continue _fun00015 }
- 600:
-            zuuluu = !romeon;
- 603:
             if(zuuluu) { _fun00016_ip = 609; continue _fun00015 }
  606:
-            zuuluu = tangon;
+            zuuluu = !romeon;
  609:
+            if(zuuluu) { _fun00016_ip = 615; continue _fun00015 }
+ 612:
+            zuuluu = tangon;
+ 615:
             var _closure2_slot10 = zuuluu;
             backup = _closure1_slot5;
             foxtra = backup.useEffect;
@@ -1277,8 +1278,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             tangon = foxtra.bind(backup)(tangon, romeon);
             entity = null;
-            if(zuuluu) { _fun00016_ip = 818; continue _fun00015 }
- 651:
+            if(zuuluu) { _fun00016_ip = 824; continue _fun00015 }
+ 657:
             tangon = _closure1_slot21;
             zuuluu = _closure1_slot1;
             foxtra = _closure1_slot2;
@@ -1385,7 +1386,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 818:
+ 824:
             return entity;
         }
     };

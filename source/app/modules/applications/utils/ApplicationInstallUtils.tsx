@@ -1,10 +1,10 @@
 // app/modules/applications/utils/ApplicationInstallUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = argBar;
     zuuluu = argFre;
-    report = argPlu;
+    golfie = argPlu;
     var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
+    var _closure1_slot1 = golfie;
     tangon = function(argFoo) { // Original name: canInstallApplication
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -60,31 +60,41 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot2 = tangon;
+    var _closure1_slot4 = tangon;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
-    golfie = {};
+    report = {};
     entity = true;
-    golfie['value'] = entity;
+    report['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, golfie);
-    entity = 1;
-    report = report[entity];
+    entity = option.bind(verify)(zuuluu, entity, report);
+    entity = 0;
+    option = golfie[entity];
+    report = argBaz;
     entity = undefined;
+    report = report.bind(entity)(option);
+    var _closure1_slot2 = report;
+    report = 1;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    report = report.BuiltInSectionId;
+    var _closure1_slot3 = report;
+    report = 3;
+    report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
     report = 'modules/applications/utils/ApplicationInstallUtils.tsx';
     report = oscard.bind(golfie)(report);
     zuuluu['canInstallApplication'] = tangon;
-    michal = function(argFoo) { // Original name: isAppUserInstallable
+    tangon = function(argFoo) { // Original name: isAppUserInstallable
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             oscard = entity.customInstallUrl;
             report = entity.installParams;
             zuuluu = entity.integrationTypesConfig;
-            tangon = _closure1_slot2;
+            tangon = _closure1_slot4;
             entity = {};
             entity['customInstallUrl'] = oscard;
             entity['installParams'] = report;
@@ -96,20 +106,86 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             tangon = null;
             entity = tangon != zuuluu;
  61:
-            if(!entity) { _fun00006_ip = 99; continue _fun00005 }
+            if(!entity) { _fun00006_ip = 100; continue _fun00005 }
  64:
             tangon = _closure1_slot0;
             oscard = _closure1_slot1;
-            michal = 0;
+            michal = 2;
             michal = oscard[michal];
             michal = tangon.bind(report)(michal);
             michal = michal.ApplicationIntegrationType;
             michal = michal.USER_INSTALL;
             entity = michal in zuuluu;
- 99:
+ 100:
             return entity;
         }
     };
-    zuuluu['isAppUserInstallable'] = michal;
+    zuuluu['isAppUserInstallable'] = tangon;
+    michal = function(argFoo) { // Original name: shouldInstallApplicationOnDemand
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+ 0:
+            entity = argFoo;
+            verify = entity.applicationId;
+            option = entity.channel;
+            report = entity.commandIntegrationTypes;
+            tangon = null;
+            michal = tangon != report;
+            if(!michal) { _fun00008_ip = 78; continue _fun00007 }
+ 28:
+            zuuluu = report.includes;
+            golfie = _closure1_slot0;
+            oscard = _closure1_slot1;
+            entity = 2;
+            oscard = oscard[entity];
+            entity = undefined;
+            entity = golfie.bind(entity)(oscard);
+            entity = entity.ApplicationIntegrationType;
+            entity = entity.USER_INSTALL;
+            entity = zuuluu.bind(report)(entity);
+            michal = !entity;
+ 78:
+            entity = !michal;
+            if(michal) { _fun00008_ip = 199; continue _fun00007 }
+ 84:
+            michal = _closure1_slot3;
+            michal = michal.BUILT_IN;
+            zuuluu = verify === michal;
+            michal = !zuuluu;
+            if(zuuluu) { _fun00008_ip = 196; continue _fun00007 }
+ 107:
+            golfie = _closure1_slot2;
+            oscard = golfie.hasUserStateApplication;
+            zuuluu = {};
+            zuuluu['applicationId'] = verify;
+            offset = true;
+            zuuluu['authorizedOnly'] = offset;
+            zuuluu = oscard.bind(golfie)(zuuluu);
+            zuuluu = !zuuluu;
+            if(!zuuluu) { _fun00008_ip = 193; continue _fun00007 }
+ 141:
+            tangon = tangon == option;
+            if(tangon) { _fun00008_ip = 190; continue _fun00007 }
+ 148:
+            golfie = _closure1_slot2;
+            oscard = golfie.hasContextStateApplication;
+            report = {};
+            report['applicationId'] = verify;
+            verify = option.id;
+            report['channelId'] = verify;
+            option = option.guild_id;
+            report['guildId'] = option;
+            report = oscard.bind(golfie)(report);
+            tangon = !report;
+ 190:
+            zuuluu = tangon;
+ 193:
+            michal = zuuluu;
+ 196:
+            entity = michal;
+ 199:
+            return entity;
+        }
+    };
+    zuuluu['shouldInstallApplicationOnDemand'] = michal;
     return entity;
 })();

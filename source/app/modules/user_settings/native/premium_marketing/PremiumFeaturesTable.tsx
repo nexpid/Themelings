@@ -818,7 +818,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = backup[output];
             result = golfie.bind(tangon)(result);
             result = result.t;
-            result = result.zAn3dH;
+            result = result.ufhQCw;
             result = update.bind(sequen)(result);
             report['text'] = result;
             report = option.bind(tangon)(echoed, report);

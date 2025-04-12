@@ -336,7 +336,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = michal;
-        michal = new Array(23);
+        michal = new Array(24);
         michal[0] = oscard;
         oscard = {};
         golfie = 'isPremium';
@@ -721,23 +721,55 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard['get'] = golfie;
         michal[18] = oscard;
         oscard = {};
-        golfie = 'inReverseTrial';
+        golfie = 'hasActiveTrial';
         oscard['key'] = golfie;
         golfie = function() { // Original name: get
             _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                 michal = this;
                 entity = michal.trialId;
+                tangon = null;
+                entity = tangon != entity;
+                if(!entity) { _fun00022_ip = 28; continue _fun00021 }
+ 18:
+                zuuluu = michal.trialEndsAt;
+                entity = tangon != zuuluu;
+ 28:
+                if(!entity) { _fun00022_ip = 69; continue _fun00021 }
+ 31:
+                zuuluu = global;
+                zuuluu = zuuluu.Date;
+                tangon = zuuluu.prototype;
+                tangon = Object.create(tangon, {constructor: {value: zuuluu}});
+                report = tangon;
+                zuuluu = new report[zuuluu](tangon);
+                zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
+                michal = michal.trialEndsAt;
+                entity = zuuluu < michal;
+ 69:
+                return entity;
+            }
+        };
+        oscard['get'] = golfie;
+        michal[19] = oscard;
+        oscard = {};
+        golfie = 'inReverseTrial';
+        oscard['key'] = golfie;
+        golfie = function() { // Original name: get
+            _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+ 0:
+                michal = this;
+                entity = michal.trialId;
                 zuuluu = null;
                 entity = zuuluu != entity;
-                if(!entity) { _fun00022_ip = 41; continue _fun00021 }
+                if(!entity) { _fun00024_ip = 41; continue _fun00023 }
  18:
                 oscard = _closure1_slot15;
                 report = oscard.includes;
                 tangon = michal.trialId;
                 entity = report.bind(oscard)(tangon);
  41:
-                if(!entity) { _fun00022_ip = 54; continue _fun00021 }
+                if(!entity) { _fun00024_ip = 54; continue _fun00023 }
  44:
                 michal = michal.paymentSourceId;
                 entity = zuuluu == michal;
@@ -746,17 +778,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['get'] = golfie;
-        michal[19] = oscard;
+        michal[20] = oscard;
         oscard = {};
         golfie = 'premiumSince';
         oscard['key'] = golfie;
         golfie = function() { // Original name: get
-            _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+            _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
                 michal = this;
                 entity = michal.streakStartedAt;
                 zuuluu = null;
-                if(!(zuuluu == entity)) { _fun00024_ip = 21; continue _fun00023 }
+                if(!(zuuluu == entity)) { _fun00026_ip = 21; continue _fun00025 }
  15:
                 entity = michal.createdAt;
  21:
@@ -764,7 +796,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['get'] = golfie;
-        michal[20] = oscard;
+        michal[21] = oscard;
         oscard = {};
         golfie = 'hasAnyPremiumNitro';
         oscard['key'] = golfie;
@@ -784,12 +816,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['get'] = golfie;
-        michal[21] = oscard;
+        michal[22] = oscard;
         oscard = {};
         golfie = 'hasPremiumAtLeast';
         oscard['key'] = golfie;
         golfie = function(argFoo) { // Original name: value
-            _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
+            _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
                 zuuluu = this;
                 entity = argFoo;
@@ -797,7 +829,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = zuuluu.isPremium;
                 tangon = !entity;
                 entity = !tangon;
-                if(tangon) { _fun00026_ip = 49; continue _fun00025 }
+                if(tangon) { _fun00028_ip = 49; continue _fun00027 }
  27:
                 tangon = zuuluu.items;
                 zuuluu = tangon.some;
@@ -824,12 +856,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = golfie;
-        michal[22] = oscard;
+        michal[23] = oscard;
         oscard = {};
         golfie = 'createFromServer';
         oscard['key'] = golfie;
         entity = function(argFoo) { // Original name: value
-            _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
+            _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
                 report = argFoo;
                 zuuluu = _closure2_slot0;
@@ -851,7 +883,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = null;
                 oscard = tangon != michal;
                 michal = null;
-                if(!oscard) { _fun00028_ip = 118; continue _fun00027 }
+                if(!oscard) { _fun00030_ip = 118; continue _fun00029 }
  86:
                 verify = golfie.Date;
                 foxtra = report.canceled_at;
@@ -891,6 +923,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = report.trial_id;
                 entity['trialId'] = michal;
                 michal = report.trial_ends_at;
+                oscard = tangon != michal;
+                michal = null;
+                if(!oscard) { _fun00030_ip = 314; continue _fun00029 }
+ 282:
+                verify = golfie.Date;
+                foxtra = report.trial_ends_at;
+                option = verify.prototype;
+                option = Object.create(option, {constructor: {value: verify}});
+                backup = option;
+                oscard = new backup[verify](foxtra, romeon);
+                michal = oscard instanceof Object ? oscard : option;
+ 314:
                 entity['trialEndsAt'] = michal;
                 verify = report.items;
                 option = verify.map;
@@ -900,8 +944,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = report.renewal_mutations;
                 option = tangon != michal;
                 michal = null;
-                if(!option) { _fun00028_ip = 376; continue _fun00027 }
- 323:
+                if(!option) { _fun00030_ip = 415; continue _fun00029 }
+ 362:
                 option = {};
                 verify = report.renewal_mutations;
                 yankee = verify.items;
@@ -913,13 +957,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 verify = verify.payment_gateway_plan_id;
                 option['paymentGatewayPlanId'] = verify;
                 michal = option;
- 376:
+ 415:
                 entity['renewalMutations'] = michal;
                 michal = report.streak_started_at;
                 option = tangon != michal;
                 michal = null;
-                if(!option) { _fun00028_ip = 428; continue _fun00027 }
- 396:
+                if(!option) { _fun00030_ip = 467; continue _fun00029 }
+ 435:
                 offset = golfie.Date;
                 foxtra = report.streak_started_at;
                 verify = offset.prototype;
@@ -927,15 +971,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 backup = verify;
                 option = new backup[offset](foxtra, romeon);
                 michal = option instanceof Object ? option : verify;
- 428:
+ 467:
                 entity['streakStartedAt'] = michal;
                 michal = report.currency;
                 entity['currency'] = michal;
                 michal = report.pause_ends_at;
                 option = tangon != michal;
                 michal = null;
-                if(!option) { _fun00028_ip = 491; continue _fun00027 }
- 459:
+                if(!option) { _fun00030_ip = 530; continue _fun00029 }
+ 498:
                 verify = golfie.Date;
                 foxtra = report.pause_ends_at;
                 option = verify.prototype;
@@ -943,7 +987,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 backup = option;
                 golfie = new backup[verify](foxtra, romeon);
                 michal = golfie instanceof Object ? golfie : option;
- 491:
+ 530:
                 entity['pauseEndsAt'] = michal;
                 michal = report.pause_reason;
                 entity['pauseReason'] = michal;
@@ -956,11 +1000,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = report.user_id;
                 entity['userId'] = michal;
                 michal = report.latest_invoice;
-                if(!(tangon == michal)) { _fun00028_ip = 566; continue _fun00027 }
- 562:
+                if(!(tangon == michal)) { _fun00030_ip = 605; continue _fun00029 }
+ 601:
                 michal = {};
-                _fun00028_ip = 597; continue _fun00027;
- 566:
+                _fun00030_ip = 636; continue _fun00029;
+ 605:
                 tangon = {};
                 golfie = _closure1_slot8;
                 oscard = golfie.createInvoiceFromServer;
@@ -968,7 +1012,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = oscard.bind(golfie)(report);
                 tangon['latestInvoice'] = report;
                 michal = tangon;
- 597:
+ 636:
                 foxtra = entity;
                 romeon = michal;
                 michal = copyDataProperties(foxtra, romeon);

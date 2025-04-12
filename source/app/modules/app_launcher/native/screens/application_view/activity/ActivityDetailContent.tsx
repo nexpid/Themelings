@@ -890,35 +890,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.bind(tangon)(oscard);
             oscard = {};
             oscard['context'] = sizing;
-            verify = sierra.id;
-            oscard['applicationId'] = verify;
+            oscard['application'] = sierra;
             offset = target == output;
             verify = undefined;
-            if(offset) { _fun00012_ip = 985; continue _fun00011 }
- 980:
+            if(offset) { _fun00012_ip = 980; continue _fun00011 }
+ 975:
             verify = output.id;
- 985:
+ 980:
             oscard['botUserId'] = verify;
             verify = option.bind(tangon)(oscard);
-            if(!(target == result)) { _fun00012_ip = 1204; continue _fun00011 }
- 1002:
-            if(!michal) { _fun00012_ip = 1008; continue _fun00011 }
- 1005:
+            if(!(target == result)) { _fun00012_ip = 1199; continue _fun00011 }
+ 997:
+            if(!michal) { _fun00012_ip = 1003; continue _fun00011 }
+ 1000:
             michal = !zuuluu;
- 1008:
-            if(!michal) { _fun00012_ip = 1039; continue _fun00011 }
- 1011:
+ 1003:
+            if(!michal) { _fun00012_ip = 1034; continue _fun00011 }
+ 1006:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot3;
             zuuluu = zuuluu[golfie];
             oscard = oscard.bind(tangon)(zuuluu);
             zuuluu = oscard.isEmbeddedApp;
             michal = zuuluu.bind(oscard)(sierra);
- 1039:
+ 1034:
             sequen = undefined;
             vacuum = undefined;
-            if(!michal) { _fun00012_ip = 1508; continue _fun00011 }
- 1049:
+            if(!michal) { _fun00012_ip = 1503; continue _fun00011 }
+ 1044:
             oscard = _closure1_slot11;
             zuuluu = _closure1_slot7;
             michal = {};
@@ -953,8 +952,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = golfie;
             vacuum = oscard.bind(tangon)(zuuluu, michal);
             sequen = undefined;
-            _fun00012_ip = 1508; continue _fun00011;
- 1204:
+            _fun00012_ip = 1503; continue _fun00011;
+ 1199:
             oscard = _closure1_slot12;
             zuuluu = _closure1_slot13;
             michal = {};
@@ -974,18 +973,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = new Array(2);
             golfie[0] = option;
             option = null;
-            if(!verify) { _fun00012_ip = 1382; continue _fun00011 }
- 1285:
+            if(!verify) { _fun00012_ip = 1377; continue _fun00011 }
+ 1280:
             offset = target == output;
             verify = undefined;
-            if(offset) { _fun00012_ip = 1299; continue _fun00011 }
- 1294:
+            if(offset) { _fun00012_ip = 1294; continue _fun00011 }
+ 1289:
             verify = output.id;
- 1299:
+ 1294:
             verify = target != verify;
             option = null;
-            if(!verify) { _fun00012_ip = 1382; continue _fun00011 }
- 1308:
+            if(!verify) { _fun00012_ip = 1377; continue _fun00011 }
+ 1303:
             yankee = _closure1_slot11;
             offset = _closure1_slot7;
             verify = {};
@@ -1003,7 +1002,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = kiloes.bind(tangon)(backup, foxtra);
             verify['children'] = foxtra;
             option = yankee.bind(tangon)(offset, verify);
- 1382:
+ 1377:
             golfie[1] = option;
             michal['children'] = golfie;
             option = oscard.bind(tangon)(zuuluu, michal);
@@ -1015,8 +1014,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = new Array(2);
             golfie[0] = option;
             option = target != romeon;
-            if(!option) { _fun00012_ip = 1492; continue _fun00011 }
- 1431:
+            if(!option) { _fun00012_ip = 1487; continue _fun00011 }
+ 1426:
             yankee = _closure1_slot11;
             offset = _closure1_slot0;
             foxtra = _closure1_slot3;
@@ -1031,12 +1030,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['style'] = foxtra;
             verify['children'] = romeon;
             option = yankee.bind(tangon)(offset, verify);
- 1492:
+ 1487:
             golfie[1] = option;
             michal['children'] = golfie;
             sequen = oscard.bind(tangon)(zuuluu, michal);
             vacuum = undefined;
- 1508:
+ 1503:
             zuuluu = _closure1_slot11;
             oscard = _closure1_slot0;
             option = _closure1_slot3;
@@ -1069,19 +1068,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = _closure1_slot7;
             backup = {};
             output = config;
-            if(!config) { _fun00012_ip = 1640; continue _fun00011 }
- 1634:
+            if(!config) { _fun00012_ip = 1635; continue _fun00011 }
+ 1629:
             output = variable40.activityHeroDetailsLandscape;
- 1640:
+ 1635:
             backup['style'] = output;
             echoed = _closure1_slot11;
             result = _closure1_slot7;
             output = {};
             update = config;
-            if(!config) { _fun00012_ip = 1666; continue _fun00011 }
- 1660:
+            if(!config) { _fun00012_ip = 1661; continue _fun00011 }
+ 1655:
             update = variable40.heroMediaContainerLandscape;
- 1666:
+ 1661:
             output['style'] = update;
             record = _closure1_slot11;
             source = _closure1_slot1;
@@ -1093,13 +1092,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = sierra.id;
             update['applicationId'] = cntext;
             cntext = whisks;
-            if(!config) { _fun00012_ip = 1725; continue _fun00011 }
- 1711:
+            if(!config) { _fun00012_ip = 1720; continue _fun00011 }
+ 1706:
             limora = 65;
             whisks = limora * whisks;
             limora = 100;
             cntext = whisks / limora;
- 1725:
+ 1720:
             update['width'] = cntext;
             update = record.bind(tangon)(source, update);
             output['children'] = update;
@@ -1112,10 +1111,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = variable40.details;
             source = new Array(2);
             source[0] = record;
-            if(!config) { _fun00012_ip = 1786; continue _fun00011 }
- 1780:
+            if(!config) { _fun00012_ip = 1781; continue _fun00011 }
+ 1775:
             config = variable40.detailsContainerLandscape;
- 1786:
+ 1781:
             source[1] = config;
             result['style'] = source;
             record = _closure1_slot11;
@@ -1157,10 +1156,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = quebec.getItemSubtitleForMaxPlayersShort;
             variable38 = target != variable37;
             variable36 = 0;
-            if(!variable38) { _fun00012_ip = 1961; continue _fun00011 }
- 1958:
+            if(!variable38) { _fun00012_ip = 1956; continue _fun00011 }
+ 1953:
             variable36 = variable37;
- 1961:
+ 1956:
             papara = papara.bind(quebec)(variable36);
             limora['tagName'] = papara;
             papara = 'participants';
@@ -1170,8 +1169,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora = sierra.tags;
             sierra = target == limora;
             target = undefined;
-            if(sierra) { _fun00012_ip = 2022; continue _fun00011 }
- 2005:
+            if(sierra) { _fun00012_ip = 2017; continue _fun00011 }
+ 2000:
             sierra = limora.map;
             status = function(argFoo) {
                 report = argFoo;
@@ -1184,7 +1183,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             target = sierra.bind(limora)(status);
- 2022:
+ 2017:
             papara[1] = target;
             config['children'] = papara;
             config = cntext.bind(tangon)(record, config);
