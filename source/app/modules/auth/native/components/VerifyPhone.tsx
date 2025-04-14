@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00006_ip = 367; continue _fun00005 }
+                        if(michal) { _fun00006_ip = 369; continue _fun00005 }
  10:
                         tangon = argFoo;
                         michal = undefined;
@@ -219,7 +219,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         golfie = _closure2_slot1;
                         golfie = golfie.bind(michal)(option);
  163: // try_end0
-                        _fun00006_ip = 364; continue _fun00005;
+                        _fun00006_ip = 366; continue _fun00005;
  168:
                         return tangon;
  171: // catch_target0
@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = golfie.bind(michal)(tangon);
                         tangon = _closure1_slot6;
                         tangon = tangon.bind(michal)();
-                        if(!tangon) { _fun00006_ip = 252; continue _fun00005 }
+                        if(!tangon) { _fun00006_ip = 254; continue _fun00005 }
  198:
                         golfie = _closure2_slot7;
                         tangon = {};
@@ -242,20 +242,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         option = ['code'];
                         tangon['details'] = option;
                         tangon = golfie.bind(michal)(tangon);
- 252:
+ 254:
                         tangon = _closure2_slot4;
                         golfie = report.body;
                         oscard = golfie;
                         report = null;
                         golfie = report == golfie;
                         report = undefined;
-                        if(golfie) { _fun00006_ip = 280; continue _fun00005 }
- 275:
+                        if(golfie) { _fun00006_ip = 282; continue _fun00005 }
+ 277:
                         report = oscard.message;
- 280:
+ 282:
                         zuuluu = report;
-                        if(report) { _fun00006_ip = 359; continue _fun00005 }
- 286:
+                        if(report) { _fun00006_ip = 361; continue _fun00005 }
+ 288:
                         oscard = _closure1_slot0;
                         offset = _closure1_slot2;
                         report = 11;
@@ -272,11 +272,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         verify = verify.STATUS;
                         report['statusPageURL'] = verify;
                         zuuluu = golfie.bind(option)(oscard, report);
- 359:
+ 361:
                         zuuluu = tangon.bind(michal)(zuuluu);
- 364:
+ 366:
                         return michal;
- 367:
+ 369:
                         return entity;
                     }
                 };

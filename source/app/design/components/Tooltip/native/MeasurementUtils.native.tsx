@@ -262,10 +262,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = _closure2_slot0;
                     entity = _closure2_slot1;
                     tangon = null;
-                    if(!entity) { _fun00010_ip = 33; continue _fun00009 }
+                    if(!entity) { _fun00010_ip = 37; continue _fun00009 }
  23:
                     tangon = {'x': 0, 'y': 0, 'width': 0, 'height': 0};
- 33:
+ 37:
                     entity = undefined;
                     verify = argFoo;
                     option = argBar;
