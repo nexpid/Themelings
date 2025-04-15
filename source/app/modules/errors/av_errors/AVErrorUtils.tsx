@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = undefined;
             if(!(oscard === entity)) { _fun00004_ip = 18; continue _fun00003 }
  15:
-            oscard = 5;
+            oscard = 15;
  18:
             zuuluu = _closure1_slot2;
             michal = zuuluu.getAccumulatedPerformanceStats;

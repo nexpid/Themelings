@@ -506,7 +506,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00022_ip = 275; continue _fun00021 }
+                        if(michal) { _fun00022_ip = 277; continue _fun00021 }
  10:
                         tangon = _closure2_slot1;
                         report = undefined;
@@ -529,13 +529,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         oscard = oscard.bind(report)(michal);
                         michal = oscard.initiateVerification;
                         michal = michal.bind(oscard)();
-                        SaveGenerator(address=99);
- 97:
-                        return michal;
+                        SaveGenerator(address=101);
  99:
+                        return michal;
+ 101:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                        if(oscard) { _fun00022_ip = 178; continue _fun00021 }
- 105:
+                        if(oscard) { _fun00022_ip = 180; continue _fun00021 }
+ 107:
                         oscard = _closure1_slot1;
                         golfie = _closure1_slot2;
                         tangon = 11;
@@ -552,14 +552,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         option = _closure2_slot3;
                         tangon['onCancel'] = option;
                         tangon = oscard.bind(golfie)(tangon);
- 176: // try_end0
-                        _fun00022_ip = 246; continue _fun00021;
- 178: // try_end1
+ 178: // try_end0
+                        _fun00022_ip = 248; continue _fun00021;
+ 180: // try_end1
                         oscard = _closure2_slot1;
                         tangon = false;
                         tangon = oscard.bind(report)(tangon);
                         return michal;
- 192: // try_start_2 // catch_target0
+ 194: // try_start_2 // catch_target0
                         CatchBlockStart(arg_register=1);
                         oscard = _closure1_slot1;
                         golfie = _closure1_slot2;
@@ -572,18 +572,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = tangon.bind(oscard)(michal);
                         michal = _closure2_slot3;
                         michal = michal.bind(report)();
- 246: // try_end2
+ 248: // try_end2
                         tangon = _closure2_slot1;
                         michal = false;
                         michal = tangon.bind(report)(michal);
                         return report;
- 260: // catch_target1 // catch_target2
+ 262: // catch_target1 // catch_target2
                         CatchBlockStart(arg_register=1);
                         tangon = _closure2_slot1;
                         zuuluu = false;
                         zuuluu = tangon.bind(report)(zuuluu);
                         throw michal;
- 275:
+ 277:
                         return entity;
                     }
                 };

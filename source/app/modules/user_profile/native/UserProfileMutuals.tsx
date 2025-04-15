@@ -345,7 +345,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  290:
             golfie = option;
  293:
-            if(!golfie) { _fun00002_ip = 353; continue _fun00001 }
+            if(!golfie) { _fun00002_ip = 349; continue _fun00001 }
  296:
             offset = _closure1_slot7;
             verify = _closure1_slot0;
@@ -358,7 +358,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = _closure1_slot5;
             option['children'] = yankee;
             golfie = offset.bind(tangon)(verify, option);
- 353:
+ 349:
             report[1] = golfie;
             oscard = function() {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {

@@ -64,7 +64,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
         return entity;
     };
     michal['useDescription'] = option;
-    golfie = golfie.CONTENT_AND_SOCIAL;
+    golfie = golfie.CONTENT_AND_SOCIAL_DISCORD;
     michal['parent'] = golfie;
     golfie = function() { // Original name: useViewNsfwDmCommandsSettingValue
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {

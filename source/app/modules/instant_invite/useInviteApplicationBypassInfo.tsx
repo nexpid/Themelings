@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot3 = golfie;
     tangon = tangon.Permissions;
     var _closure1_slot4 = tangon;
-    tangon = 4;
+    tangon = 3;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -35,21 +35,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) { // Original name: useInviteApplicationBypassInfo
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            report = argFoo;
-            var _closure2_slot0 = report;
-            zuuluu = _closure1_slot0;
-            golfie = _closure1_slot1;
+            zuuluu = argFoo;
+            var _closure2_slot0 = zuuluu;
+            oscard = _closure1_slot0;
+            report = _closure1_slot1;
             tangon = 2;
-            tangon = golfie[tangon];
-            oscard = undefined;
-            offset = zuuluu.bind(oscard)(tangon);
-            verify = offset.useStateFromStores;
+            report = report[tangon];
+            tangon = undefined;
+            golfie = oscard.bind(tangon)(report);
+            oscard = golfie.useStateFromStores;
             tangon = _closure1_slot2;
-            option = new Array(1);
-            option[0] = tangon;
+            report = new Array(1);
+            report[0] = tangon;
             tangon = new Array(1);
-            tangon[0] = report;
-            entity = function() {
+            tangon[0] = zuuluu;
+            michal = function() {
                 tangon = _closure1_slot2;
                 zuuluu = tangon.can;
                 entity = _closure1_slot4;
@@ -58,49 +58,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             };
-            tangon = verify.bind(offset)(option, entity, tangon);
-            entity = 3;
-            entity = golfie[entity];
-            option = zuuluu.bind(oscard)(entity);
-            golfie = option.useMemberVerificationRolloutEnabled;
-            zuuluu = null;
-            entity = zuuluu == report;
-            if(entity) { _fun00002_ip = 105; continue _fun00001 }
- 100:
-            oscard = report.id;
- 105:
-            entity = 'AdvancedInstantInvite';
-            entity = golfie.bind(option)(oscard, entity);
-            if(!entity) { _fun00002_ip = 124; continue _fun00001 }
- 120:
-            entity = zuuluu != report;
- 124:
-            if(!entity) { _fun00002_ip = 148; continue _fun00001 }
- 127:
-            golfie = report.hasFeature;
+            tangon = oscard.bind(golfie)(report, michal, tangon);
+            michal = null;
+            report = michal == zuuluu;
+            if(report) { _fun00002_ip = 106; continue _fun00001 }
+ 82:
+            golfie = zuuluu.hasFeature;
             oscard = _closure1_slot3;
             oscard = oscard.MEMBER_VERIFICATION_MANUAL_APPROVAL;
-            entity = golfie.bind(report)(oscard);
- 148:
-            if(!entity) { _fun00002_ip = 155; continue _fun00001 }
- 151:
-            entity = zuuluu != report;
- 155:
-            if(!entity) { _fun00002_ip = 179; continue _fun00001 }
- 158:
-            zuuluu = report.hasFeature;
-            michal = _closure1_slot3;
-            michal = michal.MEMBER_VERIFICATION_GATE_ENABLED;
-            entity = zuuluu.bind(report)(michal);
- 179:
+            oscard = golfie.bind(zuuluu)(oscard);
+            report = !oscard;
+ 106:
+            if(report) { _fun00002_ip = 113; continue _fun00001 }
+ 109:
+            report = michal == zuuluu;
+ 113:
+            if(report) { _fun00002_ip = 140; continue _fun00001 }
+ 116:
+            michal = zuuluu.hasFeature;
+            entity = _closure1_slot3;
+            entity = entity.MEMBER_VERIFICATION_GATE_ENABLED;
+            entity = michal.bind(zuuluu)(entity);
             report = !entity;
+ 140:
             michal = !report;
             entity = {};
             zuuluu = michal;
-            if(report) { _fun00002_ip = 196; continue _fun00001 }
- 193:
+            if(report) { _fun00002_ip = 154; continue _fun00001 }
+ 151:
             zuuluu = tangon;
- 196:
+ 154:
             entity['canCreateApplicationBypassInvites'] = zuuluu;
             entity['isManualApprovalGuild'] = michal;
             return entity;

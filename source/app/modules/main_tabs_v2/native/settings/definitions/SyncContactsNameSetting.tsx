@@ -49,7 +49,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
         return entity;
     };
     michal['title'] = verify;
-    option = option.CONTENT_AND_SOCIAL;
+    option = option.CONTENT_AND_SOCIAL_DISCORD;
     michal['parent'] = option;
     option = function() { // Original name: onContactSyncNamePress
         report = _closure1_slot1;

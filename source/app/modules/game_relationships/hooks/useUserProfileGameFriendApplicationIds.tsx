@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot4 = tangon;
     tangon = new Array(0);
     var _closure1_slot5 = tangon;
-    tangon = 6;
+    tangon = 5;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -38,21 +38,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: useUserProfileGameFriendApplicationIds
         michal = argFoo;
-        offset = michal.userId;
-        var _closure2_slot0 = offset;
-        option = michal.location;
-        report = _closure1_slot0;
-        verify = _closure1_slot1;
+        oscard = michal.userId;
+        var _closure2_slot0 = oscard;
+        golfie = _closure1_slot0;
+        option = _closure1_slot1;
         zuuluu = 3;
-        zuuluu = verify[zuuluu];
+        zuuluu = option[zuuluu];
         tangon = undefined;
-        yankee = report.bind(tangon)(zuuluu);
-        golfie = yankee.useStateFromStores;
+        offset = golfie.bind(tangon)(zuuluu);
+        verify = offset.useStateFromStores;
         zuuluu = _closure1_slot3;
-        oscard = new Array(2);
-        oscard[0] = zuuluu;
+        report = new Array(2);
+        report[0] = zuuluu;
         zuuluu = _closure1_slot4;
-        oscard[1] = zuuluu;
+        report[1] = zuuluu;
         zuuluu = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -78,37 +77,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             }
         };
-        oscard = golfie.bind(yankee)(oscard, zuuluu);
-        var _closure2_slot1 = oscard;
+        report = verify.bind(offset)(report, zuuluu);
+        var _closure2_slot1 = report;
         zuuluu = 4;
-        zuuluu = verify[zuuluu];
-        golfie = report.bind(tangon)(zuuluu);
-        zuuluu = golfie.useGameFriendsForUser;
-        golfie = zuuluu.bind(golfie)(offset);
-        var _closure2_slot2 = golfie;
-        zuuluu = 5;
-        zuuluu = verify[zuuluu];
-        report = report.bind(tangon)(zuuluu);
-        tangon = report.useIsFriendTiersUIEnabled;
-        zuuluu = {};
-        zuuluu['location'] = option;
-        report = tangon.bind(report)(zuuluu);
-        var _closure2_slot3 = report;
+        zuuluu = option[zuuluu];
+        tangon = golfie.bind(tangon)(zuuluu);
+        zuuluu = tangon.useGameFriendsForUser;
+        oscard = zuuluu.bind(tangon)(oscard);
+        var _closure2_slot2 = oscard;
         tangon = _closure1_slot2;
         zuuluu = tangon.useMemo;
-        michal = new Array(3);
-        michal[0] = golfie;
-        michal[1] = oscard;
-        michal[2] = report;
+        michal = new Array(2);
+        michal[0] = oscard;
+        michal[1] = report;
         entity = function() {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                michal = _closure2_slot3;
-                if(!michal) { _fun00004_ip = 42; continue _fun00003 }
- 10:
                 michal = _closure2_slot1;
-                if(michal) { _fun00004_ip = 42; continue _fun00003 }
- 17:
+                if(michal) { _fun00004_ip = 35; continue _fun00003 }
+ 10:
                 zuuluu = _closure2_slot2;
                 michal = zuuluu.map;
                 entity = function(argFoo) {
@@ -117,10 +104,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 entity = michal.bind(zuuluu)(entity);
-                _fun00004_ip = 49; continue _fun00003;
- 42:
+                _fun00004_ip = 42; continue _fun00003;
+ 35:
                 entity = _closure1_slot5;
- 49:
+ 42:
                 return entity;
             }
         };

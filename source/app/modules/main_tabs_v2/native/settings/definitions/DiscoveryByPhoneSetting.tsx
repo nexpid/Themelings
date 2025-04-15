@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['title'] = option;
-    golfie = golfie.CONTENT_AND_SOCIAL;
+    golfie = golfie.CONTENT_AND_SOCIAL_DISCORD;
     michal['parent'] = golfie;
     golfie = function() { // Original name: useDiscoveryByPhoneSettingDescription
         report = _closure1_slot0;

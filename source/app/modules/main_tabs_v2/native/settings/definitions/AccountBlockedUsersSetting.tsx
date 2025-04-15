@@ -95,7 +95,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     verify = report.bind(entity)(verify);
     verify = verify.DenyIcon;
     michal['IconComponent'] = verify;
-    tangon = tangon.CONTENT_AND_SOCIAL;
+    tangon = tangon.CONTENT_AND_SOCIAL_DISCORD;
     michal['parent'] = tangon;
     tangon = {};
     option = option.BLOCKED_USERS_V2;

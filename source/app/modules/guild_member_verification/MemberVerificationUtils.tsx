@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.GuildFeatures;
     var _closure1_slot4 = tangon;
-    tangon = 5;
+    tangon = 4;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -185,42 +185,16 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     michal = function(argFoo) { // Original name: guildHasVerificationGate
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            report = argFoo;
+            tangon = argFoo;
             entity = null;
-            entity = entity != report;
-            if(!entity) { _fun00008_ip = 127; continue _fun00007 }
+            entity = entity != tangon;
+            if(!entity) { _fun00008_ip = 36; continue _fun00007 }
  12:
-            oscard = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 4;
-            tangon = tangon[michal];
-            michal = undefined;
-            michal = oscard.bind(michal)(tangon);
-            golfie = michal.MemberVerificationRolloutExperiment;
-            oscard = golfie.getCurrentConfig;
-            tangon = {};
-            michal = report.id;
-            tangon['guildId'] = michal;
-            michal = 'GuildRecord';
-            tangon['location'] = michal;
-            michal = {};
-            option = false;
-            michal['autoTrackExposure'] = option;
-            michal = oscard.bind(golfie)(tangon, michal);
-            michal = michal.enabled;
-            if(michal) { _fun00008_ip = 103; continue _fun00007 }
- 91:
-            michal = report.hasVerificationGate;
-            michal = michal.bind(report)();
-            _fun00008_ip = 124; continue _fun00007;
- 103:
-            tangon = report.hasFeature;
-            zuuluu = _closure1_slot4;
-            zuuluu = zuuluu.MEMBER_VERIFICATION_GATE_ENABLED;
-            michal = tangon.bind(report)(zuuluu);
- 124:
-            entity = michal;
- 127:
+            zuuluu = tangon.hasFeature;
+            michal = _closure1_slot4;
+            michal = michal.MEMBER_VERIFICATION_GATE_ENABLED;
+            entity = zuuluu.bind(tangon)(michal);
+ 36:
             return entity;
         }
     };

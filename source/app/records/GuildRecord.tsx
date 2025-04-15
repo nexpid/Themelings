@@ -680,7 +680,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = entity;
-        entity = new Array(19);
+        entity = new Array(18);
         entity[0] = report;
         report = {};
         golfie = 'getSafetyAlertsChannelId';
@@ -992,48 +992,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report['value'] = golfie;
         entity[14] = report;
         report = {};
-        golfie = 'hasVerificationGate';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
- 0:
-                report = this;
-                michal = report.hasFeature;
-                entity = _closure1_slot10;
-                entity = entity.MEMBER_VERIFICATION_GATE_ENABLED;
-                entity = michal.bind(report)(entity);
-                if(!entity) { _fun00032_ip = 78; continue _fun00031 }
- 30:
-                tangon = report.hasFeature;
-                michal = _closure1_slot10;
-                michal = michal.COMMUNITY;
-                michal = tangon.bind(report)(michal);
-                if(michal) { _fun00032_ip = 75; continue _fun00031 }
- 54:
-                tangon = report.hasFeature;
-                zuuluu = _closure1_slot10;
-                zuuluu = zuuluu.CLAN;
-                michal = tangon.bind(report)(zuuluu);
- 75:
-                entity = michal;
- 78:
-                return entity;
-            }
-        };
-        report['value'] = golfie;
-        entity[15] = report;
-        report = {};
         golfie = 'hasCommunityInfoSubheader';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
+            _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
  0:
                 tangon = this;
                 zuuluu = tangon.hasFeature;
                 entity = _closure1_slot10;
                 entity = entity.COMMUNITY;
                 entity = zuuluu.bind(tangon)(entity);
-                if(!entity) { _fun00034_ip = 51; continue _fun00033 }
+                if(!entity) { _fun00032_ip = 51; continue _fun00031 }
  30:
                 zuuluu = tangon.hasFeature;
                 michal = _closure1_slot10;
@@ -1044,12 +1013,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[16] = report;
+        entity[15] = report;
         report = {};
         golfie = 'canHaveRaidActivityAlerts';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
+            _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
  0:
                 report = this;
                 michal = report.hasFeature;
@@ -1057,20 +1026,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.COMMUNITY;
                 entity = michal.bind(report)(entity);
                 entity = !entity;
-                if(!entity) { _fun00036_ip = 54; continue _fun00035 }
+                if(!entity) { _fun00034_ip = 54; continue _fun00033 }
  33:
                 tangon = report.hasFeature;
                 michal = _closure1_slot10;
                 michal = michal.NON_COMMUNITY_RAID_ALERTS;
                 entity = tangon.bind(report)(michal);
  54:
-                if(entity) { _fun00036_ip = 108; continue _fun00035 }
+                if(entity) { _fun00034_ip = 108; continue _fun00033 }
  57:
                 tangon = report.hasFeature;
                 michal = _closure1_slot10;
                 michal = michal.COMMUNITY;
                 michal = tangon.bind(report)(michal);
-                if(!michal) { _fun00036_ip = 105; continue _fun00035 }
+                if(!michal) { _fun00034_ip = 105; continue _fun00033 }
  81:
                 tangon = report.hasFeature;
                 zuuluu = _closure1_slot10;
@@ -1084,12 +1053,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[17] = report;
+        entity[16] = report;
         report = {};
         golfie = 'updateJoinedAt';
         report['key'] = golfie;
         oscard = function(argFoo) { // Original name: value
-            _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
+            _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
  0:
                 oscard = argFoo;
                 tangon = this;
@@ -1097,7 +1066,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = 'string';
                 entity = typeof oscard;
                 michal = oscard;
-                if(!(report === entity)) { _fun00038_ip = 56; continue _fun00037 }
+                if(!(report === entity)) { _fun00036_ip = 56; continue _fun00035 }
  25:
                 entity = global;
                 entity = entity.Date;
@@ -1114,14 +1083,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = oscard;
-        entity[18] = report;
+        entity[17] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
     michal = michal.bind(entity)(report);
     tangon = function(argFoo) {
         zuuluu = function(argFoo) { // Original name: GuildRecordWithRoles
-            _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
+            _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
  0:
                 zuuluu = argFoo;
                 oscard = this;
@@ -1135,24 +1104,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(tangon)(oscard, report, entity);
                 tangon = zuuluu.roles;
                 michal = null;
-                if(!(michal == tangon)) { _fun00040_ip = 61; continue _fun00039 }
+                if(!(michal == tangon)) { _fun00038_ip = 61; continue _fun00037 }
  59:
                 tangon = {};
  61:
                 entity['roles'] = tangon;
                 tangon = zuuluu.member;
-                if(!tangon) { _fun00040_ip = 105; continue _fun00039 }
+                if(!tangon) { _fun00038_ip = 105; continue _fun00037 }
  76:
                 tangon = zuuluu.member;
                 tangon = tangon.userId;
-                if(!tangon) { _fun00040_ip = 105; continue _fun00039 }
+                if(!tangon) { _fun00038_ip = 105; continue _fun00037 }
  90:
                 tangon = zuuluu.member;
                 tangon = tangon.roles;
-                if(tangon) { _fun00040_ip = 113; continue _fun00039 }
+                if(tangon) { _fun00038_ip = 113; continue _fun00037 }
  105:
                 entity['member'] = michal;
-                _fun00040_ip = 153; continue _fun00039;
+                _fun00038_ip = 153; continue _fun00037;
  113:
                 michal = {};
                 tangon = zuuluu.member;

@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     michal['useDescription'] = option;
-    golfie = golfie.CONTENT_AND_SOCIAL;
+    golfie = golfie.CONTENT_AND_SOCIAL_DISCORD;
     michal['parent'] = golfie;
     golfie = function() { // Original name: useValue
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {

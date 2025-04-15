@@ -483,27 +483,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = function(argFoo) { // Original name: value
             _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-                report = argFoo;
+                oscard = argFoo;
                 zuuluu = this;
                 michal = zuuluu.breadcrumbCache;
                 entity = michal.get;
-                entity = entity.bind(michal)(report);
+                entity = entity.bind(michal)(oscard);
                 romeon = null;
-                if(!(romeon == entity)) { _fun00016_ip = 178; continue _fun00015 }
+                if(!(romeon == entity)) { _fun00016_ip = 188; continue _fun00015 }
  31:
                 michal = new Array(0);
-                oscard = _closure1_slot6;
+                report = _closure1_slot6;
                 tangon = zuuluu.getAncestors;
-                tangon = tangon.bind(zuuluu)(report);
+                tangon = tangon.bind(zuuluu)(oscard);
                 offset = undefined;
-                verify = oscard.bind(offset)(tangon);
-                oscard = verify.bind(offset)();
-                tangon = oscard.done;
+                verify = report.bind(offset)(tangon);
+                report = verify.bind(offset)();
+                tangon = report.done;
                 option = 'string';
                 golfie = 3;
                 if(tangon) { _fun00016_ip = 159; continue _fun00015 }
  79:
-                foxtra = oscard.value;
+                foxtra = report.value;
                 backup = _closure1_slot0;
                 tangon = _closure1_slot1;
                 tangon = tangon[golfie];
@@ -524,14 +524,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  144:
                 foxtra = verify.bind(offset)();
                 tangon = foxtra.done;
-                oscard = foxtra;
+                report = foxtra;
                 if(!tangon) { _fun00016_ip = 79; continue _fun00015 }
  159:
-                tangon = zuuluu.breadcrumbCache;
-                zuuluu = tangon.set;
-                zuuluu = zuuluu.bind(tangon)(report, michal);
+                report = zuuluu.breadcrumbCache;
+                tangon = report.set;
+                zuuluu = michal.reverse;
+                zuuluu = zuuluu.bind(michal)();
+                zuuluu = tangon.bind(report)(oscard, zuuluu);
                 return michal;
- 178:
+ 188:
                 return entity;
             }
         };

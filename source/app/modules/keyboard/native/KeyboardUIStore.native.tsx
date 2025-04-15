@@ -154,40 +154,59 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                         entity = argFoo;
-                        golfie = _closure1_slot8;
-                        tangon = _closure2_slot0;
+                        michal = _closure2_slot0;
+                        option = michal.keyboardDuration;
+                        tangon = null;
+                        if(!(tangon == option)) { _fun00008_ip = 28; continue _fun00007 }
+ 22:
+                        option = entity.keyboardDuration;
+ 28:
+                        verify = _closure1_slot8;
+                        report = _closure2_slot0;
                         zuuluu = undefined;
-                        report = false;
-                        oscard = golfie.bind(zuuluu)(tangon, report);
-                        report = true;
-                        report = golfie.bind(zuuluu)(tangon, report);
-                        tangon = tangon.keyboardType;
-                        golfie = null;
-                        if(!(golfie == tangon)) { _fun00008_ip = 53; continue _fun00007 }
- 47:
-                        tangon = entity.keyboardType;
- 53:
-                        michal = _closure1_slot7;
-                        zuuluu = michal.bind(zuuluu)(report, tangon);
-                        michal = entity.keyboardHeight;
-                        if(!(michal === oscard)) { _fun00008_ip = 103; continue _fun00007 }
+                        oscard = false;
+                        golfie = verify.bind(zuuluu)(report, oscard);
+                        oscard = true;
+                        oscard = verify.bind(zuuluu)(report, oscard);
+                        report = report.keyboardType;
+                        if(!(tangon == report)) { _fun00008_ip = 73; continue _fun00007 }
+ 67:
+                        report = entity.keyboardType;
  73:
-                        michal = entity.keyboardHeightExcludingSafeAreaInsets;
-                        if(!(michal === report)) { _fun00008_ip = 103; continue _fun00007 }
+                        tangon = entity.keyboardType;
+                        if(!(report === tangon)) { _fun00008_ip = 91; continue _fun00007 }
  83:
+                        tangon = entity.keyboardTypePrevious;
+                        _fun00008_ip = 97; continue _fun00007;
+ 91:
+                        tangon = entity.keyboardType;
+ 97:
+                        michal = _closure1_slot7;
+                        zuuluu = michal.bind(zuuluu)(oscard, report);
+                        michal = entity.keyboardDuration;
+                        if(!(michal === option)) { _fun00008_ip = 157; continue _fun00007 }
+ 117:
+                        michal = entity.keyboardHeight;
+                        if(!(michal === golfie)) { _fun00008_ip = 157; continue _fun00007 }
+ 127:
+                        michal = entity.keyboardHeightExcludingSafeAreaInsets;
+                        if(!(michal === oscard)) { _fun00008_ip = 157; continue _fun00007 }
+ 137:
                         michal = entity.keyboardType;
-                        if(!(michal === tangon)) { _fun00008_ip = 103; continue _fun00007 }
- 93:
+                        if(!(michal === report)) { _fun00008_ip = 157; continue _fun00007 }
+ 147:
                         michal = entity.customKeyboardHeight;
-                        if(!(michal !== zuuluu)) { _fun00008_ip = 128; continue _fun00007 }
- 103:
+                        if(!(michal !== zuuluu)) { _fun00008_ip = 192; continue _fun00007 }
+ 157:
                         michal = {};
-                        michal['keyboardHeight'] = oscard;
-                        michal['keyboardHeightExcludingSafeAreaInsets'] = report;
-                        michal['keyboardType'] = tangon;
+                        michal['keyboardDuration'] = option;
+                        michal['keyboardHeight'] = golfie;
+                        michal['keyboardHeightExcludingSafeAreaInsets'] = oscard;
+                        michal['keyboardType'] = report;
+                        michal['keyboardTypePrevious'] = tangon;
                         michal['customKeyboardHeight'] = zuuluu;
                         entity = michal;
- 128:
+ 192:
                         return entity;
                     }
                 };
@@ -244,37 +263,43 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = verify.create;
         tangon = function() {
             entity = {};
-            report = _closure1_slot8;
-            oscard = undefined;
+            oscard = 0;
+            entity['keyboardDuration'] = oscard;
+            golfie = _closure1_slot8;
+            report = undefined;
             tangon = {};
             zuuluu = false;
-            zuuluu = report.bind(oscard)(tangon, zuuluu);
+            zuuluu = golfie.bind(report)(tangon, zuuluu);
             entity['keyboardHeight'] = zuuluu;
             tangon = {};
             zuuluu = true;
-            zuuluu = report.bind(oscard)(tangon, zuuluu);
+            zuuluu = golfie.bind(report)(tangon, zuuluu);
             entity['keyboardHeightExcludingSafeAreaInsets'] = zuuluu;
-            report = _closure1_slot7;
+            tangon = _closure1_slot7;
             zuuluu = _closure1_slot4;
-            tangon = zuuluu.SYSTEM;
-            zuuluu = 0;
-            zuuluu = report.bind(oscard)(zuuluu, tangon);
+            zuuluu = zuuluu.SYSTEM;
+            zuuluu = tangon.bind(report)(oscard, zuuluu);
             entity['customKeyboardHeight'] = zuuluu;
+            zuuluu = _closure1_slot4;
+            zuuluu = zuuluu.SYSTEM;
+            entity['keyboardType'] = zuuluu;
             michal = _closure1_slot4;
             michal = michal.SYSTEM;
-            entity['keyboardType'] = michal;
+            entity['keyboardTypePrevious'] = michal;
             return entity;
         };
         tangon = report.bind(verify)(tangon);
         var _closure1_slot6 = tangon;
         verify = yankee.addListener;
         report = function(argFoo) {
-            entity = argFoo;
-            entity = entity.endCoordinates;
-            entity = entity.height;
+            michal = argFoo;
+            entity = michal.duration;
+            michal = michal.endCoordinates;
+            tangon = michal.height;
             zuuluu = _closure1_slot9;
             michal = {};
-            michal['keyboardHeight'] = entity;
+            michal['keyboardHeight'] = tangon;
+            michal['keyboardDuration'] = entity;
             entity = undefined;
             michal = zuuluu.bind(entity)(michal);
             return entity;

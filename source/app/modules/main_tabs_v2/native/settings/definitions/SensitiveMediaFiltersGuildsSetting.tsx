@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
     verify = verify.PRESSABLE;
     michal['type'] = verify;
     michal['title'] = option;
-    golfie = golfie.CONTENT_AND_SOCIAL;
+    golfie = golfie.CONTENT_AND_SOCIAL_DISCORD;
     michal['parent'] = golfie;
     golfie = function() { // Original name: useObscuredContentGuildsSettingValue
         zuuluu = _closure1_slot0;

@@ -37,31 +37,47 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = 'modules/guild_profile/GuildProfileEmbedExperiment.tsx';
     tangon = report.bind(oscard)(tangon);
     tangon = function() { // Original name: useGuildProfileInviteEmbedExperiment
-        tangon = _closure1_slot0;
-        zuuluu = tangon.useExperiment;
-        michal = {};
-        entity = 'GuildProfileEmbedExperiment';
-        michal['location'] = entity;
-        entity = {};
-        report = false;
-        entity['autoTrackExposure'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.enabled;
-        return entity;
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            report = arguments[0];
+            entity = undefined;
+            if(!(report === entity)) { _fun00002_ip = 11; continue _fun00001 }
+ 9:
+            report = true;
+ 11:
+            tangon = _closure1_slot0;
+            zuuluu = tangon.useExperiment;
+            michal = {};
+            entity = 'GuildProfileEmbedExperiment';
+            michal['location'] = entity;
+            entity = {};
+            entity['autoTrackExposure'] = report;
+            entity = zuuluu.bind(tangon)(michal, entity);
+            entity = entity.enabled;
+            return entity;
+        }
     };
     zuuluu['useGuildProfileInviteEmbedExperiment'] = tangon;
     michal = function() { // Original name: getNewProfileInviteEmbedExperimentEnabled
-        tangon = _closure1_slot0;
-        zuuluu = tangon.getCurrentConfig;
-        michal = {};
-        entity = 'GuildProfileEmbedExperiment';
-        michal['location'] = entity;
-        entity = {};
-        report = false;
-        entity['autoTrackExposure'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.enabled;
-        return entity;
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            report = arguments[0];
+            entity = undefined;
+            if(!(report === entity)) { _fun00004_ip = 11; continue _fun00003 }
+ 9:
+            report = true;
+ 11:
+            tangon = _closure1_slot0;
+            zuuluu = tangon.getCurrentConfig;
+            michal = {};
+            entity = 'GuildProfileEmbedExperiment';
+            michal['location'] = entity;
+            entity = {};
+            entity['autoTrackExposure'] = report;
+            entity = zuuluu.bind(tangon)(michal, entity);
+            entity = entity.enabled;
+            return entity;
+        }
     };
     zuuluu['getNewProfileInviteEmbedExperimentEnabled'] = michal;
     return entity;

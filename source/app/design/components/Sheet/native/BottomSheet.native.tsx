@@ -471,19 +471,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = echoed.useIsScreenReaderEnabled;
             echoed = sizing.bind(echoed)();
             var _closure2_slot3 = echoed;
-            if(!(oscard == michal)) { _fun00012_ip = 221; continue _fun00011 }
- 213:
+            if(!(oscard == michal)) { _fun00012_ip = 225; continue _fun00011 }
+ 217:
             sizing = _closure1_slot10;
             michal = verify * sizing;
- 221:
+ 225:
             _closure2_slot4 = michal;
             sizing = backup;
-            if(!(oscard != zuuluu)) { _fun00012_ip = 235; continue _fun00011 }
- 232:
+            if(!(oscard != zuuluu)) { _fun00012_ip = 239; continue _fun00011 }
+ 236:
             sizing = zuuluu;
- 235:
-            if(!(oscard == sizing)) { _fun00012_ip = 273; continue _fun00011 }
  239:
+            if(!(oscard == sizing)) { _fun00012_ip = 277; continue _fun00011 }
+ 243:
             source = _closure1_slot0;
             ctrled = _closure1_slot2;
             zuuluu = 11;
@@ -492,7 +492,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.NAV_BAR_HEIGHT_MULTILINE;
             zuuluu = verify - zuuluu;
             sizing = zuuluu - option;
- 273:
+ 277:
             _closure2_slot5 = sizing;
             option = _closure1_slot4;
             verify = option.useMemo;
@@ -593,8 +593,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = 'onChange';
             entity[golfie] = option;
             golfie = offset;
-            if(!(oscard != yankee)) { _fun00012_ip = 578; continue _fun00011 }
- 471:
+            if(!(oscard != yankee)) { _fun00012_ip = 582; continue _fun00011 }
+ 475:
             verify = _closure1_slot18;
             option = _closure1_slot1;
             backup = _closure1_slot2;
@@ -619,7 +619,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['colors'] = yankee;
             oscard['children'] = offset;
             golfie = verify.bind(tangon)(option, oscard);
- 578:
+ 582:
             oscard = new Array(2);
             oscard[0] = golfie;
             oscard[1] = report;

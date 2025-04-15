@@ -1466,7 +1466,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     yankee = golfie[foxtra];
     yankee = backup.bind(entity)(yankee);
     yankee = yankee.colors;
-    yankee = yankee.BG_BASE_TERTIARY;
+    yankee = yankee.BG_BASE_PRIMARY;
     michal['backgroundColor'] = yankee;
     yankee = '100%';
     michal['height'] = yankee;

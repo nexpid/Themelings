@@ -503,21 +503,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot28 = entity;
     entity = function(argFoo) { // Original name: dispatchPresence
         entity = argFoo;
-        verify = entity.guildId;
-        option = entity.user;
-        golfie = entity.status;
-        report = entity.activities;
-        tangon = entity.hiddenActivities;
-        oscard = entity.clientStatus;
+        offset = entity.guildId;
+        verify = entity.user;
+        option = entity.status;
+        oscard = entity.activities;
+        report = entity.hiddenActivities;
+        golfie = entity.clientStatus;
+        tangon = entity.processedAtTimestamp;
         zuuluu = _closure1_slot21;
         michal = zuuluu.add;
         entity = {};
-        entity['guildId'] = verify;
-        entity['user'] = option;
-        entity['status'] = golfie;
-        entity['clientStatus'] = oscard;
-        entity['activities'] = report;
-        entity['hiddenActivities'] = tangon;
+        entity['guildId'] = offset;
+        entity['user'] = verify;
+        entity['status'] = option;
+        entity['clientStatus'] = golfie;
+        entity['activities'] = oscard;
+        entity['hiddenActivities'] = report;
+        entity['processedAtTimestamp'] = tangon;
         entity = michal.bind(zuuluu)(entity);
         entity = undefined;
         return entity;
@@ -1040,8 +1042,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             entity['clientStatus'] = zuuluu;
                             zuuluu = michal.activities;
                             entity['activities'] = zuuluu;
-                            michal = michal.hidden_activities;
-                            entity['hiddenActivities'] = michal;
+                            zuuluu = michal.hidden_activities;
+                            entity['hiddenActivities'] = zuuluu;
+                            michal = michal.processed_at_timestamp;
+                            entity['processedAtTimestamp'] = michal;
                             return entity;
                         };
                         entity = michal.bind(zuuluu)(entity);
@@ -2676,22 +2680,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = michal.presences;
                 zuuluu = tangon.forEach;
                 michal = function(argFoo) {
-                    michal = argFoo;
-                    golfie = michal.user;
-                    oscard = michal.status;
-                    entity = michal.client_status;
-                    report = michal.activities;
-                    tangon = michal.hidden_activities;
+                    entity = argFoo;
+                    option = entity.user;
+                    golfie = entity.status;
+                    tangon = entity.client_status;
+                    oscard = entity.activities;
+                    report = entity.hidden_activities;
+                    entity = entity.processed_at_timestamp;
                     zuuluu = _closure1_slot29;
                     michal = {};
-                    option = _closure2_slot0;
-                    option = option.guild_id;
-                    michal['guildId'] = option;
-                    michal['user'] = golfie;
-                    michal['status'] = oscard;
-                    michal['activities'] = report;
-                    michal['hiddenActivities'] = tangon;
-                    michal['clientStatus'] = entity;
+                    verify = _closure2_slot0;
+                    verify = verify.guild_id;
+                    michal['guildId'] = verify;
+                    michal['user'] = option;
+                    michal['status'] = golfie;
+                    michal['activities'] = oscard;
+                    michal['hiddenActivities'] = report;
+                    michal['clientStatus'] = tangon;
+                    michal['processedAtTimestamp'] = entity;
                     entity = undefined;
                     michal = zuuluu.bind(entity)(michal);
                     return entity;
@@ -2750,22 +2756,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = zuuluu.presences;
                 tangon = report.forEach;
                 zuuluu = function(argFoo) {
-                    michal = argFoo;
-                    golfie = michal.user;
-                    oscard = michal.status;
-                    entity = michal.client_status;
-                    report = michal.activities;
-                    tangon = michal.hidden_activities;
+                    entity = argFoo;
+                    option = entity.user;
+                    golfie = entity.status;
+                    tangon = entity.client_status;
+                    oscard = entity.activities;
+                    report = entity.hidden_activities;
+                    entity = entity.processed_at_timestamp;
                     zuuluu = _closure1_slot29;
                     michal = {};
-                    option = _closure2_slot0;
-                    option = option.guild_id;
-                    michal['guildId'] = option;
-                    michal['user'] = golfie;
-                    michal['status'] = oscard;
-                    michal['activities'] = report;
-                    michal['hiddenActivities'] = tangon;
-                    michal['clientStatus'] = entity;
+                    verify = _closure2_slot0;
+                    verify = verify.guild_id;
+                    michal['guildId'] = verify;
+                    michal['user'] = option;
+                    michal['status'] = golfie;
+                    michal['activities'] = oscard;
+                    michal['hiddenActivities'] = report;
+                    michal['clientStatus'] = tangon;
+                    michal['processedAtTimestamp'] = entity;
                     entity = undefined;
                     michal = zuuluu.bind(entity)(michal);
                     return entity;
@@ -3237,8 +3245,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal['activities'] = tangon;
         tangon = entity.hidden_activities;
         michal['hiddenActivities'] = tangon;
-        entity = entity.client_status;
-        michal['clientStatus'] = entity;
+        tangon = entity.client_status;
+        michal['clientStatus'] = tangon;
+        entity = entity.processed_at_timestamp;
+        michal['processedAtTimestamp'] = entity;
         entity = undefined;
         michal = zuuluu.bind(entity)(michal);
         return entity;
@@ -3953,7 +3963,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = argFoo;
                     michal = entity.member;
                     oscard = null;
-                    if(!(oscard != michal)) { _fun00104_ip = 148; continue _fun00103 }
+                    if(!(oscard != michal)) { _fun00104_ip = 159; continue _fun00103 }
  18:
                     michal = entity.member;
                     option = _closure1_slot26;
@@ -3963,7 +3973,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = undefined;
                     tangon = option.bind(zuuluu)(golfie, tangon, michal);
                     tangon = michal.presence;
-                    if(!(oscard != tangon)) { _fun00104_ip = 148; continue _fun00103 }
+                    if(!(oscard != tangon)) { _fun00104_ip = 159; continue _fun00103 }
  67:
                     tangon = michal.presence;
                     michal = _closure1_slot29;
@@ -3979,10 +3989,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['activities'] = report;
                     report = tangon.hidden_activities;
                     entity['hiddenActivities'] = report;
-                    tangon = tangon.client_status;
-                    entity['clientStatus'] = tangon;
+                    report = tangon.client_status;
+                    entity['clientStatus'] = report;
+                    tangon = tangon.processed_at_timestamp;
+                    entity['processedAtTimestamp'] = tangon;
                     entity = michal.bind(zuuluu)(entity);
- 148:
+ 159:
                     entity = undefined;
                     return entity;
                 }

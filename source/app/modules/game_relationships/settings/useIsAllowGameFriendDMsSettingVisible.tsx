@@ -1,5 +1,5 @@
 // app/modules/game_relationships/settings/useIsAllowGameFriendDMsSettingVisible.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
@@ -19,49 +19,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = undefined;
     tangon = tangon.bind(entity)(golfie);
     var _closure1_slot2 = tangon;
-    tangon = 3;
+    tangon = 2;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
     tangon = 'modules/game_relationships/settings/useIsAllowGameFriendDMsSettingVisible.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useIsAllowGameFriendDMsSettingVisible
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            entity = argFoo;
-            report = entity.location;
-            tangon = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 1;
-            michal = oscard[michal];
-            zuuluu = undefined;
-            option = tangon.bind(zuuluu)(michal);
-            golfie = option.useStateFromStores;
-            entity = _closure1_slot2;
-            michal = new Array(1);
-            michal[0] = entity;
-            entity = function() {
-                michal = _closure1_slot2;
-                entity = michal.getGameRelationshipCount;
-                michal = entity.bind(michal)();
-                entity = 0;
-                entity = michal > entity;
-                return entity;
-            };
-            michal = golfie.bind(option)(michal, entity);
-            entity = 2;
-            entity = oscard[entity];
-            tangon = tangon.bind(zuuluu)(entity);
-            zuuluu = tangon.useIsFriendTiersUIEnabled;
-            entity = {};
-            entity['location'] = report;
-            entity = zuuluu.bind(tangon)(entity);
-            if(!entity) { _fun00002_ip = 100; continue _fun00001 }
- 97:
-            entity = michal;
- 100:
+    michal = function() { // Original name: useIsAllowGameFriendDMsSettingVisible
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 1;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStores;
+        entity = _closure1_slot2;
+        michal = new Array(1);
+        michal[0] = entity;
+        entity = function() {
+            michal = _closure1_slot2;
+            entity = michal.getGameRelationshipCount;
+            michal = entity.bind(michal)();
+            entity = 0;
+            entity = michal > entity;
             return entity;
-        }
+        };
+        entity = zuuluu.bind(tangon)(michal, entity);
+        return entity;
     };
     zuuluu['useIsAllowGameFriendDMsSettingVisible'] = michal;
     return entity;

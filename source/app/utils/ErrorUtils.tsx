@@ -100,6 +100,26 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = new verify[tangon](option, golfie);
             report = michal instanceof Object ? michal : zuuluu;
  104:
+            tangon = entity.window;
+            michal = null;
+            golfie = michal == tangon;
+            zuuluu = undefined;
+            if(golfie) { _fun00006_ip = 141; continue _fun00005 }
+ 121:
+            tangon = tangon.location;
+            golfie = michal == tangon;
+            zuuluu = undefined;
+            if(golfie) { _fun00006_ip = 141; continue _fun00005 }
+ 135:
+            zuuluu = tangon.href;
+ 141:
+            tangon = michal != zuuluu;
+            michal = null;
+            if(!tangon) { _fun00006_ip = 153; continue _fun00005 }
+ 150:
+            michal = zuuluu;
+ 153:
+            report['location'] = michal;
             zuuluu = entity.JSON;
             michal = zuuluu.stringify;
             tangon = _closure1_slot0;

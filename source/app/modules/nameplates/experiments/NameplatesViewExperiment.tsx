@@ -23,16 +23,16 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = {'kind': 'user', 'id': '2025-02_name_plate_experiment', 'label': 'Nameplates Experiment'};
     report = report.CONNECTION_OPEN;
     tangon['commonTriggerPoint'] = report;
-    report = {'canSee': false, 'canSeeOffline': false, 'hasUpdatedDMBehavior': false};
+    report = {'canView': false, 'canViewAll': false, 'hasUpdatedDMBehavior': false};
     tangon['defaultConfig'] = report;
     report = {'id': 1, 'label': 'Can see'};
-    offset = {'canSee': true, 'canSeeOffline': false, 'hasUpdatedDMBehavior': false};
+    offset = {'canView': true, 'canViewAll': false, 'hasUpdatedDMBehavior': false};
     report['config'] = offset;
     offset = new Array(2);
     offset[0] = report;
     yankee = {'id': 2, 'label': 'Can see (updated)'};
     report = 2;
-    romeon = {'canSee': true, 'canSeeOffline': true, 'hasUpdatedDMBehavior': true};
+    romeon = {'canView': true, 'canViewAll': true, 'hasUpdatedDMBehavior': true};
     yankee['config'] = romeon;
     offset[1] = yankee;
     tangon['treatments'] = offset;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         report = false;
         entity['autoTrackExposure'] = report;
         entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.canSee;
+        entity = entity.canView;
         return entity;
     };
     zuuluu['useCanViewNameplates'] = tangon;
@@ -68,10 +68,10 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         report = false;
         entity['autoTrackExposure'] = report;
         entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.canSeeOffline;
+        entity = entity.canViewAll;
         return entity;
     };
-    zuuluu['useCanViewOfflineNameplates'] = tangon;
+    zuuluu['useCanViewAllNameplates'] = tangon;
     michal = function(argFoo) {
         tangon = _closure1_slot0;
         zuuluu = tangon.useExperiment;

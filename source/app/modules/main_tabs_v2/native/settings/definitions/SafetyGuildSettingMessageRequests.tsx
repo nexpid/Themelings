@@ -235,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     tangon['useDescription'] = offset;
-    verify = verify.CONTENT_AND_SOCIAL;
+    verify = verify.CONTENT_AND_SOCIAL_DISCORD;
     tangon['parent'] = verify;
     verify = function() { // Original name: useValue
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {

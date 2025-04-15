@@ -90,7 +90,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
         return entity;
     };
     michal['useDescription'] = verify;
-    tangon = tangon.CONTENT_AND_SOCIAL;
+    tangon = tangon.CONTENT_AND_SOCIAL_DISCORD;
     michal['parent'] = tangon;
     tangon = {};
     option = option.IGNORED_USERS;

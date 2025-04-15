@@ -401,6 +401,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['textAlignVertical'] = backup;
             backup = 'done';
             report['returnKeyType'] = backup;
+            backup = true;
+            report['multiline'] = backup;
             kiloes = foxtra.type;
             output = _closure1_slot0;
             backup = _closure1_slot2;
@@ -408,8 +410,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = output.bind(tangon)(backup);
             backup = backup.ApplicationCommandOptionType;
             backup = backup.INTEGER;
-            if(!(kiloes !== backup)) { _fun00002_ip = 737; continue _fun00001 }
- 695:
+            if(!(kiloes !== backup)) { _fun00002_ip = 744; continue _fun00001 }
+ 702:
             kiloes = foxtra.type;
             backup = _closure1_slot0;
             foxtra = _closure1_slot2;
@@ -418,8 +420,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.ApplicationCommandOptionType;
             backup = foxtra.NUMBER;
             foxtra = 'default';
-            if(!(kiloes === backup)) { _fun00002_ip = 782; continue _fun00001 }
- 737:
+            if(!(kiloes === backup)) { _fun00002_ip = 789; continue _fun00001 }
+ 744:
             kiloes = _closure1_slot0;
             sizing = _closure1_slot2;
             backup = 14;
@@ -428,19 +430,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = kiloes.isAndroid;
             kiloes = backup.bind(kiloes)();
             backup = 'numbers-and-punctuation';
-            if(!kiloes) { _fun00002_ip = 779; continue _fun00001 }
- 775:
-            backup = 'numeric';
- 779:
-            foxtra = backup;
+            if(!kiloes) { _fun00002_ip = 786; continue _fun00001 }
  782:
+            backup = 'numeric';
+ 786:
+            foxtra = backup;
+ 789:
             report['keyboardType'] = foxtra;
             report['onPressIn'] = romeon;
             option = option.bind(tangon)(verify, report);
             report = new Array(2);
             report[0] = option;
-            if(!oscard) { _fun00002_ip = 862; continue _fun00001 }
- 809:
+            if(!oscard) { _fun00002_ip = 869; continue _fun00001 }
+ 816:
             verify = _closure1_slot7;
             option = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -478,7 +480,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             golfie['onPress'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 862:
+ 869:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

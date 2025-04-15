@@ -5693,8 +5693,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = argFoo;
             golfie = offset.channel;
             var _closure2_slot0 = golfie;
-            foxtra = offset.messages;
-            var _closure2_slot1 = foxtra;
+            backup = offset.messages;
+            var _closure2_slot1 = backup;
             variable89 = golfie.id;
             var _closure2_slot2 = variable89;
             michal = golfie.getGuildId;
@@ -5727,10 +5727,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable44 = report.systemChannelFlags;
  123:
             yankee = _closure1_slot0;
-            ctrled = _closure1_slot2;
-            michal = ctrled[zuuluu];
-            backup = yankee.bind(tangon)(michal);
-            romeon = backup.useStateFromStores;
+            vacuum = _closure1_slot2;
+            michal = vacuum[zuuluu];
+            foxtra = yankee.bind(tangon)(michal);
+            romeon = foxtra.useStateFromStores;
             michal = _closure1_slot42;
             verify = new Array(1);
             verify[0] = michal;
@@ -5741,52 +5741,52 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             michal = new Array(0);
-            variable90 = romeon.bind(backup)(verify, option, michal);
+            variable90 = romeon.bind(foxtra)(verify, option, michal);
             var _closure2_slot5 = variable90;
             michal = 95;
-            option = ctrled[michal];
+            option = vacuum[michal];
             option = yankee.bind(tangon)(option);
             verify = option.InlineAttachmentMedia;
             option = verify.useSetting;
             variable97 = option.bind(verify)();
-            option = ctrled[michal];
+            option = vacuum[michal];
             option = yankee.bind(tangon)(option);
             verify = option.InlineEmbedMedia;
             option = verify.useSetting;
             variable96 = option.bind(verify)();
-            option = ctrled[michal];
+            option = vacuum[michal];
             option = yankee.bind(tangon)(option);
             verify = option.RenderEmbeds;
             option = verify.useSetting;
             variable95 = option.bind(verify)();
-            option = ctrled[michal];
+            option = vacuum[michal];
             option = yankee.bind(tangon)(option);
             verify = option.RenderReactions;
             option = verify.useSetting;
             variable94 = option.bind(verify)();
-            option = ctrled[michal];
+            option = vacuum[michal];
             option = yankee.bind(tangon)(option);
             verify = option.DeveloperMode;
             option = verify.useSetting;
             variable93 = option.bind(verify)();
-            option = ctrled[michal];
+            option = vacuum[michal];
             option = yankee.bind(tangon)(option);
             verify = option.AnimateEmoji;
             option = verify.useSetting;
             r100 = option.bind(verify)();
-            option = ctrled[michal];
+            option = vacuum[michal];
             option = yankee.bind(tangon)(option);
             verify = option.AnimateStickers;
             option = verify.useSetting;
             variable100 = option.bind(verify)();
-            michal = ctrled[michal];
+            michal = vacuum[michal];
             michal = yankee.bind(tangon)(michal);
             option = michal.GifAutoPlay;
             michal = option.useSetting;
             variable98 = michal.bind(option)();
-            michal = ctrled[zuuluu];
-            backup = yankee.bind(tangon)(michal);
-            romeon = backup.useStateFromStores;
+            michal = vacuum[zuuluu];
+            foxtra = yankee.bind(tangon)(michal);
+            romeon = foxtra.useStateFromStores;
             michal = _closure1_slot41;
             verify = new Array(1);
             verify[0] = michal;
@@ -5796,19 +5796,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             michal = new Array(0);
-            verify = romeon.bind(backup)(verify, option, michal);
+            verify = romeon.bind(foxtra)(verify, option, michal);
             config = _closure1_slot1;
             michal = 96;
-            michal = ctrled[michal];
-            backup = config.bind(tangon)(michal);
-            romeon = backup.useExperiment;
+            michal = vacuum[michal];
+            kiloes = config.bind(tangon)(michal);
+            romeon = kiloes.useExperiment;
             option = {};
             michal = 'MessagesConnected';
             option['location'] = michal;
             michal = {};
-            sequen = false;
-            michal['autoTrackExposure'] = sequen;
-            michal = romeon.bind(backup)(option, michal);
+            foxtra = false;
+            michal['autoTrackExposure'] = foxtra;
+            michal = romeon.bind(kiloes)(option, michal);
             output = michal.showShortcutsConditions;
             michal = function(argFoo) { // Original name: useMessageAuthorActivities
                 zuuluu = argFoo;
@@ -5884,7 +5884,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = tangon.bind(report)(zuuluu, entity, michal);
                 return entity;
             };
-            variable84 = michal.bind(tangon)(foxtra);
+            variable84 = michal.bind(tangon)(backup);
             michal = function(argFoo) { // Original name: useFetchMessageApplications
                 michal = argFoo;
                 var _closure3_slot0 = michal;
@@ -5991,19 +5991,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = undefined;
                 return entity;
             };
-            michal = michal.bind(tangon)(foxtra);
+            michal = michal.bind(tangon)(backup);
             michal = 97;
-            michal = ctrled[michal];
+            michal = vacuum[michal];
             michal = config.bind(tangon)(michal);
-            michal = michal.bind(tangon)(foxtra, golfie);
-            vacuum = _closure1_slot3;
-            backup = 2;
-            michal = vacuum.bind(tangon)(michal, backup);
+            michal = michal.bind(tangon)(backup, golfie);
+            sequen = _closure1_slot3;
+            ctrled = 2;
+            michal = sequen.bind(tangon)(michal, ctrled);
             romeon = 0;
             kiloes = michal[romeon];
             option = 1;
             michal = michal[option];
-            michal = ctrled[zuuluu];
+            michal = vacuum[zuuluu];
             source = yankee.bind(tangon)(michal);
             update = source.useStateFromStores;
             michal = _closure1_slot49;
@@ -6017,7 +6017,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal = new Array(0);
             variable83 = update.bind(source)(echoed, sizing, michal);
-            michal = ctrled[zuuluu];
+            michal = vacuum[zuuluu];
             source = yankee.bind(tangon)(michal);
             update = source.useStateFromStoresObject;
             michal = _closure1_slot22;
@@ -6042,7 +6042,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable82 = michal.appDirectoryEmbedApplications;
             variable81 = michal.invalidAppDirectoryEmbedApplicationIds;
             variable74 = michal.appDirectoryEmbedApplicationFetchStates;
-            michal = ctrled[zuuluu];
+            michal = vacuum[zuuluu];
             source = yankee.bind(tangon)(michal);
             update = source.useStateFromStoresArray;
             michal = _closure1_slot15;
@@ -6055,7 +6055,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             variable80 = update.bind(source)(echoed, sizing);
-            sizing = ctrled[zuuluu];
+            sizing = vacuum[zuuluu];
             source = yankee.bind(tangon)(sizing);
             update = source.useStateFromStoresArray;
             sizing = _closure1_slot14;
@@ -6068,7 +6068,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             variable79 = update.bind(source)(echoed, sizing);
-            sizing = ctrled[zuuluu];
+            sizing = vacuum[zuuluu];
             cntext = yankee.bind(tangon)(sizing);
             record = cntext.useStateFromStoresArray;
             sizing = _closure1_slot13;
@@ -6100,7 +6100,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             variable77 = record.bind(cntext)(source, echoed, update);
-            echoed = ctrled[zuuluu];
+            echoed = vacuum[zuuluu];
             record = yankee.bind(tangon)(echoed);
             source = record.useStateFromStoresArray;
             update = new Array(2);
@@ -6181,7 +6181,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             variable75 = source.bind(record)(update, echoed);
-            echoed = ctrled[zuuluu];
+            echoed = vacuum[zuuluu];
             record = yankee.bind(tangon)(echoed);
             source = record.useStateFromStoresArray;
             update = new Array(1);
@@ -6238,7 +6238,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             variable76 = source.bind(record)(update, echoed);
-            echoed = ctrled[zuuluu];
+            echoed = vacuum[zuuluu];
             source = yankee.bind(tangon)(echoed);
             update = source.useStateFromStoresArray;
             echoed = new Array(1);
@@ -6293,7 +6293,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             variable78 = update.bind(source)(echoed, sizing);
-            sizing = ctrled[zuuluu];
+            sizing = vacuum[zuuluu];
             update = yankee.bind(tangon)(sizing);
             echoed = update.useStateFromStoresArray;
             sizing = new Array(1);
@@ -6307,9 +6307,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             michal = echoed.bind(update)(sizing, michal);
-            michal = vacuum.bind(tangon)(michal, option);
+            michal = sequen.bind(tangon)(michal, option);
             source = michal[romeon];
-            michal = ctrled[zuuluu];
+            michal = vacuum[zuuluu];
             update = yankee.bind(tangon)(michal);
             echoed = update.useStateFromStores;
             michal = _closure1_slot30;
@@ -6322,7 +6322,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             variable73 = echoed.bind(update)(sizing, michal);
-            michal = ctrled[zuuluu];
+            michal = vacuum[zuuluu];
             record = yankee.bind(tangon)(michal);
             update = record.useStateFromStores;
             michal = _closure1_slot27;
@@ -6336,7 +6336,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal = new Array(0);
             variable72 = update.bind(record)(echoed, sizing, michal);
-            michal = ctrled[zuuluu];
+            michal = vacuum[zuuluu];
             record = yankee.bind(tangon)(michal);
             update = record.useStateFromStores;
             michal = _closure1_slot16;
@@ -6351,7 +6351,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = new Array(0);
             variable71 = update.bind(record)(echoed, sizing, michal);
             michal = 98;
-            michal = ctrled[michal];
+            michal = vacuum[michal];
             echoed = yankee.bind(tangon)(michal);
             sizing = echoed.useQuests;
             michal = {};
@@ -6360,7 +6360,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = sizing.bind(echoed)(michal);
             variable70 = michal.quests;
             variable69 = michal.isFetchingCurrentQuests;
-            sizing = foxtra.filter;
+            sizing = backup.filter;
             michal = function(argFoo) {
                 entity = argFoo;
                 michal = entity.type;
@@ -6369,7 +6369,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal === entity;
                 return entity;
             };
-            echoed = sizing.bind(foxtra)(michal);
+            echoed = sizing.bind(backup)(michal);
             sizing = echoed.map;
             michal = function(argFoo) {
                 entity = argFoo;
@@ -6379,12 +6379,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = sizing.bind(echoed)(michal);
             sizing = echoed.filter;
             michal = 93;
-            michal = ctrled[michal];
+            michal = vacuum[michal];
             michal = yankee.bind(tangon)(michal);
             michal = michal.isNotNullish;
             michal = sizing.bind(echoed)(michal);
             var _closure2_slot6 = michal;
-            michal = ctrled[zuuluu];
+            michal = vacuum[zuuluu];
             update = yankee.bind(tangon)(michal);
             echoed = update.useStateFromStoresArray;
             michal = _closure1_slot33;
@@ -6424,12 +6424,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             update = echoed.bind(update)(sizing, michal);
             michal = 99;
-            michal = ctrled[michal];
+            michal = vacuum[michal];
             echoed = yankee.bind(tangon)(michal);
             sizing = echoed.useTrialOffer;
             michal = _closure1_slot71;
             echoed = sizing.bind(echoed)(michal);
-            michal = ctrled[zuuluu];
+            michal = vacuum[zuuluu];
             cntext = yankee.bind(tangon)(michal);
             record = cntext.useStateFromStores;
             michal = _closure1_slot55;
@@ -6452,7 +6452,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             sizing = record.bind(cntext)(sizing, michal);
-            michal = ctrled[zuuluu];
+            michal = vacuum[zuuluu];
             target = yankee.bind(tangon)(michal);
             papara = target.useStateFromStores;
             michal = _closure1_slot43;
@@ -6468,7 +6468,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             variable68 = papara.bind(target)(cntext, michal, record);
-            michal = ctrled[zuuluu];
+            michal = vacuum[zuuluu];
             target = yankee.bind(tangon)(michal);
             papara = target.useStateFromStores;
             michal = _closure1_slot35;
@@ -6495,7 +6495,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             variable67 = papara.bind(target)(cntext, michal, record);
-            michal = ctrled[zuuluu];
+            michal = vacuum[zuuluu];
             target = yankee.bind(tangon)(michal);
             papara = target.useStateFromStores;
             michal = _closure1_slot53;
@@ -6511,7 +6511,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             variable66 = papara.bind(target)(cntext, michal, record);
-            michal = ctrled[zuuluu];
+            michal = vacuum[zuuluu];
             target = yankee.bind(tangon)(michal);
             papara = target.useStateFromStores;
             michal = _closure1_slot48;
@@ -6536,7 +6536,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             variable65 = papara.bind(target)(cntext, michal, record);
-            michal = ctrled[zuuluu];
+            michal = vacuum[zuuluu];
             target = yankee.bind(tangon)(michal);
             papara = target.useStateFromStores;
             michal = _closure1_slot51;
@@ -6555,10 +6555,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             variable64 = papara.bind(target)(cntext, michal, record);
             michal = 101;
-            michal = ctrled[michal];
+            michal = vacuum[michal];
             michal = config.bind(tangon)(michal);
             variable63 = michal.bind(tangon)(variable89);
-            michal = ctrled[zuuluu];
+            michal = vacuum[zuuluu];
             papara = yankee.bind(tangon)(michal);
             cntext = papara.useStateFromStores;
             michal = _closure1_slot56;
@@ -6575,7 +6575,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             variable62 = cntext.bind(papara)(record, michal, config);
-            michal = ctrled[zuuluu];
+            michal = vacuum[zuuluu];
             target = yankee.bind(tangon)(michal);
             papara = target.useStateFromStores;
             michal = _closure1_slot36;
@@ -6619,7 +6619,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             record = papara.bind(target)(cntext, config, record);
-            config = ctrled[zuuluu];
+            config = vacuum[zuuluu];
             status = yankee.bind(tangon)(config);
             target = status.useStateFromStoresObject;
             config = _closure1_slot44;
@@ -6644,7 +6644,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable61 = config.resolvingGiftCodes;
             variable60 = config.resolvedGiftCodes;
             variable59 = config.acceptingGiftCodes;
-            config = ctrled[zuuluu];
+            config = vacuum[zuuluu];
             status = yankee.bind(tangon)(config);
             target = status.useStateFromStores;
             config = _closure1_slot18;
@@ -6661,7 +6661,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             variable58 = target.bind(status)(papara, config, cntext);
-            config = ctrled[zuuluu];
+            config = vacuum[zuuluu];
             status = yankee.bind(tangon)(config);
             target = status.useStateFromStores;
             config = _closure1_slot54;
@@ -6677,7 +6677,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             variable57 = target.bind(status)(papara, config, cntext);
-            config = ctrled[zuuluu];
+            config = vacuum[zuuluu];
             target = yankee.bind(tangon)(config);
             papara = target.useStateFromStores;
             cntext = new Array(1);
@@ -6692,7 +6692,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             variable56 = papara.bind(target)(cntext, michal, config);
-            michal = ctrled[zuuluu];
+            michal = vacuum[zuuluu];
             target = yankee.bind(tangon)(michal);
             papara = target.useStateFromStores;
             michal = _closure1_slot12;
@@ -6704,7 +6704,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             variable55 = papara.bind(target)(cntext, config);
-            config = ctrled[zuuluu];
+            config = vacuum[zuuluu];
             papara = yankee.bind(tangon)(config);
             cntext = papara.useStateFromStores;
             config = new Array(1);
@@ -6715,7 +6715,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             variable92 = cntext.bind(papara)(config, michal);
-            michal = ctrled[zuuluu];
+            michal = vacuum[zuuluu];
             target = yankee.bind(tangon)(michal);
             papara = target.useStateFromStores;
             michal = _closure1_slot39;
@@ -6731,7 +6731,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             variable54 = papara.bind(target)(cntext, michal, config);
-            michal = ctrled[zuuluu];
+            michal = vacuum[zuuluu];
             papara = yankee.bind(tangon)(michal);
             cntext = papara.useStateFromStoresObject;
             michal = _closure1_slot29;
@@ -6744,14 +6744,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             variable49 = cntext.bind(papara)(config, michal);
-            michal = ctrled[zuuluu];
+            michal = vacuum[zuuluu];
             status = yankee.bind(tangon)(michal);
             target = status.useStateFromStores;
             michal = _closure1_slot28;
             papara = new Array(1);
             papara[0] = michal;
             michal = 102;
-            michal = ctrled[michal];
+            michal = vacuum[michal];
             michal = yankee.bind(tangon)(michal);
             r104 = michal.isVersionEqual;
             r106 = function() {
@@ -6769,105 +6769,105 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             r108 = status;
             r107 = papara;
             michal = r108[target](r107, r106, r105, r104, r103);
-            michal = vacuum.bind(tangon)(michal, backup);
+            michal = sequen.bind(tangon)(michal, ctrled);
             variable48 = michal[romeon];
             variable47 = michal[option];
-            michal = ctrled[zuuluu];
+            michal = vacuum[zuuluu];
             cntext = yankee.bind(tangon)(michal);
             config = cntext.useStateFromStores;
             michal = _closure1_slot20;
-            vacuum = new Array(1);
-            vacuum[0] = michal;
+            sequen = new Array(1);
+            sequen[0] = michal;
             michal = function() {
                 entity = _closure1_slot20;
                 entity = entity.hasLoadedExperiments;
                 return entity;
             };
-            variable45 = config.bind(cntext)(vacuum, michal);
+            variable45 = config.bind(cntext)(sequen, michal);
             michal = 103;
-            michal = ctrled[michal];
+            michal = vacuum[michal];
             config = yankee.bind(tangon)(michal);
-            vacuum = config.useIsSpamMessageRequest;
+            sequen = config.useIsSpamMessageRequest;
             michal = golfie.id;
-            variable85 = vacuum.bind(config)(michal);
+            variable85 = sequen.bind(config)(michal);
             michal = 104;
-            michal = ctrled[michal];
-            ctrled = yankee.bind(tangon)(michal);
-            yankee = ctrled.useIsMessageRequest;
+            michal = vacuum[michal];
+            vacuum = yankee.bind(tangon)(michal);
+            yankee = vacuum.useIsMessageRequest;
             michal = golfie.id;
-            variable86 = yankee.bind(ctrled)(michal);
-            variable46 = result != foxtra;
+            variable86 = yankee.bind(vacuum)(michal);
+            variable46 = result != backup;
             if(!variable46) { _fun00096_ip = 2211; continue _fun00095 }
  2193:
-            michal = foxtra.ready;
+            michal = backup.ready;
             if(michal) { _fun00096_ip = 2208; continue _fun00095 }
  2202:
-            michal = foxtra.cached;
+            michal = backup.cached;
  2208:
             variable46 = michal;
  2211:
-            variable88 = result != foxtra;
+            variable88 = result != backup;
             if(!variable88) { _fun00096_ip = 2224; continue _fun00095 }
  2218:
-            variable88 = foxtra.cached;
+            variable88 = backup.cached;
  2224:
-            variable87 = result != foxtra;
+            variable87 = result != backup;
             if(!variable87) { _fun00096_ip = 2237; continue _fun00095 }
  2231:
-            variable87 = foxtra.ready;
+            variable87 = backup.ready;
  2237:
             if(!variable87) { _fun00096_ip = 2249; continue _fun00095 }
  2240:
-            michal = foxtra.loadingMore;
+            michal = backup.loadingMore;
             variable87 = !michal;
  2249:
             yankee = _closure1_slot0;
-            ctrled = _closure1_slot2;
-            michal = ctrled[zuuluu];
+            vacuum = _closure1_slot2;
+            michal = vacuum[zuuluu];
             cntext = yankee.bind(tangon)(michal);
             config = cntext.useStateFromStores;
             michal = _closure1_slot26;
-            vacuum = new Array(1);
-            vacuum[0] = michal;
+            sequen = new Array(1);
+            sequen[0] = michal;
             michal = function() {
                 michal = _closure1_slot26;
                 entity = michal.getRsvpVersion;
                 entity = entity.bind(michal)();
                 return entity;
             };
-            variable53 = config.bind(cntext)(vacuum, michal);
-            michal = ctrled[zuuluu];
+            variable53 = config.bind(cntext)(sequen, michal);
+            michal = vacuum[zuuluu];
             cntext = yankee.bind(tangon)(michal);
             config = cntext.useStateFromStores;
             michal = _closure1_slot25;
-            vacuum = new Array(1);
-            vacuum[0] = michal;
+            sequen = new Array(1);
+            sequen[0] = michal;
             michal = function() {
                 michal = _closure1_slot25;
                 entity = michal.getMessagesVersion;
                 entity = entity.bind(michal)();
                 return entity;
             };
-            variable52 = config.bind(cntext)(vacuum, michal);
-            michal = ctrled[zuuluu];
+            variable52 = config.bind(cntext)(sequen, michal);
+            michal = vacuum[zuuluu];
             cntext = yankee.bind(tangon)(michal);
             config = cntext.useStateFromStores;
             michal = _closure1_slot45;
-            vacuum = new Array(1);
-            vacuum[0] = michal;
+            sequen = new Array(1);
+            sequen[0] = michal;
             michal = function() {
                 michal = _closure1_slot45;
                 entity = michal.getCommunicationDisabledVersion;
                 entity = entity.bind(michal)();
                 return entity;
             };
-            variable51 = config.bind(cntext)(vacuum, michal);
-            michal = ctrled[zuuluu];
+            variable51 = config.bind(cntext)(sequen, michal);
+            michal = vacuum[zuuluu];
             cntext = yankee.bind(tangon)(michal);
             config = cntext.useStateFromStores;
             michal = _closure1_slot51;
-            vacuum = new Array(1);
-            vacuum[0] = michal;
+            sequen = new Array(1);
+            sequen[0] = michal;
             michal = function() {
                 tangon = _closure1_slot51;
                 zuuluu = tangon.can;
@@ -6877,26 +6877,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             };
-            variable42 = config.bind(cntext)(vacuum, michal);
+            variable42 = config.bind(cntext)(sequen, michal);
             michal = 105;
-            michal = ctrled[michal];
-            ctrled = yankee.bind(tangon)(michal);
-            yankee = ctrled.useCurrentUserCommunicationDisabled;
-            vacuum = result == report;
+            michal = vacuum[michal];
+            vacuum = yankee.bind(tangon)(michal);
+            yankee = vacuum.useCurrentUserCommunicationDisabled;
+            sequen = result == report;
             michal = undefined;
-            if(vacuum) { _fun00096_ip = 2445; continue _fun00095 }
+            if(sequen) { _fun00096_ip = 2445; continue _fun00095 }
  2440:
             michal = report.id;
  2445:
-            yankee = yankee.bind(ctrled)(michal);
+            yankee = yankee.bind(vacuum)(michal);
             michal = _closure1_slot3;
-            michal = michal.bind(tangon)(yankee, backup);
+            michal = michal.bind(tangon)(yankee, ctrled);
             variable43 = michal[option];
             option = _closure1_slot0;
             r102 = _closure1_slot2;
             michal = r102[zuuluu];
-            ctrled = option.bind(tangon)(michal);
-            backup = ctrled.useStateFromStores;
+            vacuum = option.bind(tangon)(michal);
+            ctrled = vacuum.useStateFromStores;
             michal = _closure1_slot40;
             yankee = new Array(1);
             yankee[0] = michal;
@@ -6905,25 +6905,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.locale;
                 return entity;
             };
-            variable41 = backup.bind(ctrled)(yankee, michal);
+            variable41 = ctrled.bind(vacuum)(yankee, michal);
             michal = _closure1_slot1;
             yankee = 106;
             yankee = r102[yankee];
-            vacuum = michal.bind(tangon)(yankee);
-            ctrled = vacuum.useExperiment;
-            backup = {};
+            sequen = michal.bind(tangon)(yankee);
+            vacuum = sequen.useExperiment;
+            ctrled = {};
             yankee = '41de6d_2';
-            backup['location'] = yankee;
+            ctrled['location'] = yankee;
             yankee = {};
-            yankee['autoTrackExposure'] = sequen;
-            yankee = ctrled.bind(vacuum)(backup, yankee);
+            yankee['autoTrackExposure'] = foxtra;
+            yankee = vacuum.bind(sequen)(ctrled, yankee);
             variable40 = yankee.paymentsBlocked;
             yankee = r102[zuuluu];
-            vacuum = option.bind(tangon)(yankee);
-            ctrled = vacuum.useStateFromStores;
+            sequen = option.bind(tangon)(yankee);
+            vacuum = sequen.useStateFromStores;
             yankee = _closure1_slot38;
-            backup = new Array(1);
-            backup[0] = yankee;
+            ctrled = new Array(1);
+            ctrled[0] = yankee;
             yankee = function() {
                 _fun00117: for(var _fun00118_ip = 0; ; ) switch(_fun00118_ip) {
  0:
@@ -6942,13 +6942,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            variable39 = ctrled.bind(vacuum)(backup, yankee);
+            variable39 = vacuum.bind(sequen)(ctrled, yankee);
             yankee = r102[zuuluu];
-            vacuum = option.bind(tangon)(yankee);
-            ctrled = vacuum.useStateFromStores;
+            sequen = option.bind(tangon)(yankee);
+            vacuum = sequen.useStateFromStores;
             yankee = _closure1_slot31;
-            backup = new Array(1);
-            backup[0] = yankee;
+            ctrled = new Array(1);
+            ctrled[0] = yankee;
             yankee = function() {
                 zuuluu = _closure1_slot31;
                 michal = zuuluu.shouldDisplayPrompt;
@@ -6956,39 +6956,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            variable38 = ctrled.bind(vacuum)(backup, yankee);
+            variable38 = vacuum.bind(sequen)(ctrled, yankee);
             yankee = r102[zuuluu];
-            vacuum = option.bind(tangon)(yankee);
-            ctrled = vacuum.useStateFromStores;
+            sequen = option.bind(tangon)(yankee);
+            vacuum = sequen.useStateFromStores;
             yankee = _closure1_slot34;
-            backup = new Array(1);
-            backup[0] = yankee;
+            ctrled = new Array(1);
+            ctrled[0] = yankee;
             yankee = function() {
                 michal = _closure1_slot34;
                 entity = michal.isEligible;
                 entity = entity.bind(michal)();
                 return entity;
             };
-            variable36 = ctrled.bind(vacuum)(backup, yankee);
+            variable36 = vacuum.bind(sequen)(ctrled, yankee);
             yankee = r102[zuuluu];
-            vacuum = option.bind(tangon)(yankee);
-            ctrled = vacuum.useStateFromStores;
+            sequen = option.bind(tangon)(yankee);
+            vacuum = sequen.useStateFromStores;
             yankee = _closure1_slot17;
-            backup = new Array(1);
-            backup[0] = yankee;
+            ctrled = new Array(1);
+            ctrled[0] = yankee;
             yankee = function() {
                 michal = _closure1_slot17;
                 entity = michal.getLazyCacheStatus;
                 entity = entity.bind(michal)();
                 return entity;
             };
-            variable37 = ctrled.bind(vacuum)(backup, yankee);
+            variable37 = vacuum.bind(sequen)(ctrled, yankee);
             yankee = r102[zuuluu];
-            vacuum = option.bind(tangon)(yankee);
-            ctrled = vacuum.useStateFromStoresObject;
+            sequen = option.bind(tangon)(yankee);
+            vacuum = sequen.useStateFromStoresObject;
             yankee = _closure1_slot57;
-            backup = new Array(1);
-            backup[0] = yankee;
+            ctrled = new Array(1);
+            ctrled[0] = yankee;
             yankee = function() {
                 _fun00119: for(var _fun00120_ip = 0; ; ) switch(_fun00120_ip) {
  0:
@@ -7014,25 +7014,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            yankee = ctrled.bind(vacuum)(backup, yankee);
+            yankee = vacuum.bind(sequen)(ctrled, yankee);
             quebec = yankee.androidKeyboardHeight;
             limora = yankee.keyboardType;
             yankee = 107;
             yankee = r102[yankee];
-            backup = option.bind(tangon)(yankee);
-            yankee = backup.useChannelSummariesExperiment;
-            yankee = yankee.bind(backup)(golfie);
+            ctrled = option.bind(tangon)(yankee);
+            yankee = ctrled.useChannelSummariesExperiment;
+            yankee = yankee.bind(ctrled)(golfie);
             var _closure2_slot7 = yankee;
-            backup = r102[zuuluu];
-            sequen = option.bind(tangon)(backup);
-            vacuum = sequen.useStateFromStores;
-            backup = _closure1_slot37;
-            ctrled = new Array(1);
-            ctrled[0] = backup;
-            backup = new Array(2);
-            backup[0] = yankee;
+            ctrled = r102[zuuluu];
+            config = option.bind(tangon)(ctrled);
+            sequen = config.useStateFromStores;
+            ctrled = _closure1_slot37;
+            vacuum = new Array(1);
+            vacuum[0] = ctrled;
+            ctrled = new Array(2);
+            ctrled[0] = yankee;
             yankee = golfie.id;
-            backup[1] = yankee;
+            ctrled[1] = yankee;
             yankee = function() {
                 _fun00121: for(var _fun00122_ip = 0; ; ) switch(_fun00122_ip) {
  0:
@@ -7049,14 +7049,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            whisks = vacuum.bind(sequen)(ctrled, yankee, backup);
+            whisks = sequen.bind(config)(vacuum, yankee, ctrled);
             yankee = r102[zuuluu];
-            sequen = option.bind(tangon)(yankee);
-            vacuum = sequen.useStateFromStores;
+            config = option.bind(tangon)(yankee);
+            sequen = config.useStateFromStores;
             yankee = _closure1_slot23;
-            ctrled = new Array(1);
-            ctrled[0] = yankee;
-            backup = function() {
+            vacuum = new Array(1);
+            vacuum[0] = yankee;
+            ctrled = function() {
                 zuuluu = _closure1_slot23;
                 michal = zuuluu.getSelectedSummary;
                 entity = _closure2_slot0;
@@ -7064,21 +7064,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            equals = vacuum.bind(sequen)(ctrled, backup);
-            vacuum = _closure1_slot10;
-            sequen = vacuum.useEffect;
-            backup = golfie.id;
-            ctrled = new Array(5);
-            ctrled[0] = backup;
-            backup = foxtra.hasMoreAfter;
-            ctrled[1] = backup;
-            backup = foxtra.hasMoreBefore;
-            ctrled[2] = backup;
-            backup = foxtra.length;
-            ctrled[3] = backup;
-            backup = foxtra.ready;
-            ctrled[4] = backup;
-            backup = function() {
+            equals = sequen.bind(config)(vacuum, ctrled);
+            config = _closure1_slot10;
+            sequen = config.useEffect;
+            ctrled = golfie.id;
+            vacuum = new Array(5);
+            vacuum[0] = ctrled;
+            ctrled = backup.hasMoreAfter;
+            vacuum[1] = ctrled;
+            ctrled = backup.hasMoreBefore;
+            vacuum[2] = ctrled;
+            ctrled = backup.length;
+            vacuum[3] = ctrled;
+            ctrled = backup.ready;
+            vacuum[4] = ctrled;
+            ctrled = function() {
                 _fun00123: for(var _fun00124_ip = 0; ; ) switch(_fun00124_ip) {
  0:
                     michal = _closure2_slot1;
@@ -7123,12 +7123,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            backup = sequen.bind(vacuum)(backup, ctrled);
-            backup = r102[zuuluu];
-            sequen = option.bind(tangon)(backup);
-            ctrled = sequen.useStateFromStores;
-            backup = new Array(1);
-            backup[0] = yankee;
+            ctrled = sequen.bind(config)(ctrled, vacuum);
+            ctrled = r102[zuuluu];
+            sequen = option.bind(tangon)(ctrled);
+            vacuum = sequen.useStateFromStores;
+            ctrled = new Array(1);
+            ctrled[0] = yankee;
             yankee = function() {
                 zuuluu = _closure1_slot23;
                 michal = zuuluu.isGravitySelectedChannel;
@@ -7137,11 +7137,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            sequen = ctrled.bind(sequen)(backup, yankee);
+            sequen = vacuum.bind(sequen)(ctrled, yankee);
             yankee = {};
             yankee['guild'] = report;
             yankee['channel'] = golfie;
-            yankee['messages'] = foxtra;
+            yankee['messages'] = backup;
             yankee['isMessagesReady'] = variable46;
             report = function(argFoo) { // Original name: useShouldTrackAnnouncementMessageViews
                 _fun00125: for(var _fun00126_ip = 0; ; ) switch(_fun00126_ip) {
@@ -7267,10 +7267,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = option.bind(tangon)(report);
             report = yankee.useIsAgeVerified;
             yankee = report.bind(yankee)();
-            ctrled = vacuum.useEffect;
-            backup = new Array(2);
-            backup[0] = variable89;
-            backup[1] = variable91;
+            vacuum = config.useEffect;
+            ctrled = new Array(2);
+            ctrled[0] = variable89;
+            ctrled[1] = variable91;
             report = function() {
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
@@ -7293,24 +7293,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 return entity;
             };
-            report = ctrled.bind(vacuum)(report, backup);
+            report = vacuum.bind(config)(report, ctrled);
             report = 110;
             report = r102[report];
-            ctrled = option.bind(tangon)(report);
-            backup = ctrled.useShouldDisableInteractiveComponents;
+            vacuum = option.bind(tangon)(report);
+            ctrled = vacuum.useShouldDisableInteractiveComponents;
             report = golfie.id;
-            target = backup.bind(ctrled)(report);
-            backup = _closure1_slot32;
+            target = ctrled.bind(vacuum)(report);
+            ctrled = _closure1_slot32;
             report = golfie.id;
-            papara = backup.bind(tangon)(report);
+            papara = ctrled.bind(tangon)(report);
             report = r102[zuuluu];
-            config = option.bind(tangon)(report);
-            vacuum = config.useStateFromStores;
+            cntext = option.bind(tangon)(report);
+            config = cntext.useStateFromStores;
             report = _closure1_slot21;
+            vacuum = new Array(1);
+            vacuum[0] = report;
             ctrled = new Array(1);
-            ctrled[0] = report;
-            backup = new Array(1);
-            backup[0] = variable89;
+            ctrled[0] = variable89;
             report = function() {
                 zuuluu = _closure1_slot21;
                 michal = zuuluu.getChannelFpInfo;
@@ -7318,7 +7318,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            cntext = vacuum.bind(config)(ctrled, report, backup);
+            cntext = config.bind(cntext)(vacuum, report, ctrled);
             report = 111;
             report = r102[report];
             report = michal.bind(tangon)(report);
@@ -7326,15 +7326,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = 112;
             report = r102[report];
             report = michal.bind(tangon)(report);
-            report = report.bind(tangon)(foxtra);
+            report = report.bind(tangon)(backup);
             vacuum = report.unloadedContentEntryMessageIds;
             ctrled = report.unloadableContentEntryMessageIds;
             report = r102[zuuluu];
-            config = option.bind(tangon)(report);
-            backup = config.useStateFromStores;
+            variable50 = option.bind(tangon)(report);
+            config = variable50.useStateFromStores;
             report = _closure1_slot55;
-            foxtra = new Array(1);
-            foxtra[0] = report;
+            backup = new Array(1);
+            backup[0] = report;
             report = function() {
                 _fun00131: for(var _fun00132_ip = 0; ; ) switch(_fun00132_ip) {
  0:
@@ -7357,15 +7357,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            r101 = backup.bind(config)(foxtra, report);
+            r101 = config.bind(variable50)(backup, report);
             report = 113;
             report = r102[report];
-            foxtra = option.bind(tangon)(report);
-            report = foxtra.useShouldFilterKeywords;
-            config = report.bind(foxtra)();
+            backup = option.bind(tangon)(report);
+            report = backup.useShouldFilterKeywords;
+            config = report.bind(backup)();
             zuuluu = r102[zuuluu];
-            backup = option.bind(tangon)(zuuluu);
-            foxtra = backup.useStateFromStores;
+            variable50 = option.bind(tangon)(zuuluu);
+            backup = variable50.useStateFromStores;
             zuuluu = _closure1_slot24;
             report = new Array(1);
             report[0] = zuuluu;
@@ -7375,12 +7375,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.bind(michal)();
                 return entity;
             };
-            variable50 = foxtra.bind(backup)(report, zuuluu);
+            variable50 = backup.bind(variable50)(report, zuuluu);
             zuuluu = 114;
             zuuluu = r102[zuuluu];
             report = option.bind(tangon)(zuuluu);
             zuuluu = report.useGuildProfileInviteEmbedExperiment;
-            backup = zuuluu.bind(report)();
+            backup = zuuluu.bind(report)(foxtra);
             zuuluu = 115;
             zuuluu = r102[zuuluu];
             report = option.bind(tangon)(zuuluu);
@@ -7408,8 +7408,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['profile'] = report;
             report = golfie.isThread;
             golfie = report.bind(golfie)();
-            if(!golfie) { _fun00096_ip = 3494; continue _fun00095 }
- 3455:
+            if(!golfie) { _fun00096_ip = 3495; continue _fun00095 }
+ 3456:
             r102 = _closure1_slot73;
             option = _closure1_slot1;
             r103 = _closure1_slot2;
@@ -7420,7 +7420,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             r103 = true;
             report['absolute'] = r103;
             golfie = r102.bind(tangon)(option, report);
- 3494:
+ 3495:
             report = new Array(2);
             report[0] = golfie;
             option = _closure1_slot73;
@@ -7486,10 +7486,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['interactionStates'] = variable49;
             oscard['interactionComponentStates'] = variable48;
             oscard['interactionComponentStatesVersion'] = variable47;
-            if(!variable45) { _fun00096_ip = 3813; continue _fun00095 }
- 3810:
+            if(!variable45) { _fun00096_ip = 3814; continue _fun00095 }
+ 3811:
             variable45 = variable46;
- 3813:
+ 3814:
             oscard['hasLoadedExperiments'] = variable45;
             oscard['guildSystemChannelFlags'] = variable44;
             oscard['currentUserCommunicationDisabled'] = variable43;
@@ -7503,10 +7503,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable36 = variable36 !== variable37;
             oscard['cacheStoreLoaded'] = variable36;
             oscard['androidKeyboardHeight'] = quebec;
-            if(!(result != equals)) { _fun00096_ip = 3885; continue _fun00095 }
- 3882:
+            if(!(result != equals)) { _fun00096_ip = 3886; continue _fun00095 }
+ 3883:
             whisks = equals;
- 3885:
+ 3886:
             oscard['selectedSummary'] = whisks;
             oscard['keyboardType'] = limora;
             oscard['shouldTrackAnnouncementMessageViews'] = sierra;
@@ -7523,10 +7523,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['resolvedReferralTrialOfferIds'] = update;
             update = result == echoed;
             result = undefined;
-            if(update) { _fun00096_ip = 3969; continue _fun00095 }
- 3964:
+            if(update) { _fun00096_ip = 3970; continue _fun00095 }
+ 3965:
             result = echoed.id;
- 3969:
+ 3970:
             oscard['referralTrialOfferId'] = result;
             oscard['isPremiumTier2User'] = sizing;
             sizing = 'all';
@@ -7534,10 +7534,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['messageShortcutsEnabled'] = sizing;
             oscard['activityInviteMessageIds'] = kiloes;
             romeon = 0;
-            if(!backup) { _fun00096_ip = 4005; continue _fun00095 }
- 4002:
+            if(!backup) { _fun00096_ip = 4006; continue _fun00095 }
+ 4003:
             romeon = foxtra;
- 4005:
+ 4006:
             oscard['guildInviteColorsFetched'] = romeon;
             oscard['isAgeVerified'] = yankee;
             r107 = oscard;

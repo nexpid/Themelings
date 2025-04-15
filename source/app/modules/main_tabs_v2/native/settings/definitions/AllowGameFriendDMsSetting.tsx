@@ -28,7 +28,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: title
         report = _closure1_slot0;
         oscard = _closure1_slot1;
-        entity = 3;
+        entity = 2;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -37,31 +37,14 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         entity = entity.t;
-        entity = entity./U8Iwc;
+        entity = entity.XpBObG;
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
     michal['title'] = option;
-    golfie = golfie.CONTENT_AND_SOCIAL;
+    golfie = golfie.CONNECTED_GAMES;
     michal['parent'] = golfie;
-    golfie = function() { // Original name: useDescription
-        report = _closure1_slot0;
-        oscard = _closure1_slot1;
-        entity = 3;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity.WO2Hlp;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
-    };
-    michal['useDescription'] = golfie;
-    golfie = 4;
+    golfie = 3;
     option = oscard[golfie];
     option = report.bind(entity)(option);
     option = option.AllowGameFriendDmsInDiscord;
@@ -72,10 +55,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     golfie = golfie.AllowGameFriendDmsInDiscord;
     golfie = golfie.updateSetting;
     michal['onValueChange'] = golfie;
-    golfie = function() { // Original name: additionalSearchTerms
+    tangon = function() { // Original name: additionalSearchTerms
         report = _closure1_slot0;
         oscard = _closure1_slot1;
-        entity = 3;
+        entity = 2;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -84,27 +67,17 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         entity = entity.t;
-        entity = entity.oPyABA;
+        entity = entity.XpBObG;
         michal = michal.bind(zuuluu)(entity);
         entity = new Array(1);
         entity[0] = michal;
         return entity;
     };
-    michal['additionalSearchTerms'] = golfie;
-    tangon = function() { // Original name: usePredicate
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 2;
-        michal = michal[entity];
-        entity = undefined;
-        zuuluu = zuuluu.bind(entity)(michal);
-        michal = zuuluu.useIsAllowGameFriendDMsSettingVisible;
-        entity = {};
-        tangon = 'AllowGameFriendDMsSetting';
-        entity['location'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
-    };
+    michal['additionalSearchTerms'] = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.useIsAllowGameFriendDMsSettingVisible;
     michal['usePredicate'] = tangon;
     tangon = 5;
     tangon = oscard[tangon];

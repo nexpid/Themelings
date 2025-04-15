@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
         return entity;
     };
     michal['title'] = option;
-    golfie = golfie.CONTENT_AND_SOCIAL;
+    golfie = golfie.CONTENT_AND_SOCIAL_DISCORD;
     michal['parent'] = golfie;
     tangon = function() { // Original name: useSendFriendRequestsSettingOptions
         verify = _closure1_slot0;

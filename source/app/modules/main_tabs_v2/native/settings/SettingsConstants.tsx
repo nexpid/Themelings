@@ -376,8 +376,14 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['CONTENT_AND_SOCIAL'] = entity;
     entity = 'REACT_COMPILER';
     michal['REACT_COMPILER'] = entity;
+    entity = 'CONTENT_AND_SOCIAL_DISCORD';
+    michal['CONTENT_AND_SOCIAL_DISCORD'] = entity;
+    entity = 'CONNECTED_GAMES';
+    michal['CONNECTED_GAMES'] = entity;
     entity = 'ALLOW_GAME_FRIEND_DMS';
     michal['ALLOW_GAME_FRIEND_DMS'] = entity;
+    entity = 'IN_GAME_DMS';
+    michal['IN_GAME_DMS'] = entity;
     entity = 'PLAY_SHORTCUT_ROW';
     michal['PLAY_SHORTCUT_ROW'] = entity;
     tangon = argPlu;

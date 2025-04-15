@@ -25,64 +25,52 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
  0:
             zuuluu = argFoo;
             entity = {};
-            tangon = zuuluu.primary_color;
+            michal = zuuluu.primary_color;
+            tangon = null;
+            report = tangon == michal;
             oscard = undefined;
-            golfie = 0;
             michal = undefined;
-            if(!(golfie !== tangon)) { _fun00002_ip = 75; continue _fun00001 }
- 21:
+            if(report) { _fun00002_ip = 63; continue _fun00001 }
+ 24:
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
+            report = 0;
+            report = option[report];
+            option = golfie.bind(oscard)(report);
+            golfie = option.int2hex;
             report = zuuluu.primary_color;
-            tangon = null;
-            tangon = tangon == report;
-            michal = undefined;
-            if(tangon) { _fun00002_ip = 75; continue _fun00001 }
- 38:
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[golfie];
-            option = report.bind(oscard)(tangon);
-            report = option.int2hex;
-            tangon = zuuluu.primary_color;
-            michal = report.bind(option)(tangon);
- 75:
+            michal = golfie.bind(option)(report);
+ 63:
             entity['primaryColor'] = michal;
-            tangon = zuuluu.secondary_color;
+            michal = zuuluu.secondary_color;
+            report = tangon == michal;
             michal = undefined;
-            if(!(golfie !== tangon)) { _fun00002_ip = 146; continue _fun00001 }
- 92:
+            if(report) { _fun00002_ip = 122; continue _fun00001 }
+ 83:
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
+            report = 0;
+            report = option[report];
+            option = golfie.bind(oscard)(report);
+            golfie = option.int2hex;
             report = zuuluu.secondary_color;
-            tangon = null;
-            tangon = tangon == report;
-            michal = undefined;
-            if(tangon) { _fun00002_ip = 146; continue _fun00001 }
- 109:
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[golfie];
-            option = report.bind(oscard)(tangon);
-            report = option.int2hex;
-            tangon = zuuluu.secondary_color;
-            michal = report.bind(option)(tangon);
- 146:
+            michal = golfie.bind(option)(report);
+ 122:
             entity['secondaryColor'] = michal;
-            tangon = zuuluu.tertiary_color;
+            michal = zuuluu.tertiary_color;
+            tangon = tangon == michal;
             michal = undefined;
-            if(!(golfie !== tangon)) { _fun00002_ip = 217; continue _fun00001 }
- 163:
-            report = zuuluu.tertiary_color;
-            tangon = null;
-            tangon = tangon == report;
-            michal = undefined;
-            if(tangon) { _fun00002_ip = 217; continue _fun00001 }
- 180:
+            if(tangon) { _fun00002_ip = 181; continue _fun00001 }
+ 142:
             report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[golfie];
+            golfie = _closure1_slot1;
+            tangon = 0;
+            tangon = golfie[tangon];
             report = report.bind(oscard)(tangon);
             tangon = report.int2hex;
             zuuluu = zuuluu.tertiary_color;
             michal = tangon.bind(report)(zuuluu);
- 217:
+ 181:
             entity['tertiaryColor'] = michal;
             return entity;
         }
@@ -93,64 +81,52 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
  0:
             zuuluu = argFoo;
             entity = {};
-            tangon = zuuluu.primaryColor;
+            michal = zuuluu.primaryColor;
+            tangon = null;
+            report = tangon == michal;
             oscard = undefined;
-            golfie = 0;
             michal = undefined;
-            if(!(golfie !== tangon)) { _fun00004_ip = 75; continue _fun00003 }
- 21:
+            if(report) { _fun00004_ip = 63; continue _fun00003 }
+ 24:
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
+            report = 0;
+            report = option[report];
+            option = golfie.bind(oscard)(report);
+            golfie = option.int2hex;
             report = zuuluu.primaryColor;
-            tangon = null;
-            tangon = tangon == report;
-            michal = undefined;
-            if(tangon) { _fun00004_ip = 75; continue _fun00003 }
- 38:
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[golfie];
-            option = report.bind(oscard)(tangon);
-            report = option.int2hex;
-            tangon = zuuluu.primaryColor;
-            michal = report.bind(option)(tangon);
- 75:
+            michal = golfie.bind(option)(report);
+ 63:
             entity['primaryColor'] = michal;
-            tangon = zuuluu.secondaryColor;
+            michal = zuuluu.secondaryColor;
+            report = tangon == michal;
             michal = undefined;
-            if(!(golfie !== tangon)) { _fun00004_ip = 146; continue _fun00003 }
- 92:
+            if(report) { _fun00004_ip = 122; continue _fun00003 }
+ 83:
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
+            report = 0;
+            report = option[report];
+            option = golfie.bind(oscard)(report);
+            golfie = option.int2hex;
             report = zuuluu.secondaryColor;
-            tangon = null;
-            tangon = tangon == report;
-            michal = undefined;
-            if(tangon) { _fun00004_ip = 146; continue _fun00003 }
- 109:
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[golfie];
-            option = report.bind(oscard)(tangon);
-            report = option.int2hex;
-            tangon = zuuluu.secondaryColor;
-            michal = report.bind(option)(tangon);
- 146:
+            michal = golfie.bind(option)(report);
+ 122:
             entity['secondaryColor'] = michal;
-            tangon = zuuluu.tertiaryColor;
+            michal = zuuluu.tertiaryColor;
+            tangon = tangon == michal;
             michal = undefined;
-            if(!(golfie !== tangon)) { _fun00004_ip = 217; continue _fun00003 }
- 163:
-            report = zuuluu.tertiaryColor;
-            tangon = null;
-            tangon = tangon == report;
-            michal = undefined;
-            if(tangon) { _fun00004_ip = 217; continue _fun00003 }
- 180:
+            if(tangon) { _fun00004_ip = 181; continue _fun00003 }
+ 142:
             report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[golfie];
+            golfie = _closure1_slot1;
+            tangon = 0;
+            tangon = golfie[tangon];
             report = report.bind(oscard)(tangon);
             tangon = report.int2hex;
             zuuluu = zuuluu.tertiaryColor;
             michal = tangon.bind(report)(zuuluu);
- 217:
+ 181:
             entity['tertiaryColor'] = michal;
             return entity;
         }

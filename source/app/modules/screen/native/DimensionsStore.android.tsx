@@ -1,11 +1,11 @@
 // app/modules/screen/native/DimensionsStore.android.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    option = argBaz;
+    offset = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = option;
+    var _closure1_slot1 = offset;
     var _closure1_slot2 = oscard;
     entity = function(argFoo, argBar, argBaz, argCor) { // Original name: computeWindowDimensions
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = michal.height;
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            michal = 2;
+            michal = 3;
             zuuluu = zuuluu[michal];
             michal = undefined;
             oscard = oscard.bind(michal)(zuuluu);
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  154:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
-            verify = 3;
+            verify = 4;
             verify = yankee[verify];
             offset = offset.bind(michal)(verify);
             verify = offset.getSystemKeyboardHeight;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = copyDataProperties(kiloes, backup);
             report = _closure1_slot1;
             michal = _closure1_slot2;
-            oscard = 1;
+            oscard = 2;
             tangon = michal[oscard];
             michal = undefined;
             tangon = report.bind(michal)(tangon);
@@ -191,7 +191,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     entity = function() { // Original name: updateDimensionsStoreState
         zuuluu = _closure1_slot0;
         michal = _closure1_slot2;
-        entity = 4;
+        entity = 5;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -214,34 +214,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     var _closure1_slot7 = entity;
     entity = global;
-    verify = entity.Object;
-    golfie = verify.defineProperty;
+    option = entity.Object;
+    golfie = option.defineProperty;
     michal = {};
     entity = true;
     michal['value'] = entity;
     entity = '__esModule';
-    entity = golfie.bind(verify)(zuuluu, entity, michal);
+    entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = 0;
     michal = oscard[entity];
     entity = undefined;
     michal = report.bind(entity)(michal);
     verify = michal.Dimensions;
     var _closure1_slot3 = verify;
-    michal = 5;
+    michal = 1;
     michal = oscard[michal];
-    offset = report.bind(entity)(michal);
-    golfie = offset.create;
+    option = offset.bind(entity)(michal);
+    michal = 6;
+    michal = oscard[michal];
+    yankee = report.bind(entity)(michal);
+    golfie = yankee.create;
     michal = function() {
         michal = _closure1_slot6;
         entity = undefined;
         entity = michal.bind(entity)(entity);
         return entity;
     };
-    michal = golfie.bind(offset)(michal);
+    michal = golfie.bind(yankee)(michal);
     var _closure1_slot4 = michal;
-    golfie = 6;
+    golfie = 7;
     golfie = oscard[golfie];
-    option = option.bind(entity)(golfie);
+    offset = offset.bind(entity)(golfie);
+    golfie = function() {
+        michal = _closure1_slot7;
+        entity = undefined;
+        michal = michal.bind(entity)();
+        return entity;
+    };
+    golfie = offset.bind(entity)(golfie);
     golfie = function() {
         michal = _closure1_slot7;
         entity = undefined;
@@ -249,17 +259,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     golfie = option.bind(entity)(golfie);
-    golfie = 3;
-    golfie = oscard[golfie];
-    offset = report.bind(entity)(golfie);
-    option = offset.subscribeToSystemKeyboardHeight;
-    golfie = function() {
-        michal = _closure1_slot7;
-        entity = undefined;
-        michal = michal.bind(entity)();
-        return entity;
-    };
-    golfie = option.bind(offset)(golfie);
     option = verify.addEventListener;
     golfie = 'change';
     tangon = function() {
@@ -269,7 +268,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     tangon = option.bind(verify)(golfie, tangon);
-    tangon = 7;
+    tangon = 8;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

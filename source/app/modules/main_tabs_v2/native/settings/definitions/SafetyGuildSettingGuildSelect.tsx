@@ -110,7 +110,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         return entity;
     };
     tangon['useSelectedGuildId'] = verify;
-    option = option.CONTENT_AND_SOCIAL;
+    option = option.CONTENT_AND_SOCIAL_DISCORD;
     tangon['parent'] = option;
     report = function() { // Original name: onGuildSelectPress
         report = _closure1_slot1;

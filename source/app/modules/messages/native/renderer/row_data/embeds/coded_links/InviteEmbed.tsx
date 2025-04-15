@@ -37,20 +37,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     golfie = tangon.InviteStates;
     var _closure1_slot6 = golfie;
-    golfie = tangon.AbortCodes;
-    var _closure1_slot7 = golfie;
-    tangon = tangon.ChannelTypesSets;
-    var _closure1_slot8 = tangon;
+    tangon = tangon.AbortCodes;
+    var _closure1_slot7 = tangon;
     tangon = 5;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.InviteTypes;
-    var _closure1_slot9 = tangon;
+    var _closure1_slot8 = tangon;
     tangon = 6;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
-    var _closure1_slot10 = tangon;
+    var _closure1_slot9 = tangon;
     tangon = 18;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -97,32 +95,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity = new Array(0);
-            offset = oscard.bind(golfie)(tangon, zuuluu, entity);
+            yankee = oscard.bind(golfie)(tangon, zuuluu, entity);
             entity = option.author;
             entity = entity.id;
-            golfie = offset === entity;
+            golfie = yankee === entity;
             entity = null;
-            if(!(entity != verify)) { _fun00002_ip = 887; continue _fun00001 }
+            if(!(entity != verify)) { _fun00002_ip = 846; continue _fun00001 }
  147:
             tangon = verify.state;
             zuuluu = _closure1_slot6;
             zuuluu = zuuluu.RESOLVING;
-            if(!(tangon !== zuuluu)) { _fun00002_ip = 847; continue _fun00001 }
+            if(!(tangon !== zuuluu)) { _fun00002_ip = 806; continue _fun00001 }
  169:
             tangon = verify.state;
             zuuluu = _closure1_slot6;
             zuuluu = zuuluu.EXPIRED;
-            if(!(tangon !== zuuluu)) { _fun00002_ip = 798; continue _fun00001 }
+            if(!(tangon !== zuuluu)) { _fun00002_ip = 757; continue _fun00001 }
  191:
             tangon = verify.state;
             zuuluu = _closure1_slot6;
             zuuluu = zuuluu.BANNED;
-            if(!(tangon !== zuuluu)) { _fun00002_ip = 798; continue _fun00001 }
+            if(!(tangon !== zuuluu)) { _fun00002_ip = 757; continue _fun00001 }
  213:
             tangon = verify.state;
             zuuluu = _closure1_slot6;
             zuuluu = zuuluu.ERROR;
-            if(!(tangon !== zuuluu)) { _fun00002_ip = 748; continue _fun00001 }
+            if(!(tangon !== zuuluu)) { _fun00002_ip = 707; continue _fun00001 }
  235:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -131,13 +129,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon.bind(report)(zuuluu);
             zuuluu = tangon.getInviteType;
             tangon = zuuluu.bind(tangon)(verify);
-            zuuluu = _closure1_slot9;
+            zuuluu = _closure1_slot8;
             zuuluu = zuuluu.GROUP_DM;
-            if(!(tangon !== zuuluu)) { _fun00002_ip = 704; continue _fun00001 }
+            if(!(tangon !== zuuluu)) { _fun00002_ip = 663; continue _fun00001 }
  283:
-            zuuluu = _closure1_slot9;
+            zuuluu = _closure1_slot8;
             zuuluu = zuuluu.FRIEND;
-            if(!(tangon !== zuuluu)) { _fun00002_ip = 655; continue _fun00001 }
+            if(!(tangon !== zuuluu)) { _fun00002_ip = 614; continue _fun00001 }
  300:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -145,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon.bind(report)(zuuluu);
             zuuluu = tangon.isStageInviteEmbed;
             zuuluu = zuuluu.bind(tangon)(verify);
-            if(zuuluu) { _fun00002_ip = 616; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 575; continue _fun00001 }
  334:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -153,29 +151,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon.bind(report)(zuuluu);
             zuuluu = tangon.isGuildScheduledEventInviteEmbed;
             zuuluu = zuuluu.bind(tangon)(verify);
-            if(zuuluu) { _fun00002_ip = 571; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 530; continue _fun00001 }
  368:
-            tangon = _closure1_slot1;
+            tangon = _closure1_slot0;
             oscard = _closure1_slot2;
             zuuluu = 14;
             zuuluu = oscard[zuuluu];
-            zuuluu = tangon.bind(report)(zuuluu);
-            zuuluu = zuuluu.bind(report)(verify);
-            tangon = zuuluu.channel;
-            zuuluu = entity != tangon;
-            if(!zuuluu) { _fun00002_ip = 430; continue _fun00001 }
- 405:
-            oscard = _closure1_slot8;
-            yankee = oscard.GUILD_TEXT_ONLY;
-            oscard = yankee.has;
-            tangon = tangon.type;
-            zuuluu = oscard.bind(yankee)(tangon);
- 430:
-            tangon = verify.profile;
-            if(!(entity != tangon)) { _fun00002_ip = 476; continue _fun00001 }
- 440:
-            if(!zuuluu) { _fun00002_ip = 476; continue _fun00001 }
- 443:
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = tangon.guildInviteCanEmbedProfile;
+            zuuluu = zuuluu.bind(tangon)(verify);
+            if(!zuuluu) { _fun00002_ip = 435; continue _fun00001 }
+ 402:
             tangon = _closure1_slot0;
             oscard = _closure1_slot2;
             zuuluu = 15;
@@ -183,22 +169,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon.bind(report)(zuuluu);
             zuuluu = tangon.getNewProfileInviteEmbedExperimentEnabled;
             zuuluu = zuuluu.bind(tangon)();
-            if(zuuluu) { _fun00002_ip = 526; continue _fun00001 }
- 476:
-            oscard = _closure1_slot10;
+            if(zuuluu) { _fun00002_ip = 485; continue _fun00001 }
+ 435:
+            oscard = _closure1_slot9;
             tangon = _closure1_slot0;
-            yankee = _closure1_slot2;
+            offset = _closure1_slot2;
             zuuluu = 7;
-            zuuluu = yankee[zuuluu];
+            zuuluu = offset[zuuluu];
             zuuluu = tangon.bind(report)(zuuluu);
             tangon = zuuluu.GuildInvite;
             zuuluu = {};
             zuuluu['invite'] = verify;
             zuuluu['isOwnInvite'] = golfie;
             zuuluu = oscard.bind(report)(tangon, zuuluu);
-            _fun00002_ip = 569; continue _fun00001;
- 526:
-            yankee = _closure1_slot10;
+            _fun00002_ip = 528; continue _fun00001;
+ 485:
+            offset = _closure1_slot9;
             oscard = _closure1_slot0;
             romeon = _closure1_slot2;
             tangon = 16;
@@ -207,59 +193,63 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.GuildProfileInvite;
             tangon = {};
             tangon['invite'] = verify;
-            zuuluu = yankee.bind(report)(oscard, tangon);
- 569:
-            return zuuluu;
- 571:
-            oscard = _closure1_slot10;
-            tangon = _closure1_slot0;
+            zuuluu = offset.bind(report)(oscard, tangon);
+ 528:
+            _fun00002_ip = 573; continue _fun00001;
+ 530:
+            offset = _closure1_slot9;
+            oscard = _closure1_slot0;
+            romeon = _closure1_slot2;
+            tangon = 12;
+            tangon = romeon[tangon];
+            tangon = oscard.bind(report)(tangon);
+            oscard = tangon.GuildScheduledEventInviteEmbed;
+            tangon = {};
+            tangon['invite'] = verify;
+            zuuluu = offset.bind(report)(oscard, tangon);
+ 573:
+            _fun00002_ip = 612; continue _fun00001;
+ 575:
+            offset = _closure1_slot9;
+            oscard = _closure1_slot1;
+            romeon = _closure1_slot2;
+            tangon = 11;
+            tangon = romeon[tangon];
+            oscard = oscard.bind(report)(tangon);
+            tangon = {};
+            tangon['invite'] = verify;
+            zuuluu = offset.bind(report)(oscard, tangon);
+ 612:
+            _fun00002_ip = 661; continue _fun00001;
+ 614:
+            offset = _closure1_slot9;
+            oscard = _closure1_slot1;
+            romeon = _closure1_slot2;
+            tangon = 10;
+            tangon = romeon[tangon];
+            oscard = oscard.bind(report)(tangon);
+            tangon = {};
+            tangon['invite'] = verify;
+            tangon['isOwnInvite'] = golfie;
+            tangon['currentUserId'] = yankee;
+            zuuluu = offset.bind(report)(oscard, tangon);
+ 661:
+            _fun00002_ip = 705; continue _fun00001;
+ 663:
+            offset = _closure1_slot9;
+            oscard = _closure1_slot1;
             yankee = _closure1_slot2;
-            zuuluu = 12;
-            zuuluu = yankee[zuuluu];
-            zuuluu = tangon.bind(report)(zuuluu);
-            tangon = zuuluu.GuildScheduledEventInviteEmbed;
-            zuuluu = {};
-            zuuluu['invite'] = verify;
-            zuuluu = oscard.bind(report)(tangon, zuuluu);
+            tangon = 9;
+            tangon = yankee[tangon];
+            oscard = oscard.bind(report)(tangon);
+            tangon = {};
+            tangon['invite'] = verify;
+            tangon['isOwnInvite'] = golfie;
+            zuuluu = offset.bind(report)(oscard, tangon);
+ 705:
             return zuuluu;
- 616:
-            oscard = _closure1_slot10;
-            tangon = _closure1_slot1;
-            yankee = _closure1_slot2;
-            zuuluu = 11;
-            zuuluu = yankee[zuuluu];
-            tangon = tangon.bind(report)(zuuluu);
-            zuuluu = {};
-            zuuluu['invite'] = verify;
-            zuuluu = oscard.bind(report)(tangon, zuuluu);
-            return zuuluu;
- 655:
-            oscard = _closure1_slot10;
-            tangon = _closure1_slot1;
-            yankee = _closure1_slot2;
-            zuuluu = 10;
-            zuuluu = yankee[zuuluu];
-            tangon = tangon.bind(report)(zuuluu);
-            zuuluu = {};
-            zuuluu['invite'] = verify;
-            zuuluu['isOwnInvite'] = golfie;
-            zuuluu['currentUserId'] = offset;
-            zuuluu = oscard.bind(report)(tangon, zuuluu);
-            return zuuluu;
- 704:
-            oscard = _closure1_slot10;
-            tangon = _closure1_slot1;
-            offset = _closure1_slot2;
-            zuuluu = 9;
-            zuuluu = offset[zuuluu];
-            tangon = tangon.bind(report)(zuuluu);
-            zuuluu = {};
-            zuuluu['invite'] = verify;
-            zuuluu['isOwnInvite'] = golfie;
-            zuuluu = oscard.bind(report)(tangon, zuuluu);
-            return zuuluu;
- 748:
-            oscard = _closure1_slot10;
+ 707:
+            oscard = _closure1_slot9;
             tangon = _closure1_slot0;
             offset = _closure1_slot2;
             zuuluu = 7;
@@ -271,8 +261,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['isOwnInvite'] = golfie;
             zuuluu = oscard.bind(report)(tangon, zuuluu);
             return zuuluu;
- 798:
-            oscard = _closure1_slot10;
+ 757:
+            oscard = _closure1_slot9;
             tangon = _closure1_slot0;
             verify = _closure1_slot2;
             zuuluu = 7;
@@ -284,8 +274,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['isOwnInvite'] = golfie;
             zuuluu = oscard.bind(report)(tangon, zuuluu);
             return zuuluu;
- 847:
-            tangon = _closure1_slot10;
+ 806:
+            tangon = _closure1_slot9;
             zuuluu = _closure1_slot0;
             oscard = _closure1_slot2;
             michal = 7;
@@ -295,7 +285,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {};
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 887:
+ 846:
             return entity;
         }
     };
@@ -310,7 +300,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = zuuluu.getInvite;
             yankee = entity.bind(zuuluu)(offset);
             entity = null;
-            if(!(entity != yankee)) { _fun00004_ip = 893; continue _fun00003 }
+            if(!(entity != yankee)) { _fun00004_ip = 857; continue _fun00003 }
  36:
             report = _closure1_slot5;
             zuuluu = report.getCurrentUser;
@@ -328,22 +318,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = yankee.state;
             zuuluu = _closure1_slot6;
             zuuluu = zuuluu.RESOLVING;
-            if(!(oscard !== zuuluu)) { _fun00004_ip = 860; continue _fun00003 }
+            if(!(oscard !== zuuluu)) { _fun00004_ip = 824; continue _fun00003 }
  102:
             oscard = yankee.state;
             zuuluu = _closure1_slot6;
             zuuluu = zuuluu.EXPIRED;
-            if(!(oscard !== zuuluu)) { _fun00004_ip = 825; continue _fun00003 }
+            if(!(oscard !== zuuluu)) { _fun00004_ip = 789; continue _fun00003 }
  124:
             oscard = yankee.state;
             zuuluu = _closure1_slot6;
             zuuluu = zuuluu.BANNED;
-            if(!(oscard !== zuuluu)) { _fun00004_ip = 825; continue _fun00003 }
+            if(!(oscard !== zuuluu)) { _fun00004_ip = 789; continue _fun00003 }
  146:
             oscard = yankee.state;
             zuuluu = _closure1_slot6;
             zuuluu = zuuluu.ERROR;
-            if(!(oscard !== zuuluu)) { _fun00004_ip = 683; continue _fun00003 }
+            if(!(oscard !== zuuluu)) { _fun00004_ip = 647; continue _fun00003 }
  168:
             romeon = _closure1_slot0;
             oscard = _closure1_slot2;
@@ -352,123 +342,117 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = romeon.bind(report)(oscard);
             oscard = romeon.getInviteType;
             romeon = oscard.bind(romeon)(yankee);
-            oscard = _closure1_slot9;
+            oscard = _closure1_slot8;
             oscard = oscard.GROUP_DM;
-            if(!(oscard !== romeon)) { _fun00004_ip = 648; continue _fun00003 }
+            if(!(oscard !== romeon)) { _fun00004_ip = 612; continue _fun00003 }
  216:
-            oscard = _closure1_slot9;
+            oscard = _closure1_slot8;
             oscard = oscard.FRIEND;
-            if(!(oscard !== romeon)) { _fun00004_ip = 601; continue _fun00003 }
+            if(!(oscard !== romeon)) { _fun00004_ip = 565; continue _fun00003 }
  233:
             romeon = _closure1_slot0;
             oscard = _closure1_slot2;
             oscard = oscard[zuuluu];
             romeon = romeon.bind(report)(oscard);
             oscard = romeon.isStageInviteEmbed;
-            foxtra = oscard.bind(romeon)(yankee);
-            oscard = _closure1_slot0;
-            romeon = _closure1_slot2;
-            if(foxtra) { _fun00004_ip = 575; continue _fun00003 }
+            oscard = oscard.bind(romeon)(yankee);
+            romeon = _closure1_slot0;
+            foxtra = _closure1_slot2;
+            if(oscard) { _fun00004_ip = 539; continue _fun00003 }
  275:
-            foxtra = romeon[zuuluu];
-            backup = oscard.bind(report)(foxtra);
-            foxtra = backup.isGuildScheduledEventInviteEmbed;
-            kiloes = foxtra.bind(backup)(yankee);
-            foxtra = _closure1_slot0;
-            backup = _closure1_slot2;
-            if(kiloes) { _fun00004_ip = 549; continue _fun00003 }
+            oscard = foxtra[zuuluu];
+            backup = romeon.bind(report)(oscard);
+            oscard = backup.isGuildScheduledEventInviteEmbed;
+            oscard = oscard.bind(backup)(yankee);
+            backup = _closure1_slot0;
+            kiloes = _closure1_slot2;
+            if(oscard) { _fun00004_ip = 513; continue _fun00003 }
  309:
-            zuuluu = backup[zuuluu];
-            kiloes = foxtra.bind(report)(zuuluu);
-            zuuluu = kiloes.isEmbeddedApplicationInvite;
-            zuuluu = zuuluu.bind(kiloes)(yankee);
-            if(zuuluu) { _fun00004_ip = 499; continue _fun00003 }
- 335:
-            kiloes = _closure1_slot1;
-            sizing = _closure1_slot2;
-            zuuluu = 14;
-            zuuluu = sizing[zuuluu];
-            zuuluu = kiloes.bind(report)(zuuluu);
-            zuuluu = zuuluu.bind(report)(yankee);
-            zuuluu = zuuluu.channel;
-            if(!(entity != zuuluu)) { _fun00004_ip = 430; continue _fun00003 }
- 369:
-            kiloes = _closure1_slot8;
-            sizing = kiloes.GUILD_TEXT_ONLY;
-            kiloes = sizing.has;
-            zuuluu = zuuluu.type;
-            zuuluu = kiloes.bind(sizing)(zuuluu);
-            if(!zuuluu) { _fun00004_ip = 430; continue _fun00003 }
- 397:
-            kiloes = _closure1_slot0;
-            sizing = _closure1_slot2;
-            zuuluu = 15;
-            zuuluu = sizing[zuuluu];
-            kiloes = kiloes.bind(report)(zuuluu);
-            zuuluu = kiloes.getNewProfileInviteEmbedExperimentEnabled;
-            zuuluu = zuuluu.bind(kiloes)();
-            if(zuuluu) { _fun00004_ip = 465; continue _fun00003 }
- 430:
-            kiloes = _closure1_slot0;
-            sizing = _closure1_slot2;
-            zuuluu = 7;
-            zuuluu = sizing[zuuluu];
-            kiloes = kiloes.bind(report)(zuuluu);
-            zuuluu = kiloes.createGuildInvite;
-            zuuluu = zuuluu.bind(kiloes)(yankee, golfie, tangon);
-            _fun00004_ip = 497; continue _fun00003;
- 465:
+            zuuluu = kiloes[zuuluu];
+            oscard = backup.bind(report)(zuuluu);
+            zuuluu = oscard.isEmbeddedApplicationInvite;
+            zuuluu = zuuluu.bind(oscard)(yankee);
             sizing = _closure1_slot0;
             output = _closure1_slot2;
-            kiloes = 16;
-            kiloes = output[kiloes];
-            sizing = sizing.bind(report)(kiloes);
-            kiloes = sizing.createGuildProfileInvite;
-            zuuluu = kiloes.bind(sizing)(yankee, tangon);
- 497:
-            return zuuluu;
- 499:
-            kiloes = _closure1_slot0;
-            sizing = _closure1_slot2;
-            zuuluu = 13;
-            zuuluu = sizing[zuuluu];
-            sizing = kiloes.bind(report)(zuuluu);
-            kiloes = sizing.createEmbeddedActivityInviteEmbed;
-            zuuluu = {};
-            output = yankee.code;
-            zuuluu['inviteCode'] = output;
-            zuuluu['theme'] = tangon;
-            zuuluu = kiloes.bind(sizing)(zuuluu);
-            return zuuluu;
- 549:
-            zuuluu = 12;
-            zuuluu = backup[zuuluu];
-            foxtra = foxtra.bind(report)(zuuluu);
-            zuuluu = foxtra.createGuildScheduledEventInviteEmbed;
-            zuuluu = zuuluu.bind(foxtra)(yankee, tangon);
-            return zuuluu;
- 575:
-            zuuluu = 11;
-            zuuluu = romeon[zuuluu];
+            if(zuuluu) { _fun00004_ip = 471; continue _fun00003 }
+ 343:
+            zuuluu = 14;
+            zuuluu = output[zuuluu];
+            oscard = sizing.bind(report)(zuuluu);
+            zuuluu = oscard.guildInviteCanEmbedProfile;
+            zuuluu = zuuluu.bind(oscard)(yankee);
+            if(!zuuluu) { _fun00004_ip = 402; continue _fun00003 }
+ 369:
+            oscard = _closure1_slot0;
+            result = _closure1_slot2;
+            zuuluu = 15;
+            zuuluu = result[zuuluu];
             oscard = oscard.bind(report)(zuuluu);
-            zuuluu = oscard.createStageInviteEmbed;
-            zuuluu = zuuluu.bind(oscard)(yankee, tangon);
+            zuuluu = oscard.getNewProfileInviteEmbedExperimentEnabled;
+            zuuluu = zuuluu.bind(oscard)();
+            if(zuuluu) { _fun00004_ip = 437; continue _fun00003 }
+ 402:
+            oscard = _closure1_slot0;
+            result = _closure1_slot2;
+            zuuluu = 7;
+            zuuluu = result[zuuluu];
+            oscard = oscard.bind(report)(zuuluu);
+            zuuluu = oscard.createGuildInvite;
+            zuuluu = zuuluu.bind(oscard)(yankee, golfie, tangon);
+            _fun00004_ip = 469; continue _fun00003;
+ 437:
+            result = _closure1_slot0;
+            echoed = _closure1_slot2;
+            oscard = 16;
+            oscard = echoed[oscard];
+            result = result.bind(report)(oscard);
+            oscard = result.createGuildProfileInvite;
+            zuuluu = oscard.bind(result)(yankee, tangon);
+ 469:
+            _fun00004_ip = 511; continue _fun00003;
+ 471:
+            oscard = 13;
+            oscard = output[oscard];
+            output = sizing.bind(report)(oscard);
+            sizing = output.createEmbeddedActivityInviteEmbed;
+            oscard = {};
+            result = yankee.code;
+            oscard['inviteCode'] = result;
+            oscard['theme'] = tangon;
+            zuuluu = sizing.bind(output)(oscard);
+ 511:
+            _fun00004_ip = 537; continue _fun00003;
+ 513:
+            oscard = 12;
+            oscard = kiloes[oscard];
+            backup = backup.bind(report)(oscard);
+            oscard = backup.createGuildScheduledEventInviteEmbed;
+            zuuluu = oscard.bind(backup)(yankee, tangon);
+ 537:
+            _fun00004_ip = 563; continue _fun00003;
+ 539:
+            oscard = 11;
+            oscard = foxtra[oscard];
+            romeon = romeon.bind(report)(oscard);
+            oscard = romeon.createStageInviteEmbed;
+            zuuluu = oscard.bind(romeon)(yankee, tangon);
+ 563:
             return zuuluu;
- 601:
+ 565:
             oscard = _closure1_slot0;
             romeon = _closure1_slot2;
             zuuluu = 10;
             zuuluu = romeon[zuuluu];
             oscard = oscard.bind(report)(zuuluu);
             zuuluu = oscard.createFriendInvite;
-            ctrled = oscard;
-            source = yankee;
-            update = golfie;
-            echoed = verify;
-            result = tangon;
-            zuuluu = ctrled[zuuluu](source, update, echoed, result, output);
+            sequen = oscard;
+            vacuum = yankee;
+            ctrled = golfie;
+            source = verify;
+            update = tangon;
+            zuuluu = sequen[zuuluu](vacuum, ctrled, source, update, echoed);
             return zuuluu;
- 648:
+ 612:
             oscard = _closure1_slot0;
             verify = _closure1_slot2;
             zuuluu = 9;
@@ -477,17 +461,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = oscard.createGroupDMInvite;
             zuuluu = zuuluu.bind(oscard)(yankee, golfie, tangon);
             return zuuluu;
- 683:
+ 647:
             oscard = _closure1_slot4;
             zuuluu = oscard.getInviteError;
             zuuluu = zuuluu.bind(oscard)(offset);
-            if(!(entity != zuuluu)) { _fun00004_ip = 790; continue _fun00003 }
- 702:
+            if(!(entity != zuuluu)) { _fun00004_ip = 754; continue _fun00003 }
+ 666:
             oscard = zuuluu.code;
             zuuluu = _closure1_slot7;
             zuuluu = zuuluu.INVITES_DISABLED;
-            if(!(oscard !== zuuluu)) { _fun00004_ip = 756; continue _fun00003 }
- 721:
+            if(!(oscard !== zuuluu)) { _fun00004_ip = 720; continue _fun00003 }
+ 685:
             oscard = _closure1_slot0;
             verify = _closure1_slot2;
             zuuluu = 7;
@@ -495,8 +479,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.bind(report)(zuuluu);
             zuuluu = oscard.createErroredGuildInvite;
             zuuluu = zuuluu.bind(oscard)(offset, golfie, tangon);
-            _fun00004_ip = 788; continue _fun00003;
- 756:
+            _fun00004_ip = 752; continue _fun00003;
+ 720:
             verify = _closure1_slot0;
             romeon = _closure1_slot2;
             oscard = 7;
@@ -504,9 +488,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.bind(report)(oscard);
             oscard = verify.createDisabledGuildInvite;
             zuuluu = oscard.bind(verify)(yankee, tangon);
- 788:
-            _fun00004_ip = 823; continue _fun00003;
- 790:
+ 752:
+            _fun00004_ip = 787; continue _fun00003;
+ 754:
             verify = _closure1_slot0;
             yankee = _closure1_slot2;
             oscard = 7;
@@ -514,9 +498,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.bind(report)(oscard);
             oscard = verify.createErroredGuildInvite;
             zuuluu = oscard.bind(verify)(offset, golfie, tangon);
- 823:
+ 787:
             return zuuluu;
- 825:
+ 789:
             oscard = _closure1_slot0;
             verify = _closure1_slot2;
             zuuluu = 7;
@@ -525,7 +509,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = oscard.createExpiredGuildInvite;
             zuuluu = zuuluu.bind(oscard)(option, golfie, tangon);
             return zuuluu;
- 860:
+ 824:
             zuuluu = _closure1_slot0;
             oscard = _closure1_slot2;
             michal = 7;
@@ -534,7 +518,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.createResolvingGuildInvite;
             michal = michal.bind(zuuluu)(tangon);
             return michal;
- 893:
+ 857:
             return entity;
         }
     };

@@ -273,78 +273,90 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = yankee.channel_id;
             oscard = report.bind(oscard)(entity);
             romeon = null;
-            report = romeon == oscard;
-            entity = undefined;
-            if(report) { _fun00006_ip = 176; continue _fun00005 }
+            entity = romeon == oscard;
+            report = undefined;
+            if(entity) { _fun00006_ip = 176; continue _fun00005 }
  151:
-            report = oscard.isGroupDM;
-            report = romeon == report;
-            entity = undefined;
-            if(report) { _fun00006_ip = 176; continue _fun00005 }
+            entity = oscard.isGroupDM;
+            entity = romeon == entity;
+            report = undefined;
+            if(entity) { _fun00006_ip = 176; continue _fun00005 }
  166:
-            report = oscard.isGroupDM;
-            entity = report.bind(oscard)();
+            entity = oscard.isGroupDM;
+            report = entity.bind(oscard)();
  176:
-            report = romeon != entity;
-            if(!report) { _fun00006_ip = 186; continue _fun00005 }
+            entity = romeon != report;
+            if(!entity) { _fun00006_ip = 186; continue _fun00005 }
  183:
-            report = entity;
+            entity = report;
  186:
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot2;
+            report = 5;
+            report = golfie[report];
+            verify = oscard.bind(zuuluu)(report);
+            option = verify.isGdmBedazzleExperimentEnabled;
+            golfie = yankee.channel_id;
+            oscard = {};
+            oscard['autoTrackExposure'] = entity;
+            report = 'createChangeChannelNameSystemMessage';
+            report = option.bind(verify)(report, golfie, oscard);
+            if(!report) { _fun00006_ip = 241; continue _fun00005 }
+ 238:
+            report = entity;
+ 241:
+            oscard = yankee.content;
+            entity = '';
+            if(!(entity !== oscard)) { _fun00006_ip = 287; continue _fun00005 }
+ 254:
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot2;
+            entity = 6;
+            entity = golfie[entity];
+            entity = oscard.bind(zuuluu)(entity);
+            entity = entity.t;
+            verify = entity.rk0be3;
+            _fun00006_ip = 320; continue _fun00005;
+ 287:
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot2;
+            entity = 6;
+            entity = golfie[entity];
+            entity = oscard.bind(zuuluu)(entity);
+            entity = entity.t;
+            verify = entity.hToFyc;
+ 320:
             entity = {};
             golfie = _closure1_slot0;
-            option = _closure1_slot2;
-            oscard = 5;
-            oscard = option[oscard];
-            kiloes = golfie.bind(zuuluu)(oscard);
-            verify = kiloes.isGdmBedazzleExperimentEnabled;
-            option = yankee.channel_id;
-            golfie = {};
-            golfie['autoTrackExposure'] = report;
-            oscard = 'createChangeChannelNameSystemMessage';
-            oscard = verify.bind(kiloes)(oscard, option, golfie);
-            if(!oscard) { _fun00006_ip = 243; continue _fun00005 }
- 240:
-            if(report) { _fun00006_ip = 351; continue _fun00005 }
- 243:
-            oscard = _closure1_slot0;
-            report = _closure1_slot2;
-            kiloes = 6;
-            report = report[kiloes];
-            report = oscard.bind(zuuluu)(report);
-            option = report.intl;
+            oscard = _closure1_slot2;
+            sizing = 6;
+            oscard = oscard[sizing];
+            oscard = golfie.bind(zuuluu)(oscard);
+            option = oscard.intl;
             golfie = option.formatToParts;
+            if(report) { _fun00006_ip = 430; continue _fun00005 }
+ 356:
             oscard = tangon.isForumPost;
-            verify = _closure1_slot0;
+            kiloes = _closure1_slot0;
             report = _closure1_slot2;
-            report = report[kiloes];
-            report = verify.bind(zuuluu)(report);
+            report = report[sizing];
+            report = kiloes.bind(zuuluu)(report);
             report = report.t;
-            if(oscard) { _fun00006_ip = 313; continue _fun00005 }
- 305:
+            if(oscard) { _fun00006_ip = 395; continue _fun00005 }
+ 387:
             oscard = report.XCPMEB;
-            _fun00006_ip = 319; continue _fun00005;
- 313:
+            _fun00006_ip = 401; continue _fun00005;
+ 395:
             oscard = report.qa0e/v;
- 319:
+ 401:
             report = {};
             report['username'] = backup;
             report['usernameOnClick'] = offset;
-            verify = yankee.content;
-            report['channelName'] = verify;
+            kiloes = yankee.content;
+            report['channelName'] = kiloes;
             report = golfie.bind(option)(oscard, report);
-            _fun00006_ip = 476; continue _fun00005;
- 351:
-            golfie = _closure1_slot0;
-            kiloes = _closure1_slot2;
-            oscard = 6;
-            option = kiloes[oscard];
-            option = golfie.bind(zuuluu)(option);
-            verify = option.intl;
-            option = verify.formatToParts;
-            oscard = kiloes[oscard];
-            oscard = golfie.bind(zuuluu)(oscard);
-            oscard = oscard.t;
-            golfie = oscard.rk0be3;
+            _fun00006_ip = 504; continue _fun00005;
+ 430:
             oscard = {};
             oscard['username'] = backup;
             oscard['usernameOnClick'] = offset;
@@ -355,25 +367,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['action'] = backup;
             backup = romeon == foxtra;
             romeon = undefined;
-            if(backup) { _fun00006_ip = 450; continue _fun00005 }
- 444:
+            if(backup) { _fun00006_ip = 478; continue _fun00005 }
+ 472:
             romeon = foxtra.linkColor;
- 450:
+ 478:
             offset['linkColor'] = romeon;
             yankee = yankee.channel_id;
             offset['messageChannelId'] = yankee;
             oscard['onEditGroup'] = offset;
-            report = option.bind(verify)(golfie, oscard);
- 476:
+            report = golfie.bind(option)(verify, oscard);
+ 504:
             entity['content'] = report;
             report = _closure1_slot1;
             oscard = _closure1_slot2;
             michal = 7;
             michal = oscard[michal];
             michal = report.bind(zuuluu)(michal);
-            output = michal.bind(zuuluu)(tangon);
-            result = entity;
-            michal = copyDataProperties(result, output);
+            result = michal.bind(zuuluu)(tangon);
+            echoed = entity;
+            michal = copyDataProperties(echoed, result);
             return entity;
         }
     };

@@ -128,30 +128,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = null;
                     option = oscard == golfie;
                     report = undefined;
-                    if(option) { _fun00004_ip = 87; continue _fun00003 }
- 82:
+                    if(option) { _fun00004_ip = 85; continue _fun00003 }
+ 80:
                     report = golfie.state;
- 87:
-                    if(!(oscard == report)) { _fun00004_ip = 93; continue _fun00003 }
- 91:
+ 85:
+                    if(!(oscard == report)) { _fun00004_ip = 91; continue _fun00003 }
+ 89:
                     report = {};
- 93:
+ 91:
                     oscard = michal.bind(tangon)(report);
                     michal = oscard.length;
                     tangon = 0;
-                    if(!(michal > tangon)) { _fun00004_ip = 129; continue _fun00003 }
- 109:
+                    if(!(michal > tangon)) { _fun00004_ip = 127; continue _fun00003 }
+ 107:
                     report = oscard.join;
                     michal = ', ';
                     michal = report.bind(oscard)(michal);
                     entity[tangon] = michal;
- 129:
+ 127:
                     michal = '';
-                    if(!(michal !== zuuluu)) { _fun00004_ip = 144; continue _fun00003 }
- 137:
+                    if(!(michal !== zuuluu)) { _fun00004_ip = 142; continue _fun00003 }
+ 135:
                     michal = 1;
                     entity[michal] = zuuluu;
- 144:
+ 142:
                     return entity;
                 }
             };

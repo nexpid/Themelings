@@ -51,31 +51,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  58:
             _closure2_slot1 = romeon;
             tangon = _closure1_slot0;
-            verify = _closure1_slot2;
+            option = _closure1_slot2;
             oscard = 2;
-            oscard = verify[oscard];
-            offset = tangon.bind(report)(oscard);
-            option = offset.useIsFavoriteGIF;
+            oscard = option[oscard];
+            verify = tangon.bind(report)(oscard);
+            golfie = verify.useIsFavoriteGIF;
             oscard = 3;
-            oscard = verify[oscard];
+            oscard = option[oscard];
             yankee = tangon.bind(report)(oscard);
             oscard = yankee.gifUrlKey;
             oscard = oscard.bind(yankee)(romeon);
-            option = option.bind(offset)(oscard);
-            _closure2_slot2 = option;
+            oscard = golfie.bind(verify)(oscard);
+            _closure2_slot2 = oscard;
             yankee = _closure1_slot3;
-            offset = yankee.useCallback;
-            oscard = new Array(6);
-            oscard[0] = option;
+            verify = yankee.useCallback;
+            golfie = new Array(6);
+            golfie[0] = oscard;
             foxtra = michal.height;
-            oscard[1] = foxtra;
+            golfie[1] = foxtra;
             foxtra = michal.isGIFV;
-            oscard[2] = foxtra;
+            golfie[2] = foxtra;
             foxtra = michal.uri;
-            oscard[3] = foxtra;
+            golfie[3] = foxtra;
             foxtra = michal.width;
-            oscard[4] = foxtra;
-            oscard[5] = romeon;
+            golfie[4] = foxtra;
+            golfie[5] = romeon;
             zuuluu = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -176,9 +176,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            oscard = offset.bind(yankee)(zuuluu, oscard);
+            golfie = verify.bind(yankee)(zuuluu, golfie);
             zuuluu = 8;
-            zuuluu = verify[zuuluu];
+            zuuluu = option[zuuluu];
             tangon = tangon.bind(report)(zuuluu);
             zuuluu = tangon.isAnimatedImageSource;
             zuuluu = zuuluu.bind(tangon)(michal);
@@ -186,76 +186,74 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  218:
             michal = michal.isGIFV;
             entity = null;
-            if(!michal) { _fun00002_ip = 461; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 477; continue _fun00001 }
  232:
             tangon = _closure1_slot4;
-            zuuluu = _closure1_slot1;
-            verify = _closure1_slot2;
+            zuuluu = _closure1_slot0;
+            option = _closure1_slot2;
             michal = 9;
-            michal = verify[michal];
-            zuuluu = zuuluu.bind(report)(michal);
+            michal = option[michal];
+            michal = zuuluu.bind(report)(michal);
+            zuuluu = michal.MediaOverlayIconButton;
             michal = {};
-            offset = _closure1_slot0;
+            verify = _closure1_slot0;
             foxtra = _closure1_slot2;
-            verify = 5;
-            yankee = foxtra[verify];
-            yankee = offset.bind(report)(yankee);
+            option = 5;
+            yankee = foxtra[option];
+            yankee = verify.bind(report)(yankee);
             romeon = yankee.intl;
             yankee = romeon.string;
-            verify = foxtra[verify];
-            verify = offset.bind(report)(verify);
-            offset = verify.t;
-            if(option) { _fun00002_ip = 320; continue _fun00001 }
- 305:
-            verify = offset.nIH0v7;
-            verify = yankee.bind(romeon)(verify);
-            _fun00002_ip = 333; continue _fun00001;
- 320:
-            offset = offset.5/NS7+;
-            verify = yankee.bind(romeon)(offset);
- 333:
-            michal['accessibilityLabel'] = verify;
-            michal['onPress'] = oscard;
-            verify = _closure1_slot1;
-            yankee = _closure1_slot2;
-            if(option) { _fun00002_ip = 361; continue _fun00001 }
- 352:
-            oscard = 11;
-            oscard = yankee[oscard];
-            _fun00002_ip = 368; continue _fun00001;
- 361:
-            offset = 10;
-            oscard = yankee[offset];
- 368:
-            oscard = verify.bind(report)(oscard);
-            michal['icon'] = oscard;
-            verify = _closure1_slot1;
-            offset = _closure1_slot2;
+            option = foxtra[option];
+            option = verify.bind(report)(option);
+            verify = option.t;
+            if(oscard) { _fun00002_ip = 326; continue _fun00001 }
+ 311:
+            option = verify.nIH0v7;
+            option = yankee.bind(romeon)(option);
+            _fun00002_ip = 339; continue _fun00001;
+ 326:
+            verify = verify.5/NS7+;
+            option = yankee.bind(romeon)(verify);
+ 339:
+            michal['accessibilityLabel'] = option;
+            michal['onPress'] = golfie;
+            verify = _closure1_slot4;
+            option = _closure1_slot0;
+            romeon = _closure1_slot2;
+            if(oscard) { _fun00002_ip = 402; continue _fun00001 }
+ 362:
             oscard = 12;
-            oscard = offset[oscard];
-            oscard = verify.bind(report)(oscard);
-            oscard = oscard.Sizes;
-            oscard = oscard.MEDIUM;
-            michal['iconSize'] = oscard;
-            oscard = undefined;
-            if(!option) { _fun00002_ip = 450; continue _fun00001 }
- 419:
-            option = _closure1_slot1;
-            verify = _closure1_slot2;
-            golfie = 13;
-            golfie = verify[golfie];
+            oscard = romeon[oscard];
+            oscard = option.bind(report)(oscard);
+            golfie = oscard.StarOutlineIcon;
+            oscard = {'color': 'interactive-normal', 'size': 'md'};
+            oscard = verify.bind(report)(golfie, oscard);
+            _fun00002_ip = 467; continue _fun00001;
+ 402:
+            golfie = 10;
+            golfie = romeon[golfie];
             golfie = option.bind(report)(golfie);
-            golfie = golfie.unsafe_rawColors;
-            oscard = golfie.YELLOW_300;
- 450:
-            michal['iconColor'] = oscard;
+            option = golfie.StarIcon;
+            golfie = {};
+            yankee = _closure1_slot1;
+            offset = 11;
+            offset = romeon[offset];
+            offset = yankee.bind(report)(offset);
+            offset = offset.unsafe_rawColors;
+            offset = offset.YELLOW_300;
+            golfie['color'] = offset;
+            offset = 'md';
+            golfie['size'] = offset;
+            oscard = verify.bind(report)(option, golfie);
+ 467:
+            michal['icon'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 461:
+ 477:
             return entity;
         }
     };
     michal = tangon.bind(golfie)(michal);
-    tangon = 14;
+    tangon = 13;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

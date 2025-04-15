@@ -1,0 +1,41 @@
+// app/modules/main_tabs_v2/native/sidebar/details/hooks/useChannelDetailWidth.tsx
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
+    entity = argBaz;
+    var _closure1_slot0 = entity;
+    var _closure1_slot1 = tangon;
+    entity = global;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    report = {};
+    entity = true;
+    report['value'] = entity;
+    entity = '__esModule';
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
+    entity = 1;
+    report = tangon[entity];
+    tangon = argBar;
+    entity = undefined;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/sidebar/details/hooks/useChannelDetailWidth.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: useChannelDetailWidth
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 0;
+        entity = michal[entity];
+        michal = undefined;
+        entity = zuuluu.bind(michal)(entity);
+        entity = entity.bind(michal)();
+        zuuluu = entity.left;
+        michal = argFoo;
+        michal = michal - zuuluu;
+        entity = entity.right;
+        entity = michal - entity;
+        return entity;
+    };
+    zuuluu['useChannelDetailWidth'] = michal;
+    return entity;
+})();

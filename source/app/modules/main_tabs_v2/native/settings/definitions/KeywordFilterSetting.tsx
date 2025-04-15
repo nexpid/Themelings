@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     report['title'] = offset;
-    verify = verify.CONTENT_AND_SOCIAL;
+    verify = verify.CONTENT_AND_SOCIAL_DISCORD;
     report['parent'] = verify;
     verify = 5;
     verify = option[verify];

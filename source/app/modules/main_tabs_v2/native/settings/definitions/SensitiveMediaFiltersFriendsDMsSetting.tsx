@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     verify = verify.PRESSABLE;
     michal['type'] = verify;
     michal['title'] = option;
-    golfie = golfie.CONTENT_AND_SOCIAL;
+    golfie = golfie.CONTENT_AND_SOCIAL_DISCORD;
     michal['parent'] = golfie;
     golfie = function() { // Original name: useObscuredContentFriendsDmSettingValue
         zuuluu = _closure1_slot0;

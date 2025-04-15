@@ -818,7 +818,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             offset = michal.bind(entity)(zuuluu);
             zuuluu = offset.bind(entity)();
             michal = zuuluu.done;
-            verify = 5;
+            verify = 15;
             option = null;
             golfie = 30;
             oscard = 0;

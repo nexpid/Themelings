@@ -50,14 +50,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     michal = _closure2_slot0;
                     entity = null;
-                    if(!(entity !== michal)) { _fun00004_ip = 188; continue _fun00003 }
+                    if(!(entity !== michal)) { _fun00004_ip = 203; continue _fun00003 }
  16:
                     oscard = _closure1_slot5;
                     report = oscard.getGuild;
                     michal = _closure2_slot0;
                     report = report.bind(oscard)(michal);
                     oscard = undefined;
-                    if(!(oscard !== report)) { _fun00004_ip = 184; continue _fun00003 }
+                    if(!(oscard !== report)) { _fun00004_ip = 199; continue _fun00003 }
  46:
                     golfie = _closure1_slot0;
                     option = _closure1_slot1;
@@ -66,45 +66,49 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = golfie.bind(oscard)(michal);
                     michal = golfie.guildSupportsTags;
                     michal = michal.bind(golfie)(report);
-                    if(!michal) { _fun00004_ip = 184; continue _fun00003 }
+                    if(!michal) { _fun00004_ip = 199; continue _fun00003 }
  80:
                     michal = report.profile;
-                    if(!(entity != michal)) { _fun00004_ip = 184; continue _fun00003 }
+                    if(!(entity != michal)) { _fun00004_ip = 199; continue _fun00003 }
  90:
+                    michal = report.profile;
+                    michal = michal.tag;
+                    if(!(entity !== michal)) { _fun00004_ip = 199; continue _fun00003 }
+ 105:
                     golfie = _closure1_slot6;
                     michal = golfie.getCurrentUser;
                     michal = michal.bind(golfie)();
-                    if(!(oscard !== michal)) { _fun00004_ip = 180; continue _fun00003 }
- 107:
+                    if(!(oscard !== michal)) { _fun00004_ip = 195; continue _fun00003 }
+ 122:
                     golfie = michal.primaryGuild;
                     option = entity == golfie;
                     oscard = undefined;
-                    if(option) { _fun00004_ip = 128; continue _fun00003 }
- 122:
-                    oscard = golfie.identityGuildId;
- 128:
-                    report = report.id;
-                    if(!(oscard !== report)) { _fun00004_ip = 180; continue _fun00003 }
+                    if(option) { _fun00004_ip = 143; continue _fun00003 }
  137:
+                    oscard = golfie.identityGuildId;
+ 143:
+                    report = report.id;
+                    if(!(oscard !== report)) { _fun00004_ip = 195; continue _fun00003 }
+ 152:
                     report = _closure1_slot4;
                     tangon = report.getMember;
                     zuuluu = _closure2_slot0;
                     michal = michal.id;
                     michal = tangon.bind(report)(zuuluu, michal);
                     entity = entity != michal;
-                    if(!entity) { _fun00004_ip = 178; continue _fun00003 }
- 169:
+                    if(!entity) { _fun00004_ip = 193; continue _fun00003 }
+ 184:
                     michal = michal.isPending;
                     entity = !michal;
- 178:
+ 193:
                     return entity;
- 180:
+ 195:
                     entity = false;
                     return entity;
- 184:
+ 199:
                     entity = false;
                     return entity;
- 188:
+ 203:
                     entity = false;
                     return entity;
                 }

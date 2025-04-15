@@ -10,87 +10,97 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = function(argFoo, argBar) { // Original name: _activityFromSetting
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golfie = argFoo;
+            tangon = argFoo;
             zuuluu = argBar;
-            entity = null;
-            if(!(entity == zuuluu)) { _fun00002_ip = 159; continue _fun00001 }
+            report = null;
+            if(!(report == zuuluu)) { _fun00002_ip = 159; continue _fun00001 }
  15:
-            michal = golfie.emojiName;
-            tangon = entity != michal;
+            entity = tangon.emojiName;
+            entity = report != entity;
             michal = null;
-            if(!tangon) { _fun00002_ip = 193; continue _fun00001 }
+            if(!entity) { _fun00002_ip = 193; continue _fun00001 }
  33:
-            report = golfie.emojiName;
-            tangon = '';
+            oscard = tangon.emojiName;
+            entity = '';
             michal = null;
-            if(!(tangon !== report)) { _fun00002_ip = 193; continue _fun00001 }
+            if(!(entity !== oscard)) { _fun00002_ip = 193; continue _fun00001 }
  52:
             verify = _closure1_slot1;
             offset = _closure1_slot2;
-            tangon = 3;
-            report = offset[tangon];
+            entity = 3;
+            oscard = offset[entity];
             option = undefined;
-            oscard = verify.bind(option)(report);
-            report = oscard.getByName;
-            tangon = offset[tangon];
-            offset = verify.bind(option)(tangon);
+            golfie = verify.bind(option)(oscard);
+            oscard = golfie.getByName;
+            entity = offset[entity];
+            offset = verify.bind(option)(entity);
             verify = offset.convertSurrogateToName;
-            option = golfie.emojiName;
-            tangon = false;
-            tangon = verify.bind(offset)(option, tangon);
-            report = report.bind(oscard)(tangon);
-            tangon = entity != report;
+            option = tangon.emojiName;
+            entity = false;
+            entity = verify.bind(offset)(option, entity);
+            golfie = oscard.bind(golfie)(entity);
+            oscard = report != golfie;
             entity = null;
-            if(!tangon) { _fun00002_ip = 154; continue _fun00001 }
+            if(!oscard) { _fun00002_ip = 154; continue _fun00001 }
  126:
-            tangon = {'id': null, 'name': null, 'animated': false};
-            report = report.surrogates;
-            tangon['name'] = report;
-            entity = tangon;
+            oscard = {'id': null, 'name': null, 'animated': false};
+            golfie = golfie.surrogates;
+            oscard['name'] = golfie;
+            entity = oscard;
  154:
             michal = entity;
             _fun00002_ip = 193; continue _fun00001;
  159:
             entity = {};
-            tangon = zuuluu.id;
-            entity['id'] = tangon;
-            tangon = zuuluu.name;
-            entity['name'] = tangon;
+            oscard = zuuluu.id;
+            entity['id'] = oscard;
+            oscard = zuuluu.name;
+            entity['name'] = oscard;
             zuuluu = zuuluu.animated;
             entity['animated'] = zuuluu;
             michal = entity;
  193:
             entity = global;
-            tangon = entity.Number;
-            entity = golfie.expiresAtMs;
+            oscard = entity.Number;
+            entity = tangon.expiresAtMs;
             zuuluu = undefined;
-            report = tangon.bind(zuuluu)(entity);
+            option = oscard.bind(zuuluu)(entity);
             entity = {};
-            tangon = 'Custom Status';
-            entity['name'] = tangon;
-            tangon = _closure1_slot5;
-            tangon = tangon.CUSTOM_STATUS;
-            entity['type'] = tangon;
-            tangon = golfie.text;
-            oscard = tangon.length;
-            tangon = 0;
-            option = oscard > tangon;
-            oscard = undefined;
-            if(!option) { _fun00002_ip = 269; continue _fun00001 }
+            oscard = 'Custom Status';
+            entity['name'] = oscard;
+            oscard = _closure1_slot5;
+            oscard = oscard.CUSTOM_STATUS;
+            entity['type'] = oscard;
+            oscard = tangon.text;
+            golfie = oscard.length;
+            oscard = 0;
+            verify = golfie > oscard;
+            golfie = undefined;
+            if(!verify) { _fun00002_ip = 269; continue _fun00001 }
  264:
-            oscard = golfie.text;
+            golfie = tangon.text;
  269:
-            entity['state'] = oscard;
-            tangon = report > tangon;
-            zuuluu = undefined;
-            if(!tangon) { _fun00002_ip = 291; continue _fun00001 }
+            entity['state'] = golfie;
+            golfie = option > oscard;
+            oscard = undefined;
+            if(!golfie) { _fun00002_ip = 291; continue _fun00001 }
  282:
-            tangon = {};
-            tangon['end'] = report;
-            zuuluu = tangon;
+            golfie = {};
+            golfie['end'] = option;
+            oscard = golfie;
  291:
-            entity['timestamps'] = zuuluu;
+            entity['timestamps'] = oscard;
             entity['emoji'] = michal;
+            michal = {};
+            tangon = tangon.label;
+            report = report == tangon;
+            zuuluu = undefined;
+            if(report) { _fun00002_ip = 322; continue _fun00001 }
+ 317:
+            zuuluu = tangon.value;
+ 322:
+            michal['label'] = zuuluu;
+            entity['metadata'] = michal;
             return entity;
         }
     };

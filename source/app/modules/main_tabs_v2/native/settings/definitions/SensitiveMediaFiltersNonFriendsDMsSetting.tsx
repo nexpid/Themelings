@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     yankee = yankee.PRESSABLE;
     report['type'] = yankee;
     report['title'] = offset;
-    verify = verify.CONTENT_AND_SOCIAL;
+    verify = verify.CONTENT_AND_SOCIAL_DISCORD;
     report['parent'] = verify;
     report['useTrailing'] = tangon;
     report['onPress'] = michal;

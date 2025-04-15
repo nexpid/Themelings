@@ -250,21 +250,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             }
                         };
                         oscard = report.bind(oscard)(tangon);
-                        if(!(zuuluu == oscard)) { _fun00006_ip = 157; continue _fun00005 }
+                        if(!(zuuluu == oscard)) { _fun00006_ip = 155; continue _fun00005 }
  147:
                         oscard = [null, null];
- 157:
+ 155:
                         report = _closure1_slot4;
                         tangon = 1;
                         report = report.bind(entity)(oscard, tangon);
                         tangon = 0;
                         tangon = report[tangon];
-                        if(!(zuuluu != tangon)) { _fun00006_ip = 194; continue _fun00005 }
- 180:
+                        if(!(zuuluu != tangon)) { _fun00006_ip = 192; continue _fun00005 }
+ 178:
                         zuuluu = _closure1_slot17;
                         michal = zuuluu.delete;
                         michal = michal.bind(zuuluu)(tangon);
- 194:
+ 192:
                         return entity;
                     }
                 };
@@ -414,10 +414,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         };
                         oscard = zuuluu.bind(tangon)(entity);
                         report = null;
-                        if(!(report == oscard)) { _fun00012_ip = 94; continue _fun00011 }
+                        if(!(report == oscard)) { _fun00012_ip = 92; continue _fun00011 }
  84:
                         oscard = [null, null];
- 94:
+ 92:
                         tangon = _closure1_slot4;
                         entity = undefined;
                         zuuluu = 2;
@@ -427,12 +427,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = 1;
                         option = oscard[zuuluu];
                         zuuluu = report != option;
-                        if(!zuuluu) { _fun00012_ip = 133; continue _fun00011 }
- 129:
+                        if(!zuuluu) { _fun00012_ip = 131; continue _fun00011 }
+ 127:
                         zuuluu = report != tangon;
- 133:
-                        if(!zuuluu) { _fun00012_ip = 198; continue _fun00011 }
- 136:
+ 131:
+                        if(!zuuluu) { _fun00012_ip = 196; continue _fun00011 }
+ 134:
                         golfie = _closure3_slot0;
                         oscard = golfie.disconnectSocket;
                         report = {};
@@ -446,7 +446,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = _closure1_slot17;
                         michal = zuuluu.delete;
                         michal = michal.bind(zuuluu)(tangon);
- 198:
+ 196:
                         return entity;
                     }
                 };
