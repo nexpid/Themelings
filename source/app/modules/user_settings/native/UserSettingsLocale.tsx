@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = yankee.bind(tangon)(golfie);
         option = golfie.TableRadioGroup;
         golfie = {};
-        golfie['value'] = foxtra;
+        golfie['defaultValue'] = foxtra;
         offset = _closure1_slot10;
         golfie['onChange'] = offset;
         offset = 11;

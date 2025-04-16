@@ -39,13 +39,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot18 = michal;
+            _closure1_slot19 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot18 = entity;
+    var _closure1_slot19 = entity;
     entity = function(argFoo) { // Original name: createSubscriptionItemFromServer
         michal = argFoo;
         entity = {};
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity['quantity'] = michal;
         return entity;
     };
-    var _closure1_slot19 = entity;
+    var _closure1_slot20 = entity;
     entity = global;
     verify = entity.Object;
     golfie = verify.defineProperty;
@@ -97,30 +97,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie = 7;
     golfie = oscard[golfie];
     golfie = report.bind(entity)(golfie);
-    option = golfie.SubscriptionTypes;
+    option = golfie.PaymentGateways;
     var _closure1_slot9 = option;
     option = golfie.SubscriptionStatusTypes;
     var _closure1_slot10 = option;
     option = golfie.SubscriptionStatusTypesSets;
     var _closure1_slot11 = option;
-    golfie = golfie.PaymentGateways;
+    golfie = golfie.SubscriptionTypes;
     var _closure1_slot12 = golfie;
     golfie = 8;
     golfie = oscard[golfie];
     golfie = report.bind(entity)(golfie);
+    option = golfie.SubscriptionPauseReason;
+    var _closure1_slot13 = option;
     golfie = golfie.SubscriptionPauseReasonSets;
-    var _closure1_slot13 = golfie;
+    var _closure1_slot14 = golfie;
     golfie = 9;
     golfie = oscard[golfie];
     golfie = report.bind(entity)(golfie);
     option = golfie.PREMIUM_PLANS;
-    var _closure1_slot14 = option;
-    option = golfie.REVERSE_TRIAL_IDS;
     var _closure1_slot15 = option;
-    option = golfie.SubscriptionPlanInfo;
+    option = golfie.REVERSE_TRIAL_IDS;
     var _closure1_slot16 = option;
+    option = golfie.SubscriptionPlanInfo;
+    var _closure1_slot17 = option;
     golfie = golfie.SubscriptionPlans;
-    var _closure1_slot17 = golfie;
+    var _closure1_slot18 = golfie;
     michal = function(argFoo) {
         report = function(argFoo) { // Original name: SubscriptionRecord
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -134,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot6;
                 romeon = entity.bind(yankee)(zuuluu);
                 zuuluu = _closure1_slot5;
-                entity = _closure1_slot18;
+                entity = _closure1_slot19;
                 entity = entity.bind(yankee)();
                 if(entity) { _fun00004_ip = 67; continue _fun00003 }
  54:
@@ -209,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = null;
                 var _closure3_slot1 = oscard;
                 golfie = report.type;
-                tangon = _closure1_slot9;
+                tangon = _closure1_slot12;
                 tangon = tangon.PREMIUM;
                 if(!(golfie !== tangon)) { _fun00004_ip = 512; continue _fun00003 }
  448:
@@ -232,7 +234,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = verify;
                 _fun00004_ip = 649; continue _fun00003;
  512:
-                offset = _closure1_slot16;
+                offset = _closure1_slot17;
                 verify = report.items;
                 verify = verify[romeon];
                 verify = verify.planId;
@@ -336,7 +338,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = michal;
-        michal = new Array(24);
+        michal = new Array(25);
         michal[0] = oscard;
         oscard = {};
         golfie = 'isPremium';
@@ -344,7 +346,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = function() { // Original name: get
             entity = this;
             michal = entity.type;
-            entity = _closure1_slot9;
+            entity = _closure1_slot12;
             entity = entity.PREMIUM;
             entity = michal === entity;
             return entity;
@@ -389,7 +391,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = global;
             report = entity.Object;
             tangon = report.values;
-            entity = _closure1_slot17;
+            entity = _closure1_slot18;
             entity = tangon.bind(report)(entity);
             entity = michal.bind(zuuluu)(entity);
             return entity;
@@ -402,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = function() { // Original name: get
             zuuluu = this;
             michal = zuuluu.getCurrentSubscriptionPlanIdForGroup;
-            golfie = _closure1_slot14;
+            golfie = _closure1_slot15;
             entity = new Array(0);
             oscard = 0;
             option = entity;
@@ -418,7 +420,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = function() { // Original name: get
             entity = this;
             michal = entity.paymentGateway;
-            entity = _closure1_slot12;
+            entity = _closure1_slot9;
             entity = entity.APPLE;
             entity = michal === entity;
             return entity;
@@ -431,7 +433,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = function() { // Original name: get
             entity = this;
             michal = entity.paymentGateway;
-            entity = _closure1_slot12;
+            entity = _closure1_slot9;
             entity = entity.GOOGLE;
             entity = michal === entity;
             return entity;
@@ -531,7 +533,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = function(argFoo) {
                 entity = argFoo;
                 michal = entity.planId;
-                entity = _closure1_slot17;
+                entity = _closure1_slot18;
                 entity = entity.PREMIUM_MONTH_TIER_2;
                 entity = michal === entity;
                 return entity;
@@ -551,7 +553,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = entity.items;
             michal = zuuluu.every;
             entity = function(argFoo) {
-                entity = _closure1_slot17;
+                entity = _closure1_slot18;
                 michal = entity.PREMIUM_MONTH_GUILD;
                 zuuluu = new Array(2);
                 zuuluu[0] = michal;
@@ -596,19 +598,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard['get'] = golfie;
         michal[13] = oscard;
         oscard = {};
-        golfie = 'isPausedAllowsUpdatesButNotResume';
+        golfie = 'isPausedForFractionalPremium';
         oscard['key'] = golfie;
         golfie = function() { // Original name: get
             _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+ 0:
+                zuuluu = this;
+                tangon = zuuluu.status;
+                entity = _closure1_slot10;
+                entity = entity.PAUSED;
+                entity = tangon === entity;
+                if(!entity) { _fun00016_ip = 48; continue _fun00015 }
+ 28:
+                zuuluu = zuuluu.pauseReason;
+                michal = _closure1_slot13;
+                michal = michal.FRACTIONAL_PREMIUM;
+                entity = zuuluu === michal;
+ 48:
+                return entity;
+            }
+        };
+        oscard['get'] = golfie;
+        michal[14] = oscard;
+        oscard = {};
+        golfie = 'isPausedAllowsUpdatesButNotResume';
+        oscard['key'] = golfie;
+        golfie = function() { // Original name: get
+            _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                 michal = this;
                 tangon = michal.status;
                 entity = _closure1_slot10;
                 entity = entity.PAUSED;
                 entity = tangon === entity;
-                if(!entity) { _fun00016_ip = 54; continue _fun00015 }
+                if(!entity) { _fun00018_ip = 54; continue _fun00017 }
  28:
-                zuuluu = _closure1_slot13;
+                zuuluu = _closure1_slot14;
                 tangon = zuuluu.CAN_MAKE_SUBSCRIPTION_UPDATES;
                 zuuluu = tangon.has;
                 michal = michal.pauseReason;
@@ -618,26 +643,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['get'] = golfie;
-        michal[14] = oscard;
+        michal[15] = oscard;
         oscard = {};
         golfie = 'isPausedAllowsResumeButNotUpdates';
         oscard['key'] = golfie;
         golfie = function() { // Original name: get
-            _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+            _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
                 zuuluu = this;
                 michal = zuuluu.status;
                 entity = _closure1_slot10;
                 entity = entity.PAUSED;
                 entity = michal === entity;
-                if(!entity) { _fun00018_ip = 75; continue _fun00017 }
+                if(!entity) { _fun00020_ip = 75; continue _fun00019 }
  28:
                 report = zuuluu.pauseReason;
                 michal = null;
                 michal = michal === report;
-                if(michal) { _fun00018_ip = 72; continue _fun00017 }
+                if(michal) { _fun00020_ip = 72; continue _fun00019 }
  43:
-                tangon = _closure1_slot13;
+                tangon = _closure1_slot14;
                 report = tangon.CAN_MAKE_SUBSCRIPTION_UPDATES;
                 tangon = report.has;
                 zuuluu = zuuluu.pauseReason;
@@ -650,7 +675,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['get'] = golfie;
-        michal[15] = oscard;
+        michal[16] = oscard;
         oscard = {};
         golfie = 'isEnded';
         oscard['key'] = golfie;
@@ -663,12 +688,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['get'] = golfie;
-        michal[16] = oscard;
+        michal[17] = oscard;
         oscard = {};
         golfie = 'endedAt';
         oscard['key'] = golfie;
         golfie = function() { // Original name: get
-            _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+            _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                 zuuluu = this;
                 report = zuuluu.status;
@@ -676,19 +701,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = entity.ENDED;
                 tangon = null;
                 entity = null;
-                if(!(report === michal)) { _fun00020_ip = 105; continue _fun00019 }
+                if(!(report === michal)) { _fun00022_ip = 105; continue _fun00021 }
  29:
                 report = zuuluu.metadata;
                 oscard = tangon == report;
                 michal = undefined;
-                if(oscard) { _fun00020_ip = 50; continue _fun00019 }
+                if(oscard) { _fun00022_ip = 50; continue _fun00021 }
  44:
                 michal = report.ended_at;
  50:
-                if(!(tangon == michal)) { _fun00020_ip = 62; continue _fun00019 }
+                if(!(tangon == michal)) { _fun00022_ip = 62; continue _fun00021 }
  54:
                 michal = zuuluu.currentPeriodEnd;
-                _fun00020_ip = 102; continue _fun00019;
+                _fun00022_ip = 102; continue _fun00021;
  62:
                 tangon = global;
                 report = tangon.Date;
@@ -706,7 +731,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['get'] = golfie;
-        michal[17] = oscard;
+        michal[18] = oscard;
         oscard = {};
         golfie = 'isActive';
         oscard['key'] = golfie;
@@ -719,23 +744,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['get'] = golfie;
-        michal[18] = oscard;
+        michal[19] = oscard;
         oscard = {};
         golfie = 'hasActiveTrial';
         oscard['key'] = golfie;
         golfie = function() { // Original name: get
-            _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+            _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
                 michal = this;
                 entity = michal.trialId;
                 tangon = null;
                 entity = tangon != entity;
-                if(!entity) { _fun00022_ip = 28; continue _fun00021 }
+                if(!entity) { _fun00024_ip = 28; continue _fun00023 }
  18:
                 zuuluu = michal.trialEndsAt;
                 entity = tangon != zuuluu;
  28:
-                if(!entity) { _fun00022_ip = 69; continue _fun00021 }
+                if(!entity) { _fun00024_ip = 69; continue _fun00023 }
  31:
                 zuuluu = global;
                 zuuluu = zuuluu.Date;
@@ -751,25 +776,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['get'] = golfie;
-        michal[19] = oscard;
+        michal[20] = oscard;
         oscard = {};
         golfie = 'inReverseTrial';
         oscard['key'] = golfie;
         golfie = function() { // Original name: get
-            _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+            _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
                 michal = this;
                 entity = michal.trialId;
                 zuuluu = null;
                 entity = zuuluu != entity;
-                if(!entity) { _fun00024_ip = 41; continue _fun00023 }
+                if(!entity) { _fun00026_ip = 41; continue _fun00025 }
  18:
-                oscard = _closure1_slot15;
+                oscard = _closure1_slot16;
                 report = oscard.includes;
                 tangon = michal.trialId;
                 entity = report.bind(oscard)(tangon);
  41:
-                if(!entity) { _fun00024_ip = 54; continue _fun00023 }
+                if(!entity) { _fun00026_ip = 54; continue _fun00025 }
  44:
                 michal = michal.paymentSourceId;
                 entity = zuuluu == michal;
@@ -778,17 +803,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['get'] = golfie;
-        michal[20] = oscard;
+        michal[21] = oscard;
         oscard = {};
         golfie = 'premiumSince';
         oscard['key'] = golfie;
         golfie = function() { // Original name: get
-            _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
+            _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
                 michal = this;
                 entity = michal.streakStartedAt;
                 zuuluu = null;
-                if(!(zuuluu == entity)) { _fun00026_ip = 21; continue _fun00025 }
+                if(!(zuuluu == entity)) { _fun00028_ip = 21; continue _fun00027 }
  15:
                 entity = michal.createdAt;
  21:
@@ -796,7 +821,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['get'] = golfie;
-        michal[21] = oscard;
+        michal[22] = oscard;
         oscard = {};
         golfie = 'hasAnyPremiumNitro';
         oscard['key'] = golfie;
@@ -805,7 +830,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = entity.items;
             michal = zuuluu.some;
             entity = function(argFoo) {
-                zuuluu = _closure1_slot14;
+                zuuluu = _closure1_slot15;
                 michal = zuuluu.has;
                 entity = argFoo;
                 entity = entity.planId;
@@ -816,12 +841,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['get'] = golfie;
-        michal[22] = oscard;
+        michal[23] = oscard;
         oscard = {};
         golfie = 'hasPremiumAtLeast';
         oscard['key'] = golfie;
         golfie = function(argFoo) { // Original name: value
-            _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
+            _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
                 zuuluu = this;
                 entity = argFoo;
@@ -829,12 +854,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = zuuluu.isPremium;
                 tangon = !entity;
                 entity = !tangon;
-                if(tangon) { _fun00028_ip = 49; continue _fun00027 }
+                if(tangon) { _fun00030_ip = 49; continue _fun00029 }
  27:
                 tangon = zuuluu.items;
                 zuuluu = tangon.some;
                 michal = function(argFoo) {
-                    zuuluu = _closure1_slot16;
+                    zuuluu = _closure1_slot17;
                     entity = argFoo;
                     entity = entity.planId;
                     entity = zuuluu[entity];
@@ -856,12 +881,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = golfie;
-        michal[23] = oscard;
+        michal[24] = oscard;
         oscard = {};
         golfie = 'createFromServer';
         oscard['key'] = golfie;
         entity = function(argFoo) { // Original name: value
-            _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
+            _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
  0:
                 report = argFoo;
                 zuuluu = _closure2_slot0;
@@ -883,7 +908,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = null;
                 oscard = tangon != michal;
                 michal = null;
-                if(!oscard) { _fun00030_ip = 118; continue _fun00029 }
+                if(!oscard) { _fun00032_ip = 118; continue _fun00031 }
  86:
                 verify = golfie.Date;
                 foxtra = report.canceled_at;
@@ -925,7 +950,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = report.trial_ends_at;
                 oscard = tangon != michal;
                 michal = null;
-                if(!oscard) { _fun00030_ip = 314; continue _fun00029 }
+                if(!oscard) { _fun00032_ip = 314; continue _fun00031 }
  282:
                 verify = golfie.Date;
                 foxtra = report.trial_ends_at;
@@ -938,19 +963,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity['trialEndsAt'] = michal;
                 verify = report.items;
                 option = verify.map;
-                michal = _closure1_slot19;
+                michal = _closure1_slot20;
                 michal = option.bind(verify)(michal);
                 entity['items'] = michal;
                 michal = report.renewal_mutations;
                 option = tangon != michal;
                 michal = null;
-                if(!option) { _fun00030_ip = 415; continue _fun00029 }
+                if(!option) { _fun00032_ip = 415; continue _fun00031 }
  362:
                 option = {};
                 verify = report.renewal_mutations;
                 yankee = verify.items;
                 offset = yankee.map;
-                verify = _closure1_slot19;
+                verify = _closure1_slot20;
                 verify = offset.bind(yankee)(verify);
                 option['items'] = verify;
                 verify = report.renewal_mutations;
@@ -962,7 +987,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = report.streak_started_at;
                 option = tangon != michal;
                 michal = null;
-                if(!option) { _fun00030_ip = 467; continue _fun00029 }
+                if(!option) { _fun00032_ip = 467; continue _fun00031 }
  435:
                 offset = golfie.Date;
                 foxtra = report.streak_started_at;
@@ -978,7 +1003,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = report.pause_ends_at;
                 option = tangon != michal;
                 michal = null;
-                if(!option) { _fun00030_ip = 530; continue _fun00029 }
+                if(!option) { _fun00032_ip = 530; continue _fun00031 }
  498:
                 verify = golfie.Date;
                 foxtra = report.pause_ends_at;
@@ -1000,10 +1025,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = report.user_id;
                 entity['userId'] = michal;
                 michal = report.latest_invoice;
-                if(!(tangon == michal)) { _fun00030_ip = 605; continue _fun00029 }
+                if(!(tangon == michal)) { _fun00032_ip = 605; continue _fun00031 }
  601:
                 michal = {};
-                _fun00030_ip = 636; continue _fun00029;
+                _fun00032_ip = 636; continue _fun00031;
  605:
                 tangon = {};
                 golfie = _closure1_slot8;

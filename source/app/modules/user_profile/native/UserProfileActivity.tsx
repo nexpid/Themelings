@@ -2045,10 +2045,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         kiloes = report.bind(entity)(backup);
         backup = kiloes.isAndroid;
         backup = backup.bind(kiloes)();
-        if(!backup) { _fun00002_ip = 983; continue _fun00001 }
- 980:
+        if(!backup) { _fun00002_ip = 979; continue _fun00001 }
+ 976:
         foxtra = yankee;
- 983:
+ 979:
         offset['height'] = foxtra;
         golfie['voiceCallNameIconWrapper'] = offset;
         offset = {};
@@ -2098,8 +2098,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = yankee.id;
                 entity['userId'] = option;
                 entity['guildId'] = golfie;
-                golfie = 'user-profile-activity';
-                entity['surface'] = golfie;
                 entity = michal.bind(tangon)(entity);
                 option = entity.voiceChannel;
                 var _closure2_slot6 = option;
@@ -2182,19 +2180,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     }
                 };
                 michal = zuuluu.bind(backup)(michal, entity);
-                if(!michal) { _fun00026_ip = 294; continue _fun00025 }
- 282:
+                if(!michal) { _fun00026_ip = 283; continue _fun00025 }
+ 271:
                 entity = null;
-                if(!(entity != option)) { _fun00026_ip = 294; continue _fun00025 }
- 288:
-                if(golfie) { _fun00026_ip = 675; continue _fun00025 }
- 294:
+                if(!(entity != option)) { _fun00026_ip = 283; continue _fun00025 }
+ 277:
+                if(golfie) { _fun00026_ip = 664; continue _fun00025 }
+ 283:
                 entity = null;
-                if(michal) { _fun00026_ip = 673; continue _fun00025 }
- 302:
+                if(michal) { _fun00026_ip = 662; continue _fun00025 }
+ 291:
                 kiloes = oscard;
-                if(!(entity != echoed)) { _fun00026_ip = 324; continue _fun00025 }
- 309:
+                if(!(entity != echoed)) { _fun00026_ip = 313; continue _fun00025 }
+ 298:
                 zuuluu = oscard.filter;
                 michal = function(argFoo) {
                     michal = _closure2_slot7;
@@ -2203,7 +2201,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 kiloes = zuuluu.bind(oscard)(michal);
- 324:
+ 313:
                 source = function(argFoo) { // Original name: renderVoiceActivityCard
                     _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
  0:
@@ -2275,10 +2273,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = _closure1_slot18;
                 michal = {};
                 backup = entity != option;
-                if(!backup) { _fun00026_ip = 563; continue _fun00025 }
- 349:
-                if(golfie) { _fun00026_ip = 420; continue _fun00025 }
- 352:
+                if(!backup) { _fun00026_ip = 552; continue _fun00025 }
+ 338:
+                if(golfie) { _fun00026_ip = 409; continue _fun00025 }
+ 341:
                 output = _closure1_slot16;
                 sizing = _closure1_slot1;
                 result = _closure1_slot2;
@@ -2294,8 +2292,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 result = source.bind(tangon)(option);
                 golfie['children'] = result;
                 golfie = output.bind(tangon)(sizing, golfie);
-                _fun00026_ip = 560; continue _fun00025;
- 420:
+                _fun00026_ip = 549; continue _fun00025;
+ 409:
                 result = _closure1_slot17;
                 vacuum = _closure1_slot1;
                 config = _closure1_slot2;
@@ -2329,25 +2327,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 source[1] = ctrled;
                 sizing['children'] = source;
                 golfie = result.bind(tangon)(output, sizing);
- 560:
+ 549:
                 backup = golfie;
- 563:
+ 552:
                 golfie = new Array(3);
                 golfie[0] = backup;
                 backup = entity != update;
-                if(!backup) { _fun00026_ip = 601; continue _fun00025 }
- 578:
+                if(!backup) { _fun00026_ip = 590; continue _fun00025 }
+ 567:
                 output = update.channelId;
                 result = entity == option;
                 sizing = undefined;
-                if(result) { _fun00026_ip = 597; continue _fun00025 }
- 592:
+                if(result) { _fun00026_ip = 586; continue _fun00025 }
+ 581:
                 sizing = option.id;
- 597:
+ 586:
                 backup = output !== sizing;
- 601:
-                if(!backup) { _fun00026_ip = 638; continue _fun00025 }
- 604:
+ 590:
+                if(!backup) { _fun00026_ip = 627; continue _fun00025 }
+ 593:
                 result = _closure1_slot16;
                 output = _closure1_slot23;
                 sizing = {};
@@ -2356,7 +2354,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sizing['activity'] = echoed;
                 sizing['style'] = foxtra;
                 backup = result.bind(tangon)(output, sizing);
- 638:
+ 627:
                 golfie[1] = backup;
                 backup = kiloes.map;
                 romeon = function(argFoo, argBar) {
@@ -2390,9 +2388,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['children'] = golfie;
                 michal = oscard.bind(tangon)(zuuluu, michal);
                 return michal;
- 673:
+ 662:
                 return entity;
- 675:
+ 664:
                 zuuluu = _closure1_slot16;
                 oscard = _closure1_slot1;
                 romeon = _closure1_slot2;

@@ -1321,7 +1321,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  1614:
             sequen = cntext;
  1617:
-            sizing['value'] = sequen;
+            sizing['defaultValue'] = sequen;
             sizing['onChange'] = update;
             sequen = _closure1_slot0;
             update = _closure1_slot2;
@@ -1528,8 +1528,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = new Array(2);
             report[0] = offset;
             oscard = null;
-            if(!verify) { _fun00002_ip = 2204; continue _fun00001 }
- 2187:
+            if(!verify) { _fun00002_ip = 2205; continue _fun00001 }
+ 2188:
             verify = _closure1_slot10;
             option = function() { // Original name: Submitting
                 entity = _closure1_slot14;
@@ -1582,7 +1582,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             golfie = {};
             oscard = verify.bind(tangon)(option, golfie);
- 2204:
+ 2205:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

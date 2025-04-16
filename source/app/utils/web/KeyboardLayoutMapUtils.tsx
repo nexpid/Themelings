@@ -1114,32 +1114,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = function(argFoo) { // Original name: value
                 _fun00047: for(var _fun00048_ip = 0; ; ) switch(_fun00048_ip) {
  0:
-                    michal = argFoo;
                     zuuluu = this;
-                    report = _closure1_slot22;
+                    tangon = _closure1_slot22;
                     entity = undefined;
-                    option = report.bind(entity)(michal);
+                    michal = argFoo;
+                    michal = tangon.bind(entity)(michal);
                     oscard = zuuluu._internalKeyLayoutMap;
-                    report = null;
-                    if(!(report == oscard)) { _fun00048_ip = 42; continue _fun00047 }
+                    tangon = null;
+                    if(!(tangon == oscard)) { _fun00048_ip = 42; continue _fun00047 }
  32:
                     oscard = zuuluu._initializeInternalLayoutMap;
                     oscard = oscard.bind(zuuluu)();
  42:
                     oscard = zuuluu._hasExactMatch;
-                    oscard = oscard.bind(zuuluu)(option);
-                    if(oscard) { _fun00048_ip = 377; continue _fun00047 }
+                    oscard = oscard.bind(zuuluu)(michal);
+                    if(oscard) { _fun00048_ip = 348; continue _fun00047 }
  61:
                     golfie = michal.key;
                     oscard = golfie.toLowerCase;
                     golfie = oscard.bind(golfie)();
                     oscard = 'dead';
-                    if(!(oscard !== golfie)) { _fun00048_ip = 377; continue _fun00047 }
+                    if(!(oscard !== golfie)) { _fun00048_ip = 348; continue _fun00047 }
  89:
                     golfie = zuuluu.keyMap;
                     oscard = michal.key;
                     oscard = golfie[oscard];
-                    if(!(report != oscard)) { _fun00048_ip = 210; continue _fun00047 }
+                    if(!(tangon != oscard)) { _fun00048_ip = 210; continue _fun00047 }
  108:
                     golfie = zuuluu.keyMap;
                     oscard = michal.key;
@@ -1147,62 +1147,56 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = michal.keyCode;
                     if(!(golfie !== oscard)) { _fun00048_ip = 231; continue _fun00047 }
  133:
-                    verify = _closure1_slot9;
-                    golfie = verify.error;
-                    update = michal.key;
-                    offset = zuuluu.keyMap;
-                    oscard = michal.key;
-                    result = offset[oscard];
-                    sizing = michal.keyCode;
-                    oscard = global;
-                    oscard = oscard.HermesInternal;
-                    romeon = oscard.concat;
-                    source = 'KeyboardMapper - Key code mismatch for key ';
-                    echoed = ': ';
-                    output = ' !== ';
-                    oscard = source[romeon](update, echoed, result, output, sizing, kiloes);
-                    oscard = golfie.bind(verify)(oscard);
+                    golfie = _closure1_slot9;
+                    oscard = golfie.error;
+                    result = michal.key;
+                    option = zuuluu.keyMap;
+                    report = michal.key;
+                    sizing = option[report];
+                    backup = michal.keyCode;
+                    report = global;
+                    report = report.HermesInternal;
+                    offset = report.concat;
+                    echoed = 'KeyboardMapper - Key code mismatch for key ';
+                    output = ': ';
+                    kiloes = ' !== ';
+                    report = echoed[offset](result, output, sizing, kiloes, backup, foxtra);
+                    report = oscard.bind(golfie)(report);
                     _fun00048_ip = 231; continue _fun00047;
  210:
-                    verify = zuuluu.keyMap;
-                    golfie = michal.key;
-                    oscard = michal.keyCode;
-                    verify[golfie] = oscard;
+                    golfie = zuuluu.keyMap;
+                    oscard = michal.key;
+                    report = michal.keyCode;
+                    golfie[oscard] = report;
  231:
-                    verify = zuuluu.keyCodeMap;
-                    golfie = michal.keyCode;
-                    offset = zuuluu.keyCodeMap;
-                    oscard = michal.keyCode;
-                    oscard = offset[oscard];
-                    if(!(report == oscard)) { _fun00048_ip = 267; continue _fun00047 }
- 263:
-                    oscard = new Array(0);
- 267:
-                    verify[golfie] = oscard;
                     golfie = zuuluu.keyCodeMap;
                     oscard = michal.keyCode;
-                    golfie = golfie[oscard];
-                    oscard = golfie.push;
-                    oscard = oscard.bind(golfie)(option);
-                    option = zuuluu._internalKeyLayoutMap;
-                    if(!(report != option)) { _fun00048_ip = 328; continue _fun00047 }
+                    option = zuuluu.keyCodeMap;
+                    report = michal.keyCode;
+                    report = option[report];
+                    if(!(tangon == report)) { _fun00048_ip = 267; continue _fun00047 }
+ 263:
+                    report = new Array(0);
+ 267:
+                    golfie[oscard] = report;
+                    oscard = zuuluu.keyCodeMap;
+                    report = michal.keyCode;
+                    oscard = oscard[report];
+                    report = oscard.push;
+                    report = report.bind(oscard)(michal);
+                    oscard = zuuluu._internalKeyLayoutMap;
+                    if(!(tangon != oscard)) { _fun00048_ip = 328; continue _fun00047 }
  307:
-                    golfie = option.set;
-                    oscard = michal.code;
-                    report = michal.key;
-                    report = golfie.bind(option)(oscard, report);
+                    report = oscard.set;
+                    tangon = michal.code;
+                    michal = michal.key;
+                    michal = report.bind(oscard)(tangon, michal);
  328:
-                    oscard = _closure1_slot9;
-                    report = oscard.verbose;
-                    tangon = {};
-                    tangon['event'] = michal;
-                    michal = 'KeyboardMapper - Key added';
-                    michal = report.bind(oscard)(michal, tangon);
                     michal = zuuluu.updateCaches;
                     michal = michal.bind(zuuluu)();
                     michal = zuuluu.save;
                     michal = michal.bind(zuuluu)();
- 377:
+ 348:
                     return entity;
                 }
             };

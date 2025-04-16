@@ -1586,6 +1586,14 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['CUSTOM_STATUS_PROMPTS_COACHMARK'] = michal;
     entity = 'CUSTOM_STATUS_PROMPTS_COACHMARK';
     tangon[michal] = entity;
+    michal = 534;
+    tangon['GUILD_TAG_USER_PROFILE_NEW_BADGE'] = michal;
+    entity = 'GUILD_TAG_USER_PROFILE_NEW_BADGE';
+    tangon[michal] = entity;
+    michal = 535;
+    tangon['GUILD_TAG_SERVER_SETTINGS_NEW_BADGE'] = michal;
+    entity = 'GUILD_TAG_SERVER_SETTINGS_NEW_BADGE';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

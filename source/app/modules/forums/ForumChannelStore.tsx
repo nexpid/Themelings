@@ -49,6 +49,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon['sortOrder'] = offset;
     tangon['tagFilter'] = verify;
     tangon['scrollPosition'] = option;
+    option = 5;
+    option = oscard[option];
+    option = report.bind(entity)(option);
+    option = option.ThreadSearchTagSetting;
+    option = option.MATCH_SOME;
+    tangon['tagSetting'] = option;
     var _closure1_slot6 = tangon;
     tangon = function(argFoo, argBar) { // Original name: ForumChannelStoreState
         zuuluu = this;
@@ -85,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu[tangon] = entity;
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            entity = 5;
+            entity = 6;
             zuuluu = zuuluu[entity];
             entity = undefined;
             tangon = tangon.bind(entity)(zuuluu);
@@ -108,42 +114,49 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                 oscard = argFoo;
                 michal = null;
-                if(!(michal != oscard)) { _fun00002_ip = 150; continue _fun00001 }
+                if(!(michal != oscard)) { _fun00002_ip = 186; continue _fun00001 }
  12:
                 zuuluu = _closure2_slot0;
                 entity = zuuluu.get;
                 entity = entity.bind(zuuluu)();
                 entity = entity.channelStates;
                 entity = entity[oscard];
-                if(!(michal == entity)) { _fun00002_ip = 148; continue _fun00001 }
- 42:
+                if(!(michal == entity)) { _fun00002_ip = 184; continue _fun00001 }
+ 45:
                 report = _closure1_slot4;
                 tangon = report.getChannel;
-                report = tangon.bind(report)(oscard);
-                oscard = _closure1_slot1;
-                golfie = _closure1_slot2;
-                tangon = 6;
-                tangon = golfie[tangon];
-                golfie = undefined;
-                oscard = oscard.bind(golfie)(tangon);
-                tangon = michal != report;
+                golfie = tangon.bind(report)(oscard);
+                option = _closure1_slot1;
+                oscard = _closure1_slot2;
+                tangon = 7;
+                tangon = oscard[tangon];
+                report = undefined;
+                option = option.bind(report)(tangon);
+                tangon = michal != golfie;
                 michal = '[Forum Channel Store] The channel should not be missing.';
-                michal = oscard.bind(golfie)(tangon, michal);
+                michal = option.bind(report)(tangon, michal);
                 michal = {};
-                tangon = report.getDefaultLayout;
-                tangon = tangon.bind(report)();
+                tangon = golfie.getDefaultLayout;
+                tangon = tangon.bind(golfie)();
                 michal['layoutType'] = tangon;
-                tangon = report.getDefaultSortOrder;
-                tangon = tangon.bind(report)();
+                tangon = golfie.getDefaultSortOrder;
+                tangon = tangon.bind(golfie)();
                 michal['sortOrder'] = tangon;
-                zuuluu = _closure1_slot5;
-                michal['tagFilter'] = zuuluu;
-                zuuluu = 0;
-                michal['scrollPosition'] = zuuluu;
+                tangon = _closure1_slot5;
+                michal['tagFilter'] = tangon;
+                tangon = 0;
+                michal['scrollPosition'] = tangon;
+                tangon = _closure1_slot0;
+                zuuluu = 5;
+                zuuluu = oscard[zuuluu];
+                zuuluu = tangon.bind(report)(zuuluu);
+                zuuluu = zuuluu.ThreadSearchTagSetting;
+                zuuluu = zuuluu.MATCH_SOME;
+                michal['tagSetting'] = zuuluu;
                 entity = michal;
- 148:
+ 184:
                 return entity;
- 150:
+ 186:
                 entity = _closure1_slot6;
                 return entity;
             }
@@ -194,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = zuuluu.bind(report)(entity, michal);
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
-            entity = 7;
+            entity = 8;
             michal = michal[entity];
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(michal);
@@ -213,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = zuuluu.bind(report)(entity, michal);
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
-            entity = 7;
+            entity = 8;
             michal = michal[entity];
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(michal);
@@ -232,7 +245,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = zuuluu.bind(report)(entity, michal);
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
-            entity = 7;
+            entity = 8;
             michal = michal[entity];
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(michal);
@@ -241,6 +254,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         zuuluu['setLayoutType'] = tangon;
+        tangon = function(argFoo, argBar) {
+            tangon = _closure2_slot0;
+            zuuluu = tangon.setChannelState;
+            michal = {};
+            entity = argBar;
+            michal['tagSetting'] = entity;
+            entity = argFoo;
+            entity = zuuluu.bind(tangon)(entity, michal);
+            entity = undefined;
+            return entity;
+        };
+        zuuluu['setTagSetting'] = tangon;
         michal = function(argFoo, argBar) {
             tangon = _closure2_slot0;
             zuuluu = tangon.setChannelState;
@@ -258,7 +283,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot9 = tangon;
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot7 = tangon;
-    tangon = 8;
+    tangon = 9;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
     golfie = option.create;
@@ -275,7 +300,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot8 = tangon;
-    tangon = 10;
+    tangon = 11;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -291,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.bind(golfie)();
             oscard = _closure1_slot0;
             option = _closure1_slot2;
-            report = 9;
+            report = 10;
             report = option[report];
             golfie = oscard.bind(golfie)(report);
             oscard = golfie.useStateFromStores;

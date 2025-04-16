@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         offset = offset.E45wvL;
         offset = yankee.bind(romeon)(offset);
         report['title'] = offset;
-        report['value'] = verify;
+        report['defaultValue'] = verify;
         verify = _closure1_slot3;
         option = verify.map;
         golfie = function(argFoo) {

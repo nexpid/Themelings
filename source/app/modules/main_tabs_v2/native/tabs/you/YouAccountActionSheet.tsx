@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         verify = offset.bind(yankee)(verify);
         entity['title'] = verify;
         entity['onChange'] = option;
-        entity['value'] = oscard;
+        entity['defaultValue'] = oscard;
         oscard = golfie.map;
         report = function(argFoo) {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -353,7 +353,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         offset = yankee.bind(backup)(offset);
         report['title'] = offset;
         report['onChange'] = verify;
-        report['value'] = option;
+        report['defaultValue'] = option;
         yankee = _closure1_slot17;
         verify = 23;
         option = output[verify];
@@ -669,7 +669,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = tangon.bind(oscard)(michal, zuuluu);
             michal = entity == yankee;
             entity = null;
-            if(michal) { _fun00008_ip = 507; continue _fun00007 }
+            if(michal) { _fun00008_ip = 508; continue _fun00007 }
  175:
             tangon = _closure1_slot18;
             zuuluu = _closure1_slot5;
@@ -742,7 +742,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['title'] = backup;
             golfie['onChange'] = foxtra;
             yankee = yankee.id;
-            golfie['value'] = yankee;
+            golfie['defaultValue'] = yankee;
             yankee = romeon.map;
             offset = function(argFoo) {
                 entity = argFoo;
@@ -768,7 +768,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 507:
+ 508:
             return entity;
         }
     };

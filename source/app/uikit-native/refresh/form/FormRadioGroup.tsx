@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = 'children';
             entity[tangon] = foxtra;
             entity = zuuluu.bind(report)(michal, entity);
-            _fun00002_ip = 372; continue _fun00001;
+            _fun00002_ip = 373; continue _fun00001;
  209:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot4;
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = romeon.bind(report)(offset);
             romeon = offset.TableRadioGroup;
             offset = {};
-            offset['value'] = output;
+            offset['defaultValue'] = output;
             offset['hasIcons'] = sizing;
             offset['title'] = kiloes;
             offset['accessibilityLabel'] = backup;
@@ -118,8 +118,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[0] = verify;
             verify = golfie != yankee;
             golfie = null;
-            if(!verify) { _fun00002_ip = 358; continue _fun00001 }
- 325:
+            if(!verify) { _fun00002_ip = 359; continue _fun00001 }
+ 326:
             offset = _closure1_slot5;
             verify = _closure1_slot4;
             option = {};
@@ -129,11 +129,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['style'] = romeon;
             option['children'] = yankee;
             golfie = offset.bind(report)(verify, option);
- 358:
+ 359:
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 372:
+ 373:
             return entity;
         }
     };

@@ -608,7 +608,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = verify.createContext;
     oscard = oscard.bind(verify)(entity);
     var _closure1_slot10 = oscard;
-    oscard = 14;
+    oscard = 15;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
     golfie = option.fileFinishedImporting;
@@ -680,61 +680,63 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot1 = backup;
             romeon = option.visibleChanged;
             var _closure2_slot2 = romeon;
-            golfie = option.reference;
             kiloes = option.focused;
             var _closure2_slot3 = kiloes;
+            golfie = option.reference;
             foxtra = option.focusedChanged;
             var _closure2_slot4 = foxtra;
-            oscard = option.impression;
-            var _closure2_slot5 = oscard;
             tangon = option.questOrQuests;
             entity = global;
             zuuluu = entity.Array;
             entity = zuuluu.isArray;
             entity = entity.bind(zuuluu)(tangon);
-            report = null;
-            if(entity) { _fun00020_ip = 134; continue _fun00019 }
- 98:
-            verify = _closure1_slot0;
+            sizing = null;
+            oscard = null;
+            if(entity) { _fun00020_ip = 124; continue _fun00019 }
+ 88:
+            report = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 6;
             zuuluu = zuuluu[entity];
             entity = undefined;
-            zuuluu = verify.bind(entity)(zuuluu);
+            zuuluu = report.bind(entity)(zuuluu);
             entity = zuuluu.getQuestStatus;
-            report = entity.bind(zuuluu)(tangon);
- 134:
-            offset = _closure1_slot1;
+            oscard = entity.bind(zuuluu)(tangon);
+ 124:
+            report = _closure1_slot1;
             verify = _closure1_slot2;
             zuuluu = 12;
             zuuluu = verify[zuuluu];
             tangon = undefined;
-            zuuluu = offset.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.bind(tangon)(report);
-            yankee = report !== zuuluu;
-            var _closure2_slot6 = yankee;
-            report = _closure1_slot0;
+            zuuluu = report.bind(tangon)(zuuluu);
+            zuuluu = zuuluu.bind(tangon)(oscard);
+            yankee = oscard !== zuuluu;
+            var _closure2_slot5 = yankee;
+            oscard = _closure1_slot0;
             zuuluu = 13;
             zuuluu = verify[zuuluu];
-            verify = report.bind(tangon)(zuuluu);
-            report = verify.useAdDecisionData;
+            offset = oscard.bind(tangon)(zuuluu);
+            oscard = offset.useAdDecisionData;
             zuuluu = option.questContent;
-            offset = report.bind(verify)(zuuluu);
-            var _closure2_slot7 = offset;
-            sizing = _closure1_slot5;
-            verify = sizing.useEffect;
-            report = new Array(1);
-            report[0] = oscard;
+            offset = oscard.bind(offset)(zuuluu);
+            var _closure2_slot6 = offset;
+            oscard = _closure1_slot5;
+            zuuluu = oscard.useRef;
+            oscard = zuuluu.bind(oscard)(sizing);
+            var _closure2_slot7 = oscard;
+            zuuluu = 14;
+            zuuluu = verify[zuuluu];
+            report = report.bind(tangon)(zuuluu);
             zuuluu = function() {
                 entity = function() {
                     _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
-                        michal = _closure2_slot5;
+                        michal = _closure2_slot7;
                         zuuluu = michal.current;
                         michal = null;
                         if(!(michal != zuuluu)) { _fun00022_ip = 37; continue _fun00021 }
  18:
-                        entity = _closure2_slot5;
+                        entity = _closure2_slot7;
                         michal = entity.current;
                         entity = michal.stop;
                         entity = entity.bind(michal)();
@@ -745,115 +747,115 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 return entity;
             };
-            zuuluu = verify.bind(sizing)(zuuluu, report);
+            zuuluu = report.bind(tangon)(zuuluu);
             verify = _closure1_slot5;
             report = verify.useEffect;
-            zuuluu = new Array(13);
+            zuuluu = new Array(12);
             zuuluu[0] = kiloes;
             zuuluu[1] = backup;
-            zuuluu[2] = oscard;
-            zuuluu[3] = foxtra;
-            zuuluu[4] = romeon;
+            zuuluu[2] = foxtra;
+            zuuluu[3] = romeon;
             romeon = option.questOrQuests;
-            zuuluu[5] = romeon;
+            zuuluu[4] = romeon;
             romeon = option.questContent;
-            zuuluu[6] = romeon;
+            zuuluu[5] = romeon;
             romeon = option.questContentPosition;
-            zuuluu[7] = romeon;
+            zuuluu[6] = romeon;
             romeon = option.questContentRowIndex;
-            zuuluu[8] = romeon;
+            zuuluu[7] = romeon;
             romeon = option.trackGuildAndChannelMetadata;
-            zuuluu[9] = romeon;
-            zuuluu[10] = yankee;
+            zuuluu[8] = romeon;
+            zuuluu[9] = yankee;
             yankee = option.minViewTimeSeconds;
-            zuuluu[11] = yankee;
-            zuuluu[12] = offset;
+            zuuluu[10] = yankee;
+            zuuluu[11] = offset;
             michal = function() {
                 _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
-                    tangon = _closure2_slot3;
-                    if(!tangon) { _fun00024_ip = 14; continue _fun00023 }
+                    report = _closure2_slot3;
+                    if(!report) { _fun00024_ip = 14; continue _fun00023 }
  10:
-                    tangon = _closure2_slot1;
+                    report = _closure2_slot1;
  14:
-                    entity = _closure2_slot2;
-                    if(entity) { _fun00024_ip = 25; continue _fun00023 }
+                    michal = _closure2_slot2;
+                    if(michal) { _fun00024_ip = 25; continue _fun00023 }
  21:
-                    entity = _closure2_slot4;
+                    michal = _closure2_slot4;
  25:
-                    if(entity) { _fun00024_ip = 32; continue _fun00023 }
+                    if(michal) { _fun00024_ip = 32; continue _fun00023 }
  28:
-                    entity = _closure2_slot6;
- 32:
-                    if(!entity) { _fun00024_ip = 38; continue _fun00023 }
- 35:
-                    entity = tangon;
- 38:
-                    michal = entity;
-                    if(michal) { _fun00024_ip = 64; continue _fun00023 }
- 44:
-                    zuuluu = _closure2_slot2;
-                    if(zuuluu) { _fun00024_ip = 55; continue _fun00023 }
- 51:
-                    zuuluu = _closure2_slot4;
- 55:
-                    if(!zuuluu) { _fun00024_ip = 61; continue _fun00023 }
- 58:
-                    zuuluu = !tangon;
- 61:
-                    michal = zuuluu;
- 64:
-                    if(michal) { _fun00024_ip = 71; continue _fun00023 }
- 67:
-                    michal = _closure2_slot6;
- 71:
-                    if(!michal) { _fun00024_ip = 89; continue _fun00023 }
- 74:
-                    zuuluu = _closure2_slot5;
-                    tangon = zuuluu.current;
-                    zuuluu = null;
-                    michal = zuuluu != tangon;
- 89:
-                    if(!michal) { _fun00024_ip = 111; continue _fun00023 }
- 92:
                     michal = _closure2_slot5;
-                    zuuluu = michal.current;
-                    michal = zuuluu.stop;
-                    michal = michal.bind(zuuluu)();
- 111:
-                    if(!entity) { _fun00024_ip = 261; continue _fun00023 }
- 117:
-                    entity = _closure2_slot5;
-                    tangon = _closure1_slot9;
-                    michal = {};
+ 32:
+                    if(!michal) { _fun00024_ip = 38; continue _fun00023 }
+ 35:
+                    michal = report;
+ 38:
+                    zuuluu = michal;
+                    if(zuuluu) { _fun00024_ip = 64; continue _fun00023 }
+ 44:
+                    tangon = _closure2_slot2;
+                    if(tangon) { _fun00024_ip = 55; continue _fun00023 }
+ 51:
+                    tangon = _closure2_slot4;
+ 55:
+                    if(!tangon) { _fun00024_ip = 61; continue _fun00023 }
+ 58:
+                    tangon = !report;
+ 61:
+                    zuuluu = tangon;
+ 64:
+                    if(zuuluu) { _fun00024_ip = 71; continue _fun00023 }
+ 67:
+                    zuuluu = _closure2_slot5;
+ 71:
+                    if(!zuuluu) { _fun00024_ip = 89; continue _fun00023 }
+ 74:
+                    tangon = _closure2_slot7;
+                    report = tangon.current;
+                    tangon = null;
+                    zuuluu = tangon != report;
+ 89:
+                    if(!zuuluu) { _fun00024_ip = 111; continue _fun00023 }
+ 92:
                     zuuluu = _closure2_slot7;
-                    michal['adDecisionData'] = zuuluu;
-                    zuuluu = _closure2_slot0;
-                    oscard = zuuluu.questOrQuests;
+                    tangon = zuuluu.current;
+                    zuuluu = tangon.stop;
+                    zuuluu = zuuluu.bind(tangon)();
+ 111:
+                    if(!michal) { _fun00024_ip = 265; continue _fun00023 }
+ 117:
+                    zuuluu = _closure2_slot7;
+                    report = _closure1_slot9;
+                    michal = {};
+                    tangon = _closure2_slot6;
+                    michal['adDecisionData'] = tangon;
+                    tangon = _closure2_slot0;
+                    oscard = tangon.questOrQuests;
                     michal['questOrQuests'] = oscard;
-                    oscard = zuuluu.questContent;
+                    oscard = tangon.questContent;
                     michal['questContent'] = oscard;
-                    oscard = zuuluu.questContentPosition;
+                    oscard = tangon.questContentPosition;
                     michal['questContentPosition'] = oscard;
-                    oscard = zuuluu.questContentRowIndex;
+                    oscard = tangon.questContentRowIndex;
                     michal['questContentRowIndex'] = oscard;
-                    report = _closure2_slot6;
-                    michal['triggeredByStatusChange'] = report;
-                    report = zuuluu.trackGuildAndChannelMetadata;
-                    michal['trackGuildAndChannelMetadata'] = report;
-                    zuuluu = zuuluu.minViewTimeSeconds;
-                    michal['minViewTimeSeconds'] = zuuluu;
-                    zuuluu = tangon.prototype;
-                    zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
-                    option = zuuluu;
+                    oscard = _closure2_slot5;
+                    michal['triggeredByStatusChange'] = oscard;
+                    oscard = tangon.trackGuildAndChannelMetadata;
+                    michal['trackGuildAndChannelMetadata'] = oscard;
+                    tangon = tangon.minViewTimeSeconds;
+                    michal['minViewTimeSeconds'] = tangon;
+                    tangon = report.prototype;
+                    tangon = Object.create(tangon, {constructor: {value: report}});
+                    option = tangon;
                     golfie = michal;
-                    michal = new option[tangon](golfie, oscard);
-                    michal = michal instanceof Object ? michal : zuuluu;
-                    entity['current'] = michal;
+                    michal = new option[report](golfie, oscard);
+                    michal = michal instanceof Object ? michal : tangon;
+                    zuuluu['current'] = michal;
+                    entity = _closure2_slot7;
                     michal = entity.current;
                     entity = michal.start;
                     entity = entity.bind(michal)();
- 261:
+ 265:
                     entity = undefined;
                     return entity;
                 }

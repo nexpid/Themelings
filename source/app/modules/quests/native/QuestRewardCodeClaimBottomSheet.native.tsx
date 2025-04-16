@@ -442,54 +442,60 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     zuuluu = _closure2_slot1;
-                    entity = null;
-                    if(!(entity != zuuluu)) { _fun00012_ip = 166; continue _fun00011 }
- 16:
-                    option = _closure1_slot0;
-                    verify = _closure1_slot2;
-                    zuuluu = 23;
-                    zuuluu = verify[zuuluu];
-                    golfie = undefined;
-                    tangon = option.bind(golfie)(zuuluu);
+                    michal = null;
+                    if(!(michal != zuuluu)) { _fun00012_ip = 68; continue _fun00011 }
+ 13:
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
+                    michal = 23;
+                    zuuluu = zuuluu[michal];
+                    michal = undefined;
+                    tangon = tangon.bind(michal)(zuuluu);
                     zuuluu = tangon.copy;
-                    michal = _closure2_slot1;
-                    michal = michal.code;
-                    michal = zuuluu.bind(tangon)(michal);
-                    michal = _closure1_slot1;
-                    entity = 18;
-                    entity = verify[entity];
-                    zuuluu = michal.bind(golfie)(entity);
-                    michal = zuuluu.open;
-                    entity = {};
-                    tangon = 'TOAST_QUEST_REWARD_CODE_COPIED';
-                    entity['key'] = tangon;
-                    tangon = 19;
-                    report = verify[tangon];
-                    report = option.bind(golfie)(report);
-                    oscard = report.intl;
-                    report = oscard.string;
-                    tangon = verify[tangon];
-                    tangon = option.bind(golfie)(tangon);
-                    tangon = tangon.t;
-                    tangon = tangon.MSaeTU;
-                    tangon = report.bind(oscard)(tangon);
-                    entity['content'] = tangon;
-                    tangon = function() { // Original name: icon
-                        tangon = _closure1_slot9;
-                        michal = _closure1_slot0;
-                        zuuluu = _closure1_slot2;
-                        entity = 24;
-                        entity = zuuluu[entity];
-                        zuuluu = undefined;
-                        entity = michal.bind(zuuluu)(entity);
-                        michal = entity.CopyIcon;
+                    entity = _closure2_slot1;
+                    michal = entity.code;
+                    entity = function() {
+                        michal = _closure1_slot1;
+                        verify = _closure1_slot2;
+                        entity = 18;
+                        entity = verify[entity];
+                        option = undefined;
+                        zuuluu = michal.bind(option)(entity);
+                        michal = zuuluu.open;
                         entity = {};
-                        entity = tangon.bind(zuuluu)(michal, entity);
+                        report = 'TOAST_QUEST_REWARD_CODE_COPIED';
+                        entity['key'] = report;
+                        golfie = _closure1_slot0;
+                        tangon = 19;
+                        report = verify[tangon];
+                        report = golfie.bind(option)(report);
+                        oscard = report.intl;
+                        report = oscard.string;
+                        tangon = verify[tangon];
+                        tangon = golfie.bind(option)(tangon);
+                        tangon = tangon.t;
+                        tangon = tangon.MSaeTU;
+                        tangon = report.bind(oscard)(tangon);
+                        entity['content'] = tangon;
+                        tangon = function() { // Original name: icon
+                            tangon = _closure1_slot9;
+                            michal = _closure1_slot0;
+                            zuuluu = _closure1_slot2;
+                            entity = 24;
+                            entity = zuuluu[entity];
+                            zuuluu = undefined;
+                            entity = michal.bind(zuuluu)(entity);
+                            michal = entity.CopyIcon;
+                            entity = {};
+                            entity = tangon.bind(zuuluu)(michal, entity);
+                            return entity;
+                        };
+                        entity['icon'] = tangon;
+                        entity = michal.bind(zuuluu)(entity);
                         return entity;
                     };
-                    entity['icon'] = tangon;
-                    entity = michal.bind(zuuluu)(entity);
- 166:
+                    entity = zuuluu.bind(tangon)(michal, entity);
+ 68:
                     entity = undefined;
                     return entity;
                 }
@@ -721,7 +727,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset[1] = foxtra;
             option['children'] = offset;
             verify = yankee.bind(tangon)(verify, option);
-            _fun00004_ip = 1857; continue _fun00003;
+            _fun00004_ip = 1858; continue _fun00003;
  1464:
             offset = _closure1_slot11;
             option = {};
@@ -786,7 +792,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             quebec = quebec.vVcTtL;
             quebec = variable36.bind(variable37)(quebec);
             target['title'] = quebec;
-            target['value'] = equals;
+            target['defaultValue'] = equals;
             target['hasIcons'] = echoed;
             equals = whisks.rewardPlatforms;
             whisks = equals.map;
@@ -821,8 +827,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = papara.bind(tangon)(cntext, config);
             config = new Array(2);
             config[0] = cntext;
-            if(!record) { _fun00004_ip = 1829; continue _fun00003 }
- 1796:
+            if(!record) { _fun00004_ip = 1830; continue _fun00003 }
+ 1797:
             target = _closure1_slot9;
             papara = _closure1_slot5;
             cntext = {};
@@ -831,14 +837,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = 24;
             cntext['size'] = status;
             record = target.bind(tangon)(papara, cntext);
- 1829:
+ 1830:
             config[1] = record;
             backup['children'] = config;
             backup = sequen.bind(tangon)(vacuum, backup);
             foxtra[1] = backup;
             option['children'] = foxtra;
             verify = yankee.bind(tangon)(offset, option);
- 1857:
+ 1858:
             option = new Array(2);
             option[0] = verify;
             yankee = _closure1_slot9;
@@ -857,13 +863,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['disabled'] = ctrled;
             romeon['onPress'] = source;
             romeon['grow'] = echoed;
-            if(result) { _fun00004_ip = 2058; continue _fun00003 }
- 1936:
-            if(!(kiloes != output)) { _fun00004_ip = 1948; continue _fun00003 }
- 1940:
+            if(result) { _fun00004_ip = 2059; continue _fun00003 }
+ 1937:
+            if(!(kiloes != output)) { _fun00004_ip = 1949; continue _fun00003 }
+ 1941:
             kiloes = '';
-            if(!(kiloes === output)) { _fun00004_ip = 2004; continue _fun00003 }
- 1948:
+            if(!(kiloes === output)) { _fun00004_ip = 2005; continue _fun00003 }
+ 1949:
             echoed = _closure1_slot0;
             kiloes = _closure1_slot2;
             output = kiloes[update];
@@ -875,8 +881,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.t;
             kiloes = kiloes.23SS+/;
             kiloes = output.bind(result)(kiloes);
-            _fun00004_ip = 2056; continue _fun00003;
- 2004:
+            _fun00004_ip = 2057; continue _fun00003;
+ 2005:
             source = _closure1_slot0;
             output = _closure1_slot2;
             result = output[update];
@@ -888,9 +894,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = output.t;
             output = output.+zx47e;
             kiloes = result.bind(echoed)(output);
- 2056:
-            _fun00004_ip = 2112; continue _fun00003;
- 2058:
+ 2057:
+            _fun00004_ip = 2113; continue _fun00003;
+ 2059:
             echoed = _closure1_slot0;
             sizing = _closure1_slot2;
             output = sizing[update];
@@ -902,7 +908,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = sizing.t;
             sizing = sizing.SLZMi4;
             kiloes = output.bind(result)(sizing);
- 2112:
+ 2113:
             romeon['text'] = kiloes;
             romeon = backup.bind(tangon)(foxtra, romeon);
             verify['children'] = romeon;

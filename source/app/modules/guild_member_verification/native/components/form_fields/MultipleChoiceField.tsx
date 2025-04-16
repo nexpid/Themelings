@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  210:
             offset = romeon;
  213:
-            oscard['value'] = offset;
+            oscard['defaultValue'] = offset;
             offset = function(argFoo) { // Original name: onChange
                 zuuluu = _closure2_slot0;
                 michal = undefined;

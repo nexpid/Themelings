@@ -85,56 +85,75 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = undefined;
             michal = 'assign';
             michal = tangon.bind(entity)(golfie, michal);
-            if(michal) { _fun00004_ip = 178; continue _fun00003 }
+            if(michal) { _fun00004_ip = 274; continue _fun00003 }
  31:
-            report = _closure1_slot8;
-            tangon = report.log;
-            michal = global;
-            michal = michal.HermesInternal;
-            oscard = michal.concat;
+            oscard = _closure1_slot8;
+            tangon = oscard.log;
+            report = global;
+            michal = report.HermesInternal;
+            option = michal.concat;
             michal = 'transitionTo - Transitioning to ';
-            michal = oscard.bind(michal)(golfie);
-            michal = tangon.bind(report)(michal);
-            report = null;
-            michal = report == verify;
+            michal = option.bind(michal)(golfie);
+            michal = tangon.bind(oscard)(michal);
+            oscard = null;
+            michal = oscard == verify;
             tangon = undefined;
             if(michal) { _fun00004_ip = 86; continue _fun00003 }
  81:
             tangon = verify.source;
  86:
-            if(!(report != verify)) { _fun00004_ip = 95; continue _fun00003 }
+            if(!(oscard != verify)) { _fun00004_ip = 95; continue _fun00003 }
  90:
             michal = delete verify.source;
  95:
-            oscard = report == verify;
+            option = oscard == verify;
             michal = undefined;
-            if(oscard) { _fun00004_ip = 110; continue _fun00003 }
+            if(option) { _fun00004_ip = 110; continue _fun00003 }
  104:
             michal = verify.sourceLocationStack;
  110:
-            if(!(report != verify)) { _fun00004_ip = 119; continue _fun00003 }
+            if(!(oscard != verify)) { _fun00004_ip = 119; continue _fun00003 }
  114:
-            oscard = delete verify.sourceLocationStack;
+            option = delete verify.sourceLocationStack;
  119:
-            if(!(report != verify)) { _fun00004_ip = 156; continue _fun00003 }
- 123:
+            if(!(oscard != verify)) { _fun00004_ip = 252; continue _fun00003 }
+ 126:
+            option = report.URL;
+            oscard = report.window;
+            oscard = oscard.GLOBAL_ENV;
+            offset = oscard.WEBAPP_ENDPOINT;
+            report = report.HermesInternal;
+            oscard = report.concat;
+            report = 'https:';
+            romeon = oscard.bind(report)(offset);
+            oscard = option.prototype;
+            oscard = Object.create(oscard, {constructor: {value: option}});
+            backup = oscard;
+            foxtra = golfie;
+            report = new backup[option](foxtra, romeon, yankee);
+            offset = report instanceof Object ? report : oscard;
             option = _closure1_slot2;
             oscard = option.push;
             report = {};
-            report['pathname'] = golfie;
-            romeon = report;
-            yankee = verify;
-            verify = copyDataProperties(romeon, yankee);
+            yankee = offset.pathname;
+            report['pathname'] = yankee;
+            yankee = offset.search;
+            report['search'] = yankee;
+            offset = offset.hash;
+            report['hash'] = offset;
+            foxtra = report;
+            romeon = verify;
+            verify = copyDataProperties(foxtra, romeon);
             report = oscard.bind(option)(report);
-            _fun00004_ip = 170; continue _fun00003;
- 156:
+            _fun00004_ip = 266; continue _fun00003;
+ 252:
             oscard = _closure1_slot2;
             report = oscard.push;
             report = report.bind(oscard)(golfie);
- 170:
+ 266:
             var _closure1_slot3 = tangon;
             var _closure1_slot4 = michal;
- 178:
+ 274:
             return entity;
         }
     };

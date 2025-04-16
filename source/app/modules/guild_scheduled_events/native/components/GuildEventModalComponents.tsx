@@ -542,7 +542,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.bind(tangon)(entity);
             michal = entity.TableRadioGroup;
             entity = {};
-            entity['value'] = oscard;
+            entity['defaultValue'] = oscard;
             entity['onChange'] = report;
             report = true;
             entity['hasIcons'] = report;

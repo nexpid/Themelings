@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = golfie.YccTvL;
         golfie = yankee.bind(backup)(golfie);
         report['title'] = golfie;
-        report['value'] = output;
+        report['defaultValue'] = output;
         golfie = function(argFoo) { // Original name: onChange
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:

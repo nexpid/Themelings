@@ -479,7 +479,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         update = update.9XsExs;
         update = source.bind(ctrled)(update);
         offset['title'] = update;
-        offset['value'] = echoed;
+        offset['defaultValue'] = echoed;
         echoed = function(argFoo) { // Original name: onChange
             zuuluu = _closure2_slot4;
             entity = undefined;

@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 0;
             michal = michal > entity;
             entity = null;
-            if(!michal) { _fun00002_ip = 301; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 302; continue _fun00001 }
  127:
             tangon = _closure1_slot11;
             golfie = _closure1_slot0;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = oscard.TableRadioGroup;
             oscard = {};
             offset = offset.deviceId;
-            oscard['value'] = offset;
+            oscard['defaultValue'] = offset;
             offset = function(argFoo) { // Original name: onChange
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -194,7 +194,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 301:
+ 302:
             return entity;
         }
     };
@@ -410,7 +410,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 0;
             michal = michal > entity;
             entity = null;
-            if(!michal) { _fun00008_ip = 496; continue _fun00007 }
+            if(!michal) { _fun00008_ip = 497; continue _fun00007 }
  333:
             tangon = _closure1_slot11;
             golfie = _closure1_slot0;
@@ -439,7 +439,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = golfie.bind(report)(oscard);
             golfie = oscard.TableRadioGroup;
             oscard = {};
-            oscard['value'] = romeon;
+            oscard['defaultValue'] = romeon;
             oscard['onChange'] = offset;
             offset = yankee.map;
             verify = function(argFoo) {
@@ -540,7 +540,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 496:
+ 497:
             return entity;
         }
     };

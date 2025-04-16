@@ -1,5 +1,5 @@
 // app/modules/threads/ThreadActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     golfie = argBaz;
     zuuluu = argFre;
@@ -1522,75 +1522,76 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         return entity;
     };
     michal['setNotificationSettings'] = golfie;
-    golfie = function(argFoo, argBar, argBaz, argCor, argGra) { // Original name: loadArchivedThreads
+    golfie = function(argFoo) { // Original name: loadArchivedThreads
         _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
-            verify = argBar;
-            oscard = argBaz;
-            foxtra = argCor;
-            golfie = argGra;
             michal = argFoo;
-            var _closure2_slot0 = michal;
-            var _closure2_slot1 = verify;
+            zuuluu = michal.guildId;
+            var _closure2_slot0 = zuuluu;
+            yankee = michal.channelId;
+            var _closure2_slot1 = yankee;
+            oscard = michal.sortOrder;
             var _closure2_slot2 = oscard;
-            var _closure2_slot3 = foxtra;
-            var _closure2_slot4 = golfie;
+            romeon = michal.tagFilter;
+            var _closure2_slot3 = romeon;
+            option = michal.tagSetting;
+            var _closure2_slot4 = option;
+            golfie = michal.offset;
+            var _closure2_slot5 = golfie;
             zuuluu = _closure1_slot8;
             michal = zuuluu.isLoading;
-            michal = michal.bind(zuuluu)(verify, oscard, foxtra);
-            if(michal) { _fun00030_ip = 329; continue _fun00029 }
- 63:
+            result = zuuluu;
+            output = yankee;
+            sizing = oscard;
+            kiloes = romeon;
+            backup = option;
+            michal = result[michal](output, sizing, kiloes, backup, foxtra);
+            if(michal) { _fun00030_ip = 338; continue _fun00029 }
+ 101:
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
             michal = 10;
             michal = tangon[michal];
-            offset = undefined;
-            report = zuuluu.bind(offset)(michal);
+            verify = undefined;
+            report = zuuluu.bind(verify)(michal);
             zuuluu = report.dispatch;
             michal = {};
-            yankee = 'LOAD_ARCHIVED_THREADS';
-            michal['type'] = yankee;
-            michal['channelId'] = verify;
+            foxtra = 'LOAD_ARCHIVED_THREADS';
+            michal['type'] = foxtra;
+            michal['channelId'] = yankee;
             michal['sortOrder'] = oscard;
-            michal['tagFilter'] = foxtra;
+            michal['tagFilter'] = romeon;
+            michal['tagSetting'] = option;
             michal = zuuluu.bind(report)(michal);
             zuuluu = _closure1_slot0;
             michal = 9;
             michal = tangon[michal];
-            michal = zuuluu.bind(offset)(michal);
+            michal = zuuluu.bind(verify)(michal);
             tangon = michal.HTTP;
             zuuluu = tangon.get;
             michal = {};
             oscard = _closure1_slot11;
             report = oscard.THREAD_SEARCH;
-            report = report.bind(oscard)(verify);
+            report = report.bind(oscard)(yankee);
             michal['url'] = report;
             oscard = {'archived': true, 'sort_by': 'last_message_time', 'sort_order': 'desc'};
             report = true;
-            verify = _closure1_slot9;
-            oscard['limit'] = verify;
-            yankee = foxtra.size;
-            verify = 0;
-            yankee = yankee > verify;
-            verify = undefined;
-            if(!yankee) { _fun00030_ip = 241; continue _fun00029 }
- 209:
-            yankee = global;
-            romeon = yankee.Array;
-            yankee = romeon.from;
-            foxtra = yankee.bind(romeon)(foxtra);
-            romeon = foxtra.join;
-            yankee = ',';
-            verify = romeon.bind(foxtra)(yankee);
- 241:
+            offset = _closure1_slot9;
+            oscard['limit'] = offset;
+            yankee = romeon.size;
+            offset = 0;
+            offset = yankee > offset;
+            if(!offset) { _fun00030_ip = 282; continue _fun00029 }
+ 250:
+            offset = global;
+            yankee = offset.Array;
+            offset = yankee.from;
+            romeon = offset.bind(yankee)(romeon);
+            yankee = romeon.join;
+            offset = ',';
+            verify = yankee.bind(romeon)(offset);
+ 282:
             oscard['tag'] = verify;
-            verify = _closure1_slot0;
-            yankee = _closure1_slot2;
-            option = 17;
-            option = yankee[option];
-            option = verify.bind(offset)(option);
-            option = option.ThreadSearchTagSetting;
-            option = option.MATCH_SOME;
             oscard['tag_setting'] = option;
             oscard['offset'] = golfie;
             michal['query'] = oscard;
@@ -1610,7 +1611,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     romeon = entity.first_messages;
                     offset = entity.most_recent_messages;
                     golfie = null;
-                    if(!(golfie != option)) { _fun00032_ip = 246; continue _fun00031 }
+                    if(!(golfie != option)) { _fun00032_ip = 255; continue _fun00031 }
  49:
                     michal = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -1626,24 +1627,26 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     entity['guildId'] = backup;
                     backup = _closure2_slot1;
                     entity['channelId'] = backup;
-                    backup = _closure2_slot4;
+                    backup = _closure2_slot5;
                     entity['offset'] = backup;
                     backup = _closure2_slot2;
                     entity['sortOrder'] = backup;
-                    foxtra = _closure2_slot3;
-                    entity['tagFilter'] = foxtra;
+                    backup = _closure2_slot3;
+                    entity['tagFilter'] = backup;
+                    foxtra = _closure2_slot4;
+                    entity['tagSetting'] = foxtra;
                     entity['threads'] = option;
                     entity['firstMessages'] = romeon;
                     entity['mostRecentMessages'] = offset;
-                    if(!(golfie == yankee)) { _fun00032_ip = 158; continue _fun00031 }
- 154:
+                    if(!(golfie == yankee)) { _fun00032_ip = 167; continue _fun00031 }
+ 163:
                     yankee = new Array(0);
- 158:
+ 167:
                     offset = yankee.map;
                     golfie = function(argFoo) {
                         michal = _closure1_slot1;
                         zuuluu = _closure1_slot2;
-                        entity = 18;
+                        entity = 17;
                         entity = zuuluu[entity];
                         zuuluu = undefined;
                         michal = michal.bind(zuuluu)(entity);
@@ -1663,7 +1666,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     oscard = golfie.filter;
                     option = _closure1_slot0;
                     offset = _closure1_slot2;
-                    report = 19;
+                    report = 18;
                     report = offset[report];
                     report = option.bind(verify)(report);
                     report = report.isNotNullish;
@@ -1671,8 +1674,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     entity['owners'] = report;
                     entity['hasMore'] = tangon;
                     entity = michal.bind(zuuluu)(entity);
-                    _fun00032_ip = 322; continue _fun00031;
- 246:
+                    _fun00032_ip = 340; continue _fun00031;
+ 255:
                     zuuluu = _closure1_slot1;
                     michal = _closure1_slot2;
                     entity = 10;
@@ -1687,10 +1690,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     entity['channelId'] = report;
                     report = _closure2_slot2;
                     entity['sortOrder'] = report;
-                    tangon = _closure2_slot3;
-                    entity['tagFilter'] = tangon;
+                    report = _closure2_slot3;
+                    entity['tagFilter'] = report;
+                    tangon = _closure2_slot4;
+                    entity['tagSetting'] = tangon;
                     entity = michal.bind(zuuluu)(entity);
- 322:
+ 340:
                     entity = undefined;
                     return entity;
                 }
@@ -1710,134 +1715,147 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 michal['channelId'] = oscard;
                 oscard = _closure2_slot2;
                 michal['sortOrder'] = oscard;
-                report = _closure2_slot3;
-                michal['tagFilter'] = report;
+                oscard = _closure2_slot3;
+                michal['tagFilter'] = oscard;
+                report = _closure2_slot4;
+                michal['tagSetting'] = report;
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
             entity = zuuluu.bind(tangon)(michal, entity);
- 329:
+ 338:
             entity = undefined;
             return entity;
         }
     };
     michal['loadArchivedThreads'] = golfie;
     tangon = function(argFoo, argBar, argBaz, argCor) { // Original name: searchThreads
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = argBar;
-        var _closure2_slot1 = michal;
-        michal = argBaz;
-        var _closure2_slot2 = michal;
-        michal = argCor;
-        var _closure2_slot3 = michal;
-        zuuluu = _closure1_slot3;
-        michal = undefined;
-        entity = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
+        _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
  0:
-                    StartGenerator();
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00034_ip = 332; continue _fun00033 }
+            zuuluu = arguments[4];
+            michal = argFoo;
+            var _closure2_slot0 = michal;
+            michal = argBar;
+            var _closure2_slot1 = michal;
+            michal = argBaz;
+            var _closure2_slot2 = michal;
+            michal = argCor;
+            var _closure2_slot3 = michal;
+            michal = undefined;
+            if(!(zuuluu === michal)) { _fun00034_ip = 74; continue _fun00033 }
+ 39:
+            report = _closure1_slot0;
+            oscard = _closure1_slot2;
+            tangon = 19;
+            tangon = oscard[tangon];
+            tangon = report.bind(michal)(tangon);
+            tangon = tangon.ThreadSearchTagSetting;
+            zuuluu = tangon.MATCH_SOME;
+ 74:
+            var _closure2_slot4 = zuuluu;
+            zuuluu = _closure1_slot3;
+            entity = function* () {
+                entity = function* () { // Original name: ?anon_0_
+                    _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
+ 0:
+                        StartGenerator();
+                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                        if(michal) { _fun00036_ip = 312; continue _fun00035 }
  10:
-                    zuuluu = _closure2_slot3;
-                    michal = null;
-                    michal = michal != zuuluu;
-                    oscard = undefined;
-                    option = undefined;
-                    if(!michal) { _fun00034_ip = 86; continue _fun00033 }
+                        zuuluu = _closure2_slot3;
+                        michal = null;
+                        michal = michal != zuuluu;
+                        oscard = undefined;
+                        option = undefined;
+                        if(!michal) { _fun00036_ip = 86; continue _fun00035 }
  30:
-                    michal = _closure2_slot3;
-                    zuuluu = michal.size;
-                    michal = 0;
-                    michal = zuuluu > michal;
-                    option = undefined;
-                    if(!michal) { _fun00034_ip = 86; continue _fun00033 }
+                        michal = _closure2_slot3;
+                        zuuluu = michal.size;
+                        michal = 0;
+                        michal = zuuluu > michal;
+                        option = undefined;
+                        if(!michal) { _fun00036_ip = 86; continue _fun00035 }
  50:
-                    michal = global;
-                    tangon = michal.Array;
-                    zuuluu = tangon.from;
-                    michal = _closure2_slot3;
-                    tangon = zuuluu.bind(tangon)(michal);
-                    zuuluu = tangon.join;
-                    michal = ',';
-                    option = zuuluu.bind(tangon)(michal);
+                        michal = global;
+                        tangon = michal.Array;
+                        zuuluu = tangon.from;
+                        michal = _closure2_slot3;
+                        tangon = zuuluu.bind(tangon)(michal);
+                        zuuluu = tangon.join;
+                        michal = ',';
+                        option = zuuluu.bind(tangon)(michal);
  86:
-                    offset = _closure1_slot0;
-                    yankee = _closure1_slot2;
-                    michal = 9;
-                    michal = yankee[michal];
-                    michal = offset.bind(oscard)(michal);
-                    report = michal.HTTP;
-                    tangon = report.get;
-                    michal = {};
-                    foxtra = _closure1_slot11;
-                    romeon = foxtra.THREAD_SEARCH;
-                    golfie = _closure2_slot1;
-                    golfie = romeon.bind(foxtra)(golfie);
-                    michal['url'] = golfie;
-                    golfie = {};
-                    romeon = _closure2_slot2;
-                    golfie['name'] = romeon;
-                    golfie['tag'] = option;
-                    option = 17;
-                    option = yankee[option];
-                    option = offset.bind(oscard)(option);
-                    option = option.ThreadSearchTagSetting;
-                    option = option.MATCH_SOME;
-                    golfie['tag_setting'] = option;
-                    michal['query'] = golfie;
-                    golfie = false;
-                    michal['rejectWithError'] = golfie;
-                    michal = tangon.bind(report)(michal);
-                    SaveGenerator(address=206);
- 204:
-                    return michal;
- 206:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00034_ip = 329; continue _fun00033 }
- 212:
-                    tangon = michal.body;
-                    report = tangon.threads;
-                    offset = tangon.members;
-                    option = tangon.first_messages;
-                    golfie = tangon.most_recent_messages;
-                    tangon = _closure1_slot1;
-                    yankee = _closure1_slot2;
-                    zuuluu = 10;
-                    zuuluu = yankee[zuuluu];
-                    oscard = tangon.bind(oscard)(zuuluu);
-                    tangon = oscard.dispatch;
-                    zuuluu = {};
-                    yankee = 'LOAD_THREADS_SUCCESS';
-                    zuuluu['type'] = yankee;
-                    zuuluu['threads'] = report;
-                    zuuluu['members'] = offset;
-                    verify = _closure2_slot0;
-                    zuuluu['guildId'] = verify;
-                    zuuluu['firstMessages'] = option;
-                    zuuluu['mostRecentMessages'] = golfie;
-                    zuuluu = tangon.bind(oscard)(zuuluu);
-                    tangon = report.map;
-                    zuuluu = function(argFoo) {
-                        entity = argFoo;
-                        entity = entity.id;
+                        tangon = _closure1_slot0;
+                        report = _closure1_slot2;
+                        michal = 9;
+                        michal = report[michal];
+                        michal = tangon.bind(oscard)(michal);
+                        report = michal.HTTP;
+                        tangon = report.get;
+                        michal = {};
+                        yankee = _closure1_slot11;
+                        offset = yankee.THREAD_SEARCH;
+                        golfie = _closure2_slot1;
+                        golfie = offset.bind(yankee)(golfie);
+                        michal['url'] = golfie;
+                        golfie = {};
+                        offset = _closure2_slot2;
+                        golfie['name'] = offset;
+                        golfie['tag'] = option;
+                        option = _closure2_slot4;
+                        golfie['tag_setting'] = option;
+                        michal['query'] = golfie;
+                        golfie = false;
+                        michal['rejectWithError'] = golfie;
+                        michal = tangon.bind(report)(michal);
+                        SaveGenerator(address=186);
+ 184:
+                        return michal;
+ 186:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                        if(tangon) { _fun00036_ip = 309; continue _fun00035 }
+ 192:
+                        tangon = michal.body;
+                        report = tangon.threads;
+                        offset = tangon.members;
+                        option = tangon.first_messages;
+                        golfie = tangon.most_recent_messages;
+                        tangon = _closure1_slot1;
+                        yankee = _closure1_slot2;
+                        zuuluu = 10;
+                        zuuluu = yankee[zuuluu];
+                        oscard = tangon.bind(oscard)(zuuluu);
+                        tangon = oscard.dispatch;
+                        zuuluu = {};
+                        yankee = 'LOAD_THREADS_SUCCESS';
+                        zuuluu['type'] = yankee;
+                        zuuluu['threads'] = report;
+                        zuuluu['members'] = offset;
+                        verify = _closure2_slot0;
+                        zuuluu['guildId'] = verify;
+                        zuuluu['firstMessages'] = option;
+                        zuuluu['mostRecentMessages'] = golfie;
+                        zuuluu = tangon.bind(oscard)(zuuluu);
+                        tangon = report.map;
+                        zuuluu = function(argFoo) {
+                            entity = argFoo;
+                            entity = entity.id;
+                            return entity;
+                        };
+                        zuuluu = tangon.bind(report)(zuuluu);
+                        return zuuluu;
+ 309:
+                        return michal;
+ 312:
                         return entity;
-                    };
-                    zuuluu = tangon.bind(report)(zuuluu);
-                    return zuuluu;
- 329:
-                    return michal;
- 332:
-                    return entity;
-                }
+                    }
+                };
+                return entity;
             };
+            entity = zuuluu.bind(michal)(entity);
+            entity = entity.bind(michal)();
             return entity;
-        };
-        entity = zuuluu.bind(michal)(entity);
-        entity = entity.bind(michal)();
-        return entity;
+        }
     };
     michal['searchThreads'] = tangon;
     tangon = 20;

@@ -459,11 +459,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = zuuluu.bind(tangon)(entity, michal);
             michal = offset != update;
             entity = null;
-            if(!michal) { _fun00002_ip = 1445; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 1446; continue _fun00001 }
  354:
             michal = offset != sierra;
             entity = null;
-            if(!michal) { _fun00002_ip = 1445; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 1446; continue _fun00001 }
  366:
             tangon = _closure1_slot10;
             zuuluu = _closure1_slot7;
@@ -589,7 +589,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = _closure1_slot13;
             papara = status[papara];
             papara = papara.value;
-            foxtra['value'] = papara;
+            foxtra['defaultValue'] = papara;
             papara = function(argFoo) { // Original name: onChange
                 michal = _closure2_slot5;
                 entity = argFoo;
@@ -691,8 +691,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify[4] = foxtra;
             romeon = romeon.banError;
             offset = null;
-            if(!romeon) { _fun00002_ip = 1421; continue _fun00001 }
- 1282:
+            if(!romeon) { _fun00002_ip = 1422; continue _fun00001 }
+ 1283:
             foxtra = _closure1_slot10;
             kiloes = _closure1_slot0;
             result = _closure1_slot2;
@@ -720,13 +720,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = sizing.bind(output)(kiloes, backup);
             yankee['children'] = backup;
             offset = foxtra.bind(report)(romeon, yankee);
- 1421:
+ 1422:
             verify[5] = offset;
             oscard['children'] = verify;
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1445:
+ 1446:
             return entity;
         }
     };

@@ -34,31 +34,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             michal = argFoo;
-            option = michal.userId;
-            var _closure2_slot0 = option;
-            report = michal.guildId;
-            tangon = michal.surface;
+            report = michal.userId;
+            var _closure2_slot0 = report;
+            tangon = michal.guildId;
             oscard = undefined;
             var _closure2_slot1 = oscard;
             zuuluu = _closure1_slot1;
-            verify = _closure1_slot2;
+            option = _closure1_slot2;
             michal = 2;
-            michal = verify[michal];
+            michal = option[michal];
             zuuluu = zuuluu.bind(oscard)(michal);
             michal = {};
-            michal['userId'] = option;
-            michal['guildId'] = report;
-            michal['surface'] = tangon;
+            michal['userId'] = report;
+            michal['guildId'] = tangon;
             michal = zuuluu.bind(oscard)(michal);
             tangon = michal.voiceState;
             zuuluu = michal.voiceChannel;
             michal = null;
             report = michal == zuuluu;
             michal = undefined;
-            if(report) { _fun00002_ip = 102; continue _fun00001 }
- 97:
+            if(report) { _fun00002_ip = 91; continue _fun00001 }
+ 86:
             michal = zuuluu.id;
- 102:
+ 91:
             _closure2_slot1 = michal;
             report = _closure1_slot0;
             option = _closure1_slot2;

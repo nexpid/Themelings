@@ -1,5 +1,5 @@
 // app/modules/forums/ForumActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu) {
     report = argBar;
     golfie = argBaz;
     zuuluu = argFre;
@@ -503,7 +503,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     michal['flushSeenItems'] = golfie;
-    golfie = function(argFoo, argBar, argBaz, argCor) { // Original name: searchForumPosts
+    golfie = function(argFoo, argBar, argBaz, argCor, argGra) { // Original name: searchForumPosts
         michal = argFoo;
         var _closure2_slot0 = michal;
         michal = argBar;
@@ -512,6 +512,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         var _closure2_slot2 = michal;
         michal = argCor;
         var _closure2_slot3 = michal;
+        michal = argGra;
+        var _closure2_slot4 = michal;
         zuuluu = _closure1_slot3;
         michal = undefined;
         entity = function* () {
@@ -520,7 +522,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00012_ip = 287; continue _fun00011 }
+                    if(michal) { _fun00012_ip = 291; continue _fun00011 }
  10:
                     oscard = _closure1_slot1;
                     michal = _closure1_slot2;
@@ -540,21 +542,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = _closure1_slot2;
                     tangon = 6;
                     tangon = option[tangon];
-                    yankee = golfie.bind(michal)(tangon);
-                    offset = yankee.searchThreads;
-                    sizing = _closure2_slot0;
-                    kiloes = _closure2_slot1;
-                    backup = _closure2_slot2;
-                    foxtra = _closure2_slot3;
-                    output = yankee;
-                    tangon = output[offset](sizing, kiloes, backup, foxtra, romeon);
-                    SaveGenerator(address=121);
- 119:
+                    romeon = golfie.bind(michal)(tangon);
+                    yankee = romeon.searchThreads;
+                    output = _closure2_slot0;
+                    sizing = _closure2_slot1;
+                    kiloes = _closure2_slot2;
+                    backup = _closure2_slot3;
+                    foxtra = _closure2_slot4;
+                    result = romeon;
+                    tangon = result[yankee](output, sizing, kiloes, backup, foxtra, romeon);
+                    SaveGenerator(address=125);
+ 123:
                     return tangon;
- 121:
+ 125:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golfie) { _fun00012_ip = 232; continue _fun00011 }
- 127:
+                    if(golfie) { _fun00012_ip = 236; continue _fun00011 }
+ 131:
                     verify = _closure1_slot0;
                     golfie = _closure1_slot2;
                     option = 10;
@@ -579,11 +582,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie['channelId'] = offset;
                     golfie['threadIds'] = tangon;
                     golfie = option.bind(verify)(golfie);
- 230: // try_end0
-                    _fun00012_ip = 284; continue _fun00011;
- 232:
+ 234: // try_end0
+                    _fun00012_ip = 288; continue _fun00011;
+ 236:
                     return tangon;
- 235: // catch_target0
+ 239: // catch_target0
                     CatchBlockStart(arg_register=3);
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -596,9 +599,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = _closure2_slot1;
                     zuuluu['channelId'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
- 284:
+ 288:
                     return michal;
- 287:
+ 291:
                     return entity;
                 }
             };

@@ -1,40 +1,40 @@
-// app/modules/applications/message_embed/native/AppMessageEmbed.tsx
+// app/modules/applications/message_embed/native/createAppMessageEmbed.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golfie = argBaz;
+    offset = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
+    var _closure1_slot1 = offset;
     var _closure1_slot2 = oscard;
     entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
+    option = entity.Object;
+    golfie = option.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
     tangon = oscard[entity];
     entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
+    tangon = offset.bind(entity)(tangon);
     var _closure1_slot3 = tangon;
     tangon = 1;
     tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
+    tangon = offset.bind(entity)(tangon);
     var _closure1_slot4 = tangon;
     tangon = 2;
-    option = oscard[tangon];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot5 = option;
+    golfie = oscard[tangon];
+    golfie = offset.bind(entity)(golfie);
+    var _closure1_slot5 = golfie;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.FetchState;
     var _closure1_slot6 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
+    tangon = offset.bind(entity)(tangon);
     var _closure1_slot7 = tangon;
     tangon = 4;
     tangon = oscard[tangon];
@@ -53,11 +53,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot10 = tangon;
     tangon = ['embedded_cover'];
     var _closure1_slot11 = tangon;
+    option = 7;
+    tangon = oscard[option];
+    yankee = report.bind(entity)(tangon);
+    verify = yankee.hexToRgba;
+    golfie = 8;
+    tangon = oscard[golfie];
+    tangon = offset.bind(entity)(tangon);
+    tangon = tangon.unsafe_rawColors;
+    tangon = tangon.BLACK_460;
+    verify = verify.bind(yankee)(tangon);
+    tangon = new Array(2);
+    tangon[0] = verify;
+    option = oscard[option];
+    verify = report.bind(entity)(option);
+    option = verify.hexToRgba;
+    golfie = oscard[golfie];
+    golfie = offset.bind(entity)(golfie);
+    golfie = golfie.unsafe_rawColors;
+    golfie = golfie.BLACK_460;
+    golfie = option.bind(verify)(golfie);
+    tangon[1] = golfie;
+    var _closure1_slot12 = tangon;
     tangon = 29;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/applications/message_embed/native/AppMessageEmbed.tsx';
+    tangon = 'modules/applications/message_embed/native/createAppMessageEmbed.tsx';
     tangon = report.bind(oscard)(tangon);
     tangon = function(argFoo) { // Original name: createAppMessageEmbed
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -69,350 +91,315 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = entity.message;
             golfie = _closure1_slot1;
             report = _closure1_slot2;
-            entity = 7;
+            entity = 9;
             entity = report[entity];
             report = undefined;
             entity = golfie.bind(report)(entity);
             entity = entity.bind(report)(zuuluu);
             sizing = entity.baseColors;
             entity = entity.colors;
-            record = oscard.channel_id;
+            vacuum = oscard.channel_id;
             zuuluu = _closure1_slot7;
             entity = zuuluu.getApplication;
             backup = entity.bind(zuuluu)(tangon);
             entity = null;
-            if(!(entity != backup)) { _fun00002_ip = 1798; continue _fun00001 }
+            if(!(entity != backup)) { _fun00002_ip = 1665; continue _fun00001 }
  96:
             foxtra = backup.name;
-            yankee = backup.bot;
-            kiloes = backup.tags;
-            sequen = backup.maxParticipants;
+            zuuluu = backup.bot;
+            romeon = backup.tags;
+            result = backup.maxParticipants;
             source = backup.customInstallUrl;
             update = backup.installParams;
             echoed = backup.integrationTypesConfig;
-            golfie = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            vacuum = 9;
-            zuuluu = zuuluu[vacuum];
-            golfie = golfie.bind(report)(zuuluu);
-            zuuluu = golfie.isEmbeddedApp;
-            output = zuuluu.bind(golfie)(backup);
+            verify = _closure1_slot0;
+            golfie = _closure1_slot2;
+            sequen = 11;
+            golfie = golfie[sequen];
+            verify = verify.bind(report)(golfie);
+            golfie = verify.isEmbeddedApp;
+            output = golfie.bind(verify)(backup);
             if(!output) { _fun00002_ip = 220; continue _fun00001 }
  171:
-            golfie = _closure1_slot5;
-            zuuluu = golfie.getApplicationAssetFetchState;
-            golfie = zuuluu.bind(golfie)(tangon);
-            zuuluu = _closure1_slot6;
-            zuuluu = zuuluu.NOT_FETCHED;
-            if(!(golfie !== zuuluu)) { _fun00002_ip = 1760; continue _fun00001 }
+            verify = _closure1_slot5;
+            golfie = verify.getApplicationAssetFetchState;
+            verify = golfie.bind(verify)(tangon);
+            golfie = _closure1_slot6;
+            golfie = golfie.NOT_FETCHED;
+            if(!(verify !== golfie)) { _fun00002_ip = 1627; continue _fun00001 }
  203:
-            zuuluu = _closure1_slot6;
-            zuuluu = zuuluu.FETCHING;
-            if(!(golfie !== zuuluu)) { _fun00002_ip = 1758; continue _fun00001 }
+            golfie = _closure1_slot6;
+            golfie = golfie.FETCHING;
+            if(!(verify !== golfie)) { _fun00002_ip = 1625; continue _fun00001 }
  220:
-            golfie = new Array(0);
-            verify = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            ctrled = 11;
-            zuuluu = zuuluu[ctrled];
-            offset = verify.bind(report)(zuuluu);
-            verify = offset.getApplicationIconURL;
-            zuuluu = {};
-            romeon = backup.id;
-            zuuluu['id'] = romeon;
-            romeon = backup.icon;
-            zuuluu['icon'] = romeon;
-            zuuluu['bot'] = yankee;
-            zuuluu = verify.bind(offset)(zuuluu);
-            verify = entity != zuuluu;
-            offset = null;
-            if(!verify) { _fun00002_ip = 292; continue _fun00001 }
- 289:
-            offset = zuuluu;
- 292:
-            if(!(entity != offset)) { _fun00002_ip = 484; continue _fun00001 }
- 299:
-            verify = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            yankee = 12;
-            zuuluu = zuuluu[yankee];
-            verify = verify.bind(report)(zuuluu);
-            zuuluu = verify.hasFetchedColors;
-            zuuluu = zuuluu.bind(verify)(offset);
-            if(zuuluu) { _fun00002_ip = 361; continue _fun00001 }
- 333:
-            verify = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[yankee];
-            verify = verify.bind(report)(zuuluu);
-            zuuluu = verify.maybeFetchColors;
-            zuuluu = zuuluu.bind(verify)(offset);
- 361:
-            verify = _closure1_slot0;
-            yankee = _closure1_slot2;
-            zuuluu = 13;
-            zuuluu = yankee[zuuluu];
-            yankee = verify.bind(report)(zuuluu);
-            verify = yankee.getHeroColors;
-            romeon = entity != offset;
-            zuuluu = '';
-            if(!romeon) { _fun00002_ip = 401; continue _fun00001 }
- 398:
-            zuuluu = offset;
- 401:
-            zuuluu = verify.bind(yankee)(zuuluu);
-            cntext = zuuluu.primaryColor;
-            romeon = zuuluu.secondaryColor;
+            if(!(entity == result)) { _fun00002_ip = 283; continue _fun00001 }
+ 224:
             yankee = _closure1_slot0;
-            result = _closure1_slot2;
-            verify = 14;
-            zuuluu = result[verify];
-            config = yankee.bind(report)(zuuluu);
-            zuuluu = config.hexToRgba;
-            config = zuuluu.bind(config)(cntext);
-            zuuluu = new Array(2);
-            zuuluu[0] = config;
-            verify = result[verify];
-            yankee = yankee.bind(report)(verify);
-            verify = yankee.hexToRgba;
-            verify = verify.bind(yankee)(romeon);
-            zuuluu[1] = verify;
-            golfie = zuuluu;
- 484:
-            if(!(entity == sequen)) { _fun00002_ip = 547; continue _fun00001 }
- 488:
-            romeon = _closure1_slot0;
-            result = _closure1_slot2;
-            zuuluu = 15;
-            verify = result[zuuluu];
-            verify = romeon.bind(report)(verify);
-            yankee = verify.intl;
-            verify = yankee.string;
-            zuuluu = result[zuuluu];
-            zuuluu = romeon.bind(report)(zuuluu);
-            zuuluu = zuuluu.t;
-            zuuluu = zuuluu.RjceQU;
-            yankee = verify.bind(yankee)(zuuluu);
-            _fun00002_ip = 611; continue _fun00001;
- 547:
+            kiloes = _closure1_slot2;
+            golfie = 13;
+            verify = kiloes[golfie];
+            verify = yankee.bind(report)(verify);
+            offset = verify.intl;
+            verify = offset.string;
+            golfie = kiloes[golfie];
+            golfie = yankee.bind(report)(golfie);
+            golfie = golfie.t;
+            golfie = golfie.RjceQU;
+            yankee = verify.bind(offset)(golfie);
+            _fun00002_ip = 347; continue _fun00001;
+ 283:
             verify = _closure1_slot0;
-            config = _closure1_slot2;
-            zuuluu = 15;
-            romeon = config[zuuluu];
-            romeon = verify.bind(report)(romeon);
-            result = romeon.intl;
-            romeon = result.formatToPlainString;
-            zuuluu = config[zuuluu];
-            zuuluu = verify.bind(report)(zuuluu);
-            zuuluu = zuuluu.t;
-            verify = zuuluu.z8EAJS;
-            zuuluu = {};
-            zuuluu['count'] = sequen;
-            yankee = romeon.bind(result)(verify, zuuluu);
- 611:
-            verify = new Array(0);
-            if(!output) { _fun00002_ip = 841; continue _fun00001 }
- 621:
-            result = _closure1_slot0;
-            sequen = _closure1_slot2;
-            zuuluu = 16;
-            romeon = sequen[zuuluu];
-            config = result.bind(report)(romeon);
-            romeon = config.getEmbeddedActivityLaunchabilityForChannel;
-            romeon = romeon.bind(config)(record);
-            zuuluu = sequen[zuuluu];
-            zuuluu = result.bind(report)(zuuluu);
-            zuuluu = zuuluu.EmbeddedActivityLaunchability;
-            zuuluu = zuuluu.CAN_LAUNCH;
-            if(!(romeon !== zuuluu)) { _fun00002_ip = 760; continue _fun00001 }
- 677:
-            romeon = verify.push;
-            zuuluu = {};
-            result = 'play_in_dm';
-            zuuluu['id'] = result;
-            record = _closure1_slot0;
-            cntext = _closure1_slot2;
-            result = 15;
-            sequen = cntext[result];
-            sequen = record.bind(report)(sequen);
-            config = sequen.intl;
-            sequen = config.string;
-            result = cntext[result];
-            result = record.bind(report)(result);
-            result = result.t;
-            result = result.JeK1Wl;
-            result = sequen.bind(config)(result);
-            zuuluu['label'] = result;
-            zuuluu = romeon.bind(verify)(zuuluu);
-            _fun00002_ip = 841; continue _fun00001;
- 760:
-            romeon = verify.push;
-            zuuluu = {};
-            result = 'play_in_channel';
-            zuuluu['id'] = result;
-            record = _closure1_slot0;
-            cntext = _closure1_slot2;
-            result = 15;
-            sequen = cntext[result];
-            sequen = record.bind(report)(sequen);
-            config = sequen.intl;
-            sequen = config.string;
-            result = cntext[result];
-            result = record.bind(report)(result);
-            result = result.t;
-            result = result.cnBQPD;
-            result = sequen.bind(config)(result);
-            zuuluu['label'] = result;
-            zuuluu = romeon.bind(verify)(zuuluu);
- 841:
-            romeon = kiloes.join;
-            zuuluu = ' ∙ ';
-            zuuluu = romeon.bind(kiloes)(zuuluu);
-            cntext = backup.id;
-            sequen = backup.bot;
-            kiloes = _closure1_slot0;
-            romeon = _closure1_slot2;
-            romeon = romeon[vacuum];
-            kiloes = kiloes.bind(report)(romeon);
-            romeon = kiloes.isEmbeddedApp;
-            romeon = romeon.bind(kiloes)(backup);
-            if(!romeon) { _fun00002_ip = 1011; continue _fun00001 }
- 899:
-            kiloes = _closure1_slot0;
-            romeon = _closure1_slot2;
-            config = 10;
-            romeon = romeon[config];
-            result = kiloes.bind(report)(romeon);
-            kiloes = result.getAssetIds;
-            romeon = _closure1_slot11;
-            result = kiloes.bind(result)(cntext, romeon);
-            if(!(entity == result)) { _fun00002_ip = 943; continue _fun00001 }
- 939:
-            result = new Array(0);
- 943:
-            kiloes = _closure1_slot3;
-            romeon = 1;
-            kiloes = kiloes.bind(report)(result, romeon);
-            romeon = 0;
-            record = kiloes[romeon];
-            romeon = entity != record;
-            result = null;
-            if(!romeon) { _fun00002_ip = 1007; continue _fun00001 }
- 971:
-            kiloes = _closure1_slot0;
-            romeon = _closure1_slot2;
-            romeon = romeon[config];
-            config = kiloes.bind(report)(romeon);
-            kiloes = config.getAssetImage;
-            romeon = 512;
-            result = kiloes.bind(config)(cntext, record, romeon);
- 1007:
-            if(!(entity == result)) { _fun00002_ip = 1123; continue _fun00001 }
- 1011:
-            if(!(entity != sequen)) { _fun00002_ip = 1086; continue _fun00001 }
- 1015:
-            kiloes = _closure1_slot0;
-            romeon = _closure1_slot2;
-            romeon = romeon[ctrled];
-            ctrled = kiloes.bind(report)(romeon);
-            kiloes = ctrled.getUserBannerURL;
-            romeon = {};
-            config = sequen.id;
-            romeon['id'] = config;
-            sequen = sequen.banner;
-            romeon['banner'] = sequen;
-            sequen = 512;
-            romeon['size'] = sequen;
-            sequen = false;
-            romeon['canAnimate'] = sequen;
-            ctrled = kiloes.bind(ctrled)(romeon);
-            if(!(entity == ctrled)) { _fun00002_ip = 1102; continue _fun00001 }
- 1086:
-            kiloes = {'bannerRatio': 'bot', 'staticBannerSrc': null};
-            _fun00002_ip = 1142; continue _fun00001;
- 1102:
-            romeon = {};
-            sequen = 'bot';
-            romeon['bannerRatio'] = sequen;
-            romeon['staticBannerSrc'] = ctrled;
-            kiloes = romeon;
-            _fun00002_ip = 1142; continue _fun00001;
- 1123:
-            romeon = {};
-            ctrled = 'activity';
-            romeon['bannerRatio'] = ctrled;
-            romeon['staticBannerSrc'] = result;
-            kiloes = romeon;
- 1142:
-            result = _closure1_slot1;
             ctrled = _closure1_slot2;
-            romeon = 17;
-            romeon = ctrled[romeon];
-            result = result.bind(report)(romeon);
-            romeon = result.toURLSafe;
-            romeon = romeon.bind(result)(option);
-            result = entity == romeon;
-            ctrled = undefined;
-            if(result) { _fun00002_ip = 1202; continue _fun00001 }
- 1182:
-            sequen = romeon.searchParams;
-            result = sequen.get;
-            romeon = 'link_id';
-            ctrled = result.bind(sequen)(romeon);
- 1202:
-            romeon = zuuluu;
-            if(!(entity != ctrled)) { _fun00002_ip = 1305; continue _fun00001 }
- 1209:
-            result = _closure1_slot0;
-            sequen = _closure1_slot2;
-            zuuluu = 18;
-            zuuluu = sequen[zuuluu];
-            result = result.bind(report)(zuuluu);
-            zuuluu = result.getOrFetchCustomActivityLink;
-            config = zuuluu.bind(result)(tangon, ctrled);
-            if(!(entity != config)) { _fun00002_ip = 1756; continue _fun00001 }
- 1248:
-            ctrled = config.title;
-            result = config.description;
-            zuuluu = {};
-            sequen = 'bot';
-            zuuluu['bannerRatio'] = sequen;
-            sequen = config.getAssetURL;
-            config = sequen.bind(config)();
-            record = entity != config;
-            sequen = null;
-            if(!record) { _fun00002_ip = 1291; continue _fun00001 }
- 1288:
-            sequen = config;
- 1291:
-            zuuluu['staticBannerSrc'] = sequen;
-            foxtra = ctrled;
-            romeon = result;
-            kiloes = zuuluu;
- 1305:
-            result = _closure1_slot4;
-            zuuluu = result.getGuildId;
-            zuuluu = zuuluu.bind(result)();
-            result = entity != zuuluu;
-            ctrled = undefined;
-            if(!result) { _fun00002_ip = 1331; continue _fun00001 }
- 1328:
-            ctrled = zuuluu;
- 1331:
-            result = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[vacuum];
-            result = result.bind(report)(zuuluu);
-            zuuluu = result.isAppAvailableInAppLauncher;
-            zuuluu = zuuluu.bind(result)(backup, ctrled);
-            if(zuuluu) { _fun00002_ip = 1512; continue _fun00001 }
- 1366:
+            golfie = 13;
+            offset = ctrled[golfie];
+            offset = verify.bind(report)(offset);
+            kiloes = offset.intl;
+            offset = kiloes.formatToPlainString;
+            golfie = ctrled[golfie];
+            golfie = verify.bind(report)(golfie);
+            golfie = golfie.t;
+            verify = golfie.z8EAJS;
+            golfie = {};
+            golfie['count'] = result;
+            yankee = offset.bind(kiloes)(verify, golfie);
+ 347:
+            verify = new Array(0);
+            if(!output) { _fun00002_ip = 577; continue _fun00001 }
+ 357:
+            kiloes = _closure1_slot0;
+            result = _closure1_slot2;
+            golfie = 14;
+            offset = result[golfie];
+            ctrled = kiloes.bind(report)(offset);
+            offset = ctrled.getEmbeddedActivityLaunchabilityForChannel;
+            offset = offset.bind(ctrled)(vacuum);
+            golfie = result[golfie];
+            golfie = kiloes.bind(report)(golfie);
+            golfie = golfie.EmbeddedActivityLaunchability;
+            golfie = golfie.CAN_LAUNCH;
+            if(!(offset !== golfie)) { _fun00002_ip = 496; continue _fun00001 }
+ 413:
+            offset = verify.push;
+            golfie = {};
+            kiloes = 'play_in_dm';
+            golfie['id'] = kiloes;
+            vacuum = _closure1_slot0;
+            config = _closure1_slot2;
+            kiloes = 13;
+            result = config[kiloes];
+            result = vacuum.bind(report)(result);
+            ctrled = result.intl;
+            result = ctrled.string;
+            kiloes = config[kiloes];
+            kiloes = vacuum.bind(report)(kiloes);
+            kiloes = kiloes.t;
+            kiloes = kiloes.JeK1Wl;
+            kiloes = result.bind(ctrled)(kiloes);
+            golfie['label'] = kiloes;
+            golfie = offset.bind(verify)(golfie);
+            _fun00002_ip = 577; continue _fun00001;
+ 496:
+            offset = verify.push;
+            golfie = {};
+            kiloes = 'play_in_channel';
+            golfie['id'] = kiloes;
+            vacuum = _closure1_slot0;
+            config = _closure1_slot2;
+            kiloes = 13;
+            result = config[kiloes];
+            result = vacuum.bind(report)(result);
+            ctrled = result.intl;
+            result = ctrled.string;
+            kiloes = config[kiloes];
+            kiloes = vacuum.bind(report)(kiloes);
+            kiloes = kiloes.t;
+            kiloes = kiloes.cnBQPD;
+            kiloes = result.bind(ctrled)(kiloes);
+            golfie['label'] = kiloes;
+            golfie = offset.bind(verify)(golfie);
+ 577:
+            offset = romeon.join;
+            golfie = ' ∙ ';
+            romeon = offset.bind(romeon)(golfie);
+            config = backup.id;
+            ctrled = backup.bot;
+            offset = _closure1_slot0;
+            golfie = _closure1_slot2;
+            golfie = golfie[sequen];
+            offset = offset.bind(report)(golfie);
+            golfie = offset.isEmbeddedApp;
+            golfie = golfie.bind(offset)(backup);
+            if(!golfie) { _fun00002_ip = 747; continue _fun00001 }
+ 635:
+            offset = _closure1_slot0;
+            golfie = _closure1_slot2;
+            result = 12;
+            golfie = golfie[result];
+            kiloes = offset.bind(report)(golfie);
+            offset = kiloes.getAssetIds;
+            golfie = _closure1_slot11;
+            kiloes = offset.bind(kiloes)(config, golfie);
+            if(!(entity == kiloes)) { _fun00002_ip = 679; continue _fun00001 }
+ 675:
+            kiloes = new Array(0);
+ 679:
+            offset = _closure1_slot3;
+            golfie = 1;
+            offset = offset.bind(report)(kiloes, golfie);
+            golfie = 0;
+            vacuum = offset[golfie];
+            golfie = entity != vacuum;
+            offset = null;
+            if(!golfie) { _fun00002_ip = 743; continue _fun00001 }
+ 707:
+            kiloes = _closure1_slot0;
+            golfie = _closure1_slot2;
+            golfie = golfie[result];
+            result = kiloes.bind(report)(golfie);
+            kiloes = result.getAssetImage;
+            golfie = 512;
+            offset = kiloes.bind(result)(config, vacuum, golfie);
+ 743:
+            if(!(entity == offset)) { _fun00002_ip = 862; continue _fun00001 }
+ 747:
+            if(!(entity != ctrled)) { _fun00002_ip = 825; continue _fun00001 }
+ 751:
+            kiloes = _closure1_slot0;
+            result = _closure1_slot2;
+            golfie = 15;
+            golfie = result[golfie];
+            result = kiloes.bind(report)(golfie);
+            kiloes = result.getUserBannerURL;
+            golfie = {};
+            vacuum = ctrled.id;
+            golfie['id'] = vacuum;
+            ctrled = ctrled.banner;
+            golfie['banner'] = ctrled;
+            ctrled = 512;
+            golfie['size'] = ctrled;
+            ctrled = false;
+            golfie['canAnimate'] = ctrled;
+            result = kiloes.bind(result)(golfie);
+            if(!(entity == result)) { _fun00002_ip = 841; continue _fun00001 }
+ 825:
+            kiloes = {'bannerRatio': 'bot', 'staticBannerSrc': null};
+            _fun00002_ip = 881; continue _fun00001;
+ 841:
+            golfie = {};
+            ctrled = 'bot';
+            golfie['bannerRatio'] = ctrled;
+            golfie['staticBannerSrc'] = result;
+            kiloes = golfie;
+            _fun00002_ip = 881; continue _fun00001;
+ 862:
+            golfie = {};
+            result = 'activity';
+            golfie['bannerRatio'] = result;
+            golfie['staticBannerSrc'] = offset;
+            kiloes = golfie;
+ 881:
+            ctrled = _closure1_slot12;
+            offset = _closure1_slot1;
+            result = _closure1_slot2;
+            golfie = 15;
+            golfie = result[golfie];
+            result = offset.bind(report)(golfie);
+            offset = result.getApplicationIconURL;
+            golfie = {};
+            vacuum = backup.id;
+            golfie['id'] = vacuum;
+            vacuum = backup.icon;
+            golfie['icon'] = vacuum;
+            golfie['bot'] = zuuluu;
             zuuluu = false;
-            if(!(zuuluu === output)) { _fun00002_ip = 1595; continue _fun00001 }
- 1375:
+            golfie['fallbackAvatar'] = zuuluu;
+            golfie = offset.bind(result)(golfie);
+            result = entity != golfie;
+            offset = null;
+            if(!result) { _fun00002_ip = 960; continue _fun00001 }
+ 957:
+            offset = golfie;
+ 960:
+            config = offset;
+            if(!(entity == config)) { _fun00002_ip = 973; continue _fun00001 }
+ 967:
+            config = kiloes.staticBannerSrc;
+ 973:
+            golfie = ctrled;
+            if(!(entity != config)) { _fun00002_ip = 1176; continue _fun00001 }
+ 983:
+            vacuum = _closure1_slot0;
+            result = _closure1_slot2;
+            record = 16;
+            result = result[record];
+            vacuum = vacuum.bind(report)(result);
+            result = vacuum.hasFetchedColors;
+            result = result.bind(vacuum)(config);
+            if(result) { _fun00002_ip = 1045; continue _fun00001 }
+ 1017:
+            vacuum = _closure1_slot0;
+            result = _closure1_slot2;
+            result = result[record];
+            vacuum = vacuum.bind(report)(result);
+            result = vacuum.maybeFetchColors;
+            result = result.bind(vacuum)(config);
+ 1045:
+            vacuum = _closure1_slot0;
+            record = _closure1_slot2;
+            result = 17;
+            result = record[result];
+            vacuum = vacuum.bind(report)(result);
+            result = vacuum.getHeroColors;
+            result = result.bind(vacuum)(config);
+            papara = result.primaryColor;
+            config = result.secondaryColor;
+            vacuum = '#000000';
+            result = papara === vacuum;
+            if(!result) { _fun00002_ip = 1103; continue _fun00001 }
+ 1099:
+            result = config === vacuum;
+ 1103:
+            golfie = ctrled;
+            if(!(zuuluu === result)) { _fun00002_ip = 1176; continue _fun00001 }
+ 1110:
+            vacuum = _closure1_slot0;
+            record = _closure1_slot2;
+            ctrled = 7;
+            result = record[ctrled];
+            cntext = vacuum.bind(report)(result);
+            result = cntext.hexToRgba;
+            cntext = result.bind(cntext)(papara);
+            result = new Array(2);
+            result[0] = cntext;
+            ctrled = record[ctrled];
+            vacuum = vacuum.bind(report)(ctrled);
+            ctrled = vacuum.hexToRgba;
+            ctrled = ctrled.bind(vacuum)(config);
+            result[1] = ctrled;
+            golfie = result;
+ 1176:
+            ctrled = _closure1_slot4;
+            result = ctrled.getGuildId;
+            result = result.bind(ctrled)();
+            ctrled = entity != result;
+            vacuum = undefined;
+            if(!ctrled) { _fun00002_ip = 1202; continue _fun00001 }
+ 1199:
+            vacuum = result;
+ 1202:
+            ctrled = _closure1_slot0;
+            result = _closure1_slot2;
+            result = result[sequen];
+            ctrled = ctrled.bind(report)(result);
+            result = ctrled.isAppAvailableInAppLauncher;
+            result = result.bind(ctrled)(backup, vacuum);
+            if(result) { _fun00002_ip = 1381; continue _fun00001 }
+ 1237:
+            if(!(zuuluu === output)) { _fun00002_ip = 1464; continue _fun00001 }
+ 1244:
             output = _closure1_slot0;
             result = _closure1_slot2;
-            zuuluu = 19;
+            zuuluu = 18;
             zuuluu = result[zuuluu];
             result = output.bind(report)(zuuluu);
             output = result.canInstallApplication;
@@ -421,15 +408,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['installParams'] = update;
             zuuluu['integrationTypesConfig'] = echoed;
             zuuluu = output.bind(result)(zuuluu);
-            if(!zuuluu) { _fun00002_ip = 1595; continue _fun00001 }
- 1429:
+            if(!zuuluu) { _fun00002_ip = 1464; continue _fun00001 }
+ 1298:
             output = verify.push;
             zuuluu = {};
             result = 'add_app';
             zuuluu['id'] = result;
             source = _closure1_slot0;
             ctrled = _closure1_slot2;
-            result = 15;
+            result = 13;
             echoed = ctrled[result];
             echoed = source.bind(report)(echoed);
             update = echoed.intl;
@@ -441,15 +428,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             result = echoed.bind(update)(result);
             zuuluu['label'] = result;
             zuuluu = output.bind(verify)(zuuluu);
-            _fun00002_ip = 1595; continue _fun00001;
- 1512:
+            _fun00002_ip = 1464; continue _fun00001;
+ 1381:
             output = verify.push;
             zuuluu = {};
             result = 'view_in_app_launcher';
             zuuluu['id'] = result;
             source = _closure1_slot0;
             ctrled = _closure1_slot2;
-            result = 15;
+            result = 13;
             echoed = ctrled[result];
             echoed = source.bind(report)(echoed);
             update = echoed.intl;
@@ -461,14 +448,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             result = echoed.bind(update)(result);
             zuuluu['label'] = result;
             zuuluu = output.bind(verify)(zuuluu);
- 1595:
+ 1464:
             zuuluu = {};
-            status = zuuluu;
-            target = sizing;
-            sizing = copyDataProperties(status, target);
-            status = zuuluu;
-            target = kiloes;
-            kiloes = copyDataProperties(status, target);
+            sierra = zuuluu;
+            status = sizing;
+            sizing = copyDataProperties(sierra, status);
+            sierra = zuuluu;
+            status = kiloes;
+            kiloes = copyDataProperties(sierra, status);
             kiloes = backup.id;
             backup = 'appId';
             zuuluu[backup] = kiloes;
@@ -500,24 +487,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = 'headerText';
             zuuluu[oscard] = entity;
             return zuuluu;
- 1756:
+ 1625:
             return entity;
- 1758:
-            return entity;
- 1760:
+ 1627:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
-            zuuluu = 10;
+            zuuluu = 12;
             zuuluu = golfie[zuuluu];
             golfie = oscard.bind(report)(zuuluu);
             oscard = golfie.fetchAssetIds;
             zuuluu = _closure1_slot11;
             zuuluu = oscard.bind(golfie)(tangon, zuuluu);
             return entity;
- 1798:
+ 1665:
             zuuluu = _closure1_slot0;
             oscard = _closure1_slot2;
-            michal = 8;
+            michal = 10;
             michal = oscard[michal];
             zuuluu = zuuluu.bind(report)(michal);
             michal = zuuluu.fetchApplication;
@@ -536,7 +521,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = michal.bind(zuuluu)(entity);
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
-            entity = 17;
+            entity = 19;
             michal = michal[entity];
             entity = undefined;
             tangon = zuuluu.bind(entity)(michal);

@@ -394,15 +394,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     zuuluu['useActiveGuildThreads'] = tangon;
-    michal = function(argFoo, argBar, argBaz) { // Original name: useArchivedThreads
+    michal = function(argFoo, argBar, argBaz, argCor) { // Original name: useArchivedThreads
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             output = argBar;
             foxtra = argBaz;
+            result = argCor;
             var _closure2_slot0 = entity;
             var _closure2_slot1 = output;
             var _closure2_slot2 = foxtra;
+            var _closure2_slot3 = result;
             verify = _closure1_slot0;
             romeon = _closure1_slot2;
             golfie = 10;
@@ -416,12 +418,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = function() {
                 entity = {};
                 michal = _closure1_slot9;
-                oscard = michal.isLoading;
+                golfie = michal.isLoading;
                 tangon = _closure2_slot0;
-                report = tangon.id;
-                tangon = _closure2_slot1;
-                zuuluu = _closure2_slot2;
-                zuuluu = oscard.bind(michal)(report, tangon, zuuluu);
+                yankee = tangon.id;
+                offset = _closure2_slot1;
+                verify = _closure2_slot2;
+                option = _closure2_slot3;
+                romeon = michal;
+                zuuluu = romeon[golfie](yankee, offset, verify, option, golfie);
                 entity['loading'] = zuuluu;
                 zuuluu = michal.isInitialLoad;
                 entity['isInitialLoad'] = zuuluu;
@@ -435,58 +439,66 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = tangon.canLoadMore;
             zuuluu = tangon.loading;
             michal = tangon.nextOffset;
-            var _closure2_slot3 = michal;
+            var _closure2_slot4 = michal;
             tangon = tangon.isInitialLoad;
-            var _closure2_slot4 = tangon;
+            var _closure2_slot5 = tangon;
             sizing = _closure1_slot4;
             kiloes = sizing.useCallback;
-            backup = new Array(4);
+            backup = new Array(5);
             backup[0] = entity;
             backup[1] = output;
             backup[2] = foxtra;
-            backup[3] = michal;
+            backup[3] = result;
+            backup[4] = michal;
             michal = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     oscard = _closure1_slot6;
                     report = oscard.can;
-                    entity = _closure1_slot11;
-                    tangon = entity.READ_MESSAGE_HISTORY;
-                    zuuluu = _closure2_slot0;
-                    zuuluu = report.bind(oscard)(tangon, zuuluu);
-                    if(!zuuluu) { _fun00004_ip = 100; continue _fun00003 }
- 39:
-                    tangon = _closure1_slot1;
-                    zuuluu = _closure1_slot2;
-                    michal = 14;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    golfie = tangon.bind(michal)(zuuluu);
-                    oscard = golfie.loadArchivedThreads;
+                    michal = _closure1_slot11;
+                    zuuluu = michal.READ_MESSAGE_HISTORY;
                     michal = _closure2_slot0;
-                    romeon = michal.guild_id;
-                    yankee = michal.id;
-                    offset = _closure2_slot1;
-                    verify = _closure2_slot2;
-                    option = _closure2_slot3;
-                    foxtra = golfie;
-                    entity = foxtra[oscard](romeon, yankee, offset, verify, option, golfie);
- 100:
+                    michal = report.bind(oscard)(zuuluu, michal);
+                    if(!michal) { _fun00004_ip = 132; continue _fun00003 }
+ 39:
+                    zuuluu = _closure1_slot1;
+                    michal = _closure1_slot2;
+                    entity = 14;
+                    michal = michal[entity];
+                    entity = undefined;
+                    zuuluu = zuuluu.bind(entity)(michal);
+                    michal = zuuluu.loadArchivedThreads;
+                    entity = {};
+                    report = _closure2_slot0;
+                    oscard = report.guild_id;
+                    entity['guildId'] = oscard;
+                    report = report.id;
+                    entity['channelId'] = report;
+                    report = _closure2_slot1;
+                    entity['sortOrder'] = report;
+                    report = _closure2_slot2;
+                    entity['tagFilter'] = report;
+                    report = _closure2_slot3;
+                    entity['tagSetting'] = report;
+                    tangon = _closure2_slot4;
+                    entity['offset'] = tangon;
+                    entity = michal.bind(zuuluu)(entity);
+ 132:
                     entity = undefined;
                     return entity;
                 }
             };
             michal = kiloes.bind(sizing)(michal, backup);
-            var _closure2_slot5 = michal;
+            var _closure2_slot6 = michal;
             kiloes = _closure1_slot4;
             backup = kiloes.useRef;
             backup = backup.bind(kiloes)(michal);
-            var _closure2_slot6 = backup;
+            var _closure2_slot7 = backup;
             sizing = _closure1_slot4;
             kiloes = sizing.useEffect;
             backup = function() {
-                michal = _closure2_slot6;
-                entity = _closure2_slot5;
+                michal = _closure2_slot7;
+                entity = _closure2_slot6;
                 michal['current'] = entity;
                 entity = undefined;
                 return entity;
@@ -503,10 +515,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = function() {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                    michal = _closure2_slot4;
+                    michal = _closure2_slot5;
                     if(!michal) { _fun00006_ip = 23; continue _fun00005 }
  10:
-                    michal = _closure2_slot6;
+                    michal = _closure2_slot7;
                     entity = michal.current;
                     entity = entity.bind(michal)();
  23:
@@ -551,13 +563,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu[michal];
                 zuuluu = undefined;
                 michal = tangon.bind(zuuluu)(michal);
-                golfie = _closure1_slot9;
-                oscard = golfie.getThreads;
+                option = _closure1_slot9;
+                golfie = option.getThreads;
                 tangon = _closure2_slot0;
-                report = tangon.id;
-                tangon = _closure2_slot1;
-                entity = _closure2_slot2;
-                entity = oscard.bind(golfie)(report, tangon, entity);
+                romeon = tangon.id;
+                yankee = _closure2_slot1;
+                offset = _closure2_slot2;
+                verify = _closure2_slot3;
+                foxtra = option;
+                entity = foxtra[golfie](romeon, yankee, offset, verify, option);
                 zuuluu = michal.bind(zuuluu)(entity);
                 michal = zuuluu.filter;
                 entity = function(argFoo) {
@@ -588,10 +602,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(verify)(golfie, oscard);
             entity['threadIds'] = oscard;
             entity['canLoadMore'] = report;
-            if(zuuluu) { _fun00002_ip = 348; continue _fun00001 }
- 345:
+            if(zuuluu) { _fun00002_ip = 359; continue _fun00001 }
+ 356:
             zuuluu = tangon;
- 348:
+ 359:
             entity['loading'] = zuuluu;
             entity['loadMore'] = michal;
             return entity;

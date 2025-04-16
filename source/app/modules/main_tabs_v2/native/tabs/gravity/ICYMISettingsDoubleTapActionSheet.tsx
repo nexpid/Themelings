@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = yankee.GravityICYMIDoubleTapBehavior;
             offset = yankee.DEFAULT;
  265:
-            report['value'] = offset;
+            report['defaultValue'] = offset;
             verify = function(argFoo) { // Original name: onChange
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;

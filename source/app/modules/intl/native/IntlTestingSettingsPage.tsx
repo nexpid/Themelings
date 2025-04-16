@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = golfie.bind(zuuluu)(report);
         report = report.intl;
         report = report.currentLocale;
-        entity['value'] = report;
+        entity['defaultValue'] = report;
         report = function() {
             tangon = _closure1_slot4;
             zuuluu = undefined;

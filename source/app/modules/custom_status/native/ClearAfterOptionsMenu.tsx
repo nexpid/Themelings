@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
         verify = verify.3h5PBw;
         verify = offset.bind(yankee)(verify);
         entity['accessibilityLabel'] = verify;
-        entity['value'] = option;
+        entity['defaultValue'] = option;
         entity['onChange'] = oscard;
         oscard = false;
         entity['hasIcons'] = oscard;

@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         entity = entity.t;
-        entity = entity.7vhiqq;
+        entity = entity.2p07FR;
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };

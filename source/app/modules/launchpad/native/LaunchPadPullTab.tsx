@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = option;
     var _closure1_slot15 = tangon;
     tangon = {};
-    option = 'function LaunchPadPullTabTsx2(keyboardHeight,keyboardHeightPrev){const{launchPadSharedState,updaters,keyboardHeightOpened,launchPadPullTabState,CHAT_INPUT_HEIGHT,LAUNCH_PAD_MARGIN,getWindowDimensionsWorklet,LAUNCH_PAD_PULL_TAB_HEIGHT,LAUNCH_PAD_PULL_TAB_SCALE_OFFSET}=this.__closure;if(launchPadSharedState.get()!==0){updaters.setLaunchPadPullTabMinimized(false);return;}if(keyboardHeightPrev==null||keyboardHeight===keyboardHeightPrev){return;}if(keyboardHeight<keyboardHeightPrev){var _keyboardHeightOpened;if(keyboardHeight===0){updaters.setLaunchPadPullTabMinimized(false);}if(keyboardHeightOpened.get()==null){keyboardHeightOpened.set(keyboardHeightPrev);}const keyboardClosePercent=1-keyboardHeight/((_keyboardHeightOpened=keyboardHeightOpened.get())!==null&&_keyboardHeightOpened!==void 0?_keyboardHeightOpened:keyboardHeightPrev);const keyboardOffsetRetractionAmount=launchPadPullTabState.get().offset*keyboardClosePercent;updaters.setLaunchPadPullTabPosition(launchPadPullTabState.get().position+keyboardOffsetRetractionAmount,launchPadPullTabState.get().offset-keyboardOffsetRetractionAmount);}else{updaters.setLaunchPadPullTabMinimized(true);if(keyboardHeightOpened.get()!=null){keyboardHeightOpened.set(undefined);}const keyboardWithChatInput=keyboardHeight+CHAT_INPUT_HEIGHT+LAUNCH_PAD_MARGIN*2;const spaceUnderPullTab=getWindowDimensionsWorklet().height-(launchPadPullTabState.get().position+LAUNCH_PAD_PULL_TAB_HEIGHT+LAUNCH_PAD_PULL_TAB_SCALE_OFFSET);const offset=spaceUnderPullTab>keyboardWithChatInput?0:keyboardWithChatInput-spaceUnderPullTab;if(offset>0){updaters.setLaunchPadPullTabPosition(launchPadPullTabState.get().position-offset,launchPadPullTabState.get().offset+offset);}}}';
+    option = 'function LaunchPadPullTabTsx2(keyboardHeight,keyboardHeightPrev){const{launchPadSharedState,updaters,keyboardHeightOpened,launchPadPullTabState,CHAT_INPUT_HEIGHT,LAUNCH_PAD_MARGIN,getWindowDimensionsWorklet,LAUNCH_PAD_PULL_TAB_HEIGHT,LAUNCH_PAD_PULL_TAB_SCALE_OFFSET}=this.__closure;if(launchPadSharedState.get()!==0){updaters.setLaunchPadPullTabMinimized(false);return;}if(keyboardHeightPrev==null||keyboardHeight===keyboardHeightPrev){return;}if(keyboardHeight<keyboardHeightPrev){var _keyboardHeightOpened;if(keyboardHeight===0){updaters.setLaunchPadPullTabMinimized(false);}if(keyboardHeightOpened.get()==null){keyboardHeightOpened.set(keyboardHeightPrev);}const keyboardClosePercent=1-keyboardHeight/((_keyboardHeightOpened=keyboardHeightOpened.get())!==null&&_keyboardHeightOpened!==void 0?_keyboardHeightOpened:keyboardHeightPrev);const keyboardOffsetRetractionAmount=launchPadPullTabState.get().offset*keyboardClosePercent;updaters.setLaunchPadPullTabPosition(launchPadPullTabState.get().position+keyboardOffsetRetractionAmount,launchPadPullTabState.get().offset-keyboardOffsetRetractionAmount);}else{updaters.setLaunchPadPullTabMinimized(true);if(keyboardHeightOpened.get()!=null){keyboardHeightOpened.set(undefined);}const keyboardWithChatInput=keyboardHeight+CHAT_INPUT_HEIGHT+LAUNCH_PAD_MARGIN*2;const spaceUnderPullTab=getWindowDimensionsWorklet({ignoreKeyboard:true}).height-(launchPadPullTabState.get().position+LAUNCH_PAD_PULL_TAB_HEIGHT+LAUNCH_PAD_PULL_TAB_SCALE_OFFSET);const offset=spaceUnderPullTab>keyboardWithChatInput?0:keyboardWithChatInput-spaceUnderPullTab;if(offset>0){updaters.setLaunchPadPullTabPosition(launchPadPullTabState.get().position-offset,launchPadPullTabState.get().offset+offset);}}}';
     tangon['code'] = option;
     var _closure1_slot16 = tangon;
     tangon = {};
@@ -458,19 +458,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = golfie.setLaunchPadPullTabMinimized;
                     report = false;
                     report = oscard.bind(golfie)(report);
-                    _fun00004_ip = 462; continue _fun00003;
+                    _fun00004_ip = 470; continue _fun00003;
  50:
                     report = null;
-                    if(!(report != michal)) { _fun00004_ip = 462; continue _fun00003 }
+                    if(!(report != michal)) { _fun00004_ip = 470; continue _fun00003 }
  59:
-                    if(!(zuuluu !== michal)) { _fun00004_ip = 462; continue _fun00003 }
+                    if(!(zuuluu !== michal)) { _fun00004_ip = 470; continue _fun00003 }
  66:
-                    if(!(!(zuuluu < michal))) { _fun00004_ip = 303; continue _fun00003 }
+                    if(!(!(zuuluu < michal))) { _fun00004_ip = 311; continue _fun00003 }
  73:
-                    option = _closure3_slot2;
-                    golfie = option.setLaunchPadPullTabMinimized;
-                    oscard = true;
-                    oscard = golfie.bind(option)(oscard);
+                    golfie = _closure3_slot2;
+                    oscard = golfie.setLaunchPadPullTabMinimized;
+                    yankee = true;
+                    oscard = oscard.bind(golfie)(yankee);
                     golfie = _closure3_slot4;
                     oscard = golfie.get;
                     oscard = oscard.bind(golfie)();
@@ -492,9 +492,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = 9;
                     verify = verify[option];
                     option = undefined;
-                    verify = offset.bind(option)(verify);
-                    option = verify.getWindowDimensionsWorklet;
-                    option = option.bind(verify)();
+                    offset = offset.bind(option)(verify);
+                    verify = offset.getWindowDimensionsWorklet;
+                    option = {};
+                    option['ignoreKeyboard'] = yankee;
+                    option = verify.bind(offset)(option);
                     option = option.height;
                     offset = _closure3_slot1;
                     verify = offset.get;
@@ -506,12 +508,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = verify + oscard;
                     oscard = option - oscard;
                     offset = 0;
-                    if(!(!(oscard > golfie))) { _fun00004_ip = 234; continue _fun00003 }
- 230:
+                    if(!(!(oscard > golfie))) { _fun00004_ip = 242; continue _fun00003 }
+ 238:
                     offset = golfie - oscard;
- 234:
-                    if(!(offset > tangon)) { _fun00004_ip = 462; continue _fun00003 }
- 241:
+ 242:
+                    if(!(offset > tangon)) { _fun00004_ip = 470; continue _fun00003 }
+ 249:
                     verify = _closure3_slot2;
                     option = verify.setLaunchPadPullTabPosition;
                     yankee = _closure3_slot1;
@@ -524,31 +526,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = oscard.offset;
                     oscard = oscard + offset;
                     oscard = option.bind(verify)(golfie, oscard);
-                    _fun00004_ip = 462; continue _fun00003;
- 303:
-                    if(!(tangon === zuuluu)) { _fun00004_ip = 324; continue _fun00003 }
- 307:
+                    _fun00004_ip = 470; continue _fun00003;
+ 311:
+                    if(!(tangon === zuuluu)) { _fun00004_ip = 332; continue _fun00003 }
+ 315:
                     golfie = _closure3_slot2;
                     oscard = golfie.setLaunchPadPullTabMinimized;
                     tangon = false;
                     tangon = oscard.bind(golfie)(tangon);
- 324:
+ 332:
                     oscard = _closure3_slot4;
                     tangon = oscard.get;
                     tangon = tangon.bind(oscard)();
-                    if(!(report == tangon)) { _fun00004_ip = 355; continue _fun00003 }
- 341:
+                    if(!(report == tangon)) { _fun00004_ip = 363; continue _fun00003 }
+ 349:
                     oscard = _closure3_slot4;
                     tangon = oscard.set;
                     tangon = tangon.bind(oscard)(michal);
- 355:
+ 363:
                     oscard = _closure3_slot4;
                     tangon = oscard.get;
                     tangon = tangon.bind(oscard)();
-                    if(!(report != tangon)) { _fun00004_ip = 375; continue _fun00003 }
- 372:
+                    if(!(report != tangon)) { _fun00004_ip = 383; continue _fun00003 }
+ 380:
                     michal = tangon;
- 375:
+ 383:
                     zuuluu = zuuluu / michal;
                     michal = 1;
                     zuuluu = michal - zuuluu;
@@ -568,7 +570,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = entity.offset;
                     entity = entity - report;
                     entity = zuuluu.bind(tangon)(michal, entity);
- 462:
+ 470:
                     entity = undefined;
                     return entity;
                 }
@@ -592,7 +594,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = _closure1_slot10;
             golfie['LAUNCH_PAD_PULL_TAB_SCALE_OFFSET'] = option;
             michal['__closure'] = golfie;
-            golfie = 8058975008670.0;
+            golfie = 8060927175361.0;
             michal['__workletHash'] = golfie;
             oscard = _closure1_slot16;
             michal['__initData'] = oscard;

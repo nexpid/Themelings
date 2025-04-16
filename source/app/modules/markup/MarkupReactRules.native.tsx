@@ -198,17 +198,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = _closure2_slot0;
-                    zuuluu = entity.userId;
+                    tangon = entity.userId;
                     entity = null;
-                    if(!(entity == zuuluu)) { _fun00008_ip = 213; continue _fun00007 }
+                    if(!(entity == tangon)) { _fun00008_ip = 213; continue _fun00007 }
  21:
                     michal = _closure1_slot1;
                     offset = _closure1_slot2;
                     entity = 12;
                     entity = offset[entity];
                     verify = undefined;
-                    tangon = michal.bind(verify)(entity);
-                    michal = tangon.show;
+                    zuuluu = michal.bind(verify)(entity);
+                    michal = zuuluu.show;
                     entity = {};
                     option = _closure1_slot0;
                     report = 13;
@@ -242,18 +242,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = report.BddRzc;
                     report = oscard.bind(golfie)(report);
                     entity['confirmText'] = report;
-                    entity = michal.bind(tangon)(entity);
-                    _fun00008_ip = 249; continue _fun00007;
+                    entity = michal.bind(zuuluu)(entity);
+                    _fun00008_ip = 256; continue _fun00007;
  213:
-                    tangon = _closure1_slot1;
+                    zuuluu = _closure1_slot1;
                     michal = _closure1_slot2;
                     entity = 11;
                     michal = michal[entity];
                     entity = undefined;
-                    michal = tangon.bind(entity)(michal);
-                    entity = michal.openPrivateChannel;
-                    entity = entity.bind(michal)(zuuluu);
- 249:
+                    zuuluu = zuuluu.bind(entity)(michal);
+                    michal = zuuluu.openPrivateChannel;
+                    entity = {};
+                    entity['recipientIds'] = tangon;
+                    entity = michal.bind(zuuluu)(entity);
+ 256:
                     entity = undefined;
                     return entity;
                 }

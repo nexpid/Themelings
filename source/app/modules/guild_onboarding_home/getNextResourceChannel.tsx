@@ -55,10 +55,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = tangon % michal;
             michal = zuuluu[michal];
             entity[1] = michal;
-            _fun00002_ip = 100; continue _fun00001;
+            _fun00002_ip = 102; continue _fun00001;
  92:
             entity = [null, null];
- 100:
+ 102:
             return entity;
         }
     };
@@ -126,10 +126,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal[1] = zuuluu;
             entity = michal;
  189:
-            _fun00004_ip = 199; continue _fun00003;
+            _fun00004_ip = 201; continue _fun00003;
  191:
             entity = [null, null];
- 199:
+ 201:
             return entity;
         }
     };

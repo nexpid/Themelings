@@ -120,8 +120,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = sizing.id;
             entity['userId'] = report;
             entity['guildId'] = kiloes;
-            report = 'user-profile-moderator-actions';
-            entity['surface'] = report;
             entity = tangon.bind(oscard)(entity);
             backup = entity.voiceState;
             var _closure2_slot5 = backup;
@@ -299,22 +297,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.bind(oscard)(verify);
             verify = sizing.id;
             kiloes = offset.bind(oscard)(kiloes, verify);
-            if(!config) { _fun00002_ip = 440; continue _fun00001 }
- 437:
+            if(!config) { _fun00002_ip = 429; continue _fun00001 }
+ 426:
             config = report;
- 440:
-            if(!config) { _fun00002_ip = 446; continue _fun00001 }
- 443:
+ 429:
+            if(!config) { _fun00002_ip = 435; continue _fun00001 }
+ 432:
             config = zuuluu;
- 446:
-            if(config) { _fun00002_ip = 452; continue _fun00001 }
- 449:
+ 435:
+            if(config) { _fun00002_ip = 441; continue _fun00001 }
+ 438:
             config = tangon;
- 452:
-            if(config) { _fun00002_ip = 458; continue _fun00001 }
- 455:
+ 441:
+            if(config) { _fun00002_ip = 447; continue _fun00001 }
+ 444:
             config = entity;
- 458:
+ 447:
             tangon = _closure1_slot1;
             entity = _closure1_slot3;
             papara = 17;
@@ -324,34 +322,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             result = entity == whisks;
             tangon = undefined;
-            if(result) { _fun00002_ip = 499; continue _fun00001 }
- 494:
+            if(result) { _fun00002_ip = 488; continue _fun00001 }
+ 483:
             tangon = whisks.id;
- 499:
+ 488:
             sequen = offset.bind(oscard)(verify, tangon);
             offset = entity != whisks;
-            if(!offset) { _fun00002_ip = 530; continue _fun00001 }
- 512:
+            if(!offset) { _fun00002_ip = 519; continue _fun00001 }
+ 501:
             verify = entity == backup;
             tangon = undefined;
-            if(verify) { _fun00002_ip = 526; continue _fun00001 }
- 521:
+            if(verify) { _fun00002_ip = 515; continue _fun00001 }
+ 510:
             tangon = backup.channelId;
- 526:
+ 515:
             offset = entity != tangon;
- 530:
+ 519:
             target = entity != whisks;
-            if(!target) { _fun00002_ip = 547; continue _fun00001 }
- 537:
+            if(!target) { _fun00002_ip = 536; continue _fun00001 }
+ 526:
             tangon = whisks.isGuildStageVoice;
             target = tangon.bind(whisks)();
- 547:
+ 536:
             result = entity != whisks;
-            if(!result) { _fun00002_ip = 596; continue _fun00001 }
- 554:
+            if(!result) { _fun00002_ip = 585; continue _fun00001 }
+ 543:
             tangon = !target;
-            if(tangon) { _fun00002_ip = 593; continue _fun00001 }
- 560:
+            if(tangon) { _fun00002_ip = 582; continue _fun00001 }
+ 549:
             status = _closure1_slot0;
             verify = _closure1_slot3;
             verify = verify[papara];
@@ -359,9 +357,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.RequestToSpeakStates;
             verify = verify.ON_STAGE;
             tangon = sequen === verify;
- 593:
+ 582:
             result = tangon;
- 596:
+ 585:
             status = _closure1_slot0;
             verify = _closure1_slot3;
             tangon = verify[sierra];
@@ -462,22 +460,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             verify = sierra.bind(limora)(status, verify);
             _closure2_slot11 = verify;
-            if(!(entity != ctrled)) { _fun00002_ip = 3470; continue _fun00001 }
- 694:
-            if(!(entity != source)) { _fun00002_ip = 3470; continue _fun00001 }
- 701:
+            if(!(entity != ctrled)) { _fun00002_ip = 3459; continue _fun00001 }
+ 683:
+            if(!(entity != source)) { _fun00002_ip = 3459; continue _fun00001 }
+ 690:
             verify = new Array(0);
             status = target;
-            if(!status) { _fun00002_ip = 714; continue _fun00001 }
- 711:
+            if(!status) { _fun00002_ip = 703; continue _fun00001 }
+ 700:
             status = cntext;
- 714:
-            if(!status) { _fun00002_ip = 720; continue _fun00001 }
- 717:
+ 703:
+            if(!status) { _fun00002_ip = 709; continue _fun00001 }
+ 706:
             status = tangon;
- 720:
-            if(!status) { _fun00002_ip = 956; continue _fun00001 }
- 726:
+ 709:
+            if(!status) { _fun00002_ip = 945; continue _fun00001 }
+ 715:
             sierra = verify.push;
             quebec = _closure1_slot13;
             limora = _closure1_slot0;
@@ -489,8 +487,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora = {};
             variable36 = sizing.id;
             status = golfie.id;
-            if(!(variable36 !== status)) { _fun00002_ip = 836; continue _fun00001 }
- 777:
+            if(!(variable36 !== status)) { _fun00002_ip = 825; continue _fun00001 }
+ 766:
             variable38 = _closure1_slot0;
             variable39 = _closure1_slot3;
             status = 20;
@@ -503,8 +501,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = status.t;
             status = status.r23NoK;
             status = variable36.bind(variable37)(status);
-            _fun00002_ip = 893; continue _fun00001;
- 836:
+            _fun00002_ip = 882; continue _fun00001;
+ 825:
             variable39 = _closure1_slot0;
             variable40 = _closure1_slot3;
             variable36 = 20;
@@ -517,7 +515,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable36 = variable36.t;
             variable36 = variable36.6C6PJy;
             status = variable37.bind(variable38)(variable36);
- 893:
+ 882:
             limora['label'] = status;
             variable36 = _closure1_slot0;
             variable37 = _closure1_slot3;
@@ -554,13 +552,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = 'remove-from-stage';
             status = quebec.bind(oscard)(equals, limora, status);
             status = sierra.bind(verify)(status);
- 956:
-            if(!target) { _fun00002_ip = 1233; continue _fun00001 }
- 962:
-            if(!cntext) { _fun00002_ip = 1233; continue _fun00001 }
- 968:
-            if(tangon) { _fun00002_ip = 1233; continue _fun00001 }
- 974:
+ 945:
+            if(!target) { _fun00002_ip = 1222; continue _fun00001 }
+ 951:
+            if(!cntext) { _fun00002_ip = 1222; continue _fun00001 }
+ 957:
+            if(tangon) { _fun00002_ip = 1222; continue _fun00001 }
+ 963:
             cntext = _closure1_slot0;
             tangon = _closure1_slot3;
             tangon = tangon[papara];
@@ -578,15 +576,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = sequen[variable36];
             sequen = target.bind(oscard)(sequen);
             sequen = sequen.t;
-            if(tangon) { _fun00002_ip = 1069; continue _fun00001 }
- 1054:
+            if(tangon) { _fun00002_ip = 1058; continue _fun00001 }
+ 1043:
             target = sequen.VUCWcH;
             status = cntext.bind(papara)(target);
-            _fun00002_ip = 1082; continue _fun00001;
- 1069:
+            _fun00002_ip = 1071; continue _fun00001;
+ 1058:
             sequen = sequen.tHj7TU;
             status = cntext.bind(papara)(sequen);
- 1082:
+ 1071:
             sequen = verify.push;
             target = _closure1_slot13;
             limora = _closure1_slot0;
@@ -601,8 +599,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sierra = limora.bind(oscard)(sierra);
             sierra = sierra.MicrophoneArrowRightIcon;
             cntext['icon'] = sierra;
-            if(!record) { _fun00002_ip = 1196; continue _fun00001 }
- 1144:
+            if(!record) { _fun00002_ip = 1185; continue _fun00001 }
+ 1133:
             quebec = _closure1_slot0;
             sierra = _closure1_slot3;
             limora = sierra[variable36];
@@ -614,7 +612,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sierra = sierra.t;
             sierra = sierra.8Joh+v;
             status = limora.bind(equals)(sierra);
- 1196:
+ 1185:
             cntext['label'] = status;
             cntext['disabled'] = tangon;
             tangon = function() { // Original name: onPress
@@ -660,14 +658,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = 'invite-to-speak';
             tangon = target.bind(oscard)(papara, cntext, tangon);
             tangon = sequen.bind(verify)(tangon);
- 1233:
+ 1222:
             tangon = offset;
-            if(!offset) { _fun00002_ip = 1242; continue _fun00001 }
- 1239:
+            if(!offset) { _fun00002_ip = 1231; continue _fun00001 }
+ 1228:
             tangon = romeon;
- 1242:
-            if(!tangon) { _fun00002_ip = 1463; continue _fun00001 }
- 1248:
+ 1231:
+            if(!tangon) { _fun00002_ip = 1452; continue _fun00001 }
+ 1237:
             sequen = verify.push;
             target = _closure1_slot13;
             status = _closure1_slot0;
@@ -778,28 +776,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = 'move-to-channel';
             tangon = target.bind(oscard)(papara, cntext, tangon);
             tangon = sequen.bind(verify)(tangon);
- 1463:
+ 1452:
             tangon = report;
-            if(tangon) { _fun00002_ip = 1472; continue _fun00001 }
- 1469:
+            if(tangon) { _fun00002_ip = 1461; continue _fun00001 }
+ 1458:
             tangon = zuuluu;
- 1472:
-            if(tangon) { _fun00002_ip = 1478; continue _fun00001 }
- 1475:
+ 1461:
+            if(tangon) { _fun00002_ip = 1467; continue _fun00001 }
+ 1464:
             tangon = vacuum;
- 1478:
-            if(tangon) { _fun00002_ip = 1484; continue _fun00001 }
- 1481:
+ 1467:
+            if(tangon) { _fun00002_ip = 1473; continue _fun00001 }
+ 1470:
             tangon = update;
- 1484:
-            if(!tangon) { _fun00002_ip = 1500; continue _fun00001 }
- 1487:
+ 1473:
+            if(!tangon) { _fun00002_ip = 1489; continue _fun00001 }
+ 1476:
             update = sizing.isNonUserBot;
             update = update.bind(sizing)();
             tangon = !update;
- 1500:
-            if(!tangon) { _fun00002_ip = 1643; continue _fun00001 }
- 1506:
+ 1489:
+            if(!tangon) { _fun00002_ip = 1632; continue _fun00001 }
+ 1495:
             update = verify.push;
             cntext = _closure1_slot13;
             papara = _closure1_slot0;
@@ -888,7 +886,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = 'manage';
             tangon = cntext.bind(oscard)(sequen, vacuum, tangon);
             tangon = update.bind(verify)(tangon);
- 1643:
+ 1632:
             vacuum = ctrled.hasFeature;
             tangon = _closure1_slot10;
             update = tangon.COMMUNITY;
@@ -906,33 +904,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = entity != update;
             tangon = 0;
             ctrled = 0;
-            if(!target) { _fun00002_ip = 1726; continue _fun00001 }
- 1723:
+            if(!target) { _fun00002_ip = 1715; continue _fun00001 }
+ 1712:
             ctrled = update;
- 1726:
+ 1715:
             update = _closure1_slot12;
             update = update.BYPASSES_VERIFICATION;
             ctrled = cntext.bind(papara)(ctrled, update);
             update = !record;
             cntext = update;
-            if(record) { _fun00002_ip = 1754; continue _fun00001 }
- 1751:
+            if(record) { _fun00002_ip = 1743; continue _fun00001 }
+ 1740:
             cntext = config;
- 1754:
-            if(!cntext) { _fun00002_ip = 1760; continue _fun00001 }
- 1757:
+ 1743:
+            if(!cntext) { _fun00002_ip = 1749; continue _fun00001 }
+ 1746:
             cntext = sequen;
- 1760:
-            if(!cntext) { _fun00002_ip = 1766; continue _fun00001 }
- 1763:
+ 1749:
+            if(!cntext) { _fun00002_ip = 1755; continue _fun00001 }
+ 1752:
             cntext = vacuum;
- 1766:
-            if(!cntext) { _fun00002_ip = 1772; continue _fun00001 }
- 1769:
+ 1755:
+            if(!cntext) { _fun00002_ip = 1761; continue _fun00001 }
+ 1758:
             cntext = ctrled;
- 1772:
-            if(!cntext) { _fun00002_ip = 1919; continue _fun00001 }
- 1778:
+ 1761:
+            if(!cntext) { _fun00002_ip = 1908; continue _fun00001 }
+ 1767:
             papara = verify.push;
             sierra = _closure1_slot13;
             limora = _closure1_slot0;
@@ -1003,25 +1001,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = 'unverify';
             cntext = sierra.bind(oscard)(status, target, cntext);
             cntext = papara.bind(verify)(cntext);
- 1919:
-            if(record) { _fun00002_ip = 1925; continue _fun00001 }
- 1922:
+ 1908:
+            if(record) { _fun00002_ip = 1914; continue _fun00001 }
+ 1911:
             update = config;
- 1925:
-            if(!update) { _fun00002_ip = 1931; continue _fun00001 }
- 1928:
+ 1914:
+            if(!update) { _fun00002_ip = 1920; continue _fun00001 }
+ 1917:
             update = sequen;
- 1931:
-            if(!update) { _fun00002_ip = 1937; continue _fun00001 }
- 1934:
+ 1920:
+            if(!update) { _fun00002_ip = 1926; continue _fun00001 }
+ 1923:
             update = vacuum;
- 1937:
-            if(!update) { _fun00002_ip = 1943; continue _fun00001 }
- 1940:
+ 1926:
+            if(!update) { _fun00002_ip = 1932; continue _fun00001 }
+ 1929:
             update = !ctrled;
- 1943:
-            if(!update) { _fun00002_ip = 2088; continue _fun00001 }
- 1949:
+ 1932:
+            if(!update) { _fun00002_ip = 2077; continue _fun00001 }
+ 1938:
             ctrled = verify.push;
             config = _closure1_slot13;
             record = _closure1_slot0;
@@ -1092,9 +1090,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = 'verify';
             update = config.bind(oscard)(sequen, vacuum, update);
             update = ctrled.bind(verify)(update);
- 2088:
-            if(!kiloes) { _fun00002_ip = 2292; continue _fun00001 }
- 2094:
+ 2077:
+            if(!kiloes) { _fun00002_ip = 2281; continue _fun00001 }
+ 2083:
             ctrled = _closure1_slot0;
             sequen = _closure1_slot3;
             kiloes = 35;
@@ -1120,15 +1118,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = papara[sequen];
             sequen = cntext.bind(oscard)(sequen);
             sequen = sequen.t;
-            if(kiloes) { _fun00002_ip = 2218; continue _fun00001 }
- 2205:
+            if(kiloes) { _fun00002_ip = 2207; continue _fun00001 }
+ 2194:
             kiloes = sequen.xpsADQ;
             kiloes = config.bind(record)(kiloes);
-            _fun00002_ip = 2229; continue _fun00001;
- 2218:
+            _fun00002_ip = 2218; continue _fun00001;
+ 2207:
             sequen = sequen.qXtNtb;
             kiloes = config.bind(record)(sequen);
- 2229:
+ 2218:
             source['label'] = kiloes;
             sequen = _closure1_slot0;
             config = _closure1_slot3;
@@ -1191,18 +1189,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = 'time-out';
             kiloes = vacuum.bind(oscard)(ctrled, source, kiloes);
             kiloes = update.bind(verify)(kiloes);
- 2292:
+ 2281:
             kiloes = offset;
-            if(!offset) { _fun00002_ip = 2301; continue _fun00001 }
- 2298:
+            if(!offset) { _fun00002_ip = 2290; continue _fun00001 }
+ 2287:
             kiloes = result;
- 2301:
-            if(!kiloes) { _fun00002_ip = 2307; continue _fun00001 }
- 2304:
+ 2290:
+            if(!kiloes) { _fun00002_ip = 2296; continue _fun00001 }
+ 2293:
             kiloes = echoed;
- 2307:
-            if(!kiloes) { _fun00002_ip = 2523; continue _fun00001 }
- 2313:
+ 2296:
+            if(!kiloes) { _fun00002_ip = 2512; continue _fun00001 }
+ 2302:
             echoed = verify.push;
             ctrled = _closure1_slot13;
             update = _closure1_slot0;
@@ -1223,32 +1221,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = cntext[vacuum];
             vacuum = record.bind(oscard)(vacuum);
             vacuum = vacuum.t;
-            if(kiloes) { _fun00002_ip = 2418; continue _fun00001 }
- 2403:
+            if(kiloes) { _fun00002_ip = 2407; continue _fun00001 }
+ 2392:
             kiloes = vacuum.e9e9UV;
             kiloes = sequen.bind(config)(kiloes);
-            _fun00002_ip = 2431; continue _fun00001;
- 2418:
+            _fun00002_ip = 2420; continue _fun00001;
+ 2407:
             vacuum = vacuum.wG9K2t;
             kiloes = sequen.bind(config)(vacuum);
- 2431:
+ 2420:
             update['label'] = kiloes;
             kiloes = backup.mute;
             sequen = _closure1_slot0;
             config = _closure1_slot3;
-            if(kiloes) { _fun00002_ip = 2472; continue _fun00001 }
- 2452:
+            if(kiloes) { _fun00002_ip = 2461; continue _fun00001 }
+ 2441:
             kiloes = 39;
             kiloes = config[kiloes];
             kiloes = sequen.bind(oscard)(kiloes);
             kiloes = kiloes.MicrophoneIcon;
-            _fun00002_ip = 2490; continue _fun00001;
- 2472:
+            _fun00002_ip = 2479; continue _fun00001;
+ 2461:
             vacuum = 38;
             vacuum = config[vacuum];
             vacuum = sequen.bind(oscard)(vacuum);
             kiloes = vacuum.MicrophoneSlashIcon;
- 2490:
+ 2479:
             update['icon'] = kiloes;
             kiloes = function() { // Original name: onPress
                 tangon = _closure2_slot3;
@@ -1277,18 +1275,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = 'server-mute';
             kiloes = ctrled.bind(oscard)(source, update, kiloes);
             kiloes = echoed.bind(verify)(kiloes);
- 2523:
+ 2512:
             kiloes = offset;
-            if(!offset) { _fun00002_ip = 2532; continue _fun00001 }
- 2529:
+            if(!offset) { _fun00002_ip = 2521; continue _fun00001 }
+ 2518:
             kiloes = result;
- 2532:
-            if(!kiloes) { _fun00002_ip = 2538; continue _fun00001 }
- 2535:
+ 2521:
+            if(!kiloes) { _fun00002_ip = 2527; continue _fun00001 }
+ 2524:
             kiloes = output;
- 2538:
-            if(!kiloes) { _fun00002_ip = 2752; continue _fun00001 }
- 2544:
+ 2527:
+            if(!kiloes) { _fun00002_ip = 2741; continue _fun00001 }
+ 2533:
             kiloes = verify.push;
             echoed = _closure1_slot13;
             result = _closure1_slot0;
@@ -1309,32 +1307,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = config[source];
             source = sequen.bind(oscard)(source);
             source = source.t;
-            if(update) { _fun00002_ip = 2649; continue _fun00001 }
- 2634:
+            if(update) { _fun00002_ip = 2638; continue _fun00001 }
+ 2623:
             update = source.hMA2GB;
             update = ctrled.bind(vacuum)(update);
-            _fun00002_ip = 2662; continue _fun00001;
- 2649:
+            _fun00002_ip = 2651; continue _fun00001;
+ 2638:
             source = source.Gbw4Z2;
             update = ctrled.bind(vacuum)(source);
- 2662:
+ 2651:
             output['label'] = update;
             backup = backup.deaf;
             source = _closure1_slot0;
             ctrled = _closure1_slot3;
-            if(backup) { _fun00002_ip = 2703; continue _fun00001 }
- 2683:
+            if(backup) { _fun00002_ip = 2692; continue _fun00001 }
+ 2672:
             backup = 41;
             backup = ctrled[backup];
             backup = source.bind(oscard)(backup);
             backup = backup.HeadphonesIcon;
-            _fun00002_ip = 2721; continue _fun00001;
- 2703:
+            _fun00002_ip = 2710; continue _fun00001;
+ 2692:
             update = 40;
             update = ctrled[update];
             update = source.bind(oscard)(update);
             backup = update.HeadphonesSlashIcon;
- 2721:
+ 2710:
             output['icon'] = backup;
             backup = function() { // Original name: onPress
                 tangon = _closure2_slot3;
@@ -1363,13 +1361,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = 'deafen';
             backup = echoed.bind(oscard)(result, output, backup);
             backup = kiloes.bind(verify)(backup);
- 2752:
-            if(!offset) { _fun00002_ip = 2758; continue _fun00001 }
- 2755:
+ 2741:
+            if(!offset) { _fun00002_ip = 2747; continue _fun00001 }
+ 2744:
             offset = romeon;
- 2758:
-            if(!offset) { _fun00002_ip = 2997; continue _fun00001 }
- 2764:
+ 2747:
+            if(!offset) { _fun00002_ip = 2986; continue _fun00001 }
+ 2753:
             offset = verify.push;
             kiloes = _closure1_slot13;
             backup = _closure1_slot0;
@@ -1381,8 +1379,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = {};
             sizing = sizing.id;
             golfie = golfie.id;
-            if(!(sizing !== golfie)) { _fun00002_ip = 2874; continue _fun00001 }
- 2815:
+            if(!(sizing !== golfie)) { _fun00002_ip = 2863; continue _fun00001 }
+ 2804:
             result = _closure1_slot0;
             echoed = _closure1_slot3;
             golfie = 20;
@@ -1395,8 +1393,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = golfie.t;
             golfie = golfie./jERiI;
             golfie = sizing.bind(output)(golfie);
-            _fun00002_ip = 2929; continue _fun00001;
- 2874:
+            _fun00002_ip = 2918; continue _fun00001;
+ 2863:
             echoed = _closure1_slot0;
             update = _closure1_slot3;
             sizing = 20;
@@ -1409,7 +1407,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = sizing.t;
             sizing = sizing.6vrfgo;
             golfie = output.bind(result)(sizing);
- 2929:
+ 2918:
             romeon['label'] = golfie;
             sizing = _closure1_slot0;
             output = _closure1_slot3;
@@ -1445,9 +1443,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = 'disconnect';
             golfie = kiloes.bind(oscard)(backup, romeon, golfie);
             golfie = offset.bind(verify)(golfie);
- 2997:
-            if(!report) { _fun00002_ip = 3149; continue _fun00001 }
- 3003:
+ 2986:
+            if(!report) { _fun00002_ip = 3138; continue _fun00001 }
+ 2992:
             golfie = verify.push;
             backup = _closure1_slot13;
             kiloes = _closure1_slot0;
@@ -1505,9 +1503,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = 'kick';
             report = backup.bind(oscard)(romeon, offset, report);
             report = golfie.bind(verify)(report);
- 3149:
-            if(!zuuluu) { _fun00002_ip = 3301; continue _fun00001 }
- 3155:
+ 3138:
+            if(!zuuluu) { _fun00002_ip = 3290; continue _fun00001 }
+ 3144:
             zuuluu = verify.push;
             offset = _closure1_slot13;
             backup = _closure1_slot0;
@@ -1563,11 +1561,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = 'ban';
             michal = offset.bind(oscard)(golfie, report, michal);
             michal = zuuluu.bind(verify)(michal);
- 3301:
+ 3290:
             zuuluu = verify.length;
             michal = null;
-            if(!(tangon !== zuuluu)) { _fun00002_ip = 3468; continue _fun00001 }
- 3315:
+            if(!(tangon !== zuuluu)) { _fun00002_ip = 3457; continue _fun00001 }
+ 3304:
             report = _closure1_slot13;
             tangon = _closure1_slot1;
             offset = _closure1_slot3;
@@ -1602,9 +1600,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = report.bind(oscard)(option, golfie);
             zuuluu['children'] = golfie;
             michal = report.bind(oscard)(tangon, zuuluu);
- 3468:
+ 3457:
             return michal;
- 3470:
+ 3459:
             return entity;
         }
     };

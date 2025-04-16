@@ -29,11 +29,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu = _closure1_slot0;
         michal = zuuluu.subscribe;
         entity = function(argFoo) {
-            zuuluu = _closure2_slot0;
             entity = argFoo;
-            michal = entity.windowDimensions;
+            tangon = _closure2_slot0;
+            zuuluu = entity.windowDimensions;
+            michal = entity.windowDimensionsIgnoringKeyboard;
             entity = undefined;
-            michal = zuuluu.bind(entity)(michal);
+            michal = tangon.bind(entity)(zuuluu, michal);
             return entity;
         };
         entity = michal.bind(zuuluu)(entity);

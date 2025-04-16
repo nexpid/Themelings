@@ -61,8 +61,14 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     zuuluu['DARWIN_SCKIT_SINGLE_TYPE_VERSION'] = report;
     report = '>=10.0.17763';
     zuuluu['WINDOWS_SOUNDSHARE_VERSION'] = report;
+    report = '>=10.0.26100';
+    zuuluu['WINDOWS_GRAPHICS_CAPTURE_NEW_APIS_SEMVER'] = report;
+    report = 26100;
+    zuuluu['WINDOWS_GRAPHICS_CAPTURE_NEW_APIS_BUILD'] = report;
     report = '>=10.0.22000';
-    zuuluu['WINDOWS_GRAPHICS_CAPTURE_VERSION'] = report;
+    zuuluu['WINDOWS_GRAPHICS_CAPTURE_SEMVER'] = report;
+    report = 22000;
+    zuuluu['WINDOWS_GRAPHICS_CAPTURE_BUILD'] = report;
     zuuluu['StreamTypes'] = tangon;
     zuuluu['STREAM_NOTIFY_GUILD_MAX_SIZE'] = michal;
     return entity;

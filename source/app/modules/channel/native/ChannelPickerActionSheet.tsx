@@ -183,13 +183,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  479:
             output = result;
  482:
-            verify['value'] = output;
+            verify['defaultValue'] = output;
             output = romeon == sizing;
             romeon = undefined;
-            if(output) { _fun00002_ip = 500; continue _fun00001 }
- 495:
+            if(output) { _fun00002_ip = 501; continue _fun00001 }
+ 496:
             romeon = sizing.title;
- 500:
+ 501:
             verify['accessibilityLabel'] = romeon;
             romeon = function(argFoo) { // Original name: onChange
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {

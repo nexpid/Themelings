@@ -318,7 +318,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = echoed + result;
             verify['title'] = result;
             result = foxtra.type;
-            verify['value'] = result;
+            verify['defaultValue'] = result;
             result = function(argFoo) { // Original name: onChange
                 zuuluu = _closure2_slot2;
                 michal = {};
@@ -385,10 +385,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = update.bind(source)(yankee);
             update = offset == yankee;
             offset = undefined;
-            if(update) { _fun00002_ip = 871; continue _fun00001 }
- 866:
+            if(update) { _fun00002_ip = 872; continue _fun00001 }
+ 867:
             offset = yankee.icon;
- 871:
+ 872:
             result['icon'] = offset;
             yankee = _closure1_slot7;
             offset = _closure1_slot0;

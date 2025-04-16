@@ -65,19 +65,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = entity.bind(report)(zuuluu);
                     if(!entity) { _fun00002_ip = 83; continue _fun00001 }
  42:
-                    report = _closure1_slot2;
-                    tangon = report.getSelfMember;
-                    zuuluu = zuuluu.id;
-                    tangon = tangon.bind(report)(zuuluu);
+                    oscard = _closure1_slot2;
+                    report = oscard.getSelfMember;
+                    tangon = zuuluu.id;
+                    oscard = report.bind(oscard)(tangon);
+                    report = null;
+                    golfie = report == oscard;
+                    tangon = undefined;
+                    if(golfie) { _fun00002_ip = 79; continue _fun00001 }
+ 73:
+                    tangon = oscard.joinedAt;
+ 79:
+                    entity = report != tangon;
+ 83:
+                    if(!entity) { _fun00002_ip = 112; continue _fun00001 }
+ 86:
+                    tangon = zuuluu.profile;
                     zuuluu = null;
                     report = zuuluu == tangon;
                     michal = undefined;
-                    if(report) { _fun00002_ip = 79; continue _fun00001 }
- 73:
-                    michal = tangon.joinedAt;
- 79:
+                    if(report) { _fun00002_ip = 108; continue _fun00001 }
+ 103:
+                    michal = tangon.tag;
+ 108:
                     entity = zuuluu != michal;
- 83:
+ 112:
                     return entity;
                 }
             };

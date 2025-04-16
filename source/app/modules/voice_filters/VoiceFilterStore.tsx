@@ -1,11 +1,11 @@
 // app/modules/voice_filters/VoiceFilterStore.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
+    oscard = argBar;
+    option = argBaz;
     zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = function() { // Original name: _isNativeReflectConstruct
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -38,13 +38,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot10 = michal;
+            _closure1_slot11 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot10 = entity;
+    var _closure1_slot11 = entity;
     entity = function(argFoo, argBar) { // Original name: _createForOfIteratorHelperLoose
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = undefined;
             if(!verify) { _fun00004_ip = 247; continue _fun00003 }
  234:
-            verify = _closure1_slot12;
+            verify = _closure1_slot13;
             golfie = verify.bind(option)(zuuluu, option);
  247:
             _fun00004_ip = 265; continue _fun00003;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie;
             _fun00004_ip = 283; continue _fun00003;
  270:
-            golfie = _closure1_slot12;
+            golfie = _closure1_slot13;
             oscard = golfie.bind(option)(zuuluu, option);
  283:
             tangon = oscard;
@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot11 = entity;
+    var _closure1_slot12 = entity;
     entity = function(argFoo, argBar) { // Original name: _arrayLikeToArray
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -220,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot13 = entity;
     entity = function(argFoo) { // Original name: getVoicePriority
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
@@ -240,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot13 = entity;
+    var _closure1_slot14 = entity;
     entity = function(argFoo) { // Original name: getCurrentTemporarilyAvailableVoices
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
@@ -311,7 +311,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot15 = entity;
     entity = function(argFoo) { // Original name: sortVoiceFilters
         michal = global;
         tangon = michal.Object;
@@ -320,7 +320,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = zuuluu.bind(tangon)(michal);
         zuuluu = tangon.sort;
         michal = function(argFoo, argBar) {
-            tangon = _closure1_slot13;
+            tangon = _closure1_slot14;
             entity = argFoo;
             report = 1;
             entity = entity[report];
@@ -358,27 +358,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    var _closure1_slot15 = entity;
-    verify = function() { // Original name: handleUpdateLimitedTimeVoices
-        report = _closure1_slot14;
-        entity = _closure1_slot9;
+    var _closure1_slot16 = entity;
+    offset = function() { // Original name: handleUpdateLimitedTimeVoices
+        report = _closure1_slot15;
+        entity = _closure1_slot10;
         tangon = entity.limitedTimeVoices;
         entity = undefined;
         tangon = report.bind(entity)(tangon);
         var _closure2_slot0 = tangon;
-        report = _closure1_slot9;
+        report = _closure1_slot10;
         tangon = tangon.catalogUpdateTime;
         report['catalogUpdateTime'] = tangon;
         tangon = global;
         oscard = tangon.Object;
         report = oscard.keys;
-        tangon = _closure1_slot9;
+        tangon = _closure1_slot10;
         tangon = tangon.voiceFilters;
         report = report.bind(oscard)(tangon);
         tangon = report.forEach;
         zuuluu = function(argFoo) {
             tangon = argFoo;
-            entity = _closure1_slot9;
+            entity = _closure1_slot10;
             entity = entity.voiceFilters;
             michal = entity[tangon];
             entity = _closure2_slot0;
@@ -390,86 +390,94 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         zuuluu = tangon.bind(report)(zuuluu);
-        zuuluu = _closure1_slot9;
-        tangon = _closure1_slot15;
+        zuuluu = _closure1_slot10;
+        tangon = _closure1_slot16;
         michal = zuuluu.voiceFilters;
         michal = tangon.bind(entity)(michal);
         zuuluu['sortedVoiceFilters'] = michal;
         return entity;
     };
-    var _closure1_slot16 = verify;
+    var _closure1_slot17 = offset;
     entity = global;
-    offset = entity.Object;
-    option = offset.defineProperty;
+    verify = entity.Object;
+    tangon = verify.defineProperty;
     michal = {};
     entity = true;
     michal['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(offset)(zuuluu, entity, michal);
+    entity = tangon.bind(verify)(zuuluu, entity, michal);
     entity = 0;
-    michal = oscard[entity];
+    michal = golfie[entity];
     entity = undefined;
-    michal = golfie.bind(entity)(michal);
+    michal = option.bind(entity)(michal);
     var _closure1_slot2 = michal;
     michal = 1;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
+    michal = golfie[michal];
+    michal = option.bind(entity)(michal);
     var _closure1_slot3 = michal;
     michal = 2;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
+    michal = golfie[michal];
+    michal = option.bind(entity)(michal);
     var _closure1_slot4 = michal;
     michal = 3;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
+    michal = golfie[michal];
+    michal = option.bind(entity)(michal);
     var _closure1_slot5 = michal;
     michal = 4;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
+    michal = golfie[michal];
+    michal = option.bind(entity)(michal);
     var _closure1_slot6 = michal;
     michal = 5;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
+    michal = golfie[michal];
+    michal = oscard.bind(entity)(michal);
     michal = michal.voiceFilterContent;
     var _closure1_slot7 = michal;
-    michal = 6;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    option = michal.Logger;
-    michal = option.prototype;
-    offset = Object.create(michal, {constructor: {value: option}});
-    michal = 'VoiceFilterStore';
-    backup = offset;
-    foxtra = michal;
-    option = new backup[option](foxtra, romeon);
-    option = option instanceof Object ? option : offset;
-    var _closure1_slot8 = option;
-    option = {};
-    offset = 7;
-    offset = oscard[offset];
-    offset = report.bind(entity)(offset);
-    offset = offset.VoiceFilterNativeModuleState;
-    offset = offset.UNINITIALIZED;
-    option['nativeVoiceFilterModuleState'] = offset;
-    offset = {};
-    option['models'] = offset;
-    offset = {};
-    option['voiceFilters'] = offset;
-    offset = {};
-    option['modelState'] = offset;
-    offset = new Array(0);
-    option['sortedVoiceFilters'] = offset;
-    offset = false;
-    option['catalogFetchFailed'] = offset;
-    option['catalogLastFetchTime'] = entity;
-    option['catalogUpdateTime'] = entity;
-    option['limitedTimeVoices'] = entity;
-    var _closure1_slot9 = option;
-    option = 9;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    offset = option.Store;
-    option = function(argFoo) {
+    michal = {};
+    tangon = 'ERROR_DOWNLOADING_DEPENDENCY';
+    michal['ERROR_DOWNLOADING_DEPENDENCY'] = tangon;
+    tangon = 'ERROR_ACTIVATING_VOICE_FILTER';
+    michal['ERROR_ACTIVATING_VOICE_FILTER'] = tangon;
+    var _closure1_slot8 = michal;
+    tangon = 6;
+    tangon = golfie[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    verify = tangon.Logger;
+    tangon = verify.prototype;
+    yankee = Object.create(tangon, {constructor: {value: verify}});
+    tangon = 'VoiceFilterStore';
+    kiloes = yankee;
+    backup = tangon;
+    verify = new kiloes[verify](backup, foxtra);
+    verify = verify instanceof Object ? verify : yankee;
+    var _closure1_slot9 = verify;
+    verify = {};
+    yankee = 7;
+    yankee = golfie[yankee];
+    yankee = oscard.bind(entity)(yankee);
+    yankee = yankee.VoiceFilterNativeModuleState;
+    yankee = yankee.UNINITIALIZED;
+    verify['nativeVoiceFilterModuleState'] = yankee;
+    yankee = {};
+    verify['models'] = yankee;
+    yankee = {};
+    verify['voiceFilters'] = yankee;
+    yankee = {};
+    verify['modelState'] = yankee;
+    yankee = new Array(0);
+    verify['sortedVoiceFilters'] = yankee;
+    yankee = false;
+    verify['catalogFetchFailed'] = yankee;
+    verify['catalogLastFetchTime'] = entity;
+    verify['catalogUpdateTime'] = entity;
+    verify['limitedTimeVoices'] = entity;
+    yankee = null;
+    verify['error'] = yankee;
+    var _closure1_slot10 = verify;
+    verify = 9;
+    verify = golfie[verify];
+    verify = option.bind(entity)(verify);
+    yankee = verify.Store;
+    verify = function(argFoo) {
         tangon = function() { // Original name: VoiceFilterStore
             _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
@@ -482,7 +490,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot5;
                 verify = entity.bind(zuuluu)(michal);
                 michal = _closure1_slot4;
-                entity = _closure1_slot10;
+                entity = _closure1_slot11;
                 entity = entity.bind(zuuluu)();
                 if(entity) { _fun00016_ip = 69; continue _fun00015 }
  51:
@@ -515,18 +523,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = 'getVoiceFilterModels';
         report['key'] = entity;
         entity = function() { // Original name: value
-            entity = _closure1_slot9;
+            entity = _closure1_slot10;
             entity = entity.models;
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(13);
+        entity = new Array(14);
         entity[0] = report;
         report = {};
         golfie = 'getVoiceFilters';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot9;
+            entity = _closure1_slot10;
             entity = entity.voiceFilters;
             return entity;
         };
@@ -536,7 +544,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getVoiceFilter';
         report['key'] = golfie;
         golfie = function(argFoo) { // Original name: value
-            entity = _closure1_slot9;
+            entity = _closure1_slot10;
             michal = entity.voiceFilters;
             entity = argFoo;
             entity = michal[entity];
@@ -548,7 +556,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getModelState';
         report['key'] = golfie;
         golfie = function(argFoo) { // Original name: value
-            entity = _closure1_slot9;
+            entity = _closure1_slot10;
             michal = entity.modelState;
             entity = argFoo;
             entity = michal[entity];
@@ -562,7 +570,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = function(argFoo) { // Original name: value
             _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
-                michal = _closure1_slot9;
+                michal = _closure1_slot10;
                 zuuluu = michal.modelState;
                 michal = argFoo;
                 zuuluu = zuuluu[michal];
@@ -591,11 +599,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getSortedVoiceFilters';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot9;
+            entity = _closure1_slot10;
             zuuluu = entity.sortedVoiceFilters;
             michal = zuuluu.map;
             entity = function(argFoo) {
-                entity = _closure1_slot9;
+                entity = _closure1_slot10;
                 michal = entity.voiceFilters;
                 entity = argFoo;
                 entity = michal[entity];
@@ -610,7 +618,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getCatalogLastFetchTime';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot9;
+            entity = _closure1_slot10;
             entity = entity.catalogLastFetchTime;
             return entity;
         };
@@ -620,7 +628,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getCatalogUpdateTime';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot9;
+            entity = _closure1_slot10;
             entity = entity.catalogUpdateTime;
             return entity;
         };
@@ -630,7 +638,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getLimitedTimeVoices';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot9;
+            entity = _closure1_slot10;
             entity = entity.limitedTimeVoices;
             return entity;
         };
@@ -640,7 +648,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'isNativeModuleLoaded';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            michal = _closure1_slot9;
+            michal = _closure1_slot10;
             michal = michal.nativeVoiceFilterModuleState;
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
@@ -659,7 +667,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'isNativeModuleLoading';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            michal = _closure1_slot9;
+            michal = _closure1_slot10;
             michal = michal.nativeVoiceFilterModuleState;
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
@@ -678,7 +686,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'hasNativeModuleFailed';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            michal = _closure1_slot9;
+            michal = _closure1_slot10;
             michal = michal.nativeVoiceFilterModuleState;
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
@@ -696,29 +704,39 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = {};
         golfie = 'getCatalogFetchFailed';
         report['key'] = golfie;
-        oscard = function() { // Original name: value
-            entity = _closure1_slot9;
+        golfie = function() { // Original name: value
+            entity = _closure1_slot10;
             entity = entity.catalogFetchFailed;
             return entity;
         };
-        report['value'] = oscard;
+        report['value'] = golfie;
         entity[12] = report;
+        report = {};
+        golfie = 'getError';
+        report['key'] = golfie;
+        oscard = function() { // Original name: value
+            entity = _closure1_slot10;
+            entity = entity.error;
+            return entity;
+        };
+        report['value'] = oscard;
+        entity[13] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
-    option = option.bind(entity)(offset);
-    option['displayName'] = michal;
-    michal = 10;
-    michal = oscard[michal];
-    foxtra = golfie.bind(entity)(michal);
-    michal = {};
-    offset = function(argFoo) { // Original name: handleVoiceFilterDownloadStarted
+    verify = verify.bind(entity)(yankee);
+    verify['displayName'] = tangon;
+    tangon = 10;
+    tangon = golfie[tangon];
+    backup = option.bind(entity)(tangon);
+    tangon = {};
+    yankee = function(argFoo) { // Original name: handleVoiceFilterDownloadStarted
         entity = argFoo;
         tangon = entity.modelId;
-        michal = _closure1_slot9;
+        michal = _closure1_slot10;
         zuuluu = michal.modelState;
         michal = {};
-        report = _closure1_slot9;
+        report = _closure1_slot10;
         report = report.modelState;
         golfie = report[tangon];
         option = michal;
@@ -739,16 +757,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu[tangon] = michal;
         return entity;
     };
-    michal['VOICE_FILTER_DOWNLOAD_STARTED'] = offset;
-    offset = function(argFoo) { // Original name: handleVoiceFilterDownloadProgress
+    tangon['VOICE_FILTER_DOWNLOAD_STARTED'] = yankee;
+    yankee = function(argFoo) { // Original name: handleVoiceFilterDownloadProgress
         entity = argFoo;
         zuuluu = entity.modelId;
         oscard = entity.downloadedBytes;
         report = entity.totalBytes;
-        entity = _closure1_slot9;
+        entity = _closure1_slot10;
         michal = entity.modelState;
         entity = {};
-        tangon = _closure1_slot9;
+        tangon = _closure1_slot10;
         tangon = tangon.modelState;
         golfie = tangon[zuuluu];
         option = entity;
@@ -761,61 +779,74 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    michal['VOICE_FILTER_DOWNLOAD_PROGRESS'] = offset;
-    offset = function(argFoo) { // Original name: handleVoiceFilterDownloadFailed
+    tangon['VOICE_FILTER_DOWNLOAD_PROGRESS'] = yankee;
+    yankee = function(argFoo) { // Original name: handleVoiceFilterDownloadFailed
         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             entity = argFoo;
-            tangon = entity.modelId;
-            entity = _closure1_slot9;
+            golfie = entity.modelId;
+            tangon = entity.error;
+            entity = _closure1_slot10;
             entity = entity.modelState;
-            michal = entity[tangon];
-            entity = null;
-            oscard = entity == michal;
+            report = entity[golfie];
+            zuuluu = null;
+            option = zuuluu == report;
             entity = undefined;
-            zuuluu = undefined;
-            if(oscard) { _fun00020_ip = 44; continue _fun00019 }
- 39:
-            zuuluu = michal.status;
+            oscard = undefined;
+            if(option) { _fun00020_ip = 49; continue _fun00019 }
  44:
-            oscard = _closure1_slot0;
-            michal = _closure1_slot1;
-            golfie = 7;
-            michal = michal[golfie];
-            michal = oscard.bind(entity)(michal);
-            michal = michal.VoiceFilterModelStatus;
-            michal = michal.DOWNLOADED;
-            if(!(zuuluu !== michal)) { _fun00020_ip = 155; continue _fun00019 }
- 80:
-            michal = _closure1_slot9;
-            zuuluu = michal.modelState;
-            michal = {};
-            oscard = _closure1_slot9;
-            oscard = oscard.modelState;
-            option = oscard[tangon];
-            verify = michal;
-            oscard = copyDataProperties(verify, option);
-            oscard = _closure1_slot0;
+            oscard = report.status;
+ 49:
+            option = _closure1_slot0;
             report = _closure1_slot1;
-            report = report[golfie];
-            report = oscard.bind(entity)(report);
+            offset = 7;
+            report = report[offset];
+            report = option.bind(entity)(report);
             report = report.VoiceFilterModelStatus;
-            oscard = report.MISSING;
-            report = 'status';
-            michal[report] = oscard;
-            zuuluu[tangon] = michal;
- 155:
+            report = report.DOWNLOADED;
+            if(!(oscard !== report)) { _fun00020_ip = 199; continue _fun00019 }
+ 85:
+            report = _closure1_slot10;
+            oscard = report.modelState;
+            report = {};
+            option = _closure1_slot10;
+            option = option.modelState;
+            yankee = option[golfie];
+            romeon = report;
+            option = copyDataProperties(romeon, yankee);
+            verify = _closure1_slot0;
+            option = _closure1_slot1;
+            option = option[offset];
+            option = verify.bind(entity)(option);
+            option = option.VoiceFilterModelStatus;
+            verify = option.MISSING;
+            option = 'status';
+            report[option] = verify;
+            oscard[golfie] = report;
+            if(!(zuuluu == tangon)) { _fun00020_ip = 166; continue _fun00019 }
+ 164:
+            tangon = {};
+ 166:
+            zuuluu = 'USER_CANCELED_DOWNLOAD';
+            zuuluu = zuuluu in tangon;
+            if(zuuluu) { _fun00020_ip = 199; continue _fun00019 }
+ 179:
+            zuuluu = _closure1_slot10;
+            michal = _closure1_slot8;
+            michal = michal.ERROR_DOWNLOADING_DEPENDENCY;
+            zuuluu['error'] = michal;
+ 199:
             return entity;
         }
     };
-    michal['VOICE_FILTER_DOWNLOAD_FAILED'] = offset;
-    offset = function(argFoo) { // Original name: handleVoiceFilterFileReady
+    tangon['VOICE_FILTER_DOWNLOAD_FAILED'] = yankee;
+    yankee = function(argFoo) { // Original name: handleVoiceFilterFileReady
         entity = argFoo;
         tangon = entity.modelId;
-        michal = _closure1_slot9;
+        michal = _closure1_slot10;
         zuuluu = michal.modelState;
         michal = {};
-        report = _closure1_slot9;
+        report = _closure1_slot10;
         report = report.modelState;
         golfie = report[tangon];
         option = michal;
@@ -835,31 +866,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu[tangon] = michal;
         return entity;
     };
-    michal['VOICE_FILTER_FILE_READY'] = offset;
-    offset = function(argFoo) { // Original name: handleVoiceFilterCatalogFetch
+    tangon['VOICE_FILTER_FILE_READY'] = yankee;
+    yankee = function(argFoo) { // Original name: handleVoiceFilterCatalogFetch
         _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
             entity = argFoo;
             entity = entity.catalog;
-            tangon = _closure1_slot9;
+            tangon = _closure1_slot10;
             zuuluu = false;
             tangon['catalogFetchFailed'] = zuuluu;
-            tangon = _closure1_slot9;
+            tangon = _closure1_slot10;
             zuuluu = entity.models;
             tangon['models'] = zuuluu;
-            tangon = _closure1_slot9;
+            tangon = _closure1_slot10;
             zuuluu = entity.limited_time_voices;
             tangon['limitedTimeVoices'] = zuuluu;
             tangon = {};
-            report = _closure1_slot14;
-            zuuluu = _closure1_slot9;
+            report = _closure1_slot15;
+            zuuluu = _closure1_slot10;
             zuuluu = zuuluu.limitedTimeVoices;
             oscard = undefined;
             romeon = report.bind(oscard)(zuuluu);
-            report = _closure1_slot9;
+            report = _closure1_slot10;
             zuuluu = romeon.catalogUpdateTime;
             report['catalogUpdateTime'] = zuuluu;
-            zuuluu = _closure1_slot11;
+            zuuluu = _closure1_slot12;
             entity = entity.voices;
             yankee = zuuluu.bind(oscard)(entity);
             report = yankee.bind(oscard)();
@@ -900,14 +931,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = foxtra;
             if(!zuuluu) { _fun00022_ip = 146; continue _fun00021 }
  265:
-            zuuluu = _closure1_slot9;
+            zuuluu = _closure1_slot10;
             zuuluu['voiceFilters'] = tangon;
-            tangon = _closure1_slot9;
-            report = _closure1_slot15;
+            tangon = _closure1_slot10;
+            report = _closure1_slot16;
             zuuluu = tangon.voiceFilters;
             zuuluu = report.bind(oscard)(zuuluu);
             tangon['sortedVoiceFilters'] = zuuluu;
-            michal = _closure1_slot9;
+            michal = _closure1_slot10;
             entity = entity.Date;
             zuuluu = entity.prototype;
             zuuluu = Object.create(zuuluu, {constructor: {value: entity}});
@@ -919,17 +950,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    michal['VOICE_FILTER_CATALOG_FETCH_SUCCESS'] = offset;
-    offset = function() { // Original name: handleVoiceFilterCatalogFailure
-        michal = _closure1_slot9;
+    tangon['VOICE_FILTER_CATALOG_FETCH_SUCCESS'] = yankee;
+    yankee = function() { // Original name: handleVoiceFilterCatalogFailure
+        michal = _closure1_slot10;
         entity = true;
         michal['catalogFetchFailed'] = entity;
         entity = undefined;
         return entity;
     };
-    michal['VOICE_FILTER_CATALOG_FETCH_FAILED'] = offset;
-    michal['VOICE_FILTER_UPDATE_LIMITED_TIME_VOICES'] = verify;
-    verify = function(argFoo) { // Original name: handleDevToolsUpdateLimitedTimeVoices
+    tangon['VOICE_FILTER_CATALOG_FETCH_FAILED'] = yankee;
+    tangon['VOICE_FILTER_UPDATE_LIMITED_TIME_VOICES'] = offset;
+    offset = function(argFoo) { // Original name: handleDevToolsUpdateLimitedTimeVoices
         _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
             entity = argFoo;
@@ -949,28 +980,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = new yankee[zuuluu](offset);
             zuuluu = zuuluu instanceof Object ? zuuluu : option;
             golfie = tangon.bind(report)(zuuluu, golfie);
-            zuuluu = _closure1_slot9;
+            zuuluu = _closure1_slot10;
             tangon = zuuluu.limitedTimeVoices;
             zuuluu = null;
             if(!(zuuluu == tangon)) { _fun00024_ip = 114; continue _fun00023 }
  92:
-            report = _closure1_slot8;
+            report = _closure1_slot9;
             tangon = report.warn;
             zuuluu = 'No limited time voices available to update';
             zuuluu = tangon.bind(report)(zuuluu);
             _fun00024_ip = 232; continue _fun00023;
  114:
-            zuuluu = _closure1_slot9;
+            zuuluu = _closure1_slot10;
             tangon = zuuluu.limitedTimeVoices;
             zuuluu = golfie.toISOString;
             zuuluu = zuuluu.bind(golfie)();
             tangon['current_set_end'] = zuuluu;
-            zuuluu = _closure1_slot9;
+            zuuluu = _closure1_slot10;
             tangon = zuuluu.limitedTimeVoices;
             zuuluu = golfie.toISOString;
             zuuluu = zuuluu.bind(golfie)();
             tangon['next_set_start'] = zuuluu;
-            zuuluu = _closure1_slot9;
+            zuuluu = _closure1_slot10;
             tangon = zuuluu.limitedTimeVoices;
             report = _closure1_slot0;
             zuuluu = _closure1_slot1;
@@ -982,34 +1013,52 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = report.toISOString;
             zuuluu = zuuluu.bind(report)();
             tangon['next_set_end'] = zuuluu;
-            michal = _closure1_slot16;
+            michal = _closure1_slot17;
             michal = michal.bind(entity)();
  232:
             return entity;
         }
     };
-    michal['VOICE_FILTER_DEV_TOOLS_SET_UPDATE_TIME'] = verify;
-    tangon = function(argFoo) { // Original name: handleNativeModuleStateChange
-        michal = _closure1_slot9;
+    tangon['VOICE_FILTER_DEV_TOOLS_SET_UPDATE_TIME'] = offset;
+    offset = function(argFoo) { // Original name: handleNativeModuleStateChange
+        michal = _closure1_slot10;
         entity = argFoo;
         entity = entity.state;
         michal['nativeVoiceFilterModuleState'] = entity;
         entity = undefined;
         return entity;
     };
-    michal['VOICE_FILTER_NATIVE_MODULE_STATE_CHANGE'] = tangon;
-    tangon = option.prototype;
-    tangon = Object.create(tangon, {constructor: {value: option}});
-    backup = tangon;
-    romeon = michal;
-    michal = new backup[option](foxtra, romeon, yankee);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 11;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/voice_filters/VoiceFilterStore.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
+    tangon['VOICE_FILTER_NATIVE_MODULE_STATE_CHANGE'] = offset;
+    offset = function() { // Original name: handleVoiceFilterApplyFailed
+        michal = _closure1_slot10;
+        entity = _closure1_slot8;
+        entity = entity.ERROR_ACTIVATING_VOICE_FILTER;
+        michal['error'] = entity;
+        entity = undefined;
+        return entity;
+    };
+    tangon['VOICE_FILTER_APPLY_FAILED'] = offset;
+    report = function() { // Original name: handleVoiceFilterRequestSwitch
+        michal = _closure1_slot10;
+        entity = null;
+        michal['error'] = entity;
+        entity = undefined;
+        return entity;
+    };
+    tangon['VOICE_FILTER_REQUEST_SWITCH'] = report;
+    report = verify.prototype;
+    report = Object.create(report, {constructor: {value: verify}});
+    kiloes = report;
+    foxtra = tangon;
+    tangon = new kiloes[verify](backup, foxtra, romeon);
+    tangon = tangon instanceof Object ? tangon : report;
+    report = 11;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
+    report = 'modules/voice_filters/VoiceFilterStore.tsx';
+    report = oscard.bind(golfie)(report);
+    zuuluu['default'] = tangon;
+    zuuluu['VoiceFilterError'] = michal;
     return entity;
 })();

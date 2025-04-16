@@ -67,11 +67,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['default'] = tangon;
     michal = function() { // Original name: getWindowDimensions
-        michal = _closure1_slot0;
-        entity = michal.getState;
-        entity = entity.bind(michal)();
-        entity = entity.windowDimensions;
-        return entity;
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            entity = arguments[0];
+            michal = undefined;
+            if(!(entity === michal)) { _fun00004_ip = 16; continue _fun00003 }
+ 9:
+            entity = _closure1_slot1;
+ 16:
+            entity = entity.ignoreKeyboard;
+            if(!(entity === michal)) { _fun00004_ip = 28; continue _fun00003 }
+ 26:
+            entity = false;
+ 28:
+            zuuluu = _closure1_slot0;
+            michal = zuuluu.getState;
+            michal = michal.bind(zuuluu)();
+            if(entity) { _fun00004_ip = 56; continue _fun00003 }
+ 48:
+            entity = michal.windowDimensions;
+            _fun00004_ip = 62; continue _fun00003;
+ 56:
+            entity = michal.windowDimensionsIgnoringKeyboard;
+ 62:
+            return entity;
+        }
     };
     zuuluu['getWindowDimensions'] = michal;
     return entity;

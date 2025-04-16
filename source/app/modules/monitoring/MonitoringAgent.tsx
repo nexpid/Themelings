@@ -322,13 +322,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = michal._metrics;
                 zuuluu = zuuluu.length;
                 tangon = 0;
-                if(!(zuuluu > tangon)) { _fun00010_ip = 197; continue _fun00009 }
+                if(!(zuuluu > tangon)) { _fun00010_ip = 169; continue _fun00009 }
  29:
-                offset = michal._metrics;
+                verify = michal._metrics;
                 golfie = new Array(0);
-                yankee = golfie;
-                verify = 0;
-                zuuluu = arraySpread(yankee, offset, verify);
+                offset = golfie;
+                option = 0;
+                zuuluu = arraySpread(offset, verify, option);
                 var _closure3_slot1 = golfie;
                 report = _closure1_slot0;
                 tangon = _closure1_slot1;
@@ -344,14 +344,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu['url'] = oscard;
                 oscard = {};
                 oscard['metrics'] = golfie;
-                golfie = {};
-                option = global;
-                option = option.process;
-                option = option.env;
-                option = option.BUILT_AT;
-                golfie['built_at'] = option;
-                option = '3935';
-                golfie['build_number'] = option;
+                golfie = {'built_at': '1744780718870', 'build_number': '3939'};
                 oscard['client_info'] = golfie;
                 zuuluu['body'] = oscard;
                 oscard = 1;
@@ -388,7 +381,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     }
                 };
                 entity = zuuluu.bind(tangon)(entity);
- 197:
+ 169:
                 entity = new Array(0);
                 michal['_metrics'] = entity;
                 entity = undefined;

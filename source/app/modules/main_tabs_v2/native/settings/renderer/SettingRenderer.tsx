@@ -1304,7 +1304,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = report.TableRadioGroup;
             report = {};
             report['title'] = foxtra;
-            report['value'] = yankee;
+            report['defaultValue'] = yankee;
             report['onChange'] = romeon;
             romeon = false;
             report['hasIcons'] = romeon;
@@ -1354,8 +1354,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = verify.bind(tangon)(option, report, yankee);
             report = new Array(2);
             report[0] = option;
-            if(!oscard) { _fun00030_ip = 273; continue _fun00029 }
- 223:
+            if(!oscard) { _fun00030_ip = 274; continue _fun00029 }
+ 224:
             verify = _closure1_slot17;
             option = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -1366,7 +1366,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.radioSettingHighlight;
             golfie['style'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 273:
+ 274:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

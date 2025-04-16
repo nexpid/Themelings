@@ -39,24 +39,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
-                    michal = argFoo;
+                    golfie = argFoo;
                     oscard = argBar;
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 286; continue _fun00001 }
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(michal) { _fun00002_ip = 293; continue _fun00001 }
  16:
-                    zuuluu = null;
-                    if(!(zuuluu != oscard)) { _fun00002_ip = 250; continue _fun00001 }
+                    michal = null;
+                    if(!(michal != oscard)) { _fun00002_ip = 257; continue _fun00001 }
  25:
-                    if(!(zuuluu != michal)) { _fun00002_ip = 214; continue _fun00001 }
+                    if(!(michal != golfie)) { _fun00002_ip = 221; continue _fun00001 }
  32:
-                    report = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    tangon = 2;
-                    tangon = golfie[tangon];
+                    tangon = _closure1_slot1;
+                    report = _closure1_slot2;
+                    michal = 2;
+                    michal = report[michal];
                     option = undefined;
-                    report = report.bind(option)(tangon);
+                    report = tangon.bind(option)(michal);
                     tangon = report.openPrivateChannel;
-                    michal = michal.id;
+                    michal = {};
+                    golfie = golfie.id;
+                    michal['recipientIds'] = golfie;
                     report = tangon.bind(report)(michal);
                     tangon = report.then;
                     michal = function(argFoo) {
@@ -92,13 +94,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         }
                     };
                     michal = tangon.bind(report)(michal);
-                    SaveGenerator(address=96);
- 94:
+                    SaveGenerator(address=103);
+ 101:
                     return michal;
- 96:
+ 103:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 211; continue _fun00001 }
- 102:
+                    if(tangon) { _fun00002_ip = 218; continue _fun00001 }
+ 109:
                     report = _closure1_slot0;
                     offset = _closure1_slot2;
                     tangon = 4;
@@ -126,9 +128,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = zuuluu;
                     zuuluu = kiloes[oscard](backup, foxtra, romeon, yankee, offset);
                     return zuuluu;
- 211:
+ 218:
                     return michal;
- 214:
+ 221:
                     michal = global;
                     tangon = michal.Error;
                     michal = tangon.prototype;
@@ -138,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = new kiloes[tangon](backup, foxtra);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 250:
+ 257:
                     michal = global;
                     tangon = michal.Error;
                     michal = tangon.prototype;
@@ -148,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = new kiloes[tangon](backup, foxtra);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 286:
+ 293:
                     return entity;
                 }
             };

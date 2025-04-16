@@ -379,7 +379,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00018_ip = 756; continue _fun00017 }
+                    if(zuuluu) { _fun00018_ip = 788; continue _fun00017 }
  13:
                     oscard = michal.applicationId;
                     yankee = michal.location;
@@ -390,7 +390,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return tangon;
  35:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00018_ip = 753; continue _fun00017 }
+                    if(zuuluu) { _fun00018_ip = 785; continue _fun00017 }
  44:
                     option = _closure1_slot19;
                     golfie = option.getEmbeddedActivityDurationMs;
@@ -433,34 +433,43 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  193:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(golfie) { _fun00018_ip = 750; continue _fun00017 }
+                    if(golfie) { _fun00018_ip = 782; continue _fun00017 }
  202:
                     golfie = _closure1_slot27;
                     backup = golfie[oscard];
                     verify = _closure1_slot12;
                     option = verify.getChannel;
                     offset = _closure1_slot0;
-                    foxtra = _closure1_slot2;
-                    golfie = 20;
-                    golfie = foxtra[golfie];
+                    golfie = _closure1_slot2;
+                    kiloes = 20;
+                    golfie = golfie[kiloes];
                     offset = offset.bind(tangon)(golfie);
                     golfie = offset.getEmbeddedActivityLocationChannelId;
                     golfie = golfie.bind(offset)(yankee);
+                    if(!(sizing == golfie)) { _fun00018_ip = 282; continue _fun00017 }
+ 254:
+                    foxtra = _closure1_slot0;
+                    offset = _closure1_slot2;
+                    offset = offset[kiloes];
+                    foxtra = foxtra.bind(tangon)(offset);
+                    offset = foxtra.getEmbeddedActivityLocationStartingChannelId;
+                    golfie = offset.bind(foxtra)(yankee);
+ 282:
                     result = option.bind(verify)(golfie);
                     option = _closure1_slot15;
                     golfie = option.getCurrentUser;
                     source = golfie.bind(option)();
-                    if(!(sizing != backup)) { _fun00018_ip = 747; continue _fun00017 }
- 275:
-                    if(!(sizing != source)) { _fun00018_ip = 747; continue _fun00017 }
- 282:
+                    if(!(sizing != backup)) { _fun00018_ip = 779; continue _fun00017 }
+ 307:
+                    if(!(sizing != source)) { _fun00018_ip = 779; continue _fun00017 }
+ 314:
                     golfie = sizing == result;
                     kiloes = undefined;
-                    if(golfie) { _fun00018_ip = 301; continue _fun00017 }
- 291:
+                    if(golfie) { _fun00018_ip = 333; continue _fun00017 }
+ 323:
                     golfie = result.getGuildId;
                     kiloes = golfie.bind(result)();
- 301:
+ 333:
                     option = _closure1_slot19;
                     golfie = option.getShelfActivities;
                     foxtra = golfie.bind(option)(kiloes);
@@ -490,10 +499,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = {};
                     vacuum = sizing == result;
                     ctrled = undefined;
-                    if(vacuum) { _fun00018_ip = 432; continue _fun00017 }
- 427:
+                    if(vacuum) { _fun00018_ip = 464; continue _fun00017 }
+ 459:
                     ctrled = result.id;
- 432:
+ 464:
                     golfie['channel_id'] = ctrled;
                     golfie['guild_id'] = kiloes;
                     vacuum = backup.mediaSessionIds;
@@ -510,24 +519,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie['release_phase'] = echoed;
                     source = sizing == update;
                     echoed = undefined;
-                    if(source) { _fun00018_ip = 529; continue _fun00017 }
- 508:
+                    if(source) { _fun00018_ip = 561; continue _fun00017 }
+ 540:
                     update = update.activity;
                     source = sizing == update;
                     echoed = undefined;
-                    if(source) { _fun00018_ip = 529; continue _fun00017 }
- 523:
+                    if(source) { _fun00018_ip = 561; continue _fun00017 }
+ 555:
                     echoed = update.shelf_rank;
- 529:
+ 561:
                     golfie['shelf_rank'] = echoed;
                     echoed = backup.activityUserSessionId;
                     golfie['activity_user_session_id'] = echoed;
                     update = sizing == result;
                     echoed = undefined;
-                    if(update) { _fun00018_ip = 559; continue _fun00017 }
- 554:
+                    if(update) { _fun00018_ip = 591; continue _fun00017 }
+ 586:
                     echoed = result.type;
- 559:
+ 591:
                     golfie['channel_type'] = echoed;
                     echoed = backup.mediaSessionIds;
                     golfie['media_session_ids'] = echoed;
@@ -544,23 +553,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = {};
                     echoed = sizing == result;
                     output = undefined;
-                    if(echoed) { _fun00018_ip = 639; continue _fun00017 }
- 634:
+                    if(echoed) { _fun00018_ip = 671; continue _fun00017 }
+ 666:
                     output = result.id;
- 639:
+ 671:
                     golfie['channel_id'] = output;
                     golfie['guild_id'] = kiloes;
                     golfie['application_id'] = oscard;
                     kiloes = backup.launchId;
                     sizing = sizing != kiloes;
                     kiloes = undefined;
-                    if(!sizing) { _fun00018_ip = 684; continue _fun00017 }
- 667:
+                    if(!sizing) { _fun00018_ip = 716; continue _fun00017 }
+ 699:
                     output = backup.launchId;
                     sizing = new Array(1);
                     sizing[0] = output;
                     kiloes = sizing;
- 684:
+ 716:
                     golfie['instance_ids'] = kiloes;
                     kiloes = backup.mediaSessionIds;
                     golfie['media_session_ids'] = kiloes;
@@ -573,13 +582,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = verify.bind(offset)(option, golfie);
                     report = _closure1_slot27;
                     report = delete report[oscard];
- 747:
+ 779:
                     return tangon;
- 750:
+ 782:
                     return zuuluu;
- 753:
+ 785:
                     return michal;
- 756:
+ 788:
                     return entity;
                 }
             };

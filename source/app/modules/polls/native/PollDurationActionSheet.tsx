@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         verify = false;
         entity['hasIcons'] = verify;
         entity['onChange'] = golfie;
-        entity['value'] = oscard;
+        entity['defaultValue'] = oscard;
         oscard = global;
         golfie = oscard.Object;
         oscard = golfie.entries;

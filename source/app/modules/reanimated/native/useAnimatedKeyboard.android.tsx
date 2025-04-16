@@ -1,10 +1,59 @@
 // app/modules/reanimated/native/useAnimatedKeyboard.android.tsx
-export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscard;
+    entity = function(argFoo) { // Original name: getKeyboardHeight
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            michal = _closure1_slot0;
+            tangon = _closure1_slot1;
+            entity = 3;
+            entity = tangon[entity];
+            report = undefined;
+            michal = michal.bind(report)(entity);
+            entity = michal.getKeyboardType;
+            michal = entity.bind(michal)();
+            entity = _closure1_slot4;
+            entity = entity.SYSTEM;
+            if(!(michal !== entity)) { _fun00002_ip = 112; continue _fun00001 }
+ 49:
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot1;
+            entity = 5;
+            entity = oscard[entity];
+            michal = tangon.bind(report)(entity);
+            entity = michal.getCustomKeyboardHeight;
+            michal = entity.bind(michal)();
+            entity = 6;
+            entity = oscard[entity];
+            tangon = tangon.bind(report)(entity);
+            entity = tangon.getSafeAreaInsets;
+            entity = entity.bind(tangon)();
+            entity = entity.bottom;
+            entity = michal + entity;
+            _fun00002_ip = 153; continue _fun00001;
+ 112:
+            tangon = argFoo;
+            michal = 0;
+            if(!tangon) { _fun00002_ip = 150; continue _fun00001 }
+ 120:
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot1;
+            zuuluu = 4;
+            zuuluu = oscard[zuuluu];
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = tangon.getSystemKeyboardHeight;
+            michal = zuuluu.bind(tangon)();
+ 150:
+            entity = michal;
+ 153:
+            return entity;
+        }
+    };
+    var _closure1_slot6 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -32,40 +81,36 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     tangon = {};
     tangon['android_reportSystemKeyboardHeight'] = golfie;
     var _closure1_slot5 = tangon;
-    tangon = 5;
+    tangon = 8;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
     tangon = 'modules/reanimated/native/useAnimatedKeyboard.android.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function() { // Original name: useAnimatedKeyboard
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = arguments[0];
-            report = undefined;
-            if(!(entity === report)) { _fun00002_ip = 18; continue _fun00001 }
+            golfie = undefined;
+            if(!(entity === golfie)) { _fun00004_ip = 18; continue _fun00003 }
  11:
             entity = _closure1_slot5;
  18:
             oscard = entity.android_reportSystemKeyboardHeight;
+            if(!(oscard === golfie)) { _fun00004_ip = 30; continue _fun00003 }
+ 28:
+            oscard = true;
+ 30:
             var _closure2_slot0 = oscard;
-            var _closure2_slot1 = report;
+            var _closure2_slot1 = golfie;
             tangon = _closure1_slot0;
-            golfie = _closure1_slot1;
-            entity = 3;
-            entity = golfie[entity];
-            report = tangon.bind(report)(entity);
+            report = _closure1_slot1;
+            entity = 7;
+            entity = report[entity];
+            report = tangon.bind(golfie)(entity);
             tangon = report.useSharedValue;
-            entity = _closure1_slot3;
-            option = entity.keyboardType;
-            entity = _closure1_slot4;
-            golfie = entity.SYSTEM;
-            entity = 0;
-            if(!(option !== golfie)) { _fun00002_ip = 96; continue _fun00001 }
- 86:
-            golfie = _closure1_slot3;
-            entity = golfie.customKeyboardHeight;
- 96:
+            entity = _closure1_slot6;
+            entity = entity.bind(golfie)(oscard);
             entity = tangon.bind(report)(entity);
             _closure2_slot1 = entity;
             report = _closure1_slot2;
@@ -74,74 +119,19 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             zuuluu[0] = entity;
             zuuluu[1] = oscard;
             michal = function() {
-                tangon = function() { // Original name: handleStoreChange
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
- 0:
-                        zuuluu = _closure1_slot3;
-                        oscard = zuuluu.keyboardType;
-                        entity = zuuluu.keyboardOpen;
-                        report = zuuluu.customKeyboardHeight;
-                        tangon = zuuluu.keyboardHeight;
-                        zuuluu = _closure1_slot4;
-                        zuuluu = zuuluu.SYSTEM;
-                        if(!(oscard === zuuluu)) { _fun00004_ip = 48; continue _fun00003 }
- 45:
-                        if(entity) { _fun00004_ip = 107; continue _fun00003 }
- 48:
-                        entity = _closure1_slot4;
-                        entity = entity.SYSTEM;
-                        zuuluu = 0;
-                        if(!(oscard !== entity)) { _fun00004_ip = 105; continue _fun00003 }
- 64:
-                        golfie = _closure1_slot0;
-                        oscard = _closure1_slot1;
-                        entity = 4;
-                        oscard = oscard[entity];
-                        entity = undefined;
-                        oscard = golfie.bind(entity)(oscard);
-                        entity = oscard.getSafeAreaInsets;
-                        entity = entity.bind(oscard)();
-                        entity = entity.bottom;
-                        zuuluu = report + entity;
- 105:
-                        _fun00004_ip = 163; continue _fun00003;
- 107:
-                        report = _closure2_slot0;
-                        entity = 0;
-                        if(!report) { _fun00004_ip = 160; continue _fun00003 }
- 119:
-                        oscard = _closure1_slot0;
-                        report = _closure1_slot1;
-                        michal = 4;
-                        report = report[michal];
-                        michal = undefined;
-                        report = oscard.bind(michal)(report);
-                        michal = report.getSafeAreaInsets;
-                        michal = michal.bind(report)();
-                        michal = michal.bottom;
-                        entity = tangon + michal;
- 160:
-                        zuuluu = entity;
- 163:
-                        michal = _closure2_slot1;
-                        entity = michal.set;
-                        entity = entity.bind(michal)(zuuluu);
-                        entity = undefined;
-                        return entity;
-                    }
-                };
-                var _closure3_slot0 = tangon;
                 zuuluu = _closure1_slot3;
-                michal = zuuluu.addReactChangeListener;
-                michal = michal.bind(zuuluu)(tangon);
+                michal = undefined;
                 entity = function() {
-                    zuuluu = _closure1_slot3;
-                    michal = zuuluu.removeReactChangeListener;
-                    entity = _closure3_slot0;
-                    entity = michal.bind(zuuluu)(entity);
+                    tangon = _closure2_slot1;
+                    zuuluu = tangon.set;
+                    report = _closure1_slot6;
+                    michal = _closure2_slot0;
                     entity = undefined;
+                    michal = report.bind(entity)(michal);
+                    michal = zuuluu.bind(tangon)(michal);
                     return entity;
                 };
+                entity = zuuluu.bind(michal)(entity);
                 return entity;
             };
             michal = tangon.bind(report)(michal, zuuluu);

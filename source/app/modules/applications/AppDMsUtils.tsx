@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = argFoo;
                     option = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 769; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 771; continue _fun00001 }
  18:
                     romeon = tangon;
                     michal = option;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return tangon;
  163:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=12);
-                    if(foxtra) { _fun00002_ip = 754; continue _fun00001 }
+                    if(foxtra) { _fun00002_ip = 756; continue _fun00001 }
  172:
                     romeon = tangon;
                     foxtra = _closure1_slot5;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  203:
                     option = michal;
                     option = option.bind(zuuluu)(zuuluu);
-                    _fun00002_ip = 722; continue _fun00001;
+                    _fun00002_ip = 724; continue _fun00001;
  216:
                     kiloes = _closure1_slot6;
                     backup = kiloes.getDMFromUserId;
@@ -104,59 +104,58 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     sizing = output.bind(result)(sizing);
                     foxtra['isContextless'] = sizing;
                     foxtra = backup.bind(kiloes)(foxtra);
-                    backup = _closure1_slot1;
+                    output = _closure1_slot1;
                     result = _closure1_slot2;
-                    kiloes = 9;
-                    kiloes = result[kiloes];
-                    kiloes = backup.bind(zuuluu)(kiloes);
-                    if(foxtra) { _fun00002_ip = 408; continue _fun00001 }
+                    backup = 9;
+                    backup = result[backup];
+                    kiloes = output.bind(zuuluu)(backup);
+                    if(foxtra) { _fun00002_ip = 410; continue _fun00001 }
  335:
-                    output = kiloes.openPrivateChannel;
-                    foxtra = offset;
-                    foxtra = foxtra.id;
+                    backup = kiloes.openPrivateChannel;
+                    foxtra = {};
+                    sizing = offset;
+                    echoed = sizing.id;
                     sizing = new Array(1);
-                    sizing[0] = foxtra;
-                    foxtra = 10;
-                    foxtra = result[foxtra];
-                    foxtra = backup.bind(zuuluu)(foxtra);
-                    echoed = foxtra.APP_DMS_QUICK_LAUNCHER;
-                    vacuum = kiloes;
-                    ctrled = sizing;
-                    source = false;
-                    update = false;
-                    backup = vacuum[output](ctrled, source, update, echoed, result);
-                    SaveGenerator(address=393);
- 391:
-                    return backup;
+                    sizing[0] = echoed;
+                    foxtra['recipientIds'] = sizing;
+                    sizing = 10;
+                    sizing = result[sizing];
+                    sizing = output.bind(zuuluu)(sizing);
+                    sizing = sizing.APP_DMS_QUICK_LAUNCHER;
+                    foxtra['location'] = sizing;
+                    backup = backup.bind(kiloes)(foxtra);
+                    SaveGenerator(address=395);
  393:
+                    return backup;
+ 395:
                     ResumeGenerator(result_out_reg=13, return_bool_out_reg=12);
                     sizing = foxtra;
                     foxtra = backup;
-                    if(!sizing) { _fun00002_ip = 437; continue _fun00001 }
- 405: // try_end1
+                    if(!sizing) { _fun00002_ip = 439; continue _fun00001 }
+ 407: // try_end1
                     return backup;
- 408: // try_start_2
+ 410: // try_start_2
                     backup = kiloes.getOrEnsurePrivateChannel;
                     offset = offset.id;
                     offset = backup.bind(kiloes)(offset);
-                    SaveGenerator(address=428);
- 426:
-                    return offset;
+                    SaveGenerator(address=430);
  428:
+                    return offset;
+ 430:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=13);
                     foxtra = offset;
-                    if(backup) { _fun00002_ip = 442; continue _fun00001 }
- 437:
+                    if(backup) { _fun00002_ip = 444; continue _fun00001 }
+ 439:
                     yankee = foxtra;
- 440: // try_end2
-                    _fun00002_ip = 455; continue _fun00001;
- 442:
+ 442: // try_end2
+                    _fun00002_ip = 457; continue _fun00001;
+ 444:
                     return offset;
- 445: // catch_target1 // catch_target2
+ 447: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=9);
                     offset = michal;
                     offset = offset.bind(zuuluu)(zuuluu);
- 455:
+ 457:
                     foxtra = _closure1_slot1;
                     backup = _closure1_slot2;
                     offset = 11;
@@ -173,8 +172,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = yankee;
                     offset['channel_id'] = report;
                     offset = backup.bind(kiloes)(foxtra, offset);
-                    if(!(oscard != report)) { _fun00002_ip = 741; continue _fun00001 }
- 532: // try_start_3
+                    if(!(oscard != report)) { _fun00002_ip = 743; continue _fun00001 }
+ 534: // try_start_3
                     oscard = _closure1_slot1;
                     offset = _closure1_slot2;
                     report = 12;
@@ -184,17 +183,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = romeon;
                     report = report.id;
                     report = offset.bind(zuuluu)(oscard, report);
-                    SaveGenerator(address=573);
- 571:
-                    return report;
+                    SaveGenerator(address=575);
  573:
-                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 581; continue _fun00001 }
- 579: // try_end3
-                    _fun00002_ip = 621; continue _fun00001;
- 581:
                     return report;
- 584: // catch_target3
+ 575:
+                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
+                    if(oscard) { _fun00002_ip = 583; continue _fun00001 }
+ 581: // try_end3
+                    _fun00002_ip = 623; continue _fun00001;
+ 583:
+                    return report;
+ 586: // catch_target3
                     CatchBlockStart(arg_register=4);
                     oscard = report.message;
                     offset = _closure1_slot0;
@@ -203,8 +202,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = foxtra[report];
                     report = offset.bind(zuuluu)(report);
                     report = report.NO_PRIMARY_APP_COMMAND_ERROR;
-                    if(!(oscard !== report)) { _fun00002_ip = 728; continue _fun00001 }
- 621:
+                    if(!(oscard !== report)) { _fun00002_ip = 730; continue _fun00001 }
+ 623:
                     oscard = _closure1_slot1;
                     offset = _closure1_slot2;
                     report = 13;
@@ -230,34 +229,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     report['onExecutedCallback'] = golfie;
                     report = oscard.bind(zuuluu)(report);
-                    SaveGenerator(address=716);
- 714:
-                    return report;
+                    SaveGenerator(address=718);
  716:
+                    return report;
+ 718:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 725; continue _fun00001 }
- 722:
+                    if(oscard) { _fun00002_ip = 727; continue _fun00001 }
+ 724:
                     return zuuluu;
- 725:
+ 727:
                     return report;
- 728:
+ 730:
                     report = michal;
                     report = report.bind(zuuluu)(zuuluu);
                     report = undefined;
                     return report;
- 741:
+ 743:
                     report = michal;
                     report = report.bind(zuuluu)(zuuluu);
                     report = undefined;
                     return report;
- 754:
+ 756:
                     return tangon;
- 757: // catch_target0
+ 759: // catch_target0
                     CatchBlockStart(arg_register=3);
                     michal = michal.bind(zuuluu)(zuuluu);
                     michal = undefined;
                     return michal;
- 769:
+ 771:
                     return entity;
                 }
             };

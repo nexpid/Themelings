@@ -58,10 +58,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = undefined;
                 tangon = zuuluu.bind(entity)(michal);
                 zuuluu = tangon.openPrivateChannel;
-                michal = _closure2_slot0;
-                report = michal.id;
-                michal = new Array(1);
-                michal[0] = report;
+                michal = {};
+                report = _closure2_slot0;
+                oscard = report.id;
+                report = new Array(1);
+                report[0] = oscard;
+                michal['recipientIds'] = report;
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };

@@ -18,15 +18,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 452; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 459; continue _fun00001 }
  13:
-                    oscard = argFoo;
+                    offset = argFoo;
                     verify = undefined;
                     if(!(michal === verify)) { _fun00002_ip = 24; continue _fun00001 }
  22:
                     michal = true;
  24:
-                    golfie = michal;
+                    oscard = michal;
                     foxtra = arguments[2];
                     report = undefined;
                     SaveGenerator(address=36);
@@ -34,79 +34,81 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return verify;
  36:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 449; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 456; continue _fun00001 }
  45:
-                    offset = _closure1_slot4;
-                    option = offset.getDMFromUserId;
-                    tangon = oscard;
-                    tangon = option.bind(offset)(tangon);
+                    option = _closure1_slot4;
+                    golfie = option.getDMFromUserId;
+                    tangon = offset;
+                    tangon = golfie.bind(option)(tangon);
                     report = tangon;
-                    offset = null;
-                    if(!(offset != tangon)) { _fun00002_ip = 77; continue _fun00001 }
+                    option = null;
+                    if(!(option != tangon)) { _fun00002_ip = 77; continue _fun00001 }
  75:
                     _fun00002_ip = 127; continue _fun00001;
  77: // try_start_0
-                    option = _closure1_slot1;
+                    golfie = _closure1_slot1;
                     yankee = _closure1_slot2;
                     tangon = 4;
                     tangon = yankee[tangon];
-                    yankee = option.bind(verify)(tangon);
-                    option = yankee.getDMChannel;
-                    tangon = oscard;
-                    tangon = option.bind(yankee)(tangon);
+                    yankee = golfie.bind(verify)(tangon);
+                    golfie = yankee.getDMChannel;
+                    tangon = offset;
+                    tangon = golfie.bind(yankee)(tangon);
                     SaveGenerator(address=115);
  113:
                     return tangon;
  115:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=7);
-                    if(option) { _fun00002_ip = 361; continue _fun00001 }
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
+                    if(golfie) { _fun00002_ip = 368; continue _fun00001 }
  124:
                     report = tangon;
  127: // try_start_1 // try_end0
-                    option = report;
-                    if(!(offset != option)) { _fun00002_ip = 273; continue _fun00001 }
+                    golfie = report;
+                    if(!(option != golfie)) { _fun00002_ip = 280; continue _fun00001 }
  137:
-                    offset = _closure1_slot1;
+                    option = _closure1_slot1;
                     yankee = _closure1_slot2;
-                    option = 7;
-                    option = yankee[option];
-                    yankee = offset.bind(verify)(option);
-                    offset = yankee.sendStickers;
-                    option = report;
+                    golfie = 7;
+                    golfie = yankee[golfie];
+                    yankee = option.bind(verify)(golfie);
+                    option = yankee.sendStickers;
+                    golfie = report;
                     report = ['749054660769218631'];
-                    report = offset.bind(yankee)(option, report);
+                    report = option.bind(yankee)(golfie, report);
                     SaveGenerator(address=186);
  184:
                     return report;
  186:
-                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=7);
-                    if(option) { _fun00002_ip = 275; continue _fun00001 }
+                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
+                    if(golfie) { _fun00002_ip = 282; continue _fun00001 }
  192:
-                    offset = _closure1_slot1;
-                    yankee = _closure1_slot2;
-                    option = 8;
-                    option = yankee[option];
-                    romeon = offset.bind(verify)(option);
-                    yankee = romeon.track;
-                    option = _closure1_slot5;
-                    offset = option.WAVE_CTA_CLICKED;
-                    option = {};
-                    option['source'] = foxtra;
-                    option = yankee.bind(romeon)(offset, option);
-                    if(!golfie) { _fun00002_ip = 273; continue _fun00001 }
- 242:
                     option = _closure1_slot1;
-                    offset = _closure1_slot2;
-                    golfie = 4;
-                    golfie = offset[golfie];
-                    option = option.bind(verify)(golfie);
+                    yankee = _closure1_slot2;
+                    golfie = 8;
+                    golfie = yankee[golfie];
+                    romeon = option.bind(verify)(golfie);
+                    yankee = romeon.track;
+                    golfie = _closure1_slot5;
+                    option = golfie.WAVE_CTA_CLICKED;
+                    golfie = {};
+                    golfie['source'] = foxtra;
+                    golfie = yankee.bind(romeon)(option, golfie);
+                    if(!oscard) { _fun00002_ip = 280; continue _fun00001 }
+ 242:
+                    golfie = _closure1_slot1;
+                    option = _closure1_slot2;
+                    oscard = 4;
+                    oscard = option[oscard];
+                    option = golfie.bind(verify)(oscard);
                     golfie = option.openPrivateChannel;
+                    oscard = {};
+                    oscard['recipientIds'] = offset;
                     oscard = golfie.bind(option)(oscard);
- 273: // try_end1
-                    _fun00002_ip = 358; continue _fun00001;
- 275:
+ 280: // try_end1
+                    _fun00002_ip = 365; continue _fun00001;
+ 282:
                     return report;
- 278: // catch_target1
+ 285: // catch_target1
                     CatchBlockStart(arg_register=4);
                     yankee = _closure1_slot0;
                     romeon = _closure1_slot2;
@@ -125,11 +127,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = report.iufib2;
                     report = option.bind(offset)(report);
                     report = oscard.bind(golfie)(report);
- 358:
+ 365:
                     return verify;
- 361:
+ 368:
                     return tangon;
- 364: // catch_target0
+ 371: // catch_target0
                     CatchBlockStart(arg_register=3);
                     option = _closure1_slot0;
                     offset = _closure1_slot2;
@@ -150,9 +152,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = tangon.bind(report)(zuuluu);
                     zuuluu = undefined;
                     return zuuluu;
- 449:
+ 456:
                     return michal;
- 452:
+ 459:
                     return entity;
                 }
             };

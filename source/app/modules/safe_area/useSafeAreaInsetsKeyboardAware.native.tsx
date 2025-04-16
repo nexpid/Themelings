@@ -31,14 +31,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot5 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.KeyboardTypes;
-    var _closure1_slot7 = tangon;
-    tangon = 10;
+    var _closure1_slot6 = tangon;
+    tangon = 11;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -76,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot3 = tangon;
             verify = _closure1_slot1;
             yankee = _closure1_slot2;
-            golfie = 7;
+            golfie = 6;
             golfie = yankee[golfie];
             golfie = verify.bind(tangon)(golfie);
             golfie = golfie.bind(tangon)();
@@ -89,38 +85,48 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     golfie = _closure1_slot0;
                     option = _closure1_slot2;
-                    entity = 8;
+                    entity = 7;
                     entity = option[entity];
-                    oscard = undefined;
-                    tangon = golfie.bind(oscard)(entity);
+                    report = undefined;
+                    tangon = golfie.bind(report)(entity);
                     michal = tangon.getSystemKeyboardHeight;
                     entity = {};
-                    report = 9;
-                    report = option[report];
-                    oscard = golfie.bind(oscard)(report);
-                    report = oscard.isIOS;
-                    report = report.bind(oscard)();
-                    entity['excludeSafeAreaInsets'] = report;
+                    oscard = 8;
+                    oscard = option[oscard];
+                    golfie = golfie.bind(report)(oscard);
+                    oscard = golfie.isIOS;
+                    oscard = oscard.bind(golfie)();
+                    entity['excludeSafeAreaInsets'] = oscard;
                     entity = michal.bind(tangon)(entity);
-                    report = 0;
-                    if(!(report === entity)) { _fun00004_ip = 122; continue _fun00003 }
+                    oscard = 0;
+                    if(!(oscard === entity)) { _fun00004_ip = 162; continue _fun00003 }
  71:
+                    tangon = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    michal = 9;
+                    michal = golfie[michal];
+                    tangon = tangon.bind(report)(michal);
+                    michal = tangon.getKeyboardType;
+                    golfie = michal.bind(tangon)();
                     michal = _closure1_slot6;
-                    oscard = michal.keyboardType;
-                    michal = _closure1_slot7;
                     tangon = michal.SYSTEM;
                     michal = 0;
-                    if(!(oscard !== tangon)) { _fun00004_ip = 119; continue _fun00003 }
- 97:
+                    if(!(golfie !== tangon)) { _fun00004_ip = 159; continue _fun00003 }
+ 117:
                     tangon = _closure2_slot0;
                     michal = 0;
-                    if(!tangon) { _fun00004_ip = 119; continue _fun00003 }
- 109:
-                    zuuluu = _closure1_slot6;
-                    michal = zuuluu.customKeyboardHeight;
- 119:
+                    if(!tangon) { _fun00004_ip = 159; continue _fun00003 }
+ 129:
+                    tangon = _closure1_slot0;
+                    oscard = _closure1_slot2;
+                    zuuluu = 10;
+                    zuuluu = oscard[zuuluu];
+                    tangon = tangon.bind(report)(zuuluu);
+                    zuuluu = tangon.getCustomKeyboardHeight;
+                    michal = zuuluu.bind(tangon)();
+ 159:
                     entity = michal;
- 122:
+ 162:
                     return entity;
                 }
             };
@@ -145,7 +151,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = new Array(1);
             romeon[0] = yankee;
             yankee = function() {
-                tangon = function() { // Original name: maybeUpdateKeyboardHeight
+                zuuluu = _closure1_slot5;
+                michal = undefined;
+                entity = function() {
                     _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         zuuluu = _closure2_slot1;
@@ -163,21 +171,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     }
                 };
-                var _closure3_slot0 = tangon;
-                report = _closure1_slot5;
-                zuuluu = undefined;
-                zuuluu = report.bind(zuuluu)(tangon);
-                zuuluu = _closure1_slot6;
-                michal = zuuluu.addChangeListener;
-                michal = michal.bind(zuuluu)(tangon);
-                entity = function() {
-                    zuuluu = _closure1_slot6;
-                    michal = zuuluu.removeChangeListener;
-                    entity = _closure3_slot0;
-                    entity = michal.bind(zuuluu)(entity);
-                    entity = undefined;
-                    return entity;
-                };
+                entity = zuuluu.bind(michal)(entity);
                 return entity;
             };
             yankee = foxtra.bind(backup)(yankee, romeon);
@@ -188,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  236:
             backup = _closure1_slot0;
             kiloes = _closure1_slot2;
-            foxtra = 9;
+            foxtra = 8;
             foxtra = kiloes[foxtra];
             backup = backup.bind(tangon)(foxtra);
             foxtra = backup.isAndroid;
@@ -214,7 +208,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         tangon = _closure1_slot0;
                         michal = _closure1_slot2;
-                        entity = 5;
+                        entity = 4;
                         michal = michal[entity];
                         entity = undefined;
                         tangon = tangon.bind(entity)(michal);
@@ -232,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  63:
                         tangon = _closure1_slot0;
                         oscard = _closure1_slot2;
-                        zuuluu = 6;
+                        zuuluu = 5;
                         zuuluu = oscard[zuuluu];
                         tangon = tangon.bind(entity)(zuuluu);
                         zuuluu = tangon.DeprecatedLayoutAnimationKeyboard;
@@ -255,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  282:
             yankee = _closure1_slot0;
             romeon = _closure1_slot2;
-            option = 9;
+            option = 8;
             option = romeon[option];
             yankee = yankee.bind(tangon)(option);
             option = yankee.isIOS;
@@ -267,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  320:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
-            zuuluu = 9;
+            zuuluu = 8;
             zuuluu = yankee[zuuluu];
             offset = offset.bind(tangon)(zuuluu);
             zuuluu = offset.isAndroid;
@@ -416,7 +410,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             oscard = zuuluu.setTimeout;
                             tangon = _closure1_slot0;
                             report = _closure1_slot2;
-                            zuuluu = 5;
+                            zuuluu = 4;
                             zuuluu = report[zuuluu];
                             report = undefined;
                             tangon = tangon.bind(report)(zuuluu);

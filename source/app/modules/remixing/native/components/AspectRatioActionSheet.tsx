@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = romeon.bind(tangon)(report);
         oscard = report.TableRadioGroup;
         report = {};
-        report['value'] = verify;
+        report['defaultValue'] = verify;
         option = function(argFoo) { // Original name: onChange
             entity = argFoo;
             var _closure3_slot0 = entity;

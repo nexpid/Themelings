@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = foxtra[oscard];
         oscard = yankee.bind(entity)(oscard);
         golfie = oscard.TableRadioGroup;
-        oscard = {'title': 'Role Colors', 'hasIcons': false, 'value': 'color-in-names'};
+        oscard = {'title': 'Role Colors', 'hasIcons': false, 'defaultValue': 'color-in-names'};
         verify = _closure1_slot6;
         oscard['onChange'] = verify;
         kiloes = _closure1_slot7;

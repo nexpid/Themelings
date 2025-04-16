@@ -1475,7 +1475,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00020_ip = 630; continue _fun00019 }
+                            if(michal) { _fun00020_ip = 633; continue _fun00019 }
  10:
                             michal = _closure2_slot9;
                             tangon = null;
@@ -1491,19 +1491,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             option = _closure1_slot2;
                             michal = 34;
                             michal = option[michal];
-                            verify = zuuluu.bind(report)(michal);
-                            option = verify.openPrivateChannel;
-                            michal = _closure2_slot12;
-                            zuuluu = michal.id;
-                            michal = false;
-                            michal = option.bind(verify)(zuuluu, michal, michal);
-                            SaveGenerator(address=90);
- 88:
+                            option = zuuluu.bind(report)(michal);
+                            zuuluu = option.openPrivateChannel;
+                            michal = {};
+                            verify = _closure2_slot12;
+                            verify = verify.id;
+                            michal['recipientIds'] = verify;
+                            michal = zuuluu.bind(option)(michal);
+                            SaveGenerator(address=93);
+ 91:
                             return michal;
- 90:
+ 93:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(zuuluu) { _fun00020_ip = 627; continue _fun00019 }
- 99:
+                            if(zuuluu) { _fun00020_ip = 630; continue _fun00019 }
+ 102:
                             result = _closure1_slot4;
                             zuuluu = _closure2_slot11;
                             offset = 0;
@@ -1574,13 +1575,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             zuuluu['colors'] = offset;
                             zuuluu['channelId'] = michal;
                             zuuluu = option.bind(verify)(zuuluu);
-                            SaveGenerator(address=401);
- 399:
+                            SaveGenerator(address=404);
+ 402:
                             return zuuluu;
- 401:
+ 404:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                            if(option) { _fun00020_ip = 624; continue _fun00019 }
- 410:
+                            if(option) { _fun00020_ip = 627; continue _fun00019 }
+ 413:
                             verify = _closure1_slot13;
                             option = verify.getChannel;
                             backup = option.bind(verify)(michal);
@@ -1609,13 +1610,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             offset = argFoo;
                             tangon['reply'] = offset;
                             tangon = option.bind(verify)(tangon);
-                            SaveGenerator(address=540);
- 538:
+                            SaveGenerator(address=543);
+ 541:
                             return tangon;
- 540:
+ 543:
                             ResumeGenerator(result_out_reg=3, return_bool_out_reg=7);
-                            if(option) { _fun00020_ip = 621; continue _fun00019 }
- 546:
+                            if(option) { _fun00020_ip = 624; continue _fun00019 }
+ 549:
                             yankee = _closure1_slot1;
                             romeon = _closure1_slot2;
                             golfie = 39;
@@ -1632,13 +1633,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             oscard = true;
                             oscard = golfie.bind(report)(oscard);
                             return report;
- 621:
-                            return tangon;
  624:
-                            return zuuluu;
+                            return tangon;
  627:
-                            return michal;
+                            return zuuluu;
  630:
+                            return michal;
+ 633:
                             return entity;
                         }
                     };

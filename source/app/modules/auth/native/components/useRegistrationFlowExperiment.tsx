@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         tangon = _closure1_slot0;
         zuuluu = tangon.useExperiment;
         michal = {};
-        entity = false;
+        entity = true;
         michal['autoTrackExposure'] = entity;
         entity = argFoo;
         entity = zuuluu.bind(tangon)(entity, michal);

@@ -769,7 +769,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         foxtra = sequen[offset];
         foxtra = update.bind(tangon)(foxtra);
         backup = foxtra.TableRadioGroup;
-        foxtra = {'title': 'Radio Group', 'hasIcons': false, 'value': 'option1'};
+        foxtra = {'title': 'Radio Group', 'hasIcons': false, 'defaultValue': 'option1'};
         kiloes = _closure1_slot10;
         foxtra['onChange'] = kiloes;
         source = _closure1_slot12;
@@ -808,7 +808,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         offset = sequen[offset];
         offset = update.bind(tangon)(offset);
         foxtra = offset.TableRadioGroup;
-        offset = {'title': 'Online Status', 'hasIcons': true, 'value': 'option1'};
+        offset = {'title': 'Online Status', 'hasIcons': true, 'defaultValue': 'option1'};
         backup = _closure1_slot10;
         offset['onChange'] = backup;
         output = _closure1_slot12;

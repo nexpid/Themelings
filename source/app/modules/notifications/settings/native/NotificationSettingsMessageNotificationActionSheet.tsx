@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         romeon = yankee.TableRadioGroup;
         yankee = {};
         foxtra = result.value;
-        yankee['value'] = foxtra;
+        yankee['defaultValue'] = foxtra;
         foxtra = result.onChange;
         yankee['onChange'] = foxtra;
         backup = 11;

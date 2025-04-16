@@ -51,19 +51,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) { // Original name: useUserProfileActivity
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            verify = argFoo;
-            var _closure2_slot0 = verify;
+            golfie = argFoo;
+            var _closure2_slot0 = golfie;
             report = _closure1_slot0;
             option = _closure1_slot2;
             michal = 5;
             michal = option[michal];
             oscard = undefined;
-            golfie = report.bind(oscard)(michal);
-            zuuluu = golfie.useUserProfileModalRecentActivityExperiment;
+            verify = report.bind(oscard)(michal);
+            zuuluu = verify.useUserProfileModalRecentActivityExperiment;
             michal = {};
             offset = 'useUserProfileActivity';
             michal['location'] = offset;
-            michal = zuuluu.bind(golfie)(michal);
+            michal = zuuluu.bind(verify)(michal);
             michal = michal.recentActivityTabEnabled;
             var _closure2_slot1 = michal;
             michal = 6;
@@ -71,8 +71,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = report.bind(oscard)(zuuluu);
             offset = yankee.useStateFromStores;
             zuuluu = _closure1_slot5;
-            golfie = new Array(1);
-            golfie[0] = zuuluu;
+            verify = new Array(1);
+            verify[0] = zuuluu;
             zuuluu = function() {
                 michal = _closure1_slot5;
                 entity = michal.getId;
@@ -81,14 +81,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = michal === entity;
                 return entity;
             };
-            zuuluu = offset.bind(yankee)(golfie, zuuluu);
+            zuuluu = offset.bind(yankee)(verify, zuuluu);
             var _closure2_slot2 = zuuluu;
-            golfie = _closure1_slot1;
+            verify = _closure1_slot1;
             zuuluu = 7;
             zuuluu = option[zuuluu];
-            golfie = golfie.bind(oscard)(zuuluu);
-            zuuluu = 'use-user-profile-activity';
-            zuuluu = golfie.bind(oscard)(verify, zuuluu);
+            zuuluu = verify.bind(oscard)(zuuluu);
+            zuuluu = zuuluu.bind(oscard)(golfie);
             golfie = option[michal];
             yankee = report.bind(oscard)(golfie);
             offset = yankee.useStateFromStores;
@@ -136,10 +135,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = null;
             option = golfie == michal;
             golfie = undefined;
-            if(option) { _fun00002_ip = 256; continue _fun00001 }
- 250:
+            if(option) { _fun00002_ip = 249; continue _fun00001 }
+ 243:
             golfie = michal.entries;
- 256:
+ 249:
             tangon[1] = golfie;
             entity = function() {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {

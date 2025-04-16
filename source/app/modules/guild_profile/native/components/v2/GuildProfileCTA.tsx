@@ -318,42 +318,50 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option.bind(tangon)(zuuluu);
             zuuluu = zuuluu.CTATypes;
             zuuluu = zuuluu.IS_MEMBER;
-            if(!(zuuluu !== golfie)) { _fun00002_ip = 925; continue _fun00001 }
+            if(!(zuuluu !== golfie)) { _fun00002_ip = 961; continue _fun00001 }
  322:
             option = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[foxtra];
             zuuluu = option.bind(tangon)(zuuluu);
             zuuluu = zuuluu.CTATypes;
-            zuuluu = zuuluu.HAS_APPLICATION;
-            if(!(zuuluu !== golfie)) { _fun00002_ip = 810; continue _fun00001 }
+            zuuluu = zuuluu.ADOPT_TAG;
+            if(!(zuuluu !== golfie)) { _fun00002_ip = 961; continue _fun00001 }
  358:
             option = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[foxtra];
             zuuluu = option.bind(tangon)(zuuluu);
             zuuluu = zuuluu.CTATypes;
-            zuuluu = zuuluu.APPLY_TO_JOIN;
-            if(!(zuuluu !== golfie)) { _fun00002_ip = 695; continue _fun00001 }
+            zuuluu = zuuluu.HAS_APPLICATION;
+            if(!(zuuluu !== golfie)) { _fun00002_ip = 846; continue _fun00001 }
  394:
             option = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[foxtra];
             zuuluu = option.bind(tangon)(zuuluu);
             zuuluu = zuuluu.CTATypes;
-            zuuluu = zuuluu.LURK_DISCOVERABLE;
-            if(!(zuuluu !== golfie)) { _fun00002_ip = 580; continue _fun00001 }
+            zuuluu = zuuluu.APPLY_TO_JOIN;
+            if(!(zuuluu !== golfie)) { _fun00002_ip = 731; continue _fun00001 }
  430:
             option = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[foxtra];
             zuuluu = option.bind(tangon)(zuuluu);
             zuuluu = zuuluu.CTATypes;
+            zuuluu = zuuluu.LURK_DISCOVERABLE;
+            if(!(zuuluu !== golfie)) { _fun00002_ip = 616; continue _fun00001 }
+ 466:
+            option = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu[foxtra];
+            zuuluu = option.bind(tangon)(zuuluu);
+            zuuluu = zuuluu.CTATypes;
             zuuluu = zuuluu.JOIN_VIA_INVITE;
-            if(!(zuuluu !== golfie)) { _fun00002_ip = 465; continue _fun00001 }
- 463:
+            if(!(zuuluu !== golfie)) { _fun00002_ip = 501; continue _fun00001 }
+ 499:
             return michal;
- 465:
+ 501:
             golfie = _closure1_slot5;
             backup = _closure1_slot0;
             kiloes = _closure1_slot2;
@@ -381,7 +389,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal[option] = romeon;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 580:
+ 616:
             golfie = _closure1_slot5;
             foxtra = _closure1_slot0;
             backup = _closure1_slot2;
@@ -409,7 +417,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal[option] = yankee;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 695:
+ 731:
             golfie = _closure1_slot5;
             romeon = _closure1_slot0;
             foxtra = _closure1_slot2;
@@ -437,7 +445,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal[option] = offset;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 810:
+ 846:
             golfie = _closure1_slot5;
             yankee = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -465,7 +473,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal[option] = verify;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 925:
+ 961:
             zuuluu = _closure1_slot5;
             option = _closure1_slot0;
             verify = _closure1_slot2;

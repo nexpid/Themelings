@@ -103,25 +103,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = argFoo;
             option = michal.channel;
             var _closure2_slot0 = option;
+            tangon = michal.channelSelected;
             zuuluu = michal.hasUnreadMessages;
             var _closure2_slot1 = zuuluu;
             romeon = michal.isStreaming;
             zuuluu = michal.muted;
-            oscard = michal.ignored;
-            tangon = michal.blocked;
+            golfie = michal.ignored;
+            oscard = michal.blocked;
             offset = michal.status;
             report = undefined;
             var _closure2_slot2 = report;
             var _closure2_slot3 = report;
             michal = _closure1_slot10;
-            if(zuuluu) { _fun00004_ip = 76; continue _fun00003 }
- 73:
-            zuuluu = oscard;
- 76:
             if(zuuluu) { _fun00004_ip = 82; continue _fun00003 }
  79:
-            zuuluu = tangon;
+            zuuluu = golfie;
  82:
+            if(zuuluu) { _fun00004_ip = 88; continue _fun00003 }
+ 85:
+            zuuluu = oscard;
+ 88:
+            if(!zuuluu) { _fun00004_ip = 94; continue _fun00003 }
+ 91:
+            zuuluu = !tangon;
+ 94:
             oscard = michal.bind(report)(zuuluu);
             zuuluu = _closure1_slot4;
             michal = zuuluu.getId;
@@ -244,13 +249,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = zuuluu.bind(tangon)(michal, entity);
             entity = option.isGroupDM;
             entity = entity.bind(option)();
-            if(entity) { _fun00004_ip = 451; continue _fun00003 }
- 292:
+            if(entity) { _fun00004_ip = 463; continue _fun00003 }
+ 304:
             foxtra = null;
             michal = foxtra != sizing;
             entity = null;
-            if(!michal) { _fun00004_ip = 449; continue _fun00003 }
- 306:
+            if(!michal) { _fun00004_ip = 461; continue _fun00003 }
+ 318:
             tangon = _closure1_slot9;
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
@@ -266,10 +271,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = sizing.isSystemUser;
             kiloes = kiloes.bind(sizing)();
             foxtra = null;
-            if(kiloes) { _fun00004_ip = 374; continue _fun00003 }
- 371:
+            if(kiloes) { _fun00004_ip = 386; continue _fun00003 }
+ 383:
             foxtra = offset;
- 374:
+ 386:
             michal['status'] = foxtra;
             michal['streaming'] = romeon;
             romeon = oscard.avatar;
@@ -286,9 +291,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = true;
             michal['autoStatusCutout'] = yankee;
             entity = tangon.bind(report)(zuuluu, michal);
- 449:
-            _fun00004_ip = 538; continue _fun00003;
- 451:
+ 461:
+            _fun00004_ip = 550; continue _fun00003;
+ 463:
             tangon = _closure1_slot9;
             zuuluu = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -309,7 +314,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.avatar;
             michal['style'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 538:
+ 550:
             return entity;
         }
     };

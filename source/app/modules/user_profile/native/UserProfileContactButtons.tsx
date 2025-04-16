@@ -566,32 +566,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = function() { // Original name: onPress
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-                    tangon = _closure2_slot1;
-                    zuuluu = {};
+                    zuuluu = _closure2_slot1;
+                    michal = {};
                     entity = 'SEND_MESSAGE';
-                    zuuluu['action'] = entity;
+                    michal['action'] = entity;
                     entity = undefined;
-                    zuuluu = tangon.bind(entity)(zuuluu);
-                    tangon = _closure2_slot2;
-                    zuuluu = null;
-                    if(!(zuuluu != tangon)) { _fun00012_ip = 42; continue _fun00011 }
- 34:
+                    michal = zuuluu.bind(entity)(michal);
                     zuuluu = _closure2_slot2;
-                    zuuluu = zuuluu.bind(entity)();
+                    michal = null;
+                    if(!(michal != zuuluu)) { _fun00012_ip = 42; continue _fun00011 }
+ 34:
+                    michal = _closure2_slot2;
+                    michal = michal.bind(entity)();
  42:
-                    tangon = _closure1_slot1;
-                    report = _closure1_slot2;
-                    zuuluu = 25;
-                    zuuluu = report[zuuluu];
-                    oscard = tangon.bind(entity)(zuuluu);
-                    zuuluu = oscard.popAll;
-                    zuuluu = zuuluu.bind(oscard)();
-                    zuuluu = 26;
-                    zuuluu = report[zuuluu];
-                    tangon = tangon.bind(entity)(zuuluu);
+                    zuuluu = _closure1_slot1;
+                    tangon = _closure1_slot2;
+                    michal = 25;
+                    michal = tangon[michal];
+                    oscard = zuuluu.bind(entity)(michal);
+                    michal = oscard.popAll;
+                    michal = michal.bind(oscard)();
+                    michal = 26;
+                    michal = tangon[michal];
+                    tangon = zuuluu.bind(entity)(michal);
                     zuuluu = tangon.openPrivateChannel;
-                    michal = _closure2_slot0;
-                    michal = michal.id;
+                    michal = {};
+                    report = _closure2_slot0;
+                    report = report.id;
+                    michal['recipientIds'] = report;
                     michal = zuuluu.bind(tangon)(michal);
                     return entity;
                 }

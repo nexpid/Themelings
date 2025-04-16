@@ -16,10 +16,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 183; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 193; continue _fun00001 }
  13:
                     yankee = michal.appId;
-                    romeon = michal.botId;
+                    foxtra = michal.botId;
                     offset = michal.analyticsLocations;
                     verify = michal.customId;
                     option = michal.referrerId;
@@ -30,22 +30,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return oscard;
  55:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 180; continue _fun00001 }
- 61:
+                    if(zuuluu) { _fun00002_ip = 190; continue _fun00001 }
+ 64:
                     report = _closure1_slot0;
-                    foxtra = _closure1_slot1;
+                    romeon = _closure1_slot1;
                     zuuluu = 1;
-                    zuuluu = foxtra[zuuluu];
-                    report = report.bind(oscard)(zuuluu);
-                    zuuluu = report.openPrivateChannel;
-                    zuuluu = zuuluu.bind(report)(romeon);
-                    SaveGenerator(address=99);
- 97:
+                    zuuluu = romeon[zuuluu];
+                    romeon = report.bind(oscard)(zuuluu);
+                    report = romeon.openPrivateChannel;
+                    zuuluu = {};
+                    zuuluu['recipientIds'] = foxtra;
+                    zuuluu = report.bind(romeon)(zuuluu);
+                    SaveGenerator(address=109);
+ 107:
                     return zuuluu;
- 99:
+ 109:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 177; continue _fun00001 }
- 105:
+                    if(report) { _fun00002_ip = 187; continue _fun00001 }
+ 115:
                     report = _closure1_slot0;
                     romeon = _closure1_slot1;
                     tangon = 2;
@@ -59,21 +61,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['referrerId'] = option;
                     tangon['commandOrigin'] = golfie;
                     tangon = report.bind(oscard)(tangon);
-                    SaveGenerator(address=165);
- 163:
+                    SaveGenerator(address=175);
+ 173:
                     return tangon;
- 165:
+ 175:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 174; continue _fun00001 }
- 171:
+                    if(report) { _fun00002_ip = 184; continue _fun00001 }
+ 181:
                     return tangon;
- 174:
+ 184:
                     return tangon;
- 177:
+ 187:
                     return zuuluu;
- 180:
+ 190:
                     return michal;
- 183:
+ 193:
                     return entity;
                 }
             };

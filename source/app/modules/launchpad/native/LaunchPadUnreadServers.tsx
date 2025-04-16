@@ -365,47 +365,49 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = function() {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                    michal = _closure2_slot1;
-                    tangon = null;
-                    if(!(tangon != michal)) { _fun00008_ip = 154; continue _fun00007 }
+                    entity = _closure2_slot1;
+                    zuuluu = null;
+                    if(!(zuuluu != entity)) { _fun00008_ip = 161; continue _fun00007 }
  16:
-                    michal = _closure2_slot1;
-                    report = michal.type;
-                    zuuluu = _closure1_slot9;
-                    zuuluu = zuuluu.DM;
-                    if(!(report === zuuluu)) { _fun00008_ip = 50; continue _fun00007 }
+                    entity = _closure2_slot1;
+                    report = entity.type;
+                    michal = _closure1_slot9;
+                    michal = michal.DM;
+                    if(!(report === michal)) { _fun00008_ip = 50; continue _fun00007 }
  42:
-                    zuuluu = _closure2_slot2;
-                    if(!(tangon == zuuluu)) { _fun00008_ip = 104; continue _fun00007 }
+                    michal = _closure2_slot2;
+                    if(!(zuuluu == michal)) { _fun00008_ip = 104; continue _fun00007 }
  50:
                     report = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    zuuluu = 17;
-                    tangon = tangon[zuuluu];
-                    zuuluu = undefined;
-                    oscard = report.bind(zuuluu)(tangon);
-                    report = oscard.transitionToChannel;
-                    zuuluu = _closure2_slot1;
-                    tangon = zuuluu.id;
-                    zuuluu = {};
-                    golfie = true;
-                    zuuluu['navigationReplace'] = golfie;
-                    zuuluu = report.bind(oscard)(tangon, zuuluu);
-                    _fun00008_ip = 154; continue _fun00007;
- 104:
-                    tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
-                    michal = 16;
+                    michal = 17;
                     zuuluu = zuuluu[michal];
                     michal = undefined;
-                    zuuluu = tangon.bind(michal)(zuuluu);
+                    oscard = report.bind(michal)(zuuluu);
+                    report = oscard.transitionToChannel;
+                    michal = _closure2_slot1;
+                    zuuluu = michal.id;
+                    michal = {};
+                    golfie = true;
+                    michal['navigationReplace'] = golfie;
+                    michal = report.bind(oscard)(zuuluu, michal);
+                    _fun00008_ip = 161; continue _fun00007;
+ 104:
+                    zuuluu = _closure1_slot1;
+                    michal = _closure1_slot2;
+                    entity = 16;
+                    michal = michal[entity];
+                    entity = undefined;
+                    zuuluu = zuuluu.bind(entity)(michal);
                     michal = zuuluu.openPrivateChannel;
-                    entity = _closure2_slot2;
-                    tangon = entity.id;
-                    entity = new Array(1);
-                    entity[0] = tangon;
+                    entity = {};
+                    tangon = _closure2_slot2;
+                    report = tangon.id;
+                    tangon = new Array(1);
+                    tangon[0] = report;
+                    entity['recipientIds'] = tangon;
                     entity = michal.bind(zuuluu)(entity);
- 154:
+ 161:
                     entity = undefined;
                     return entity;
                 }

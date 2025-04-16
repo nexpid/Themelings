@@ -257,7 +257,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  796:
             source = ctrled;
  799:
-            romeon['value'] = source;
+            romeon['defaultValue'] = source;
             romeon['onChange'] = update;
             source = ['secondary', 'primary', 'experimental_premium-primary'];
             update = source.map;

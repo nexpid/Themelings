@@ -787,29 +787,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     var _closure3_slot5 = entity;
                     entity = offset.isCurrentlyInInstance;
                     offset = offset.canLaunchInChannel;
-                    if(offset) { _fun00020_ip = 333; continue _fun00019 }
+                    if(offset) { _fun00020_ip = 340; continue _fun00019 }
  227:
                     offset = golfie == verify;
-                    romeon = undefined;
+                    foxtra = undefined;
                     if(offset) { _fun00020_ip = 256; continue _fun00019 }
  236:
                     verify = verify.bot;
                     offset = golfie == verify;
-                    romeon = undefined;
+                    foxtra = undefined;
                     if(offset) { _fun00020_ip = 256; continue _fun00019 }
  251:
-                    romeon = verify.id;
+                    foxtra = verify.id;
  256:
-                    verify = golfie != romeon;
-                    if(!verify) { _fun00020_ip = 331; continue _fun00019 }
+                    verify = golfie != foxtra;
+                    if(!verify) { _fun00020_ip = 338; continue _fun00019 }
  263:
                     yankee = _closure1_slot1;
-                    foxtra = _closure1_slot2;
+                    romeon = _closure1_slot2;
                     offset = 21;
-                    offset = foxtra[offset];
-                    yankee = yankee.bind(oscard)(offset);
-                    offset = yankee.openPrivateChannel;
-                    romeon = offset.bind(yankee)(romeon);
+                    offset = romeon[offset];
+                    romeon = yankee.bind(oscard)(offset);
+                    yankee = romeon.openPrivateChannel;
+                    offset = {};
+                    offset['recipientIds'] = foxtra;
+                    romeon = yankee.bind(romeon)(offset);
                     yankee = romeon.then;
                     offset = function() {
                         tangon = _closure1_slot4;
@@ -897,16 +899,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     offset = yankee.bind(romeon)(offset);
                     verify = true;
- 331:
+ 338:
                     return verify;
- 333:
+ 340:
                     entity = !entity;
-                    if(!entity) { _fun00020_ip = 343; continue _fun00019 }
- 339:
-                    entity = golfie != report;
- 343:
-                    if(!entity) { _fun00020_ip = 456; continue _fun00019 }
+                    if(!entity) { _fun00020_ip = 350; continue _fun00019 }
  346:
+                    entity = golfie != report;
+ 350:
+                    if(!entity) { _fun00020_ip = 463; continue _fun00019 }
+ 353:
                     report = _closure1_slot0;
                     golfie = _closure1_slot2;
                     tangon = 19;
@@ -1018,7 +1020,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     michal = zuuluu.bind(tangon)(michal);
                     entity = true;
- 456:
+ 463:
                     return entity;
                 }
             };
