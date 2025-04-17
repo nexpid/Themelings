@@ -503,7 +503,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = oscard.type;
             michal = _closure1_slot14;
             michal = michal.THREAD;
-            if(!(zuuluu !== michal)) { _fun00012_ip = 165; continue _fun00011 }
+            if(!(zuuluu !== michal)) { _fun00012_ip = 199; continue _fun00011 }
  28:
             michal = _closure1_slot19;
             report = undefined;
@@ -515,31 +515,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(report)(michal);
             michal = zuuluu.cancelInFlightRequests;
             michal = michal.bind(zuuluu)(oscard);
+            zuuluu = _closure1_slot0;
+            michal = 8;
+            michal = tangon[michal];
+            tangon = zuuluu.bind(report)(michal);
+            zuuluu = tangon.trackSearchStarted;
+            michal = {};
+            michal['searchContext'] = oscard;
+            michal = zuuluu.bind(tangon)(michal);
             michal = _closure1_slot7;
             tangon = michal.bind(report)(oscard);
             michal = _closure1_slot6;
             michal = michal.bind(report)(oscard);
-            if(michal) { _fun00012_ip = 96; continue _fun00011 }
- 90:
+            if(michal) { _fun00012_ip = 130; continue _fun00011 }
+ 124:
             zuuluu = _closure1_slot10;
-            _fun00012_ip = 142; continue _fun00011;
- 96:
+            _fun00012_ip = 176; continue _fun00011;
+ 130:
             golfie = oscard.type;
             michal = _closure1_slot14;
             michal = michal.GUILD_CHANNEL;
-            if(!(michal !== golfie)) { _fun00012_ip = 135; continue _fun00011 }
- 115:
+            if(!(michal !== golfie)) { _fun00012_ip = 169; continue _fun00011 }
+ 149:
             michal = _closure1_slot14;
             michal = michal.CHANNEL;
-            if(!(michal !== golfie)) { _fun00012_ip = 135; continue _fun00011 }
- 129:
+            if(!(michal !== golfie)) { _fun00012_ip = 169; continue _fun00011 }
+ 163:
             michal = _closure1_slot13;
-            _fun00012_ip = 139; continue _fun00011;
- 135:
+            _fun00012_ip = 173; continue _fun00011;
+ 169:
             michal = _closure1_slot11;
- 139:
+ 173:
             zuuluu = michal;
- 142:
+ 176:
             michal = _closure1_slot15;
             option = _closure1_slot17;
             romeon = undefined;
@@ -547,7 +555,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = zuuluu;
             verify = tangon;
             entity = romeon[michal](yankee, offset, verify, option, golfie);
- 165:
+ 199:
             entity = undefined;
             return entity;
         }

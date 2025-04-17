@@ -107,18 +107,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/user_settings/native/mfa_modal_flow/TwoFASetupModal.tsx';
     tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: TwoFASetupModal
-        michal = argFoo;
-        michal = michal.password;
-        var _closure2_slot0 = michal;
-        zuuluu = _closure1_slot1;
+    tangon = function() { // Original name: TwoFASetupModal
+        michal = _closure1_slot1;
         verify = _closure1_slot2;
-        michal = 18;
-        michal = verify[michal];
+        entity = 18;
+        entity = verify[entity];
         tangon = undefined;
-        michal = zuuluu.bind(tangon)(michal);
+        michal = michal.bind(tangon)(entity);
         entity = function() {
-            tangon = _closure2_slot0;
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 19;
@@ -127,11 +123,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(zuuluu)(entity);
             entity = michal.generateTotpSecret;
             michal = entity.bind(michal)();
-            entity = function(argFoo, argBar) { // Original name: getScreens
+            entity = function(argFoo) { // Original name: getScreens
                 entity = argFoo;
                 var _closure4_slot0 = entity;
-                entity = argBar;
-                var _closure4_slot1 = entity;
                 entity = {};
                 michal = _closure1_slot5;
                 yankee = michal.LANDING;
@@ -193,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = undefined;
                     michal = michal.bind(zuuluu)(entity);
                     entity = {};
-                    report = _closure4_slot1;
+                    report = _closure4_slot0;
                     entity['totpSecret'] = report;
                     entity = tangon.bind(zuuluu)(michal, entity);
                     return entity;
@@ -220,10 +214,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = undefined;
                     michal = michal.bind(zuuluu)(entity);
                     entity = {};
-                    oscard = _closure4_slot1;
-                    entity['totpSecret'] = oscard;
                     report = _closure4_slot0;
-                    entity['password'] = report;
+                    entity['totpSecret'] = report;
                     entity = tangon.bind(zuuluu)(michal, entity);
                     return entity;
                 };
@@ -253,8 +245,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = undefined;
                     michal = michal.bind(zuuluu)(entity);
                     entity = {};
-                    report = _closure4_slot0;
-                    entity['password'] = report;
                     entity = tangon.bind(zuuluu)(michal, entity);
                     return entity;
                 };
@@ -262,7 +252,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity[zuuluu] = michal;
                 return entity;
             };
-            entity = entity.bind(zuuluu)(tangon, michal);
+            entity = entity.bind(zuuluu)(michal);
             return entity;
         };
         report = michal.bind(tangon)(entity);

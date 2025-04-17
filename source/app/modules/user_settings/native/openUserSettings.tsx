@@ -19,9 +19,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[entity];
     entity = undefined;
     tangon = report.bind(entity)(tangon);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
     tangon = tangon.UserSettingsSections;
     var _closure1_slot3 = tangon;
-    tangon = 3;
+    tangon = 4;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -33,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = argFoo;
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
-            entity = 1;
+            entity = 2;
             michal = michal[entity];
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(michal);
@@ -50,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  60:
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot2;
-            michal = 2;
+            michal = 3;
             michal = oscard[michal];
             oscard = zuuluu.bind(entity)(michal);
             zuuluu = oscard.dispatch;

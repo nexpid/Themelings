@@ -22,11 +22,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.bind(entity)(golfie);
     var _closure1_slot3 = tangon;
     tangon = {};
-    golfie = 'function useTapGesturesTsx1(event,manager){const{isFocusedVideoZoomed}=this.__closure;if(isFocusedVideoZoomed.get()){manager.fail();}}';
+    golfie = "function useTapGesturesTsx1(){const{runOnJS,handleEvent}=this.__closure;return runOnJS(handleEvent)('double');}";
     tangon['code'] = golfie;
     var _closure1_slot4 = tangon;
     tangon = {};
-    golfie = "function useTapGesturesTsx2(){const{runOnJS,handleEvent}=this.__closure;return runOnJS(handleEvent)('double');}";
+    golfie = 'function useTapGesturesTsx2(event,manager){const{isFocusedVideoZoomed}=this.__closure;if(isFocusedVideoZoomed.get()){manager.fail();}}';
     tangon['code'] = golfie;
     var _closure1_slot5 = tangon;
     tangon = {};
@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.numberOfTaps;
                 oscard = michal.bind(zuuluu)(verify);
                 zuuluu = oscard.onTouchesDown;
-                michal = function(argFoo, argBar) { // Original name: f
+                michal = function(argFoo, argBar) { // Original name: O
                     _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         michal = argBar;
@@ -190,9 +190,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 backup = _closure2_slot1;
                 yankee['isFocusedVideoZoomed'] = backup;
                 michal['__closure'] = yankee;
-                yankee = 17029101165477.0;
+                yankee = 3236469126950.0;
                 michal['__workletHash'] = yankee;
-                yankee = _closure1_slot4;
+                yankee = _closure1_slot5;
                 michal['__initData'] = yankee;
                 kiloes = zuuluu.bind(oscard)(michal);
                 backup = kiloes.onStart;
@@ -220,9 +220,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sizing['runOnJS'] = output;
                 sizing['handleEvent'] = offset;
                 zuuluu['__closure'] = sizing;
-                sizing = 6829153123689.0;
+                sizing = 13571114432746.0;
                 zuuluu['__workletHash'] = sizing;
-                sizing = _closure1_slot5;
+                sizing = _closure1_slot4;
                 zuuluu['__initData'] = sizing;
                 zuuluu = backup.bind(kiloes)(zuuluu);
                 michal = michal[verify];

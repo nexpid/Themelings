@@ -347,11 +347,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot17 = tangon;
     tangon = {};
-    golfie = 'function VoicePanelMicButtonTsx1(event,manager){const{State,runOnJS,handleDragStart}=this.__closure;if(event.state!==State.BEGAN)return;manager.activate();runOnJS(handleDragStart)();}';
+    golfie = 'function VoicePanelMicButtonTsx1(){const{runOnJS,handlePTTEnd}=this.__closure;runOnJS(handlePTTEnd)();}';
     tangon['code'] = golfie;
     var _closure1_slot18 = tangon;
     tangon = {};
-    golfie = 'function VoicePanelMicButtonTsx2(){const{runOnJS,handlePTTEnd}=this.__closure;runOnJS(handlePTTEnd)();}';
+    golfie = 'function VoicePanelMicButtonTsx2(event,manager){const{State,runOnJS,handleDragStart}=this.__closure;if(event.state!==State.BEGAN)return;manager.activate();runOnJS(handleDragStart)();}';
     tangon['code'] = golfie;
     var _closure1_slot19 = tangon;
     tangon = 31;
@@ -722,9 +722,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 romeon = _closure2_slot7;
                 yankee['handleDragStart'] = romeon;
                 michal['__closure'] = yankee;
-                yankee = 4024795195709.0;
+                yankee = 13866422602014.0;
                 michal['__workletHash'] = yankee;
-                yankee = _closure1_slot18;
+                yankee = _closure1_slot19;
                 michal['__initData'] = yankee;
                 zuuluu = zuuluu.bind(report)(michal);
                 michal = zuuluu.onFinalize;
@@ -749,9 +749,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = _closure2_slot6;
                 report['handlePTTEnd'] = oscard;
                 entity['__closure'] = report;
-                report = 9285688010037.0;
+                report = 12941114426646.0;
                 entity['__workletHash'] = report;
-                tangon = _closure1_slot19;
+                tangon = _closure1_slot18;
                 entity['__initData'] = tangon;
                 entity = michal.bind(zuuluu)(entity);
                 return entity;

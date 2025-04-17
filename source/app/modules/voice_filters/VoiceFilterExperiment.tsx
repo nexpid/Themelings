@@ -93,23 +93,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: isVoiceFiltersEnabled
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            michal = argFoo;
-            entity = michal.location;
-            oscard = michal.autoTrackExposure;
+            entity = argFoo;
+            michal = entity.location;
+            oscard = entity.autoTrackExposure;
+            tangon = _closure1_slot6;
+            entity = undefined;
+            entity = tangon.bind(entity)();
+            tangon = !entity;
+            entity = !tangon;
+            if(tangon) { _fun00004_ip = 70; continue _fun00003 }
+ 36:
             report = _closure1_slot5;
             tangon = report.getCurrentConfig;
             zuuluu = {};
-            zuuluu['location'] = entity;
-            entity = {};
-            entity['autoTrackExposure'] = oscard;
-            entity = tangon.bind(report)(zuuluu, entity);
-            entity = entity.enabled;
-            if(!entity) { _fun00004_ip = 64; continue _fun00003 }
- 54:
-            zuuluu = _closure1_slot6;
-            michal = undefined;
-            entity = zuuluu.bind(michal)();
- 64:
+            zuuluu['location'] = michal;
+            michal = {};
+            michal['autoTrackExposure'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
+            entity = michal.enabled;
+ 70:
             return entity;
         }
     };

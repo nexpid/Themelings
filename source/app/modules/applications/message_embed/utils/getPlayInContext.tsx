@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     zuuluu = _closure2_slot1;
                     entity = null;
-                    if(!(entity != zuuluu)) { _fun00004_ip = 76; continue _fun00003 }
+                    if(!(entity != zuuluu)) { _fun00004_ip = 74; continue _fun00003 }
  13:
                     tangon = _closure1_slot2;
                     zuuluu = tangon.getEmbeddedActivitiesForChannel;
@@ -82,12 +82,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = 0;
                     report = michal > zuuluu;
                     michal = undefined;
-                    if(!report) { _fun00004_ip = 74; continue _fun00003 }
- 70:
+                    if(!report) { _fun00004_ip = 72; continue _fun00003 }
+ 68:
                     michal = tangon[zuuluu];
- 74:
+ 72:
                     return michal;
- 76:
+ 74:
                     return entity;
                 }
             };
@@ -95,16 +95,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = null;
             tangon = option == michal;
             oscard = undefined;
-            if(tangon) { _fun00002_ip = 124; continue _fun00001 }
- 118:
+            if(tangon) { _fun00002_ip = 120; continue _fun00001 }
+ 114:
             oscard = michal.compositeInstanceId;
- 124:
+ 120:
             offset = option == michal;
             tangon = undefined;
-            if(offset) { _fun00002_ip = 138; continue _fun00001 }
- 133:
+            if(offset) { _fun00002_ip = 134; continue _fun00001 }
+ 129:
             tangon = michal.location;
- 138:
+ 134:
             michal = _closure1_slot0;
             offset = _closure1_slot1;
             golfie = offset[golfie];
@@ -134,16 +134,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['instanceId'] = oscard;
             entity['instanceLocation'] = tangon;
             tangon = option != oscard;
-            if(!tangon) { _fun00002_ip = 272; continue _fun00001 }
- 253:
+            if(!tangon) { _fun00002_ip = 266; continue _fun00001 }
+ 247:
             option = option == golfie;
             report = undefined;
-            if(option) { _fun00002_ip = 268; continue _fun00001 }
- 262:
+            if(option) { _fun00002_ip = 262; continue _fun00001 }
+ 256:
             report = golfie.compositeInstanceId;
- 268:
+ 262:
             tangon = report === oscard;
- 272:
+ 266:
             entity['isCurrentlyInInstance'] = tangon;
             michal = zuuluu === michal;
             entity['canLaunchInChannel'] = michal;
@@ -151,38 +151,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     zuuluu['usePlayInContext'] = tangon;
-    michal = function(argFoo) { // Original name: getPlayInContext
+    michal = function(argFoo, argBar) { // Original name: getPlayInContext
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
+            verify = argBar;
             entity = argFoo;
             var _closure2_slot0 = entity;
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.getChannelId;
-            verify = michal.bind(zuuluu)();
             option = null;
-            if(!(option != verify)) { _fun00006_ip = 296; continue _fun00005 }
+            if(!(option == verify)) { _fun00006_ip = 35; continue _fun00005 }
+ 18:
+            michal = _closure1_slot3;
+            entity = michal.getChannelId;
+            verify = entity.bind(michal)();
  35:
-            if(!(option == verify)) { _fun00006_ip = 75; continue _fun00005 }
- 39:
+            if(!(option != verify)) { _fun00006_ip = 310; continue _fun00005 }
+ 42:
+            if(!(option == verify)) { _fun00006_ip = 85; continue _fun00005 }
+ 46:
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            entity = 3;
+            michal = michal[entity];
+            entity = undefined;
+            entity = zuuluu.bind(entity)(michal);
+            entity = entity.EmbeddedActivityLaunchability;
+            zuuluu = entity.NO_CHANNEL;
+            _fun00006_ip = 121; continue _fun00005;
+ 85:
             report = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 3;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            michal = report.bind(michal)(zuuluu);
-            michal = michal.EmbeddedActivityLaunchability;
-            zuuluu = michal.NO_CHANNEL;
-            _fun00006_ip = 108; continue _fun00005;
- 75:
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
-            michal = 3;
-            report = report[michal];
-            michal = undefined;
-            report = oscard.bind(michal)(report);
-            michal = report.getEmbeddedActivityLaunchabilityForChannel;
-            zuuluu = michal.bind(report)(verify);
- 108:
+            michal = _closure1_slot1;
+            entity = 3;
+            michal = michal[entity];
+            entity = undefined;
+            michal = report.bind(entity)(michal);
+            entity = michal.getEmbeddedActivityLaunchabilityForChannel;
+            zuuluu = entity.bind(michal)(verify);
+ 121:
             oscard = _closure1_slot0;
             report = _closure1_slot1;
             michal = 3;
@@ -207,22 +211,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = 0;
             offset = golfie > tangon;
             golfie = undefined;
-            if(!offset) { _fun00006_ip = 194; continue _fun00005 }
- 190:
+            if(!offset) { _fun00006_ip = 208; continue _fun00005 }
+ 204:
             golfie = oscard[tangon];
- 194:
+ 208:
             tangon = option == golfie;
             oscard = undefined;
-            if(tangon) { _fun00006_ip = 209; continue _fun00005 }
- 203:
+            if(tangon) { _fun00006_ip = 223; continue _fun00005 }
+ 217:
             oscard = golfie.compositeInstanceId;
- 209:
+ 223:
             offset = option == golfie;
             tangon = undefined;
-            if(offset) { _fun00006_ip = 223; continue _fun00005 }
- 218:
+            if(offset) { _fun00006_ip = 237; continue _fun00005 }
+ 232:
             tangon = golfie.location;
- 223:
+ 237:
             golfie = _closure1_slot2;
             entity = golfie.getCurrentEmbeddedActivity;
             golfie = entity.bind(golfie)();
@@ -231,21 +235,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['instanceId'] = oscard;
             entity['instanceLocation'] = tangon;
             tangon = option != oscard;
-            if(!tangon) { _fun00006_ip = 280; continue _fun00005 }
- 261:
+            if(!tangon) { _fun00006_ip = 294; continue _fun00005 }
+ 275:
             option = option == golfie;
             report = undefined;
-            if(option) { _fun00006_ip = 276; continue _fun00005 }
- 270:
+            if(option) { _fun00006_ip = 290; continue _fun00005 }
+ 284:
             report = golfie.compositeInstanceId;
- 276:
+ 290:
             tangon = report === oscard;
- 280:
+ 294:
             entity['isCurrentlyInInstance'] = tangon;
             michal = zuuluu === michal;
             entity['canLaunchInChannel'] = michal;
             return entity;
- 296:
+ 310:
             entity = {'currentChannelId': null, 'instanceId': null, 'instanceLocation': null, 'isCurrentlyInInstance': false, 'canLaunchInChannel': false};
             return entity;
         }

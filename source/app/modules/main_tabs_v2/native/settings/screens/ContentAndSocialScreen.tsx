@@ -655,7 +655,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/main_tabs_v2/native/settings/screens/ContentAndSocialScreen.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: ContentAndSocialSettings
+    michal = function(argFoo) { // Original name: ContentAndSocialSettings
+        michal = argFoo;
+        michal = michal.route;
+        var _closure2_slot0 = michal;
         michal = _closure1_slot13;
         tangon = undefined;
         yankee = michal.bind(tangon)();
@@ -669,7 +672,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = option[zuuluu];
         michal = 1;
         option = option[michal];
-        var _closure2_slot0 = option;
+        var _closure2_slot1 = option;
         foxtra = _closure1_slot4;
         romeon = foxtra.useCallback;
         offset = function(argFoo) {
@@ -677,7 +680,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.nativeEvent;
             entity = entity.layout;
             zuuluu = entity.width;
-            michal = _closure2_slot0;
+            michal = _closure2_slot1;
             entity = undefined;
             michal = michal.bind(entity)(zuuluu);
             return entity;
@@ -693,8 +696,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = undefined;
                 oscard = michal.bind(zuuluu)();
                 tangon = null;
-                if(!(tangon != oscard)) { _fun00006_ip = 98; continue _fun00005 }
+                if(!(tangon == oscard)) { _fun00006_ip = 103; continue _fun00005 }
  19:
+                report = _closure2_slot0;
+                golfie = tangon == report;
+                report = undefined;
+                if(golfie) { _fun00006_ip = 60; continue _fun00005 }
+ 35:
+                golfie = _closure2_slot0;
+                golfie = golfie.params;
+                option = tangon == golfie;
+                report = undefined;
+                if(option) { _fun00006_ip = 60; continue _fun00005 }
+ 54:
+                report = golfie.tab;
+ 60:
+                if(!(tangon == report)) { _fun00006_ip = 66; continue _fun00005 }
+ 64:
+                return zuuluu;
+ 66:
+                michal = _closure2_slot0;
+                michal = michal.params;
+                golfie = michal.tab;
+                michal = _closure1_slot8;
+                report = michal.CONNECTED_GAMES;
+                michal = 0;
+                if(!(golfie === report)) { _fun00006_ip = 101; continue _fun00005 }
+ 98:
+                michal = 1;
+ 101:
+                return michal;
+ 103:
                 report = _closure1_slot0;
                 golfie = _closure1_slot2;
                 michal = 17;
@@ -704,24 +736,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal[oscard];
                 report = _closure1_slot8;
                 report = report.CONNECTED_GAMES;
-                if(!(oscard !== report)) { _fun00006_ip = 93; continue _fun00005 }
- 63:
+                if(!(oscard !== report)) { _fun00006_ip = 177; continue _fun00005 }
+ 147:
                 tangon = tangon == michal;
                 zuuluu = undefined;
-                if(tangon) { _fun00006_ip = 77; continue _fun00005 }
- 72:
+                if(tangon) { _fun00006_ip = 161; continue _fun00005 }
+ 156:
                 zuuluu = michal.parent;
- 77:
+ 161:
                 entity = _closure1_slot8;
                 michal = entity.CONNECTED_GAMES;
                 entity = 0;
-                if(!(zuuluu === michal)) { _fun00006_ip = 96; continue _fun00005 }
- 93:
+                if(!(zuuluu === michal)) { _fun00006_ip = 180; continue _fun00005 }
+ 177:
                 entity = 1;
- 96:
-                return entity;
- 98:
-                entity = 0;
+ 180:
                 return entity;
             }
         };

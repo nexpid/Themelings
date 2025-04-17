@@ -109,11 +109,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = golfie;
     var _closure1_slot17 = tangon;
     tangon = {};
-    golfie = 'function VoicePanelPIPPushToTalkOverlayTsx5(){const{runOnJS,handlePushToTalk}=this.__closure;runOnJS(handlePushToTalk)(true);}';
+    golfie = 'function VoicePanelPIPPushToTalkOverlayTsx5(){const{runOnJS,handlePushToTalk}=this.__closure;runOnJS(handlePushToTalk)(false);}';
     tangon['code'] = golfie;
     var _closure1_slot18 = tangon;
     tangon = {};
-    golfie = 'function VoicePanelPIPPushToTalkOverlayTsx6(){const{runOnJS,handlePushToTalk}=this.__closure;runOnJS(handlePushToTalk)(false);}';
+    golfie = 'function VoicePanelPIPPushToTalkOverlayTsx6(){const{runOnJS,handlePushToTalk}=this.__closure;runOnJS(handlePushToTalk)(true);}';
     tangon['code'] = golfie;
     var _closure1_slot19 = tangon;
     tangon = 16;
@@ -489,9 +489,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup['runOnJS'] = kiloes;
             backup['handlePushToTalk'] = verify;
             report['__closure'] = backup;
-            backup = 13835424148241.0;
+            backup = 246779667986.0;
             report['__workletHash'] = backup;
-            backup = _closure1_slot18;
+            backup = _closure1_slot19;
             report['__initData'] = backup;
             oscard = oscard.bind(option)(report);
             report = oscard.onFinalize;
@@ -516,9 +516,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['runOnJS'] = offset;
             option['handlePushToTalk'] = verify;
             entity['__closure'] = option;
-            option = 13312872336633.0;
+            option = 12223608557562.0;
             entity['__workletHash'] = option;
-            golfie = _closure1_slot19;
+            golfie = _closure1_slot18;
             entity['__initData'] = golfie;
             entity = report.bind(oscard)(entity);
             entity = zuuluu.bind(tangon)(michal, entity);

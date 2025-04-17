@@ -218,7 +218,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = golfie;
     var _closure1_slot8 = tangon;
     tangon = {};
-    golfie = 'function DrawingGestureHandlerTsx3(touchEvent){const{touchInputId,previousTouch,drawingPath,runOnJS,setIsActivelyDrawing}=this.__closure;if(touchInputId.get()===-1){const touchData=touchEvent.allTouches[0];touchInputId.set(touchData.id);previousTouch.set({x:touchData.x,y:touchData.y});drawingPath.set("M "+touchData.x+" "+touchData.y);runOnJS(setIsActivelyDrawing)(true);}}';
+    golfie = 'function DrawingGestureHandlerTsx3(touchEvent){const{touchInputId,drawingPath,previousTouch,runOnJS,RemixingActionCreators,color,strokeWidth,resetDrawing}=this.__closure;if(touchInputId.get()!=null){for(const touch of touchEvent.allTouches){if(touchInputId.get()===touch.id){drawingPath.set(drawingPath.get()+(" L "+touch.x+" "+touch.y));previousTouch.set({x:0,y:0});touchInputId.set(-1);runOnJS(RemixingActionCreators.addDrawing)(color,drawingPath.get(),strokeWidth.get());runOnJS(resetDrawing)();return;}}}}';
     tangon['code'] = golfie;
     var _closure1_slot9 = tangon;
     tangon = {};
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = golfie;
     var _closure1_slot10 = tangon;
     tangon = {};
-    golfie = 'function DrawingGestureHandlerTsx5(touchEvent){const{touchInputId,drawingPath,previousTouch,runOnJS,RemixingActionCreators,color,strokeWidth,resetDrawing}=this.__closure;if(touchInputId.get()!=null){for(const touch of touchEvent.allTouches){if(touchInputId.get()===touch.id){drawingPath.set(drawingPath.get()+(" L "+touch.x+" "+touch.y));previousTouch.set({x:0,y:0});touchInputId.set(-1);runOnJS(RemixingActionCreators.addDrawing)(color,drawingPath.get(),strokeWidth.get());runOnJS(resetDrawing)();return;}}}}';
+    golfie = 'function DrawingGestureHandlerTsx5(touchEvent){const{touchInputId,previousTouch,drawingPath,runOnJS,setIsActivelyDrawing}=this.__closure;if(touchInputId.get()===-1){const touchData=touchEvent.allTouches[0];touchInputId.set(touchData.id);previousTouch.set({x:touchData.x,y:touchData.y});drawingPath.set("M "+touchData.x+" "+touchData.y);runOnJS(setIsActivelyDrawing)(true);}}';
     tangon['code'] = golfie;
     var _closure1_slot11 = tangon;
     tangon = {};
@@ -429,9 +429,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         yankee['runOnJS'] = ctrled;
         yankee['setIsActivelyDrawing'] = source;
         golfie['__closure'] = yankee;
-        yankee = 15473425672607.0;
+        yankee = 9390781103065.0;
         golfie['__workletHash'] = yankee;
-        yankee = _closure1_slot9;
+        yankee = _closure1_slot11;
         golfie['__initData'] = yankee;
         offset = verify.bind(offset)(golfie);
         verify = offset.onTouchesMove;
@@ -584,9 +584,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         yankee['strokeWidth'] = kiloes;
         yankee['resetDrawing'] = backup;
         golfie['__closure'] = yankee;
-        yankee = 11902539716329.0;
+        yankee = 12129881441711.0;
         golfie['__workletHash'] = yankee;
-        yankee = _closure1_slot11;
+        yankee = _closure1_slot9;
         golfie['__initData'] = yankee;
         verify = verify.bind(offset)(golfie);
         golfie = option[report];

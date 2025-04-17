@@ -1,5 +1,5 @@
 // app/modules/user_settings/native/mfa_modal_flow/TwoFASetupSuccess.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     report = argBar;
     backup = argBaz;
     zuuluu = argFre;
@@ -116,25 +116,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/user_settings/native/mfa_modal_flow/TwoFASetupSuccess.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: TwoFASetupSuccess
-        zuuluu = argFoo;
-        var _closure2_slot0 = zuuluu;
-        michal = _closure1_slot10;
+    michal = function() { // Original name: TwoFASetupSuccess
+        entity = _closure1_slot10;
         tangon = undefined;
-        offset = michal.bind(tangon)();
+        offset = entity.bind(tangon)();
         report = _closure1_slot3;
-        michal = report.useRef;
-        michal = michal.bind(report)(zuuluu);
-        var _closure2_slot1 = michal;
-        zuuluu = report.useEffect;
-        michal = function() {
-            michal = _closure2_slot1;
-            entity = _closure2_slot0;
-            michal['current'] = entity;
-            entity = undefined;
-            return entity;
-        };
-        michal = zuuluu.bind(report)(michal);
         zuuluu = report.useCallback;
         michal = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -142,62 +128,59 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = _closure1_slot6;
                 entity = zuuluu.getCurrentUser;
                 report = entity.bind(zuuluu)();
-                entity = _closure2_slot1;
-                entity = entity.current;
-                oscard = entity.password;
                 tangon = null;
-                golfie = tangon == report;
+                oscard = tangon == report;
                 entity = undefined;
                 zuuluu = undefined;
-                if(golfie) { _fun00002_ip = 53; continue _fun00001 }
- 47:
+                if(oscard) { _fun00002_ip = 35; continue _fun00001 }
+ 29:
                 zuuluu = report.phone;
- 53:
-                if(!(tangon == zuuluu)) { _fun00002_ip = 186; continue _fun00001 }
- 60:
+ 35:
+                if(!(tangon == zuuluu)) { _fun00002_ip = 168; continue _fun00001 }
+ 42:
                 tangon = _closure1_slot1;
-                offset = _closure1_slot2;
+                verify = _closure1_slot2;
                 zuuluu = 10;
-                zuuluu = offset[zuuluu];
+                zuuluu = verify[zuuluu];
                 report = tangon.bind(entity)(zuuluu);
                 zuuluu = report.close;
                 zuuluu = zuuluu.bind(report)();
                 zuuluu = 11;
-                zuuluu = offset[zuuluu];
-                option = tangon.bind(entity)(zuuluu);
-                golfie = option.pushLazy;
-                verify = _closure1_slot0;
+                zuuluu = verify[zuuluu];
+                golfie = tangon.bind(entity)(zuuluu);
+                oscard = golfie.pushLazy;
+                option = _closure1_slot0;
                 zuuluu = 13;
-                zuuluu = offset[zuuluu];
-                report = verify.bind(entity)(zuuluu);
+                zuuluu = verify[zuuluu];
+                report = option.bind(entity)(zuuluu);
                 zuuluu = 12;
-                tangon = offset[zuuluu];
-                zuuluu = offset.paths;
+                tangon = verify[zuuluu];
+                zuuluu = verify.paths;
                 report = report.bind(entity)(tangon, zuuluu);
                 tangon = {};
                 zuuluu = 14;
-                zuuluu = offset[zuuluu];
-                zuuluu = verify.bind(entity)(zuuluu);
+                zuuluu = verify[zuuluu];
+                zuuluu = option.bind(entity)(zuuluu);
                 zuuluu = zuuluu.ChangePhoneReason;
                 zuuluu = zuuluu.MFA_PHONE_UPDATE;
                 tangon['reason'] = zuuluu;
                 zuuluu = _closure1_slot7;
-                zuuluu = golfie.bind(option)(report, tangon, zuuluu);
-                _fun00002_ip = 239; continue _fun00001;
- 186:
+                zuuluu = oscard.bind(golfie)(report, tangon, zuuluu);
+                _fun00002_ip = 220; continue _fun00001;
+ 168:
                 zuuluu = _closure1_slot1;
                 tangon = _closure1_slot2;
                 michal = 9;
                 michal = tangon[michal];
                 report = zuuluu.bind(entity)(michal);
                 michal = report.enableSMS;
-                michal = michal.bind(report)(oscard);
+                michal = michal.bind(report)();
                 michal = 10;
                 michal = tangon[michal];
                 zuuluu = zuuluu.bind(entity)(michal);
                 michal = zuuluu.close;
                 michal = michal.bind(zuuluu)();
- 239:
+ 220:
                 return entity;
             }
         };

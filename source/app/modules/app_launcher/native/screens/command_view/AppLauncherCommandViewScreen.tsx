@@ -1577,20 +1577,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00024_ip = 214; continue _fun00023 }
+                        if(michal) { _fun00024_ip = 210; continue _fun00023 }
  10:
                         michal = _closure2_slot2;
-                        if(!michal) { _fun00024_ip = 206; continue _fun00023 }
+                        if(!michal) { _fun00024_ip = 189; continue _fun00023 }
  23:
                         tangon = _closure2_slot0;
                         michal = null;
-                        if(!(michal == tangon)) { _fun00024_ip = 48; continue _fun00023 }
- 33:
-                        tangon = _closure2_slot52;
-                        michal = undefined;
-                        michal = tangon.bind(michal)();
-                        _fun00024_ip = 206; continue _fun00023;
- 48:
+                        if(!(michal != tangon)) { _fun00024_ip = 205; continue _fun00023 }
+ 36:
                         report = _closure1_slot0;
                         tangon = _closure1_slot3;
                         michal = 38;
@@ -1606,11 +1601,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         verify = golfie.type;
                         option = 'channel';
                         golfie = undefined;
-                        if(!(option === verify)) { _fun00024_ip = 122; continue _fun00023 }
- 113:
+                        if(!(option === verify)) { _fun00024_ip = 110; continue _fun00023 }
+ 101:
                         option = _closure2_slot1;
                         golfie = option.channel;
- 122:
+ 110:
                         michal['channel'] = golfie;
                         golfie = _closure2_slot0;
                         golfie = golfie.integration_types;
@@ -1624,24 +1619,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         golfie['sectionName'] = option;
                         michal['appLauncherContext'] = golfie;
                         michal = report.bind(oscard)(michal);
-                        SaveGenerator(address=183);
- 181:
+                        SaveGenerator(address=171);
+ 169:
                         return michal;
- 183:
+ 171:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(report) { _fun00024_ip = 211; continue _fun00023 }
- 189:
+                        if(report) { _fun00024_ip = 202; continue _fun00023 }
+ 177:
                         report = michal.isAuthorized;
-                        if(!report) { _fun00024_ip = 206; continue _fun00023 }
- 198:
-                        zuuluu = _closure2_slot52;
-                        zuuluu = zuuluu.bind(tangon)();
- 206:
+                        if(report) { _fun00024_ip = 189; continue _fun00023 }
+ 186:
+                        return tangon;
+ 189:
+                        tangon = _closure2_slot52;
                         zuuluu = undefined;
+                        tangon = tangon.bind(zuuluu)();
                         return zuuluu;
- 211:
+ 202:
                         return michal;
- 214:
+ 205:
+                        michal = undefined;
+                        return michal;
+ 210:
                         return entity;
                     }
                 };

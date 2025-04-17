@@ -261,6 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report['maxLength'] = echoed;
         report['onChangeCode'] = result;
         report['error'] = output;
+        report['isDisabled'] = backup;
         report = zuuluu.bind(tangon)(sizing, report);
         entity['input'] = report;
         report = 8;

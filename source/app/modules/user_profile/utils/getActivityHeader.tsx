@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  82:
             report = _closure1_slot4;
             report = report.XBOX;
-            if(!(oscard !== report)) { _fun00002_ip = 1451; continue _fun00001 }
+            if(!(oscard !== report)) { _fun00002_ip = 1449; continue _fun00001 }
  99:
             oscard = verify.type;
             report = _closure1_slot3;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  132:
             report = _closure1_slot4;
             report = report.PLAYSTATION;
-            if(!(oscard !== report)) { _fun00002_ip = 1328; continue _fun00001 }
+            if(!(oscard !== report)) { _fun00002_ip = 1326; continue _fun00001 }
  149:
             oscard = verify.type;
             report = _closure1_slot3;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  182:
             report = _closure1_slot4;
             report = report.TWITCH;
-            if(!(oscard !== report)) { _fun00002_ip = 1204; continue _fun00001 }
+            if(!(oscard !== report)) { _fun00002_ip = 1202; continue _fun00001 }
  199:
             oscard = verify.type;
             report = _closure1_slot3;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  232:
             entity = _closure1_slot4;
             entity = entity.YOUTUBE;
-            if(!(report !== entity)) { _fun00002_ip = 1080; continue _fun00001 }
+            if(!(report !== entity)) { _fun00002_ip = 1078; continue _fun00001 }
  249:
             report = verify.type;
             entity = _closure1_slot3;
@@ -301,7 +301,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['platformIcon'] = zuuluu;
             entity = michal;
  1005:
-            _fun00002_ip = 1078; continue _fun00001;
+            _fun00002_ip = 1076; continue _fun00001;
  1007:
             michal = {};
             option = _closure1_slot0;
@@ -319,9 +319,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['text'] = report;
             michal['platformIcon'] = zuuluu;
             entity = michal;
+ 1076:
+            _fun00002_ip = 1200; continue _fun00001;
  1078:
-            _fun00002_ip = 1202; continue _fun00001;
- 1080:
             michal = {};
             foxtra = _closure1_slot0;
             backup = _closure1_slot2;
@@ -349,9 +349,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['text'] = report;
             michal['platformIcon'] = zuuluu;
             entity = michal;
+ 1200:
+            _fun00002_ip = 1324; continue _fun00001;
  1202:
-            _fun00002_ip = 1326; continue _fun00001;
- 1204:
             michal = {};
             foxtra = _closure1_slot0;
             backup = _closure1_slot2;
@@ -379,9 +379,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['text'] = report;
             michal['platformIcon'] = zuuluu;
             entity = michal;
+ 1324:
+            _fun00002_ip = 1447; continue _fun00001;
  1326:
-            _fun00002_ip = 1449; continue _fun00001;
- 1328:
             michal = {};
             foxtra = _closure1_slot0;
             backup = _closure1_slot2;
@@ -409,9 +409,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['text'] = report;
             michal['platformIcon'] = zuuluu;
             entity = michal;
+ 1447:
+            _fun00002_ip = 1570; continue _fun00001;
  1449:
-            _fun00002_ip = 1572; continue _fun00001;
- 1451:
             michal = {};
             yankee = _closure1_slot0;
             foxtra = _closure1_slot2;
@@ -439,7 +439,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['text'] = tangon;
             michal['platformIcon'] = zuuluu;
             entity = michal;
- 1572:
+ 1570:
             return entity;
         }
     };

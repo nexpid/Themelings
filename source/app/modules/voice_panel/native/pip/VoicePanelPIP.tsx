@@ -405,9 +405,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = _closure3_slot13;
                     golfie['initialGestureOffset'] = oscard;
                     michal['__closure'] = golfie;
-                    golfie = 7706832543946.0;
+                    golfie = 4684366251999.0;
                     michal['__workletHash'] = golfie;
-                    golfie = _closure1_slot22;
+                    golfie = _closure1_slot28;
                     michal['__initData'] = golfie;
                     report = zuuluu.bind(report)(michal);
                     zuuluu = report.onTouchesUp;
@@ -431,9 +431,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee['updateSharedValueIfChanged'] = backup;
                     yankee['initialGestureOffset'] = oscard;
                     michal['__closure'] = yankee;
-                    yankee = 4606005866023.0;
+                    yankee = 11771025649835.0;
                     michal['__workletHash'] = yankee;
-                    yankee = _closure1_slot23;
+                    yankee = _closure1_slot27;
                     michal['__initData'] = yankee;
                     report = zuuluu.bind(report)(michal);
                     zuuluu = report.onTouchesMove;
@@ -542,9 +542,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sizing = option.bind(verify)(sizing);
                     yankee['triggerIOSHaptic'] = sizing;
                     michal['__closure'] = yankee;
-                    yankee = 12372145476453.0;
+                    yankee = 16714994610987.0;
                     michal['__workletHash'] = yankee;
-                    yankee = _closure1_slot24;
+                    yankee = _closure1_slot26;
                     michal['__initData'] = yankee;
                     report = zuuluu.bind(report)(michal);
                     zuuluu = report.onChange;
@@ -668,9 +668,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = romeon.updateSourceTrackingView;
                     yankee['updateSourceTrackingView'] = romeon;
                     michal['__closure'] = yankee;
-                    yankee = 14664553478840.0;
+                    yankee = 11935428351350.0;
                     michal['__workletHash'] = yankee;
-                    yankee = _closure1_slot26;
+                    yankee = _closure1_slot24;
                     michal['__initData'] = yankee;
                     report = zuuluu.bind(report)(michal);
                     zuuluu = report.onTouchesCancelled;
@@ -692,9 +692,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee['updateSharedValueIfChanged'] = romeon;
                     yankee['initialGestureOffset'] = oscard;
                     michal['__closure'] = yankee;
-                    yankee = 11771025649835.0;
+                    yankee = 4606005866023.0;
                     michal['__workletHash'] = yankee;
-                    yankee = _closure1_slot27;
+                    yankee = _closure1_slot23;
                     michal['__initData'] = yankee;
                     zuuluu = zuuluu.bind(report)(michal);
                     michal = zuuluu.onFinalize;
@@ -716,9 +716,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report['updateSharedValueIfChanged'] = golfie;
                     report['initialGestureOffset'] = oscard;
                     entity['__closure'] = report;
-                    report = 14589135665299.0;
+                    report = 5443656412422.0;
                     entity['__workletHash'] = report;
-                    tangon = _closure1_slot28;
+                    tangon = _closure1_slot22;
                     entity['__initData'] = tangon;
                     entity = michal.bind(zuuluu)(entity);
                     return entity;
@@ -1610,7 +1610,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = option;
     var _closure1_slot21 = tangon;
     tangon = {};
-    option = 'function VoicePanelPIPTsx4({absoluteX:absoluteX,absoluteY:absoluteY}){const{initialGestureOffset}=this.__closure;initialGestureOffset.set({x:0,y:0,absoluteX:absoluteX,absoluteY:absoluteY,active:false,pressed:true});}';
+    option = 'function VoicePanelPIPTsx4(){const{updateSharedValueIfChanged,initialGestureOffset}=this.__closure;updateSharedValueIfChanged(initialGestureOffset,{active:false,pressed:false});}';
     tangon['code'] = option;
     var _closure1_slot22 = tangon;
     tangon = {};
@@ -1618,7 +1618,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = option;
     var _closure1_slot23 = tangon;
     tangon = {};
-    option = 'function VoicePanelPIPTsx6(event,manager){const{State,initialGestureOffset,MIN_GESTURE_START,updateSharedValueIfChanged,wrapperOffset,runOnJS,triggerIOSHaptic}=this.__closure;if(event.state!==State.BEGAN||initialGestureOffset.get().active)return;const{absoluteY:absoluteY,absoluteX:absoluteX}=event.changedTouches[0];if(Math.abs(initialGestureOffset.get().absoluteX-absoluteX)>MIN_GESTURE_START||Math.abs(initialGestureOffset.get().absoluteY-absoluteY)>MIN_GESTURE_START){initialGestureOffset.set({x:0,y:0,absoluteX:absoluteX,absoluteY:absoluteY,pressed:true,active:true});updateSharedValueIfChanged(wrapperOffset,{gestureActive:true,x:0,y:0});manager.activate();runOnJS(triggerIOSHaptic)();}}';
+    option = 'function VoicePanelPIPTsx6({velocityX:velocityX,velocityY:velocityY,absoluteX:absoluteX,absoluteY:absoluteY}){const{calculatePIPPositionFromVelocity,windowDimensions,safeArea,updateSharedValueIfChanged,wrapperDimensions,wrapperOffset,runOnJS,updateSourceTrackingView}=this.__closure;const{pipX:pipX,pipY:pipY}=calculatePIPPositionFromVelocity({velocityX:velocityX,velocityY:velocityY,absoluteX:absoluteX,absoluteY:absoluteY,windowDimensions:windowDimensions.get(),safeArea:safeArea.get()});updateSharedValueIfChanged(wrapperDimensions,{pipX:pipX,pipY:pipY});updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});runOnJS(updateSourceTrackingView)();}';
     tangon['code'] = option;
     var _closure1_slot24 = tangon;
     tangon = {};
@@ -1626,7 +1626,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = option;
     var _closure1_slot25 = tangon;
     tangon = {};
-    option = 'function VoicePanelPIPTsx8({velocityX:velocityX,velocityY:velocityY,absoluteX:absoluteX,absoluteY:absoluteY}){const{calculatePIPPositionFromVelocity,windowDimensions,safeArea,updateSharedValueIfChanged,wrapperDimensions,wrapperOffset,runOnJS,updateSourceTrackingView}=this.__closure;const{pipX:pipX,pipY:pipY}=calculatePIPPositionFromVelocity({velocityX:velocityX,velocityY:velocityY,absoluteX:absoluteX,absoluteY:absoluteY,windowDimensions:windowDimensions.get(),safeArea:safeArea.get()});updateSharedValueIfChanged(wrapperDimensions,{pipX:pipX,pipY:pipY});updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});runOnJS(updateSourceTrackingView)();}';
+    option = 'function VoicePanelPIPTsx8(event,manager){const{State,initialGestureOffset,MIN_GESTURE_START,updateSharedValueIfChanged,wrapperOffset,runOnJS,triggerIOSHaptic}=this.__closure;if(event.state!==State.BEGAN||initialGestureOffset.get().active)return;const{absoluteY:absoluteY,absoluteX:absoluteX}=event.changedTouches[0];if(Math.abs(initialGestureOffset.get().absoluteX-absoluteX)>MIN_GESTURE_START||Math.abs(initialGestureOffset.get().absoluteY-absoluteY)>MIN_GESTURE_START){initialGestureOffset.set({x:0,y:0,absoluteX:absoluteX,absoluteY:absoluteY,pressed:true,active:true});updateSharedValueIfChanged(wrapperOffset,{gestureActive:true,x:0,y:0});manager.activate();runOnJS(triggerIOSHaptic)();}}';
     tangon['code'] = option;
     var _closure1_slot26 = tangon;
     tangon = {};
@@ -1634,7 +1634,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = option;
     var _closure1_slot27 = tangon;
     tangon = {};
-    option = 'function VoicePanelPIPTsx10(){const{updateSharedValueIfChanged,initialGestureOffset}=this.__closure;updateSharedValueIfChanged(initialGestureOffset,{active:false,pressed:false});}';
+    option = 'function VoicePanelPIPTsx10({absoluteX:absoluteX,absoluteY:absoluteY}){const{initialGestureOffset}=this.__closure;initialGestureOffset.set({x:0,y:0,absoluteX:absoluteX,absoluteY:absoluteY,active:false,pressed:true});}';
     tangon['code'] = option;
     var _closure1_slot28 = tangon;
     tangon = {};

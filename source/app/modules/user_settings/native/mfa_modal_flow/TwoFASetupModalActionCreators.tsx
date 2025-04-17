@@ -1,5 +1,5 @@
 // app/modules/user_settings/native/mfa_modal_flow/TwoFASetupModalActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     tangon = argPlu;
@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = '__esModule';
     michal = golfie.bind(option)(zuuluu, michal, oscard);
     michal = {};
-    oscard = function(argFoo) { // Original name: open
+    oscard = function() { // Original name: open
         report = _closure1_slot1;
         michal = _closure1_slot2;
         entity = 0;
@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu = michal[zuuluu];
         michal = michal.paths;
         tangon = tangon.bind(entity)(zuuluu, michal);
-        zuuluu = argFoo;
+        zuuluu = {};
         michal = 'TWO_FA_SETUP_MODAL_KEY';
         michal = report.bind(oscard)(tangon, zuuluu, michal);
         return entity;

@@ -30,10 +30,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = _closure1_slot2;
         entity = undefined;
         tangon = report.bind(entity)(zuuluu, tangon);
-        tangon = null;
-        zuuluu['filterTagIds'] = tangon;
-        zuuluu['sortOrder'] = tangon;
-        zuuluu['layout'] = tangon;
         tangon = function(argFoo) {
             michal = _closure2_slot0;
             entity = argFoo;
@@ -58,6 +54,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         zuuluu['setLayout'] = tangon;
+        tangon = function(argFoo) {
+            michal = _closure2_slot0;
+            entity = argFoo;
+            michal['tagSetting'] = entity;
+            entity = undefined;
+            return entity;
+        };
+        zuuluu['setTagSetting'] = tangon;
         tangon = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -105,18 +109,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         zuuluu['getSortOrderAnalytics'] = tangon;
-        michal = function(argFoo) {
+        tangon = function(argFoo) {
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                zuuluu = _closure1_slot1;
-                michal = zuuluu.getChannel;
-                entity = argFoo;
-                tangon = michal.bind(zuuluu)(entity);
                 entity = _closure2_slot0;
                 entity = entity.layout;
                 michal = null;
                 if(!(michal == entity)) { _fun00006_ip = 61; continue _fun00005 }
- 39:
+ 19:
+                report = _closure1_slot1;
+                tangon = report.getChannel;
+                zuuluu = argFoo;
+                tangon = tangon.bind(report)(zuuluu);
                 zuuluu = michal == tangon;
                 michal = undefined;
                 if(zuuluu) { _fun00006_ip = 58; continue _fun00005 }
@@ -129,7 +133,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             }
         };
-        zuuluu['getLayoutAnalytics'] = michal;
+        zuuluu['getLayoutAnalytics'] = tangon;
+        michal = function(argFoo) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+ 0:
+                entity = _closure2_slot0;
+                entity = entity.tagSetting;
+                michal = null;
+                if(!(michal == entity)) { _fun00008_ip = 61; continue _fun00007 }
+ 19:
+                report = _closure1_slot1;
+                tangon = report.getChannel;
+                zuuluu = argFoo;
+                tangon = tangon.bind(report)(zuuluu);
+                zuuluu = michal == tangon;
+                michal = undefined;
+                if(zuuluu) { _fun00008_ip = 58; continue _fun00007 }
+ 48:
+                zuuluu = tangon.getDefaultTagSetting;
+                michal = zuuluu.bind(tangon)();
+ 58:
+                entity = michal;
+ 61:
+                return entity;
+            }
+        };
+        zuuluu['getTagSettingAnalytics'] = michal;
         return entity;
     };
     var _closure1_slot2 = michal;

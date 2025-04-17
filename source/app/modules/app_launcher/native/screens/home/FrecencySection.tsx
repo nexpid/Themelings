@@ -239,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = entity.bind(oscard)();
             zuuluu = michal.section;
             entity = null;
-            if(!(entity != zuuluu)) { _fun00006_ip = 306; continue _fun00005 }
+            if(!(entity != zuuluu)) { _fun00006_ip = 341; continue _fun00005 }
  69:
             tangon = _closure1_slot0;
             offset = _closure1_slot2;
@@ -265,6 +265,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  151:
             zuuluu['style'] = offset;
             zuuluu['disabled'] = verify;
+            verify = true;
+            zuuluu['accessible'] = verify;
+            verify = michal.section;
+            offset = verify.application;
+            foxtra = entity == offset;
+            verify = undefined;
+            if(foxtra) { _fun00006_ip = 190; continue _fun00005 }
+ 185:
+            verify = offset.name;
+ 190:
+            zuuluu['accessibilityLabel'] = verify;
             golfie = function() { // Original name: onPress
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -303,8 +314,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             zuuluu['onPress'] = golfie;
             verify = entity != backup;
-            if(!verify) { _fun00006_ip = 223; continue _fun00005 }
- 177:
+            if(!verify) { _fun00006_ip = 258; continue _fun00005 }
+ 212:
             foxtra = _closure1_slot11;
             offset = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -316,7 +327,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['style'] = kiloes;
             golfie['source'] = backup;
             verify = foxtra.bind(oscard)(offset, golfie);
- 223:
+ 258:
             golfie = new Array(2);
             golfie[0] = verify;
             offset = _closure1_slot11;
@@ -336,7 +347,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.applicationId;
             michal = report.bind(oscard)(tangon, zuuluu, michal);
             return michal;
- 306:
+ 341:
             return entity;
         }
     };

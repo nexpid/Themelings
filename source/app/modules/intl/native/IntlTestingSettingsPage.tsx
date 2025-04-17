@@ -107,36 +107,45 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = backup[entity];
             tangon = undefined;
             oscard = romeon.bind(tangon)(entity);
-            report = oscard.useStateFromStores;
+            report = oscard.useStateFromStoresArray;
             entity = _closure1_slot9;
             michal = new Array(1);
             michal[0] = entity;
             entity = function() {
                 entity = _closure1_slot9;
-                entity = entity.locale;
+                zuuluu = entity.locale;
+                entity = new Array(2);
+                entity[0] = zuuluu;
+                michal = _closure1_slot9;
+                michal = michal.systemLocale;
+                entity[1] = michal;
                 return entity;
             };
-            result = report.bind(oscard)(michal, entity);
-            golfie = _closure1_slot5;
-            oscard = golfie.useState;
+            michal = report.bind(oscard)(michal, entity);
+            entity = _closure1_slot3;
+            verify = 2;
+            entity = entity.bind(tangon)(michal, verify);
+            golfie = 0;
+            echoed = entity[golfie];
+            oscard = 1;
+            result = entity[oscard];
+            offset = _closure1_slot5;
+            option = offset.useState;
             michal = _closure1_slot1;
             entity = 14;
             report = backup[entity];
             report = michal.bind(tangon)(report);
             report = report.locale;
-            golfie = oscard.bind(golfie)(report);
-            oscard = _closure1_slot3;
-            report = 2;
-            oscard = oscard.bind(tangon)(golfie, report);
-            report = 0;
-            yankee = oscard[report];
-            report = 1;
-            report = oscard[report];
+            option = option.bind(offset)(report);
+            report = _closure1_slot3;
+            report = report.bind(tangon)(option, verify);
+            yankee = report[golfie];
+            report = report[oscard];
             var _closure2_slot0 = report;
             golfie = _closure1_slot5;
             oscard = golfie.useEffect;
             report = new Array(1);
-            report[0] = result;
+            report[0] = echoed;
             zuuluu = function() {
                 entity = global;
                 tangon = entity.setTimeout;
@@ -189,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = sizing.bind(tangon)(kiloes, option);
             report['trailing'] = option;
             oscard = golfie.bind(tangon)(oscard, report);
-            report = new Array(4);
+            report = new Array(5);
             report[0] = oscard;
             option = _closure1_slot10;
             oscard = backup[verify];
@@ -204,11 +213,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.TableRow;
             sizing = kiloes.TrailingText;
             kiloes = {};
-            kiloes['text'] = result;
+            kiloes['text'] = echoed;
             kiloes = output.bind(tangon)(sizing, kiloes);
             oscard['trailing'] = kiloes;
             oscard = option.bind(tangon)(golfie, oscard);
             report[1] = oscard;
+            option = _closure1_slot10;
+            oscard = backup[verify];
+            oscard = romeon.bind(tangon)(oscard);
+            golfie = oscard.TableRow;
+            oscard = {};
+            kiloes = 'System locale';
+            oscard['label'] = kiloes;
+            output = _closure1_slot10;
+            kiloes = backup[verify];
+            kiloes = romeon.bind(tangon)(kiloes);
+            kiloes = kiloes.TableRow;
+            sizing = kiloes.TrailingText;
+            kiloes = {};
+            kiloes['text'] = result;
+            kiloes = output.bind(tangon)(sizing, kiloes);
+            oscard['trailing'] = kiloes;
+            oscard = option.bind(tangon)(golfie, oscard);
+            report[2] = oscard;
             option = _closure1_slot10;
             oscard = backup[verify];
             oscard = romeon.bind(tangon)(oscard);
@@ -231,7 +258,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = output.bind(tangon)(sizing, kiloes);
             oscard['trailing'] = kiloes;
             oscard = option.bind(tangon)(golfie, oscard);
-            report[2] = oscard;
+            report[3] = oscard;
             option = _closure1_slot10;
             oscard = backup[verify];
             oscard = romeon.bind(tangon)(oscard);
@@ -249,13 +276,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = foxtra.bind(tangon)(romeon, verify);
             oscard['trailing'] = verify;
             verify = 'Locale data does not match';
-            if(!(yankee === offset)) { _fun00004_ip = 576; continue _fun00003 }
- 570:
+            if(!(yankee === offset)) { _fun00004_ip = 678; continue _fun00003 }
+ 672:
             verify = 'Locale data matches current locale';
- 576:
+ 678:
             oscard['subLabel'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
-            report[3] = oscard;
+            report[4] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

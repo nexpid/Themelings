@@ -49,11 +49,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     tangon['code'] = golfie;
     var _closure1_slot10 = tangon;
     tangon = {};
-    golfie = 'function ContextMenuNativeTsx6(){const{runOnJS,triggerHapticFeedback,HapticFeedbackTypes,measureButtonAndShowMenu}=this.__closure;runOnJS(triggerHapticFeedback)(HapticFeedbackTypes.IMPACT_MEDIUM);measureButtonAndShowMenu();}';
+    golfie = 'function ContextMenuNativeTsx6(e){const{updateContextMenuState,state}=this.__closure;updateContextMenuState(e.absoluteX,e.absoluteY,state);}';
     tangon['code'] = golfie;
     var _closure1_slot11 = tangon;
     tangon = {};
-    golfie = 'function ContextMenuNativeTsx7(e){const{updateContextMenuState,state}=this.__closure;updateContextMenuState(e.absoluteX,e.absoluteY,state);}';
+    golfie = 'function ContextMenuNativeTsx7(){const{runOnJS,triggerHapticFeedback,HapticFeedbackTypes,measureButtonAndShowMenu}=this.__closure;runOnJS(triggerHapticFeedback)(HapticFeedbackTypes.IMPACT_MEDIUM);measureButtonAndShowMenu();}';
     tangon['code'] = golfie;
     var _closure1_slot12 = tangon;
     tangon = 15;
@@ -920,9 +920,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     offset = _closure2_slot24;
                     golfie['measureButtonAndShowMenu'] = offset;
                     entity['__closure'] = golfie;
-                    golfie = 12352363869337.0;
+                    golfie = 3614426364216.0;
                     entity['__workletHash'] = golfie;
-                    golfie = _closure1_slot11;
+                    golfie = _closure1_slot12;
                     entity['__initData'] = golfie;
                     oscard = michal.bind(oscard)(entity);
                     michal = oscard.onUpdate;
@@ -950,9 +950,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     offset = _closure2_slot16;
                     golfie['state'] = offset;
                     entity['__closure'] = golfie;
-                    golfie = 16977333494985.0;
+                    golfie = 8243568905832.0;
                     entity['__workletHash'] = golfie;
-                    golfie = _closure1_slot12;
+                    golfie = _closure1_slot11;
                     entity['__initData'] = golfie;
                     michal = michal.bind(oscard)(entity);
                     entity = michal.onEnd;

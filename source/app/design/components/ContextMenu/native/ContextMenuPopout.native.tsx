@@ -353,11 +353,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie['code'] = option;
     var _closure1_slot12 = golfie;
     golfie = {};
-    option = 'function ContextMenuPopoutNativeTsx4(e,state){const{scrollingEnabled}=this.__closure;if(scrollingEnabled.get()){state.fail();}else{state.activate();}}';
+    option = 'function ContextMenuPopoutNativeTsx4(){const{state,runOnJS,requestClose}=this.__closure;const{activeIndex:activeIndex}=state;const isDismiss=activeIndex.get()===-1;runOnJS(requestClose)(isDismiss);}';
     golfie['code'] = option;
     var _closure1_slot13 = golfie;
     golfie = {};
-    option = 'function ContextMenuPopoutNativeTsx5(){const{state,runOnJS,requestClose}=this.__closure;const{activeIndex:activeIndex}=state;const isDismiss=activeIndex.get()===-1;runOnJS(requestClose)(isDismiss);}';
+    option = 'function ContextMenuPopoutNativeTsx5(e,state){const{scrollingEnabled}=this.__closure;if(scrollingEnabled.get()){state.fail();}else{state.activate();}}';
     golfie['code'] = option;
     var _closure1_slot14 = golfie;
     tangon = oscard[tangon];
@@ -918,9 +918,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 foxtra = _closure2_slot10;
                 romeon['scrollingEnabled'] = foxtra;
                 michal['__closure'] = romeon;
-                romeon = 8872980668372.0;
+                romeon = 1299584703797.0;
                 michal['__workletHash'] = romeon;
-                romeon = _closure1_slot13;
+                romeon = _closure1_slot14;
                 michal['__initData'] = romeon;
                 zuuluu = zuuluu.bind(yankee)(michal);
                 michal = zuuluu.onStart;
@@ -957,9 +957,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = _closure2_slot6;
                 report['requestClose'] = oscard;
                 entity['__closure'] = report;
-                report = 6637323929685.0;
+                report = 14495067009140.0;
                 entity['__workletHash'] = report;
-                tangon = _closure1_slot14;
+                tangon = _closure1_slot13;
                 entity['__initData'] = tangon;
                 entity = michal.bind(zuuluu)(entity);
                 return entity;

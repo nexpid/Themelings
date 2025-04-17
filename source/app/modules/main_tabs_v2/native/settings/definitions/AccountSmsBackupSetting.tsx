@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = report.bind(entity)(michal);
     michal = michal.PHONE_VERIFICATION_MODAL_KEY;
     var _closure1_slot5 = michal;
-    michal = 14;
+    michal = 15;
     michal = oscard[michal];
     romeon = report.bind(entity)(michal);
     yankee = romeon.debounce;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argFoo;
             michal = entity.mfaSMSEnabled;
             entity = entity.user;
-            if(michal) { _fun00004_ip = 339; continue _fun00003 }
+            if(michal) { _fun00004_ip = 275; continue _fun00003 }
  20:
             michal = null;
             if(!(michal != entity)) { _fun00004_ip = 36; continue _fun00003 }
@@ -94,21 +94,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  36:
             zuuluu = _closure1_slot1;
             verify = _closure1_slot2;
-            michal = 10;
+            michal = 11;
             michal = verify[michal];
             option = undefined;
             report = zuuluu.bind(option)(michal);
             tangon = report.pushLazy;
             golfie = _closure1_slot0;
-            michal = 12;
+            michal = 13;
             michal = verify[michal];
             oscard = golfie.bind(option)(michal);
-            michal = 11;
+            michal = 12;
             zuuluu = verify[michal];
             michal = verify.paths;
             zuuluu = oscard.bind(option)(zuuluu, michal);
             michal = {};
-            oscard = 13;
+            oscard = 14;
             oscard = verify[oscard];
             oscard = golfie.bind(option)(oscard);
             oscard = oscard.ChangePhoneReason;
@@ -116,51 +116,54 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['reason'] = oscard;
             entity = _closure1_slot5;
             entity = tangon.bind(report)(zuuluu, michal, entity);
-            _fun00004_ip = 527; continue _fun00003;
+            _fun00004_ip = 463; continue _fun00003;
  148:
-            option = _closure1_slot0;
+            golfie = _closure1_slot0;
             report = _closure1_slot2;
             michal = 7;
-            entity = report[michal];
+            tangon = report[michal];
             zuuluu = undefined;
-            entity = option.bind(zuuluu)(entity);
-            golfie = entity.intl;
-            oscard = golfie.string;
-            entity = report[michal];
-            entity = option.bind(zuuluu)(entity);
-            entity = entity.t;
-            entity = entity.CIGa+/;
-            oscard = oscard.bind(golfie)(entity);
-            entity = oscard.toUpperCase;
-            entity = entity.bind(oscard)();
-            oscard = report[michal];
-            oscard = option.bind(zuuluu)(oscard);
-            golfie = oscard.intl;
-            oscard = golfie.string;
+            tangon = golfie.bind(zuuluu)(tangon);
+            oscard = tangon.intl;
+            tangon = oscard.string;
             michal = report[michal];
-            michal = option.bind(zuuluu)(michal);
+            michal = golfie.bind(zuuluu)(michal);
             michal = michal.t;
             michal = michal.DZQe29;
-            oscard = oscard.bind(golfie)(michal);
-            michal = oscard.toUpperCase;
-            oscard = michal.bind(oscard)();
-            michal = {};
-            tangon = _closure1_slot1;
-            golfie = 8;
-            golfie = report[golfie];
-            golfie = tangon.bind(zuuluu)(golfie);
-            golfie = golfie.enableSMS;
-            michal['onSubmit'] = golfie;
-            michal['title'] = oscard;
-            michal['placeholder'] = entity;
-            entity = true;
-            michal['closeOnSuccess'] = entity;
-            entity = 9;
+            tangon = tangon.bind(oscard)(michal);
+            michal = tangon.toUpperCase;
+            tangon = michal.bind(tangon)();
+            michal = _closure1_slot1;
+            entity = 10;
             entity = report[entity];
-            entity = tangon.bind(zuuluu)(entity);
-            entity = entity.bind(zuuluu)(michal);
-            _fun00004_ip = 527; continue _fun00003;
- 339:
+            zuuluu = michal.bind(zuuluu)(entity);
+            michal = zuuluu.confirm;
+            entity = {};
+            entity['title'] = tangon;
+            zuuluu = michal.bind(zuuluu)(entity);
+            michal = zuuluu.then;
+            entity = function(argFoo) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+                    entity = argFoo;
+                    if(!entity) { _fun00006_ip = 41; continue _fun00005 }
+ 6:
+                    zuuluu = _closure1_slot1;
+                    michal = _closure1_slot2;
+                    entity = 8;
+                    michal = michal[entity];
+                    entity = undefined;
+                    michal = zuuluu.bind(entity)(michal);
+                    entity = michal.enableSMS;
+                    entity = entity.bind(michal)();
+ 41:
+                    entity = undefined;
+                    return entity;
+                }
+            };
+            entity = michal.bind(zuuluu)(entity);
+            _fun00004_ip = 463; continue _fun00003;
+ 275:
             option = _closure1_slot0;
             report = _closure1_slot2;
             michal = 7;
@@ -202,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = report[entity];
             entity = tangon.bind(zuuluu)(entity);
             entity = entity.bind(zuuluu)(michal);
- 527:
+ 463:
             entity = undefined;
             return entity;
         }
@@ -242,7 +245,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['useIsDisabled'] = option;
     option = function() { // Original name: useAccountSMSBackupSettingToggleValue
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             tangon = _closure1_slot0;
             michal = _closure1_slot2;
@@ -263,7 +266,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report.bind(oscard)(tangon, entity);
             entity = null;
             tangon = entity == report;
-            if(tangon) { _fun00006_ip = 87; continue _fun00005 }
+            if(tangon) { _fun00008_ip = 87; continue _fun00007 }
  66:
             tangon = report.hasFlag;
             zuuluu = _closure1_slot4;
@@ -271,7 +274,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = tangon.bind(report)(zuuluu);
  87:
             entity = entity != michal;
-            if(!entity) { _fun00006_ip = 97; continue _fun00005 }
+            if(!entity) { _fun00008_ip = 97; continue _fun00007 }
  94:
             entity = michal;
  97:
@@ -280,13 +283,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['useValue'] = option;
     golfie = function(argFoo) { // Original name: onAccountSMSBackupSettingTogglePress
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             zuuluu = _closure1_slot3;
             entity = zuuluu.getCurrentUser;
             entity = entity.bind(zuuluu)();
             zuuluu = null;
-            if(!(zuuluu != entity)) { _fun00008_ip = 50; continue _fun00007 }
+            if(!(zuuluu != entity)) { _fun00010_ip = 50; continue _fun00009 }
  22:
             zuuluu = _closure1_slot6;
             michal = {};
@@ -303,12 +306,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['onValueChange'] = golfie;
     michal['useDescription'] = tangon;
-    tangon = 15;
+    tangon = 16;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.useIsTOTPEnabled;
     michal['usePredicate'] = tangon;
-    tangon = 16;
+    tangon = 17;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

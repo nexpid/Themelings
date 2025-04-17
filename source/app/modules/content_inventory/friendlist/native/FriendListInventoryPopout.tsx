@@ -377,7 +377,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = golfie;
     var _closure1_slot28 = tangon;
     tangon = {};
-    golfie = 'function FriendListInventoryPopoutTsx4(e){const{panStart,runOnJS,blur}=this.__closure;panStart.set(e.absoluteX);runOnJS(blur)();}';
+    golfie = "function FriendListInventoryPopoutTsx4(){const{swipeLock,SwipeLockStatus,panStart,withTiming,panProgress,detailsOpacity,withSpring,detailsScale}=this.__closure;if(swipeLock.get()!==SwipeLockStatus.Locked){swipeLock.set(SwipeLockStatus.Unlocked);const RESET_DURATION=50;panStart.set(withTiming(0,{duration:RESET_DURATION},'animate-always'));panProgress.set(withTiming(0,{duration:RESET_DURATION},'animate-always'));detailsOpacity.set(withSpring(1,{duration:RESET_DURATION}));detailsScale.set(withSpring(1,{duration:RESET_DURATION}));}else{swipeLock.set(SwipeLockStatus.PendingUnlock);}}";
     tangon['code'] = golfie;
     var _closure1_slot29 = tangon;
     tangon = {};
@@ -385,7 +385,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = golfie;
     var _closure1_slot30 = tangon;
     tangon = {};
-    golfie = "function FriendListInventoryPopoutTsx6(){const{swipeLock,SwipeLockStatus,panStart,withTiming,panProgress,detailsOpacity,withSpring,detailsScale}=this.__closure;if(swipeLock.get()!==SwipeLockStatus.Locked){swipeLock.set(SwipeLockStatus.Unlocked);const RESET_DURATION=50;panStart.set(withTiming(0,{duration:RESET_DURATION},'animate-always'));panProgress.set(withTiming(0,{duration:RESET_DURATION},'animate-always'));detailsOpacity.set(withSpring(1,{duration:RESET_DURATION}));detailsScale.set(withSpring(1,{duration:RESET_DURATION}));}else{swipeLock.set(SwipeLockStatus.PendingUnlock);}}";
+    golfie = 'function FriendListInventoryPopoutTsx6(e){const{panStart,runOnJS,blur}=this.__closure;panStart.set(e.absoluteX);runOnJS(blur)();}';
     tangon['code'] = golfie;
     var _closure1_slot31 = tangon;
     tangon = 41;
@@ -878,9 +878,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['runOnJS'] = whisks;
             oscard['blur'] = vacuum;
             michal['__closure'] = oscard;
-            oscard = 14791653899394.0;
+            oscard = 4811618860864.0;
             michal['__workletHash'] = oscard;
-            oscard = _closure1_slot29;
+            oscard = _closure1_slot31;
             michal['__initData'] = oscard;
             tangon = zuuluu.bind(tangon)(michal);
             zuuluu = tangon.onChange;
@@ -1114,9 +1114,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['withSpring'] = verify;
             oscard['detailsScale'] = golfie;
             michal['__closure'] = oscard;
-            oscard = 4284187368000.0;
+            oscard = 5931245557634.0;
             michal['__workletHash'] = oscard;
-            oscard = _closure1_slot31;
+            oscard = _closure1_slot29;
             michal['__initData'] = oscard;
             output = zuuluu.bind(tangon)(michal);
             tangon = _closure1_slot21;

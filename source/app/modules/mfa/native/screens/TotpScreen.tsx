@@ -104,81 +104,76 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         StartGenerator();
-                        report = argFoo;
+                        golfie = argFoo;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00004_ip = 215; continue _fun00003 }
+                        if(michal) { _fun00004_ip = 192; continue _fun00003 }
  13:
-                        option = report;
+                        option = golfie;
                         michal = undefined;
                         oscard = undefined;
                         verify = undefined;
-                        golfie = _closure2_slot3;
-                        golfie = golfie.bind(michal)(report);
-                        golfie = report.length;
-                        offset = _closure1_slot0;
-                        yankee = _closure1_slot2;
-                        report = 4;
-                        report = yankee[report];
-                        report = offset.bind(michal)(report);
-                        report = report.TOTP_CODE_LENGTH;
-                        if(!(golfie === report)) { _fun00004_ip = 212; continue _fun00003 }
- 75:
+                        report = _closure2_slot3;
+                        report = report.bind(michal)(golfie);
+                        report = _closure1_slot7;
+                        report = report.bind(michal)(golfie);
+                        if(!report) { _fun00004_ip = 189; continue _fun00003 }
+ 52:
                         report = _closure2_slot4;
                         report = report.bind(michal)(michal);
                         golfie = _closure2_slot1;
                         report = true;
                         report = golfie.bind(michal)(report);
- 95: // try_start_0
+ 72: // try_start_0
                         golfie = _closure2_slot0;
                         report = {};
                         offset = 'totp';
                         report['mfaType'] = offset;
                         report['data'] = option;
                         report = golfie.bind(michal)(report);
-                        SaveGenerator(address=123);
- 121:
+                        SaveGenerator(address=100);
+ 98:
                         return report;
- 123:
+ 100:
                         ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                        if(golfie) { _fun00004_ip = 131; continue _fun00003 }
- 129: // try_end0
-                        _fun00004_ip = 201; continue _fun00003;
- 131:
+                        if(golfie) { _fun00004_ip = 108; continue _fun00003 }
+ 106: // try_end0
+                        _fun00004_ip = 178; continue _fun00003;
+ 108:
                         return report;
- 134: // catch_target0
+ 111: // catch_target0
                         CatchBlockStart(arg_register=6);
                         tangon = golfie;
                         report = _closure2_slot4;
                         option = null;
                         offset = option == golfie;
                         golfie = undefined;
-                        if(offset) { _fun00004_ip = 179; continue _fun00003 }
- 154:
+                        if(offset) { _fun00004_ip = 156; continue _fun00003 }
+ 131:
                         offset = tangon;
                         offset = offset.body;
                         verify = offset;
                         offset = option == offset;
                         golfie = undefined;
-                        if(offset) { _fun00004_ip = 179; continue _fun00003 }
- 174:
+                        if(offset) { _fun00004_ip = 156; continue _fun00003 }
+ 151:
                         golfie = verify.message;
- 179:
+ 156:
                         oscard = golfie;
-                        if(!(option == golfie)) { _fun00004_ip = 193; continue _fun00003 }
- 186:
+                        if(!(option == golfie)) { _fun00004_ip = 170; continue _fun00003 }
+ 163:
                         tangon = tangon.message;
-                        _fun00004_ip = 196; continue _fun00003;
- 193:
+                        _fun00004_ip = 173; continue _fun00003;
+ 170:
                         tangon = oscard;
- 196:
+ 173:
                         tangon = report.bind(michal)(tangon);
- 201:
+ 178:
                         tangon = _closure2_slot1;
                         zuuluu = false;
                         zuuluu = tangon.bind(michal)(zuuluu);
- 212:
+ 189:
                         return michal;
- 215:
+ 192:
                         return entity;
                     }
                 };
@@ -255,6 +250,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report['maxLength'] = echoed;
         report['onChangeCode'] = result;
         report['error'] = output;
+        report['isDisabled'] = backup;
         output = 'oneTimeCode';
         report['textContentType'] = output;
         output = 'one-time-code';

@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = '__esModule';
     entity = golfie.bind(option)(zuuluu, entity, oscard);
     entity = {};
-    oscard = 'function useModalPanGestureTsx1(){const{onStart,runOnJS,start,translateY}=this.__closure;if(onStart!=null){runOnJS(onStart)();}start.set({y:translateY.get()});}';
+    oscard = "function useModalPanGestureTsx1({velocityY:velocityY}){const{translateY,thresholdTranslate,thresholdVelocity,withSpring,height,runOnJS,ModalActionCreators,onEnd}=this.__closure;const config={damping:15,mass:1,stiffness:250,overshootClamping:true,restSpeedThreshold:0.001,restDisplacementThreshold:0.001,velocity:velocityY};if(translateY.get()>=thresholdTranslate||velocityY>=thresholdVelocity){translateY.set(withSpring(height,config,'respect-motion-settings',function(){runOnJS(ModalActionCreators.pop)();}));}else{translateY.set(withSpring(0,config));}if(onEnd!=null){runOnJS(onEnd)();}}";
     entity['code'] = oscard;
     var _closure1_slot3 = entity;
     entity = {};
@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity['code'] = oscard;
     var _closure1_slot4 = entity;
     entity = {};
-    oscard = "function useModalPanGestureTsx3({velocityY:velocityY}){const{translateY,thresholdTranslate,thresholdVelocity,withSpring,height,runOnJS,ModalActionCreators,onEnd}=this.__closure;const config={damping:15,mass:1,stiffness:250,overshootClamping:true,restSpeedThreshold:0.001,restDisplacementThreshold:0.001,velocity:velocityY};if(translateY.get()>=thresholdTranslate||velocityY>=thresholdVelocity){translateY.set(withSpring(height,config,'respect-motion-settings',function(){runOnJS(ModalActionCreators.pop)();}));}else{translateY.set(withSpring(0,config));}if(onEnd!=null){runOnJS(onEnd)();}}";
+    oscard = 'function useModalPanGestureTsx3(){const{onStart,runOnJS,start,translateY}=this.__closure;if(onStart!=null){runOnJS(onStart)();}start.set({y:translateY.get()});}';
     entity['code'] = oscard;
     var _closure1_slot5 = entity;
     entity = {};
@@ -121,9 +121,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             kiloes['start'] = output;
             kiloes['translateY'] = backup;
             michal['__closure'] = kiloes;
-            kiloes = 7995436805363.0;
+            kiloes = 15847989720945.0;
             michal['__workletHash'] = kiloes;
-            kiloes = _closure1_slot3;
+            kiloes = _closure1_slot5;
             michal['__initData'] = kiloes;
             report = zuuluu.bind(report)(michal);
             zuuluu = report.onUpdate;
@@ -301,9 +301,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report['ModalActionCreators'] = golfie;
             report['onEnd'] = oscard;
             entity['__closure'] = report;
-            report = 10276886122005.0;
+            report = 14726748946839.0;
             entity['__workletHash'] = report;
-            tangon = _closure1_slot5;
+            tangon = _closure1_slot3;
             entity['__initData'] = tangon;
             zuuluu = michal.bind(zuuluu)(entity);
             michal = zuuluu.failOffsetY;

@@ -161,11 +161,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = option;
     var _closure1_slot11 = tangon;
     tangon = {};
-    option = 'function PopoutMenuTsx3(){const{runOnJS,_setClose}=this.__closure;runOnJS(_setClose)(true);}';
+    option = 'function PopoutMenuTsx3(){const{runOnJS,handleLongPress}=this.__closure;runOnJS(handleLongPress)();}';
     tangon['code'] = option;
     var _closure1_slot12 = tangon;
     tangon = {};
-    option = 'function PopoutMenuTsx4(){const{runOnJS,handleLongPress}=this.__closure;runOnJS(handleLongPress)();}';
+    option = 'function PopoutMenuTsx4(){const{runOnJS,_setClose}=this.__closure;runOnJS(_setClose)(true);}';
     tangon['code'] = option;
     var _closure1_slot13 = tangon;
     tangon = golfie.forwardRef;
@@ -697,9 +697,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 romeon = _closure2_slot7;
                 yankee['_setClose'] = romeon;
                 michal['__closure'] = yankee;
-                yankee = 293965298945.0;
+                yankee = 15929711498886.0;
                 michal['__workletHash'] = yankee;
-                yankee = _closure1_slot12;
+                yankee = _closure1_slot13;
                 michal['__initData'] = yankee;
                 zuuluu = zuuluu.bind(report)(michal);
                 michal = zuuluu.onStart;
@@ -724,9 +724,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = _closure2_slot20;
                 report['handleLongPress'] = oscard;
                 entity['__closure'] = report;
-                report = 4560686489392.0;
+                report = 1649917173815.0;
                 entity['__workletHash'] = report;
-                tangon = _closure1_slot13;
+                tangon = _closure1_slot12;
                 entity['__initData'] = tangon;
                 entity = michal.bind(zuuluu)(entity);
                 return entity;

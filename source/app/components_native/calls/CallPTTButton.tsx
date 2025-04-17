@@ -113,11 +113,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = verify.bind(offset)(report);
     var _closure1_slot11 = report;
     report = {};
-    verify = 'function CallPTTButtonTsx1(){const{runOnJS,setDragging,setPressed,setIsSwipeToChatDisabled}=this.__closure;runOnJS(setDragging)(true);runOnJS(setPressed)(false);if(setIsSwipeToChatDisabled!=null){runOnJS(setIsSwipeToChatDisabled)(false);}}';
+    verify = 'function CallPTTButtonTsx1(){const{runOnJS,setDragging}=this.__closure;runOnJS(setDragging)(false);}';
     report['code'] = verify;
     var _closure1_slot12 = report;
     report = {};
-    verify = 'function CallPTTButtonTsx2(){const{runOnJS,setDragging}=this.__closure;runOnJS(setDragging)(false);}';
+    verify = 'function CallPTTButtonTsx2(){const{runOnJS,setDragging,setPressed,setIsSwipeToChatDisabled}=this.__closure;runOnJS(setDragging)(true);runOnJS(setPressed)(false);if(setIsSwipeToChatDisabled!=null){runOnJS(setIsSwipeToChatDisabled)(false);}}';
     report['code'] = verify;
     var _closure1_slot13 = report;
     report = option.memo;
@@ -362,9 +362,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['setPressed'] = vacuum;
             result['setIsSwipeToChatDisabled'] = ctrled;
             verify['__closure'] = result;
-            result = 1114026147823.0;
+            result = 10056118853836.0;
             verify['__workletHash'] = result;
-            result = _closure1_slot12;
+            result = _closure1_slot13;
             verify['__initData'] = result;
             output = kiloes.bind(output)(verify);
             kiloes = output.onEnd;
@@ -389,9 +389,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['runOnJS'] = update;
             result['setDragging'] = echoed;
             verify['__closure'] = result;
-            result = 580461885213.0;
+            result = 8439106360958.0;
             verify['__workletHash'] = result;
-            result = _closure1_slot13;
+            result = _closure1_slot12;
             verify['__initData'] = result;
             verify = kiloes.bind(output)(verify);
             kiloes = backup == entity;

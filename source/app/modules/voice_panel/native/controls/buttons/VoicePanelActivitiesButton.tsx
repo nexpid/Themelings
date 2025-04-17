@@ -97,11 +97,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = option[entity];
             offset = zuuluu.bind(tangon)(entity);
             golfie = offset.useShowActivityIndicator;
-            entity = 7;
-            entity = option[entity];
-            entity = zuuluu.bind(tangon)(entity);
-            entity = entity.EmbeddedActivitySurfaces;
-            entity = entity.VOICE_LAUNCHER;
+            entity = {};
+            foxtra = 7;
+            foxtra = option[foxtra];
+            foxtra = zuuluu.bind(tangon)(foxtra);
+            foxtra = foxtra.EmbeddedActivitySurfaces;
+            foxtra = foxtra.VOICE_LAUNCHER;
+            entity['surface'] = foxtra;
             backup = golfie.bind(offset)(entity);
             var _closure2_slot4 = backup;
             offset = _closure1_slot3;
@@ -208,12 +210,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['onPress'] = golfie;
             entity['props'] = romeon;
             golfie = undefined;
-            if(backup) { _fun00002_ip = 353; continue _fun00001 }
- 344:
+            if(backup) { _fun00002_ip = 360; continue _fun00001 }
+ 351:
             option = {};
             option['backgroundColor'] = foxtra;
             golfie = option;
- 353:
+ 360:
             entity['style'] = golfie;
             sizing = _closure1_slot0;
             output = _closure1_slot2;

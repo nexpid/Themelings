@@ -465,7 +465,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     foxtra = oscard[yankee];
     foxtra = romeon.bind(entity)(foxtra);
     foxtra = foxtra.colors;
-    foxtra = foxtra.TEXT_MUTED;
+    foxtra = foxtra.TEXT_SECONDARY;
     offset['color'] = foxtra;
     tangon['activityText'] = offset;
     offset = {'flexDirection': 'row', 'gap': 4};

@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = golfie;
     var _closure1_slot10 = tangon;
     tangon = {};
-    golfie = 'function DevWidgetTsx2(){const{originalX,x,originalY,y}=this.__closure;originalX.set(x.get());originalY.set(y.get());}';
+    golfie = 'function DevWidgetTsx2(){const{runOnJS,onChangePosition,x,y}=this.__closure;runOnJS(onChangePosition)({x:x.get(),y:y.get()});}';
     tangon['code'] = golfie;
     var _closure1_slot11 = tangon;
     tangon = {};
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = golfie;
     var _closure1_slot12 = tangon;
     tangon = {};
-    golfie = 'function DevWidgetTsx4(){const{runOnJS,onChangePosition,x,y}=this.__closure;runOnJS(onChangePosition)({x:x.get(),y:y.get()});}';
+    golfie = 'function DevWidgetTsx4(){const{originalX,x,originalY,y}=this.__closure;originalX.set(x.get());originalY.set(y.get());}';
     tangon['code'] = golfie;
     var _closure1_slot13 = tangon;
     tangon = {};
@@ -257,9 +257,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup['originalY'] = echoed;
             backup['y'] = kiloes;
             yankee['__closure'] = backup;
-            backup = 11333606215108.0;
+            backup = 7165614533762.0;
             yankee['__workletHash'] = backup;
-            backup = _closure1_slot11;
+            backup = _closure1_slot13;
             yankee['__initData'] = backup;
             foxtra = romeon.bind(foxtra)(yankee);
             romeon = foxtra.onUpdate;
@@ -332,9 +332,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup['x'] = sizing;
             backup['y'] = kiloes;
             yankee['__closure'] = backup;
-            backup = 10003102447058.0;
+            backup = 12890758993684.0;
             yankee['__workletHash'] = backup;
-            backup = _closure1_slot13;
+            backup = _closure1_slot11;
             yankee['__initData'] = backup;
             yankee = romeon.bind(foxtra)(yankee);
             romeon = offset[report];

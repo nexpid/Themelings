@@ -644,7 +644,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot26 = michal;
     michal = null;
     var _closure1_slot27 = michal;
-    michal = ['name', 'type', 'topic_', 'bitrate_', 'userLimit_', 'nsfw_', 'flags_', 'rateLimitPerUser_', 'defaultThreadRateLimitPerUser', 'defaultAutoArchiveDuration', 'template', 'defaultReactionEmoji', 'rtcRegion', 'videoQualityMode', 'threadMetadata', 'banner', 'availableTags', 'defaultSortOrder', 'defaultForumLayout', 'iconEmoji', 'themeColor'];
+    michal = ['name', 'type', 'topic_', 'bitrate_', 'userLimit_', 'nsfw_', 'flags_', 'rateLimitPerUser_', 'defaultThreadRateLimitPerUser', 'defaultAutoArchiveDuration', 'template', 'defaultReactionEmoji', 'rtcRegion', 'videoQualityMode', 'threadMetadata', 'banner', 'availableTags', 'defaultSortOrder', 'defaultForumLayout', 'defaultTagSetting', 'iconEmoji', 'themeColor'];
     var _closure1_slot28 = michal;
     michal = 13;
     michal = oscard[michal];
@@ -988,234 +988,243 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
             entity = argFoo;
-            cntext = entity.name;
+            papara = entity.name;
             golfie = entity.channelType;
-            record = entity.topic;
-            config = entity.bitrate;
-            sequen = entity.userLimit;
-            vacuum = entity.nsfw;
-            ctrled = entity.flags;
-            source = entity.rateLimitPerUser;
-            output = entity.defaultThreadRateLimitPerUser;
-            update = entity.autoArchiveDuration;
-            echoed = entity.locked;
-            result = entity.invitable;
-            sizing = entity.defaultAutoArchiveDuration;
-            kiloes = entity.template;
-            romeon = entity.defaultReactionEmoji;
-            backup = entity.rtcRegion;
-            foxtra = entity.videoQualityMode;
-            yankee = entity.availableTags;
-            offset = entity.defaultSortOrder;
+            cntext = entity.topic;
+            record = entity.bitrate;
+            config = entity.userLimit;
+            sequen = entity.nsfw;
+            vacuum = entity.flags;
+            ctrled = entity.rateLimitPerUser;
+            result = entity.defaultThreadRateLimitPerUser;
+            source = entity.autoArchiveDuration;
+            update = entity.locked;
+            echoed = entity.invitable;
+            output = entity.defaultAutoArchiveDuration;
+            sizing = entity.template;
+            foxtra = entity.defaultReactionEmoji;
+            kiloes = entity.rtcRegion;
+            backup = entity.videoQualityMode;
+            romeon = entity.availableTags;
+            yankee = entity.defaultSortOrder;
             verify = entity.defaultForumLayout;
+            offset = entity.defaultTagSetting;
             option = entity.iconEmoji;
             oscard = entity.themeColor;
             entity = _closure1_slot19;
             zuuluu = null;
-            if(!(zuuluu != entity)) { _fun00026_ip = 839; continue _fun00025 }
- 149:
-            if(!(zuuluu != cntext)) { _fun00026_ip = 176; continue _fun00025 }
- 153:
+            if(!(zuuluu != entity)) { _fun00026_ip = 872; continue _fun00025 }
+ 155:
+            if(!(zuuluu != papara)) { _fun00026_ip = 182; continue _fun00025 }
+ 159:
             report = _closure1_slot19;
             tangon = report.set;
             entity = 'name';
-            entity = tangon.bind(report)(entity, cntext);
+            entity = tangon.bind(report)(entity, papara);
             _closure1_slot19 = entity;
- 176:
-            if(!(zuuluu != record)) { _fun00026_ip = 203; continue _fun00025 }
- 180:
+ 182:
+            if(!(zuuluu != cntext)) { _fun00026_ip = 209; continue _fun00025 }
+ 186:
             report = _closure1_slot19;
             tangon = report.set;
             entity = 'topic';
-            entity = tangon.bind(report)(entity, record);
+            entity = tangon.bind(report)(entity, cntext);
             _closure1_slot19 = entity;
- 203:
-            if(!(zuuluu != config)) { _fun00026_ip = 230; continue _fun00025 }
- 207:
+ 209:
+            if(!(zuuluu != record)) { _fun00026_ip = 236; continue _fun00025 }
+ 213:
             report = _closure1_slot19;
             tangon = report.set;
             entity = 'bitrate';
-            entity = tangon.bind(report)(entity, config);
+            entity = tangon.bind(report)(entity, record);
             _closure1_slot19 = entity;
- 230:
-            if(!(zuuluu != sequen)) { _fun00026_ip = 257; continue _fun00025 }
- 234:
+ 236:
+            if(!(zuuluu != config)) { _fun00026_ip = 263; continue _fun00025 }
+ 240:
             report = _closure1_slot19;
             tangon = report.set;
             entity = 'userLimit';
-            entity = tangon.bind(report)(entity, sequen);
+            entity = tangon.bind(report)(entity, config);
             _closure1_slot19 = entity;
- 257:
-            if(!(zuuluu != vacuum)) { _fun00026_ip = 284; continue _fun00025 }
- 261:
+ 263:
+            if(!(zuuluu != sequen)) { _fun00026_ip = 290; continue _fun00025 }
+ 267:
             report = _closure1_slot19;
             tangon = report.set;
             entity = 'nsfw';
-            entity = tangon.bind(report)(entity, vacuum);
+            entity = tangon.bind(report)(entity, sequen);
             _closure1_slot19 = entity;
- 284:
-            if(!(zuuluu != ctrled)) { _fun00026_ip = 311; continue _fun00025 }
- 288:
+ 290:
+            if(!(zuuluu != vacuum)) { _fun00026_ip = 317; continue _fun00025 }
+ 294:
             report = _closure1_slot19;
             tangon = report.set;
             entity = 'flags';
-            entity = tangon.bind(report)(entity, ctrled);
+            entity = tangon.bind(report)(entity, vacuum);
             _closure1_slot19 = entity;
- 311:
-            if(!(zuuluu != source)) { _fun00026_ip = 338; continue _fun00025 }
- 315:
+ 317:
+            if(!(zuuluu != ctrled)) { _fun00026_ip = 344; continue _fun00025 }
+ 321:
             report = _closure1_slot19;
             tangon = report.set;
             entity = 'rateLimitPerUser';
-            entity = tangon.bind(report)(entity, source);
+            entity = tangon.bind(report)(entity, ctrled);
             _closure1_slot19 = entity;
- 338:
-            if(!(zuuluu != output)) { _fun00026_ip = 365; continue _fun00025 }
- 342:
+ 344:
+            if(!(zuuluu != result)) { _fun00026_ip = 371; continue _fun00025 }
+ 348:
             report = _closure1_slot19;
             tangon = report.set;
             entity = 'defaultThreadRateLimitPerUser';
-            entity = tangon.bind(report)(entity, output);
+            entity = tangon.bind(report)(entity, result);
             _closure1_slot19 = entity;
- 365:
-            if(!(zuuluu != update)) { _fun00026_ip = 420; continue _fun00025 }
- 369:
-            output = _closure1_slot19;
-            report = output.set;
+ 371:
+            if(!(zuuluu != source)) { _fun00026_ip = 426; continue _fun00025 }
+ 375:
+            result = _closure1_slot19;
+            report = result.set;
             tangon = {};
             entity = _closure1_slot19;
-            papara = entity.threadMetadata;
-            target = tangon;
-            entity = copyDataProperties(target, papara);
+            target = entity.threadMetadata;
+            status = tangon;
+            entity = copyDataProperties(status, target);
             entity = 'autoArchiveDuration';
+            tangon[entity] = source;
+            entity = 'threadMetadata';
+            entity = report.bind(result)(entity, tangon);
+            _closure1_slot19 = entity;
+ 426:
+            if(!(zuuluu != update)) { _fun00026_ip = 481; continue _fun00025 }
+ 430:
+            result = _closure1_slot19;
+            report = result.set;
+            tangon = {};
+            entity = _closure1_slot19;
+            target = entity.threadMetadata;
+            status = tangon;
+            entity = copyDataProperties(status, target);
+            entity = 'locked';
             tangon[entity] = update;
             entity = 'threadMetadata';
-            entity = report.bind(output)(entity, tangon);
+            entity = report.bind(result)(entity, tangon);
             _closure1_slot19 = entity;
- 420:
-            if(!(zuuluu != echoed)) { _fun00026_ip = 475; continue _fun00025 }
- 424:
-            output = _closure1_slot19;
-            report = output.set;
+ 481:
+            if(!(zuuluu != echoed)) { _fun00026_ip = 536; continue _fun00025 }
+ 485:
+            result = _closure1_slot19;
+            report = result.set;
             tangon = {};
             entity = _closure1_slot19;
-            papara = entity.threadMetadata;
-            target = tangon;
-            entity = copyDataProperties(target, papara);
-            entity = 'locked';
+            target = entity.threadMetadata;
+            status = tangon;
+            entity = copyDataProperties(status, target);
+            entity = 'invitable';
             tangon[entity] = echoed;
             entity = 'threadMetadata';
-            entity = report.bind(output)(entity, tangon);
+            entity = report.bind(result)(entity, tangon);
             _closure1_slot19 = entity;
- 475:
-            if(!(zuuluu != result)) { _fun00026_ip = 530; continue _fun00025 }
- 479:
-            output = _closure1_slot19;
-            report = output.set;
-            tangon = {};
-            entity = _closure1_slot19;
-            papara = entity.threadMetadata;
-            target = tangon;
-            entity = copyDataProperties(target, papara);
-            entity = 'invitable';
-            tangon[entity] = result;
-            entity = 'threadMetadata';
-            entity = report.bind(output)(entity, tangon);
-            _closure1_slot19 = entity;
- 530:
-            if(!(zuuluu != sizing)) { _fun00026_ip = 557; continue _fun00025 }
- 534:
+ 536:
+            if(!(zuuluu != output)) { _fun00026_ip = 563; continue _fun00025 }
+ 540:
             report = _closure1_slot19;
             tangon = report.set;
             entity = 'defaultAutoArchiveDuration';
-            entity = tangon.bind(report)(entity, sizing);
+            entity = tangon.bind(report)(entity, output);
             _closure1_slot19 = entity;
- 557:
-            if(!(zuuluu != kiloes)) { _fun00026_ip = 584; continue _fun00025 }
- 561:
+ 563:
+            if(!(zuuluu != sizing)) { _fun00026_ip = 590; continue _fun00025 }
+ 567:
             report = _closure1_slot19;
             tangon = report.set;
             entity = 'template';
-            entity = tangon.bind(report)(entity, kiloes);
+            entity = tangon.bind(report)(entity, sizing);
             _closure1_slot19 = entity;
- 584:
-            if(!(zuuluu != golfie)) { _fun00026_ip = 611; continue _fun00025 }
- 588:
+ 590:
+            if(!(zuuluu != golfie)) { _fun00026_ip = 617; continue _fun00025 }
+ 594:
             report = _closure1_slot19;
             tangon = report.set;
             entity = 'type';
             entity = tangon.bind(report)(entity, golfie);
             _closure1_slot19 = entity;
- 611:
-            entity = undefined;
-            if(!(entity !== backup)) { _fun00026_ip = 640; continue _fun00025 }
  617:
+            entity = undefined;
+            if(!(entity !== kiloes)) { _fun00026_ip = 646; continue _fun00025 }
+ 623:
             golfie = _closure1_slot19;
             report = golfie.set;
             tangon = 'rtcRegion';
-            tangon = report.bind(golfie)(tangon, backup);
+            tangon = report.bind(golfie)(tangon, kiloes);
             _closure1_slot19 = tangon;
- 640:
-            if(!(zuuluu != foxtra)) { _fun00026_ip = 667; continue _fun00025 }
- 644:
+ 646:
+            if(!(zuuluu != backup)) { _fun00026_ip = 673; continue _fun00025 }
+ 650:
             golfie = _closure1_slot19;
             report = golfie.set;
             tangon = 'videoQualityMode';
-            tangon = report.bind(golfie)(tangon, foxtra);
+            tangon = report.bind(golfie)(tangon, backup);
             _closure1_slot19 = tangon;
- 667:
-            if(!(entity !== romeon)) { _fun00026_ip = 694; continue _fun00025 }
- 671:
+ 673:
+            if(!(entity !== foxtra)) { _fun00026_ip = 700; continue _fun00025 }
+ 677:
             golfie = _closure1_slot19;
             report = golfie.set;
             tangon = 'defaultReactionEmoji';
-            tangon = report.bind(golfie)(tangon, romeon);
+            tangon = report.bind(golfie)(tangon, foxtra);
             _closure1_slot19 = tangon;
- 694:
-            if(!(zuuluu != yankee)) { _fun00026_ip = 721; continue _fun00025 }
- 698:
+ 700:
+            if(!(zuuluu != romeon)) { _fun00026_ip = 727; continue _fun00025 }
+ 704:
             golfie = _closure1_slot19;
             report = golfie.set;
             tangon = 'availableTags';
-            tangon = report.bind(golfie)(tangon, yankee);
+            tangon = report.bind(golfie)(tangon, romeon);
             _closure1_slot19 = tangon;
- 721:
-            if(!(zuuluu != offset)) { _fun00026_ip = 748; continue _fun00025 }
- 725:
+ 727:
+            if(!(zuuluu != yankee)) { _fun00026_ip = 754; continue _fun00025 }
+ 731:
             golfie = _closure1_slot19;
             report = golfie.set;
             tangon = 'defaultSortOrder';
+            tangon = report.bind(golfie)(tangon, yankee);
+            _closure1_slot19 = tangon;
+ 754:
+            if(!(zuuluu != offset)) { _fun00026_ip = 781; continue _fun00025 }
+ 758:
+            golfie = _closure1_slot19;
+            report = golfie.set;
+            tangon = 'defaultTagSetting';
             tangon = report.bind(golfie)(tangon, offset);
             _closure1_slot19 = tangon;
- 748:
-            if(!(zuuluu != verify)) { _fun00026_ip = 775; continue _fun00025 }
- 752:
+ 781:
+            if(!(zuuluu != verify)) { _fun00026_ip = 808; continue _fun00025 }
+ 785:
             golfie = _closure1_slot19;
             report = golfie.set;
             tangon = 'defaultForumLayout';
             tangon = report.bind(golfie)(tangon, verify);
             _closure1_slot19 = tangon;
- 775:
-            if(!(entity !== option)) { _fun00026_ip = 802; continue _fun00025 }
- 779:
+ 808:
+            if(!(entity !== option)) { _fun00026_ip = 835; continue _fun00025 }
+ 812:
             golfie = _closure1_slot19;
             report = golfie.set;
             tangon = 'iconEmoji';
             tangon = report.bind(golfie)(tangon, option);
             _closure1_slot19 = tangon;
- 802:
-            if(!(zuuluu != oscard)) { _fun00026_ip = 829; continue _fun00025 }
- 806:
+ 835:
+            if(!(zuuluu != oscard)) { _fun00026_ip = 862; continue _fun00025 }
+ 839:
             report = _closure1_slot19;
             tangon = report.set;
             zuuluu = 'themeColor';
             zuuluu = tangon.bind(report)(zuuluu, oscard);
             _closure1_slot19 = zuuluu;
- 829:
+ 862:
             michal = _closure1_slot29;
             michal = michal.bind(entity)();
             return entity;
- 839:
+ 872:
             entity = false;
             return entity;
         }

@@ -19,31 +19,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = argBaz;
                 if(zuuluu) { _fun00004_ip = 47; continue _fun00003 }
  18:
-                zuuluu = _closure1_slot26;
+                zuuluu = _closure1_slot24;
                 tangon = zuuluu.EMOJIS_AND_STICKERS;
                 zuuluu = argBar;
                 if(!(zuuluu !== tangon)) { _fun00004_ip = 41; continue _fun00003 }
  35:
-                zuuluu = _closure1_slot22;
+                zuuluu = _closure1_slot20;
                 _fun00004_ip = 45; continue _fun00003;
  41:
-                zuuluu = _closure1_slot21;
+                zuuluu = _closure1_slot19;
  45:
                 _fun00004_ip = 51; continue _fun00003;
  47:
-                zuuluu = _closure1_slot9;
+                zuuluu = _closure1_slot8;
  51:
                 zuuluu = report * zuuluu;
                 tangon = 1;
                 tangon = report - tangon;
-                michal = _closure1_slot32;
+                michal = _closure1_slot30;
                 michal = tangon * michal;
                 entity = zuuluu + michal;
  74:
                 return entity;
             }
         };
-        var _closure1_slot37 = entity;
+        var _closure1_slot35 = entity;
         entity = global;
         option = entity.Object;
         golfie = option.defineProperty;
@@ -70,98 +70,92 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         var _closure1_slot5 = verify;
         verify = option.View;
         var _closure1_slot6 = verify;
-        verify = option.useWindowDimensions;
-        var _closure1_slot7 = verify;
         option = option.FlatList;
-        var _closure1_slot8 = option;
+        var _closure1_slot7 = option;
         option = 3;
         option = oscard[option];
         option = report.bind(entity)(option);
         option = option.TABLE_ROW_HEIGHT;
-        var _closure1_slot9 = option;
+        var _closure1_slot8 = option;
         option = 4;
         option = oscard[option];
         option = kiloes.bind(entity)(option);
-        var _closure1_slot10 = option;
+        var _closure1_slot9 = option;
         option = 5;
         option = oscard[option];
         option = kiloes.bind(entity)(option);
-        var _closure1_slot11 = option;
+        var _closure1_slot10 = option;
         option = 6;
         option = oscard[option];
         option = kiloes.bind(entity)(option);
-        var _closure1_slot12 = option;
+        var _closure1_slot11 = option;
         option = 7;
         option = oscard[option];
         option = kiloes.bind(entity)(option);
-        var _closure1_slot13 = option;
+        var _closure1_slot12 = option;
         option = 8;
         option = oscard[option];
         option = kiloes.bind(entity)(option);
-        var _closure1_slot14 = option;
+        var _closure1_slot13 = option;
         option = 9;
-        option = oscard[option];
-        option = kiloes.bind(entity)(option);
-        var _closure1_slot15 = option;
-        option = 10;
         option = oscard[option];
         option = report.bind(entity)(option);
         verify = option.AutoCompleteResultTypes;
-        var _closure1_slot16 = verify;
+        var _closure1_slot14 = verify;
         verify = option.WHITESPACE_RE;
-        var _closure1_slot17 = verify;
+        var _closure1_slot15 = verify;
         verify = option.AnalyticEvents;
-        var _closure1_slot18 = verify;
+        var _closure1_slot16 = verify;
         option = option.UpsellTypes;
-        var _closure1_slot19 = option;
-        option = 11;
+        var _closure1_slot17 = option;
+        option = 10;
         option = oscard[option];
         option = report.bind(entity)(option);
         option = option.BOOLEAN_CHOICES;
+        var _closure1_slot18 = option;
+        option = 11;
+        option = oscard[option];
+        option = report.bind(entity)(option);
+        verify = option.AUTOCOMPLETE_EMOJI_ROW_HEIGHT;
+        var _closure1_slot19 = verify;
+        option = option.AUTOCOMPLETE_ROW_HEIGHT;
         var _closure1_slot20 = option;
         foxtra = 12;
         option = oscard[foxtra];
         option = report.bind(entity)(option);
-        verify = option.AUTOCOMPLETE_EMOJI_ROW_HEIGHT;
+        verify = option.MENTION_SENTINEL;
         var _closure1_slot21 = verify;
-        option = option.AUTOCOMPLETE_ROW_HEIGHT;
-        var _closure1_slot22 = option;
+        verify = option.CHANNEL_SENTINEL;
+        var _closure1_slot22 = verify;
+        option = option.EMOJI_SENTINEL;
+        var _closure1_slot23 = option;
         option = 13;
         option = oscard[option];
         option = report.bind(entity)(option);
-        verify = option.MENTION_SENTINEL;
-        var _closure1_slot23 = verify;
-        verify = option.CHANNEL_SENTINEL;
-        var _closure1_slot24 = verify;
-        option = option.EMOJI_SENTINEL;
-        var _closure1_slot25 = option;
+        option = option.AutocompleteTypes;
+        var _closure1_slot24 = option;
         option = 14;
         option = oscard[option];
         option = report.bind(entity)(option);
-        option = option.AutocompleteTypes;
-        var _closure1_slot26 = option;
+        option = option.KeyboardTypes;
+        var _closure1_slot25 = option;
         option = 15;
         option = oscard[option];
         option = report.bind(entity)(option);
-        option = option.KeyboardTypes;
-        var _closure1_slot27 = option;
+        option = option.EmojiInteractionPoint;
+        var _closure1_slot26 = option;
         option = 16;
         option = oscard[option];
         option = report.bind(entity)(option);
-        option = option.EmojiInteractionPoint;
-        var _closure1_slot28 = option;
-        option = 17;
-        option = oscard[option];
-        option = report.bind(entity)(option);
         verify = option.jsx;
-        var _closure1_slot29 = verify;
+        var _closure1_slot27 = verify;
         verify = option.Fragment;
-        var _closure1_slot30 = verify;
+        var _closure1_slot28 = verify;
         option = option.jsxs;
-        var _closure1_slot31 = option;
+        var _closure1_slot29 = option;
         option = tangon.hairlineWidth;
-        var _closure1_slot32 = option;
-        romeon = 18;
+        var _closure1_slot30 = option;
+        romeon = 17;
         tangon = oscard[romeon];
         tangon = report.bind(entity)(tangon);
         verify = tangon.AUTOCOMPLETE_STICKER_NODE_SIZE;
@@ -169,8 +163,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = tangon + verify;
         tangon = tangon + foxtra;
         tangon = tangon + option;
-        var _closure1_slot33 = tangon;
-        tangon = 19;
+        var _closure1_slot31 = tangon;
+        tangon = 18;
         tangon = oscard[tangon];
         verify = report.bind(entity)(tangon);
         option = verify.createStyles;
@@ -180,20 +174,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         offset['position'] = sizing;
         tangon['autocompletePosition'] = offset;
         offset = {'position': null, 'left': 0, 'right': 0, 'bottom': 0};
-        backup = 20;
+        backup = 19;
         backup = oscard[backup];
         output = report.bind(entity)(backup);
         backup = output.isAndroid;
         output = backup.bind(output)();
         backup = 'absolute';
-        if(!output) { _fun00002_ip = 661; continue _fun00001 }
- 658:
+        if(!output) { _fun00002_ip = 635; continue _fun00001 }
+ 632:
         backup = sizing;
- 661:
+ 635:
         offset['position'] = backup;
         tangon['autocompleteWrapper'] = offset;
         offset = {};
-        backup = 21;
+        backup = 20;
         sizing = oscard[backup];
         sizing = kiloes.bind(entity)(sizing);
         sizing = sizing.colors;
@@ -239,30 +233,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         offset['flexShrink'] = yankee;
         tangon['stickersAutocompleteList'] = offset;
         tangon = option.bind(verify)(tangon);
-        var _closure1_slot34 = tangon;
+        var _closure1_slot32 = tangon;
         tangon = function(argFoo) { // Original name: isSlashAutocompleteType
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 zuuluu = argFoo;
-                entity = _closure1_slot26;
+                entity = _closure1_slot24;
                 entity = entity.SLASHES;
                 entity = zuuluu === entity;
                 if(entity) { _fun00006_ip = 37; continue _fun00005 }
  23:
-                michal = _closure1_slot26;
+                michal = _closure1_slot24;
                 michal = michal.SLASHES_DISCOVERY;
                 entity = zuuluu === michal;
  37:
                 return entity;
             }
         };
-        var _closure1_slot35 = tangon;
+        var _closure1_slot33 = tangon;
         tangon = function(argFoo, argBar) { // Original name: getStickersItemLayout
             michal = argBar;
             entity = {};
             golfie = _closure1_slot0;
             option = _closure1_slot2;
-            zuuluu = 18;
+            zuuluu = 17;
             tangon = option[zuuluu];
             oscard = undefined;
             tangon = golfie.bind(oscard)(tangon);
@@ -287,7 +281,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['index'] = michal;
             return entity;
         };
-        var _closure1_slot36 = tangon;
+        var _closure1_slot34 = tangon;
         tangon = golfie.forwardRef;
         michal = function(argFoo, argBar) {
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
@@ -297,8 +291,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 var _closure2_slot0 = backup;
                 whisks = entity.channel;
                 var _closure2_slot1 = whisks;
-                sequen = entity.canMentionEveryone;
-                var _closure2_slot2 = sequen;
+                record = entity.canMentionEveryone;
+                var _closure2_slot2 = record;
                 offset = entity.keyboardType;
                 var _closure2_slot3 = offset;
                 zuuluu = entity.onChangeAutoCompleteVisibility;
@@ -319,20 +313,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 var _closure2_slot41 = tangon;
                 var _closure2_slot42 = tangon;
                 var _closure2_slot43 = tangon;
-                michal = _closure1_slot34;
+                michal = _closure1_slot32;
                 oscard = michal.bind(tangon)();
-                ctrled = _closure1_slot0;
-                config = _closure1_slot2;
-                report = 22;
-                michal = config[report];
-                romeon = ctrled.bind(tangon)(michal);
+                update = _closure1_slot0;
+                source = _closure1_slot2;
+                report = 24;
+                michal = source[report];
+                romeon = update.bind(tangon)(michal);
                 option = romeon.useStateFromStoresObject;
-                michal = _closure1_slot11;
+                michal = _closure1_slot10;
                 golfie = new Array(1);
                 golfie[0] = michal;
                 michal = function() {
                     entity = {};
-                    tangon = _closure1_slot11;
+                    tangon = _closure1_slot10;
                     report = tangon.getOptionStates;
                     michal = _closure2_slot1;
                     zuuluu = michal.id;
@@ -361,8 +355,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 var _closure2_slot9 = sizing;
                 kiloes = michal.activeSection;
                 michal = 25;
-                michal = config[michal];
-                michal = ctrled.bind(tangon)(michal);
+                michal = source[michal];
+                michal = update.bind(tangon)(michal);
                 golfie = michal.IncludeStickersInAutocomplete;
                 michal = golfie.getSetting;
                 option = michal.bind(golfie)();
@@ -371,50 +365,50 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = output.useState;
                 michal = new Array(0);
                 michal = golfie.bind(output)(michal);
-                update = _closure1_slot3;
+                ctrled = _closure1_slot3;
                 result = 2;
-                echoed = update.bind(tangon)(michal, result);
+                echoed = ctrled.bind(tangon)(michal, result);
                 michal = 0;
                 target = echoed[michal];
                 var _closure2_slot11 = target;
                 golfie = 1;
                 echoed = echoed[golfie];
                 var _closure2_slot12 = echoed;
-                echoed = config[report];
-                record = ctrled.bind(tangon)(echoed);
-                vacuum = record.useStateFromStores;
-                echoed = _closure1_slot12;
-                source = new Array(1);
-                source[0] = echoed;
+                echoed = source[report];
+                config = update.bind(tangon)(echoed);
+                sequen = config.useStateFromStores;
+                echoed = _closure1_slot11;
+                vacuum = new Array(1);
+                vacuum[0] = echoed;
                 echoed = function() {
-                    entity = _closure1_slot12;
+                    entity = _closure1_slot11;
                     entity = entity.loadState;
                     return entity;
                 };
-                vacuum = vacuum.bind(record)(source, echoed);
-                report = config[report];
-                record = ctrled.bind(tangon)(report);
-                source = record.useStateFromStores;
-                report = _closure1_slot14;
+                sequen = sequen.bind(config)(vacuum, echoed);
+                report = source[report];
+                config = update.bind(tangon)(report);
+                vacuum = config.useStateFromStores;
+                report = _closure1_slot13;
                 echoed = new Array(1);
                 echoed[0] = report;
                 report = function() {
-                    entity = _closure1_slot14;
+                    entity = _closure1_slot13;
                     entity = entity.loadState;
                     return entity;
                 };
-                report = source.bind(record)(echoed, report);
-                source = output.useContext;
+                report = vacuum.bind(config)(echoed, report);
+                vacuum = output.useContext;
                 echoed = 26;
-                echoed = config[echoed];
-                echoed = ctrled.bind(tangon)(echoed);
+                echoed = source[echoed];
+                echoed = update.bind(tangon)(echoed);
                 echoed = echoed.RedesignCompatContext;
-                echoed = source.bind(output)(echoed);
+                echoed = vacuum.bind(output)(echoed);
                 var _closure2_slot13 = echoed;
-                ctrled = output.useMemo;
-                source = new Array(2);
-                source[0] = whisks;
-                source[1] = option;
+                config = output.useMemo;
+                vacuum = new Array(2);
+                vacuum[0] = whisks;
+                vacuum[1] = option;
                 option = function() {
                     zuuluu = _closure1_slot0;
                     michal = _closure1_slot2;
@@ -429,36 +423,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = tangon.bind(report)(zuuluu, entity, michal);
                     return entity;
                 };
-                source = ctrled.bind(output)(option, source);
-                var _closure2_slot14 = source;
-                ctrled = output.useState;
+                config = config.bind(output)(option, vacuum);
+                var _closure2_slot14 = config;
+                vacuum = output.useState;
                 variable40 = false;
                 variable42 = '';
                 option = {'focused': false, 'text': '', 'selectionStart': 0, 'selectionEnd': 0};
-                option = ctrled.bind(output)(option);
-                option = update.bind(tangon)(option, result);
-                ctrled = option[michal];
-                config = ctrled.focused;
-                var _closure2_slot15 = config;
-                record = ctrled.text;
-                var _closure2_slot16 = record;
-                sierra = ctrled.selectionStart;
-                var _closure2_slot17 = sierra;
-                papara = ctrled.selectionEnd;
-                var _closure2_slot18 = papara;
+                option = vacuum.bind(output)(option);
+                option = ctrled.bind(tangon)(option, result);
+                vacuum = option[michal];
+                sierra = vacuum.focused;
+                var _closure2_slot15 = sierra;
+                papara = vacuum.text;
+                var _closure2_slot16 = papara;
+                equals = vacuum.selectionStart;
+                var _closure2_slot17 = equals;
+                limora = vacuum.selectionEnd;
+                var _closure2_slot18 = limora;
                 option = option[golfie];
                 var _closure2_slot19 = option;
                 option = output.useState;
                 option = option.bind(output)(michal);
-                update = update.bind(tangon)(option, result);
-                option = update[michal];
-                update = update[golfie];
-                var _closure2_slot20 = update;
-                limora = output.useEffect;
-                ctrled = function() {
+                ctrled = ctrled.bind(tangon)(option, result);
+                option = ctrled[michal];
+                ctrled = ctrled[golfie];
+                var _closure2_slot20 = ctrled;
+                quebec = output.useEffect;
+                vacuum = function() {
                     michal = false;
                     var _closure3_slot0 = michal;
-                    tangon = _closure1_slot13;
+                    tangon = _closure1_slot12;
                     zuuluu = tangon.addConditionalChangeListener;
                     michal = function() {
                         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
@@ -467,7 +461,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             entity = !michal;
                             if(michal) { _fun00010_ip = 83; continue _fun00009 }
  13:
-                            tangon = _closure1_slot13;
+                            tangon = _closure1_slot12;
                             michal = tangon.isConnected;
                             tangon = michal.bind(tangon)();
                             oscard = undefined;
@@ -480,7 +474,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = golfie[tangon];
                             report = report.bind(oscard)(tangon);
                             tangon = report.initiateEmojiInteraction;
-                            zuuluu = _closure1_slot28;
+                            zuuluu = _closure1_slot26;
                             zuuluu = zuuluu.AutocompleteWrapperShown;
                             zuuluu = tangon.bind(report)(zuuluu);
                             michal = false;
@@ -499,10 +493,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     return entity;
                 };
-                update = new Array(0);
-                update = limora.bind(output)(ctrled, update);
-                limora = output.useMemo;
-                ctrled = function() {
+                ctrled = new Array(0);
+                ctrled = quebec.bind(output)(vacuum, ctrled);
+                quebec = output.useMemo;
+                vacuum = function() {
                     michal = -1;
                     var _closure3_slot0 = michal;
                     entity = function() {
@@ -575,24 +569,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     return entity;
                 };
-                update = new Array(0);
-                limora = limora.bind(output)(ctrled, update);
-                ctrled = output.useImperativeHandle;
-                update = argBar;
-                update = ctrled.bind(output)(update, limora);
-                ctrled = output.useMemo;
-                update = new Array(11);
-                update[0] = sierra;
-                update[1] = papara;
-                update[2] = record;
-                update[3] = sizing;
-                update[4] = romeon;
-                update[5] = foxtra;
-                update[6] = sequen;
-                update[7] = verify;
-                update[8] = source;
-                update[9] = vacuum;
-                update[10] = report;
+                ctrled = new Array(0);
+                quebec = quebec.bind(output)(vacuum, ctrled);
+                vacuum = output.useImperativeHandle;
+                ctrled = argBar;
+                ctrled = vacuum.bind(output)(ctrled, quebec);
+                vacuum = output.useMemo;
+                ctrled = new Array(11);
+                ctrled[0] = equals;
+                ctrled[1] = limora;
+                ctrled[2] = papara;
+                ctrled[3] = sizing;
+                ctrled[4] = romeon;
+                ctrled[5] = foxtra;
+                ctrled[6] = record;
+                ctrled[7] = verify;
+                ctrled[8] = config;
+                ctrled[9] = sequen;
+                ctrled[10] = report;
                 report = function() {
                     _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
@@ -742,9 +736,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = false;
                         if(!(kiloes === sizing)) { _fun00014_ip = 668; continue _fun00013 }
  533:
-                        sizing = _closure1_slot23;
+                        sizing = _closure1_slot21;
                         var _closure3_slot0 = sizing;
-                        kiloes = _closure1_slot26;
+                        kiloes = _closure1_slot24;
                         offset = kiloes.MENTIONS;
                         michal = true;
                         romeon = sizing;
@@ -752,9 +746,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = undefined;
                         _fun00014_ip = 668; continue _fun00013;
  562:
-                        output = _closure1_slot24;
+                        output = _closure1_slot22;
                         _closure3_slot0 = output;
-                        kiloes = _closure1_slot26;
+                        kiloes = _closure1_slot24;
                         offset = kiloes.CHANNELS;
                         kiloes = _closure2_slot8;
                         report = kiloes.channelTypes;
@@ -765,9 +759,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  599:
                         sizing = '';
                         _closure3_slot0 = sizing;
-                        kiloes = _closure1_slot26;
+                        kiloes = _closure1_slot24;
                         offset = kiloes.CHOICES;
-                        oscard = _closure1_slot20;
+                        oscard = _closure1_slot18;
                         michal = true;
                         romeon = sizing;
                         report = undefined;
@@ -775,7 +769,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  630:
                         sizing = '';
                         _closure3_slot0 = sizing;
-                        foxtra = _closure1_slot26;
+                        foxtra = _closure1_slot24;
                         offset = foxtra.CHOICES;
                         foxtra = _closure2_slot8;
                         oscard = foxtra.choices;
@@ -813,7 +807,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         update = 1;
                         output = yankee != vacuum;
  745:
-                        sizing = _closure1_slot17;
+                        sizing = _closure1_slot15;
                         kiloes = sizing.test;
                         echoed = _closure2_slot16;
                         foxtra = papara - update;
@@ -855,12 +849,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 tangon = argFoo;
                                 entity = _closure2_slot14;
                                 golfie = entity[tangon];
-                                entity = _closure1_slot26;
+                                entity = _closure1_slot24;
                                 entity = entity.SLASHES;
                                 entity = tangon !== entity;
                                 if(!entity) { _fun00016_ip = 48; continue _fun00015 }
  34:
-                                michal = _closure1_slot26;
+                                michal = _closure1_slot24;
                                 michal = michal.SLASHES_DISCOVERY;
                                 entity = tangon !== michal;
  48:
@@ -924,7 +918,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         foxtra = papara;
                         if(foxtra >= sizing) { _fun00014_ip = 745; continue _fun00013 }
  966:
-                        sizing = _closure1_slot26;
+                        sizing = _closure1_slot24;
                         output = sizing.SLASHES;
                         sizing = echoed;
                         if(!(kiloes === output)) { _fun00014_ip = 1040; continue _fun00013 }
@@ -1065,24 +1059,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     }
                 };
-                report = ctrled.bind(output)(report, update);
+                report = vacuum.bind(output)(report, ctrled);
                 vacuum = report.autocompleteType;
                 var _closure2_slot21 = vacuum;
                 variable41 = report.query;
                 var _closure2_slot22 = variable41;
-                update = report.queryOptions;
-                var _closure2_slot23 = update;
+                ctrled = report.queryOptions;
+                var _closure2_slot23 = ctrled;
                 sequen = report.autocompleteSelectionStart;
                 var _closure2_slot24 = sequen;
                 report = report.showOptionValuesPicker;
                 var _closure2_slot25 = report;
-                record = output.useCallback;
-                ctrled = new Array(4);
-                ctrled[0] = vacuum;
-                ctrled[1] = variable41;
-                ctrled[2] = update;
-                ctrled[3] = source;
-                update = function(argFoo) {
+                papara = output.useCallback;
+                record = new Array(4);
+                record[0] = vacuum;
+                record[1] = variable41;
+                record[2] = ctrled;
+                record[3] = config;
+                ctrled = function(argFoo) {
                     _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
                         michal = _closure2_slot21;
@@ -1114,14 +1108,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     }
                 };
-                update = record.bind(output)(update, ctrled);
-                var _closure2_slot26 = update;
-                record = output.useEffect;
-                ctrled = new Array(3);
-                ctrled[0] = vacuum;
-                ctrled[1] = update;
-                ctrled[2] = source;
-                source = function() {
+                ctrled = papara.bind(output)(ctrled, record);
+                var _closure2_slot26 = ctrled;
+                papara = output.useEffect;
+                record = new Array(3);
+                record[0] = vacuum;
+                record[1] = ctrled;
+                record[2] = config;
+                config = function() {
                     _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                         zuuluu = _closure2_slot21;
@@ -1149,7 +1143,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  62:
                         tangon = _closure1_slot0;
                         zuuluu = _closure1_slot2;
-                        michal = 22;
+                        michal = 24;
                         zuuluu = zuuluu[michal];
                         michal = undefined;
                         michal = tangon.bind(michal)(zuuluu);
@@ -1180,22 +1174,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     }
                 };
-                source = record.bind(output)(source, ctrled);
-                ctrled = output.useEffect;
-                source = new Array(1);
-                source[0] = update;
-                update = function() {
+                config = papara.bind(output)(config, record);
+                record = output.useEffect;
+                config = new Array(1);
+                config[0] = ctrled;
+                ctrled = function() {
                     zuuluu = _closure2_slot26;
                     entity = undefined;
                     michal = true;
                     michal = zuuluu.bind(entity)(michal);
                     return entity;
                 };
-                update = ctrled.bind(output)(update, source);
-                ctrled = output.useMemo;
-                source = new Array(1);
-                source[0] = target;
-                update = function() {
+                ctrled = record.bind(output)(ctrled, config);
+                record = output.useMemo;
+                config = new Array(1);
+                config[0] = target;
+                ctrled = function() {
                     zuuluu = new Array(0);
                     var _closure3_slot0 = zuuluu;
                     michal = new Array(0);
@@ -1207,7 +1201,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                             zuuluu = argFoo;
                             michal = zuuluu.type;
-                            entity = _closure1_slot16;
+                            entity = _closure1_slot14;
                             entity = entity.STICKER;
                             if(!(michal !== entity)) { _fun00024_ip = 44; continue _fun00023 }
  25:
@@ -1230,16 +1224,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['nonStickerResults'] = michal;
                     return entity;
                 };
-                update = ctrled.bind(output)(update, source);
-                variable43 = update.stickerResults;
+                ctrled = record.bind(output)(ctrled, config);
+                variable43 = ctrled.stickerResults;
                 var _closure2_slot27 = variable43;
-                record = update.nonStickerResults;
+                record = ctrled.nonStickerResults;
                 var _closure2_slot28 = record;
-                ctrled = output.useMemo;
-                source = new Array(2);
-                source[0] = variable43;
-                source[1] = record;
-                update = function() {
+                papara = output.useMemo;
+                config = new Array(2);
+                config[0] = variable43;
+                config[1] = record;
+                ctrled = function() {
                     entity = {};
                     zuuluu = _closure2_slot27;
                     zuuluu = zuuluu.length;
@@ -1249,7 +1243,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = function(argFoo) {
                         entity = argFoo;
                         michal = entity.type;
-                        entity = _closure1_slot16;
+                        entity = _closure1_slot14;
                         entity = entity.EMOJI;
                         entity = michal === entity;
                         return entity;
@@ -1259,14 +1253,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['numEmojiResults'] = michal;
                     return entity;
                 };
-                ctrled = ctrled.bind(output)(update, source);
+                ctrled = papara.bind(output)(ctrled, config);
                 var _closure2_slot29 = ctrled;
-                source = output.useMemo;
-                update = new Array(4);
-                update[0] = vacuum;
-                update[1] = target;
-                update[2] = config;
-                update[3] = offset;
+                papara = output.useMemo;
+                config = new Array(4);
+                config[0] = vacuum;
+                config[1] = target;
+                config[2] = sierra;
+                config[3] = offset;
                 offset = function() {
                     _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
@@ -1286,7 +1280,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = entity === tangon;
                         if(!entity) { _fun00026_ip = 65; continue _fun00025 }
  44:
-                        oscard = _closure1_slot35;
+                        oscard = _closure1_slot33;
                         report = _closure2_slot21;
                         tangon = undefined;
                         tangon = oscard.bind(tangon)(report);
@@ -1298,29 +1292,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         if(zuuluu) { _fun00026_ip = 95; continue _fun00025 }
  74:
                         zuuluu = _closure2_slot3;
-                        michal = _closure1_slot27;
+                        michal = _closure1_slot25;
                         michal = michal.SYSTEM;
                         entity = zuuluu === michal;
  95:
                         return entity;
                     }
                 };
-                papara = source.bind(output)(offset, update);
+                papara = papara.bind(output)(offset, config);
                 var _closure2_slot30 = papara;
                 offset = output.useRef;
                 offset = offset.bind(output)(variable40);
                 var _closure2_slot31 = offset;
-                source = output.useEffect;
-                update = new Array(2);
-                update[0] = vacuum;
-                update[1] = sizing;
+                sierra = output.useEffect;
+                config = new Array(2);
+                config[0] = vacuum;
+                config[1] = sizing;
                 offset = function() {
                     _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
                         entity = _closure2_slot31;
                         oscard = entity.current;
                         zuuluu = _closure2_slot31;
-                        golfie = _closure1_slot35;
+                        golfie = _closure1_slot33;
                         michal = _closure2_slot21;
                         entity = undefined;
                         michal = golfie.bind(entity)(michal);
@@ -1344,7 +1338,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         oscard = option[oscard];
                         option = golfie.bind(entity)(oscard);
                         golfie = option.trackWithMetadata;
-                        report = _closure1_slot18;
+                        report = _closure1_slot16;
                         oscard = report.APPLICATION_COMMAND_TOP_OF_FUNNEL;
                         report = {};
                         verify = 'slash_ui';
@@ -1363,8 +1357,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     }
                 };
-                offset = source.bind(output)(offset, update);
-                update = output.useEffect;
+                offset = sierra.bind(output)(offset, config);
+                config = output.useEffect;
                 offset = new Array(6);
                 offset[0] = zuuluu;
                 offset[1] = sizing;
@@ -1408,67 +1402,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     }
                 };
-                zuuluu = update.bind(output)(zuuluu, offset);
-                zuuluu = function(argFoo) { // Original name: useMaxAvailableWindowHeight
-                    _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
- 0:
-                        michal = _closure1_slot7;
-                        oscard = undefined;
-                        michal = michal.bind(oscard)();
-                        zuuluu = michal.height;
-                        report = _closure1_slot0;
-                        option = _closure1_slot2;
-                        michal = 22;
-                        michal = option[michal];
-                        verify = report.bind(oscard)(michal);
-                        golfie = verify.useStateFromStores;
-                        michal = _closure1_slot15;
-                        tangon = new Array(1);
-                        tangon[0] = michal;
-                        michal = function() {
-                            entity = _closure1_slot15;
-                            entity = entity.keyboardHeight;
-                            return entity;
-                        };
-                        verify = golfie.bind(verify)(tangon, michal);
-                        tangon = _closure1_slot1;
-                        michal = 23;
-                        michal = option[michal];
-                        michal = tangon.bind(oscard)(michal);
-                        michal = michal.bind(oscard)();
-                        tangon = michal.top;
-                        golfie = michal.bottom;
-                        michal = 20;
-                        michal = option[michal];
-                        report = report.bind(oscard)(michal);
-                        michal = report.isAndroid;
-                        report = michal.bind(report)();
-                        michal = verify;
-                        if(report) { _fun00032_ip = 142; continue _fun00031 }
- 127:
-                        option = 0;
-                        report = verify;
-                        if(!(option === verify)) { _fun00032_ip = 139; continue _fun00031 }
- 136:
-                        report = golfie;
- 139:
-                        michal = report;
- 142:
-                        report = _closure1_slot0;
-                        golfie = _closure1_slot2;
-                        entity = 24;
-                        entity = golfie[entity];
-                        entity = report.bind(oscard)(entity);
-                        entity = entity.NAV_BAR_HEIGHT;
-                        entity = tangon + entity;
-                        entity = zuuluu - entity;
-                        michal = entity - michal;
-                        entity = argFoo;
-                        entity = michal - entity;
-                        return entity;
-                    }
-                };
-                zuuluu = zuuluu.bind(tangon)(option);
+                zuuluu = config.bind(output)(zuuluu, offset);
+                config = _closure1_slot1;
+                zuuluu = 21;
+                zuuluu = source[zuuluu];
+                zuuluu = config.bind(tangon)(zuuluu);
+                offset = zuuluu.bind(tangon)();
+                zuuluu = 22;
+                zuuluu = source[zuuluu];
+                config = config.bind(tangon)(zuuluu);
+                zuuluu = {};
+                variable44 = true;
+                zuuluu['includeKeyboardHeightIOS'] = variable44;
+                zuuluu = config.bind(tangon)(zuuluu);
+                zuuluu = zuuluu.insets;
+                config = offset.height;
+                offset = zuuluu.top;
+                offset = config - offset;
+                zuuluu = zuuluu.bottom;
+                offset = offset - zuuluu;
+                zuuluu = 23;
+                zuuluu = source[zuuluu];
+                zuuluu = update.bind(tangon)(zuuluu);
+                zuuluu = zuuluu.NAV_BAR_HEIGHT;
+                zuuluu = offset - zuuluu;
+                zuuluu = zuuluu - option;
                 var _closure2_slot32 = zuuluu;
                 offset = output.useMemo;
                 option = new Array(3);
@@ -1477,31 +1435,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option[1] = update;
                 option[2] = zuuluu;
                 zuuluu = function() {
-                    _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
+                    _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
  0:
                         michal = _closure2_slot27;
                         zuuluu = michal.length;
                         michal = 0;
-                        if(!(!(zuuluu > michal))) { _fun00034_ip = 47; continue _fun00033 }
+                        if(!(!(zuuluu > michal))) { _fun00032_ip = 47; continue _fun00031 }
  18:
                         zuuluu = _closure2_slot21;
-                        michal = _closure1_slot26;
+                        michal = _closure1_slot24;
                         michal = michal.EMOJIS_AND_STICKERS;
                         tangon = 200;
-                        if(!(zuuluu === michal)) { _fun00034_ip = 45; continue _fun00033 }
+                        if(!(zuuluu === michal)) { _fun00032_ip = 45; continue _fun00031 }
  42:
                         tangon = 242;
  45:
-                        _fun00034_ip = 54; continue _fun00033;
+                        _fun00032_ip = 54; continue _fun00031;
  47:
-                        tangon = _closure1_slot33;
+                        tangon = _closure1_slot31;
  54:
                         michal = global;
                         zuuluu = michal.Math;
                         michal = zuuluu.min;
-                        report = _closure2_slot32;
-                        entity = 16;
-                        entity = report - entity;
+                        entity = _closure2_slot32;
                         entity = michal.bind(zuuluu)(entity, tangon);
                         return entity;
                     }
@@ -1510,18 +1466,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 var _closure2_slot33 = zuuluu;
                 option = null;
                 limora = option != variable43;
-                if(!limora) { _fun00008_ip = 1129; continue _fun00007 }
- 1120:
+                if(!limora) { _fun00008_ip = 1218; continue _fun00007 }
+ 1209:
                 offset = variable43.length;
                 limora = offset > michal;
- 1129:
+ 1218:
                 _closure2_slot34 = limora;
                 sierra = option != record;
-                if(!sierra) { _fun00008_ip = 1149; continue _fun00007 }
- 1140:
+                if(!sierra) { _fun00008_ip = 1238; continue _fun00007 }
+ 1229:
                 offset = record.length;
                 sierra = offset > michal;
- 1149:
+ 1238:
                 _closure2_slot35 = sierra;
                 offset = _closure1_slot4;
                 output = offset.useState;
@@ -1545,30 +1501,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 update[7] = config;
                 update[8] = echoed;
                 echoed = function() {
-                    _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
+                    _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
  0:
                         tangon = _closure2_slot21;
-                        michal = _closure1_slot26;
+                        michal = _closure1_slot24;
                         michal = michal.EMOJIS_AND_STICKERS;
-                        if(!(tangon !== michal)) { _fun00036_ip = 133; continue _fun00035 }
+                        if(!(tangon !== michal)) { _fun00034_ip = 133; continue _fun00033 }
  24:
-                        tangon = _closure1_slot35;
+                        tangon = _closure1_slot33;
                         michal = _closure2_slot21;
                         option = undefined;
                         michal = tangon.bind(option)(michal);
-                        if(michal) { _fun00036_ip = 106; continue _fun00035 }
+                        if(michal) { _fun00034_ip = 106; continue _fun00033 }
  42:
                         michal = _closure2_slot21;
                         tangon = null;
                         michal = tangon != michal;
                         report = 0;
-                        if(!michal) { _fun00036_ip = 262; continue _fun00035 }
+                        if(!michal) { _fun00034_ip = 262; continue _fun00033 }
  60:
-                        oscard = _closure1_slot37;
+                        oscard = _closure1_slot35;
                         michal = _closure2_slot11;
                         michal = tangon != michal;
                         golfie = 0;
-                        if(!michal) { _fun00036_ip = 86; continue _fun00035 }
+                        if(!michal) { _fun00034_ip = 86; continue _fun00033 }
  77:
                         michal = _closure2_slot11;
                         golfie = michal.length;
@@ -1576,20 +1532,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = _closure2_slot21;
                         michal = _closure2_slot13;
                         report = oscard.bind(option)(golfie, tangon, michal);
-                        _fun00036_ip = 262; continue _fun00035;
+                        _fun00034_ip = 262; continue _fun00033;
  106:
                         tangon = _closure2_slot36;
                         michal = null;
                         tangon = michal != tangon;
                         michal = 0;
-                        if(!tangon) { _fun00036_ip = 125; continue _fun00035 }
+                        if(!tangon) { _fun00034_ip = 125; continue _fun00033 }
  121:
                         michal = _closure2_slot36;
  125:
                         report = michal;
-                        _fun00036_ip = 262; continue _fun00035;
+                        _fun00034_ip = 262; continue _fun00033;
  133:
-                        golfie = _closure1_slot37;
+                        golfie = _closure1_slot35;
                         michal = _closure2_slot28;
                         oscard = michal.length;
                         tangon = _closure2_slot21;
@@ -1598,18 +1554,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = golfie.bind(option)(oscard, tangon, michal);
                         michal = _closure2_slot35;
                         oscard = tangon;
-                        if(!michal) { _fun00036_ip = 180; continue _fun00035 }
+                        if(!michal) { _fun00034_ip = 180; continue _fun00033 }
  173:
                         michal = 42;
                         oscard = tangon + michal;
  180:
                         michal = _closure2_slot34;
                         tangon = oscard;
-                        if(!michal) { _fun00036_ip = 234; continue _fun00035 }
+                        if(!michal) { _fun00034_ip = 234; continue _fun00033 }
  190:
                         golfie = _closure1_slot0;
                         verify = _closure1_slot2;
-                        michal = 18;
+                        michal = 17;
                         michal = verify[michal];
                         michal = golfie.bind(option)(michal);
                         golfie = michal.AUTOCOMPLETE_STICKER_NODE_SIZE;
@@ -1620,14 +1576,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = oscard + michal;
  234:
                         oscard = _closure2_slot34;
-                        if(!oscard) { _fun00036_ip = 245; continue _fun00035 }
+                        if(!oscard) { _fun00034_ip = 245; continue _fun00033 }
  241:
                         oscard = _closure2_slot35;
  245:
                         michal = tangon;
-                        if(!oscard) { _fun00036_ip = 259; continue _fun00035 }
+                        if(!oscard) { _fun00034_ip = 259; continue _fun00033 }
  251:
-                        zuuluu = _closure1_slot32;
+                        zuuluu = _closure1_slot30;
                         michal = tangon + zuuluu;
  259:
                         report = michal;
@@ -1637,7 +1593,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = tangon.min;
                         oscard = _closure2_slot30;
                         michal = 0;
-                        if(!oscard) { _fun00036_ip = 287; continue _fun00035 }
+                        if(!oscard) { _fun00034_ip = 287; continue _fun00033 }
  284:
                         michal = report;
  287:
@@ -1669,7 +1625,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 source[0] = echoed;
                 source[1] = update;
                 update = function() {
-                    _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
+                    _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
  0:
                         tangon = _closure1_slot5;
                         zuuluu = tangon.timing;
@@ -1677,10 +1633,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = {};
                         oscard = _closure2_slot38;
                         entity['toValue'] = oscard;
-                        report = _closure1_slot10;
+                        report = _closure1_slot9;
                         oscard = report.useReducedMotion;
                         report = 250;
-                        if(!oscard) { _fun00038_ip = 49; continue _fun00037 }
+                        if(!oscard) { _fun00036_ip = 49; continue _fun00035 }
  47:
                         report = 0;
  49:
@@ -1701,13 +1657,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 update[1] = whisks;
                 update[2] = yankee;
                 backup = function(argFoo, argBar, argBaz) {
-                    _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
+                    _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
  0:
                         entity = argFoo;
                         tangon = entity.type;
-                        michal = _closure1_slot16;
+                        michal = _closure1_slot14;
                         michal = michal.EMOJI_PREMIUM_UPSELL;
-                        if(!(tangon === michal)) { _fun00040_ip = 92; continue _fun00039 }
+                        if(!(tangon === michal)) { _fun00038_ip = 92; continue _fun00037 }
  25:
                         report = _closure1_slot1;
                         tangon = _closure1_slot2;
@@ -1717,13 +1673,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = report.bind(michal)(tangon);
                         tangon = report.handleShowUpsellAlert;
                         michal = {};
-                        oscard = _closure1_slot19;
+                        oscard = _closure1_slot17;
                         oscard = oscard.EMOJI_AUTOCOMPLETE;
                         michal['initialUpsellKey'] = oscard;
                         oscard = _closure2_slot0;
                         michal['analyticsLocations'] = oscard;
                         michal = tangon.bind(report)(michal);
-                        _fun00040_ip = 280; continue _fun00039;
+                        _fun00038_ip = 280; continue _fun00037;
  92:
                         report = _closure1_slot0;
                         tangon = _closure1_slot2;
@@ -1740,7 +1696,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         verify = report.bind(oscard)();
                         report = null;
                         report = report == verify;
-                        if(report) { _fun00040_ip = 192; continue _fun00039 }
+                        if(report) { _fun00038_ip = 192; continue _fun00037 }
  161:
                         golfie = verify.setAutoCompleteResult;
                         report = _closure2_slot1;
@@ -1751,10 +1707,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         offset = entity;
                         tangon = backup[golfie](foxtra, romeon, yankee, offset, verify);
  192:
-                        if(tangon) { _fun00040_ip = 280; continue _fun00039 }
+                        if(tangon) { _fun00038_ip = 280; continue _fun00037 }
  195:
                         verify = entity.type;
-                        zuuluu = _closure1_slot16;
+                        zuuluu = _closure1_slot14;
                         tangon = zuuluu.STICKER;
                         report = _closure2_slot6;
                         golfie = report.current;
@@ -1764,7 +1720,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = oscard.bind(golfie)(option, report, tangon);
                         tangon = entity.type;
                         zuuluu = zuuluu.STICKER;
-                        if(!(tangon === zuuluu)) { _fun00040_ip = 280; continue _fun00039 }
+                        if(!(tangon === zuuluu)) { _fun00038_ip = 280; continue _fun00037 }
  254:
                         michal = _closure2_slot6;
                         zuuluu = michal.current;
@@ -1784,7 +1740,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 backup[1] = romeon;
                 backup[2] = whisks;
                 yankee = function(argFoo) {
-                    _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
+                    _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
  0:
                         michal = argFoo;
                         entity = _closure2_slot6;
@@ -1800,14 +1756,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = option.bind(entity)(tangon);
                         tangon = tangon.ApplicationCommandOptionType;
                         tangon = tangon.ATTACHMENT;
-                        if(!(golfie !== tangon)) { _fun00042_ip = 90; continue _fun00041 }
+                        if(!(golfie !== tangon)) { _fun00040_ip = 90; continue _fun00039 }
  71:
                         tangon = null;
-                        if(!(tangon != oscard)) { _fun00042_ip = 188; continue _fun00041 }
+                        if(!(tangon != oscard)) { _fun00040_ip = 188; continue _fun00039 }
  77:
                         tangon = oscard.insertOrJumpCommandOption;
                         tangon = tangon.bind(oscard)(michal);
-                        _fun00042_ip = 188; continue _fun00041;
+                        _fun00040_ip = 188; continue _fun00039;
  90:
                         golfie = _closure2_slot7;
                         tangon = michal.name;
@@ -1816,16 +1772,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = report.id;
                         golfie = tangon.lastValidationResult;
                         tangon = null;
-                        if(!(tangon != golfie)) { _fun00042_ip = 133; continue _fun00041 }
+                        if(!(tangon != golfie)) { _fun00040_ip = 133; continue _fun00039 }
  124:
                         golfie = golfie.success;
-                        if(golfie) { _fun00042_ip = 150; continue _fun00041 }
+                        if(golfie) { _fun00040_ip = 150; continue _fun00039 }
  133:
-                        if(!(tangon != oscard)) { _fun00042_ip = 188; continue _fun00041 }
+                        if(!(tangon != oscard)) { _fun00040_ip = 188; continue _fun00039 }
  137:
                         tangon = oscard.insertOrJumpCommandOption;
                         tangon = tangon.bind(oscard)(michal);
-                        _fun00042_ip = 188; continue _fun00041;
+                        _fun00040_ip = 188; continue _fun00039;
  150:
                         tangon = _closure1_slot0;
                         golfie = _closure1_slot2;
@@ -1849,7 +1805,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 yankee[4] = source;
                 yankee[5] = report;
                 report = function(argFoo) {
-                    _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
+                    _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
  0:
                         report = argFoo;
                         zuuluu = _closure1_slot0;
@@ -1865,11 +1821,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         offset = report.type;
                         zuuluu['selectionType'] = offset;
                         romeon = report.type;
-                        oscard = _closure1_slot16;
+                        oscard = _closure1_slot14;
                         yankee = oscard.STICKER;
                         oscard = null;
                         offset = null;
-                        if(!(romeon === yankee)) { _fun00044_ip = 91; continue _fun00043 }
+                        if(!(romeon === yankee)) { _fun00042_ip = 91; continue _fun00041 }
  80:
                         yankee = report.sticker;
                         offset = yankee.id;
@@ -1883,7 +1839,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = _closure2_slot24;
                         oscard = oscard != zuuluu;
                         zuuluu = 0;
-                        if(!oscard) { _fun00044_ip = 135; continue _fun00043 }
+                        if(!oscard) { _fun00042_ip = 135; continue _fun00041 }
  131:
                         zuuluu = _closure2_slot24;
  135:
@@ -1909,59 +1865,59 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report[3] = whisks;
                 report[4] = sizing;
                 michal = function(argFoo) {
-                    _fun00045: for(var _fun00046_ip = 0; ; ) switch(_fun00046_ip) {
+                    _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
  0:
                         entity = argFoo;
                         oscard = entity.item;
                         var _closure3_slot0 = oscard;
                         zuuluu = oscard.type;
-                        michal = _closure1_slot16;
+                        michal = _closure1_slot14;
                         michal = michal.USER;
-                        if(!(michal !== zuuluu)) { _fun00046_ip = 890; continue _fun00045 }
+                        if(!(michal !== zuuluu)) { _fun00044_ip = 890; continue _fun00043 }
  39:
-                        michal = _closure1_slot16;
+                        michal = _closure1_slot14;
                         michal = michal.GLOBAL;
-                        if(!(michal !== zuuluu)) { _fun00046_ip = 822; continue _fun00045 }
+                        if(!(michal !== zuuluu)) { _fun00044_ip = 822; continue _fun00043 }
  56:
-                        michal = _closure1_slot16;
+                        michal = _closure1_slot14;
                         michal = michal.ROLE;
-                        if(!(michal !== zuuluu)) { _fun00046_ip = 711; continue _fun00045 }
+                        if(!(michal !== zuuluu)) { _fun00044_ip = 711; continue _fun00043 }
  73:
-                        michal = _closure1_slot16;
+                        michal = _closure1_slot14;
                         michal = michal.CHANNEL;
-                        if(!(michal !== zuuluu)) { _fun00046_ip = 643; continue _fun00045 }
+                        if(!(michal !== zuuluu)) { _fun00044_ip = 643; continue _fun00043 }
  90:
-                        michal = _closure1_slot16;
+                        michal = _closure1_slot14;
                         michal = michal.EMOJI;
-                        if(!(michal !== zuuluu)) { _fun00046_ip = 575; continue _fun00045 }
+                        if(!(michal !== zuuluu)) { _fun00044_ip = 575; continue _fun00043 }
  107:
-                        michal = _closure1_slot16;
+                        michal = _closure1_slot14;
                         michal = michal.EMOJI_PREMIUM_UPSELL;
-                        if(!(michal !== zuuluu)) { _fun00046_ip = 507; continue _fun00045 }
+                        if(!(michal !== zuuluu)) { _fun00044_ip = 507; continue _fun00043 }
  124:
-                        michal = _closure1_slot16;
+                        michal = _closure1_slot14;
                         michal = michal.CHOICE;
-                        if(!(michal !== zuuluu)) { _fun00046_ip = 439; continue _fun00045 }
+                        if(!(michal !== zuuluu)) { _fun00044_ip = 439; continue _fun00043 }
  141:
-                        michal = _closure1_slot16;
+                        michal = _closure1_slot14;
                         michal = michal.CHOICE_LOADING;
-                        if(!(michal !== zuuluu)) { _fun00046_ip = 397; continue _fun00045 }
+                        if(!(michal !== zuuluu)) { _fun00044_ip = 397; continue _fun00043 }
  158:
-                        michal = _closure1_slot16;
+                        michal = _closure1_slot14;
                         michal = michal.STICKER;
-                        if(!(michal !== zuuluu)) { _fun00046_ip = 242; continue _fun00045 }
+                        if(!(michal !== zuuluu)) { _fun00044_ip = 242; continue _fun00043 }
  172:
-                        michal = _closure1_slot16;
+                        michal = _closure1_slot14;
                         michal = michal.LABEL;
-                        if(!(michal !== zuuluu)) { _fun00046_ip = 190; continue _fun00045 }
+                        if(!(michal !== zuuluu)) { _fun00044_ip = 190; continue _fun00043 }
  186:
                         michal = null;
                         return michal;
  190:
-                        golfie = _closure1_slot29;
+                        golfie = _closure1_slot27;
                         zuuluu = _closure1_slot1;
                         tangon = _closure1_slot2;
-                        michal = 18;
+                        michal = 17;
                         michal = tangon[michal];
                         tangon = undefined;
                         michal = zuuluu.bind(tangon)(michal);
@@ -1977,10 +1933,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = oscard.sticker;
                         michal = michal.id;
                         romeon = zuuluu === michal;
-                        option = _closure1_slot29;
+                        option = _closure1_slot27;
                         zuuluu = _closure1_slot1;
                         tangon = _closure1_slot2;
-                        michal = 18;
+                        michal = 17;
                         michal = tangon[michal];
                         golfie = undefined;
                         michal = zuuluu.bind(golfie)(michal);
@@ -2022,10 +1978,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = option.bind(golfie)(tangon, zuuluu, michal);
                         return michal;
  397:
-                        golfie = _closure1_slot29;
+                        golfie = _closure1_slot27;
                         zuuluu = _closure1_slot1;
                         tangon = _closure1_slot2;
-                        michal = 18;
+                        michal = 17;
                         michal = tangon[michal];
                         tangon = undefined;
                         michal = zuuluu.bind(tangon)(michal);
@@ -2034,10 +1990,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = golfie.bind(tangon)(zuuluu, michal);
                         return michal;
  439:
-                        golfie = _closure1_slot29;
+                        golfie = _closure1_slot27;
                         zuuluu = _closure1_slot1;
                         tangon = _closure1_slot2;
-                        michal = 18;
+                        michal = 17;
                         michal = tangon[michal];
                         tangon = undefined;
                         michal = zuuluu.bind(tangon)(michal);
@@ -2058,10 +2014,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = golfie.bind(tangon)(zuuluu, michal);
                         return michal;
  507:
-                        golfie = _closure1_slot29;
+                        golfie = _closure1_slot27;
                         zuuluu = _closure1_slot1;
                         tangon = _closure1_slot2;
-                        michal = 18;
+                        michal = 17;
                         michal = tangon[michal];
                         tangon = undefined;
                         michal = zuuluu.bind(tangon)(michal);
@@ -2082,10 +2038,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = golfie.bind(tangon)(zuuluu, michal);
                         return michal;
  575:
-                        golfie = _closure1_slot29;
+                        golfie = _closure1_slot27;
                         zuuluu = _closure1_slot1;
                         tangon = _closure1_slot2;
-                        michal = 18;
+                        michal = 17;
                         michal = tangon[michal];
                         tangon = undefined;
                         michal = zuuluu.bind(tangon)(michal);
@@ -2106,10 +2062,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = golfie.bind(tangon)(zuuluu, michal);
                         return michal;
  643:
-                        golfie = _closure1_slot29;
+                        golfie = _closure1_slot27;
                         zuuluu = _closure1_slot1;
                         tangon = _closure1_slot2;
-                        michal = 18;
+                        michal = 17;
                         michal = tangon[michal];
                         tangon = undefined;
                         michal = zuuluu.bind(tangon)(michal);
@@ -2130,10 +2086,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = golfie.bind(tangon)(zuuluu, michal);
                         return michal;
  711:
-                        golfie = _closure1_slot29;
+                        golfie = _closure1_slot27;
                         zuuluu = _closure1_slot1;
                         tangon = _closure1_slot2;
-                        michal = 18;
+                        michal = 17;
                         michal = tangon[michal];
                         tangon = undefined;
                         michal = zuuluu.bind(tangon)(michal);
@@ -2152,10 +2108,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         option = 'onPress';
                         michal[option] = verify;
                         offset = _closure2_slot21;
-                        verify = _closure1_slot26;
+                        verify = _closure1_slot24;
                         verify = verify.MENTIONS;
                         verify = offset === verify;
-                        if(!verify) { _fun00046_ip = 805; continue _fun00045 }
+                        if(!verify) { _fun00044_ip = 805; continue _fun00043 }
  795:
                         offset = _closure2_slot9;
                         option = null;
@@ -2166,10 +2122,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = golfie.bind(tangon)(zuuluu, michal);
                         return michal;
  822:
-                        golfie = _closure1_slot29;
+                        golfie = _closure1_slot27;
                         zuuluu = _closure1_slot1;
                         tangon = _closure1_slot2;
-                        michal = 18;
+                        michal = 17;
                         michal = tangon[michal];
                         tangon = undefined;
                         michal = zuuluu.bind(tangon)(michal);
@@ -2190,10 +2146,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = golfie.bind(tangon)(zuuluu, michal);
                         return michal;
  890:
-                        tangon = _closure1_slot29;
+                        tangon = _closure1_slot27;
                         michal = _closure1_slot1;
                         zuuluu = _closure1_slot2;
-                        entity = 18;
+                        entity = 17;
                         entity = zuuluu[entity];
                         zuuluu = undefined;
                         entity = michal.bind(zuuluu)(entity);
@@ -2226,12 +2182,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = {};
                 michal['maxHeight'] = zuuluu;
                 papara[1] = michal;
-                report = _closure1_slot31;
+                report = _closure1_slot29;
                 zuuluu = _closure1_slot6;
                 michal = {};
                 golfie = oscard.autocompleteWrapper;
                 michal['style'] = golfie;
-                yankee = _closure1_slot29;
+                yankee = _closure1_slot27;
                 golfie = _closure1_slot5;
                 offset = golfie.View;
                 golfie = {};
@@ -2243,17 +2199,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 output[1] = result;
                 golfie['style'] = output;
                 output = option != vacuum;
-                if(!output) { _fun00008_ip = 2481; continue _fun00007 }
- 1616:
-                update = _closure1_slot31;
-                echoed = _closure1_slot30;
+                if(!output) { _fun00008_ip = 2568; continue _fun00007 }
+ 1705:
+                update = _closure1_slot29;
+                echoed = _closure1_slot28;
                 result = {};
-                source = _closure1_slot26;
+                source = _closure1_slot24;
                 source = source.SLASHES_DISCOVERY;
                 ctrled = vacuum === source;
-                if(!ctrled) { _fun00008_ip = 1701; continue _fun00007 }
- 1643:
-                target = _closure1_slot29;
+                if(!ctrled) { _fun00008_ip = 1790; continue _fun00007 }
+ 1732:
+                target = _closure1_slot27;
                 sequen = _closure1_slot1;
                 quebec = _closure1_slot2;
                 source = 37;
@@ -2262,7 +2218,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 source = {};
                 source['channel'] = whisks;
                 quebec = function(argFoo, argBar, argBaz) { // Original name: onPressSlashItem
-                    _fun00047: for(var _fun00048_ip = 0; ; ) switch(_fun00048_ip) {
+                    _fun00045: for(var _fun00046_ip = 0; ; ) switch(_fun00046_ip) {
  0:
                         tangon = _closure2_slot40;
                         zuuluu = {};
@@ -2270,7 +2226,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu['command'] = entity;
                         entity = argBar;
                         zuuluu['section'] = entity;
-                        michal = _closure1_slot16;
+                        michal = _closure1_slot14;
                         michal = michal.SLASH;
                         zuuluu['type'] = michal;
                         michal = argBaz;
@@ -2288,7 +2244,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = null;
                         oscard = michal != oscard;
                         michal = 0;
-                        if(!oscard) { _fun00048_ip = 106; continue _fun00047 }
+                        if(!oscard) { _fun00046_ip = 106; continue _fun00045 }
  102:
                         michal = _closure2_slot24;
  106:
@@ -2300,15 +2256,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 source['onHeightChange'] = equals;
                 source['canOnlyUseTextCommands'] = status;
                 ctrled = target.bind(tangon)(sequen, source);
- 1701:
+ 1790:
                 source = new Array(4);
                 source[0] = ctrled;
-                ctrled = _closure1_slot26;
+                ctrled = _closure1_slot24;
                 ctrled = ctrled.SLASHES;
                 ctrled = vacuum === ctrled;
-                if(!ctrled) { _fun00008_ip = 1861; continue _fun00007 }
- 1729:
-                status = _closure1_slot29;
+                if(!ctrled) { _fun00008_ip = 1950; continue _fun00007 }
+ 1818:
+                status = _closure1_slot27;
                 target = _closure1_slot1;
                 equals = _closure1_slot2;
                 sequen = 39;
@@ -2318,13 +2274,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sequen['channel'] = whisks;
                 equals = option != variable41;
                 whisks = variable42;
-                if(!equals) { _fun00008_ip = 1772; continue _fun00007 }
- 1769:
+                if(!equals) { _fun00008_ip = 1861; continue _fun00007 }
+ 1858:
                 whisks = variable41;
- 1772:
+ 1861:
                 sequen['query'] = whisks;
                 whisks = function(argFoo, argBar) { // Original name: onPressCommandItem
-                    _fun00049: for(var _fun00050_ip = 0; ; ) switch(_fun00050_ip) {
+                    _fun00047: for(var _fun00048_ip = 0; ; ) switch(_fun00048_ip) {
  0:
                         tangon = _closure2_slot40;
                         zuuluu = {};
@@ -2332,7 +2288,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu['command'] = entity;
                         entity = argBar;
                         zuuluu['section'] = entity;
-                        michal = _closure1_slot16;
+                        michal = _closure1_slot14;
                         michal = michal.SLASH;
                         zuuluu['type'] = michal;
                         oscard = _closure1_slot0;
@@ -2350,7 +2306,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = null;
                         oscard = michal != oscard;
                         michal = 0;
-                        if(!oscard) { _fun00050_ip = 106; continue _fun00049 }
+                        if(!oscard) { _fun00048_ip = 106; continue _fun00047 }
  102:
                         michal = _closure2_slot24;
  106:
@@ -2373,7 +2329,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sequen['getItemLayout'] = whisks;
                 whisks = function(argFoo) { // Original name: onCommandsChange
                     zuuluu = _closure2_slot37;
-                    oscard = _closure1_slot37;
+                    oscard = _closure1_slot35;
                     report = _closure2_slot21;
                     tangon = _closure2_slot13;
                     entity = undefined;
@@ -2384,28 +2340,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 sequen['onCommandsChange'] = whisks;
                 ctrled = status.bind(tangon)(target, sequen);
- 1861:
+ 1950:
                 source[1] = ctrled;
-                ctrled = _closure1_slot26;
+                ctrled = _closure1_slot24;
                 ctrled = ctrled.EMOJIS_AND_STICKERS;
                 ctrled = vacuum === ctrled;
-                if(!ctrled) { _fun00008_ip = 2371; continue _fun00007 }
- 1885:
-                target = _closure1_slot31;
-                sequen = _closure1_slot30;
+                if(!ctrled) { _fun00008_ip = 2458; continue _fun00007 }
+ 1974:
+                target = _closure1_slot29;
+                sequen = _closure1_slot28;
                 vacuum = {};
                 whisks = limora;
-                if(!limora) { _fun00008_ip = 2149; continue _fun00007 }
- 1904:
-                quebec = _closure1_slot31;
-                equals = _closure1_slot30;
+                if(!limora) { _fun00008_ip = 2236; continue _fun00007 }
+ 1993:
+                quebec = _closure1_slot29;
+                equals = _closure1_slot28;
                 status = {};
-                variable39 = _closure1_slot29;
-                variable44 = _closure1_slot0;
-                variable47 = _closure1_slot2;
+                variable39 = _closure1_slot27;
+                variable45 = _closure1_slot0;
+                variable48 = _closure1_slot2;
                 variable36 = 40;
-                variable36 = variable47[variable36];
-                variable36 = variable44.bind(tangon)(variable36);
+                variable36 = variable48[variable36];
+                variable36 = variable45.bind(tangon)(variable36);
                 variable37 = variable36.Text;
                 variable36 = {};
                 variable38 = oscard.sectionTitle;
@@ -2413,32 +2369,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 variable38 = 'text-sm/semibold';
                 variable36['variant'] = variable38;
                 variable38 = 41;
-                variable45 = variable47[variable38];
-                variable45 = variable44.bind(tangon)(variable45);
-                variable46 = variable45.intl;
-                variable45 = variable46.format;
-                variable38 = variable47[variable38];
-                variable38 = variable44.bind(tangon)(variable38);
+                variable46 = variable48[variable38];
+                variable46 = variable45.bind(tangon)(variable46);
+                variable47 = variable46.intl;
+                variable46 = variable47.format;
+                variable38 = variable48[variable38];
+                variable38 = variable45.bind(tangon)(variable38);
                 variable38 = variable38.t;
-                variable44 = variable38.uferGB;
+                variable45 = variable38.uferGB;
                 variable38 = {};
                 variable38['prefix'] = variable41;
-                variable38 = variable45.bind(variable46)(variable44, variable38);
+                variable38 = variable46.bind(variable47)(variable45, variable38);
                 variable36['children'] = variable38;
                 variable37 = variable39.bind(tangon)(variable37, variable36);
                 variable36 = new Array(2);
                 variable36[0] = variable37;
-                variable38 = _closure1_slot8;
+                variable38 = _closure1_slot7;
                 variable37 = {};
-                variable44 = true;
                 variable37['horizontal'] = variable44;
                 variable44 = {};
-                variable49 = variable44;
-                variable48 = papara;
-                variable45 = copyDataProperties(variable49, variable48);
-                variable48 = oscard.stickersAutocompleteList;
-                variable49 = variable44;
-                variable45 = copyDataProperties(variable49, variable48);
+                variable50 = variable44;
+                variable49 = papara;
+                variable45 = copyDataProperties(variable50, variable49);
+                variable49 = oscard.stickersAutocompleteList;
+                variable50 = variable44;
+                variable45 = copyDataProperties(variable50, variable49);
                 variable37['style'] = variable44;
                 variable44 = function(argFoo) { // Original name: keyExtractor
                     entity = argFoo;
@@ -2450,7 +2405,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 variable37['data'] = variable43;
                 variable37['renderItem'] = config;
                 variable37['showsHorizontalScrollIndicator'] = variable40;
-                variable40 = _closure1_slot36;
+                variable40 = _closure1_slot34;
                 variable37['getItemLayout'] = variable40;
                 variable40 = {};
                 variable43 = 12;
@@ -2460,16 +2415,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 variable36[1] = variable37;
                 status['children'] = variable36;
                 whisks = quebec.bind(tangon)(equals, status);
- 2149:
+ 2236:
                 status = new Array(3);
                 status[0] = whisks;
-                if(!limora) { _fun00008_ip = 2163; continue _fun00007 }
- 2160:
+                if(!limora) { _fun00008_ip = 2250; continue _fun00007 }
+ 2247:
                 limora = sierra;
- 2163:
-                if(!limora) { _fun00008_ip = 2208; continue _fun00007 }
- 2166:
-                quebec = _closure1_slot29;
+ 2250:
+                if(!limora) { _fun00008_ip = 2295; continue _fun00007 }
+ 2253:
+                quebec = _closure1_slot27;
                 equals = _closure1_slot1;
                 variable36 = _closure1_slot2;
                 whisks = 42;
@@ -2479,11 +2434,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 variable36 = oscard.sectionDivider;
                 whisks['style'] = variable36;
                 limora = quebec.bind(tangon)(equals, whisks);
- 2208:
+ 2295:
                 status[1] = limora;
-                if(!sierra) { _fun00008_ip = 2357; continue _fun00007 }
- 2218:
-                equals = _closure1_slot29;
+                if(!sierra) { _fun00008_ip = 2444; continue _fun00007 }
+ 2305:
+                equals = _closure1_slot27;
                 variable36 = _closure1_slot0;
                 variable39 = _closure1_slot2;
                 limora = 40;
@@ -2505,7 +2460,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 quebec = quebec.t;
                 variable36 = quebec.ksAVYm;
                 quebec = {};
-                variable40 = _closure1_slot25;
+                variable40 = _closure1_slot23;
                 variable39 = global;
                 variable39 = variable39.HermesInternal;
                 variable39 = variable39.concat;
@@ -2514,14 +2469,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 quebec = variable37.bind(variable38)(variable36, quebec);
                 limora['children'] = quebec;
                 sierra = equals.bind(tangon)(whisks, limora);
- 2357:
+ 2444:
                 status[2] = sierra;
                 vacuum['children'] = status;
                 ctrled = target.bind(tangon)(sequen, vacuum);
- 2371:
+ 2458:
                 source[2] = ctrled;
-                sequen = _closure1_slot29;
-                vacuum = _closure1_slot8;
+                sequen = _closure1_slot27;
+                vacuum = _closure1_slot7;
                 ctrled = {};
                 ctrled['style'] = papara;
                 cntext = function(argFoo, argBar) { // Original name: keyExtractor
@@ -2550,19 +2505,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 source[3] = ctrled;
                 result['children'] = source;
                 output = update.bind(tangon)(echoed, result);
- 2481:
+ 2568:
                 golfie['children'] = output;
                 offset = yankee.bind(tangon)(offset, golfie);
                 golfie = new Array(2);
                 golfie[0] = offset;
                 option = option != sizing;
-                if(!option) { _fun00008_ip = 2509; continue _fun00007 }
- 2506:
+                if(!option) { _fun00008_ip = 2596; continue _fun00007 }
+ 2593:
                 option = !verify;
- 2509:
-                if(!option) { _fun00008_ip = 2568; continue _fun00007 }
- 2512:
-                yankee = _closure1_slot29;
+ 2596:
+                if(!option) { _fun00008_ip = 2655; continue _fun00007 }
+ 2599:
+                yankee = _closure1_slot27;
                 offset = _closure1_slot1;
                 output = _closure1_slot2;
                 verify = 43;
@@ -2575,11 +2530,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify['currentOption'] = foxtra;
                 verify['optionStates'] = romeon;
                 option = yankee.bind(tangon)(offset, verify);
- 2568:
+ 2655:
                 golfie[1] = option;
                 michal['children'] = golfie;
                 report = report.bind(tangon)(zuuluu, michal);
-                zuuluu = _closure1_slot29;
+                zuuluu = _closure1_slot27;
                 michal = _closure1_slot6;
                 entity = {};
                 oscard = oscard.autocompletePosition;

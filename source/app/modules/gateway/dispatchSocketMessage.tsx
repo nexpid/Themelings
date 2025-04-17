@@ -4297,6 +4297,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     tangon = option.bind(entity)(golfie, tangon);
+    golfie = ['QUESTS_USER_COMPLETION_UPDATE'];
+    tangon = function(argFoo) {
+        zuuluu = _closure1_slot25;
+        michal = {};
+        entity = 'QUESTS_USER_COMPLETION_UPDATE';
+        michal['type'] = entity;
+        entity = argFoo;
+        entity = entity.quest_enrollment_blocked_until;
+        michal['quest_enrollment_blocked_until'] = entity;
+        entity = undefined;
+        michal = zuuluu.bind(entity)(michal);
+        return entity;
+    };
+    tangon = option.bind(entity)(golfie, tangon);
     golfie = ['APPLICATION_COMMAND_PERMISSIONS_UPDATE'];
     tangon = function(argFoo, argBar) {
         zuuluu = _closure1_slot25;

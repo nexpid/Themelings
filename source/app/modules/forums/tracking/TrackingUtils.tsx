@@ -201,12 +201,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = null;
             michal = option != zuuluu;
             entity = null;
-            if(!michal) { _fun00014_ip = 441; continue _fun00013 }
+            if(!michal) { _fun00014_ip = 473; continue _fun00013 }
  45:
             michal = zuuluu.isForumLikeChannel;
             michal = michal.bind(zuuluu)();
             entity = null;
-            if(!michal) { _fun00014_ip = 441; continue _fun00013 }
+            if(!michal) { _fun00014_ip = 473; continue _fun00013 }
  63:
             michal = {};
             oscard = zuuluu.topic;
@@ -290,18 +290,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['forum_channel_session_id'] = report;
             report = _closure1_slot1;
             tangon = _closure1_slot2;
+            option = tangon[golfie];
+            offset = report.bind(oscard)(option);
+            verify = offset.getLayoutAnalytics;
+            option = zuuluu.id;
+            option = verify.bind(offset)(option);
+            michal['forum_channel_layout'] = option;
+            option = zuuluu.defaultSortOrder;
+            michal['forum_channel_default_sort_order'] = option;
             tangon = tangon[golfie];
             oscard = report.bind(oscard)(tangon);
-            report = oscard.getLayoutAnalytics;
+            report = oscard.getTagSettingAnalytics;
             tangon = zuuluu.id;
             tangon = report.bind(oscard)(tangon);
-            michal['forum_channel_layout'] = tangon;
-            tangon = zuuluu.defaultSortOrder;
-            michal['forum_channel_default_sort_order'] = tangon;
+            michal['forum_channel_tag_setting'] = tangon;
             zuuluu = zuuluu.defaultForumLayout;
             michal['forum_channel_default_layout'] = zuuluu;
             entity = michal;
- 441:
+ 473:
             return entity;
         }
     };

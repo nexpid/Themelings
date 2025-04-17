@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = golfie[report];
     option = oscard.bind(entity)(option);
     option = option.VanillaExperiment;
-    verify = new Array(8);
+    verify = new Array(5);
     verify[0] = option;
     option = golfie[report];
     option = oscard.bind(entity)(option);
@@ -50,21 +50,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = oscard.bind(entity)(report);
     report = report.UnevenBucketsExperiment;
     verify[4] = report;
-    report = 4;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.BrowserAutofillApplePayExperiment;
-    verify[5] = report;
-    report = 5;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.BrowserAutofillGooglePayExperiment;
-    verify[6] = report;
-    report = 6;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.BrowserAutofillExperimentGlobal;
-    verify[7] = report;
     romeon = tangon.PAYMENT_FLOW_STARTED;
     tangon = {};
     report = 'payment flow started';
@@ -77,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = new backup[offset](foxtra, romeon, yankee, offset);
     tangon = tangon instanceof Object ? tangon : report;
     var _closure1_slot3 = tangon;
-    report = 8;
+    report = 5;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -95,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  11:
             tangon = _closure1_slot0;
             report = _closure1_slot1;
-            zuuluu = 7;
+            zuuluu = 4;
             zuuluu = report[zuuluu];
             oscard = tangon.bind(entity)(zuuluu);
             report = oscard.track;

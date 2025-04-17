@@ -493,7 +493,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     zuuluu['useGetOrFetchSubscriptionPlan'] = tangon;
-    michal = function(argFoo) { // Original name: getSubscriptionPauseDurations
+    tangon = function(argFoo) { // Original name: getSubscriptionPauseDurations
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             zuuluu = argFoo;
@@ -590,6 +590,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['getSubscriptionPauseDurations'] = michal;
+    zuuluu['getSubscriptionPauseDurations'] = tangon;
+    michal = function(argFoo) { // Original name: didBeginPurchaseFlowOnFractionalPremium
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+ 0:
+            tangon = argFoo;
+            entity = null;
+            entity = entity != tangon;
+            if(!entity) { _fun00018_ip = 48; continue _fun00017 }
+ 12:
+            report = _closure1_slot1;
+            zuuluu = _closure1_slot2;
+            michal = 10;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            zuuluu = report.bind(michal)(zuuluu);
+            michal = zuuluu.isMoment;
+            entity = michal.bind(zuuluu)(tangon);
+ 48:
+            if(!entity) { _fun00018_ip = 91; continue _fun00017 }
+ 51:
+            zuuluu = tangon.isSameOrAfter;
+            oscard = _closure1_slot1;
+            report = _closure1_slot2;
+            michal = 10;
+            michal = report[michal];
+            report = undefined;
+            michal = oscard.bind(report)(michal);
+            michal = michal.bind(report)();
+            entity = zuuluu.bind(tangon)(michal);
+ 91:
+            return entity;
+        }
+    };
+    zuuluu['didBeginPurchaseFlowOnFractionalPremium'] = michal;
     return entity;
 })();

@@ -8,36 +8,56 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = function(argFoo, argBar, argBaz) { // Original name: formatPrice
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscard = argBaz;
+            michal = argBaz;
             entity = null;
-            michal = entity == oscard;
+            oscard = michal;
+            if(!(entity == oscard)) { _fun00002_ip = 14; continue _fun00001 }
+ 12:
+            oscard = {};
+ 14:
+            tangon = entity == michal;
             zuuluu = undefined;
             report = undefined;
-            if(michal) { _fun00002_ip = 24; continue _fun00001 }
- 16:
-            report = oscard.localeOverride;
- 24:
-            if(!(entity == report)) { _fun00002_ip = 41; continue _fun00001 }
- 28:
+            if(tangon) { _fun00002_ip = 33; continue _fun00001 }
+ 25:
+            report = michal.localeOverride;
+ 33:
+            if(!(entity == report)) { _fun00002_ip = 50; continue _fun00001 }
+ 37:
             entity = _closure1_slot2;
             report = entity.locale;
- 41:
+ 50:
+            entity = 'en-US';
+            entity = entity === report;
+            if(!entity) { _fun00002_ip = 88; continue _fun00001 }
+ 61:
+            golfie = _closure1_slot4;
+            tangon = golfie.includes;
+            michal = _closure1_slot2;
+            michal = michal.systemLocale;
+            entity = tangon.bind(golfie)(michal);
+ 88:
+            if(!entity) { _fun00002_ip = 101; continue _fun00001 }
+ 91:
+            entity = 'code';
+            oscard['currencyDisplay'] = entity;
+ 101:
             michal = _closure1_slot0;
             tangon = _closure1_slot1;
             entity = 2;
             entity = tangon[entity];
             tangon = michal.bind(zuuluu)(entity);
             zuuluu = tangon.formatPrice;
-            offset = argFoo;
-            verify = argBar;
-            yankee = tangon;
-            option = report;
-            golfie = oscard;
-            entity = yankee[zuuluu](offset, verify, option, golfie, oscard);
+            yankee = argFoo;
+            offset = argBar;
+            romeon = tangon;
+            verify = report;
+            option = oscard;
+            entity = romeon[zuuluu](yankee, offset, verify, option, golfie);
             return entity;
         }
     };
-    var _closure1_slot4 = report;
+    var _closure1_slot5 = report;
     tangon = function(argFoo, argBar, argBaz) { // Original name: formatRate
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -129,26 +149,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot5 = tangon;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    oscard = {};
+    var _closure1_slot6 = tangon;
+    oscard = global;
+    yankee = oscard.Object;
+    offset = yankee.defineProperty;
+    verify = {};
     entity = true;
-    oscard['value'] = entity;
+    verify['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, oscard);
+    entity = offset.bind(yankee)(zuuluu, entity, verify);
     entity = 0;
-    verify = option[entity];
-    oscard = argBaz;
+    offset = option[entity];
+    verify = argBaz;
     entity = undefined;
-    oscard = oscard.bind(entity)(verify);
-    var _closure1_slot2 = oscard;
-    oscard = 1;
-    oscard = option[oscard];
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.SubscriptionIntervalTypes;
-    var _closure1_slot3 = oscard;
+    verify = verify.bind(entity)(offset);
+    var _closure1_slot2 = verify;
+    verify = 1;
+    verify = option[verify];
+    verify = golfie.bind(entity)(verify);
+    verify = verify.SubscriptionIntervalTypes;
+    var _closure1_slot3 = verify;
+    offset = oscard.Object;
+    verify = offset.freeze;
+    oscard = ['en-CA', 'en-AU', 'en-NZ'];
+    oscard = verify.bind(offset)(oscard);
+    var _closure1_slot4 = oscard;
     oscard = 5;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
@@ -192,8 +217,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = golfie.getPrice;
             michal = entity.id;
             michal = zuuluu.bind(golfie)(michal);
-            zuuluu = _closure1_slot5;
-            golfie = _closure1_slot4;
+            zuuluu = _closure1_slot6;
+            golfie = _closure1_slot5;
             oscard = michal.amount;
             michal = michal.currency;
             michal = golfie.bind(tangon)(oscard, michal);

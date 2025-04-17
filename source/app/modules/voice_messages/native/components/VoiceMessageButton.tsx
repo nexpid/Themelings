@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = option;
     var _closure1_slot21 = tangon;
     tangon = {};
-    option = 'function VoiceMessageButtonTsx2(e){const{isGestureActiveValue,runOnJS,setIsUsingHoldGesture,voiceMessageAnimationState,VoiceMessageAnimationState,startRecording}=this.__closure;if(e.numberOfTouches>1)return;if(isGestureActiveValue.get())return;runOnJS(setIsUsingHoldGesture)(true);voiceMessageAnimationState.set([VoiceMessageAnimationState.SENDING,VoiceMessageAnimationState.SENDING]);runOnJS(startRecording)();}';
+    option = 'function VoiceMessageButtonTsx2(){const{runOnJS,handleFinalize}=this.__closure;runOnJS(handleFinalize)();}';
     tangon['code'] = option;
     var _closure1_slot22 = tangon;
     tangon = {};
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = option;
     var _closure1_slot23 = tangon;
     tangon = {};
-    option = 'function VoiceMessageButtonTsx4(){const{runOnJS,handleFinalize}=this.__closure;runOnJS(handleFinalize)();}';
+    option = 'function VoiceMessageButtonTsx4(e){const{isGestureActiveValue,runOnJS,setIsUsingHoldGesture,voiceMessageAnimationState,VoiceMessageAnimationState,startRecording}=this.__closure;if(e.numberOfTouches>1)return;if(isGestureActiveValue.get())return;runOnJS(setIsUsingHoldGesture)(true);voiceMessageAnimationState.set([VoiceMessageAnimationState.SENDING,VoiceMessageAnimationState.SENDING]);runOnJS(startRecording)();}';
     tangon['code'] = option;
     var _closure1_slot24 = tangon;
     tangon = golfie.memo;
@@ -1166,9 +1166,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = _closure2_slot9;
             yankee['startRecording'] = backup;
             michal['__closure'] = yankee;
-            yankee = 8059675263026.0;
+            yankee = 15771181123252.0;
             michal['__workletHash'] = yankee;
-            yankee = _closure1_slot22;
+            yankee = _closure1_slot24;
             michal['__initData'] = yankee;
             report = zuuluu.bind(report)(michal);
             zuuluu = report.onUpdate;
@@ -1258,9 +1258,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = _closure2_slot11;
             report['handleFinalize'] = oscard;
             entity['__closure'] = report;
-            report = 13827777100777.0;
+            report = 2411654680943.0;
             entity['__workletHash'] = report;
-            tangon = _closure1_slot24;
+            tangon = _closure1_slot22;
             entity['__initData'] = tangon;
             entity = michal.bind(zuuluu)(entity);
             return entity;

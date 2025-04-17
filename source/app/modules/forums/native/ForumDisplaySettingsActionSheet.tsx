@@ -132,35 +132,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = _closure2_slot1;
                     entity = null;
                     tangon = entity == tangon;
-                    report = undefined;
                     entity = undefined;
-                    if(tangon) { _fun00004_ip = 38; continue _fun00003 }
- 24:
-                    oscard = _closure2_slot1;
-                    tangon = oscard.getDefaultSortOrder;
-                    entity = tangon.bind(oscard)();
- 38:
+                    if(tangon) { _fun00004_ip = 36; continue _fun00003 }
+ 22:
+                    report = _closure2_slot1;
+                    tangon = report.getDefaultSortOrder;
+                    entity = tangon.bind(report)();
+ 36:
                     entity = zuuluu === entity;
-                    if(!entity) { _fun00004_ip = 67; continue _fun00003 }
- 45:
+                    if(!entity) { _fun00004_ip = 65; continue _fun00003 }
+ 43:
                     tangon = _closure2_slot7;
-                    oscard = _closure2_slot1;
-                    zuuluu = oscard.getDefaultLayout;
-                    zuuluu = zuuluu.bind(oscard)();
+                    report = _closure2_slot1;
+                    zuuluu = report.getDefaultLayout;
+                    zuuluu = zuuluu.bind(report)();
                     entity = tangon === zuuluu;
- 67:
-                    if(!entity) { _fun00004_ip = 113; continue _fun00003 }
- 70:
+ 65:
+                    if(!entity) { _fun00004_ip = 90; continue _fun00003 }
+ 68:
                     zuuluu = _closure2_slot9;
-                    tangon = _closure1_slot0;
-                    oscard = _closure1_slot1;
-                    michal = 8;
-                    michal = oscard[michal];
-                    michal = tangon.bind(report)(michal);
-                    michal = michal.ThreadSearchTagSetting;
-                    michal = michal.MATCH_SOME;
+                    tangon = _closure2_slot1;
+                    michal = tangon.getDefaultTagSetting;
+                    michal = michal.bind(tangon)();
                     entity = zuuluu === michal;
- 113:
+ 90:
                     return entity;
                 }
             };
@@ -248,50 +243,45 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     zuuluu = _closure2_slot1;
-                    entity = null;
-                    if(!(entity != zuuluu)) { _fun00008_ip = 153; continue _fun00007 }
- 16:
+                    michal = null;
+                    if(!(michal != zuuluu)) { _fun00008_ip = 127; continue _fun00007 }
+ 13:
                     zuuluu = _closure2_slot11;
                     report = zuuluu.current;
-                    if(!(entity != report)) { _fun00008_ip = 54; continue _fun00007 }
- 29:
+                    if(!(michal != report)) { _fun00008_ip = 51; continue _fun00007 }
+ 26:
                     tangon = report.setValue;
                     oscard = _closure2_slot1;
                     zuuluu = oscard.getDefaultSortOrder;
                     zuuluu = zuuluu.bind(oscard)();
                     zuuluu = tangon.bind(report)(zuuluu);
- 54:
+ 51:
                     zuuluu = _closure2_slot12;
                     report = zuuluu.current;
-                    if(!(entity != report)) { _fun00008_ip = 92; continue _fun00007 }
- 67:
+                    if(!(michal != report)) { _fun00008_ip = 89; continue _fun00007 }
+ 64:
                     tangon = report.setValue;
                     oscard = _closure2_slot1;
                     zuuluu = oscard.getDefaultLayout;
                     zuuluu = zuuluu.bind(oscard)();
                     zuuluu = tangon.bind(report)(zuuluu);
- 92:
-                    michal = _closure2_slot13;
-                    zuuluu = michal.current;
-                    if(!(entity != zuuluu)) { _fun00008_ip = 153; continue _fun00007 }
- 105:
+ 89:
+                    zuuluu = _closure2_slot13;
+                    zuuluu = zuuluu.current;
+                    if(!(michal != zuuluu)) { _fun00008_ip = 127; continue _fun00007 }
+ 102:
                     michal = zuuluu.setValue;
-                    report = _closure1_slot0;
-                    tangon = _closure1_slot1;
-                    entity = 8;
-                    tangon = tangon[entity];
-                    entity = undefined;
-                    entity = report.bind(entity)(tangon);
-                    entity = entity.ThreadSearchTagSetting;
-                    entity = entity.MATCH_SOME;
+                    tangon = _closure2_slot1;
+                    entity = tangon.getDefaultTagSetting;
+                    entity = entity.bind(tangon)();
                     entity = michal.bind(zuuluu)(entity);
- 153:
+ 127:
                     entity = undefined;
                     return entity;
                 }
             };
             foxtra = oscard.bind(golfie)(michal, tangon);
-            if(!(entity != sizing)) { _fun00002_ip = 1755; continue _fun00001 }
+            if(!(entity != sizing)) { _fun00002_ip = 1749; continue _fun00001 }
  377:
             michal = sizing.availableTags;
             kiloes = entity != michal;
@@ -536,7 +526,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  1264:
             verify[1] = yankee;
             yankee = null;
-            if(!kiloes) { _fun00002_ip = 1621; continue _fun00001 }
+            if(!kiloes) { _fun00002_ip = 1615; continue _fun00001 }
  1276:
             sizing = _closure1_slot7;
             ctrled = _closure1_slot0;
@@ -633,7 +623,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = result.bind(update)(output);
             romeon['children'] = output;
             yankee = sizing.bind(report)(kiloes, romeon);
- 1621:
+ 1615:
             verify[2] = yankee;
             romeon = _closure1_slot7;
             result = _closure1_slot0;
@@ -664,7 +654,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 1755:
+ 1749:
             return entity;
         }
     };

@@ -121,11 +121,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = golfie;
     var _closure1_slot15 = tangon;
     tangon = {};
-    golfie = 'function SegmentedControlNativeTsx7(){const{panIndex,activeIndex}=this.__closure;panIndex.set(activeIndex.get());}';
+    golfie = 'function SegmentedControlNativeTsx7(){const{panIndex,activeIndex,runOnJS,setActiveIndex}=this.__closure;panIndex.set(-1);activeIndex.set(Math.round(activeIndex.get()));runOnJS(setActiveIndex)(activeIndex.get());}';
     tangon['code'] = golfie;
     var _closure1_slot16 = tangon;
     tangon = {};
-    golfie = 'function SegmentedControlNativeTsx8(){const{panIndex,activeIndex,runOnJS,setActiveIndex}=this.__closure;panIndex.set(-1);activeIndex.set(Math.round(activeIndex.get()));runOnJS(setActiveIndex)(activeIndex.get());}';
+    golfie = 'function SegmentedControlNativeTsx8(){const{panIndex,activeIndex}=this.__closure;panIndex.set(activeIndex.get());}';
     tangon['code'] = golfie;
     var _closure1_slot17 = tangon;
     tangon = 10;
@@ -809,9 +809,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source['panIndex'] = echoed;
             source['activeIndex'] = result;
             golfie['__closure'] = source;
-            source = 5962546101105.0;
+            source = 16822477236158.0;
             golfie['__workletHash'] = source;
-            source = _closure1_slot16;
+            source = _closure1_slot17;
             golfie['__initData'] = source;
             romeon = romeon.bind(update)(golfie);
             golfie = romeon.onUpdate;
@@ -856,9 +856,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['runOnJS'] = output;
             foxtra['setActiveIndex'] = sizing;
             tangon['__closure'] = foxtra;
-            foxtra = 13819564805195.0;
+            foxtra = 4531135834116.0;
             tangon['__workletHash'] = foxtra;
-            foxtra = _closure1_slot17;
+            foxtra = _closure1_slot16;
             tangon['__initData'] = foxtra;
             golfie = golfie.bind(romeon)(tangon);
             tangon = 9;

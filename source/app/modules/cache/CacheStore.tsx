@@ -2277,9 +2277,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     entity = 100;
                     entity = zuuluu.bind(tangon)(michal, entity);
- 228: // try_end1
-                    _fun00044_ip = 319; continue _fun00043;
- 230: // catch_target0 // catch_target1
+ 230: // try_end1
+                    _fun00044_ip = 321; continue _fun00043;
+ 232: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=4);
                     tangon = _closure1_slot19;
                     zuuluu = tangon.warn;
@@ -2301,7 +2301,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon['action'] = report;
                     entity['args'] = tangon;
                     entity = michal.bind(zuuluu)(entity);
- 319:
+ 321:
                     entity = undefined;
                     return entity;
                 }

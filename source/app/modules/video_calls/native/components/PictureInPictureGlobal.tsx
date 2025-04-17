@@ -615,8 +615,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot18 = tangon;
-    tangon = {'top': 44, 'bottom': 30};
-    var _closure1_slot19 = tangon;
     golfie = option.memo;
     tangon = function(argFoo) {
         entity = argFoo;
@@ -647,8 +645,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity['channel'] = golfie;
         entity['preferredPosition'] = option;
         entity['onMove'] = oscard;
-        oscard = _closure1_slot19;
-        entity['containerOffsets'] = oscard;
         oscard = _closure1_slot18;
         report = {};
         report['channel'] = golfie;
@@ -658,15 +654,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot20 = tangon;
+    var _closure1_slot19 = tangon;
     tangon = {};
     golfie = 'function PictureInPictureGlobalTsx1(){const{withTiming,drawerState,STANDARD_EASING}=this.__closure;return withTiming(drawerState,{easing:STANDARD_EASING,duration:250});}';
     tangon['code'] = golfie;
-    var _closure1_slot21 = tangon;
+    var _closure1_slot20 = tangon;
     tangon = {};
     golfie = 'function PictureInPictureGlobalTsx2(){const{interpolate,animatedDrawerState,NAV_BAR_HEIGHT,PADDING,chatInputContainerHeight,PIP_AVOIDANCE_TAB_BAR_HEIGHT}=this.__closure;return{marginTop:interpolate(animatedDrawerState.get(),[0,1],[NAV_BAR_HEIGHT+PADDING,PADDING]),marginBottom:interpolate(animatedDrawerState.get(),[0,1],[chatInputContainerHeight+PADDING,PIP_AVOIDANCE_TAB_BAR_HEIGHT+PADDING])};}';
     tangon['code'] = golfie;
-    var _closure1_slot22 = tangon;
+    var _closure1_slot21 = tangon;
     tangon = 38;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -743,7 +739,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['__closure'] = foxtra;
             foxtra = 5168896066356.0;
             michal['__workletHash'] = foxtra;
-            foxtra = _closure1_slot21;
+            foxtra = _closure1_slot20;
             michal['__initData'] = foxtra;
             foxtra = zuuluu.bind(oscard)(michal);
             _closure2_slot2 = foxtra;
@@ -817,7 +813,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['__closure'] = oscard;
             oscard = 8833756900366.0;
             entity['__workletHash'] = oscard;
-            oscard = _closure1_slot22;
+            oscard = _closure1_slot21;
             entity['__initData'] = oscard;
             yankee = michal.bind(zuuluu)(entity);
             zuuluu = _closure1_slot15;
@@ -839,7 +835,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset[1] = yankee;
             report['style'] = offset;
             report['pointerEvents'] = option;
-            option = _closure1_slot20;
+            option = _closure1_slot19;
             golfie = {};
             golfie['channel'] = verify;
             golfie = zuuluu.bind(tangon)(option, golfie);

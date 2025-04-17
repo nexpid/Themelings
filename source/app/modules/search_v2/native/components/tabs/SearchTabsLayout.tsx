@@ -82,18 +82,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['pages'] = offset;
     tangon = option.bind(verify)(tangon);
     var _closure1_slot18 = tangon;
+    tangon = 10;
+    tangon = oscard[tangon];
+    offset = report.bind(entity)(tangon);
+    verify = offset.debounce;
+    option = function(argFoo) {
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
+        entity = 11;
+        michal = michal[entity];
+        entity = undefined;
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.trackSearchTabSelected;
+        entity = {};
+        tangon = argFoo;
+        entity['searchContext'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    tangon = 500;
+    tangon = verify.bind(offset)(option, tangon);
+    var _closure1_slot19 = tangon;
     tangon = {};
     option = 'function SearchTabsLayoutTsx1({contentOffset:contentOffset}){const{isDragging,disallowMemberListGesture}=this.__closure;var _disallowMemberListGe;isDragging.set(true);(_disallowMemberListGe=disallowMemberListGesture)===null||_disallowMemberListGe===void 0||_disallowMemberListGe.set(contentOffset.x>0);}';
     tangon['code'] = option;
-    var _closure1_slot19 = tangon;
+    var _closure1_slot20 = tangon;
     tangon = {};
     option = 'function SearchTabsLayoutTsx2(){const{isDragging,disallowMemberListGesture}=this.__closure;var _disallowMemberListGe;isDragging.set(false);(_disallowMemberListGe=disallowMemberListGesture)===null||_disallowMemberListGe===void 0||_disallowMemberListGe.set(false);}';
     tangon['code'] = option;
-    var _closure1_slot20 = tangon;
+    var _closure1_slot21 = tangon;
     tangon = {};
     option = 'function SearchTabsLayoutTsx3({contentOffset:contentOffset}){const{isDragging,disallowMemberListGesture}=this.__closure;if(isDragging.get()){var _disallowMemberListGe;(_disallowMemberListGe=disallowMemberListGesture)===null||_disallowMemberListGe===void 0||_disallowMemberListGe.set(contentOffset.x>0);}}';
     tangon['code'] = option;
-    var _closure1_slot21 = tangon;
+    var _closure1_slot22 = tangon;
     tangon = golfie.memo;
     michal = function(argFoo) { // Original name: SearchTabsLayout
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -207,7 +228,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     option = argFoo;
                     entity = null;
-                    if(!(entity != option)) { _fun00006_ip = 207; continue _fun00005 }
+                    if(!(entity != option)) { _fun00006_ip = 202; continue _fun00005 }
  12:
                     zuuluu = _closure1_slot1;
                     oscard = _closure1_slot2;
@@ -218,34 +239,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = report.setSelectedSearchTab;
                     verify = _closure2_slot0;
                     zuuluu = zuuluu.bind(report)(verify, option);
-                    zuuluu = function(argFoo) {
-                        entity = argFoo;
-                        var _closure4_slot0 = entity;
-                        tangon = _closure1_slot0;
-                        zuuluu = _closure1_slot2;
-                        entity = 10;
-                        zuuluu = zuuluu[entity];
-                        entity = undefined;
-                        report = tangon.bind(entity)(zuuluu);
-                        tangon = report.debounce;
-                        zuuluu = function() {
-                            zuuluu = _closure1_slot0;
-                            michal = _closure1_slot2;
-                            entity = 11;
-                            michal = michal[entity];
-                            entity = undefined;
-                            zuuluu = zuuluu.bind(entity)(michal);
-                            michal = zuuluu.trackSearchTabSelected;
-                            entity = {};
-                            tangon = _closure4_slot0;
-                            entity['searchContext'] = tangon;
-                            entity = michal.bind(zuuluu)(entity);
-                            return entity;
-                        };
-                        michal = 500;
-                        michal = tangon.bind(report)(zuuluu, michal);
-                        return entity;
-                    };
+                    zuuluu = _closure1_slot19;
                     zuuluu = zuuluu.bind(tangon)(verify);
                     zuuluu = _closure1_slot9;
                     golfie = zuuluu.bind(tangon)(verify);
@@ -265,16 +259,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = golfie.has;
                     zuuluu = zuuluu.bind(golfie)(option);
                     zuuluu = !zuuluu;
-                    if(zuuluu) { _fun00006_ip = 163; continue _fun00005 }
- 160:
+                    if(zuuluu) { _fun00006_ip = 158; continue _fun00005 }
+ 155:
                     zuuluu = oscard;
- 163:
-                    if(zuuluu) { _fun00006_ip = 169; continue _fun00005 }
- 166:
+ 158:
+                    if(zuuluu) { _fun00006_ip = 164; continue _fun00005 }
+ 161:
                     zuuluu = report;
- 169:
-                    if(zuuluu) { _fun00006_ip = 207; continue _fun00005 }
- 172:
+ 164:
+                    if(zuuluu) { _fun00006_ip = 202; continue _fun00005 }
+ 167:
                     zuuluu = _closure1_slot1;
                     report = _closure1_slot2;
                     michal = 15;
@@ -283,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = zuuluu.fetchInitialMessages;
                     entity = _closure2_slot0;
                     entity = michal.bind(zuuluu)(entity);
- 207:
+ 202:
                     entity = undefined;
                     return entity;
                 }
@@ -468,7 +462,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = tangon.bind(kiloes)(foxtra);
             _closure2_slot13 = vacuum;
             result = golfie.useCallback;
-            kiloes = function(argFoo) { // Original name: H
+            kiloes = function(argFoo) { // Original name: F
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     entity = argFoo;
@@ -498,14 +492,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes['__closure'] = tangon;
             tangon = 766628353255.0;
             kiloes['__workletHash'] = tangon;
-            tangon = _closure1_slot19;
+            tangon = _closure1_slot20;
             kiloes['__initData'] = tangon;
             tangon = new Array(2);
             tangon[0] = sequen;
             tangon[1] = vacuum;
             echoed = result.bind(golfie)(kiloes, tangon);
             result = golfie.useCallback;
-            kiloes = function() { // Original name: F
+            kiloes = function() { // Original name: P
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     tangon = _closure2_slot13;
@@ -530,14 +524,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes['__closure'] = tangon;
             tangon = 5683301645106.0;
             kiloes['__workletHash'] = tangon;
-            tangon = _closure1_slot20;
+            tangon = _closure1_slot21;
             kiloes['__initData'] = tangon;
             tangon = new Array(2);
             tangon[0] = sequen;
             tangon[1] = vacuum;
             result = result.bind(golfie)(kiloes, tangon);
             ctrled = golfie.useCallback;
-            kiloes = function(argFoo) { // Original name: P
+            kiloes = function(argFoo) { // Original name: B
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                     entity = argFoo;
@@ -568,7 +562,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes['__closure'] = tangon;
             tangon = 229712012692.0;
             kiloes['__workletHash'] = tangon;
-            tangon = _closure1_slot21;
+            tangon = _closure1_slot22;
             kiloes['__initData'] = tangon;
             tangon = new Array(2);
             tangon[0] = sequen;

@@ -114,49 +114,45 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                 oscard = argFoo;
                 michal = null;
-                if(!(michal != oscard)) { _fun00002_ip = 186; continue _fun00001 }
+                if(!(michal != oscard)) { _fun00002_ip = 168; continue _fun00001 }
  12:
                 zuuluu = _closure2_slot0;
                 entity = zuuluu.get;
                 entity = entity.bind(zuuluu)();
                 entity = entity.channelStates;
                 entity = entity[oscard];
-                if(!(michal == entity)) { _fun00002_ip = 184; continue _fun00001 }
+                if(!(michal == entity)) { _fun00002_ip = 166; continue _fun00001 }
  45:
                 report = _closure1_slot4;
                 tangon = report.getChannel;
-                golfie = tangon.bind(report)(oscard);
-                option = _closure1_slot1;
-                oscard = _closure1_slot2;
-                tangon = 7;
-                tangon = oscard[tangon];
-                report = undefined;
-                option = option.bind(report)(tangon);
-                tangon = michal != golfie;
+                tangon = tangon.bind(report)(oscard);
+                oscard = _closure1_slot1;
+                golfie = _closure1_slot2;
+                report = 7;
+                report = golfie[report];
+                golfie = undefined;
+                oscard = oscard.bind(golfie)(report);
+                report = michal != tangon;
                 michal = '[Forum Channel Store] The channel should not be missing.';
-                michal = option.bind(report)(tangon, michal);
+                michal = oscard.bind(golfie)(report, michal);
                 michal = {};
-                tangon = golfie.getDefaultLayout;
-                tangon = tangon.bind(golfie)();
-                michal['layoutType'] = tangon;
-                tangon = golfie.getDefaultSortOrder;
-                tangon = tangon.bind(golfie)();
-                michal['sortOrder'] = tangon;
-                tangon = _closure1_slot5;
-                michal['tagFilter'] = tangon;
-                tangon = 0;
-                michal['scrollPosition'] = tangon;
-                tangon = _closure1_slot0;
-                zuuluu = 5;
-                zuuluu = oscard[zuuluu];
-                zuuluu = tangon.bind(report)(zuuluu);
-                zuuluu = zuuluu.ThreadSearchTagSetting;
-                zuuluu = zuuluu.MATCH_SOME;
+                report = tangon.getDefaultLayout;
+                report = report.bind(tangon)();
+                michal['layoutType'] = report;
+                report = tangon.getDefaultSortOrder;
+                report = report.bind(tangon)();
+                michal['sortOrder'] = report;
+                zuuluu = _closure1_slot5;
+                michal['tagFilter'] = zuuluu;
+                zuuluu = 0;
+                michal['scrollPosition'] = zuuluu;
+                zuuluu = tangon.getDefaultTagSetting;
+                zuuluu = zuuluu.bind(tangon)();
                 michal['tagSetting'] = zuuluu;
                 entity = michal;
- 184:
+ 166:
                 return entity;
- 186:
+ 168:
                 entity = _closure1_slot6;
                 return entity;
             }
@@ -255,14 +251,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         zuuluu['setLayoutType'] = tangon;
         tangon = function(argFoo, argBar) {
-            tangon = _closure2_slot0;
-            zuuluu = tangon.setChannelState;
+            tangon = argBar;
+            report = _closure2_slot0;
+            zuuluu = report.setChannelState;
             michal = {};
-            entity = argBar;
-            michal['tagSetting'] = entity;
+            michal['tagSetting'] = tangon;
             entity = argFoo;
-            entity = zuuluu.bind(tangon)(entity, michal);
+            entity = zuuluu.bind(report)(entity, michal);
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
+            entity = 8;
+            michal = michal[entity];
             entity = undefined;
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.setTagSetting;
+            michal = michal.bind(zuuluu)(tangon);
             return entity;
         };
         zuuluu['setTagSetting'] = tangon;

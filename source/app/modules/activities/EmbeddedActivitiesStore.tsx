@@ -1133,6 +1133,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = new echoed[tangon](result);
     tangon = tangon instanceof Object ? tangon : backup;
     michal['surfacesToShowNewActivityIndicator'] = tangon;
+    tangon = null;
+    michal['lastCheckedForBadgeableActivities'] = tangon;
     var _closure1_slot19 = michal;
     tangon = new Array(0);
     var _closure1_slot20 = tangon;
@@ -2008,7 +2010,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     romeon['displayName'] = oscard;
     oscard = 'EmbeddedActivities';
     romeon['persistKey'] = oscard;
-    oscard = new Array(8);
+    oscard = new Array(9);
     yankee = function(argFoo) {
         entity = {};
         tangon = argFoo;
@@ -2144,6 +2146,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     oscard[7] = yankee;
+    yankee = function(argFoo) {
+        entity = {};
+        tangon = argFoo;
+        report = entity;
+        michal = copyDataProperties(report, tangon);
+        zuuluu = null;
+        michal = 'lastCheckedForBadgeableActivities';
+        entity[michal] = zuuluu;
+        return entity;
+    };
+    oscard[8] = yankee;
     romeon['migrations'] = oscard;
     oscard = 22;
     oscard = verify[oscard];
@@ -2598,8 +2611,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu = function(argFoo) { // Original name: handleShowingNewActivityIndicator
             michal = argFoo;
             zuuluu = michal.activities;
-            michal = michal.now;
-            var _closure3_slot0 = michal;
+            tangon = michal.now;
+            var _closure3_slot0 = tangon;
             michal = zuuluu.forEach;
             entity = function(argFoo) {
                 _fun00079: for(var _fun00080_ip = 0; ; ) switch(_fun00080_ip) {
@@ -2784,6 +2797,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             entity = michal.bind(zuuluu)(entity);
+            michal = _closure1_slot19;
+            entity = global;
+            entity = entity.Date;
+            zuuluu = entity.prototype;
+            zuuluu = Object.create(zuuluu, {constructor: {value: entity}});
+            oscard = zuuluu;
+            report = tangon;
+            entity = new oscard[entity](report, tangon);
+            zuuluu = entity instanceof Object ? entity : zuuluu;
+            entity = zuuluu.toISOString;
+            entity = entity.bind(zuuluu)();
+            michal['lastCheckedForBadgeableActivities'] = entity;
             entity = undefined;
             return entity;
         };

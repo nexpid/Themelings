@@ -658,7 +658,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = oscard.Pan;
                 option = tangon.bind(oscard)();
                 oscard = option.onStart;
-                tangon = function() { // Original name: N
+                tangon = function() { // Original name: b
                     _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
                         tangon = _closure1_slot0;
@@ -714,13 +714,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 update['velocity'] = output;
                 update['startY'] = offset;
                 tangon['__closure'] = update;
-                update = 8665357253906.0;
+                update = 9674965708496.0;
                 tangon['__workletHash'] = update;
-                update = _closure1_slot26;
+                update = _closure1_slot28;
                 tangon['__initData'] = update;
                 option = oscard.bind(option)(tangon);
                 oscard = option.onUpdate;
-                tangon = function(argFoo) { // Original name: b
+                tangon = function(argFoo) { // Original name: N
                     _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                         entity = argFoo;
@@ -973,9 +973,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option['resetFocusTimer'] = offset;
                 option['handleClose'] = verify;
                 entity['__closure'] = option;
-                option = 13066513007681.0;
+                option = 6790759206787.0;
                 entity['__workletHash'] = option;
-                golfie = _closure1_slot28;
+                golfie = _closure1_slot26;
                 entity['__initData'] = golfie;
                 tangon = tangon.bind(oscard)(entity);
                 entity = new Array(4);
@@ -1514,7 +1514,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report['code'] = option;
     var _closure1_slot25 = report;
     report = {};
-    option = 'function FocusedControlsBottomControlsTsx5(){const{runOnJS,clearFocusTimer,drawerOpen,positionY,CLOSE_DRAWER_POSITION,velocity,startY}=this.__closure;runOnJS(clearFocusTimer)();drawerOpen.set(positionY.get()!==CLOSE_DRAWER_POSITION);velocity.set(0);if(positionY.get()==null||!drawerOpen.get()){startY.set(0);}}';
+    option = 'function FocusedControlsBottomControlsTsx5(){const{drawerOpen,positionY,maxHeight,velocity,MIN_GESTURE_TRIGGER_VELOCITY,CLOSE_DRAWER_POSITION,runOnJS,handleOpen,startY,withTiming,TIMING_CONFIG,TooltipActionCreators,TooltipNames,TIMING_CONFIG_EXIT,resetFocusTimer,handleClose}=this.__closure;var _velocity$get,_velocity$get2;const isDrawerAlreadyOpen=drawerOpen.get();const isPassedTriggerThreshold=positionY.get()*-1>=maxHeight.get()/2;const isHighOpenVelocity=((_velocity$get=velocity.get())!==null&&_velocity$get!==void 0?_velocity$get:0)*-1>=MIN_GESTURE_TRIGGER_VELOCITY;const isHighCloseVelocity=((_velocity$get2=velocity.get())!==null&&_velocity$get2!==void 0?_velocity$get2:0)>=MIN_GESTURE_TRIGGER_VELOCITY;const isLowerThanMinHeight=positionY.get()>CLOSE_DRAWER_POSITION;function openDrawer(){runOnJS(handleOpen)();startY.set(-maxHeight.get());positionY.set(withTiming(startY.get(),TIMING_CONFIG));drawerOpen.set(true);runOnJS(TooltipActionCreators.acknowledgeTooltip)(TooltipNames.SCREENSHARE_SWIPE_UP_CONTROLS);}function closeDrawer(){startY.set(0);positionY.set(withTiming(CLOSE_DRAWER_POSITION,TIMING_CONFIG_EXIT));drawerOpen.set(false);runOnJS(resetFocusTimer)();runOnJS(handleClose)();}if(isHighOpenVelocity&&!isDrawerAlreadyOpen||isPassedTriggerThreshold&&!isDrawerAlreadyOpen){openDrawer();}else if(isLowerThanMinHeight||isHighCloseVelocity&&isDrawerAlreadyOpen){closeDrawer();}else if(isPassedTriggerThreshold){openDrawer();}else{closeDrawer();}}';
     report['code'] = option;
     var _closure1_slot26 = report;
     report = {};
@@ -1522,7 +1522,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report['code'] = option;
     var _closure1_slot27 = report;
     report = {};
-    option = 'function FocusedControlsBottomControlsTsx7(){const{drawerOpen,positionY,maxHeight,velocity,MIN_GESTURE_TRIGGER_VELOCITY,CLOSE_DRAWER_POSITION,runOnJS,handleOpen,startY,withTiming,TIMING_CONFIG,TooltipActionCreators,TooltipNames,TIMING_CONFIG_EXIT,resetFocusTimer,handleClose}=this.__closure;var _velocity$get,_velocity$get2;const isDrawerAlreadyOpen=drawerOpen.get();const isPassedTriggerThreshold=positionY.get()*-1>=maxHeight.get()/2;const isHighOpenVelocity=((_velocity$get=velocity.get())!==null&&_velocity$get!==void 0?_velocity$get:0)*-1>=MIN_GESTURE_TRIGGER_VELOCITY;const isHighCloseVelocity=((_velocity$get2=velocity.get())!==null&&_velocity$get2!==void 0?_velocity$get2:0)>=MIN_GESTURE_TRIGGER_VELOCITY;const isLowerThanMinHeight=positionY.get()>CLOSE_DRAWER_POSITION;function openDrawer(){runOnJS(handleOpen)();startY.set(-maxHeight.get());positionY.set(withTiming(startY.get(),TIMING_CONFIG));drawerOpen.set(true);runOnJS(TooltipActionCreators.acknowledgeTooltip)(TooltipNames.SCREENSHARE_SWIPE_UP_CONTROLS);}function closeDrawer(){startY.set(0);positionY.set(withTiming(CLOSE_DRAWER_POSITION,TIMING_CONFIG_EXIT));drawerOpen.set(false);runOnJS(resetFocusTimer)();runOnJS(handleClose)();}if(isHighOpenVelocity&&!isDrawerAlreadyOpen||isPassedTriggerThreshold&&!isDrawerAlreadyOpen){openDrawer();}else if(isLowerThanMinHeight||isHighCloseVelocity&&isDrawerAlreadyOpen){closeDrawer();}else if(isPassedTriggerThreshold){openDrawer();}else{closeDrawer();}}';
+    option = 'function FocusedControlsBottomControlsTsx7(){const{runOnJS,clearFocusTimer,drawerOpen,positionY,CLOSE_DRAWER_POSITION,velocity,startY}=this.__closure;runOnJS(clearFocusTimer)();drawerOpen.set(positionY.get()!==CLOSE_DRAWER_POSITION);velocity.set(0);if(positionY.get()==null||!drawerOpen.get()){startY.set(0);}}';
     report['code'] = option;
     var _closure1_slot28 = report;
     report = {};
