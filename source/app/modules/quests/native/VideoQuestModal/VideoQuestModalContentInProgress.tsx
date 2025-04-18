@@ -258,6 +258,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.lg;
             michal['borderRadius'] = zuuluu;
             entity['playerThumbnail'] = michal;
+            michal = {};
+            zuuluu = -1;
+            michal['zIndex'] = zuuluu;
+            entity['cloudsBackground'] = michal;
             return entity;
         }
     };
@@ -685,6 +689,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = {};
             foxtra = 'top';
             yankee['align'] = foxtra;
+            foxtra = source.cloudsBackground;
+            yankee['style'] = foxtra;
             yankee = zuuluu.bind(tangon)(romeon, yankee);
             offset[1] = yankee;
             backup = 21;
@@ -802,8 +808,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = new Array(3);
             foxtra[0] = sizing;
             kiloes = kiloes != papara;
-            if(!kiloes) { _fun00004_ip = 1597; continue _fun00003 }
- 1540:
+            if(!kiloes) { _fun00004_ip = 1607; continue _fun00003 }
+ 1550:
             record = _closure1_slot8;
             echoed = _closure1_slot1;
             cntext = _closure1_slot2;
@@ -818,7 +824,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = source.playerThumbnail;
             sizing['style'] = cntext;
             kiloes = record.bind(tangon)(echoed, sizing);
- 1597:
+ 1607:
             foxtra[1] = kiloes;
             sizing = _closure1_slot9;
             limora = _closure1_slot0;
@@ -878,8 +884,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update['variant'] = ctrled;
             update = record.bind(tangon)(source, update);
             output[1] = update;
-            if(!result) { _fun00004_ip = 1967; continue _fun00003 }
- 1856:
+            if(!result) { _fun00004_ip = 1977; continue _fun00003 }
+ 1866:
             source = _closure1_slot8;
             target = _closure1_slot0;
             record = _closure1_slot2;
@@ -905,7 +911,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed['onPress'] = vacuum;
             echoed['variant'] = ctrled;
             result = source.bind(tangon)(update, echoed);
- 1967:
+ 1977:
             output[2] = result;
             backup['children'] = output;
             backup = sizing.bind(tangon)(kiloes, backup);

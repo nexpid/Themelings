@@ -1,5 +1,5 @@
 // app/modules/nameplates/native/Nameplate.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
@@ -32,49 +32,77 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
-    tangon = function(argFoo, argBar, argBaz) {
+    tangon = function(argFoo, argBar, argBaz, argCor, argGra) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tangon = argFoo;
+            option = argFoo;
             report = argBar;
             oscard = argBaz;
+            tangon = argCor;
+            golfie = argGra;
             entity = {};
             michal = {'position': 'absolute', 'overflow': 'hidden', 'top': 0, 'bottom': 0, 'left': 0, 'right': 0};
             entity['container'] = michal;
             michal = {'position': 'absolute', 'width': '100%', 'height': '100%'};
             zuuluu = 1;
-            golfie = zuuluu;
-            if(tangon) { _fun00002_ip = 90; continue _fun00001 }
- 48:
-            option = 0.6;
-            if(report) { _fun00002_ip = 87; continue _fun00001 }
- 61:
-            verify = 0.2;
-            if(!oscard) { _fun00002_ip = 84; continue _fun00001 }
- 74:
-            verify = 0.5;
- 84:
-            option = verify;
- 87:
-            golfie = option;
+            verify = zuuluu;
+            if(option) { _fun00002_ip = 122; continue _fun00001 }
+ 54:
+            if(!tangon) { _fun00002_ip = 62; continue _fun00001 }
+ 57:
+            offset = 0;
+            if(!oscard) { _fun00002_ip = 119; continue _fun00001 }
+ 62:
+            if(report) { _fun00002_ip = 90; continue _fun00001 }
+ 65:
+            yankee = 0.4;
+            if(!oscard) { _fun00002_ip = 88; continue _fun00001 }
+ 78:
+            yankee = 0.8;
+ 88:
+            _fun00002_ip = 116; continue _fun00001;
  90:
-            michal['opacity'] = golfie;
+            romeon = 0.6;
+            if(!golfie) { _fun00002_ip = 113; continue _fun00001 }
+ 103:
+            romeon = 0.3;
+ 113:
+            yankee = romeon;
+ 116:
+            offset = yankee;
+ 119:
+            verify = offset;
+ 122:
+            michal['opacity'] = verify;
             entity['gradient'] = michal;
             michal = {'position': 'absolute', 'height': '100%', 'right': 0, 'aspectRatio': 5.333333333333333};
-            if(tangon) { _fun00002_ip = 158; continue _fun00001 }
- 116:
-            tangon = 0.6;
-            if(report) { _fun00002_ip = 155; continue _fun00001 }
- 129:
-            report = 0.3;
-            if(!oscard) { _fun00002_ip = 152; continue _fun00001 }
- 142:
+            if(option) { _fun00002_ip = 224; continue _fun00001 }
+ 148:
+            if(!tangon) { _fun00002_ip = 164; continue _fun00001 }
+ 151:
+            tangon = 0.1;
+            if(!oscard) { _fun00002_ip = 221; continue _fun00001 }
+ 164:
+            if(report) { _fun00002_ip = 192; continue _fun00001 }
+ 167:
+            report = 0.6;
+            if(!oscard) { _fun00002_ip = 190; continue _fun00001 }
+ 180:
             report = 0.8;
- 152:
+ 190:
+            _fun00002_ip = 218; continue _fun00001;
+ 192:
+            oscard = 0.5;
+            if(!golfie) { _fun00002_ip = 215; continue _fun00001 }
+ 205:
+            oscard = 0.4;
+ 215:
+            report = oscard;
+ 218:
             tangon = report;
- 155:
+ 221:
             zuuluu = tangon;
- 158:
+ 224:
             michal['opacity'] = zuuluu;
             entity['img'] = michal;
             return entity;
@@ -91,32 +119,48 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             zuuluu = argFoo;
             verify = zuuluu.nameplate;
-            offset = zuuluu.isPressed;
+            romeon = zuuluu.isPressed;
             tangon = undefined;
-            if(!(offset === tangon)) { _fun00004_ip = 25; continue _fun00003 }
+            if(!(romeon === tangon)) { _fun00004_ip = 25; continue _fun00003 }
  23:
-            offset = false;
+            romeon = false;
  25:
-            golfie = zuuluu.isFocused;
-            if(!(golfie === tangon)) { _fun00004_ip = 37; continue _fun00003 }
+            yankee = zuuluu.isFocused;
+            if(!(yankee === tangon)) { _fun00004_ip = 37; continue _fun00003 }
  35:
-            golfie = false;
+            yankee = false;
  37:
-            report = zuuluu.fullOpacity;
-            if(!(report === tangon)) { _fun00004_ip = 49; continue _fun00003 }
+            offset = zuuluu.isMuted;
+            if(!(offset === tangon)) { _fun00004_ip = 49; continue _fun00003 }
  47:
-            report = false;
+            offset = false;
  49:
-            entity = zuuluu.fadeIn;
-            if(!(entity === tangon)) { _fun00004_ip = 61; continue _fun00003 }
+            golfie = zuuluu.fullOpacity;
+            if(!(golfie === tangon)) { _fun00004_ip = 61; continue _fun00003 }
  59:
-            entity = false;
+            golfie = false;
  61:
+            report = zuuluu.invertPressOpacity;
+            if(!(report === tangon)) { _fun00004_ip = 73; continue _fun00003 }
+ 71:
+            report = false;
+ 73:
+            entity = zuuluu.fadeIn;
+            if(!(entity === tangon)) { _fun00004_ip = 85; continue _fun00003 }
+ 83:
+            entity = false;
+ 85:
             var _closure2_slot0 = entity;
             option = zuuluu.style;
             var _closure2_slot1 = tangon;
             zuuluu = _closure1_slot6;
-            offset = zuuluu.bind(tangon)(report, offset, golfie);
+            source = undefined;
+            update = golfie;
+            echoed = romeon;
+            result = yankee;
+            output = offset;
+            sizing = report;
+            offset = source[zuuluu](update, echoed, result, output, sizing, kiloes);
             golfie = _closure1_slot1;
             zuuluu = _closure1_slot2;
             report = 3;
@@ -129,10 +173,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = golfie.bind(tangon)(zuuluu);
             golfie = yankee.useSharedValue;
             zuuluu = 1;
-            if(!entity) { _fun00004_ip = 141; continue _fun00003 }
- 139:
+            if(!entity) { _fun00004_ip = 179; continue _fun00003 }
+ 177:
             zuuluu = 0;
- 141:
+ 179:
             backup = golfie.bind(yankee)(zuuluu);
             _closure2_slot1 = backup;
             yankee = _closure1_slot3;
@@ -183,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = entity[report];
             yankee = zuuluu.bind(tangon)(golfie);
             golfie = yankee.useAnimatedStyle;
-            michal = function() { // Original name: v
+            michal = function() { // Original name: j
                 entity = {};
                 zuuluu = _closure2_slot1;
                 michal = zuuluu.get;
@@ -231,8 +275,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['style'] = report;
             golfie = null;
             report = golfie != backup;
-            if(!report) { _fun00004_ip = 497; continue _fun00003 }
- 401:
+            if(!report) { _fun00004_ip = 535; continue _fun00003 }
+ 439:
             yankee = _closure1_slot4;
             option = _closure1_slot1;
             foxtra = _closure1_slot2;
@@ -253,7 +297,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra[1] = backup;
             report['colors'] = foxtra;
             golfie = yankee.bind(tangon)(option, report);
- 497:
+ 535:
             report = new Array(2);
             report[0] = golfie;
             option = _closure1_slot4;

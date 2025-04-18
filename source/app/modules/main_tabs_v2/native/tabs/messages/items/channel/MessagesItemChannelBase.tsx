@@ -565,10 +565,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['nameplate'] = config;
             option['isFocused'] = vacuum;
             option['isPressed'] = yankee;
-            if(!offset) { _fun00002_ip = 878; continue _fun00001 }
- 875:
-            offset = yankee;
+            config = source;
+            if(config) { _fun00002_ip = 881; continue _fun00001 }
  878:
+            config = update;
+ 881:
+            if(config) { _fun00002_ip = 887; continue _fun00001 }
+ 884:
+            config = result;
+ 887:
+            option['isMuted'] = config;
+            if(!offset) { _fun00002_ip = 898; continue _fun00001 }
+ 895:
+            offset = yankee;
+ 898:
             option['fadeIn'] = offset;
             offset = record.nameplate;
             option['style'] = offset;
@@ -576,8 +586,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = new Array(5);
             option[0] = verify;
             verify = vacuum;
-            if(!verify) { _fun00002_ip = 948; continue _fun00001 }
- 913:
+            if(!verify) { _fun00002_ip = 968; continue _fun00001 }
+ 933:
             config = _closure1_slot13;
             yankee = _closure1_slot5;
             offset = {};
@@ -586,7 +596,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = 'none';
             offset['pointerEvents'] = record;
             verify = config.bind(tangon)(yankee, offset);
- 948:
+ 968:
             option[1] = verify;
             yankee = _closure1_slot13;
             offset = _closure1_slot1;
@@ -639,8 +649,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['blocked'] = result;
             result = kiloes == echoed;
             kiloes = undefined;
-            if(result) { _fun00002_ip = 1192; continue _fun00001 }
- 1174:
+            if(result) { _fun00002_ip = 1212; continue _fun00001 }
+ 1194:
             result = echoed.some;
             output = function(argFoo) {
                 entity = argFoo;
@@ -651,7 +661,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             kiloes = result.bind(echoed)(output);
- 1192:
+ 1212:
             kiloes = sizing === kiloes;
             verify['hasActivity'] = kiloes;
             verify['hasUnreadMessages'] = backup;

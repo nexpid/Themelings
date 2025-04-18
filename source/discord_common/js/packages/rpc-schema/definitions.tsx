@@ -311,6 +311,9 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         oscard = oscard.bind(verify)(report);
         oscard = golfie.bind(option)(oscard);
         entity['components'] = oscard;
+        oscard = report.number;
+        oscard = oscard.bind(report)();
+        entity['pid'] = oscard;
         entity = tangon.bind(report)(entity);
         entity = michal.bind(zuuluu)(entity);
         return entity;

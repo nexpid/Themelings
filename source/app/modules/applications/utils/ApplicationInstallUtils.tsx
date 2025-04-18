@@ -145,27 +145,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = !entity;
  78:
             entity = !michal;
-            if(michal) { _fun00008_ip = 199; continue _fun00007 }
+            if(michal) { _fun00008_ip = 186; continue _fun00007 }
  84:
             michal = _closure1_slot3;
             michal = michal.BUILT_IN;
             zuuluu = verify === michal;
             michal = !zuuluu;
-            if(zuuluu) { _fun00008_ip = 196; continue _fun00007 }
+            if(zuuluu) { _fun00008_ip = 183; continue _fun00007 }
  107:
-            golfie = _closure1_slot2;
-            oscard = golfie.hasUserStateApplication;
-            zuuluu = {};
-            zuuluu['applicationId'] = verify;
-            offset = true;
-            zuuluu['authorizedOnly'] = offset;
-            zuuluu = oscard.bind(golfie)(zuuluu);
+            oscard = _closure1_slot2;
+            zuuluu = oscard.hasUserStateApplication;
+            zuuluu = zuuluu.bind(oscard)(verify);
             zuuluu = !zuuluu;
-            if(!zuuluu) { _fun00008_ip = 193; continue _fun00007 }
- 141:
+            if(!zuuluu) { _fun00008_ip = 180; continue _fun00007 }
+ 128:
             tangon = tangon == option;
-            if(tangon) { _fun00008_ip = 190; continue _fun00007 }
- 148:
+            if(tangon) { _fun00008_ip = 177; continue _fun00007 }
+ 135:
             golfie = _closure1_slot2;
             oscard = golfie.hasContextStateApplication;
             report = {};
@@ -176,13 +172,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report['guildId'] = option;
             report = oscard.bind(golfie)(report);
             tangon = !report;
- 190:
+ 177:
             zuuluu = tangon;
- 193:
+ 180:
             michal = zuuluu;
- 196:
+ 183:
             entity = michal;
- 199:
+ 186:
             return entity;
         }
     };

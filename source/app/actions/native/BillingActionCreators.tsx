@@ -2026,7 +2026,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tangon) { _fun00034_ip = 1050; continue _fun00033 }
+                    if(tangon) { _fun00034_ip = 1100; continue _fun00033 }
  13:
                     backup = michal.requestIdentifier;
                     option = michal.skuId;
@@ -2044,7 +2044,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return oscard;
  64:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00034_ip = 1047; continue _fun00033 }
+                    if(tangon) { _fun00034_ip = 1097; continue _fun00033 }
  73:
                     offset = _closure1_slot31;
                     offset = offset.bind(oscard)();
@@ -2269,7 +2269,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = backup.bind(oscard)(yankee);
                     yankee = yankee.ErrorCodes;
                     yankee = yankee.BILLING_CANNOT_CHARGE_ZERO_AMOUNT;
-                    if(!(foxtra === yankee)) { _fun00034_ip = 1025; continue _fun00033 }
+                    if(!(foxtra === yankee)) { _fun00034_ip = 1075; continue _fun00033 }
  853:
                     foxtra = romeon;
                     yankee = null;
@@ -2293,20 +2293,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option['countryCode'] = golfie;
                     golfie = 0;
                     option['expectedAmount'] = golfie;
+                    golfie = _closure1_slot16;
+                    golfie = golfie.USD;
+                    option['expectedCurrency'] = golfie;
+                    romeon = _closure1_slot0;
+                    foxtra = _closure1_slot3;
+                    golfie = 42;
+                    golfie = foxtra[golfie];
+                    romeon = romeon.bind(oscard)(golfie);
+                    golfie = romeon.v4;
+                    golfie = golfie.bind(romeon)();
+                    option['loadId'] = golfie;
                     golfie = 'collectibles';
                     golfie = yankee.bind(oscard)(golfie, verify, option);
-                    SaveGenerator(address=931);
- 929:
+                    SaveGenerator(address=981);
+ 979:
                     return golfie;
- 931:
+ 981:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(option) { _fun00034_ip = 942; continue _fun00033 }
- 937: // try_end1
+                    if(option) { _fun00034_ip = 992; continue _fun00033 }
+ 987: // try_end1
                     option = true;
                     return option;
- 942:
+ 992:
                     return golfie;
- 945: // catch_target1
+ 995: // catch_target1
                     CatchBlockStart(arg_register=6);
                     report = golfie;
                     option = golfie.code;
@@ -2316,8 +2327,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = verify.bind(oscard)(golfie);
                     golfie = golfie.ErrorCodes;
                     golfie = golfie.BILLING_PURCHASE_REQUEST_INVALID;
-                    if(!(option === golfie)) { _fun00034_ip = 1025; continue _fun00033 }
- 988:
+                    if(!(option === golfie)) { _fun00034_ip = 1075; continue _fun00033 }
+ 1038:
                     option = _closure1_slot0;
                     verify = _closure1_slot3;
                     golfie = 14;
@@ -2327,16 +2338,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = report;
                     report = {};
                     report = option.bind(verify)(golfie, report);
- 1025:
+ 1075:
                     report = _closure1_slot30;
                     tangon = zuuluu;
                     zuuluu = 'collectibles';
                     zuuluu = report.bind(oscard)(tangon, zuuluu);
                     zuuluu = false;
                     return zuuluu;
- 1047:
+ 1097:
                     return michal;
- 1050:
+ 1100:
                     return entity;
                 }
             };
@@ -3825,7 +3836,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = new echoed[romeon](result, output);
     option = option instanceof Object ? option : yankee;
     var _closure1_slot23 = option;
-    option = 42;
+    option = 43;
     option = offset[option];
     offset = verify.bind(entity)(option);
     verify = offset.fileFinishedImporting;

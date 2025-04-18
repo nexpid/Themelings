@@ -517,14 +517,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['STAGE_VIDEO_LIMIT'] = entity;
     entity = 'activities mini shelf';
     michal['ACTIVITIES_MINI_SHELF'] = entity;
-    entity = 'app launcher in voice banner';
-    michal['APP_LAUNCHER_IN_VOICE_BANNER'] = entity;
     entity = 'application oauth2 embed';
     michal['APP_OAUTH2_LINK_EMBED'] = entity;
     entity = 'app_dms_entry_point_command_button';
     michal['APP_DMS_ENTRY_POINT_COMMAND_BUTTON'] = entity;
-    entity = 'app launcher';
-    michal['APP_LAUNCHER'] = entity;
     entity = 'app detail';
     michal['APP_DETAIL'] = entity;
     entity = 'vc tile activity invite';
@@ -841,6 +837,12 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['STAGE_TILE'] = entity;
     entity = 'chat wallpaper picker';
     michal['CHAT_WALLPAPER_PICKER'] = entity;
+    entity = 'app launcher';
+    michal['APP_LAUNCHER'] = entity;
+    entity = 'app launcher in voice banner';
+    michal['APP_LAUNCHER_IN_VOICE_BANNER'] = entity;
+    entity = 'app launcher friends who play tab join friend';
+    michal['APP_LAUNCHER_FRIENDS_TAB_JOIN_BUTTON'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

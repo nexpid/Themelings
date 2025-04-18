@@ -73,114 +73,172 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo, argBar) { // Original name: useImageForActivity
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            option = argFoo;
-            golfie = argBar;
+            yankee = argFoo;
+            oscard = argBar;
             entity = _closure1_slot7;
             tangon = undefined;
-            entity = entity.bind(tangon)(option, golfie);
+            entity = entity.bind(tangon)(yankee, oscard);
             zuuluu = entity.largeImage;
             michal = entity.smallImage;
-            entity = null;
-            if(!(entity == zuuluu)) { _fun00004_ip = 413; continue _fun00003 }
+            report = null;
+            if(!(report == zuuluu)) { _fun00004_ip = 610; continue _fun00003 }
  42:
-            if(!(entity == zuuluu)) { _fun00004_ip = 77; continue _fun00003 }
- 46:
-            verify = _closure1_slot1;
+            option = _closure1_slot0;
+            entity = _closure1_slot2;
+            golfie = 7;
+            entity = entity[golfie];
+            option = option.bind(tangon)(entity);
+            entity = option.isStageActivity;
+            entity = entity.bind(option)(yankee);
+            if(entity) { _fun00004_ip = 450; continue _fun00003 }
+ 79:
+            if(!(report == zuuluu)) { _fun00004_ip = 114; continue _fun00003 }
+ 83:
+            option = _closure1_slot1;
             offset = _closure1_slot2;
-            report = 7;
-            report = offset[report];
-            report = verify.bind(tangon)(report);
-            report = report.bind(tangon)(option);
-            if(report) { _fun00004_ip = 285; continue _fun00003 }
- 77:
-            if(!(entity == zuuluu)) { _fun00004_ip = 113; continue _fun00003 }
- 81:
-            if(!(entity == michal)) { _fun00004_ip = 113; continue _fun00003 }
- 85:
-            verify = _closure1_slot1;
+            entity = 9;
+            entity = offset[entity];
+            entity = option.bind(tangon)(entity);
+            entity = entity.bind(tangon)(yankee);
+            if(entity) { _fun00004_ip = 322; continue _fun00003 }
+ 114:
+            if(!(report == zuuluu)) { _fun00004_ip = 150; continue _fun00003 }
+ 118:
+            if(!(report == michal)) { _fun00004_ip = 150; continue _fun00003 }
+ 122:
+            option = _closure1_slot1;
             offset = _closure1_slot2;
-            report = 9;
-            report = offset[report];
-            report = verify.bind(tangon)(report);
-            report = report.bind(tangon)(option);
-            if(report) { _fun00004_ip = 157; continue _fun00003 }
- 113:
-            report = _closure1_slot5;
-            golfie = report.bind(tangon)(golfie);
-            if(!(entity == golfie)) { _fun00004_ip = 140; continue _fun00003 }
- 126:
+            entity = 11;
+            entity = offset[entity];
+            entity = option.bind(tangon)(entity);
+            entity = entity.bind(tangon)(yankee);
+            if(entity) { _fun00004_ip = 194; continue _fun00003 }
+ 150:
+            entity = _closure1_slot5;
+            option = entity.bind(tangon)(oscard);
+            if(!(report == option)) { _fun00004_ip = 177; continue _fun00003 }
+ 163:
             entity = {};
             entity['largeImage'] = michal;
             entity['smallImage'] = tangon;
-            _fun00004_ip = 155; continue _fun00003;
- 140:
-            report = {};
-            report['largeImage'] = golfie;
-            report['smallImage'] = michal;
-            entity = report;
- 155:
+            _fun00004_ip = 192; continue _fun00003;
+ 177:
+            oscard = {};
+            oscard['largeImage'] = option;
+            oscard['smallImage'] = michal;
+            entity = oscard;
+ 192:
             return entity;
- 157:
+ 194:
             entity = {};
-            report = {};
-            option = _closure1_slot1;
-            yankee = _closure1_slot2;
-            golfie = 8;
-            golfie = yankee[golfie];
-            verify = option.bind(tangon)(golfie);
-            option = verify.get;
-            golfie = _closure1_slot3;
-            golfie = golfie.PLAYSTATION;
-            golfie = option.bind(verify)(golfie);
-            golfie = golfie.icon;
-            golfie = golfie.lightPNG;
-            report['src'] = golfie;
-            offset = _closure1_slot0;
-            golfie = 4;
-            option = yankee[golfie];
-            option = offset.bind(tangon)(option);
-            verify = option.intl;
-            option = verify.string;
-            golfie = yankee[golfie];
-            golfie = offset.bind(tangon)(golfie);
-            golfie = golfie.t;
-            golfie = golfie.fFl4jo;
-            golfie = option.bind(verify)(golfie);
-            report['alt'] = golfie;
+            oscard = {};
+            offset = _closure1_slot1;
+            backup = _closure1_slot2;
+            option = 10;
+            option = backup[option];
+            romeon = offset.bind(tangon)(option);
+            offset = romeon.get;
+            option = _closure1_slot3;
+            option = option.PLAYSTATION;
+            option = offset.bind(romeon)(option);
+            option = option.icon;
+            option = option.lightPNG;
+            oscard['src'] = option;
+            foxtra = _closure1_slot0;
+            option = 4;
+            offset = backup[option];
+            offset = foxtra.bind(tangon)(offset);
+            romeon = offset.intl;
+            offset = romeon.string;
+            option = backup[option];
+            option = foxtra.bind(tangon)(option);
+            option = option.t;
+            option = option.fFl4jo;
+            option = offset.bind(romeon)(option);
+            oscard['alt'] = option;
+            entity['largeImage'] = oscard;
+            entity['smallImage'] = tangon;
+            return entity;
+ 322:
+            entity = {};
+            oscard = {};
+            offset = _closure1_slot1;
+            backup = _closure1_slot2;
+            option = 10;
+            option = backup[option];
+            romeon = offset.bind(tangon)(option);
+            offset = romeon.get;
+            option = _closure1_slot3;
+            option = option.XBOX;
+            option = offset.bind(romeon)(option);
+            option = option.icon;
+            option = option.customPNG;
+            oscard['src'] = option;
+            foxtra = _closure1_slot0;
+            option = 4;
+            offset = backup[option];
+            offset = foxtra.bind(tangon)(offset);
+            romeon = offset.intl;
+            offset = romeon.string;
+            option = backup[option];
+            option = foxtra.bind(tangon)(option);
+            option = option.t;
+            option = option.Nfvo7+;
+            option = offset.bind(romeon)(option);
+            oscard['alt'] = option;
+            entity['largeImage'] = oscard;
+            entity['smallImage'] = tangon;
+            return entity;
+ 450:
+            oscard = _closure1_slot0;
+            entity = _closure1_slot2;
+            entity = entity[golfie];
+            oscard = oscard.bind(tangon)(entity);
+            entity = oscard.unpackStageChannelParty;
+            offset = entity.bind(oscard)(yankee);
+            entity = report != offset;
+            golfie = undefined;
+            if(!entity) { _fun00004_ip = 577; continue _fun00003 }
+ 487:
+            oscard = _closure1_slot1;
+            option = _closure1_slot2;
+            entity = 8;
+            entity = option[entity];
+            option = oscard.bind(tangon)(entity);
+            oscard = option.getGuildIconURL;
+            entity = {};
+            offset = offset.guildId;
+            entity['id'] = offset;
+            romeon = report == yankee;
+            offset = undefined;
+            if(romeon) { _fun00004_ip = 554; continue _fun00003 }
+ 533:
+            yankee = yankee.assets;
+            romeon = report == yankee;
+            offset = undefined;
+            if(romeon) { _fun00004_ip = 554; continue _fun00003 }
+ 548:
+            offset = yankee.small_image;
+ 554:
+            entity['icon'] = offset;
+            verify = _closure1_slot4;
+            verify = verify.SMALL;
+            entity['size'] = verify;
+            golfie = oscard.bind(option)(entity);
+ 577:
+            entity = {};
+            oscard = report != golfie;
+            report = undefined;
+            if(!oscard) { _fun00004_ip = 598; continue _fun00003 }
+ 588:
+            oscard = {};
+            oscard['src'] = golfie;
+            report = oscard;
+ 598:
             entity['largeImage'] = report;
             entity['smallImage'] = tangon;
             return entity;
- 285:
-            entity = {};
-            report = {};
-            option = _closure1_slot1;
-            offset = _closure1_slot2;
-            golfie = 8;
-            golfie = offset[golfie];
-            verify = option.bind(tangon)(golfie);
-            option = verify.get;
-            golfie = _closure1_slot3;
-            golfie = golfie.XBOX;
-            golfie = option.bind(verify)(golfie);
-            golfie = golfie.icon;
-            golfie = golfie.customPNG;
-            report['src'] = golfie;
-            verify = _closure1_slot0;
-            oscard = 4;
-            golfie = offset[oscard];
-            golfie = verify.bind(tangon)(golfie);
-            option = golfie.intl;
-            golfie = option.string;
-            oscard = offset[oscard];
-            oscard = verify.bind(tangon)(oscard);
-            oscard = oscard.t;
-            oscard = oscard.Nfvo7+;
-            oscard = golfie.bind(option)(oscard);
-            report['alt'] = oscard;
-            entity['largeImage'] = report;
-            entity['smallImage'] = tangon;
-            return entity;
- 413:
+ 610:
             entity = {};
             entity['largeImage'] = zuuluu;
             entity['smallImage'] = michal;
@@ -195,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = argBar;
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
-            entity = 10;
+            entity = 12;
             entity = michal[entity];
             michal = undefined;
             tangon = zuuluu.bind(michal)(entity);
@@ -260,7 +318,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  233:
             zuuluu = _closure1_slot1;
             offset = _closure1_slot2;
-            entity = 11;
+            entity = 13;
             entity = offset[entity];
             entity = zuuluu.bind(michal)(entity);
             entity = entity.bind(michal)(verify);
@@ -355,7 +413,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = golfie.bind(entity)(oscard);
     oscard = oscard.ImageSizes;
     var _closure1_slot4 = oscard;
-    oscard = 12;
+    oscard = 14;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
     golfie = option.fileFinishedImporting;

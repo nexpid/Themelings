@@ -71,29 +71,30 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 347; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 384; continue _fun00003 }
  13:
-                    offset = michal.authorize;
-                    source = michal.clientId;
-                    result = michal.scopes;
-                    update = michal.responseType;
-                    echoed = michal.redirectUri;
-                    output = michal.codeChallenge;
-                    sizing = michal.codeChallengeMethod;
-                    kiloes = michal.state;
-                    yankee = michal.permissions;
-                    romeon = michal.guildId;
-                    foxtra = michal.channelId;
-                    verify = michal.integrationType;
-                    backup = michal.nonce;
+                    romeon = michal.authorize;
+                    ctrled = michal.clientId;
+                    echoed = michal.scopes;
+                    source = michal.responseType;
+                    update = michal.redirectUri;
+                    result = michal.codeChallenge;
+                    output = michal.codeChallengeMethod;
+                    sizing = michal.state;
+                    foxtra = michal.permissions;
+                    backup = michal.guildId;
+                    kiloes = michal.channelId;
+                    yankee = michal.integrationType;
+                    offset = michal.nonce;
+                    verify = michal.dmSettings;
                     option = undefined;
-                    SaveGenerator(address=94);
- 92:
+                    SaveGenerator(address=102);
+ 100:
                     return option;
- 94:
+ 102:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 344; continue _fun00003 }
- 103:
+                    if(zuuluu) { _fun00004_ip = 381; continue _fun00003 }
+ 111:
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
                     zuuluu = 4;
@@ -106,69 +107,78 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     oscard = oscard.OAUTH2_AUTHORIZE;
                     zuuluu['url'] = oscard;
                     oscard = {};
-                    oscard['client_id'] = source;
-                    oscard['response_type'] = update;
-                    oscard['redirect_uri'] = echoed;
-                    oscard['code_challenge'] = output;
-                    oscard['code_challenge_method'] = sizing;
-                    output = result.join;
-                    sizing = ' ';
-                    sizing = output.bind(result)(sizing);
-                    oscard['scope'] = sizing;
-                    oscard['state'] = kiloes;
-                    oscard['nonce'] = backup;
+                    oscard['client_id'] = ctrled;
+                    oscard['response_type'] = source;
+                    oscard['redirect_uri'] = update;
+                    oscard['code_challenge'] = result;
+                    oscard['code_challenge_method'] = output;
+                    result = echoed.join;
+                    output = ' ';
+                    output = result.bind(echoed)(output);
+                    oscard['scope'] = output;
+                    oscard['state'] = sizing;
+                    oscard['nonce'] = offset;
                     zuuluu['query'] = oscard;
                     oscard = {};
-                    oscard['guild_id'] = romeon;
-                    backup = null;
-                    sizing = backup != romeon;
-                    kiloes = undefined;
-                    if(!sizing) { _fun00004_ip = 241; continue _fun00003 }
- 229:
-                    sizing = backup != foxtra;
-                    kiloes = undefined;
-                    if(!sizing) { _fun00004_ip = 241; continue _fun00003 }
- 238:
-                    kiloes = foxtra;
- 241:
-                    oscard['webhook_channel_id'] = kiloes;
-                    kiloes = backup == romeon;
-                    romeon = undefined;
-                    if(!kiloes) { _fun00004_ip = 267; continue _fun00003 }
- 255:
-                    backup = backup != foxtra;
-                    romeon = undefined;
-                    if(!backup) { _fun00004_ip = 267; continue _fun00003 }
- 264:
-                    romeon = foxtra;
- 267:
-                    oscard['channel_id'] = romeon;
-                    oscard['permissions'] = yankee;
-                    oscard['authorize'] = offset;
-                    oscard['integration_type'] = verify;
+                    oscard['guild_id'] = backup;
+                    offset = null;
+                    output = offset != backup;
+                    sizing = undefined;
+                    if(!output) { _fun00004_ip = 249; continue _fun00003 }
+ 237:
+                    output = offset != kiloes;
+                    sizing = undefined;
+                    if(!output) { _fun00004_ip = 249; continue _fun00003 }
+ 246:
+                    sizing = kiloes;
+ 249:
+                    oscard['webhook_channel_id'] = sizing;
+                    sizing = offset == backup;
+                    backup = undefined;
+                    if(!sizing) { _fun00004_ip = 275; continue _fun00003 }
+ 263:
+                    sizing = offset != kiloes;
+                    backup = undefined;
+                    if(!sizing) { _fun00004_ip = 275; continue _fun00003 }
+ 272:
+                    backup = kiloes;
+ 275:
+                    oscard['channel_id'] = backup;
+                    oscard['permissions'] = foxtra;
+                    oscard['authorize'] = romeon;
+                    oscard['integration_type'] = yankee;
                     golfie = _closure1_slot8;
                     golfie = golfie.bind(option)();
                     oscard['location_context'] = golfie;
+                    golfie = {};
+                    offset = offset == verify;
+                    option = undefined;
+                    if(offset) { _fun00004_ip = 326; continue _fun00003 }
+ 320:
+                    option = verify.allowMobilePush;
+ 326:
+                    golfie['allow_mobile_push'] = option;
+                    oscard['dm_settings'] = golfie;
                     zuuluu['body'] = oscard;
                     oscard = true;
                     zuuluu['oldFormErrors'] = oscard;
                     oscard = false;
                     zuuluu['rejectWithError'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
-                    SaveGenerator(address=327);
- 325:
+                    SaveGenerator(address=364);
+ 362:
                     return zuuluu;
- 327:
+ 364:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 341; continue _fun00003 }
- 333:
+                    if(tangon) { _fun00004_ip = 378; continue _fun00003 }
+ 370:
                     tangon = zuuluu.body;
                     return tangon;
- 341:
+ 378:
                     return zuuluu;
- 344:
+ 381:
                     return michal;
- 347:
+ 384:
                     return entity;
                 }
             };

@@ -1594,6 +1594,14 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['GUILD_TAG_SERVER_SETTINGS_NEW_BADGE'] = michal;
     entity = 'GUILD_TAG_SERVER_SETTINGS_NEW_BADGE';
     tangon[michal] = entity;
+    michal = 536;
+    tangon['GUILD_SETTINGS_ROLE_STYLES_NEW_BADGE'] = michal;
+    entity = 'GUILD_SETTINGS_ROLE_STYLES_NEW_BADGE';
+    tangon[michal] = entity;
+    michal = 537;
+    tangon['NAGBAR_NOTICE_IGNORE_USER_FEEDBACK'] = michal;
+    entity = 'NAGBAR_NOTICE_IGNORE_USER_FEEDBACK';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

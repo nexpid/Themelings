@@ -348,7 +348,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity['loadRightBeforeConnectionOpen'] = tangon;
     michal['EntityVersionsManager'] = entity;
     entity = {};
-    option = ['CHANNEL_SELECT', 'LOAD_MESSAGES_SUCCESS', 'MESSAGE_CREATE', 'MESSAGE_UPDATE', 'SEARCH_FINISH', 'MOD_VIEW_SEARCH_FINISH', 'LOAD_FORUM_POSTS', 'LOAD_ARCHIVED_THREADS_SUCCESS', 'LOAD_THREADS_SUCCESS', 'LOGOUT', 'LOAD_PINNED_MESSAGES_SUCCESS', 'USER_SETTINGS_PROTO_UPDATE', 'CHANNEL_RTC_UPDATE_CHAT_OPEN'];
+    option = ['CHANNEL_SELECT', 'LOAD_MESSAGES_SUCCESS', 'MESSAGE_CREATE', 'MESSAGE_UPDATE', 'SEARCH_FINISH', 'MOD_VIEW_SEARCH_FINISH', 'LOAD_FORUM_POSTS', 'LOAD_ARCHIVED_THREADS_SUCCESS', 'LOAD_THREADS_SUCCESS', 'LOGOUT', 'LOAD_PINNED_MESSAGES_SUCCESS', 'USER_SETTINGS_PROTO_UPDATE', 'CHANNEL_RTC_UPDATE_CHAT_OPEN', 'SIDEBAR_VIEW_CHANNEL'];
     entity['actions'] = option;
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;

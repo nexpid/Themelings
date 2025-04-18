@@ -1694,6 +1694,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = _closure1_slot48;
                 entity['GUILD_JOIN'] = golfie;
                 entity['GUILD_DELETE'] = golfie;
+                entity['INVITE_ACCEPT_SUCCESS'] = golfie;
                 golfie = _closure1_slot49;
                 entity['GUILD_MEMBER_ADD'] = golfie;
                 entity['GUILD_MEMBER_REMOVE'] = golfie;
@@ -1710,12 +1711,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = _closure1_slot5;
                 entity = _closure1_slot31;
                 entity = entity.bind(tangon)();
-                if(entity) { _fun00030_ip = 260; continue _fun00029 }
- 247:
+                if(entity) { _fun00030_ip = 265; continue _fun00029 }
+ 252:
                 entity = verify.apply;
                 entity = entity.bind(verify)(report, offset);
-                _fun00030_ip = 294; continue _fun00029;
- 260:
+                _fun00030_ip = 299; continue _fun00029;
+ 265:
                 golfie = global;
                 option = golfie.Reflect;
                 golfie = option.construct;
@@ -1723,7 +1724,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = oscard.bind(tangon)(report);
                 oscard = oscard.constructor;
                 entity = golfie.bind(option)(verify, offset, oscard);
- 294:
+ 299:
                 entity = zuuluu.bind(tangon)(report, entity);
                 var _closure3_slot0 = entity;
                 michal = function() {

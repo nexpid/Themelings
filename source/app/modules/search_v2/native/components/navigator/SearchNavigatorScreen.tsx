@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = 11;
         oscard = output[oscard];
         oscard = golfie.bind(tangon)(oscard);
-        golfie = oscard.GestureDetector;
+        golfie = oscard.NonCollapsableGestureDetector;
         oscard = {};
         oscard['gesture'] = offset;
         offset = _closure1_slot4;

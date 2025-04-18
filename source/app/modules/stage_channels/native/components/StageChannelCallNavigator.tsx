@@ -1,11 +1,11 @@
 // app/modules/stage_channels/native/components/StageChannelCallNavigator.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golfie = argBaz;
+    yankee = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
+    var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscard;
     entity = function(argFoo) { // Original name: ModeratorViewOverlay
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -170,19 +170,40 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot15 = entity;
+    entity = function(argFoo) { // Original name: StagePromptWrapper
+        entity = argFoo;
+        oscard = entity.channel;
+        michal = _closure1_slot14;
+        tangon = undefined;
+        report = michal.bind(tangon)();
+        zuuluu = _closure1_slot8;
+        michal = _closure1_slot0;
+        golfie = _closure1_slot2;
+        entity = 28;
+        entity = golfie[entity];
+        entity = michal.bind(tangon)(entity);
+        michal = entity.AnimatedStartStagePrompt;
+        entity = {};
+        entity['channel'] = oscard;
+        report = report.startStagePrompt;
+        entity['style'] = report;
+        entity = zuuluu.bind(tangon)(michal, entity);
+        return entity;
+    };
+    var _closure1_slot16 = entity;
     entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
+    option = entity.Object;
+    golfie = option.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
     tangon = oscard[entity];
     entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
+    tangon = yankee.bind(entity)(tangon);
     var _closure1_slot3 = tangon;
     option = 1;
     golfie = oscard[option];
@@ -221,7 +242,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = 'function StageChannelCallNavigatorTsx1(){const{withSpring,showStartStageView,viewAnimationConfig}=this.__closure;return{opacity:withSpring(showStartStageView?1:0,viewAnimationConfig)};}';
     tangon['code'] = golfie;
     var _closure1_slot13 = tangon;
-    tangon = 28;
+    tangon = 27;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.createStyles;
+    tangon = {};
+    verify = {};
+    offset = 8;
+    offset = oscard[offset];
+    offset = yankee.bind(entity)(offset);
+    offset = offset.colors;
+    offset = offset.BACKGROUND_FLOATING;
+    verify['backgroundColor'] = offset;
+    tangon['startStagePrompt'] = verify;
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot14 = tangon;
+    tangon = 29;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -430,7 +466,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.DARK;
             entity['theme'] = report;
             report = null;
-            if(!(report == record)) { _fun00008_ip = 834; continue _fun00007 }
+            if(!(report == record)) { _fun00008_ip = 812; continue _fun00007 }
  548:
             golfie = _closure1_slot9;
             oscard = _closure1_slot10;
@@ -445,7 +481,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.bind(tangon)(option);
             _fun00008_ip = 591; continue _fun00007;
  587:
-            verify = _closure1_slot14;
+            verify = _closure1_slot15;
  591:
             option = {};
             option['channel'] = sequen;
@@ -497,19 +533,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  748:
             romeon = !sizing;
  751:
-            if(!romeon) { _fun00008_ip = 796; continue _fun00007 }
+            if(!romeon) { _fun00008_ip = 774; continue _fun00007 }
  754:
             update = _closure1_slot8;
-            result = _closure1_slot0;
-            source = _closure1_slot2;
-            sizing = 27;
-            sizing = source[sizing];
-            sizing = result.bind(tangon)(sizing);
-            result = sizing.AnimatedStartStagePrompt;
+            result = _closure1_slot16;
             sizing = {};
             sizing['channel'] = sequen;
             romeon = update.bind(tangon)(result, sizing);
- 796:
+ 774:
             kiloes[1] = romeon;
             romeon = 'children';
             verify[romeon] = kiloes;
@@ -517,8 +548,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option[1] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);
-            _fun00008_ip = 1125; continue _fun00007;
- 834:
+            _fun00008_ip = 1103; continue _fun00007;
+ 812:
             option = _closure1_slot8;
             golfie = _closure1_slot6;
             oscard = {};
@@ -579,8 +610,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = copyDataProperties(target, papara);
             kiloes = result.bind(tangon)(sizing, kiloes);
             romeon[1] = kiloes;
-            if(!foxtra) { _fun00008_ip = 1101; continue _fun00007 }
- 1057:
+            if(!foxtra) { _fun00008_ip = 1079; continue _fun00007 }
+ 1035:
             sizing = _closure1_slot8;
             kiloes = _closure1_slot1;
             result = _closure1_slot2;
@@ -597,13 +628,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             backup['onClose'] = output;
             foxtra = sizing.bind(tangon)(kiloes, backup);
- 1101:
+ 1079:
             romeon[2] = foxtra;
             verify['children'] = romeon;
             verify = yankee.bind(tangon)(offset, verify);
             oscard['children'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 1125:
+ 1103:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

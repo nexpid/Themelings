@@ -3311,7 +3311,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = option.length;
                 tangon = 0;
                 zuuluu = option;
-                if(!(oscard > tangon)) { _fun00122_ip = 432; continue _fun00121 }
+                if(!(oscard > tangon)) { _fun00122_ip = 434; continue _fun00121 }
  215:
                 oscard = global;
                 romeon = oscard.RegExp;
@@ -3477,13 +3477,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal[1] = entity;
                 entity = ['desc', 'asc'];
                 zuuluu = oscard.bind(golfie)(option, michal, entity);
- 432:
+ 434:
                 entity = zuuluu;
-                if(!(report > tangon)) { _fun00122_ip = 450; continue _fun00121 }
- 439:
+                if(!(report > tangon)) { _fun00122_ip = 452; continue _fun00121 }
+ 441:
                 michal = zuuluu.slice;
                 entity = michal.bind(zuuluu)(tangon, report);
- 450:
+ 452:
                 return entity;
             }
         };

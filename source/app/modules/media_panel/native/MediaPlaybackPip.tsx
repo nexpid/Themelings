@@ -477,15 +477,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                 michal = _closure2_slot0;
                 zuuluu = null;
-                if(!(zuuluu != michal)) { _fun00008_ip = 217; continue _fun00007 }
+                if(!(zuuluu != michal)) { _fun00008_ip = 213; continue _fun00007 }
  16:
                 michal = _closure2_slot0;
                 michal = michal.channel_id;
-                if(!(zuuluu != michal)) { _fun00008_ip = 217; continue _fun00007 }
+                if(!(zuuluu != michal)) { _fun00008_ip = 213; continue _fun00007 }
  32:
                 michal = _closure2_slot0;
                 michal = michal.id;
-                if(!(zuuluu != michal)) { _fun00008_ip = 217; continue _fun00007 }
+                if(!(zuuluu != michal)) { _fun00008_ip = 213; continue _fun00007 }
  48:
                 oscard = _closure1_slot1;
                 report = _closure1_slot2;
@@ -525,7 +525,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = report.bind(oscard)(golfie, michal, entity);
                 entity = {'navigationReplace': true, 'openChannel': true};
                 entity = zuuluu.bind(tangon)(michal, entity);
- 217:
+ 213:
                 entity = undefined;
                 return entity;
             }

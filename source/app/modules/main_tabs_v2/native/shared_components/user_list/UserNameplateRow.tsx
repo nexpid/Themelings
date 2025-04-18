@@ -204,6 +204,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = {};
             option['nameplate'] = config;
             option['isPressed'] = romeon;
+            romeon = true;
+            option['invertPressOpacity'] = romeon;
             option = foxtra.bind(report)(verify, option);
             verify = new Array(2);
             verify[0] = option;
@@ -230,11 +232,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity[option] = verify;
             option = oscard.bind(report)(tangon, entity);
             entity = option;
-            if(zuuluu) { _fun00002_ip = 666; continue _fun00001 }
- 581:
+            if(zuuluu) { _fun00002_ip = 673; continue _fun00001 }
+ 588:
             entity = option;
-            if(michal) { _fun00002_ip = 666; continue _fun00001 }
- 587:
+            if(michal) { _fun00002_ip = 673; continue _fun00001 }
+ 594:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot7;
             michal = {};
@@ -254,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 666:
+ 673:
             return entity;
         }
     };

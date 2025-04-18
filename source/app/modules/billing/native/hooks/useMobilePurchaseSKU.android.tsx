@@ -28,19 +28,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 2;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    golfie = tangon.CurrencyCodes;
+    var _closure1_slot5 = golfie;
     tangon = tangon.PriceSetAssignmentPurchaseTypes;
-    var _closure1_slot5 = tangon;
+    var _closure1_slot6 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.GPlayBillingResult;
-    var _closure1_slot6 = tangon;
+    var _closure1_slot7 = tangon;
     tangon = 4;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.PremiumTypes;
-    var _closure1_slot7 = tangon;
-    tangon = 11;
+    var _closure1_slot8 = tangon;
+    tangon = 12;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -120,11 +122,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = output[tangon];
             kiloes = backup.bind(kiloes)(tangon);
             backup = kiloes.isPremium;
-            tangon = _closure1_slot7;
+            tangon = _closure1_slot8;
             tangon = tangon.TIER_2;
             backup = backup.bind(kiloes)(sizing, tangon);
             kiloes = golfie.googleSkuIds;
-            tangon = _closure1_slot5;
+            tangon = _closure1_slot6;
             if(backup) { _fun00002_ip = 296; continue _fun00001 }
  284:
             backup = tangon.MOBILE;
@@ -187,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     entity = argFoo;
                     zuuluu = entity.billingResult;
-                    michal = _closure1_slot6;
+                    michal = _closure1_slot7;
                     michal = michal.OK;
                     if(!(zuuluu !== michal)) { _fun00004_ip = 81; continue _fun00003 }
  26:
@@ -285,7 +287,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = _closure2_slot8;
-                    if(entity) { _fun00006_ip = 70; continue _fun00005 }
+                    if(entity) { _fun00006_ip = 73; continue _fun00005 }
  12:
                     report = _closure2_slot7;
                     tangon = {};
@@ -301,12 +303,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon['analyticsLocations'] = entity;
                     entity = undefined;
                     entity = report.bind(entity)(tangon);
-                    _fun00006_ip = 184; continue _fun00005;
- 70:
+                    _fun00006_ip = 240; continue _fun00005;
+ 73:
                     report = _closure2_slot5;
                     tangon = null;
-                    if(!(tangon == report)) { _fun00006_ip = 113; continue _fun00005 }
- 80:
+                    if(!(tangon == report)) { _fun00006_ip = 116; continue _fun00005 }
+ 83:
                     oscard = _closure1_slot0;
                     report = _closure1_slot2;
                     tangon = 10;
@@ -314,16 +316,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = undefined;
                     tangon = oscard.bind(tangon)(report);
                     golfie = tangon.purchaseSKU;
-                    _fun00006_ip = 117; continue _fun00005;
- 113:
+                    _fun00006_ip = 120; continue _fun00005;
+ 116:
                     golfie = _closure2_slot5;
- 117:
+ 120:
                     zuuluu = _closure2_slot0;
                     oscard = zuuluu.skuId;
                     report = {};
                     zuuluu = 0;
                     report['expectedAmount'] = zuuluu;
+                    tangon = _closure1_slot5;
+                    tangon = tangon.USD;
+                    report['expectedCurrency'] = tangon;
+                    option = _closure1_slot0;
+                    tangon = _closure1_slot2;
+                    zuuluu = 11;
+                    zuuluu = tangon[zuuluu];
                     tangon = undefined;
+                    option = option.bind(tangon)(zuuluu);
+                    zuuluu = option.v4;
+                    zuuluu = zuuluu.bind(option)();
+                    report['loadId'] = zuuluu;
                     zuuluu = 'collectibles';
                     report = golfie.bind(tangon)(zuuluu, oscard, report);
                     tangon = report.then;
@@ -342,7 +355,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     entity = zuuluu.bind(tangon)(michal);
- 184:
+ 240:
                     return entity;
                 }
             };

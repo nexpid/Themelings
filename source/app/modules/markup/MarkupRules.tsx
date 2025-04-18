@@ -694,81 +694,115 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity.return();
  58:
             entity = tangon.returnMentionIds;
-            if(entity) { _fun00024_ip = 509; continue _fun00023 }
+            if(entity) { _fun00024_ip = 594; continue _fun00023 }
  70:
             entity = _closure1_slot19;
-            verify = entity.bind(golfie)(tangon);
+            offset = entity.bind(golfie)(tangon);
             option = null;
-            entity = option != verify;
+            entity = option != offset;
             oscard = null;
             if(!entity) { _fun00024_ip = 114; continue _fun00023 }
  93:
-            offset = _closure1_slot6;
-            report = offset.getRole;
-            entity = verify.id;
-            oscard = report.bind(offset)(entity, michal);
+            verify = _closure1_slot6;
+            report = verify.getRole;
+            entity = offset.id;
+            oscard = report.bind(verify)(entity, michal);
  114:
-            if(!(option != oscard)) { _fun00024_ip = 414; continue _fun00023 }
+            if(!(option != oscard)) { _fun00024_ip = 499; continue _fun00023 }
  121:
             report = _closure1_slot0;
-            offset = _closure1_slot2;
+            verify = _closure1_slot2;
             entity = 12;
-            entity = offset[entity];
+            entity = verify[entity];
             yankee = report.bind(golfie)(entity);
-            offset = yankee.canUseEnhancedRoleColors;
-            entity = option == verify;
+            verify = yankee.canUseEnhancedRoleColors;
+            entity = option == offset;
             report = undefined;
             if(entity) { _fun00024_ip = 161; continue _fun00023 }
  156:
-            report = verify.id;
+            report = offset.id;
  161:
             entity = 'parse';
-            report = offset.bind(yankee)(report, entity);
+            verify = verify.bind(yankee)(report, entity);
+            entity = oscard.colors;
+            yankee = option == entity;
+            report = undefined;
+            if(yankee) { _fun00024_ip = 191; continue _fun00023 }
+ 185:
+            report = entity.primary_color;
+ 191:
+            entity = 0;
+            report = entity === report;
+            if(!report) { _fun00024_ip = 224; continue _fun00023 }
+ 200:
+            yankee = oscard.colors;
+            romeon = option == yankee;
+            entity = undefined;
+            if(romeon) { _fun00024_ip = 220; continue _fun00023 }
+ 214:
+            entity = yankee.secondary_color;
+ 220:
+            report = option == entity;
+ 224:
+            if(!report) { _fun00024_ip = 251; continue _fun00023 }
+ 227:
+            yankee = oscard.colors;
+            romeon = option == yankee;
+            entity = undefined;
+            if(romeon) { _fun00024_ip = 247; continue _fun00023 }
+ 241:
+            entity = yankee.tertiary_color;
+ 247:
+            report = option == entity;
+ 251:
             entity = {};
-            offset = 'mention';
-            entity['type'] = offset;
+            yankee = 'mention';
+            entity['type'] = yankee;
             tangon = tangon.channelId;
             entity['channelId'] = tangon;
-            offset = option != verify;
+            yankee = option != offset;
             tangon = null;
-            if(!offset) { _fun00024_ip = 204; continue _fun00023 }
- 199:
-            tangon = verify.id;
- 204:
+            if(!yankee) { _fun00024_ip = 284; continue _fun00023 }
+ 279:
+            tangon = offset.id;
+ 284:
             entity['guildId'] = tangon;
             entity['roleId'] = michal;
             tangon = oscard.color;
             entity['roleColor'] = tangon;
             tangon = null;
-            if(!report) { _fun00024_ip = 308; continue _fun00023 }
- 228:
+            if(!verify) { _fun00024_ip = 393; continue _fun00023 }
+ 308:
+            tangon = null;
+            if(report) { _fun00024_ip = 393; continue _fun00023 }
+ 313:
             report = {};
             offset = oscard.colors;
             yankee = option == offset;
             verify = undefined;
-            if(yankee) { _fun00024_ip = 250; continue _fun00023 }
- 244:
+            if(yankee) { _fun00024_ip = 335; continue _fun00023 }
+ 329:
             verify = offset.primary_color;
- 250:
+ 335:
             report['primaryColor'] = verify;
             offset = oscard.colors;
             yankee = option == offset;
             verify = undefined;
-            if(yankee) { _fun00024_ip = 275; continue _fun00023 }
- 269:
+            if(yankee) { _fun00024_ip = 360; continue _fun00023 }
+ 354:
             verify = offset.secondary_color;
- 275:
+ 360:
             report['secondaryColor'] = verify;
             verify = oscard.colors;
             offset = option == verify;
             option = undefined;
-            if(offset) { _fun00024_ip = 300; continue _fun00023 }
- 294:
+            if(offset) { _fun00024_ip = 385; continue _fun00023 }
+ 379:
             option = verify.tertiary_color;
- 300:
+ 385:
             report['tertiaryColor'] = option;
             tangon = report;
- 308:
+ 393:
             entity['roleColors'] = tangon;
             verify = oscard.name;
             tangon = global;
@@ -793,7 +827,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon[0] = report;
             entity['content'] = tangon;
             return entity;
- 414:
+ 499:
             entity = {};
             tangon = 'text';
             entity['type'] = tangon;
@@ -816,7 +850,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.bind(zuuluu)(report);
             entity['content'] = zuuluu;
             return entity;
- 509:
+ 594:
             entity = {};
             zuuluu = 'roleMention';
             entity['type'] = zuuluu;

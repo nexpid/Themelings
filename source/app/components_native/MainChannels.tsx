@@ -200,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = 10;
             report = sizing[report];
             report = backup.bind(tangon)(report);
-            oscard = report.GestureDetector;
+            oscard = report.NonCollapsableGestureDetector;
             report = {};
             report['gesture'] = golfie;
             verify = _closure1_slot8;

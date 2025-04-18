@@ -65,12 +65,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
-    verify = {'backgroundColor': null, 'alignItems': 'center', 'paddingHorizontal': 16, 'paddingBottom': 16, 'paddingTop': 0};
+    verify = {'backgroundColor': null, 'alignItems': 'center', 'paddingHorizontal': 16, 'paddingBottom': 16, 'paddingTop': 8};
     offset = 10;
     romeon = oscard[offset];
     romeon = yankee.bind(entity)(romeon);
     romeon = romeon.colors;
-    romeon = romeon.BACKGROUND_PRIMARY;
+    romeon = romeon.BACKGROUND_MOBILE_PRIMARY;
     verify['backgroundColor'] = romeon;
     romeon = 16;
     tangon['container'] = verify;
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset = offset.RED_400;
     verify['color'] = offset;
     tangon['error'] = verify;
-    verify = {'position': 'absolute', 'right': 0, 'left': 0, 'top': 0, 'height': 20};
+    verify = {'position': 'absolute', 'right': 0, 'left': 0, 'top': 0, 'height': 30};
     tangon['gradient'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot14 = tangon;
@@ -484,7 +484,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = golfie[michal];
             verify = tangon.bind(report)(option);
             option = verify.useAnimatedStyle;
-            entity = function() { // Original name: x
+            entity = function() { // Original name: O
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     michal = _closure2_slot2;
@@ -500,10 +500,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     if(!oscard) { _fun00012_ip = 61; continue _fun00011 }
  37:
                     entity = _closure2_slot3;
-                    zuuluu = 172;
+                    zuuluu = 180;
                     if(!entity) { _fun00012_ip = 50; continue _fun00011 }
  47:
-                    zuuluu = 64;
+                    zuuluu = 72;
  50:
                     entity = 1;
                     entity = zuuluu - entity;
@@ -554,9 +554,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee['isRendered'] = foxtra;
             yankee['hasInputText'] = romeon;
             yankee['hasMessages'] = offset;
-            romeon = 64;
+            romeon = 72;
             yankee['HEIGHT_COMPACT'] = romeon;
-            romeon = 172;
+            romeon = 180;
             yankee['HEIGHT_FULL'] = romeon;
             romeon = golfie[michal];
             romeon = tangon.bind(report)(romeon);
@@ -587,7 +587,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = golfie[entity];
             entity = romeon.bind(report)(entity);
             entity = entity.colors;
-            entity = entity.BACKGROUND_PRIMARY;
+            entity = entity.BACKGROUND_MOBILE_PRIMARY;
             entity = option.bind(yankee)(entity);
             option = 12;
             option = golfie[option];

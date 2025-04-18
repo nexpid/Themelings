@@ -19,6 +19,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal = '../discord_common/js/shared/shared-constants/RecentAvatarsConstants.tsx';
     michal = tangon.bind(report)(michal);
     michal = 6;
+    zuuluu['MAX_NUMBER_ARCHIVED_AVATARS'] = michal;
     zuuluu['MAX_NUMBER_ARCHIVED_AVATARS_WITH_PREMIUM'] = michal;
     michal = 2;
     zuuluu['MAX_NUMBER_ARCHIVED_AVATARS_WITHOUT_PREMIUM'] = michal;

@@ -332,10 +332,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['elevated'] = tangon;
                 oscard = zuuluu.sandboxed;
                 tangon = michal != oscard;
-                if(!tangon) { _fun00012_ip = 163; continue _fun00011 }
- 160:
+                if(!tangon) { _fun00012_ip = 165; continue _fun00011 }
+ 162:
                 tangon = oscard;
- 163:
+ 165:
                 entity['sandboxed'] = tangon;
                 tangon = zuuluu.lastFocused;
                 entity['lastFocused'] = tangon;
@@ -352,22 +352,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = zuuluu.pid;
                 entity['pid'] = tangon;
                 tangon = zuuluu.pidPath;
-                if(!(michal == tangon)) { _fun00012_ip = 259; continue _fun00011 }
- 255:
+                if(!(michal == tangon)) { _fun00012_ip = 261; continue _fun00011 }
+ 257:
                 tangon = new Array(0);
- 259:
+ 261:
                 entity['pidPath'] = tangon;
                 oscard = zuuluu.windowHandle;
                 option = michal != oscard;
                 tangon = null;
-                if(!option) { _fun00012_ip = 282; continue _fun00011 }
- 279:
+                if(!option) { _fun00012_ip = 284; continue _fun00011 }
+ 281:
                 tangon = oscard;
- 282:
+ 284:
                 entity['windowHandle'] = tangon;
                 tangon = zuuluu.fullscreenType;
-                if(!(michal == tangon)) { _fun00012_ip = 329; continue _fun00011 }
- 297:
+                if(!(michal == tangon)) { _fun00012_ip = 331; continue _fun00011 }
+ 299:
                 oscard = _closure1_slot0;
                 option = _closure1_slot2;
                 report = 4;
@@ -375,14 +375,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = oscard.bind(golfie)(report);
                 report = report.RunningProcessFullscreenType;
                 tangon = report.UNKNOWN;
- 329:
+ 331:
                 entity['fullscreenType'] = tangon;
                 zuuluu = zuuluu.isLauncher;
                 michal = michal != zuuluu;
-                if(!michal) { _fun00012_ip = 350; continue _fun00011 }
- 347:
+                if(!michal) { _fun00012_ip = 352; continue _fun00011 }
+ 349:
                 michal = zuuluu;
- 350:
+ 352:
                 entity['isLauncher'] = michal;
                 return entity;
             }

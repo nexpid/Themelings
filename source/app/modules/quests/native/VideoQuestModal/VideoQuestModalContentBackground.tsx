@@ -1,5 +1,5 @@
 // app/modules/quests/native/VideoQuestModal/VideoQuestModalContentBackground.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
@@ -15,99 +15,102 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = '__esModule';
     entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tangon = oscard[entity];
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     golfie = tangon.View;
     var _closure1_slot2 = golfie;
     tangon = tangon.StyleSheet;
     var _closure1_slot3 = tangon;
-    tangon = 1;
+    tangon = 2;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     golfie = tangon.jsx;
     var _closure1_slot4 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot5 = tangon;
-    tangon = 2;
+    tangon = 3;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tangon = argFoo;
+            report = argFoo;
             entity = {};
             michal = {};
-            report = _closure1_slot3;
-            verify = report.absoluteFillObject;
-            offset = michal;
-            report = copyDataProperties(offset, verify);
+            tangon = _closure1_slot3;
+            offset = tangon.absoluteFillObject;
+            yankee = michal;
+            tangon = copyDataProperties(yankee, offset);
             oscard = {};
-            golfie = undefined;
-            if(tangon) { _fun00002_ip = 43; continue _fun00001 }
+            option = undefined;
+            if(report) { _fun00002_ip = 43; continue _fun00001 }
  34:
-            oscard['bottom'] = golfie;
-            report = oscard;
+            oscard['bottom'] = option;
+            tangon = oscard;
             _fun00002_ip = 50; continue _fun00001;
  43:
-            oscard['top'] = golfie;
-            report = oscard;
+            oscard['top'] = option;
+            tangon = oscard;
  50:
-            offset = michal;
-            verify = report;
-            report = copyDataProperties(offset, verify);
+            yankee = michal;
+            offset = tangon;
+            tangon = copyDataProperties(yankee, offset);
             oscard = 380;
-            report = 'height';
-            michal[report] = oscard;
-            oscard = -1;
-            report = 'zIndex';
-            michal[report] = oscard;
+            tangon = 'height';
+            michal[tangon] = oscard;
+            tangon = 1;
+            oscard = 'zIndex';
+            michal[oscard] = tangon;
             entity['wrapper'] = michal;
             michal = {};
-            report = _closure1_slot3;
-            verify = report.absoluteFillObject;
-            offset = michal;
-            report = copyDataProperties(offset, verify);
-            oscard = {};
-            if(tangon) { _fun00002_ip = 128; continue _fun00001 }
- 119:
-            oscard['bottom'] = golfie;
-            report = oscard;
-            _fun00002_ip = 135; continue _fun00001;
- 128:
-            oscard['top'] = golfie;
-            report = oscard;
- 135:
-            offset = michal;
-            verify = report;
-            report = copyDataProperties(offset, verify);
-            if(tangon) { _fun00002_ip = 177; continue _fun00001 }
- 148:
-            tangon = {};
-            oscard = {};
-            report = '180deg';
-            oscard['rotate'] = report;
-            report = new Array(1);
-            report[0] = oscard;
-            tangon['transform'] = report;
-            _fun00002_ip = 179; continue _fun00001;
- 177:
-            tangon = {};
- 179:
-            offset = michal;
-            verify = tangon;
-            tangon = copyDataProperties(offset, verify);
-            report = '100%';
-            tangon = 'width';
-            michal[tangon] = report;
+            oscard = _closure1_slot3;
+            offset = oscard.absoluteFillObject;
+            yankee = michal;
+            oscard = copyDataProperties(yankee, offset);
+            golfie = {};
+            if(report) { _fun00002_ip = 125; continue _fun00001 }
+ 116:
+            golfie['bottom'] = option;
+            oscard = golfie;
+            _fun00002_ip = 132; continue _fun00001;
+ 125:
+            golfie['top'] = option;
+            oscard = golfie;
+ 132:
+            yankee = michal;
+            offset = oscard;
+            oscard = copyDataProperties(yankee, offset);
+            if(report) { _fun00002_ip = 174; continue _fun00001 }
+ 145:
+            report = {};
+            golfie = {};
+            oscard = '180deg';
+            golfie['rotate'] = oscard;
+            oscard = new Array(1);
+            oscard[0] = golfie;
+            report['transform'] = oscard;
+            _fun00002_ip = 176; continue _fun00001;
+ 174:
+            report = {};
+ 176:
+            yankee = michal;
+            offset = report;
+            report = copyDataProperties(yankee, offset);
+            oscard = '100%';
+            report = 'width';
+            michal[report] = oscard;
             entity['cloudsImage'] = michal;
             michal = {};
             zuuluu = _closure1_slot3;
-            verify = zuuluu.absoluteFillObject;
-            offset = michal;
-            zuuluu = copyDataProperties(offset, verify);
-            tangon = 1;
+            offset = zuuluu.absoluteFillObject;
+            yankee = michal;
+            zuuluu = copyDataProperties(yankee, offset);
             zuuluu = 'opacity';
             michal[zuuluu] = tangon;
             entity['gradient'] = michal;
@@ -116,14 +119,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot6 = tangon;
-    golfie = ['#292252BF', '#1E1F2200'];
+    golfie = ['#292252FF', '#1E1F2200'];
     var _closure1_slot7 = golfie;
     tangon = golfie.slice;
     golfie = tangon.bind(golfie)();
     tangon = golfie.reverse;
     tangon = tangon.bind(golfie)();
     var _closure1_slot8 = tangon;
-    tangon = 6;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -156,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = _closure1_slot4;
             golfie = _closure1_slot0;
             offset = _closure1_slot1;
-            report = 3;
+            report = 4;
             report = offset[report];
             golfie = golfie.bind(tangon)(report);
             report = {};
@@ -177,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = _closure1_slot4;
             offset = _closure1_slot0;
             yankee = _closure1_slot1;
-            oscard = 4;
+            oscard = 5;
             oscard = yankee[oscard];
             golfie = offset.bind(tangon)(oscard);
             oscard = {};
@@ -185,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard['resizeMode'] = romeon;
             verify = verify.cloudsImage;
             oscard['style'] = verify;
-            verify = 5;
+            verify = 6;
             verify = yankee[verify];
             verify = offset.bind(tangon)(verify);
             oscard['source'] = verify;

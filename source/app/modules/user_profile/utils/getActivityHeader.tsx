@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot3 = golfie;
     tangon = tangon.PlatformTypes;
     var _closure1_slot4 = tangon;
-    tangon = 3;
+    tangon = 4;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  82:
             report = _closure1_slot4;
             report = report.XBOX;
-            if(!(oscard !== report)) { _fun00002_ip = 1449; continue _fun00001 }
+            if(!(oscard !== report)) { _fun00002_ip = 1564; continue _fun00001 }
  99:
             oscard = verify.type;
             report = _closure1_slot3;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  132:
             report = _closure1_slot4;
             report = report.PLAYSTATION;
-            if(!(oscard !== report)) { _fun00002_ip = 1326; continue _fun00001 }
+            if(!(oscard !== report)) { _fun00002_ip = 1441; continue _fun00001 }
  149:
             oscard = verify.type;
             report = _closure1_slot3;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  182:
             report = _closure1_slot4;
             report = report.TWITCH;
-            if(!(oscard !== report)) { _fun00002_ip = 1202; continue _fun00001 }
+            if(!(oscard !== report)) { _fun00002_ip = 1317; continue _fun00001 }
  199:
             oscard = verify.type;
             report = _closure1_slot3;
@@ -105,62 +105,71 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  232:
             entity = _closure1_slot4;
             entity = entity.YOUTUBE;
-            if(!(report !== entity)) { _fun00002_ip = 1078; continue _fun00001 }
+            if(!(report !== entity)) { _fun00002_ip = 1193; continue _fun00001 }
  249:
             report = verify.type;
             entity = _closure1_slot3;
             entity = entity.PLAYING;
-            if(!(report !== entity)) { _fun00002_ip = 1007; continue _fun00001 }
+            if(!(report !== entity)) { _fun00002_ip = 1122; continue _fun00001 }
  271:
             report = verify.type;
             entity = _closure1_slot3;
             entity = entity.STREAMING;
-            if(!(report !== entity)) { _fun00002_ip = 936; continue _fun00001 }
+            if(!(report !== entity)) { _fun00002_ip = 1051; continue _fun00001 }
  293:
+            report = _closure1_slot0;
+            oscard = _closure1_slot2;
+            entity = 3;
+            entity = oscard[entity];
+            report = report.bind(romeon)(entity);
+            entity = report.isStageActivity;
+            entity = entity.bind(report)(verify);
+            if(entity) { _fun00002_ip = 973; continue _fun00001 }
+ 330:
             report = verify.type;
             entity = _closure1_slot3;
             entity = entity.LISTENING;
-            if(!(report === entity)) { _fun00002_ip = 325; continue _fun00001 }
- 312:
+            if(!(report === entity)) { _fun00002_ip = 362; continue _fun00001 }
+ 349:
             entity = verify.details;
-            if(!(michal == entity)) { _fun00002_ip = 851; continue _fun00001 }
- 325:
+            if(!(michal == entity)) { _fun00002_ip = 888; continue _fun00001 }
+ 362:
             report = verify.type;
             entity = _closure1_slot3;
             entity = entity.LISTENING;
-            if(!(report !== entity)) { _fun00002_ip = 778; continue _fun00001 }
- 347:
+            if(!(report !== entity)) { _fun00002_ip = 815; continue _fun00001 }
+ 384:
             report = verify.type;
             entity = _closure1_slot3;
             entity = entity.WATCHING;
-            if(!(report === entity)) { _fun00002_ip = 379; continue _fun00001 }
- 366:
+            if(!(report === entity)) { _fun00002_ip = 416; continue _fun00001 }
+ 403:
             entity = verify.details;
-            if(!(michal == entity)) { _fun00002_ip = 693; continue _fun00001 }
- 379:
+            if(!(michal == entity)) { _fun00002_ip = 730; continue _fun00001 }
+ 416:
             report = verify.type;
             entity = _closure1_slot3;
             entity = entity.WATCHING;
-            if(!(report !== entity)) { _fun00002_ip = 620; continue _fun00001 }
- 401:
+            if(!(report !== entity)) { _fun00002_ip = 657; continue _fun00001 }
+ 438:
             report = verify.type;
             entity = _closure1_slot3;
             entity = entity.COMPETING;
-            if(!(report === entity)) { _fun00002_ip = 430; continue _fun00001 }
- 420:
+            if(!(report === entity)) { _fun00002_ip = 467; continue _fun00001 }
+ 457:
             entity = verify.details;
-            if(!(michal == entity)) { _fun00002_ip = 535; continue _fun00001 }
- 430:
+            if(!(michal == entity)) { _fun00002_ip = 572; continue _fun00001 }
+ 467:
             michal = verify.type;
             entity = _closure1_slot3;
             entity = entity.COMPETING;
-            if(!(michal !== entity)) { _fun00002_ip = 462; continue _fun00001 }
- 449:
+            if(!(michal !== entity)) { _fun00002_ip = 499; continue _fun00001 }
+ 486:
             entity = {};
             entity['text'] = romeon;
             entity['platformIcon'] = zuuluu;
-            _fun00002_ip = 533; continue _fun00001;
- 462:
+            _fun00002_ip = 570; continue _fun00001;
+ 499:
             michal = {};
             option = _closure1_slot0;
             offset = _closure1_slot2;
@@ -177,9 +186,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['text'] = report;
             michal['platformIcon'] = zuuluu;
             entity = michal;
- 533:
-            _fun00002_ip = 618; continue _fun00001;
- 535:
+ 570:
+            _fun00002_ip = 655; continue _fun00001;
+ 572:
             michal = {};
             oscard = _closure1_slot0;
             offset = _closure1_slot2;
@@ -199,9 +208,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['text'] = report;
             michal['platformIcon'] = zuuluu;
             entity = michal;
- 618:
-            _fun00002_ip = 691; continue _fun00001;
- 620:
+ 655:
+            _fun00002_ip = 728; continue _fun00001;
+ 657:
             michal = {};
             option = _closure1_slot0;
             offset = _closure1_slot2;
@@ -218,9 +227,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['text'] = report;
             michal['platformIcon'] = zuuluu;
             entity = michal;
- 691:
-            _fun00002_ip = 776; continue _fun00001;
- 693:
+ 728:
+            _fun00002_ip = 813; continue _fun00001;
+ 730:
             michal = {};
             oscard = _closure1_slot0;
             offset = _closure1_slot2;
@@ -240,9 +249,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['text'] = report;
             michal['platformIcon'] = zuuluu;
             entity = michal;
- 776:
-            _fun00002_ip = 849; continue _fun00001;
- 778:
+ 813:
+            _fun00002_ip = 886; continue _fun00001;
+ 815:
             michal = {};
             option = _closure1_slot0;
             offset = _closure1_slot2;
@@ -259,9 +268,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['text'] = report;
             michal['platformIcon'] = zuuluu;
             entity = michal;
- 849:
-            _fun00002_ip = 934; continue _fun00001;
- 851:
+ 886:
+            _fun00002_ip = 971; continue _fun00001;
+ 888:
             michal = {};
             oscard = _closure1_slot0;
             offset = _closure1_slot2;
@@ -275,15 +284,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report.t;
             oscard = report.b+lA5+;
             report = {};
-            verify = verify.name;
-            report['name'] = verify;
+            offset = verify.name;
+            report['name'] = offset;
             report = golfie.bind(option)(oscard, report);
             michal['text'] = report;
             michal['platformIcon'] = zuuluu;
             entity = michal;
- 934:
-            _fun00002_ip = 1005; continue _fun00001;
- 936:
+ 971:
+            _fun00002_ip = 1049; continue _fun00001;
+ 973:
+            michal = {};
+            oscard = _closure1_slot0;
+            offset = _closure1_slot2;
+            report = 2;
+            golfie = offset[report];
+            golfie = oscard.bind(romeon)(golfie);
+            option = golfie.intl;
+            golfie = option.formatToPlainString;
+            report = offset[report];
+            report = oscard.bind(romeon)(report);
+            report = report.t;
+            oscard = report.pW3Ip6;
+            report = {};
+            verify = verify.name;
+            report['name'] = verify;
+            report = golfie.bind(option)(oscard, report);
+            michal['text'] = report;
+            entity = michal;
+ 1049:
+            _fun00002_ip = 1120; continue _fun00001;
+ 1051:
             michal = {};
             option = _closure1_slot0;
             verify = _closure1_slot2;
@@ -300,9 +330,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['text'] = report;
             michal['platformIcon'] = zuuluu;
             entity = michal;
- 1005:
-            _fun00002_ip = 1076; continue _fun00001;
- 1007:
+ 1120:
+            _fun00002_ip = 1191; continue _fun00001;
+ 1122:
             michal = {};
             option = _closure1_slot0;
             verify = _closure1_slot2;
@@ -319,9 +349,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['text'] = report;
             michal['platformIcon'] = zuuluu;
             entity = michal;
- 1076:
-            _fun00002_ip = 1200; continue _fun00001;
- 1078:
+ 1191:
+            _fun00002_ip = 1315; continue _fun00001;
+ 1193:
             michal = {};
             foxtra = _closure1_slot0;
             backup = _closure1_slot2;
@@ -349,9 +379,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['text'] = report;
             michal['platformIcon'] = zuuluu;
             entity = michal;
- 1200:
-            _fun00002_ip = 1324; continue _fun00001;
- 1202:
+ 1315:
+            _fun00002_ip = 1439; continue _fun00001;
+ 1317:
             michal = {};
             foxtra = _closure1_slot0;
             backup = _closure1_slot2;
@@ -379,9 +409,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['text'] = report;
             michal['platformIcon'] = zuuluu;
             entity = michal;
- 1324:
-            _fun00002_ip = 1447; continue _fun00001;
- 1326:
+ 1439:
+            _fun00002_ip = 1562; continue _fun00001;
+ 1441:
             michal = {};
             foxtra = _closure1_slot0;
             backup = _closure1_slot2;
@@ -409,9 +439,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['text'] = report;
             michal['platformIcon'] = zuuluu;
             entity = michal;
- 1447:
-            _fun00002_ip = 1570; continue _fun00001;
- 1449:
+ 1562:
+            _fun00002_ip = 1685; continue _fun00001;
+ 1564:
             michal = {};
             yankee = _closure1_slot0;
             foxtra = _closure1_slot2;
@@ -439,7 +469,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['text'] = tangon;
             michal['platformIcon'] = zuuluu;
             entity = michal;
- 1570:
+ 1685:
             return entity;
         }
     };
