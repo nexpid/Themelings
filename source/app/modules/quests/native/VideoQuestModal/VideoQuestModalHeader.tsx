@@ -212,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option[result];
             option = offset.bind(tangon)(option);
             offset = option.Text;
-            option = {'variant': 'heading-md/semibold', 'color': 'interactive-normal'};
+            option = {'variant': 'heading-sm/semibold', 'color': 'interactive-normal'};
             if(!romeon) { _fun00002_ip = 432; continue _fun00001 }
  426:
             romeon = output.textShadow;

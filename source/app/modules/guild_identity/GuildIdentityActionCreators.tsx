@@ -228,9 +228,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = 1;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    golfie = tangon.Endpoints;
-    var _closure1_slot4 = golfie;
-    tangon = tangon.Layers;
+    tangon = tangon.Endpoints;
+    var _closure1_slot4 = tangon;
     tangon = 4;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -265,7 +264,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['setCurrentGuild'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: initGuildIdentitySettings
+    tangon = function(argFoo) { // Original name: initGuildIdentitySettings
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
         entity = 2;
@@ -278,33 +277,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal['type'] = report;
         report = argFoo;
         michal['guild'] = report;
-        report = argBar;
-        michal['analyticsLocations'] = report;
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
     zuuluu['initGuildIdentitySettings'] = tangon;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: openGuildIdentitySettings
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 2;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'GUILD_IDENTITY_SETTINGS_INIT';
-        michal['type'] = report;
-        report = argFoo;
-        michal['guild'] = report;
-        report = argBar;
-        michal['source'] = report;
-        report = argBaz;
-        michal['analyticsLocations'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
-    };
-    zuuluu['openGuildIdentitySettings'] = tangon;
     tangon = function() { // Original name: resetAndCloseGuildIdentityForm
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;

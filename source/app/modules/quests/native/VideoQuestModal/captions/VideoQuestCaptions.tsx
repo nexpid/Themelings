@@ -164,15 +164,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = null;
             michal = 'success';
             entity = null;
-            if(!(michal === tangon)) { _fun00002_ip = 325; continue _fun00001 }
+            if(!(michal === tangon)) { _fun00002_ip = 339; continue _fun00001 }
  158:
             michal = zuuluu == offset;
             entity = null;
-            if(michal) { _fun00002_ip = 325; continue _fun00001 }
+            if(michal) { _fun00002_ip = 339; continue _fun00001 }
  170:
             tangon = _closure1_slot5;
             zuuluu = _closure1_slot4;
-            michal = {};
+            michal = {'style': null, 'importantForAccessibility': 'no-hide-descendants', 'accessibilityRole': 'none', 'accessible': false};
             verify = yankee.container;
             oscard = new Array(2);
             oscard[0] = verify;
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 325:
+ 339:
             return entity;
         }
     };

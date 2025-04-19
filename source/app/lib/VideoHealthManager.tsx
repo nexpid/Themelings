@@ -687,7 +687,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     michal = michal.bind(entity)();
-    tangon = 7;
+    tangon = {'featureEnabled': null, 'windowLength': 5, 'allowedPoorFpsRatio': 1, 'fpsThreshold': 5, 'backoffTimeSec': 15};
+    golfie = 7;
+    golfie = oscard[golfie];
+    golfie = report.bind(entity)(golfie);
+    golfie = golfie.isMobile;
+    tangon['featureEnabled'] = golfie;
+    michal['defaultConfig'] = tangon;
+    tangon = 8;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

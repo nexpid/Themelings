@@ -17,19 +17,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  17:
             result = false;
  19:
-            romeon = entity.error;
+            output = entity.error;
             kiloes = entity.count;
             if(!(kiloes === tangon)) { _fun00002_ip = 36; continue _fun00001 }
  33:
             kiloes = 6;
  36:
-            output = entity.codeType;
-            if(!(output === tangon)) { _fun00002_ip = 59; continue _fun00001 }
+            update = entity.codeType;
+            if(!(update === tangon)) { _fun00002_ip = 59; continue _fun00001 }
  46:
             michal = _closure1_slot10;
-            output = michal.NUMERIC;
+            update = michal.NUMERIC;
  59:
-            var _closure2_slot0 = output;
+            var _closure2_slot0 = update;
             michal = entity.onCodeEntered;
             var _closure2_slot1 = michal;
             backup = entity.disabled;
@@ -47,10 +47,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(tangon)(entity);
             entity = michal.useNavigation;
             zuuluu = entity.bind(michal)();
-            golfie = _closure1_slot4;
-            michal = golfie.useRef;
-            entity = null;
-            echoed = michal.bind(golfie)(entity);
+            michal = _closure1_slot4;
+            entity = michal.useRef;
+            romeon = null;
+            echoed = entity.bind(michal)(romeon);
             michal = _closure1_slot1;
             entity = 11;
             entity = report[entity];
@@ -72,36 +72,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = yankee.singleInputWrapper;
             entity['style'] = report;
             option = _closure1_slot8;
-            update = _closure1_slot0;
+            vacuum = _closure1_slot0;
             verify = _closure1_slot2;
             report = 12;
             report = verify[report];
-            report = update.bind(tangon)(report);
+            report = vacuum.bind(tangon)(report);
             golfie = report.TextInput;
             report = {};
             report['ref'] = echoed;
-            report['errorMessage'] = romeon;
+            report['errorMessage'] = output;
             report['value'] = foxtra;
-            romeon = 'characters';
-            report['autoCapitalize'] = romeon;
+            echoed = 'characters';
+            report['autoCapitalize'] = echoed;
             report['maxLength'] = kiloes;
             source = 13;
-            romeon = verify[source];
-            romeon = update.bind(tangon)(romeon);
-            echoed = romeon.intl;
-            romeon = echoed.string;
+            echoed = verify[source];
+            echoed = vacuum.bind(tangon)(echoed);
+            ctrled = echoed.intl;
+            echoed = ctrled.string;
             verify = verify[source];
-            verify = update.bind(tangon)(verify);
+            verify = vacuum.bind(tangon)(verify);
             verify = verify.t;
             verify = verify.ysthAw;
-            verify = romeon.bind(echoed)(verify);
+            verify = echoed.bind(ctrled)(verify);
             report['accessibilityLabel'] = verify;
             verify = 'oneTimeCode';
             report['textContentType'] = verify;
             verify = _closure1_slot10;
-            romeon = verify.NUMERIC;
+            echoed = verify.NUMERIC;
             verify = 'default';
-            if(!(output === romeon)) { _fun00002_ip = 380; continue _fun00001 }
+            if(!(update === echoed)) { _fun00002_ip = 380; continue _fun00001 }
  374:
             verify = 'number-pad';
  380:
@@ -135,12 +135,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['isClearable'] = verify;
             verify = !oscard;
             report['autoFocus'] = verify;
+            verify = undefined;
+            if(!oscard) { _fun00002_ip = 446; continue _fun00001 }
+ 420:
+            echoed = _closure1_slot7;
+            echoed = echoed.bind(tangon)();
+            verify = undefined;
+            if(!echoed) { _fun00002_ip = 446; continue _fun00001 }
+ 433:
+            romeon = romeon != output;
+            verify = undefined;
+            if(!romeon) { _fun00002_ip = 446; continue _fun00001 }
+ 442:
+            verify = 'error';
+ 446:
+            report['status'] = verify;
             golfie = option.bind(tangon)(golfie, report);
             report = new Array(2);
             report[0] = golfie;
             oscard = !oscard;
-            if(!oscard) { _fun00002_ip = 600; continue _fun00001 }
- 438:
+            if(!oscard) { _fun00002_ip = 635; continue _fun00001 }
+ 473:
             verify = _closure1_slot8;
             option = _closure1_slot5;
             golfie = {};
@@ -175,15 +190,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['onPress'] = sizing;
             foxtra = foxtra.length;
             foxtra = foxtra !== kiloes;
-            if(foxtra) { _fun00002_ip = 580; continue _fun00001 }
- 577:
+            if(foxtra) { _fun00002_ip = 615; continue _fun00001 }
+ 612:
             foxtra = backup;
- 580:
+ 615:
             offset['disabled'] = foxtra;
             offset = romeon.bind(tangon)(yankee, offset);
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 600:
+ 635:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

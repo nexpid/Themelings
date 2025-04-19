@@ -131,8 +131,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            update = entity.style;
-            echoed = entity.source;
+            source = entity.style;
+            update = entity.source;
             result = entity.poster;
             yankee = entity.onLoadStart;
             offset = entity.onLoad;
@@ -162,37 +162,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = entity.controls;
             golfie = entity.ariaHidden;
             report = entity.mixWithOthers;
+            echoed = entity.importantForAccessibility;
             kiloes = entity.pauseWhileAppInactive;
-            if(!(kiloes === tangon)) { _fun00004_ip = 131; continue _fun00003 }
- 129:
+            if(!(kiloes === tangon)) { _fun00004_ip = 137; continue _fun00003 }
+ 135:
             kiloes = true;
- 131:
+ 137:
             var _closure2_slot0 = kiloes;
             var _closure2_slot1 = tangon;
             sizing = _closure1_slot0;
-            source = _closure1_slot1;
+            ctrled = _closure1_slot1;
             zuuluu = 10;
-            zuuluu = source[zuuluu];
+            zuuluu = ctrled[zuuluu];
             zuuluu = sizing.bind(tangon)(zuuluu);
             zuuluu = zuuluu.default;
-            vacuum = _closure1_slot8;
-            source = vacuum.useState;
+            sequen = _closure1_slot8;
+            ctrled = sequen.useState;
             sizing = _closure1_slot12;
-            ctrled = sizing.currentState;
+            vacuum = sizing.currentState;
             sizing = 'active';
-            sizing = sizing === ctrled;
-            ctrled = source.bind(vacuum)(sizing);
-            source = _closure1_slot7;
+            sizing = sizing === vacuum;
+            vacuum = ctrled.bind(sequen)(sizing);
+            ctrled = _closure1_slot7;
             sizing = 2;
-            ctrled = source.bind(tangon)(ctrled, sizing);
+            vacuum = ctrled.bind(tangon)(vacuum, sizing);
             sizing = 0;
-            sizing = ctrled[sizing];
-            source = 1;
-            source = ctrled[source];
-            _closure2_slot1 = source;
-            ctrled = vacuum.useEffect;
-            source = new Array(1);
-            source[0] = kiloes;
+            sizing = vacuum[sizing];
+            ctrled = 1;
+            ctrled = vacuum[ctrled];
+            _closure2_slot1 = ctrled;
+            vacuum = sequen.useEffect;
+            ctrled = new Array(1);
+            ctrled[0] = kiloes;
             michal = function() {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -226,21 +227,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            michal = ctrled.bind(vacuum)(michal, source);
+            michal = vacuum.bind(sequen)(michal, ctrled);
             michal = _closure1_slot13;
             entity = {};
-            entity['style'] = update;
-            entity['source'] = echoed;
+            entity['style'] = source;
+            entity['source'] = update;
+            entity['importantForAccessibility'] = echoed;
             entity['poster'] = result;
             entity['muted'] = output;
-            if(backup) { _fun00004_ip = 289; continue _fun00003 }
- 280:
-            if(!kiloes) { _fun00004_ip = 286; continue _fun00003 }
- 283:
+            if(backup) { _fun00004_ip = 300; continue _fun00003 }
+ 291:
+            if(!kiloes) { _fun00004_ip = 297; continue _fun00003 }
+ 294:
             kiloes = !sizing;
- 286:
+ 297:
             backup = kiloes;
- 289:
+ 300:
             entity['paused'] = backup;
             entity['posterResizeMode'] = foxtra;
             entity['resizeMode'] = romeon;
@@ -258,25 +260,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = null;
             option = report == oscard;
             golfie = undefined;
-            if(option) { _fun00004_ip = 383; continue _fun00003 }
- 364:
+            if(option) { _fun00004_ip = 394; continue _fun00003 }
+ 375:
             option = oscard.props;
             verify = report == option;
             golfie = undefined;
-            if(verify) { _fun00004_ip = 383; continue _fun00003 }
- 378:
+            if(verify) { _fun00004_ip = 394; continue _fun00003 }
+ 389:
             golfie = option.ref;
- 383:
+ 394:
             entity['ref'] = golfie;
             golfie = report == oscard;
             report = undefined;
-            if(golfie) { _fun00004_ip = 401; continue _fun00003 }
- 396:
+            if(golfie) { _fun00004_ip = 412; continue _fun00003 }
+ 407:
             report = oscard.props;
- 401:
-            record = entity;
-            config = report;
-            report = copyDataProperties(record, config);
+ 412:
+            cntext = entity;
+            record = report;
+            report = copyDataProperties(cntext, record);
             entity = michal.bind(tangon)(zuuluu, entity);
             return entity;
         }

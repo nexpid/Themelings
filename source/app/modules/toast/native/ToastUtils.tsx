@@ -1757,7 +1757,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['showTransferOwnershipSuccess'] = tangon;
-    michal = function(argFoo, argBar) {
+    tangon = function(argFoo, argBar) {
         option = _closure1_slot1;
         golfie = _closure1_slot2;
         entity = 1;
@@ -1785,6 +1785,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zuuluu['showSafetySuccess'] = michal;
+    zuuluu['showSafetySuccess'] = tangon;
+    michal = function() {
+        option = _closure1_slot1;
+        golfie = _closure1_slot2;
+        entity = 1;
+        michal = golfie[entity];
+        entity = undefined;
+        tangon = option.bind(entity)(michal);
+        zuuluu = tangon.open;
+        michal = {};
+        oscard = 'VERIFICATION_RESENT';
+        michal['key'] = oscard;
+        oscard = _closure1_slot0;
+        report = 2;
+        verify = golfie[report];
+        verify = oscard.bind(entity)(verify);
+        offset = verify.intl;
+        verify = offset.string;
+        report = golfie[report];
+        report = oscard.bind(entity)(report);
+        report = report.t;
+        report = report.gI8ISU;
+        report = verify.bind(offset)(report);
+        michal['content'] = report;
+        report = 21;
+        report = golfie[report];
+        report = option.bind(entity)(report);
+        michal['icon'] = report;
+        report = 22;
+        report = golfie[report];
+        report = oscard.bind(entity)(report);
+        report = report.CheckmarkLargeIcon;
+        michal['IconComponent'] = report;
+        report = 'status-positive';
+        michal['iconColor'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    zuuluu['showVerificationSent'] = michal;
     return entity;
 })();

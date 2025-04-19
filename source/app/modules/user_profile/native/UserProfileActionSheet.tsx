@@ -267,7 +267,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = 15;
             foxtra = oscard[foxtra];
             foxtra = kiloes.bind(report)(foxtra);
-            foxtra = foxtra.PROFILE;
+            foxtra = foxtra.USER_PROFILE_ACTION_SHEET;
             golfie[backup] = foxtra;
             foxtra = 1;
             backup = backup + foxtra;
@@ -448,7 +448,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable40 = zuuluu.bind(report)(romeon);
             source = variable40.useCreateUserProfileAnalyticsContext;
             romeon = {};
-            variable46 = 'SIMPLIFIED_ACTION_SHEET';
+            variable46 = 'ACTION_SHEET';
             romeon['layout'] = variable46;
             romeon['sourceSessionId'] = variable45;
             romeon['userId'] = target;
@@ -752,7 +752,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable36 = true;
             tangon = entity.bind(zuuluu)(variable36);
             zuuluu = tangon.onEnd;
-            entity = function(argFoo) { // Original name: Ie
+            entity = function(argFoo) { // Original name: Ce
                 _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                     entity = argFoo;
@@ -834,8 +834,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             _closure2_slot28 = entity;
-            if(!(option != equals)) { _fun00002_ip = 2516; continue _fun00001 }
- 1685:
+            if(!(option != equals)) { _fun00002_ip = 2514; continue _fun00001 }
+ 1683:
             tangon = _closure1_slot14;
             sizing = _closure1_slot0;
             kiloes = _closure1_slot2;
@@ -860,24 +860,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes['openedAt'] = offset;
             result = option == verify;
             output = undefined;
-            if(result) { _fun00002_ip = 1794; continue _fun00001 }
- 1788:
+            if(result) { _fun00002_ip = 1792; continue _fun00001 }
+ 1786:
             output = verify.fetchStartedAt;
- 1794:
+ 1792:
             kiloes['fetchStartedAt'] = output;
             result = option == verify;
             output = undefined;
-            if(result) { _fun00002_ip = 1814; continue _fun00001 }
- 1808:
+            if(result) { _fun00002_ip = 1812; continue _fun00001 }
+ 1806:
             output = verify.fetchEndedAt;
- 1814:
+ 1812:
             kiloes['fetchEndedAt'] = output;
             result = option == verify;
             output = undefined;
-            if(result) { _fun00002_ip = 1834; continue _fun00001 }
- 1828:
+            if(result) { _fun00002_ip = 1832; continue _fun00001 }
+ 1826:
             output = verify.isLoaded;
- 1834:
+ 1832:
             kiloes['isLoaded'] = output;
             echoed = _closure1_slot15;
             result = _closure1_slot0;
@@ -891,8 +891,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = variable38.noPadding;
             output['contentStyles'] = update;
             update = undefined;
-            if(!status) { _fun00002_ip = 2049; continue _fun00001 }
- 1908:
+            if(!status) { _fun00002_ip = 2047; continue _fun00001 }
+ 1906:
             cntext = _closure1_slot14;
             variable43 = _closure1_slot0;
             variable44 = _closure1_slot2;
@@ -921,7 +921,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora = cntext.bind(report)(quebec, limora);
             source['children'] = limora;
             update = cntext.bind(report)(ctrled, source);
- 2049:
+ 2047:
             output['backdropChildren'] = update;
             ctrled = _closure1_slot14;
             source = _closure1_slot0;
@@ -941,10 +941,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update['style'] = config;
             config = {};
             cntext = undefined;
-            if(!status) { _fun00002_ip = 2129; continue _fun00001 }
- 2125:
+            if(!status) { _fun00002_ip = 2127; continue _fun00001 }
+ 2123:
             cntext = 'none';
- 2129:
+ 2127:
             config['pointerEvents'] = cntext;
             update['contentContainerStyle'] = config;
             update['ref'] = vacuum;
@@ -1086,13 +1086,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             whisks[0] = equals;
             quebec = option == variable41;
             equals = undefined;
-            if(quebec) { _fun00002_ip = 2257; continue _fun00001 }
- 2252:
+            if(quebec) { _fun00002_ip = 2255; continue _fun00001 }
+ 2250:
             equals = variable41.id;
- 2257:
+ 2255:
             equals = option != equals;
-            if(!equals) { _fun00002_ip = 2330; continue _fun00001 }
- 2264:
+            if(!equals) { _fun00002_ip = 2328; continue _fun00001 }
+ 2262:
             variable37 = _closure1_slot14;
             variable36 = _closure1_slot1;
             variable40 = _closure1_slot2;
@@ -1102,16 +1102,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             quebec = {};
             variable42 = option == variable41;
             variable40 = undefined;
-            if(variable42) { _fun00002_ip = 2304; continue _fun00001 }
- 2299:
+            if(variable42) { _fun00002_ip = 2302; continue _fun00001 }
+ 2297:
             variable40 = variable41.id;
- 2304:
+ 2302:
             quebec['profileEffectId'] = variable40;
             quebec['bannerAdjustment'] = variable39;
             variable38 = variable38.profileEffect;
             quebec['style'] = variable38;
             equals = variable37.bind(report)(variable36, quebec);
- 2330:
+ 2328:
             whisks[1] = equals;
             limora['children'] = whisks;
             limora = status.bind(report)(target, limora);
@@ -1152,8 +1152,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(golfie, oscard);
             entity['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 2808; continue _fun00001;
- 2516:
+            _fun00002_ip = 2806; continue _fun00001;
+ 2514:
             tangon = _closure1_slot14;
             golfie = _closure1_slot0;
             oscard = _closure1_slot2;
@@ -1170,24 +1170,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['openedAt'] = offset;
             romeon = option == verify;
             offset = undefined;
-            if(romeon) { _fun00002_ip = 2590; continue _fun00001 }
- 2584:
+            if(romeon) { _fun00002_ip = 2588; continue _fun00001 }
+ 2582:
             offset = verify.fetchStartedAt;
- 2590:
+ 2588:
             oscard['fetchStartedAt'] = offset;
             romeon = option == verify;
             offset = undefined;
-            if(romeon) { _fun00002_ip = 2610; continue _fun00001 }
- 2604:
+            if(romeon) { _fun00002_ip = 2608; continue _fun00001 }
+ 2602:
             offset = verify.fetchEndedAt;
- 2610:
+ 2608:
             oscard['fetchEndedAt'] = offset;
             offset = option == verify;
             option = undefined;
-            if(offset) { _fun00002_ip = 2630; continue _fun00001 }
- 2624:
+            if(offset) { _fun00002_ip = 2628; continue _fun00001 }
+ 2622:
             option = verify.isLoaded;
- 2630:
+ 2628:
             oscard['isLoaded'] = option;
             offset = _closure1_slot14;
             sizing = _closure1_slot0;
@@ -1229,7 +1229,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 2808:
+ 2806:
             return entity;
         }
     };

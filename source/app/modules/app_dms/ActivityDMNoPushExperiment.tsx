@@ -1,4 +1,4 @@
-// app/modules/media_engine/NativeScreenSharePickerExperiment.tsx
+// app/modules/app_dms/ActivityDMNoPushExperiment.tsx
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -16,17 +16,19 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = undefined;
     option = report.bind(entity)(michal);
     golfie = option.createExperiment;
-    michal = {'kind': 'user', 'id': '2024-07_native_screen_share_picker', 'label': 'Use system picker for screen sharing'};
-    tangon = {'enableSystemPicker': false, 'useSystemPickerInModalByDefault': false};
+    michal = {'kind': 'user', 'id': '2025-03_app_dm_no_push', 'label': 'Activity DM No Push'};
+    tangon = {};
+    verify = false;
+    tangon['enabled'] = verify;
     michal['defaultConfig'] = tangon;
-    offset = {'id': 1, 'label': 'Enable system picker'};
+    offset = {'id': 1, 'label': 'Disables push notifications for activities, enables opt-in switch'};
     tangon = 1;
-    verify = {'enableSystemPicker': true, 'useSystemPickerInModalByDefault': true};
+    verify = {'enabled': true, 'defaultOnMobile': false};
     offset['config'] = verify;
     verify = new Array(2);
     verify[0] = offset;
-    offset = {'id': 2, 'label': 'Enable system picker behind pref gate'};
-    yankee = {'enableSystemPicker': true, 'useSystemPickerInModalByDefault': false};
+    offset = {'id': 2, 'label': 'Same as treatment 1, but defaults to on on mobile'};
+    yankee = {'enabled': true, 'defaultOnMobile': true};
     offset['config'] = yankee;
     verify[1] = offset;
     michal['treatments'] = verify;
@@ -34,8 +36,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/media_engine/NativeScreenSharePickerExperiment.tsx';
+    tangon = 'modules/app_dms/ActivityDMNoPushExperiment.tsx';
     tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
+    zuuluu['ActivityDMNoPushExperiment'] = michal;
     return entity;
 })();

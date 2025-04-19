@@ -1,5 +1,5 @@
 // app/modules/experiments/apex/ApexExperimentStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     golfie = argBaz;
     zuuluu = argFre;
@@ -39,13 +39,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot12 = michal;
+            _closure1_slot13 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot13 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -79,11 +79,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot8 = tangon;
-    tangon = {};
-    option = {};
-    tangon['user'] = option;
-    option = {};
-    tangon['guild'] = option;
+    tangon = 6;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AnalyticEvents;
     var _closure1_slot9 = tangon;
     tangon = {};
     option = {};
@@ -92,8 +91,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon['guild'] = option;
     var _closure1_slot10 = tangon;
     tangon = {};
+    option = {};
+    tangon['user'] = option;
+    option = {};
+    tangon['guild'] = option;
     var _closure1_slot11 = tangon;
-    tangon = 8;
+    tangon = {};
+    var _closure1_slot12 = tangon;
+    tangon = 10;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     tangon = tangon.Store;
@@ -108,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = entity.bind(tangon)(report, zuuluu);
                 verify = _closure1_slot1;
                 option = _closure1_slot2;
-                entity = 6;
+                entity = 7;
                 golfie = option[entity];
                 golfie = verify.bind(tangon)(golfie);
                 offset = new Array(3);
@@ -142,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot6;
                 verify = entity.bind(tangon)(zuuluu);
                 zuuluu = _closure1_slot5;
-                entity = _closure1_slot12;
+                entity = _closure1_slot13;
                 entity = entity.bind(tangon)();
                 if(entity) { _fun00004_ip = 153; continue _fun00003 }
  140:
@@ -335,7 +340,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = report.fromEntries;
                 entity = entity.bind(report)(oscard);
                 michal['experiments'] = entity;
-                entity = _closure1_slot9;
+                entity = _closure1_slot10;
                 entity = entity[tangon];
                 entity[zuuluu] = michal;
                 entity = undefined;
@@ -361,13 +366,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['kind'] = report;
             michal = argBaz;
             entity['defaultConfig'] = michal;
-            zuuluu = _closure1_slot10;
+            zuuluu = _closure1_slot11;
             zuuluu = zuuluu[report];
             zuuluu[tangon] = entity;
-            zuuluu = _closure1_slot11;
+            zuuluu = _closure1_slot12;
             oscard = _closure1_slot1;
             report = _closure1_slot2;
-            michal = 7;
+            michal = 8;
             report = report[michal];
             michal = undefined;
             report = oscard.bind(michal)(report);
@@ -416,7 +421,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = function(argFoo, argBar) { // Original name: value
             _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-                michal = _closure1_slot9;
+                michal = _closure1_slot10;
                 entity = argFoo;
                 report = michal[entity];
                 zuuluu = null;
@@ -440,9 +445,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = {};
         golfie = 'trackExposure';
         report['key'] = golfie;
-        golfie = function() { // Original name: value
-            entity = undefined;
-            return entity;
+        golfie = function(argFoo, argBar, argBaz, argCor) { // Original name: value
+            _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+ 0:
+                report = argBar;
+                entity = 'user';
+                if(!(entity === report)) { _fun00016_ip = 94; continue _fun00015 }
+ 11:
+                tangon = _closure1_slot1;
+                zuuluu = _closure1_slot2;
+                michal = 9;
+                zuuluu = zuuluu[michal];
+                michal = undefined;
+                tangon = tangon.bind(michal)(zuuluu);
+                zuuluu = tangon.track;
+                entity = _closure1_slot9;
+                michal = entity.EXPERIMENT_USER_EVALUATION_EXPOSED;
+                entity = {};
+                oscard = argFoo;
+                entity['evaluation'] = oscard;
+                oscard = argBaz;
+                entity['experiment'] = oscard;
+                oscard = argCor;
+                entity['exposure_location'] = oscard;
+                entity['unit_type'] = report;
+                entity = zuuluu.bind(tangon)(michal, entity);
+ 94:
+                entity = undefined;
+                return entity;
+            }
         };
         report['value'] = golfie;
         entity[5] = report;
@@ -473,25 +504,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getExperimentAssignment';
         report['key'] = golfie;
         oscard = function(argFoo) { // Original name: value
-            _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+            _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                 michal = argFoo;
-                tangon = _closure1_slot11;
+                tangon = _closure1_slot12;
                 zuuluu = michal.experimentId;
                 zuuluu = tangon[zuuluu];
-                tangon = _closure1_slot9;
+                tangon = _closure1_slot10;
                 entity = michal.kind;
                 oscard = tangon[entity];
                 tangon = null;
                 golfie = tangon == oscard;
                 entity = undefined;
-                if(golfie) { _fun00016_ip = 75; continue _fun00015 }
+                if(golfie) { _fun00018_ip = 75; continue _fun00017 }
  44:
                 michal = michal.unitId;
                 michal = oscard[michal];
                 tangon = tangon == michal;
                 entity = undefined;
-                if(tangon) { _fun00016_ip = 75; continue _fun00015 }
+                if(tangon) { _fun00018_ip = 75; continue _fun00017 }
  65:
                 michal = michal.experiments;
                 entity = michal[zuuluu];
@@ -512,7 +543,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = tangon;
     michal = new foxtra[michal](romeon);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 9;
+    tangon = 11;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

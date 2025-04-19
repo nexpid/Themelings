@@ -275,7 +275,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
-            variable42 = entity.user;
+            variable42 = entity.currentUser;
             var _closure2_slot0 = variable42;
             report = undefined;
             var _closure2_slot5 = report;
@@ -411,10 +411,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = variable42.id;
             oscard = variable49 == variable41;
             michal = undefined;
-            if(oscard) { _fun00006_ip = 405; continue _fun00005 }
- 400:
+            if(oscard) { _fun00006_ip = 406; continue _fun00005 }
+ 401:
             michal = variable41.id;
- 405:
+ 406:
             variable39 = tangon.bind(report)(zuuluu, michal);
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -450,54 +450,54 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = tangon.canResetThemeColors;
             oscard = variable49 == config;
             michal = undefined;
-            if(oscard) { _fun00006_ip = 569; continue _fun00005 }
- 563:
+            if(oscard) { _fun00006_ip = 570; continue _fun00005 }
+ 564:
             michal = config.themeColors;
- 569:
+ 570:
             quebec = zuuluu.bind(tangon)(variable36, michal);
             offset = !equals;
-            if(!offset) { _fun00006_ip = 584; continue _fun00005 }
- 581:
+            if(!offset) { _fun00006_ip = 585; continue _fun00005 }
+ 582:
             offset = !entity;
- 584:
+ 585:
             michal = variable49 == target;
             entity = undefined;
-            if(michal) { _fun00006_ip = 599; continue _fun00005 }
- 593:
+            if(michal) { _fun00006_ip = 600; continue _fun00005 }
+ 594:
             entity = target.nick;
- 599:
+ 600:
             michal = variable49 != entity;
             status = '';
             variable56 = status;
-            if(!michal) { _fun00006_ip = 616; continue _fun00005 }
- 613:
+            if(!michal) { _fun00006_ip = 617; continue _fun00005 }
+ 614:
             variable56 = entity;
- 616:
+ 617:
             michal = variable49 == variable39;
             entity = undefined;
-            if(michal) { _fun00006_ip = 631; continue _fun00005 }
- 625:
+            if(michal) { _fun00006_ip = 632; continue _fun00005 }
+ 626:
             entity = variable39.pronouns;
- 631:
+ 632:
             michal = variable49 != entity;
             variable52 = status;
-            if(!michal) { _fun00006_ip = 644; continue _fun00005 }
- 641:
+            if(!michal) { _fun00006_ip = 645; continue _fun00005 }
+ 642:
             variable52 = entity;
- 644:
+ 645:
             _closure2_slot5 = variable52;
             michal = variable49 == variable39;
             entity = undefined;
-            if(michal) { _fun00006_ip = 663; continue _fun00005 }
- 657:
+            if(michal) { _fun00006_ip = 664; continue _fun00005 }
+ 658:
             entity = variable39.bio;
- 663:
+ 664:
             michal = variable49 != entity;
             variable47 = status;
-            if(!michal) { _fun00006_ip = 676; continue _fun00005 }
- 673:
+            if(!michal) { _fun00006_ip = 677; continue _fun00005 }
+ 674:
             variable47 = entity;
- 676:
+ 677:
             _closure2_slot6 = variable47;
             michal = _closure1_slot1;
             zuuluu = _closure1_slot2;
@@ -540,10 +540,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.avatarBackground;
             variable59 = 0;
             michal = 0;
-            if(!offset) { _fun00006_ip = 871; continue _fun00005 }
- 867:
+            if(!offset) { _fun00006_ip = 872; continue _fun00005 }
+ 868:
             michal = _closure1_slot10;
- 871:
+ 872:
             papara = echoed + michal;
             variable61 = {};
             variable61['backgroundColor'] = entity;
@@ -554,68 +554,68 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon.bind(report)(golfie, zuuluu);
             zuuluu = variable49 == michal;
             variable58 = undefined;
-            if(zuuluu) { _fun00006_ip = 920; continue _fun00005 }
- 916:
+            if(zuuluu) { _fun00006_ip = 921; continue _fun00005 }
+ 917:
             variable58 = michal[variable59];
- 920:
+ 921:
             michal = golfie.pronouns;
             zuuluu = variable49 == michal;
             variable55 = undefined;
-            if(zuuluu) { _fun00006_ip = 939; continue _fun00005 }
- 935:
+            if(zuuluu) { _fun00006_ip = 940; continue _fun00005 }
+ 936:
             variable55 = michal[variable59];
- 939:
+ 940:
             michal = variable49 == entity;
             variable51 = undefined;
-            if(michal) { _fun00006_ip = 952; continue _fun00005 }
- 948:
+            if(michal) { _fun00006_ip = 953; continue _fun00005 }
+ 949:
             variable51 = entity[variable59];
- 952:
+ 953:
             michal = global;
             zuuluu = michal.parseInt;
             entity = variable49 == golfie;
             option = undefined;
-            if(entity) { _fun00006_ip = 974; continue _fun00005 }
- 969:
+            if(entity) { _fun00006_ip = 975; continue _fun00005 }
+ 970:
             option = golfie.code;
- 974:
+ 975:
             verify = variable49 != option;
             entity = status;
-            if(!verify) { _fun00006_ip = 987; continue _fun00005 }
- 984:
+            if(!verify) { _fun00006_ip = 988; continue _fun00005 }
+ 985:
             entity = option;
- 987:
+ 988:
             option = zuuluu.bind(report)(entity);
             zuuluu = 200005;
             entity = null;
-            if(!(zuuluu === option)) { _fun00006_ip = 1021; continue _fun00005 }
- 1004:
+            if(!(zuuluu === option)) { _fun00006_ip = 1022; continue _fun00005 }
+ 1005:
             option = variable49 == golfie;
             zuuluu = undefined;
-            if(option) { _fun00006_ip = 1018; continue _fun00005 }
- 1013:
+            if(option) { _fun00006_ip = 1019; continue _fun00005 }
+ 1014:
             zuuluu = golfie.message;
- 1018:
+ 1019:
             entity = zuuluu;
- 1021:
+ 1022:
             zuuluu = michal.Object;
             michal = zuuluu.keys;
             michal = michal.bind(zuuluu)(tangon);
             michal = michal.length;
             michal = michal > variable59;
             variable60 = null;
-            if(!michal) { _fun00006_ip = 1133; continue _fun00005 }
- 1051:
+            if(!michal) { _fun00006_ip = 1134; continue _fun00005 }
+ 1052:
             michal = variable49 == variable51;
             variable60 = null;
-            if(!michal) { _fun00006_ip = 1133; continue _fun00005 }
- 1060:
+            if(!michal) { _fun00006_ip = 1134; continue _fun00005 }
+ 1061:
             michal = variable49 == variable58;
             variable60 = null;
-            if(!michal) { _fun00006_ip = 1133; continue _fun00005 }
- 1069:
-            if(!(variable49 == entity)) { _fun00006_ip = 1130; continue _fun00005 }
- 1073:
+            if(!michal) { _fun00006_ip = 1134; continue _fun00005 }
+ 1070:
+            if(!(variable49 == entity)) { _fun00006_ip = 1131; continue _fun00005 }
+ 1074:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             michal = 19;
@@ -628,9 +628,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.t;
             michal = michal.s35OuL;
             entity = zuuluu.bind(tangon)(michal);
- 1130:
+ 1131:
             variable60 = entity;
- 1133:
+ 1134:
             variable43 = function() { // Original name: handleBlur
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
@@ -650,8 +650,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal = variable49 == variable41;
             entity = null;
-            if(michal) { _fun00006_ip = 3036; continue _fun00005 }
- 1152:
+            if(michal) { _fun00006_ip = 3037; continue _fun00005 }
+ 1153:
             tangon = _closure1_slot19;
             yankee = _closure1_slot0;
             variable63 = _closure1_slot2;
@@ -736,18 +736,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable63 = variable42.id;
             config['userId'] = variable63;
             variable63 = variable45;
-            if(variable45) { _fun00006_ip = 1514; continue _fun00005 }
- 1511:
+            if(variable45) { _fun00006_ip = 1515; continue _fun00005 }
+ 1512:
             variable63 = !equals;
- 1514:
+ 1515:
             config['disabled'] = variable63;
             config['disableStatus'] = variable62;
             variable63 = variable49 == variable41;
             variable62 = undefined;
-            if(variable63) { _fun00006_ip = 1537; continue _fun00005 }
- 1532:
+            if(variable63) { _fun00006_ip = 1538; continue _fun00005 }
+ 1533:
             variable62 = variable41.id;
- 1537:
+ 1538:
             config['guildId'] = variable62;
             config['statusStyle'] = variable61;
             config = target.bind(report)(cntext, config);
@@ -795,16 +795,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = {};
             source['user'] = variable42;
             target = variable56;
-            if(!(variable49 != variable57)) { _fun00006_ip = 1747; continue _fun00005 }
- 1744:
+            if(!(variable49 != variable57)) { _fun00006_ip = 1748; continue _fun00005 }
+ 1745:
             target = variable57;
- 1747:
+ 1748:
             source['displayName'] = target;
             target = variable52;
-            if(!(variable49 != variable53)) { _fun00006_ip = 1761; continue _fun00005 }
- 1758:
+            if(!(variable49 != variable53)) { _fun00006_ip = 1762; continue _fun00005 }
+ 1759:
             target = variable53;
- 1761:
+ 1762:
             source['pronouns'] = target;
             source['badgeContainerBackground'] = whisks;
             source = papara.bind(report)(cntext, source);
@@ -823,11 +823,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext['style'] = source;
             limora = variable49 != variable60;
             source = null;
-            if(!limora) { _fun00006_ip = 1925; continue _fun00005 }
- 1836:
+            if(!limora) { _fun00006_ip = 1926; continue _fun00005 }
+ 1837:
             source = null;
-            if(!(status !== variable60)) { _fun00006_ip = 1925; continue _fun00005 }
- 1842:
+            if(!(status !== variable60)) { _fun00006_ip = 1926; continue _fun00005 }
+ 1843:
             whisks = _closure1_slot19;
             limora = _closure1_slot6;
             status = {};
@@ -845,7 +845,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable38 = variable59.bind(report)(variable50, variable38);
             status['children'] = variable38;
             source = whisks.bind(report)(limora, status);
- 1925:
+ 1926:
             status = new Array(6);
             status[0] = source;
             variable50 = _closure1_slot19;
@@ -868,10 +868,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable59 = variable60.bind(variable61)(variable59);
             limora['label'] = variable59;
             limora['errorMessage'] = variable58;
-            if(!(variable49 != variable57)) { _fun00006_ip = 2028; continue _fun00005 }
- 2025:
+            if(!(variable49 != variable57)) { _fun00006_ip = 2029; continue _fun00005 }
+ 2026:
             variable56 = variable57;
- 2028:
+ 2029:
             limora['value'] = variable56;
             variable56 = function(argFoo) { // Original name: onChange
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
@@ -927,10 +927,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable56 = _closure1_slot14;
             limora['maxLength'] = variable56;
             variable54 = !variable54;
-            if(variable54) { _fun00006_ip = 2098; continue _fun00005 }
- 2095:
+            if(variable54) { _fun00006_ip = 2099; continue _fun00005 }
+ 2096:
             variable54 = variable45;
- 2098:
+ 2099:
             limora['disabled'] = variable54;
             limora['onBlur'] = variable43;
             limora = variable50.bind(report)(variable38, limora);
@@ -963,10 +963,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable54 = variable54.NZqtIi;
             variable54 = variable55.bind(variable56)(variable54);
             limora['description'] = variable54;
-            if(!(variable49 != variable53)) { _fun00006_ip = 2254; continue _fun00005 }
- 2251:
+            if(!(variable49 != variable53)) { _fun00006_ip = 2255; continue _fun00005 }
+ 2252:
             variable52 = variable53;
- 2254:
+ 2255:
             limora['value'] = variable52;
             variable52 = function(argFoo) { // Original name: onChange
                 zuuluu = _closure1_slot0;
@@ -989,8 +989,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora = variable50.bind(report)(variable38, limora);
             status[2] = limora;
             limora = null;
-            if(!equals) { _fun00006_ip = 2496; continue _fun00005 }
- 2306:
+            if(!equals) { _fun00006_ip = 2497; continue _fun00005 }
+ 2307:
             variable38 = _closure1_slot19;
             equals = _closure1_slot1;
             variable50 = _closure1_slot2;
@@ -1019,10 +1019,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable50 = variable50.gYETnp;
             variable50 = variable51.bind(variable52)(variable50);
             whisks['description'] = variable50;
-            if(!(variable49 != variable48)) { _fun00006_ip = 2443; continue _fun00005 }
- 2440:
+            if(!(variable49 != variable48)) { _fun00006_ip = 2444; continue _fun00005 }
+ 2441:
             variable47 = variable48;
- 2443:
+ 2444:
             whisks['value'] = variable47;
             variable47 = function(argFoo) { // Original name: onChange
                 zuuluu = _closure1_slot0;
@@ -1046,7 +1046,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             whisks['disabled'] = variable45;
             whisks['onBlur'] = variable43;
             limora = variable38.bind(report)(equals, whisks);
- 2496:
+ 2497:
             status[3] = limora;
             equals = _closure1_slot19;
             whisks = _closure1_slot1;
@@ -1088,8 +1088,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora['showResetMenu'] = quebec;
             limora = equals.bind(report)(whisks, limora);
             status[4] = limora;
-            if(!sierra) { _fun00006_ip = 2711; continue _fun00005 }
- 2582:
+            if(!sierra) { _fun00006_ip = 2712; continue _fun00005 }
+ 2583:
             equals = _closure1_slot21;
             whisks = _closure1_slot20;
             limora = {};
@@ -1121,7 +1121,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             quebec[1] = variable36;
             limora['children'] = quebec;
             sierra = equals.bind(report)(whisks, limora);
- 2711:
+ 2712:
             status[5] = sierra;
             cntext['children'] = status;
             cntext = target.bind(report)(papara, cntext);
@@ -1139,8 +1139,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = option.bind(report)(yankee, verify);
             verify = new Array(2);
             verify[0] = yankee;
-            if(!offset) { _fun00006_ip = 3012; continue _fun00005 }
- 2795:
+            if(!offset) { _fun00006_ip = 3013; continue _fun00005 }
+ 2796:
             foxtra = _closure1_slot19;
             romeon = _closure1_slot1;
             output = _closure1_slot2;
@@ -1225,13 +1225,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = sizing.bind(report)(kiloes, backup);
             yankee['children'] = backup;
             offset = foxtra.bind(report)(romeon, yankee);
- 3012:
+ 3013:
             verify[1] = offset;
             oscard['children'] = verify;
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 3036:
+ 3037:
             return entity;
         }
     };

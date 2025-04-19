@@ -25,13 +25,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.USER_SETTING_ACTION_SHEET_KEY;
     var _closure1_slot4 = tangon;
-    tangon = 8;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.SearchMediaTypes;
+    var _closure1_slot5 = tangon;
+    tangon = 9;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
     tangon = 'modules/explicit_media_redaction/native/ExplicitMediaRedactionNativeUtils.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar, argBaz) {
+    tangon = function(argFoo, argBar, argBaz) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             option = argBaz;
@@ -55,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = option.includes;
             yankee = _closure1_slot0;
             romeon = _closure1_slot2;
-            verify = 2;
+            verify = 3;
             verify = romeon[verify];
             verify = yankee.bind(entity)(verify);
             verify = verify.ExplicitContentRedaction;
@@ -72,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = {};
             romeon = _closure1_slot0;
             foxtra = _closure1_slot2;
-            verify = 3;
+            verify = 4;
             offset = foxtra[verify];
             offset = romeon.bind(entity)(offset);
             yankee = offset.intl;
@@ -88,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot2;
-                    entity = 4;
+                    entity = 5;
                     zuuluu = zuuluu[entity];
                     entity = undefined;
                     tangon = tangon.bind(entity)(zuuluu);
@@ -99,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = _closure2_slot0;
                     report = _closure1_slot0;
                     oscard = _closure1_slot2;
-                    zuuluu = 2;
+                    zuuluu = 3;
                     zuuluu = oscard[zuuluu];
                     zuuluu = report.bind(entity)(zuuluu);
                     zuuluu = zuuluu.ExplicitContentRedaction;
@@ -109,12 +114,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  84:
                     tangon = _closure1_slot1;
                     oscard = _closure1_slot2;
-                    zuuluu = 5;
+                    zuuluu = 6;
                     zuuluu = oscard[zuuluu];
                     tangon = tangon.bind(entity)(zuuluu);
                     zuuluu = tangon.showAgeVerificationGetStartedModal;
                     report = _closure1_slot0;
-                    michal = 6;
+                    michal = 7;
                     michal = oscard[michal];
                     michal = report.bind(entity)(michal);
                     michal = michal.AgeVerificationModalEntryPoint;
@@ -133,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = option.includes;
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
-            golfie = 2;
+            golfie = 3;
             golfie = yankee[golfie];
             golfie = offset.bind(entity)(golfie);
             golfie = golfie.ExplicitContentRedaction;
@@ -146,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = {};
             romeon = _closure1_slot0;
             foxtra = _closure1_slot2;
-            verify = 3;
+            verify = 4;
             offset = foxtra[verify];
             offset = romeon.bind(entity)(offset);
             yankee = offset.intl;
@@ -161,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = _closure2_slot0;
                 tangon = _closure1_slot0;
                 michal = _closure1_slot2;
-                entity = 2;
+                entity = 3;
                 michal = michal[entity];
                 entity = undefined;
                 michal = tangon.bind(entity)(michal);
@@ -179,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = option.includes;
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            zuuluu = 2;
+            zuuluu = 3;
             zuuluu = offset[zuuluu];
             zuuluu = verify.bind(entity)(zuuluu);
             zuuluu = zuuluu.ExplicitContentRedaction;
@@ -192,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = {};
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
-            golfie = 3;
+            golfie = 4;
             option = yankee[golfie];
             option = offset.bind(entity)(option);
             verify = option.intl;
@@ -207,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = _closure2_slot0;
                 tangon = _closure1_slot0;
                 michal = _closure1_slot2;
-                entity = 2;
+                entity = 3;
                 michal = michal[entity];
                 entity = undefined;
                 michal = tangon.bind(entity)(michal);
@@ -221,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  459:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
-            michal = 7;
+            michal = 8;
             michal = yankee[michal];
             tangon = offset.bind(entity)(michal);
             zuuluu = tangon.showSimpleActionSheet;
@@ -229,7 +234,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = _closure1_slot4;
             michal['key'] = oscard;
             oscard = {};
-            golfie = 3;
+            golfie = 4;
             option = yankee[golfie];
             option = offset.bind(entity)(option);
             verify = option.intl;
@@ -248,6 +253,87 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['handleSensitiveMediaFilterPress'] = michal;
+    zuuluu['handleSensitiveMediaFilterPress'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: shouldAgeVerifyForSearchMedia
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+            tangon = argFoo;
+            verify = argBar;
+            entity = null;
+            if(!(entity != verify)) { _fun00006_ip = 262; continue _fun00005 }
+ 15:
+            report = tangon.type;
+            zuuluu = _closure1_slot5;
+            zuuluu = zuuluu.ATTACHMENT;
+            if(!(report !== zuuluu)) { _fun00006_ip = 114; continue _fun00005 }
+ 37:
+            report = tangon.type;
+            zuuluu = _closure1_slot5;
+            zuuluu = zuuluu.EMBED;
+            golfie = null;
+            if(!(report === zuuluu)) { _fun00006_ip = 168; continue _fun00005 }
+ 58:
+            zuuluu = {};
+            option = _closure1_slot0;
+            oscard = _closure1_slot2;
+            report = 5;
+            oscard = oscard[report];
+            report = undefined;
+            report = option.bind(report)(oscard);
+            report = report.ObscuredMediaTypes;
+            report = report.Embed;
+            zuuluu['type'] = report;
+            report = tangon.embed;
+            zuuluu['media'] = report;
+            golfie = zuuluu;
+            _fun00006_ip = 168; continue _fun00005;
+ 114:
+            zuuluu = {};
+            option = _closure1_slot0;
+            oscard = _closure1_slot2;
+            report = 5;
+            oscard = oscard[report];
+            report = undefined;
+            report = option.bind(report)(oscard);
+            report = report.ObscuredMediaTypes;
+            report = report.Attachment;
+            zuuluu['type'] = report;
+            tangon = tangon.attachment;
+            zuuluu['media'] = tangon;
+            golfie = zuuluu;
+ 168:
+            if(!(entity != golfie)) { _fun00006_ip = 258; continue _fun00005 }
+ 172:
+            zuuluu = _closure1_slot0;
+            entity = _closure1_slot2;
+            report = 5;
+            oscard = entity[report];
+            tangon = undefined;
+            option = zuuluu.bind(tangon)(oscard);
+            oscard = option.shouldRedactExplicitContent;
+            oscard = oscard.bind(option)(verify);
+            entity = entity[report];
+            zuuluu = zuuluu.bind(tangon)(entity);
+            entity = zuuluu.isMediaObscured;
+            entity = entity.bind(zuuluu)(golfie, oscard);
+            if(!entity) { _fun00006_ip = 256; continue _fun00005 }
+ 229:
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
+            michal = michal[report];
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = zuuluu.shouldAgeVerifyForExplicitMedia;
+            entity = michal.bind(zuuluu)();
+ 256:
+            return entity;
+ 258:
+            entity = false;
+            return entity;
+ 262:
+            entity = false;
+            return entity;
+        }
+    };
+    zuuluu['shouldAgeVerifyForSearchMedia'] = michal;
     return entity;
 })();

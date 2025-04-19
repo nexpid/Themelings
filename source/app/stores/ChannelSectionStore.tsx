@@ -669,7 +669,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     tangon['CHANNEL_TOGGLE_MEMBERS_SECTION'] = report;
-    report = function() { // Original name: handleProfilePanelToggleSection
+    report = function() { // Original name: handleUserProfileSidebarToggleSection
         _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
             entity = _closure1_slot21;
@@ -695,7 +695,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    tangon['PROFILE_PANEL_TOGGLE_SECTION'] = report;
+    tangon['USER_PROFILE_SIDEBAR_TOGGLE_SECTION'] = report;
     report = function() { // Original name: handleChannelToggleSummariesSection
         _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:

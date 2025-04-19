@@ -1174,11 +1174,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     michal['setName'] = golfie;
-    golfie = function(argFoo, argBar) { // Original name: setIcon
+    golfie = function(argFoo, argBar, argBaz) { // Original name: setIcon
         michal = argFoo;
         var _closure2_slot0 = michal;
         michal = argBar;
         var _closure2_slot1 = michal;
+        michal = argBaz;
+        var _closure2_slot2 = michal;
         zuuluu = _closure1_slot4;
         michal = undefined;
         entity = function* () {
@@ -1186,71 +1188,194 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
                     StartGenerator();
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00030_ip = 217; continue _fun00029 }
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
+                    if(zuuluu) { _fun00030_ip = 643; continue _fun00029 }
  10:
-                    tangon = _closure1_slot7;
-                    michal = tangon.getChannel;
-                    yankee = _closure2_slot0;
-                    verify = michal.bind(tangon)(yankee);
-                    tangon = _closure1_slot0;
-                    report = _closure1_slot2;
-                    michal = 8;
-                    michal = report[michal];
-                    oscard = undefined;
-                    michal = tangon.bind(oscard)(michal);
-                    report = michal.HTTP;
-                    tangon = report.patch;
-                    michal = {'url': null, 'body': null, 'oldFormErrors': true, 'rejectWithError': true, 'failImmediatelyWhenRateLimited': true};
-                    offset = _closure1_slot11;
-                    golfie = offset.CHANNEL;
-                    golfie = golfie.bind(offset)(yankee);
-                    michal['url'] = golfie;
-                    golfie = {};
-                    option = _closure2_slot1;
-                    golfie['icon'] = option;
-                    michal['body'] = golfie;
-                    michal = tangon.bind(report)(michal);
-                    SaveGenerator(address=123);
- 121:
-                    return michal;
- 123:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00030_ip = 214; continue _fun00029 }
- 129:
-                    golfie = null;
-                    tangon = golfie == verify;
+                    offset = undefined;
+                    sizing = undefined;
+                    romeon = undefined;
                     report = undefined;
-                    if(tangon) { _fun00030_ip = 150; continue _fun00029 }
- 140:
-                    tangon = verify.getGuildId;
-                    report = tangon.bind(verify)();
- 150:
-                    tangon = golfie == report;
-                    if(tangon) { _fun00030_ip = 177; continue _fun00029 }
- 157:
-                    golfie = golfie != verify;
-                    if(!golfie) { _fun00030_ip = 174; continue _fun00029 }
- 164:
-                    option = verify.isThread;
-                    golfie = option.bind(verify)();
- 174:
-                    tangon = golfie;
- 177:
-                    if(tangon) { _fun00030_ip = 211; continue _fun00029 }
- 180:
-                    tangon = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    zuuluu = 19;
-                    zuuluu = golfie[zuuluu];
-                    tangon = tangon.bind(oscard)(zuuluu);
-                    zuuluu = tangon.checkGuildTemplateDirty;
-                    zuuluu = zuuluu.bind(tangon)(report);
- 211:
-                    return michal;
- 214:
-                    return michal;
- 217:
+                    option = undefined;
+                    verify = undefined;
+                    golfie = undefined;
+                    yankee = _closure1_slot7;
+                    tangon = yankee.getChannel;
+                    oscard = _closure2_slot0;
+                    tangon = tangon.bind(yankee)(oscard);
+                    sizing = tangon;
+                    foxtra = {};
+                    foxtra['channel_id'] = oscard;
+                    yankee = null;
+                    oscard = yankee == tangon;
+                    tangon = undefined;
+                    if(oscard) { _fun00030_ip = 76; continue _fun00029 }
+ 68:
+                    oscard = sizing;
+                    tangon = oscard.type;
+ 76:
+                    foxtra['channel_type'] = tangon;
+                    tangon = sizing;
+                    oscard = yankee == tangon;
+                    tangon = undefined;
+                    if(oscard) { _fun00030_ip = 101; continue _fun00029 }
+ 93:
+                    oscard = sizing;
+                    tangon = oscard.icon;
+ 101:
+                    tangon = yankee != tangon;
+                    foxtra['old_icon_set'] = tangon;
+                    tangon = _closure2_slot1;
+                    tangon = yankee != tangon;
+                    foxtra['new_icon_set'] = tangon;
+                    tangon = _closure2_slot2;
+                    foxtra['location'] = tangon;
+                    romeon = foxtra;
+                    backup = _closure1_slot1;
+                    tangon = _closure1_slot2;
+                    oscard = 15;
+                    tangon = tangon[oscard];
+                    output = backup.bind(offset)(tangon);
+                    kiloes = output.track;
+                    tangon = _closure1_slot9;
+                    backup = tangon.CHANNEL_ICON_EDIT_PROGRESSED;
+                    tangon = {};
+                    ctrled = tangon;
+                    source = foxtra;
+                    foxtra = copyDataProperties(ctrled, source);
+                    echoed = 'initiated';
+                    foxtra = 'status';
+                    tangon[foxtra] = echoed;
+                    tangon = kiloes.bind(output)(backup, tangon);
+ 206: // try_start_0
+                    backup = _closure1_slot0;
+                    kiloes = _closure1_slot2;
+                    tangon = 8;
+                    tangon = kiloes[tangon];
+                    tangon = backup.bind(offset)(tangon);
+                    kiloes = tangon.HTTP;
+                    backup = kiloes.patch;
+                    tangon = {'url': null, 'body': null, 'oldFormErrors': true, 'rejectWithError': true, 'failImmediatelyWhenRateLimited': true};
+                    update = _closure1_slot11;
+                    echoed = update.CHANNEL;
+                    output = _closure2_slot0;
+                    output = echoed.bind(update)(output);
+                    tangon['url'] = output;
+                    output = {};
+                    result = _closure2_slot1;
+                    output['icon'] = result;
+                    tangon['body'] = output;
+                    tangon = backup.bind(kiloes)(tangon);
+                    SaveGenerator(address=301);
+ 299:
+                    return tangon;
+ 301:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=13);
+                    if(backup) { _fun00030_ip = 476; continue _fun00029 }
+ 310:
+                    report = tangon;
+                    kiloes = _closure1_slot1;
+                    backup = _closure1_slot2;
+                    backup = backup[oscard];
+                    result = kiloes.bind(offset)(backup);
+                    output = result.track;
+                    backup = _closure1_slot9;
+                    kiloes = backup.CHANNEL_ICON_EDIT_PROGRESSED;
+                    backup = {};
+                    source = romeon;
+                    ctrled = backup;
+                    echoed = copyDataProperties(ctrled, source);
+                    echoed = 'success';
+                    backup[foxtra] = echoed;
+                    backup = output.bind(result)(kiloes, backup);
+                    backup = sizing;
+                    backup = yankee == backup;
+                    kiloes = undefined;
+                    if(backup) { _fun00030_ip = 397; continue _fun00029 }
+ 384:
+                    output = sizing;
+                    backup = output.getGuildId;
+                    kiloes = backup.bind(output)();
+ 397:
+                    option = kiloes;
+                    kiloes = yankee == kiloes;
+                    backup = kiloes;
+                    if(kiloes) { _fun00030_ip = 439; continue _fun00029 }
+ 410:
+                    output = sizing;
+                    output = yankee != output;
+                    kiloes = output;
+                    if(!output) { _fun00030_ip = 436; continue _fun00029 }
+ 423:
+                    output = sizing;
+                    sizing = output.isThread;
+                    kiloes = sizing.bind(output)();
+ 436:
+                    backup = kiloes;
+ 439:
+                    if(backup) { _fun00030_ip = 473; continue _fun00029 }
+ 442:
+                    kiloes = _closure1_slot1;
+                    sizing = _closure1_slot2;
+                    backup = 19;
+                    backup = sizing[backup];
+                    kiloes = kiloes.bind(offset)(backup);
+                    backup = kiloes.checkGuildTemplateDirty;
+                    option = backup.bind(kiloes)(option);
+ 473: // try_end0
+                    return report;
+ 476:
+                    return tangon;
+ 479: // catch_target0
+                    CatchBlockStart(arg_register=7);
+                    michal = option;
+                    report = _closure1_slot1;
+                    tangon = _closure1_slot2;
+                    tangon = tangon[oscard];
+                    oscard = report.bind(offset)(tangon);
+                    report = oscard.track;
+                    zuuluu = _closure1_slot9;
+                    tangon = zuuluu.CHANNEL_ICON_EDIT_PROGRESSED;
+                    zuuluu = {};
+                    source = romeon;
+                    ctrled = zuuluu;
+                    romeon = copyDataProperties(ctrled, source);
+                    romeon = 'failed';
+                    zuuluu[foxtra] = romeon;
+                    romeon = yankee == option;
+                    option = undefined;
+                    if(romeon) { _fun00030_ip = 574; continue _fun00029 }
+ 548:
+                    romeon = michal;
+                    romeon = romeon.body;
+                    verify = romeon;
+                    romeon = yankee == romeon;
+                    option = undefined;
+                    if(romeon) { _fun00030_ip = 574; continue _fun00029 }
+ 568:
+                    option = verify.retry_after;
+ 574:
+                    verify = yankee != option;
+                    option = 'is_rate_limited';
+                    zuuluu[option] = verify;
+                    option = michal;
+                    verify = yankee == option;
+                    option = undefined;
+                    if(verify) { _fun00030_ip = 626; continue _fun00029 }
+ 601:
+                    verify = michal;
+                    verify = verify.body;
+                    golfie = verify;
+                    verify = yankee == verify;
+                    option = undefined;
+                    if(verify) { _fun00030_ip = 626; continue _fun00029 }
+ 621:
+                    option = golfie.message;
+ 626:
+                    golfie = 'error_message';
+                    zuuluu[golfie] = option;
+                    zuuluu = report.bind(oscard)(tangon, zuuluu);
+                    throw michal;
+ 643:
                     return entity;
                 }
             };

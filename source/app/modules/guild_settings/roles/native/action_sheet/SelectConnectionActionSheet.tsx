@@ -487,8 +487,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = true;
             entity['header'] = option;
             golfie = null;
-            if(!report) { _fun00002_ip = 663; continue _fun00001 }
- 595:
+            if(!report) { _fun00002_ip = 667; continue _fun00001 }
+ 599:
             offset = _closure1_slot6;
             option = _closure1_slot5;
             report = {};
@@ -505,7 +505,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = offset.bind(tangon)(output, sizing);
             report['children'] = sizing;
             golfie = offset.bind(tangon)(option, report);
- 663:
+ 667:
             report = new Array(2);
             report[0] = golfie;
             option = _closure1_slot6;
@@ -524,10 +524,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = verify.SafeAreaPaddingView;
             verify = {};
             verify['bottom'] = kiloes;
-            if(!(backup === foxtra)) { _fun00002_ip = 743; continue _fun00001 }
- 740:
+            if(!(backup === foxtra)) { _fun00002_ip = 747; continue _fun00001 }
+ 744:
             yankee = romeon;
- 743:
+ 747:
             verify['children'] = yankee;
             verify = option.bind(tangon)(offset, verify);
             oscard['children'] = verify;

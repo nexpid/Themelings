@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = 7;
             report = foxtra[report];
             kiloes = romeon.bind(tangon)(report);
-            report = {'hasConfetti': true, 'quest': null, 'size': 'md-lg'};
+            report = {'hasConfetti': true, 'quest': null, 'size': 'lg'};
             report['quest'] = result;
             echoed = echoed.percentComplete;
             report['progress'] = echoed;

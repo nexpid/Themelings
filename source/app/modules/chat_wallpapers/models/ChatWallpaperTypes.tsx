@@ -49,8 +49,12 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity['default'] = zuuluu;
         zuuluu = michal.is_blurred;
         entity['isBlurred'] = zuuluu;
-        michal = michal.design_group_id;
-        entity['designGroupId'] = michal;
+        zuuluu = michal.design_group_id;
+        entity['designGroupId'] = zuuluu;
+        zuuluu = michal.primary_color;
+        entity['primaryColor'] = zuuluu;
+        michal = michal.secondary_color;
+        entity['secondaryColor'] = michal;
         return entity;
     };
     zuuluu['fromServerChatWallpaperMetadata'] = michal;

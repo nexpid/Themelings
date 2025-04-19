@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 384; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 382; continue _fun00003 }
  13:
                     romeon = michal.authorize;
                     ctrled = michal.clientId;
@@ -88,13 +88,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     offset = michal.nonce;
                     verify = michal.dmSettings;
                     option = undefined;
-                    SaveGenerator(address=102);
- 100:
+                    SaveGenerator(address=100);
+ 98:
                     return option;
- 102:
+ 100:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 381; continue _fun00003 }
- 111:
+                    if(zuuluu) { _fun00004_ip = 379; continue _fun00003 }
+ 109:
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
                     zuuluu = 4;
@@ -124,25 +124,25 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     offset = null;
                     output = offset != backup;
                     sizing = undefined;
-                    if(!output) { _fun00004_ip = 249; continue _fun00003 }
- 237:
+                    if(!output) { _fun00004_ip = 247; continue _fun00003 }
+ 235:
                     output = offset != kiloes;
                     sizing = undefined;
-                    if(!output) { _fun00004_ip = 249; continue _fun00003 }
- 246:
+                    if(!output) { _fun00004_ip = 247; continue _fun00003 }
+ 244:
                     sizing = kiloes;
- 249:
+ 247:
                     oscard['webhook_channel_id'] = sizing;
                     sizing = offset == backup;
                     backup = undefined;
-                    if(!sizing) { _fun00004_ip = 275; continue _fun00003 }
- 263:
+                    if(!sizing) { _fun00004_ip = 273; continue _fun00003 }
+ 261:
                     sizing = offset != kiloes;
                     backup = undefined;
-                    if(!sizing) { _fun00004_ip = 275; continue _fun00003 }
- 272:
+                    if(!sizing) { _fun00004_ip = 273; continue _fun00003 }
+ 270:
                     backup = kiloes;
- 275:
+ 273:
                     oscard['channel_id'] = backup;
                     oscard['permissions'] = foxtra;
                     oscard['authorize'] = romeon;
@@ -153,10 +153,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     golfie = {};
                     offset = offset == verify;
                     option = undefined;
-                    if(offset) { _fun00004_ip = 326; continue _fun00003 }
- 320:
+                    if(offset) { _fun00004_ip = 324; continue _fun00003 }
+ 318:
                     option = verify.allowMobilePush;
- 326:
+ 324:
                     golfie['allow_mobile_push'] = option;
                     oscard['dm_settings'] = golfie;
                     zuuluu['body'] = oscard;
@@ -165,20 +165,20 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     oscard = false;
                     zuuluu['rejectWithError'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
-                    SaveGenerator(address=364);
- 362:
+                    SaveGenerator(address=362);
+ 360:
                     return zuuluu;
- 364:
+ 362:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 378; continue _fun00003 }
- 370:
+                    if(tangon) { _fun00004_ip = 376; continue _fun00003 }
+ 368:
                     tangon = zuuluu.body;
                     return tangon;
- 378:
+ 376:
                     return zuuluu;
- 381:
+ 379:
                     return michal;
- 384:
+ 382:
                     return entity;
                 }
             };

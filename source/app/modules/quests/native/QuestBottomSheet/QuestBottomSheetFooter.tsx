@@ -721,9 +721,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = oscard.bind(entity)(report);
     option = verify.createStyles;
     report = {};
-    offset = {};
-    foxtra = 'flex';
-    offset['display'] = foxtra;
+    offset = {'display': 'flex', 'flexGrow': 1, 'flexShrink': 1};
     yankee = golfie[yankee];
     yankee = romeon.bind(entity)(yankee);
     yankee = yankee.spacing;

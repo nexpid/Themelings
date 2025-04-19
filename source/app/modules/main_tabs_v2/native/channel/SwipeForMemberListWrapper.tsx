@@ -1092,31 +1092,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup[0] = kiloes;
             kiloes = update.memberListContainer;
             backup[1] = kiloes;
+            kiloes = _closure1_slot13;
+            ctrled = kiloes.MIDNIGHT;
+            kiloes = undefined;
+            if(!(output === ctrled)) { _fun00002_ip = 1193; continue _fun00001 }
+ 1187:
             kiloes = update.midnightBorder;
+ 1193:
             backup[2] = kiloes;
             kiloes = undefined;
-            if(sizing) { _fun00002_ip = 1208; continue _fun00001 }
- 1186:
+            if(sizing) { _fun00002_ip = 1224; continue _fun00001 }
+ 1202:
             sizing = _closure1_slot13;
             sizing = sizing.MIDNIGHT;
             kiloes = undefined;
-            if(!(output === sizing)) { _fun00002_ip = 1208; continue _fun00001 }
- 1202:
+            if(!(output === sizing)) { _fun00002_ip = 1224; continue _fun00001 }
+ 1218:
             kiloes = update.midnightRightOverflow;
- 1208:
+ 1224:
             backup[3] = kiloes;
             yankee['style'] = backup;
             backup = !status;
-            if(backup) { _fun00002_ip = 1224; continue _fun00001 }
- 1222:
-            backup = undefined;
- 1224:
-            yankee['accessibilityElementsHidden'] = backup;
-            backup = 'no-hide-descendants';
-            if(!status) { _fun00002_ip = 1240; continue _fun00001 }
+            if(backup) { _fun00002_ip = 1240; continue _fun00001 }
  1238:
             backup = undefined;
  1240:
+            yankee['accessibilityElementsHidden'] = backup;
+            backup = 'no-hide-descendants';
+            if(!status) { _fun00002_ip = 1256; continue _fun00001 }
+ 1254:
+            backup = undefined;
+ 1256:
             yankee['importantForAccessibility'] = backup;
             output = _closure1_slot14;
             sizing = _closure1_slot0;

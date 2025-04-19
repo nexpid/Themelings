@@ -155,9 +155,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         zuuluu = michal.heartbeatInterval;
                         michal = zuuluu.isStarted;
                         michal = michal.bind(zuuluu)();
-                        if(michal) { _fun00006_ip = 97; continue _fun00005 }
+                        if(michal) { _fun00006_ip = 107; continue _fun00005 }
  26:
                         entity = _closure3_slot0;
+                        michal = entity.trackHeartbeat;
+                        michal = michal.bind(entity)();
                         tangon = entity.heartbeatInterval;
                         zuuluu = tangon.start;
                         oscard = _closure1_slot1;
@@ -172,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal = michal * report;
                         entity = entity.trackHeartbeat;
                         entity = zuuluu.bind(tangon)(michal, entity);
- 97:
+ 107:
                         entity = undefined;
                         return entity;
                     }
@@ -254,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal['client_ad_session_id'] = golfie;
                         oscard = oscard.initialized;
                         michal['client_heartbeat_initialization_timestamp'] = oscard;
-                        oscard = 1;
+                        oscard = 2;
                         michal['client_heartbeat_version'] = oscard;
                         michal = tangon.bind(report)(zuuluu, michal);
                         return entity;
@@ -308,7 +310,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         verify = offset.initialized;
  156:
                         tangon['client_heartbeat_initialization_timestamp'] = verify;
-                        verify = 1;
+                        verify = 2;
                         tangon['client_heartbeat_version'] = verify;
                         tangon['reason'] = option;
                         tangon = oscard.bind(golfie)(report, tangon);
@@ -500,9 +502,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = zuuluu.handleLogout;
             michal = 'LOGOUT';
             michal = report.bind(oscard)(michal, tangon);
-            tangon = zuuluu.trackHeartbeat;
-            michal = true;
-            michal = tangon.bind(zuuluu)(michal);
             michal = zuuluu.scheduleHeartbeatTracking;
             michal = michal.bind(zuuluu)();
             return entity;

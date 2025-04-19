@@ -1,20 +1,19 @@
 // app/modules/channel/useChannelName.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    option = argBar;
-    offset = argBaz;
+    verify = argBar;
+    yankee = argBaz;
     zuuluu = argFre;
-    verify = argPlu;
-    var _closure1_slot0 = option;
-    var _closure1_slot1 = offset;
-    var _closure1_slot2 = verify;
-    oscard = function(argFoo, argBar, argBaz) { // Original name: computeDefaultGroupDmName
+    offset = argPlu;
+    var _closure1_slot0 = verify;
+    var _closure1_slot1 = yankee;
+    var _closure1_slot2 = offset;
+    golfie = function(argFoo, argBar, argBaz) { // Original name: computeDefaultGroupDmNameFromUserIds
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
+            tangon = argFoo;
             verify = argBar;
             michal = argBaz;
             var _closure2_slot0 = michal;
-            michal = argFoo;
-            tangon = michal.recipients;
             zuuluu = tangon.map;
             michal = verify.getUser;
             tangon = zuuluu.bind(tangon)(michal);
@@ -54,8 +53,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = michal.bind(zuuluu)(entity);
             michal = tangon.length;
             entity = 0;
-            if(!(!(michal > entity))) { _fun00002_ip = 206; continue _fun00001 }
- 104:
+            if(!(!(michal > entity))) { _fun00002_ip = 200; continue _fun00001 }
+ 98:
             michal = _closure1_slot0;
             offset = _closure1_slot2;
             entity = 7;
@@ -78,16 +77,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie.bind(option)(oscard);
             entity['name'] = oscard;
             entity = zuuluu.bind(report)(michal, entity);
-            _fun00002_ip = 222; continue _fun00001;
- 206:
+            _fun00002_ip = 216; continue _fun00001;
+ 200:
             zuuluu = tangon.join;
             michal = ', ';
             entity = zuuluu.bind(tangon)(michal);
- 222:
+ 216:
             return entity;
         }
     };
-    var _closure1_slot8 = oscard;
+    var _closure1_slot8 = golfie;
+    oscard = function(argFoo, argBar, argBaz) { // Original name: computeDefaultGroupDmName
+        report = _closure1_slot8;
+        entity = argFoo;
+        tangon = entity.recipients;
+        zuuluu = undefined;
+        michal = argBar;
+        entity = argBaz;
+        entity = report.bind(zuuluu)(tangon, michal, entity);
+        return entity;
+    };
+    var _closure1_slot9 = oscard;
     report = function(argFoo, argBar, argBaz) { // Original name: computeChannelName
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -177,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  284:
             _fun00006_ip = 329; continue _fun00005;
  286:
-            verify = _closure1_slot10;
+            verify = _closure1_slot11;
             oscard = michal.name;
             yankee = verify.bind(golfie)(oscard);
             oscard = global;
@@ -207,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = '';
             if(!(tangon === oscard)) { _fun00006_ip = 394; continue _fun00005 }
  381:
-            tangon = _closure1_slot8;
+            tangon = _closure1_slot9;
             tangon = tangon.bind(golfie)(michal, entity, option);
             _fun00006_ip = 399; continue _fun00005;
  394:
@@ -278,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot9 = report;
+    var _closure1_slot10 = report;
     tangon = function(argFoo) { // Original name: escapeChannelName
         tangon = argFoo;
         zuuluu = tangon.replace;
@@ -291,44 +301,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot10 = tangon;
+    var _closure1_slot11 = tangon;
     entity = global;
-    romeon = entity.Object;
-    yankee = romeon.defineProperty;
-    golfie = {};
+    foxtra = entity.Object;
+    romeon = foxtra.defineProperty;
+    option = {};
     entity = true;
-    golfie['value'] = entity;
+    option['value'] = entity;
     entity = '__esModule';
-    entity = yankee.bind(romeon)(zuuluu, entity, golfie);
+    entity = romeon.bind(foxtra)(zuuluu, entity, option);
     entity = 0;
-    golfie = verify[entity];
+    option = offset[entity];
     entity = undefined;
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot3 = golfie;
-    golfie = 1;
-    golfie = verify[golfie];
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot4 = golfie;
-    golfie = 2;
-    golfie = verify[golfie];
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot5 = golfie;
-    golfie = 3;
-    golfie = verify[golfie];
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot6 = golfie;
-    golfie = 4;
-    golfie = verify[golfie];
-    golfie = option.bind(entity)(golfie);
-    golfie = golfie.ChannelTypes;
-    var _closure1_slot7 = golfie;
-    golfie = 9;
-    golfie = verify[golfie];
-    verify = option.bind(entity)(golfie);
-    option = verify.fileFinishedImporting;
-    golfie = 'modules/channel/useChannelName.tsx';
-    golfie = option.bind(verify)(golfie);
-    golfie = function(argFoo) { // Original name: useChannelName
+    option = yankee.bind(entity)(option);
+    var _closure1_slot3 = option;
+    option = 1;
+    option = offset[option];
+    option = yankee.bind(entity)(option);
+    var _closure1_slot4 = option;
+    option = 2;
+    option = offset[option];
+    option = yankee.bind(entity)(option);
+    var _closure1_slot5 = option;
+    option = 3;
+    option = offset[option];
+    option = yankee.bind(entity)(option);
+    var _closure1_slot6 = option;
+    option = 4;
+    option = offset[option];
+    option = verify.bind(entity)(option);
+    option = option.ChannelTypes;
+    var _closure1_slot7 = option;
+    option = 9;
+    option = offset[option];
+    offset = verify.bind(entity)(option);
+    verify = offset.fileFinishedImporting;
+    option = 'modules/channel/useChannelName.tsx';
+    option = verify.bind(offset)(option);
+    option = function(argFoo) { // Original name: useChannelName
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             michal = arguments[1];
@@ -361,7 +371,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = entity == zuuluu;
                     if(zuuluu) { _fun00010_ip = 45; continue _fun00009 }
  16:
-                    golfie = _closure1_slot9;
+                    golfie = _closure1_slot10;
                     yankee = _closure2_slot0;
                     offset = _closure1_slot6;
                     verify = _closure1_slot5;
@@ -376,7 +386,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['default'] = golfie;
+    zuuluu['default'] = option;
+    zuuluu['computeDefaultGroupDmNameFromUserIds'] = golfie;
     zuuluu['computeDefaultGroupDmName'] = oscard;
     oscard = function(argFoo) { // Original name: useComputedGroupDmName
         michal = argFoo;
@@ -408,7 +419,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = null;
                 if(!michal) { _fun00012_ip = 65; continue _fun00011 }
  37:
-                oscard = _closure1_slot8;
+                oscard = _closure1_slot9;
                 report = _closure2_slot0;
                 tangon = _closure1_slot6;
                 zuuluu = _closure1_slot5;
