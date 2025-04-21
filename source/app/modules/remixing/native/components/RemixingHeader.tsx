@@ -1115,8 +1115,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 foxtra = _closure1_slot24;
                 foxtra = foxtra.navbarRight;
                 romeon['style'] = foxtra;
-                if(!output) { _fun00004_ip = 1955; continue _fun00003 }
- 1541:
+                if(!output) { _fun00004_ip = 1951; continue _fun00003 }
+ 1537:
                 update = _closure1_slot23;
                 echoed = _closure1_slot22;
                 foxtra = {};
@@ -1151,10 +1151,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 papara = {};
                 status = 0.3;
                 target = status;
-                if(!whisks) { _fun00004_ip = 1700; continue _fun00003 }
- 1697:
+                if(!whisks) { _fun00004_ip = 1696; continue _fun00003 }
+ 1693:
                 target = sierra;
- 1700:
+ 1696:
                 papara['opacity'] = target;
                 ctrled['iconStyle'] = papara;
                 papara = _closure1_slot24;
@@ -1201,10 +1201,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 whisks = new Array(1);
                 whisks[0] = equals;
                 target['transform'] = whisks;
-                if(!limora) { _fun00004_ip = 1912; continue _fun00003 }
- 1909:
+                if(!limora) { _fun00004_ip = 1908; continue _fun00003 }
+ 1905:
                 status = sierra;
- 1912:
+ 1908:
                 target['opacity'] = status;
                 vacuum['iconStyle'] = target;
                 target = _closure1_slot24;
@@ -1214,14 +1214,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 ctrled[1] = vacuum;
                 foxtra['children'] = ctrled;
                 output = update.bind(tangon)(echoed, foxtra);
- 1955:
+ 1951:
                 foxtra = new Array(3);
                 foxtra[0] = output;
                 output = _closure1_slot10;
                 output = output.bind(tangon)(sizing);
                 output = !output;
-                if(!output) { _fun00004_ip = 2128; continue _fun00003 }
- 1981:
+                if(!output) { _fun00004_ip = 2124; continue _fun00003 }
+ 1977:
                 update = _closure1_slot21;
                 record = _closure1_slot1;
                 ctrled = _closure1_slot3;
@@ -1254,15 +1254,15 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 result['style'] = ctrled;
                 result['disabled'] = source;
                 output = update.bind(tangon)(echoed, result);
- 2128:
+ 2124:
                 foxtra[1] = output;
                 backup = _closure1_slot15;
                 backup = backup.bind(tangon)(sizing);
                 backup = !backup;
-                if(!backup) { _fun00004_ip = 2150; continue _fun00003 }
- 2147:
+                if(!backup) { _fun00004_ip = 2146; continue _fun00003 }
+ 2143:
                 backup = kiloes;
- 2150:
+ 2146:
                 foxtra[2] = backup;
                 romeon['children'] = foxtra;
                 romeon = offset.bind(tangon)(verify, romeon);

@@ -13,7 +13,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = argFoo;
             oscard = entity.result;
             entity = null;
-            if(!(entity != oscard)) { _fun00002_ip = 582; continue _fun00001 }
+            if(!(entity != oscard)) { _fun00002_ip = 586; continue _fun00001 }
  18:
             tangon = oscard.type;
             golfie = _closure1_slot0;
@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = golfie.bind(report)(zuuluu);
             zuuluu = zuuluu.AutocompleterResultTypes;
             zuuluu = zuuluu.GUILD;
-            if(!(zuuluu !== tangon)) { _fun00002_ip = 554; continue _fun00001 }
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 558; continue _fun00001 }
  67:
             golfie = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['channel'] = option;
             zuuluu = golfie.bind(report)(tangon, zuuluu);
             return zuuluu;
- 554:
+ 558:
             tangon = _closure1_slot9;
             zuuluu = _closure1_slot14;
             michal = {};
@@ -153,7 +153,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['guild'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 582:
+ 586:
             return entity;
         }
     };

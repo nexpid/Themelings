@@ -68,46 +68,46 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = null;
             entity = oscard == option;
             verify = undefined;
-            if(entity) { _fun00002_ip = 143; continue _fun00001 }
- 133:
+            if(entity) { _fun00002_ip = 145; continue _fun00001 }
+ 135:
             entity = option.isStaff;
             verify = entity.bind(option)();
- 143:
+ 145:
             option = true;
             entity = null;
-            if(!(option === verify)) { _fun00002_ip = 242; continue _fun00001 }
- 151:
+            if(!(option === verify)) { _fun00002_ip = 244; continue _fun00001 }
+ 153:
             entity = null;
-            if(!michal) { _fun00002_ip = 242; continue _fun00001 }
- 156:
+            if(!michal) { _fun00002_ip = 244; continue _fun00001 }
+ 158:
             michal = golfie.isDM;
             michal = michal.bind(golfie)();
             entity = null;
-            if(!michal) { _fun00002_ip = 242; continue _fun00001 }
- 171:
+            if(!michal) { _fun00002_ip = 244; continue _fun00001 }
+ 173:
             michal = {};
             golfie = oscard == report;
             option = undefined;
-            if(golfie) { _fun00002_ip = 187; continue _fun00001 }
- 182:
+            if(golfie) { _fun00002_ip = 189; continue _fun00001 }
+ 184:
             option = report.type;
- 187:
+ 189:
             golfie = _closure1_slot3;
             golfie = golfie.INAPPROPRIATE_CONVERSATION_TIER_1;
             golfie = option === golfie;
             michal['isTier1'] = golfie;
             oscard = oscard == report;
             tangon = undefined;
-            if(oscard) { _fun00002_ip = 220; continue _fun00001 }
- 215:
+            if(oscard) { _fun00002_ip = 222; continue _fun00001 }
+ 217:
             tangon = report.type;
- 220:
+ 222:
             zuuluu = _closure1_slot3;
             zuuluu = zuuluu.INAPPROPRIATE_CONVERSATION_TIER_2;
             zuuluu = tangon === zuuluu;
             michal['isTier2'] = zuuluu;
             entity = michal;
- 242:
+ 244:
             return entity;
         }
     };

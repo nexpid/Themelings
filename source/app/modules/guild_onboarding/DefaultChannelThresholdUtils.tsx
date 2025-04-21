@@ -20,29 +20,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     golfie = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 71; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 67; continue _fun00001 }
  10:
                     michal = null;
                     michal = michal == golfie;
-                    if(michal) { _fun00002_ip = 68; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 64; continue _fun00001 }
  19:
                     oscard = _closure1_slot13;
                     report = undefined;
                     tangon = argBar;
                     zuuluu = {'removingView': true, 'removingChat': true};
                     zuuluu = oscard.bind(report)(golfie, tangon, zuuluu);
-                    SaveGenerator(address=56);
- 54:
+                    SaveGenerator(address=52);
+ 50:
                     return zuuluu;
- 56:
+ 52:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
                     michal = zuuluu;
-                    if(!tangon) { _fun00002_ip = 68; continue _fun00001 }
- 65:
+                    if(!tangon) { _fun00002_ip = 64; continue _fun00001 }
+ 61:
                     return zuuluu;
- 68:
+ 64:
                     return michal;
- 71:
+ 67:
                     return entity;
                 }
             };

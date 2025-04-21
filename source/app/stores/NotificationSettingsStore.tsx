@@ -99,13 +99,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         offset = oscard[offset];
         offset = report.bind(entity)(offset);
         offset = offset.isPlatformEmbedded;
-        if(offset) { _fun00002_ip = 234; continue _fun00001 }
- 226:
+        if(offset) { _fun00002_ip = 238; continue _fun00001 }
+ 230:
         offset = yankee.NEVER;
-        _fun00002_ip = 240; continue _fun00001;
- 234:
+        _fun00002_ip = 244; continue _fun00001;
+ 238:
         offset = yankee.ALL;
- 240:
+ 244:
         michal['desktopType'] = offset;
         offset = new Array(0);
         michal['disabledSounds'] = offset;
