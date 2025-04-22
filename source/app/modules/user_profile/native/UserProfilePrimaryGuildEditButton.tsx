@@ -133,9 +133,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             var _closure2_slot3 = entity;
             entity = null;
-            if(!(entity != michal)) { _fun00002_ip = 789; continue _fun00001 }
+            if(!(entity != michal)) { _fun00002_ip = 801; continue _fun00001 }
  149:
-            if(!verify) { _fun00002_ip = 789; continue _fun00001 }
+            if(!verify) { _fun00002_ip = 801; continue _fun00001 }
  155:
             michal = entity == output;
             foxtra = undefined;
@@ -300,7 +300,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['leading'] = golfie;
             option = entity != foxtra;
             golfie = null;
-            if(!option) { _fun00002_ip = 772; continue _fun00001 }
+            if(!option) { _fun00002_ip = 784; continue _fun00001 }
  650:
             offset = _closure1_slot6;
             verify = _closure1_slot0;
@@ -318,7 +318,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = {};
             backup['lineHeight'] = kiloes;
             option['textStyle'] = backup;
-            foxtra = foxtra.tag;
+            backup = foxtra.tag;
+            kiloes = entity != backup;
+            foxtra = undefined;
+            if(!kiloes) { _fun00002_ip = 733; continue _fun00001 }
+ 730:
+            foxtra = backup;
+ 733:
             option['clanTag'] = foxtra;
             option['clanBadge'] = romeon;
             yankee = _closure1_slot5;
@@ -329,12 +335,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = 'header-secondary';
             option['textColor'] = yankee;
             golfie = offset.bind(report)(verify, option);
- 772:
+ 784:
             michal['trailing'] = golfie;
             michal['disabled'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 789:
+ 801:
             return entity;
         }
     };

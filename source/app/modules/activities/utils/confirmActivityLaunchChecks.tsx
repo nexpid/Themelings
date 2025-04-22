@@ -29,44 +29,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 362; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 383; continue _fun00001 }
  13:
                     offset = michal.applicationId;
-                    yankee = michal.channelId;
-                    tangon = michal.guildId;
-                    report = michal.isContextless;
+                    foxtra = michal.channelId;
+                    yankee = michal.guildId;
+                    tangon = michal.isContextless;
                     zuuluu = undefined;
                     golfie = undefined;
                     SaveGenerator(address=42);
  40:
                     return zuuluu;
  42:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 359; continue _fun00001 }
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(report) { _fun00002_ip = 380; continue _fun00001 }
  51: // try_start_0
-                    verify = _closure1_slot1;
-                    romeon = _closure1_slot2;
-                    oscard = 4;
-                    oscard = romeon[oscard];
-                    romeon = verify.bind(zuuluu)(oscard);
-                    verify = offset;
-                    oscard = yankee;
-                    oscard = romeon.bind(zuuluu)(verify, oscard);
+                    oscard = _closure1_slot1;
+                    verify = _closure1_slot2;
+                    report = 4;
+                    report = verify[report];
+                    verify = oscard.bind(zuuluu)(report);
+                    oscard = offset;
+                    report = foxtra;
+                    report = verify.bind(zuuluu)(oscard, report);
                     SaveGenerator(address=90);
  88:
-                    return oscard;
+                    return report;
  90:
-                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=8);
-                    if(verify) { _fun00002_ip = 99; continue _fun00001 }
+                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
+                    if(oscard) { _fun00002_ip = 99; continue _fun00001 }
  96: // try_end0
-                    return oscard;
+                    return report;
  99:
-                    return oscard;
+                    return report;
  102: // catch_target0
                     CatchBlockStart(arg_register=7);
-                    if(report) { _fun00002_ip = 190; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 190; continue _fun00001 }
  107:
-                    report = tangon;
+                    report = yankee;
                     tangon = null;
                     if(!(tangon == report)) { _fun00002_ip = 153; continue _fun00001 }
  116:
@@ -106,33 +106,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = oscard.dispatch;
                     tangon = {'type': 'EMBEDDED_ACTIVITY_LAUNCH_FAIL', 'nonce': ''};
                     tangon['applicationId'] = offset;
-                    romeon = yankee;
+                    romeon = foxtra;
                     offset = null;
+                    backup = offset != romeon;
+                    romeon = null;
+                    if(!backup) { _fun00002_ip = 291; continue _fun00001 }
+ 288:
+                    romeon = foxtra;
+ 291:
+                    tangon['channelId'] = romeon;
+                    romeon = yankee;
                     romeon = offset != romeon;
-                    if(!romeon) { _fun00002_ip = 289; continue _fun00001 }
- 286:
+                    offset = null;
+                    if(!romeon) { _fun00002_ip = 310; continue _fun00001 }
+ 307:
                     offset = yankee;
- 289:
-                    tangon['channelId'] = offset;
+ 310:
+                    tangon['guildId'] = offset;
                     offset = _closure1_slot0;
                     yankee = _closure1_slot2;
                     verify = 7;
                     verify = yankee[verify];
                     verify = offset.bind(zuuluu)(verify);
                     offset = verify.APIError;
-                    backup = option;
+                    sizing = option;
                     verify = offset.prototype;
                     verify = Object.create(verify, {constructor: {value: offset}});
-                    kiloes = verify;
-                    option = new kiloes[offset](backup, foxtra);
+                    output = verify;
+                    option = new output[offset](sizing, kiloes);
                     option = option instanceof Object ? option : verify;
                     tangon['error'] = option;
                     tangon['locationKind'] = golfie;
                     tangon = report.bind(oscard)(tangon);
                     return zuuluu;
- 359:
+ 380:
                     return michal;
- 362:
+ 383:
                     return entity;
                 }
             };

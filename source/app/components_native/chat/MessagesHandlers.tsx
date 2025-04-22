@@ -3454,7 +3454,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = report.getMessageData;
                     zuuluu = zuuluu.bind(report)(oscard);
                     foxtra = null;
-                    if(!(foxtra != zuuluu)) { _fun00080_ip = 555; continue _fun00079 }
+                    if(!(foxtra != zuuluu)) { _fun00080_ip = 565; continue _fun00079 }
  88:
                     oscard = zuuluu.message;
                     report = _closure3_slot0;
@@ -3475,7 +3475,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  150:
                     zuuluu = report[option];
  154:
-                    if(!(foxtra != zuuluu)) { _fun00080_ip = 555; continue _fun00079 }
+                    if(!(foxtra != zuuluu)) { _fun00080_ip = 565; continue _fun00079 }
  161:
                     option = zuuluu.type;
                     verify = _closure1_slot0;
@@ -3494,19 +3494,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = verify.bind(entity)(report);
                     report = report.CodedLinkType;
                     report = report.QUESTS_EMBED;
-                    if(!(option === report)) { _fun00080_ip = 555; continue _fun00079 }
+                    if(!(option === report)) { _fun00080_ip = 565; continue _fun00079 }
  243:
                     verify = _closure3_slot0;
                     option = verify._questsEmbedOnAccept;
                     report = zuuluu.code;
                     report = option.bind(verify)(report);
-                    _fun00080_ip = 555; continue _fun00079;
+                    _fun00080_ip = 565; continue _fun00079;
  268:
                     option = _closure1_slot27;
                     report = option.getInvite;
                     zuuluu = zuuluu.code;
                     verify = report.bind(option)(zuuluu);
-                    if(!(foxtra != verify)) { _fun00080_ip = 557; continue _fun00079 }
+                    if(!(foxtra != verify)) { _fun00080_ip = 567; continue _fun00079 }
  295:
                     report = _closure1_slot22;
                     zuuluu = report.getId;
@@ -3565,9 +3565,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = {};
                     zuuluu['invite'] = verify;
                     zuuluu['action'] = option;
-                    oscard = oscard.author;
+                    option = oscard.author;
+                    option = option.id;
+                    zuuluu['inviter_id'] = option;
                     oscard = oscard.id;
-                    zuuluu['inviter_id'] = oscard;
+                    zuuluu['invite_message_id'] = oscard;
                     oscard = _closure1_slot1;
                     michal = 70;
                     michal = golfie[michal];
@@ -3576,9 +3578,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = new Array(1);
                     michal[0] = oscard;
                     michal = tangon.bind(report)(zuuluu, michal);
- 555:
+ 565:
                     return entity;
- 557:
+ 567:
                     return entity;
                 }
             };

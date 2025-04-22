@@ -352,22 +352,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = 'initialize';
         entity['key'] = oscard;
         oscard = function(argFoo) { // Original name: value
-            oscard = argFoo;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 6;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.getSearchContextId;
-            report = zuuluu.bind(tangon)(oscard);
-            zuuluu = this;
-            tangon = zuuluu.sessions;
-            zuuluu = tangon.set;
-            michal = _closure1_slot5;
-            michal = michal.bind(entity)(oscard);
-            michal = zuuluu.bind(tangon)(report, michal);
-            return entity;
+            _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+ 0:
+                oscard = argFoo;
+                zuuluu = this;
+                report = _closure1_slot0;
+                tangon = _closure1_slot2;
+                entity = 6;
+                tangon = tangon[entity];
+                entity = undefined;
+                report = report.bind(entity)(tangon);
+                tangon = report.getSearchContextId;
+                report = tangon.bind(report)(oscard);
+                golfie = zuuluu.sessions;
+                tangon = golfie.has;
+                tangon = tangon.bind(golfie)(report);
+                if(tangon) { _fun00016_ip = 87; continue _fun00015 }
+ 61:
+                tangon = zuuluu.sessions;
+                zuuluu = tangon.set;
+                michal = _closure1_slot5;
+                michal = michal.bind(entity)(oscard);
+                michal = zuuluu.bind(tangon)(report, michal);
+ 87:
+                return entity;
+            }
         };
         entity['value'] = oscard;
         michal[9] = entity;

@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.getMediaEngineConnectionId;
             oscard = michal.bind(zuuluu)();
  40:
-            if(!(entity != oscard)) { _fun00002_ip = 244; continue _fun00001 }
+            if(!(entity != oscard)) { _fun00002_ip = 265; continue _fun00001 }
  47:
             zuuluu = _closure1_slot3;
             michal = zuuluu.isVideoEnabled;
@@ -64,43 +64,47 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.bind(report)(oscard, michal);
             report = entity == zuuluu;
             michal = null;
-            if(report) { _fun00002_ip = 242; continue _fun00001 }
- 121:
+            if(report) { _fun00002_ip = 263; continue _fun00001 }
+ 124:
             report = zuuluu.short;
             oscard = report.frameRate;
             report = 10;
-            if(!(!(oscard < report))) { _fun00002_ip = 161; continue _fun00001 }
- 140:
+            if(!(!(oscard < report))) { _fun00002_ip = 164; continue _fun00001 }
+ 143:
             zuuluu = zuuluu.long;
             zuuluu = zuuluu.frameRate;
             report = zuuluu < report;
             zuuluu = undefined;
-            if(!report) { _fun00002_ip = 239; continue _fun00001 }
- 161:
+            if(!report) { _fun00002_ip = 260; continue _fun00001 }
+ 164:
             report = {};
             oscard = _closure1_slot0;
             option = _closure1_slot1;
-            tangon = 4;
-            tangon = option[tangon];
-            tangon = oscard.bind(golfie)(tangon);
-            tangon = tangon.AVError;
-            tangon = tangon.CAMERA_SEND_LOW_FPS;
-            report['type'] = tangon;
+            verify = 4;
+            verify = option[verify];
+            verify = oscard.bind(golfie)(verify);
+            verify = verify.AVError;
+            verify = verify.CAMERA_SEND_LOW_FPS;
+            report['type'] = verify;
+            verify = _closure1_slot2;
+            tangon = verify.getId;
+            tangon = tangon.bind(verify)();
+            report['userId'] = tangon;
             tangon = 5;
             tangon = option[tangon];
             oscard = oscard.bind(golfie)(tangon);
             tangon = oscard.getVoiceChannelErrorContext;
-            verify = tangon.bind(oscard)();
-            offset = report;
-            tangon = copyDataProperties(offset, verify);
+            offset = tangon.bind(oscard)();
+            yankee = report;
+            tangon = copyDataProperties(yankee, offset);
             tangon = new Array(1);
             tangon[0] = report;
             zuuluu = tangon;
- 239:
+ 260:
             michal = zuuluu;
- 242:
+ 263:
             return michal;
- 244:
+ 265:
             return entity;
         }
     };

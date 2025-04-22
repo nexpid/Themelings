@@ -1189,7 +1189,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00030_ip = 639; continue _fun00029 }
+                    if(zuuluu) { _fun00030_ip = 643; continue _fun00029 }
  10:
                     offset = undefined;
                     sizing = undefined;
@@ -1265,13 +1265,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     output['icon'] = result;
                     tangon['body'] = output;
                     tangon = backup.bind(kiloes)(tangon);
-                    SaveGenerator(address=297);
- 295:
+                    SaveGenerator(address=301);
+ 299:
                     return tangon;
- 297:
+ 301:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=13);
-                    if(backup) { _fun00030_ip = 472; continue _fun00029 }
- 306:
+                    if(backup) { _fun00030_ip = 476; continue _fun00029 }
+ 310:
                     report = tangon;
                     kiloes = _closure1_slot1;
                     backup = _closure1_slot2;
@@ -1290,30 +1290,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     backup = sizing;
                     backup = yankee == backup;
                     kiloes = undefined;
-                    if(backup) { _fun00030_ip = 393; continue _fun00029 }
- 380:
+                    if(backup) { _fun00030_ip = 397; continue _fun00029 }
+ 384:
                     output = sizing;
                     backup = output.getGuildId;
                     kiloes = backup.bind(output)();
- 393:
+ 397:
                     option = kiloes;
                     kiloes = yankee == kiloes;
                     backup = kiloes;
-                    if(kiloes) { _fun00030_ip = 435; continue _fun00029 }
- 406:
+                    if(kiloes) { _fun00030_ip = 439; continue _fun00029 }
+ 410:
                     output = sizing;
                     output = yankee != output;
                     kiloes = output;
-                    if(!output) { _fun00030_ip = 432; continue _fun00029 }
- 419:
+                    if(!output) { _fun00030_ip = 436; continue _fun00029 }
+ 423:
                     output = sizing;
                     sizing = output.isThread;
                     kiloes = sizing.bind(output)();
- 432:
+ 436:
                     backup = kiloes;
- 435:
-                    if(backup) { _fun00030_ip = 469; continue _fun00029 }
- 438:
+ 439:
+                    if(backup) { _fun00030_ip = 473; continue _fun00029 }
+ 442:
                     kiloes = _closure1_slot1;
                     sizing = _closure1_slot2;
                     backup = 19;
@@ -1321,11 +1321,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     kiloes = kiloes.bind(offset)(backup);
                     backup = kiloes.checkGuildTemplateDirty;
                     option = backup.bind(kiloes)(option);
- 469: // try_end0
+ 473: // try_end0
                     return report;
- 472:
+ 476:
                     return tangon;
- 475: // catch_target0
+ 479: // catch_target0
                     CatchBlockStart(arg_register=7);
                     michal = option;
                     report = _closure1_slot1;
@@ -1343,39 +1343,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu[foxtra] = romeon;
                     romeon = yankee == option;
                     option = undefined;
-                    if(romeon) { _fun00030_ip = 570; continue _fun00029 }
- 544:
+                    if(romeon) { _fun00030_ip = 574; continue _fun00029 }
+ 548:
                     romeon = michal;
                     romeon = romeon.body;
                     verify = romeon;
                     romeon = yankee == romeon;
                     option = undefined;
-                    if(romeon) { _fun00030_ip = 570; continue _fun00029 }
- 564:
+                    if(romeon) { _fun00030_ip = 574; continue _fun00029 }
+ 568:
                     option = verify.retry_after;
- 570:
+ 574:
                     verify = yankee != option;
                     option = 'is_rate_limited';
                     zuuluu[option] = verify;
                     option = michal;
                     verify = yankee == option;
                     option = undefined;
-                    if(verify) { _fun00030_ip = 622; continue _fun00029 }
- 597:
+                    if(verify) { _fun00030_ip = 626; continue _fun00029 }
+ 601:
                     verify = michal;
                     verify = verify.body;
                     golfie = verify;
                     verify = yankee == verify;
                     option = undefined;
-                    if(verify) { _fun00030_ip = 622; continue _fun00029 }
- 617:
+                    if(verify) { _fun00030_ip = 626; continue _fun00029 }
+ 621:
                     option = golfie.message;
- 622:
+ 626:
                     golfie = 'error_message';
                     zuuluu[golfie] = option;
                     zuuluu = report.bind(oscard)(tangon, zuuluu);
                     throw michal;
- 639:
+ 643:
                     return entity;
                 }
             };

@@ -510,6 +510,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['NOTIFICATION_CENTER_ITEM_DELETE'] = report;
     report = 'network_action_notification_center_page_fetch';
     michal['NOTIFICATION_CENTER_PAGE_FETCH'] = report;
+    report = 'network_action_password_validate';
+    michal['PASSWORD_VALIDATE'] = report;
     report = 'network_action_pomelo_attempt';
     michal['POMELO_ATTEMPT'] = report;
     report = 'network_action_pomelo_create';

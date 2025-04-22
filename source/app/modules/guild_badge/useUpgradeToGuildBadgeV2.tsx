@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.BadgeCategory;
     verify = tangon.PARTNERED;
-    tangon = new Array(6);
+    tangon = new Array(5);
     tangon[0] = verify;
     verify = oscard[golfie];
     verify = report.bind(entity)(verify);
@@ -37,16 +37,11 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     verify = verify.BadgeCategory;
     verify = verify.COMMUNITY;
     tangon[3] = verify;
-    verify = oscard[golfie];
-    verify = report.bind(entity)(verify);
-    verify = verify.BadgeCategory;
-    verify = verify.DISCOVERABLE;
-    tangon[4] = verify;
     golfie = oscard[golfie];
     golfie = report.bind(entity)(golfie);
     golfie = golfie.BadgeCategory;
-    golfie = golfie.CLAN;
-    tangon[5] = golfie;
+    golfie = golfie.DISCOVERABLE;
+    tangon[4] = golfie;
     golfie = option.prototype;
     golfie = Object.create(golfie, {constructor: {value: option}});
     foxtra = golfie;

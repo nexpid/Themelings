@@ -173,14 +173,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = oscard.COMMUNITY;
             golfie = verify.bind(option)(golfie);
             entity['community'] = golfie;
-            verify = option.has;
-            golfie = oscard.INTERNAL_EMPLOYEE_ONLY;
-            golfie = verify.bind(option)(golfie);
-            entity['staff'] = golfie;
             golfie = option.has;
-            oscard = oscard.CLAN;
+            oscard = oscard.INTERNAL_EMPLOYEE_ONLY;
             oscard = golfie.bind(option)(oscard);
-            entity['clan'] = oscard;
+            entity['staff'] = oscard;
             entity['visibility'] = report;
             entity['premium'] = tangon;
             entity['premiumSubscriberCount'] = zuuluu;

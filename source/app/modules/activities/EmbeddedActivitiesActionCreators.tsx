@@ -18,225 +18,283 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 1700; continue _fun00001 }
+                    if(golfie) { _fun00002_ip = 1934; continue _fun00001 }
  15:
-                    romeon = michal.channelId;
+                    golfie = michal.channelId;
                     foxtra = michal.applicationId;
                     verify = michal.isStart;
-                    variable36 = michal.analyticsLocations;
-                    quebec = michal.locationObject;
-                    result = michal.embeddedActivitiesManager;
-                    variable39 = michal.componentId;
-                    sequen = michal.commandOrigin;
-                    vacuum = michal.sectionName;
-                    ctrled = michal.source;
-                    equals = michal.partyId;
-                    source = michal.onExecutedCallback;
-                    whisks = michal.referrerId;
-                    variable40 = michal.customId;
-                    status = michal.joinUserId;
-                    target = michal.joinSessionId;
-                    papara = michal.secret;
-                    limora = michal.inviterUserId;
-                    config = michal.instanceId;
+                    variable38 = michal.analyticsLocations;
+                    variable37 = michal.locationObject;
+                    echoed = michal.embeddedActivitiesManager;
+                    variable41 = michal.componentId;
+                    record = michal.commandOrigin;
+                    config = michal.sectionName;
+                    sequen = michal.source;
+                    result = michal.partyId;
+                    vacuum = michal.onExecutedCallback;
+                    quebec = michal.referrerId;
+                    variable42 = michal.customId;
+                    limora = michal.joinUserId;
+                    sierra = michal.joinSessionId;
+                    status = michal.secret;
+                    equals = michal.inviterUserId;
+                    cntext = michal.instanceId;
                     tangon = michal.isContextlessActivity;
-                    echoed = michal.onConfirmActivityLaunchChecksAlertOpen;
+                    source = michal.onConfirmActivityLaunchChecksAlertOpen;
                     offset = undefined;
-                    sizing = undefined;
-                    zuuluu = undefined;
+                    variable36 = undefined;
                     update = undefined;
+                    output = undefined;
+                    zuuluu = undefined;
                     backup = undefined;
-                    variable38 = undefined;
+                    romeon = undefined;
+                    ctrled = undefined;
                     kiloes = undefined;
-                    record = undefined;
+                    variable40 = undefined;
+                    sizing = undefined;
+                    papara = undefined;
                     oscard = undefined;
-                    SaveGenerator(address=160);
- 158:
+                    SaveGenerator(address=168);
+ 166:
                     return offset;
- 160:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 1697; continue _fun00001 }
- 169:
-                    cntext = _closure1_slot9;
-                    output = cntext.getChannel;
-                    yankee = romeon;
-                    output = output.bind(cntext)(yankee);
-                    sizing = output;
+ 168:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=10);
+                    if(yankee) { _fun00002_ip = 1931; continue _fun00001 }
+ 177:
                     yankee = null;
-                    output = yankee == output;
-                    cntext = undefined;
-                    if(output) { _fun00002_ip = 216; continue _fun00001 }
- 203:
-                    sierra = sizing;
-                    output = sierra.getGuildId;
-                    cntext = output.bind(sierra)();
- 216:
-                    sierra = yankee != cntext;
-                    output = undefined;
-                    if(!sierra) { _fun00002_ip = 228; continue _fun00001 }
- 225:
-                    output = cntext;
- 228:
-                    zuuluu = output;
-                    cntext = _closure1_slot0;
-                    sierra = _closure1_slot2;
-                    output = 17;
-                    output = sierra[output];
-                    cntext = cntext.bind(offset)(output);
-                    output = cntext.getIsContextlessActivitiesExperimentEnabled;
-                    output = output.bind(cntext)();
-                    update = output;
-                    if(output) { _fun00002_ip = 311; continue _fun00001 }
- 267:
-                    output = zuuluu;
-                    if(!(yankee == output)) { _fun00002_ip = 311; continue _fun00001 }
- 274:
-                    output = sizing;
-                    cntext = yankee == output;
-                    output = undefined;
-                    if(cntext) { _fun00002_ip = 299; continue _fun00001 }
- 286:
-                    sierra = sizing;
-                    cntext = sierra.isPrivate;
-                    output = cntext.bind(sierra)();
- 299:
-                    if(!(yankee != output)) { _fun00002_ip = 306; continue _fun00001 }
- 303:
-                    if(output) { _fun00002_ip = 311; continue _fun00001 }
- 306:
-                    output = false;
-                    return output;
+                    if(!(yankee == result)) { _fun00002_ip = 186; continue _fun00001 }
+ 183:
+                    result = cntext;
+ 186:
+                    variable36 = result;
+                    target = {};
+                    whisks = tangon;
+                    target['isContextlessActivity'] = whisks;
+                    whisks = cntext;
+                    target['instanceId'] = whisks;
+                    target['partyId'] = result;
+                    target['channelId'] = golfie;
+                    result = target.isContextlessActivity;
+                    golfie = target.instanceId;
+                    variable46 = target.partyId;
+                    target = target.channelId;
+                    if(result) { _fun00002_ip = 307; continue _fun00001 }
+ 242:
+                    whisks = _closure1_slot9;
+                    result = whisks.getChannel;
+                    whisks = result.bind(whisks)(target);
+                    result = yankee == whisks;
+                    variable39 = undefined;
+                    if(result) { _fun00002_ip = 278; continue _fun00001 }
+ 268:
+                    result = whisks.getGuildId;
+                    variable39 = result.bind(whisks)();
+ 278:
+                    variable43 = yankee != variable39;
+                    result = undefined;
+                    if(!variable43) { _fun00002_ip = 290; continue _fun00001 }
+ 287:
+                    result = variable39;
+ 290:
+                    variable43 = target;
+                    variable39 = whisks;
+                    whisks = result;
+                    target = variable43;
+                    result = whisks;
+                    _fun00002_ip = 380; continue _fun00001;
+ 307:
+                    if(!(yankee != golfie)) { _fun00002_ip = 314; continue _fun00001 }
  311:
-                    cntext = _closure1_slot0;
-                    sierra = _closure1_slot2;
-                    output = 18;
-                    output = sierra[output];
-                    cntext = cntext.bind(offset)(output);
-                    output = cntext.createNonce;
-                    backup = output.bind(cntext)();
- 341: // try_start_0
-                    sierra = _closure1_slot1;
-                    cntext = _closure1_slot2;
-                    output = 19;
-                    cntext = cntext[output];
-                    variable37 = sierra.bind(offset)(cntext);
-                    sierra = variable37.dispatch;
-                    cntext = {};
-                    variable41 = 'EMBEDDED_ACTIVITY_LAUNCH_START';
-                    cntext['type'] = variable41;
-                    variable41 = backup;
-                    cntext['nonce'] = variable41;
-                    variable41 = foxtra;
-                    cntext['applicationId'] = variable41;
-                    variable41 = romeon;
-                    variable42 = yankee != variable41;
-                    variable41 = null;
-                    if(!variable42) { _fun00002_ip = 406; continue _fun00001 }
- 403:
-                    variable41 = romeon;
- 406:
-                    cntext['channelId'] = variable41;
-                    cntext['componentId'] = variable39;
-                    variable39 = variable36;
-                    cntext['analyticsLocations'] = variable39;
-                    variable39 = ctrled;
-                    cntext['source'] = variable39;
-                    variable39 = sequen;
-                    cntext['commandOrigin'] = variable39;
-                    variable39 = limora;
-                    cntext['inviterUserId'] = variable39;
-                    variable39 = {};
-                    variable39['customId'] = variable40;
-                    variable40 = whisks;
-                    variable39['referrerId'] = variable40;
-                    cntext['launchParams'] = variable39;
-                    cntext = sierra.bind(variable37)(cntext);
-                    sierra = _closure1_slot12;
-                    cntext = sierra.getCurrentUser;
-                    cntext = cntext.bind(sierra)();
-                    variable38 = cntext;
-                    if(!(yankee != cntext)) { _fun00002_ip = 664; continue _fun00001 }
- 494:
-                    sierra = _closure1_slot1;
-                    variable37 = _closure1_slot2;
-                    cntext = 20;
-                    cntext = variable37[cntext];
-                    sierra = sierra.bind(offset)(cntext);
-                    cntext = {};
-                    variable37 = verify;
-                    variable39 = _closure1_slot18;
-                    if(variable37) { _fun00002_ip = 534; continue _fun00001 }
- 526:
-                    variable37 = variable39.JOIN;
-                    _fun00002_ip = 540; continue _fun00001;
- 534:
-                    variable37 = variable39.LAUNCH;
- 540:
-                    cntext['type'] = variable37;
+                    variable46 = golfie;
+ 314:
+                    if(!(yankee == variable46)) { _fun00002_ip = 330; continue _fun00001 }
+ 318:
+                    golfie = {};
+                    golfie['channelId'] = offset;
+                    golfie['guildId'] = offset;
+                    _fun00002_ip = 364; continue _fun00001;
+ 330:
+                    variable45 = _closure1_slot0;
+                    variable47 = _closure1_slot2;
+                    variable44 = 17;
+                    variable44 = variable47[variable44];
+                    variable45 = variable45.bind(offset)(variable44);
+                    variable44 = variable45.getStartingGuildChannelIdsForContextlessInstanceId;
+                    golfie = variable44.bind(variable45)(variable46);
+ 364:
+                    target = golfie.channelId;
+                    result = golfie.guildId;
+                    variable43 = undefined;
+                    variable39 = undefined;
+                    whisks = undefined;
+ 380:
+                    golfie = {};
+                    golfie['channelIdForLaunch'] = variable43;
+                    golfie['channelForLaunch'] = variable39;
+                    golfie['guildIdForLaunch'] = whisks;
+                    golfie['channelIdForAnalytics'] = target;
+                    golfie['guildIdForAnalytics'] = result;
+                    update = golfie.channelIdForLaunch;
+                    output = golfie.channelForLaunch;
+                    zuuluu = golfie.guildIdForLaunch;
+                    backup = golfie.channelIdForAnalytics;
+                    romeon = golfie.guildIdForAnalytics;
+                    target = _closure1_slot0;
+                    whisks = _closure1_slot2;
+                    result = 18;
+                    result = whisks[result];
+                    target = target.bind(offset)(result);
+                    result = target.getIsContextlessActivitiesExperimentEnabled;
+                    result = result.bind(target)();
+                    ctrled = result;
+                    if(result) { _fun00002_ip = 520; continue _fun00001 }
+ 476:
+                    result = zuuluu;
+                    if(!(yankee == result)) { _fun00002_ip = 520; continue _fun00001 }
+ 483:
+                    result = output;
+                    target = yankee == result;
+                    result = undefined;
+                    if(target) { _fun00002_ip = 508; continue _fun00001 }
+ 495:
+                    whisks = output;
+                    target = whisks.isPrivate;
+                    result = target.bind(whisks)();
+ 508:
+                    if(!(yankee != result)) { _fun00002_ip = 515; continue _fun00001 }
+ 512:
+                    if(result) { _fun00002_ip = 520; continue _fun00001 }
+ 515:
+                    result = false;
+                    return result;
+ 520:
+                    target = _closure1_slot0;
+                    whisks = _closure1_slot2;
+                    result = 19;
+                    result = whisks[result];
+                    target = target.bind(offset)(result);
+                    result = target.createNonce;
+                    kiloes = result.bind(target)();
+ 550: // try_start_0
+                    whisks = _closure1_slot1;
+                    target = _closure1_slot2;
+                    result = 20;
+                    target = target[result];
+                    variable39 = whisks.bind(offset)(target);
+                    whisks = variable39.dispatch;
+                    target = {};
+                    variable43 = 'EMBEDDED_ACTIVITY_LAUNCH_START';
+                    target['type'] = variable43;
+                    variable43 = kiloes;
+                    target['nonce'] = variable43;
+                    variable43 = foxtra;
+                    target['applicationId'] = variable43;
+                    variable43 = update;
+                    variable44 = yankee != variable43;
+                    variable43 = null;
+                    if(!variable44) { _fun00002_ip = 615; continue _fun00001 }
+ 612:
+                    variable43 = update;
+ 615:
+                    target['channelId'] = variable43;
+                    target['componentId'] = variable41;
+                    variable41 = variable38;
+                    target['analyticsLocations'] = variable41;
+                    variable41 = sequen;
+                    target['source'] = variable41;
+                    variable41 = record;
+                    target['commandOrigin'] = variable41;
+                    variable41 = equals;
+                    target['inviterUserId'] = variable41;
+                    variable41 = {};
+                    variable41['customId'] = variable42;
+                    variable42 = quebec;
+                    variable41['referrerId'] = variable42;
+                    target['launchParams'] = variable41;
+                    target = whisks.bind(variable39)(target);
+                    whisks = _closure1_slot12;
+                    target = whisks.getCurrentUser;
+                    target = target.bind(whisks)();
+                    variable40 = target;
+                    if(!(yankee != target)) { _fun00002_ip = 873; continue _fun00001 }
+ 703:
+                    whisks = _closure1_slot1;
+                    variable39 = _closure1_slot2;
+                    target = 21;
+                    target = variable39[target];
+                    whisks = whisks.bind(offset)(target);
+                    target = {};
+                    variable39 = verify;
+                    variable41 = _closure1_slot18;
+                    if(variable39) { _fun00002_ip = 743; continue _fun00001 }
+ 735:
+                    variable39 = variable41.JOIN;
+                    _fun00002_ip = 749; continue _fun00001;
+ 743:
+                    variable39 = variable41.LAUNCH;
+ 749:
+                    target['type'] = variable39;
+                    variable39 = variable40;
+                    variable41 = yankee == variable39;
+                    variable39 = undefined;
+                    if(variable41) { _fun00002_ip = 770; continue _fun00001 }
+ 765:
+                    variable39 = variable40.id;
+ 770:
+                    target['userId'] = variable39;
+                    variable39 = romeon;
+                    target['guildId'] = variable39;
+                    variable39 = backup;
+                    target['channelId'] = variable39;
+                    variable39 = output;
+                    variable40 = yankee == variable39;
+                    variable39 = undefined;
+                    if(variable40) { _fun00002_ip = 808; continue _fun00001 }
+ 800:
+                    variable40 = output;
+                    variable39 = variable40.type;
+ 808:
+                    target['channelType'] = variable39;
+                    variable39 = foxtra;
+                    target['applicationId'] = variable39;
+                    target['locationObject'] = variable37;
                     variable37 = variable38;
-                    variable39 = yankee == variable37;
-                    variable37 = undefined;
-                    if(variable39) { _fun00002_ip = 561; continue _fun00001 }
- 556:
-                    variable37 = variable38.id;
- 561:
-                    cntext['userId'] = variable37;
-                    variable37 = zuuluu;
-                    cntext['guildId'] = variable37;
-                    variable37 = romeon;
-                    cntext['channelId'] = variable37;
-                    variable37 = sizing;
-                    variable38 = yankee == variable37;
-                    variable37 = undefined;
-                    if(variable38) { _fun00002_ip = 599; continue _fun00001 }
- 591:
-                    variable38 = sizing;
-                    variable37 = variable38.type;
- 599:
-                    cntext['channelType'] = variable37;
-                    variable37 = foxtra;
-                    cntext['applicationId'] = variable37;
-                    cntext['locationObject'] = quebec;
-                    quebec = variable36;
-                    if(!(yankee == quebec)) { _fun00002_ip = 629; continue _fun00001 }
- 623:
-                    quebec = new Array(0);
-                    _fun00002_ip = 632; continue _fun00001;
- 629:
-                    quebec = variable36;
- 632:
-                    cntext['analyticsLocations'] = quebec;
-                    quebec = ctrled;
-                    cntext['source'] = quebec;
-                    cntext['partyId'] = equals;
-                    cntext['referrerId'] = whisks;
-                    cntext['inviterUserId'] = limora;
-                    cntext = sierra.bind(offset)(cntext);
- 664:
-                    cntext = verify;
-                    if(!cntext) { _fun00002_ip = 680; continue _fun00001 }
- 670:
-                    cntext = romeon;
-                    if(!(yankee == cntext)) { _fun00002_ip = 876; continue _fun00001 }
- 680:
-                    cntext = {};
-                    sierra = foxtra;
-                    cntext['applicationId'] = sierra;
-                    sierra = romeon;
-                    cntext['channelId'] = sierra;
-                    sierra = result;
-                    cntext['embeddedActivitiesManager'] = sierra;
-                    sierra = verify;
-                    cntext['isStart'] = sierra;
-                    sierra = zuuluu;
-                    cntext['guildId'] = sierra;
-                    cntext['joinUserId'] = status;
-                    cntext['joinSessionId'] = target;
-                    cntext['secret'] = papara;
-                    cntext['instanceId'] = config;
-                    config = tangon;
-                    cntext['isContextlessActivity'] = config;
-                    config = function() { // Original name: joinEmbeddedActivity
+                    if(!(yankee == variable37)) { _fun00002_ip = 838; continue _fun00001 }
+ 832:
+                    variable37 = new Array(0);
+                    _fun00002_ip = 841; continue _fun00001;
+ 838:
+                    variable37 = variable38;
+ 841:
+                    target['analyticsLocations'] = variable37;
+                    variable37 = sequen;
+                    target['source'] = variable37;
+                    target['partyId'] = variable36;
+                    target['referrerId'] = quebec;
+                    target['inviterUserId'] = equals;
+                    target = whisks.bind(offset)(target);
+ 873:
+                    target = verify;
+                    if(target) { _fun00002_ip = 1078; continue _fun00001 }
+ 882:
+                    target = {};
+                    whisks = foxtra;
+                    target['applicationId'] = whisks;
+                    whisks = update;
+                    target['channelId'] = whisks;
+                    whisks = echoed;
+                    target['embeddedActivitiesManager'] = whisks;
+                    whisks = verify;
+                    target['isStart'] = whisks;
+                    whisks = zuuluu;
+                    target['guildId'] = whisks;
+                    target['joinUserId'] = limora;
+                    target['joinSessionId'] = sierra;
+                    target['secret'] = status;
+                    target['instanceId'] = cntext;
+                    cntext = tangon;
+                    target['isContextlessActivity'] = cntext;
+                    cntext = function() { // Original name: joinEmbeddedActivity
                         entity = undefined;
                         tangon = _closure1_slot30;
                         zuuluu = tangon.apply;
@@ -246,124 +304,111 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = zuuluu.bind(tangon)(entity, michal);
                         return entity;
                     };
-                    config = config.bind(offset)(cntext);
-                    SaveGenerator(address=761);
- 759:
-                    return config;
- 761:
-                    ResumeGenerator(result_out_reg=24, return_bool_out_reg=26);
-                    if(cntext) { _fun00002_ip = 873; continue _fun00001 }
- 767:
-                    record = config;
-                    cntext = source;
-                    if(!(yankee != cntext)) { _fun00002_ip = 784; continue _fun00001 }
- 777:
-                    cntext = source;
-                    cntext = cntext.bind(offset)();
- 784:
-                    cntext = record;
-                    papara = cntext.result;
-                    cntext = 'failure';
-                    if(!(cntext === papara)) { _fun00002_ip = 1221; continue _fun00001 }
- 804:
-                    papara = _closure1_slot1;
-                    status = _closure1_slot2;
-                    cntext = 21;
-                    target = status[cntext];
-                    target = papara.bind(offset)(target);
-                    cntext = status[cntext];
-                    cntext = papara.bind(offset)(cntext);
-                    cntext = cntext.Reasons;
-                    variable44 = cntext.LEGACY_LAUNCH_CLIENT_VALIDATION_FAILED;
-                    variable43 = record.reason;
-                    cntext = target.prototype;
-                    cntext = Object.create(cntext, {constructor: {value: target}});
-                    variable45 = cntext;
-                    record = new variable45[target](variable44, variable43, variable42);
-                    record = record instanceof Object ? record : cntext;
-                    throw record;
- 873: // try_end0
-                    return config;
- 876: // try_start_1
-                    cntext = foxtra;
-                    papara = sizing;
-                    sizing = yankee == papara;
-                    config = undefined;
-                    if(sizing) { _fun00002_ip = 896; continue _fun00001 }
- 891:
-                    config = papara.type;
- 896:
-                    sizing = _closure1_slot20;
-                    sizing = sizing.GUILD_VOICE;
-                    sizing = config === sizing;
-                    record = _closure1_slot5;
-                    config = record.getApplication;
-                    config = config.bind(record)(cntext);
-                    record = yankee != config;
-                    if(!record) { _fun00002_ip = 979; continue _fun00001 }
- 932:
-                    target = _closure1_slot0;
-                    status = _closure1_slot2;
-                    cntext = 25;
-                    cntext = status[cntext];
-                    status = target.bind(offset)(cntext);
-                    target = status.hasFlag;
-                    cntext = config.flags;
-                    config = _closure1_slot19;
-                    config = config.EMBEDDED;
-                    record = target.bind(status)(cntext, config);
+                    cntext = cntext.bind(offset)(target);
+                    SaveGenerator(address=963);
+ 961:
+                    return cntext;
+ 963:
+                    ResumeGenerator(result_out_reg=26, return_bool_out_reg=28);
+                    if(target) { _fun00002_ip = 1075; continue _fun00001 }
+ 969:
+                    papara = cntext;
+                    target = vacuum;
+                    if(!(yankee != target)) { _fun00002_ip = 986; continue _fun00001 }
  979:
-                    cntext = _closure1_slot0;
-                    target = _closure1_slot2;
-                    config = 26;
-                    config = target[config];
-                    cntext = cntext.bind(offset)(config);
-                    config = cntext.isActivityInTextSupportedForChannel;
-                    config = config.bind(cntext)(papara);
-                    if(!sizing) { _fun00002_ip = 1016; continue _fun00001 }
- 1013:
-                    sizing = record;
- 1016:
-                    if(sizing) { _fun00002_ip = 1022; continue _fun00001 }
- 1019:
-                    sizing = config;
- 1022:
-                    if(sizing) { _fun00002_ip = 1088; continue _fun00001 }
- 1025:
-                    config = _closure1_slot1;
-                    cntext = _closure1_slot2;
-                    sizing = 21;
-                    record = cntext[sizing];
-                    record = config.bind(offset)(record);
-                    sizing = cntext[sizing];
-                    sizing = config.bind(offset)(sizing);
-                    sizing = sizing.Reasons;
-                    variable44 = sizing.INVALID_CHANNEL;
-                    config = record.prototype;
-                    config = Object.create(config, {constructor: {value: record}});
-                    variable45 = config;
-                    sizing = new variable45[record](variable44, variable43);
-                    sizing = sizing instanceof Object ? sizing : config;
-                    throw sizing;
+                    target = vacuum;
+                    target = target.bind(offset)();
+ 986:
+                    target = papara;
+                    status = target.result;
+                    target = 'failure';
+                    if(!(target === status)) { _fun00002_ip = 1373; continue _fun00001 }
+ 1006:
+                    status = _closure1_slot1;
+                    limora = _closure1_slot2;
+                    target = 22;
+                    sierra = limora[target];
+                    sierra = status.bind(offset)(sierra);
+                    target = limora[target];
+                    target = status.bind(offset)(target);
+                    target = target.Reasons;
+                    variable49 = target.LEGACY_LAUNCH_CLIENT_VALIDATION_FAILED;
+                    variable48 = papara.reason;
+                    target = sierra.prototype;
+                    target = Object.create(target, {constructor: {value: sierra}});
+                    variable50 = target;
+                    papara = new variable50[sierra](variable49, variable48, variable47);
+                    papara = papara instanceof Object ? papara : target;
+                    throw papara;
+ 1075: // try_end0
+                    return cntext;
+ 1078: // try_start_1
+                    cntext = update;
+                    if(!(yankee != cntext)) { _fun00002_ip = 1515; continue _fun00001 }
  1088:
-                    sizing = {};
-                    config = foxtra;
-                    sizing['applicationId'] = config;
-                    config = backup;
-                    sizing['nonce'] = config;
-                    config = romeon;
-                    sizing['channelId'] = config;
-                    config = zuuluu;
-                    sizing['guildId'] = config;
-                    sizing['commandOrigin'] = sequen;
-                    sizing['sectionName'] = vacuum;
-                    sizing['source'] = ctrled;
-                    sizing['onExecutedCallback'] = source;
-                    sizing['clientSupportsContextlessActivityLaunch'] = update;
-                    sizing['onConfirmActivityLaunchChecksAlertOpen'] = echoed;
-                    sizing['embeddedActivitiesManager'] = result;
-                    result = tangon;
-                    sizing['isContextlessActivity'] = result;
+                    target = foxtra;
+                    status = output;
+                    output = yankee == status;
+                    cntext = undefined;
+                    if(output) { _fun00002_ip = 1108; continue _fun00001 }
+ 1103:
+                    cntext = status.type;
+ 1108:
+                    output = _closure1_slot20;
+                    output = output.GUILD_VOICE;
+                    output = cntext === output;
+                    papara = _closure1_slot5;
+                    cntext = papara.getApplication;
+                    cntext = cntext.bind(papara)(target);
+                    papara = yankee != cntext;
+                    if(!papara) { _fun00002_ip = 1191; continue _fun00001 }
+ 1144:
+                    sierra = _closure1_slot0;
+                    limora = _closure1_slot2;
+                    target = 26;
+                    target = limora[target];
+                    limora = sierra.bind(offset)(target);
+                    sierra = limora.hasFlag;
+                    target = cntext.flags;
+                    cntext = _closure1_slot19;
+                    cntext = cntext.EMBEDDED;
+                    papara = sierra.bind(limora)(target, cntext);
+ 1191:
+                    target = _closure1_slot0;
+                    sierra = _closure1_slot2;
+                    cntext = 27;
+                    cntext = sierra[cntext];
+                    target = target.bind(offset)(cntext);
+                    cntext = target.isActivityInTextSupportedForChannel;
+                    cntext = cntext.bind(target)(status);
+                    if(!output) { _fun00002_ip = 1228; continue _fun00001 }
+ 1225:
+                    output = papara;
+ 1228:
+                    if(output) { _fun00002_ip = 1234; continue _fun00001 }
+ 1231:
+                    output = cntext;
+ 1234:
+                    if(!output) { _fun00002_ip = 1515; continue _fun00001 }
+ 1240:
+                    output = {};
+                    cntext = foxtra;
+                    output['applicationId'] = cntext;
+                    cntext = kiloes;
+                    output['nonce'] = cntext;
+                    cntext = update;
+                    output['channelId'] = cntext;
+                    cntext = zuuluu;
+                    output['guildId'] = cntext;
+                    output['commandOrigin'] = record;
+                    output['sectionName'] = config;
+                    output['source'] = sequen;
+                    output['onExecutedCallback'] = vacuum;
+                    output['clientSupportsContextlessActivityLaunch'] = ctrled;
+                    output['onConfirmActivityLaunchChecksAlertOpen'] = source;
+                    output['embeddedActivitiesManager'] = echoed;
+                    echoed = tangon;
+                    output['isContextlessActivity'] = echoed;
                     report = function() { // Original name: maybeSendPrimaryAppCommand
                         entity = undefined;
                         tangon = _closure1_slot29;
@@ -374,169 +419,193 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = zuuluu.bind(tangon)(entity, michal);
                         return entity;
                     };
-                    report = report.bind(offset)(sizing);
-                    SaveGenerator(address=1175);
- 1173:
+                    report = report.bind(offset)(output);
+                    SaveGenerator(address=1327);
+ 1325:
                     return report;
- 1175:
-                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=15);
-                    if(sizing) { _fun00002_ip = 1360; continue _fun00001 }
- 1184:
-                    kiloes = report;
-                    result = report.result;
-                    sizing = 'failure';
-                    if(!(sizing === result)) { _fun00002_ip = 1221; continue _fun00001 }
- 1201:
-                    sizing = kiloes.reason;
-                    kiloes = _closure1_slot25;
-                    kiloes = kiloes.FAILED_ACTIVITY_LAUNCH_CHECKS;
-                    if(!(sizing === kiloes)) { _fun00002_ip = 1297; continue _fun00001 }
- 1221:
-                    sizing = _closure1_slot1;
-                    kiloes = _closure1_slot2;
-                    kiloes = kiloes[output];
-                    output = sizing.bind(offset)(kiloes);
-                    sizing = output.dispatch;
-                    kiloes = {};
-                    result = 'EMBEDDED_ACTIVITY_LAUNCH_SUCCESS';
-                    kiloes['type'] = result;
-                    result = backup;
-                    kiloes['nonce'] = result;
-                    result = foxtra;
-                    kiloes['applicationId'] = result;
-                    result = romeon;
-                    echoed = yankee != result;
-                    result = null;
-                    if(!echoed) { _fun00002_ip = 1283; continue _fun00001 }
- 1280:
-                    result = romeon;
- 1283:
-                    kiloes['channelId'] = result;
-                    kiloes = sizing.bind(output)(kiloes);
- 1292: // try_end1
-                    kiloes = true;
-                    return kiloes;
- 1297: // try_start_2
+ 1327:
+                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=16);
+                    if(output) { _fun00002_ip = 1512; continue _fun00001 }
+ 1336:
+                    sizing = report;
+                    echoed = report.result;
+                    output = 'failure';
+                    if(!(output === echoed)) { _fun00002_ip = 1373; continue _fun00001 }
+ 1353:
+                    output = sizing.reason;
+                    sizing = _closure1_slot25;
+                    sizing = sizing.FAILED_ACTIVITY_LAUNCH_CHECKS;
+                    if(!(output === sizing)) { _fun00002_ip = 1449; continue _fun00001 }
+ 1373:
+                    output = _closure1_slot1;
+                    sizing = _closure1_slot2;
+                    sizing = sizing[result];
+                    result = output.bind(offset)(sizing);
+                    output = result.dispatch;
+                    sizing = {};
+                    echoed = 'EMBEDDED_ACTIVITY_LAUNCH_SUCCESS';
+                    sizing['type'] = echoed;
+                    echoed = kiloes;
+                    sizing['nonce'] = echoed;
+                    echoed = foxtra;
+                    sizing['applicationId'] = echoed;
+                    echoed = update;
+                    source = yankee != echoed;
+                    echoed = null;
+                    if(!source) { _fun00002_ip = 1435; continue _fun00001 }
+ 1432:
+                    echoed = update;
+ 1435:
+                    sizing['channelId'] = echoed;
+                    sizing = output.bind(result)(sizing);
+ 1444: // try_end1
+                    sizing = true;
+                    return sizing;
+ 1449: // try_start_2
+                    output = _closure1_slot1;
+                    echoed = _closure1_slot2;
+                    sizing = 22;
+                    result = echoed[sizing];
+                    result = output.bind(offset)(result);
+                    sizing = echoed[sizing];
+                    sizing = output.bind(offset)(sizing);
+                    sizing = sizing.Reasons;
+                    variable49 = sizing.PRIMARY_APP_COMMAND_NOT_FOUND;
+                    output = result.prototype;
+                    output = Object.create(output, {constructor: {value: result}});
+                    variable50 = output;
+                    sizing = new variable50[result](variable49, variable48);
+                    sizing = sizing instanceof Object ? sizing : output;
+                    throw sizing;
+ 1512: // try_end2
+                    return report;
+ 1515: // try_start_3
                     sizing = _closure1_slot1;
                     result = _closure1_slot2;
-                    kiloes = 21;
-                    output = result[kiloes];
+                    report = 22;
+                    output = result[report];
                     output = sizing.bind(offset)(output);
-                    kiloes = result[kiloes];
-                    kiloes = sizing.bind(offset)(kiloes);
-                    kiloes = kiloes.Reasons;
-                    variable44 = kiloes.PRIMARY_APP_COMMAND_NOT_FOUND;
+                    report = result[report];
+                    report = sizing.bind(offset)(report);
+                    report = report.Reasons;
+                    variable49 = report.INVALID_CHANNEL;
                     sizing = output.prototype;
                     sizing = Object.create(sizing, {constructor: {value: output}});
-                    variable45 = sizing;
-                    kiloes = new variable45[output](variable44, variable43);
-                    kiloes = kiloes instanceof Object ? kiloes : sizing;
-                    throw kiloes;
- 1360: // try_end2
-                    return report;
- 1363: // catch_target0 // catch_target1 // catch_target2
+                    variable50 = sizing;
+                    report = new variable50[output](variable49, variable48);
+                    report = report instanceof Object ? report : sizing;
+                    throw report;
+ 1578: // try_end3 // catch_target0 // catch_target1 // catch_target2 // catch_target3
                     CatchBlockStart(arg_register=7);
-                    if(tangon) { _fun00002_ip = 1440; continue _fun00001 }
- 1368:
-                    if(!(yankee == zuuluu)) { _fun00002_ip = 1406; continue _fun00001 }
- 1372:
+                    if(tangon) { _fun00002_ip = 1655; continue _fun00001 }
+ 1583:
+                    if(!(yankee == zuuluu)) { _fun00002_ip = 1621; continue _fun00001 }
+ 1587:
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
-                    zuuluu = 22;
+                    zuuluu = 23;
                     zuuluu = report[zuuluu];
                     zuuluu = tangon.bind(offset)(zuuluu);
                     zuuluu = zuuluu.EmbeddedActivityLocationKind;
                     zuuluu = zuuluu.PRIVATE_CHANNEL;
-                    _fun00002_ip = 1438; continue _fun00001;
- 1406:
+                    _fun00002_ip = 1653; continue _fun00001;
+ 1621:
                     report = _closure1_slot0;
-                    kiloes = _closure1_slot2;
-                    tangon = 22;
-                    tangon = kiloes[tangon];
+                    sizing = _closure1_slot2;
+                    tangon = 23;
+                    tangon = sizing[tangon];
                     tangon = report.bind(offset)(tangon);
                     tangon = tangon.EmbeddedActivityLocationKind;
                     zuuluu = tangon.GUILD_CHANNEL;
- 1438:
-                    _fun00002_ip = 1472; continue _fun00001;
- 1440:
+ 1653:
+                    _fun00002_ip = 1687; continue _fun00001;
+ 1655:
                     report = _closure1_slot0;
-                    kiloes = _closure1_slot2;
-                    tangon = 22;
-                    tangon = kiloes[tangon];
+                    sizing = _closure1_slot2;
+                    tangon = 23;
+                    tangon = sizing[tangon];
                     tangon = report.bind(offset)(tangon);
                     tangon = tangon.EmbeddedActivityLocationKind;
                     zuuluu = tangon.CONTEXTLESS;
- 1472:
+ 1687:
                     oscard = zuuluu;
                     tangon = _closure1_slot1;
                     report = _closure1_slot2;
-                    zuuluu = 19;
+                    zuuluu = 20;
                     zuuluu = report[zuuluu];
                     report = tangon.bind(offset)(zuuluu);
                     tangon = report.dispatch;
                     zuuluu = {};
-                    kiloes = 'EMBEDDED_ACTIVITY_LAUNCH_FAIL';
-                    zuuluu['type'] = kiloes;
-                    zuuluu['nonce'] = backup;
+                    sizing = 'EMBEDDED_ACTIVITY_LAUNCH_FAIL';
+                    zuuluu['type'] = sizing;
+                    zuuluu['nonce'] = kiloes;
                     zuuluu['applicationId'] = foxtra;
+                    foxtra = backup;
+                    kiloes = yankee != foxtra;
+                    foxtra = null;
+                    if(!kiloes) { _fun00002_ip = 1749; continue _fun00001 }
+ 1746:
+                    foxtra = backup;
+ 1749:
+                    zuuluu['channelId'] = foxtra;
                     foxtra = romeon;
                     foxtra = yankee != foxtra;
                     yankee = null;
-                    if(!foxtra) { _fun00002_ip = 1534; continue _fun00001 }
- 1531:
+                    if(!foxtra) { _fun00002_ip = 1768; continue _fun00001 }
+ 1765:
                     yankee = romeon;
- 1534:
-                    zuuluu['channelId'] = yankee;
+ 1768:
+                    zuuluu['guildId'] = yankee;
                     zuuluu['isStart'] = verify;
                     yankee = option;
                     romeon = _closure1_slot1;
                     foxtra = _closure1_slot2;
-                    verify = 21;
+                    verify = 22;
                     verify = foxtra[verify];
                     verify = romeon.bind(offset)(verify);
                     verify = yankee instanceof verify;
-                    if(verify) { _fun00002_ip = 1675; continue _fun00001 }
- 1573:
+                    if(verify) { _fun00002_ip = 1909; continue _fun00001 }
+ 1807:
                     romeon = option;
                     foxtra = _closure1_slot1;
                     verify = _closure1_slot2;
-                    yankee = 23;
+                    yankee = 24;
                     verify = verify[yankee];
                     verify = foxtra.bind(offset)(verify);
                     verify = romeon instanceof verify;
-                    if(verify) { _fun00002_ip = 1675; continue _fun00001 }
- 1603:
+                    if(verify) { _fun00002_ip = 1909; continue _fun00001 }
+ 1837:
                     romeon = option;
                     foxtra = _closure1_slot1;
                     backup = _closure1_slot2;
-                    verify = 24;
+                    verify = 25;
                     verify = backup[verify];
                     verify = foxtra.bind(offset)(verify);
                     verify = romeon instanceof verify;
-                    if(verify) { _fun00002_ip = 1675; continue _fun00001 }
- 1633:
+                    if(verify) { _fun00002_ip = 1909; continue _fun00001 }
+ 1867:
                     verify = _closure1_slot1;
                     golfie = _closure1_slot2;
                     golfie = golfie[yankee];
                     offset = verify.bind(offset)(golfie);
-                    variable44 = option;
+                    variable49 = option;
                     verify = offset.prototype;
                     verify = Object.create(verify, {constructor: {value: offset}});
-                    variable45 = verify;
-                    golfie = new variable45[offset](variable44, variable43);
+                    variable50 = verify;
+                    golfie = new variable50[offset](variable49, variable48);
                     golfie = golfie instanceof Object ? golfie : verify;
-                    _fun00002_ip = 1678; continue _fun00001;
- 1675:
+                    _fun00002_ip = 1912; continue _fun00001;
+ 1909:
                     golfie = option;
- 1678:
+ 1912:
                     zuuluu['error'] = golfie;
                     zuuluu['locationKind'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
                     zuuluu = false;
                     return zuuluu;
- 1697:
+ 1931:
                     return michal;
- 1700:
+ 1934:
                     return entity;
                 }
             };
@@ -615,7 +684,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  177: // try_start_0
                     source = _closure1_slot1;
                     ctrled = _closure1_slot2;
-                    tangon = 27;
+                    tangon = 28;
                     tangon = ctrled[tangon];
                     ctrled = source.bind(option)(tangon);
                     source = verify;
@@ -635,7 +704,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     ctrled = source.handler;
                     vacuum = _closure1_slot0;
                     sequen = _closure1_slot2;
-                    source = 28;
+                    source = 29;
                     source = sequen[source];
                     source = vacuum.bind(option)(source);
                     source = source.ApplicationCommandHandler;
@@ -685,7 +754,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     cntext = sequen.bind(config)(vacuum);
                     sequen = _closure1_slot0;
                     config = _closure1_slot2;
-                    vacuum = 29;
+                    vacuum = 30;
                     vacuum = config[vacuum];
                     config = sequen.bind(option)(vacuum);
                     sequen = config.installApplicationOnDemandIfNeeded;
@@ -777,7 +846,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  696:
                     verify = _closure1_slot0;
                     offset = _closure1_slot2;
-                    report = 30;
+                    report = 31;
                     report = offset[report];
                     offset = verify.bind(option)(report);
                     verify = offset.confirmActivityLaunchChecks;
@@ -828,7 +897,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         var _closure5_slot1 = entity;
                         zuuluu = _closure1_slot1;
                         michal = _closure1_slot2;
-                        entity = 31;
+                        entity = 32;
                         michal = michal[entity];
                         entity = undefined;
                         zuuluu = zuuluu.bind(entity)(michal);
@@ -890,7 +959,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  35:
                                     option = _closure1_slot1;
                                     report = _closure1_slot2;
-                                    entity = 32;
+                                    entity = 33;
                                     report = report[entity];
                                     entity = undefined;
                                     yankee = option.bind(entity)(report);
@@ -930,7 +999,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  184:
                                     report = _closure1_slot1;
                                     zuuluu = _closure1_slot2;
-                                    offset = 24;
+                                    offset = 25;
                                     zuuluu = zuuluu[offset];
                                     zuuluu = report.bind(entity)(zuuluu);
                                     zuuluu = zuuluu.ReasonCodes;
@@ -940,7 +1009,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     report = _closure5_slot1;
                                     option = _closure1_slot1;
                                     romeon = _closure1_slot2;
-                                    zuuluu = 24;
+                                    zuuluu = 25;
                                     yankee = romeon[zuuluu];
                                     yankee = option.bind(entity)(yankee);
                                     zuuluu = romeon[zuuluu];
@@ -972,7 +1041,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     zuuluu = _closure5_slot1;
                                     report = _closure1_slot1;
                                     option = _closure1_slot2;
-                                    michal = 23;
+                                    michal = 24;
                                     michal = option[michal];
                                     report = report.bind(entity)(michal);
                                     michal = {};
@@ -1033,7 +1102,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = tangon.message;
                     golfie = _closure1_slot0;
                     verify = _closure1_slot2;
-                    report = 27;
+                    report = 28;
                     report = verify[report];
                     report = golfie.bind(option)(report);
                     report = report.NO_PRIMARY_APP_COMMAND_ERROR;
@@ -1110,13 +1179,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  124:
                     oscard = _closure1_slot0;
                     offset = _closure1_slot2;
-                    zuuluu = 17;
+                    zuuluu = 18;
                     zuuluu = offset[zuuluu];
                     oscard = oscard.bind(verify)(zuuluu);
                     zuuluu = oscard.getIsContextlessActivitiesExperimentEnabled;
                     oscard = zuuluu.bind(oscard)();
                     golfie = _closure1_slot1;
-                    zuuluu = 33;
+                    zuuluu = 34;
                     zuuluu = offset[zuuluu];
                     zuuluu = golfie.bind(verify)(zuuluu);
                     zuuluu = zuuluu.bind(verify)(update, config);
@@ -1137,7 +1206,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  210:
                     offset = _closure1_slot0;
                     romeon = _closure1_slot2;
-                    golfie = 34;
+                    golfie = 35;
                     golfie = romeon[golfie];
                     golfie = offset.bind(verify)(golfie);
                     foxtra = golfie.ComponentDispatch;
@@ -1172,7 +1241,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  342:
                     romeon = _closure1_slot0;
                     oscard = _closure1_slot2;
-                    offset = 35;
+                    offset = 36;
                     golfie = oscard[offset];
                     ctrled = romeon.bind(verify)(golfie);
                     foxtra = ctrled.getEmbeddedActivityLaunchability;
@@ -1220,7 +1289,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  512:
                     oscard = _closure1_slot0;
                     romeon = _closure1_slot2;
-                    report = 30;
+                    report = 31;
                     report = romeon[report];
                     romeon = oscard.bind(verify)(report);
                     oscard = romeon.confirmActivityLaunchChecks;
@@ -1259,7 +1328,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  638:
                     romeon = _closure1_slot1;
                     output = _closure1_slot2;
-                    oscard = 39;
+                    oscard = 40;
                     oscard = output[oscard];
                     romeon = romeon.bind(verify)(oscard);
                     oscard = backup.id;
@@ -1272,7 +1341,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  690:
                     output = _closure1_slot0;
                     source = _closure1_slot2;
-                    romeon = 26;
+                    romeon = 27;
                     romeon = source[romeon];
                     output = output.bind(verify)(romeon);
                     romeon = output.isActivitiesInTextEnabled;
@@ -1291,7 +1360,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  756:
                     romeon = _closure1_slot1;
                     output = _closure1_slot2;
-                    oscard = 40;
+                    oscard = 41;
                     oscard = output[oscard];
                     romeon = romeon.bind(verify)(oscard);
                     oscard = {};
@@ -1321,7 +1390,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = {};
                     output = _closure1_slot0;
                     source = _closure1_slot2;
-                    backup = 41;
+                    backup = 42;
                     backup = source[backup];
                     backup = output.bind(verify)(backup);
                     backup = backup.NetworkActionNames;
@@ -1340,7 +1409,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  937:
                     backup = _closure1_slot1;
                     output = _closure1_slot2;
-                    romeon = 42;
+                    romeon = 43;
                     romeon = output[romeon];
                     output = backup.bind(verify)(romeon);
                     backup = output.post;
@@ -1401,7 +1470,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     backup = {};
                     output = _closure1_slot1;
                     source = _closure1_slot2;
-                    option = 42;
+                    option = 43;
                     option = source[option];
                     source = output.bind(verify)(option);
                     output = source.post;
@@ -1436,7 +1505,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  1229:
                     yankee = _closure1_slot1;
                     romeon = _closure1_slot2;
-                    option = 42;
+                    option = 43;
                     option = romeon[option];
                     romeon = yankee.bind(verify)(option);
                     yankee = romeon.post;
@@ -1500,13 +1569,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = report.ACTIVITIES_FEATURE_NOT_ENABLED_FOR_OS;
                     option = _closure1_slot1;
                     kiloes = _closure1_slot2;
-                    golfie = 37;
+                    golfie = 38;
                     golfie = kiloes[golfie];
                     offset = option.bind(verify)(golfie);
                     option = offset.show;
                     golfie = {};
                     backup = _closure1_slot0;
-                    yankee = 38;
+                    yankee = 39;
                     romeon = kiloes[yankee];
                     romeon = backup.bind(verify)(romeon);
                     sizing = romeon.intl;
@@ -1536,7 +1605,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = report.NO_USE_EMBEDDED_ACTIVITIES_PERMISSION;
                     option = _closure1_slot0;
                     offset = _closure1_slot2;
-                    golfie = 36;
+                    golfie = 37;
                     golfie = offset[golfie];
                     option = option.bind(verify)(golfie);
                     golfie = option.showActivitiesInvalidPermissionsAlert;
@@ -1603,7 +1672,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = tangon.bind(report)(golfie);
             report = _closure1_slot1;
             oscard = _closure1_slot2;
-            tangon = 19;
+            tangon = 20;
             tangon = oscard[tangon];
             option = report.bind(entity)(tangon);
             oscard = option.dispatch;
@@ -1624,7 +1693,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = oscard.bind(option)(tangon);
             oscard = _closure1_slot0;
             option = _closure1_slot2;
-            tangon = 43;
+            tangon = 17;
             tangon = option[tangon];
             oscard = oscard.bind(entity)(tangon);
             tangon = oscard.getEmbeddedActivityLocationChannelId;
@@ -1708,7 +1777,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  10: // try_start_0
                     tangon = _closure1_slot1;
                     oscard = _closure1_slot2;
-                    golfie = 19;
+                    golfie = 20;
                     michal = oscard[golfie];
                     report = undefined;
                     option = tangon.bind(report)(michal);
@@ -1781,7 +1850,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     CatchBlockStart(arg_register=1);
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
-                    michal = 19;
+                    michal = 20;
                     zuuluu = zuuluu[michal];
                     michal = undefined;
                     tangon = tangon.bind(michal)(zuuluu);
@@ -1827,7 +1896,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  19: // try_start_0
                     tangon = _closure1_slot1;
                     golfie = _closure1_slot2;
-                    oscard = 19;
+                    oscard = 20;
                     michal = golfie[oscard];
                     report = undefined;
                     yankee = tangon.bind(report)(michal);
@@ -1889,7 +1958,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     CatchBlockStart(arg_register=3);
                     report = _closure1_slot1;
                     oscard = _closure1_slot2;
-                    michal = 19;
+                    michal = 20;
                     michal = oscard[michal];
                     zuuluu = undefined;
                     option = report.bind(zuuluu)(michal);
@@ -1898,7 +1967,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = 'UPLOAD_ACTIVITY_IMAGE_ATTACHMENT_FAIL';
                     michal['type'] = verify;
                     michal = golfie.bind(option)(michal);
-                    michal = 23;
+                    michal = 24;
                     michal = oscard[michal];
                     michal = report.bind(zuuluu)(michal);
                     zuuluu = michal.prototype;
@@ -2018,7 +2087,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         _closure4_slot1 = zuuluu;
                         tangon = _closure1_slot1;
                         zuuluu = _closure1_slot2;
-                        entity = 19;
+                        entity = 20;
                         zuuluu = zuuluu[entity];
                         entity = undefined;
                         report = tangon.bind(entity)(zuuluu);
@@ -2044,7 +2113,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         _closure4_slot2 = zuuluu;
                         tangon = _closure1_slot1;
                         zuuluu = _closure1_slot2;
-                        entity = 19;
+                        entity = 20;
                         zuuluu = zuuluu[entity];
                         entity = undefined;
                         report = tangon.bind(entity)(zuuluu);
@@ -2075,7 +2144,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  340:
                     sizing = _closure1_slot1;
                     echoed = _closure1_slot2;
-                    kiloes = 19;
+                    kiloes = 20;
                     kiloes = echoed[kiloes];
                     update = sizing.bind(golfie)(kiloes);
                     echoed = update.unsubscribe;
@@ -2089,7 +2158,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  392:
                     sizing = _closure1_slot1;
                     echoed = _closure1_slot2;
-                    kiloes = 19;
+                    kiloes = 20;
                     kiloes = echoed[kiloes];
                     update = sizing.bind(golfie)(kiloes);
                     echoed = update.unsubscribe;
@@ -2109,7 +2178,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  462: // try_start_0
                     kiloes = _closure1_slot1;
                     oscard = _closure1_slot2;
-                    backup = 19;
+                    backup = 20;
                     oscard = oscard[backup];
                     echoed = kiloes.bind(golfie)(oscard);
                     sizing = echoed.dispatch;
@@ -2134,7 +2203,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  542:
                     kiloes = _closure1_slot1;
                     ctrled = _closure1_slot2;
-                    oscard = 42;
+                    oscard = 43;
                     oscard = ctrled[oscard];
                     sizing = kiloes.bind(golfie)(oscard);
                     kiloes = sizing.get;
@@ -2145,7 +2214,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard['query'] = echoed;
                     echoed = {};
                     source = _closure1_slot0;
-                    update = 41;
+                    update = 42;
                     update = ctrled[update];
                     update = source.bind(golfie)(update);
                     update = update.NetworkActionNames;
@@ -2252,7 +2321,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     CatchBlockStart(arg_register=5);
                     oscard = _closure1_slot1;
                     verify = _closure1_slot2;
-                    zuuluu = 19;
+                    zuuluu = 20;
                     zuuluu = verify[zuuluu];
                     golfie = oscard.bind(golfie)(zuuluu);
                     oscard = golfie.dispatch;
@@ -2577,7 +2646,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: updateActivityPanelMode
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 19;
+        entity = 20;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -2804,7 +2873,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = function() { // Original name: requestRespondToSeriousThermalState
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 19;
+        entity = 20;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -2819,7 +2888,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = function() { // Original name: consumeRequestToReactToSeriousThermalState
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 19;
+        entity = 20;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -2834,7 +2903,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = function() { // Original name: disregardSeriousThermalState
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 19;
+        entity = 20;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -2904,7 +2973,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = function() { // Original name: dismissNewActivityIndicator
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 19;
+        entity = 20;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -2931,7 +3000,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: updateFocusedActivityLayout
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 19;
+        entity = 20;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -2953,7 +3022,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = tangon.bind(entity)(zuuluu);
         zuuluu = _closure1_slot1;
         tangon = _closure1_slot2;
-        michal = 19;
+        michal = 20;
         michal = tangon[michal];
         tangon = zuuluu.bind(entity)(michal);
         zuuluu = tangon.dispatch;
@@ -2967,7 +3036,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function(argFoo) { // Original name: updateActivityPopoutWindowLayout
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 19;
+        entity = 20;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);

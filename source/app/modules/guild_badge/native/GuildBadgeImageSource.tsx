@@ -131,12 +131,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     yankee = romeon.bind(entity)(yankee);
     verify['imageSource'] = yankee;
     report[offset] = verify;
-    verify = option[oscard];
-    verify = golfie.bind(entity)(verify);
-    verify = verify.BadgeCategory;
-    offset = verify.CLAN;
-    verify = {};
-    report[offset] = verify;
     oscard = option[oscard];
     oscard = golfie.bind(entity)(oscard);
     oscard = oscard.BadgeCategory;

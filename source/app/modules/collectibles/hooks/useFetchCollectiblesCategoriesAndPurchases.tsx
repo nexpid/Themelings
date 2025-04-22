@@ -175,45 +175,53 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     var _closure1_slot7 = tangon;
-    report = function(argFoo) { // Original name: useFetchCollectiblesCategoriesAndPurchases
+    report = function(argFoo, argBar) { // Original name: useFetchCollectiblesCategoriesAndPurchases
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             option = argFoo;
             entity = null;
             michal = entity == option;
             report = undefined;
-            oscard = undefined;
+            zuuluu = undefined;
             if(michal) { _fun00006_ip = 22; continue _fun00005 }
  16:
-            oscard = option.paymentGateway;
+            zuuluu = option.paymentGateway;
  22:
-            tangon = _closure1_slot0;
+            oscard = _closure1_slot0;
             golfie = _closure1_slot2;
-            zuuluu = 3;
-            verify = golfie[zuuluu];
-            yankee = tangon.bind(report)(verify);
+            tangon = 3;
+            verify = golfie[tangon];
+            yankee = oscard.bind(report)(verify);
             offset = yankee.useTriggerDebuggingAA;
             verify = {'location': 'useFetchCollectiblesCategoriesAndPurchases auto on', 'autoTrackExposure': true};
             verify = offset.bind(yankee)(verify);
-            zuuluu = golfie[zuuluu];
-            verify = tangon.bind(report)(zuuluu);
-            tangon = verify.useTriggerDebuggingAA;
-            zuuluu = {'location': 'useFetchCollectiblesCategoriesAndPurchases auto off', 'autoTrackExposure': false};
-            zuuluu = tangon.bind(verify)(zuuluu);
-            tangon = _closure1_slot1;
-            zuuluu = 7;
-            zuuluu = golfie[zuuluu];
-            tangon = tangon.bind(report)(zuuluu);
-            zuuluu = {};
-            zuuluu['paymentGateway'] = oscard;
+            tangon = golfie[tangon];
+            verify = oscard.bind(report)(tangon);
+            oscard = verify.useTriggerDebuggingAA;
+            tangon = {'location': 'useFetchCollectiblesCategoriesAndPurchases auto off', 'autoTrackExposure': false};
+            tangon = oscard.bind(verify)(tangon);
+            oscard = _closure1_slot1;
+            tangon = 7;
+            tangon = golfie[tangon];
+            oscard = oscard.bind(report)(tangon);
+            tangon = {};
+            tangon['paymentGateway'] = zuuluu;
             golfie = entity == option;
-            oscard = undefined;
+            zuuluu = undefined;
             if(golfie) { _fun00006_ip = 142; continue _fun00005 }
  136:
-            oscard = option.noOp;
+            zuuluu = option.noOp;
  142:
-            zuuluu['noOp'] = oscard;
-            zuuluu = tangon.bind(report)(zuuluu);
+            tangon['noOp'] = zuuluu;
+            golfie = entity == option;
+            zuuluu = undefined;
+            if(golfie) { _fun00006_ip = 162; continue _fun00005 }
+ 156:
+            zuuluu = option.logPerf;
+ 162:
+            tangon['logPerf'] = zuuluu;
+            zuuluu = argBar;
+            zuuluu = oscard.bind(report)(tangon, zuuluu);
             offset = zuuluu.isFetching;
             golfie = zuuluu.categories;
             oscard = zuuluu.fetchCategoriesError;
@@ -221,16 +229,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = _closure1_slot7;
             verify = entity == option;
             michal = undefined;
-            if(verify) { _fun00006_ip = 197; continue _fun00005 }
- 189:
+            if(verify) { _fun00006_ip = 221; continue _fun00005 }
+ 213:
             michal = option.stalePurchasesOK;
- 197:
+ 221:
             verify = entity == option;
             entity = undefined;
-            if(verify) { _fun00006_ip = 211; continue _fun00005 }
- 206:
+            if(verify) { _fun00006_ip = 235; continue _fun00005 }
+ 230:
             entity = option.location;
- 211:
+ 235:
             michal = tangon.bind(report)(michal, entity);
             option = michal.isClaiming;
             report = michal.fetchPurchasesError;
@@ -238,10 +246,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = michal.isFetching;
             entity = {};
             yankee = offset;
-            if(yankee) { _fun00006_ip = 252; continue _fun00005 }
- 249:
+            if(yankee) { _fun00006_ip = 276; continue _fun00005 }
+ 273:
             yankee = verify;
- 252:
+ 276:
             entity['isFetching'] = yankee;
             entity['isFetchingCategories'] = offset;
             entity['isFetchingPurchases'] = verify;

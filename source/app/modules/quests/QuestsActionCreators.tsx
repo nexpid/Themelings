@@ -288,11 +288,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 475; continue _fun00005 }
+                    if(michal) { _fun00006_ip = 491; continue _fun00005 }
  12:
                     zuuluu = _closure1_slot4;
                     zuuluu = zuuluu.isFetchingCurrentQuests;
-                    if(zuuluu) { _fun00006_ip = 470; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 486; continue _fun00005 }
  31:
                     option = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -332,7 +332,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  169:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                    if(option) { _fun00006_ip = 347; continue _fun00005 }
+                    if(option) { _fun00006_ip = 363; continue _fun00005 }
  178:
                     option = zuuluu.body;
                     offset = option.quests;
@@ -364,6 +364,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     verify = verify.bind(offset)(option);
+                    option = zuuluu.body;
+                    romeon = option.quest_enrollment_blocked_until;
                     option = verify.filter;
                     tangon = function(argFoo) {
                         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
@@ -398,19 +400,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             return entity;
                         }
                     };
-                    foxtra = option.bind(verify)(tangon);
+                    backup = option.bind(verify)(tangon);
                     tangon = zuuluu.body;
-                    romeon = tangon.excluded_quests;
+                    foxtra = tangon.excluded_quests;
                     option = _closure1_slot1;
                     tangon = _closure1_slot2;
                     verify = tangon[golfie];
                     yankee = option.bind(report)(verify);
                     offset = yankee.dispatch;
                     verify = {};
-                    backup = 'QUESTS_FETCH_CURRENT_QUESTS_SUCCESS';
-                    verify['type'] = backup;
-                    verify['quests'] = foxtra;
-                    verify['excludedQuests'] = romeon;
+                    kiloes = 'QUESTS_FETCH_CURRENT_QUESTS_SUCCESS';
+                    verify['type'] = kiloes;
+                    verify['quests'] = backup;
+                    verify['excludedQuests'] = foxtra;
+                    verify['questEnrollmentBlockedUntil'] = romeon;
                     verify = offset.bind(yankee)(verify);
                     tangon = tangon[oscard];
                     offset = option.bind(report)(tangon);
@@ -421,11 +424,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = true;
                     tangon['wasSuccessful'] = yankee;
                     tangon = verify.bind(offset)(option, tangon);
- 342: // try_end0
-                    _fun00006_ip = 470; continue _fun00005;
- 347:
+ 358: // try_end0
+                    _fun00006_ip = 486; continue _fun00005;
+ 363:
                     return zuuluu;
- 350: // catch_target0
+ 366: // catch_target0
                     CatchBlockStart(arg_register=11);
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -440,9 +443,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = tangon.bind(report)(offset);
                     yankee = offset.prototype;
                     yankee = Object.create(yankee, {constructor: {value: offset}});
-                    output = yankee;
-                    sizing = romeon;
-                    offset = new output[offset](sizing, kiloes);
+                    result = yankee;
+                    output = romeon;
+                    offset = new result[offset](output, sizing);
                     offset = offset instanceof Object ? offset : yankee;
                     golfie['error'] = offset;
                     golfie = option.bind(verify)(golfie);
@@ -455,10 +458,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = false;
                     michal['wasSuccessful'] = oscard;
                     michal = tangon.bind(report)(zuuluu, michal);
- 470:
+ 486:
                     michal = undefined;
                     return michal;
- 475:
+ 491:
                     return entity;
                 }
             };

@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot8 = offset;
     golfie = golfie.SearchTypes;
     var _closure1_slot9 = golfie;
-    golfie = 15;
+    golfie = 16;
     golfie = verify[golfie];
     verify = option.bind(entity)(golfie);
     option = verify.fileFinishedImporting;
@@ -1159,15 +1159,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  54:
             tangon = golfie.prefetch;
  60:
-            if(!tangon) { _fun00040_ip = 91; continue _fun00039 }
+            if(!tangon) { _fun00040_ip = 114; continue _fun00039 }
  63:
             tangon = _closure1_slot1;
             zuuluu = _closure1_slot2;
+            golfie = 15;
+            golfie = zuuluu[golfie];
+            option = tangon.bind(entity)(golfie);
+            golfie = option.initialize;
+            golfie = golfie.bind(option)(michal);
             zuuluu = zuuluu[oscard];
             tangon = tangon.bind(entity)(zuuluu);
             zuuluu = tangon.fetchInitialMessages;
             zuuluu = zuuluu.bind(tangon)(michal);
- 91:
+ 114:
             tangon = report.navigate;
             zuuluu = {};
             zuuluu['searchContext'] = michal;

@@ -573,7 +573,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     output = entity.isStart;
                     verify = entity.referrerId;
                     report = entity.customId;
-                    foxtra = entity.inviterUserId;
+                    backup = entity.inviterUserId;
                     option = _closure1_slot1;
                     michal = _closure1_slot2;
                     entity = 16;
@@ -584,15 +584,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon = _closure1_slot10;
                     option = romeon.getSessionId;
                     option = option.bind(romeon)();
-                    backup = null;
-                    if(!(backup != michal)) { _fun00016_ip = 830; continue _fun00015 }
+                    foxtra = null;
+                    if(!(foxtra != michal)) { _fun00016_ip = 792; continue _fun00015 }
  116:
-                    if(!(backup != option)) { _fun00016_ip = 830; continue _fun00015 }
+                    if(!(foxtra != option)) { _fun00016_ip = 792; continue _fun00015 }
  123:
                     romeon = _closure1_slot22;
                     option = romeon.get;
                     option = option.bind(romeon)(golfie);
-                    kiloes = backup == option;
+                    kiloes = foxtra == option;
                     romeon = undefined;
                     if(kiloes) { _fun00016_ip = 156; continue _fun00015 }
  146:
@@ -600,7 +600,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon = option.id;
  156:
                     option = zuuluu.id;
-                    if(!(romeon !== option)) { _fun00016_ip = 826; continue _fun00015 }
+                    if(!(romeon !== option)) { _fun00016_ip = 788; continue _fun00015 }
  168:
                     romeon = _closure1_slot0;
                     kiloes = _closure1_slot2;
@@ -612,7 +612,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     kiloes = _closure1_slot11;
                     romeon = kiloes.getChannel;
                     echoed = romeon.bind(kiloes)(option);
-                    kiloes = backup == echoed;
+                    kiloes = foxtra == echoed;
                     romeon = undefined;
                     if(kiloes) { _fun00016_ip = 232; continue _fun00015 }
  222:
@@ -622,7 +622,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     update = _closure1_slot13;
                     kiloes = update.getCurrentUser;
                     kiloes = kiloes.bind(update)();
-                    if(!(backup != kiloes)) { _fun00016_ip = 822; continue _fun00015 }
+                    if(!(foxtra != kiloes)) { _fun00016_ip = 784; continue _fun00015 }
  252:
                     update = _closure1_slot0;
                     source = _closure1_slot2;
@@ -633,16 +633,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     kiloes = kiloes.bind(update)();
                     if(kiloes) { _fun00016_ip = 319; continue _fun00015 }
  285:
-                    if(!(backup == romeon)) { _fun00016_ip = 319; continue _fun00015 }
+                    if(!(foxtra == romeon)) { _fun00016_ip = 319; continue _fun00015 }
  289:
-                    kiloes = backup == echoed;
+                    kiloes = foxtra == echoed;
                     romeon = undefined;
                     if(kiloes) { _fun00016_ip = 308; continue _fun00015 }
  298:
                     kiloes = echoed.isPrivate;
                     romeon = kiloes.bind(echoed)();
  308:
-                    if(!(backup != romeon)) { _fun00016_ip = 315; continue _fun00015 }
+                    if(!(foxtra != romeon)) { _fun00016_ip = 315; continue _fun00015 }
  312:
                     if(romeon) { _fun00016_ip = 319; continue _fun00015 }
  315:
@@ -650,28 +650,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return romeon;
  319:
                     _closure1_slot35 = zuuluu;
-                    backup = sizing.map;
+                    foxtra = sizing.map;
                     romeon = function(argFoo) {
                         entity = argFoo;
                         entity = entity.userId;
                         return entity;
                     };
-                    vacuum = backup.bind(sizing)(romeon);
+                    vacuum = foxtra.bind(sizing)(romeon);
                     kiloes = {};
                     kiloes['applicationId'] = golfie;
                     kiloes['url'] = michal;
                     michal = global;
                     romeon = michal.Set;
-                    backup = romeon.prototype;
-                    backup = Object.create(backup, {constructor: {value: romeon}});
-                    sequen = backup;
+                    foxtra = romeon.prototype;
+                    foxtra = Object.create(foxtra, {constructor: {value: romeon}});
+                    sequen = foxtra;
                     romeon = new sequen[romeon](vacuum, ctrled);
-                    romeon = romeon instanceof Object ? romeon : backup;
+                    romeon = romeon instanceof Object ? romeon : foxtra;
                     kiloes['userIds'] = romeon;
                     kiloes['participants'] = sizing;
-                    backup = michal.Date;
-                    romeon = backup.now;
-                    romeon = romeon.bind(backup)();
+                    foxtra = michal.Date;
+                    romeon = foxtra.now;
+                    romeon = romeon.bind(foxtra)();
                     kiloes['connectedSince'] = romeon;
                     kiloes['launchId'] = yankee;
                     kiloes['compositeInstanceId'] = offset;
@@ -681,15 +681,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = _closure1_slot22;
                     report = verify.set;
                     report = report.bind(verify)(golfie, kiloes);
-                    backup = _closure1_slot0;
-                    romeon = _closure1_slot2;
+                    verify = _closure1_slot0;
+                    offset = _closure1_slot2;
                     report = 19;
-                    report = romeon[report];
-                    report = backup.bind(entity)(report);
-                    yankee = report.ComponentDispatch;
-                    offset = yankee.dispatch;
+                    report = offset[report];
+                    report = verify.bind(entity)(report);
+                    foxtra = report.ComponentDispatch;
+                    romeon = foxtra.dispatch;
                     report = _closure1_slot17;
-                    verify = report.OPEN_EMBEDDED_ACTIVITY;
+                    yankee = report.OPEN_EMBEDDED_ACTIVITY;
                     report = {};
                     report['location'] = zuuluu;
                     report['applicationId'] = golfie;
@@ -697,75 +697,67 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report['isStart'] = output;
                     report['participants'] = sizing;
                     report['embeddedActivity'] = kiloes;
-                    report['inviterUserId'] = foxtra;
-                    report = offset.bind(yankee)(verify, report);
+                    report['inviterUserId'] = backup;
+                    report = romeon.bind(foxtra)(yankee, report);
                     report = 20;
-                    report = romeon[report];
-                    offset = backup.bind(entity)(report);
-                    verify = offset.shouldOpenActivityInPopoutWindow;
-                    report = {};
-                    foxtra = zuuluu.kind;
-                    yankee = 21;
-                    romeon = romeon[yankee];
-                    romeon = backup.bind(entity)(romeon);
-                    romeon = romeon.EmbeddedActivityLocationKind;
-                    romeon = romeon.CONTEXTLESS;
-                    romeon = foxtra === romeon;
-                    report['isContextless'] = romeon;
-                    report = verify.bind(offset)(report);
-                    if(report) { _fun00016_ip = 725; continue _fun00015 }
- 598:
+                    report = offset[report];
+                    verify = verify.bind(entity)(report);
+                    report = verify.shouldOpenActivityInPopoutWindow;
+                    report = report.bind(verify)();
+                    if(report) { _fun00016_ip = 687; continue _fun00015 }
+ 557:
                     verify = _closure1_slot12;
                     report = verify.getChannelId;
                     report = report.bind(verify)();
-                    if(!(option === report)) { _fun00016_ip = 656; continue _fun00015 }
- 616:
+                    if(!(option === report)) { _fun00016_ip = 615; continue _fun00015 }
+ 575:
                     verify = _closure1_slot1;
                     offset = _closure1_slot2;
-                    report = 23;
+                    report = 22;
                     report = offset[report];
                     report = verify.bind(entity)(report);
                     report = report.bind(entity)(option);
-                    if(report) { _fun00016_ip = 656; continue _fun00015 }
- 644:
+                    if(report) { _fun00016_ip = 615; continue _fun00015 }
+ 603:
                     report = _closure1_slot14;
                     report = report.PANEL;
-                    _fun00016_ip = 719; continue _fun00015;
- 656:
+                    _fun00016_ip = 681; continue _fun00015;
+ 615:
                     verify = zuuluu.kind;
                     offset = _closure1_slot0;
-                    option = _closure1_slot2;
-                    option = option[yankee];
+                    yankee = _closure1_slot2;
+                    option = 23;
+                    option = yankee[option];
                     option = offset.bind(entity)(option);
                     option = option.EmbeddedActivityLocationKind;
                     option = option.CONTEXTLESS;
-                    if(!(verify !== option)) { _fun00016_ip = 706; continue _fun00015 }
- 694:
+                    if(!(verify !== option)) { _fun00016_ip = 668; continue _fun00015 }
+ 656:
                     option = _closure1_slot14;
                     option = option.PIP;
-                    _fun00016_ip = 716; continue _fun00015;
- 706:
+                    _fun00016_ip = 678; continue _fun00015;
+ 668:
                     verify = _closure1_slot14;
                     option = verify.PANEL;
- 716:
+ 678:
                     report = option;
- 719:
+ 681:
                     _closure1_slot36 = report;
-                    _fun00016_ip = 775; continue _fun00015;
- 725:
+                    _fun00016_ip = 737; continue _fun00015;
+ 687:
                     report = _closure1_slot14;
                     report = report.ACTIVITY_POPOUT_WINDOW;
                     _closure1_slot36 = report;
                     option = _closure1_slot1;
                     verify = _closure1_slot2;
-                    report = 22;
+                    report = 21;
                     report = verify[report];
                     option = option.bind(entity)(report);
                     report = option.wait;
                     tangon = function() {
                         zuuluu = _closure1_slot1;
                         michal = _closure1_slot2;
-                        entity = 22;
+                        entity = 21;
                         michal = michal[entity];
                         entity = undefined;
                         tangon = zuuluu.bind(entity)(michal);
@@ -777,7 +769,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     tangon = report.bind(option)(tangon);
- 775:
+ 737:
                     report = _closure1_slot34;
                     tangon = report.set;
                     oscard = _closure1_slot49;
@@ -788,13 +780,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = michal.bind(oscard)();
                     michal = tangon.bind(report)(zuuluu, michal);
                     return entity;
- 822:
+ 784:
                     entity = false;
                     return entity;
- 826:
+ 788:
                     entity = false;
                     return entity;
- 830:
+ 792:
                     entity = false;
                     return entity;
                 }
@@ -2158,7 +2150,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     oscard[8] = yankee;
     romeon['migrations'] = oscard;
-    oscard = 22;
+    oscard = 21;
     oscard = verify[oscard];
     result = offset.bind(entity)(oscard);
     oscard = {};
@@ -2934,37 +2926,48 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             entity = argFoo;
             tangon = entity.channelId;
-            zuuluu = _closure1_slot35;
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00090_ip = 107; continue _fun00089 }
- 21:
-            oscard = _closure1_slot0;
-            report = _closure1_slot2;
+            entity = _closure1_slot35;
+            report = null;
+            if(!(report != entity)) { _fun00090_ip = 150; continue _fun00089 }
+ 24:
+            entity = _closure1_slot35;
+            zuuluu = entity.kind;
+            golfie = _closure1_slot0;
+            option = _closure1_slot2;
+            entity = 23;
+            entity = option[entity];
+            oscard = undefined;
+            entity = golfie.bind(oscard)(entity);
+            entity = entity.EmbeddedActivityLocationKind;
+            entity = entity.CONTEXTLESS;
+            entity = zuuluu === entity;
             zuuluu = 17;
-            report = report[zuuluu];
-            zuuluu = undefined;
-            oscard = oscard.bind(zuuluu)(report);
-            report = oscard.getEmbeddedActivityLocationChannelId;
+            zuuluu = option[zuuluu];
+            golfie = golfie.bind(oscard)(zuuluu);
+            oscard = golfie.getEmbeddedActivityLocationChannelId;
             zuuluu = _closure1_slot35;
-            zuuluu = report.bind(oscard)(zuuluu);
-            entity = entity != zuuluu;
-            if(!entity) { _fun00090_ip = 69; continue _fun00089 }
- 65:
+            zuuluu = oscard.bind(golfie)(zuuluu);
+            if(entity) { _fun00090_ip = 105; continue _fun00089 }
+ 101:
+            entity = report != zuuluu;
+ 105:
+            if(!entity) { _fun00090_ip = 112; continue _fun00089 }
+ 108:
             entity = zuuluu !== tangon;
- 69:
-            if(!entity) { _fun00090_ip = 90; continue _fun00089 }
- 72:
+ 112:
+            if(!entity) { _fun00090_ip = 133; continue _fun00089 }
+ 115:
             tangon = _closure1_slot36;
             zuuluu = _closure1_slot14;
             zuuluu = zuuluu.PANEL;
             entity = tangon === zuuluu;
- 90:
-            if(!entity) { _fun00090_ip = 107; continue _fun00089 }
- 93:
+ 133:
+            if(!entity) { _fun00090_ip = 150; continue _fun00089 }
+ 136:
             entity = _closure1_slot14;
             entity = entity.PIP;
             _closure1_slot36 = entity;
- 107:
+ 150:
             entity = undefined;
             return entity;
         }

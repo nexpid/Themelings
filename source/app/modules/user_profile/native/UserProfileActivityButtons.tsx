@@ -369,14 +369,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = _closure2_slot0;
                     report = report.id;
                     zuuluu['joinUserId'] = report;
+                    report = _closure2_slot2;
+                    golfie = option == report;
+                    report = undefined;
+                    if(golfie) { _fun00004_ip = 170; continue _fun00003 }
+ 146:
+                    golfie = _closure2_slot2;
+                    golfie = golfie.party;
+                    verify = option == golfie;
+                    report = undefined;
+                    if(verify) { _fun00004_ip = 170; continue _fun00003 }
+ 165:
+                    report = golfie.id;
+ 170:
+                    zuuluu['partyId'] = report;
                     report = _closure2_slot6;
                     golfie = option == report;
                     report = undefined;
-                    if(golfie) { _fun00004_ip = 156; continue _fun00003 }
- 146:
+                    if(golfie) { _fun00004_ip = 198; continue _fun00003 }
+ 188:
                     golfie = _closure2_slot6;
                     report = golfie.compositeInstanceId;
- 156:
+ 198:
                     zuuluu['instanceId'] = report;
                     golfie = _closure1_slot1;
                     report = _closure1_slot2;
@@ -387,8 +401,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = _closure1_slot14;
                     report = report.EMBEDDED;
                     report = verify.bind(entity)(golfie, report);
-                    if(!report) { _fun00004_ip = 241; continue _fun00003 }
- 204:
+                    if(!report) { _fun00004_ip = 283; continue _fun00003 }
+ 246:
                     verify = _closure1_slot1;
                     golfie = _closure1_slot2;
                     golfie = golfie[offset];
@@ -397,18 +411,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = _closure1_slot14;
                     golfie = golfie.CONTEXTLESS;
                     report = offset.bind(entity)(verify, golfie);
- 241:
-                    if(report) { _fun00004_ip = 307; continue _fun00003 }
- 244:
+ 283:
+                    if(report) { _fun00004_ip = 349; continue _fun00003 }
+ 286:
                     golfie = _closure2_slot6;
                     option = option == golfie;
                     golfie = undefined;
-                    if(option) { _fun00004_ip = 271; continue _fun00003 }
- 257:
+                    if(option) { _fun00004_ip = 313; continue _fun00003 }
+ 299:
                     oscard = _closure2_slot6;
                     oscard = oscard.location;
                     golfie = oscard.kind;
- 271:
+ 313:
                     option = _closure1_slot0;
                     verify = _closure1_slot2;
                     oscard = 31;
@@ -417,7 +431,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = oscard.EmbeddedActivityLocationKind;
                     oscard = oscard.CONTEXTLESS;
                     report = golfie === oscard;
- 307:
+ 349:
                     zuuluu['isContextlessActivity'] = report;
                     zuuluu = tangon.bind(entity)(zuuluu);
                     zuuluu = _closure1_slot1;

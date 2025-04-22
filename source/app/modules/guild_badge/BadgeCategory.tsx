@@ -39,10 +39,6 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     golfie = 'STAFF';
     tangon[option] = golfie;
     option = 6;
-    tangon['CLAN'] = option;
-    golfie = 'CLAN';
-    tangon[option] = golfie;
-    option = 7;
     tangon['NONE'] = option;
     golfie = 'NONE';
     tangon[option] = golfie;
@@ -59,19 +55,19 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
  0:
             entity = argFoo;
             michal = entity.staff;
-            if(michal) { _fun00002_ip = 222; continue _fun00001 }
+            if(michal) { _fun00002_ip = 201; continue _fun00001 }
  15:
             michal = entity.verified;
             if(!michal) { _fun00002_ip = 36; continue _fun00001 }
  24:
             michal = entity.partnered;
-            if(michal) { _fun00002_ip = 207; continue _fun00001 }
+            if(michal) { _fun00002_ip = 186; continue _fun00001 }
  36:
             michal = entity.verified;
-            if(michal) { _fun00002_ip = 192; continue _fun00001 }
+            if(michal) { _fun00002_ip = 171; continue _fun00001 }
  48:
             michal = entity.partnered;
-            if(michal) { _fun00002_ip = 177; continue _fun00001 }
+            if(michal) { _fun00002_ip = 156; continue _fun00001 }
  57:
             michal = entity.community;
             if(!michal) { _fun00002_ip = 112; continue _fun00001 }
@@ -85,50 +81,42 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = oscard.bind(zuuluu)(report);
             zuuluu = zuuluu.GuildVisibility;
             zuuluu = zuuluu.PUBLIC;
-            if(!(tangon !== zuuluu)) { _fun00002_ip = 165; continue _fun00001 }
+            if(!(tangon !== zuuluu)) { _fun00002_ip = 144; continue _fun00001 }
  112:
-            tangon = entity.clan;
-            if(tangon) { _fun00002_ip = 153; continue _fun00001 }
- 124:
             entity = entity.community;
-            tangon = _closure1_slot2;
-            if(entity) { _fun00002_ip = 145; continue _fun00001 }
- 137:
-            entity = tangon.NONE;
-            _fun00002_ip = 151; continue _fun00001;
- 145:
-            entity = tangon.COMMUNITY;
- 151:
-            _fun00002_ip = 163; continue _fun00001;
- 153:
             zuuluu = _closure1_slot2;
-            entity = zuuluu.CLAN;
- 163:
-            _fun00002_ip = 175; continue _fun00001;
- 165:
+            if(entity) { _fun00002_ip = 136; continue _fun00001 }
+ 128:
+            entity = zuuluu.NONE;
+            _fun00002_ip = 142; continue _fun00001;
+ 136:
+            entity = zuuluu.COMMUNITY;
+ 142:
+            _fun00002_ip = 154; continue _fun00001;
+ 144:
             michal = _closure1_slot2;
             entity = michal.DISCOVERABLE;
- 175:
-            _fun00002_ip = 190; continue _fun00001;
- 177:
+ 154:
+            _fun00002_ip = 169; continue _fun00001;
+ 156:
             michal = _closure1_slot2;
             entity = michal.PARTNERED;
- 190:
-            _fun00002_ip = 205; continue _fun00001;
- 192:
+ 169:
+            _fun00002_ip = 184; continue _fun00001;
+ 171:
             michal = _closure1_slot2;
             entity = michal.VERIFIED;
- 205:
-            _fun00002_ip = 220; continue _fun00001;
- 207:
+ 184:
+            _fun00002_ip = 199; continue _fun00001;
+ 186:
             michal = _closure1_slot2;
             entity = michal.VERIFIED_AND_PARTNERED;
- 220:
-            _fun00002_ip = 235; continue _fun00001;
- 222:
+ 199:
+            _fun00002_ip = 214; continue _fun00001;
+ 201:
             michal = _closure1_slot2;
             entity = michal.STAFF;
- 235:
+ 214:
             return entity;
         }
     };

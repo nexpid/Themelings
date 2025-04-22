@@ -2517,7 +2517,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = argBar;
             oscard = entity.invite;
             option = entity.action;
-            verify = entity.inviter_id;
+            offset = entity.inviter_id;
+            verify = entity.invite_message_id;
             tangon = _closure1_slot1;
             zuuluu = _closure1_slot3;
             entity = 39;
@@ -2531,29 +2532,36 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal['action'] = option;
             option = oscard.code;
             michal['invite_code'] = option;
-            yankee = oscard.type;
+            romeon = oscard.type;
             oscard = null;
-            offset = oscard == yankee;
+            yankee = oscard == romeon;
             option = undefined;
-            if(offset) { _fun00058_ip = 104; continue _fun00057 }
- 95:
-            offset = yankee.toString;
-            option = offset.bind(yankee)();
- 104:
+            if(yankee) { _fun00058_ip = 110; continue _fun00057 }
+ 101:
+            yankee = romeon.toString;
+            option = yankee.bind(romeon)();
+ 110:
             michal['invite_type'] = option;
+            yankee = oscard != offset;
+            option = null;
+            if(!yankee) { _fun00058_ip = 127; continue _fun00057 }
+ 124:
+            option = offset;
+ 127:
+            michal['inviter_id'] = option;
             offset = oscard != verify;
             option = null;
-            if(!offset) { _fun00058_ip = 121; continue _fun00057 }
- 118:
+            if(!offset) { _fun00058_ip = 144; continue _fun00057 }
+ 141:
             option = verify;
- 121:
-            michal['inviter_id'] = option;
+ 144:
+            michal['invite_message_id'] = option;
             option = oscard != golfie;
             oscard = null;
-            if(!option) { _fun00058_ip = 138; continue _fun00057 }
- 135:
+            if(!option) { _fun00058_ip = 161; continue _fun00057 }
+ 158:
             oscard = golfie;
- 138:
+ 161:
             michal['location_stack'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return entity;

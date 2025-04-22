@@ -47,18 +47,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function(argFoo) { // Original name: useManageSubscriptionCardData
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            verify = argFoo;
+            option = argFoo;
             michal = _closure1_slot0;
-            option = _closure1_slot2;
+            verify = _closure1_slot2;
             entity = 8;
-            entity = option[entity];
+            entity = verify[entity];
             output = undefined;
             zuuluu = michal.bind(output)(entity);
             entity = zuuluu.getRoleSubscriptionPlanId;
-            entity = entity.bind(zuuluu)(verify);
+            entity = entity.bind(zuuluu)(option);
             var _closure2_slot0 = entity;
             entity = 9;
-            zuuluu = option[entity];
+            zuuluu = verify[entity];
             offset = michal.bind(output)(zuuluu);
             golfie = offset.useStateFromStores;
             zuuluu = _closure1_slot6;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             tangon = golfie.bind(offset)(oscard, tangon);
             var _closure2_slot1 = tangon;
-            oscard = option[entity];
+            oscard = verify[entity];
             offset = michal.bind(output)(oscard);
             golfie = offset.useStateFromStores;
             oscard = new Array(1);
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             zuuluu = golfie.bind(offset)(oscard, zuuluu);
             var _closure2_slot2 = zuuluu;
-            entity = option[entity];
+            entity = verify[entity];
             offset = michal.bind(output)(entity);
             golfie = offset.useStateFromStores;
             entity = _closure1_slot5;
@@ -137,13 +137,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = yankee[entity];
             var _closure2_slot5 = entity;
             entity = 10;
-            entity = option[entity];
+            entity = verify[entity];
             michal = michal.bind(output)(entity);
             entity = michal.useFetchSubscriptionsSettings;
             entity = entity.bind(michal)();
             entity = entity.fetchSubscriptionsSettings;
             var _closure2_slot6 = entity;
-            option = offset.useEffect;
+            verify = offset.useEffect;
             michal = new Array(3);
             michal[0] = oscard;
             michal[1] = golfie;
@@ -180,56 +180,55 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            entity = option.bind(offset)(entity, michal);
-            option = null;
-            entity = option == tangon;
+            entity = verify.bind(offset)(entity, michal);
+            verify = null;
+            entity = verify == tangon;
             michal = undefined;
-            if(entity) { _fun00002_ip = 621; continue _fun00001 }
+            if(entity) { _fun00002_ip = 617; continue _fun00001 }
  303:
             entity = {};
-            entity['subscription'] = verify;
+            entity['subscription'] = option;
             entity = entity.subscription;
             offset = _closure1_slot1;
-            verify = _closure1_slot2;
-            kiloes = 5;
-            verify = verify[kiloes];
-            offset = offset.bind(output)(verify);
-            verify = entity.currentPeriodEnd;
-            offset = offset.bind(output)(verify);
-            verify = offset.format;
-            yankee = 'M/D/YY';
-            backup = verify.bind(offset)(yankee);
-            verify = entity.price;
-            verify = option != verify;
+            option = _closure1_slot2;
+            yankee = 5;
+            option = option[yankee];
+            offset = offset.bind(output)(option);
+            option = entity.currentPeriodEnd;
+            romeon = offset.bind(output)(option);
+            option = romeon.format;
+            offset = 'M/D/YY';
+            backup = option.bind(romeon)(offset);
+            option = entity.price;
+            option = verify != option;
             romeon = '';
-            if(!verify) { _fun00002_ip = 424; continue _fun00001 }
+            if(!option) { _fun00002_ip = 424; continue _fun00001 }
  380:
-            offset = _closure1_slot0;
-            sizing = _closure1_slot2;
-            verify = 6;
-            verify = sizing[verify];
-            result = offset.bind(output)(verify);
-            sizing = result.formatPrice;
-            offset = entity.price;
-            verify = entity.currency;
-            romeon = sizing.bind(result)(offset, verify);
+            verify = _closure1_slot0;
+            kiloes = _closure1_slot2;
+            option = 6;
+            option = kiloes[option];
+            sizing = verify.bind(output)(option);
+            kiloes = sizing.formatPrice;
+            verify = entity.price;
+            option = entity.currency;
+            romeon = kiloes.bind(sizing)(verify, option);
  424:
-            offset = _closure1_slot1;
-            verify = _closure1_slot2;
-            verify = verify[kiloes];
-            offset = offset.bind(output)(verify);
-            verify = entity.createdAt;
-            offset = offset.bind(output)(verify);
-            verify = offset.format;
-            kiloes = verify.bind(offset)(yankee);
-            yankee = entity.status;
-            verify = _closure1_slot7;
-            offset = verify.CANCELED;
-            yankee = yankee === offset;
+            verify = _closure1_slot1;
+            option = _closure1_slot2;
+            option = option[yankee];
+            verify = verify.bind(output)(option);
+            option = entity.createdAt;
+            verify = verify.bind(output)(option);
+            option = verify.format;
+            kiloes = option.bind(verify)(offset);
             offset = entity.status;
-            verify = verify.PAST_DUE;
-            entity = entity.trialId;
-            option = option != entity;
+            option = _closure1_slot7;
+            verify = option.CANCELED;
+            yankee = offset === verify;
+            offset = entity.status;
+            verify = option.PAST_DUE;
+            option = entity.hasActiveTrial;
             entity = {};
             entity['memberSince'] = kiloes;
             entity['nextRenewalDate'] = backup;
@@ -243,15 +242,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = result[foxtra];
             foxtra = backup.bind(output)(foxtra);
             backup = foxtra.t;
-            if(yankee) { _fun00002_ip = 576; continue _fun00001 }
- 561:
+            if(yankee) { _fun00002_ip = 572; continue _fun00001 }
+ 557:
             foxtra = backup.CVjLcH;
             foxtra = kiloes.bind(sizing)(foxtra);
-            _fun00002_ip = 589; continue _fun00001;
- 576:
+            _fun00002_ip = 585; continue _fun00001;
+ 572:
             backup = backup.UAfot7;
             foxtra = kiloes.bind(sizing)(backup);
- 589:
+ 585:
             entity['nextRenewalLabel'] = foxtra;
             entity['subscriptionPrice'] = romeon;
             entity['isCancelled'] = yankee;
@@ -259,7 +258,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['isPastDue'] = verify;
             entity['isTrial'] = option;
             michal = entity;
- 621:
+ 617:
             entity = {};
             entity['guild'] = golfie;
             entity['expanded'] = oscard;

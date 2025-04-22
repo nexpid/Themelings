@@ -1450,7 +1450,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = undefined;
             entity = oscard.bind(report)(entity);
             entity = entity.SECTION_INDEX_CHANNEL_NOTICES;
-            if(!(entity !== tangon)) { _fun00022_ip = 1672; continue _fun00021 }
+            if(!(entity !== tangon)) { _fun00022_ip = 1653; continue _fun00021 }
  69:
             oscard = _closure1_slot0;
             entity = _closure1_slot2;
@@ -1670,77 +1670,72 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = null;
             oscard = tangon == option;
             entity = null;
-            if(oscard) { _fun00022_ip = 1670; continue _fun00021 }
+            if(oscard) { _fun00022_ip = 1651; continue _fun00021 }
  943:
             oscard = _closure1_slot20;
             oscard = oscard.GUILD_ROLE_SUBSCRIPTIONS;
-            if(!(oscard !== option)) { _fun00022_ip = 1615; continue _fun00021 }
+            if(!(oscard !== option)) { _fun00022_ip = 1596; continue _fun00021 }
  960:
             oscard = _closure1_slot20;
             oscard = oscard.GUILD_HOME;
-            if(!(oscard !== option)) { _fun00022_ip = 1558; continue _fun00021 }
+            if(!(oscard !== option)) { _fun00022_ip = 1539; continue _fun00021 }
  977:
             oscard = _closure1_slot20;
             oscard = oscard.CHANNELS_AND_ROLES;
-            if(!(oscard !== option)) { _fun00022_ip = 1478; continue _fun00021 }
+            if(!(oscard !== option)) { _fun00022_ip = 1459; continue _fun00021 }
  994:
             oscard = _closure1_slot20;
             oscard = oscard.GUILD_DIRECTORY;
-            if(!(oscard !== option)) { _fun00022_ip = 1397; continue _fun00021 }
+            if(!(oscard !== option)) { _fun00022_ip = 1378; continue _fun00021 }
  1011:
             oscard = _closure1_slot20;
             oscard = oscard.GUILD_NEW_MEMBER_ACTIONS_PROGRESS_BAR;
-            if(!(oscard !== option)) { _fun00022_ip = 1255; continue _fun00021 }
+            if(!(oscard !== option)) { _fun00022_ip = 1236; continue _fun00021 }
  1028:
             oscard = _closure1_slot20;
             oscard = oscard.GUILD_HUB_HEADER_OPTIONS;
-            if(!(oscard !== option)) { _fun00022_ip = 1214; continue _fun00021 }
+            if(!(oscard !== option)) { _fun00022_ip = 1195; continue _fun00021 }
  1045:
             oscard = _closure1_slot20;
             oscard = oscard.GUILD_SCHEDULED_EVENTS;
             entity = null;
-            if(!(oscard !== option)) { _fun00022_ip = 1670; continue _fun00021 }
+            if(!(oscard !== option)) { _fun00022_ip = 1651; continue _fun00021 }
  1064:
-            oscard = _closure1_slot20;
-            oscard = oscard.GUILD_MEMBER_APPLICATIONS;
-            entity = null;
-            if(!(oscard !== option)) { _fun00022_ip = 1670; continue _fun00021 }
- 1083:
             oscard = _closure1_slot20;
             oscard = oscard.GUILD_MOD_DASH_MEMBER_SAFETY;
             entity = null;
-            if(!(oscard !== option)) { _fun00022_ip = 1670; continue _fun00021 }
- 1102:
+            if(!(oscard !== option)) { _fun00022_ip = 1651; continue _fun00021 }
+ 1083:
             oscard = _closure1_slot20;
             oscard = oscard.GUILD_FAVORITES;
             entity = null;
-            if(!(oscard !== option)) { _fun00022_ip = 1670; continue _fun00021 }
- 1121:
+            if(!(oscard !== option)) { _fun00022_ip = 1651; continue _fun00021 }
+ 1102:
             oscard = _closure1_slot20;
             oscard = oscard.GUILD_CHANNEL_LIST_OPT_IN_NOTICE;
             entity = null;
-            if(!(oscard !== option)) { _fun00022_ip = 1670; continue _fun00021 }
- 1140:
+            if(!(oscard !== option)) { _fun00022_ip = 1651; continue _fun00021 }
+ 1121:
             oscard = _closure1_slot20;
             oscard = oscard.GUILD_SHOP;
             entity = null;
-            if(!(oscard !== option)) { _fun00022_ip = 1670; continue _fun00021 }
- 1159:
+            if(!(oscard !== option)) { _fun00022_ip = 1651; continue _fun00021 }
+ 1140:
             oscard = _closure1_slot20;
             oscard = oscard.BROWSE_CHANNELS;
             entity = null;
-            if(!(oscard !== option)) { _fun00022_ip = 1670; continue _fun00021 }
- 1178:
+            if(!(oscard !== option)) { _fun00022_ip = 1651; continue _fun00021 }
+ 1159:
             oscard = _closure1_slot20;
             oscard = oscard.GUILD_PREMIUM_PROGRESS_BAR;
             entity = null;
-            if(!(oscard !== option)) { _fun00022_ip = 1670; continue _fun00021 }
- 1197:
+            if(!(oscard !== option)) { _fun00022_ip = 1651; continue _fun00021 }
+ 1178:
             oscard = _closure1_slot20;
             oscard = oscard.GUILD_BOOSTS;
             entity = null;
-            _fun00022_ip = 1670; continue _fun00021;
- 1214:
+            _fun00022_ip = 1651; continue _fun00021;
+ 1195:
             option = _closure1_slot21;
             oscard = _closure1_slot1;
             verify = _closure1_slot2;
@@ -1750,8 +1745,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = {};
             tangon['guild'] = offset;
             entity = option.bind(report)(oscard, tangon);
-            _fun00022_ip = 1670; continue _fun00021;
- 1255:
+            _fun00022_ip = 1651; continue _fun00021;
+ 1236:
             option = _closure1_slot22;
             oscard = _closure1_slot4;
             tangon = {};
@@ -1785,8 +1780,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify[1] = romeon;
             tangon['children'] = verify;
             entity = option.bind(report)(oscard, tangon);
-            _fun00022_ip = 1670; continue _fun00021;
- 1397:
+            _fun00022_ip = 1651; continue _fun00021;
+ 1378:
             option = _closure1_slot9;
             oscard = option.getDirectoryChannelIds;
             tangon = offset.id;
@@ -1805,8 +1800,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = yankee === verify;
             tangon['selected'] = verify;
             entity = option.bind(report)(oscard, tangon);
-            _fun00022_ip = 1670; continue _fun00021;
- 1478:
+            _fun00022_ip = 1651; continue _fun00021;
+ 1459:
             option = _closure1_slot21;
             oscard = _closure1_slot0;
             verify = _closure1_slot2;
@@ -1819,16 +1814,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = _closure1_slot17;
             verify = verify.CHANNEL_BROWSER;
             verify = yankee === verify;
-            if(verify) { _fun00022_ip = 1545; continue _fun00021 }
- 1531:
+            if(verify) { _fun00022_ip = 1526; continue _fun00021 }
+ 1512:
             romeon = _closure1_slot17;
             romeon = romeon.CUSTOMIZE_COMMUNITY;
             verify = yankee === romeon;
- 1545:
+ 1526:
             tangon['selected'] = verify;
             entity = option.bind(report)(oscard, tangon);
-            _fun00022_ip = 1670; continue _fun00021;
- 1558:
+            _fun00022_ip = 1651; continue _fun00021;
+ 1539:
             option = _closure1_slot21;
             oscard = _closure1_slot1;
             verify = _closure1_slot2;
@@ -1842,8 +1837,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = yankee === verify;
             tangon['selected'] = verify;
             entity = option.bind(report)(oscard, tangon);
-            _fun00022_ip = 1670; continue _fun00021;
- 1615:
+            _fun00022_ip = 1651; continue _fun00021;
+ 1596:
             option = _closure1_slot21;
             oscard = _closure1_slot1;
             verify = _closure1_slot2;
@@ -1857,9 +1852,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = yankee === verify;
             tangon['selected'] = verify;
             entity = option.bind(report)(oscard, tangon);
- 1670:
+ 1651:
             return entity;
- 1672:
+ 1653:
             entity = michal.getChannelNoticeSection;
             michal = entity.bind(michal)();
             entity = michal.getRow;
@@ -1867,25 +1862,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = null;
             michal = tangon == zuuluu;
             entity = null;
-            if(michal) { _fun00022_ip = 1999; continue _fun00021 }
- 1707:
+            if(michal) { _fun00022_ip = 1980; continue _fun00021 }
+ 1688:
             michal = _closure1_slot19;
             michal = michal.SPACER;
-            if(!(michal !== zuuluu)) { _fun00022_ip = 1969; continue _fun00021 }
- 1724:
+            if(!(michal !== zuuluu)) { _fun00022_ip = 1950; continue _fun00021 }
+ 1705:
             michal = _closure1_slot19;
             michal = michal.GUILD_PROGRESS;
-            if(!(michal !== zuuluu)) { _fun00022_ip = 1897; continue _fun00021 }
- 1741:
+            if(!(michal !== zuuluu)) { _fun00022_ip = 1878; continue _fun00021 }
+ 1722:
             michal = _closure1_slot19;
             michal = michal.MFA_WARNING;
-            if(!(michal !== zuuluu)) { _fun00022_ip = 1829; continue _fun00021 }
- 1755:
+            if(!(michal !== zuuluu)) { _fun00022_ip = 1810; continue _fun00021 }
+ 1736:
             michal = _closure1_slot19;
             michal = michal.LIVE_CHANNEL_NOTICE;
             entity = null;
-            if(!(michal === zuuluu)) { _fun00022_ip = 1999; continue _fun00021 }
- 1774:
+            if(!(michal === zuuluu)) { _fun00022_ip = 1980; continue _fun00021 }
+ 1755:
             tangon = _closure1_slot21;
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot2;
@@ -1898,8 +1893,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['style'] = oscard;
             michal['guild'] = offset;
             entity = tangon.bind(report)(zuuluu, michal);
-            _fun00022_ip = 1999; continue _fun00021;
- 1829:
+            _fun00022_ip = 1980; continue _fun00021;
+ 1810:
             tangon = _closure1_slot21;
             zuuluu = _closure1_slot4;
             michal = {};
@@ -1916,8 +1911,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = verify.bind(report)(option, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
-            _fun00022_ip = 1999; continue _fun00021;
- 1897:
+            _fun00022_ip = 1980; continue _fun00021;
+ 1878:
             tangon = _closure1_slot21;
             zuuluu = _closure1_slot4;
             michal = {};
@@ -1935,8 +1930,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = verify.bind(report)(option, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
-            _fun00022_ip = 1999; continue _fun00021;
- 1969:
+            _fun00022_ip = 1980; continue _fun00021;
+ 1950:
             tangon = _closure1_slot21;
             zuuluu = _closure1_slot4;
             michal = {};
@@ -1945,7 +1940,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['height'] = golfie;
             michal['style'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1999:
+ 1980:
             return entity;
         }
     };
@@ -1968,7 +1963,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = undefined;
             entity = option.bind(oscard)(entity);
             entity = entity.SECTION_INDEX_CHANNEL_NOTICES;
-            if(!(entity !== backup)) { _fun00024_ip = 1194; continue _fun00023 }
+            if(!(entity !== backup)) { _fun00024_ip = 1175; continue _fun00023 }
  82:
             option = _closure1_slot0;
             entity = _closure1_slot2;
@@ -2178,84 +2173,79 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             verify = entity == offset;
             entity = 0;
-            if(verify) { _fun00024_ip = 1192; continue _fun00023 }
+            if(verify) { _fun00024_ip = 1173; continue _fun00023 }
  882:
             verify = _closure1_slot13;
             romeon = verify.bind(oscard)(report);
             verify = _closure1_slot20;
             verify = verify.GUILD_ROLE_SUBSCRIPTIONS;
             entity = romeon;
-            if(!(verify !== offset)) { _fun00024_ip = 1192; continue _fun00023 }
+            if(!(verify !== offset)) { _fun00024_ip = 1173; continue _fun00023 }
  911:
             verify = _closure1_slot20;
             verify = verify.GUILD_HOME;
             entity = romeon;
-            if(!(verify !== offset)) { _fun00024_ip = 1192; continue _fun00023 }
+            if(!(verify !== offset)) { _fun00024_ip = 1173; continue _fun00023 }
  931:
             verify = _closure1_slot20;
             verify = verify.CHANNELS_AND_ROLES;
             entity = romeon;
-            if(!(verify !== offset)) { _fun00024_ip = 1192; continue _fun00023 }
+            if(!(verify !== offset)) { _fun00024_ip = 1173; continue _fun00023 }
  951:
             verify = _closure1_slot20;
             verify = verify.GUILD_DIRECTORY;
             entity = romeon;
-            if(!(verify !== offset)) { _fun00024_ip = 1192; continue _fun00023 }
+            if(!(verify !== offset)) { _fun00024_ip = 1173; continue _fun00023 }
  971:
             verify = _closure1_slot20;
             verify = verify.GUILD_NEW_MEMBER_ACTIONS_PROGRESS_BAR;
-            if(!(verify !== offset)) { _fun00024_ip = 1159; continue _fun00023 }
+            if(!(verify !== offset)) { _fun00024_ip = 1140; continue _fun00023 }
  988:
             verify = _closure1_slot20;
             verify = verify.GUILD_HUB_HEADER_OPTIONS;
             entity = yankee;
-            if(!(verify !== offset)) { _fun00024_ip = 1192; continue _fun00023 }
+            if(!(verify !== offset)) { _fun00024_ip = 1173; continue _fun00023 }
  1008:
             verify = _closure1_slot20;
             verify = verify.GUILD_SCHEDULED_EVENTS;
             entity = 0;
-            if(!(verify !== offset)) { _fun00024_ip = 1192; continue _fun00023 }
+            if(!(verify !== offset)) { _fun00024_ip = 1173; continue _fun00023 }
  1027:
-            verify = _closure1_slot20;
-            verify = verify.GUILD_MEMBER_APPLICATIONS;
-            entity = 0;
-            if(!(verify !== offset)) { _fun00024_ip = 1192; continue _fun00023 }
- 1046:
             verify = _closure1_slot20;
             verify = verify.GUILD_MOD_DASH_MEMBER_SAFETY;
             entity = 0;
-            if(!(verify !== offset)) { _fun00024_ip = 1192; continue _fun00023 }
- 1065:
+            if(!(verify !== offset)) { _fun00024_ip = 1173; continue _fun00023 }
+ 1046:
             verify = _closure1_slot20;
             verify = verify.GUILD_FAVORITES;
             entity = 0;
-            if(!(verify !== offset)) { _fun00024_ip = 1192; continue _fun00023 }
- 1081:
+            if(!(verify !== offset)) { _fun00024_ip = 1173; continue _fun00023 }
+ 1062:
             verify = _closure1_slot20;
             verify = verify.GUILD_CHANNEL_LIST_OPT_IN_NOTICE;
             entity = 0;
-            if(!(verify !== offset)) { _fun00024_ip = 1192; continue _fun00023 }
- 1097:
+            if(!(verify !== offset)) { _fun00024_ip = 1173; continue _fun00023 }
+ 1078:
             verify = _closure1_slot20;
             verify = verify.GUILD_SHOP;
             entity = 0;
-            if(!(verify !== offset)) { _fun00024_ip = 1192; continue _fun00023 }
- 1113:
+            if(!(verify !== offset)) { _fun00024_ip = 1173; continue _fun00023 }
+ 1094:
             verify = _closure1_slot20;
             verify = verify.BROWSE_CHANNELS;
             entity = 0;
-            if(!(verify !== offset)) { _fun00024_ip = 1192; continue _fun00023 }
- 1129:
+            if(!(verify !== offset)) { _fun00024_ip = 1173; continue _fun00023 }
+ 1110:
             verify = _closure1_slot20;
             verify = verify.GUILD_PREMIUM_PROGRESS_BAR;
             entity = 0;
-            if(!(verify !== offset)) { _fun00024_ip = 1192; continue _fun00023 }
- 1145:
+            if(!(verify !== offset)) { _fun00024_ip = 1173; continue _fun00023 }
+ 1126:
             verify = _closure1_slot20;
             verify = verify.GUILD_BOOSTS;
             entity = 0;
-            _fun00024_ip = 1192; continue _fun00023;
- 1159:
+            _fun00024_ip = 1173; continue _fun00023;
+ 1140:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             option = 29;
@@ -2264,9 +2254,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = option.DIVIDER_HEIGHT;
             option = 48;
             entity = option + verify;
- 1192:
+ 1173:
             return entity;
- 1194:
+ 1175:
             entity = tangon.getChannelNoticeSection;
             tangon = entity.bind(tangon)();
             entity = tangon.getRow;
@@ -2274,28 +2264,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             tangon = entity == golfie;
             entity = 0;
-            if(tangon) { _fun00024_ip = 1362; continue _fun00023 }
- 1229:
+            if(tangon) { _fun00024_ip = 1343; continue _fun00023 }
+ 1210:
             tangon = _closure1_slot19;
             tangon = tangon.SPACER;
-            if(!(tangon !== golfie)) { _fun00024_ip = 1358; continue _fun00023 }
- 1243:
+            if(!(tangon !== golfie)) { _fun00024_ip = 1339; continue _fun00023 }
+ 1224:
             tangon = _closure1_slot19;
             tangon = tangon.GUILD_PROGRESS;
-            if(!(tangon !== golfie)) { _fun00024_ip = 1325; continue _fun00023 }
- 1257:
+            if(!(tangon !== golfie)) { _fun00024_ip = 1306; continue _fun00023 }
+ 1238:
             tangon = _closure1_slot19;
             tangon = tangon.MFA_WARNING;
-            if(!(tangon !== golfie)) { _fun00024_ip = 1292; continue _fun00023 }
- 1271:
+            if(!(tangon !== golfie)) { _fun00024_ip = 1273; continue _fun00023 }
+ 1252:
             tangon = _closure1_slot19;
             tangon = tangon.LIVE_CHANNEL_NOTICE;
             entity = 0;
-            if(!(tangon === golfie)) { _fun00024_ip = 1362; continue _fun00023 }
- 1287:
+            if(!(tangon === golfie)) { _fun00024_ip = 1343; continue _fun00023 }
+ 1268:
             entity = zuuluu;
-            _fun00024_ip = 1362; continue _fun00023;
- 1292:
+            _fun00024_ip = 1343; continue _fun00023;
+ 1273:
             tangon = _closure1_slot0;
             golfie = _closure1_slot2;
             zuuluu = 16;
@@ -2303,8 +2293,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon.bind(oscard)(zuuluu);
             zuuluu = tangon.getScaledGuildMFAWarningHeight;
             entity = zuuluu.bind(tangon)(report);
-            _fun00024_ip = 1362; continue _fun00023;
- 1325:
+            _fun00024_ip = 1343; continue _fun00023;
+ 1306:
             tangon = _closure1_slot0;
             golfie = _closure1_slot2;
             zuuluu = 17;
@@ -2312,10 +2302,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon.bind(oscard)(zuuluu);
             zuuluu = tangon.getScaledGuildProgressButtonHeight;
             entity = zuuluu.bind(tangon)(report);
-            _fun00024_ip = 1362; continue _fun00023;
- 1358:
+            _fun00024_ip = 1343; continue _fun00023;
+ 1339:
             entity = _closure1_slot15;
- 1362:
+ 1343:
             return entity;
         }
     };

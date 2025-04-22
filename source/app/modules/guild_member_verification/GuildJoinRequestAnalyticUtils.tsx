@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['trackMemberApplicationAction'] = tangon;
-    michal = function(argFoo) { // Original name: trackMemberApplicationInterviewMessage
+    tangon = function(argFoo) { // Original name: trackMemberApplicationInterviewMessage
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
@@ -130,6 +130,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['trackMemberApplicationInterviewMessage'] = michal;
+    zuuluu['trackMemberApplicationInterviewMessage'] = tangon;
+    michal = function(argFoo) { // Original name: trackMemberVerificationApplicationViewed
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        entity = 3;
+        zuuluu = zuuluu[entity];
+        entity = undefined;
+        report = tangon.bind(entity)(zuuluu);
+        tangon = report.track;
+        michal = _closure1_slot4;
+        zuuluu = michal.MEMBER_VERIFICATION_APPLICATION_VIEWED;
+        michal = {};
+        oscard = argFoo;
+        michal['guild_id'] = oscard;
+        michal = tangon.bind(report)(zuuluu, michal);
+        return entity;
+    };
+    zuuluu['trackMemberVerificationApplicationViewed'] = michal;
     return entity;
 })();

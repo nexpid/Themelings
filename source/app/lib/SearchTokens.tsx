@@ -2086,7 +2086,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['refreshSearchTokens'] = tangon;
-    michal = function(argFoo) { // Original name: getFilterAutocompletions
+    tangon = function(argFoo) { // Original name: getFilterAutocompletions
         _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
             zuuluu = arguments[1];
@@ -2167,6 +2167,51 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['getFilterAutocompletions'] = michal;
+    zuuluu['getFilterAutocompletions'] = tangon;
+    michal = function(argFoo) { // Original name: isMeAutcompleteAnswer
+        _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
+ 0:
+            michal = argFoo;
+            zuuluu = michal.length;
+            entity = 0;
+            if(!(entity !== zuuluu)) { _fun00028_ip = 161; continue _fun00027 }
+ 17:
+            entity = michal.toLowerCase;
+            tangon = entity.bind(michal)();
+            zuuluu = tangon.replace;
+            michal = /^@/;
+            entity = '';
+            tangon = zuuluu.bind(tangon)(michal, entity);
+            golfie = _closure1_slot0;
+            option = _closure1_slot2;
+            entity = 11;
+            zuuluu = option[entity];
+            oscard = undefined;
+            zuuluu = golfie.bind(oscard)(zuuluu);
+            report = zuuluu.intl;
+            zuuluu = report.string;
+            entity = option[entity];
+            entity = golfie.bind(oscard)(entity);
+            entity = entity.t;
+            entity = entity.Qf3ptr;
+            zuuluu = zuuluu.bind(report)(entity);
+            entity = zuuluu.startsWith;
+            entity = entity.bind(zuuluu)(tangon);
+            if(entity) { _fun00028_ip = 159; continue _fun00027 }
+ 130:
+            report = _closure1_slot13;
+            zuuluu = report.substring;
+            michal = 1;
+            zuuluu = zuuluu.bind(report)(michal);
+            michal = zuuluu.startsWith;
+            entity = michal.bind(zuuluu)(tangon);
+ 159:
+            return entity;
+ 161:
+            entity = false;
+            return entity;
+        }
+    };
+    zuuluu['isMeAutcompleteAnswer'] = michal;
     return entity;
 })();

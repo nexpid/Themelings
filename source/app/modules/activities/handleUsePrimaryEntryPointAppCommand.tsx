@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 214; continue _fun00001 }
+                    if(oscard) { _fun00002_ip = 183; continue _fun00001 }
  15:
                     zuuluu = michal;
                     var _closure4_slot0 = michal;
@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = undefined;
                     oscard = michal.targetApplicationId;
                     michal = null;
-                    if(!(michal != oscard)) { _fun00002_ip = 209; continue _fun00001 }
+                    if(!(michal != oscard)) { _fun00002_ip = 178; continue _fun00001 }
  45:
                     michal = false;
                     report = false;
@@ -47,24 +47,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return zuuluu;
  93:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 201; continue _fun00001 }
+                    if(golfie) { _fun00002_ip = 170; continue _fun00001 }
  99:
                     _closure4_slot1 = zuuluu;
-                    foxtra = _closure1_slot0;
-                    backup = _closure1_slot3;
+                    offset = _closure1_slot0;
+                    golfie = _closure1_slot3;
                     verify = 5;
-                    golfie = backup[verify];
-                    yankee = foxtra.bind(option)(golfie);
-                    offset = yankee.shouldOpenActivityInPopoutWindow;
-                    golfie = {};
-                    romeon = 6;
-                    romeon = backup[romeon];
-                    foxtra = foxtra.bind(option)(romeon);
-                    romeon = foxtra.isContextlessActivitiesEnabledForApp;
-                    romeon = romeon.bind(foxtra)(zuuluu);
-                    golfie['isContextless'] = romeon;
-                    report = offset.bind(yankee)(golfie);
- 164: // try_end0
+                    golfie = golfie[verify];
+                    offset = offset.bind(option)(golfie);
+                    golfie = offset.shouldOpenActivityInPopoutWindow;
+                    report = golfie.bind(offset)();
+ 133: // try_end0
                     golfie = _closure1_slot0;
                     oscard = _closure1_slot3;
                     oscard = oscard[verify];
@@ -94,15 +87,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     tangon = oscard.bind(golfie)(report, tangon);
                     return tangon;
- 201:
+ 170:
                     return zuuluu;
- 204: // catch_target0
+ 173: // catch_target0
                     CatchBlockStart(arg_register=2);
                     return michal;
- 209:
+ 178:
                     michal = false;
                     return michal;
- 214:
+ 183:
                     return entity;
                 }
             };
@@ -154,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  104:
                     report = _closure1_slot1;
                     oscard = _closure1_slot3;
-                    zuuluu = 7;
+                    zuuluu = 6;
                     zuuluu = oscard[zuuluu];
                     zuuluu = report.bind(golfie)(zuuluu);
                     ctrled = zuuluu.bind(golfie)();
@@ -179,14 +172,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  194:
                     verify = _closure1_slot2;
                     offset = _closure1_slot3;
-                    report = 9;
+                    report = 8;
                     report = offset[report];
                     sequen = verify.bind(golfie)(report);
                     verify = sequen.markActivityUsed;
                     report = option.id;
                     report = verify.bind(sequen)(report);
                     verify = _closure1_slot0;
-                    report = 10;
+                    report = 9;
                     report = offset[report];
                     offset = verify.bind(golfie)(report);
                     verify = offset.runPrimaryAppCommandOrJoinEmbeddedActivity;
@@ -226,7 +219,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  364:
                     oscard = _closure1_slot0;
                     verify = _closure1_slot3;
-                    report = 8;
+                    report = 7;
                     report = verify[report];
                     report = oscard.bind(golfie)(report);
                     golfie = report.ComponentDispatch;
@@ -286,7 +279,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.ComponentActions;
     var _closure1_slot7 = tangon;
-    tangon = 11;
+    tangon = 10;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

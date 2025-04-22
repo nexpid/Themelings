@@ -284,7 +284,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.SECTION_INDEX_GUILD_ACTIONS;
             michal = offset[michal];
             option = 0;
-            if(!(michal > option)) { _fun00008_ip = 126; continue _fun00007 }
+            if(!(michal > option)) { _fun00008_ip = 109; continue _fun00007 }
  57:
             michal = yankee.getGuildActionSection;
             zuuluu = michal.bind(yankee)();
@@ -292,16 +292,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.bind(zuuluu)(option);
             michal = _closure1_slot11;
             michal = michal.GUILD_HOME;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 258; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00008_ip = 229; continue _fun00007 }
  95:
             michal = _closure1_slot11;
             michal = michal.GUILD_ROLE_SUBSCRIPTIONS;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 246; continue _fun00007 }
- 112:
-            michal = _closure1_slot11;
-            michal = michal.GUILD_MEMBER_APPLICATIONS;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 234; continue _fun00007 }
- 126:
+            if(!(michal !== zuuluu)) { _fun00008_ip = 217; continue _fun00007 }
+ 109:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
             michal = michal[tangon];
@@ -312,40 +308,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = null;
             oscard = undefined;
             report = undefined;
-            if(!michal) { _fun00008_ip = 225; continue _fun00007 }
- 168:
+            if(!michal) { _fun00008_ip = 208; continue _fun00007 }
+ 151:
             michal = offset[golfie];
-            if(!(michal > option)) { _fun00008_ip = 212; continue _fun00007 }
- 176:
+            if(!(michal > option)) { _fun00008_ip = 195; continue _fun00007 }
+ 159:
             michal = yankee.getChannelFromSectionRow;
             tangon = michal.bind(yankee)(golfie, option);
             romeon = zuuluu == tangon;
             michal = undefined;
-            if(romeon) { _fun00008_ip = 202; continue _fun00007 }
- 197:
+            if(romeon) { _fun00008_ip = 185; continue _fun00007 }
+ 180:
             michal = tangon.channel;
- 202:
+ 185:
             oscard = tangon;
             report = michal;
-            if(!(zuuluu == report)) { _fun00008_ip = 227; continue _fun00007 }
- 212:
+            if(!(zuuluu == report)) { _fun00008_ip = 210; continue _fun00007 }
+ 195:
             golfie = golfie + 1;
             tangon = yankee.voiceChannelsSectionNumber;
-            if(golfie < tangon) { _fun00008_ip = 168; continue _fun00007 }
- 225:
+            if(golfie < tangon) { _fun00008_ip = 151; continue _fun00007 }
+ 208:
             return zuuluu;
- 227:
+ 210:
             michal = michal.id;
             return michal;
- 234:
-            michal = _closure1_slot10;
-            michal = michal.MEMBER_APPLICATIONS;
-            return michal;
- 246:
+ 217:
             michal = _closure1_slot10;
             michal = michal.ROLE_SUBSCRIPTIONS;
             return michal;
- 258:
+ 229:
             entity = _closure1_slot10;
             entity = entity.GUILD_HOME;
             return entity;

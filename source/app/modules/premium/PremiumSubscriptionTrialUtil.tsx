@@ -51,28 +51,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
-            entity = 4;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.useStateFromStores;
-            michal = _closure1_slot3;
-            zuuluu = new Array(1);
-            zuuluu[0] = michal;
-            michal = function() {
+            michal = 4;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            tangon = tangon.bind(michal)(zuuluu);
+            zuuluu = tangon.useStateFromStores;
+            entity = _closure1_slot3;
+            michal = new Array(1);
+            michal[0] = entity;
+            entity = function() {
                 michal = _closure1_slot3;
                 entity = michal.getPremiumTypeSubscription;
                 entity = entity.bind(michal)();
                 return entity;
             };
-            zuuluu = tangon.bind(report)(zuuluu, michal);
-            michal = null;
-            tangon = michal == zuuluu;
-            if(tangon) { _fun00002_ip = 72; continue _fun00001 }
+            michal = zuuluu.bind(tangon)(michal, entity);
+            entity = null;
+            entity = entity == michal;
+            if(entity) { _fun00002_ip = 75; continue _fun00001 }
  66:
-            entity = zuuluu.trialId;
- 72:
-            entity = michal != entity;
+            michal = michal.hasActiveTrial;
+            entity = !michal;
+ 75:
+            entity = !entity;
             return entity;
         }
     };
@@ -170,24 +171,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             zuuluu = tangon.bind(oscard)(zuuluu, entity);
             tangon = null;
-            oscard = tangon == report;
-            entity = undefined;
-            if(oscard) { _fun00008_ip = 113; continue _fun00007 }
- 107:
-            entity = report.trialId;
- 113:
-            report = tangon != entity;
+            oscard = tangon != report;
             entity = null;
-            if(!report) { _fun00008_ip = 140; continue _fun00007 }
- 122:
+            if(!oscard) { _fun00008_ip = 136; continue _fun00007 }
+ 107:
+            report = report.hasActiveTrial;
+            entity = null;
+            if(!report) { _fun00008_ip = 136; continue _fun00007 }
+ 118:
             tangon = tangon == zuuluu;
             michal = undefined;
-            if(tangon) { _fun00008_ip = 137; continue _fun00007 }
- 131:
+            if(tangon) { _fun00008_ip = 133; continue _fun00007 }
+ 127:
             michal = zuuluu.premiumType;
- 137:
+ 133:
             entity = michal;
- 140:
+ 136:
             return entity;
         }
     };

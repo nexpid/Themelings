@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = report.bind(oscard)(entity);
             entity = entity.GuildVisibility;
             entity = entity.PUBLIC;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 196; continue _fun00001 }
+            if(!(zuuluu !== entity)) { _fun00002_ip = 198; continue _fun00001 }
  49:
             report = _closure1_slot0;
             entity = _closure1_slot1;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.t;
             entity = entity.TME4LC;
             zuuluu = zuuluu.bind(report)(entity);
-            _fun00002_ip = 194; continue _fun00001;
+            _fun00002_ip = 196; continue _fun00001;
  139:
             option = _closure1_slot0;
             verify = _closure1_slot1;
@@ -69,9 +69,9 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.t;
             entity = entity.YwZfbm;
             zuuluu = report.bind(golfie)(entity);
- 194:
-            _fun00002_ip = 251; continue _fun00001;
  196:
+            _fun00002_ip = 253; continue _fun00001;
+ 198:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             entity = 1;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity.t;
             entity = entity.op2cJy;
             zuuluu = report.bind(golfie)(entity);
- 251:
+ 253:
             report = _closure1_slot0;
             entity = _closure1_slot1;
             golfie = 2;
@@ -92,56 +92,48 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = report.bind(oscard)(entity);
             entity = entity.BadgeCategory;
             entity = entity.STAFF;
-            if(!(entity !== tangon)) { _fun00002_ip = 1226; continue _fun00001 }
- 290:
+            if(!(entity !== tangon)) { _fun00002_ip = 1077; continue _fun00001 }
+ 292:
             report = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[golfie];
             entity = report.bind(oscard)(entity);
             entity = entity.BadgeCategory;
             entity = entity.VERIFIED;
-            if(!(entity !== tangon)) { _fun00002_ip = 1106; continue _fun00001 }
- 326:
+            if(!(entity !== tangon)) { _fun00002_ip = 957; continue _fun00001 }
+ 328:
             report = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[golfie];
             entity = report.bind(oscard)(entity);
             entity = entity.BadgeCategory;
             entity = entity.PARTNERED;
-            if(!(entity !== tangon)) { _fun00002_ip = 986; continue _fun00001 }
- 362:
+            if(!(entity !== tangon)) { _fun00002_ip = 837; continue _fun00001 }
+ 364:
             report = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[golfie];
             entity = report.bind(oscard)(entity);
             entity = entity.BadgeCategory;
             entity = entity.VERIFIED_AND_PARTNERED;
-            if(!(entity !== tangon)) { _fun00002_ip = 866; continue _fun00001 }
- 398:
+            if(!(entity !== tangon)) { _fun00002_ip = 717; continue _fun00001 }
+ 400:
             report = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[golfie];
             entity = report.bind(oscard)(entity);
             entity = entity.BadgeCategory;
             entity = entity.COMMUNITY;
-            if(!(entity !== tangon)) { _fun00002_ip = 797; continue _fun00001 }
- 434:
+            if(!(entity !== tangon)) { _fun00002_ip = 648; continue _fun00001 }
+ 436:
             report = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[golfie];
             entity = report.bind(oscard)(entity);
             entity = entity.BadgeCategory;
             entity = entity.DISCOVERABLE;
-            if(!(entity !== tangon)) { _fun00002_ip = 684; continue _fun00001 }
- 470:
-            report = _closure1_slot0;
-            entity = _closure1_slot1;
-            entity = entity[golfie];
-            entity = report.bind(oscard)(entity);
-            entity = entity.BadgeCategory;
-            entity = entity.CLAN;
-            if(!(entity !== tangon)) { _fun00002_ip = 569; continue _fun00001 }
- 503:
+            if(!(entity !== tangon)) { _fun00002_ip = 535; continue _fun00001 }
+ 469:
             entity = {};
             option = _closure1_slot0;
             verify = _closure1_slot1;
@@ -157,33 +149,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             tangon = report.bind(golfie)(tangon);
             entity['tooltipTitle'] = tangon;
             return entity;
- 569:
-            entity = {};
-            option = _closure1_slot0;
-            verify = _closure1_slot1;
-            tangon = 1;
-            report = verify[tangon];
-            report = option.bind(oscard)(report);
-            offset = report.intl;
-            golfie = offset.string;
-            report = verify[tangon];
-            report = option.bind(oscard)(report);
-            report = report.t;
-            report = report.5K6LdX;
-            report = golfie.bind(offset)(report);
-            entity['tooltipTitle'] = report;
-            report = verify[tangon];
-            report = option.bind(oscard)(report);
-            golfie = report.intl;
-            report = golfie.string;
-            tangon = verify[tangon];
-            tangon = option.bind(oscard)(tangon);
-            tangon = tangon.t;
-            tangon = tangon.YwZfbm;
-            tangon = report.bind(golfie)(tangon);
-            entity['tooltipDescription'] = tangon;
-            return entity;
- 684:
+ 535:
             entity = {};
             option = _closure1_slot0;
             verify = _closure1_slot1;
@@ -209,7 +175,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             tangon = report.bind(golfie)(tangon);
             entity['tooltipDescription'] = tangon;
             return entity;
- 797:
+ 648:
             entity = {};
             option = _closure1_slot0;
             verify = _closure1_slot1;
@@ -226,7 +192,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity['tooltipTitle'] = tangon;
             entity['tooltipDescription'] = zuuluu;
             return entity;
- 866:
+ 717:
             entity = {};
             option = _closure1_slot0;
             verify = _closure1_slot1;
@@ -253,7 +219,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity['tooltipSubtitle'] = tangon;
             entity['tooltipDescription'] = zuuluu;
             return entity;
- 986:
+ 837:
             entity = {};
             option = _closure1_slot0;
             verify = _closure1_slot1;
@@ -280,7 +246,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity['tooltipSubtitle'] = tangon;
             entity['tooltipDescription'] = zuuluu;
             return entity;
- 1106:
+ 957:
             entity = {};
             option = _closure1_slot0;
             verify = _closure1_slot1;
@@ -307,7 +273,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity['tooltipSubtitle'] = tangon;
             entity['tooltipDescription'] = zuuluu;
             return entity;
- 1226:
+ 1077:
             entity = {};
             report = _closure1_slot0;
             golfie = _closure1_slot1;

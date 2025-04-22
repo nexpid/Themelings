@@ -23,6 +23,27 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/guild_tag/GuildTagUtils.tsx';
     tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: guildHasTag
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            zuuluu = argFoo;
+            michal = null;
+            tangon = michal == zuuluu;
+            entity = undefined;
+            if(tangon) { _fun00002_ip = 34; continue _fun00001 }
+ 14:
+            zuuluu = zuuluu.profile;
+            tangon = michal == zuuluu;
+            entity = undefined;
+            if(tangon) { _fun00002_ip = 34; continue _fun00001 }
+ 29:
+            entity = zuuluu.tag;
+ 34:
+            entity = michal != entity;
+            return entity;
+        }
+    };
+    zuuluu['guildHasTag'] = tangon;
     michal = function(argFoo) { // Original name: guildSupportsTags
         zuuluu = argFoo;
         michal = zuuluu.hasFeature;

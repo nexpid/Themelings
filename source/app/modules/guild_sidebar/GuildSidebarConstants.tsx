@@ -24,8 +24,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['GUILD_ROLE_SUBSCRIPTIONS'] = entity;
     entity = 'shop';
     tangon['GUILD_SHOP'] = entity;
-    entity = 'member-applications';
-    tangon['GUILD_MEMBER_APPLICATIONS'] = entity;
     entity = '@home';
     tangon['GUILD_HOME'] = entity;
     entity = 'channels-and-roles';

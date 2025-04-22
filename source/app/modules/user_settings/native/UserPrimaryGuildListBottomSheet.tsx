@@ -120,23 +120,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = argFoo;
-                offset = entity.item;
-                var _closure2_slot0 = offset;
+                option = entity.item;
+                var _closure2_slot0 = option;
                 romeon = entity.selected;
                 var _closure2_slot1 = romeon;
                 entity = entity.onSelectGuild;
                 var _closure2_slot2 = entity;
                 entity = _closure1_slot9;
                 tangon = undefined;
-                output = entity.bind(tangon)();
-                option = null;
-                entity = option == offset;
-                sizing = undefined;
+                result = entity.bind(tangon)();
+                sizing = null;
+                entity = sizing == option;
+                output = undefined;
                 if(entity) { _fun00004_ip = 64; continue _fun00003 }
  58:
-                sizing = offset.profile;
+                output = option.profile;
  64:
-                kiloes = option != offset;
+                kiloes = sizing != option;
                 if(!kiloes) { _fun00004_ip = 134; continue _fun00003 }
  71:
                 michal = _closure1_slot0;
@@ -145,12 +145,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = zuuluu[entity];
                 golfie = michal.bind(tangon)(entity);
                 oscard = golfie.getClanBadgeUrl;
-                zuuluu = offset.id;
-                entity = option == sizing;
+                zuuluu = option.id;
+                entity = sizing == output;
                 michal = undefined;
                 if(entity) { _fun00004_ip = 117; continue _fun00003 }
  111:
-                michal = sizing.badge;
+                michal = output.badge;
  117:
                 entity = _closure1_slot6;
                 entity = entity.SIZE_24;
@@ -202,81 +202,87 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     }
                 };
                 entity['onPress'] = report;
-                if(!(option == offset)) { _fun00004_ip = 238; continue _fun00003 }
+                if(!(sizing == option)) { _fun00004_ip = 238; continue _fun00003 }
  181:
-                yankee = _closure1_slot0;
-                backup = _closure1_slot2;
+                offset = _closure1_slot0;
+                yankee = _closure1_slot2;
                 report = 11;
-                oscard = backup[report];
-                oscard = yankee.bind(tangon)(oscard);
+                oscard = yankee[report];
+                oscard = offset.bind(tangon)(oscard);
                 golfie = oscard.intl;
                 oscard = golfie.string;
-                report = backup[report];
-                report = yankee.bind(tangon)(report);
+                report = yankee[report];
+                report = offset.bind(tangon)(report);
                 report = report.t;
                 report = report.PoWNfX;
                 report = oscard.bind(golfie)(report);
                 _fun00004_ip = 243; continue _fun00003;
  238:
-                report = offset.name;
+                report = option.name;
  243:
                 entity['label'] = report;
-                oscard = option != offset;
+                oscard = sizing != option;
                 report = null;
                 if(!oscard) { _fun00004_ip = 331; continue _fun00003 }
  256:
-                yankee = _closure1_slot7;
+                offset = _closure1_slot7;
                 golfie = _closure1_slot1;
                 echoed = _closure1_slot2;
-                backup = 12;
-                oscard = echoed[backup];
+                yankee = 12;
+                oscard = echoed[yankee];
                 golfie = golfie.bind(tangon)(oscard);
                 oscard = {};
-                result = output.guildIcon;
-                oscard['style'] = result;
-                oscard['guild'] = offset;
-                result = _closure1_slot0;
-                backup = echoed[backup];
-                backup = result.bind(tangon)(backup);
-                backup = backup.GuildIconSizes;
-                backup = backup.SMALL_32;
-                oscard['size'] = backup;
-                report = yankee.bind(tangon)(golfie, oscard);
+                backup = result.guildIcon;
+                oscard['style'] = backup;
+                oscard['guild'] = option;
+                backup = _closure1_slot0;
+                yankee = echoed[yankee];
+                yankee = backup.bind(tangon)(yankee);
+                yankee = yankee.GuildIconSizes;
+                yankee = yankee.SMALL_32;
+                oscard['size'] = yankee;
+                report = offset.bind(tangon)(golfie, oscard);
  331:
                 entity['leading'] = report;
                 if(romeon) { _fun00004_ip = 346; continue _fun00003 }
  339:
-                report = output.container;
+                report = result.container;
                 _fun00004_ip = 352; continue _fun00003;
  346:
-                report = output.containerPressed;
+                report = result.containerPressed;
  352:
                 entity['DEPRECATED_style'] = report;
                 golfie = _closure1_slot8;
                 oscard = _closure1_slot4;
                 report = {};
-                yankee = output.itemTrailingStyle;
-                report['style'] = yankee;
-                offset = option != offset;
+                offset = result.itemTrailingStyle;
+                report['style'] = offset;
+                offset = sizing != option;
                 if(!offset) { _fun00004_ip = 388; continue _fun00003 }
  384:
-                offset = option != sizing;
+                offset = sizing != output;
  388:
-                if(!offset) { _fun00004_ip = 502; continue _fun00003 }
- 391:
+                if(!offset) { _fun00004_ip = 517; continue _fun00003 }
+ 394:
                 backup = _closure1_slot7;
                 yankee = _closure1_slot0;
-                result = _closure1_slot2;
+                echoed = _closure1_slot2;
                 option = 13;
-                option = result[option];
+                option = echoed[option];
                 option = yankee.bind(tangon)(option);
                 yankee = option.BaseClanTagChiplet;
                 option = {};
-                result = output.tag;
-                option['containerStyles'] = result;
-                output = output.tagStyles;
-                option['textStyle'] = output;
-                sizing = sizing.tag;
+                echoed = result.tag;
+                option['containerStyles'] = echoed;
+                result = result.tagStyles;
+                option['textStyle'] = result;
+                output = output.tag;
+                result = sizing != output;
+                sizing = undefined;
+                if(!result) { _fun00004_ip = 464; continue _fun00003 }
+ 461:
+                sizing = output;
+ 464:
                 option['clanTag'] = sizing;
                 option['clanBadge'] = kiloes;
                 kiloes = _closure1_slot6;
@@ -287,7 +293,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 kiloes = 'text-primary';
                 option['textColor'] = kiloes;
                 offset = backup.bind(tangon)(yankee, option);
- 502:
+ 517:
                 option = new Array(2);
                 option[0] = offset;
                 yankee = _closure1_slot7;

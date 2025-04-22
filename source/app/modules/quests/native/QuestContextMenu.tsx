@@ -100,10 +100,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  50:
             var _closure2_slot1 = romeon;
             oscard = entity.additionalItems;
-            if(!(oscard === tangon)) { _fun00002_ip = 68; continue _fun00001 }
- 64:
+            if(!(oscard === tangon)) { _fun00002_ip = 70; continue _fun00001 }
+ 66:
             oscard = new Array(0);
- 68:
+ 70:
             var _closure2_slot2 = oscard;
             var _closure2_slot3 = tangon;
             var _closure2_slot4 = tangon;
@@ -559,10 +559,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = null;
             kiloes = golfie == backup;
             golfie = undefined;
-            if(kiloes) { _fun00002_ip = 738; continue _fun00001 }
- 733:
+            if(kiloes) { _fun00002_ip = 740; continue _fun00001 }
+ 735:
             golfie = backup.id;
- 738:
+ 740:
             option[2] = golfie;
             golfie = function() {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {

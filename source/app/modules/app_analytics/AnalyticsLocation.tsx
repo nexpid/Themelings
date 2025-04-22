@@ -297,6 +297,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['IGNORED_PROFILE_PANEL'] = entity;
     entity = 'custom status modal';
     michal['CUSTOM_STATUS_MODAL'] = entity;
+    entity = 'custom status tags coachmark';
+    michal['CUSTOM_STATUS_TAGS_COACHMARK'] = entity;
     entity = 'user profile live activity card';
     michal['USER_PROFILE_LIVE_ACTIVITY_CARD'] = entity;
     entity = 'user profile recent activity card';

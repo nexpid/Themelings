@@ -419,26 +419,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = report.bind(oscard)(tangon, zuuluu);
             entity = _closure1_slot16;
             michal = entity.bind(michal)();
-            report = null;
-            entity = report !== tangon;
+            zuuluu = null;
+            entity = zuuluu !== tangon;
             if(!entity) { _fun00012_ip = 82; continue _fun00011 }
  74:
             entity = tangon.hasPremiumNitroMonthly;
  82:
-            zuuluu = report != tangon;
-            if(!zuuluu) { _fun00012_ip = 99; continue _fun00011 }
+            zuuluu = zuuluu == tangon;
+            if(zuuluu) { _fun00012_ip = 98; continue _fun00011 }
  89:
-            tangon = tangon.trialId;
-            zuuluu = report != tangon;
- 99:
-            if(!entity) { _fun00012_ip = 105; continue _fun00011 }
- 102:
+            tangon = tangon.hasActiveTrial;
+            zuuluu = !tangon;
+ 98:
+            if(!entity) { _fun00012_ip = 107; continue _fun00011 }
+ 101:
+            zuuluu = !zuuluu;
             entity = !zuuluu;
- 105:
-            if(!entity) { _fun00012_ip = 111; continue _fun00011 }
- 108:
+ 107:
+            if(!entity) { _fun00012_ip = 113; continue _fun00011 }
+ 110:
             entity = !michal;
- 111:
+ 113:
             return entity;
         }
     };

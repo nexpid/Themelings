@@ -1068,7 +1068,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable38 = 'handled';
             output['keyboardShouldPersistTaps'] = variable38;
             update = null;
-            if(!romeon) { _fun00004_ip = 1442; continue _fun00003 }
+            if(!oscard) { _fun00004_ip = 1442; continue _fun00003 }
  1391:
             echoed = backup != sequen;
             update = null;
@@ -1319,7 +1319,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  2150:
             echoed[5] = update;
             update = null;
-            if(romeon) { _fun00004_ip = 2220; continue _fun00003 }
+            if(oscard) { _fun00004_ip = 2220; continue _fun00003 }
  2159:
             source = backup == sequen;
             update = null;

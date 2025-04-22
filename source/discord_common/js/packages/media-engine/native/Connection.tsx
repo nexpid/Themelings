@@ -4151,28 +4151,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = report.setDesktopEncodingOptions;
                 option = option.bind(report)(michal, tangon, zuuluu);
                 option = entity.desktopDescription;
-                if(!(oscard != option)) { _fun00104_ip = 771; continue _fun00103 }
+                if(!(oscard != option)) { _fun00104_ip = 812; continue _fun00103 }
  192:
                 option = entity.desktopDescription;
                 offset = option.soundshareId;
                 verify = option.useLoopback;
                 option = report.soundshareId;
-                if(!(option !== offset)) { _fun00104_ip = 771; continue _fun00103 }
+                if(!(option !== offset)) { _fun00104_ip = 812; continue _fun00103 }
  223:
                 option = report.setSoundshareSource;
                 option = option.bind(report)(offset, verify);
-                _fun00104_ip = 771; continue _fun00103;
+                _fun00104_ip = 812; continue _fun00103;
  240:
                 report['goLiveSourceIdentifier'] = golfie;
                 golfie = report.conn;
                 golfie = golfie.setDesktopSource;
-                if(!(oscard != golfie)) { _fun00104_ip = 771; continue _fun00103 }
+                if(!(oscard != golfie)) { _fun00104_ip = 812; continue _fun00103 }
  265:
                 golfie = entity.desktopDescription;
                 if(!(oscard == golfie)) { _fun00104_ip = 344; continue _fun00103 }
  275:
                 golfie = entity.cameraDescription;
-                if(!(oscard != golfie)) { _fun00104_ip = 758; continue _fun00103 }
+                if(!(oscard != golfie)) { _fun00104_ip = 799; continue _fun00103 }
  288:
                 golfie = entity.cameraDescription;
                 yankee = golfie.videoDeviceGuid;
@@ -4183,110 +4183,121 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie['videoInputDeviceId'] = yankee;
                 golfie['audioInputDeviceId'] = offset;
                 golfie = option.bind(verify)(golfie);
-                _fun00104_ip = 758; continue _fun00103;
+                _fun00104_ip = 799; continue _fun00103;
  344:
                 golfie = entity.desktopDescription;
                 entity = golfie.id;
-                sizing = golfie.soundshareId;
-                kiloes = golfie.useLoopback;
-                backup = golfie.useVideoHook;
-                foxtra = golfie.useGraphicsCapture;
+                output = golfie.soundshareId;
+                sizing = golfie.useLoopback;
+                kiloes = golfie.useVideoHook;
+                foxtra = golfie.useGraphicsCaptureApiLevel;
+                backup = golfie.useGraphicsCapture;
                 romeon = golfie.useQuartzCapturer;
                 yankee = golfie.allowScreenCaptureKit;
                 offset = golfie.videoHookStaleFrameTimeoutMs;
                 verify = golfie.graphicsCaptureStaleFrameTimeoutMs;
                 option = golfie.hdrCaptureMode;
                 golfie = report.setSoundshareSource;
-                golfie = golfie.bind(report)(sizing, kiloes);
-                if(!(oscard == entity)) { _fun00104_ip = 437; continue _fun00103 }
- 425:
-                sizing = ['', ''];
-                _fun00104_ip = 451; continue _fun00103;
- 437:
-                kiloes = entity.split;
+                golfie = golfie.bind(report)(output, sizing);
+                if(!(oscard == entity)) { _fun00104_ip = 443; continue _fun00103 }
+ 431:
+                output = ['', ''];
+                _fun00104_ip = 457; continue _fun00103;
+ 443:
+                sizing = entity.split;
                 golfie = ':';
-                sizing = kiloes.bind(entity)(golfie);
- 451:
-                kiloes = _closure1_slot3;
-                echoed = undefined;
+                output = sizing.bind(entity)(golfie);
+ 457:
+                sizing = _closure1_slot3;
+                update = undefined;
                 golfie = 2;
-                kiloes = kiloes.bind(echoed)(sizing, golfie);
+                sizing = sizing.bind(update)(output, golfie);
                 golfie = 0;
-                sizing = kiloes[golfie];
+                output = sizing[golfie];
                 golfie = 1;
-                kiloes = kiloes[golfie];
-                if(!(oscard == entity)) { _fun00104_ip = 510; continue _fun00103 }
- 486:
-                result = report.logger;
-                output = result.info;
+                sizing = sizing[golfie];
+                if(!(oscard == entity)) { _fun00104_ip = 519; continue _fun00103 }
+ 492:
+                echoed = report.logger;
+                result = echoed.info;
                 golfie = 'capturing desktop (type: <stop>).';
-                golfie = output.bind(result)(golfie);
-                _fun00104_ip = 612; continue _fun00103;
- 510:
-                result = report.logger;
-                output = result.info;
-                golfie = backup.toString;
-                config = golfie.bind(backup)();
-                golfie = oscard == foxtra;
-                sequen = undefined;
-                if(golfie) { _fun00104_ip = 548; continue _fun00103 }
- 539:
-                golfie = foxtra.toString;
-                sequen = golfie.bind(foxtra)();
+                golfie = result.bind(echoed)(golfie);
+                _fun00104_ip = 648; continue _fun00103;
+ 519:
+                echoed = report.logger;
+                result = echoed.info;
+                golfie = kiloes.toString;
+                papara = golfie.bind(kiloes)();
+                golfie = oscard == backup;
+                cntext = undefined;
+                if(golfie) { _fun00104_ip = 557; continue _fun00103 }
  548:
+                golfie = backup.toString;
+                cntext = golfie.bind(backup)();
+ 557:
+                golfie = oscard == foxtra;
+                record = undefined;
+                if(golfie) { _fun00104_ip = 575; continue _fun00103 }
+ 566:
+                golfie = foxtra.toString;
+                record = golfie.bind(foxtra)();
+ 575:
                 golfie = global;
                 golfie = golfie.HermesInternal;
-                vacuum = golfie.concat;
-                equals = 'capturing desktop (type: ';
-                limora = ', handle: ';
-                status = ', use-video-hook: ';
-                papara = ', use-graphics-capture: ';
-                record = ').';
-                whisks = sizing;
-                sierra = kiloes;
-                target = config;
-                cntext = sequen;
-                golfie = equals[vacuum](whisks, limora, sierra, status, target, papara, cntext, record, config);
-                golfie = output.bind(result)(golfie);
- 612:
+                config = golfie.concat;
+                variable39 = 'capturing desktop (type: ';
+                variable37 = ', handle: ';
+                quebec = ', use-video-hook: ';
+                whisks = ', use-graphics-capture: ';
+                sierra = ', use-graphics-capture-api-level: ';
+                target = ').';
+                variable38 = output;
+                variable36 = sizing;
+                equals = papara;
+                limora = cntext;
+                status = record;
+                golfie = variable39[config](variable38, variable37, variable36, quebec, equals, whisks, limora, sierra, status, target, papara);
+                golfie = result.bind(echoed)(golfie);
+ 648:
                 golfie = report.conn;
                 golfie = golfie.setDesktopSourceWithOptions;
-                if(!(oscard == golfie)) { _fun00104_ip = 673; continue _fun00103 }
- 628:
-                result = report.conn;
-                output = result.setDesktopSource;
+                if(!(oscard == golfie)) { _fun00104_ip = 709; continue _fun00103 }
+ 664:
+                echoed = report.conn;
+                result = echoed.setDesktopSource;
                 golfie = global;
                 golfie = golfie.HermesInternal;
-                echoed = golfie.concat;
+                update = golfie.concat;
                 golfie = 'wumpus-';
-                golfie = echoed.bind(golfie)(kiloes);
-                golfie = output.bind(result)(golfie, backup, sizing);
-                _fun00104_ip = 758; continue _fun00103;
- 673:
-                if(!(oscard == entity)) { _fun00104_ip = 695; continue _fun00103 }
- 677:
+                golfie = update.bind(golfie)(sizing);
+                golfie = result.bind(echoed)(golfie, kiloes, output);
+                _fun00104_ip = 799; continue _fun00103;
+ 709:
+                if(!(oscard == entity)) { _fun00104_ip = 731; continue _fun00103 }
+ 713:
                 oscard = report.conn;
                 entity = oscard.clearDesktopSource;
                 entity = entity.bind(oscard)();
-                _fun00104_ip = 758; continue _fun00103;
- 695:
+                _fun00104_ip = 799; continue _fun00103;
+ 731:
                 golfie = report.conn;
                 oscard = golfie.setDesktopSourceWithOptions;
                 entity = {};
-                entity['type'] = sizing;
-                entity['sourceId'] = kiloes;
-                entity['useVideoHook'] = backup;
-                entity['useGraphicsCapture'] = foxtra;
+                entity['type'] = output;
+                entity['sourceId'] = sizing;
+                entity['useVideoHook'] = kiloes;
+                entity['useGraphicsCapture'] = backup;
+                entity['useGraphicsCaptureApiLevel'] = foxtra;
                 entity['useQuartzCapturer'] = romeon;
                 entity['allowScreenCaptureKit'] = yankee;
                 entity['videoHookStaleFrameTimeoutMs'] = offset;
                 entity['graphicsCaptureStaleFrameTimeoutMs'] = verify;
                 entity['hdrCaptureMode'] = option;
                 entity = oscard.bind(golfie)(entity);
- 758:
+ 799:
                 entity = report.setDesktopEncodingOptions;
                 entity = entity.bind(report)(michal, tangon, zuuluu);
- 771:
+ 812:
                 entity = undefined;
                 return entity;
             }
