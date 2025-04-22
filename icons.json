@@ -3404,6 +3404,16 @@
         "width": 24,
         "height": 24
     },
+    "FullscreenEnterIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/FullscreenEnterIcon.png",
+        "hash": "4a20529ca3f4f5df985cdf6bceeaffb8",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "GalaxyIcon": {
         "file": "images/native/custom_app_icons/GalaxyIcon/GalaxyIcon.png",
         "hash": "2bb189919203a7299ceda12e2b9f8582",
