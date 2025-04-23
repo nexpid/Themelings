@@ -12672,15 +12672,14 @@
         "height": 24
     },
     "screenshare": {
-        "file": "modules/main_tabs_v2/native/images/screenshare.png",
-        "hash": "2d232c4ffc7aee7f8419734bdb63af83",
+        "file": "images/native/icons/voice_calls/screenshare.png",
+        "hash": "087f40a4e6d31afa070d07d1130d4217",
         "scales": [
-            1,
             2,
             3
         ],
-        "width": 64,
-        "height": 64
+        "width": 24,
+        "height": 24
     },
     "screenshare_end": {
         "file": "images/native/icons/voice_calls/screenshare_end.png",
