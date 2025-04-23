@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = golfie.bind(entity)(tangon);
     tangon = tangon.Millis;
     tangon = tangon.HOUR;
-    tangon = 11;
+    tangon = 12;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
@@ -175,75 +175,88 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 entity['handleQuestsFetchCurrentQuestsBegin'] = zuuluu;
                 zuuluu = function() {
-                    option = global;
-                    report = option.window;
-                    tangon = report.clearTimeout;
-                    michal = _closure3_slot0;
-                    zuuluu = michal.initialFetchTimerId;
-                    zuuluu = tangon.bind(report)(zuuluu);
-                    report = option.window;
-                    tangon = report.clearTimeout;
-                    zuuluu = michal.recurringFetchTimerId;
-                    zuuluu = tangon.bind(report)(zuuluu);
-                    golfie = option.window;
-                    oscard = golfie.setInterval;
-                    report = _closure1_slot10;
-                    tangon = function() {
+                    report = _closure1_slot0;
+                    zuuluu = _closure1_slot1;
+                    entity = 8;
+                    zuuluu = zuuluu[entity];
+                    entity = undefined;
+                    oscard = report.bind(entity)(zuuluu);
+                    report = oscard.getIsEligibleForFetchQuestOnPostConnectionOpen;
+                    zuuluu = {};
+                    golfie = _closure1_slot8;
+                    golfie = golfie.QUESTS_MANAGER;
+                    zuuluu['location'] = golfie;
+                    zuuluu = report.bind(oscard)(zuuluu);
+                    var _closure4_slot0 = zuuluu;
+                    verify = global;
+                    golfie = verify.window;
+                    oscard = golfie.clearTimeout;
+                    zuuluu = _closure3_slot0;
+                    report = zuuluu.initialFetchTimerId;
+                    report = oscard.bind(golfie)(report);
+                    golfie = verify.window;
+                    oscard = golfie.clearTimeout;
+                    report = zuuluu.recurringFetchTimerId;
+                    report = oscard.bind(golfie)(report);
+                    option = verify.window;
+                    golfie = option.setInterval;
+                    oscard = _closure1_slot10;
+                    report = function() {
                         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                             entity = global;
-                            zuuluu = entity.Date;
-                            michal = zuuluu.now;
-                            tangon = michal.bind(zuuluu)();
-                            zuuluu = _closure3_slot0;
-                            zuuluu = zuuluu.lastFetchAttemptedAt;
-                            tangon = tangon - zuuluu;
-                            zuuluu = _closure1_slot9;
-                            if(!(tangon > zuuluu)) { _fun00006_ip = 80; continue _fun00005 }
+                            michal = entity.Date;
+                            entity = michal.now;
+                            zuuluu = entity.bind(michal)();
+                            michal = _closure3_slot0;
+                            michal = michal.lastFetchAttemptedAt;
+                            zuuluu = zuuluu - michal;
+                            michal = _closure1_slot9;
+                            if(!(zuuluu > michal)) { _fun00006_ip = 59; continue _fun00005 }
  45:
                             michal = _closure3_slot0;
-                            zuuluu = entity.Date;
-                            entity = zuuluu.now;
-                            entity = entity.bind(zuuluu)();
-                            michal['lastFetchAttemptedAt'] = entity;
                             entity = michal._fetch;
                             entity = entity.bind(michal)();
- 80:
+ 59:
                             entity = undefined;
                             return entity;
                         }
                     };
-                    tangon = oscard.bind(golfie)(tangon, report);
-                    michal['recurringFetchTimerId'] = tangon;
-                    report = option.window;
-                    tangon = report.setTimeout;
-                    golfie = option.Math;
-                    oscard = golfie.floor;
-                    verify = option.Math;
-                    option = verify.random;
-                    option = option.bind(verify)();
-                    zuuluu = _closure1_slot11;
-                    zuuluu = option * zuuluu;
-                    zuuluu = oscard.bind(golfie)(zuuluu);
-                    entity = function() {
+                    report = golfie.bind(option)(report, oscard);
+                    zuuluu['recurringFetchTimerId'] = report;
+                    oscard = verify.window;
+                    report = oscard.setTimeout;
+                    option = verify.Math;
+                    golfie = option.floor;
+                    offset = verify.Math;
+                    verify = offset.random;
+                    verify = verify.bind(offset)();
+                    tangon = _closure1_slot11;
+                    tangon = verify * tangon;
+                    tangon = golfie.bind(option)(tangon);
+                    michal = function() {
                         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                            entity = _closure1_slot7;
-                            michal = entity.lastFetchedCurrentQuests;
-                            entity = 0;
-                            if(!(entity === michal)) { _fun00008_ip = 36; continue _fun00007 }
- 19:
+                            entity = _closure4_slot0;
+                            if(entity) { _fun00008_ip = 29; continue _fun00007 }
+ 10:
+                            michal = _closure1_slot7;
+                            zuuluu = michal.lastFetchedCurrentQuests;
+                            michal = 0;
+                            entity = michal === zuuluu;
+ 29:
+                            if(!entity) { _fun00008_ip = 49; continue _fun00007 }
+ 32:
                             michal = _closure3_slot0;
                             entity = michal._fetch;
                             entity = entity.bind(michal)();
- 36:
+ 49:
                             entity = undefined;
                             return entity;
                         }
                     };
-                    entity = tangon.bind(report)(entity, zuuluu);
-                    michal['initialFetchTimerId'] = entity;
-                    entity = undefined;
+                    michal = report.bind(oscard)(michal, tangon);
+                    zuuluu['initialFetchTimerId'] = michal;
                     return entity;
                 };
                 entity['handlePostConnectionOpen'] = zuuluu;
@@ -346,7 +359,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot1;
-                entity = 8;
+                entity = 9;
                 zuuluu = zuuluu[entity];
                 entity = undefined;
                 report = tangon.bind(entity)(zuuluu);
@@ -366,7 +379,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  71:
                 report = _closure1_slot0;
                 oscard = _closure1_slot1;
-                michal = 9;
+                michal = 10;
                 zuuluu = oscard[michal];
                 tangon = report.bind(entity)(zuuluu);
                 zuuluu = tangon.fetchCurrentQuests;
@@ -374,7 +387,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = oscard[michal];
                 tangon = report.bind(entity)(michal);
                 zuuluu = tangon.fetchQuestToDeliver;
-                michal = 10;
+                michal = 11;
                 michal = oscard[michal];
                 michal = report.bind(entity)(michal);
                 michal = michal.QuestPlacement;
@@ -396,7 +409,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     backup = tangon;
     michal = new backup[michal](foxtra);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 12;
+    tangon = 13;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

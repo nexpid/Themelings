@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 863; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 873; continue _fun00001 }
  10:
                     report = undefined;
                     option = undefined;
@@ -83,12 +83,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = michal.id;
                     option = michal;
                     tangon = null;
-                    if(!(tangon != michal)) { _fun00002_ip = 786; continue _fun00001 }
+                    if(!(tangon != michal)) { _fun00002_ip = 796; continue _fun00001 }
  45:
                     oscard = _closure1_slot3;
                     zuuluu = oscard.getConnectedActivityLocation;
                     zuuluu = zuuluu.bind(oscard)();
-                    if(!(tangon != zuuluu)) { _fun00002_ip = 712; continue _fun00001 }
+                    if(!(tangon != zuuluu)) { _fun00002_ip = 722; continue _fun00001 }
  69:
                     offset = zuuluu.kind;
                     yankee = _closure1_slot0;
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     if(!(oscard !== tangon)) { _fun00002_ip = 364; continue _fun00001 }
  356:
                     verify = zuuluu;
-                    _fun00002_ip = 547; continue _fun00001;
+                    _fun00002_ip = 557; continue _fun00001;
  364:
                     tangon = _closure1_slot0;
                     oscard = _closure1_slot1;
@@ -204,11 +204,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = _closure1_slot1;
                     zuuluu = 9;
                     zuuluu = oscard[zuuluu];
-                    tangon = tangon.bind(report)(zuuluu);
-                    zuuluu = tangon.validateOpenInviteDialog;
-                    zuuluu = zuuluu.bind(tangon)();
+                    oscard = tangon.bind(report)(zuuluu);
+                    tangon = oscard.validateOpenInviteDialog;
+                    zuuluu = _closure2_slot0;
+                    zuuluu = zuuluu.application;
+                    zuuluu = tangon.bind(oscard)(zuuluu);
                     verify = zuuluu.channel;
- 547: // try_start_0
+ 557: // try_start_0
                     tangon = _closure1_slot0;
                     oscard = _closure1_slot1;
                     zuuluu = 11;
@@ -226,17 +228,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = 'RPC_ACTIVITY_INVITE_USER';
                     zuuluu['location'] = golfie;
                     zuuluu = tangon.bind(oscard)(zuuluu);
-                    SaveGenerator(address=624);
- 622:
+                    SaveGenerator(address=634);
+ 632:
                     return zuuluu;
- 624:
+ 634:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 633; continue _fun00001 }
- 630: // try_end0
+                    if(tangon) { _fun00002_ip = 643; continue _fun00001 }
+ 640: // try_end0
                     return report;
- 633:
+ 643:
                     return zuuluu;
- 636: // catch_target0
+ 646: // catch_target0
                     CatchBlockStart(arg_register=2);
                     tangon = _closure1_slot0;
                     oscard = _closure1_slot1;
@@ -256,7 +258,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = new kiloes[golfie](backup, foxtra, romeon);
                     zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
                     throw zuuluu;
- 712:
+ 722:
                     tangon = _closure1_slot0;
                     oscard = _closure1_slot1;
                     zuuluu = 7;
@@ -275,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = new kiloes[oscard](backup, foxtra, romeon);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 786:
+ 796:
                     tangon = _closure1_slot0;
                     oscard = _closure1_slot1;
                     zuuluu = 7;
@@ -294,7 +296,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = new kiloes[report](backup, foxtra, romeon);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 863:
+ 873:
                     return entity;
                 }
             };

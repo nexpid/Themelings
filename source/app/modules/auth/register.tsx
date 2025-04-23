@@ -207,15 +207,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = null;
  78:
             option = michal.promoEmailConsent;
-            if(!(option === golfie)) { _fun00006_ip = 92; continue _fun00005 }
- 90:
+            if(!(option === golfie)) { _fun00006_ip = 90; continue _fun00005 }
+ 88:
             option = null;
- 92:
+ 90:
             offset = michal.usedUsernameSuggestion;
-            if(!(offset === golfie)) { _fun00006_ip = 106; continue _fun00005 }
- 104:
+            if(!(offset === golfie)) { _fun00006_ip = 104; continue _fun00005 }
+ 102:
             offset = null;
- 106:
+ 104:
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot3;
             michal = 9;
@@ -227,8 +227,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['type'] = report;
             michal = zuuluu.bind(tangon)(michal);
             verify = null;
-            if(!(verify != output)) { _fun00006_ip = 404; continue _fun00005 }
- 158:
+            if(!(verify != output)) { _fun00006_ip = 402; continue _fun00005 }
+ 156:
             zuuluu = _closure1_slot1;
             report = _closure1_slot3;
             michal = 10;
@@ -259,30 +259,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = 'years';
             ctrled = zuuluu.bind(report)(output, michal);
             michal = 13;
-            if(!(!(ctrled < michal))) { _fun00006_ip = 404; continue _fun00005 }
- 296:
-            if(!(ctrled >= michal)) { _fun00006_ip = 316; continue _fun00005 }
- 300:
+            if(!(!(ctrled < michal))) { _fun00006_ip = 402; continue _fun00005 }
+ 294:
+            if(!(ctrled >= michal)) { _fun00006_ip = 314; continue _fun00005 }
+ 298:
             michal = 17;
             michal = ctrled <= michal;
             source = '13-17';
-            if(michal) { _fun00006_ip = 357; continue _fun00005 }
- 316:
+            if(michal) { _fun00006_ip = 355; continue _fun00005 }
+ 314:
             michal = 18;
             zuuluu = ctrled >= michal;
             report = '23+';
             michal = report;
-            if(!zuuluu) { _fun00006_ip = 354; continue _fun00005 }
- 335:
+            if(!zuuluu) { _fun00006_ip = 352; continue _fun00005 }
+ 333:
             zuuluu = 22;
             zuuluu = ctrled <= zuuluu;
             michal = report;
-            if(!zuuluu) { _fun00006_ip = 354; continue _fun00005 }
- 348:
+            if(!zuuluu) { _fun00006_ip = 352; continue _fun00005 }
+ 346:
             michal = '18-22';
- 354:
+ 352:
             source = michal;
- 357:
+ 355:
             zuuluu = _closure1_slot1;
             michal = _closure1_slot3;
             michal = michal[tangon];
@@ -293,7 +293,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {};
             michal['age_bucket'] = source;
             michal = tangon.bind(report)(zuuluu, michal);
- 404:
+ 402:
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot3;
             michal = 6;
@@ -318,21 +318,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['phone_token'] = backup;
             kiloes = verify == output;
             backup = undefined;
-            if(kiloes) { _fun00006_ip = 526; continue _fun00005 }
- 510:
+            if(kiloes) { _fun00006_ip = 524; continue _fun00005 }
+ 508:
             sizing = output.format;
             kiloes = 'YYYY-MM-DD';
             backup = sizing.bind(output)(kiloes);
- 526:
+ 524:
             report['date_of_birth'] = backup;
             report['gift_code_sku_id'] = foxtra;
             report['guild_template_code'] = romeon;
             foxtra = verify == option;
             romeon = undefined;
-            if(foxtra) { _fun00006_ip = 556; continue _fun00005 }
- 550:
+            if(foxtra) { _fun00006_ip = 554; continue _fun00005 }
+ 548:
             romeon = option.checked;
- 556:
+ 554:
             report['promotional_email_opt_in'] = romeon;
             michal['body'] = report;
             report = {};
@@ -349,17 +349,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['used_username_suggestion'] = offset;
             yankee = verify == option;
             offset = undefined;
-            if(yankee) { _fun00006_ip = 633; continue _fun00005 }
- 627:
+            if(yankee) { _fun00006_ip = 631; continue _fun00005 }
+ 625:
             offset = option.checked;
- 633:
+ 631:
             oscard['promotional_email_opt_in'] = offset;
             verify = verify == option;
             golfie = undefined;
-            if(verify) { _fun00006_ip = 653; continue _fun00005 }
- 647:
+            if(verify) { _fun00006_ip = 651; continue _fun00005 }
+ 645:
             golfie = option.preChecked;
- 653:
+ 651:
             oscard['promotional_email_pre_checked'] = golfie;
             golfie = true;
             oscard['was_unique_username'] = golfie;

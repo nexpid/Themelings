@@ -361,9 +361,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = cntext[yankee];
             yankee = source.bind(tangon)(yankee);
             echoed = yankee.Text;
-            yankee = {};
-            status = 'heading-lg/bold';
-            yankee['variant'] = status;
+            yankee = {'accessibilityRole': 'header', 'variant': 'heading-lg/bold'};
             status = update.title;
             yankee['style'] = status;
             equals = 26;
@@ -416,8 +414,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update['listRef'] = kiloes;
             update['channel'] = sizing;
             cntext = _closure1_slot11;
-            if(!target) { _fun00002_ip = 1215; continue _fun00001 }
- 1183:
+            if(!target) { _fun00002_ip = 1217; continue _fun00001 }
+ 1185:
             status = _closure1_slot0;
             target = _closure1_slot2;
             target = target[sierra];
@@ -425,10 +423,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = status.isIOS;
             target = target.bind(status)();
             record = 0;
-            if(target) { _fun00002_ip = 1220; continue _fun00001 }
- 1215:
+            if(target) { _fun00002_ip = 1222; continue _fun00001 }
+ 1217:
             record = papara.bottom;
- 1220:
+ 1222:
             record = cntext + record;
             update['insetBottom'] = record;
             update['scrollPosition'] = config;

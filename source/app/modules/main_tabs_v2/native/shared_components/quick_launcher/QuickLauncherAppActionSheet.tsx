@@ -117,10 +117,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = offset.isIOS;
             offset = option.bind(offset)();
             option = 0;
-            if(offset) { _fun00002_ip = 360; continue _fun00001 }
- 355:
+            if(offset) { _fun00002_ip = 358; continue _fun00001 }
+ 353:
             option = verify.top;
- 360:
+ 358:
             golfie['marginTop'] = option;
             report['contentStyle'] = golfie;
             report = zuuluu.bind(tangon)(oscard, report);

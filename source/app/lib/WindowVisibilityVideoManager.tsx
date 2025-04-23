@@ -28,11 +28,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
- 72: // catch_target0
+ 72: // try_end0
+            _fun00002_ip = 76; continue _fun00001;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         entity = undefined;
                         michal = oscard.bind(entity)(michal);
                         michal = michal.bind(entity)();
-                        if(!(report !== michal)) { _fun00006_ip = 176; continue _fun00005 }
+                        if(!(report !== michal)) { _fun00006_ip = 178; continue _fun00005 }
  49:
                         michal = _closure3_slot0;
                         oscard = _closure1_slot1;
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal = michal.discordVisible;
                         tangon = _closure3_slot0;
                         zuuluu = tangon.disableVideoTimer;
-                        if(michal) { _fun00006_ip = 153; continue _fun00005 }
+                        if(michal) { _fun00006_ip = 155; continue _fun00005 }
  127:
                         oscard = zuuluu.start;
                         report = tangon.HIDDEN_WINDOW_DISABLE_VIDEO_DURATION_MS;
@@ -196,14 +196,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             return entity;
                         };
                         michal = oscard.bind(zuuluu)(report, michal);
-                        _fun00006_ip = 176; continue _fun00005;
- 153:
+                        _fun00006_ip = 178; continue _fun00005;
+ 155:
                         michal = zuuluu.stop;
                         michal = michal.bind(zuuluu)();
                         zuuluu = tangon.setIncomingVideoEnabled;
                         michal = true;
                         michal = zuuluu.bind(tangon)(michal);
- 176:
+ 178:
                         return entity;
                     }
                 };

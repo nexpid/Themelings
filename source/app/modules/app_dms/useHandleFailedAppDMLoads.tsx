@@ -151,34 +151,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = _closure2_slot3;
                 report = zuuluu.bind(tangon)(entity);
                 entity = null;
-                if(!(entity == report)) { _fun00006_ip = 44; continue _fun00005 }
+                if(!(entity == report)) { _fun00006_ip = 42; continue _fun00005 }
  30:
                 tangon = {};
                 zuuluu = 'contextless';
                 tangon['type'] = zuuluu;
-                _fun00006_ip = 61; continue _fun00005;
- 44:
+                _fun00006_ip = 59; continue _fun00005;
+ 42:
                 zuuluu = {};
                 zuuluu['channel'] = report;
                 report = 'channel';
                 zuuluu['type'] = report;
                 tangon = zuuluu;
- 61:
+ 59:
                 zuuluu = _closure1_slot3;
                 michal = zuuluu.getContextState;
                 zuuluu = michal.bind(zuuluu)(tangon);
                 tangon = entity == zuuluu;
                 michal = undefined;
-                if(tangon) { _fun00006_ip = 97; continue _fun00005 }
- 85:
+                if(tangon) { _fun00006_ip = 95; continue _fun00005 }
+ 83:
                 zuuluu = zuuluu.fetchState;
                 michal = zuuluu.fetching;
- 97:
+ 95:
                 entity = entity != michal;
-                if(!entity) { _fun00006_ip = 107; continue _fun00005 }
- 104:
+                if(!entity) { _fun00006_ip = 105; continue _fun00005 }
+ 102:
                 entity = michal;
- 107:
+ 105:
                 return entity;
             }
         };

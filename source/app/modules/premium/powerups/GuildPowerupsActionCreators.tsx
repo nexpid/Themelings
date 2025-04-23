@@ -69,8 +69,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo, argBar) { // Original name: fetchPowerupCatalogForGuild
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golfie = argFoo;
-            var _closure2_slot0 = golfie;
+            oscard = argFoo;
+            var _closure2_slot0 = oscard;
             tangon = true;
             entity = argBar;
             if(!(tangon !== entity)) { _fun00002_ip = 115; continue _fun00001 }
@@ -83,13 +83,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.bind(entity)(michal);
             michal = zuuluu.httpGetWithCountryCodeQuery;
             entity = {};
-            oscard = _closure1_slot5;
-            oscard = oscard.STORE_PUBLISHED_LISTINGS_SKUS;
-            entity['url'] = oscard;
-            oscard = {};
+            golfie = _closure1_slot5;
+            golfie = golfie.STORE_PUBLISHED_LISTINGS_SKUS;
+            entity['url'] = golfie;
+            golfie = {};
             option = _closure1_slot3;
-            oscard['application_id'] = option;
-            entity['query'] = oscard;
+            golfie['application_id'] = option;
+            entity['query'] = golfie;
             entity['oldFormErrors'] = tangon;
             tangon = false;
             entity['rejectWithError'] = tangon;
@@ -143,62 +143,47 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 option = oscard.bind(option)(report);
                 oscard = option.reduce;
                 report = {};
-                verify = global;
-                offset = verify.Map;
-                yankee = offset.prototype;
-                yankee = Object.create(yankee, {constructor: {value: offset}});
-                backup = yankee;
-                offset = new backup[offset](foxtra);
-                offset = offset instanceof Object ? offset : yankee;
-                report['powerups'] = offset;
-                verify = verify.Map;
-                offset = verify.prototype;
-                offset = Object.create(offset, {constructor: {value: verify}});
-                backup = offset;
-                verify = new backup[verify](foxtra);
-                verify = verify instanceof Object ? verify : offset;
-                report['catalog'] = verify;
+                verify = {};
+                report['allPowerups'] = verify;
+                verify = {};
+                report['powerupCatalog'] = verify;
                 zuuluu = function(argFoo, argBar) {
                     _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         entity = argFoo;
                         tangon = argBar;
-                        oscard = entity.powerups;
-                        report = entity.catalog;
-                        zuuluu = oscard.set;
+                        report = entity.allPowerups;
+                        zuuluu = entity.powerupCatalog;
                         michal = tangon.skuId;
-                        michal = zuuluu.bind(oscard)(michal, tangon);
-                        zuuluu = report.get;
+                        report[michal] = tangon;
                         michal = tangon.type;
-                        michal = zuuluu.bind(report)(michal);
+                        michal = zuuluu[michal];
                         oscard = null;
-                        if(!(oscard == michal)) { _fun00006_ip = 76; continue _fun00005 }
- 56:
-                        golfie = report.set;
-                        zuuluu = tangon.type;
+                        if(!(oscard == michal)) { _fun00006_ip = 56; continue _fun00005 }
+ 43:
+                        report = tangon.type;
                         michal = new Array(0);
-                        michal = golfie.bind(report)(zuuluu, michal);
- 76:
-                        zuuluu = report.get;
+                        zuuluu[report] = michal;
+ 56:
                         michal = tangon.type;
-                        zuuluu = zuuluu.bind(report)(michal);
+                        zuuluu = zuuluu[michal];
                         michal = oscard == zuuluu;
-                        if(michal) { _fun00006_ip = 107; continue _fun00005 }
- 98:
+                        if(michal) { _fun00006_ip = 81; continue _fun00005 }
+ 72:
                         report = zuuluu.push;
                         michal = oscard == report;
- 107:
-                        if(michal) { _fun00006_ip = 120; continue _fun00005 }
- 110:
+ 81:
+                        if(michal) { _fun00006_ip = 94; continue _fun00005 }
+ 84:
                         michal = zuuluu.push;
                         michal = michal.bind(zuuluu)(tangon);
- 120:
+ 94:
                         return entity;
                     }
                 };
                 zuuluu = oscard.bind(option)(zuuluu, report);
-                oscard = zuuluu.powerups;
-                report = zuuluu.catalog;
+                oscard = zuuluu.allPowerups;
+                report = zuuluu.powerupCatalog;
                 zuuluu = _closure1_slot1;
                 michal = 2;
                 michal = golfie[michal];
@@ -209,8 +194,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal['type'] = golfie;
                 golfie = _closure2_slot0;
                 michal['guildId'] = golfie;
-                michal['powerups'] = oscard;
-                michal['catalog'] = report;
+                michal['allPowerups'] = oscard;
+                michal['powerupCatalog'] = report;
                 michal = zuuluu.bind(tangon)(michal);
                 entity = entity.body;
                 return entity;
@@ -218,49 +203,41 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = michal.bind(zuuluu)(entity);
             return entity;
  115:
-            romeon = _closure1_slot0;
-            option = _closure1_slot2;
+            offset = _closure1_slot0;
+            golfie = _closure1_slot2;
             michal = 3;
-            tangon = option[michal];
+            tangon = golfie[michal];
             zuuluu = undefined;
-            tangon = romeon.bind(zuuluu)(tangon);
+            tangon = offset.bind(zuuluu)(tangon);
             verify = tangon.MOCK_LEVELS;
-            oscard = verify.concat;
-            tangon = option[michal];
-            tangon = romeon.bind(zuuluu)(tangon);
+            option = verify.concat;
+            tangon = golfie[michal];
+            tangon = offset.bind(zuuluu)(tangon);
             tangon = tangon.MOCK_PERKS;
-            verify = oscard.bind(verify)(tangon);
-            oscard = global;
-            tangon = oscard.Map;
-            offset = tangon.prototype;
-            offset = Object.create(offset, {constructor: {value: tangon}});
-            output = offset;
-            tangon = new output[tangon](sizing);
-            tangon = tangon instanceof Object ? tangon : offset;
-            backup = tangon.set;
-            offset = _closure1_slot4;
-            foxtra = offset.LEVEL;
-            yankee = option[michal];
-            yankee = romeon.bind(zuuluu)(yankee);
+            option = option.bind(verify)(tangon);
+            tangon = {};
+            verify = _closure1_slot4;
+            romeon = verify.LEVEL;
+            yankee = golfie[michal];
+            yankee = offset.bind(zuuluu)(yankee);
             yankee = yankee.MOCK_LEVELS;
-            yankee = backup.bind(tangon)(foxtra, yankee);
-            yankee = tangon.set;
-            offset = offset.PERK;
-            michal = option[michal];
-            michal = romeon.bind(zuuluu)(michal);
+            tangon[romeon] = yankee;
+            verify = verify.PERK;
+            michal = golfie[michal];
+            michal = offset.bind(zuuluu)(michal);
             michal = michal.MOCK_PERKS;
-            michal = yankee.bind(tangon)(offset, michal);
+            tangon[verify] = michal;
             michal = _closure1_slot1;
             entity = 2;
-            entity = option[entity];
+            entity = golfie[entity];
             zuuluu = michal.bind(zuuluu)(entity);
             michal = zuuluu.dispatch;
             entity = {};
-            option = 'GUILD_POWERUP_CATALOG_FETCH_SUCCESS';
-            entity['type'] = option;
-            entity['guildId'] = golfie;
-            option = verify.sort;
-            golfie = function(argFoo, argBar) {
+            golfie = 'GUILD_POWERUP_CATALOG_FETCH_SUCCESS';
+            entity['type'] = golfie;
+            entity['guildId'] = oscard;
+            golfie = option.sort;
+            oscard = function(argFoo, argBar) {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = argFoo;
@@ -276,25 +253,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 }
             };
-            option = option.bind(verify)(golfie);
+            option = golfie.bind(option)(oscard);
             golfie = option.reduce;
-            oscard = oscard.Map;
-            verify = oscard.prototype;
-            verify = Object.create(verify, {constructor: {value: oscard}});
-            output = verify;
-            oscard = new output[oscard](sizing);
-            oscard = oscard instanceof Object ? oscard : verify;
-            report = function(argFoo, argBar) {
+            oscard = function(argFoo, argBar) {
                 entity = argFoo;
-                tangon = argBar;
-                zuuluu = entity.set;
-                michal = tangon.skuId;
-                michal = zuuluu.bind(entity)(michal, tangon);
+                zuuluu = argBar;
+                michal = zuuluu.skuId;
+                entity[michal] = zuuluu;
                 return entity;
             };
-            report = golfie.bind(option)(report, oscard);
-            entity['powerups'] = report;
-            entity['catalog'] = tangon;
+            report = {};
+            report = golfie.bind(option)(oscard, report);
+            entity['allPowerups'] = report;
+            entity['powerupCatalog'] = tangon;
             entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
@@ -336,22 +307,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = argFoo;
                 report = entity.body;
                 tangon = report.reduce;
-                michal = global;
-                michal = michal.Map;
-                zuuluu = michal.prototype;
-                zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
-                verify = zuuluu;
-                michal = new verify[michal](option);
-                zuuluu = michal instanceof Object ? michal : zuuluu;
-                michal = function(argFoo, argBar) {
+                zuuluu = function(argFoo, argBar) {
                     entity = argFoo;
-                    tangon = argBar;
-                    zuuluu = entity.set;
-                    michal = tangon.sku_id;
-                    michal = zuuluu.bind(entity)(michal, tangon);
+                    zuuluu = argBar;
+                    michal = zuuluu.sku_id;
+                    entity[michal] = zuuluu;
                     return entity;
                 };
-                report = tangon.bind(report)(michal, zuuluu);
+                michal = {};
+                report = tangon.bind(report)(zuuluu, michal);
                 tangon = _closure1_slot1;
                 zuuluu = _closure1_slot2;
                 michal = 2;
@@ -364,7 +328,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal['type'] = oscard;
                 oscard = _closure2_slot0;
                 michal['guildId'] = oscard;
-                michal['unlocked'] = report;
+                michal['unlockedPowerups'] = report;
                 michal = zuuluu.bind(tangon)(michal);
                 entity = entity.body;
                 return entity;

@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
  49:
             michal = zuuluu.@@iterator;
  55:
-            if(michal) { _fun00002_ip = 343; continue _fun00001 }
+            if(michal) { _fun00002_ip = 345; continue _fun00001 }
  61:
             oscard = report.Array;
             tangon = oscard.isArray;
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
                 }
             };
             return entity;
- 343:
+ 345:
             entity = michal.call;
             zuuluu = entity.bind(michal)(zuuluu);
             michal = zuuluu.next;
@@ -300,13 +300,13 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             tangon = zuuluu.length;
             michal = 3;
             entity = null;
-            if(!(michal === tangon)) { _fun00012_ip = 87; continue _fun00011 }
+            if(!(michal === tangon)) { _fun00012_ip = 89; continue _fun00011 }
  31:
             michal = 0;
             tangon = zuuluu[michal];
             michal = 'bandwidth_estimation';
             entity = null;
-            if(!(michal === tangon)) { _fun00012_ip = 87; continue _fun00011 }
+            if(!(michal === tangon)) { _fun00012_ip = 89; continue _fun00011 }
  49:
             michal = 1;
             tangon = zuuluu[michal];
@@ -322,7 +322,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
                 return entity;
             };
             entity = zuuluu.bind(tangon)(michal);
- 87:
+ 89:
             return entity;
         }
     };

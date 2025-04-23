@@ -30,11 +30,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
- 72: // catch_target0
+ 72: // try_end0
+            _fun00002_ip = 76; continue _fun00001;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -608,7 +608,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  64:
                 entity = zuuluu == oscard;
                 tangon = undefined;
-                if(entity) { _fun00016_ip = 90; continue _fun00015 }
+                if(entity) { _fun00016_ip = 92; continue _fun00015 }
  73:
                 report = oscard.find;
                 entity = function(argFoo) {
@@ -619,22 +619,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 tangon = report.bind(oscard)(entity);
- 90:
+ 92:
                 entity = {};
                 oscard = zuuluu == tangon;
                 report = undefined;
-                if(oscard) { _fun00016_ip = 112; continue _fun00015 }
- 101:
+                if(oscard) { _fun00016_ip = 114; continue _fun00015 }
+ 103:
                 oscard = tangon.codec;
                 report = oscard.name;
- 112:
+ 114:
                 entity['codec'] = report;
                 report = zuuluu == tangon;
                 zuuluu = undefined;
-                if(report) { _fun00016_ip = 132; continue _fun00015 }
- 126:
+                if(report) { _fun00016_ip = 134; continue _fun00015 }
+ 128:
                 zuuluu = tangon.resolution;
- 132:
+ 134:
                 entity['resolution'] = zuuluu;
                 entity['bitrateEstimate'] = michal;
                 return entity;
@@ -675,7 +675,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  74:
                 michal = report == option;
                 tangon = undefined;
-                if(michal) { _fun00018_ip = 100; continue _fun00017 }
+                if(michal) { _fun00018_ip = 102; continue _fun00017 }
  83:
                 oscard = option.find;
                 michal = function(argFoo) {
@@ -686,26 +686,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 tangon = oscard.bind(option)(michal);
- 100:
+ 102:
                 michal = global;
                 option = michal.Array;
                 oscard = option.isArray;
                 verify = report == entity;
                 michal = undefined;
-                if(verify) { _fun00018_ip = 128; continue _fun00017 }
- 122:
+                if(verify) { _fun00018_ip = 130; continue _fun00017 }
+ 124:
                 michal = entity.availableOutgoingBitrate;
- 128:
+ 130:
                 oscard = oscard.bind(option)(michal);
-                if(!oscard) { _fun00018_ip = 151; continue _fun00017 }
- 136:
+                if(!oscard) { _fun00018_ip = 153; continue _fun00017 }
+ 138:
                 michal = entity.availableOutgoingBitrate;
                 michal = michal.length;
                 oscard = michal > golfie;
- 151:
+ 153:
                 michal = undefined;
-                if(!oscard) { _fun00018_ip = 189; continue _fun00017 }
- 156:
+                if(!oscard) { _fun00018_ip = 191; continue _fun00017 }
+ 158:
                 oscard = entity.availableOutgoingBitrate;
                 entity = entity.availableOutgoingBitrate;
                 golfie = entity.length;
@@ -713,22 +713,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = golfie - entity;
                 entity = oscard[entity];
                 michal = entity.value;
- 189:
+ 191:
                 entity = {};
                 golfie = report == tangon;
                 oscard = undefined;
-                if(golfie) { _fun00018_ip = 211; continue _fun00017 }
- 200:
+                if(golfie) { _fun00018_ip = 213; continue _fun00017 }
+ 202:
                 golfie = tangon.codec;
                 oscard = golfie.name;
- 211:
+ 213:
                 entity['codec'] = oscard;
                 report = report == tangon;
                 zuuluu = undefined;
-                if(report) { _fun00018_ip = 231; continue _fun00017 }
- 225:
+                if(report) { _fun00018_ip = 233; continue _fun00017 }
+ 227:
                 zuuluu = tangon.resolution;
- 231:
+ 233:
                 entity['resolution'] = zuuluu;
                 entity['bitrateEstimate'] = michal;
                 return entity;
@@ -876,20 +876,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = _closure1_slot13;
             tangon = tangon.CONNECTION_REPLAY;
             tangon = report.bind(oscard)(tangon);
-            if(!tangon) { _fun00026_ip = 197; continue _fun00025 }
+            if(!tangon) { _fun00026_ip = 204; continue _fun00025 }
  69:
             report = golfie.length;
             tangon = 0;
-            if(!(tangon !== report)) { _fun00026_ip = 197; continue _fun00025 }
- 80:
+            if(!(tangon !== report)) { _fun00026_ip = 204; continue _fun00025 }
+ 83:
             report = oscard.createReplayConnection;
             tangon = _closure1_slot12;
             tangon = tangon.DEFAULT;
             option = report.bind(oscard)(tangon, golfie);
             _closure2_slot0 = option;
             tangon = null;
-            if(!(tangon != option)) { _fun00026_ip = 197; continue _fun00025 }
- 112:
+            if(!(tangon != option)) { _fun00026_ip = 204; continue _fun00025 }
+ 115:
             _closure1_slot22 = option;
             golfie = option.on;
             oscard = _closure1_slot0;
@@ -956,7 +956,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             michal = zuuluu.bind(tangon)(michal);
- 197:
+ 204:
             return entity;
         }
     };

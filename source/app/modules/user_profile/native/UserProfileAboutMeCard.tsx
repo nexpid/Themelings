@@ -12,7 +12,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     entity = function(argFoo) { // Original name: Heading
         entity = argFoo;
         report = entity.children;
-        zuuluu = entity.userProfileType;
+        zuuluu = entity.themeType;
         michal = _closure1_slot18;
         tangon = undefined;
         michal = michal.bind(tangon)(zuuluu);
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = argFoo;
         golfie = entity.icon;
         verify = entity.children;
-        michal = entity.userProfileType;
+        michal = entity.themeType;
         report = entity.accessibilityLabel;
         entity = _closure1_slot19;
         tangon = undefined;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = entity.userId;
             tangon = entity.displayProfile;
             michal = entity.pendingBio;
-            backup = entity.userProfileType;
+            backup = entity.themeType;
             offset = entity.lineClamp;
             entity = _closure1_slot18;
             report = undefined;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = _closure1_slot13;
             option = _closure1_slot20;
             oscard = {};
-            oscard['userProfileType'] = backup;
+            oscard['themeType'] = backup;
             result = _closure1_slot0;
             backup = _closure1_slot3;
             kiloes = 12;
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot0 = foxtra;
             zuuluu = michal.guildId;
             var _closure2_slot1 = zuuluu;
-            ctrled = michal.userProfileType;
+            ctrled = michal.themeType;
             michal = _closure1_slot19;
             tangon = undefined;
             verify = michal.bind(tangon)();
@@ -264,7 +264,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = _closure1_slot13;
             oscard = _closure1_slot20;
             report = {};
-            report['userProfileType'] = ctrled;
+            report['themeType'] = ctrled;
             kiloes = _closure1_slot0;
             backup = _closure1_slot3;
             sequen = 12;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = _closure1_slot13;
             offset = _closure1_slot21;
             verify = {};
-            verify['userProfileType'] = ctrled;
+            verify['themeType'] = ctrled;
             update = _closure1_slot13;
             sizing = 17;
             sizing = backup[sizing];
@@ -350,7 +350,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = _closure1_slot13;
             sizing = _closure1_slot21;
             kiloes = {};
-            kiloes['userProfileType'] = ctrled;
+            kiloes['themeType'] = ctrled;
             config = _closure1_slot13;
             ctrled = _closure1_slot1;
             record = 18;
@@ -403,7 +403,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = entity.channel;
             var _closure2_slot0 = golfie;
             verify = entity.commandIds;
-            foxtra = entity.userProfileType;
+            foxtra = entity.themeType;
             entity = _closure1_slot19;
             report = undefined;
             kiloes = entity.bind(report)();
@@ -650,7 +650,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = _closure1_slot13;
             golfie = _closure1_slot20;
             oscard = {};
-            oscard['userProfileType'] = foxtra;
+            oscard['themeType'] = foxtra;
             update = _closure1_slot0;
             foxtra = _closure1_slot3;
             sizing = 12;
@@ -768,7 +768,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     golfie = tangon.DIVIDER_DOT;
     var _closure1_slot9 = golfie;
-    golfie = tangon.UserProfileType;
+    golfie = tangon.UserProfileThemeTypes;
     tangon = 6;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
@@ -851,7 +851,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = entity.channel;
             sizing = entity.pendingBio;
             foxtra = entity.bioLineClamp;
-            offset = entity.userProfileType;
+            offset = entity.themeType;
             oscard = entity.style;
             entity = _closure1_slot19;
             tangon = undefined;
@@ -887,7 +887,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['userId'] = backup;
             report['displayProfile'] = kiloes;
             report['pendingBio'] = sizing;
-            report['userProfileType'] = offset;
+            report['themeType'] = offset;
             report['lineClamp'] = foxtra;
             oscard = verify.bind(tangon)(oscard, report);
             report = new Array(3);
@@ -903,7 +903,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = kiloes.guildId;
  221:
             oscard['guildId'] = backup;
-            oscard['userProfileType'] = offset;
+            oscard['themeType'] = offset;
             oscard = foxtra.bind(tangon)(verify, oscard);
             report[1] = oscard;
             verify = option == yankee;
@@ -927,7 +927,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['channel'] = romeon;
             yankee = yankee.popularApplicationCommandIds;
             golfie['commandIds'] = yankee;
-            golfie['userProfileType'] = offset;
+            golfie['themeType'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
  314:
             report[2] = oscard;

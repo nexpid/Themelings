@@ -129,22 +129,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = tangon.getStateForGuild;
                     entity = _closure2_slot0;
                     entity = entity.id;
-                    tangon = zuuluu.bind(tangon)(entity);
-                    zuuluu = null;
-                    oscard = zuuluu == tangon;
+                    zuuluu = zuuluu.bind(tangon)(entity);
+                    tangon = null;
+                    oscard = tangon == zuuluu;
                     entity = undefined;
-                    if(oscard) { _fun00004_ip = 76; continue _fun00003 }
+                    if(oscard) { _fun00004_ip = 70; continue _fun00003 }
  41:
-                    tangon = tangon.catalog;
-                    zuuluu = zuuluu == tangon;
+                    zuuluu = zuuluu.powerupCatalog;
+                    tangon = tangon == zuuluu;
                     entity = undefined;
-                    if(zuuluu) { _fun00004_ip = 76; continue _fun00003 }
+                    if(tangon) { _fun00004_ip = 70; continue _fun00003 }
  56:
-                    zuuluu = tangon.get;
                     michal = _closure1_slot6;
                     michal = michal.PERK;
-                    entity = zuuluu.bind(tangon)(michal);
- 76:
+                    entity = zuuluu[michal];
+ 70:
                     return entity;
                 }
             };

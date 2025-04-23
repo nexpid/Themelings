@@ -322,8 +322,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['children'] = verify;
             update = option.bind(report)(tangon, zuuluu);
             option = michal;
-            if(!(entity == offset)) { _fun00004_ip = 628; continue _fun00003 }
- 498:
+            if(!(entity == offset)) { _fun00004_ip = 622; continue _fun00003 }
+ 492:
             zuuluu = _closure1_slot6;
             michal = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -353,8 +353,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = 'onPressOut';
             entity[tangon] = backup;
             entity = zuuluu.bind(report)(michal, entity);
-            _fun00004_ip = 910; continue _fun00003;
- 628:
+            _fun00004_ip = 904; continue _fun00003;
+ 622:
             tangon = _closure1_slot7;
             option = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -418,7 +418,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = 'children';
             michal[oscard] = golfie;
             entity = tangon.bind(report)(zuuluu, michal);
- 910:
+ 904:
             return entity;
         }
     };

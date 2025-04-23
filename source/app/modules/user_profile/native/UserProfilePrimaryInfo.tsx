@@ -15,7 +15,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot0 = zuuluu;
             yankee = michal.name;
             var _closure2_slot1 = yankee;
-            tangon = michal.userProfileType;
+            tangon = michal.themeType;
             romeon = michal.onPress;
             offset = michal.accessibilityHint;
             verify = michal.showChevron;
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot0 = verify;
             output = zuuluu.pronouns;
             var _closure2_slot1 = output;
-            report = zuuluu.userProfileType;
+            report = zuuluu.themeType;
             foxtra = zuuluu.onPressUserTag;
             var _closure2_slot2 = foxtra;
             michal = zuuluu.userTagAccessibilityHint;
@@ -375,7 +375,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot2 = sizing;
             golfie = entity.badgeSize;
             verify = entity.userId;
-            report = entity.userProfileType;
+            report = entity.themeType;
             entity = entity.showToastOnPress;
             tangon = undefined;
             if(!(entity === tangon)) { _fun00010_ip = 63; continue _fun00009 }
@@ -581,7 +581,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.isTryItOut;
             tangon = michal.style;
             var _closure2_slot1 = tangon;
-            verify = michal.userProfileType;
+            verify = michal.themeType;
             var _closure2_slot2 = verify;
             romeon = michal.showToastOnPress;
             var _closure2_slot3 = romeon;
@@ -628,7 +628,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = _closure2_slot5;
                 zuuluu['badgeSize'] = golfie;
                 golfie = _closure2_slot2;
-                zuuluu['userProfileType'] = golfie;
+                zuuluu['themeType'] = golfie;
                 oscard = _closure2_slot3;
                 zuuluu['showToastOnPress'] = oscard;
                 entity = entity.id;
@@ -804,7 +804,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             entity = argFoo;
             kiloes = entity.user;
-            golfie = entity.userProfileType;
+            golfie = entity.themeType;
             offset = entity.style;
             yankee = entity.showToastOnPress;
             report = undefined;
@@ -933,7 +933,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot8 = offset;
     offset = golfie.PROFILE_SIDE_PADDING;
     var _closure1_slot9 = offset;
-    offset = golfie.UserProfileType;
+    offset = golfie.UserProfileThemeTypes;
     var _closure1_slot10 = offset;
     output = 4;
     golfie = verify[output];
@@ -1040,7 +1040,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = michal.pronouns;
             oscard = michal.style;
             entity = michal.badgeContainerBackground;
-            backup = michal.userProfileType;
+            backup = michal.themeType;
             romeon = michal.onPressDisplayName;
             yankee = michal.displayNameAccessibilityHint;
             source = michal.onPressUserTag;
@@ -1089,7 +1089,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = config;
  227:
             report['name'] = vacuum;
-            report['userProfileType'] = backup;
+            report['themeType'] = backup;
             report['onPress'] = romeon;
             report['accessibilityHint'] = yankee;
             report['showChevron'] = option;
@@ -1112,7 +1112,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  308:
             verify['userTag'] = vacuum;
             verify['pronouns'] = ctrled;
-            verify['userProfileType'] = backup;
+            verify['themeType'] = backup;
             verify['onPressUserTag'] = source;
             verify['userTagAccessibilityHint'] = update;
             verify['onPressPronouns'] = echoed;
@@ -1124,7 +1124,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = _closure1_slot23;
             yankee = {};
             yankee['user'] = output;
-            yankee['userProfileType'] = backup;
+            yankee['themeType'] = backup;
             yankee['style'] = kiloes;
             yankee['showToastOnPress'] = foxtra;
             yankee = result.bind(tangon)(romeon, yankee);
@@ -1136,7 +1136,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['userId'] = output;
             offset['guildId'] = sizing;
             offset['style'] = kiloes;
-            offset['userProfileType'] = backup;
+            offset['themeType'] = backup;
             offset['showToastOnPress'] = foxtra;
             offset = romeon.bind(tangon)(yankee, offset);
             verify[2] = offset;

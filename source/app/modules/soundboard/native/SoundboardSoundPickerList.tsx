@@ -1151,7 +1151,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = foxtra[verify];
                     verify = offset.bind(report)(verify);
                     offset = verify.Text;
-                    verify = {'lineClamp': 1, 'variant': 'heading-sm/semibold'};
+                    verify = {'accessibilityRole': 'header', 'lineClamp': 1, 'variant': 'heading-sm/semibold'};
                     romeon = _closure1_slot13;
                     romeon = romeon.bind(report)(entity);
                     verify['children'] = romeon;

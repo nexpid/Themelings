@@ -396,10 +396,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = null;
             sizing = tangon == romeon;
             yankee = undefined;
-            if(sizing) { _fun00008_ip = 169; continue _fun00007 }
- 164:
+            if(sizing) { _fun00008_ip = 173; continue _fun00007 }
+ 168:
             yankee = romeon.guild_id;
- 169:
+ 173:
             report['guildId'] = yankee;
             report['fetchesShelf'] = offset;
             report['context'] = verify;
@@ -422,12 +422,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = verify.bind(offset)(golfie, oscard);
             verify = tangon != oscard;
             golfie = null;
-            if(!verify) { _fun00008_ip = 261; continue _fun00007 }
- 246:
+            if(!verify) { _fun00008_ip = 265; continue _fun00007 }
+ 250:
             verify = backup.get;
             oscard = oscard.applicationId;
             golfie = verify.bind(backup)(oscard);
- 261:
+ 265:
             _closure2_slot0 = golfie;
             michal = _closure1_slot5;
             romeon = michal.bind(kiloes)(zuuluu);
@@ -439,46 +439,46 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = undefined;
             golfie = yankee;
             offset = undefined;
-            if(michal) { _fun00008_ip = 443; continue _fun00007 }
- 304:
+            if(michal) { _fun00008_ip = 447; continue _fun00007 }
+ 308:
             sizing = verify.value;
             michal = foxtra.get;
             michal = michal.bind(foxtra)(sizing);
             sizing = yankee;
             output = oscard;
-            if(!(tangon != michal)) { _fun00008_ip = 414; continue _fun00007 }
- 329:
+            if(!(tangon != michal)) { _fun00008_ip = 418; continue _fun00007 }
+ 333:
             result = backup.get;
             michal = michal.applicationId;
             michal = result.bind(backup)(michal);
             sizing = yankee;
             output = oscard;
             zuuluu = michal;
-            if(!(tangon != michal)) { _fun00008_ip = 414; continue _fun00007 }
- 357:
-            if(!(tangon != yankee)) { _fun00008_ip = 401; continue _fun00007 }
+            if(!(tangon != michal)) { _fun00008_ip = 418; continue _fun00007 }
  361:
+            if(!(tangon != yankee)) { _fun00008_ip = 405; continue _fun00007 }
+ 365:
             echoed = michal.id;
             update = tangon == yankee;
             result = undefined;
-            if(update) { _fun00008_ip = 380; continue _fun00007 }
- 375:
+            if(update) { _fun00008_ip = 384; continue _fun00007 }
+ 379:
             result = yankee.id;
- 380:
+ 384:
             sizing = yankee;
             output = sizing;
             zuuluu = michal;
             golfie = output;
             offset = zuuluu;
-            if(!(echoed === result)) { _fun00008_ip = 443; continue _fun00007 }
- 399:
-            _fun00008_ip = 414; continue _fun00007;
- 401:
+            if(!(echoed === result)) { _fun00008_ip = 447; continue _fun00007 }
+ 403:
+            _fun00008_ip = 418; continue _fun00007;
+ 405:
             _closure2_slot0 = michal;
             sizing = michal;
             output = oscard;
             zuuluu = sizing;
- 414:
+ 418:
             result = romeon.bind(kiloes)();
             michal = result.done;
             yankee = sizing;
@@ -486,14 +486,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = result;
             golfie = yankee;
             offset = undefined;
-            if(!michal) { _fun00008_ip = 304; continue _fun00007 }
- 443:
-            if(!(tangon != golfie)) { _fun00008_ip = 479; continue _fun00007 }
+            if(!michal) { _fun00008_ip = 308; continue _fun00007 }
  447:
+            if(!(tangon != golfie)) { _fun00008_ip = 483; continue _fun00007 }
+ 451:
             oscard = golfie;
             michal = offset;
-            if(!(tangon == offset)) { _fun00008_ip = 526; continue _fun00007 }
- 457:
+            if(!(tangon == offset)) { _fun00008_ip = 530; continue _fun00007 }
+ 461:
             verify = option.find;
             zuuluu = function(argFoo) {
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
@@ -514,42 +514,42 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal = verify.bind(option)(zuuluu);
             oscard = golfie;
-            _fun00008_ip = 526; continue _fun00007;
- 479:
+            _fun00008_ip = 530; continue _fun00007;
+ 483:
             verify = option.length;
             zuuluu = 0;
-            if(!(verify > zuuluu)) { _fun00008_ip = 501; continue _fun00007 }
- 490:
+            if(!(verify > zuuluu)) { _fun00008_ip = 505; continue _fun00007 }
+ 494:
             zuuluu = option[zuuluu];
             _closure2_slot0 = zuuluu;
             golfie = zuuluu;
- 501:
+ 505:
             verify = option.length;
             zuuluu = 1;
             oscard = golfie;
             michal = offset;
-            if(!(verify > zuuluu)) { _fun00008_ip = 526; continue _fun00007 }
- 519:
+            if(!(verify > zuuluu)) { _fun00008_ip = 530; continue _fun00007 }
+ 523:
             michal = option[zuuluu];
             oscard = golfie;
- 526:
-            if(!(tangon != oscard)) { _fun00008_ip = 548; continue _fun00007 }
  530:
+            if(!(tangon != oscard)) { _fun00008_ip = 552; continue _fun00007 }
+ 534:
             zuuluu = oscard;
-            if(!(tangon == michal)) { _fun00008_ip = 568; continue _fun00007 }
- 537:
+            if(!(tangon == michal)) { _fun00008_ip = 572; continue _fun00007 }
+ 541:
             tangon = 0;
             michal = report[tangon];
             zuuluu = oscard;
-            _fun00008_ip = 568; continue _fun00007;
- 548:
+            _fun00008_ip = 572; continue _fun00007;
+ 552:
             tangon = 0;
             tangon = report[tangon];
             _closure2_slot0 = tangon;
             entity = 1;
             michal = report[entity];
             zuuluu = tangon;
- 568:
+ 572:
             entity = {};
             entity['firstBotApplication'] = zuuluu;
             entity['secondBotApplication'] = michal;

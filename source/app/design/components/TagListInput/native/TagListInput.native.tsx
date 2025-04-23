@@ -32,8 +32,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot5 = option;
     tangon = tangon.ScrollView;
     var _closure1_slot6 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
+    sizing = 3;
+    tangon = oscard[sizing];
     tangon = report.bind(entity)(tangon);
     option = tangon.jsx;
     var _closure1_slot7 = option;
@@ -46,44 +46,50 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = {};
     offset = {'backgroundColor': null, 'flexDirection': 'row', 'alignItems': 'center', 'paddingVertical': 2, 'borderRadius': null, 'minHeight': null, 'overflow': 'hidden'};
     yankee = 5;
-    sizing = oscard[yankee];
-    sizing = romeon.bind(entity)(sizing);
-    sizing = sizing.colors;
-    sizing = sizing.INPUT_BACKGROUND;
-    offset['backgroundColor'] = sizing;
-    sizing = oscard[yankee];
-    sizing = romeon.bind(entity)(sizing);
-    sizing = sizing.radii;
-    sizing = sizing.lg;
-    offset['borderRadius'] = sizing;
-    sizing = 6;
-    sizing = oscard[sizing];
-    sizing = report.bind(entity)(sizing);
-    sizing = sizing.InputHeights;
-    sizing = sizing.MD;
-    offset['minHeight'] = sizing;
+    output = oscard[yankee];
+    output = romeon.bind(entity)(output);
+    output = output.colors;
+    output = output.INPUT_BACKGROUND;
+    offset['backgroundColor'] = output;
+    output = oscard[yankee];
+    output = romeon.bind(entity)(output);
+    output = output.radii;
+    output = output.lg;
+    offset['borderRadius'] = output;
+    output = 6;
+    output = oscard[output];
+    output = report.bind(entity)(output);
+    output = output.InputHeights;
+    output = output.MD;
+    offset['minHeight'] = output;
     tangon['inputContainer'] = offset;
     offset = {};
-    sizing = oscard[yankee];
-    sizing = romeon.bind(entity)(sizing);
-    sizing = sizing.colors;
-    sizing = sizing.INPUT_PLACEHOLDER_TEXT;
-    offset['color'] = sizing;
+    output = oscard[yankee];
+    output = romeon.bind(entity)(output);
+    output = output.colors;
+    output = output.INPUT_PLACEHOLDER_TEXT;
+    offset['color'] = output;
     tangon['placeholder'] = offset;
     offset = {};
-    sizing = oscard[yankee];
-    sizing = romeon.bind(entity)(sizing);
-    sizing = sizing.spacing;
-    sizing = sizing.PX_12;
-    offset['paddingHorizontal'] = sizing;
+    output = oscard[yankee];
+    output = romeon.bind(entity)(output);
+    output = output.spacing;
+    output = output.PX_12;
+    offset['paddingHorizontal'] = output;
     tangon['iconContainer'] = offset;
     offset = {};
-    sizing = oscard[yankee];
-    sizing = romeon.bind(entity)(sizing);
-    sizing = sizing.spacing;
-    sizing = sizing.PX_12;
-    offset['marginLeft'] = sizing;
+    output = oscard[yankee];
+    output = romeon.bind(entity)(output);
+    output = output.spacing;
+    output = output.PX_12;
+    offset['marginLeft'] = output;
     tangon['iconLeft'] = offset;
+    offset = {};
+    offset['paddingVertical'] = sizing;
+    tangon['scrollViewContent'] = offset;
+    offset = {};
+    offset['flexGrow'] = foxtra;
+    tangon['horizontalScrollViewContent'] = offset;
     offset = {'marginHorizontal': null, 'alignItems': 'center', 'flexDirection': 'row', 'flexWrap': 'wrap', 'flex': 1};
     sizing = oscard[yankee];
     sizing = romeon.bind(entity)(sizing);
@@ -112,9 +118,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     foxtra = oscard[foxtra];
     foxtra = report.bind(entity)(foxtra);
     foxtra = foxtra.TextStyleSheet;
-    result = foxtra.text-sm/medium;
-    echoed = offset;
-    foxtra = copyDataProperties(echoed, result);
+    echoed = foxtra.text-sm/medium;
+    update = offset;
+    foxtra = copyDataProperties(update, echoed);
     foxtra = 'paddingVertical';
     offset[foxtra] = kiloes;
     foxtra = 'marginVertical';
@@ -622,7 +628,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             entity = new Array(0);
             output = zuuluu.bind(report)(michal, entity);
-            target = golfie != yankee;
+            target = golfie == yankee;
             if(!(golfie == config)) { _fun00002_ip = 800; continue _fun00001 }
  745:
             report = _closure1_slot0;
@@ -669,27 +675,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = {};
             result = {};
             echoed = 3;
-            variable40 = echoed * backup;
-            result['maxHeight'] = variable40;
+            echoed = echoed * backup;
+            result['maxHeight'] = echoed;
             verify['style'] = result;
-            result = {};
-            result['paddingVertical'] = echoed;
+            echoed = romeon.scrollViewContent;
+            result = new Array(2);
+            result[0] = echoed;
+            echoed = undefined;
+            if(!variable37) { _fun00002_ip = 966; continue _fun00001 }
+ 960:
+            echoed = romeon.horizontalScrollViewContent;
+ 966:
+            result[1] = echoed;
             verify['contentContainerStyle'] = result;
             verify['ref'] = sizing;
             verify['bounces'] = status;
             verify['onScroll'] = kiloes;
             sizing = undefined;
-            if(!variable37) { _fun00002_ip = 975; continue _fun00001 }
- 972:
+            if(!variable37) { _fun00002_ip = 997; continue _fun00001 }
+ 994:
             sizing = output;
- 975:
+ 997:
             verify['onLayout'] = sizing;
             sizing = golfie != kiloes;
             kiloes = undefined;
-            if(!sizing) { _fun00002_ip = 992; continue _fun00001 }
- 989:
+            if(!sizing) { _fun00002_ip = 1014; continue _fun00001 }
+ 1011:
             kiloes = 16;
- 992:
+ 1014:
             verify['scrollEventThrottle'] = kiloes;
             verify['horizontal'] = variable37;
             verify['snapToInterval'] = backup;
@@ -792,37 +805,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['accessibilityRole'] = variable38;
             variable40 = variable36.current;
             variable38 = '';
-            if(!(variable38 !== variable40)) { _fun00002_ip = 1106; continue _fun00001 }
- 1101:
+            if(!(variable38 !== variable40)) { _fun00002_ip = 1128; continue _fun00001 }
+ 1123:
             equals = variable36.current;
- 1106:
+ 1128:
             result['defaultValue'] = equals;
             variable36 = romeon.searchInput;
             equals = new Array(4);
             equals[0] = variable36;
             variable36 = variable37;
-            if(!variable36) { _fun00002_ip = 1137; continue _fun00001 }
- 1131:
+            if(!variable36) { _fun00002_ip = 1159; continue _fun00001 }
+ 1153:
             variable36 = romeon.horizontalSearchInput;
- 1137:
+ 1159:
             equals[1] = variable36;
             variable36 = undefined;
-            if(!variable37) { _fun00002_ip = 1168; continue _fun00001 }
- 1146:
+            if(!variable37) { _fun00002_ip = 1190; continue _fun00001 }
+ 1168:
             variable36 = undefined;
-            if(target) { _fun00002_ip = 1168; continue _fun00001 }
- 1151:
+            if(!target) { _fun00002_ip = 1190; continue _fun00001 }
+ 1173:
             variable37 = {};
             variable38 = 16;
             variable38 = variable39 - variable38;
             variable37['maxWidth'] = variable38;
             variable36 = variable37;
- 1168:
+ 1190:
             equals[2] = variable36;
-            if(!quebec) { _fun00002_ip = 1181; continue _fun00001 }
- 1175:
+            if(!quebec) { _fun00002_ip = 1203; continue _fun00001 }
+ 1197:
             quebec = romeon.searchInputDisabled;
- 1181:
+ 1203:
             equals[3] = quebec;
             result['style'] = equals;
             result['onChangeText'] = whisks;
@@ -989,13 +1002,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['aria-label'] = config;
             status = papara.length;
             papara = undefined;
-            if(!(sierra === status)) { _fun00002_ip = 1257; continue _fun00001 }
- 1249:
+            if(!(sierra === status)) { _fun00002_ip = 1279; continue _fun00001 }
+ 1271:
             papara = undefined;
-            if(target) { _fun00002_ip = 1257; continue _fun00001 }
- 1254:
+            if(!target) { _fun00002_ip = 1279; continue _fun00001 }
+ 1276:
             papara = config;
- 1257:
+ 1279:
             result['placeholder'] = papara;
             papara = romeon.placeholder;
             papara = papara.color;
@@ -1022,12 +1035,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['children'] = backup;
             verify = offset.bind(tangon)(foxtra, verify);
             report[1] = verify;
-            if(!(golfie == oscard)) { _fun00002_ip = 1397; continue _fun00001 }
- 1355:
+            if(!(golfie == oscard)) { _fun00002_ip = 1419; continue _fun00001 }
+ 1377:
             verify = golfie != yankee;
             golfie = null;
-            if(!verify) { _fun00002_ip = 1394; continue _fun00001 }
- 1364:
+            if(!verify) { _fun00002_ip = 1416; continue _fun00001 }
+ 1386:
             offset = _closure1_slot7;
             verify = _closure1_slot5;
             option = {};
@@ -1035,9 +1048,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['style'] = romeon;
             option['children'] = yankee;
             golfie = offset.bind(tangon)(verify, option);
- 1394:
+ 1416:
             oscard = golfie;
- 1397:
+ 1419:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

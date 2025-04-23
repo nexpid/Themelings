@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             offset = kiloes.bind(sizing)(backup, yankee, offset);
             entity['path'] = offset;
             entity = oscard.bind(verify)(report, entity);
-            if(!(michal == entity)) { _fun00002_ip = 300; continue _fun00001 }
+            if(!(michal == entity)) { _fun00002_ip = 304; continue _fun00001 }
  165:
             oscard = _closure1_slot0;
             report = _closure1_slot1;
@@ -72,37 +72,37 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             option = verify.bind(offset)(option);
             zuuluu['path'] = option;
             oscard = report.bind(oscard)(golfie, zuuluu);
-            if(!(michal == oscard)) { _fun00002_ip = 274; continue _fun00001 }
+            if(!(michal == oscard)) { _fun00002_ip = 278; continue _fun00001 }
  262:
             zuuluu = {'guildId': null, 'channelId': null};
-            _fun00002_ip = 298; continue _fun00001;
- 274:
+            _fun00002_ip = 302; continue _fun00001;
+ 278:
             report = {};
             oscard = oscard.params;
             oscard = oscard.guildId;
             report['guildId'] = oscard;
             report['channelId'] = michal;
             zuuluu = report;
- 298:
+ 302:
             return zuuluu;
- 300:
+ 304:
             entity = entity.params;
             report = entity.guildId;
             zuuluu = entity.channelId;
             entity = {};
             oscard = _closure1_slot3;
             tangon = null;
-            if(!(report !== oscard)) { _fun00002_ip = 331; continue _fun00001 }
- 328:
+            if(!(report !== oscard)) { _fun00002_ip = 335; continue _fun00001 }
+ 332:
             tangon = report;
- 331:
+ 335:
             entity['guildId'] = tangon;
             tangon = michal != zuuluu;
             michal = null;
-            if(!tangon) { _fun00002_ip = 347; continue _fun00001 }
- 344:
+            if(!tangon) { _fun00002_ip = 351; continue _fun00001 }
+ 348:
             michal = zuuluu;
- 347:
+ 351:
             entity['channelId'] = michal;
             return entity;
         }

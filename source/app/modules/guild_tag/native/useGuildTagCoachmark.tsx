@@ -54,6 +54,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = option.createStyles;
     tangon = {};
     verify = {};
+    offset = 16;
+    verify['marginTop'] = offset;
+    tangon['tagContainer'] = verify;
+    verify = {};
     offset = 40;
     verify['lineHeight'] = offset;
     tangon['tag'] = verify;
@@ -156,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  29:
                         michal = yankee == entity;
                         entity = null;
-                        if(michal) { _fun00004_ip = 283; continue _fun00003 }
+                        if(michal) { _fun00004_ip = 294; continue _fun00003 }
  41:
                         tangon = _closure1_slot9;
                         zuuluu = _closure1_slot0;
@@ -217,6 +221,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  232:
                         michal['clanBadge'] = option;
                         golfie = _closure2_slot1;
+                        option = golfie.tagContainer;
+                        michal['containerStyles'] = option;
                         golfie = golfie.tag;
                         michal['textStyle'] = golfie;
                         golfie = 'heading-xxl/semibold';
@@ -225,7 +231,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         oscard = oscard.SIZE_36;
                         michal['badgeSize'] = oscard;
                         entity = tangon.bind(report)(zuuluu, michal);
- 283:
+ 294:
                         return entity;
                     }
                 };

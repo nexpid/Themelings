@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot13 = verify;
     michal = michal.DEFAULT_COZY_SPACING;
     var _closure1_slot14 = michal;
-    michal = {'fontSize': null, 'zoom': null, 'keyboardModeEnabled': false, 'colorblindMode': false, 'lowContrastMode': false, 'saturation': 1, 'contrast': 1, 'desaturateUserColors': false, 'forcedColorsModalSeen': false, 'keyboardNavigationExplainerModalSeen': false, 'messageGroupSpacing': null, 'systemPrefersReducedMotion': 'no-preference', 'systemPrefersCrossfades': false, 'prefersReducedMotion': 'auto', 'systemForcedColors': 'none', 'syncForcedColors': true, 'systemPrefersContrast': 'no-preference', 'alwaysShowLinkDecorations': false, 'roleStyle': 'username', 'submitButtonEnabled': false, 'syncProfileThemeWithUserTheme': false, 'hideGuildTags': false};
+    michal = {'fontSize': null, 'zoom': null, 'keyboardModeEnabled': false, 'colorblindMode': false, 'lowContrastMode': false, 'saturation': 1, 'contrast': 1, 'desaturateUserColors': false, 'forcedColorsModalSeen': false, 'keyboardNavigationExplainerModalSeen': false, 'messageGroupSpacing': null, 'systemPrefersReducedMotion': 'no-preference', 'systemPrefersCrossfades': false, 'prefersReducedMotion': 'auto', 'systemForcedColors': 'none', 'syncForcedColors': true, 'systemPrefersContrast': 'no-preference', 'alwaysShowLinkDecorations': false, 'roleStyle': 'username', 'submitButtonEnabled': false, 'syncProfileThemeWithUserTheme': false};
     verify = option.FONT_SIZE_DEFAULT;
     michal['fontSize'] = verify;
     option = option.ZOOM_DEFAULT;
@@ -215,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = entity;
-        entity = new Array(34);
+        entity = new Array(33);
         entity[0] = report;
         report = {};
         golfie = 'fontScale';
@@ -677,16 +677,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['get'] = golfie;
         entity[31] = report;
         report = {};
-        golfie = 'hideTags';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot16;
-            entity = entity.hideGuildTags;
-            return entity;
-        };
-        report['get'] = golfie;
-        entity[32] = report;
-        report = {};
         golfie = 'getUserAgnosticState';
         report['key'] = golfie;
         oscard = function() { // Original name: value
@@ -694,7 +684,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = oscard;
-        entity[33] = report;
+        entity[32] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -702,7 +692,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = 'AccessibilityStore';
     option['displayName'] = michal;
     option['persistKey'] = michal;
-    michal = new Array(8);
+    michal = new Array(9);
     verify = function() {
         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
@@ -909,13 +899,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     michal[7] = verify;
+    verify = function(argFoo) {
+        _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
+ 0:
+            entity = argFoo;
+ 3: // try_start_0
+            michal = entity;
+            michal = delete michal.hideGuildTags;
+ 11: // try_end0
+            _fun00026_ip = 15; continue _fun00025;
+ 13: // catch_target0
+            CatchBlockStart(arg_register=1);
+ 15:
+            return entity;
+        }
+    };
+    michal[8] = verify;
     option['migrations'] = michal;
     michal = 14;
     michal = oscard[michal];
     romeon = golfie.bind(entity)(michal);
     michal = {};
     verify = function(argFoo) { // Original name: handleFontScaleTo
-        _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
+        _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
             entity = argFoo;
             michal = entity.fontSize;
@@ -924,22 +930,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = tangon.indexOf;
             tangon = entity.bind(tangon)(michal);
             entity = 0;
-            if(!(!(tangon >= entity))) { _fun00026_ip = 48; continue _fun00025 }
+            if(!(!(tangon >= entity))) { _fun00028_ip = 48; continue _fun00027 }
  38:
             entity = _closure1_slot11;
             michal = entity.FONT_SIZE_DEFAULT;
  48:
             entity = _closure1_slot11;
             entity = entity.FONT_SIZE_MAX;
-            if(!(!(michal > entity))) { _fun00026_ip = 117; continue _fun00025 }
+            if(!(!(michal > entity))) { _fun00028_ip = 117; continue _fun00027 }
  62:
             entity = _closure1_slot11;
             entity = entity.FONT_SIZE_MIN;
-            if(!(!(michal < entity))) { _fun00026_ip = 117; continue _fun00025 }
+            if(!(!(michal < entity))) { _fun00028_ip = 117; continue _fun00027 }
  76:
             entity = _closure1_slot16;
             entity = entity.fontSize;
-            if(!(entity !== michal)) { _fun00026_ip = 117; continue _fun00025 }
+            if(!(entity !== michal)) { _fun00028_ip = 117; continue _fun00027 }
  90:
             entity = {};
             report = _closure1_slot16;
@@ -956,23 +962,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['ACCESSIBILITY_SET_FONT_SIZE'] = verify;
     verify = function(argFoo) { // Original name: handleZoomTo
-        _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
+        _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
             entity = argFoo;
             tangon = entity.zoom;
             zuuluu = _closure1_slot11;
             zuuluu = zuuluu.ZOOM_MIN;
-            if(!(!(tangon < zuuluu))) { _fun00028_ip = 140; continue _fun00027 }
+            if(!(!(tangon < zuuluu))) { _fun00030_ip = 140; continue _fun00029 }
  26:
             tangon = entity.zoom;
             zuuluu = _closure1_slot11;
             zuuluu = zuuluu.ZOOM_MAX;
-            if(!(!(tangon > zuuluu))) { _fun00028_ip = 140; continue _fun00027 }
+            if(!(!(tangon > zuuluu))) { _fun00030_ip = 140; continue _fun00029 }
  46:
             zuuluu = _closure1_slot16;
             tangon = zuuluu.zoom;
             zuuluu = entity.zoom;
-            if(!(tangon !== zuuluu)) { _fun00028_ip = 140; continue _fun00027 }
+            if(!(tangon !== zuuluu)) { _fun00030_ip = 140; continue _fun00029 }
  66:
             zuuluu = {};
             report = _closure1_slot16;
@@ -999,7 +1005,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['ACCESSIBILITY_SET_ZOOM'] = verify;
     verify = function() { // Original name: handleResetToDefault
-        _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
+        _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
  0:
             michal = _closure1_slot16;
             report = michal.fontSize;
@@ -1008,9 +1014,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = _closure1_slot16;
             zuuluu = zuuluu.zoom;
             michal = michal.ZOOM_DEFAULT;
-            if(!(report === tangon)) { _fun00030_ip = 51; continue _fun00029 }
+            if(!(report === tangon)) { _fun00032_ip = 51; continue _fun00031 }
  43:
-            if(!(zuuluu === michal)) { _fun00030_ip = 51; continue _fun00029 }
+            if(!(zuuluu === michal)) { _fun00032_ip = 51; continue _fun00031 }
  47:
             michal = false;
             return michal;
@@ -1023,7 +1029,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = michal.fontSize;
             michal = _closure1_slot11;
             michal = michal.FONT_SIZE_DEFAULT;
-            if(!(zuuluu !== michal)) { _fun00030_ip = 108; continue _fun00029 }
+            if(!(zuuluu !== michal)) { _fun00032_ip = 108; continue _fun00031 }
  88:
             zuuluu = _closure1_slot16;
             michal = _closure1_slot11;
@@ -1034,7 +1040,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = michal.zoom;
             michal = _closure1_slot11;
             michal = michal.ZOOM_DEFAULT;
-            if(!(zuuluu !== michal)) { _fun00030_ip = 195; continue _fun00029 }
+            if(!(zuuluu !== michal)) { _fun00032_ip = 195; continue _fun00031 }
  132:
             zuuluu = _closure1_slot16;
             michal = _closure1_slot11;
@@ -1057,11 +1063,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['ACCESSIBILITY_RESET_TO_DEFAULT'] = verify;
     verify = function() { // Original name: handleEnableKeyboardMode
-        _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
+        _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
  0:
             michal = _closure1_slot16;
             michal = michal.keyboardModeEnabled;
-            if(michal) { _fun00032_ip = 45; continue _fun00031 }
+            if(michal) { _fun00034_ip = 45; continue _fun00033 }
  16:
             michal = {};
             tangon = _closure1_slot16;
@@ -1079,11 +1085,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['ACCESSIBILITY_KEYBOARD_MODE_ENABLE'] = verify;
     verify = function() { // Original name: handleDisableKeyboardMode
-        _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
+        _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
  0:
             michal = _closure1_slot16;
             michal = michal.keyboardModeEnabled;
-            if(michal) { _fun00034_ip = 20; continue _fun00033 }
+            if(michal) { _fun00036_ip = 20; continue _fun00035 }
  16:
             michal = false;
             return michal;
@@ -1153,7 +1159,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['ACCESSIBILITY_DESATURATE_ROLES_TOGGLE'] = verify;
     verify = function(argFoo) { // Original name: handleSystemColorPreferencesChanged
-        _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
+        _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
  0:
             michal = {};
             oscard = _closure1_slot16;
@@ -1164,7 +1170,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = null;
             report = tangon != zuuluu;
             tangon = 'none';
-            if(!report) { _fun00036_ip = 41; continue _fun00035 }
+            if(!report) { _fun00038_ip = 41; continue _fun00037 }
  38:
             tangon = zuuluu;
  41:
@@ -1177,13 +1183,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['ACCESSIBILITY_SYSTEM_COLOR_PREFERENCES_CHANGED'] = verify;
     verify = function(argFoo) { // Original name: handleSystemPrefersContrastChanged
-        _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
+        _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
  0:
             zuuluu = argFoo;
             entity = _closure1_slot16;
             tangon = entity.systemPrefersContrast;
             entity = zuuluu.systemPrefersContrast;
-            if(!(tangon !== entity)) { _fun00038_ip = 62; continue _fun00037 }
+            if(!(tangon !== entity)) { _fun00040_ip = 62; continue _fun00039 }
  26:
             entity = {};
             report = _closure1_slot16;
@@ -1202,13 +1208,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['ACCESSIBILITY_SYSTEM_PREFERS_CONTRAST_CHANGED'] = verify;
     verify = function(argFoo) { // Original name: handleSystemPrefersReducedMotionChanged
-        _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
+        _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
  0:
             zuuluu = argFoo;
             entity = _closure1_slot16;
             tangon = entity.systemPrefersReducedMotion;
             entity = zuuluu.systemPrefersReducedMotion;
-            if(!(tangon !== entity)) { _fun00040_ip = 62; continue _fun00039 }
+            if(!(tangon !== entity)) { _fun00042_ip = 62; continue _fun00041 }
  26:
             entity = {};
             report = _closure1_slot16;
@@ -1227,13 +1233,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['ACCESSIBILITY_SYSTEM_PREFERS_REDUCED_MOTION_CHANGED'] = verify;
     verify = function(argFoo) { // Original name: handleSystemPrefersCrossfadesChanged
-        _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
+        _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
  0:
             zuuluu = argFoo;
             entity = _closure1_slot16;
             tangon = entity.systemPrefersCrossfades;
             entity = zuuluu.systemPrefersCrossfades;
-            if(!(tangon !== entity)) { _fun00042_ip = 62; continue _fun00041 }
+            if(!(tangon !== entity)) { _fun00044_ip = 62; continue _fun00043 }
  26:
             entity = {};
             report = _closure1_slot16;
@@ -1252,13 +1258,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['ACCESSIBILITY_SYSTEM_PREFERS_CROSSFADES_CHANGED'] = verify;
     verify = function(argFoo) { // Original name: handleSetPrefersReducedMotion
-        _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
+        _fun00045: for(var _fun00046_ip = 0; ; ) switch(_fun00046_ip) {
  0:
             zuuluu = argFoo;
             entity = _closure1_slot16;
             tangon = entity.prefersReducedMotion;
             entity = zuuluu.prefersReducedMotion;
-            if(!(tangon !== entity)) { _fun00044_ip = 62; continue _fun00043 }
+            if(!(tangon !== entity)) { _fun00046_ip = 62; continue _fun00045 }
  26:
             entity = {};
             report = _closure1_slot16;
@@ -1369,7 +1375,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['ACCESSIBILITY_SYNC_PROFILE_THEME_WITH_USER_THEME_TOGGLE'] = verify;
-    verify = function(argFoo) { // Original name: handleSetContrast
+    tangon = function(argFoo) { // Original name: handleSetContrast
         entity = argFoo;
         tangon = entity.contrast;
         michal = {};
@@ -1382,21 +1388,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    michal['ACCESSIBILITY_SET_CONTRAST'] = verify;
-    tangon = function(argFoo) { // Original name: handleSetHideTags
-        entity = argFoo;
-        tangon = entity.hideTags;
-        michal = {};
-        report = _closure1_slot16;
-        oscard = michal;
-        zuuluu = copyDataProperties(oscard, report);
-        zuuluu = 'hideGuildTags';
-        michal[zuuluu] = tangon;
-        _closure1_slot16 = michal;
-        entity = undefined;
-        return entity;
-    };
-    michal['ACCESSIBILITY_SET_HIDE_TAGS'] = tangon;
+    michal['ACCESSIBILITY_SET_CONTRAST'] = tangon;
     tangon = option.prototype;
     tangon = Object.create(tangon, {constructor: {value: option}});
     foxtra = tangon;

@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 5;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.UserProfileType;
+    tangon = tangon.UserProfileThemeTypes;
     var _closure1_slot9 = tangon;
     tangon = 16;
     tangon = oscard[tangon];

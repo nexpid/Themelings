@@ -202,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = michal.history;
                 zuuluu = entity.length;
                 entity = 0;
-                if(!(entity !== zuuluu)) { _fun00012_ip = 134; continue _fun00011 }
+                if(!(entity !== zuuluu)) { _fun00012_ip = 136; continue _fun00011 }
  20:
                 oscard = _closure1_slot1;
                 golfie = _closure1_slot2;
@@ -240,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal['durationMs'] = tangon;
                 michal = zuuluu.bind(entity)(michal);
                 return entity;
- 134:
+ 136:
                 entity = new Array(0);
                 return entity;
             }

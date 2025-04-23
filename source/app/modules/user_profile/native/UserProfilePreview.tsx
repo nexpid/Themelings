@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     golfie = tangon.PROFILE_CONTENT_WITHOUT_STATUS_TOP_PADDING;
     var _closure1_slot5 = golfie;
-    tangon = tangon.UserProfileType;
+    tangon = tangon.UserProfileThemeTypes;
     var _closure1_slot6 = tangon;
     tangon = 4;
     tangon = oscard[tangon];
@@ -341,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed['customStatusActivity'] = sierra;
             sierra = _closure1_slot6;
             sierra = sierra.PREVIEW;
-            echoed['userProfileType'] = sierra;
+            echoed['themeType'] = sierra;
             echoed['hasCustomProfileTheme'] = status;
             status = target.customStatusBubble;
             echoed['style'] = status;
@@ -361,7 +361,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source['user'] = config;
             target = _closure1_slot6;
             target = target.PREVIEW;
-            source['userProfileType'] = target;
+            source['themeType'] = target;
             source['displayName'] = papara;
             if(!(verify == cntext)) { _fun00004_ip = 961; continue _fun00003 }
  943:
@@ -394,7 +394,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source['displayProfile'] = sequen;
             sequen = _closure1_slot6;
             sequen = sequen.PREVIEW;
-            source['userProfileType'] = sequen;
+            source['themeType'] = sequen;
             config = foxtra.aboutMeCard;
             sequen = new Array(2);
             sequen[0] = config;

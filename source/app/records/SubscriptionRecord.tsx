@@ -202,6 +202,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity['userId'] = zuuluu;
                 zuuluu = report.streakStartedAt;
                 entity['streakStartedAt'] = zuuluu;
+                zuuluu = report.eligiblePaymentGateways;
+                entity['eligiblePaymentGateways'] = zuuluu;
                 zuuluu = entity.renewalMutations;
                 tangon = report.items;
                 romeon = 0;
@@ -213,27 +215,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = report.type;
                 tangon = _closure1_slot12;
                 tangon = tangon.PREMIUM;
-                if(!(golfie !== tangon)) { _fun00004_ip = 512; continue _fun00003 }
- 448:
+                if(!(golfie !== tangon)) { _fun00004_ip = 524; continue _fun00003 }
+ 460:
                 verify = oscard != zuuluu;
-                if(!verify) { _fun00004_ip = 470; continue _fun00003 }
- 455:
+                if(!verify) { _fun00004_ip = 482; continue _fun00003 }
+ 467:
                 tangon = zuuluu.items;
                 tangon = tangon.length;
                 verify = tangon > romeon;
- 470:
+ 482:
                 golfie = offset;
                 tangon = null;
-                if(!verify) { _fun00004_ip = 649; continue _fun00003 }
- 481:
+                if(!verify) { _fun00004_ip = 661; continue _fun00003 }
+ 493:
                 verify = zuuluu.items;
                 verify = verify[romeon];
                 verify = verify.planId;
                 _closure3_slot1 = verify;
                 golfie = offset;
                 tangon = verify;
-                _fun00004_ip = 649; continue _fun00003;
- 512:
+                _fun00004_ip = 661; continue _fun00003;
+ 524:
                 offset = _closure1_slot17;
                 verify = report.items;
                 verify = verify[romeon];
@@ -253,8 +255,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 offset = oscard != zuuluu;
                 golfie = verify;
                 tangon = null;
-                if(!offset) { _fun00004_ip = 649; continue _fun00003 }
- 603:
+                if(!offset) { _fun00004_ip = 661; continue _fun00003 }
+ 615:
                 offset = _closure1_slot0;
                 option = _closure1_slot2;
                 option = option[backup];
@@ -265,7 +267,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _closure3_slot1 = option;
                 golfie = verify;
                 tangon = option;
- 649:
+ 661:
                 entity['planId'] = golfie;
                 option = report.items;
                 golfie = option.filter;
@@ -279,12 +281,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = golfie.bind(option)(report);
                 entity['additionalPlans'] = report;
                 report = oscard != zuuluu;
-                if(!report) { _fun00004_ip = 693; continue _fun00003 }
- 689:
+                if(!report) { _fun00004_ip = 705; continue _fun00003 }
+ 701:
                 report = oscard != tangon;
- 693:
-                if(!report) { _fun00004_ip = 729; continue _fun00003 }
- 696:
+ 705:
+                if(!report) { _fun00004_ip = 741; continue _fun00003 }
+ 708:
                 zuuluu['planId'] = tangon;
                 report = zuuluu.items;
                 tangon = report.filter;
@@ -297,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 michal = tangon.bind(report)(michal);
                 zuuluu['additionalPlans'] = michal;
- 729:
+ 741:
                 return entity;
             }
         };
@@ -888,159 +890,168 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = function(argFoo) { // Original name: value
             _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
  0:
-                report = argFoo;
+                michal = argFoo;
                 zuuluu = _closure2_slot0;
                 entity = {};
-                michal = report.id;
-                entity['id'] = michal;
-                michal = report.type;
-                entity['type'] = michal;
-                golfie = global;
-                oscard = golfie.Date;
-                foxtra = report.created_at;
-                tangon = oscard.prototype;
-                tangon = Object.create(tangon, {constructor: {value: oscard}});
-                backup = tangon;
-                michal = new backup[oscard](foxtra, romeon);
-                michal = michal instanceof Object ? michal : tangon;
-                entity['createdAt'] = michal;
-                michal = report.canceled_at;
+                tangon = michal.id;
+                entity['id'] = tangon;
+                tangon = michal.type;
+                entity['type'] = tangon;
+                oscard = global;
+                golfie = oscard.Date;
+                foxtra = michal.created_at;
+                report = golfie.prototype;
+                report = Object.create(report, {constructor: {value: golfie}});
+                backup = report;
+                tangon = new backup[golfie](foxtra, romeon);
+                tangon = tangon instanceof Object ? tangon : report;
+                entity['createdAt'] = tangon;
+                report = michal.canceled_at;
                 tangon = null;
-                oscard = tangon != michal;
-                michal = null;
-                if(!oscard) { _fun00032_ip = 118; continue _fun00031 }
+                golfie = tangon != report;
+                report = null;
+                if(!golfie) { _fun00032_ip = 118; continue _fun00031 }
  86:
-                verify = golfie.Date;
-                foxtra = report.canceled_at;
+                verify = oscard.Date;
+                foxtra = michal.canceled_at;
                 option = verify.prototype;
                 option = Object.create(option, {constructor: {value: verify}});
                 backup = option;
-                oscard = new backup[verify](foxtra, romeon);
-                michal = oscard instanceof Object ? oscard : option;
+                golfie = new backup[verify](foxtra, romeon);
+                report = golfie instanceof Object ? golfie : option;
  118:
-                entity['canceledAt'] = michal;
-                option = golfie.Date;
-                foxtra = report.current_period_start;
-                oscard = option.prototype;
-                oscard = Object.create(oscard, {constructor: {value: option}});
-                backup = oscard;
-                michal = new backup[option](foxtra, romeon);
-                michal = michal instanceof Object ? michal : oscard;
-                entity['currentPeriodStart'] = michal;
-                option = golfie.Date;
-                foxtra = report.current_period_end;
-                oscard = option.prototype;
-                oscard = Object.create(oscard, {constructor: {value: option}});
-                backup = oscard;
-                michal = new backup[option](foxtra, romeon);
-                michal = michal instanceof Object ? michal : oscard;
-                entity['currentPeriodEnd'] = michal;
-                michal = report.status;
-                entity['status'] = michal;
-                michal = report.payment_source_id;
-                entity['paymentSourceId'] = michal;
-                michal = report.payment_gateway;
-                entity['paymentGateway'] = michal;
-                michal = report.payment_gateway_plan_id;
-                entity['paymentGatewayPlanId'] = michal;
-                michal = report.payment_gateway_subscription_id;
-                entity['paymentGatewaySubscriptionId'] = michal;
-                michal = report.trial_id;
-                entity['trialId'] = michal;
-                michal = report.trial_ends_at;
-                oscard = tangon != michal;
-                michal = null;
-                if(!oscard) { _fun00032_ip = 314; continue _fun00031 }
+                entity['canceledAt'] = report;
+                option = oscard.Date;
+                foxtra = michal.current_period_start;
+                golfie = option.prototype;
+                golfie = Object.create(golfie, {constructor: {value: option}});
+                backup = golfie;
+                report = new backup[option](foxtra, romeon);
+                report = report instanceof Object ? report : golfie;
+                entity['currentPeriodStart'] = report;
+                option = oscard.Date;
+                foxtra = michal.current_period_end;
+                golfie = option.prototype;
+                golfie = Object.create(golfie, {constructor: {value: option}});
+                backup = golfie;
+                report = new backup[option](foxtra, romeon);
+                report = report instanceof Object ? report : golfie;
+                entity['currentPeriodEnd'] = report;
+                report = michal.status;
+                entity['status'] = report;
+                report = michal.payment_source_id;
+                entity['paymentSourceId'] = report;
+                report = michal.payment_gateway;
+                entity['paymentGateway'] = report;
+                report = michal.payment_gateway_plan_id;
+                entity['paymentGatewayPlanId'] = report;
+                report = michal.payment_gateway_subscription_id;
+                entity['paymentGatewaySubscriptionId'] = report;
+                report = michal.trial_id;
+                entity['trialId'] = report;
+                report = michal.trial_ends_at;
+                golfie = tangon != report;
+                report = null;
+                if(!golfie) { _fun00032_ip = 314; continue _fun00031 }
  282:
-                verify = golfie.Date;
-                foxtra = report.trial_ends_at;
+                verify = oscard.Date;
+                foxtra = michal.trial_ends_at;
                 option = verify.prototype;
                 option = Object.create(option, {constructor: {value: verify}});
                 backup = option;
-                oscard = new backup[verify](foxtra, romeon);
-                michal = oscard instanceof Object ? oscard : option;
+                golfie = new backup[verify](foxtra, romeon);
+                report = golfie instanceof Object ? golfie : option;
  314:
-                entity['trialEndsAt'] = michal;
-                verify = report.items;
+                entity['trialEndsAt'] = report;
+                verify = michal.items;
                 option = verify.map;
-                michal = _closure1_slot20;
-                michal = option.bind(verify)(michal);
-                entity['items'] = michal;
-                michal = report.renewal_mutations;
-                option = tangon != michal;
-                michal = null;
+                report = _closure1_slot20;
+                report = option.bind(verify)(report);
+                entity['items'] = report;
+                report = michal.renewal_mutations;
+                option = tangon != report;
+                report = null;
                 if(!option) { _fun00032_ip = 415; continue _fun00031 }
  362:
                 option = {};
-                verify = report.renewal_mutations;
+                verify = michal.renewal_mutations;
                 yankee = verify.items;
                 offset = yankee.map;
                 verify = _closure1_slot20;
                 verify = offset.bind(yankee)(verify);
                 option['items'] = verify;
-                verify = report.renewal_mutations;
+                verify = michal.renewal_mutations;
                 verify = verify.payment_gateway_plan_id;
                 option['paymentGatewayPlanId'] = verify;
-                michal = option;
+                report = option;
  415:
-                entity['renewalMutations'] = michal;
-                michal = report.streak_started_at;
-                option = tangon != michal;
-                michal = null;
+                entity['renewalMutations'] = report;
+                report = michal.streak_started_at;
+                option = tangon != report;
+                report = null;
                 if(!option) { _fun00032_ip = 467; continue _fun00031 }
  435:
-                offset = golfie.Date;
-                foxtra = report.streak_started_at;
+                offset = oscard.Date;
+                foxtra = michal.streak_started_at;
                 verify = offset.prototype;
                 verify = Object.create(verify, {constructor: {value: offset}});
                 backup = verify;
                 option = new backup[offset](foxtra, romeon);
-                michal = option instanceof Object ? option : verify;
+                report = option instanceof Object ? option : verify;
  467:
-                entity['streakStartedAt'] = michal;
-                michal = report.currency;
-                entity['currency'] = michal;
-                michal = report.pause_ends_at;
-                option = tangon != michal;
-                michal = null;
+                entity['streakStartedAt'] = report;
+                report = michal.currency;
+                entity['currency'] = report;
+                report = michal.pause_ends_at;
+                option = tangon != report;
+                report = null;
                 if(!option) { _fun00032_ip = 530; continue _fun00031 }
  498:
-                verify = golfie.Date;
-                foxtra = report.pause_ends_at;
+                verify = oscard.Date;
+                foxtra = michal.pause_ends_at;
                 option = verify.prototype;
                 option = Object.create(option, {constructor: {value: verify}});
                 backup = option;
-                golfie = new backup[verify](foxtra, romeon);
-                michal = golfie instanceof Object ? golfie : option;
+                oscard = new backup[verify](foxtra, romeon);
+                report = oscard instanceof Object ? oscard : option;
  530:
-                entity['pauseEndsAt'] = michal;
-                michal = report.pause_reason;
-                entity['pauseReason'] = michal;
-                michal = report.metadata;
-                entity['metadata'] = michal;
-                michal = report.use_storekit_resubscribe;
-                entity['useStorekitResubscribe'] = michal;
-                michal = report.price;
-                entity['price'] = michal;
-                michal = report.user_id;
-                entity['userId'] = michal;
-                michal = report.latest_invoice;
-                if(!(tangon == michal)) { _fun00032_ip = 605; continue _fun00031 }
+                entity['pauseEndsAt'] = report;
+                report = michal.pause_reason;
+                entity['pauseReason'] = report;
+                report = michal.metadata;
+                entity['metadata'] = report;
+                report = michal.use_storekit_resubscribe;
+                entity['useStorekitResubscribe'] = report;
+                report = michal.price;
+                entity['price'] = report;
+                report = michal.user_id;
+                entity['userId'] = report;
+                report = michal.latest_invoice;
+                if(!(tangon == report)) { _fun00032_ip = 605; continue _fun00031 }
  601:
-                michal = {};
+                report = {};
                 _fun00032_ip = 636; continue _fun00031;
  605:
-                tangon = {};
-                golfie = _closure1_slot8;
-                oscard = golfie.createInvoiceFromServer;
-                report = report.latest_invoice;
-                report = oscard.bind(golfie)(report);
-                tangon['latestInvoice'] = report;
-                michal = tangon;
+                oscard = {};
+                verify = _closure1_slot8;
+                option = verify.createInvoiceFromServer;
+                golfie = michal.latest_invoice;
+                golfie = option.bind(verify)(golfie);
+                oscard['latestInvoice'] = golfie;
+                report = oscard;
  636:
                 foxtra = entity;
-                romeon = michal;
-                michal = copyDataProperties(foxtra, romeon);
+                romeon = report;
+                report = copyDataProperties(foxtra, romeon);
+                michal = michal.eligible_payment_gateways;
+                report = tangon != michal;
+                tangon = null;
+                if(!report) { _fun00032_ip = 664; continue _fun00031 }
+ 661:
+                tangon = michal;
+ 664:
+                michal = 'eligiblePaymentGateways';
+                entity[michal] = tangon;
                 michal = zuuluu.prototype;
                 michal = Object.create(michal, {constructor: {value: zuuluu}});
                 backup = michal;

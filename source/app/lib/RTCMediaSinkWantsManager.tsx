@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  49:
             michal = zuuluu.@@iterator;
  55:
-            if(michal) { _fun00002_ip = 343; continue _fun00001 }
+            if(michal) { _fun00002_ip = 345; continue _fun00001 }
  61:
             oscard = report.Array;
             tangon = oscard.isArray;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             return entity;
- 343:
+ 345:
             entity = michal.call;
             zuuluu = entity.bind(michal)(zuuluu);
             michal = zuuluu.next;
@@ -204,11 +204,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 70: // try_end0
-            _fun00008_ip = 74; continue _fun00007;
- 72: // catch_target0
+ 72: // try_end0
+            _fun00008_ip = 76; continue _fun00007;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -1551,21 +1551,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.bind(report)(entity);
                 report = michal.length;
                 entity = 0;
-                if(!(!(report > entity))) { _fun00026_ip = 222; continue _fun00025 }
- 55:
+                if(!(!(report > entity))) { _fun00026_ip = 226; continue _fun00025 }
+ 59:
                 entity = zuuluu.videoSsrcs;
                 entity = entity[tangon];
                 golfie = undefined;
-                if(!(golfie !== entity)) { _fun00026_ip = 141; continue _fun00025 }
- 71:
+                if(!(golfie !== entity)) { _fun00026_ip = 145; continue _fun00025 }
+ 75:
                 report = _closure1_slot17;
                 entity = zuuluu.videoSsrcs;
                 entity = entity[tangon];
                 oscard = report.bind(golfie)(entity);
                 report = oscard.bind(golfie)();
                 entity = report.done;
-                if(entity) { _fun00026_ip = 141; continue _fun00025 }
- 105:
+                if(entity) { _fun00026_ip = 145; continue _fun00025 }
+ 109:
                 entity = report.value;
                 option = entity.ssrc;
                 entity = zuuluu.framesReceived;
@@ -1573,8 +1573,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 option = oscard.bind(golfie)();
                 entity = option.done;
                 report = option;
-                if(!entity) { _fun00026_ip = 105; continue _fun00025 }
- 141:
+                if(!entity) { _fun00026_ip = 109; continue _fun00025 }
+ 145:
                 entity = zuuluu.remoteVideoSsrcs;
                 entity = delete entity[tangon];
                 entity = zuuluu.videoSsrcs;
@@ -1591,14 +1591,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 foxtra = zuuluu;
                 yankee = tangon;
                 entity = foxtra[golfie](romeon, yankee, offset, verify, option);
-                _fun00026_ip = 248; continue _fun00025;
- 222:
+                _fun00026_ip = 252; continue _fun00025;
+ 226:
                 entity = zuuluu.videoSsrcs;
                 entity[tangon] = michal;
                 michal = zuuluu.participants;
                 entity = michal.add;
                 entity = entity.bind(michal)(tangon);
- 248:
+ 252:
                 michal = zuuluu.update;
                 entity = global;
                 report = entity.Array;
@@ -1742,7 +1742,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = this;
                 var _closure3_slot0 = entity;
                 zuuluu = entity.selectedParticipantId;
-                if(!(tangon !== zuuluu)) { _fun00034_ip = 178; continue _fun00033 }
+                if(!(tangon !== zuuluu)) { _fun00034_ip = 180; continue _fun00033 }
  25:
                 report = new Array(0);
                 oscard = entity.selectedParticipantId;
@@ -1807,7 +1807,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = tangon.bind(report)(michal);
                 michal = zuuluu.bind(entity)(michal);
                 return michal;
- 178:
+ 180:
                 entity = entity.latestWants;
                 return entity;
             }

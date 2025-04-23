@@ -183,25 +183,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = this;
                 var _closure3_slot0 = michal;
                 entity = michal.disabled;
-                if(entity) { _fun00004_ip = 530; continue _fun00003 }
+                if(entity) { _fun00004_ip = 532; continue _fun00003 }
  23:
                 report = michal.streamDisabledUsers;
                 entity = report.has;
                 entity = entity.bind(report)(zuuluu);
-                if(entity) { _fun00004_ip = 530; continue _fun00003 }
+                if(entity) { _fun00004_ip = 532; continue _fun00003 }
  45:
                 oscard = michal.calculateFps;
                 report = argBar;
                 entity = argBaz;
                 golfie = oscard.bind(michal)(zuuluu, report, entity);
                 entity = 0;
-                if(!(!(golfie < entity))) { _fun00004_ip = 526; continue _fun00003 }
+                if(!(!(golfie < entity))) { _fun00004_ip = 528; continue _fun00003 }
  75:
                 entity = global;
                 oscard = entity.Number;
                 report = oscard.isFinite;
                 report = report.bind(oscard)(golfie);
-                if(!report) { _fun00004_ip = 526; continue _fun00003 }
+                if(!report) { _fun00004_ip = 528; continue _fun00003 }
  100:
                 report = michal.perUserFpsWindow;
                 oscard = report[zuuluu];
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = report[zuuluu];
                 oscard = report.length;
                 report = michal.windowLength;
-                if(!(!(oscard < report))) { _fun00004_ip = 522; continue _fun00003 }
+                if(!(!(oscard < report))) { _fun00004_ip = 524; continue _fun00003 }
  148:
                 report = michal.perUserFpsWindow;
                 report = report[zuuluu];
@@ -237,14 +237,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = report.bind(oscard)(tangon);
                 report = tangon.length;
                 tangon = michal.fpsWindowBorderlineCount;
-                if(!(!(report >= tangon))) { _fun00004_ip = 363; continue _fun00003 }
- 236:
+                if(!(!(report >= tangon))) { _fun00004_ip = 365; continue _fun00003 }
+ 238:
                 tangon = michal.currentVideoAutoToggleState;
                 oscard = tangon[zuuluu];
                 tangon = _closure1_slot5;
                 tangon = tangon.AUTO_PROBING;
-                if(!(oscard === tangon)) { _fun00004_ip = 492; continue _fun00003 }
- 266:
+                if(!(oscard === tangon)) { _fun00004_ip = 494; continue _fun00003 }
+ 268:
                 golfie = michal.currentVideoAutoToggleState;
                 tangon = _closure1_slot5;
                 oscard = tangon.AUTO_ENABLED;
@@ -264,8 +264,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = golfie.bind(oscard)(report);
                 tangon = tangon.AUTO_ENABLED;
                 tangon = report.bind(oscard)(zuuluu, tangon);
-                _fun00004_ip = 492; continue _fun00003;
- 363:
+                _fun00004_ip = 494; continue _fun00003;
+ 365:
                 report = michal.logger;
                 tangon = report.info;
                 entity = entity.HermesInternal;
@@ -291,22 +291,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = tangon.bind(report)(zuuluu, entity);
                 entity = michal.startReenableBackoffTimer;
                 entity = entity.bind(michal)(zuuluu);
- 492:
+ 494:
                 entity = michal.probingUserId;
-                if(!(entity === zuuluu)) { _fun00004_ip = 530; continue _fun00003 }
- 502:
+                if(!(entity === zuuluu)) { _fun00004_ip = 532; continue _fun00003 }
+ 504:
                 entity = undefined;
                 michal['probingUserId'] = entity;
                 entity = michal.tryReenableQueue;
                 entity = entity.bind(michal)();
-                _fun00004_ip = 530; continue _fun00003;
- 522:
+                _fun00004_ip = 532; continue _fun00003;
+ 524:
                 entity = undefined;
                 return entity;
- 526:
+ 528:
                 entity = undefined;
                 return entity;
- 530:
+ 532:
                 entity = undefined;
                 return entity;
             }
@@ -324,7 +324,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 var _closure3_slot0 = michal;
                 var _closure3_slot1 = zuuluu;
                 tangon = michal.disabled;
-                if(tangon) { _fun00006_ip = 353; continue _fun00005 }
+                if(tangon) { _fun00006_ip = 355; continue _fun00005 }
  27:
                 golfie = michal.logger;
                 oscard = golfie.info;
@@ -408,7 +408,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 entity = tangon.bind(oscard)(entity, report);
                 michal[zuuluu] = entity;
- 353:
+ 355:
                 entity = undefined;
                 return entity;
             }

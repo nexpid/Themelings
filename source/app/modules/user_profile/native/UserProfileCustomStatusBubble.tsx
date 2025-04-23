@@ -316,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 3;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    golfie = tangon.UserProfileType;
+    golfie = tangon.UserProfileThemeTypes;
     tangon = 4;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
@@ -463,7 +463,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             entity = argFoo;
             verify = entity.customStatusActivity;
-            report = entity.userProfileType;
+            report = entity.themeType;
             zuuluu = entity.hasCustomProfileTheme;
             romeon = entity.editEnabled;
             tangon = undefined;

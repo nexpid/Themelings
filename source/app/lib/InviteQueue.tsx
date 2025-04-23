@@ -26,11 +26,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00002_ip = 74; continue _fun00001;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -214,15 +214,15 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 verify = entity.type;
                 option = _closure1_slot9;
                 option = option.GROUP_DM;
-                if(!(option !== verify)) { _fun00006_ip = 162; continue _fun00005 }
+                if(!(option !== verify)) { _fun00006_ip = 158; continue _fun00005 }
  64:
                 option = _closure1_slot9;
                 option = option.CHANNEL;
-                if(!(option !== verify)) { _fun00006_ip = 162; continue _fun00005 }
+                if(!(option !== verify)) { _fun00006_ip = 158; continue _fun00005 }
  78:
                 option = _closure1_slot9;
                 option = option.USER;
-                if(!(option === verify)) { _fun00006_ip = 195; continue _fun00005 }
+                if(!(option === verify)) { _fun00006_ip = 191; continue _fun00005 }
  92:
                 verify = _closure1_slot0;
                 option = _closure1_slot1;
@@ -269,8 +269,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     return entity;
                 };
                 michal = option.bind(verify)(zuuluu, michal);
-                _fun00006_ip = 195; continue _fun00005;
- 162:
+                _fun00006_ip = 191; continue _fun00005;
+ 158:
                 zuuluu = oscard._sendInvite;
                 backup = entity.channel;
                 foxtra = entity.inviteKey;
@@ -279,7 +279,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 yankee = tangon;
                 offset = golfie;
                 entity = kiloes[zuuluu](backup, foxtra, romeon, yankee, offset, verify);
- 195:
+ 191:
                 entity = undefined;
                 return entity;
             }

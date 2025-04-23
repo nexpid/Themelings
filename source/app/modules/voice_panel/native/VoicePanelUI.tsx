@@ -2710,7 +2710,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             zuuluu = tangon.get;
                             zuuluu = zuuluu.bind(tangon)();
                             zuuluu = zuuluu.cancel;
-                            if(zuuluu) { _fun00036_ip = 641; continue _fun00035 }
+                            if(zuuluu) { _fun00036_ip = 629; continue _fun00035 }
  31:
                             yankee = michal.velocityX;
                             offset = michal.velocityY;
@@ -2721,17 +2721,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = michal.bind(zuuluu)();
                             zuuluu = _closure1_slot14;
                             zuuluu = zuuluu.PIP;
-                            if(!(tangon !== zuuluu)) { _fun00036_ip = 472; continue _fun00035 }
+                            if(!(tangon !== zuuluu)) { _fun00036_ip = 460; continue _fun00035 }
  88:
                             tangon = _closure3_slot13;
                             zuuluu = tangon.get;
                             tangon = zuuluu.bind(tangon)();
                             zuuluu = _closure1_slot14;
                             zuuluu = zuuluu.PANEL;
-                            if(!(tangon === zuuluu)) { _fun00036_ip = 641; continue _fun00035 }
+                            if(!(tangon === zuuluu)) { _fun00036_ip = 629; continue _fun00035 }
  118:
                             zuuluu = 0;
-                            if(!(!(offset > zuuluu))) { _fun00036_ip = 191; continue _fun00035 }
+                            if(!(!(offset > zuuluu))) { _fun00036_ip = 187; continue _fun00035 }
  124:
                             tangon = _closure1_slot1;
                             report = _closure1_slot2;
@@ -2746,13 +2746,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure3_slot22;
                             zuuluu = tangon.set;
                             zuuluu = zuuluu.bind(tangon)(report);
-                            _fun00036_ip = 641; continue _fun00035;
- 191:
+                            _fun00036_ip = 629; continue _fun00035;
+ 187:
                             tangon = _closure3_slot6;
                             zuuluu = tangon.get;
                             zuuluu = zuuluu.bind(tangon)();
-                            if(zuuluu) { _fun00036_ip = 287; continue _fun00035 }
- 207:
+                            if(zuuluu) { _fun00036_ip = 283; continue _fun00035 }
+ 203:
                             report = _closure1_slot1;
                             oscard = _closure1_slot2;
                             zuuluu = 19;
@@ -2772,14 +2772,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             zuuluu = _closure3_slot8;
                             zuuluu = report.bind(oscard)(zuuluu);
                             zuuluu = zuuluu.bind(tangon)();
-                            _fun00036_ip = 641; continue _fun00035;
- 287:
+                            _fun00036_ip = 629; continue _fun00035;
+ 283:
                             tangon = _closure3_slot28;
                             zuuluu = tangon.get;
                             zuuluu = zuuluu.bind(tangon)();
                             zuuluu = zuuluu.requiresPop;
-                            if(zuuluu) { _fun00036_ip = 405; continue _fun00035 }
- 309:
+                            if(zuuluu) { _fun00036_ip = 397; continue _fun00035 }
+ 305:
                             tangon = _closure1_slot0;
                             report = _closure1_slot2;
                             zuuluu = 11;
@@ -2799,8 +2799,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure3_slot19;
                             zuuluu = {'gestureActive': false, 'x': 0, 'y': 0};
                             zuuluu = report.bind(oscard)(tangon, zuuluu);
-                            _fun00036_ip = 641; continue _fun00035;
- 405:
+                            _fun00036_ip = 629; continue _fun00035;
+ 397:
                             tangon = _closure1_slot1;
                             report = _closure1_slot2;
                             zuuluu = 19;
@@ -2814,8 +2814,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure3_slot22;
                             zuuluu = tangon.set;
                             zuuluu = zuuluu.bind(tangon)(report);
-                            _fun00036_ip = 641; continue _fun00035;
- 472:
+                            _fun00036_ip = 629; continue _fun00035;
+ 460:
                             oscard = _closure1_slot0;
                             report = _closure1_slot2;
                             zuuluu = 22;
@@ -2855,7 +2855,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             report = false;
                             entity['gestureActive'] = report;
                             entity = zuuluu.bind(tangon)(michal, entity);
- 641:
+ 629:
                             entity = undefined;
                             return entity;
                         }

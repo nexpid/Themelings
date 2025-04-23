@@ -425,17 +425,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = zuuluu.speaking;
                 entity = michal.isRunning;
                 entity = entity.bind(michal)();
-                if(!entity) { _fun00016_ip = 74; continue _fun00015 }
- 45:
+                if(!entity) { _fun00016_ip = 76; continue _fun00015 }
+ 47:
                 michal = zuuluu._getVoiceFilterStopWatch;
                 entity = argFoo;
                 michal = michal.bind(zuuluu)(entity);
                 entity = null;
-                if(!(entity != michal)) { _fun00016_ip = 74; continue _fun00015 }
- 65:
+                if(!(entity != michal)) { _fun00016_ip = 76; continue _fun00015 }
+ 67:
                 entity = michal.start;
                 entity = entity.bind(michal)();
- 74:
+ 76:
                 entity = undefined;
                 return entity;
             }

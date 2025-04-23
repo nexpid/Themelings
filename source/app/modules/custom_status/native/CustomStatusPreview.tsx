@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     golfie = tangon.PROFILE_CONTENT_WITHOUT_STATUS_TOP_PADDING;
     var _closure1_slot5 = golfie;
-    tangon = tangon.UserProfileType;
+    tangon = tangon.UserProfileThemeTypes;
     var _closure1_slot6 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
@@ -285,7 +285,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['user'] = ctrled;
             ctrled = _closure1_slot6;
             ctrled = ctrled.PREVIEW;
-            result['userProfileType'] = ctrled;
+            result['themeType'] = ctrled;
             vacuum = backup == kiloes;
             ctrled = undefined;
             if(vacuum) { _fun00004_ip = 640; continue _fun00003 }

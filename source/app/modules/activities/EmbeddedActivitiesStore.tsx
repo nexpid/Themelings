@@ -585,9 +585,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = romeon.getSessionId;
                     option = option.bind(romeon)();
                     foxtra = null;
-                    if(!(foxtra != michal)) { _fun00016_ip = 792; continue _fun00015 }
+                    if(!(foxtra != michal)) { _fun00016_ip = 814; continue _fun00015 }
  116:
-                    if(!(foxtra != option)) { _fun00016_ip = 792; continue _fun00015 }
+                    if(!(foxtra != option)) { _fun00016_ip = 814; continue _fun00015 }
  123:
                     romeon = _closure1_slot22;
                     option = romeon.get;
@@ -600,7 +600,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon = option.id;
  156:
                     option = zuuluu.id;
-                    if(!(romeon !== option)) { _fun00016_ip = 788; continue _fun00015 }
+                    if(!(romeon !== option)) { _fun00016_ip = 810; continue _fun00015 }
  168:
                     romeon = _closure1_slot0;
                     kiloes = _closure1_slot2;
@@ -622,7 +622,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     update = _closure1_slot13;
                     kiloes = update.getCurrentUser;
                     kiloes = kiloes.bind(update)();
-                    if(!(foxtra != kiloes)) { _fun00016_ip = 784; continue _fun00015 }
+                    if(!(foxtra != kiloes)) { _fun00016_ip = 806; continue _fun00015 }
  252:
                     update = _closure1_slot0;
                     source = _closure1_slot2;
@@ -704,12 +704,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = verify.bind(entity)(report);
                     report = verify.shouldOpenActivityInPopoutWindow;
                     report = report.bind(verify)();
-                    if(report) { _fun00016_ip = 687; continue _fun00015 }
+                    if(report) { _fun00016_ip = 709; continue _fun00015 }
  557:
                     verify = _closure1_slot12;
                     report = verify.getChannelId;
                     report = report.bind(verify)();
-                    if(!(option === report)) { _fun00016_ip = 615; continue _fun00015 }
+                    if(!(option === report)) { _fun00016_ip = 622; continue _fun00015 }
  575:
                     verify = _closure1_slot1;
                     offset = _closure1_slot2;
@@ -717,34 +717,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = offset[report];
                     report = verify.bind(entity)(report);
                     report = report.bind(entity)(option);
-                    if(report) { _fun00016_ip = 615; continue _fun00015 }
+                    if(report) { _fun00016_ip = 622; continue _fun00015 }
  603:
                     report = _closure1_slot14;
                     report = report.PANEL;
-                    _fun00016_ip = 681; continue _fun00015;
- 615:
-                    verify = zuuluu.kind;
-                    offset = _closure1_slot0;
-                    yankee = _closure1_slot2;
-                    option = 23;
-                    option = yankee[option];
-                    option = offset.bind(entity)(option);
-                    option = option.EmbeddedActivityLocationKind;
-                    option = option.CONTEXTLESS;
-                    if(!(verify !== option)) { _fun00016_ip = 668; continue _fun00015 }
- 656:
-                    option = _closure1_slot14;
-                    option = option.PIP;
-                    _fun00016_ip = 678; continue _fun00015;
- 668:
-                    verify = _closure1_slot14;
-                    option = verify.PANEL;
- 678:
-                    report = option;
- 681:
                     _closure1_slot36 = report;
-                    _fun00016_ip = 737; continue _fun00015;
- 687:
+                    _fun00016_ip = 759; continue _fun00015;
+ 622:
+                    option = zuuluu.kind;
+                    verify = _closure1_slot0;
+                    offset = _closure1_slot2;
+                    report = 23;
+                    report = offset[report];
+                    report = verify.bind(entity)(report);
+                    report = report.EmbeddedActivityLocationKind;
+                    report = report.CONTEXTLESS;
+                    if(!(option !== report)) { _fun00016_ip = 679; continue _fun00015 }
+ 663:
+                    report = _closure1_slot14;
+                    report = report.PIP;
+                    _closure1_slot36 = report;
+                    _fun00016_ip = 759; continue _fun00015;
+ 679:
+                    report = _closure1_slot14;
+                    report = report.PANEL;
+                    _closure1_slot36 = report;
+                    report = _closure1_slot15;
+                    report = report.NO_CHAT;
+                    _closure1_slot37 = report;
+                    _fun00016_ip = 759; continue _fun00015;
+ 709:
                     report = _closure1_slot14;
                     report = report.ACTIVITY_POPOUT_WINDOW;
                     _closure1_slot36 = report;
@@ -769,7 +771,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     tangon = report.bind(option)(tangon);
- 737:
+ 759:
                     report = _closure1_slot34;
                     tangon = report.set;
                     oscard = _closure1_slot49;
@@ -780,13 +782,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = michal.bind(oscard)();
                     michal = tangon.bind(report)(zuuluu, michal);
                     return entity;
- 784:
+ 806:
                     entity = false;
                     return entity;
- 788:
+ 810:
                     entity = false;
                     return entity;
- 792:
+ 814:
                     entity = false;
                     return entity;
                 }

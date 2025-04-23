@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = argFoo;
                     var _closure4_slot0 = michal;
                     entity = null;
-                    if(!(entity != michal)) { _fun00006_ip = 540; continue _fun00005 }
+                    if(!(entity != michal)) { _fun00006_ip = 548; continue _fun00005 }
  18:
                     tangon = _closure3_slot0;
                     offset = tangon.networkQuality;
@@ -705,8 +705,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     golfie = romeon.bind(foxtra)(yankee, golfie);
                     golfie = michal.audioDevice;
-                    if(!(option !== golfie)) { _fun00006_ip = 357; continue _fun00005 }
- 293:
+                    if(!(option !== golfie)) { _fun00006_ip = 363; continue _fun00005 }
+ 299:
                     romeon = _closure3_slot0;
                     foxtra = romeon.sampleAudioDevice;
                     golfie = michal.audioDevice;
@@ -718,21 +718,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = michal.output;
                     michal = romeon.outputDeviceStats;
                     michal = yankee.bind(romeon)(golfie, michal);
- 357:
+ 363:
                     michal = _closure3_slot0;
                     michal = michal.outboundStats;
                     michal = michal.packetsSent;
                     golfie = michal > zuuluu;
                     michal = false;
-                    if(!golfie) { _fun00006_ip = 408; continue _fun00005 }
- 382:
+                    if(!golfie) { _fun00006_ip = 414; continue _fun00005 }
+ 388:
                     golfie = _closure3_slot0;
                     yankee = golfie.duration;
                     golfie = yankee.speaking;
                     golfie = golfie + 1;
                     yankee['speaking'] = golfie;
                     michal = true;
- 408:
+ 414:
                     golfie = _closure1_slot1;
                     oscard = _closure1_slot2;
                     oscard = oscard[verify];
@@ -756,27 +756,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = tangon.packetsReceived;
                     tangon = report > tangon;
                     zuuluu = false;
-                    if(!tangon) { _fun00006_ip = 507; continue _fun00005 }
- 481:
+                    if(!tangon) { _fun00006_ip = 515; continue _fun00005 }
+ 489:
                     tangon = _closure3_slot0;
                     report = tangon.duration;
                     tangon = report.listening;
                     tangon = tangon + 1;
                     report['listening'] = tangon;
                     zuuluu = true;
- 507:
-                    if(michal) { _fun00006_ip = 513; continue _fun00005 }
- 510:
+ 515:
+                    if(michal) { _fun00006_ip = 521; continue _fun00005 }
+ 518:
                     michal = zuuluu;
- 513:
-                    if(!michal) { _fun00006_ip = 540; continue _fun00005 }
- 516:
+ 521:
+                    if(!michal) { _fun00006_ip = 548; continue _fun00005 }
+ 524:
                     entity = _closure3_slot0;
                     michal = entity.duration;
                     entity = michal.participation;
                     entity = entity + 1;
                     michal['participation'] = entity;
- 540:
+ 548:
                     entity = undefined;
                     return entity;
                 }
@@ -911,12 +911,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = {};
                 report = michal.mosCount;
                 report = report > tangon;
-                if(!report) { _fun00012_ip = 116; continue _fun00011 }
- 100:
+                if(!report) { _fun00012_ip = 118; continue _fun00011 }
+ 102:
                 oscard = michal.mosSum;
                 report = michal.mosCount;
                 tangon = oscard / report;
- 116:
+ 118:
                 entity['mos_mean'] = tangon;
                 report = michal.mosBuckets;
                 tangon = 1;
@@ -1111,38 +1111,38 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = {};
                 option = report != oscard;
                 golfie = null;
-                if(!option) { _fun00016_ip = 79; continue _fun00015 }
- 73:
+                if(!option) { _fun00016_ip = 81; continue _fun00015 }
+ 75:
                 golfie = oscard.audioJitterBuffer;
- 79:
+ 81:
                 michal['audio_jitter_buffer'] = golfie;
                 option = report != oscard;
                 golfie = null;
-                if(!option) { _fun00016_ip = 101; continue _fun00015 }
- 95:
+                if(!option) { _fun00016_ip = 103; continue _fun00015 }
+ 97:
                 golfie = oscard.audioJitterTarget;
- 101:
+ 103:
                 michal['audio_jitter_target'] = golfie;
                 option = report != oscard;
                 golfie = null;
-                if(!option) { _fun00016_ip = 123; continue _fun00015 }
- 117:
+                if(!option) { _fun00016_ip = 125; continue _fun00015 }
+ 119:
                 golfie = oscard.audioJitterDelay;
- 123:
+ 125:
                 michal['audio_jitter_delay'] = golfie;
                 option = report != oscard;
                 golfie = null;
-                if(!option) { _fun00016_ip = 145; continue _fun00015 }
- 139:
+                if(!option) { _fun00016_ip = 147; continue _fun00015 }
+ 141:
                 golfie = oscard.relativeReceptionDelay;
- 145:
+ 147:
                 michal['relative_reception_delay'] = golfie;
                 golfie = report != oscard;
                 report = null;
-                if(!golfie) { _fun00016_ip = 167; continue _fun00015 }
- 161:
+                if(!golfie) { _fun00016_ip = 169; continue _fun00015 }
+ 163:
                 report = oscard.relativePlayoutDelay;
- 167:
+ 169:
                 michal['relative_playout_delay'] = report;
                 offset = zuuluu.bind(tangon)(michal);
                 yankee = entity;

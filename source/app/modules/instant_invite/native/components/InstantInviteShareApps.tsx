@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['maxWidth'] = golfie;
                 michal['style'] = entity;
                 kiloes = null;
-                if(!(kiloes == romeon)) { _fun00004_ip = 198; continue _fun00003 }
+                if(!(kiloes == romeon)) { _fun00004_ip = 196; continue _fun00003 }
  86:
                 verify = _closure1_slot9;
                 golfie = _closure1_slot0;
@@ -231,8 +231,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 foxtra = 2;
                 entity['maxFontSizeMultiplier'] = foxtra;
                 entity = verify.bind(option)(golfie, entity);
-                _fun00004_ip = 270; continue _fun00003;
- 198:
+                _fun00004_ip = 266; continue _fun00003;
+ 196:
                 verify = _closure1_slot9;
                 golfie = _closure1_slot0;
                 option = _closure1_slot2;
@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = 2;
                 oscard['maxFontSizeMultiplier'] = offset;
                 entity = verify.bind(option)(golfie, oscard);
- 270:
+ 266:
                 michal['children'] = entity;
                 entity = undefined;
                 entity = tangon.bind(entity)(zuuluu, michal, report);

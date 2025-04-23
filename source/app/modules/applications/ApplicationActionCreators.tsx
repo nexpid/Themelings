@@ -442,14 +442,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                        if(zuuluu) { _fun00014_ip = 370; continue _fun00013 }
+                        if(zuuluu) { _fun00014_ip = 453; continue _fun00013 }
  12:
                         report = undefined;
-                        yankee = undefined;
+                        offset = undefined;
+                        var _closure4_slot0 = report;
                         oscard = _closure2_slot0;
                         tangon = _closure2_slot1;
-                        if(tangon) { _fun00014_ip = 49; continue _fun00013 }
- 30:
+                        if(tangon) { _fun00014_ip = 53; continue _fun00013 }
+ 34:
                         golfie = _closure2_slot0;
                         tangon = golfie.filter;
                         zuuluu = function(argFoo) {
@@ -538,91 +539,119 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             }
                         };
                         oscard = tangon.bind(golfie)(zuuluu);
- 49:
+ 53:
                         zuuluu = oscard;
                         tangon = zuuluu.length;
                         zuuluu = 0;
-                        if(!(tangon > zuuluu)) { _fun00014_ip = 300; continue _fun00013 }
- 66:
-                        option = _closure1_slot1;
+                        if(!(tangon > zuuluu)) { _fun00014_ip = 383; continue _fun00013 }
+ 70:
+                        verify = _closure1_slot1;
                         tangon = _closure1_slot2;
                         golfie = 5;
                         tangon = tangon[golfie];
-                        verify = option.bind(report)(tangon);
-                        option = verify.dispatch;
+                        yankee = verify.bind(report)(tangon);
+                        verify = yankee.dispatch;
                         tangon = {};
                         romeon = 'APPLICATIONS_FETCH';
                         tangon['type'] = romeon;
                         romeon = oscard;
                         tangon['applicationIds'] = romeon;
-                        tangon = option.bind(verify)(tangon);
- 117: // try_start_0
-                        option = _closure1_slot0;
-                        verify = _closure1_slot2;
+                        tangon = verify.bind(yankee)(tangon);
+ 121: // try_start_0
+                        verify = _closure1_slot0;
+                        yankee = _closure1_slot2;
                         tangon = 6;
-                        tangon = verify[tangon];
-                        tangon = option.bind(report)(tangon);
-                        verify = tangon.HTTP;
-                        option = verify.get;
+                        tangon = yankee[tangon];
+                        tangon = verify.bind(report)(tangon);
+                        romeon = tangon.HTTP;
+                        yankee = romeon.get;
                         tangon = {};
-                        romeon = _closure1_slot8;
-                        romeon = romeon.APPLICATIONS_PUBLIC;
-                        tangon['url'] = romeon;
-                        romeon = global;
-                        foxtra = romeon.URLSearchParams;
-                        backup = oscard;
-                        romeon = backup.map;
-                        offset = function(argFoo) {
+                        verify = _closure1_slot8;
+                        verify = verify.APPLICATIONS_PUBLIC;
+                        tangon['url'] = verify;
+                        verify = global;
+                        kiloes = verify.URLSearchParams;
+                        sizing = oscard;
+                        backup = sizing.map;
+                        foxtra = function(argFoo) {
                             entity = ['application_ids'];
                             michal = argFoo;
                             entity[1] = michal;
                             return entity;
                         };
-                        kiloes = romeon.bind(backup)(offset);
-                        romeon = foxtra.prototype;
-                        romeon = Object.create(romeon, {constructor: {value: foxtra}});
-                        sizing = romeon;
-                        offset = new sizing[foxtra](kiloes, backup);
-                        romeon = offset instanceof Object ? offset : romeon;
-                        offset = romeon.toString;
-                        offset = offset.bind(romeon)();
-                        tangon['query'] = offset;
-                        offset = true;
-                        tangon['oldFormErrors'] = offset;
-                        offset = false;
-                        tangon['rejectWithError'] = offset;
-                        tangon = option.bind(verify)(tangon);
-                        SaveGenerator(address=244);
- 242:
+                        output = backup.bind(sizing)(foxtra);
+                        backup = kiloes.prototype;
+                        backup = Object.create(backup, {constructor: {value: kiloes}});
+                        result = backup;
+                        foxtra = new result[kiloes](output, sizing);
+                        backup = foxtra instanceof Object ? foxtra : backup;
+                        foxtra = backup.toString;
+                        foxtra = foxtra.bind(backup)();
+                        tangon['query'] = foxtra;
+                        foxtra = true;
+                        tangon['oldFormErrors'] = foxtra;
+                        foxtra = false;
+                        tangon['rejectWithError'] = foxtra;
+                        tangon = yankee.bind(romeon)(tangon);
+                        SaveGenerator(address=248);
+ 246:
                         return tangon;
- 244:
-                        ResumeGenerator(result_out_reg=3, return_bool_out_reg=7);
-                        if(option) { _fun00014_ip = 303; continue _fun00013 }
- 250:
-                        yankee = tangon;
- 253: // try_end0
+ 248:
+                        ResumeGenerator(result_out_reg=3, return_bool_out_reg=10);
+                        if(yankee) { _fun00014_ip = 386; continue _fun00013 }
+ 257:
+                        offset = tangon;
+ 260: // try_end0
+                        romeon = offset;
+                        foxtra = romeon.body;
+                        yankee = verify.Set;
+                        offset = foxtra.map;
+                        verify = function(argFoo) {
+                            entity = argFoo;
+                            entity = entity.id;
+                            return entity;
+                        };
+                        output = offset.bind(foxtra)(verify);
+                        offset = yankee.prototype;
+                        offset = Object.create(offset, {constructor: {value: yankee}});
+                        result = offset;
+                        verify = new result[yankee](output, sizing);
+                        verify = verify instanceof Object ? verify : offset;
+                        _closure4_slot0 = verify;
+                        offset = oscard;
+                        verify = offset.filter;
+                        option = function(argFoo) {
+                            zuuluu = _closure4_slot0;
+                            michal = zuuluu.has;
+                            entity = argFoo;
+                            entity = michal.bind(zuuluu)(entity);
+                            entity = !entity;
+                            return entity;
+                        };
+                        yankee = verify.bind(offset)(option);
                         verify = _closure1_slot1;
                         option = _closure1_slot2;
                         option = option[golfie];
                         offset = verify.bind(report)(option);
                         verify = offset.dispatch;
                         option = {};
-                        romeon = 'APPLICATIONS_FETCH_SUCCESS';
-                        option['type'] = romeon;
-                        yankee = yankee.body;
-                        option['applications'] = yankee;
+                        foxtra = 'APPLICATIONS_FETCH_SUCCESS';
+                        option['type'] = foxtra;
+                        romeon = romeon.body;
+                        option['applications'] = romeon;
+                        option['unknownApplicationIds'] = yankee;
                         option = verify.bind(offset)(option);
- 300:
+ 383:
                         return report;
- 303:
+ 386:
                         return tangon;
- 306: // catch_target0
+ 389: // catch_target0
                         CatchBlockStart(arg_register=3);
                         michal = tangon;
                         option = tangon.status;
                         tangon = 429;
-                        if(!(tangon !== option)) { _fun00014_ip = 368; continue _fun00013 }
- 326:
+                        if(!(tangon !== option)) { _fun00014_ip = 451; continue _fun00013 }
+ 409:
                         tangon = _closure1_slot1;
                         zuuluu = _closure1_slot2;
                         zuuluu = zuuluu[golfie];
@@ -633,9 +662,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         zuuluu['type'] = golfie;
                         zuuluu['applicationIds'] = oscard;
                         zuuluu = tangon.bind(report)(zuuluu);
- 368:
+ 451:
                         throw michal;
- 370:
+ 453:
                         return entity;
                     }
                 };

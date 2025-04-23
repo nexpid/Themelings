@@ -1,5 +1,5 @@
 // app/modules/rpc/helpers/validateOpenInviteDialog.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     golfie = argBaz;
     zuuluu = argFre;
@@ -29,111 +29,130 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.RPCErrors;
     var _closure1_slot5 = tangon;
-    tangon = 6;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
     tangon = 'modules/rpc/helpers/validateOpenInviteDialog.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: validateOpenInviteDialog
+    michal = function(argFoo) { // Original name: validateOpenInviteDialog
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
             michal = 3;
-            michal = tangon[michal];
-            tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.bind(tangon)();
-            michal = null;
-            if(!(michal != zuuluu)) { _fun00002_ip = 308; continue _fun00001 }
- 38:
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            report = tangon.bind(michal)(zuuluu);
+            tangon = report.isContextlessActivitiesEnabledForApp;
+            zuuluu = argFoo;
+            zuuluu = tangon.bind(report)(zuuluu);
+            if(zuuluu) { _fun00002_ip = 423; continue _fun00001 }
+ 45:
+            tangon = _closure1_slot1;
+            report = _closure1_slot2;
+            zuuluu = 4;
+            zuuluu = report[zuuluu];
+            zuuluu = tangon.bind(michal)(zuuluu);
+            tangon = zuuluu.bind(michal)();
+            zuuluu = null;
+            if(!(zuuluu != tangon)) { _fun00002_ip = 355; continue _fun00001 }
+ 78:
             golfie = _closure1_slot3;
             oscard = golfie.getGuild;
-            report = zuuluu.getGuildId;
-            report = report.bind(zuuluu)();
+            report = tangon.getGuildId;
+            report = report.bind(tangon)();
             report = oscard.bind(golfie)(report);
-            if(!(michal != report)) { _fun00002_ip = 212; continue _fun00001 }
- 69:
+            if(!(zuuluu != report)) { _fun00002_ip = 259; continue _fun00001 }
+ 109:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
-            michal = 5;
-            michal = golfie[michal];
-            golfie = oscard.bind(tangon)(michal);
+            zuuluu = 6;
+            zuuluu = golfie[zuuluu];
+            golfie = oscard.bind(michal)(zuuluu);
             oscard = golfie.canViewInviteModal;
-            michal = _closure1_slot4;
-            michal = oscard.bind(golfie)(michal, report, zuuluu);
-            if(michal) { _fun00002_ip = 200; continue _fun00001 }
- 109:
+            zuuluu = _closure1_slot4;
+            zuuluu = oscard.bind(golfie)(zuuluu, report, tangon);
+            if(zuuluu) { _fun00002_ip = 240; continue _fun00001 }
+ 149:
             oscard = _closure1_slot1;
             golfie = _closure1_slot2;
-            michal = 4;
-            michal = golfie[michal];
-            option = oscard.bind(tangon)(michal);
+            zuuluu = 5;
+            zuuluu = golfie[zuuluu];
+            option = oscard.bind(michal)(zuuluu);
             golfie = {};
-            michal = _closure1_slot5;
-            michal = michal.INVALID_PERMISSIONS;
-            golfie['errorCode'] = michal;
-            verify = zuuluu.id;
-            michal = global;
-            michal = michal.HermesInternal;
-            oscard = michal.concat;
-            michal = 'No invite permissions for ';
-            yankee = oscard.bind(michal)(verify);
+            zuuluu = _closure1_slot5;
+            zuuluu = zuuluu.INVALID_PERMISSIONS;
+            golfie['errorCode'] = zuuluu;
+            verify = tangon.id;
+            zuuluu = global;
+            zuuluu = zuuluu.HermesInternal;
+            oscard = zuuluu.concat;
+            zuuluu = 'No invite permissions for ';
+            yankee = oscard.bind(zuuluu)(verify);
             oscard = option.prototype;
             oscard = Object.create(oscard, {constructor: {value: option}});
             foxtra = oscard;
             romeon = golfie;
-            michal = new foxtra[option](romeon, yankee, offset);
-            michal = michal instanceof Object ? michal : oscard;
-            throw michal;
- 200:
-            michal = {};
-            michal['channel'] = zuuluu;
-            michal['guild'] = report;
-            return michal;
- 212:
+            zuuluu = new foxtra[option](romeon, yankee, offset);
+            zuuluu = zuuluu instanceof Object ? zuuluu : oscard;
+            throw zuuluu;
+ 240:
+            zuuluu = {};
+            zuuluu['channel'] = tangon;
+            zuuluu['guild'] = report;
+            report = false;
+            zuuluu['contextless'] = report;
+            return zuuluu;
+ 259:
             report = _closure1_slot1;
             oscard = _closure1_slot2;
-            michal = 4;
-            michal = oscard[michal];
-            oscard = report.bind(tangon)(michal);
+            zuuluu = 5;
+            zuuluu = oscard[zuuluu];
+            oscard = report.bind(michal)(zuuluu);
             report = {};
-            michal = _closure1_slot5;
-            michal = michal.INVALID_CHANNEL;
-            report['errorCode'] = michal;
-            michal = zuuluu.getGuildId;
-            golfie = michal.bind(zuuluu)();
-            michal = global;
-            michal = michal.HermesInternal;
-            zuuluu = michal.concat;
-            michal = 'Invalid guild ';
-            yankee = zuuluu.bind(michal)(golfie);
-            zuuluu = oscard.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: oscard}});
-            foxtra = zuuluu;
+            zuuluu = _closure1_slot5;
+            zuuluu = zuuluu.INVALID_CHANNEL;
+            report['errorCode'] = zuuluu;
+            zuuluu = tangon.getGuildId;
+            golfie = zuuluu.bind(tangon)();
+            zuuluu = global;
+            zuuluu = zuuluu.HermesInternal;
+            tangon = zuuluu.concat;
+            zuuluu = 'Invalid guild ';
+            yankee = tangon.bind(zuuluu)(golfie);
+            tangon = oscard.prototype;
+            tangon = Object.create(tangon, {constructor: {value: oscard}});
+            foxtra = tangon;
             romeon = report;
-            michal = new foxtra[oscard](romeon, yankee, offset);
-            michal = michal instanceof Object ? michal : zuuluu;
-            throw michal;
- 308:
-            zuuluu = _closure1_slot1;
+            zuuluu = new foxtra[oscard](romeon, yankee, offset);
+            zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
+            throw zuuluu;
+ 355:
+            tangon = _closure1_slot1;
             report = _closure1_slot2;
-            michal = 4;
-            michal = report[michal];
-            tangon = zuuluu.bind(tangon)(michal);
-            zuuluu = {};
+            zuuluu = 5;
+            zuuluu = report[zuuluu];
+            report = tangon.bind(michal)(zuuluu);
+            tangon = {};
             entity = _closure1_slot5;
             entity = entity.INVALID_CHANNEL;
-            zuuluu['errorCode'] = entity;
-            entity = tangon.prototype;
-            michal = Object.create(entity, {constructor: {value: tangon}});
+            tangon['errorCode'] = entity;
+            entity = report.prototype;
+            zuuluu = Object.create(entity, {constructor: {value: report}});
             yankee = 'Invalid channel';
-            foxtra = michal;
-            romeon = zuuluu;
-            entity = new foxtra[tangon](romeon, yankee, offset);
-            entity = entity instanceof Object ? entity : michal;
+            foxtra = zuuluu;
+            romeon = tangon;
+            entity = new foxtra[report](romeon, yankee, offset);
+            entity = entity instanceof Object ? entity : zuuluu;
             throw entity;
+ 423:
+            entity = {};
+            entity['channel'] = michal;
+            entity['guild'] = michal;
+            michal = true;
+            entity['contextless'] = michal;
+            return entity;
         }
     };
     zuuluu['validateOpenInviteDialog'] = michal;

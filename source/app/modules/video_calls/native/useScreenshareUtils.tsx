@@ -259,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  108:
                 michal = _closure1_slot7;
  112:
-                if(golfie) { _fun00006_ip = 124; continue _fun00005 }
+                if(golfie) { _fun00006_ip = 126; continue _fun00005 }
  115:
                 zuuluu = function() { // Original name: u
                     zuuluu = _closure1_slot0;
@@ -286,35 +286,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = michal.bind(zuuluu)();
                     return entity;
                 };
-                _fun00006_ip = 172; continue _fun00005;
- 124:
+                _fun00006_ip = 174; continue _fun00005;
+ 126:
                 tangon = _closure2_slot1;
-                if(tangon) { _fun00006_ip = 162; continue _fun00005 }
- 134:
+                if(tangon) { _fun00006_ip = 164; continue _fun00005 }
+ 136:
                 oscard = _closure1_slot0;
                 option = _closure1_slot2;
                 tangon = 5;
                 tangon = option[tangon];
                 tangon = oscard.bind(verify)(tangon);
                 zuuluu = tangon.showScreenshareDisabledAlert;
-                _fun00006_ip = 172; continue _fun00005;
- 162:
+                _fun00006_ip = 174; continue _fun00005;
+ 164:
                 zuuluu = michal;
-                if(!report) { _fun00006_ip = 172; continue _fun00005 }
- 168:
+                if(!report) { _fun00006_ip = 174; continue _fun00005 }
+ 170:
                 zuuluu = _closure1_slot10;
- 172:
+ 174:
                 tangon = _closure1_slot1;
                 option = _closure1_slot2;
-                if(report) { _fun00006_ip = 192; continue _fun00005 }
- 183:
+                if(report) { _fun00006_ip = 194; continue _fun00005 }
+ 185:
                 michal = 18;
                 michal = option[michal];
-                _fun00006_ip = 199; continue _fun00005;
- 192:
+                _fun00006_ip = 201; continue _fun00005;
+ 194:
                 oscard = 17;
                 michal = option[oscard];
- 199:
+ 201:
                 michal = tangon.bind(verify)(michal);
                 tangon = _closure1_slot0;
                 offset = _closure1_slot2;
@@ -326,21 +326,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = offset[entity];
                 entity = tangon.bind(verify)(entity);
                 entity = entity.t;
-                if(report) { _fun00006_ip = 266; continue _fun00005 }
- 251:
+                if(report) { _fun00006_ip = 268; continue _fun00005 }
+ 253:
                 tangon = entity.fjBNo6;
                 tangon = oscard.bind(option)(tangon);
-                _fun00006_ip = 277; continue _fun00005;
- 266:
+                _fun00006_ip = 279; continue _fun00005;
+ 268:
                 entity = entity.CpkXwc;
                 tangon = oscard.bind(option)(entity);
- 277:
+ 279:
                 entity = {};
                 oscard = _closure2_slot1;
-                if(!oscard) { _fun00006_ip = 292; continue _fun00005 }
- 289:
+                if(!oscard) { _fun00006_ip = 294; continue _fun00005 }
+ 291:
                 oscard = golfie;
- 292:
+ 294:
                 entity['isFeatureEnabled'] = oscard;
                 entity['isActive'] = report;
                 entity['text'] = tangon;
@@ -375,7 +375,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.StorageKeys;
             zuuluu = zuuluu.SCREENSHARE_ONBOARD;
             zuuluu = tangon.bind(report)(zuuluu);
-            if(zuuluu) { _fun00008_ip = 82; continue _fun00007 }
+            if(zuuluu) { _fun00008_ip = 84; continue _fun00007 }
  77:
             entity = function() {
                 zuuluu = _closure1_slot11;
@@ -384,7 +384,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
- 82:
+ 84:
             return entity;
         }
     };

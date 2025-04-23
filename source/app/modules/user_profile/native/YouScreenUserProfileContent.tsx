@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     golfie = tangon.PROFILE_CONTENT_BOTTOM_PADDING;
     var _closure1_slot6 = golfie;
-    tangon = tangon.UserProfileType;
+    tangon = tangon.UserProfileThemeTypes;
     var _closure1_slot7 = tangon;
     tangon = 4;
     tangon = oscard[tangon];
@@ -397,7 +397,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup['displayNameAccessibilityHint'] = papara;
             papara = _closure1_slot7;
             papara = papara.YOU_SCREEN;
-            backup['userProfileType'] = papara;
+            backup['themeType'] = papara;
             backup['showChevron'] = ctrled;
             kiloes = update.bind(tangon)(kiloes, backup);
             backup = new Array(2);

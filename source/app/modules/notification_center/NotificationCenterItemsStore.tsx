@@ -1597,7 +1597,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     michal['SET_RECENT_MENTIONS_FILTER'] = verify;
-    tangon = function(argFoo) { // Original name: handleMobileNativeUpdate
+    verify = function(argFoo) { // Original name: handleMobileNativeUpdate
         _fun00055: for(var _fun00056_ip = 0; ; ) switch(_fun00056_ip) {
  0:
             entity = argFoo;
@@ -1653,7 +1653,54 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    michal['MOBILE_NATIVE_UPDATE_CHECK_FINISHED'] = tangon;
+    michal['MOBILE_NATIVE_UPDATE_CHECK_FINISHED'] = verify;
+    tangon = function(argFoo) { // Original name: handleFetchApplicationsSuccess
+        _fun00057: for(var _fun00058_ip = 0; ; ) switch(_fun00058_ip) {
+ 0:
+            entity = argFoo;
+            report = entity.unknownApplicationIds;
+            entity = undefined;
+            var _closure2_slot0 = entity;
+            zuuluu = null;
+            if(!(zuuluu != report)) { _fun00058_ip = 92; continue _fun00057 }
+ 23:
+            zuuluu = global;
+            zuuluu = zuuluu.Set;
+            tangon = zuuluu.prototype;
+            tangon = Object.create(tangon, {constructor: {value: zuuluu}});
+            golfie = tangon;
+            oscard = report;
+            zuuluu = new golfie[zuuluu](oscard, report);
+            zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
+            _closure2_slot0 = zuuluu;
+            zuuluu = _closure1_slot14;
+            report = zuuluu.notifCenterLocalItems;
+            tangon = report.filter;
+            michal = function(argFoo) {
+                _fun00059: for(var _fun00060_ip = 0; ; ) switch(_fun00060_ip) {
+ 0:
+                    michal = argFoo;
+                    zuuluu = michal.applicationId;
+                    entity = null;
+                    entity = entity == zuuluu;
+                    if(entity) { _fun00060_ip = 42; continue _fun00059 }
+ 17:
+                    tangon = _closure2_slot0;
+                    zuuluu = tangon.has;
+                    michal = michal.applicationId;
+                    michal = zuuluu.bind(tangon)(michal);
+                    entity = !michal;
+ 42:
+                    return entity;
+                }
+            };
+            michal = tangon.bind(report)(michal);
+            zuuluu['notifCenterLocalItems'] = michal;
+ 92:
+            return entity;
+        }
+    };
+    michal['APPLICATIONS_FETCH_SUCCESS'] = tangon;
     tangon = option.prototype;
     tangon = Object.create(tangon, {constructor: {value: option}});
     output = tangon;

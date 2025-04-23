@@ -342,7 +342,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00014_ip = 693; continue _fun00013 }
+                            if(michal) { _fun00014_ip = 691; continue _fun00013 }
  10:
                             michal = undefined;
                             golfie = undefined;
@@ -393,7 +393,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             return tangon;
  174:
                             ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                            if(report) { _fun00014_ip = 664; continue _fun00013 }
+                            if(report) { _fun00014_ip = 662; continue _fun00013 }
  183:
                             if(tangon) { _fun00014_ip = 189; continue _fun00013 }
  186: // try_end0
@@ -408,17 +408,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             verify = oscard;
                             report = 'utf8';
                             report = romeon.bind(result)(yankee, verify, report);
-                            SaveGenerator(address=235);
- 233:
+                            SaveGenerator(address=233);
+ 231:
                             return report;
- 235:
+ 233:
                             ResumeGenerator(result_out_reg=4, return_bool_out_reg=8);
-                            if(verify) { _fun00014_ip = 661; continue _fun00013 }
- 244:
+                            if(verify) { _fun00014_ip = 659; continue _fun00013 }
+ 242:
                             option = report;
                             romeon = null;
-                            if(!(romeon != report)) { _fun00014_ip = 658; continue _fun00013 }
- 256:
+                            if(!(romeon != report)) { _fun00014_ip = 656; continue _fun00013 }
+ 254:
                             backup = function(argFoo) { // Original name: normalizeTimestampToMs
                                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
@@ -469,8 +469,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             option = option.done;
                             yankee = global;
                             verify = 11;
-                            if(option) { _fun00014_ip = 614; continue _fun00013 }
- 327:
+                            if(option) { _fun00014_ip = 612; continue _fun00013 }
+ 325:
                             option = foxtra;
                             echoed = option.value;
                             result = yankee.JSON;
@@ -513,12 +513,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             sizing = source;
                             ctrled = romeon == source;
                             source = undefined;
-                            if(ctrled) { _fun00014_ip = 546; continue _fun00013 }
- 534:
+                            if(ctrled) { _fun00014_ip = 544; continue _fun00013 }
+ 532:
                             vacuum = sizing;
                             ctrled = vacuum.toString;
                             source = ctrled.bind(vacuum)();
- 546:
+ 544:
                             option['channel_type'] = source;
                             source = output;
                             ctrled = source.rel_type;
@@ -532,39 +532,39 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             option = option.bind(michal)();
                             foxtra = option;
                             option = option.done;
-                            if(!option) { _fun00014_ip = 327; continue _fun00013 }
- 614:
+                            if(!option) { _fun00014_ip = 325; continue _fun00013 }
+ 612:
                             verify = _closure1_slot0;
                             option = _closure1_slot2;
                             option = option[offset];
                             verify = verify.bind(michal)(option);
                             option = verify.removeFile;
                             oscard = option.bind(verify)(golfie, oscard);
-                            SaveGenerator(address=647);
+                            SaveGenerator(address=645);
+ 643:
+                            return oscard;
  645:
-                            return oscard;
- 647:
                             ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                            if(golfie) { _fun00014_ip = 655; continue _fun00013 }
- 653: // try_end1
-                            _fun00014_ip = 690; continue _fun00013;
- 655:
+                            if(golfie) { _fun00014_ip = 653; continue _fun00013 }
+ 651: // try_end1
+                            _fun00014_ip = 688; continue _fun00013;
+ 653:
                             return oscard;
- 658:
+ 656:
                             return michal;
- 661:
+ 659:
                             return report;
- 664:
+ 662:
                             return tangon;
- 667: // catch_target0 // catch_target1
+ 665: // catch_target0 // catch_target1
                             CatchBlockStart(arg_register=5);
                             report = _closure1_slot11;
                             tangon = report.error;
                             zuuluu = 'Error tracking push notifications';
                             zuuluu = tangon.bind(report)(zuuluu, oscard);
- 690:
+ 688:
                             return michal;
- 693:
+ 691:
                             return entity;
                         }
                     };

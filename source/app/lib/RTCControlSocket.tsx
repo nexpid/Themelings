@@ -28,11 +28,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
- 72: // catch_target0
+ 72: // try_end0
+            _fun00002_ip = 76; continue _fun00001;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             michal = entity == tangon;
             entity = undefined;
-            if(michal) { _fun00004_ip = 31; continue _fun00003 }
+            if(michal) { _fun00004_ip = 33; continue _fun00003 }
  14:
             zuuluu = tangon.map;
             michal = function(argFoo) {
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             entity = zuuluu.bind(tangon)(michal);
- 31:
+ 33:
             return entity;
         }
     };
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = null;
             zuuluu = michal == report;
             entity = undefined;
-            if(zuuluu) { _fun00008_ip = 31; continue _fun00007 }
+            if(zuuluu) { _fun00008_ip = 33; continue _fun00007 }
  14:
             tangon = report.map;
             zuuluu = function(argFoo) {
@@ -218,11 +218,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             entity = tangon.bind(report)(zuuluu);
- 31:
-            if(!(michal == entity)) { _fun00008_ip = 39; continue _fun00007 }
- 35:
+ 33:
+            if(!(michal == entity)) { _fun00008_ip = 41; continue _fun00007 }
+ 37:
             entity = new Array(0);
- 39:
+ 41:
             return entity;
         }
     };
@@ -642,7 +642,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = report.bind(oscard)(entity);
                 report = tangon.webSocket;
                 entity = null;
-                if(!(entity !== report)) { _fun00014_ip = 103; continue _fun00013 }
+                if(!(entity !== report)) { _fun00014_ip = 105; continue _fun00013 }
  66:
                 oscard = tangon.logger;
                 report = oscard.error;
@@ -657,7 +657,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 entity = report.bind(tangon)(entity);
- 103:
+ 105:
                 report = zuuluu.Date;
                 entity = report.now;
                 entity = entity.bind(report)();
@@ -780,7 +780,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  52:
                         tangon = _closure1_slot8;
                         tangon = tangon.isLoggingGatewayEvents;
-                        if(!tangon) { _fun00018_ip = 252; continue _fun00017 }
+                        if(!tangon) { _fun00018_ip = 254; continue _fun00017 }
  71:
                         tangon = global;
                         report = tangon.Uint8Array;
@@ -799,7 +799,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = ': ';
                         report = offset.bind(verify)(option, report, yankee);
                         report = oscard.bind(golfie)(report);
-                        _fun00018_ip = 252; continue _fun00017;
+                        _fun00018_ip = 254; continue _fun00017;
  155:
                         golfie = new Array(0);
                         kiloes = 0;
@@ -831,95 +831,95 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = ': 0x';
                         tangon = verify.bind(golfie)(option, tangon, offset);
                         tangon = report.bind(oscard)(tangon);
- 252:
+ 254:
                         tangon = _closure1_slot12;
                         tangon = tangon.HELLO;
-                        if(!(tangon !== option)) { _fun00018_ip = 2176; continue _fun00017 }
- 269:
+                        if(!(tangon !== option)) { _fun00018_ip = 2178; continue _fun00017 }
+ 271:
                         tangon = _closure1_slot12;
                         tangon = tangon.READY;
-                        if(!(tangon !== option)) { _fun00018_ip = 2157; continue _fun00017 }
- 286:
+                        if(!(tangon !== option)) { _fun00018_ip = 2159; continue _fun00017 }
+ 288:
                         tangon = _closure1_slot12;
                         tangon = tangon.RESUMED;
-                        if(!(tangon !== option)) { _fun00018_ip = 2138; continue _fun00017 }
- 303:
+                        if(!(tangon !== option)) { _fun00018_ip = 2140; continue _fun00017 }
+ 305:
                         tangon = _closure1_slot12;
                         tangon = tangon.SELECT_PROTOCOL_ACK;
-                        if(!(tangon !== option)) { _fun00018_ip = 1832; continue _fun00017 }
- 320:
+                        if(!(tangon !== option)) { _fun00018_ip = 1834; continue _fun00017 }
+ 322:
                         tangon = _closure1_slot12;
                         tangon = tangon.SPEAKING;
-                        if(!(tangon !== option)) { _fun00018_ip = 1741; continue _fun00017 }
- 337:
+                        if(!(tangon !== option)) { _fun00018_ip = 1743; continue _fun00017 }
+ 339:
                         tangon = _closure1_slot12;
                         tangon = tangon.HEARTBEAT;
-                        if(!(tangon !== option)) { _fun00018_ip = 1722; continue _fun00017 }
- 354:
+                        if(!(tangon !== option)) { _fun00018_ip = 1724; continue _fun00017 }
+ 356:
                         tangon = _closure1_slot12;
                         tangon = tangon.HEARTBEAT_ACK;
-                        if(!(tangon !== option)) { _fun00018_ip = 1700; continue _fun00017 }
- 371:
+                        if(!(tangon !== option)) { _fun00018_ip = 1702; continue _fun00017 }
+ 373:
                         tangon = _closure1_slot12;
                         tangon = tangon.VIDEO;
-                        if(!(tangon !== option)) { _fun00018_ip = 1630; continue _fun00017 }
- 388:
+                        if(!(tangon !== option)) { _fun00018_ip = 1632; continue _fun00017 }
+ 390:
                         tangon = _closure1_slot12;
                         tangon = tangon.CLIENT_CONNECT;
-                        if(!(tangon !== option)) { _fun00018_ip = 1593; continue _fun00017 }
- 405:
+                        if(!(tangon !== option)) { _fun00018_ip = 1595; continue _fun00017 }
+ 407:
                         tangon = _closure1_slot12;
                         tangon = tangon.CLIENT_DISCONNECT;
-                        if(!(tangon !== option)) { _fun00018_ip = 1556; continue _fun00017 }
- 422:
+                        if(!(tangon !== option)) { _fun00018_ip = 1558; continue _fun00017 }
+ 424:
                         tangon = _closure1_slot12;
                         tangon = tangon.SESSION_UPDATE;
-                        if(!(tangon !== option)) { _fun00018_ip = 1398; continue _fun00017 }
- 439:
+                        if(!(tangon !== option)) { _fun00018_ip = 1400; continue _fun00017 }
+ 441:
                         tangon = _closure1_slot12;
                         tangon = tangon.MEDIA_SINK_WANTS;
-                        if(!(tangon !== option)) { _fun00018_ip = 1367; continue _fun00017 }
- 456:
+                        if(!(tangon !== option)) { _fun00018_ip = 1369; continue _fun00017 }
+ 458:
                         tangon = _closure1_slot12;
                         tangon = tangon.VOICE_BACKEND_VERSION;
-                        if(!(tangon !== option)) { _fun00018_ip = 1292; continue _fun00017 }
- 473:
+                        if(!(tangon !== option)) { _fun00018_ip = 1294; continue _fun00017 }
+ 475:
                         tangon = _closure1_slot12;
                         tangon = tangon.FLAGS;
-                        if(!(tangon !== option)) { _fun00018_ip = 1219; continue _fun00017 }
- 490:
+                        if(!(tangon !== option)) { _fun00018_ip = 1221; continue _fun00017 }
+ 492:
                         tangon = _closure1_slot12;
                         tangon = tangon.PLATFORM;
-                        if(!(tangon !== option)) { _fun00018_ip = 1144; continue _fun00017 }
- 507:
+                        if(!(tangon !== option)) { _fun00018_ip = 1146; continue _fun00017 }
+ 509:
                         tangon = _closure1_slot12;
                         tangon = tangon.DAVE_PROTOCOL_PREPARE_TRANSITION;
-                        if(!(tangon !== option)) { _fun00018_ip = 1069; continue _fun00017 }
- 524:
+                        if(!(tangon !== option)) { _fun00018_ip = 1071; continue _fun00017 }
+ 526:
                         tangon = _closure1_slot12;
                         tangon = tangon.DAVE_PROTOCOL_EXECUTE_TRANSITION;
-                        if(!(tangon !== option)) { _fun00018_ip = 1017; continue _fun00017 }
- 541:
+                        if(!(tangon !== option)) { _fun00018_ip = 1019; continue _fun00017 }
+ 543:
                         tangon = _closure1_slot12;
                         tangon = tangon.DAVE_PROTOCOL_PREPARE_EPOCH;
-                        if(!(tangon !== option)) { _fun00018_ip = 942; continue _fun00017 }
- 558:
+                        if(!(tangon !== option)) { _fun00018_ip = 944; continue _fun00017 }
+ 560:
                         tangon = _closure1_slot12;
                         tangon = tangon.MLS_EXTERNAL_SENDER_PACKAGE;
-                        if(!(tangon !== option)) { _fun00018_ip = 911; continue _fun00017 }
- 575:
+                        if(!(tangon !== option)) { _fun00018_ip = 913; continue _fun00017 }
+ 577:
                         tangon = _closure1_slot12;
                         tangon = tangon.MLS_PROPOSALS;
-                        if(!(tangon !== option)) { _fun00018_ip = 880; continue _fun00017 }
- 592:
+                        if(!(tangon !== option)) { _fun00018_ip = 882; continue _fun00017 }
+ 594:
                         tangon = _closure1_slot12;
                         tangon = tangon.MLS_PREPARE_COMMIT_TRANSITION;
-                        if(!(tangon !== option)) { _fun00018_ip = 776; continue _fun00017 }
- 609:
+                        if(!(tangon !== option)) { _fun00018_ip = 778; continue _fun00017 }
+ 611:
                         tangon = _closure1_slot12;
                         tangon = tangon.MLS_WELCOME;
-                        if(!(tangon !== option)) { _fun00018_ip = 672; continue _fun00017 }
- 623:
+                        if(!(tangon !== option)) { _fun00018_ip = 674; continue _fun00017 }
+ 625:
                         tangon = _closure3_slot0;
                         oscard = tangon.logger;
                         report = oscard.info;
@@ -929,8 +929,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = 'Unhandled op ';
                         tangon = golfie.bind(tangon)(option);
                         tangon = report.bind(oscard)(tangon);
-                        _fun00018_ip = 2203; continue _fun00017;
- 672:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 674:
                         tangon = global;
                         option = tangon.DataView;
                         output = zuuluu.buffer;
@@ -953,8 +953,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = _closure1_slot18;
                         tangon = tangon.MLSWelcome;
                         tangon = report.bind(oscard)(tangon, option, golfie);
-                        _fun00018_ip = 2203; continue _fun00017;
- 776:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 778:
                         tangon = global;
                         option = tangon.DataView;
                         output = zuuluu.buffer;
@@ -977,32 +977,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = _closure1_slot18;
                         tangon = tangon.MLSPrepareCommitTransition;
                         tangon = report.bind(oscard)(tangon, option, golfie);
-                        _fun00018_ip = 2203; continue _fun00017;
- 880:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 882:
                         oscard = _closure3_slot0;
                         report = oscard.emit;
                         tangon = _closure1_slot18;
                         tangon = tangon.MLSProposals;
                         tangon = report.bind(oscard)(tangon, zuuluu);
-                        _fun00018_ip = 2203; continue _fun00017;
- 911:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 913:
                         oscard = _closure3_slot0;
                         report = oscard.emit;
                         tangon = _closure1_slot18;
                         tangon = tangon.MLSExternalSenderPackage;
                         tangon = report.bind(oscard)(tangon, zuuluu);
-                        _fun00018_ip = 2203; continue _fun00017;
- 942:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 944:
                         tangon = zuuluu.epoch;
                         oscard = null;
                         tangon = oscard != tangon;
-                        if(!tangon) { _fun00018_ip = 967; continue _fun00017 }
- 957:
+                        if(!tangon) { _fun00018_ip = 969; continue _fun00017 }
+ 959:
                         report = zuuluu.protocol_version;
                         tangon = oscard != report;
- 967:
-                        if(!tangon) { _fun00018_ip = 2203; continue _fun00017 }
- 973:
+ 969:
+                        if(!tangon) { _fun00018_ip = 2205; continue _fun00017 }
+ 975:
                         option = _closure3_slot0;
                         golfie = option.emit;
                         tangon = _closure1_slot18;
@@ -1010,30 +1010,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = zuuluu.epoch;
                         tangon = zuuluu.protocol_version;
                         tangon = golfie.bind(option)(oscard, report, tangon);
-                        _fun00018_ip = 2203; continue _fun00017;
- 1017:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 1019:
                         report = zuuluu.transition_id;
                         tangon = null;
-                        if(!(tangon != report)) { _fun00018_ip = 2203; continue _fun00017 }
- 1032:
+                        if(!(tangon != report)) { _fun00018_ip = 2205; continue _fun00017 }
+ 1034:
                         golfie = _closure3_slot0;
                         oscard = golfie.emit;
                         tangon = _closure1_slot18;
                         report = tangon.SecureFramesExecuteTransition;
                         tangon = zuuluu.transition_id;
                         tangon = oscard.bind(golfie)(report, tangon);
-                        _fun00018_ip = 2203; continue _fun00017;
- 1069:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 1071:
                         tangon = zuuluu.transition_id;
                         oscard = null;
                         tangon = oscard != tangon;
-                        if(!tangon) { _fun00018_ip = 1094; continue _fun00017 }
- 1084:
+                        if(!tangon) { _fun00018_ip = 1096; continue _fun00017 }
+ 1086:
                         report = zuuluu.protocol_version;
                         tangon = oscard != report;
- 1094:
-                        if(!tangon) { _fun00018_ip = 2203; continue _fun00017 }
- 1100:
+ 1096:
+                        if(!tangon) { _fun00018_ip = 2205; continue _fun00017 }
+ 1102:
                         option = _closure3_slot0;
                         golfie = option.emit;
                         tangon = _closure1_slot18;
@@ -1041,18 +1041,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = zuuluu.transition_id;
                         tangon = zuuluu.protocol_version;
                         tangon = golfie.bind(option)(oscard, report, tangon);
-                        _fun00018_ip = 2203; continue _fun00017;
- 1144:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 1146:
                         tangon = zuuluu.platform;
                         oscard = null;
                         tangon = oscard != tangon;
-                        if(!tangon) { _fun00018_ip = 1169; continue _fun00017 }
- 1159:
+                        if(!tangon) { _fun00018_ip = 1171; continue _fun00017 }
+ 1161:
                         report = zuuluu.user_id;
                         tangon = oscard != report;
- 1169:
-                        if(!tangon) { _fun00018_ip = 2203; continue _fun00017 }
- 1175:
+ 1171:
+                        if(!tangon) { _fun00018_ip = 2205; continue _fun00017 }
+ 1177:
                         option = _closure3_slot0;
                         golfie = option.emit;
                         tangon = _closure1_slot18;
@@ -1060,18 +1060,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = zuuluu.user_id;
                         tangon = zuuluu.platform;
                         tangon = golfie.bind(option)(oscard, report, tangon);
-                        _fun00018_ip = 2203; continue _fun00017;
- 1219:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 1221:
                         tangon = zuuluu.flags;
                         oscard = null;
                         tangon = oscard != tangon;
-                        if(!tangon) { _fun00018_ip = 1243; continue _fun00017 }
- 1233:
+                        if(!tangon) { _fun00018_ip = 1245; continue _fun00017 }
+ 1235:
                         report = zuuluu.user_id;
                         tangon = oscard != report;
- 1243:
-                        if(!tangon) { _fun00018_ip = 2203; continue _fun00017 }
- 1249:
+ 1245:
+                        if(!tangon) { _fun00018_ip = 2205; continue _fun00017 }
+ 1251:
                         option = _closure3_slot0;
                         golfie = option.emit;
                         tangon = _closure1_slot18;
@@ -1079,18 +1079,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = zuuluu.user_id;
                         tangon = zuuluu.flags;
                         tangon = golfie.bind(option)(oscard, report, tangon);
-                        _fun00018_ip = 2203; continue _fun00017;
- 1292:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 1294:
                         tangon = zuuluu.voice;
                         oscard = null;
                         tangon = oscard != tangon;
-                        if(!tangon) { _fun00018_ip = 1317; continue _fun00017 }
- 1307:
+                        if(!tangon) { _fun00018_ip = 1319; continue _fun00017 }
+ 1309:
                         report = zuuluu.rtc_worker;
                         tangon = oscard != report;
- 1317:
-                        if(!tangon) { _fun00018_ip = 2203; continue _fun00017 }
- 1323:
+ 1319:
+                        if(!tangon) { _fun00018_ip = 2205; continue _fun00017 }
+ 1325:
                         option = _closure3_slot0;
                         golfie = option.emit;
                         tangon = _closure1_slot18;
@@ -1098,25 +1098,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = zuuluu.voice;
                         tangon = zuuluu.rtc_worker;
                         tangon = golfie.bind(option)(oscard, report, tangon);
-                        _fun00018_ip = 2203; continue _fun00017;
- 1367:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 1369:
                         oscard = _closure3_slot0;
                         report = oscard.emit;
                         tangon = _closure1_slot18;
                         tangon = tangon.MediaSinkWants;
                         tangon = report.bind(oscard)(tangon, zuuluu);
-                        _fun00018_ip = 2203; continue _fun00017;
- 1398:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 1400:
                         tangon = zuuluu.audio_codec;
                         report = null;
                         tangon = report == tangon;
-                        if(!tangon) { _fun00018_ip = 1423; continue _fun00017 }
- 1413:
+                        if(!tangon) { _fun00018_ip = 1425; continue _fun00017 }
+ 1415:
                         oscard = zuuluu.video_codec;
                         tangon = report == oscard;
- 1423:
-                        if(tangon) { _fun00018_ip = 1465; continue _fun00017 }
- 1426:
+ 1425:
+                        if(tangon) { _fun00018_ip = 1467; continue _fun00017 }
+ 1428:
                         verify = _closure3_slot0;
                         option = verify.emit;
                         tangon = _closure1_slot18;
@@ -1124,44 +1124,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         oscard = zuuluu.audio_codec;
                         tangon = zuuluu.video_codec;
                         tangon = option.bind(verify)(golfie, oscard, tangon);
- 1465:
+ 1467:
                         tangon = zuuluu.media_session_id;
-                        if(!(report != tangon)) { _fun00018_ip = 1507; continue _fun00017 }
- 1475:
+                        if(!(report != tangon)) { _fun00018_ip = 1509; continue _fun00017 }
+ 1477:
                         golfie = _closure3_slot0;
                         oscard = golfie.emit;
                         tangon = _closure1_slot18;
                         report = tangon.MediaSessionId;
                         tangon = zuuluu.media_session_id;
                         tangon = oscard.bind(golfie)(report, tangon);
- 1507:
+ 1509:
                         tangon = zuuluu.keyframe_interval;
-                        if(!tangon) { _fun00018_ip = 2203; continue _fun00017 }
- 1519:
+                        if(!tangon) { _fun00018_ip = 2205; continue _fun00017 }
+ 1521:
                         golfie = _closure3_slot0;
                         oscard = golfie.emit;
                         tangon = _closure1_slot18;
                         report = tangon.KeyframeInterval;
                         tangon = zuuluu.keyframe_interval;
                         tangon = oscard.bind(golfie)(report, tangon);
-                        _fun00018_ip = 2203; continue _fun00017;
- 1556:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 1558:
                         golfie = _closure3_slot0;
                         oscard = golfie.emit;
                         tangon = _closure1_slot18;
                         report = tangon.ClientDisconnect;
                         tangon = zuuluu.user_id;
                         tangon = oscard.bind(golfie)(report, tangon);
-                        _fun00018_ip = 2203; continue _fun00017;
- 1593:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 1595:
                         golfie = _closure3_slot0;
                         oscard = golfie.emit;
                         tangon = _closure1_slot18;
                         report = tangon.ClientConnect;
                         tangon = zuuluu.user_ids;
                         tangon = oscard.bind(golfie)(report, tangon);
-                        _fun00018_ip = 2203; continue _fun00017;
- 1630:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 1632:
                         offset = _closure3_slot0;
                         verify = offset.emit;
                         tangon = _closure1_slot18;
@@ -1176,34 +1176,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         result = offset;
                         output = option;
                         tangon = result[verify](output, sizing, kiloes, backup, foxtra, romeon);
-                        _fun00018_ip = 2203; continue _fun00017;
- 1700:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 1702:
                         report = _closure3_slot0;
                         tangon = report.handleHeartbeatAck;
                         tangon = tangon.bind(report)(zuuluu);
-                        _fun00018_ip = 2203; continue _fun00017;
- 1722:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 1724:
                         report = _closure3_slot0;
                         tangon = report.sendHeartbeat;
                         tangon = tangon.bind(report)();
-                        _fun00018_ip = 2203; continue _fun00017;
- 1741:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 1743:
                         tangon = zuuluu.speaking;
                         oscard = 'boolean';
                         report = typeof tangon;
                         verify = tangon;
-                        if(!(oscard === report)) { _fun00018_ip = 1785; continue _fun00017 }
- 1761:
+                        if(!(oscard === report)) { _fun00018_ip = 1787; continue _fun00017 }
+ 1763:
                         report = _closure1_slot11;
-                        if(tangon) { _fun00018_ip = 1776; continue _fun00017 }
- 1768:
+                        if(tangon) { _fun00018_ip = 1778; continue _fun00017 }
+ 1770:
                         tangon = report.NONE;
-                        _fun00018_ip = 1782; continue _fun00017;
- 1776:
+                        _fun00018_ip = 1784; continue _fun00017;
+ 1778:
                         tangon = report.VOICE;
- 1782:
+ 1784:
                         verify = tangon;
- 1785:
+ 1787:
                         option = _closure3_slot0;
                         golfie = option.emit;
                         tangon = _closure1_slot18;
@@ -1213,18 +1213,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         result = option;
                         backup = verify;
                         tangon = result[golfie](output, sizing, kiloes, backup, foxtra);
-                        _fun00018_ip = 2203; continue _fun00017;
- 1832:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 1834:
                         tangon = zuuluu.bandwidth_estimation_experiment;
-                        if(!tangon) { _fun00018_ip = 1873; continue _fun00017 }
- 1841:
+                        if(!tangon) { _fun00018_ip = 1875; continue _fun00017 }
+ 1843:
                         golfie = _closure3_slot0;
                         oscard = golfie.emit;
                         tangon = _closure1_slot18;
                         report = tangon.BandwidthEstimationExperiment;
                         tangon = zuuluu.bandwidth_estimation_experiment;
                         tangon = oscard.bind(golfie)(report, tangon);
- 1873:
+ 1875:
                         option = _closure3_slot0;
                         golfie = option.emit;
                         tangon = _closure1_slot18;
@@ -1233,21 +1233,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = zuuluu.video_codec;
                         tangon = golfie.bind(option)(oscard, report, tangon);
                         tangon = zuuluu.media_session_id;
-                        if(!tangon) { _fun00018_ip = 1953; continue _fun00017 }
- 1921:
+                        if(!tangon) { _fun00018_ip = 1955; continue _fun00017 }
+ 1923:
                         golfie = _closure3_slot0;
                         oscard = golfie.emit;
                         tangon = _closure1_slot18;
                         report = tangon.MediaSessionId;
                         tangon = zuuluu.media_session_id;
                         tangon = oscard.bind(golfie)(report, tangon);
- 1953:
+ 1955:
                         tangon = zuuluu.sdp;
-                        if(tangon) { _fun00018_ip = 2012; continue _fun00017 }
- 1962:
+                        if(tangon) { _fun00018_ip = 2014; continue _fun00017 }
+ 1964:
                         tangon = zuuluu.mode;
-                        if(!tangon) { _fun00018_ip = 2044; continue _fun00017 }
- 1970:
+                        if(!tangon) { _fun00018_ip = 2046; continue _fun00017 }
+ 1972:
                         option = _closure3_slot0;
                         golfie = option.emit;
                         tangon = _closure1_slot18;
@@ -1255,56 +1255,56 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = zuuluu.mode;
                         tangon = zuuluu.secret_key;
                         tangon = golfie.bind(option)(oscard, report, tangon);
-                        _fun00018_ip = 2044; continue _fun00017;
- 2012:
+                        _fun00018_ip = 2046; continue _fun00017;
+ 2014:
                         golfie = _closure3_slot0;
                         oscard = golfie.emit;
                         tangon = _closure1_slot18;
                         report = tangon.SDP;
                         tangon = zuuluu.sdp;
                         tangon = oscard.bind(golfie)(report, tangon);
- 2044:
+ 2046:
                         tangon = zuuluu.keyframe_interval;
-                        if(!tangon) { _fun00018_ip = 2085; continue _fun00017 }
- 2053:
+                        if(!tangon) { _fun00018_ip = 2087; continue _fun00017 }
+ 2055:
                         golfie = _closure3_slot0;
                         oscard = golfie.emit;
                         tangon = _closure1_slot18;
                         report = tangon.KeyframeInterval;
                         tangon = zuuluu.keyframe_interval;
                         tangon = oscard.bind(golfie)(report, tangon);
- 2085:
+ 2087:
                         oscard = _closure3_slot0;
                         report = oscard.emit;
                         michal = _closure1_slot18;
                         tangon = michal.SecureFramesInit;
                         michal = zuuluu.dave_protocol_version;
-                        if(michal) { _fun00018_ip = 2118; continue _fun00017 }
- 2116:
-                        michal = 0;
+                        if(michal) { _fun00018_ip = 2120; continue _fun00017 }
  2118:
+                        michal = 0;
+ 2120:
                         michal = report.bind(oscard)(tangon, michal);
                         tangon = _closure3_slot0;
                         michal = true;
                         tangon['resumable'] = michal;
-                        _fun00018_ip = 2203; continue _fun00017;
- 2138:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 2140:
                         tangon = _closure3_slot0;
                         michal = tangon.handleResumed;
                         michal = michal.bind(tangon)(zuuluu);
-                        _fun00018_ip = 2203; continue _fun00017;
- 2157:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 2159:
                         tangon = _closure3_slot0;
                         michal = tangon.handleReady;
                         michal = michal.bind(tangon)(zuuluu);
-                        _fun00018_ip = 2203; continue _fun00017;
- 2176:
+                        _fun00018_ip = 2205; continue _fun00017;
+ 2178:
                         michal = _closure3_slot0;
                         entity = michal.clearHelloTimeout;
                         entity = entity.bind(michal)();
                         entity = michal.handleHello;
                         entity = entity.bind(michal)(zuuluu);
- 2203:
+ 2205:
                         entity = undefined;
                         return entity;
                     }
@@ -1772,24 +1772,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = golfie.bind(michal)();
                 golfie = _closure1_slot13;
                 golfie = golfie.AUTHENTICATION_FAILED;
-                if(!(tangon !== golfie)) { _fun00032_ip = 324; continue _fun00031 }
+                if(!(tangon !== golfie)) { _fun00032_ip = 326; continue _fun00031 }
  85:
                 golfie = _closure1_slot13;
                 golfie = golfie.SERVER_CRASH;
-                if(!(tangon !== golfie)) { _fun00032_ip = 324; continue _fun00031 }
+                if(!(tangon !== golfie)) { _fun00032_ip = 326; continue _fun00031 }
  102:
                 golfie = _closure1_slot13;
                 golfie = golfie.SERVER_NOT_FOUND;
-                if(!(tangon !== golfie)) { _fun00032_ip = 324; continue _fun00031 }
+                if(!(tangon !== golfie)) { _fun00032_ip = 326; continue _fun00031 }
  119:
                 oscard = _closure1_slot13;
                 oscard = oscard.INVALID_SESSION;
-                if(!(tangon !== oscard)) { _fun00032_ip = 324; continue _fun00031 }
+                if(!(tangon !== oscard)) { _fun00032_ip = 326; continue _fun00031 }
  136:
                 oscard = michal.backoff;
                 golfie = oscard.fails;
                 oscard = 3;
-                if(!(!(golfie > oscard))) { _fun00032_ip = 286; continue _fun00031 }
+                if(!(!(golfie > oscard))) { _fun00032_ip = 288; continue _fun00031 }
  158:
                 golfie = michal.backoff;
                 oscard = golfie.fail;
@@ -1825,18 +1825,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 result = zuuluu;
                 entity = vacuum[romeon](ctrled, source, update, echoed, result, output, sizing, kiloes, backup);
                 entity = oscard.bind(golfie)(entity);
-                _fun00032_ip = 320; continue _fun00031;
- 286:
+                _fun00032_ip = 322; continue _fun00031;
+ 288:
                 golfie = michal.logger;
                 oscard = golfie.warn;
                 entity = '[WS CLOSED] Backoff exceed. Resetting.';
                 entity = oscard.bind(golfie)(entity);
                 entity = michal.disconnect;
                 entity = entity.bind(michal)(report, tangon, zuuluu);
- 320:
+ 322:
                 entity = undefined;
                 return entity;
- 324:
+ 326:
                 entity = michal.disconnect;
                 entity = entity.bind(michal)(report, tangon, zuuluu);
                 return entity;
@@ -2451,7 +2451,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = 'Expedited heartbeat requested, but is disconnected and a reset was not requested ';
                 zuuluu = zuuluu + option;
                 zuuluu = oscard.bind(golfie)(zuuluu);
-                _fun00054_ip = 227; continue _fun00053;
+                _fun00054_ip = 229; continue _fun00053;
  95:
                 zuuluu = michal.resetBackoff;
                 zuuluu = zuuluu.bind(michal)(verify);
@@ -2503,7 +2503,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = argFoo;
                 entity = tangon.bind(report)(zuuluu, entity);
                 michal['expeditedHeartbeatTimeout'] = entity;
- 227:
+ 229:
                 entity = false;
                 return entity;
             }

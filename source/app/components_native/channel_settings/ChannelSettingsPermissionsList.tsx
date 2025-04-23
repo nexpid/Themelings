@@ -442,10 +442,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         }
  190:
                         zuuluu = michal.sort;
-                        entity = function(argFoo) {
+                        entity = function(argFoo, argBar) {
+                            entity = argBar;
+                            michal = entity.position;
                             entity = argFoo;
                             entity = entity.position;
-                            entity = -entity;
+                            entity = michal - entity;
                             return entity;
                         };
                         entity = zuuluu.bind(michal)(entity);

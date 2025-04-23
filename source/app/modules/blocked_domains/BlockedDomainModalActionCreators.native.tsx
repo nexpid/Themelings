@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 103; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 101; continue _fun00001 }
  7:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot2;
@@ -67,27 +67,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = 'BlockedDomainsV2';
                     michal = 'utf8';
                     michal = report.bind(oscard)(tangon, zuuluu, michal);
-                    SaveGenerator(address=65);
- 63:
+                    SaveGenerator(address=63);
+ 61:
                     return michal;
- 65:
+ 63:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 100; continue _fun00001 }
- 71:
+                    if(zuuluu) { _fun00002_ip = 98; continue _fun00001 }
+ 69:
                     zuuluu = null;
-                    if(!(zuuluu != michal)) { _fun00002_ip = 93; continue _fun00001 }
- 77:
+                    if(!(zuuluu != michal)) { _fun00002_ip = 91; continue _fun00001 }
+ 75:
                     tangon = michal.split;
                     zuuluu = '\n';
                     zuuluu = tangon.bind(michal)(zuuluu);
-                    _fun00002_ip = 97; continue _fun00001;
- 93:
+                    _fun00002_ip = 95; continue _fun00001;
+ 91:
                     zuuluu = new Array(0);
- 97:
+ 95:
                     return zuuluu;
- 100:
+ 98:
                     return michal;
- 103:
+ 101:
                     return entity;
                 }
             };

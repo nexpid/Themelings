@@ -134,6 +134,17 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     zuuluu['useIsMobileMarketingEmailOptInExperimentEnabled'] = tangon;
+    tangon = function(argFoo) { // Original name: getIsMobileMarketingEmailOptInExperimentEnabled
+        zuuluu = _closure1_slot2;
+        michal = zuuluu.getCurrentConfig;
+        entity = {};
+        tangon = argFoo;
+        entity['location'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
+        entity = entity.enabled;
+        return entity;
+    };
+    zuuluu['getIsMobileMarketingEmailOptInExperimentEnabled'] = tangon;
     michal = function() { // Original name: getMobileMarketingEmailOptInCopy
         tangon = _closure1_slot2;
         zuuluu = tangon.getCurrentConfig;
