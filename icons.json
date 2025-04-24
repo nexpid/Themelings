@@ -1914,6 +1914,16 @@
         "width": 24,
         "height": 24
     },
+    "ClosedCaptionsOutlineIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/ClosedCaptionsOutlineIcon.png",
+        "hash": "c720d1b24586d677fbc698798c6ef4b8",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "clouds_background": {
         "file": "modules/quests/native/VideoQuestModal/images/clouds_background.png",
         "hash": "e5d497e242dfffadb8102108e8df2b1a",
@@ -13906,6 +13916,16 @@
         ],
         "width": 70,
         "height": 47
+    },
+    "TranscriptOutlineIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/TranscriptOutlineIcon.png",
+        "hash": "65b9279e2234b52697bfc4c10f371986",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
     },
     "trash": {
         "file": "modules/directory_channels/native/images/trash.png",
