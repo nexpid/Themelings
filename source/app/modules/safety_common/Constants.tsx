@@ -30,6 +30,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['TIGGER_PAWTECT_VERIFIED'] = entity;
     entity = 'GENERIC_ERROR';
     michal['GENERIC_ERROR'] = entity;
+    entity = 'REPORT_TO_MOD_SUCCESS';
+    michal['REPORT_TO_MOD_SUCCESS'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

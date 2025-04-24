@@ -1,4 +1,4 @@
-// app/modules/clan/native/components/ClanTag.tsx
+// app/modules/guild_tag/native/GuildTag.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = 4;
         michal = option[michal];
         michal = golfie.bind(entity)(michal);
-        michal = michal.ClanTagBadgeSize;
+        michal = michal.GuildTagBadgeSize;
         var _closure1_slot8 = michal;
         michal = 5;
         michal = option[michal];
@@ -133,9 +133,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                 michal = argFoo;
                 verify = michal.containerStyles;
-                zuuluu = michal.clanTag;
+                zuuluu = michal.guildTag;
                 var _closure2_slot0 = zuuluu;
-                zuuluu = michal.clanBadge;
+                zuuluu = michal.guildBadge;
                 var _closure2_slot1 = zuuluu;
                 offset = michal.onPress;
                 option = michal.disabled;
@@ -449,15 +449,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = _closure1_slot9;
                 zuuluu = _closure1_slot14;
                 michal = {};
-                michal['clanTag'] = yankee;
+                michal['guildTag'] = yankee;
                 yankee = _closure1_slot0;
                 backup = _closure1_slot2;
                 offset = 13;
                 offset = backup[offset];
                 yankee = yankee.bind(report)(offset);
-                offset = yankee.getClanBadgeUrl;
+                offset = yankee.getGuildTagBadgeUrl;
                 offset = offset.bind(yankee)(romeon, foxtra, verify);
-                michal['clanBadge'] = offset;
+                michal['guildBadge'] = offset;
                 michal['badgeSize'] = verify;
                 echoed = michal;
                 result = golfie;
@@ -479,11 +479,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = option[oscard];
         option = golfie.bind(entity)(oscard);
         golfie = option.fileFinishedImporting;
-        oscard = 'modules/clan/native/components/ClanTag.tsx';
+        oscard = 'modules/guild_tag/native/GuildTag.tsx';
         oscard = golfie.bind(option)(oscard);
         zuuluu['default'] = report;
-        zuuluu['ClanTagBadge'] = tangon;
-        zuuluu['BaseClanTagChiplet'] = michal;
+        zuuluu['GuildTagBadge'] = tangon;
+        zuuluu['BaseGuildTagChiplet'] = michal;
         return entity;
     }
 })();

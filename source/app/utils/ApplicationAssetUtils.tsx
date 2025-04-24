@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     report = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00008_ip = 171; continue _fun00007 }
+                    if(michal) { _fun00008_ip = 175; continue _fun00007 }
  13:
                     tangon = _closure1_slot0;
                     oscard = _closure1_slot2;
@@ -221,13 +221,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = option.bind(verify)(report);
                     michal['url'] = option;
                     michal = tangon.bind(oscard)(michal);
-                    SaveGenerator(address=88);
- 86:
+                    SaveGenerator(address=92);
+ 90:
                     return michal;
- 88:
+ 92:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00008_ip = 168; continue _fun00007 }
- 94:
+                    if(tangon) { _fun00008_ip = 172; continue _fun00007 }
+ 98:
                     option = michal.body;
                     oscard = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -245,9 +245,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = tangon.getApplicationAssets;
                     zuuluu = zuuluu.bind(tangon)(report);
                     return zuuluu;
- 168:
+ 172:
                     return michal;
- 171:
+ 175:
                     return entity;
                 }
             };

@@ -404,44 +404,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 2;
             golfie = golfie.bind(tangon)(verify, entity);
             entity = 0;
-            yankee = golfie[entity];
+            offset = golfie[entity];
             entity = 1;
             entity = golfie[entity];
             var _closure2_slot4 = entity;
             entity = 14;
             entity = zuuluu[entity];
-            verify = michal.bind(tangon)(entity);
-            entity = verify.useHasUpdatedDMBehavior;
-            golfie = 'MessagesItemChannelBase';
-            offset = entity.bind(verify)(golfie);
-            entity = 15;
-            entity = zuuluu[entity];
             zuuluu = michal.bind(tangon)(entity);
             michal = zuuluu.useNameplate;
             entity = {};
+            golfie = 'MessagesItemChannelBase';
             entity['location'] = golfie;
             entity['user'] = oscard;
-            entity['privateChannel'] = sequen;
-            papara = michal.bind(zuuluu)(entity);
+            config = michal.bind(zuuluu)(entity);
             kiloes = null;
-            michal = kiloes != papara;
-            if(offset) { _fun00002_ip = 516; continue _fun00001 }
- 511:
-            romeon = michal;
-            _fun00002_ip = 537; continue _fun00001;
- 516:
-            entity = michal;
-            if(!michal) { _fun00002_ip = 534; continue _fun00001 }
- 522:
-            michal = vacuum;
-            if(vacuum) { _fun00002_ip = 531; continue _fun00001 }
- 528:
-            michal = yankee;
- 531:
-            entity = michal;
- 534:
+            romeon = kiloes != config;
+            if(!romeon) { _fun00002_ip = 495; continue _fun00001 }
+ 483:
+            entity = vacuum;
+            if(vacuum) { _fun00002_ip = 492; continue _fun00001 }
+ 489:
+            entity = offset;
+ 492:
             romeon = entity;
- 537:
+ 495:
             oscard = _closure1_slot4;
             zuuluu = oscard.useCallback;
             entity = sequen.guild_id;
@@ -452,7 +438,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = function() {
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
-                entity = 16;
+                entity = 15;
                 michal = michal[entity];
                 entity = undefined;
                 oscard = zuuluu.bind(entity)(michal);
@@ -466,7 +452,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
-            limora = zuuluu.bind(oscard)(entity, michal);
+            sierra = zuuluu.bind(oscard)(entity, michal);
             zuuluu = oscard.useCallback;
             michal = function() {
                 zuuluu = _closure2_slot4;
@@ -476,7 +462,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity = new Array(0);
-            sierra = zuuluu.bind(oscard)(michal, entity);
+            status = zuuluu.bind(oscard)(michal, entity);
             zuuluu = oscard.useCallback;
             entity = sequen.id;
             michal = new Array(1);
@@ -484,7 +470,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = function() {
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
-                entity = 17;
+                entity = 16;
                 michal = michal[entity];
                 entity = undefined;
                 tangon = zuuluu.bind(entity)(michal);
@@ -494,7 +480,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            target = zuuluu.bind(oscard)(entity, michal);
+            papara = zuuluu.bind(oscard)(entity, michal);
             zuuluu = oscard.useCallback;
             entity = sequen.id;
             michal = new Array(1);
@@ -502,7 +488,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = function() {
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
-                entity = 18;
+                entity = 17;
                 michal = michal[entity];
                 entity = undefined;
                 tangon = zuuluu.bind(entity)(michal);
@@ -518,67 +504,63 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             entity['style'] = report;
             golfie = _closure1_slot14;
-            status = _closure1_slot0;
-            config = _closure1_slot2;
-            report = 19;
-            report = config[report];
-            report = status.bind(tangon)(report);
+            target = _closure1_slot0;
+            yankee = _closure1_slot2;
+            report = 18;
+            report = yankee[report];
+            report = target.bind(tangon)(report);
             oscard = report.PressableHighlight;
             report = {};
-            report['onPressIn'] = limora;
-            report['onPressOut'] = sierra;
-            report['onPress'] = target;
+            report['onPressIn'] = sierra;
+            report['onPressOut'] = status;
+            report['onPress'] = papara;
             report['onLongPress'] = verify;
             verify = 'button';
             report['accessibilityRole'] = verify;
             verify = _closure1_slot1;
-            target = 20;
-            sierra = config[target];
-            limora = verify.bind(tangon)(sierra);
-            sierra = {};
-            sierra['channel'] = sequen;
-            sierra['unread'] = backup;
-            sierra = limora.bind(tangon)(sierra);
-            report['accessibilityLabel'] = sierra;
-            target = config[target];
-            sierra = status.bind(tangon)(target);
-            status = sierra.getChannelA11yHint;
-            target = {};
-            target['channel'] = sequen;
-            target['muted'] = source;
-            target['userStatus'] = cntext;
-            target = status.bind(sierra)(target);
-            report['accessibilityHint'] = target;
-            target = record.rowActive;
-            target = target.backgroundColor;
-            report['underlayColor'] = target;
+            papara = 19;
+            status = yankee[papara];
+            sierra = verify.bind(tangon)(status);
+            status = {};
+            status['channel'] = sequen;
+            status['unread'] = backup;
+            status = sierra.bind(tangon)(status);
+            report['accessibilityLabel'] = status;
+            papara = yankee[papara];
+            status = target.bind(tangon)(papara);
+            target = status.getChannelA11yHint;
+            papara = {};
+            papara['channel'] = sequen;
+            papara['muted'] = source;
+            papara['userStatus'] = cntext;
+            papara = target.bind(status)(papara);
+            report['accessibilityHint'] = papara;
+            papara = record.rowActive;
+            papara = papara.backgroundColor;
+            report['underlayColor'] = papara;
             report['style'] = option;
-            option = 21;
-            option = config[option];
+            option = 20;
+            option = yankee[option];
             verify = verify.bind(tangon)(option);
             option = {};
-            config = undefined;
-            if(!romeon) { _fun00002_ip = 857; continue _fun00001 }
- 854:
-            config = papara;
- 857:
-            option['nameplate'] = config;
+            yankee = undefined;
+            if(!romeon) { _fun00002_ip = 815; continue _fun00001 }
+ 812:
+            yankee = config;
+ 815:
+            option['nameplate'] = yankee;
             option['isFocused'] = vacuum;
-            option['isPressed'] = yankee;
-            config = source;
-            if(config) { _fun00002_ip = 881; continue _fun00001 }
- 878:
-            config = update;
- 881:
-            if(config) { _fun00002_ip = 887; continue _fun00001 }
- 884:
-            config = result;
- 887:
-            option['isMuted'] = config;
-            if(!offset) { _fun00002_ip = 898; continue _fun00001 }
- 895:
-            offset = yankee;
- 898:
+            option['isPressed'] = offset;
+            yankee = source;
+            if(yankee) { _fun00002_ip = 839; continue _fun00001 }
+ 836:
+            yankee = update;
+ 839:
+            if(yankee) { _fun00002_ip = 845; continue _fun00001 }
+ 842:
+            yankee = result;
+ 845:
+            option['isMuted'] = yankee;
             option['fadeIn'] = offset;
             offset = record.nameplate;
             option['style'] = offset;
@@ -586,8 +568,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = new Array(5);
             option[0] = verify;
             verify = vacuum;
-            if(!verify) { _fun00002_ip = 968; continue _fun00001 }
- 933:
+            if(!verify) { _fun00002_ip = 920; continue _fun00001 }
+ 885:
             config = _closure1_slot13;
             yankee = _closure1_slot5;
             offset = {};
@@ -596,12 +578,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = 'none';
             offset['pointerEvents'] = record;
             verify = config.bind(tangon)(yankee, offset);
- 968:
+ 920:
             option[1] = verify;
             yankee = _closure1_slot13;
             offset = _closure1_slot1;
             config = _closure1_slot2;
-            verify = 22;
+            verify = 21;
             verify = config[verify];
             record = offset.bind(tangon)(verify);
             verify = {};
@@ -609,7 +591,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['resolvedUnreadSetting'] = foxtra;
             verify['muted'] = source;
             papara = _closure1_slot0;
-            sizing = 23;
+            sizing = 22;
             sizing = config[sizing];
             sizing = papara.bind(tangon)(sizing);
             sizing = sizing.ChannelListLayoutTypes;
@@ -619,7 +601,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['panelVariant'] = sizing;
             verify = yankee.bind(tangon)(record, verify);
             option[2] = verify;
-            verify = 24;
+            verify = 23;
             verify = config[verify];
             record = offset.bind(tangon)(verify);
             verify = {};
@@ -629,7 +611,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['muted'] = source;
             verify['ignored'] = update;
             verify['blocked'] = result;
-            papara = 25;
+            papara = 24;
             papara = config[papara];
             papara = offset.bind(tangon)(papara);
             papara = papara.bind(tangon)(echoed);
@@ -637,7 +619,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['status'] = cntext;
             verify = yankee.bind(tangon)(record, verify);
             option[3] = verify;
-            verify = 26;
+            verify = 25;
             verify = config[verify];
             offset = offset.bind(tangon)(verify);
             verify = {};
@@ -649,8 +631,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['blocked'] = result;
             result = kiloes == echoed;
             kiloes = undefined;
-            if(result) { _fun00002_ip = 1212; continue _fun00001 }
- 1194:
+            if(result) { _fun00002_ip = 1164; continue _fun00001 }
+ 1146:
             result = echoed.some;
             output = function(argFoo) {
                 entity = argFoo;
@@ -661,7 +643,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             kiloes = result.bind(echoed)(output);
- 1212:
+ 1164:
             kiloes = sizing === kiloes;
             verify['hasActivity'] = kiloes;
             verify['hasUnreadMessages'] = backup;
@@ -677,7 +659,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     tangon = report.bind(option)(tangon);
-    report = 27;
+    report = 26;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

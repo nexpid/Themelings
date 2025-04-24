@@ -247,6 +247,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     romeon = romeon.BG_BASE_PRIMARY;
     yankee['backgroundColor'] = romeon;
     tangon['avatarBackground'] = yankee;
+    yankee = {};
+    romeon = 24;
+    yankee['fontSize'] = romeon;
+    tangon['restrictedAcronym'] = yankee;
     tangon = golfie.bind(offset)(tangon);
     var _closure1_slot10 = tangon;
     offset = michal.Object;

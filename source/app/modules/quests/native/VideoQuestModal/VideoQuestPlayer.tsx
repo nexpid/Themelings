@@ -1322,7 +1322,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             quebec = 27;
             quebec = variable39[quebec];
             quebec = variable36.bind(report)(quebec);
-            variable36 = quebec.CaptionIcon;
+            variable36 = quebec.ClosedCaptionsOutlineIcon;
             quebec = {};
             if(variable38) { _fun00004_ip = 2473; continue _fun00003 }
  2460:
@@ -1361,7 +1361,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = 28;
             status = variable36[status];
             status = quebec.bind(report)(status);
-            quebec = status.PaperIcon;
+            quebec = status.TranscriptOutlineIcon;
             status = {};
             variable36 = sizing.iconDisabled;
             variable36 = variable36.color;

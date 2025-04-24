@@ -7,8 +7,8 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     option = entity.Object;
     report = option.defineProperty;
     tangon = {};
-    entity = true;
-    tangon['value'] = entity;
+    foxtra = true;
+    tangon['value'] = foxtra;
     entity = '__esModule';
     entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
@@ -23,16 +23,20 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = {'kind': 'user', 'id': '2025-02_name_plate_experiment', 'label': 'Nameplates Experiment'};
     report = report.CONNECTION_OPEN;
     tangon['commonTriggerPoint'] = report;
-    report = {'canView': false, 'canViewAll': false, 'hasUpdatedDMBehavior': false};
+    report = {};
+    offset = false;
+    report['canView'] = offset;
     tangon['defaultConfig'] = report;
     report = {'id': 1, 'label': 'Can see'};
-    offset = {'canView': true, 'canViewAll': false, 'hasUpdatedDMBehavior': false};
+    offset = {};
+    offset['canView'] = foxtra;
     report['config'] = offset;
     offset = new Array(2);
     offset[0] = report;
     yankee = {'id': 2, 'label': 'Can see (updated)'};
     report = 2;
-    romeon = {'canView': true, 'canViewAll': true, 'hasUpdatedDMBehavior': true};
+    romeon = {};
+    romeon['canView'] = foxtra;
     yankee['config'] = romeon;
     offset[1] = yankee;
     tangon['treatments'] = offset;
@@ -44,7 +48,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = 'modules/nameplates/experiments/NameplatesViewExperiment.tsx';
     report = oscard.bind(golfie)(report);
     zuuluu['NameplatesViewExperiment'] = tangon;
-    tangon = function(argFoo) {
+    michal = function(argFoo) {
         tangon = _closure1_slot0;
         zuuluu = tangon.useExperiment;
         michal = {};
@@ -57,34 +61,6 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity = entity.canView;
         return entity;
     };
-    zuuluu['useCanViewNameplates'] = tangon;
-    tangon = function(argFoo) {
-        tangon = _closure1_slot0;
-        zuuluu = tangon.useExperiment;
-        michal = {};
-        entity = argFoo;
-        michal['location'] = entity;
-        entity = {};
-        report = false;
-        entity['autoTrackExposure'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.canViewAll;
-        return entity;
-    };
-    zuuluu['useCanViewAllNameplates'] = tangon;
-    michal = function(argFoo) {
-        tangon = _closure1_slot0;
-        zuuluu = tangon.useExperiment;
-        michal = {};
-        entity = argFoo;
-        michal['location'] = entity;
-        entity = {};
-        report = false;
-        entity['autoTrackExposure'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.hasUpdatedDMBehavior;
-        return entity;
-    };
-    zuuluu['useHasUpdatedDMBehavior'] = michal;
+    zuuluu['useCanViewNameplates'] = michal;
     return entity;
 })();

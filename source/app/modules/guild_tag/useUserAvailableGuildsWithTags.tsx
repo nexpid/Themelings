@@ -1,4 +1,4 @@
-// app/modules/clan/hooks/useUserAvailableGuildsWithTags.tsx
+// app/modules/guild_tag/useUserAvailableGuildsWithTags.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     golfie = argBaz;
@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/clan/hooks/useUserAvailableGuildsWithTags.tsx';
+    tangon = 'modules/guild_tag/useUserAvailableGuildsWithTags.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function() { // Original name: useUserAvailableGuildsWithTags
         tangon = _closure1_slot0;

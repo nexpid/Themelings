@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 4;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.ClanTagBadgeSize;
+    tangon = tangon.GuildTagBadgeSize;
     var _closure1_slot7 = tangon;
     tangon = 5;
     tangon = oscard[tangon];
@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = 11;
                         michal = golfie[michal];
                         michal = zuuluu.bind(report)(michal);
-                        zuuluu = michal.BaseClanTagChiplet;
+                        zuuluu = michal.BaseGuildTagChiplet;
                         michal = {};
                         option = _closure2_slot3;
                         option = yankee == option;
@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  125:
                         option = offset;
  128:
-                        michal['clanTag'] = option;
+                        michal['guildTag'] = option;
                         offset = _closure2_slot0;
                         option = undefined;
                         if(!(yankee !== offset)) { _fun00004_ip = 232; continue _fun00003 }
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         offset = 12;
                         offset = romeon[offset];
                         foxtra = yankee.bind(report)(offset);
-                        romeon = foxtra.getClanBadgeUrl;
+                        romeon = foxtra.getGuildTagBadgeUrl;
                         yankee = _closure2_slot0;
                         verify = _closure3_slot0;
                         offset = verify.badge;
@@ -219,7 +219,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         verify = verify.SIZE_36;
                         option = romeon.bind(foxtra)(yankee, offset, verify);
  232:
-                        michal['clanBadge'] = option;
+                        michal['guildBadge'] = option;
                         golfie = _closure2_slot1;
                         option = golfie.tagContainer;
                         michal['containerStyles'] = option;

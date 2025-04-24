@@ -830,7 +830,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00024_ip = 167; continue _fun00023 }
+                    if(michal) { _fun00024_ip = 171; continue _fun00023 }
  10:
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
@@ -848,13 +848,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = offset.bind(yankee)(verify, option);
                     michal['url'] = option;
                     michal = tangon.bind(golfie)(michal);
-                    SaveGenerator(address=98);
- 96:
+                    SaveGenerator(address=102);
+ 100:
                     return michal;
- 98:
+ 102:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00024_ip = 164; continue _fun00023 }
- 104:
+                    if(tangon) { _fun00024_ip = 168; continue _fun00023 }
+ 108:
                     tangon = _closure1_slot1;
                     golfie = _closure1_slot2;
                     zuuluu = 13;
@@ -870,9 +870,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu['overwriteId'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
                     return michal;
- 164:
+ 168:
                     return michal;
- 167:
+ 171:
                     return entity;
                 }
             };

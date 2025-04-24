@@ -736,21 +736,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
  0:
             entity = argFoo;
-            zuuluu = entity.guildId;
-            tangon = entity.channelType;
-            michal = _closure1_slot7;
-            michal = michal.GUILD_ANNOUNCEMENT;
-            if(!(tangon === michal)) { _fun00032_ip = 45; continue _fun00031 }
- 31:
-            michal = _closure1_slot9;
-            entity = michal.delete;
-            entity = entity.bind(michal)(zuuluu);
- 45:
+            entity = entity.channel;
+            tangon = entity.type;
+            zuuluu = _closure1_slot7;
+            zuuluu = zuuluu.GUILD_ANNOUNCEMENT;
+            zuuluu = tangon === zuuluu;
+            if(!zuuluu) { _fun00032_ip = 44; continue _fun00031 }
+ 33:
+            report = entity.guild_id;
+            tangon = null;
+            zuuluu = tangon != report;
+ 44:
+            if(!zuuluu) { _fun00032_ip = 66; continue _fun00031 }
+ 47:
+            zuuluu = _closure1_slot9;
+            michal = zuuluu.delete;
+            entity = entity.guild_id;
+            entity = michal.bind(zuuluu)(entity);
+ 66:
             entity = undefined;
             return entity;
         }
     };
-    tangon['CREATE_CHANNEL_MODAL_SUBMIT'] = romeon;
+    tangon['CHANNEL_CREATE'] = romeon;
     romeon = function(argFoo) { // Original name: handleSetWidget
         _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
  0:

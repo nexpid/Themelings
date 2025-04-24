@@ -1,4 +1,4 @@
-// app/modules/clan/native/components/VoiceClanTag.tsx
+// app/modules/guild_tag/native/VoiceGuildTag.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = 3;
         tangon = oscard[tangon];
         tangon = report.bind(entity)(tangon);
-        tangon = tangon.ClanTagBadgeSize;
+        tangon = tangon.GuildTagBadgeSize;
         var _closure1_slot5 = tangon;
         tangon = 4;
         tangon = oscard[tangon];
@@ -103,9 +103,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = oscard[tangon];
         oscard = report.bind(entity)(tangon);
         report = oscard.fileFinishedImporting;
-        tangon = 'modules/clan/native/components/VoiceClanTag.tsx';
+        tangon = 'modules/guild_tag/native/VoiceGuildTag.tsx';
         tangon = report.bind(oscard)(tangon);
-        michal = function(argFoo) { // Original name: VoiceClanTagChiplet
+        michal = function(argFoo) { // Original name: VoiceGuildTagChiplet
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 michal = argFoo;
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 source = _closure1_slot1;
                 michal = source[michal];
                 zuuluu = kiloes.bind(report)(michal);
-                michal = zuuluu.getClanBadgeUrl;
+                michal = zuuluu.getGuildTagBadgeUrl;
                 sequen = michal.bind(zuuluu)(tangon, golfie, ctrled);
                 tangon = _closure1_slot7;
                 zuuluu = _closure1_slot3;
@@ -208,7 +208,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 foxtra = 10;
                 foxtra = source[foxtra];
                 foxtra = kiloes.bind(report)(foxtra);
-                backup = foxtra.ClanTagBadge;
+                backup = foxtra.GuildTagBadge;
                 foxtra = {};
                 vacuum = {};
                 vacuum['uri'] = sequen;

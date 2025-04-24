@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00004_ip = 545; continue _fun00003 }
+                            if(michal) { _fun00004_ip = 557; continue _fun00003 }
  10:
                             michal = undefined;
                             offset = undefined;
@@ -219,12 +219,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             yankee = verify.bind(michal)(golfie);
                             verify = yankee.getIsMobileMarketingEmailOptInExperimentEnabled;
                             golfie = 'RegisterAgeGate';
-                            golfie = verify.bind(yankee)(golfie);
+                            verify = verify.bind(yankee)(golfie);
+                            golfie = option.required;
                             if(!golfie) { _fun00004_ip = 300; continue _fun00003 }
- 291:
+ 297:
+                            golfie = verify;
+ 300:
+                            if(!golfie) { _fun00004_ip = 312; continue _fun00003 }
+ 303:
                             golfie = oscard;
                             golfie['promoEmailConsent'] = option;
- 300: // try_start_0
+ 312: // try_start_0
                             option = _closure1_slot0;
                             verify = _closure1_slot2;
                             golfie = 21;
@@ -232,13 +237,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             option = option.bind(michal)(golfie);
                             golfie = option.registerFull;
                             oscard = golfie.bind(option)(oscard);
-                            SaveGenerator(address=335);
- 333:
+                            SaveGenerator(address=347);
+ 345:
                             return oscard;
- 335:
+ 347:
                             ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                            if(golfie) { _fun00004_ip = 404; continue _fun00003 }
- 341:
+                            if(golfie) { _fun00004_ip = 416; continue _fun00003 }
+ 353:
                             option = _closure2_slot1;
                             golfie = {};
                             verify = _closure1_slot12;
@@ -253,11 +258,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             offset = copyDataProperties(output, sizing);
                             golfie['overrideRegistrationOptions'] = verify;
                             golfie = option.bind(michal)(golfie);
- 399: // try_end0
-                            _fun00004_ip = 542; continue _fun00003;
- 404:
+ 411: // try_end0
+                            _fun00004_ip = 554; continue _fun00003;
+ 416:
                             return oscard;
- 407: // catch_target0
+ 419: // catch_target0
                             CatchBlockStart(arg_register=6);
                             report = golfie;
                             option = _closure2_slot7;
@@ -270,10 +275,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             oscard = option.bind(michal)(oscard);
                             oscard = oscard.APIError;
                             oscard = golfie instanceof oscard;
-                            if(oscard) { _fun00004_ip = 459; continue _fun00003 }
- 456:
+                            if(oscard) { _fun00004_ip = 471; continue _fun00003 }
+ 468:
                             return michal;
- 459:
+ 471:
                             golfie = _closure1_slot0;
                             option = _closure1_slot2;
                             oscard = 23;
@@ -294,9 +299,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             result = undefined;
                             kiloes = golfie;
                             zuuluu = result[oscard](output, sizing, kiloes, backup, foxtra);
- 542:
+ 554:
                             return michal;
- 545:
+ 557:
                             return entity;
                         }
                     };

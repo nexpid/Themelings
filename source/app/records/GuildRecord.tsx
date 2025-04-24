@@ -557,14 +557,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = report;
  805:
                 entity['profile'] = tangon;
-                zuuluu = zuuluu.premiumFeatures;
+                report = zuuluu.premiumFeatures;
+                oscard = michal != report;
+                tangon = null;
+                if(!oscard) { _fun00012_ip = 829; continue _fun00011 }
+ 826:
+                tangon = report;
+ 829:
+                entity['premiumFeatures'] = tangon;
+                zuuluu = zuuluu.moderatorReporting;
                 tangon = michal != zuuluu;
                 michal = null;
-                if(!tangon) { _fun00012_ip = 829; continue _fun00011 }
- 826:
+                if(!tangon) { _fun00012_ip = 853; continue _fun00011 }
+ 850:
                 michal = zuuluu;
- 829:
-                entity['premiumFeatures'] = michal;
+ 853:
+                entity['moderatorReporting'] = michal;
                 return entity;
             }
         };
@@ -680,7 +688,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = entity;
-        entity = new Array(18);
+        entity = new Array(20);
         entity[0] = report;
         report = {};
         golfie = 'getSafetyAlertsChannelId';
@@ -701,20 +709,71 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report['value'] = golfie;
         entity[1] = report;
         report = {};
+        golfie = 'getModeratorReportChannelId';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
+            _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+ 0:
+                entity = this;
+                zuuluu = entity.moderatorReporting;
+                entity = null;
+                tangon = entity == zuuluu;
+                michal = undefined;
+                if(tangon) { _fun00020_ip = 26; continue _fun00019 }
+ 20:
+                michal = zuuluu.moderatorReportChannelId;
+ 26:
+                zuuluu = entity != michal;
+                entity = null;
+                if(!zuuluu) { _fun00020_ip = 38; continue _fun00019 }
+ 35:
+                entity = michal;
+ 38:
+                return entity;
+            }
+        };
+        report['value'] = golfie;
+        entity[2] = report;
+        report = {};
+        golfie = 'getModeratorReportingEnabled';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
+            _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+ 0:
+                entity = this;
+                zuuluu = entity.moderatorReporting;
+                entity = null;
+                tangon = entity == zuuluu;
+                michal = undefined;
+                if(tangon) { _fun00022_ip = 26; continue _fun00021 }
+ 20:
+                michal = zuuluu.moderatorReportingEnabled;
+ 26:
+                entity = entity != michal;
+                if(!entity) { _fun00022_ip = 36; continue _fun00021 }
+ 33:
+                entity = michal;
+ 36:
+                return entity;
+            }
+        };
+        report['value'] = golfie;
+        entity[3] = report;
+        report = {};
         golfie = 'getIconURL';
         report['key'] = golfie;
         golfie = function(argFoo) { // Original name: value
-            _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+            _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
                 report = arguments[1];
                 tangon = arguments[2];
                 oscard = this;
                 zuuluu = undefined;
-                if(!(report === zuuluu)) { _fun00020_ip = 17; continue _fun00019 }
+                if(!(report === zuuluu)) { _fun00024_ip = 17; continue _fun00023 }
  15:
                 report = false;
  17:
-                if(!(tangon === zuuluu)) { _fun00020_ip = 23; continue _fun00019 }
+                if(!(tangon === zuuluu)) { _fun00024_ip = 23; continue _fun00023 }
  21:
                 tangon = false;
  23:
@@ -738,12 +797,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[2] = report;
+        entity[4] = report;
         report = {};
         golfie = 'getIconSource';
         report['key'] = golfie;
         golfie = function(argFoo) { // Original name: value
-            _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+            _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
                 tangon = arguments[1];
                 michal = this;
@@ -751,7 +810,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = argFoo;
                 var _closure3_slot1 = michal;
                 report = undefined;
-                if(!(tangon === report)) { _fun00022_ip = 27; continue _fun00021 }
+                if(!(tangon === report)) { _fun00026_ip = 27; continue _fun00025 }
  25:
                 tangon = false;
  27:
@@ -787,7 +846,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[3] = report;
+        entity[5] = report;
         report = {};
         golfie = 'getApplicationId';
         report['key'] = golfie;
@@ -797,19 +856,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[4] = report;
+        entity[6] = report;
         report = {};
         golfie = 'toString';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+            _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
                 entity = this;
                 michal = entity.name;
                 entity = null;
                 zuuluu = entity != michal;
                 entity = '';
-                if(!zuuluu) { _fun00024_ip = 24; continue _fun00023 }
+                if(!zuuluu) { _fun00028_ip = 24; continue _fun00027 }
  21:
                 entity = michal;
  24:
@@ -817,7 +876,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[5] = report;
+        entity[7] = report;
         report = {};
         golfie = 'acronym';
         report['key'] = golfie;
@@ -835,22 +894,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         report['get'] = golfie;
-        entity[6] = report;
+        entity[8] = report;
         report = {};
         golfie = 'isOwner';
         report['key'] = golfie;
         golfie = function(argFoo) { // Original name: value
-            _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
+            _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
                 zuuluu = argFoo;
                 tangon = 'string';
                 entity = typeof zuuluu;
                 michal = zuuluu;
-                if(!(tangon !== entity)) { _fun00026_ip = 34; continue _fun00025 }
+                if(!(tangon !== entity)) { _fun00030_ip = 34; continue _fun00029 }
  17:
                 entity = null;
                 tangon = entity != zuuluu;
-                if(!tangon) { _fun00026_ip = 31; continue _fun00025 }
+                if(!tangon) { _fun00030_ip = 31; continue _fun00029 }
  26:
                 entity = zuuluu.id;
  31:
@@ -863,18 +922,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[7] = report;
+        entity[9] = report;
         report = {};
         golfie = 'isOwnerWithRequiredMfaLevel';
         report['key'] = golfie;
         golfie = function(argFoo) { // Original name: value
-            _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
+            _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
  0:
                 tangon = argFoo;
                 zuuluu = this;
                 entity = tangon.mfaEnabled;
                 michal = !entity;
-                if(!michal) { _fun00028_ip = 41; continue _fun00027 }
+                if(!michal) { _fun00032_ip = 41; continue _fun00031 }
  18:
                 report = zuuluu.mfaLevel;
                 entity = _closure1_slot11;
@@ -882,7 +941,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = report === entity;
  41:
                 entity = !michal;
-                if(michal) { _fun00028_ip = 58; continue _fun00027 }
+                if(michal) { _fun00032_ip = 58; continue _fun00031 }
  47:
                 michal = zuuluu.isOwner;
                 entity = michal.bind(zuuluu)(tangon);
@@ -891,16 +950,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[8] = report;
+        entity[10] = report;
         report = {};
         golfie = 'isNew';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
+            _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
  0:
                 zuuluu = arguments[0];
                 tangon = undefined;
-                if(!(zuuluu === tangon)) { _fun00030_ip = 12; continue _fun00029 }
+                if(!(zuuluu === tangon)) { _fun00034_ip = 12; continue _fun00033 }
  9:
                 zuuluu = 7;
  12:
@@ -925,7 +984,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[9] = report;
+        entity[11] = report;
         report = {};
         golfie = 'isLurker';
         report['key'] = golfie;
@@ -937,7 +996,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[10] = report;
+        entity[12] = report;
         report = {};
         golfie = 'hasFeature';
         report['key'] = golfie;
@@ -950,7 +1009,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[11] = report;
+        entity[13] = report;
         report = {};
         golfie = 'getEveryoneRoleId';
         report['key'] = golfie;
@@ -968,7 +1027,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[12] = report;
+        entity[14] = report;
         report = {};
         golfie = 'getMaxRoleSubscriptionEmojiSlots';
         report['key'] = golfie;
@@ -977,7 +1036,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[13] = report;
+        entity[15] = report;
         report = {};
         golfie = 'isCommunity';
         report['key'] = golfie;
@@ -990,19 +1049,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[14] = report;
+        entity[16] = report;
         report = {};
         golfie = 'hasCommunityInfoSubheader';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
+            _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
  0:
                 tangon = this;
                 zuuluu = tangon.hasFeature;
                 entity = _closure1_slot10;
                 entity = entity.COMMUNITY;
                 entity = zuuluu.bind(tangon)(entity);
-                if(!entity) { _fun00032_ip = 51; continue _fun00031 }
+                if(!entity) { _fun00036_ip = 51; continue _fun00035 }
  30:
                 zuuluu = tangon.hasFeature;
                 michal = _closure1_slot10;
@@ -1013,12 +1072,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[15] = report;
+        entity[17] = report;
         report = {};
         golfie = 'canHaveRaidActivityAlerts';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
+            _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
  0:
                 report = this;
                 michal = report.hasFeature;
@@ -1026,20 +1085,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.COMMUNITY;
                 entity = michal.bind(report)(entity);
                 entity = !entity;
-                if(!entity) { _fun00034_ip = 54; continue _fun00033 }
+                if(!entity) { _fun00038_ip = 54; continue _fun00037 }
  33:
                 tangon = report.hasFeature;
                 michal = _closure1_slot10;
                 michal = michal.NON_COMMUNITY_RAID_ALERTS;
                 entity = tangon.bind(report)(michal);
  54:
-                if(entity) { _fun00034_ip = 108; continue _fun00033 }
+                if(entity) { _fun00038_ip = 108; continue _fun00037 }
  57:
                 tangon = report.hasFeature;
                 michal = _closure1_slot10;
                 michal = michal.COMMUNITY;
                 michal = tangon.bind(report)(michal);
-                if(!michal) { _fun00034_ip = 105; continue _fun00033 }
+                if(!michal) { _fun00038_ip = 105; continue _fun00037 }
  81:
                 tangon = report.hasFeature;
                 zuuluu = _closure1_slot10;
@@ -1053,12 +1112,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[16] = report;
+        entity[18] = report;
         report = {};
         golfie = 'updateJoinedAt';
         report['key'] = golfie;
         oscard = function(argFoo) { // Original name: value
-            _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
+            _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
  0:
                 oscard = argFoo;
                 tangon = this;
@@ -1066,7 +1125,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = 'string';
                 entity = typeof oscard;
                 michal = oscard;
-                if(!(report === entity)) { _fun00036_ip = 56; continue _fun00035 }
+                if(!(report === entity)) { _fun00040_ip = 56; continue _fun00039 }
  25:
                 entity = global;
                 entity = entity.Date;
@@ -1083,14 +1142,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = oscard;
-        entity[17] = report;
+        entity[19] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
     michal = michal.bind(entity)(report);
     tangon = function(argFoo) {
         zuuluu = function(argFoo) { // Original name: GuildRecordWithRoles
-            _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
+            _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
  0:
                 zuuluu = argFoo;
                 oscard = this;
@@ -1104,24 +1163,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(tangon)(oscard, report, entity);
                 tangon = zuuluu.roles;
                 michal = null;
-                if(!(michal == tangon)) { _fun00038_ip = 61; continue _fun00037 }
+                if(!(michal == tangon)) { _fun00042_ip = 61; continue _fun00041 }
  59:
                 tangon = {};
  61:
                 entity['roles'] = tangon;
                 tangon = zuuluu.member;
-                if(!tangon) { _fun00038_ip = 105; continue _fun00037 }
+                if(!tangon) { _fun00042_ip = 105; continue _fun00041 }
  76:
                 tangon = zuuluu.member;
                 tangon = tangon.userId;
-                if(!tangon) { _fun00038_ip = 105; continue _fun00037 }
+                if(!tangon) { _fun00042_ip = 105; continue _fun00041 }
  90:
                 tangon = zuuluu.member;
                 tangon = tangon.roles;
-                if(tangon) { _fun00038_ip = 113; continue _fun00037 }
+                if(tangon) { _fun00042_ip = 113; continue _fun00041 }
  105:
                 entity['member'] = michal;
-                _fun00038_ip = 153; continue _fun00037;
+                _fun00042_ip = 153; continue _fun00041;
  113:
                 michal = {};
                 tangon = zuuluu.member;

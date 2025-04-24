@@ -77,6 +77,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['AVATAR_UPLOAD'] = michal;
     michal = 'impression_block_user_confirmation';
     tangon['BLOCK_USER_CONFIRMATION'] = michal;
+    michal = 'impression_boost_shop_opened';
+    tangon['BOOST_SHOP_OPENED'] = michal;
     michal = 'impression_call_tile_context_menu';
     tangon['CALL_TILE_CONTEXT_MENU'] = michal;
     michal = 'impression_channel_add_info';

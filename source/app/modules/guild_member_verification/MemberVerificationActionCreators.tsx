@@ -1,5 +1,5 @@
 // app/modules/guild_member_verification/MemberVerificationActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = argBar;
     option = argBaz;
     zuuluu = argFre;
@@ -233,14 +233,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function() {
         tangon = _closure1_slot3;
         zuuluu = undefined;
-        michal = function* (argFoo, argBar, argBaz) {
-            entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
+        michal = function* (argFoo, argBar, argBaz, argCor) {
+            entity = function* (argFoo, argBar, argBaz, argCor) { // Original name: ?anon_0_
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
                     golfie = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 212; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 222; continue _fun00003 }
  13:
                     report = _closure1_slot0;
                     zuuluu = _closure1_slot2;
@@ -260,19 +260,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option['form_fields'] = verify;
                     verify = argBaz;
                     option['enabled'] = verify;
+                    verify = argCor;
+                    option['bulk_action'] = verify;
                     michal['body'] = option;
                     option = true;
                     michal['oldFormErrors'] = option;
                     option = false;
                     michal['rejectWithError'] = option;
                     michal = report.bind(oscard)(michal);
-                    SaveGenerator(address=113);
- 111:
+                    SaveGenerator(address=123);
+ 121:
                     return michal;
- 113:
+ 123:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00004_ip = 209; continue _fun00003 }
- 119:
+                    if(report) { _fun00004_ip = 219; continue _fun00003 }
+ 129:
                     option = michal.body;
                     report = _closure1_slot1;
                     oscard = _closure1_slot2;
@@ -294,9 +296,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['form'] = golfie;
                     tangon = report.bind(oscard)(tangon);
                     return zuuluu;
- 209:
+ 219:
                     return michal;
- 212:
+ 222:
                     return entity;
                 }
             };

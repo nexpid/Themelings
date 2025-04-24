@@ -1,4 +1,4 @@
-// app/modules/premium/experiments/ReverseTrialLoadTestExperiment.tsx
+// app/modules/premium/experiments/ReverseTrialPromotionExperiment.tsx
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -20,7 +20,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal = oscard[michal];
     golfie = report.bind(entity)(michal);
     tangon = golfie.createExperiment;
-    michal = {'kind': 'user', 'id': '2025-02_reverse_trial_load_test', 'label': 'Reverse Trials'};
+    michal = {'kind': 'user', 'id': '2025-05_reverse_trial_promotion', 'label': 'Reverse Trials'};
     verify = {};
     yankee = false;
     verify['enabled'] = yankee;
@@ -39,7 +39,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/experiments/ReverseTrialLoadTestExperiment.tsx';
+    tangon = 'modules/premium/experiments/ReverseTrialPromotionExperiment.tsx';
     tangon = report.bind(oscard)(tangon);
     zuuluu['default'] = michal;
     return entity;

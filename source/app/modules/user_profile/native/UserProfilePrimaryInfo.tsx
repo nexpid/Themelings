@@ -799,7 +799,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     var _closure1_slot22 = michal;
-    entity = function(argFoo) { // Original name: ClanTag
+    entity = function(argFoo) { // Original name: GuildTag
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             entity = argFoo;
@@ -833,9 +833,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = _closure1_slot18;
             oscard = oscard.bind(report)(golfie);
             backup = oscard.badgeSize;
-            golfie = oscard.clanTagBadgeSize;
-            romeon = oscard.clanTagHorizontalPadding;
-            oscard = oscard.clanTagTextVariant;
+            golfie = oscard.guildTagBadgeSize;
+            romeon = oscard.guildTagHorizontalPadding;
+            oscard = oscard.guildTagTextVariant;
             foxtra = _closure1_slot0;
             sizing = _closure1_slot2;
             verify = 24;
@@ -877,7 +877,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['userId'] = kiloes;
             yankee = !yankee;
             michal['disabledTooltip'] = yankee;
-            yankee = option.clanTag;
+            yankee = option.guildTag;
             option = new Array(3);
             option[0] = yankee;
             yankee = {};
@@ -943,7 +943,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = 5;
     golfie = verify[golfie];
     golfie = option.bind(entity)(golfie);
-    romeon = golfie.ClanTagBadgeSize;
+    romeon = golfie.GuildTagBadgeSize;
     golfie = 6;
     golfie = verify[golfie];
     golfie = option.bind(entity)(golfie);
@@ -978,7 +978,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     output = output.radii;
     output = output.sm;
     backup['borderRadius'] = output;
-    golfie['clanTag'] = backup;
+    golfie['guildTag'] = backup;
     backup = {};
     output = 'contain';
     backup['resizeMode'] = output;
@@ -994,15 +994,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie['badgeRow'] = backup;
     golfie = yankee.bind(foxtra)(golfie);
     var _closure1_slot15 = golfie;
-    golfie = {'headingVariant': 'heading-xl/bold', 'textVariant': 'text-md/normal', 'badgeSize': 20, 'badgeRowHorizontalPadding': 7, 'clanTagBadgeSize': null, 'clanTagTextVariant': 'text-sm/medium', 'clanTagHorizontalPadding': 8};
+    golfie = {'headingVariant': 'heading-xl/bold', 'textVariant': 'text-md/normal', 'badgeSize': 20, 'badgeRowHorizontalPadding': 7, 'guildTagBadgeSize': null, 'guildTagTextVariant': 'text-sm/medium', 'guildTagHorizontalPadding': 8};
     yankee = romeon.SIZE_16;
-    golfie['clanTagBadgeSize'] = yankee;
+    golfie['guildTagBadgeSize'] = yankee;
     var _closure1_slot16 = golfie;
     golfie = {};
     yankee = offset.PREVIEW;
-    offset = {'headingVariant': 'heading-lg/bold', 'textVariant': 'text-sm/normal', 'badgeSize': 16, 'badgeRowHorizontalPadding': 6, 'clanTagBadgeSize': null, 'clanTagTextVariant': 'text-xs/medium', 'clanTagHorizontalPadding': 6};
+    offset = {'headingVariant': 'heading-lg/bold', 'textVariant': 'text-sm/normal', 'badgeSize': 16, 'badgeRowHorizontalPadding': 6, 'guildTagBadgeSize': null, 'guildTagTextVariant': 'text-xs/medium', 'guildTagHorizontalPadding': 6};
     romeon = romeon.SIZE_12;
-    offset['clanTagBadgeSize'] = romeon;
+    offset['guildTagBadgeSize'] = romeon;
     golfie[yankee] = offset;
     var _closure1_slot17 = golfie;
     golfie = function(argFoo) { // Original name: getStyleConfig

@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 338; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 342; continue _fun00001 }
  13:
                     yankee = michal.iFrameUri;
                     offset = michal.iFrameSandboxAttributes;
@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return oscard;
  53:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 335; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 339; continue _fun00001 }
  62:
                     golfie = 'discord_activity_data/activity.html';
                     tangon = {};
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = tangon.bind(oscard)(zuuluu);
                     zuuluu = tangon.isAndroid;
                     zuuluu = zuuluu.bind(tangon)();
-                    if(zuuluu) { _fun00002_ip = 200; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 202; continue _fun00001 }
  144:
                     zuuluu = _closure1_slot4;
                     romeon = zuuluu.DCDFileManager;
@@ -136,17 +136,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     foxtra = 'utf8';
                     output = romeon;
                     zuuluu = output[yankee](sizing, kiloes, backup, foxtra, romeon);
-                    SaveGenerator(address=185);
- 183:
-                    return zuuluu;
+                    SaveGenerator(address=187);
  185:
+                    return zuuluu;
+ 187:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
                     verify = tangon;
                     tangon = zuuluu;
-                    if(!verify) { _fun00002_ip = 288; continue _fun00001 }
- 197: // try_end0
+                    if(!verify) { _fun00002_ip = 292; continue _fun00001 }
+ 199: // try_end0
                     return zuuluu;
- 200: // try_start_1
+ 202: // try_start_1
                     verify = _closure1_slot1;
                     zuuluu = _closure1_slot2;
                     offset = 3;
@@ -155,8 +155,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = null;
                     verify = zuuluu == verify;
                     zuuluu = undefined;
-                    if(verify) { _fun00002_ip = 275; continue _fun00001 }
- 231:
+                    if(verify) { _fun00002_ip = 279; continue _fun00001 }
+ 233:
                     verify = _closure1_slot1;
                     option = _closure1_slot2;
                     option = option[offset];
@@ -168,19 +168,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     foxtra = 'utf8';
                     output = yankee;
                     zuuluu = output[offset](sizing, kiloes, backup, foxtra, romeon);
- 275:
-                    SaveGenerator(address=279);
- 277:
-                    return zuuluu;
  279:
+                    SaveGenerator(address=283);
+ 281:
+                    return zuuluu;
+ 283:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
                     tangon = zuuluu;
-                    if(report) { _fun00002_ip = 291; continue _fun00001 }
- 288: // try_end1
+                    if(report) { _fun00002_ip = 295; continue _fun00001 }
+ 292: // try_end1
                     return tangon;
- 291:
+ 295:
                     return zuuluu;
- 294: // catch_target0 // catch_target1
+ 298: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=4);
                     tangon = _closure1_slot1;
                     golfie = _closure1_slot2;
@@ -191,9 +191,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = zuuluu.bind(tangon)(report);
                     zuuluu = null;
                     return zuuluu;
- 335:
+ 339:
                     return michal;
- 338:
+ 342:
                     return entity;
                 }
             };

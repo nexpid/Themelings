@@ -72,15 +72,6 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         }
     };
     zuuluu['getEstablishedDate'] = tangon;
-    tangon = function(argFoo) { // Original name: guildSupportsTags
-        zuuluu = argFoo;
-        michal = zuuluu.hasFeature;
-        entity = _closure1_slot3;
-        entity = entity.GUILD_TAGS;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
-    };
-    zuuluu['guildSupportsTags'] = tangon;
     michal = function(argFoo) { // Original name: guildInviteCanEmbedProfile
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:

@@ -1,4 +1,4 @@
-// app/modules/clan/native/ChatBeginningRowJoinApplication.tsx
+// app/modules/guild_member_verification/native/components/ChatBeginningRowJoinApplication.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     foxtra = argBaz;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/clan/native/ChatBeginningRowJoinApplication.tsx';
+    tangon = 'modules/guild_member_verification/native/components/ChatBeginningRowJoinApplication.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: _default
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {

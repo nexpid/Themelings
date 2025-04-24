@@ -461,7 +461,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = update.contentRewardsWrapper;
             backup[1] = kiloes;
             verify['style'] = backup;
-            if(romeon) { _fun00002_ip = 1080; continue _fun00001 }
+            if(romeon) { _fun00002_ip = 1084; continue _fun00001 }
  896:
             kiloes = _closure1_slot8;
             backup = _closure1_slot6;
@@ -499,13 +499,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result[1] = target;
             romeon['children'] = result;
             backup = kiloes.bind(tangon)(backup, romeon);
-            _fun00002_ip = 1096; continue _fun00001;
- 1080:
+            _fun00002_ip = 1100; continue _fun00001;
+ 1084:
             result = _closure1_slot7;
             kiloes = _closure1_slot5;
             romeon = {};
             backup = result.bind(tangon)(kiloes, romeon);
- 1096:
+ 1100:
             romeon = new Array(2);
             romeon[0] = backup;
             result = _closure1_slot7;
@@ -643,8 +643,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify[0] = yankee;
             yankee = null;
             yankee = yankee != cntext;
-            if(!yankee) { _fun00002_ip = 1854; continue _fun00001 }
- 1753:
+            if(!yankee) { _fun00002_ip = 1858; continue _fun00001 }
+ 1757:
             sizing = _closure1_slot7;
             kiloes = _closure1_slot0;
             papara = _closure1_slot2;
@@ -669,7 +669,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = sizing.bind(tangon)(echoed, result);
             romeon['children'] = result;
             yankee = sizing.bind(tangon)(kiloes, romeon);
- 1854:
+ 1858:
             verify[1] = yankee;
             romeon = _closure1_slot8;
             result = _closure1_slot0;

@@ -407,7 +407,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00004_ip = 946; continue _fun00003 }
+                            if(michal) { _fun00004_ip = 958; continue _fun00003 }
  10:
                             zuuluu = undefined;
                             offset = undefined;
@@ -436,7 +436,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return michal;
  110:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                            if(golfie) { _fun00004_ip = 943; continue _fun00003 }
+                            if(golfie) { _fun00004_ip = 955; continue _fun00003 }
  119:
                             golfie = michal.valid;
                             option = null;
@@ -565,19 +565,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             yankee = verify.bind(zuuluu)(golfie);
                             verify = yankee.getIsMobileMarketingEmailOptInExperimentEnabled;
                             golfie = 'RegisterAccountInformation';
-                            golfie = verify.bind(yankee)(golfie);
+                            verify = verify.bind(yankee)(golfie);
+                            golfie = option.required;
                             if(!golfie) { _fun00004_ip = 647; continue _fun00003 }
- 638:
+ 644:
+                            golfie = verify;
+ 647:
+                            if(!golfie) { _fun00004_ip = 659; continue _fun00003 }
+ 650:
                             golfie = offset;
                             golfie['promoEmailConsent'] = option;
- 647:
+ 659:
                             option = _closure2_slot9;
                             golfie = true;
                             golfie = option.bind(zuuluu)(golfie);
                             option = _closure1_slot14;
                             golfie = {};
                             golfie = option.bind(zuuluu)(golfie);
- 669: // try_start_0
+ 681: // try_start_0
                             option = _closure1_slot0;
                             verify = _closure1_slot2;
                             golfie = 33;
@@ -586,13 +591,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             option = verify.registerFull;
                             golfie = offset;
                             golfie = option.bind(verify)(golfie);
-                            SaveGenerator(address=707);
- 705:
+                            SaveGenerator(address=719);
+ 717:
                             return golfie;
- 707:
+ 719:
                             ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                            if(option) { _fun00004_ip = 802; continue _fun00003 }
- 713:
+                            if(option) { _fun00004_ip = 814; continue _fun00003 }
+ 725:
                             verify = _closure2_slot1;
                             option = {};
                             romeon = _closure1_slot17;
@@ -611,11 +616,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             option['actionType'] = yankee;
                             option['overrideRegistrationOptions'] = offset;
                             option = verify.bind(zuuluu)(option);
- 797: // try_end0
-                            _fun00004_ip = 940; continue _fun00003;
- 802:
+ 809: // try_end0
+                            _fun00004_ip = 952; continue _fun00003;
+ 814:
                             return golfie;
- 805: // catch_target0
+ 817: // catch_target0
                             CatchBlockStart(arg_register=7);
                             oscard = option;
                             verify = _closure2_slot9;
@@ -628,10 +633,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             golfie = verify.bind(zuuluu)(golfie);
                             golfie = golfie.APIError;
                             golfie = option instanceof golfie;
-                            if(golfie) { _fun00004_ip = 857; continue _fun00003 }
- 854:
+                            if(golfie) { _fun00004_ip = 869; continue _fun00003 }
+ 866:
                             return zuuluu;
- 857:
+ 869:
                             option = _closure1_slot0;
                             verify = _closure1_slot2;
                             golfie = 37;
@@ -652,11 +657,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             echoed = undefined;
                             sizing = option;
                             tangon = echoed[golfie](result, output, sizing, kiloes, backup);
- 940:
+ 952:
                             return zuuluu;
- 943:
+ 955:
                             return michal;
- 946:
+ 958:
                             return entity;
                         }
                     };

@@ -1602,6 +1602,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['NAGBAR_NOTICE_IGNORE_USER_FEEDBACK'] = michal;
     entity = 'NAGBAR_NOTICE_IGNORE_USER_FEEDBACK';
     tangon[michal] = entity;
+    michal = 538;
+    tangon['REPORT_TO_MOD_SURVEY_NOTICE'] = michal;
+    entity = 'REPORT_TO_MOD_SURVEY_NOTICE';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

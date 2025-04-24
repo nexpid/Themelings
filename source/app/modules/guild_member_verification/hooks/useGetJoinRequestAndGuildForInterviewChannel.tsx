@@ -1,4 +1,4 @@
-// app/modules/clan/hooks/useGetJoinRequestAndGuildForInterviewChannel.tsx
+// app/modules/guild_member_verification/hooks/useGetJoinRequestAndGuildForInterviewChannel.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     golfie = argBaz;
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/clan/hooks/useGetJoinRequestAndGuildForInterviewChannel.tsx';
+    tangon = 'modules/guild_member_verification/hooks/useGetJoinRequestAndGuildForInterviewChannel.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: useGetJoinRequestAndGuildForInterviewChannel
         golfie = _closure1_slot4;
@@ -87,32 +87,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = offset[zuuluu];
         verify = oscard.bind(verify)(zuuluu);
         oscard = verify.useStateFromStoresObject;
-        offset = _closure1_slot5;
+        offset = _closure1_slot7;
         zuuluu = new Array(4);
         zuuluu[0] = offset;
-        offset = _closure1_slot6;
+        offset = _closure1_slot8;
         zuuluu[1] = offset;
-        offset = _closure1_slot7;
+        offset = _closure1_slot5;
         zuuluu[2] = offset;
-        michal = _closure1_slot8;
+        michal = _closure1_slot6;
         zuuluu[3] = michal;
         michal = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                zuuluu = _closure1_slot5;
+                zuuluu = _closure1_slot7;
                 michal = zuuluu.getRequest;
                 entity = _closure2_slot3;
                 report = michal.bind(zuuluu)(entity);
                 zuuluu = null;
                 if(!(zuuluu != report)) { _fun00002_ip = 125; continue _fun00001 }
  31:
-                oscard = _closure1_slot7;
+                oscard = _closure1_slot5;
                 michal = oscard.getGuild;
                 entity = report.guildId;
                 michal = michal.bind(oscard)(entity);
                 if(!(zuuluu == michal)) { _fun00002_ip = 74; continue _fun00001 }
  54:
-                golfie = _closure1_slot6;
+                golfie = _closure1_slot8;
                 oscard = golfie.getJoinRequestGuild;
                 entity = report.guildId;
                 michal = oscard.bind(golfie)(entity);
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = zuuluu != michal;
                 if(!zuuluu) { _fun00002_ip = 114; continue _fun00001 }
  88:
-                oscard = _closure1_slot8;
+                oscard = _closure1_slot6;
                 report = oscard.can;
                 tangon = _closure1_slot9;
                 tangon = tangon.KICK_MEMBERS;

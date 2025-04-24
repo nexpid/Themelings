@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot10 = tangon;
-    tangon = 10;
+    tangon = 11;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
@@ -241,16 +241,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = oscard.getGuildPowerupsExperimentEnabled;
                 zuuluu = 'GuildPowerupsManager';
                 zuuluu = report.bind(oscard)(tangon, zuuluu);
-                if(!zuuluu) { _fun00008_ip = 85; continue _fun00007 }
+                if(!zuuluu) { _fun00008_ip = 108; continue _fun00007 }
  54:
                 zuuluu = _closure1_slot0;
                 report = _closure1_slot2;
                 michal = 9;
                 michal = report[michal];
+                oscard = zuuluu.bind(entity)(michal);
+                michal = oscard.fetchGuildUnlockedPowerups;
+                michal = michal.bind(oscard)(tangon);
+                michal = 10;
+                michal = report[michal];
                 zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.fetchGuildUnlockedPowerups;
+                michal = zuuluu.fetchAppliedGuildBoostsForGuild;
                 michal = michal.bind(zuuluu)(tangon);
- 85:
+ 108:
                 return entity;
             }
         };
@@ -265,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = tangon;
     michal = new foxtra[michal](romeon);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 11;
+    tangon = 12;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
