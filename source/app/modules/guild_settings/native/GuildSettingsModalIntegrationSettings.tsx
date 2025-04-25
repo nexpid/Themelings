@@ -540,8 +540,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  304:
                 michal = cntext.type;
                 entity = 'youtube';
-                if(!(entity !== michal)) { _fun00010_ip = 463; continue _fun00009 }
- 322:
+                if(!(entity !== michal)) { _fun00010_ip = 461; continue _fun00009 }
+ 320:
                 zuuluu = cntext.name;
                 entity = global;
                 entity = entity.HermesInternal;
@@ -571,15 +571,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = oscard.handleToggleEmotes;
                 entity['onPress'] = option;
                 verify = golfie.bind(tangon)(report, entity);
-                _fun00010_ip = 567; continue _fun00009;
- 463:
+                _fun00010_ip = 565; continue _fun00009;
+ 461:
                 entity = cntext.account;
                 michal = record == entity;
                 zuuluu = undefined;
-                if(michal) { _fun00010_ip = 483; continue _fun00009 }
- 478:
+                if(michal) { _fun00010_ip = 481; continue _fun00009 }
+ 476:
                 zuuluu = entity.name;
- 483:
+ 481:
                 report = _closure1_slot0;
                 golfie = _closure1_slot2;
                 entity = 10;
@@ -598,7 +598,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 status = entity.7lNtcX;
                 ctrled = zuuluu;
                 verify = undefined;
- 567:
+ 565:
                 michal = _closure1_slot1;
                 zuuluu = _closure1_slot2;
                 entity = 18;
@@ -609,8 +609,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = michal.bind(zuuluu)(entity);
                 entity = record != offset;
                 source = null;
-                if(!entity) { _fun00010_ip = 717; continue _fun00009 }
- 611:
+                if(!entity) { _fun00010_ip = 715; continue _fun00009 }
+ 609:
                 zuuluu = _closure1_slot13;
                 michal = _closure1_slot9;
                 entity = {};
@@ -626,19 +626,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = romeon.isThemeDark;
                 report = report.bind(romeon)(backup);
                 offset = offset.icon;
-                if(report) { _fun00010_ip = 686; continue _fun00009 }
- 678:
+                if(report) { _fun00010_ip = 684; continue _fun00009 }
+ 676:
                 report = offset.lightPNG;
-                _fun00010_ip = 692; continue _fun00009;
- 686:
+                _fun00010_ip = 690; continue _fun00009;
+ 684:
                 report = offset.darkPNG;
- 692:
+ 690:
                 report = golfie.bind(option)(report);
                 entity['source'] = report;
                 report = target.integrationIcon;
                 entity['style'] = report;
                 source = zuuluu.bind(tangon)(michal, entity);
- 717:
+ 715:
                 entity = function() { // Original name: getSubGracePeriodOptions
                     zuuluu = [1, 3, 7, 14, 30];
                     michal = zuuluu.map;
@@ -707,11 +707,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 limora = cntext.user;
                 sierra = record == limora;
                 target = undefined;
-                if(sierra) { _fun00010_ip = 901; continue _fun00009 }
- 892:
+                if(sierra) { _fun00010_ip = 899; continue _fun00009 }
+ 890:
                 sierra = limora.toString;
                 target = sierra.bind(limora)();
- 901:
+ 899:
                 vacuum['text'] = target;
                 vacuum = config.bind(tangon)(sequen, vacuum);
                 sizing['label'] = vacuum;
@@ -779,10 +779,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 vacuum = {};
                 target = cntext.syncing;
                 record = record != target;
-                if(!record) { _fun00010_ip = 1218; continue _fun00009 }
- 1215:
+                if(!record) { _fun00010_ip = 1216; continue _fun00009 }
+ 1213:
                 record = target;
- 1218:
+ 1216:
                 vacuum['isSyncing'] = record;
                 record = oscard.handleSync;
                 vacuum['onPress'] = record;

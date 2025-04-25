@@ -38,118 +38,119 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot30 = michal;
+            _closure1_slot31 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot30 = entity;
-    michal = global;
-    offset = michal.Object;
+    var _closure1_slot31 = entity;
+    tangon = global;
+    offset = tangon.Object;
     option = offset.defineProperty;
-    tangon = {};
+    michal = {};
     entity = true;
-    tangon['value'] = entity;
+    michal['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(offset)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
+    entity = option.bind(offset)(zuuluu, entity, michal);
+    michal = 0;
+    option = oscard[michal];
     entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot7 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot8 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.FALLBACK_RECOMMENDED_GIFT_SKU_IDS;
-    var _closure1_slot9 = tangon;
-    tangon = michal.Map;
-    option = tangon.prototype;
-    option = Object.create(option, {constructor: {value: tangon}});
-    output = option;
-    tangon = new output[tangon](sizing);
-    romeon = tangon instanceof Object ? tangon : option;
-    var _closure1_slot10 = romeon;
-    tangon = michal.Map;
-    option = tangon.prototype;
-    option = Object.create(option, {constructor: {value: tangon}});
-    output = option;
-    tangon = new output[tangon](sizing);
-    yankee = tangon instanceof Object ? tangon : option;
-    var _closure1_slot11 = yankee;
-    tangon = michal.Map;
-    option = tangon.prototype;
-    option = Object.create(option, {constructor: {value: tangon}});
-    output = option;
-    tangon = new output[tangon](sizing);
-    offset = tangon instanceof Object ? tangon : option;
-    tangon = michal.Map;
-    option = tangon.prototype;
-    option = Object.create(option, {constructor: {value: tangon}});
-    output = option;
-    tangon = new output[tangon](sizing);
-    option = tangon instanceof Object ? tangon : option;
-    tangon = new Array(0);
-    var _closure1_slot12 = tangon;
-    var _closure1_slot13 = romeon;
-    var _closure1_slot14 = yankee;
-    var _closure1_slot15 = offset;
-    var _closure1_slot16 = option;
-    var _closure1_slot17 = tangon;
-    tangon = null;
-    var _closure1_slot18 = tangon;
-    tangon = false;
-    var _closure1_slot19 = tangon;
-    tangon = michal.Set;
-    option = tangon.prototype;
-    option = Object.create(option, {constructor: {value: tangon}});
-    output = option;
-    tangon = new output[tangon](sizing);
-    tangon = tangon instanceof Object ? tangon : option;
-    var _closure1_slot20 = tangon;
+    option = golfie.bind(entity)(option);
+    var _closure1_slot2 = option;
+    option = 1;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot3 = option;
+    option = 2;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot4 = option;
+    option = 3;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot5 = option;
+    option = 4;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot6 = option;
+    option = 5;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot7 = option;
+    option = 6;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot8 = option;
+    option = 7;
+    option = oscard[option];
+    option = report.bind(entity)(option);
+    option = option.FALLBACK_RECOMMENDED_GIFT_SKU_IDS;
+    var _closure1_slot9 = option;
+    option = tangon.Map;
+    offset = option.prototype;
+    offset = Object.create(offset, {constructor: {value: option}});
+    result = offset;
+    option = new result[option](output);
+    foxtra = option instanceof Object ? option : offset;
+    var _closure1_slot10 = foxtra;
+    option = tangon.Map;
+    offset = option.prototype;
+    offset = Object.create(offset, {constructor: {value: option}});
+    result = offset;
+    option = new result[option](output);
+    romeon = option instanceof Object ? option : offset;
+    var _closure1_slot11 = romeon;
+    option = tangon.Map;
+    offset = option.prototype;
+    offset = Object.create(offset, {constructor: {value: option}});
+    result = offset;
+    option = new result[option](output);
+    yankee = option instanceof Object ? option : offset;
+    option = tangon.Map;
+    offset = option.prototype;
+    offset = Object.create(offset, {constructor: {value: option}});
+    result = offset;
+    option = new result[option](output);
+    offset = option instanceof Object ? option : offset;
+    option = new Array(0);
+    var _closure1_slot12 = option;
+    var _closure1_slot13 = foxtra;
+    var _closure1_slot14 = romeon;
+    var _closure1_slot15 = yankee;
+    var _closure1_slot16 = offset;
+    var _closure1_slot17 = option;
+    option = null;
+    var _closure1_slot18 = option;
+    option = false;
+    var _closure1_slot19 = option;
+    option = tangon.Set;
+    offset = option.prototype;
+    offset = Object.create(offset, {constructor: {value: option}});
+    result = offset;
+    option = new result[option](output);
+    option = option instanceof Object ? option : offset;
+    var _closure1_slot20 = option;
     var _closure1_slot21 = entity;
-    tangon = michal.Map;
+    option = tangon.Map;
+    offset = option.prototype;
+    offset = Object.create(offset, {constructor: {value: option}});
+    result = offset;
+    option = new result[option](output);
+    option = option instanceof Object ? option : offset;
+    var _closure1_slot22 = option;
+    tangon = tangon.Map;
     option = tangon.prototype;
     option = Object.create(option, {constructor: {value: tangon}});
-    output = option;
-    tangon = new output[tangon](sizing);
+    result = option;
+    tangon = new result[tangon](output);
     tangon = tangon instanceof Object ? tangon : option;
-    var _closure1_slot22 = tangon;
-    michal = michal.Map;
-    tangon = michal.prototype;
-    tangon = Object.create(tangon, {constructor: {value: michal}});
-    output = tangon;
-    michal = new output[michal](sizing);
-    michal = michal instanceof Object ? michal : tangon;
-    var _closure1_slot23 = michal;
+    var _closure1_slot23 = tangon;
     var _closure1_slot24 = entity;
     var _closure1_slot25 = entity;
-    michal = {};
-    var _closure1_slot26 = michal;
+    tangon = {};
+    var _closure1_slot26 = tangon;
+    var _closure1_slot27 = michal;
     michal = function(argFoo, argBar) { // Original name: setRecommendedGiftSkuIds
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -209,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot27 = michal;
+    var _closure1_slot28 = michal;
     tangon = function() { // Original name: reset
         entity = _closure1_slot10;
         _closure1_slot13 = entity;
@@ -233,9 +234,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _closure1_slot25 = entity;
         michal = {};
         _closure1_slot26 = michal;
+        michal = 0;
+        _closure1_slot27 = michal;
         return entity;
     };
-    var _closure1_slot28 = tangon;
+    var _closure1_slot29 = tangon;
     michal = function() { // Original name: handleExperimentChange
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -270,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot29 = michal;
+    var _closure1_slot30 = michal;
     michal = 11;
     michal = oscard[michal];
     michal = golfie.bind(entity)(michal);
@@ -288,7 +291,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot5;
                 verify = entity.bind(zuuluu)(michal);
                 michal = _closure1_slot4;
-                entity = _closure1_slot30;
+                entity = _closure1_slot31;
                 entity = entity.bind(zuuluu)();
                 if(entity) { _fun00008_ip = 69; continue _fun00007 }
  51:
@@ -326,19 +329,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot8;
             zuuluu = new Array(1);
             zuuluu[0] = michal;
-            michal = _closure1_slot28;
+            michal = _closure1_slot29;
             michal = report.bind(tangon)(zuuluu, michal);
             zuuluu = tangon.syncWith;
             report = _closure1_slot7;
             michal = new Array(1);
             michal[0] = report;
-            entity = _closure1_slot29;
+            entity = _closure1_slot30;
             entity = zuuluu.bind(tangon)(michal, entity);
             entity = undefined;
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(17);
+        entity = new Array(18);
         entity[0] = report;
         report = {};
         golfie = 'isFetchingCategories';
@@ -433,6 +436,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['get'] = golfie;
         entity[9] = report;
         report = {};
+        golfie = 'skipNumCategories';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
+            entity = _closure1_slot27;
+            return entity;
+        };
+        report['get'] = golfie;
+        entity[10] = report;
+        report = {};
         golfie = 'getCategory';
         report['key'] = golfie;
         golfie = function(argFoo) { // Original name: value
@@ -452,7 +464,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[10] = report;
+        entity[11] = report;
         report = {};
         golfie = 'getProduct';
         report['key'] = golfie;
@@ -473,7 +485,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[11] = report;
+        entity[12] = report;
         report = {};
         golfie = 'getProductFetchError';
         report['key'] = golfie;
@@ -494,7 +506,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[12] = report;
+        entity[13] = report;
         report = {};
         golfie = 'getProductFetchErrorTimestamp';
         report['key'] = golfie;
@@ -515,7 +527,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[13] = report;
+        entity[14] = report;
         report = {};
         golfie = 'getProductByStoreListingId';
         report['key'] = golfie;
@@ -536,7 +548,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[14] = report;
+        entity[15] = report;
         report = {};
         golfie = 'getCategoryByStoreListingId';
         report['key'] = golfie;
@@ -557,7 +569,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[15] = report;
+        entity[16] = report;
         report = {};
         golfie = 'getCategoryForProduct';
         report['key'] = golfie;
@@ -581,7 +593,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = oscard;
-        entity[16] = report;
+        entity[17] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -590,7 +602,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option['displayName'] = michal;
     michal = 12;
     michal = oscard[michal];
-    sizing = golfie.bind(entity)(michal);
+    output = golfie.bind(entity)(michal);
     michal = {};
     offset = function(argFoo) { // Original name: COLLECTIBLES_CATEGORIES_FETCH
         entity = true;
@@ -776,7 +788,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot11;
             _closure1_slot14 = michal;
  465:
-            report = _closure1_slot27;
+            report = _closure1_slot28;
             tangon = entity.categories;
             zuuluu = _closure1_slot14;
             entity = undefined;
@@ -944,7 +956,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['COLLECTIBLES_PRODUCT_FETCH_FAILURE'] = offset;
-    verify = function(argFoo) { // Original name: COLLECTIBLES_SHOP_HOME_FETCH_SUCCESS
+    offset = function(argFoo) { // Original name: COLLECTIBLES_SHOP_HOME_FETCH_SUCCESS
         _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
             michal = argFoo;
@@ -1021,13 +1033,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    michal['COLLECTIBLES_SHOP_HOME_FETCH_SUCCESS'] = verify;
+    michal['COLLECTIBLES_SHOP_HOME_FETCH_SUCCESS'] = offset;
+    verify = function(argFoo) { // Original name: COLLECTIBLES_SKIP_NUM_CATEGORIES
+        entity = argFoo;
+        michal = entity.skipNumCategories;
+        _closure1_slot27 = michal;
+        entity = undefined;
+        return entity;
+    };
+    michal['COLLECTIBLES_SKIP_NUM_CATEGORIES'] = verify;
     michal['LOGOUT'] = tangon;
     tangon = option.prototype;
     tangon = Object.create(tangon, {constructor: {value: option}});
-    output = tangon;
-    kiloes = michal;
-    michal = new output[option](sizing, kiloes, backup);
+    result = tangon;
+    sizing = michal;
+    michal = new result[option](output, sizing, kiloes);
     michal = michal instanceof Object ? michal : tangon;
     tangon = 13;
     tangon = oscard[tangon];

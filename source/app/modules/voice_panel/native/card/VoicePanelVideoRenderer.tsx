@@ -368,6 +368,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = false;
  97:
             var _closure2_slot5 = zuuluu;
+            whisks = michal.paused;
+            if(!(whisks === tangon)) { _fun00006_ip = 113; continue _fun00005 }
+ 111:
+            whisks = false;
+ 113:
             ctrled = michal.style;
             yankee = michal.layout;
             var _closure2_slot6 = yankee;
@@ -421,9 +426,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = output.useSharedValue;
             report = {};
             status = zuuluu.getTargetDimensions;
-            equals = status.bind(zuuluu)(vacuum);
-            quebec = report;
-            status = copyDataProperties(quebec, equals);
+            quebec = status.bind(zuuluu)(vacuum);
+            variable36 = report;
+            status = copyDataProperties(variable36, quebec);
             sierra = offset.bind(output)(report);
             _closure2_slot13 = sierra;
             report = 15;
@@ -468,6 +473,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['userId'] = record;
             report['loading'] = offset;
             report['videoSpinnerContext'] = limora;
+            report['paused'] = whisks;
             report['streamKey'] = update;
             report = output.bind(tangon)(report);
             report = report.onReady;
@@ -508,7 +514,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = option[config];
             record = michal.bind(tangon)(report);
             echoed = record.useAnimatedReaction;
-            output = function() { // Original name: Ge
+            output = function() { // Original name: Xe
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     zuuluu = _closure2_slot7;
@@ -546,7 +552,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output['__workletHash'] = report;
             report = _closure1_slot54;
             output['__initData'] = report;
-            report = function(argFoo, argBar) { // Original name: ke
+            report = function(argFoo, argBar) { // Original name: Ge
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     oscard = argFoo;
@@ -675,7 +681,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option[config];
             output = michal.bind(tangon)(zuuluu);
             report = output.useDerivedValue;
-            zuuluu = function() { // Original name: $e
+            zuuluu = function() { // Original name: Ze
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                     michal = _closure2_slot8;
@@ -2640,7 +2646,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option[config];
             backup = michal.bind(tangon)(zuuluu);
             oscard = backup.useAnimatedStyle;
-            zuuluu = function() { // Original name: Ze
+            zuuluu = function() { // Original name: ze
                 _fun00057: for(var _fun00058_ip = 0; ; ) switch(_fun00058_ip) {
  0:
                     michal = _closure2_slot13;
@@ -2755,7 +2761,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option[config];
             backup = michal.bind(tangon)(zuuluu);
             oscard = backup.useAnimatedStyle;
-            zuuluu = function() { // Original name: ze
+            zuuluu = function() { // Original name: Je
                 _fun00059: for(var _fun00060_ip = 0; ; ) switch(_fun00060_ip) {
  0:
                     michal = _closure2_slot22;
@@ -2844,7 +2850,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['__initData'] = output;
             output = oscard.bind(backup)(zuuluu);
             oscard = golfie.useCallback;
-            zuuluu = function(argFoo) { // Original name: Je
+            zuuluu = function(argFoo) { // Original name: We
                 tangon = _closure2_slot6;
                 michal = _closure2_slot12;
                 entity = michal.get;
@@ -2909,8 +2915,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = _closure1_slot10;
             backup = _closure1_slot1;
             kiloes = _closure1_slot2;
-            if(offset) { _fun00006_ip = 1532; continue _fun00005 }
- 1495:
+            if(offset) { _fun00006_ip = 1549; continue _fun00005 }
+ 1512:
             verify = kiloes[verify];
             offset = backup.bind(tangon)(verify);
             verify = {};
@@ -2919,8 +2925,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = 'none';
             verify['pointerEvents'] = yankee;
             verify = romeon.bind(tangon)(offset, verify);
-            _fun00006_ip = 1594; continue _fun00005;
- 1532:
+            _fun00006_ip = 1611; continue _fun00005;
+ 1549:
             offset = 22;
             offset = kiloes[offset];
             yankee = backup.bind(tangon)(offset);
@@ -2935,7 +2941,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.BRAND_500;
             offset['color'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 1594:
+ 1611:
             option[1] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

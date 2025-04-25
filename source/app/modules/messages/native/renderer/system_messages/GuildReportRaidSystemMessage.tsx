@@ -277,10 +277,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['avatarURL'] = option;
             option = oscard != golfie;
             oscard = null;
-            if(!option) { _fun00002_ip = 591; continue _fun00001 }
- 588:
+            if(!option) { _fun00002_ip = 592; continue _fun00001 }
+ 589:
             oscard = golfie;
- 591:
+ 592:
             entity['usernameColor'] = oscard;
             update = entity;
             echoed = report;

@@ -1788,7 +1788,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = 27;
             zuuluu = golfie[zuuluu];
             oscard = oscard.bind(tangon)(zuuluu);
-            zuuluu = oscard.getUnactivatedFractionalPremiumHoursString;
+            zuuluu = oscard.getUnactivatedFractionalPremiumDurationString;
             record = zuuluu.bind(oscard)(result);
             zuuluu = record.length;
             cntext = zuuluu > verify;

@@ -619,7 +619,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.getUser;
             tangon = michal.bind(zuuluu)(option);
             michal = null;
-            if(!(michal == tangon)) { _fun00014_ip = 122; continue _fun00013 }
+            if(!(michal == tangon)) { _fun00014_ip = 118; continue _fun00013 }
  33:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -658,13 +658,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             entity = michal.bind(zuuluu)(entity);
-            _fun00014_ip = 141; continue _fun00013;
- 122:
+            _fun00014_ip = 137; continue _fun00013;
+ 118:
             michal = global;
             zuuluu = michal.Promise;
             michal = zuuluu.resolve;
             entity = michal.bind(zuuluu)(tangon);
- 141:
+ 137:
             return entity;
         }
     };

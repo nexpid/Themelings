@@ -2481,22 +2481,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.MediaEngineContextTypes;
             zuuluu = zuuluu.STREAM;
             sizing = option.bind(tangon)(zuuluu, update);
-            if(michal) { _fun00046_ip = 1243; continue _fun00045 }
+            if(michal) { _fun00046_ip = 1267; continue _fun00045 }
  478:
             source = null;
-            if(!(source != backup)) { _fun00046_ip = 1181; continue _fun00045 }
+            if(!(source != backup)) { _fun00046_ip = 1205; continue _fun00045 }
  487:
-            if(!(source == sizing)) { _fun00046_ip = 1086; continue _fun00045 }
+            if(!(source == sizing)) { _fun00046_ip = 1110; continue _fun00045 }
  494:
             zuuluu = backup.state;
             michal = _closure1_slot17;
             michal = michal.FAILED;
-            if(!(zuuluu !== michal)) { _fun00046_ip = 1086; continue _fun00045 }
+            if(!(zuuluu !== michal)) { _fun00046_ip = 1110; continue _fun00045 }
  516:
             zuuluu = backup.state;
             michal = _closure1_slot17;
             michal = michal.ENDED;
-            if(!(zuuluu !== michal)) { _fun00046_ip = 996; continue _fun00045 }
+            if(!(zuuluu !== michal)) { _fun00046_ip = 1020; continue _fun00045 }
  538:
             zuuluu = backup.state;
             michal = _closure1_slot17;
@@ -2601,6 +2601,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['videoSpinnerContext'] = echoed;
             foxtra['sharedCoords'] = golfie;
             foxtra['isCamera'] = offset;
+            update = backup.state;
+            echoed = _closure1_slot17;
+            echoed = echoed.PAUSED;
+            echoed = update === echoed;
+            foxtra['paused'] = echoed;
             output = result.bind(tangon)(output, foxtra);
             foxtra = new Array(2);
             foxtra[0] = output;
@@ -2608,7 +2613,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = foxtra;
             michal = option.bind(tangon)(zuuluu, michal);
             return michal;
- 996:
+ 1020:
             option = _closure1_slot20;
             zuuluu = _closure1_slot1;
             output = _closure1_slot2;
@@ -2630,7 +2635,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['style'] = foxtra;
             michal = option.bind(tangon)(zuuluu, michal);
             return michal;
- 1086:
+ 1110:
             option = _closure1_slot20;
             zuuluu = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -2653,7 +2658,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['style'] = foxtra;
             michal = option.bind(tangon)(zuuluu, michal);
             return michal;
- 1181:
+ 1205:
             option = _closure1_slot20;
             zuuluu = _closure1_slot0;
             foxtra = _closure1_slot2;
@@ -2669,7 +2674,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['layout'] = verify;
             michal = option.bind(tangon)(zuuluu, michal);
             return michal;
- 1243:
+ 1267:
             zuuluu = _closure1_slot20;
             michal = _closure1_slot56;
             entity = {};

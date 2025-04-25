@@ -577,7 +577,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             zuuluu = romeon.type;
                             michal = _closure1_slot11;
                             michal = michal.EMBED;
-                            if(!(zuuluu !== michal)) { _fun00016_ip = 216; continue _fun00015 }
+                            if(!(zuuluu !== michal)) { _fun00016_ip = 217; continue _fun00015 }
  28:
                             zuuluu = romeon.attachment;
                             report = zuuluu.proxy_url;
@@ -617,10 +617,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             oscard = zuuluu.filename;
                             oscard = golfie.bind(option)(oscard);
                             tangon = undefined;
-                            if(!oscard) { _fun00016_ip = 180; continue _fun00015 }
- 177:
+                            if(!oscard) { _fun00016_ip = 181; continue _fun00015 }
+ 178:
                             tangon = report;
- 180:
+ 181:
                             michal['videoURI'] = tangon;
                             tangon = false;
                             michal['isGIFV'] = tangon;
@@ -628,8 +628,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             michal['accessoryType'] = tangon;
                             zuuluu = zuuluu.id;
                             michal['attachmentId'] = zuuluu;
-                            _fun00016_ip = 424; continue _fun00015;
- 216:
+                            _fun00016_ip = 426; continue _fun00015;
+ 217:
                             zuuluu = romeon.embed;
                             oscard = _closure1_slot0;
                             golfie = _closure1_slot2;
@@ -650,26 +650,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             offset = zuuluu.video;
                             report = zuuluu.type;
                             verify = option.proxyURL;
-                            if(!(golfie == verify)) { _fun00016_ip = 315; continue _fun00015 }
- 310:
+                            if(!(golfie == verify)) { _fun00016_ip = 316; continue _fun00015 }
+ 311:
                             verify = option.url;
- 315:
+ 316:
                             zuuluu = golfie == offset;
                             oscard = undefined;
-                            if(zuuluu) { _fun00016_ip = 330; continue _fun00015 }
- 324:
+                            if(zuuluu) { _fun00016_ip = 331; continue _fun00015 }
+ 325:
                             oscard = offset.proxyURL;
- 330:
-                            if(!(golfie == oscard)) { _fun00016_ip = 351; continue _fun00015 }
- 334:
+ 331:
+                            if(!(golfie == oscard)) { _fun00016_ip = 352; continue _fun00015 }
+ 335:
                             yankee = golfie == offset;
                             zuuluu = undefined;
-                            if(yankee) { _fun00016_ip = 348; continue _fun00015 }
- 343:
+                            if(yankee) { _fun00016_ip = 349; continue _fun00015 }
+ 344:
                             zuuluu = offset.url;
- 348:
+ 349:
                             oscard = zuuluu;
- 351:
+ 352:
                             zuuluu = {};
                             zuuluu['uri'] = verify;
                             zuuluu['sourceURI'] = oscard;
@@ -679,10 +679,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             zuuluu['height'] = option;
                             golfie = golfie != oscard;
                             tangon = undefined;
-                            if(!golfie) { _fun00016_ip = 392; continue _fun00015 }
- 389:
+                            if(!golfie) { _fun00016_ip = 394; continue _fun00015 }
+ 391:
                             tangon = oscard;
- 392:
+ 394:
                             zuuluu['videoURI'] = tangon;
                             tangon = 'gifv';
                             tangon = tangon === report;
@@ -690,7 +690,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = 'embed';
                             zuuluu['accessoryType'] = tangon;
                             michal = zuuluu;
- 424:
+ 426:
                             foxtra = michal.uri;
                             golfie = michal.sourceURI;
                             oscard = michal.width;
@@ -710,10 +710,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             kiloes = backup.bind(verify)(entity);
                             backup = kiloes.getMobileOptimizedSrc;
                             entity = undefined;
-                            if(!yankee) { _fun00016_ip = 516; continue _fun00015 }
- 510:
+                            if(!yankee) { _fun00016_ip = 519; continue _fun00015 }
+ 513:
                             entity = 'png';
- 516:
+ 519:
                             source = kiloes;
                             update = foxtra;
                             echoed = oscard;
@@ -743,10 +743,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             romeon = romeon.mediaIndex;
                             michal['mediaIndex'] = romeon;
                             verify = undefined;
-                            if(!yankee) { _fun00016_ip = 642; continue _fun00015 }
- 639:
+                            if(!yankee) { _fun00016_ip = 647; continue _fun00015 }
+ 644:
                             verify = offset;
- 642:
+ 647:
                             michal['videoURI'] = verify;
                             michal['isGIFV'] = option;
                             michal['sourceURI'] = golfie;

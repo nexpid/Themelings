@@ -643,7 +643,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify[0] = yankee;
             yankee = null;
             yankee = yankee != cntext;
-            if(!yankee) { _fun00002_ip = 1858; continue _fun00001 }
+            if(!yankee) { _fun00002_ip = 1859; continue _fun00001 }
  1757:
             sizing = _closure1_slot7;
             kiloes = _closure1_slot0;
@@ -669,7 +669,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = sizing.bind(tangon)(echoed, result);
             romeon['children'] = result;
             yankee = sizing.bind(tangon)(kiloes, romeon);
- 1858:
+ 1859:
             verify[1] = yankee;
             romeon = _closure1_slot8;
             result = _closure1_slot0;

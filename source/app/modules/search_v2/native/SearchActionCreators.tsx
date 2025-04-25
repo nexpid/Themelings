@@ -12,83 +12,83 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     entity = function(argFoo, argBar, argBaz, argCor) { // Original name: fetchBulk
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            report = argFoo;
+            oscard = argFoo;
             verify = argBar;
             tangon = argBaz;
-            var _closure2_slot0 = report;
+            var _closure2_slot0 = oscard;
             var _closure2_slot1 = tangon;
             golfie = _closure1_slot0;
-            entity = _closure1_slot3;
+            zuuluu = _closure1_slot3;
             option = 4;
-            oscard = entity[option];
-            entity = undefined;
-            offset = golfie.bind(entity)(oscard);
+            report = zuuluu[option];
+            zuuluu = undefined;
+            offset = golfie.bind(zuuluu)(report);
             golfie = offset.getSearchTabFetchId;
-            oscard = 0;
-            oscard = verify[oscard];
-            offset = golfie.bind(offset)(report, oscard, tangon);
+            report = 0;
+            report = verify[report];
+            offset = golfie.bind(offset)(oscard, report, tangon);
             golfie = _closure1_slot4;
-            oscard = golfie.getIsFetching;
-            oscard = oscard.bind(golfie)(offset);
-            if(oscard) { _fun00002_ip = 436; continue _fun00001 }
+            report = golfie.getIsFetching;
+            report = report.bind(golfie)(offset);
+            if(report) { _fun00002_ip = 440; continue _fun00001 }
  84:
             yankee = _closure1_slot2;
-            oscard = _closure1_slot3;
+            report = _closure1_slot3;
             offset = 5;
-            golfie = oscard[offset];
-            romeon = yankee.bind(entity)(golfie);
+            golfie = report[offset];
+            romeon = yankee.bind(zuuluu)(golfie);
             golfie = romeon.tokenizeQuery;
             romeon = golfie.bind(romeon)(tangon);
-            golfie = oscard[offset];
-            yankee = yankee.bind(entity)(golfie);
+            golfie = report[offset];
+            yankee = yankee.bind(zuuluu)(golfie);
             golfie = yankee.getSearchQueryFromTokens;
             romeon = golfie.bind(yankee)(romeon);
             golfie = _closure1_slot0;
-            oscard = oscard[option];
-            golfie = golfie.bind(entity)(oscard);
-            oscard = golfie.getGuildIdFromSearchContext;
-            option = oscard.bind(golfie)(report);
+            report = report[option];
+            golfie = golfie.bind(zuuluu)(report);
+            report = golfie.getGuildIdFromSearchContext;
+            option = report.bind(golfie)(oscard);
             var _closure2_slot2 = option;
-            oscard = null;
-            if(!(oscard != option)) { _fun00002_ip = 198; continue _fun00001 }
+            report = null;
+            if(!(report != option)) { _fun00002_ip = 198; continue _fun00001 }
  169:
             golfie = _closure1_slot2;
-            oscard = _closure1_slot3;
-            oscard = oscard[offset];
-            golfie = golfie.bind(entity)(oscard);
-            oscard = golfie.setIncludeNSFW;
-            oscard = oscard.bind(golfie)(romeon, option);
+            report = _closure1_slot3;
+            report = report[offset];
+            golfie = golfie.bind(zuuluu)(report);
+            report = golfie.setIncludeNSFW;
+            report = report.bind(golfie)(romeon, option);
  198:
             offset = _closure1_slot1;
             yankee = _closure1_slot3;
-            oscard = 6;
-            oscard = yankee[oscard];
-            option = offset.bind(entity)(oscard);
+            report = 6;
+            report = yankee[report];
+            option = offset.bind(zuuluu)(report);
             golfie = option.getSearchTabFetcher;
             foxtra = argCor;
             result = option;
-            output = report;
+            output = oscard;
             sizing = romeon;
             kiloes = tangon;
             backup = verify;
-            oscard = result[golfie](output, sizing, kiloes, backup, foxtra, romeon);
+            report = result[golfie](output, sizing, kiloes, backup, foxtra, romeon);
             golfie = _closure1_slot5;
-            golfie = golfie.bind(entity)(report);
+            golfie = golfie.bind(zuuluu)(oscard);
             option = 7;
             option = yankee[option];
-            offset = offset.bind(entity)(option);
+            offset = offset.bind(zuuluu)(option);
             option = offset.incrementSearchCount;
-            option = option.bind(offset)(report, golfie);
+            option = option.bind(offset)(oscard, golfie);
             if(!golfie) { _fun00002_ip = 324; continue _fun00001 }
  286:
             option = _closure1_slot0;
             offset = _closure1_slot3;
             golfie = 8;
             golfie = offset[golfie];
-            offset = option.bind(entity)(golfie);
+            offset = option.bind(zuuluu)(golfie);
             option = offset.trackSearchFiltersApplied;
             golfie = {};
-            golfie['searchContext'] = report;
+            golfie['searchContext'] = oscard;
             golfie = option.bind(offset)(golfie);
  324:
             option = verify.map;
@@ -112,17 +112,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = _closure1_slot3;
             golfie = 9;
             golfie = verify[golfie];
-            verify = option.bind(entity)(golfie);
+            verify = option.bind(zuuluu)(golfie);
             option = verify.dispatch;
             golfie = {};
             yankee = 'SEARCH_MESSAGES_START';
             golfie['type'] = yankee;
             golfie['ids'] = offset;
             golfie = option.bind(verify)(golfie);
-            zuuluu = _closure1_slot8;
-            zuuluu = zuuluu.bind(entity)(report, tangon);
-            report = oscard.fetch;
-            tangon = function(argFoo) {
+            michal = _closure1_slot8;
+            michal = michal.bind(zuuluu)(oscard, tangon);
+            tangon = report.fetch;
+            zuuluu = function(argFoo) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
@@ -409,7 +409,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            zuuluu = function() {
+            michal = function() {
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot3;
                 entity = 9;
@@ -425,7 +425,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            michal = function(argFoo) {
+            entity = function(argFoo) {
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot3;
                 entity = 9;
@@ -443,8 +443,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            michal = report.bind(oscard)(tangon, zuuluu, michal);
- 436:
+            entity = tangon.bind(report)(zuuluu, michal, entity);
+            entity = true;
+            return entity;
+ 440:
+            entity = false;
             return entity;
         }
     };
@@ -664,40 +667,42 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     foxtra = function(argFoo, argBar) { // Original name: fetchNextMessages
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-            oscard = argFoo;
-            golfie = argBar;
-            zuuluu = _closure1_slot7;
-            entity = undefined;
-            report = zuuluu.bind(entity)(oscard);
-            tangon = _closure1_slot0;
-            option = _closure1_slot3;
-            zuuluu = 4;
-            zuuluu = option[zuuluu];
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.getSearchTabFetchId;
-            verify = zuuluu.bind(tangon)(oscard, golfie, report);
+            golfie = argFoo;
+            option = argBar;
+            entity = _closure1_slot7;
+            oscard = undefined;
+            report = entity.bind(oscard)(golfie);
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot3;
+            entity = 4;
+            entity = tangon[entity];
+            zuuluu = zuuluu.bind(oscard)(entity);
+            entity = zuuluu.getSearchTabFetchId;
+            verify = entity.bind(zuuluu)(golfie, option, report);
+            zuuluu = _closure1_slot4;
+            entity = zuuluu.getHasNextPage;
+            zuuluu = entity.bind(zuuluu)(verify);
             tangon = _closure1_slot4;
-            zuuluu = tangon.getHasNextPage;
-            zuuluu = zuuluu.bind(tangon)(verify);
-            option = _closure1_slot4;
-            tangon = option.getIsInitialFetchComplete;
-            tangon = tangon.bind(option)(verify);
-            if(!zuuluu) { _fun00014_ip = 91; continue _fun00013 }
- 88:
-            zuuluu = tangon;
+            entity = tangon.getIsInitialFetchComplete;
+            entity = entity.bind(tangon)(verify);
+            zuuluu = !zuuluu;
+            if(zuuluu) { _fun00014_ip = 94; continue _fun00013 }
  91:
-            if(!zuuluu) { _fun00014_ip = 125; continue _fun00013 }
+            zuuluu = !entity;
  94:
+            entity = !zuuluu;
+            if(zuuluu) { _fun00014_ip = 131; continue _fun00013 }
+ 100:
             tangon = _closure1_slot15;
             zuuluu = new Array(1);
-            zuuluu[0] = golfie;
+            zuuluu[0] = option;
             offset = _closure1_slot18;
             backup = undefined;
-            foxtra = oscard;
+            foxtra = golfie;
             romeon = zuuluu;
             yankee = report;
-            michal = backup[tangon](foxtra, romeon, yankee, offset, verify);
- 125:
+            entity = backup[tangon](foxtra, romeon, yankee, offset, verify);
+ 131:
             return entity;
         }
     };

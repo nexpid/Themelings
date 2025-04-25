@@ -26,65 +26,58 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            tangon = entity.context;
+            golfie = entity.context;
             verify = entity.application;
-            oscard = entity.botUserId;
-            report = _closure1_slot0;
+            report = entity.botUserId;
+            tangon = _closure1_slot0;
             option = _closure1_slot2;
             entity = 0;
             entity = option[entity];
-            golfie = undefined;
-            offset = report.bind(golfie)(entity);
+            oscard = undefined;
+            offset = tangon.bind(oscard)(entity);
             michal = offset.useIsPrimaryAppCommandUsableInAppDM;
             entity = {};
-            entity['context'] = tangon;
+            entity['context'] = golfie;
             yankee = verify.id;
             entity['applicationId'] = yankee;
-            entity['botUserId'] = oscard;
+            entity['botUserId'] = report;
             entity = michal.bind(offset)(entity);
             michal = 1;
             michal = option[michal];
-            report = report.bind(golfie)(michal);
-            michal = report.isRealApplication;
-            michal = michal.bind(report)(verify);
+            tangon = tangon.bind(oscard)(michal);
+            michal = tangon.isRealApplication;
+            michal = michal.bind(tangon)(verify);
             if(!michal) { _fun00002_ip = 131; continue _fun00001 }
  100:
             option = _closure1_slot0;
             offset = _closure1_slot2;
-            report = 2;
-            report = offset[report];
-            option = option.bind(golfie)(report);
-            report = option.isContextlessActivitiesEnabledForApp;
-            michal = report.bind(option)(verify);
+            tangon = 2;
+            tangon = offset[tangon];
+            option = option.bind(oscard)(tangon);
+            tangon = option.isContextlessActivitiesEnabledForApp;
+            michal = tangon.bind(option)(verify);
  131:
-            report = _closure1_slot1;
+            tangon = _closure1_slot1;
             option = _closure1_slot2;
             zuuluu = 3;
             zuuluu = option[zuuluu];
-            report = report.bind(golfie)(zuuluu);
+            tangon = tangon.bind(oscard)(zuuluu);
             zuuluu = {};
-            zuuluu['context'] = tangon;
-            zuuluu = report.bind(golfie)(zuuluu);
-            tangon = tangon.type;
-            if(!entity) { _fun00002_ip = 176; continue _fun00001 }
- 170:
-            report = null;
-            entity = report != oscard;
- 176:
-            if(!entity) { _fun00002_ip = 182; continue _fun00001 }
- 179:
+            zuuluu['context'] = golfie;
+            zuuluu = tangon.bind(oscard)(zuuluu);
+            if(!entity) { _fun00002_ip = 171; continue _fun00001 }
+ 165:
+            tangon = null;
+            entity = tangon != report;
+ 171:
+            if(!entity) { _fun00002_ip = 177; continue _fun00001 }
+ 174:
             entity = !zuuluu;
- 182:
-            if(!entity) { _fun00002_ip = 196; continue _fun00001 }
- 185:
-            zuuluu = 'contextless';
-            zuuluu = zuuluu === tangon;
-            entity = !zuuluu;
- 196:
-            if(!entity) { _fun00002_ip = 202; continue _fun00001 }
- 199:
+ 177:
+            if(!entity) { _fun00002_ip = 183; continue _fun00001 }
+ 180:
             entity = !michal;
- 202:
+ 183:
             return entity;
         }
     };

@@ -55,9 +55,13 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     oscard = tangon.bind(entity)(oscard);
     oscard = oscard.truncateText;
     zuuluu['truncateText'] = oscard;
+    oscard = report[michal];
+    oscard = tangon.bind(entity)(oscard);
+    oscard = oscard.normalize;
+    zuuluu['normalize'] = oscard;
     michal = report[michal];
     michal = tangon.bind(entity)(michal);
-    michal = michal.normalize;
-    zuuluu['normalize'] = michal;
+    michal = michal.countGraphemeClusters;
+    zuuluu['countGraphemeClusters'] = michal;
     return entity;
 })();

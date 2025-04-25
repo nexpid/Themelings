@@ -36,5 +36,9 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = oscard.bind(golfie)(report);
     zuuluu['AccountNotificationFlags'] = tangon;
     zuuluu['NotificationSettingsUpdateType'] = michal;
+    michal = 'message1';
+    zuuluu['MESSAGE_SOUND'] = michal;
+    michal = 0.4;
+    zuuluu['MESSAGE_SOUND_VOLUME'] = michal;
     return entity;
 })();

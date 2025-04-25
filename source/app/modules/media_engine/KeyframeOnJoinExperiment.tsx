@@ -1,4 +1,4 @@
-// app/modules/pomelo/UUOneClickExperiment.tsx
+// app/modules/media_engine/KeyframeOnJoinExperiment.tsx
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -16,12 +16,12 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = undefined;
     option = report.bind(entity)(michal);
     golfie = option.createExperiment;
-    michal = {'kind': 'user', 'id': '2023-11_uu_one_click', 'label': 'Unique Username one click'};
+    michal = {'kind': 'user', 'id': '2025-04_keyframe_on_join', 'label': 'Emit a keyframe when a new user joins the MLS group'};
     tangon = {};
     verify = false;
     tangon['enabled'] = verify;
     michal['defaultConfig'] = tangon;
-    offset = {'id': 1, 'label': 'Enable one click'};
+    offset = {'id': 1, 'label': 'Enable'};
     tangon = 1;
     verify = {};
     verify['enabled'] = yankee;
@@ -33,8 +33,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/pomelo/UUOneClickExperiment.tsx';
+    tangon = 'modules/media_engine/KeyframeOnJoinExperiment.tsx';
     tangon = report.bind(oscard)(tangon);
-    zuuluu['UUOneClickExperiment'] = michal;
+    zuuluu['default'] = michal;
     return entity;
 })();

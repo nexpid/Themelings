@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure2_slot0;
                     offset = michal.author;
  30:
-                    if(!(entity != offset)) { _fun00008_ip = 218; continue _fun00007 }
+                    if(!(entity != offset)) { _fun00008_ip = 219; continue _fun00007 }
  37:
                     foxtra = offset.proxy_icon_url;
                     if(!(entity == foxtra)) { _fun00008_ip = 53; continue _fun00007 }
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = oscard.authorView;
                     michal['style'] = oscard;
                     option = entity != foxtra;
-                    if(!option) { _fun00008_ip = 136; continue _fun00007 }
+                    if(!option) { _fun00008_ip = 137; continue _fun00007 }
  87:
                     yankee = _closure1_slot7;
                     verify = _closure1_slot5;
@@ -225,7 +225,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = 'cover';
                     oscard['resizeMode'] = romeon;
                     option = yankee.bind(report)(verify, oscard);
- 136:
+ 137:
                     oscard = new Array(2);
                     oscard[0] = option;
                     verify = _closure1_slot7;
@@ -243,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['children'] = oscard;
                     michal = tangon.bind(report)(zuuluu, michal);
                     return michal;
- 218:
+ 219:
                     return entity;
                 }
             };

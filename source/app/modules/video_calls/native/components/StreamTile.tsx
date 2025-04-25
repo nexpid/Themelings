@@ -230,11 +230,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = offset.state;
             michal = _closure1_slot8;
             michal = michal.FAILED;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 878; continue _fun00003 }
+            if(!(michal !== zuuluu)) { _fun00004_ip = 902; continue _fun00003 }
  187:
             michal = _closure1_slot8;
             michal = michal.ENDED;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 786; continue _fun00003 }
+            if(!(michal !== zuuluu)) { _fun00004_ip = 810; continue _fun00003 }
  204:
             michal = _closure1_slot8;
             michal = michal.RECONNECTING;
@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['title'] = romeon;
             yankee = option.bind(tangon)(zuuluu, michal);
  487:
-            if(!(entity == oscard)) { _fun00004_ip = 689; continue _fun00003 }
+            if(!(entity == oscard)) { _fun00004_ip = 713; continue _fun00003 }
  494:
             sizing = offset.ownerId;
             michal = _closure1_slot7;
@@ -361,6 +361,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['videoSpinnerContext'] = kiloes;
             backup = backup.id;
             option['userId'] = backup;
+            kiloes = offset.state;
+            backup = _closure1_slot8;
+            backup = backup.PAUSED;
+            backup = kiloes === backup;
+            option['paused'] = backup;
             romeon = foxtra.bind(tangon)(romeon, option);
             option = new Array(2);
             option[0] = romeon;
@@ -368,7 +373,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = option;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 689:
+ 713:
             zuuluu = _closure1_slot10;
             michal = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -391,7 +396,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['avError'] = oscard;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 786:
+ 810:
             zuuluu = _closure1_slot10;
             michal = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -413,7 +418,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['style'] = oscard;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 878:
+ 902:
             zuuluu = _closure1_slot10;
             michal = _closure1_slot1;
             option = _closure1_slot2;

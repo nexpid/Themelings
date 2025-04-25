@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['container'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot15 = tangon;
-    tangon = 45;
+    tangon = 46;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -1068,10 +1068,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = offset.isIOS;
             offset = verify.bind(offset)();
             verify = undefined;
-            if(!offset) { _fun00002_ip = 1179; continue _fun00001 }
+            if(!offset) { _fun00002_ip = 1214; continue _fun00001 }
  1177:
+            romeon = _closure1_slot0;
+            foxtra = _closure1_slot2;
+            offset = 41;
+            offset = foxtra[offset];
+            romeon = romeon.bind(tangon)(offset);
+            offset = romeon.getIsWindowLarge;
+            offset = offset.bind(romeon)();
+            verify = undefined;
+            if(offset) { _fun00002_ip = 1214; continue _fun00001 }
+ 1212:
             verify = 0;
- 1179:
+ 1214:
             golfie['headerStatusBarHeight'] = verify;
             golfie = oscard.bind(tangon)(option, golfie);
             report['children'] = golfie;
@@ -1086,7 +1096,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = _closure1_slot13;
             romeon = _closure1_slot1;
             whisks = _closure1_slot2;
-            verify = 41;
+            verify = 42;
             verify = whisks[verify];
             offset = romeon.bind(tangon)(verify);
             verify = {};
@@ -1094,7 +1104,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = foxtra.bind(tangon)(offset, verify);
             verify = new Array(3);
             verify[0] = offset;
-            offset = 42;
+            offset = 43;
             offset = whisks[offset];
             romeon = romeon.bind(tangon)(offset);
             offset = {};
@@ -1113,12 +1123,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = foxtra.bind(tangon)(romeon, offset);
             verify[1] = offset;
             offset = null;
-            if(!(offset == source)) { _fun00002_ip = 1567; continue _fun00001 }
- 1365:
+            if(!(offset == source)) { _fun00002_ip = 1602; continue _fun00001 }
+ 1400:
             foxtra = _closure1_slot13;
             romeon = _closure1_slot0;
             config = _closure1_slot2;
-            offset = 44;
+            offset = 45;
             offset = config[offset];
             offset = romeon.bind(tangon)(offset);
             romeon = offset.ModalFloatingAction;
@@ -1128,8 +1138,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = sequen.container;
             sequen = sequen.backgroundColor;
             offset['floatingBackgroundColor'] = sequen;
-            if(!(ctrled !== output)) { _fun00002_ip = 1486; continue _fun00001 }
- 1425:
+            if(!(ctrled !== output)) { _fun00002_ip = 1521; continue _fun00001 }
+ 1460:
             sequen = _closure1_slot0;
             ctrled = _closure1_slot2;
             config = ctrled[papara];
@@ -1143,8 +1153,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = {};
             ctrled['count'] = output;
             ctrled = config.bind(record)(sequen, ctrled);
-            _fun00002_ip = 1538; continue _fun00001;
- 1486:
+            _fun00002_ip = 1573; continue _fun00001;
+ 1521:
             cntext = _closure1_slot0;
             sequen = _closure1_slot2;
             config = sequen[papara];
@@ -1156,22 +1166,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = sequen.t;
             sequen = sequen.TXNS7e;
             ctrled = config.bind(record)(sequen);
- 1538:
+ 1573:
             offset['text'] = ctrled;
             ctrled = undefined;
-            if(kiloes) { _fun00002_ip = 1550; continue _fun00001 }
- 1547:
+            if(kiloes) { _fun00002_ip = 1585; continue _fun00001 }
+ 1582:
             ctrled = vacuum;
- 1550:
+ 1585:
             offset['onPress'] = ctrled;
             offset['loading'] = kiloes;
             offset = foxtra.bind(tangon)(romeon, offset);
-            _fun00002_ip = 1643; continue _fun00001;
- 1567:
+            _fun00002_ip = 1678; continue _fun00001;
+ 1602:
             foxtra = _closure1_slot13;
             romeon = _closure1_slot0;
             ctrled = _closure1_slot2;
-            yankee = 43;
+            yankee = 44;
             yankee = ctrled[yankee];
             yankee = romeon.bind(tangon)(yankee);
             romeon = yankee.ForwardMessageFooter;
@@ -1185,7 +1195,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee['isSending'] = kiloes;
             yankee['onSend'] = backup;
             offset = foxtra.bind(tangon)(romeon, yankee);
- 1643:
+ 1678:
             verify[2] = offset;
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);

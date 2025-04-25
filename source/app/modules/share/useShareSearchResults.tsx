@@ -202,18 +202,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = offset.bind(romeon)(michal, oscard);
             backup = golfie.queryMode;
             _closure2_slot10 = backup;
-            oscard = romeon.useRef;
-            offset = oscard.bind(romeon)();
+            offset = romeon.useRef;
+            oscard = null;
+            offset = offset.bind(romeon)(oscard);
             _closure2_slot11 = offset;
             oscard = romeon.useRef;
             oscard = oscard.bind(romeon)(yankee);
             _closure2_slot12 = oscard;
             romeon = offset.current;
             offset = yankee;
-            if(!(tangon === romeon)) { _fun00004_ip = 373; continue _fun00003 }
- 368:
+            if(!(tangon === romeon)) { _fun00004_ip = 376; continue _fun00003 }
+ 371:
             offset = oscard.current;
- 373:
+ 376:
             _closure2_slot13 = offset;
             oscard = _closure1_slot4;
             update = oscard.useEffect;

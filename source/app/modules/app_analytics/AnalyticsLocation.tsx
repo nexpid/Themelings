@@ -818,6 +818,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['USER_PROFILE_POPOUT'] = entity;
     entity = 'user profile modal';
     michal['USER_PROFILE_MODAL'] = entity;
+    entity = 'user profile modal v2';
+    michal['USER_PROFILE_MODAL_V2'] = entity;
     entity = 'user profile sidebar';
     michal['USER_PROFILE_SIDEBAR'] = entity;
     entity = 'user profile account popout';

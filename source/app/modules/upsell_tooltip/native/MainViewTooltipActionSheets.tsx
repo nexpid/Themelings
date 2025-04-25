@@ -108,35 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot11 = tangon;
-    tangon = function() { // Original name: CollectibleMarketingMomentSheet
-        zuuluu = _closure1_slot0;
-        entity = _closure1_slot2;
-        michal = 6;
-        michal = entity[michal];
-        tangon = undefined;
-        zuuluu = zuuluu.bind(tangon)(michal);
-        michal = 11;
-        michal = entity[michal];
-        entity = entity.paths;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
-    };
-    var _closure1_slot12 = tangon;
-    tangon = function() { // Original name: ReminderBottomSheet
-        zuuluu = _closure1_slot0;
-        entity = _closure1_slot2;
-        michal = 6;
-        michal = entity[michal];
-        tangon = undefined;
-        zuuluu = zuuluu.bind(tangon)(michal);
-        michal = 12;
-        michal = entity[michal];
-        entity = entity.paths;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
-    };
-    var _closure1_slot13 = tangon;
-    tangon = 25;
+    tangon = 21;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -145,210 +117,170 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function() { // Original name: MainViewTooltipActionSheets
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            michal = _closure1_slot1;
-            yankee = _closure1_slot2;
-            entity = 13;
-            entity = yankee[entity];
+            tangon = _closure1_slot1;
+            entity = _closure1_slot2;
+            michal = 11;
+            michal = entity[michal];
             report = undefined;
-            entity = michal.bind(report)(entity);
-            option = entity.bind(report)();
-            golfie = _closure1_slot0;
-            entity = 14;
-            entity = yankee[entity];
-            verify = golfie.bind(report)(entity);
-            tangon = verify.useStateFromStores;
-            entity = _closure1_slot4;
-            michal = new Array(1);
-            michal[0] = entity;
-            entity = function() {
+            michal = tangon.bind(report)(michal);
+            tangon = michal.bind(report)();
+            option = _closure1_slot0;
+            michal = 12;
+            michal = entity[michal];
+            offset = option.bind(report)(michal);
+            verify = offset.useStateFromStores;
+            michal = _closure1_slot4;
+            golfie = new Array(1);
+            golfie[0] = michal;
+            michal = function() {
                 michal = _closure1_slot4;
                 entity = michal.getCurrentUser;
                 entity = entity.bind(michal)();
                 return entity;
             };
-            michal = tangon.bind(verify)(michal, entity);
-            verify = new Array(0);
-            entity = 15;
-            entity = yankee[entity];
-            romeon = golfie.bind(report)(entity);
-            offset = romeon.useCollectibleDecoEligible;
-            entity = {};
-            tangon = 'MainViewTooltipActionSheets';
-            entity['location'] = tangon;
-            offset = offset.bind(romeon)(entity);
-            entity = 16;
-            entity = yankee[entity];
-            yankee = golfie.bind(report)(entity);
-            golfie = yankee.useCollectibleDecoReminderEligible;
-            entity = {};
-            entity['location'] = tangon;
-            golfie = golfie.bind(yankee)(entity);
-            entity = true;
-            if(!(entity === offset)) { _fun00002_ip = 234; continue _fun00001 }
- 149:
-            romeon = verify.push;
-            foxtra = _closure1_slot0;
-            offset = _closure1_slot2;
-            yankee = 17;
-            offset = offset[yankee];
-            offset = foxtra.bind(report)(offset);
-            offset = offset.DismissibleContent;
-            offset = offset.Q1_2025_MARKETING_MOMENT_PROMO_SHEET;
-            offset = romeon.bind(verify)(offset);
-            if(!(entity === golfie)) { _fun00002_ip = 234; continue _fun00001 }
- 195:
-            golfie = verify.push;
-            offset = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[yankee];
-            entity = offset.bind(report)(entity);
-            entity = entity.DismissibleContent;
-            entity = entity.Q1_2025_MARKETING_MOMENT_REMINDER_COACHMARK;
-            entity = golfie.bind(verify)(entity);
- 234:
-            offset = verify.push;
-            yankee = _closure1_slot0;
-            entity = _closure1_slot2;
-            golfie = 17;
+            michal = verify.bind(offset)(golfie, michal);
+            golfie = 13;
             entity = entity[golfie];
-            entity = yankee.bind(report)(entity);
+            entity = option.bind(report)(entity);
             entity = entity.DismissibleContent;
             entity = entity.CUSTOM_APP_ICONS_COACHMARK;
-            entity = offset.bind(verify)(entity);
+            verify = new Array(1);
+            verify[0] = entity;
             entity = null;
             michal = entity != michal;
-            if(!michal) { _fun00002_ip = 288; continue _fun00001 }
- 285:
-            michal = !option;
- 288:
-            if(!michal) { _fun00002_ip = 320; continue _fun00001 }
- 291:
-            offset = _closure1_slot0;
-            yankee = _closure1_slot2;
-            option = 18;
-            option = yankee[option];
-            offset = offset.bind(report)(option);
-            option = offset.isAndroid;
-            michal = option.bind(offset)();
- 320:
-            if(!michal) { _fun00002_ip = 362; continue _fun00001 }
- 323:
-            option = verify.push;
-            offset = _closure1_slot0;
+            if(!michal) { _fun00002_ip = 121; continue _fun00001 }
+ 118:
+            michal = !tangon;
+ 121:
+            if(!michal) { _fun00002_ip = 153; continue _fun00001 }
+ 124:
+            option = _closure1_slot0;
+            offset = _closure1_slot2;
+            tangon = 14;
+            tangon = offset[tangon];
+            option = option.bind(report)(tangon);
+            tangon = option.isAndroid;
+            michal = tangon.bind(option)();
+ 153:
+            if(!michal) { _fun00002_ip = 195; continue _fun00001 }
+ 156:
+            tangon = verify.push;
+            option = _closure1_slot0;
             michal = _closure1_slot2;
             michal = michal[golfie];
-            michal = offset.bind(report)(michal);
+            michal = option.bind(report)(michal);
             michal = michal.DismissibleContent;
             michal = michal.COLLECTIBLES_SHOP_ROBERT_MOBILE_MARKETING;
-            michal = option.bind(verify)(michal);
- 362:
-            offset = _closure1_slot1;
-            yankee = _closure1_slot2;
-            michal = 19;
-            option = yankee[michal];
-            option = offset.bind(report)(option);
-            offset = option.bind(report)();
-            option = _closure1_slot0;
-            michal = yankee[michal];
-            option = option.bind(report)(michal);
-            michal = option.useGiftingPromotionFirstTimeCoachmark;
-            michal = michal.bind(option)();
-            michal = entity != michal;
-            yankee = entity == offset;
-            option = undefined;
-            if(yankee) { _fun00002_ip = 428; continue _fun00001 }
- 422:
-            option = offset.reminderNotice;
- 428:
-            option = entity != option;
-            backup = null;
-            if(!michal) { _fun00002_ip = 466; continue _fun00001 }
- 437:
-            yankee = _closure1_slot0;
+            michal = tangon.bind(verify)(michal);
+ 195:
+            option = _closure1_slot1;
             offset = _closure1_slot2;
-            offset = offset[golfie];
-            offset = yankee.bind(report)(offset);
-            offset = offset.DismissibleContent;
-            backup = offset.GIFTING_PROMOTION_MOBILE_FIRST_TIME_HALFSHEET;
- 466:
-            if(!michal) { _fun00002_ip = 472; continue _fun00001 }
- 469:
-            michal = option;
- 472:
-            if(!michal) { _fun00002_ip = 533; continue _fun00001 }
- 475:
-            romeon = _closure1_slot0;
-            option = _closure1_slot2;
-            offset = 20;
-            offset = option[offset];
-            yankee = romeon.bind(report)(offset);
-            offset = yankee.isVersionedDismissibleContentDismissed;
-            option = option[golfie];
-            option = romeon.bind(report)(option);
-            option = option.DismissibleContent;
-            option = option.GIFTING_PROMOTION_MOBILE_FIRST_TIME_HALFSHEET;
-            option = offset.bind(yankee)(option);
-            michal = option.isDismissed;
- 533:
-            if(!michal) { _fun00002_ip = 594; continue _fun00001 }
- 536:
+            michal = 15;
+            tangon = offset[michal];
+            tangon = option.bind(report)(tangon);
+            option = tangon.bind(report)();
+            tangon = _closure1_slot0;
+            michal = offset[michal];
+            tangon = tangon.bind(report)(michal);
+            michal = tangon.useGiftingPromotionFirstTimeCoachmark;
+            michal = michal.bind(tangon)();
+            michal = entity != michal;
+            offset = entity == option;
+            tangon = undefined;
+            if(offset) { _fun00002_ip = 261; continue _fun00001 }
+ 255:
+            tangon = option.reminderNotice;
+ 261:
+            tangon = entity != tangon;
+            backup = null;
+            if(!michal) { _fun00002_ip = 299; continue _fun00001 }
+ 270:
             offset = _closure1_slot0;
-            yankee = _closure1_slot2;
-            option = 21;
-            option = yankee[option];
+            option = _closure1_slot2;
+            option = option[golfie];
             option = offset.bind(report)(option);
-            yankee = option.SeasonalGiftingReminderExperiment;
+            option = option.DismissibleContent;
+            backup = option.GIFTING_PROMOTION_MOBILE_FIRST_TIME_HALFSHEET;
+ 299:
+            if(!michal) { _fun00002_ip = 305; continue _fun00001 }
+ 302:
+            michal = tangon;
+ 305:
+            if(!michal) { _fun00002_ip = 366; continue _fun00001 }
+ 308:
+            yankee = _closure1_slot0;
+            tangon = _closure1_slot2;
+            option = 16;
+            option = tangon[option];
+            offset = yankee.bind(report)(option);
+            option = offset.isVersionedDismissibleContentDismissed;
+            tangon = tangon[golfie];
+            tangon = yankee.bind(report)(tangon);
+            tangon = tangon.DismissibleContent;
+            tangon = tangon.GIFTING_PROMOTION_MOBILE_FIRST_TIME_HALFSHEET;
+            tangon = option.bind(offset)(tangon);
+            michal = tangon.isDismissed;
+ 366:
+            if(!michal) { _fun00002_ip = 431; continue _fun00001 }
+ 369:
+            option = _closure1_slot0;
+            offset = _closure1_slot2;
+            tangon = 17;
+            tangon = offset[tangon];
+            tangon = option.bind(report)(tangon);
+            yankee = tangon.SeasonalGiftingReminderExperiment;
             offset = yankee.getCurrentConfig;
             option = {};
+            tangon = 'MainViewTooltipActionSheets';
             option['location'] = tangon;
             tangon = {};
             romeon = false;
             tangon['autoTrackExposure'] = romeon;
             tangon = offset.bind(yankee)(option, tangon);
             michal = tangon.enabled;
- 594:
-            if(!michal) { _fun00002_ip = 626; continue _fun00001 }
- 597:
+ 431:
+            if(!michal) { _fun00002_ip = 463; continue _fun00001 }
+ 434:
             tangon = _closure1_slot0;
             michal = _closure1_slot2;
             michal = michal[golfie];
             michal = tangon.bind(report)(michal);
             michal = michal.DismissibleContent;
             backup = michal.GIFTING_PROMOTION_REMINDER;
- 626:
+ 463:
             golfie = _closure1_slot0;
             tangon = _closure1_slot2;
-            michal = 22;
+            michal = 18;
             tangon = tangon[michal];
             yankee = golfie.bind(report)(tangon);
             offset = yankee.useSelectedVersionedDismissibleContent;
             tangon = entity != backup;
             option = null;
-            if(!tangon) { _fun00002_ip = 664; continue _fun00001 }
- 661:
+            if(!tangon) { _fun00002_ip = 501; continue _fun00001 }
+ 498:
             option = backup;
- 664:
+ 501:
             romeon = entity != backup;
             golfie = 0;
             tangon = 0;
-            if(!romeon) { _fun00002_ip = 706; continue _fun00001 }
- 675:
+            if(!romeon) { _fun00002_ip = 543; continue _fun00001 }
+ 512:
             foxtra = _closure1_slot0;
             kiloes = _closure1_slot2;
-            romeon = 23;
+            romeon = 19;
             romeon = kiloes[romeon];
             foxtra = foxtra.bind(report)(romeon);
             romeon = foxtra.getVersionedDismissibleContentCurrentVersion;
             tangon = romeon.bind(foxtra)(backup);
- 706:
+ 543:
             offset = offset.bind(yankee)(option, tangon);
             option = _closure1_slot3;
             tangon = 1;
             tangon = option.bind(report)(offset, tangon);
             golfie = tangon[golfie];
             var _closure2_slot0 = golfie;
-            if(!(entity == golfie)) { _fun00002_ip = 799; continue _fun00001 }
- 737:
+            if(!(entity == golfie)) { _fun00002_ip = 636; continue _fun00001 }
+ 574:
             option = _closure1_slot6;
             tangon = _closure1_slot1;
             entity = _closure1_slot2;
@@ -367,60 +299,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = entity.markAsDismissed;
                     zuuluu = _closure1_slot0;
                     entity = _closure1_slot2;
-                    golfie = 17;
+                    golfie = 13;
                     entity = entity[golfie];
                     tangon = undefined;
                     entity = zuuluu.bind(tangon)(entity);
                     entity = entity.DismissibleContent;
-                    entity = entity.Q1_2025_MARKETING_MOMENT_PROMO_SHEET;
-                    if(!(entity !== michal)) { _fun00004_ip = 550; continue _fun00003 }
+                    entity = entity.TABS_V2_ANNOUNCEMENT_SHEET;
+                    if(!(entity !== michal)) { _fun00004_ip = 352; continue _fun00003 }
  59:
                     zuuluu = _closure1_slot0;
                     entity = _closure1_slot2;
                     entity = entity[golfie];
                     entity = zuuluu.bind(tangon)(entity);
                     entity = entity.DismissibleContent;
-                    entity = entity.Q1_2025_MARKETING_MOMENT_REMINDER_COACHMARK;
-                    if(!(entity !== michal)) { _fun00004_ip = 487; continue _fun00003 }
+                    entity = entity.CHURRO_LINK_UPSELL;
+                    if(!(entity !== michal)) { _fun00004_ip = 289; continue _fun00003 }
  95:
                     zuuluu = _closure1_slot0;
                     entity = _closure1_slot2;
                     entity = entity[golfie];
                     entity = zuuluu.bind(tangon)(entity);
                     entity = entity.DismissibleContent;
-                    entity = entity.TABS_V2_ANNOUNCEMENT_SHEET;
-                    if(!(entity !== michal)) { _fun00004_ip = 424; continue _fun00003 }
- 131:
-                    zuuluu = _closure1_slot0;
-                    entity = _closure1_slot2;
-                    entity = entity[golfie];
-                    entity = zuuluu.bind(tangon)(entity);
-                    entity = entity.DismissibleContent;
-                    entity = entity.CHURRO_LINK_UPSELL;
-                    if(!(entity !== michal)) { _fun00004_ip = 361; continue _fun00003 }
- 167:
-                    zuuluu = _closure1_slot0;
-                    entity = _closure1_slot2;
-                    entity = entity[golfie];
-                    entity = zuuluu.bind(tangon)(entity);
-                    entity = entity.DismissibleContent;
                     entity = entity.CUSTOM_APP_ICONS_COACHMARK;
-                    if(!(entity !== michal)) { _fun00004_ip = 298; continue _fun00003 }
- 200:
+                    if(!(entity !== michal)) { _fun00004_ip = 226; continue _fun00003 }
+ 128:
                     zuuluu = _closure1_slot0;
                     entity = _closure1_slot2;
                     entity = entity[golfie];
                     entity = zuuluu.bind(tangon)(entity);
                     entity = entity.DismissibleContent;
                     entity = entity.COLLECTIBLES_SHOP_ROBERT_MOBILE_MARKETING;
-                    if(!(entity !== michal)) { _fun00004_ip = 235; continue _fun00003 }
- 233:
+                    if(!(entity !== michal)) { _fun00004_ip = 163; continue _fun00003 }
+ 161:
                     return tangon;
- 235:
+ 163:
                     zuuluu = _closure1_slot6;
                     michal = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    entity = 24;
+                    entity = 20;
                     entity = golfie[entity];
                     entity = michal.bind(tangon)(entity);
                     michal = entity.DismissibleActionSheet;
@@ -432,11 +348,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['markAsDismissed'] = oscard;
                     entity = zuuluu.bind(tangon)(michal, entity);
                     return entity;
- 298:
+ 226:
                     zuuluu = _closure1_slot6;
                     michal = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    entity = 24;
+                    entity = 20;
                     entity = golfie[entity];
                     entity = michal.bind(tangon)(entity);
                     michal = entity.DismissibleActionSheet;
@@ -448,11 +364,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['actionSheetKey'] = golfie;
                     entity = zuuluu.bind(tangon)(michal, entity);
                     return entity;
- 361:
+ 289:
                     zuuluu = _closure1_slot6;
                     michal = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    entity = 24;
+                    entity = 20;
                     entity = golfie[entity];
                     entity = michal.bind(tangon)(entity);
                     michal = entity.DismissibleActionSheet;
@@ -464,49 +380,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['actionSheetKey'] = golfie;
                     entity = zuuluu.bind(tangon)(michal, entity);
                     return entity;
- 424:
+ 352:
                     zuuluu = _closure1_slot6;
                     michal = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    entity = 24;
+                    entity = 20;
                     entity = golfie[entity];
                     entity = michal.bind(tangon)(entity);
                     michal = entity.DismissibleActionSheet;
                     entity = {};
                     entity['markAsDismissed'] = oscard;
-                    golfie = _closure1_slot7;
-                    entity['importer'] = golfie;
-                    golfie = 'MainViewTooltipActionSheets';
-                    entity['actionSheetKey'] = golfie;
-                    entity = zuuluu.bind(tangon)(michal, entity);
-                    return entity;
- 487:
-                    zuuluu = _closure1_slot6;
-                    michal = _closure1_slot0;
-                    golfie = _closure1_slot2;
-                    entity = 24;
-                    entity = golfie[entity];
-                    entity = michal.bind(tangon)(entity);
-                    michal = entity.DismissibleActionSheet;
-                    entity = {};
-                    entity['markAsDismissed'] = oscard;
-                    golfie = _closure1_slot13;
-                    entity['importer'] = golfie;
-                    golfie = 'MainViewTooltipActionSheets';
-                    entity['actionSheetKey'] = golfie;
-                    entity = zuuluu.bind(tangon)(michal, entity);
-                    return entity;
- 550:
-                    zuuluu = _closure1_slot6;
-                    michal = _closure1_slot0;
-                    golfie = _closure1_slot2;
-                    entity = 24;
-                    entity = golfie[entity];
-                    entity = michal.bind(tangon)(entity);
-                    michal = entity.DismissibleActionSheet;
-                    entity = {};
-                    entity['markAsDismissed'] = oscard;
-                    report = _closure1_slot12;
+                    report = _closure1_slot7;
                     entity['importer'] = report;
                     report = 'MainViewTooltipActionSheets';
                     entity['actionSheetKey'] = report;
@@ -516,8 +400,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             entity['children'] = verify;
             entity = option.bind(report)(tangon, entity);
-            _fun00002_ip = 878; continue _fun00001;
- 799:
+            _fun00002_ip = 715; continue _fun00001;
+ 636:
             tangon = _closure1_slot6;
             verify = _closure1_slot0;
             offset = _closure1_slot2;
@@ -525,7 +409,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = verify.bind(report)(michal);
             zuuluu = michal.SelectedVersionedDismissibleContent;
             michal = {};
-            option = 23;
+            option = 19;
             option = offset[option];
             verify = verify.bind(report)(option);
             option = verify.getVersionedDismissibleContentCurrentVersion;
@@ -538,7 +422,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = _closure1_slot6;
                 michal = _closure1_slot0;
                 zuuluu = _closure1_slot2;
-                entity = 24;
+                entity = 20;
                 entity = zuuluu[entity];
                 zuuluu = undefined;
                 entity = michal.bind(zuuluu)(entity);
@@ -556,7 +440,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 878:
+ 715:
             return entity;
         }
     };

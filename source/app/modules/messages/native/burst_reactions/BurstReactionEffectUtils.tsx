@@ -264,7 +264,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=6);
-                    if(golfie) { _fun00004_ip = 352; continue _fun00003 }
+                    if(golfie) { _fun00004_ip = 353; continue _fun00003 }
  13:
                     report = michal.animationSource;
                     zuuluu = michal.localImageSource;
@@ -276,7 +276,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return verify;
  35:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(golfie) { _fun00004_ip = 349; continue _fun00003 }
+                    if(golfie) { _fun00004_ip = 350; continue _fun00003 }
  44: // try_start_0
                     offset = _closure1_slot6;
                     option = offset.resolveAssetSource;
@@ -294,13 +294,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = zuuluu.ImageManager;
                     zuuluu = option.getAvatarBase64;
                     zuuluu = zuuluu.bind(option)(offset);
-                    SaveGenerator(address=126);
- 124:
+                    SaveGenerator(address=127);
+ 125:
                     return zuuluu;
- 126:
+ 127:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                    if(option) { _fun00004_ip = 339; continue _fun00003 }
- 135:
+                    if(option) { _fun00004_ip = 340; continue _fun00003 }
+ 136:
                     romeon = report;
                     report = romeon.assets;
                     option = 0;
@@ -318,13 +318,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = offset.ImageManager;
                     offset = yankee.getDominantColors;
                     tangon = offset.bind(yankee)(tangon);
-                    SaveGenerator(address=222);
- 220:
+                    SaveGenerator(address=223);
+ 221:
                     return tangon;
- 222:
+ 223:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=9);
-                    if(offset) { _fun00004_ip = 336; continue _fun00003 }
- 228:
+                    if(offset) { _fun00004_ip = 337; continue _fun00003 }
+ 229:
                     romeon = _closure1_slot3;
                     yankee = tangon[option];
                     offset = 3;
@@ -350,19 +350,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = report.JSON;
                     report = oscard.parse;
                     report = report.bind(oscard)(golfie);
- 333: // try_end0
+ 334: // try_end0
                     return report;
- 336:
+ 337:
                     return tangon;
- 339:
+ 340:
                     return zuuluu;
- 342: // catch_target0
+ 343: // catch_target0
                     CatchBlockStart(arg_register=2);
                     zuuluu = null;
                     return zuuluu;
- 349:
+ 350:
                     return michal;
- 352:
+ 353:
                     return entity;
                 }
             };

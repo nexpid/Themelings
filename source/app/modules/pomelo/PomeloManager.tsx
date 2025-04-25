@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.PomeloEntrypoints;
     var _closure1_slot8 = tangon;
-    tangon = 12;
+    tangon = 11;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
@@ -205,31 +205,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  259:
                         zuuluu = !tangon;
  262:
-                        if(!zuuluu) { _fun00006_ip = 428; continue _fun00005 }
- 268:
+                        if(!zuuluu) { _fun00006_ip = 373; continue _fun00005 }
+ 265:
                         tangon = _closure1_slot0;
                         report = _closure1_slot1;
                         zuuluu = 10;
                         zuuluu = report[zuuluu];
-                        zuuluu = tangon.bind(entity)(zuuluu);
-                        verify = zuuluu.UUOneClickExperiment;
-                        option = verify.getCurrentConfig;
-                        oscard = {};
-                        zuuluu = 'uu_one_click';
-                        oscard['location'] = zuuluu;
-                        zuuluu = {};
-                        zuuluu['autoTrackExposure'] = golfie;
-                        zuuluu = option.bind(verify)(oscard, zuuluu);
-                        oscard = zuuluu.enabled;
-                        zuuluu = 11;
-                        zuuluu = report[zuuluu];
-                        report = tangon.bind(entity)(zuuluu);
-                        tangon = report.openPomeloModal;
+                        oscard = tangon.bind(entity)(zuuluu);
+                        report = oscard.openPomeloModal;
                         zuuluu = _closure1_slot8;
-                        zuuluu = zuuluu.APP_START;
-                        zuuluu = tangon.bind(report)(zuuluu, oscard, golfie);
-                        if(!zuuluu) { _fun00006_ip = 428; continue _fun00005 }
- 368:
+                        tangon = zuuluu.APP_START;
+                        zuuluu = true;
+                        zuuluu = report.bind(oscard)(tangon, zuuluu, golfie);
+                        if(!zuuluu) { _fun00006_ip = 373; continue _fun00005 }
+ 313:
                         zuuluu = _closure1_slot0;
                         tangon = _closure1_slot1;
                         michal = 7;
@@ -243,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         zuuluu = michal.bind(zuuluu)();
                         michal = 'lastSawPomelo';
                         michal = tangon.bind(report)(michal, zuuluu);
- 428:
+ 373:
                         return entity;
                     }
                 };
@@ -266,7 +255,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = tangon;
     michal = new foxtra[michal](romeon);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 13;
+    tangon = 12;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

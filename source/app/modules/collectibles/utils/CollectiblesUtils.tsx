@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  14:
             entity['tab'] = zuuluu;
  20:
-            if(!(tangon != michal)) { _fun00004_ip = 267; continue _fun00003 }
+            if(!(tangon != michal)) { _fun00004_ip = 291; continue _fun00003 }
  27:
             report = michal.noCache;
             zuuluu = true;
@@ -151,9 +151,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = michal.shopHomeConfig;
             if(!(tangon != zuuluu)) { _fun00004_ip = 267; continue _fun00003 }
  253:
-            michal = michal.shopHomeConfig;
-            entity['shop_home_config'] = michal;
+            zuuluu = michal.shopHomeConfig;
+            entity['shop_home_config'] = zuuluu;
  267:
+            zuuluu = michal.skipNumCategories;
+            if(!(tangon != zuuluu)) { _fun00004_ip = 291; continue _fun00003 }
+ 277:
+            michal = michal.skipNumCategories;
+            entity['skip_num_categories'] = michal;
+ 291:
             return entity;
         }
     };

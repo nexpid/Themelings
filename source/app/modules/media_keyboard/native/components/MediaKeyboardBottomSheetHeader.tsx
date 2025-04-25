@@ -656,10 +656,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = new Array(2);
             entity[0] = config;
             config = {};
-            if(!papara) { _fun00002_ip = 1415; continue _fun00001 }
- 1405:
+            if(!papara) { _fun00002_ip = 1411; continue _fun00001 }
+ 1401:
             record = 0.2;
- 1415:
+ 1411:
             config['opacity'] = record;
             entity[1] = config;
             source['style'] = entity;
@@ -702,15 +702,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = 'box-none';
             entity['pointerEvents'] = option;
             oscard = null;
-            if(!(report !== golfie)) { _fun00002_ip = 1646; continue _fun00001 }
- 1620:
+            if(!(report !== golfie)) { _fun00002_ip = 1642; continue _fun00001 }
+ 1616:
             option = _closure1_slot13;
             golfie = _closure1_slot5;
             report = {};
             output = foxtra.headerScrim;
             report['style'] = output;
             oscard = option.bind(tangon)(golfie, report);
- 1646:
+ 1642:
             report = new Array(2);
             report[0] = oscard;
             option = _closure1_slot14;

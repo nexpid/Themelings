@@ -105,58 +105,40 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         tangon = function(argFoo) { // Original name: SearchFetchManager
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                report = this;
-                foxtra = 0;
-                entity = copyRestArgs(foxtra);
-                option = _closure1_slot4;
+                tangon = this;
+                romeon = 0;
+                entity = copyRestArgs(romeon);
+                golfie = _closure1_slot4;
                 michal = _closure2_slot0;
-                tangon = undefined;
-                option = option.bind(tangon)(report, michal);
-                offset = new Array(0);
-                foxtra = offset;
-                romeon = entity;
-                yankee = 0;
-                entity = arraySpread(foxtra, romeon, yankee);
+                zuuluu = undefined;
+                golfie = golfie.bind(zuuluu)(tangon, michal);
+                verify = new Array(0);
+                romeon = verify;
+                yankee = entity;
+                offset = 0;
+                entity = arraySpread(romeon, yankee, offset);
                 entity = _closure1_slot7;
-                verify = entity.bind(tangon)(michal);
+                option = entity.bind(zuuluu)(michal);
                 michal = _closure1_slot6;
                 entity = _closure1_slot14;
-                entity = entity.bind(tangon)();
-                if(entity) { _fun00004_ip = 86; continue _fun00003 }
- 73:
-                entity = verify.apply;
-                entity = entity.bind(verify)(report, offset);
-                _fun00004_ip = 120; continue _fun00003;
- 86:
-                golfie = global;
-                option = golfie.Reflect;
-                golfie = option.construct;
-                oscard = _closure1_slot7;
-                oscard = oscard.bind(tangon)(report);
-                oscard = oscard.constructor;
-                entity = golfie.bind(option)(verify, offset, oscard);
- 120:
-                entity = michal.bind(tangon)(report, entity);
-                var _closure3_slot0 = entity;
+                entity = entity.bind(zuuluu)();
+                if(entity) { _fun00004_ip = 84; continue _fun00003 }
+ 71:
+                entity = option.apply;
+                entity = entity.bind(option)(tangon, verify);
+                _fun00004_ip = 118; continue _fun00003;
+ 84:
+                oscard = global;
+                golfie = oscard.Reflect;
+                oscard = golfie.construct;
+                report = _closure1_slot7;
+                report = report.bind(zuuluu)(tangon);
+                report = report.constructor;
+                entity = oscard.bind(golfie)(option, verify, report);
+ 118:
+                entity = michal.bind(zuuluu)(tangon, entity);
                 michal = {};
                 entity['searchTabFetchers'] = michal;
-                michal = global;
-                michal = michal.Set;
-                tangon = michal.prototype;
-                tangon = Object.create(tangon, {constructor: {value: michal}});
-                backup = tangon;
-                michal = new backup[michal](foxtra);
-                michal = michal instanceof Object ? michal : tangon;
-                entity['deferredFetches'] = michal;
-                michal = {};
-                zuuluu = function() { // Original name: SEARCH_MESSAGES_CLEAR_ALL
-                    michal = _closure3_slot0;
-                    entity = michal.clearDeferredFetches;
-                    entity = entity.bind(michal)();
-                    return entity;
-                };
-                michal['SEARCH_MESSAGES_CLEAR_ALL'] = zuuluu;
-                entity['actions'] = michal;
                 return entity;
             }
         };
@@ -255,7 +237,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(9);
+        entity = new Array(5);
         entity[0] = report;
         report = {};
         golfie = 'createSearchTabFetcher';
@@ -368,12 +350,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         golfie = function() { // Original name: value
             michal = this;
             entity = global;
-            report = entity.Object;
-            tangon = report.values;
-            zuuluu = michal.searchTabFetchers;
-            report = tangon.bind(report)(zuuluu);
-            tangon = report.forEach;
-            zuuluu = function(argFoo) {
+            tangon = entity.Object;
+            zuuluu = tangon.values;
+            entity = michal.searchTabFetchers;
+            tangon = zuuluu.bind(tangon)(entity);
+            zuuluu = tangon.forEach;
+            entity = function(argFoo) {
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     zuuluu = argFoo;
@@ -388,16 +370,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     return entity;
                 }
             };
-            zuuluu = tangon.bind(report)(zuuluu);
-            zuuluu = {};
-            michal['searchTabFetchers'] = zuuluu;
-            entity = entity.Set;
-            zuuluu = entity.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: entity}});
-            golfie = zuuluu;
-            entity = new golfie[entity](oscard);
-            entity = entity instanceof Object ? entity : zuuluu;
-            michal['deferredFetches'] = entity;
+            entity = zuuluu.bind(tangon)(entity);
+            entity = {};
+            michal['searchTabFetchers'] = entity;
             entity = undefined;
             return entity;
         };
@@ -435,7 +410,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         report = {};
         golfie = 'getSearchTabFetcher';
         report['key'] = golfie;
-        golfie = function(argFoo, argBar, argBaz, argCor, argGra) { // Original name: value
+        oscard = function(argFoo, argBar, argBaz, argCor, argGra) { // Original name: value
             report = argFoo;
             michal = this;
             entity = michal.cancelInFlightRequests;
@@ -460,67 +435,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal[zuuluu] = entity;
             return entity;
         };
-        report['value'] = golfie;
-        entity[4] = report;
-        report = {};
-        golfie = 'addDeferredFetch';
-        report['key'] = golfie;
-        golfie = function(argFoo) { // Original name: value
-            entity = this;
-            zuuluu = entity.deferredFetches;
-            michal = zuuluu.add;
-            entity = argFoo;
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
-        };
-        report['value'] = golfie;
-        entity[5] = report;
-        report = {};
-        golfie = 'removeDeferredFetch';
-        report['key'] = golfie;
-        golfie = function(argFoo) { // Original name: value
-            entity = this;
-            zuuluu = entity.deferredFetches;
-            michal = zuuluu.delete;
-            entity = argFoo;
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
-        };
-        report['value'] = golfie;
-        entity[6] = report;
-        report = {};
-        golfie = 'hasDeferredFetch';
-        report['key'] = golfie;
-        golfie = function(argFoo) { // Original name: value
-            entity = this;
-            zuuluu = entity.deferredFetches;
-            michal = zuuluu.has;
-            entity = argFoo;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
-        };
-        report['value'] = golfie;
-        entity[7] = report;
-        report = {};
-        golfie = 'clearDeferredFetches';
-        report['key'] = golfie;
-        oscard = function() { // Original name: value
-            entity = global;
-            entity = entity.Set;
-            michal = entity.prototype;
-            michal = Object.create(michal, {constructor: {value: entity}});
-            zuuluu = michal;
-            entity = new zuuluu[entity](michal);
-            michal = entity instanceof Object ? entity : michal;
-            entity = this;
-            entity['deferredFetches'] = michal;
-            entity = undefined;
-            return entity;
-        };
         report['value'] = oscard;
-        entity[8] = report;
+        entity[4] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

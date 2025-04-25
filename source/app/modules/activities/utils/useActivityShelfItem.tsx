@@ -437,7 +437,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         zuuluu = {};
                         option = _closure2_slot1;
                         zuuluu['recipientIds'] = option;
-                        option = false;
+                        option = true;
                         zuuluu['navigateToChannel'] = option;
                         zuuluu = tangon.bind(report)(zuuluu);
                         SaveGenerator(address=119);

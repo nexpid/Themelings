@@ -602,7 +602,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         option = 23;
                         golfie = false;
                         oscard = null;
-                        if(zuuluu) { _fun00020_ip = 201; continue _fun00019 }
+                        if(zuuluu) { _fun00020_ip = 220; continue _fun00019 }
  48:
                         zuuluu = tangon.value;
                         romeon = zuuluu.questId;
@@ -612,7 +612,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         yankee = _closure1_slot21;
                         zuuluu = yankee.getQuest;
                         foxtra = zuuluu.bind(yankee)(romeon);
-                        if(!(oscard != foxtra)) { _fun00020_ip = 183; continue _fun00019 }
+                        if(!(oscard != foxtra)) { _fun00020_ip = 202; continue _fun00019 }
  94:
                         romeon = _closure3_slot0;
                         yankee = romeon.ensureImpression;
@@ -632,13 +632,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         foxtra = foxtra.id;
                         zuuluu['questId'] = foxtra;
                         zuuluu['adDecisionData'] = entity;
+                        foxtra = _closure1_slot21;
+                        foxtra = foxtra.questEnrollmentBlockedUntil;
+                        foxtra = oscard != foxtra;
+                        zuuluu['isQuestEnrollmentBlocked'] = foxtra;
                         zuuluu = yankee.bind(romeon)(zuuluu);
- 183:
+ 202:
                         yankee = verify.bind(entity)();
                         zuuluu = yankee.done;
                         tangon = yankee;
                         if(!zuuluu) { _fun00020_ip = 48; continue _fun00019 }
- 201:
+ 220:
                         tangon = _closure3_slot0;
                         zuuluu = tangon.stopMany;
                         michal = {};

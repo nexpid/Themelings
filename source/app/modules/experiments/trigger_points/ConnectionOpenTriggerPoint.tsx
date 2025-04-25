@@ -295,7 +295,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     option = 53;
     option = oscard[option];
     option = report.bind(entity)(option);
-    option = option.HotwheelsActivityFeedMlModelV2Experiment;
+    option = option.HotwheelsActivityFeedMlModelV3Experiment;
     verify[57] = option;
     option = 54;
     option = oscard[option];

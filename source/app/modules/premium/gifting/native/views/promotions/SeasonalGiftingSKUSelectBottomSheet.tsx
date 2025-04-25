@@ -151,10 +151,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = golfie.bind(offset)(entity, michal);
             michal = _closure1_slot5;
             entity = {};
-            if(!report) { _fun00002_ip = 396; continue _fun00001 }
- 390:
+            if(!report) { _fun00002_ip = 398; continue _fun00001 }
+ 392:
             report = oscard.selectedRow;
- 396:
+ 398:
             entity['style'] = report;
             golfie = _closure1_slot6;
             oscard = _closure1_slot0;

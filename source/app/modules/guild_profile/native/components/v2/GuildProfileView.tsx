@@ -284,7 +284,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                 michal = _closure2_slot0;
                 entity = null;
-                if(!(entity != michal)) { _fun00008_ip = 107; continue _fun00007 }
+                if(!(entity != michal)) { _fun00008_ip = 108; continue _fun00007 }
  13:
                 tangon = _closure1_slot1;
                 zuuluu = _closure1_slot2;
@@ -307,12 +307,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = 'number';
                 tangon = typeof zuuluu;
                 michal = null;
-                if(!(report !== tangon)) { _fun00008_ip = 105; continue _fun00007 }
+                if(!(report !== tangon)) { _fun00008_ip = 106; continue _fun00007 }
  100:
                 michal = zuuluu.uri;
- 105:
+ 106:
                 return michal;
- 107:
+ 108:
                 return entity;
             }
         };

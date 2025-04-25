@@ -297,29 +297,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function() { // Original name: usePremiumDiscountOffer
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
+            zuuluu = _closure1_slot5;
+            michal = zuuluu.canFractionalPremiumUserUseOffer;
+            golfie = michal.bind(zuuluu)();
             oscard = _closure1_slot12;
             michal = _closure1_slot8;
             zuuluu = undefined;
-            report = oscard.bind(zuuluu)(michal);
+            report = oscard.bind(zuuluu)(michal, golfie);
             michal = _closure1_slot9;
-            tangon = oscard.bind(zuuluu)(michal);
+            tangon = oscard.bind(zuuluu)(michal, golfie);
             michal = _closure1_slot6;
-            michal = oscard.bind(zuuluu)(michal);
+            michal = oscard.bind(zuuluu)(michal, golfie);
             entity = _closure1_slot7;
-            entity = oscard.bind(zuuluu)(entity);
+            entity = oscard.bind(zuuluu)(entity, golfie);
             zuuluu = null;
-            if(!(zuuluu != report)) { _fun00014_ip = 54; continue _fun00013 }
- 51:
+            if(!(zuuluu != report)) { _fun00014_ip = 72; continue _fun00013 }
+ 69:
             tangon = report;
- 54:
-            if(!(zuuluu != tangon)) { _fun00014_ip = 61; continue _fun00013 }
- 58:
+ 72:
+            if(!(zuuluu != tangon)) { _fun00014_ip = 79; continue _fun00013 }
+ 76:
             michal = tangon;
- 61:
-            if(!(zuuluu != michal)) { _fun00014_ip = 68; continue _fun00013 }
- 65:
+ 79:
+            if(!(zuuluu != michal)) { _fun00014_ip = 86; continue _fun00013 }
+ 83:
             entity = michal;
- 68:
+ 86:
             return entity;
         }
     };

@@ -1392,8 +1392,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['ClipsManager'] = entity;
     entity = {};
-    option = ['SEARCH_MESSAGES_CLEAR_ALL'];
-    entity['actions'] = option;
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;

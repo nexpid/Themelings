@@ -310,7 +310,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = golfie[michal];
                     report = undefined;
                     zuuluu = oscard.bind(report)(michal);
-                    michal = zuuluu.closeStream;
+                    michal = zuuluu.stopStream;
                     tangon = 15;
                     tangon = golfie[tangon];
                     report = oscard.bind(report)(tangon);
@@ -406,7 +406,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = oscard[entity];
                 entity = undefined;
                 tangon = report.bind(entity)(michal);
-                zuuluu = tangon.closeStream;
+                zuuluu = tangon.stopStream;
                 michal = 15;
                 michal = oscard[michal];
                 oscard = report.bind(entity)(michal);

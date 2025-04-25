@@ -311,7 +311,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             verify = golfie.bind(verify)(zuuluu, report);
             zuuluu = offset.icon_name;
-            if(!(option == zuuluu)) { _fun00004_ip = 1719; continue _fun00003 }
+            if(!(option == zuuluu)) { _fun00004_ip = 1720; continue _fun00003 }
  248:
             zuuluu = offset.icon_url;
             if(!(option == zuuluu)) { _fun00004_ip = 1629; continue _fun00003 }
@@ -319,7 +319,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option != verify;
             report = verify;
             golfie = null;
-            if(zuuluu) { _fun00004_ip = 1821; continue _fun00003 }
+            if(zuuluu) { _fun00004_ip = 1822; continue _fun00003 }
  276:
             yankee = offset.type;
             zuuluu = 'lifecycle_item';
@@ -509,7 +509,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  1004:
             golfie = zuuluu;
             report = yankee;
-            _fun00004_ip = 1821; continue _fun00003;
+            _fun00004_ip = 1822; continue _fun00003;
  1015:
             yankee = offset.item_enum;
             romeon = _closure1_slot0;
@@ -672,12 +672,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  1618:
             golfie = zuuluu;
             report = yankee;
-            _fun00004_ip = 1821; continue _fun00003;
+            _fun00004_ip = 1822; continue _fun00003;
  1629:
             zuuluu = option != verify;
             report = verify;
             golfie = null;
-            if(zuuluu) { _fun00004_ip = 1821; continue _fun00003 }
+            if(zuuluu) { _fun00004_ip = 1822; continue _fun00003 }
  1644:
             verify = _closure1_slot7;
             option = _closure1_slot1;
@@ -696,8 +696,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['resizeMode'] = yankee;
             report = verify.bind(tangon)(option, zuuluu);
             golfie = michal.brandBackground;
-            _fun00004_ip = 1821; continue _fun00003;
- 1719:
+            _fun00004_ip = 1822; continue _fun00003;
+ 1720:
             verify = _closure1_slot7;
             yankee = _closure1_slot1;
             option = _closure1_slot2;
@@ -707,17 +707,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = {};
             romeon = offset.icon_name;
             offset = 'icHighlight';
-            if(!(offset !== romeon)) { _fun00004_ip = 1774; continue _fun00003 }
- 1761:
+            if(!(offset !== romeon)) { _fun00004_ip = 1775; continue _fun00003 }
+ 1762:
             romeon = _closure1_slot2;
             offset = 13;
             offset = romeon[offset];
-            _fun00004_ip = 1785; continue _fun00003;
- 1774:
+            _fun00004_ip = 1786; continue _fun00003;
+ 1775:
             foxtra = _closure1_slot2;
             romeon = 12;
             offset = foxtra[romeon];
- 1785:
+ 1786:
             offset = yankee.bind(tangon)(offset);
             zuuluu['source'] = offset;
             offset = michal.fallbackImage;
@@ -725,7 +725,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['color'] = offset;
             report = verify.bind(tangon)(option, zuuluu);
             golfie = michal.brandBackground;
- 1821:
+ 1822:
             zuuluu = _closure1_slot7;
             michal = _closure1_slot4;
             entity = {};
