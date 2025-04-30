@@ -394,6 +394,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['STREAM_CONTEXT_MENU'] = entity;
     entity = 'group dm context menu';
     michal['GROUP_DM_CONTEXT_MENU'] = entity;
+    entity = 'group dm context menu change icon';
+    michal['GROUP_DM_CONTEXT_MENU_CHANGE_ICON'] = entity;
+    entity = 'group dm context menu remove icon';
+    michal['GROUP_DM_CONTEXT_MENU_REMOVE_ICON'] = entity;
     entity = 'group dm edit modal';
     michal['GROUP_DM_EDIT_MODAL'] = entity;
     entity = 'new group dm invite modal';
@@ -736,12 +740,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['BILLING_PAUSED_SUBSCRIPTION_INVOICE_RENEWAL_PREVIEW'] = entity;
     entity = 'edit channel syncing';
     michal['EDIT_CHANNEL_SYNCING'] = entity;
-    entity = 'clan guild profile';
-    michal['CLAN_GUILD_PROFILE'] = entity;
-    entity = 'clan discovery';
-    michal['CLAN_DISCOVERY'] = entity;
-    entity = 'clan reapply';
-    michal['CLAN_REAPPLY'] = entity;
     entity = 'global discovery';
     michal['GLOBAL_DISCOVERY'] = entity;
     entity = 'collectibles lightning checkout';

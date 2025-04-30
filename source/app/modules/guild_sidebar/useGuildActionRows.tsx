@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.GuildFeatures;
     var _closure1_slot5 = tangon;
-    tangon = 16;
+    tangon = 17;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -39,50 +39,50 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) { // Original name: useGuildActionRows
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            verify = argFoo;
-            var _closure2_slot0 = verify;
-            echoed = _closure1_slot1;
-            source = _closure1_slot2;
+            offset = argFoo;
+            var _closure2_slot0 = offset;
+            report = _closure1_slot1;
+            ctrled = _closure1_slot2;
             zuuluu = 3;
-            zuuluu = source[zuuluu];
-            update = undefined;
-            tangon = echoed.bind(update)(zuuluu);
-            zuuluu = verify.id;
-            backup = tangon.bind(update)(zuuluu);
-            tangon = _closure1_slot0;
+            zuuluu = ctrled[zuuluu];
+            source = undefined;
+            tangon = report.bind(source)(zuuluu);
+            zuuluu = offset.id;
+            kiloes = tangon.bind(source)(zuuluu);
+            update = _closure1_slot0;
             zuuluu = 4;
-            zuuluu = source[zuuluu];
-            oscard = tangon.bind(update)(zuuluu);
-            report = oscard.useCanReviewGuildMemberApplications;
-            zuuluu = verify.id;
-            oscard = report.bind(oscard)(zuuluu);
+            zuuluu = ctrled[zuuluu];
+            oscard = update.bind(source)(zuuluu);
+            tangon = oscard.useCanReviewGuildMemberApplications;
+            zuuluu = offset.id;
+            golfie = tangon.bind(oscard)(zuuluu);
             zuuluu = 5;
-            zuuluu = source[zuuluu];
-            golfie = tangon.bind(update)(zuuluu);
-            report = golfie.useShowRoleSubscriptionsInChannelList;
-            zuuluu = verify.id;
-            yankee = report.bind(golfie)(zuuluu);
+            zuuluu = ctrled[zuuluu];
+            oscard = update.bind(source)(zuuluu);
+            tangon = oscard.useShowRoleSubscriptionsInChannelList;
+            zuuluu = offset.id;
+            romeon = tangon.bind(oscard)(zuuluu);
             zuuluu = 6;
-            zuuluu = source[zuuluu];
-            report = tangon.bind(update)(zuuluu);
-            zuuluu = report.useGuildShopVisibleInGuild;
-            offset = zuuluu.bind(report)(verify);
+            zuuluu = ctrled[zuuluu];
+            tangon = update.bind(source)(zuuluu);
+            zuuluu = tangon.useGuildShopVisibleInGuild;
+            yankee = zuuluu.bind(tangon)(offset);
             zuuluu = 7;
-            zuuluu = source[zuuluu];
-            golfie = tangon.bind(update)(zuuluu);
-            report = golfie.useCanSeeOnboardingHome;
-            zuuluu = verify.id;
-            sizing = report.bind(golfie)(zuuluu);
+            zuuluu = ctrled[zuuluu];
+            oscard = update.bind(source)(zuuluu);
+            tangon = oscard.useCanSeeOnboardingHome;
+            zuuluu = offset.id;
+            output = tangon.bind(oscard)(zuuluu);
             zuuluu = 8;
-            zuuluu = source[zuuluu];
-            option = tangon.bind(update)(zuuluu);
-            golfie = option.useStateFromStores;
+            zuuluu = ctrled[zuuluu];
+            option = update.bind(source)(zuuluu);
+            oscard = option.useStateFromStores;
             zuuluu = _closure1_slot3;
-            report = new Array(1);
-            report[0] = zuuluu;
-            romeon = verify.id;
+            tangon = new Array(1);
+            tangon[0] = zuuluu;
+            verify = offset.id;
             zuuluu = new Array(1);
-            zuuluu[0] = romeon;
+            zuuluu[0] = verify;
             entity = function() {
                 zuuluu = _closure1_slot3;
                 michal = zuuluu.getNewMemberActions;
@@ -91,173 +91,186 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            kiloes = golfie.bind(option)(report, entity, zuuluu);
+            sizing = oscard.bind(option)(tangon, entity, zuuluu);
             entity = 9;
-            entity = source[entity];
-            zuuluu = echoed.bind(update)(entity);
-            entity = verify.id;
-            output = zuuluu.bind(update)(entity);
+            entity = ctrled[entity];
+            zuuluu = report.bind(source)(entity);
+            entity = offset.id;
+            result = zuuluu.bind(source)(entity);
             entity = 10;
-            entity = source[entity];
-            report = tangon.bind(update)(entity);
-            zuuluu = report.useAllActionsCompleted;
-            entity = verify.id;
-            result = zuuluu.bind(report)(entity);
+            entity = ctrled[entity];
+            tangon = update.bind(source)(entity);
+            zuuluu = tangon.useAllActionsCompleted;
+            entity = offset.id;
+            echoed = zuuluu.bind(tangon)(entity);
             entity = 11;
-            entity = source[entity];
-            report = tangon.bind(update)(entity);
-            zuuluu = report.useCanAccessMemberSafetyPage;
-            entity = verify.id;
-            report = zuuluu.bind(report)(entity);
+            entity = ctrled[entity];
+            tangon = update.bind(source)(entity);
+            zuuluu = tangon.useCanAccessMemberSafetyPage;
+            entity = offset.id;
+            oscard = zuuluu.bind(tangon)(entity);
             entity = new Array(0);
-            option = verify.hasFeature;
+            option = offset.hasFeature;
             zuuluu = _closure1_slot5;
-            golfie = zuuluu.HUB;
-            romeon = option.bind(verify)(golfie);
-            option = verify.hasFeature;
-            golfie = zuuluu.COMMUNITY;
-            golfie = option.bind(verify)(golfie);
-            option = 12;
-            option = source[option];
-            ctrled = tangon.bind(update)(option);
-            foxtra = ctrled.useShowBrowseChannelsExperiment;
-            option = 13;
-            option = source[option];
-            sequen = tangon.bind(update)(option);
+            tangon = zuuluu.HUB;
+            foxtra = option.bind(offset)(tangon);
+            option = offset.hasFeature;
+            tangon = zuuluu.COMMUNITY;
+            option = option.bind(offset)(tangon);
+            tangon = 12;
+            tangon = ctrled[tangon];
+            backup = update.bind(source)(tangon);
+            verify = backup.useShowBrowseChannelsExperiment;
+            tangon = 13;
+            tangon = ctrled[tangon];
+            sequen = update.bind(source)(tangon);
             vacuum = sequen.isOptInEnabledForGuild;
-            option = verify.id;
-            option = vacuum.bind(sequen)(option);
-            option = !option;
-            foxtra = foxtra.bind(ctrled)(option);
-            option = verify.hasFeature;
+            tangon = offset.id;
+            tangon = vacuum.bind(sequen)(tangon);
+            tangon = !tangon;
+            backup = verify.bind(backup)(tangon);
+            tangon = offset.hasFeature;
             zuuluu = zuuluu.ENABLED_MODERATION_EXPERIENCE_FOR_NON_COMMUNITY;
-            option = option.bind(verify)(zuuluu);
+            verify = tangon.bind(offset)(zuuluu);
             zuuluu = 14;
-            zuuluu = source[zuuluu];
-            vacuum = tangon.bind(update)(zuuluu);
-            ctrled = vacuum.useGuildPowerupsExperimentEnabled;
-            tangon = verify.id;
+            zuuluu = ctrled[zuuluu];
+            sequen = update.bind(source)(zuuluu);
+            vacuum = sequen.useGuildPowerupsExperimentEnabled;
+            tangon = offset.id;
             zuuluu = 'useGuildActionRow';
-            zuuluu = ctrled.bind(vacuum)(tangon, zuuluu);
-            tangon = 15;
-            tangon = source[tangon];
-            echoed = echoed.bind(update)(tangon);
-            tangon = verify.id;
-            tangon = echoed.bind(update)(tangon);
-            if(!romeon) { _fun00002_ip = 482; continue _fun00001 }
- 462:
-            update = entity.push;
-            echoed = _closure1_slot4;
-            echoed = echoed.GUILD_HUB_HEADER_OPTIONS;
-            echoed = update.bind(entity)(echoed);
- 482:
-            if(result) { _fun00002_ip = 530; continue _fun00001 }
- 485:
-            if(!sizing) { _fun00002_ip = 530; continue _fun00001 }
- 488:
-            if(!output) { _fun00002_ip = 530; continue _fun00001 }
- 491:
-            output = null;
-            if(!(output != kiloes)) { _fun00002_ip = 530; continue _fun00001 }
- 497:
-            output = kiloes.length;
-            kiloes = 0;
-            if(!(output > kiloes)) { _fun00002_ip = 530; continue _fun00001 }
- 508:
-            output = entity.push;
-            kiloes = _closure1_slot4;
-            kiloes = kiloes.GUILD_NEW_MEMBER_ACTIONS_PROGRESS_BAR;
-            kiloes = output.bind(entity)(kiloes);
-            _fun00002_ip = 536; continue _fun00001;
- 530:
-            kiloes = verify.premiumProgressBarEnabled;
+            tangon = vacuum.bind(sequen)(tangon, zuuluu);
+            zuuluu = 15;
+            zuuluu = ctrled[zuuluu];
+            report = report.bind(source)(zuuluu);
+            zuuluu = offset.id;
+            report = report.bind(source)(zuuluu);
+            zuuluu = 16;
+            zuuluu = ctrled[zuuluu];
+            source = update.bind(source)(zuuluu);
+            update = source.useIsReportToModEnabled;
+            zuuluu = offset.id;
+            zuuluu = update.bind(source)(zuuluu);
+            if(!foxtra) { _fun00002_ip = 510; continue _fun00001 }
+ 490:
+            source = entity.push;
+            update = _closure1_slot4;
+            update = update.GUILD_HUB_HEADER_OPTIONS;
+            update = source.bind(entity)(update);
+ 510:
+            if(echoed) { _fun00002_ip = 558; continue _fun00001 }
+ 513:
+            if(!output) { _fun00002_ip = 558; continue _fun00001 }
+ 516:
+            if(!result) { _fun00002_ip = 558; continue _fun00001 }
+ 519:
+            result = null;
+            if(!(result != sizing)) { _fun00002_ip = 558; continue _fun00001 }
+ 525:
+            result = sizing.length;
+            sizing = 0;
+            if(!(result > sizing)) { _fun00002_ip = 558; continue _fun00001 }
  536:
-            kiloes = !romeon;
-            if(!kiloes) { _fun00002_ip = 545; continue _fun00001 }
- 542:
-            kiloes = sizing;
- 545:
-            if(!kiloes) { _fun00002_ip = 568; continue _fun00001 }
- 548:
+            result = entity.push;
+            sizing = _closure1_slot4;
+            sizing = sizing.GUILD_NEW_MEMBER_ACTIONS_PROGRESS_BAR;
+            sizing = result.bind(entity)(sizing);
+            _fun00002_ip = 564; continue _fun00001;
+ 558:
+            sizing = offset.premiumProgressBarEnabled;
+ 564:
+            sizing = !foxtra;
+            if(!sizing) { _fun00002_ip = 573; continue _fun00001 }
+ 570:
+            sizing = output;
+ 573:
+            if(!sizing) { _fun00002_ip = 596; continue _fun00001 }
+ 576:
+            output = entity.push;
+            sizing = _closure1_slot4;
+            sizing = sizing.GUILD_HOME;
+            sizing = output.bind(entity)(sizing);
+ 596:
+            if(!kiloes) { _fun00002_ip = 619; continue _fun00001 }
+ 599:
             sizing = entity.push;
             kiloes = _closure1_slot4;
-            kiloes = kiloes.GUILD_HOME;
+            kiloes = kiloes.GUILD_SCHEDULED_EVENTS;
             kiloes = sizing.bind(entity)(kiloes);
- 568:
-            if(!backup) { _fun00002_ip = 591; continue _fun00001 }
- 571:
-            kiloes = entity.push;
-            backup = _closure1_slot4;
-            backup = backup.GUILD_SCHEDULED_EVENTS;
-            backup = kiloes.bind(entity)(backup);
- 591:
-            romeon = !romeon;
-            if(!romeon) { _fun00002_ip = 600; continue _fun00001 }
- 597:
-            romeon = golfie;
- 600:
-            if(!romeon) { _fun00002_ip = 606; continue _fun00001 }
- 603:
-            romeon = foxtra;
- 606:
-            if(!romeon) { _fun00002_ip = 629; continue _fun00001 }
- 609:
+ 619:
+            foxtra = !foxtra;
+            if(!foxtra) { _fun00002_ip = 628; continue _fun00001 }
+ 625:
+            foxtra = option;
+ 628:
+            if(!foxtra) { _fun00002_ip = 634; continue _fun00001 }
+ 631:
+            foxtra = backup;
+ 634:
+            if(!foxtra) { _fun00002_ip = 657; continue _fun00001 }
+ 637:
+            backup = entity.push;
+            foxtra = _closure1_slot4;
+            foxtra = foxtra.CHANNELS_AND_ROLES;
+            foxtra = backup.bind(entity)(foxtra);
+ 657:
+            if(!romeon) { _fun00002_ip = 680; continue _fun00001 }
+ 660:
             foxtra = entity.push;
             romeon = _closure1_slot4;
-            romeon = romeon.CHANNELS_AND_ROLES;
+            romeon = romeon.GUILD_ROLE_SUBSCRIPTIONS;
             romeon = foxtra.bind(entity)(romeon);
- 629:
-            if(!yankee) { _fun00002_ip = 652; continue _fun00001 }
- 632:
+ 680:
+            if(!yankee) { _fun00002_ip = 703; continue _fun00001 }
+ 683:
             romeon = entity.push;
             yankee = _closure1_slot4;
-            yankee = yankee.GUILD_ROLE_SUBSCRIPTIONS;
+            yankee = yankee.GUILD_SHOP;
             yankee = romeon.bind(entity)(yankee);
- 652:
-            if(!offset) { _fun00002_ip = 675; continue _fun00001 }
- 655:
-            yankee = entity.push;
-            offset = _closure1_slot4;
-            offset = offset.GUILD_SHOP;
-            offset = yankee.bind(entity)(offset);
- 675:
-            if(!report) { _fun00002_ip = 687; continue _fun00001 }
- 678:
-            if(golfie) { _fun00002_ip = 684; continue _fun00001 }
- 681:
-            golfie = option;
- 684:
-            report = golfie;
- 687:
-            if(report) { _fun00002_ip = 717; continue _fun00001 }
- 690:
-            if(!oscard) { _fun00002_ip = 714; continue _fun00001 }
- 693:
-            option = verify.hasFeature;
-            golfie = _closure1_slot5;
-            golfie = golfie.MEMBER_VERIFICATION_MANUAL_APPROVAL;
-            oscard = option.bind(verify)(golfie);
- 714:
-            report = oscard;
- 717:
-            if(!report) { _fun00002_ip = 740; continue _fun00001 }
- 720:
-            oscard = entity.push;
-            report = _closure1_slot4;
-            report = report.GUILD_MOD_DASH_MEMBER_SAFETY;
-            report = oscard.bind(entity)(report);
- 740:
-            if(!zuuluu) { _fun00002_ip = 746; continue _fun00001 }
- 743:
-            zuuluu = tangon;
- 746:
-            if(!zuuluu) { _fun00002_ip = 769; continue _fun00001 }
- 749:
+ 703:
+            if(!oscard) { _fun00002_ip = 715; continue _fun00001 }
+ 706:
+            if(option) { _fun00002_ip = 712; continue _fun00001 }
+ 709:
+            option = verify;
+ 712:
+            oscard = option;
+ 715:
+            if(oscard) { _fun00002_ip = 745; continue _fun00001 }
+ 718:
+            if(!golfie) { _fun00002_ip = 742; continue _fun00001 }
+ 721:
+            verify = offset.hasFeature;
+            option = _closure1_slot5;
+            option = option.MEMBER_VERIFICATION_MANUAL_APPROVAL;
+            golfie = verify.bind(offset)(option);
+ 742:
+            oscard = golfie;
+ 745:
+            if(!oscard) { _fun00002_ip = 768; continue _fun00001 }
+ 748:
+            golfie = entity.push;
+            oscard = _closure1_slot4;
+            oscard = oscard.GUILD_MOD_DASH_MEMBER_SAFETY;
+            oscard = golfie.bind(entity)(oscard);
+ 768:
+            if(!tangon) { _fun00002_ip = 774; continue _fun00001 }
+ 771:
+            tangon = report;
+ 774:
+            if(!tangon) { _fun00002_ip = 797; continue _fun00001 }
+ 777:
+            report = entity.push;
+            tangon = _closure1_slot4;
+            tangon = tangon.GUILD_BOOSTS;
+            tangon = report.bind(entity)(tangon);
+ 797:
+            if(!zuuluu) { _fun00002_ip = 820; continue _fun00001 }
+ 800:
             zuuluu = entity.push;
             michal = _closure1_slot4;
-            michal = michal.GUILD_BOOSTS;
+            michal = michal.REPORT_TO_MOD_CHANNEL;
             michal = zuuluu.bind(entity)(michal);
- 769:
+ 820:
             return entity;
         }
     };

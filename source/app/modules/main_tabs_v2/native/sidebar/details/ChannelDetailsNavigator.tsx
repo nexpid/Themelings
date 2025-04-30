@@ -201,25 +201,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = argFoo;
             entity = michal.route;
             zuuluu = entity.params;
-            backup = zuuluu.channelId;
-            var _closure2_slot0 = backup;
-            foxtra = zuuluu.search;
+            output = zuuluu.channelId;
+            var _closure2_slot0 = output;
+            sizing = zuuluu.applicationId;
+            backup = zuuluu.search;
             entity = zuuluu.source;
             var _closure2_slot1 = entity;
             report = zuuluu.initialRouteName;
             tangon = undefined;
-            if(!(report === tangon)) { _fun00008_ip = 66; continue _fun00007 }
- 53:
+            if(!(report === tangon)) { _fun00008_ip = 71; continue _fun00007 }
+ 58:
             zuuluu = _closure1_slot5;
             report = zuuluu.DETAILS;
- 66:
+ 71:
             var _closure2_slot2 = report;
             michal = michal.navigation;
             var _closure2_slot3 = michal;
             golfie = _closure1_slot3;
             zuuluu = golfie.useEffect;
             michal = new Array(3);
-            michal[0] = backup;
+            michal[0] = output;
             michal[1] = report;
             michal[2] = entity;
             entity = function() {
@@ -263,7 +264,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = _closure1_slot3;
             zuuluu = golfie.useMemo;
             michal = new Array(1);
-            michal[0] = backup;
+            michal[0] = output;
             entity = function() {
                 entity = {};
                 michal = {};
@@ -272,18 +273,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['initialParams'] = michal;
                 return entity;
             };
-            kiloes = zuuluu.bind(golfie)(entity, michal);
-            sizing = _closure1_slot0;
-            output = _closure1_slot2;
+            romeon = zuuluu.bind(golfie)(entity, michal);
+            kiloes = _closure1_slot0;
+            result = _closure1_slot2;
             entity = 14;
-            entity = output[entity];
-            michal = sizing.bind(tangon)(entity);
+            entity = result[entity];
+            michal = kiloes.bind(tangon)(entity);
             entity = michal.useAccessibilityNativeStackOptions;
             yankee = entity.bind(michal)();
             golfie = _closure1_slot3;
             zuuluu = golfie.useMemo;
             michal = new Array(1);
-            michal[0] = backup;
+            michal[0] = output;
             entity = function() {
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
@@ -298,8 +299,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             verify = zuuluu.bind(golfie)(entity, michal);
             entity = 16;
-            entity = output[entity];
-            zuuluu = sizing.bind(tangon)(entity);
+            entity = result[entity];
+            zuuluu = kiloes.bind(tangon)(entity);
             michal = zuuluu.useNavigatorBackPressHandler;
             entity = function() {
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
@@ -327,31 +328,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = 'channel-details-navigator';
             entity['id'] = offset;
             offset = {};
-            romeon = 10;
-            romeon = output[romeon];
-            romeon = sizing.bind(tangon)(romeon);
-            romeon = romeon.renderGenericTitle;
-            offset['headerTitle'] = romeon;
+            foxtra = 10;
+            foxtra = result[foxtra];
+            foxtra = kiloes.bind(tangon)(foxtra);
+            foxtra = foxtra.renderGenericTitle;
+            offset['headerTitle'] = foxtra;
             update = offset;
             echoed = yankee;
             yankee = copyDataProperties(update, echoed);
             entity['screenOptions'] = offset;
             entity['initialRouteName'] = report;
-            romeon = _closure1_slot8;
+            foxtra = _closure1_slot8;
             offset = golfie.Screen;
             report = {};
             yankee = {};
-            yankee['channelId'] = backup;
-            yankee['search'] = foxtra;
+            yankee['channelId'] = output;
+            yankee['search'] = backup;
             report['initialParams'] = yankee;
             yankee = _closure1_slot5;
-            foxtra = yankee.DETAILS;
-            report['name'] = foxtra;
-            foxtra = {};
-            backup = false;
-            foxtra['headerShown'] = backup;
-            report['options'] = foxtra;
-            foxtra = function() { // Original name: getComponent
+            backup = yankee.DETAILS;
+            report['name'] = backup;
+            backup = {};
+            kiloes = false;
+            backup['headerShown'] = kiloes;
+            report['options'] = backup;
+            backup = function() { // Original name: getComponent
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
                 entity = 17;
@@ -361,17 +362,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.default;
                 return entity;
             };
-            report['getComponent'] = foxtra;
-            offset = romeon.bind(tangon)(offset, report);
+            report['getComponent'] = backup;
+            offset = foxtra.bind(tangon)(offset, report);
             report = new Array(5);
             report[0] = offset;
-            foxtra = _closure1_slot8;
-            romeon = golfie.Screen;
+            backup = _closure1_slot8;
+            foxtra = golfie.Screen;
             offset = {};
-            backup = _closure1_slot7;
-            backup = backup.SEARCH_CHAT_PREVIEW;
-            offset['name'] = backup;
-            backup = function(argFoo) { // Original name: options
+            kiloes = _closure1_slot7;
+            kiloes = kiloes.SEARCH_CHAT_PREVIEW;
+            offset['name'] = kiloes;
+            kiloes = function(argFoo) { // Original name: options
                 entity = argFoo;
                 zuuluu = entity.route;
                 var _closure3_slot0 = zuuluu;
@@ -428,8 +429,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['headerLeft'] = michal;
                 return entity;
             };
-            offset['options'] = backup;
-            backup = function() { // Original name: getComponent
+            offset['options'] = kiloes;
+            kiloes = function() { // Original name: getComponent
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
                 entity = 20;
@@ -439,19 +440,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.default;
                 return entity;
             };
-            offset['getComponent'] = backup;
-            offset = foxtra.bind(tangon)(romeon, offset);
+            offset['getComponent'] = kiloes;
+            offset = backup.bind(tangon)(foxtra, offset);
             report[1] = offset;
-            output = _closure1_slot8;
-            sizing = golfie.Screen;
+            backup = _closure1_slot8;
+            foxtra = golfie.Screen;
             offset = {};
-            update = offset;
-            echoed = kiloes;
-            romeon = copyDataProperties(update, echoed);
-            romeon = yankee.MUTE;
-            backup = 'name';
-            offset[backup] = romeon;
-            romeon = function(argFoo) { // Original name: options
+            kiloes = {};
+            kiloes['channelId'] = output;
+            kiloes['applicationId'] = sizing;
+            offset['initialParams'] = kiloes;
+            kiloes = yankee.MUTE;
+            offset['name'] = kiloes;
+            kiloes = function(argFoo) { // Original name: options
                 entity = argFoo;
                 oscard = entity.navigation;
                 report = entity.route;
@@ -481,9 +482,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['headerLeft'] = michal;
                 return entity;
             };
-            foxtra = 'options';
-            offset[foxtra] = romeon;
-            result = function() { // Original name: getComponent
+            offset['options'] = kiloes;
+            kiloes = function() { // Original name: getComponent
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
                 entity = 21;
@@ -493,19 +493,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.default;
                 return entity;
             };
-            romeon = 'getComponent';
-            offset[romeon] = result;
-            offset = output.bind(tangon)(sizing, offset);
+            offset['getComponent'] = kiloes;
+            offset = backup.bind(tangon)(foxtra, offset);
             report[2] = offset;
             offset = _closure1_slot8;
             option = golfie.Screen;
             golfie = {};
             update = golfie;
-            echoed = kiloes;
-            kiloes = copyDataProperties(update, echoed);
-            yankee = yankee.THREADS;
-            golfie[backup] = yankee;
-            yankee = function(argFoo) { // Original name: options
+            echoed = romeon;
+            romeon = copyDataProperties(update, echoed);
+            romeon = yankee.THREADS;
+            yankee = 'name';
+            golfie[yankee] = romeon;
+            romeon = function(argFoo) { // Original name: options
                 entity = argFoo;
                 golfie = entity.navigation;
                 oscard = entity.route;
@@ -549,8 +549,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['headerRight'] = michal;
                 return entity;
             };
-            golfie[foxtra] = yankee;
-            yankee = function() { // Original name: getComponent
+            yankee = 'options';
+            golfie[yankee] = romeon;
+            romeon = function() { // Original name: getComponent
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
                 entity = 22;
@@ -560,7 +561,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.default;
                 return entity;
             };
-            golfie[romeon] = yankee;
+            yankee = 'getComponent';
+            golfie[yankee] = romeon;
             golfie = offset.bind(tangon)(option, golfie);
             report[3] = golfie;
             golfie = global;

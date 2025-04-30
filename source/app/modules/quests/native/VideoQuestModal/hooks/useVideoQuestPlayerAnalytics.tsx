@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = _closure2_slot8;
                 entity = entity.current;
                 option = null;
-                if(!(option != entity)) { _fun00004_ip = 243; continue _fun00003 }
+                if(!(option != entity)) { _fun00004_ip = 241; continue _fun00003 }
  24:
                 offset = _closure1_slot0;
                 yankee = _closure1_slot2;
@@ -241,17 +241,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon[golfie] = verify;
                 golfie = _closure2_slot10;
                 golfie = option == golfie;
-                if(golfie) { _fun00004_ip = 224; continue _fun00003 }
- 210:
+                if(golfie) { _fun00004_ip = 222; continue _fun00003 }
+ 208:
                 golfie = _closure2_slot10;
                 report = golfie.getId;
                 oscard = report.bind(golfie)();
- 224:
+ 222:
                 report = 'impression_id';
                 tangon[report] = oscard;
                 entity['properties'] = tangon;
                 entity = michal.bind(zuuluu)(entity);
- 243:
+ 241:
                 entity = undefined;
                 return entity;
             }
@@ -757,41 +757,41 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report['video_session_id'] = oscard;
                 verify = option == offset;
                 oscard = undefined;
-                if(verify) { _fun00018_ip = 172; continue _fun00017 }
- 162:
+                if(verify) { _fun00018_ip = 170; continue _fun00017 }
+ 160:
                 verify = offset.error;
                 oscard = verify.code;
- 172:
+ 170:
                 report['video_error_code'] = oscard;
                 verify = option == offset;
                 oscard = undefined;
-                if(verify) { _fun00018_ip = 201; continue _fun00017 }
- 188:
+                if(verify) { _fun00018_ip = 199; continue _fun00017 }
+ 186:
                 verify = offset.error;
                 oscard = verify.localizedDescription;
- 201:
-                if(!(option == oscard)) { _fun00018_ip = 230; continue _fun00017 }
- 205:
+ 199:
+                if(!(option == oscard)) { _fun00018_ip = 228; continue _fun00017 }
+ 203:
                 yankee = option == offset;
                 verify = undefined;
-                if(yankee) { _fun00018_ip = 227; continue _fun00017 }
- 214:
+                if(yankee) { _fun00018_ip = 225; continue _fun00017 }
+ 212:
                 offset = offset.error;
                 verify = offset.errorString;
- 227:
+ 225:
                 oscard = verify;
- 230:
+ 228:
                 report['video_error_message'] = oscard;
                 report['video_network_state'] = option;
                 oscard = _closure2_slot10;
                 option = option == oscard;
                 oscard = undefined;
-                if(option) { _fun00018_ip = 271; continue _fun00017 }
- 257:
+                if(option) { _fun00018_ip = 269; continue _fun00017 }
+ 255:
                 option = _closure2_slot10;
                 golfie = option.getId;
                 oscard = golfie.bind(option)();
- 271:
+ 269:
                 report['impression_id'] = oscard;
                 michal['properties'] = report;
                 michal = zuuluu.bind(tangon)(michal);

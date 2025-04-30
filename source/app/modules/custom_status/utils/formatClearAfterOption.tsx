@@ -31,24 +31,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = argFoo;
             report = zuuluu + michal;
             tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            backup = 1;
-            zuuluu = zuuluu[backup];
+            oscard = _closure1_slot2;
+            zuuluu = 1;
+            zuuluu = oscard[zuuluu];
             option = undefined;
             oscard = tangon.bind(option)(zuuluu);
             tangon = oscard.isSameDay;
             zuuluu = entity.Date;
             golfie = zuuluu.prototype;
             golfie = Object.create(golfie, {constructor: {value: zuuluu}});
-            result = golfie;
-            zuuluu = new result[zuuluu](output);
+            romeon = golfie;
+            zuuluu = new romeon[zuuluu](yankee);
             zuuluu = zuuluu instanceof Object ? zuuluu : golfie;
             entity = entity.Date;
             golfie = entity.prototype;
             golfie = Object.create(golfie, {constructor: {value: entity}});
-            result = golfie;
-            output = report;
-            entity = new result[entity](output, sizing);
+            romeon = golfie;
+            yankee = report;
+            entity = new romeon[entity](yankee, offset);
             entity = entity instanceof Object ? entity : golfie;
             entity = tangon.bind(oscard)(zuuluu, entity);
             golfie = _closure1_slot0;
@@ -57,25 +57,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = verify[oscard];
             michal = golfie.bind(option)(michal);
             michal = michal.intl;
-            if(entity) { _fun00002_ip = 282; continue _fun00001 }
- 147:
+            if(entity) { _fun00002_ip = 227; continue _fun00001 }
+ 144:
             tangon = michal.formatToPlainString;
             entity = verify[oscard];
             entity = golfie.bind(option)(entity);
             entity = entity.t;
-            zuuluu = entity.sdRx+P;
+            zuuluu = entity.DN91Jy;
             entity = {};
-            offset = verify[oscard];
-            offset = golfie.bind(option)(offset);
-            offset = offset.intl;
-            foxtra = offset.data;
-            romeon = foxtra.formatRelativeTime;
-            yankee = {};
-            offset = 'auto';
-            yankee['numeric'] = offset;
-            offset = 'day';
-            offset = romeon.bind(foxtra)(backup, offset, yankee);
-            entity['date'] = offset;
             oscard = verify[oscard];
             oscard = golfie.bind(option)(oscard);
             oscard = oscard.intl;
@@ -87,15 +76,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie.bind(option)(report, oscard);
             entity['time'] = oscard;
             entity = tangon.bind(michal)(zuuluu, entity);
-            _fun00002_ip = 309; continue _fun00001;
- 282:
+            _fun00002_ip = 254; continue _fun00001;
+ 227:
             tangon = michal.data;
             zuuluu = tangon.formatTime;
             michal = {};
             oscard = 'short';
             michal['format'] = oscard;
             entity = zuuluu.bind(tangon)(report, michal);
- 309:
+ 254:
             return entity;
         }
     };

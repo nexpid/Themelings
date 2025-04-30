@@ -233,8 +233,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            variable40 = entity.product;
-            var _closure2_slot0 = variable40;
+            variable37 = entity.product;
+            var _closure2_slot0 = variable37;
             record = entity.renderMessages;
             tangon = undefined;
             var _closure2_slot2 = tangon;
@@ -253,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 19;
             entity = backup[entity];
             michal = romeon.bind(tangon)(entity);
-            entity = variable40.styles;
+            entity = variable37.styles;
             entity = michal.bind(tangon)(entity);
             output = entity.backgroundColors;
             var _closure2_slot5 = output;
@@ -463,7 +463,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             zuuluu = offset.bind(foxtra)(zuuluu, entity);
-            offset = variable40.type;
+            offset = variable37.type;
             cntext = 22;
             entity = backup[cntext];
             entity = option.bind(tangon)(entity);
@@ -701,7 +701,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = entity.textViewStyle;
             offset = entity.curtainViewStyle;
             foxtra = _closure1_slot3;
-            zuuluu = variable40.items;
+            zuuluu = variable37.items;
             entity = 1;
             zuuluu = foxtra.bind(tangon)(zuuluu, entity);
             entity = 0;
@@ -712,7 +712,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = option.bind(tangon)(entity);
             zuuluu = foxtra.useHandleUseNow;
             entity = {};
-            entity['product'] = variable40;
+            entity['product'] = variable37;
             entity = zuuluu.bind(foxtra)(entity);
             ctrled = entity.handleUseNow;
             vacuum = entity.isApplying;
@@ -730,13 +730,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option.bind(tangon)(entity);
             michal = zuuluu.usePreviewCollectibleProduct;
             entity = true;
-            entity = michal.bind(zuuluu)(variable40, entity);
+            entity = michal.bind(zuuluu)(variable37, entity);
             zuuluu = _closure1_slot12;
             michal = _closure1_slot6;
             entity = {};
             report = verify.root;
             entity['style'] = report;
-            report = variable40.skuId;
+            report = variable37.skuId;
             entity['id'] = report;
             foxtra = _closure1_slot10;
             report = 26;
@@ -811,7 +811,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sierra = echoed[sierra];
             whisks = status.bind(tangon)(sierra);
             limora = whisks.match;
-            sierra = variable40.type;
+            sierra = variable37.type;
             equals = limora.bind(whisks)(sierra);
             whisks = equals.with;
             sierra = echoed[cntext];
@@ -928,62 +928,65 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext[1] = target;
             cntext[2] = papara;
             echoed['style'] = cntext;
-            if(!(config == record)) { _fun00002_ip = 1458; continue _fun00001 }
+            if(!(config == record)) { _fun00002_ip = 1473; continue _fun00001 }
  1211:
             papara = _closure1_slot12;
             cntext = _closure1_slot11;
             config = {};
             limora = _closure1_slot10;
-            variable36 = _closure1_slot0;
-            variable37 = _closure1_slot2;
+            equals = _closure1_slot0;
+            variable38 = _closure1_slot2;
             status = 30;
-            target = variable37[status];
-            target = variable36.bind(tangon)(target);
+            target = variable38[status];
+            target = equals.bind(tangon)(target);
             sierra = target.Text;
             target = {'variant': 'heading-xl/bold', 'color': 'white'};
             whisks = verify.title;
             target['style'] = whisks;
             whisks = 12;
-            equals = variable37[whisks];
-            equals = variable36.bind(tangon)(equals);
-            variable39 = equals.intl;
-            variable38 = variable39.format;
-            equals = variable37[whisks];
-            equals = variable36.bind(tangon)(equals);
-            equals = equals.t;
-            quebec = equals.YNaxMj;
-            equals = {};
-            variable40 = variable40.name;
-            equals['itemName'] = variable40;
-            equals = variable38.bind(variable39)(quebec, equals);
-            target['children'] = equals;
+            quebec = variable38[whisks];
+            quebec = equals.bind(tangon)(quebec);
+            variable40 = quebec.intl;
+            variable39 = variable40.format;
+            quebec = variable38[whisks];
+            quebec = equals.bind(tangon)(quebec);
+            quebec = quebec.t;
+            variable36 = quebec.YNaxMj;
+            quebec = {};
+            variable41 = variable37.name;
+            quebec['itemName'] = variable41;
+            quebec = variable39.bind(variable40)(variable36, quebec);
+            target['children'] = quebec;
             sierra = limora.bind(tangon)(sierra, target);
             target = new Array(2);
             target[0] = sierra;
-            status = variable37[status];
-            status = variable36.bind(tangon)(status);
+            status = variable38[status];
+            status = equals.bind(tangon)(status);
             sierra = status.Text;
             status = {'variant': 'text-md/medium', 'color': 'white'};
-            equals = verify.title;
-            status['style'] = equals;
-            equals = variable37[whisks];
-            equals = variable36.bind(tangon)(equals);
-            quebec = equals.intl;
-            equals = quebec.string;
-            whisks = variable37[whisks];
-            whisks = variable36.bind(tangon)(whisks);
+            quebec = verify.title;
+            status['style'] = quebec;
+            quebec = variable38[whisks];
+            quebec = equals.bind(tangon)(quebec);
+            variable36 = quebec.intl;
+            quebec = variable36.format;
+            whisks = variable38[whisks];
+            whisks = equals.bind(tangon)(whisks);
             whisks = whisks.t;
-            whisks = whisks.44b50t;
-            whisks = equals.bind(quebec)(whisks);
+            equals = whisks.4kp0AA;
+            whisks = {};
+            variable37 = variable37.name;
+            whisks['itemName'] = variable37;
+            whisks = quebec.bind(variable36)(equals, whisks);
             status['children'] = whisks;
             status = limora.bind(tangon)(sierra, status);
             target[1] = status;
             config['children'] = target;
             config = papara.bind(tangon)(cntext, config);
-            _fun00002_ip = 1462; continue _fun00001;
- 1458:
+            _fun00002_ip = 1477; continue _fun00001;
+ 1473:
             config = record.bind(tangon)();
- 1462:
+ 1477:
             echoed['children'] = config;
             echoed = sequen.bind(tangon)(update, echoed);
             result[1] = echoed;

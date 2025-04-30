@@ -33,6 +33,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     report['ACTIVITY_INVITE'] = tangon;
     tangon = 'activity_instance';
     report['ACTIVITY_INSTANCE'] = tangon;
+    tangon = 'rich_presence_invite';
+    report['RICH_PRESENCE_INVITE'] = tangon;
     tangon = 'unknown';
     report['UNKNOWN'] = tangon;
     tangon = {};

@@ -1061,30 +1061,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = function() {
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-                    entity = _closure2_slot0;
-                    zuuluu = entity.deeplink;
-                    entity = null;
-                    if(!(entity != zuuluu)) { _fun00016_ip = 112; continue _fun00015 }
+                    michal = _closure2_slot0;
+                    zuuluu = michal.deeplink;
+                    michal = null;
+                    if(!(michal != zuuluu)) { _fun00016_ip = 102; continue _fun00015 }
  19:
-                    oscard = _closure1_slot1;
+                    michal = _closure1_slot1;
                     report = _closure1_slot3;
                     zuuluu = 32;
                     tangon = report[zuuluu];
                     zuuluu = undefined;
-                    tangon = oscard.bind(zuuluu)(tangon);
-                    michal = _closure2_slot0;
-                    michal = michal.deeplink;
-                    michal = tangon.bind(zuuluu)(michal);
-                    tangon = michal.payload;
-                    michal = _closure1_slot0;
+                    tangon = michal.bind(zuuluu)(tangon);
+                    entity = _closure2_slot0;
+                    entity = entity.deeplink;
+                    entity = tangon.bind(zuuluu)(entity);
+                    tangon = entity.payload;
                     entity = 33;
                     entity = report[entity];
-                    zuuluu = michal.bind(zuuluu)(entity);
-                    michal = zuuluu.handleSupportedURL;
+                    michal = michal.bind(zuuluu)(entity);
                     entity = {'payload': null, 'safe': true, 'navigationReplace': false};
                     entity['payload'] = tangon;
                     entity = michal.bind(zuuluu)(entity);
- 112:
+ 102:
                     entity = undefined;
                     return entity;
                 }

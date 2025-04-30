@@ -330,17 +330,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = argBaz;
             offset = argCor;
             michal = null;
-            if(!(michal != report)) { _fun00008_ip = 560; continue _fun00007 }
+            if(!(michal != report)) { _fun00008_ip = 574; continue _fun00007 }
  21:
             tangon = _closure1_slot4;
             zuuluu = tangon.isFullServerPreview;
             zuuluu = zuuluu.bind(tangon)(report);
-            if(zuuluu) { _fun00008_ip = 488; continue _fun00007 }
+            if(zuuluu) { _fun00008_ip = 502; continue _fun00007 }
  45:
             tangon = _closure1_slot6;
             zuuluu = tangon.getChannelIdFlags;
-            verify = zuuluu.bind(tangon)(report, oscard);
-            kiloes = verify;
+            yankee = zuuluu.bind(tangon)(report, oscard);
+            option = yankee;
             if(entity) { _fun00008_ip = 114; continue _fun00007 }
  67:
             golfie = _closure1_slot0;
@@ -348,67 +348,69 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = 7;
             tangon = tangon[zuuluu];
             zuuluu = undefined;
-            option = golfie.bind(zuuluu)(tangon);
-            golfie = option.setFlag;
+            verify = golfie.bind(zuuluu)(tangon);
+            golfie = verify.setFlag;
             zuuluu = _closure1_slot8;
             tangon = zuuluu.FAVORITED;
             zuuluu = false;
-            kiloes = golfie.bind(option)(verify, tangon, zuuluu);
+            option = golfie.bind(verify)(yankee, tangon, zuuluu);
  114:
             romeon = _closure1_slot0;
             foxtra = _closure1_slot2;
-            zuuluu = 8;
-            tangon = foxtra[zuuluu];
+            verify = 8;
+            zuuluu = foxtra[verify];
             yankee = undefined;
-            golfie = romeon.bind(yankee)(tangon);
-            tangon = golfie.getCurrentChannelSettings;
-            source = tangon.bind(golfie)(report, oscard);
-            verify = {};
-            tangon = 7;
-            tangon = foxtra[tangon];
-            option = romeon.bind(yankee)(tangon);
-            golfie = option.setFlag;
-            tangon = _closure1_slot8;
-            tangon = tangon.OPT_IN_ENABLED;
-            tangon = golfie.bind(option)(kiloes, tangon, entity);
-            verify['flags'] = tangon;
+            tangon = romeon.bind(yankee)(zuuluu);
+            zuuluu = tangon.getCurrentChannelSettings;
+            backup = zuuluu.bind(tangon)(report, oscard);
+            kiloes = {};
+            zuuluu = 7;
+            zuuluu = foxtra[zuuluu];
+            golfie = romeon.bind(yankee)(zuuluu);
+            tangon = golfie.setFlag;
+            zuuluu = _closure1_slot8;
+            zuuluu = zuuluu.OPT_IN_ENABLED;
+            zuuluu = tangon.bind(golfie)(option, zuuluu, entity);
+            kiloes['flags'] = zuuluu;
             tangon = _closure1_slot1;
-            golfie = 9;
-            golfie = foxtra[golfie];
-            kiloes = tangon.bind(yankee)(golfie);
-            option = kiloes.saveUserGuildSettingsBulk;
-            golfie = {};
+            zuuluu = 9;
+            zuuluu = foxtra[zuuluu];
+            option = tangon.bind(yankee)(zuuluu);
+            golfie = option.saveUserGuildSettingsBulk;
+            zuuluu = {};
             sizing = {};
             output = {};
-            output[oscard] = verify;
+            output[oscard] = kiloes;
             sizing['channel_overrides'] = output;
-            golfie[report] = sizing;
-            golfie = option.bind(kiloes)(golfie);
-            golfie = 10;
-            golfie = foxtra[golfie];
-            kiloes = tangon.bind(yankee)(golfie);
-            option = kiloes.dispatch;
-            golfie = {};
-            sizing = 'USER_GUILD_SETTINGS_CHANNEL_UPDATE';
-            golfie['type'] = sizing;
-            golfie['guildId'] = report;
-            golfie['channelId'] = oscard;
-            golfie['settings'] = verify;
-            golfie = option.bind(kiloes)(golfie);
-            golfie = foxtra[zuuluu];
-            option = romeon.bind(yankee)(golfie);
-            golfie = option.trackChannelNotificationSettingsUpdate;
+            zuuluu[report] = sizing;
+            zuuluu = golfie.bind(option)(zuuluu);
+            zuuluu = 10;
             zuuluu = foxtra[zuuluu];
-            zuuluu = romeon.bind(yankee)(zuuluu);
-            kiloes = zuuluu.NotificationLabel;
-            zuuluu = kiloes.optedIn;
-            update = zuuluu.bind(kiloes)(entity);
-            config = option;
-            sequen = report;
-            vacuum = oscard;
-            ctrled = verify;
-            echoed = offset;
-            zuuluu = config[golfie](sequen, vacuum, ctrled, source, update, echoed, result);
+            option = tangon.bind(yankee)(zuuluu);
+            golfie = option.dispatch;
+            zuuluu = {};
+            sizing = 'USER_GUILD_SETTINGS_CHANNEL_UPDATE';
+            zuuluu['type'] = sizing;
+            zuuluu['guildId'] = report;
+            zuuluu['channelId'] = oscard;
+            zuuluu['settings'] = kiloes;
+            zuuluu = golfie.bind(option)(zuuluu);
+            zuuluu = foxtra[verify];
+            option = romeon.bind(yankee)(zuuluu);
+            golfie = option.trackChannelNotificationSettingsUpdate;
+            zuuluu = {};
+            zuuluu['guildId'] = report;
+            zuuluu['channelId'] = oscard;
+            zuuluu['change'] = kiloes;
+            zuuluu['previous'] = backup;
+            verify = foxtra[verify];
+            verify = romeon.bind(yankee)(verify);
+            backup = verify.NotificationLabel;
+            verify = backup.optedIn;
+            verify = verify.bind(backup)(entity);
+            zuuluu['label'] = verify;
+            zuuluu['location'] = offset;
+            zuuluu = golfie.bind(option)(zuuluu);
             zuuluu = _closure1_slot12;
             zuuluu = zuuluu.bind(yankee)(report);
             zuuluu = 11;
@@ -422,30 +424,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = foxtra[verify];
             kiloes = romeon.bind(yankee)(backup);
             backup = kiloes.collectGuildAnalyticsMetadata;
-            vacuum = backup.bind(kiloes)(report);
-            sequen = zuuluu;
-            backup = copyDataProperties(sequen, vacuum);
+            update = backup.bind(kiloes)(report);
+            source = zuuluu;
+            backup = copyDataProperties(source, update);
             verify = foxtra[verify];
             romeon = romeon.bind(yankee)(verify);
             yankee = romeon.collectChannelAnalyticsMetadata;
             foxtra = _closure1_slot5;
             verify = foxtra.getChannel;
             verify = verify.bind(foxtra)(oscard);
-            vacuum = yankee.bind(romeon)(verify);
-            sequen = zuuluu;
-            verify = copyDataProperties(sequen, vacuum);
+            update = yankee.bind(romeon)(verify);
+            source = zuuluu;
+            verify = copyDataProperties(source, update);
             yankee = 'remove';
-            if(!entity) { _fun00008_ip = 462; continue _fun00007 }
- 458:
+            if(!entity) { _fun00008_ip = 476; continue _fun00007 }
+ 472:
             yankee = 'add';
- 462:
+ 476:
             verify = 'action_type';
             zuuluu[verify] = yankee;
             verify = 'location';
             zuuluu[verify] = offset;
             zuuluu = golfie.bind(option)(tangon, zuuluu);
-            _fun00008_ip = 560; continue _fun00007;
- 488:
+            _fun00008_ip = 574; continue _fun00007;
+ 502:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
             michal = 6;
@@ -453,25 +455,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = undefined;
             tangon = tangon.bind(michal)(zuuluu);
             zuuluu = tangon.updateImpersonatedChannels;
-            if(entity) { _fun00008_ip = 525; continue _fun00007 }
- 519:
+            if(entity) { _fun00008_ip = 539; continue _fun00007 }
+ 533:
             michal = new Array(0);
-            _fun00008_ip = 536; continue _fun00007;
- 525:
+            _fun00008_ip = 550; continue _fun00007;
+ 539:
             golfie = new Array(1);
             golfie[0] = oscard;
             michal = golfie;
- 536:
-            if(entity) { _fun00008_ip = 549; continue _fun00007 }
- 539:
+ 550:
+            if(entity) { _fun00008_ip = 563; continue _fun00007 }
+ 553:
             entity = new Array(1);
             entity[0] = oscard;
-            _fun00008_ip = 553; continue _fun00007;
- 549:
+            _fun00008_ip = 567; continue _fun00007;
+ 563:
             entity = new Array(0);
- 553:
+ 567:
             entity = zuuluu.bind(tangon)(report, michal, entity);
- 560:
+ 574:
             entity = undefined;
             return entity;
         }
@@ -485,17 +487,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = argBaz;
             offset = argCor;
             entity = null;
-            if(!(entity != tangon)) { _fun00010_ip = 580; continue _fun00009 }
+            if(!(entity != tangon)) { _fun00010_ip = 591; continue _fun00009 }
  21:
             report = _closure1_slot4;
             zuuluu = report.isFullServerPreview;
             zuuluu = zuuluu.bind(report)(tangon);
-            if(zuuluu) { _fun00010_ip = 584; continue _fun00009 }
+            if(zuuluu) { _fun00010_ip = 595; continue _fun00009 }
  45:
             report = _closure1_slot6;
             zuuluu = report.getChannelIdFlags;
             option = zuuluu.bind(report)(tangon, verify);
-            foxtra = option;
+            yankee = option;
             if(michal) { _fun00010_ip = 114; continue _fun00009 }
  67:
             oscard = _closure1_slot0;
@@ -508,85 +510,86 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot8;
             report = zuuluu.FAVORITED;
             zuuluu = false;
-            foxtra = oscard.bind(golfie)(option, report, zuuluu);
+            yankee = oscard.bind(golfie)(option, report, zuuluu);
  114:
-            golfie = _closure1_slot0;
-            oscard = _closure1_slot2;
-            zuuluu = 8;
-            report = oscard[zuuluu];
-            romeon = undefined;
-            option = golfie.bind(romeon)(report);
-            report = option.getCurrentChannelSettings;
-            backup = report.bind(option)(tangon, verify);
-            option = {};
-            report = 7;
-            oscard = oscard[report];
-            yankee = golfie.bind(romeon)(oscard);
-            golfie = yankee.setFlag;
-            oscard = _closure1_slot8;
-            oscard = oscard.OPT_IN_ENABLED;
-            oscard = golfie.bind(yankee)(foxtra, oscard, michal);
-            option['flags'] = oscard;
-            golfie = _closure1_slot6;
-            oscard = golfie.isOptInEnabled;
-            oscard = oscard.bind(golfie)(tangon);
-            if(oscard) { _fun00010_ip = 316; continue _fun00009 }
- 207:
             oscard = _closure1_slot0;
-            golfie = _closure1_slot2;
-            report = golfie[report];
-            kiloes = oscard.bind(romeon)(report);
-            foxtra = kiloes.setFlag;
-            oscard = _closure1_slot6;
-            report = oscard.getGuildFlags;
-            yankee = report.bind(oscard)(tangon);
-            report = _closure1_slot9;
-            oscard = report.OPT_IN_CHANNELS_ON;
-            report = true;
-            foxtra = foxtra.bind(kiloes)(yankee, oscard, report);
-            oscard = _closure1_slot1;
-            report = 9;
-            report = golfie[report];
-            golfie = oscard.bind(romeon)(report);
-            oscard = golfie.saveUserGuildSettingsBulk;
-            report = {};
-            yankee = {};
+            report = _closure1_slot2;
+            option = 8;
+            zuuluu = report[option];
+            romeon = undefined;
+            golfie = oscard.bind(romeon)(zuuluu);
+            zuuluu = golfie.getCurrentChannelSettings;
+            backup = zuuluu.bind(golfie)(tangon, verify);
             kiloes = {};
-            kiloes[verify] = option;
-            yankee['channel_overrides'] = kiloes;
-            yankee['flags'] = foxtra;
-            report[tangon] = yankee;
-            report = oscard.bind(golfie)(report);
+            zuuluu = 7;
+            report = report[zuuluu];
+            golfie = oscard.bind(romeon)(report);
+            oscard = golfie.setFlag;
+            report = _closure1_slot8;
+            report = report.OPT_IN_ENABLED;
+            report = oscard.bind(golfie)(yankee, report, michal);
+            kiloes['flags'] = report;
+            oscard = _closure1_slot6;
+            report = oscard.isOptInEnabled;
+            report = report.bind(oscard)(tangon);
+            if(report) { _fun00010_ip = 316; continue _fun00009 }
+ 207:
+            report = _closure1_slot0;
+            oscard = _closure1_slot2;
+            zuuluu = oscard[zuuluu];
+            foxtra = report.bind(romeon)(zuuluu);
+            yankee = foxtra.setFlag;
+            report = _closure1_slot6;
+            zuuluu = report.getGuildFlags;
+            golfie = zuuluu.bind(report)(tangon);
+            zuuluu = _closure1_slot9;
+            report = zuuluu.OPT_IN_CHANNELS_ON;
+            zuuluu = true;
+            yankee = yankee.bind(foxtra)(golfie, report, zuuluu);
+            report = _closure1_slot1;
+            zuuluu = 9;
+            zuuluu = oscard[zuuluu];
+            oscard = report.bind(romeon)(zuuluu);
+            report = oscard.saveUserGuildSettingsBulk;
+            zuuluu = {};
+            golfie = {};
+            foxtra = {};
+            foxtra[verify] = kiloes;
+            golfie['channel_overrides'] = foxtra;
+            golfie['flags'] = yankee;
+            zuuluu[tangon] = golfie;
+            zuuluu = report.bind(oscard)(zuuluu);
  316:
             report = _closure1_slot1;
             foxtra = _closure1_slot2;
-            oscard = 10;
-            oscard = foxtra[oscard];
-            yankee = report.bind(romeon)(oscard);
-            golfie = yankee.dispatch;
-            oscard = {};
-            kiloes = 'USER_GUILD_SETTINGS_CHANNEL_UPDATE';
-            oscard['type'] = kiloes;
-            oscard['guildId'] = tangon;
-            oscard['channelId'] = verify;
-            oscard['settings'] = option;
-            oscard = golfie.bind(yankee)(oscard);
-            yankee = _closure1_slot0;
-            oscard = foxtra[zuuluu];
-            golfie = yankee.bind(romeon)(oscard);
-            oscard = golfie.trackChannelNotificationSettingsUpdate;
+            zuuluu = 10;
             zuuluu = foxtra[zuuluu];
-            zuuluu = yankee.bind(romeon)(zuuluu);
-            kiloes = zuuluu.NotificationLabel;
-            zuuluu = kiloes.optedIn;
-            result = zuuluu.bind(kiloes)(michal);
-            vacuum = golfie;
-            ctrled = tangon;
-            source = verify;
-            update = option;
-            echoed = backup;
-            output = offset;
-            zuuluu = vacuum[oscard](ctrled, source, update, echoed, result, output, sizing);
+            golfie = report.bind(romeon)(zuuluu);
+            oscard = golfie.dispatch;
+            zuuluu = {};
+            yankee = 'USER_GUILD_SETTINGS_CHANNEL_UPDATE';
+            zuuluu['type'] = yankee;
+            zuuluu['guildId'] = tangon;
+            zuuluu['channelId'] = verify;
+            zuuluu['settings'] = kiloes;
+            zuuluu = oscard.bind(golfie)(zuuluu);
+            yankee = _closure1_slot0;
+            zuuluu = foxtra[option];
+            golfie = yankee.bind(romeon)(zuuluu);
+            oscard = golfie.trackChannelNotificationSettingsUpdate;
+            zuuluu = {};
+            zuuluu['guildId'] = tangon;
+            zuuluu['channelId'] = verify;
+            zuuluu['change'] = kiloes;
+            zuuluu['previous'] = backup;
+            option = foxtra[option];
+            option = yankee.bind(romeon)(option);
+            backup = option.NotificationLabel;
+            option = backup.optedIn;
+            option = option.bind(backup)(michal);
+            zuuluu['label'] = option;
+            zuuluu['location'] = offset;
+            zuuluu = oscard.bind(golfie)(zuuluu);
             zuuluu = _closure1_slot12;
             zuuluu = zuuluu.bind(romeon)(tangon);
             zuuluu = 11;
@@ -600,32 +603,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = foxtra[option];
             kiloes = yankee.bind(romeon)(backup);
             backup = kiloes.collectGuildAnalyticsMetadata;
-            source = backup.bind(kiloes)(tangon);
-            ctrled = zuuluu;
-            backup = copyDataProperties(ctrled, source);
+            result = backup.bind(kiloes)(tangon);
+            echoed = zuuluu;
+            backup = copyDataProperties(echoed, result);
             option = foxtra[option];
             romeon = yankee.bind(romeon)(option);
             yankee = romeon.collectChannelAnalyticsMetadata;
             foxtra = _closure1_slot5;
             option = foxtra.getChannel;
             option = option.bind(foxtra)(verify);
-            source = yankee.bind(romeon)(option);
-            ctrled = zuuluu;
-            option = copyDataProperties(ctrled, source);
+            result = yankee.bind(romeon)(option);
+            echoed = zuuluu;
+            option = copyDataProperties(echoed, result);
             yankee = 'remove';
-            if(!michal) { _fun00010_ip = 556; continue _fun00009 }
- 552:
+            if(!michal) { _fun00010_ip = 567; continue _fun00009 }
+ 563:
             yankee = 'add';
- 556:
+ 567:
             option = 'action_type';
             zuuluu[option] = yankee;
             option = 'location';
             zuuluu[option] = offset;
             zuuluu = oscard.bind(golfie)(report, zuuluu);
- 580:
+ 591:
             zuuluu = undefined;
             return zuuluu;
- 584:
+ 595:
             golfie = _closure1_slot0;
             zuuluu = _closure1_slot2;
             report = 6;
@@ -633,23 +636,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = undefined;
             option = golfie.bind(zuuluu)(oscard);
             golfie = option.updateImpersonatedChannels;
-            if(michal) { _fun00010_ip = 621; continue _fun00009 }
- 615:
+            if(michal) { _fun00010_ip = 632; continue _fun00009 }
+ 626:
             oscard = new Array(0);
-            _fun00010_ip = 632; continue _fun00009;
- 621:
+            _fun00010_ip = 643; continue _fun00009;
+ 632:
             offset = new Array(1);
             offset[0] = verify;
             oscard = offset;
- 632:
-            if(michal) { _fun00010_ip = 645; continue _fun00009 }
- 635:
+ 643:
+            if(michal) { _fun00010_ip = 656; continue _fun00009 }
+ 646:
             michal = new Array(1);
             michal[0] = verify;
-            _fun00010_ip = 649; continue _fun00009;
- 645:
+            _fun00010_ip = 660; continue _fun00009;
+ 656:
             michal = new Array(0);
- 649:
+ 660:
             michal = golfie.bind(option)(tangon, oscard, michal);
             michal = _closure1_slot0;
             entity = _closure1_slot2;

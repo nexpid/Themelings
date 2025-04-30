@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = verify[report];
         report = option.bind(zuuluu)(report);
         report = report.t;
-        report = report.Tna/TU;
+        report = report.BVcYCw;
         report = oscard.bind(golfie)(report);
         entity['children'] = report;
         entity = tangon.bind(zuuluu)(michal, entity);
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = verify[report];
         report = option.bind(zuuluu)(report);
         report = report.t;
-        report = report.0nEVoK;
+        report = report./dRfCQ;
         report = oscard.bind(golfie)(report);
         entity['children'] = report;
         entity = tangon.bind(zuuluu)(michal, entity);

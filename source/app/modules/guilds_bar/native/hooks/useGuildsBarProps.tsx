@@ -1185,18 +1185,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             verify = _closure2_slot13;
                             entity = _closure1_slot15;
                             entity = entity.GUILDS;
-                            if(!(!(report >= entity))) { _fun00028_ip = 102; continue _fun00027 }
+                            if(!(!(report >= entity))) { _fun00028_ip = 130; continue _fun00027 }
  31:
                             entity = _closure1_slot15;
                             zuuluu = entity.PENDING_JOIN_REQUESTS;
                             oscard = null;
                             entity = null;
-                            if(!(report === zuuluu)) { _fun00028_ip = 180; continue _fun00027 }
+                            if(!(report === zuuluu)) { _fun00028_ip = 251; continue _fun00027 }
  52:
                             zuuluu = oscard != verify;
                             entity = null;
-                            if(!zuuluu) { _fun00028_ip = 180; continue _fun00027 }
- 61:
+                            if(!zuuluu) { _fun00028_ip = 251; continue _fun00027 }
+ 64:
                             option = _closure1_slot17;
                             oscard = _closure1_slot1;
                             golfie = _closure1_slot2;
@@ -1205,10 +1205,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             golfie = undefined;
                             oscard = oscard.bind(golfie)(zuuluu);
                             zuuluu = {};
-                            zuuluu['node'] = verify;
+                            offset = verify.id;
+                            zuuluu['id'] = offset;
+                            offset = verify.expanded;
+                            zuuluu['expanded'] = offset;
+                            verify = verify.children;
+                            zuuluu['childNodes'] = verify;
                             entity = option.bind(golfie)(oscard, zuuluu);
-                            _fun00028_ip = 180; continue _fun00027;
- 102:
+                            _fun00028_ip = 251; continue _fun00027;
+ 130:
                             zuuluu = _closure1_slot15;
                             zuuluu = zuuluu.GUILDS;
                             zuuluu = report - zuuluu;
@@ -1217,8 +1222,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             zuuluu = _closure1_slot13;
                             zuuluu = zuuluu.FOLDER;
                             entity = null;
-                            if(!(tangon === zuuluu)) { _fun00028_ip = 180; continue _fun00027 }
- 141:
+                            if(!(tangon === zuuluu)) { _fun00028_ip = 251; continue _fun00027 }
+ 169:
                             report = _closure1_slot17;
                             zuuluu = _closure1_slot1;
                             tangon = _closure1_slot2;
@@ -1227,9 +1232,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = undefined;
                             zuuluu = zuuluu.bind(tangon)(michal);
                             michal = {};
-                            michal['node'] = oscard;
+                            golfie = oscard.id;
+                            michal['id'] = golfie;
+                            golfie = oscard.expanded;
+                            michal['expanded'] = golfie;
+                            golfie = oscard.name;
+                            michal['name'] = golfie;
+                            golfie = oscard.color;
+                            michal['color'] = golfie;
+                            oscard = oscard.children;
+                            michal['childNodes'] = oscard;
                             entity = report.bind(tangon)(zuuluu, michal);
- 180:
+ 251:
                             return entity;
                         }
                     };

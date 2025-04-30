@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             entity['href'] = report;
             tangon = function() { // Original name: onConfirm
-                zuuluu = _closure1_slot0;
+                zuuluu = _closure1_slot1;
                 michal = _closure1_slot3;
                 entity = 4;
                 michal = michal[entity];

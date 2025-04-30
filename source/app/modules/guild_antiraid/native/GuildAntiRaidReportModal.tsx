@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = _closure1_slot4;
         zuuluu = report.useCallback;
         michal = function() {
-            tangon = _closure1_slot0;
+            tangon = _closure1_slot1;
             zuuluu = _closure1_slot2;
             entity = 10;
             zuuluu = zuuluu[entity];

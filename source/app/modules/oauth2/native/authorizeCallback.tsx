@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.IN_APP;
             option = zuuluu === michal;
  327:
-            zuuluu = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
             michal = 8;
             michal = tangon[michal];

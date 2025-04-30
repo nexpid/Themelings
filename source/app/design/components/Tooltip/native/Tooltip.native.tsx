@@ -399,8 +399,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[1] = oscard;
             oscard = 'top';
             oscard = oscard === option;
-            if(!oscard) { _fun00002_ip = 877; continue _fun00001 }
- 798:
+            if(!oscard) { _fun00002_ip = 881; continue _fun00001 }
+ 802:
             verify = _closure1_slot6;
             option = _closure1_slot1;
             golfie = _closure1_slot2;
@@ -420,7 +420,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset[3] = yankee;
             golfie['style'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 877:
+ 881:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

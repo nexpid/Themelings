@@ -90,40 +90,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             michal = argFoo;
             entity = michal.user;
-            var _closure2_slot0 = entity;
             foxtra = michal.displayProfile;
-            var _closure2_slot1 = foxtra;
+            var _closure2_slot0 = foxtra;
             zuuluu = michal.style;
-            var _closure2_slot2 = zuuluu;
+            var _closure2_slot1 = zuuluu;
             zuuluu = michal.bannerSafeArea;
             tangon = undefined;
-            if(!(zuuluu === tangon)) { _fun00002_ip = 47; continue _fun00001 }
- 45:
+            if(!(zuuluu === tangon)) { _fun00002_ip = 43; continue _fun00001 }
+ 41:
             zuuluu = 0;
- 47:
-            var _closure2_slot3 = zuuluu;
+ 43:
+            var _closure2_slot2 = zuuluu;
             zuuluu = michal.bannerHeight;
-            if(!(zuuluu === tangon)) { _fun00002_ip = 68; continue _fun00001 }
- 61:
+            if(!(zuuluu === tangon)) { _fun00002_ip = 64; continue _fun00001 }
+ 57:
             zuuluu = _closure1_slot6;
- 68:
-            var _closure2_slot4 = zuuluu;
+ 64:
+            var _closure2_slot3 = zuuluu;
             verify = michal.pendingBanner;
             option = michal.pendingAvatarSrc;
             zuuluu = michal.pendingAccentColor;
-            var _closure2_slot5 = zuuluu;
+            var _closure2_slot4 = zuuluu;
             zuuluu = michal.pendingThemeColors;
-            var _closure2_slot6 = zuuluu;
+            var _closure2_slot5 = zuuluu;
             report = michal.disableInteraction;
-            if(!(report === tangon)) { _fun00002_ip = 116; continue _fun00001 }
- 114:
+            if(!(report === tangon)) { _fun00002_ip = 112; continue _fun00001 }
+ 110:
             report = false;
- 116:
+ 112:
+            var _closure2_slot6 = tangon;
             var _closure2_slot7 = tangon;
             var _closure2_slot8 = tangon;
             var _closure2_slot9 = tangon;
-            var _closure2_slot10 = tangon;
-            var _closure2_slot11 = tangon;
             michal = _closure1_slot9;
             backup = michal.bind(tangon)();
             zuuluu = _closure1_slot0;
@@ -143,16 +141,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = zuuluu.bind(tangon)(oscard, michal);
             michal = 0;
             michal = oscard[michal];
-            _closure2_slot7 = michal;
+            _closure2_slot6 = michal;
             zuuluu = 1;
             zuuluu = oscard[zuuluu];
-            _closure2_slot8 = zuuluu;
+            _closure2_slot7 = zuuluu;
             offset = golfie;
-            if(offset) { _fun00002_ip = 242; continue _fun00001 }
- 239:
+            if(offset) { _fun00002_ip = 234; continue _fun00001 }
+ 231:
             offset = michal;
- 242:
-            _closure2_slot9 = offset;
+ 234:
             zuuluu = _closure1_slot0;
             oscard = _closure1_slot2;
             michal = 9;
@@ -164,44 +161,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             sizing = entity == foxtra;
             kiloes = undefined;
-            if(sizing) { _fun00002_ip = 294; continue _fun00001 }
- 289:
+            if(sizing) { _fun00002_ip = 282; continue _fun00001 }
+ 277:
             kiloes = foxtra.guildId;
- 294:
+ 282:
             michal['guildId'] = kiloes;
             michal['pendingAvatarSrc'] = option;
             michal['displayProfile'] = foxtra;
             michal = zuuluu.bind(oscard)(michal);
-            _closure2_slot10 = michal;
-            if(!(tangon === verify)) { _fun00002_ip = 360; continue _fun00001 }
- 321:
+            _closure2_slot8 = michal;
+            if(!(tangon === verify)) { _fun00002_ip = 348; continue _fun00001 }
+ 309:
             michal = entity == foxtra;
             zuuluu = undefined;
-            if(michal) { _fun00002_ip = 358; continue _fun00001 }
- 330:
+            if(michal) { _fun00002_ip = 346; continue _fun00001 }
+ 318:
             oscard = foxtra.getBannerURL;
             michal = {};
             michal['canAnimate'] = offset;
             option = 600;
             michal['size'] = option;
             zuuluu = oscard.bind(foxtra)(michal);
- 358:
-            _fun00002_ip = 391; continue _fun00001;
- 360:
+ 346:
+            _fun00002_ip = 379; continue _fun00001;
+ 348:
             oscard = entity == foxtra;
             michal = undefined;
-            if(oscard) { _fun00002_ip = 388; continue _fun00001 }
- 369:
+            if(oscard) { _fun00002_ip = 376; continue _fun00001 }
+ 357:
             option = foxtra.getPreviewBanner;
             oscard = 600;
             michal = option.bind(foxtra)(verify, offset, oscard);
- 388:
+ 376:
             zuuluu = michal;
- 391:
+ 379:
             michal = entity != zuuluu;
             entity = null;
-            if(!michal) { _fun00002_ip = 431; continue _fun00001 }
- 400:
+            if(!michal) { _fun00002_ip = 419; continue _fun00001 }
+ 388:
             oscard = _closure1_slot0;
             option = _closure1_slot2;
             michal = 10;
@@ -209,8 +206,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.bind(tangon)(michal);
             michal = oscard.makeSource;
             entity = michal.bind(oscard)(zuuluu);
- 431:
-            _closure2_slot11 = entity;
+ 419:
+            _closure2_slot9 = entity;
             michal = _closure1_slot0;
             oscard = _closure1_slot2;
             entity = 10;
@@ -229,54 +226,53 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = undefined;
                     zuuluu = michal.bind(tangon)(entity);
                     michal = {};
-                    oscard = _closure2_slot2;
-                    michal['style'] = oscard;
-                    oscard = _closure2_slot11;
-                    michal['bannerSource'] = oscard;
-                    oscard = _closure2_slot6;
+                    entity = _closure2_slot1;
+                    michal['style'] = entity;
+                    entity = _closure2_slot9;
+                    michal['bannerSource'] = entity;
+                    entity = _closure2_slot5;
                     golfie = null;
-                    option = golfie == oscard;
-                    oscard = undefined;
+                    option = golfie == entity;
+                    entity = undefined;
                     if(option) { _fun00004_ip = 76; continue _fun00003 }
  66:
-                    verify = _closure2_slot6;
+                    verify = _closure2_slot5;
                     option = 0;
-                    oscard = verify[option];
+                    entity = verify[option];
  76:
-                    if(!(golfie == oscard)) { _fun00004_ip = 84; continue _fun00003 }
+                    if(!(golfie == entity)) { _fun00004_ip = 84; continue _fun00003 }
  80:
-                    oscard = _closure2_slot5;
+                    entity = _closure2_slot4;
  84:
-                    if(!(golfie == oscard)) { _fun00004_ip = 114; continue _fun00003 }
+                    if(!(golfie == entity)) { _fun00004_ip = 114; continue _fun00003 }
  88:
-                    option = _closure2_slot1;
+                    option = _closure2_slot0;
                     verify = golfie == option;
                     option = undefined;
                     if(verify) { _fun00004_ip = 111; continue _fun00003 }
  101:
-                    verify = _closure2_slot1;
+                    verify = _closure2_slot0;
                     option = verify.primaryColor;
  111:
-                    oscard = option;
+                    entity = option;
  114:
-                    if(!(golfie == oscard)) { _fun00004_ip = 122; continue _fun00003 }
+                    if(!(golfie == entity)) { _fun00004_ip = 122; continue _fun00003 }
  118:
-                    oscard = _closure2_slot10;
+                    entity = _closure2_slot8;
  122:
-                    michal['backgroundColor'] = oscard;
-                    oscard = _closure2_slot3;
-                    michal['bannerSafeArea'] = oscard;
-                    oscard = _closure2_slot4;
-                    michal['bannerHeight'] = oscard;
+                    michal['backgroundColor'] = entity;
+                    entity = _closure2_slot2;
+                    michal['bannerSafeArea'] = entity;
+                    entity = _closure2_slot3;
+                    michal['bannerHeight'] = entity;
+                    entity = _closure2_slot0;
+                    golfie = golfie == entity;
+                    entity = undefined;
+                    if(golfie) { _fun00004_ip = 167; continue _fun00003 }
+ 157:
                     oscard = _closure2_slot0;
-                    verify = oscard.id;
-                    option = _closure2_slot9;
-                    entity = global;
-                    entity = entity.HermesInternal;
-                    golfie = entity.concat;
-                    oscard = 'banner-';
-                    entity = '-';
-                    entity = golfie.bind(oscard)(verify, entity, option);
+                    entity = oscard.banner;
+ 167:
                     entity = report.bind(tangon)(zuuluu, michal, entity);
                     return entity;
                 }
@@ -286,12 +282,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             verify = backup.bannerContainer;
             entity['style'] = verify;
-            if(!option) { _fun00002_ip = 750; continue _fun00001 }
+            if(!option) { _fun00002_ip = 738; continue _fun00001 }
+ 485:
+            if(golfie) { _fun00002_ip = 738; continue _fun00001 }
+ 491:
+            if(report) { _fun00002_ip = 738; continue _fun00001 }
  497:
-            if(golfie) { _fun00002_ip = 750; continue _fun00001 }
- 503:
-            if(report) { _fun00002_ip = 750; continue _fun00001 }
- 509:
             option = _closure1_slot8;
             kiloes = _closure1_slot0;
             verify = _closure1_slot2;
@@ -301,8 +297,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = report.PressableOpacity;
             report = {};
             romeon = function() { // Original name: onPress
-                zuuluu = _closure2_slot8;
-                entity = _closure2_slot7;
+                zuuluu = _closure2_slot7;
+                entity = _closure2_slot6;
                 michal = !entity;
                 entity = undefined;
                 michal = zuuluu.bind(entity)(michal);
@@ -326,8 +322,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = new Array(2);
             verify[0] = romeon;
             offset = !offset;
-            if(!offset) { _fun00002_ip = 734; continue _fun00001 }
- 627:
+            if(!offset) { _fun00002_ip = 722; continue _fun00001 }
+ 615:
             foxtra = _closure1_slot7;
             result = _closure1_slot0;
             kiloes = _closure1_slot2;
@@ -351,14 +347,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup.gifTagText;
             yankee['textStyle'] = backup;
             offset = foxtra.bind(tangon)(romeon, yankee);
- 734:
+ 722:
             verify[1] = offset;
             report['children'] = verify;
             report = option.bind(tangon)(golfie, report);
-            _fun00002_ip = 754; continue _fun00001;
- 750:
+            _fun00002_ip = 742; continue _fun00001;
+ 738:
             report = oscard.bind(tangon)();
- 754:
+ 742:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

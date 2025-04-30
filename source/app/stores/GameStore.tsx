@@ -957,22 +957,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = entity.etag;
                 oscard = null;
                 entity = oscard != michal;
-                if(!entity) { _fun00036_ip = 35; continue _fun00035 }
- 24:
+                if(!entity) { _fun00036_ip = 37; continue _fun00035 }
+ 26:
                 zuuluu = _closure1_slot14;
                 entity = zuuluu !== michal;
- 35:
-                if(!entity) { _fun00036_ip = 45; continue _fun00035 }
- 38:
+ 37:
+                if(!entity) { _fun00036_ip = 47; continue _fun00035 }
+ 40:
                 _closure1_slot14 = michal;
- 45:
+ 47:
                 michal = _closure1_slot18;
                 entity = undefined;
                 report = michal.bind(entity)(tangon);
                 tangon = report.bind(entity)();
                 michal = tangon.done;
-                if(michal) { _fun00036_ip = 307; continue _fun00035 }
- 74:
+                if(michal) { _fun00036_ip = 309; continue _fun00035 }
+ 76:
                 option = tangon.value;
                 golfie = _closure1_slot21;
                 michal = {};
@@ -981,47 +981,47 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 verify = option.name;
                 michal['name'] = verify;
                 yankee = option.executables;
-                if(!(oscard == yankee)) { _fun00036_ip = 117; continue _fun00035 }
- 113:
+                if(!(oscard == yankee)) { _fun00036_ip = 119; continue _fun00035 }
+ 115:
                 yankee = new Array(0);
- 117:
+ 119:
                 offset = yankee.map;
                 verify = _closure1_slot8;
                 verify = offset.bind(yankee)(verify);
                 michal['executables'] = verify;
                 offset = option.overlay;
                 verify = oscard != offset;
-                if(!verify) { _fun00036_ip = 152; continue _fun00035 }
- 149:
+                if(!verify) { _fun00036_ip = 154; continue _fun00035 }
+ 151:
                 verify = offset;
- 152:
+ 154:
                 michal['overlay'] = verify;
                 offset = option.overlay_warn;
                 verify = oscard != offset;
-                if(!verify) { _fun00036_ip = 173; continue _fun00035 }
- 170:
+                if(!verify) { _fun00036_ip = 175; continue _fun00035 }
+ 172:
                 verify = offset;
- 173:
+ 175:
                 michal['overlayWarn'] = verify;
                 offset = option.overlay_compatibility_hook;
                 verify = oscard != offset;
-                if(!verify) { _fun00036_ip = 194; continue _fun00035 }
- 191:
+                if(!verify) { _fun00036_ip = 196; continue _fun00035 }
+ 193:
                 verify = offset;
- 194:
+ 196:
                 michal['overlayCompatibilityHook'] = verify;
                 offset = option.hook;
                 verify = oscard == offset;
-                if(verify) { _fun00036_ip = 215; continue _fun00035 }
- 212:
+                if(verify) { _fun00036_ip = 217; continue _fun00035 }
+ 214:
                 verify = offset;
- 215:
+ 217:
                 michal['hook'] = verify;
                 verify = option.aliases;
-                if(!(oscard == verify)) { _fun00036_ip = 234; continue _fun00035 }
- 230:
+                if(!(oscard == verify)) { _fun00036_ip = 236; continue _fun00035 }
+ 232:
                 verify = new Array(0);
- 234:
+ 236:
                 michal['aliases'] = verify;
                 yankee = _closure1_slot7;
                 offset = yankee.supportsOutOfProcessOverlay;
@@ -1029,17 +1029,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 verify = offset.bind(yankee)(verify);
                 michal['supportsOutOfProcessOverlay'] = verify;
                 option = option.themes;
-                if(!(oscard == option)) { _fun00036_ip = 279; continue _fun00035 }
- 275:
+                if(!(oscard == option)) { _fun00036_ip = 281; continue _fun00035 }
+ 277:
                 option = new Array(0);
- 279:
+ 281:
                 michal['themes'] = option;
                 michal = golfie.bind(entity)(michal);
                 golfie = report.bind(entity)();
                 michal = golfie.done;
                 tangon = golfie;
-                if(!michal) { _fun00036_ip = 74; continue _fun00035 }
- 307:
+                if(!michal) { _fun00036_ip = 76; continue _fun00035 }
+ 309:
                 _closure1_slot15 = entity;
                 michal = global;
                 tangon = michal.Date;

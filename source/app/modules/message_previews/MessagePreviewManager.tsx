@@ -356,7 +356,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = {};
                 report = function() { // Original name: CONNECTION_OPEN_SUPPLEMENTAL
                     michal = _closure3_slot0;
-                    entity = michal.handleConnectionResumed;
+                    entity = michal.handleConnectionOpenSupplemental;
                     entity = entity.bind(michal)();
                     return entity;
                 };
@@ -646,7 +646,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = entity;
-        entity = new Array(16);
+        entity = new Array(17);
         entity[0] = report;
         report = {};
         option = 'fetchLocal';
@@ -1105,40 +1105,60 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[6] = report;
         report = {};
+        golfie = 'handleConnectionOpenSupplemental';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
+            zuuluu = this;
+            michal = zuuluu.handleConnectionResumed;
+            entity = false;
+            entity = michal.bind(zuuluu)(entity);
+            entity = undefined;
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[7] = report;
+        report = {};
         golfie = 'handleConnectionResumed';
         report['key'] = golfie;
         golfie = function() { // Original name: value
             _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
  0:
-                michal = this;
-                entity = michal.tickQueued;
-                if(!entity) { _fun00032_ip = 49; continue _fun00031 }
- 12:
-                entity = michal.remoteTicking;
-                if(entity) { _fun00032_ip = 49; continue _fun00031 }
- 21:
-                entity = michal.remoteTick;
-                entity = entity.bind(michal)();
-                zuuluu = michal.remoteTick;
-                entity = zuuluu.flush;
-                entity = entity.bind(zuuluu)();
-                _fun00032_ip = 89; continue _fun00031;
- 49:
-                zuuluu = michal.localFetching;
-                entity = zuuluu.clear;
-                entity = entity.bind(zuuluu)();
-                zuuluu = michal.remote;
-                entity = zuuluu.clear;
-                entity = entity.bind(zuuluu)();
-                entity = false;
-                michal['remoteTicking'] = entity;
- 89:
+                michal = arguments[0];
+                zuuluu = this;
                 entity = undefined;
+                if(!(michal === entity)) { _fun00032_ip = 14; continue _fun00031 }
+ 12:
+                michal = true;
+ 14:
+                tangon = zuuluu.tickQueued;
+                if(!tangon) { _fun00032_ip = 60; continue _fun00031 }
+ 23:
+                tangon = zuuluu.remoteTicking;
+                if(tangon) { _fun00032_ip = 60; continue _fun00031 }
+ 32:
+                tangon = zuuluu.remoteTick;
+                tangon = tangon.bind(zuuluu)();
+                report = zuuluu.remoteTick;
+                tangon = report.flush;
+                tangon = tangon.bind(report)();
+                _fun00032_ip = 103; continue _fun00031;
+ 60:
+                if(!michal) { _fun00032_ip = 103; continue _fun00031 }
+ 63:
+                tangon = zuuluu.localFetching;
+                michal = tangon.clear;
+                michal = michal.bind(tangon)();
+                tangon = zuuluu.remote;
+                michal = tangon.clear;
+                michal = michal.bind(tangon)();
+                michal = false;
+                zuuluu['remoteTicking'] = michal;
+ 103:
                 return entity;
             }
         };
         report['value'] = golfie;
-        entity[7] = report;
+        entity[8] = report;
         report = {};
         golfie = 'handleGuildCreate';
         report['key'] = golfie;
@@ -1154,7 +1174,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[8] = report;
+        entity[9] = report;
         report = {};
         golfie = 'handleGuildDelete';
         report['key'] = golfie;
@@ -1170,7 +1190,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[9] = report;
+        entity[10] = report;
         report = {};
         golfie = 'handleLogout';
         report['key'] = golfie;
@@ -1188,7 +1208,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[10] = report;
+        entity[11] = report;
         report = {};
         golfie = 'handleMessageCreate';
         report['key'] = golfie;
@@ -1212,7 +1232,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[11] = report;
+        entity[12] = report;
         report = {};
         golfie = 'handleMessageDelete';
         report['key'] = golfie;
@@ -1236,7 +1256,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[12] = report;
+        entity[13] = report;
         report = {};
         golfie = 'handleMessageUpdate';
         report['key'] = golfie;
@@ -1267,7 +1287,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[13] = report;
+        entity[14] = report;
         report = {};
         golfie = 'handleMessagesLoaded';
         report['key'] = golfie;
@@ -1320,7 +1340,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[14] = report;
+        entity[15] = report;
         report = {};
         golfie = 'handleThreadListSync';
         report['key'] = golfie;
@@ -1362,7 +1382,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = oscard;
-        entity[15] = report;
+        entity[16] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

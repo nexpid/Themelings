@@ -23,27 +23,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 1;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.Linking;
-    var _closure1_slot3 = tangon;
+    golfie = tangon.XBOX_ANDROID_APP_LINK;
+    var _closure1_slot3 = golfie;
+    tangon = tangon.XBOX_IOS_APP_LINK;
+    var _closure1_slot4 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    golfie = tangon.XBOX_ANDROID_APP_LINK;
-    var _closure1_slot4 = golfie;
-    tangon = tangon.XBOX_IOS_APP_LINK;
+    tangon = tangon.jsx;
     var _closure1_slot5 = tangon;
     tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot6 = tangon;
-    tangon = 4;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
     verify = {'tintColor': null, 'width': 20, 'height': 20, 'marginLeft': 8};
-    offset = 5;
+    offset = 4;
     offset = oscard[offset];
     offset = yankee.bind(entity)(offset);
     offset = offset.colors;
@@ -51,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify['tintColor'] = offset;
     tangon['externalLinkIcon'] = verify;
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot7 = tangon;
+    var _closure1_slot6 = tangon;
     tangon = 11;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -59,14 +54,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 'modules/game_console/native/XboxInstallAlert.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: XboxInstallAlert
-        entity = _closure1_slot7;
+        entity = _closure1_slot6;
         tangon = undefined;
         entity = entity.bind(tangon)();
         var _closure2_slot0 = entity;
-        zuuluu = _closure1_slot6;
+        zuuluu = _closure1_slot5;
         michal = _closure1_slot1;
         offset = _closure1_slot2;
-        entity = 6;
+        entity = 5;
         entity = offset[entity];
         michal = michal.bind(tangon)(entity);
         entity = {};
@@ -74,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         foxtra = entity;
         golfie = copyDataProperties(foxtra, romeon);
         verify = _closure1_slot0;
-        oscard = 7;
+        oscard = 6;
         golfie = offset[oscard];
         golfie = verify.bind(tangon)(golfie);
         yankee = golfie.intl;
@@ -123,15 +118,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = 'fillCancelText';
         entity[oscard] = golfie;
         golfie = function() { // Original name: renderConfirmRightIcon
-            tangon = _closure1_slot6;
+            tangon = _closure1_slot5;
             oscard = _closure1_slot1;
             golfie = _closure1_slot2;
-            entity = 8;
+            entity = 7;
             entity = golfie[entity];
             zuuluu = undefined;
             michal = oscard.bind(zuuluu)(entity);
             entity = {};
-            report = 9;
+            report = 8;
             report = golfie[report];
             report = oscard.bind(zuuluu)(report);
             entity['source'] = report;
@@ -148,23 +143,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
-                entity = 10;
+                entity = 9;
                 zuuluu = zuuluu[entity];
                 entity = undefined;
                 tangon = tangon.bind(entity)(zuuluu);
                 zuuluu = tangon.isAndroid;
                 report = zuuluu.bind(tangon)();
-                tangon = _closure1_slot3;
+                tangon = _closure1_slot1;
+                oscard = _closure1_slot2;
+                zuuluu = 10;
+                zuuluu = oscard[zuuluu];
+                tangon = tangon.bind(entity)(zuuluu);
                 zuuluu = tangon.openURL;
-                if(report) { _fun00002_ip = 58; continue _fun00001 }
- 47:
-                report = _closure1_slot5;
+                if(report) { _fun00002_ip = 74; continue _fun00001 }
+ 63:
+                report = _closure1_slot4;
                 report = zuuluu.bind(tangon)(report);
-                _fun00002_ip = 67; continue _fun00001;
- 58:
-                michal = _closure1_slot4;
+                _fun00002_ip = 83; continue _fun00001;
+ 74:
+                michal = _closure1_slot3;
                 michal = zuuluu.bind(tangon)(michal);
- 67:
+ 83:
                 return entity;
             }
         };

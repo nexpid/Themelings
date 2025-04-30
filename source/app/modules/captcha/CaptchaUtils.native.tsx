@@ -109,12 +109,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot1 = zuuluu;
             var _closure2_slot2 = zuuluu;
             var _closure2_slot3 = zuuluu;
+            var _closure2_slot4 = zuuluu;
             zuuluu = michal.sitekey;
             _closure2_slot1 = zuuluu;
             zuuluu = michal.captchaService;
             _closure2_slot2 = zuuluu;
+            zuuluu = michal.captchaSessionId;
+            _closure2_slot3 = zuuluu;
             michal = michal.options;
-            _closure2_slot3 = michal;
+            _closure2_slot4 = michal;
             michal = global;
             zuuluu = michal.Promise;
             michal = zuuluu.prototype;
@@ -152,6 +155,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal['captcha_key'] = entity;
                     entity = argBar;
                     michal['captcha_rqtoken'] = entity;
+                    entity = _closure2_slot3;
+                    michal['captcha_session_id'] = entity;
                     entity = undefined;
                     entity = zuuluu.bind(entity)(michal);
                     return entity;
@@ -193,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 romeon = _closure2_slot0;
                 foxtra = zuuluu;
                 option = copyDataProperties(foxtra, romeon);
-                romeon = _closure2_slot3;
+                romeon = _closure2_slot4;
                 foxtra = zuuluu;
                 michal = copyDataProperties(foxtra, romeon);
                 offset = 'stack';

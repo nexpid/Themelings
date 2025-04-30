@@ -47,6 +47,8 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity['label'] = zuuluu;
         zuuluu = michal.default;
         entity['default'] = zuuluu;
+        zuuluu = michal.variants;
+        entity['variants'] = zuuluu;
         zuuluu = michal.is_blurred;
         entity['isBlurred'] = zuuluu;
         michal = michal.design_group_id;

@@ -583,13 +583,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot39 = entity;
     report = function(argFoo) { // Original name: handleChannelDelete
         entity = argFoo;
+        michal = entity.type;
         entity = entity.channel;
+        report = _closure1_slot39;
         tangon = entity.id;
         zuuluu = entity.guild_id;
-        entity = entity.parent_id;
-        michal = _closure1_slot39;
+        michal = entity.parent_id;
         entity = undefined;
-        michal = michal.bind(entity)(tangon, zuuluu);
+        michal = report.bind(entity)(tangon, zuuluu, michal);
         return entity;
     };
     verify = global;
@@ -1177,24 +1178,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = michal.bind(entity)(zuuluu);
             zuuluu = tangon.bind(entity)();
             michal = zuuluu.done;
-            if(michal) { _fun00048_ip = 95; continue _fun00047 }
+            if(michal) { _fun00048_ip = 114; continue _fun00047 }
  35:
-            option = zuuluu.value;
-            michal = option.isScheduledForDeletion;
-            michal = michal.bind(option)();
-            if(!michal) { _fun00048_ip = 80; continue _fun00047 }
+            michal = zuuluu.value;
+            oscard = michal.isScheduledForDeletion;
+            oscard = oscard.bind(michal)();
+            if(!oscard) { _fun00048_ip = 99; continue _fun00047 }
  53:
-            golfie = _closure1_slot39;
-            oscard = option.id;
-            michal = option.guild_id;
-            option = option.parent_id;
-            michal = golfie.bind(entity)(oscard, michal, entity);
- 80:
+            option = _closure1_slot9;
+            golfie = option.has;
+            oscard = michal.type;
+            oscard = golfie.bind(option)(oscard);
+            option = _closure1_slot39;
+            golfie = michal.id;
+            oscard = michal.guild_id;
+            michal = michal.parent_id;
+            michal = option.bind(entity)(golfie, oscard, michal);
+ 99:
             oscard = tangon.bind(entity)();
             michal = oscard.done;
             zuuluu = oscard;
             if(!michal) { _fun00048_ip = 35; continue _fun00047 }
- 95:
+ 114:
             return entity;
         }
     };

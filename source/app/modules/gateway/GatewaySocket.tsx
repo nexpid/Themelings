@@ -2781,29 +2781,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = this;
                 var _closure3_slot0 = zuuluu;
                 yankee = golfie.action;
-                kiloes = golfie.error;
+                sizing = golfie.error;
                 oscard = golfie.metricAction;
                 offset = _closure1_slot14;
                 verify = offset.error;
-                foxtra = kiloes.message;
+                foxtra = sizing.message;
                 report = global;
                 entity = report.HermesInternal;
                 romeon = entity.concat;
                 option = 'resetSocketOnError during ';
                 entity = ': ';
                 option = romeon.bind(option)(yankee, entity, foxtra);
-                entity = kiloes.stack;
+                entity = sizing.stack;
                 entity = verify.bind(offset)(option, entity);
-                verify = _closure1_slot1;
+                foxtra = _closure1_slot0;
                 backup = _closure1_slot3;
                 entity = 34;
                 option = backup[entity];
                 entity = undefined;
+                verify = foxtra.bind(entity)(option);
+                option = verify.usesClientMods;
+                kiloes = option.bind(verify)();
+                verify = _closure1_slot1;
+                option = 35;
+                option = backup[option];
                 offset = verify.bind(entity)(option);
                 verify = offset.increment;
                 option = {};
-                foxtra = _closure1_slot0;
-                romeon = 35;
+                romeon = 36;
                 romeon = backup[romeon];
                 romeon = foxtra.bind(entity)(romeon);
                 romeon = romeon.MetricEvents;
@@ -2811,26 +2816,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option['name'] = romeon;
                 romeon = null;
                 foxtra = yankee;
-                if(!(romeon != oscard)) { _fun00068_ip = 163; continue _fun00067 }
- 160:
+                if(!(romeon != oscard)) { _fun00068_ip = 185; continue _fun00067 }
+ 182:
                 foxtra = oscard;
- 163:
+ 185:
                 oscard = report.HermesInternal;
                 romeon = oscard.concat;
                 oscard = 'action:';
                 romeon = romeon.bind(oscard)(foxtra);
-                oscard = new Array(1);
+                oscard = new Array(2);
                 oscard[0] = romeon;
+                romeon = report.HermesInternal;
+                foxtra = romeon.concat;
+                romeon = 'modded_client:';
+                romeon = foxtra.bind(romeon)(kiloes);
+                oscard[1] = romeon;
                 option['tags'] = oscard;
                 oscard = true;
                 option = verify.bind(offset)(option, oscard);
                 verify = golfie.sentry;
                 option = false;
-                if(!(option !== verify)) { _fun00068_ip = 266; continue _fun00067 }
- 218:
+                if(!(option !== verify)) { _fun00068_ip = 314; continue _fun00067 }
+ 266:
                 verify = _closure1_slot1;
                 offset = _closure1_slot3;
-                option = 36;
+                option = 37;
                 option = offset[option];
                 offset = verify.bind(entity)(option);
                 verify = offset.captureException;
@@ -2838,8 +2848,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 romeon = {};
                 romeon['socketCrashedAction'] = yankee;
                 option['tags'] = romeon;
-                option = verify.bind(offset)(kiloes, option);
- 266:
+                option = verify.bind(offset)(sizing, option);
+ 314:
                 verify = _closure1_slot1;
                 offset = _closure1_slot3;
                 option = 25;
@@ -2849,10 +2859,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = _closure1_slot12;
                 romeon = option.GATEWAY_SOCKET_RESET;
                 option = {};
-                sizing = kiloes.message;
-                option['error_message'] = sizing;
-                kiloes = kiloes.stack;
-                option['error_stack'] = kiloes;
+                output = sizing.message;
+                option['error_message'] = output;
+                sizing = sizing.stack;
+                option['error_stack'] = sizing;
+                option['has_client_mods'] = kiloes;
                 option['action'] = yankee;
                 option = foxtra.bind(backup)(romeon, option);
                 romeon = zuuluu._cleanup;
@@ -2879,18 +2890,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = verify.cancel;
                 option = option.bind(verify)();
                 golfie = golfie.clearCache;
-                if(golfie) { _fun00068_ip = 460; continue _fun00067 }
- 442:
+                if(golfie) { _fun00068_ip = 513; continue _fun00067 }
+ 495:
                 option = zuuluu.dispatchExceptionBackoff;
                 verify = option._fails;
                 option = 0;
                 golfie = verify > option;
- 460:
+ 513:
                 option = zuuluu.dispatchExceptionBackoff;
                 option = option._fails;
                 offset = 0;
-                if(!(offset !== option)) { _fun00068_ip = 504; continue _fun00067 }
- 478:
+                if(!(offset !== option)) { _fun00068_ip = 557; continue _fun00067 }
+ 531:
                 romeon = zuuluu.dispatchExceptionBackoff;
                 verify = romeon.fail;
                 option = function() {
@@ -2900,8 +2911,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 option = verify.bind(romeon)(option);
-                _fun00068_ip = 568; continue _fun00067;
- 504:
+                _fun00068_ip = 621; continue _fun00067;
+ 557:
                 romeon = _closure1_slot14;
                 verify = romeon.verbose;
                 option = 'Triggering fast reconnect';
@@ -2921,13 +2932,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 option = verify.bind(entity)(option, offset);
- 568:
-                if(!golfie) { _fun00068_ip = 644; continue _fun00067 }
- 571:
+ 621:
+                if(!golfie) { _fun00068_ip = 697; continue _fun00067 }
+ 624:
                 zuuluu['didForceClearGuildHashes'] = oscard;
                 golfie = _closure1_slot1;
                 option = _closure1_slot3;
-                oscard = 37;
+                oscard = 38;
                 oscard = option[oscard];
                 option = golfie.bind(entity)(oscard);
                 golfie = option.dispatch;
@@ -2940,7 +2951,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify = offset.bind(verify)(yankee);
                 oscard['reason'] = verify;
                 oscard = golfie.bind(option)(oscard);
- 644:
+ 697:
                 golfie = report.clearTimeout;
                 oscard = zuuluu.dispatchSuccessTimer;
                 oscard = golfie.bind(entity)(oscard);
@@ -3301,7 +3312,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     michal = michal.bind(entity)(tangon);
-    tangon = 38;
+    tangon = 39;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

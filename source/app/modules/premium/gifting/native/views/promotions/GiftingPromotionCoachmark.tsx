@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = zuuluu.bind(tangon)(entity, michal);
             michal = offset == kiloes;
             entity = null;
-            if(michal) { _fun00002_ip = 830; continue _fun00001 }
+            if(michal) { _fun00002_ip = 834; continue _fun00001 }
  379:
             tangon = _closure1_slot9;
             romeon = _closure1_slot0;
@@ -372,7 +372,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 830:
+ 834:
             return entity;
         }
     };

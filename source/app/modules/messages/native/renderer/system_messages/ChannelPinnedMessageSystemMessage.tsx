@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
     var _closure1_slot5 = tangon;
-    tangon = 8;
+    tangon = 9;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = entity.row;
         report = _closure1_slot0;
         golfie = _closure1_slot2;
-        zuuluu = 6;
+        zuuluu = 7;
         zuuluu = golfie[zuuluu];
         tangon = undefined;
         yankee = report.bind(tangon)(zuuluu);
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 4;
+                entity = 5;
                 zuuluu = oscard[entity];
                 michal = undefined;
                 zuuluu = report.bind(michal)(zuuluu);
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = report.bind(option)(michal, zuuluu);
         zuuluu = _closure1_slot5;
         michal = _closure1_slot1;
-        entity = 7;
+        entity = 8;
         entity = golfie[entity];
         michal = michal.bind(tangon)(entity);
         entity = {};
@@ -169,8 +169,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.bind(report)(offset);
             verify = entity.nick;
             foxtra = entity.colorString;
+            kiloes = entity.colorStrings;
+            golfie = entity.guildId;
+            entity = 4;
+            entity = yankee[entity];
+            report = oscard.bind(zuuluu)(entity);
+            entity = report.isNativeMessageEligibleForEnhancedRoleColors;
+            sizing = entity.bind(report)(golfie, backup);
             entity = {};
-            report = 4;
+            report = 5;
             golfie = yankee[report];
             golfie = oscard.bind(zuuluu)(golfie);
             option = golfie.intl;
@@ -189,20 +196,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['userId'] = yankee;
             verify['colorString'] = foxtra;
             romeon = null;
-            kiloes = 'username';
+            output = 'username';
             yankee = null;
-            if(!(kiloes === backup)) { _fun00004_ip = 160; continue _fun00003 }
- 157:
+            if(!(output === backup)) { _fun00004_ip = 195; continue _fun00003 }
+ 192:
             yankee = foxtra;
- 160:
+ 195:
             verify['linkColor'] = yankee;
             verify['roleColor'] = foxtra;
+            yankee = null;
+            if(!sizing) { _fun00004_ip = 213; continue _fun00003 }
+ 210:
+            yankee = kiloes;
+ 213:
+            verify['roleColors'] = yankee;
             yankee = 'dot';
             yankee = yankee === backup;
-            if(!yankee) { _fun00004_ip = 185; continue _fun00003 }
- 181:
+            if(!yankee) { _fun00004_ip = 233; continue _fun00003 }
+ 229:
             yankee = romeon != foxtra;
- 185:
+ 233:
             verify['shouldShowRoleDot'] = yankee;
             yankee = offset.channel_id;
             verify['messageChannelId'] = yankee;
@@ -217,12 +230,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['content'] = report;
             report = _closure1_slot1;
             oscard = _closure1_slot2;
-            michal = 5;
+            michal = 6;
             michal = oscard[michal];
             michal = report.bind(zuuluu)(michal);
-            sizing = michal.bind(zuuluu)(tangon);
-            output = entity;
-            michal = copyDataProperties(output, sizing);
+            result = michal.bind(zuuluu)(tangon);
+            echoed = entity;
+            michal = copyDataProperties(echoed, result);
             return entity;
         }
     };

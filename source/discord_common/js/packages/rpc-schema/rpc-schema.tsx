@@ -13,7 +13,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     oscard['value'] = entity;
     entity = '__esModule';
     entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
+    entity = 2;
     tangon = tangon[entity];
     entity = undefined;
     oscard = report.bind(entity)(tangon);
@@ -53,16 +53,25 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = function(argFoo) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
+                    oscard = argFoo;
                     zuuluu = _closure2_slot1;
                     michal = null;
-                    if(!(michal == zuuluu)) { _fun00004_ip = 31; continue _fun00003 }
- 13:
-                    tangon = _closure2_slot0;
-                    zuuluu = undefined;
-                    michal = argFoo;
-                    michal = tangon.bind(zuuluu)(michal);
+                    if(!(michal == zuuluu)) { _fun00004_ip = 76; continue _fun00003 }
+ 16:
+                    zuuluu = _closure1_slot0;
+                    tangon = _closure1_slot1;
+                    michal = 1;
+                    michal = tangon[michal];
+                    golfie = undefined;
+                    tangon = zuuluu.bind(golfie)(michal);
+                    zuuluu = tangon.joiReqObj;
+                    report = oscard.object;
+                    michal = _closure2_slot0;
+                    michal = michal.bind(golfie)(oscard);
+                    michal = report.bind(oscard)(michal);
+                    michal = zuuluu.bind(tangon)(michal);
                     _closure2_slot1 = michal;
- 31:
+ 76:
                     entity = _closure2_slot1;
                     return entity;
                 }

@@ -265,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         offset = verify.memberCount;
         romeon['style'] = offset;
         offset = {};
-        foxtra = verify.dot;
+        foxtra = verify.dotOnline;
         offset['style'] = foxtra;
         offset = golfie.bind(tangon)(michal, offset);
         foxtra = new Array(2);
@@ -282,10 +282,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         result = kiloes[offset];
         result = yankee.bind(tangon)(result);
         result = result.t;
-        echoed = result.zRl6XV;
+        echoed = result.LC+S+v;
         result = {};
-        ctrled = vacuum.memberCount;
-        result['count'] = ctrled;
+        ctrled = vacuum.onlineCount;
+        result['membersOnline'] = ctrled;
         result = update.bind(source)(echoed, result);
         sizing['children'] = result;
         sizing = golfie.bind(tangon)(output, sizing);
@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         sizing = verify.memberCount;
         foxtra['style'] = sizing;
         sizing = {};
-        output = verify.dotOnline;
+        output = verify.dot;
         sizing['style'] = output;
         output = golfie.bind(tangon)(michal, sizing);
         sizing = new Array(2);
@@ -314,10 +314,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         echoed = kiloes[offset];
         echoed = yankee.bind(tangon)(echoed);
         echoed = echoed.t;
-        update = echoed.LC+S+v;
+        update = echoed.zRl6XV;
         echoed = {};
-        vacuum = vacuum.onlineCount;
-        echoed['membersOnline'] = vacuum;
+        vacuum = vacuum.memberCount;
+        echoed['count'] = vacuum;
         echoed = source.bind(ctrled)(update, echoed);
         output['children'] = echoed;
         output = golfie.bind(tangon)(result, output);

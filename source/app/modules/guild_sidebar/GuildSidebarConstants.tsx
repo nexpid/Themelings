@@ -38,6 +38,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['GUILD_MOD_DASH_MEMBER_SAFETY'] = entity;
     entity = 'guild-boosts';
     tangon['GUILD_BOOSTS'] = entity;
+    entity = 'report-to-mod-channel';
+    tangon['REPORT_TO_MOD_CHANNEL'] = entity;
     michal = {};
     entity = 'spacer';
     michal['SPACER'] = entity;

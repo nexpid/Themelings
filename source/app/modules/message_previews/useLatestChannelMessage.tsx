@@ -49,26 +49,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot1 = report;
             var _closure2_slot2 = report;
             var _closure2_slot3 = report;
-            zuuluu = null;
-            tangon = zuuluu == entity;
-            oscard = undefined;
-            if(tangon) { _fun00002_ip = 48; continue _fun00001 }
- 43:
-            oscard = entity.guild_id;
- 48:
-            golfie = zuuluu != oscard;
-            tangon = null;
-            if(!golfie) { _fun00002_ip = 60; continue _fun00001 }
- 57:
-            tangon = oscard;
- 60:
-            _closure2_slot1 = tangon;
-            zuuluu = zuuluu == entity;
-            golfie = undefined;
-            if(zuuluu) { _fun00002_ip = 78; continue _fun00001 }
- 73:
+            zuuluu = entity.guild_id;
+            _closure2_slot1 = zuuluu;
             golfie = entity.id;
- 78:
             _closure2_slot2 = golfie;
             tangon = _closure1_slot0;
             oscard = _closure1_slot2;
@@ -83,12 +66,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot0;
-                    if(entity) { _fun00004_ip = 80; continue _fun00003 }
+                    if(entity) { _fun00004_ip = 70; continue _fun00003 }
  10:
-                    zuuluu = _closure2_slot2;
-                    entity = null;
-                    if(!(entity != zuuluu)) { _fun00004_ip = 80; continue _fun00003 }
- 20:
                     report = _closure1_slot5;
                     tangon = report.message;
                     zuuluu = _closure2_slot1;
@@ -101,13 +80,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = _closure2_slot2;
                     michal = tangon.bind(report)(zuuluu, michal);
                     entity[1] = michal;
-                    _fun00004_ip = 99; continue _fun00003;
- 80:
+                    _fun00004_ip = 89; continue _fun00003;
+ 70:
                     michal = [null];
                     zuuluu = true;
                     michal[1] = zuuluu;
                     entity = michal;
- 99:
+ 89:
                     return entity;
                 }
             };

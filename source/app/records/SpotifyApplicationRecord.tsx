@@ -122,14 +122,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         var _closure2_slot0 = tangon;
-        oscard = _closure1_slot4;
+        report = _closure1_slot4;
         zuuluu = undefined;
-        report = argFoo;
-        report = oscard.bind(zuuluu)(tangon, report);
+        michal = argFoo;
+        michal = report.bind(zuuluu)(tangon, michal);
         michal = _closure1_slot1;
         report = {};
-        oscard = 'getIconURL';
-        report['key'] = oscard;
+        entity = 'getIconURL';
+        report['key'] = entity;
         entity = function() { // Original name: value
             entity = _closure1_slot5;
             entity = entity.icon;
@@ -137,8 +137,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(1);
+        entity = new Array(2);
         entity[0] = report;
+        report = {};
+        golfie = 'getWhiteIconURL';
+        report['key'] = golfie;
+        oscard = function() { // Original name: value
+            entity = _closure1_slot5;
+            entity = entity.icon;
+            entity = entity.whitePNG;
+            return entity;
+        };
+        report['value'] = oscard;
+        entity[1] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

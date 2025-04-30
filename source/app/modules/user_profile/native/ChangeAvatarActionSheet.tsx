@@ -392,7 +392,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = config[source];
             config = papara.bind(tangon)(config);
             config = config.t;
-            config = config.Tna/TU;
+            config = config.BVcYCw;
             config = record.bind(cntext)(config);
             vacuum['text'] = config;
             vacuum = output.bind(tangon)(sequen, vacuum);

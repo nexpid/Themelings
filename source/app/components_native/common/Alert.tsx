@@ -852,7 +852,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity['width'] = zuuluu;
         zuuluu = tangon.getHeight;
         tangon = zuuluu.bind(tangon)();
-        zuuluu = 0.5;
+        zuuluu = 0.7;
         zuuluu = zuuluu * tangon;
         entity['contentHeight'] = zuuluu;
         tangon = _closure1_slot0;

@@ -187,12 +187,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot25 = entity;
     romeon = function(argFoo) { // Original name: applyAppleReceipt
         entity = argFoo;
-        yankee = entity.encodedReceipt;
-        offset = entity.entitlementSkuId;
-        verify = entity.presentmentCurrency;
-        option = entity.presentmentAmount;
-        golfie = entity.appStoreRegion;
-        oscard = entity.giftInfoOptions;
+        romeon = entity.encodedReceipt;
+        yankee = entity.entitlementSkuId;
+        offset = entity.presentmentCurrency;
+        verify = entity.presentmentAmount;
+        option = entity.appStoreRegion;
+        golfie = entity.giftInfoOptions;
+        oscard = entity.isGift;
         tangon = entity.retries;
         zuuluu = _closure1_slot0;
         michal = _closure1_slot3;
@@ -207,12 +208,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = report.BILLING_APPLY_APPLE_RECEIPT;
         entity['url'] = report;
         report = {};
-        report['encoded_receipt'] = yankee;
-        report['entitlement_sku_id'] = offset;
-        report['presentment_currency'] = verify;
-        report['presentment_amount'] = option;
-        report['app_store_region'] = golfie;
-        report['gift_info_options'] = oscard;
+        report['encoded_receipt'] = romeon;
+        report['entitlement_sku_id'] = yankee;
+        report['presentment_currency'] = offset;
+        report['presentment_amount'] = verify;
+        report['app_store_region'] = option;
+        report['gift_info_options'] = golfie;
+        report['is_gift'] = oscard;
         entity['body'] = report;
         entity['retries'] = tangon;
         tangon = true;
@@ -338,13 +340,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 488; continue _fun00009 }
+                    if(michal) { _fun00010_ip = 549; continue _fun00009 }
  10:
                     report = undefined;
                     option = undefined;
                     foxtra = undefined;
                     oscard = undefined;
-                    yankee = undefined;
+                    romeon = undefined;
                     tangon = undefined;
                     offset = undefined;
  24: // try_start_0
@@ -360,18 +362,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  61:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(golfie) { _fun00010_ip = 478; continue _fun00009 }
+                    if(golfie) { _fun00010_ip = 539; continue _fun00009 }
  70:
                     foxtra = michal;
-                    romeon = _closure1_slot0;
+                    yankee = _closure1_slot0;
                     kiloes = _closure1_slot3;
                     verify = 16;
                     golfie = kiloes[verify];
-                    golfie = romeon.bind(report)(golfie);
+                    golfie = yankee.bind(report)(golfie);
                     backup = golfie.Storage;
-                    romeon = backup.get;
+                    yankee = backup.get;
                     golfie = _closure1_slot20;
-                    romeon = romeon.bind(backup)(golfie);
+                    yankee = yankee.bind(backup)(golfie);
                     backup = _closure1_slot1;
                     golfie = 17;
                     golfie = kiloes[golfie];
@@ -379,18 +381,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = backup.v3;
                     golfie = golfie.bind(backup)(michal);
                     oscard = golfie;
-                    if(!(romeon !== golfie)) { _fun00010_ip = 427; continue _fun00009 }
+                    if(!(yankee !== golfie)) { _fun00010_ip = 488; continue _fun00009 }
  150:
                     backup = _closure1_slot9;
-                    romeon = backup.getGiftOptionsForKey;
+                    yankee = backup.getGiftOptionsForKey;
                     golfie = oscard;
-                    yankee = romeon.bind(backup)(golfie);
-                    romeon = _closure1_slot14;
-                    golfie = romeon.getProducts;
-                    golfie = golfie.bind(romeon)();
+                    romeon = yankee.bind(backup)(golfie);
+                    yankee = _closure1_slot14;
+                    golfie = yankee.getProducts;
+                    golfie = golfie.bind(yankee)();
                     option = golfie;
-                    romeon = null;
-                    if(!(romeon == golfie)) { _fun00010_ip = 197; continue _fun00009 }
+                    yankee = null;
+                    if(!(yankee == golfie)) { _fun00010_ip = 197; continue _fun00009 }
  191:
                     golfie = new Array(0);
                     _fun00010_ip = 200; continue _fun00009;
@@ -412,7 +414,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon['encodedReceipt'] = foxtra;
                     foxtra = 3;
                     tangon['retries'] = foxtra;
-                    foxtra = romeon == option;
+                    foxtra = yankee == option;
                     option = undefined;
                     if(foxtra) { _fun00010_ip = 260; continue _fun00009 }
  254:
@@ -420,32 +422,55 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  260:
                     tangon['appStoreRegion'] = option;
                     option = {};
-                    offset = yankee;
-                    foxtra = romeon == offset;
+                    offset = romeon;
+                    foxtra = yankee == offset;
                     offset = undefined;
                     if(foxtra) { _fun00010_ip = 288; continue _fun00009 }
  279:
-                    foxtra = yankee;
+                    foxtra = romeon;
                     offset = foxtra.gift_style;
  288:
                     option['gift_style'] = offset;
-                    offset = yankee;
-                    romeon = romeon == offset;
+                    offset = romeon;
+                    foxtra = yankee == offset;
                     offset = undefined;
-                    if(romeon) { _fun00010_ip = 311; continue _fun00009 }
+                    if(foxtra) { _fun00010_ip = 314; continue _fun00009 }
  305:
-                    offset = yankee.reward_sku_ids;
- 311:
+                    foxtra = romeon;
+                    offset = foxtra.reward_sku_ids;
+ 314:
                     option['reward_sku_ids'] = offset;
                     tangon['giftInfoOptions'] = option;
-                    tangon = golfie.bind(report)(tangon);
-                    SaveGenerator(address=330);
- 328:
-                    return tangon;
- 330:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golfie) { _fun00010_ip = 424; continue _fun00009 }
+                    offset = romeon;
+                    foxtra = yankee == offset;
+                    offset = undefined;
+                    if(foxtra) { _fun00010_ip = 345; continue _fun00009 }
  336:
+                    foxtra = romeon;
+                    offset = foxtra.gift_style;
+ 345:
+                    offset = yankee != offset;
+                    option = offset;
+                    if(offset) { _fun00010_ip = 377; continue _fun00009 }
+ 355:
+                    offset = romeon;
+                    foxtra = yankee == offset;
+                    offset = undefined;
+                    if(foxtra) { _fun00010_ip = 373; continue _fun00009 }
+ 367:
+                    offset = romeon.reward_sku_ids;
+ 373:
+                    option = yankee != offset;
+ 377:
+                    tangon['isGift'] = option;
+                    tangon = golfie.bind(report)(tangon);
+                    SaveGenerator(address=391);
+ 389:
+                    return tangon;
+ 391:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
+                    if(golfie) { _fun00010_ip = 485; continue _fun00009 }
+ 397:
                     offset = _closure1_slot1;
                     golfie = _closure1_slot3;
                     option = 18;
@@ -465,12 +490,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = verify.set;
                     golfie = _closure1_slot20;
                     golfie = option.bind(verify)(golfie, offset);
- 419: // try_end0
+ 480: // try_end0
                     golfie = true;
                     return golfie;
- 424:
+ 485:
                     return tangon;
- 427: // try_start_1
+ 488: // try_start_1
                     tangon = _closure1_slot1;
                     golfie = _closure1_slot3;
                     zuuluu = 18;
@@ -482,16 +507,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu['type'] = golfie;
                     zuuluu['key'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
- 473: // try_end1
+ 534: // try_end1
                     zuuluu = false;
                     return zuuluu;
- 478:
+ 539:
                     return michal;
- 481: // catch_target0 // catch_target1
+ 542: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=1);
                     michal = false;
                     return michal;
- 488:
+ 549:
                     return entity;
                 }
             };
@@ -972,8 +997,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             zuuluu = report.bind(verify)(zuuluu);
                             zuuluu = zuuluu.APBRequestOperations;
                             zuuluu = zuuluu.CREATE;
-                            if(!(tangon !== zuuluu)) { _fun00020_ip = 175; continue _fun00019 }
- 57:
+                            if(!(tangon !== zuuluu)) { _fun00020_ip = 233; continue _fun00019 }
+ 60:
                             zuuluu = _closure4_slot0;
                             tangon = zuuluu.operation;
                             report = _closure1_slot0;
@@ -982,35 +1007,50 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             zuuluu = report.bind(verify)(zuuluu);
                             zuuluu = zuuluu.APBRequestOperations;
                             zuuluu = zuuluu.CHARGE;
-                            if(!(tangon !== zuuluu)) { _fun00020_ip = 121; continue _fun00019 }
- 100:
+                            if(!(tangon !== zuuluu)) { _fun00020_ip = 124; continue _fun00019 }
+ 103:
                             zuuluu = {};
+                            romeon = _closure4_slot0;
+                            foxtra = zuuluu;
+                            tangon = copyDataProperties(foxtra, romeon);
+                            tangon = zuuluu;
+                            _fun00020_ip = 306; continue _fun00019;
+ 124:
                             yankee = _closure4_slot0;
-                            romeon = zuuluu;
-                            tangon = copyDataProperties(romeon, yankee);
-                            tangon = zuuluu;
-                            _fun00020_ip = 248; continue _fun00019;
- 121:
+                            option = yankee.sku_id;
+                            oscard = yankee.country_code;
+                            report = yankee.is_gift;
+                            offset = yankee.gift_info_options;
                             zuuluu = {};
-                            option = _closure4_slot0;
-                            report = option.sku_id;
-                            zuuluu['sku_id'] = report;
-                            report = option.country_code;
-                            zuuluu['request_country_code'] = report;
-                            oscard = _closure1_slot6;
-                            report = _closure1_slot5;
-                            yankee = oscard.bind(verify)(option, report);
-                            romeon = zuuluu;
-                            report = copyDataProperties(romeon, yankee);
+                            zuuluu['sku_id'] = option;
+                            zuuluu['request_country_code'] = oscard;
+                            option = _closure1_slot6;
+                            oscard = _closure1_slot5;
+                            romeon = option.bind(verify)(yankee, oscard);
+                            foxtra = zuuluu;
+                            oscard = copyDataProperties(foxtra, romeon);
+                            oscard = null;
+                            if(!(oscard != offset)) { _fun00020_ip = 216; continue _fun00019 }
+ 191:
+                            oscard = global;
+                            option = oscard.JSON;
+                            oscard = option.stringify;
+                            oscard = oscard.bind(option)(offset);
+                            zuuluu['gift_info_options'] = oscard;
+ 216:
                             tangon = zuuluu;
-                            _fun00020_ip = 248; continue _fun00019;
- 175:
+                            if(!report) { _fun00020_ip = 306; continue _fun00019 }
+ 222:
+                            zuuluu['is_gift'] = report;
+                            tangon = zuuluu;
+                            _fun00020_ip = 306; continue _fun00019;
+ 233:
                             oscard = _closure4_slot0;
                             offset = oscard.items;
                             report = oscard.country_code;
                             zuuluu = _closure1_slot6;
                             michal = _closure1_slot4;
-                            yankee = zuuluu.bind(verify)(oscard, michal);
+                            romeon = zuuluu.bind(verify)(oscard, michal);
                             michal = {};
                             oscard = global;
                             option = oscard.JSON;
@@ -1018,10 +1058,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             oscard = oscard.bind(option)(offset);
                             michal['subscription_items_json_string'] = oscard;
                             michal['request_country_code'] = report;
-                            romeon = michal;
-                            zuuluu = copyDataProperties(romeon, yankee);
+                            foxtra = michal;
+                            zuuluu = copyDataProperties(foxtra, romeon);
                             tangon = michal;
- 248:
+ 306:
                             michal = _closure1_slot0;
                             zuuluu = _closure1_slot3;
                             entity = 35;
@@ -1032,28 +1072,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             report = null;
                             option = report == golfie;
                             oscard = undefined;
-                            if(option) { _fun00020_ip = 307; continue _fun00019 }
- 287:
+                            if(option) { _fun00020_ip = 365; continue _fun00019 }
+ 345:
                             golfie = golfie.body;
                             option = report == golfie;
                             oscard = undefined;
-                            if(option) { _fun00020_ip = 307; continue _fun00019 }
- 301:
+                            if(option) { _fun00020_ip = 365; continue _fun00019 }
+ 359:
                             oscard = golfie.request_data;
- 307:
+ 365:
                             golfie = report != oscard;
                             report = '';
-                            if(!golfie) { _fun00020_ip = 321; continue _fun00019 }
- 318:
+                            if(!golfie) { _fun00020_ip = 379; continue _fun00019 }
+ 376:
                             report = oscard;
- 321:
+ 379:
                             oscard = report.length;
                             report = 0;
                             report = oscard > report;
                             entity['jwt_token_exists'] = report;
-                            romeon = entity;
-                            yankee = tangon;
-                            tangon = copyDataProperties(romeon, yankee);
+                            foxtra = entity;
+                            romeon = tangon;
+                            tangon = copyDataProperties(foxtra, romeon);
                             entity = michal.bind(zuuluu)(entity);
                             return entity;
                         }
@@ -2012,89 +2052,91 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tangon) { _fun00034_ip = 1100; continue _fun00033 }
+                    if(tangon) { _fun00034_ip = 1165; continue _fun00033 }
  13:
-                    backup = michal.requestIdentifier;
+                    sizing = michal.requestIdentifier;
                     option = michal.skuId;
-                    result = michal.currency;
-                    golfie = michal.countryCode;
-                    ctrled = michal.analyticsLocations;
-                    vacuum = michal.analyticsLoadId;
-                    romeon = argBar;
+                    update = michal.currency;
+                    foxtra = michal.countryCode;
+                    sequen = michal.analyticsLocations;
+                    config = michal.analyticsLoadId;
+                    romeon = michal.isGift;
+                    golfie = michal.giftInfoOptions;
+                    backup = argBar;
                     oscard = undefined;
-                    sizing = undefined;
-                    update = undefined;
+                    result = undefined;
+                    ctrled = undefined;
                     verify = undefined;
-                    SaveGenerator(address=64);
- 62:
+                    SaveGenerator(address=76);
+ 74:
                     return oscard;
- 64:
+ 76:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00034_ip = 1097; continue _fun00033 }
- 73:
+                    if(tangon) { _fun00034_ip = 1162; continue _fun00033 }
+ 85:
                     offset = _closure1_slot31;
                     offset = offset.bind(oscard)();
-                    if(offset) { _fun00034_ip = 92; continue _fun00033 }
- 87:
+                    if(offset) { _fun00034_ip = 104; continue _fun00033 }
+ 99:
                     offset = false;
                     return offset;
- 92:
-                    foxtra = _closure1_slot0;
-                    kiloes = _closure1_slot3;
+ 104:
+                    kiloes = _closure1_slot0;
+                    output = _closure1_slot3;
                     offset = 36;
-                    offset = kiloes[offset];
-                    offset = foxtra.bind(oscard)(offset);
+                    offset = output[offset];
+                    offset = kiloes.bind(oscard)(offset);
                     offset = offset.ProductIds;
-                    source = offset.GENERIC_CONSUMABLE;
-                    sizing = source;
-                    output = _closure1_slot1;
+                    vacuum = offset.GENERIC_CONSUMABLE;
+                    result = vacuum;
+                    echoed = _closure1_slot1;
                     offset = 18;
-                    yankee = kiloes[offset];
-                    echoed = output.bind(oscard)(yankee);
-                    output = echoed.dispatch;
+                    yankee = output[offset];
+                    source = echoed.bind(oscard)(yankee);
+                    echoed = source.dispatch;
                     yankee = {};
-                    sequen = 'IAP_PURCHASE_PRODUCT_START';
-                    yankee['type'] = sequen;
-                    yankee['productIdentifier'] = source;
-                    yankee = output.bind(echoed)(yankee);
+                    record = 'IAP_PURCHASE_PRODUCT_START';
+                    yankee['type'] = record;
+                    yankee['productIdentifier'] = vacuum;
+                    yankee = echoed.bind(source)(yankee);
                     yankee = 37;
-                    yankee = kiloes[yankee];
-                    kiloes = foxtra.bind(oscard)(yankee);
-                    foxtra = kiloes.trackPaymentFlowStartedAnalyticsAndCTP;
+                    yankee = output[yankee];
+                    output = kiloes.bind(oscard)(yankee);
+                    kiloes = output.trackPaymentFlowStartedAnalyticsAndCTP;
                     yankee = {};
-                    output = option;
-                    yankee['sku_id'] = output;
-                    output = vacuum;
-                    yankee['load_id'] = output;
-                    output = ctrled;
-                    yankee['location_stack'] = output;
-                    output = _closure1_slot18;
-                    output = output.APPLE_PARTNER;
-                    yankee['payment_gateway'] = output;
-                    yankee = foxtra.bind(kiloes)(yankee);
- 234: // try_start_0
-                    foxtra = _closure1_slot39;
-                    yankee = result;
-                    yankee = foxtra.bind(oscard)(yankee);
-                    if(yankee) { _fun00034_ip = 311; continue _fun00033 }
- 249:
+                    echoed = option;
+                    yankee['sku_id'] = echoed;
+                    echoed = config;
+                    yankee['load_id'] = echoed;
+                    echoed = sequen;
+                    yankee['location_stack'] = echoed;
+                    echoed = _closure1_slot18;
+                    echoed = echoed.APPLE_PARTNER;
+                    yankee['payment_gateway'] = echoed;
+                    yankee = kiloes.bind(output)(yankee);
+ 246: // try_start_0
+                    kiloes = _closure1_slot39;
+                    yankee = update;
+                    yankee = kiloes.bind(oscard)(yankee);
+                    if(yankee) { _fun00034_ip = 323; continue _fun00033 }
+ 261:
                     yankee = global;
-                    kiloes = yankee.Error;
-                    echoed = result;
+                    output = yankee.Error;
+                    source = update;
                     yankee = yankee.HermesInternal;
-                    output = yankee.concat;
-                    foxtra = "Unable to create subscription with invalid currency '";
+                    echoed = yankee.concat;
+                    kiloes = "Unable to create subscription with invalid currency '";
                     yankee = "' ";
-                    papara = output.bind(foxtra)(echoed, yankee);
-                    foxtra = kiloes.prototype;
-                    foxtra = Object.create(foxtra, {constructor: {value: kiloes}});
-                    target = foxtra;
-                    yankee = new target[kiloes](papara, cntext);
-                    yankee = yankee instanceof Object ? yankee : foxtra;
+                    status = echoed.bind(kiloes)(source, yankee);
+                    kiloes = output.prototype;
+                    kiloes = Object.create(kiloes, {constructor: {value: output}});
+                    sierra = kiloes;
+                    yankee = new sierra[output](status, target);
+                    yankee = yankee instanceof Object ? yankee : kiloes;
                     throw yankee;
- 311:
-                    kiloes = result;
-                    foxtra = golfie;
+ 323:
+                    output = update;
+                    kiloes = foxtra;
                     yankee = function() { // Original name: retryPendingPurchases
                         entity = undefined;
                         tangon = _closure1_slot42;
@@ -2105,205 +2147,217 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = zuuluu.bind(tangon)(entity, michal);
                         return entity;
                     };
-                    yankee = yankee.bind(oscard)(kiloes, foxtra);
-                    SaveGenerator(address=334);
- 332:
+                    yankee = yankee.bind(oscard)(output, kiloes);
+                    SaveGenerator(address=346);
+ 344:
                     return yankee;
- 334:
-                    ResumeGenerator(result_out_reg=10, return_bool_out_reg=12);
-                    if(foxtra) { _fun00034_ip = 720; continue _fun00033 }
- 343:
-                    kiloes = _closure1_slot34;
-                    foxtra = {};
-                    echoed = _closure1_slot0;
-                    source = _closure1_slot3;
-                    output = 34;
-                    output = source[output];
-                    output = echoed.bind(oscard)(output);
-                    output = output.APBRequestOperations;
-                    output = output.CHARGE;
-                    foxtra['operation'] = output;
-                    output = option;
-                    foxtra['sku_id'] = output;
-                    output = backup;
-                    foxtra['request_identifier'] = output;
-                    output = result;
-                    foxtra['currency'] = output;
-                    output = golfie;
-                    foxtra['country_code'] = output;
-                    foxtra = kiloes.bind(oscard)(foxtra);
-                    SaveGenerator(address=427);
- 425:
-                    return foxtra;
- 427:
-                    ResumeGenerator(result_out_reg=12, return_bool_out_reg=14);
-                    if(kiloes) { _fun00034_ip = 717; continue _fun00033 }
- 436:
-                    echoed = foxtra.requestJSONString;
-                    output = _closure1_slot32;
-                    kiloes = backup;
-                    backup = sizing;
-                    backup = output.bind(oscard)(kiloes, echoed, backup);
-                    SaveGenerator(address=463);
- 461:
-                    return backup;
- 463:
-                    ResumeGenerator(result_out_reg=13, return_bool_out_reg=14);
-                    if(kiloes) { _fun00034_ip = 714; continue _fun00033 }
- 472:
-                    echoed = backup.purchaseResponse;
-                    update = backup.originalPurchase;
-                    output = _closure1_slot26;
+ 346:
+                    ResumeGenerator(result_out_reg=10, return_bool_out_reg=14);
+                    if(kiloes) { _fun00034_ip = 775; continue _fun00033 }
+ 355:
+                    output = _closure1_slot34;
                     kiloes = {};
-                    echoed = echoed.transactionReceipt;
-                    kiloes['encodedReceipt'] = echoed;
-                    echoed = 3;
-                    kiloes['retries'] = echoed;
-                    kiloes['presentmentCurrency'] = result;
-                    result = golfie;
-                    kiloes['appStoreRegion'] = result;
+                    source = _closure1_slot0;
+                    vacuum = _closure1_slot3;
+                    echoed = 34;
+                    echoed = vacuum[echoed];
+                    echoed = source.bind(oscard)(echoed);
+                    echoed = echoed.APBRequestOperations;
+                    echoed = echoed.CHARGE;
+                    kiloes['operation'] = echoed;
+                    echoed = option;
+                    kiloes['sku_id'] = echoed;
+                    echoed = sizing;
+                    kiloes['request_identifier'] = echoed;
+                    echoed = update;
+                    kiloes['currency'] = echoed;
+                    echoed = foxtra;
+                    kiloes['country_code'] = echoed;
+                    echoed = romeon;
+                    kiloes['is_gift'] = echoed;
+                    echoed = golfie;
+                    kiloes['gift_info_options'] = echoed;
                     kiloes = output.bind(oscard)(kiloes);
-                    SaveGenerator(address=531);
- 529:
+                    SaveGenerator(address=455);
+ 453:
                     return kiloes;
- 531:
+ 455:
                     ResumeGenerator(result_out_reg=14, return_bool_out_reg=16);
-                    if(output) { _fun00034_ip = 711; continue _fun00033 }
- 540:
-                    result = _closure1_slot0;
-                    echoed = _closure1_slot3;
-                    output = 21;
-                    output = echoed[output];
-                    echoed = result.bind(oscard)(output);
-                    result = echoed.finishTransaction;
+                    if(output) { _fun00034_ip = 772; continue _fun00033 }
+ 464:
+                    source = kiloes.requestJSONString;
+                    echoed = _closure1_slot32;
+                    output = sizing;
+                    sizing = result;
+                    sizing = echoed.bind(oscard)(output, source, sizing);
+                    SaveGenerator(address=491);
+ 489:
+                    return sizing;
+ 491:
+                    ResumeGenerator(result_out_reg=15, return_bool_out_reg=16);
+                    if(output) { _fun00034_ip = 769; continue _fun00033 }
+ 500:
+                    source = sizing.purchaseResponse;
+                    ctrled = sizing.originalPurchase;
+                    echoed = _closure1_slot26;
                     output = {};
-                    output['purchase'] = update;
-                    output = result.bind(echoed)(output);
-                    SaveGenerator(address=582);
- 580:
+                    source = source.transactionReceipt;
+                    output['encodedReceipt'] = source;
+                    source = 3;
+                    output['retries'] = source;
+                    output['presentmentCurrency'] = update;
+                    update = foxtra;
+                    output['appStoreRegion'] = update;
+                    update = golfie;
+                    output['giftInfoOptions'] = update;
+                    update = romeon;
+                    output['isGift'] = update;
+                    output = echoed.bind(oscard)(output);
+                    SaveGenerator(address=575);
+ 573:
                     return output;
- 582:
-                    ResumeGenerator(result_out_reg=16, return_bool_out_reg=17);
-                    if(result) { _fun00034_ip = 708; continue _fun00033 }
- 588:
-                    echoed = _closure1_slot1;
-                    update = _closure1_slot3;
-                    result = update[offset];
-                    sequen = echoed.bind(oscard)(result);
-                    source = sequen.dispatch;
-                    result = {};
-                    config = 'IAP_PURCHASE_PRODUCT_SUCCESS';
-                    result['type'] = config;
-                    config = sizing;
-                    result['productIdentifier'] = config;
-                    result = source.bind(sequen)(result);
-                    result = 25;
-                    result = update[result];
-                    source = echoed.bind(oscard)(result);
-                    update = source.track;
-                    result = _closure1_slot15;
-                    echoed = result.PAYMENT_FLOW_COMPLETED;
-                    result = {};
-                    sequen = option;
-                    result['sku_id'] = sequen;
-                    result['load_id'] = vacuum;
-                    result['location_stack'] = ctrled;
-                    ctrled = _closure1_slot18;
-                    ctrled = ctrled.APPLE_PARTNER;
-                    result['payment_gateway'] = ctrled;
-                    result = update.bind(source)(echoed, result);
- 703: // try_end0
-                    result = true;
-                    return result;
- 708:
+ 575:
+                    ResumeGenerator(result_out_reg=16, return_bool_out_reg=18);
+                    if(echoed) { _fun00034_ip = 766; continue _fun00033 }
+ 584:
+                    update = _closure1_slot0;
+                    source = _closure1_slot3;
+                    echoed = 21;
+                    echoed = source[echoed];
+                    source = update.bind(oscard)(echoed);
+                    update = source.finishTransaction;
+                    echoed = {};
+                    echoed['purchase'] = ctrled;
+                    echoed = update.bind(source)(echoed);
+                    SaveGenerator(address=626);
+ 624:
+                    return echoed;
+ 626:
+                    ResumeGenerator(result_out_reg=18, return_bool_out_reg=19);
+                    if(update) { _fun00034_ip = 763; continue _fun00033 }
+ 635:
+                    source = _closure1_slot1;
+                    ctrled = _closure1_slot3;
+                    update = ctrled[offset];
+                    record = source.bind(oscard)(update);
+                    vacuum = record.dispatch;
+                    update = {};
+                    cntext = 'IAP_PURCHASE_PRODUCT_SUCCESS';
+                    update['type'] = cntext;
+                    cntext = result;
+                    update['productIdentifier'] = cntext;
+                    update = vacuum.bind(record)(update);
+                    update = 25;
+                    update = ctrled[update];
+                    vacuum = source.bind(oscard)(update);
+                    ctrled = vacuum.track;
+                    update = _closure1_slot15;
+                    source = update.PAYMENT_FLOW_COMPLETED;
+                    update = {};
+                    record = option;
+                    update['sku_id'] = record;
+                    update['load_id'] = config;
+                    update['location_stack'] = sequen;
+                    sequen = _closure1_slot18;
+                    sequen = sequen.APPLE_PARTNER;
+                    update['payment_gateway'] = sequen;
+                    sequen = romeon;
+                    update['is_gift'] = sequen;
+                    update = ctrled.bind(vacuum)(source, update);
+ 758: // try_end0
+                    update = true;
+                    return update;
+ 763:
+                    return echoed;
+ 766:
                     return output;
- 711:
+ 769:
+                    return sizing;
+ 772:
                     return kiloes;
- 714:
-                    return backup;
- 717:
-                    return foxtra;
- 720:
+ 775:
                     return yankee;
- 723: // catch_target0
-                    CatchBlockStart(arg_register=14);
-                    zuuluu = kiloes;
-                    foxtra = _closure1_slot1;
+ 778: // catch_target0
+                    CatchBlockStart(arg_register=16);
+                    zuuluu = output;
+                    kiloes = _closure1_slot1;
                     yankee = _closure1_slot3;
                     offset = yankee[offset];
-                    backup = foxtra.bind(oscard)(offset);
-                    foxtra = backup.dispatch;
+                    sizing = kiloes.bind(oscard)(offset);
+                    kiloes = sizing.dispatch;
                     offset = {};
-                    output = 'IAP_PURCHASE_PRODUCT_FAILURE';
-                    offset['type'] = output;
-                    offset['productIdentifier'] = sizing;
-                    offset = foxtra.bind(backup)(offset);
-                    backup = _closure1_slot0;
+                    echoed = 'IAP_PURCHASE_PRODUCT_FAILURE';
+                    offset['type'] = echoed;
+                    offset['productIdentifier'] = result;
+                    offset = kiloes.bind(sizing)(offset);
+                    sizing = _closure1_slot0;
                     offset = 38;
                     offset = yankee[offset];
-                    offset = backup.bind(oscard)(offset);
+                    offset = sizing.bind(oscard)(offset);
                     offset = offset.BillingError;
-                    foxtra = offset.prototype;
-                    foxtra = Object.create(foxtra, {constructor: {value: offset}});
-                    target = foxtra;
-                    papara = kiloes;
-                    offset = new target[offset](papara, cntext);
-                    offset = offset instanceof Object ? offset : foxtra;
-                    foxtra = offset.code;
+                    kiloes = offset.prototype;
+                    kiloes = Object.create(kiloes, {constructor: {value: offset}});
+                    sierra = kiloes;
+                    status = output;
+                    offset = new sierra[offset](status, target);
+                    offset = offset instanceof Object ? offset : kiloes;
+                    kiloes = offset.code;
                     offset = 39;
                     yankee = yankee[offset];
-                    yankee = backup.bind(oscard)(yankee);
+                    yankee = sizing.bind(oscard)(yankee);
                     yankee = yankee.ErrorCodes;
                     yankee = yankee.BILLING_CANNOT_CHARGE_ZERO_AMOUNT;
-                    if(!(foxtra === yankee)) { _fun00034_ip = 1075; continue _fun00033 }
- 853:
-                    foxtra = romeon;
+                    if(!(kiloes === yankee)) { _fun00034_ip = 1140; continue _fun00033 }
+ 908:
+                    kiloes = backup;
                     yankee = null;
-                    if(!(yankee == foxtra)) { _fun00034_ip = 890; continue _fun00033 }
- 862:
-                    foxtra = _closure1_slot0;
-                    backup = _closure1_slot3;
+                    if(!(yankee == kiloes)) { _fun00034_ip = 945; continue _fun00033 }
+ 917:
+                    kiloes = _closure1_slot0;
+                    sizing = _closure1_slot3;
                     yankee = 40;
-                    yankee = backup[yankee];
-                    yankee = foxtra.bind(oscard)(yankee);
+                    yankee = sizing[yankee];
+                    yankee = kiloes.bind(oscard)(yankee);
                     yankee = yankee.purchaseSKU;
-                    _fun00034_ip = 893; continue _fun00033;
- 890:
-                    yankee = romeon;
- 893:
+                    _fun00034_ip = 948; continue _fun00033;
+ 945:
+                    yankee = backup;
+ 948:
                     verify = yankee;
- 896: // try_start_1
+ 951: // try_start_1
                     yankee = verify;
                     verify = option;
                     option = {};
-                    option['countryCode'] = golfie;
-                    golfie = 0;
-                    option['expectedAmount'] = golfie;
-                    golfie = _closure1_slot16;
-                    golfie = golfie.USD;
-                    option['expectedCurrency'] = golfie;
-                    romeon = _closure1_slot0;
-                    foxtra = _closure1_slot3;
-                    golfie = 41;
-                    golfie = foxtra[golfie];
-                    romeon = romeon.bind(oscard)(golfie);
-                    golfie = romeon.v4;
-                    golfie = golfie.bind(romeon)();
-                    option['loadId'] = golfie;
+                    option['countryCode'] = foxtra;
+                    foxtra = 0;
+                    option['expectedAmount'] = foxtra;
+                    foxtra = _closure1_slot16;
+                    foxtra = foxtra.USD;
+                    option['expectedCurrency'] = foxtra;
+                    backup = _closure1_slot0;
+                    kiloes = _closure1_slot3;
+                    foxtra = 41;
+                    foxtra = kiloes[foxtra];
+                    backup = backup.bind(oscard)(foxtra);
+                    foxtra = backup.v4;
+                    foxtra = foxtra.bind(backup)();
+                    option['loadId'] = foxtra;
+                    option['isGift'] = romeon;
+                    option['giftInfoOptions'] = golfie;
                     golfie = 'collectibles';
                     golfie = yankee.bind(oscard)(golfie, verify, option);
-                    SaveGenerator(address=981);
- 979:
+                    SaveGenerator(address=1046);
+ 1044:
                     return golfie;
- 981:
+ 1046:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(option) { _fun00034_ip = 992; continue _fun00033 }
- 987: // try_end1
+                    if(option) { _fun00034_ip = 1057; continue _fun00033 }
+ 1052: // try_end1
                     option = true;
                     return option;
- 992:
+ 1057:
                     return golfie;
- 995: // catch_target1
+ 1060: // catch_target1
                     CatchBlockStart(arg_register=6);
                     report = golfie;
                     option = golfie.code;
@@ -2313,8 +2367,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = verify.bind(oscard)(golfie);
                     golfie = golfie.ErrorCodes;
                     golfie = golfie.BILLING_PURCHASE_REQUEST_INVALID;
-                    if(!(option === golfie)) { _fun00034_ip = 1075; continue _fun00033 }
- 1038:
+                    if(!(option === golfie)) { _fun00034_ip = 1140; continue _fun00033 }
+ 1103:
                     option = _closure1_slot0;
                     verify = _closure1_slot3;
                     golfie = 14;
@@ -2324,16 +2378,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = report;
                     report = {};
                     report = option.bind(verify)(golfie, report);
- 1075:
+ 1140:
                     report = _closure1_slot30;
                     tangon = zuuluu;
                     zuuluu = 'collectibles';
                     zuuluu = report.bind(oscard)(tangon, zuuluu);
                     zuuluu = false;
                     return zuuluu;
- 1097:
+ 1162:
                     return michal;
- 1100:
+ 1165:
                     return entity;
                 }
             };
@@ -2353,7 +2407,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot43 = entity;
     entity = ['items', 'country_code'];
     var _closure1_slot4 = entity;
-    entity = ['sku_id', 'country_code'];
+    entity = ['sku_id', 'country_code', 'is_gift', 'gift_info_options'];
     var _closure1_slot5 = entity;
     option = global;
     kiloes = option.Object;

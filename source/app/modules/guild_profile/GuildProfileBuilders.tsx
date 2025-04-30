@@ -363,8 +363,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  178:
             entity['gameApplicationIds'] = zuuluu;
             oscard = michal.game_activity;
-            if(!(tangon != oscard)) { _fun00012_ip = 235; continue _fun00011 }
- 193:
+            if(!(tangon != oscard)) { _fun00012_ip = 237; continue _fun00011 }
+ 195:
             zuuluu = global;
             report = zuuluu.Object;
             zuuluu = report.entries;
@@ -416,16 +416,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             zuuluu = {};
             zuuluu = oscard.bind(golfie)(report, zuuluu);
-            _fun00012_ip = 237; continue _fun00011;
- 235:
-            zuuluu = {};
+            _fun00012_ip = 239; continue _fun00011;
  237:
+            zuuluu = {};
+ 239:
             entity['gameActivity'] = zuuluu;
             zuuluu = michal.features;
-            if(!(tangon == zuuluu)) { _fun00012_ip = 256; continue _fun00011 }
- 252:
+            if(!(tangon == zuuluu)) { _fun00012_ip = 258; continue _fun00011 }
+ 254:
             zuuluu = new Array(0);
- 256:
+ 258:
             entity['features'] = zuuluu;
             zuuluu = michal.tag;
             entity['tag'] = zuuluu;

@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = global;
             michal = michal.HermesInternal;
             zuuluu = michal.concat;
-            michal = 'GuildDiscoverableProfile:';
+            michal = 'GuildProfileActionSheet:';
             zuuluu = zuuluu.bind(michal)(golfie);
             michal = {};
             michal['guildId'] = golfie;

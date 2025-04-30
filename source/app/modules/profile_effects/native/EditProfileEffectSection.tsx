@@ -501,7 +501,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = output[foxtra];
             foxtra = sizing.bind(tangon)(foxtra);
             foxtra = foxtra.t;
-            foxtra = foxtra.R3blbG;
+            foxtra = foxtra.t8CdeX;
             foxtra = backup.bind(kiloes)(foxtra);
             oscard['accessibilityLabel'] = foxtra;
             oscard['renderItem'] = romeon;

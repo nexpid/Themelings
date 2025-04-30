@@ -1,0 +1,248 @@
+// app/modules/quests/native/QuestModalContentCloudBackground.tsx
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    report = argBar;
+    zuuluu = argFre;
+    oscard = argPlu;
+    entity = argBaz;
+    var _closure1_slot0 = entity;
+    var _closure1_slot1 = oscard;
+    entity = global;
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
+    entity = true;
+    tangon['value'] = entity;
+    entity = '__esModule';
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    entity = 0;
+    golfie = oscard[entity];
+    tangon = argCor;
+    entity = undefined;
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.View;
+    var _closure1_slot2 = golfie;
+    tangon = tangon.StyleSheet;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot4 = golfie;
+    tangon = tangon.jsxs;
+    var _closure1_slot5 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.createStyles;
+    tangon = function(argFoo) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            tangon = argFoo;
+            entity = {};
+            michal = {};
+            report = _closure1_slot3;
+            offset = report.absoluteFillObject;
+            yankee = michal;
+            report = copyDataProperties(yankee, offset);
+            oscard = {};
+            option = undefined;
+            if(tangon) { _fun00002_ip = 43; continue _fun00001 }
+ 34:
+            oscard['bottom'] = option;
+            report = oscard;
+            _fun00002_ip = 50; continue _fun00001;
+ 43:
+            oscard['top'] = option;
+            report = oscard;
+ 50:
+            yankee = michal;
+            offset = report;
+            report = copyDataProperties(yankee, offset);
+            oscard = 380;
+            report = 'height';
+            michal[report] = oscard;
+            report = 1;
+            oscard = 'zIndex';
+            michal[oscard] = report;
+            entity['wrapper'] = michal;
+            michal = {};
+            oscard = _closure1_slot3;
+            offset = oscard.absoluteFillObject;
+            yankee = michal;
+            oscard = copyDataProperties(yankee, offset);
+            golfie = {};
+            if(tangon) { _fun00002_ip = 125; continue _fun00001 }
+ 116:
+            golfie['bottom'] = option;
+            oscard = golfie;
+            _fun00002_ip = 132; continue _fun00001;
+ 125:
+            golfie['top'] = option;
+            oscard = golfie;
+ 132:
+            yankee = michal;
+            offset = oscard;
+            oscard = copyDataProperties(yankee, offset);
+            if(tangon) { _fun00002_ip = 174; continue _fun00001 }
+ 145:
+            tangon = {};
+            golfie = {};
+            oscard = '180deg';
+            golfie['rotate'] = oscard;
+            oscard = new Array(1);
+            oscard[0] = golfie;
+            tangon['transform'] = oscard;
+            _fun00002_ip = 176; continue _fun00001;
+ 174:
+            tangon = {};
+ 176:
+            yankee = michal;
+            offset = tangon;
+            tangon = copyDataProperties(yankee, offset);
+            oscard = '100%';
+            tangon = 'width';
+            michal[tangon] = oscard;
+            entity['cloudsImage'] = michal;
+            michal = {};
+            zuuluu = _closure1_slot3;
+            offset = zuuluu.absoluteFillObject;
+            yankee = michal;
+            golfie = copyDataProperties(yankee, offset);
+            golfie = 'bottom';
+            michal[golfie] = option;
+            michal[tangon] = oscard;
+            entity['cloudsImageLight'] = michal;
+            michal = {};
+            offset = zuuluu.absoluteFillObject;
+            yankee = michal;
+            tangon = copyDataProperties(yankee, offset);
+            tangon = 'opacity';
+            michal[tangon] = report;
+            entity['gradient'] = michal;
+            michal = {};
+            offset = zuuluu.absoluteFillObject;
+            yankee = michal;
+            zuuluu = copyDataProperties(yankee, offset);
+            entity['solidBackground'] = michal;
+            return entity;
+        }
+    };
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot6 = tangon;
+    golfie = ['#292252FF', '#1E1F2200'];
+    var _closure1_slot7 = golfie;
+    tangon = golfie.slice;
+    golfie = tangon.bind(golfie)();
+    tangon = golfie.reverse;
+    tangon = tangon.bind(golfie)();
+    var _closure1_slot8 = tangon;
+    tangon = 8;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/quests/native/QuestModalContentCloudBackground.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: QuestModalContentCloudBackground
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            michal = argFoo;
+            zuuluu = michal.align;
+            entity = 'bottom';
+            tangon = undefined;
+            foxtra = entity;
+            if(!(tangon !== zuuluu)) { _fun00004_ip = 25; continue _fun00003 }
+ 22:
+            foxtra = zuuluu;
+ 25:
+            oscard = michal.style;
+            michal = michal.isDark;
+            verify = tangon === michal;
+            if(verify) { _fun00004_ip = 46; continue _fun00003 }
+ 43:
+            verify = michal;
+ 46:
+            michal = _closure1_slot6;
+            entity = entity === foxtra;
+            romeon = michal.bind(tangon)(entity);
+            zuuluu = _closure1_slot5;
+            michal = _closure1_slot2;
+            entity = {};
+            golfie = romeon.wrapper;
+            report = new Array(2);
+            report[0] = golfie;
+            report[1] = oscard;
+            entity['style'] = report;
+            option = _closure1_slot4;
+            if(verify) { _fun00004_ip = 125; continue _fun00003 }
+ 101:
+            oscard = _closure1_slot2;
+            report = {};
+            golfie = romeon.solidBackground;
+            report['style'] = golfie;
+            oscard = option.bind(tangon)(oscard, report);
+            _fun00004_ip = 185; continue _fun00003;
+ 125:
+            golfie = _closure1_slot0;
+            offset = _closure1_slot1;
+            report = 4;
+            report = offset[report];
+            golfie = golfie.bind(tangon)(report);
+            report = {};
+            offset = 'top';
+            if(!(offset !== foxtra)) { _fun00004_ip = 161; continue _fun00003 }
+ 155:
+            offset = _closure1_slot8;
+            _fun00004_ip = 165; continue _fun00003;
+ 161:
+            offset = _closure1_slot7;
+ 165:
+            report['colors'] = offset;
+            offset = romeon.gradient;
+            report['style'] = offset;
+            oscard = option.bind(tangon)(golfie, report);
+ 185:
+            report = new Array(2);
+            report[0] = oscard;
+            option = _closure1_slot4;
+            golfie = _closure1_slot0;
+            offset = _closure1_slot1;
+            oscard = 5;
+            oscard = offset[oscard];
+            golfie = golfie.bind(tangon)(oscard);
+            oscard = {};
+            if(verify) { _fun00004_ip = 230; continue _fun00003 }
+ 222:
+            offset = romeon.cloudsImageLight;
+            _fun00004_ip = 236; continue _fun00003;
+ 230:
+            offset = romeon.cloudsImage;
+ 236:
+            oscard['style'] = offset;
+            offset = _closure1_slot0;
+            romeon = _closure1_slot1;
+            if(verify) { _fun00004_ip = 260; continue _fun00003 }
+ 251:
+            verify = 7;
+            verify = romeon[verify];
+            _fun00004_ip = 267; continue _fun00003;
+ 260:
+            yankee = 6;
+            verify = romeon[yankee];
+ 267:
+            verify = offset.bind(tangon)(verify);
+            oscard['source'] = verify;
+            verify = 'cover';
+            oscard['resizeMode'] = verify;
+            oscard = option.bind(tangon)(golfie, oscard);
+            report[1] = oscard;
+            entity['children'] = report;
+            entity = zuuluu.bind(tangon)(michal, entity);
+            return entity;
+        }
+    };
+    zuuluu['default'] = michal;
+    return entity;
+})();

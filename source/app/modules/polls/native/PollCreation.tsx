@@ -516,7 +516,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         };
         tangon = golfie.bind(option)(tangon);
         var _closure1_slot14 = tangon;
-        tangon = 40;
+        tangon = 41;
         tangon = oscard[tangon];
         oscard = report.bind(entity)(tangon);
         report = oscard.fileFinishedImporting;
@@ -575,48 +575,52 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = whisks[entity];
                 entity = variable37.bind(tangon)(entity);
                 entity = entity.closeCreatePollModal;
-                entity = michal.bind(tangon)(zuuluu, entity);
-                cntext = entity.answers;
+                michal = michal.bind(tangon)(zuuluu, entity);
+                cntext = michal.answers;
                 var _closure2_slot1 = cntext;
-                michal = entity.question;
-                var _closure2_slot2 = michal;
-                status = entity.selectedLayoutType;
+                entity = michal.question;
+                var _closure2_slot2 = entity;
+                status = michal.selectedLayoutType;
                 var _closure2_slot3 = status;
-                config = entity.setSelectedLayoutType;
-                output = entity.allowMultiSelect;
+                config = michal.setSelectedLayoutType;
+                output = michal.allowMultiSelect;
                 var _closure2_slot4 = output;
-                michal = entity.setAllowMultiSelect;
-                var _closure2_slot5 = michal;
-                sequen = entity.canAddMoreAnswers;
-                michal = entity.canRemoveMoreAnswers;
-                var _closure2_slot6 = michal;
-                limora = entity.handleQuestionChange;
-                michal = entity.handleAnswerTextChange;
-                var _closure2_slot7 = michal;
-                michal = entity.handleEmojiSelect;
-                var _closure2_slot8 = michal;
-                papara = entity.handleAddAnswer;
+                entity = michal.setAllowMultiSelect;
+                var _closure2_slot5 = entity;
+                sequen = michal.canAddMoreAnswers;
+                entity = michal.canRemoveMoreAnswers;
+                var _closure2_slot6 = entity;
+                limora = michal.handleQuestionChange;
+                entity = michal.handleAnswerTextChange;
+                var _closure2_slot7 = entity;
+                entity = michal.handleEmojiSelect;
+                var _closure2_slot8 = entity;
+                papara = michal.handleAddAnswer;
                 var _closure2_slot9 = papara;
-                michal = entity.handleRemoveAnswer;
-                var _closure2_slot10 = michal;
-                michal = entity.handleRemoveAnswerImage;
-                var _closure2_slot11 = michal;
-                vacuum = entity.handleSubmitPoll;
-                target = entity.fieldErrors;
+                entity = michal.handleRemoveAnswer;
+                var _closure2_slot10 = entity;
+                entity = michal.handleRemoveAnswerImage;
+                var _closure2_slot11 = entity;
+                vacuum = michal.handleSubmitPoll;
+                target = michal.fieldErrors;
                 var _closure2_slot12 = target;
-                echoed = entity.duration;
-                result = entity.setDuration;
-                quebec = entity.createPollError;
-                record = entity.submitting;
-                entity = 26;
-                entity = whisks[entity];
-                michal = variable37.bind(tangon)(entity);
-                entity = michal.useTrackPollCreationEvents;
-                entity = entity.bind(michal)(cntext, output, status);
-                entity = entity.trackPollCreationCancelled;
+                echoed = michal.duration;
+                result = michal.setDuration;
+                quebec = michal.createPollError;
+                record = michal.submitting;
+                entity = michal.shouldFocusOnInvalidField;
                 var _closure2_slot13 = entity;
-                entity = function() { // Original name: handleClose
-                    michal = _closure2_slot13;
+                golfie = michal.setShouldFocusOnInvalidField;
+                var _closure2_slot14 = golfie;
+                michal = 26;
+                michal = whisks[michal];
+                zuuluu = variable37.bind(tangon)(michal);
+                michal = zuuluu.useTrackPollCreationEvents;
+                michal = michal.bind(zuuluu)(cntext, output, status);
+                michal = michal.trackPollCreationCancelled;
+                var _closure2_slot15 = michal;
+                michal = function() { // Original name: handleClose
+                    michal = _closure2_slot15;
                     entity = undefined;
                     michal = michal.bind(entity)();
                     zuuluu = _closure1_slot0;
@@ -628,12 +632,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = michal.bind(zuuluu)();
                     return entity;
                 };
-                var _closure2_slot14 = entity;
-                entity = 27;
-                entity = whisks[entity];
-                zuuluu = variable37.bind(tangon)(entity);
-                michal = zuuluu.useNavigatorBackPressHandler;
-                entity = function() {
+                var _closure2_slot16 = michal;
+                michal = 27;
+                michal = whisks[michal];
+                oscard = variable37.bind(tangon)(michal);
+                zuuluu = oscard.useNavigatorBackPressHandler;
+                michal = function() {
                     _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                         tangon = _closure1_slot0;
@@ -658,7 +662,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         golfie = _closure1_slot10;
                         tangon = _closure1_slot15;
                         entity = {};
-                        option = _closure2_slot14;
+                        option = _closure2_slot16;
                         entity['onConfirm'] = option;
                         tangon = golfie.bind(zuuluu)(tangon, entity);
                         entity = 'poll-creation-unsaved-changes';
@@ -666,57 +670,86 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = true;
                         _fun00010_ip = 133; continue _fun00009;
  123:
-                        michal = _closure2_slot13;
+                        michal = _closure2_slot15;
                         michal = michal.bind(zuuluu)();
                         entity = false;
  133:
                         return entity;
                     }
                 };
-                entity = michal.bind(zuuluu)(entity);
-                entity = 29;
-                entity = whisks[entity];
-                michal = variable36.bind(tangon)(entity);
-                entity = {};
-                zuuluu = function() { // Original name: onAddAnswer
+                michal = zuuluu.bind(oscard)(michal);
+                michal = 29;
+                michal = whisks[michal];
+                zuuluu = variable36.bind(tangon)(michal);
+                michal = {};
+                oscard = function() { // Original name: onAddAnswer
                     michal = _closure2_slot9;
                     entity = undefined;
                     michal = michal.bind(entity)();
                     return entity;
                 };
-                entity['onAddAnswer'] = zuuluu;
-                sierra = michal.bind(tangon)(entity);
-                var _closure2_slot15 = sierra;
+                michal['onAddAnswer'] = oscard;
+                sierra = zuuluu.bind(tangon)(michal);
+                var _closure2_slot17 = sierra;
                 oscard = _closure1_slot3;
                 zuuluu = oscard.useEffect;
-                michal = new Array(2);
+                michal = new Array(4);
                 michal[0] = target;
                 michal[1] = sierra;
+                michal[2] = golfie;
+                michal[3] = entity;
                 entity = function() {
                     _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-                        zuuluu = _closure2_slot12;
-                        michal = null;
-                        if(!(michal != zuuluu)) { _fun00012_ip = 56; continue _fun00011 }
- 13:
-                        michal = global;
-                        tangon = michal.Object;
+                        entity = global;
+                        tangon = entity.Object;
                         zuuluu = tangon.keys;
                         michal = _closure2_slot12;
-                        zuuluu = zuuluu.bind(tangon)(michal);
+                        tangon = zuuluu.bind(tangon)(michal);
+                        zuuluu = tangon.length;
                         michal = 0;
-                        zuuluu = zuuluu[michal];
-                        michal = _closure2_slot15;
-                        entity = michal.focus;
-                        entity = entity.bind(michal)(zuuluu);
- 56:
+                        if(!(zuuluu > michal)) { _fun00012_ip = 182; continue _fun00011 }
+ 39:
+                        oscard = _closure1_slot0;
+                        option = _closure1_slot2;
+                        report = 9;
+                        golfie = option[report];
+                        zuuluu = undefined;
+                        golfie = oscard.bind(zuuluu)(golfie);
+                        offset = golfie.intl;
+                        verify = offset.formatToPlainString;
+                        report = option[report];
+                        report = oscard.bind(zuuluu)(report);
+                        report = report.t;
+                        golfie = report.w8e4qK;
+                        report = {};
+                        yankee = tangon.length;
+                        report['numOfErrors'] = yankee;
+                        golfie = verify.bind(offset)(golfie, report);
+                        report = 30;
+                        report = option[report];
+                        report = oscard.bind(zuuluu)(report);
+                        oscard = report.AccessibilityAnnouncer;
+                        report = oscard.announce;
+                        report = report.bind(oscard)(golfie);
+                        report = _closure2_slot13;
+                        if(!report) { _fun00012_ip = 182; continue _fun00011 }
+ 152:
+                        report = tangon[michal];
+                        tangon = _closure2_slot17;
+                        michal = tangon.focus;
+                        michal = michal.bind(tangon)(report);
+                        michal = _closure2_slot14;
+                        entity = false;
+                        entity = michal.bind(zuuluu)(entity);
+ 182:
                         entity = undefined;
                         return entity;
                     }
                 };
                 entity = zuuluu.bind(oscard)(entity, michal);
                 zuuluu = _closure1_slot10;
-                entity = 30;
+                entity = 31;
                 entity = whisks[entity];
                 entity = variable37.bind(tangon)(entity);
                 michal = entity.SafeAreaPaddingView;
@@ -728,7 +761,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = romeon.safeAreaContainer;
                 entity['style'] = report;
                 golfie = _closure1_slot12;
-                report = 31;
+                report = 32;
                 report = whisks[report];
                 oscard = variable36.bind(tangon)(report);
                 report = {};
@@ -740,7 +773,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 yankee = romeon.header;
                 option['style'] = yankee;
                 source = _closure1_slot10;
-                backup = 32;
+                backup = 33;
                 yankee = whisks[backup];
                 yankee = variable37.bind(tangon)(yankee);
                 update = yankee.HeaderActionButton;
@@ -781,21 +814,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         golfie = _closure1_slot10;
                         tangon = _closure1_slot15;
                         zuuluu = {};
-                        option = _closure2_slot14;
+                        option = _closure2_slot16;
                         zuuluu['onConfirm'] = option;
                         tangon = golfie.bind(entity)(tangon, zuuluu);
                         zuuluu = 'poll-creation-unsaved-changes';
                         zuuluu = report.bind(oscard)(zuuluu, tangon);
                         _fun00014_ip = 129; continue _fun00013;
  121:
-                        michal = _closure2_slot14;
+                        michal = _closure2_slot16;
                         michal = michal.bind(entity)();
  129:
                         return entity;
                     }
                 };
                 yankee['onPress'] = equals;
-                equals = 33;
+                equals = 34;
                 equals = whisks[equals];
                 equals = variable36.bind(tangon)(equals);
                 yankee['source'] = equals;
@@ -862,25 +895,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify['contentContainerStyle'] = backup;
                 record = null;
                 update = record != quebec;
-                if(!update) { _fun00008_ip = 1076; continue _fun00007 }
- 1021:
+                if(!update) { _fun00008_ip = 1104; continue _fun00007 }
+ 1049:
                 vacuum = _closure1_slot10;
                 source = _closure1_slot1;
                 whisks = _closure1_slot2;
-                backup = 34;
+                backup = 35;
                 backup = whisks[backup];
                 source = source.bind(tangon)(backup);
                 backup = {};
                 equals = record == quebec;
                 whisks = undefined;
-                if(equals) { _fun00008_ip = 1066; continue _fun00007 }
- 1056:
+                if(equals) { _fun00008_ip = 1094; continue _fun00007 }
+ 1084:
                 equals = quebec.getAnyErrorMessage;
                 whisks = equals.bind(quebec)();
- 1066:
+ 1094:
                 backup['children'] = whisks;
                 update = vacuum.bind(tangon)(source, backup);
- 1076:
+ 1104:
                 backup = new Array(4);
                 backup[0] = update;
                 vacuum = _closure1_slot10;
@@ -895,26 +928,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 update['onSubmitEditing'] = sierra;
                 sierra = record == target;
                 record = undefined;
-                if(sierra) { _fun00008_ip = 1144; continue _fun00007 }
- 1138:
+                if(sierra) { _fun00008_ip = 1172; continue _fun00007 }
+ 1166:
                 record = target.question;
- 1144:
+ 1172:
                 update['error'] = record;
                 update = vacuum.bind(tangon)(source, update);
                 backup[1] = update;
-                if(!kiloes) { _fun00008_ip = 1203; continue _fun00007 }
- 1161:
+                if(!kiloes) { _fun00008_ip = 1231; continue _fun00007 }
+ 1189:
                 vacuum = _closure1_slot10;
                 source = _closure1_slot1;
                 record = _closure1_slot2;
-                update = 35;
+                update = 36;
                 update = record[update];
                 source = source.bind(tangon)(update);
                 update = {};
                 update['selectedLayoutType'] = status;
                 update['setSelectedLayoutType'] = config;
                 kiloes = vacuum.bind(tangon)(source, update);
- 1203:
+ 1231:
                 backup[2] = kiloes;
                 source = _closure1_slot12;
                 update = _closure1_slot5;
@@ -924,22 +957,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 vacuum[0] = config;
                 record = _closure1_slot0;
                 config = _closure1_slot2;
-                limora = 36;
+                limora = 37;
                 config = config[limora];
                 config = record.bind(tangon)(config);
                 config = config.PollLayoutTypes;
                 config = config.IMAGE_ONLY_ANSWERS;
                 config = status === config;
-                if(!config) { _fun00008_ip = 1276; continue _fun00007 }
- 1270:
+                if(!config) { _fun00008_ip = 1304; continue _fun00007 }
+ 1298:
                 config = romeon.imageOnlyContainer;
- 1276:
+ 1304:
                 vacuum[1] = config;
                 kiloes['style'] = vacuum;
                 record = _closure1_slot10;
                 equals = _closure1_slot0;
                 target = _closure1_slot2;
-                vacuum = 37;
+                vacuum = 38;
                 vacuum = target[vacuum];
                 vacuum = equals.bind(tangon)(vacuum);
                 config = vacuum.FormLabel;
@@ -969,12 +1002,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = _closure1_slot10;
                         zuuluu = _closure1_slot1;
                         tangon = _closure1_slot2;
-                        michal = 38;
+                        michal = 39;
                         michal = tangon[michal];
                         tangon = undefined;
                         zuuluu = zuuluu.bind(tangon)(michal);
                         michal = {};
-                        oscard = _closure2_slot15;
+                        oscard = _closure2_slot17;
                         yankee = oscard.refWithKey;
                         romeon = entity.localCreationAnswerId;
                         golfie = global;
@@ -1025,8 +1058,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 config = record.bind(cntext)(config);
                 vacuum[1] = config;
-                if(!sequen) { _fun00008_ip = 1481; continue _fun00007 }
- 1423:
+                if(!sequen) { _fun00008_ip = 1509; continue _fun00007 }
+ 1451:
                 cntext = _closure1_slot10;
                 record = _closure1_slot16;
                 config = {};
@@ -1040,7 +1073,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 config['isDefaultLayout'] = target;
                 config['onPress'] = papara;
                 sequen = cntext.bind(tangon)(record, config);
- 1481:
+ 1509:
                 vacuum[2] = sequen;
                 kiloes['children'] = vacuum;
                 kiloes = source.bind(tangon)(update, kiloes);
@@ -1064,7 +1097,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 kiloes = _closure1_slot10;
                 source = _closure1_slot0;
                 result = _closure1_slot2;
-                foxtra = 39;
+                foxtra = 40;
                 foxtra = result[foxtra];
                 foxtra = source.bind(tangon)(foxtra);
                 backup = foxtra.TableCheckboxRow;

@@ -801,29 +801,27 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     tangon = _closure2_slot6;
                     option = report.bind(oscard)(tangon);
                     tangon = null;
-                    if(!(tangon != option)) { _fun00016_ip = 180; continue _fun00015 }
+                    if(!(tangon != option)) { _fun00016_ip = 170; continue _fun00015 }
  78:
-                    oscard = _closure1_slot1;
-                    report = _closure1_slot2;
-                    tangon = 19;
-                    tangon = report[tangon];
-                    oscard = oscard.bind(entity)(tangon);
-                    tangon = global;
-                    tangon = tangon.HermesInternal;
-                    golfie = tangon.concat;
-                    tangon = 'https://discord.com/channels/@me/';
-                    tangon = golfie.bind(tangon)(option);
-                    tangon = oscard.bind(entity)(tangon);
-                    oscard = tangon.payload;
-                    tangon = _closure1_slot0;
-                    zuuluu = 20;
-                    zuuluu = report[zuuluu];
+                    tangon = _closure1_slot1;
+                    oscard = _closure1_slot2;
+                    zuuluu = 19;
+                    zuuluu = oscard[zuuluu];
                     report = tangon.bind(entity)(zuuluu);
-                    tangon = report.handleSupportedURL;
+                    zuuluu = global;
+                    zuuluu = zuuluu.HermesInternal;
+                    golfie = zuuluu.concat;
+                    zuuluu = 'https://discord.com/channels/@me/';
+                    zuuluu = golfie.bind(zuuluu)(option);
+                    zuuluu = report.bind(entity)(zuuluu);
+                    report = zuuluu.payload;
+                    zuuluu = 20;
+                    zuuluu = oscard[zuuluu];
+                    tangon = tangon.bind(entity)(zuuluu);
                     zuuluu = {'payload': null, 'safe': true, 'navigationReplace': false};
-                    zuuluu['payload'] = oscard;
-                    zuuluu = tangon.bind(report)(zuuluu);
- 180:
+                    zuuluu['payload'] = report;
+                    zuuluu = tangon.bind(entity)(zuuluu);
+ 170:
                     zuuluu = _closure2_slot4;
                     michal = _closure2_slot0;
                     michal = zuuluu.bind(entity)(michal);
@@ -1019,26 +1017,24 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 michal = function(argFoo) {
                     zuuluu = argFoo;
                     report = _closure1_slot1;
-                    oscard = _closure1_slot2;
+                    golfie = _closure1_slot2;
                     entity = 19;
-                    tangon = oscard[entity];
+                    tangon = golfie[entity];
                     entity = undefined;
-                    report = report.bind(entity)(tangon);
+                    oscard = report.bind(entity)(tangon);
                     tangon = global;
                     tangon = tangon.HermesInternal;
-                    golfie = tangon.concat;
+                    option = tangon.concat;
                     tangon = 'https://discord.com/channels/@me/';
-                    tangon = golfie.bind(tangon)(zuuluu);
-                    tangon = report.bind(entity)(tangon);
-                    golfie = tangon.payload;
-                    report = _closure1_slot0;
+                    tangon = option.bind(tangon)(zuuluu);
+                    tangon = oscard.bind(entity)(tangon);
+                    oscard = tangon.payload;
                     tangon = 20;
-                    tangon = oscard[tangon];
-                    oscard = report.bind(entity)(tangon);
-                    report = oscard.handleSupportedURL;
+                    tangon = golfie[tangon];
+                    report = report.bind(entity)(tangon);
                     tangon = {'payload': null, 'safe': true, 'navigationReplace': false};
-                    tangon['payload'] = golfie;
-                    tangon = report.bind(oscard)(tangon);
+                    tangon['payload'] = oscard;
+                    tangon = report.bind(entity)(tangon);
                     michal = _closure1_slot21;
                     michal = michal.bind(entity)(zuuluu);
                     return entity;

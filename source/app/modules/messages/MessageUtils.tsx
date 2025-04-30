@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/messages/MessageUtils.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: canViewPotentiallyNSFWChannel
+    tangon = function(argFoo) { // Original name: canViewPotentiallyNSFWChannel
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             michal = _closure1_slot2;
@@ -75,6 +75,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['canViewPotentiallyNSFWChannel'] = michal;
+    zuuluu['canViewPotentiallyNSFWChannel'] = tangon;
+    michal = function(argFoo) { // Original name: getGuildIdFromMessage
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            zuuluu = _closure1_slot0;
+            michal = zuuluu.getChannel;
+            entity = argFoo;
+            entity = entity.channel_id;
+            tangon = michal.bind(zuuluu)(entity);
+            zuuluu = null;
+            report = zuuluu == tangon;
+            michal = undefined;
+            if(report) { _fun00004_ip = 41; continue _fun00003 }
+ 36:
+            michal = tangon.guild_id;
+ 41:
+            zuuluu = zuuluu != michal;
+            entity = undefined;
+            if(!zuuluu) { _fun00004_ip = 53; continue _fun00003 }
+ 50:
+            entity = michal;
+ 53:
+            return entity;
+        }
+    };
+    zuuluu['getGuildIdFromMessage'] = michal;
     return entity;
 })();

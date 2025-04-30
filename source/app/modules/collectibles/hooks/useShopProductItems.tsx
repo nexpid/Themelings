@@ -158,14 +158,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     tangon = tangon.bind(entity)();
     var _closure1_slot5 = tangon;
-    report = 4;
+    report = 5;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
     report = 'modules/collectibles/hooks/useShopProductItems.tsx';
     report = oscard.bind(golfie)(report);
     zuuluu['ItemsSortingHat'] = tangon;
-    michal = function(argFoo) {
+    tangon = function(argFoo) {
         report = argFoo;
         var _closure2_slot0 = report;
         tangon = _closure1_slot4;
@@ -191,6 +191,78 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity['firstAvatarDecoration'] = michal;
         return entity;
     };
-    zuuluu['useShopProductItems'] = michal;
+    zuuluu['useShopProductItems'] = tangon;
+    michal = function(argFoo) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+            report = argFoo;
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
+            michal = 4;
+            zuuluu = option[michal];
+            entity = undefined;
+            zuuluu = golfie.bind(entity)(zuuluu);
+            oscard = zuuluu.intl;
+            tangon = oscard.string;
+            zuuluu = option[michal];
+            zuuluu = golfie.bind(entity)(zuuluu);
+            zuuluu = zuuluu.t;
+            zuuluu = zuuluu.7v0T9P;
+            tangon = tangon.bind(oscard)(zuuluu);
+            zuuluu = option[michal];
+            zuuluu = golfie.bind(entity)(zuuluu);
+            oscard = zuuluu.intl;
+            zuuluu = oscard.string;
+            michal = option[michal];
+            michal = golfie.bind(entity)(michal);
+            michal = michal.t;
+            michal = michal.wR5wOj;
+            offset = zuuluu.bind(oscard)(michal);
+            golfie = report.bundledProducts;
+            oscard = null;
+            zuuluu = tangon;
+            michal = offset;
+            if(!(oscard != golfie)) { _fun00006_ip = 223; continue _fun00005 }
+ 125:
+            golfie = report.bundledProducts;
+            option = golfie.length;
+            golfie = 0;
+            if(!(option > golfie)) { _fun00006_ip = 169; continue _fun00005 }
+ 142:
+            option = report.bundledProducts;
+            verify = option[golfie];
+            yankee = oscard == verify;
+            option = undefined;
+            if(yankee) { _fun00006_ip = 166; continue _fun00005 }
+ 161:
+            option = verify.name;
+ 166:
+            tangon = option;
+ 169:
+            option = report.bundledProducts;
+            verify = option.length;
+            option = 1;
+            zuuluu = tangon;
+            michal = offset;
+            if(!(verify > option)) { _fun00006_ip = 223; continue _fun00005 }
+ 193:
+            report = report.bundledProducts;
+            report = report[golfie];
+            oscard = oscard == report;
+            entity = undefined;
+            if(oscard) { _fun00006_ip = 217; continue _fun00005 }
+ 212:
+            entity = report.name;
+ 217:
+            michal = entity;
+            zuuluu = tangon;
+ 223:
+            entity = {};
+            entity['itemOneName'] = zuuluu;
+            entity['itemTwoName'] = michal;
+            return entity;
+        }
+    };
+    zuuluu['getBundleItemNames'] = michal;
     return entity;
 })();

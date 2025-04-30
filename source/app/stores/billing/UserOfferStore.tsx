@@ -332,6 +332,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal['userDiscounts'] = entity;
     option = false;
     michal['isFetching'] = option;
+    michal['lastFetchSuccessful'] = option;
     var _closure1_slot13 = michal;
     var _closure1_slot14 = michal;
     michal = function() { // Original name: emitChanges
@@ -425,7 +426,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = entity;
-        entity = new Array(17);
+        entity = new Array(18);
         entity[0] = report;
         report = {};
         golfie = 'getUserTrialOffer';
@@ -1070,14 +1071,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = {};
         golfie = 'forceReset';
         report['key'] = golfie;
-        oscard = function() { // Original name: value
+        golfie = function() { // Original name: value
             michal = _closure1_slot19;
             entity = undefined;
             michal = michal.bind(entity)();
             return entity;
         };
-        report['value'] = oscard;
+        report['value'] = golfie;
         entity[16] = report;
+        report = {};
+        golfie = 'lastFetchSuccessful';
+        report['key'] = golfie;
+        oscard = function() { // Original name: value
+            entity = _closure1_slot14;
+            entity = entity.lastFetchSuccessful;
+            return entity;
+        };
+        report['value'] = oscard;
+        entity[17] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -1302,9 +1313,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = tangon.now;
             michal = michal.bind(tangon)();
             zuuluu['userOffersLastFetchedAtDate'] = michal;
+            zuuluu = _closure1_slot14;
+            michal = false;
+            zuuluu['isFetching'] = michal;
             michal = _closure1_slot14;
-            entity = false;
-            michal['isFetching'] = entity;
+            entity = true;
+            michal['lastFetchSuccessful'] = entity;
             entity = undefined;
             return entity;
         }
@@ -1371,9 +1385,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu = report.now;
         zuuluu = zuuluu.bind(report)();
         tangon['userOffersLastFetchedAtDate'] = zuuluu;
-        zuuluu = _closure1_slot14;
-        michal = false;
-        zuuluu['isFetching'] = michal;
+        tangon = _closure1_slot14;
+        zuuluu = false;
+        tangon['isFetching'] = zuuluu;
+        michal = _closure1_slot14;
+        michal['lastFetchSuccessful'] = zuuluu;
         return entity;
     };
     michal['BILLING_USER_OFFER_FETCH_FAIL'] = offset;

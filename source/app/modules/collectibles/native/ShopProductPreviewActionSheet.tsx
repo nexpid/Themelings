@@ -479,7 +479,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = status[record];
             record = target.bind(tangon)(record);
             record = record.t;
-            record = record.5b+JhY;
+            record = record.BEjTio;
             record = cntext.bind(papara)(record);
             result['children'] = record;
             sizing = config.bind(tangon)(sequen, result);
@@ -501,7 +501,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = target[config];
             config = papara.bind(tangon)(config);
             config = config.t;
-            config = config./bUsx8;
+            config = config.6cfuDg;
             config = record.bind(cntext)(config);
             output['children'] = config;
             sizing = sequen.bind(tangon)(result, output);

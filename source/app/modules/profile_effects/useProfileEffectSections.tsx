@@ -247,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = verify[tangon];
             zuuluu = option.bind(golfie)(zuuluu);
             zuuluu = zuuluu.t;
-            zuuluu = zuuluu.JEimX1;
+            zuuluu = zuuluu.9x1v/v;
             zuuluu = yankee.bind(romeon)(zuuluu);
             michal['header'] = zuuluu;
             zuuluu = new Array(3);
@@ -265,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = verify[tangon];
             yankee = option.bind(golfie)(yankee);
             yankee = yankee.t;
-            yankee = yankee.DIJLzM;
+            yankee = yankee.TiLCg4;
             yankee = romeon.bind(foxtra)(yankee);
             michal['header'] = yankee;
             zuuluu[1] = michal;
@@ -282,7 +282,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = verify[tangon];
             tangon = option.bind(golfie)(tangon);
             tangon = tangon.t;
-            tangon = tangon.fmIfaG;
+            tangon = tangon.1vbbeX;
             tangon = report.bind(oscard)(tangon);
             michal['header'] = tangon;
             zuuluu[2] = michal;

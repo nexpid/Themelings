@@ -1,7 +1,7 @@
 // app/modules/activities/native/ActivityShelfBadge.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    yankee = argBaz;
+    foxtra = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 2;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    romeon = tangon.Fonts;
+    offset = tangon.Fonts;
     tangon = 3;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
@@ -39,54 +39,49 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = option.createStyles;
     tangon = {};
     verify = {'position': 'absolute', 'top': 4, 'right': 4, 'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
-    offset = 5;
-    foxtra = oscard[offset];
-    foxtra = yankee.bind(entity)(foxtra);
-    foxtra = foxtra.colors;
-    foxtra = foxtra.STATUS_POSITIVE_BACKGROUND;
-    verify['backgroundColor'] = foxtra;
+    romeon = 5;
+    yankee = oscard[romeon];
+    yankee = foxtra.bind(entity)(yankee);
+    yankee = yankee.colors;
+    yankee = yankee.STATUS_POSITIVE_BACKGROUND;
+    verify['backgroundColor'] = yankee;
     tangon['badge'] = verify;
-    foxtra = {'paddingLeft': 4, 'paddingRight': 6, 'borderRadius': null, 'height': 16};
+    yankee = {'paddingLeft': 4, 'paddingRight': 6, 'borderRadius': null, 'height': 16};
     verify = 6;
-    backup = oscard[offset];
-    backup = yankee.bind(entity)(backup);
+    backup = oscard[romeon];
+    backup = foxtra.bind(entity)(backup);
     backup = backup.radii;
     backup = backup.sm;
-    foxtra['borderRadius'] = backup;
-    backup = oscard[offset];
-    backup = yankee.bind(entity)(backup);
+    yankee['borderRadius'] = backup;
+    backup = oscard[romeon];
+    backup = foxtra.bind(entity)(backup);
     backup = backup.colors;
     backup = backup.STATUS_DANGER_BACKGROUND;
-    foxtra['backgroundColor'] = backup;
-    tangon['newBadge'] = foxtra;
-    foxtra = {'paddingLeft': 4, 'paddingRight': 6, 'borderRadius': null, 'height': 16};
-    backup = oscard[offset];
-    backup = yankee.bind(entity)(backup);
+    yankee['backgroundColor'] = backup;
+    tangon['newBadge'] = yankee;
+    yankee = {'paddingLeft': 4, 'paddingRight': 6, 'borderRadius': null, 'height': 16};
+    backup = oscard[romeon];
+    backup = foxtra.bind(entity)(backup);
     backup = backup.radii;
     backup = backup.sm;
-    foxtra['borderRadius'] = backup;
-    backup = oscard[offset];
-    backup = yankee.bind(entity)(backup);
-    backup = backup.colors;
-    backup = backup.TEXT_LINK_LOW_SATURATION;
-    foxtra['backgroundColor'] = backup;
-    tangon['updatedBadge'] = foxtra;
-    foxtra = oscard[verify];
-    backup = report.bind(entity)(foxtra);
-    foxtra = backup.generateBoxShadowStyle;
+    yankee['borderRadius'] = backup;
+    romeon = oscard[romeon];
+    romeon = foxtra.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.TEXT_LINK_LOW_SATURATION;
+    yankee['backgroundColor'] = romeon;
+    tangon['updatedBadge'] = yankee;
+    yankee = oscard[verify];
+    romeon = report.bind(entity)(yankee);
+    yankee = romeon.generateBoxShadowStyle;
     verify = oscard[verify];
     verify = report.bind(entity)(verify);
     verify = verify.FOUR_DP_ELEVATION_SHADOW_PARAMS;
-    verify = foxtra.bind(backup)(verify);
+    verify = yankee.bind(romeon)(verify);
     tangon['elevationShadow'] = verify;
-    verify = {'textTransform': 'uppercase', 'marginLeft': 2, 'fontFamily': null, 'color': null, 'lineHeight': 16, 'fontSize': 12};
-    romeon = romeon.DISPLAY_EXTRABOLD;
-    verify['fontFamily'] = romeon;
-    offset = oscard[offset];
-    offset = yankee.bind(entity)(offset);
-    offset = offset.colors;
-    offset = offset.INTERACTIVE_ACTIVE;
-    verify['color'] = offset;
+    verify = {'textTransform': 'uppercase', 'marginLeft': 2, 'fontFamily': null, 'lineHeight': 16, 'fontSize': 12};
+    offset = offset.DISPLAY_EXTRABOLD;
+    verify['fontFamily'] = offset;
     tangon['badgeText'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot4 = tangon;
@@ -117,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = tangon.bind(report)(michal);
             michal = michal.EmbeddedActivityLabelTypes;
             michal = michal.NEW;
-            if(!(zuuluu !== michal)) { _fun00002_ip = 280; continue _fun00001 }
+            if(!(zuuluu !== michal)) { _fun00002_ip = 284; continue _fun00001 }
  79:
             tangon = _closure1_slot0;
             michal = _closure1_slot1;
@@ -126,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.EmbeddedActivityLabelTypes;
             michal = michal.UPDATED;
             entity = null;
-            if(!(zuuluu === michal)) { _fun00002_ip = 275; continue _fun00001 }
+            if(!(zuuluu === michal)) { _fun00002_ip = 279; continue _fun00001 }
  117:
             tangon = _closure1_slot3;
             zuuluu = _closure1_slot2;
@@ -144,9 +139,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = kiloes[golfie];
             golfie = backup.bind(report)(golfie);
             offset = golfie.Text;
-            golfie = {};
-            yankee = 'text-xs/semibold';
-            golfie['variant'] = yankee;
+            golfie = {'variant': 'text-xs/semibold', 'style': null, 'color': 'always-white'};
             yankee = option.badgeText;
             golfie['style'] = yankee;
             yankee = 9;
@@ -163,9 +156,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = tangon.bind(report)(offset, golfie);
             michal['children'] = golfie;
             entity = tangon.bind(report)(zuuluu, michal);
- 275:
-            _fun00002_ip = 436; continue _fun00001;
- 280:
+ 279:
+            _fun00002_ip = 444; continue _fun00001;
+ 284:
             tangon = _closure1_slot3;
             zuuluu = _closure1_slot2;
             michal = {};
@@ -182,9 +175,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = romeon[oscard];
             oscard = yankee.bind(report)(oscard);
             golfie = oscard.Text;
-            oscard = {};
-            verify = 'text-xs/semibold';
-            oscard['variant'] = verify;
+            oscard = {'variant': 'text-xs/semibold', 'style': null, 'color': 'always-white'};
             option = option.badgeText;
             oscard['style'] = option;
             option = 9;
@@ -201,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 436:
+ 444:
             return entity;
         }
     };

@@ -1362,10 +1362,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['FRACTIONAL_NITRO_DURATION_LEFT_PILL'] = michal;
     entity = 'FRACTIONAL_NITRO_DURATION_LEFT_PILL';
     tangon[michal] = entity;
-    michal = 477;
-    tangon['IGNORE_USER_NEW_BADGE'] = michal;
-    entity = 'IGNORE_USER_NEW_BADGE';
-    tangon[michal] = entity;
     michal = 478;
     tangon['LEADERBOARD_NUX_COACHMARK'] = michal;
     entity = 'LEADERBOARD_NUX_COACHMARK';

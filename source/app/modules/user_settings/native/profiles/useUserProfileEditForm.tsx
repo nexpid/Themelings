@@ -38,7 +38,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.FormStates;
     var _closure1_slot7 = tangon;
-    tangon = 14;
+    tangon = 15;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -157,235 +157,326 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 762; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 1066; continue _fun00003 }
  10:
                     michal = _closure2_slot1;
-                    if(michal) { _fun00004_ip = 757; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 1061; continue _fun00003 }
  23:
                     zuuluu = _closure1_slot0;
-                    oscard = _closure1_slot2;
+                    report = _closure1_slot2;
                     michal = 8;
-                    tangon = oscard[michal];
-                    golfie = undefined;
-                    verify = zuuluu.bind(golfie)(tangon);
-                    option = verify.getAccountUpdateForUpdateRequest;
+                    tangon = report[michal];
+                    option = undefined;
+                    verify = zuuluu.bind(option)(tangon);
+                    golfie = verify.getAccountUpdateForUpdateRequest;
                     tangon = _closure2_slot0;
-                    kiloes = option.bind(verify)(tangon);
-                    michal = oscard[michal];
-                    zuuluu = zuuluu.bind(golfie)(michal);
-                    michal = zuuluu.getProfileChangesForUpdateRequest;
-                    option = michal.bind(zuuluu)(tangon);
-                    zuuluu = global;
-                    tangon = zuuluu.Object;
-                    michal = tangon.keys;
-                    michal = michal.bind(tangon)(kiloes);
+                    sizing = golfie.bind(verify)(tangon);
+                    golfie = report[michal];
+                    verify = zuuluu.bind(option)(golfie);
+                    golfie = verify.getProfileChangesForUpdateRequest;
+                    yankee = golfie.bind(verify)(tangon);
+                    michal = report[michal];
+                    zuuluu = zuuluu.bind(option)(michal);
+                    michal = zuuluu.getPrimaryGuildChangesForUpdateRequest;
+                    tangon = michal.bind(zuuluu)(tangon);
+                    report = global;
+                    zuuluu = report.Object;
+                    michal = zuuluu.keys;
+                    michal = michal.bind(zuuluu)(sizing);
                     michal = michal.length;
-                    oscard = 0;
-                    michal = michal > oscard;
-                    verify = true;
-                    if(!michal) { _fun00004_ip = 491; continue _fun00003 }
- 120:
-                    tangon = _closure1_slot0;
+                    verify = 0;
+                    michal = michal > verify;
+                    romeon = true;
+                    if(!michal) { _fun00004_ip = 511; continue _fun00003 }
+ 140:
+                    zuuluu = _closure1_slot0;
                     michal = _closure1_slot2;
-                    romeon = 7;
-                    michal = michal[romeon];
-                    tangon = tangon.bind(golfie)(michal);
-                    michal = tangon.saveAccountChanges;
-                    michal = michal.bind(tangon)(kiloes);
-                    SaveGenerator(address=155);
- 153:
+                    foxtra = 7;
+                    michal = michal[foxtra];
+                    zuuluu = zuuluu.bind(option)(michal);
+                    michal = zuuluu.saveAccountChanges;
+                    michal = michal.bind(zuuluu)(sizing);
+                    SaveGenerator(address=175);
+ 173:
                     return michal;
- 155:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 754; continue _fun00003 }
- 164:
-                    tangon = null;
-                    if(!(tangon != michal)) { _fun00004_ip = 182; continue _fun00003 }
- 170:
-                    offset = michal.ok;
-                    if(offset) { _fun00004_ip = 332; continue _fun00003 }
- 182:
-                    yankee = tangon == michal;
-                    offset = undefined;
-                    if(yankee) { _fun00004_ip = 210; continue _fun00003 }
- 191:
-                    yankee = michal.body;
-                    foxtra = tangon == yankee;
-                    offset = undefined;
-                    if(foxtra) { _fun00004_ip = 210; continue _fun00003 }
- 205:
-                    offset = yankee.username;
- 210:
-                    if(!(tangon == offset)) { _fun00004_ip = 297; continue _fun00003 }
- 214:
-                    yankee = tangon == michal;
-                    offset = undefined;
-                    if(yankee) { _fun00004_ip = 243; continue _fun00003 }
- 223:
-                    yankee = michal.body;
-                    foxtra = tangon == yankee;
-                    offset = undefined;
-                    if(foxtra) { _fun00004_ip = 243; continue _fun00003 }
- 237:
-                    offset = yankee.avatar;
- 243:
-                    if(!(tangon != offset)) { _fun00004_ip = 463; continue _fun00003 }
- 250:
-                    yankee = _closure1_slot0;
-                    foxtra = _closure1_slot2;
-                    offset = 11;
-                    offset = foxtra[offset];
-                    foxtra = yankee.bind(golfie)(offset);
-                    yankee = foxtra.showGenericProfileUpdateFailureToast;
+ 175:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(zuuluu) { _fun00004_ip = 1058; continue _fun00003 }
+ 184:
+                    zuuluu = null;
+                    if(!(zuuluu != michal)) { _fun00004_ip = 202; continue _fun00003 }
+ 190:
+                    golfie = michal.ok;
+                    if(golfie) { _fun00004_ip = 352; continue _fun00003 }
+ 202:
+                    offset = zuuluu == michal;
+                    golfie = undefined;
+                    if(offset) { _fun00004_ip = 230; continue _fun00003 }
+ 211:
                     offset = michal.body;
-                    offset = offset.avatar;
-                    offset = yankee.bind(foxtra)(offset);
-                    _fun00004_ip = 463; continue _fun00003;
- 297:
-                    yankee = _closure1_slot0;
-                    foxtra = _closure1_slot2;
-                    offset = 10;
-                    offset = foxtra[offset];
-                    yankee = yankee.bind(golfie)(offset);
-                    offset = yankee.showInvalidUsernameToast;
-                    offset = offset.bind(yankee)();
-                    _fun00004_ip = 463; continue _fun00003;
- 332:
-                    sizing = michal.body;
-                    offset = _closure2_slot0;
-                    offset = offset.pendingAvatar;
-                    if(!(golfie !== offset)) { _fun00004_ip = 436; continue _fun00003 }
- 351:
-                    yankee = _closure1_slot0;
-                    foxtra = _closure1_slot2;
-                    offset = 9;
-                    offset = foxtra[offset];
-                    foxtra = yankee.bind(golfie)(offset);
-                    yankee = foxtra.trackUserAvatarUpdated;
-                    offset = {};
-                    sizing = sizing.avatar;
-                    offset['avatarHash'] = sizing;
-                    kiloes = kiloes.avatarId;
-                    offset['avatarId'] = kiloes;
-                    backup = _closure2_slot0;
-                    kiloes = backup.pendingAvatar;
-                    sizing = tangon == kiloes;
-                    backup = undefined;
-                    if(sizing) { _fun00004_ip = 426; continue _fun00003 }
- 420:
-                    backup = kiloes.assetOrigin;
- 426:
-                    offset['avatarAssetOrigin'] = backup;
-                    offset = yankee.bind(foxtra)(offset);
- 436:
-                    yankee = _closure1_slot0;
-                    offset = _closure1_slot2;
-                    offset = offset[romeon];
-                    yankee = yankee.bind(golfie)(offset);
-                    offset = yankee.resetPendingAccountChanges;
-                    offset = offset.bind(yankee)();
- 463:
-                    yankee = tangon == michal;
-                    offset = undefined;
-                    if(yankee) { _fun00004_ip = 478; continue _fun00003 }
- 472:
-                    offset = michal.ok;
- 478:
-                    tangon = tangon != offset;
-                    if(!tangon) { _fun00004_ip = 488; continue _fun00003 }
- 485:
-                    tangon = offset;
- 488:
-                    verify = tangon;
- 491:
-                    tangon = zuuluu.Object;
-                    zuuluu = tangon.keys;
-                    zuuluu = zuuluu.bind(tangon)(option);
+                    backup = zuuluu == offset;
+                    golfie = undefined;
+                    if(backup) { _fun00004_ip = 230; continue _fun00003 }
+ 225:
+                    golfie = offset.username;
+ 230:
+                    if(!(zuuluu == golfie)) { _fun00004_ip = 317; continue _fun00003 }
+ 234:
+                    offset = zuuluu == michal;
+                    golfie = undefined;
+                    if(offset) { _fun00004_ip = 263; continue _fun00003 }
+ 243:
+                    offset = michal.body;
+                    backup = zuuluu == offset;
+                    golfie = undefined;
+                    if(backup) { _fun00004_ip = 263; continue _fun00003 }
+ 257:
+                    golfie = offset.avatar;
+ 263:
+                    if(!(zuuluu != golfie)) { _fun00004_ip = 483; continue _fun00003 }
+ 270:
+                    offset = _closure1_slot0;
+                    backup = _closure1_slot2;
+                    golfie = 11;
+                    golfie = backup[golfie];
+                    backup = offset.bind(option)(golfie);
+                    offset = backup.showGenericProfileUpdateFailureToast;
+                    golfie = michal.body;
+                    golfie = golfie.avatar;
+                    golfie = offset.bind(backup)(golfie);
+                    _fun00004_ip = 483; continue _fun00003;
+ 317:
+                    offset = _closure1_slot0;
+                    backup = _closure1_slot2;
+                    golfie = 10;
+                    golfie = backup[golfie];
+                    offset = offset.bind(option)(golfie);
+                    golfie = offset.showInvalidUsernameToast;
+                    golfie = golfie.bind(offset)();
+                    _fun00004_ip = 483; continue _fun00003;
+ 352:
+                    output = michal.body;
+                    golfie = _closure2_slot0;
+                    golfie = golfie.pendingAvatar;
+                    if(!(option !== golfie)) { _fun00004_ip = 456; continue _fun00003 }
+ 371:
+                    offset = _closure1_slot0;
+                    backup = _closure1_slot2;
+                    golfie = 9;
+                    golfie = backup[golfie];
+                    backup = offset.bind(option)(golfie);
+                    offset = backup.trackUserAvatarUpdated;
+                    golfie = {};
+                    output = output.avatar;
+                    golfie['avatarHash'] = output;
+                    sizing = sizing.avatarId;
+                    golfie['avatarId'] = sizing;
+                    kiloes = _closure2_slot0;
+                    sizing = kiloes.pendingAvatar;
+                    output = zuuluu == sizing;
+                    kiloes = undefined;
+                    if(output) { _fun00004_ip = 446; continue _fun00003 }
+ 440:
+                    kiloes = sizing.assetOrigin;
+ 446:
+                    golfie['avatarAssetOrigin'] = kiloes;
+                    golfie = offset.bind(backup)(golfie);
+ 456:
+                    offset = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    golfie = golfie[foxtra];
+                    offset = offset.bind(option)(golfie);
+                    golfie = offset.resetPendingAccountChanges;
+                    golfie = golfie.bind(offset)();
+ 483:
+                    offset = zuuluu == michal;
+                    golfie = undefined;
+                    if(offset) { _fun00004_ip = 498; continue _fun00003 }
+ 492:
+                    golfie = michal.ok;
+ 498:
+                    zuuluu = zuuluu != golfie;
+                    if(!zuuluu) { _fun00004_ip = 508; continue _fun00003 }
+ 505:
+                    zuuluu = golfie;
+ 508:
+                    romeon = zuuluu;
+ 511:
+                    golfie = report.Object;
+                    zuuluu = golfie.keys;
+                    zuuluu = zuuluu.bind(golfie)(yankee);
                     zuuluu = zuuluu.length;
-                    tangon = verify;
-                    if(!(zuuluu > oscard)) { _fun00004_ip = 748; continue _fun00003 }
- 522:
-                    oscard = _closure1_slot0;
+                    offset = romeon;
+                    if(!(zuuluu > verify)) { _fun00004_ip = 768; continue _fun00003 }
+ 542:
+                    golfie = _closure1_slot0;
                     zuuluu = _closure1_slot2;
-                    offset = 12;
-                    zuuluu = zuuluu[offset];
-                    oscard = oscard.bind(golfie)(zuuluu);
-                    zuuluu = oscard.saveProfileChanges;
-                    zuuluu = zuuluu.bind(oscard)(option);
-                    SaveGenerator(address=557);
- 555:
+                    backup = 12;
+                    zuuluu = zuuluu[backup];
+                    golfie = golfie.bind(option)(zuuluu);
+                    zuuluu = golfie.saveProfileChanges;
+                    zuuluu = zuuluu.bind(golfie)(yankee);
+                    SaveGenerator(address=577);
+ 575:
                     return zuuluu;
- 557:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscard) { _fun00004_ip = 751; continue _fun00003 }
- 566:
-                    option = null;
-                    if(!(option != zuuluu)) { _fun00004_ip = 581; continue _fun00003 }
- 572:
-                    oscard = zuuluu.ok;
-                    if(oscard) { _fun00004_ip = 682; continue _fun00003 }
- 581:
+ 577:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
+                    if(golfie) { _fun00004_ip = 1055; continue _fun00003 }
+ 586:
+                    foxtra = null;
+                    if(!(foxtra != zuuluu)) { _fun00004_ip = 601; continue _fun00003 }
+ 592:
+                    golfie = zuuluu.ok;
+                    if(golfie) { _fun00004_ip = 702; continue _fun00003 }
+ 601:
+                    yankee = _closure1_slot0;
+                    kiloes = _closure1_slot2;
+                    golfie = 13;
+                    golfie = kiloes[golfie];
+                    golfie = yankee.bind(option)(golfie);
+                    golfie = golfie.APIError;
+                    yankee = golfie.prototype;
+                    yankee = Object.create(yankee, {constructor: {value: golfie}});
+                    update = yankee;
+                    echoed = zuuluu;
+                    golfie = new update[golfie](echoed, result);
+                    kiloes = golfie instanceof Object ? golfie : yankee;
+                    yankee = kiloes.getFirstFieldErrorMessage;
+                    golfie = 'banner';
+                    kiloes = yankee.bind(kiloes)(golfie);
+                    if(!(foxtra != kiloes)) { _fun00004_ip = 729; continue _fun00003 }
+ 669:
+                    yankee = _closure1_slot0;
+                    sizing = _closure1_slot2;
+                    golfie = 11;
+                    golfie = sizing[golfie];
+                    yankee = yankee.bind(option)(golfie);
+                    golfie = yankee.showGenericProfileUpdateFailureToast;
+                    golfie = golfie.bind(yankee)(kiloes);
+                    _fun00004_ip = 729; continue _fun00003;
+ 702:
+                    yankee = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    golfie = golfie[backup];
+                    yankee = yankee.bind(option)(golfie);
+                    golfie = yankee.resetPendingProfileChanges;
+                    golfie = golfie.bind(yankee)();
+ 729:
+                    golfie = romeon;
+                    yankee = undefined;
+                    if(!romeon) { _fun00004_ip = 759; continue _fun00003 }
+ 737:
+                    backup = foxtra == zuuluu;
+                    romeon = undefined;
+                    if(backup) { _fun00004_ip = 752; continue _fun00003 }
+ 746:
+                    romeon = zuuluu.ok;
+ 752:
+                    golfie = foxtra != romeon;
+                    yankee = romeon;
+ 759:
+                    if(!golfie) { _fun00004_ip = 765; continue _fun00003 }
+ 762:
+                    golfie = yankee;
+ 765:
+                    offset = golfie;
+ 768:
+                    golfie = report.Object;
+                    report = golfie.keys;
+                    report = report.bind(golfie)(tangon);
+                    golfie = report.length;
+                    report = offset;
+                    if(!(golfie > verify)) { _fun00004_ip = 1049; continue _fun00003 }
+ 799:
+                    romeon = tangon.primaryGuildId;
+                    report = offset;
+                    if(!(option !== romeon)) { _fun00004_ip = 1049; continue _fun00003 }
+ 815:
+                    golfie = _closure1_slot0;
+                    verify = _closure1_slot2;
+                    tangon = 14;
+                    tangon = verify[tangon];
+                    yankee = golfie.bind(option)(tangon);
+                    golfie = yankee.adoptGuildIdentity;
+                    verify = null;
+                    tangon = verify !== romeon;
+                    tangon = golfie.bind(yankee)(romeon, tangon);
+                    SaveGenerator(address=857);
+ 855:
+                    return tangon;
+ 857:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
+                    if(golfie) { _fun00004_ip = 1052; continue _fun00003 }
+ 866:
+                    if(!(verify != tangon)) { _fun00004_ip = 879; continue _fun00003 }
+ 870:
+                    golfie = tangon.ok;
+                    if(golfie) { _fun00004_ip = 980; continue _fun00003 }
+ 879:
                     yankee = _closure1_slot0;
                     romeon = _closure1_slot2;
-                    oscard = 13;
-                    oscard = romeon[oscard];
-                    oscard = yankee.bind(golfie)(oscard);
-                    oscard = oscard.APIError;
-                    yankee = oscard.prototype;
-                    yankee = Object.create(yankee, {constructor: {value: oscard}});
-                    result = yankee;
-                    output = zuuluu;
-                    oscard = new result[oscard](output, sizing);
-                    romeon = oscard instanceof Object ? oscard : yankee;
+                    golfie = 13;
+                    golfie = romeon[golfie];
+                    golfie = yankee.bind(option)(golfie);
+                    golfie = golfie.APIError;
+                    yankee = golfie.prototype;
+                    yankee = Object.create(yankee, {constructor: {value: golfie}});
+                    update = yankee;
+                    echoed = tangon;
+                    golfie = new update[golfie](echoed, result);
+                    romeon = golfie instanceof Object ? golfie : yankee;
                     yankee = romeon.getFirstFieldErrorMessage;
-                    oscard = 'banner';
-                    romeon = yankee.bind(romeon)(oscard);
-                    if(!(option != romeon)) { _fun00004_ip = 709; continue _fun00003 }
- 649:
+                    golfie = 'banner';
+                    romeon = yankee.bind(romeon)(golfie);
+                    if(!(verify != romeon)) { _fun00004_ip = 1010; continue _fun00003 }
+ 947:
                     yankee = _closure1_slot0;
                     foxtra = _closure1_slot2;
-                    oscard = 11;
-                    oscard = foxtra[oscard];
-                    yankee = yankee.bind(golfie)(oscard);
-                    oscard = yankee.showGenericProfileUpdateFailureToast;
-                    oscard = oscard.bind(yankee)(romeon);
-                    _fun00004_ip = 709; continue _fun00003;
- 682:
-                    oscard = _closure1_slot0;
-                    report = _closure1_slot2;
-                    report = report[offset];
-                    oscard = oscard.bind(golfie)(report);
-                    report = oscard.resetPendingProfileChanges;
-                    report = report.bind(oscard)();
- 709:
-                    report = verify;
-                    oscard = undefined;
-                    if(!verify) { _fun00004_ip = 739; continue _fun00003 }
- 717:
-                    verify = option == zuuluu;
+                    golfie = 11;
+                    golfie = foxtra[golfie];
+                    yankee = yankee.bind(option)(golfie);
+                    golfie = yankee.showGenericProfileUpdateFailureToast;
+                    golfie = golfie.bind(yankee)(romeon);
+                    _fun00004_ip = 1010; continue _fun00003;
+ 980:
+                    golfie = _closure1_slot0;
+                    yankee = _closure1_slot2;
+                    oscard = 7;
+                    oscard = yankee[oscard];
+                    golfie = golfie.bind(option)(oscard);
+                    oscard = golfie.resetPendingPrimaryGuildChanges;
+                    oscard = oscard.bind(golfie)();
+ 1010:
+                    oscard = offset;
                     golfie = undefined;
-                    if(verify) { _fun00004_ip = 732; continue _fun00003 }
- 726:
-                    golfie = zuuluu.ok;
- 732:
-                    report = option != golfie;
+                    if(!offset) { _fun00004_ip = 1040; continue _fun00003 }
+ 1018:
+                    offset = verify == tangon;
+                    option = undefined;
+                    if(offset) { _fun00004_ip = 1033; continue _fun00003 }
+ 1027:
+                    option = tangon.ok;
+ 1033:
+                    oscard = verify != option;
+                    golfie = option;
+ 1040:
+                    if(!oscard) { _fun00004_ip = 1046; continue _fun00003 }
+ 1043:
                     oscard = golfie;
- 739:
-                    if(!report) { _fun00004_ip = 745; continue _fun00003 }
- 742:
+ 1046:
                     report = oscard;
- 745:
-                    tangon = report;
- 748:
+ 1049:
+                    return report;
+ 1052:
                     return tangon;
- 751:
+ 1055:
                     return zuuluu;
- 754:
+ 1058:
                     return michal;
- 757:
+ 1061:
                     michal = undefined;
                     return michal;
- 762:
+ 1066:
                     return entity;
                 }
             };
@@ -492,8 +583,10 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         entity['pendingBio'] = tangon;
         tangon = zuuluu.pendingAccentColor;
         entity['pendingAccentColor'] = tangon;
-        zuuluu = zuuluu.pendingThemeColors;
-        entity['pendingThemeColors'] = zuuluu;
+        tangon = zuuluu.pendingThemeColors;
+        entity['pendingThemeColors'] = tangon;
+        zuuluu = zuuluu.pendingPrimaryGuildId;
+        entity['pendingPrimaryGuildId'] = zuuluu;
         zuuluu = michal.tryItOutAvatarDecoration;
         entity['tryItOutAvatarDecoration'] = zuuluu;
         zuuluu = michal.tryItOutThemeColors;

@@ -122,7 +122,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            report = entity.label;
+            golfie = entity.label;
+            report = entity.labelTrailing;
             output = entity.buttonText;
             result = entity.buttonSubtext;
             sizing = entity.onPress;
@@ -132,15 +133,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = entity.accessibilityHint;
             option = entity.disabled;
             tangon = undefined;
-            if(!(option === tangon)) { _fun00004_ip = 61; continue _fun00003 }
- 59:
+            if(!(option === tangon)) { _fun00004_ip = 67; continue _fun00003 }
+ 65:
             option = false;
- 61:
+ 67:
             verify = entity.hideArrow;
-            if(!(verify === tangon)) { _fun00004_ip = 73; continue _fun00003 }
- 71:
+            if(!(verify === tangon)) { _fun00004_ip = 79; continue _fun00003 }
+ 77:
             verify = false;
- 73:
+ 79:
             entity = _closure1_slot8;
             backup = entity.bind(tangon)();
             zuuluu = _closure1_slot6;
@@ -151,7 +152,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = oscard.bind(tangon)(entity);
             michal = entity.Input;
             entity = {};
-            entity['label'] = report;
+            entity['label'] = golfie;
+            entity['labelTrailing'] = report;
             golfie = _closure1_slot7;
             report = 8;
             report = echoed[report];
@@ -193,8 +195,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option[1] = romeon;
             option[2] = yankee;
             verify = !verify;
-            if(!verify) { _fun00004_ip = 328; continue _fun00003 }
- 290:
+            if(!verify) { _fun00004_ip = 339; continue _fun00003 }
+ 301:
             romeon = _closure1_slot6;
             yankee = _closure1_slot0;
             foxtra = _closure1_slot1;
@@ -204,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = offset.TableRowArrow;
             offset = {};
             verify = romeon.bind(tangon)(yankee, offset);
- 328:
+ 339:
             option[3] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

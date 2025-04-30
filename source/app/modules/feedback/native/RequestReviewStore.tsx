@@ -350,10 +350,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = _closure1_slot14;
                 zuuluu = tangon.bind(oscard)(zuuluu);
                 tangon = null;
-                if(!(tangon == zuuluu)) { _fun00012_ip = 68; continue _fun00011 }
+                if(!(tangon == zuuluu)) { _fun00012_ip = 64; continue _fun00011 }
  54:
                 zuuluu = {'firstUse': 0, 'revision': 0};
- 68:
+ 64:
                 _closure1_slot15 = zuuluu;
                 tangon = report.waitFor;
                 zuuluu = _closure1_slot8;

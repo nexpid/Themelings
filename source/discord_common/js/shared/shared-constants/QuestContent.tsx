@@ -130,6 +130,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['ORBS_BALANCE_MENU'] = oscard;
     michal = 'ORBS_BALANCE_MENU';
     tangon[oscard] = michal;
+    oscard = 30;
+    tangon['QUEST_ENROLLMENT_BLOCKED_BOTTOM_SHEET'] = oscard;
+    michal = 'QUEST_ENROLLMENT_BLOCKED_BOTTOM_SHEET';
+    tangon[oscard] = michal;
     michal = {};
     option = entity.Set;
     oscard = option.prototype;

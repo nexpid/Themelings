@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  43:
             if(!zuuluu) { _fun00002_ip = 70; continue _fun00001 }
  46:
-            oscard = _closure1_slot5;
+            oscard = _closure1_slot6;
             report = oscard.has;
             tangon = golfie.toLowerCase;
             tangon = tangon.bind(golfie)();
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot6 = offset;
+    var _closure1_slot7 = offset;
     verify = function(argFoo) { // Original name: isDiscordProtocol
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot7 = verify;
+    var _closure1_slot8 = verify;
     option = function(argFoo) { // Original name: isDiscordUrl
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  69:
             if(!(report != michal)) { _fun00006_ip = 86; continue _fun00005 }
  73:
-            entity = _closure1_slot6;
+            entity = _closure1_slot7;
             entity = entity.bind(zuuluu)(michal, tangon);
             if(entity) { _fun00006_ip = 90; continue _fun00005 }
  86:
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot8 = option;
+    var _closure1_slot9 = option;
     golfie = function(argFoo) { // Original name: isDiscordUri
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity != oscard;
             if(!entity) { _fun00008_ip = 63; continue _fun00007 }
  12:
-            tangon = _closure1_slot7;
+            tangon = _closure1_slot8;
             report = _closure1_slot1;
             zuuluu = _closure1_slot2;
             michal = 2;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot9 = golfie;
+    var _closure1_slot10 = golfie;
     romeon = global;
     backup = romeon.Object;
     foxtra = backup.defineProperty;
@@ -138,6 +138,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot3 = michal;
     michal = /(?:^|\.)(?:discordapp|discord|discordmerch)\.com$/i;
     var _closure1_slot4 = michal;
+    michal = /^.*\.discordapp\.net$/;
+    var _closure1_slot5 = michal;
     michal = 1;
     michal = oscard[michal];
     yankee = yankee.bind(entity)(michal);
@@ -180,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     result = michal;
     michal = new echoed[foxtra](result, output);
     michal = michal instanceof Object ? michal : romeon;
-    var _closure1_slot5 = michal;
+    var _closure1_slot6 = michal;
     michal = {};
     michal['URL_REGEX'] = yankee;
     michal['isDiscordHostname'] = offset;
@@ -237,16 +239,56 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     michal['isDiscordCdnUrl'] = golfie;
-    golfie = function(argFoo) { // Original name: isDiscordUrlOrUri
+    golfie = function(argFoo) { // Original name: isDiscordAssetUrl
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
+            report = argFoo;
+            entity = null;
+            if(!(entity != report)) { _fun00014_ip = 110; continue _fun00013 }
+ 9:
+            oscard = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            michal = 3;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            zuuluu = oscard.bind(michal)(zuuluu);
+            michal = zuuluu.toURLSafe;
+            zuuluu = michal.bind(zuuluu)(report);
+            entity = entity != zuuluu;
+            if(!entity) { _fun00014_ip = 108; continue _fun00013 }
+ 52:
+            report = zuuluu.hostname;
+            michal = global;
+            michal = michal.window;
+            michal = michal.GLOBAL_ENV;
+            michal = michal.CDN_HOST;
+            michal = report === michal;
+            if(michal) { _fun00014_ip = 105; continue _fun00013 }
+ 85:
+            report = _closure1_slot5;
+            tangon = report.test;
+            zuuluu = zuuluu.hostname;
+            michal = tangon.bind(report)(zuuluu);
+ 105:
+            entity = michal;
+ 108:
+            return entity;
+ 110:
+            entity = false;
+            return entity;
+        }
+    };
+    michal['isDiscordAssetUrl'] = golfie;
+    golfie = function(argFoo) { // Original name: isDiscordUrlOrUri
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+ 0:
             tangon = argFoo;
-            entity = _closure1_slot8;
+            entity = _closure1_slot9;
             zuuluu = undefined;
             entity = entity.bind(zuuluu)(tangon);
-            if(entity) { _fun00014_ip = 29; continue _fun00013 }
+            if(entity) { _fun00016_ip = 29; continue _fun00015 }
  20:
-            michal = _closure1_slot9;
+            michal = _closure1_slot10;
             entity = michal.bind(zuuluu)(tangon);
  29:
             return entity;
@@ -254,7 +296,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     michal['isDiscordUrlOrUri'] = golfie;
     golfie = function(argFoo) { // Original name: isAppRoute
-        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             michal = argFoo;
             entity = michal.toLowerCase;
@@ -262,7 +304,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = tangon.startsWith;
             entity = '/channels/';
             entity = michal.bind(tangon)(entity);
-            if(entity) { _fun00016_ip = 57; continue _fun00015 }
+            if(entity) { _fun00018_ip = 57; continue _fun00017 }
  33:
             zuuluu = tangon.startsWith;
             michal = _closure1_slot3;
@@ -331,7 +373,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     michal['formatSearch'] = golfie;
     golfie = function(argFoo) { // Original name: safeParseWithQuery
-        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             entity = argFoo;
  3: // try_start_0
@@ -355,7 +397,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     michal['safeParseWithQuery'] = golfie;
     golfie = function(argFoo, argBar) { // Original name: toURLSafe
-        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
             michal = argFoo;
             entity = argBar;

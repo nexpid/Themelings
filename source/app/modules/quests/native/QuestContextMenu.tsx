@@ -359,12 +359,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = report.bind(oscard)(tangon);
  63:
                     zuuluu['label'] = entity;
-                    oscard = _closure1_slot0;
+                    yankee = _closure1_slot0;
                     verify = _closure1_slot2;
                     entity = 16;
                     entity = verify[entity];
                     golfie = undefined;
-                    entity = oscard.bind(golfie)(entity);
+                    entity = yankee.bind(golfie)(entity);
                     entity = entity.LinkExternalSmallIcon;
                     zuuluu['IconComponent'] = entity;
                     entity = _closure2_slot13;
@@ -374,29 +374,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = {};
                     report = 6;
                     tangon = verify[report];
-                    tangon = oscard.bind(golfie)(tangon);
-                    yankee = tangon.intl;
-                    offset = yankee.string;
+                    tangon = yankee.bind(golfie)(tangon);
+                    offset = tangon.intl;
+                    oscard = offset.string;
                     tangon = verify[report];
-                    tangon = oscard.bind(golfie)(tangon);
+                    tangon = yankee.bind(golfie)(tangon);
                     tangon = tangon.t;
                     tangon = tangon.GcsZKC;
-                    tangon = offset.bind(yankee)(tangon);
+                    tangon = oscard.bind(offset)(tangon);
                     zuuluu['label'] = tangon;
                     tangon = _closure2_slot15;
                     zuuluu['action'] = tangon;
+                    oscard = _closure1_slot1;
                     tangon = 17;
                     tangon = verify[tangon];
                     tangon = oscard.bind(golfie)(tangon);
-                    tangon = tangon.CircleQuestionIcon;
-                    zuuluu['IconComponent'] = tangon;
+                    zuuluu['iconSource'] = tangon;
                     entity[1] = zuuluu;
                     zuuluu = _closure2_slot1;
-                    if(zuuluu) { _fun00004_ip = 220; continue _fun00003 }
- 214:
+                    if(zuuluu) { _fun00004_ip = 218; continue _fun00003 }
+ 212:
                     zuuluu = new Array(0);
-                    _fun00004_ip = 320; continue _fun00003;
- 220:
+                    _fun00004_ip = 318; continue _fun00003;
+ 218:
                     tangon = {};
                     oscard = _closure1_slot0;
                     option = _closure1_slot2;
@@ -420,7 +420,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = new Array(1);
                     michal[0] = tangon;
                     zuuluu = michal;
- 320:
+ 318:
                     romeon = 2;
                     backup = entity;
                     foxtra = zuuluu;

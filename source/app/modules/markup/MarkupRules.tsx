@@ -385,7 +385,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = oscard[golfie];
     kiloes = output.bind(entity)(verify);
     backup = kiloes.inlineRegex;
-    verify = /^<((?:(?:tel|sms):\+?|\+)(?:([0-9]+|\([0-9]+\)))(?:[- .\\/]?([0-9]+|\([0-9]+\)))+)>/;
+    verify = /^<((?:(?:tel|sms):\+?|\+)(?:(?:[0-9]|\([0-9]+\)))(?:[- .\\/]?(?:[0-9]|\([0-9]+\)))+)>/;
     verify = backup.bind(kiloes)(verify);
     michal[romeon] = verify;
     verify = function(argFoo) { // Original name: parse

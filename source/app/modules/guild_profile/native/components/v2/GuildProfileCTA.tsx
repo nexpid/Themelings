@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = global;
                 zuuluu = zuuluu.HermesInternal;
                 option = zuuluu.concat;
-                zuuluu = 'GuildDiscoverableProfile:';
+                zuuluu = 'GuildProfileActionSheet:';
                 zuuluu = option.bind(zuuluu)(tangon);
                 zuuluu = oscard.bind(golfie)(zuuluu);
                 zuuluu = _closure1_slot0;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = global;
                     entity = entity.HermesInternal;
                     option = entity.concat;
-                    entity = 'GuildDiscoverableProfile:';
+                    entity = 'GuildProfileActionSheet:';
                     entity = option.bind(entity)(verify);
                     entity = oscard.bind(golfie)(entity);
                     entity = 6;
@@ -240,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = global;
                     tangon = tangon.HermesInternal;
                     option = tangon.concat;
-                    tangon = 'GuildDiscoverableProfile:';
+                    tangon = 'GuildProfileActionSheet:';
                     tangon = option.bind(tangon)(verify);
                     tangon = report.bind(oscard)(tangon);
                     tangon = _closure2_slot0;
@@ -289,7 +289,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = global;
                 michal = michal.HermesInternal;
                 option = michal.concat;
-                michal = 'GuildDiscoverableProfile:';
+                michal = 'GuildProfileActionSheet:';
                 michal = option.bind(michal)(report);
                 michal = zuuluu.bind(golfie)(michal);
                 zuuluu = _closure1_slot0;

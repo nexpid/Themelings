@@ -1,24 +1,42 @@
 // app/modules/quests/types/v2/Video.tsx
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     zuuluu = argFre;
+    tangon = function(argFoo) { // Original name: videoAssetFromServer
+        michal = argFoo;
+        entity = {};
+        zuuluu = michal.url;
+        entity['url'] = zuuluu;
+        zuuluu = michal.width;
+        entity['width'] = zuuluu;
+        zuuluu = michal.height;
+        entity['height'] = zuuluu;
+        zuuluu = michal.thumbnail;
+        entity['thumbnail'] = zuuluu;
+        zuuluu = michal.caption;
+        entity['caption'] = zuuluu;
+        michal = michal.transcript;
+        entity['transcript'] = michal;
+        return entity;
+    };
+    var _closure1_slot0 = tangon;
     entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    report = {};
     entity = true;
-    michal['value'] = entity;
+    report['value'] = entity;
     entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
+    report = argPlu;
     entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
+    oscard = report[entity];
+    report = argBar;
     entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = 'modules/quests/types/v2/Video.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function(argFoo) { // Original name: questVideoMetadataFromServer
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
+    report = 'modules/quests/types/v2/Video.tsx';
+    report = oscard.bind(golfie)(report);
+    report = function(argFoo) { // Original name: questVideoMetadataFromServer
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zuuluu = argFoo;
@@ -75,6 +93,97 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['questVideoMetadataFromServer'] = michal;
+    zuuluu['questVideoMetadataFromServer'] = report;
+    zuuluu['videoAssetFromServer'] = tangon;
+    tangon = function(argFoo) { // Original name: desktopVideoAssetsFromServer
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            michal = argFoo;
+            entity = {};
+            oscard = _closure1_slot0;
+            report = michal.video;
+            tangon = undefined;
+            report = oscard.bind(tangon)(report);
+            entity['video'] = report;
+            report = michal.video_low_res;
+            oscard = null;
+            if(!(oscard != report)) { _fun00004_ip = 63; continue _fun00003 }
+ 42:
+            golfie = _closure1_slot0;
+            report = michal.video_low_res;
+            report = golfie.bind(tangon)(report);
+            entity['videoLowRes'] = report;
+ 63:
+            report = michal.video_hls;
+            if(!(oscard != report)) { _fun00004_ip = 94; continue _fun00003 }
+ 73:
+            zuuluu = _closure1_slot0;
+            michal = michal.video_hls;
+            michal = zuuluu.bind(tangon)(michal);
+            entity['videoHls'] = michal;
+ 94:
+            return entity;
+        }
+    };
+    zuuluu['desktopVideoAssetsFromServer'] = tangon;
+    tangon = function(argFoo) { // Original name: desktopVideoMessagesFromServer
+        michal = argFoo;
+        entity = {};
+        zuuluu = michal.video_title;
+        entity['videoTitle'] = zuuluu;
+        zuuluu = michal.video_end_cta_title;
+        entity['videoEndCtaTitle'] = zuuluu;
+        zuuluu = michal.video_end_cta_subtitle;
+        entity['videoEndCtaSubtitle'] = zuuluu;
+        michal = michal.video_end_cta_button_label;
+        entity['videoEndCtaButtonLabel'] = michal;
+        return entity;
+    };
+    zuuluu['desktopVideoMessagesFromServer'] = tangon;
+    tangon = function(argFoo) { // Original name: mobileVideoAssetsFromServer
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+            michal = argFoo;
+            entity = {};
+            oscard = _closure1_slot0;
+            report = michal.video;
+            tangon = undefined;
+            report = oscard.bind(tangon)(report);
+            entity['video'] = report;
+            report = michal.video_low_res;
+            oscard = null;
+            if(!(oscard != report)) { _fun00006_ip = 63; continue _fun00005 }
+ 42:
+            golfie = _closure1_slot0;
+            report = michal.video_low_res;
+            report = golfie.bind(tangon)(report);
+            entity['videoLowRes'] = report;
+ 63:
+            report = michal.video_hls;
+            if(!(oscard != report)) { _fun00006_ip = 94; continue _fun00005 }
+ 73:
+            zuuluu = _closure1_slot0;
+            michal = michal.video_hls;
+            michal = zuuluu.bind(tangon)(michal);
+            entity['videoHls'] = michal;
+ 94:
+            return entity;
+        }
+    };
+    zuuluu['mobileVideoAssetsFromServer'] = tangon;
+    michal = function(argFoo) { // Original name: mobileVideoMessagesFromServer
+        michal = argFoo;
+        entity = {};
+        zuuluu = michal.video_title;
+        entity['videoTitle'] = zuuluu;
+        zuuluu = michal.video_end_cta_title;
+        entity['videoEndCtaTitle'] = zuuluu;
+        zuuluu = michal.video_end_cta_subtitle;
+        entity['videoEndCtaSubtitle'] = zuuluu;
+        michal = michal.video_end_cta_button_label;
+        entity['videoEndCtaButtonLabel'] = michal;
+        return entity;
+    };
+    zuuluu['mobileVideoMessagesFromServer'] = michal;
     return entity;
 })();

@@ -33,9 +33,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 3;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
+    tangon = tangon.AgeGateSource;
     var _closure1_slot6 = tangon;
-    tangon = 14;
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot7 = tangon;
+    tangon = 15;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -48,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot0 = yankee;
             zuuluu = _closure1_slot0;
             kiloes = _closure1_slot2;
-            entity = 4;
+            entity = 5;
             entity = kiloes[entity];
             tangon = undefined;
             golfie = zuuluu.bind(tangon)(entity);
@@ -75,15 +80,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             entity = oscard.bind(golfie)(michal, entity);
-            michal = 5;
+            michal = 6;
             oscard = kiloes[michal];
             golfie = zuuluu.bind(tangon)(oscard);
             oscard = golfie.useShouldAgeVerifyForAgeGate;
             foxtra = oscard.bind(golfie)();
             michal = kiloes[michal];
-            oscard = zuuluu.bind(tangon)(michal);
-            michal = oscard.useAgeGateVerifyContent;
-            michal = michal.bind(oscard)();
+            golfie = zuuluu.bind(tangon)(michal);
+            oscard = golfie.useAgeGateVerifyContent;
+            michal = _closure1_slot6;
+            michal = michal.NSFW_CHANNEL;
+            michal = oscard.bind(golfie)(michal);
             verify = michal.verifyAgreementButtonText;
             offset = michal.verifyGateDescription;
             oscard = function() { // Original name: handleDisagree
@@ -91,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     zuuluu = _closure1_slot1;
                     michal = _closure1_slot2;
-                    entity = 6;
+                    entity = 7;
                     michal = michal[entity];
                     entity = undefined;
                     oscard = zuuluu.bind(entity)(michal);
@@ -115,13 +122,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = function() {
                 tangon = _closure1_slot1;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 zuuluu = oscard[entity];
                 entity = undefined;
                 tangon = tangon.bind(entity)(zuuluu);
                 zuuluu = tangon.showAgeVerificationGetStartedModal;
                 report = _closure1_slot0;
-                michal = 8;
+                michal = 9;
                 michal = oscard[michal];
                 michal = report.bind(entity)(michal);
                 michal = michal.AgeVerificationModalEntryPoint;
@@ -131,20 +138,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal = new Array(0);
             golfie = option.bind(backup)(golfie, michal);
-            michal = 9;
+            michal = 10;
             michal = kiloes[michal];
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = zuuluu.useNsfwSource;
             option = michal.bind(zuuluu)();
-            zuuluu = _closure1_slot6;
+            zuuluu = _closure1_slot7;
             backup = _closure1_slot1;
-            michal = 10;
+            michal = 11;
             michal = kiloes[michal];
             michal = backup.bind(tangon)(michal);
-            if(foxtra) { _fun00002_ip = 787; continue _fun00001 }
- 198:
-            if(entity) { _fun00002_ip = 495; continue _fun00001 }
- 204:
+            if(foxtra) { _fun00002_ip = 798; continue _fun00001 }
+ 209:
+            if(entity) { _fun00002_ip = 506; continue _fun00001 }
+ 215:
             entity = {};
             foxtra = yankee.guildId;
             entity['guildId'] = foxtra;
@@ -152,14 +159,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['channelId'] = foxtra;
             sizing = _closure1_slot0;
             output = _closure1_slot2;
-            foxtra = 8;
+            foxtra = 9;
             foxtra = output[foxtra];
             foxtra = sizing.bind(tangon)(foxtra);
             foxtra = foxtra.NsfwSpaceWarningModalType;
             foxtra = foxtra.NSFW_CHANNEL_VERIFIED;
             entity['modalType'] = foxtra;
             entity['source'] = option;
-            foxtra = 11;
+            foxtra = 12;
             backup = output[foxtra];
             backup = sizing.bind(tangon)(backup);
             result = backup.intl;
@@ -205,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = function() { // Original name: onAgree
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
-                entity = 6;
+                entity = 7;
                 michal = michal[entity];
                 entity = undefined;
                 tangon = zuuluu.bind(entity)(michal);
@@ -217,8 +224,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             entity['onAgree'] = report;
             entity['onDisagree'] = oscard;
-            _fun00002_ip = 782; continue _fun00001;
- 495:
+            _fun00002_ip = 793; continue _fun00001;
+ 506:
             report = {};
             foxtra = yankee.guildId;
             report['guildId'] = foxtra;
@@ -226,18 +233,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['channelId'] = foxtra;
             sizing = _closure1_slot0;
             output = _closure1_slot2;
-            foxtra = 8;
+            foxtra = 9;
             foxtra = output[foxtra];
             foxtra = sizing.bind(tangon)(foxtra);
             foxtra = foxtra.NsfwSpaceWarningModalType;
             foxtra = foxtra.NSFW_CHANNEL_UNDERAGE;
             report['modalType'] = foxtra;
             source = _closure1_slot1;
-            foxtra = 12;
+            foxtra = 13;
             foxtra = output[foxtra];
             foxtra = source.bind(tangon)(foxtra);
             report['source'] = foxtra;
-            foxtra = 11;
+            foxtra = 12;
             backup = output[foxtra];
             backup = sizing.bind(tangon)(backup);
             result = backup.intl;
@@ -257,7 +264,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup.t;
             kiloes = backup.2kHZen;
             backup = {};
-            update = 13;
+            update = 14;
             update = output[update];
             ctrled = source.bind(tangon)(update);
             source = ctrled.getArticleURL;
@@ -281,9 +288,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['disagreement'] = foxtra;
             report['onDisagree'] = oscard;
             entity = report;
- 782:
-            _fun00002_ip = 970; continue _fun00001;
- 787:
+ 793:
+            _fun00002_ip = 981; continue _fun00001;
+ 798:
             report = {};
             foxtra = yankee.guildId;
             report['guildId'] = foxtra;
@@ -291,14 +298,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['channelId'] = yankee;
             yankee = _closure1_slot0;
             romeon = _closure1_slot2;
-            foxtra = 8;
+            foxtra = 9;
             foxtra = romeon[foxtra];
             foxtra = yankee.bind(tangon)(foxtra);
             foxtra = foxtra.NsfwSpaceWarningModalType;
             foxtra = foxtra.NSFW_CHANNEL_AGE_VERIFY;
             report['modalType'] = foxtra;
             report['source'] = option;
-            option = 11;
+            option = 12;
             foxtra = romeon[option];
             foxtra = yankee.bind(tangon)(foxtra);
             kiloes = foxtra.intl;
@@ -324,7 +331,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['onAgree'] = golfie;
             report['onDisagree'] = oscard;
             entity = report;
- 970:
+ 981:
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }

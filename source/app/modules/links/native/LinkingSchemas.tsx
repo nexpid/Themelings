@@ -1,0 +1,34 @@
+// app/modules/links/native/LinkingSchemas.tsx
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
+    entity = global;
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
+    michal = true;
+    tangon['value'] = michal;
+    michal = '__esModule';
+    michal = report.bind(oscard)(zuuluu, michal, tangon);
+    tangon = {};
+    michal = {};
+    report = /(?:^https?:\\/\\/)(?:www\.)?bestbuy\.com(?:\\/(.*))?$/i;
+    michal['regex'] = report;
+    report = 'bestbuy://';
+    michal['protocol'] = report;
+    tangon['bestbuy'] = michal;
+    michal = entity.Object;
+    entity = michal.values;
+    michal = entity.bind(michal)(tangon);
+    report = argPlu;
+    entity = 0;
+    oscard = report[entity];
+    report = argBar;
+    entity = undefined;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
+    report = 'modules/links/native/LinkingSchemas.tsx';
+    report = oscard.bind(golfie)(report);
+    zuuluu['LINKING_SCHEMAS'] = tangon;
+    zuuluu['LINKING_SCHEMAS_VALUES'] = michal;
+    return entity;
+})();

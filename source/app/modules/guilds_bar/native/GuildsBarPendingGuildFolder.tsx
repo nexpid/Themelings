@@ -40,31 +40,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            offset = entity.node;
-            var _closure2_slot0 = offset;
-            foxtra = _closure1_slot0;
-            backup = _closure1_slot2;
+            yankee = entity.id;
+            var _closure2_slot0 = yankee;
+            golfie = entity.expanded;
+            offset = entity.childNodes;
+            kiloes = _closure1_slot0;
+            sizing = _closure1_slot2;
             entity = 4;
-            michal = backup[entity];
+            michal = sizing[entity];
             tangon = undefined;
-            oscard = foxtra.bind(tangon)(michal);
+            oscard = kiloes.bind(tangon)(michal);
             michal = oscard.useGuildsBarAnimatedWrapperStyles;
-            golfie = true;
-            yankee = false;
-            verify = michal.bind(oscard)(golfie, yankee);
+            option = true;
+            foxtra = false;
+            romeon = michal.bind(oscard)(option, foxtra);
             michal = _closure1_slot1;
             oscard = 5;
-            oscard = backup[oscard];
+            oscard = sizing[oscard];
             oscard = michal.bind(tangon)(oscard);
             oscard = oscard.bind(tangon)();
             var _closure2_slot1 = oscard;
             oscard = 6;
-            oscard = backup[oscard];
-            kiloes = foxtra.bind(tangon)(oscard);
-            romeon = kiloes.useStateFromStores;
+            oscard = sizing[oscard];
+            output = kiloes.bind(tangon)(oscard);
+            backup = output.useStateFromStores;
             oscard = _closure1_slot4;
-            option = new Array(1);
-            option[0] = oscard;
+            verify = new Array(1);
+            verify[0] = oscard;
             oscard = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -82,12 +84,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            romeon = romeon.bind(kiloes)(option, oscard);
-            update = _closure1_slot3;
-            kiloes = update.useMemo;
-            oscard = offset.id;
-            option = new Array(1);
-            option[0] = oscard;
+            backup = backup.bind(output)(verify, oscard);
+            ctrled = _closure1_slot3;
+            output = ctrled.useMemo;
+            verify = new Array(1);
+            verify[0] = yankee;
             oscard = function() {
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
@@ -97,7 +98,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = tangon.bind(entity)(zuuluu);
                 zuuluu = tangon.getGuildFolderMenuItems;
                 entity = _closure2_slot0;
-                entity = entity.id;
                 report = zuuluu.bind(tangon)(entity);
                 var _closure3_slot0 = report;
                 entity = {};
@@ -149,24 +149,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['onAccessibilityAction'] = michal;
                 return entity;
             };
-            oscard = kiloes.bind(update)(oscard, option);
-            sizing = oscard.accessibilityActions;
-            kiloes = oscard.onAccessibilityAction;
-            source = offset.id;
+            oscard = output.bind(ctrled)(oscard, verify);
+            result = oscard.accessibilityActions;
+            output = oscard.onAccessibilityAction;
             oscard = 8;
-            oscard = backup[oscard];
-            result = foxtra.bind(tangon)(oscard);
-            option = result.useSharedValue;
-            output = global;
-            oscard = output.HermesInternal;
+            oscard = sizing[oscard];
+            source = kiloes.bind(tangon)(oscard);
+            verify = source.useSharedValue;
+            echoed = global;
+            oscard = echoed.HermesInternal;
             oscard = oscard.concat;
-            echoed = '';
-            oscard = oscard.bind(echoed)(source);
-            option = option.bind(result)(oscard);
-            result = update.useMemo;
-            source = offset.id;
+            update = '';
+            oscard = oscard.bind(update)(yankee);
+            verify = verify.bind(source)(oscard);
+            source = ctrled.useMemo;
             oscard = new Array(1);
-            oscard[0] = source;
+            oscard[0] = yankee;
             zuuluu = function() {
                 entity = {};
                 michal = function() { // Original name: onPress
@@ -188,64 +186,59 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = zuuluu.bind(entity)(michal);
                     zuuluu = tangon.toggleGuildFolderExpand;
                     michal = _closure2_slot0;
-                    michal = michal.id;
                     michal = zuuluu.bind(tangon)(michal);
                     return entity;
                 };
                 entity['onPress'] = michal;
                 return entity;
             };
-            oscard = result.bind(update)(zuuluu, oscard);
+            oscard = source.bind(ctrled)(zuuluu, oscard);
             zuuluu = _closure1_slot6;
-            entity = backup[entity];
+            entity = sizing[entity];
             michal = michal.bind(tangon)(entity);
             entity = {};
-            result = offset.id;
-            output = output.HermesInternal;
-            output = output.concat;
-            output = output.bind(echoed)(result);
-            entity['id'] = output;
-            entity['accessibilityActions'] = sizing;
-            entity['onAccessibilityAction'] = kiloes;
-            entity['selected'] = romeon;
-            entity['unread'] = yankee;
-            entity['circle'] = yankee;
-            entity['styles'] = verify;
-            verify = 11;
-            yankee = backup[verify];
-            yankee = foxtra.bind(tangon)(yankee);
-            romeon = yankee.intl;
-            yankee = romeon.string;
-            verify = backup[verify];
-            verify = foxtra.bind(tangon)(verify);
-            verify = verify.t;
-            verify = verify.scsU+v;
-            verify = yankee.bind(romeon)(verify);
-            entity['label'] = verify;
-            entity['sharedId'] = option;
+            echoed = echoed.HermesInternal;
+            echoed = echoed.concat;
+            echoed = echoed.bind(update)(yankee);
+            entity['id'] = echoed;
+            entity['accessibilityActions'] = result;
+            entity['onAccessibilityAction'] = output;
+            entity['selected'] = backup;
+            entity['unread'] = foxtra;
+            entity['circle'] = foxtra;
+            entity['styles'] = romeon;
+            romeon = 11;
+            foxtra = sizing[romeon];
+            foxtra = kiloes.bind(tangon)(foxtra);
+            backup = foxtra.intl;
+            foxtra = backup.string;
+            romeon = sizing[romeon];
+            romeon = kiloes.bind(tangon)(romeon);
+            romeon = romeon.t;
+            romeon = romeon.scsU+v;
+            romeon = foxtra.bind(backup)(romeon);
+            entity['label'] = romeon;
+            entity['sharedId'] = verify;
             entity['cutouts'] = tangon;
             entity['overState'] = tangon;
-            entity['preventClipping'] = golfie;
+            entity['preventClipping'] = option;
             entity['config'] = oscard;
-            golfie = offset.expanded;
             oscard = null;
-            if(!golfie) { _fun00002_ip = 468; continue _fun00001 }
- 405:
+            if(!golfie) { _fun00002_ip = 443; continue _fun00001 }
+ 390:
             verify = _closure1_slot6;
             option = _closure1_slot0;
-            yankee = _closure1_slot2;
+            romeon = _closure1_slot2;
             golfie = 12;
-            golfie = yankee[golfie];
+            golfie = romeon[golfie];
             golfie = option.bind(tangon)(golfie);
             option = golfie.GuildsBarGuildFolderBG;
             golfie = {};
-            yankee = offset.id;
             golfie['folderId'] = yankee;
-            offset = offset.children;
             offset = offset.length;
             golfie['totalItems'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 468:
+ 443:
             entity['externalChildren'] = oscard;
             golfie = _closure1_slot6;
             oscard = _closure1_slot0;

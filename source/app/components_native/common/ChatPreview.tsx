@@ -828,19 +828,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = '';
                         entity = michal === tangon;
  51:
-                        if(entity) { _fun00022_ip = 97; continue _fun00021 }
+                        if(entity) { _fun00022_ip = 91; continue _fun00021 }
  54:
-                        zuuluu = _closure1_slot0;
-                        michal = _closure1_slot3;
+                        michal = _closure1_slot1;
+                        zuuluu = _closure1_slot3;
                         entity = 29;
-                        michal = michal[entity];
-                        entity = undefined;
-                        zuuluu = zuuluu.bind(entity)(michal);
-                        michal = zuuluu.showLongPressUrlActionSheet;
+                        entity = zuuluu[entity];
+                        zuuluu = undefined;
+                        michal = michal.bind(zuuluu)(entity);
                         entity = {};
                         entity['urlString'] = tangon;
                         entity = michal.bind(zuuluu)(entity);
- 97:
+ 91:
                         entity = undefined;
                         return entity;
                     }

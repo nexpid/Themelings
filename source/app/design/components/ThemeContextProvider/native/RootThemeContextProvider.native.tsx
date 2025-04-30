@@ -40,74 +40,81 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
  0:
             entity = argFoo;
             report = entity.children;
-            sizing = entity.theme;
+            output = entity.theme;
             tangon = undefined;
-            if(!(sizing === tangon)) { _fun00002_ip = 35; continue _fun00001 }
+            if(!(output === tangon)) { _fun00002_ip = 35; continue _fun00001 }
  22:
             zuuluu = _closure1_slot3;
-            sizing = zuuluu.DARK;
+            output = zuuluu.DARK;
  35:
-            var _closure2_slot0 = sizing;
-            kiloes = entity.primaryColor;
-            if(!(kiloes === tangon)) { _fun00002_ip = 51; continue _fun00001 }
+            var _closure2_slot0 = output;
+            sizing = entity.primaryColor;
+            if(!(sizing === tangon)) { _fun00002_ip = 51; continue _fun00001 }
  49:
-            kiloes = null;
+            sizing = null;
  51:
-            var _closure2_slot1 = kiloes;
-            backup = entity.secondaryColor;
-            if(!(backup === tangon)) { _fun00002_ip = 67; continue _fun00001 }
+            var _closure2_slot1 = sizing;
+            kiloes = entity.secondaryColor;
+            if(!(kiloes === tangon)) { _fun00002_ip = 67; continue _fun00001 }
  65:
-            backup = null;
+            kiloes = null;
  67:
-            var _closure2_slot2 = backup;
-            foxtra = entity.gradient;
-            if(!(foxtra === tangon)) { _fun00002_ip = 83; continue _fun00001 }
+            var _closure2_slot2 = kiloes;
+            backup = entity.gradient;
+            if(!(backup === tangon)) { _fun00002_ip = 83; continue _fun00001 }
  81:
-            foxtra = null;
+            backup = null;
  83:
-            var _closure2_slot3 = foxtra;
-            romeon = entity.flags;
-            if(!(romeon === tangon)) { _fun00002_ip = 98; continue _fun00001 }
+            var _closure2_slot3 = backup;
+            foxtra = entity.flags;
+            if(!(foxtra === tangon)) { _fun00002_ip = 98; continue _fun00001 }
  96:
-            romeon = 0;
+            foxtra = 0;
  98:
-            var _closure2_slot4 = romeon;
-            yankee = entity.contrast;
-            if(!(yankee === tangon)) { _fun00002_ip = 115; continue _fun00001 }
+            var _closure2_slot4 = foxtra;
+            romeon = entity.contrast;
+            if(!(romeon === tangon)) { _fun00002_ip = 115; continue _fun00001 }
  112:
-            yankee = 1;
+            romeon = 1;
  115:
-            var _closure2_slot5 = yankee;
-            offset = entity.saturation;
-            if(!(offset === tangon)) { _fun00002_ip = 132; continue _fun00001 }
+            var _closure2_slot5 = romeon;
+            yankee = entity.saturation;
+            if(!(yankee === tangon)) { _fun00002_ip = 132; continue _fun00001 }
  129:
-            offset = 1;
+            yankee = 1;
  132:
-            var _closure2_slot6 = offset;
-            verify = entity.density;
-            if(!(verify === tangon)) { _fun00002_ip = 150; continue _fun00001 }
+            var _closure2_slot6 = yankee;
+            offset = entity.density;
+            if(!(offset === tangon)) { _fun00002_ip = 150; continue _fun00001 }
  146:
-            verify = 'compact';
+            offset = 'compact';
  150:
-            var _closure2_slot7 = verify;
-            option = entity.disableAdaptiveTheme;
-            if(!(option === tangon)) { _fun00002_ip = 166; continue _fun00001 }
+            var _closure2_slot7 = offset;
+            verify = entity.disableAdaptiveTheme;
+            if(!(verify === tangon)) { _fun00002_ip = 166; continue _fun00001 }
  164:
-            option = false;
+            verify = false;
  166:
-            var _closure2_slot8 = option;
+            var _closure2_slot8 = verify;
+            option = entity.reduceAdaptiveTheme;
+            if(!(option === tangon)) { _fun00002_ip = 182; continue _fun00001 }
+ 180:
+            option = false;
+ 182:
+            var _closure2_slot9 = option;
             golfie = _closure1_slot2;
             oscard = golfie.useMemo;
-            zuuluu = new Array(9);
-            zuuluu[0] = sizing;
-            zuuluu[1] = kiloes;
-            zuuluu[2] = backup;
-            zuuluu[3] = foxtra;
-            zuuluu[4] = romeon;
-            zuuluu[5] = yankee;
-            zuuluu[6] = offset;
-            zuuluu[7] = verify;
-            zuuluu[8] = option;
+            zuuluu = new Array(10);
+            zuuluu[0] = output;
+            zuuluu[1] = sizing;
+            zuuluu[2] = kiloes;
+            zuuluu[3] = backup;
+            zuuluu[4] = foxtra;
+            zuuluu[5] = romeon;
+            zuuluu[6] = yankee;
+            zuuluu[7] = offset;
+            zuuluu[8] = verify;
+            zuuluu[9] = option;
             michal = function() {
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot1;
@@ -133,8 +140,10 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
                 entity['saturation'] = report;
                 report = _closure2_slot7;
                 entity['density'] = report;
-                tangon = _closure2_slot8;
-                entity['disableAdaptiveTheme'] = tangon;
+                report = _closure2_slot8;
+                entity['disableAdaptiveTheme'] = report;
+                tangon = _closure2_slot9;
+                entity['reduceAdaptiveTheme'] = tangon;
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };

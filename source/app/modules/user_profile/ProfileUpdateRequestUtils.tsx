@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         }
     };
     zuuluu['getAccountUpdateForUpdateRequest'] = tangon;
-    michal = function(argFoo) { // Original name: getGuildMemberChangesForUpdateRequest
+    tangon = function(argFoo) { // Original name: getGuildMemberChangesForUpdateRequest
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             michal = argFoo;
@@ -189,6 +189,22 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['getGuildMemberChangesForUpdateRequest'] = michal;
+    zuuluu['getGuildMemberChangesForUpdateRequest'] = tangon;
+    michal = function(argFoo) { // Original name: getPrimaryGuildChangesForUpdateRequest
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+ 0:
+            michal = argFoo;
+            entity = {};
+            tangon = michal.pendingPrimaryGuildId;
+            zuuluu = undefined;
+            if(!(zuuluu !== tangon)) { _fun00008_ip = 29; continue _fun00007 }
+ 17:
+            michal = michal.pendingPrimaryGuildId;
+            entity['primaryGuildId'] = michal;
+ 29:
+            return entity;
+        }
+    };
+    zuuluu['getPrimaryGuildChangesForUpdateRequest'] = michal;
     return entity;
 })();

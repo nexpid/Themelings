@@ -1,0 +1,38 @@
+// app/modules/report_to_mod/ReportToModConstants.tsx
+export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
+    report = argBar;
+    zuuluu = argFre;
+    oscard = argPlu;
+    entity = global;
+    golfie = entity.Object;
+    tangon = golfie.defineProperty;
+    michal = {};
+    entity = true;
+    michal['value'] = entity;
+    entity = '__esModule';
+    entity = tangon.bind(golfie)(zuuluu, entity, michal);
+    entity = 0;
+    michal = oscard[entity];
+    entity = undefined;
+    michal = report.bind(entity)(michal);
+    michal = michal.Permissions;
+    tangon = 1;
+    golfie = oscard[tangon];
+    tangon = argCor;
+    offset = tangon.bind(entity)(golfie);
+    verify = offset.combine;
+    backup = michal.ADMINISTRATOR;
+    foxtra = michal.BAN_MEMBERS;
+    romeon = michal.KICK_MEMBERS;
+    yankee = michal.MODERATE_MEMBERS;
+    kiloes = offset;
+    michal = kiloes[verify](backup, foxtra, romeon, yankee, offset);
+    tangon = 2;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/report_to_mod/ReportToModConstants.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['ReportToModPermissions'] = michal;
+    return entity;
+})();

@@ -1,5 +1,5 @@
 // app/components_native/chat/getMessageJumpData.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     golfie = argBaz;
     zuuluu = argFre;
@@ -20,13 +20,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = undefined;
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot3 = tangon;
-    tangon = 4;
+    tangon = 1;
+    option = oscard[tangon];
+    tangon = argCor;
+    tangon = tangon.bind(entity)(option);
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot5 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot6 = tangon;
+    tangon = 8;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
     tangon = 'components_native/chat/getMessageJumpData.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar, argBaz) { // Original name: getMessageJumpData
+    tangon = function(argFoo, argBar, argBaz) { // Original name: getMessageJumpData
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             offset = argFoo;
@@ -38,12 +51,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = foxtra.messages;
             michal = option.last;
             report = michal.bind(option)();
-            zuuluu = _closure1_slot3;
+            zuuluu = _closure1_slot6;
             michal = zuuluu.getCurrentUser;
             golfie = michal.bind(zuuluu)();
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
-            michal = 1;
+            michal = 6;
             michal = tangon[michal];
             kiloes = undefined;
             michal = zuuluu.bind(kiloes)(michal);
@@ -114,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  303:
             option = _closure1_slot1;
             verify = _closure1_slot2;
-            golfie = 2;
+            golfie = 7;
             golfie = verify[golfie];
             verify = option.bind(kiloes)(golfie);
             option = verify.compare;
@@ -148,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  410:
             backup = _closure1_slot0;
             sizing = _closure1_slot2;
-            romeon = 3;
+            romeon = 4;
             romeon = sizing[romeon];
             backup = backup.bind(kiloes)(romeon);
             romeon = backup.isAndroid;
@@ -209,6 +222,74 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['default'] = michal;
+    zuuluu['default'] = tangon;
+    michal = function() { // Original name: useMessageJumpAndroidKeyboardHeight
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            oscard = _closure1_slot4;
+            report = oscard.useState;
+            tangon = _closure1_slot0;
+            golfie = _closure1_slot2;
+            entity = 4;
+            entity = golfie[entity];
+            golfie = undefined;
+            tangon = tangon.bind(golfie)(entity);
+            entity = tangon.isAndroid;
+            option = entity.bind(tangon)();
+            entity = 0;
+            tangon = 0;
+            if(!option) { _fun00004_ip = 82; continue _fun00003 }
+ 52:
+            verify = _closure1_slot0;
+            offset = _closure1_slot2;
+            option = 5;
+            option = offset[option];
+            verify = verify.bind(golfie)(option);
+            option = verify.getSystemKeyboardHeight;
+            tangon = option.bind(verify)();
+ 82:
+            oscard = report.bind(oscard)(tangon);
+            report = _closure1_slot3;
+            tangon = 2;
+            report = report.bind(golfie)(oscard, tangon);
+            entity = report[entity];
+            tangon = 1;
+            tangon = report[tangon];
+            var _closure2_slot0 = tangon;
+            report = _closure1_slot4;
+            tangon = report.useEffect;
+            zuuluu = function() {
+                zuuluu = _closure1_slot5;
+                michal = undefined;
+                entity = function(argFoo) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+                        zuuluu = _closure1_slot0;
+                        michal = _closure1_slot2;
+                        entity = 4;
+                        michal = michal[entity];
+                        entity = undefined;
+                        zuuluu = zuuluu.bind(entity)(michal);
+                        michal = zuuluu.isAndroid;
+                        michal = michal.bind(zuuluu)();
+                        if(!michal) { _fun00006_ip = 58; continue _fun00005 }
+ 37:
+                        zuuluu = _closure2_slot0;
+                        michal = argFoo;
+                        michal = michal.keyboardHeight;
+                        michal = zuuluu.bind(entity)(michal);
+ 58:
+                        return entity;
+                    }
+                };
+                entity = zuuluu.bind(michal)(entity);
+                return entity;
+            };
+            michal = new Array(0);
+            michal = tangon.bind(report)(zuuluu, michal);
+            return entity;
+        }
+    };
+    zuuluu['useMessageJumpAndroidKeyboardHeight'] = michal;
     return entity;
 })();

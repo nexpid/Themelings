@@ -66,11 +66,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify['marginBottom'] = romeon;
     tangon['header'] = verify;
     verify = {};
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.spacing;
+    romeon = romeon.PX_8;
+    verify['paddingHorizontal'] = romeon;
     offset = oscard[offset];
     offset = yankee.bind(entity)(offset);
     offset = offset.spacing;
     offset = offset.PX_8;
-    verify['paddingHorizontal'] = offset;
+    verify['paddingTop'] = offset;
     tangon['content'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot11 = tangon;

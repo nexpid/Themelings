@@ -605,7 +605,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = golfie[michal];
                     michal = oscard.bind(report)(michal);
                     michal = michal.t;
-                    michal = michal.d6sv6u;
+                    michal = michal.Jh8fJy;
                     entity = zuuluu.bind(tangon)(michal);
  262:
                     return entity;
@@ -1363,7 +1363,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = sequen.bind(tangon)(vacuum, kiloes);
             kiloes = new Array(2);
             kiloes[0] = vacuum;
-            if(ctrled) { _fun00024_ip = 801; continue _fun00023 }
+            if(ctrled) { _fun00024_ip = 803; continue _fun00023 }
  590:
             sequen = _closure1_slot15;
             vacuum = _closure1_slot6;
@@ -1390,7 +1390,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = quebec[target];
             target = equals.bind(tangon)(target);
             target = target.t;
-            target = target.Tna/TU;
+            target = target.HykynZ;
             target = limora.bind(whisks)(target);
             config['children'] = target;
             record = cntext.bind(tangon)(record, config);
@@ -1413,8 +1413,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config[1] = record;
             ctrled['children'] = config;
             ctrled = sequen.bind(tangon)(vacuum, ctrled);
-            _fun00024_ip = 858; continue _fun00023;
- 801:
+            _fun00024_ip = 860; continue _fun00023;
+ 803:
             config = _closure1_slot14;
             sequen = _closure1_slot6;
             vacuum = {};
@@ -1427,7 +1427,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = config.bind(tangon)(cntext, record);
             vacuum['children'] = record;
             ctrled = config.bind(tangon)(sequen, vacuum);
- 858:
+ 860:
             kiloes[1] = ctrled;
             offset['children'] = kiloes;
             romeon = foxtra.bind(tangon)(romeon, offset);

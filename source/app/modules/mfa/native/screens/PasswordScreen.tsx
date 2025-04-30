@@ -46,214 +46,248 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 'modules/mfa/native/screens/PasswordScreen.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: PasswordScreen
-        michal = argFoo;
-        option = michal.mfaChallenge;
-        golfie = michal.finish;
-        var _closure2_slot0 = golfie;
-        verify = _closure1_slot1;
-        result = _closure1_slot2;
-        michal = 5;
-        michal = result[michal];
-        tangon = undefined;
-        zuuluu = verify.bind(tangon)(michal);
-        michal = zuuluu.useScreenStyles;
-        report = michal.bind(zuuluu)();
-        kiloes = _closure1_slot5;
-        zuuluu = kiloes.useState;
-        michal = null;
-        michal = zuuluu.bind(kiloes)(michal);
-        yankee = _closure1_slot4;
-        offset = 2;
-        michal = yankee.bind(tangon)(michal, offset);
-        foxtra = 0;
-        ctrled = michal[foxtra];
-        zuuluu = 1;
-        michal = michal[zuuluu];
-        var _closure2_slot1 = michal;
-        romeon = kiloes.useState;
-        michal = '';
-        michal = romeon.bind(kiloes)(michal);
-        michal = yankee.bind(tangon)(michal, offset);
-        romeon = michal[foxtra];
-        var _closure2_slot2 = romeon;
-        source = michal[zuuluu];
-        backup = kiloes.useState;
-        michal = false;
-        michal = backup.bind(kiloes)(michal);
-        michal = yankee.bind(tangon)(michal, offset);
-        yankee = michal[foxtra];
-        michal = michal[zuuluu];
-        var _closure2_slot3 = michal;
-        entity = function() {
-            tangon = _closure1_slot3;
-            zuuluu = undefined;
-            michal = function* () {
-                entity = function* () { // Original name: ?anon_0_
-                    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                        StartGenerator();
-                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00002_ip = 151; continue _fun00001 }
+            michal = argFoo;
+            option = michal.mfaChallenge;
+            golfie = michal.finish;
+            var _closure2_slot0 = golfie;
+            michal = _closure1_slot1;
+            ctrled = _closure1_slot2;
+            zuuluu = 5;
+            zuuluu = ctrled[zuuluu];
+            tangon = undefined;
+            report = michal.bind(tangon)(zuuluu);
+            zuuluu = report.useScreenStyles;
+            report = zuuluu.bind(report)();
+            foxtra = _closure1_slot5;
+            oscard = foxtra.useState;
+            zuuluu = null;
+            zuuluu = oscard.bind(foxtra)(zuuluu);
+            offset = _closure1_slot4;
+            verify = 2;
+            zuuluu = offset.bind(tangon)(zuuluu, verify);
+            sizing = 0;
+            source = zuuluu[sizing];
+            oscard = 1;
+            zuuluu = zuuluu[oscard];
+            var _closure2_slot1 = zuuluu;
+            yankee = foxtra.useState;
+            zuuluu = '';
+            zuuluu = yankee.bind(foxtra)(zuuluu);
+            zuuluu = offset.bind(tangon)(zuuluu, verify);
+            kiloes = zuuluu[sizing];
+            var _closure2_slot2 = kiloes;
+            echoed = zuuluu[oscard];
+            zuuluu = foxtra.useState;
+            yankee = false;
+            zuuluu = zuuluu.bind(foxtra)(yankee);
+            zuuluu = offset.bind(tangon)(zuuluu, verify);
+            romeon = zuuluu[sizing];
+            zuuluu = zuuluu[oscard];
+            var _closure2_slot3 = zuuluu;
+            zuuluu = foxtra.useState;
+            zuuluu = zuuluu.bind(foxtra)(yankee);
+            zuuluu = offset.bind(tangon)(zuuluu, verify);
+            foxtra = zuuluu[sizing];
+            zuuluu = zuuluu[oscard];
+            var _closure2_slot4 = zuuluu;
+            entity = function() {
+                tangon = _closure1_slot3;
+                zuuluu = undefined;
+                michal = function* () {
+                    entity = function* () { // Original name: ?anon_0_
+                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                            StartGenerator();
+                            ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                            if(michal) { _fun00004_ip = 160; continue _fun00003 }
  10:
-                        michal = undefined;
-                        oscard = undefined;
-                        verify = undefined;
-                        report = _closure2_slot1;
-                        option = null;
-                        report = report.bind(michal)(option);
-                        golfie = _closure2_slot3;
-                        report = true;
-                        report = golfie.bind(michal)(report);
+                            michal = undefined;
+                            oscard = undefined;
+                            verify = undefined;
+                            report = _closure2_slot1;
+                            option = null;
+                            report = report.bind(michal)(option);
+                            report = _closure2_slot3;
+                            offset = true;
+                            report = report.bind(michal)(offset);
  41: // try_start_0
-                        golfie = _closure2_slot0;
-                        report = {};
-                        offset = 'password';
-                        report['mfaType'] = offset;
-                        offset = _closure2_slot2;
-                        report['data'] = offset;
-                        report = golfie.bind(michal)(report);
-                        SaveGenerator(address=73);
+                            golfie = _closure2_slot0;
+                            report = {};
+                            yankee = 'password';
+                            report['mfaType'] = yankee;
+                            yankee = _closure2_slot2;
+                            report['data'] = yankee;
+                            report = golfie.bind(michal)(report);
+                            SaveGenerator(address=73);
  71:
-                        return report;
+                            return report;
  73:
-                        ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                        if(golfie) { _fun00002_ip = 81; continue _fun00001 }
- 79: // try_end0
-                        _fun00002_ip = 137; continue _fun00001;
- 81:
-                        return report;
- 84: // catch_target0
-                        CatchBlockStart(arg_register=6);
-                        tangon = golfie;
-                        report = _closure2_slot1;
-                        golfie = golfie.body;
-                        verify = golfie;
-                        offset = option == golfie;
-                        golfie = undefined;
-                        if(offset) { _fun00002_ip = 115; continue _fun00001 }
- 110:
-                        golfie = verify.message;
- 115:
-                        oscard = golfie;
-                        if(!(option == golfie)) { _fun00002_ip = 129; continue _fun00001 }
- 122:
-                        tangon = tangon.message;
-                        _fun00002_ip = 132; continue _fun00001;
- 129:
-                        tangon = oscard;
- 132:
-                        tangon = report.bind(michal)(tangon);
- 137:
-                        tangon = _closure2_slot3;
-                        zuuluu = false;
-                        zuuluu = tangon.bind(michal)(zuuluu);
-                        return michal;
- 151:
-                        return entity;
-                    }
+                            ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
+                            if(golfie) { _fun00004_ip = 90; continue _fun00003 }
+ 79:
+                            golfie = _closure2_slot4;
+                            golfie = golfie.bind(michal)(offset);
+ 88: // try_end0
+                            _fun00004_ip = 146; continue _fun00003;
+ 90:
+                            return report;
+ 93: // catch_target0
+                            CatchBlockStart(arg_register=6);
+                            tangon = golfie;
+                            report = _closure2_slot1;
+                            golfie = golfie.body;
+                            verify = golfie;
+                            offset = option == golfie;
+                            golfie = undefined;
+                            if(offset) { _fun00004_ip = 124; continue _fun00003 }
+ 119:
+                            golfie = verify.message;
+ 124:
+                            oscard = golfie;
+                            if(!(option == golfie)) { _fun00004_ip = 138; continue _fun00003 }
+ 131:
+                            tangon = tangon.message;
+                            _fun00004_ip = 141; continue _fun00003;
+ 138:
+                            tangon = oscard;
+ 141:
+                            tangon = report.bind(michal)(tangon);
+ 146:
+                            tangon = _closure2_slot3;
+                            zuuluu = false;
+                            zuuluu = tangon.bind(michal)(zuuluu);
+                            return michal;
+ 160:
+                            return entity;
+                        }
+                    };
+                    return entity;
+                };
+                michal = tangon.bind(zuuluu)(michal);
+                var _closure3_slot0 = michal;
+                entity = function() {
+                    entity = undefined;
+                    tangon = _closure3_slot0;
+                    zuuluu = tangon.apply;
+                    entity = arguments;
+                    michal = entity;
+                    entity = this;
+                    entity = zuuluu.bind(tangon)(entity, michal);
+                    return entity;
                 };
                 return entity;
             };
-            michal = tangon.bind(zuuluu)(michal);
-            var _closure3_slot0 = michal;
-            entity = function() {
-                entity = undefined;
-                tangon = _closure3_slot0;
-                zuuluu = tangon.apply;
-                entity = arguments;
-                michal = entity;
-                entity = this;
-                entity = zuuluu.bind(tangon)(entity, michal);
-                return entity;
-            };
+            yankee = entity.bind(tangon)();
+            zuuluu = _closure1_slot7;
+            entity = 6;
+            entity = ctrled[entity];
+            michal = michal.bind(tangon)(entity);
+            entity = {};
+            config = _closure1_slot0;
+            update = 7;
+            oscard = ctrled[update];
+            oscard = config.bind(tangon)(oscard);
+            offset = oscard.intl;
+            verify = offset.string;
+            oscard = ctrled[update];
+            oscard = config.bind(tangon)(oscard);
+            oscard = oscard.t;
+            oscard = oscard.Rw1XuL;
+            oscard = verify.bind(offset)(oscard);
+            entity['headerText'] = oscard;
+            verify = _closure1_slot6;
+            oscard = {};
+            report = report.inputContainer;
+            oscard['style'] = report;
+            report = 8;
+            report = ctrled[report];
+            report = config.bind(tangon)(report);
+            backup = report.TextInput;
+            offset = {'autoFocus': true, 'textContentType': 'password', 'label': null, 'placeholder': null, 'autoComplete': 'current-password', 'errorMessage': null, 'returnKeyType': 'done'};
+            result = true;
+            report = 'password';
+            vacuum = ctrled[update];
+            vacuum = config.bind(tangon)(vacuum);
+            record = vacuum.intl;
+            sequen = record.string;
+            vacuum = ctrled[update];
+            vacuum = config.bind(tangon)(vacuum);
+            vacuum = vacuum.t;
+            vacuum = vacuum.CIGa+/;
+            vacuum = sequen.bind(record)(vacuum);
+            offset['label'] = vacuum;
+            vacuum = ctrled[update];
+            vacuum = config.bind(tangon)(vacuum);
+            sequen = vacuum.intl;
+            vacuum = sequen.string;
+            ctrled = ctrled[update];
+            ctrled = config.bind(tangon)(ctrled);
+            ctrled = ctrled.t;
+            ctrled = ctrled.CIGa+/;
+            ctrled = vacuum.bind(sequen)(ctrled);
+            offset['placeholder'] = ctrled;
+            offset['errorMessage'] = source;
+            offset['onChange'] = echoed;
+            offset['onSubmitEditing'] = yankee;
+            echoed = romeon;
+            if(romeon) { _fun00002_ip = 458; continue _fun00001 }
+ 455:
+            echoed = foxtra;
+ 458:
+            offset['isDisabled'] = echoed;
+            offset['isClearable'] = result;
+            offset['secureTextEntry'] = result;
+            offset = zuuluu.bind(tangon)(backup, offset);
+            oscard['children'] = offset;
+            oscard = zuuluu.bind(tangon)(verify, oscard);
+            entity['input'] = oscard;
+            offset = _closure1_slot7;
+            verify = _closure1_slot1;
+            backup = _closure1_slot2;
+            oscard = 9;
+            oscard = backup[oscard];
+            verify = verify.bind(tangon)(oscard);
+            oscard = {};
+            echoed = _closure1_slot0;
+            output = backup[update];
+            output = echoed.bind(tangon)(output);
+            result = output.intl;
+            output = result.string;
+            backup = backup[update];
+            backup = echoed.bind(tangon)(backup);
+            backup = backup.t;
+            backup = backup.geKm7u;
+            backup = output.bind(result)(backup);
+            oscard['text'] = backup;
+            backup = romeon;
+            if(romeon) { _fun00002_ip = 581; continue _fun00001 }
+ 578:
+            backup = foxtra;
+ 581:
+            if(backup) { _fun00002_ip = 593; continue _fun00001 }
+ 584:
+            kiloes = kiloes.length;
+            backup = sizing === kiloes;
+ 593:
+            oscard['disabled'] = backup;
+            if(romeon) { _fun00002_ip = 603; continue _fun00001 }
+ 600:
+            romeon = foxtra;
+ 603:
+            oscard['loading'] = romeon;
+            oscard['onPress'] = yankee;
+            oscard = offset.bind(tangon)(verify, oscard);
+            entity['submit'] = oscard;
+            oscard = {};
+            oscard['mfaChallenge'] = option;
+            oscard['finish'] = golfie;
+            entity['screenProps'] = oscard;
+            entity['mfaMethod'] = report;
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
-        };
-        offset = entity.bind(tangon)();
-        zuuluu = _closure1_slot7;
-        entity = 6;
-        entity = result[entity];
-        michal = verify.bind(tangon)(entity);
-        entity = {};
-        output = _closure1_slot0;
-        backup = 7;
-        kiloes = result[backup];
-        kiloes = output.bind(tangon)(kiloes);
-        echoed = kiloes.intl;
-        sizing = echoed.string;
-        kiloes = result[backup];
-        kiloes = output.bind(tangon)(kiloes);
-        kiloes = kiloes.t;
-        kiloes = kiloes.Rw1XuL;
-        kiloes = sizing.bind(echoed)(kiloes);
-        entity['headerText'] = kiloes;
-        kiloes = _closure1_slot6;
-        oscard = {};
-        report = report.inputContainer;
-        oscard['style'] = report;
-        report = 8;
-        report = result[report];
-        report = output.bind(tangon)(report);
-        echoed = report.TextInput;
-        sizing = {'autoFocus': true, 'textContentType': 'password', 'label': null, 'placeholder': null, 'autoComplete': 'current-password', 'errorMessage': null, 'returnKeyType': 'done'};
-        update = true;
-        report = 'password';
-        vacuum = result[backup];
-        vacuum = output.bind(tangon)(vacuum);
-        config = vacuum.intl;
-        sequen = config.string;
-        vacuum = result[backup];
-        vacuum = output.bind(tangon)(vacuum);
-        vacuum = vacuum.t;
-        vacuum = vacuum.CIGa+/;
-        vacuum = sequen.bind(config)(vacuum);
-        sizing['label'] = vacuum;
-        vacuum = result[backup];
-        vacuum = output.bind(tangon)(vacuum);
-        config = vacuum.intl;
-        sequen = config.string;
-        vacuum = result[backup];
-        vacuum = output.bind(tangon)(vacuum);
-        vacuum = vacuum.t;
-        vacuum = vacuum.CIGa+/;
-        vacuum = sequen.bind(config)(vacuum);
-        sizing['placeholder'] = vacuum;
-        sizing['errorMessage'] = ctrled;
-        sizing['onChange'] = source;
-        sizing['onSubmitEditing'] = offset;
-        sizing['isClearable'] = update;
-        sizing['secureTextEntry'] = update;
-        sizing = zuuluu.bind(tangon)(echoed, sizing);
-        oscard['children'] = sizing;
-        oscard = zuuluu.bind(tangon)(kiloes, oscard);
-        entity['input'] = oscard;
-        oscard = 9;
-        oscard = result[oscard];
-        verify = verify.bind(tangon)(oscard);
-        oscard = {};
-        kiloes = result[backup];
-        kiloes = output.bind(tangon)(kiloes);
-        sizing = kiloes.intl;
-        kiloes = sizing.string;
-        backup = result[backup];
-        backup = output.bind(tangon)(backup);
-        backup = backup.t;
-        backup = backup.geKm7u;
-        backup = kiloes.bind(sizing)(backup);
-        oscard['text'] = backup;
-        romeon = romeon.length;
-        romeon = foxtra === romeon;
-        oscard['disabled'] = romeon;
-        oscard['loading'] = yankee;
-        oscard['onPress'] = offset;
-        oscard = zuuluu.bind(tangon)(verify, oscard);
-        entity['submit'] = oscard;
-        oscard = {};
-        oscard['mfaChallenge'] = option;
-        oscard['finish'] = golfie;
-        entity['screenProps'] = oscard;
-        entity['mfaMethod'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        }
     };
     zuuluu['default'] = michal;
     return entity;

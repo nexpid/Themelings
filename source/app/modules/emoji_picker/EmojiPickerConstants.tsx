@@ -104,7 +104,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     zuuluu['GIF_PICKER_TAB_PANEL_ID'] = michal;
     michal = 'gif-picker-tab';
     zuuluu['GIF_PICKER_TAB_ID'] = michal;
-    michal = {'reaction': 32, 'reactionLarge': 40, 'default': 44, 'jumbo': 96};
+    michal = {'reaction': 40, 'default': 44, 'jumbo': 96};
     zuuluu['EMOJI_SIZE_MAP'] = michal;
     michal = 9;
     zuuluu['EMOJI_ROW_SIZE'] = michal;

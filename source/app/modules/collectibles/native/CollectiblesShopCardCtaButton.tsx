@@ -619,7 +619,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = yankee[golfie];
             golfie = offset.bind(report)(golfie);
             golfie = golfie.t;
-            golfie = golfie./bUsx8;
+            golfie = golfie.6cfuDg;
             golfie = option.bind(verify)(golfie);
             zuuluu['children'] = golfie;
             entity = oscard.bind(report)(tangon, zuuluu);
@@ -642,7 +642,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = offset[oscard];
             oscard = verify.bind(report)(oscard);
             oscard = oscard.t;
-            oscard = oscard.5b+JhY;
+            oscard = oscard.BEjTio;
             oscard = golfie.bind(option)(oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);

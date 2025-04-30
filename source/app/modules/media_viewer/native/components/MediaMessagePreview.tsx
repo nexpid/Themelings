@@ -761,19 +761,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = '';
                     entity = michal !== tangon;
  30:
-                    if(!entity) { _fun00020_ip = 76; continue _fun00019 }
+                    if(!entity) { _fun00020_ip = 70; continue _fun00019 }
  33:
-                    zuuluu = _closure1_slot0;
-                    michal = _closure1_slot2;
+                    michal = _closure1_slot1;
+                    zuuluu = _closure1_slot2;
                     entity = 28;
-                    michal = michal[entity];
-                    entity = undefined;
-                    zuuluu = zuuluu.bind(entity)(michal);
-                    michal = zuuluu.showLongPressUrlActionSheet;
+                    entity = zuuluu[entity];
+                    zuuluu = undefined;
+                    michal = michal.bind(zuuluu)(entity);
                     entity = {};
                     entity['urlString'] = tangon;
                     entity = michal.bind(zuuluu)(entity);
- 76:
+ 70:
                     entity = undefined;
                     return entity;
                 }

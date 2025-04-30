@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = 1;
             zuuluu = report[zuuluu];
             zuuluu = tangon.bind(entity)(zuuluu);
-            report = zuuluu.openURL;
+            report = zuuluu.default;
             tangon = {};
             tangon['allowExternal'] = michal;
             zuuluu = argFoo;
@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         michal = michal[entity];
         entity = undefined;
         michal = zuuluu.bind(entity)(michal);
-        report = michal.openURL;
+        report = michal.default;
         tangon = {};
         michal = true;
         tangon['forceExternalBrowser'] = michal;

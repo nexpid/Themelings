@@ -338,6 +338,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = undefined;
                 michal = michal.bind(zuuluu)(entity);
                 entity = {};
+                report = _closure2_slot0;
+                entity['source'] = report;
                 entity = tangon.bind(zuuluu)(michal, entity);
                 return entity;
             };

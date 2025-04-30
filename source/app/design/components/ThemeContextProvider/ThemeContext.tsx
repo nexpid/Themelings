@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     var _closure1_slot1 = report;
     tangon = tangon.jsx;
     var _closure1_slot2 = tangon;
-    tangon = {'theme': 'light', 'primaryColor': null, 'secondaryColor': null, 'gradient': null, 'flags': 0, 'contrast': 1, 'saturation': 1, 'density': 'compact', 'disableAdaptiveTheme': false};
+    tangon = {'theme': 'light', 'primaryColor': null, 'secondaryColor': null, 'gradient': null, 'flags': 0, 'contrast': 1, 'saturation': 1, 'density': 'compact', 'disableAdaptiveTheme': false, 'reduceAdaptiveTheme': false};
     report = golfie.bind(entity)(tangon);
     tangon = option.createContext;
     tangon = tangon.bind(option)(report);

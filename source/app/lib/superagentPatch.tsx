@@ -816,14 +816,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, __, argPlu) {
  0:
                     entity = argFoo;
                     michal = entity.captcha_key;
-                    entity = entity.captcha_rqtoken;
+                    tangon = entity.captcha_rqtoken;
+                    entity = entity.captcha_session_id;
                     zuuluu = {};
                     zuuluu['X-Captcha-Key'] = michal;
                     michal = null;
-                    if(!(michal != entity)) { _fun00016_ip = 38; continue _fun00015 }
- 30:
-                    zuuluu['X-Captcha-Rqtoken'] = entity;
- 38:
+                    if(!(michal != tangon)) { _fun00016_ip = 44; continue _fun00015 }
+ 36:
+                    zuuluu['X-Captcha-Rqtoken'] = tangon;
+ 44:
+                    if(!(michal != entity)) { _fun00016_ip = 56; continue _fun00015 }
+ 48:
+                    zuuluu['X-Captcha-Session-Id'] = entity;
+ 56:
                     michal = _closure2_slot1;
                     entity = undefined;
                     michal = michal.bind(entity)(zuuluu);

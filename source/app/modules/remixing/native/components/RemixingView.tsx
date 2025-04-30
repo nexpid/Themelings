@@ -787,30 +787,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = output.bind(tangon)(sizing, option);
             report[1] = option;
             option = !golfie;
-            if(!option) { _fun00002_ip = 1542; continue _fun00001 }
- 1539:
+            if(!option) { _fun00002_ip = 1540; continue _fun00001 }
+ 1537:
             option = !foxtra;
- 1542:
-            if(!option) { _fun00002_ip = 1557; continue _fun00001 }
- 1545:
+ 1540:
+            if(!option) { _fun00002_ip = 1555; continue _fun00001 }
+ 1543:
             sizing = _closure1_slot10;
             sizing = sizing.bind(tangon)(verify);
             option = !sizing;
- 1557:
-            if(!option) { _fun00002_ip = 1572; continue _fun00001 }
- 1560:
+ 1555:
+            if(!option) { _fun00002_ip = 1570; continue _fun00001 }
+ 1558:
             sizing = _closure1_slot12;
             sizing = sizing.bind(tangon)(verify);
             option = !sizing;
- 1572:
-            if(!option) { _fun00002_ip = 1587; continue _fun00001 }
- 1575:
+ 1570:
+            if(!option) { _fun00002_ip = 1585; continue _fun00001 }
+ 1573:
             sizing = _closure1_slot14;
             sizing = sizing.bind(tangon)(verify);
             option = !sizing;
- 1587:
-            if(!option) { _fun00002_ip = 1652; continue _fun00001 }
- 1590:
+ 1585:
+            if(!option) { _fun00002_ip = 1650; continue _fun00001 }
+ 1588:
             echoed = _closure1_slot20;
             output = _closure1_slot1;
             sierra = _closure1_slot3;
@@ -825,12 +825,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing['undoRedoSaveVisible'] = update;
             sizing['onExit'] = papara;
             option = echoed.bind(tangon)(output, sizing);
- 1652:
+ 1650:
             report[2] = option;
             option = _closure1_slot11;
             option = option.bind(tangon)(verify);
-            if(!option) { _fun00002_ip = 1718; continue _fun00001 }
- 1668:
+            if(!option) { _fun00002_ip = 1716; continue _fun00001 }
+ 1666:
             echoed = _closure1_slot20;
             output = _closure1_slot1;
             papara = _closure1_slot3;
@@ -843,16 +843,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing['canvasWidth'] = romeon;
             sizing['drawing'] = foxtra;
             option = echoed.bind(tangon)(output, sizing);
- 1718:
+ 1716:
             report[3] = option;
             option = _closure1_slot11;
             option = option.bind(tangon)(verify);
-            if(!option) { _fun00002_ip = 1737; continue _fun00001 }
- 1734:
+            if(!option) { _fun00002_ip = 1735; continue _fun00001 }
+ 1732:
             option = !foxtra;
- 1737:
-            if(!option) { _fun00002_ip = 1858; continue _fun00001 }
- 1740:
+ 1735:
+            if(!option) { _fun00002_ip = 1856; continue _fun00001 }
+ 1738:
             output = _closure1_slot20;
             sizing = _closure1_slot1;
             echoed = _closure1_slot3;
@@ -879,12 +879,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = echoed.COLOR_CAROUSEL_WIDTH;
             foxtra['width'] = echoed;
             option = output.bind(tangon)(sizing, foxtra);
- 1858:
+ 1856:
             report[4] = option;
             option = _closure1_slot12;
             option = option.bind(tangon)(verify);
-            if(!option) { _fun00002_ip = 2021; continue _fun00001 }
- 1877:
+            if(!option) { _fun00002_ip = 2017; continue _fun00001 }
+ 1875:
             output = _closure1_slot20;
             sizing = _closure1_slot7;
             foxtra = {};
@@ -928,17 +928,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = update.bind(tangon)(echoed, result);
             foxtra['children'] = result;
             option = output.bind(tangon)(sizing, foxtra);
- 2021:
+ 2017:
             report[5] = option;
             golfie = !golfie;
-            if(!golfie) { _fun00002_ip = 2043; continue _fun00001 }
- 2031:
+            if(!golfie) { _fun00002_ip = 2039; continue _fun00001 }
+ 2027:
             option = _closure1_slot9;
             option = option.bind(tangon)(verify);
             golfie = !option;
- 2043:
-            if(!golfie) { _fun00002_ip = 2115; continue _fun00001 }
- 2046:
+ 2039:
+            if(!golfie) { _fun00002_ip = 2111; continue _fun00001 }
+ 2042:
             foxtra = _closure1_slot20;
             verify = _closure1_slot1;
             sizing = _closure1_slot3;
@@ -956,7 +956,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup['y'] = kiloes;
             option['canvasCenterPoint'] = backup;
             golfie = foxtra.bind(tangon)(verify, option);
- 2115:
+ 2111:
             report[6] = golfie;
             option = _closure1_slot20;
             golfie = _closure1_slot1;

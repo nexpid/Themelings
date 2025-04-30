@@ -801,7 +801,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     zuuluu['showReportModalForInappropriateConversationSafetyAlert'] = tangon;
-    michal = function(argFoo) { // Original name: showReportModalForApp
+    tangon = function(argFoo) { // Original name: showReportModalForApp
         entity = argFoo;
         offset = entity.application;
         zuuluu = entity.entrypoint;
@@ -857,6 +857,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = report.bind(oscard)(tangon, michal, zuuluu);
         return entity;
     };
-    zuuluu['showReportModalForApp'] = michal;
+    zuuluu['showReportModalForApp'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: showReportToModMessageModal
+        zuuluu = _closure1_slot0;
+        golfie = _closure1_slot2;
+        entity = 7;
+        michal = golfie[entity];
+        entity = undefined;
+        oscard = zuuluu.bind(entity)(michal);
+        report = oscard.showReportModal;
+        tangon = {};
+        michal = 6;
+        michal = golfie[michal];
+        michal = zuuluu.bind(entity)(michal);
+        michal = michal.ModeratorReportNames;
+        michal = michal.MESSAGE;
+        tangon['name'] = michal;
+        michal = argFoo;
+        tangon['record'] = michal;
+        zuuluu = {};
+        michal = argBar;
+        zuuluu['onSubmit'] = michal;
+        michal = false;
+        zuuluu['isEligibleForFeedback'] = michal;
+        michal = {};
+        michal = report.bind(oscard)(tangon, michal, zuuluu);
+        return entity;
+    };
+    zuuluu['showReportToModMessageModal'] = michal;
     return entity;
 })();

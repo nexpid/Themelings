@@ -336,21 +336,41 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = function(argFoo) {
                     _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                        report = argFoo;
-                        zuuluu = _closure3_slot0;
-                        michal = zuuluu.setState;
-                        entity = {};
-                        tangon = true;
-                        entity['changed'] = tangon;
-                        oscard = _closure1_slot22;
-                        tangon = 0;
-                        if(!(report !== oscard)) { _fun00006_ip = 41; continue _fun00005 }
- 38:
-                        tangon = report;
- 41:
-                        entity['color'] = tangon;
-                        entity = michal.bind(zuuluu)(entity);
+                        michal = argFoo;
+                        zuuluu = _closure1_slot22;
+                        entity = 0;
+                        if(!(michal !== zuuluu)) { _fun00006_ip = 19; continue _fun00005 }
+ 16:
+                        entity = michal;
+ 19:
+                        tangon = _closure3_slot0;
+                        michal = tangon.state;
+                        golfie = michal.colors;
+                        zuuluu = tangon.setState;
+                        michal = {};
+                        report = true;
+                        michal['changed'] = report;
+                        michal['color'] = entity;
+                        report = {};
+                        report['primary_color'] = entity;
+                        oscard = null;
+                        verify = oscard == golfie;
                         entity = undefined;
+                        option = undefined;
+                        if(verify) { _fun00006_ip = 81; continue _fun00005 }
+ 75:
+                        option = golfie.secondary_color;
+ 81:
+                        report['secondary_color'] = option;
+                        option = oscard == golfie;
+                        oscard = undefined;
+                        if(option) { _fun00006_ip = 101; continue _fun00005 }
+ 95:
+                        oscard = golfie.tertiary_color;
+ 101:
+                        report['tertiary_color'] = oscard;
+                        michal['colors'] = report;
+                        michal = zuuluu.bind(tangon)(michal);
                         return entity;
                     }
                 };

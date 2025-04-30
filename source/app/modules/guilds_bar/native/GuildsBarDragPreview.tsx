@@ -692,7 +692,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = true;
             report['isDragPreview'] = offset;
             report = option.bind(tangon)(golfie, report);
-            _fun00014_ip = 473; continue _fun00013;
+            _fun00014_ip = 516; continue _fun00013;
  429:
             option = _closure1_slot6;
             golfie = _closure1_slot1;
@@ -701,11 +701,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = offset[oscard];
             golfie = golfie.bind(tangon)(oscard);
             oscard = {};
-            oscard['node'] = verify;
+            offset = verify.id;
+            oscard['id'] = offset;
+            offset = verify.expanded;
+            oscard['expanded'] = offset;
+            offset = verify.color;
+            oscard['color'] = offset;
+            offset = verify.name;
+            oscard['name'] = offset;
+            verify = verify.children;
+            oscard['childNodes'] = verify;
             verify = true;
             oscard['isDragPreview'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 473:
+ 516:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

@@ -545,15 +545,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = {};
             ctrled = 237;
             result['size'] = ctrled;
-            if(!update) { _fun00002_ip = 942; continue _fun00001 }
- 933:
-            if(backup) { _fun00002_ip = 942; continue _fun00001 }
- 936:
+            if(!update) { _fun00002_ip = 946; continue _fun00001 }
+ 937:
+            if(backup) { _fun00002_ip = 946; continue _fun00001 }
+ 940:
             backup = null;
-            if(!(backup == romeon)) { _fun00002_ip = 946; continue _fun00001 }
- 942:
-            romeon = _closure1_slot7;
+            if(!(backup == romeon)) { _fun00002_ip = 950; continue _fun00001 }
  946:
+            romeon = _closure1_slot7;
+ 950:
             result['text'] = romeon;
             backup = _closure1_slot0;
             romeon = _closure1_slot2;

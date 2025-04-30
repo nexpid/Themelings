@@ -273,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 michal = zuuluu[michal];
                                 zuuluu = undefined;
                                 oscard = tangon.bind(zuuluu)(michal);
-                                report = oscard.adoptClanIdentity;
+                                report = oscard.adoptGuildIdentity;
                                 tangon = _closure2_slot0;
                                 michal = true;
                                 michal = report.bind(oscard)(tangon, michal);

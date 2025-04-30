@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     oscard = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 122; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 121; continue _fun00001 }
  10:
                     report = _closure1_slot0;
                     michal = _closure1_slot1;
@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = michal[zuuluu];
                     zuuluu = undefined;
                     tangon = report.bind(zuuluu)(tangon);
-                    tangon = tangon.openURL;
+                    tangon = tangon.default;
                     tangon = tangon.bind(zuuluu)(oscard);
                     tangon = 3;
                     tangon = michal[tangon];
@@ -33,13 +33,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = michal[tangon];
                     michal = michal.paths;
                     michal = report.bind(zuuluu)(tangon, michal);
-                    SaveGenerator(address=80);
- 78:
+                    SaveGenerator(address=79);
+ 77:
                     return michal;
- 80:
+ 79:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 119; continue _fun00001 }
- 86:
+                    if(tangon) { _fun00002_ip = 118; continue _fun00001 }
+ 85:
                     report = michal.default;
                     tangon = {};
                     golfie = argBar;
@@ -48,9 +48,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['analyticsLocations'] = golfie;
                     tangon = report.bind(zuuluu)(oscard, tangon);
                     return zuuluu;
- 119:
+ 118:
                     return michal;
- 122:
+ 121:
                     return entity;
                 }
             };

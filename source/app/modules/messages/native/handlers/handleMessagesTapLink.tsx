@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = oscard.bind(entity)(michal);
             entity = michal.isAlertOrActionSheetOpen;
             entity = entity.bind(michal)(zuuluu);
-            if(entity) { _fun00002_ip = 3006; continue _fun00001 }
+            if(entity) { _fun00002_ip = 2997; continue _fun00001 }
  97:
             michal = tangon.url;
             entity = null;
@@ -226,17 +226,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  486:
             michal['channelId'] = golfie;
             michal = zuuluu.bind(oscard)(michal);
-            _fun00002_ip = 3006; continue _fun00001;
+            _fun00002_ip = 2997; continue _fun00001;
  500:
             michal = undefined;
             return michal;
  504:
             michal = tangon.action;
-            if(!(entity != michal)) { _fun00002_ip = 3006; continue _fun00001 }
+            if(!(entity != michal)) { _fun00002_ip = 2997; continue _fun00001 }
  516:
             zuuluu = tangon.action;
             michal = 'bindUserMenu';
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2946; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 2937; continue _fun00001 }
  534:
             michal = 'bindGuildMenu';
             if(!(michal !== zuuluu)) { _fun00002_ip = 2797; continue _fun00001 }
@@ -275,7 +275,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(!(michal !== zuuluu)) { _fun00002_ip = 1122; continue _fun00001 }
  690:
             michal = 'bindUserSurvey';
-            if(!(michal === zuuluu)) { _fun00002_ip = 3006; continue _fun00001 }
+            if(!(michal === zuuluu)) { _fun00002_ip = 2997; continue _fun00001 }
  703:
             oscard = _closure1_slot8;
             zuuluu = oscard.getChannel;
@@ -289,7 +289,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  741:
             backup = michal.guild_id;
  746:
-            if(!(entity != backup)) { _fun00002_ip = 3006; continue _fun00001 }
+            if(!(entity != backup)) { _fun00002_ip = 2997; continue _fun00001 }
  753:
             zuuluu = tangon.notificationType;
             michal = _closure1_slot19;
@@ -330,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['notificationType'] = michal;
             michal = 'NotificationSurvey';
             michal = oscard.bind(golfie)(yankee, michal, zuuluu);
-            _fun00002_ip = 3006; continue _fun00001;
+            _fun00002_ip = 2997; continue _fun00001;
  926:
             zuuluu = _closure1_slot0;
             oscard = _closure1_slot2;
@@ -345,7 +345,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             sequen = yankee;
             vacuum = backup;
             michal = sequen[golfie](vacuum, ctrled, source, update, echoed);
-            _fun00002_ip = 3006; continue _fun00001;
+            _fun00002_ip = 2997; continue _fun00001;
  988:
             zuuluu = _closure1_slot0;
             oscard = _closure1_slot2;
@@ -383,7 +383,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             update = zuuluu;
             echoed = michal;
             michal = sequen[yankee](vacuum, ctrled, source, update, echoed, result);
-            _fun00002_ip = 3006; continue _fun00001;
+            _fun00002_ip = 2997; continue _fun00001;
  1122:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
@@ -409,7 +409,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             update = tangon.roleSubscriptionListingId;
             sequen = foxtra;
             michal = sequen[yankee](vacuum, ctrled, source, update, echoed);
-            _fun00002_ip = 3006; continue _fun00001;
+            _fun00002_ip = 2997; continue _fun00001;
  1240:
             oscard = _closure1_slot1;
             zuuluu = _closure1_slot2;
@@ -427,13 +427,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = tangon.messageId;
             michal['returnMessageId'] = golfie;
             michal = zuuluu.bind(oscard)(michal);
-            _fun00002_ip = 3006; continue _fun00001;
+            _fun00002_ip = 2997; continue _fun00001;
  1318:
             golfie = _closure1_slot8;
             oscard = golfie.getChannel;
             zuuluu = tangon.threadId;
             zuuluu = oscard.bind(golfie)(zuuluu);
-            if(!(entity != zuuluu)) { _fun00002_ip = 3006; continue _fun00001 }
+            if(!(entity != zuuluu)) { _fun00002_ip = 2997; continue _fun00001 }
  1348:
             yankee = entity == zuuluu;
             golfie = undefined;
@@ -446,7 +446,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot20;
             michal = michal.EMBED;
             michal = offset.bind(golfie)(oscard, zuuluu, michal);
-            _fun00002_ip = 3006; continue _fun00001;
+            _fun00002_ip = 2997; continue _fun00001;
  1391:
             golfie = _closure1_slot8;
             oscard = golfie.getChannel;
@@ -469,7 +469,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = oscard.bind(zuuluu)(michal);
             michal = zuuluu.trackGuildInviteNotificationAction;
             michal = michal.bind(zuuluu)();
-            _fun00002_ip = 3006; continue _fun00001;
+            _fun00002_ip = 2997; continue _fun00001;
  1489:
             michal = undefined;
             return michal;
@@ -488,7 +488,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = entity == zuuluu;
             oscard = zuuluu;
  1542:
-            if(michal) { _fun00002_ip = 3006; continue _fun00001 }
+            if(michal) { _fun00002_ip = 2997; continue _fun00001 }
  1548:
             zuuluu = oscard.openCustomKeyboard;
             michal = {};
@@ -503,7 +503,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie['initiallyExpanded'] = option;
             michal['context'] = golfie;
             michal = zuuluu.bind(oscard)(michal);
-            _fun00002_ip = 3006; continue _fun00001;
+            _fun00002_ip = 2997; continue _fun00001;
  1611:
             michal = entity == report;
             oscard = undefined;
@@ -513,7 +513,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = entity == zuuluu;
             oscard = zuuluu;
  1632:
-            if(michal) { _fun00002_ip = 3006; continue _fun00001 }
+            if(michal) { _fun00002_ip = 2997; continue _fun00001 }
  1638:
             zuuluu = oscard.openCustomKeyboard;
             michal = {};
@@ -529,7 +529,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie['initiallyExpanded'] = option;
             michal['context'] = golfie;
             michal = zuuluu.bind(oscard)(michal);
-            _fun00002_ip = 3006; continue _fun00001;
+            _fun00002_ip = 2997; continue _fun00001;
  1707:
             oscard = entity == romeon;
             michal = undefined;
@@ -563,7 +563,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1814:
             zuuluu = romeon.author;
  1820:
-            if(!(entity != zuuluu)) { _fun00002_ip = 3006; continue _fun00001 }
+            if(!(entity != zuuluu)) { _fun00002_ip = 2997; continue _fun00001 }
  1827:
             oscard = _closure1_slot1;
             backup = _closure1_slot2;
@@ -612,7 +612,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = tangon.messageType;
             zuuluu['messageType'] = golfie;
             zuuluu = oscard.bind(michal)(zuuluu);
-            _fun00002_ip = 3006; continue _fun00001;
+            _fun00002_ip = 2997; continue _fun00001;
  2015:
             zuuluu = romeon.applicationId;
             if(!(entity != zuuluu)) { _fun00002_ip = 2336; continue _fun00001 }
@@ -647,7 +647,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = entity == oscard;
             golfie = oscard;
  2128:
-            if(zuuluu) { _fun00002_ip = 3006; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 2997; continue _fun00001 }
  2134:
             oscard = golfie.openCustomKeyboard;
             zuuluu = {};
@@ -664,7 +664,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee['installOnDemand'] = option;
             zuuluu['context'] = yankee;
             zuuluu = oscard.bind(golfie)(zuuluu);
-            _fun00002_ip = 3006; continue _fun00001;
+            _fun00002_ip = 2997; continue _fun00001;
  2207:
             zuuluu = entity == report;
             oscard = undefined;
@@ -674,7 +674,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = entity == report;
             oscard = report;
  2228:
-            if(zuuluu) { _fun00002_ip = 3006; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 2997; continue _fun00001 }
  2234:
             report = oscard.openCustomKeyboard;
             zuuluu = {};
@@ -699,7 +699,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie['installOnDemand'] = option;
             zuuluu['context'] = golfie;
             zuuluu = report.bind(oscard)(zuuluu);
-            _fun00002_ip = 3006; continue _fun00001;
+            _fun00002_ip = 2997; continue _fun00001;
  2334:
             return michal;
  2336:
@@ -730,7 +730,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard[0] = golfie;
             michal['sourceAnalyticsLocations'] = oscard;
             michal = zuuluu.bind(report)(michal);
-            _fun00002_ip = 3006; continue _fun00001;
+            _fun00002_ip = 2997; continue _fun00001;
  2438:
             golfie = _closure1_slot5;
             oscard = golfie.getMessage;
@@ -756,7 +756,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie.dismissAutomatedMessage;
             report = tangon.message;
             report = oscard.bind(golfie)(report);
-            _fun00002_ip = 3006; continue _fun00001;
+            _fun00002_ip = 2997; continue _fun00001;
  2531:
             report = _closure1_slot0;
             oscard = _closure1_slot2;
@@ -772,7 +772,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = oscard.id;
  2576:
             michal = zuuluu.bind(report)(michal);
-            _fun00002_ip = 3006; continue _fun00001;
+            _fun00002_ip = 2997; continue _fun00001;
  2586:
             zuuluu = _closure1_slot1;
             report = _closure1_slot2;
@@ -784,7 +784,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = tangon.messageChannelId;
             michal['channelId'] = oscard;
             michal = zuuluu.bind(report)(michal);
-            _fun00002_ip = 3006; continue _fun00001;
+            _fun00002_ip = 2997; continue _fun00001;
  2633:
             report = _closure1_slot1;
             oscard = _closure1_slot2;
@@ -801,7 +801,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = report.open;
             michal = tangon.messageChannelId;
             michal = zuuluu.bind(report)(michal);
-            _fun00002_ip = 3006; continue _fun00001;
+            _fun00002_ip = 2997; continue _fun00001;
  2710:
             report = tangon.stream;
             if(!(entity != report)) { _fun00002_ip = 2793; continue _fun00001 }
@@ -821,51 +821,49 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.bind(oscard)(michal);
             michal = zuuluu.watchStreamAndTransitionToStream;
             michal = michal.bind(zuuluu)(report);
-            _fun00002_ip = 3006; continue _fun00001;
+            _fun00002_ip = 2997; continue _fun00001;
  2793:
             michal = undefined;
             return michal;
  2797:
             michal = tangon.messageReference;
-            if(!(entity != michal)) { _fun00002_ip = 2942; continue _fun00001 }
+            if(!(entity != michal)) { _fun00002_ip = 2933; continue _fun00001 }
  2810:
             michal = tangon.messageReference;
-            golfie = michal.channel_id;
-            option = michal.guild_id;
-            if(!(entity != option)) { _fun00002_ip = 2938; continue _fun00001 }
- 2830:
+            golfie = michal.guild_id;
+            if(!(entity != golfie)) { _fun00002_ip = 2929; continue _fun00001 }
+ 2825:
             report = _closure1_slot1;
             entity = _closure1_slot2;
             zuuluu = 21;
             zuuluu = entity[zuuluu];
-            verify = undefined;
-            oscard = report.bind(verify)(zuuluu);
+            option = undefined;
+            oscard = report.bind(option)(zuuluu);
             report = oscard.openLazy;
             zuuluu = _closure1_slot0;
             michal = 23;
             michal = entity[michal];
-            zuuluu = zuuluu.bind(verify)(michal);
+            zuuluu = zuuluu.bind(option)(michal);
             michal = 22;
             michal = entity[michal];
             entity = entity.paths;
-            zuuluu = zuuluu.bind(verify)(michal, entity);
+            zuuluu = zuuluu.bind(option)(michal, entity);
             entity = global;
             entity = entity.HermesInternal;
             michal = entity.concat;
-            entity = 'GuildDiscoverableProfile:';
-            michal = michal.bind(entity)(option);
+            entity = 'GuildProfileActionSheet:';
+            michal = michal.bind(entity)(golfie);
             entity = {};
-            entity['guildId'] = option;
-            entity['channelId'] = golfie;
+            entity['guildId'] = golfie;
             entity = report.bind(oscard)(zuuluu, michal, entity);
-            _fun00002_ip = 3006; continue _fun00001;
- 2938:
+            _fun00002_ip = 2997; continue _fun00001;
+ 2929:
             entity = undefined;
             return entity;
- 2942:
+ 2933:
             entity = undefined;
             return entity;
- 2946:
+ 2937:
             michal = _closure1_slot1;
             zuuluu = _closure1_slot2;
             entity = 20;
@@ -880,7 +878,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.messageId;
             entity['messageId'] = tangon;
             entity = michal.bind(zuuluu)(entity);
- 3006:
+ 2997:
             entity = undefined;
             return entity;
         }

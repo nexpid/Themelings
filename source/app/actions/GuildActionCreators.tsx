@@ -1,5 +1,5 @@
 // app/actions/GuildActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu) {
     oscard = argBar;
     option = argBaz;
     zuuluu = argFre;
@@ -914,7 +914,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     tangon['setMemberFlags'] = option;
-    option = function(argFoo, argBar, argBaz) { // Original name: kickUser
+    option = function(argFoo, argBar, argBaz, argCor) { // Original name: kickUser
         zuuluu = _closure1_slot0;
         michal = _closure1_slot3;
         entity = 14;
@@ -930,8 +930,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = argBar;
         tangon = oscard.bind(golfie)(report, tangon);
         entity['url'] = tangon;
-        tangon = argBaz;
-        entity['reason'] = tangon;
+        tangon = {};
+        report = argBaz;
+        tangon['reason'] = report;
+        report = argCor;
+        tangon['moderator_report_id'] = report;
+        entity['query'] = tangon;
         tangon = true;
         entity['oldFormErrors'] = tangon;
         tangon = false;
@@ -950,6 +954,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = entity.duration;
             offset = entity.reason;
             golfie = entity.location;
+            romeon = entity.moderatorReportId;
             michal = _closure1_slot1;
             backup = _closure1_slot3;
             entity = 22;
@@ -958,13 +963,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.bind(foxtra)(entity);
             michal = zuuluu.patch;
             entity = {};
-            romeon = _closure1_slot15;
-            tangon = romeon.GUILD_MEMBER;
-            tangon = tangon.bind(romeon)(verify, oscard);
+            kiloes = _closure1_slot15;
+            tangon = kiloes.GUILD_MEMBER;
+            tangon = tangon.bind(kiloes)(verify, oscard);
             entity['url'] = tangon;
             entity['reason'] = offset;
             tangon = {};
             tangon['communication_disabled_until'] = option;
+            tangon['moderator_report_id'] = romeon;
             entity['body'] = tangon;
             tangon = true;
             entity['oldFormErrors'] = tangon;
@@ -982,25 +988,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = null;
             romeon = oscard != yankee;
             verify = null;
-            if(!romeon) { _fun00008_ip = 171; continue _fun00007 }
- 168:
+            if(!romeon) { _fun00008_ip = 184; continue _fun00007 }
+ 181:
             verify = yankee;
- 171:
+ 184:
             report['duration'] = verify;
             yankee = oscard != offset;
             verify = null;
-            if(!yankee) { _fun00008_ip = 187; continue _fun00007 }
- 184:
+            if(!yankee) { _fun00008_ip = 200; continue _fun00007 }
+ 197:
             verify = offset;
- 187:
+ 200:
             report['reason'] = verify;
             report['communication_disabled_until'] = option;
             option = oscard != golfie;
             oscard = null;
-            if(!option) { _fun00008_ip = 209; continue _fun00007 }
- 206:
+            if(!option) { _fun00008_ip = 222; continue _fun00007 }
+ 219:
             oscard = golfie;
- 209:
+ 222:
             report['location'] = oscard;
             tangon['properties'] = report;
             entity['trackedActionData'] = tangon;
@@ -1011,7 +1017,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     tangon['setCommunicationDisabledUntil'] = option;
-    option = function(argFoo, argBar, argBaz, argCor) { // Original name: banUser
+    option = function(argFoo, argBar, argBaz, argCor, argGra) { // Original name: banUser
         zuuluu = _closure1_slot0;
         michal = _closure1_slot3;
         entity = 14;
@@ -1032,6 +1038,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = {};
         report = argBaz;
         tangon['delete_message_seconds'] = report;
+        report = argGra;
+        tangon['moderator_report_id'] = report;
         entity['body'] = tangon;
         tangon = true;
         entity['oldFormErrors'] = tangon;

@@ -12,56 +12,60 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             entity = argFoo;
             zuuluu = entity.emoji;
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00002_ip = 189; continue _fun00001 }
- 18:
-            michal = zuuluu.id;
-            michal = entity != michal;
+            entity = _closure1_slot7;
             report = undefined;
-            golfie = undefined;
-            if(!michal) { _fun00002_ip = 97; continue _fun00001 }
- 34:
-            tangon = _closure1_slot1;
-            oscard = _closure1_slot2;
-            michal = 5;
-            michal = oscard[michal];
-            oscard = tangon.bind(report)(michal);
-            tangon = oscard.getEmojiURL;
-            michal = {};
-            option = zuuluu.id;
-            michal['id'] = option;
-            option = zuuluu.animated;
-            michal['animated'] = option;
-            option = 16;
-            michal['size'] = option;
-            golfie = tangon.bind(oscard)(michal);
- 97:
-            oscard = _closure1_slot1;
-            option = _closure1_slot2;
+            oscard = entity.bind(report)();
+            entity = null;
+            if(!(entity != zuuluu)) { _fun00002_ip = 205; continue _fun00001 }
+ 31:
+            tangon = zuuluu.id;
+            tangon = entity != tangon;
+            option = undefined;
+            if(!tangon) { _fun00002_ip = 105; continue _fun00001 }
+ 45:
+            golfie = _closure1_slot1;
+            verify = _closure1_slot2;
+            tangon = 5;
+            tangon = verify[tangon];
+            verify = golfie.bind(report)(tangon);
+            golfie = verify.getEmojiURL;
+            tangon = {};
+            offset = zuuluu.id;
+            tangon['id'] = offset;
+            offset = zuuluu.animated;
+            tangon['animated'] = offset;
+            offset = 16;
+            tangon['size'] = offset;
+            option = golfie.bind(verify)(tangon);
+ 105:
+            golfie = _closure1_slot1;
+            verify = _closure1_slot2;
             tangon = 6;
-            tangon = option[tangon];
-            oscard = oscard.bind(report)(tangon);
-            tangon = oscard.isCustomEmoji;
-            tangon = tangon.bind(oscard)(zuuluu);
-            if(tangon) { _fun00002_ip = 141; continue _fun00001 }
- 134:
-            oscard = zuuluu.surrogates;
-            _fun00002_ip = 146; continue _fun00001;
- 141:
-            oscard = zuuluu.name;
+            tangon = verify[tangon];
+            golfie = golfie.bind(report)(tangon);
+            tangon = golfie.isCustomEmoji;
+            tangon = tangon.bind(golfie)(zuuluu);
+            if(tangon) { _fun00002_ip = 146; continue _fun00001 }
+ 139:
+            golfie = zuuluu.surrogates;
+            _fun00002_ip = 151; continue _fun00001;
  146:
+            golfie = zuuluu.name;
+ 151:
             tangon = _closure1_slot5;
             zuuluu = _closure1_slot1;
-            option = _closure1_slot2;
+            verify = _closure1_slot2;
             michal = 7;
-            michal = option[michal];
+            michal = verify[michal];
             zuuluu = zuuluu.bind(report)(michal);
             michal = {};
-            michal['src'] = golfie;
-            michal['name'] = oscard;
+            michal['src'] = option;
+            michal['name'] = golfie;
+            oscard = oscard.emojiImage;
+            michal['fastImageStyle'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 189:
+ 205:
             return entity;
         }
     };
@@ -148,6 +152,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset = offset.BORDER_SUBTLE;
     verify['borderColor'] = offset;
     tangon['trait'] = verify;
+    verify = {'width': 16, 'height': 16};
+    tangon['emojiImage'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot7 = tangon;
     tangon = 9;

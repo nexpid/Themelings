@@ -306,7 +306,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     };
     tangon['short'] = golfie;
     var _closure1_slot14 = tangon;
-    tangon = 27;
+    tangon = 30;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -314,26 +314,35 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     michal = function() { // Original name: useTabBarTabListeners
         report = _closure1_slot0;
-        golfie = _closure1_slot2;
+        option = _closure1_slot2;
         zuuluu = 23;
-        oscard = golfie[zuuluu];
+        oscard = option[zuuluu];
         tangon = undefined;
         verify = report.bind(tangon)(oscard);
-        option = verify.useTapSequencer;
+        golfie = verify.useTapSequencer;
         oscard = _closure1_slot13;
-        oscard = option.bind(verify)(oscard);
-        var _closure2_slot0 = oscard;
-        zuuluu = golfie[zuuluu];
-        report = report.bind(tangon)(zuuluu);
-        tangon = report.useTapSequencer;
+        golfie = golfie.bind(verify)(oscard);
+        var _closure2_slot0 = golfie;
+        zuuluu = option[zuuluu];
+        verify = report.bind(tangon)(zuuluu);
+        oscard = verify.useTapSequencer;
         zuuluu = _closure1_slot14;
-        report = tangon.bind(report)(zuuluu);
-        var _closure2_slot1 = report;
+        oscard = oscard.bind(verify)(zuuluu);
+        var _closure2_slot1 = oscard;
+        zuuluu = 24;
+        zuuluu = option[zuuluu];
+        report = report.bind(tangon)(zuuluu);
+        tangon = report.useICYMISearchExperienceExperiment;
+        zuuluu = 'useTabBarTabListeners';
+        zuuluu = tangon.bind(report)(zuuluu);
+        report = zuuluu.searchEnabled;
+        var _closure2_slot2 = report;
         tangon = _closure1_slot4;
         zuuluu = tangon.useMemo;
-        michal = new Array(2);
-        michal[0] = oscard;
-        michal[1] = report;
+        michal = new Array(3);
+        michal[0] = golfie;
+        michal[1] = oscard;
+        michal[2] = report;
         entity = function() {
             entity = {};
             michal = {};
@@ -397,7 +406,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
  0:
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
-                    entity = 24;
+                    entity = 25;
                     zuuluu = report[entity];
                     entity = undefined;
                     tangon = tangon.bind(entity)(zuuluu);
@@ -445,7 +454,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                     verify = verify.bind(offset)();
                     zuuluu['load_id'] = verify;
                     zuuluu = golfie.bind(option)(oscard, zuuluu);
-                    zuuluu = 25;
+                    zuuluu = 26;
                     zuuluu = report[zuuluu];
                     tangon = tangon.bind(entity)(zuuluu);
                     zuuluu = tangon.reloadICYMITab;
@@ -453,7 +462,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
  239:
                     zuuluu = _closure1_slot1;
                     tangon = _closure1_slot2;
-                    michal = 25;
+                    michal = 26;
                     michal = tangon[michal];
                     zuuluu = zuuluu.bind(entity)(michal);
                     michal = zuuluu.openICYMITab;
@@ -462,6 +471,80 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                 }
             };
             michal['tabPress'] = tangon;
+            oscard = _closure1_slot3;
+            report = undefined;
+            tangon = function* () {
+                entity = function* () { // Original name: ?anon_0_
+                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+ 0:
+                        StartGenerator();
+                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                        if(michal) { _fun00010_ip = 182; continue _fun00009 }
+ 10:
+                        michal = _closure2_slot2;
+                        if(!michal) { _fun00010_ip = 174; continue _fun00009 }
+ 23:
+                        report = _closure1_slot0;
+                        michal = _closure1_slot2;
+                        tangon = 22;
+                        tangon = michal[tangon];
+                        golfie = undefined;
+                        report = report.bind(golfie)(tangon);
+                        tangon = 27;
+                        tangon = michal[tangon];
+                        michal = michal.paths;
+                        michal = report.bind(golfie)(tangon, michal);
+                        SaveGenerator(address=70);
+ 68:
+                        return michal;
+ 70:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                        if(tangon) { _fun00010_ip = 179; continue _fun00009 }
+ 76:
+                        tangon = michal.default;
+                        tangon = tangon.bind(golfie)();
+                        oscard = _closure1_slot0;
+                        option = _closure1_slot2;
+                        zuuluu = 28;
+                        zuuluu = option[zuuluu];
+                        verify = oscard.bind(golfie)(zuuluu);
+                        report = verify.trackItemInteraction;
+                        tangon = 'search_button';
+                        zuuluu = 'long_press_tab_icon';
+                        zuuluu = report.bind(verify)(tangon, tangon, zuuluu);
+                        zuuluu = 13;
+                        tangon = option[zuuluu];
+                        report = oscard.bind(golfie)(tangon);
+                        tangon = report.triggerHapticFeedback;
+                        zuuluu = option[zuuluu];
+                        zuuluu = oscard.bind(golfie)(zuuluu);
+                        zuuluu = zuuluu.HapticFeedbackTypes;
+                        zuuluu = zuuluu.IMPACT_MEDIUM;
+                        zuuluu = tangon.bind(report)(zuuluu);
+ 174:
+                        zuuluu = undefined;
+                        return zuuluu;
+ 179:
+                        return michal;
+ 182:
+                        return entity;
+                    }
+                };
+                return entity;
+            };
+            tangon = oscard.bind(report)(tangon);
+            var _closure3_slot1 = tangon;
+            tangon = function() {
+                entity = undefined;
+                tangon = _closure3_slot1;
+                zuuluu = tangon.apply;
+                entity = arguments;
+                michal = entity;
+                entity = this;
+                entity = zuuluu.bind(tangon)(entity, michal);
+                return entity;
+            };
+            michal['tabLongPress'] = tangon;
             entity['icymi'] = michal;
             michal = {};
             tangon = function() { // Original name: tabPress
@@ -508,15 +591,13 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                 return entity;
             };
             michal['tabPress'] = tangon;
-            oscard = _closure1_slot3;
-            report = undefined;
             tangon = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+                    _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00010_ip = 128; continue _fun00009 }
+                        if(michal) { _fun00012_ip = 128; continue _fun00011 }
  7:
                         oscard = _closure1_slot0;
                         michal = _closure1_slot2;
@@ -524,7 +605,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                         report = michal[zuuluu];
                         zuuluu = undefined;
                         oscard = oscard.bind(zuuluu)(report);
-                        report = 26;
+                        report = 29;
                         report = michal[report];
                         michal = michal.paths;
                         michal = oscard.bind(zuuluu)(report, michal);
@@ -533,7 +614,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                         return michal;
  54:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(report) { _fun00010_ip = 125; continue _fun00009 }
+                        if(report) { _fun00012_ip = 125; continue _fun00011 }
  60:
                         report = michal.showYouAccountActionSheet;
                         report = report.bind(michal)();

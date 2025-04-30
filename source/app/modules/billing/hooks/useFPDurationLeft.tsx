@@ -10,19 +10,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) { // Original name: roundFPCountdownUnits
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zuuluu = argFoo;
-            michal = zuuluu.days;
-            entity = 0;
-            if(!(!(michal > entity))) { _fun00002_ip = 76; continue _fun00001 }
+            tangon = argFoo;
+            entity = tangon.days;
+            report = 0;
+            if(!(!(entity > report))) { _fun00002_ip = 76; continue _fun00001 }
  15:
-            michal = zuuluu.hours;
+            michal = tangon.hours;
             entity = 11;
             if(!(!(michal > entity))) { _fun00002_ip = 60; continue _fun00001 }
  28:
-            tangon = zuuluu.minutes;
+            zuuluu = tangon.minutes;
             michal = 45;
-            entity = zuuluu;
-            if(!(tangon > michal)) { _fun00002_ip = 58; continue _fun00001 }
+            entity = tangon;
+            if(!(zuuluu > michal)) { _fun00002_ip = 58; continue _fun00001 }
  44:
             entity = {'days': 0, 'hours': 1, 'minutes': 0, 'seconds': 0};
  58:
@@ -30,15 +30,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  60:
             entity = {'days': 1, 'hours': 0, 'minutes': 0, 'seconds': 0};
  74:
-            _fun00002_ip = 112; continue _fun00001;
+            _fun00002_ip = 130; continue _fun00001;
  76:
             michal = {'days': null, 'hours': 0, 'minutes': 0, 'seconds': 0};
-            tangon = zuuluu.days;
-            zuuluu = 1;
-            zuuluu = tangon + zuuluu;
+            zuuluu = tangon.hours;
+            if(!(!(zuuluu > report))) { _fun00002_ip = 108; continue _fun00001 }
+ 100:
+            zuuluu = tangon.days;
+            _fun00002_ip = 121; continue _fun00001;
+ 108:
+            report = tangon.days;
+            tangon = 1;
+            zuuluu = report + tangon;
+ 121:
             michal['days'] = zuuluu;
             entity = michal;
- 112:
+ 130:
             return entity;
         }
     };

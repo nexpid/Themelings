@@ -25,6 +25,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['CHANNEL'] = entity;
     entity = 'account';
     michal['ACCOUNT'] = entity;
+    entity = 'authorized_app_dm';
+    michal['AUTHORIZED_APP_DM'] = entity;
+    entity = 'authorized_app_dm_push_notification';
+    michal['AUTHORIZED_APP_DM_PUSH_NOTIFICATION'] = entity;
     report = argPlu;
     entity = 0;
     oscard = report[entity];
@@ -36,9 +40,5 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = oscard.bind(golfie)(report);
     zuuluu['AccountNotificationFlags'] = tangon;
     zuuluu['NotificationSettingsUpdateType'] = michal;
-    michal = 'message1';
-    zuuluu['MESSAGE_SOUND'] = michal;
-    michal = 0.4;
-    zuuluu['MESSAGE_SOUND_VOLUME'] = michal;
     return entity;
 })();

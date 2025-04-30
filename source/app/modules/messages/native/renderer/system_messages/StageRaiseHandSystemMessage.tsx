@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
     var _closure1_slot12 = tangon;
-    tangon = 15;
+    tangon = 16;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = michal.row;
             option = _closure1_slot0;
             sizing = _closure1_slot2;
-            report = 13;
+            report = 14;
             michal = sizing[report];
             tangon = undefined;
             yankee = option.bind(tangon)(michal);
@@ -347,7 +347,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot12;
             michal = _closure1_slot1;
             offset = _closure1_slot2;
-            entity = 14;
+            entity = 15;
             entity = offset[entity];
             michal = michal.bind(tangon)(entity);
             entity = {};
@@ -377,18 +377,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             tangon = argFoo;
             golfie = tangon.message;
-            sizing = tangon.roleStyle;
-            kiloes = golfie.author;
+            echoed = tangon.roleStyle;
+            sizing = golfie.author;
             report = _closure1_slot0;
-            yankee = _closure1_slot2;
+            foxtra = _closure1_slot2;
             entity = 9;
-            entity = yankee[entity];
+            entity = foxtra[entity];
             zuuluu = undefined;
             report = report.bind(zuuluu)(entity);
             entity = report.getMessageAuthorWithProcessedColor;
             entity = entity.bind(report)(golfie);
             romeon = entity.nick;
-            backup = entity.colorString;
+            output = entity.colorString;
+            backup = entity.colorStrings;
+            offset = entity.guildId;
             oscard = _closure1_slot6;
             report = oscard.getChannel;
             entity = golfie.channel_id;
@@ -405,73 +407,78 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.id;
             report = option.bind(verify)(report, entity);
             entity = global;
-            offset = entity.Date;
+            yankee = entity.Date;
             verify = _closure1_slot1;
             option = 10;
-            option = yankee[option];
-            yankee = verify.bind(zuuluu)(option);
-            verify = yankee.extractTimestamp;
+            option = foxtra[option];
+            foxtra = verify.bind(zuuluu)(option);
+            verify = foxtra.extractTimestamp;
             option = golfie.id;
-            echoed = verify.bind(yankee)(option);
-            verify = offset.prototype;
-            verify = Object.create(verify, {constructor: {value: offset}});
-            update = verify;
-            option = new update[offset](echoed, result);
+            source = verify.bind(foxtra)(option);
+            verify = yankee.prototype;
+            verify = Object.create(verify, {constructor: {value: yankee}});
+            ctrled = verify;
+            option = new ctrled[yankee](source, update);
             verify = option instanceof Object ? option : verify;
             option = verify.toISOString;
             option = option.bind(verify)();
-            offset = entity.Date;
+            yankee = entity.Date;
             foxtra = null;
             entity = foxtra == report;
             verify = undefined;
-            if(entity) { _fun00008_ip = 253; continue _fun00007 }
- 232:
+            if(entity) { _fun00008_ip = 264; continue _fun00007 }
+ 243:
             entity = report.voiceState;
-            yankee = foxtra == entity;
+            kiloes = foxtra == entity;
             verify = undefined;
-            if(yankee) { _fun00008_ip = 253; continue _fun00007 }
- 247:
+            if(kiloes) { _fun00008_ip = 264; continue _fun00007 }
+ 258:
             verify = entity.requestToSpeakTimestamp;
- 253:
-            yankee = foxtra != verify;
+ 264:
+            kiloes = foxtra != verify;
             entity = 0;
-            if(!yankee) { _fun00008_ip = 265; continue _fun00007 }
- 262:
+            if(!kiloes) { _fun00008_ip = 276; continue _fun00007 }
+ 273:
             entity = verify;
- 265:
-            verify = offset.prototype;
-            verify = Object.create(verify, {constructor: {value: offset}});
-            update = verify;
-            echoed = entity;
-            entity = new update[offset](echoed, result);
+ 276:
+            verify = yankee.prototype;
+            verify = Object.create(verify, {constructor: {value: yankee}});
+            ctrled = verify;
+            source = entity;
+            entity = new ctrled[yankee](source, update);
             verify = entity instanceof Object ? entity : verify;
             entity = verify.toISOString;
             entity = entity.bind(verify)();
             entity = option === entity;
-            if(!oscard) { _fun00008_ip = 356; continue _fun00007 }
- 305:
+            if(!oscard) { _fun00008_ip = 367; continue _fun00007 }
+ 316:
             verify = foxtra == report;
             option = undefined;
-            if(verify) { _fun00008_ip = 320; continue _fun00007 }
- 314:
+            if(verify) { _fun00008_ip = 331; continue _fun00007 }
+ 325:
             option = report.rtsState;
- 320:
+ 331:
             verify = _closure1_slot0;
-            offset = _closure1_slot2;
+            yankee = _closure1_slot2;
             report = 11;
-            report = offset[report];
+            report = yankee[report];
             report = verify.bind(zuuluu)(report);
             report = report.RequestToSpeakStates;
             report = report.REQUESTED_TO_SPEAK;
             oscard = option === report;
- 356:
-            if(!oscard) { _fun00008_ip = 362; continue _fun00007 }
- 359:
+ 367:
+            if(!oscard) { _fun00008_ip = 373; continue _fun00007 }
+ 370:
             oscard = entity;
- 362:
-            entity = {};
+ 373:
             verify = _closure1_slot0;
             option = _closure1_slot2;
+            entity = 12;
+            entity = option[entity];
+            report = verify.bind(zuuluu)(entity);
+            entity = report.isNativeMessageEligibleForEnhancedRoleColors;
+            kiloes = entity.bind(report)(offset, echoed);
+            entity = {};
             report = 7;
             offset = option[report];
             offset = verify.bind(zuuluu)(offset);
@@ -484,17 +491,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = {};
             option['username'] = romeon;
             romeon = {};
-            output = 'bindUserMenu';
-            romeon['action'] = output;
-            kiloes = kiloes.id;
-            romeon['userId'] = kiloes;
-            kiloes = 'username';
+            result = 'bindUserMenu';
+            romeon['action'] = result;
+            sizing = sizing.id;
+            romeon['userId'] = sizing;
+            result = 'username';
+            sizing = null;
+            if(!(result === echoed)) { _fun00008_ip = 490; continue _fun00007 }
+ 487:
+            sizing = output;
+ 490:
+            romeon['linkColor'] = sizing;
             foxtra = null;
-            if(!(kiloes === sizing)) { _fun00008_ip = 455; continue _fun00007 }
- 452:
+            if(!kiloes) { _fun00008_ip = 503; continue _fun00007 }
+ 500:
             foxtra = backup;
- 455:
-            romeon['linkColor'] = foxtra;
+ 503:
+            romeon['roleColors'] = foxtra;
             foxtra = golfie.channel_id;
             romeon['messageChannelId'] = foxtra;
             foxtra = true;
@@ -519,12 +532,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.bind(zuuluu)(golfie);
             entity['ephemeralIndication'] = report;
             report = _closure1_slot1;
-            michal = 12;
+            michal = 13;
             michal = oscard[michal];
             michal = report.bind(zuuluu)(michal);
-            result = michal.bind(zuuluu)(tangon);
-            echoed = entity;
-            michal = copyDataProperties(echoed, result);
+            update = michal.bind(zuuluu)(tangon);
+            source = entity;
+            michal = copyDataProperties(source, update);
             return entity;
         }
     };
