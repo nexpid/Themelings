@@ -1925,7 +1925,7 @@
         "height": 24
     },
     "clouds_background": {
-        "file": "modules/quests/native/VideoQuestModal/images/clouds_background.png",
+        "file": "modules/quests/native/images/clouds_background.png",
         "hash": "e5d497e242dfffadb8102108e8df2b1a",
         "scales": [
             1,
@@ -1934,6 +1934,17 @@
         ],
         "width": 375,
         "height": 58
+    },
+    "clouds_light_background": {
+        "file": "modules/quests/native/images/clouds_light_background.png",
+        "hash": "91248bc802fa2159ae23ab96ddaf91db",
+        "scales": [
+            1,
+            2,
+            3
+        ],
+        "width": 345,
+        "height": 82
     },
     "clyde-avatar": {
         "file": "modules/clyde_ai/assets/clyde-avatar.png",
@@ -2011,16 +2022,6 @@
         ],
         "width": 380,
         "height": 242
-    },
-    "connect_playstation_mobile": {
-        "file": "modules/game_console/images/connect_playstation_mobile.png",
-        "hash": "5dccb3d7bee4098390f63cf6a5b8d35a",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 184,
-        "height": 184
     },
     "ConnectionAverageIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ConnectionAverageIcon.png",
@@ -2437,26 +2438,6 @@
         ],
         "width": 320,
         "height": 320
-    },
-    "default-banner-dark": {
-        "file": "images/native/default-banner-dark.png",
-        "hash": "43d13b609976c178de45b88199724ff6",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 320,
-        "height": 180
-    },
-    "default-banner-light": {
-        "file": "images/native/default-banner-light.png",
-        "hash": "a75c90d32123f6cb9f100ac9d9fb80c6",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 320,
-        "height": 180
     },
     "DenyIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/DenyIcon.png",
@@ -3676,17 +3657,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "gtm-announcement-wumpus": {
-        "file": "modules/main_tabs_v2/native/images/gtm-announcement-wumpus.png",
-        "hash": "2f2fa0481b0f7153b1fdf8089a46f4fa",
-        "scales": [
-            2,
-            3,
-            4
-        ],
-        "width": 212,
-        "height": 160
     },
     "guild_identity_education_dark": {
         "file": "modules/guild_identity/images/guild_identity_education_dark.png",
@@ -7568,17 +7538,6 @@
         "width": 24,
         "height": 24
     },
-    "ic-activity": {
-        "file": "modules/main_tabs_v2/native/images/ic-activity.png",
-        "hash": "2a08e6d3fa1df1ff0ab2663e5ee3e93e",
-        "scales": [
-            2,
-            3,
-            4
-        ],
-        "width": 40,
-        "height": 40
-    },
     "ic-application-rejected": {
         "file": "images/native/community/ic-application-rejected.png",
         "hash": "d5f86d80f0a1d11d99b6b752d01d2cf8",
@@ -7633,28 +7592,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "ic-messages": {
-        "file": "modules/main_tabs_v2/native/images/ic-messages.png",
-        "hash": "52061b17ae4ff315f6e3d9dc507ae890",
-        "scales": [
-            2,
-            3,
-            4
-        ],
-        "width": 40,
-        "height": 40
-    },
-    "ic-navigation": {
-        "file": "modules/main_tabs_v2/native/images/ic-navigation.png",
-        "hash": "ea95590b651afc06377b02e09fa49dce",
-        "scales": [
-            2,
-            3,
-            4
-        ],
-        "width": 40,
-        "height": 40
     },
     "icon-afk": {
         "file": "images/native/icon-afk.png",
@@ -9327,14 +9264,14 @@
         "height": 80
     },
     "img_nitro_badge": {
-        "file": "images/native/premium/perks/img_nitro_badge.png",
-        "hash": "9d054f4a2e6965892d17aa00d900146e",
+        "file": "images/native/premium/upsell/img_nitro_badge.png",
+        "hash": "ff5825c454c175379e6be98cbe46511a",
         "scales": [
             2,
             3
         ],
-        "width": 24,
-        "height": 24
+        "width": 120,
+        "height": 80
     },
     "img_nitro_basic": {
         "file": "images/native/premium/perks/img_nitro_basic.png",
