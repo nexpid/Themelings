@@ -327,10 +327,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         var _closure2_slot9 = zuuluu;
         zuuluu = michal.globalName;
         var _closure2_slot10 = zuuluu;
-        zuuluu = michal.nameplate;
+        zuuluu = michal.legacyUsername;
         var _closure2_slot11 = zuuluu;
+        zuuluu = michal.nameplate;
+        var _closure2_slot12 = zuuluu;
         michal = michal.primaryGuildId;
-        var _closure2_slot12 = michal;
+        var _closure2_slot13 = michal;
         zuuluu = _closure1_slot1;
         offset = _closure1_slot2;
         michal = 3;
@@ -403,6 +405,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu['discriminator'] = michal;
                 michal = _closure2_slot10;
                 zuuluu['global_name'] = michal;
+                michal = _closure2_slot11;
+                zuuluu['legacy_username'] = michal;
                 michal = _closure2_slot9;
                 zuuluu['new_password'] = michal;
                 offset = argFoo;
@@ -410,40 +414,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = copyDataProperties(yankee, offset);
                 michal = _closure2_slot8;
                 oscard = null;
-                if(!(oscard === michal)) { _fun00006_ip = 120; continue _fun00005 }
- 114:
+                if(!(oscard === michal)) { _fun00006_ip = 129; continue _fun00005 }
+ 123:
                 zuuluu['avatar_decoration_id'] = oscard;
- 120:
+ 129:
                 michal = _closure2_slot8;
-                if(!(oscard != michal)) { _fun00006_ip = 155; continue _fun00005 }
- 128:
+                if(!(oscard != michal)) { _fun00006_ip = 164; continue _fun00005 }
+ 137:
                 michal = _closure2_slot8;
                 tangon = michal.id;
                 zuuluu['avatar_decoration_id'] = tangon;
                 michal = michal.skuId;
                 zuuluu['avatar_decoration_sku_id'] = michal;
- 155:
-                michal = _closure2_slot11;
-                if(!(oscard === michal)) { _fun00006_ip = 169; continue _fun00005 }
- 163:
+ 164:
+                michal = _closure2_slot12;
+                if(!(oscard === michal)) { _fun00006_ip = 178; continue _fun00005 }
+ 172:
                 zuuluu['nameplate_id'] = oscard;
- 169:
-                michal = _closure2_slot11;
-                if(!(oscard != michal)) { _fun00006_ip = 206; continue _fun00005 }
- 177:
-                michal = _closure2_slot11;
+ 178:
+                michal = _closure2_slot12;
+                if(!(oscard != michal)) { _fun00006_ip = 215; continue _fun00005 }
+ 186:
+                michal = _closure2_slot12;
                 tangon = michal.id;
                 zuuluu['nameplate_id'] = tangon;
                 michal = michal.skuId;
                 zuuluu['nameplate_sku_id'] = michal;
- 206:
-                tangon = _closure2_slot12;
+ 215:
+                tangon = _closure2_slot13;
                 michal = undefined;
-                if(!(michal !== tangon)) { _fun00006_ip = 228; continue _fun00005 }
- 216:
-                entity = _closure2_slot12;
+                if(!(michal !== tangon)) { _fun00006_ip = 237; continue _fun00005 }
+ 225:
+                entity = _closure2_slot13;
                 zuuluu['primary_guild_id'] = entity;
- 228:
+ 237:
                 report = _closure1_slot0;
                 tangon = _closure1_slot2;
                 golfie = 9;
@@ -456,15 +460,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = _closure1_slot9;
                 report = report.bind(michal)();
                 option = oscard != report;
-                if(!option) { _fun00006_ip = 290; continue _fun00005 }
- 286:
+                if(!option) { _fun00006_ip = 299; continue _fun00005 }
+ 295:
                 option = oscard != tangon;
- 290:
-                if(!option) { _fun00006_ip = 305; continue _fun00005 }
- 293:
+ 299:
+                if(!option) { _fun00006_ip = 314; continue _fun00005 }
+ 302:
                 zuuluu['push_provider'] = report;
                 zuuluu['push_token'] = tangon;
- 305:
+ 314:
                 report = _closure1_slot0;
                 tangon = _closure1_slot2;
                 tangon = tangon[golfie];
@@ -475,16 +479,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = report.bind(golfie)(tangon);
                 report = _closure1_slot8;
                 report = oscard != report;
-                if(!report) { _fun00006_ip = 357; continue _fun00005 }
- 353:
+                if(!report) { _fun00006_ip = 366; continue _fun00005 }
+ 362:
                 report = oscard != tangon;
- 357:
-                if(!report) { _fun00006_ip = 376; continue _fun00005 }
- 360:
+ 366:
+                if(!report) { _fun00006_ip = 385; continue _fun00005 }
+ 369:
                 report = _closure1_slot8;
                 zuuluu['push_voip_provider'] = report;
                 zuuluu['push_voip_token'] = tangon;
- 376:
+ 385:
                 entity = _closure1_slot10;
                 entity = entity.bind(michal)(zuuluu);
                 return entity;
@@ -672,6 +676,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['setPendingGlobalName'] = tangon;
+    tangon = function(argFoo) { // Original name: setPendingLegacyUsernameDisabled
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
+        entity = 3;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'USER_SETTINGS_ACCOUNT_SET_PENDING_LEGACY_USERNAME_DISABLED';
+        michal['type'] = report;
+        report = argFoo;
+        michal['legacyUsernameDisabled'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    zuuluu['setPendingLegacyUsernameDisabled'] = tangon;
     tangon = function(argFoo) { // Original name: setPendingAvatarDecoration
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
@@ -847,6 +868,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['resetPendingAvatarDecoration'] = tangon;
+    tangon = function() { // Original name: resetPendingLegacyUsernameDisabled
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
+        entity = 3;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'USER_SETTINGS_ACCOUNT_RESET_PENDING_LEGACY_USERNAME_DISABLED';
+        michal['type'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    zuuluu['resetPendingLegacyUsernameDisabled'] = tangon;
     michal = function() { // Original name: resetPendingPrimaryGuildChanges
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;

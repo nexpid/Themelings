@@ -269,13 +269,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     michal['MFA_SEND_VERIFICATION_KEY'] = option;
-    tangon = function() { // Original name: handleSeenBackupPrompt
+    option = function() { // Original name: handleSeenBackupPrompt
         entity = true;
         _closure1_slot11 = entity;
         entity = undefined;
         return entity;
     };
-    michal['MFA_SEEN_BACKUP_CODE_PROMPT'] = tangon;
+    michal['MFA_SEEN_BACKUP_CODE_PROMPT'] = option;
+    tangon = function() { // Original name: CONNECTION_OPEN
+        entity = undefined;
+        return entity;
+    };
+    michal['CONNECTION_OPEN'] = tangon;
     tangon = golfie.prototype;
     tangon = Object.create(tangon, {constructor: {value: golfie}});
     romeon = tangon;

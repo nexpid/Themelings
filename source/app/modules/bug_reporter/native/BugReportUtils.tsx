@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  49:
             michal = zuuluu.@@iterator;
  55:
-            if(michal) { _fun00002_ip = 343; continue _fun00001 }
+            if(michal) { _fun00002_ip = 345; continue _fun00001 }
  61:
             oscard = report.Array;
             tangon = oscard.isArray;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             return entity;
- 343:
+ 345:
             entity = michal.call;
             zuuluu = entity.bind(michal)(zuuluu);
             michal = zuuluu.next;

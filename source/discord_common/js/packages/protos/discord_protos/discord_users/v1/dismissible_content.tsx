@@ -1614,6 +1614,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['Q2_2025_MARKETING_MOMENT_FOLLOW_UP_MODAL'] = michal;
     entity = 'Q2_2025_MARKETING_MOMENT_FOLLOW_UP_MODAL';
     tangon[michal] = entity;
+    michal = 542;
+    tangon['REPORT_TO_MOD_NEW_TAG'] = michal;
+    entity = 'REPORT_TO_MOD_NEW_TAG';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

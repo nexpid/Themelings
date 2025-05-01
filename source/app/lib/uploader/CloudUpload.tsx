@@ -3106,15 +3106,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = new foxtra[option](romeon, yankee, offset, verify, option);
                 entity = entity instanceof Object ? entity : zuuluu;
                 var _closure3_slot0 = entity;
-                oscard = entity.status;
-                tangon = _closure1_slot17;
-                tangon = tangon.COMPLETED;
-                if(!(oscard !== tangon)) { _fun00056_ip = 96; continue _fun00055 }
- 80:
-                zuuluu = _closure1_slot17;
-                zuuluu = zuuluu.NOT_STARTED;
-                entity['status'] = zuuluu;
- 96:
                 zuuluu = global;
                 tangon = zuuluu.Object;
                 zuuluu = tangon.entries;
@@ -3144,6 +3135,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     }
                 };
                 michal = zuuluu.bind(tangon)(michal);
+                tangon = entity.status;
+                zuuluu = _closure1_slot17;
+                zuuluu = zuuluu.COMPLETED;
+                if(!(tangon !== zuuluu)) { _fun00056_ip = 130; continue _fun00055 }
+ 114:
+                michal = _closure1_slot17;
+                michal = michal.NOT_STARTED;
+                entity['status'] = michal;
+ 130:
                 return entity;
             }
         };

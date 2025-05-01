@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
                 report = entity.Array;
                 tangon = report.isArray;
                 tangon = tangon.bind(report)(oscard);
-                if(tangon) { _fun00004_ip = 70; continue _fun00003 }
+                if(tangon) { _fun00004_ip = 72; continue _fun00003 }
  37:
                 report = entity.Object;
                 tangon = report.keys;
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
                 };
                 zuuluu = tangon.bind(report)(zuuluu);
                 return michal;
- 70:
+ 72:
                 zuuluu = entity.TypeError;
                 entity = zuuluu.prototype;
                 michal = Object.create(entity, {constructor: {value: zuuluu}});

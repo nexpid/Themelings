@@ -42,26 +42,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(report)(zuuluu);
             michal = michal.length;
             report = 0;
-            if(!(!(michal > report))) { _fun00002_ip = 299; continue _fun00001 }
+            if(!(!(michal > report))) { _fun00002_ip = 393; continue _fun00001 }
  103:
             oscard = zuuluu.hasFlag;
             michal = _closure1_slot10;
             michal = michal.IS_VOICE_MESSAGE;
             michal = oscard.bind(zuuluu)(michal);
-            if(michal) { _fun00002_ip = 235; continue _fun00001 }
- 127:
+            if(michal) { _fun00002_ip = 329; continue _fun00001 }
+ 130:
+            oscard = zuuluu.hasFlag;
+            michal = _closure1_slot10;
+            michal = michal.IS_COMPONENTS_V2;
+            michal = oscard.bind(zuuluu)(michal);
+            if(michal) { _fun00002_ip = 262; continue _fun00001 }
+ 154:
             michal = zuuluu.embeds;
             michal = michal.length;
             michal = michal > report;
-            if(michal) { _fun00002_ip = 160; continue _fun00001 }
- 145:
+            if(michal) { _fun00002_ip = 187; continue _fun00001 }
+ 172:
             zuuluu = zuuluu.attachments;
             zuuluu = zuuluu.length;
             michal = zuuluu > report;
- 160:
+ 187:
             oscard = undefined;
-            if(!michal) { _fun00002_ip = 361; continue _fun00001 }
- 168:
+            if(!michal) { _fun00002_ip = 455; continue _fun00001 }
+ 195:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             michal = 7;
@@ -76,8 +82,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.bind(report)(michal);
             _closure2_slot1 = michal;
             oscard = michal;
-            _fun00002_ip = 361; continue _fun00001;
- 235:
+            _fun00002_ip = 455; continue _fun00001;
+ 262:
+            golfie = _closure1_slot0;
+            option = _closure1_slot2;
+            michal = 7;
+            zuuluu = option[michal];
+            zuuluu = golfie.bind(tangon)(zuuluu);
+            report = zuuluu.intl;
+            zuuluu = report.string;
+            michal = option[michal];
+            michal = golfie.bind(tangon)(michal);
+            michal = michal.t;
+            michal = michal.Xxm5i4;
+            michal = zuuluu.bind(report)(michal);
+            _closure2_slot1 = michal;
+            oscard = michal;
+            _fun00002_ip = 455; continue _fun00001;
+ 329:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             michal = 7;
@@ -92,8 +114,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.bind(report)(michal);
             _closure2_slot1 = michal;
             oscard = michal;
-            _fun00002_ip = 361; continue _fun00001;
- 299:
+            _fun00002_ip = 455; continue _fun00001;
+ 393:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             michal = 7;
@@ -108,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.bind(report)(michal);
             _closure2_slot1 = michal;
             oscard = michal;
- 361:
+ 455:
             report = _closure1_slot3;
             zuuluu = report.useMemo;
             michal = new Array(1);

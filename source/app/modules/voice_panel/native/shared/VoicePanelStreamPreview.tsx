@@ -204,34 +204,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = report.Image;
             report = {};
             report['layout'] = backup;
-            if(!(offset == option)) { _fun00002_ip = 329; continue _fun00001 }
- 307:
+            if(!(offset == option)) { _fun00002_ip = 327; continue _fun00001 }
+ 305:
             output = _closure1_slot1;
             result = _closure1_slot2;
             kiloes = 9;
             kiloes = result[kiloes];
             kiloes = output.bind(tangon)(kiloes);
-            _fun00002_ip = 339; continue _fun00001;
- 329:
+            _fun00002_ip = 337; continue _fun00001;
+ 327:
             output = {};
             output['uri'] = option;
             kiloes = output;
- 339:
+ 337:
             report['source'] = kiloes;
-            if(!(offset == option)) { _fun00002_ip = 355; continue _fun00001 }
- 347:
+            if(!(offset == option)) { _fun00002_ip = 353; continue _fun00001 }
+ 345:
             kiloes = sizing.streamPreviewImagePlaceholder;
-            _fun00002_ip = 361; continue _fun00001;
- 355:
+            _fun00002_ip = 359; continue _fun00001;
+ 353:
             kiloes = sizing.streamPreviewImage;
- 361:
+ 359:
             report['style'] = kiloes;
             offset = offset != option;
             option = 'contain';
-            if(!offset) { _fun00002_ip = 380; continue _fun00001 }
- 376:
+            if(!offset) { _fun00002_ip = 378; continue _fun00001 }
+ 374:
             option = 'cover';
- 380:
+ 378:
             report['resizeMode'] = option;
             oscard = golfie.bind(tangon)(oscard, report);
             report = new Array(2);

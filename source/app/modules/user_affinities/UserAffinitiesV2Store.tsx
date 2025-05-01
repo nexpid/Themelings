@@ -220,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = entity;
-        entity = new Array(8);
+        entity = new Array(9);
         entity[0] = report;
         report = {};
         golfie = 'shouldFetch';
@@ -336,12 +336,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = {};
         golfie = 'getState';
         report['key'] = golfie;
-        oscard = function() { // Original name: value
+        golfie = function() { // Original name: value
             entity = _closure1_slot10;
             return entity;
         };
-        report['value'] = oscard;
+        report['value'] = golfie;
         entity[7] = report;
+        report = {};
+        golfie = 'isHighlyAffinedVCUser';
+        report['key'] = golfie;
+        oscard = function(argFoo) { // Original name: value
+            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+ 0:
+                zuuluu = _closure1_slot7;
+                michal = zuuluu.get;
+                entity = argFoo;
+                zuuluu = michal.bind(zuuluu)(entity);
+                michal = null;
+                tangon = michal == zuuluu;
+                entity = undefined;
+                if(tangon) { _fun00012_ip = 37; continue _fun00011 }
+ 31:
+                entity = zuuluu.vcProbability;
+ 37:
+                zuuluu = michal != entity;
+                michal = 0;
+                if(!zuuluu) { _fun00012_ip = 49; continue _fun00011 }
+ 46:
+                michal = entity;
+ 49:
+                entity = 0.5;
+                entity = michal > entity;
+                return entity;
+            }
+        };
+        report['value'] = oscard;
+        entity[8] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

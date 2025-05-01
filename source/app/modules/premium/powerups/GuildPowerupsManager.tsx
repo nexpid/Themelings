@@ -39,13 +39,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot12 = michal;
+            _closure1_slot11 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot11 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -87,11 +87,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot10 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot11 = tangon;
-    tangon = 13;
+    tangon = 11;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
@@ -113,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot6;
                 verify = entity.bind(tangon)(zuuluu);
                 zuuluu = _closure1_slot5;
-                entity = _closure1_slot12;
+                entity = _closure1_slot11;
                 entity = entity.bind(tangon)();
                 if(entity) { _fun00004_ip = 84; continue _fun00003 }
  71:
@@ -138,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = new backup[zuuluu](foxtra);
                 report = zuuluu instanceof Object ? zuuluu : tangon;
                 tangon = report.set;
-                zuuluu = _closure1_slot10;
+                zuuluu = _closure1_slot9;
                 michal = entity.handleSelectedGuildChange;
                 michal = tangon.bind(report)(zuuluu, michal);
                 entity['stores'] = michal;
@@ -147,8 +143,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal['GUILD_POWERUP_ENTITLEMENTS_CREATE'] = zuuluu;
                 zuuluu = entity.handleEntitlementUpdate;
                 michal['GUILD_POWERUP_ENTITLEMENTS_DELETE'] = zuuluu;
-                zuuluu = entity.handleAppliedBoostUpdate;
-                michal['GUILD_APPLIED_BOOSTS_UPDATE'] = zuuluu;
                 entity['actions'] = michal;
                 return entity;
             }
@@ -165,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = function() { // Original name: value
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                zuuluu = _closure1_slot10;
+                zuuluu = _closure1_slot9;
                 michal = zuuluu.getGuildId;
                 zuuluu = michal.bind(zuuluu)();
                 tangon = null;
@@ -178,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  47:
                 golfie = _closure1_slot1;
                 option = _closure1_slot2;
-                report = 9;
+                report = 8;
                 oscard = option[report];
                 tangon = undefined;
                 offset = golfie.bind(tangon)(oscard);
@@ -197,27 +191,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = report.bind(oscard)(michal, golfie);
                 if(!michal) { _fun00006_ip = 236; continue _fun00005 }
  134:
-                report = _closure1_slot11;
+                report = _closure1_slot10;
                 michal = report.shouldFetchCatalogForGuild;
                 michal = michal.bind(report)(zuuluu);
                 if(!michal) { _fun00006_ip = 185; continue _fun00005 }
  154:
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                michal = 10;
+                michal = 9;
                 michal = oscard[michal];
                 report = report.bind(tangon)(michal);
                 michal = report.fetchPowerupCatalogForGuild;
                 michal = michal.bind(report)(zuuluu);
  185:
-                report = _closure1_slot11;
+                report = _closure1_slot10;
                 michal = report.shouldFetchPowerupsForGuild;
                 michal = michal.bind(report)(zuuluu);
                 if(!michal) { _fun00006_ip = 236; continue _fun00005 }
  205:
                 michal = _closure1_slot0;
                 report = _closure1_slot2;
-                entity = 10;
+                entity = 9;
                 entity = report[entity];
                 michal = michal.bind(tangon)(entity);
                 entity = michal.fetchGuildUnlockedPowerups;
@@ -228,90 +222,45 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = entity;
-        entity = new Array(4);
+        entity = new Array(2);
         entity[0] = report;
         report = {};
         golfie = 'handleEntitlementUpdate';
         report['key'] = golfie;
-        golfie = function(argFoo) { // Original name: value
-            zuuluu = this;
-            entity = argFoo;
-            michal = entity.guildId;
-            entity = zuuluu.refreshGuildPowerups;
-            entity = entity.bind(zuuluu)(michal);
-            entity = undefined;
-            return entity;
-        };
-        report['value'] = golfie;
-        entity[1] = report;
-        report = {};
-        golfie = 'handleAppliedBoostUpdate';
-        report['key'] = golfie;
-        golfie = function(argFoo) { // Original name: value
+        oscard = function(argFoo) { // Original name: value
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                tangon = this;
                 entity = argFoo;
-                zuuluu = entity.guildId;
-                oscard = _closure1_slot0;
-                report = _closure1_slot2;
-                entity = 11;
-                report = report[entity];
-                entity = undefined;
-                golfie = oscard.bind(entity)(report);
-                oscard = golfie.getHasAllocateBoostPermission;
-                report = _closure1_slot9;
-                option = _closure1_slot8;
-                michal = option.getGuild;
-                michal = michal.bind(option)(zuuluu);
-                report = oscard.bind(golfie)(report, michal);
-                michal = true;
-                if(!(michal === report)) { _fun00008_ip = 83; continue _fun00007 }
- 72:
-                michal = tangon.refreshGuildPowerups;
-                michal = michal.bind(tangon)(zuuluu);
- 83:
-                return entity;
-            }
-        };
-        report['value'] = golfie;
-        entity[2] = report;
-        report = {};
-        golfie = 'refreshGuildPowerups';
-        report['key'] = golfie;
-        oscard = function(argFoo) { // Original name: value
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
- 0:
-                tangon = argFoo;
+                tangon = entity.guildId;
                 report = _closure1_slot0;
                 zuuluu = _closure1_slot2;
-                entity = 9;
+                entity = 8;
                 zuuluu = zuuluu[entity];
                 entity = undefined;
                 oscard = report.bind(entity)(zuuluu);
                 report = oscard.getGuildPowerupsExperimentEnabled;
                 zuuluu = 'GuildPowerupsManager';
                 zuuluu = report.bind(oscard)(tangon, zuuluu);
-                if(!zuuluu) { _fun00010_ip = 103; continue _fun00009 }
- 49:
+                if(!zuuluu) { _fun00008_ip = 108; continue _fun00007 }
+ 54:
                 zuuluu = _closure1_slot0;
                 report = _closure1_slot2;
-                michal = 10;
+                michal = 9;
                 michal = report[michal];
                 oscard = zuuluu.bind(entity)(michal);
                 michal = oscard.fetchGuildUnlockedPowerups;
                 michal = michal.bind(oscard)(tangon);
-                michal = 12;
+                michal = 10;
                 michal = report[michal];
                 zuuluu = zuuluu.bind(entity)(michal);
                 michal = zuuluu.fetchAppliedGuildBoostsForGuild;
                 michal = michal.bind(zuuluu)(tangon);
- 103:
+ 108:
                 return entity;
             }
         };
         report['value'] = oscard;
-        entity[3] = report;
+        entity[1] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -321,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = tangon;
     michal = new foxtra[michal](romeon);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 14;
+    tangon = 12;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

@@ -5104,7 +5104,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00074_ip = 278; continue _fun00073 }
+                        if(michal) { _fun00074_ip = 282; continue _fun00073 }
  12:
                         tangon = function() { // Original name: dispatchDelete
                             zuuluu = _closure1_slot1;
@@ -5150,7 +5150,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         };
                         var _closure4_slot0 = tangon;
                         zuuluu = _closure2_slot2;
-                        if(zuuluu) { _fun00074_ip = 180; continue _fun00073 }
+                        if(zuuluu) { _fun00074_ip = 184; continue _fun00073 }
  34:
                         oscard = _closure1_slot1;
                         golfie = _closure1_slot2;
@@ -5166,7 +5166,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         return zuuluu;
  78:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                        if(oscard) { _fun00074_ip = 177; continue _fun00073 }
+                        if(oscard) { _fun00074_ip = 181; continue _fun00073 }
  84:
                         golfie = _closure1_slot0;
                         offset = _closure1_slot2;
@@ -5191,13 +5191,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             return entity;
                         };
                         report = oscard.bind(golfie)(report);
-                        _fun00074_ip = 186; continue _fun00073;
- 177:
+                        _fun00074_ip = 190; continue _fun00073;
+ 181:
                         return zuuluu;
- 180:
+ 184:
                         zuuluu = undefined;
                         zuuluu = tangon.bind(zuuluu)();
- 186:
+ 190:
                         oscard = _closure1_slot22;
                         report = oscard.getMessage;
                         tangon = _closure2_slot0;
@@ -5207,14 +5207,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         oscard = michal == tangon;
                         michal = undefined;
                         report = undefined;
-                        if(oscard) { _fun00074_ip = 231; continue _fun00073 }
- 226:
+                        if(oscard) { _fun00074_ip = 235; continue _fun00073 }
+ 230:
                         report = tangon.type;
- 231:
+ 235:
                         tangon = _closure1_slot36;
                         tangon = tangon.GUILD_INVITE_REMINDER;
-                        if(!(report === tangon)) { _fun00074_ip = 275; continue _fun00073 }
- 245:
+                        if(!(report === tangon)) { _fun00074_ip = 279; continue _fun00073 }
+ 249:
                         tangon = _closure1_slot0;
                         report = _closure1_slot2;
                         zuuluu = 76;
@@ -5222,9 +5222,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         tangon = tangon.bind(michal)(zuuluu);
                         zuuluu = tangon.trackGuildInviteNotificationDismissed;
                         zuuluu = zuuluu.bind(tangon)();
- 275:
+ 279:
                         return michal;
- 278:
+ 282:
                         return entity;
                     }
                 };

@@ -244,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             zuuluu = _closure2_slot13;
                             tangon = zuuluu.current;
                             zuuluu = null;
-                            if(!(zuuluu != tangon)) { _fun00004_ip = 54; continue _fun00003 }
+                            if(!(zuuluu != tangon)) { _fun00004_ip = 52; continue _fun00003 }
  27:
                             michal = _closure2_slot13;
                             zuuluu = michal.current;
@@ -261,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                                 return entity;
                             };
                             entity = michal.bind(zuuluu)(entity);
- 54:
+ 52:
                             entity = undefined;
                             return entity;
                         }
@@ -305,7 +305,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     zuuluu = zuuluu.bind(entity)(tangon);
                     zuuluu = _closure2_slot16;
                     michal = null;
-                    if(!(michal != zuuluu)) { _fun00006_ip = 60; continue _fun00005 }
+                    if(!(michal != zuuluu)) { _fun00006_ip = 58; continue _fun00005 }
  43:
                     michal = function() {
                         tangon = _closure1_slot3;
@@ -364,7 +364,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     };
                     michal = michal.bind(entity)();
                     michal = michal.bind(entity)();
- 60:
+ 58:
                     return entity;
                 }
             };
@@ -572,8 +572,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             oscard = oscard.bind(tangon)(report);
             report = {};
             verify = option;
-            if(!verify) { _fun00002_ip = 1019; continue _fun00001 }
- 986:
+            if(!verify) { _fun00002_ip = 1001; continue _fun00001 }
+ 968:
             yankee = _closure1_slot12;
             offset = _closure1_slot1;
             option = _closure1_slot2;
@@ -582,7 +582,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             option = {};
             option['text'] = sequen;
             verify = yankee.bind(tangon)(offset, option);
- 1019:
+ 1001:
             option = new Array(2);
             option[0] = verify;
             yankee = _closure1_slot13;
@@ -617,10 +617,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             config = record.isAndroid;
             record = config.bind(record)();
             config = 'ascii-capable';
-            if(!record) { _fun00002_ip = 1176; continue _fun00001 }
- 1170:
+            if(!record) { _fun00002_ip = 1158; continue _fun00001 }
+ 1152:
             config = 'visible-password';
- 1176:
+ 1158:
             romeon['keyboardType'] = config;
             romeon['value'] = sequen;
             romeon['onLayout'] = update;

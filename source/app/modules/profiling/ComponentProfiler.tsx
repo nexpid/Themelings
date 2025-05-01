@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = entity.length;
             entity = '';
             zuuluu = 0;
-            if(!(zuuluu !== report)) { _fun00008_ip = 238; continue _fun00007 }
+            if(!(zuuluu !== report)) { _fun00008_ip = 240; continue _fun00007 }
  43:
             golfie = _closure1_slot7;
             oscard = undefined;
@@ -381,7 +381,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal = tangon.bind(report)(michal);
             entity = zuuluu + michal;
- 238:
+ 240:
             return entity;
         }
     };

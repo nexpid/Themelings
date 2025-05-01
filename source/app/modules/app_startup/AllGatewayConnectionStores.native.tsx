@@ -548,6 +548,9 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal = tangon.bind(entity)(michal);
     michal = 178;
     michal = report[michal];
+    michal = tangon.bind(entity)(michal);
+    michal = 179;
+    michal = report[michal];
     report = tangon.bind(entity)(michal);
     tangon = report.fileFinishedImporting;
     michal = 'modules/app_startup/AllGatewayConnectionStores.native.tsx';

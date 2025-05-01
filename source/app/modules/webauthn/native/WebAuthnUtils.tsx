@@ -472,7 +472,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon[verify];
             tangon = golfie.bind(option)(tangon);
             tangon = tangon.t;
-            tangon = tangon.Awk3Gx;
+            tangon = tangon.7wPZlp;
             tangon = report.bind(oscard)(tangon);
             michal['title'] = tangon;
             entity[zuuluu] = michal;

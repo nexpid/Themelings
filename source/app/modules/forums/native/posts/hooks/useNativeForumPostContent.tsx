@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot4;
             golfie = undefined;
             michal = michal.bind(golfie)();
-            if(entity) { _fun00002_ip = 692; continue _fun00001 }
+            if(entity) { _fun00002_ip = 776; continue _fun00001 }
  45:
             entity = null;
             if(!(entity != verify)) { _fun00002_ip = 82; continue _fun00001 }
@@ -60,12 +60,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = offset[oscard];
             oscard = option.bind(golfie)(oscard);
             oscard = oscard.bind(golfie)(verify);
-            if(oscard) { _fun00002_ip = 664; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 748; continue _fun00001 }
  82:
             if(!(entity != verify)) { _fun00002_ip = 98; continue _fun00001 }
  86:
             oscard = verify.blocked;
-            if(oscard) { _fun00002_ip = 579; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 663; continue _fun00001 }
  98:
             option = entity == verify;
             oscard = undefined;
@@ -109,9 +109,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = oscard;
  197:
             oscard = null;
-            if(!report) { _fun00002_ip = 548; continue _fun00001 }
+            if(!report) { _fun00002_ip = 632; continue _fun00001 }
  205:
-            if(!(entity != verify)) { _fun00002_ip = 490; continue _fun00001 }
+            if(!(entity != verify)) { _fun00002_ip = 574; continue _fun00001 }
  212:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -122,26 +122,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report.bind(offset)(verify);
             report = report.length;
             offset = 0;
-            if(!(!(report > offset))) { _fun00002_ip = 433; continue _fun00001 }
+            if(!(!(report > offset))) { _fun00002_ip = 517; continue _fun00001 }
  257:
             yankee = verify.hasFlag;
             report = _closure1_slot3;
             report = report.IS_VOICE_MESSAGE;
             report = yankee.bind(verify)(report);
-            if(report) { _fun00002_ip = 376; continue _fun00001 }
- 281:
+            if(report) { _fun00002_ip = 460; continue _fun00001 }
+ 284:
+            yankee = verify.hasFlag;
+            report = _closure1_slot3;
+            report = report.IS_COMPONENTS_V2;
+            report = yankee.bind(verify)(report);
+            if(report) { _fun00002_ip = 403; continue _fun00001 }
+ 308:
             report = verify.embeds;
             report = report.length;
             report = report > offset;
-            if(report) { _fun00002_ip = 314; continue _fun00001 }
- 299:
+            if(report) { _fun00002_ip = 341; continue _fun00001 }
+ 326:
             verify = verify.attachments;
             verify = verify.length;
             report = verify > offset;
- 314:
+ 341:
             entity = null;
-            if(!report) { _fun00002_ip = 374; continue _fun00001 }
- 319:
+            if(!report) { _fun00002_ip = 401; continue _fun00001 }
+ 346:
             yankee = _closure1_slot0;
             romeon = _closure1_slot2;
             report = 2;
@@ -154,9 +160,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report.t;
             report = report.JAKsMz;
             entity = verify.bind(offset)(report);
- 374:
-            _fun00002_ip = 431; continue _fun00001;
- 376:
+ 401:
+            _fun00002_ip = 458; continue _fun00001;
+ 403:
+            yankee = _closure1_slot0;
+            romeon = _closure1_slot2;
+            report = 2;
+            verify = romeon[report];
+            verify = yankee.bind(golfie)(verify);
+            offset = verify.intl;
+            verify = offset.string;
+            report = romeon[report];
+            report = yankee.bind(golfie)(report);
+            report = report.t;
+            report = report.Xxm5i4;
+            entity = verify.bind(offset)(report);
+ 458:
+            _fun00002_ip = 515; continue _fun00001;
+ 460:
             yankee = _closure1_slot0;
             romeon = _closure1_slot2;
             report = 2;
@@ -169,9 +190,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report.t;
             report = report.6bhHra;
             entity = verify.bind(offset)(report);
- 431:
-            _fun00002_ip = 488; continue _fun00001;
- 433:
+ 515:
+            _fun00002_ip = 572; continue _fun00001;
+ 517:
             yankee = _closure1_slot0;
             romeon = _closure1_slot2;
             report = 2;
@@ -184,9 +205,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report.t;
             report = report.7K5LmZ;
             entity = verify.bind(offset)(report);
- 488:
-            _fun00002_ip = 545; continue _fun00001;
- 490:
+ 572:
+            _fun00002_ip = 629; continue _fun00001;
+ 574:
             yankee = _closure1_slot0;
             romeon = _closure1_slot2;
             report = 2;
@@ -199,18 +220,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report.t;
             report = report.mE3KJC;
             entity = verify.bind(offset)(report);
- 545:
+ 629:
             oscard = entity;
- 548:
+ 632:
             entity = {'content': null, 'style': null, 'variant': 'text-sm/medium'};
             report = tangon;
-            if(!option) { _fun00002_ip = 571; continue _fun00001 }
- 568:
+            if(!option) { _fun00002_ip = 655; continue _fun00001 }
+ 652:
             report = oscard;
- 571:
+ 655:
             entity['content'] = report;
             return entity;
- 579:
+ 663:
             entity = {};
             verify = _closure1_slot0;
             offset = _closure1_slot2;
@@ -230,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = 'text-sm/normal';
             entity['variant'] = report;
             return entity;
- 664:
+ 748:
             entity = {};
             entity['content'] = tangon;
             tangon = michal.italics;
@@ -238,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = 'text-sm/normal';
             entity['variant'] = tangon;
             return entity;
- 692:
+ 776:
             entity = {};
             oscard = _closure1_slot0;
             option = _closure1_slot2;

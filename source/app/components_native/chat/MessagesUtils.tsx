@@ -54,37 +54,37 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     tangon = function(argFoo, argBar, argBaz, argCor, argGra) { // Original name: getLongPressSelectedMedia
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            offset = argFoo;
+            verify = argFoo;
             golfie = argBar;
             entity = argBaz;
-            verify = argCor;
+            romeon = argCor;
             option = argGra;
-            tangon = offset.type;
+            tangon = verify.type;
             michal = _closure1_slot10;
             michal = michal.THREAD_STARTER_MESSAGE;
-            report = offset;
+            report = verify;
             if(!(tangon === michal)) { _fun00002_ip = 93; continue _fun00001 }
  42:
-            michal = offset.messageReference;
+            michal = verify.messageReference;
             tangon = null;
-            report = offset;
+            report = verify;
             if(!(tangon != michal)) { _fun00002_ip = 93; continue _fun00001 }
  57:
-            romeon = _closure1_slot3;
-            yankee = romeon.getMessageByReference;
-            michal = offset.messageReference;
-            michal = yankee.bind(romeon)(michal);
+            yankee = _closure1_slot3;
+            offset = yankee.getMessageByReference;
+            michal = verify.messageReference;
+            michal = offset.bind(yankee)(michal);
             michal = michal.message;
-            report = offset;
+            report = verify;
             if(!(tangon != michal)) { _fun00002_ip = 93; continue _fun00001 }
  90:
             report = michal;
  93:
             tangon = 'attachment';
-            if(!(tangon !== entity)) { _fun00002_ip = 583; continue _fun00001 }
+            if(!(tangon !== entity)) { _fun00002_ip = 589; continue _fun00001 }
  104:
             michal = 'embed';
-            if(!(michal !== entity)) { _fun00002_ip = 337; continue _fun00001 }
+            if(!(michal !== entity)) { _fun00002_ip = 343; continue _fun00001 }
  115:
             offset = 'component';
             if(!(offset !== entity)) { _fun00002_ip = 127; continue _fun00001 }
@@ -93,20 +93,21 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             return entity;
  127:
             entity = null;
-            if(!(entity != verify)) { _fun00002_ip = 335; continue _fun00001 }
+            if(!(entity != romeon)) { _fun00002_ip = 341; continue _fun00001 }
  136:
-            romeon = _closure1_slot0;
+            verify = _closure1_slot0;
             yankee = _closure1_slot2;
             michal = 7;
             michal = yankee[michal];
             yankee = undefined;
-            foxtra = romeon.bind(yankee)(michal);
-            romeon = foxtra.flattenComponents;
+            foxtra = verify.bind(yankee)(michal);
+            verify = foxtra.flattenComponents;
             michal = report.components;
-            michal = romeon.bind(foxtra)(michal);
-            verify = michal[verify];
-            if(!(entity != verify)) { _fun00002_ip = 333; continue _fun00001 }
- 186:
+            verify = verify.bind(foxtra)(michal);
+            michal = verify.get;
+            verify = michal.bind(verify)(romeon);
+            if(!(entity != verify)) { _fun00002_ip = 339; continue _fun00001 }
+ 192:
             romeon = verify.type;
             foxtra = _closure1_slot0;
             backup = _closure1_slot2;
@@ -115,16 +116,16 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = foxtra.bind(yankee)(michal);
             michal = michal.ComponentType;
             michal = michal.MEDIA_GALLERY;
-            if(!(romeon !== michal)) { _fun00002_ip = 229; continue _fun00001 }
- 227:
-            return entity;
- 229:
-            if(!(entity != option)) { _fun00002_ip = 331; continue _fun00001 }
+            if(!(romeon !== michal)) { _fun00002_ip = 235; continue _fun00001 }
  233:
+            return entity;
+ 235:
+            if(!(entity != option)) { _fun00002_ip = 337; continue _fun00001 }
+ 239:
             michal = verify.items;
             michal = michal[option];
-            if(!(entity != michal)) { _fun00002_ip = 329; continue _fun00001 }
- 247:
+            if(!(entity != michal)) { _fun00002_ip = 335; continue _fun00001 }
+ 253:
             option = michal.media;
             michal = {};
             michal['sourceType'] = offset;
@@ -138,29 +139,29 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             verify = option.contentType;
             offset = offset.bind(yankee)(verify);
             verify = 'image';
-            if(!offset) { _fun00002_ip = 312; continue _fun00001 }
- 308:
+            if(!offset) { _fun00002_ip = 318; continue _fun00001 }
+ 314:
             verify = 'video';
- 312:
+ 318:
             michal['mediaType'] = verify;
             option = option.url;
             michal['mediaUrl'] = option;
             return michal;
- 329:
-            return entity;
- 331:
-            return entity;
- 333:
-            return entity;
  335:
             return entity;
  337:
+            return entity;
+ 339:
+            return entity;
+ 341:
+            return entity;
+ 343:
             entity = report.embeds;
             michal = entity[golfie];
             var _closure2_slot0 = michal;
             entity = null;
-            if(!(entity != michal)) { _fun00002_ip = 581; continue _fun00001 }
- 360:
+            if(!(entity != michal)) { _fun00002_ip = 587; continue _fun00001 }
+ 366:
             verify = function(argFoo, argBar) { // Original name: getEmbedMedia
                 entity = {};
                 michal = 'embed';
@@ -176,91 +177,91 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             option = michal.type;
             zuuluu = _closure1_slot9;
             zuuluu = zuuluu.IMAGE;
-            if(!(option === zuuluu)) { _fun00002_ip = 398; continue _fun00001 }
- 386:
+            if(!(option === zuuluu)) { _fun00002_ip = 404; continue _fun00001 }
+ 392:
             zuuluu = michal.url;
-            if(!(entity == zuuluu)) { _fun00002_ip = 562; continue _fun00001 }
- 398:
+            if(!(entity == zuuluu)) { _fun00002_ip = 568; continue _fun00001 }
+ 404:
             option = michal.type;
             zuuluu = _closure1_slot9;
             zuuluu = zuuluu.GIFV;
-            if(!(option === zuuluu)) { _fun00002_ip = 426; continue _fun00001 }
- 417:
+            if(!(option === zuuluu)) { _fun00002_ip = 432; continue _fun00001 }
+ 423:
             zuuluu = michal.url;
-            if(!(entity == zuuluu)) { _fun00002_ip = 543; continue _fun00001 }
- 426:
+            if(!(entity == zuuluu)) { _fun00002_ip = 549; continue _fun00001 }
+ 432:
             option = michal.type;
             zuuluu = _closure1_slot9;
             zuuluu = zuuluu.RICH;
-            if(!(option === zuuluu)) { _fun00002_ip = 495; continue _fun00001 }
- 445:
+            if(!(option === zuuluu)) { _fun00002_ip = 501; continue _fun00001 }
+ 451:
             option = michal.image;
             yankee = entity == option;
             offset = undefined;
             zuuluu = undefined;
-            if(yankee) { _fun00002_ip = 467; continue _fun00001 }
- 462:
+            if(yankee) { _fun00002_ip = 473; continue _fun00001 }
+ 468:
             zuuluu = option.url;
- 467:
-            if(!(entity == zuuluu)) { _fun00002_ip = 520; continue _fun00001 }
- 471:
+ 473:
+            if(!(entity == zuuluu)) { _fun00002_ip = 526; continue _fun00001 }
+ 477:
             option = michal.video;
             yankee = entity == option;
             zuuluu = undefined;
-            if(yankee) { _fun00002_ip = 491; continue _fun00001 }
- 486:
+            if(yankee) { _fun00002_ip = 497; continue _fun00001 }
+ 492:
             zuuluu = option.url;
- 491:
-            if(!(entity == zuuluu)) { _fun00002_ip = 497; continue _fun00001 }
- 495:
-            return entity;
  497:
+            if(!(entity == zuuluu)) { _fun00002_ip = 503; continue _fun00001 }
+ 501:
+            return entity;
+ 503:
             zuuluu = michal.video;
             option = zuuluu.url;
             zuuluu = 'video';
             zuuluu = verify.bind(offset)(zuuluu, option);
             return zuuluu;
- 520:
+ 526:
             zuuluu = michal.image;
             option = zuuluu.url;
             zuuluu = 'image';
             zuuluu = verify.bind(offset)(zuuluu, option);
             return zuuluu;
- 543:
+ 549:
             offset = michal.url;
             option = undefined;
             zuuluu = 'video';
             zuuluu = verify.bind(option)(zuuluu, offset);
             return zuuluu;
- 562:
+ 568:
             option = michal.url;
             zuuluu = undefined;
             michal = 'image';
             michal = verify.bind(zuuluu)(michal, option);
             return michal;
- 581:
+ 587:
             return entity;
- 583:
+ 589:
             entity = report.attachments;
             zuuluu = entity[golfie];
             entity = null;
-            if(!(entity == zuuluu)) { _fun00002_ip = 631; continue _fun00001 }
- 599:
+            if(!(entity == zuuluu)) { _fun00002_ip = 637; continue _fun00001 }
+ 605:
             michal = report.getContentMessage;
             report = michal.bind(report)();
             option = entity == report;
             michal = undefined;
-            if(option) { _fun00002_ip = 628; continue _fun00001 }
- 618:
+            if(option) { _fun00002_ip = 634; continue _fun00001 }
+ 624:
             report = report.attachments;
             michal = report[golfie];
- 628:
+ 634:
             zuuluu = michal;
- 631:
+ 637:
             michal = entity == zuuluu;
             entity = null;
-            if(michal) { _fun00002_ip = 810; continue _fun00001 }
- 643:
+            if(michal) { _fun00002_ip = 816; continue _fun00001 }
+ 649:
             michal = {};
             michal['sourceType'] = tangon;
             michal['source'] = zuuluu;
@@ -274,8 +275,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = zuuluu.filename;
             report = report.bind(golfie)(tangon);
             tangon = 'video';
-            if(report) { _fun00002_ip = 792; continue _fun00001 }
- 700:
+            if(report) { _fun00002_ip = 798; continue _fun00001 }
+ 706:
             golfie = _closure1_slot0;
             report = _closure1_slot2;
             report = report[verify];
@@ -284,8 +285,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             report = zuuluu.filename;
             golfie = golfie.bind(offset)(report);
             report = 'audio';
-            if(golfie) { _fun00002_ip = 789; continue _fun00001 }
- 741:
+            if(golfie) { _fun00002_ip = 795; continue _fun00001 }
+ 747:
             golfie = _closure1_slot0;
             oscard = _closure1_slot2;
             oscard = oscard[verify];
@@ -294,19 +295,19 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             oscard = zuuluu.filename;
             golfie = golfie.bind(option)(oscard);
             oscard = 'file';
-            if(!golfie) { _fun00002_ip = 786; continue _fun00001 }
- 782:
+            if(!golfie) { _fun00002_ip = 792; continue _fun00001 }
+ 788:
             oscard = 'image';
- 786:
-            report = oscard;
- 789:
-            tangon = report;
  792:
+            report = oscard;
+ 795:
+            tangon = report;
+ 798:
             michal['mediaType'] = tangon;
             zuuluu = zuuluu.url;
             michal['mediaUrl'] = zuuluu;
             entity = michal;
- 810:
+ 816:
             return entity;
         }
     };

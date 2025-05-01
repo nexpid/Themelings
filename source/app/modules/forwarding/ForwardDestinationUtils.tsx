@@ -203,18 +203,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['label'] = golfie;
             return oscard;
  122:
-            if(!tangon) { _fun00006_ip = 800; continue _fun00005 }
+            if(!tangon) { _fun00006_ip = 810; continue _fun00005 }
  128:
             golfie = _closure1_slot5;
             tangon = report.type;
             oscard = undefined;
             tangon = golfie.bind(oscard)(tangon);
-            if(!tangon) { _fun00006_ip = 800; continue _fun00005 }
+            if(!tangon) { _fun00006_ip = 810; continue _fun00005 }
  150:
             tangon = zuuluu.attachments;
             tangon = tangon.length;
             golfie = 0;
-            if(!(!(tangon > golfie))) { _fun00006_ip = 192; continue _fun00005 }
+            if(!(!(tangon > golfie))) { _fun00006_ip = 194; continue _fun00005 }
  167:
             verify = zuuluu.messageSnapshots;
             option = verify.some;
@@ -228,15 +228,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             tangon = option.bind(verify)(tangon);
-            if(!tangon) { _fun00006_ip = 284; continue _fun00005 }
- 192:
+            if(!tangon) { _fun00006_ip = 286; continue _fun00005 }
+ 194:
             verify = _closure1_slot8;
             option = verify.can;
             tangon = _closure1_slot12;
             tangon = tangon.ATTACH_FILES;
             tangon = option.bind(verify)(tangon, report);
-            if(tangon) { _fun00006_ip = 284; continue _fun00005 }
- 221:
+            if(tangon) { _fun00006_ip = 286; continue _fun00005 }
+ 223:
             tangon = {};
             yankee = _closure1_slot0;
             romeon = _closure1_slot1;
@@ -252,11 +252,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = verify.bind(offset)(option);
             tangon['label'] = option;
             return tangon;
- 284:
+ 286:
             tangon = zuuluu.embeds;
             tangon = tangon.length;
-            if(!(!(tangon > golfie))) { _fun00006_ip = 327; continue _fun00005 }
- 299:
+            if(!(!(tangon > golfie))) { _fun00006_ip = 331; continue _fun00005 }
+ 301:
             verify = zuuluu.messageSnapshots;
             option = verify.some;
             tangon = function(argFoo) {
@@ -269,8 +269,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             tangon = option.bind(verify)(tangon);
-            if(!tangon) { _fun00006_ip = 462; continue _fun00005 }
- 327:
+            if(!tangon) { _fun00006_ip = 466; continue _fun00005 }
+ 331:
             option = _closure1_slot0;
             tangon = _closure1_slot1;
             verify = 14;
@@ -279,16 +279,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = offset.canEmbedLinks;
             tangon = _closure1_slot8;
             tangon = option.bind(offset)(report, tangon);
-            if(tangon) { _fun00006_ip = 462; continue _fun00005 }
- 366:
+            if(tangon) { _fun00006_ip = 466; continue _fun00005 }
+ 370:
             option = _closure1_slot0;
             tangon = _closure1_slot1;
             tangon = tangon[verify];
             option = option.bind(oscard)(tangon);
             tangon = option.shouldStripEmbeds;
             tangon = tangon.bind(option)(zuuluu);
-            if(tangon) { _fun00006_ip = 462; continue _fun00005 }
- 397:
+            if(tangon) { _fun00006_ip = 466; continue _fun00005 }
+ 401:
             tangon = {};
             yankee = _closure1_slot0;
             romeon = _closure1_slot1;
@@ -304,7 +304,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = verify.bind(offset)(option);
             tangon['label'] = option;
             return tangon;
- 462:
+ 466:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             tangon = 12;
@@ -335,15 +335,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = option;
             tangon = arraySpread(kiloes, backup, foxtra);
             tangon = option.length;
-            if(!(tangon > golfie)) { _fun00006_ip = 657; continue _fun00005 }
- 544:
+            if(!(tangon > golfie)) { _fun00006_ip = 665; continue _fun00005 }
+ 550:
             verify = _closure1_slot8;
             golfie = verify.can;
             tangon = _closure1_slot12;
             tangon = tangon.USE_EXTERNAL_STICKERS;
             tangon = golfie.bind(verify)(tangon, report);
-            if(tangon) { _fun00006_ip = 657; continue _fun00005 }
- 573:
+            if(tangon) { _fun00006_ip = 665; continue _fun00005 }
+ 579:
             golfie = option.some;
             tangon = function(argFoo) {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
@@ -384,8 +384,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             tangon = golfie.bind(option)(tangon);
-            if(!tangon) { _fun00006_ip = 657; continue _fun00005 }
- 592:
+            if(!tangon) { _fun00006_ip = 665; continue _fun00005 }
+ 600:
             tangon = {};
             offset = _closure1_slot0;
             yankee = _closure1_slot1;
@@ -401,13 +401,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.bind(verify)(golfie);
             tangon['label'] = golfie;
             return tangon;
- 657:
+ 665:
             golfie = zuuluu.hasFlag;
             tangon = _closure1_slot11;
             tangon = tangon.IS_VOICE_MESSAGE;
             tangon = golfie.bind(zuuluu)(tangon);
-            if(tangon) { _fun00006_ip = 706; continue _fun00005 }
- 681:
+            if(tangon) { _fun00006_ip = 716; continue _fun00005 }
+ 689:
             tangon = zuuluu.messageSnapshots;
             zuuluu = tangon.some;
             entity = function(argFoo) {
@@ -420,15 +420,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity = zuuluu.bind(tangon)(entity);
-            if(!entity) { _fun00006_ip = 800; continue _fun00005 }
- 706:
+            if(!entity) { _fun00006_ip = 810; continue _fun00005 }
+ 716:
             tangon = _closure1_slot8;
             zuuluu = tangon.can;
             entity = _closure1_slot12;
             entity = entity.SEND_VOICE_MESSAGES;
             entity = zuuluu.bind(tangon)(entity, report);
-            if(entity) { _fun00006_ip = 800; continue _fun00005 }
- 735:
+            if(entity) { _fun00006_ip = 810; continue _fun00005 }
+ 745:
             entity = {};
             report = _closure1_slot0;
             golfie = _closure1_slot1;
@@ -444,7 +444,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             entity['label'] = michal;
             return entity;
- 800:
+ 810:
             entity = undefined;
             return entity;
         }

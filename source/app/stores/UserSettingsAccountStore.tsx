@@ -38,47 +38,49 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot28 = michal;
+            _closure1_slot29 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot28 = entity;
-    kiloes = function() { // Original name: handleInit
+    var _closure1_slot29 = entity;
+    sizing = function() { // Original name: handleInit
         entity = _closure1_slot8;
         entity = entity.OPEN;
-        _closure1_slot26 = entity;
-        entity = {};
         _closure1_slot27 = entity;
+        entity = {};
+        _closure1_slot28 = entity;
         entity = undefined;
         return entity;
     };
-    var _closure1_slot29 = kiloes;
-    backup = function() { // Original name: handleClose
+    var _closure1_slot30 = sizing;
+    kiloes = function() { // Original name: handleClose
         entity = _closure1_slot8;
         entity = entity.CLOSED;
-        _closure1_slot26 = entity;
-        entity = {};
         _closure1_slot27 = entity;
+        entity = {};
+        _closure1_slot28 = entity;
         entity = undefined;
         return entity;
     };
-    var _closure1_slot30 = backup;
-    yankee = function() { // Original name: handleResetAllPending
-        michal = _closure1_slot32;
+    var _closure1_slot31 = kiloes;
+    romeon = function() { // Original name: handleResetAllPending
+        michal = _closure1_slot33;
         entity = undefined;
         michal = michal.bind(entity)();
-        michal = _closure1_slot33;
+        michal = _closure1_slot34;
         michal = michal.bind(entity)();
-        michal = _closure1_slot35;
+        michal = _closure1_slot36;
+        michal = michal.bind(entity)();
+        michal = _closure1_slot37;
         michal = michal.bind(entity)();
         michal = {};
-        _closure1_slot27 = michal;
+        _closure1_slot28 = michal;
         return entity;
     };
-    var _closure1_slot31 = yankee;
-    foxtra = function() { // Original name: handleResetPendingAccountChanges
+    var _closure1_slot32 = romeon;
+    backup = function() { // Original name: handleResetPendingAccountChanges
         entity = undefined;
         var _closure1_slot10 = entity;
         var _closure1_slot11 = entity;
@@ -87,8 +89,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         var _closure1_slot14 = entity;
         return entity;
     };
-    var _closure1_slot32 = foxtra;
-    romeon = function() { // Original name: handleResetPendingProfileChanges
+    var _closure1_slot33 = backup;
+    foxtra = function() { // Original name: handleResetPendingProfileChanges
         entity = undefined;
         var _closure1_slot15 = entity;
         var _closure1_slot16 = entity;
@@ -98,31 +100,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _closure1_slot13 = entity;
         return entity;
     };
-    var _closure1_slot33 = romeon;
-    offset = function() { // Original name: handleResetTryItOut
+    var _closure1_slot34 = foxtra;
+    yankee = function() { // Original name: handleResetTryItOut
         entity = undefined;
-        var _closure1_slot22 = entity;
         var _closure1_slot23 = entity;
         var _closure1_slot24 = entity;
         var _closure1_slot25 = entity;
-        var _closure1_slot21 = entity;
+        var _closure1_slot26 = entity;
+        var _closure1_slot22 = entity;
         return entity;
     };
-    var _closure1_slot34 = offset;
-    verify = function() { // Original name: handleResetPendingPrimaryGuildChanges
+    var _closure1_slot35 = yankee;
+    offset = function() { // Original name: handleResetPendingLegacyUsernameDisabled
         entity = undefined;
         var _closure1_slot20 = entity;
         return entity;
     };
-    var _closure1_slot35 = verify;
+    var _closure1_slot36 = offset;
+    verify = function() { // Original name: handleResetPendingPrimaryGuildChanges
+        entity = undefined;
+        var _closure1_slot21 = entity;
+        return entity;
+    };
+    var _closure1_slot37 = verify;
     entity = global;
-    sizing = entity.Object;
-    option = sizing.defineProperty;
+    output = entity.Object;
+    option = output.defineProperty;
     michal = {};
     entity = true;
     michal['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(sizing)(zuuluu, entity, michal);
+    entity = option.bind(output)(zuuluu, entity, michal);
     entity = 0;
     michal = oscard[entity];
     entity = undefined;
@@ -154,9 +162,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = option.UserSettingsSections;
     var _closure1_slot9 = option;
     michal = michal.CLOSED;
-    var _closure1_slot26 = michal;
-    michal = {};
     var _closure1_slot27 = michal;
+    michal = {};
+    var _closure1_slot28 = michal;
     michal = 7;
     michal = oscard[michal];
     michal = golfie.bind(entity)(michal);
@@ -174,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot5;
                 verify = entity.bind(zuuluu)(michal);
                 michal = _closure1_slot4;
-                entity = _closure1_slot28;
+                entity = _closure1_slot29;
                 entity = entity.bind(zuuluu)();
                 if(entity) { _fun00004_ip = 69; continue _fun00003 }
  51:
@@ -207,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = 'getFormState';
         report['key'] = entity;
         entity = function() { // Original name: value
-            entity = _closure1_slot26;
+            entity = _closure1_slot27;
             return entity;
         };
         report['value'] = entity;
@@ -217,7 +225,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getErrors';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot27;
+            entity = _closure1_slot28;
             return entity;
         };
         report['value'] = golfie;
@@ -278,9 +286,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  112:
                 if(entity) { _fun00006_ip = 123; continue _fun00005 }
  115:
-                michal = _closure1_slot20;
-                entity = zuuluu !== michal;
+                tangon = _closure1_slot20;
+                entity = zuuluu !== tangon;
  123:
+                if(entity) { _fun00006_ip = 134; continue _fun00005 }
+ 126:
+                michal = _closure1_slot21;
+                entity = zuuluu !== michal;
+ 134:
                 return entity;
             }
         };
@@ -422,7 +435,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['pendingGlobalName'] = zuuluu;
             zuuluu = _closure1_slot14;
             entity['pendingNameplate'] = zuuluu;
-            michal = _closure1_slot20;
+            zuuluu = _closure1_slot20;
+            entity['pendingLegacyUsernameDisabled'] = zuuluu;
+            michal = _closure1_slot21;
             entity['pendingPrimaryGuildId'] = michal;
             return entity;
         };
@@ -432,7 +447,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getTryItOutThemeColors';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot21;
+            entity = _closure1_slot22;
             return entity;
         };
         report['value'] = golfie;
@@ -441,7 +456,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getTryItOutAvatar';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot22;
+            entity = _closure1_slot23;
             return entity;
         };
         report['value'] = golfie;
@@ -450,7 +465,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getTryItOutAvatarDecoration';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot23;
+            entity = _closure1_slot24;
             return entity;
         };
         report['value'] = golfie;
@@ -459,7 +474,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getTryItOutProfileEffectId';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot24;
+            entity = _closure1_slot25;
             return entity;
         };
         report['value'] = golfie;
@@ -468,7 +483,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getTryItOutBanner';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot25;
+            entity = _closure1_slot26;
             return entity;
         };
         report['value'] = golfie;
@@ -478,15 +493,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['key'] = golfie;
         oscard = function() { // Original name: value
             entity = {};
-            zuuluu = _closure1_slot21;
-            entity['tryItOutThemeColors'] = zuuluu;
             zuuluu = _closure1_slot22;
-            entity['tryItOutAvatar'] = zuuluu;
+            entity['tryItOutThemeColors'] = zuuluu;
             zuuluu = _closure1_slot23;
-            entity['tryItOutAvatarDecoration'] = zuuluu;
+            entity['tryItOutAvatar'] = zuuluu;
             zuuluu = _closure1_slot24;
+            entity['tryItOutAvatarDecoration'] = zuuluu;
+            zuuluu = _closure1_slot25;
             entity['tryItOutProfileEffectId'] = zuuluu;
-            michal = _closure1_slot25;
+            michal = _closure1_slot26;
             entity['tryItOutBanner'] = michal;
             return entity;
         };
@@ -500,12 +515,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option['displayName'] = michal;
     michal = 8;
     michal = oscard[michal];
-    echoed = golfie.bind(entity)(michal);
+    update = golfie.bind(entity)(michal);
     michal = {};
-    michal['USER_SETTINGS_ACCOUNT_INIT'] = kiloes;
-    michal['USER_SETTINGS_MODAL_INIT'] = kiloes;
-    michal['USER_SETTINGS_ACCOUNT_SUBMIT_SUCCESS'] = kiloes;
-    kiloes = function(argFoo) { // Original name: handleSectionChange
+    michal['USER_SETTINGS_ACCOUNT_INIT'] = sizing;
+    michal['USER_SETTINGS_MODAL_INIT'] = sizing;
+    michal['USER_SETTINGS_ACCOUNT_SUBMIT_SUCCESS'] = sizing;
+    sizing = function(argFoo) { // Original name: handleSectionChange
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             entity = argFoo;
@@ -515,7 +530,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = zuuluu === entity;
             if(!entity) { _fun00010_ip = 40; continue _fun00009 }
  28:
-            zuuluu = _closure1_slot29;
+            zuuluu = _closure1_slot30;
             michal = undefined;
             zuuluu = zuuluu.bind(michal)();
             entity = undefined;
@@ -523,40 +538,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    michal['USER_SETTINGS_MODAL_SET_SECTION'] = kiloes;
-    michal['USER_SETTINGS_ACCOUNT_CLOSE'] = backup;
-    backup = function() { // Original name: handleResetFullForm
-        zuuluu = _closure1_slot31;
+    michal['USER_SETTINGS_MODAL_SET_SECTION'] = sizing;
+    michal['USER_SETTINGS_ACCOUNT_CLOSE'] = kiloes;
+    kiloes = function() { // Original name: handleResetFullForm
+        zuuluu = _closure1_slot32;
         entity = undefined;
         zuuluu = zuuluu.bind(entity)();
-        zuuluu = _closure1_slot34;
+        zuuluu = _closure1_slot35;
         zuuluu = zuuluu.bind(entity)();
-        michal = _closure1_slot30;
+        michal = _closure1_slot31;
         michal = michal.bind(entity)();
         return entity;
     };
-    michal['USER_SETTINGS_ACCOUNT_RESET_AND_CLOSE_FORM'] = backup;
-    backup = function() { // Original name: handleFormSubmit
+    michal['USER_SETTINGS_ACCOUNT_RESET_AND_CLOSE_FORM'] = kiloes;
+    kiloes = function() { // Original name: handleFormSubmit
         entity = _closure1_slot8;
         entity = entity.SUBMITTING;
-        _closure1_slot26 = entity;
-        entity = {};
         _closure1_slot27 = entity;
+        entity = {};
+        _closure1_slot28 = entity;
         entity = undefined;
         return entity;
     };
-    michal['USER_SETTINGS_ACCOUNT_SUBMIT'] = backup;
-    backup = function(argFoo) { // Original name: handleFormSubmitFailure
+    michal['USER_SETTINGS_ACCOUNT_SUBMIT'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleFormSubmitFailure
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            zuuluu = _closure1_slot26;
+            zuuluu = _closure1_slot27;
             entity = _closure1_slot8;
             entity = entity.SUBMITTING;
             if(!(zuuluu === entity)) { _fun00012_ip = 60; continue _fun00011 }
  21:
             entity = _closure1_slot8;
             entity = entity.OPEN;
-            _closure1_slot26 = entity;
+            _closure1_slot27 = entity;
             entity = argFoo;
             entity = entity.errors;
             zuuluu = null;
@@ -564,7 +579,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  50:
             entity = {};
  52:
-            _closure1_slot27 = entity;
+            _closure1_slot28 = entity;
             entity = undefined;
             return entity;
  60:
@@ -572,41 +587,49 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    michal['USER_SETTINGS_ACCOUNT_SUBMIT_FAILURE'] = backup;
-    backup = function(argFoo) { // Original name: handleSetPendingAvatar
+    michal['USER_SETTINGS_ACCOUNT_SUBMIT_FAILURE'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleSetPendingAvatar
         entity = argFoo;
         entity = entity.avatar;
         _closure1_slot10 = entity;
         entity = undefined;
-        _closure1_slot22 = entity;
+        _closure1_slot23 = entity;
         return entity;
     };
-    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_AVATAR'] = backup;
-    backup = function(argFoo) { // Original name: handleSetPendingGlobalName
+    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_AVATAR'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleSetPendingGlobalName
         entity = argFoo;
         michal = entity.globalName;
         _closure1_slot11 = michal;
         entity = undefined;
         return entity;
     };
-    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_GLOBAL_NAME'] = backup;
-    backup = function(argFoo) { // Original name: handleSetPendingAvatarDecoration
+    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_GLOBAL_NAME'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleSetPendingLegacyUsernameDisabled
+        entity = argFoo;
+        michal = entity.legacyUsernameDisabled;
+        _closure1_slot20 = michal;
+        entity = undefined;
+        return entity;
+    };
+    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_LEGACY_USERNAME_DISABLED'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleSetPendingAvatarDecoration
         entity = argFoo;
         michal = entity.avatarDecoration;
         _closure1_slot12 = michal;
         entity = undefined;
         return entity;
     };
-    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_AVATAR_DECORATION'] = backup;
-    backup = function(argFoo) { // Original name: handleSetPendingNameplate
+    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_AVATAR_DECORATION'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleSetPendingNameplate
         entity = argFoo;
         michal = entity.nameplate;
         _closure1_slot14 = michal;
         entity = undefined;
         return entity;
     };
-    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_NAMEPLATE'] = backup;
-    backup = function(argFoo) { // Original name: handleSetSingleTryItOutCollectiblesItem
+    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_NAMEPLATE'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleSetSingleTryItOutCollectiblesItem
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = argFoo;
@@ -642,148 +665,149 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report.AVATAR_DECORATION;
             if(!(oscard === report)) { _fun00014_ip = 144; continue _fun00013 }
  112:
-            _closure1_slot24 = michal;
-            _closure1_slot23 = tangon;
+            _closure1_slot25 = michal;
+            _closure1_slot24 = tangon;
             _fun00014_ip = 144; continue _fun00013;
  122:
-            _closure1_slot23 = michal;
+            _closure1_slot24 = michal;
             report = michal == tangon;
             michal = undefined;
             if(report) { _fun00014_ip = 140; continue _fun00013 }
  135:
             michal = tangon.id;
  140:
-            _closure1_slot24 = michal;
+            _closure1_slot25 = michal;
  144:
             return entity;
         }
     };
-    michal['USER_SETTINGS_ACCOUNT_SET_SINGLE_TRY_IT_OUT_COLLECTIBLES_ITEM'] = backup;
-    backup = function(argFoo) { // Original name: handleSetPendingProfileEffectId
+    michal['USER_SETTINGS_ACCOUNT_SET_SINGLE_TRY_IT_OUT_COLLECTIBLES_ITEM'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleSetPendingProfileEffectId
         entity = argFoo;
         michal = entity.profileEffectId;
         _closure1_slot13 = michal;
         entity = undefined;
         return entity;
     };
-    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_PROFILE_EFFECT_ID'] = backup;
-    backup = function(argFoo) { // Original name: handleSetPendingBanner
+    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_PROFILE_EFFECT_ID'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleSetPendingBanner
         entity = argFoo;
         michal = entity.banner;
         _closure1_slot15 = michal;
         entity = undefined;
         return entity;
     };
-    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_BANNER'] = backup;
-    backup = function(argFoo) { // Original name: handleSetPendingBio
+    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_BANNER'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleSetPendingBio
         entity = argFoo;
         michal = entity.bio;
         _closure1_slot16 = michal;
         entity = undefined;
         return entity;
     };
-    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_BIO'] = backup;
-    backup = function(argFoo) { // Original name: handleSetPendingPronouns
+    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_BIO'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleSetPendingPronouns
         entity = argFoo;
         michal = entity.pronouns;
         _closure1_slot17 = michal;
         entity = undefined;
         return entity;
     };
-    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_PRONOUNS'] = backup;
-    backup = function(argFoo) { // Original name: handleSetPendingAccentColor
+    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_PRONOUNS'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleSetPendingAccentColor
         entity = argFoo;
         michal = entity.color;
         _closure1_slot18 = michal;
         entity = undefined;
         return entity;
     };
-    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_ACCENT_COLOR'] = backup;
-    backup = function(argFoo) { // Original name: handleSetPendingThemeColors
+    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_ACCENT_COLOR'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleSetPendingThemeColors
         entity = argFoo;
         michal = entity.themeColors;
         _closure1_slot19 = michal;
         entity = undefined;
         return entity;
     };
-    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_THEME_COLORS'] = backup;
-    backup = function(argFoo) { // Original name: handleSetTryItOutAvatar
+    michal['USER_SETTINGS_ACCOUNT_SET_PENDING_THEME_COLORS'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleSetTryItOutAvatar
         entity = argFoo;
         michal = entity.avatar;
-        _closure1_slot22 = michal;
-        entity = undefined;
-        return entity;
-    };
-    michal['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_AVATAR'] = backup;
-    backup = function(argFoo) { // Original name: handleSetTryItOutAvatarDecoration
-        entity = argFoo;
-        michal = entity.avatarDecoration;
         _closure1_slot23 = michal;
         entity = undefined;
         return entity;
     };
-    michal['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_AVATAR_DECORATION'] = backup;
-    backup = function(argFoo) { // Original name: handleSetTryItOutProfileEffectId
+    michal['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_AVATAR'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleSetTryItOutAvatarDecoration
         entity = argFoo;
-        michal = entity.profileEffectId;
+        michal = entity.avatarDecoration;
         _closure1_slot24 = michal;
         entity = undefined;
         return entity;
     };
-    michal['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_PROFILE_EFFECT_ID'] = backup;
-    backup = function(argFoo) { // Original name: handleSetTryItOutBanner
+    michal['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_AVATAR_DECORATION'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleSetTryItOutProfileEffectId
         entity = argFoo;
-        michal = entity.banner;
+        michal = entity.profileEffectId;
         _closure1_slot25 = michal;
         entity = undefined;
         return entity;
     };
-    michal['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_BANNER'] = backup;
-    backup = function(argFoo) { // Original name: handleSetTryItOutThemeColors
+    michal['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_PROFILE_EFFECT_ID'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleSetTryItOutBanner
         entity = argFoo;
-        michal = entity.themeColors;
-        _closure1_slot21 = michal;
+        michal = entity.banner;
+        _closure1_slot26 = michal;
         entity = undefined;
         return entity;
     };
-    michal['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_THEME_COLORS'] = backup;
-    backup = function(argFoo) { // Original name: handleSetTryItOutPreset
+    michal['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_BANNER'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleSetTryItOutThemeColors
+        entity = argFoo;
+        michal = entity.themeColors;
+        _closure1_slot22 = michal;
+        entity = undefined;
+        return entity;
+    };
+    michal['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_THEME_COLORS'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleSetTryItOutPreset
         entity = argFoo;
         tangon = entity.banner;
         zuuluu = entity.themeColors;
         michal = entity.avatarDecoration;
-        _closure1_slot25 = tangon;
-        _closure1_slot21 = zuuluu;
-        _closure1_slot23 = michal;
+        _closure1_slot26 = tangon;
+        _closure1_slot22 = zuuluu;
+        _closure1_slot24 = michal;
         entity = undefined;
         return entity;
     };
-    michal['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_PRESET'] = backup;
-    backup = function(argFoo) { // Original name: handleSetPendingPrimaryGuildId
+    michal['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_PRESET'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleSetPendingPrimaryGuildId
         entity = argFoo;
         michal = entity.primaryGuildId;
-        _closure1_slot20 = michal;
+        _closure1_slot21 = michal;
         entity = undefined;
         return entity;
     };
-    michal['USER_SETTINGS_SET_PENDING_PRIMARY_GUILD_ID'] = backup;
-    backup = function() { // Original name: handleClearErrors
+    michal['USER_SETTINGS_SET_PENDING_PRIMARY_GUILD_ID'] = kiloes;
+    kiloes = function() { // Original name: handleClearErrors
         entity = {};
-        _closure1_slot27 = entity;
+        _closure1_slot28 = entity;
         entity = undefined;
         return entity;
     };
-    michal['USER_SETTINGS_CLEAR_ERRORS'] = backup;
-    michal['USER_SETTINGS_RESET_PENDING_ACCOUNT_CHANGES'] = foxtra;
-    michal['USER_SETTINGS_RESET_PENDING_PROFILE_CHANGES'] = romeon;
-    michal['USER_SETTINGS_RESET_ALL_PENDING'] = yankee;
-    michal['USER_SETTINGS_RESET_ALL_TRY_IT_OUT'] = offset;
-    offset = function() { // Original name: handleResetPendingAvatarDecoration
+    michal['USER_SETTINGS_CLEAR_ERRORS'] = kiloes;
+    michal['USER_SETTINGS_RESET_PENDING_ACCOUNT_CHANGES'] = backup;
+    michal['USER_SETTINGS_RESET_PENDING_PROFILE_CHANGES'] = foxtra;
+    michal['USER_SETTINGS_RESET_ALL_PENDING'] = romeon;
+    michal['USER_SETTINGS_RESET_ALL_TRY_IT_OUT'] = yankee;
+    yankee = function() { // Original name: handleResetPendingAvatarDecoration
         entity = undefined;
         _closure1_slot12 = entity;
         return entity;
     };
-    michal['USER_SETTINGS_RESET_PENDING_AVATAR_DECORATION'] = offset;
+    michal['USER_SETTINGS_RESET_PENDING_AVATAR_DECORATION'] = yankee;
+    michal['USER_SETTINGS_ACCOUNT_RESET_PENDING_LEGACY_USERNAME_DISABLED'] = offset;
     michal['USER_SETTINGS_RESET_PENDING_PRIMARY_GUILD_CHANGES'] = verify;
     tangon = function() { // Original name: handleLogout
         entity = undefined;
@@ -793,9 +817,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal['LOGOUT'] = tangon;
     tangon = option.prototype;
     tangon = Object.create(tangon, {constructor: {value: option}});
-    update = tangon;
-    result = michal;
-    michal = new update[option](echoed, result, output);
+    source = tangon;
+    echoed = michal;
+    michal = new source[option](update, echoed, result);
     michal = michal instanceof Object ? michal : tangon;
     tangon = 9;
     tangon = oscard[tangon];

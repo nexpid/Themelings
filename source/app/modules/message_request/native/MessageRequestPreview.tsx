@@ -188,20 +188,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             zuuluu = option.bind(backup)(zuuluu, golfie);
-            if(michal) { _fun00002_ip = 900; continue _fun00001 }
+            if(michal) { _fun00002_ip = 984; continue _fun00001 }
  209:
             zuuluu = null;
             michal = false;
             golfie = null;
-            if(!yankee) { _fun00002_ip = 959; continue _fun00001 }
+            if(!yankee) { _fun00002_ip = 1043; continue _fun00001 }
  221:
             if(!(zuuluu != romeon)) { _fun00002_ip = 231; continue _fun00001 }
  225:
-            if(offset) { _fun00002_ip = 839; continue _fun00001 }
+            if(offset) { _fun00002_ip = 923; continue _fun00001 }
  231:
             if(!(zuuluu != romeon)) { _fun00002_ip = 241; continue _fun00001 }
  235:
-            if(verify) { _fun00002_ip = 778; continue _fun00001 }
+            if(verify) { _fun00002_ip = 862; continue _fun00001 }
  241:
             offset = zuuluu == romeon;
             verify = undefined;
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  259:
             offset = romeon.content;
             verify = '';
-            if(!(verify === offset)) { _fun00002_ip = 622; continue _fun00001 }
+            if(!(verify === offset)) { _fun00002_ip = 706; continue _fun00001 }
  275:
             if(!(zuuluu == romeon)) { _fun00002_ip = 343; continue _fun00001 }
  279:
@@ -230,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.0KfDxM;
             golfie = offset.bind(yankee)(verify);
             michal = false;
-            _fun00002_ip = 959; continue _fun00001;
+            _fun00002_ip = 1043; continue _fun00001;
  343:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -241,14 +241,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.bind(offset)(romeon);
             offset = verify.length;
             verify = 0;
-            if(!(!(offset > verify))) { _fun00002_ip = 555; continue _fun00001 }
+            if(!(!(offset > verify))) { _fun00002_ip = 639; continue _fun00001 }
  388:
             verify = romeon.interaction;
-            if(!(zuuluu == verify)) { _fun00002_ip = 496; continue _fun00001 }
- 398:
+            if(!(zuuluu == verify)) { _fun00002_ip = 580; continue _fun00001 }
+ 401:
             offset = romeon.hasFlag;
             verify = _closure1_slot7;
             verify = verify.IS_VOICE_MESSAGE;
+            verify = offset.bind(romeon)(verify);
+            if(verify) { _fun00002_ip = 521; continue _fun00001 }
+ 425:
+            offset = romeon.hasFlag;
+            verify = _closure1_slot7;
+            verify = verify.IS_COMPONENTS_V2;
             verify = offset.bind(romeon)(verify);
             kiloes = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -260,17 +266,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = sizing[offset];
             offset = kiloes.bind(tangon)(offset);
             offset = offset.t;
-            if(verify) { _fun00002_ip = 481; continue _fun00001 }
- 466:
+            if(verify) { _fun00002_ip = 508; continue _fun00001 }
+ 493:
             verify = offset.LoMGlp;
             verify = yankee.bind(backup)(verify);
-            _fun00002_ip = 494; continue _fun00001;
- 481:
+            _fun00002_ip = 519; continue _fun00001;
+ 508:
+            offset = offset.Xxm5i4;
+            verify = yankee.bind(backup)(offset);
+ 519:
+            _fun00002_ip = 578; continue _fun00001;
+ 521:
+            kiloes = _closure1_slot0;
+            sizing = _closure1_slot2;
+            offset = 12;
+            yankee = sizing[offset];
+            yankee = kiloes.bind(tangon)(yankee);
+            backup = yankee.intl;
+            yankee = backup.string;
+            offset = sizing[offset];
+            offset = kiloes.bind(tangon)(offset);
+            offset = offset.t;
             offset = offset.XC3A5+;
             verify = yankee.bind(backup)(offset);
- 494:
-            _fun00002_ip = 553; continue _fun00001;
- 496:
+ 578:
+            _fun00002_ip = 637; continue _fun00001;
+ 580:
             kiloes = _closure1_slot0;
             sizing = _closure1_slot2;
             offset = 12;
@@ -283,9 +304,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.t;
             offset = offset.E+6SSU;
             verify = yankee.bind(backup)(offset);
- 553:
-            _fun00002_ip = 612; continue _fun00001;
- 555:
+ 637:
+            _fun00002_ip = 696; continue _fun00001;
+ 639:
             kiloes = _closure1_slot0;
             sizing = _closure1_slot2;
             offset = 12;
@@ -298,11 +319,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.t;
             offset = offset.zuI+b2;
             verify = yankee.bind(backup)(offset);
- 612:
+ 696:
             golfie = verify;
             michal = false;
-            _fun00002_ip = 959; continue _fun00001;
- 622:
+            _fun00002_ip = 1043; continue _fun00001;
+ 706:
             offset = _closure1_slot1;
             yankee = _closure1_slot2;
             verify = 13;
@@ -318,17 +339,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = yankee.Array;
             yankee = romeon.isArray;
             yankee = yankee.bind(romeon)(verify);
-            if(!yankee) { _fun00002_ip = 699; continue _fun00001 }
- 688:
+            if(!yankee) { _fun00002_ip = 783; continue _fun00001 }
+ 772:
             romeon = verify.length;
             yankee = 0;
-            if(!(yankee !== romeon)) { _fun00002_ip = 714; continue _fun00001 }
- 699:
+            if(!(yankee !== romeon)) { _fun00002_ip = 798; continue _fun00001 }
+ 783:
             zuuluu = zuuluu == verify;
             michal = true;
             golfie = verify;
-            if(!zuuluu) { _fun00002_ip = 959; continue _fun00001 }
- 714:
+            if(!zuuluu) { _fun00002_ip = 1043; continue _fun00001 }
+ 798:
             yankee = _closure1_slot0;
             romeon = _closure1_slot2;
             zuuluu = 12;
@@ -342,8 +363,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.262oPD;
             golfie = verify.bind(offset)(zuuluu);
             michal = false;
-            _fun00002_ip = 959; continue _fun00001;
- 778:
+            _fun00002_ip = 1043; continue _fun00001;
+ 862:
             yankee = _closure1_slot0;
             romeon = _closure1_slot2;
             zuuluu = 12;
@@ -357,8 +378,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.uxrh1N;
             golfie = verify.bind(offset)(zuuluu);
             michal = false;
-            _fun00002_ip = 959; continue _fun00001;
- 839:
+            _fun00002_ip = 1043; continue _fun00001;
+ 923:
             yankee = _closure1_slot0;
             romeon = _closure1_slot2;
             zuuluu = 12;
@@ -372,8 +393,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.WPe+xM;
             golfie = verify.bind(offset)(zuuluu);
             michal = false;
-            _fun00002_ip = 959; continue _fun00001;
- 900:
+            _fun00002_ip = 1043; continue _fun00001;
+ 984:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
             zuuluu = 12;
@@ -387,14 +408,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.BZHld3;
             golfie = option.bind(verify)(zuuluu);
             michal = false;
- 959:
-            if(michal) { _fun00002_ip = 970; continue _fun00001 }
- 962:
+ 1043:
+            if(michal) { _fun00002_ip = 1054; continue _fun00001 }
+ 1046:
             option = entity.systemContent;
-            _fun00002_ip = 976; continue _fun00001;
- 970:
+            _fun00002_ip = 1060; continue _fun00001;
+ 1054:
             option = entity.messageContent;
- 976:
+ 1060:
             zuuluu = _closure1_slot8;
             michal = _closure1_slot4;
             entity = {};

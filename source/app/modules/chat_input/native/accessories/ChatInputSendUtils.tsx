@@ -187,8 +187,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             michal = argFoo;
-            foxtra = michal.text;
-            var _closure2_slot0 = foxtra;
+            kiloes = michal.text;
+            var _closure2_slot0 = kiloes;
             romeon = michal.parsedMessage;
             yankee = michal.tts;
             entity = undefined;
@@ -202,11 +202,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot1 = offset;
             golfie = michal.chatInputRef;
             zuuluu = michal.hasAttachmentsToUpload;
-            kiloes = michal.pendingReply;
+            backup = michal.pendingReply;
             report = michal.analyticsLocations;
             var _closure2_slot2 = entity;
             option = '';
-            if(!(option === foxtra)) { _fun00008_ip = 154; continue _fun00007 }
+            if(!(option === kiloes)) { _fun00008_ip = 154; continue _fun00007 }
  90:
             tangon = _closure1_slot1;
             verify = _closure1_slot2;
@@ -215,30 +215,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = tangon.bind(entity)(michal);
             tangon = verify.addBreadcrumb;
             michal = {};
-            backup = global;
-            backup = backup.HermesInternal;
-            sizing = backup.concat;
-            backup = 'Empty text from ';
-            backup = sizing.bind(backup)(output);
-            michal['message'] = backup;
+            foxtra = global;
+            foxtra = foxtra.HermesInternal;
+            sizing = foxtra.concat;
+            foxtra = 'Empty text from ';
+            foxtra = sizing.bind(foxtra)(output);
+            michal['message'] = foxtra;
             michal = tangon.bind(verify)(michal);
  154:
             verify = _closure1_slot1;
-            backup = _closure1_slot2;
+            foxtra = _closure1_slot2;
             tangon = 9;
-            tangon = backup[tangon];
+            tangon = foxtra[tangon];
             sizing = verify.bind(entity)(tangon);
-            backup = sizing.saveDraft;
+            foxtra = sizing.saveDraft;
             verify = offset.id;
             tangon = _closure1_slot5;
             tangon = tangon.ChannelMessage;
-            tangon = backup.bind(sizing)(verify, option, tangon);
-            backup = golfie.current;
+            tangon = foxtra.bind(sizing)(verify, option, tangon);
+            foxtra = golfie.current;
             tangon = null;
-            if(!(tangon != backup)) { _fun00008_ip = 226; continue _fun00007 }
+            if(!(tangon != foxtra)) { _fun00008_ip = 226; continue _fun00007 }
  216:
-            verify = backup.clearText;
-            verify = verify.bind(backup)();
+            verify = foxtra.clearText;
+            verify = verify.bind(foxtra)();
  226:
             verify = golfie.current;
             if(!(tangon != verify)) { _fun00008_ip = 245; continue _fun00007 }
@@ -247,17 +247,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = golfie.bind(verify)();
  245:
             verify = _closure1_slot0;
-            backup = _closure1_slot2;
+            foxtra = _closure1_slot2;
             golfie = 10;
-            golfie = backup[golfie];
-            backup = verify.bind(entity)(golfie);
-            verify = backup.handleLegacyCommands;
+            golfie = foxtra[golfie];
+            foxtra = verify.bind(entity)(golfie);
+            verify = foxtra.handleLegacyCommands;
             golfie = {};
             golfie['channel'] = offset;
             sizing = false;
             golfie['isEdit'] = sizing;
-            sizing = verify.bind(backup)(foxtra, golfie);
-            backup = foxtra;
+            sizing = verify.bind(foxtra)(kiloes, golfie);
+            foxtra = kiloes;
             golfie = romeon;
             verify = yankee;
             if(!(tangon != sizing)) { _fun00008_ip = 351; continue _fun00007 }
@@ -267,7 +267,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  312:
             output = sizing.content;
             _closure2_slot0 = output;
-            foxtra = output;
+            kiloes = output;
             romeon = undefined;
  326:
             output = sizing.tts;
@@ -276,82 +276,83 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = sizing.tts;
  342:
             verify = yankee;
-            backup = foxtra;
+            foxtra = kiloes;
             golfie = romeon;
  351:
             if(!(tangon == golfie)) { _fun00008_ip = 387; continue _fun00007 }
  355:
             romeon = _closure1_slot1;
-            foxtra = _closure1_slot2;
+            kiloes = _closure1_slot2;
             yankee = 11;
-            yankee = foxtra[yankee];
+            yankee = kiloes[yankee];
             romeon = romeon.bind(entity)(yankee);
             yankee = romeon.parse;
-            golfie = yankee.bind(romeon)(offset, backup);
+            golfie = yankee.bind(romeon)(offset, foxtra);
  387:
             golfie['tts'] = verify;
-            foxtra = _closure1_slot7;
-            romeon = foxtra.getUploads;
-            yankee = offset.id;
-            verify = _closure1_slot5;
-            verify = verify.ChannelMessage;
-            verify = romeon.bind(foxtra)(yankee, verify);
-            _closure2_slot2 = verify;
-            if(zuuluu) { _fun00008_ip = 603; continue _fun00007 }
- 434:
-            yankee = _closure1_slot0;
-            romeon = _closure1_slot2;
+            if(zuuluu) { _fun00008_ip = 567; continue _fun00007 }
+ 399:
+            verify = _closure1_slot0;
+            yankee = _closure1_slot2;
             zuuluu = 12;
-            zuuluu = romeon[zuuluu];
-            romeon = yankee.bind(entity)(zuuluu);
-            yankee = romeon.deletePendingReply;
+            zuuluu = yankee[zuuluu];
+            yankee = verify.bind(entity)(zuuluu);
+            verify = yankee.deletePendingReply;
             zuuluu = offset.id;
-            zuuluu = yankee.bind(romeon)(zuuluu);
+            zuuluu = verify.bind(yankee)(zuuluu);
             zuuluu = golfie.content;
-            if(!(option === zuuluu)) { _fun00008_ip = 532; continue _fun00007 }
- 479:
-            yankee = _closure1_slot1;
-            romeon = _closure1_slot2;
+            if(!(option === zuuluu)) { _fun00008_ip = 497; continue _fun00007 }
+ 444:
+            verify = _closure1_slot1;
+            yankee = _closure1_slot2;
             zuuluu = 8;
-            zuuluu = romeon[zuuluu];
-            romeon = yankee.bind(entity)(zuuluu);
-            yankee = romeon.addBreadcrumb;
+            zuuluu = yankee[zuuluu];
+            yankee = verify.bind(entity)(zuuluu);
+            verify = yankee.addBreadcrumb;
             zuuluu = {};
-            foxtra = 'Parsed empty message content from text';
-            zuuluu['message'] = foxtra;
-            foxtra = {};
-            foxtra['text'] = backup;
-            zuuluu['data'] = foxtra;
-            zuuluu = yankee.bind(romeon)(zuuluu);
- 532:
-            backup = _closure1_slot1;
-            sizing = _closure1_slot2;
+            romeon = 'Parsed empty message content from text';
+            zuuluu['message'] = romeon;
+            romeon = {};
+            romeon['text'] = foxtra;
+            zuuluu['data'] = romeon;
+            zuuluu = verify.bind(yankee)(zuuluu);
+ 497:
+            foxtra = _closure1_slot1;
+            kiloes = _closure1_slot2;
             zuuluu = 13;
-            yankee = sizing[zuuluu];
-            foxtra = backup.bind(entity)(yankee);
-            romeon = foxtra.sendMessage;
-            yankee = offset.id;
-            zuuluu = sizing[zuuluu];
-            backup = backup.bind(entity)(zuuluu);
-            zuuluu = backup.getSendMessageOptionsForReply;
-            echoed = zuuluu.bind(backup)(kiloes);
-            vacuum = foxtra;
-            ctrled = yankee;
+            verify = kiloes[zuuluu];
+            romeon = foxtra.bind(entity)(verify);
+            yankee = romeon.sendMessage;
+            verify = offset.id;
+            zuuluu = kiloes[zuuluu];
+            foxtra = foxtra.bind(entity)(zuuluu);
+            zuuluu = foxtra.getSendMessageOptionsForReply;
+            echoed = zuuluu.bind(foxtra)(backup);
+            vacuum = romeon;
+            ctrled = verify;
             source = golfie;
             update = undefined;
-            zuuluu = vacuum[romeon](ctrled, source, update, echoed, result);
-            _fun00008_ip = 742; continue _fun00007;
- 603:
-            if(!(tangon != verify)) { _fun00008_ip = 742; continue _fun00007 }
- 610:
+            zuuluu = vacuum[yankee](ctrled, source, update, echoed, result);
+            zuuluu = undefined;
+            return zuuluu;
+ 567:
+            romeon = _closure1_slot7;
+            yankee = romeon.getUploads;
+            verify = offset.id;
+            zuuluu = _closure1_slot5;
+            zuuluu = zuuluu.ChannelMessage;
+            verify = yankee.bind(romeon)(verify, zuuluu);
+            _closure2_slot2 = verify;
+            if(!(tangon != verify)) { _fun00008_ip = 741; continue _fun00007 }
+ 609:
             yankee = _closure1_slot4;
             zuuluu = yankee.getToken;
             zuuluu = zuuluu.bind(yankee)();
             tangon = tangon != zuuluu;
-            if(!tangon) { _fun00008_ip = 634; continue _fun00007 }
- 631:
+            if(!tangon) { _fun00008_ip = 633; continue _fun00007 }
+ 630:
             option = zuuluu;
- 634:
+ 633:
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
             yankee = 14;
@@ -405,7 +406,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['maxSizeCallback'] = oscard;
             michal['analyticsLocations'] = report;
             michal = zuuluu.bind(tangon)(michal);
- 742:
+ 741:
             return entity;
         }
     };

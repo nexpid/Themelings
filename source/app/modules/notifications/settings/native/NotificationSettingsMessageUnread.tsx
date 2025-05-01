@@ -123,16 +123,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = null;
             config = source == sequen;
             ctrled = undefined;
-            if(config) { _fun00002_ip = 492; continue _fun00001 }
- 487:
+            if(config) { _fun00002_ip = 494; continue _fun00001 }
+ 489:
             ctrled = sequen.label;
- 492:
+ 494:
             sequen = source != ctrled;
             source = 'unset';
-            if(!sequen) { _fun00002_ip = 506; continue _fun00001 }
- 503:
+            if(!sequen) { _fun00002_ip = 508; continue _fun00001 }
+ 505:
             source = ctrled;
- 506:
+ 508:
             backup['children'] = source;
             backup = echoed.bind(tangon)(kiloes, backup);
             romeon[1] = backup;

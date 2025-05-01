@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = tangon.getPendingSettings;
             michal = michal.bind(tangon)();
             backup = null;
-            if(!(backup != michal)) { _fun00004_ip = 285; continue _fun00003 }
+            if(!(backup != michal)) { _fun00004_ip = 289; continue _fun00003 }
  28:
             report = _closure1_slot1;
             oscard = _closure1_slot2;
@@ -262,7 +262,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             entity = zuuluu.bind(tangon)(michal, entity);
- 285:
+ 289:
             entity = undefined;
             return entity;
         }

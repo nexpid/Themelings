@@ -182,12 +182,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon.bind(report)(zuuluu);
             zuuluu = tangon.isAnimatedImageSource;
             zuuluu = zuuluu.bind(tangon)(michal);
-            if(zuuluu) { _fun00002_ip = 234; continue _fun00001 }
- 220:
+            if(zuuluu) { _fun00002_ip = 236; continue _fun00001 }
+ 222:
             michal = michal.isGIFV;
             entity = null;
-            if(!michal) { _fun00002_ip = 479; continue _fun00001 }
- 234:
+            if(!michal) { _fun00002_ip = 481; continue _fun00001 }
+ 236:
             tangon = _closure1_slot4;
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
@@ -206,30 +206,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = foxtra[option];
             option = verify.bind(report)(option);
             verify = option.t;
-            if(oscard) { _fun00002_ip = 328; continue _fun00001 }
- 313:
+            if(oscard) { _fun00002_ip = 330; continue _fun00001 }
+ 315:
             option = verify.nIH0v7;
             option = yankee.bind(romeon)(option);
-            _fun00002_ip = 341; continue _fun00001;
- 328:
+            _fun00002_ip = 343; continue _fun00001;
+ 330:
             verify = verify.5/NS7+;
             option = yankee.bind(romeon)(verify);
- 341:
+ 343:
             michal['accessibilityLabel'] = option;
             michal['onPress'] = golfie;
             verify = _closure1_slot4;
             option = _closure1_slot0;
             romeon = _closure1_slot2;
-            if(oscard) { _fun00002_ip = 404; continue _fun00001 }
- 364:
+            if(oscard) { _fun00002_ip = 406; continue _fun00001 }
+ 366:
             oscard = 12;
             oscard = romeon[oscard];
             oscard = option.bind(report)(oscard);
             golfie = oscard.StarOutlineIcon;
             oscard = {'color': 'interactive-normal', 'size': 'md'};
             oscard = verify.bind(report)(golfie, oscard);
-            _fun00002_ip = 469; continue _fun00001;
- 404:
+            _fun00002_ip = 471; continue _fun00001;
+ 406:
             golfie = 10;
             golfie = romeon[golfie];
             golfie = option.bind(report)(golfie);
@@ -245,10 +245,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = 'md';
             golfie['size'] = offset;
             oscard = verify.bind(report)(option, golfie);
- 469:
+ 471:
             michal['icon'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 479:
+ 481:
             return entity;
         }
     };

@@ -225,10 +225,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[2] = option;
             entity['style'] = report;
             report = 'none';
-            if(!golfie) { _fun00002_ip = 384; continue _fun00001 }
- 380:
-            report = 'auto';
+            if(!golfie) { _fun00002_ip = 388; continue _fun00001 }
  384:
+            report = 'auto';
+ 388:
             entity['pointerEvents'] = report;
             option = _closure1_slot6;
             foxtra = _closure1_slot1;

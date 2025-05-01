@@ -183,10 +183,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.t;
             zuuluu = zuuluu.BOi07O;
             golfie = oscard.bind(golfie)(zuuluu);
-            zuuluu = 19;
-            zuuluu = foxtra[zuuluu];
-            option = report.bind(tangon)(zuuluu);
-            oscard = option.hasFlag;
+            option = 19;
+            zuuluu = foxtra[option];
+            sizing = report.bind(tangon)(zuuluu);
+            oscard = sizing.hasFlag;
             report = michal.message;
             offset = null;
             kiloes = offset == report;
@@ -195,29 +195,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  188:
             zuuluu = report.flags;
  193:
-            sizing = offset != zuuluu;
+            result = offset != zuuluu;
             kiloes = 0;
             report = 0;
-            if(!sizing) { _fun00008_ip = 207; continue _fun00007 }
+            if(!result) { _fun00008_ip = 207; continue _fun00007 }
  204:
             report = zuuluu;
  207:
             zuuluu = _closure1_slot16;
             zuuluu = zuuluu.IS_VOICE_MESSAGE;
-            oscard = oscard.bind(option)(report, zuuluu);
+            sizing = oscard.bind(sizing)(report, zuuluu);
             zuuluu = michal.message;
             report = offset == zuuluu;
-            result = undefined;
+            source = undefined;
             if(report) { _fun00008_ip = 242; continue _fun00007 }
  237:
-            result = zuuluu.type;
+            source = zuuluu.type;
  242:
             zuuluu = _closure1_slot18;
-            sizing = zuuluu.POLL_RESULT;
+            result = zuuluu.POLL_RESULT;
             report = michal.message;
-            option = offset == report;
+            oscard = offset == report;
             zuuluu = undefined;
-            if(option) { _fun00008_ip = 272; continue _fun00007 }
+            if(oscard) { _fun00008_ip = 272; continue _fun00007 }
  266:
             zuuluu = report.attachments;
  272:
@@ -225,63 +225,98 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  276:
             zuuluu = new Array(0);
  280:
-            report = zuuluu.length;
-            option = michal.message;
-            source = offset == option;
+            oscard = zuuluu.length;
+            report = michal.message;
+            ctrled = offset == report;
             zuuluu = undefined;
-            if(source) { _fun00008_ip = 305; continue _fun00007 }
+            if(ctrled) { _fun00008_ip = 305; continue _fun00007 }
  299:
-            zuuluu = option.stickers;
+            zuuluu = report.stickers;
  305:
             if(!(offset == zuuluu)) { _fun00008_ip = 313; continue _fun00007 }
  309:
             zuuluu = new Array(0);
  313:
-            option = zuuluu.length;
-            source = michal.message;
-            ctrled = offset == source;
+            report = zuuluu.length;
+            ctrled = michal.message;
+            vacuum = offset == ctrled;
             zuuluu = undefined;
-            if(ctrled) { _fun00008_ip = 338; continue _fun00007 }
+            if(vacuum) { _fun00008_ip = 338; continue _fun00007 }
  332:
-            zuuluu = source.embeds;
+            zuuluu = ctrled.embeds;
  338:
             if(!(offset == zuuluu)) { _fun00008_ip = 346; continue _fun00007 }
  342:
             zuuluu = new Array(0);
  346:
             zuuluu = zuuluu.length;
-            if(!(result !== sizing)) { _fun00008_ip = 588; continue _fun00007 }
+            if(!(source !== result)) { _fun00008_ip = 715; continue _fun00007 }
  358:
-            if(!(!(option > kiloes))) { _fun00008_ip = 524; continue _fun00007 }
+            if(!(!(report > kiloes))) { _fun00008_ip = 651; continue _fun00007 }
  365:
-            if(oscard) { _fun00008_ip = 457; continue _fun00007 }
- 368:
-            report = report > kiloes;
-            if(report) { _fun00008_ip = 379; continue _fun00007 }
- 375:
-            report = zuuluu > kiloes;
+            result = _closure1_slot0;
+            report = _closure1_slot3;
+            if(sizing) { _fun00008_ip = 592; continue _fun00007 }
  379:
+            option = report[option];
+            ctrled = result.bind(tangon)(option);
+            source = ctrled.hasFlag;
+            sizing = michal.message;
+            vacuum = offset == sizing;
+            option = undefined;
+            if(vacuum) { _fun00008_ip = 413; continue _fun00007 }
+ 408:
+            option = sizing.flags;
+ 413:
+            vacuum = offset != option;
+            sizing = 0;
+            if(!vacuum) { _fun00008_ip = 425; continue _fun00007 }
+ 422:
+            sizing = option;
+ 425:
+            option = _closure1_slot16;
+            option = option.IS_COMPONENTS_V2;
+            option = source.bind(ctrled)(sizing, option);
+            if(option) { _fun00008_ip = 533; continue _fun00007 }
+ 444:
+            option = oscard > kiloes;
+            if(option) { _fun00008_ip = 455; continue _fun00007 }
+ 451:
+            option = zuuluu > kiloes;
+ 455:
             zuuluu = undefined;
             oscard = golfie;
-            if(!report) { _fun00008_ip = 691; continue _fun00007 }
- 390:
-            result = _closure1_slot0;
-            report = _closure1_slot3;
-            option = report[update];
-            option = result.bind(tangon)(option);
-            sizing = option.intl;
-            option = sizing.string;
-            report = report[update];
-            report = result.bind(tangon)(report);
-            report = report.t;
-            report = report.JAKsMz;
-            oscard = option.bind(sizing)(report);
-            option = _closure1_slot29;
-            zuuluu = option.ATTACHMENT;
-            _fun00008_ip = 691; continue _fun00007;
- 457:
-            result = _closure1_slot0;
-            report = _closure1_slot3;
+            if(!option) { _fun00008_ip = 818; continue _fun00007 }
+ 466:
+            ctrled = _closure1_slot0;
+            option = _closure1_slot3;
+            sizing = option[update];
+            sizing = ctrled.bind(tangon)(sizing);
+            source = sizing.intl;
+            sizing = source.string;
+            option = option[update];
+            option = ctrled.bind(tangon)(option);
+            option = option.t;
+            option = option.JAKsMz;
+            oscard = sizing.bind(source)(option);
+            sizing = _closure1_slot29;
+            zuuluu = sizing.ATTACHMENT;
+            _fun00008_ip = 818; continue _fun00007;
+ 533:
+            ctrled = _closure1_slot0;
+            option = _closure1_slot3;
+            sizing = option[update];
+            sizing = ctrled.bind(tangon)(sizing);
+            source = sizing.intl;
+            sizing = source.string;
+            option = option[update];
+            option = ctrled.bind(tangon)(option);
+            option = option.t;
+            option = option.Xxm5i4;
+            oscard = sizing.bind(source)(option);
+            zuuluu = undefined;
+            _fun00008_ip = 818; continue _fun00007;
+ 592:
             option = report[update];
             option = result.bind(tangon)(option);
             sizing = option.intl;
@@ -293,8 +328,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(sizing)(report);
             option = _closure1_slot29;
             zuuluu = option.VOICE_MESSAGE;
-            _fun00008_ip = 691; continue _fun00007;
- 524:
+            _fun00008_ip = 818; continue _fun00007;
+ 651:
             result = _closure1_slot0;
             report = _closure1_slot3;
             option = report[update];
@@ -308,20 +343,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(sizing)(report);
             option = _closure1_slot29;
             zuuluu = option.STICKER;
-            _fun00008_ip = 691; continue _fun00007;
- 588:
+            _fun00008_ip = 818; continue _fun00007;
+ 715:
             report = michal.message;
             sizing = offset == report;
             option = undefined;
-            if(sizing) { _fun00008_ip = 621; continue _fun00007 }
- 602:
+            if(sizing) { _fun00008_ip = 748; continue _fun00007 }
+ 729:
             report = report.embeds;
             sizing = offset == report;
             option = undefined;
-            if(sizing) { _fun00008_ip = 621; continue _fun00007 }
- 617:
+            if(sizing) { _fun00008_ip = 748; continue _fun00007 }
+ 744:
             option = report[kiloes];
- 621:
+ 748:
             kiloes = _closure1_slot1;
             sizing = _closure1_slot3;
             report = 20;
@@ -331,8 +366,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = offset != option;
             zuuluu = undefined;
             oscard = golfie;
-            if(!report) { _fun00008_ip = 691; continue _fun00007 }
- 658:
+            if(!report) { _fun00008_ip = 818; continue _fun00007 }
+ 785:
             golfie = _closure1_slot0;
             kiloes = _closure1_slot3;
             report = 21;
@@ -341,25 +376,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = golfie.formatPollResultNotificationCenterText;
             oscard = report.bind(golfie)(option);
             zuuluu = undefined;
- 691:
+ 818:
             michal = michal.message;
             report = offset == michal;
             golfie = undefined;
-            if(report) { _fun00008_ip = 710; continue _fun00007 }
- 705:
+            if(report) { _fun00008_ip = 837; continue _fun00007 }
+ 832:
             golfie = michal.content;
- 710:
+ 837:
             report = offset != golfie;
-            if(!report) { _fun00008_ip = 725; continue _fun00007 }
- 717:
+            if(!report) { _fun00008_ip = 852; continue _fun00007 }
+ 844:
             michal = '';
             report = michal !== golfie;
- 725:
+ 852:
             michal = {};
-            if(!report) { _fun00008_ip = 733; continue _fun00007 }
- 730:
+            if(!report) { _fun00008_ip = 860; continue _fun00007 }
+ 857:
             oscard = golfie;
- 733:
+ 860:
             michal['content'] = oscard;
             report = !report;
             michal['isSystemMessage'] = report;
@@ -485,29 +520,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = golfie.bind(tangon)(oscard);
             golfie = oscard.Text;
             oscard = {};
-            if(yankee) { _fun00008_ip = 1036; continue _fun00007 }
- 1028:
+            if(yankee) { _fun00008_ip = 1163; continue _fun00007 }
+ 1155:
             foxtra = output.messagePreviewTextV2NotAcked;
-            _fun00008_ip = 1042; continue _fun00007;
- 1036:
+            _fun00008_ip = 1169; continue _fun00007;
+ 1163:
             foxtra = output.messagePreviewTextV2Acked;
- 1042:
+ 1169:
             yankee = new Array(2);
             yankee[0] = foxtra;
             foxtra = undefined;
-            if(!vacuum) { _fun00008_ip = 1061; continue _fun00007 }
- 1055:
+            if(!vacuum) { _fun00008_ip = 1188; continue _fun00007 }
+ 1182:
             foxtra = output.messagePreviewSystemTextV2;
- 1061:
+ 1188:
             yankee[1] = foxtra;
             oscard['style'] = yankee;
             yankee = 'redesign/message-preview/medium';
             oscard['variant'] = yankee;
             yankee = 10;
-            if(!romeon) { _fun00008_ip = 1088; continue _fun00007 }
- 1085:
+            if(!romeon) { _fun00008_ip = 1215; continue _fun00007 }
+ 1212:
             yankee = 3;
- 1088:
+ 1215:
             oscard['lineClamp'] = yankee;
             romeon = _closure1_slot0;
             foxtra = _closure1_slot3;
@@ -523,11 +558,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = verify.message;
             result = offset == sizing;
             verify = undefined;
-            if(result) { _fun00008_ip = 1162; continue _fun00007 }
- 1151:
+            if(result) { _fun00008_ip = 1289; continue _fun00007 }
+ 1278:
             sizing = sizing.author;
             verify = sizing.id;
- 1162:
+ 1289:
             yankee['authorId'] = verify;
             verify = {};
             verify['shouldFilterKeywords'] = kiloes;
@@ -535,8 +570,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = new Array(2);
             verify[0] = yankee;
             offset = offset != ctrled;
-            if(!offset) { _fun00008_ip = 1310; continue _fun00007 }
- 1196:
+            if(!offset) { _fun00008_ip = 1437; continue _fun00007 }
+ 1323:
             foxtra = _closure1_slot20;
             romeon = _closure1_slot7;
             yankee = {};
@@ -563,7 +598,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = sizing.bind(tangon)(kiloes, backup);
             yankee['children'] = backup;
             offset = foxtra.bind(tangon)(romeon, yankee);
- 1310:
+ 1437:
             verify[1] = offset;
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);

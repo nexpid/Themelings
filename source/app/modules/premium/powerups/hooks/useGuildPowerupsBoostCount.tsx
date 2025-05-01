@@ -77,10 +77,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = null;
             tangon = tangon != zuuluu;
             golfie = 0;
-            if(!tangon) { _fun00002_ip = 112; continue _fun00001 }
- 109:
+            if(!tangon) { _fun00002_ip = 110; continue _fun00001 }
+ 107:
             golfie = zuuluu;
- 112:
+ 110:
             var _closure2_slot2 = golfie;
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;

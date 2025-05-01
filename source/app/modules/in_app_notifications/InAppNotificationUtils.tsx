@@ -181,11 +181,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             zuuluu = argBar;
             entity = null;
-            if(!(entity != zuuluu)) { _fun00004_ip = 86; continue _fun00003 }
+            if(!(entity != zuuluu)) { _fun00004_ip = 88; continue _fun00003 }
  9:
             michal = _closure1_slot5;
             michal = michal.GUILD_ANNOUNCEMENT;
-            if(!(zuuluu !== michal)) { _fun00004_ip = 86; continue _fun00003 }
+            if(!(zuuluu !== michal)) { _fun00004_ip = 88; continue _fun00003 }
  26:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
@@ -234,7 +234,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.has;
             entity = entity.bind(michal)(zuuluu);
             return entity;
- 86:
+ 88:
             entity = false;
             return entity;
         }

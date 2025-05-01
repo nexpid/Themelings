@@ -327,7 +327,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = {};
                     oscard = zuuluu.initialized;
                     yankee['client_heartbeat_initialization_timestamp'] = oscard;
-                    oscard = 17;
+                    oscard = 18;
                     yankee['client_heartbeat_version'] = oscard;
                     oscard = 11;
                     oscard = golfie[oscard];

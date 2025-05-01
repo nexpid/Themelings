@@ -116,8 +116,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = zuuluu.bind(report)(michal);
                     michal = _closure2_slot0;
                     michal = michal.inGuildContext;
-                    if(!michal) { _fun00004_ip = 151; continue _fun00003 }
- 88:
+                    if(!michal) { _fun00004_ip = 155; continue _fun00003 }
+ 90:
                     zuuluu = _closure2_slot3;
                     michal = zuuluu.setOptions;
                     entity = {};
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report.bind(oscard)(tangon);
                     entity['headerLeft'] = tangon;
                     entity = michal.bind(zuuluu)(entity);
- 151:
+ 155:
                     entity = undefined;
                     return entity;
                 }
@@ -239,8 +239,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['margin'] = result;
             report['style'] = option;
             offset = kiloes.muted;
-            if(!offset) { _fun00002_ip = 453; continue _fun00001 }
- 320:
+            if(!offset) { _fun00002_ip = 461; continue _fun00001 }
+ 328:
             romeon = _closure1_slot6;
             source = _closure1_slot0;
             ctrled = _closure1_slot2;
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['subtitle'] = kiloes;
             option['onPressUnmute'] = backup;
             offset = romeon.bind(tangon)(yankee, option);
- 453:
+ 461:
             option = new Array(6);
             option[0] = offset;
             romeon = _closure1_slot6;
@@ -313,8 +313,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = output.channel;
             offset = yankee.isForumLikeChannel;
             offset = offset.bind(yankee)();
-            if(!offset) { _fun00002_ip = 685; continue _fun00001 }
- 631:
+            if(!offset) { _fun00002_ip = 693; continue _fun00001 }
+ 639:
             backup = _closure1_slot6;
             romeon = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -328,12 +328,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = output.channel;
             yankee['channel'] = output;
             offset = backup.bind(tangon)(romeon, yankee);
- 685:
+ 693:
             option[4] = offset;
             verify = verify.inherited;
             verify = !verify;
-            if(!verify) { _fun00002_ip = 828; continue _fun00001 }
- 704:
+            if(!verify) { _fun00002_ip = 836; continue _fun00001 }
+ 712:
             romeon = _closure1_slot6;
             yankee = _closure1_slot4;
             offset = {};
@@ -363,7 +363,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = romeon.bind(tangon)(backup, foxtra);
             offset['children'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 828:
+ 836:
             option[5] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

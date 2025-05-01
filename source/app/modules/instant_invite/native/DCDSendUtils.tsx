@@ -212,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report.bind(oscard)(zuuluu);
             zuuluu = report.isAndroid;
             zuuluu = zuuluu.bind(report)();
-            if(zuuluu) { _fun00010_ip = 84; continue _fun00009 }
+            if(zuuluu) { _fun00010_ip = 86; continue _fun00009 }
  49:
             zuuluu = global;
             report = zuuluu.Promise;
@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = new verify[report](option, golfie);
             michal = michal instanceof Object ? michal : zuuluu;
             return michal;
- 84: // try_start_0
+ 86: // try_start_0
             michal = global;
             zuuluu = michal.Promise;
             michal = zuuluu.resolve;
@@ -268,9 +268,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = report.canOpenUrlScheme;
             entity = tangon.bind(report)(entity);
             entity = michal.bind(zuuluu)(entity);
- 134: // try_end0
+ 136: // try_end0
             return entity;
- 136: // catch_target0
+ 138: // catch_target0
             CatchBlockStart(arg_register=0);
             entity = global;
             zuuluu = entity.Promise;

@@ -165,86 +165,86 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = michal.bind(report)();
         option = 16;
         michal = option;
-        if(!report) { _fun00002_ip = 288; continue _fun00001 }
- 286:
-        michal = 0;
+        if(!report) { _fun00002_ip = 290; continue _fun00001 }
  288:
+        michal = 0;
+ 290:
         var _closure1_slot14 = michal;
         michal = offset[romeon];
         tangon = verify.bind(entity)(michal);
         michal = tangon.isAndroid;
         michal = michal.bind(tangon)();
-        if(michal) { _fun00002_ip = 326; continue _fun00001 }
- 313:
+        if(michal) { _fun00002_ip = 328; continue _fun00001 }
+ 315:
         michal = 'DCDMessageView';
         oscard = foxtra.bind(entity)(michal);
-        _fun00002_ip = 343; continue _fun00001;
- 326:
+        _fun00002_ip = 345; continue _fun00001;
+ 328:
         michal = 9;
         michal = offset[michal];
         michal = verify.bind(entity)(michal);
         oscard = michal.default;
- 343:
+ 345:
         var _closure1_slot15 = oscard;
         michal = offset[romeon];
         tangon = verify.bind(entity)(michal);
         michal = tangon.isAndroid;
         michal = michal.bind(tangon)();
-        if(michal) { _fun00002_ip = 381; continue _fun00001 }
- 368:
+        if(michal) { _fun00002_ip = 383; continue _fun00001 }
+ 370:
         michal = 'DCDSystemMessageView';
         report = foxtra.bind(entity)(michal);
-        _fun00002_ip = 398; continue _fun00001;
- 381:
+        _fun00002_ip = 400; continue _fun00001;
+ 383:
         michal = 10;
         michal = offset[michal];
         michal = verify.bind(entity)(michal);
         report = michal.default;
- 398:
+ 400:
         var _closure1_slot16 = report;
         michal = offset[romeon];
         tangon = verify.bind(entity)(michal);
         michal = tangon.isAndroid;
         michal = michal.bind(tangon)();
-        if(michal) { _fun00002_ip = 436; continue _fun00001 }
- 423:
+        if(michal) { _fun00002_ip = 438; continue _fun00001 }
+ 425:
         michal = 'DCDGuildMultilineSystemMessageView';
         tangon = foxtra.bind(entity)(michal);
-        _fun00002_ip = 453; continue _fun00001;
- 436:
+        _fun00002_ip = 455; continue _fun00001;
+ 438:
         michal = 11;
         michal = offset[michal];
         michal = verify.bind(entity)(michal);
         tangon = michal.default;
- 453:
+ 455:
         var _closure1_slot17 = tangon;
         michal = offset[romeon];
         backup = verify.bind(entity)(michal);
         michal = backup.isAndroid;
         michal = michal.bind(backup)();
-        if(michal) { _fun00002_ip = 491; continue _fun00001 }
- 478:
+        if(michal) { _fun00002_ip = 493; continue _fun00001 }
+ 480:
         michal = 'DCDAutoModerationSystemMessageView';
         michal = foxtra.bind(entity)(michal);
-        _fun00002_ip = 508; continue _fun00001;
- 491:
+        _fun00002_ip = 510; continue _fun00001;
+ 493:
         foxtra = 12;
         foxtra = offset[foxtra];
         foxtra = verify.bind(entity)(foxtra);
         michal = foxtra.default;
- 508:
+ 510:
         var _closure1_slot18 = michal;
         romeon = offset[romeon];
         foxtra = verify.bind(entity)(romeon);
         romeon = foxtra.isAndroid;
         romeon = romeon.bind(foxtra)();
-        if(!romeon) { _fun00002_ip = 550; continue _fun00001 }
- 533:
+        if(!romeon) { _fun00002_ip = 552; continue _fun00001 }
+ 535:
         romeon = 13;
         romeon = offset[romeon];
         romeon = verify.bind(entity)(romeon);
         yankee = romeon.default;
- 550:
+ 552:
         var _closure1_slot19 = yankee;
         option = offset[option];
         romeon = verify.bind(entity)(option);
@@ -535,30 +535,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = oscard - entity;
                 option = null;
                 oscard = option != michal;
-                if(!oscard) { _fun00006_ip = 450; continue _fun00005 }
- 446:
+                if(!oscard) { _fun00006_ip = 460; continue _fun00005 }
+ 456:
                 oscard = entity >= michal;
- 450:
+ 460:
                 backup = option == zuuluu;
                 sizing = undefined;
-                if(backup) { _fun00006_ip = 482; continue _fun00005 }
- 459:
+                if(backup) { _fun00006_ip = 492; continue _fun00005 }
+ 469:
                 backup = zuuluu.current;
                 zuuluu = option == backup;
                 sizing = undefined;
-                if(zuuluu) { _fun00006_ip = 482; continue _fun00005 }
- 473:
+                if(zuuluu) { _fun00006_ip = 492; continue _fun00005 }
+ 483:
                 zuuluu = echoed.id;
                 sizing = backup[zuuluu];
- 482:
-                if(!(option == sizing)) { _fun00006_ip = 495; continue _fun00005 }
- 486:
-                if(!oscard) { _fun00006_ip = 492; continue _fun00005 }
- 489:
-                entity = michal;
  492:
+                if(!(option == sizing)) { _fun00006_ip = 505; continue _fun00005 }
+ 496:
+                if(!oscard) { _fun00006_ip = 502; continue _fun00005 }
+ 499:
+                entity = michal;
+ 502:
                 sizing = entity;
- 495:
+ 505:
                 zuuluu = _closure1_slot12;
                 michal = _closure1_slot19;
                 entity = {};
@@ -595,20 +595,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 romeon = backup.isFabric;
                 backup = romeon.bind(backup)();
                 romeon = 'none';
-                if(backup) { _fun00006_ip = 651; continue _fun00005 }
- 648:
+                if(backup) { _fun00006_ip = 661; continue _fun00005 }
+ 658:
                 romeon = foxtra;
- 651:
+ 661:
                 entity['pointerEvents'] = romeon;
                 option = option != verify;
-                if(!option) { _fun00006_ip = 666; continue _fun00005 }
- 663:
+                if(!option) { _fun00006_ip = 676; continue _fun00005 }
+ 673:
                 option = report;
- 666:
+ 676:
                 report = new Array(2);
                 report[0] = option;
-                if(!oscard) { _fun00006_ip = 707; continue _fun00005 }
- 677:
+                if(!oscard) { _fun00006_ip = 717; continue _fun00005 }
+ 687:
                 verify = _closure1_slot12;
                 option = _closure1_slot6;
                 golfie = {};
@@ -616,7 +616,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = offset.gradient;
                 golfie['style'] = offset;
                 oscard = verify.bind(tangon)(option, golfie);
- 707:
+ 717:
                 report[1] = oscard;
                 entity['children'] = report;
                 entity = zuuluu.bind(tangon)(michal, entity);

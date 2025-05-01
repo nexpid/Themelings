@@ -29,11 +29,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = zuuluu.bind(tangon)(michal);
                 michal = !michal;
                 var _closure2_slot0 = michal;
- 70: // try_end0
-                _fun00004_ip = 74; continue _fun00003;
- 72: // catch_target0
+ 72: // try_end0
+                _fun00004_ip = 76; continue _fun00003;
+ 74: // catch_target0
                 CatchBlockStart(arg_register=1);
- 74:
+ 76:
                 michal = function() { // Original name: _isNativeReflectConstruct
                     entity = _closure2_slot0;
                     entity = !entity;
@@ -99,13 +99,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         offset = oscard[offset];
         offset = report.bind(entity)(offset);
         offset = offset.isPlatformEmbedded;
-        if(offset) { _fun00002_ip = 238; continue _fun00001 }
- 230:
+        if(offset) { _fun00002_ip = 242; continue _fun00001 }
+ 234:
         offset = yankee.NEVER;
-        _fun00002_ip = 244; continue _fun00001;
- 238:
+        _fun00002_ip = 248; continue _fun00001;
+ 242:
         offset = yankee.ALL;
- 244:
+ 248:
         michal['desktopType'] = offset;
         offset = new Array(0);
         michal['disabledSounds'] = offset;

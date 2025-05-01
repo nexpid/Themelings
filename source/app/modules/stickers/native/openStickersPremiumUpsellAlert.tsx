@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     verify = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 225; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 223; continue _fun00001 }
  15:
                     var _closure4_slot0 = verify;
                     report = _closure1_slot1;
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  168:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 222; continue _fun00001 }
+                    if(report) { _fun00002_ip = 220; continue _fun00001 }
  174:
                     report = _closure1_slot1;
                     oscard = _closure1_slot2;
@@ -106,9 +106,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon['importer'] = golfie;
                     tangon = report.bind(oscard)(tangon);
                     return zuuluu;
- 222:
+ 220:
                     return michal;
- 225:
+ 223:
                     return entity;
                 }
             };

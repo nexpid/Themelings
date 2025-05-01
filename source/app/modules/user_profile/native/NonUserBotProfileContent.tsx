@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  133:
             michal = echoed.id;
  138:
-            vacuum = tangon.bind(oscard)(zuuluu, michal, ctrled);
+            papara = tangon.bind(oscard)(zuuluu, michal, ctrled);
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
             michal = 8;
@@ -98,15 +98,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _closure2_slot1 = michal;
             michal = 9;
             michal = tangon[michal];
+            michal = zuuluu.bind(report)(michal);
+            vacuum = michal.bind(report)(source);
+            michal = 10;
+            michal = tangon[michal];
             oscard = zuuluu.bind(report)(michal);
             michal = _closure1_slot6;
             option = oscard.bind(report)(michal);
-            michal = 10;
+            michal = 11;
             michal = tangon[michal];
             michal = zuuluu.bind(report)(michal);
             michal = michal.bind(report)();
             sizing = michal.bottom;
-            michal = 11;
+            michal = 12;
             michal = tangon[michal];
             zuuluu = zuuluu.bind(report)(michal);
             michal = {};
@@ -117,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = michal.primaryColor;
             backup = michal.secondaryColor;
             zuuluu = _closure1_slot0;
-            michal = 12;
+            michal = 13;
             michal = tangon[michal];
             tangon = zuuluu.bind(report)(michal);
             zuuluu = tangon.useUserProfileColors;
@@ -129,8 +133,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = michal.gradientFallbackBackground;
             romeon = michal.avatarBackground;
             update = michal.containerBackground;
-            if(!(entity != ctrled)) { _fun00002_ip = 893; continue _fun00001 }
- 337:
+            if(!(entity != ctrled)) { _fun00002_ip = 915; continue _fun00001 }
+ 354:
             cntext = function() { // Original name: handleCopyUsername
                 tangon = _closure2_slot0;
                 zuuluu = {};
@@ -140,13 +144,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = tangon.bind(entity)(zuuluu);
                 zuuluu = _closure1_slot0;
                 tangon = _closure1_slot2;
-                report = 13;
+                report = 14;
                 report = tangon[report];
                 oscard = zuuluu.bind(entity)(report);
                 report = oscard.copy;
                 michal = _closure2_slot1;
                 michal = report.bind(oscard)(michal);
-                michal = 14;
+                michal = 15;
                 michal = tangon[michal];
                 zuuluu = zuuluu.bind(entity)(michal);
                 michal = zuuluu.presentUsernameCopied;
@@ -159,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = _closure1_slot7;
             offset = _closure1_slot1;
             sequen = _closure1_slot2;
-            oscard = 15;
+            oscard = 16;
             oscard = sequen[oscard];
             golfie = offset.bind(report)(oscard);
             oscard = {};
@@ -171,23 +175,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[0] = golfie;
             option = _closure1_slot3;
             golfie = {};
-            verify = 16;
+            verify = 17;
             verify = sequen[verify];
             offset = offset.bind(report)(verify);
             verify = {};
             verify['user'] = ctrled;
             sequen = entity == source;
             config = undefined;
-            if(sequen) { _fun00002_ip = 444; continue _fun00001 }
- 439:
-            config = source.guildId;
- 444:
-            papara = entity != config;
-            sequen = undefined;
-            if(!papara) { _fun00002_ip = 456; continue _fun00001 }
- 453:
-            sequen = config;
+            if(sequen) { _fun00002_ip = 461; continue _fun00001 }
  456:
+            config = source.guildId;
+ 461:
+            target = entity != config;
+            sequen = undefined;
+            if(!target) { _fun00002_ip = 473; continue _fun00001 }
+ 470:
+            sequen = config;
+ 473:
             verify['guildId'] = sequen;
             verify['backgroundColor'] = romeon;
             config = true;
@@ -197,9 +201,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify[0] = offset;
             romeon = _closure1_slot8;
             sequen = _closure1_slot1;
-            papara = _closure1_slot2;
-            offset = 17;
-            offset = papara[offset];
+            target = _closure1_slot2;
+            offset = 18;
+            offset = target[offset];
             yankee = sequen.bind(report)(offset);
             offset = {};
             offset['primaryColor'] = kiloes;
@@ -221,30 +225,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = {};
             sizing = result.primaryInfo;
             foxtra['style'] = sizing;
-            sizing = 18;
-            sizing = papara[sizing];
+            sizing = 19;
+            sizing = target[sizing];
             sequen = sequen.bind(report)(sizing);
             sizing = {};
             sizing['user'] = ctrled;
-            target = entity == echoed;
-            papara = undefined;
-            if(target) { _fun00002_ip = 625; continue _fun00001 }
- 620:
-            papara = echoed.guild_id;
- 625:
-            sizing['guildId'] = papara;
-            sizing['displayName'] = vacuum;
-            papara = entity == source;
-            vacuum = undefined;
-            if(papara) { _fun00002_ip = 648; continue _fun00001 }
+            status = entity == echoed;
+            target = undefined;
+            if(status) { _fun00002_ip = 642; continue _fun00001 }
+ 637:
+            target = echoed.guild_id;
  642:
-            vacuum = source.pronouns;
- 648:
-            sizing['pronouns'] = vacuum;
+            sizing['guildId'] = target;
+            sizing['displayName'] = papara;
+            target = entity == source;
+            papara = undefined;
+            if(target) { _fun00002_ip = 665; continue _fun00001 }
+ 659:
+            papara = source.pronouns;
+ 665:
+            sizing['pronouns'] = papara;
+            sizing['badges'] = vacuum;
             sizing['badgeContainerBackground'] = update;
             sierra = _closure1_slot0;
             vacuum = _closure1_slot2;
-            papara = 19;
+            papara = 20;
             target = vacuum[papara];
             target = sierra.bind(report)(target);
             status = target.intl;
@@ -266,7 +271,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(entity)(michal);
                 zuuluu = _closure1_slot0;
                 tangon = _closure1_slot2;
-                michal = 14;
+                michal = 15;
                 michal = tangon[michal];
                 zuuluu = zuuluu.bind(entity)(michal);
                 michal = zuuluu.presentUserPronouns;
@@ -286,7 +291,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = result.cards;
             backup['style'] = result;
             result = _closure1_slot1;
-            output = 20;
+            output = 21;
             output = vacuum[output];
             result = result.bind(report)(output);
             output = {};
@@ -310,12 +315,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 893:
+ 915:
             return entity;
         }
     };
     michal = tangon.bind(golfie)(michal);
-    tangon = 21;
+    tangon = 22;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
