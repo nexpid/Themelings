@@ -41,6 +41,12 @@
     "midnight": "#ffffff12",
     "darker": "#ffffff12"
   },
+  "APP_BORDER_FRAME": {
+    "dark": "#ffffff14",
+    "light": "#00000014",
+    "midnight": "#6c6f7c24",
+    "darker": "#6c6f7c1f"
+  },
   "AUTOCOMPLETE_BG": {
     "dark": "#2b2d31",
     "light": "#f9f9f9",
@@ -52,6 +58,12 @@
     "light": "#6d6f78",
     "midnight": "#2c2d35",
     "darker": "#383a43"
+  },
+  "BACKGROUND_BASE_LOW": {
+    "dark": "#36373e",
+    "light": "#fbfbfb",
+    "midnight": "#0c0c0e",
+    "darker": "#202024"
   },
   "BACKGROUND_FLOATING": {
     "dark": "#111214",

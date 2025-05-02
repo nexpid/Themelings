@@ -209,6 +209,36 @@
       }
     ]
   },
+  "APP_BORDER_FRAME": {
+    "dark": [
+      "#ffffff14",
+      {
+        "raw": "WHITE",
+        "opacity": 0.08
+      }
+    ],
+    "light": [
+      "#00000014",
+      {
+        "raw": "BLACK",
+        "opacity": 0.08
+      }
+    ],
+    "midnight": [
+      "#6c6f7c24",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.14
+      }
+    ],
+    "darker": [
+      "#6c6f7c1f",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.12
+      }
+    ]
+  },
   "AUTOCOMPLETE_BG": {
     "dark": [
       "#2b2d31",
@@ -265,6 +295,36 @@
       "#383a43",
       {
         "raw": "PLUM_15",
+        "opacity": 1
+      }
+    ]
+  },
+  "BACKGROUND_BASE_LOW": {
+    "dark": [
+      "#36373e",
+      {
+        "raw": "NEUTRAL_66",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#fbfbfb",
+      {
+        "raw": "NEUTRAL_2",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#0c0c0e",
+      {
+        "raw": "NEUTRAL_95",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#202024",
+      {
+        "raw": "NEUTRAL_82",
         "opacity": 1
       }
     ]
