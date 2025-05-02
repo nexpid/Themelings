@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             entity = null;
                             zuuluu = entity != zuuluu;
                             entity = '';
-                            if(!zuuluu) { _fun00004_ip = 59; continue _fun00003 }
+                            if(!zuuluu) { _fun00004_ip = 58; continue _fun00003 }
  27:
                             tangon = _closure1_slot3;
                             zuuluu = tangon.resolveAssetSource;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             michal = michal[report];
                             michal = zuuluu.bind(tangon)(michal);
                             entity = michal.uri;
- 59:
+ 58:
                             return entity;
                         }
                     };

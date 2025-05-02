@@ -341,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(18);
+        entity = new Array(19);
         entity[0] = report;
         report = {};
         golfie = 'isFetchingCategories';
@@ -427,6 +427,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['get'] = golfie;
         entity[8] = report;
         report = {};
+        golfie = 'productsWithVariantsAsGroup';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
+            michal = _closure1_slot15;
+            entity = michal.values;
+            report = entity.bind(michal)();
+            entity = new Array(0);
+            tangon = 0;
+            oscard = entity;
+            michal = arraySpread(oscard, report, tangon);
+            return entity;
+        };
+        report['get'] = golfie;
+        entity[9] = report;
+        report = {};
         golfie = 'recommendedGiftSkuIds';
         report['key'] = golfie;
         golfie = function() { // Original name: get
@@ -434,7 +449,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['get'] = golfie;
-        entity[9] = report;
+        entity[10] = report;
         report = {};
         golfie = 'skipNumCategories';
         report['key'] = golfie;
@@ -443,7 +458,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['get'] = golfie;
-        entity[10] = report;
+        entity[11] = report;
         report = {};
         golfie = 'getCategory';
         report['key'] = golfie;
@@ -464,7 +479,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[11] = report;
+        entity[12] = report;
         report = {};
         golfie = 'getProduct';
         report['key'] = golfie;
@@ -485,7 +500,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[12] = report;
+        entity[13] = report;
         report = {};
         golfie = 'getProductFetchError';
         report['key'] = golfie;
@@ -506,7 +521,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[13] = report;
+        entity[14] = report;
         report = {};
         golfie = 'getProductFetchErrorTimestamp';
         report['key'] = golfie;
@@ -527,7 +542,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[14] = report;
+        entity[15] = report;
         report = {};
         golfie = 'getProductByStoreListingId';
         report['key'] = golfie;
@@ -548,7 +563,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[15] = report;
+        entity[16] = report;
         report = {};
         golfie = 'getCategoryByStoreListingId';
         report['key'] = golfie;
@@ -569,7 +584,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[16] = report;
+        entity[17] = report;
         report = {};
         golfie = 'getCategoryForProduct';
         report['key'] = golfie;
@@ -593,7 +608,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = oscard;
-        entity[17] = report;
+        entity[18] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

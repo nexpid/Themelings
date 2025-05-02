@@ -404,16 +404,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = output.bind(tangon)(kiloes);
             kiloes = output.isIOS;
             kiloes = kiloes.bind(output)();
-            if(!kiloes) { _fun00002_ip = 755; continue _fun00001 }
+            if(!kiloes) { _fun00002_ip = 754; continue _fun00001 }
  726:
-            if(!foxtra) { _fun00002_ip = 755; continue _fun00001 }
+            if(!foxtra) { _fun00002_ip = 754; continue _fun00001 }
  729:
             output = result.uri;
             kiloes = output.startsWith;
             foxtra = 'file://';
             foxtra = kiloes.bind(output)(foxtra);
-            if(foxtra) { _fun00002_ip = 801; continue _fun00001 }
- 755:
+            if(foxtra) { _fun00002_ip = 800; continue _fun00001 }
+ 754:
             output = _closure1_slot9;
             kiloes = _closure1_slot4;
             foxtra = {};
@@ -425,8 +425,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['style'] = config;
             foxtra['source'] = result;
             kiloes = output.bind(tangon)(kiloes, foxtra);
-            _fun00002_ip = 890; continue _fun00001;
- 801:
+            _fun00002_ip = 887; continue _fun00001;
+ 800:
             config = _closure1_slot9;
             output = _closure1_slot0;
             status = _closure1_slot2;
@@ -448,18 +448,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['muted'] = sierra;
             foxtra['paused'] = sierra;
             kiloes = config.bind(tangon)(output, foxtra);
- 890:
+ 887:
             foxtra = new Array(2);
             foxtra[0] = kiloes;
             kiloes = null;
             kiloes = kiloes != limora;
-            if(!kiloes) { _fun00002_ip = 915; continue _fun00001 }
- 907:
+            if(!kiloes) { _fun00002_ip = 912; continue _fun00001 }
+ 904:
             output = '';
             kiloes = output !== limora;
+ 912:
+            if(!kiloes) { _fun00002_ip = 957; continue _fun00001 }
  915:
-            if(!kiloes) { _fun00002_ip = 960; continue _fun00001 }
- 918:
             status = _closure1_slot9;
             config = _closure1_slot0;
             whisks = _closure1_slot2;
@@ -470,7 +470,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = {};
             output['label'] = limora;
             kiloes = status.bind(tangon)(config, output);
- 960:
+ 957:
             foxtra[1] = kiloes;
             offset['children'] = foxtra;
             yankee = verify.bind(tangon)(yankee, offset);
@@ -487,8 +487,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['hasIcons'] = backup;
             result = result.filename;
             foxtra['title'] = result;
-            if(!ctrled) { _fun00002_ip = 1135; continue _fun00001 }
- 1032:
+            if(!ctrled) { _fun00002_ip = 1132; continue _fun00001 }
+ 1029:
             status = _closure1_slot9;
             quebec = _closure1_slot0;
             variable36 = _closure1_slot2;
@@ -529,15 +529,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['label'] = limora;
             result['arrow'] = sierra;
             ctrled = status.bind(tangon)(config, result);
- 1135:
+ 1132:
             result = new Array(4);
             result[0] = ctrled;
-            if(!update) { _fun00002_ip = 1149; continue _fun00001 }
- 1146:
+            if(!update) { _fun00002_ip = 1146; continue _fun00001 }
+ 1143:
             update = !source;
+ 1146:
+            if(!update) { _fun00002_ip = 1242; continue _fun00001 }
  1149:
-            if(!update) { _fun00002_ip = 1245; continue _fun00001 }
- 1152:
             config = _closure1_slot9;
             limora = _closure1_slot0;
             whisks = _closure1_slot2;
@@ -559,11 +559,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = status.bind(sierra)(target);
             source['label'] = target;
             update = config.bind(tangon)(ctrled, source);
- 1245:
+ 1242:
             result[1] = update;
             update = !vacuum;
-            if(!update) { _fun00002_ip = 1362; continue _fun00001 }
- 1255:
+            if(!update) { _fun00002_ip = 1359; continue _fun00001 }
+ 1252:
             config = _closure1_slot9;
             status = _closure1_slot0;
             sierra = _closure1_slot2;
@@ -608,10 +608,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source['label'] = cntext;
             source['checked'] = record;
             update = config.bind(tangon)(ctrled, source);
- 1362:
+ 1359:
             result[2] = update;
-            if(!echoed) { _fun00002_ip = 1467; continue _fun00001 }
- 1369:
+            if(!echoed) { _fun00002_ip = 1464; continue _fun00001 }
+ 1366:
             ctrled = _closure1_slot9;
             papara = _closure1_slot0;
             target = _closure1_slot2;
@@ -634,7 +634,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update['onPress'] = sequen;
             update['checked'] = vacuum;
             echoed = ctrled.bind(tangon)(source, update);
- 1467:
+ 1464:
             result[3] = echoed;
             foxtra['children'] = result;
             foxtra = output.bind(tangon)(kiloes, foxtra);

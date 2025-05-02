@@ -11,55 +11,61 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tangon = argFoo;
-            golfie = tangon.initialIndex;
+            output = tangon.initialIndex;
             entity = undefined;
-            if(!(golfie === entity)) { _fun00002_ip = 17; continue _fun00001 }
+            if(!(output === entity)) { _fun00002_ip = 17; continue _fun00001 }
  15:
-            golfie = 0;
+            output = 0;
  17:
-            oscard = tangon.initialSources;
-            offset = tangon.swipeVelocityThreshold;
-            if(!(offset === entity)) { _fun00002_ip = 39; continue _fun00001 }
+            option = tangon.initialSources;
+            romeon = tangon.swipeVelocityThreshold;
+            if(!(romeon === entity)) { _fun00002_ip = 39; continue _fun00001 }
  33:
-            offset = 1000;
+            romeon = 1000;
  39:
-            verify = tangon.shareable;
-            if(!(verify === entity)) { _fun00002_ip = 51; continue _fun00001 }
+            oscard = tangon.shareable;
+            if(!(oscard === entity)) { _fun00002_ip = 51; continue _fun00001 }
  49:
-            verify = true;
+            oscard = true;
  51:
-            yankee = tangon.analyticsSource;
-            backup = tangon.guildId;
-            foxtra = tangon.channelId;
-            romeon = tangon.channelType;
+            golfie = tangon.analyticsSource;
+            yankee = tangon.guildId;
+            offset = tangon.channelId;
+            verify = tangon.channelType;
             zuuluu = {'initialIndex': 0, 'initialSources': 0, 'swipeVelocityThreshold': 0, 'shareable': 0, 'analyticsSource': 0, 'guildId': 0, 'channelId': 0, 'channelType': 0};
             update = null;
             source = zuuluu;
             michal = silentSetPrototypeOf(source, update);
-            report = 0;
             source = {};
             update = tangon;
             echoed = zuuluu;
             update = copyDataProperties(source, update, echoed);
-            zuuluu = _closure1_slot1;
-            option = _closure1_slot2;
-            kiloes = 2;
-            kiloes = option[kiloes];
-            output = zuuluu.bind(entity)(kiloes);
-            sizing = output.pushLazy;
-            kiloes = {};
-            source = kiloes;
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot2;
+            report = 1;
+            report = tangon[report];
+            kiloes = zuuluu.bind(entity)(report);
+            backup = kiloes.setMediaViewerSources;
+            report = {};
+            report['sources'] = option;
+            report['initialIndex'] = output;
+            report = backup.bind(kiloes)(report);
+            report = _closure1_slot1;
+            backup = 2;
+            backup = tangon[backup];
+            sizing = report.bind(entity)(backup);
+            kiloes = sizing.pushLazy;
+            backup = {};
+            source = backup;
             michal = copyDataProperties(source, update);
             michal = 'initialIndex';
-            kiloes[michal] = golfie;
-            michal = 'initialSources';
-            kiloes[michal] = oscard;
+            backup[michal] = output;
             michal = 'swipeVelocityThreshold';
-            kiloes[michal] = offset;
+            backup[michal] = romeon;
             michal = 'shareable';
-            kiloes[michal] = verify;
-            echoed = _closure1_slot7;
-            result = _closure1_slot8;
+            backup[michal] = oscard;
+            echoed = _closure1_slot5;
+            result = _closure1_slot6;
             source = function() {
                 entity = global;
                 zuuluu = entity.Promise;
@@ -73,77 +79,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            ctrled = output;
-            update = kiloes;
-            michal = ctrled[sizing](source, update, echoed, result, output);
+            ctrled = sizing;
+            update = backup;
+            michal = ctrled[kiloes](source, update, echoed, result, output);
             michal = 4;
-            michal = option[michal];
-            offset = zuuluu.bind(entity)(michal);
-            verify = offset.track;
-            michal = _closure1_slot5;
-            zuuluu = michal.OPEN_MODAL;
+            michal = tangon[michal];
+            romeon = report.bind(entity)(michal);
+            oscard = romeon.track;
+            michal = _closure1_slot3;
+            report = michal.OPEN_MODAL;
             michal = {};
-            kiloes = _closure1_slot6;
-            kiloes = kiloes.MEDIA_VIEWER;
-            michal['type'] = kiloes;
-            michal['source'] = yankee;
-            michal['channel_id'] = foxtra;
-            michal['channel_type'] = romeon;
-            michal = verify.bind(offset)(zuuluu, michal);
-            zuuluu = _closure1_slot0;
+            foxtra = _closure1_slot4;
+            foxtra = foxtra.MEDIA_VIEWER;
+            michal['type'] = foxtra;
+            michal['source'] = golfie;
+            michal['channel_id'] = offset;
+            michal['channel_type'] = verify;
+            michal = oscard.bind(romeon)(report, michal);
             michal = 5;
-            michal = option[michal];
-            offset = zuuluu.bind(entity)(michal);
-            verify = offset.startMediaViewerSession;
+            michal = tangon[michal];
+            oscard = zuuluu.bind(entity)(michal);
+            report = oscard.startMediaViewerSession;
             michal = {};
-            michal['guildId'] = backup;
-            michal['channelId'] = foxtra;
-            michal['channelType'] = romeon;
-            romeon = oscard.length;
-            michal['numMediaItems'] = romeon;
-            michal['source'] = yankee;
-            michal = verify.bind(offset)(michal);
+            michal['guildId'] = yankee;
+            michal['channelId'] = offset;
+            michal['channelType'] = verify;
+            option = option.length;
+            michal['numMediaItems'] = option;
+            michal['source'] = golfie;
+            michal = report.bind(oscard)(michal);
             michal = 6;
-            michal = option[michal];
+            michal = tangon[michal];
             zuuluu = zuuluu.bind(entity)(michal);
             michal = zuuluu.initVideoStateStore;
             michal = michal.bind(zuuluu)();
-            michal = _closure1_slot4;
-            michal = michal.bind(entity)();
-            michal = oscard.length;
-            michal = report < michal;
-            zuuluu = 7;
-            if(!michal) { _fun00002_ip = 450; continue _fun00001 }
- 372:
-            option = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[zuuluu];
-            verify = option.bind(entity)(michal);
-            option = verify.flattenSource;
-            michal = oscard[report];
-            option = option.bind(verify)(michal);
-            michal = option.spoiler;
-            if(michal) { _fun00002_ip = 419; continue _fun00001 }
- 413:
-            michal = option.obscure;
- 419:
-            if(!michal) { _fun00002_ip = 426; continue _fun00001 }
- 422:
-            michal = golfie !== report;
- 426:
-            if(!michal) { _fun00002_ip = 438; continue _fun00001 }
- 429:
-            michal = _closure1_slot3;
-            michal = michal.bind(entity)(report);
- 438:
-            report = report + 1;
-            michal = oscard.length;
-            if(report < michal) { _fun00002_ip = 372; continue _fun00001 }
- 450:
             return entity;
         }
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot7 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -156,24 +129,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = oscard[entity];
     entity = undefined;
     tangon = report.bind(entity)(tangon);
-    golfie = tangon.addSpoiler;
-    var _closure1_slot3 = golfie;
-    tangon = tangon.resetSpoilers;
-    var _closure1_slot4 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
     golfie = tangon.AnalyticEvents;
-    var _closure1_slot5 = golfie;
+    var _closure1_slot3 = golfie;
     golfie = tangon.AnalyticsSections;
-    var _closure1_slot6 = golfie;
+    var _closure1_slot4 = golfie;
     tangon = tangon.MEDIA_MODAL_KEY;
-    var _closure1_slot7 = tangon;
+    var _closure1_slot5 = tangon;
     tangon = {};
     golfie = 'none';
     tangon['animation'] = golfie;
-    var _closure1_slot8 = tangon;
-    tangon = 8;
+    var _closure1_slot6 = tangon;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -192,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  28:
             if(!(tangon != oscard)) { _fun00004_ip = 85; continue _fun00003 }
  32:
-            report = _closure1_slot9;
+            report = _closure1_slot7;
             tangon = {};
             option = tangon;
             golfie = michal;
@@ -209,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     oscard = argBaz;
                     tangon = argCor;
-                    zuuluu = _closure1_slot9;
+                    zuuluu = _closure1_slot7;
                     michal = {};
                     foxtra = _closure2_slot0;
                     backup = michal;

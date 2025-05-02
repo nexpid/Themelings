@@ -51,5 +51,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     zuuluu['WAVEFORM_WAVE_MAX_VALUE'] = michal;
     michal = 256;
     zuuluu['WAVEFORM_MAX_SAMPLES'] = michal;
+    michal = [0.75, 1, 1.5, 2];
+    zuuluu['PLAYBACK_RATES'] = michal;
     return entity;
 })();

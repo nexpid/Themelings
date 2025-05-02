@@ -79,18 +79,18 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
  0:
             michal = ['0', '123456', '1234567890'];
             entity = michal.includes;
-            report = '4002';
+            report = '4009';
             michal = entity.bind(michal)(report);
             entity = report;
-            if(!michal) { _fun00004_ip = 61; continue _fun00003 }
- 32:
+            if(!michal) { _fun00004_ip = 59; continue _fun00003 }
+ 30:
             michal = global;
             michal = michal.HermesInternal;
             tangon = michal.concat;
             zuuluu = 'dev (';
             michal = ')';
             entity = tangon.bind(zuuluu)(report, michal);
- 61:
+ 59:
             return entity;
         }
     };

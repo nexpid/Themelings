@@ -118,9 +118,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            output = entity.fpDurationText;
-            option = entity.isInReverseTrial;
-            offset = entity.style;
+            result = entity.fpDurationText;
+            output = entity.isInReverseTrial;
+            verify = entity.style;
             entity = _closure1_slot7;
             tangon = undefined;
             sizing = entity.bind(tangon)();
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = 0.7;
             entity['activeOpacity'] = report;
             report = undefined;
-            if(option) { _fun00002_ip = 67; continue _fun00001 }
+            if(output) { _fun00002_ip = 67; continue _fun00001 }
  63:
             report = _closure1_slot8;
  67:
@@ -138,12 +138,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = _closure1_slot6;
             oscard = _closure1_slot4;
             report = {};
-            yankee = sizing.fractionalPremiumBanner;
-            verify = new Array(2);
-            verify[0] = yankee;
-            verify[1] = offset;
-            report['style'] = verify;
-            verify = !option;
+            offset = sizing.fractionalPremiumBanner;
+            option = new Array(2);
+            option[0] = offset;
+            option[1] = verify;
+            report['style'] = option;
+            verify = !output;
             if(!verify) { _fun00002_ip = 206; continue _fun00001 }
  109:
             yankee = _closure1_slot5;
@@ -162,8 +162,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             romeon['variant'] = kiloes;
             kiloes = sizing.fpDurationText;
             romeon['style'] = kiloes;
-            kiloes = output.toUpperCase;
-            kiloes = kiloes.bind(output)();
+            kiloes = result.toUpperCase;
+            kiloes = kiloes.bind(result)();
             romeon['children'] = kiloes;
             romeon = yankee.bind(tangon)(foxtra, romeon);
             option['children'] = romeon;
@@ -183,13 +183,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             romeon = foxtra.bind(tangon)(romeon);
             foxtra = romeon.Text;
             romeon = {'variant': 'text-md/normal', 'color': 'interactive-active'};
-            kiloes = null;
-            output = kiloes != output;
             kiloes = undefined;
-            if(output) { _fun00002_ip = 290; continue _fun00001 }
- 284:
+            if(!output) { _fun00002_ip = 284; continue _fun00001 }
+ 278:
             kiloes = sizing.fpUnavailableTextNoCountdown;
- 290:
+ 284:
             romeon['style'] = kiloes;
             output = _closure1_slot0;
             result = _closure1_slot2;

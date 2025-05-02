@@ -16,10 +16,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     oscard['TEXT'] = entity;
     entity = 'VOICE';
     oscard['VOICE'] = entity;
-    entity = 'PLAY_TAB';
-    oscard['PLAY_TAB'] = entity;
-    entity = 'QUICK_LAUNCHER';
-    oscard['QUICK_LAUNCHER'] = entity;
     report = {};
     entity = 'home_empty';
     report['HOME_EMPTY'] = entity;

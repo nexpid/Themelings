@@ -35,12 +35,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = {};
             yankee = _closure1_slot3;
             offset = yankee.getSearchType;
-            offset = offset.bind(yankee)();
-            zuuluu['searchType'] = offset;
-            yankee = _closure1_slot3;
-            offset = yankee.getAnalyticsId;
             offset = offset.bind(yankee)(oscard);
-            zuuluu['searchAnalyticsId'] = offset;
+            zuuluu['searchType'] = offset;
+            zuuluu['searchId'] = oscard;
             zuuluu['query'] = golfie;
             zuuluu = option.bind(verify)(zuuluu);
             zuuluu = _closure1_slot1;

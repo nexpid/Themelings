@@ -945,7 +945,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = report[golfie];
                     report = oscard.bind(michal)(report);
                     oscard = report.parseStorage;
-                    report = oscard.measure;
+                    report = oscard.measureAsync;
                     tangon = function() {
                         zuuluu = _closure1_slot0;
                         michal = _closure1_slot3;

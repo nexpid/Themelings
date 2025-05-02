@@ -5454,6 +5454,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     tangon = option.bind(entity)(golfie, tangon);
+    golfie = ['GUILD_APPLIED_BOOSTS_UPDATE'];
+    tangon = function(argFoo, argBar) {
+        zuuluu = _closure1_slot25;
+        michal = {};
+        entity = argBar;
+        michal['type'] = entity;
+        entity = argFoo;
+        entity = entity.guild_id;
+        michal['guildId'] = entity;
+        entity = undefined;
+        michal = zuuluu.bind(entity)(michal);
+        return entity;
+    };
+    tangon = option.bind(entity)(golfie, tangon);
     tangon = 32;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);

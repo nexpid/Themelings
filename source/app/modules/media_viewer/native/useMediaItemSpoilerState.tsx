@@ -24,19 +24,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = argCor;
     tangon = tangon.bind(entity)(golfie);
     var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.useMediaSourceSpoilerStore;
-    var _closure1_slot4 = tangon;
     tangon = {};
     golfie = 'function useMediaItemSpoilerStateTsx1(){const{runOnJS,setSpoilerActive,hasSpoiler}=this.__closure;runOnJS(setSpoilerActive)(hasSpoiler);}';
     tangon['code'] = golfie;
-    var _closure1_slot5 = tangon;
+    var _closure1_slot4 = tangon;
     tangon = {};
     golfie = 'function useMediaItemSpoilerStateTsx2(){const{spoilerOpacity}=this.__closure;return{opacity:spoilerOpacity.get()};}';
     tangon['code'] = golfie;
-    var _closure1_slot6 = tangon;
+    var _closure1_slot5 = tangon;
     tangon = 6;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -48,8 +43,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
-            zuuluu = _closure1_slot4;
+            golfie = _closure1_slot0;
+            tangon = _closure1_slot1;
+            verify = 2;
+            entity = tangon[verify];
             oscard = undefined;
+            entity = golfie.bind(oscard)(entity);
+            option = entity.MediaViewerSourcesStore;
+            zuuluu = option.useState;
             entity = function(argFoo) {
                 entity = argFoo;
                 zuuluu = entity.spoilerIndexes;
@@ -58,29 +59,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            entity = zuuluu.bind(oscard)(entity);
+            entity = zuuluu.bind(option)(entity);
             var _closure2_slot1 = entity;
-            tangon = _closure1_slot3;
-            zuuluu = tangon.useState;
-            golfie = zuuluu.bind(tangon)(entity);
-            tangon = _closure1_slot2;
-            zuuluu = 2;
-            tangon = tangon.bind(oscard)(golfie, zuuluu);
+            option = _closure1_slot3;
+            zuuluu = option.useState;
+            option = zuuluu.bind(option)(entity);
+            zuuluu = _closure1_slot2;
+            option = zuuluu.bind(oscard)(option, verify);
             verify = 0;
-            zuuluu = tangon[verify];
+            zuuluu = option[verify];
             offset = 1;
-            tangon = tangon[offset];
-            var _closure2_slot2 = tangon;
-            golfie = _closure1_slot0;
-            tangon = _closure1_slot1;
+            option = option[offset];
+            var _closure2_slot2 = option;
             option = 3;
             tangon = tangon[option];
             golfie = golfie.bind(oscard)(tangon);
             tangon = golfie.useSharedValue;
-            if(!entity) { _fun00002_ip = 109; continue _fun00001 }
- 106:
+            if(!entity) { _fun00002_ip = 125; continue _fun00001 }
+ 122:
             verify = offset;
- 109:
+ 125:
             golfie = tangon.bind(golfie)(verify);
             var _closure2_slot3 = golfie;
             offset = _closure1_slot3;
@@ -143,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report['__closure'] = offset;
                     offset = 15930548853488.0;
                     report['__workletHash'] = offset;
-                    michal = _closure1_slot5;
+                    michal = _closure1_slot4;
                     report['__initData'] = michal;
                     sizing = 'respect-motion-settings';
                     echoed = verify;
@@ -163,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu[option];
             tangon = tangon.bind(oscard)(zuuluu);
             zuuluu = tangon.useAnimatedStyle;
-            michal = function() { // Original name: l
+            michal = function() { // Original name: S
                 entity = {};
                 zuuluu = _closure2_slot3;
                 michal = zuuluu.get;
@@ -176,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['__closure'] = oscard;
             oscard = 8496335051493.0;
             michal['__workletHash'] = oscard;
-            report = _closure1_slot6;
+            report = _closure1_slot5;
             michal['__initData'] = report;
             michal = zuuluu.bind(tangon)(michal);
             entity[1] = michal;

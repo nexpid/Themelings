@@ -930,11 +930,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = tangon.getId;
                 tangon = zuuluu.bind(tangon)();
                 zuuluu = report.userId;
-                if(!(tangon === zuuluu)) { _fun00024_ip = 206; continue _fun00023 }
+                if(!(tangon === zuuluu)) { _fun00024_ip = 202; continue _fun00023 }
  35:
                 tangon = report.sessionId;
                 zuuluu = _closure1_slot26;
-                if(!(tangon !== zuuluu)) { _fun00024_ip = 143; continue _fun00023 }
+                if(!(tangon !== zuuluu)) { _fun00024_ip = 139; continue _fun00023 }
  49:
                 tangon = report.guildId;
                 option = _closure1_slot0;
@@ -945,7 +945,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = option.bind(oscard)(zuuluu);
                 zuuluu = zuuluu.localVoiceState;
                 zuuluu = zuuluu.guildId;
-                if(!(tangon === zuuluu)) { _fun00024_ip = 141; continue _fun00023 }
+                if(!(tangon === zuuluu)) { _fun00024_ip = 137; continue _fun00023 }
  91:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot3;
@@ -955,10 +955,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = oscard.setState;
                 zuuluu = {'guildId': null, 'channelId': null};
                 zuuluu = tangon.bind(oscard)(zuuluu);
-                _fun00024_ip = 202; continue _fun00023;
- 141:
+                _fun00024_ip = 198; continue _fun00023;
+ 137:
                 return entity;
- 143:
+ 139:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot3;
                 michal = 18;
@@ -973,10 +973,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = report.channelId;
                 michal['channelId'] = report;
                 michal = zuuluu.bind(tangon)(michal);
- 202:
+ 198:
                 michal = true;
                 return michal;
- 206:
+ 202:
                 return entity;
             }
         };
@@ -999,7 +999,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = oscard.bind(entity)(zuuluu);
             zuuluu = zuuluu.localVoiceState;
             zuuluu = zuuluu.guildId;
-            if(!(report === zuuluu)) { _fun00026_ip = 101; continue _fun00025 }
+            if(!(report === zuuluu)) { _fun00026_ip = 97; continue _fun00025 }
  53:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot3;
@@ -1009,7 +1009,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = tangon.setState;
             michal = {'guildId': null, 'channelId': null};
             michal = zuuluu.bind(tangon)(michal);
- 101:
+ 97:
             return entity;
         }
     };
@@ -1028,7 +1028,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = oscard.bind(entity)(zuuluu);
             zuuluu = zuuluu.localVoiceState;
             zuuluu = zuuluu.channelId;
-            if(!(report === zuuluu)) { _fun00028_ip = 101; continue _fun00027 }
+            if(!(report === zuuluu)) { _fun00028_ip = 97; continue _fun00027 }
  53:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot3;
@@ -1038,7 +1038,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = tangon.setState;
             michal = {'guildId': null, 'channelId': null};
             michal = zuuluu.bind(tangon)(michal);
- 101:
+ 97:
             return entity;
         }
     };
@@ -1056,7 +1056,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = oscard.bind(entity)(zuuluu);
             zuuluu = zuuluu.localVoiceState;
             zuuluu = zuuluu.channelId;
-            if(!(report === zuuluu)) { _fun00030_ip = 96; continue _fun00029 }
+            if(!(report === zuuluu)) { _fun00030_ip = 92; continue _fun00029 }
  48:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot3;
@@ -1066,7 +1066,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = tangon.setState;
             michal = {'guildId': null, 'channelId': null};
             michal = zuuluu.bind(tangon)(michal);
- 96:
+ 92:
             return entity;
         }
     };

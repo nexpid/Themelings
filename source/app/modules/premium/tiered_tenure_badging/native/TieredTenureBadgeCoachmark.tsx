@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = undefined;
             verify = entity.bind(report)();
             entity = null;
-            if(!(entity != michal)) { _fun00002_ip = 135; continue _fun00001 }
+            if(!(entity != michal)) { _fun00002_ip = 134; continue _fun00001 }
  28:
             yankee = michal.id;
             tangon = _closure1_slot8;
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 135:
+ 134:
             return entity;
         }
     };

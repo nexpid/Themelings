@@ -435,8 +435,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[0] = option;
             option = report != foxtra;
             report = null;
-            if(!option) { _fun00004_ip = 421; continue _fun00003 }
- 387:
+            if(!option) { _fun00004_ip = 417; continue _fun00003 }
+ 383:
             verify = _closure1_slot4;
             option = _closure1_slot15;
             golfie = {};
@@ -445,7 +445,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['activeIndex'] = yankee;
             golfie['pressed'] = offset;
             report = verify.bind(tangon)(option, golfie);
- 421:
+ 417:
             oscard[1] = report;
             report = 'children';
             entity[report] = oscard;

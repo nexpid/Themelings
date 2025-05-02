@@ -609,8 +609,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         };
         michal = new Array(0);
         michal = tangon.bind(oscard)(zuuluu, michal);
-        michal = oscard.useRef;
+        zuuluu = _closure1_slot1;
+        tangon = _closure1_slot2;
+        michal = 25;
+        michal = tangon[michal];
         tangon = undefined;
+        michal = zuuluu.bind(tangon)(michal);
+        michal = michal.bind(tangon)();
+        michal = oscard.useRef;
         michal = michal.bind(oscard)(tangon);
         var _closure2_slot0 = michal;
         zuuluu = oscard.useCallback;
@@ -643,7 +649,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     tangon = report.bind(option)(tangon);
-    report = 25;
+    report = 26;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

@@ -315,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         michal = _closure3_slot0;
                         entity = null;
-                        if(!(entity != michal)) { _fun00006_ip = 97; continue _fun00005 }
+                        if(!(entity != michal)) { _fun00006_ip = 96; continue _fun00005 }
  13:
                         michal = _closure1_slot9;
                         tangon = michal.ImageManager;
@@ -339,7 +339,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = zuuluu.catch;
                         entity = _closure1_slot17;
                         entity = michal.bind(zuuluu)(entity);
- 97:
+ 96:
                         entity = undefined;
                         return entity;
                     }
@@ -1240,7 +1240,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = golfie.bind(option)(oscard);
                     oscard = 1;
                     oscard = golfie <= oscard;
-                    if(!oscard) { _fun00018_ip = 346; continue _fun00017 }
+                    if(!oscard) { _fun00018_ip = 345; continue _fun00017 }
  247:
                     verify = _closure1_slot19;
                     option = _closure1_slot7;
@@ -1266,7 +1266,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = verify.bind(report)(yankee, offset);
                     golfie['children'] = offset;
                     oscard = verify.bind(report)(option, golfie);
- 346:
+ 345:
                     michal['children'] = oscard;
                     entity = entity.content;
                     entity = entity.id;

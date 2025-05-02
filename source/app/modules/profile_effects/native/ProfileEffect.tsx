@@ -545,7 +545,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = zuuluu.bind(option)(entity, michal);
             zuuluu = _closure1_slot9;
             michal = _closure1_slot5;
-            if(!(romeon !== backup)) { _fun00014_ip = 354; continue _fun00013 }
+            if(!(romeon !== backup)) { _fun00014_ip = 353; continue _fun00013 }
  208:
             entity = {};
             option = golfie.profileEffects;
@@ -582,8 +582,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['style'] = offset;
             report = verify.bind(tangon)(option, report);
             entity['children'] = report;
-            _fun00014_ip = 383; continue _fun00013;
- 354:
+            _fun00014_ip = 382; continue _fun00013;
+ 353:
             report = {};
             golfie = golfie.profileEffects;
             report['style'] = golfie;
@@ -591,7 +591,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['pointerEvents'] = golfie;
             report['onLayout'] = oscard;
             entity = report;
- 383:
+ 382:
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }

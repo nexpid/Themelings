@@ -78,39 +78,47 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = entity.type;
             michal = _closure1_slot9;
             michal = michal.GUILD;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 121; continue _fun00003 }
- 25:
+            if(!(michal !== zuuluu)) { _fun00004_ip = 150; continue _fun00003 }
+ 28:
             michal = _closure1_slot9;
             michal = michal.GUILD_CHANNEL;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 109; continue _fun00003 }
- 39:
+            if(!(michal !== zuuluu)) { _fun00004_ip = 138; continue _fun00003 }
+ 42:
             michal = _closure1_slot9;
             michal = michal.THREAD;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 109; continue _fun00003 }
- 53:
+            if(!(michal !== zuuluu)) { _fun00004_ip = 138; continue _fun00003 }
+ 56:
             michal = _closure1_slot9;
             michal = michal.CHANNEL;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 97; continue _fun00003 }
- 67:
+            if(!(michal !== zuuluu)) { _fun00004_ip = 126; continue _fun00003 }
+ 70:
             michal = _closure1_slot9;
             michal = michal.DMS;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 85; continue _fun00003 }
- 81:
+            if(!(michal !== zuuluu)) { _fun00004_ip = 114; continue _fun00003 }
+ 84:
+            michal = _closure1_slot9;
+            michal = michal.FAVORITES;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 102; continue _fun00003 }
+ 98:
             michal = undefined;
             return michal;
- 85:
+ 102:
+            michal = _closure1_slot4;
+            michal = michal.FAVORITES;
+            return michal;
+ 114:
             michal = _closure1_slot4;
             michal = michal.DM_LIST;
             return michal;
- 97:
+ 126:
             michal = _closure1_slot4;
             michal = michal.DM_CHANNEL;
             return michal;
- 109:
+ 138:
             michal = _closure1_slot4;
             michal = michal.GUILD_CHANNEL;
             return michal;
- 121:
+ 150:
             entity = _closure1_slot4;
             entity = entity.GUILD;
             return entity;

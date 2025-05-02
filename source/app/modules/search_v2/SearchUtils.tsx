@@ -32,33 +32,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = entity.type;
             tangon = _closure1_slot7;
             tangon = tangon.GUILD;
-            if(!(tangon !== zuuluu)) { _fun00004_ip = 99; continue _fun00003 }
+            if(!(tangon !== zuuluu)) { _fun00004_ip = 113; continue _fun00003 }
  25:
             tangon = _closure1_slot7;
             tangon = tangon.GUILD_CHANNEL;
-            if(!(tangon !== zuuluu)) { _fun00004_ip = 92; continue _fun00003 }
+            if(!(tangon !== zuuluu)) { _fun00004_ip = 106; continue _fun00003 }
  39:
             tangon = _closure1_slot7;
             tangon = tangon.CHANNEL;
-            if(!(tangon !== zuuluu)) { _fun00004_ip = 92; continue _fun00003 }
+            if(!(tangon !== zuuluu)) { _fun00004_ip = 106; continue _fun00003 }
  53:
             tangon = _closure1_slot7;
             tangon = tangon.THREAD;
-            if(!(tangon !== zuuluu)) { _fun00004_ip = 92; continue _fun00003 }
+            if(!(tangon !== zuuluu)) { _fun00004_ip = 106; continue _fun00003 }
  67:
-            michal = _closure1_slot7;
-            michal = michal.DMS;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 85; continue _fun00003 }
+            tangon = _closure1_slot7;
+            tangon = tangon.DMS;
+            if(!(tangon !== zuuluu)) { _fun00004_ip = 99; continue _fun00003 }
  81:
+            michal = _closure1_slot7;
+            michal = michal.FAVORITES;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 99; continue _fun00003 }
+ 95:
             michal = undefined;
             return michal;
- 85:
+ 99:
             michal = entity.type;
             return michal;
- 92:
+ 106:
             michal = entity.channelId;
             return michal;
- 99:
+ 113:
             entity = entity.guildId;
             return entity;
         }
@@ -398,33 +402,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = entity.type;
             tangon = _closure1_slot7;
             tangon = tangon.GUILD;
-            if(!(tangon !== zuuluu)) { _fun00020_ip = 99; continue _fun00019 }
+            if(!(tangon !== zuuluu)) { _fun00020_ip = 113; continue _fun00019 }
  25:
             tangon = _closure1_slot7;
             tangon = tangon.GUILD_CHANNEL;
-            if(!(tangon !== zuuluu)) { _fun00020_ip = 99; continue _fun00019 }
+            if(!(tangon !== zuuluu)) { _fun00020_ip = 113; continue _fun00019 }
  39:
             tangon = _closure1_slot7;
             tangon = tangon.CHANNEL;
-            if(!(tangon !== zuuluu)) { _fun00020_ip = 92; continue _fun00019 }
+            if(!(tangon !== zuuluu)) { _fun00020_ip = 106; continue _fun00019 }
  53:
             tangon = _closure1_slot7;
             tangon = tangon.THREAD;
-            if(!(tangon !== zuuluu)) { _fun00020_ip = 92; continue _fun00019 }
+            if(!(tangon !== zuuluu)) { _fun00020_ip = 106; continue _fun00019 }
  67:
-            michal = _closure1_slot7;
-            michal = michal.DMS;
-            if(!(michal !== zuuluu)) { _fun00020_ip = 85; continue _fun00019 }
+            tangon = _closure1_slot7;
+            tangon = tangon.DMS;
+            if(!(tangon !== zuuluu)) { _fun00020_ip = 99; continue _fun00019 }
  81:
+            michal = _closure1_slot7;
+            michal = michal.FAVORITES;
+            if(!(michal !== zuuluu)) { _fun00020_ip = 99; continue _fun00019 }
+ 95:
             michal = undefined;
             return michal;
- 85:
+ 99:
             michal = entity.type;
             return michal;
- 92:
+ 106:
             michal = entity.channelId;
             return michal;
- 99:
+ 113:
             entity = entity.guildId;
             return entity;
         }
@@ -608,27 +616,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = entity.type;
             michal = _closure1_slot7;
             michal = michal.CHANNEL;
-            if(!(michal !== zuuluu)) { _fun00024_ip = 210; continue _fun00023 }
+            if(!(michal !== zuuluu)) { _fun00024_ip = 227; continue _fun00023 }
  28:
             michal = _closure1_slot7;
             michal = michal.DMS;
-            if(!(michal !== zuuluu)) { _fun00024_ip = 149; continue _fun00023 }
- 42:
+            if(!(michal !== zuuluu)) { _fun00024_ip = 166; continue _fun00023 }
+ 45:
             michal = _closure1_slot7;
             michal = michal.GUILD_CHANNEL;
-            if(!(michal !== zuuluu)) { _fun00024_ip = 88; continue _fun00023 }
- 56:
+            if(!(michal !== zuuluu)) { _fun00024_ip = 105; continue _fun00023 }
+ 59:
             michal = _closure1_slot7;
             michal = michal.GUILD;
-            if(!(michal !== zuuluu)) { _fun00024_ip = 88; continue _fun00023 }
- 70:
+            if(!(michal !== zuuluu)) { _fun00024_ip = 105; continue _fun00023 }
+ 73:
             michal = _closure1_slot7;
             michal = michal.THREAD;
-            if(!(michal !== zuuluu)) { _fun00024_ip = 88; continue _fun00023 }
- 84:
+            if(!(michal !== zuuluu)) { _fun00024_ip = 105; continue _fun00023 }
+ 87:
+            michal = _closure1_slot7;
+            michal = michal.FAVORITES;
+            if(!(michal !== zuuluu)) { _fun00024_ip = 105; continue _fun00023 }
+ 101:
             michal = undefined;
             return michal;
- 88:
+ 105:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
             michal = 5;
@@ -643,7 +655,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.AXPbZm;
             michal = zuuluu.bind(tangon)(michal);
             return michal;
- 149:
+ 166:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
             michal = 5;
@@ -658,7 +670,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.Br0xJC;
             michal = zuuluu.bind(tangon)(michal);
             return michal;
- 210:
+ 227:
             report = _closure1_slot0;
             oscard = _closure1_slot2;
             entity = 5;

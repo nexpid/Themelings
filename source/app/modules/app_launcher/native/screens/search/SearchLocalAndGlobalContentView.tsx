@@ -542,8 +542,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = entity.onScroll;
             var _closure2_slot1 = golfie;
             variable36 = entity.onSend;
-            cntext = entity.entrypoint;
-            var _closure2_slot2 = cntext;
+            record = entity.entrypoint;
+            var _closure2_slot2 = record;
             report = undefined;
             var _closure2_slot9 = report;
             var _closure2_slot10 = report;
@@ -556,8 +556,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot17 = report;
             var _closure2_slot18 = report;
             entity = _closure1_slot17;
-            papara = entity.bind(report)();
-            var _closure2_slot3 = papara;
+            target = entity.bind(report)();
+            var _closure2_slot3 = target;
             tangon = _closure1_slot1;
             verify = _closure1_slot2;
             entity = 16;
@@ -628,50 +628,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['commandLimit'] = oscard;
             sizing = 10;
             option['applicationLimit'] = sizing;
-            target = 14;
-            offset = offset[target];
+            papara = 14;
+            offset = offset[papara];
             offset = kiloes.bind(report)(offset);
             offset = offset.AppLauncherEntrypoint;
             offset = offset.VOICE;
-            offset = cntext === offset;
+            offset = record === offset;
             if(offset) { _fun00012_ip = 396; continue _fun00011 }
  393:
             offset = romeon;
  396:
-            if(offset) { _fun00012_ip = 432; continue _fun00011 }
- 399:
-            kiloes = _closure1_slot0;
-            romeon = _closure1_slot2;
-            romeon = romeon[target];
-            romeon = kiloes.bind(report)(romeon);
-            romeon = romeon.AppLauncherEntrypoint;
-            romeon = romeon.QUICK_LAUNCHER;
-            offset = cntext === romeon;
- 432:
-            if(offset) { _fun00012_ip = 468; continue _fun00011 }
- 435:
-            kiloes = _closure1_slot0;
-            romeon = _closure1_slot2;
-            romeon = romeon[target];
-            romeon = kiloes.bind(report)(romeon);
-            romeon = romeon.AppLauncherEntrypoint;
-            romeon = romeon.PLAY_TAB;
-            offset = cntext === romeon;
- 468:
             option['searchesActivities'] = offset;
             offset = _closure1_slot0;
             romeon = _closure1_slot2;
-            kiloes = romeon[target];
+            kiloes = romeon[papara];
             kiloes = offset.bind(report)(kiloes);
             kiloes = kiloes.AppLauncherEntrypoint;
             kiloes = kiloes.TEXT;
-            kiloes = cntext === kiloes;
+            kiloes = record === kiloes;
             option['searchesCommands'] = kiloes;
-            kiloes = romeon[target];
+            kiloes = romeon[papara];
             kiloes = offset.bind(report)(kiloes);
             kiloes = kiloes.AppLauncherEntrypoint;
             kiloes = kiloes.TEXT;
-            kiloes = cntext === kiloes;
+            kiloes = record === kiloes;
             option['searchesBots'] = kiloes;
             option = verify.bind(backup)(option);
             kiloes = option.loading;
@@ -688,7 +668,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['context'] = variable39;
             option = true;
             oscard['fetches'] = option;
-            oscard['entrypoint'] = cntext;
+            oscard['entrypoint'] = record;
             backup = backup.bind(sizing)(oscard);
             oscard = backup.fetchState;
             _closure2_slot12 = oscard;
@@ -750,7 +730,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = ctrled.useCallback;
             update = new Array(4);
             update[0] = variable39;
-            update[1] = cntext;
+            update[1] = record;
             update[2] = entity;
             update[3] = tangon;
             backup = function(argFoo, argBar) {
@@ -853,7 +833,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup[0] = entity;
             backup[1] = variable39;
             backup[2] = tangon;
-            backup[3] = cntext;
+            backup[3] = record;
             entity = function(argFoo) {
                 entity = argFoo;
                 report = entity.section;
@@ -1056,11 +1036,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _closure2_slot17 = romeon;
             oscard = vacuum.length;
             ctrled = config === oscard;
-            if(!ctrled) { _fun00012_ip = 938; continue _fun00011 }
- 929:
+            if(!ctrled) { _fun00012_ip = 866; continue _fun00011 }
+ 857:
             oscard = romeon.length;
             ctrled = config === oscard;
- 938:
+ 866:
             backup = _closure1_slot4;
             offset = backup.useCallback;
             kiloes = romeon.length;
@@ -1219,7 +1199,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = kiloes.bind(sizing)(golfie, offset);
             result = _closure1_slot4;
             sizing = result.useMemo;
-            offset = papara.list;
+            offset = target.list;
             kiloes = new Array(2);
             kiloes[0] = offset;
             kiloes[1] = zuuluu;
@@ -1280,14 +1260,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = {};
             update = vacuum.length;
             sequen = null;
-            if(!(config !== update)) { _fun00012_ip = 1748; continue _fun00011 }
- 1226:
+            if(!(config !== update)) { _fun00012_ip = 1676; continue _fun00011 }
+ 1154:
             status = _closure1_slot11;
-            record = _closure1_slot12;
+            cntext = _closure1_slot12;
             update = {};
             limora = _closure1_slot5;
             sierra = {};
-            whisks = papara.commandsHeaderContainer;
+            whisks = target.commandsHeaderContainer;
             sierra['style'] = whisks;
             variable40 = _closure1_slot10;
             variable41 = _closure1_slot0;
@@ -1297,7 +1277,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             whisks = variable41.bind(report)(whisks);
             equals = whisks.Text;
             whisks = {'variant': 'text-md/medium', 'color': 'header-secondary'};
-            variable44 = papara.sectionHeader;
+            variable44 = target.sectionHeader;
             whisks['style'] = variable44;
             variable50 = 29;
             variable44 = variable42[variable50];
@@ -1320,8 +1300,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = equals.COLLAPSED_LIST_ITEM_MAX;
             variable40 = variable40 > equals;
             equals = null;
-            if(!variable40) { _fun00012_ip = 1667; continue _fun00011 }
- 1405:
+            if(!variable40) { _fun00012_ip = 1595; continue _fun00011 }
+ 1333:
             variable42 = _closure1_slot10;
             variable41 = _closure1_slot0;
             variable44 = _closure1_slot2;
@@ -1330,9 +1310,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable40 = variable41.bind(report)(variable40);
             variable41 = variable40.AnimatedPressableHighlight;
             variable40 = {};
-            variable44 = papara.commandsCTA;
+            variable44 = target.commandsCTA;
             variable40['style'] = variable44;
-            variable44 = papara.commandsCTAUnderlayColor;
+            variable44 = target.commandsCTAUnderlayColor;
             variable44 = variable44.color;
             variable40['underlayColor'] = variable44;
             variable45 = _closure1_slot0;
@@ -1344,15 +1324,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable44 = variable44[variable50];
             variable44 = variable45.bind(report)(variable44);
             variable45 = variable44.t;
-            if(quebec) { _fun00012_ip = 1520; continue _fun00011 }
- 1507:
+            if(quebec) { _fun00012_ip = 1448; continue _fun00011 }
+ 1435:
             variable44 = variable45.xal319;
             variable44 = variable47.bind(variable48)(variable44);
-            _fun00012_ip = 1531; continue _fun00011;
- 1520:
+            _fun00012_ip = 1459; continue _fun00011;
+ 1448:
             variable45 = variable45.nPGLFR;
             variable44 = variable47.bind(variable48)(variable45);
- 1531:
+ 1459:
             variable40['accessibilityLabel'] = variable44;
             variable40['onPress'] = variable43;
             variable45 = _closure1_slot10;
@@ -1371,20 +1351,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable46 = variable46[variable50];
             variable46 = variable47.bind(report)(variable46);
             variable47 = variable46.t;
-            if(quebec) { _fun00012_ip = 1636; continue _fun00011 }
- 1623:
+            if(quebec) { _fun00012_ip = 1564; continue _fun00011 }
+ 1551:
             variable46 = variable47.xal319;
             variable46 = variable48.bind(variable49)(variable46);
-            _fun00012_ip = 1647; continue _fun00011;
- 1636:
+            _fun00012_ip = 1575; continue _fun00011;
+ 1564:
             variable47 = variable47.nPGLFR;
             variable46 = variable48.bind(variable49)(variable47);
- 1647:
+ 1575:
             variable43['children'] = variable46;
             variable43 = variable45.bind(report)(variable44, variable43);
             variable40['children'] = variable43;
             equals = variable42.bind(report)(variable41, variable40);
- 1667:
+ 1595:
             whisks[1] = equals;
             sierra['children'] = whisks;
             limora = status.bind(report)(limora, sierra);
@@ -1402,33 +1382,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora = equals.bind(report)(whisks, limora);
             sierra[1] = limora;
             update['children'] = sierra;
-            sequen = status.bind(report)(record, update);
- 1748:
+            sequen = status.bind(report)(cntext, update);
+ 1676:
             update = new Array(4);
             update[0] = sequen;
             vacuum = vacuum.length;
             sequen = vacuum > config;
             vacuum = null;
-            if(!sequen) { _fun00012_ip = 1810; continue _fun00011 }
- 1770:
+            if(!sequen) { _fun00012_ip = 1738; continue _fun00011 }
+ 1698:
             sequen = romeon.length;
             sequen = sequen > config;
             vacuum = null;
-            if(!sequen) { _fun00012_ip = 1810; continue _fun00011 }
- 1784:
+            if(!sequen) { _fun00012_ip = 1738; continue _fun00011 }
+ 1712:
             status = _closure1_slot10;
-            record = _closure1_slot5;
+            cntext = _closure1_slot5;
             sequen = {};
-            sierra = papara.divider;
+            sierra = target.divider;
             sequen['style'] = sierra;
-            vacuum = status.bind(report)(record, sequen);
- 1810:
+            vacuum = status.bind(report)(cntext, sequen);
+ 1738:
             update[1] = vacuum;
             sequen = romeon.length;
             vacuum = null;
-            if(!(config !== sequen)) { _fun00012_ip = 1935; continue _fun00011 }
- 1825:
-            record = _closure1_slot10;
+            if(!(config !== sequen)) { _fun00012_ip = 1863; continue _fun00011 }
+ 1753:
+            cntext = _closure1_slot10;
             limora = _closure1_slot0;
             whisks = _closure1_slot2;
             sequen = 28;
@@ -1436,25 +1416,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = limora.bind(report)(sequen);
             config = sequen.Text;
             sequen = {'variant': 'text-md/medium', 'color': 'header-secondary'};
-            papara = papara.sectionHeader;
-            sequen['style'] = papara;
-            papara = 29;
-            status = whisks[papara];
+            target = target.sectionHeader;
+            sequen['style'] = target;
+            target = 29;
+            status = whisks[target];
             status = limora.bind(report)(status);
             sierra = status.intl;
             status = sierra.string;
-            papara = whisks[papara];
-            papara = limora.bind(report)(papara);
-            papara = papara.t;
-            papara = papara.PHjkRE;
-            papara = status.bind(sierra)(papara);
-            sequen['children'] = papara;
-            vacuum = record.bind(report)(config, sequen);
- 1935:
+            target = whisks[target];
+            target = limora.bind(report)(target);
+            target = target.t;
+            target = target.PHjkRE;
+            target = status.bind(sierra)(target);
+            sequen['children'] = target;
+            vacuum = cntext.bind(report)(config, sequen);
+ 1863:
             update[2] = vacuum;
             source = null;
-            if(!ctrled) { _fun00012_ip = 2089; continue _fun00011 }
- 1947:
+            if(!ctrled) { _fun00012_ip = 1942; continue _fun00011 }
+ 1872:
             sequen = _closure1_slot10;
             vacuum = _closure1_slot1;
             config = _closure1_slot2;
@@ -1463,35 +1443,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = vacuum.bind(report)(ctrled);
             ctrled = {};
             ctrled['query'] = tangon;
-            record = _closure1_slot0;
-            config = config[target];
-            config = record.bind(report)(config);
+            cntext = _closure1_slot0;
+            config = config[papara];
+            config = cntext.bind(report)(config);
             config = config.AppLauncherEntrypoint;
             config = config.VOICE;
-            config = cntext === config;
-            if(config) { _fun00012_ip = 2042; continue _fun00011 }
- 2009:
-            papara = _closure1_slot0;
-            record = _closure1_slot2;
-            record = record[target];
-            record = papara.bind(report)(record);
-            record = record.AppLauncherEntrypoint;
-            record = record.QUICK_LAUNCHER;
-            config = cntext === record;
- 2042:
-            if(config) { _fun00012_ip = 2078; continue _fun00011 }
- 2045:
-            papara = _closure1_slot0;
-            record = _closure1_slot2;
-            record = record[target];
-            record = papara.bind(report)(record);
-            record = record.AppLauncherEntrypoint;
-            record = record.PLAY_TAB;
-            config = cntext === record;
- 2078:
+            config = record === config;
             ctrled['showsGenericMessage'] = config;
             source = sequen.bind(report)(vacuum, ctrled);
- 2089:
+ 1942:
             update[3] = source;
             output['children'] = update;
             output = echoed.bind(report)(result, output);
