@@ -691,15 +691,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: handleSearch
         entity = argFoo;
         tangon = entity.query;
-        michal = '';
-        michal = michal !== tangon;
-        _closure1_slot17 = michal;
-        zuuluu = _closure1_slot29;
-        michal = _closure1_slot28;
+        entity = '';
+        entity = entity !== tangon;
+        _closure1_slot17 = entity;
+        zuuluu = _closure1_slot28;
         entity = undefined;
-        michal = michal.bind(entity)(tangon);
-        michal = michal.rows;
-        michal = zuuluu.bind(entity)(michal);
+        zuuluu = zuuluu.bind(entity)(tangon);
+        zuuluu = zuuluu.rows;
+        report = zuuluu.sort;
+        tangon = function(argFoo, argBar) {
+            _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+ 0:
+                zuuluu = argFoo;
+                michal = argBar;
+                entity = zuuluu.score;
+                oscard = null;
+                tangon = oscard != entity;
+                entity = 0;
+                if(!tangon) { _fun00018_ip = 54; continue _fun00017 }
+ 23:
+                tangon = michal.score;
+                tangon = oscard != tangon;
+                entity = 0;
+                if(!tangon) { _fun00018_ip = 54; continue _fun00017 }
+ 38:
+                zuuluu = zuuluu.score;
+                michal = michal.score;
+                entity = zuuluu - michal;
+ 54:
+                return entity;
+            }
+        };
+        tangon = report.bind(zuuluu)(tangon);
+        michal = _closure1_slot29;
+        michal = michal.bind(entity)(zuuluu);
         return entity;
     };
     michal['INVITE_SUGGESTIONS_SEARCH'] = tangon;

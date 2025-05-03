@@ -253,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.UploadPlatform;
             michal = michal.REACT_NATIVE;
             entity = null;
-            if(!(zuuluu === michal)) { _fun00008_ip = 626; continue _fun00007 }
+            if(!(zuuluu === michal)) { _fun00008_ip = 630; continue _fun00007 }
  176:
             tangon = _closure1_slot17;
             source = _closure1_slot1;
@@ -352,7 +352,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 626:
+ 630:
             return entity;
         }
     };

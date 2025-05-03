@@ -56,19 +56,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.jsxs;
     var _closure1_slot12 = tangon;
     tangon = {};
-    report = 'function hasVideoEnded_VideoQuestPlayerTsx1(currentTime,videoDuration){return currentTime>=videoDuration;}';
+    report = 'function hasVideoEnded_VideoQuestPlayerTsx1(currentTime,videoDuration){return currentTime>=videoDuration-1;}';
     tangon['code'] = report;
     var _closure1_slot13 = tangon;
     tangon = function() {
         entity = function(argFoo, argBar) { // Original name: hasVideoEnded
-            michal = argFoo;
-            entity = argBar;
-            entity = michal >= entity;
+            michal = argBar;
+            entity = 1;
+            michal = michal - entity;
+            entity = argFoo;
+            entity = entity >= michal;
             return entity;
         };
         michal = {};
         entity['__closure'] = michal;
-        michal = 13640509591212.0;
+        michal = 3281537893520.0;
         entity['__workletHash'] = michal;
         michal = _closure1_slot13;
         entity['__initData'] = michal;
@@ -1022,55 +1024,65 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             variable42 = variable41.bind(romeon)(sierra, variable40);
             variable40 = romeon.useCallback;
-            sierra = new Array(3);
+            sierra = new Array(4);
             sierra[0] = papara;
             sierra[1] = variable46;
             sierra[2] = record;
+            sierra[3] = equals;
             record = function() {
                 _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
-                    michal = _closure2_slot2;
-                    zuuluu = michal.current;
-                    michal = null;
-                    if(!(michal != zuuluu)) { _fun00022_ip = 172; continue _fun00021 }
+                    entity = _closure2_slot2;
+                    zuuluu = entity.current;
+                    entity = null;
+                    if(!(entity != zuuluu)) { _fun00022_ip = 209; continue _fun00021 }
  21:
                     zuuluu = _closure2_slot16;
-                    michal = zuuluu.get;
-                    zuuluu = michal.bind(zuuluu)();
-                    michal = _closure2_slot6;
-                    offset = zuuluu * michal;
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 20;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    tangon = tangon.bind(michal)(zuuluu);
-                    zuuluu = tangon.isAndroid;
-                    zuuluu = zuuluu.bind(tangon)();
-                    if(!zuuluu) { _fun00022_ip = 99; continue _fun00021 }
+                    entity = zuuluu.get;
+                    zuuluu = entity.bind(zuuluu)();
+                    entity = _closure2_slot6;
+                    yankee = zuuluu * entity;
+                    report = _closure1_slot0;
+                    tangon = _closure1_slot2;
+                    zuuluu = 20;
+                    tangon = tangon[zuuluu];
+                    zuuluu = undefined;
+                    report = report.bind(zuuluu)(tangon);
+                    tangon = report.isAndroid;
+                    tangon = tangon.bind(report)();
+                    if(!tangon) { _fun00022_ip = 99; continue _fun00021 }
  79:
-                    zuuluu = _closure2_slot2;
-                    tangon = zuuluu.current;
-                    zuuluu = tangon.seek;
-                    zuuluu = zuuluu.bind(tangon)(offset);
- 99:
-                    zuuluu = _closure2_slot2;
-                    report = zuuluu.current;
+                    tangon = _closure2_slot2;
+                    report = tangon.current;
                     tangon = report.seek;
-                    zuuluu = global;
-                    option = zuuluu.Math;
-                    golfie = option.max;
-                    verify = zuuluu.Math;
-                    oscard = verify.floor;
-                    zuuluu = 10;
-                    zuuluu = offset - zuuluu;
-                    oscard = oscard.bind(verify)(zuuluu);
-                    zuuluu = 0;
-                    zuuluu = golfie.bind(option)(zuuluu, oscard);
-                    zuuluu = tangon.bind(report)(zuuluu);
-                    entity = _closure2_slot26;
-                    entity = entity.bind(michal)();
- 172:
+                    tangon = tangon.bind(report)(yankee);
+ 99:
+                    tangon = _closure2_slot2;
+                    oscard = tangon.current;
+                    report = oscard.seek;
+                    tangon = global;
+                    verify = tangon.Math;
+                    option = verify.max;
+                    offset = tangon.Math;
+                    golfie = offset.floor;
+                    tangon = 10;
+                    tangon = yankee - tangon;
+                    golfie = golfie.bind(offset)(tangon);
+                    tangon = 0;
+                    tangon = option.bind(verify)(tangon, golfie);
+                    tangon = report.bind(oscard)(tangon);
+                    tangon = _closure2_slot26;
+                    tangon = tangon.bind(zuuluu)();
+                    report = _closure2_slot10;
+                    tangon = _closure1_slot17;
+                    tangon = tangon.ENDED;
+                    if(!(report === tangon)) { _fun00022_ip = 209; continue _fun00021 }
+ 190:
+                    michal = _closure2_slot11;
+                    entity = _closure1_slot17;
+                    entity = entity.PLAYING;
+                    entity = michal.bind(zuuluu)(entity);
+ 209:
                     entity = undefined;
                     return entity;
                 }
@@ -1249,25 +1261,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot10;
             zuuluu = zuuluu.ACTIVE;
             zuuluu = tangon === zuuluu;
-            if(!(entity != variable47)) { _fun00004_ip = 3816; continue _fun00003 }
- 1927:
+            if(!(entity != variable47)) { _fun00004_ip = 3820; continue _fun00003 }
+ 1931:
             sierra = !zuuluu;
-            if(!zuuluu) { _fun00004_ip = 1947; continue _fun00003 }
- 1933:
+            if(!zuuluu) { _fun00004_ip = 1951; continue _fun00003 }
+ 1937:
             zuuluu = _closure1_slot17;
             zuuluu = zuuluu.PAUSED;
             sierra = equals === zuuluu;
- 1947:
-            if(sierra) { _fun00004_ip = 1964; continue _fun00003 }
- 1950:
+ 1951:
+            if(sierra) { _fun00004_ip = 1968; continue _fun00003 }
+ 1954:
             zuuluu = _closure1_slot17;
             zuuluu = zuuluu.LOADING;
             sierra = equals === zuuluu;
- 1964:
-            if(sierra) { _fun00004_ip = 1970; continue _fun00003 }
- 1967:
+ 1968:
+            if(sierra) { _fun00004_ip = 1974; continue _fun00003 }
+ 1971:
             sierra = michal;
- 1970:
+ 1974:
             tangon = _closure1_slot11;
             zuuluu = _closure1_slot5;
             michal = {};
@@ -1299,8 +1311,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = _closure1_slot17;
             verify = verify.ERRORED;
             romeon = equals !== verify;
-            if(!romeon) { _fun00004_ip = 2256; continue _fun00003 }
- 2109:
+            if(!romeon) { _fun00004_ip = 2260; continue _fun00003 }
+ 2113:
             echoed = _closure1_slot11;
             foxtra = _closure1_slot1;
             variable46 = _closure1_slot2;
@@ -1315,14 +1327,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable45 = {};
             variable49 = entity == variable48;
             variable46 = undefined;
-            if(variable49) { _fun00004_ip = 2184; continue _fun00003 }
- 2179:
+            if(variable49) { _fun00004_ip = 2188; continue _fun00003 }
+ 2183:
             variable46 = variable48.url;
- 2184:
-            if(!(entity == variable46)) { _fun00004_ip = 2193; continue _fun00003 }
  2188:
+            if(!(entity == variable46)) { _fun00004_ip = 2197; continue _fun00003 }
+ 2192:
             variable46 = variable47.url;
- 2193:
+ 2197:
             variable45['uri'] = variable46;
             verify['source'] = variable45;
             verify['onBuffer'] = variable44;
@@ -1336,7 +1348,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = 'contain';
             verify['resizeMode'] = target;
             romeon = echoed.bind(report)(foxtra, verify);
- 2256:
+ 2260:
             verify = new Array(5);
             verify[0] = romeon;
             echoed = _closure1_slot11;
@@ -1354,62 +1366,62 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = {};
             vacuum = entity == sequen;
             target = undefined;
-            if(vacuum) { _fun00004_ip = 2333; continue _fun00003 }
- 2328:
+            if(vacuum) { _fun00004_ip = 2337; continue _fun00003 }
+ 2332:
             target = sequen.top;
- 2333:
+ 2337:
             variable37 = entity != target;
             vacuum = 0;
-            if(!variable37) { _fun00004_ip = 2345; continue _fun00003 }
- 2342:
+            if(!variable37) { _fun00004_ip = 2349; continue _fun00003 }
+ 2346:
             vacuum = target;
- 2345:
+ 2349:
             source['top'] = vacuum;
             vacuum = entity == sequen;
             target = undefined;
-            if(vacuum) { _fun00004_ip = 2363; continue _fun00003 }
- 2358:
+            if(vacuum) { _fun00004_ip = 2367; continue _fun00003 }
+ 2362:
             target = sequen.bottom;
- 2363:
+ 2367:
             variable37 = entity != target;
             vacuum = 0;
-            if(!variable37) { _fun00004_ip = 2375; continue _fun00003 }
- 2372:
+            if(!variable37) { _fun00004_ip = 2379; continue _fun00003 }
+ 2376:
             vacuum = target;
- 2375:
+ 2379:
             source['bottom'] = vacuum;
             vacuum = entity == sequen;
             target = undefined;
-            if(vacuum) { _fun00004_ip = 2393; continue _fun00003 }
- 2388:
+            if(vacuum) { _fun00004_ip = 2397; continue _fun00003 }
+ 2392:
             target = sequen.left;
- 2393:
+ 2397:
             variable37 = entity != target;
             vacuum = 0;
-            if(!variable37) { _fun00004_ip = 2405; continue _fun00003 }
- 2402:
+            if(!variable37) { _fun00004_ip = 2409; continue _fun00003 }
+ 2406:
             vacuum = target;
- 2405:
+ 2409:
             source['left'] = vacuum;
             target = entity == sequen;
             vacuum = undefined;
-            if(target) { _fun00004_ip = 2423; continue _fun00003 }
- 2418:
+            if(target) { _fun00004_ip = 2427; continue _fun00003 }
+ 2422:
             vacuum = sequen.right;
- 2423:
+ 2427:
             sequen = entity != vacuum;
             ctrled = 0;
-            if(!sequen) { _fun00004_ip = 2435; continue _fun00003 }
- 2432:
+            if(!sequen) { _fun00004_ip = 2439; continue _fun00003 }
+ 2436:
             ctrled = vacuum;
- 2435:
+ 2439:
             source['right'] = ctrled;
             romeon['style'] = source;
             romeon = echoed.bind(report)(foxtra, romeon);
             verify[1] = romeon;
             yankee = !yankee;
-            if(!yankee) { _fun00004_ip = 2508; continue _fun00003 }
- 2459:
+            if(!yankee) { _fun00004_ip = 2512; continue _fun00003 }
+ 2463:
             echoed = _closure1_slot11;
             foxtra = _closure1_slot5;
             romeon = {};
@@ -1422,7 +1434,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = echoed.bind(report)(ctrled, source);
             romeon['children'] = source;
             yankee = echoed.bind(report)(foxtra, romeon);
- 2508:
+ 2512:
             verify[2] = yankee;
             foxtra = _closure1_slot12;
             romeon = _closure1_slot1;
@@ -1440,8 +1452,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = 'landscape';
             offset = offset === kiloes;
             echoed = offset;
-            if(!offset) { _fun00004_ip = 2920; continue _fun00003 }
- 2584:
+            if(!offset) { _fun00004_ip = 2924; continue _fun00003 }
+ 2588:
             source = _closure1_slot12;
             update = _closure1_slot5;
             kiloes = {};
@@ -1473,15 +1485,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable36 = variable37.bind(report)(variable36);
             variable37 = variable36.ClosedCaptionsOutlineIcon;
             variable36 = {};
-            if(variable39) { _fun00004_ip = 2732; continue _fun00003 }
- 2719:
+            if(variable39) { _fun00004_ip = 2736; continue _fun00003 }
+ 2723:
             variable39 = sizing.iconDisabled;
             variable39 = variable39.color;
-            _fun00004_ip = 2742; continue _fun00003;
- 2732:
+            _fun00004_ip = 2746; continue _fun00003;
+ 2736:
             variable40 = sizing.icon;
             variable39 = variable40.color;
- 2742:
+ 2746:
             variable36['color'] = variable39;
             variable36 = target.bind(report)(variable37, variable36);
             ctrled['children'] = variable36;
@@ -1521,7 +1533,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled[1] = vacuum;
             kiloes['children'] = ctrled;
             echoed = source.bind(report)(update, kiloes);
- 2920:
+ 2924:
             kiloes = new Array(3);
             kiloes[0] = echoed;
             source = _closure1_slot12;
@@ -1583,34 +1595,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable36 = variable37.bind(variable38)(variable36);
             sequen['accessibilityLabel'] = variable36;
             sequen['onPress'] = quebec;
-            if(whisks) { _fun00004_ip = 3293; continue _fun00003 }
- 3208:
+            if(whisks) { _fun00004_ip = 3297; continue _fun00003 }
+ 3212:
             whisks = _closure1_slot17;
             whisks = whisks.ERRORED;
-            if(!(equals !== whisks)) { _fun00004_ip = 3293; continue _fun00003 }
- 3222:
+            if(!(equals !== whisks)) { _fun00004_ip = 3297; continue _fun00003 }
+ 3226:
             equals = _closure1_slot11;
             quebec = _closure1_slot0;
             variable36 = _closure1_slot2;
-            if(sierra) { _fun00004_ip = 3257; continue _fun00003 }
- 3237:
+            if(sierra) { _fun00004_ip = 3261; continue _fun00003 }
+ 3241:
             sierra = 34;
             sierra = variable36[sierra];
             sierra = quebec.bind(report)(sierra);
             whisks = sierra.PauseIcon;
-            _fun00004_ip = 3275; continue _fun00003;
- 3257:
+            _fun00004_ip = 3279; continue _fun00003;
+ 3261:
             sierra = 33;
             sierra = variable36[sierra];
             sierra = quebec.bind(report)(sierra);
             whisks = sierra.PlayIcon;
- 3275:
+ 3279:
             sierra = {};
             quebec = 'lg';
             sierra['size'] = quebec;
             sierra = equals.bind(report)(whisks, sierra);
-            _fun00004_ip = 3339; continue _fun00003;
- 3293:
+            _fun00004_ip = 3343; continue _fun00003;
+ 3297:
             quebec = _closure1_slot11;
             equals = _closure1_slot0;
             variable36 = _closure1_slot2;
@@ -1622,7 +1634,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable36 = 'lg';
             whisks['size'] = variable36;
             sierra = quebec.bind(report)(equals, whisks);
- 3339:
+ 3343:
             sequen['children'] = sierra;
             sequen = status.bind(report)(record, sequen);
             ctrled[1] = sequen;
@@ -1662,8 +1674,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = source.bind(report)(update, echoed);
             kiloes[1] = echoed;
             echoed = offset;
-            if(!offset) { _fun00004_ip = 3687; continue _fun00003 }
- 3535:
+            if(!offset) { _fun00004_ip = 3691; continue _fun00003 }
+ 3539:
             ctrled = _closure1_slot11;
             source = _closure1_slot5;
             update = {};
@@ -1698,13 +1710,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = ctrled.bind(report)(sequen, vacuum);
             update['children'] = vacuum;
             echoed = ctrled.bind(report)(source, update);
- 3687:
+ 3691:
             kiloes[2] = echoed;
             yankee['children'] = kiloes;
             yankee = foxtra.bind(report)(romeon, yankee);
             verify[3] = yankee;
-            if(!offset) { _fun00004_ip = 3790; continue _fun00003 }
- 3708:
+            if(!offset) { _fun00004_ip = 3794; continue _fun00003 }
+ 3712:
             foxtra = _closure1_slot11;
             romeon = _closure1_slot5;
             yankee = {};
@@ -1724,14 +1736,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = foxtra.bind(report)(kiloes, backup);
             yankee['children'] = backup;
             offset = foxtra.bind(report)(romeon, yankee);
- 3790:
+ 3794:
             verify[4] = offset;
             oscard['children'] = verify;
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 3816:
+ 3820:
             return entity;
         }
     };

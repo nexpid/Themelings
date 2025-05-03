@@ -566,6 +566,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['ACTIVITY_INSTANCE_EMBED'] = entity;
     entity = 'activity detail page';
     michal['ACTIVITY_DETAIL_PAGE'] = entity;
+    entity = 'activity invite sheet';
+    michal['ACTIVITY_INVITE_SHEET'] = entity;
     entity = 'activities page';
     michal['ACTIVITIES_PAGE'] = entity;
     entity = 'activities page cta';

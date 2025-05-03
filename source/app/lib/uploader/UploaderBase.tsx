@@ -464,8 +464,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = null;
                 if(!(entity != zuuluu)) { _fun00014_ip = 80; continue _fun00013 }
  70:
-                entity = michal._cancel;
-                entity = entity.bind(michal)();
+                entity = zuuluu.call;
+                entity = entity.bind(zuuluu)(michal);
  80:
                 entity = michal._handleComplete;
                 entity = entity.bind(michal)();

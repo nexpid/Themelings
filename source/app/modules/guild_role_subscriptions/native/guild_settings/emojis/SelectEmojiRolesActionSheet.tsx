@@ -237,15 +237,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = offset.saveButton;
             foxtra = new Array(2);
             foxtra[0] = output;
-            if(sizing) { _fun00002_ip = 258; continue _fun00001 }
- 252:
+            if(sizing) { _fun00002_ip = 262; continue _fun00001 }
+ 256:
             kiloes = offset.saveButtonDisabled;
- 258:
+ 262:
             foxtra[1] = kiloes;
             oscard['style'] = foxtra;
             foxtra = null;
-            if(!(foxtra != backup)) { _fun00002_ip = 329; continue _fun00001 }
- 272:
+            if(!(foxtra != backup)) { _fun00002_ip = 333; continue _fun00001 }
+ 276:
             sizing = _closure1_slot0;
             output = _closure1_slot2;
             foxtra = 12;
@@ -258,8 +258,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.t;
             foxtra = foxtra.R3BPHx;
             foxtra = backup.bind(kiloes)(foxtra);
-            _fun00002_ip = 384; continue _fun00001;
- 329:
+            _fun00002_ip = 388; continue _fun00001;
+ 333:
             output = _closure1_slot0;
             result = _closure1_slot2;
             backup = 12;
@@ -272,7 +272,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup.t;
             backup = backup.3UB9aW;
             foxtra = kiloes.bind(sizing)(backup);
- 384:
+ 388:
             oscard['children'] = foxtra;
             oscard = zuuluu.bind(tangon)(romeon, oscard);
             entity['children'] = oscard;

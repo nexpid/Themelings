@@ -505,7 +505,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             report['value'] = entity;
-            entity = new Array(3);
+            entity = new Array(5);
             entity[0] = report;
             report = {};
             golfie = 'isAFK';
@@ -519,7 +519,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = {};
             golfie = 'getIdleSince';
             report['key'] = golfie;
-            oscard = function() { // Original name: value
+            golfie = function() { // Original name: value
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                     zuuluu = _closure1_slot13;
@@ -531,8 +531,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 }
             };
-            report['value'] = oscard;
+            report['value'] = golfie;
             entity[2] = report;
+            report = {};
+            golfie = 'getSystemSuspended';
+            report['key'] = golfie;
+            golfie = function() { // Original name: value
+                entity = _closure1_slot15;
+                return entity;
+            };
+            report['value'] = golfie;
+            entity[3] = report;
+            report = {};
+            golfie = 'getSystemLocked';
+            report['key'] = golfie;
+            oscard = function() { // Original name: value
+                entity = _closure1_slot16;
+                return entity;
+            };
+            report['value'] = oscard;
+            entity[4] = report;
             entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         };

@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = 20;
             option = update[option];
             config = output.bind(tangon)(option);
-            source = config.useIsDismissibleContentTypeDismissed;
+            source = config.useIsDismissibleContentDismissed;
             option = 21;
             option = update[option];
             option = output.bind(tangon)(option);

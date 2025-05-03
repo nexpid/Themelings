@@ -133,17 +133,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = {};
         entity = 'handleVoiceChannelSelect';
         report['key'] = entity;
-        entity = function() { // Original name: value
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 5;
-            michal = michal[entity];
-            entity = undefined;
-            michal = zuuluu.bind(entity)(michal);
-            zuuluu = michal.VoiceCallTriggerPoint;
-            michal = zuuluu.trigger;
-            michal = michal.bind(zuuluu)();
-            return entity;
+        entity = function(argFoo) { // Original name: value
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+                entity = argFoo;
+                oscard = entity.guildId;
+                zuuluu = _closure1_slot0;
+                michal = _closure1_slot1;
+                entity = 5;
+                michal = michal[entity];
+                entity = undefined;
+                michal = zuuluu.bind(entity)(michal);
+                tangon = michal.VoiceCallTriggerPoint;
+                zuuluu = tangon.trigger;
+                michal = {};
+                report = null;
+                golfie = report != oscard;
+                report = undefined;
+                if(!golfie) { _fun00006_ip = 61; continue _fun00005 }
+ 58:
+                report = oscard;
+ 61:
+                michal['guildId'] = report;
+                michal = zuuluu.bind(tangon)(michal);
+                return entity;
+            }
         };
         report['value'] = entity;
         entity = new Array(3);

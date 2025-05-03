@@ -65,30 +65,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = 'trigger';
         entity['key'] = oscard;
         oscard = function() { // Original name: value
-            entity = this;
-            michal = entity.triggerPoint;
-            tangon = entity.experiments;
-            zuuluu = entity.params;
-            michal = function(argFoo, argBar, argBaz) { // Original name: triggerCommonExperiments
-                zuuluu = argBar;
-                michal = argBaz;
-                var _closure4_slot0 = michal;
-                michal = zuuluu.forEach;
-                entity = function(argFoo) {
-                    zuuluu = argFoo;
-                    michal = zuuluu.trackExposure;
-                    entity = _closure4_slot0;
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+                michal = arguments[0];
+                report = this;
+                entity = undefined;
+                if(!(michal === entity)) { _fun00002_ip = 14; continue _fun00001 }
+ 12:
+                michal = {};
+ 14:
+                zuuluu = report.triggerPoint;
+                tangon = report.experiments;
+                zuuluu = {};
+                golfie = report.params;
+                option = zuuluu;
+                report = copyDataProperties(option, golfie);
+                option = zuuluu;
+                golfie = michal;
+                michal = copyDataProperties(option, golfie);
+                michal = function(argFoo, argBar, argBaz) { // Original name: triggerCommonExperiments
+                    zuuluu = argBar;
+                    michal = argBaz;
+                    var _closure4_slot0 = michal;
+                    michal = zuuluu.forEach;
+                    entity = function(argFoo) {
+                        zuuluu = argFoo;
+                        michal = zuuluu.trackExposure;
+                        entity = _closure4_slot0;
+                        entity = michal.bind(zuuluu)(entity);
+                        entity = undefined;
+                        return entity;
+                    };
                     entity = michal.bind(zuuluu)(entity);
                     entity = undefined;
                     return entity;
                 };
-                entity = michal.bind(zuuluu)(entity);
-                entity = undefined;
+                michal = michal.bind(entity)(entity, tangon, zuuluu);
                 return entity;
-            };
-            entity = undefined;
-            michal = michal.bind(entity)(entity, tangon, zuuluu);
-            return entity;
+            }
         };
         entity['value'] = oscard;
         michal[1] = entity;

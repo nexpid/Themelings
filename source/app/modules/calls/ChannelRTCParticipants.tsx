@@ -999,10 +999,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = entity.channelId;
                 zuuluu = golfie.bind(verify)(entity);
  238:
-                var _closure3_slot1 = zuuluu;
                 entity = option;
-                if(!(report != zuuluu)) { _fun00024_ip = 329; continue _fun00023 }
- 249:
+                if(!(report != zuuluu)) { _fun00024_ip = 325; continue _fun00023 }
+ 245:
                 report = _closure1_slot0;
                 golfie = _closure1_slot2;
                 tangon = 19;
@@ -1025,32 +1024,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = report.bind(oscard)(tangon, zuuluu);
                 zuuluu = tangon.filter;
                 michal = function(argFoo) {
-                    _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
- 0:
-                        michal = argFoo;
-                        entity = michal.location;
-                        zuuluu = entity.kind;
-                        report = _closure1_slot0;
-                        tangon = _closure1_slot2;
-                        entity = 20;
-                        tangon = tangon[entity];
-                        entity = undefined;
-                        entity = report.bind(entity)(tangon);
-                        entity = entity.EmbeddedActivityLocationKind;
-                        entity = entity.CONTEXTLESS;
-                        entity = zuuluu !== entity;
-                        if(entity) { _fun00030_ip = 80; continue _fun00029 }
- 57:
-                        zuuluu = michal.compositeInstanceId;
-                        michal = _closure3_slot1;
-                        michal = michal.compositeInstanceId;
-                        entity = zuuluu !== michal;
- 80:
-                        return entity;
-                    }
+                    entity = argFoo;
+                    entity = entity.location;
+                    entity = entity.kind;
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    entity = 20;
+                    michal = michal[entity];
+                    entity = undefined;
+                    entity = zuuluu.bind(entity)(michal);
+                    entity = entity.EmbeddedActivityLocationKind;
+                    entity = entity.CONTEXTLESS;
+                    entity = true;
+                    return entity;
                 };
                 entity = zuuluu.bind(tangon)(michal);
- 329:
+ 325:
                 return entity;
             }
         };
@@ -1066,7 +1055,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = michal.bind(zuuluu)();
             michal = zuuluu.map;
             entity = function(argFoo, argBar) {
-                _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
+                _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
                     michal = argFoo;
                     zuuluu = argBar;
@@ -1092,7 +1081,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity['activityUrl'] = oscard;
                     option = michal.participants;
                     michal = null;
-                    if(!(michal == option)) { _fun00032_ip = 112; continue _fun00031 }
+                    if(!(michal == option)) { _fun00030_ip = 112; continue _fun00029 }
  108:
                     option = new Array(0);
  112:
@@ -1109,14 +1098,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = oscard.bind(golfie)(report);
                     report = michal == oscard;
                     tangon = undefined;
-                    if(report) { _fun00032_ip = 178; continue _fun00031 }
+                    if(report) { _fun00030_ip = 178; continue _fun00029 }
  168:
                     report = oscard.getGuildId;
                     tangon = report.bind(oscard)();
  178:
                     report = michal != tangon;
                     michal = null;
-                    if(!report) { _fun00032_ip = 190; continue _fun00031 }
+                    if(!report) { _fun00030_ip = 190; continue _fun00029 }
  187:
                     michal = tangon;
  190:
@@ -1136,207 +1125,207 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = '_getParticipantsForUser';
         entity['key'] = oscard;
         report = function(argFoo) { // Original name: value
-            _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
+            _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
  0:
                 result = argFoo;
-                report = this;
+                oscard = this;
                 entity = new Array(0);
                 zuuluu = _closure1_slot13;
                 michal = zuuluu.getUser;
-                tangon = michal.bind(zuuluu)(result);
-                michal = null;
-                if(!(michal != tangon)) { _fun00034_ip = 1292; continue _fun00033 }
+                zuuluu = michal.bind(zuuluu)(result);
+                report = null;
+                if(!(report != zuuluu)) { _fun00032_ip = 1066; continue _fun00031 }
  37:
-                verify = _closure1_slot15;
-                golfie = verify.getVoiceStateForChannel;
-                zuuluu = report.channelId;
-                golfie = golfie.bind(verify)(zuuluu, result);
-                option = verify.getVoicePlatformForChannel;
-                zuuluu = report.channelId;
-                romeon = option.bind(verify)(zuuluu, result);
-                verify = _closure1_slot9;
-                option = verify.getChannel;
-                zuuluu = report.channelId;
-                zuuluu = option.bind(verify)(zuuluu);
-                offset = report.call;
-                yankee = michal == offset;
-                verify = undefined;
-                option = undefined;
-                if(yankee) { _fun00034_ip = 135; continue _fun00033 }
+                option = _closure1_slot15;
+                golfie = option.getVoiceStateForChannel;
+                michal = oscard.channelId;
+                offset = golfie.bind(option)(michal, result);
+                golfie = option.getVoicePlatformForChannel;
+                michal = oscard.channelId;
+                yankee = golfie.bind(option)(michal, result);
+                option = _closure1_slot9;
+                golfie = option.getChannel;
+                michal = oscard.channelId;
+                foxtra = golfie.bind(option)(michal);
+                option = oscard.call;
+                verify = report == option;
+                michal = undefined;
+                golfie = undefined;
+                if(verify) { _fun00032_ip = 135; continue _fun00031 }
  110:
-                yankee = offset.ringing;
-                offset = michal == yankee;
-                option = undefined;
-                if(offset) { _fun00034_ip = 135; continue _fun00033 }
+                verify = option.ringing;
+                option = report == verify;
+                golfie = undefined;
+                if(option) { _fun00032_ip = 135; continue _fun00031 }
  125:
-                offset = yankee.includes;
-                option = offset.bind(yankee)(result);
+                option = verify.includes;
+                golfie = option.bind(verify)(result);
  135:
-                if(option) { _fun00034_ip = 154; continue _fun00033 }
+                if(golfie) { _fun00032_ip = 154; continue _fun00031 }
  138:
-                yankee = report.guildRingingUsers;
-                offset = yankee.has;
-                option = offset.bind(yankee)(result);
+                verify = oscard.guildRingingUsers;
+                option = verify.has;
+                golfie = option.bind(verify)(result);
  154:
-                yankee = michal != option;
-                if(!yankee) { _fun00034_ip = 164; continue _fun00033 }
+                verify = report != golfie;
+                if(!verify) { _fun00032_ip = 164; continue _fun00031 }
  161:
-                yankee = option;
+                verify = golfie;
  164:
-                option = michal != golfie;
-                if(option) { _fun00034_ip = 174; continue _fun00033 }
+                golfie = report != offset;
+                if(golfie) { _fun00032_ip = 174; continue _fun00031 }
  171:
-                option = yankee;
+                golfie = verify;
  174:
-                if(!option) { _fun00034_ip = 503; continue _fun00033 }
+                if(!golfie) { _fun00032_ip = 503; continue _fun00031 }
  180:
-                offset = {};
-                option = _closure1_slot17;
-                option = option.USER;
-                offset['type'] = option;
-                backup = _closure1_slot14;
-                foxtra = backup.getUserStreamData;
-                kiloes = michal == zuuluu;
-                option = undefined;
-                if(kiloes) { _fun00034_ip = 225; continue _fun00033 }
- 215:
-                kiloes = zuuluu.getGuildId;
-                option = kiloes.bind(zuuluu)();
- 225:
-                update = foxtra.bind(backup)(result, option);
-                source = offset;
-                option = copyDataProperties(source, update);
-                option = 'user';
-                offset[option] = tangon;
-                foxtra = tangon.id;
-                option = 'id';
-                offset[option] = foxtra;
-                option = 'voiceState';
-                offset[option] = golfie;
-                option = 'voicePlatform';
-                offset[option] = romeon;
-                romeon = _closure1_slot0;
-                foxtra = _closure1_slot2;
-                option = 18;
-                option = foxtra[option];
-                foxtra = romeon.bind(verify)(option);
-                romeon = foxtra.getIsSpeaking;
                 option = {};
-                option['userId'] = result;
-                backup = true;
-                option['checkIsMuted'] = backup;
-                romeon = romeon.bind(foxtra)(option);
-                option = 'speaking';
-                offset[option] = romeon;
-                option = report.lastSpoke;
-                option = option[result];
-                foxtra = michal != option;
-                romeon = 0;
-                if(!foxtra) { _fun00034_ip = 354; continue _fun00033 }
- 351:
-                romeon = option;
- 354:
-                option = 'lastSpoke';
-                offset[option] = romeon;
-                romeon = _closure1_slot12;
-                option = romeon.isSoundSharing;
-                romeon = option.bind(romeon)(result);
-                option = 'soundsharing';
-                offset[option] = romeon;
-                option = 'ringing';
-                offset[option] = yankee;
-                yankee = _closure1_slot1;
-                romeon = _closure1_slot2;
-                option = 21;
-                option = romeon[option];
-                foxtra = yankee.bind(verify)(option);
-                romeon = foxtra.getName;
-                option = michal == zuuluu;
-                yankee = undefined;
-                if(option) { _fun00034_ip = 443; continue _fun00033 }
- 433:
-                option = zuuluu.getGuildId;
-                yankee = option.bind(zuuluu)();
- 443:
-                option = report.channelId;
-                yankee = romeon.bind(foxtra)(yankee, option, tangon);
-                option = 'userNick';
-                offset[option] = yankee;
-                romeon = _closure1_slot10;
-                yankee = romeon.isLocalVideoDisabled;
-                option = tangon.id;
-                yankee = yankee.bind(romeon)(option);
-                option = 'localVideoDisabled';
-                offset[option] = yankee;
-                option = entity.push;
-                option = option.bind(entity)(offset);
- 503:
-                yankee = _closure1_slot6;
-                offset = yankee.getStreamForUser;
-                romeon = michal == zuuluu;
-                option = undefined;
-                if(romeon) { _fun00034_ip = 532; continue _fun00033 }
- 522:
-                romeon = zuuluu.getGuildId;
-                option = romeon.bind(zuuluu)();
- 532:
-                offset = offset.bind(yankee)(result, option);
-                if(!(michal == offset)) { _fun00034_ip = 577; continue _fun00033 }
- 542:
-                romeon = _closure1_slot6;
-                yankee = romeon.getActiveStreamForUser;
-                foxtra = michal == zuuluu;
-                option = undefined;
-                if(foxtra) { _fun00034_ip = 571; continue _fun00033 }
- 561:
-                foxtra = zuuluu.getGuildId;
-                option = foxtra.bind(zuuluu)();
- 571:
-                offset = yankee.bind(romeon)(result, option);
- 577:
-                if(!(michal != offset)) { _fun00034_ip = 1006; continue _fun00033 }
- 584:
-                yankee = offset.channelId;
-                option = report.channelId;
-                if(!(yankee === option)) { _fun00034_ip = 1006; continue _fun00033 }
- 601:
+                golfie = _closure1_slot17;
+                golfie = golfie.USER;
+                option['type'] = golfie;
+                backup = _closure1_slot14;
+                romeon = backup.getUserStreamData;
+                kiloes = report == foxtra;
+                golfie = undefined;
+                if(kiloes) { _fun00032_ip = 225; continue _fun00031 }
+ 215:
+                kiloes = foxtra.getGuildId;
+                golfie = kiloes.bind(foxtra)();
+ 225:
+                update = romeon.bind(backup)(result, golfie);
+                source = option;
+                golfie = copyDataProperties(source, update);
+                golfie = 'user';
+                option[golfie] = zuuluu;
+                romeon = zuuluu.id;
+                golfie = 'id';
+                option[golfie] = romeon;
+                golfie = 'voiceState';
+                option[golfie] = offset;
+                golfie = 'voicePlatform';
+                option[golfie] = yankee;
                 yankee = _closure1_slot0;
                 romeon = _closure1_slot2;
-                option = 22;
-                option = romeon[option];
-                yankee = yankee.bind(verify)(option);
-                option = yankee.encodeStreamKey;
-                romeon = option.bind(yankee)(offset);
-                option = report.getParticipant;
-                backup = option.bind(report)(romeon);
-                yankee = offset.ownerId;
-                foxtra = _closure1_slot7;
-                option = foxtra.getId;
-                option = option.bind(foxtra)();
-                foxtra = yankee === option;
-                if(!foxtra) { _fun00034_ip = 690; continue _fun00033 }
+                golfie = 18;
+                golfie = romeon[golfie];
+                romeon = yankee.bind(michal)(golfie);
+                yankee = romeon.getIsSpeaking;
+                golfie = {};
+                golfie['userId'] = result;
+                backup = true;
+                golfie['checkIsMuted'] = backup;
+                yankee = yankee.bind(romeon)(golfie);
+                golfie = 'speaking';
+                option[golfie] = yankee;
+                golfie = oscard.lastSpoke;
+                golfie = golfie[result];
+                romeon = report != golfie;
+                yankee = 0;
+                if(!romeon) { _fun00032_ip = 354; continue _fun00031 }
+ 351:
+                yankee = golfie;
+ 354:
+                golfie = 'lastSpoke';
+                option[golfie] = yankee;
+                yankee = _closure1_slot12;
+                golfie = yankee.isSoundSharing;
+                yankee = golfie.bind(yankee)(result);
+                golfie = 'soundsharing';
+                option[golfie] = yankee;
+                golfie = 'ringing';
+                option[golfie] = verify;
+                verify = _closure1_slot1;
+                yankee = _closure1_slot2;
+                golfie = 21;
+                golfie = yankee[golfie];
+                romeon = verify.bind(michal)(golfie);
+                yankee = romeon.getName;
+                golfie = report == foxtra;
+                verify = undefined;
+                if(golfie) { _fun00032_ip = 443; continue _fun00031 }
+ 433:
+                golfie = foxtra.getGuildId;
+                verify = golfie.bind(foxtra)();
+ 443:
+                golfie = oscard.channelId;
+                verify = yankee.bind(romeon)(verify, golfie, zuuluu);
+                golfie = 'userNick';
+                option[golfie] = verify;
+                yankee = _closure1_slot10;
+                verify = yankee.isLocalVideoDisabled;
+                golfie = zuuluu.id;
+                verify = verify.bind(yankee)(golfie);
+                golfie = 'localVideoDisabled';
+                option[golfie] = verify;
+                golfie = entity.push;
+                golfie = golfie.bind(entity)(option);
+ 503:
+                verify = _closure1_slot6;
+                option = verify.getStreamForUser;
+                yankee = report == foxtra;
+                golfie = undefined;
+                if(yankee) { _fun00032_ip = 532; continue _fun00031 }
+ 522:
+                yankee = foxtra.getGuildId;
+                golfie = yankee.bind(foxtra)();
+ 532:
+                option = option.bind(verify)(result, golfie);
+                if(!(report == option)) { _fun00032_ip = 577; continue _fun00031 }
+ 542:
+                yankee = _closure1_slot6;
+                verify = yankee.getActiveStreamForUser;
+                romeon = report == foxtra;
+                golfie = undefined;
+                if(romeon) { _fun00032_ip = 571; continue _fun00031 }
+ 561:
+                romeon = foxtra.getGuildId;
+                golfie = romeon.bind(foxtra)();
+ 571:
+                option = verify.bind(yankee)(result, golfie);
+ 577:
+                if(!(report != option)) { _fun00032_ip = 1006; continue _fun00031 }
+ 584:
+                verify = option.channelId;
+                golfie = oscard.channelId;
+                if(!(verify === golfie)) { _fun00032_ip = 1006; continue _fun00031 }
+ 601:
+                verify = _closure1_slot0;
+                yankee = _closure1_slot2;
+                golfie = 22;
+                golfie = yankee[golfie];
+                verify = verify.bind(michal)(golfie);
+                golfie = verify.encodeStreamKey;
+                yankee = golfie.bind(verify)(option);
+                golfie = oscard.getParticipant;
+                backup = golfie.bind(oscard)(yankee);
+                verify = option.ownerId;
+                romeon = _closure1_slot7;
+                golfie = romeon.getId;
+                golfie = golfie.bind(romeon)();
+                romeon = verify === golfie;
+                if(!romeon) { _fun00032_ip = 690; continue _fun00031 }
  670:
                 kiloes = _closure1_slot6;
-                yankee = kiloes.isSelfStreamHidden;
-                option = report.channelId;
-                foxtra = yankee.bind(kiloes)(option);
+                verify = kiloes.isSelfStreamHidden;
+                golfie = oscard.channelId;
+                romeon = verify.bind(kiloes)(golfie);
  690:
-                option = michal == backup;
+                golfie = report == backup;
                 kiloes = undefined;
-                if(option) { _fun00034_ip = 704; continue _fun00033 }
+                if(golfie) { _fun00032_ip = 704; continue _fun00031 }
  699:
                 kiloes = backup.type;
  704:
-                option = _closure1_slot17;
-                option = option.STREAM;
-                yankee = null;
-                if(!(kiloes === option)) { _fun00034_ip = 774; continue _fun00033 }
+                golfie = _closure1_slot17;
+                golfie = golfie.STREAM;
+                verify = null;
+                if(!(kiloes === golfie)) { _fun00032_ip = 774; continue _fun00031 }
  720:
-                option = {};
+                golfie = {};
                 kiloes = backup.maxResolution;
-                sizing = michal != kiloes;
+                sizing = report != kiloes;
                 kiloes = undefined;
-                if(!sizing) { _fun00034_ip = 755; continue _fun00033 }
+                if(!sizing) { _fun00032_ip = 755; continue _fun00031 }
  737:
                 sizing = {};
                 update = backup.maxResolution;
@@ -1344,82 +1333,82 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 output = copyDataProperties(source, update);
                 kiloes = sizing;
  755:
-                option['maxResolution'] = kiloes;
+                golfie['maxResolution'] = kiloes;
                 backup = backup.maxFrameRate;
-                option['maxFrameRate'] = backup;
-                yankee = option;
+                golfie['maxFrameRate'] = backup;
+                verify = golfie;
  774:
-                option = {};
+                golfie = {};
                 output = _closure1_slot14;
                 sizing = output.getUserStreamData;
-                backup = michal == zuuluu;
+                backup = report == foxtra;
                 kiloes = undefined;
-                if(backup) { _fun00034_ip = 805; continue _fun00033 }
+                if(backup) { _fun00032_ip = 805; continue _fun00031 }
  795:
-                backup = zuuluu.getGuildId;
-                kiloes = backup.bind(zuuluu)();
+                backup = foxtra.getGuildId;
+                kiloes = backup.bind(foxtra)();
  805:
                 backup = _closure1_slot21;
                 backup = backup.STREAM;
                 update = sizing.bind(output)(result, kiloes, backup);
-                source = option;
+                source = golfie;
                 backup = copyDataProperties(source, update);
-                source = option;
-                update = yankee;
-                yankee = copyDataProperties(source, update);
-                yankee = _closure1_slot17;
-                if(foxtra) { _fun00034_ip = 854; continue _fun00033 }
+                source = golfie;
+                update = verify;
+                verify = copyDataProperties(source, update);
+                verify = _closure1_slot17;
+                if(romeon) { _fun00032_ip = 854; continue _fun00031 }
  846:
-                foxtra = yankee.STREAM;
-                _fun00034_ip = 860; continue _fun00033;
+                romeon = verify.STREAM;
+                _fun00032_ip = 860; continue _fun00031;
  854:
-                foxtra = yankee.HIDDEN_STREAM;
+                romeon = verify.HIDDEN_STREAM;
  860:
-                yankee = 'type';
-                option[yankee] = foxtra;
-                yankee = 'id';
-                option[yankee] = romeon;
-                romeon = michal == golfie;
-                yankee = undefined;
-                if(romeon) { _fun00034_ip = 893; continue _fun00033 }
+                verify = 'type';
+                golfie[verify] = romeon;
+                verify = 'id';
+                golfie[verify] = yankee;
+                yankee = report == offset;
+                verify = undefined;
+                if(yankee) { _fun00032_ip = 893; continue _fun00031 }
  887:
-                yankee = golfie.selfVideo;
+                verify = offset.selfVideo;
  893:
-                romeon = michal != yankee;
-                if(!romeon) { _fun00034_ip = 903; continue _fun00033 }
+                offset = report != verify;
+                if(!offset) { _fun00032_ip = 903; continue _fun00031 }
  900:
-                romeon = yankee;
+                offset = verify;
  903:
-                yankee = 'userVideo';
-                option[yankee] = romeon;
-                yankee = 'user';
-                option[yankee] = tangon;
-                romeon = _closure1_slot1;
-                foxtra = _closure1_slot2;
-                yankee = 21;
-                yankee = foxtra[yankee];
-                foxtra = romeon.bind(verify)(yankee);
-                romeon = foxtra.getName;
-                backup = michal == zuuluu;
-                yankee = undefined;
-                if(backup) { _fun00034_ip = 966; continue _fun00033 }
+                verify = 'userVideo';
+                golfie[verify] = offset;
+                verify = 'user';
+                golfie[verify] = zuuluu;
+                offset = _closure1_slot1;
+                yankee = _closure1_slot2;
+                verify = 21;
+                verify = yankee[verify];
+                yankee = offset.bind(michal)(verify);
+                offset = yankee.getName;
+                romeon = report == foxtra;
+                verify = undefined;
+                if(romeon) { _fun00032_ip = 966; continue _fun00031 }
  956:
-                backup = zuuluu.getGuildId;
-                yankee = backup.bind(zuuluu)();
+                romeon = foxtra.getGuildId;
+                verify = romeon.bind(foxtra)();
  966:
-                report = report.channelId;
-                yankee = romeon.bind(foxtra)(yankee, report, tangon);
-                report = 'userNick';
-                option[report] = yankee;
-                report = 'stream';
-                option[report] = offset;
-                report = entity.push;
-                report = report.bind(entity)(option);
+                oscard = oscard.channelId;
+                verify = offset.bind(yankee)(verify, oscard, zuuluu);
+                oscard = 'userNick';
+                golfie[oscard] = verify;
+                oscard = 'stream';
+                golfie[oscard] = option;
+                oscard = entity.push;
+                oscard = oscard.bind(entity)(golfie);
  1006:
-                yankee = _closure1_slot11;
-                offset = yankee.findActivity;
-                option = tangon.id;
-                report = function(argFoo) {
+                golfie = _closure1_slot11;
+                oscard = golfie.findActivity;
+                tangon = zuuluu.id;
+                zuuluu = function(argFoo) {
                     zuuluu = _closure1_slot1;
                     tangon = _closure1_slot2;
                     michal = 23;
@@ -1432,84 +1421,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = zuuluu.bind(tangon)(entity, michal);
                     return entity;
                 };
-                report = offset.bind(yankee)(option, report);
-                option = michal == report;
-                offset = undefined;
-                if(option) { _fun00034_ip = 1063; continue _fun00033 }
- 1043:
-                option = report.party;
-                yankee = michal == option;
-                offset = undefined;
-                if(yankee) { _fun00034_ip = 1063; continue _fun00033 }
- 1058:
-                offset = option.id;
- 1063:
-                if(!(michal != report)) { _fun00034_ip = 1290; continue _fun00033 }
- 1070:
-                option = report.application_id;
-                if(!(michal != option)) { _fun00034_ip = 1290; continue _fun00033 }
- 1083:
-                if(!(michal != golfie)) { _fun00034_ip = 1290; continue _fun00033 }
- 1090:
-                if(!(michal != offset)) { _fun00034_ip = 1290; continue _fun00033 }
- 1097:
-                option = michal == zuuluu;
-                golfie = undefined;
-                if(option) { _fun00034_ip = 1116; continue _fun00033 }
- 1106:
-                option = zuuluu.getGuildId;
-                golfie = option.bind(zuuluu)();
- 1116:
-                if(!(michal == golfie)) { _fun00034_ip = 1290; continue _fun00033 }
- 1123:
-                option = michal == zuuluu;
-                golfie = undefined;
-                if(option) { _fun00034_ip = 1137; continue _fun00033 }
- 1132:
-                golfie = zuuluu.id;
- 1137:
-                option = _closure1_slot0;
-                yankee = _closure1_slot2;
-                zuuluu = 24;
-                zuuluu = yankee[zuuluu];
-                option = option.bind(verify)(zuuluu);
-                zuuluu = option.getStartingChannelIdForContextlessInstanceId;
-                zuuluu = zuuluu.bind(option)(offset);
-                if(!(golfie === zuuluu)) { _fun00034_ip = 1290; continue _fun00033 }
- 1172:
-                golfie = _closure1_slot5;
-                zuuluu = golfie.getCurrentEmbeddedActivity;
-                zuuluu = zuuluu.bind(golfie)();
-                golfie = michal == zuuluu;
+                tangon = oscard.bind(golfie)(tangon, zuuluu);
+                zuuluu = report == tangon;
                 michal = undefined;
-                if(golfie) { _fun00034_ip = 1201; continue _fun00033 }
- 1195:
-                michal = zuuluu.compositeInstanceId;
- 1201:
-                if(!(michal !== offset)) { _fun00034_ip = 1290; continue _fun00033 }
- 1205:
-                zuuluu = entity.push;
-                michal = {};
-                option = _closure1_slot23;
-                golfie = {};
-                yankee = report.application_id;
-                golfie['applicationId'] = yankee;
-                golfie['instanceId'] = offset;
-                golfie = option.bind(verify)(golfie);
-                michal['id'] = golfie;
-                oscard = _closure1_slot17;
-                oscard = oscard.PRESENCE_EMBEDDED_ACTIVITY;
-                michal['type'] = oscard;
-                oscard = report.application_id;
-                michal['applicationId'] = oscard;
-                oscard = report.type;
-                michal['activityType'] = oscard;
-                michal['activity'] = report;
-                michal['user'] = tangon;
-                michal = zuuluu.bind(entity)(michal);
- 1290:
+                if(zuuluu) { _fun00032_ip = 1056; continue _fun00031 }
+ 1043:
+                tangon = tangon.party;
+                zuuluu = report == tangon;
+                michal = tangon;
+ 1056:
+                if(zuuluu) { _fun00032_ip = 1064; continue _fun00031 }
+ 1059:
+                michal = michal.id;
+ 1064:
                 return entity;
- 1292:
+ 1066:
                 return entity;
             }
         };
@@ -1520,7 +1446,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     golfie = golfie.bind(entity)();
-    option = 25;
+    option = 24;
     option = offset[option];
     offset = verify.bind(entity)(option);
     verify = offset.fileFinishedImporting;
@@ -1529,12 +1455,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['default'] = golfie;
     zuuluu['getEmbeddedActivityParticipantId'] = oscard;
     oscard = function(argFoo) { // Original name: activityParticipantIdToApplicationId
-        _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
+        _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
  0:
             tangon = argFoo;
             michal = null;
             entity = tangon;
-            if(!(michal != entity)) { _fun00036_ip = 33; continue _fun00035 }
+            if(!(michal != entity)) { _fun00034_ip = 33; continue _fun00033 }
  12:
             zuuluu = tangon.split;
             michal = '-';
@@ -1548,7 +1474,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['activityParticipantIdToApplicationId'] = oscard;
     zuuluu['sortKey'] = report;
     tangon = function(argFoo, argBar) { // Original name: areParticipantsEqual
-        _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
+        _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
  0:
             report = argFoo;
             michal = report[Symbol.iterator];
@@ -1560,25 +1486,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = michal;
             verify = verify === romeon;
             zuuluu = verify;
-            if(verify) { _fun00038_ip = 32; continue _fun00037 }
+            if(verify) { _fun00036_ip = 32; continue _fun00035 }
  29:
             tangon = oscard;
  32:
             tangon = undefined;
             oscard = zuuluu;
-            if(oscard) { _fun00038_ip = 60; continue _fun00037 }
+            if(oscard) { _fun00036_ip = 60; continue _fun00035 }
  40:
             report = report().value;
             oscard = michal;
             oscard = oscard === romeon;
             zuuluu = oscard;
-            if(oscard) { _fun00038_ip = 60; continue _fun00037 }
+            if(oscard) { _fun00036_ip = 60; continue _fun00035 }
  57:
             tangon = report;
  60:
             option = tangon;
             tangon = zuuluu;
-            if(tangon) { _fun00038_ip = 72; continue _fun00037 }
+            if(tangon) { _fun00036_ip = 72; continue _fun00035 }
  69:
             michal.return();
  72:
@@ -1591,25 +1517,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             foxtra = report;
             foxtra = foxtra === romeon;
             oscard = foxtra;
-            if(foxtra) { _fun00038_ip = 102; continue _fun00037 }
+            if(foxtra) { _fun00036_ip = 102; continue _fun00035 }
  99:
             verify = yankee;
  102:
             verify = undefined;
             yankee = oscard;
-            if(yankee) { _fun00038_ip = 130; continue _fun00037 }
+            if(yankee) { _fun00036_ip = 130; continue _fun00035 }
  110:
             offset = offset().value;
             yankee = report;
             yankee = yankee === romeon;
             oscard = yankee;
-            if(yankee) { _fun00038_ip = 130; continue _fun00037 }
+            if(yankee) { _fun00036_ip = 130; continue _fun00035 }
  127:
             verify = offset;
  130:
             golfie = verify;
             verify = oscard;
-            if(verify) { _fun00038_ip = 142; continue _fun00037 }
+            if(verify) { _fun00036_ip = 142; continue _fun00035 }
  139:
             report.return();
  142:
@@ -1617,14 +1543,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return golfie;
  148:
             CatchBlockStart(arg_register=3);
-            if(oscard) { _fun00038_ip = 156; continue _fun00037 }
+            if(oscard) { _fun00036_ip = 156; continue _fun00035 }
  153:
             report.return();
  156:
             throw tangon;
  158:
             CatchBlockStart(arg_register=0);
-            if(zuuluu) { _fun00038_ip = 166; continue _fun00037 }
+            if(zuuluu) { _fun00036_ip = 166; continue _fun00035 }
  163:
             michal.return();
  166:

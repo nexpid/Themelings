@@ -190,11 +190,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity.bind(tangon)();
             _closure1_slot25 = entity;
             entity = _closure1_slot26;
-            if(entity) { _fun00006_ip = 157; continue _fun00005 }
- 66:
+            if(entity) { _fun00006_ip = 155; continue _fun00005 }
+ 64:
             entity = _closure1_slot20;
-            if(entity) { _fun00006_ip = 141; continue _fun00005 }
- 73:
+            if(entity) { _fun00006_ip = 139; continue _fun00005 }
+ 71:
             report = _closure1_slot0;
             tangon = _closure1_slot2;
             entity = 15;
@@ -206,55 +206,55 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity.bind(tangon)();
             tangon = _closure1_slot17;
             tangon = tangon.UNKNOWN;
-            if(!(entity === tangon)) { _fun00006_ip = 135; continue _fun00005 }
- 125:
+            if(!(entity === tangon)) { _fun00006_ip = 133; continue _fun00005 }
+ 123:
             tangon = _closure1_slot17;
             entity = tangon.ONLINE;
- 135:
+ 133:
             _closure1_slot21 = entity;
-            _fun00006_ip = 165; continue _fun00005;
- 141:
+            _fun00006_ip = 163; continue _fun00005;
+ 139:
             entity = _closure1_slot17;
             entity = entity.INVISIBLE;
             _closure1_slot21 = entity;
-            _fun00006_ip = 165; continue _fun00005;
- 157:
+            _fun00006_ip = 163; continue _fun00005;
+ 155:
             entity = _closure1_slot22;
             _closure1_slot21 = entity;
- 165:
+ 163:
             tangon = _closure1_slot21;
             entity = _closure1_slot17;
             entity = entity.ONLINE;
             entity = tangon === entity;
-            if(!entity) { _fun00006_ip = 194; continue _fun00005 }
- 186:
+            if(!entity) { _fun00006_ip = 192; continue _fun00005 }
+ 184:
             tangon = _closure1_slot23;
             entity = tangon > oscard;
- 194:
-            if(!entity) { _fun00006_ip = 211; continue _fun00005 }
- 197:
+ 192:
+            if(!entity) { _fun00006_ip = 209; continue _fun00005 }
+ 195:
             entity = _closure1_slot17;
             entity = entity.IDLE;
             _closure1_slot21 = entity;
- 211:
+ 209:
             entity = _closure1_slot26;
-            if(entity) { _fun00006_ip = 266; continue _fun00005 }
- 218:
+            if(entity) { _fun00006_ip = 264; continue _fun00005 }
+ 216:
             tangon = _closure1_slot21;
             entity = _closure1_slot17;
             entity = entity.INVISIBLE;
-            if(!(tangon !== entity)) { _fun00006_ip = 266; continue _fun00005 }
- 236:
+            if(!(tangon !== entity)) { _fun00006_ip = 264; continue _fun00005 }
+ 234:
             tangon = _closure1_slot13;
             entity = tangon.getActivities;
             report = entity.bind(tangon)();
             tangon = report.filter;
             entity = _closure1_slot32;
             report = tangon.bind(report)(entity);
-            _fun00006_ip = 270; continue _fun00005;
- 266:
+            _fun00006_ip = 268; continue _fun00005;
+ 264:
             report = new Array(0);
- 270:
+ 268:
             golfie = _closure1_slot1;
             tangon = _closure1_slot2;
             entity = 18;
@@ -264,30 +264,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = _closure1_slot24;
             golfie = golfie.bind(entity)(tangon, report);
             tangon = false;
-            if(golfie) { _fun00006_ip = 313; continue _fun00005 }
- 307:
+            if(golfie) { _fun00006_ip = 311; continue _fun00005 }
+ 305:
             _closure1_slot24 = report;
             tangon = true;
- 313:
+ 311:
             golfie = _closure1_slot16;
             report = golfie.getRemoteActivities;
             report = report.bind(golfie)();
             golfie = _closure1_slot27;
-            if(!(golfie !== report)) { _fun00006_ip = 343; continue _fun00005 }
- 337:
+            if(!(golfie !== report)) { _fun00006_ip = 341; continue _fun00005 }
+ 335:
             _closure1_slot27 = report;
             tangon = true;
- 343:
+ 341:
             golfie = _closure1_slot16;
             report = golfie.getHiddenActivities;
             report = report.bind(golfie)();
             golfie = _closure1_slot28;
-            if(!(golfie !== report)) { _fun00006_ip = 369; continue _fun00005 }
- 365:
+            if(!(golfie !== report)) { _fun00006_ip = 367; continue _fun00005 }
+ 363:
             _closure1_slot28 = report;
- 369:
-            if(!tangon) { _fun00006_ip = 484; continue _fun00005 }
- 372:
+ 367:
+            if(!tangon) { _fun00006_ip = 482; continue _fun00005 }
+ 370:
             report = _closure1_slot1;
             golfie = _closure1_slot2;
             tangon = 19;
@@ -335,7 +335,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = tangon.value;
             michal = michal.bind(tangon)();
             _closure1_slot29 = michal;
- 484:
+ 482:
             return entity;
         }
     };

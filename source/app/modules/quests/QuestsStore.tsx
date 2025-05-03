@@ -1359,26 +1359,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
  0:
             entity = argFoo;
-            golfie = entity.decisionId;
             oscard = entity.quest;
             zuuluu = entity.placement;
-            report = entity.adIdentifiers;
+            report = entity.adDecisionData;
             entity = null;
-            if(!(entity != oscard)) { _fun00038_ip = 70; continue _fun00037 }
- 33:
+            if(!(entity != oscard)) { _fun00038_ip = 59; continue _fun00037 }
+ 27:
             tangon = _closure1_slot18;
             michal = tangon.set;
             entity = {};
-            entity['decisionId'] = golfie;
             entity['quest'] = oscard;
-            entity['adIdentifiers'] = report;
+            entity['adDecisionData'] = report;
             entity = michal.bind(tangon)(zuuluu, entity);
-            _fun00038_ip = 87; continue _fun00037;
- 70:
+            _fun00038_ip = 76; continue _fun00037;
+ 59:
             michal = _closure1_slot18;
             entity = michal.delete;
             entity = entity.bind(michal)(zuuluu);
- 87:
+ 76:
             entity = undefined;
             return entity;
         }

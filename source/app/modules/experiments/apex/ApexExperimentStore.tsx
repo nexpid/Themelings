@@ -1,5 +1,5 @@
 // app/modules/experiments/apex/ApexExperimentStore.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     golfie = argBaz;
     zuuluu = argFre;
@@ -121,9 +121,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = {};
                 verify = function(argFoo) { // Original name: CONNECTION_OPEN
                     zuuluu = _closure3_slot0;
-                    michal = zuuluu.processExperimentsMessage;
+                    michal = zuuluu.handleConnectionOpen;
                     entity = argFoo;
-                    entity = entity.apexUserExperiments;
                     entity = michal.bind(zuuluu)(entity);
                     return entity;
                 };
@@ -186,8 +185,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(8);
+        entity = new Array(10);
         entity[0] = report;
+        report = {};
+        golfie = 'handleConnectionOpen';
+        report['key'] = golfie;
+        golfie = function(argFoo) { // Original name: value
+            report = this;
+            michal = report.processExperimentsMessage;
+            entity = argFoo;
+            entity = entity.apexUserExperiments;
+            entity = michal.bind(report)(entity);
+            tangon = report.trackCurrentEvaluationExposure;
+            michal = _closure1_slot8;
+            entity = michal.getId;
+            zuuluu = entity.bind(michal)();
+            michal = 'user';
+            entity = 'connection_open';
+            entity = tangon.bind(report)(michal, zuuluu, entity);
+            entity = undefined;
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[1] = report;
         report = {};
         golfie = 'processExperimentsMessage';
         report['key'] = golfie;
@@ -354,7 +374,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[1] = report;
+        entity[2] = report;
         report = {};
         golfie = 'registerExperiment';
         report['key'] = golfie;
@@ -382,7 +402,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[2] = report;
+        entity[3] = report;
         report = {};
         golfie = 'getAssignedConfig';
         report['key'] = golfie;
@@ -414,7 +434,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[3] = report;
+        entity[4] = report;
         report = {};
         golfie = 'getEvaluation';
         report['key'] = golfie;
@@ -441,42 +461,63 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[4] = report;
+        entity[5] = report;
         report = {};
-        golfie = 'trackExposure';
+        golfie = 'trackEvaluationExposure';
         report['key'] = golfie;
-        golfie = function(argFoo, argBar, argBaz, argCor) { // Original name: value
+        golfie = function(argFoo) { // Original name: value
+            entity = argFoo;
+            verify = entity.evaluationId;
+            oscard = entity.kind;
+            option = entity.experimentId;
+            golfie = entity.location;
+            tangon = _closure1_slot1;
+            zuuluu = _closure1_slot2;
+            entity = 9;
+            zuuluu = zuuluu[entity];
+            entity = undefined;
+            report = tangon.bind(entity)(zuuluu);
+            tangon = report.track;
+            michal = _closure1_slot9;
+            zuuluu = michal.EXPERIMENT_USER_EVALUATION_EXPOSED;
+            michal = {};
+            michal['evaluation'] = verify;
+            michal['experiment'] = option;
+            michal['exposure_location'] = golfie;
+            michal['unit_type'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[6] = report;
+        report = {};
+        golfie = 'trackCurrentEvaluationExposure';
+        report['key'] = golfie;
+        golfie = function(argFoo, argBar, argBaz) { // Original name: value
             _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-                report = argBar;
-                entity = 'user';
-                if(!(entity === report)) { _fun00016_ip = 94; continue _fun00015 }
- 11:
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                michal = 9;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                tangon = tangon.bind(michal)(zuuluu);
-                zuuluu = tangon.track;
-                entity = _closure1_slot9;
-                michal = entity.EXPERIMENT_USER_EVALUATION_EXPOSED;
+                tangon = argFoo;
+                zuuluu = this;
+                michal = zuuluu.getEvaluation;
+                entity = argBar;
+                report = michal.bind(zuuluu)(tangon, entity);
+                entity = null;
+                if(!(entity != report)) { _fun00016_ip = 60; continue _fun00015 }
+ 29:
+                michal = zuuluu.trackEvaluationExposure;
                 entity = {};
-                oscard = argFoo;
-                entity['evaluation'] = oscard;
-                oscard = argBaz;
-                entity['experiment'] = oscard;
-                oscard = argCor;
-                entity['exposure_location'] = oscard;
-                entity['unit_type'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
- 94:
+                entity['evaluationId'] = report;
+                entity['kind'] = tangon;
+                tangon = argBaz;
+                entity['location'] = tangon;
+                entity = michal.bind(zuuluu)(entity);
+ 60:
                 entity = undefined;
                 return entity;
             }
         };
         report['value'] = golfie;
-        entity[5] = report;
+        entity[7] = report;
         report = {};
         golfie = 'isCompatibleConfig';
         report['key'] = golfie;
@@ -499,7 +540,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[6] = report;
+        entity[8] = report;
         report = {};
         golfie = 'getExperimentAssignment';
         report['key'] = golfie;
@@ -531,7 +572,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = oscard;
-        entity[7] = report;
+        entity[9] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
