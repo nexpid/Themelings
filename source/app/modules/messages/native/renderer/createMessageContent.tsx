@@ -13,16 +13,16 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity = argFoo;
             oscard = argCor;
             michal = argBaz;
-            if(michal) { _fun00002_ip = 795; continue _fun00001 }
+            if(michal) { _fun00002_ip = 791; continue _fun00001 }
  15:
             zuuluu = entity.hasFlag;
             michal = _closure1_slot25;
             michal = michal.HAS_THREAD;
             michal = zuuluu.bind(entity)(michal);
-            if(!michal) { _fun00002_ip = 795; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 791; continue _fun00001 }
  45:
             michal = null;
-            if(!(michal != oscard)) { _fun00002_ip = 795; continue _fun00001 }
+            if(!(michal != oscard)) { _fun00002_ip = 791; continue _fun00001 }
  54:
             golfie = _closure1_slot15;
             report = golfie.getMostRecentMessage;
@@ -75,31 +75,31 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['messagePreviewString'] = zuuluu;
             zuuluu = false;
             entity['archived'] = zuuluu;
-            _fun00002_ip = 793; continue _fun00001;
+            _fun00002_ip = 789; continue _fun00001;
  278:
             zuuluu = oscard.threadMetadata;
             if(!(michal != zuuluu)) { _fun00002_ip = 300; continue _fun00001 }
  288:
             zuuluu = zuuluu.archived;
-            if(zuuluu) { _fun00002_ip = 660; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 656; continue _fun00001 }
  300:
-            if(!(michal != golfie)) { _fun00002_ip = 569; continue _fun00001 }
+            if(!(michal != golfie)) { _fun00002_ip = 565; continue _fun00001 }
  307:
             zuuluu = golfie.type;
             michal = _closure1_slot23;
             michal = michal.CHANNEL_NAME_CHANGE;
-            if(!(zuuluu !== michal)) { _fun00002_ip = 569; continue _fun00001 }
+            if(!(zuuluu !== michal)) { _fun00002_ip = 565; continue _fun00001 }
  329:
             zuuluu = golfie.type;
             michal = _closure1_slot23;
             michal = michal.THREAD_STARTER_MESSAGE;
-            if(!(zuuluu !== michal)) { _fun00002_ip = 569; continue _fun00001 }
+            if(!(zuuluu !== michal)) { _fun00002_ip = 565; continue _fun00001 }
  351:
             michal = golfie.blocked;
-            if(michal) { _fun00002_ip = 459; continue _fun00001 }
+            if(michal) { _fun00002_ip = 455; continue _fun00001 }
  360:
             michal = golfie.ignored;
-            if(michal) { _fun00002_ip = 459; continue _fun00001 }
+            if(michal) { _fun00002_ip = 455; continue _fun00001 }
  369:
             michal = {};
             zuuluu = oscard.name;
@@ -119,8 +119,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             verify = offset.bind(option)(verify);
             zuuluu['message'] = verify;
             michal['referencedMessage'] = zuuluu;
-            _fun00002_ip = 567; continue _fun00001;
- 459:
+            _fun00002_ip = 563; continue _fun00001;
+ 455:
             zuuluu = {};
             verify = oscard.name;
             zuuluu['title'] = verify;
@@ -136,22 +136,22 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             verify = foxtra[verify];
             verify = romeon.bind(option)(verify);
             verify = verify.t;
-            if(golfie) { _fun00002_ip = 541; continue _fun00001 }
- 528:
+            if(golfie) { _fun00002_ip = 537; continue _fun00001 }
+ 524:
             golfie = verify.G7p6v7;
             golfie = offset.bind(yankee)(golfie);
-            _fun00002_ip = 552; continue _fun00001;
- 541:
+            _fun00002_ip = 548; continue _fun00001;
+ 537:
             verify = verify.XAkOo6;
             golfie = offset.bind(yankee)(verify);
- 552:
+ 548:
             zuuluu['messagePreviewString'] = golfie;
             golfie = false;
             zuuluu['archived'] = golfie;
             michal = zuuluu;
- 567:
-            _fun00002_ip = 655; continue _fun00001;
- 569:
+ 563:
+            _fun00002_ip = 651; continue _fun00001;
+ 565:
             zuuluu = {};
             golfie = oscard.name;
             zuuluu['title'] = golfie;
@@ -172,9 +172,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = false;
             zuuluu['archived'] = golfie;
             michal = zuuluu;
- 655:
-            _fun00002_ip = 790; continue _fun00001;
- 660:
+ 651:
+            _fun00002_ip = 786; continue _fun00001;
+ 656:
             zuuluu = {};
             oscard = oscard.name;
             zuuluu['title'] = oscard;
@@ -205,11 +205,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = report.bind(oscard)(tangon);
             zuuluu['archivedIconUrl'] = tangon;
             michal = zuuluu;
- 790:
+ 786:
             entity = michal;
- 793:
+ 789:
             return entity;
- 795:
+ 791:
             entity = undefined;
             return entity;
         }

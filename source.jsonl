@@ -271,7 +271,7 @@
 { "file": "app/modules/collectibles/records/HeroBlockRecord.tsx", "size": 4288 }
 { "file": "app/modules/collectibles/records/ShelfBlockRecord.tsx", "size": 2780 }
 { "file": "app/modules/collectibles/records/WideBannerBlockRecord.tsx", "size": 3065 }
-{ "file": "app/modules/collectibles/CollectiblesCategoryStore.tsx", "size": 39305 }
+{ "file": "app/modules/collectibles/CollectiblesCategoryStore.tsx", "size": 39382 }
 { "file": "app/modules/experiments/ExperimentStore.tsx", "size": 136238 }
 { "file": "app/modules/build_overrides/BuildOverrideUtils.tsx", "size": 19601 }
 { "file": "app/modules/build_overrides/BuildOverrideConstants.tsx", "size": 2044 }
