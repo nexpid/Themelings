@@ -274,11 +274,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = function(argFoo, argBar) { // Original name: value
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-                tangon = this;
-                michal = tangon.props;
                 entity = argFoo;
-                if(!(entity !== michal)) { _fun00010_ip = 285; continue _fun00009 }
- 18:
+                tangon = this;
+                zuuluu = entity.children;
+                michal = tangon.props;
+                michal = michal.children;
+                if(!(zuuluu === michal)) { _fun00010_ip = 70; continue _fun00009 }
+ 25:
+                zuuluu = entity.transitionAppear;
+                michal = tangon.props;
+                michal = michal.transitionAppear;
+                if(!(zuuluu === michal)) { _fun00010_ip = 70; continue _fun00009 }
+ 46:
+                michal = entity.transitionLeave;
+                entity = tangon.props;
+                entity = entity.transitionLeave;
+                if(!(michal !== entity)) { _fun00010_ip = 337; continue _fun00009 }
+ 70:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot1;
                 verify = 7;
@@ -293,25 +305,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = michal.children;
                 michal = tangon.props;
                 michal = michal.transitionEnter;
-                if(michal) { _fun00010_ip = 112; continue _fun00009 }
- 86:
+                if(michal) { _fun00010_ip = 164; continue _fun00009 }
+ 138:
                 michal = tangon._keysToEnter;
                 michal = michal.length;
-                if(!michal) { _fun00010_ip = 131; continue _fun00009 }
- 100:
+                if(!michal) { _fun00010_ip = 183; continue _fun00009 }
+ 152:
                 michal = new Array(0);
                 tangon['_keysToEnter'] = michal;
-                _fun00010_ip = 131; continue _fun00009;
- 112:
+                _fun00010_ip = 183; continue _fun00009;
+ 164:
                 oscard = tangon._enqueueTransitions;
                 michal = tangon._keysToEnter;
                 michal = oscard.bind(tangon)(report, zuuluu, michal);
- 131:
+ 183:
                 michal = tangon.props;
                 oscard = michal.transitionLeave;
                 michal = tangon._enqueueTransitions;
-                if(oscard) { _fun00010_ip = 272; continue _fun00009 }
- 151:
+                if(oscard) { _fun00010_ip = 324; continue _fun00009 }
+ 203:
                 option = new Array(0);
                 oscard = michal.bind(tangon)(zuuluu, report, option);
                 oscard = _closure1_slot0;
@@ -323,54 +335,54 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = option.length;
                 entity = 0;
                 verify = entity < oscard;
-                if(!verify) { _fun00010_ip = 220; continue _fun00009 }
- 205:
+                if(!verify) { _fun00010_ip = 272; continue _fun00009 }
+ 257:
                 verify = option[entity];
                 verify = delete golfie[verify];
                 entity = entity + 1;
-                if(entity < oscard) { _fun00010_ip = 205; continue _fun00009 }
- 220:
+                if(entity < oscard) { _fun00010_ip = 257; continue _fun00009 }
+ 272:
                 entity = tangon._isMounted;
-                if(!entity) { _fun00010_ip = 246; continue _fun00009 }
- 229:
+                if(!entity) { _fun00010_ip = 298; continue _fun00009 }
+ 281:
                 oscard = tangon.setState;
                 entity = {};
                 entity['children'] = golfie;
                 entity = oscard.bind(tangon)(entity);
- 246:
+ 298:
                 entity = tangon._keysToLeave;
                 entity = entity.length;
-                if(!entity) { _fun00010_ip = 285; continue _fun00009 }
- 260:
+                if(!entity) { _fun00010_ip = 337; continue _fun00009 }
+ 312:
                 entity = new Array(0);
                 tangon['_keysToLeave'] = entity;
-                _fun00010_ip = 285; continue _fun00009;
- 272:
+                _fun00010_ip = 337; continue _fun00009;
+ 324:
                 entity = tangon._keysToLeave;
                 entity = michal.bind(tangon)(zuuluu, report, entity);
- 285:
+ 337:
                 entity = tangon._keysToEnter;
                 entity = entity.length;
-                if(!entity) { _fun00010_ip = 332; continue _fun00009 }
- 299:
+                if(!entity) { _fun00010_ip = 384; continue _fun00009 }
+ 351:
                 zuuluu = tangon._keysToEnter;
                 entity = new Array(0);
                 tangon['_keysToEnter'] = entity;
                 michal = zuuluu.forEach;
                 entity = tangon.performEnter;
                 entity = michal.bind(zuuluu)(entity, tangon);
- 332:
+ 384:
                 entity = tangon._keysToLeave;
                 entity = entity.length;
-                if(!entity) { _fun00010_ip = 379; continue _fun00009 }
- 346:
+                if(!entity) { _fun00010_ip = 431; continue _fun00009 }
+ 398:
                 zuuluu = tangon._keysToLeave;
                 entity = new Array(0);
                 tangon['_keysToLeave'] = entity;
                 michal = zuuluu.forEach;
                 entity = tangon.performLeave;
                 entity = michal.bind(zuuluu)(entity, tangon);
- 379:
+ 431:
                 entity = undefined;
                 return entity;
             }

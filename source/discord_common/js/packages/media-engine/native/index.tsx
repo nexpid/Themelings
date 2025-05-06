@@ -1118,119 +1118,119 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 if(!(michal !== zuuluu)) { _fun00024_ip = 2455; continue _fun00023 }
  74:
                 michal = _closure1_slot19;
-                michal = michal.DEBUG_LOGGING;
+                michal = michal.AUDIO_BYPASS_SYSTEM_INPUT_PROCESSING;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 2410; continue _fun00023 }
  91:
                 michal = _closure1_slot19;
-                michal = michal.SOUNDSHARE;
+                michal = michal.DEBUG_LOGGING;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 2365; continue _fun00023 }
  108:
                 michal = _closure1_slot19;
-                michal = michal.SCREEN_SOUNDSHARE;
+                michal = michal.SOUNDSHARE;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 2320; continue _fun00023 }
  125:
                 michal = _closure1_slot19;
-                michal = michal.ELEVATED_HOOK;
+                michal = michal.SCREEN_SOUNDSHARE;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 2275; continue _fun00023 }
  142:
                 michal = _closure1_slot19;
-                michal = michal.LOOPBACK;
+                michal = michal.ELEVATED_HOOK;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 2230; continue _fun00023 }
  159:
                 michal = _closure1_slot19;
-                michal = michal.WUMPUS_VIDEO;
+                michal = michal.LOOPBACK;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 2185; continue _fun00023 }
  176:
                 michal = _closure1_slot19;
-                michal = michal.HYBRID_VIDEO;
+                michal = michal.WUMPUS_VIDEO;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 2140; continue _fun00023 }
  193:
                 michal = _closure1_slot19;
-                michal = michal.ATTENUATION;
-                if(!(michal !== zuuluu)) { _fun00024_ip = 2007; continue _fun00023 }
+                michal = michal.HYBRID_VIDEO;
+                if(!(michal !== zuuluu)) { _fun00024_ip = 2095; continue _fun00023 }
  210:
                 michal = _closure1_slot19;
-                michal = michal.VIDEO_HOOK;
-                if(!(michal !== zuuluu)) { _fun00024_ip = 2007; continue _fun00023 }
+                michal = michal.ATTENUATION;
+                if(!(michal !== zuuluu)) { _fun00024_ip = 1962; continue _fun00023 }
  227:
                 michal = _closure1_slot19;
-                michal = michal.EXPERIMENTAL_SOUNDSHARE;
+                michal = michal.VIDEO_HOOK;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 1962; continue _fun00023 }
  244:
                 michal = _closure1_slot19;
-                michal = michal.OPEN_H264;
-                if(!(michal !== zuuluu)) { _fun00024_ip = 1829; continue _fun00023 }
+                michal = michal.EXPERIMENTAL_SOUNDSHARE;
+                if(!(michal !== zuuluu)) { _fun00024_ip = 1917; continue _fun00023 }
  261:
                 michal = _closure1_slot19;
-                michal = michal.EXPERIMENTAL_ENCODERS;
+                michal = michal.OPEN_H264;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 1784; continue _fun00023 }
  278:
                 michal = _closure1_slot19;
-                michal = michal.REMOTE_LOCUS_NETWORK_CONTROL;
+                michal = michal.EXPERIMENTAL_ENCODERS;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 1739; continue _fun00023 }
  295:
                 michal = _closure1_slot19;
-                michal = michal.SCREEN_PREVIEWS;
+                michal = michal.REMOTE_LOCUS_NETWORK_CONTROL;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 1694; continue _fun00023 }
  312:
                 michal = _closure1_slot19;
-                michal = michal.CLIPS;
+                michal = michal.SCREEN_PREVIEWS;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 1649; continue _fun00023 }
  329:
                 michal = _closure1_slot19;
-                michal = michal.WINDOW_PREVIEWS;
+                michal = michal.CLIPS;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 1604; continue _fun00023 }
  346:
                 michal = _closure1_slot19;
-                michal = michal.AUDIO_DEBUG_STATE;
+                michal = michal.WINDOW_PREVIEWS;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 1559; continue _fun00023 }
  363:
                 michal = _closure1_slot19;
-                michal = michal.CONNECTION_REPLAY;
+                michal = michal.AUDIO_DEBUG_STATE;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 1514; continue _fun00023 }
  380:
                 michal = _closure1_slot19;
-                michal = michal.SIMULCAST;
-                if(!(michal !== zuuluu)) { _fun00024_ip = 1428; continue _fun00023 }
+                michal = michal.CONNECTION_REPLAY;
+                if(!(michal !== zuuluu)) { _fun00024_ip = 1469; continue _fun00023 }
  397:
                 michal = _closure1_slot19;
-                michal = michal.RTC_REGION_RANKING;
+                michal = michal.SIMULCAST;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 1383; continue _fun00023 }
  414:
                 michal = _closure1_slot19;
-                michal = michal.ELECTRON_VIDEO;
+                michal = michal.RTC_REGION_RANKING;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 1338; continue _fun00023 }
  431:
                 michal = _closure1_slot19;
-                michal = michal.MEDIAPIPE;
+                michal = michal.ELECTRON_VIDEO;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 1293; continue _fun00023 }
  448:
                 michal = _closure1_slot19;
-                michal = michal.FIXED_KEYFRAME_INTERVAL;
+                michal = michal.MEDIAPIPE;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 1248; continue _fun00023 }
  465:
                 michal = _closure1_slot19;
-                michal = michal.FIRST_FRAME_CALLBACK;
+                michal = michal.FIXED_KEYFRAME_INTERVAL;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 1203; continue _fun00023 }
  482:
                 michal = _closure1_slot19;
-                michal = michal.REMOTE_USER_MULTI_STREAM;
+                michal = michal.FIRST_FRAME_CALLBACK;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 1158; continue _fun00023 }
  499:
                 michal = _closure1_slot19;
-                michal = michal.IMAGE_QUALITY_MEASUREMENT;
+                michal = michal.REMOTE_USER_MULTI_STREAM;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 1113; continue _fun00023 }
  516:
                 michal = _closure1_slot19;
-                michal = michal.GO_LIVE_HARDWARE;
+                michal = michal.IMAGE_QUALITY_MEASUREMENT;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 1068; continue _fun00023 }
  533:
                 michal = _closure1_slot19;
-                michal = michal.SCREEN_CAPTURE_KIT;
+                michal = michal.GO_LIVE_HARDWARE;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 1023; continue _fun00023 }
  550:
                 michal = _closure1_slot19;
-                michal = michal.CAPTURE_TIMEOUT_EXPERIMENTS;
+                michal = michal.SCREEN_CAPTURE_KIT;
                 if(!(michal !== zuuluu)) { _fun00024_ip = 978; continue _fun00023 }
  567:
                 michal = _closure1_slot19;
@@ -1351,7 +1351,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = tangon.bind(michal)(zuuluu);
                 zuuluu = tangon.supportsFeature;
                 michal = _closure1_slot22;
-                michal = michal.CAPTURE_TIMEOUT_EXPERIMENTS;
+                michal = michal.SCREEN_CAPTURE_KIT;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
  1023:
@@ -1363,7 +1363,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = tangon.bind(michal)(zuuluu);
                 zuuluu = tangon.supportsFeature;
                 michal = _closure1_slot22;
-                michal = michal.SCREEN_CAPTURE_KIT;
+                michal = michal.GO_LIVE_HARDWARE;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
  1068:
@@ -1375,7 +1375,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = tangon.bind(michal)(zuuluu);
                 zuuluu = tangon.supportsFeature;
                 michal = _closure1_slot22;
-                michal = michal.GO_LIVE_HARDWARE;
+                michal = michal.IMAGE_QUALITY_MEASUREMENT;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
  1113:
@@ -1387,7 +1387,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = tangon.bind(michal)(zuuluu);
                 zuuluu = tangon.supportsFeature;
                 michal = _closure1_slot22;
-                michal = michal.IMAGE_QUALITY_MEASUREMENT;
+                michal = michal.REMOTE_USER_MULTI_STREAM;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
  1158:
@@ -1399,7 +1399,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = tangon.bind(michal)(zuuluu);
                 zuuluu = tangon.supportsFeature;
                 michal = _closure1_slot22;
-                michal = michal.REMOTE_USER_MULTI_STREAM;
+                michal = michal.FIRST_FRAME_CALLBACK;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
  1203:
@@ -1411,7 +1411,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = tangon.bind(michal)(zuuluu);
                 zuuluu = tangon.supportsFeature;
                 michal = _closure1_slot22;
-                michal = michal.FIRST_FRAME_CALLBACK;
+                michal = michal.FIXED_KEYFRAME_INTERVAL;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
  1248:
@@ -1423,7 +1423,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = tangon.bind(michal)(zuuluu);
                 zuuluu = tangon.supportsFeature;
                 michal = _closure1_slot22;
-                michal = michal.FIXED_KEYFRAME_INTERVAL;
+                michal = michal.MEDIAPIPE;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
  1293:
@@ -1435,7 +1435,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = tangon.bind(michal)(zuuluu);
                 zuuluu = tangon.supportsFeature;
                 michal = _closure1_slot22;
-                michal = michal.MEDIAPIPE;
+                michal = michal.ELECTRON_VIDEO;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
  1338:
@@ -1447,22 +1447,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = tangon.bind(michal)(zuuluu);
                 zuuluu = tangon.supportsFeature;
                 michal = _closure1_slot22;
-                michal = michal.ELECTRON_VIDEO;
-                michal = zuuluu.bind(tangon)(michal);
-                return michal;
- 1383:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                michal = 15;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                tangon = tangon.bind(michal)(zuuluu);
-                zuuluu = tangon.supportsFeature;
-                michal = _closure1_slot22;
                 michal = michal.RTC_REGION_RANKING;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1428:
+ 1383:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
                 oscard = 15;
@@ -1473,8 +1461,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = _closure1_slot22;
                 michal = michal.SIMULCAST;
                 michal = zuuluu.bind(tangon)(michal);
-                if(!michal) { _fun00024_ip = 1512; continue _fun00023 }
- 1474:
+                if(!michal) { _fun00024_ip = 1467; continue _fun00023 }
+ 1429:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 zuuluu = zuuluu[oscard];
@@ -1483,9 +1471,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = _closure1_slot22;
                 zuuluu = zuuluu.SIMULCAST_BUGFIX;
                 michal = tangon.bind(report)(zuuluu);
- 1512:
+ 1467:
                 return michal;
- 1514:
+ 1469:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1497,7 +1485,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.CONNECTION_REPLAY;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1559:
+ 1514:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1509,7 +1497,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.AUDIO_DEBUG_STATE;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1604:
+ 1559:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1521,7 +1509,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.WINDOW_PREVIEWS;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1649:
+ 1604:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1533,7 +1521,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.CLIPS;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1694:
+ 1649:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1545,7 +1533,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.SCREEN_PREVIEWS;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1739:
+ 1694:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1557,7 +1545,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.REMOTE_LOCUS_NETWORK_CONTROL;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1784:
+ 1739:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1569,7 +1557,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.EXPERIMENTAL_ENCODERS;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 1829:
+ 1784:
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
                 option = 17;
@@ -1579,8 +1567,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = null;
                 tangon = zuuluu == michal;
                 michal = undefined;
-                if(tangon) { _fun00024_ip = 1900; continue _fun00023 }
- 1862:
+                if(tangon) { _fun00024_ip = 1855; continue _fun00023 }
+ 1817:
                 report = _closure1_slot1;
                 tangon = _closure1_slot2;
                 tangon = tangon[option];
@@ -1588,13 +1576,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = tangon.os;
                 report = zuuluu == tangon;
                 michal = undefined;
-                if(report) { _fun00024_ip = 1900; continue _fun00023 }
- 1894:
+                if(report) { _fun00024_ip = 1855; continue _fun00023 }
+ 1849:
                 michal = tangon.family;
- 1900:
+ 1855:
                 michal = zuuluu != michal;
-                if(!michal) { _fun00024_ip = 1960; continue _fun00023 }
- 1907:
+                if(!michal) { _fun00024_ip = 1915; continue _fun00023 }
+ 1862:
                 report = /^win|linux|OS X/i;
                 tangon = report.test;
                 oscard = _closure1_slot1;
@@ -1604,9 +1592,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = zuuluu.os;
                 zuuluu = zuuluu.family;
                 michal = tangon.bind(report)(zuuluu);
- 1960:
+ 1915:
                 return michal;
- 1962:
+ 1917:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1618,7 +1606,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.SOUNDSHARE_LOOPBACK;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 2007:
+ 1962:
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
                 option = 17;
@@ -1628,8 +1616,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = null;
                 tangon = zuuluu == michal;
                 michal = undefined;
-                if(tangon) { _fun00024_ip = 2078; continue _fun00023 }
- 2040:
+                if(tangon) { _fun00024_ip = 2033; continue _fun00023 }
+ 1995:
                 report = _closure1_slot1;
                 tangon = _closure1_slot2;
                 tangon = tangon[option];
@@ -1637,13 +1625,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = tangon.os;
                 report = zuuluu == tangon;
                 michal = undefined;
-                if(report) { _fun00024_ip = 2078; continue _fun00023 }
- 2072:
+                if(report) { _fun00024_ip = 2033; continue _fun00023 }
+ 2027:
                 michal = tangon.family;
- 2078:
+ 2033:
                 michal = zuuluu != michal;
-                if(!michal) { _fun00024_ip = 2138; continue _fun00023 }
- 2085:
+                if(!michal) { _fun00024_ip = 2093; continue _fun00023 }
+ 2040:
                 report = /^win/i;
                 tangon = report.test;
                 oscard = _closure1_slot1;
@@ -1653,9 +1641,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = zuuluu.os;
                 zuuluu = zuuluu.family;
                 michal = tangon.bind(report)(zuuluu);
- 2138:
+ 2093:
                 return michal;
- 2140:
+ 2095:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1667,7 +1655,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.HYBRID_VIDEO;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 2185:
+ 2140:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1679,7 +1667,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.WUMPUS_VIDEO;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 2230:
+ 2185:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1691,7 +1679,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.LOOPBACK;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 2275:
+ 2230:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1703,7 +1691,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.ELEVATED_HOOK;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 2320:
+ 2275:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1715,7 +1703,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.SCREEN_SOUNDSHARE;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 2365:
+ 2320:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1727,7 +1715,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.SOUNDSHARE;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 2410:
+ 2365:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 15;
@@ -1737,6 +1725,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = tangon.supportsFeature;
                 michal = _closure1_slot22;
                 michal = michal.DEBUG_LOGGING;
+                michal = zuuluu.bind(tangon)(michal);
+                return michal;
+ 2410:
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot2;
+                michal = 15;
+                zuuluu = zuuluu[michal];
+                michal = undefined;
+                tangon = tangon.bind(michal)(zuuluu);
+                zuuluu = tangon.supportsFeature;
+                michal = _closure1_slot22;
+                michal = michal.VOICE_BYPASS_SYSTEM_AUDIO_INPUT_PROCESSING;
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
  2455:
@@ -1998,6 +1998,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard['value'] = verify;
         michal[7] = oscard;
         oscard = {};
+        verify = 'setAudioInputBypassSystemProcessing';
+        oscard['key'] = verify;
+        verify = function(argFoo) { // Original name: value
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
+            entity = 15;
+            michal = michal[entity];
+            entity = undefined;
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.getVoiceEngine;
+            tangon = michal.bind(zuuluu)();
+            zuuluu = tangon.setTransportOptions;
+            michal = {};
+            report = argFoo;
+            michal['bypassSystemProcessing'] = report;
+            michal = zuuluu.bind(tangon)(michal);
+            return entity;
+        };
+        oscard['value'] = verify;
+        michal[8] = oscard;
+        oscard = {};
         verify = 'setInputVolume';
         oscard['key'] = verify;
         verify = function(argFoo) { // Original name: value
@@ -2017,7 +2038,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = verify;
-        michal[8] = oscard;
+        michal[9] = oscard;
         oscard = {};
         verify = 'setOutputVolume';
         oscard['key'] = verify;
@@ -2038,7 +2059,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = verify;
-        michal[9] = oscard;
+        michal[10] = oscard;
         oscard = {};
         verify = 'getAudioInputDevices';
         oscard['key'] = verify;
@@ -2054,7 +2075,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = verify;
-        michal[10] = oscard;
+        michal[11] = oscard;
         oscard = {};
         verify = 'setAudioInputDevice';
         oscard['key'] = verify;
@@ -2134,7 +2155,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = verify;
-        michal[11] = oscard;
+        michal[12] = oscard;
         oscard = {};
         verify = 'getAudioOutputDevices';
         oscard['key'] = verify;
@@ -2150,7 +2171,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = verify;
-        michal[12] = oscard;
+        michal[13] = oscard;
         oscard = {};
         verify = 'setAudioOutputDevice';
         oscard['key'] = verify;
@@ -2230,7 +2251,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = verify;
-        michal[13] = oscard;
+        michal[14] = oscard;
         oscard = {};
         verify = 'getVideoInputDevices';
         oscard['key'] = verify;
@@ -2246,7 +2267,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = verify;
-        michal[14] = oscard;
+        michal[15] = oscard;
         oscard = {};
         verify = 'setVideoInputDevice';
         oscard['key'] = verify;
@@ -2385,7 +2406,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[15] = oscard;
+        michal[16] = oscard;
         oscard = {};
         option = 'getSupportedVideoCodecs';
         oscard['key'] = option;
@@ -2404,7 +2425,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[16] = oscard;
+        michal[17] = oscard;
         oscard = {};
         option = 'getCodecCapabilities';
         oscard['key'] = option;
@@ -2423,7 +2444,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[17] = oscard;
+        michal[18] = oscard;
         oscard = {};
         option = 'setGoLiveSource';
         oscard['key'] = option;
@@ -2498,7 +2519,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[18] = oscard;
+        michal[19] = oscard;
         oscard = {};
         option = 'setClipsSource';
         oscard['key'] = option;
@@ -2696,7 +2717,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[19] = oscard;
+        michal[20] = oscard;
         oscard = {};
         option = 'setClipsQualitySettings';
         oscard['key'] = option;
@@ -2727,7 +2748,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[20] = oscard;
+        michal[21] = oscard;
         oscard = {};
         option = 'setSoundshareSource';
         oscard['key'] = option;
@@ -2770,7 +2791,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[21] = oscard;
+        michal[22] = oscard;
         oscard = {};
         option = 'getDesktopSource';
         oscard['key'] = option;
@@ -2789,7 +2810,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[22] = oscard;
+        michal[23] = oscard;
         oscard = {};
         option = 'getScreenPreviews';
         oscard['key'] = option;
@@ -2866,7 +2887,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[23] = oscard;
+        michal[24] = oscard;
         oscard = {};
         option = 'setClipBufferLength';
         oscard['key'] = option;
@@ -2893,7 +2914,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[24] = oscard;
+        michal[25] = oscard;
         oscard = {};
         option = 'saveClip';
         oscard['key'] = option;
@@ -2979,7 +3000,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[25] = oscard;
+        michal[26] = oscard;
         oscard = {};
         option = 'saveClipForUser';
         oscard['key'] = option;
@@ -3065,7 +3086,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[26] = oscard;
+        michal[27] = oscard;
         oscard = {};
         option = 'updateClipMetadata';
         oscard['key'] = option;
@@ -3120,7 +3141,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[27] = oscard;
+        michal[28] = oscard;
         oscard = {};
         option = 'exportClip';
         oscard['key'] = option;
@@ -3193,7 +3214,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[28] = oscard;
+        michal[29] = oscard;
         oscard = {};
         option = 'getWindowPreviews';
         oscard['key'] = option;
@@ -3254,7 +3275,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[29] = oscard;
+        michal[30] = oscard;
         oscard = {};
         option = 'setAudioSubsystem';
         oscard['key'] = option;
@@ -3300,7 +3321,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[30] = oscard;
+        michal[31] = oscard;
         oscard = {};
         option = 'queueAudioSubsystem';
         oscard['key'] = option;
@@ -3332,7 +3353,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[31] = oscard;
+        michal[32] = oscard;
         oscard = {};
         option = 'getAudioSubsystem';
         oscard['key'] = option;
@@ -3342,7 +3363,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[32] = oscard;
+        michal[33] = oscard;
         oscard = {};
         option = 'getAudioLayer';
         oscard['key'] = option;
@@ -3352,7 +3373,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[33] = oscard;
+        michal[34] = oscard;
         oscard = {};
         option = 'getDebugLogging';
         oscard['key'] = option;
@@ -3383,7 +3404,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[34] = oscard;
+        michal[35] = oscard;
         oscard = {};
         option = 'setDebugLogging';
         oscard['key'] = option;
@@ -3414,52 +3435,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = option;
-        michal[35] = oscard;
-        oscard = {};
-        option = 'setExperimentalAdm';
-        oscard['key'] = option;
-        option = function(argFoo) { // Original name: setExperimentalAdm
-            _fun00077: for(var _fun00078_ip = 0; ; ) switch(_fun00078_ip) {
- 0:
-                entity = this;
-                var _closure3_slot0 = entity;
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 15;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.getVoiceEngine;
-                zuuluu = zuuluu.bind(tangon)();
-                oscard = zuuluu.setExperimentalAdm;
-                zuuluu = zuuluu.getAudioSubsystem;
-                tangon = null;
-                if(!(tangon != oscard)) { _fun00078_ip = 72; continue _fun00077 }
- 64:
-                report = argFoo;
-                report = oscard.bind(entity)(report);
- 72:
-                if(!(tangon != zuuluu)) { _fun00078_ip = 86; continue _fun00077 }
- 76:
-                michal = function(argFoo) {
-                    michal = _closure3_slot0;
-                    entity = argFoo;
-                    michal['audioSubsystem'] = entity;
-                    entity = undefined;
-                    return entity;
-                };
-                michal = zuuluu.bind(entity)(michal);
- 86:
-                return entity;
-            }
-        };
-        oscard['value'] = option;
         michal[36] = oscard;
         oscard = {};
         option = 'setLoopback';
         oscard['key'] = option;
         option = function(argFoo, argBar) { // Original name: value
-            _fun00079: for(var _fun00080_ip = 0; ; ) switch(_fun00080_ip) {
+            _fun00077: for(var _fun00078_ip = 0; ; ) switch(_fun00078_ip) {
  0:
                 michal = argFoo;
                 offset = argBar;
@@ -3474,7 +3455,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = zuuluu.bind(tangon)();
                 zuuluu = zuuluu.setLoopback;
                 tangon = null;
-                if(!(tangon != zuuluu)) { _fun00080_ip = 152; continue _fun00079 }
+                if(!(tangon != zuuluu)) { _fun00078_ip = 152; continue _fun00077 }
  56:
                 option = _closure1_slot0;
                 zuuluu = _closure1_slot2;
@@ -3503,7 +3484,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = option.getVoiceEngine;
                 zuuluu = zuuluu.bind(option)();
                 zuuluu = zuuluu.setEmitVADLevel2;
-                if(!(tangon == zuuluu)) { _fun00080_ip = 335; continue _fun00079 }
+                if(!(tangon == zuuluu)) { _fun00078_ip = 335; continue _fun00077 }
  192:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
@@ -3513,7 +3494,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 verify = zuuluu.bind(tangon)();
                 option = verify.setEmitVADLevel;
                 tangon = michal;
-                if(michal) { _fun00080_ip = 280; continue _fun00079 }
+                if(michal) { _fun00078_ip = 280; continue _fun00077 }
  231:
                 yankee = golfie.listenerCount;
                 romeon = _closure1_slot0;
@@ -3537,7 +3518,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 offset = offset.noiseCancellation;
                 zuuluu['noiseCancellation'] = offset;
                 zuuluu = option.bind(verify)(tangon, michal, zuuluu);
-                _fun00080_ip = 425; continue _fun00079;
+                _fun00078_ip = 425; continue _fun00077;
  335:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
@@ -3546,7 +3527,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = tangon.getVoiceEngine;
                 tangon = zuuluu.bind(tangon)();
                 zuuluu = tangon.setEmitVADLevel2;
-                if(michal) { _fun00080_ip = 420; continue _fun00079 }
+                if(michal) { _fun00078_ip = 420; continue _fun00077 }
  371:
                 oscard = golfie.listenerCount;
                 option = _closure1_slot0;
@@ -3571,7 +3552,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         option = 'setMaybePreprocessMute';
         oscard['key'] = option;
         option = function(argFoo) { // Original name: value
-            _fun00081: for(var _fun00082_ip = 0; ; ) switch(_fun00082_ip) {
+            _fun00079: for(var _fun00080_ip = 0; ; ) switch(_fun00080_ip) {
  0:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
@@ -3583,7 +3564,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = michal.bind(zuuluu)();
                 tangon = report.setMaybePreprocessMute;
                 michal = null;
-                if(!(michal != tangon)) { _fun00082_ip = 61; continue _fun00081 }
+                if(!(michal != tangon)) { _fun00080_ip = 61; continue _fun00079 }
  47:
                 zuuluu = tangon.call;
                 michal = argFoo;
@@ -3670,20 +3651,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         option = 'getCodecSurvey';
         oscard['key'] = option;
         option = function() { // Original name: value
-            _fun00083: for(var _fun00084_ip = 0; ; ) switch(_fun00084_ip) {
+            _fun00081: for(var _fun00082_ip = 0; ; ) switch(_fun00082_ip) {
  0:
                 michal = this;
                 var _closure3_slot0 = michal;
                 tangon = michal.codecSurvey;
                 zuuluu = null;
-                if(!(zuuluu == tangon)) { _fun00084_ip = 56; continue _fun00083 }
+                if(!(zuuluu == tangon)) { _fun00082_ip = 56; continue _fun00081 }
  21:
                 zuuluu = global;
                 tangon = zuuluu.Promise;
                 zuuluu = tangon.prototype;
                 zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
                 report = function(argFoo, argBar) {
-                    _fun00085: for(var _fun00086_ip = 0; ; ) switch(_fun00086_ip) {
+                    _fun00083: for(var _fun00084_ip = 0; ; ) switch(_fun00084_ip) {
  0:
                         entity = argFoo;
                         var _closure4_slot0 = entity;
@@ -3697,7 +3678,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         tangon = zuuluu.bind(tangon)();
                         report = tangon.getCodecSurvey;
                         zuuluu = null;
-                        if(!(zuuluu == report)) { _fun00086_ip = 100; continue _fun00085 }
+                        if(!(zuuluu == report)) { _fun00084_ip = 100; continue _fun00083 }
  56:
                         zuuluu = global;
                         oscard = zuuluu.Error;
@@ -3709,7 +3690,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         report = zuuluu instanceof Object ? zuuluu : report;
                         zuuluu = argBar;
                         zuuluu = zuuluu.bind(entity)(report);
-                        _fun00086_ip = 116; continue _fun00085;
+                        _fun00084_ip = 116; continue _fun00083;
  100:
                         zuuluu = tangon.getCodecSurvey;
                         michal = function(argFoo) {
@@ -3729,7 +3710,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = zuuluu;
                 entity = new oscard[tangon](report, tangon);
                 entity = entity instanceof Object ? entity : zuuluu;
-                _fun00084_ip = 81; continue _fun00083;
+                _fun00082_ip = 81; continue _fun00081;
  56:
                 zuuluu = global;
                 tangon = zuuluu.Promise;
@@ -3751,7 +3732,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = zuuluu.prototype;
             michal = Object.create(entity, {constructor: {value: zuuluu}});
             tangon = function(argFoo, argBar) {
-                _fun00087: for(var _fun00088_ip = 0; ; ) switch(_fun00088_ip) {
+                _fun00085: for(var _fun00086_ip = 0; ; ) switch(_fun00086_ip) {
  0:
                     zuuluu = _closure1_slot0;
                     michal = _closure1_slot2;
@@ -3763,7 +3744,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = michal.bind(zuuluu)();
                     michal = michal.writeAudioDebugState;
                     zuuluu = null;
-                    if(!(zuuluu == michal)) { _fun00088_ip = 93; continue _fun00087 }
+                    if(!(zuuluu == michal)) { _fun00086_ip = 93; continue _fun00085 }
  49:
                     zuuluu = global;
                     report = zuuluu.Error;
@@ -3775,7 +3756,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = zuuluu instanceof Object ? zuuluu : tangon;
                     zuuluu = argBar;
                     zuuluu = zuuluu.bind(entity)(tangon);
-                    _fun00088_ip = 104; continue _fun00087;
+                    _fun00086_ip = 104; continue _fun00085;
  93:
                     michal = michal.bind(entity)();
                     michal = argFoo;
@@ -3813,7 +3794,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         option = 'setAecDump';
         oscard['key'] = option;
         option = function(argFoo) { // Original name: value
-            _fun00089: for(var _fun00090_ip = 0; ; ) switch(_fun00090_ip) {
+            _fun00087: for(var _fun00088_ip = 0; ; ) switch(_fun00088_ip) {
  0:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
@@ -3825,7 +3806,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = michal.bind(zuuluu)();
                 tangon = report.setAecDump;
                 michal = null;
-                if(!(michal != tangon)) { _fun00090_ip = 61; continue _fun00089 }
+                if(!(michal != tangon)) { _fun00088_ip = 61; continue _fun00087 }
  47:
                 zuuluu = tangon.call;
                 michal = argFoo;
@@ -3847,7 +3828,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.prototype;
             michal = Object.create(michal, {constructor: {value: zuuluu}});
             tangon = function(argFoo, argBar) {
-                _fun00091: for(var _fun00092_ip = 0; ; ) switch(_fun00092_ip) {
+                _fun00089: for(var _fun00090_ip = 0; ; ) switch(_fun00090_ip) {
  0:
                     entity = argFoo;
                     var _closure4_slot0 = entity;
@@ -3861,7 +3842,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = zuuluu.bind(tangon)();
                     tangon = zuuluu.rankRtcRegions;
                     zuuluu = null;
-                    if(!(zuuluu == tangon)) { _fun00092_ip = 100; continue _fun00091 }
+                    if(!(zuuluu == tangon)) { _fun00090_ip = 100; continue _fun00089 }
  56:
                     zuuluu = global;
                     oscard = zuuluu.Error;
@@ -3873,7 +3854,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = zuuluu instanceof Object ? zuuluu : report;
                     zuuluu = argBar;
                     zuuluu = zuuluu.bind(entity)(report);
-                    _fun00092_ip = 118; continue _fun00091;
+                    _fun00090_ip = 118; continue _fun00089;
  100:
                     zuuluu = _closure3_slot0;
                     michal = function(argFoo) {
@@ -3899,7 +3880,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         option = 'createReplayConnection';
         oscard['key'] = option;
         option = function(argFoo, argBar) { // Original name: value
-            _fun00093: for(var _fun00094_ip = 0; ; ) switch(_fun00094_ip) {
+            _fun00091: for(var _fun00092_ip = 0; ; ) switch(_fun00092_ip) {
  0:
                 report = this;
                 var _closure3_slot0 = report;
@@ -3915,7 +3896,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = zuuluu.bind(oscard)(michal, entity);
                 entity = null;
                 zuuluu = entity == michal;
-                if(zuuluu) { _fun00094_ip = 200; continue _fun00093 }
+                if(zuuluu) { _fun00092_ip = 200; continue _fun00091 }
  66:
                 yankee = michal.on;
                 oscard = _closure1_slot0;
@@ -3926,7 +3907,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 offset = offset.BaseConnectionEvent;
                 offset = offset.Destroy;
                 verify = function(argFoo) {
-                    _fun00095: for(var _fun00096_ip = 0; ; ) switch(_fun00096_ip) {
+                    _fun00093: for(var _fun00094_ip = 0; ; ) switch(_fun00094_ip) {
  0:
                         michal = _closure3_slot0;
                         tangon = michal.connections;
@@ -3935,7 +3916,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         entity = zuuluu.bind(tangon)(entity);
                         entity = michal.connectionsEmpty;
                         entity = entity.bind(michal)();
-                        if(!entity) { _fun00096_ip = 85; continue _fun00095 }
+                        if(!entity) { _fun00094_ip = 85; continue _fun00093 }
  39:
                         tangon = _closure1_slot0;
                         zuuluu = _closure1_slot2;
@@ -3996,7 +3977,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         option = 'setMaxSyncDelayOverride';
         oscard['key'] = option;
         option = function(argFoo) { // Original name: setMaxSyncDelayOverride
-            _fun00097: for(var _fun00098_ip = 0; ; ) switch(_fun00098_ip) {
+            _fun00095: for(var _fun00096_ip = 0; ; ) switch(_fun00096_ip) {
  0:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
@@ -4008,7 +3989,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.bind(zuuluu)();
                 zuuluu = michal.setMaxSyncDelayOverride;
                 michal = null;
-                if(!(michal != zuuluu)) { _fun00098_ip = 57; continue _fun00097 }
+                if(!(michal != zuuluu)) { _fun00096_ip = 57; continue _fun00095 }
  49:
                 michal = argFoo;
                 michal = zuuluu.bind(entity)(michal);
@@ -4022,7 +4003,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         option = 'applyMediaFilterSettings';
         oscard['key'] = option;
         option = function(argFoo) { // Original name: applyMediaFilterSettings
-            _fun00099: for(var _fun00100_ip = 0; ; ) switch(_fun00100_ip) {
+            _fun00097: for(var _fun00098_ip = 0; ; ) switch(_fun00098_ip) {
  0:
                 tangon = argFoo;
                 var _closure3_slot0 = tangon;
@@ -4038,9 +4019,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = report.applyMediaFilterSettingsWithCallback;
                 var _closure3_slot1 = oscard;
                 report = null;
-                if(!(report == oscard)) { _fun00100_ip = 97; continue _fun00099 }
+                if(!(report == oscard)) { _fun00098_ip = 97; continue _fun00097 }
  68:
-                if(!(report != entity)) { _fun00100_ip = 77; continue _fun00099 }
+                if(!(report != entity)) { _fun00098_ip = 77; continue _fun00097 }
  72:
                 entity = entity.bind(zuuluu)(tangon);
  77:
@@ -4048,7 +4029,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = entity.Promise;
                 entity = zuuluu.resolve;
                 entity = entity.bind(zuuluu)();
-                _fun00100_ip = 130; continue _fun00099;
+                _fun00098_ip = 130; continue _fun00097;
  97:
                 zuuluu = global;
                 tangon = zuuluu.Promise;
@@ -4082,7 +4063,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.prototype;
             michal = Object.create(michal, {constructor: {value: zuuluu}});
             tangon = function(argFoo, argBar) {
-                _fun00101: for(var _fun00102_ip = 0; ; ) switch(_fun00102_ip) {
+                _fun00099: for(var _fun00100_ip = 0; ; ) switch(_fun00100_ip) {
  0:
                     report = argBar;
                     entity = argFoo;
@@ -4098,7 +4079,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = zuuluu.bind(tangon)();
                     tangon = zuuluu.startLocalAudioRecording;
                     zuuluu = null;
-                    if(!(zuuluu == tangon)) { _fun00102_ip = 104; continue _fun00101 }
+                    if(!(zuuluu == tangon)) { _fun00100_ip = 104; continue _fun00099 }
  63:
                     zuuluu = global;
                     golfie = zuuluu.Error;
@@ -4109,14 +4090,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = new offset[golfie](verify, option);
                     zuuluu = zuuluu instanceof Object ? zuuluu : oscard;
                     zuuluu = report.bind(entity)(zuuluu);
-                    _fun00102_ip = 122; continue _fun00101;
+                    _fun00100_ip = 122; continue _fun00099;
  104:
                     zuuluu = _closure3_slot0;
                     michal = function(argFoo) {
-                        _fun00103: for(var _fun00104_ip = 0; ; ) switch(_fun00104_ip) {
+                        _fun00101: for(var _fun00102_ip = 0; ; ) switch(_fun00102_ip) {
  0:
                             michal = argFoo;
-                            if(michal) { _fun00104_ip = 56; continue _fun00103 }
+                            if(michal) { _fun00102_ip = 56; continue _fun00101 }
  9:
                             tangon = _closure4_slot1;
                             michal = global;
@@ -4129,7 +4110,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             zuuluu = michal instanceof Object ? michal : zuuluu;
                             michal = undefined;
                             michal = tangon.bind(michal)(zuuluu);
-                            _fun00104_ip = 66; continue _fun00103;
+                            _fun00102_ip = 66; continue _fun00101;
  56:
                             michal = _closure4_slot0;
                             entity = undefined;
@@ -4155,7 +4136,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         option = 'stopLocalAudioRecording';
         oscard['key'] = option;
         option = function(argFoo) { // Original name: value
-            _fun00105: for(var _fun00106_ip = 0; ; ) switch(_fun00106_ip) {
+            _fun00103: for(var _fun00104_ip = 0; ; ) switch(_fun00104_ip) {
  0:
                 golfie = this;
                 entity = argFoo;
@@ -4170,7 +4151,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 verify = report.bind(oscard)();
                 option = verify.stopLocalAudioRecording;
                 oscard = null;
-                if(!(oscard != option)) { _fun00106_ip = 75; continue _fun00105 }
+                if(!(oscard != option)) { _fun00104_ip = 75; continue _fun00103 }
  59:
                 report = option.call;
                 zuuluu = function(argFoo, argBar) {
@@ -4194,7 +4175,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = report.bind(golfie)(zuuluu);
                 zuuluu = 0;
                 zuuluu = report > zuuluu;
-                if(!zuuluu) { _fun00106_ip = 164; continue _fun00105 }
+                if(!zuuluu) { _fun00104_ip = 164; continue _fun00103 }
  127:
                 golfie = _closure1_slot0;
                 report = _closure1_slot2;
@@ -4205,7 +4186,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = report.setEmitVADLevel2;
                 zuuluu = oscard != report;
  164:
-                if(!zuuluu) { _fun00106_ip = 207; continue _fun00105 }
+                if(!zuuluu) { _fun00104_ip = 207; continue _fun00103 }
  167:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
@@ -4226,7 +4207,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         option = 'setHasFullbandPerformance';
         oscard['key'] = option;
         option = function(argFoo) { // Original name: value
-            _fun00107: for(var _fun00108_ip = 0; ; ) switch(_fun00108_ip) {
+            _fun00105: for(var _fun00106_ip = 0; ; ) switch(_fun00106_ip) {
  0:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
@@ -4238,7 +4219,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = michal.bind(zuuluu)();
                 tangon = report.setHasFullbandPerformance;
                 michal = null;
-                if(!(michal != tangon)) { _fun00108_ip = 61; continue _fun00107 }
+                if(!(michal != tangon)) { _fun00106_ip = 61; continue _fun00105 }
  47:
                 zuuluu = tangon.call;
                 michal = argFoo;
@@ -4253,7 +4234,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         option = 'getSupportedSecureFramesProtocolVersion';
         oscard['key'] = option;
         option = function() { // Original name: value
-            _fun00109: for(var _fun00110_ip = 0; ; ) switch(_fun00110_ip) {
+            _fun00107: for(var _fun00108_ip = 0; ; ) switch(_fun00108_ip) {
  0:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
@@ -4267,7 +4248,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = null;
                 zuuluu = entity != michal;
                 entity = 0;
-                if(!zuuluu) { _fun00110_ip = 57; continue _fun00109 }
+                if(!zuuluu) { _fun00108_ip = 57; continue _fun00107 }
  54:
                 entity = michal;
  57:
@@ -4280,7 +4261,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         option = 'getSupportedBandwidthEstimationExperiments';
         oscard['key'] = option;
         option = function(argFoo) { // Original name: value
-            _fun00111: for(var _fun00112_ip = 0; ; ) switch(_fun00112_ip) {
+            _fun00109: for(var _fun00110_ip = 0; ; ) switch(_fun00110_ip) {
  0:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
@@ -4292,7 +4273,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = michal.bind(zuuluu)();
                 tangon = report.getSupportedBandwidthEstimationExperiments;
                 michal = null;
-                if(!(michal != tangon)) { _fun00112_ip = 61; continue _fun00111 }
+                if(!(michal != tangon)) { _fun00110_ip = 61; continue _fun00109 }
  47:
                 zuuluu = tangon.call;
                 michal = argFoo;
@@ -4316,7 +4297,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.prototype;
             michal = Object.create(michal, {constructor: {value: zuuluu}});
             tangon = function(argFoo, argBar) {
-                _fun00113: for(var _fun00114_ip = 0; ; ) switch(_fun00114_ip) {
+                _fun00111: for(var _fun00112_ip = 0; ; ) switch(_fun00112_ip) {
  0:
                     entity = argFoo;
                     var _closure4_slot0 = entity;
@@ -4330,7 +4311,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = zuuluu.bind(tangon)();
                     tangon = oscard.getMLSSigningKey;
                     zuuluu = null;
-                    if(!(zuuluu == tangon)) { _fun00114_ip = 100; continue _fun00113 }
+                    if(!(zuuluu == tangon)) { _fun00112_ip = 100; continue _fun00111 }
  56:
                     zuuluu = global;
                     report = zuuluu.Error;
@@ -4342,7 +4323,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = zuuluu instanceof Object ? zuuluu : tangon;
                     zuuluu = argBar;
                     zuuluu = zuuluu.bind(entity)(tangon);
-                    _fun00114_ip = 129; continue _fun00113;
+                    _fun00112_ip = 129; continue _fun00111;
  100:
                     report = oscard.getMLSSigningKey;
                     tangon = _closure3_slot0;
@@ -4374,7 +4355,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         option = 'setSidechainCompression';
         oscard['key'] = option;
         option = function(argFoo) { // Original name: value
-            _fun00115: for(var _fun00116_ip = 0; ; ) switch(_fun00116_ip) {
+            _fun00113: for(var _fun00114_ip = 0; ; ) switch(_fun00114_ip) {
  0:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
@@ -4386,7 +4367,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = michal.bind(zuuluu)();
                 tangon = report.setSidechainCompression;
                 michal = null;
-                if(!(michal != tangon)) { _fun00116_ip = 61; continue _fun00115 }
+                if(!(michal != tangon)) { _fun00114_ip = 61; continue _fun00113 }
  47:
                 zuuluu = tangon.call;
                 michal = argFoo;
@@ -4401,7 +4382,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         option = 'setSidechainCompressionStrength';
         oscard['key'] = option;
         option = function(argFoo) { // Original name: value
-            _fun00117: for(var _fun00118_ip = 0; ; ) switch(_fun00118_ip) {
+            _fun00115: for(var _fun00116_ip = 0; ; ) switch(_fun00116_ip) {
  0:
                 michal = 100;
                 entity = argFoo;
@@ -4423,7 +4404,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = michal.bind(zuuluu)();
                 tangon = report.applySidechainCompressionSettings;
                 michal = null;
-                if(!(michal != tangon)) { _fun00118_ip = 116; continue _fun00117 }
+                if(!(michal != tangon)) { _fun00116_ip = 116; continue _fun00115 }
  93:
                 zuuluu = tangon.call;
                 michal = {};
@@ -4440,7 +4421,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         option = 'setNativeDesktopVideoSourcePickerActive';
         oscard['key'] = option;
         option = function(argFoo) { // Original name: value
-            _fun00119: for(var _fun00120_ip = 0; ; ) switch(_fun00120_ip) {
+            _fun00117: for(var _fun00118_ip = 0; ; ) switch(_fun00118_ip) {
  0:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
@@ -4452,7 +4433,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = michal.bind(zuuluu)();
                 tangon = report.setNativeDesktopVideoSourcePickerActive;
                 michal = null;
-                if(!(michal != tangon)) { _fun00120_ip = 63; continue _fun00119 }
+                if(!(michal != tangon)) { _fun00118_ip = 63; continue _fun00117 }
  49:
                 zuuluu = tangon.call;
                 michal = argFoo;
@@ -4467,7 +4448,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         option = 'presentNativeScreenSharePicker';
         oscard['key'] = option;
         option = function(argFoo) { // Original name: value
-            _fun00121: for(var _fun00122_ip = 0; ; ) switch(_fun00122_ip) {
+            _fun00119: for(var _fun00120_ip = 0; ; ) switch(_fun00120_ip) {
  0:
                 oscard = argFoo;
                 zuuluu = _closure1_slot0;
@@ -4480,12 +4461,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = michal.bind(zuuluu)();
                 tangon = report.presentNativeScreenSharePicker;
                 michal = null;
-                if(!(michal != tangon)) { _fun00122_ip = 77; continue _fun00121 }
+                if(!(michal != tangon)) { _fun00120_ip = 77; continue _fun00119 }
  52:
                 zuuluu = tangon.call;
                 golfie = michal != oscard;
                 michal = '';
-                if(!golfie) { _fun00122_ip = 71; continue _fun00121 }
+                if(!golfie) { _fun00120_ip = 71; continue _fun00119 }
  68:
                 michal = oscard;
  71:
@@ -4500,7 +4481,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         option = 'releaseNativeDesktopVideoSourcePickerStream';
         oscard['key'] = option;
         option = function() { // Original name: value
-            _fun00123: for(var _fun00124_ip = 0; ; ) switch(_fun00124_ip) {
+            _fun00121: for(var _fun00122_ip = 0; ; ) switch(_fun00122_ip) {
  0:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
@@ -4512,7 +4493,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = michal.bind(zuuluu)();
                 zuuluu = tangon.releaseNativeDesktopVideoSourcePickerStream;
                 michal = null;
-                if(!(michal != zuuluu)) { _fun00124_ip = 59; continue _fun00123 }
+                if(!(michal != zuuluu)) { _fun00122_ip = 59; continue _fun00121 }
  49:
                 michal = zuuluu.call;
                 michal = michal.bind(zuuluu)(tangon);
@@ -4553,17 +4534,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.setTimeout;
             zuuluu = _closure1_slot24;
             michal = function() {
-                _fun00125: for(var _fun00126_ip = 0; ; ) switch(_fun00126_ip) {
+                _fun00123: for(var _fun00124_ip = 0; ; ) switch(_fun00124_ip) {
  0:
                     michal = _closure3_slot1;
-                    if(michal) { _fun00126_ip = 90; continue _fun00125 }
+                    if(michal) { _fun00124_ip = 90; continue _fun00123 }
  10:
                     michal = _closure3_slot0;
                     zuuluu = michal.consecutiveWatchdogFailures;
                     zuuluu = zuuluu + 1;
                     michal['consecutiveWatchdogFailures'] = zuuluu;
                     michal = 1;
-                    if(!(zuuluu > michal)) { _fun00126_ip = 90; continue _fun00125 }
+                    if(!(zuuluu > michal)) { _fun00124_ip = 90; continue _fun00123 }
  36:
                     tangon = _closure3_slot0;
                     zuuluu = tangon.emit;
@@ -4576,7 +4557,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = michal.MediaEngineEvent;
                     michal = michal.WatchdogTimeout;
                     michal = zuuluu.bind(tangon)(michal);
-                    _fun00126_ip = 104; continue _fun00125;
+                    _fun00124_ip = 104; continue _fun00123;
  90:
                     michal = _closure3_slot0;
                     entity = michal.watchdogTick;

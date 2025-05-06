@@ -237,7 +237,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report[2] = golfie;
             entity['style'] = report;
             report = backup.isAnimated;
-            if(report) { _fun00002_ip = 410; continue _fun00001 }
+            if(report) { _fun00002_ip = 411; continue _fun00001 }
  348:
             option = _closure1_slot10;
             golfie = _closure1_slot1;
@@ -253,8 +253,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             foxtra = verify.image;
             report['style'] = foxtra;
             report = option.bind(tangon)(golfie, report);
-            _fun00002_ip = 571; continue _fun00001;
- 410:
+            _fun00002_ip = 573; continue _fun00001;
+ 411:
             output = backup.url;
             sizing = output.replace;
             golfie = _closure1_slot0;
@@ -280,20 +280,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = true;
             oscard['poster'] = foxtra;
             offset = !offset;
-            if(offset) { _fun00002_ip = 540; continue _fun00001 }
- 537:
+            if(offset) { _fun00002_ip = 542; continue _fun00001 }
+ 539:
             offset = romeon;
- 540:
-            if(offset) { _fun00002_ip = 546; continue _fun00001 }
- 543:
+ 542:
+            if(offset) { _fun00002_ip = 548; continue _fun00001 }
+ 545:
             offset = yankee;
- 546:
+ 548:
             oscard['paused'] = offset;
             offset = 'mix';
             oscard['mixWithOthers'] = offset;
             oscard['muted'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 571:
+ 573:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

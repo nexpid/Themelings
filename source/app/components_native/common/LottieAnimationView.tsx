@@ -254,27 +254,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = 'object';
                 michal = typeof option;
                 entity = undefined;
-                if(!(zuuluu === michal)) { _fun00014_ip = 85; continue _fun00013 }
+                if(!(zuuluu === michal)) { _fun00014_ip = 86; continue _fun00013 }
  56:
                 michal = option.uri;
                 entity = undefined;
-                if(michal) { _fun00014_ip = 85; continue _fun00013 }
- 66:
+                if(michal) { _fun00014_ip = 86; continue _fun00013 }
+ 67:
                 michal = global;
                 zuuluu = michal.JSON;
                 michal = zuuluu.stringify;
                 entity = michal.bind(zuuluu)(option);
- 85:
+ 86:
                 offset = undefined;
-                if(!(offset !== entity)) { _fun00014_ip = 115; continue _fun00013 }
- 91:
+                if(!(offset !== entity)) { _fun00014_ip = 116; continue _fun00013 }
+ 92:
                 entity = {};
                 zuuluu = option.w;
                 michal = option.h;
                 michal = zuuluu / michal;
                 entity['aspectRatio'] = michal;
                 offset = entity;
- 115:
+ 116:
                 zuuluu = _closure1_slot10;
                 michal = _closure1_slot9;
                 entity = {};

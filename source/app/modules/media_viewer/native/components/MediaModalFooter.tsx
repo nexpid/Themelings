@@ -69,6 +69,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset = 6;
     verify['marginLeft'] = offset;
     tangon['messagePreviewContainer'] = verify;
+    verify = {};
+    offset = 8;
+    verify['paddingTop'] = offset;
+    tangon['thumbnailsContainer'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot10 = tangon;
     tangon = {};
@@ -170,10 +174,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             quebec = argFoo;
             foxtra = quebec.sliderElement;
-            echoed = quebec.onFullViewToggled;
-            var _closure2_slot0 = echoed;
-            sequen = quebec.overlayEnabled;
-            var _closure2_slot1 = sequen;
+            result = quebec.onFullViewToggled;
+            var _closure2_slot0 = result;
+            source = quebec.overlayEnabled;
+            var _closure2_slot1 = source;
             ctrled = quebec.syncer;
             michal = ctrled.sources;
             michal = michal.length;
@@ -212,39 +216,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = report.useState;
             option = false;
             option = yankee.bind(report)(option);
-            source = _closure1_slot3;
+            echoed = _closure1_slot3;
             yankee = 2;
-            option = source.bind(tangon)(option, yankee);
+            option = echoed.bind(tangon)(option, yankee);
             sierra = option[zuuluu];
             var _closure2_slot6 = sierra;
             option = option[golfie];
             var _closure2_slot7 = option;
             option = report.useState;
             option = option.bind(report)(zuuluu);
-            option = source.bind(tangon)(option, yankee);
+            option = echoed.bind(tangon)(option, yankee);
             status = option[zuuluu];
             var _closure2_slot8 = status;
             option = option[golfie];
             var _closure2_slot9 = option;
             kiloes = report.useState;
             kiloes = kiloes.bind(report)(zuuluu);
-            kiloes = source.bind(tangon)(kiloes, yankee);
+            kiloes = echoed.bind(tangon)(kiloes, yankee);
             target = kiloes[zuuluu];
             var _closure2_slot10 = target;
             kiloes = kiloes[golfie];
             var _closure2_slot11 = kiloes;
             update = report.useState;
             update = update.bind(report)(zuuluu);
-            update = source.bind(tangon)(update, yankee);
+            update = echoed.bind(tangon)(update, yankee);
             record = update[zuuluu];
             var _closure2_slot12 = record;
-            vacuum = update[golfie];
-            var _closure2_slot13 = vacuum;
+            update = update[golfie];
+            var _closure2_slot13 = update;
             cntext = report.useEffect;
             config = new Array(2);
             config[0] = record;
             config[1] = target;
-            update = function() {
+            vacuum = function() {
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
                 entity = 7;
@@ -260,30 +264,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            update = cntext.bind(report)(update, config);
+            vacuum = cntext.bind(report)(vacuum, config);
             config = report.useEffect;
-            update = new Array(2);
-            update[0] = sierra;
-            update[1] = echoed;
-            echoed = function() {
+            vacuum = new Array(2);
+            vacuum[0] = sierra;
+            vacuum[1] = result;
+            result = function() {
                 zuuluu = _closure2_slot0;
                 michal = _closure2_slot6;
                 entity = undefined;
                 michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
-            echoed = config.bind(report)(echoed, update);
-            echoed = offset[output];
-            update = verify.bind(tangon)(echoed);
-            echoed = update.useSharedValue;
-            config = echoed.bind(update)(zuuluu);
-            var _closure2_slot14 = config;
+            result = config.bind(report)(result, vacuum);
+            result = offset[output];
+            vacuum = verify.bind(tangon)(result);
+            result = vacuum.useSharedValue;
+            vacuum = result.bind(vacuum)(zuuluu);
+            var _closure2_slot14 = vacuum;
             cntext = report.useCallback;
-            update = new Array(3);
-            update[0] = config;
-            update[1] = backup;
-            update[2] = romeon;
-            echoed = function() {
+            config = new Array(3);
+            config[0] = vacuum;
+            config[1] = backup;
+            config[2] = romeon;
+            result = function() {
                 michal = _closure2_slot5;
                 entity = michal.set;
                 verify = 1;
@@ -341,14 +345,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            limora = cntext.bind(report)(echoed, update);
+            limora = cntext.bind(report)(result, config);
             var _closure2_slot15 = limora;
             cntext = report.useCallback;
-            update = new Array(3);
-            update[0] = config;
-            update[1] = backup;
-            update[2] = romeon;
-            echoed = function() {
+            config = new Array(3);
+            config[0] = vacuum;
+            config[1] = backup;
+            config[2] = romeon;
+            result = function() {
                 michal = _closure2_slot5;
                 entity = michal.set;
                 verify = 0;
@@ -406,17 +410,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            echoed = cntext.bind(report)(echoed, update);
-            var _closure2_slot16 = echoed;
+            result = cntext.bind(report)(result, config);
+            var _closure2_slot16 = result;
             cntext = report.useCallback;
-            update = new Array(6);
-            update[0] = backup;
-            update[1] = romeon;
-            update[2] = target;
-            update[3] = status;
-            update[4] = limora;
-            update[5] = echoed;
-            echoed = function() {
+            config = new Array(6);
+            config[0] = backup;
+            config[1] = romeon;
+            config[2] = target;
+            config[3] = status;
+            config[4] = limora;
+            config[5] = result;
+            result = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zuuluu = _closure2_slot5;
@@ -454,11 +458,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            equals = cntext.bind(report)(echoed, update);
+            equals = cntext.bind(report)(result, config);
             var _closure2_slot17 = equals;
-            update = report.useCallback;
-            echoed = new Array(1);
-            echoed[0] = kiloes;
+            config = report.useCallback;
+            result = new Array(1);
+            result[0] = kiloes;
             kiloes = function(argFoo) {
                 zuuluu = _closure2_slot11;
                 michal = argFoo;
@@ -468,8 +472,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
-            whisks = update.bind(report)(kiloes, echoed);
-            echoed = report.useCallback;
+            whisks = config.bind(report)(kiloes, result);
+            result = report.useCallback;
             kiloes = new Array(1);
             kiloes[0] = option;
             option = function(argFoo) {
@@ -481,10 +485,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
-            limora = echoed.bind(report)(option, kiloes);
+            limora = result.bind(report)(option, kiloes);
             option = offset[output];
-            echoed = verify.bind(tangon)(option);
-            kiloes = echoed.useAnimatedStyle;
+            result = verify.bind(tangon)(option);
+            kiloes = result.useAnimatedStyle;
             option = function() { // Original name: ne
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -548,30 +552,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            update = {};
-            update['minFooterHeight'] = record;
-            update['animationState'] = backup;
-            update['DRAWER_PANNING'] = yankee;
-            update['animationDriver'] = config;
-            update['COLLAPSED'] = zuuluu;
+            config = {};
+            config['minFooterHeight'] = record;
+            config['animationState'] = backup;
+            config['DRAWER_PANNING'] = yankee;
+            config['animationDriver'] = vacuum;
+            config['COLLAPSED'] = zuuluu;
             record = offset[output];
             record = verify.bind(tangon)(record);
             record = record.interpolate;
-            update['interpolate'] = record;
-            update['EXPANDED'] = golfie;
-            update['EXPANDED_MORE'] = yankee;
-            update['expandedHeight'] = target;
+            config['interpolate'] = record;
+            config['EXPANDED'] = golfie;
+            config['EXPANDED_MORE'] = yankee;
+            config['expandedHeight'] = target;
             record = 40;
-            update['MAX_DRAWER_VERTICAL_DRAG'] = record;
-            option['__closure'] = update;
-            update = 10407751881477.0;
-            option['__workletHash'] = update;
-            update = _closure1_slot15;
-            option['__initData'] = update;
-            kiloes = kiloes.bind(echoed)(option);
+            config['MAX_DRAWER_VERTICAL_DRAG'] = record;
+            option['__closure'] = config;
+            config = 10407751881477.0;
+            option['__workletHash'] = config;
+            config = _closure1_slot15;
+            option['__initData'] = config;
+            kiloes = kiloes.bind(result)(option);
             option = offset[output];
-            update = verify.bind(tangon)(option);
-            echoed = update.useAnimatedStyle;
+            config = verify.bind(tangon)(option);
+            result = config.useAnimatedStyle;
             option = function() { // Original name: oe
                 entity = {};
                 report = _closure1_slot0;
@@ -612,7 +616,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = verify.bind(tangon)(cntext);
             cntext = cntext.interpolate;
             record['interpolate'] = cntext;
-            record['animationDriver'] = config;
+            record['animationDriver'] = vacuum;
             record['COLLAPSED'] = zuuluu;
             record['EXPANDED'] = golfie;
             record['thumbnailsElementHeight'] = michal;
@@ -621,10 +625,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['__workletHash'] = record;
             record = _closure1_slot16;
             option['__initData'] = record;
-            update = echoed.bind(update)(option);
-            echoed = report.useCallback;
+            config = result.bind(config)(option);
+            result = report.useCallback;
             option = new Array(4);
-            option[0] = vacuum;
+            option[0] = update;
             option[1] = oscard;
             option[2] = romeon;
             option[3] = backup;
@@ -661,10 +665,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            echoed = echoed.bind(report)(oscard, option);
+            result = result.bind(report)(oscard, option);
             oscard = offset[output];
-            vacuum = verify.bind(tangon)(oscard);
-            option = vacuum.useAnimatedStyle;
+            update = verify.bind(tangon)(oscard);
+            option = update.useAnimatedStyle;
             oscard = function() { // Original name: re
                 entity = {};
                 tangon = _closure1_slot0;
@@ -690,7 +694,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = verify.bind(tangon)(cntext);
             cntext = cntext.interpolate;
             record['interpolate'] = cntext;
-            record['animationDriver'] = config;
+            record['animationDriver'] = vacuum;
             record['COLLAPSED'] = zuuluu;
             record['EXPANDED'] = golfie;
             oscard['__closure'] = record;
@@ -698,7 +702,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['__workletHash'] = record;
             record = _closure1_slot17;
             oscard['__initData'] = record;
-            vacuum = option.bind(vacuum)(oscard);
+            update = option.bind(update)(oscard);
             oscard = offset[output];
             record = verify.bind(tangon)(oscard);
             option = record.useAnimatedStyle;
@@ -781,7 +785,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable36 = verify.bind(tangon)(variable36);
             variable36 = variable36.interpolate;
             cntext['interpolate'] = variable36;
-            cntext['animationDriver'] = config;
+            cntext['animationDriver'] = vacuum;
             variable36 = _closure1_slot9;
             cntext['_isIOS'] = variable36;
             oscard['__closure'] = cntext;
@@ -798,7 +802,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot19 = record;
             oscard = report.useState;
             oscard = oscard.bind(report)(papara);
-            oscard = source.bind(tangon)(oscard, yankee);
+            oscard = echoed.bind(tangon)(oscard, yankee);
             zuuluu = oscard[zuuluu];
             var _closure2_slot20 = zuuluu;
             papara = oscard[golfie];
@@ -874,7 +878,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot21 = oscard;
             yankee = report.useMemo;
             golfie = new Array(4);
-            golfie[0] = config;
+            golfie[0] = vacuum;
             golfie[1] = sierra;
             golfie[2] = equals;
             golfie[3] = zuuluu;
@@ -1004,7 +1008,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot22 = golfie;
             yankee = report.useMemo;
             zuuluu = new Array(7);
-            zuuluu[0] = config;
+            zuuluu[0] = vacuum;
             zuuluu[1] = backup;
             zuuluu[2] = status;
             zuuluu[3] = target;
@@ -1350,8 +1354,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             michal = {};
-            michal['overlayEnabled'] = sequen;
-            michal['animationDriver'] = config;
+            michal['overlayEnabled'] = source;
+            michal['animationDriver'] = vacuum;
             zuuluu['__closure'] = michal;
             michal = 8210454268504.0;
             zuuluu['__workletHash'] = michal;
@@ -1404,15 +1408,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            source = {};
+            echoed = {};
             variable36 = -0.25;
-            source['DISMISSED_HIDE_OVERLAY'] = variable36;
-            source['overlayEnabled'] = sequen;
-            michal['__closure'] = source;
-            source = 9944460899669.0;
-            michal['__workletHash'] = source;
-            source = _closure1_slot27;
-            michal['__initData'] = source;
+            echoed['DISMISSED_HIDE_OVERLAY'] = variable36;
+            echoed['overlayEnabled'] = source;
+            michal['__closure'] = echoed;
+            echoed = 9944460899669.0;
+            michal['__workletHash'] = echoed;
+            echoed = _closure1_slot27;
+            michal['__initData'] = echoed;
             michal = romeon.bind(backup)(zuuluu, michal);
             zuuluu = report.useMemo;
             michal = new Array(3);
@@ -1480,16 +1484,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = variable38.bind(tangon)(verify);
             offset = verify.SafeAreaPaddingView;
             verify = {'bottom': true, 'left': true, 'right': true};
-            source = _closure1_slot7;
-            sequen = _closure1_slot1;
+            echoed = _closure1_slot7;
+            source = _closure1_slot1;
             romeon = variable36[output];
-            romeon = sequen.bind(tangon)(romeon);
+            romeon = source.bind(tangon)(romeon);
             backup = romeon.View;
             romeon = {};
             variable37 = new Array(2);
-            variable37[0] = vacuum;
-            vacuum = _closure1_slot10;
-            variable39 = vacuum.drawerContainer;
+            variable37[0] = update;
+            update = _closure1_slot10;
+            variable39 = update.drawerContainer;
             variable37[1] = variable39;
             romeon['style'] = variable37;
             variable37 = 13;
@@ -1497,52 +1501,52 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable37 = variable38.bind(tangon)(variable37);
             variable38 = variable37.ActionSheetHeaderBar;
             variable37 = {};
-            variable39 = vacuum.drawerHeaderTab;
+            variable39 = update.drawerHeaderTab;
             variable37['tabStyle'] = variable39;
-            variable39 = vacuum.drawerHeader;
+            variable39 = update.drawerHeader;
             variable37['style'] = variable39;
-            variable37 = source.bind(tangon)(variable38, variable37);
+            variable37 = echoed.bind(tangon)(variable38, variable37);
             romeon['children'] = variable37;
-            backup = source.bind(tangon)(backup, romeon);
+            backup = echoed.bind(tangon)(backup, romeon);
             romeon = new Array(3);
             romeon[0] = backup;
             romeon[1] = foxtra;
             foxtra = variable36[output];
-            foxtra = sequen.bind(tangon)(foxtra);
+            foxtra = source.bind(tangon)(foxtra);
             backup = foxtra.View;
             foxtra = {};
-            foxtra['onLayout'] = echoed;
+            foxtra['onLayout'] = result;
             foxtra['style'] = kiloes;
-            echoed = _closure1_slot6;
+            result = _closure1_slot6;
             kiloes = {};
-            vacuum = vacuum.messagePreviewContainer;
-            kiloes['style'] = vacuum;
-            vacuum = 14;
-            vacuum = variable36[vacuum];
-            sequen = sequen.bind(tangon)(vacuum);
-            vacuum = {};
+            update = update.messagePreviewContainer;
+            kiloes['style'] = update;
+            update = 14;
+            update = variable36[update];
+            source = source.bind(tangon)(update);
+            update = {};
             variable36 = quebec.channelId;
-            vacuum['channelId'] = variable36;
+            update['channelId'] = variable36;
             variable36 = quebec.messageId;
-            vacuum['messageId'] = variable36;
+            update['messageId'] = variable36;
             quebec = quebec.onClose;
-            vacuum['onClose'] = quebec;
-            vacuum['onTapMessage'] = equals;
-            vacuum['onMeasureFullHeight'] = whisks;
-            vacuum['onMeasureCollapsedHeight'] = limora;
-            vacuum['full'] = sierra;
+            update['onClose'] = quebec;
+            update['onTapMessage'] = equals;
+            update['onMeasureFullHeight'] = whisks;
+            update['onMeasureCollapsedHeight'] = limora;
+            update['full'] = sierra;
             target = target > status;
-            vacuum['canExpand'] = target;
-            vacuum['setScrollViewIsAtTop'] = papara;
-            vacuum['flingUpRef'] = cntext;
-            vacuum['flingDownRef'] = record;
-            vacuum['animationDriver'] = config;
-            vacuum = source.bind(tangon)(sequen, vacuum);
-            kiloes['children'] = vacuum;
-            echoed = source.bind(tangon)(echoed, kiloes);
+            update['canExpand'] = target;
+            update['setScrollViewIsAtTop'] = papara;
+            update['flingUpRef'] = cntext;
+            update['flingDownRef'] = record;
+            update['animationDriver'] = vacuum;
+            update = echoed.bind(tangon)(source, update);
+            kiloes['children'] = update;
+            result = echoed.bind(tangon)(result, kiloes);
             kiloes = new Array(2);
-            kiloes[0] = echoed;
-            if(!sizing) { _fun00002_ip = 1928; continue _fun00001 }
+            kiloes[0] = result;
+            if(!sizing) { _fun00002_ip = 1950; continue _fun00001 }
  1861:
             echoed = _closure1_slot7;
             source = _closure1_slot1;
@@ -1551,6 +1555,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = source.bind(tangon)(output);
             result = output.View;
             output = {};
+            update = new Array(2);
+            update[0] = config;
+            sequen = _closure1_slot10;
+            sequen = sequen.thumbnailsContainer;
+            update[1] = sequen;
             output['style'] = update;
             update = 15;
             update = vacuum[update];
@@ -1560,7 +1569,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = echoed.bind(tangon)(source, update);
             output['children'] = update;
             sizing = echoed.bind(tangon)(result, output);
- 1928:
+ 1950:
             kiloes[1] = sizing;
             foxtra['children'] = kiloes;
             foxtra = yankee.bind(tangon)(backup, foxtra);

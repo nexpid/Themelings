@@ -1822,7 +1822,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard['value'] = option;
         michal[38] = oscard;
         oscard = {};
-        option = 'setExperimentalAdm';
+        option = 'setAudioInputBypassSystemProcessing';
         oscard['key'] = option;
         option = function() { // Original name: value
             entity = undefined;

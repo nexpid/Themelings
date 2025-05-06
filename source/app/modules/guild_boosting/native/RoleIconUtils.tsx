@@ -104,13 +104,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     entity = _closure2_slot3;
                     michal = null;
-                    if(!(michal != entity)) { _fun00006_ip = 166; continue _fun00005 }
+                    if(!(michal != entity)) { _fun00006_ip = 167; continue _fun00005 }
  16:
                     entity = _closure2_slot4;
-                    if(!(michal != entity)) { _fun00006_ip = 166; continue _fun00005 }
+                    if(!(michal != entity)) { _fun00006_ip = 167; continue _fun00005 }
  27:
                     entity = _closure2_slot1;
-                    if(!(michal != entity)) { _fun00006_ip = 166; continue _fun00005 }
+                    if(!(michal != entity)) { _fun00006_ip = 167; continue _fun00005 }
  38:
                     zuuluu = _closure2_slot4;
                     entity = _closure2_slot1;
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = verify.canGuildUseRoleIcons;
                     zuuluu = _closure2_slot3;
                     zuuluu = golfie.bind(verify)(zuuluu, oscard);
-                    if(!zuuluu) { _fun00006_ip = 166; continue _fun00005 }
+                    if(!zuuluu) { _fun00006_ip = 167; continue _fun00005 }
  94:
                     golfie = _closure1_slot0;
                     zuuluu = _closure1_slot2;
@@ -140,19 +140,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = zuuluu.unicodeEmoji;
                     zuuluu = michal != verify;
                     option = undefined;
-                    if(!zuuluu) { _fun00006_ip = 158; continue _fun00005 }
+                    if(!zuuluu) { _fun00006_ip = 159; continue _fun00005 }
  149:
                     zuuluu = {};
                     zuuluu['uri'] = verify;
                     option = zuuluu;
- 158:
-                    if(!(michal == option)) { _fun00006_ip = 170; continue _fun00005 }
- 162:
-                    if(!(michal == golfie)) { _fun00006_ip = 170; continue _fun00005 }
- 166:
+ 159:
+                    if(!(michal == option)) { _fun00006_ip = 171; continue _fun00005 }
+ 163:
+                    if(!(michal == golfie)) { _fun00006_ip = 171; continue _fun00005 }
+ 167:
                     michal = undefined;
                     return michal;
- 170:
+ 171:
                     zuuluu = _closure1_slot5;
                     michal = _closure1_slot1;
                     verify = _closure1_slot2;

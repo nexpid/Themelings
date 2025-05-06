@@ -1355,15 +1355,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = report.webSocket;
                 zuuluu = oscard;
                 tangon = null;
-                if(!(tangon != oscard)) { _fun00020_ip = 168; continue _fun00019 }
+                if(!(tangon != oscard)) { _fun00020_ip = 200; continue _fun00019 }
  36:
                 tangon = zuuluu;
                 golfie = tangon.readyState;
                 tangon = global;
                 oscard = tangon.WebSocket;
                 oscard = oscard.OPEN;
-                if(!(golfie === oscard)) { _fun00020_ip = 168; continue _fun00019 }
- 63:
+                if(!(golfie === oscard)) { _fun00020_ip = 200; continue _fun00019 }
+ 66:
                 option = tangon.JSON;
                 golfie = option.stringify;
                 oscard = {};
@@ -1373,8 +1373,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = golfie.bind(option)(oscard);
                 oscard = _closure1_slot8;
                 oscard = oscard.isLoggingGatewayEvents;
-                if(!oscard) { _fun00020_ip = 150; continue _fun00019 }
- 109:
+                if(oscard) { _fun00020_ip = 138; continue _fun00019 }
+ 112:
+                golfie = tangon.window;
+                golfie = golfie.GLOBAL_ENV;
+                option = golfie.RELEASE_CHANNEL;
+                golfie = 'canary';
+                oscard = golfie === option;
+ 138:
+                if(!oscard) { _fun00020_ip = 182; continue _fun00019 }
+ 141:
                 oscard = report.logger;
                 report = oscard.info;
                 option = michal;
@@ -1383,15 +1391,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = '<~ ';
                 tangon = golfie.bind(tangon)(option);
                 tangon = report.bind(oscard)(tangon);
- 150: // try_start_0
+ 182: // try_start_0
                 tangon = zuuluu;
                 zuuluu = tangon.send;
                 michal = zuuluu.bind(tangon)(michal);
- 164: // try_end0
-                _fun00020_ip = 168; continue _fun00019;
- 166: // catch_target0
+ 196: // try_end0
+                _fun00020_ip = 200; continue _fun00019;
+ 198: // catch_target0
                 CatchBlockStart(arg_register=1);
- 168:
+ 200:
                 return entity;
             }
         };

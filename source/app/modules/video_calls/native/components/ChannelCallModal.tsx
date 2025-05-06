@@ -11,36 +11,42 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            offset = entity.channel;
+            yankee = entity.channel;
             entity = _closure1_slot11;
             report = undefined;
-            verify = entity.bind(report)();
+            offset = entity.bind(report)();
             tangon = _closure1_slot0;
-            entity = _closure1_slot2;
-            michal = 9;
-            michal = entity[michal];
-            zuuluu = tangon.bind(report)(michal);
-            michal = zuuluu.useIsConnectedToVoiceChannel;
-            zuuluu = michal.bind(zuuluu)(offset);
-            golfie = _closure1_slot9;
-            michal = function(argFoo) {
+            option = _closure1_slot2;
+            entity = 9;
+            entity = option[entity];
+            michal = tangon.bind(report)(entity);
+            entity = michal.useIsConnectedToVoiceChannel;
+            zuuluu = entity.bind(michal)(yankee);
+            michal = _closure1_slot9;
+            entity = function(argFoo) {
                 entity = argFoo;
                 entity = entity.focus;
                 return entity;
             };
-            golfie = golfie.bind(report)(michal);
+            verify = michal.bind(report)(entity);
             michal = 10;
-            entity = entity[michal];
-            tangon = tangon.bind(report)(entity);
-            entity = tangon.useRevealProviderValue;
-            golfie = entity.bind(tangon)(golfie, offset);
+            entity = option[michal];
+            golfie = tangon.bind(report)(entity);
+            entity = golfie.useRevealProviderValue;
+            golfie = entity.bind(golfie)(verify, yankee);
+            entity = 11;
+            entity = option[entity];
+            option = tangon.bind(report)(entity);
+            tangon = option.isModalOpen;
+            entity = _closure1_slot30;
+            verify = tangon.bind(option)(entity);
             entity = null;
-            if(!zuuluu) { _fun00002_ip = 186; continue _fun00001 }
- 97:
+            if(!zuuluu) { _fun00002_ip = 218; continue _fun00001 }
+ 124:
             tangon = _closure1_slot14;
             zuuluu = _closure1_slot0;
-            yankee = _closure1_slot2;
-            michal = yankee[michal];
+            romeon = _closure1_slot2;
+            michal = romeon[michal];
             michal = zuuluu.bind(report)(michal);
             michal = michal.RevealContext;
             zuuluu = michal.Provider;
@@ -48,17 +54,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['value'] = golfie;
             option = _closure1_slot14;
             golfie = _closure1_slot1;
-            oscard = 11;
-            oscard = yankee[oscard];
+            oscard = 12;
+            oscard = romeon[oscard];
             golfie = golfie.bind(report)(oscard);
             oscard = {};
-            oscard['channel'] = offset;
-            verify = !verify;
-            oscard['participantScreenIsFocused'] = verify;
+            oscard['channel'] = yankee;
+            offset = !offset;
+            oscard['participantScreenIsFocused'] = offset;
+            oscard['isChannelCallModalOpen'] = verify;
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 186:
+ 218:
             return entity;
         }
     };
@@ -174,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  17:
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
-                    michal = 12;
+                    michal = 13;
                     zuuluu = zuuluu[michal];
                     michal = undefined;
                     zuuluu = tangon.bind(michal)(zuuluu);
@@ -186,20 +193,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                             tangon = _closure1_slot1;
                             report = _closure1_slot2;
-                            entity = 12;
+                            entity = 13;
                             zuuluu = report[entity];
                             entity = undefined;
                             oscard = tangon.bind(entity)(zuuluu);
                             zuuluu = oscard.terminate;
                             zuuluu = zuuluu.bind(oscard)();
-                            zuuluu = 13;
+                            zuuluu = 14;
                             zuuluu = report[zuuluu];
                             oscard = tangon.bind(entity)(zuuluu);
                             tangon = oscard.setHidden;
                             zuuluu = false;
                             zuuluu = tangon.bind(oscard)(zuuluu);
                             tangon = _closure1_slot0;
-                            zuuluu = 14;
+                            zuuluu = 11;
                             zuuluu = report[zuuluu];
                             report = tangon.bind(entity)(zuuluu);
                             tangon = report.isModalOpen;

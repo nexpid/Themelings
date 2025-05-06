@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            entity = 13;
+            entity = 12;
             tangon = zuuluu[entity];
             entity = undefined;
             option = oscard.bind(entity)(tangon);
@@ -79,11 +79,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = argFoo;
             tangon = 'NUF Complete';
             tangon = golfie.bind(option)(report, tangon);
-            tangon = 14;
+            tangon = 13;
             tangon = zuuluu[tangon];
             report = oscard.bind(entity)(tangon);
             tangon = report.isModalOpen;
-            golfie = 15;
+            golfie = 14;
             zuuluu = zuuluu[golfie];
             zuuluu = oscard.bind(entity)(zuuluu);
             zuuluu = zuuluu.NEW_USER_MODAL_KEY;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  90:
             tangon = _closure1_slot0;
             report = _closure1_slot2;
-            zuuluu = 17;
+            zuuluu = 16;
             zuuluu = report[zuuluu];
             oscard = tangon.bind(entity)(zuuluu);
             report = oscard.transitionTo;
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  143:
             report = _closure1_slot1;
             zuuluu = _closure1_slot2;
-            tangon = 16;
+            tangon = 15;
             tangon = zuuluu[tangon];
             report = report.bind(entity)(tangon);
             tangon = report.popWithKey;
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  193:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
-            michal = 18;
+            michal = 17;
             michal = tangon[michal];
             zuuluu = zuuluu.bind(entity)(michal);
             michal = zuuluu.setNewUserFlowCompleted;
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  182:
                     yankee = _closure1_slot0;
                     kiloes = _closure1_slot2;
-                    offset = 13;
+                    offset = 12;
                     offset = kiloes[offset];
                     kiloes = yankee.bind(golfie)(offset);
                     yankee = kiloes.trackNUFStep;
@@ -244,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = yankee.bind(golfie)(romeon);
                     romeon = _closure1_slot1;
                     backup = _closure1_slot2;
-                    yankee = 11;
+                    yankee = 10;
                     yankee = backup[yankee];
                     romeon = romeon.bind(golfie)(yankee);
                     yankee = romeon.wait;
@@ -424,23 +424,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                 StartGenerator();
                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                if(michal) { _fun00012_ip = 163; continue _fun00011 }
- 10:
-                report = _closure1_slot5;
-                zuuluu = report.getLocalAccount;
+                if(michal) { _fun00012_ip = 90; continue _fun00011 }
+ 7:
+                tangon = _closure1_slot5;
+                zuuluu = tangon.getLocalAccount;
                 michal = _closure1_slot7;
                 michal = michal.CONTACTS;
-                michal = zuuluu.bind(report)(michal);
-                zuuluu = null;
-                zuuluu = zuuluu == michal;
-                if(zuuluu) { _fun00012_ip = 56; continue _fun00011 }
- 47:
-                michal = michal.friendSync;
-                zuuluu = !michal;
- 56:
-                if(!zuuluu) { _fun00012_ip = 87; continue _fun00011 }
- 59:
-                report = function() { // Original name: shouldSkipContactSyncStep
+                zuuluu = zuuluu.bind(tangon)(michal);
+                michal = null;
+                michal = michal != zuuluu;
+                if(!michal) { _fun00012_ip = 50; continue _fun00011 }
+ 44:
+                michal = zuuluu.friendSync;
+ 50:
+                if(michal) { _fun00012_ip = 84; continue _fun00011 }
+ 53:
+                tangon = function() { // Original name: shouldSkipContactSyncStep
                     entity = undefined;
                     tangon = _closure1_slot14;
                     zuuluu = tangon.apply;
@@ -450,40 +449,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = zuuluu.bind(tangon)(entity, michal);
                     return entity;
                 };
-                michal = undefined;
-                michal = report.bind(michal)();
-                SaveGenerator(address=78);
- 76:
-                return michal;
- 78:
-                ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                if(report) { _fun00012_ip = 160; continue _fun00011 }
- 84:
-                zuuluu = !michal;
- 87:
-                if(!zuuluu) { _fun00012_ip = 157; continue _fun00011 }
- 90:
-                oscard = _closure1_slot0;
-                report = _closure1_slot2;
-                tangon = 9;
-                report = report[tangon];
-                tangon = undefined;
-                tangon = oscard.bind(tangon)(report);
-                golfie = tangon.ContactSyncBaseExperiment;
-                oscard = golfie.getCurrentConfig;
-                report = {};
-                tangon = 'e7c993_1';
-                report['location'] = tangon;
-                tangon = {};
-                option = false;
-                tangon['autoTrackExposure'] = option;
-                tangon = oscard.bind(golfie)(report, tangon);
-                zuuluu = tangon.enableContactSync;
- 157:
+                zuuluu = undefined;
+                zuuluu = tangon.bind(zuuluu)();
+                SaveGenerator(address=72);
+ 70:
                 return zuuluu;
- 160:
+ 72:
+                ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                michal = zuuluu;
+                if(!tangon) { _fun00012_ip = 84; continue _fun00011 }
+ 81:
+                return zuuluu;
+ 84:
+                michal = !michal;
                 return michal;
- 163:
+ 90:
                 return entity;
             }
         };
@@ -518,7 +498,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = {};
     verify = 'accept-invite';
     option['key'] = verify;
-    verify = 10;
+    verify = 9;
     verify = golfie[verify];
     verify = oscard.bind(entity)(verify);
     verify = verify.hasDeferredInvite;
@@ -526,7 +506,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = function() { // Original name: transitionStep
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 11;
+        entity = 10;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -540,7 +520,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option['transitionStep'] = verify;
     report[4] = option;
     var _closure1_slot13 = report;
-    report = 19;
+    report = 18;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -605,7 +585,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = zuuluu.dispatch;
                     report = _closure1_slot0;
                     tangon = _closure1_slot2;
-                    entity = 12;
+                    entity = 11;
                     tangon = tangon[entity];
                     entity = undefined;
                     entity = report.bind(entity)(tangon);

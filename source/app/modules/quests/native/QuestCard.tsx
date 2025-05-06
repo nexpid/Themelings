@@ -1256,16 +1256,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = _closure1_slot11;
             target = _closure1_slot1;
             limora = _closure1_slot2;
-            if(verify) { _fun00002_ip = 2899; continue _fun00001 }
- 2859:
+            if(verify) { _fun00002_ip = 2900; continue _fun00001 }
+ 2860:
             verify = 40;
             verify = limora[verify];
             config = target.bind(report)(verify);
             verify = {'quest': null, 'height': 64, 'width': 64};
             verify['quest'] = entity;
             verify = status.bind(report)(config, verify);
-            _fun00002_ip = 2943; continue _fun00001;
- 2899:
+            _fun00002_ip = 2944; continue _fun00001;
+ 2900:
             config = 39;
             config = limora[config];
             target = target.bind(report)(config);
@@ -1276,7 +1276,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sierra = 'sm';
             config['size'] = sierra;
             verify = status.bind(report)(target, config);
- 2943:
+ 2944:
             option['children'] = verify;
             option = sequen.bind(report)(cntext, option);
             target = new Array(2);
@@ -1334,14 +1334,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['spacing'] = vacuum;
             ctrled = ctrled.buttonContainers;
             golfie['style'] = ctrled;
-            if(!(update != echoed)) { _fun00002_ip = 3504; continue _fun00001 }
- 3248:
-            if(sizing) { _fun00002_ip = 3504; continue _fun00001 }
- 3254:
-            if(yankee) { _fun00002_ip = 3504; continue _fun00001 }
- 3260:
-            if(offset) { _fun00002_ip = 3504; continue _fun00001 }
- 3266:
+            if(!(update != echoed)) { _fun00002_ip = 3505; continue _fun00001 }
+ 3249:
+            if(sizing) { _fun00002_ip = 3505; continue _fun00001 }
+ 3255:
+            if(yankee) { _fun00002_ip = 3505; continue _fun00001 }
+ 3261:
+            if(offset) { _fun00002_ip = 3505; continue _fun00001 }
+ 3267:
             echoed = _closure1_slot12;
             sizing = _closure1_slot13;
             offset = {};
@@ -1415,8 +1415,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update[1] = ctrled;
             offset['children'] = update;
             sizing = echoed.bind(report)(sizing, offset);
-            _fun00002_ip = 3559; continue _fun00001;
- 3504:
+            _fun00002_ip = 3560; continue _fun00001;
+ 3505:
             update = _closure1_slot11;
             echoed = _closure1_slot0;
             ctrled = _closure1_slot2;
@@ -1431,19 +1431,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable47 = source;
             source = copyDataProperties(variable48, variable47);
             sizing = update.bind(report)(echoed, offset);
- 3559:
+ 3560:
             offset = new Array(3);
             offset[0] = sizing;
-            if(!yankee) { _fun00002_ip = 3573; continue _fun00001 }
- 3570:
+            if(!yankee) { _fun00002_ip = 3574; continue _fun00001 }
+ 3571:
             yankee = foxtra;
- 3573:
-            if(!yankee) { _fun00002_ip = 3579; continue _fun00001 }
- 3576:
+ 3574:
+            if(!yankee) { _fun00002_ip = 3580; continue _fun00001 }
+ 3577:
             yankee = romeon;
- 3579:
-            if(!yankee) { _fun00002_ip = 3700; continue _fun00001 }
- 3582:
+ 3580:
+            if(!yankee) { _fun00002_ip = 3701; continue _fun00001 }
+ 3583:
             sizing = _closure1_slot11;
             ctrled = _closure1_slot0;
             update = _closure1_slot2;
@@ -1471,7 +1471,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = 'secondary';
             romeon['variant'] = output;
             yankee = sizing.bind(report)(foxtra, romeon);
- 3700:
+ 3701:
             offset[1] = yankee;
             foxtra = _closure1_slot11;
             romeon = _closure1_slot1;

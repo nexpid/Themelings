@@ -162,6 +162,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = report.bind(oscard)(zuuluu);
                     zuuluu = _closure1_slot1;
                     michal = 8;
+                    report = tangon[michal];
+                    oscard = zuuluu.bind(entity)(report);
+                    report = oscard.hideActionSheet;
+                    report = report.bind(oscard)();
                     michal = tangon[michal];
                     zuuluu = zuuluu.bind(entity)(michal);
                     michal = zuuluu.hideActionSheet;

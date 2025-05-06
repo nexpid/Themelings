@@ -1216,7 +1216,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00034_ip = 340; continue _fun00033 }
+                            if(michal) { _fun00034_ip = 341; continue _fun00033 }
  10:
                             michal = argFoo;
                             michal = michal.nativeEvent;
@@ -1230,19 +1230,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return tangon;
  44:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(zuuluu) { _fun00034_ip = 337; continue _fun00033 }
+                            if(zuuluu) { _fun00034_ip = 338; continue _fun00033 }
  53:
                             zuuluu = _closure2_slot6;
                             zuuluu = zuuluu.state;
                             zuuluu = zuuluu.current;
                             zuuluu = zuuluu.focused;
-                            if(!zuuluu) { _fun00034_ip = 331; continue _fun00033 }
+                            if(!zuuluu) { _fun00034_ip = 332; continue _fun00033 }
  82:
                             zuuluu = _closure2_slot6;
                             zuuluu = zuuluu.props;
                             zuuluu = zuuluu.current;
                             zuuluu = zuuluu.canUpload;
-                            if(!zuuluu) { _fun00034_ip = 331; continue _fun00033 }
+                            if(!zuuluu) { _fun00034_ip = 332; continue _fun00033 }
  108:
                             report = _closure1_slot0;
                             romeon = _closure1_slot3;
@@ -1256,7 +1256,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return zuuluu;
  148:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                            if(report) { _fun00034_ip = 334; continue _fun00033 }
+                            if(report) { _fun00034_ip = 335; continue _fun00033 }
  157:
                             oscard = _closure1_slot1;
                             romeon = _closure1_slot3;
@@ -1297,13 +1297,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             option = option.ChannelMessage;
                             report['draftType'] = option;
                             report = oscard.bind(golfie)(report);
- 331:
+ 332:
                             return tangon;
- 334:
+ 335:
                             return zuuluu;
- 337:
+ 338:
                             return michal;
- 340:
+ 341:
                             return entity;
                         }
                     };

@@ -379,14 +379,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = _closure1_slot9;
                 oscard = oscard.PLAYING;
                 oscard = option !== oscard;
-                if(!oscard) { _fun00004_ip = 676; continue _fun00003 }
- 662:
+                if(!oscard) { _fun00004_ip = 686; continue _fun00003 }
+ 672:
                 golfie = _closure1_slot9;
                 golfie = golfie.PAUSED;
                 oscard = option !== golfie;
- 676:
-                if(!oscard) { _fun00004_ip = 767; continue _fun00003 }
- 679:
+ 686:
+                if(!oscard) { _fun00004_ip = 777; continue _fun00003 }
+ 689:
                 verify = _closure1_slot6;
                 option = _closure1_slot1;
                 golfie = _closure1_slot2;
@@ -405,7 +405,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = verify.bind(tangon)(yankee, offset);
                 golfie['children'] = offset;
                 oscard = verify.bind(tangon)(option, golfie);
- 767:
+ 777:
                 report[1] = oscard;
                 entity['children'] = report;
                 entity = zuuluu.bind(tangon)(michal, entity);

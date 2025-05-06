@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot5 = golfie;
     tangon = tangon.useVoiceMessagesUIStore;
     var _closure1_slot6 = tangon;
-    tangon = 5;
+    tangon = 6;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -91,31 +91,46 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = undefined;
                 return michal;
  16:
-                tangon = _closure1_slot3;
-                michal = tangon.keyboardOrCustomKeyboardOpen;
-                var _closure3_slot0 = michal;
-                zuuluu = function() { // Original name: keyboardChangeListener
+                tangon = _closure1_slot0;
+                report = _closure1_slot1;
+                zuuluu = 4;
+                zuuluu = report[zuuluu];
+                report = undefined;
+                oscard = tangon.bind(report)(zuuluu);
+                tangon = oscard.getKeyboardIsOpen;
+                zuuluu = {};
+                golfie = true;
+                zuuluu['includeCustomKeyboard'] = golfie;
+                zuuluu = tangon.bind(oscard)(zuuluu);
+                var _closure3_slot0 = zuuluu;
+                zuuluu = _closure1_slot3;
+                michal = function() {
                     _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                        zuuluu = _closure3_slot0;
-                        michal = _closure1_slot3;
-                        michal = michal.keyboardOrCustomKeyboardOpen;
-                        if(!(zuuluu !== michal)) { _fun00004_ip = 34; continue _fun00003 }
- 24:
+                        tangon = _closure3_slot0;
+                        report = _closure1_slot0;
+                        zuuluu = _closure1_slot1;
+                        entity = 4;
+                        zuuluu = zuuluu[entity];
+                        entity = undefined;
+                        oscard = report.bind(entity)(zuuluu);
+                        report = oscard.getKeyboardIsOpen;
+                        zuuluu = {};
+                        golfie = true;
+                        zuuluu['includeCustomKeyboard'] = golfie;
+                        zuuluu = report.bind(oscard)(zuuluu);
+                        if(!(tangon !== zuuluu)) { _fun00004_ip = 64; continue _fun00003 }
+ 56:
                         michal = _closure1_slot4;
-                        entity = undefined;
-                        entity = michal.bind(entity)();
- 34:
-                        entity = undefined;
+                        michal = michal.bind(entity)();
+ 64:
                         return entity;
                     }
                 };
-                var _closure3_slot1 = zuuluu;
-                michal = tangon.addChangeListener;
-                michal = michal.bind(tangon)(zuuluu);
+                michal = zuuluu.bind(report)(michal);
+                var _closure3_slot1 = michal;
                 michal = global;
-                report = michal.setTimeout;
-                tangon = undefined;
+                tangon = michal.setTimeout;
                 zuuluu = function() {
                     michal = _closure1_slot4;
                     entity = undefined;
@@ -123,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 michal = 2000;
-                michal = report.bind(tangon)(zuuluu, michal);
+                michal = tangon.bind(report)(zuuluu, michal);
                 var _closure3_slot2 = michal;
                 entity = function() {
                     entity = global;
@@ -131,10 +146,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure3_slot2;
                     entity = undefined;
                     zuuluu = tangon.bind(entity)(zuuluu);
-                    tangon = _closure1_slot3;
-                    zuuluu = tangon.removeChangeListener;
                     michal = _closure3_slot1;
-                    michal = zuuluu.bind(tangon)(michal);
+                    michal = michal.bind(entity)();
                     return entity;
                 };
                 return entity;
@@ -143,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = golfie.bind(option)(entity, tangon);
         tangon = _closure1_slot0;
         golfie = _closure1_slot1;
-        entity = 4;
+        entity = 5;
         entity = golfie[entity];
         tangon = tangon.bind(oscard)(entity);
         entity = tangon.useTooltip;

@@ -395,15 +395,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = argFoo;
-            entity = entity.file;
-            tangon = _closure1_slot8;
-            zuuluu = tangon.getChannel;
-            entity = entity.channelId;
-            oscard = zuuluu.bind(tangon)(entity);
+            tangon = entity.channelId;
+            zuuluu = _closure1_slot8;
+            entity = zuuluu.getChannel;
+            oscard = entity.bind(zuuluu)(tangon);
             entity = null;
             entity = entity != oscard;
-            if(!entity) { _fun00014_ip = 67; continue _fun00013 }
- 40:
+            if(!entity) { _fun00014_ip = 61; continue _fun00013 }
+ 34:
             report = _closure1_slot16;
             michal = _closure1_slot11;
             tangon = michal.SendMessage;
@@ -411,7 +410,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = 0;
             zuuluu = report.bind(michal)(oscard, tangon, zuuluu);
             entity = undefined;
- 67:
+ 61:
             return entity;
         }
     };

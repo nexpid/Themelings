@@ -26,7 +26,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     zuuluu['VERSION_TO_FORCE_RESYNCING_ALL_DATA_KEY'] = michal;
     michal = 3;
     zuuluu['VERSION_TO_SKIP_READING_THE_DATABASE'] = michal;
-    michal = 'stable-55';
+    michal = 'stable-56';
     zuuluu['VERSION_TO_FORCE_RESYNCING_ALL_DATA'] = michal;
     return entity;
 })();

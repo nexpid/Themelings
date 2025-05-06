@@ -356,38 +356,41 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                                     oscard = argFoo;
                                     tangon = _closure1_slot0;
-                                    michal = _closure1_slot2;
+                                    zuuluu = _closure1_slot2;
                                     entity = 14;
-                                    michal = michal[entity];
+                                    zuuluu = zuuluu[entity];
                                     entity = undefined;
-                                    golfie = tangon.bind(entity)(michal);
+                                    golfie = tangon.bind(entity)(zuuluu);
                                     report = golfie.maxFileSize;
-                                    tangon = _closure4_slot2;
-                                    tangon = tangon.id;
-                                    report = report.bind(golfie)(tangon);
-                                    tangon = oscard.currentSize;
-                                    if(!(tangon > report)) { _fun00010_ip = 145; continue _fun00009 }
+                                    zuuluu = _closure4_slot2;
+                                    zuuluu = zuuluu.id;
+                                    report = report.bind(golfie)(zuuluu);
+                                    zuuluu = oscard.currentSize;
+                                    if(!(zuuluu > report)) { _fun00010_ip = 154; continue _fun00009 }
  61:
                                     golfie = _closure4_slot4;
-                                    tangon = golfie.cancel;
-                                    tangon = tangon.bind(golfie)();
+                                    zuuluu = golfie.cancel;
+                                    zuuluu = zuuluu.bind(golfie)();
                                     golfie = _closure4_slot1;
-                                    tangon = false;
-                                    tangon = golfie.bind(entity)(tangon);
-                                    tangon = _closure1_slot1;
+                                    zuuluu = false;
+                                    zuuluu = golfie.bind(entity)(zuuluu);
+                                    zuuluu = _closure1_slot1;
                                     golfie = _closure1_slot2;
-                                    zuuluu = 15;
-                                    zuuluu = golfie[zuuluu];
-                                    option = tangon.bind(entity)(zuuluu);
-                                    zuuluu = option.hideActionSheet;
-                                    zuuluu = zuuluu.bind(option)();
-                                    zuuluu = 16;
-                                    zuuluu = golfie[zuuluu];
-                                    tangon = tangon.bind(entity)(zuuluu);
-                                    zuuluu = tangon.showFileSizeError;
-                                    michal = _closure4_slot3;
-                                    michal = zuuluu.bind(tangon)(oscard, report, michal);
- 145:
+                                    michal = 15;
+                                    michal = golfie[michal];
+                                    option = zuuluu.bind(entity)(michal);
+                                    michal = option.hideActionSheet;
+                                    michal = michal.bind(option)();
+                                    michal = 16;
+                                    michal = golfie[michal];
+                                    zuuluu = zuuluu.bind(entity)(michal);
+                                    michal = {};
+                                    michal['file'] = oscard;
+                                    michal['maxSize'] = report;
+                                    tangon = _closure4_slot3;
+                                    michal['analyticsLocations'] = tangon;
+                                    michal = zuuluu.bind(entity)(michal);
+ 154:
                                     return entity;
                                 }
                             };

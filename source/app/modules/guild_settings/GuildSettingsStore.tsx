@@ -1662,23 +1662,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = function(argFoo) { // Original name: handleGuildUpdate
         _fun00061: for(var _fun00062_ip = 0; ; ) switch(_fun00062_ip) {
  0:
-            zuuluu = _closure1_slot27;
+            entity = _closure1_slot27;
             tangon = null;
-            if(!(tangon != zuuluu)) { _fun00062_ip = 216; continue _fun00061 }
+            if(!(tangon != entity)) { _fun00062_ip = 246; continue _fun00061 }
  18:
-            zuuluu = _closure1_slot27;
-            report = zuuluu.id;
-            zuuluu = argFoo;
-            zuuluu = zuuluu.guild;
-            zuuluu = zuuluu.id;
-            if(!(report === zuuluu)) { _fun00062_ip = 216; continue _fun00061 }
+            entity = _closure1_slot27;
+            report = entity.id;
+            entity = argFoo;
+            entity = entity.guild;
+            entity = entity.id;
+            if(!(report === entity)) { _fun00062_ip = 246; continue _fun00061 }
  47:
             oscard = _closure1_slot13;
             report = oscard.getGuild;
-            zuuluu = _closure1_slot27;
-            zuuluu = zuuluu.id;
-            zuuluu = report.bind(oscard)(zuuluu);
-            if(!(tangon != zuuluu)) { _fun00062_ip = 212; continue _fun00061 }
+            entity = _closure1_slot27;
+            entity = entity.id;
+            entity = report.bind(oscard)(entity);
+            if(!(tangon != entity)) { _fun00062_ip = 242; continue _fun00061 }
  77:
             oscard = _closure1_slot8;
             report = oscard.getProfile;
@@ -1702,15 +1702,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = _closure1_slot28;
             _closure1_slot29 = tangon;
  155:
-            _closure1_slot26 = zuuluu;
-            var _closure2_slot0 = zuuluu;
-            tangon = _closure1_slot27;
-            zuuluu = tangon.toJS;
-            zuuluu = zuuluu.bind(tangon)();
-            var _closure2_slot1 = zuuluu;
-            report = _closure1_slot33;
-            tangon = report.forEach;
-            zuuluu = function(argFoo) {
+            report = _closure1_slot23;
+            tangon = _closure1_slot17;
+            tangon = tangon.PROFILE;
+            if(!(report !== tangon)) { _fun00062_ip = 230; continue _fun00061 }
+ 173:
+            _closure1_slot26 = entity;
+            var _closure2_slot0 = entity;
+            report = _closure1_slot27;
+            tangon = report.toJS;
+            tangon = tangon.bind(report)();
+            var _closure2_slot1 = tangon;
+            oscard = _closure1_slot33;
+            report = oscard.forEach;
+            tangon = function(argFoo) {
                 _fun00063: for(var _fun00064_ip = 0; ; ) switch(_fun00064_ip) {
  0:
                     report = argFoo;
@@ -1763,15 +1768,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 }
             };
-            zuuluu = tangon.bind(report)(zuuluu);
-            entity = _closure2_slot0;
+            tangon = report.bind(oscard)(tangon);
+            zuuluu = _closure2_slot0;
+            _closure1_slot27 = zuuluu;
+            zuuluu = undefined;
+            return zuuluu;
+ 230:
+            _closure1_slot26 = entity;
             _closure1_slot27 = entity;
             entity = undefined;
             return entity;
- 212:
+ 242:
             entity = false;
             return entity;
- 216:
+ 246:
             entity = false;
             return entity;
         }

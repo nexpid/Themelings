@@ -82,6 +82,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['EXPERIMENTAL_TARGETING_TRAITS'] = tangon;
     entity = 'EXPERIMENTAL_TARGETING_TRAITS';
     michal[tangon] = entity;
+    tangon = 21;
+    michal['DO_NOT_DISPLAY'] = tangon;
+    entity = 'DO_NOT_DISPLAY';
+    michal[tangon] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

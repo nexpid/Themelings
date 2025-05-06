@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot7 = tangon;
-    tangon = 8;
+    tangon = 7;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
@@ -132,41 +132,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         entity = 5;
                         zuuluu = zuuluu[entity];
                         entity = undefined;
-                        golfie = tangon.bind(entity)(zuuluu);
-                        oscard = golfie.getCurrentConfig;
-                        report = {};
-                        tangon = 'saved_messages_manager';
-                        report['location'] = tangon;
-                        zuuluu = {};
-                        option = false;
-                        zuuluu['autoTrackExposure'] = option;
-                        zuuluu = oscard.bind(golfie)(report, zuuluu);
-                        zuuluu = zuuluu.enabled;
-                        if(zuuluu) { _fun00006_ip = 117; continue _fun00005 }
- 66:
-                        oscard = _closure1_slot1;
-                        golfie = _closure1_slot2;
-                        report = 6;
-                        report = golfie[report];
-                        golfie = oscard.bind(entity)(report);
-                        oscard = golfie.getCurrentConfig;
-                        report = {};
-                        report['location'] = tangon;
+                        oscard = tangon.bind(entity)(zuuluu);
+                        report = oscard.getCurrentConfig;
                         tangon = {};
-                        tangon['autoTrackExposure'] = option;
-                        tangon = oscard.bind(golfie)(report, tangon);
-                        zuuluu = tangon.showReminders;
- 117:
-                        if(!zuuluu) { _fun00006_ip = 150; continue _fun00005 }
- 120:
+                        zuuluu = 'saved_messages_manager';
+                        tangon['location'] = zuuluu;
+                        zuuluu = {};
+                        golfie = false;
+                        zuuluu['autoTrackExposure'] = golfie;
+                        zuuluu = report.bind(oscard)(tangon, zuuluu);
+                        zuuluu = zuuluu.enabled;
+                        if(!zuuluu) { _fun00006_ip = 96; continue _fun00005 }
+ 66:
                         zuuluu = _closure1_slot0;
                         tangon = _closure1_slot2;
-                        michal = 7;
+                        michal = 6;
                         michal = tangon[michal];
                         zuuluu = zuuluu.bind(entity)(michal);
                         michal = zuuluu.fetchAndUpdateSavedMessages;
                         michal = michal.bind(zuuluu)();
- 150:
+ 96:
                         return entity;
                     }
                 };
@@ -189,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = tangon;
     michal = new foxtra[michal](romeon);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 9;
+    tangon = 8;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

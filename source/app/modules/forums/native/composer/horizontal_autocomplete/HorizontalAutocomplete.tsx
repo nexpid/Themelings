@@ -356,7 +356,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['onPress'] = report;
             report = offset != output;
             golfie = null;
-            if(!report) { _fun00004_ip = 289; continue _fun00003 }
+            if(!report) { _fun00004_ip = 290; continue _fun00003 }
  171:
             romeon = _closure1_slot10;
             option = _closure1_slot5;
@@ -374,13 +374,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = output.customIconSrc;
             echoed = offset != result;
             result = undefined;
-            if(!echoed) { _fun00004_ip = 251; continue _fun00003 }
+            if(!echoed) { _fun00004_ip = 252; continue _fun00003 }
  236:
             echoed = {};
             update = output.customIconSrc;
             echoed['uri'] = update;
             result = echoed;
- 251:
+ 252:
             backup['source'] = result;
             output = output.unicodeEmoji;
             backup['unicodeEmoji'] = output;
@@ -389,7 +389,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = sizing.bind(tangon)(kiloes, backup);
             report['children'] = backup;
             golfie = romeon.bind(tangon)(option, report);
- 289:
+ 290:
             report = new Array(2);
             report[0] = golfie;
             option = _closure1_slot10;
@@ -405,12 +405,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify[0] = romeon;
             romeon = offset != foxtra;
             offset = undefined;
-            if(!romeon) { _fun00004_ip = 361; continue _fun00003 }
- 352:
+            if(!romeon) { _fun00004_ip = 362; continue _fun00003 }
+ 353:
             romeon = {};
             romeon['color'] = foxtra;
             offset = romeon;
- 361:
+ 362:
             verify[1] = offset;
             oscard['style'] = verify;
             verify = global;
@@ -552,7 +552,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['allowFontScaling'] = offset;
             entity['children'] = golfie;
             offset = zuuluu.bind(tangon)(michal, entity);
-            _fun00008_ip = 193; continue _fun00007;
+            _fun00008_ip = 194; continue _fun00007;
  123:
             zuuluu = _closure1_slot10;
             michal = _closure1_slot1;
@@ -571,7 +571,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['uri'] = option;
             entity['source'] = golfie;
             offset = zuuluu.bind(tangon)(michal, entity);
- 193:
+ 194:
             zuuluu = _closure1_slot11;
             michal = _closure1_slot13;
             entity = {};

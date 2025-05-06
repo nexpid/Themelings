@@ -1598,6 +1598,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['REPORT_TO_MOD_NEW_TAG'] = michal;
     entity = 'REPORT_TO_MOD_NEW_TAG';
     tangon[michal] = entity;
+    michal = 543;
+    tangon['NITRO_MEMBER_HUB_GIFTING_XP_COACHMARK'] = michal;
+    entity = 'NITRO_MEMBER_HUB_GIFTING_XP_COACHMARK';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

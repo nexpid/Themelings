@@ -494,55 +494,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = {};
         golfie = 'upload';
         report['key'] = golfie;
-        oscard = function(argFoo, argBar, argBaz) { // Original name: value
+        oscard = function(argFoo, argBar) { // Original name: value
             _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-                report = argBar;
-                zuuluu = this;
-                entity = zuuluu._cancel;
-                tangon = null;
-                if(!(tangon == entity)) { _fun00016_ip = 146; continue _fun00015 }
- 21:
+                michal = this;
+                zuuluu = michal._cancel;
+                entity = null;
+                if(!(entity == zuuluu)) { _fun00016_ip = 103; continue _fun00015 }
+ 15:
                 entity = global;
-                michal = entity.Date;
-                entity = michal.now;
-                entity = entity.bind(michal)();
-                zuuluu['_lastUpdate'] = entity;
+                zuuluu = entity.Date;
+                entity = zuuluu.now;
+                entity = entity.bind(zuuluu)();
+                michal['_lastUpdate'] = entity;
                 entity = 0;
-                zuuluu['_loaded'] = entity;
-                michal = {'id': null, 'name': null, 'currentSize': 0, 'totalPreCompressionSize': 0, 'compressionProgress': 0, 'progress': 0, 'rate': 0, 'hasImage': false, 'hasVideo': false, 'attachmentsCount': 0};
-                entity = zuuluu.id;
-                michal['id'] = entity;
-                entity = argFoo;
-                entity = entity.name;
-                michal['name'] = entity;
-                golfie = tangon == report;
+                michal['_loaded'] = entity;
+                entity = {'id': null, 'name': null, 'currentSize': 0, 'totalPreCompressionSize': 0, 'compressionProgress': 0, 'progress': 0, 'rate': 0, 'hasImage': false, 'hasVideo': false, 'attachmentsCount': 0};
+                zuuluu = michal.id;
+                entity['id'] = zuuluu;
+                zuuluu = argFoo;
+                zuuluu = zuuluu.name;
+                entity['name'] = zuuluu;
+                zuuluu = argBar;
+                entity['items'] = zuuluu;
+                michal['_file'] = entity;
                 entity = undefined;
-                oscard = undefined;
-                if(golfie) { _fun00016_ip = 107; continue _fun00015 }
- 102:
-                oscard = report.content;
- 107:
-                michal['draftContent'] = oscard;
-                oscard = tangon == report;
-                tangon = undefined;
-                if(oscard) { _fun00016_ip = 126; continue _fun00015 }
- 121:
-                tangon = report.channel_id;
- 126:
-                michal['channelId'] = tangon;
-                tangon = argBaz;
-                michal['items'] = tangon;
-                zuuluu['_file'] = michal;
                 return entity;
- 146:
+ 103:
                 entity = global;
                 zuuluu = entity.Error;
                 entity = zuuluu.prototype;
                 michal = Object.create(entity, {constructor: {value: zuuluu}});
-                option = 'Uploader.upload(...): An upload is already in progress.';
-                verify = michal;
-                entity = new verify[zuuluu](option, golfie);
+                tangon = 'Uploader.upload(...): An upload is already in progress.';
+                report = michal;
+                entity = new report[zuuluu](tangon, zuuluu);
                 entity = entity instanceof Object ? entity : michal;
                 throw entity;
             }

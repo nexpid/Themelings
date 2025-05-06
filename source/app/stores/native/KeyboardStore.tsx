@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = entity;
-        entity = new Array(11);
+        entity = new Array(10);
         entity[0] = report;
         report = {};
         golfie = 'getUserAgnosticState';
@@ -223,25 +223,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report['get'] = golfie;
         entity[4] = report;
         report = {};
-        golfie = 'keyboardOrCustomKeyboardOpen';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
- 0:
-                entity = _closure1_slot11;
-                if(entity) { _fun00008_ip = 28; continue _fun00007 }
- 10:
-                zuuluu = _closure1_slot12;
-                michal = _closure1_slot8;
-                michal = michal.SYSTEM;
-                entity = zuuluu !== michal;
- 28:
-                return entity;
-            }
-        };
-        report['get'] = golfie;
-        entity[5] = report;
-        report = {};
         golfie = 'keyboardType';
         report['key'] = golfie;
         golfie = function() { // Original name: get
@@ -249,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         report['get'] = golfie;
-        entity[6] = report;
+        entity[5] = report;
         report = {};
         golfie = 'expressionType';
         report['key'] = golfie;
@@ -258,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         report['get'] = golfie;
-        entity[7] = report;
+        entity[6] = report;
         report = {};
         golfie = 'mediaKeyboardContext';
         report['key'] = golfie;
@@ -267,7 +248,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         report['get'] = golfie;
-        entity[8] = report;
+        entity[7] = report;
         report = {};
         golfie = 'appLauncherKeyboardParams';
         report['key'] = golfie;
@@ -276,7 +257,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         report['get'] = golfie;
-        entity[9] = report;
+        entity[8] = report;
         report = {};
         golfie = 'systemKeyboardWillOpen';
         report['key'] = golfie;
@@ -285,7 +266,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         report['get'] = oscard;
-        entity[10] = report;
+        entity[9] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -317,43 +298,43 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     michal['KEYBOARD_CHANGE'] = verify;
     tangon = function(argFoo) { // Original name: handleKeyboardToggle
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             entity = entity.params;
             tangon = entity.keyboardType;
             zuuluu = _closure1_slot8;
             zuuluu = zuuluu.EXPRESSION;
-            if(!(tangon !== zuuluu)) { _fun00010_ip = 167; continue _fun00009 }
+            if(!(tangon !== zuuluu)) { _fun00008_ip = 167; continue _fun00007 }
  35:
             tangon = entity.keyboardType;
             zuuluu = _closure1_slot8;
             zuuluu = zuuluu.MEDIA;
-            if(!(tangon !== zuuluu)) { _fun00010_ip = 156; continue _fun00009 }
+            if(!(tangon !== zuuluu)) { _fun00008_ip = 156; continue _fun00007 }
  55:
             tangon = entity.keyboardType;
             zuuluu = _closure1_slot8;
             zuuluu = zuuluu.APP_LAUNCHER;
-            if(!(tangon !== zuuluu)) { _fun00010_ip = 119; continue _fun00009 }
+            if(!(tangon !== zuuluu)) { _fun00008_ip = 119; continue _fun00007 }
  75:
             tangon = entity.keyboardType;
             zuuluu = _closure1_slot8;
             zuuluu = zuuluu.SYSTEM;
-            if(!(tangon === zuuluu)) { _fun00010_ip = 187; continue _fun00009 }
+            if(!(tangon === zuuluu)) { _fun00008_ip = 187; continue _fun00007 }
  95:
             tangon = entity.keyboardWillOpen;
             zuuluu = null;
             zuuluu = zuuluu != tangon;
-            if(!zuuluu) { _fun00010_ip = 113; continue _fun00009 }
+            if(!zuuluu) { _fun00008_ip = 113; continue _fun00007 }
  110:
             zuuluu = tangon;
  113:
             _closure1_slot16 = zuuluu;
-            _fun00010_ip = 187; continue _fun00009;
+            _fun00008_ip = 187; continue _fun00007;
  119:
             zuuluu = entity.context;
             tangon = null;
-            if(!(tangon == zuuluu)) { _fun00010_ip = 150; continue _fun00009 }
+            if(!(tangon == zuuluu)) { _fun00008_ip = 150; continue _fun00007 }
  130:
             tangon = {};
             report = _closure1_slot7;
@@ -362,15 +343,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = tangon;
  150:
             _closure1_slot15 = zuuluu;
-            _fun00010_ip = 187; continue _fun00009;
+            _fun00008_ip = 187; continue _fun00007;
  156:
             zuuluu = entity.context;
             _closure1_slot14 = zuuluu;
-            _fun00010_ip = 187; continue _fun00009;
+            _fun00008_ip = 187; continue _fun00007;
  167:
             zuuluu = entity.expressionType;
             tangon = null;
-            if(!(tangon == zuuluu)) { _fun00010_ip = 183; continue _fun00009 }
+            if(!(tangon == zuuluu)) { _fun00008_ip = 183; continue _fun00007 }
  179:
             zuuluu = _closure1_slot13;
  183:

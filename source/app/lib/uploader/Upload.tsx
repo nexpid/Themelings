@@ -170,14 +170,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = zuuluu.file;
                 report = report.type;
                 entity['mimeType'] = report;
-                _fun00004_ip = 493; continue _fun00003;
+                _fun00004_ip = 496; continue _fun00003;
  312:
                 report = zuuluu.id;
                 oscard = null;
-                if(!(oscard == report)) { _fun00004_ip = 328; continue _fun00003 }
+                if(!(oscard == report)) { _fun00004_ip = 329; continue _fun00003 }
  323:
                 report = zuuluu.uri;
- 328:
+ 329:
                 entity['id'] = report;
                 oscard = _closure1_slot0;
                 golfie = _closure1_slot3;
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['waveform'] = report;
                 report = zuuluu.isRemix;
                 entity['isRemix'] = report;
- 493:
+ 496:
                 report = zuuluu.isThumbnail;
                 entity['isThumbnail'] = report;
                 zuuluu = zuuluu.clip;

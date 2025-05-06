@@ -164,55 +164,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tangon = _closure1_slot10;
-            michal = tangon.getLocalAccount;
+            zuuluu = tangon.getLocalAccount;
             entity = _closure1_slot14;
             entity = entity.CONTACTS;
-            michal = michal.bind(tangon)(entity);
-            tangon = null;
-            entity = tangon == michal;
+            tangon = zuuluu.bind(tangon)(entity);
+            zuuluu = null;
+            entity = zuuluu == tangon;
             if(entity) { _fun00006_ip = 46; continue _fun00005 }
  37:
-            michal = michal.friendSync;
-            entity = !michal;
+            tangon = tangon.friendSync;
+            entity = !tangon;
  46:
-            if(!entity) { _fun00006_ip = 154; continue _fun00005 }
+            if(!entity) { _fun00006_ip = 81; continue _fun00005 }
  49:
-            report = _closure1_slot11;
-            michal = report.getCurrentUser;
-            oscard = michal.bind(report)();
-            golfie = tangon == oscard;
-            report = undefined;
+            tangon = _closure1_slot11;
+            michal = tangon.getCurrentUser;
+            tangon = michal.bind(tangon)();
+            report = zuuluu == tangon;
             michal = undefined;
-            if(golfie) { _fun00006_ip = 79; continue _fun00005 }
- 73:
-            michal = oscard.phone;
- 79:
-            michal = tangon != michal;
-            if(!michal) { _fun00006_ip = 151; continue _fun00005 }
- 86:
-            tangon = _closure1_slot0;
-            oscard = _closure1_slot2;
-            zuuluu = 14;
-            zuuluu = oscard[zuuluu];
-            zuuluu = tangon.bind(report)(zuuluu);
-            oscard = zuuluu.ContactSyncBaseExperiment;
-            report = oscard.getCurrentConfig;
-            tangon = {};
-            zuuluu = '900c10_1';
-            tangon['location'] = zuuluu;
-            zuuluu = {};
-            golfie = false;
-            zuuluu['autoTrackExposure'] = golfie;
-            zuuluu = report.bind(oscard)(tangon, zuuluu);
-            michal = zuuluu.enableContactSync;
- 151:
-            entity = michal;
- 154:
+            if(report) { _fun00006_ip = 77; continue _fun00005 }
+ 71:
+            michal = tangon.phone;
+ 77:
+            entity = zuuluu != michal;
+ 81:
             return entity;
         }
     };
     option['shouldShowStep'] = tangon;
-    tangon = 15;
+    tangon = 14;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.openContactSyncModalOnboarding;
@@ -233,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     offset['shouldShowStep'] = yankee;
-    yankee = 16;
+    yankee = 15;
     yankee = oscard[yankee];
     yankee = report.bind(entity)(yankee);
     yankee = yankee.openDiscoverabilityModal;
@@ -276,12 +256,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     offset = function() { // Original name: transitionToStep
         zuuluu = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 16;
+        entity = 15;
         michal = oscard[entity];
         entity = undefined;
         report = zuuluu.bind(entity)(michal);
         tangon = report.transitionToHubEmailConnectionModal;
-        michal = 17;
+        michal = 16;
         michal = oscard[michal];
         michal = zuuluu.bind(entity)(michal);
         michal = michal.ModalAnimation;
@@ -308,12 +288,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     offset = function() { // Original name: transitionToStep
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 16;
+        entity = 15;
         entity = oscard[entity];
         tangon = undefined;
         zuuluu = report.bind(tangon)(entity);
         michal = zuuluu.transitionToNUFGuildTemplatesModal;
-        entity = 17;
+        entity = 16;
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         entity = entity.ModalAnimation;
@@ -326,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = {};
     offset = verify.ACCEPT_INVITE;
     option['key'] = offset;
-    offset = 18;
+    offset = 17;
     offset = oscard[offset];
     offset = report.bind(entity)(offset);
     offset = offset.hasDeferredInvite;
@@ -334,7 +314,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     offset = function() { // Original name: transitionToStep
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 19;
+        entity = 18;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -353,7 +333,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = function() { // Original name: shouldShowStep
         zuuluu = _closure1_slot0;
         tangon = _closure1_slot2;
-        entity = 20;
+        entity = 19;
         report = tangon[entity];
         michal = undefined;
         report = zuuluu.bind(michal)(report);
@@ -381,7 +361,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = function() { // Original name: transitionToStep
         zuuluu = _closure1_slot0;
         michal = _closure1_slot2;
-        entity = 16;
+        entity = 15;
         michal = michal[entity];
         entity = undefined;
         zuuluu = zuuluu.bind(entity)(michal);
@@ -392,7 +372,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option['transitionToStep'] = verify;
     tangon[6] = option;
     var _closure1_slot16 = tangon;
-    tangon = 23;
+    tangon = 22;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
@@ -522,7 +502,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  210:
                                 romeon = _closure1_slot0;
                                 foxtra = _closure1_slot2;
-                                yankee = 21;
+                                yankee = 20;
                                 yankee = foxtra[yankee];
                                 kiloes = romeon.bind(tangon)(yankee);
                                 backup = kiloes.trackNUFStep;
@@ -556,7 +536,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  317:
                                 oscard = _closure1_slot0;
                                 verify = _closure1_slot2;
-                                offset = 21;
+                                offset = 20;
                                 offset = verify[offset];
                                 foxtra = oscard.bind(tangon)(offset);
                                 romeon = foxtra.trackNUFStep;
@@ -566,7 +546,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                 offset['skip_attempt'] = report;
                                 report = 'NUF Complete';
                                 report = romeon.bind(foxtra)(yankee, report, offset);
-                                report = 22;
+                                report = 21;
                                 report = verify[report];
                                 oscard = oscard.bind(tangon)(report);
                                 report = oscard.setNewUserFlowCompleted;
@@ -602,7 +582,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                 zuuluu = zuuluu.transitionToStep;
                                 golfie = _closure1_slot0;
                                 option = _closure1_slot2;
-                                oscard = 21;
+                                oscard = 20;
                                 oscard = option[oscard];
                                 option = golfie.bind(tangon)(oscard);
                                 golfie = option.trackNUFStep;
@@ -658,7 +638,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     kiloes = tangon;
     michal = new kiloes[michal](backup);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 24;
+    tangon = 23;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

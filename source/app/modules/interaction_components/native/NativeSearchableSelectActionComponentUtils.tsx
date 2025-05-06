@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = oscard.bind(report)(entity);
                 entity = entity.SelectOptionType;
                 entity = entity.USER;
-                if(!(entity !== michal)) { _fun00004_ip = 723; continue _fun00003 }
+                if(!(entity !== michal)) { _fun00004_ip = 725; continue _fun00003 }
  52:
                 oscard = _closure1_slot0;
                 entity = _closure1_slot2;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = oscard.bind(report)(entity);
                 entity = entity.SelectOptionType;
                 entity = entity.ROLE;
-                if(!(entity !== michal)) { _fun00004_ip = 308; continue _fun00003 }
+                if(!(entity !== michal)) { _fun00004_ip = 309; continue _fun00003 }
  88:
                 oscard = _closure1_slot0;
                 entity = _closure1_slot2;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 yankee = michal.bind(oscard)(entity);
                 michal = null;
                 entity = tangon;
-                if(!(michal != yankee)) { _fun00004_ip = 306; continue _fun00003 }
+                if(!(michal != yankee)) { _fun00004_ip = 307; continue _fun00003 }
  163:
                 michal = {};
                 sizing = michal;
@@ -156,27 +156,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = 'iconColor';
                 michal[oscard] = golfie;
                 entity = michal;
- 306:
+ 307:
                 return entity;
- 308:
+ 309:
                 option = _closure2_slot1;
                 offset = null;
                 entity = offset != option;
                 golfie = null;
-                if(!entity) { _fun00004_ip = 352; continue _fun00003 }
- 326:
+                if(!entity) { _fun00004_ip = 353; continue _fun00003 }
+ 327:
                 verify = _closure1_slot4;
                 oscard = verify.getRole;
                 michal = option.id;
                 entity = tangon.value;
                 golfie = oscard.bind(verify)(michal, entity);
- 352:
+ 353:
                 entity = tangon;
-                if(!(offset != golfie)) { _fun00004_ip = 721; continue _fun00003 }
- 362:
+                if(!(offset != golfie)) { _fun00004_ip = 723; continue _fun00003 }
+ 363:
                 entity = tangon;
-                if(!(offset != option)) { _fun00004_ip = 721; continue _fun00003 }
- 372:
+                if(!(offset != option)) { _fun00004_ip = 723; continue _fun00003 }
+ 373:
                 oscard = _closure1_slot0;
                 michal = _closure1_slot2;
                 verify = 7;
@@ -185,23 +185,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = oscard.canGuildUseRoleIcons;
                 oscard = michal.bind(oscard)(option, golfie);
                 michal = null;
-                if(!oscard) { _fun00004_ip = 437; continue _fun00003 }
- 409:
+                if(!oscard) { _fun00004_ip = 438; continue _fun00003 }
+ 410:
                 option = _closure1_slot0;
                 oscard = _closure1_slot2;
                 oscard = oscard[verify];
                 option = option.bind(report)(oscard);
                 oscard = option.getRoleIconData;
                 michal = oscard.bind(option)(golfie);
- 437:
-                if(!(offset != michal)) { _fun00004_ip = 467; continue _fun00003 }
- 441:
+ 438:
+                if(!(offset != michal)) { _fun00004_ip = 468; continue _fun00003 }
+ 442:
                 option = michal.customIconSrc;
                 oscard = michal.unicodeEmoji;
-                if(!(offset == oscard)) { _fun00004_ip = 647; continue _fun00003 }
- 460:
-                if(!(offset == option)) { _fun00004_ip = 621; continue _fun00003 }
- 467:
+                if(!(offset == oscard)) { _fun00004_ip = 649; continue _fun00003 }
+ 461:
+                if(!(offset == option)) { _fun00004_ip = 623; continue _fun00003 }
+ 468:
                 michal = {};
                 sizing = michal;
                 kiloes = tangon;
@@ -221,11 +221,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 verify = 'iconSrc';
                 michal[verify] = yankee;
                 verify = golfie.colorString;
-                if(!(offset == verify)) { _fun00004_ip = 556; continue _fun00003 }
- 550:
+                if(!(offset == verify)) { _fun00004_ip = 558; continue _fun00003 }
+ 552:
                 verify = _closure1_slot7;
-                _fun00004_ip = 593; continue _fun00003;
- 556:
+                _fun00004_ip = 595; continue _fun00003;
+ 558:
                 yankee = _closure1_slot0;
                 romeon = _closure1_slot2;
                 offset = 9;
@@ -234,14 +234,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 offset = yankee.hex2int;
                 golfie = golfie.colorString;
                 verify = offset.bind(yankee)(golfie);
- 593:
+ 595:
                 golfie = 4278190080.0;
                 verify = golfie | verify;
                 golfie = 'iconColor';
                 michal[golfie] = verify;
                 entity = michal;
-                _fun00004_ip = 721; continue _fun00003;
- 621:
+                _fun00004_ip = 723; continue _fun00003;
+ 623:
                 michal = {};
                 sizing = michal;
                 kiloes = tangon;
@@ -249,8 +249,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = 'iconSrc';
                 michal[golfie] = option;
                 entity = michal;
-                _fun00004_ip = 721; continue _fun00003;
- 647:
+                _fun00004_ip = 723; continue _fun00003;
+ 649:
                 michal = {};
                 sizing = michal;
                 kiloes = tangon;
@@ -269,9 +269,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = 'iconEmoji';
                 michal[oscard] = golfie;
                 entity = michal;
- 721:
-                return entity;
  723:
+                return entity;
+ 725:
                 option = _closure2_slot0;
                 oscard = _closure1_slot5;
                 michal = oscard.getUser;
@@ -279,8 +279,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = michal.bind(oscard)(entity);
                 michal = null;
                 entity = tangon;
-                if(!(michal != golfie)) { _fun00004_ip = 833; continue _fun00003 }
- 759:
+                if(!(michal != golfie)) { _fun00004_ip = 836; continue _fun00003 }
+ 761:
                 michal = {};
                 sizing = michal;
                 kiloes = tangon;
@@ -299,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = 'iconSrc';
                 michal[zuuluu] = tangon;
                 entity = michal;
- 833:
+ 836:
                 return entity;
             }
         };

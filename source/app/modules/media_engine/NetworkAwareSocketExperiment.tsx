@@ -1,4 +1,4 @@
-// app/modules/saved_messages/message_reminders/MessageRemindersExperiment.tsx
+// app/modules/media_engine/NetworkAwareSocketExperiment.tsx
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -16,15 +16,15 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = undefined;
     option = report.bind(entity)(michal);
     golfie = option.createExperiment;
-    michal = {'kind': 'user', 'id': '2022-08_message_todos_staff_only', 'label': 'Message TODO list'};
+    michal = {'kind': 'user', 'id': '2025-04_network_aware_sockets', 'label': 'Network aware sockets'};
     tangon = {};
     verify = false;
-    tangon['showReminders'] = verify;
+    tangon['enabled'] = verify;
     michal['defaultConfig'] = tangon;
-    offset = {'id': 1, 'label': 'Show message TODOs CTA'};
+    offset = {'id': 1, 'label': 'Enable'};
     tangon = 1;
     verify = {};
-    verify['showReminders'] = yankee;
+    verify['enabled'] = yankee;
     offset['config'] = verify;
     verify = new Array(1);
     verify[0] = offset;
@@ -33,7 +33,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/saved_messages/message_reminders/MessageRemindersExperiment.tsx';
+    tangon = 'modules/media_engine/NetworkAwareSocketExperiment.tsx';
     tangon = report.bind(oscard)(tangon);
     zuuluu['default'] = michal;
     return entity;

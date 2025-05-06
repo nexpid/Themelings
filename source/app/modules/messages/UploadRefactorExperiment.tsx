@@ -1,4 +1,4 @@
-// app/modules/media_engine/RustAdmExperiment.tsx
+// app/modules/messages/UploadRefactorExperiment.tsx
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -7,8 +7,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     golfie = entity.Object;
     tangon = golfie.defineProperty;
     michal = {};
-    romeon = true;
-    michal['value'] = romeon;
+    yankee = true;
+    michal['value'] = yankee;
     entity = '__esModule';
     entity = tangon.bind(golfie)(zuuluu, entity, michal);
     entity = 0;
@@ -16,30 +16,25 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = undefined;
     option = report.bind(entity)(michal);
     golfie = option.createExperiment;
-    michal = {'kind': 'user', 'id': '2024-09_rustadm', 'label': 'Rust Audio Device Manager'};
+    michal = {'kind': 'user', 'id': '2025-05_upload_refactor', 'label': 'Aligns attachment and non-attachment message sending'};
     tangon = {};
     verify = false;
     tangon['enabled'] = verify;
     michal['defaultConfig'] = tangon;
-    offset = {'id': 1, 'label': 'Automatic is Rust ADM (previous cohort)'};
+    offset = {'id': 1, 'label': 'Enabled'};
     tangon = 1;
     verify = {};
-    verify['enabled'] = romeon;
+    verify['enabled'] = yankee;
     offset['config'] = verify;
-    verify = new Array(2);
+    verify = new Array(1);
     verify[0] = offset;
-    offset = {'id': 2, 'label': 'Automatic is Rust ADM (new stats slice)'};
-    yankee = {};
-    yankee['enabled'] = romeon;
-    offset['config'] = yankee;
-    verify[1] = offset;
     michal['treatments'] = verify;
     michal = golfie.bind(option)(michal);
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/media_engine/RustAdmExperiment.tsx';
+    tangon = 'modules/messages/UploadRefactorExperiment.tsx';
     tangon = report.bind(oscard)(tangon);
-    zuuluu['RustAdmExperiment'] = michal;
+    zuuluu['default'] = michal;
     return entity;
 })();

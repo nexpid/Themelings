@@ -123,15 +123,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot0 = foxtra;
             yankee = entity.draftType;
             var _closure2_slot1 = yankee;
-            cntext = entity.handleComponent;
+            papara = entity.handleComponent;
             update = entity.onClose;
             var _closure2_slot2 = update;
             sizing = entity.onSend;
-            quebec = entity.transitionState;
-            var _closure2_slot3 = quebec;
-            sierra = entity.animationConfigs;
-            equals = _closure1_slot3;
-            zuuluu = equals.useContext;
+            variable36 = entity.transitionState;
+            var _closure2_slot3 = variable36;
+            limora = entity.animationConfigs;
+            quebec = _closure1_slot3;
+            zuuluu = quebec.useContext;
             option = _closure1_slot0;
             entity = _closure1_slot2;
             michal = 10;
@@ -139,14 +139,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = undefined;
             michal = option.bind(tangon)(michal);
             michal = michal.PortalKeyboardContext;
-            michal = zuuluu.bind(equals)(michal);
-            status = michal.animatedSheetIndex;
-            var _closure2_slot4 = status;
-            target = michal.animatedSheetPosition;
+            michal = zuuluu.bind(quebec)(michal);
+            sierra = michal.animatedSheetIndex;
+            var _closure2_slot4 = sierra;
+            status = michal.animatedSheetPosition;
             report = michal.androidNavScrimStyle;
             michal = michal.bottomSheetRefs;
-            limora = michal.media;
-            var _closure2_slot5 = limora;
+            whisks = michal.media;
+            var _closure2_slot5 = whisks;
             michal = _closure1_slot14;
             kiloes = michal.bind(tangon)();
             var _closure2_slot6 = kiloes;
@@ -171,9 +171,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = zuuluu.bind(report)();
             zuuluu = report.minimum;
             var _closure2_slot8 = zuuluu;
-            config = report.maximum;
-            var _closure2_slot9 = config;
-            verify = equals.useCallback;
+            record = report.maximum;
+            var _closure2_slot9 = record;
+            verify = quebec.useCallback;
             golfie = function(argFoo) {
                 tangon = _closure1_slot12;
                 michal = _closure1_slot0;
@@ -194,7 +194,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             report = new Array(0);
-            record = verify.bind(equals)(golfie, report);
+            cntext = verify.bind(quebec)(golfie, report);
             verify = 15;
             report = entity[verify];
             output = option.bind(tangon)(report);
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             golfie = backup.bind(output)(golfie, report);
-            output = equals.useCallback;
+            output = quebec.useCallback;
             backup = function(argFoo, argBar) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -253,12 +253,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             report = new Array(0);
-            source = output.bind(equals)(backup, report);
+            sequen = output.bind(quebec)(backup, report);
             report = 19;
             report = entity[report];
             backup = option.bind(tangon)(report);
             report = backup.useIsScreenReaderEnabled;
-            papara = report.bind(backup)();
+            target = report.bind(backup)();
             report = 20;
             report = entity[report];
             backup = michal.bind(tangon)(report);
@@ -281,10 +281,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             report = backup.bind(tangon)(report);
-            output = equals.useMemo;
+            output = quebec.useMemo;
             backup = new Array(2);
             backup[0] = zuuluu;
-            backup[1] = config;
+            backup[1] = record;
             report = function() {
                 zuuluu = _closure2_slot8;
                 entity = new Array(2);
@@ -293,8 +293,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity[1] = michal;
                 return entity;
             };
-            sequen = output.bind(equals)(report, backup);
-            output = equals.useMemo;
+            config = output.bind(quebec)(report, backup);
+            output = quebec.useMemo;
             backup = new Array(2);
             backup[0] = vacuum;
             backup[1] = kiloes;
@@ -326,21 +326,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            report = output.bind(equals)(report, backup);
+            report = output.bind(quebec)(report, backup);
             backup = 22;
             backup = entity[backup];
             backup = michal.bind(tangon)(backup);
             backup = backup.bind(tangon)();
             echoed = backup.bottom;
             backup = entity[verify];
-            whisks = option.bind(tangon)(backup);
-            output = whisks.useStateFromStores;
-            variable36 = _closure1_slot7;
+            source = option.bind(tangon)(backup);
+            output = source.useStateFromStores;
+            equals = _closure1_slot7;
             backup = new Array(1);
-            backup[0] = variable36;
-            variable36 = foxtra.id;
+            backup[0] = equals;
+            equals = foxtra.id;
             foxtra = new Array(2);
-            foxtra[0] = variable36;
+            foxtra[0] = equals;
             foxtra[1] = yankee;
             yankee = function() {
                 tangon = _closure1_slot7;
@@ -351,8 +351,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             };
-            whisks = output.bind(whisks)(backup, yankee, foxtra);
-            var _closure2_slot10 = whisks;
+            equals = output.bind(source)(backup, yankee, foxtra);
+            var _closure2_slot10 = equals;
             verify = entity[verify];
             backup = option.bind(tangon)(verify);
             foxtra = backup.useStateFromStores;
@@ -364,26 +364,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.useReducedMotion;
                 return entity;
             };
-            variable39 = foxtra.bind(backup)(yankee, verify);
-            var _closure2_slot11 = variable39;
-            variable37 = 23;
-            verify = entity[variable37];
+            variable40 = foxtra.bind(backup)(yankee, verify);
+            var _closure2_slot11 = variable40;
+            variable38 = 23;
+            verify = entity[variable38];
             yankee = option.bind(tangon)(verify);
             verify = yankee.useOrientation;
-            variable38 = verify.bind(yankee)();
-            var _closure2_slot12 = variable38;
+            variable39 = verify.bind(yankee)();
+            var _closure2_slot12 = variable39;
             yankee = 24;
             verify = entity[yankee];
             foxtra = option.bind(tangon)(verify);
             verify = foxtra.useSharedValue;
-            backup = false;
-            variable40 = verify.bind(foxtra)(backup);
-            var _closure2_slot13 = variable40;
+            source = false;
+            variable41 = verify.bind(foxtra)(source);
+            var _closure2_slot13 = variable41;
             verify = entity[yankee];
             foxtra = option.bind(tangon)(verify);
             verify = foxtra.useSharedValue;
-            variable36 = verify.bind(foxtra)(backup);
-            var _closure2_slot14 = variable36;
+            variable37 = verify.bind(foxtra)(source);
+            var _closure2_slot14 = variable37;
             verify = entity[yankee];
             output = option.bind(tangon)(verify);
             backup = output.useAnimatedReaction;
@@ -413,10 +413,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             verify = {};
-            verify['animatedIndex'] = status;
-            variable41 = 0.7;
-            verify['INDEX_HEADER_CHANGE_THRESHOLD'] = variable41;
-            verify['numUploads'] = whisks;
+            verify['animatedIndex'] = sierra;
+            variable42 = 0.7;
+            verify['INDEX_HEADER_CHANGE_THRESHOLD'] = variable42;
+            verify['numUploads'] = equals;
             foxtra['__closure'] = verify;
             verify = 12469602666430.0;
             foxtra['__workletHash'] = verify;
@@ -487,20 +487,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            whisks = {};
-            whisks['deviceOrientation'] = variable38;
-            variable37 = entity[variable37];
-            variable37 = option.bind(tangon)(variable37);
-            variable37 = variable37.OrientationType;
-            whisks['OrientationType'] = variable37;
-            whisks['shouldShowSV'] = variable40;
-            whisks['shouldDelaySV'] = variable36;
-            whisks['reducedMotion'] = variable39;
-            verify['__closure'] = whisks;
-            whisks = 8977592425144.0;
-            verify['__workletHash'] = whisks;
-            whisks = _closure1_slot16;
-            verify['__initData'] = whisks;
+            equals = {};
+            equals['deviceOrientation'] = variable39;
+            variable38 = entity[variable38];
+            variable38 = option.bind(tangon)(variable38);
+            variable38 = variable38.OrientationType;
+            equals['OrientationType'] = variable38;
+            equals['shouldShowSV'] = variable41;
+            equals['shouldDelaySV'] = variable37;
+            equals['reducedMotion'] = variable40;
+            verify['__closure'] = equals;
+            equals = 8977592425144.0;
+            verify['__workletHash'] = equals;
+            equals = _closure1_slot16;
+            verify['__initData'] = equals;
             verify = backup.bind(output)(foxtra, verify);
             verify = entity[yankee];
             backup = option.bind(tangon)(verify);
@@ -522,7 +522,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             output = {};
-            output['shouldShowSV'] = variable40;
+            output['shouldShowSV'] = variable41;
             verify['__closure'] = output;
             output = 8535459187158.0;
             verify['__workletHash'] = output;
@@ -568,25 +568,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            whisks = {};
-            whisks['shouldShowSV'] = variable40;
-            whisks['reducedMotion'] = variable39;
-            variable38 = 25;
-            variable36 = entity[variable38];
-            variable36 = option.bind(tangon)(variable36);
-            variable36 = variable36.withSpring;
-            whisks['withSpring'] = variable36;
-            variable37 = _closure1_slot9;
-            whisks['MEDIA_PICKER_SEND_BUTTON_SPRING'] = variable37;
-            foxtra['__closure'] = whisks;
-            whisks = 7270442857952.0;
-            foxtra['__workletHash'] = whisks;
-            whisks = _closure1_slot18;
-            foxtra['__initData'] = whisks;
+            equals = {};
+            equals['shouldShowSV'] = variable41;
+            equals['reducedMotion'] = variable40;
+            variable39 = 25;
+            variable37 = entity[variable39];
+            variable37 = option.bind(tangon)(variable37);
+            variable37 = variable37.withSpring;
+            equals['withSpring'] = variable37;
+            variable38 = _closure1_slot9;
+            equals['MEDIA_PICKER_SEND_BUTTON_SPRING'] = variable38;
+            foxtra['__closure'] = equals;
+            equals = 7270442857952.0;
+            foxtra['__workletHash'] = equals;
+            equals = _closure1_slot18;
+            foxtra['__initData'] = equals;
             foxtra = backup.bind(output)(foxtra);
             backup = entity[yankee];
-            whisks = option.bind(tangon)(backup);
-            output = whisks.useAnimatedStyle;
+            equals = option.bind(tangon)(backup);
+            output = equals.useAnimatedStyle;
             backup = function() { // Original name: se
                 _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
@@ -646,25 +646,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            variable36 = {};
-            variable36['shouldShowSV'] = variable40;
-            variable36['reducedMotion'] = variable39;
-            variable38 = entity[variable38];
-            variable38 = option.bind(tangon)(variable38);
-            variable38 = variable38.withSpring;
-            variable36['withSpring'] = variable38;
-            variable36['MEDIA_PICKER_SEND_BUTTON_SPRING'] = variable37;
-            backup['__closure'] = variable36;
-            variable36 = 2833942560741.0;
-            backup['__workletHash'] = variable36;
-            variable36 = _closure1_slot19;
-            backup['__initData'] = variable36;
-            output = output.bind(whisks)(backup);
-            whisks = equals.useEffect;
+            variable37 = {};
+            variable37['shouldShowSV'] = variable41;
+            variable37['reducedMotion'] = variable40;
+            variable39 = entity[variable39];
+            variable39 = option.bind(tangon)(variable39);
+            variable39 = variable39.withSpring;
+            variable37['withSpring'] = variable39;
+            variable37['MEDIA_PICKER_SEND_BUTTON_SPRING'] = variable38;
+            backup['__closure'] = variable37;
+            variable37 = 2833942560741.0;
+            backup['__workletHash'] = variable37;
+            variable37 = _closure1_slot19;
+            backup['__initData'] = variable37;
+            output = output.bind(equals)(backup);
+            equals = quebec.useEffect;
             backup = new Array(3);
-            backup[0] = limora;
+            backup[0] = whisks;
             backup[1] = update;
-            backup[2] = quebec;
+            backup[2] = variable36;
             oscard = function() {
                 _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
@@ -699,7 +699,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            oscard = whisks.bind(equals)(oscard, backup);
+            oscard = equals.bind(quebec)(oscard, backup);
             oscard = 27;
             oscard = entity[oscard];
             option = option.bind(tangon)(oscard);
@@ -722,45 +722,46 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['pointerEvents'] = backup;
             golfie = _closure1_slot12;
             oscard = _closure1_slot1;
-            quebec = _closure1_slot2;
+            variable36 = _closure1_slot2;
             report = 14;
-            report = quebec[report];
+            report = variable36[report];
             oscard = oscard.bind(tangon)(report);
             report = {};
-            equals = _closure1_slot0;
-            whisks = 21;
-            whisks = quebec[whisks];
-            equals = equals.bind(tangon)(whisks);
-            whisks = equals.isIOS;
-            whisks = whisks.bind(equals)();
-            whisks = !whisks;
-            if(!whisks) { _fun00002_ip = 1270; continue _fun00001 }
+            quebec = _closure1_slot0;
+            equals = 21;
+            equals = variable36[equals];
+            quebec = quebec.bind(tangon)(equals);
+            equals = quebec.isIOS;
+            equals = equals.bind(quebec)();
+            equals = !equals;
+            if(!equals) { _fun00002_ip = 1270; continue _fun00001 }
  1268:
-            whisks = undefined;
+            equals = undefined;
  1270:
-            report['accessible'] = whisks;
-            report['ref'] = limora;
-            report['animationConfigs'] = sierra;
-            report['animatedIndex'] = status;
-            report['animatedPosition'] = target;
-            target = !papara;
-            report['enableContentPanningGesture'] = target;
-            papara = !papara;
-            report['enableHandlePanningGesture'] = papara;
-            report['handleComponent'] = cntext;
-            cntext = kiloes.background;
-            report['backgroundStyle'] = cntext;
-            report['backdropComponent'] = record;
-            report['contentHeight'] = config;
-            report['snapPoints'] = sequen;
-            report['onAnimate'] = source;
+            report['accessible'] = equals;
+            report['ref'] = whisks;
+            report['animationConfigs'] = limora;
+            report['animatedIndex'] = sierra;
+            report['animatedPosition'] = status;
+            status = !target;
+            report['enableContentPanningGesture'] = status;
+            target = !target;
+            report['enableHandlePanningGesture'] = target;
+            report['handleComponent'] = papara;
+            papara = kiloes.background;
+            report['backgroundStyle'] = papara;
+            report['backdropComponent'] = cntext;
+            report['contentHeight'] = record;
+            report['snapPoints'] = config;
+            report['onAnimate'] = sequen;
             report['containerHeight'] = vacuum;
+            report['enableDynamicSizing'] = source;
             source = _closure1_slot8;
             report['handleHeight'] = source;
             report['onClose'] = update;
-            variable44 = report;
-            variable43 = option;
-            option = copyDataProperties(variable44, variable43);
+            variable45 = report;
+            variable44 = option;
+            option = copyDataProperties(variable45, variable44);
             option = 'children';
             report[option] = romeon;
             oscard = golfie.bind(tangon)(oscard, report);

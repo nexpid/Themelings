@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     michal = 'unsupported';
                     entity = argFoo;
-                    if(!(michal === entity)) { _fun00008_ip = 67; continue _fun00007 }
+                    if(!(michal === entity)) { _fun00008_ip = 71; continue _fun00007 }
  11:
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = entity.LIVE_ACTIVITY_SETTINGS_UPDATED;
                     entity = {'supported': false, 'enabled': false};
                     entity = zuuluu.bind(tangon)(michal, entity);
- 67:
+ 71:
                     entity = undefined;
                     return entity;
                 }
