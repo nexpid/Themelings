@@ -17,38 +17,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 103; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 89; continue _fun00001 }
  7:
-                    report = _closure1_slot1;
-                    option = _closure1_slot2;
-                    michal = 1;
-                    tangon = option[michal];
+                    oscard = _closure1_slot1;
+                    tangon = _closure1_slot2;
+                    michal = 2;
+                    report = tangon[michal];
                     michal = undefined;
-                    golfie = report.bind(michal)(tangon);
+                    golfie = oscard.bind(michal)(report);
                     oscard = golfie.pushLazy;
-                    tangon = _closure1_slot0;
-                    zuuluu = 3;
-                    zuuluu = option[zuuluu];
-                    verify = tangon.bind(michal)(zuuluu);
-                    zuuluu = 2;
-                    report = option[zuuluu];
-                    zuuluu = option.paths;
-                    report = verify.bind(michal)(report, zuuluu);
-                    zuuluu = 4;
-                    zuuluu = option[zuuluu];
-                    zuuluu = tangon.bind(michal)(zuuluu);
-                    tangon = zuuluu.INTERACTION_IFRAME_MODAL_KEY;
+                    option = _closure1_slot0;
+                    report = 4;
+                    report = tangon[report];
+                    option = option.bind(michal)(report);
+                    report = 3;
+                    report = tangon[report];
+                    tangon = tangon.paths;
+                    report = option.bind(michal)(report, tangon);
+                    tangon = _closure1_slot4;
                     zuuluu = argFoo;
                     zuuluu = oscard.bind(golfie)(report, zuuluu, tangon);
                     return michal;
- 103:
+ 89:
                     return entity;
                 }
             };
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot4 = tangon;
+        _closure1_slot5 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -56,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot4 = entity;
+    var _closure1_slot5 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -70,6 +67,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = undefined;
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.INTERACTION_IFRAME_MODAL_KEY;
+    var _closure1_slot4 = tangon;
     tangon = 5;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -78,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     michal = function() { // Original name: openInteractionIframeModal
         entity = undefined;
-        tangon = _closure1_slot4;
+        tangon = _closure1_slot5;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
