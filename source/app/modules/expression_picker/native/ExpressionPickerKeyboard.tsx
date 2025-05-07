@@ -54,25 +54,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         option = entity.channel;
         entity = entity.chatInputRef;
         var _closure2_slot0 = entity;
-        romeon = _closure1_slot3;
-        golfie = romeon.useContext;
-        oscard = _closure1_slot0;
+        golfie = _closure1_slot3;
+        oscard = golfie.useContext;
+        backup = _closure1_slot0;
         foxtra = _closure1_slot2;
         tangon = 5;
         report = foxtra[tangon];
         tangon = undefined;
-        report = oscard.bind(tangon)(report);
+        report = backup.bind(tangon)(report);
         report = report.PortalKeyboardContext;
-        report = golfie.bind(romeon)(report);
-        echoed = report.animatedSheetIndex;
-        var _closure2_slot1 = echoed;
+        report = oscard.bind(golfie)(report);
+        update = report.animatedSheetIndex;
+        var _closure2_slot1 = update;
         report = report.bottomSheetRefs;
         var _closure2_slot2 = report;
-        verify = romeon.useCallback;
+        verify = golfie.useCallback;
         report = report.expression;
-        golfie = new Array(2);
-        golfie[0] = report;
-        golfie[1] = entity;
+        oscard = new Array(2);
+        oscard[0] = report;
+        oscard[1] = entity;
         report = function(argFoo) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -115,10 +115,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             }
         };
-        yankee = verify.bind(romeon)(report, golfie);
-        verify = romeon.useCallback;
-        golfie = new Array(1);
-        golfie[0] = entity;
+        yankee = verify.bind(golfie)(report, oscard);
+        verify = golfie.useCallback;
+        oscard = new Array(1);
+        oscard[0] = entity;
         report = function(argFoo) {
             entity = _closure2_slot0;
             tangon = entity.current;
@@ -131,10 +131,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = undefined;
             return entity;
         };
-        offset = verify.bind(romeon)(report, golfie);
-        verify = romeon.useCallback;
-        golfie = new Array(1);
-        golfie[0] = entity;
+        offset = verify.bind(golfie)(report, oscard);
+        verify = golfie.useCallback;
+        oscard = new Array(1);
+        oscard[0] = entity;
         report = function(argFoo) {
             entity = _closure2_slot0;
             tangon = entity.current;
@@ -151,8 +151,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = undefined;
             return entity;
         };
-        verify = verify.bind(romeon)(report, golfie);
-        golfie = romeon.useCallback;
+        verify = verify.bind(golfie)(report, oscard);
+        oscard = golfie.useCallback;
         report = new Array(1);
         report[0] = entity;
         entity = function() {
@@ -163,11 +163,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = undefined;
             return entity;
         };
-        romeon = golfie.bind(romeon)(entity, report);
+        romeon = oscard.bind(golfie)(entity, report);
         entity = 8;
         entity = foxtra[entity];
-        backup = oscard.bind(tangon)(entity);
-        golfie = backup.useStateFromStoresObject;
+        golfie = backup.bind(tangon)(entity);
+        oscard = golfie.useStateFromStoresObject;
         entity = _closure1_slot4;
         report = new Array(1);
         report[0] = entity;
@@ -178,21 +178,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['expressionType'] = michal;
             return entity;
         };
-        entity = golfie.bind(backup)(report, entity);
+        entity = oscard.bind(golfie)(report, entity);
         golfie = entity.expressionType;
+        oscard = _closure1_slot1;
         entity = 9;
         entity = foxtra[entity];
-        report = oscard.bind(tangon)(entity);
-        entity = report.useKeyboardActionSheetHeight;
-        entity = entity.bind(report)();
-        kiloes = entity.minimum;
-        var _closure2_slot3 = kiloes;
-        sizing = entity.maximum;
-        var _closure2_slot4 = sizing;
+        entity = oscard.bind(tangon)(entity);
+        entity = entity.bind(tangon)();
+        sizing = entity.minimum;
+        var _closure2_slot3 = sizing;
+        output = entity.maximum;
+        var _closure2_slot4 = output;
         entity = 10;
         report = foxtra[entity];
-        output = oscard.bind(tangon)(report);
-        backup = output.useDerivedValue;
+        result = backup.bind(tangon)(report);
+        kiloes = result.useDerivedValue;
         report = function() { // Original name: p
             entity = global;
             tangon = entity.Math;
@@ -205,18 +205,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity > michal;
             return entity;
         };
-        result = {};
-        result['animatedSheetIndex'] = echoed;
-        report['__closure'] = result;
-        result = 9820130506520.0;
-        report['__workletHash'] = result;
-        result = _closure1_slot8;
-        report['__initData'] = result;
-        output = backup.bind(output)(report);
-        var _closure2_slot5 = output;
+        echoed = {};
+        echoed['animatedSheetIndex'] = update;
+        report['__closure'] = echoed;
+        echoed = 9820130506520.0;
+        report['__workletHash'] = echoed;
+        echoed = _closure1_slot8;
+        report['__initData'] = echoed;
+        result = kiloes.bind(result)(report);
+        var _closure2_slot5 = result;
         report = foxtra[entity];
-        oscard = oscard.bind(tangon)(report);
-        report = oscard.useAnimatedStyle;
+        backup = backup.bind(tangon)(report);
+        report = backup.useAnimatedStyle;
         zuuluu = function() { // Original name: h
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -235,18 +235,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             }
         };
-        backup = {};
-        backup['bottomSheetExpandingOrExpanded'] = output;
-        backup['maximum'] = sizing;
-        backup['minimum'] = kiloes;
-        zuuluu['__closure'] = backup;
-        backup = 13253776832356.0;
-        zuuluu['__workletHash'] = backup;
-        backup = _closure1_slot9;
-        zuuluu['__initData'] = backup;
-        report = report.bind(oscard)(zuuluu);
+        kiloes = {};
+        kiloes['bottomSheetExpandingOrExpanded'] = result;
+        kiloes['maximum'] = output;
+        kiloes['minimum'] = sizing;
+        zuuluu['__closure'] = kiloes;
+        kiloes = 13253776832356.0;
+        zuuluu['__workletHash'] = kiloes;
+        kiloes = _closure1_slot9;
+        zuuluu['__initData'] = kiloes;
+        report = report.bind(backup)(zuuluu);
         zuuluu = _closure1_slot7;
-        oscard = _closure1_slot1;
         entity = foxtra[entity];
         entity = oscard.bind(tangon)(entity);
         michal = entity.View;

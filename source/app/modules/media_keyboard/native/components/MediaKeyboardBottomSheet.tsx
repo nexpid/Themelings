@@ -166,9 +166,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot7 = vacuum;
             zuuluu = 13;
             zuuluu = entity[zuuluu];
-            report = option.bind(tangon)(zuuluu);
-            zuuluu = report.useKeyboardActionSheetHeight;
-            report = zuuluu.bind(report)();
+            zuuluu = michal.bind(tangon)(zuuluu);
+            report = zuuluu.bind(tangon)();
             zuuluu = report.minimum;
             var _closure2_slot8 = zuuluu;
             record = report.maximum;
@@ -712,10 +711,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.View;
             entity = {};
             oscard = undefined;
-            if(!golfie) { _fun00002_ip = 1190; continue _fun00001 }
- 1184:
+            if(!golfie) { _fun00002_ip = 1184; continue _fun00001 }
+ 1178:
             oscard = 'no-hide-descendants';
- 1190:
+ 1184:
             entity['importantForAccessibility'] = oscard;
             entity['style'] = report;
             backup = 'box-none';
@@ -734,10 +733,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = quebec.isIOS;
             equals = equals.bind(quebec)();
             equals = !equals;
-            if(!equals) { _fun00002_ip = 1270; continue _fun00001 }
- 1268:
+            if(!equals) { _fun00002_ip = 1264; continue _fun00001 }
+ 1262:
             equals = undefined;
- 1270:
+ 1264:
             report['accessible'] = equals;
             report['ref'] = whisks;
             report['animationConfigs'] = limora;

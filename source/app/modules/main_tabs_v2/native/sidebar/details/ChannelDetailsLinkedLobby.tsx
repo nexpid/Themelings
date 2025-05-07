@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.linkedLobby;
             michal = foxtra == entity;
             entity = null;
-            if(michal) { _fun00002_ip = 499; continue _fun00001 }
+            if(michal) { _fun00002_ip = 503; continue _fun00001 }
  99:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot3;
@@ -111,8 +111,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = {'variant': 'text-sm/normal', 'color': 'header-secondary'};
             romeon = _closure1_slot5;
             yankee = {};
-            if(!(foxtra == result)) { _fun00002_ip = 239; continue _fun00001 }
- 180:
+            if(!(foxtra == result)) { _fun00002_ip = 243; continue _fun00001 }
+ 184:
             sizing = _closure1_slot0;
             output = _closure1_slot2;
             foxtra = 8;
@@ -125,8 +125,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.t;
             foxtra = foxtra.yQqVsr;
             backup = backup.bind(kiloes)(foxtra);
-            _fun00002_ip = 309; continue _fun00001;
- 239:
+            _fun00002_ip = 313; continue _fun00001;
+ 243:
             kiloes = _closure1_slot0;
             echoed = _closure1_slot2;
             foxtra = 8;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = result.name;
             foxtra['applicationName'] = result;
             backup = sizing.bind(output)(kiloes, foxtra);
- 309:
+ 313:
             foxtra = new Array(3);
             foxtra[0] = backup;
             backup = '  •  ';
@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 499:
+ 503:
             return entity;
         }
     };

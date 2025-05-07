@@ -44,32 +44,55 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.Fragment;
     var _closure1_slot9 = tangon;
     tangon = 4;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = {};
-    verify = {'flexDirection': 'row', 'alignItems': 'center'};
-    tangon['priceTag'] = verify;
-    verify = {'textDecorationLine': 'line-through', 'textDecorationStyle': 'solid', 'opacity': 0.7};
-    tangon['strikedPrice'] = verify;
-    verify = {};
-    tangon['regularPrice'] = verify;
-    verify = {'width': 16, 'height': 16, 'marginLeft': 8, 'marginRight': 4};
-    tangon['nitroIcon'] = verify;
-    verify = {'flexDirection': 'row', 'alignItems': 'center'};
-    tangon['container'] = verify;
-    verify = {};
-    offset = 'underline';
-    verify['textDecorationLine'] = offset;
-    tangon['underline'] = verify;
-    verify = {};
-    offset = -2;
-    verify['marginBottom'] = offset;
-    tangon['subscribeNowPressable'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot10 = tangon;
-    tangon = function(argFoo) { // Original name: PriceTag
+    golfie = oscard[tangon];
+    verify = report.bind(entity)(golfie);
+    option = verify.createStyles;
+    golfie = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            tangon = argFoo;
+            entity = {};
+            michal = {'flexDirection': 'row', 'alignItems': 'center'};
+            entity['priceTag'] = michal;
+            michal = {'textDecorationLine': 'line-through', 'textDecorationStyle': 'solid', 'opacity': 0.7};
+            entity['strikedPrice'] = michal;
+            michal = {};
+            entity['regularPrice'] = michal;
+            michal = {};
+            zuuluu = 16;
+            report = zuuluu;
+            if(!tangon) { _fun00002_ip = 64; continue _fun00001 }
+ 61:
+            report = 20;
+ 64:
+            michal['width'] = report;
+            if(!tangon) { _fun00002_ip = 74; continue _fun00001 }
+ 71:
+            zuuluu = 20;
+ 74:
+            michal['height'] = zuuluu;
+            zuuluu = 8;
+            michal['marginLeft'] = zuuluu;
+            zuuluu = 4;
+            michal['marginRight'] = zuuluu;
+            entity['nitroIcon'] = michal;
+            michal = {'flexDirection': 'row', 'alignItems': 'center'};
+            entity['container'] = michal;
+            michal = {};
+            zuuluu = 'underline';
+            michal['textDecorationLine'] = zuuluu;
+            entity['underline'] = michal;
+            michal = {};
+            zuuluu = -2;
+            michal['marginBottom'] = zuuluu;
+            entity['subscribeNowPressable'] = michal;
+            return entity;
+        }
+    };
+    golfie = option.bind(verify)(golfie);
+    var _closure1_slot10 = golfie;
+    golfie = function(argFoo) { // Original name: PriceTag
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             michal = entity.price;
@@ -79,19 +102,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = entity.style;
             option = entity.color;
             tangon = undefined;
-            if(!(option === tangon)) { _fun00002_ip = 49; continue _fun00001 }
+            if(!(option === tangon)) { _fun00004_ip = 49; continue _fun00003 }
  43:
             option = 'interactive-active';
  49:
             golfie = entity.icon;
             romeon = entity.variant;
-            if(!(romeon === tangon)) { _fun00002_ip = 67; continue _fun00001 }
+            if(!(romeon === tangon)) { _fun00004_ip = 67; continue _fun00003 }
  63:
             romeon = 'text-md/medium';
  67:
             report = entity.accessibilityLabel;
+            zuuluu = entity.pdpDesignRefresh;
+            if(!(zuuluu === tangon)) { _fun00004_ip = 84; continue _fun00003 }
+ 82:
+            zuuluu = false;
+ 84:
             michal = _closure1_slot10;
-            offset = michal.bind(tangon)();
+            offset = michal.bind(tangon)(zuuluu);
             michal = _closure1_slot0;
             foxtra = _closure1_slot2;
             zuuluu = 5;
@@ -118,215 +146,349 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = null;
             offset = option == verify;
             golfie = undefined;
-            if(offset) { _fun00002_ip = 196; continue _fun00001 }
- 191:
+            if(offset) { _fun00004_ip = 209; continue _fun00003 }
+ 204:
             golfie = verify.bind(tangon)(oscard);
- 196:
-            if(!(option != golfie)) { _fun00002_ip = 203; continue _fun00001 }
- 200:
+ 209:
+            if(!(option != golfie)) { _fun00004_ip = 216; continue _fun00003 }
+ 213:
             oscard = golfie;
- 203:
+ 216:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    var _closure1_slot11 = tangon;
-    tangon = 14;
+    var _closure1_slot11 = golfie;
+    golfie = function(argFoo) { // Original name: BundleDiscount
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+            entity = argFoo;
+            zuuluu = entity.pdpDesignRefresh;
+            if(zuuluu) { _fun00006_ip = 21; continue _fun00005 }
+ 15:
+            tangon = _closure1_slot14;
+            _fun00006_ip = 25; continue _fun00005;
+ 21:
+            tangon = _closure1_slot16;
+ 25:
+            zuuluu = _closure1_slot8;
+            michal = {};
+            oscard = michal;
+            report = entity;
+            entity = copyDataProperties(oscard, report);
+            entity = undefined;
+            entity = zuuluu.bind(entity)(tangon, michal);
+            return entity;
+        }
+    };
+    var _closure1_slot12 = golfie;
+    golfie = oscard[tangon];
+    verify = report.bind(entity)(golfie);
+    option = verify.createStyles;
+    golfie = function() {
+        entity = {};
+        michal = {};
+        zuuluu = 6;
+        michal['paddingLeft'] = zuuluu;
+        entity['discount'] = michal;
+        return entity;
+    };
+    golfie = option.bind(verify)(golfie);
+    var _closure1_slot13 = golfie;
+    golfie = function(argFoo) { // Original name: BundleDiscountV1
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+ 0:
+            entity = argFoo;
+            golfie = entity.product;
+            tangon = entity.eligibleForPremiumDiscount;
+            entity = _closure1_slot13;
+            report = undefined;
+            oscard = entity.bind(report)();
+            zuuluu = _closure1_slot0;
+            option = _closure1_slot2;
+            entity = 15;
+            entity = option[entity];
+            zuuluu = zuuluu.bind(report)(entity);
+            entity = zuuluu.getProductDiscount;
+            entity = entity.bind(zuuluu)(golfie, tangon);
+            golfie = entity.discountPercentage;
+            entity = 0;
+            zuuluu = golfie <= entity;
+            entity = null;
+            if(zuuluu) { _fun00008_ip = 164; continue _fun00007 }
+ 77:
+            tangon = _closure1_slot7;
+            zuuluu = _closure1_slot0;
+            option = _closure1_slot2;
+            michal = 6;
+            michal = option[michal];
+            michal = zuuluu.bind(report)(michal);
+            zuuluu = michal.Text;
+            michal = {'variant': 'text-md/normal', 'color': 'text-positive'};
+            oscard = oscard.discount;
+            michal['style'] = oscard;
+            oscard = ['(-$'];
+            oscard[1] = golfie;
+            golfie = '%)';
+            oscard[2] = golfie;
+            michal['children'] = oscard;
+            entity = tangon.bind(report)(zuuluu, michal);
+ 164:
+            return entity;
+        }
+    };
+    var _closure1_slot14 = golfie;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.createStyles;
+    tangon = function() {
+        entity = {};
+        michal = {'backgroundColor': 'rgba(46, 204, 113, 0.25)', 'flexDirection': 'row', 'flexShrink': 1, 'borderRadius': null, 'paddingHorizontal': 6, 'marginLeft': 4};
+        tangon = 1;
+        oscard = _closure1_slot1;
+        report = _closure1_slot2;
+        zuuluu = 16;
+        report = report[zuuluu];
+        zuuluu = undefined;
+        zuuluu = oscard.bind(zuuluu)(report);
+        zuuluu = zuuluu.radii;
+        zuuluu = zuuluu.xs;
+        zuuluu = zuuluu - tangon;
+        michal['borderRadius'] = zuuluu;
+        entity['discount'] = michal;
+        return entity;
+    };
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot15 = tangon;
+    tangon = function(argFoo) { // Original name: BundleDiscountV2
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+ 0:
+            entity = argFoo;
+            tangon = entity.product;
+            zuuluu = entity.eligibleForPremiumDiscount;
+            entity = _closure1_slot15;
+            report = undefined;
+            golfie = entity.bind(report)();
+            michal = _closure1_slot0;
+            option = _closure1_slot2;
+            entity = 15;
+            entity = option[entity];
+            michal = michal.bind(report)(entity);
+            entity = michal.getProductDiscount;
+            entity = entity.bind(michal)(tangon, zuuluu);
+            offset = entity.discountPercentage;
+            entity = 0;
+            michal = offset <= entity;
+            entity = null;
+            if(michal) { _fun00010_ip = 182; continue _fun00009 }
+ 77:
+            tangon = _closure1_slot8;
+            zuuluu = _closure1_slot4;
+            michal = {};
+            golfie = golfie.discount;
+            michal['style'] = golfie;
+            option = _closure1_slot7;
+            golfie = _closure1_slot0;
+            verify = _closure1_slot2;
+            oscard = 6;
+            oscard = verify[oscard];
+            oscard = golfie.bind(report)(oscard);
+            golfie = oscard.Text;
+            oscard = {'variant': 'text-md/normal', 'color': 'text-positive'};
+            verify = ['-'];
+            verify[1] = offset;
+            offset = '%';
+            verify[2] = offset;
+            oscard['children'] = verify;
+            oscard = option.bind(report)(golfie, oscard);
+            michal['children'] = oscard;
+            entity = tangon.bind(report)(zuuluu, michal);
+ 182:
+            return entity;
+        }
+    };
+    var _closure1_slot16 = tangon;
+    tangon = 17;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
     tangon = 'modules/collectibles/native/InlinePriceTag.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: InlinePriceTag
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             entity = argFoo;
-            backup = entity.product;
-            entity = _closure1_slot10;
-            report = undefined;
-            echoed = entity.bind(report)();
-            var _closure2_slot0 = echoed;
+            echoed = entity.product;
             tangon = _closure1_slot0;
             entity = _closure1_slot2;
             zuuluu = 7;
             zuuluu = entity[zuuluu];
+            report = undefined;
+            golfie = tangon.bind(report)(zuuluu);
+            oscard = golfie.useMobileShopPDPDesignRefreshEnabled;
+            zuuluu = 'BundleDiscount';
+            update = oscard.bind(golfie)(zuuluu);
+            zuuluu = _closure1_slot10;
+            sizing = zuuluu.bind(report)(update);
+            var _closure2_slot0 = sizing;
+            zuuluu = 8;
+            zuuluu = entity[zuuluu];
             oscard = tangon.bind(report)(zuuluu);
             zuuluu = oscard.useCurrentUser;
-            offset = zuuluu.bind(oscard)();
+            golfie = zuuluu.bind(oscard)();
             oscard = _closure1_slot1;
-            zuuluu = 8;
+            zuuluu = 9;
             zuuluu = entity[zuuluu];
             oscard = oscard.bind(report)(zuuluu);
             zuuluu = _closure1_slot5;
             zuuluu = zuuluu.SHOP_PRODUCT_DETAILS;
             zuuluu = oscard.bind(report)(zuuluu);
             var _closure2_slot1 = zuuluu;
-            zuuluu = backup.type;
-            output = 9;
+            zuuluu = echoed.type;
+            output = 10;
             entity = entity[output];
             entity = tangon.bind(report)(entity);
             entity = entity.CollectiblesItemType;
             entity = entity.BUNDLE;
-            if(!(zuuluu === entity)) { _fun00004_ip = 159; continue _fun00003 }
- 126:
+            if(!(zuuluu === entity)) { _fun00012_ip = 189; continue _fun00011 }
+ 156:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
-            entity = 10;
+            entity = 11;
             entity = tangon[entity];
             zuuluu = zuuluu.bind(report)(entity);
             entity = zuuluu.getBundleTotalFormattedPrice;
-            oscard = entity.bind(zuuluu)(backup);
-            _fun00004_ip = 201; continue _fun00003;
- 159:
+            oscard = entity.bind(zuuluu)(echoed);
+            _fun00012_ip = 231; continue _fun00011;
+ 189:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
-            entity = 10;
+            entity = 11;
             entity = tangon[entity];
             tangon = zuuluu.bind(report)(entity);
             zuuluu = tangon.extractPriceByPurchaseTypes;
             entity = _closure1_slot6;
             entity = entity.MOBILE;
-            oscard = zuuluu.bind(tangon)(backup, entity);
- 201:
+            oscard = zuuluu.bind(tangon)(echoed, entity);
+ 231:
             entity = null;
-            if(!(entity != oscard)) { _fun00004_ip = 1024; continue _fun00003 }
- 210:
+            if(!(entity != oscard)) { _fun00012_ip = 939; continue _fun00011 }
+ 240:
             tangon = oscard.amount;
             zuuluu = 0;
-            if(!(!(tangon <= zuuluu))) { _fun00004_ip = 1001; continue _fun00003 }
- 225:
-            option = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            golfie = 10;
-            tangon = zuuluu[golfie];
-            yankee = option.bind(report)(tangon);
-            verify = yankee.extractPriceByPurchaseTypes;
-            tangon = _closure1_slot6;
-            tangon = tangon.MOBILE_PREMIUM_TIER_2;
-            papara = verify.bind(yankee)(backup, tangon);
-            verify = _closure1_slot1;
-            tangon = 11;
-            tangon = zuuluu[tangon];
-            verify = verify.bind(report)(tangon);
-            tangon = verify.canUseCollectibles;
-            ctrled = tangon.bind(verify)(offset);
-            tangon = backup.type;
-            zuuluu = zuuluu[output];
-            zuuluu = option.bind(report)(zuuluu);
-            zuuluu = zuuluu.CollectiblesItemType;
-            zuuluu = zuuluu.BUNDLE;
-            result = '';
-            if(!(tangon === zuuluu)) { _fun00004_ip = 386; continue _fun00003 }
- 328:
+            if(!(!(tangon <= zuuluu))) { _fun00012_ip = 916; continue _fun00011 }
+ 255:
             tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[golfie];
+            option = _closure1_slot2;
+            zuuluu = 11;
+            zuuluu = option[zuuluu];
+            verify = tangon.bind(report)(zuuluu);
+            tangon = verify.extractPriceByPurchaseTypes;
+            zuuluu = _closure1_slot6;
+            zuuluu = zuuluu.MOBILE_PREMIUM_TIER_2;
+            papara = tangon.bind(verify)(echoed, zuuluu);
+            tangon = _closure1_slot1;
+            zuuluu = 12;
+            zuuluu = option[zuuluu];
             tangon = tangon.bind(report)(zuuluu);
-            zuuluu = tangon.getBundleDiscount;
-            option = zuuluu.bind(tangon)(backup, ctrled);
-            zuuluu = global;
-            zuuluu = zuuluu.HermesInternal;
-            golfie = zuuluu.concat;
-            tangon = ' (-';
-            zuuluu = ')';
-            result = golfie.bind(tangon)(option, zuuluu);
- 386:
+            zuuluu = tangon.canUseCollectibles;
+            result = zuuluu.bind(tangon)(golfie);
             golfie = _closure1_slot7;
             tangon = _closure1_slot4;
             zuuluu = {};
-            option = echoed.container;
+            option = sizing.container;
             zuuluu['style'] = option;
             offset = _closure1_slot8;
             verify = _closure1_slot11;
             option = {};
             option['price'] = oscard;
             yankee = 'heading-md/semibold';
-            if(!ctrled) { _fun00004_ip = 431; continue _fun00003 }
- 429:
+            if(!result) { _fun00012_ip = 369; continue _fun00011 }
+ 367:
             yankee = undefined;
- 431:
+ 369:
             option['variant'] = yankee;
-            if(ctrled) { _fun00004_ip = 446; continue _fun00003 }
- 438:
-            yankee = echoed.regularPrice;
-            _fun00004_ip = 452; continue _fun00003;
- 446:
-            yankee = echoed.strikedPrice;
- 452:
+            if(result) { _fun00012_ip = 384; continue _fun00011 }
+ 376:
+            yankee = sizing.regularPrice;
+            _fun00012_ip = 390; continue _fun00011;
+ 384:
+            yankee = sizing.strikedPrice;
+ 390:
             option['style'] = yankee;
             vacuum = 'interactive-active';
             option['color'] = vacuum;
-            update = _closure1_slot0;
-            sizing = _closure1_slot2;
-            cntext = 12;
-            yankee = sizing[cntext];
-            yankee = update.bind(report)(yankee);
-            kiloes = yankee.intl;
-            foxtra = kiloes.formatToPlainString;
-            yankee = sizing[cntext];
-            yankee = update.bind(report)(yankee);
+            source = _closure1_slot0;
+            kiloes = _closure1_slot2;
+            cntext = 13;
+            yankee = kiloes[cntext];
+            yankee = source.bind(report)(yankee);
+            backup = yankee.intl;
+            foxtra = backup.formatToPlainString;
+            yankee = kiloes[cntext];
+            yankee = source.bind(report)(yankee);
             yankee = yankee.t;
             romeon = yankee.sPvyr6;
             yankee = {};
             sierra = 5;
-            sizing = sizing[sierra];
-            config = update.bind(report)(sizing);
+            kiloes = kiloes[sierra];
+            config = source.bind(report)(kiloes);
             sequen = config.formatPrice;
-            update = oscard.amount;
-            sizing = oscard.currency;
-            sizing = sequen.bind(config)(update, sizing);
-            yankee['price'] = sizing;
-            yankee = foxtra.bind(kiloes)(romeon, yankee);
+            source = oscard.amount;
+            kiloes = oscard.currency;
+            kiloes = sequen.bind(config)(source, kiloes);
+            yankee['price'] = kiloes;
+            yankee = foxtra.bind(backup)(romeon, yankee);
             option['accessibilityLabel'] = yankee;
             verify = offset.bind(report)(verify, option);
             option = new Array(2);
             option[0] = verify;
             verify = entity != papara;
-            if(!verify) { _fun00004_ip = 985; continue _fun00003 }
- 595:
+            if(!verify) { _fun00012_ip = 900; continue _fun00011 }
+ 533:
             romeon = _closure1_slot7;
             yankee = _closure1_slot9;
             offset = {};
-            sizing = _closure1_slot8;
-            kiloes = _closure1_slot0;
-            update = _closure1_slot2;
-            foxtra = 13;
-            foxtra = update[foxtra];
-            foxtra = kiloes.bind(report)(foxtra);
-            kiloes = foxtra.NitroWheelIcon;
+            kiloes = _closure1_slot8;
+            backup = _closure1_slot0;
+            source = _closure1_slot2;
+            foxtra = 14;
+            foxtra = source[foxtra];
+            foxtra = backup.bind(report)(foxtra);
+            backup = foxtra.NitroWheelIcon;
             foxtra = {};
-            update = 'interactive-normal';
-            sequen = update;
-            if(!ctrled) { _fun00004_ip = 652; continue _fun00003 }
- 649:
+            source = 'interactive-normal';
+            sequen = source;
+            if(!result) { _fun00012_ip = 590; continue _fun00011 }
+ 587:
             sequen = vacuum;
- 652:
+ 590:
             foxtra['color'] = sequen;
-            echoed = echoed.nitroIcon;
-            foxtra['style'] = echoed;
-            kiloes = sizing.bind(report)(kiloes, foxtra);
+            sizing = sizing.nitroIcon;
+            foxtra['style'] = sizing;
+            backup = kiloes.bind(report)(backup, foxtra);
             foxtra = new Array(3);
-            foxtra[0] = kiloes;
-            echoed = _closure1_slot8;
-            sizing = _closure1_slot11;
-            kiloes = {};
-            kiloes['price'] = papara;
-            if(!ctrled) { _fun00004_ip = 701; continue _fun00003 }
- 698:
-            update = vacuum;
- 701:
-            kiloes['color'] = update;
-            update = 'text-md/normal';
-            if(!ctrled) { _fun00004_ip = 716; continue _fun00003 }
- 714:
-            update = undefined;
- 716:
-            kiloes['variant'] = update;
-            update = undefined;
-            if(!ctrled) { _fun00004_ip = 846; continue _fun00003 }
- 725:
+            foxtra[0] = backup;
+            sizing = _closure1_slot8;
+            kiloes = _closure1_slot11;
+            backup = {};
+            backup['price'] = papara;
+            if(!result) { _fun00012_ip = 639; continue _fun00011 }
+ 636:
+            source = vacuum;
+ 639:
+            backup['color'] = source;
+            source = 'text-md/normal';
+            if(!result) { _fun00012_ip = 654; continue _fun00011 }
+ 652:
+            source = undefined;
+ 654:
+            backup['variant'] = source;
+            source = undefined;
+            if(!result) { _fun00012_ip = 784; continue _fun00011 }
+ 663:
             sequen = _closure1_slot0;
             vacuum = _closure1_slot2;
             config = vacuum[cntext];
@@ -340,8 +502,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = {};
             target = entity != papara;
             cntext = null;
-            if(!target) { _fun00004_ip = 835; continue _fun00003 }
- 785:
+            if(!target) { _fun00012_ip = 773; continue _fun00011 }
+ 723:
             status = _closure1_slot0;
             target = _closure1_slot2;
             target = target[sierra];
@@ -349,24 +511,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = sierra.formatPrice;
             limora = entity == papara;
             target = undefined;
-            if(limora) { _fun00004_ip = 823; continue _fun00003 }
- 817:
+            if(limora) { _fun00012_ip = 761; continue _fun00011 }
+ 755:
             target = papara.amount;
- 823:
+ 761:
             papara = papara.currency;
             cntext = status.bind(sierra)(target, papara);
- 835:
+ 773:
             vacuum['price'] = cntext;
-            update = config.bind(record)(sequen, vacuum);
- 846:
-            kiloes['accessibilityLabel'] = update;
-            update = undefined;
-            if(ctrled) { _fun00004_ip = 862; continue _fun00003 }
- 855:
-            update = function(argFoo) {
+            source = config.bind(record)(sequen, vacuum);
+ 784:
+            backup['accessibilityLabel'] = source;
+            source = undefined;
+            if(result) { _fun00012_ip = 800; continue _fun00011 }
+ 793:
+            source = function(argFoo) {
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 12;
+                entity = 13;
                 zuuluu = oscard[entity];
                 michal = undefined;
                 zuuluu = report.bind(michal)(zuuluu);
@@ -409,47 +571,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             };
- 862:
-            kiloes['renderPrice'] = update;
-            kiloes = echoed.bind(report)(sizing, kiloes);
-            foxtra[1] = kiloes;
-            kiloes = backup.type;
-            sizing = _closure1_slot0;
+ 800:
+            backup['renderPrice'] = source;
+            backup = sizing.bind(report)(kiloes, backup);
+            foxtra[1] = backup;
+            sizing = echoed.type;
+            kiloes = _closure1_slot0;
             backup = _closure1_slot2;
             backup = backup[output];
-            backup = sizing.bind(report)(backup);
+            backup = kiloes.bind(report)(backup);
             backup = backup.CollectiblesItemType;
-            backup = backup.BUNDLE;
-            backup = kiloes === backup;
-            if(!backup) { _fun00004_ip = 971; continue _fun00003 }
- 918:
+            kiloes = backup.BUNDLE;
+            backup = null;
+            if(!(sizing === kiloes)) { _fun00012_ip = 886; continue _fun00011 }
+ 855:
             output = _closure1_slot8;
-            sizing = _closure1_slot0;
-            echoed = _closure1_slot2;
-            kiloes = 6;
-            kiloes = echoed[kiloes];
-            kiloes = sizing.bind(report)(kiloes);
-            sizing = kiloes.Text;
-            kiloes = {'variant': 'text-md/normal', 'color': 'text-positive'};
-            kiloes['children'] = result;
+            sizing = _closure1_slot12;
+            kiloes = {};
+            kiloes['pdpDesignRefresh'] = update;
+            kiloes['product'] = echoed;
+            kiloes['eligibleForPremiumDiscount'] = result;
             backup = output.bind(report)(sizing, kiloes);
- 971:
+ 886:
             foxtra[2] = backup;
             offset['children'] = foxtra;
             verify = romeon.bind(report)(yankee, offset);
- 985:
+ 900:
             option[1] = verify;
             zuuluu['children'] = option;
             zuuluu = golfie.bind(report)(tangon, zuuluu);
             return zuuluu;
- 1001:
+ 916:
             tangon = _closure1_slot8;
             zuuluu = _closure1_slot11;
             michal = {};
             michal['price'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 1024:
+ 939:
             return entity;
         }
     };

@@ -1,6 +1,7 @@
 // app/modules/main_tabs_v2/native/MovedToActionSheetOnAndroidComponents.tsx
 export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     report = argBar;
+    offset = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     entity = global;
@@ -29,25 +30,30 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     verify = option.ContextMenuContainer;
     option = {};
     verify = yankee.bind(entity)(verify, option);
-    option = new Array(3);
+    option = new Array(4);
     option[0] = verify;
     verify = 3;
     verify = oscard[verify];
     verify = report.bind(entity)(verify);
-    offset = verify.AlertModalContainer;
+    romeon = verify.AlertModalContainer;
     verify = {};
-    verify = yankee.bind(entity)(offset, verify);
+    verify = yankee.bind(entity)(romeon, verify);
     option[1] = verify;
     verify = 4;
-    offset = oscard[verify];
-    verify = argBaz;
-    offset = verify.bind(entity)(offset);
+    verify = oscard[verify];
+    romeon = offset.bind(entity)(verify);
+    verify = {};
+    verify = yankee.bind(entity)(romeon, verify);
+    option[2] = verify;
+    verify = 5;
+    verify = oscard[verify];
+    offset = offset.bind(entity)(verify);
     verify = {};
     verify = yankee.bind(entity)(offset, verify);
-    option[2] = verify;
+    option[3] = verify;
     michal['children'] = option;
     michal = tangon.bind(entity)(golfie, michal);
-    tangon = 5;
+    tangon = 6;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

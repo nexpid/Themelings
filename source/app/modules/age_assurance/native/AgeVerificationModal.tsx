@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(entity)();
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
-            michal = 8;
+            michal = 9;
             michal = tangon[michal];
             zuuluu = zuuluu.bind(entity)(michal);
             michal = zuuluu.pop;
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal['headerStyle'] = oscard;
         verify = _closure1_slot0;
         offset = _closure1_slot2;
-        report = 9;
+        report = 10;
         oscard = offset[report];
         option = undefined;
         oscard = verify.bind(option)(oscard);
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = _closure1_slot5;
             option = _closure1_slot0;
             verify = _closure1_slot2;
-            entity = 10;
+            entity = 11;
             entity = verify[entity];
             zuuluu = undefined;
             entity = option.bind(zuuluu)(entity);
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             report = _closure2_slot3;
             entity['onPress'] = report;
-            report = 9;
+            report = 10;
             oscard = verify[report];
             oscard = option.bind(zuuluu)(oscard);
             golfie = oscard.intl;
@@ -126,15 +126,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: AgeVerifyScreen
         entity = argFoo;
         golfie = entity.webviewUrl;
-        oscard = entity.onComplete;
-        var _closure2_slot0 = oscard;
+        romeon = entity.onComplete;
+        var _closure2_slot0 = romeon;
         zuuluu = entity.onClose;
         var _closure2_slot1 = zuuluu;
+        report = _closure1_slot0;
+        oscard = _closure1_slot2;
+        tangon = 3;
+        option = oscard[tangon];
+        tangon = undefined;
+        verify = report.bind(tangon)(option);
+        option = verify.useIsSuspendedUser;
+        verify = option.bind(verify)();
+        var _closure2_slot2 = verify;
         option = _closure1_slot3;
-        report = option.useCallback;
-        tangon = new Array(2);
-        tangon[0] = oscard;
-        tangon[1] = zuuluu;
+        yankee = option.useCallback;
+        offset = new Array(2);
+        offset[0] = romeon;
+        offset[1] = zuuluu;
         zuuluu = function() {
             zuuluu = _closure2_slot0;
             entity = undefined;
@@ -143,17 +152,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(entity)();
             return entity;
         };
-        verify = report.bind(option)(zuuluu, tangon);
-        var _closure2_slot2 = verify;
-        report = option.useCallback;
-        tangon = new Array(1);
-        tangon[0] = verify;
+        offset = yankee.bind(option)(zuuluu, offset);
+        var _closure2_slot3 = offset;
+        romeon = option.useCallback;
+        yankee = new Array(1);
+        yankee[0] = offset;
         zuuluu = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
-                entity = 3;
+                entity = 4;
                 zuuluu = zuuluu[entity];
                 entity = undefined;
                 tangon = tangon.bind(entity)(zuuluu);
@@ -162,69 +171,91 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(tangon)(michal);
                 if(!michal) { _fun00002_ip = 54; continue _fun00001 }
  43:
-                michal = _closure2_slot2;
+                michal = _closure2_slot3;
                 michal = michal.bind(entity)();
  54:
                 return entity;
             }
         };
-        offset = report.bind(option)(zuuluu, tangon);
-        report = _closure1_slot0;
-        oscard = _closure1_slot2;
-        zuuluu = 4;
+        yankee = romeon.bind(option)(zuuluu, yankee);
+        zuuluu = 5;
         zuuluu = oscard[zuuluu];
-        tangon = undefined;
         report = report.bind(tangon)(zuuluu);
         zuuluu = report.useWatchAgeVerificationStatusChange;
-        zuuluu = zuuluu.bind(report)(offset);
+        zuuluu = zuuluu.bind(report)(yankee);
         report = option.useCallback;
-        zuuluu = new Array(1);
-        zuuluu[0] = verify;
+        zuuluu = new Array(2);
+        zuuluu[0] = offset;
+        zuuluu[1] = verify;
         michal = function(argFoo) {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                tangon = argFoo;
-                zuuluu = tangon;
-                entity = null;
-                michal = null;
-                tangon = tangon.nativeEvent;
-                tangon = tangon.data;
-                report = 'string';
-                tangon = typeof tangon;
-                if(!(report === tangon)) { _fun00004_ip = 66; continue _fun00003 }
- 31: // try_start_0
-                tangon = global;
-                report = tangon.JSON;
-                tangon = report.parse;
-                zuuluu = zuuluu.nativeEvent;
-                zuuluu = zuuluu.data;
-                michal = tangon.bind(report)(zuuluu);
- 60: // try_end0
-                _fun00004_ip = 66; continue _fun00003;
- 62: // catch_target0
-                CatchBlockStart(arg_register=2);
-                michal = null;
- 66:
-                tangon = entity == michal;
+                oscard = argFoo;
                 entity = undefined;
                 zuuluu = undefined;
-                if(tangon) { _fun00004_ip = 82; continue _fun00003 }
- 77:
-                zuuluu = michal.status;
- 82:
-                michal = 'AGE_CHECK_COMPLETE';
-                if(!(michal === zuuluu)) { _fun00004_ip = 103; continue _fun00003 }
- 92:
-                michal = _closure2_slot2;
+                tangon = undefined;
+                report = _closure2_slot2;
+                if(!report) { _fun00004_ip = 170; continue _fun00003 }
+ 22:
+                report = oscard;
+                report = report.nativeEvent;
+                report = report.data;
+                golfie = 'string';
+                report = typeof report;
+                if(!(golfie !== report)) { _fun00004_ip = 96; continue _fun00003 }
+ 46:
+                report = oscard;
+                report = report.nativeEvent;
+                report = report.data;
+                golfie = null;
+                option = golfie == report;
+                golfie = undefined;
+                if(option) { _fun00004_ip = 76; continue _fun00003 }
+ 70:
+                golfie = report.eventType;
+ 76:
+                report = 'Verification.Result';
+                if(!(report === golfie)) { _fun00004_ip = 170; continue _fun00003 }
+ 86:
+                report = _closure2_slot3;
+                report = report.bind(entity)();
+                _fun00004_ip = 170; continue _fun00003;
+ 96:
+                report = null;
+                tangon = null;
+ 100: // try_start_0
+                golfie = global;
+                option = golfie.JSON;
+                golfie = option.parse;
+                oscard = oscard.nativeEvent;
+                oscard = oscard.data;
+                tangon = golfie.bind(option)(oscard);
+ 129: // try_end0
+                _fun00004_ip = 135; continue _fun00003;
+ 131: // catch_target0
+                CatchBlockStart(arg_register=5);
+                tangon = null;
+ 135:
+                zuuluu = tangon;
+                report = report == tangon;
+                tangon = undefined;
+                if(report) { _fun00004_ip = 152; continue _fun00003 }
+ 147:
+                tangon = zuuluu.status;
+ 152:
+                zuuluu = 'AGE_CHECK_COMPLETE';
+                if(!(zuuluu === tangon)) { _fun00004_ip = 170; continue _fun00003 }
+ 162:
+                michal = _closure2_slot3;
                 michal = michal.bind(entity)();
- 103:
+ 170:
                 return entity;
             }
         };
         report = report.bind(option)(michal, zuuluu);
         zuuluu = _closure1_slot5;
         michal = _closure1_slot1;
-        entity = 5;
+        entity = 6;
         entity = oscard[entity];
         michal = michal.bind(tangon)(entity);
         entity = {'allowsInlineMediaPlayback': true, 'javaScriptEnabled': true, 'source': null, 'onMessage': null, 'injectedJavaScript': "\n  window.addEventListener('message', function(event) {\n    window.ReactNativeWebView.postMessage(event.data);\n  }, true);\n"};
@@ -236,13 +267,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot7 = tangon;
-    tangon = 6;
+    tangon = 7;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
     verify = {};
-    offset = 7;
+    offset = 8;
     offset = oscard[offset];
     offset = yankee.bind(entity)(offset);
     offset = offset.colors;
@@ -251,7 +282,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['headerStyle'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot8 = tangon;
-    tangon = 12;
+    tangon = 13;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -290,7 +321,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = _closure1_slot5;
         option = _closure1_slot0;
         verify = _closure1_slot2;
-        entity = 11;
+        entity = 12;
         entity = verify[entity];
         entity = option.bind(tangon)(entity);
         michal = entity.Navigator;
@@ -299,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = _closure1_slot6;
         report = report.VERIFY_AGE;
         entity['initialRouteName'] = report;
-        report = 9;
+        report = 10;
         oscard = verify[report];
         oscard = option.bind(tangon)(oscard);
         golfie = oscard.intl;

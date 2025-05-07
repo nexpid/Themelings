@@ -191,56 +191,65 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = golfie.fileFinishedImporting;
     report = 'modules/auth/native/RegistrationUtils.tsx';
     report = oscard.bind(golfie)(report);
-    report = function(argFoo) { // Original name: hasAllRegisterFieldsCompleted
+    report = function(argFoo, argBar) { // Original name: hasAllRegistrationFieldsCompleted
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            report = argFoo;
-            tangon = arguments[1];
-            entity = undefined;
-            if(!(tangon === entity)) { _fun00004_ip = 14; continue _fun00003 }
- 12:
-            tangon = false;
- 14:
-            entity = report.email;
-            oscard = null;
-            entity = oscard != entity;
-            if(entity) { _fun00004_ip = 39; continue _fun00003 }
- 29:
-            michal = report.phoneToken;
-            entity = oscard != michal;
- 39:
-            if(!entity) { _fun00004_ip = 108; continue _fun00003 }
- 42:
-            michal = report.username;
-            michal = oscard != michal;
-            if(!michal) { _fun00004_ip = 105; continue _fun00003 }
- 54:
-            zuuluu = report.password;
-            zuuluu = oscard != zuuluu;
-            if(!zuuluu) { _fun00004_ip = 102; continue _fun00003 }
- 67:
-            golfie = report.birthday;
-            golfie = oscard == golfie;
-            if(!golfie) { _fun00004_ip = 83; continue _fun00003 }
- 80:
-            golfie = !tangon;
- 83:
-            tangon = !golfie;
-            if(golfie) { _fun00004_ip = 99; continue _fun00003 }
- 89:
-            report = report.consent;
-            tangon = oscard != report;
- 99:
+            golfie = argFoo;
+            entity = argBar;
+            oscard = entity.isConsentRequired;
+            tangon = entity.ignoreBirthday;
+            entity = golfie.email;
+            option = null;
+            entity = option != entity;
+            if(entity) { _fun00004_ip = 43; continue _fun00003 }
+ 33:
+            michal = golfie.phoneToken;
+            entity = option != michal;
+ 43:
+            if(!entity) { _fun00004_ip = 139; continue _fun00003 }
+ 46:
+            michal = golfie.username;
+            michal = option != michal;
+            if(!michal) { _fun00004_ip = 136; continue _fun00003 }
+ 58:
+            zuuluu = golfie.password;
+            zuuluu = option != zuuluu;
+            if(!zuuluu) { _fun00004_ip = 133; continue _fun00003 }
+ 71:
+            report = golfie.birthday;
+            report = option == report;
+            if(!report) { _fun00004_ip = 87; continue _fun00003 }
+ 84:
+            report = !tangon;
+ 87:
+            tangon = !report;
+            if(report) { _fun00004_ip = 130; continue _fun00003 }
+ 93:
+            report = golfie.consent;
+            report = option != report;
+            if(!report) { _fun00004_ip = 127; continue _fun00003 }
+ 106:
+            oscard = !oscard;
+            if(oscard) { _fun00004_ip = 124; continue _fun00003 }
+ 112:
+            option = golfie.consent;
+            golfie = true;
+            oscard = golfie === option;
+ 124:
+            report = oscard;
+ 127:
+            tangon = report;
+ 130:
             zuuluu = tangon;
- 102:
+ 133:
             michal = zuuluu;
- 105:
+ 136:
             entity = michal;
- 108:
+ 139:
             return entity;
         }
     };
-    zuuluu['hasAllRegisterFieldsCompleted'] = report;
+    zuuluu['hasAllRegistrationFieldsCompleted'] = report;
     zuuluu['trackRegTransition'] = tangon;
     tangon = function(argFoo) { // Original name: getTrackRegTransition
         michal = argFoo;

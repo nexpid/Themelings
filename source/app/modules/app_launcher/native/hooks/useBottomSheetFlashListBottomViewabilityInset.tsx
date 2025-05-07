@@ -55,11 +55,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = tangon.bind(option)(zuuluu);
         kiloes = zuuluu.animatedSheetPosition;
         var _closure2_slot0 = kiloes;
+        tangon = _closure1_slot1;
         zuuluu = 3;
         zuuluu = foxtra[zuuluu];
-        tangon = yankee.bind(romeon)(zuuluu);
-        zuuluu = tangon.useKeyboardActionSheetHeight;
-        zuuluu = zuuluu.bind(tangon)();
+        zuuluu = tangon.bind(romeon)(zuuluu);
+        zuuluu = zuuluu.bind(romeon)();
         tangon = zuuluu.maximum;
         report = option.useRef;
         zuuluu = null;

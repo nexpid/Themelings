@@ -26,26 +26,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = tangon.getSetting;
             entity = entity.bind(tangon)();
             tangon = _closure1_slot3;
-            if(zuuluu) { _fun00002_ip = 91; continue _fun00001 }
- 76:
-            zuuluu = tangon.PARTY_PRIVACY_VOICE_CHANNEL;
-            zuuluu = ~zuuluu;
-            zuuluu = report & zuuluu;
-            _fun00002_ip = 101; continue _fun00001;
- 91:
             tangon = tangon.PARTY_PRIVACY_FRIENDS;
+            if(zuuluu) { _fun00002_ip = 91; continue _fun00001 }
+ 82:
+            zuuluu = ~tangon;
+            zuuluu = report & zuuluu;
+            _fun00002_ip = 95; continue _fun00001;
+ 91:
             zuuluu = report | tangon;
- 101:
+ 95:
             michal = _closure1_slot3;
             michal = michal.PARTY_PRIVACY_VOICE_CHANNEL;
-            if(entity) { _fun00002_ip = 123; continue _fun00001 }
- 114:
+            if(entity) { _fun00002_ip = 117; continue _fun00001 }
+ 108:
             entity = ~michal;
             entity = zuuluu & entity;
-            _fun00002_ip = 127; continue _fun00001;
- 123:
+            _fun00002_ip = 121; continue _fun00001;
+ 117:
             entity = zuuluu | michal;
- 127:
+ 121:
             return entity;
         }
     };

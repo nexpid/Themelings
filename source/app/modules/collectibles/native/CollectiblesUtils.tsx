@@ -491,27 +491,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     zuuluu['getBundleTotalFormattedPrice'] = oscard;
-    oscard = function(argFoo, argBar) {
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 6;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.getProductDiscount;
-        michal = argFoo;
-        entity = argBar;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        tangon = entity.discountPercentage;
-        entity = global;
-        entity = entity.HermesInternal;
-        zuuluu = entity.concat;
-        michal = '';
-        entity = '%';
-        entity = zuuluu.bind(michal)(tangon, entity);
-        return entity;
-    };
-    zuuluu['getBundleDiscount'] = oscard;
     zuuluu['isNotBundleProduct'] = report;
     zuuluu['isGPlaySynced'] = tangon;
     michal = function(argFoo) {

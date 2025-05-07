@@ -152,27 +152,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = _closure1_slot11;
             offset = michal.bind(tangon)();
             var _closure2_slot8 = offset;
-            michal = 10;
-            michal = sizing[michal];
-            verify = record.bind(tangon)(michal);
-            michal = verify.useKeyboardActionSheetHeight;
-            michal = michal.bind(verify)();
-            verify = michal.maximum;
-            var _closure2_slot9 = verify;
-            yankee = michal.minimum;
-            var _closure2_slot10 = yankee;
-            verify = output.useRef;
-            michal = global;
-            foxtra = michal.Date;
-            michal = foxtra.now;
-            michal = michal.bind(foxtra)();
-            michal = verify.bind(output)(michal);
-            var _closure2_slot11 = michal;
-            verify = output.useRef;
-            michal = false;
-            michal = verify.bind(output)(michal);
-            var _closure2_slot12 = michal;
             michal = _closure1_slot1;
+            verify = 10;
+            verify = sizing[verify];
+            verify = michal.bind(tangon)(verify);
+            verify = verify.bind(tangon)();
+            yankee = verify.maximum;
+            var _closure2_slot9 = yankee;
+            yankee = verify.minimum;
+            var _closure2_slot10 = yankee;
+            foxtra = output.useRef;
+            verify = global;
+            backup = verify.Date;
+            verify = backup.now;
+            verify = verify.bind(backup)();
+            verify = foxtra.bind(output)(verify);
+            var _closure2_slot11 = verify;
+            foxtra = output.useRef;
+            verify = false;
+            verify = foxtra.bind(output)(verify);
+            var _closure2_slot12 = verify;
             verify = 11;
             verify = sizing[verify];
             foxtra = michal.bind(tangon)(verify);
@@ -580,8 +579,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['transitionState'] = romeon;
             entity['backdropComponent'] = yankee;
             yankee = verify;
-            if(verify) { _fun00002_ip = 811; continue _fun00001 }
- 775:
+            if(verify) { _fun00002_ip = 805; continue _fun00001 }
+ 769:
             foxtra = _closure1_slot0;
             backup = _closure1_slot2;
             romeon = 21;
@@ -590,18 +589,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = romeon.AppLauncherEntrypoint;
             romeon = romeon.VOICE;
             yankee = option === romeon;
- 811:
+ 805:
             entity['disableHeaderRoundingAnimation'] = yankee;
             yankee = verify;
-            if(!verify) { _fun00002_ip = 828; continue _fun00001 }
- 822:
+            if(!verify) { _fun00002_ip = 822; continue _fun00001 }
+ 816:
             yankee = offset.onboardingRoundingView;
- 828:
+ 822:
             entity['roundingViewStyle'] = yankee;
-            if(!verify) { _fun00002_ip = 842; continue _fun00001 }
- 836:
+            if(!verify) { _fun00002_ip = 836; continue _fun00001 }
+ 830:
             verify = offset.onboardingHeader;
- 842:
+ 836:
             entity['headerStyle'] = verify;
             verify = 'apps';
             entity['refKey'] = verify;

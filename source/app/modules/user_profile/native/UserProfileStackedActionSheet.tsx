@@ -266,10 +266,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = foxtra.isAndroid;
             romeon = romeon.bind(foxtra)();
             yankee = 0;
-            if(!romeon) { _fun00004_ip = 196; continue _fun00003 }
- 193:
+            if(!romeon) { _fun00004_ip = 200; continue _fun00003 }
+ 197:
             yankee = 16;
- 196:
+ 200:
             offset = offset + yankee;
             option['marginBottom'] = offset;
             verify[1] = option;

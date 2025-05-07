@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = 6;
                     zuuluu = offset[zuuluu];
                     tangon = tangon.bind(verify)(zuuluu);
-                    zuuluu = tangon.isModeratorReportPostChannelId;
+                    zuuluu = tangon.isModeratorReportOrPostChannelId;
                     zuuluu = zuuluu.bind(tangon)(option);
                     if(zuuluu) { _fun00002_ip = 468; continue _fun00001 }
  370:

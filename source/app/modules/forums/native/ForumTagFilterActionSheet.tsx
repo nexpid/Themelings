@@ -236,8 +236,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee[0] = romeon;
             romeon = ctrled.size;
             romeon = romeon > backup;
-            if(!romeon) { _fun00002_ip = 410; continue _fun00001 }
- 329:
+            if(!romeon) { _fun00002_ip = 414; continue _fun00001 }
+ 333:
             output = _closure1_slot11;
             kiloes = _closure1_slot5;
             backup = {};
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = output.bind(tangon)(update, echoed);
             backup['children'] = echoed;
             romeon = output.bind(tangon)(kiloes, backup);
- 410:
+ 414:
             yankee[1] = romeon;
             option['children'] = yankee;
             verify = golfie.bind(tangon)(verify, option);

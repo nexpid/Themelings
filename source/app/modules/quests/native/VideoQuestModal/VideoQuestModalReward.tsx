@@ -19,21 +19,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = oscard[entity];
     tangon = argCor;
     entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = tangon;
+    golfie = tangon.bind(entity)(golfie);
+    var _closure1_slot3 = golfie;
     tangon = 1;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    golfie = tangon.jsx;
-    var _closure1_slot4 = golfie;
+    option = tangon.jsx;
+    var _closure1_slot4 = option;
     tangon = tangon.jsxs;
     var _closure1_slot5 = tangon;
-    tangon = 10;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/quests/native/VideoQuestModal/VideoQuestModalReward.tsx';
-    tangon = report.bind(oscard)(tangon);
+    tangon = golfie.memo;
     michal = function(argFoo) { // Original name: VideoQuestModalReward
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -186,6 +181,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
+    michal = tangon.bind(golfie)(michal);
+    tangon = 10;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/quests/native/VideoQuestModal/VideoQuestModalReward.tsx';
+    tangon = report.bind(oscard)(tangon);
     zuuluu['default'] = michal;
     return entity;
 })();

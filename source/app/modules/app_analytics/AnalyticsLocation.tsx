@@ -96,6 +96,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['VIRTUAL_CURRENCY_ORB_PROFILE_BADGE'] = entity;
     entity = 'intro to orbs quest';
     michal['INTRO_TO_ORBS_QUEST'] = entity;
+    entity = 'intro to orbs quest banner';
+    michal['INTRO_TO_ORBS_QUEST_BANNER'] = entity;
     entity = 'orbs balance menu';
     michal['ORBS_BALANCE_MENU'] = entity;
     entity = 'premium payment action sheet';

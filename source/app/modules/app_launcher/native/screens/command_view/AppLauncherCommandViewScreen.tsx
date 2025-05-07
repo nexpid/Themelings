@@ -1639,9 +1639,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _closure2_slot50 = variable43;
             sierra = 40;
             sierra = result[sierra];
-            limora = config.bind(tangon)(sierra);
-            sierra = limora.useKeyboardActionSheetHeight;
-            sierra = sierra.bind(limora)();
+            sierra = limora.bind(tangon)(sierra);
+            sierra = sierra.bind(tangon)();
             variable42 = sierra.maximum;
             _closure2_slot51 = variable42;
             variable44 = _closure1_slot6;
@@ -1730,10 +1729,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config[0] = backup;
             variable37 = michal == papara;
             sequen = undefined;
-            if(variable37) { _fun00006_ip = 2124; continue _fun00005 }
- 2119:
+            if(variable37) { _fun00006_ip = 2118; continue _fun00005 }
+ 2113:
             sequen = papara.name;
- 2124:
+ 2118:
             config[1] = sequen;
             sequen = function(argFoo) {
                 _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
@@ -2130,17 +2129,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen[4] = ctrled;
             equals = michal == romeon;
             ctrled = undefined;
-            if(equals) { _fun00006_ip = 2423; continue _fun00005 }
- 2418:
+            if(equals) { _fun00006_ip = 2417; continue _fun00005 }
+ 2412:
             ctrled = romeon.applicationId;
- 2423:
+ 2417:
             sequen[5] = ctrled;
             equals = michal == romeon;
             ctrled = undefined;
-            if(equals) { _fun00006_ip = 2441; continue _fun00005 }
- 2436:
+            if(equals) { _fun00006_ip = 2435; continue _fun00005 }
+ 2430:
             ctrled = romeon.id;
- 2441:
+ 2435:
             sequen[6] = ctrled;
             ctrled = function(argFoo) {
                 _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
@@ -2246,24 +2245,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled[3] = backup;
             status = michal == papara;
             backup = undefined;
-            if(status) { _fun00006_ip = 2501; continue _fun00005 }
- 2496:
+            if(status) { _fun00006_ip = 2495; continue _fun00005 }
+ 2490:
             backup = papara.name;
- 2501:
+ 2495:
             ctrled[4] = backup;
             papara = michal == romeon;
             backup = undefined;
-            if(papara) { _fun00006_ip = 2519; continue _fun00005 }
- 2514:
+            if(papara) { _fun00006_ip = 2513; continue _fun00005 }
+ 2508:
             backup = romeon.applicationId;
- 2519:
+ 2513:
             ctrled[5] = backup;
             papara = michal == romeon;
             backup = undefined;
-            if(papara) { _fun00006_ip = 2537; continue _fun00005 }
- 2532:
+            if(papara) { _fun00006_ip = 2531; continue _fun00005 }
+ 2526:
             backup = romeon.id;
- 2537:
+ 2531:
             ctrled[6] = backup;
             backup = function(argFoo) {
                 _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
@@ -2421,16 +2420,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = golfie.length;
             kiloes = golfie > kiloes;
             ctrled = sequen;
-            if(sequen) { _fun00006_ip = 2637; continue _fun00005 }
- 2634:
+            if(sequen) { _fun00006_ip = 2631; continue _fun00005 }
+ 2628:
             ctrled = kiloes;
- 2637:
+ 2631:
             papara = michal == foxtra;
             golfie = undefined;
-            if(papara) { _fun00006_ip = 2652; continue _fun00005 }
- 2646:
+            if(papara) { _fun00006_ip = 2646; continue _fun00005 }
+ 2640:
             golfie = foxtra.prefilledOptions;
- 2652:
+ 2646:
             golfie = michal != golfie;
             _closure2_slot61 = golfie;
             foxtra = _closure1_slot0;
@@ -2440,32 +2439,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = foxtra.bind(tangon)(golfie);
             golfie = golfie.AppLauncherEntrypoint;
             golfie = golfie.VOICE;
-            if(!(option !== golfie)) { _fun00006_ip = 2724; continue _fun00005 }
- 2696:
+            if(!(option !== golfie)) { _fun00006_ip = 2718; continue _fun00005 }
+ 2690:
             option = _closure1_slot0;
             foxtra = _closure1_slot3;
             golfie = 48;
             golfie = foxtra[golfie];
             golfie = option.bind(tangon)(golfie);
             foxtra = golfie.BottomSheetScrollView;
-            _fun00006_ip = 2728; continue _fun00005;
- 2724:
+            _fun00006_ip = 2722; continue _fun00005;
+ 2718:
             foxtra = _closure1_slot9;
+ 2722:
+            if(zuuluu) { _fun00006_ip = 3877; continue _fun00005 }
  2728:
-            if(zuuluu) { _fun00006_ip = 3883; continue _fun00005 }
- 2734:
-            if(!(michal != romeon)) { _fun00006_ip = 3860; continue _fun00005 }
- 2741:
-            if(entity) { _fun00006_ip = 2775; continue _fun00005 }
- 2744:
+            if(!(michal != romeon)) { _fun00006_ip = 3854; continue _fun00005 }
+ 2735:
+            if(entity) { _fun00006_ip = 2769; continue _fun00005 }
+ 2738:
             zuuluu = _closure1_slot20;
             michal = _closure1_slot32;
             entity = {};
             entity['command'] = romeon;
             entity['onPressBack'] = yankee;
             golfie = zuuluu.bind(tangon)(michal, entity);
-            _fun00006_ip = 3858; continue _fun00005;
- 2775:
+            _fun00006_ip = 3852; continue _fun00005;
+ 2769:
             zuuluu = _closure1_slot21;
             michal = _closure1_slot22;
             entity = {};
@@ -2521,8 +2520,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = new Array(6);
             backup[0] = source;
             source = sequen;
-            if(!source) { _fun00006_ip = 3094; continue _fun00005 }
- 3042:
+            if(!source) { _fun00006_ip = 3088; continue _fun00005 }
+ 3036:
             status = _closure1_slot20;
             papara = _closure1_slot7;
             cntext = {};
@@ -2591,15 +2590,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sierra = equals.bind(quebec)(sierra);
             cntext['children'] = sierra;
             source = status.bind(tangon)(papara, cntext);
- 3094:
+ 3088:
             backup[1] = source;
             source = !sequen;
-            if(sequen) { _fun00006_ip = 3107; continue _fun00005 }
- 3104:
+            if(sequen) { _fun00006_ip = 3101; continue _fun00005 }
+ 3098:
             source = ctrled;
+ 3101:
+            if(!source) { _fun00006_ip = 3250; continue _fun00005 }
  3107:
-            if(!source) { _fun00006_ip = 3256; continue _fun00005 }
- 3113:
             papara = _closure1_slot20;
             cntext = _closure1_slot7;
             sequen = {};
@@ -2630,11 +2629,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = equals.bind(tangon)(sierra, status);
             sequen['children'] = status;
             source = papara.bind(tangon)(cntext, sequen);
- 3256:
+ 3250:
             backup[2] = source;
             source = !ctrled;
-            if(ctrled) { _fun00006_ip = 3412; continue _fun00005 }
- 3269:
+            if(ctrled) { _fun00006_ip = 3406; continue _fun00005 }
+ 3263:
             cntext = _closure1_slot20;
             sequen = _closure1_slot7;
             ctrled = {};
@@ -2665,10 +2664,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = sierra.bind(tangon)(status, papara);
             ctrled['children'] = papara;
             source = cntext.bind(tangon)(sequen, ctrled);
- 3412:
+ 3406:
             backup[3] = source;
-            if(!kiloes) { _fun00006_ip = 3741; continue _fun00005 }
- 3422:
+            if(!kiloes) { _fun00006_ip = 3735; continue _fun00005 }
+ 3416:
             sequen = _closure1_slot21;
             ctrled = _closure1_slot22;
             source = {};
@@ -2826,7 +2825,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config[2] = record;
             source['children'] = config;
             kiloes = sequen.bind(tangon)(ctrled, source);
- 3741:
+ 3735:
             backup[4] = kiloes;
             ctrled = _closure1_slot20;
             source = _closure1_slot1;
@@ -2854,22 +2853,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option[1] = foxtra;
             entity['children'] = option;
             golfie = zuuluu.bind(tangon)(michal, entity);
- 3858:
-            _fun00006_ip = 3881; continue _fun00005;
- 3860:
+ 3852:
+            _fun00006_ip = 3875; continue _fun00005;
+ 3854:
             zuuluu = _closure1_slot20;
             michal = _closure1_slot31;
             entity = {};
             entity['onPressBack'] = yankee;
             golfie = zuuluu.bind(tangon)(michal, entity);
- 3881:
-            _fun00006_ip = 3899; continue _fun00005;
- 3883:
+ 3875:
+            _fun00006_ip = 3893; continue _fun00005;
+ 3877:
             zuuluu = _closure1_slot20;
             michal = _closure1_slot30;
             entity = {};
             golfie = zuuluu.bind(tangon)(michal, entity);
- 3899:
+ 3893:
             zuuluu = _closure1_slot21;
             michal = _closure1_slot7;
             entity = {};

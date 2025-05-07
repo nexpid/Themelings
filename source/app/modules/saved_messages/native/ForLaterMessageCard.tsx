@@ -171,215 +171,115 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00006_ip = 864; continue _fun00005 }
+                        if(michal) { _fun00006_ip = 422; continue _fun00005 }
  10:
-                        michal = _closure2_slot0;
-                        michal = michal.message;
-                        michal = michal.blocked;
-                        if(michal) { _fun00006_ip = 647; continue _fun00005 }
- 37:
-                        michal = _closure2_slot0;
-                        michal = michal.message;
-                        michal = michal.ignored;
-                        if(michal) { _fun00006_ip = 428; continue _fun00005 }
- 58:
-                        zuuluu = _closure1_slot0;
-                        tangon = _closure1_slot2;
-                        michal = 16;
-                        michal = tangon[michal];
-                        offset = undefined;
-                        report = zuuluu.bind(offset)(michal);
-                        tangon = report.savedMessageJumpToMessage;
-                        zuuluu = _closure2_slot0;
-                        michal = _closure2_slot1;
-                        zuuluu = tangon.bind(report)(zuuluu, michal);
-                        SaveGenerator(address=104);
- 102:
-                        return zuuluu;
- 104:
-                        ResumeGenerator(result_out_reg=2, return_bool_out_reg=1);
-                        if(michal) { _fun00006_ip = 425; continue _fun00005 }
- 113:
                         tangon = _closure1_slot1;
+                        zuuluu = _closure1_slot2;
+                        michal = 17;
+                        michal = zuuluu[michal];
+                        zuuluu = undefined;
+                        tangon = tangon.bind(zuuluu)(michal);
+                        michal = _closure2_slot0;
+                        michal = michal.message;
+                        michal = tangon.bind(zuuluu)(michal);
+                        if(!michal) { _fun00006_ip = 416; continue _fun00005 }
+ 58:
+                        tangon = _closure1_slot0;
                         report = _closure1_slot2;
-                        michal = 18;
+                        michal = 16;
                         michal = report[michal];
-                        golfie = tangon.bind(offset)(michal);
-                        michal = golfie.pop;
-                        michal = michal.bind(golfie)();
-                        michal = 19;
-                        michal = report[michal];
-                        golfie = tangon.bind(offset)(michal);
-                        report = golfie.track;
-                        michal = _closure1_slot8;
-                        tangon = michal.FOR_LATER_SAVED_MESSAGE_JUMP;
-                        michal = {};
+                        oscard = tangon.bind(zuuluu)(michal);
+                        report = oscard.savedMessageJumpToMessage;
+                        tangon = _closure2_slot0;
+                        michal = _closure2_slot1;
+                        michal = report.bind(oscard)(tangon, michal);
+                        SaveGenerator(address=102);
+ 100:
+                        return michal;
+ 102:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                        if(tangon) { _fun00006_ip = 419; continue _fun00005 }
+ 111:
+                        report = _closure1_slot1;
+                        oscard = _closure1_slot2;
+                        tangon = 18;
+                        tangon = oscard[tangon];
+                        golfie = report.bind(zuuluu)(tangon);
+                        tangon = golfie.pop;
+                        tangon = tangon.bind(golfie)();
+                        tangon = 19;
+                        tangon = oscard[tangon];
+                        golfie = report.bind(zuuluu)(tangon);
+                        oscard = golfie.track;
+                        tangon = _closure1_slot8;
+                        report = tangon.FOR_LATER_SAVED_MESSAGE_JUMP;
+                        tangon = {};
                         option = _closure2_slot0;
-                        verify = option.saveData;
-                        verify = verify.channelId;
-                        michal['channel_id'] = verify;
-                        verify = option.saveData;
-                        verify = verify.messageId;
-                        michal['message_id'] = verify;
-                        yankee = option.message;
-                        verify = null;
-                        romeon = verify == yankee;
+                        yankee = option.saveData;
+                        yankee = yankee.channelId;
+                        tangon['channel_id'] = yankee;
+                        yankee = option.saveData;
+                        yankee = yankee.messageId;
+                        tangon['message_id'] = yankee;
+                        romeon = option.message;
+                        yankee = null;
+                        foxtra = yankee == romeon;
                         option = undefined;
-                        if(romeon) { _fun00006_ip = 234; continue _fun00005 }
- 223:
-                        yankee = yankee.author;
-                        option = yankee.id;
- 234:
-                        michal['message_author_id'] = option;
+                        if(foxtra) { _fun00006_ip = 232; continue _fun00005 }
+ 221:
+                        romeon = romeon.author;
+                        option = romeon.id;
+ 232:
+                        tangon['message_author_id'] = option;
                         option = _closure2_slot0;
                         option = option.saveData;
                         option = option.dueAt;
-                        if(!(verify == option)) { _fun00006_ip = 293; continue _fun00005 }
- 259:
-                        yankee = _closure1_slot0;
-                        romeon = _closure1_slot2;
-                        option = 20;
-                        option = romeon[option];
-                        option = yankee.bind(offset)(option);
-                        option = option.SavedMessageSortTypes;
-                        option = option.BOOKMARK;
-                        _fun00006_ip = 325; continue _fun00005;
- 293:
+                        if(!(yankee == option)) { _fun00006_ip = 291; continue _fun00005 }
+ 257:
                         romeon = _closure1_slot0;
                         foxtra = _closure1_slot2;
-                        yankee = 20;
-                        yankee = foxtra[yankee];
-                        yankee = romeon.bind(offset)(yankee);
-                        yankee = yankee.SavedMessageSortTypes;
-                        option = yankee.REMINDER;
- 325:
-                        michal['type'] = option;
+                        option = 20;
+                        option = foxtra[option];
+                        option = romeon.bind(zuuluu)(option);
+                        option = option.SavedMessageSortTypes;
+                        option = option.BOOKMARK;
+                        _fun00006_ip = 323; continue _fun00005;
+ 291:
+                        foxtra = _closure1_slot0;
+                        backup = _closure1_slot2;
+                        romeon = 20;
+                        romeon = backup[romeon];
+                        romeon = foxtra.bind(zuuluu)(romeon);
+                        romeon = romeon.SavedMessageSortTypes;
+                        option = romeon.REMINDER;
+ 323:
+                        tangon['type'] = option;
                         option = _closure2_slot0;
                         option = option.saveData;
                         option = option.dueAt;
-                        verify = verify != option;
+                        yankee = yankee != option;
                         option = undefined;
-                        if(!verify) { _fun00006_ip = 405; continue _fun00005 }
- 354:
+                        if(!yankee) { _fun00006_ip = 403; continue _fun00005 }
+ 352:
                         yankee = _closure1_slot1;
                         romeon = _closure1_slot2;
-                        verify = 21;
-                        verify = romeon[verify];
-                        verify = yankee.bind(offset)(verify);
-                        yankee = verify.bind(offset)();
+                        offset = 21;
+                        offset = romeon[offset];
+                        offset = yankee.bind(zuuluu)(offset);
+                        yankee = offset.bind(zuuluu)();
                         offset = yankee.diff;
                         verify = _closure2_slot0;
                         verify = verify.saveData;
                         verify = verify.dueAt;
                         option = offset.bind(yankee)(verify);
- 405:
-                        michal['due_duration'] = option;
-                        michal = report.bind(golfie)(tangon, michal);
-                        michal = undefined;
-                        _fun00006_ip = 642; continue _fun00005;
- 425:
+ 403:
+                        tangon['due_duration'] = option;
+                        tangon = oscard.bind(golfie)(report, tangon);
+ 416:
                         return zuuluu;
- 428:
-                        tangon = _closure1_slot1;
-                        romeon = _closure1_slot2;
-                        zuuluu = 17;
-                        zuuluu = romeon[zuuluu];
-                        yankee = undefined;
-                        report = tangon.bind(yankee)(zuuluu);
-                        tangon = report.show;
-                        zuuluu = {};
-                        offset = _closure1_slot0;
-                        golfie = 12;
-                        option = romeon[golfie];
-                        option = offset.bind(yankee)(option);
-                        foxtra = option.intl;
-                        verify = foxtra.string;
-                        option = romeon[golfie];
-                        option = offset.bind(yankee)(option);
-                        option = option.t;
-                        option = option.XyWoKS;
-                        option = verify.bind(foxtra)(option);
-                        zuuluu['title'] = option;
-                        option = romeon[golfie];
-                        option = offset.bind(yankee)(option);
-                        kiloes = option.intl;
-                        foxtra = kiloes.formatToPlainString;
-                        option = romeon[golfie];
-                        option = offset.bind(yankee)(option);
-                        option = option.t;
-                        verify = option.8t8doK;
-                        option = {};
-                        sizing = _closure2_slot0;
-                        sizing = sizing.message;
-                        sizing = sizing.author;
-                        sizing = sizing.username;
-                        option['name'] = sizing;
-                        option = foxtra.bind(kiloes)(verify, option);
-                        zuuluu['body'] = option;
-                        option = romeon[golfie];
-                        option = offset.bind(yankee)(option);
-                        verify = option.intl;
-                        option = verify.string;
-                        golfie = romeon[golfie];
-                        golfie = offset.bind(yankee)(golfie);
-                        golfie = golfie.t;
-                        golfie = golfie.BddRzc;
-                        golfie = option.bind(verify)(golfie);
-                        zuuluu['confirmText'] = golfie;
-                        michal = tangon.bind(report)(zuuluu);
- 642:
-                        _fun00006_ip = 861; continue _fun00005;
- 647:
-                        tangon = _closure1_slot1;
-                        yankee = _closure1_slot2;
-                        zuuluu = 17;
-                        zuuluu = yankee[zuuluu];
-                        offset = undefined;
-                        report = tangon.bind(offset)(zuuluu);
-                        tangon = report.show;
-                        zuuluu = {};
-                        verify = _closure1_slot0;
-                        oscard = 12;
-                        golfie = yankee[oscard];
-                        golfie = verify.bind(offset)(golfie);
-                        romeon = golfie.intl;
-                        option = romeon.string;
-                        golfie = yankee[oscard];
-                        golfie = verify.bind(offset)(golfie);
-                        golfie = golfie.t;
-                        golfie = golfie.j7eA/v;
-                        golfie = option.bind(romeon)(golfie);
-                        zuuluu['title'] = golfie;
-                        golfie = yankee[oscard];
-                        golfie = verify.bind(offset)(golfie);
-                        foxtra = golfie.intl;
-                        romeon = foxtra.formatToPlainString;
-                        golfie = yankee[oscard];
-                        golfie = verify.bind(offset)(golfie);
-                        golfie = golfie.t;
-                        option = golfie.dTNNgo;
-                        golfie = {};
-                        backup = _closure2_slot0;
-                        backup = backup.message;
-                        backup = backup.author;
-                        backup = backup.username;
-                        golfie['name'] = backup;
-                        golfie = romeon.bind(foxtra)(option, golfie);
-                        zuuluu['body'] = golfie;
-                        golfie = yankee[oscard];
-                        golfie = verify.bind(offset)(golfie);
-                        option = golfie.intl;
-                        golfie = option.string;
-                        oscard = yankee[oscard];
-                        oscard = verify.bind(offset)(oscard);
-                        oscard = oscard.t;
-                        oscard = oscard.BddRzc;
-                        oscard = golfie.bind(option)(oscard);
-                        zuuluu['confirmText'] = oscard;
-                        michal = tangon.bind(report)(zuuluu);
- 861:
+ 419:
                         return michal;
- 864:
+ 422:
                         return entity;
                     }
                 };
