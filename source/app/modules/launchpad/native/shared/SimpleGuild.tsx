@@ -318,20 +318,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(entity) { _fun00002_ip = 636; continue _fun00001 }
  630:
             backup = update != sizing;
-            _fun00002_ip = 646; continue _fun00001;
+            _fun00002_ip = 645; continue _fun00001;
  636:
             entity = sizing.uri;
             backup = update != entity;
- 646:
+ 645:
             michal = _closure1_slot6;
             entity = {};
             entity['guildIconRef'] = whisks;
             equals = update == record;
             whisks = undefined;
-            if(equals) { _fun00002_ip = 671; continue _fun00001 }
- 666:
+            if(equals) { _fun00002_ip = 670; continue _fun00001 }
+ 665:
             whisks = record.id;
- 671:
+ 670:
             entity['guildId'] = whisks;
             entity['style'] = limora;
             entity['backgroundColor'] = sierra;
@@ -341,16 +341,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['onPress'] = status;
             entity['onLongPress'] = cntext;
             cntext = sequen;
-            if(!(update != target)) { _fun00002_ip = 715; continue _fun00001 }
- 712:
+            if(!(update != target)) { _fun00002_ip = 714; continue _fun00001 }
+ 711:
             cntext = target;
- 715:
+ 714:
             entity['unread'] = cntext;
             cntext = echoed;
-            if(!(update != papara)) { _fun00002_ip = 730; continue _fun00001 }
- 727:
+            if(!(update != papara)) { _fun00002_ip = 729; continue _fun00001 }
+ 726:
             cntext = papara;
- 730:
+ 729:
             entity['badge'] = cntext;
             entity['onLayout'] = offset;
             entity['onAccessibilityAction'] = option;
@@ -360,8 +360,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = _closure1_slot6;
             golfie = _closure1_slot1;
             oscard = _closure1_slot2;
-            if(report) { _fun00002_ip = 838; continue _fun00001 }
- 774:
+            if(report) { _fun00002_ip = 837; continue _fun00001 }
+ 773:
             report = 4;
             report = oscard[report];
             offset = golfie.bind(tangon)(report);
@@ -373,14 +373,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['TABS_altDefaultBackground'] = vacuum;
             vacuum = update != source;
             source = null;
-            if(!vacuum) { _fun00002_ip = 823; continue _fun00001 }
- 820:
+            if(!vacuum) { _fun00002_ip = 822; continue _fun00001 }
+ 819:
             source = ctrled;
- 823:
+ 822:
             report['style'] = source;
             report = option.bind(tangon)(offset, report);
-            _fun00002_ip = 991; continue _fun00001;
- 838:
+            _fun00002_ip = 990; continue _fun00001;
+ 837:
             vacuum = 11;
             oscard = oscard[vacuum];
             golfie = golfie.bind(tangon)(oscard);
@@ -389,47 +389,47 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = echoed > offset;
             echoed = 13;
             source = echoed;
-            if(ctrled) { _fun00002_ip = 890; continue _fun00001 }
- 879:
+            if(ctrled) { _fun00002_ip = 889; continue _fun00001 }
+ 878:
             ctrled = 0;
-            if(!sequen) { _fun00002_ip = 887; continue _fun00001 }
- 884:
+            if(!sequen) { _fun00002_ip = 886; continue _fun00001 }
+ 883:
             ctrled = vacuum;
- 887:
+ 886:
             source = ctrled;
- 890:
+ 889:
             oscard['cutoutBottomRightSize'] = source;
             result = result.source;
             update = update != result;
             result = 0;
-            if(!update) { _fun00002_ip = 913; continue _fun00001 }
- 910:
+            if(!update) { _fun00002_ip = 912; continue _fun00001 }
+ 909:
             result = echoed;
- 913:
+ 912:
             oscard['cutoutTopRightSize'] = result;
             oscard['imageSize'] = output;
             oscard['imageSource'] = sizing;
             oscard['imageBorderRadius'] = kiloes;
-            if(backup) { _fun00002_ip = 944; continue _fun00001 }
- 937:
+            if(backup) { _fun00002_ip = 943; continue _fun00001 }
+ 936:
             romeon = romeon.color;
-            _fun00002_ip = 949; continue _fun00001;
- 944:
+            _fun00002_ip = 948; continue _fun00001;
+ 943:
             romeon = foxtra.color;
- 949:
+ 948:
             oscard['imageBackgroundColor'] = romeon;
             offset = 0;
-            if(!yankee) { _fun00002_ip = 962; continue _fun00001 }
- 959:
+            if(!yankee) { _fun00002_ip = 961; continue _fun00001 }
+ 958:
             offset = 3;
- 962:
+ 961:
             oscard['clipOuterAmount'] = offset;
             offset = 1;
             oscard['borderStroke'] = offset;
             verify = verify.color;
             oscard['borderStrokeColor'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 991:
+ 990:
             entity['children'] = report;
             entity = michal.bind(tangon)(zuuluu, entity);
             return entity;

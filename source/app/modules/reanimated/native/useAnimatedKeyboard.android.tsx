@@ -8,18 +8,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     entity = function(argFoo) { // Original name: getKeyboardHeight
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            michal = _closure1_slot0;
-            tangon = _closure1_slot1;
-            entity = 3;
-            entity = tangon[entity];
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot1;
+            entity = 2;
+            entity = oscard[entity];
             report = undefined;
-            michal = michal.bind(report)(entity);
+            michal = tangon.bind(report)(entity);
             entity = michal.getKeyboardType;
             michal = entity.bind(michal)();
-            entity = _closure1_slot4;
+            entity = 3;
+            entity = oscard[entity];
+            entity = tangon.bind(report)(entity);
+            entity = entity.KeyboardTypes;
             entity = entity.SYSTEM;
-            if(!(michal !== entity)) { _fun00002_ip = 112; continue _fun00001 }
- 49:
+            if(!(michal !== entity)) { _fun00002_ip = 126; continue _fun00001 }
+ 63:
             tangon = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 5;
@@ -34,12 +37,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.bind(tangon)();
             entity = entity.bottom;
             entity = michal + entity;
-            _fun00002_ip = 153; continue _fun00001;
- 112:
+            _fun00002_ip = 167; continue _fun00001;
+ 126:
             tangon = argFoo;
             michal = 0;
-            if(!tangon) { _fun00002_ip = 150; continue _fun00001 }
- 120:
+            if(!tangon) { _fun00002_ip = 164; continue _fun00001 }
+ 134:
             tangon = _closure1_slot0;
             oscard = _closure1_slot1;
             zuuluu = 4;
@@ -47,13 +50,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon.bind(report)(zuuluu);
             zuuluu = tangon.getSystemKeyboardHeight;
             michal = zuuluu.bind(tangon)();
- 150:
+ 164:
             entity = michal;
- 153:
+ 167:
             return entity;
         }
     };
-    var _closure1_slot6 = entity;
+    var _closure1_slot5 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -73,14 +76,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = argBaz;
     tangon = tangon.bind(entity)(option);
     var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.KeyboardTypes;
-    var _closure1_slot4 = tangon;
     tangon = {};
     tangon['android_reportSystemKeyboardHeight'] = golfie;
-    var _closure1_slot5 = tangon;
+    var _closure1_slot4 = tangon;
     tangon = 8;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -94,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = undefined;
             if(!(entity === golfie)) { _fun00004_ip = 18; continue _fun00003 }
  11:
-            entity = _closure1_slot5;
+            entity = _closure1_slot4;
  18:
             oscard = entity.android_reportSystemKeyboardHeight;
             if(!(oscard === golfie)) { _fun00004_ip = 30; continue _fun00003 }
@@ -109,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = report[entity];
             report = tangon.bind(golfie)(entity);
             tangon = report.useSharedValue;
-            entity = _closure1_slot6;
+            entity = _closure1_slot5;
             entity = entity.bind(golfie)(oscard);
             entity = tangon.bind(report)(entity);
             _closure2_slot1 = entity;
@@ -124,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = function() {
                     tangon = _closure2_slot1;
                     zuuluu = tangon.set;
-                    report = _closure1_slot6;
+                    report = _closure1_slot5;
                     michal = _closure2_slot0;
                     entity = undefined;
                     michal = report.bind(entity)(michal);

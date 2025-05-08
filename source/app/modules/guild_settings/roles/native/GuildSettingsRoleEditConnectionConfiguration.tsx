@@ -510,10 +510,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = zuuluu.configuration;
  415:
             yankee = michal != entity;
-            if(!(tangon === romeon)) { _fun00008_ip = 657; continue _fun00007 }
+            if(!(tangon === romeon)) { _fun00008_ip = 637; continue _fun00007 }
  426:
             foxtra = undefined;
-            if(!(foxtra !== output)) { _fun00008_ip = 813; continue _fun00007 }
+            if(!(foxtra !== output)) { _fun00008_ip = 793; continue _fun00007 }
  435:
             zuuluu = _closure1_slot12;
             michal = _closure1_slot5;
@@ -533,11 +533,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = kiloes.bind(tangon)(oscard);
             update = oscard.TextInput;
             oscard = {};
-            sequen = 12;
-            sequen = result[sequen];
-            sequen = kiloes.bind(tangon)(sequen);
-            sequen = sequen.KeyboardTypes;
-            sequen = sequen.NUMERIC;
+            sequen = 'numeric';
             oscard['keyboardType'] = sequen;
             sequen = backup.appNumericalInput;
             oscard['style'] = sequen;
@@ -564,8 +560,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             entity['children'] = oscard;
             foxtra = zuuluu.bind(tangon)(michal, entity);
-            _fun00008_ip = 813; continue _fun00007;
- 657:
+            _fun00008_ip = 793; continue _fun00007;
+ 637:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 17;
@@ -573,13 +569,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(tangon)(entity);
             entity = michal.isIOS;
             entity = entity.bind(michal)();
-            if(entity) { _fun00008_ip = 698; continue _fun00007 }
- 690:
+            if(entity) { _fun00008_ip = 678; continue _fun00007 }
+ 670:
             entity = backup.numericalInputContainer;
-            _fun00008_ip = 704; continue _fun00007;
- 698:
+            _fun00008_ip = 684; continue _fun00007;
+ 678:
             entity = backup.numericalInputContainerIOS;
- 704:
+ 684:
             _closure2_slot13 = entity;
             michal = _closure1_slot0;
             golfie = _closure1_slot2;
@@ -601,19 +597,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard[1] = golfie;
                 zuuluu['style'] = oscard;
                 option = _closure1_slot11;
-                yankee = _closure1_slot0;
-                romeon = _closure1_slot2;
+                golfie = _closure1_slot0;
+                oscard = _closure1_slot2;
                 michal = 18;
-                oscard = romeon[michal];
+                oscard = oscard[michal];
                 michal = undefined;
-                oscard = yankee.bind(michal)(oscard);
+                oscard = golfie.bind(michal)(oscard);
                 golfie = oscard.TextInput;
                 oscard = {};
-                offset = 12;
-                offset = romeon[offset];
-                offset = yankee.bind(michal)(offset);
-                offset = offset.KeyboardTypes;
-                offset = offset.NUMERIC;
+                offset = 'numeric';
                 oscard['keyboardType'] = offset;
                 verify = verify.numericalInput;
                 oscard['style'] = verify;
@@ -645,7 +637,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['style'] = golfie;
             entity['children'] = oscard;
             foxtra = zuuluu.bind(tangon)(michal, entity);
- 813:
+ 793:
             zuuluu = _closure1_slot11;
             golfie = _closure1_slot0;
             romeon = _closure1_slot2;

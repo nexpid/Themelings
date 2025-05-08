@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = option.bind(tangon)(report);
             option = report.bind(tangon)();
             verify = _closure1_slot0;
-            report = 5;
+            report = 4;
             report = offset[report];
             verify = verify.bind(tangon)(report);
             report = verify.isAndroid;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option - zuuluu;
             michal = michal.right;
             foxtra = zuuluu - michal;
-            michal = _closure1_slot7;
+            michal = _closure1_slot6;
             kiloes = undefined;
             backup = golfie;
             yankee = oscard;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = zuuluu.useGradientBottom;
             oscard = michal.bind(zuuluu)();
-            zuuluu = _closure1_slot6;
+            zuuluu = _closure1_slot5;
             michal = _closure1_slot3;
             entity = {};
             golfie = report.container;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot8 = entity;
+    var _closure1_slot7 = entity;
     entity = global;
     option = entity.Object;
     tangon = option.defineProperty;
@@ -96,13 +96,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = 2;
     michal = oscard[michal];
     michal = report.bind(entity)(michal);
-    michal = michal.KeyboardTypes;
-    var _closure1_slot5 = michal;
-    michal = 3;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
     option = michal.jsx;
-    var _closure1_slot6 = option;
+    var _closure1_slot5 = option;
     tangon = function() { // Original name: PortalKeyboardPlaceholder
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -123,41 +118,46 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  54:
             tangon = _closure1_slot0;
             golfie = _closure1_slot2;
-            entity = 5;
+            entity = 4;
             entity = golfie[entity];
             tangon = tangon.bind(report)(entity);
             entity = tangon.isAndroid;
             zuuluu = entity.bind(tangon)();
  83:
-            entity = _closure1_slot5;
-            entity = entity.SYSTEM;
-            if(!(oscard === entity)) { _fun00004_ip = 131; continue _fun00003 }
- 97:
             tangon = _closure1_slot0;
             golfie = _closure1_slot2;
-            entity = 5;
+            entity = 6;
+            entity = golfie[entity];
+            entity = tangon.bind(report)(entity);
+            entity = entity.KeyboardTypes;
+            entity = entity.SYSTEM;
+            if(!(oscard === entity)) { _fun00004_ip = 153; continue _fun00003 }
+ 119:
+            tangon = _closure1_slot0;
+            golfie = _closure1_slot2;
+            entity = 4;
             entity = golfie[entity];
             tangon = tangon.bind(report)(entity);
             entity = tangon.isAndroid;
             tangon = entity.bind(tangon)();
             entity = null;
-            if(tangon) { _fun00004_ip = 157; continue _fun00003 }
- 131:
+            if(tangon) { _fun00004_ip = 179; continue _fun00003 }
+ 153:
             entity = null;
-            if(zuuluu) { _fun00004_ip = 157; continue _fun00003 }
- 136:
-            tangon = _closure1_slot6;
-            zuuluu = _closure1_slot8;
+            if(zuuluu) { _fun00004_ip = 179; continue _fun00003 }
+ 158:
+            tangon = _closure1_slot5;
+            zuuluu = _closure1_slot7;
             michal = {};
             michal['keyboardType'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 157:
+ 179:
             return entity;
         }
     };
     michal = {};
     michal = option.bind(entity)(tangon, michal);
-    tangon = 4;
+    tangon = 3;
     tangon = oscard[tangon];
     verify = report.bind(entity)(tangon);
     option = verify.createStyles;
@@ -172,127 +172,140 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {};
             yankee = _closure1_slot0;
             tangon = _closure1_slot2;
-            verify = 5;
-            offset = tangon[verify];
+            offset = 4;
+            verify = tangon[offset];
             tangon = undefined;
-            yankee = yankee.bind(tangon)(offset);
-            offset = yankee.isIOS;
-            yankee = offset.bind(yankee)();
-            offset = null;
+            yankee = yankee.bind(tangon)(verify);
+            verify = yankee.isIOS;
+            yankee = verify.bind(yankee)();
+            verify = null;
             if(!yankee) { _fun00006_ip = 66; continue _fun00005 }
  56:
             yankee = _closure1_slot4;
-            offset = yankee.absoluteFillObject;
+            verify = yankee.absoluteFillObject;
  66:
             kiloes = michal;
-            backup = offset;
-            offset = copyDataProperties(kiloes, backup);
-            offset = _closure1_slot4;
-            yankee = offset.hairlineWidth;
-            offset = 'borderTopWidth';
-            michal[offset] = yankee;
+            backup = verify;
+            verify = copyDataProperties(kiloes, backup);
+            verify = _closure1_slot4;
+            yankee = verify.hairlineWidth;
+            verify = 'borderTopWidth';
+            michal[verify] = yankee;
             yankee = _closure1_slot1;
-            offset = _closure1_slot2;
-            romeon = 6;
-            offset = offset[romeon];
-            offset = yankee.bind(tangon)(offset);
-            offset = offset.colors;
-            yankee = offset.BACKGROUND_MODIFIER_ACCENT;
-            offset = 'borderTopColor';
-            michal[offset] = yankee;
+            verify = _closure1_slot2;
+            foxtra = 5;
+            verify = verify[foxtra];
+            verify = yankee.bind(tangon)(verify);
+            verify = verify.colors;
+            yankee = verify.BACKGROUND_MODIFIER_ACCENT;
+            verify = 'borderTopColor';
+            michal[verify] = yankee;
             yankee = undefined;
             if(!option) { _fun00006_ip = 168; continue _fun00005 }
  140:
-            foxtra = _closure1_slot1;
-            offset = _closure1_slot2;
-            offset = offset[romeon];
-            offset = foxtra.bind(tangon)(offset);
-            offset = offset.colors;
-            yankee = offset.BACKGROUND_MODIFIER_ACCENT;
+            romeon = _closure1_slot1;
+            verify = _closure1_slot2;
+            verify = verify[foxtra];
+            verify = romeon.bind(tangon)(verify);
+            verify = verify.colors;
+            yankee = verify.BACKGROUND_MODIFIER_ACCENT;
  168:
-            offset = 'borderRightColor';
-            michal[offset] = yankee;
+            verify = 'borderRightColor';
+            michal[verify] = yankee;
             yankee = undefined;
             if(!option) { _fun00006_ip = 192; continue _fun00005 }
  182:
-            offset = _closure1_slot4;
-            yankee = offset.hairlineWidth;
+            verify = _closure1_slot4;
+            yankee = verify.hairlineWidth;
  192:
-            offset = 'borderRightWidth';
-            michal[offset] = yankee;
+            verify = 'borderRightWidth';
+            michal[verify] = yankee;
             yankee = undefined;
             if(!option) { _fun00006_ip = 234; continue _fun00005 }
  206:
-            foxtra = _closure1_slot1;
-            offset = _closure1_slot2;
-            offset = offset[romeon];
-            offset = foxtra.bind(tangon)(offset);
-            offset = offset.colors;
-            yankee = offset.BACKGROUND_MODIFIER_ACCENT;
+            romeon = _closure1_slot1;
+            verify = _closure1_slot2;
+            verify = verify[foxtra];
+            verify = romeon.bind(tangon)(verify);
+            verify = verify.colors;
+            yankee = verify.BACKGROUND_MODIFIER_ACCENT;
  234:
-            offset = 'borderLeftColor';
-            michal[offset] = yankee;
-            offset = undefined;
+            verify = 'borderLeftColor';
+            michal[verify] = yankee;
+            verify = undefined;
             if(!option) { _fun00006_ip = 258; continue _fun00005 }
  248:
             option = _closure1_slot4;
-            offset = option.hairlineWidth;
+            verify = option.hairlineWidth;
  258:
             option = 'borderLeftWidth';
-            michal[option] = offset;
-            option = _closure1_slot5;
-            option = option.APP_LAUNCHER;
-            if(!(oscard !== option)) { _fun00006_ip = 311; continue _fun00005 }
- 281:
-            offset = _closure1_slot1;
-            option = _closure1_slot2;
-            option = option[romeon];
-            option = offset.bind(tangon)(option);
-            option = option.colors;
-            offset = option.BACKGROUND_MOBILE_SECONDARY;
-            _fun00006_ip = 339; continue _fun00005;
- 311:
+            michal[option] = verify;
+            yankee = _closure1_slot0;
+            verify = _closure1_slot2;
+            option = 6;
+            verify = verify[option];
+            verify = yankee.bind(tangon)(verify);
+            verify = verify.KeyboardTypes;
+            verify = verify.APP_LAUNCHER;
+            if(!(oscard !== verify)) { _fun00006_ip = 333; continue _fun00005 }
+ 303:
             yankee = _closure1_slot1;
-            option = _closure1_slot2;
-            option = option[romeon];
-            option = yankee.bind(tangon)(option);
-            option = option.colors;
-            offset = option.BACKGROUND_PRIMARY;
- 339:
-            option = 'backgroundColor';
-            michal[option] = offset;
-            offset = _closure1_slot0;
-            option = _closure1_slot2;
-            option = option[verify];
-            offset = offset.bind(tangon)(option);
-            option = offset.isIOS;
-            option = option.bind(offset)();
-            if(option) { _fun00006_ip = 394; continue _fun00005 }
- 378:
-            option = _closure1_slot5;
-            offset = option.SYSTEM;
-            option = undefined;
-            if(!(oscard !== offset)) { _fun00006_ip = 397; continue _fun00005 }
- 394:
-            option = golfie;
- 397:
+            verify = _closure1_slot2;
+            verify = verify[foxtra];
+            verify = yankee.bind(tangon)(verify);
+            verify = verify.colors;
+            yankee = verify.BACKGROUND_MOBILE_SECONDARY;
+            _fun00006_ip = 361; continue _fun00005;
+ 333:
+            romeon = _closure1_slot1;
+            verify = _closure1_slot2;
+            verify = verify[foxtra];
+            verify = romeon.bind(tangon)(verify);
+            verify = verify.colors;
+            yankee = verify.BACKGROUND_PRIMARY;
+ 361:
+            verify = 'backgroundColor';
+            michal[verify] = yankee;
+            yankee = _closure1_slot0;
+            verify = _closure1_slot2;
+            verify = verify[offset];
+            yankee = yankee.bind(tangon)(verify);
+            verify = yankee.isIOS;
+            verify = verify.bind(yankee)();
+            if(verify) { _fun00006_ip = 435; continue _fun00005 }
+ 400:
+            yankee = _closure1_slot0;
+            verify = _closure1_slot2;
+            verify = verify[option];
+            verify = yankee.bind(tangon)(verify);
+            verify = verify.KeyboardTypes;
+            yankee = verify.SYSTEM;
+            verify = undefined;
+            if(!(oscard !== yankee)) { _fun00006_ip = 438; continue _fun00005 }
+ 435:
+            verify = golfie;
+ 438:
             golfie = 'width';
-            michal[golfie] = option;
-            option = _closure1_slot0;
+            michal[golfie] = verify;
+            verify = _closure1_slot0;
             golfie = _closure1_slot2;
-            golfie = golfie[verify];
-            option = option.bind(tangon)(golfie);
-            golfie = option.isIOS;
-            golfie = golfie.bind(option)();
-            if(golfie) { _fun00006_ip = 452; continue _fun00005 }
- 436:
-            report = _closure1_slot5;
+            golfie = golfie[offset];
+            verify = verify.bind(tangon)(golfie);
+            golfie = verify.isIOS;
+            golfie = golfie.bind(verify)();
+            if(golfie) { _fun00006_ip = 512; continue _fun00005 }
+ 477:
+            golfie = _closure1_slot0;
+            report = _closure1_slot2;
+            report = report[option];
+            report = golfie.bind(tangon)(report);
+            report = report.KeyboardTypes;
             report = report.SYSTEM;
             tangon = undefined;
-            if(!(oscard !== report)) { _fun00006_ip = 455; continue _fun00005 }
- 452:
+            if(!(oscard !== report)) { _fun00006_ip = 515; continue _fun00005 }
+ 512:
             tangon = zuuluu;
- 455:
+ 515:
             zuuluu = 'height';
             michal[zuuluu] = tangon;
             entity['container'] = michal;
@@ -300,7 +313,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     tangon = option.bind(verify)(tangon);
-    var _closure1_slot7 = tangon;
+    var _closure1_slot6 = tangon;
     tangon = 14;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);

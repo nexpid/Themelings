@@ -115,8 +115,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = oscard[entity];
     tangon = argCor;
     entity = undefined;
-    golfie = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = golfie;
+    option = tangon.bind(entity)(golfie);
+    var _closure1_slot3 = option;
     tangon = 1;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
@@ -125,57 +125,58 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 2;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    option = tangon.jsx;
-    var _closure1_slot5 = option;
+    golfie = tangon.jsx;
+    var _closure1_slot5 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot6 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
-    verify = report.bind(entity)(tangon);
-    option = verify.createStyles;
+    offset = report.bind(entity)(tangon);
+    verify = offset.createStyles;
+    golfie = {};
     tangon = {};
-    offset = {};
     yankee = 8;
-    offset['marginBottom'] = yankee;
-    tangon['label'] = offset;
-    offset = {'flexGrow': 1, 'marginBottom': 8};
-    tangon['input'] = offset;
-    offset = {};
-    offset['marginBottom'] = yankee;
-    tangon['error'] = offset;
-    offset = {};
-    offset['marginBottom'] = yankee;
-    tangon['hint'] = offset;
-    offset = {};
+    tangon['marginBottom'] = yankee;
+    golfie['label'] = tangon;
+    tangon = {'flexGrow': 1, 'marginBottom': 8};
+    golfie['input'] = tangon;
+    tangon = {};
+    tangon['marginBottom'] = yankee;
+    golfie['error'] = tangon;
+    tangon = {};
+    tangon['marginBottom'] = yankee;
+    golfie['hint'] = tangon;
+    tangon = {};
     yankee = 'hidden';
-    offset['overflow'] = yankee;
-    tangon['selectorOuterContainer'] = offset;
-    offset = {'flex': 1, 'flexDirection': 'row'};
-    tangon['selectorContainer'] = offset;
-    offset = {};
+    tangon['overflow'] = yankee;
+    golfie['selectorOuterContainer'] = tangon;
+    tangon = {'flex': 1, 'flexDirection': 'row'};
+    golfie['selectorContainer'] = tangon;
+    tangon = {};
     yankee = 'center';
-    offset['justifyContent'] = yankee;
-    tangon['selectorPressable'] = offset;
-    offset = {};
-    offset['alignSelf'] = yankee;
-    tangon['selectorText'] = offset;
-    offset = {'borderLeftWidth': 1, 'borderLeftColor': null, 'marginHorizontal': 12, 'marginVertical': 4294967292};
-    yankee = 4;
-    yankee = oscard[yankee];
-    yankee = romeon.bind(entity)(yankee);
-    yankee = yankee.colors;
-    yankee = yankee.BACKGROUND_MODIFIER_SELECTED;
-    offset['borderLeftColor'] = yankee;
-    tangon['separator'] = offset;
-    tangon = option.bind(verify)(tangon);
-    var _closure1_slot7 = tangon;
-    tangon = golfie.forwardRef;
+    tangon['justifyContent'] = yankee;
+    golfie['selectorPressable'] = tangon;
+    tangon = {};
+    tangon['alignSelf'] = yankee;
+    golfie['selectorText'] = tangon;
+    yankee = {'borderLeftWidth': 1, 'borderLeftColor': null, 'marginHorizontal': 12, 'marginVertical': 4294967292};
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = romeon.bind(entity)(tangon);
+    tangon = tangon.colors;
+    tangon = tangon.BACKGROUND_MODIFIER_SELECTED;
+    yankee['borderLeftColor'] = tangon;
+    tangon = 12;
+    golfie['separator'] = yankee;
+    golfie = verify.bind(offset)(golfie);
+    var _closure1_slot7 = golfie;
+    golfie = option.forwardRef;
     michal = function(argFoo, argBar) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tangon = argFoo;
             report = tangon.style;
-            output = tangon.textInputStyle;
+            sizing = tangon.textInputStyle;
             kiloes = tangon.label;
             backup = tangon.error;
             source = tangon.value;
@@ -188,8 +189,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot2 = entity;
             michal = tangon.onPressCountrySelector;
             var _closure2_slot3 = michal;
-            sizing = tangon.forceMode;
-            var _closure2_slot4 = sizing;
+            output = tangon.forceMode;
+            var _closure2_slot4 = output;
             zuuluu = {'style': 0, 'textInputStyle': 0, 'label': 0, 'error': 0, 'value': 0, 'hint': 0, 'onChangeText': 0, 'alpha2': 0, 'countryCode': 0, 'onPressCountrySelector': 0, 'forceMode': 0};
             oscard = null;
             config = zuuluu;
@@ -236,7 +237,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal[result];
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = zuuluu.shouldShowCountryCodeSelector;
-            michal = michal.bind(zuuluu)(sizing, source);
+            michal = michal.bind(zuuluu)(output, source);
             var _closure2_slot5 = michal;
             zuuluu = {};
             zuuluu['handleChangeText'] = echoed;
@@ -329,48 +330,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = yankee.input;
             update = new Array(2);
             update[0] = source;
-            update[1] = output;
-            output = 'style';
-            option[output] = update;
-            output = 'onChangeText';
-            option[output] = echoed;
-            output = _closure1_slot0;
+            update[1] = sizing;
+            sizing = 'style';
+            option[sizing] = update;
+            sizing = 'onChangeText';
+            option[sizing] = echoed;
+            sizing = _closure1_slot0;
             foxtra = foxtra[result];
-            foxtra = output.bind(tangon)(foxtra);
+            foxtra = sizing.bind(tangon)(foxtra);
             foxtra = foxtra.PhoneOrEmailSelectorForceMode;
             foxtra = foxtra.PHONE;
-            output = 'emailAddress';
-            if(!(sizing === foxtra)) { _fun00004_ip = 487; continue _fun00003 }
+            sizing = 'emailAddress';
+            if(!(output === foxtra)) { _fun00004_ip = 487; continue _fun00003 }
  481:
-            output = 'telephoneNumber';
+            sizing = 'telephoneNumber';
  487:
             foxtra = 'textContentType';
-            option[foxtra] = output;
-            output = _closure1_slot0;
+            option[foxtra] = sizing;
+            sizing = _closure1_slot0;
             foxtra = _closure1_slot2;
             foxtra = foxtra[result];
-            foxtra = output.bind(tangon)(foxtra);
+            foxtra = sizing.bind(tangon)(foxtra);
             foxtra = foxtra.PhoneOrEmailSelectorForceMode;
             foxtra = foxtra.PHONE;
-            if(!(sizing !== foxtra)) { _fun00004_ip = 563; continue _fun00003 }
- 529:
-            sizing = _closure1_slot0;
-            output = _closure1_slot2;
-            foxtra = 11;
-            foxtra = output[foxtra];
-            foxtra = sizing.bind(tangon)(foxtra);
-            foxtra = foxtra.KeyboardTypes;
-            sizing = foxtra.EMAIL;
-            _fun00004_ip = 595; continue _fun00003;
- 563:
-            output = _closure1_slot0;
-            result = _closure1_slot2;
-            foxtra = 11;
-            foxtra = result[foxtra];
-            foxtra = output.bind(tangon)(foxtra);
-            foxtra = foxtra.KeyboardTypes;
-            sizing = foxtra.PHONE;
- 595:
+            sizing = 'email-address';
+            if(!(output === foxtra)) { _fun00004_ip = 541; continue _fun00003 }
+ 535:
+            sizing = 'phone-pad';
+ 541:
             foxtra = 'keyboardType';
             option[foxtra] = sizing;
             foxtra = 'accessibilityLabel';
@@ -381,12 +368,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[1] = option;
             verify = oscard != backup;
             option = null;
-            if(!verify) { _fun00004_ip = 686; continue _fun00003 }
- 641:
+            if(!verify) { _fun00004_ip = 632; continue _fun00003 }
+ 587:
             foxtra = _closure1_slot5;
             romeon = _closure1_slot1;
             kiloes = _closure1_slot2;
-            verify = 12;
+            verify = 11;
             verify = kiloes[verify];
             romeon = romeon.bind(tangon)(verify);
             verify = {};
@@ -394,12 +381,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['style'] = kiloes;
             verify['children'] = backup;
             option = foxtra.bind(tangon)(romeon, verify);
- 686:
+ 632:
             report[2] = option;
             option = oscard != offset;
             oscard = null;
-            if(!option) { _fun00004_ip = 764; continue _fun00003 }
- 699:
+            if(!option) { _fun00004_ip = 710; continue _fun00003 }
+ 645:
             verify = _closure1_slot5;
             option = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -412,15 +399,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['style'] = yankee;
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 764:
+ 710:
             report[3] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    michal = tangon.bind(golfie)(michal);
-    tangon = 13;
+    michal = golfie.bind(option)(michal);
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

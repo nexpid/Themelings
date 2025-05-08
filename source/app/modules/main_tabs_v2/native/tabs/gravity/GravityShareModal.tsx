@@ -303,7 +303,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                             StartGenerator();
                                             tangon = argFoo;
                                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                            if(michal) { _fun00008_ip = 465; continue _fun00007 }
+                                            if(michal) { _fun00008_ip = 464; continue _fun00007 }
  13:
                                             oscard = _closure1_slot1;
                                             zuuluu = _closure1_slot2;
@@ -316,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                             option = golfie.bind(option)(tangon, oscard);
                                             oscard = _closure2_slot3;
                                             golfie = null;
-                                            if(!(golfie == oscard)) { _fun00008_ip = 453; continue _fun00007 }
+                                            if(!(golfie == oscard)) { _fun00008_ip = 452; continue _fun00007 }
  70:
                                             oscard = _closure2_slot2;
                                             if(!(golfie != oscard)) { _fun00008_ip = 86; continue _fun00007 }
@@ -338,7 +338,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                             return oscard;
  130:
                                             ResumeGenerator(result_out_reg=5, return_bool_out_reg=8);
-                                            if(!verify) { _fun00008_ip = 462; continue _fun00007 }
+                                            if(!verify) { _fun00008_ip = 461; continue _fun00007 }
  139:
                                             return oscard;
  142:
@@ -384,10 +384,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                             oscard = oscard.bind(verify)();
                                             golfie = golfie != oscard;
                                             verify = '';
-                                            if(!golfie) { _fun00008_ip = 338; continue _fun00007 }
- 335:
+                                            if(!golfie) { _fun00008_ip = 337; continue _fun00007 }
+ 334:
                                             verify = oscard;
- 338:
+ 337:
                                             oscard = _closure1_slot1;
                                             golfie = _closure1_slot2;
                                             yankee = golfie[yankee];
@@ -412,20 +412,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                             };
                                             report['maxSizeCallback'] = option;
                                             report = oscard.bind(golfie)(report);
-                                            SaveGenerator(address=444);
- 442:
+                                            SaveGenerator(address=443);
+ 441:
                                             return report;
- 444:
+ 443:
                                             ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                                            if(!oscard) { _fun00008_ip = 462; continue _fun00007 }
- 450:
+                                            if(!oscard) { _fun00008_ip = 461; continue _fun00007 }
+ 449:
                                             return report;
- 453:
+ 452:
                                             zuuluu = _closure2_slot3;
                                             zuuluu = zuuluu.bind(michal)(tangon);
- 462:
+ 461:
                                             return michal;
- 465:
+ 464:
                                             return entity;
                                         }
                                     };

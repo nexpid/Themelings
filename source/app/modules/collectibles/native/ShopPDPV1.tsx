@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             backup = kiloes[golfie];
             backup = sizing.bind(tangon)(backup);
             echoed = backup.Text;
-            backup = {'variant': 'heading-xl/bold', 'color': 'header-primary'};
+            backup = {'variant': 'heading-xl/bold', 'color': 'header-primary', 'accessibilityRole': 'header'};
             update = romeon.name;
             backup['children'] = update;
             echoed = output.bind(tangon)(echoed, backup);

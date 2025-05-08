@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             backup = result[golfie];
             backup = output.bind(tangon)(backup);
             kiloes = backup.Text;
-            backup = {'variant': 'heading-xl/bold', 'color': 'header-primary'};
+            backup = {'variant': 'heading-xl/bold', 'color': 'header-primary', 'style': null, 'accessibilityRole': 'header'};
             update = update.title;
             backup['style'] = update;
             update = romeon.name;
@@ -321,15 +321,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             kiloes = output.bind(tangon)(kiloes);
             kiloes = kiloes.CollectiblesItemType;
             kiloes = kiloes.BUNDLE;
-            if(!(sizing === kiloes)) { _fun00008_ip = 276; continue _fun00007 }
- 253:
+            if(!(sizing === kiloes)) { _fun00008_ip = 278; continue _fun00007 }
+ 255:
             output = _closure1_slot8;
             sizing = _closure1_slot14;
             kiloes = {};
             kiloes['product'] = romeon;
             kiloes = output.bind(tangon)(sizing, kiloes);
-            _fun00008_ip = 326; continue _fun00007;
- 276:
+            _fun00008_ip = 328; continue _fun00007;
+ 278:
             result = _closure1_slot8;
             output = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -339,19 +339,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             sizing = {'variant': 'text-md/medium', 'color': 'text-normal'};
             sizing['children'] = echoed;
             kiloes = result.bind(tangon)(output, sizing);
- 326:
+ 328:
             backup[1] = kiloes;
             report['children'] = backup;
             backup = zuuluu.bind(tangon)(michal, report);
             report = new Array(3);
             report[0] = backup;
-            if(offset) { _fun00008_ip = 501; continue _fun00007 }
- 354:
-            if(option) { _fun00008_ip = 402; continue _fun00007 }
- 357:
+            if(offset) { _fun00008_ip = 503; continue _fun00007 }
+ 356:
+            if(option) { _fun00008_ip = 404; continue _fun00007 }
+ 359:
             oscard = !oscard;
-            if(!oscard) { _fun00008_ip = 400; continue _fun00007 }
- 363:
+            if(!oscard) { _fun00008_ip = 402; continue _fun00007 }
+ 365:
             backup = _closure1_slot8;
             offset = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -361,9 +361,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = {};
             option['product'] = romeon;
             oscard = backup.bind(tangon)(offset, option);
- 400:
-            _fun00008_ip = 499; continue _fun00007;
  402:
+            _fun00008_ip = 501; continue _fun00007;
+ 404:
             backup = _closure1_slot8;
             result = _closure1_slot0;
             echoed = _closure1_slot2;
@@ -383,9 +383,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             kiloes = sizing.bind(output)(kiloes);
             option['children'] = kiloes;
             oscard = backup.bind(tangon)(offset, option);
- 499:
-            _fun00008_ip = 598; continue _fun00007;
  501:
+            _fun00008_ip = 600; continue _fun00007;
+ 503:
             offset = _closure1_slot8;
             output = _closure1_slot0;
             result = _closure1_slot2;
@@ -405,7 +405,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             backup = kiloes.bind(sizing)(backup);
             golfie['children'] = backup;
             oscard = offset.bind(tangon)(option, golfie);
- 598:
+ 600:
             report[1] = oscard;
             option = _closure1_slot8;
             golfie = _closure1_slot0;

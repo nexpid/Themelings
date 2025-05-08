@@ -18,11 +18,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
-                    output = argFoo;
+                    backup = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 1536; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 1559; continue _fun00001 }
  13:
-                    verify = output;
+                    verify = backup;
                     kiloes = argBar;
                     foxtra = argBaz;
                     report = undefined;
@@ -33,48 +33,53 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = _closure1_slot3;
                     michal = 4;
                     michal = romeon[michal];
-                    backup = golfie.bind(report)(michal);
+                    sizing = golfie.bind(report)(michal);
                     oscard = global;
                     michal = oscard.HermesInternal;
                     yankee = michal.concat;
                     michal = 'Task ';
-                    record = yankee.bind(michal)(output);
-                    yankee = backup.prototype;
-                    yankee = Object.create(yankee, {constructor: {value: backup}});
+                    record = yankee.bind(michal)(backup);
+                    yankee = sizing.prototype;
+                    yankee = Object.create(yankee, {constructor: {value: sizing}});
                     cntext = yankee;
-                    michal = new cntext[backup](record, config);
+                    michal = new cntext[sizing](record, config);
                     zuuluu = michal instanceof Object ? michal : yankee;
                     yankee = oscard.Date;
                     michal = yankee.now;
                     tangon = michal.bind(yankee)();
                     yankee = 5;
                     michal = romeon[yankee];
-                    backup = golfie.bind(report)(michal);
-                    golfie = backup.addBreadcrumb;
+                    output = golfie.bind(report)(michal);
+                    sizing = output.addBreadcrumb;
                     michal = {};
-                    sizing = 'Executing headless task.';
-                    michal['message'] = sizing;
-                    sizing = {};
-                    sizing['name'] = output;
-                    michal['data'] = sizing;
-                    michal = golfie.bind(backup)(michal);
-                    golfie = _closure1_slot0;
+                    result = 'Executing headless task.';
+                    michal['message'] = result;
+                    result = {};
+                    result['name'] = backup;
+                    michal['data'] = result;
+                    michal = sizing.bind(output)(michal);
                     michal = 6;
+                    michal = romeon[michal];
+                    golfie = golfie.bind(report)(michal);
+                    michal = golfie.recordStartHeadlessTask;
+                    michal = michal.bind(golfie)(backup);
+                    golfie = _closure1_slot0;
+                    michal = 7;
                     michal = romeon[michal];
                     golfie = golfie.bind(report)(michal);
                     michal = golfie.closeFastConnectSocket;
                     michal = michal.bind(golfie)();
                     romeon = false;
                     option = false;
- 187: // try_start_0
+ 210: // try_start_0
                     golfie = _closure1_slot1;
                     michal = _closure1_slot3;
-                    backup = 7;
+                    backup = 8;
                     michal = michal[backup];
                     michal = golfie.bind(report)(michal);
                     michal = michal.wasEverActive;
-                    if(michal) { _fun00002_ip = 247; continue _fun00001 }
- 216:
+                    if(michal) { _fun00002_ip = 270; continue _fun00001 }
+ 239:
                     golfie = _closure1_slot1;
                     michal = _closure1_slot3;
                     michal = michal[backup];
@@ -82,28 +87,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = michal.extraProperties;
                     michal = true;
                     golfie['headless_task_ran'] = michal;
- 247:
+ 270:
                     michal = _closure1_slot5;
                     golfie = michal.currentState;
                     michal = 'active';
-                    if(!(michal !== golfie)) { _fun00002_ip = 318; continue _fun00001 }
- 265:
+                    if(!(michal !== golfie)) { _fun00002_ip = 341; continue _fun00001 }
+ 288:
                     backup = zuuluu;
                     golfie = backup.log;
                     michal = 'Pausing socket in headless task because app state is not active';
                     michal = golfie.bind(backup)(michal);
                     golfie = _closure1_slot2;
                     backup = _closure1_slot3;
-                    michal = 8;
+                    michal = 9;
                     michal = backup[michal];
                     backup = golfie.bind(report)(michal);
                     golfie = backup.setIsPaused;
                     michal = true;
                     michal = golfie.bind(backup)(michal);
- 318:
+ 341:
                     golfie = _closure1_slot1;
                     michal = _closure1_slot3;
-                    backup = 9;
+                    backup = 10;
                     michal = michal[backup];
                     output = golfie.bind(report)(michal);
                     sizing = output.track;
@@ -118,45 +123,45 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = sizing.bind(output)(golfie, michal);
                     michal = _closure1_slot6;
                     michal = michal.bind(report)();
-                    SaveGenerator(address=395);
- 393:
+                    SaveGenerator(address=418);
+ 416:
                     return michal;
- 395:
+ 418:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 1129; continue _fun00001 }
- 404:
+                    if(golfie) { _fun00002_ip = 1152; continue _fun00001 }
+ 427:
                     output = zuuluu;
                     sizing = output.log;
                     golfie = 'initHeadlessTask completed';
                     golfie = sizing.bind(output)(golfie);
                     golfie = _closure1_slot7;
                     golfie = golfie.promise;
-                    SaveGenerator(address=438);
- 436:
+                    SaveGenerator(address=461);
+ 459:
                     return golfie;
- 438:
+ 461:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=15);
-                    if(sizing) { _fun00002_ip = 923; continue _fun00001 }
- 447:
+                    if(sizing) { _fun00002_ip = 946; continue _fun00001 }
+ 470:
                     result = zuuluu;
                     output = result.log;
                     sizing = 'Flux Initialized';
                     sizing = output.bind(result)(sizing);
                     kiloes = kiloes.bind(report)();
                     foxtra = kiloes.bind(report)(foxtra);
-                    SaveGenerator(address=480);
- 478:
+                    SaveGenerator(address=503);
+ 501:
                     return foxtra;
- 480:
+ 503:
                     ResumeGenerator(result_out_reg=12, return_bool_out_reg=14);
-                    if(kiloes) { _fun00002_ip = 717; continue _fun00001 }
- 489:
+                    if(kiloes) { _fun00002_ip = 740; continue _fun00001 }
+ 512:
                     option = true;
                     output = zuuluu;
                     sizing = output.log;
                     kiloes = 'Task completed successfully';
                     kiloes = sizing.bind(output)(kiloes);
- 511: // try_end0
+ 534: // try_end0
                     sizing = oscard.Date;
                     kiloes = sizing.now;
                     sizing = kiloes.bind(sizing)();
@@ -185,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     output = 'Unpausing socket';
                     output = result.bind(ctrled)(output);
                     result = _closure1_slot2;
-                    output = 8;
+                    output = 9;
                     output = kiloes[output];
                     result = result.bind(report)(output);
                     output = result.setIsPaused;
@@ -204,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     kiloes['duration_ms'] = echoed;
                     kiloes = output.bind(result)(sizing, kiloes);
                     return report;
- 717:
+ 740:
                     sizing = oscard.Date;
                     kiloes = sizing.now;
                     sizing = kiloes.bind(sizing)();
@@ -233,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     output = 'Unpausing socket';
                     output = result.bind(ctrled)(output);
                     result = _closure1_slot2;
-                    output = 8;
+                    output = 9;
                     output = kiloes[output];
                     result = result.bind(report)(output);
                     output = result.setIsPaused;
@@ -252,7 +257,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     kiloes['duration_ms'] = echoed;
                     kiloes = output.bind(result)(sizing, kiloes);
                     return foxtra;
- 923:
+ 946:
                     kiloes = oscard.Date;
                     foxtra = kiloes.now;
                     kiloes = foxtra.bind(kiloes)();
@@ -281,7 +286,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sizing = 'Unpausing socket';
                     sizing = output.bind(source)(sizing);
                     output = _closure1_slot2;
-                    sizing = 8;
+                    sizing = 9;
                     sizing = foxtra[sizing];
                     output = output.bind(report)(sizing);
                     sizing = output.setIsPaused;
@@ -300,7 +305,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     foxtra['duration_ms'] = result;
                     foxtra = sizing.bind(output)(kiloes, foxtra);
                     return golfie;
- 1129:
+ 1152:
                     foxtra = oscard.Date;
                     golfie = foxtra.now;
                     foxtra = golfie.bind(foxtra)();
@@ -329,7 +334,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     kiloes = 'Unpausing socket';
                     kiloes = echoed.bind(update)(kiloes);
                     echoed = _closure1_slot2;
-                    kiloes = 8;
+                    kiloes = 9;
                     kiloes = golfie[kiloes];
                     echoed = echoed.bind(report)(kiloes);
                     kiloes = echoed.setIsPaused;
@@ -348,7 +353,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie['duration_ms'] = sizing;
                     golfie = backup.bind(kiloes)(foxtra, golfie);
                     return michal;
- 1335: // catch_target0
+ 1358: // catch_target0
                     CatchBlockStart(arg_register=1);
                     golfie = oscard.Date;
                     oscard = golfie.now;
@@ -375,12 +380,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = 'Unpausing socket';
                     zuuluu = yankee.bind(foxtra)(zuuluu);
                     yankee = _closure1_slot2;
-                    zuuluu = 8;
+                    zuuluu = 9;
                     zuuluu = oscard[zuuluu];
                     yankee = yankee.bind(report)(zuuluu);
                     zuuluu = yankee.setIsPaused;
                     zuuluu = zuuluu.bind(yankee)(romeon);
-                    zuuluu = 9;
+                    zuuluu = 10;
                     zuuluu = oscard[zuuluu];
                     oscard = tangon.bind(report)(zuuluu);
                     report = oscard.track;
@@ -395,7 +400,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu['duration_ms'] = golfie;
                     zuuluu = report.bind(oscard)(tangon, zuuluu);
                     throw michal;
- 1536:
+ 1559:
                     return entity;
                 }
             };
@@ -441,7 +446,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.AnalyticEvents;
     var _closure1_slot8 = tangon;
-    tangon = 10;
+    tangon = 11;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

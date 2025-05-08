@@ -31,13 +31,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 3;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.KeyboardTypes;
-    var _closure1_slot4 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
-    var _closure1_slot5 = tangon;
+    var _closure1_slot4 = tangon;
     tangon = 10;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -59,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = copyDataProperties(kiloes, backup, foxtra);
             michal = _closure1_slot0;
             zuuluu = _closure1_slot1;
-            entity = 5;
+            entity = 4;
             entity = zuuluu[entity];
             tangon = undefined;
             option = michal.bind(tangon)(entity);
@@ -74,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             golfie = golfie.bind(option)(report, entity);
-            entity = 6;
+            entity = 5;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             report = entity.ActivitiesControllerIconMobileExperiment;
@@ -91,38 +86,43 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot1;
             if(entity) { _fun00002_ip = 173; continue _fun00001 }
  153:
-            entity = 8;
+            entity = 7;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             option = entity.AppsIcon;
             _fun00002_ip = 191; continue _fun00001;
  173:
-            entity = 7;
+            entity = 6;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             option = entity.GameControllerIcon;
  191:
-            zuuluu = _closure1_slot5;
+            zuuluu = _closure1_slot4;
             michal = _closure1_slot2;
             entity = {};
             report = {};
             yankee = 'hidden';
             report['overflow'] = yankee;
             entity['style'] = report;
-            report = _closure1_slot4;
+            yankee = _closure1_slot0;
+            romeon = _closure1_slot1;
+            report = 8;
+            report = romeon[report];
+            report = yankee.bind(tangon)(report);
+            report = report.KeyboardTypes;
             report = report.APP_LAUNCHER;
-            if(!(golfie !== report)) { _fun00002_ip = 258; continue _fun00001 }
- 230:
-            golfie = _closure1_slot5;
+            if(!(golfie !== report)) { _fun00002_ip = 280; continue _fun00001 }
+ 252:
+            golfie = _closure1_slot4;
             report = {};
             report['style'] = offset;
             kiloes = report;
             backup = verify;
             verify = copyDataProperties(kiloes, backup);
             report = golfie.bind(tangon)(option, report);
-            _fun00002_ip = 339; continue _fun00001;
- 258:
-            option = _closure1_slot5;
+            _fun00002_ip = 361; continue _fun00001;
+ 280:
+            option = _closure1_slot4;
             golfie = _closure1_slot0;
             verify = _closure1_slot1;
             oscard = 9;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify[1] = offset;
             oscard['style'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 339:
+ 361:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

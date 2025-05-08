@@ -47,13 +47,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 6;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.KeyboardTypes;
-    var _closure1_slot9 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
     tangon = tangon.ExpressionPickerViewType;
-    var _closure1_slot10 = tangon;
+    var _closure1_slot9 = tangon;
     tangon = 12;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -63,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = function(argFoo) {
         report = _closure1_slot0;
         tangon = _closure1_slot2;
-        zuuluu = 8;
+        zuuluu = 7;
         tangon = tangon[zuuluu];
         zuuluu = undefined;
         report = report.bind(zuuluu)(tangon);
@@ -108,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = entity.type;
                     golfie = _closure1_slot0;
                     oscard = _closure1_slot2;
-                    entity = 9;
+                    entity = 8;
                     oscard = oscard[entity];
                     entity = undefined;
                     entity = golfie.bind(entity)(oscard);
@@ -161,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = michal.type;
                     oscard = _closure1_slot0;
                     zuuluu = _closure1_slot2;
-                    golfie = 9;
+                    golfie = 8;
                     zuuluu = zuuluu[golfie];
                     report = undefined;
                     zuuluu = oscard.bind(report)(zuuluu);
@@ -191,14 +186,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  127:
                     tangon = _closure1_slot1;
                     oscard = _closure1_slot2;
-                    zuuluu = 11;
+                    zuuluu = 10;
                     zuuluu = oscard[zuuluu];
                     zuuluu = tangon.bind(report)(zuuluu);
                     _fun00004_ip = 169; continue _fun00003;
  149:
                     tangon = _closure1_slot1;
                     oscard = _closure1_slot2;
-                    entity = 10;
+                    entity = 9;
                     entity = oscard[entity];
                     zuuluu = tangon.bind(report)(entity);
  169:
@@ -263,18 +258,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = _closure2_slot0;
                 zuuluu = entity.current;
                 entity = null;
-                if(!(entity != zuuluu)) { _fun00006_ip = 64; continue _fun00005 }
+                if(!(entity != zuuluu)) { _fun00006_ip = 86; continue _fun00005 }
  18:
                 michal = zuuluu.openCustomKeyboard;
                 entity = {};
-                report = _closure1_slot9;
+                golfie = _closure1_slot0;
+                oscard = _closure1_slot2;
+                report = 11;
+                oscard = oscard[report];
+                report = undefined;
+                report = golfie.bind(report)(oscard);
+                report = report.KeyboardTypes;
                 report = report.EXPRESSION;
-                entity['keyboardType'] = report;
-                tangon = _closure1_slot10;
+                entity['type'] = report;
+                tangon = _closure1_slot9;
                 tangon = tangon.STICKER;
-                entity['expressionType'] = tangon;
+                entity['context'] = tangon;
                 entity = michal.bind(zuuluu)(entity);
- 64:
+ 86:
                 entity = undefined;
                 return entity;
             }

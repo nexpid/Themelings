@@ -935,8 +935,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity instanceof Object ? entity : michal;
                 return entity;
             };
-            option = report.bind(oscard)(michal, zuuluu);
-            _closure2_slot7 = option;
+            verify = report.bind(oscard)(michal, zuuluu);
+            _closure2_slot7 = verify;
             zuuluu = _closure1_slot30;
             michal = {};
             michal['searchContext'] = foxtra;
@@ -946,8 +946,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = 1;
             michal['numColumns'] = report;
             michal = zuuluu.bind(tangon)(michal);
-            verify = michal.placeholderCount;
-            _closure2_slot8 = verify;
+            option = michal.placeholderCount;
+            _closure2_slot8 = option;
             oscard = michal.isFirstPageLoading;
             report = michal.isNextPageLoading;
             golfie = _closure1_slot3;
@@ -978,7 +978,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity['type'] = tangon;
                         tangon = {};
                         option = _closure2_slot7;
-                        golfie = option.truncateMessage;
+                        golfie = option.parse;
                         oscard = argFoo;
                         oscard = golfie.bind(option)(oscard);
                         tangon['message'] = oscard;

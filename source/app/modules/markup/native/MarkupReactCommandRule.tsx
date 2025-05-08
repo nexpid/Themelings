@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  481:
             option = _closure1_slot0;
             offset = _closure1_slot2;
-            tangon = 8;
+            tangon = 7;
             tangon = offset[tangon];
             option = option.bind(verify)(tangon);
             tangon = option.getRootNavigationRef;
@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  633:
             tangon = _closure1_slot1;
             option = _closure1_slot2;
-            michal = 9;
+            michal = 8;
             michal = option[michal];
             tangon = tangon.bind(verify)(michal);
             michal = tangon.hideActionSheet;
@@ -188,18 +188,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = function() {
                 zuuluu = _closure2_slot1;
                 michal = {};
-                tangon = _closure1_slot9;
+                golfie = _closure1_slot0;
+                option = _closure1_slot2;
+                entity = 9;
+                tangon = option[entity];
+                entity = undefined;
+                tangon = golfie.bind(entity)(tangon);
+                tangon = tangon.KeyboardTypes;
                 tangon = tangon.APP_LAUNCHER;
-                michal['keyboardType'] = tangon;
+                michal['type'] = tangon;
                 tangon = {};
                 report = _closure1_slot5;
                 report = report.COMMAND_VIEW;
                 tangon['initialRouteName'] = report;
-                golfie = _closure1_slot0;
-                report = _closure1_slot2;
-                entity = 7;
-                report = report[entity];
-                entity = undefined;
+                report = 6;
+                report = option[report];
                 report = golfie.bind(entity)(report);
                 report = report.ApplicationCommandTriggerLocations;
                 report = report.MENTION;
@@ -225,7 +228,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = {};
             option = _closure1_slot0;
             offset = _closure1_slot2;
-            report = 7;
+            report = 6;
             report = offset[report];
             report = option.bind(verify)(report);
             report = report.ApplicationCommandTriggerLocations;
@@ -245,7 +248,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot11 = tangon;
+    var _closure1_slot10 = tangon;
     michal = function(argFoo, argBar) { // Original name: handleLongPressCommandMention
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -360,7 +363,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot12 = michal;
+    var _closure1_slot11 = michal;
     entity = global;
     yankee = entity.Object;
     offset = yankee.defineProperty;
@@ -399,13 +402,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = 5;
     oscard = option[oscard];
     oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.KeyboardTypes;
-    var _closure1_slot9 = oscard;
-    oscard = 6;
-    oscard = option[oscard];
-    oscard = golfie.bind(entity)(oscard);
     oscard = oscard.jsxs;
-    var _closure1_slot10 = oscard;
+    var _closure1_slot9 = oscard;
     oscard = 24;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
@@ -435,7 +433,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = _closure1_slot6;
         michal = michal.bind(tangon)();
         var _closure2_slot2 = michal;
-        zuuluu = _closure1_slot10;
+        zuuluu = _closure1_slot9;
         entity = 20;
         entity = offset[entity];
         entity = oscard.bind(tangon)(entity);
@@ -456,7 +454,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = report.getBestActiveInput;
                 option = zuuluu.bind(report)();
                 var _closure3_slot0 = option;
-                zuuluu = _closure1_slot11;
+                zuuluu = _closure1_slot10;
                 michal = {};
                 golfie = _closure2_slot1;
                 oscard = undefined;
@@ -515,7 +513,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = undefined;
                         zuuluu = tangon.bind(entity)(zuuluu);
                         zuuluu = zuuluu.bind(entity)();
-                        zuuluu = 9;
+                        zuuluu = 8;
                         zuuluu = report[zuuluu];
                         tangon = tangon.bind(entity)(zuuluu);
                         zuuluu = tangon.hideActionSheet;
@@ -547,7 +545,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = zuuluu.commandName;
                         golfie = _closure1_slot0;
                         option = _closure1_slot2;
-                        michal = 7;
+                        michal = 6;
                         michal = option[michal];
                         michal = golfie.bind(entity)(michal);
                         michal = michal.ApplicationCommandTriggerLocations;
@@ -564,7 +562,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         };
         entity['onPress'] = yankee;
         report = function() { // Original name: onLongPress
-            tangon = _closure1_slot12;
+            tangon = _closure1_slot11;
             entity = _closure2_slot0;
             zuuluu = entity.commandName;
             michal = entity.commandId;

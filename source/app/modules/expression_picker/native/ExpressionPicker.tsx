@@ -42,27 +42,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 4;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.KeyboardTypes;
+    tangon = tangon.EmojiIntention;
     var _closure1_slot8 = tangon;
     tangon = 5;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.EmojiIntention;
-    var _closure1_slot9 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
     option = tangon.jsx;
-    var _closure1_slot10 = option;
+    var _closure1_slot9 = option;
     tangon = tangon.jsxs;
-    var _closure1_slot11 = tangon;
-    tangon = 7;
+    var _closure1_slot10 = tangon;
+    tangon = 6;
     tangon = oscard[tangon];
     verify = report.bind(entity)(tangon);
     option = verify.createStyles;
     tangon = {};
     offset = {'flex': 1, 'overflow': 'hidden', 'backgroundColor': null, 'position': 'relative'};
-    kiloes = 8;
+    kiloes = 7;
     kiloes = oscard[kiloes];
     kiloes = sizing.bind(entity)(kiloes);
     kiloes = kiloes.colors;
@@ -82,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset['paddingHorizontal'] = yankee;
     tangon['segmentedControlUnpadded'] = offset;
     tangon = option.bind(verify)(tangon);
-    var _closure1_slot12 = tangon;
+    var _closure1_slot11 = tangon;
     tangon = golfie.memo;
     michal = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -114,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot1 = tangon;
             var _closure2_slot2 = tangon;
             var _closure2_slot3 = tangon;
-            michal = _closure1_slot12;
+            michal = _closure1_slot11;
             yankee = michal.bind(tangon)();
             golfie = _closure1_slot3;
             zuuluu = golfie.useRef;
@@ -123,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _closure2_slot1 = michal;
             michal = _closure1_slot1;
             zuuluu = _closure1_slot2;
-            report = 9;
+            report = 8;
             report = zuuluu[report];
             oscard = michal.bind(tangon)(report);
             report = {};
@@ -151,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = function() {
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
-                entity = 10;
+                entity = 9;
                 michal = michal[entity];
                 entity = undefined;
                 tangon = zuuluu.bind(entity)(michal);
@@ -162,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             report = verify.bind(golfie)(report, oscard);
             oscard = _closure1_slot0;
-            report = 11;
+            report = 10;
             report = zuuluu[report];
             verify = oscard.bind(tangon)(report);
             oscard = verify.useSegmentedControlState;
@@ -171,21 +166,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['pageWidth'] = sequen;
             report['defaultIndex'] = echoed;
             echoed = function(argFoo) { // Original name: onSetActiveIndex
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot2;
-                entity = 12;
-                michal = michal[entity];
+                golfie = _closure1_slot0;
+                option = _closure1_slot2;
+                entity = 11;
+                michal = option[entity];
                 entity = undefined;
-                tangon = zuuluu.bind(entity)(michal);
+                tangon = golfie.bind(entity)(michal);
                 zuuluu = tangon.toggleKeyboard;
                 michal = {};
-                oscard = _closure1_slot8;
+                oscard = 12;
+                oscard = option[oscard];
+                oscard = golfie.bind(entity)(oscard);
+                oscard = oscard.KeyboardTypes;
                 oscard = oscard.EXPRESSION;
-                michal['keyboardType'] = oscard;
+                michal['type'] = oscard;
                 oscard = _closure1_slot6;
                 report = argFoo;
                 report = oscard[report];
-                michal['expressionType'] = report;
+                michal['context'] = report;
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
@@ -245,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = undefined;
                     zuuluu = zuuluu.bind(tangon)(michal);
                     michal = {};
-                    oscard = _closure1_slot9;
+                    oscard = _closure1_slot8;
                     oscard = oscard.CHAT;
                     michal['intention'] = oscard;
                     michal = zuuluu.bind(tangon)(michal);
@@ -307,7 +305,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['marginBottom'] = michal;
             echoed = entity;
  460:
-            zuuluu = _closure1_slot11;
+            zuuluu = _closure1_slot10;
             michal = _closure1_slot4;
             entity = {};
             oscard = yankee.expressionPickerContainer;
@@ -323,7 +321,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  502:
             report[1] = oscard;
             entity['style'] = report;
-            golfie = _closure1_slot10;
+            golfie = _closure1_slot9;
             oscard = _closure1_slot4;
             report = {};
             if(!backup) { _fun00002_ip = 534; continue _fun00001 }
@@ -336,7 +334,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = yankee.segmentedControl;
  540:
             report['style'] = option;
-            option = _closure1_slot10;
+            option = _closure1_slot9;
             config = _closure1_slot0;
             cntext = _closure1_slot2;
             sequen = 17;
@@ -370,7 +368,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = null;
             if(!(romeon === yankee)) { _fun00002_ip = 735; continue _fun00001 }
  679:
-            echoed = _closure1_slot10;
+            echoed = _closure1_slot9;
             romeon = _closure1_slot1;
             sequen = _closure1_slot2;
             yankee = 20;
@@ -386,7 +384,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  735:
             _fun00002_ip = 802; continue _fun00001;
  737:
-            echoed = _closure1_slot10;
+            echoed = _closure1_slot9;
             romeon = _closure1_slot1;
             ctrled = _closure1_slot2;
             yankee = 19;
@@ -404,7 +402,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  802:
             _fun00002_ip = 865; continue _fun00001;
  804:
-            romeon = _closure1_slot10;
+            romeon = _closure1_slot9;
             yankee = _closure1_slot1;
             echoed = _closure1_slot2;
             offset = 18;

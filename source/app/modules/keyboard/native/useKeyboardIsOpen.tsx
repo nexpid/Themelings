@@ -2,50 +2,52 @@
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
-    oscard = argPlu;
+    tangon = argPlu;
+    var _closure1_slot0 = report;
     entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscard;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = tangon;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
-    tangon = {};
+    oscard = {};
     entity = true;
-    tangon['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.KeyboardTypes;
-    var _closure1_slot2 = tangon;
-    tangon = {};
-    var _closure1_slot3 = tangon;
-    tangon = function(argFoo) { // Original name: KEYBOARD_OPEN_GETTER
+    entity = golfie.bind(option)(zuuluu, entity, oscard);
+    entity = {};
+    var _closure1_slot3 = entity;
+    entity = function(argFoo) { // Original name: KEYBOARD_OPEN_GETTER
         entity = argFoo;
         entity = entity.keyboardOpen;
         return entity;
     };
-    var _closure1_slot4 = tangon;
-    tangon = function(argFoo) { // Original name: KEYBOARD_OPEN_OR_CUSTOM_KEYBOARD_OPEN_GETTER
+    var _closure1_slot4 = entity;
+    entity = function(argFoo) { // Original name: KEYBOARD_OPEN_OR_CUSTOM_KEYBOARD_OPEN_GETTER
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             michal = argFoo;
             entity = michal.keyboardOpen;
-            if(entity) { _fun00002_ip = 35; continue _fun00001 }
+            if(entity) { _fun00002_ip = 58; continue _fun00001 }
  12:
             zuuluu = michal.keyboardType;
-            michal = _closure1_slot2;
+            report = _closure1_slot0;
+            tangon = _closure1_slot2;
+            michal = 0;
+            tangon = tangon[michal];
+            michal = undefined;
+            michal = report.bind(michal)(tangon);
+            michal = michal.KeyboardTypes;
             michal = michal.SYSTEM;
             entity = zuuluu !== michal;
- 35:
+ 58:
             return entity;
         }
     };
-    var _closure1_slot5 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
+    var _closure1_slot5 = entity;
+    entity = 2;
+    tangon = tangon[entity];
+    entity = undefined;
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
     tangon = 'modules/keyboard/native/useKeyboardIsOpen.tsx';
@@ -64,8 +66,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  26:
             entity = false;
  28:
-            report = _closure1_slot0;
-            oscard = _closure1_slot1;
+            report = _closure1_slot1;
+            oscard = _closure1_slot2;
             michal = 1;
             michal = oscard[michal];
             michal = report.bind(zuuluu)(michal);
@@ -95,33 +97,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  26:
             michal = false;
  28:
-            tangon = _closure1_slot0;
-            entity = _closure1_slot1;
-            golfie = 1;
-            entity = entity[golfie];
-            tangon = tangon.bind(oscard)(entity);
-            entity = tangon.getState;
-            entity = entity.bind(tangon)();
-            tangon = entity.keyboardOpen;
-            entity = tangon;
-            if(!michal) { _fun00006_ip = 129; continue _fun00005 }
+            report = _closure1_slot1;
+            entity = _closure1_slot2;
+            tangon = 1;
+            entity = entity[tangon];
+            report = report.bind(oscard)(entity);
+            entity = report.getState;
+            entity = entity.bind(report)();
+            report = entity.keyboardOpen;
+            entity = report;
+            if(!michal) { _fun00006_ip = 146; continue _fun00005 }
  73:
-            michal = tangon;
-            if(tangon) { _fun00006_ip = 126; continue _fun00005 }
+            michal = report;
+            if(report) { _fun00006_ip = 143; continue _fun00005 }
  79:
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[golfie];
+            report = _closure1_slot1;
+            golfie = _closure1_slot2;
+            tangon = golfie[tangon];
             report = report.bind(oscard)(tangon);
             tangon = report.getState;
             tangon = tangon.bind(report)();
             tangon = tangon.keyboardType;
-            zuuluu = _closure1_slot2;
+            report = _closure1_slot0;
+            zuuluu = 0;
+            zuuluu = golfie[zuuluu];
+            zuuluu = report.bind(oscard)(zuuluu);
+            zuuluu = zuuluu.KeyboardTypes;
             zuuluu = zuuluu.SYSTEM;
             michal = tangon !== zuuluu;
- 126:
+ 143:
             entity = michal;
- 129:
+ 146:
             return entity;
         }
     };

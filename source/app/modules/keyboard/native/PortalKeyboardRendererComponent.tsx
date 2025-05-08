@@ -28,13 +28,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 2;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.KeyboardTypes;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
-    var _closure1_slot6 = tangon;
+    var _closure1_slot5 = tangon;
     tangon = golfie.memo;
     michal = function(argFoo) { // Original name: PortalKeyboardRendererComponent
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -62,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = _closure2_slot0;
                     golfie = _closure1_slot0;
                     zuuluu = _closure1_slot2;
-                    report = 4;
+                    report = 3;
                     zuuluu = zuuluu[report];
                     tangon = undefined;
                     zuuluu = golfie.bind(tangon)(zuuluu);
@@ -107,26 +102,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             yankee = tangon.bind(report)(entity, michal);
             entity = null;
-            if(!(entity != option)) { _fun00002_ip = 383; continue _fun00001 }
+            if(!(entity != option)) { _fun00002_ip = 443; continue _fun00001 }
  135:
             report = undefined;
-            if(!(report !== yankee)) { _fun00002_ip = 383; continue _fun00001 }
+            if(!(report !== yankee)) { _fun00002_ip = 443; continue _fun00001 }
  144:
-            michal = _closure1_slot5;
+            tangon = _closure1_slot0;
+            michal = _closure1_slot2;
+            romeon = 4;
+            michal = michal[romeon];
+            michal = tangon.bind(report)(michal);
+            michal = michal.KeyboardTypes;
             michal = michal.APP_LAUNCHER;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 297; continue _fun00001 }
- 161:
-            michal = _closure1_slot5;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 357; continue _fun00001 }
+ 183:
+            tangon = _closure1_slot0;
+            michal = _closure1_slot2;
+            michal = michal[romeon];
+            michal = tangon.bind(report)(michal);
+            michal = michal.KeyboardTypes;
             michal = michal.MEDIA;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 244; continue _fun00001 }
- 175:
-            michal = _closure1_slot5;
+            if(!(michal !== zuuluu)) { _fun00002_ip = 304; continue _fun00001 }
+ 216:
+            tangon = _closure1_slot0;
+            michal = _closure1_slot2;
+            michal = michal[romeon];
+            michal = tangon.bind(report)(michal);
+            michal = michal.KeyboardTypes;
             michal = michal.EXPRESSION;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 191; continue _fun00001 }
- 189:
+            if(!(michal !== zuuluu)) { _fun00002_ip = 251; continue _fun00001 }
+ 249:
             return entity;
- 191:
-            tangon = _closure1_slot6;
+ 251:
+            tangon = _closure1_slot5;
             zuuluu = _closure1_slot1;
             romeon = _closure1_slot2;
             michal = 8;
@@ -139,8 +147,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['transitionState'] = golfie;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 244:
-            tangon = _closure1_slot6;
+ 304:
+            tangon = _closure1_slot5;
             zuuluu = _closure1_slot1;
             romeon = _closure1_slot2;
             michal = 7;
@@ -153,8 +161,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['transitionState'] = golfie;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 297:
-            tangon = _closure1_slot6;
+ 357:
+            tangon = _closure1_slot5;
             zuuluu = _closure1_slot1;
             option = _closure1_slot2;
             michal = 5;
@@ -174,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['entrypoint'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 383:
+ 443:
             return entity;
         }
     };

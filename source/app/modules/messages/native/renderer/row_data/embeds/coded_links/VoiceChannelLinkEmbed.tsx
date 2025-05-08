@@ -155,19 +155,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = null;
             zuuluu = offset != foxtra;
             entity = null;
-            if(!zuuluu) { _fun00002_ip = 951; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 950; continue _fun00001 }
  259:
             zuuluu = foxtra.isGuildVocal;
             zuuluu = zuuluu.bind(foxtra)();
             entity = null;
-            if(!zuuluu) { _fun00002_ip = 951; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 950; continue _fun00001 }
  277:
             zuuluu = offset != yankee;
             entity = null;
-            if(!zuuluu) { _fun00002_ip = 951; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 950; continue _fun00001 }
  289:
             entity = null;
-            if(!michal) { _fun00002_ip = 951; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 950; continue _fun00001 }
  297:
             zuuluu = offset == yankee;
             michal = undefined;
@@ -279,10 +279,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = kiloes.bind(sizing)(backup);
             sizing = offset == backup;
             kiloes = undefined;
-            if(sizing) { _fun00002_ip = 686; continue _fun00001 }
+            if(sizing) { _fun00002_ip = 685; continue _fun00001 }
  680:
             kiloes = backup.uri;
- 686:
+ 685:
             backup = 'channelIcon';
             michal[backup] = kiloes;
             backup = foxtra.name;
@@ -293,10 +293,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal[foxtra] = backup;
             foxtra = offset != option;
             offset = undefined;
-            if(!foxtra) { _fun00002_ip = 736; continue _fun00001 }
- 733:
+            if(!foxtra) { _fun00002_ip = 735; continue _fun00001 }
+ 732:
             offset = option;
- 736:
+ 735:
             option = 'thumbnailUrl';
             michal[option] = offset;
             option = 'thumbnailText';
@@ -343,7 +343,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = 'inviteSplash';
             michal[oscard] = report;
             entity = tangon.bind(report)(zuuluu, michal);
- 951:
+ 950:
             return entity;
         }
     };
@@ -370,27 +370,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.getGuild;
             verify = entity.bind(michal)(report);
             entity = null;
-            if(!(entity != option)) { _fun00006_ip = 841; continue _fun00005 }
+            if(!(entity != option)) { _fun00006_ip = 840; continue _fun00005 }
  85:
             michal = option.isGuildVocal;
             michal = michal.bind(option)();
-            if(!michal) { _fun00006_ip = 841; continue _fun00005 }
+            if(!michal) { _fun00006_ip = 840; continue _fun00005 }
  101:
-            if(!(entity != verify)) { _fun00006_ip = 841; continue _fun00005 }
+            if(!(entity != verify)) { _fun00006_ip = 840; continue _fun00005 }
  108:
             oscard = _closure1_slot7;
             report = oscard.can;
             michal = _closure1_slot8;
             michal = michal.VIEW_CHANNEL;
             michal = report.bind(oscard)(michal, option);
-            if(!michal) { _fun00006_ip = 841; continue _fun00005 }
+            if(!michal) { _fun00006_ip = 840; continue _fun00005 }
  140:
             oscard = _closure1_slot7;
             report = oscard.can;
             michal = _closure1_slot8;
             michal = michal.CONNECT;
             michal = report.bind(oscard)(michal, option);
-            if(!michal) { _fun00006_ip = 841; continue _fun00005 }
+            if(!michal) { _fun00006_ip = 840; continue _fun00005 }
  172:
             report = _closure1_slot1;
             oscard = _closure1_slot2;
@@ -506,10 +506,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = romeon.bind(foxtra)(yankee);
             foxtra = entity == yankee;
             romeon = undefined;
-            if(foxtra) { _fun00006_ip = 580; continue _fun00005 }
+            if(foxtra) { _fun00006_ip = 579; continue _fun00005 }
  574:
             romeon = yankee.uri;
- 580:
+ 579:
             yankee = 'channelIcon';
             michal[yankee] = romeon;
             yankee = option.name;
@@ -520,10 +520,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal[option] = yankee;
             yankee = entity != oscard;
             option = undefined;
-            if(!yankee) { _fun00006_ip = 630; continue _fun00005 }
- 627:
+            if(!yankee) { _fun00006_ip = 629; continue _fun00005 }
+ 626:
             option = oscard;
- 630:
+ 629:
             oscard = 'thumbnailUrl';
             michal[oscard] = option;
             oscard = 'thumbnailText';
@@ -570,7 +570,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = 'inviteSplash';
             michal[zuuluu] = tangon;
             return michal;
- 841:
+ 840:
             return entity;
         }
     };

@@ -309,10 +309,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00010_ip = 1076; continue _fun00009 }
+                        if(michal) { _fun00010_ip = 1043; continue _fun00009 }
  10:
                         tangon = undefined;
-                        backup = undefined;
+                        foxtra = undefined;
                         zuuluu = undefined;
                         option = undefined;
                         offset = undefined;
@@ -320,8 +320,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         golfie = /^[A-Za-z0-9_.]*$/;
                         report = golfie.test;
                         report = report.bind(golfie)(michal);
-                        foxtra = false;
-                        if(!(foxtra !== report)) { _fun00010_ip = 245; continue _fun00009 }
+                        backup = false;
+                        if(!(backup !== report)) { _fun00010_ip = 245; continue _fun00009 }
  60:
                         golfie = michal.includes;
                         report = '..';
@@ -383,42 +383,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         report = golfie.bind(verify)(michal);
  303:
                         yankee = null;
-                        if(!(yankee == report)) { _fun00010_ip = 952; continue _fun00009 }
- 312:
-                        verify = _closure1_slot0;
-                        romeon = _closure1_slot2;
-                        golfie = 9;
-                        golfie = romeon[golfie];
-                        verify = verify.bind(tangon)(golfie);
-                        golfie = verify.getPomeloAttempt;
-                        golfie = golfie.bind(verify)();
-                        if(!golfie) { _fun00010_ip = 949; continue _fun00009 }
- 351: // try_start_0
+                        if(!(yankee == report)) { _fun00010_ip = 919; continue _fun00009 }
+ 312: // try_start_0
                         verify = _closure1_slot1;
                         romeon = _closure1_slot2;
-                        golfie = 10;
-                        golfie = romeon[golfie];
-                        romeon = verify.bind(tangon)(golfie);
+                        michal = 9;
+                        michal = romeon[michal];
+                        romeon = verify.bind(tangon)(michal);
                         verify = romeon.post;
-                        golfie = {};
+                        michal = {};
                         kiloes = _closure2_slot2;
                         sizing = _closure1_slot5;
-                        if(kiloes) { _fun00010_ip = 398; continue _fun00009 }
- 390:
+                        if(kiloes) { _fun00010_ip = 362; continue _fun00009 }
+ 354:
                         kiloes = sizing.POMELO_ATTEMPT;
-                        _fun00010_ip = 404; continue _fun00009;
- 398:
+                        _fun00010_ip = 368; continue _fun00009;
+ 362:
                         kiloes = sizing.POMELO_ATTEMPT_UNAUTHED;
- 404:
-                        golfie['url'] = kiloes;
+ 368:
+                        michal['url'] = kiloes;
                         kiloes = {};
                         output = _closure2_slot0;
                         kiloes['username'] = output;
-                        golfie['body'] = kiloes;
+                        michal['body'] = kiloes;
                         kiloes = {};
                         result = _closure1_slot0;
                         echoed = _closure1_slot2;
-                        sizing = 11;
+                        sizing = 10;
                         sizing = echoed[sizing];
                         sizing = result.bind(tangon)(sizing);
                         sizing = sizing.NetworkActionNames;
@@ -427,27 +418,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         sizing = {};
                         sizing['requested_username'] = output;
                         kiloes['properties'] = sizing;
-                        golfie['trackedActionData'] = kiloes;
-                        golfie['rejectWithError'] = foxtra;
-                        golfie = verify.bind(romeon)(golfie);
-                        SaveGenerator(address=493);
- 491:
-                        return golfie;
- 493:
-                        ResumeGenerator(result_out_reg=6, return_bool_out_reg=8);
-                        if(verify) { _fun00010_ip = 662; continue _fun00009 }
- 502:
-                        backup = golfie;
-                        verify = golfie.body;
+                        michal['trackedActionData'] = kiloes;
+                        michal['rejectWithError'] = backup;
+                        michal = verify.bind(romeon)(michal);
+                        SaveGenerator(address=457);
+ 455:
+                        return michal;
+ 457:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=8);
+                        if(verify) { _fun00010_ip = 626; continue _fun00009 }
+ 466:
+                        foxtra = michal;
+                        verify = michal.body;
                         verify = verify.taken;
-                        if(!verify) { _fun00010_ip = 591; continue _fun00009 }
- 519:
+                        if(!verify) { _fun00010_ip = 555; continue _fun00009 }
+ 483:
                         romeon = _closure1_slot1;
-                        foxtra = _closure1_slot2;
+                        backup = _closure1_slot2;
                         verify = 8;
-                        verify = foxtra[verify];
+                        verify = backup[verify];
                         kiloes = romeon.bind(tangon)(verify);
-                        foxtra = kiloes.track;
+                        backup = kiloes.track;
                         verify = _closure1_slot4;
                         romeon = verify.POMELO_ERRORS;
                         verify = {'reason': 'already_taken', 'username_error': true};
@@ -455,32 +446,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         verify['location'] = sizing;
                         sizing = _closure2_slot3;
                         verify['one_click_flow'] = sizing;
-                        verify = foxtra.bind(kiloes)(romeon, verify);
- 591:
-                        romeon = _closure1_slot1;
-                        foxtra = _closure1_slot2;
-                        verify = 4;
-                        verify = foxtra[verify];
-                        foxtra = romeon.bind(tangon)(verify);
-                        romeon = foxtra.dispatch;
-                        verify = {};
-                        kiloes = 'POMELO_ATTEMPT_SUCCESS';
-                        verify['type'] = kiloes;
-                        kiloes = _closure2_slot0;
-                        verify['username'] = kiloes;
-                        backup = backup.body;
-                        backup = backup.taken;
-                        verify['taken'] = backup;
-                        verify = romeon.bind(foxtra)(verify);
- 657: // try_end0
-                        _fun00010_ip = 949; continue _fun00009;
- 662:
-                        return golfie;
- 665: // catch_target0
+                        verify = backup.bind(kiloes)(romeon, verify);
+ 555:
+                        verify = _closure1_slot1;
+                        romeon = _closure1_slot2;
+                        golfie = 4;
+                        golfie = romeon[golfie];
+                        romeon = verify.bind(tangon)(golfie);
+                        verify = romeon.dispatch;
+                        golfie = {};
+                        backup = 'POMELO_ATTEMPT_SUCCESS';
+                        golfie['type'] = backup;
+                        backup = _closure2_slot0;
+                        golfie['username'] = backup;
+                        foxtra = foxtra.body;
+                        foxtra = foxtra.taken;
+                        golfie['taken'] = foxtra;
+                        golfie = verify.bind(romeon)(golfie);
+ 621: // try_end0
+                        _fun00010_ip = 916; continue _fun00009;
+ 626:
+                        return michal;
+ 629: // catch_target0
                         CatchBlockStart(arg_register=11);
                         verify = _closure1_slot0;
                         foxtra = _closure1_slot2;
-                        golfie = 12;
+                        golfie = 11;
                         golfie = foxtra[golfie];
                         golfie = verify.bind(tangon)(golfie);
                         golfie = golfie.APIError;
@@ -496,10 +487,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         zuuluu = golfie;
                         golfie = yankee != golfie;
                         backup = undefined;
-                        if(!golfie) { _fun00010_ip = 744; continue _fun00009 }
- 741:
+                        if(!golfie) { _fun00010_ip = 711; continue _fun00009 }
+ 708:
                         backup = zuuluu;
- 744:
+ 711:
                         offset = backup;
                         zuuluu = _closure1_slot1;
                         golfie = _closure1_slot2;
@@ -531,32 +522,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         verify = verify.status;
                         yankee = yankee != verify;
                         verify = undefined;
-                        if(!yankee) { _fun00010_ip = 919; continue _fun00009 }
- 873:
+                        if(!yankee) { _fun00010_ip = 886; continue _fun00009 }
+ 840:
                         yankee = option;
                         romeon = yankee.status;
                         yankee = 500;
                         yankee = romeon < yankee;
                         verify = undefined;
-                        if(!yankee) { _fun00010_ip = 919; continue _fun00009 }
- 896:
+                        if(!yankee) { _fun00010_ip = 886; continue _fun00009 }
+ 863:
                         yankee = option;
                         romeon = yankee.status;
                         yankee = 401;
                         verify = undefined;
-                        if(!(yankee !== romeon)) { _fun00010_ip = 919; continue _fun00009 }
- 916:
+                        if(!(yankee !== romeon)) { _fun00010_ip = 886; continue _fun00009 }
+ 883:
                         verify = offset;
- 919:
+ 886:
                         michal['error'] = verify;
                         verify = option.status;
                         michal['statusCode'] = verify;
                         option = option.retryAfter;
                         michal['retryAfter'] = option;
                         michal = zuuluu.bind(golfie)(michal);
- 949:
+ 916:
                         return tangon;
- 952:
+ 919:
                         zuuluu = _closure1_slot1;
                         golfie = _closure1_slot2;
                         option = 8;
@@ -586,7 +577,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal['error'] = report;
                         michal = zuuluu.bind(tangon)(michal);
                         return michal;
- 1076:
+ 1043:
                         return entity;
                     }
                 };
@@ -621,7 +612,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  10:
                         tangon = _closure1_slot1;
                         yankee = _closure1_slot2;
-                        michal = 10;
+                        michal = 9;
                         michal = yankee[michal];
                         report = undefined;
                         oscard = tangon.bind(report)(michal);
@@ -634,7 +625,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal['url'] = golfie;
                         golfie = {};
                         offset = _closure1_slot0;
-                        option = 11;
+                        option = 10;
                         option = yankee[option];
                         option = offset.bind(report)(option);
                         option = option.NetworkActionNames;
@@ -683,7 +674,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     michal['createPomelo'] = tangon;
-    tangon = 13;
+    tangon = 12;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

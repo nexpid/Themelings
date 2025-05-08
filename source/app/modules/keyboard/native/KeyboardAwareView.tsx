@@ -14,7 +14,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = tangon.max;
             michal = _closure1_slot0;
             report = _closure1_slot1;
-            entity = 6;
+            entity = 5;
             entity = report[entity];
             option = undefined;
             report = michal.bind(option)(entity);
@@ -24,20 +24,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['excludeSafeAreaInsets'] = golfie;
             report = michal.bind(report)(entity);
             michal = 0;
-            if(!(michal === report)) { _fun00002_ip = 143; continue _fun00001 }
+            if(!(michal === report)) { _fun00002_ip = 157; continue _fun00001 }
  64:
             golfie = _closure1_slot0;
-            verify = _closure1_slot1;
+            offset = _closure1_slot1;
+            entity = 6;
+            entity = offset[entity];
+            verify = golfie.bind(option)(entity);
+            entity = verify.getKeyboardType;
+            verify = entity.bind(verify)();
             entity = 7;
-            entity = verify[entity];
-            golfie = golfie.bind(option)(entity);
-            entity = golfie.getKeyboardType;
-            verify = entity.bind(golfie)();
-            entity = _closure1_slot7;
+            entity = offset[entity];
+            entity = golfie.bind(option)(entity);
+            entity = entity.KeyboardTypes;
             golfie = entity.SYSTEM;
             entity = 0;
-            if(!(verify !== golfie)) { _fun00002_ip = 140; continue _fun00001 }
- 110:
+            if(!(verify !== golfie)) { _fun00002_ip = 154; continue _fun00001 }
+ 124:
             golfie = _closure1_slot0;
             verify = _closure1_slot1;
             oscard = 8;
@@ -45,16 +48,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = golfie.bind(option)(oscard);
             oscard = golfie.getCustomKeyboardHeight;
             entity = oscard.bind(golfie)();
- 140:
+ 154:
             report = entity;
- 143:
+ 157:
             entity = argFoo;
             entity = report + entity;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot8 = entity;
     entity = function(argFoo) { // Original name: KeyboardAwareViewInner
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -82,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot6 = tangon;
             yankee = _closure1_slot3;
             offset = yankee.useRef;
-            option = _closure1_slot9;
+            option = _closure1_slot8;
             option = option.bind(tangon)(golfie);
             option = offset.bind(yankee)(option);
             _closure2_slot3 = option;
@@ -109,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = function() {
                     _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                        tangon = _closure1_slot9;
+                        tangon = _closure1_slot8;
                         zuuluu = _closure2_slot2;
                         entity = undefined;
                         zuuluu = tangon.bind(entity)(zuuluu);
@@ -230,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             golfie = golfie.bind(option)(michal, zuuluu);
-            zuuluu = _closure1_slot8;
+            zuuluu = _closure1_slot7;
             michal = _closure1_slot4;
             entity = {};
             entity['style'] = golfie;
@@ -240,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot10 = entity;
+    var _closure1_slot9 = entity;
     entity = global;
     verify = entity.Object;
     golfie = verify.defineProperty;
@@ -273,13 +276,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 4;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.KeyboardTypes;
-    var _closure1_slot7 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
-    var _closure1_slot8 = tangon;
+    var _closure1_slot7 = tangon;
     tangon = golfie.memo;
     michal = function(argFoo) { // Original name: KeyboardAwareView
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
@@ -305,10 +303,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = tangon;
             option = zuuluu;
             oscard = copyDataProperties(offset, verify, option);
-            tangon = _closure1_slot8;
+            tangon = _closure1_slot7;
             if(entity) { _fun00012_ip = 103; continue _fun00011 }
  79:
-            zuuluu = _closure1_slot10;
+            zuuluu = _closure1_slot9;
             entity = {};
             offset = entity;
             verify = oscard;

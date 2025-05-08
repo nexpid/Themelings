@@ -1,12 +1,12 @@
 // app/modules/applications/AppDMsUtils.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
+    report = argBar;
+    golfie = argBaz;
     zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = golfie;
+    oscard = argPlu;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = golfie;
+    var _closure1_slot2 = oscard;
     entity = function() { // Original name: _openAndLaunchAppDM
         report = undefined;
         entity = undefined;
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = null;
                     if(!(oscard == tangon)) { _fun00002_ip = 196; continue _fun00001 }
  69: // try_start_0
-                    kiloes = _closure1_slot7;
+                    kiloes = _closure1_slot6;
                     backup = kiloes.getApplication;
                     tangon = romeon;
                     tangon = tangon.id;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  120:
                     foxtra = _closure1_slot0;
                     backup = _closure1_slot2;
-                    tangon = 6;
+                    tangon = 5;
                     tangon = backup[tangon];
                     backup = foxtra.bind(zuuluu)(tangon);
                     foxtra = backup.fetchApplication;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     if(foxtra) { _fun00002_ip = 782; continue _fun00001 }
  172:
                     romeon = tangon;
-                    foxtra = _closure1_slot5;
+                    foxtra = _closure1_slot4;
                     option = foxtra.createFromServer;
                     option = option.bind(foxtra)(tangon);
                     offset = option.bot;
@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = option.bind(zuuluu)(zuuluu);
                     _fun00002_ip = 750; continue _fun00001;
  216:
-                    kiloes = _closure1_slot6;
+                    kiloes = _closure1_slot5;
                     backup = kiloes.getDMFromUserId;
                     foxtra = offset;
                     foxtra = foxtra.id;
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  248: // try_start_1
                     backup = _closure1_slot0;
                     kiloes = _closure1_slot2;
-                    foxtra = 7;
+                    foxtra = 6;
                     foxtra = kiloes[foxtra];
                     backup = backup.bind(zuuluu)(foxtra);
                     foxtra = backup.shouldOpenActivityInPopoutWindow;
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  284:
                     backup = _closure1_slot0;
                     kiloes = _closure1_slot2;
-                    foxtra = 8;
+                    foxtra = 7;
                     foxtra = kiloes[foxtra];
                     kiloes = backup.bind(zuuluu)(foxtra);
                     backup = kiloes.isContextlessActivitiesEnabledForApp;
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  321:
                     output = _closure1_slot1;
                     result = _closure1_slot2;
-                    foxtra = 9;
+                    foxtra = 8;
                     foxtra = result[foxtra];
                     kiloes = output.bind(zuuluu)(foxtra);
                     backup = kiloes.openPrivateChannel;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     sizing = new Array(1);
                     sizing[0] = echoed;
                     foxtra['recipientIds'] = sizing;
-                    sizing = 10;
+                    sizing = 9;
                     sizing = result[sizing];
                     sizing = output.bind(zuuluu)(sizing);
                     sizing = sizing.APP_DMS_QUICK_LAUNCHER;
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  416: // try_start_2
                     kiloes = _closure1_slot1;
                     sizing = _closure1_slot2;
-                    backup = 9;
+                    backup = 8;
                     backup = sizing[backup];
                     kiloes = kiloes.bind(zuuluu)(backup);
                     backup = kiloes.getOrEnsurePrivateChannel;
@@ -165,11 +165,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  483:
                     foxtra = _closure1_slot1;
                     backup = _closure1_slot2;
-                    offset = 11;
+                    offset = 10;
                     offset = backup[offset];
                     kiloes = foxtra.bind(zuuluu)(offset);
                     backup = kiloes.track;
-                    offset = _closure1_slot8;
+                    offset = _closure1_slot7;
                     foxtra = offset.APP_DMS_QUICK_LAUNCHER_CLICKED;
                     offset = {};
                     sizing = romeon;
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  560: // try_start_3
                     oscard = _closure1_slot1;
                     offset = _closure1_slot2;
-                    report = 12;
+                    report = 11;
                     report = offset[report];
                     offset = oscard.bind(zuuluu)(report);
                     oscard = yankee;
@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = report.message;
                     offset = _closure1_slot0;
                     foxtra = _closure1_slot2;
-                    report = 12;
+                    report = 11;
                     report = foxtra[report];
                     report = offset.bind(zuuluu)(report);
                     report = report.NO_PRIMARY_APP_COMMAND_ERROR;
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  649:
                     oscard = _closure1_slot1;
                     offset = _closure1_slot2;
-                    report = 13;
+                    report = 12;
                     report = offset[report];
                     oscard = oscard.bind(zuuluu)(report);
                     report = {};
@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report['channelId'] = yankee;
                     report['analyticsLocations'] = verify;
                     verify = _closure1_slot0;
-                    option = 14;
+                    option = 13;
                     option = offset[option];
                     option = verify.bind(zuuluu)(option);
                     option = option.CommandOrigin;
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot9 = tangon;
+        _closure1_slot8 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -278,11 +278,91 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot8 = entity;
+    entity = global;
+    verify = entity.Object;
+    option = verify.defineProperty;
+    tangon = {};
+    entity = true;
+    tangon['value'] = entity;
+    entity = '__esModule';
+    entity = option.bind(verify)(zuuluu, entity, tangon);
+    entity = 0;
+    tangon = oscard[entity];
+    entity = undefined;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot5 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot6 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AnalyticEvents;
+    var _closure1_slot7 = tangon;
+    tangon = 17;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/applications/AppDMsUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: openAndLaunchAppDM
+        entity = undefined;
+        tangon = _closure1_slot8;
+        zuuluu = tangon.apply;
+        entity = arguments;
+        michal = entity;
+        entity = this;
+        entity = zuuluu.bind(tangon)(entity, michal);
+        return entity;
+    };
+    zuuluu['openAndLaunchAppDM'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: updateShowPlayAgainSetting
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            zuuluu = argFoo;
+            report = _closure1_slot1;
+            tangon = _closure1_slot2;
+            entity = 14;
+            tangon = tangon[entity];
+            entity = undefined;
+            oscard = report.bind(entity)(tangon);
+            report = oscard.updatedUnsyncedSettings;
+            tangon = {};
+            tangon['showPlayAgain'] = zuuluu;
+            tangon = report.bind(oscard)(tangon);
+            if(zuuluu) { _fun00004_ip = 99; continue _fun00003 }
+ 49:
+            tangon = _closure1_slot1;
+            report = _closure1_slot2;
+            zuuluu = 10;
+            zuuluu = report[zuuluu];
+            report = tangon.bind(entity)(zuuluu);
+            tangon = report.track;
+            michal = _closure1_slot7;
+            zuuluu = michal.APP_DMS_QUICK_LAUNCHER_HIDDEN;
+            michal = {};
+            oscard = argBar;
+            michal['source'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
+ 99:
+            return entity;
+        }
+    };
+    zuuluu['updateShowPlayAgainSetting'] = tangon;
     michal = function() { // Original name: useAppDMFrecentApps
         golfie = _closure1_slot0;
         option = _closure1_slot2;
-        entity = 17;
+        entity = 15;
         entity = option[entity];
         oscard = undefined;
         zuuluu = golfie.bind(oscard)(entity);
@@ -304,7 +384,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         report = tangon.bind(report)(zuuluu);
         tangon = report.filter;
-        zuuluu = 18;
+        zuuluu = 16;
         zuuluu = option[zuuluu];
         zuuluu = golfie.bind(oscard)(zuuluu);
         zuuluu = zuuluu.isNotNullish;
@@ -313,123 +393,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity['loading'] = michal;
         return entity;
     };
-    var _closure1_slot10 = michal;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 1;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot4 = report;
-    report = 2;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot5 = report;
-    report = 3;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot6 = report;
-    report = 4;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot7 = report;
-    report = 5;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.AnalyticEvents;
-    var _closure1_slot8 = report;
-    report = 19;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/applications/AppDMsUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function() { // Original name: openAndLaunchAppDM
-        entity = undefined;
-        tangon = _closure1_slot9;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
-    };
-    zuuluu['openAndLaunchAppDM'] = report;
-    report = function(argFoo, argBar) { // Original name: updateShowPlayAgainSetting
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
- 0:
-            zuuluu = argFoo;
-            report = _closure1_slot1;
-            tangon = _closure1_slot2;
-            entity = 15;
-            tangon = tangon[entity];
-            entity = undefined;
-            oscard = report.bind(entity)(tangon);
-            report = oscard.updatedUnsyncedSettings;
-            tangon = {};
-            tangon['showPlayAgain'] = zuuluu;
-            tangon = report.bind(oscard)(tangon);
-            if(zuuluu) { _fun00004_ip = 99; continue _fun00003 }
- 49:
-            tangon = _closure1_slot1;
-            report = _closure1_slot2;
-            zuuluu = 11;
-            zuuluu = report[zuuluu];
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.track;
-            michal = _closure1_slot8;
-            zuuluu = michal.APP_DMS_QUICK_LAUNCHER_HIDDEN;
-            michal = {};
-            oscard = argBar;
-            michal['source'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
- 99:
-            return entity;
-        }
-    };
-    zuuluu['updateShowPlayAgainSetting'] = report;
-    tangon = function() { // Original name: useShouldShowQuickLaunchRow
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
- 0:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 16;
-            entity = zuuluu[entity];
-            zuuluu = undefined;
-            oscard = tangon.bind(zuuluu)(entity);
-            report = oscard.useStateFromStores;
-            entity = _closure1_slot4;
-            tangon = new Array(1);
-            tangon[0] = entity;
-            entity = function() {
-                entity = _closure1_slot4;
-                entity = entity.showPlayAgain;
-                return entity;
-            };
-            entity = report.bind(oscard)(tangon, entity);
-            michal = _closure1_slot10;
-            michal = michal.bind(zuuluu)();
-            michal = michal.frecentApps;
-            if(!entity) { _fun00006_ip = 85; continue _fun00005 }
- 74:
-            zuuluu = michal.length;
-            michal = 0;
-            entity = zuuluu > michal;
- 85:
-            return entity;
-        }
-    };
-    zuuluu['useShouldShowQuickLaunchRow'] = tangon;
     zuuluu['useAppDMFrecentApps'] = michal;
     return entity;
 })();

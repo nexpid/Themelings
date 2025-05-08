@@ -451,7 +451,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = romeon[sizing];
             romeon = backup.bind(tangon)(romeon);
             backup = romeon.Text;
-            romeon = {'style': null, 'variant': 'heading-sm/bold', 'color': 'header-primary', 'lineClamp': 1};
+            romeon = {'style': null, 'variant': 'heading-sm/bold', 'color': 'header-primary', 'lineClamp': 1, 'accessibilityRole': 'header'};
             result = offset.assetName;
             romeon['style'] = result;
             result = yankee.name;

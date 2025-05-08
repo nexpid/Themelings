@@ -887,6 +887,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['APP_LAUNCHER_IN_VOICE_BANNER'] = entity;
     entity = 'app launcher friends who play tab join friend';
     michal['APP_LAUNCHER_FRIENDS_TAB_JOIN_BUTTON'] = entity;
+    entity = 'report to mod channel context menu';
+    michal['REPORT_TO_MOD_CHANNEL_CONTEXT_MENU'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

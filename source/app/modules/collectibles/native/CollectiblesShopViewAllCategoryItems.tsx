@@ -392,36 +392,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = ctrled.absoluteFill;
             offset['style'] = ctrled;
             ctrled = undefined;
-            if(!(tangon !== config)) { _fun00004_ip = 759; continue _fun00003 }
- 694:
+            if(!(tangon !== config)) { _fun00004_ip = 758; continue _fun00003 }
+ 693:
             papara = config.primary;
             record = echoed == papara;
             cntext = undefined;
-            if(record) { _fun00004_ip = 719; continue _fun00003 }
- 709:
+            if(record) { _fun00004_ip = 718; continue _fun00003 }
+ 708:
             record = papara.toHexString;
             cntext = record.bind(papara)();
- 719:
+ 718:
             record = new Array(2);
             record[0] = cntext;
             target = config.secondary;
             papara = echoed == target;
             cntext = undefined;
-            if(papara) { _fun00004_ip = 752; continue _fun00003 }
- 742:
+            if(papara) { _fun00004_ip = 751; continue _fun00003 }
+ 741:
             papara = target.toHexString;
             cntext = papara.bind(target)();
- 752:
+ 751:
             record[1] = cntext;
             ctrled = record;
- 759:
+ 758:
             offset['placeholderGradient'] = ctrled;
             foxtra = zuuluu.bind(tangon)(foxtra, offset);
             offset = new Array(4);
             offset[0] = foxtra;
             ctrled = _closure1_slot7;
-            if(romeon) { _fun00004_ip = 855; continue _fun00003 }
- 785:
+            if(romeon) { _fun00004_ip = 854; continue _fun00003 }
+ 784:
             foxtra = _closure1_slot1;
             record = _closure1_slot2;
             romeon = 9;
@@ -432,22 +432,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['logo'] = record;
             record = echoed == config;
             echoed = undefined;
-            if(record) { _fun00004_ip = 842; continue _fun00003 }
- 827:
+            if(record) { _fun00004_ip = 841; continue _fun00003 }
+ 826:
             record = config.label;
             config = record.toHexString;
             echoed = config.bind(record)();
- 842:
+ 841:
             romeon['buttonColor'] = echoed;
             romeon = ctrled.bind(tangon)(foxtra, romeon);
-            _fun00004_ip = 876; continue _fun00003;
- 855:
+            _fun00004_ip = 875; continue _fun00003;
+ 854:
             echoed = _closure1_slot10;
             foxtra = {};
             foxtra['category'] = sequen;
             foxtra['backgroundUrl'] = vacuum;
             romeon = ctrled.bind(tangon)(echoed, foxtra);
- 876:
+ 875:
             offset[1] = romeon;
             foxtra = _closure1_slot7;
             romeon = _closure1_slot1;

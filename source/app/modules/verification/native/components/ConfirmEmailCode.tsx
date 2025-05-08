@@ -56,33 +56,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot12 = tangon;
     tangon = 7;
     tangon = oscard[tangon];
-    verify = report.bind(entity)(tangon);
-    option = verify.createStyles;
-    golfie = {};
-    tangon = {'backgroundColor': null, 'paddingVertical': 12, 'paddingHorizontal': 16};
+    option = report.bind(entity)(tangon);
+    golfie = option.createStyles;
+    tangon = {};
+    verify = {'backgroundColor': null, 'paddingVertical': 12, 'paddingHorizontal': 16};
     offset = 8;
     offset = oscard[offset];
     offset = yankee.bind(entity)(offset);
     offset = offset.colors;
     offset = offset.BACKGROUND_MOBILE_SECONDARY;
-    tangon['backgroundColor'] = offset;
-    golfie['background'] = tangon;
-    tangon = {};
+    verify['backgroundColor'] = offset;
+    tangon['background'] = verify;
+    verify = {};
     offset = 'center';
-    tangon['textAlign'] = offset;
-    golfie['title'] = tangon;
-    tangon = 18;
-    offset = {'marginTop': 8, 'lineHeight': 18, 'textAlign': 'center'};
-    golfie['prompt'] = offset;
-    offset = {};
-    yankee = 24;
-    offset['marginTop'] = yankee;
-    golfie['input'] = offset;
-    offset = {};
-    offset['marginTop'] = yankee;
-    golfie['button'] = offset;
-    golfie = option.bind(verify)(golfie);
-    var _closure1_slot13 = golfie;
+    verify['textAlign'] = offset;
+    tangon['title'] = verify;
+    verify = {'marginTop': 8, 'lineHeight': 18, 'textAlign': 'center'};
+    tangon['prompt'] = verify;
+    verify = {};
+    offset = 24;
+    verify['marginTop'] = offset;
+    tangon['input'] = verify;
+    verify = {};
+    verify['marginTop'] = offset;
+    tangon['button'] = verify;
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot13 = tangon;
+    tangon = 17;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -238,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = tangon.bind(golfie)(zuuluu, entity);
             entity = null;
             michal = entity == michal;
-            if(michal) { _fun00002_ip = 938; continue _fun00001 }
+            if(michal) { _fun00002_ip = 920; continue _fun00001 }
  304:
             tangon = _closure1_slot12;
             zuuluu = _closure1_slot7;
@@ -303,11 +303,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output['label'] = cntext;
             cntext = 'emailAddress';
             output['textContentType'] = cntext;
-            cntext = 14;
-            cntext = echoed[cntext];
-            cntext = ctrled.bind(report)(cntext);
-            cntext = cntext.KeyboardTypes;
-            cntext = cntext.EMAIL;
+            cntext = 'email-address';
             output['keyboardType'] = cntext;
             output['value'] = offset;
             output['onChangeText'] = sequen;
@@ -321,7 +317,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output['autoFocus'] = vacuum;
             output = verify.bind(report)(update, output);
             option[2] = output;
-            output = 15;
+            output = 14;
             output = echoed[output];
             output = ctrled.bind(report)(output);
             update = output.LegacyText;
@@ -358,7 +354,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  35:
                         report = _closure1_slot1;
                         romeon = _closure1_slot2;
-                        tangon = 16;
+                        tangon = 15;
                         tangon = romeon[tangon];
                         golfie = report.bind(michal)(tangon);
                         report = golfie.open;
@@ -403,7 +399,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  208:
                         tangon = _closure1_slot1;
                         report = _closure1_slot2;
-                        zuuluu = 16;
+                        zuuluu = 15;
                         zuuluu = report[zuuluu];
                         report = tangon.bind(michal)(zuuluu);
                         tangon = report.open;
@@ -441,7 +437,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = tangon.bind(report)(golfie, oscard);
             oscard = new Array(2);
             oscard[0] = golfie;
-            output = 17;
+            output = 16;
             golfie = echoed[output];
             option = result.bind(report)(golfie);
             golfie = {};
@@ -464,7 +460,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 938:
+ 920:
             return entity;
         }
     };

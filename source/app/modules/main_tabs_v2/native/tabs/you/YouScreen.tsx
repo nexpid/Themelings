@@ -706,7 +706,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = entity.CollectiblesMarketingType;
                     michal = entity.COACHTIP;
                     entity = null;
-                    if(!(report === michal)) { _fun00016_ip = 158; continue _fun00015 }
+                    if(!(report === michal)) { _fun00016_ip = 157; continue _fun00015 }
  70:
                     michal = {};
                     report = _closure2_slot13;
@@ -732,7 +732,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = tangon[zuuluu];
                     michal['decorationAsset'] = zuuluu;
                     entity = michal;
- 158:
+ 157:
                     return entity;
                 }
             };

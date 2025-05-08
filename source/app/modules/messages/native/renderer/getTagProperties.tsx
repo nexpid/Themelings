@@ -61,9 +61,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = golfie.bind(backup)(oscard);
             oscard = golfie.isPublicSystemMessage;
             oscard = oscard.bind(golfie)(entity);
-            if(oscard) { _fun00002_ip = 787; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 786; continue _fun00001 }
  117:
-            if(report) { _fun00002_ip = 787; continue _fun00001 }
+            if(report) { _fun00002_ip = 786; continue _fun00001 }
  123:
             oscard = _closure1_slot1;
             golfie = _closure1_slot2;
@@ -71,12 +71,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = golfie[report];
             report = oscard.bind(backup)(report);
             report = report.bind(backup)(entity);
-            if(report) { _fun00002_ip = 711; continue _fun00001 }
+            if(report) { _fun00002_ip = 710; continue _fun00001 }
  154:
             oscard = entity.author;
             report = oscard.isClyde;
             report = report.bind(oscard)();
-            if(report) { _fun00002_ip = 633; continue _fun00001 }
+            if(report) { _fun00002_ip = 632; continue _fun00001 }
  176:
             report = entity.author;
             report = report.bot;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = undefined;
             tangon = undefined;
             option = zuuluu;
-            if(!yankee) { _fun00002_ip = 860; continue _fun00001 }
+            if(!yankee) { _fun00002_ip = 859; continue _fun00001 }
  287:
             update = _closure1_slot0;
             source = _closure1_slot2;
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = undefined;
             tangon = undefined;
             option = zuuluu;
-            _fun00002_ip = 860; continue _fun00001;
+            _fun00002_ip = 859; continue _fun00001;
  378:
             yankee = 8;
             yankee = kiloes[yankee];
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = undefined;
             tangon = undefined;
             option = zuuluu;
-            if(!yankee) { _fun00002_ip = 860; continue _fun00001 }
+            if(!yankee) { _fun00002_ip = 859; continue _fun00001 }
  419:
             result = _closure1_slot0;
             echoed = _closure1_slot2;
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = michal.remixTagBackgroundColor;
             tangon = undefined;
             option = zuuluu;
-            _fun00002_ip = 860; continue _fun00001;
+            _fun00002_ip = 859; continue _fun00001;
  508:
             yankee = 4;
             romeon = output[yankee];
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = undefined;
             tangon = undefined;
             option = zuuluu;
-            if(!option) { _fun00002_ip = 860; continue _fun00001 }
+            if(!option) { _fun00002_ip = 859; continue _fun00001 }
  575:
             sizing = _closure1_slot3;
             kiloes = sizing.resolveAssetSource;
@@ -197,8 +197,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = undefined;
             report = undefined;
             option = zuuluu;
-            _fun00002_ip = 860; continue _fun00001;
- 633:
+            _fun00002_ip = 859; continue _fun00001;
+ 632:
             sizing = _closure1_slot0;
             output = _closure1_slot2;
             yankee = 4;
@@ -217,8 +217,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = undefined;
             oscard = undefined;
             tangon = undefined;
-            _fun00002_ip = 860; continue _fun00001;
- 711:
+            _fun00002_ip = 859; continue _fun00001;
+ 710:
             sizing = _closure1_slot0;
             output = _closure1_slot2;
             yankee = 4;
@@ -237,8 +237,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = undefined;
             tangon = undefined;
             option = zuuluu;
-            _fun00002_ip = 860; continue _fun00001;
- 787:
+            _fun00002_ip = 859; continue _fun00001;
+ 786:
             kiloes = _closure1_slot0;
             sizing = _closure1_slot2;
             zuuluu = 4;
@@ -257,29 +257,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = undefined;
             oscard = undefined;
             tangon = undefined;
- 860:
+ 859:
             zuuluu = null;
             yankee = zuuluu == foxtra;
             romeon = undefined;
-            if(yankee) { _fun00002_ip = 877; continue _fun00001 }
- 871:
+            if(yankee) { _fun00002_ip = 876; continue _fun00001 }
+ 870:
             romeon = foxtra.ownerId;
- 877:
+ 876:
             yankee = entity.author;
             yankee = yankee.id;
             yankee = romeon === yankee;
-            if(!yankee) { _fun00002_ip = 899; continue _fun00001 }
- 895:
+            if(!yankee) { _fun00002_ip = 898; continue _fun00001 }
+ 894:
             yankee = zuuluu != foxtra;
- 899:
-            if(!yankee) { _fun00002_ip = 912; continue _fun00001 }
- 902:
+ 898:
+            if(!yankee) { _fun00002_ip = 911; continue _fun00001 }
+ 901:
             romeon = foxtra.isForumPost;
             yankee = romeon.bind(foxtra)();
- 912:
+ 911:
             zuuluu = null;
-            if(!yankee) { _fun00002_ip = 972; continue _fun00001 }
- 917:
+            if(!yankee) { _fun00002_ip = 971; continue _fun00001 }
+ 916:
             foxtra = _closure1_slot0;
             kiloes = _closure1_slot2;
             offset = 4;
@@ -292,14 +292,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = offset.t;
             offset = offset.fyE8sL;
             zuuluu = yankee.bind(romeon)(offset);
- 972:
+ 971:
             offset = entity.author;
             entity = offset.isClyde;
             entity = entity.bind(offset)();
-            if(!entity) { _fun00002_ip = 997; continue _fun00001 }
- 991:
+            if(!entity) { _fun00002_ip = 996; continue _fun00001 }
+ 990:
             oscard = michal.aiBotTagColor;
- 997:
+ 996:
             entity = {};
             entity['tagText'] = verify;
             entity['tagVerified'] = option;

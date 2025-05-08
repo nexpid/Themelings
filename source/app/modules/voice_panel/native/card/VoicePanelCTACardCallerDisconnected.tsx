@@ -14,12 +14,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = 'number';
             michal = typeof zuuluu;
             entity = zuuluu;
-            if(!(tangon !== michal)) { _fun00002_ip = 27; continue _fun00001 }
+            if(!(tangon !== michal)) { _fun00002_ip = 26; continue _fun00001 }
  17:
             michal = {};
             michal['uri'] = zuuluu;
             entity = michal;
- 27:
+ 26:
             return entity;
         }
     };

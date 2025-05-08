@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['button'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot16 = tangon;
-    tangon = 20;
+    tangon = 19;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -325,7 +325,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = null;
             michal = source == backup;
             entity = null;
-            if(michal) { _fun00002_ip = 1163; continue _fun00001 }
+            if(michal) { _fun00002_ip = 1145; continue _fun00001 }
  327:
             tangon = _closure1_slot14;
             zuuluu = _closure1_slot8;
@@ -448,11 +448,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['label'] = sequen;
             sequen = 'emailAddress';
             offset['textContentType'] = sequen;
-            sequen = 18;
-            sequen = source[sequen];
-            sequen = update.bind(report)(sequen);
-            sequen = sequen.KeyboardTypes;
-            sequen = sequen.EMAIL;
+            sequen = 'email-address';
             offset['keyboardType'] = sequen;
             offset['value'] = kiloes;
             offset['onChangeText'] = vacuum;
@@ -476,7 +472,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['autoFocus'] = echoed;
             offset = romeon.bind(report)(yankee, offset);
             verify[2] = offset;
-            echoed = 19;
+            echoed = 18;
             offset = source[echoed];
             yankee = ctrled.bind(report)(offset);
             offset = {};
@@ -499,11 +495,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['text'] = output;
             offset['onPress'] = sizing;
             foxtra = foxtra === kiloes;
-            if(foxtra) { _fun00002_ip = 1129; continue _fun00001 }
- 1119:
+            if(foxtra) { _fun00002_ip = 1111; continue _fun00001 }
+ 1101:
             backup = backup.email;
             foxtra = kiloes === backup;
- 1129:
+ 1111:
             offset['disabled'] = foxtra;
             offset = romeon.bind(report)(yankee, offset);
             verify[3] = offset;
@@ -511,7 +507,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1163:
+ 1145:
             return entity;
         }
     };

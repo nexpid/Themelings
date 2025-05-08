@@ -45,6 +45,41 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['default'] = tangon;
+    tangon = function(argFoo) { // Original name: getKeyboardContextForType
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 0;
+        michal = michal[entity];
+        entity = undefined;
+        michal = zuuluu.bind(entity)(michal);
+        entity = michal.getState;
+        entity = entity.bind(michal)();
+        michal = entity.keyboardContexts;
+        entity = argFoo;
+        entity = michal[entity];
+        return entity;
+    };
+    zuuluu['getKeyboardContextForType'] = tangon;
+    tangon = function(argFoo) { // Original name: useKeyboardContextForType
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        michal = 0;
+        michal = zuuluu[michal];
+        zuuluu = undefined;
+        michal = tangon.bind(zuuluu)(michal);
+        entity = function(argFoo) {
+            entity = argFoo;
+            michal = entity.keyboardContexts;
+            entity = _closure2_slot0;
+            entity = michal[entity];
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    zuuluu['useKeyboardContextForType'] = tangon;
     tangon = function() { // Original name: getKeyboardType
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;

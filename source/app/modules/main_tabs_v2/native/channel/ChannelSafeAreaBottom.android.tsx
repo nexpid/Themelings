@@ -27,17 +27,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 2;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.KeyboardTypes;
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
-    var _closure1_slot5 = tangon;
+    var _closure1_slot4 = tangon;
     tangon = ['bottom'];
-    var _closure1_slot6 = tangon;
+    var _closure1_slot5 = tangon;
     tangon = new Array(0);
-    var _closure1_slot7 = tangon;
+    var _closure1_slot6 = tangon;
     tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -50,42 +45,45 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = argFoo;
             michal = entity.channelId;
             zuuluu = _closure1_slot1;
-            option = _closure1_slot2;
-            entity = 4;
-            entity = option[entity];
+            verify = _closure1_slot2;
+            entity = 3;
+            entity = verify[entity];
             tangon = undefined;
             entity = zuuluu.bind(tangon)(entity);
             report = entity.bind(tangon)(michal);
-            michal = _closure1_slot0;
-            entity = 5;
-            entity = option[entity];
-            verify = michal.bind(tangon)(entity);
-            golfie = verify.useStateFromStores;
+            option = _closure1_slot0;
+            entity = 4;
+            entity = verify[entity];
+            golfie = option.bind(tangon)(entity);
+            zuuluu = golfie.useStateFromStores;
             entity = _closure1_slot3;
-            zuuluu = new Array(1);
-            zuuluu[0] = entity;
+            michal = new Array(1);
+            michal[0] = entity;
             entity = function() {
                 entity = _closure1_slot3;
                 entity = entity.keyboardType;
                 return entity;
             };
-            golfie = golfie.bind(verify)(zuuluu, entity);
-            zuuluu = _closure1_slot5;
-            entity = 6;
-            entity = option[entity];
-            entity = michal.bind(tangon)(entity);
+            golfie = zuuluu.bind(golfie)(michal, entity);
+            zuuluu = _closure1_slot4;
+            entity = 5;
+            entity = verify[entity];
+            entity = option.bind(tangon)(entity);
             michal = entity.SafeAreaView;
             entity = {};
             entity['style'] = report;
-            report = _closure1_slot4;
+            report = 6;
+            report = verify[report];
+            report = option.bind(tangon)(report);
+            report = report.KeyboardTypes;
             report = report.SYSTEM;
-            if(!(golfie !== report)) { _fun00002_ip = 134; continue _fun00001 }
- 128:
-            report = _closure1_slot7;
-            _fun00002_ip = 138; continue _fun00001;
- 134:
+            if(!(golfie !== report)) { _fun00002_ip = 148; continue _fun00001 }
+ 142:
             report = _closure1_slot6;
- 138:
+            _fun00002_ip = 152; continue _fun00001;
+ 148:
+            report = _closure1_slot5;
+ 152:
             entity['edges'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['profileEffect'] = kiloes;
             oscard = foxtra.bind(backup)(romeon, oscard);
             entity['accessibilityLabel'] = oscard;
-            oscard = 'image';
+            oscard = 'button';
             entity['accessibilityRole'] = oscard;
             oscard = _closure1_slot1;
             report = 9;

@@ -38,57 +38,64 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot10 = michal;
+            _closure1_slot9 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot10 = entity;
+    var _closure1_slot9 = entity;
     michal = function() { // Original name: handleBackPress
         tangon = _closure1_slot0;
         zuuluu = _closure1_slot1;
-        michal = 8;
+        michal = 7;
         zuuluu = zuuluu[michal];
         michal = undefined;
         tangon = tangon.bind(michal)(zuuluu);
         zuuluu = tangon.hideContextMenu;
         zuuluu = zuuluu.bind(tangon)();
-        entity = _closure1_slot12;
+        entity = _closure1_slot11;
         entity = entity.bind(michal)();
         entity = !entity;
         entity = !entity;
         return entity;
     };
-    var _closure1_slot11 = michal;
+    var _closure1_slot10 = michal;
     entity = function() { // Original name: maybeDismissExpressionPicker
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = _closure1_slot8;
-            michal = entity.keyboardType;
-            entity = _closure1_slot9;
-            entity = entity.SYSTEM;
-            entity = michal !== entity;
-            if(!entity) { _fun00004_ip = 82; continue _fun00003 }
- 30:
+            zuuluu = entity.keyboardType;
             tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
+            entity = _closure1_slot1;
+            option = 8;
+            entity = entity[option];
+            golfie = undefined;
+            entity = tangon.bind(golfie)(entity);
+            entity = entity.KeyboardTypes;
+            entity = entity.SYSTEM;
+            entity = zuuluu !== entity;
+            if(!entity) { _fun00004_ip = 114; continue _fun00003 }
+ 54:
+            oscard = _closure1_slot0;
+            report = _closure1_slot1;
             michal = 9;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            tangon = tangon.bind(michal)(zuuluu);
+            michal = report[michal];
+            tangon = oscard.bind(golfie)(michal);
             zuuluu = tangon.toggleKeyboard;
             michal = {};
-            report = _closure1_slot9;
+            report = report[option];
+            report = oscard.bind(golfie)(report);
+            report = report.KeyboardTypes;
             report = report.SYSTEM;
-            michal['keyboardType'] = report;
+            michal['type'] = report;
             michal = zuuluu.bind(tangon)(michal);
             entity = true;
- 82:
+ 114:
             return entity;
         }
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot11 = entity;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -127,11 +134,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = golfie[report];
     report = option.bind(entity)(report);
     var _closure1_slot8 = report;
-    report = 7;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.KeyboardTypes;
-    var _closure1_slot9 = report;
     report = 12;
     report = golfie[report];
     report = option.bind(entity)(report);
@@ -148,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot5;
                 verify = entity.bind(zuuluu)(michal);
                 michal = _closure1_slot4;
-                entity = _closure1_slot10;
+                entity = _closure1_slot9;
                 entity = entity.bind(zuuluu)();
                 if(entity) { _fun00006_ip = 69; continue _fun00005 }
  51:
@@ -211,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = function() { // Original name: value
             tangon = _closure1_slot7;
             zuuluu = tangon.addEventListener;
-            michal = _closure1_slot11;
+            michal = _closure1_slot10;
             entity = 'hardwareBackPress';
             michal = zuuluu.bind(tangon)(entity, michal);
             entity = this;
@@ -282,7 +284,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal = tangon.bind(report)();
  79:
                         zuuluu['_navigationRouteCurrent'] = michal;
-                        michal = _closure1_slot12;
+                        michal = _closure1_slot11;
                         michal = michal.bind(entity)();
  96:
                         return entity;

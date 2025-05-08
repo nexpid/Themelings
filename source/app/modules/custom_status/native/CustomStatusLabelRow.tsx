@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = golfie.bind(tangon)(oscard);
         golfie = oscard.Text;
         oscard = {};
-        verify = 'text-xs/semibold';
+        verify = 'text-xs/medium';
         oscard['variant'] = verify;
         verify = 5;
         verify = romeon[verify];

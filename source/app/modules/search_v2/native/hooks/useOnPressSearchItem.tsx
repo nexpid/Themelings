@@ -163,12 +163,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = zuuluu.EMBED;
                 michal = report === zuuluu;
  47:
-                if(!michal) { _fun00006_ip = 793; continue _fun00005 }
+                if(!michal) { _fun00006_ip = 788; continue _fun00005 }
  53:
                 zuuluu = tangon.type;
                 michal = _closure1_slot10;
                 michal = michal.EMBED;
-                if(!(zuuluu !== michal)) { _fun00006_ip = 264; continue _fun00005 }
+                if(!(zuuluu !== michal)) { _fun00006_ip = 263; continue _fun00005 }
  75:
                 zuuluu = tangon.attachment;
                 oscard = zuuluu.proxy_url;
@@ -208,10 +208,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = zuuluu.filename;
                 golfie = option.bind(verify)(golfie);
                 report = undefined;
-                if(!golfie) { _fun00006_ip = 228; continue _fun00005 }
- 225:
+                if(!golfie) { _fun00006_ip = 227; continue _fun00005 }
+ 224:
                 report = oscard;
- 228:
+ 227:
                 michal['videoURI'] = report;
                 report = false;
                 michal['isGIFV'] = report;
@@ -219,8 +219,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['accessoryType'] = report;
                 zuuluu = zuuluu.id;
                 michal['attachmentId'] = zuuluu;
-                _fun00006_ip = 473; continue _fun00005;
- 264:
+                _fun00006_ip = 471; continue _fun00005;
+ 263:
                 zuuluu = tangon.embed;
                 golfie = _closure1_slot0;
                 option = _closure1_slot2;
@@ -241,26 +241,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 yankee = zuuluu.video;
                 oscard = zuuluu.type;
                 offset = verify.proxyURL;
-                if(!(option == offset)) { _fun00006_ip = 363; continue _fun00005 }
- 358:
+                if(!(option == offset)) { _fun00006_ip = 362; continue _fun00005 }
+ 357:
                 offset = verify.url;
- 363:
+ 362:
                 zuuluu = option == yankee;
                 golfie = undefined;
-                if(zuuluu) { _fun00006_ip = 378; continue _fun00005 }
- 372:
+                if(zuuluu) { _fun00006_ip = 377; continue _fun00005 }
+ 371:
                 golfie = yankee.proxyURL;
- 378:
-                if(!(option == golfie)) { _fun00006_ip = 399; continue _fun00005 }
- 382:
+ 377:
+                if(!(option == golfie)) { _fun00006_ip = 398; continue _fun00005 }
+ 381:
                 romeon = option == yankee;
                 zuuluu = undefined;
-                if(romeon) { _fun00006_ip = 396; continue _fun00005 }
- 391:
+                if(romeon) { _fun00006_ip = 395; continue _fun00005 }
+ 390:
                 zuuluu = yankee.url;
- 396:
+ 395:
                 golfie = zuuluu;
- 399:
+ 398:
                 zuuluu = {};
                 zuuluu['uri'] = offset;
                 zuuluu['sourceURI'] = golfie;
@@ -270,10 +270,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu['height'] = verify;
                 option = option != golfie;
                 report = undefined;
-                if(!option) { _fun00006_ip = 441; continue _fun00005 }
- 438:
+                if(!option) { _fun00006_ip = 439; continue _fun00005 }
+ 436:
                 report = golfie;
- 441:
+ 439:
                 zuuluu['videoURI'] = report;
                 report = 'gifv';
                 report = report === oscard;
@@ -281,7 +281,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = 'embed';
                 zuuluu['accessoryType'] = report;
                 michal = zuuluu;
- 473:
+ 471:
                 sizing = michal.uri;
                 romeon = michal.sourceURI;
                 yankee = michal.width;
@@ -303,10 +303,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = null;
                 echoed = zuuluu != kiloes;
                 entity = undefined;
-                if(!echoed) { _fun00006_ip = 578; continue _fun00005 }
- 572:
+                if(!echoed) { _fun00006_ip = 575; continue _fun00005 }
+ 569:
                 entity = 'png';
- 578:
+ 575:
                 sequen = result;
                 vacuum = sizing;
                 ctrled = yankee;
@@ -337,10 +337,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie['mediaIndex'] = sizing;
                 sizing = zuuluu != kiloes;
                 backup = undefined;
-                if(!sizing) { _fun00006_ip = 710; continue _fun00005 }
- 707:
+                if(!sizing) { _fun00006_ip = 705; continue _fun00005 }
+ 702:
                 backup = kiloes;
- 710:
+ 705:
                 golfie['videoURI'] = backup;
                 golfie['isGIFV'] = foxtra;
                 golfie['sourceURI'] = romeon;
@@ -352,20 +352,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = report.bind(oscard)(entity);
                 entity = _closure2_slot0;
                 entity = zuuluu != entity;
-                if(!entity) { _fun00006_ip = 771; continue _fun00005 }
- 763:
+                if(!entity) { _fun00006_ip = 766; continue _fun00005 }
+ 758:
                 zuuluu = _closure2_slot0;
                 entity = tangon === zuuluu;
- 771:
-                if(!entity) { _fun00006_ip = 782; continue _fun00005 }
- 774:
+ 766:
+                if(!entity) { _fun00006_ip = 777; continue _fun00005 }
+ 769:
                 entity = _closure2_slot2;
                 _closure2_slot3 = entity;
- 782:
+ 777:
                 entity = _closure2_slot2;
                 entity = entity + 1;
                 _closure2_slot2 = entity;
- 793:
+ 788:
                 entity = undefined;
                 return entity;
             }

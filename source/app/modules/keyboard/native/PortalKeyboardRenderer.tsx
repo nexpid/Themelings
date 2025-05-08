@@ -28,44 +28,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 2;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.KeyboardTypes;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
-    var _closure1_slot6 = tangon;
+    var _closure1_slot5 = tangon;
     tangon = new Array(0);
-    var _closure1_slot7 = tangon;
+    var _closure1_slot6 = tangon;
     tangon = function(argFoo) { // Original name: transitionGroupGetItemKey
         entity = argFoo;
         entity = entity.id;
         return entity;
     };
-    var _closure1_slot8 = tangon;
+    var _closure1_slot7 = tangon;
     tangon = function(argFoo, argBar, argBaz, argCor) { // Original name: transitionGroupRenderItem
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             michal = argBaz;
             tangon = _closure1_slot0;
             report = _closure1_slot2;
-            entity = 4;
+            entity = 3;
             entity = report[entity];
             oscard = undefined;
             entity = tangon.bind(oscard)(entity);
             entity = entity.TransitionStates;
             entity = entity.YEETED;
             tangon = michal === entity;
-            if(!tangon) { _fun00002_ip = 71; continue _fun00001 }
+            if(!tangon) { _fun00002_ip = 93; continue _fun00001 }
  47:
             entity = _closure1_slot4;
             report = entity.keyboardType;
-            entity = _closure1_slot5;
+            golfie = _closure1_slot0;
+            option = _closure1_slot2;
+            entity = 4;
+            entity = option[entity];
+            entity = golfie.bind(oscard)(entity);
+            entity = entity.KeyboardTypes;
             entity = entity.SYSTEM;
             tangon = report === entity;
- 71:
-            if(!tangon) { _fun00002_ip = 103; continue _fun00001 }
- 74:
+ 93:
+            if(!tangon) { _fun00002_ip = 125; continue _fun00001 }
+ 96:
             report = _closure1_slot0;
             golfie = _closure1_slot2;
             entity = 5;
@@ -73,11 +73,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.bind(oscard)(entity);
             entity = report.isAndroid;
             tangon = entity.bind(report)();
- 103:
+ 125:
             entity = null;
-            if(tangon) { _fun00002_ip = 163; continue _fun00001 }
- 108:
-            report = _closure1_slot6;
+            if(tangon) { _fun00002_ip = 185; continue _fun00001 }
+ 130:
+            report = _closure1_slot5;
             tangon = _closure1_slot1;
             golfie = _closure1_slot2;
             zuuluu = 6;
@@ -91,11 +91,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['cleanUp'] = michal;
             michal = argFoo;
             entity = report.bind(oscard)(tangon, zuuluu, michal);
- 163:
+ 185:
             return entity;
         }
     };
-    var _closure1_slot9 = tangon;
+    var _closure1_slot8 = tangon;
     tangon = 9;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -237,7 +237,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = _closure2_slot2;
                     if(entity) { _fun00008_ip = 29; continue _fun00007 }
  20:
-                    entity = _closure1_slot7;
+                    entity = _closure1_slot6;
                     _fun00008_ip = 44; continue _fun00007;
  29:
                     zuuluu = _closure2_slot1;
@@ -262,19 +262,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.bind(tangon)(entity);
             zuuluu = entity.PortalKeyboard;
  289:
-            michal = _closure1_slot6;
+            michal = _closure1_slot5;
             entity = {};
             oscard = _closure1_slot0;
             verify = _closure1_slot2;
-            report = 4;
+            report = 3;
             report = verify[report];
             report = oscard.bind(tangon)(report);
             oscard = report.TransitionGroup;
             report = {};
             report['items'] = option;
-            option = _closure1_slot8;
+            option = _closure1_slot7;
             report['getItemKey'] = option;
-            golfie = _closure1_slot9;
+            golfie = _closure1_slot8;
             report['renderItem'] = golfie;
             report = michal.bind(tangon)(oscard, report);
             entity['children'] = report;

@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = argBar;
                     option = arguments[4];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 480; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 501; continue _fun00001 }
  19:
                     oscard = undefined;
                     if(!(option === oscard)) { _fun00002_ip = 27; continue _fun00001 }
@@ -32,11 +32,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return oscard;
  31:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 477; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 498; continue _fun00001 }
  40:
                     tangon = _closure1_slot1;
                     report = _closure1_slot2;
-                    zuuluu = 3;
+                    zuuluu = 2;
                     zuuluu = report[zuuluu];
                     tangon = tangon.bind(oscard)(zuuluu);
                     zuuluu = tangon.fetchApplication;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return zuuluu;
  78:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 474; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 495; continue _fun00001 }
  87:
                     tangon = zuuluu.bot;
                     golfie = null;
@@ -56,13 +56,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  104:
                     romeon = tangon.id;
  109:
-                    if(!(golfie != zuuluu)) { _fun00002_ip = 465; continue _fun00001 }
+                    if(!(golfie != zuuluu)) { _fun00002_ip = 486; continue _fun00001 }
  116:
-                    if(!(golfie != romeon)) { _fun00002_ip = 465; continue _fun00001 }
+                    if(!(golfie != romeon)) { _fun00002_ip = 486; continue _fun00001 }
  123:
                     report = _closure1_slot1;
                     verify = _closure1_slot2;
-                    tangon = 4;
+                    tangon = 3;
                     tangon = verify[tangon];
                     verify = report.bind(oscard)(tangon);
                     report = verify.openPrivateChannel;
@@ -74,11 +74,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return tangon;
  165:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 471; continue _fun00001 }
+                    if(report) { _fun00002_ip = 492; continue _fun00001 }
  174:
                     verify = _closure1_slot0;
                     romeon = _closure1_slot2;
-                    report = 5;
+                    report = 4;
                     report = romeon[report];
                     backup = verify.bind(oscard)(report);
                     romeon = backup.getCustomActivityLinkParams;
@@ -90,14 +90,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return report;
  217:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=8);
-                    if(verify) { _fun00002_ip = 468; continue _fun00001 }
+                    if(verify) { _fun00002_ip = 489; continue _fun00001 }
  226:
                     romeon = report.customId;
                     if(option) { _fun00002_ip = 368; continue _fun00001 }
  238:
                     backup = _closure1_slot1;
                     kiloes = _closure1_slot2;
-                    option = 6;
+                    option = 5;
                     option = kiloes[option];
                     verify = backup.bind(oscard)(option);
                     option = {};
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = {};
                     option['locationObject'] = offset;
                     option['channelId'] = tangon;
-                    offset = 7;
+                    offset = 6;
                     offset = kiloes[offset];
                     offset = backup.bind(oscard)(offset);
                     backup = offset.ACTIVITY_BOOKMARK;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset[0] = backup;
                     option['analyticsLocations'] = offset;
                     backup = _closure1_slot0;
-                    offset = 8;
+                    offset = 7;
                     offset = kiloes[offset];
                     offset = backup.bind(oscard)(offset);
                     offset = offset.CommandOrigin;
@@ -127,24 +127,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return option;
  359:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=8);
-                    if(!verify) { _fun00002_ip = 465; continue _fun00001 }
+                    if(!verify) { _fun00002_ip = 486; continue _fun00001 }
  365:
                     return option;
  368:
                     verify = _closure1_slot0;
                     offset = _closure1_slot2;
-                    option = 9;
+                    option = 8;
                     option = offset[option];
                     verify = verify.bind(oscard)(option);
                     option = verify.getBestActiveInput;
                     verify = option.bind(verify)();
-                    if(!(golfie != verify)) { _fun00002_ip = 465; continue _fun00001 }
+                    if(!(golfie != verify)) { _fun00002_ip = 486; continue _fun00001 }
  402:
                     option = verify.openCustomKeyboard;
                     golfie = {};
-                    offset = _closure1_slot5;
+                    backup = _closure1_slot0;
+                    kiloes = _closure1_slot2;
+                    offset = 9;
+                    offset = kiloes[offset];
+                    offset = backup.bind(oscard)(offset);
+                    offset = offset.KeyboardTypes;
                     offset = offset.APP_LAUNCHER;
-                    golfie['keyboardType'] = offset;
+                    golfie['type'] = offset;
                     offset = {};
                     offset['application'] = zuuluu;
                     foxtra = _closure1_slot4;
@@ -154,17 +159,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset['referrerId'] = yankee;
                     golfie['context'] = offset;
                     golfie = option.bind(verify)(golfie);
- 465:
+ 486:
                     return oscard;
- 468:
+ 489:
                     return report;
- 471:
+ 492:
                     return tangon;
- 474:
+ 495:
                     return zuuluu;
- 477:
+ 498:
                     return michal;
- 480:
+ 501:
                     return entity;
                 }
             };
@@ -173,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot6 = tangon;
+        _closure1_slot5 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -181,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot6 = entity;
+    var _closure1_slot5 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -200,11 +205,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.AppLauncherRouteName;
     var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.KeyboardTypes;
-    var _closure1_slot5 = tangon;
     tangon = 10;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     michal = function() { // Original name: openActivityDMLauncher
         entity = undefined;
-        tangon = _closure1_slot6;
+        tangon = _closure1_slot5;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;

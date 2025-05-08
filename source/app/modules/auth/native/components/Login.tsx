@@ -116,8 +116,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot6 = option;
     tangon = tangon.NativeModules;
     var _closure1_slot7 = tangon;
-    offset = 4;
-    tangon = oscard[offset];
+    yankee = 4;
+    tangon = oscard[yankee];
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot8 = tangon;
     tangon = 5;
@@ -138,27 +138,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot12 = tangon;
     tangon = 8;
     tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = {};
-    verify = {};
-    yankee = 32;
-    verify['marginTop'] = yankee;
-    tangon['login'] = verify;
-    verify = {};
-    yankee = 24;
-    verify['marginTop'] = yankee;
-    tangon['password'] = verify;
-    verify = {'width': '100%', 'marginTop': 16};
-    tangon['button'] = verify;
-    verify = {};
-    verify['marginTop'] = offset;
-    tangon['hint'] = verify;
-    verify = {'alignSelf': 'flex-start', 'paddingVertical': 4};
-    tangon['link'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot13 = tangon;
-    tangon = function(argFoo) { // Original name: HelpLink
+    verify = report.bind(entity)(tangon);
+    option = verify.createStyles;
+    golfie = {};
+    offset = {};
+    tangon = 32;
+    offset['marginTop'] = tangon;
+    golfie['login'] = offset;
+    offset = {};
+    romeon = 24;
+    offset['marginTop'] = romeon;
+    golfie['password'] = offset;
+    offset = {'width': '100%', 'marginTop': 16};
+    golfie['button'] = offset;
+    offset = {};
+    offset['marginTop'] = yankee;
+    golfie['hint'] = offset;
+    offset = {'alignSelf': 'flex-start', 'paddingVertical': 4};
+    golfie['link'] = offset;
+    golfie = option.bind(verify)(golfie);
+    var _closure1_slot13 = golfie;
+    golfie = function(argFoo) { // Original name: HelpLink
         entity = argFoo;
         report = entity.onPress;
         golfie = entity.text;
@@ -191,8 +191,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot14 = tangon;
-    tangon = 33;
+    var _closure1_slot14 = golfie;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -772,16 +771,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = 25;
             report = foxtra[report];
             oscard = oscard.bind(tangon)(report);
-            report = {'containerStyle': null, 'autoFocus': true, 'textContentType': 'emailAddress'};
+            report = {'containerStyle': null, 'autoFocus': true, 'textContentType': 'emailAddress', 'keyboardType': 'email-address'};
             update = yankee.login;
             report['containerStyle'] = update;
             update = true;
-            papara = 26;
-            papara = foxtra[papara];
-            papara = config.bind(tangon)(papara);
-            papara = papara.KeyboardTypes;
-            papara = papara.EMAIL;
-            report['keyboardType'] = papara;
             cntext = cntext.alpha2;
             report['alpha2'] = cntext;
             report['countryCode'] = record;
@@ -833,7 +826,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = kiloes.bind(tangon)(oscard, report);
             report = new Array(7);
             report[0] = oscard;
-            oscard = 27;
+            oscard = 26;
             oscard = foxtra[oscard];
             oscard = config.bind(tangon)(oscard);
             option = oscard.TextInput;
@@ -870,19 +863,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['label'] = foxtra;
             sequen = _closure1_slot0;
             config = _closure1_slot2;
-            if(result) { _fun00004_ip = 1182; continue _fun00003 }
- 1162:
-            foxtra = 29;
+            if(result) { _fun00004_ip = 1153; continue _fun00003 }
+ 1133:
+            foxtra = 28;
             foxtra = config[foxtra];
             foxtra = sequen.bind(tangon)(foxtra);
             foxtra = foxtra.EyeIcon;
-            _fun00004_ip = 1200; continue _fun00003;
- 1182:
-            vacuum = 28;
+            _fun00004_ip = 1171; continue _fun00003;
+ 1153:
+            vacuum = 27;
             vacuum = config[vacuum];
             vacuum = sequen.bind(tangon)(vacuum);
             foxtra = vacuum.EyeSlashIcon;
- 1200:
+ 1171:
             oscard['trailingIcon'] = foxtra;
             foxtra = {};
             record = _closure1_slot0;
@@ -894,15 +887,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = vacuum[echoed];
             vacuum = record.bind(tangon)(vacuum);
             vacuum = vacuum.t;
-            if(result) { _fun00004_ip = 1264; continue _fun00003 }
- 1251:
+            if(result) { _fun00004_ip = 1235; continue _fun00003 }
+ 1222:
             result = vacuum.nFzpMz;
             result = sequen.bind(config)(result);
-            _fun00004_ip = 1275; continue _fun00003;
- 1264:
+            _fun00004_ip = 1246; continue _fun00003;
+ 1235:
             vacuum = vacuum.Nusip6;
             result = sequen.bind(config)(vacuum);
- 1275:
+ 1246:
             foxtra['accessibilityLabel'] = result;
             result = function() { // Original name: onPress
                 zuuluu = _closure2_slot3;
@@ -964,8 +957,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.isAndroid;
             option = oscard.bind(option)();
             oscard = null;
-            if(!option) { _fun00004_ip = 1565; continue _fun00003 }
- 1483:
+            if(!option) { _fun00004_ip = 1536; continue _fun00003 }
+ 1454:
             kiloes = _closure1_slot11;
             foxtra = _closure1_slot14;
             option = {};
@@ -984,7 +977,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = output.bind(result)(sizing);
             option['text'] = sizing;
             oscard = kiloes.bind(tangon)(foxtra, option);
- 1565:
+ 1536:
             report[3] = oscard;
             foxtra = _closure1_slot11;
             option = _closure1_slot6;
@@ -993,7 +986,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['style'] = kiloes;
             result = _closure1_slot0;
             kiloes = _closure1_slot2;
-            sizing = 30;
+            sizing = 29;
             sizing = kiloes[sizing];
             sizing = result.bind(tangon)(sizing);
             output = sizing.Button;
@@ -1028,7 +1021,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = foxtra.bind(tangon)(option, oscard);
             report[4] = oscard;
             output = _closure1_slot1;
-            sizing = 31;
+            sizing = 30;
             oscard = kiloes[sizing];
             option = output.bind(tangon)(oscard);
             oscard = {};
@@ -1076,16 +1069,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = offset.message;
             option = romeon != oscard;
             oscard = null;
-            if(!option) { _fun00004_ip = 1969; continue _fun00003 }
- 1907:
+            if(!option) { _fun00004_ip = 1940; continue _fun00003 }
+ 1878:
             option = offset.message;
             oscard = null;
-            if(!(verify !== option)) { _fun00004_ip = 1969; continue _fun00003 }
- 1918:
+            if(!(verify !== option)) { _fun00004_ip = 1940; continue _fun00003 }
+ 1889:
             verify = _closure1_slot11;
             option = _closure1_slot1;
             romeon = _closure1_slot2;
-            golfie = 32;
+            golfie = 31;
             golfie = romeon[golfie];
             option = option.bind(tangon)(golfie);
             golfie = {};
@@ -1094,7 +1087,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.message;
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 1969:
+ 1940:
             report[6] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

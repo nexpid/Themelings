@@ -2750,7 +2750,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = tangon.Set;
     tangon = verify.prototype;
     golfie = Object.create(tangon, {constructor: {value: verify}});
-    echoed = ['end', 'loading', 'mentions', 'editCustomStatus', 'icymiHeader', 'recommendedGuilds'];
+    echoed = ['end', 'loading', 'mentions', 'editCustomStatus', 'icymiHeader', 'recommendedGuilds', 'search'];
     update = golfie;
     tangon = new update[verify](echoed, result);
     tangon = tangon instanceof Object ? tangon : golfie;

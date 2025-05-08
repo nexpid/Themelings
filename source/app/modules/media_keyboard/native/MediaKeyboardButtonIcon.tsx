@@ -27,17 +27,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 2;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.KeyboardTypes;
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
-    var _closure1_slot5 = tangon;
+    var _closure1_slot4 = tangon;
     tangon = {};
     golfie = "function MediaKeyboardButtonIconTsx1(){const{withTiming,keyboard,KeyboardTypes,timingStandard}=this.__closure;return{transform:[{rotate:withTiming(keyboard===KeyboardTypes.MEDIA?'45deg':'0deg',timingStandard)}]};}";
     tangon['code'] = golfie;
-    var _closure1_slot6 = tangon;
+    var _closure1_slot5 = tangon;
     tangon = 9;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -49,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             michal = argFoo;
             entity = null;
-            if(!(michal != entity)) { _fun00002_ip = 286; continue _fun00001 }
+            if(!(michal != entity)) { _fun00002_ip = 300; continue _fun00001 }
  14:
             sizing = {};
             report = undefined;
@@ -59,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot0 = report;
             golfie = _closure1_slot0;
             verify = _closure1_slot2;
-            entity = 4;
+            entity = 3;
             entity = verify[entity];
             yankee = golfie.bind(report)(entity);
             offset = yankee.useStateFromStores;
@@ -74,30 +69,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             romeon = offset.bind(yankee)(oscard, entity);
             _closure2_slot0 = romeon;
-            entity = 5;
+            entity = 4;
             oscard = verify[entity];
             offset = golfie.bind(report)(oscard);
             oscard = offset.useAnimatedStyle;
-            tangon = function() { // Original name: u
+            tangon = function() { // Original name: y
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = {};
                     zuuluu = {};
-                    report = _closure1_slot0;
-                    oscard = _closure1_slot2;
-                    tangon = 6;
-                    tangon = oscard[tangon];
+                    golfie = _closure1_slot0;
+                    offset = _closure1_slot2;
+                    tangon = 5;
+                    tangon = offset[tangon];
                     option = undefined;
-                    oscard = report.bind(option)(tangon);
+                    oscard = golfie.bind(option)(tangon);
                     report = oscard.withTiming;
                     verify = _closure2_slot0;
-                    tangon = _closure1_slot4;
+                    tangon = 6;
+                    tangon = offset[tangon];
+                    tangon = golfie.bind(option)(tangon);
+                    tangon = tangon.KeyboardTypes;
                     golfie = tangon.MEDIA;
                     tangon = '0deg';
-                    if(!(verify === golfie)) { _fun00004_ip = 67; continue _fun00003 }
- 61:
+                    if(!(verify === golfie)) { _fun00004_ip = 81; continue _fun00003 }
+ 75:
                     tangon = '45deg';
- 67:
+ 81:
                     golfie = _closure1_slot0;
                     verify = _closure1_slot2;
                     michal = 7;
@@ -113,13 +111,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             yankee = {};
-            foxtra = 6;
+            foxtra = 5;
             foxtra = verify[foxtra];
             foxtra = golfie.bind(report)(foxtra);
             foxtra = foxtra.withTiming;
             yankee['withTiming'] = foxtra;
             yankee['keyboard'] = romeon;
-            romeon = _closure1_slot4;
+            romeon = 6;
+            romeon = verify[romeon];
+            romeon = golfie.bind(report)(romeon);
+            romeon = romeon.KeyboardTypes;
             yankee['KeyboardTypes'] = romeon;
             romeon = 7;
             romeon = verify[romeon];
@@ -129,10 +130,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon['__closure'] = yankee;
             yankee = 14080572312068.0;
             tangon['__workletHash'] = yankee;
-            yankee = _closure1_slot6;
+            yankee = _closure1_slot5;
             tangon['__initData'] = yankee;
             oscard = oscard.bind(offset)(tangon);
-            tangon = _closure1_slot5;
+            tangon = _closure1_slot4;
             zuuluu = _closure1_slot1;
             entity = verify[entity];
             entity = zuuluu.bind(report)(entity);
@@ -151,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, entity);
             return entity;
- 286:
+ 300:
             kiloes = "Cannot destructure 'undefined' or 'null'.";
             sizing = michal;
             entity = throwTypeError(sizing, kiloes);
