@@ -745,10 +745,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option.url;
             entity = backup == zuuluu;
  584:
-            if(michal) { _fun00018_ip = 672; continue _fun00017 }
+            if(michal) { _fun00018_ip = 673; continue _fun00017 }
  587:
             offset = null;
-            if(entity) { _fun00018_ip = 670; continue _fun00017 }
+            if(entity) { _fun00018_ip = 671; continue _fun00017 }
  592:
             zuuluu = _closure1_slot21;
             michal = _closure1_slot1;
@@ -774,9 +774,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = 'cover';
             entity['resizeMode'] = golfie;
             offset = zuuluu.bind(tangon)(michal, entity);
- 670:
-            _fun00018_ip = 704; continue _fun00017;
- 672:
+ 671:
+            _fun00018_ip = 705; continue _fun00017;
+ 673:
             zuuluu = _closure1_slot21;
             michal = _closure1_slot1;
             golfie = _closure1_slot3;
@@ -785,7 +785,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(tangon)(entity);
             entity = {};
             offset = zuuluu.bind(tangon)(michal, entity);
- 704:
+ 705:
             zuuluu = _closure1_slot22;
             michal = _closure1_slot0;
             golfie = _closure1_slot3;
@@ -807,17 +807,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = new Array(2);
             option[0] = foxtra;
             foxtra = backup != result;
-            if(!foxtra) { _fun00018_ip = 804; continue _fun00017 }
- 800:
+            if(!foxtra) { _fun00018_ip = 805; continue _fun00017 }
+ 801:
             foxtra = backup != kiloes;
- 804:
-            if(!foxtra) { _fun00018_ip = 820; continue _fun00017 }
- 807:
+ 805:
+            if(!foxtra) { _fun00018_ip = 821; continue _fun00017 }
+ 808:
             backup = {};
             backup['width'] = result;
             backup['height'] = kiloes;
             foxtra = backup;
- 820:
+ 821:
             option[1] = foxtra;
             report['style'] = option;
             option = new Array(3);
@@ -1099,10 +1099,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = golfie.url;
             entity = kiloes == zuuluu;
  354:
-            if(michal) { _fun00028_ip = 442; continue _fun00027 }
+            if(michal) { _fun00028_ip = 443; continue _fun00027 }
  357:
             foxtra = null;
-            if(entity) { _fun00028_ip = 440; continue _fun00027 }
+            if(entity) { _fun00028_ip = 441; continue _fun00027 }
  362:
             zuuluu = _closure1_slot21;
             michal = _closure1_slot1;
@@ -1128,9 +1128,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = 'cover';
             entity['resizeMode'] = oscard;
             foxtra = zuuluu.bind(tangon)(michal, entity);
- 440:
-            _fun00028_ip = 474; continue _fun00027;
- 442:
+ 441:
+            _fun00028_ip = 475; continue _fun00027;
+ 443:
             zuuluu = _closure1_slot21;
             michal = _closure1_slot1;
             oscard = _closure1_slot3;
@@ -1139,7 +1139,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(tangon)(entity);
             entity = {};
             foxtra = zuuluu.bind(tangon)(michal, entity);
- 474:
+ 475:
             zuuluu = _closure1_slot22;
             michal = _closure1_slot0;
             oscard = _closure1_slot3;
@@ -1160,23 +1160,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = new Array(2);
             option[0] = backup;
             backup = kiloes != output;
-            if(!backup) { _fun00028_ip = 570; continue _fun00027 }
- 566:
+            if(!backup) { _fun00028_ip = 571; continue _fun00027 }
+ 567:
             backup = kiloes != sizing;
- 570:
-            if(!backup) { _fun00028_ip = 586; continue _fun00027 }
- 573:
+ 571:
+            if(!backup) { _fun00028_ip = 587; continue _fun00027 }
+ 574:
             kiloes = {};
             kiloes['width'] = output;
             kiloes['height'] = sizing;
             backup = kiloes;
- 586:
+ 587:
             option[1] = backup;
             report['style'] = option;
             option = new Array(2);
             option[0] = foxtra;
-            if(!yankee) { _fun00028_ip = 666; continue _fun00027 }
- 605:
+            if(!yankee) { _fun00028_ip = 667; continue _fun00027 }
+ 606:
             kiloes = _closure1_slot21;
             backup = _closure1_slot1;
             sizing = _closure1_slot3;
@@ -1191,7 +1191,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = sizing.bind(output)(romeon);
             foxtra['labelType'] = sizing;
             yankee = kiloes.bind(tangon)(backup, foxtra);
- 666:
+ 667:
             option[1] = yankee;
             report['children'] = option;
             oscard = golfie.bind(tangon)(oscard, report);
@@ -1957,7 +1957,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report.guild_id;
  162:
                     michal['guildId'] = tangon;
-                    michal['context'] = result;
                     foxtra = zuuluu.bind(update)(michal);
                     _closure3_slot2 = foxtra;
                     tangon = _closure1_slot0;
@@ -2121,11 +2120,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = oscard.useIsActivitiesInTextEnabled;
                     romeon = result.type;
                     zuuluu = undefined;
-                    if(!(source === romeon)) { _fun00048_ip = 478; continue _fun00047 }
- 468:
+                    if(!(source === romeon)) { _fun00048_ip = 474; continue _fun00047 }
+ 464:
                     romeon = result.channel;
                     zuuluu = romeon.id;
- 478:
+ 474:
                     zuuluu = tangon.bind(oscard)(zuuluu);
                     _closure3_slot7 = zuuluu;
                     romeon = _closure1_slot5;
@@ -2486,19 +2485,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     output = null;
                     config = output == tangon;
                     sequen = undefined;
-                    if(config) { _fun00048_ip = 774; continue _fun00047 }
- 768:
+                    if(config) { _fun00048_ip = 770; continue _fun00047 }
+ 764:
                     sequen = tangon.sections;
- 774:
+ 770:
                     tangon = new Array(2);
                     tangon[0] = sequen;
                     sequen = zuuluu.result;
                     config = output == sequen;
                     zuuluu = undefined;
-                    if(config) { _fun00048_ip = 803; continue _fun00047 }
- 797:
+                    if(config) { _fun00048_ip = 799; continue _fun00047 }
+ 793:
                     zuuluu = sequen.sections;
- 803:
+ 799:
                     tangon[1] = zuuluu;
                     zuuluu = function() {
                         _fun00063: for(var _fun00064_ip = 0; ; ) switch(_fun00064_ip) {
@@ -2606,57 +2605,57 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = update.bind(ctrled)(echoed, zuuluu);
                     update = result.type;
                     echoed = null;
-                    if(!(source === update)) { _fun00048_ip = 883; continue _fun00047 }
- 878:
+                    if(!(source === update)) { _fun00048_ip = 879; continue _fun00047 }
+ 874:
                     echoed = result.channel;
- 883:
+ 879:
                     result = tangon;
-                    if(!result) { _fun00048_ip = 892; continue _fun00047 }
- 889:
+                    if(!result) { _fun00048_ip = 888; continue _fun00047 }
+ 885:
                     result = report;
- 892:
-                    if(result) { _fun00048_ip = 898; continue _fun00047 }
- 895:
+ 888:
+                    if(result) { _fun00048_ip = 894; continue _fun00047 }
+ 891:
                     result = !zuuluu;
- 898:
+ 894:
                     tangon = report;
-                    if(!report) { _fun00048_ip = 907; continue _fun00047 }
- 904:
+                    if(!report) { _fun00048_ip = 903; continue _fun00047 }
+ 900:
                     tangon = !result;
- 907:
-                    if(!tangon) { _fun00048_ip = 930; continue _fun00047 }
- 910:
+ 903:
+                    if(!tangon) { _fun00048_ip = 926; continue _fun00047 }
+ 906:
                     zuuluu = output != echoed;
-                    if(!zuuluu) { _fun00048_ip = 927; continue _fun00047 }
- 917:
+                    if(!zuuluu) { _fun00048_ip = 923; continue _fun00047 }
+ 913:
                     update = echoed.isPrivate;
                     zuuluu = update.bind(echoed)();
- 927:
+ 923:
                     tangon = !zuuluu;
- 930:
-                    if(!tangon) { _fun00048_ip = 936; continue _fun00047 }
- 933:
+ 926:
+                    if(!tangon) { _fun00048_ip = 932; continue _fun00047 }
+ 929:
                     tangon = !kiloes;
- 936:
+ 932:
                     zuuluu = report;
-                    if(!zuuluu) { _fun00048_ip = 945; continue _fun00047 }
- 942:
+                    if(!zuuluu) { _fun00048_ip = 941; continue _fun00047 }
+ 938:
                     zuuluu = result;
- 945:
-                    if(!zuuluu) { _fun00048_ip = 968; continue _fun00047 }
- 948:
+ 941:
+                    if(!zuuluu) { _fun00048_ip = 964; continue _fun00047 }
+ 944:
                     output = output != echoed;
-                    if(!output) { _fun00048_ip = 965; continue _fun00047 }
- 955:
+                    if(!output) { _fun00048_ip = 961; continue _fun00047 }
+ 951:
                     result = echoed.isPrivate;
                     output = result.bind(echoed)();
- 965:
+ 961:
                     zuuluu = !output;
- 968:
-                    if(!zuuluu) { _fun00048_ip = 974; continue _fun00047 }
- 971:
+ 964:
+                    if(!zuuluu) { _fun00048_ip = 970; continue _fun00047 }
+ 967:
                     zuuluu = !kiloes;
- 974:
+ 970:
                     _closure3_slot14 = zuuluu;
                     result = _closure1_slot5;
                     output = result.useMemo;

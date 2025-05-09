@@ -205,12 +205,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00008_ip = 1407; continue _fun00007 }
+                    if(zuuluu) { _fun00008_ip = 1396; continue _fun00007 }
  15:
                     vacuum = michal.channel;
                     output = michal.items;
                     var _closure4_slot0 = output;
-                    sequen = michal.token;
+                    ctrled = michal.token;
                     oscard = michal.parsedMessage;
                     report = michal.flags;
                     tangon = michal.nonce;
@@ -391,7 +391,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return verify;
  192:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00008_ip = 1404; continue _fun00007 }
+                    if(zuuluu) { _fun00008_ip = 1393; continue _fun00007 }
  201:
                     zuuluu = foxtra;
                     kiloes = null;
@@ -417,7 +417,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return zuuluu;
  280:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=15);
-                    if(sizing) { _fun00008_ip = 1401; continue _fun00007 }
+                    if(sizing) { _fun00008_ip = 1390; continue _fun00007 }
  289:
                     if(!(kiloes != zuuluu)) { _fun00008_ip = 441; continue _fun00007 }
  296:
@@ -430,11 +430,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     config = sizing.bind(verify)(output);
                     result = config.bind(verify)();
                     sizing = result.done;
-                    ctrled = 'channelId';
+                    sequen = 'channelId';
                     if(sizing) { _fun00008_ip = 375; continue _fun00007 }
  342:
                     sizing = result.value;
-                    record = ctrled in sizing;
+                    record = sequen in sizing;
                     if(!record) { _fun00008_ip = 360; continue _fun00007 }
  354:
                     sizing['channelId'] = zuuluu;
@@ -448,7 +448,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sizing = {};
                     sizing['channel'] = source;
                     sizing['items'] = output;
-                    sizing['token'] = sequen;
+                    sizing['token'] = ctrled;
                     source = oscard;
                     sizing['parsedMessage'] = source;
                     sizing['flags'] = report;
@@ -561,11 +561,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = sizing.bind(result)(update, report);
                     echoed['flags'] = report;
  760:
-                    source = _closure1_slot0;
+                    result = _closure1_slot0;
                     update = _closure1_slot2;
                     report = 15;
                     report = update[report];
-                    report = source.bind(verify)(report);
+                    report = result.bind(verify)(report);
                     report = report.Future;
                     sizing = report.prototype;
                     sizing = Object.create(sizing, {constructor: {value: report}});
@@ -573,49 +573,49 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = new whisks[report](limora);
                     report = report instanceof Object ? report : sizing;
                     _closure4_slot7 = report;
-                    result = _closure1_slot1;
-                    sizing = 16;
-                    sizing = update[sizing];
-                    record = result.bind(verify)(sizing);
-                    ctrled = {};
-                    config = option;
-                    ctrled['channelId'] = config;
-                    sizing = echoed.content;
-                    ctrled['content'] = sizing;
-                    sizing = echoed.type;
-                    ctrled['type'] = sizing;
-                    sizing = echoed.message_reference;
-                    ctrled['messageReference'] = sizing;
-                    sizing = echoed.flags;
-                    ctrled['flags'] = sizing;
-                    sizing = foxtra;
-                    ctrled['nonce'] = sizing;
+                    sizing = _closure1_slot1;
+                    source = 16;
+                    source = update[source];
+                    record = sizing.bind(verify)(source);
+                    config = {};
+                    sequen = option;
+                    config['channelId'] = sequen;
+                    source = echoed.content;
+                    config['content'] = source;
+                    source = echoed.type;
+                    config['type'] = source;
+                    source = echoed.message_reference;
+                    config['messageReference'] = source;
+                    source = echoed.flags;
+                    config['flags'] = source;
+                    source = foxtra;
+                    config['nonce'] = source;
                     cntext = 17;
                     cntext = update[cntext];
-                    papara = source.bind(verify)(cntext);
+                    papara = result.bind(verify)(cntext);
                     cntext = papara.createPollServerDataFromCreateRequest;
                     cntext = cntext.bind(papara)(tangon);
-                    ctrled['poll'] = cntext;
-                    ctrled = record.bind(verify)(ctrled);
-                    _closure4_slot8 = ctrled;
-                    echoed['nonce'] = sizing;
+                    config['poll'] = cntext;
+                    config = record.bind(verify)(config);
+                    _closure4_slot8 = config;
+                    echoed['nonce'] = source;
                     echoed['poll'] = tangon;
                     tangon = 18;
                     tangon = update[tangon];
-                    ctrled = result.bind(verify)(tangon);
+                    source = sizing.bind(verify)(tangon);
                     sizing = _closure1_slot12;
                     tangon = sizing.MESSAGES;
-                    limora = tangon.bind(sizing)(config);
-                    sizing = ctrled.prototype;
-                    sizing = Object.create(sizing, {constructor: {value: ctrled}});
+                    limora = tangon.bind(sizing)(sequen);
+                    sizing = source.prototype;
+                    sizing = Object.create(sizing, {constructor: {value: source}});
                     whisks = sizing;
-                    sierra = sequen;
-                    tangon = new whisks[ctrled](limora, sierra, status);
+                    sierra = ctrled;
+                    tangon = new whisks[source](limora, sierra, status);
                     sizing = tangon instanceof Object ? tangon : sizing;
                     _closure4_slot10 = sizing;
                     tangon = 19;
                     tangon = update[tangon];
-                    ctrled = source.bind(verify)(tangon);
+                    ctrled = result.bind(verify)(tangon);
                     source = ctrled.maxFileSize;
                     tangon = vacuum.getGuildId;
                     tangon = tangon.bind(vacuum)();
@@ -998,40 +998,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = 28;
                     tangon = update[tangon];
                     update = result.bind(verify)(tangon);
-                    result = update.getCurrentConfig;
-                    tangon = {};
-                    source = 'uploadFiles';
-                    tangon['location'] = source;
+                    result = update.isUploadRefactorEnabled;
+                    tangon = 'uploadFiles';
                     tangon = result.bind(update)(tangon);
-                    tangon = tangon.enabled;
-                    if(tangon) { _fun00008_ip = 1231; continue _fun00007 }
- 1192:
+                    if(tangon) { _fun00008_ip = 1220; continue _fun00007 }
+ 1181:
                     result = sizing.uploadFiles;
                     tangon = {};
                     update = golfie;
                     tangon['handleRequestError'] = update;
                     tangon = result.bind(sizing)(output, echoed, tangon);
-                    SaveGenerator(address=1219);
+                    SaveGenerator(address=1208);
+ 1206:
+                    return tangon;
+ 1208:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=17);
+                    if(!result) { _fun00008_ip = 1368; continue _fun00007 }
  1217:
                     return tangon;
- 1219:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=17);
-                    if(!result) { _fun00008_ip = 1379; continue _fun00007 }
- 1228:
-                    return tangon;
- 1231:
+ 1220:
                     tangon = sizing.uploadFilesSimple;
                     tangon = tangon.bind(sizing)(output);
-                    SaveGenerator(address=1246);
- 1244:
+                    SaveGenerator(address=1235);
+ 1233:
                     return tangon;
- 1246:
+ 1235:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=15);
-                    if(sizing) { _fun00008_ip = 1398; continue _fun00007 }
- 1255:
+                    if(sizing) { _fun00008_ip = 1387; continue _fun00007 }
+ 1244:
                     romeon = tangon;
-                    if(!(kiloes != tangon)) { _fun00008_ip = 1379; continue _fun00007 }
- 1262:
+                    if(!(kiloes != tangon)) { _fun00008_ip = 1368; continue _fun00007 }
+ 1251:
                     kiloes = romeon;
                     romeon = kiloes.map;
                     yankee = function(argFoo, argBar) {
@@ -1048,7 +1045,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     backup = romeon.bind(kiloes)(yankee);
- 1280: // try_start_0
+ 1269: // try_start_0
                     yankee = _closure1_slot1;
                     romeon = _closure1_slot2;
                     offset = 11;
@@ -1066,34 +1063,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     status = undefined;
                     target = oscard;
                     oscard = whisks[yankee](limora, sierra, status, target, papara);
-                    SaveGenerator(address=1347);
- 1345:
+                    SaveGenerator(address=1336);
+ 1334:
                     return oscard;
- 1347:
+ 1336:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
-                    if(option) { _fun00008_ip = 1355; continue _fun00007 }
- 1353: // try_end0
-                    _fun00008_ip = 1379; continue _fun00007;
- 1355:
+                    if(option) { _fun00008_ip = 1344; continue _fun00007 }
+ 1342: // try_end0
+                    _fun00008_ip = 1368; continue _fun00007;
+ 1344:
                     return oscard;
- 1358: // catch_target0
+ 1347: // catch_target0
                     CatchBlockStart(arg_register=5);
                     option = golfie;
                     golfie = oscard.body;
                     oscard = oscard.status;
                     oscard = option.bind(verify)(golfie, oscard);
- 1379:
+ 1368:
                     oscard = report.resolve;
                     oscard = oscard.bind(report)();
                     report = report.promise;
                     return report;
- 1398:
+ 1387:
                     return tangon;
- 1401:
+ 1390:
                     return zuuluu;
- 1404:
+ 1393:
                     return michal;
- 1407:
+ 1396:
                     return entity;
                 }
             };
@@ -1189,7 +1186,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.getToken;
             golfie = entity.bind(michal)();
             entity = null;
-            if(!(entity != golfie)) { _fun00018_ip = 289; continue _fun00017 }
+            if(!(entity != golfie)) { _fun00018_ip = 290; continue _fun00017 }
  32:
             zuuluu = _closure1_slot20;
             michal = {};
@@ -1250,7 +1247,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal['maxSizeCallback'] = tangon;
             entity = zuuluu.bind(entity)(michal);
- 289:
+ 290:
             entity = undefined;
             return entity;
         }

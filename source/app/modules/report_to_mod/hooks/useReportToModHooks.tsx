@@ -41,24 +41,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
+                michal = _closure2_slot0;
+                tangon = null;
+                if(!(tangon != michal)) { _fun00002_ip = 73; continue _fun00001 }
+ 13:
                 zuuluu = _closure1_slot2;
                 michal = zuuluu.getGuild;
                 entity = _closure2_slot0;
                 report = michal.bind(zuuluu)(entity);
-                tangon = null;
                 entity = tangon != report;
-                if(!entity) { _fun00002_ip = 63; continue _fun00001 }
- 33:
+                if(!entity) { _fun00002_ip = 71; continue _fun00001 }
+ 41:
                 michal = report.getModeratorReportingEnabled;
                 michal = michal.bind(report)();
-                if(!michal) { _fun00002_ip = 60; continue _fun00001 }
- 46:
+                if(!michal) { _fun00002_ip = 68; continue _fun00001 }
+ 54:
                 zuuluu = report.getModeratorReportChannelId;
                 zuuluu = zuuluu.bind(report)();
                 michal = tangon != zuuluu;
- 60:
+ 68:
                 entity = michal;
- 63:
+ 71:
+                return entity;
+ 73:
+                entity = false;
                 return entity;
             }
         };

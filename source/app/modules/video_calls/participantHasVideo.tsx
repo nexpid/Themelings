@@ -14,41 +14,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = _closure1_slot4;
             entity = entity.ACTIVITY;
             entity = tangon !== entity;
-            if(!entity) { _fun00002_ip = 47; continue _fun00001 }
+            if(!entity) { _fun00002_ip = 92; continue _fun00001 }
  28:
-            report = zuuluu.type;
-            tangon = _closure1_slot4;
-            tangon = tangon.PRESENCE_EMBEDDED_ACTIVITY;
-            entity = report !== tangon;
- 47:
-            if(!entity) { _fun00002_ip = 114; continue _fun00001 }
- 50:
             michal = _closure1_slot5;
             tangon = undefined;
             michal = michal.bind(tangon)(zuuluu);
-            if(michal) { _fun00002_ip = 99; continue _fun00001 }
- 64:
+            if(michal) { _fun00002_ip = 77; continue _fun00001 }
+ 42:
             report = zuuluu.voiceState;
             michal = null;
             oscard = michal == report;
             tangon = undefined;
-            if(oscard) { _fun00002_ip = 87; continue _fun00001 }
- 81:
+            if(oscard) { _fun00002_ip = 65; continue _fun00001 }
+ 59:
             tangon = report.selfVideo;
- 87:
+ 65:
             michal = michal != tangon;
-            if(!michal) { _fun00002_ip = 97; continue _fun00001 }
- 94:
+            if(!michal) { _fun00002_ip = 75; continue _fun00001 }
+ 72:
             michal = tangon;
- 97:
-            _fun00002_ip = 111; continue _fun00001;
- 99:
+ 75:
+            _fun00002_ip = 89; continue _fun00001;
+ 77:
             tangon = zuuluu.streamId;
             zuuluu = null;
             michal = zuuluu != tangon;
- 111:
+ 89:
             entity = michal;
- 114:
+ 92:
             return entity;
         }
     };

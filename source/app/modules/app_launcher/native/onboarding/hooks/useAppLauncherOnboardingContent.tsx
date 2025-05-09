@@ -246,48 +246,48 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     entity = argFoo;
-                    oscard = entity.channel;
-                    zuuluu = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    golfie = 4;
-                    michal = tangon[golfie];
+                    michal = entity.channel;
+                    tangon = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    oscard = 4;
+                    zuuluu = golfie[oscard];
                     verify = undefined;
-                    offset = zuuluu.bind(verify)(michal);
+                    offset = tangon.bind(verify)(zuuluu);
                     option = offset.useIsDismissibleContentDismissed;
-                    michal = 5;
-                    report = tangon[michal];
-                    report = zuuluu.bind(verify)(report);
+                    zuuluu = 5;
+                    report = golfie[zuuluu];
+                    report = tangon.bind(verify)(report);
                     report = report.DismissibleContent;
                     report = report.APP_LAUNCHER_ONBOARDING_ACTIVITIES_BANNER;
                     report = option.bind(offset)(report);
-                    golfie = tangon[golfie];
-                    option = zuuluu.bind(verify)(golfie);
-                    golfie = option.useIsDismissibleContentDismissed;
-                    michal = tangon[michal];
-                    michal = zuuluu.bind(verify)(michal);
-                    michal = michal.DismissibleContent;
-                    michal = michal.APP_LAUNCHER_ONBOARDING_APPS_BANNER;
-                    offset = golfie.bind(option)(michal);
-                    michal = 6;
-                    michal = tangon[michal];
-                    golfie = zuuluu.bind(verify)(michal);
-                    tangon = golfie.useStateFromStores;
-                    michal = _closure1_slot4;
-                    zuuluu = new Array(1);
-                    zuuluu[0] = michal;
-                    michal = function() {
+                    oscard = golfie[oscard];
+                    option = tangon.bind(verify)(oscard);
+                    oscard = option.useIsDismissibleContentDismissed;
+                    zuuluu = golfie[zuuluu];
+                    zuuluu = tangon.bind(verify)(zuuluu);
+                    zuuluu = zuuluu.DismissibleContent;
+                    zuuluu = zuuluu.APP_LAUNCHER_ONBOARDING_APPS_BANNER;
+                    oscard = oscard.bind(option)(zuuluu);
+                    zuuluu = 6;
+                    zuuluu = golfie[zuuluu];
+                    option = tangon.bind(verify)(zuuluu);
+                    golfie = option.useStateFromStores;
+                    zuuluu = _closure1_slot4;
+                    tangon = new Array(1);
+                    tangon[0] = zuuluu;
+                    zuuluu = function() {
                         michal = _closure1_slot4;
                         entity = michal.getApplicationFrecencyWithoutLoadingLatest;
                         entity = entity.bind(michal)();
                         return entity;
                     };
-                    option = tangon.bind(golfie)(zuuluu, michal);
+                    option = golfie.bind(option)(tangon, zuuluu);
                     golfie = null;
-                    michal = golfie == oscard;
-                    yankee = undefined;
-                    if(michal) { _fun00010_ip = 169; continue _fun00009 }
+                    zuuluu = golfie == michal;
+                    offset = undefined;
+                    if(zuuluu) { _fun00010_ip = 169; continue _fun00009 }
  164:
-                    yankee = oscard.guild_id;
+                    offset = michal.guild_id;
  169:
                     michal = _closure1_slot7;
                     zuuluu = _closure1_slot0;
@@ -297,40 +297,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = zuuluu.bind(verify)(entity);
                     zuuluu = tangon.useActivityApplications;
                     entity = {};
-                    entity['guildId'] = yankee;
+                    entity['guildId'] = offset;
                     if(!report) { _fun00010_ip = 211; continue _fun00009 }
  208:
-                    report = offset;
+                    report = oscard;
  211:
                     report = !report;
                     entity['fetchesShelf'] = report;
-                    report = {};
-                    report['channel'] = oscard;
-                    oscard = 'channel';
-                    report['type'] = oscard;
-                    entity['context'] = report;
                     entity = zuuluu.bind(tangon)(entity);
                     oscard = michal.bind(verify)(entity);
                     michal = oscard.bind(verify)();
                     entity = michal.done;
                     zuuluu = michal;
                     michal = false;
-                    if(entity) { _fun00010_ip = 311; continue _fun00009 }
- 264:
+                    if(entity) { _fun00010_ip = 293; continue _fun00009 }
+ 246:
                     entity = zuuluu.value;
                     offset = option.getEntry;
                     entity = entity.id;
                     entity = offset.bind(option)(entity);
                     entity = golfie != entity;
                     michal = true;
-                    if(entity) { _fun00010_ip = 311; continue _fun00009 }
- 294:
+                    if(entity) { _fun00010_ip = 293; continue _fun00009 }
+ 276:
                     offset = oscard.bind(verify)();
                     entity = offset.done;
                     zuuluu = offset;
                     michal = false;
-                    if(!entity) { _fun00010_ip = 264; continue _fun00009 }
- 311:
+                    if(!entity) { _fun00010_ip = 246; continue _fun00009 }
+ 293:
                     entity = {};
                     entity['hasUsedActivities'] = michal;
                     return entity;

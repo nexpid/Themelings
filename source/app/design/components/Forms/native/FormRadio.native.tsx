@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = golfie;
     var _closure1_slot6 = tangon;
     tangon = {};
-    golfie = "function FormRadioNativeTsx2(){const{withSpring,selected,SUBTLE_SPRING,useReducedMotion}=this.__closure;const defaultAnimation={opacity:withSpring(selected?1:0,SUBTLE_SPRING,'animate-always')};if(useReducedMotion){return defaultAnimation;}return{...defaultAnimation,transform:[{scale:withSpring(selected?1:0.5,SUBTLE_SPRING)}]};}";
+    golfie = "function FormRadioNativeTsx2(){const{useReducedMotion,withSpring,selected,SUBTLE_SPRING}=this.__closure;const unselectedScale=useReducedMotion?1:0.5;return{opacity:withSpring(selected?1:0,SUBTLE_SPRING,'animate-always'),transform:[{scale:withSpring(selected?1:unselectedScale,SUBTLE_SPRING)}]};}";
     tangon['code'] = golfie;
     var _closure1_slot7 = tangon;
     tangon = 8;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = verify[michal];
             zuuluu = golfie.bind(option)(michal);
             michal = zuuluu.useAnimatedStyle;
-            entity = function() { // Original name: u
+            entity = function() { // Original name: S
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = {};
@@ -203,94 +203,87 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         };
         yankee = oscard.bind(tangon)(report);
         michal = function(argFoo, argBar) { // Original name: useRadioDotStyles
-            oscard = argFoo;
-            golfie = argBar;
-            var _closure3_slot0 = oscard;
-            var _closure3_slot1 = golfie;
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
+            offset = argFoo;
+            oscard = argBar;
+            var _closure3_slot0 = offset;
+            var _closure3_slot1 = oscard;
+            option = _closure1_slot0;
+            verify = _closure1_slot2;
             michal = 5;
-            michal = offset[michal];
-            option = undefined;
-            zuuluu = verify.bind(option)(michal);
+            michal = verify[michal];
+            golfie = undefined;
+            zuuluu = option.bind(golfie)(michal);
             michal = zuuluu.useAnimatedStyle;
             entity = function() { // Original name: n
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
+                    entity = _closure3_slot0;
+                    golfie = 0.5;
+                    if(!entity) { _fun00004_ip = 23; continue _fun00003 }
+ 20:
+                    golfie = 1;
+ 23:
+                    entity = {};
+                    report = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
+                    offset = 6;
+                    zuuluu = zuuluu[offset];
+                    option = undefined;
+                    backup = report.bind(option)(zuuluu);
+                    foxtra = backup.withSpring;
+                    zuuluu = _closure3_slot1;
+                    romeon = 0;
+                    if(!zuuluu) { _fun00004_ip = 67; continue _fun00003 }
+ 64:
+                    romeon = 1;
+ 67:
+                    oscard = _closure1_slot0;
+                    report = _closure1_slot2;
+                    verify = 7;
+                    zuuluu = report[verify];
+                    zuuluu = oscard.bind(option)(zuuluu);
+                    yankee = zuuluu.SUBTLE_SPRING;
+                    zuuluu = 'animate-always';
+                    zuuluu = foxtra.bind(backup)(romeon, yankee, zuuluu);
+                    entity['opacity'] = zuuluu;
                     zuuluu = {};
-                    michal = _closure1_slot0;
-                    entity = _closure1_slot2;
-                    option = 6;
-                    entity = entity[option];
-                    verify = undefined;
-                    yankee = michal.bind(verify)(entity);
-                    golfie = yankee.withSpring;
-                    entity = _closure3_slot1;
-                    oscard = 0;
-                    if(!entity) { _fun00004_ip = 47; continue _fun00003 }
- 44:
-                    oscard = 1;
- 47:
-                    michal = _closure1_slot0;
-                    entity = _closure1_slot2;
-                    offset = 7;
-                    entity = entity[offset];
-                    entity = michal.bind(verify)(entity);
-                    michal = entity.SUBTLE_SPRING;
-                    entity = 'animate-always';
-                    entity = golfie.bind(yankee)(oscard, michal, entity);
-                    zuuluu['opacity'] = entity;
-                    michal = _closure3_slot0;
-                    entity = zuuluu;
-                    if(michal) { _fun00004_ip = 210; continue _fun00003 }
- 100:
-                    michal = {};
-                    backup = michal;
-                    foxtra = zuuluu;
-                    zuuluu = copyDataProperties(backup, foxtra);
-                    zuuluu = {};
+                    report = report[offset];
+                    oscard = oscard.bind(option)(report);
+                    report = oscard.withSpring;
+                    offset = _closure3_slot1;
+                    tangon = 1;
+                    if(offset) { _fun00004_ip = 139; continue _fun00003 }
+ 136:
+                    tangon = golfie;
+ 139:
                     golfie = _closure1_slot0;
-                    oscard = _closure1_slot2;
-                    oscard = oscard[option];
-                    golfie = golfie.bind(verify)(oscard);
-                    oscard = golfie.withSpring;
-                    option = _closure3_slot1;
-                    report = 0.5;
-                    if(!option) { _fun00004_ip = 156; continue _fun00003 }
- 153:
-                    report = 1;
- 156:
-                    option = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    tangon = tangon[offset];
-                    tangon = option.bind(verify)(tangon);
-                    tangon = tangon.SUBTLE_SPRING;
-                    tangon = oscard.bind(golfie)(report, tangon);
-                    zuuluu['scale'] = tangon;
-                    tangon = new Array(1);
-                    tangon[0] = zuuluu;
-                    zuuluu = 'transform';
-                    michal[zuuluu] = tangon;
-                    entity = michal;
- 210:
+                    michal = _closure1_slot2;
+                    michal = michal[verify];
+                    michal = golfie.bind(option)(michal);
+                    michal = michal.SUBTLE_SPRING;
+                    michal = report.bind(oscard)(tangon, michal);
+                    zuuluu['scale'] = michal;
+                    michal = new Array(1);
+                    michal[0] = zuuluu;
+                    entity['transform'] = michal;
                     return entity;
                 }
             };
             report = {};
-            yankee = 6;
-            yankee = offset[yankee];
-            yankee = verify.bind(option)(yankee);
-            yankee = yankee.withSpring;
-            report['withSpring'] = yankee;
-            report['selected'] = golfie;
-            golfie = 7;
-            golfie = offset[golfie];
-            golfie = verify.bind(option)(golfie);
-            golfie = golfie.SUBTLE_SPRING;
-            report['SUBTLE_SPRING'] = golfie;
-            report['useReducedMotion'] = oscard;
+            report['useReducedMotion'] = offset;
+            offset = 6;
+            offset = verify[offset];
+            offset = option.bind(golfie)(offset);
+            offset = offset.withSpring;
+            report['withSpring'] = offset;
+            report['selected'] = oscard;
+            oscard = 7;
+            oscard = verify[oscard];
+            oscard = option.bind(golfie)(oscard);
+            oscard = oscard.SUBTLE_SPRING;
+            report['SUBTLE_SPRING'] = oscard;
             entity['__closure'] = report;
-            report = 1030512229703.0;
+            report = 675362542431.0;
             entity['__workletHash'] = report;
             tangon = _closure1_slot7;
             entity['__initData'] = tangon;

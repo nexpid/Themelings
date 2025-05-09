@@ -665,8 +665,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = undefined;
             sizing = entity.bind(tangon)();
             michal = _closure1_slot4;
-            entity = michal.createRef;
-            yankee = entity.bind(michal)();
+            entity = michal.useRef;
+            echoed = null;
+            yankee = entity.bind(michal)(echoed);
             var _closure2_slot0 = yankee;
             report = _closure1_slot0;
             golfie = _closure1_slot2;
@@ -729,7 +730,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             zuuluu = verify.bind(offset)(golfie, zuuluu, report);
-            echoed = null;
             if(!(echoed != zuuluu)) { _fun00012_ip = 169; continue _fun00011 }
  166:
             entity = zuuluu;

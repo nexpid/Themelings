@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             michal = argFoo;
-            yankee = michal.guildId;
+            offset = michal.guildId;
             golfie = michal.enableFilter;
             option = undefined;
             if(!(golfie === option)) { _fun00008_ip = 26; continue _fun00007 }
@@ -219,7 +219,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = false;
  26:
             var _closure2_slot0 = golfie;
-            offset = michal.context;
             var _closure2_slot1 = option;
             var _closure2_slot2 = option;
             var _closure2_slot3 = option;
@@ -227,8 +226,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = _closure1_slot2;
             zuuluu = 2;
             zuuluu = verify[zuuluu];
-            romeon = tangon.bind(option)(zuuluu);
-            oscard = romeon.useStateFromStoresObject;
+            yankee = tangon.bind(option)(zuuluu);
+            oscard = yankee.useStateFromStoresObject;
             zuuluu = _closure1_slot4;
             report = new Array(1);
             report[0] = zuuluu;
@@ -240,14 +239,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['filter'] = michal;
                 return entity;
             };
-            zuuluu = oscard.bind(romeon)(report, zuuluu);
+            zuuluu = oscard.bind(yankee)(report, zuuluu);
             oscard = zuuluu.filter;
             _closure2_slot1 = oscard;
             zuuluu = 3;
             zuuluu = verify[zuuluu];
             report = tangon.bind(option)(zuuluu);
             zuuluu = report.useActivityShelfData;
-            report = zuuluu.bind(report)(yankee, offset);
+            report = zuuluu.bind(report)(offset);
             offset = _closure1_slot1;
             zuuluu = 4;
             zuuluu = verify[zuuluu];

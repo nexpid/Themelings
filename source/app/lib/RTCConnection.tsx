@@ -3162,12 +3162,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     golfie = report.state;
                     zuuluu = _closure1_slot22;
                     zuuluu = zuuluu.DISCONNECTED;
-                    if(!(golfie !== zuuluu)) { _fun00092_ip = 1996; continue _fun00091 }
+                    if(!(golfie !== zuuluu)) { _fun00092_ip = 2023; continue _fun00091 }
  430:
                     golfie = report._videoQuality;
                     var _closure3_slot3 = golfie;
-                    offset = null;
-                    if(!(offset != golfie)) { _fun00092_ip = 534; continue _fun00091 }
+                    verify = null;
+                    if(!(verify != golfie)) { _fun00092_ip = 534; continue _fun00091 }
  446:
                     option = report.context;
                     zuuluu = _closure1_slot25;
@@ -3180,8 +3180,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     if(!zuuluu) { _fun00092_ip = 509; continue _fun00091 }
  484:
                     zuuluu = golfie.getOutboundStats;
-                    verify = zuuluu.bind(golfie)();
-                    option = verify.forEach;
+                    offset = zuuluu.bind(golfie)();
+                    option = offset.forEach;
                     zuuluu = function(argFoo) {
                         _fun00093: for(var _fun00094_ip = 0; ; ) switch(_fun00094_ip) {
  0:
@@ -3277,7 +3277,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             return entity;
                         }
                     };
-                    zuuluu = option.bind(verify)(zuuluu);
+                    zuuluu = option.bind(offset)(zuuluu);
  509:
                     zuuluu = golfie.getInboundParticipants;
                     option = zuuluu.bind(golfie)();
@@ -3460,18 +3460,18 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     golfie = _closure1_slot15;
                     zuuluu = golfie.getSettings;
                     option = zuuluu.bind(golfie)();
-                    verify = _closure1_slot14;
-                    golfie = verify.getChannel;
+                    offset = _closure1_slot14;
+                    golfie = offset.getChannel;
                     zuuluu = report.channelId;
-                    yankee = golfie.bind(verify)(zuuluu);
-                    verify = _closure1_slot11;
-                    golfie = verify.getConnectionStats;
+                    yankee = golfie.bind(offset)(zuuluu);
+                    offset = _closure1_slot11;
+                    golfie = offset.getConnectionStats;
                     zuuluu = report.getMediaEngineConnectionId;
                     zuuluu = zuuluu.bind(report)();
-                    zuuluu = golfie.bind(verify)(zuuluu);
-                    foxtra = offset == zuuluu;
+                    zuuluu = golfie.bind(offset)(zuuluu);
+                    foxtra = verify == zuuluu;
                     golfie = undefined;
-                    verify = undefined;
+                    offset = undefined;
                     if(foxtra) { _fun00092_ip = 765; continue _fun00091 }
  717:
                     zuuluu = zuuluu.stats;
@@ -3486,11 +3486,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         return entity;
                     };
                     zuuluu = foxtra.bind(kiloes)(zuuluu);
-                    foxtra = offset == zuuluu;
-                    verify = undefined;
+                    foxtra = verify == zuuluu;
+                    offset = undefined;
                     if(foxtra) { _fun00092_ip = 765; continue _fun00091 }
  759:
-                    verify = zuuluu.sampleRateMismatchPercent;
+                    offset = zuuluu.sampleRateMismatchPercent;
  765:
                     zuuluu = {};
                     foxtra = report._getAnalyticsProperties;
@@ -3515,7 +3515,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     foxtra = 'duration';
                     zuuluu[foxtra] = backup;
                     kiloes = report._voiceQuality;
-                    backup = offset == kiloes;
+                    backup = verify == kiloes;
                     foxtra = undefined;
                     if(backup) { _fun00092_ip = 893; continue _fun00091 }
  881:
@@ -3526,7 +3526,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     source = foxtra;
                     foxtra = copyDataProperties(ctrled, source);
                     kiloes = report._voiceQuality;
-                    backup = offset == kiloes;
+                    backup = verify == kiloes;
                     foxtra = undefined;
                     if(backup) { _fun00092_ip = 928; continue _fun00091 }
  918:
@@ -3537,7 +3537,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     source = foxtra;
                     foxtra = copyDataProperties(ctrled, source);
                     kiloes = report._voiceQuality;
-                    backup = offset == kiloes;
+                    backup = verify == kiloes;
                     foxtra = undefined;
                     if(backup) { _fun00092_ip = 965; continue _fun00091 }
  953:
@@ -3548,7 +3548,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     source = foxtra;
                     foxtra = copyDataProperties(ctrled, source);
                     kiloes = report._voiceQuality;
-                    backup = offset == kiloes;
+                    backup = verify == kiloes;
                     foxtra = undefined;
                     if(backup) { _fun00092_ip = 1002; continue _fun00091 }
  990:
@@ -3559,7 +3559,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     source = foxtra;
                     foxtra = copyDataProperties(ctrled, source);
                     kiloes = report._voiceQuality;
-                    backup = offset == kiloes;
+                    backup = verify == kiloes;
                     foxtra = undefined;
                     if(backup) { _fun00092_ip = 1037; continue _fun00091 }
  1027:
@@ -3570,7 +3570,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     source = foxtra;
                     foxtra = copyDataProperties(ctrled, source);
                     kiloes = report._voiceQuality;
-                    backup = offset == kiloes;
+                    backup = verify == kiloes;
                     foxtra = undefined;
                     if(backup) { _fun00092_ip = 1074; continue _fun00091 }
  1062:
@@ -3581,7 +3581,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     source = foxtra;
                     foxtra = copyDataProperties(ctrled, source);
                     kiloes = report._voiceQuality;
-                    backup = offset == kiloes;
+                    backup = verify == kiloes;
                     foxtra = undefined;
                     if(backup) { _fun00092_ip = 1111; continue _fun00091 }
  1099:
@@ -3592,7 +3592,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     source = foxtra;
                     foxtra = copyDataProperties(ctrled, source);
                     kiloes = report._voiceQuality;
-                    backup = offset == kiloes;
+                    backup = verify == kiloes;
                     foxtra = undefined;
                     if(backup) { _fun00092_ip = 1146; continue _fun00091 }
  1136:
@@ -3603,7 +3603,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     source = foxtra;
                     foxtra = copyDataProperties(ctrled, source);
                     kiloes = report._voiceQuality;
-                    backup = offset == kiloes;
+                    backup = verify == kiloes;
                     foxtra = undefined;
                     if(backup) { _fun00092_ip = 1183; continue _fun00091 }
  1171:
@@ -3614,7 +3614,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     source = foxtra;
                     foxtra = copyDataProperties(ctrled, source);
                     kiloes = report._voiceQuality;
-                    backup = offset == kiloes;
+                    backup = verify == kiloes;
                     foxtra = undefined;
                     if(backup) { _fun00092_ip = 1220; continue _fun00091 }
  1208:
@@ -3625,7 +3625,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     source = foxtra;
                     foxtra = copyDataProperties(ctrled, source);
                     kiloes = report._voiceQuality;
-                    backup = offset == kiloes;
+                    backup = verify == kiloes;
                     foxtra = undefined;
                     if(backup) { _fun00092_ip = 1257; continue _fun00091 }
  1245:
@@ -3636,7 +3636,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     source = foxtra;
                     foxtra = copyDataProperties(ctrled, source);
                     kiloes = report._voiceDuration;
-                    backup = offset == kiloes;
+                    backup = verify == kiloes;
                     foxtra = undefined;
                     if(backup) { _fun00092_ip = 1292; continue _fun00091 }
  1282:
@@ -3651,7 +3651,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     ctrled = zuuluu;
                     foxtra = copyDataProperties(ctrled, source);
                     kiloes = report._systemResponsiveness;
-                    backup = offset == kiloes;
+                    backup = verify == kiloes;
                     foxtra = undefined;
                     if(backup) { _fun00092_ip = 1346; continue _fun00091 }
  1334:
@@ -3665,7 +3665,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     backup = foxtra.bind(report)();
                     foxtra = 'media_session_id';
                     zuuluu[foxtra] = backup;
-                    backup = offset != yankee;
+                    backup = verify != yankee;
                     foxtra = null;
                     if(!backup) { _fun00092_ip = 1390; continue _fun00091 }
  1384:
@@ -3748,46 +3748,51 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     yankee = 'device_performance_class';
                     zuuluu[yankee] = romeon;
                     yankee = report._connection;
-                    romeon = offset != yankee;
+                    romeon = verify != yankee;
                     yankee = null;
                     if(!romeon) { _fun00092_ip = 1831; continue _fun00091 }
  1801:
                     foxtra = report._connection;
-                    romeon = offset == foxtra;
-                    offset = undefined;
+                    romeon = verify == foxtra;
+                    verify = undefined;
                     if(romeon) { _fun00092_ip = 1828; continue _fun00091 }
  1816:
                     romeon = foxtra.getNumFastUdpReconnects;
-                    offset = romeon.bind(foxtra)();
+                    verify = romeon.bind(foxtra)();
  1828:
-                    yankee = offset;
+                    yankee = verify;
  1831:
-                    offset = 'num_fast_udp_reconnects';
-                    zuuluu[offset] = yankee;
+                    verify = 'num_fast_udp_reconnects';
+                    zuuluu[verify] = yankee;
                     yankee = report.parentMediaSessionId;
-                    offset = 'parent_media_session_id';
-                    zuuluu[offset] = yankee;
-                    yankee = _closure1_slot15;
-                    offset = yankee.getMediaEngine;
-                    romeon = offset.bind(yankee)();
-                    offset = romeon.getAudioSubsystem;
-                    romeon = offset.bind(romeon)();
-                    offset = 'audio_subsystem';
-                    zuuluu[offset] = romeon;
-                    offset = yankee.getMediaEngine;
-                    yankee = offset.bind(yankee)();
-                    offset = yankee.getAudioLayer;
-                    yankee = offset.bind(yankee)();
-                    offset = 'audio_layer';
-                    zuuluu[offset] = yankee;
-                    offset = option.automaticAudioSubsystem;
+                    verify = 'parent_media_session_id';
+                    zuuluu[verify] = yankee;
+                    verify = _closure1_slot15;
+                    yankee = verify.getMediaEngine;
+                    romeon = yankee.bind(verify)();
+                    yankee = romeon.getAudioSubsystem;
+                    romeon = yankee.bind(romeon)();
+                    yankee = 'audio_subsystem';
+                    zuuluu[yankee] = romeon;
+                    yankee = verify.getMediaEngine;
+                    romeon = yankee.bind(verify)();
+                    yankee = romeon.getAudioLayer;
+                    romeon = yankee.bind(romeon)();
+                    yankee = 'audio_layer';
+                    zuuluu[yankee] = romeon;
+                    yankee = option.automaticAudioSubsystem;
                     option = 'automatic_audio_subsystem';
-                    zuuluu[option] = offset;
+                    zuuluu[option] = yankee;
                     option = report.getVoiceParticipantType;
-                    offset = option.bind(report)();
+                    yankee = option.bind(report)();
                     option = 'participant_type';
-                    zuuluu[option] = offset;
+                    zuuluu[option] = yankee;
                     option = 'audio_capture_sample_rate_mismatch_percent';
+                    zuuluu[option] = offset;
+                    option = verify.getState;
+                    option = option.bind(verify)();
+                    verify = option.krispVersion;
+                    option = 'krisp_sdk_version';
                     zuuluu[option] = verify;
                     var _closure3_slot5 = zuuluu;
                     zuuluu = function() {
@@ -3873,7 +3878,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         return entity;
                     };
                     entity = zuuluu.bind(golfie)(entity);
- 1996:
+ 2023:
                     entity = new Array(0);
                     report['_pingTimeouts'] = entity;
                     entity = new Array(0);
@@ -3886,11 +3891,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     zuuluu = null;
                     report['_mediaSessionId'] = zuuluu;
                     option = report._voiceQuality;
-                    if(!(zuuluu != option)) { _fun00092_ip = 2066; continue _fun00091 }
- 2056:
+                    if(!(zuuluu != option)) { _fun00092_ip = 2093; continue _fun00091 }
+ 2083:
                     entity = option.stop;
                     entity = entity.bind(option)();
- 2066:
+ 2093:
                     report['_voiceQuality'] = zuuluu;
                     verify = tangon.clearInterval;
                     option = report._voiceQualityPeriodicStatsInterval;
@@ -3900,26 +3905,26 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     report['_voiceQualityPeriodicStatsSequenceId'] = golfie;
                     report['_noiseCancellationError'] = golfie;
                     option = report._voiceDuration;
-                    if(!(zuuluu != option)) { _fun00092_ip = 2129; continue _fun00091 }
- 2119:
+                    if(!(zuuluu != option)) { _fun00092_ip = 2156; continue _fun00091 }
+ 2146:
                     golfie = option.stop;
                     golfie = golfie.bind(option)();
- 2129:
+ 2156:
                     report['_voiceDuration'] = zuuluu;
                     option = report._videoQuality;
-                    if(!(zuuluu != option)) { _fun00092_ip = 2155; continue _fun00091 }
- 2145:
+                    if(!(zuuluu != option)) { _fun00092_ip = 2182; continue _fun00091 }
+ 2172:
                     golfie = option.stop;
                     golfie = golfie.bind(option)();
- 2155:
+ 2182:
                     report['_videoQuality'] = zuuluu;
                     report['_videoHealthManager'] = zuuluu;
                     option = report._localMediaSinkWantsManager;
-                    if(!(zuuluu != option)) { _fun00092_ip = 2187; continue _fun00091 }
- 2177:
+                    if(!(zuuluu != option)) { _fun00092_ip = 2214; continue _fun00091 }
+ 2204:
                     golfie = option.reset;
                     golfie = golfie.bind(option)();
- 2187:
+ 2214:
                     report['_secureFramesState'] = zuuluu;
                     option = tangon.Set;
                     golfie = report.userId;
@@ -3936,13 +3941,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     tangon = golfie.clear;
                     tangon = tangon.bind(golfie)();
                     tangon = report._connection;
-                    if(!(zuuluu != tangon)) { _fun00092_ip = 2289; continue _fun00091 }
- 2267:
+                    if(!(zuuluu != tangon)) { _fun00092_ip = 2316; continue _fun00091 }
+ 2294:
                     tangon = report._connection;
                     report['_connection'] = zuuluu;
                     zuuluu = tangon.destroy;
                     zuuluu = zuuluu.bind(tangon)();
- 2289:
+ 2316:
                     tangon = report.setState;
                     michal = _closure1_slot22;
                     zuuluu = michal.DISCONNECTED;

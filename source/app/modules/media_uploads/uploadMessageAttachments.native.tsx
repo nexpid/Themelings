@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 324; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 336; continue _fun00001 }
  15:
                     zuuluu = michal.channelId;
                     var _closure4_slot0 = zuuluu;
@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     var _closure4_slot1 = zuuluu;
                     verify = michal.nonce;
                     var _closure4_slot2 = verify;
-                    oscard = michal.items;
+                    golfie = michal.items;
                     zuuluu = undefined;
                     var _closure4_slot3 = zuuluu;
                     var _closure4_slot4 = zuuluu;
@@ -35,30 +35,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  63:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 321; continue _fun00001 }
+                    if(report) { _fun00002_ip = 333; continue _fun00001 }
  72:
                     option = _closure1_slot5;
-                    golfie = option.has;
-                    golfie = golfie.bind(option)(verify);
-                    if(golfie) { _fun00002_ip = 318; continue _fun00001 }
+                    oscard = option.has;
+                    oscard = oscard.bind(option)(verify);
+                    if(oscard) { _fun00002_ip = 330; continue _fun00001 }
  95:
-                    golfie = _closure1_slot1;
+                    oscard = _closure1_slot1;
                     option = _closure1_slot2;
                     report = 2;
                     report = option[report];
-                    option = golfie.bind(zuuluu)(report);
+                    option = oscard.bind(zuuluu)(report);
                     report = option.prototype;
-                    golfie = Object.create(report, {constructor: {value: option}});
+                    oscard = Object.create(report, {constructor: {value: option}});
                     report = 'missing';
-                    romeon = golfie;
+                    romeon = oscard;
                     yankee = report;
                     offset = report;
                     report = new romeon[option](yankee, offset, verify);
-                    report = report instanceof Object ? report : golfie;
-                    _closure4_slot4 = report;
-                    verify = report.on;
+                    oscard = report instanceof Object ? report : oscard;
+                    _closure4_slot4 = oscard;
+                    verify = oscard.on;
                     option = 'start';
-                    golfie = function(argFoo) {
+                    report = function(argFoo) {
                         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                             oscard = argFoo;
@@ -113,10 +113,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             return entity;
                         }
                     };
-                    golfie = verify.bind(report)(option, golfie);
-                    verify = report.on;
+                    report = verify.bind(oscard)(option, report);
+                    verify = oscard.on;
                     option = 'compression-progress';
-                    golfie = function(argFoo) {
+                    report = function(argFoo) {
                         zuuluu = _closure1_slot1;
                         michal = _closure1_slot2;
                         entity = 4;
@@ -134,10 +134,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal = zuuluu.bind(tangon)(michal);
                         return entity;
                     };
-                    golfie = verify.bind(report)(option, golfie);
-                    verify = report.on;
+                    report = verify.bind(oscard)(option, report);
+                    verify = oscard.on;
                     option = 'progress';
-                    golfie = function(argFoo) {
+                    report = function(argFoo) {
                         zuuluu = _closure1_slot1;
                         michal = _closure1_slot2;
                         entity = 4;
@@ -155,10 +155,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal = zuuluu.bind(tangon)(michal);
                         return entity;
                     };
-                    golfie = verify.bind(report)(option, golfie);
-                    verify = report.on;
+                    report = verify.bind(oscard)(option, report);
+                    verify = oscard.on;
                     option = 'error';
-                    golfie = function(argFoo) {
+                    report = function(argFoo) {
                         tangon = _closure1_slot5;
                         zuuluu = tangon.delete;
                         michal = _closure4_slot2;
@@ -185,10 +185,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal = zuuluu.bind(tangon)(michal);
                         return entity;
                     };
-                    golfie = verify.bind(report)(option, golfie);
-                    verify = report.on;
+                    report = verify.bind(oscard)(option, report);
+                    verify = oscard.on;
                     option = 'complete';
-                    golfie = function(argFoo) {
+                    report = function(argFoo) {
                         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                             golfie = argFoo;
@@ -252,9 +252,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             return entity;
                         }
                     };
-                    golfie = verify.bind(report)(option, golfie);
-                    option = report.on;
-                    golfie = 'cancel-upload-item';
+                    report = verify.bind(oscard)(option, report);
+                    option = oscard.on;
+                    report = 'cancel-upload-item';
                     tangon = function(argFoo) {
                         zuuluu = _closure1_slot1;
                         michal = _closure1_slot2;
@@ -273,24 +273,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal = zuuluu.bind(tangon)(michal);
                         return entity;
                     };
-                    tangon = option.bind(report)(golfie, tangon);
-                    tangon = report.uploadFilesSimple;
-                    tangon = tangon.bind(report)(oscard);
-                    SaveGenerator(address=306);
- 304:
-                    return tangon;
+                    tangon = option.bind(oscard)(report, tangon);
+                    report = {};
+                    tangon = oscard.uploadFilesSimple;
+                    tangon = tangon.bind(oscard)(golfie);
+                    SaveGenerator(address=308);
  306:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 315; continue _fun00001 }
- 312:
                     return tangon;
- 315:
+ 308:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
+                    if(golfie) { _fun00002_ip = 327; continue _fun00001 }
+ 314:
+                    report['attachments'] = tangon;
+                    report['uploader'] = oscard;
+                    return report;
+ 327:
                     return tangon;
- 318:
+ 330:
                     return zuuluu;
- 321:
+ 333:
                     return michal;
- 324:
+ 336:
                     return entity;
                 }
             };

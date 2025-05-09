@@ -48,12 +48,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.bind(report)(entity);
             michal = zuuluu.useActivityApplications;
             entity = {};
-            option = tangon.channel;
-            option = option.guild_id;
-            entity['guildId'] = option;
-            option = false;
-            entity['fetchesShelf'] = option;
-            entity['context'] = tangon;
+            tangon = tangon.channel;
+            tangon = tangon.guild_id;
+            entity['guildId'] = tangon;
+            tangon = false;
+            entity['fetchesShelf'] = tangon;
             zuuluu = michal.bind(zuuluu)(entity);
             michal = _closure1_slot3;
             entity = 2;
@@ -74,12 +73,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = null;
             tangon = zuuluu == offset;
             entity = null;
-            if(tangon) { _fun00002_ip = 262; continue _fun00001 }
- 146:
+            if(tangon) { _fun00002_ip = 258; continue _fun00001 }
+ 142:
             michal = zuuluu == michal;
             entity = null;
-            if(michal) { _fun00002_ip = 262; continue _fun00001 }
- 155:
+            if(michal) { _fun00002_ip = 258; continue _fun00001 }
+ 151:
             tangon = _closure1_slot4;
             zuuluu = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -104,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(verify)(golfie, oscard);
             michal['text'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 262:
+ 258:
             return entity;
         }
     };

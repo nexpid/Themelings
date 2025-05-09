@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['properties'] = oscard;
             zuuluu = tangon.bind(report)(zuuluu);
             tangon = _closure1_slot7;
-            if(entity) { _fun00002_ip = 723; continue _fun00001 }
+            if(entity) { _fun00002_ip = 719; continue _fun00001 }
  236:
             kiloes = _closure1_slot0;
             output = _closure1_slot2;
@@ -257,8 +257,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(golfie, oscard);
             entity['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 751; continue _fun00001;
- 723:
+            _fun00002_ip = 747; continue _fun00001;
+ 719:
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot2;
             michal = 10;
@@ -266,7 +266,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(report)(michal);
             michal = {};
             entity = tangon.bind(report)(zuuluu, michal);
- 751:
+ 747:
             return entity;
         }
     };

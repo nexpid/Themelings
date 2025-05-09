@@ -547,11 +547,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  380:
             entity = _closure1_slot9;
             entity = entity.VIDEO;
-            if(!(entity !== output)) { _fun00006_ip = 553; continue _fun00005 }
+            if(!(entity !== output)) { _fun00006_ip = 554; continue _fun00005 }
  397:
             entity = _closure1_slot10;
             entity = entity.VIDEO;
-            if(!(entity !== output)) { _fun00006_ip = 553; continue _fun00005 }
+            if(!(entity !== output)) { _fun00006_ip = 554; continue _fun00005 }
  414:
             entity = _closure1_slot9;
             entity = entity.PHOTO;
@@ -560,7 +560,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = _closure1_slot10;
             entity = entity.IMAGE;
             oscard = null;
-            if(!(entity === output)) { _fun00006_ip = 610; continue _fun00005 }
+            if(!(entity === output)) { _fun00006_ip = 611; continue _fun00005 }
  447:
             output = _closure1_slot0;
             source = _closure1_slot2;
@@ -572,8 +572,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = output.bind(source)(entity);
             entity = 'image/gif';
             oscard = null;
-            if(!(entity === output)) { _fun00006_ip = 610; continue _fun00005 }
- 495:
+            if(!(entity === output)) { _fun00006_ip = 611; continue _fun00005 }
+ 496:
             source = _closure1_slot11;
             output = _closure1_slot0;
             ctrled = _closure1_slot2;
@@ -587,8 +587,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = 'GIF';
             entity['label'] = ctrled;
             oscard = source.bind(tangon)(output, entity);
-            _fun00006_ip = 610; continue _fun00005;
- 553:
+            _fun00006_ip = 611; continue _fun00005;
+ 554:
             source = _closure1_slot11;
             output = _closure1_slot15;
             entity = {};
@@ -602,22 +602,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = vacuum.bind(sequen)(ctrled);
             entity['label'] = ctrled;
             oscard = source.bind(tangon)(output, entity);
- 610:
+ 611:
             output = !romeon;
-            if(romeon) { _fun00006_ip = 640; continue _fun00005 }
- 616:
+            if(romeon) { _fun00006_ip = 641; continue _fun00005 }
+ 617:
             entity = _closure1_slot8;
             entity = foxtra >= entity;
-            if(!entity) { _fun00006_ip = 631; continue _fun00005 }
- 627:
+            if(!entity) { _fun00006_ip = 632; continue _fun00005 }
+ 628:
             entity = verify != option;
- 631:
-            if(entity) { _fun00006_ip = 637; continue _fun00005 }
- 634:
+ 632:
+            if(entity) { _fun00006_ip = 638; continue _fun00005 }
+ 635:
             entity = backup;
- 637:
+ 638:
             output = entity;
- 640:
+ 641:
             ctrled = _closure1_slot11;
             config = _closure1_slot1;
             record = _closure1_slot2;
@@ -688,10 +688,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = new Array(3);
             report[0] = sizing;
             sizing = undefined;
-            if(!output) { _fun00006_ip = 850; continue _fun00005 }
- 844:
+            if(!output) { _fun00006_ip = 851; continue _fun00005 }
+ 845:
             sizing = result.imageDisabled;
- 850:
+ 851:
             report[1] = sizing;
             report[2] = kiloes;
             entity['style'] = report;
@@ -729,8 +729,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[0] = kiloes;
             report[1] = oscard;
             oscard = null;
-            if(!romeon) { _fun00006_ip = 1061; continue _fun00005 }
- 1013:
+            if(!romeon) { _fun00006_ip = 1066; continue _fun00005 }
+ 1018:
             output = _closure1_slot11;
             sizing = _closure1_slot4;
             kiloes = {};
@@ -743,25 +743,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result[1] = echoed;
             kiloes['style'] = result;
             oscard = output.bind(tangon)(sizing, kiloes);
- 1061:
+ 1066:
             report[2] = oscard;
             oscard = null;
-            if(!romeon) { _fun00006_ip = 1073; continue _fun00005 }
- 1070:
+            if(!romeon) { _fun00006_ip = 1078; continue _fun00005 }
+ 1075:
             oscard = backup;
- 1073:
+ 1078:
             report[3] = oscard;
             oscard = null;
-            if(!romeon) { _fun00006_ip = 1141; continue _fun00005 }
- 1082:
+            if(!romeon) { _fun00006_ip = 1146; continue _fun00005 }
+ 1087:
             romeon = 1;
             oscard = null;
-            if(!(romeon === foxtra)) { _fun00006_ip = 1141; continue _fun00005 }
- 1091:
+            if(!(romeon === foxtra)) { _fun00006_ip = 1146; continue _fun00005 }
+ 1096:
             option = verify != option;
             oscard = null;
-            if(!option) { _fun00006_ip = 1141; continue _fun00005 }
- 1100:
+            if(!option) { _fun00006_ip = 1146; continue _fun00005 }
+ 1105:
             verify = _closure1_slot11;
             option = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -772,7 +772,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['channelId'] = yankee;
             golfie['upload'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 1141:
+ 1146:
             report[4] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

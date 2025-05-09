@@ -240,27 +240,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  347:
                 report = tangon != michal;
                 entity = null;
-                if(!report) { _fun00002_ip = 416; continue _fun00001 }
+                if(!report) { _fun00002_ip = 395; continue _fun00001 }
  356:
-                oscard = michal.type;
-                report = _closure1_slot13;
-                report = report.ACTIVITY;
-                entity = null;
-                if(!(oscard !== report)) { _fun00002_ip = 416; continue _fun00001 }
- 377:
                 report = michal.type;
                 zuuluu = _closure1_slot13;
-                zuuluu = zuuluu.PRESENCE_EMBEDDED_ACTIVITY;
+                zuuluu = zuuluu.ACTIVITY;
                 entity = null;
-                if(!(report !== zuuluu)) { _fun00002_ip = 416; continue _fun00001 }
- 398:
+                if(!(report !== zuuluu)) { _fun00002_ip = 395; continue _fun00001 }
+ 377:
                 zuuluu = michal.streamId;
                 zuuluu = tangon != zuuluu;
                 entity = null;
-                if(!zuuluu) { _fun00002_ip = 416; continue _fun00001 }
- 413:
+                if(!zuuluu) { _fun00002_ip = 395; continue _fun00001 }
+ 392:
                 entity = michal;
- 416:
+ 395:
                 return entity;
             }
         };

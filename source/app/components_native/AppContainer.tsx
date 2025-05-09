@@ -241,17 +241,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = null;
                     michal = report == entity;
                     oscard = undefined;
-                    if(michal) { _fun00008_ip = 84; continue _fun00007 }
- 58:
+                    if(michal) { _fun00008_ip = 83; continue _fun00007 }
+ 57:
                     option = entity.routes;
                     michal = 0;
                     michal = option[michal];
                     report = report == michal;
                     oscard = undefined;
-                    if(report) { _fun00008_ip = 84; continue _fun00007 }
- 79:
+                    if(report) { _fun00008_ip = 83; continue _fun00007 }
+ 78:
                     oscard = michal.name;
- 84:
+ 83:
                     michal = global;
                     michal = michal.HermesInternal;
                     report = michal.concat;

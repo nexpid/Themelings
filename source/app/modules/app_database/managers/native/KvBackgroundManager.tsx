@@ -639,7 +639,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(michal) { _fun00022_ip = 273; continue _fun00021 }
+                                if(michal) { _fun00022_ip = 272; continue _fun00021 }
  12:
                                 zuuluu = _closure1_slot10;
                                 michal = zuuluu.getUsers;
@@ -681,18 +681,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                 return michal;
  120:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                                if(report) { _fun00022_ip = 270; continue _fun00021 }
+                                if(report) { _fun00022_ip = 269; continue _fun00021 }
  129:
                                 golfie = tangon.bind(zuuluu)(michal);
                                 report = golfie.bind(zuuluu)();
                                 tangon = report.done;
                                 oscard = 'deleting orphaned database: ';
-                                if(tangon) { _fun00022_ip = 267; continue _fun00021 }
+                                if(tangon) { _fun00022_ip = 266; continue _fun00021 }
  152:
                                 backup = report.value;
                                 tangon = verify.has;
                                 tangon = tangon.bind(verify)(backup);
-                                if(tangon) { _fun00022_ip = 252; continue _fun00021 }
+                                if(tangon) { _fun00022_ip = 251; continue _fun00021 }
  170:
                                 kiloes = _closure1_slot16;
                                 foxtra = kiloes.log;
@@ -713,16 +713,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                     return entity;
                                 };
                                 tangon = foxtra.bind(backup)(tangon);
- 252:
+ 251:
                                 foxtra = golfie.bind(zuuluu)();
                                 tangon = foxtra.done;
                                 report = foxtra;
                                 if(!tangon) { _fun00022_ip = 152; continue _fun00021 }
- 267:
+ 266:
                                 return zuuluu;
- 270:
+ 269:
                                 return michal;
- 273:
+ 272:
                                 return entity;
                             }
                         };

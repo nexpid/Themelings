@@ -1390,12 +1390,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = zuuluu._chatRef;
                         zuuluu = zuuluu.current;
                         echoed = tangon.bind(golfie)(zuuluu);
-                        if(!(update !== echoed)) { _fun00032_ip = 209; continue _fun00031 }
+                        if(!(update !== echoed)) { _fun00032_ip = 208; continue _fun00031 }
  140:
                         zuuluu = _closure3_slot0;
                         zuuluu = zuuluu.props;
                         zuuluu = zuuluu.isStaff;
-                        if(!zuuluu) { _fun00032_ip = 381; continue _fun00031 }
+                        if(!zuuluu) { _fun00032_ip = 380; continue _fun00031 }
  161:
                         result = _closure1_slot75;
                         golfie = result.log;
@@ -1407,8 +1407,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         ctrled = update;
                         source = echoed;
                         zuuluu = config[golfie](sequen, vacuum, ctrled, source, update);
-                        _fun00032_ip = 381; continue _fun00031;
- 209:
+                        _fun00032_ip = 380; continue _fun00031;
+ 208:
                         golfie = _closure3_slot0;
                         michal = golfie.props;
                         tangon = michal.visibleMessagesWindowHandler;
@@ -1445,7 +1445,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal['firstVisibleMessageIndex'] = oscard;
                         michal['lastVisibleMessageIndex'] = report;
                         michal = zuuluu.bind(tangon)(michal);
- 381:
+ 380:
                         return entity;
                     }
                 };

@@ -1,106 +1,128 @@
 // app/modules/rpc/transports/BaseSocket.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    option = argBaz;
+    golfie = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
-    var _closure1_slot0 = option;
+    var _closure1_slot0 = golfie;
     var _closure1_slot1 = oscard;
     entity = global;
     verify = entity.Object;
-    tangon = verify.defineProperty;
-    michal = {};
+    option = verify.defineProperty;
+    tangon = {};
     entity = true;
-    michal['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = tangon.bind(verify)(zuuluu, entity, michal);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    michal = oscard[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    tangon = option.bind(entity)(michal);
-    michal = 1;
-    michal = oscard[michal];
-    michal = option.bind(entity)(michal);
-    var _closure1_slot2 = michal;
-    michal = 2;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    option = michal.RPC_VERSION;
-    var _closure1_slot3 = option;
-    michal = michal.RPCCloseCodes;
-    var _closure1_slot4 = michal;
-    michal = function(argFoo, argBar, argBaz) { // Original name: BaseSocket
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.RPC_VERSION;
+    var _closure1_slot4 = golfie;
+    tangon = tangon.RPCCloseCodes;
+    var _closure1_slot5 = tangon;
+    michal = function() {
+        tangon = _closure1_slot3;
+        zuuluu = function(argFoo, argBar, argBaz) { // Original name: BaseSocket
+            tangon = argBar;
+            zuuluu = this;
+            oscard = _closure1_slot2;
+            report = _closure2_slot0;
+            entity = undefined;
+            report = oscard.bind(entity)(zuuluu, report);
+            report = argFoo;
+            zuuluu['transport'] = report;
+            zuuluu['version'] = tangon;
+            report = argBaz;
+            zuuluu['encoding'] = report;
+            report = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 3;
+            michal = oscard[michal];
+            report = report.bind(entity)(michal);
+            michal = report.uniqueId;
+            michal = michal.bind(report)();
+            zuuluu['id'] = michal;
+            michal = {'authing': false, 'scopes': null, 'accessToken': null};
+            report = new Array(0);
+            michal['scopes'] = report;
+            report = global;
+            golfie = report.Date;
+            report = golfie.prototype;
+            oscard = Object.create(report, {constructor: {value: golfie}});
+            verify = 0;
+            offset = oscard;
+            report = new offset[golfie](verify, option);
+            report = report instanceof Object ? report : oscard;
+            michal['expires'] = report;
+            zuuluu['authorization'] = michal;
+            michal = {'id': null, 'name': null, 'icon': null};
+            zuuluu['application'] = michal;
+            michal = zuuluu.checkRpcVersion;
+            michal = michal.bind(zuuluu)(tangon);
+            return entity;
+        };
+        var _closure2_slot0 = zuuluu;
+        entity = {};
+        report = 'checkRpcVersion';
+        entity['key'] = report;
+        michal = function(argFoo) { // Original name: value
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            report = argBar;
-            golfie = this;
-            zuuluu = _closure1_slot2;
-            entity = _closure1_slot5;
-            oscard = undefined;
-            entity = zuuluu.bind(oscard)(golfie, entity);
-            entity = argFoo;
-            golfie['transport'] = entity;
-            golfie['version'] = report;
-            entity = argBaz;
-            golfie['encoding'] = entity;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            entity = 3;
-            entity = tangon[entity];
-            zuuluu = zuuluu.bind(oscard)(entity);
-            entity = zuuluu.uniqueId;
-            entity = entity.bind(zuuluu)();
-            golfie['id'] = entity;
-            tangon = {'authing': false, 'scopes': null, 'accessToken': null};
-            entity = new Array(0);
-            tangon['scopes'] = entity;
-            zuuluu = null;
-            entity = global;
-            offset = entity.Date;
-            option = offset.prototype;
-            verify = Object.create(option, {constructor: {value: offset}});
-            romeon = 0;
-            foxtra = verify;
-            option = new foxtra[offset](romeon, yankee);
-            option = option instanceof Object ? option : verify;
-            tangon['expires'] = option;
-            golfie['authorization'] = tangon;
-            tangon = {'id': null, 'name': null, 'icon': null};
-            golfie['application'] = tangon;
-            if(!(zuuluu != report)) { _fun00002_ip = 193; continue _fun00001 }
- 176:
-            zuuluu = _closure1_slot3;
-            if(!(!(report > zuuluu))) { _fun00002_ip = 193; continue _fun00001 }
- 184:
-            zuuluu = 1;
-            if(!(!(report < zuuluu))) { _fun00002_ip = 193; continue _fun00001 }
- 191:
-            return oscard;
- 193:
-            tangon = _closure1_slot0;
-            golfie = _closure1_slot1;
-            zuuluu = 4;
-            zuuluu = golfie[zuuluu];
-            tangon = tangon.bind(oscard)(zuuluu);
-            zuuluu = {};
-            michal = _closure1_slot4;
-            michal = michal.INVALID_VERSION;
-            zuuluu['closeCode'] = michal;
-            entity = entity.HermesInternal;
-            michal = entity.concat;
-            entity = 'Invalid Version: ';
-            yankee = michal.bind(entity)(report);
-            michal = tangon.prototype;
-            michal = Object.create(michal, {constructor: {value: tangon}});
-            foxtra = michal;
-            romeon = zuuluu;
-            entity = new foxtra[tangon](romeon, yankee, offset);
-            entity = entity instanceof Object ? entity : michal;
-            throw entity;
-        }
+                report = argFoo;
+                entity = null;
+                if(!(entity != report)) { _fun00002_ip = 31; continue _fun00001 }
+ 9:
+                entity = _closure1_slot4;
+                if(!(!(report > entity))) { _fun00002_ip = 31; continue _fun00001 }
+ 20:
+                entity = 1;
+                if(!(!(report < entity))) { _fun00002_ip = 31; continue _fun00001 }
+ 27:
+                entity = undefined;
+                return entity;
+ 31:
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot1;
+                michal = 4;
+                zuuluu = zuuluu[michal];
+                michal = undefined;
+                tangon = tangon.bind(michal)(zuuluu);
+                zuuluu = {};
+                entity = _closure1_slot5;
+                entity = entity.INVALID_VERSION;
+                zuuluu['closeCode'] = entity;
+                entity = global;
+                entity = entity.HermesInternal;
+                michal = entity.concat;
+                entity = 'Invalid Version: ';
+                oscard = michal.bind(entity)(report);
+                michal = tangon.prototype;
+                michal = Object.create(michal, {constructor: {value: tangon}});
+                option = michal;
+                golfie = zuuluu;
+                entity = new option[tangon](golfie, oscard, report);
+                entity = entity instanceof Object ? entity : michal;
+                throw entity;
+            }
+        };
+        entity['value'] = michal;
+        michal = new Array(1);
+        michal[0] = entity;
+        entity = undefined;
+        entity = tangon.bind(entity)(zuuluu, michal);
+        return entity;
     };
-    var _closure1_slot5 = michal;
-    michal = tangon.bind(entity)(michal);
+    michal = michal.bind(entity)();
     tangon = 5;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);

@@ -278,7 +278,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard[1] = verify;
                 entity['children'] = oscard;
                 entity = tangon.bind(report)(zuuluu, entity);
-                _fun00006_ip = 377; continue _fun00005;
+                _fun00006_ip = 378; continue _fun00005;
  323:
                 tangon = _closure1_slot11;
                 zuuluu = _closure1_slot9;
@@ -293,7 +293,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard['uri'] = golfie;
                 michal['source'] = oscard;
                 entity = tangon.bind(report)(zuuluu, michal);
- 377:
+ 378:
                 return entity;
             }
         };

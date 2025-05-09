@@ -464,13 +464,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = sequen[golfie];
             golfie = option.bind(tangon)(golfie);
             option = golfie.Text;
-            if(!(kiloes != vacuum)) { _fun00002_ip = 1027; continue _fun00001 }
- 1002:
+            if(!(kiloes != vacuum)) { _fun00002_ip = 1023; continue _fun00001 }
+ 998:
             golfie = {'variant': 'text-md/medium', 'color': 'header-primary'};
             vacuum = vacuum.label;
             golfie['children'] = vacuum;
-            _fun00002_ip = 1100; continue _fun00001;
- 1027:
+            _fun00002_ip = 1096; continue _fun00001;
+ 1023:
             vacuum = {'variant': 'text-md/medium', 'color': 'text-muted'};
             cntext = _closure1_slot0;
             sequen = _closure1_slot2;
@@ -485,7 +485,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = config.bind(record)(sequen);
             vacuum['children'] = sequen;
             golfie = vacuum;
- 1100:
+ 1096:
             golfie = echoed.bind(tangon)(option, golfie);
             vacuum = new Array(2);
             vacuum[0] = golfie;
@@ -513,10 +513,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = {};
             foxtra = foxtra.length;
             foxtra = sizing === foxtra;
-            if(foxtra) { _fun00002_ip = 1220; continue _fun00001 }
- 1216:
+            if(foxtra) { _fun00002_ip = 1216; continue _fun00001 }
+ 1212:
             foxtra = kiloes == backup;
- 1220:
+ 1216:
             oscard['disabled'] = foxtra;
             oscard['onPress'] = romeon;
             oscard['loading'] = yankee;

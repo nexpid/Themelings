@@ -431,10 +431,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['avatarURL'] = oscard;
             oscard = null;
             option = oscard != golfie;
-            if(!option) { _fun00004_ip = 511; continue _fun00003 }
- 508:
+            if(!option) { _fun00004_ip = 512; continue _fun00003 }
+ 509:
             oscard = golfie;
- 511:
+ 512:
             entity['usernameColor'] = oscard;
             echoed = entity;
             result = report;
@@ -747,10 +747,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['avatarURL'] = oscard;
             oscard = null;
             option = oscard != golfie;
-            if(!option) { _fun00010_ip = 445; continue _fun00009 }
- 442:
+            if(!option) { _fun00010_ip = 446; continue _fun00009 }
+ 443:
             oscard = golfie;
- 445:
+ 446:
             entity['usernameColor'] = oscard;
             result = entity;
             output = report;

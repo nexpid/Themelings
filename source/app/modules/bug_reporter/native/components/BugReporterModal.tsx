@@ -882,7 +882,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00020_ip = 337; continue _fun00019 }
+                            if(michal) { _fun00020_ip = 339; continue _fun00019 }
  12:
                             zuuluu = undefined;
                             var _closure5_slot0 = zuuluu;
@@ -912,10 +912,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return michal;
  116:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(report) { _fun00020_ip = 334; continue _fun00019 }
+                            if(report) { _fun00020_ip = 336; continue _fun00019 }
  125:
                             report = null;
-                            if(!(report != michal)) { _fun00020_ip = 331; continue _fun00019 }
+                            if(!(report != michal)) { _fun00020_ip = 333; continue _fun00019 }
  134:
                             oscard = michal.assets;
                             report = 0;
@@ -972,11 +972,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 return entity;
                             };
                             tangon = report.bind(zuuluu)(tangon);
- 331:
+ 333:
                             return zuuluu;
- 334:
+ 336:
                             return michal;
- 337:
+ 339:
                             return entity;
                         }
                     };

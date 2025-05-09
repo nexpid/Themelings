@@ -17,7 +17,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = golfie.bind(entity)(tangon);
     tangon = tangon.DismissibleContent;
     tangon = tangon.COLLECTIBLES_SHOP_ENTRY_MARKETING;
-    report = new Array(5);
+    report = new Array(6);
     report[0] = tangon;
     tangon = option[michal];
     tangon = golfie.bind(entity)(tangon);
@@ -39,6 +39,11 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = tangon.DismissibleContent;
     tangon = tangon.GIFTING_PROMOTION_REMINDER;
     report[4] = tangon;
+    tangon = option[michal];
+    tangon = golfie.bind(entity)(tangon);
+    tangon = tangon.DismissibleContent;
+    tangon = tangon.NITRO_TENURE_BADGE_LEVEL_UP;
+    report[5] = tangon;
     tangon = option[michal];
     tangon = golfie.bind(entity)(tangon);
     tangon = tangon.DismissibleContent;

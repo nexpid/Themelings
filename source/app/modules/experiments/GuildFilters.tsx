@@ -184,55 +184,75 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = function(argFoo, argBar, argBaz) { // Original name: isInRange
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            option = argBar;
-            golfie = argBaz;
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            verify = 4;
-            michal = michal[verify];
+            entity = argFoo;
+            verify = argBar;
+            michal = argBaz;
+            option = undefined;
+            tangon = undefined;
+            report = undefined;
             zuuluu = undefined;
-            tangon = tangon.bind(zuuluu)(michal);
-            michal = argFoo;
-            report = tangon.bind(zuuluu)(michal);
-            michal = null;
-            tangon = michal != option;
+ 17: // try_start_0
+            yankee = _closure1_slot0;
+            oscard = _closure1_slot1;
+            offset = 4;
+            oscard = oscard[offset];
+            oscard = yankee.bind(option)(oscard);
+            tangon = oscard.bind(option)(entity);
+            entity = verify;
             oscard = null;
-            if(!tangon) { _fun00008_ip = 72; continue _fun00007 }
- 50:
-            offset = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[verify];
-            tangon = offset.bind(zuuluu)(tangon);
-            oscard = tangon.bind(zuuluu)(option);
- 72:
-            option = michal != golfie;
-            tangon = null;
-            if(!option) { _fun00008_ip = 103; continue _fun00007 }
+            yankee = oscard != entity;
+            entity = null;
+            if(!yankee) { _fun00008_ip = 81; continue _fun00007 }
+ 59:
+            romeon = _closure1_slot0;
+            yankee = _closure1_slot1;
+            yankee = yankee[offset];
+            yankee = romeon.bind(option)(yankee);
+            entity = yankee.bind(option)(verify);
  81:
-            option = _closure1_slot0;
-            entity = _closure1_slot1;
-            entity = entity[verify];
-            entity = option.bind(zuuluu)(entity);
-            tangon = entity.bind(zuuluu)(golfie);
- 103:
-            entity = michal == oscard;
-            if(entity) { _fun00008_ip = 124; continue _fun00007 }
- 110:
-            zuuluu = report.lesser;
-            zuuluu = zuuluu.bind(report)(oscard);
-            entity = !zuuluu;
- 124:
-            if(!entity) { _fun00008_ip = 151; continue _fun00007 }
- 127:
-            michal = michal == tangon;
-            if(michal) { _fun00008_ip = 148; continue _fun00007 }
- 134:
-            zuuluu = report.greater;
-            zuuluu = zuuluu.bind(report)(tangon);
-            michal = !zuuluu;
- 148:
+            report = entity;
             entity = michal;
+            verify = oscard != entity;
+            entity = null;
+            if(!verify) { _fun00008_ip = 118; continue _fun00007 }
+ 96:
+            verify = _closure1_slot0;
+            golfie = _closure1_slot1;
+            golfie = golfie[offset];
+            golfie = verify.bind(option)(golfie);
+            entity = golfie.bind(option)(michal);
+ 118:
+            zuuluu = entity;
+ 121: // try_end0
+            golfie = report;
+            golfie = oscard == golfie;
+            michal = golfie;
+            if(golfie) { _fun00008_ip = 151; continue _fun00007 }
+ 134:
+            option = tangon;
+            golfie = option.lesser;
+            report = golfie.bind(option)(report);
+            michal = !report;
  151:
+            entity = michal;
+            if(!michal) { _fun00008_ip = 190; continue _fun00007 }
+ 157:
+            report = zuuluu;
+            report = oscard == report;
+            michal = report;
+            if(report) { _fun00008_ip = 187; continue _fun00007 }
+ 170:
+            report = tangon;
+            tangon = report.greater;
+            zuuluu = tangon.bind(report)(zuuluu);
+            michal = !zuuluu;
+ 187:
+            entity = michal;
+ 190:
+            return entity;
+ 192: // catch_target0
+            CatchBlockStart(arg_register=0);
+            entity = false;
             return entity;
         }
     };

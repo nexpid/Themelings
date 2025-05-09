@@ -827,13 +827,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['get'] = golfie;
         entity[30] = report;
         report = {};
-        golfie = 'chatScrollRefactorEnabled';
+        golfie = 'uploadRefactorEnabled';
         report['key'] = golfie;
         oscard = function() { // Original name: get
             _fun00061: for(var _fun00062_ip = 0; ; ) switch(_fun00062_ip) {
  0:
                 entity = _closure1_slot17;
-                michal = entity.chatScrollRefactorEnabled;
+                michal = entity.uploadRefactorEnabled;
                 entity = null;
                 entity = entity == michal;
                 if(entity) { _fun00062_ip = 25; continue _fun00061 }

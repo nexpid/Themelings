@@ -263,7 +263,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00008_ip = 162; continue _fun00007 }
+                    if(michal) { _fun00008_ip = 161; continue _fun00007 }
  10:
                     zuuluu = global;
                     tangon = zuuluu.performance;
@@ -285,7 +285,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return michal;
  80:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00008_ip = 159; continue _fun00007 }
+                    if(report) { _fun00008_ip = 158; continue _fun00007 }
  86:
                     oscard = zuuluu.performance;
                     report = oscard.now;
@@ -302,9 +302,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = kiloes[option](backup, foxtra, romeon, yankee, offset);
                     zuuluu = tangon.bind(report)(zuuluu);
                     return michal;
- 159:
+ 158:
                     return michal;
- 162:
+ 161:
                     return entity;
                 }
             };

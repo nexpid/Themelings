@@ -105,32 +105,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(!(zuuluu !== report)) { _fun00002_ip = 164; continue _fun00001 }
  140:
             zuuluu = 'error';
-            if(!(zuuluu === report)) { _fun00002_ip = 229; continue _fun00001 }
+            if(!(zuuluu === report)) { _fun00002_ip = 228; continue _fun00001 }
  148:
             report = _closure1_slot3;
             zuuluu = report.error;
             zuuluu = zuuluu.bind(report)(tangon);
-            _fun00002_ip = 229; continue _fun00001;
+            _fun00002_ip = 228; continue _fun00001;
  164:
             report = _closure1_slot3;
             zuuluu = report.info;
             zuuluu = zuuluu.bind(report)(tangon);
-            _fun00002_ip = 229; continue _fun00001;
+            _fun00002_ip = 228; continue _fun00001;
  181:
             report = _closure1_slot3;
             zuuluu = report.verbose;
             zuuluu = zuuluu.bind(report)(tangon);
-            _fun00002_ip = 229; continue _fun00001;
+            _fun00002_ip = 228; continue _fun00001;
  198:
             report = _closure1_slot3;
             zuuluu = report.warn;
             zuuluu = zuuluu.bind(report)(tangon);
-            _fun00002_ip = 229; continue _fun00001;
+            _fun00002_ip = 228; continue _fun00001;
  214:
             zuuluu = _closure1_slot3;
             michal = zuuluu.log;
             michal = michal.bind(zuuluu)(tangon);
- 229:
+ 228:
             return entity;
         }
     };

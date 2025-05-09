@@ -39,13 +39,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot12 = michal;
+            _closure1_slot14 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot14 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -91,7 +91,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot11 = tangon;
-    tangon = 13;
+    tangon = 9;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.FAVORITES;
+    var _closure1_slot12 = tangon;
+    tangon = 10;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.FAVORITES_RAW_GUILD_ID;
+    var _closure1_slot13 = tangon;
+    tangon = 15;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
@@ -113,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot6;
                 verify = entity.bind(tangon)(zuuluu);
                 zuuluu = _closure1_slot5;
-                entity = _closure1_slot12;
+                entity = _closure1_slot14;
                 entity = entity.bind(tangon)();
                 if(entity) { _fun00004_ip = 84; continue _fun00003 }
  71:
@@ -174,61 +184,76 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = _closure1_slot10;
                 michal = zuuluu.getGuildId;
                 zuuluu = michal.bind(zuuluu)();
-                tangon = null;
-                if(!(tangon != zuuluu)) { _fun00006_ip = 236; continue _fun00005 }
+                michal = null;
+                if(!(michal != zuuluu)) { _fun00006_ip = 289; continue _fun00005 }
  26:
+                tangon = _closure1_slot13;
+                if(!(zuuluu !== tangon)) { _fun00006_ip = 289; continue _fun00005 }
+ 37:
+                tangon = _closure1_slot12;
+                if(!(zuuluu !== tangon)) { _fun00006_ip = 289; continue _fun00005 }
+ 48:
                 report = _closure1_slot8;
-                michal = report.getGuild;
-                michal = michal.bind(report)(zuuluu);
-                if(!(tangon != michal)) { _fun00006_ip = 236; continue _fun00005 }
- 47:
-                golfie = _closure1_slot1;
-                option = _closure1_slot2;
-                report = 9;
-                oscard = option[report];
+                tangon = report.getGuild;
+                option = tangon.bind(report)(zuuluu);
+                if(!(michal != option)) { _fun00006_ip = 289; continue _fun00005 }
+ 69:
+                oscard = _closure1_slot1;
+                golfie = _closure1_slot2;
+                michal = 11;
+                report = golfie[michal];
                 tangon = undefined;
-                offset = golfie.bind(tangon)(oscard);
-                verify = offset.trackExposure;
-                oscard = {};
-                golfie = michal.id;
-                oscard['guildId'] = golfie;
-                golfie = 'GuildPowerupsManager';
-                oscard['location'] = golfie;
-                oscard = verify.bind(offset)(oscard);
+                verify = oscard.bind(tangon)(report);
+                oscard = verify.trackExposure;
+                report = {};
+                offset = option.id;
+                report['guildId'] = offset;
+                offset = 'GuildPowerupsManager';
+                report['location'] = offset;
+                report = oscard.bind(verify)(report);
                 oscard = _closure1_slot0;
-                report = option[report];
-                oscard = oscard.bind(tangon)(report);
-                report = oscard.getGuildPowerupsExperimentEnabled;
-                michal = michal.id;
-                michal = report.bind(oscard)(michal, golfie);
-                if(!michal) { _fun00006_ip = 236; continue _fun00005 }
- 134:
-                report = _closure1_slot11;
-                michal = report.shouldFetchCatalogForGuild;
-                michal = michal.bind(report)(zuuluu);
-                if(!michal) { _fun00006_ip = 185; continue _fun00005 }
- 154:
+                michal = golfie[michal];
+                verify = oscard.bind(tangon)(michal);
+                report = verify.getGuildPowerupsExperimentEnabled;
+                michal = option.id;
+                report = report.bind(verify)(michal, offset);
+                michal = 12;
+                michal = golfie[michal];
+                golfie = oscard.bind(tangon)(michal);
+                oscard = golfie.getHasAllocateBoostPermission;
+                michal = _closure1_slot9;
+                michal = oscard.bind(golfie)(michal, option);
+                if(!report) { _fun00006_ip = 289; continue _fun00005 }
+ 184:
+                if(!michal) { _fun00006_ip = 204; continue _fun00005 }
+ 187:
+                oscard = _closure1_slot11;
+                report = oscard.shouldFetchCatalogForGuild;
+                michal = report.bind(oscard)(zuuluu);
+ 204:
+                if(!michal) { _fun00006_ip = 238; continue _fun00005 }
+ 207:
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                michal = 10;
+                michal = 13;
                 michal = oscard[michal];
                 report = report.bind(tangon)(michal);
                 michal = report.fetchPowerupCatalogForGuild;
                 michal = michal.bind(report)(zuuluu);
- 185:
+ 238:
                 report = _closure1_slot11;
                 michal = report.shouldFetchPowerupsForGuild;
                 michal = michal.bind(report)(zuuluu);
-                if(!michal) { _fun00006_ip = 236; continue _fun00005 }
- 205:
+                if(!michal) { _fun00006_ip = 289; continue _fun00005 }
+ 258:
                 michal = _closure1_slot0;
                 report = _closure1_slot2;
-                entity = 10;
+                entity = 13;
                 entity = report[entity];
                 michal = michal.bind(tangon)(entity);
                 entity = michal.fetchGuildUnlockedPowerups;
                 entity = entity.bind(michal)(zuuluu);
- 236:
+ 289:
                 entity = undefined;
                 return entity;
             }
@@ -261,7 +286,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = entity.guildId;
                 oscard = _closure1_slot0;
                 report = _closure1_slot2;
-                entity = 11;
+                entity = 12;
                 report = report[entity];
                 entity = undefined;
                 golfie = oscard.bind(entity)(report);
@@ -291,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = argFoo;
                 report = _closure1_slot0;
                 zuuluu = _closure1_slot2;
-                entity = 9;
+                entity = 11;
                 zuuluu = zuuluu[entity];
                 entity = undefined;
                 oscard = report.bind(entity)(zuuluu);
@@ -302,12 +327,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  49:
                 zuuluu = _closure1_slot0;
                 report = _closure1_slot2;
-                michal = 10;
+                michal = 13;
                 michal = report[michal];
                 oscard = zuuluu.bind(entity)(michal);
                 michal = oscard.fetchGuildUnlockedPowerups;
                 michal = michal.bind(oscard)(tangon);
-                michal = 12;
+                michal = 14;
                 michal = report[michal];
                 zuuluu = zuuluu.bind(entity)(michal);
                 michal = zuuluu.fetchAppliedGuildBoostsForGuild;
@@ -327,7 +352,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = tangon;
     michal = new foxtra[michal](romeon);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 14;
+    tangon = 16;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

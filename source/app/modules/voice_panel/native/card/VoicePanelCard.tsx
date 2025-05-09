@@ -2003,13 +2003,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             zuuluu = 0;
                             michal = zuuluu === tangon;
  36:
-                            if(michal) { _fun00044_ip = 63; continue _fun00043 }
+                            if(michal) { _fun00044_ip = 67; continue _fun00043 }
  39:
                             zuuluu = _closure2_slot23;
                             michal = zuuluu.set;
                             entity = {'gestureActive': false, 'x': 0, 'y': 0};
                             entity = michal.bind(zuuluu)(entity);
- 63:
+ 67:
                             entity = undefined;
                             return entity;
                         }

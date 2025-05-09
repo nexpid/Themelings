@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 162; continue _fun00009 }
+                    if(michal) { _fun00010_ip = 161; continue _fun00009 }
  10:
                     zuuluu = global;
                     tangon = zuuluu.performance;
@@ -320,7 +320,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return michal;
  80:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00010_ip = 159; continue _fun00009 }
+                    if(report) { _fun00010_ip = 158; continue _fun00009 }
  86:
                     oscard = zuuluu.performance;
                     report = oscard.now;
@@ -337,9 +337,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = kiloes[option](backup, foxtra, romeon, yankee, offset);
                     zuuluu = tangon.bind(report)(zuuluu);
                     return michal;
- 159:
+ 158:
                     return michal;
- 162:
+ 161:
                     return entity;
                 }
             };
@@ -396,20 +396,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = this;
                 zuuluu = michal.readStateVersion;
                 tangon = null;
-                if(!(tangon != zuuluu)) { _fun00012_ip = 67; continue _fun00011 }
+                if(!(tangon != zuuluu)) { _fun00012_ip = 66; continue _fun00011 }
  18:
                 zuuluu = entity.version;
-                if(!(tangon == zuuluu)) { _fun00012_ip = 55; continue _fun00011 }
+                if(!(tangon == zuuluu)) { _fun00012_ip = 54; continue _fun00011 }
  28:
                 report = _closure1_slot7;
                 tangon = report.log;
                 zuuluu = 'Received null read states version';
                 zuuluu = tangon.bind(report)(zuuluu, entity);
-                _fun00012_ip = 67; continue _fun00011;
- 55:
+                _fun00012_ip = 66; continue _fun00011;
+ 54:
                 entity = entity.version;
                 michal['readStateVersion'] = entity;
- 67:
+ 66:
                 entity = undefined;
                 return entity;
             }

@@ -276,7 +276,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output[2] = result;
             kiloes['style'] = output;
             sizing = source != sizing;
-            if(!sizing) { _fun00002_ip = 506; continue _fun00001 }
+            if(!sizing) { _fun00002_ip = 507; continue _fun00001 }
  433:
             update = _closure1_slot7;
             result = _closure1_slot1;
@@ -291,21 +291,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = vacuum.gameImage;
             sequen = new Array(2);
             sequen[0] = record;
-            if(!config) { _fun00002_ip = 492; continue _fun00001 }
- 486:
+            if(!config) { _fun00002_ip = 493; continue _fun00001 }
+ 487:
             config = vacuum.liveGame;
- 492:
+ 493:
             sequen[1] = config;
             output['style'] = sequen;
             sizing = update.bind(tangon)(result, output);
- 506:
+ 507:
             kiloes['children'] = sizing;
             sizing = option.bind(tangon)(yankee, kiloes);
             kiloes = new Array(3);
             kiloes[0] = sizing;
             sizing = source != ctrled;
-            if(!sizing) { _fun00002_ip = 629; continue _fun00001 }
- 531:
+            if(!sizing) { _fun00002_ip = 630; continue _fun00001 }
+ 532:
             update = _closure1_slot7;
             result = _closure1_slot6;
             output = {};
@@ -329,7 +329,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = update.bind(tangon)(sequen, vacuum);
             output['children'] = vacuum;
             sizing = update.bind(tangon)(result, output);
- 629:
+ 630:
             kiloes[1] = sizing;
             result = _closure1_slot7;
             output = _closure1_slot0;
@@ -345,15 +345,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing['style'] = update;
             vacuum = source == ctrled;
             update = undefined;
-            if(vacuum) { _fun00002_ip = 707; continue _fun00001 }
- 701:
+            if(vacuum) { _fun00002_ip = 708; continue _fun00001 }
+ 702:
             update = ctrled.globalName;
- 707:
+ 708:
             source = source != update;
-            if(!source) { _fun00002_ip = 717; continue _fun00001 }
- 714:
+            if(!source) { _fun00002_ip = 718; continue _fun00001 }
+ 715:
             echoed = update;
- 717:
+ 718:
             sizing['children'] = echoed;
             sizing = result.bind(tangon)(output, sizing);
             kiloes[2] = sizing;
@@ -365,8 +365,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.bind(tangon)(golfie, report);
             report = new Array(2);
             report[0] = golfie;
-            if(!oscard) { _fun00002_ip = 855; continue _fun00001 }
- 772:
+            if(!oscard) { _fun00002_ip = 856; continue _fun00001 }
+ 773:
             verify = _closure1_slot7;
             option = _closure1_slot0;
             backup = _closure1_slot2;
@@ -392,7 +392,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = verify.bind(tangon)(yankee, offset);
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 855:
+ 856:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

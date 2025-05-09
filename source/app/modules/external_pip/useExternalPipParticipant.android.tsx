@@ -755,66 +755,55 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  178:
                         entity = oscard.id;
  183:
-                        if(!(report === entity)) { _fun00014_ip = 320; continue _fun00013 }
- 190:
+                        if(!(report === entity)) { _fun00014_ip = 287; continue _fun00013 }
+ 187:
                         entity = {};
                         report = michal == oscard;
-                        verify = undefined;
-                        if(report) { _fun00014_ip = 206; continue _fun00013 }
- 201:
-                        verify = oscard.type;
- 206:
-                        report = _closure1_slot8;
-                        option = report.ACTIVITY;
-                        report = undefined;
-                        if(!(verify !== option)) { _fun00014_ip = 282; continue _fun00013 }
- 225:
-                        verify = michal == oscard;
                         option = undefined;
-                        if(verify) { _fun00014_ip = 239; continue _fun00013 }
- 234:
+                        if(report) { _fun00014_ip = 203; continue _fun00013 }
+ 198:
                         option = oscard.type;
- 239:
-                        golfie = _closure1_slot8;
-                        golfie = golfie.PRESENCE_EMBEDDED_ACTIVITY;
+ 203:
+                        report = _closure1_slot8;
+                        golfie = report.ACTIVITY;
                         report = undefined;
-                        if(!(option !== golfie)) { _fun00014_ip = 282; continue _fun00013 }
- 255:
+                        if(!(option !== golfie)) { _fun00014_ip = 249; continue _fun00013 }
+ 222:
                         option = michal == oscard;
                         golfie = undefined;
-                        if(option) { _fun00014_ip = 270; continue _fun00013 }
- 264:
+                        if(option) { _fun00014_ip = 237; continue _fun00013 }
+ 231:
                         golfie = oscard.streamId;
- 270:
+ 237:
                         option = michal != golfie;
                         report = undefined;
-                        if(!option) { _fun00014_ip = 282; continue _fun00013 }
- 279:
+                        if(!option) { _fun00014_ip = 249; continue _fun00013 }
+ 246:
                         report = golfie;
- 282:
+ 249:
                         entity['focusedParticipantStreamId'] = report;
                         golfie = michal == oscard;
                         report = undefined;
-                        if(golfie) { _fun00014_ip = 301; continue _fun00013 }
- 296:
+                        if(golfie) { _fun00014_ip = 268; continue _fun00013 }
+ 263:
                         report = oscard.type;
- 301:
+ 268:
                         oscard = michal != report;
                         michal = undefined;
-                        if(!oscard) { _fun00014_ip = 313; continue _fun00013 }
- 310:
+                        if(!oscard) { _fun00014_ip = 280; continue _fun00013 }
+ 277:
                         michal = report;
- 313:
+ 280:
                         entity['focusedParticipantType'] = michal;
-                        _fun00014_ip = 344; continue _fun00013;
- 320:
+                        _fun00014_ip = 311; continue _fun00013;
+ 287:
                         michal = {};
                         michal['focusedParticipantStreamId'] = tangon;
                         zuuluu = _closure3_slot2;
                         zuuluu = zuuluu.current;
                         michal['focusedParticipantType'] = zuuluu;
                         entity = michal;
- 344:
+ 311:
                         return entity;
                     }
                 };

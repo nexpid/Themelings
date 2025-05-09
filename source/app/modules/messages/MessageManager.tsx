@@ -59,49 +59,49 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = entity.skipLocalFetch;
             michal = entity.logFailures;
             option = null;
-            if(!(option == offset)) { _fun00004_ip = 89; continue _fun00003 }
+            if(!(option == offset)) { _fun00004_ip = 88; continue _fun00003 }
  54:
-            if(!michal) { _fun00004_ip = 1616; continue _fun00003 }
+            if(!michal) { _fun00004_ip = 1608; continue _fun00003 }
  60:
             tangon = _closure1_slot23;
             zuuluu = tangon.log;
             entity = 'Skipping fetch because channelId is null';
             entity = zuuluu.bind(tangon)(entity);
-            _fun00004_ip = 1616; continue _fun00003;
- 89:
+            _fun00004_ip = 1608; continue _fun00003;
+ 88:
             zuuluu = _closure1_slot22;
             report = undefined;
             zuuluu = zuuluu.bind(report)(offset);
-            if(zuuluu) { _fun00004_ip = 1592; continue _fun00003 }
- 109:
+            if(zuuluu) { _fun00004_ip = 1585; continue _fun00003 }
+ 108:
             tangon = _closure1_slot11;
             zuuluu = tangon.getChannel;
             zuuluu = zuuluu.bind(tangon)(offset);
             tangon = option == zuuluu;
             verify = undefined;
-            if(tangon) { _fun00004_ip = 137; continue _fun00003 }
- 132:
+            if(tangon) { _fun00004_ip = 136; continue _fun00003 }
+ 131:
             verify = zuuluu.type;
- 137:
+ 136:
             tangon = _closure1_slot18;
             tangon = tangon.GUILD_STORE;
-            if(!(verify !== tangon)) { _fun00004_ip = 1566; continue _fun00003 }
- 154:
+            if(!(verify !== tangon)) { _fun00004_ip = 1560; continue _fun00003 }
+ 153:
             verify = option == zuuluu;
             tangon = undefined;
-            if(verify) { _fun00004_ip = 168; continue _fun00003 }
- 163:
+            if(verify) { _fun00004_ip = 167; continue _fun00003 }
+ 162:
             tangon = zuuluu.type;
- 168:
-            if(!(option != tangon)) { _fun00004_ip = 203; continue _fun00003 }
- 172:
+ 167:
+            if(!(option != tangon)) { _fun00004_ip = 202; continue _fun00003 }
+ 171:
             tangon = _closure1_slot21;
             romeon = tangon.GUILD_THREADS_ONLY;
             verify = romeon.has;
             tangon = zuuluu.type;
             tangon = verify.bind(romeon)(tangon);
-            if(tangon) { _fun00004_ip = 1566; continue _fun00003 }
- 203:
+            if(tangon) { _fun00004_ip = 1560; continue _fun00003 }
+ 202:
             verify = _closure1_slot1;
             output = _closure1_slot2;
             romeon = 16;
@@ -117,8 +117,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.messageHasExpiredAttachmentUrl;
             tangon = foxtra.bind(verify)(tangon);
             output = verify;
-            if(!tangon) { _fun00004_ip = 342; continue _fun00003 }
- 273:
+            if(!tangon) { _fun00004_ip = 340; continue _fun00003 }
+ 272:
             foxtra = _closure1_slot23;
             verify = foxtra.log;
             tangon = 'Found expired attachment link, clearing messages';
@@ -133,16 +133,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = verify.bind(report)(tangon);
             tangon = verify.getOrCreate;
             output = tangon.bind(verify)(offset);
- 342:
+ 340:
             tangon = output.jumpTargetId;
             tangon = option != tangon;
-            if(!tangon) { _fun00004_ip = 359; continue _fun00003 }
- 355:
+            if(!tangon) { _fun00004_ip = 357; continue _fun00003 }
+ 353:
             tangon = option == kiloes;
- 359:
+ 357:
             sizing = output;
-            if(!tangon) { _fun00004_ip = 454; continue _fun00003 }
- 365:
+            if(!tangon) { _fun00004_ip = 452; continue _fun00003 }
+ 363:
             foxtra = output.mutate;
             tangon = {'jumpTargetId': null, 'jumped': false};
             update = _closure1_slot0;
@@ -160,16 +160,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = foxtra.commit;
             verify = verify.bind(foxtra)(tangon);
             sizing = tangon;
- 454:
+ 452:
             tangon = sizing.focusTargetId;
             verify = option != tangon;
-            if(!verify) { _fun00004_ip = 471; continue _fun00003 }
- 467:
+            if(!verify) { _fun00004_ip = 469; continue _fun00003 }
+ 465:
             verify = option == kiloes;
- 471:
+ 469:
             tangon = sizing;
-            if(!verify) { _fun00004_ip = 526; continue _fun00003 }
- 477:
+            if(!verify) { _fun00004_ip = 524; continue _fun00003 }
+ 475:
             foxtra = sizing.mutate;
             verify = {};
             verify['focusTargetId'] = option;
@@ -181,79 +181,79 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             foxtra = sizing.commit;
             foxtra = foxtra.bind(sizing)(verify);
             tangon = verify;
- 526:
-            if(!golfie) { _fun00004_ip = 560; continue _fun00003 }
- 529:
+ 524:
+            if(!golfie) { _fun00004_ip = 558; continue _fun00003 }
+ 527:
             foxtra = _closure1_slot8;
             verify = foxtra.isConnected;
             verify = verify.bind(foxtra)();
-            if(verify) { _fun00004_ip = 560; continue _fun00003 }
- 546:
+            if(verify) { _fun00004_ip = 558; continue _fun00003 }
+ 544:
             foxtra = tangon.loadingMore;
             verify = true;
-            if(!foxtra) { _fun00004_ip = 690; continue _fun00003 }
- 560:
+            if(!foxtra) { _fun00004_ip = 686; continue _fun00003 }
+ 558:
             foxtra = tangon.loadingMore;
-            if(foxtra) { _fun00004_ip = 651; continue _fun00003 }
- 569:
+            if(foxtra) { _fun00004_ip = 648; continue _fun00003 }
+ 567:
             foxtra = tangon.ready;
-            if(!foxtra) { _fun00004_ip = 587; continue _fun00003 }
- 578:
+            if(!foxtra) { _fun00004_ip = 585; continue _fun00003 }
+ 576:
             foxtra = tangon.cached;
-            if(!foxtra) { _fun00004_ip = 651; continue _fun00003 }
- 587:
+            if(!foxtra) { _fun00004_ip = 648; continue _fun00003 }
+ 585:
             foxtra = option == result;
             verify = true;
-            if(foxtra) { _fun00004_ip = 690; continue _fun00003 }
- 596:
+            if(foxtra) { _fun00004_ip = 686; continue _fun00003 }
+ 594:
             output = _closure1_slot12;
             foxtra = output.getGuild;
             foxtra = foxtra.bind(output)(result);
             foxtra = option != foxtra;
             verify = true;
-            if(foxtra) { _fun00004_ip = 690; continue _fun00003 }
- 619:
+            if(foxtra) { _fun00004_ip = 686; continue _fun00003 }
+ 617:
             verify = yankee;
-            if(!michal) { _fun00004_ip = 690; continue _fun00003 }
- 625:
+            if(!michal) { _fun00004_ip = 686; continue _fun00003 }
+ 623:
             output = _closure1_slot23;
             sizing = output.log;
             foxtra = 'Skipping fetch we are connected and have loaded messages';
             foxtra = sizing.bind(output)(foxtra);
             verify = yankee;
-            _fun00004_ip = 690; continue _fun00003;
- 651:
+            _fun00004_ip = 686; continue _fun00003;
+ 648:
             foxtra = option != kiloes;
             verify = true;
-            if(foxtra) { _fun00004_ip = 690; continue _fun00003 }
- 660:
+            if(foxtra) { _fun00004_ip = 686; continue _fun00003 }
+ 657:
             verify = yankee;
-            if(!michal) { _fun00004_ip = 690; continue _fun00003 }
- 666:
+            if(!michal) { _fun00004_ip = 686; continue _fun00003 }
+ 663:
             output = _closure1_slot23;
             sizing = output.log;
             foxtra = 'Skipping fetch because no other conditions matched';
             foxtra = sizing.bind(output)(foxtra);
             verify = yankee;
- 690:
+ 686:
             foxtra = _closure1_slot1;
             sizing = _closure1_slot2;
             yankee = 19;
             yankee = sizing[yankee];
             yankee = foxtra.bind(report)(yankee);
             yankee = yankee.bind(report)(offset);
-            if(!yankee) { _fun00004_ip = 733; continue _fun00003 }
- 718:
+            if(!yankee) { _fun00004_ip = 729; continue _fun00003 }
+ 714:
             sizing = _closure1_slot13;
             foxtra = sizing.hasUnread;
             yankee = foxtra.bind(sizing)(offset);
- 733:
-            if(!yankee) { _fun00004_ip = 738; continue _fun00003 }
- 736:
+ 729:
+            if(!yankee) { _fun00004_ip = 734; continue _fun00003 }
+ 732:
             verify = true;
- 738:
-            if(!verify) { _fun00004_ip = 1616; continue _fun00003 }
- 744:
+ 734:
+            if(!verify) { _fun00004_ip = 1608; continue _fun00003 }
+ 740:
             yankee = _closure1_slot1;
             verify = _closure1_slot2;
             verify = verify[romeon];
@@ -265,8 +265,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify['loadingMore'] = romeon;
             verify = sizing.bind(tangon)(verify);
             verify = yankee.bind(foxtra)(verify);
-            if(!(option != kiloes)) { _fun00004_ip = 862; continue _fun00003 }
- 796:
+            if(!(option != kiloes)) { _fun00004_ip = 858; continue _fun00003 }
+ 792:
             yankee = _closure1_slot1;
             foxtra = _closure1_slot2;
             verify = 20;
@@ -281,24 +281,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify['skipLocalFetch'] = oscard;
             verify['jumpType'] = backup;
             verify = yankee.bind(foxtra)(verify);
-            _fun00004_ip = 1616; continue _fun00003;
- 862:
-            if(!(option != zuuluu)) { _fun00004_ip = 1134; continue _fun00003 }
- 869:
+            _fun00004_ip = 1608; continue _fun00003;
+ 858:
+            if(!(option != zuuluu)) { _fun00004_ip = 1130; continue _fun00003 }
+ 865:
             verify = zuuluu.isThread;
             verify = verify.bind(zuuluu)();
-            if(!verify) { _fun00004_ip = 1134; continue _fun00003 }
- 885:
+            if(!verify) { _fun00004_ip = 1130; continue _fun00003 }
+ 881:
             yankee = _closure1_slot13;
             verify = yankee.hasOpenedThread;
             foxtra = verify.bind(yankee)(offset);
             verify = false;
             yankee = false;
-            if(foxtra) { _fun00004_ip = 1128; continue _fun00003 }
- 910:
+            if(foxtra) { _fun00004_ip = 1124; continue _fun00003 }
+ 906:
             foxtra = _closure1_slot24;
-            if(!(option == foxtra)) { _fun00004_ip = 971; continue _fun00003 }
- 918:
+            if(!(option == foxtra)) { _fun00004_ip = 967; continue _fun00003 }
+ 914:
             backup = _closure1_slot0;
             kiloes = _closure1_slot2;
             foxtra = 22;
@@ -309,17 +309,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             backup = _closure1_slot26;
             foxtra = {};
             foxtra = kiloes.bind(sizing)(backup, foxtra);
-            if(!(option == foxtra)) { _fun00004_ip = 967; continue _fun00003 }
- 965:
+            if(!(option == foxtra)) { _fun00004_ip = 963; continue _fun00003 }
+ 961:
             foxtra = {};
- 967:
+ 963:
             var _closure1_slot24 = foxtra;
- 971:
+ 967:
             foxtra = _closure1_slot24;
             foxtra = offset in foxtra;
             yankee = false;
-            if(foxtra) { _fun00004_ip = 1128; continue _fun00003 }
- 987:
+            if(foxtra) { _fun00004_ip = 1124; continue _fun00003 }
+ 983:
             kiloes = _closure1_slot24;
             foxtra = global;
             sizing = foxtra.Date;
@@ -333,19 +333,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             result = backup - foxtra;
             sizing = _closure1_slot24;
             for(foxtra in sizing)
- 1047:
+ 1043:
             {
- 1056:
+ 1052:
                 update = foxtra;
                 echoed = _closure1_slot24;
                 echoed = echoed[update];
-                if(!(echoed < result)) { _fun00004_ip = 1047; continue _fun00003 }
- 1071:
+                if(!(echoed < result)) { _fun00004_ip = 1043; continue _fun00003 }
+ 1067:
                 echoed = _closure1_slot24;
                 echoed = delete echoed[update];
-                _fun00004_ip = 1047; continue _fun00003;
+                _fun00004_ip = 1043; continue _fun00003;
             }
- 1081:
+ 1077:
             backup = _closure1_slot0;
             kiloes = _closure1_slot2;
             foxtra = 22;
@@ -357,24 +357,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             foxtra = _closure1_slot24;
             foxtra = kiloes.bind(sizing)(backup, foxtra);
             yankee = true;
- 1128:
-            if(yankee) { _fun00004_ip = 1448; continue _fun00003 }
- 1134:
-            if(!(option != zuuluu)) { _fun00004_ip = 1350; continue _fun00003 }
- 1141:
+ 1124:
+            if(yankee) { _fun00004_ip = 1443; continue _fun00003 }
+ 1130:
+            if(!(option != zuuluu)) { _fun00004_ip = 1345; continue _fun00003 }
+ 1137:
             option = zuuluu.isThread;
             option = option.bind(zuuluu)();
-            if(!option) { _fun00004_ip = 1350; continue _fun00003 }
- 1157:
+            if(!option) { _fun00004_ip = 1345; continue _fun00003 }
+ 1153:
             romeon = _closure1_slot13;
             yankee = romeon.hasTrackedUnread;
             option = zuuluu.id;
             option = yankee.bind(romeon)(option);
-            if(!option) { _fun00004_ip = 1350; continue _fun00003 }
- 1183:
+            if(!option) { _fun00004_ip = 1345; continue _fun00003 }
+ 1179:
             tangon = tangon.ready;
-            if(tangon) { _fun00004_ip = 1350; continue _fun00003 }
- 1195:
+            if(tangon) { _fun00004_ip = 1345; continue _fun00003 }
+ 1191:
             yankee = _closure1_slot13;
             option = yankee.getTrackedAckMessageId;
             tangon = zuuluu.id;
@@ -406,7 +406,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon['skipLocalFetch'] = oscard;
             tangon = option.bind(yankee)(tangon);
             return tangon;
- 1350:
+ 1345:
             option = _closure1_slot1;
             kiloes = _closure1_slot2;
             tangon = 20;
@@ -430,7 +430,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon['jump'] = romeon;
             tangon = option.bind(yankee)(tangon);
             return tangon;
- 1448:
+ 1443:
             option = _closure1_slot23;
             tangon = option.log;
             romeon = zuuluu.id;
@@ -458,22 +458,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['skipLocalFetch'] = oscard;
             zuuluu = tangon.bind(report)(zuuluu);
             return zuuluu;
- 1566:
-            if(!michal) { _fun00004_ip = 1616; continue _fun00003 }
- 1569:
+ 1560:
+            if(!michal) { _fun00004_ip = 1608; continue _fun00003 }
+ 1563:
             report = _closure1_slot23;
             tangon = report.log;
             zuuluu = 'Skipping fetch because channel is a forum/store';
             zuuluu = tangon.bind(report)(zuuluu);
-            _fun00004_ip = 1616; continue _fun00003;
- 1592:
-            if(!michal) { _fun00004_ip = 1616; continue _fun00003 }
- 1595:
+            _fun00004_ip = 1608; continue _fun00003;
+ 1585:
+            if(!michal) { _fun00004_ip = 1608; continue _fun00003 }
+ 1588:
             zuuluu = _closure1_slot23;
             michal = zuuluu.log;
             entity = 'Skipping fetch because channelId is a static route';
             entity = michal.bind(zuuluu)(entity);
- 1616:
+ 1608:
             entity = undefined;
             return entity;
         }
@@ -561,42 +561,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = tangon.getChannelId;
             verify = michal.bind(tangon)();
             tangon = null;
-            if(!(tangon == verify)) { _fun00008_ip = 84; continue _fun00007 }
+            if(!(tangon == verify)) { _fun00008_ip = 83; continue _fun00007 }
  52:
-            if(!oscard) { _fun00008_ip = 248; continue _fun00007 }
+            if(!oscard) { _fun00008_ip = 245; continue _fun00007 }
  58:
             offset = _closure1_slot23;
             report = offset.log;
             michal = 'Skipping fetch because there is no selected channel';
             michal = report.bind(offset)(michal);
-            _fun00008_ip = 248; continue _fun00007;
- 84:
+            _fun00008_ip = 245; continue _fun00007;
+ 83:
             report = _closure1_slot11;
             michal = report.getChannel;
             michal = michal.bind(report)(verify);
-            if(!(tangon == michal)) { _fun00008_ip = 131; continue _fun00007 }
- 102:
-            if(!oscard) { _fun00008_ip = 248; continue _fun00007 }
- 108:
+            if(!(tangon == michal)) { _fun00008_ip = 129; continue _fun00007 }
+ 101:
+            if(!oscard) { _fun00008_ip = 245; continue _fun00007 }
+ 107:
             verify = _closure1_slot23;
             report = verify.log;
             tangon = 'Skipping fetch because channel is null';
             tangon = report.bind(verify)(tangon);
-            _fun00008_ip = 248; continue _fun00007;
- 131:
+            _fun00008_ip = 245; continue _fun00007;
+ 129:
             report = _closure1_slot9;
             tangon = michal.type;
             tangon = report.bind(entity)(tangon);
-            if(tangon) { _fun00008_ip = 174; continue _fun00007 }
- 148:
-            if(!oscard) { _fun00008_ip = 223; continue _fun00007 }
- 151:
+            if(tangon) { _fun00008_ip = 171; continue _fun00007 }
+ 146:
+            if(!oscard) { _fun00008_ip = 220; continue _fun00007 }
+ 149:
             verify = _closure1_slot23;
             report = verify.log;
             tangon = 'Skipping fetch because the selected channel is not a text channel';
             tangon = report.bind(verify)(tangon);
-            _fun00008_ip = 223; continue _fun00007;
- 174:
+            _fun00008_ip = 220; continue _fun00007;
+ 171:
             report = _closure1_slot29;
             tangon = {};
             verify = michal.getGuildId;
@@ -608,13 +608,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon['skipLocalFetch'] = golfie;
             tangon['logFailures'] = oscard;
             tangon = report.bind(entity)(tangon);
- 223:
+ 220:
             tangon = _closure1_slot35;
             zuuluu = michal.getGuildId;
             zuuluu = zuuluu.bind(michal)();
             michal = michal.id;
             michal = tangon.bind(entity)(zuuluu, michal);
- 248:
+ 245:
             return entity;
         }
     };
@@ -953,9 +953,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = entity.channelId;
             oscard = entity.messageRecord;
             report = entity.reason;
+            zuuluu = entity.noSendFailed;
             tangon = null;
-            if(!(tangon != oscard)) { _fun00022_ip = 108; continue _fun00021 }
- 26:
+            entity = tangon != oscard;
+            if(!entity) { _fun00022_ip = 41; continue _fun00021 }
+ 35:
+            michal = true;
+            entity = michal !== zuuluu;
+ 41:
+            if(!entity) { _fun00022_ip = 126; continue _fun00021 }
+ 44:
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
             entity = 27;
@@ -971,15 +978,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['messageId'] = oscard;
             oscard = tangon != report;
             tangon = null;
-            if(!oscard) { _fun00022_ip = 91; continue _fun00021 }
- 88:
+            if(!oscard) { _fun00022_ip = 109; continue _fun00021 }
+ 106:
             tangon = report;
- 91:
+ 109:
             entity['reason'] = tangon;
             tangon = true;
             entity['shouldNotify'] = tangon;
             entity = michal.bind(zuuluu)(entity);
- 108:
+ 126:
             entity = undefined;
             return entity;
         }

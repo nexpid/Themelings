@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     romeon = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 289; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 288; continue _fun00001 }
  15:
                     michal = argBar;
                     var _closure4_slot0 = michal;
@@ -64,22 +64,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = oscard.measureAsync;
                     michal = _closure1_slot5;
                     michal = zuuluu.bind(oscard)(michal);
-                    SaveGenerator(address=204);
- 202:
+                    SaveGenerator(address=203);
+ 201:
                     return michal;
- 204:
+ 203:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 286; continue _fun00001 }
- 210:
+                    if(zuuluu) { _fun00002_ip = 285; continue _fun00001 }
+ 209:
                     zuuluu = _closure1_slot6;
                     zuuluu = zuuluu.promise;
-                    SaveGenerator(address=224);
- 222:
+                    SaveGenerator(address=223);
+ 221:
                     return zuuluu;
- 224:
+ 223:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 283; continue _fun00001 }
- 230:
+                    if(oscard) { _fun00002_ip = 282; continue _fun00001 }
+ 229:
                     oscard = _closure1_slot1;
                     option = _closure1_slot3;
                     report = 6;
@@ -103,11 +103,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     tangon = golfie.bind(option)(oscard, report, tangon);
                     return tangon;
- 283:
+ 282:
                     return zuuluu;
- 286:
+ 285:
                     return michal;
- 289:
+ 288:
                     return entity;
                 }
             };

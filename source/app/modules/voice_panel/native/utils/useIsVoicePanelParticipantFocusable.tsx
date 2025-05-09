@@ -32,84 +32,77 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = _closure1_slot4;
  61:
             tangon = null;
-            if(!(tangon != golfie)) { _fun00002_ip = 293; continue _fun00001 }
+            if(!(tangon != golfie)) { _fun00002_ip = 274; continue _fun00001 }
  70:
             zuuluu = oscard.getParticipant;
             michal = argBar;
             zuuluu = zuuluu.bind(oscard)(michal, golfie);
-            if(!(tangon != zuuluu)) { _fun00002_ip = 289; continue _fun00001 }
+            if(!(tangon != zuuluu)) { _fun00002_ip = 270; continue _fun00001 }
  92:
-            michal = _closure1_slot7;
-            michal = michal.bind(entity)(zuuluu);
-            if(michal) { _fun00002_ip = 285; continue _fun00001 }
- 110:
             michal = _closure1_slot6;
             michal = michal.bind(entity)(zuuluu);
-            if(michal) { _fun00002_ip = 238; continue _fun00001 }
- 122:
-            michal = _closure1_slot8;
+            if(michal) { _fun00002_ip = 223; continue _fun00001 }
+ 107:
+            michal = _closure1_slot7;
             michal = michal.bind(entity)(zuuluu);
-            if(michal) { _fun00002_ip = 207; continue _fun00001 }
- 134:
-            michal = _closure1_slot9;
+            if(michal) { _fun00002_ip = 192; continue _fun00001 }
+ 119:
+            michal = _closure1_slot8;
             michal = michal.bind(entity)(zuuluu);
             golfie = _closure1_slot0;
             offset = _closure1_slot1;
-            if(michal) { _fun00002_ip = 181; continue _fun00001 }
- 154:
+            if(michal) { _fun00002_ip = 166; continue _fun00001 }
+ 139:
             michal = 6;
             michal = offset[michal];
             oscard = golfie.bind(entity)(michal);
             michal = oscard.assertNever;
             michal = michal.bind(oscard)(zuuluu);
             michal = undefined;
-            _fun00002_ip = 205; continue _fun00001;
- 181:
+            _fun00002_ip = 190; continue _fun00001;
+ 166:
             oscard = 5;
             oscard = offset[oscard];
             golfie = golfie.bind(entity)(oscard);
             oscard = golfie.canRenderParticipantVideo;
             michal = oscard.bind(golfie)(zuuluu, option);
- 205:
-            _fun00002_ip = 236; continue _fun00001;
- 207:
+ 190:
+            _fun00002_ip = 221; continue _fun00001;
+ 192:
             option = verify.getActiveStreamForUser;
             oscard = zuuluu.user;
             golfie = oscard.id;
             oscard = argFoo;
             oscard = option.bind(verify)(golfie, oscard);
             michal = tangon != oscard;
- 236:
+ 221:
             return michal;
- 238:
+ 223:
             michal = report.getCurrentEmbeddedActivity;
             michal = michal.bind(report)();
             report = tangon == michal;
             entity = undefined;
-            if(report) { _fun00002_ip = 262; continue _fun00001 }
- 257:
+            if(report) { _fun00002_ip = 247; continue _fun00001 }
+ 242:
             entity = michal.applicationId;
- 262:
+ 247:
             entity = tangon != entity;
-            if(!entity) { _fun00002_ip = 283; continue _fun00001 }
- 269:
+            if(!entity) { _fun00002_ip = 268; continue _fun00001 }
+ 254:
             zuuluu = zuuluu.applicationId;
             michal = michal.applicationId;
             entity = zuuluu === michal;
- 283:
+ 268:
             return entity;
- 285:
+ 270:
             entity = false;
             return entity;
- 289:
-            entity = false;
-            return entity;
- 293:
+ 274:
             entity = false;
             return entity;
         }
     };
-    var _closure1_slot10 = michal;
+    var _closure1_slot9 = michal;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -140,12 +133,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = oscard.bind(entity)(report);
     option = report.isActivityParticipant;
     var _closure1_slot6 = option;
-    option = report.isPresenceEmbeddedActivityParticipant;
-    var _closure1_slot7 = option;
     option = report.isStreamParticipant;
-    var _closure1_slot8 = option;
+    var _closure1_slot7 = option;
     report = report.isUserParticipant;
-    var _closure1_slot9 = report;
+    var _closure1_slot8 = report;
     report = 8;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
@@ -176,7 +167,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = _closure1_slot4;
         michal[3] = report;
         entity = function() {
-            verify = _closure1_slot10;
+            verify = _closure1_slot9;
             sizing = _closure2_slot0;
             kiloes = _closure2_slot1;
             backup = _closure2_slot2;

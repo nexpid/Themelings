@@ -281,8 +281,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot0 = michal;
             zuuluu = entity.onHeightChange;
             var _closure2_slot1 = zuuluu;
-            foxtra = entity.channel;
-            romeon = entity.canOnlyUseTextCommands;
+            kiloes = entity.channel;
+            foxtra = entity.canOnlyUseTextCommands;
             tangon = undefined;
             var _closure2_slot8 = tangon;
             var _closure2_slot9 = tangon;
@@ -295,12 +295,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot16 = tangon;
             var _closure2_slot17 = tangon;
             entity = _closure1_slot18;
-            output = entity.bind(tangon)();
-            var _closure2_slot2 = output;
+            result = entity.bind(tangon)();
+            var _closure2_slot2 = result;
             golfie = _closure1_slot5;
-            entity = golfie.createRef;
-            echoed = entity.bind(golfie)();
-            var _closure2_slot3 = echoed;
+            entity = golfie.useRef;
+            romeon = null;
+            update = entity.bind(golfie)(romeon);
+            var _closure2_slot3 = update;
             michal = golfie.useState;
             entity = 0;
             verify = michal.bind(golfie)(entity);
@@ -316,85 +317,85 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = false;
             michal = oscard.bind(golfie)(michal);
             var _closure2_slot6 = michal;
-            kiloes = _closure1_slot0;
-            sizing = _closure1_slot3;
+            sizing = _closure1_slot0;
+            output = _closure1_slot3;
             michal = 11;
-            michal = sizing[michal];
-            golfie = kiloes.bind(tangon)(michal);
+            michal = output[michal];
+            golfie = sizing.bind(tangon)(michal);
             oscard = golfie.useCommandDiscoveryManager;
             michal = function(argFoo) {
                 entity = argFoo;
                 entity = entity.initialSectionId;
                 return entity;
             };
-            update = oscard.bind(golfie)(michal);
-            var _closure2_slot7 = update;
+            source = oscard.bind(golfie)(michal);
+            var _closure2_slot7 = source;
             oscard = _closure1_slot2;
             michal = 12;
-            michal = sizing[michal];
+            michal = output[michal];
             golfie = oscard.bind(tangon)(michal);
             oscard = golfie.useDiscovery;
             michal = {};
             verify = {};
-            verify['channel'] = foxtra;
-            foxtra = 'channel';
-            verify['type'] = foxtra;
+            verify['channel'] = kiloes;
+            kiloes = 'channel';
+            verify['type'] = kiloes;
             michal['context'] = verify;
             verify = {};
-            foxtra = 13;
-            foxtra = sizing[foxtra];
-            foxtra = kiloes.bind(tangon)(foxtra);
-            foxtra = foxtra.ApplicationCommandType;
-            kiloes = foxtra.CHAT;
-            foxtra = new Array(1);
-            foxtra[0] = kiloes;
-            verify['commandTypes'] = foxtra;
-            kiloes = _closure1_slot0;
-            sizing = _closure1_slot3;
-            foxtra = 14;
-            foxtra = sizing[foxtra];
-            foxtra = kiloes.bind(tangon)(foxtra);
-            kiloes = foxtra.BuiltInCommandFilter;
-            if(romeon) { _fun00008_ip = 336; continue _fun00007 }
- 328:
-            foxtra = kiloes.ALLOW;
-            _fun00008_ip = 342; continue _fun00007;
- 336:
-            foxtra = kiloes.ONLY_TEXT;
- 342:
-            verify['builtIns'] = foxtra;
-            romeon = !romeon;
-            verify['applicationCommands'] = romeon;
+            kiloes = 13;
+            kiloes = output[kiloes];
+            kiloes = sizing.bind(tangon)(kiloes);
+            kiloes = kiloes.ApplicationCommandType;
+            sizing = kiloes.CHAT;
+            kiloes = new Array(1);
+            kiloes[0] = sizing;
+            verify['commandTypes'] = kiloes;
+            sizing = _closure1_slot0;
+            output = _closure1_slot3;
+            kiloes = 14;
+            kiloes = output[kiloes];
+            kiloes = sizing.bind(tangon)(kiloes);
+            sizing = kiloes.BuiltInCommandFilter;
+            if(foxtra) { _fun00008_ip = 338; continue _fun00007 }
+ 330:
+            kiloes = sizing.ALLOW;
+            _fun00008_ip = 344; continue _fun00007;
+ 338:
+            kiloes = sizing.ONLY_TEXT;
+ 344:
+            verify['builtIns'] = kiloes;
+            foxtra = !foxtra;
+            verify['applicationCommands'] = foxtra;
             michal['filters'] = verify;
-            romeon = {'placeholderCount': 3, 'limit': null, 'includeFrecency': true};
+            foxtra = {'placeholderCount': 3, 'limit': null, 'includeFrecency': true};
             verify = _closure1_slot9;
-            romeon['limit'] = verify;
+            foxtra['limit'] = verify;
             verify = true;
-            michal['options'] = romeon;
+            michal['options'] = foxtra;
             michal['allowFetch'] = verify;
             oscard = oscard.bind(golfie)(michal);
             golfie = oscard.sectionDescriptors;
             _closure2_slot8 = golfie;
             michal = oscard.activeSections;
             _closure2_slot9 = michal;
-            result = oscard.commandsByActiveSection;
-            _closure2_slot10 = result;
+            echoed = oscard.commandsByActiveSection;
+            _closure2_slot10 = echoed;
             michal = oscard.hasMoreAfter;
             _closure2_slot11 = michal;
             foxtra = oscard.loading;
             michal = oscard.filteredSectionId;
             _closure2_slot12 = michal;
-            romeon = oscard.scrollDown;
-            _closure2_slot13 = romeon;
-            romeon = oscard.filterSection;
-            _closure2_slot14 = romeon;
+            kiloes = oscard.scrollDown;
+            _closure2_slot13 = kiloes;
+            kiloes = oscard.filterSection;
+            _closure2_slot14 = kiloes;
             oscard = _closure1_slot5;
-            sizing = oscard.useEffect;
-            kiloes = new Array(4);
-            kiloes[0] = romeon;
-            kiloes[1] = update;
-            kiloes[2] = offset;
-            kiloes[3] = golfie;
+            output = oscard.useEffect;
+            sizing = new Array(4);
+            sizing[0] = kiloes;
+            sizing[1] = source;
+            sizing[2] = offset;
+            sizing[3] = golfie;
             offset = function() {
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
@@ -429,9 +430,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            offset = sizing.bind(oscard)(offset, kiloes);
-            sizing = oscard.useEffect;
-            kiloes = function() {
+            offset = output.bind(oscard)(offset, sizing);
+            output = oscard.useEffect;
+            sizing = function() {
                 tangon = _closure1_slot0;
                 report = _closure1_slot3;
                 michal = 15;
@@ -472,10 +473,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             offset = new Array(0);
-            offset = sizing.bind(oscard)(kiloes, offset);
-            kiloes = oscard.useEffect;
+            offset = output.bind(oscard)(sizing, offset);
+            sizing = oscard.useEffect;
             offset = new Array(2);
-            offset[0] = result;
+            offset[0] = echoed;
             offset[1] = zuuluu;
             zuuluu = function() {
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
@@ -541,11 +542,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            zuuluu = kiloes.bind(oscard)(zuuluu, offset);
+            zuuluu = sizing.bind(oscard)(zuuluu, offset);
             offset = oscard.useCallback;
             zuuluu = new Array(3);
             zuuluu[0] = golfie;
-            zuuluu[1] = romeon;
+            zuuluu[1] = kiloes;
             zuuluu[2] = michal;
             michal = function(argFoo) {
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
@@ -589,8 +590,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            update = offset.bind(oscard)(michal, zuuluu);
-            _closure2_slot15 = update;
+            source = offset.bind(oscard)(michal, zuuluu);
+            _closure2_slot15 = source;
             offset = oscard.useCallback;
             zuuluu = function() {
                 michal = _closure2_slot6;
@@ -609,7 +610,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             michal = new Array(0);
-            sizing = offset.bind(oscard)(zuuluu, michal);
+            output = offset.bind(oscard)(zuuluu, michal);
             offset = oscard.useCallback;
             zuuluu = function(argFoo) {
                 _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
@@ -637,7 +638,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             michal = new Array(0);
-            kiloes = offset.bind(oscard)(zuuluu, michal);
+            sizing = offset.bind(oscard)(zuuluu, michal);
             offset = oscard.useCallback;
             zuuluu = function() {
                 michal = _closure2_slot6;
@@ -647,11 +648,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             michal = new Array(0);
-            romeon = offset.bind(oscard)(zuuluu, michal);
+            kiloes = offset.bind(oscard)(zuuluu, michal);
             offset = oscard.useMemo;
             zuuluu = new Array(2);
             zuuluu[0] = golfie;
-            zuuluu[1] = result;
+            zuuluu[1] = echoed;
             michal = function() {
                 _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
@@ -934,7 +935,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.bind(oscard)(zuuluu, michal);
             zuuluu = oscard.useMemo;
             michal = new Array(3);
-            michal[0] = update;
+            michal[0] = source;
             michal[1] = golfie;
             michal[2] = entity;
             entity = function() {
@@ -959,22 +960,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot16;
             michal = _closure1_slot6;
             entity = {};
-            update = output.discoveryWrapper;
+            source = result.discoveryWrapper;
             golfie = new Array(2);
-            golfie[0] = update;
+            golfie[0] = source;
             golfie[1] = option;
             entity['style'] = golfie;
             option = _closure1_slot14;
             golfie = _closure1_slot7;
             report = {};
-            report['ref'] = echoed;
-            report['sections'] = result;
-            output = output.commandsList;
-            report['style'] = output;
-            report['onScrollBeginDrag'] = sizing;
-            report['onScrollEndDrag'] = kiloes;
-            report['onMomentumScrollEnd'] = romeon;
-            romeon = function(argFoo) { // Original name: onScroll
+            report['ref'] = update;
+            report['sections'] = echoed;
+            result = result.commandsList;
+            report['style'] = result;
+            report['onScrollBeginDrag'] = output;
+            report['onScrollEndDrag'] = sizing;
+            report['onMomentumScrollEnd'] = kiloes;
+            kiloes = function(argFoo) { // Original name: onScroll
                 _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
                     entity = argFoo;
@@ -1063,22 +1064,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            report['onScroll'] = romeon;
-            romeon = 16;
-            report['scrollEventThrottle'] = romeon;
-            romeon = function(argFoo) { // Original name: keyExtractor
+            report['onScroll'] = kiloes;
+            kiloes = 16;
+            report['scrollEventThrottle'] = kiloes;
+            kiloes = function(argFoo) { // Original name: keyExtractor
                 entity = argFoo;
                 entity = entity.id;
                 return entity;
             };
-            report['keyExtractor'] = romeon;
+            report['keyExtractor'] = kiloes;
             romeon = null;
-            if(!foxtra) { _fun00008_ip = 917; continue _fun00007 }
- 907:
+            if(!foxtra) { _fun00008_ip = 919; continue _fun00007 }
+ 909:
             foxtra = {};
             foxtra['minIndexForVisible'] = backup;
             romeon = foxtra;
- 917:
+ 919:
             report['maintainVisibleContentPosition'] = romeon;
             romeon = function(argFoo) { // Original name: renderItem
                 _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {

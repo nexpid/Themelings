@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = argFoo;
                     report = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 518; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 519; continue _fun00001 }
  18:
                     offset = undefined;
                     if(!(report === offset)) { _fun00002_ip = 26; continue _fun00001 }
@@ -41,14 +41,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return offset;
  34:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 515; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 516; continue _fun00001 }
  43:
                     oscard = _closure1_slot5;
                     option = oscard[tangon];
                     oscard = null;
                     if(!(oscard != option)) { _fun00002_ip = 66; continue _fun00001 }
  60:
-                    if(report) { _fun00002_ip = 504; continue _fun00001 }
+                    if(report) { _fun00002_ip = 505; continue _fun00001 }
  66:
                     option = _closure1_slot3;
                     report = option.resolveAssetSource;
@@ -62,8 +62,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = option.bind(offset)(report);
                     report = option.isAndroid;
                     report = report.bind(option)();
-                    if(!report) { _fun00002_ip = 159; continue _fun00001 }
- 122:
+                    if(!report) { _fun00002_ip = 160; continue _fun00001 }
+ 123:
                     option = _closure1_slot0;
                     verify = _closure1_slot1;
                     report = 33;
@@ -72,22 +72,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = report.persistentKeyStore;
                     report = option.addKey;
                     report = report.bind(option)(foxtra);
- 159:
+ 160:
                     option = _closure1_slot0;
                     report = _closure1_slot1;
                     report = report[yankee];
                     option = option.bind(offset)(report);
                     report = option.isAndroid;
                     report = report.bind(option)();
-                    if(report) { _fun00002_ip = 218; continue _fun00001 }
- 188:
+                    if(report) { _fun00002_ip = 219; continue _fun00001 }
+ 189:
                     report = _closure1_slot4;
                     verify = report.DCDFileManager;
                     option = verify.readAsset;
                     report = 'utf8';
                     report = option.bind(verify)(foxtra, report);
-                    _fun00002_ip = 271; continue _fun00001;
- 218:
+                    _fun00002_ip = 272; continue _fun00001;
+ 219:
                     backup = _closure1_slot0;
                     kiloes = _closure1_slot1;
                     option = 33;
@@ -99,38 +99,38 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = backup.bind(offset)(option);
                     option = option.AssetLoader;
                     report = verify.bind(romeon)(foxtra, option);
- 271:
-                    if(!(oscard != report)) { _fun00002_ip = 468; continue _fun00001 }
- 278:
-                    SaveGenerator(address=282);
- 280:
+ 272:
+                    if(!(oscard != report)) { _fun00002_ip = 469; continue _fun00001 }
+ 279:
+                    SaveGenerator(address=283);
+ 281:
                     return report;
- 282:
+ 283:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=7);
-                    if(option) { _fun00002_ip = 465; continue _fun00001 }
- 291:
-                    if(!(oscard == report)) { _fun00002_ip = 327; continue _fun00001 }
- 295:
+                    if(option) { _fun00002_ip = 466; continue _fun00001 }
+ 292:
+                    if(!(oscard == report)) { _fun00002_ip = 328; continue _fun00001 }
+ 296:
                     verify = _closure1_slot0;
                     option = _closure1_slot1;
                     option = option[yankee];
                     verify = verify.bind(offset)(option);
                     option = verify.isAndroid;
                     option = option.bind(verify)();
-                    if(option) { _fun00002_ip = 327; continue _fun00001 }
- 324:
+                    if(option) { _fun00002_ip = 328; continue _fun00001 }
+ 325:
                     return oscard;
- 327:
+ 328:
                     verify = _closure1_slot0;
                     option = _closure1_slot1;
                     option = option[yankee];
                     verify = verify.bind(offset)(option);
                     option = verify.isAndroid;
                     option = option.bind(verify)();
-                    if(option) { _fun00002_ip = 393; continue _fun00001 }
- 356:
-                    if(!(oscard != report)) { _fun00002_ip = 390; continue _fun00001 }
- 360:
+                    if(option) { _fun00002_ip = 394; continue _fun00001 }
+ 357:
+                    if(!(oscard != report)) { _fun00002_ip = 391; continue _fun00001 }
+ 361:
                     option = global;
                     verify = option.JSON;
                     option = verify.parse;
@@ -138,9 +138,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = _closure1_slot5;
                     verify[tangon] = option;
                     return option;
- 390:
+ 391:
                     return oscard;
- 393:
+ 394:
                     oscard = global;
                     offset = oscard.Proxy;
                     verify = {};
@@ -251,9 +251,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = golfie.resolve;
                     oscard = oscard.bind(golfie)(option);
                     return oscard;
- 465:
+ 466:
                     return report;
- 468:
+ 469:
                     report = global;
                     golfie = report.Error;
                     report = golfie.prototype;
@@ -263,13 +263,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = new result[golfie](output, sizing);
                     report = report instanceof Object ? report : oscard;
                     throw report;
- 504:
+ 505:
                     zuuluu = _closure1_slot5;
                     zuuluu = zuuluu[tangon];
                     return zuuluu;
- 515:
+ 516:
                     return michal;
- 518:
+ 519:
                     return entity;
                 }
             };

@@ -2811,7 +2811,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie['code'] = yankee;
     var _closure1_slot23 = golfie;
     yankee = michal.memo;
-    golfie = function(argFoo) { // Original name: _FastListStickySectionRenderer
+    golfie = function(argFoo) { // Original name: FastListStickySectionRendererComponent
         _fun00055: for(var _fun00056_ip = 0; ; ) switch(_fun00056_ip) {
  0:
             zuuluu = argFoo;

@@ -264,15 +264,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = tangon.type;
             michal = 'CLEAR_CACHES';
             michal = michal === report;
-            if(!michal) { _fun00010_ip = 183; continue _fun00009 }
- 177:
+            if(!michal) { _fun00010_ip = 182; continue _fun00009 }
+ 176:
             michal = tangon.preventWritingCachesAgainThisSession;
- 183:
-            if(!michal) { _fun00010_ip = 192; continue _fun00009 }
- 186:
+ 182:
+            if(!michal) { _fun00010_ip = 191; continue _fun00009 }
+ 185:
             michal = true;
             _closure1_slot20 = michal;
- 192:
+ 191:
             return entity;
         }
     };
@@ -1673,17 +1673,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             romeon = michal.bind(zuuluu)();
                             zuuluu = _closure4_slot4;
                             michal = false;
-                            if(!(michal !== zuuluu)) { _fun00032_ip = 1255; continue _fun00031 }
+                            if(!(michal !== zuuluu)) { _fun00032_ip = 1252; continue _fun00031 }
  35:
                             michal = _closure4_slot5;
                             option = null;
-                            if(!(option != michal)) { _fun00032_ip = 1058; continue _fun00031 }
+                            if(!(option != michal)) { _fun00032_ip = 1056; continue _fun00031 }
  48:
                             michal = _closure4_slot6;
-                            if(!(option != michal)) { _fun00032_ip = 1058; continue _fun00031 }
+                            if(!(option != michal)) { _fun00032_ip = 1056; continue _fun00031 }
  59:
                             michal = _closure4_slot7;
-                            if(!(option != michal)) { _fun00032_ip = 1058; continue _fun00031 }
+                            if(!(option != michal)) { _fun00032_ip = 1056; continue _fun00031 }
  70:
                             michal = _closure4_slot4;
                             if(!(option == michal)) { _fun00032_ip = 118; continue _fun00031 }
@@ -1691,12 +1691,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             michal = _closure4_slot5;
                             michal = michal.length;
                             zuuluu = 0;
-                            if(!(!(michal > zuuluu))) { _fun00032_ip = 932; continue _fun00031 }
+                            if(!(!(michal > zuuluu))) { _fun00032_ip = 931; continue _fun00031 }
  96:
                             michal = _closure4_slot6;
                             michal = michal.all;
                             michal = michal.length;
-                            if(!(!(michal > zuuluu))) { _fun00032_ip = 932; continue _fun00031 }
+                            if(!(!(michal > zuuluu))) { _fun00032_ip = 931; continue _fun00031 }
  118:
                             zuuluu = _closure1_slot24;
                             if(zuuluu) { _fun00032_ip = 842; continue _fun00031 }
@@ -2072,7 +2072,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             michal = zuuluu.bind(tangon)(michal);
                             michal = undefined;
                             return michal;
- 932:
+ 931:
                             tangon = _closure1_slot1;
                             report = _closure1_slot3;
                             zuuluu = 28;
@@ -2100,7 +2100,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             michal = zuuluu.bind(tangon)(michal);
                             michal = undefined;
                             return michal;
- 1058:
+ 1056:
                             zuuluu = _closure1_slot1;
                             tangon = _closure1_slot3;
                             michal = 28;
@@ -2143,7 +2143,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             entity = michal.bind(zuuluu)(entity);
                             entity = undefined;
                             return entity;
- 1255:
+ 1252:
                             zuuluu = _closure1_slot1;
                             tangon = _closure1_slot3;
                             entity = 28;
@@ -2504,44 +2504,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = tangon.bind(entity)(michal);
                 entity = michal.isAuthenticated;
                 entity = entity.bind(michal)();
-                if(entity) { _fun00048_ip = 63; continue _fun00047 }
+                if(entity) { _fun00048_ip = 62; continue _fun00047 }
  38:
                 tangon = _closure1_slot19;
                 michal = tangon.log;
                 entity = 'Not writing cache because not authenticated';
                 entity = michal.bind(tangon)(entity);
                 entity = false;
-                _fun00048_ip = 143; continue _fun00047;
- 63:
+                _fun00048_ip = 140; continue _fun00047;
+ 62:
                 michal = _closure1_slot20;
-                if(michal) { _fun00048_ip = 117; continue _fun00047 }
- 70:
+                if(michal) { _fun00048_ip = 115; continue _fun00047 }
+ 69:
                 michal = argFoo;
                 tangon = !michal;
-                if(!tangon) { _fun00048_ip = 86; continue _fun00047 }
- 79:
+                if(!tangon) { _fun00048_ip = 85; continue _fun00047 }
+ 78:
                 michal = _closure1_slot25;
                 tangon = !michal;
- 86:
+ 85:
                 michal = !tangon;
-                if(!tangon) { _fun00048_ip = 115; continue _fun00047 }
- 92:
+                if(!tangon) { _fun00048_ip = 113; continue _fun00047 }
+ 91:
                 oscard = _closure1_slot19;
                 report = oscard.log;
                 tangon = 'Not writing cache because never connected';
                 tangon = report.bind(oscard)(tangon);
                 michal = false;
+ 113:
+                _fun00048_ip = 137; continue _fun00047;
  115:
-                _fun00048_ip = 140; continue _fun00047;
- 117:
                 report = _closure1_slot19;
                 tangon = report.log;
                 zuuluu = 'Not writing cache because caches cleared';
                 zuuluu = tangon.bind(report)(zuuluu);
                 michal = false;
- 140:
+ 137:
                 entity = michal;
- 143:
+ 140:
                 return entity;
             }
         };

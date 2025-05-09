@@ -344,7 +344,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.ChannelMessage;
             verify = romeon.bind(foxtra)(verify, zuuluu);
             _closure2_slot3 = verify;
-            if(!(report != verify)) { _fun00008_ip = 900; continue _fun00007 }
+            if(!(report != verify)) { _fun00008_ip = 893; continue _fun00007 }
  613:
             romeon = _closure1_slot4;
             zuuluu = romeon.getToken;
@@ -359,25 +359,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = _closure1_slot2;
             zuuluu = 14;
             zuuluu = offset[zuuluu];
-            kiloes = report.bind(entity)(zuuluu);
-            backup = kiloes.clearAll;
-            romeon = michal.id;
+            backup = report.bind(entity)(zuuluu);
+            romeon = backup.clearAll;
+            report = michal.id;
             zuuluu = _closure1_slot5;
             zuuluu = zuuluu.ChannelMessage;
-            zuuluu = backup.bind(kiloes)(romeon, zuuluu);
+            zuuluu = romeon.bind(backup)(report, zuuluu);
+            report = _closure1_slot0;
             zuuluu = 15;
             zuuluu = offset[zuuluu];
             offset = report.bind(entity)(zuuluu);
-            report = offset.getCurrentConfig;
-            zuuluu = {};
-            romeon = 'ChatInputSendUtils';
-            zuuluu['location'] = romeon;
+            report = offset.isUploadRefactorEnabled;
+            zuuluu = 'ChatInputSendUtils';
             zuuluu = report.bind(offset)(zuuluu);
-            zuuluu = zuuluu.enabled;
             offset = _closure1_slot1;
             romeon = _closure1_slot2;
-            if(zuuluu) { _fun00008_ip = 801; continue _fun00007 }
- 738:
+            if(zuuluu) { _fun00008_ip = 794; continue _fun00007 }
+ 731:
             zuuluu = 20;
             zuuluu = romeon[zuuluu];
             report = offset.bind(entity)(zuuluu);
@@ -421,8 +419,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['maxSizeCallback'] = foxtra;
             zuuluu['analyticsLocations'] = option;
             zuuluu = tangon.bind(report)(zuuluu);
-            _fun00008_ip = 900; continue _fun00007;
- 801:
+            _fun00008_ip = 893; continue _fun00007;
+ 794:
             option = 13;
             zuuluu = romeon[option];
             report = offset.bind(entity)(zuuluu);
@@ -649,7 +647,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             update = undefined;
             echoed = michal;
             michal = vacuum[tangon](ctrled, source, update, echoed, result);
- 900:
+ 893:
             return entity;
         }
     };

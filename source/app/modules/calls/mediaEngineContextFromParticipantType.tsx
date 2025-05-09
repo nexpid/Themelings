@@ -32,10 +32,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     romeon = offset.USER;
     yankee = verify.DEFAULT;
     tangon[romeon] = yankee;
-    romeon = offset.ACTIVITY;
-    yankee = verify.DEFAULT;
-    tangon[romeon] = yankee;
-    offset = offset.PRESENCE_EMBEDDED_ACTIVITY;
+    offset = offset.ACTIVITY;
     verify = verify.DEFAULT;
     tangon[offset] = verify;
     tangon = golfie.bind(option)(tangon);

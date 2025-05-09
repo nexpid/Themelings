@@ -152,8 +152,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['getSessionId'] = option;
+    option = 5;
+    option = oscard[option];
+    option = report.bind(entity)(option);
+    option = option.requestSafeIdleCallback;
+    michal['scheduleWhenIdle'] = option;
     michal = tangon.bind(golfie)(michal);
-    tangon = 5;
+    tangon = 6;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

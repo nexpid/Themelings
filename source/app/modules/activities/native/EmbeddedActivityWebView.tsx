@@ -1615,13 +1615,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             report = papara.bind(status)(report, cntext);
-            if(!(entity != config)) { _fun00010_ip = 2097; continue _fun00009 }
+            if(!(entity != config)) { _fun00010_ip = 2098; continue _fun00009 }
  1517:
-            if(!(entity != source)) { _fun00010_ip = 2097; continue _fun00009 }
+            if(!(entity != source)) { _fun00010_ip = 2098; continue _fun00009 }
  1524:
             if(!tangon) { _fun00010_ip = 1534; continue _fun00009 }
  1527:
-            if(!(option !== zuuluu)) { _fun00010_ip = 2097; continue _fun00009 }
+            if(!(option !== zuuluu)) { _fun00010_ip = 2098; continue _fun00009 }
  1534:
             tangon = {};
             cntext = _closure1_slot19;
@@ -1678,7 +1678,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  1708:
             zuuluu = entity == vacuum;
             michal = null;
-            if(zuuluu) { _fun00010_ip = 2095; continue _fun00009 }
+            if(zuuluu) { _fun00010_ip = 2096; continue _fun00009 }
  1720:
             report = _closure1_slot13;
             tangon = _closure1_slot0;
@@ -1696,18 +1696,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['source'] = golfie;
             golfie = {};
             config = source.port;
-            if(!(target !== config)) { _fun00010_ip = 1824; continue _fun00009 }
- 1788:
+            if(!(target !== config)) { _fun00010_ip = 1825; continue _fun00009 }
+ 1789:
             papara = source.hostname;
             cntext = source.port;
             config = update.HermesInternal;
             record = config.concat;
             config = ':';
             config = record.bind(target)(papara, config, cntext);
-            _fun00010_ip = 1830; continue _fun00009;
- 1824:
+            _fun00010_ip = 1831; continue _fun00009;
+ 1825:
             config = source.host;
- 1830:
+ 1831:
             golfie['domain'] = config;
             config = source.protocol;
             source = 'http:';
@@ -1750,10 +1750,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['injectedJavaScript'] = yankee;
             zuuluu['injectedJavaScriptForMainFrameOnly'] = option;
             yankee = undefined;
-            if(!foxtra) { _fun00010_ip = 2050; continue _fun00009 }
- 2047:
+            if(!foxtra) { _fun00010_ip = 2051; continue _fun00009 }
+ 2048:
             yankee = romeon;
- 2050:
+ 2051:
             zuuluu['onShouldStartLoadWithRequest'] = yankee;
             zuuluu['mediaPlaybackRequiresUserAction'] = option;
             zuuluu['ignoreSilentHardwareSwitch'] = offset;
@@ -1762,9 +1762,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['bounces'] = option;
             zuuluu['allowsProtectedMedia'] = golfie;
             michal = report.bind(oscard)(tangon, zuuluu);
- 2095:
+ 2096:
             return michal;
- 2097:
+ 2098:
             return entity;
         }
     };

@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = zuuluu.bind(tangon)(entity);
             entity = entity.StickerFormat;
             entity = entity.LOTTIE;
-            if(!(michal !== entity)) { _fun00004_ip = 568; continue _fun00003 }
+            if(!(michal !== entity)) { _fun00004_ip = 569; continue _fun00003 }
  175:
             michal = yankee.format_type;
             zuuluu = _closure1_slot0;
@@ -264,7 +264,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['accessibilityLabel'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 568:
+ 569:
             zuuluu = _closure1_slot5;
             michal = _closure1_slot1;
             entity = _closure1_slot2;
@@ -277,10 +277,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = null;
             foxtra = yankee != romeon;
             yankee = '';
-            if(!foxtra) { _fun00004_ip = 619; continue _fun00003 }
- 616:
+            if(!foxtra) { _fun00004_ip = 620; continue _fun00003 }
+ 617:
             yankee = romeon;
- 619:
+ 620:
             entity['asset'] = yankee;
             entity['width'] = offset;
             entity['height'] = offset;
@@ -290,13 +290,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = golfie[verify];
             golfie = option.bind(tangon)(golfie);
             golfie = golfie.NativeLottieRenderMode;
-            if(oscard) { _fun00004_ip = 670; continue _fun00003 }
- 662:
+            if(oscard) { _fun00004_ip = 671; continue _fun00003 }
+ 663:
             oscard = golfie.STILL;
-            _fun00004_ip = 676; continue _fun00003;
- 670:
+            _fun00004_ip = 677; continue _fun00003;
+ 671:
             oscard = golfie.LOOP;
- 676:
+ 677:
             entity['renderMode'] = oscard;
             entity['accessibilityLabel'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

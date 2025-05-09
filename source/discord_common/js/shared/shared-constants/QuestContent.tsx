@@ -134,6 +134,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['QUEST_ENROLLMENT_BLOCKED_BOTTOM_SHEET'] = oscard;
     michal = 'QUEST_ENROLLMENT_BLOCKED_BOTTOM_SHEET';
     tangon[oscard] = michal;
+    oscard = 31;
+    tangon['ORBS_SHOP_HERO_CTA'] = oscard;
+    michal = 'ORBS_SHOP_HERO_CTA';
+    tangon[oscard] = michal;
     michal = {};
     option = entity.Set;
     oscard = option.prototype;

@@ -89,7 +89,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00004_ip = 317; continue _fun00003 }
+                            if(michal) { _fun00004_ip = 311; continue _fun00003 }
  10:
                             michal = _closure2_slot2;
                             oscard = undefined;
@@ -99,7 +99,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                             report = golfie.log;
                             michal = 'isRestoring true';
                             michal = report.bind(golfie)(michal);
- 50: // try_start_0 // try_start_1
+ 49: // try_start_0 // try_start_1
                             report = _closure1_slot1;
                             michal = _closure1_slot2;
                             verify = 5;
@@ -107,35 +107,35 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                             report = report.bind(oscard)(michal);
                             michal = report.loadProducts;
                             michal = michal.bind(report)();
-                            SaveGenerator(address=84);
- 82:
+                            SaveGenerator(address=83);
+ 81:
                             return michal;
- 84:
+ 83:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(report) { _fun00004_ip = 195; continue _fun00003 }
- 90:
+                            if(report) { _fun00004_ip = 192; continue _fun00003 }
+ 89:
                             golfie = _closure1_slot1;
                             report = _closure1_slot2;
                             report = report[verify];
                             golfie = golfie.bind(oscard)(report);
                             report = golfie.restoreFromLocalReceipt;
                             report = report.bind(golfie)();
-                            SaveGenerator(address=121);
- 119:
+                            SaveGenerator(address=120);
+ 118:
                             return report;
- 121:
+ 120:
                             ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                            if(golfie) { _fun00004_ip = 160; continue _fun00003 }
- 127:
+                            if(golfie) { _fun00004_ip = 158; continue _fun00003 }
+ 126:
                             offset = _closure1_slot7;
                             verify = offset.log;
                             golfie = 'restored from local receipt';
                             golfie = verify.bind(offset)(golfie);
                             golfie = _closure2_slot1;
                             golfie['current'] = option;
- 158: // try_end0
-                            _fun00004_ip = 246; continue _fun00003;
- 160: // try_end1
+ 156: // try_end0
+                            _fun00004_ip = 242; continue _fun00003;
+ 158: // try_end1
                             option = _closure2_slot2;
                             golfie = false;
                             golfie = option.bind(oscard)(golfie);
@@ -144,7 +144,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                             golfie = 'isRestoring false';
                             golfie = option.bind(verify)(golfie);
                             return report;
- 195:
+ 192:
                             golfie = _closure2_slot2;
                             report = false;
                             report = golfie.bind(oscard)(report);
@@ -153,12 +153,12 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                             report = 'isRestoring false';
                             report = golfie.bind(option)(report);
                             return michal;
- 230: // try_start_2 // catch_target0
+ 226: // try_start_2 // catch_target0
                             CatchBlockStart(arg_register=6);
                             report = _closure1_slot7;
                             michal = report.error;
                             michal = michal.bind(report)(golfie);
- 246: // try_end2
+ 242: // try_end2
                             report = _closure2_slot2;
                             michal = false;
                             michal = report.bind(oscard)(michal);
@@ -167,7 +167,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                             michal = 'isRestoring false';
                             michal = report.bind(golfie)(michal);
                             return oscard;
- 281: // catch_target1 // catch_target2
+ 276: // catch_target1 // catch_target2
                             CatchBlockStart(arg_register=1);
                             report = _closure2_slot2;
                             tangon = false;
@@ -177,7 +177,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                             zuuluu = 'isRestoring false';
                             zuuluu = tangon.bind(report)(zuuluu);
                             throw michal;
- 317:
+ 311:
                             return entity;
                         }
                     };

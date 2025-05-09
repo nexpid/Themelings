@@ -165,11 +165,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['showNotification'] = option;
-    option = function() { // Original name: disabled
-        entity = false;
-        return entity;
-    };
-    michal['disabled'] = option;
     michal['shouldRequestNotification'] = golfie;
     tangon = function(argFoo) { // Original name: playNotificationSound
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {

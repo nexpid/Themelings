@@ -1086,12 +1086,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         offset = false;
                         option = null;
                         verify = null;
-                        if(!result) { _fun00022_ip = 411; continue _fun00021 }
+                        if(!result) { _fun00022_ip = 410; continue _fun00021 }
  125:
                         echoed = source.ws;
                         result = source.state;
                         result = result.gateway;
-                        if(!(result === kiloes)) { _fun00022_ip = 328; continue _fun00021 }
+                        if(!(result === kiloes)) { _fun00022_ip = 327; continue _fun00021 }
  149:
                         result = {};
                         cntext = source.state;
@@ -1145,10 +1145,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         result = result.messages;
                         config = golfie == result;
                         sequen = undefined;
-                        if(config) { _fun00022_ip = 244; continue _fun00021 }
- 239:
+                        if(config) { _fun00022_ip = 243; continue _fun00021 }
+ 238:
                         sequen = result.length;
- 244:
+ 243:
                         result = 'messages';
                         update[result] = sequen;
                         result = '[FAST CONNECT] successfully took over websocket, state:';
@@ -1166,8 +1166,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = echoed;
                         offset = ctrled;
                         verify = result;
-                        _fun00022_ip = 411; continue _fun00021;
- 328:
+                        _fun00022_ip = 410; continue _fun00021;
+ 327:
                         update = _closure1_slot14;
                         result = update.verbose;
                         source = source.state;
@@ -1186,9 +1186,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         offset = false;
                         option = null;
                         verify = null;
- 411:
-                        if(!(golfie == michal)) { _fun00022_ip = 453; continue _fun00021 }
- 415:
+ 410:
+                        if(!(golfie == michal)) { _fun00022_ip = 452; continue _fun00021 }
+ 414:
                         sizing = _closure1_slot1;
                         output = _closure1_slot3;
                         backup = 11;
@@ -1198,17 +1198,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         kiloes = 'arraybuffer';
                         backup['binaryType'] = kiloes;
                         michal = backup;
- 453:
+ 452:
                         foxtra = foxtra.bind(entity)(michal);
-                        if(!romeon) { _fun00022_ip = 467; continue _fun00021 }
- 461:
+                        if(!romeon) { _fun00022_ip = 466; continue _fun00021 }
+ 460:
                         verify = yankee.bind(entity)(offset, verify);
- 467:
-                        if(!(golfie != option)) { _fun00022_ip = 481; continue _fun00021 }
- 471:
+ 466:
+                        if(!(golfie != option)) { _fun00022_ip = 480; continue _fun00021 }
+ 470:
                         golfie = option.forEach;
                         golfie = golfie.bind(option)(report);
- 481:
+ 480:
                         oscard = function() {
                             tangon = _closure4_slot0;
                             zuuluu = _closure4_slot1;
