@@ -55,9 +55,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset = offset.round;
     verify['borderRadius'] = offset;
     tangon['button'] = verify;
+    offset = 0.5;
     verify = {'opacity': 0.5, 'marginTop': 4};
     tangon['disclaimer'] = verify;
-    verify = {'opacity': 0.5, 'marginTop': 4294967288};
+    verify = {};
+    verify['opacity'] = offset;
     tangon['disclaimerCondensed'] = verify;
     verify = {};
     offset = 40;

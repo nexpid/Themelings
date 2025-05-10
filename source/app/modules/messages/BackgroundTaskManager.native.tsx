@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return michal;
  62:
                 michal = null;
-                if(!(michal != entity)) { _fun00006_ip = 179; continue _fun00005 }
+                if(!(michal != entity)) { _fun00006_ip = 186; continue _fun00005 }
  68:
                 option = entity.title;
                 report = entity.content;
@@ -145,9 +145,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = tangon.ServiceNotificationType;
                 tangon = tangon.FILE_UPLOAD;
                 entity['type'] = tangon;
+                tangon = false;
+                entity['usesGateway'] = tangon;
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
- 179:
+ 186:
                 entity = global;
                 zuuluu = entity.Promise;
                 entity = zuuluu.prototype;

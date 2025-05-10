@@ -106,23 +106,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = report.internal;
             offset = yankee.resolveSemanticColor;
             verify = _closure1_slot5;
-            if(zuuluu) { _fun00002_ip = 116; continue _fun00001 }
- 82:
+            if(zuuluu) { _fun00002_ip = 112; continue _fun00001 }
+ 78:
             foxtra = verify.LIGHT;
             report = option[golfie];
             report = romeon.bind(oscard)(report);
             report = report.colors;
             report = report.INTERACTIVE_NORMAL;
             report = offset.bind(yankee)(foxtra, report);
-            _fun00002_ip = 148; continue _fun00001;
- 116:
+            _fun00002_ip = 144; continue _fun00001;
+ 112:
             verify = verify.DARKER;
             option = option[golfie];
             option = romeon.bind(oscard)(option);
             option = option.colors;
             option = option.INTERACTIVE_NORMAL;
             report = offset.bind(yankee)(verify, option);
- 148:
+ 144:
             michal['tintColor'] = report;
             entity['lock'] = michal;
             michal = {};
@@ -133,13 +133,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon[golfie];
             tangon = report.bind(oscard)(tangon);
             tangon = tangon.colors;
-            if(zuuluu) { _fun00002_ip = 200; continue _fun00001 }
- 192:
+            if(zuuluu) { _fun00002_ip = 196; continue _fun00001 }
+ 188:
             zuuluu = tangon.BLACK;
-            _fun00002_ip = 206; continue _fun00001;
- 200:
+            _fun00002_ip = 202; continue _fun00001;
+ 196:
             zuuluu = tangon.WHITE;
- 206:
+ 202:
             michal['tintColor'] = zuuluu;
             entity['lockExperiment'] = michal;
             return entity;

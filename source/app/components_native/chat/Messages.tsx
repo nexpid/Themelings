@@ -2379,26 +2379,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure3_slot0;
                     entity = michal.getHandlers;
                     zuuluu = entity.bind(michal)();
-                    michal = zuuluu.handleTapActivityBookmarkEmbed;
-                    entity = argFoo;
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
-                };
-                entity['handleTapActivityBookmarkEmbed'] = tangon;
-                tangon = function(argFoo) {
-                    michal = _closure3_slot0;
-                    entity = michal.getHandlers;
-                    zuuluu = entity.bind(michal)();
-                    michal = zuuluu.handleTapActivityInstanceEmbed;
-                    entity = argFoo;
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
-                };
-                entity['handleTapActivityInstanceEmbed'] = tangon;
-                tangon = function(argFoo) {
-                    michal = _closure3_slot0;
-                    entity = michal.getHandlers;
-                    zuuluu = entity.bind(michal)();
                     michal = zuuluu.handleTapPostPreviewEmbed;
                     entity = argFoo;
                     entity = michal.bind(zuuluu)(entity);
@@ -5611,10 +5591,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['onVoiceMessagePlaybackFailed'] = backup;
             backup = yankee.handleTapShowAltText;
             report['onTapShowAltText'] = backup;
-            backup = yankee.handleTapActivityBookmarkEmbed;
-            report['onTapActivityBookmarkEmbed'] = backup;
-            backup = yankee.handleTapActivityInstanceEmbed;
-            report['onTapActivityInstanceEmbed'] = backup;
             backup = yankee.handleTapPostPreviewEmbed;
             report['onTapPostPreviewEmbed'] = backup;
             backup = yankee.handleTapDismissMediaPostSharePrompt;

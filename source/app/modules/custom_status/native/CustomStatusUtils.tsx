@@ -26,8 +26,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            verify = entity.location;
-            michal = entity.analyticsLocations;
+            offset = entity.location;
+            verify = entity.analyticsLocations;
+            michal = entity.prompt;
             report = _closure1_slot1;
             option = _closure1_slot2;
             entity = 0;
@@ -38,33 +39,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = _closure1_slot0;
             zuuluu = 2;
             zuuluu = option[zuuluu];
-            offset = golfie.bind(entity)(zuuluu);
+            yankee = golfie.bind(entity)(zuuluu);
             zuuluu = 1;
             tangon = option[zuuluu];
             zuuluu = option.paths;
-            tangon = offset.bind(entity)(tangon, zuuluu);
+            tangon = yankee.bind(entity)(tangon, zuuluu);
             zuuluu = {};
-            zuuluu['location'] = verify;
-            zuuluu['analyticsLocations'] = michal;
+            zuuluu['location'] = offset;
+            zuuluu['analyticsLocations'] = verify;
+            zuuluu['prompt'] = michal;
             michal = 3;
             michal = option[michal];
             golfie = golfie.bind(entity)(michal);
             michal = golfie.isAndroid;
             golfie = michal.bind(golfie)();
             michal = undefined;
-            if(!golfie) { _fun00002_ip = 129; continue _fun00001 }
- 115:
+            if(!golfie) { _fun00002_ip = 140; continue _fun00001 }
+ 126:
             golfie = {};
             option = 'modal';
             golfie['presentation'] = option;
             michal = golfie;
- 129:
-            kiloes = oscard;
-            backup = tangon;
-            foxtra = zuuluu;
-            romeon = undefined;
-            yankee = michal;
-            michal = kiloes[report](backup, foxtra, romeon, yankee, offset);
+ 140:
+            sizing = oscard;
+            kiloes = tangon;
+            backup = zuuluu;
+            foxtra = undefined;
+            romeon = michal;
+            michal = sizing[report](kiloes, backup, foxtra, romeon, yankee);
             return entity;
         }
     };

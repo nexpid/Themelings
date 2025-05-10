@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = argFoo;
                 entity = michal[entity];
                 michal = null;
-                if(!(michal == entity)) { _fun00010_ip = 77; continue _fun00009 }
+                if(!(michal == entity)) { _fun00010_ip = 81; continue _fun00009 }
  22:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot1;
@@ -312,7 +312,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = zuuluu;
                 michal = new oscard[tangon](report, tangon);
                 entity = michal instanceof Object ? michal : zuuluu;
- 77:
+ 81:
                 return entity;
             }
         };

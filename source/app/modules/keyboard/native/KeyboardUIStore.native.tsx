@@ -150,10 +150,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         report = entity.keyboardHeight;
  57:
                         zuuluu['keyboardHeight'] = report;
-                        report = false;
-                        zuuluu['excludeSafeAreaInsets'] = report;
-                        offset = undefined;
-                        option = tangon.bind(offset)(zuuluu);
+                        sizing = false;
+                        zuuluu['excludeSafeAreaInsets'] = sizing;
+                        romeon = undefined;
+                        option = tangon.bind(romeon)(zuuluu);
                         tangon = _closure1_slot9;
                         zuuluu = {};
                         report = _closure2_slot0;
@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         zuuluu['keyboardHeight'] = report;
                         report = true;
                         zuuluu['excludeSafeAreaInsets'] = report;
-                        golfie = tangon.bind(offset)(zuuluu);
+                        golfie = tangon.bind(romeon)(zuuluu);
                         zuuluu = _closure2_slot0;
                         zuuluu = zuuluu.keyboardType;
                         tangon = yankee == zuuluu;
@@ -186,62 +186,129 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  171:
                         tangon = entity.keyboardType;
  177:
-                        michal = _closure1_slot8;
-                        zuuluu = michal.bind(offset)(golfie, report);
-                        michal = _closure2_slot0;
-                        oscard = michal.keyboardOpen;
-                        if(!(yankee == oscard)) { _fun00008_ip = 207; continue _fun00007 }
- 201:
-                        oscard = entity.keyboardOpen;
- 207:
-                        michal = entity.keyboardContexts;
-                        michal = michal[report];
-                        romeon = _closure2_slot0;
-                        romeon = romeon.keyboardType;
-                        foxtra = yankee == romeon;
-                        offset = undefined;
-                        if(foxtra) { _fun00008_ip = 241; continue _fun00007 }
- 236:
-                        offset = romeon.context;
- 241:
-                        if(!(yankee == offset)) { _fun00008_ip = 255; continue _fun00007 }
- 245:
-                        yankee = entity.keyboardContexts;
-                        offset = yankee[report];
- 255:
-                        if(!(michal !== offset)) { _fun00008_ip = 284; continue _fun00007 }
- 259:
-                        michal = {};
-                        backup = entity.keyboardContexts;
-                        kiloes = michal;
-                        yankee = copyDataProperties(kiloes, backup);
-                        michal[report] = offset;
-                        offset = michal;
-                        _fun00008_ip = 290; continue _fun00007;
- 284:
+                        zuuluu = _closure1_slot8;
+                        zuuluu = zuuluu.bind(romeon)(golfie, report);
                         offset = entity.keyboardContexts;
- 290:
-                        michal = entity.keyboardDuration;
-                        if(!(michal === verify)) { _fun00008_ip = 360; continue _fun00007 }
- 300:
+                        kiloes = offset[report];
+                        offset = _closure2_slot0;
+                        offset = offset.keyboardType;
+                        backup = yankee == offset;
+                        foxtra = undefined;
+                        if(backup) { _fun00008_ip = 221; continue _fun00007 }
+ 216:
+                        foxtra = offset.context;
+ 221:
+                        if(!(yankee == foxtra)) { _fun00008_ip = 235; continue _fun00007 }
+ 225:
+                        offset = entity.keyboardContexts;
+                        foxtra = offset[report];
+ 235:
+                        backup = 'object';
+                        offset = typeof kiloes;
+                        if(!(backup === offset)) { _fun00008_ip = 253; continue _fun00007 }
+ 246:
+                        offset = typeof foxtra;
+                        if(!(backup !== offset)) { _fun00008_ip = 259; continue _fun00007 }
+ 253:
+                        offset = kiloes !== foxtra;
+                        _fun00008_ip = 288; continue _fun00007;
+ 259:
+                        output = _closure1_slot1;
+                        result = _closure1_slot2;
+                        backup = 10;
+                        backup = result[backup];
+                        backup = output.bind(romeon)(backup);
+                        backup = backup.bind(romeon)(kiloes, foxtra);
+                        offset = !backup;
+ 288:
+                        oscard = _closure2_slot0;
+                        oscard = oscard.keyboardOpen;
+                        if(!(yankee == oscard)) { _fun00008_ip = 308; continue _fun00007 }
+ 302:
+                        oscard = entity.keyboardOpen;
+ 308:
+                        yankee = entity.keyboardOpen;
+                        if(!(oscard !== yankee)) { _fun00008_ip = 369; continue _fun00007 }
+ 318:
+                        backup = entity.keyboardContexts;
+                        kiloes = _closure1_slot0;
+                        yankee = _closure1_slot2;
+                        echoed = 5;
+                        yankee = yankee[echoed];
+                        yankee = kiloes.bind(romeon)(yankee);
+                        yankee = yankee.KeyboardTypes;
+                        yankee = yankee.SYSTEM;
+                        yankee = backup[yankee];
+                        yankee = yankee.keyboardWillOpen;
+                        if(yankee) { _fun00008_ip = 405; continue _fun00007 }
+ 369:
+                        backup = entity.keyboardContexts;
+                        if(offset) { _fun00008_ip = 383; continue _fun00007 }
+ 378:
+                        offset = backup;
+                        _fun00008_ip = 403; continue _fun00007;
+ 383:
+                        yankee = {};
+                        source = yankee;
+                        update = backup;
+                        backup = copyDataProperties(source, update);
+                        yankee[report] = foxtra;
+                        offset = yankee;
+ 403:
+                        _fun00008_ip = 506; continue _fun00007;
+ 405:
+                        yankee = {};
+                        update = entity.keyboardContexts;
+                        source = yankee;
+                        foxtra = copyDataProperties(source, update);
+                        result = _closure1_slot0;
+                        kiloes = _closure1_slot2;
+                        foxtra = kiloes[echoed];
+                        foxtra = result.bind(romeon)(foxtra);
+                        foxtra = foxtra.KeyboardTypes;
+                        backup = foxtra.SYSTEM;
+                        foxtra = {};
+                        output = entity.keyboardContexts;
+                        kiloes = kiloes[echoed];
+                        kiloes = result.bind(romeon)(kiloes);
+                        kiloes = kiloes.KeyboardTypes;
+                        kiloes = kiloes.SYSTEM;
+                        update = output[kiloes];
+                        source = foxtra;
+                        kiloes = copyDataProperties(source, update);
+                        kiloes = 'keyboardWillOpen';
+                        foxtra[kiloes] = sizing;
+                        yankee[backup] = foxtra;
+                        offset = yankee;
+ 506:
+                        yankee = _closure1_slot1;
+                        foxtra = _closure1_slot2;
+                        michal = 10;
+                        michal = foxtra[michal];
+                        yankee = yankee.bind(romeon)(michal);
                         michal = entity.keyboardContexts;
-                        if(!(michal === offset)) { _fun00008_ip = 360; continue _fun00007 }
- 310:
+                        michal = yankee.bind(romeon)(michal, offset);
+                        michal = !michal;
+                        yankee = entity.keyboardDuration;
+                        if(!(yankee === verify)) { _fun00008_ip = 604; continue _fun00007 }
+ 551:
+                        if(michal) { _fun00008_ip = 604; continue _fun00007 }
+ 554:
                         michal = entity.keyboardHeight;
-                        if(!(michal === option)) { _fun00008_ip = 360; continue _fun00007 }
- 320:
+                        if(!(michal === option)) { _fun00008_ip = 604; continue _fun00007 }
+ 564:
                         michal = entity.keyboardHeightExcludingSafeAreaInsets;
-                        if(!(michal === golfie)) { _fun00008_ip = 360; continue _fun00007 }
- 330:
+                        if(!(michal === golfie)) { _fun00008_ip = 604; continue _fun00007 }
+ 574:
                         michal = entity.keyboardType;
-                        if(!(michal === report)) { _fun00008_ip = 360; continue _fun00007 }
- 340:
+                        if(!(michal === report)) { _fun00008_ip = 604; continue _fun00007 }
+ 584:
                         michal = entity.customKeyboardHeight;
-                        if(!(michal === zuuluu)) { _fun00008_ip = 360; continue _fun00007 }
- 350:
+                        if(!(michal === zuuluu)) { _fun00008_ip = 604; continue _fun00007 }
+ 594:
                         michal = entity.keyboardOpen;
-                        if(!(michal !== oscard)) { _fun00008_ip = 405; continue _fun00007 }
- 360:
+                        if(!(michal !== oscard)) { _fun00008_ip = 649; continue _fun00007 }
+ 604:
                         michal = {};
                         michal['keyboardContexts'] = offset;
                         michal['keyboardDuration'] = verify;
@@ -252,7 +319,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal['keyboardTypePrevious'] = tangon;
                         michal['customKeyboardHeight'] = zuuluu;
                         entity = michal;
- 405:
+ 649:
                         return entity;
                     }
                 };
@@ -312,7 +379,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  241:
         offset = 'keyboardDidHide';
  247:
-        tangon = 10;
+        tangon = 11;
         tangon = golfie[tangon];
         verify = oscard.bind(entity)(tangon);
         report = verify.create;
@@ -322,50 +389,51 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = _closure1_slot0;
             report = _closure1_slot2;
             michal = 5;
-            golfie = report[michal];
+            oscard = report[michal];
             zuuluu = undefined;
-            golfie = tangon.bind(zuuluu)(golfie);
-            golfie = golfie.KeyboardTypes;
-            option = golfie.SYSTEM;
-            golfie = 0;
-            option = verify.bind(zuuluu)(golfie, option);
-            entity['customKeyboardHeight'] = option;
-            option = {};
-            verify = report[michal];
-            verify = tangon.bind(zuuluu)(verify);
-            verify = verify.KeyboardTypes;
-            offset = verify.SYSTEM;
+            oscard = tangon.bind(zuuluu)(oscard);
+            oscard = oscard.KeyboardTypes;
+            oscard = oscard.SYSTEM;
+            option = 0;
+            oscard = verify.bind(zuuluu)(option, oscard);
+            entity['customKeyboardHeight'] = oscard;
             verify = {};
-            option[offset] = verify;
-            verify = report[michal];
-            verify = tangon.bind(zuuluu)(verify);
-            verify = verify.KeyboardTypes;
-            offset = verify.EXPRESSION;
-            verify = _closure1_slot4;
-            verify = verify.EMOJI;
-            option[offset] = verify;
-            verify = report[michal];
-            verify = tangon.bind(zuuluu)(verify);
-            verify = verify.KeyboardTypes;
-            offset = verify.MEDIA;
-            verify = {};
-            yankee = _closure1_slot5;
-            yankee = yankee.CHAT;
-            verify['target'] = yankee;
-            option[offset] = verify;
-            verify = report[michal];
-            verify = tangon.bind(zuuluu)(verify);
-            verify = verify.KeyboardTypes;
-            offset = verify.APP_LAUNCHER;
-            verify = {};
-            yankee = _closure1_slot3;
-            yankee = yankee.HOME;
-            verify['initialRouteName'] = yankee;
-            option[offset] = verify;
-            entity['keyboardContexts'] = option;
-            entity['keyboardDuration'] = golfie;
-            option = _closure1_slot9;
+            oscard = report[michal];
+            oscard = tangon.bind(zuuluu)(oscard);
+            oscard = oscard.KeyboardTypes;
+            yankee = oscard.SYSTEM;
+            offset = {};
             oscard = false;
+            offset['keyboardWillOpen'] = oscard;
+            verify[yankee] = offset;
+            offset = report[michal];
+            offset = tangon.bind(zuuluu)(offset);
+            offset = offset.KeyboardTypes;
+            yankee = offset.EXPRESSION;
+            offset = _closure1_slot4;
+            offset = offset.EMOJI;
+            verify[yankee] = offset;
+            offset = report[michal];
+            offset = tangon.bind(zuuluu)(offset);
+            offset = offset.KeyboardTypes;
+            yankee = offset.MEDIA;
+            offset = {};
+            romeon = _closure1_slot5;
+            romeon = romeon.CHAT;
+            offset['target'] = romeon;
+            verify[yankee] = offset;
+            offset = report[michal];
+            offset = tangon.bind(zuuluu)(offset);
+            offset = offset.KeyboardTypes;
+            yankee = offset.APP_LAUNCHER;
+            offset = {};
+            romeon = _closure1_slot3;
+            romeon = romeon.HOME;
+            offset['initialRouteName'] = romeon;
+            verify[yankee] = offset;
+            entity['keyboardContexts'] = verify;
+            entity['keyboardDuration'] = option;
+            option = _closure1_slot9;
             golfie = {'keyboardHeight': 0, 'excludeSafeAreaInsets': false};
             golfie = option.bind(zuuluu)(golfie);
             entity['keyboardHeight'] = golfie;
@@ -413,7 +481,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report = verify.bind(yankee)(offset, report);
-        report = 11;
+        report = 12;
         report = golfie[report];
         option = option.bind(entity)(report);
         report = function(argFoo) {
@@ -427,7 +495,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report = option.bind(entity)(report);
-        report = 12;
+        report = 13;
         report = golfie[report];
         golfie = oscard.bind(entity)(report);
         oscard = golfie.fileFinishedImporting;

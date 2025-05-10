@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = golfie[michal];
             michal = oscard.bind(report)(michal);
             michal = michal.t;
-            michal = michal.ISyHmZ;
+            michal = michal.np9mf3;
             michal = zuuluu.bind(tangon)(michal);
             return michal;
  279:

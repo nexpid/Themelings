@@ -41,21 +41,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = function(argFoo) {
-        tangon = argFoo;
+        report = argFoo;
         entity = {};
         michal = {};
         zuuluu = 'absolute';
         michal['position'] = zuuluu;
-        zuuluu = 0.8333333333333334;
-        report = tangon * zuuluu;
-        michal['height'] = report;
-        report = tangon * zuuluu;
-        michal['width'] = report;
-        tangon = tangon * zuuluu;
-        zuuluu = 2;
-        zuuluu = tangon / zuuluu;
-        michal['borderRadius'] = zuuluu;
+        tangon = 0.8333333333333334;
+        oscard = report * tangon;
+        michal['height'] = oscard;
+        oscard = report * tangon;
+        michal['width'] = oscard;
+        report = report * tangon;
+        tangon = 2;
+        tangon = report / tangon;
+        michal['borderRadius'] = tangon;
         entity['avatar'] = michal;
+        michal = {};
+        michal['position'] = zuuluu;
+        entity['avatarDecoration'] = michal;
         michal = {};
         zuuluu = 0.4;
         michal['opacity'] = zuuluu;
@@ -78,11 +81,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = entity.size;
             option = entity.avatarSource;
             romeon = entity.animate;
-            offset = entity.isPurchased;
-            kiloes = entity.bundle;
+            yankee = entity.isPurchased;
+            offset = entity.bundle;
             entity = _closure1_slot8;
             tangon = undefined;
-            yankee = entity.bind(tangon)(foxtra);
+            kiloes = entity.bind(tangon)(foxtra);
             michal = _closure1_slot1;
             oscard = _closure1_slot2;
             entity = 4;
@@ -104,13 +107,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = _closure1_slot5;
             oscard = _closure1_slot3;
             report = {};
-            output = yankee.avatar;
+            output = kiloes.avatar;
             sizing = new Array(2);
             sizing[0] = output;
-            output = offset;
-            if(!offset) { _fun00002_ip = 166; continue _fun00001 }
+            output = yankee;
+            if(!yankee) { _fun00002_ip = 166; continue _fun00001 }
  160:
-            output = yankee.purchased;
+            output = kiloes.purchased;
  166:
             sizing[1] = output;
             report['style'] = sizing;
@@ -119,21 +122,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = null;
             if(!(sizing == option)) { _fun00002_ip = 233; continue _fun00001 }
  189:
-            if(kiloes) { _fun00002_ip = 214; continue _fun00001 }
+            if(offset) { _fun00002_ip = 214; continue _fun00001 }
  192:
             sizing = _closure1_slot1;
             output = _closure1_slot2;
-            kiloes = 6;
-            kiloes = output[kiloes];
-            kiloes = sizing.bind(tangon)(kiloes);
+            offset = 6;
+            offset = output[offset];
+            offset = sizing.bind(tangon)(offset);
             _fun00002_ip = 230; continue _fun00001;
  214:
             sizing = {};
             output = 'https://cdn.discordapp.com/assets/content/8f769ddb3458f312150ee607633a4c76a6e7008320394b955596e7ac8e1c20df.png';
             sizing['uri'] = output;
-            kiloes = sizing;
+            offset = sizing;
  230:
-            option = kiloes;
+            option = offset;
  233:
             report['source'] = option;
             oscard = golfie.bind(tangon)(oscard, report);
@@ -142,10 +145,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = _closure1_slot5;
             golfie = _closure1_slot4;
             oscard = {};
-            if(!offset) { _fun00002_ip = 270; continue _fun00001 }
- 264:
-            offset = yankee.purchased;
- 270:
+            sizing = kiloes.avatarDecoration;
+            offset = new Array(2);
+            offset[0] = sizing;
+            if(!yankee) { _fun00002_ip = 284; continue _fun00001 }
+ 278:
+            yankee = kiloes.purchased;
+ 284:
+            offset[1] = yankee;
             oscard['style'] = offset;
             yankee = _closure1_slot5;
             offset = _closure1_slot1;

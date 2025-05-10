@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
     var _closure1_slot6 = tangon;
-    tangon = 21;
+    tangon = 17;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = _closure1_slot6;
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
-            michal = 20;
+            michal = 16;
             michal = tangon[michal];
             tangon = undefined;
             zuuluu = zuuluu.bind(tangon)(michal);
@@ -125,239 +125,167 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = argFoo;
-                    verify = entity.type;
+                    golfie = entity.type;
                     oscard = entity.code;
-                    golfie = entity.url;
-                    michal = global;
-                    entity = michal.HermesInternal;
-                    tangon = entity.concat;
-                    zuuluu = '';
+                    entity = global;
+                    entity = entity.HermesInternal;
+                    zuuluu = entity.concat;
+                    michal = '';
                     entity = '-';
-                    report = tangon.bind(zuuluu)(verify, entity, oscard);
-                    option = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    offset = 6;
-                    zuuluu = zuuluu[offset];
+                    report = zuuluu.bind(michal)(golfie, entity, oscard);
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    option = 5;
+                    michal = michal[option];
                     tangon = undefined;
-                    zuuluu = option.bind(tangon)(zuuluu);
-                    zuuluu = zuuluu.CodedLinkType;
-                    zuuluu = zuuluu.INVITE;
-                    if(!(zuuluu !== verify)) { _fun00006_ip = 1154; continue _fun00005 }
- 90:
-                    option = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    zuuluu = zuuluu[offset];
-                    zuuluu = option.bind(tangon)(zuuluu);
-                    zuuluu = zuuluu.CodedLinkType;
-                    zuuluu = zuuluu.TEMPLATE;
-                    if(!(zuuluu !== verify)) { _fun00006_ip = 1115; continue _fun00005 }
- 126:
-                    option = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    zuuluu = zuuluu[offset];
-                    zuuluu = option.bind(tangon)(zuuluu);
-                    zuuluu = zuuluu.CodedLinkType;
-                    zuuluu = zuuluu.BUILD_OVERRIDE;
-                    if(!(zuuluu !== verify)) { _fun00006_ip = 1076; continue _fun00005 }
- 162:
-                    option = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    zuuluu = zuuluu[offset];
-                    zuuluu = option.bind(tangon)(zuuluu);
-                    zuuluu = zuuluu.CodedLinkType;
-                    zuuluu = zuuluu.MANUAL_BUILD_OVERRIDE;
-                    if(!(zuuluu !== verify)) { _fun00006_ip = 1076; continue _fun00005 }
- 198:
-                    option = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    zuuluu = zuuluu[offset];
-                    zuuluu = option.bind(tangon)(zuuluu);
-                    zuuluu = zuuluu.CodedLinkType;
-                    zuuluu = zuuluu.EVENT;
-                    if(!(zuuluu !== verify)) { _fun00006_ip = 1031; continue _fun00005 }
- 234:
-                    option = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    zuuluu = zuuluu[offset];
-                    zuuluu = option.bind(tangon)(zuuluu);
-                    zuuluu = zuuluu.CodedLinkType;
-                    zuuluu = zuuluu.CHANNEL_LINK;
-                    if(!(zuuluu !== verify)) { _fun00006_ip = 992; continue _fun00005 }
- 270:
-                    option = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    zuuluu = zuuluu[offset];
-                    zuuluu = option.bind(tangon)(zuuluu);
-                    zuuluu = zuuluu.CodedLinkType;
-                    zuuluu = zuuluu.APP_DIRECTORY_PROFILE;
-                    if(!(zuuluu !== verify)) { _fun00006_ip = 953; continue _fun00005 }
- 306:
-                    option = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    zuuluu = zuuluu[offset];
-                    zuuluu = option.bind(tangon)(zuuluu);
-                    zuuluu = zuuluu.CodedLinkType;
-                    zuuluu = zuuluu.ACTIVITY_BOOKMARK;
-                    if(!(zuuluu !== verify)) { _fun00006_ip = 788; continue _fun00005 }
- 342:
-                    option = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    zuuluu = zuuluu[offset];
-                    zuuluu = option.bind(tangon)(zuuluu);
-                    zuuluu = zuuluu.CodedLinkType;
-                    zuuluu = zuuluu.EMBEDDED_ACTIVITY_INVITE;
-                    if(!(zuuluu !== verify)) { _fun00006_ip = 748; continue _fun00005 }
- 378:
-                    option = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    zuuluu = zuuluu[offset];
-                    zuuluu = option.bind(tangon)(zuuluu);
-                    zuuluu = zuuluu.CodedLinkType;
-                    zuuluu = zuuluu.GUILD_PRODUCT;
-                    if(!(zuuluu !== verify)) { _fun00006_ip = 744; continue _fun00005 }
- 414:
-                    option = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    zuuluu = zuuluu[offset];
-                    zuuluu = option.bind(tangon)(zuuluu);
-                    zuuluu = zuuluu.CodedLinkType;
-                    zuuluu = zuuluu.SERVER_SHOP;
-                    if(!(zuuluu !== verify)) { _fun00006_ip = 744; continue _fun00005 }
- 450:
-                    option = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    zuuluu = zuuluu[offset];
-                    zuuluu = option.bind(tangon)(zuuluu);
-                    zuuluu = zuuluu.CodedLinkType;
-                    zuuluu = zuuluu.QUESTS_EMBED;
-                    if(!(zuuluu !== verify)) { _fun00006_ip = 704; continue _fun00005 }
- 486:
-                    option = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    zuuluu = zuuluu[offset];
-                    zuuluu = option.bind(tangon)(zuuluu);
-                    zuuluu = zuuluu.CodedLinkType;
-                    zuuluu = zuuluu.APP_DIRECTORY_STOREFRONT;
-                    if(!(zuuluu !== verify)) { _fun00006_ip = 700; continue _fun00005 }
- 522:
-                    option = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    zuuluu = zuuluu[offset];
-                    zuuluu = option.bind(tangon)(zuuluu);
-                    zuuluu = zuuluu.CodedLinkType;
-                    zuuluu = zuuluu.APP_DIRECTORY_STOREFRONT_SKU;
-                    if(!(zuuluu !== verify)) { _fun00006_ip = 700; continue _fun00005 }
- 558:
-                    option = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    zuuluu = zuuluu[offset];
-                    zuuluu = option.bind(tangon)(zuuluu);
-                    zuuluu = zuuluu.CodedLinkType;
-                    zuuluu = zuuluu.APP_OAUTH2_LINK;
-                    if(!(zuuluu !== verify)) { _fun00006_ip = 661; continue _fun00005 }
- 591:
-                    option = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    zuuluu = zuuluu[offset];
-                    zuuluu = option.bind(tangon)(zuuluu);
-                    zuuluu = zuuluu.CodedLinkType;
-                    zuuluu = zuuluu.COLLECTIBLES_SHOP;
-                    if(!(zuuluu !== verify)) { _fun00006_ip = 657; continue _fun00005 }
- 624:
-                    option = _closure1_slot0;
-                    offset = _closure1_slot2;
-                    zuuluu = 19;
-                    zuuluu = offset[zuuluu];
-                    option = option.bind(tangon)(zuuluu);
-                    zuuluu = option.assertNever;
-                    zuuluu = zuuluu.bind(option)(verify);
+                    michal = zuuluu.bind(tangon)(michal);
+                    michal = michal.CodedLinkType;
+                    michal = michal.INVITE;
+                    if(!(michal !== golfie)) { _fun00006_ip = 895; continue _fun00005 }
+ 85:
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    michal = michal[option];
+                    michal = zuuluu.bind(tangon)(michal);
+                    michal = michal.CodedLinkType;
+                    michal = michal.TEMPLATE;
+                    if(!(michal !== golfie)) { _fun00006_ip = 856; continue _fun00005 }
+ 121:
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    michal = michal[option];
+                    michal = zuuluu.bind(tangon)(michal);
+                    michal = michal.CodedLinkType;
+                    michal = michal.BUILD_OVERRIDE;
+                    if(!(michal !== golfie)) { _fun00006_ip = 817; continue _fun00005 }
+ 157:
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    michal = michal[option];
+                    michal = zuuluu.bind(tangon)(michal);
+                    michal = michal.CodedLinkType;
+                    michal = michal.MANUAL_BUILD_OVERRIDE;
+                    if(!(michal !== golfie)) { _fun00006_ip = 817; continue _fun00005 }
+ 193:
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    michal = michal[option];
+                    michal = zuuluu.bind(tangon)(michal);
+                    michal = michal.CodedLinkType;
+                    michal = michal.EVENT;
+                    if(!(michal !== golfie)) { _fun00006_ip = 772; continue _fun00005 }
+ 229:
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    michal = michal[option];
+                    michal = zuuluu.bind(tangon)(michal);
+                    michal = michal.CodedLinkType;
+                    michal = michal.CHANNEL_LINK;
+                    if(!(michal !== golfie)) { _fun00006_ip = 733; continue _fun00005 }
+ 265:
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    michal = michal[option];
+                    michal = zuuluu.bind(tangon)(michal);
+                    michal = michal.CodedLinkType;
+                    michal = michal.EMBEDDED_ACTIVITY_INVITE;
+                    if(!(michal !== golfie)) { _fun00006_ip = 693; continue _fun00005 }
+ 301:
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    michal = michal[option];
+                    michal = zuuluu.bind(tangon)(michal);
+                    michal = michal.CodedLinkType;
+                    michal = michal.QUESTS_EMBED;
+                    if(!(michal !== golfie)) { _fun00006_ip = 653; continue _fun00005 }
+ 337:
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    michal = michal[option];
+                    michal = zuuluu.bind(tangon)(michal);
+                    michal = michal.CodedLinkType;
+                    michal = michal.GUILD_PRODUCT;
+                    if(!(michal !== golfie)) { _fun00006_ip = 649; continue _fun00005 }
+ 373:
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    michal = michal[option];
+                    michal = zuuluu.bind(tangon)(michal);
+                    michal = michal.CodedLinkType;
+                    michal = michal.SERVER_SHOP;
+                    if(!(michal !== golfie)) { _fun00006_ip = 649; continue _fun00005 }
+ 409:
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    michal = michal[option];
+                    michal = zuuluu.bind(tangon)(michal);
+                    michal = michal.CodedLinkType;
+                    michal = michal.APP_DIRECTORY_STOREFRONT;
+                    if(!(michal !== golfie)) { _fun00006_ip = 649; continue _fun00005 }
+ 445:
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    michal = michal[option];
+                    michal = zuuluu.bind(tangon)(michal);
+                    michal = michal.CodedLinkType;
+                    michal = michal.APP_DIRECTORY_STOREFRONT_SKU;
+                    if(!(michal !== golfie)) { _fun00006_ip = 649; continue _fun00005 }
+ 481:
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    michal = michal[option];
+                    michal = zuuluu.bind(tangon)(michal);
+                    michal = michal.CodedLinkType;
+                    michal = michal.APP_DIRECTORY_PROFILE;
+                    if(!(michal !== golfie)) { _fun00006_ip = 649; continue _fun00005 }
+ 517:
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    michal = michal[option];
+                    michal = zuuluu.bind(tangon)(michal);
+                    michal = michal.CodedLinkType;
+                    michal = michal.APP_OAUTH2_LINK;
+                    if(!(michal !== golfie)) { _fun00006_ip = 649; continue _fun00005 }
+ 550:
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    michal = michal[option];
+                    michal = zuuluu.bind(tangon)(michal);
+                    michal = michal.CodedLinkType;
+                    michal = michal.ACTIVITY_BOOKMARK;
+                    if(!(michal !== golfie)) { _fun00006_ip = 649; continue _fun00005 }
+ 583:
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    michal = michal[option];
+                    michal = zuuluu.bind(tangon)(michal);
+                    michal = michal.CodedLinkType;
+                    michal = michal.COLLECTIBLES_SHOP;
+                    if(!(michal !== golfie)) { _fun00006_ip = 649; continue _fun00005 }
+ 616:
+                    zuuluu = _closure1_slot0;
+                    option = _closure1_slot2;
+                    michal = 15;
+                    michal = option[michal];
+                    zuuluu = zuuluu.bind(tangon)(michal);
+                    michal = zuuluu.assertNever;
+                    michal = michal.bind(zuuluu)(golfie);
                     return tangon;
- 657:
-                    zuuluu = null;
-                    return zuuluu;
- 661:
-                    verify = _closure1_slot6;
-                    option = _closure1_slot1;
-                    offset = _closure1_slot2;
-                    zuuluu = 18;
-                    zuuluu = offset[zuuluu];
-                    option = option.bind(tangon)(zuuluu);
-                    zuuluu = {};
-                    zuuluu['applicationId'] = oscard;
-                    zuuluu = verify.bind(tangon)(option, zuuluu, report);
-                    return zuuluu;
- 700:
-                    zuuluu = null;
-                    return zuuluu;
- 704:
-                    verify = _closure1_slot6;
-                    option = _closure1_slot1;
-                    offset = _closure1_slot2;
-                    zuuluu = 17;
-                    zuuluu = offset[zuuluu];
-                    option = option.bind(tangon)(zuuluu);
-                    zuuluu = {};
-                    zuuluu['questId'] = oscard;
-                    zuuluu = verify.bind(tangon)(option, zuuluu, report);
-                    return zuuluu;
- 744:
-                    zuuluu = null;
-                    return zuuluu;
- 748:
-                    verify = _closure1_slot6;
-                    option = _closure1_slot1;
-                    offset = _closure1_slot2;
-                    zuuluu = 16;
-                    zuuluu = offset[zuuluu];
-                    option = option.bind(tangon)(zuuluu);
-                    zuuluu = {};
-                    zuuluu['inviteCode'] = oscard;
-                    zuuluu = verify.bind(tangon)(option, zuuluu, report);
-                    return zuuluu;
- 788:
-                    michal = michal.URL;
-                    zuuluu = michal.prototype;
-                    zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
-                    backup = zuuluu;
-                    foxtra = golfie;
-                    michal = new backup[michal](foxtra, romeon);
-                    michal = michal instanceof Object ? michal : zuuluu;
-                    option = michal.searchParams;
-                    golfie = option.get;
-                    zuuluu = 'referrer_id';
-                    verify = golfie.bind(option)(zuuluu);
-                    zuuluu = null;
-                    if(!(zuuluu == verify)) { _fun00006_ip = 861; continue _fun00005 }
- 843:
-                    golfie = _closure2_slot0;
-                    golfie = golfie.author;
-                    verify = golfie.id;
- 861:
-                    option = michal.searchParams;
-                    golfie = option.get;
-                    michal = 'custom_id';
-                    michal = golfie.bind(option)(michal);
-                    zuuluu = zuuluu != michal;
-                    option = undefined;
-                    if(!zuuluu) { _fun00006_ip = 893; continue _fun00005 }
- 890:
-                    option = michal;
- 893:
+ 649:
+                    michal = null;
+                    return michal;
+ 653:
                     golfie = _closure1_slot6;
                     zuuluu = _closure1_slot1;
-                    offset = _closure1_slot2;
-                    michal = 15;
-                    michal = offset[michal];
+                    option = _closure1_slot2;
+                    michal = 14;
+                    michal = option[michal];
                     zuuluu = zuuluu.bind(tangon)(michal);
                     michal = {};
-                    michal['applicationId'] = oscard;
-                    offset = _closure2_slot0;
-                    michal['message'] = offset;
-                    michal['referrerId'] = verify;
-                    michal['customId'] = option;
+                    michal['questId'] = oscard;
                     michal = golfie.bind(tangon)(zuuluu, michal, report);
                     return michal;
- 953:
+ 693:
                     golfie = _closure1_slot6;
                     zuuluu = _closure1_slot1;
                     option = _closure1_slot2;
@@ -365,25 +293,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = option[michal];
                     zuuluu = zuuluu.bind(tangon)(michal);
                     michal = {};
-                    michal['applicationId'] = oscard;
+                    michal['inviteCode'] = oscard;
                     michal = golfie.bind(tangon)(zuuluu, michal, report);
                     return michal;
- 992:
+ 733:
                     golfie = _closure1_slot6;
                     zuuluu = _closure1_slot1;
                     option = _closure1_slot2;
-                    michal = 11;
+                    michal = 10;
                     michal = option[michal];
                     zuuluu = zuuluu.bind(tangon)(michal);
                     michal = {};
                     michal['code'] = oscard;
                     michal = golfie.bind(tangon)(zuuluu, michal, report);
                     return michal;
- 1031:
+ 772:
                     golfie = _closure1_slot6;
                     zuuluu = _closure1_slot0;
                     option = _closure1_slot2;
-                    michal = 10;
+                    michal = 9;
                     michal = option[michal];
                     michal = zuuluu.bind(tangon)(michal);
                     zuuluu = michal.GuildScheduledEventLinkEmbed;
@@ -391,18 +319,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['code'] = oscard;
                     michal = golfie.bind(tangon)(zuuluu, michal, report);
                     return michal;
- 1076:
-                    golfie = _closure1_slot6;
-                    zuuluu = _closure1_slot1;
-                    option = _closure1_slot2;
-                    michal = 9;
-                    michal = option[michal];
-                    zuuluu = zuuluu.bind(tangon)(michal);
-                    michal = {};
-                    michal['url'] = oscard;
-                    michal = golfie.bind(tangon)(zuuluu, michal, report);
-                    return michal;
- 1115:
+ 817:
                     golfie = _closure1_slot6;
                     zuuluu = _closure1_slot1;
                     option = _closure1_slot2;
@@ -410,14 +327,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = option[michal];
                     zuuluu = zuuluu.bind(tangon)(michal);
                     michal = {};
+                    michal['url'] = oscard;
+                    michal = golfie.bind(tangon)(zuuluu, michal, report);
+                    return michal;
+ 856:
+                    golfie = _closure1_slot6;
+                    zuuluu = _closure1_slot1;
+                    option = _closure1_slot2;
+                    michal = 7;
+                    michal = option[michal];
+                    zuuluu = zuuluu.bind(tangon)(michal);
+                    michal = {};
                     michal['code'] = oscard;
                     michal = golfie.bind(tangon)(zuuluu, michal, report);
                     return michal;
- 1154:
+ 895:
                     zuuluu = _closure1_slot6;
                     michal = _closure1_slot1;
                     golfie = _closure1_slot2;
-                    entity = 7;
+                    entity = 6;
                     entity = golfie[entity];
                     michal = michal.bind(tangon)(entity);
                     entity = {};
@@ -446,27 +374,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot1 = tangon;
             tangon = zuuluu.author;
             zuuluu = null;
-            if(!(zuuluu != tangon)) { _fun00008_ip = 132; continue _fun00007 }
+            if(!(zuuluu != tangon)) { _fun00008_ip = 71; continue _fun00007 }
  31:
             zuuluu = michal.codedLinks;
             tangon = zuuluu.length;
             zuuluu = 0;
-            if(!(zuuluu !== tangon)) { _fun00008_ip = 132; continue _fun00007 }
+            if(!(zuuluu !== tangon)) { _fun00008_ip = 71; continue _fun00007 }
  48:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            zuuluu = 5;
-            tangon = tangon[zuuluu];
-            zuuluu = undefined;
-            zuuluu = report.bind(zuuluu)(tangon);
-            report = zuuluu.appEmbedsRedesign;
-            tangon = report.getCurrentConfig;
-            zuuluu = {};
-            oscard = 'createCodedLinkEmbeds';
-            zuuluu['location'] = oscard;
-            zuuluu = tangon.bind(report)(zuuluu);
-            zuuluu = zuuluu.enabled;
-            var _closure2_slot2 = zuuluu;
             zuuluu = michal.codedLinks;
             michal = zuuluu.map;
             entity = function(argFoo) {
@@ -474,130 +388,130 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     entity = argFoo;
                     offset = entity.type;
-                    report = entity.code;
+                    oscard = entity.code;
                     verify = entity.url;
-                    tangon = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    yankee = 6;
-                    michal = michal[yankee];
-                    zuuluu = undefined;
-                    michal = tangon.bind(zuuluu)(michal);
-                    michal = michal.CodedLinkType;
-                    michal = michal.INVITE;
-                    if(!(offset !== michal)) { _fun00010_ip = 1478; continue _fun00009 }
+                    zuuluu = _closure1_slot0;
+                    entity = _closure1_slot2;
+                    yankee = 5;
+                    entity = entity[yankee];
+                    tangon = undefined;
+                    entity = zuuluu.bind(tangon)(entity);
+                    entity = entity.CodedLinkType;
+                    entity = entity.INVITE;
+                    if(!(offset !== entity)) { _fun00010_ip = 1167; continue _fun00009 }
  62:
-                    tangon = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    michal = michal[yankee];
-                    michal = tangon.bind(zuuluu)(michal);
-                    michal = michal.CodedLinkType;
-                    michal = michal.TEMPLATE;
-                    if(!(offset !== michal)) { _fun00010_ip = 1437; continue _fun00009 }
+                    zuuluu = _closure1_slot0;
+                    entity = _closure1_slot2;
+                    entity = entity[yankee];
+                    entity = zuuluu.bind(tangon)(entity);
+                    entity = entity.CodedLinkType;
+                    entity = entity.TEMPLATE;
+                    if(!(offset !== entity)) { _fun00010_ip = 1126; continue _fun00009 }
  98:
-                    tangon = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    michal = michal[yankee];
-                    michal = tangon.bind(zuuluu)(michal);
-                    michal = michal.CodedLinkType;
-                    michal = michal.BUILD_OVERRIDE;
-                    if(!(offset !== michal)) { _fun00010_ip = 1396; continue _fun00009 }
+                    zuuluu = _closure1_slot0;
+                    entity = _closure1_slot2;
+                    entity = entity[yankee];
+                    entity = zuuluu.bind(tangon)(entity);
+                    entity = entity.CodedLinkType;
+                    entity = entity.BUILD_OVERRIDE;
+                    if(!(offset !== entity)) { _fun00010_ip = 1085; continue _fun00009 }
  134:
-                    tangon = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    michal = michal[yankee];
-                    michal = tangon.bind(zuuluu)(michal);
-                    michal = michal.CodedLinkType;
-                    michal = michal.MANUAL_BUILD_OVERRIDE;
-                    if(!(offset !== michal)) { _fun00010_ip = 1342; continue _fun00009 }
+                    zuuluu = _closure1_slot0;
+                    entity = _closure1_slot2;
+                    entity = entity[yankee];
+                    entity = zuuluu.bind(tangon)(entity);
+                    entity = entity.CodedLinkType;
+                    entity = entity.MANUAL_BUILD_OVERRIDE;
+                    if(!(offset !== entity)) { _fun00010_ip = 1028; continue _fun00009 }
  170:
-                    tangon = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    michal = michal[yankee];
-                    michal = tangon.bind(zuuluu)(michal);
-                    michal = michal.CodedLinkType;
-                    michal = michal.EVENT;
-                    if(!(offset !== michal)) { _fun00010_ip = 1301; continue _fun00009 }
+                    zuuluu = _closure1_slot0;
+                    entity = _closure1_slot2;
+                    entity = entity[yankee];
+                    entity = zuuluu.bind(tangon)(entity);
+                    entity = entity.CodedLinkType;
+                    entity = entity.EVENT;
+                    if(!(offset !== entity)) { _fun00010_ip = 987; continue _fun00009 }
  206:
-                    tangon = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    michal = michal[yankee];
-                    michal = tangon.bind(zuuluu)(michal);
-                    michal = michal.CodedLinkType;
-                    michal = michal.CHANNEL_LINK;
-                    if(!(offset !== michal)) { _fun00010_ip = 1260; continue _fun00009 }
+                    zuuluu = _closure1_slot0;
+                    entity = _closure1_slot2;
+                    entity = entity[yankee];
+                    entity = zuuluu.bind(tangon)(entity);
+                    entity = entity.CodedLinkType;
+                    entity = entity.CHANNEL_LINK;
+                    if(!(offset !== entity)) { _fun00010_ip = 946; continue _fun00009 }
  242:
-                    tangon = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    michal = michal[yankee];
-                    michal = tangon.bind(zuuluu)(michal);
-                    michal = michal.CodedLinkType;
-                    michal = michal.APP_DIRECTORY_PROFILE;
-                    if(!(offset !== michal)) { _fun00010_ip = 1148; continue _fun00009 }
+                    zuuluu = _closure1_slot0;
+                    entity = _closure1_slot2;
+                    entity = entity[yankee];
+                    entity = zuuluu.bind(tangon)(entity);
+                    entity = entity.CodedLinkType;
+                    entity = entity.APP_DIRECTORY_PROFILE;
+                    if(!(offset !== entity)) { _fun00010_ip = 881; continue _fun00009 }
  278:
-                    tangon = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    michal = michal[yankee];
-                    michal = tangon.bind(zuuluu)(michal);
-                    michal = michal.CodedLinkType;
-                    michal = michal.ACTIVITY_BOOKMARK;
-                    if(!(offset !== michal)) { _fun00010_ip = 866; continue _fun00009 }
+                    zuuluu = _closure1_slot0;
+                    entity = _closure1_slot2;
+                    entity = entity[yankee];
+                    entity = zuuluu.bind(tangon)(entity);
+                    entity = entity.CodedLinkType;
+                    entity = entity.ACTIVITY_BOOKMARK;
+                    if(!(offset !== entity)) { _fun00010_ip = 816; continue _fun00009 }
  314:
-                    tangon = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    michal = michal[yankee];
-                    michal = tangon.bind(zuuluu)(michal);
-                    michal = michal.CodedLinkType;
-                    michal = michal.EMBEDDED_ACTIVITY_INVITE;
-                    if(!(offset !== michal)) { _fun00010_ip = 814; continue _fun00009 }
+                    zuuluu = _closure1_slot0;
+                    entity = _closure1_slot2;
+                    entity = entity[yankee];
+                    entity = zuuluu.bind(tangon)(entity);
+                    entity = entity.CodedLinkType;
+                    entity = entity.EMBEDDED_ACTIVITY_INVITE;
+                    if(!(offset !== entity)) { _fun00010_ip = 764; continue _fun00009 }
  350:
-                    tangon = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    michal = michal[yankee];
-                    michal = tangon.bind(zuuluu)(michal);
-                    michal = michal.CodedLinkType;
-                    tangon = michal.GUILD_PRODUCT;
-                    michal = null;
-                    if(!(offset !== tangon)) { _fun00010_ip = 812; continue _fun00009 }
+                    zuuluu = _closure1_slot0;
+                    entity = _closure1_slot2;
+                    entity = entity[yankee];
+                    entity = zuuluu.bind(tangon)(entity);
+                    entity = entity.CodedLinkType;
+                    zuuluu = entity.GUILD_PRODUCT;
+                    entity = null;
+                    if(!(offset !== zuuluu)) { _fun00010_ip = 762; continue _fun00009 }
  388:
                     golfie = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    tangon = tangon[yankee];
-                    tangon = golfie.bind(zuuluu)(tangon);
-                    tangon = tangon.CodedLinkType;
-                    tangon = tangon.SERVER_SHOP;
-                    michal = null;
-                    if(!(offset !== tangon)) { _fun00010_ip = 812; continue _fun00009 }
+                    zuuluu = _closure1_slot2;
+                    zuuluu = zuuluu[yankee];
+                    zuuluu = golfie.bind(tangon)(zuuluu);
+                    zuuluu = zuuluu.CodedLinkType;
+                    zuuluu = zuuluu.SERVER_SHOP;
+                    entity = null;
+                    if(!(offset !== zuuluu)) { _fun00010_ip = 762; continue _fun00009 }
  426:
                     golfie = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    tangon = tangon[yankee];
-                    tangon = golfie.bind(zuuluu)(tangon);
-                    tangon = tangon.CodedLinkType;
-                    tangon = tangon.QUESTS_EMBED;
-                    if(!(offset !== tangon)) { _fun00010_ip = 759; continue _fun00009 }
+                    zuuluu = _closure1_slot2;
+                    zuuluu = zuuluu[yankee];
+                    zuuluu = golfie.bind(tangon)(zuuluu);
+                    zuuluu = zuuluu.CodedLinkType;
+                    zuuluu = zuuluu.QUESTS_EMBED;
+                    if(!(offset !== zuuluu)) { _fun00010_ip = 709; continue _fun00009 }
  462:
                     golfie = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    tangon = tangon[yankee];
-                    tangon = golfie.bind(zuuluu)(tangon);
-                    tangon = tangon.CodedLinkType;
-                    golfie = tangon.APP_DIRECTORY_STOREFRONT;
-                    tangon = null;
-                    if(!(offset !== golfie)) { _fun00010_ip = 757; continue _fun00009 }
+                    zuuluu = _closure1_slot2;
+                    zuuluu = zuuluu[yankee];
+                    zuuluu = golfie.bind(tangon)(zuuluu);
+                    zuuluu = zuuluu.CodedLinkType;
+                    golfie = zuuluu.APP_DIRECTORY_STOREFRONT;
+                    zuuluu = null;
+                    if(!(offset !== golfie)) { _fun00010_ip = 707; continue _fun00009 }
  500:
                     option = _closure1_slot0;
                     golfie = _closure1_slot2;
                     golfie = golfie[yankee];
-                    golfie = option.bind(zuuluu)(golfie);
+                    golfie = option.bind(tangon)(golfie);
                     golfie = golfie.CodedLinkType;
                     golfie = golfie.APP_DIRECTORY_STOREFRONT_SKU;
-                    tangon = null;
-                    if(!(offset !== golfie)) { _fun00010_ip = 757; continue _fun00009 }
+                    zuuluu = null;
+                    if(!(offset !== golfie)) { _fun00010_ip = 707; continue _fun00009 }
  538:
                     option = _closure1_slot0;
                     golfie = _closure1_slot2;
                     golfie = golfie[yankee];
-                    golfie = option.bind(zuuluu)(golfie);
+                    golfie = option.bind(tangon)(golfie);
                     golfie = golfie.CodedLinkType;
                     golfie = golfie.APP_OAUTH2_LINK;
                     if(!(offset !== golfie)) { _fun00010_ip = 641; continue _fun00009 }
@@ -605,267 +519,186 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = _closure1_slot0;
                     golfie = _closure1_slot2;
                     golfie = golfie[yankee];
-                    golfie = option.bind(zuuluu)(golfie);
+                    golfie = option.bind(tangon)(golfie);
                     golfie = golfie.CodedLinkType;
                     golfie = golfie.COLLECTIBLES_SHOP;
-                    oscard = null;
+                    report = null;
                     if(!(offset !== golfie)) { _fun00010_ip = 639; continue _fun00009 }
  606:
                     option = _closure1_slot0;
                     yankee = _closure1_slot2;
-                    golfie = 19;
+                    golfie = 15;
                     golfie = yankee[golfie];
-                    option = option.bind(zuuluu)(golfie);
+                    option = option.bind(tangon)(golfie);
                     golfie = option.assertNever;
                     golfie = golfie.bind(option)(offset);
-                    oscard = undefined;
+                    report = undefined;
  639:
-                    _fun00010_ip = 754; continue _fun00009;
+                    _fun00010_ip = 704; continue _fun00009;
  641:
-                    golfie = _closure2_slot2;
-                    offset = _closure1_slot0;
-                    yankee = _closure1_slot2;
-                    if(golfie) { _fun00010_ip = 699; continue _fun00009 }
- 659:
-                    golfie = 18;
-                    golfie = yankee[golfie];
-                    foxtra = offset.bind(zuuluu)(golfie);
-                    option = foxtra.createAppOAuth2LinkEmbed;
+                    option = _closure1_slot0;
+                    offset = _closure1_slot2;
+                    golfie = 11;
+                    golfie = offset[golfie];
+                    offset = option.bind(tangon)(golfie);
+                    option = offset.createAppMessageEmbed;
                     golfie = {};
-                    backup = _closure2_slot1;
-                    golfie['theme'] = backup;
-                    golfie['applicationId'] = report;
-                    golfie = option.bind(foxtra)(golfie);
-                    _fun00010_ip = 751; continue _fun00009;
- 699:
-                    option = 12;
-                    option = yankee[option];
-                    yankee = offset.bind(zuuluu)(option);
-                    offset = yankee.createAppMessageEmbed;
-                    option = {};
-                    foxtra = _closure2_slot1;
-                    option['theme'] = foxtra;
-                    option['appId'] = report;
-                    option['embedUrl'] = verify;
-                    romeon = _closure2_slot0;
-                    option['message'] = romeon;
-                    golfie = offset.bind(yankee)(option);
- 751:
-                    oscard = golfie;
- 754:
-                    tangon = oscard;
- 757:
-                    _fun00010_ip = 809; continue _fun00009;
- 759:
+                    romeon = _closure2_slot1;
+                    golfie['theme'] = romeon;
+                    golfie['appId'] = oscard;
+                    golfie['embedUrl'] = verify;
+                    yankee = _closure2_slot0;
+                    golfie['message'] = yankee;
+                    report = option.bind(offset)(golfie);
+ 704:
+                    zuuluu = report;
+ 707:
+                    _fun00010_ip = 759; continue _fun00009;
+ 709:
                     golfie = _closure1_slot0;
                     option = _closure1_slot2;
-                    oscard = 17;
-                    oscard = option[oscard];
-                    option = golfie.bind(zuuluu)(oscard);
+                    report = 14;
+                    report = option[report];
+                    option = golfie.bind(tangon)(report);
                     golfie = option.createQuestsEmbed;
-                    oscard = {};
+                    report = {};
                     offset = _closure2_slot1;
-                    oscard['theme'] = offset;
-                    oscard['questId'] = report;
-                    tangon = golfie.bind(option)(oscard);
- 809:
-                    michal = tangon;
- 812:
-                    _fun00010_ip = 864; continue _fun00009;
+                    report['theme'] = offset;
+                    report['questId'] = oscard;
+                    zuuluu = golfie.bind(option)(report);
+ 759:
+                    entity = zuuluu;
+ 762:
+                    _fun00010_ip = 814; continue _fun00009;
+ 764:
+                    report = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    zuuluu = 13;
+                    zuuluu = golfie[zuuluu];
+                    golfie = report.bind(tangon)(zuuluu);
+                    report = golfie.createEmbeddedActivityInviteEmbed;
+                    zuuluu = {};
+                    option = _closure2_slot1;
+                    zuuluu['theme'] = option;
+                    zuuluu['inviteCode'] = oscard;
+                    entity = report.bind(golfie)(zuuluu);
  814:
-                    oscard = _closure1_slot0;
+                    _fun00010_ip = 879; continue _fun00009;
+ 816:
+                    report = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    tangon = 16;
-                    tangon = golfie[tangon];
-                    golfie = oscard.bind(zuuluu)(tangon);
-                    oscard = golfie.createEmbeddedActivityInviteEmbed;
-                    tangon = {};
-                    option = _closure2_slot1;
-                    tangon['theme'] = option;
-                    tangon['inviteCode'] = report;
-                    michal = oscard.bind(golfie)(tangon);
- 864:
-                    return michal;
- 866:
-                    michal = _closure2_slot2;
-                    if(michal) { _fun00010_ip = 1086; continue _fun00009 }
- 879:
-                    michal = global;
-                    michal = michal.URL;
-                    tangon = michal.prototype;
-                    tangon = Object.create(tangon, {constructor: {value: michal}});
-                    result = tangon;
-                    output = verify;
-                    michal = new result[michal](output, sizing);
-                    michal = michal instanceof Object ? michal : tangon;
-                    option = michal.searchParams;
-                    oscard = option.get;
-                    tangon = 'referrer_id';
-                    offset = oscard.bind(option)(tangon);
-                    tangon = null;
-                    if(!(tangon == offset)) { _fun00010_ip = 951; continue _fun00009 }
- 936:
-                    oscard = _closure2_slot0;
-                    oscard = oscard.author;
-                    offset = oscard.id;
- 951:
-                    yankee = michal.searchParams;
-                    option = yankee.get;
-                    oscard = 'custom_id';
-                    oscard = option.bind(yankee)(oscard);
-                    yankee = tangon != oscard;
-                    option = undefined;
-                    if(!yankee) { _fun00010_ip = 983; continue _fun00009 }
- 980:
-                    option = oscard;
- 983:
-                    yankee = michal.searchParams;
-                    oscard = yankee.get;
-                    michal = 'link_id';
-                    michal = oscard.bind(yankee)(michal);
-                    tangon = tangon != michal;
-                    yankee = undefined;
-                    if(!tangon) { _fun00010_ip = 1015; continue _fun00009 }
- 1012:
-                    yankee = michal;
- 1015:
-                    tangon = _closure1_slot0;
-                    oscard = _closure1_slot2;
-                    michal = 15;
-                    michal = oscard[michal];
-                    oscard = tangon.bind(zuuluu)(michal);
-                    tangon = oscard.createActivityBookmarkEmbed;
-                    michal = {};
-                    romeon = _closure2_slot1;
-                    michal['theme'] = romeon;
-                    michal['applicationId'] = report;
-                    romeon = _closure2_slot0;
-                    michal['message'] = romeon;
-                    michal['linkId'] = yankee;
-                    michal['referrerId'] = offset;
-                    michal['customId'] = option;
-                    michal = tangon.bind(oscard)(michal);
-                    return michal;
- 1086:
-                    tangon = _closure1_slot0;
-                    oscard = _closure1_slot2;
-                    michal = 14;
-                    michal = oscard[michal];
-                    oscard = tangon.bind(zuuluu)(michal);
-                    tangon = oscard.createActivityMessageEmbed;
-                    michal = {};
-                    option = _closure2_slot1;
-                    michal['theme'] = option;
-                    michal['appId'] = report;
-                    michal['embedUrl'] = verify;
-                    golfie = _closure2_slot0;
-                    michal['message'] = golfie;
-                    michal = tangon.bind(oscard)(michal);
-                    return michal;
- 1148:
-                    michal = _closure2_slot2;
-                    oscard = _closure1_slot0;
-                    golfie = _closure1_slot2;
-                    if(michal) { _fun00010_ip = 1206; continue _fun00009 }
- 1166:
-                    michal = 13;
-                    michal = golfie[michal];
-                    offset = oscard.bind(zuuluu)(michal);
-                    tangon = offset.createAppDirectoryProfileEmbed;
-                    michal = {};
-                    yankee = _closure2_slot1;
-                    michal['theme'] = yankee;
-                    michal['applicationId'] = report;
-                    michal = tangon.bind(offset)(michal);
-                    _fun00010_ip = 1258; continue _fun00009;
- 1206:
-                    tangon = 12;
-                    tangon = golfie[tangon];
-                    golfie = oscard.bind(zuuluu)(tangon);
-                    oscard = golfie.createAppMessageEmbed;
-                    tangon = {};
+                    zuuluu = 12;
+                    zuuluu = golfie[zuuluu];
+                    golfie = report.bind(tangon)(zuuluu);
+                    report = golfie.createActivityMessageEmbed;
+                    zuuluu = {};
                     offset = _closure2_slot1;
-                    tangon['theme'] = offset;
-                    tangon['appId'] = report;
-                    tangon['embedUrl'] = verify;
+                    zuuluu['theme'] = offset;
+                    zuuluu['appId'] = oscard;
+                    zuuluu['embedUrl'] = verify;
                     option = _closure2_slot0;
-                    tangon['message'] = option;
-                    michal = oscard.bind(golfie)(tangon);
- 1258:
-                    return michal;
- 1260:
-                    tangon = _closure1_slot0;
-                    oscard = _closure1_slot2;
-                    michal = 11;
-                    michal = oscard[michal];
-                    oscard = tangon.bind(zuuluu)(michal);
-                    tangon = oscard.createVoiceChannelLinkEmbed;
-                    michal = _closure2_slot1;
-                    michal = tangon.bind(oscard)(report, michal);
-                    return michal;
- 1301:
-                    tangon = _closure1_slot0;
-                    oscard = _closure1_slot2;
-                    michal = 10;
-                    michal = oscard[michal];
-                    oscard = tangon.bind(zuuluu)(michal);
-                    tangon = oscard.createGuildScheduledEventLinkEmbed;
-                    michal = _closure2_slot1;
-                    michal = tangon.bind(oscard)(report, michal);
-                    return michal;
- 1342:
-                    michal = _closure1_slot7;
-                    tangon = michal.bind(zuuluu)();
-                    michal = null;
-                    if(!tangon) { _fun00010_ip = 1394; continue _fun00009 }
- 1355:
-                    oscard = _closure1_slot0;
+                    zuuluu['message'] = option;
+                    entity = report.bind(golfie)(zuuluu);
+ 879:
+                    _fun00010_ip = 944; continue _fun00009;
+ 881:
+                    report = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    tangon = 9;
-                    tangon = golfie[tangon];
-                    golfie = oscard.bind(zuuluu)(tangon);
-                    oscard = golfie.createBuildOverrideEmbed;
-                    tangon = _closure2_slot1;
-                    michal = oscard.bind(golfie)(report, tangon);
- 1394:
-                    return michal;
- 1396:
-                    tangon = _closure1_slot0;
-                    oscard = _closure1_slot2;
-                    michal = 9;
-                    michal = oscard[michal];
-                    oscard = tangon.bind(zuuluu)(michal);
-                    tangon = oscard.createBuildOverrideEmbed;
+                    zuuluu = 11;
+                    zuuluu = golfie[zuuluu];
+                    golfie = report.bind(tangon)(zuuluu);
+                    report = golfie.createAppMessageEmbed;
+                    zuuluu = {};
+                    offset = _closure2_slot1;
+                    zuuluu['theme'] = offset;
+                    zuuluu['appId'] = oscard;
+                    zuuluu['embedUrl'] = verify;
+                    option = _closure2_slot0;
+                    zuuluu['message'] = option;
+                    entity = report.bind(golfie)(zuuluu);
+ 944:
+                    _fun00010_ip = 985; continue _fun00009;
+ 946:
+                    report = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    zuuluu = 10;
+                    zuuluu = golfie[zuuluu];
+                    golfie = report.bind(tangon)(zuuluu);
+                    report = golfie.createVoiceChannelLinkEmbed;
+                    zuuluu = _closure2_slot1;
+                    entity = report.bind(golfie)(oscard, zuuluu);
+ 985:
+                    _fun00010_ip = 1026; continue _fun00009;
+ 987:
+                    report = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    zuuluu = 9;
+                    zuuluu = golfie[zuuluu];
+                    golfie = report.bind(tangon)(zuuluu);
+                    report = golfie.createGuildScheduledEventLinkEmbed;
+                    zuuluu = _closure2_slot1;
+                    entity = report.bind(golfie)(oscard, zuuluu);
+ 1026:
+                    _fun00010_ip = 1083; continue _fun00009;
+ 1028:
+                    zuuluu = _closure1_slot7;
+                    report = zuuluu.bind(tangon)();
+                    zuuluu = null;
+                    if(!report) { _fun00010_ip = 1080; continue _fun00009 }
+ 1041:
+                    golfie = _closure1_slot0;
+                    option = _closure1_slot2;
+                    report = 8;
+                    report = option[report];
+                    option = golfie.bind(tangon)(report);
+                    golfie = option.createBuildOverrideEmbed;
+                    report = _closure2_slot1;
+                    zuuluu = golfie.bind(option)(oscard, report);
+ 1080:
+                    entity = zuuluu;
+ 1083:
+                    _fun00010_ip = 1124; continue _fun00009;
+ 1085:
+                    report = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    zuuluu = 8;
+                    zuuluu = golfie[zuuluu];
+                    golfie = report.bind(tangon)(zuuluu);
+                    report = golfie.createBuildOverrideEmbed;
+                    zuuluu = _closure2_slot1;
+                    entity = report.bind(golfie)(oscard, zuuluu);
+ 1124:
+                    _fun00010_ip = 1165; continue _fun00009;
+ 1126:
+                    report = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    zuuluu = 7;
+                    zuuluu = golfie[zuuluu];
+                    golfie = report.bind(tangon)(zuuluu);
+                    report = golfie.createGuildTemplateEmbed;
+                    zuuluu = _closure2_slot1;
+                    entity = report.bind(golfie)(oscard, zuuluu);
+ 1165:
+                    _fun00010_ip = 1211; continue _fun00009;
+ 1167:
+                    zuuluu = _closure1_slot0;
+                    report = _closure1_slot2;
+                    michal = 6;
+                    michal = report[michal];
+                    report = zuuluu.bind(tangon)(michal);
+                    tangon = report.createInviteEmbed;
+                    zuuluu = _closure2_slot0;
                     michal = _closure2_slot1;
-                    michal = tangon.bind(oscard)(report, michal);
-                    return michal;
- 1437:
-                    tangon = _closure1_slot0;
-                    oscard = _closure1_slot2;
-                    michal = 8;
-                    michal = oscard[michal];
-                    oscard = tangon.bind(zuuluu)(michal);
-                    tangon = oscard.createGuildTemplateEmbed;
-                    michal = _closure2_slot1;
-                    michal = tangon.bind(oscard)(report, michal);
-                    return michal;
- 1478:
-                    michal = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    entity = 7;
-                    entity = tangon[entity];
-                    tangon = michal.bind(zuuluu)(entity);
-                    zuuluu = tangon.createInviteEmbed;
-                    michal = _closure2_slot0;
-                    entity = _closure2_slot1;
-                    entity = zuuluu.bind(tangon)(michal, report, entity);
+                    entity = tangon.bind(report)(zuuluu, oscard, michal);
+ 1211:
                     return entity;
                 }
             };
             entity = michal.bind(zuuluu)(entity);
-            return entity;
- 132:
+            _fun00008_ip = 75; continue _fun00007;
+ 71:
             entity = new Array(0);
+ 75:
             return entity;
         }
     };

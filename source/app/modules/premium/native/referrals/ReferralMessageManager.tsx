@@ -59,11 +59,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = oscard.bind(entity)(zuuluu);
             zuuluu = zuuluu.MessageTypes;
             zuuluu = zuuluu.PREMIUM_REFERRAL;
-            if(!(report === zuuluu)) { _fun00004_ip = 219; continue _fun00003 }
+            if(!(report === zuuluu)) { _fun00004_ip = 212; continue _fun00003 }
  52:
             zuuluu = tangon.content;
             report = null;
-            if(!(report != zuuluu)) { _fun00004_ip = 219; continue _fun00003 }
+            if(!(report != zuuluu)) { _fun00004_ip = 212; continue _fun00003 }
  66:
             oscard = _closure1_slot1;
             zuuluu = _closure1_slot2;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie.isProbablyAValidSnowflake;
             zuuluu = tangon.content;
             zuuluu = oscard.bind(golfie)(zuuluu);
-            if(!zuuluu) { _fun00004_ip = 219; continue _fun00003 }
+            if(!zuuluu) { _fun00004_ip = 212; continue _fun00003 }
  105:
             oscard = _closure1_slot8;
             zuuluu = oscard.getPremiumTypeSubscription;
@@ -93,17 +93,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  176:
             zuuluu = tangon;
  179:
-            if(!zuuluu) { _fun00004_ip = 219; continue _fun00003 }
+            if(!zuuluu) { _fun00004_ip = 212; continue _fun00003 }
  182:
-            zuuluu = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
             michal = 9;
             michal = tangon[michal];
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.fetchUserOffer;
-            michal = 'Referral Message Manager';
-            michal = zuuluu.bind(tangon)(michal);
- 219:
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.fetchUserTrialOffer;
+            michal = michal.bind(zuuluu)();
+ 212:
             return entity;
         }
     };

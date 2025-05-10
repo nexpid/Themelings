@@ -380,37 +380,46 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['accessibilityLabel'] = update;
             verify['data'] = echoed;
             kiloes = function(argFoo) { // Original name: renderItem
-                michal = argFoo;
-                entity = michal.item;
-                verify = michal.index;
-                report = _closure1_slot7;
-                zuuluu = _closure1_slot0;
-                option = _closure1_slot2;
-                michal = 15;
-                michal = option[michal];
-                tangon = undefined;
-                michal = zuuluu.bind(tangon)(michal);
-                zuuluu = michal.CollectiblesAnalyticsProvider;
-                michal = {};
-                golfie = {};
-                golfie['tilePosition'] = verify;
-                michal['newValue'] = golfie;
-                golfie = _closure1_slot1;
-                oscard = 5;
-                oscard = option[oscard];
-                golfie = golfie.bind(tangon)(oscard);
-                oscard = {};
-                oscard['product'] = entity;
-                option = _closure2_slot2;
-                oscard['unpublishedAt'] = option;
-                oscard = report.bind(tangon)(golfie, oscard);
-                michal['children'] = oscard;
-                oscard = entity.items;
-                entity = 0;
-                entity = oscard[entity];
-                entity = entity.id;
-                entity = report.bind(tangon)(zuuluu, michal, entity);
-                return entity;
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+                    michal = argFoo;
+                    entity = michal.item;
+                    verify = michal.index;
+                    report = _closure1_slot7;
+                    zuuluu = _closure1_slot0;
+                    option = _closure1_slot2;
+                    michal = 15;
+                    michal = option[michal];
+                    tangon = undefined;
+                    michal = zuuluu.bind(tangon)(michal);
+                    zuuluu = michal.CollectiblesAnalyticsProvider;
+                    michal = {};
+                    golfie = {};
+                    golfie['tilePosition'] = verify;
+                    michal['newValue'] = golfie;
+                    golfie = _closure1_slot1;
+                    oscard = 5;
+                    oscard = option[oscard];
+                    golfie = golfie.bind(tangon)(oscard);
+                    oscard = {};
+                    oscard['product'] = entity;
+                    option = _closure2_slot2;
+                    oscard['unpublishedAt'] = option;
+                    oscard = report.bind(tangon)(golfie, oscard);
+                    michal['children'] = oscard;
+                    oscard = entity.items;
+                    entity = 0;
+                    oscard = oscard[entity];
+                    entity = null;
+                    golfie = entity == oscard;
+                    entity = undefined;
+                    if(golfie) { _fun00006_ip = 135; continue _fun00005 }
+ 130:
+                    entity = oscard.id;
+ 135:
+                    entity = report.bind(tangon)(zuuluu, michal, entity);
+                    return entity;
+                }
             };
             verify['renderItem'] = kiloes;
             kiloes = 5;

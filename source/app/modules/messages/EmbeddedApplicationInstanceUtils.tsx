@@ -31,15 +31,15 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             tangon = tangon[golfie];
             tangon = yankee.bind(oscard)(tangon);
             yankee = tangon.t;
-            if(option) { _fun00002_ip = 115; continue _fun00001 }
- 100:
+            if(option) { _fun00002_ip = 117; continue _fun00001 }
+ 102:
             tangon = yankee.sqe0ho;
             tangon = foxtra.bind(backup)(tangon);
-            _fun00002_ip = 126; continue _fun00001;
- 115:
+            _fun00002_ip = 128; continue _fun00001;
+ 117:
             yankee = yankee.I0v0Qk;
             tangon = foxtra.bind(backup)(yankee);
- 126:
+ 128:
             zuuluu['text'] = tangon;
             zuuluu['tooltip'] = oscard;
             yankee = _closure1_slot0;
@@ -49,18 +49,18 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             yankee = yankee.bind(oscard)(tangon);
             tangon = yankee.isActivitiesInTextEnabled;
             tangon = tangon.bind(yankee)(romeon);
-            if(!(entity != offset)) { _fun00002_ip = 193; continue _fun00001 }
- 170:
-            if(!(entity != verify)) { _fun00002_ip = 193; continue _fun00001 }
- 174:
+            if(!(entity != offset)) { _fun00002_ip = 195; continue _fun00001 }
+ 172:
+            if(!(entity != verify)) { _fun00002_ip = 195; continue _fun00001 }
+ 176:
             offset = offset.launchId;
             verify = verify.launchId;
-            if(!(offset !== verify)) { _fun00002_ip = 1112; continue _fun00001 }
- 193:
-            if(option) { _fun00002_ip = 1020; continue _fun00001 }
- 199:
-            if(!(entity != report)) { _fun00002_ip = 239; continue _fun00001 }
- 203:
+            if(!(offset !== verify)) { _fun00002_ip = 1114; continue _fun00001 }
+ 195:
+            if(option) { _fun00002_ip = 1022; continue _fun00001 }
+ 201:
+            if(!(entity != report)) { _fun00002_ip = 241; continue _fun00001 }
+ 205:
             option = _closure1_slot0;
             entity = _closure1_slot1;
             verify = 3;
@@ -68,82 +68,82 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             entity = option.bind(oscard)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.CAN_JOIN;
-            if(!(report === entity)) { _fun00002_ip = 241; continue _fun00001 }
- 239:
-            return zuuluu;
+            if(!(report === entity)) { _fun00002_ip = 243; continue _fun00001 }
  241:
+            return zuuluu;
+ 243:
             option = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[verify];
             entity = option.bind(oscard)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.NO_USE_EMBEDDED_ACTIVITIES_PERMISSION;
-            if(!(entity !== report)) { _fun00002_ip = 934; continue _fun00001 }
- 277:
+            if(!(entity !== report)) { _fun00002_ip = 936; continue _fun00001 }
+ 279:
             option = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[verify];
             entity = option.bind(oscard)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.ACTIVITY_AGE_GATED;
-            if(!(entity !== report)) { _fun00002_ip = 880; continue _fun00001 }
- 313:
+            if(!(entity !== report)) { _fun00002_ip = 882; continue _fun00001 }
+ 315:
             option = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[verify];
             entity = option.bind(oscard)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.ACTIVITIES_FEATURE_NOT_ENABLED_FOR_OS;
-            if(!(entity !== report)) { _fun00002_ip = 826; continue _fun00001 }
- 349:
+            if(!(entity !== report)) { _fun00002_ip = 828; continue _fun00001 }
+ 351:
             option = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[verify];
             entity = option.bind(oscard)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.ACTIVITY_NOT_SUPPORTED_ON_OS;
-            if(!(entity !== report)) { _fun00002_ip = 769; continue _fun00001 }
- 385:
+            if(!(entity !== report)) { _fun00002_ip = 771; continue _fun00001 }
+ 387:
             option = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[verify];
             entity = option.bind(oscard)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.CHANNEL_FULL;
-            if(!(entity !== report)) { _fun00002_ip = 712; continue _fun00001 }
- 421:
+            if(!(entity !== report)) { _fun00002_ip = 714; continue _fun00001 }
+ 423:
             option = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[verify];
             entity = option.bind(oscard)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.NO_CHANNEL_CONNECT_PERMISSION;
-            if(!(entity !== report)) { _fun00002_ip = 653; continue _fun00001 }
- 457:
+            if(!(entity !== report)) { _fun00002_ip = 655; continue _fun00001 }
+ 459:
             option = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[verify];
             entity = option.bind(oscard)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.NO_CHANNEL;
-            if(!(entity !== report)) { _fun00002_ip = 594; continue _fun00001 }
- 490:
+            if(!(entity !== report)) { _fun00002_ip = 596; continue _fun00001 }
+ 492:
             option = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[verify];
             entity = option.bind(oscard)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.NO_GUILD;
-            if(!(entity !== report)) { _fun00002_ip = 594; continue _fun00001 }
- 523:
+            if(!(entity !== report)) { _fun00002_ip = 596; continue _fun00001 }
+ 525:
             option = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[verify];
             entity = option.bind(oscard)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.NO_USER;
-            if(!(entity !== report)) { _fun00002_ip = 594; continue _fun00001 }
- 556:
+            if(!(entity !== report)) { _fun00002_ip = 596; continue _fun00001 }
+ 558:
             option = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[verify];
@@ -151,8 +151,8 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.IS_AFK_CHANNEL;
             option = undefined;
-            if(!(entity === report)) { _fun00002_ip = 986; continue _fun00001 }
- 594:
+            if(!(entity === report)) { _fun00002_ip = 988; continue _fun00001 }
+ 596:
             offset = _closure1_slot0;
             entity = _closure1_slot1;
             report = entity[golfie];
@@ -164,8 +164,8 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             entity = entity.t;
             entity = entity.Etp6uL;
             option = report.bind(verify)(entity);
-            _fun00002_ip = 986; continue _fun00001;
- 653:
+            _fun00002_ip = 988; continue _fun00001;
+ 655:
             offset = _closure1_slot0;
             entity = _closure1_slot1;
             report = entity[golfie];
@@ -177,8 +177,8 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             entity = entity.t;
             entity = entity.w5SApq;
             option = report.bind(verify)(entity);
-            _fun00002_ip = 986; continue _fun00001;
- 712:
+            _fun00002_ip = 988; continue _fun00001;
+ 714:
             offset = _closure1_slot0;
             entity = _closure1_slot1;
             report = entity[golfie];
@@ -190,8 +190,8 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             entity = entity.t;
             entity = entity.rZfiNj;
             option = report.bind(verify)(entity);
-            _fun00002_ip = 986; continue _fun00001;
- 769:
+            _fun00002_ip = 988; continue _fun00001;
+ 771:
             offset = _closure1_slot0;
             entity = _closure1_slot1;
             report = entity[golfie];
@@ -203,8 +203,8 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             entity = entity.t;
             entity = entity.UXoQTk;
             option = report.bind(verify)(entity);
-            _fun00002_ip = 986; continue _fun00001;
- 826:
+            _fun00002_ip = 988; continue _fun00001;
+ 828:
             offset = _closure1_slot0;
             entity = _closure1_slot1;
             report = entity[golfie];
@@ -216,8 +216,8 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             entity = entity.t;
             entity = entity.uGDCc3;
             option = report.bind(verify)(entity);
-            _fun00002_ip = 986; continue _fun00001;
- 880:
+            _fun00002_ip = 988; continue _fun00001;
+ 882:
             offset = _closure1_slot0;
             entity = _closure1_slot1;
             report = entity[golfie];
@@ -229,8 +229,8 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             entity = entity.t;
             entity = entity.4WuFRE;
             option = report.bind(verify)(entity);
-            _fun00002_ip = 986; continue _fun00001;
- 934:
+            _fun00002_ip = 988; continue _fun00001;
+ 936:
             offset = _closure1_slot0;
             entity = _closure1_slot1;
             report = entity[golfie];
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             entity = entity.t;
             entity = entity.hHGrW1;
             option = report.bind(verify)(entity);
- 986:
+ 988:
             entity = {};
             output = entity;
             sizing = zuuluu;
@@ -253,7 +253,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             report = 'tooltip';
             entity[report] = option;
             return entity;
- 1020:
+ 1022:
             entity = {};
             output = entity;
             sizing = zuuluu;
@@ -262,8 +262,8 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             report = 'disabled';
             entity[report] = option;
             report = undefined;
-            if(tangon) { _fun00002_ip = 1101; continue _fun00001 }
- 1049:
+            if(tangon) { _fun00002_ip = 1103; continue _fun00001 }
+ 1051:
             offset = _closure1_slot0;
             tangon = _closure1_slot1;
             option = tangon[golfie];
@@ -275,11 +275,11 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             tangon = tangon.t;
             tangon = tangon.f41E1t;
             report = option.bind(verify)(tangon);
- 1101:
+ 1103:
             tangon = 'tooltip';
             entity[tangon] = report;
             return entity;
- 1112:
+ 1114:
             entity = {};
             output = entity;
             sizing = zuuluu;

@@ -133,8 +133,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = golfie.firstProfileEffect;
             golfie = golfie.firstAvatarDecoration;
             verify = michal.type;
-            yankee = 8;
-            zuuluu = zuuluu[yankee];
+            romeon = 8;
+            zuuluu = zuuluu[romeon];
             zuuluu = offset.bind(tangon)(zuuluu);
             zuuluu = zuuluu.CollectiblesItemType;
             zuuluu = zuuluu.BUNDLE;
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = null;
             if(!(zuuluu != golfie)) { _fun00004_ip = 115; continue _fun00003 }
  108:
-            if(!(zuuluu == oscard)) { _fun00004_ip = 313; continue _fun00003 }
+            if(!(zuuluu == oscard)) { _fun00004_ip = 322; continue _fun00003 }
  115:
             verify = _closure1_slot3;
             zuuluu = michal.items;
@@ -151,26 +151,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = verify.bind(tangon)(zuuluu, michal);
             michal = 0;
             offset = zuuluu[michal];
-            zuuluu = offset.type;
-            verify = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[yankee];
-            michal = verify.bind(tangon)(michal);
-            michal = michal.CollectiblesItemType;
-            michal = michal.AVATAR_DECORATION;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 263; continue _fun00003 }
- 178:
-            verify = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[yankee];
-            michal = verify.bind(tangon)(michal);
-            michal = michal.CollectiblesItemType;
-            michal = michal.PROFILE_EFFECT;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 215; continue _fun00003 }
- 211:
             michal = null;
+            zuuluu = michal == offset;
+            verify = undefined;
+            if(zuuluu) { _fun00004_ip = 156; continue _fun00003 }
+ 151:
+            verify = offset.type;
+ 156:
+            yankee = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu[romeon];
+            zuuluu = yankee.bind(tangon)(zuuluu);
+            zuuluu = zuuluu.CollectiblesItemType;
+            zuuluu = zuuluu.AVATAR_DECORATION;
+            if(!(zuuluu !== verify)) { _fun00004_ip = 272; continue _fun00003 }
+ 189:
+            yankee = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu[romeon];
+            zuuluu = yankee.bind(tangon)(zuuluu);
+            zuuluu = zuuluu.CollectiblesItemType;
+            zuuluu = zuuluu.PROFILE_EFFECT;
+            if(!(zuuluu !== verify)) { _fun00004_ip = 224; continue _fun00003 }
+ 222:
             return michal;
- 215:
+ 224:
             verify = _closure1_slot5;
             zuuluu = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -183,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['isDarkTheme'] = report;
             michal = verify.bind(tangon)(zuuluu, michal);
             return michal;
- 263:
+ 272:
             verify = _closure1_slot5;
             zuuluu = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -197,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['size'] = offset;
             michal = verify.bind(tangon)(zuuluu, michal);
             return michal;
- 313:
+ 322:
             zuuluu = _closure1_slot5;
             michal = _closure1_slot1;
             verify = _closure1_slot2;
@@ -223,7 +228,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = michal.children;
             michal = _closure1_slot7;
             tangon = undefined;
-            yankee = michal.bind(tangon)();
+            romeon = michal.bind(tangon)();
             zuuluu = _closure1_slot3;
             michal = entity.items;
             entity = 1;
@@ -233,33 +238,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot5;
             michal = _closure1_slot4;
             entity = {};
-            offset = yankee.assetContainer;
+            offset = romeon.assetContainer;
             oscard = new Array(4);
             oscard[0] = offset;
             if(golfie) { _fun00006_ip = 93; continue _fun00005 }
  85:
-            golfie = yankee.assetContainerLightBackground;
+            golfie = romeon.assetContainerLightBackground;
             _fun00006_ip = 99; continue _fun00005;
  93:
-            golfie = yankee.assetContainerDarkBackground;
+            golfie = romeon.assetContainerDarkBackground;
  99:
             oscard[1] = golfie;
-            romeon = verify.type;
-            foxtra = _closure1_slot0;
+            yankee = null;
+            golfie = yankee == verify;
+            foxtra = undefined;
+            if(golfie) { _fun00006_ip = 119; continue _fun00005 }
+ 114:
+            foxtra = verify.type;
+ 119:
+            backup = _closure1_slot0;
             golfie = _closure1_slot2;
             offset = 8;
             golfie = golfie[offset];
-            golfie = foxtra.bind(tangon)(golfie);
+            golfie = backup.bind(tangon)(golfie);
             golfie = golfie.CollectiblesItemType;
             golfie = golfie.PROFILE_EFFECT;
-            golfie = romeon === golfie;
-            if(!golfie) { _fun00006_ip = 153; continue _fun00005 }
- 147:
-            golfie = yankee.profileEffectAssetContainer;
- 153:
+            golfie = foxtra === golfie;
+            if(!golfie) { _fun00006_ip = 164; continue _fun00005 }
+ 158:
+            golfie = romeon.profileEffectAssetContainer;
+ 164:
             oscard[2] = golfie;
             golfie = {};
+            romeon = yankee == verify;
+            yankee = undefined;
+            if(romeon) { _fun00006_ip = 184; continue _fun00005 }
+ 179:
             yankee = verify.type;
+ 184:
             verify = _closure1_slot0;
             option = _closure1_slot2;
             option = option[offset];
@@ -268,10 +284,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = option.AVATAR_DECORATION;
             option = '100%';
             verify = option;
-            if(!(yankee === offset)) { _fun00006_ip = 209; continue _fun00005 }
- 206:
+            if(!(yankee === offset)) { _fun00006_ip = 229; continue _fun00005 }
+ 226:
             verify = 140;
- 209:
+ 229:
             golfie['height'] = verify;
             golfie['width'] = option;
             oscard[3] = golfie;

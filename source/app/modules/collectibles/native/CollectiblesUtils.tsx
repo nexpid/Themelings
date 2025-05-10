@@ -441,64 +441,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['getFormattedPriceForCollectiblesProduct'] = golfie;
     zuuluu['extractPriceByPurchaseTypes'] = oscard;
-    oscard = function(argFoo) {
-        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
- 0:
-            golfie = argFoo;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 6;
-            entity = tangon[entity];
-            report = undefined;
-            zuuluu = zuuluu.bind(report)(entity);
-            entity = zuuluu.getBundleItemsPriceSum;
-            oscard = entity.bind(zuuluu)(golfie);
-            tangon = 0;
-            if(!(tangon !== oscard)) { _fun00016_ip = 132; continue _fun00015 }
- 45:
-            zuuluu = golfie.bundledProducts;
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00016_ip = 130; continue _fun00015 }
- 57:
-            zuuluu = _closure1_slot5;
-            michal = _closure1_slot4;
-            michal = michal.MOBILE;
-            michal = zuuluu.bind(report)(golfie, michal);
-            zuuluu = entity == michal;
-            report = undefined;
-            if(zuuluu) { _fun00016_ip = 92; continue _fun00015 }
- 86:
-            report = michal.currency;
- 92:
-            zuuluu = entity == report;
-            michal = null;
-            if(zuuluu) { _fun00016_ip = 128; continue _fun00015 }
- 101:
-            zuuluu = {};
-            zuuluu['amount'] = oscard;
-            zuuluu['currency'] = report;
-            zuuluu['tax'] = tangon;
-            tangon = false;
-            zuuluu['taxInclusive'] = tangon;
-            michal = zuuluu;
- 128:
-            return michal;
- 130:
-            return entity;
- 132:
-            entity = null;
-            return entity;
-        }
-    };
-    zuuluu['getBundleTotalFormattedPrice'] = oscard;
     zuuluu['isNotBundleProduct'] = report;
     zuuluu['isGPlaySynced'] = tangon;
     michal = function(argFoo) {
-        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             tangon = argFoo;
             entity = null;
-            if(!(entity != tangon)) { _fun00018_ip = 92; continue _fun00017 }
+            if(!(entity != tangon)) { _fun00016_ip = 92; continue _fun00015 }
  9:
             entity = new Array(0);
             zuuluu = _closure1_slot9;
@@ -508,12 +458,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = zuuluu.bind(report)(michal);
             zuuluu = tangon.bind(report)();
             michal = zuuluu.done;
-            if(michal) { _fun00018_ip = 90; continue _fun00017 }
+            if(michal) { _fun00016_ip = 90; continue _fun00015 }
  48:
             golfie = zuuluu.value;
             michal = _closure1_slot8;
             michal = michal.bind(report)(golfie);
-            if(!michal) { _fun00018_ip = 75; continue _fun00017 }
+            if(!michal) { _fun00016_ip = 75; continue _fun00015 }
  65:
             michal = entity.push;
             michal = michal.bind(entity)(golfie);
@@ -521,7 +471,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = tangon.bind(report)();
             michal = golfie.done;
             zuuluu = golfie;
-            if(!michal) { _fun00018_ip = 48; continue _fun00017 }
+            if(!michal) { _fun00016_ip = 48; continue _fun00015 }
  90:
             return entity;
  92:

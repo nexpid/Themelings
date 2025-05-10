@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = oscard.paths;
         tangon = option.bind(entity)(golfie, tangon);
  363:
-        tangon = 54;
+        tangon = 55;
         tangon = oscard[tangon];
         oscard = report.bind(entity)(tangon);
         report = oscard.fileFinishedImporting;
@@ -104,14 +104,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = function() { // Original name: App
             option = _closure1_slot1;
             verify = _closure1_slot2;
-            michal = 50;
-            michal = verify[michal];
+            zuuluu = 50;
+            zuuluu = verify[zuuluu];
             tangon = undefined;
-            michal = option.bind(tangon)(michal);
-            zuuluu = michal.renderApp;
-            michal = zuuluu.record;
-            michal = michal.bind(zuuluu)();
-            michal = function() { // Original name: useManagers
+            zuuluu = option.bind(tangon)(zuuluu);
+            report = zuuluu.renderApp;
+            zuuluu = report.record;
+            zuuluu = zuuluu.bind(report)();
+            oscard = _closure1_slot0;
+            zuuluu = 51;
+            zuuluu = verify[zuuluu];
+            golfie = oscard.bind(tangon)(zuuluu);
+            report = golfie.useRequestGatewaySocket;
+            zuuluu = 'App';
+            zuuluu = report.bind(golfie)(zuuluu);
+            zuuluu = function() { // Original name: useManagers
                 tangon = _closure1_slot3;
                 zuuluu = tangon.useEffect;
                 michal = function() {
@@ -402,8 +409,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = undefined;
                 return entity;
             };
-            michal = michal.bind(tangon)();
-            michal = function() { // Original name: useAuthenticated
+            zuuluu = zuuluu.bind(tangon)();
+            zuuluu = function() { // Original name: useAuthenticated
                 report = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 entity = 46;
@@ -510,10 +517,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = tangon.bind(report)(zuuluu, michal);
                 return entity;
             };
-            michal = michal.bind(tangon)();
-            report = _closure1_slot3;
-            zuuluu = report.useEffect;
-            michal = function() {
+            zuuluu = zuuluu.bind(tangon)();
+            golfie = _closure1_slot3;
+            report = golfie.useEffect;
+            zuuluu = function() {
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
                 entity = 50;
@@ -525,26 +532,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.bind(michal)();
                 return entity;
             };
-            entity = new Array(0);
-            entity = zuuluu.bind(report)(michal, entity);
+            michal = new Array(0);
+            michal = report.bind(golfie)(zuuluu, michal);
             zuuluu = _closure1_slot7;
-            report = 51;
+            report = 52;
             entity = verify[report];
             michal = option.bind(tangon)(entity);
             entity = {};
-            oscard = _closure1_slot0;
             report = verify[report];
             report = oscard.bind(tangon)(report);
             report = report.Profiles;
             report = report.App;
             entity['profile'] = report;
-            report = 52;
+            report = 53;
             report = verify[report];
             oscard = option.bind(tangon)(report);
             report = {};
             golfie = 'main';
             report['appEntryKey'] = golfie;
-            golfie = 53;
+            golfie = 54;
             golfie = verify[golfie];
             option = option.bind(tangon)(golfie);
             golfie = {};

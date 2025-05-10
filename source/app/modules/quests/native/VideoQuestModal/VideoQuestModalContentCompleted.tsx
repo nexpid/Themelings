@@ -553,20 +553,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = target.bind(tangon)(sizing);
             vacuum = sizing.Text;
             sizing = {'variant': 'heading-md/semibold', 'color': 'white'};
-            limora = status[ctrled];
-            limora = target.bind(tangon)(limora);
-            quebec = limora.intl;
-            equals = quebec.formatToPlainString;
-            limora = status[ctrled];
-            limora = target.bind(tangon)(limora);
-            limora = limora.t;
-            whisks = limora.EQa7oq;
-            limora = {};
-            variable36 = sequen.config;
-            variable36 = variable36.messages;
-            variable36 = variable36.questName;
-            limora['questName'] = variable36;
-            limora = equals.bind(quebec)(whisks, limora);
+            limora = sequen.config;
+            limora = limora.messages;
+            limora = limora.gameTitle;
             sizing['children'] = limora;
             vacuum = echoed.bind(tangon)(vacuum, sizing);
             sizing = new Array(2);
@@ -622,8 +611,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = new Array(3);
             verify[0] = romeon;
             yankee = yankee != cntext;
-            if(!yankee) { _fun00002_ip = 1900; continue _fun00001 }
- 1798:
+            if(!yankee) { _fun00002_ip = 1848; continue _fun00001 }
+ 1746:
             sizing = _closure1_slot6;
             kiloes = _closure1_slot0;
             papara = _closure1_slot2;
@@ -648,7 +637,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = sizing.bind(tangon)(echoed, result);
             romeon['children'] = result;
             yankee = sizing.bind(tangon)(kiloes, romeon);
- 1900:
+ 1848:
             verify[1] = yankee;
             romeon = _closure1_slot7;
             result = _closure1_slot0;

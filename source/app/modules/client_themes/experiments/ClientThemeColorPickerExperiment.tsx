@@ -1,4 +1,4 @@
-// app/modules/applications/message_embed/appEmbedsRedesignExperiment.tsx
+// app/modules/client_themes/experiments/ClientThemeColorPickerExperiment.tsx
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -20,14 +20,14 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal = oscard[michal];
     golfie = report.bind(entity)(michal);
     tangon = golfie.createExperiment;
-    michal = {'kind': 'user', 'id': '2024-12_app_embeds_redesign', 'label': 'App Embeds Redesign'};
+    michal = {'id': '2025-05_client_theme_color_picker', 'kind': 'user', 'label': 'Client Theme Color Picker'};
     verify = {};
     yankee = false;
     verify['enabled'] = yankee;
     michal['defaultConfig'] = verify;
     option = option.CONNECTION_OPEN;
     michal['commonTriggerPoint'] = option;
-    verify = {'id': 1, 'label': 'Enable'};
+    verify = {'id': 1, 'label': 'Enables setting client theme color picker'};
     option = {};
     option['enabled'] = offset;
     verify['config'] = option;
@@ -39,8 +39,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/applications/message_embed/appEmbedsRedesignExperiment.tsx';
+    tangon = 'modules/client_themes/experiments/ClientThemeColorPickerExperiment.tsx';
     tangon = report.bind(oscard)(tangon);
-    zuuluu['appEmbedsRedesign'] = michal;
+    zuuluu['ClientThemeColorPickerExperiment'] = michal;
     return entity;
 })();

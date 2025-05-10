@@ -472,13 +472,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[1] = oscard;
             option = verify != offset;
             oscard = null;
-            if(!option) { _fun00008_ip = 366; continue _fun00007 }
+            if(!option) { _fun00008_ip = 370; continue _fun00007 }
  290:
             romeon = offset.length;
             option = 0;
             option = romeon > option;
             oscard = null;
-            if(!option) { _fun00008_ip = 366; continue _fun00007 }
+            if(!option) { _fun00008_ip = 370; continue _fun00007 }
  306:
             verify = _closure1_slot15;
             option = _closure1_slot0;
@@ -492,7 +492,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['style'] = yankee;
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 366:
+ 370:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

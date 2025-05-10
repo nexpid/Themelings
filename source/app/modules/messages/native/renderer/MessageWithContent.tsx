@@ -277,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot8 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot9 = tangon;
-    tangon = 34;
+    tangon = 32;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -288,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             entity = argFoo;
             golfie = entity.row;
-            update = entity.messageContent;
+            echoed = entity.messageContent;
             option = _closure1_slot3;
             oscard = option.useContext;
             zuuluu = _closure1_slot0;
@@ -299,11 +299,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = zuuluu.bind(report)(tangon);
             tangon = tangon.RenderMessageOptionsContext;
             tangon = oscard.bind(option)(tangon);
-            sizing = tangon.renderCodedLinks;
-            output = tangon.renderGiftCode;
-            kiloes = tangon.renderActivityInstanceEmbed;
+            kiloes = tangon.renderCodedLinks;
+            sizing = tangon.renderGiftCode;
             foxtra = tangon.renderActivityInviteEmbed;
-            result = tangon.renderThreadEmbeds;
+            output = tangon.renderThreadEmbeds;
             offset = tangon.renderReplies;
             romeon = tangon.renderPolls;
             option = _closure1_slot3;
@@ -317,204 +316,168 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = zuuluu.bind(report)(entity);
             entity = entity.NestedMessageType;
             entity = entity.REPLIED_MESSAGE;
-            echoed = tangon === entity;
-            if(echoed) { _fun00004_ip = 195; continue _fun00003 }
- 162:
+            result = tangon === entity;
+            if(result) { _fun00004_ip = 189; continue _fun00003 }
+ 156:
             zuuluu = _closure1_slot0;
             entity = _closure1_slot2;
             entity = entity[verify];
             entity = zuuluu.bind(report)(entity);
             entity = entity.NestedMessageType;
             entity = entity.THREAD_EMBED;
-            echoed = tangon === entity;
- 195:
+            result = tangon === entity;
+ 189:
             backup = golfie.message;
             entity = golfie.canShowImages;
             yankee = report === entity;
-            if(yankee) { _fun00004_ip = 216; continue _fun00003 }
- 213:
+            if(yankee) { _fun00004_ip = 210; continue _fun00003 }
+ 207:
             yankee = entity;
- 216:
+ 210:
             entity = golfie.renderContentOnly;
-            ctrled = golfie.pushFeedbackType;
+            source = golfie.pushFeedbackType;
             option = _closure1_slot9;
             oscard = _closure1_slot0;
-            source = _closure1_slot2;
+            update = _closure1_slot2;
             zuuluu = 6;
-            zuuluu = source[zuuluu];
+            zuuluu = update[zuuluu];
             zuuluu = oscard.bind(report)(zuuluu);
             oscard = zuuluu.DataWithChildren;
             zuuluu = {};
-            source = 'message';
-            zuuluu['keyPath'] = source;
-            zuuluu['rowProps'] = update;
+            update = 'message';
+            zuuluu['keyPath'] = update;
+            zuuluu['rowProps'] = echoed;
             entity = !entity;
-            if(!entity) { _fun00004_ip = 283; continue _fun00003 }
- 280:
+            if(!entity) { _fun00004_ip = 277; continue _fun00003 }
+ 274:
             entity = offset;
- 283:
-            if(!entity) { _fun00004_ip = 327; continue _fun00003 }
- 286:
-            update = backup.type;
-            source = _closure1_slot0;
-            vacuum = _closure1_slot2;
+ 277:
+            if(!entity) { _fun00004_ip = 321; continue _fun00003 }
+ 280:
+            echoed = backup.type;
+            update = _closure1_slot0;
+            ctrled = _closure1_slot2;
             offset = 14;
-            offset = vacuum[offset];
-            offset = source.bind(report)(offset);
+            offset = ctrled[offset];
+            offset = update.bind(report)(offset);
             offset = offset.MessageTypes;
             offset = offset.REPLY;
-            entity = update === offset;
- 327:
-            if(!entity) { _fun00004_ip = 366; continue _fun00003 }
- 330:
-            source = _closure1_slot8;
-            update = _closure1_slot1;
-            vacuum = _closure1_slot2;
-            offset = 15;
-            offset = vacuum[offset];
-            update = update.bind(report)(offset);
-            offset = {};
-            offset['message'] = backup;
-            entity = source.bind(report)(update, offset);
- 366:
-            offset = new Array(17);
-            offset[0] = entity;
-            entity = !echoed;
-            if(echoed) { _fun00004_ip = 383; continue _fun00003 }
- 380:
-            entity = result;
- 383:
-            if(!entity) { _fun00004_ip = 407; continue _fun00003 }
- 386:
-            echoed = backup.hasFlag;
-            result = _closure1_slot7;
-            result = result.HAS_THREAD;
-            entity = echoed.bind(backup)(result);
- 407:
-            if(!entity) { _fun00004_ip = 446; continue _fun00003 }
- 410:
+            entity = echoed === offset;
+ 321:
+            if(!entity) { _fun00004_ip = 360; continue _fun00003 }
+ 324:
             update = _closure1_slot8;
             echoed = _closure1_slot1;
-            source = _closure1_slot2;
-            result = 16;
-            result = source[result];
+            ctrled = _closure1_slot2;
+            offset = 15;
+            offset = ctrled[offset];
+            echoed = echoed.bind(report)(offset);
+            offset = {};
+            offset['message'] = backup;
+            entity = update.bind(report)(echoed, offset);
+ 360:
+            offset = new Array(16);
+            offset[0] = entity;
+            entity = !result;
+            if(result) { _fun00004_ip = 377; continue _fun00003 }
+ 374:
+            entity = output;
+ 377:
+            if(!entity) { _fun00004_ip = 401; continue _fun00003 }
+ 380:
+            result = backup.hasFlag;
+            output = _closure1_slot7;
+            output = output.HAS_THREAD;
+            entity = result.bind(backup)(output);
+ 401:
+            if(!entity) { _fun00004_ip = 440; continue _fun00003 }
+ 404:
+            echoed = _closure1_slot8;
+            result = _closure1_slot1;
+            update = _closure1_slot2;
+            output = 16;
+            output = update[output];
+            result = result.bind(report)(output);
+            output = {};
+            output['message'] = backup;
+            entity = echoed.bind(report)(result, output);
+ 440:
+            offset[1] = entity;
+            entity = null;
+            output = entity != source;
+            if(!output) { _fun00004_ip = 494; continue _fun00003 }
+ 453:
+            update = _closure1_slot8;
+            echoed = _closure1_slot1;
+            ctrled = _closure1_slot2;
+            result = 17;
+            result = ctrled[result];
             echoed = echoed.bind(report)(result);
             result = {};
             result['message'] = backup;
-            entity = update.bind(report)(echoed, result);
- 446:
-            offset[1] = entity;
-            entity = null;
-            result = entity != ctrled;
-            if(!result) { _fun00004_ip = 500; continue _fun00003 }
- 459:
-            source = _closure1_slot8;
-            update = _closure1_slot1;
-            vacuum = _closure1_slot2;
-            echoed = 17;
-            echoed = vacuum[echoed];
-            update = update.bind(report)(echoed);
-            echoed = {};
-            echoed['message'] = backup;
-            echoed['pushFeedbackType'] = ctrled;
-            result = source.bind(report)(update, echoed);
- 500:
-            offset[2] = result;
-            echoed = backup.hasFlag;
-            result = _closure1_slot7;
-            result = result.EPHEMERAL;
-            result = echoed.bind(backup)(result);
-            if(!result) { _fun00004_ip = 564; continue _fun00003 }
- 528:
-            source = _closure1_slot8;
-            update = _closure1_slot1;
-            ctrled = _closure1_slot2;
-            echoed = 18;
-            echoed = ctrled[echoed];
-            update = update.bind(report)(echoed);
-            echoed = {};
-            echoed['message'] = backup;
-            result = source.bind(report)(update, echoed);
- 564:
-            offset[3] = result;
-            if(!output) { _fun00004_ip = 607; continue _fun00003 }
- 571:
+            result['pushFeedbackType'] = source;
+            output = update.bind(report)(echoed, result);
+ 494:
+            offset[2] = output;
+            result = backup.hasFlag;
+            output = _closure1_slot7;
+            output = output.EPHEMERAL;
+            output = result.bind(backup)(output);
+            if(!output) { _fun00004_ip = 558; continue _fun00003 }
+ 522:
             update = _closure1_slot8;
             echoed = _closure1_slot1;
             source = _closure1_slot2;
-            result = 19;
+            result = 18;
             result = source[result];
             echoed = echoed.bind(report)(result);
             result = {};
             result['message'] = backup;
             output = update.bind(report)(echoed, result);
- 607:
-            offset[4] = output;
-            if(!sizing) { _fun00004_ip = 650; continue _fun00003 }
- 614:
+ 558:
+            offset[3] = output;
+            if(!sizing) { _fun00004_ip = 601; continue _fun00003 }
+ 565:
             echoed = _closure1_slot8;
             result = _closure1_slot1;
             update = _closure1_slot2;
-            output = 20;
+            output = 19;
             output = update[output];
             result = result.bind(report)(output);
             output = {};
             output['message'] = backup;
             sizing = echoed.bind(report)(result, output);
- 650:
-            offset[5] = sizing;
-            if(!kiloes) { _fun00004_ip = 667; continue _fun00003 }
- 657:
-            sizing = backup.activityInstance;
-            kiloes = entity != sizing;
- 667:
-            if(!kiloes) { _fun00004_ip = 726; continue _fun00003 }
- 670:
-            sizing = backup.interaction;
-            result = entity == sizing;
-            output = undefined;
-            if(result) { _fun00004_ip = 690; continue _fun00003 }
- 685:
-            output = sizing.type;
- 690:
-            result = _closure1_slot0;
-            echoed = _closure1_slot2;
-            sizing = 21;
-            sizing = echoed[sizing];
-            sizing = result.bind(report)(sizing);
-            sizing = sizing.InteractionTypes;
-            sizing = sizing.APPLICATION_COMMAND;
-            kiloes = output === sizing;
- 726:
-            if(!kiloes) { _fun00004_ip = 765; continue _fun00003 }
- 729:
+ 601:
+            offset[4] = sizing;
+            if(!kiloes) { _fun00004_ip = 644; continue _fun00003 }
+ 608:
             result = _closure1_slot8;
             output = _closure1_slot1;
             echoed = _closure1_slot2;
-            sizing = 22;
+            sizing = 20;
             sizing = echoed[sizing];
             output = output.bind(report)(sizing);
             sizing = {};
             sizing['message'] = backup;
             kiloes = result.bind(report)(output, sizing);
- 765:
-            offset[6] = kiloes;
-            if(!foxtra) { _fun00004_ip = 782; continue _fun00003 }
- 772:
+ 644:
+            offset[5] = kiloes;
+            if(!foxtra) { _fun00004_ip = 661; continue _fun00003 }
+ 651:
             kiloes = backup.author;
             foxtra = entity != kiloes;
- 782:
-            if(!foxtra) { _fun00004_ip = 795; continue _fun00003 }
- 785:
+ 661:
+            if(!foxtra) { _fun00004_ip = 674; continue _fun00003 }
+ 664:
             kiloes = backup.activity;
             foxtra = entity != kiloes;
- 795:
-            if(!foxtra) { _fun00004_ip = 845; continue _fun00003 }
- 798:
+ 674:
+            if(!foxtra) { _fun00004_ip = 724; continue _fun00003 }
+ 677:
             output = _closure1_slot8;
             sizing = _closure1_slot1;
             result = _closure1_slot2;
-            kiloes = 23;
+            kiloes = 21;
             kiloes = result[kiloes];
             sizing = sizing.bind(report)(kiloes);
             kiloes = {};
@@ -522,42 +485,42 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = backup.activity;
             kiloes['activity'] = result;
             foxtra = output.bind(report)(sizing, kiloes);
- 845:
-            offset[7] = foxtra;
+ 724:
+            offset[6] = foxtra;
             result = _closure1_slot8;
             kiloes = _closure1_slot1;
             output = _closure1_slot2;
-            foxtra = 24;
+            foxtra = 22;
             foxtra = output[foxtra];
             sizing = kiloes.bind(report)(foxtra);
             foxtra = {};
             foxtra['message'] = backup;
             foxtra = result.bind(report)(sizing, foxtra);
-            offset[8] = foxtra;
+            offset[7] = foxtra;
             sizing = _closure1_slot8;
-            foxtra = 25;
+            foxtra = 23;
             foxtra = output[foxtra];
             kiloes = kiloes.bind(report)(foxtra);
             foxtra = {};
             foxtra['message'] = backup;
             foxtra = sizing.bind(report)(kiloes, foxtra);
-            offset[9] = foxtra;
+            offset[8] = foxtra;
             kiloes = backup.id;
             foxtra = backup.channel_id;
             foxtra = kiloes === foxtra;
-            if(!foxtra) { _fun00004_ip = 974; continue _fun00003 }
- 938:
+            if(!foxtra) { _fun00004_ip = 853; continue _fun00003 }
+ 817:
             output = _closure1_slot8;
             sizing = _closure1_slot1;
             result = _closure1_slot2;
-            kiloes = 26;
+            kiloes = 24;
             kiloes = result[kiloes];
             sizing = sizing.bind(report)(kiloes);
             kiloes = {};
             kiloes['message'] = backup;
             foxtra = output.bind(report)(sizing, kiloes);
- 974:
-            offset[10] = foxtra;
+ 853:
+            offset[9] = foxtra;
             sizing = backup.type;
             output = _closure1_slot0;
             foxtra = _closure1_slot2;
@@ -567,61 +530,61 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.MessageTypes;
             foxtra = foxtra.PREMIUM_REFERRAL;
             foxtra = sizing === foxtra;
-            if(!foxtra) { _fun00004_ip = 1058; continue _fun00003 }
- 1022:
+            if(!foxtra) { _fun00004_ip = 937; continue _fun00003 }
+ 901:
             result = _closure1_slot8;
             output = _closure1_slot1;
             echoed = _closure1_slot2;
-            sizing = 27;
+            sizing = 25;
             sizing = echoed[sizing];
             output = output.bind(report)(sizing);
             sizing = {};
             sizing['message'] = backup;
             foxtra = result.bind(report)(output, sizing);
- 1058:
-            offset[11] = foxtra;
-            if(!yankee) { _fun00004_ip = 1101; continue _fun00003 }
- 1065:
+ 937:
+            offset[10] = foxtra;
+            if(!yankee) { _fun00004_ip = 980; continue _fun00003 }
+ 944:
             output = _closure1_slot8;
             sizing = _closure1_slot1;
             result = _closure1_slot2;
-            foxtra = 28;
+            foxtra = 26;
             foxtra = result[foxtra];
             sizing = sizing.bind(report)(foxtra);
             foxtra = {};
             foxtra['message'] = backup;
             yankee = output.bind(report)(sizing, foxtra);
- 1101:
-            offset[12] = yankee;
+ 980:
+            offset[11] = yankee;
             sizing = _closure1_slot8;
             foxtra = _closure1_slot1;
             output = _closure1_slot2;
-            yankee = 29;
+            yankee = 27;
             yankee = output[yankee];
             foxtra = foxtra.bind(report)(yankee);
             yankee = {};
             yankee['message'] = backup;
             yankee = sizing.bind(report)(foxtra, yankee);
-            offset[13] = yankee;
+            offset[12] = yankee;
             yankee = backup.isPoll;
             foxtra = yankee.bind(backup)();
             yankee = null;
-            if(!foxtra) { _fun00004_ip = 1201; continue _fun00003 }
- 1160:
+            if(!foxtra) { _fun00004_ip = 1080; continue _fun00003 }
+ 1039:
             yankee = null;
-            if(!romeon) { _fun00004_ip = 1201; continue _fun00003 }
- 1165:
+            if(!romeon) { _fun00004_ip = 1080; continue _fun00003 }
+ 1044:
             sizing = _closure1_slot8;
             foxtra = _closure1_slot1;
             output = _closure1_slot2;
-            romeon = 30;
+            romeon = 28;
             romeon = output[romeon];
             foxtra = foxtra.bind(report)(romeon);
             romeon = {};
             romeon['message'] = backup;
             yankee = sizing.bind(report)(foxtra, romeon);
- 1201:
-            offset[14] = yankee;
+ 1080:
+            offset[13] = yankee;
             foxtra = backup.type;
             romeon = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -630,34 +593,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = yankee.MessageTypes;
             romeon = yankee.VOICE_HANGOUT_INVITE;
             yankee = null;
-            if(!(foxtra === romeon)) { _fun00004_ip = 1281; continue _fun00003 }
- 1245:
+            if(!(foxtra === romeon)) { _fun00004_ip = 1160; continue _fun00003 }
+ 1124:
             kiloes = _closure1_slot8;
             foxtra = _closure1_slot1;
             sizing = _closure1_slot2;
-            romeon = 31;
+            romeon = 29;
             romeon = sizing[romeon];
             foxtra = foxtra.bind(report)(romeon);
             romeon = {};
             romeon['message'] = backup;
             yankee = kiloes.bind(report)(foxtra, romeon);
- 1281:
-            offset[15] = yankee;
+ 1160:
+            offset[14] = yankee;
             foxtra = _closure1_slot8;
             romeon = _closure1_slot1;
             kiloes = _closure1_slot2;
-            yankee = 32;
+            yankee = 30;
             yankee = kiloes[yankee];
             romeon = romeon.bind(report)(yankee);
             yankee = {};
             yankee['message'] = backup;
             yankee = foxtra.bind(report)(romeon, yankee);
-            offset[16] = yankee;
+            offset[15] = yankee;
             zuuluu['children'] = offset;
             oscard = option.bind(report)(oscard, zuuluu);
             zuuluu = entity != tangon;
-            if(!zuuluu) { _fun00004_ip = 1375; continue _fun00003 }
- 1342:
+            if(!zuuluu) { _fun00004_ip = 1254; continue _fun00003 }
+ 1221:
             option = _closure1_slot0;
             entity = _closure1_slot2;
             entity = entity[verify];
@@ -665,17 +628,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.NestedMessageType;
             entity = entity.BLOCKED_MESSAGE;
             zuuluu = tangon !== entity;
- 1375:
+ 1254:
             entity = oscard;
-            if(zuuluu) { _fun00004_ip = 1406; continue _fun00003 }
- 1381:
+            if(zuuluu) { _fun00004_ip = 1285; continue _fun00003 }
+ 1260:
             tangon = _closure1_slot8;
             zuuluu = _closure1_slot11;
             michal = {};
             michal['row'] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1406:
+ 1285:
             return entity;
         }
     };
@@ -725,7 +688,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['type'] = output;
             update = _closure1_slot1;
             output = _closure1_slot2;
-            echoed = 33;
+            echoed = 31;
             echoed = output[echoed];
             update = update.bind(oscard)(echoed);
             echoed = {};

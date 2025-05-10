@@ -10,79 +10,111 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) { // Original name: roundFPCountdownUnits
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zuuluu = argFoo;
-            entity = zuuluu.days;
+            zuuluu = {};
+            golfie = argFoo;
+            option = zuuluu;
+            entity = copyDataProperties(option, golfie);
+            entity = zuuluu.seconds;
             tangon = 0;
-            if(!(!(entity > tangon))) { _fun00002_ip = 206; continue _fun00001 }
- 18:
+            if(!(entity > tangon)) { _fun00002_ip = 49; continue _fun00001 }
+ 24:
+            michal = zuuluu.minutes;
+            entity = 1;
+            entity = michal + entity;
+            zuuluu['minutes'] = entity;
+            zuuluu['seconds'] = tangon;
+ 49:
+            michal = zuuluu.minutes;
+            entity = 60;
+            if(!(entity === michal)) { _fun00002_ip = 87; continue _fun00001 }
+ 62:
+            michal = zuuluu.hours;
+            entity = 1;
+            entity = michal + entity;
+            zuuluu['hours'] = entity;
+            zuuluu['minutes'] = tangon;
+ 87:
+            michal = zuuluu.hours;
+            entity = 24;
+            if(!(entity === michal)) { _fun00002_ip = 125; continue _fun00001 }
+ 100:
+            michal = zuuluu.days;
+            entity = 1;
+            entity = michal + entity;
+            zuuluu['days'] = entity;
+            zuuluu['hours'] = tangon;
+ 125:
+            entity = zuuluu.days;
+            if(!(!(entity > tangon))) { _fun00002_ip = 326; continue _fun00001 }
+ 138:
             entity = zuuluu.hours;
-            if(!(!(entity > tangon))) { _fun00002_ip = 127; continue _fun00001 }
- 28:
+            if(!(!(entity > tangon))) { _fun00002_ip = 247; continue _fun00001 }
+ 148:
             entity = zuuluu.minutes;
-            if(!(!(entity > tangon))) { _fun00002_ip = 67; continue _fun00001 }
- 38:
+            if(!(!(entity > tangon))) { _fun00002_ip = 187; continue _fun00001 }
+ 158:
             michal = zuuluu.seconds;
             entity = zuuluu;
-            if(!(michal > tangon)) { _fun00002_ip = 65; continue _fun00001 }
- 51:
+            if(!(michal > tangon)) { _fun00002_ip = 185; continue _fun00001 }
+ 171:
             entity = {'days': 0, 'hours': 0, 'minutes': 1, 'seconds': 0};
- 65:
+ 185:
             return entity;
- 67:
+ 187:
             michal = zuuluu.minutes;
             entity = 45;
             entity = michal > entity;
             oscard = 0;
-            if(!entity) { _fun00002_ip = 88; continue _fun00001 }
- 85:
+            if(!entity) { _fun00002_ip = 208; continue _fun00001 }
+ 205:
             oscard = 1;
- 88:
+ 208:
             entity = {};
             entity['days'] = tangon;
             entity['hours'] = oscard;
             report = 1;
             michal = 0;
-            if(!(report !== oscard)) { _fun00002_ip = 115; continue _fun00001 }
- 109:
+            if(!(report !== oscard)) { _fun00002_ip = 235; continue _fun00001 }
+ 229:
             michal = zuuluu.minutes;
- 115:
+ 235:
             entity['minutes'] = michal;
             entity['seconds'] = tangon;
             return entity;
- 127:
+ 247:
             michal = zuuluu.minutes;
             entity = 45;
-            if(!(!(michal > entity))) { _fun00002_ip = 148; continue _fun00001 }
- 140:
+            if(!(!(michal > entity))) { _fun00002_ip = 268; continue _fun00001 }
+ 260:
             michal = zuuluu.hours;
-            _fun00002_ip = 161; continue _fun00001;
- 148:
+            _fun00002_ip = 281; continue _fun00001;
+ 268:
             report = zuuluu.hours;
             entity = 1;
             michal = report + entity;
- 161:
+ 281:
             entity = 11;
-            if(!(!(michal > entity))) { _fun00002_ip = 190; continue _fun00001 }
- 168:
+            if(!(!(michal > entity))) { _fun00002_ip = 310; continue _fun00001 }
+ 288:
             entity = {'days': 0, 'hours': null, 'minutes': 0, 'seconds': 0};
             entity['hours'] = michal;
-            _fun00002_ip = 204; continue _fun00001;
- 190:
+            _fun00002_ip = 324; continue _fun00001;
+ 310:
             entity = {'days': 1, 'hours': 0, 'minutes': 0, 'seconds': 0};
- 204:
+ 324:
             return entity;
- 206:
+ 326:
             entity = {'days': null, 'hours': 0, 'minutes': 0, 'seconds': 0};
             michal = zuuluu.hours;
-            if(!(!(michal > tangon))) { _fun00002_ip = 238; continue _fun00001 }
- 230:
+            if(!(!(michal > tangon))) { _fun00002_ip = 358; continue _fun00001 }
+ 350:
             michal = zuuluu.days;
-            _fun00002_ip = 251; continue _fun00001;
- 238:
+            _fun00002_ip = 371; continue _fun00001;
+ 358:
             tangon = zuuluu.days;
             zuuluu = 1;
             michal = tangon + zuuluu;
- 251:
+ 371:
             entity['days'] = michal;
             return entity;
         }

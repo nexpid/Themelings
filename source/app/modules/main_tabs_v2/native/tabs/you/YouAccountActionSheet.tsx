@@ -1003,18 +1003,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.useCustomStatusActivity;
             verify = entity.bind(michal)();
             yankee = null;
-            offset = yankee != verify;
-            if(!offset) { _fun00018_ip = 63; continue _fun00017 }
- 54:
+            michal = yankee == verify;
+            entity = undefined;
+            if(michal) { _fun00018_ip = 61; continue _fun00017 }
+ 56:
             entity = verify.state;
+ 61:
             offset = yankee != entity;
- 63:
-            if(!offset) { _fun00018_ip = 79; continue _fun00017 }
- 66:
+            if(!offset) { _fun00018_ip = 81; continue _fun00017 }
+ 68:
             michal = verify.state;
             entity = '';
             offset = entity !== michal;
- 79:
+ 81:
+            michal = yankee == verify;
+            entity = undefined;
+            if(michal) { _fun00018_ip = 96; continue _fun00017 }
+ 90:
+            entity = verify.emoji;
+ 96:
+            entity = yankee != entity;
+            if(offset) { _fun00018_ip = 106; continue _fun00017 }
+ 103:
+            offset = entity;
+ 106:
             zuuluu = _closure1_slot17;
             oscard = _closure1_slot0;
             romeon = _closure1_slot3;
@@ -1039,19 +1051,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = romeon[foxtra];
             romeon = backup.bind(tangon)(romeon);
             backup = romeon.t;
-            if(offset) { _fun00018_ip = 195; continue _fun00017 }
- 182:
+            if(offset) { _fun00018_ip = 222; continue _fun00017 }
+ 209:
             romeon = backup./UonHB;
             romeon = kiloes.bind(output)(romeon);
-            _fun00018_ip = 208; continue _fun00017;
- 195:
+            _fun00018_ip = 235; continue _fun00017;
+ 222:
             backup = backup.2p9FMz;
             romeon = kiloes.bind(output)(backup);
- 208:
+ 235:
             report['accessibilityLabel'] = romeon;
             romeon = undefined;
-            if(!offset) { _fun00018_ip = 322; continue _fun00017 }
- 217:
+            if(!offset) { _fun00018_ip = 349; continue _fun00017 }
+ 244:
             kiloes = _closure1_slot0;
             backup = _closure1_slot3;
             output = backup[foxtra];
@@ -1066,21 +1078,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = verify.emoji;
             ctrled = yankee == update;
             source = undefined;
-            if(ctrled) { _fun00018_ip = 288; continue _fun00017 }
- 283:
+            if(ctrled) { _fun00018_ip = 315; continue _fun00017 }
+ 310:
             source = update.name;
- 288:
+ 315:
             ctrled = yankee != source;
             update = '';
-            if(!ctrled) { _fun00018_ip = 302; continue _fun00017 }
- 299:
+            if(!ctrled) { _fun00018_ip = 329; continue _fun00017 }
+ 326:
             update = source;
- 302:
+ 329:
             backup['emoji'] = update;
             update = verify.state;
             backup['status'] = update;
             romeon = output.bind(result)(kiloes, backup);
- 322:
+ 349:
             report['accessibilityHint'] = romeon;
             kiloes = _closure1_slot17;
             backup = _closure1_slot1;
@@ -1091,10 +1103,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = {'emoji': null, 'size': 32, 'withPlaceholder': true};
             result = yankee == verify;
             output = undefined;
-            if(result) { _fun00018_ip = 380; continue _fun00017 }
- 374:
+            if(result) { _fun00018_ip = 407; continue _fun00017 }
+ 401:
             output = verify.emoji;
- 380:
+ 407:
             romeon['emoji'] = output;
             romeon = kiloes.bind(tangon)(backup, romeon);
             report['icon'] = romeon;
@@ -1128,8 +1140,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['onPress'] = romeon;
             romeon = yankee != verify;
             yankee = null;
-            if(!romeon) { _fun00018_ip = 523; continue _fun00017 }
- 416:
+            if(!romeon) { _fun00018_ip = 550; continue _fun00017 }
+ 443:
             kiloes = _closure1_slot17;
             backup = _closure1_slot0;
             source = _closure1_slot3;
@@ -1167,10 +1179,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = result.bind(tangon)(output, sizing);
             romeon['children'] = sizing;
             yankee = kiloes.bind(tangon)(backup, romeon);
- 523:
+ 550:
             report['trailing'] = yankee;
-            if(offset) { _fun00018_ip = 585; continue _fun00017 }
- 531:
+            if(offset) { _fun00018_ip = 612; continue _fun00017 }
+ 558:
             romeon = _closure1_slot0;
             option = _closure1_slot3;
             offset = option[foxtra];
@@ -1182,10 +1194,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.t;
             option = option./UonHB;
             option = offset.bind(yankee)(option);
-            _fun00018_ip = 590; continue _fun00017;
- 585:
+            _fun00018_ip = 617; continue _fun00017;
+ 612:
             option = verify.state;
- 590:
+ 617:
             report['label'] = option;
             report = golfie.bind(tangon)(oscard, report);
             entity['children'] = report;

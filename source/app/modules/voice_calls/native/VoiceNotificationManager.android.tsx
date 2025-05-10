@@ -259,10 +259,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  122:
                     michal = _closure3_slot0;
                     michal = michal.isStreaming;
-                    if(!(michal !== golfie)) { _fun00008_ip = 1055; continue _fun00007 }
+                    if(!(michal !== golfie)) { _fun00008_ip = 1062; continue _fun00007 }
  139:
                     zuuluu = null;
-                    if(!(zuuluu != option)) { _fun00008_ip = 1055; continue _fun00007 }
+                    if(!(zuuluu != option)) { _fun00008_ip = 1062; continue _fun00007 }
  148:
                     michal = _closure3_slot0;
                     michal = michal.channelId;
@@ -364,7 +364,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  483:
                     oscard = zuuluu != backup;
                     tangon = null;
-                    if(!oscard) { _fun00008_ip = 966; continue _fun00007 }
+                    if(!oscard) { _fun00008_ip = 973; continue _fun00007 }
  495:
                     oscard = {};
                     output = _closure1_slot0;
@@ -472,10 +472,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     golfie = option.SCREEN_SHARE;
  959:
                     oscard['type'] = golfie;
+                    golfie = true;
+                    oscard['usesGateway'] = golfie;
                     tangon = oscard;
- 966:
-                    if(!(zuuluu == tangon)) { _fun00008_ip = 1013; continue _fun00007 }
- 970:
+ 973:
+                    if(!(zuuluu == tangon)) { _fun00008_ip = 1020; continue _fun00007 }
+ 977:
                     oscard = _closure1_slot1;
                     golfie = _closure1_slot2;
                     zuuluu = 15;
@@ -485,8 +487,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     zuuluu = _closure3_slot0;
                     zuuluu = zuuluu.voiceServiceHandlerId;
                     zuuluu = oscard.bind(golfie)(zuuluu);
-                    _fun00008_ip = 1055; continue _fun00007;
- 1013:
+                    _fun00008_ip = 1062; continue _fun00007;
+ 1020:
                     zuuluu = _closure1_slot1;
                     oscard = _closure1_slot2;
                     michal = 15;
@@ -496,7 +498,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     entity = _closure3_slot0;
                     entity = entity.voiceServiceHandlerId;
                     entity = michal.bind(zuuluu)(entity, tangon);
- 1055:
+ 1062:
                     entity = undefined;
                     return entity;
                 }

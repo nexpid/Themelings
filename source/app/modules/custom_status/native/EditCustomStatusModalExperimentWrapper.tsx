@@ -25,11 +25,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
     var _closure1_slot3 = tangon;
-    tangon = function(argFoo, argBar) { // Original name: getScreens
+    tangon = function(argFoo, argBar, argBaz) { // Original name: getScreens
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argBar;
             var _closure2_slot0 = entity;
+            entity = argBaz;
+            var _closure2_slot1 = entity;
             michal = {};
             zuuluu = {};
             golfie = _closure1_slot0;
@@ -44,8 +46,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = golfie.bind(verify)(entity);
             oscard = entity.t;
             entity = argFoo;
-            if(entity) { _fun00002_ip = 163; continue _fun00001 }
- 68:
+            if(entity) { _fun00002_ip = 170; continue _fun00001 }
+ 75:
             entity = oscard.PwknJC;
             entity = option.bind(yankee)(entity);
             zuuluu['title'] = entity;
@@ -109,8 +111,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['render'] = entity;
             michal['root'] = zuuluu;
             entity = michal;
-            _fun00002_ip = 256; continue _fun00001;
- 163:
+            _fun00002_ip = 263; continue _fun00001;
+ 170:
             oscard = oscard.Iuzg8f;
             oscard = option.bind(yankee)(oscard);
             zuuluu['title'] = oscard;
@@ -166,15 +168,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = oscard.bind(zuuluu)(report);
                 report = report.pop;
                 entity['onClose'] = report;
-                report = _closure2_slot0;
-                entity['analyticsLocations'] = report;
+                oscard = _closure2_slot0;
+                entity['analyticsLocations'] = oscard;
+                report = _closure2_slot1;
+                entity['prompt'] = report;
                 entity = tangon.bind(zuuluu)(michal, entity);
                 return entity;
             };
             zuuluu['render'] = tangon;
             michal['root'] = zuuluu;
             entity = michal;
- 256:
+ 263:
             return entity;
         }
     };
@@ -187,28 +191,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: EditCustomStatusModalExperimentWrapper
         entity = argFoo;
-        verify = entity.location;
-        golfie = entity.analyticsLocations;
+        offset = entity.location;
+        option = entity.analyticsLocations;
+        golfie = entity.prompt;
         michal = _closure1_slot0;
-        option = _closure1_slot2;
+        verify = _closure1_slot2;
         entity = 8;
-        entity = option[entity];
+        entity = verify[entity];
         tangon = undefined;
         oscard = michal.bind(tangon)(entity);
         zuuluu = oscard.useIsEligibleForCustomStatusEditPreviewMobileExperiment;
         entity = {};
-        entity['location'] = verify;
+        entity['location'] = offset;
         oscard = zuuluu.bind(oscard)(entity);
         zuuluu = _closure1_slot3;
         entity = 9;
-        entity = option[entity];
+        entity = verify[entity];
         entity = michal.bind(tangon)(entity);
         michal = entity.Navigator;
         entity = {};
-        option = 'root';
-        entity['initialRouteName'] = option;
+        verify = 'root';
+        entity['initialRouteName'] = verify;
         report = _closure1_slot4;
-        report = report.bind(tangon)(oscard, golfie);
+        report = report.bind(tangon)(oscard, option, golfie);
         entity['screens'] = report;
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;

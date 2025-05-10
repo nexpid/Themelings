@@ -40,13 +40,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot17 = michal;
+            _closure1_slot16 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot17 = entity;
+    var _closure1_slot16 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -55,8 +55,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal['value'] = entity;
     entity = '__esModule';
     entity = option.bind(verify)(zuuluu, entity, michal);
-    yankee = 0;
-    michal = oscard[yankee];
+    offset = 0;
+    michal = oscard[offset];
     entity = undefined;
     michal = golfie.bind(entity)(michal);
     var _closure1_slot3 = michal;
@@ -79,37 +79,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = 5;
     michal = oscard[michal];
     michal = report.bind(entity)(michal);
-    verify = michal.AppLauncherRouteName;
-    var _closure1_slot8 = verify;
+    option = michal.AppLauncherRouteName;
+    var _closure1_slot8 = option;
     michal = 6;
     michal = oscard[michal];
     michal = report.bind(entity)(michal);
-    option = michal.ExpressionPickerOrder;
-    var _closure1_slot9 = option;
-    michal = 7;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    offset = michal.MediaKeyboardTarget;
-    var _closure1_slot10 = yankee;
-    michal = false;
-    var _closure1_slot11 = michal;
-    romeon = 8;
-    romeon = oscard[romeon];
-    romeon = report.bind(entity)(romeon);
-    romeon = romeon.KeyboardTypes;
-    romeon = romeon.SYSTEM;
-    var _closure1_slot12 = romeon;
-    option = option[yankee];
-    var _closure1_slot13 = option;
-    option = {};
-    offset = offset.CHAT;
-    option['target'] = offset;
-    var _closure1_slot14 = option;
-    option = {};
-    verify = verify.HOME;
-    option['initialRouteName'] = verify;
-    var _closure1_slot15 = option;
-    var _closure1_slot16 = michal;
+    michal = michal.ExpressionPickerOrder;
+    var _closure1_slot9 = michal;
+    verify = 7;
+    verify = oscard[verify];
+    verify = report.bind(entity)(verify);
+    verify = verify.MediaKeyboardTarget;
+    var _closure1_slot10 = offset;
+    yankee = false;
+    var _closure1_slot11 = yankee;
+    yankee = 8;
+    yankee = oscard[yankee];
+    yankee = report.bind(entity)(yankee);
+    yankee = yankee.KeyboardTypes;
+    yankee = yankee.SYSTEM;
+    var _closure1_slot12 = yankee;
+    michal = michal[offset];
+    var _closure1_slot13 = michal;
+    michal = {};
+    verify = verify.CHAT;
+    michal['target'] = verify;
+    var _closure1_slot14 = michal;
+    michal = {};
+    option = option.HOME;
+    michal['initialRouteName'] = option;
+    var _closure1_slot15 = michal;
     michal = 10;
     michal = oscard[michal];
     michal = golfie.bind(entity)(michal);
@@ -127,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = _closure1_slot6;
                 verify = entity.bind(zuuluu)(michal);
                 michal = _closure1_slot5;
-                entity = _closure1_slot17;
+                entity = _closure1_slot16;
                 entity = entity.bind(zuuluu)();
                 if(entity) { _fun00004_ip = 69; continue _fun00003 }
  51:
@@ -182,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = entity;
-        entity = new Array(10);
+        entity = new Array(9);
         entity[0] = report;
         report = {};
         golfie = 'getUserAgnosticState';
@@ -252,21 +251,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = {};
         golfie = 'appLauncherKeyboardParams';
         report['key'] = golfie;
-        golfie = function() { // Original name: get
+        oscard = function() { // Original name: get
             entity = _closure1_slot15;
             return entity;
         };
-        report['get'] = golfie;
-        entity[8] = report;
-        report = {};
-        golfie = 'systemKeyboardWillOpen';
-        report['key'] = golfie;
-        oscard = function() { // Original name: get
-            entity = _closure1_slot16;
-            return entity;
-        };
         report['get'] = oscard;
-        entity[9] = report;
+        entity[8] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -276,24 +266,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option['persistKey'] = michal;
     michal = 11;
     michal = oscard[michal];
-    kiloes = golfie.bind(entity)(michal);
+    backup = golfie.bind(entity)(michal);
     michal = {};
     verify = function(argFoo) { // Original name: handleKeyboardChange
-        michal = argFoo;
-        entity = michal.height;
-        report = michal.open;
-        _closure1_slot10 = entity;
-        _closure1_slot11 = report;
-        tangon = _closure1_slot1;
+        entity = argFoo;
+        michal = entity.height;
+        tangon = entity.open;
+        _closure1_slot10 = michal;
+        _closure1_slot11 = tangon;
+        zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
         entity = 9;
         michal = michal[entity];
         entity = undefined;
-        tangon = tangon.bind(entity)(michal);
-        michal = tangon.onKeyboardChanged;
-        michal = michal.bind(tangon)(report);
-        michal = false;
-        _closure1_slot16 = michal;
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.onKeyboardChanged;
+        michal = michal.bind(zuuluu)(tangon);
         return entity;
     };
     michal['KEYBOARD_CHANGE'] = verify;
@@ -311,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = oscard.bind(entity)(tangon);
             tangon = tangon.KeyboardTypes;
             tangon = tangon.EXPRESSION;
-            if(!(report !== tangon)) { _fun00008_ip = 261; continue _fun00007 }
+            if(!(report !== tangon)) { _fun00008_ip = 182; continue _fun00007 }
  58:
             report = michal.type;
             oscard = _closure1_slot0;
@@ -320,8 +308,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = oscard.bind(entity)(tangon);
             tangon = tangon.KeyboardTypes;
             tangon = tangon.MEDIA;
-            if(!(report !== tangon)) { _fun00008_ip = 250; continue _fun00007 }
- 99:
+            if(!(report !== tangon)) { _fun00008_ip = 171; continue _fun00007 }
+ 96:
             report = michal.type;
             oscard = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -329,58 +317,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = oscard.bind(entity)(tangon);
             tangon = tangon.KeyboardTypes;
             tangon = tangon.APP_LAUNCHER;
-            if(!(report !== tangon)) { _fun00008_ip = 213; continue _fun00007 }
- 137:
-            report = michal.type;
-            oscard = _closure1_slot0;
-            tangon = _closure1_slot2;
-            tangon = tangon[golfie];
-            tangon = oscard.bind(entity)(tangon);
-            tangon = tangon.KeyboardTypes;
-            tangon = tangon.SYSTEM;
-            if(!(report === tangon)) { _fun00008_ip = 280; continue _fun00007 }
- 175:
-            oscard = michal.context;
-            tangon = null;
-            golfie = tangon == oscard;
-            report = undefined;
-            if(golfie) { _fun00008_ip = 197; continue _fun00007 }
- 191:
-            report = oscard.keyboardWillOpen;
- 197:
-            tangon = tangon != report;
-            if(!tangon) { _fun00008_ip = 207; continue _fun00007 }
- 204:
-            tangon = report;
- 207:
-            _closure1_slot16 = tangon;
-            _fun00008_ip = 280; continue _fun00007;
- 213:
+            if(!(report === tangon)) { _fun00008_ip = 201; continue _fun00007 }
+ 134:
             tangon = michal.context;
             report = null;
-            if(!(report == tangon)) { _fun00008_ip = 244; continue _fun00007 }
- 224:
+            if(!(report == tangon)) { _fun00008_ip = 165; continue _fun00007 }
+ 145:
             report = {};
             oscard = _closure1_slot8;
             oscard = oscard.HOME;
             report['initialRouteName'] = oscard;
             tangon = report;
- 244:
+ 165:
             _closure1_slot15 = tangon;
-            _fun00008_ip = 280; continue _fun00007;
- 250:
+            _fun00008_ip = 201; continue _fun00007;
+ 171:
             tangon = michal.context;
             _closure1_slot14 = tangon;
-            _fun00008_ip = 280; continue _fun00007;
- 261:
+            _fun00008_ip = 201; continue _fun00007;
+ 182:
             tangon = michal.context;
             report = null;
-            if(!(report == tangon)) { _fun00008_ip = 276; continue _fun00007 }
- 272:
+            if(!(report == tangon)) { _fun00008_ip = 197; continue _fun00007 }
+ 193:
             tangon = _closure1_slot13;
- 276:
+ 197:
             _closure1_slot13 = tangon;
- 280:
+ 201:
             michal = michal.type;
             _closure1_slot12 = michal;
             return entity;
@@ -389,9 +352,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal['KEYBOARD_TOGGLE'] = tangon;
     tangon = option.prototype;
     tangon = Object.create(tangon, {constructor: {value: option}});
-    sizing = tangon;
-    backup = michal;
-    michal = new sizing[option](kiloes, backup, foxtra);
+    kiloes = tangon;
+    foxtra = michal;
+    michal = new kiloes[option](backup, foxtra, romeon);
     michal = michal instanceof Object ? michal : tangon;
     tangon = 12;
     tangon = oscard[tangon];
