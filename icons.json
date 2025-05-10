@@ -2508,16 +2508,6 @@
         "width": 221,
         "height": 195
     },
-    "discovery_20px": {
-        "file": "images/native/icons/discovery_20px.png",
-        "hash": "cabb1a0439569bcf3352dc60ad830a69",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 20,
-        "height": 20
-    },
     "discriminator": {
         "file": "modules/pomelo/images/discriminator.png",
         "hash": "c40b39559639db50c15042a79caddd47",
