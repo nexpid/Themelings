@@ -4636,7 +4636,7 @@
 { "file": "app/modules/presence_subscriptions/PresenceSubscriptionsActionCreators.tsx", "size": 1315 }
 { "file": "app/modules/interaction_components/content_inventory_entry/native/useLoadMessageContentEntries.tsx", "size": 55922 }
 { "file": "app/modules/app_startup/StartupProfiler.tsx", "size": 6141 }
-{ "file": "app/modules/chat_input/native/ChatInput.tsx", "size": 105508 }
+{ "file": "app/modules/chat_input/native/ChatInput.tsx", "size": 105901 }
 { "file": "app/modules/voice_messages/native/VoiceMessagesUIStore.tsx", "size": 14971 }
 { "file": "app/modules/voice_messages/VoiceMessageConstants.tsx", "size": 1799 }
 { "file": "app/modules/chat_input/native/ChatInputConstants.tsx", "size": 2886 }

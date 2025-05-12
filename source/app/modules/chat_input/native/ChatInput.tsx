@@ -1731,28 +1731,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = argBar;
                         michal = zuuluu.length;
                         tangon = 0;
-                        if(!(michal > tangon)) { _fun00042_ip = 20; continue _fun00041 }
+                        if(!(michal > tangon)) { _fun00042_ip = 57; continue _fun00041 }
  17:
-                        if(entity) { _fun00042_ip = 69; continue _fun00041 }
+                        if(entity) { _fun00042_ip = 106; continue _fun00041 }
  20:
+                        report = zuuluu.length;
+                        michal = _closure2_slot6;
+                        michal = michal.state;
+                        michal = michal.current;
+                        michal = michal.textPrev;
+                        michal = michal.length;
+                        if(!(!(report > michal))) { _fun00042_ip = 106; continue _fun00041 }
+ 57:
                         michal = zuuluu.length;
-                        if(!(tangon === michal)) { _fun00042_ip = 156; continue _fun00041 }
- 32:
+                        if(!(tangon === michal)) { _fun00042_ip = 193; continue _fun00041 }
+ 69:
                         michal = _closure2_slot6;
                         michal = michal.chatInputActions;
                         tangon = michal.current;
                         michal = null;
-                        if(!(michal != tangon)) { _fun00042_ip = 156; continue _fun00041 }
- 56:
+                        if(!(michal != tangon)) { _fun00042_ip = 193; continue _fun00041 }
+ 93:
                         michal = tangon.onShowActions;
                         michal = michal.bind(tangon)(entity);
-                        _fun00042_ip = 156; continue _fun00041;
- 69:
+                        _fun00042_ip = 193; continue _fun00041;
+ 106:
                         report = _closure1_slot9;
                         tangon = report.isOpen;
                         tangon = tangon.bind(report)();
-                        if(!tangon) { _fun00042_ip = 121; continue _fun00041 }
- 89:
+                        if(!tangon) { _fun00042_ip = 158; continue _fun00041 }
+ 126:
                         report = _closure1_slot1;
                         tangon = _closure1_slot3;
                         michal = 51;
@@ -1761,23 +1769,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = report.bind(michal)(tangon);
                         michal = tangon.hideNativeMenu;
                         michal = michal.bind(tangon)();
- 121:
+ 158:
                         michal = _closure2_slot6;
                         michal = michal.chatInputActions;
                         tangon = michal.current;
                         michal = null;
-                        if(!(michal != tangon)) { _fun00042_ip = 156; continue _fun00041 }
- 145:
+                        if(!(michal != tangon)) { _fun00042_ip = 193; continue _fun00041 }
+ 182:
                         michal = tangon.onDismissActions;
                         michal = michal.bind(tangon)(entity);
- 156:
-                        if(entity) { _fun00042_ip = 175; continue _fun00041 }
- 159:
+ 193:
+                        if(entity) { _fun00042_ip = 212; continue _fun00041 }
+ 196:
                         tangon = _closure1_slot20;
                         michal = undefined;
                         entity = false;
                         entity = tangon.bind(michal)(entity);
- 175:
+ 212:
                         report = _closure1_slot0;
                         michal = _closure1_slot3;
                         entity = 52;
@@ -1792,13 +1800,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = report.textPrev;
                         report = report.length;
                         report = report <= golfie;
-                        if(!report) { _fun00042_ip = 254; continue _fun00041 }
- 245:
+                        if(!report) { _fun00042_ip = 291; continue _fun00041 }
+ 282:
                         oscard = zuuluu.length;
                         report = oscard > golfie;
- 254:
-                        if(!report) { _fun00042_ip = 300; continue _fun00041 }
- 257:
+ 291:
+                        if(!report) { _fun00042_ip = 337; continue _fun00041 }
+ 294:
                         oscard = _closure1_slot1;
                         golfie = _closure1_slot3;
                         report = 43;
@@ -1809,7 +1817,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = tangon.MESSAGE_LENGTH_LIMIT_REACHED;
                         tangon = {};
                         tangon = oscard.bind(golfie)(report, tangon);
- 300:
+ 337:
                         tangon = _closure2_slot6;
                         tangon = tangon.state;
                         report = tangon.current;
