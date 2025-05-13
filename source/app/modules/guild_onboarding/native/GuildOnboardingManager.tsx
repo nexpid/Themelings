@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = zuuluu[entity];
                     entity = undefined;
                     tangon = tangon.bind(entity)(zuuluu);
-                    zuuluu = tangon.clearGuildOnboardingPromise;
+                    zuuluu = tangon.discardOnboardingPromise;
                     michal = michal.id;
                     michal = zuuluu.bind(tangon)(michal);
                     return entity;

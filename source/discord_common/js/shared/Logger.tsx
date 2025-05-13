@@ -1,5 +1,5 @@
 // discord_common/js/shared/Logger.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = argBar;
     report = argBaz;
     zuuluu = argFre;
@@ -650,13 +650,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['setLogFn'] = report;
-    tangon = function(argFoo) { // Original name: setNativeLogFn
+    report = function(argFoo) { // Original name: setNativeLogFn
         entity = argFoo;
         _closure1_slot5 = entity;
         entity = undefined;
         return entity;
     };
-    zuuluu['setNativeLogFn'] = tangon;
+    zuuluu['setNativeLogFn'] = report;
+    tangon = function(argFoo, argBar, argBaz, argCor) { // Original name: defaultLogFn
+        michal = 3;
+        entity = copyRestArgs(michal);
+        entity = undefined;
+        return entity;
+    };
+    zuuluu['defaultLogFn'] = tangon;
     zuuluu['Logger'] = michal;
     return entity;
 })();

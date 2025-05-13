@@ -811,12 +811,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = source.bind(ctrled)(echoed, update);
             echoed = entity == tangon;
             entity = undefined;
-            if(echoed) { _fun00002_ip = 970; continue _fun00001 }
- 965:
+            if(echoed) { _fun00002_ip = 976; continue _fun00001 }
+ 971:
             entity = tangon.length;
- 970:
-            if(!(zuuluu !== entity)) { _fun00002_ip = 1188; continue _fun00001 }
- 977:
+ 976:
+            if(!(zuuluu !== entity)) { _fun00002_ip = 1194; continue _fun00001 }
+ 983:
             tangon = _closure1_slot11;
             zuuluu = _closure1_slot1;
             source = _closure1_slot2;
@@ -862,8 +862,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['sectionHeaderSize'] = offset;
             entity['sectionFooterSize'] = verify;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 1235; continue _fun00001;
- 1188:
+            _fun00002_ip = 1241; continue _fun00001;
+ 1194:
             tangon = _closure1_slot11;
             zuuluu = _closure1_slot1;
             verify = _closure1_slot2;
@@ -875,7 +875,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['insetTop'] = golfie;
             michal['insetBottom'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1235:
+ 1241:
             return entity;
         }
     };

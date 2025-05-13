@@ -1,4 +1,4 @@
-// app/modules/activity_privacy/UserSettingsActivitySharingRedesign.messages.js
+// app/modules/activity_privacy/web/UserSettingsActivitySharingRedesign.messages.js
 module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     oscard = argBar;
     zuuluu = argFre;
@@ -742,7 +742,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
-    report = 'modules/activity_privacy/UserSettingsActivitySharingRedesign.messages.js';
+    report = 'modules/activity_privacy/web/UserSettingsActivitySharingRedesign.messages.js';
     report = oscard.bind(golfie)(report);
     zuuluu['default'] = tangon;
     zuuluu['messagesLoader'] = michal;

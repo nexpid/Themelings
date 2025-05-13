@@ -161,17 +161,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = new Array(1);
             report[0] = offset;
             zuuluu = function() {
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot2;
-                entity = 11;
-                michal = michal[entity];
-                entity = undefined;
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.fetchPowerupCatalogForGuild;
-                michal = _closure2_slot0;
-                michal = michal.id;
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+                    report = _closure1_slot5;
+                    tangon = report.shouldFetchCatalogForGuild;
+                    zuuluu = _closure2_slot0;
+                    zuuluu = zuuluu.id;
+                    zuuluu = tangon.bind(report)(zuuluu);
+                    if(!zuuluu) { _fun00006_ip = 75; continue _fun00005 }
+ 33:
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
+                    michal = 11;
+                    zuuluu = zuuluu[michal];
+                    michal = undefined;
+                    zuuluu = tangon.bind(michal)(zuuluu);
+                    michal = zuuluu.fetchPowerupCatalogForGuild;
+                    entity = _closure2_slot0;
+                    entity = entity.id;
+                    entity = michal.bind(zuuluu)(entity);
+ 75:
+                    entity = undefined;
+                    return entity;
+                }
             };
             zuuluu = golfie.bind(option)(zuuluu, report);
             report = _closure1_slot1;

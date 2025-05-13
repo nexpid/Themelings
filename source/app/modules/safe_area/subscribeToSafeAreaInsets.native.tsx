@@ -1,4 +1,4 @@
-// app/modules/safe_area/subscribeToSafeAreaInsets.tsx
+// app/modules/safe_area/subscribeToSafeAreaInsets.native.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu = argFre;
     tangon = argPlu;
@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = undefined;
     oscard = tangon.bind(entity)(report);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/safe_area/subscribeToSafeAreaInsets.tsx';
+    tangon = 'modules/safe_area/subscribeToSafeAreaInsets.native.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: subscribeToSafeAreaInsets
         michal = argFoo;

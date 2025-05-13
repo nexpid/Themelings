@@ -1,4 +1,4 @@
-// app/modules/fastest_list/utils/getFastestListSectionsWithErrorChecking.tsx
+// app/modules/fastest_list/utils/getFastestListSectionsWithErrorChecking.native.tsx
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     entity = undefined;
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/fastest_list/utils/getFastestListSectionsWithErrorChecking.tsx';
+    tangon = 'modules/fastest_list/utils/getFastestListSectionsWithErrorChecking.native.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: getFastestListSectionsWithErrorChecking
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {

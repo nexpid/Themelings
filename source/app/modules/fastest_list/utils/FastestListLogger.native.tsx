@@ -1,4 +1,4 @@
-// app/modules/fastest_list/utils/FastestListLogger.tsx
+// app/modules/fastest_list/utils/FastestListLogger.native.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = argBaz;
     zuuluu = argFre;
@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = argBar;
     oscard = tangon.bind(entity)(report);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/fastest_list/utils/FastestListLogger.tsx';
+    tangon = 'modules/fastest_list/utils/FastestListLogger.native.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo, argBar) { // Original name: logFastestListError
         report = argFoo;

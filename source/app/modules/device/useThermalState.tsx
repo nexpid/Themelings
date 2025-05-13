@@ -1,4 +1,4 @@
-// app/modules/device/useThermalState.native.tsx
+// app/modules/device/useThermalState.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie = argBar;
     zuuluu = argFre;
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = undefined;
     option = golfie.bind(entity)(oscard);
     golfie = option.fileFinishedImporting;
-    oscard = 'modules/device/useThermalState.native.tsx';
+    oscard = 'modules/device/useThermalState.tsx';
     oscard = golfie.bind(option)(oscard);
     oscard = function() { // Original name: useThermalState
         zuuluu = _closure1_slot5;

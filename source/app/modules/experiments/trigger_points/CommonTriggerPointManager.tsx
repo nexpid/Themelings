@@ -137,25 +137,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 entity = argFoo;
-                oscard = entity.guildId;
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot1;
+                report = entity.guildId;
+                entity = entity.channelId;
+                oscard = null;
+                if(!(oscard != entity)) { _fun00006_ip = 77; continue _fun00005 }
+ 19:
+                michal = _closure1_slot0;
+                zuuluu = _closure1_slot1;
                 entity = 5;
-                michal = michal[entity];
+                entity = zuuluu[entity];
+                tangon = undefined;
+                entity = michal.bind(tangon)(entity);
+                zuuluu = entity.VoiceCallTriggerPoint;
+                michal = zuuluu.trigger;
+                entity = {};
+                oscard = oscard != report;
+                if(!oscard) { _fun00006_ip = 68; continue _fun00005 }
+ 65:
+                tangon = report;
+ 68:
+                entity['guildId'] = tangon;
+                entity = michal.bind(zuuluu)(entity);
+ 77:
                 entity = undefined;
-                michal = zuuluu.bind(entity)(michal);
-                tangon = michal.VoiceCallTriggerPoint;
-                zuuluu = tangon.trigger;
-                michal = {};
-                report = null;
-                golfie = report != oscard;
-                report = undefined;
-                if(!golfie) { _fun00006_ip = 61; continue _fun00005 }
- 58:
-                report = oscard;
- 61:
-                michal['guildId'] = report;
-                michal = zuuluu.bind(tangon)(michal);
                 return entity;
             }
         };

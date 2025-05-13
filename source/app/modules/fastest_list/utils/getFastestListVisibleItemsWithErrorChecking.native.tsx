@@ -1,4 +1,4 @@
-// app/modules/fastest_list/utils/getFastestListVisibleItemsWithErrorChecking.tsx
+// app/modules/fastest_list/utils/getFastestListVisibleItemsWithErrorChecking.native.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = undefined;
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/fastest_list/utils/getFastestListVisibleItemsWithErrorChecking.tsx';
+    tangon = 'modules/fastest_list/utils/getFastestListVisibleItemsWithErrorChecking.native.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo, argBar, argBaz) { // Original name: getFastestListVisibleItemsWithErrorChecking
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {

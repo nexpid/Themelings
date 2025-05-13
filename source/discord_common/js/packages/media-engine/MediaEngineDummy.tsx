@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(65);
+        entity = new Array(67);
         entity[0] = report;
         report = {};
         golfie = 'interact';
@@ -712,6 +712,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[46] = report;
         report = {};
+        golfie = 'startRecordingRawSamples';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
+            entity = undefined;
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[47] = report;
+        report = {};
+        golfie = 'stopRecordingRawSamples';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
+            entity = undefined;
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[48] = report;
+        report = {};
         golfie = 'createReplayConnection';
         report['key'] = golfie;
         golfie = function() { // Original name: value
@@ -726,7 +744,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             throw entity;
         };
         report['value'] = golfie;
-        entity[47] = report;
+        entity[49] = report;
         report = {};
         golfie = 'setOnVideoContainerResized';
         report['key'] = golfie;
@@ -735,7 +753,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[48] = report;
+        entity[50] = report;
         report = {};
         golfie = 'setMaxSyncDelayOverride';
         report['key'] = golfie;
@@ -744,7 +762,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[49] = report;
+        entity[51] = report;
         report = {};
         golfie = 'rankRtcRegions';
         report['key'] = golfie;
@@ -763,7 +781,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[50] = report;
+        entity[52] = report;
         report = {};
         golfie = 'applyMediaFilterSettings';
         report['key'] = golfie;
@@ -775,7 +793,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[51] = report;
+        entity[53] = report;
         report = {};
         golfie = 'startLocalAudioRecording';
         report['key'] = golfie;
@@ -794,7 +812,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[52] = report;
+        entity[54] = report;
         report = {};
         golfie = 'stopLocalAudioRecording';
         report['key'] = golfie;
@@ -803,7 +821,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[53] = report;
+        entity[55] = report;
         report = {};
         golfie = 'setHasFullbandPerformance';
         report['key'] = golfie;
@@ -812,7 +830,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[54] = report;
+        entity[56] = report;
         report = {};
         golfie = 'getSupportedSecureFramesProtocolVersion';
         report['key'] = golfie;
@@ -821,7 +839,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[55] = report;
+        entity[57] = report;
         report = {};
         golfie = 'getSupportedBandwidthEstimationExperiments';
         report['key'] = golfie;
@@ -833,7 +851,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[56] = report;
+        entity[58] = report;
         report = {};
         golfie = 'getMLSSigningKey';
         report['key'] = golfie;
@@ -852,7 +870,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[57] = report;
+        entity[59] = report;
         report = {};
         golfie = 'setSidechainCompression';
         report['key'] = golfie;
@@ -861,7 +879,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[58] = report;
+        entity[60] = report;
         report = {};
         golfie = 'setSidechainCompressionStrength';
         report['key'] = golfie;
@@ -870,7 +888,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[59] = report;
+        entity[61] = report;
         report = {};
         golfie = 'setNativeDesktopVideoSourcePickerActive';
         report['key'] = golfie;
@@ -879,7 +897,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[60] = report;
+        entity[62] = report;
         report = {};
         golfie = 'presentNativeScreenSharePicker';
         report['key'] = golfie;
@@ -888,7 +906,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[61] = report;
+        entity[63] = report;
         report = {};
         golfie = 'releaseNativeDesktopVideoSourcePickerStream';
         report['key'] = golfie;
@@ -897,7 +915,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[62] = report;
+        entity[64] = report;
         report = {};
         golfie = 'setMaybePreprocessMute';
         report['key'] = golfie;
@@ -906,7 +924,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[63] = report;
+        entity[65] = report;
         report = {};
         golfie = 'setAudioInputBypassSystemProcessing';
         report['key'] = golfie;
@@ -915,7 +933,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = oscard;
-        entity[64] = report;
+        entity[66] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

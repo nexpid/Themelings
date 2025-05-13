@@ -128,120 +128,149 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         ctrled = oscard.bind(report)(michal, zuuluu);
+        oscard = report.useMemo;
+        michal = source.config;
+        zuuluu = new Array(1);
+        zuuluu[0] = michal;
+        michal = function() {
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
+            entity = 8;
+            michal = michal[entity];
+            entity = undefined;
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.isCollectibleQuestRewardPremiumExtendable;
+            entity = _closure2_slot0;
+            entity = entity.config;
+            entity = michal.bind(zuuluu)(entity);
+            return entity;
+        };
+        oscard = oscard.bind(report)(michal, zuuluu);
+        var _closure2_slot1 = oscard;
         zuuluu = report.useMemo;
-        michal = new Array(1);
+        michal = new Array(2);
         michal[0] = source;
+        michal[1] = oscard;
         entity = function() {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                tangon = _closure1_slot0;
-                michal = _closure1_slot2;
-                zuuluu = 8;
-                zuuluu = michal[zuuluu];
+                oscard = _closure1_slot0;
+                zuuluu = _closure1_slot2;
+                michal = 8;
+                michal = zuuluu[michal];
                 report = undefined;
-                golfie = tangon.bind(report)(zuuluu);
-                oscard = golfie.getQuestPrimaryReward;
-                zuuluu = _closure2_slot0;
-                zuuluu = oscard.bind(golfie)(zuuluu);
-                zuuluu = zuuluu.type;
-                oscard = 9;
-                michal = michal[oscard];
-                michal = tangon.bind(report)(michal);
-                michal = michal.QuestRewardTypes;
-                michal = michal.REWARD_CODE;
-                if(!(michal !== zuuluu)) { _fun00004_ip = 459; continue _fun00003 }
+                option = oscard.bind(report)(michal);
+                golfie = option.getQuestPrimaryReward;
+                tangon = _closure2_slot0;
+                tangon = golfie.bind(option)(tangon);
+                tangon = tangon.type;
+                golfie = 9;
+                zuuluu = zuuluu[golfie];
+                zuuluu = oscard.bind(report)(zuuluu);
+                zuuluu = zuuluu.QuestRewardTypes;
+                zuuluu = zuuluu.REWARD_CODE;
+                if(!(zuuluu !== tangon)) { _fun00004_ip = 484; continue _fun00003 }
  79:
-                tangon = _closure1_slot0;
-                michal = _closure1_slot2;
-                michal = michal[oscard];
-                michal = tangon.bind(report)(michal);
-                michal = michal.QuestRewardTypes;
-                michal = michal.COLLECTIBLE;
-                if(!(michal !== zuuluu)) { _fun00004_ip = 400; continue _fun00003 }
+                oscard = _closure1_slot0;
+                zuuluu = _closure1_slot2;
+                zuuluu = zuuluu[golfie];
+                zuuluu = oscard.bind(report)(zuuluu);
+                zuuluu = zuuluu.QuestRewardTypes;
+                zuuluu = zuuluu.COLLECTIBLE;
+                if(!(zuuluu !== tangon)) { _fun00004_ip = 400; continue _fun00003 }
  115:
-                tangon = _closure1_slot0;
-                michal = _closure1_slot2;
-                michal = michal[oscard];
-                michal = tangon.bind(report)(michal);
-                michal = michal.QuestRewardTypes;
-                michal = michal.IN_GAME;
-                if(!(michal !== zuuluu)) { _fun00004_ip = 341; continue _fun00003 }
+                oscard = _closure1_slot0;
+                zuuluu = _closure1_slot2;
+                zuuluu = zuuluu[golfie];
+                zuuluu = oscard.bind(report)(zuuluu);
+                zuuluu = zuuluu.QuestRewardTypes;
+                zuuluu = zuuluu.IN_GAME;
+                if(!(zuuluu !== tangon)) { _fun00004_ip = 341; continue _fun00003 }
  151:
-                tangon = _closure1_slot0;
-                michal = _closure1_slot2;
-                michal = michal[oscard];
-                michal = tangon.bind(report)(michal);
-                michal = michal.QuestRewardTypes;
-                michal = michal.VIRTUAL_CURRENCY;
-                if(!(michal !== zuuluu)) { _fun00004_ip = 282; continue _fun00003 }
+                oscard = _closure1_slot0;
+                zuuluu = _closure1_slot2;
+                zuuluu = zuuluu[golfie];
+                zuuluu = oscard.bind(report)(zuuluu);
+                zuuluu = zuuluu.QuestRewardTypes;
+                zuuluu = zuuluu.VIRTUAL_CURRENCY;
+                if(!(zuuluu !== tangon)) { _fun00004_ip = 282; continue _fun00003 }
  184:
-                tangon = _closure1_slot0;
-                michal = _closure1_slot2;
-                michal = michal[oscard];
-                michal = tangon.bind(report)(michal);
-                michal = michal.QuestRewardTypes;
-                michal = michal.FRACTIONAL_PREMIUM;
-                if(!(michal !== zuuluu)) { _fun00004_ip = 223; continue _fun00003 }
+                oscard = _closure1_slot0;
+                zuuluu = _closure1_slot2;
+                zuuluu = zuuluu[golfie];
+                zuuluu = oscard.bind(report)(zuuluu);
+                zuuluu = zuuluu.QuestRewardTypes;
+                zuuluu = zuuluu.FRACTIONAL_PREMIUM;
+                if(!(zuuluu !== tangon)) { _fun00004_ip = 223; continue _fun00003 }
  217:
-                michal = '';
-                return michal;
+                zuuluu = '';
+                return zuuluu;
  223:
-                oscard = _closure1_slot0;
-                golfie = _closure1_slot2;
-                michal = 10;
-                zuuluu = golfie[michal];
-                zuuluu = oscard.bind(report)(zuuluu);
-                tangon = zuuluu.intl;
-                zuuluu = tangon.string;
-                michal = golfie[michal];
-                michal = oscard.bind(report)(michal);
-                michal = michal.t;
-                michal = michal.f0efMj;
-                michal = zuuluu.bind(tangon)(michal);
-                return michal;
+                golfie = _closure1_slot0;
+                option = _closure1_slot2;
+                zuuluu = 10;
+                tangon = option[zuuluu];
+                tangon = golfie.bind(report)(tangon);
+                oscard = tangon.intl;
+                tangon = oscard.string;
+                zuuluu = option[zuuluu];
+                zuuluu = golfie.bind(report)(zuuluu);
+                zuuluu = zuuluu.t;
+                zuuluu = zuuluu.maMtqK;
+                zuuluu = tangon.bind(oscard)(zuuluu);
+                return zuuluu;
  282:
-                oscard = _closure1_slot0;
-                golfie = _closure1_slot2;
-                michal = 10;
-                zuuluu = golfie[michal];
-                zuuluu = oscard.bind(report)(zuuluu);
-                tangon = zuuluu.intl;
-                zuuluu = tangon.string;
-                michal = golfie[michal];
-                michal = oscard.bind(report)(michal);
-                michal = michal.t;
-                michal = michal.c2uVzc;
-                michal = zuuluu.bind(tangon)(michal);
-                return michal;
+                golfie = _closure1_slot0;
+                option = _closure1_slot2;
+                zuuluu = 10;
+                tangon = option[zuuluu];
+                tangon = golfie.bind(report)(tangon);
+                oscard = tangon.intl;
+                tangon = oscard.string;
+                zuuluu = option[zuuluu];
+                zuuluu = golfie.bind(report)(zuuluu);
+                zuuluu = zuuluu.t;
+                zuuluu = zuuluu.c2uVzc;
+                zuuluu = tangon.bind(oscard)(zuuluu);
+                return zuuluu;
  341:
-                oscard = _closure1_slot0;
-                golfie = _closure1_slot2;
-                michal = 10;
-                zuuluu = golfie[michal];
-                zuuluu = oscard.bind(report)(zuuluu);
-                tangon = zuuluu.intl;
-                zuuluu = tangon.string;
-                michal = golfie[michal];
-                michal = oscard.bind(report)(michal);
-                michal = michal.t;
-                michal = michal.efPXsr;
-                michal = zuuluu.bind(tangon)(michal);
-                return michal;
+                golfie = _closure1_slot0;
+                option = _closure1_slot2;
+                zuuluu = 10;
+                tangon = option[zuuluu];
+                tangon = golfie.bind(report)(tangon);
+                oscard = tangon.intl;
+                tangon = oscard.string;
+                zuuluu = option[zuuluu];
+                zuuluu = golfie.bind(report)(zuuluu);
+                zuuluu = zuuluu.t;
+                zuuluu = zuuluu.efPXsr;
+                zuuluu = tangon.bind(oscard)(zuuluu);
+                return zuuluu;
  400:
-                oscard = _closure1_slot0;
-                golfie = _closure1_slot2;
-                michal = 10;
-                zuuluu = golfie[michal];
-                zuuluu = oscard.bind(report)(zuuluu);
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot2;
+                option = 10;
+                zuuluu = zuuluu[option];
+                zuuluu = tangon.bind(report)(zuuluu);
                 tangon = zuuluu.intl;
                 zuuluu = tangon.string;
-                michal = golfie[michal];
-                michal = oscard.bind(report)(michal);
-                michal = michal.t;
-                michal = michal.1rQyNj;
+                michal = _closure2_slot1;
+                golfie = _closure1_slot0;
+                oscard = _closure1_slot2;
+                oscard = oscard[option];
+                oscard = golfie.bind(report)(oscard);
+                oscard = oscard.t;
+                if(michal) { _fun00004_ip = 469; continue _fun00003 }
+ 459:
+                michal = oscard.ABD2CA;
+                _fun00004_ip = 477; continue _fun00003;
+ 469:
+                michal = oscard.66YyBA;
+ 477:
                 michal = zuuluu.bind(tangon)(michal);
                 return michal;
- 459:
+ 484:
                 tangon = _closure1_slot0;
                 oscard = _closure1_slot2;
                 entity = 10;

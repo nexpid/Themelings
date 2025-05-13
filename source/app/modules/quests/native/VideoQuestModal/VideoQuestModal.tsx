@@ -318,7 +318,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = result.useState;
             offset = source.get;
             cntext = offset.bind(source)();
-            status = 0.4;
+            status = 0.1;
             offset = status * echoed;
             offset = cntext < offset;
             offset = record.bind(result)(offset);
@@ -380,7 +380,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     if(!(oscard !== report)) { _fun00004_ip = 167; continue _fun00003 }
  73:
                     oscard = michal.currentHeight;
-                    report = 0.4;
+                    report = 0.1;
                     report = report * oscard;
                     michal = michal.currentTranslateY;
                     michal = michal < report;
@@ -797,7 +797,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = _closure1_slot10;
             result = result.WATCH_VIDEO;
             echoed = update === result;
-            if(!echoed) { _fun00002_ip = 1795; continue _fun00001 }
+            if(!echoed) { _fun00002_ip = 1800; continue _fun00001 }
  1748:
             ctrled = _closure1_slot7;
             source = _closure1_slot1;
@@ -809,15 +809,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['isModalSignificantlyVisible'] = record;
             result['onNavigateToPostWatchVideo'] = config;
             result['onClose'] = sequen;
+            result['onEnd'] = config;
             echoed = ctrled.bind(tangon)(source, result);
- 1795:
+ 1800:
             result = new Array(2);
             result[0] = echoed;
             echoed = _closure1_slot10;
             echoed = echoed.POST_WATCH_VIDEO;
             echoed = update === echoed;
-            if(!echoed) { _fun00002_ip = 1862; continue _fun00001 }
- 1820:
+            if(!echoed) { _fun00002_ip = 1867; continue _fun00001 }
+ 1825:
             ctrled = _closure1_slot7;
             source = _closure1_slot1;
             config = _closure1_slot2;
@@ -828,7 +829,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update['onClose'] = sequen;
             update['onRestartVideo'] = vacuum;
             echoed = ctrled.bind(tangon)(source, update);
- 1862:
+ 1867:
             result[1] = echoed;
             output['children'] = result;
             output = golfie.bind(tangon)(oscard, output);

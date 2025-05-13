@@ -288,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot8;
             michal = michal.APPEARANCE;
             michal = golfie[michal];
-            if(!(tangon === michal)) { _fun00014_ip = 294; continue _fun00013 }
+            if(!(tangon === michal)) { _fun00014_ip = 292; continue _fun00013 }
  234:
             michal = {};
             michal['shouldSync'] = tangon;
@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.bind(report)(oscard, zuuluu);
             michal['settings'] = zuuluu;
             entity['appearance'] = michal;
- 294:
+ 292:
             return entity;
         }
     };
