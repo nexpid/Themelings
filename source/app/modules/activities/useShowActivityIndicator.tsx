@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = zuuluu.Date;
                     zuuluu = oscard.now;
                     oscard = zuuluu.bind(oscard)();
-                    zuuluu = 21600000;
+                    zuuluu = 43200000;
                     zuuluu = oscard - zuuluu;
                     michal = tangon < zuuluu;
  102:

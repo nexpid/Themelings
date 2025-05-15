@@ -640,10 +640,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 entity = this;
                 michal = entity.isOwner;
                 entity = 'receiver';
-                if(!michal) { _fun00014_ip = 22; continue _fun00013 }
- 16:
+                if(!michal) { _fun00014_ip = 24; continue _fun00013 }
+ 18:
                 entity = 'streamer';
- 22:
+ 24:
                 return entity;
             }
         };
@@ -1518,10 +1518,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 entity['guild_region'] = option;
                 verify = michal.isOwner;
                 option = 'receiver';
-                if(!verify) { _fun00028_ip = 248; continue _fun00027 }
- 242:
+                if(!verify) { _fun00028_ip = 250; continue _fun00027 }
+ 244:
                 option = 'streamer';
- 248:
+ 250:
                 entity['participant_type'] = option;
                 entity['share_application_name'] = golfie;
                 entity['share_application_id'] = oscard;
@@ -1626,23 +1626,23 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 report = zuuluu.ownerId;
                 zuuluu = oscard._videoQuality;
                 var _closure3_slot5 = zuuluu;
-                if(!(tangon != zuuluu)) { _fun00032_ip = 380; continue _fun00031 }
+                if(!(tangon != zuuluu)) { _fun00032_ip = 382; continue _fun00031 }
  87:
                 tangon = zuuluu.getNetworkStats;
                 tangon = tangon.bind(zuuluu)();
                 var _closure3_slot2 = tangon;
                 tangon = oscard.isOwner;
                 option = zuuluu.getCodecUsageStats;
-                if(tangon) { _fun00032_ip = 128; continue _fun00031 }
+                if(tangon) { _fun00032_ip = 130; continue _fun00031 }
  116:
                 tangon = 'receiver';
                 tangon = option.bind(zuuluu)(tangon, report);
-                _fun00032_ip = 145; continue _fun00031;
- 128:
+                _fun00032_ip = 147; continue _fun00031;
+ 130:
                 golfie = oscard.userId;
                 report = 'streamer';
                 tangon = option.bind(zuuluu)(report, golfie);
- 145:
+ 147:
                 var _closure3_slot3 = tangon;
                 golfie = _closure1_slot0;
                 option = _closure1_slot2;
@@ -1665,35 +1665,35 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 michal = tangon.getSettings;
                 report = michal.bind(tangon)();
                 michal = oscard.isOwner;
-                if(michal) { _fun00032_ip = 250; continue _fun00031 }
- 246:
+                if(michal) { _fun00032_ip = 252; continue _fun00031 }
+ 248:
                 michal = {};
-                _fun00032_ip = 287; continue _fun00031;
- 250:
+                _fun00032_ip = 289; continue _fun00031;
+ 252:
                 tangon = {};
                 golfie = report.clipsEnabled;
-                if(!golfie) { _fun00032_ip = 264; continue _fun00031 }
- 261:
+                if(!golfie) { _fun00032_ip = 266; continue _fun00031 }
+ 263:
                 golfie = option;
- 264:
+ 266:
                 tangon['clips_enabled'] = golfie;
                 report = report.clipsLength;
                 tangon['clips_buffer_length'] = report;
                 michal = tangon;
- 287:
+ 289:
                 var _closure3_slot7 = michal;
                 michal = oscard.isOwner;
-                if(michal) { _fun00032_ip = 304; continue _fun00031 }
- 300:
+                if(michal) { _fun00032_ip = 306; continue _fun00031 }
+ 302:
                 michal = {};
-                _fun00032_ip = 326; continue _fun00031;
- 304:
+                _fun00032_ip = 328; continue _fun00031;
+ 306:
                 tangon = {};
                 report = oscard.getBandwidthEstimationExperiment;
                 report = report.bind(oscard)();
                 tangon['bandwidth_estimation_experiment'] = report;
                 michal = tangon;
- 326:
+ 328:
                 var _closure3_slot8 = michal;
                 michal = zuuluu.getOutboundStats;
                 report = michal.bind(zuuluu)();
@@ -1914,7 +1914,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     }
                 };
                 entity = michal.bind(zuuluu)(entity);
- 380:
+ 382:
                 entity = undefined;
                 return entity;
             }

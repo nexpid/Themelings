@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = zuuluu.bind(entity)(oscard);
                 zuuluu = _closure1_slot7;
                 zuuluu = zuuluu.NOT_FETCHED;
-                if(!(tangon === zuuluu)) { _fun00008_ip = 116; continue _fun00007 }
+                if(!(tangon === zuuluu)) { _fun00008_ip = 112; continue _fun00007 }
  34:
                 tangon = _closure1_slot8;
                 zuuluu = {'fetchState': null, 'foundMembers': 0, 'notFoundMembers': 0};
@@ -208,7 +208,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = tangon.requestMembersById;
                 michal = false;
                 michal = zuuluu.bind(tangon)(oscard, report, michal);
- 116:
+ 112:
                 return entity;
             }
         };

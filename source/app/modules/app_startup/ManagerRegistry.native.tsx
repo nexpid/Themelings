@@ -1499,7 +1499,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['ContentInventoryManager'] = entity;
     entity = {};
-    option = ['QUESTS_FETCH_CURRENT_QUESTS_BEGIN', 'POST_CONNECTION_OPEN', 'RUNNING_GAMES_CHANGE', 'USER_SETTINGS_PROTO_UPDATE', 'LOGOUT'];
+    option = ['QUESTS_FETCH_CURRENT_QUESTS_BEGIN', 'POST_CONNECTION_OPEN', 'RUNNING_GAMES_CHANGE', 'USER_SETTINGS_PROTO_UPDATE', 'FETCH_MOBILE_AD_DATA_BEGIN', 'LOGOUT'];
     entity['actions'] = option;
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;

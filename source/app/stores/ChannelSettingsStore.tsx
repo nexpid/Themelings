@@ -230,8 +230,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = report.getChannel;
             michal = zuuluu.channelId;
             michal = tangon.bind(report)(michal);
-            report = null;
-            if(!(report != michal)) { _fun00010_ip = 272; continue _fun00009 }
+            oscard = null;
+            if(!(oscard != michal)) { _fun00010_ip = 297; continue _fun00009 }
  34:
             tangon = _closure1_slot15;
             tangon = tangon.OPEN;
@@ -244,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(!tangon) { _fun00010_ip = 88; continue _fun00009 }
  69:
             tangon = zuuluu.location;
-            tangon = report != tangon;
+            tangon = oscard != tangon;
             michal = null;
             if(!tangon) { _fun00010_ip = 88; continue _fun00009 }
  83:
@@ -260,15 +260,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  111:
             var _closure1_slot17 = michal;
             michal = _closure1_slot19;
-            if(!(report != michal)) { _fun00010_ip = 160; continue _fun00009 }
+            if(!(oscard != michal)) { _fun00010_ip = 160; continue _fun00009 }
  123:
-            oscard = _closure1_slot19;
-            tangon = oscard.set;
+            report = _closure1_slot19;
+            tangon = report.set;
             zuuluu = _closure1_slot19;
             michal = zuuluu.isNSFW;
             zuuluu = michal.bind(zuuluu)();
             michal = 'nsfw';
-            michal = tangon.bind(oscard)(michal, zuuluu);
+            michal = tangon.bind(report)(michal, zuuluu);
             _closure1_slot19 = michal;
  160:
             tangon = _closure1_slot12;
@@ -281,28 +281,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.getGuildId;
             michal = michal.bind(zuuluu)();
             var _closure1_slot21 = michal;
-            michal = {};
-            _closure1_slot23 = michal;
+            zuuluu = _closure1_slot19;
+            michal = zuuluu.isModeratorReportChannel;
+            michal = michal.bind(zuuluu)();
+            zuuluu = _closure1_slot13;
+            if(michal) { _fun00010_ip = 235; continue _fun00009 }
+ 227:
+            michal = zuuluu.OVERVIEW;
+            _fun00010_ip = 241; continue _fun00009;
+ 235:
+            michal = zuuluu.PERMISSIONS;
+ 241:
+            zuuluu = {};
+            _closure1_slot23 = zuuluu;
             tangon = _closure1_slot35;
             zuuluu = {};
-            michal = 'CHANNEL_SETTINGS_SET_SECTION';
-            zuuluu['type'] = michal;
+            report = 'CHANNEL_SETTINGS_SET_SECTION';
+            zuuluu['type'] = report;
+            report = _closure1_slot16;
+            if(!(oscard != report)) { _fun00010_ip = 273; continue _fun00009 }
+ 269:
             michal = _closure1_slot16;
-            if(!(report == michal)) { _fun00010_ip = 246; continue _fun00009 }
- 234:
-            michal = _closure1_slot13;
-            michal = michal.OVERVIEW;
-            _fun00010_ip = 250; continue _fun00009;
- 246:
-            michal = _closure1_slot16;
- 250:
+ 273:
             zuuluu['section'] = michal;
             michal = _closure1_slot17;
             zuuluu['subsection'] = michal;
             michal = undefined;
-            zuuluu = tangon.bind(michal)(zuuluu);
+            michal = tangon.bind(michal)(zuuluu);
+            michal = true;
             return michal;
- 272:
+ 297:
             michal = _closure1_slot36;
             entity = undefined;
             michal = michal.bind(entity)();

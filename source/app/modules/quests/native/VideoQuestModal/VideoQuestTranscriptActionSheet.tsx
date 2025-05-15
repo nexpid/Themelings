@@ -1,11 +1,11 @@
 // app/modules/quests/native/VideoQuestModal/VideoQuestTranscriptActionSheet.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
+    romeon = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
+    var _closure1_slot1 = romeon;
     var _closure1_slot2 = oscard;
     entity = global;
     option = entity.Object;
@@ -49,6 +49,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = {'display': 'flex', 'flexDirection': 'column', 'alignItems': 'center'};
     tangon['container'] = verify;
     verify = {};
+    yankee = 5;
+    yankee = oscard[yankee];
+    yankee = romeon.bind(entity)(yankee);
+    yankee = yankee.spacing;
+    yankee = yankee.PX_8;
+    verify['paddingBottom'] = yankee;
+    tangon['content'] = verify;
+    verify = {};
     verify['textAlign'] = offset;
     tangon['headerText'] = verify;
     verify = {};
@@ -57,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['loadingSpinner'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot9 = tangon;
-    tangon = 13;
+    tangon = 14;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -82,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot1 = yankee;
             zuuluu = _closure1_slot1;
             report = _closure1_slot2;
-            michal = 5;
+            michal = 6;
             michal = report[michal];
             michal = zuuluu.bind(tangon)(michal);
             michal = michal.bind(tangon)();
@@ -118,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  72:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot2;
-                    michal = 6;
+                    michal = 7;
                     zuuluu = zuuluu[michal];
                     michal = undefined;
                     zuuluu = tangon.bind(michal)(zuuluu);
@@ -188,19 +196,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot7;
             option = _closure1_slot0;
             kiloes = _closure1_slot2;
-            entity = 7;
+            entity = 8;
             entity = kiloes[entity];
             entity = option.bind(tangon)(entity);
             michal = entity.ActionSheet;
             entity = {};
             report = true;
             entity['scrollable'] = report;
-            report = 8;
+            report = 9;
             report = kiloes[report];
             report = option.bind(tangon)(report);
             oscard = report.BottomSheetTitleHeader;
             report = {};
-            golfie = 9;
+            golfie = 10;
             output = kiloes[golfie];
             output = option.bind(tangon)(output);
             result = output.intl;
@@ -213,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['title'] = golfie;
             report = zuuluu.bind(tangon)(oscard, report);
             entity['header'] = report;
-            report = 10;
+            report = 11;
             report = kiloes[report];
             report = option.bind(tangon)(report);
             oscard = report.BottomSheetScrollView;
@@ -222,24 +230,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['paddingBottom'] = verify;
             report['contentContainerStyle'] = golfie;
             verify = _closure1_slot8;
-            golfie = 11;
+            golfie = 12;
             golfie = kiloes[golfie];
             golfie = option.bind(tangon)(golfie);
             option = golfie.Stack;
             golfie = {};
             kiloes = 16;
             golfie['spacing'] = kiloes;
+            kiloes = sizing.content;
+            golfie['style'] = kiloes;
             kiloes = foxtra == yankee;
             foxtra = undefined;
-            if(kiloes) { _fun00002_ip = 353; continue _fun00001 }
- 347:
+            if(kiloes) { _fun00002_ip = 362; continue _fun00001 }
+ 356:
             foxtra = yankee.fetchStatus;
- 353:
+ 362:
             yankee = _closure1_slot5;
             yankee = yankee.FETCHING;
             yankee = foxtra === yankee;
-            if(!yankee) { _fun00002_ip = 404; continue _fun00001 }
- 370:
+            if(!yankee) { _fun00002_ip = 413; continue _fun00001 }
+ 379:
             kiloes = _closure1_slot7;
             foxtra = _closure1_slot4;
             offset = {};
@@ -248,20 +258,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = 'large';
             offset['size'] = sizing;
             yankee = kiloes.bind(tangon)(foxtra, offset);
- 404:
+ 413:
             offset = new Array(2);
             offset[0] = yankee;
             foxtra = backup.length;
             yankee = 0;
             yankee = foxtra > yankee;
-            if(!yankee) { _fun00002_ip = 443; continue _fun00001 }
- 426:
+            if(!yankee) { _fun00002_ip = 452; continue _fun00001 }
+ 435:
             foxtra = backup.map;
             romeon = function(argFoo, argBar) {
                 report = _closure1_slot7;
                 michal = _closure1_slot0;
                 zuuluu = _closure1_slot2;
-                entity = 12;
+                entity = 13;
                 entity = zuuluu[entity];
                 tangon = undefined;
                 entity = michal.bind(tangon)(entity);
@@ -274,7 +284,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             yankee = foxtra.bind(backup)(romeon);
- 443:
+ 452:
             offset[1] = yankee;
             golfie['children'] = offset;
             golfie = verify.bind(tangon)(option, golfie);

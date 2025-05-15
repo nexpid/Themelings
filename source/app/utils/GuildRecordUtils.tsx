@@ -207,10 +207,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.moderator_report_channel_id;
             michal = null;
             tangon = michal != zuuluu;
-            if(!tangon) { _fun00008_ip = 38; continue _fun00007 }
- 35:
+            if(!tangon) { _fun00008_ip = 34; continue _fun00007 }
+ 31:
             michal = zuuluu;
- 38:
+ 34:
             entity['moderatorReportChannelId'] = michal;
             return entity;
         }

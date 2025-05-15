@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = null;
             tangon = michal == entity;
             entity = undefined;
-            if(tangon) { _fun00004_ip = 95; continue _fun00003 }
+            if(tangon) { _fun00004_ip = 97; continue _fun00003 }
  36:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
@@ -190,15 +190,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity = tangon.bind(report)(zuuluu);
- 95:
-            if(!(michal == entity)) { _fun00004_ip = 124; continue _fun00003 }
- 99:
+ 97:
+            if(!(michal == entity)) { _fun00004_ip = 126; continue _fun00003 }
+ 101:
             michal = global;
             tangon = michal.Promise;
             zuuluu = tangon.reject;
             michal = "RTNFileManager doesn't exist?";
             entity = zuuluu.bind(tangon)(michal);
- 124:
+ 126:
             return entity;
         }
     };

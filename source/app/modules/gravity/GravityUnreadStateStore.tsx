@@ -27,11 +27,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00002_ip = 74; continue _fun00001;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  49:
             michal = zuuluu.@@iterator;
  55:
-            if(michal) { _fun00004_ip = 345; continue _fun00003 }
+            if(michal) { _fun00004_ip = 343; continue _fun00003 }
  61:
             oscard = report.Array;
             tangon = oscard.isArray;
@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             return entity;
- 345:
+ 343:
             entity = michal.call;
             zuuluu = entity.bind(michal)(zuuluu);
             michal = zuuluu.next;
@@ -360,8 +360,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = michal.bind(entity)(zuuluu);
                 zuuluu = tangon.bind(entity)();
                 michal = zuuluu.done;
-                if(michal) { _fun00012_ip = 184; continue _fun00011 }
- 150:
+                if(michal) { _fun00012_ip = 182; continue _fun00011 }
+ 148:
                 oscard = zuuluu.value;
                 michal = _closure1_slot8;
                 michal = michal.readIdToTimestampMap;
@@ -369,8 +369,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = tangon.bind(entity)();
                 michal = oscard.done;
                 zuuluu = oscard;
-                if(!michal) { _fun00012_ip = 150; continue _fun00011 }
- 184:
+                if(!michal) { _fun00012_ip = 148; continue _fun00011 }
+ 182:
                 return entity;
             }
         };

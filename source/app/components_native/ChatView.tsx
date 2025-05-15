@@ -760,19 +760,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
                     report = _closure1_slot14;
-                    offset = _closure1_slot0;
+                    michal = _closure1_slot1;
                     backup = _closure1_slot2;
-                    kiloes = 32;
-                    entity = backup[kiloes];
+                    entity = 32;
+                    entity = backup[entity];
                     tangon = undefined;
-                    entity = offset.bind(tangon)(entity);
-                    zuuluu = entity.ChatViewKeyboardCloser;
+                    zuuluu = michal.bind(tangon)(entity);
                     michal = {};
                     entity = _closure2_slot11;
                     entity = entity.messages;
                     michal['style'] = entity;
                     entity = _closure2_slot1;
                     michal['channelId'] = entity;
+                    offset = _closure1_slot0;
                     entity = 33;
                     entity = backup[entity];
                     entity = offset.bind(tangon)(entity);
@@ -793,201 +793,215 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = {};
                     backup = _closure2_slot28;
                     option['show'] = backup;
-                    sizing = _closure2_slot32;
-                    if(!sizing) { _fun00020_ip = 161; continue _fun00019 }
- 151:
-                    output = _closure2_slot33;
+                    kiloes = _closure2_slot32;
+                    if(!kiloes) { _fun00020_ip = 159; continue _fun00019 }
+ 149:
+                    sizing = _closure2_slot33;
                     backup = null;
-                    sizing = backup != output;
- 161:
-                    if(!sizing) { _fun00020_ip = 174; continue _fun00019 }
- 164:
-                    output = _closure2_slot31;
+                    kiloes = backup != sizing;
+ 159:
+                    if(!kiloes) { _fun00020_ip = 172; continue _fun00019 }
+ 162:
+                    sizing = _closure2_slot31;
                     backup = null;
-                    sizing = backup != output;
- 174:
-                    if(!sizing) { _fun00020_ip = 233; continue _fun00019 }
- 177:
-                    result = _closure1_slot14;
-                    output = _closure1_slot0;
-                    echoed = _closure1_slot2;
+                    kiloes = backup != sizing;
+ 172:
+                    if(!kiloes) { _fun00020_ip = 231; continue _fun00019 }
+ 175:
+                    output = _closure1_slot14;
+                    sizing = _closure1_slot0;
+                    result = _closure1_slot2;
                     backup = 36;
-                    backup = echoed[backup];
-                    backup = output.bind(tangon)(backup);
-                    output = backup.RingToVoiceBanner;
+                    backup = result[backup];
+                    backup = sizing.bind(tangon)(backup);
+                    sizing = backup.RingToVoiceBanner;
                     backup = {};
-                    echoed = _closure2_slot33;
-                    backup['recipientUser'] = echoed;
-                    echoed = _closure2_slot31;
-                    backup['voiceChannel'] = echoed;
-                    sizing = result.bind(tangon)(output, backup);
- 233:
+                    result = _closure2_slot33;
+                    backup['recipientUser'] = result;
+                    result = _closure2_slot31;
+                    backup['voiceChannel'] = result;
+                    kiloes = output.bind(tangon)(sizing, backup);
+ 231:
                     backup = new Array(2);
-                    backup[0] = sizing;
-                    update = _closure1_slot14;
-                    echoed = _closure1_slot1;
-                    source = _closure1_slot2;
-                    sizing = 37;
-                    sizing = source[sizing];
-                    output = echoed.bind(tangon)(sizing);
-                    sizing = {};
-                    result = _closure2_slot13;
-                    sizing['channel'] = result;
-                    result = _closure2_slot36;
-                    sizing['scrollToNewMessages'] = result;
-                    sizing = update.bind(tangon)(output, sizing);
-                    backup[1] = sizing;
+                    backup[0] = kiloes;
+                    echoed = _closure1_slot14;
+                    result = _closure1_slot1;
+                    update = _closure1_slot2;
+                    kiloes = 37;
+                    kiloes = update[kiloes];
+                    sizing = result.bind(tangon)(kiloes);
+                    kiloes = {};
+                    output = _closure2_slot13;
+                    kiloes['channel'] = output;
+                    output = _closure2_slot36;
+                    kiloes['scrollToNewMessages'] = output;
+                    kiloes = echoed.bind(tangon)(sizing, kiloes);
+                    backup[1] = kiloes;
                     option['children'] = backup;
                     option = foxtra.bind(tangon)(offset, option);
                     backup = new Array(6);
                     backup[0] = option;
-                    sizing = _closure1_slot15;
+                    kiloes = _closure1_slot15;
                     option = 38;
-                    option = source[option];
-                    offset = echoed.bind(tangon)(option);
+                    option = update[option];
+                    offset = result.bind(tangon)(option);
                     option = {};
-                    output = _closure2_slot7;
-                    option['alwaysRespectKeyboard'] = output;
-                    output = _closure2_slot13;
-                    option['channel'] = output;
-                    ctrled = _closure2_slot10;
-                    option['screenIndex'] = ctrled;
-                    vacuum = _closure2_slot2;
-                    option['chatInputRef'] = vacuum;
-                    output = _closure2_slot17;
-                    option['connected'] = output;
-                    output = _closure2_slot4;
-                    option['customHandlers'] = output;
-                    output = _closure2_slot16;
-                    option['enableSwipeActions'] = output;
-                    output = _closure2_slot6;
-                    option['HACK_fixModalInteraction'] = output;
-                    output = _closure2_slot23;
-                    option['isResourceChannel'] = output;
-                    output = _closure2_slot19;
-                    option['messages'] = output;
-                    output = _closure2_slot35;
-                    option['onPressKey'] = output;
-                    output = _closure2_slot34;
-                    option['onScroll'] = output;
-                    output = _closure2_slot20;
-                    option['ref'] = output;
-                    output = _closure2_slot3;
-                    option['scrollEnabled'] = output;
+                    sizing = _closure2_slot7;
+                    option['alwaysRespectKeyboard'] = sizing;
+                    sizing = _closure2_slot13;
+                    option['channel'] = sizing;
+                    source = _closure2_slot10;
+                    option['screenIndex'] = source;
+                    ctrled = _closure2_slot2;
+                    option['chatInputRef'] = ctrled;
+                    sizing = _closure2_slot17;
+                    option['connected'] = sizing;
+                    sizing = _closure2_slot4;
+                    option['customHandlers'] = sizing;
+                    sizing = _closure2_slot16;
+                    option['enableSwipeActions'] = sizing;
+                    sizing = _closure2_slot6;
+                    option['HACK_fixModalInteraction'] = sizing;
+                    sizing = _closure2_slot23;
+                    option['isResourceChannel'] = sizing;
+                    sizing = _closure2_slot19;
+                    option['messages'] = sizing;
+                    sizing = _closure2_slot35;
+                    option['onPressKey'] = sizing;
+                    sizing = _closure2_slot34;
+                    option['onScroll'] = sizing;
+                    sizing = _closure2_slot20;
+                    option['ref'] = sizing;
+                    sizing = _closure2_slot3;
+                    option['scrollEnabled'] = sizing;
+                    sizing = _closure2_slot11;
+                    output = sizing.chat;
+                    sizing = new Array(2);
+                    sizing[0] = output;
                     output = _closure2_slot11;
-                    result = output.chat;
-                    output = new Array(2);
-                    output[0] = result;
-                    result = _closure2_slot11;
-                    result = result.chatBackground;
-                    output[1] = result;
-                    option['style'] = output;
-                    output = _closure2_slot21;
-                    option['visibleMessagesWindowHandler'] = output;
-                    output = 39;
-                    output = source[output];
-                    result = echoed.bind(tangon)(output);
-                    output = {};
-                    output['ref'] = vacuum;
-                    vacuum = _closure2_slot13;
-                    output['channel'] = vacuum;
-                    vacuum = _closure2_slot23;
-                    output['isResourceChannel'] = vacuum;
-                    output['screenIndex'] = ctrled;
-                    ctrled = _closure2_slot8;
-                    output['secondaryTextFieldRef'] = ctrled;
-                    ctrled = _closure2_slot9;
-                    output['setNoExtractUI'] = ctrled;
-                    result = update.bind(tangon)(result, output);
-                    output = new Array(2);
-                    output[0] = result;
-                    result = 40;
-                    result = source[result];
-                    echoed = echoed.bind(tangon)(result);
-                    result = {};
-                    source = _closure2_slot1;
-                    result['channelId'] = source;
+                    output = output.chatBackground;
+                    sizing[1] = output;
+                    option['style'] = sizing;
+                    sizing = _closure2_slot21;
+                    option['visibleMessagesWindowHandler'] = sizing;
+                    sizing = 39;
+                    sizing = update[sizing];
+                    output = result.bind(tangon)(sizing);
+                    sizing = {};
+                    sizing['ref'] = ctrled;
                     ctrled = _closure2_slot13;
-                    source = ctrled.getGuildId;
-                    source = source.bind(ctrled)();
-                    result['guildId'] = source;
-                    source = _closure2_slot19;
-                    source = source.hasMoreBefore;
-                    source = !source;
-                    if(!source) { _fun00020_ip = 634; continue _fun00019 }
- 627:
-                    ctrled = _closure2_slot5;
-                    source = !ctrled;
- 634:
-                    result['shouldRender'] = source;
-                    result = update.bind(tangon)(echoed, result);
-                    output[1] = result;
-                    option['children'] = output;
-                    option = sizing.bind(tangon)(offset, option);
+                    sizing['channel'] = ctrled;
+                    ctrled = _closure2_slot23;
+                    sizing['isResourceChannel'] = ctrled;
+                    sizing['screenIndex'] = source;
+                    source = _closure2_slot8;
+                    sizing['secondaryTextFieldRef'] = source;
+                    source = _closure2_slot9;
+                    sizing['setNoExtractUI'] = source;
+                    output = echoed.bind(tangon)(output, sizing);
+                    sizing = new Array(2);
+                    sizing[0] = output;
+                    output = 40;
+                    output = update[output];
+                    result = result.bind(tangon)(output);
+                    output = {};
+                    update = _closure2_slot1;
+                    output['channelId'] = update;
+                    source = _closure2_slot13;
+                    update = source.getGuildId;
+                    update = update.bind(source)();
+                    output['guildId'] = update;
+                    update = _closure2_slot19;
+                    update = update.hasMoreBefore;
+                    update = !update;
+                    if(!update) { _fun00020_ip = 632; continue _fun00019 }
+ 625:
+                    source = _closure2_slot5;
+                    update = !source;
+ 632:
+                    output['shouldRender'] = update;
+                    output = echoed.bind(tangon)(result, output);
+                    sizing[1] = output;
+                    option['children'] = sizing;
+                    option = kiloes.bind(tangon)(offset, option);
                     backup[1] = option;
                     offset = _closure1_slot0;
-                    sizing = _closure1_slot2;
+                    kiloes = _closure1_slot2;
                     option = 41;
-                    option = sizing[option];
+                    option = kiloes[option];
                     offset = offset.bind(tangon)(option);
                     option = offset.isAndroid;
                     offset = option.bind(offset)();
-                    echoed = null;
+                    result = null;
                     option = null;
-                    if(offset) { _fun00020_ip = 753; continue _fun00019 }
- 699:
-                    output = _closure1_slot14;
-                    sizing = _closure1_slot1;
-                    result = _closure1_slot2;
+                    if(offset) { _fun00020_ip = 751; continue _fun00019 }
+ 697:
+                    sizing = _closure1_slot14;
+                    kiloes = _closure1_slot1;
+                    output = _closure1_slot2;
                     offset = 42;
-                    offset = result[offset];
-                    sizing = sizing.bind(tangon)(offset);
+                    offset = output[offset];
+                    kiloes = kiloes.bind(tangon)(offset);
                     offset = {};
-                    result = _closure2_slot13;
-                    result = result.id;
-                    offset['channelId'] = result;
-                    result = _closure2_slot20;
-                    offset['messagesRef'] = result;
-                    option = output.bind(tangon)(sizing, offset);
- 753:
+                    output = _closure2_slot13;
+                    output = output.id;
+                    offset['channelId'] = output;
+                    output = _closure2_slot20;
+                    offset['messagesRef'] = output;
+                    option = sizing.bind(tangon)(kiloes, offset);
+ 751:
                     backup[2] = option;
                     option = _closure2_slot29;
-                    if(!option) { _fun00020_ip = 803; continue _fun00019 }
- 764:
-                    output = _closure1_slot14;
-                    sizing = _closure1_slot5;
+                    if(!option) { _fun00020_ip = 801; continue _fun00019 }
+ 762:
+                    sizing = _closure1_slot14;
+                    kiloes = _closure1_slot5;
                     offset = {};
-                    result = 'none';
-                    offset['pointerEvents'] = result;
-                    result = _closure2_slot11;
-                    result = result.overlay;
-                    offset['style'] = result;
-                    option = output.bind(tangon)(sizing, offset);
- 803:
+                    output = 'none';
+                    offset['pointerEvents'] = output;
+                    output = _closure2_slot11;
+                    output = output.overlay;
+                    offset['style'] = output;
+                    option = sizing.bind(tangon)(kiloes, offset);
+ 801:
                     backup[3] = option;
                     offset = _closure2_slot17;
                     option = null;
-                    if(!offset) { _fun00020_ip = 1023; continue _fun00019 }
- 819:
+                    if(!offset) { _fun00020_ip = 1021; continue _fun00019 }
+ 817:
                     offset = _closure2_slot24;
                     option = null;
-                    if(offset) { _fun00020_ip = 1023; continue _fun00019 }
- 831:
-                    output = _closure1_slot14;
-                    sizing = _closure1_slot1;
-                    result = _closure1_slot2;
+                    if(offset) { _fun00020_ip = 1021; continue _fun00019 }
+ 829:
+                    sizing = _closure1_slot14;
+                    kiloes = _closure1_slot1;
+                    output = _closure1_slot2;
                     offset = 43;
-                    offset = result[offset];
-                    sizing = sizing.bind(tangon)(offset);
+                    offset = output[offset];
+                    kiloes = kiloes.bind(tangon)(offset);
                     offset = {};
-                    result = _closure2_slot1;
-                    offset['channelId'] = result;
-                    result = _closure2_slot10;
-                    offset['screenIndex'] = result;
-                    result = _closure2_slot19;
-                    result = result.jumpReturnTargetId;
-                    if(!(echoed == result)) { _fun00020_ip = 947; continue _fun00019 }
- 888:
+                    output = _closure2_slot1;
+                    offset['channelId'] = output;
+                    output = _closure2_slot10;
+                    offset['screenIndex'] = output;
+                    output = _closure2_slot19;
+                    output = output.jumpReturnTargetId;
+                    if(!(result == output)) { _fun00020_ip = 945; continue _fun00019 }
+ 886:
+                    update = _closure1_slot0;
+                    source = _closure1_slot2;
+                    output = 17;
+                    result = source[output];
+                    result = update.bind(tangon)(result);
+                    echoed = result.intl;
+                    result = echoed.string;
+                    output = source[output];
+                    output = update.bind(tangon)(output);
+                    output = output.t;
+                    output = output.gpoQsL;
+                    output = result.bind(echoed)(output);
+                    _fun00020_ip = 1002; continue _fun00019;
+ 945:
                     source = _closure1_slot0;
                     ctrled = _closure1_slot2;
                     result = 17;
@@ -998,32 +1012,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     result = ctrled[result];
                     result = source.bind(tangon)(result);
                     result = result.t;
-                    result = result.gpoQsL;
-                    result = echoed.bind(update)(result);
-                    _fun00020_ip = 1004; continue _fun00019;
- 947:
-                    ctrled = _closure1_slot0;
-                    vacuum = _closure1_slot2;
-                    echoed = 17;
-                    update = vacuum[echoed];
-                    update = ctrled.bind(tangon)(update);
-                    source = update.intl;
-                    update = source.string;
-                    echoed = vacuum[echoed];
-                    echoed = ctrled.bind(tangon)(echoed);
-                    echoed = echoed.t;
-                    echoed = echoed.dpjpOj;
-                    result = update.bind(source)(echoed);
- 1004:
-                    offset['accessibilityLabel'] = result;
-                    result = _closure2_slot37;
-                    offset['didTapJump'] = result;
-                    option = output.bind(tangon)(sizing, offset);
- 1023:
+                    result = result.dpjpOj;
+                    output = echoed.bind(update)(result);
+ 1002:
+                    offset['accessibilityLabel'] = output;
+                    output = _closure2_slot37;
+                    offset['didTapJump'] = output;
+                    option = sizing.bind(tangon)(kiloes, offset);
+ 1021:
                     backup[4] = option;
                     option = _closure1_slot14;
                     sizing = _closure1_slot0;
                     offset = _closure1_slot2;
+                    kiloes = 44;
                     kiloes = offset[kiloes];
                     kiloes = sizing.bind(tangon)(kiloes);
                     sizing = kiloes.ChatViewKeyboardAdjustedPlaceholder;
@@ -1045,7 +1046,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = new Array(3);
                     report[0] = golfie;
                     golfie = _closure1_slot1;
-                    oscard = 44;
+                    oscard = 45;
                     oscard = offset[oscard];
                     yankee = golfie.bind(tangon)(oscard);
                     oscard = {};
@@ -1053,7 +1054,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard['channelId'] = verify;
                     oscard = option.bind(tangon)(yankee, oscard);
                     report[1] = oscard;
-                    oscard = 45;
+                    oscard = 46;
                     oscard = offset[oscard];
                     golfie = golfie.bind(tangon)(oscard);
                     oscard = {};
@@ -1067,7 +1068,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             zuuluu = _closure1_slot15;
             michal = _closure1_slot1;
-            verify = 46;
+            verify = 47;
             entity = output[verify];
             michal = michal.bind(tangon)(entity);
             entity = {};
@@ -1082,7 +1083,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = _closure1_slot14;
             romeon = _closure1_slot1;
             result = _closure1_slot2;
-            report = 47;
+            report = 48;
             report = result[report];
             romeon = romeon.bind(tangon)(report);
             report = {};
@@ -1095,7 +1096,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = function(argFoo, argBar) { // Original name: fe
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
-                entity = 48;
+                entity = 49;
                 michal = michal[entity];
                 entity = undefined;
                 zuuluu = zuuluu.bind(entity)(michal);
@@ -1107,7 +1108,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             romeon = _closure1_slot0;
             output = _closure1_slot2;
-            oscard = 49;
+            oscard = 50;
             oscard = output[oscard];
             romeon = romeon.bind(tangon)(oscard);
             oscard = romeon.shouldNSFWGateGuild;
@@ -1142,7 +1143,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = _closure1_slot14;
             yankee = _closure1_slot1;
             output = _closure1_slot2;
-            offset = 55;
+            offset = 56;
             offset = output[offset];
             yankee = yankee.bind(tangon)(offset);
             offset = {};
@@ -1157,7 +1158,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = _closure1_slot14;
             yankee = _closure1_slot1;
             output = _closure1_slot2;
-            offset = 54;
+            offset = 55;
             offset = output[offset];
             yankee = yankee.bind(tangon)(offset);
             offset = {};
@@ -1173,7 +1174,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = _closure1_slot14;
             yankee = _closure1_slot1;
             sizing = _closure1_slot2;
-            offset = 53;
+            offset = 54;
             offset = sizing[offset];
             yankee = yankee.bind(tangon)(offset);
             offset = {};
@@ -1189,14 +1190,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = _closure1_slot14;
             yankee = _closure1_slot1;
             output = _closure1_slot2;
-            offset = 51;
+            offset = 52;
             offset = output[offset];
             yankee = yankee.bind(tangon)(offset);
             offset = {};
             foxtra = foxtra.empty;
             offset['style'] = foxtra;
             sizing = _closure1_slot0;
-            foxtra = 52;
+            foxtra = 53;
             foxtra = output[foxtra];
             foxtra = sizing.bind(tangon)(foxtra);
             foxtra = foxtra.EmptyChannelNoTextChannels;
@@ -1234,7 +1235,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = _closure1_slot14;
             option = _closure1_slot1;
             yankee = _closure1_slot2;
-            golfie = 50;
+            golfie = 51;
             golfie = yankee[golfie];
             option = option.bind(tangon)(golfie);
             golfie = {};
@@ -1250,7 +1251,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     michal = tangon.bind(golfie)(michal);
-    tangon = 56;
+    tangon = 57;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

@@ -934,7 +934,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                                     StartGenerator();
                                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                    if(michal) { _fun00024_ip = 180; continue _fun00023 }
+                                    if(michal) { _fun00024_ip = 155; continue _fun00023 }
  10:
                                     michal = argFoo;
                                     option = michal.customId;
@@ -944,8 +944,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                     return tangon;
  25:
                                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                                    if(zuuluu) { _fun00024_ip = 177; continue _fun00023 }
- 34:
+                                    if(zuuluu) { _fun00024_ip = 152; continue _fun00023 }
+ 31:
                                     report = _closure1_slot0;
                                     oscard = _closure1_slot2;
                                     zuuluu = 20;
@@ -957,18 +957,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                     zuuluu['channelId'] = verify;
                                     verify = _closure3_slot0;
                                     zuuluu['applicationId'] = verify;
-                                    verify = _closure3_slot5;
-                                    offset = null;
-                                    verify = offset == verify;
+                                    offset = _closure3_slot5;
+                                    verify = null;
+                                    verify = verify == offset;
                                     zuuluu['isStart'] = verify;
-                                    verify = _closure3_slot5;
-                                    offset = offset != verify;
-                                    verify = undefined;
-                                    if(!offset) { _fun00024_ip = 116; continue _fun00023 }
- 112:
-                                    verify = _closure3_slot5;
- 116:
-                                    zuuluu['instanceId'] = verify;
                                     verify = _closure3_slot3;
                                     zuuluu['embeddedActivitiesManager'] = verify;
                                     zuuluu['customId'] = option;
@@ -977,19 +969,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                     golfie = _closure2_slot1;
                                     zuuluu['analyticsLocations'] = golfie;
                                     zuuluu = report.bind(oscard)(zuuluu);
-                                    SaveGenerator(address=165);
- 163:
+                                    SaveGenerator(address=140);
+ 138:
                                     return zuuluu;
- 165:
+ 140:
                                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                                    if(report) { _fun00024_ip = 174; continue _fun00023 }
- 171:
+                                    if(report) { _fun00024_ip = 149; continue _fun00023 }
+ 146:
                                     return tangon;
- 174:
+ 149:
                                     return zuuluu;
- 177:
+ 152:
                                     return michal;
- 180:
+ 155:
                                     return entity;
                                 }
                             };

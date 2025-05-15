@@ -420,7 +420,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = result.useState;
             michal = michal.bind(result)(output);
             michal = backup.bind(tangon)(michal, option);
-            source = michal[golfie];
+            update = michal[golfie];
             michal = michal[report];
             var _closure2_slot7 = michal;
             report = _closure1_slot1;
@@ -445,8 +445,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.bind(michal)();
                 return entity;
             };
-            update = golfie.bind(backup)(zuuluu, michal);
-            var _closure2_slot8 = update;
+            source = golfie.bind(backup)(zuuluu, michal);
+            var _closure2_slot8 = source;
             zuuluu = _closure1_slot11;
             michal = function(argFoo) {
                 entity = argFoo;
@@ -524,7 +524,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = new Array(2);
             echoed[0] = sequen;
             sequen = null;
-            if(!update) { _fun00002_ip = 755; continue _fun00001 }
+            if(!source) { _fun00002_ip = 755; continue _fun00001 }
  749:
             sequen = verify.inputGroupConsentRequired;
  755:
@@ -658,7 +658,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = new Array(2);
             record[0] = target;
             target = null;
-            if(!update) { _fun00002_ip = 1254; continue _fun00001 }
+            if(!source) { _fun00002_ip = 1254; continue _fun00001 }
  1248:
             target = verify.buttonConsentRequired;
  1254:
@@ -677,7 +677,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = {};
             whisks = 'lg';
             target['size'] = whisks;
-            target['loading'] = source;
+            target['loading'] = update;
             target['disabled'] = ctrled;
             whisks = function() { // Original name: onPress
                 michal = _closure2_slot9;
@@ -735,7 +735,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = {};
             papara = global;
             papara = papara.Boolean;
-            papara = papara.bind(tangon)(update);
+            papara = papara.bind(tangon)(source);
             sequen['consentRequired'] = papara;
             sequen['consent'] = cntext;
             cntext = function() { // Original name: onToggleConsent
@@ -757,7 +757,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = zuuluu.bind(tangon)(output, golfie);
             golfie = new Array(2);
             golfie[0] = output;
-            if(!option) { _fun00002_ip = 1615; continue _fun00001 }
+            if(!option) { _fun00002_ip = 1620; continue _fun00001 }
  1558:
             echoed = _closure1_slot14;
             result = _closure1_slot1;
@@ -768,12 +768,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = {};
             output['onPress'] = vacuum;
             output['disabled'] = ctrled;
-            output['loading'] = source;
-            source = true;
-            output['privacy'] = source;
-            output['consentRequired'] = update;
+            output['loading'] = update;
+            update = true;
+            output['privacy'] = update;
+            output['consentRequired'] = source;
+            output['finalPage'] = update;
             option = echoed.bind(tangon)(result, output);
- 1615:
+ 1620:
             golfie[1] = option;
             report['children'] = golfie;
             oscard = zuuluu.bind(tangon)(oscard, report);
@@ -808,15 +809,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = kiloes.isThemeLight;
             kiloes = backup.bind(kiloes)(sizing);
             backup = 'dark';
-            if(!kiloes) { _fun00002_ip = 1769; continue _fun00001 }
- 1765:
+            if(!kiloes) { _fun00002_ip = 1774; continue _fun00001 }
+ 1770:
             backup = 'light';
- 1769:
+ 1774:
             oscard['theme'] = backup;
-            if(!(foxtra == romeon)) { _fun00002_ip = 1782; continue _fun00001 }
- 1778:
+            if(!(foxtra == romeon)) { _fun00002_ip = 1787; continue _fun00001 }
+ 1783:
             romeon = _closure1_slot19;
- 1782:
+ 1787:
             oscard['date'] = romeon;
             yankee = _closure1_slot20;
             oscard['maximumDate'] = yankee;

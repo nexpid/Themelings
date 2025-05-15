@@ -3,6 +3,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = argBar;
     zuuluu = argFre;
     golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = function(argFoo, argBar) { // Original name: getKey
         entity = global;
         entity = entity.HermesInternal;
@@ -14,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = report.bind(tangon)(zuuluu, michal, entity);
         return entity;
     };
-    var _closure1_slot1 = entity;
+    var _closure1_slot3 = entity;
     entity = global;
     option = entity.Object;
     report = option.defineProperty;
@@ -29,20 +31,41 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard.bind(entity)(tangon);
     report = tangon.createZustandStore;
     tangon = function() {
-        entity = {'chatInputContainerHeight': 0, 'showingAutoComplete': false, 'showingExpressionSuggestions': false};
-        michal = global;
-        michal = michal.Set;
-        zuuluu = michal.prototype;
-        zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
-        tangon = zuuluu;
-        michal = new tangon[michal](zuuluu);
-        michal = michal instanceof Object ? michal : zuuluu;
-        entity['shouldShowJumpToPresentButton'] = michal;
-        return entity;
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            entity = {'chatInputContainerHeight': null, 'showingAutoComplete': false, 'showingExpressionSuggestions': false};
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 1;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            michal = tangon.bind(michal)(zuuluu);
+            report = michal.Storage;
+            tangon = report.get;
+            zuuluu = 'chatInputContainerHeight';
+            michal = 0;
+            zuuluu = tangon.bind(report)(zuuluu, michal);
+            tangon = null;
+            tangon = tangon != zuuluu;
+            if(!tangon) { _fun00002_ip = 74; continue _fun00001 }
+ 71:
+            michal = zuuluu;
+ 74:
+            entity['chatInputContainerHeight'] = michal;
+            michal = global;
+            michal = michal.Set;
+            zuuluu = michal.prototype;
+            zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
+            option = zuuluu;
+            michal = new option[michal](golfie);
+            michal = michal instanceof Object ? michal : zuuluu;
+            entity['shouldShowJumpToPresentButton'] = michal;
+            return entity;
+        }
     };
     tangon = report.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    report = 1;
+    var _closure1_slot2 = tangon;
+    report = 2;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -50,18 +73,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = oscard.bind(golfie)(report);
     zuuluu['default'] = tangon;
     tangon = function(argFoo) { // Original name: updateChatInputContainerHeight
-        zuuluu = _closure1_slot0;
-        michal = zuuluu.setState;
-        entity = {};
-        tangon = argFoo;
-        entity['chatInputContainerHeight'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
+        report = argFoo;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        entity = 1;
+        zuuluu = zuuluu[entity];
         entity = undefined;
+        zuuluu = tangon.bind(entity)(zuuluu);
+        oscard = zuuluu.Storage;
+        tangon = oscard.set;
+        zuuluu = 'chatInputContainerHeight';
+        zuuluu = tangon.bind(oscard)(zuuluu, report);
+        tangon = _closure1_slot2;
+        zuuluu = tangon.setState;
+        michal = {};
+        michal['chatInputContainerHeight'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
     zuuluu['updateChatInputContainerHeight'] = tangon;
     tangon = function(argFoo) { // Original name: updateShowingAutoComplete
-        zuuluu = _closure1_slot0;
+        zuuluu = _closure1_slot2;
         michal = zuuluu.setState;
         entity = {};
         tangon = argFoo;
@@ -72,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['updateShowingAutoComplete'] = tangon;
     tangon = function(argFoo) { // Original name: updateShowingExpressionSuggestions
-        zuuluu = _closure1_slot0;
+        zuuluu = _closure1_slot2;
         michal = zuuluu.setState;
         entity = {};
         tangon = argFoo;
@@ -83,21 +115,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['updateShowingExpressionSuggestions'] = tangon;
     tangon = function(argFoo, argBar, argBaz) { // Original name: updateShouldShowJumpToPresentButton
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zuuluu = argBaz;
-            report = _closure1_slot0;
+            report = _closure1_slot2;
             tangon = report.getField;
             entity = 'shouldShowJumpToPresentButton';
             golfie = tangon.bind(report)(entity);
-            oscard = _closure1_slot1;
+            oscard = _closure1_slot3;
             entity = undefined;
             report = argFoo;
             tangon = argBar;
             tangon = oscard.bind(entity)(report, tangon);
             report = golfie.has;
             report = report.bind(golfie)(tangon);
-            if(!(report !== zuuluu)) { _fun00002_ip = 135; continue _fun00001 }
+            if(!(report !== zuuluu)) { _fun00004_ip = 135; continue _fun00003 }
  57:
             report = global;
             report = report.Set;
@@ -107,16 +139,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = golfie;
             report = new offset[report](verify, option);
             report = report instanceof Object ? report : oscard;
-            if(zuuluu) { _fun00002_ip = 103; continue _fun00001 }
+            if(zuuluu) { _fun00004_ip = 103; continue _fun00003 }
  91:
             zuuluu = report.delete;
             zuuluu = zuuluu.bind(report)(tangon);
-            _fun00002_ip = 113; continue _fun00001;
+            _fun00004_ip = 113; continue _fun00003;
  103:
             zuuluu = report.add;
             zuuluu = zuuluu.bind(report)(tangon);
  113:
-            tangon = _closure1_slot0;
+            tangon = _closure1_slot2;
             zuuluu = tangon.setState;
             michal = {};
             michal['shouldShowJumpToPresentButton'] = report;
@@ -127,12 +159,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['updateShouldShowJumpToPresentButton'] = tangon;
     michal = function(argFoo, argBar) { // Original name: useShouldShowJumpToPresentButton
-        tangon = _closure1_slot0;
+        tangon = _closure1_slot2;
         zuuluu = tangon.useField;
         michal = 'shouldShowJumpToPresentButton';
         zuuluu = zuuluu.bind(tangon)(michal);
         michal = zuuluu.has;
-        oscard = _closure1_slot1;
+        oscard = _closure1_slot3;
         report = undefined;
         tangon = argFoo;
         entity = argBar;

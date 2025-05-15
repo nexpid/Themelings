@@ -1026,19 +1026,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity['pollMedia'] = foxtra;
                     entity['isSelected'] = yankee;
                     yankee = _closure2_slot7;
-                    if(!yankee) { _fun00020_ip = 644; continue _fun00019 }
- 641:
+                    if(!yankee) { _fun00020_ip = 652; continue _fun00019 }
+ 649:
                     yankee = romeon;
- 644:
+ 652:
                     entity['isVictor'] = yankee;
                     entity['didSelfVote'] = verify;
                     entity['style'] = option;
                     option = _closure2_slot10;
-                    if(!option) { _fun00020_ip = 674; continue _fun00019 }
- 667:
+                    if(!option) { _fun00020_ip = 682; continue _fun00019 }
+ 675:
                     verify = _closure2_slot1;
                     option = !verify;
- 674:
+ 682:
                     entity['shouldAnimateTransition'] = option;
                     verify = tangon.Math;
                     option = verify.round;
@@ -1242,15 +1242,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal[papara];
             michal = ctrled.bind(kiloes)(michal);
             michal = michal.t;
-            if(result) { _fun00016_ip = 964; continue _fun00015 }
- 949:
+            if(result) { _fun00016_ip = 960; continue _fun00015 }
+ 945:
             result = michal.cHfFqq;
             result = zuuluu.bind(verify)(result);
-            _fun00016_ip = 977; continue _fun00015;
- 964:
+            _fun00016_ip = 973; continue _fun00015;
+ 960:
             michal = michal.PVATMz;
             result = zuuluu.bind(verify)(michal);
- 977:
+ 973:
             _closure2_slot15 = result;
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
@@ -1318,17 +1318,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             zuuluu = zuuluu.bind(verify)(michal);
             michal = undefined;
-            if(!yankee) { _fun00016_ip = 1200; continue _fun00015 }
- 1108:
+            if(!yankee) { _fun00016_ip = 1196; continue _fun00015 }
+ 1104:
             michal = undefined;
-            if(report) { _fun00016_ip = 1200; continue _fun00015 }
- 1113:
+            if(report) { _fun00016_ip = 1196; continue _fun00015 }
+ 1109:
             michal = undefined;
-            if(oscard) { _fun00016_ip = 1200; continue _fun00015 }
- 1118:
+            if(oscard) { _fun00016_ip = 1196; continue _fun00015 }
+ 1114:
             michal = undefined;
-            if(entity) { _fun00016_ip = 1200; continue _fun00015 }
- 1123:
+            if(entity) { _fun00016_ip = 1196; continue _fun00015 }
+ 1119:
             entity = {'label': null, 'presentation': 'textButton', 'enabled': true, 'type': 'showVotes'};
             record = _closure1_slot0;
             verify = _closure1_slot2;
@@ -1343,7 +1343,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = source.bind(ctrled)(verify);
             entity['label'] = verify;
             michal = entity;
- 1200:
+ 1196:
             verify = cntext.allow_multiselect;
             ctrled = _closure1_slot0;
             source = _closure1_slot2;
@@ -1486,10 +1486,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             backup = backup.bind(update)();
             entity['answersInteraction'] = backup;
             backup = undefined;
-            if(!echoed) { _fun00016_ip = 1538; continue _fun00015 }
- 1535:
+            if(!echoed) { _fun00016_ip = 1534; continue _fun00015 }
+ 1531:
             backup = result;
- 1538:
+ 1534:
             entity['answerTapAccessibilityLabel'] = backup;
             entity['layoutType'] = sizing;
             backup = _closure1_slot1;

@@ -211,10 +211,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _closure2_slot12 = oscard;
             romeon = offset.current;
             offset = yankee;
-            if(!(tangon === romeon)) { _fun00004_ip = 382; continue _fun00003 }
- 377:
+            if(!(tangon === romeon)) { _fun00004_ip = 376; continue _fun00003 }
+ 371:
             offset = oscard.current;
- 382:
+ 376:
             _closure2_slot13 = offset;
             oscard = _closure1_slot4;
             update = oscard.useEffect;

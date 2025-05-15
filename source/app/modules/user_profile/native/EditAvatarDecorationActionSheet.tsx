@@ -1105,7 +1105,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = echoed[backup];
             backup = result.bind(tangon)(backup);
             backup = backup.t;
-            backup = backup.dIepy8;
+            backup = backup.e1UiOT;
             backup = sizing.bind(output)(backup);
             _fun00020_ip = 1393; continue _fun00019;
  1336:
@@ -1119,7 +1119,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = echoed[kiloes];
             kiloes = result.bind(tangon)(kiloes);
             kiloes = kiloes.t;
-            kiloes = kiloes.2xIzZW;
+            kiloes = kiloes.FyBDiY;
             backup = sizing.bind(output)(kiloes);
  1393:
             yankee['children'] = backup;

@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = golfie.bind(entity)(tangon);
     tangon = tangon.Millis;
     tangon = tangon.HOUR;
-    tangon = 12;
+    tangon = 13;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
@@ -312,6 +312,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     }
                 };
                 entity['handleUserSettingsProtoUpdate'] = zuuluu;
+                zuuluu = function() {
+                    _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+ 0:
+                        tangon = _closure1_slot0;
+                        zuuluu = _closure1_slot1;
+                        entity = 9;
+                        zuuluu = zuuluu[entity];
+                        entity = undefined;
+                        tangon = tangon.bind(entity)(zuuluu);
+                        zuuluu = tangon.isAndroid;
+                        zuuluu = zuuluu.bind(tangon)();
+                        if(!zuuluu) { _fun00012_ip = 67; continue _fun00011 }
+ 37:
+                        zuuluu = _closure1_slot0;
+                        tangon = _closure1_slot1;
+                        michal = 10;
+                        michal = tangon[michal];
+                        zuuluu = zuuluu.bind(entity)(michal);
+                        michal = zuuluu.fetchMobileAdData;
+                        michal = michal.bind(zuuluu)();
+ 67:
+                        return entity;
+                    }
+                };
+                entity['handleFetchMobileAdDataBegin'] = zuuluu;
                 michal = function() {
                     entity = global;
                     report = entity.window;
@@ -339,6 +364,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal['RUNNING_GAMES_CHANGE'] = zuuluu;
                 zuuluu = entity.handleUserSettingsProtoUpdate;
                 michal['USER_SETTINGS_PROTO_UPDATE'] = zuuluu;
+                zuuluu = entity.handleFetchMobileAdDataBegin;
+                michal['FETCH_MOBILE_AD_DATA_BEGIN'] = zuuluu;
                 zuuluu = entity.handleLogout;
                 michal['LOGOUT'] = zuuluu;
                 entity['actions'] = michal;
@@ -355,11 +382,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = '_fetch';
         report['key'] = oscard;
         entity = function() { // Original name: value
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+            _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot1;
-                entity = 9;
+                entity = 11;
                 zuuluu = zuuluu[entity];
                 entity = undefined;
                 report = tangon.bind(entity)(zuuluu);
@@ -369,13 +396,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = oscard.QUESTS_MANAGER;
                 zuuluu['location'] = oscard;
                 zuuluu = tangon.bind(report)(zuuluu);
-                if(!zuuluu) { _fun00012_ip = 68; continue _fun00011 }
+                if(!zuuluu) { _fun00014_ip = 68; continue _fun00013 }
  55:
                 tangon = _closure1_slot7;
                 tangon = tangon.isFetchingCurrentQuests;
                 zuuluu = !tangon;
  68:
-                if(!zuuluu) { _fun00012_ip = 145; continue _fun00011 }
+                if(!zuuluu) { _fun00014_ip = 145; continue _fun00013 }
  71:
                 report = _closure1_slot0;
                 oscard = _closure1_slot1;
@@ -387,7 +414,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = oscard[michal];
                 tangon = report.bind(entity)(michal);
                 zuuluu = tangon.fetchQuestToDeliver;
-                michal = 11;
+                michal = 12;
                 michal = oscard[michal];
                 michal = report.bind(entity)(michal);
                 michal = michal.QuestPlacement;
@@ -409,7 +436,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     backup = tangon;
     michal = new backup[michal](foxtra);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 13;
+    tangon = 14;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

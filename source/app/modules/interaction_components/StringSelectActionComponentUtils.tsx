@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = oscard.bind(golfie)(tangon);
             tangon = tangon.ComponentType;
             tangon = tangon.STRING_SELECT;
-            if(!(report !== tangon)) { _fun00002_ip = 127; continue _fun00001 }
+            if(!(report !== tangon)) { _fun00002_ip = 123; continue _fun00001 }
  86:
             report = zuuluu.options;
             tangon = report.filter;
@@ -66,10 +66,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             entity = zuuluu.bind(tangon)(entity);
-            _fun00002_ip = 132; continue _fun00001;
- 127:
+            _fun00002_ip = 128; continue _fun00001;
+ 123:
             entity = michal.values;
- 132:
+ 128:
             return entity;
         }
     };

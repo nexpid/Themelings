@@ -43,17 +43,33 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = 'modules/channel/EnableEmojiInChannelNamesExperiment.tsx';
     report = oscard.bind(golfie)(report);
     zuuluu['EnableEmojiInChannelNamesExperiment'] = tangon;
-    michal = function(argFoo) { // Original name: useEnableEmojiInChannelNamesExperiment
+    tangon = function(argFoo) { // Original name: useEnableEmojiInChannelNamesExperiment
         entity = argFoo;
+        report = entity.guildId;
         tangon = entity.location;
         zuuluu = _closure1_slot0;
         michal = zuuluu.useExperiment;
         entity = {};
+        entity['guildId'] = report;
         entity['location'] = tangon;
         entity = michal.bind(zuuluu)(entity);
         entity = entity.enabled;
         return entity;
     };
-    zuuluu['useEnableEmojiInChannelNamesExperiment'] = michal;
+    zuuluu['useEnableEmojiInChannelNamesExperiment'] = tangon;
+    michal = function(argFoo) {
+        entity = argFoo;
+        report = entity.guildId;
+        tangon = entity.location;
+        zuuluu = _closure1_slot0;
+        michal = zuuluu.getCurrentConfig;
+        entity = {};
+        entity['guildId'] = report;
+        entity['location'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
+        entity = entity.enabled;
+        return entity;
+    };
+    zuuluu['isInEnableEmojiInChannelNamesExperiment'] = michal;
     return entity;
 })();

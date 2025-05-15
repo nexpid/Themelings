@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['setVoiceFilterLoopback'] = tangon;
-    michal = function(argFoo) { // Original name: requestVoiceFilterSwitch
+    tangon = function(argFoo) { // Original name: requestVoiceFilterSwitch
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = arguments[1];
@@ -78,6 +78,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['requestVoiceFilterSwitch'] = michal;
+    zuuluu['requestVoiceFilterSwitch'] = tangon;
+    michal = function() { // Original name: prefetchVoiceFilters
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 0;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'VOICE_FILTER_PREFETCH';
+        michal['type'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    zuuluu['prefetchVoiceFilters'] = michal;
     return entity;
 })();

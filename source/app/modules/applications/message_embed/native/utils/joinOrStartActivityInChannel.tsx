@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 368; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 363; continue _fun00001 }
  15:
                     kiloes = michal.appId;
                     var _closure4_slot0 = kiloes;
@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return oscard;
  54:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 365; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 360; continue _fun00001 }
  63:
                     report = _closure1_slot4;
                     zuuluu = report.getSelfEmbeddedActivityForChannel;
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  111:
                     if(!(offset === kiloes)) { _fun00002_ip = 122; continue _fun00001 }
  115:
-                    if(!(option !== verify)) { _fun00002_ip = 289; continue _fun00001 }
+                    if(!(option !== verify)) { _fun00002_ip = 284; continue _fun00001 }
  122:
                     offset = _closure1_slot4;
                     option = offset.getEmbeddedActivitiesForChannel;
@@ -81,9 +81,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = {};
                     golfie['channelId'] = verify;
                     golfie['applicationId'] = kiloes;
-                    kiloes = report == backup;
-                    golfie['isStart'] = kiloes;
-                    golfie['instanceId'] = backup;
+                    backup = report == backup;
+                    golfie['isStart'] = backup;
                     kiloes = _closure1_slot1;
                     backup = 6;
                     backup = sizing[backup];
@@ -94,32 +93,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie['customId'] = romeon;
                     golfie['referrerId'] = yankee;
                     golfie = option.bind(offset)(golfie);
-                    SaveGenerator(address=277);
- 275:
+                    SaveGenerator(address=272);
+ 270:
                     return golfie;
- 277:
+ 272:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(option) { _fun00002_ip = 286; continue _fun00001 }
- 283:
+                    if(option) { _fun00002_ip = 281; continue _fun00001 }
+ 278:
                     return golfie;
- 286:
+ 281:
                     return golfie;
- 289:
+ 284:
                     option = _closure1_slot5;
                     golfie = option.getChannel;
                     option = golfie.bind(option)(verify);
                     verify = report == option;
                     golfie = undefined;
-                    if(verify) { _fun00002_ip = 317; continue _fun00001 }
- 312:
+                    if(verify) { _fun00002_ip = 312; continue _fun00001 }
+ 307:
                     golfie = option.guild_id;
- 317:
+ 312:
                     option = report != golfie;
                     report = null;
-                    if(!option) { _fun00002_ip = 329; continue _fun00001 }
- 326:
+                    if(!option) { _fun00002_ip = 324; continue _fun00001 }
+ 321:
                     report = golfie;
- 329:
+ 324:
                     golfie = _closure1_slot1;
                     option = _closure1_slot2;
                     tangon = 4;
@@ -129,9 +128,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = tangon.bind(oscard)(report, zuuluu);
                     zuuluu = true;
                     return zuuluu;
- 365:
+ 360:
                     return michal;
- 368:
+ 363:
                     return entity;
                 }
             };

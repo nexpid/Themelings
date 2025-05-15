@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = 7;
         entity = option[entity];
         michal = michal.bind(tangon)(entity);
-        entity = {'headerLabel': 'header goes here', 'showHeaderCloseButton': true, 'ratingsBodyLabel': 'body goes here', 'reasonsHeaderLabel': 'section header goes here'};
+        entity = {'headerLabel': 'header goes here', 'showHeaderCloseButton': true, 'hideDontShowAgainCheckbox': true, 'ratingsBodyLabel': 'body goes here', 'reasonsHeaderLabel': 'section header goes here'};
         entity['reasons'] = golfie;
         golfie = _closure1_slot8;
         entity['feedbackReasons'] = golfie;

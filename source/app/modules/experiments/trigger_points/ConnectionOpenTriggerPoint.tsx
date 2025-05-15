@@ -162,7 +162,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     tangon = 26;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.BlockedDomainsExperiment;
+    tangon = tangon.LibDiscordCriticalFlowExperiment;
     verify[29] = tangon;
     tangon = 27;
     tangon = oscard[tangon];

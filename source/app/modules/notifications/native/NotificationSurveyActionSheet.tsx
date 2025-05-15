@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = 6;
         entity = romeon[entity];
         michal = michal.bind(tangon)(entity);
-        entity = {'headerLabel': null, 'showHeaderCloseButton': true, 'showDoNotShowAgainCheckbox': false};
+        entity = {'headerLabel': null, 'showHeaderCloseButton': true, 'hideDontShowAgainCheckbox': true};
         verify = romeon[option];
         verify = yankee.bind(tangon)(verify);
         foxtra = verify.intl;

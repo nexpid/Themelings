@@ -266,13 +266,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                     tangon = _closure1_slot20;
                     entity = null;
-                    if(!(entity != tangon)) { _fun00006_ip = 31; continue _fun00005 }
+                    if(!(entity != tangon)) { _fun00006_ip = 33; continue _fun00005 }
  13:
                     zuuluu = tangon.setSpeaking;
                     michal = argFoo;
                     entity = argBar;
                     entity = zuuluu.bind(tangon)(michal, entity);
- 31:
+ 33:
                     entity = undefined;
                     return entity;
                 }

@@ -565,60 +565,60 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = oscard.ownerId;
  726:
             var _closure2_slot28 = yankee;
-            if(!(golfie == foxtra)) { _fun00014_ip = 747; continue _fun00013 }
+            if(!(golfie == foxtra)) { _fun00014_ip = 749; continue _fun00013 }
  734:
             option = 'receiver';
-            if(!report) { _fun00014_ip = 745; continue _fun00013 }
- 741:
+            if(!report) { _fun00014_ip = 747; continue _fun00013 }
+ 743:
             option = 'sender';
- 745:
-            _fun00014_ip = 769; continue _fun00013;
  747:
+            _fun00014_ip = 771; continue _fun00013;
+ 749:
             romeon = golfie == foxtra;
             offset = undefined;
-            if(romeon) { _fun00014_ip = 766; continue _fun00013 }
- 756:
+            if(romeon) { _fun00014_ip = 768; continue _fun00013 }
+ 758:
             romeon = foxtra.getVoiceParticipantType;
             offset = romeon.bind(foxtra)();
- 766:
+ 768:
             option = offset;
- 769:
+ 771:
             var _closure2_slot29 = option;
             option = golfie == verify;
             offset = undefined;
-            if(option) { _fun00014_ip = 792; continue _fun00013 }
- 782:
+            if(option) { _fun00014_ip = 794; continue _fun00013 }
+ 784:
             option = verify.getMediaEngineConnectionId;
             offset = option.bind(verify)();
- 792:
+ 794:
             romeon = golfie != offset;
             option = null;
-            if(!romeon) { _fun00014_ip = 804; continue _fun00013 }
- 801:
+            if(!romeon) { _fun00014_ip = 806; continue _fun00013 }
+ 803:
             option = offset;
- 804:
+ 806:
             var _closure2_slot30 = option;
-            if(!(golfie != tangon)) { _fun00014_ip = 816; continue _fun00013 }
- 812:
-            if(!(golfie == oscard)) { _fun00014_ip = 936; continue _fun00013 }
- 816:
-            if(report) { _fun00014_ip = 853; continue _fun00013 }
- 819:
+            if(!(golfie != tangon)) { _fun00014_ip = 818; continue _fun00013 }
+ 814:
+            if(!(golfie == oscard)) { _fun00014_ip = 938; continue _fun00013 }
+ 818:
+            if(report) { _fun00014_ip = 855; continue _fun00013 }
+ 821:
             option = golfie != yankee;
             tangon = null;
-            if(!option) { _fun00014_ip = 851; continue _fun00013 }
- 828:
+            if(!option) { _fun00014_ip = 853; continue _fun00013 }
+ 830:
             offset = golfie == verify;
             option = undefined;
-            if(offset) { _fun00014_ip = 848; continue _fun00013 }
- 837:
+            if(offset) { _fun00014_ip = 850; continue _fun00013 }
+ 839:
             offset = verify.getInboundStats;
             option = offset.bind(verify)(yankee);
- 848:
+ 850:
             tangon = option;
- 851:
-            _fun00014_ip = 934; continue _fun00013;
  853:
+            _fun00014_ip = 936; continue _fun00013;
+ 855:
             offset = _closure1_slot1;
             yankee = _closure1_slot2;
             option = 15;
@@ -627,15 +627,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = romeon.maxBy;
             option = golfie == verify;
             offset = undefined;
-            if(option) { _fun00014_ip = 898; continue _fun00013 }
- 888:
+            if(option) { _fun00014_ip = 900; continue _fun00013 }
+ 890:
             option = verify.getOutboundStats;
             offset = option.bind(verify)();
- 898:
-            if(!(golfie == offset)) { _fun00014_ip = 906; continue _fun00013 }
- 902:
+ 900:
+            if(!(golfie == offset)) { _fun00014_ip = 908; continue _fun00013 }
+ 904:
             offset = new Array(0);
- 906:
+ 908:
             option = function(argFoo) {
                 entity = argFoo;
                 entity = entity.num_frames;
@@ -644,35 +644,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = yankee.bind(romeon)(offset, option);
             yankee = golfie != offset;
             option = null;
-            if(!yankee) { _fun00014_ip = 931; continue _fun00013 }
- 928:
+            if(!yankee) { _fun00014_ip = 933; continue _fun00013 }
+ 930:
             option = offset;
- 931:
+ 933:
             tangon = option;
- 934:
-            _fun00014_ip = 1014; continue _fun00013;
  936:
+            _fun00014_ip = 1016; continue _fun00013;
+ 938:
             option = golfie == verify;
-            if(report) { _fun00014_ip = 967; continue _fun00013 }
- 943:
+            if(report) { _fun00014_ip = 969; continue _fun00013 }
+ 945:
             report = undefined;
-            if(option) { _fun00014_ip = 965; continue _fun00013 }
- 948:
+            if(option) { _fun00014_ip = 967; continue _fun00013 }
+ 950:
             offset = verify.getInboundStats;
             oscard = oscard.ownerId;
             report = offset.bind(verify)(oscard);
- 965:
-            _fun00014_ip = 1011; continue _fun00013;
  967:
+            _fun00014_ip = 1013; continue _fun00013;
+ 969:
             oscard = undefined;
-            if(option) { _fun00014_ip = 1008; continue _fun00013 }
- 972:
+            if(option) { _fun00014_ip = 1010; continue _fun00013 }
+ 974:
             option = verify.getOutboundStats;
             verify = option.bind(verify)();
             golfie = golfie == verify;
             oscard = undefined;
-            if(golfie) { _fun00014_ip = 1008; continue _fun00013 }
- 991:
+            if(golfie) { _fun00014_ip = 1010; continue _fun00013 }
+ 993:
             option = verify.find;
             golfie = function(argFoo) {
                 entity = argFoo;
@@ -682,11 +682,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             oscard = option.bind(verify)(golfie);
- 1008:
+ 1010:
             report = oscard;
- 1011:
+ 1013:
             tangon = report;
- 1014:
+ 1016:
             var _closure2_slot1 = tangon;
             zuuluu = _closure1_slot12;
             tangon = zuuluu.bind(entity)();

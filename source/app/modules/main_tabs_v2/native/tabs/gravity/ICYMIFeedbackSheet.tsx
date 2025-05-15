@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = 5;
         entity = romeon[entity];
         michal = michal.bind(tangon)(entity);
-        entity = {};
+        entity = {'headerLabel': null, 'showHeaderCloseButton': true, 'hideDontShowAgainCheckbox': true};
         option = 6;
         oscard = romeon[option];
         oscard = yankee.bind(tangon)(oscard);
@@ -76,8 +76,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = oscard.ppfH9/;
         oscard = golfie.bind(verify)(oscard);
         entity['headerLabel'] = oscard;
-        oscard = true;
-        entity['showHeaderCloseButton'] = oscard;
         oscard = romeon[option];
         oscard = yankee.bind(tangon)(oscard);
         verify = oscard.intl;

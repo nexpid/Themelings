@@ -955,6 +955,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = golfie.bind(option)(tangon, oscard);
             zuuluu = michal;
  209:
+            michal = _closure1_slot13;
+            michal = michal.HIDDEN;
+            oscard = zuuluu & michal;
+            michal = _closure1_slot13;
+            michal = michal.HIDDEN;
+            if(!(oscard === michal)) { _fun00040_ip = 239; continue _fun00039 }
+ 237:
+            zuuluu = 0;
+ 239:
             michal = _closure1_slot25;
             entity = undefined;
             entity = michal.bind(entity)(report, tangon, zuuluu);

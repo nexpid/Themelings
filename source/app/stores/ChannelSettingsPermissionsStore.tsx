@@ -263,6 +263,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                 zuuluu = _closure1_slot9;
+                entity = zuuluu.getSection;
+                tangon = entity.bind(zuuluu)();
+                zuuluu = _closure1_slot9;
                 entity = zuuluu.getChannel;
                 entity = entity.bind(zuuluu)();
                 _closure1_slot21 = entity;
@@ -272,8 +275,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _closure1_slot22 = entity;
                 entity = _closure1_slot21;
                 zuuluu = null;
-                if(!(zuuluu != entity)) { _fun00014_ip = 200; continue _fun00013 }
- 51:
+                if(!(zuuluu != entity)) { _fun00014_ip = 231; continue _fun00013 }
+ 65:
+                entity = _closure1_slot11;
+                entity = entity.PERMISSIONS;
+                if(!(tangon === entity)) { _fun00014_ip = 231; continue _fun00013 }
+ 82:
                 tangon = _closure1_slot21;
                 entity = tangon.getGuildId;
                 tangon = entity.bind(tangon)();
@@ -285,10 +292,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _closure1_slot20 = oscard;
                 report = _closure1_slot23;
                 report = oscard[report];
-                if(!(zuuluu == report)) { _fun00014_ip = 104; continue _fun00013 }
- 100:
+                if(!(zuuluu == report)) { _fun00014_ip = 135; continue _fun00013 }
+ 131:
                 _closure1_slot23 = tangon;
- 104:
+ 135:
                 tangon = _closure1_slot22;
                 tangon = zuuluu != tangon;
                 var _closure1_slot15 = tangon;
@@ -312,7 +319,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.clear;
                 michal = michal.bind(zuuluu)();
                 return entity;
- 200:
+ 231:
                 entity = false;
                 return entity;
             }
@@ -576,9 +583,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['key'] = entity;
             entity = function() { // Original name: value
                 tangon = this;
-                zuuluu = tangon.waitFor;
-                michal = _closure1_slot9;
+                report = tangon.waitFor;
+                zuuluu = _closure1_slot9;
+                michal = _closure1_slot10;
+                michal = report.bind(tangon)(zuuluu, michal);
+                zuuluu = tangon.syncWith;
+                report = _closure1_slot9;
+                michal = new Array(2);
+                michal[0] = report;
                 entity = _closure1_slot10;
+                michal[1] = entity;
+                entity = function() {
+                    michal = _closure1_slot30;
+                    entity = undefined;
+                    michal = michal.bind(entity)();
+                    return entity;
+                };
                 entity = zuuluu.bind(tangon)(michal, entity);
                 entity = undefined;
                 return entity;

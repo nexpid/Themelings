@@ -744,13 +744,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = _closure1_slot16;
                         tangon = zuuluu.REMB;
                         zuuluu = argFoo;
-                        if(!(zuuluu === tangon)) { _fun00026_ip = 95; continue _fun00025 }
+                        if(!(zuuluu === tangon)) { _fun00026_ip = 97; continue _fun00025 }
  22:
                         zuuluu = _closure3_slot0;
                         zuuluu = zuuluu.context;
                         michal = _closure1_slot23;
                         michal = michal.STREAM;
-                        if(!(zuuluu === michal)) { _fun00026_ip = 95; continue _fun00025 }
+                        if(!(zuuluu === michal)) { _fun00026_ip = 97; continue _fun00025 }
  48:
                         michal = global;
                         tangon = michal.JSON;
@@ -868,7 +868,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             }
                         };
                         entity = michal.bind(zuuluu)(entity);
- 95:
+ 97:
                         entity = undefined;
                         return entity;
                     }
@@ -3910,10 +3910,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = michal.conn;
                 tangon = report.setPTTActive;
                 zuuluu = michal.forceAudioPriority;
-                if(zuuluu) { _fun00098_ip = 61; continue _fun00097 }
- 55:
+                if(zuuluu) { _fun00098_ip = 63; continue _fun00097 }
+ 57:
                 zuuluu = michal.forceAudioNormal;
- 61:
+ 63:
                 michal = michal.forceAudioPriority;
                 michal = tangon.bind(report)(zuuluu, michal);
                 return entity;

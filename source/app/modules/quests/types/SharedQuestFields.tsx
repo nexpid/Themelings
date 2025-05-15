@@ -183,39 +183,39 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                 michal = this;
                 entity = michal.quest;
-                entity = entity.taskConfig;
-                tangon = entity.type;
-                report = _closure1_slot0;
-                zuuluu = _closure1_slot1;
-                entity = 4;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                entity = report.bind(entity)(zuuluu);
-                entity = entity.QuestTaskConfigTypes;
-                zuuluu = entity.THIRD_PARTY;
+                zuuluu = entity.taskConfigV2;
                 entity = null;
-                if(!(tangon === zuuluu)) { _fun00004_ip = 150; continue _fun00003 }
- 63:
-                tangon = global;
-                golfie = tangon.Object;
-                report = golfie.keys;
-                zuuluu = michal.quest;
-                zuuluu = zuuluu.taskConfig;
-                zuuluu = zuuluu.tasks;
-                zuuluu = report.bind(golfie)(zuuluu);
-                report = zuuluu.length;
-                zuuluu = 0;
-                entity = null;
-                if(!(zuuluu !== report)) { _fun00004_ip = 150; continue _fun00003 }
- 112:
-                report = tangon.Object;
-                tangon = report.values;
+                if(!(entity != zuuluu)) { _fun00004_ip = 126; continue _fun00003 }
+ 21:
                 michal = michal.quest;
-                michal = michal.taskConfig;
-                michal = michal.tasks;
-                michal = tangon.bind(report)(michal);
-                entity = michal[zuuluu];
- 150:
+                michal = michal.taskConfigV2;
+                tangon = michal.tasks;
+                oscard = _closure1_slot0;
+                golfie = _closure1_slot1;
+                zuuluu = 4;
+                michal = golfie[zuuluu];
+                report = undefined;
+                michal = oscard.bind(report)(michal);
+                michal = michal.FirstPartyQuestTaskTypes;
+                michal = michal.ACHIEVEMENT_IN_ACTIVITY;
+                michal = tangon[michal];
+                zuuluu = golfie[zuuluu];
+                zuuluu = oscard.bind(report)(zuuluu);
+                zuuluu = zuuluu.FirstPartyQuestTaskTypes;
+                zuuluu = zuuluu.ACHIEVEMENT_IN_GAME;
+                zuuluu = tangon[zuuluu];
+                if(!(entity != michal)) { _fun00004_ip = 112; continue _fun00003 }
+ 109:
+                zuuluu = michal;
+ 112:
+                tangon = entity != zuuluu;
+                michal = null;
+                if(!tangon) { _fun00004_ip = 124; continue _fun00003 }
+ 121:
+                michal = zuuluu;
+ 124:
+                return michal;
+ 126:
                 return entity;
             }
         };

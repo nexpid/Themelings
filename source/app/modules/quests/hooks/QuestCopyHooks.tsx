@@ -224,15 +224,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.bind(tangon)(oscard);
             michal = _closure1_slot9;
             michal = michal.PLAY;
-            if(!(michal !== zuuluu)) { _fun00010_ip = 2726; continue _fun00009 }
+            if(!(michal !== zuuluu)) { _fun00010_ip = 2733; continue _fun00009 }
  76:
             michal = _closure1_slot9;
             michal = michal.STREAM;
-            if(!(michal !== zuuluu)) { _fun00010_ip = 2645; continue _fun00009 }
+            if(!(michal !== zuuluu)) { _fun00010_ip = 2652; continue _fun00009 }
  93:
             michal = _closure1_slot9;
             michal = michal.WATCH_VIDEO;
-            if(!(michal !== zuuluu)) { _fun00010_ip = 2586; continue _fun00009 }
+            if(!(michal !== zuuluu)) { _fun00010_ip = 2593; continue _fun00009 }
  110:
             michal = _closure1_slot9;
             michal = michal.IN_GAME;
@@ -853,9 +853,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  2577:
             return zuuluu;
  2579:
-            michal = michal.description;
+            michal = michal.messages;
+            michal = michal.taskDescription;
             return michal;
- 2586:
+ 2593:
             verify = _closure1_slot0;
             offset = _closure1_slot1;
             michal = 5;
@@ -869,7 +870,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.f/J8v7;
             michal = zuuluu.bind(option)(michal);
             return michal;
- 2645:
+ 2652:
             option = _closure1_slot12;
             zuuluu = _closure1_slot0;
             verify = _closure1_slot1;
@@ -887,7 +888,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['gameTitle'] = verify;
             michal = option.bind(tangon)(zuuluu, michal, report);
             return michal;
- 2726:
+ 2733:
             zuuluu = _closure1_slot12;
             michal = _closure1_slot0;
             option = _closure1_slot1;
@@ -1130,7 +1131,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = 'IN_GAME';
     report[verify] = option;
     var _closure1_slot9 = report;
-    report = 12;
+    report = 13;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -1351,7 +1352,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['usePrimaryCtaCopy'] = tangon;
-    michal = function(argFoo) { // Original name: usePremiumExtendableCopy
+    tangon = function(argFoo) { // Original name: usePremiumExtendableCopy
         _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
             golfie = argFoo;
@@ -1417,6 +1418,49 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['usePremiumExtendableCopy'] = michal;
+    zuuluu['usePremiumExtendableCopy'] = tangon;
+    michal = function(argFoo) { // Original name: useClaimRewardCopy
+        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+ 0:
+            report = arguments[1];
+            oscard = undefined;
+            if(!(report === oscard)) { _fun00024_ip = 11; continue _fun00023 }
+ 9:
+            report = true;
+ 11:
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
+            entity = 12;
+            entity = tangon[entity];
+            tangon = zuuluu.bind(oscard)(entity);
+            zuuluu = tangon.useIsQuestClaimRewardExclamationEnabled;
+            entity = {};
+            golfie = argFoo;
+            entity['location'] = golfie;
+            entity['autoTrackExposure'] = report;
+            entity = zuuluu.bind(tangon)(entity);
+            report = _closure1_slot0;
+            golfie = _closure1_slot1;
+            michal = 5;
+            zuuluu = golfie[michal];
+            zuuluu = report.bind(oscard)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = golfie[michal];
+            michal = report.bind(oscard)(michal);
+            michal = michal.t;
+            if(entity) { _fun00024_ip = 121; continue _fun00023 }
+ 106:
+            entity = michal.cfY4PD;
+            entity = zuuluu.bind(tangon)(entity);
+            _fun00024_ip = 134; continue _fun00023;
+ 121:
+            michal = michal.Av9jcX;
+            entity = zuuluu.bind(tangon)(michal);
+ 134:
+            return entity;
+        }
+    };
+    zuuluu['useClaimRewardCopy'] = michal;
     return entity;
 })();

@@ -489,13 +489,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(!(golfie === zuuluu)) { _fun00010_ip = 326; continue _fun00009 }
  314:
             zuuluu = option.length;
-            if(!(!(zuuluu > golfie))) { _fun00010_ip = 706; continue _fun00009 }
+            if(!(!(zuuluu > golfie))) { _fun00010_ip = 708; continue _fun00009 }
  326:
             zuuluu = foxtra.length;
             if(!(zuuluu > golfie)) { _fun00010_ip = 347; continue _fun00009 }
  335:
             zuuluu = option.length;
-            if(!(golfie !== zuuluu)) { _fun00010_ip = 572; continue _fun00009 }
+            if(!(golfie !== zuuluu)) { _fun00010_ip = 574; continue _fun00009 }
  347:
             zuuluu = foxtra.length;
             zuuluu = zuuluu > golfie;
@@ -504,7 +504,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = option.length;
             zuuluu = tangon > golfie;
  368:
-            if(!zuuluu) { _fun00010_ip = 835; continue _fun00009 }
+            if(!zuuluu) { _fun00010_ip = 837; continue _fun00009 }
  374:
             tangon = _closure1_slot0;
             romeon = _closure1_slot1;
@@ -546,8 +546,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             romeon = option[romeon];
             zuuluu['role2'] = romeon;
             michal = report.bind(yankee)(tangon, zuuluu);
-            _fun00010_ip = 835; continue _fun00009;
- 572:
+            _fun00010_ip = 837; continue _fun00009;
+ 574:
             tangon = _closure1_slot0;
             romeon = _closure1_slot1;
             zuuluu = 4;
@@ -576,8 +576,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['channel2'] = romeon;
             zuuluu['itemHook'] = oscard;
             michal = report.bind(yankee)(tangon, zuuluu);
-            _fun00010_ip = 835; continue _fun00009;
- 706:
+            _fun00010_ip = 837; continue _fun00009;
+ 708:
             zuuluu = _closure1_slot0;
             yankee = _closure1_slot1;
             entity = 4;
@@ -606,7 +606,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['role2'] = golfie;
             entity['itemHook'] = oscard;
             michal = tangon.bind(report)(zuuluu, entity);
- 835:
+ 837:
             entity = {};
             entity['helpText'] = michal;
             michal = '';

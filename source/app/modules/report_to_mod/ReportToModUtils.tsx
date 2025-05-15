@@ -271,7 +271,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     zuuluu['isModeratorReportPostChannelId'] = oscard;
     zuuluu['isModeratorReportPostChannel'] = report;
     zuuluu['isModeratorReportOrPostChannel'] = tangon;
-    michal = function(argFoo) { // Original name: isSafeToTransitionToReportForCurrentUser
+    tangon = function(argFoo) { // Original name: isSafeToTransitionToReportForCurrentUser
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             oscard = argFoo;
@@ -325,6 +325,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['isSafeToTransitionToReportForCurrentUser'] = michal;
+    zuuluu['isSafeToTransitionToReportForCurrentUser'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: isModeratorReportThreadStarterMessage
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+ 0:
+            zuuluu = argFoo;
+            tangon = argBar;
+            entity = zuuluu.isFirstMessageInForumPost;
+            entity = entity.bind(zuuluu)(tangon);
+            michal = !entity;
+            if(michal) { _fun00016_ip = 36; continue _fun00015 }
+ 23:
+            entity = zuuluu.isSystemDM;
+            entity = entity.bind(zuuluu)();
+            michal = !entity;
+ 36:
+            entity = !michal;
+            if(michal) { _fun00016_ip = 56; continue _fun00015 }
+ 42:
+            zuuluu = _closure1_slot10;
+            michal = undefined;
+            entity = zuuluu.bind(michal)(tangon);
+ 56:
+            return entity;
+        }
+    };
+    zuuluu['isModeratorReportThreadStarterMessage'] = michal;
     return entity;
 })();

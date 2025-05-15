@@ -3515,7 +3515,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  57:
                 var _closure3_slot2 = zuuluu;
                 tangon = michal.matchComparator;
-                var _closure3_slot3 = foxtra;
+                michal = michal.showOnlyUnicode;
+                var _closure3_slot3 = michal;
+                var _closure3_slot4 = foxtra;
                 zuuluu = _closure1_slot46;
                 zuuluu = zuuluu.bind(foxtra)();
                 zuuluu = oscard.toLowerCase;
@@ -3532,8 +3534,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = verify.escape;
                 yankee = zuuluu.bind(verify)(yankee);
                 verify = null;
-                if(!(verify == tangon)) { _fun00130_ip = 216; continue _fun00129 }
- 159:
+                if(!(verify == tangon)) { _fun00130_ip = 226; continue _fun00129 }
+ 169:
                 zuuluu = global;
                 foxtra = zuuluu.RegExp;
                 zuuluu = zuuluu.HermesInternal;
@@ -3545,10 +3547,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 echoed = yankee;
                 zuuluu = new echoed[foxtra](result, output, sizing);
                 zuuluu = zuuluu instanceof Object ? zuuluu : yankee;
-                _closure3_slot3 = zuuluu;
-                tangon = function(argFoo) { // Original name: u
+                _closure3_slot4 = zuuluu;
+                tangon = function(argFoo) { // Original name: r
                     oscard = argFoo;
-                    zuuluu = _closure3_slot3;
+                    zuuluu = _closure3_slot4;
                     michal = zuuluu.test;
                     report = oscard.replaceAll;
                     tangon = '_';
@@ -3557,14 +3559,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = michal.bind(zuuluu)(entity);
                     return entity;
                 };
- 216:
+ 226:
                 zuuluu = verify != offset;
                 verify = null;
-                if(!zuuluu) { _fun00130_ip = 235; continue _fun00129 }
- 225:
+                if(!zuuluu) { _fun00130_ip = 245; continue _fun00129 }
+ 235:
                 zuuluu = offset.getGuildId;
                 verify = zuuluu.bind(offset)();
- 235:
+ 245:
                 zuuluu = _closure1_slot38;
                 michal = zuuluu.get;
                 zuuluu = michal.bind(zuuluu)(verify);
@@ -3581,38 +3583,59 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         entity = argFoo;
                         tangon = argBar;
-                        oscard = _closure1_slot1;
-                        report = _closure1_slot2;
-                        zuuluu = 42;
-                        report = report[zuuluu];
-                        zuuluu = undefined;
-                        oscard = oscard.bind(zuuluu)(report);
-                        report = oscard.getEmojiUnavailableReason;
-                        zuuluu = {};
-                        zuuluu['emoji'] = tangon;
-                        option = _closure3_slot0;
-                        zuuluu['channel'] = option;
-                        option = _closure3_slot1;
-                        zuuluu['intention'] = option;
-                        golfie = _closure3_slot2;
-                        zuuluu['forceIncludeExternalGuilds'] = golfie;
-                        zuuluu = report.bind(oscard)(zuuluu);
+                        zuuluu = _closure1_slot1;
+                        oscard = _closure1_slot2;
+                        michal = 42;
+                        michal = oscard[michal];
+                        option = undefined;
+                        golfie = zuuluu.bind(option)(michal);
+                        oscard = golfie.getEmojiUnavailableReason;
+                        michal = {};
+                        michal['emoji'] = tangon;
+                        verify = _closure3_slot0;
+                        michal['channel'] = verify;
+                        verify = _closure3_slot1;
+                        michal['intention'] = verify;
+                        verify = _closure3_slot2;
+                        michal['forceIncludeExternalGuilds'] = verify;
+                        oscard = oscard.bind(golfie)(michal);
                         michal = _closure1_slot20;
                         michal = michal.PREMIUM_LOCKED;
-                        if(!(zuuluu !== michal)) { _fun00132_ip = 116; continue _fun00131 }
+                        if(!(oscard === michal)) { _fun00132_ip = 117; continue _fun00131 }
  92:
+                        michal = _closure3_slot3;
+                        if(michal) { _fun00132_ip = 117; continue _fun00131 }
+ 99:
+                        golfie = entity.locked;
+                        michal = golfie.push;
+                        michal = michal.bind(golfie)(tangon);
+                        _fun00132_ip = 196; continue _fun00131;
+ 117:
                         michal = null;
-                        if(!(michal == zuuluu)) { _fun00132_ip = 132; continue _fun00131 }
- 98:
+                        michal = michal != oscard;
+                        if(michal) { _fun00132_ip = 177; continue _fun00131 }
+ 126:
+                        zuuluu = _closure3_slot3;
+                        if(!zuuluu) { _fun00132_ip = 174; continue _fun00131 }
+ 133:
+                        oscard = tangon.type;
+                        golfie = _closure1_slot0;
+                        verify = _closure1_slot2;
+                        report = 23;
+                        report = verify[report];
+                        report = golfie.bind(option)(report);
+                        report = report.EmojiTypes;
+                        report = report.UNICODE;
+                        zuuluu = oscard !== report;
+ 174:
+                        michal = zuuluu;
+ 177:
+                        if(michal) { _fun00132_ip = 196; continue _fun00131 }
+ 180:
                         zuuluu = entity.unlocked;
                         michal = zuuluu.push;
                         michal = michal.bind(zuuluu)(tangon);
-                        _fun00132_ip = 132; continue _fun00131;
- 116:
-                        zuuluu = entity.locked;
-                        michal = zuuluu.push;
-                        michal = michal.bind(zuuluu)(tangon);
- 132:
+ 196:
                         return entity;
                     }
                 };

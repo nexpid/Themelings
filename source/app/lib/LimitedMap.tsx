@@ -24,11 +24,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00002_ip = 74; continue _fun00001;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -165,12 +165,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = 2;
                         zuuluu = entity & zuuluu;
                         entity = report;
-                        if(!zuuluu) { _fun00008_ip = 100; continue _fun00007 }
+                        if(!zuuluu) { _fun00008_ip = 98; continue _fun00007 }
  79:
                         tangon = 'function';
                         zuuluu = typeof report;
                         entity = report;
-                        if(!(tangon === zuuluu)) { _fun00008_ip = 100; continue _fun00007 }
+                        if(!(tangon === zuuluu)) { _fun00008_ip = 98; continue _fun00007 }
  93:
                         entity = function(argFoo) {
                             tangon = _closure4_slot1;
@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             entity = zuuluu.bind(tangon)(michal, entity);
                             return entity;
                         };
- 100:
+ 98:
                         return entity;
                     }
                 };

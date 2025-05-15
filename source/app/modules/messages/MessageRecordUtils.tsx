@@ -761,18 +761,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.map;
             entity = function(argFoo) {
                 entity = argFoo;
-                report = entity.message;
+                oscard = entity.message;
+                michal = entity.moderator_report;
                 zuuluu = _closure1_slot4;
                 entity = {};
-                tangon = _closure1_slot15;
-                michal = undefined;
-                michal = tangon.bind(michal)(report);
-                entity['message'] = michal;
+                report = _closure1_slot15;
+                tangon = undefined;
+                tangon = report.bind(tangon)(oscard);
+                entity['message'] = tangon;
+                entity['moderator_report'] = michal;
                 michal = zuuluu.prototype;
                 michal = Object.create(michal, {constructor: {value: zuuluu}});
-                golfie = michal;
-                oscard = entity;
-                entity = new golfie[zuuluu](oscard, report);
+                option = michal;
+                golfie = entity;
+                entity = new option[zuuluu](golfie, oscard);
                 entity = entity instanceof Object ? entity : michal;
                 return entity;
             };

@@ -222,6 +222,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = {'paddingHorizontal': 0, 'flex': 1};
     tangon['hint'] = verify;
     verify = {};
+    offset = 'center';
+    verify['textAlign'] = offset;
+    tangon['experimentHint'] = verify;
+    verify = {};
     offset = 33;
     verify['width'] = offset;
     tangon['radio'] = verify;
@@ -330,23 +334,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify[1] = offset;
             entity['children'] = verify;
             entity = golfie.bind(oscard)(report, entity);
-            _fun00006_ip = 542; continue _fun00005;
+            _fun00006_ip = 566; continue _fun00005;
  281:
             if(!michal) { _fun00006_ip = 287; continue _fun00005 }
  284:
-            if(zuuluu) { _fun00006_ip = 380; continue _fun00005 }
+            if(zuuluu) { _fun00006_ip = 404; continue _fun00005 }
  287:
             report = _closure1_slot7;
-            if(michal) { _fun00006_ip = 323; continue _fun00005 }
+            if(michal) { _fun00006_ip = 347; continue _fun00005 }
  294:
             zuuluu = _closure1_slot11;
             michal = {};
-            golfie = yankee.hint;
+            verify = yankee.hint;
+            golfie = new Array(2);
+            golfie[0] = verify;
+            verify = tangon;
+            if(!verify) { _fun00006_ip = 326; continue _fun00005 }
+ 320:
+            verify = yankee.experimentHint;
+ 326:
+            golfie[1] = verify;
             michal['style'] = golfie;
             michal['experimentText'] = tangon;
             michal = report.bind(oscard)(zuuluu, michal);
-            _fun00006_ip = 375; continue _fun00005;
- 323:
+            _fun00006_ip = 399; continue _fun00005;
+ 347:
             tangon = _closure1_slot3;
             zuuluu = {};
             golfie = yankee.consentForm;
@@ -359,9 +371,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = offset.bind(oscard)(verify, golfie);
             zuuluu['children'] = golfie;
             michal = report.bind(oscard)(tangon, zuuluu);
- 375:
-            _fun00006_ip = 539; continue _fun00005;
- 380:
+ 399:
+            _fun00006_ip = 563; continue _fun00005;
+ 404:
             report = _closure1_slot9;
             tangon = _closure1_slot3;
             zuuluu = {};
@@ -397,9 +409,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie[1] = option;
             zuuluu['children'] = golfie;
             michal = report.bind(oscard)(tangon, zuuluu);
- 539:
+ 563:
             entity = michal;
- 542:
+ 566:
             return entity;
         }
     };

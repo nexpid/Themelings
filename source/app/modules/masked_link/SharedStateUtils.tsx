@@ -43,10 +43,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = '';
             entity = '//';
             oscard = tangon;
-            if(!(entity === michal)) { _fun00002_ip = 92; continue _fun00001 }
- 89:
+            if(!(entity === michal)) { _fun00002_ip = 94; continue _fun00001 }
+ 91:
             oscard = entity;
- 92:
+ 94:
             entity = {};
             entity['protocol'] = option;
             entity['authorityPrefix'] = oscard;

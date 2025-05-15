@@ -5,8 +5,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
+    var _closure1_slot1 = oscard;
     entity = function() { // Original name: _isNativeReflectConstruct
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -39,13 +38,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot10 = michal;
+            _closure1_slot7 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot10 = entity;
+    var _closure1_slot7 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -58,35 +57,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[entity];
     entity = undefined;
     tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
+    var _closure1_slot2 = tangon;
     tangon = 1;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
+    var _closure1_slot3 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
+    var _closure1_slot4 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot5 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
     var _closure1_slot6 = tangon;
-    option = 4;
-    tangon = oscard[option];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot7 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot8 = tangon;
     tangon = 6;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    tangon = tangon.Millis;
-    tangon = tangon.HOUR;
-    tangon = option * tangon;
-    var _closure1_slot9 = tangon;
-    tangon = 11;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
@@ -96,13 +84,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = this;
                 zuuluu = undefined;
                 report = undefined;
-                entity = _closure1_slot3;
+                entity = _closure1_slot2;
                 michal = _closure2_slot0;
                 entity = entity.bind(zuuluu)(tangon, michal);
-                entity = _closure1_slot6;
+                entity = _closure1_slot5;
                 verify = entity.bind(zuuluu)(michal);
-                michal = _closure1_slot5;
-                entity = _closure1_slot10;
+                michal = _closure1_slot4;
+                entity = _closure1_slot7;
                 entity = entity.bind(zuuluu)();
                 if(entity) { _fun00004_ip = 69; continue _fun00003 }
  51:
@@ -115,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = global;
                 option = golfie.Reflect;
                 golfie = option.construct;
-                oscard = _closure1_slot6;
+                oscard = _closure1_slot5;
                 oscard = oscard.bind(zuuluu)(tangon);
                 oscard = oscard.constructor;
                 report = arguments;
@@ -126,119 +114,49 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         var _closure2_slot0 = tangon;
-        report = _closure1_slot7;
+        oscard = _closure1_slot6;
         zuuluu = undefined;
-        michal = argFoo;
-        michal = report.bind(zuuluu)(tangon, michal);
-        michal = _closure1_slot4;
+        report = argFoo;
+        report = oscard.bind(zuuluu)(tangon, report);
+        michal = _closure1_slot3;
         report = {};
-        entity = '_initialize';
-        report['key'] = entity;
+        oscard = '_initialize';
+        report['key'] = oscard;
         entity = function() { // Original name: value
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 7;
-                zuuluu = zuuluu[entity];
+                entity = _closure1_slot1;
+                report = 5;
+                zuuluu = entity[report];
                 entity = undefined;
                 tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.isLibdiscoreBlockedDomainsEnabled;
-                tangon = zuuluu.bind(tangon)();
+                zuuluu = tangon.isLibdiscoreLoaded;
+                zuuluu = zuuluu.bind(tangon)();
+                if(!zuuluu) { _fun00006_ip = 113; continue _fun00005 }
+ 38:
                 zuuluu = global;
-                if(tangon) { _fun00006_ip = 174; continue _fun00005 }
- 45:
-                golfie = zuuluu.setTimeout;
-                oscard = function() {
-                    zuuluu = _closure1_slot1;
-                    michal = _closure1_slot2;
-                    entity = 9;
-                    michal = michal[entity];
-                    entity = undefined;
-                    report = zuuluu.bind(entity)(michal);
-                    tangon = report.timeAsync;
-                    zuuluu = '💾';
-                    michal = 'getBlockedDomainList';
-                    entity = function() {
-                        michal = _closure1_slot8;
-                        entity = michal.getBlockedDomainList;
-                        entity = entity.bind(michal)();
-                        return entity;
-                    };
-                    entity = tangon.bind(report)(zuuluu, michal, entity);
-                    return entity;
-                };
-                tangon = 1000;
-                tangon = golfie.bind(entity)(oscard, tangon);
-                option = zuuluu.setTimeout;
-                oscard = _closure1_slot1;
-                golfie = _closure1_slot2;
-                tangon = 6;
-                tangon = golfie[tangon];
-                tangon = oscard.bind(entity)(tangon);
-                tangon = tangon.Millis;
-                oscard = tangon.SECOND;
-                tangon = 10;
-                oscard = tangon * oscard;
-                report = function() {
-                    zuuluu = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    entity = 10;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = zuuluu.bind(entity)(michal);
-                    entity = michal.fetchBlockedDomainList;
-                    entity = entity.bind(michal)();
-                    return entity;
-                };
-                report = option.bind(entity)(report, oscard);
-                oscard = zuuluu.setInterval;
-                report = _closure1_slot0;
-                tangon = golfie[tangon];
-                tangon = report.bind(entity)(tangon);
-                report = tangon.fetchBlockedDomainList;
-                tangon = _closure1_slot9;
-                report = oscard.bind(entity)(report, tangon);
-                tangon = this;
-                tangon['intervalID'] = report;
-                _fun00006_ip = 250; continue _fun00005;
- 174:
                 tangon = zuuluu.window;
                 tangon = tangon.GLOBAL_ENV;
-                oscard = tangon.WEBAPP_ENDPOINT;
+                golfie = tangon.WEBAPP_ENDPOINT;
                 zuuluu = zuuluu.HermesInternal;
-                report = zuuluu.concat;
+                oscard = zuuluu.concat;
                 tangon = 'https:';
                 zuuluu = '/bad-hash-delta';
-                tangon = report.bind(tangon)(oscard, zuuluu);
+                tangon = oscard.bind(tangon)(golfie, zuuluu);
                 zuuluu = _closure1_slot0;
-                report = _closure1_slot2;
-                michal = 8;
-                michal = report[michal];
+                michal = _closure1_slot1;
+                michal = michal[report];
                 zuuluu = zuuluu.bind(entity)(michal);
                 michal = zuuluu.startFetchingBlockedDomains;
                 michal = michal.bind(zuuluu)(tangon);
- 250:
+ 113:
                 return entity;
             }
         };
         report['value'] = entity;
-        entity = new Array(2);
+        entity = new Array(1);
         entity[0] = report;
-        report = {};
-        golfie = '_terminate';
-        report['key'] = golfie;
-        oscard = function() { // Original name: value
-            entity = global;
-            zuuluu = entity.clearInterval;
-            entity = this;
-            michal = entity.intervalID;
-            entity = undefined;
-            michal = zuuluu.bind(entity)(michal);
-            return entity;
-        };
-        report['value'] = oscard;
-        entity[1] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -248,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = tangon;
     michal = new foxtra[michal](romeon);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 12;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            offset = entity.actuallySkipped;
+            verify = entity.actuallySkipped;
             romeon = entity.reason;
             zuuluu = _closure1_slot2;
             tangon = _closure1_slot3;
@@ -75,37 +75,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = _closure1_slot12;
             zuuluu = michal.GATEWAY_CONNECT_SKIPPED;
             michal = {};
-            option = null;
-            verify = golfie;
-            if(!(option != offset)) { _fun00004_ip = 117; continue _fun00003 }
+            offset = null;
+            option = golfie;
+            if(!(offset != verify)) { _fun00004_ip = 117; continue _fun00003 }
  114:
-            verify = offset;
+            option = verify;
  117:
-            michal['actually_skipped'] = verify;
-            verify = _closure1_slot1;
-            offset = _closure1_slot3;
+            michal['actually_skipped'] = option;
+            option = _closure1_slot1;
+            verify = _closure1_slot3;
             oscard = 14;
-            oscard = offset[oscard];
-            verify = verify.bind(entity)(oscard);
-            oscard = verify.getState;
-            oscard = oscard.bind(verify)();
+            oscard = verify[oscard];
+            option = option.bind(entity)(oscard);
+            oscard = option.getState;
+            oscard = oscard.bind(option)();
             michal['client_app_state'] = oscard;
+            verify = yankee.length;
+            option = 0;
             oscard = romeon;
-            if(!(option != yankee)) { _fun00004_ip = 196; continue _fun00003 }
- 166:
+            if(!(verify > option)) { _fun00004_ip = 203; continue _fun00003 }
+ 173:
             option = global;
             option = option.HermesInternal;
             offset = option.concat;
             verify = '';
             option = ' + ';
             oscard = offset.bind(verify)(romeon, option, yankee);
- 196:
+ 203:
             michal['connect_reason'] = oscard;
             oscard = 'request_state';
-            if(!golfie) { _fun00004_ip = 216; continue _fun00003 }
- 212:
+            if(!golfie) { _fun00004_ip = 223; continue _fun00003 }
+ 219:
             oscard = 'paused';
- 216:
+ 223:
             michal['skip_context'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return entity;

@@ -777,11 +777,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = tangon.rtpStats;
             option = michal.packetsLost;
             michal = null;
-            if(!(michal == option)) { _fun00012_ip = 277; continue _fun00011 }
- 265:
+            if(!(michal == option)) { _fun00012_ip = 279; continue _fun00011 }
+ 267:
             verify = tangon.rtcpStats;
             option = verify.packetsLost;
- 277:
+ 279:
             entity['packetsLost'] = option;
             option = tangon.rtcpStats;
             option = option.fractionLost;
@@ -823,10 +823,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = tangon.networkFramesDropped;
             verify = michal != option;
             golfie = 0;
-            if(!verify) { _fun00012_ip = 500; continue _fun00011 }
- 497:
+            if(!verify) { _fun00012_ip = 502; continue _fun00011 }
+ 499:
             golfie = option;
- 500:
+ 502:
             entity['networkFramesDropped'] = golfie;
             golfie = tangon.frameCounts;
             golfie = golfie.keyFrames;
@@ -874,11 +874,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['decryptMissingKeyCount'] = golfie;
             tangon = tangon.decryptInvalidNonceCount;
             entity['decryptInvalidNonceCount'] = tangon;
-            if(!(michal == oscard)) { _fun00012_ip = 774; continue _fun00011 }
- 770:
+            if(!(michal == oscard)) { _fun00012_ip = 776; continue _fun00011 }
+ 772:
             michal = {};
-            _fun00012_ip = 818; continue _fun00011;
- 774:
+            _fun00012_ip = 820; continue _fun00011;
+ 776:
             tangon = _closure1_slot5;
             zuuluu = {};
             golfie = oscard.videoJitterBuffer;
@@ -888,7 +888,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.videoJitterTarget;
             zuuluu['videoJitterTarget'] = oscard;
             michal = tangon.bind(report)(zuuluu);
- 818:
+ 820:
             echoed = entity;
             result = michal;
             michal = copyDataProperties(echoed, result);

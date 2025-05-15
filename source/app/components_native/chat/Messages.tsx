@@ -3048,10 +3048,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         offset = golfie.mimeType;
                         yankee = option != offset;
                         verify = 'video';
-                        if(!yankee) { _fun00062_ip = 176; continue _fun00061 }
- 173:
+                        if(!yankee) { _fun00062_ip = 178; continue _fun00061 }
+ 175:
                         verify = offset;
- 176:
+ 178:
                         michal['mime_type'] = verify;
                         michal['file_size'] = option;
                         golfie = golfie.fileDurationSec;
@@ -7338,7 +7338,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = 114;
             zuuluu = r102[zuuluu];
             report = option.bind(tangon)(zuuluu);
-            zuuluu = report.useGuildProfileInviteEmbedExperiment;
+            zuuluu = report.useAnyGuildProfileEmbedEnabled;
             backup = zuuluu.bind(report)(foxtra);
             zuuluu = 115;
             zuuluu = r102[zuuluu];

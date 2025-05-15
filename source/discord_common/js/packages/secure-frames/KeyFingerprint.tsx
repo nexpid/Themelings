@@ -15,28 +15,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = argBar;
                     oscard = argBaz;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 366; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 368; continue _fun00001 }
  19:
                     verify = 0;
-                    if(!(verify === offset)) { _fun00002_ip = 330; continue _fun00001 }
+                    if(!(verify === offset)) { _fun00002_ip = 332; continue _fun00001 }
  28:
                     michal = tangon.byteLength;
-                    if(!(verify !== michal)) { _fun00002_ip = 294; continue _fun00001 }
+                    if(!(verify !== michal)) { _fun00002_ip = 296; continue _fun00001 }
  41:
                     michal = oscard.length;
-                    if(!(verify !== michal)) { _fun00002_ip = 258; continue _fun00001 }
+                    if(!(verify !== michal)) { _fun00002_ip = 260; continue _fun00001 }
  53:
                     michal = global;
                     report = michal.BigInt;
                     zuuluu = undefined;
                     golfie = report.bind(zuuluu)(oscard);
                     zuuluu = 0n;
-                    if(!(!(golfie < zuuluu))) { _fun00002_ip = 224; continue _fun00001 }
+                    if(!(!(golfie < zuuluu))) { _fun00002_ip = 226; continue _fun00001 }
  79:
                     foxtra = 2n;
                     romeon = 64n;
                     zuuluu = exponentiationOperator(foxtra, romeon);
-                    if(!(!(golfie >= zuuluu))) { _fun00002_ip = 224; continue _fun00001 }
+                    if(!(!(golfie >= zuuluu))) { _fun00002_ip = 226; continue _fun00001 }
  98:
                     oscard = michal.Uint8Array;
                     zuuluu = tangon.byteLength;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = option + tangon;
                     tangon = report.bind(oscard)(tangon, golfie);
                     return zuuluu;
- 224:
+ 226:
                     tangon = michal.Error;
                     michal = tangon.prototype;
                     zuuluu = Object.create(michal, {constructor: {value: tangon}});
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = new backup[tangon](foxtra, romeon);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 258:
+ 260:
                     michal = global;
                     tangon = michal.Error;
                     michal = tangon.prototype;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = new backup[tangon](foxtra, romeon);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 294:
+ 296:
                     michal = global;
                     tangon = michal.Error;
                     michal = tangon.prototype;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = new backup[tangon](foxtra, romeon);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 330:
+ 332:
                     michal = global;
                     tangon = michal.Error;
                     michal = tangon.prototype;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = new backup[tangon](foxtra, romeon);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 366:
+ 368:
                     return entity;
                 }
             };

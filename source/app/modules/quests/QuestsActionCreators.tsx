@@ -703,7 +703,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00014_ip = 427; continue _fun00013 }
+                    if(zuuluu) { _fun00014_ip = 460; continue _fun00013 }
  13:
                     report = argFoo;
                     offset = michal;
@@ -736,7 +736,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = oscard.isEnrolling;
                     zuuluu = report;
                     zuuluu = tangon.bind(oscard)(zuuluu);
-                    if(zuuluu) { _fun00014_ip = 422; continue _fun00013 }
+                    if(zuuluu) { _fun00014_ip = 455; continue _fun00013 }
  151:
                     golfie = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -752,55 +752,62 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['questId'] = verify;
                     zuuluu = golfie.bind(option)(zuuluu);
  203: // try_start_0
-                    golfie = _closure1_slot0;
-                    option = _closure1_slot2;
+                    foxtra = _closure1_slot0;
+                    yankee = _closure1_slot2;
                     zuuluu = 4;
-                    zuuluu = option[zuuluu];
-                    zuuluu = golfie.bind(tangon)(zuuluu);
+                    zuuluu = yankee[zuuluu];
+                    zuuluu = foxtra.bind(tangon)(zuuluu);
                     option = zuuluu.HTTP;
                     golfie = option.post;
                     zuuluu = {};
-                    romeon = _closure1_slot7;
-                    yankee = romeon.QUESTS_ENROLL;
+                    backup = _closure1_slot7;
+                    romeon = backup.QUESTS_ENROLL;
                     verify = report;
-                    verify = yankee.bind(romeon)(verify);
+                    verify = romeon.bind(backup)(verify);
                     zuuluu['url'] = verify;
                     verify = {};
+                    romeon = offset.questContent;
+                    verify['location'] = romeon;
+                    romeon = 10;
+                    yankee = yankee[romeon];
+                    foxtra = foxtra.bind(tangon)(yankee);
+                    yankee = foxtra.getAdDecisionData;
                     offset = offset.questContent;
-                    verify['location'] = offset;
+                    kiloes = yankee.bind(foxtra)(offset);
+                    sizing = verify;
+                    offset = copyDataProperties(sizing, kiloes);
                     zuuluu['body'] = verify;
                     verify = true;
                     zuuluu['rejectWithError'] = verify;
                     zuuluu = golfie.bind(option)(zuuluu);
-                    SaveGenerator(address=289);
- 287:
+                    SaveGenerator(address=325);
+ 323:
                     return zuuluu;
- 289:
+ 325:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(golfie) { _fun00014_ip = 373; continue _fun00013 }
- 295:
+                    if(golfie) { _fun00014_ip = 406; continue _fun00013 }
+ 331:
                     option = _closure1_slot1;
-                    romeon = _closure1_slot2;
-                    golfie = romeon[oscard];
+                    offset = _closure1_slot2;
+                    golfie = offset[oscard];
                     verify = option.bind(tangon)(golfie);
                     option = verify.dispatch;
                     golfie = {};
-                    offset = 'QUESTS_ENROLL_SUCCESS';
-                    golfie['type'] = offset;
+                    yankee = 'QUESTS_ENROLL_SUCCESS';
+                    golfie['type'] = yankee;
                     yankee = _closure1_slot0;
-                    offset = 10;
-                    offset = romeon[offset];
+                    offset = offset[romeon];
                     romeon = yankee.bind(tangon)(offset);
                     yankee = romeon.questUserStatusFromServer;
                     offset = zuuluu.body;
                     offset = yankee.bind(romeon)(offset);
                     golfie['enrolledQuestUserStatus'] = offset;
                     golfie = option.bind(verify)(golfie);
- 371: // try_end0
-                    _fun00014_ip = 422; continue _fun00013;
- 373:
+ 404: // try_end0
+                    _fun00014_ip = 455; continue _fun00013;
+ 406:
                     return zuuluu;
- 376: // catch_target0
+ 409: // catch_target0
                     CatchBlockStart(arg_register=2);
                     zuuluu = _closure1_slot1;
                     michal = _closure1_slot2;
@@ -812,10 +819,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal['type'] = oscard;
                     michal['questId'] = report;
                     michal = zuuluu.bind(tangon)(michal);
- 422:
+ 455:
                     michal = undefined;
                     return michal;
- 427:
+ 460:
                     return entity;
                 }
             };
@@ -2200,6 +2207,100 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot24 = entity;
+    entity = function() { // Original name: _fetchMobileAdData
+        report = undefined;
+        entity = undefined;
+        tangon = _closure1_slot3;
+        zuuluu = function* () {
+            entity = function* () { // Original name: ?anon_0_
+                _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
+ 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(michal) { _fun00038_ip = 244; continue _fun00037 }
+ 10:
+                    zuuluu = _closure1_slot4;
+                    zuuluu = zuuluu.isFetchingMobileAdData;
+                    if(zuuluu) { _fun00038_ip = 239; continue _fun00037 }
+ 31:
+                    zuuluu = _closure1_slot4;
+                    tangon = zuuluu.googleAdvertisingId;
+                    zuuluu = null;
+                    if(!(zuuluu === tangon)) { _fun00038_ip = 239; continue _fun00037 }
+ 50:
+                    oscard = _closure1_slot1;
+                    zuuluu = _closure1_slot2;
+                    report = 5;
+                    zuuluu = zuuluu[report];
+                    tangon = undefined;
+                    golfie = oscard.bind(tangon)(zuuluu);
+                    oscard = golfie.dispatch;
+                    zuuluu = {};
+                    option = 'FETCH_MOBILE_AD_DATA_BEGIN';
+                    zuuluu['type'] = option;
+                    zuuluu = oscard.bind(golfie)(zuuluu);
+ 92: // try_start_0
+                    oscard = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    zuuluu = 18;
+                    zuuluu = golfie[zuuluu];
+                    oscard = oscard.bind(tangon)(zuuluu);
+                    zuuluu = oscard.getMobileAdData;
+                    zuuluu = zuuluu.bind(oscard)();
+                    SaveGenerator(address=126);
+ 124:
+                    return zuuluu;
+ 126:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
+                    if(oscard) { _fun00038_ip = 195; continue _fun00037 }
+ 132:
+                    golfie = _closure1_slot1;
+                    oscard = _closure1_slot2;
+                    oscard = oscard[report];
+                    option = golfie.bind(tangon)(oscard);
+                    golfie = option.dispatch;
+                    oscard = {};
+                    verify = 'FETCH_MOBILE_AD_DATA_SUCCESS';
+                    oscard['type'] = verify;
+                    verify = zuuluu.googleAdvertisingId;
+                    oscard['googleAdvertisingId'] = verify;
+                    verify = zuuluu.isLimitAdTrackingEnabled;
+                    oscard['isLimitAdTrackingEnabled'] = verify;
+                    oscard = golfie.bind(option)(oscard);
+ 193: // try_end0
+                    _fun00038_ip = 239; continue _fun00037;
+ 195:
+                    return zuuluu;
+ 198: // catch_target0
+                    CatchBlockStart(arg_register=2);
+                    zuuluu = _closure1_slot1;
+                    michal = _closure1_slot2;
+                    michal = michal[report];
+                    tangon = zuuluu.bind(tangon)(michal);
+                    zuuluu = tangon.dispatch;
+                    michal = {};
+                    report = 'FETCH_MOBILE_AD_DATA_FAILURE';
+                    michal['type'] = report;
+                    michal = zuuluu.bind(tangon)(michal);
+ 239:
+                    michal = undefined;
+                    return michal;
+ 244:
+                    return entity;
+                }
+            };
+            return entity;
+        };
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot25 = tangon;
+        zuuluu = tangon.apply;
+        entity = arguments;
+        michal = entity;
+        entity = this;
+        entity = zuuluu.bind(tangon)(entity, michal);
+        return entity;
+    };
+    var _closure1_slot25 = entity;
     entity = global;
     verify = entity.Object;
     golfie = verify.defineProperty;
@@ -2230,7 +2331,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.Endpoints;
     var _closure1_slot7 = tangon;
-    tangon = 18;
+    tangon = 19;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -2538,7 +2639,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['updateQuestDockVisibilityOverride'] = tangon;
-    michal = function() { // Original name: fetchQuest
+    tangon = function() { // Original name: fetchQuest
         entity = undefined;
         tangon = _closure1_slot24;
         zuuluu = tangon.apply;
@@ -2548,6 +2649,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zuuluu['fetchQuest'] = michal;
+    zuuluu['fetchQuest'] = tangon;
+    michal = function() { // Original name: fetchMobileAdData
+        entity = undefined;
+        tangon = _closure1_slot25;
+        zuuluu = tangon.apply;
+        entity = arguments;
+        michal = entity;
+        entity = this;
+        entity = zuuluu.bind(tangon)(entity, michal);
+        return entity;
+    };
+    zuuluu['fetchMobileAdData'] = michal;
     return entity;
 })();

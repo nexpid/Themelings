@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal = {};
                         golfie = oscard.uuid;
                         michal['client_ad_session_id'] = golfie;
-                        oscard = oscard.initialized;
+                        oscard = oscard.createdAtTimestamp;
                         michal['client_heartbeat_initialization_timestamp'] = oscard;
                         oscard = 2;
                         michal['client_heartbeat_version'] = oscard;
@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         verify = undefined;
                         if(yankee) { _fun00012_ip = 156; continue _fun00011 }
  150:
-                        verify = offset.initialized;
+                        verify = offset.createdAtTimestamp;
  156:
                         tangon['client_heartbeat_initialization_timestamp'] = verify;
                         verify = 2;

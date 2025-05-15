@@ -27,11 +27,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00002_ip = 74; continue _fun00001;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -235,14 +235,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['importantForAccessibility'] = echoed;
             entity['poster'] = result;
             entity['muted'] = output;
-            if(backup) { _fun00004_ip = 302; continue _fun00003 }
- 293:
-            if(!kiloes) { _fun00004_ip = 299; continue _fun00003 }
- 296:
+            if(backup) { _fun00004_ip = 300; continue _fun00003 }
+ 291:
+            if(!kiloes) { _fun00004_ip = 297; continue _fun00003 }
+ 294:
             kiloes = !sizing;
- 299:
+ 297:
             backup = kiloes;
- 302:
+ 300:
             entity['paused'] = backup;
             entity['posterResizeMode'] = foxtra;
             entity['resizeMode'] = romeon;
@@ -260,22 +260,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = null;
             option = report == oscard;
             golfie = undefined;
-            if(option) { _fun00004_ip = 396; continue _fun00003 }
- 377:
+            if(option) { _fun00004_ip = 394; continue _fun00003 }
+ 375:
             option = oscard.props;
             verify = report == option;
             golfie = undefined;
-            if(verify) { _fun00004_ip = 396; continue _fun00003 }
- 391:
+            if(verify) { _fun00004_ip = 394; continue _fun00003 }
+ 389:
             golfie = option.ref;
- 396:
+ 394:
             entity['ref'] = golfie;
             golfie = report == oscard;
             report = undefined;
-            if(golfie) { _fun00004_ip = 414; continue _fun00003 }
- 409:
+            if(golfie) { _fun00004_ip = 412; continue _fun00003 }
+ 407:
             report = oscard.props;
- 414:
+ 412:
             cntext = entity;
             record = report;
             report = copyDataProperties(cntext, record);

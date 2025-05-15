@@ -254,10 +254,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                             entity = _closure3_slot2;
-                            if(entity) { _fun00006_ip = 672; continue _fun00005 }
+                            if(entity) { _fun00006_ip = 679; continue _fun00005 }
  13:
                             entity = _closure3_slot4;
-                            if(entity) { _fun00006_ip = 562; continue _fun00005 }
+                            if(entity) { _fun00006_ip = 569; continue _fun00005 }
  23:
                             entity = _closure3_slot5;
                             if(!entity) { _fun00006_ip = 49; continue _fun00005 }
@@ -394,9 +394,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  553:
                             return michal;
  555:
-                            entity = entity.description;
+                            entity = entity.messages;
+                            entity = entity.taskDescription;
                             return entity;
- 562:
+ 569:
                             entity = _closure3_slot11;
                             golfie = _closure1_slot0;
                             option = _closure1_slot2;
@@ -409,23 +410,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             michal = option[michal];
                             michal = golfie.bind(zuuluu)(michal);
                             michal = michal.t;
-                            if(entity) { _fun00006_ip = 645; continue _fun00005 }
- 618:
+                            if(entity) { _fun00006_ip = 652; continue _fun00005 }
+ 625:
                             zuuluu = michal.IpoqqK;
                             entity = {};
                             golfie = _closure3_slot12;
                             entity['questReward'] = golfie;
                             entity = tangon.bind(report)(zuuluu, entity);
-                            _fun00006_ip = 670; continue _fun00005;
- 645:
+                            _fun00006_ip = 677; continue _fun00005;
+ 652:
                             zuuluu = michal.ttFsLi;
                             michal = {};
                             oscard = _closure3_slot12;
                             michal['reward'] = oscard;
                             entity = tangon.bind(report)(zuuluu, michal);
- 670:
+ 677:
                             return entity;
- 672:
+ 679:
                             report = _closure1_slot0;
                             oscard = _closure1_slot2;
                             entity = 11;

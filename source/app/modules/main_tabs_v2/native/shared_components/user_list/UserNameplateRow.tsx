@@ -179,11 +179,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = entity.Card;
             entity = {'shadow': 'none', 'border': 'none'};
             cntext = !zuuluu;
-            if(!cntext) { _fun00002_ip = 383; continue _fun00001 }
- 377:
+            if(!cntext) { _fun00002_ip = 379; continue _fun00001 }
+ 373:
             papara = true;
             cntext = papara === target;
- 383:
+ 379:
             entity['start'] = cntext;
             entity['end'] = michal;
             entity['onPress'] = record;
@@ -232,11 +232,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity[option] = verify;
             option = oscard.bind(report)(tangon, entity);
             entity = option;
-            if(zuuluu) { _fun00002_ip = 677; continue _fun00001 }
- 592:
+            if(zuuluu) { _fun00002_ip = 673; continue _fun00001 }
+ 588:
             entity = option;
-            if(michal) { _fun00002_ip = 677; continue _fun00001 }
- 598:
+            if(michal) { _fun00002_ip = 673; continue _fun00001 }
+ 594:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot7;
             michal = {};
@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 677:
+ 673:
             return entity;
         }
     };

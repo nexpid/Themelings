@@ -3304,7 +3304,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  51:
                             michal = tangon;
  54:
-                            if(!(michal > zuuluu)) { _fun00096_ip = 339; continue _fun00095 }
+                            if(!(michal > zuuluu)) { _fun00096_ip = 341; continue _fun00095 }
  61:
                             romeon = _closure1_slot1;
                             foxtra = _closure1_slot3;
@@ -3367,7 +3367,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             sizing = michal;
                             oscard = copyDataProperties(sizing, kiloes);
                             michal = tangon.bind(report)(zuuluu, michal);
- 339:
+ 341:
                             return entity;
                         }
                     };
@@ -6049,12 +6049,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     michal = this;
                     tangon = michal._videoQuality;
                     zuuluu = null;
-                    if(!(zuuluu != tangon)) { _fun00156_ip = 399; continue _fun00155 }
+                    if(!(zuuluu != tangon)) { _fun00156_ip = 401; continue _fun00155 }
  21:
                     report = michal.context;
                     entity = _closure1_slot25;
                     entity = entity.DEFAULT;
-                    if(!(report === entity)) { _fun00156_ip = 399; continue _fun00155 }
+                    if(!(report === entity)) { _fun00156_ip = 401; continue _fun00155 }
  46:
                     entity = tangon.getInboundStats;
                     verify = entity.bind(tangon)(oscard);
@@ -6072,9 +6072,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  85:
                     entity = golfie;
  88:
-                    if(!(zuuluu != verify)) { _fun00156_ip = 399; continue _fun00155 }
+                    if(!(zuuluu != verify)) { _fun00156_ip = 401; continue _fun00155 }
  95:
-                    if(!(entity > report)) { _fun00156_ip = 399; continue _fun00155 }
+                    if(!(entity > report)) { _fun00156_ip = 401; continue _fun00155 }
  102:
                     romeon = _closure1_slot1;
                     backup = _closure1_slot3;
@@ -6137,23 +6137,23 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     entity = tangon.destroyUser;
                     entity = entity.bind(tangon)(oscard);
                     tangon = michal._videoHealthManager;
-                    if(!(zuuluu != tangon)) { _fun00156_ip = 399; continue _fun00155 }
- 388:
+                    if(!(zuuluu != tangon)) { _fun00156_ip = 401; continue _fun00155 }
+ 390:
                     entity = tangon.deleteUser;
                     entity = entity.bind(tangon)(oscard);
- 399:
+ 401:
                     tangon = michal._connection;
-                    if(!(zuuluu != tangon)) { _fun00156_ip = 420; continue _fun00155 }
- 409:
+                    if(!(zuuluu != tangon)) { _fun00156_ip = 422; continue _fun00155 }
+ 411:
                     entity = tangon.destroyUser;
                     entity = entity.bind(tangon)(oscard);
- 420:
+ 422:
                     tangon = michal._localMediaSinkWantsManager;
-                    if(!(zuuluu != tangon)) { _fun00156_ip = 441; continue _fun00155 }
- 430:
+                    if(!(zuuluu != tangon)) { _fun00156_ip = 443; continue _fun00155 }
+ 432:
                     entity = tangon.destroyUser;
                     entity = entity.bind(tangon)(oscard);
- 441:
+ 443:
                     tangon = michal._userIds;
                     entity = tangon.delete;
                     entity = entity.bind(tangon)(oscard);
@@ -6168,19 +6168,19 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     tangon = tangon.ClientDisconnect;
                     tangon = report.bind(michal)(tangon, oscard);
                     oscard = michal._goLiveQualityManager;
-                    if(!(zuuluu != oscard)) { _fun00156_ip = 533; continue _fun00155 }
- 516:
+                    if(!(zuuluu != oscard)) { _fun00156_ip = 535; continue _fun00155 }
+ 518:
                     report = oscard.updateCallUserIds;
                     tangon = michal._userIds;
                     tangon = report.bind(oscard)(tangon);
- 533:
+ 535:
                     tangon = michal._localMediaSinkWantsManager;
-                    if(!(zuuluu != tangon)) { _fun00156_ip = 560; continue _fun00155 }
- 543:
+                    if(!(zuuluu != tangon)) { _fun00156_ip = 562; continue _fun00155 }
+ 545:
                     zuuluu = tangon.updateCallUserIds;
                     michal = michal._userIds;
                     michal = zuuluu.bind(tangon)(michal);
- 560:
+ 562:
                     return entity;
                 }
             };

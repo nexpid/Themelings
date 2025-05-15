@@ -14,7 +14,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     michal = '__esModule';
     michal = report.bind(option)(zuuluu, michal, tangon);
     verify = {};
-    michal = function() { // Original name: de
+    michal = function() { // Original name: bg
         report = _closure1_slot0;
         oscard = _closure1_slot1;
         entity = 0;
@@ -36,8 +36,8 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    verify['de'] = michal;
-    michal = function() { // Original name: es-419
+    verify['bg'] = michal;
+    michal = function() { // Original name: cs
         report = _closure1_slot0;
         oscard = _closure1_slot1;
         entity = 0;
@@ -46,6 +46,121 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         zuuluu = report.bind(tangon)(entity);
         michal = zuuluu.loadJsonAsset;
         entity = 2;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.then;
+        entity = function(argFoo) {
+            entity = {};
+            michal = argFoo;
+            entity['default'] = michal;
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    verify['cs'] = michal;
+    michal = function() { // Original name: da
+        report = _closure1_slot0;
+        oscard = _closure1_slot1;
+        entity = 0;
+        entity = oscard[entity];
+        tangon = undefined;
+        zuuluu = report.bind(tangon)(entity);
+        michal = zuuluu.loadJsonAsset;
+        entity = 3;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.then;
+        entity = function(argFoo) {
+            entity = {};
+            michal = argFoo;
+            entity['default'] = michal;
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    verify['da'] = michal;
+    michal = function() { // Original name: de
+        report = _closure1_slot0;
+        oscard = _closure1_slot1;
+        entity = 0;
+        entity = oscard[entity];
+        tangon = undefined;
+        zuuluu = report.bind(tangon)(entity);
+        michal = zuuluu.loadJsonAsset;
+        entity = 4;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.then;
+        entity = function(argFoo) {
+            entity = {};
+            michal = argFoo;
+            entity['default'] = michal;
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    verify['de'] = michal;
+    michal = function() { // Original name: el
+        report = _closure1_slot0;
+        oscard = _closure1_slot1;
+        entity = 0;
+        entity = oscard[entity];
+        tangon = undefined;
+        zuuluu = report.bind(tangon)(entity);
+        michal = zuuluu.loadJsonAsset;
+        entity = 5;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.then;
+        entity = function(argFoo) {
+            entity = {};
+            michal = argFoo;
+            entity['default'] = michal;
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    verify['el'] = michal;
+    michal = function() { // Original name: en-GB
+        report = _closure1_slot0;
+        oscard = _closure1_slot1;
+        entity = 0;
+        entity = oscard[entity];
+        tangon = undefined;
+        zuuluu = report.bind(tangon)(entity);
+        michal = zuuluu.loadJsonAsset;
+        entity = 6;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.then;
+        entity = function(argFoo) {
+            entity = {};
+            michal = argFoo;
+            entity['default'] = michal;
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    verify['en-GB'] = michal;
+    michal = function() { // Original name: es-419
+        report = _closure1_slot0;
+        oscard = _closure1_slot1;
+        entity = 0;
+        entity = oscard[entity];
+        tangon = undefined;
+        zuuluu = report.bind(tangon)(entity);
+        michal = zuuluu.loadJsonAsset;
+        entity = 7;
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         zuuluu = michal.bind(zuuluu)(entity);
@@ -68,7 +183,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         tangon = undefined;
         zuuluu = report.bind(tangon)(entity);
         michal = zuuluu.loadJsonAsset;
-        entity = 3;
+        entity = 8;
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         zuuluu = michal.bind(zuuluu)(entity);
@@ -83,6 +198,29 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     verify['es-ES'] = michal;
+    michal = function() { // Original name: fi
+        report = _closure1_slot0;
+        oscard = _closure1_slot1;
+        entity = 0;
+        entity = oscard[entity];
+        tangon = undefined;
+        zuuluu = report.bind(tangon)(entity);
+        michal = zuuluu.loadJsonAsset;
+        entity = 9;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.then;
+        entity = function(argFoo) {
+            entity = {};
+            michal = argFoo;
+            entity['default'] = michal;
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    verify['fi'] = michal;
     michal = function() { // Original name: fr
         report = _closure1_slot0;
         oscard = _closure1_slot1;
@@ -91,7 +229,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         tangon = undefined;
         zuuluu = report.bind(tangon)(entity);
         michal = zuuluu.loadJsonAsset;
-        entity = 4;
+        entity = 10;
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         zuuluu = michal.bind(zuuluu)(entity);
@@ -106,6 +244,75 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     verify['fr'] = michal;
+    michal = function() { // Original name: hi
+        report = _closure1_slot0;
+        oscard = _closure1_slot1;
+        entity = 0;
+        entity = oscard[entity];
+        tangon = undefined;
+        zuuluu = report.bind(tangon)(entity);
+        michal = zuuluu.loadJsonAsset;
+        entity = 11;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.then;
+        entity = function(argFoo) {
+            entity = {};
+            michal = argFoo;
+            entity['default'] = michal;
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    verify['hi'] = michal;
+    michal = function() { // Original name: hr
+        report = _closure1_slot0;
+        oscard = _closure1_slot1;
+        entity = 0;
+        entity = oscard[entity];
+        tangon = undefined;
+        zuuluu = report.bind(tangon)(entity);
+        michal = zuuluu.loadJsonAsset;
+        entity = 12;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.then;
+        entity = function(argFoo) {
+            entity = {};
+            michal = argFoo;
+            entity['default'] = michal;
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    verify['hr'] = michal;
+    michal = function() { // Original name: hu
+        report = _closure1_slot0;
+        oscard = _closure1_slot1;
+        entity = 0;
+        entity = oscard[entity];
+        tangon = undefined;
+        zuuluu = report.bind(tangon)(entity);
+        michal = zuuluu.loadJsonAsset;
+        entity = 13;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.then;
+        entity = function(argFoo) {
+            entity = {};
+            michal = argFoo;
+            entity['default'] = michal;
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    verify['hu'] = michal;
     michal = function() { // Original name: it
         report = _closure1_slot0;
         oscard = _closure1_slot1;
@@ -114,7 +321,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         tangon = undefined;
         zuuluu = report.bind(tangon)(entity);
         michal = zuuluu.loadJsonAsset;
-        entity = 5;
+        entity = 14;
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         zuuluu = michal.bind(zuuluu)(entity);
@@ -129,6 +336,29 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     verify['it'] = michal;
+    michal = function() { // Original name: ja
+        report = _closure1_slot0;
+        oscard = _closure1_slot1;
+        entity = 0;
+        entity = oscard[entity];
+        tangon = undefined;
+        zuuluu = report.bind(tangon)(entity);
+        michal = zuuluu.loadJsonAsset;
+        entity = 15;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.then;
+        entity = function(argFoo) {
+            entity = {};
+            michal = argFoo;
+            entity['default'] = michal;
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    verify['ja'] = michal;
     michal = function() { // Original name: ko
         report = _closure1_slot0;
         oscard = _closure1_slot1;
@@ -137,7 +367,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         tangon = undefined;
         zuuluu = report.bind(tangon)(entity);
         michal = zuuluu.loadJsonAsset;
-        entity = 6;
+        entity = 16;
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         zuuluu = michal.bind(zuuluu)(entity);
@@ -152,6 +382,98 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     verify['ko'] = michal;
+    michal = function() { // Original name: lt
+        report = _closure1_slot0;
+        oscard = _closure1_slot1;
+        entity = 0;
+        entity = oscard[entity];
+        tangon = undefined;
+        zuuluu = report.bind(tangon)(entity);
+        michal = zuuluu.loadJsonAsset;
+        entity = 17;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.then;
+        entity = function(argFoo) {
+            entity = {};
+            michal = argFoo;
+            entity['default'] = michal;
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    verify['lt'] = michal;
+    michal = function() { // Original name: nl
+        report = _closure1_slot0;
+        oscard = _closure1_slot1;
+        entity = 0;
+        entity = oscard[entity];
+        tangon = undefined;
+        zuuluu = report.bind(tangon)(entity);
+        michal = zuuluu.loadJsonAsset;
+        entity = 18;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.then;
+        entity = function(argFoo) {
+            entity = {};
+            michal = argFoo;
+            entity['default'] = michal;
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    verify['nl'] = michal;
+    michal = function() { // Original name: no
+        report = _closure1_slot0;
+        oscard = _closure1_slot1;
+        entity = 0;
+        entity = oscard[entity];
+        tangon = undefined;
+        zuuluu = report.bind(tangon)(entity);
+        michal = zuuluu.loadJsonAsset;
+        entity = 19;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.then;
+        entity = function(argFoo) {
+            entity = {};
+            michal = argFoo;
+            entity['default'] = michal;
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    verify['no'] = michal;
+    michal = function() { // Original name: pl
+        report = _closure1_slot0;
+        oscard = _closure1_slot1;
+        entity = 0;
+        entity = oscard[entity];
+        tangon = undefined;
+        zuuluu = report.bind(tangon)(entity);
+        michal = zuuluu.loadJsonAsset;
+        entity = 20;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.then;
+        entity = function(argFoo) {
+            entity = {};
+            michal = argFoo;
+            entity['default'] = michal;
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    verify['pl'] = michal;
     michal = function() { // Original name: pt-BR
         report = _closure1_slot0;
         oscard = _closure1_slot1;
@@ -160,7 +482,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         tangon = undefined;
         zuuluu = report.bind(tangon)(entity);
         michal = zuuluu.loadJsonAsset;
-        entity = 7;
+        entity = 21;
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         zuuluu = michal.bind(zuuluu)(entity);
@@ -175,6 +497,29 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     verify['pt-BR'] = michal;
+    michal = function() { // Original name: ro
+        report = _closure1_slot0;
+        oscard = _closure1_slot1;
+        entity = 0;
+        entity = oscard[entity];
+        tangon = undefined;
+        zuuluu = report.bind(tangon)(entity);
+        michal = zuuluu.loadJsonAsset;
+        entity = 22;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.then;
+        entity = function(argFoo) {
+            entity = {};
+            michal = argFoo;
+            entity['default'] = michal;
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    verify['ro'] = michal;
     michal = function() { // Original name: ru
         report = _closure1_slot0;
         oscard = _closure1_slot1;
@@ -183,7 +528,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         tangon = undefined;
         zuuluu = report.bind(tangon)(entity);
         michal = zuuluu.loadJsonAsset;
-        entity = 8;
+        entity = 23;
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         zuuluu = michal.bind(zuuluu)(entity);
@@ -206,7 +551,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         tangon = undefined;
         zuuluu = report.bind(tangon)(entity);
         michal = zuuluu.loadJsonAsset;
-        entity = 9;
+        entity = 24;
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         zuuluu = michal.bind(zuuluu)(entity);
@@ -229,7 +574,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         tangon = undefined;
         zuuluu = report.bind(tangon)(entity);
         michal = zuuluu.loadJsonAsset;
-        entity = 10;
+        entity = 25;
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         zuuluu = michal.bind(zuuluu)(entity);
@@ -252,7 +597,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         tangon = undefined;
         zuuluu = report.bind(tangon)(entity);
         michal = zuuluu.loadJsonAsset;
-        entity = 11;
+        entity = 26;
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         zuuluu = michal.bind(zuuluu)(entity);
@@ -267,6 +612,52 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     verify['tr'] = michal;
+    michal = function() { // Original name: uk
+        report = _closure1_slot0;
+        oscard = _closure1_slot1;
+        entity = 0;
+        entity = oscard[entity];
+        tangon = undefined;
+        zuuluu = report.bind(tangon)(entity);
+        michal = zuuluu.loadJsonAsset;
+        entity = 27;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.then;
+        entity = function(argFoo) {
+            entity = {};
+            michal = argFoo;
+            entity['default'] = michal;
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    verify['uk'] = michal;
+    michal = function() { // Original name: vi
+        report = _closure1_slot0;
+        oscard = _closure1_slot1;
+        entity = 0;
+        entity = oscard[entity];
+        tangon = undefined;
+        zuuluu = report.bind(tangon)(entity);
+        michal = zuuluu.loadJsonAsset;
+        entity = 28;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
+        zuuluu = michal.bind(zuuluu)(entity);
+        michal = zuuluu.then;
+        entity = function(argFoo) {
+            entity = {};
+            michal = argFoo;
+            entity['default'] = michal;
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    verify['vi'] = michal;
     michal = function() { // Original name: zh-CN
         report = _closure1_slot0;
         oscard = _closure1_slot1;
@@ -275,7 +666,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         tangon = undefined;
         zuuluu = report.bind(tangon)(entity);
         michal = zuuluu.loadJsonAsset;
-        entity = 12;
+        entity = 29;
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         zuuluu = michal.bind(zuuluu)(entity);
@@ -298,7 +689,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         tangon = undefined;
         zuuluu = report.bind(tangon)(entity);
         michal = zuuluu.loadJsonAsset;
-        entity = 13;
+        entity = 30;
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         zuuluu = michal.bind(zuuluu)(entity);
@@ -321,7 +712,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         tangon = undefined;
         zuuluu = report.bind(tangon)(entity);
         michal = zuuluu.loadJsonAsset;
-        entity = 14;
+        entity = 31;
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         zuuluu = michal.bind(zuuluu)(entity);
@@ -336,7 +727,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     verify['en-US'] = entity;
-    tangon = 15;
+    tangon = 32;
     michal = golfie[tangon];
     entity = undefined;
     option = oscard.bind(entity)(michal);
@@ -347,7 +738,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = oscard.bind(entity)(tangon);
     tangon = report.makeMessagesProxy;
     tangon = tangon.bind(report)(michal);
-    report = 16;
+    report = 33;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

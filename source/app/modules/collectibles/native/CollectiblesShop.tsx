@@ -650,7 +650,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = null;
                     entity = michal != zuuluu;
  20:
-                    if(!entity) { _fun00016_ip = 119; continue _fun00015 }
+                    if(!entity) { _fun00016_ip = 103; continue _fun00015 }
  23:
                     zuuluu = _closure1_slot0;
                     michal = _closure1_slot2;
@@ -660,13 +660,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = zuuluu.bind(entity)(michal);
                     michal = zuuluu.fetchCollectiblesCategories;
                     entity = {};
-                    option = _closure2_slot6;
-                    oscard = 'US';
-                    golfie = '';
-                    if(!(golfie !== option)) { _fun00016_ip = 76; continue _fun00015 }
- 72:
                     oscard = _closure2_slot6;
- 76:
                     entity['countryCode'] = oscard;
                     report = _closure1_slot11;
                     report = report.APPLE;
@@ -676,7 +670,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = _closure2_slot4;
                     entity['includeUnpublished'] = tangon;
                     entity = michal.bind(zuuluu)(entity);
- 119:
+ 103:
                     entity = undefined;
                     return entity;
                 }

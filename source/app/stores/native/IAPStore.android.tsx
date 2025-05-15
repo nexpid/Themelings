@@ -38,55 +38,46 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot16 = michal;
+            _closure1_slot15 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot16 = entity;
+    var _closure1_slot15 = entity;
     entity = function(argFoo) { // Original name: updateProduct
         michal = argFoo;
         zuuluu = michal.currencyCode;
         entity = zuuluu.toLowerCase;
-        option = entity.bind(zuuluu)();
+        tangon = entity.bind(zuuluu)();
+        zuuluu = michal.price;
+        entity = 100;
+        oscard = zuuluu / entity;
         report = _closure1_slot0;
-        golfie = _closure1_slot1;
-        entity = 7;
-        oscard = golfie[entity];
-        tangon = undefined;
-        offset = report.bind(tangon)(oscard);
-        verify = offset.convertToMajorCurrencyUnits;
-        oscard = michal.price;
-        zuuluu = _closure1_slot8;
-        zuuluu = zuuluu.USD;
-        oscard = verify.bind(offset)(oscard, zuuluu);
-        entity = golfie[entity];
-        zuuluu = report.bind(tangon)(entity);
-        entity = zuuluu.convertToMinorCurrencyUnits;
-        verify = entity.bind(zuuluu)(oscard, option);
+        zuuluu = _closure1_slot1;
+        entity = 6;
+        zuuluu = zuuluu[entity];
+        entity = undefined;
+        report = report.bind(entity)(zuuluu);
+        zuuluu = report.formatPrice;
         entity = {};
-        foxtra = entity;
-        romeon = michal;
-        zuuluu = copyDataProperties(foxtra, romeon);
-        zuuluu = 'price';
-        entity[zuuluu] = verify;
-        zuuluu = 'currencyCode';
-        entity[zuuluu] = option;
-        zuuluu = 8;
-        zuuluu = golfie[zuuluu];
-        report = report.bind(tangon)(zuuluu);
-        tangon = report.formatPrice;
-        zuuluu = michal.currencyCode;
-        michal = {};
         golfie = false;
-        michal['convertToMajorUnits'] = golfie;
-        zuuluu = tangon.bind(report)(oscard, zuuluu, michal);
+        entity['convertToMajorUnits'] = golfie;
+        zuuluu = zuuluu.bind(report)(oscard, tangon, entity);
+        entity = {};
+        offset = entity;
+        verify = michal;
+        report = copyDataProperties(offset, verify);
+        report = michal.price;
+        michal = 'price';
+        entity[michal] = report;
+        michal = 'currencyCode';
+        entity[michal] = tangon;
         michal = 'priceString';
         entity[michal] = zuuluu;
         return entity;
     };
-    var _closure1_slot17 = entity;
+    var _closure1_slot16 = entity;
     option = global;
     offset = option.Object;
     verify = offset.defineProperty;
@@ -121,40 +112,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = report.bind(entity)(michal);
     michal = michal.GPlayConnectionState;
     var _closure1_slot7 = michal;
-    verify = 6;
-    verify = oscard[verify];
-    verify = report.bind(entity)(verify);
-    verify = verify.CurrencyCodes;
-    var _closure1_slot8 = verify;
     michal = michal.DISCONNECTED;
-    var _closure1_slot9 = michal;
+    var _closure1_slot8 = michal;
     michal = null;
-    var _closure1_slot10 = michal;
+    var _closure1_slot9 = michal;
     verify = option.Map;
     offset = verify.prototype;
     offset = Object.create(offset, {constructor: {value: verify}});
     backup = offset;
     verify = new backup[verify](foxtra);
     verify = verify instanceof Object ? verify : offset;
-    var _closure1_slot11 = verify;
+    var _closure1_slot10 = verify;
     verify = option.Set;
     offset = verify.prototype;
     offset = Object.create(offset, {constructor: {value: verify}});
     backup = offset;
     verify = new backup[verify](foxtra);
     verify = verify instanceof Object ? verify : offset;
-    var _closure1_slot12 = verify;
+    var _closure1_slot11 = verify;
     option = option.Set;
     verify = option.prototype;
     verify = Object.create(verify, {constructor: {value: option}});
     backup = verify;
     option = new backup[option](foxtra);
     option = option instanceof Object ? option : verify;
-    var _closure1_slot13 = option;
-    var _closure1_slot14 = michal;
+    var _closure1_slot12 = option;
+    var _closure1_slot13 = michal;
     michal = false;
-    var _closure1_slot15 = michal;
-    michal = 10;
+    var _closure1_slot14 = michal;
+    michal = 8;
     michal = oscard[michal];
     michal = golfie.bind(entity)(michal);
     option = michal.Store;
@@ -171,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot5;
                 verify = entity.bind(zuuluu)(michal);
                 michal = _closure1_slot4;
-                entity = _closure1_slot16;
+                entity = _closure1_slot15;
                 entity = entity.bind(zuuluu)();
                 if(entity) { _fun00004_ip = 69; continue _fun00003 }
  51:
@@ -204,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = 'getProducts';
         report['key'] = entity;
         entity = function() { // Original name: value
-            entity = _closure1_slot10;
+            entity = _closure1_slot9;
             return entity;
         };
         report['value'] = entity;
@@ -214,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getOfferIds';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot12;
+            entity = _closure1_slot11;
             return entity;
         };
         report['value'] = golfie;
@@ -225,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = function(argFoo) { // Original name: value
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                zuuluu = _closure1_slot11;
+                zuuluu = _closure1_slot10;
                 michal = zuuluu.get;
                 entity = argFoo;
                 michal = michal.bind(zuuluu)(entity);
@@ -246,13 +232,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = function() { // Original name: value
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                entity = _closure1_slot13;
+                entity = _closure1_slot12;
                 zuuluu = entity.size;
                 entity = 0;
                 entity = zuuluu > entity;
                 if(entity) { _fun00008_ip = 25; continue _fun00007 }
  21:
-                entity = _closure1_slot15;
+                entity = _closure1_slot14;
  25:
                 return entity;
             }
@@ -263,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'isPurchasingProduct';
         report['key'] = golfie;
         golfie = function(argFoo) { // Original name: value
-            zuuluu = _closure1_slot13;
+            zuuluu = _closure1_slot12;
             michal = zuuluu.has;
             entity = argFoo;
             entity = michal.bind(zuuluu)(entity);
@@ -275,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'isReady';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            michal = _closure1_slot9;
+            michal = _closure1_slot8;
             entity = _closure1_slot7;
             entity = entity.CONNECTED;
             entity = michal === entity;
@@ -287,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'hasConnectionError';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            michal = _closure1_slot9;
+            michal = _closure1_slot8;
             entity = _closure1_slot7;
             entity = entity.ERROR;
             entity = michal === entity;
@@ -299,7 +285,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getPendingDowngrade';
         report['key'] = golfie;
         oscard = function() { // Original name: value
-            entity = _closure1_slot14;
+            entity = _closure1_slot13;
             return entity;
         };
         report['value'] = oscard;
@@ -310,14 +296,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = michal.bind(entity)(option);
     michal = 'IAPStore';
     option['displayName'] = michal;
-    michal = 11;
+    michal = 9;
     michal = oscard[michal];
     foxtra = golfie.bind(entity)(michal);
     michal = {};
     verify = function(argFoo) { // Original name: updateConnectionState
         entity = argFoo;
         michal = entity.connectionState;
-        _closure1_slot9 = michal;
+        _closure1_slot8 = michal;
         entity = undefined;
         return entity;
     };
@@ -333,7 +319,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = oscard.forEach;
             tangon = function(argFoo) {
                 tangon = argFoo;
-                zuuluu = _closure1_slot11;
+                zuuluu = _closure1_slot10;
                 michal = zuuluu.set;
                 entity = tangon.identifier;
                 entity = michal.bind(zuuluu)(entity, tangon);
@@ -344,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = global;
             option = tangon.Array;
             oscard = option.from;
-            verify = _closure1_slot11;
+            verify = _closure1_slot10;
             report = verify.values;
             report = report.bind(verify)();
             offset = oscard.bind(option)(report);
@@ -362,7 +348,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             verify = option.bind(offset)(oscard);
  92:
-            _closure1_slot10 = verify;
+            _closure1_slot9 = verify;
             if(!(report != verify)) { _fun00010_ip = 115; continue _fun00009 }
  100:
             option = verify.forEach;
@@ -382,7 +368,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  26:
                     zuuluu = tangon.forEach;
                     michal = function(argFoo) {
-                        zuuluu = _closure1_slot12;
+                        zuuluu = _closure1_slot11;
                         michal = zuuluu.add;
                         entity = argFoo;
                         entity = michal.bind(zuuluu)(entity);
@@ -395,7 +381,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             oscard = option.bind(verify)(oscard);
  115: // try_start_0
-            oscard = _closure1_slot10;
+            oscard = _closure1_slot9;
             golfie = oscard;
             option = report == oscard;
             oscard = undefined;
@@ -403,23 +389,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  131:
             verify = golfie;
             option = verify.map;
-            golfie = _closure1_slot17;
+            golfie = _closure1_slot16;
             oscard = option.bind(verify)(golfie);
  148:
-            _closure1_slot10 = oscard;
+            _closure1_slot9 = oscard;
  152: // try_end0
             _fun00010_ip = 187; continue _fun00009;
  154: // catch_target0
             CatchBlockStart(arg_register=7);
             golfie = _closure1_slot0;
             verify = _closure1_slot1;
-            oscard = 9;
+            oscard = 7;
             oscard = verify[oscard];
             golfie = golfie.bind(entity)(oscard);
             oscard = golfie.captureBillingException;
             oscard = oscard.bind(golfie)(option);
  187:
-            tangon = _closure1_slot10;
+            tangon = _closure1_slot9;
             zuuluu = tangon;
             if(!(report != tangon)) { _fun00010_ip = 216; continue _fun00009 }
  198:
@@ -427,7 +413,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.forEach;
             michal = function(argFoo) {
                 tangon = argFoo;
-                zuuluu = _closure1_slot11;
+                zuuluu = _closure1_slot10;
                 michal = zuuluu.set;
                 entity = tangon.identifier;
                 entity = michal.bind(zuuluu)(entity, tangon);
@@ -443,7 +429,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = function(argFoo) { // Original name: handleVerificationStart
         entity = argFoo;
         zuuluu = entity.productId;
-        michal = _closure1_slot13;
+        michal = _closure1_slot12;
         entity = michal.add;
         entity = entity.bind(michal)(zuuluu);
         entity = undefined;
@@ -455,7 +441,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             entity = argFoo;
             zuuluu = entity.productId;
-            tangon = _closure1_slot13;
+            tangon = _closure1_slot12;
             michal = tangon.has;
             michal = michal.bind(tangon)(zuuluu);
             if(michal) { _fun00014_ip = 81; continue _fun00013 }
@@ -473,7 +459,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal instanceof Object ? michal : tangon;
             throw michal;
  81:
-            michal = _closure1_slot13;
+            michal = _closure1_slot12;
             entity = michal.delete;
             entity = entity.bind(michal)(zuuluu);
             entity = undefined;
@@ -484,7 +470,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = function(argFoo) { // Original name: handleUpdatePendingDowngrade
         entity = argFoo;
         michal = entity.pendingDowngrade;
-        _closure1_slot14 = michal;
+        _closure1_slot13 = michal;
         entity = undefined;
         return entity;
     };
@@ -492,7 +478,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: handleUpdateIsDowngrading
         entity = argFoo;
         michal = entity.isDowngrading;
-        _closure1_slot15 = michal;
+        _closure1_slot14 = michal;
         entity = undefined;
         return entity;
     };
@@ -503,7 +489,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     romeon = michal;
     michal = new backup[option](foxtra, romeon, yankee);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 12;
+    tangon = 10;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

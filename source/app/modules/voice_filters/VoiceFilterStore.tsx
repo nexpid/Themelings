@@ -27,11 +27,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00002_ip = 74; continue _fun00001;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  49:
             michal = zuuluu.@@iterator;
  55:
-            if(michal) { _fun00004_ip = 345; continue _fun00003 }
+            if(michal) { _fun00004_ip = 343; continue _fun00003 }
  61:
             oscard = report.Array;
             tangon = oscard.isArray;
@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             return entity;
- 345:
+ 343:
             entity = michal.call;
             zuuluu = entity.bind(michal)(zuuluu);
             michal = zuuluu.next;
@@ -528,7 +528,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(14);
+        entity = new Array(15);
         entity[0] = report;
         report = {};
         golfie = 'getVoiceFilters';
@@ -565,6 +565,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[3] = report;
         report = {};
+        golfie = 'getOngoingDownloads';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
+            entity = global;
+            zuuluu = entity.Object;
+            michal = zuuluu.values;
+            entity = _closure1_slot10;
+            entity = entity.modelState;
+            zuuluu = michal.bind(zuuluu)(entity);
+            michal = zuuluu.filter;
+            entity = function(argFoo) {
+                entity = argFoo;
+                michal = entity.status;
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot1;
+                entity = 7;
+                zuuluu = zuuluu[entity];
+                entity = undefined;
+                entity = tangon.bind(entity)(zuuluu);
+                entity = entity.VoiceFilterModelStatus;
+                entity = entity.DOWNLOADING;
+                entity = michal === entity;
+                return entity;
+            };
+            entity = michal.bind(zuuluu)(entity);
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[4] = report;
+        report = {};
         golfie = 'isModelDownloaded';
         report['key'] = golfie;
         golfie = function(argFoo) { // Original name: value
@@ -594,7 +624,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[4] = report;
+        entity[5] = report;
         report = {};
         golfie = 'getSortedVoiceFilters';
         report['key'] = golfie;
@@ -613,7 +643,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[5] = report;
+        entity[6] = report;
         report = {};
         golfie = 'getCatalogLastFetchTime';
         report['key'] = golfie;
@@ -623,7 +653,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[6] = report;
+        entity[7] = report;
         report = {};
         golfie = 'getCatalogUpdateTime';
         report['key'] = golfie;
@@ -633,7 +663,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[7] = report;
+        entity[8] = report;
         report = {};
         golfie = 'getLimitedTimeVoices';
         report['key'] = golfie;
@@ -643,7 +673,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[8] = report;
+        entity[9] = report;
         report = {};
         golfie = 'isNativeModuleLoaded';
         report['key'] = golfie;
@@ -662,7 +692,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[9] = report;
+        entity[10] = report;
         report = {};
         golfie = 'isNativeModuleLoading';
         report['key'] = golfie;
@@ -681,7 +711,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[10] = report;
+        entity[11] = report;
         report = {};
         golfie = 'hasNativeModuleFailed';
         report['key'] = golfie;
@@ -700,7 +730,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[11] = report;
+        entity[12] = report;
         report = {};
         golfie = 'getCatalogFetchFailed';
         report['key'] = golfie;
@@ -710,7 +740,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[12] = report;
+        entity[13] = report;
         report = {};
         golfie = 'getError';
         report['key'] = golfie;
@@ -720,7 +750,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = oscard;
-        entity[13] = report;
+        entity[14] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

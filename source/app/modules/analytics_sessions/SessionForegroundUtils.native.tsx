@@ -1,4 +1,4 @@
-// app/modules/analytics_sessions/SessionAdUtils.native.tsx
+// app/modules/analytics_sessions/SessionForegroundUtils.native.tsx
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -21,7 +21,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/analytics_sessions/SessionAdUtils.native.tsx';
+    tangon = 'modules/analytics_sessions/SessionForegroundUtils.native.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function() { // Original name: isForegrounded
         entity = _closure1_slot0;

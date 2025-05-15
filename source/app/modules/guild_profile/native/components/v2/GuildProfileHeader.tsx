@@ -273,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         offset = kiloes[option];
         offset = yankee.bind(tangon)(offset);
         output = offset.Text;
-        sizing = {'variant': 'text-md/medium', 'color': 'text-secondary'};
+        sizing = {'variant': 'text-md/medium', 'color': 'header-secondary'};
         offset = 18;
         result = kiloes[offset];
         result = yankee.bind(tangon)(result);
@@ -306,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         output = kiloes[option];
         output = yankee.bind(tangon)(output);
         result = output.Text;
-        output = {'variant': 'text-md/medium', 'color': 'text-secondary'};
+        output = {'variant': 'text-md/medium', 'color': 'header-secondary'};
         echoed = kiloes[offset];
         echoed = yankee.bind(tangon)(echoed);
         ctrled = echoed.intl;
@@ -334,7 +334,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         option = kiloes[option];
         option = yankee.bind(tangon)(option);
         verify = option.Text;
-        option = {'variant': 'text-md/medium', 'color': 'text-secondary'};
+        option = {'variant': 'text-md/medium', 'color': 'text-muted'};
         romeon = kiloes[offset];
         romeon = yankee.bind(tangon)(romeon);
         foxtra = romeon.intl;

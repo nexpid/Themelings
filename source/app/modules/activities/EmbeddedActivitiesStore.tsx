@@ -2599,23 +2599,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = entity.guildId;
             zuuluu = _closure1_slot44;
             entity = undefined;
-            report = zuuluu.bind(entity)(tangon);
-            tangon = _closure1_slot29;
-            michal = tangon.get;
-            golfie = michal.bind(tangon)(report);
-            zuuluu = tangon.set;
-            michal = {};
-            oscard = true;
-            michal['isFetching'] = oscard;
-            oscard = null;
-            option = oscard == golfie;
-            oscard = undefined;
-            if(option) { _fun00080_ip = 67; continue _fun00079 }
+            oscard = zuuluu.bind(entity)(tangon);
+            report = _closure1_slot29;
+            zuuluu = report.get;
+            option = zuuluu.bind(report)(oscard);
+            tangon = report.set;
+            zuuluu = {};
+            golfie = true;
+            zuuluu['isFetching'] = golfie;
+            golfie = null;
+            verify = golfie == option;
+            golfie = undefined;
+            if(verify) { _fun00080_ip = 67; continue _fun00079 }
  61:
-            oscard = golfie.lastFetchTimestampMs;
+            golfie = option.lastFetchTimestampMs;
  67:
-            michal['lastFetchTimestampMs'] = oscard;
-            michal = zuuluu.bind(tangon)(report, michal);
+            zuuluu['lastFetchTimestampMs'] = golfie;
+            zuuluu = tangon.bind(report)(oscard, zuuluu);
+            zuuluu = _closure1_slot19;
+            michal = global;
+            report = michal.Date;
+            tangon = michal.Date;
+            michal = tangon.now;
+            yankee = michal.bind(tangon)();
+            tangon = report.prototype;
+            tangon = Object.create(tangon, {constructor: {value: report}});
+            romeon = tangon;
+            michal = new romeon[report](yankee, offset);
+            tangon = michal instanceof Object ? michal : tangon;
+            michal = tangon.toISOString;
+            michal = michal.bind(tangon)();
+            zuuluu['lastCheckedForBadgeableActivities'] = michal;
             return entity;
         }
     };
@@ -2640,8 +2654,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu = function(argFoo) { // Original name: handleShowingNewActivityIndicator
             michal = argFoo;
             zuuluu = michal.activities;
-            tangon = michal.now;
-            var _closure3_slot0 = tangon;
+            michal = michal.now;
+            var _closure3_slot0 = michal;
             michal = zuuluu.forEach;
             entity = function(argFoo) {
                 _fun00081: for(var _fun00082_ip = 0; ; ) switch(_fun00082_ip) {
@@ -2826,18 +2840,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             entity = michal.bind(zuuluu)(entity);
-            michal = _closure1_slot19;
-            entity = global;
-            entity = entity.Date;
-            zuuluu = entity.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: entity}});
-            oscard = zuuluu;
-            report = tangon;
-            entity = new oscard[entity](report, tangon);
-            zuuluu = entity instanceof Object ? entity : zuuluu;
-            entity = zuuluu.toISOString;
-            entity = entity.bind(zuuluu)();
-            michal['lastCheckedForBadgeableActivities'] = entity;
             entity = undefined;
             return entity;
         };
