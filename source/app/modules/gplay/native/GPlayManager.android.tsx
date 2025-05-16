@@ -79,27 +79,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 1083; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 1110; continue _fun00003 }
  10:
                     michal = argFoo;
                     option = michal.purchase;
                     zuuluu = undefined;
                     romeon = undefined;
+                    kiloes = undefined;
                     foxtra = undefined;
-                    SaveGenerator(address=29);
- 27:
-                    return zuuluu;
+                    SaveGenerator(address=31);
  29:
+                    return zuuluu;
+ 31:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 1080; continue _fun00003 }
- 38:
+                    if(tangon) { _fun00004_ip = 1107; continue _fun00003 }
+ 40:
                     golfie = _closure1_slot8;
                     oscard = golfie.isPurchasingProduct;
                     tangon = option;
                     tangon = tangon.productId;
                     tangon = oscard.bind(golfie)(tangon);
-                    if(tangon) { _fun00004_ip = 1077; continue _fun00003 }
- 71:
+                    if(tangon) { _fun00004_ip = 1104; continue _fun00003 }
+ 73:
                     oscard = _closure1_slot9;
                     tangon = oscard.getState;
                     tangon = tangon.bind(oscard)();
@@ -107,38 +108,47 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = option;
                     tangon = tangon.productId;
                     romeon = oscard[tangon];
- 104: // try_start_0 // try_start_2
+ 106: // try_start_0 // try_start_2
                     golfie = _closure1_slot1;
                     tangon = _closure1_slot2;
                     verify = 12;
                     oscard = tangon[verify];
-                    yankee = golfie.bind(zuuluu)(oscard);
-                    golfie = yankee.dispatch;
+                    offset = golfie.bind(zuuluu)(oscard);
+                    golfie = offset.dispatch;
                     oscard = {};
-                    offset = 'GPLAY_VERIFICATION_START';
-                    oscard['type'] = offset;
-                    offset = option;
-                    backup = offset.productId;
+                    yankee = 'GPLAY_VERIFICATION_START';
+                    oscard['type'] = yankee;
+                    yankee = option;
+                    backup = yankee.productId;
                     oscard['productId'] = backup;
-                    oscard = golfie.bind(yankee)(oscard);
+                    oscard = golfie.bind(offset)(oscard);
                     oscard = _closure1_slot0;
                     backup = 13;
                     tangon = tangon[backup];
-                    golfie = oscard.bind(zuuluu)(tangon);
-                    oscard = golfie.verifyPurchase;
-                    tangon = _closure1_slot18;
-                    tangon = oscard.bind(golfie)(offset, tangon);
-                    SaveGenerator(address=196);
- 194:
-                    return tangon;
- 196:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(oscard) { _fun00004_ip = 639; continue _fun00003 }
- 205:
-                    foxtra = tangon;
+                    offset = oscard.bind(zuuluu)(tangon);
+                    oscard = offset.verifyPurchase;
+                    golfie = _closure1_slot18;
+                    tangon = yankee.productId;
+                    tangon = golfie[tangon];
+                    kiloes = tangon;
                     golfie = null;
-                    if(!(golfie != tangon)) { _fun00004_ip = 395; continue _fun00003 }
- 217:
+                    sizing = golfie != tangon;
+                    tangon = undefined;
+                    if(!sizing) { _fun00004_ip = 215; continue _fun00003 }
+ 212:
+                    tangon = kiloes;
+ 215:
+                    tangon = oscard.bind(offset)(yankee, tangon);
+                    SaveGenerator(address=225);
+ 223:
+                    return tangon;
+ 225:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
+                    if(oscard) { _fun00004_ip = 666; continue _fun00003 }
+ 234:
+                    foxtra = tangon;
+                    if(!(golfie != tangon)) { _fun00004_ip = 422; continue _fun00003 }
+ 244:
                     offset = _closure1_slot0;
                     yankee = _closure1_slot2;
                     oscard = 14;
@@ -149,8 +159,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = option;
                     oscard = oscard.productId;
                     oscard = offset.bind(yankee)(oscard);
-                    if(oscard) { _fun00004_ip = 395; continue _fun00003 }
- 268:
+                    if(oscard) { _fun00004_ip = 422; continue _fun00003 }
+ 295:
                     yankee = _closure1_slot1;
                     offset = _closure1_slot2;
                     oscard = offset[verify];
@@ -177,24 +187,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = '[handlePurchaseUpdated] One Time Purchase verified and consumed: ';
                     oscard = backup.bind(oscard)(kiloes);
                     oscard = offset.bind(yankee)(oscard);
-                    _fun00004_ip = 578; continue _fun00003;
- 395:
+                    _fun00004_ip = 605; continue _fun00003;
+ 422:
                     oscard = foxtra;
-                    if(!(golfie != oscard)) { _fun00004_ip = 415; continue _fun00003 }
- 402:
+                    if(!(golfie != oscard)) { _fun00004_ip = 442; continue _fun00003 }
+ 429:
                     oscard = foxtra;
                     oscard = oscard.pendingDowngrade;
-                    if(!(golfie == oscard)) { _fun00004_ip = 492; continue _fun00003 }
- 415:
+                    if(!(golfie == oscard)) { _fun00004_ip = 519; continue _fun00003 }
+ 442:
                     oscard = _closure1_slot31;
                     oscard = oscard.bind(zuuluu)();
-                    SaveGenerator(address=427);
- 425:
+                    SaveGenerator(address=454);
+ 452:
                     return oscard;
- 427:
+ 454:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                    if(!golfie) { _fun00004_ip = 578; continue _fun00003 }
- 436: // try_end0 // try_end2
+                    if(!golfie) { _fun00004_ip = 605; continue _fun00003 }
+ 463: // try_end0 // try_end2
                     offset = _closure1_slot1;
                     golfie = _closure1_slot2;
                     golfie = golfie[verify];
@@ -208,7 +218,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie['productId'] = backup;
                     golfie = offset.bind(yankee)(golfie);
                     return oscard;
- 492: // try_start_1 // try_start_3
+ 519: // try_start_1 // try_start_3
                     golfie = _closure1_slot1;
                     offset = _closure1_slot2;
                     oscard = offset[verify];
@@ -226,15 +236,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = golfie.bind(zuuluu)(oscard);
                     oscard = golfie.fetchSubscriptions;
                     oscard = oscard.bind(golfie)();
-                    SaveGenerator(address=572);
- 570:
+                    SaveGenerator(address=599);
+ 597:
                     return oscard;
- 572:
+ 599:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                    if(golfie) { _fun00004_ip = 583; continue _fun00003 }
- 578: // try_end1
-                    _fun00004_ip = 962; continue _fun00003;
- 583: // try_end3
+                    if(golfie) { _fun00004_ip = 610; continue _fun00003 }
+ 605: // try_end1
+                    _fun00004_ip = 989; continue _fun00003;
+ 610: // try_end3
                     offset = _closure1_slot1;
                     golfie = _closure1_slot2;
                     golfie = golfie[verify];
@@ -248,7 +258,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie['productId'] = foxtra;
                     golfie = offset.bind(yankee)(golfie);
                     return oscard;
- 639:
+ 666:
                     golfie = _closure1_slot1;
                     oscard = _closure1_slot2;
                     oscard = oscard[verify];
@@ -262,7 +272,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard['productId'] = offset;
                     oscard = golfie.bind(verify)(oscard);
                     return tangon;
- 695: // try_start_4 // catch_target0 // catch_target1
+ 722: // try_start_4 // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=9);
                     oscard = _closure1_slot0;
                     golfie = _closure1_slot2;
@@ -322,7 +332,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = 'error';
                     tangon[offset] = yankee;
                     tangon = golfie.bind(verify)(oscard, tangon);
- 962: // try_end4
+ 989: // try_end4
                     oscard = _closure1_slot1;
                     golfie = _closure1_slot2;
                     tangon = 12;
@@ -336,8 +346,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = verify.productId;
                     tangon['productId'] = verify;
                     tangon = oscard.bind(golfie)(tangon);
-                    _fun00004_ip = 1077; continue _fun00003;
- 1020: // catch_target2 // catch_target3 // catch_target4
+                    _fun00004_ip = 1104; continue _fun00003;
+ 1047: // catch_target2 // catch_target3 // catch_target4
                     CatchBlockStart(arg_register=3);
                     oscard = _closure1_slot1;
                     golfie = _closure1_slot2;
@@ -352,11 +362,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report['productId'] = option;
                     report = oscard.bind(golfie)(report);
                     throw tangon;
- 1077:
+ 1104:
                     return zuuluu;
- 1080:
+ 1107:
                     return michal;
- 1083:
+ 1110:
                     return entity;
                 }
             };

@@ -381,6 +381,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['STAGE_DISCOVERY'] = michal;
     michal = 'impression_stream_feedback_modal';
     tangon['STREAM_FEEDBACK_MODAL'] = michal;
+    michal = 'impression_tiered_tenure_badge_level_up';
+    tangon['TIERED_TENURE_BADGE_LEVEL_UP'] = michal;
     michal = 'impression_tiered_tenure_badge_modal';
     tangon['TIERED_TENURE_BADGE_MODAL'] = michal;
     michal = 'impression_trial_for_all_coachtip';

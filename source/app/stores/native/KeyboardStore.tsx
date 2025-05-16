@@ -40,13 +40,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot16 = michal;
+            _closure1_slot15 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot16 = entity;
+    var _closure1_slot15 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -90,25 +90,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = oscard[verify];
     verify = report.bind(entity)(verify);
     verify = verify.MediaKeyboardTarget;
-    var _closure1_slot10 = offset;
     yankee = false;
-    var _closure1_slot11 = yankee;
+    var _closure1_slot10 = yankee;
     yankee = 8;
     yankee = oscard[yankee];
     yankee = report.bind(entity)(yankee);
     yankee = yankee.KeyboardTypes;
     yankee = yankee.SYSTEM;
-    var _closure1_slot12 = yankee;
+    var _closure1_slot11 = yankee;
     michal = michal[offset];
-    var _closure1_slot13 = michal;
+    var _closure1_slot12 = michal;
     michal = {};
     verify = verify.CHAT;
     michal['target'] = verify;
-    var _closure1_slot14 = michal;
+    var _closure1_slot13 = michal;
     michal = {};
     option = option.HOME;
     michal['initialRouteName'] = option;
-    var _closure1_slot15 = michal;
+    var _closure1_slot14 = michal;
     michal = 10;
     michal = oscard[michal];
     michal = golfie.bind(entity)(michal);
@@ -126,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = _closure1_slot6;
                 verify = entity.bind(zuuluu)(michal);
                 michal = _closure1_slot5;
-                entity = _closure1_slot16;
+                entity = _closure1_slot15;
                 entity = entity.bind(zuuluu)();
                 if(entity) { _fun00004_ip = 69; continue _fun00003 }
  51:
@@ -176,19 +175,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = 0;
                 zuuluu = tangon[michal];
  39:
-                _closure1_slot13 = zuuluu;
+                _closure1_slot12 = zuuluu;
                 return entity;
             }
         };
         report['value'] = entity;
-        entity = new Array(9);
+        entity = new Array(8);
         entity[0] = report;
         report = {};
         golfie = 'getUserAgnosticState';
         report['key'] = golfie;
         golfie = function() { // Original name: value
             entity = {};
-            michal = _closure1_slot13;
+            michal = _closure1_slot12;
             entity['expressionType'] = michal;
             return entity;
         };
@@ -198,13 +197,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = 'getKeyboardType';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            entity = _closure1_slot12;
+            entity = _closure1_slot11;
             return entity;
         };
         report['value'] = golfie;
         entity[2] = report;
         report = {};
-        golfie = 'keyboardHeight';
+        golfie = 'keyboardOpen';
         report['key'] = golfie;
         golfie = function() { // Original name: get
             entity = _closure1_slot10;
@@ -213,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report['get'] = golfie;
         entity[3] = report;
         report = {};
-        golfie = 'keyboardOpen';
+        golfie = 'keyboardType';
         report['key'] = golfie;
         golfie = function() { // Original name: get
             entity = _closure1_slot11;
@@ -222,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report['get'] = golfie;
         entity[4] = report;
         report = {};
-        golfie = 'keyboardType';
+        golfie = 'expressionType';
         report['key'] = golfie;
         golfie = function() { // Original name: get
             entity = _closure1_slot12;
@@ -231,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report['get'] = golfie;
         entity[5] = report;
         report = {};
-        golfie = 'expressionType';
+        golfie = 'mediaKeyboardContext';
         report['key'] = golfie;
         golfie = function() { // Original name: get
             entity = _closure1_slot13;
@@ -240,23 +239,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report['get'] = golfie;
         entity[6] = report;
         report = {};
-        golfie = 'mediaKeyboardContext';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot14;
-            return entity;
-        };
-        report['get'] = golfie;
-        entity[7] = report;
-        report = {};
         golfie = 'appLauncherKeyboardParams';
         report['key'] = golfie;
         oscard = function() { // Original name: get
-            entity = _closure1_slot15;
+            entity = _closure1_slot14;
             return entity;
         };
         report['get'] = oscard;
-        entity[8] = report;
+        entity[7] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -270,10 +260,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = {};
     verify = function(argFoo) { // Original name: handleKeyboardChange
         entity = argFoo;
-        michal = entity.height;
         tangon = entity.open;
-        _closure1_slot10 = michal;
-        _closure1_slot11 = tangon;
+        _closure1_slot10 = tangon;
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
         entity = 9;
@@ -329,23 +317,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['initialRouteName'] = oscard;
             tangon = report;
  165:
-            _closure1_slot15 = tangon;
+            _closure1_slot14 = tangon;
             _fun00008_ip = 201; continue _fun00007;
  171:
             tangon = michal.context;
-            _closure1_slot14 = tangon;
+            _closure1_slot13 = tangon;
             _fun00008_ip = 201; continue _fun00007;
  182:
             tangon = michal.context;
             report = null;
             if(!(report == tangon)) { _fun00008_ip = 197; continue _fun00007 }
  193:
-            tangon = _closure1_slot13;
+            tangon = _closure1_slot12;
  197:
-            _closure1_slot13 = tangon;
+            _closure1_slot12 = tangon;
  201:
             michal = michal.type;
-            _closure1_slot12 = michal;
+            _closure1_slot11 = michal;
             return entity;
         }
     };

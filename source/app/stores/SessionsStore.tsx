@@ -272,14 +272,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     }
                 };
                 michal = tangon.bind(report)(zuuluu, michal);
-                zuuluu = null;
-                if(!(zuuluu == michal)) { _fun00012_ip = 77; continue _fun00011 }
+                tangon = null;
+                if(!(tangon != michal)) { _fun00012_ip = 81; continue _fun00011 }
  71:
+                zuuluu = michal.hiddenActivities;
+                if(!(tangon == zuuluu)) { _fun00012_ip = 87; continue _fun00011 }
+ 81:
                 entity = _closure1_slot8;
-                _fun00012_ip = 83; continue _fun00011;
- 77:
+                _fun00012_ip = 93; continue _fun00011;
+ 87:
                 entity = michal.hiddenActivities;
- 83:
+ 93:
                 return entity;
             }
         };

@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     sizing = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 2271; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 2297; continue _fun00001 }
  13:
                     backup = sizing;
                     romeon = argBar;
@@ -59,28 +59,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     echoed['name'] = sizing;
                     michal['data'] = echoed;
                     michal = output.bind(result)(michal);
+                    output = _closure1_slot2;
                     michal = 7;
+                    michal = kiloes[michal];
+                    output = output.bind(verify)(michal);
+                    michal = output.recordStartHeadlessTask;
+                    michal = michal.bind(output)();
+                    michal = 8;
                     michal = kiloes[michal];
                     offset = offset.bind(verify)(michal);
                     michal = offset.recordStartHeadlessTask;
                     michal = michal.bind(offset)(sizing);
                     offset = _closure1_slot0;
-                    michal = 8;
+                    michal = 9;
                     michal = kiloes[michal];
                     offset = offset.bind(verify)(michal);
                     michal = offset.closeFastConnectSocket;
                     michal = michal.bind(offset)();
                     kiloes = false;
                     foxtra = false;
- 212: // try_start_0
+ 238: // try_start_0
                     offset = _closure1_slot1;
                     michal = _closure1_slot3;
-                    sizing = 9;
+                    sizing = 10;
                     michal = michal[sizing];
                     michal = offset.bind(verify)(michal);
                     michal = michal.wasEverActive;
-                    if(michal) { _fun00002_ip = 272; continue _fun00001 }
- 241:
+                    if(michal) { _fun00002_ip = 298; continue _fun00001 }
+ 267:
                     offset = _closure1_slot1;
                     michal = _closure1_slot3;
                     michal = michal[sizing];
@@ -88,28 +94,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = michal.extraProperties;
                     michal = true;
                     offset['headless_task_ran'] = michal;
- 272:
+ 298:
                     michal = _closure1_slot5;
                     offset = michal.currentState;
                     michal = 'active';
-                    if(!(michal !== offset)) { _fun00002_ip = 342; continue _fun00001 }
- 290:
+                    if(!(michal !== offset)) { _fun00002_ip = 368; continue _fun00001 }
+ 316:
                     sizing = zuuluu;
                     offset = sizing.log;
                     michal = 'Pausing socket in headless task because app state is not active';
                     michal = offset.bind(sizing)(michal);
                     offset = _closure1_slot2;
                     sizing = _closure1_slot3;
-                    michal = 10;
+                    michal = 11;
                     michal = sizing[michal];
                     sizing = offset.bind(verify)(michal);
                     offset = sizing.setIsPaused;
                     michal = true;
                     michal = offset.bind(sizing)(michal);
- 342:
+ 368:
                     offset = _closure1_slot1;
                     michal = _closure1_slot3;
-                    sizing = 11;
+                    sizing = 12;
                     michal = michal[sizing];
                     result = offset.bind(verify)(michal);
                     output = result.track;
@@ -124,26 +130,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = output.bind(result)(offset, michal);
                     michal = _closure1_slot7;
                     michal = michal.bind(verify)();
-                    SaveGenerator(address=419);
- 417:
+                    SaveGenerator(address=445);
+ 443:
                     return michal;
- 419:
+ 445:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=9);
-                    if(offset) { _fun00002_ip = 1634; continue _fun00001 }
- 428:
+                    if(offset) { _fun00002_ip = 1660; continue _fun00001 }
+ 454:
                     result = zuuluu;
                     output = result.log;
                     offset = 'initHeadlessTask completed';
                     offset = output.bind(result)(offset);
                     offset = _closure1_slot8;
                     offset = offset.promise;
-                    SaveGenerator(address=461);
- 459:
+                    SaveGenerator(address=487);
+ 485:
                     return offset;
- 461:
+ 487:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=16);
-                    if(output) { _fun00002_ip = 1313; continue _fun00001 }
- 470:
+                    if(output) { _fun00002_ip = 1339; continue _fun00001 }
+ 496:
                     echoed = zuuluu;
                     result = echoed.log;
                     output = 'Flux Initialized';
@@ -151,17 +157,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     result = _closure1_slot6;
                     output = result.isAuthenticated;
                     output = output.bind(result)();
-                    if(output) { _fun00002_ip = 527; continue _fun00001 }
- 506:
+                    if(output) { _fun00002_ip = 553; continue _fun00001 }
+ 532:
                     echoed = zuuluu;
                     result = echoed.log;
                     output = 'Analytics Init skipped; not authenticated';
                     output = result.bind(echoed)(output);
-                    _fun00002_ip = 628; continue _fun00001;
- 527:
+                    _fun00002_ip = 654; continue _fun00001;
+ 553:
                     result = _closure1_slot0;
                     echoed = _closure1_slot3;
-                    output = 12;
+                    output = 13;
                     output = echoed[output];
                     output = result.bind(verify)(output);
                     echoed = output.AnalyticsActionHandlers;
@@ -182,23 +188,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     result = echoed.log;
                     output = 'Analytics Initialized';
                     output = result.bind(echoed)(output);
- 628:
+ 654:
                     romeon = romeon.bind(verify)();
                     yankee = romeon.bind(verify)(yankee);
-                    SaveGenerator(address=641);
- 639:
+                    SaveGenerator(address=667);
+ 665:
                     return yankee;
- 641:
+ 667:
                     ResumeGenerator(result_out_reg=10, return_bool_out_reg=11);
-                    if(romeon) { _fun00002_ip = 992; continue _fun00001 }
- 650:
+                    if(romeon) { _fun00002_ip = 1018; continue _fun00001 }
+ 676:
                     source = true;
                     foxtra = true;
                     result = zuuluu;
                     output = result.log;
                     romeon = 'Task completed successfully';
                     romeon = output.bind(result)(romeon);
- 673: // try_end0
+ 699: // try_end0
                     output = report.Date;
                     romeon = output.now;
                     output = romeon.bind(output)();
@@ -227,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     echoed = 'Unpausing socket';
                     echoed = update.bind(sequen)(echoed);
                     update = _closure1_slot2;
-                    echoed = 10;
+                    echoed = 11;
                     echoed = output[echoed];
                     update = update.bind(verify)(echoed);
                     echoed = update.setIsPaused;
@@ -247,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = {};
                     romeon['flush'] = source;
                     tangon = echoed.bind(update)(result, output, romeon);
- 883: // try_start_1
+ 909: // try_start_1
                     result = report.Promise;
                     output = result.race;
                     echoed = tangon;
@@ -255,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon[0] = echoed;
                     update = _closure1_slot0;
                     source = _closure1_slot3;
-                    echoed = 13;
+                    echoed = 14;
                     echoed = source[echoed];
                     source = update.bind(verify)(echoed);
                     update = source.timeoutPromise;
@@ -263,25 +269,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     echoed = update.bind(source)(echoed);
                     romeon[1] = echoed;
                     romeon = output.bind(result)(romeon);
-                    SaveGenerator(address=956);
- 954:
+                    SaveGenerator(address=982);
+ 980:
                     return romeon;
- 956:
+ 982:
                     ResumeGenerator(result_out_reg=11, return_bool_out_reg=16);
-                    if(output) { _fun00002_ip = 964; continue _fun00001 }
- 962: // try_end1
-                    _fun00002_ip = 989; continue _fun00001;
- 964:
+                    if(output) { _fun00002_ip = 990; continue _fun00001 }
+ 988: // try_end1
+                    _fun00002_ip = 1015; continue _fun00001;
+ 990:
                     return romeon;
- 967: // catch_target1
+ 993: // catch_target1
                     CatchBlockStart(arg_register=18);
                     result = zuuluu;
                     output = result.warn;
                     romeon = 'Failed to submit analytics';
                     romeon = output.bind(result)(romeon, echoed);
- 989:
+ 1015:
                     return verify;
- 992:
+ 1018:
                     output = report.Date;
                     romeon = output.now;
                     output = romeon.bind(output)();
@@ -310,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     echoed = 'Unpausing socket';
                     echoed = update.bind(vacuum)(echoed);
                     update = _closure1_slot2;
-                    echoed = 10;
+                    echoed = 11;
                     echoed = output[echoed];
                     update = update.bind(verify)(echoed);
                     echoed = update.setIsPaused;
@@ -331,7 +337,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     source = true;
                     romeon['flush'] = source;
                     tangon = echoed.bind(update)(result, output, romeon);
- 1204: // try_start_2
+ 1230: // try_start_2
                     result = report.Promise;
                     output = result.race;
                     echoed = tangon;
@@ -339,7 +345,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon[0] = echoed;
                     update = _closure1_slot0;
                     source = _closure1_slot3;
-                    echoed = 13;
+                    echoed = 14;
                     echoed = source[echoed];
                     source = update.bind(verify)(echoed);
                     update = source.timeoutPromise;
@@ -347,25 +353,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     echoed = update.bind(source)(echoed);
                     romeon[1] = echoed;
                     romeon = output.bind(result)(romeon);
-                    SaveGenerator(address=1277);
- 1275:
+                    SaveGenerator(address=1303);
+ 1301:
                     return romeon;
- 1277:
+ 1303:
                     ResumeGenerator(result_out_reg=11, return_bool_out_reg=16);
-                    if(output) { _fun00002_ip = 1285; continue _fun00001 }
- 1283: // try_end2
-                    _fun00002_ip = 1310; continue _fun00001;
- 1285:
+                    if(output) { _fun00002_ip = 1311; continue _fun00001 }
+ 1309: // try_end2
+                    _fun00002_ip = 1336; continue _fun00001;
+ 1311:
                     return romeon;
- 1288: // catch_target2
+ 1314: // catch_target2
                     CatchBlockStart(arg_register=18);
                     result = zuuluu;
                     output = result.warn;
                     romeon = 'Failed to submit analytics';
                     romeon = output.bind(result)(romeon, echoed);
- 1310:
+ 1336:
                     return yankee;
- 1313:
+ 1339:
                     romeon = report.Date;
                     yankee = romeon.now;
                     romeon = yankee.bind(romeon)();
@@ -394,7 +400,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     result = 'Unpausing socket';
                     result = echoed.bind(ctrled)(result);
                     echoed = _closure1_slot2;
-                    result = 10;
+                    result = 11;
                     result = romeon[result];
                     echoed = echoed.bind(verify)(result);
                     result = echoed.setIsPaused;
@@ -415,7 +421,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     update = true;
                     yankee['flush'] = update;
                     tangon = result.bind(echoed)(output, romeon, yankee);
- 1525: // try_start_3
+ 1551: // try_start_3
                     output = report.Promise;
                     romeon = output.race;
                     result = tangon;
@@ -423,7 +429,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee[0] = result;
                     echoed = _closure1_slot0;
                     update = _closure1_slot3;
-                    result = 13;
+                    result = 14;
                     result = update[result];
                     update = echoed.bind(verify)(result);
                     echoed = update.timeoutPromise;
@@ -431,25 +437,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     result = echoed.bind(update)(result);
                     yankee[1] = result;
                     yankee = romeon.bind(output)(yankee);
-                    SaveGenerator(address=1598);
- 1596:
+                    SaveGenerator(address=1624);
+ 1622:
                     return yankee;
- 1598:
+ 1624:
                     ResumeGenerator(result_out_reg=10, return_bool_out_reg=11);
-                    if(romeon) { _fun00002_ip = 1606; continue _fun00001 }
- 1604: // try_end3
-                    _fun00002_ip = 1631; continue _fun00001;
- 1606:
+                    if(romeon) { _fun00002_ip = 1632; continue _fun00001 }
+ 1630: // try_end3
+                    _fun00002_ip = 1657; continue _fun00001;
+ 1632:
                     return yankee;
- 1609: // catch_target3
+ 1635: // catch_target3
                     CatchBlockStart(arg_register=17);
                     output = zuuluu;
                     romeon = output.warn;
                     yankee = 'Failed to submit analytics';
                     yankee = romeon.bind(output)(yankee, result);
- 1631:
+ 1657:
                     return offset;
- 1634:
+ 1660:
                     yankee = report.Date;
                     offset = yankee.now;
                     yankee = offset.bind(yankee)();
@@ -478,7 +484,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     output = 'Unpausing socket';
                     output = update.bind(source)(output);
                     update = _closure1_slot2;
-                    output = 10;
+                    output = 11;
                     output = yankee[output];
                     update = update.bind(verify)(output);
                     output = update.setIsPaused;
@@ -499,7 +505,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     result = true;
                     offset['flush'] = result;
                     tangon = sizing.bind(output)(romeon, yankee, offset);
- 1846: // try_start_4
+ 1872: // try_start_4
                     romeon = report.Promise;
                     yankee = romeon.race;
                     sizing = tangon;
@@ -507,7 +513,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset[0] = sizing;
                     output = _closure1_slot0;
                     result = _closure1_slot3;
-                    sizing = 13;
+                    sizing = 14;
                     sizing = result[sizing];
                     result = output.bind(verify)(sizing);
                     output = result.timeoutPromise;
@@ -515,25 +521,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sizing = output.bind(result)(sizing);
                     offset[1] = sizing;
                     offset = yankee.bind(romeon)(offset);
-                    SaveGenerator(address=1919);
- 1917:
+                    SaveGenerator(address=1945);
+ 1943:
                     return offset;
- 1919:
+ 1945:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=10);
-                    if(yankee) { _fun00002_ip = 1927; continue _fun00001 }
- 1925: // try_end4
-                    _fun00002_ip = 1952; continue _fun00001;
- 1927:
+                    if(yankee) { _fun00002_ip = 1953; continue _fun00001 }
+ 1951: // try_end4
+                    _fun00002_ip = 1978; continue _fun00001;
+ 1953:
                     return offset;
- 1930: // catch_target4
+ 1956: // catch_target4
                     CatchBlockStart(arg_register=15);
                     romeon = zuuluu;
                     yankee = romeon.warn;
                     offset = 'Failed to submit analytics';
                     offset = yankee.bind(romeon)(offset, sizing);
- 1952:
+ 1978:
                     return michal;
- 1955: // catch_target0
+ 1981: // catch_target0
                     CatchBlockStart(arg_register=1);
                     yankee = report.Date;
                     offset = yankee.now;
@@ -560,12 +566,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = 'Unpausing socket';
                     option = romeon.bind(sizing)(option);
                     romeon = _closure1_slot2;
-                    option = 10;
+                    option = 11;
                     option = yankee[option];
                     romeon = romeon.bind(verify)(option);
                     option = romeon.setIsPaused;
                     option = option.bind(romeon)(kiloes);
-                    option = 11;
+                    option = 12;
                     option = yankee[option];
                     romeon = offset.bind(verify)(option);
                     yankee = romeon.track;
@@ -582,7 +588,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     foxtra = true;
                     oscard['flush'] = foxtra;
                     tangon = yankee.bind(romeon)(offset, option, oscard);
- 2163: // try_start_5
+ 2189: // try_start_5
                     oscard = report.Promise;
                     report = oscard.race;
                     option = tangon;
@@ -590,7 +596,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon[0] = option;
                     option = _closure1_slot0;
                     offset = _closure1_slot3;
-                    golfie = 13;
+                    golfie = 14;
                     golfie = offset[golfie];
                     verify = option.bind(verify)(golfie);
                     option = verify.timeoutPromise;
@@ -598,25 +604,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = option.bind(verify)(golfie);
                     tangon[1] = golfie;
                     tangon = report.bind(oscard)(tangon);
-                    SaveGenerator(address=2236);
- 2234:
+                    SaveGenerator(address=2262);
+ 2260:
                     return tangon;
- 2236:
+ 2262:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 2244; continue _fun00001 }
- 2242: // try_end5
-                    _fun00002_ip = 2269; continue _fun00001;
- 2244:
+                    if(report) { _fun00002_ip = 2270; continue _fun00001 }
+ 2268: // try_end5
+                    _fun00002_ip = 2295; continue _fun00001;
+ 2270:
                     return tangon;
- 2247: // catch_target5
+ 2273: // catch_target5
                     CatchBlockStart(arg_register=5);
                     report = zuuluu;
                     tangon = report.warn;
                     zuuluu = 'Failed to submit analytics';
                     zuuluu = tangon.bind(report)(zuuluu, oscard);
- 2269:
+ 2295:
                     throw michal;
- 2271:
+ 2297:
                     return entity;
                 }
             };
@@ -666,7 +672,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.AnalyticEvents;
     var _closure1_slot9 = tangon;
-    tangon = 14;
+    tangon = 15;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

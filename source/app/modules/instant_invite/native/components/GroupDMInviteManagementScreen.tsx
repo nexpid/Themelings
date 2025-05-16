@@ -271,11 +271,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             golfie = yankee.bind(romeon)(golfie, offset);
-            if(tangon) { _fun00002_ip = 538; continue _fun00001 }
- 296:
+            if(tangon) { _fun00002_ip = 530; continue _fun00001 }
+ 288:
             entity = entity.length;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 367; continue _fun00001 }
- 305:
+            if(!(zuuluu !== entity)) { _fun00002_ip = 359; continue _fun00001 }
+ 297:
             tangon = _closure1_slot11;
             zuuluu = _closure1_slot7;
             entity = {};
@@ -289,8 +289,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['initialNumToRender'] = golfie;
             entity['windowSize'] = oscard;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 536; continue _fun00001;
- 367:
+            _fun00002_ip = 528; continue _fun00001;
+ 359:
             oscard = _closure1_slot11;
             option = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -329,9 +329,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.bind(verify)(golfie);
             zuuluu['body'] = golfie;
             entity = oscard.bind(report)(tangon, zuuluu);
- 536:
-            _fun00002_ip = 576; continue _fun00001;
- 538:
+ 528:
+            _fun00002_ip = 568; continue _fun00001;
+ 530:
             tangon = _closure1_slot11;
             zuuluu = _closure1_slot0;
             oscard = _closure1_slot2;
@@ -341,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.SceneLoadingIndicator;
             michal = {};
             entity = tangon.bind(report)(zuuluu, michal);
- 576:
+ 568:
             return entity;
         }
     };

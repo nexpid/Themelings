@@ -1,25 +1,24 @@
 // app/modules/applications/message_embed/native/createActivityMessageEmbed.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    golfie = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
+    var _closure1_slot1 = oscard;
     entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
+    option = entity.Object;
+    golfie = option.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tangon = oscard[entity];
+    golfie = oscard[entity];
+    tangon = argBaz;
     entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
+    tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot2 = tangon;
     tangon = 4;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -35,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = entity.embedUrl;
             oscard = entity.message;
             michal = _closure1_slot0;
-            tangon = _closure1_slot2;
+            tangon = _closure1_slot1;
             entity = 1;
             entity = tangon[entity];
             tangon = undefined;
@@ -48,36 +47,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['message'] = oscard;
             michal = michal.bind(report)(entity);
             entity = null;
-            if(!(entity != michal)) { _fun00002_ip = 347; continue _fun00001 }
+            if(!(entity != michal)) { _fun00002_ip = 324; continue _fun00001 }
  92:
-            oscard = _closure1_slot1;
-            verify = _closure1_slot2;
+            oscard = _closure1_slot0;
+            verify = _closure1_slot1;
             report = 2;
             report = verify[report];
             oscard = oscard.bind(tangon)(report);
-            report = oscard.toURLSafe;
+            report = oscard.extractActivityBookmarkParams;
             report = report.bind(oscard)(option);
-            oscard = entity == report;
-            option = undefined;
-            if(oscard) { _fun00002_ip = 152; continue _fun00001 }
- 132:
-            verify = report.searchParams;
-            oscard = verify.get;
-            report = 'link_id';
-            option = oscard.bind(verify)(report);
- 152:
-            if(!(entity != option)) { _fun00002_ip = 345; continue _fun00001 }
- 159:
+            option = report.linkId;
+            if(!(entity != option)) { _fun00002_ip = 322; continue _fun00001 }
+ 136:
             oscard = _closure1_slot0;
-            verify = _closure1_slot2;
+            verify = _closure1_slot1;
             report = 3;
             report = verify[report];
             oscard = oscard.bind(tangon)(report);
             report = oscard.getOrFetchCustomActivityLink;
             report = report.bind(oscard)(golfie, option);
-            if(!(entity != report)) { _fun00002_ip = 343; continue _fun00001 }
- 198:
-            oscard = _closure1_slot3;
+            if(!(entity != report)) { _fun00002_ip = 320; continue _fun00001 }
+ 175:
+            oscard = _closure1_slot2;
             zuuluu = oscard.getApplication;
             oscard = zuuluu.bind(oscard)(golfie);
             zuuluu = {};
@@ -86,16 +77,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = copyDataProperties(yankee, offset);
             golfie = entity == oscard;
             tangon = undefined;
-            if(golfie) { _fun00002_ip = 239; continue _fun00001 }
- 234:
+            if(golfie) { _fun00002_ip = 216; continue _fun00001 }
+ 211:
             tangon = oscard.name;
- 239:
+ 216:
             golfie = entity != tangon;
             oscard = null;
-            if(!golfie) { _fun00002_ip = 251; continue _fun00001 }
- 248:
+            if(!golfie) { _fun00002_ip = 228; continue _fun00001 }
+ 225:
             oscard = tangon;
- 251:
+ 228:
             tangon = 'title';
             zuuluu[tangon] = oscard;
             oscard = report.title;
@@ -111,20 +102,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.bind(report)();
             oscard = entity != tangon;
             report = null;
-            if(!oscard) { _fun00002_ip = 323; continue _fun00001 }
- 320:
+            if(!oscard) { _fun00002_ip = 300; continue _fun00001 }
+ 297:
             report = tangon;
- 323:
+ 300:
             tangon = 'staticBannerSrc';
             zuuluu[tangon] = report;
             tangon = 'tagline';
             zuuluu[tangon] = entity;
             return zuuluu;
- 343:
+ 320:
             return entity;
- 345:
+ 322:
             return michal;
- 347:
+ 324:
             return entity;
         }
     };

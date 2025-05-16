@@ -592,7 +592,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
  20:
             entity = undefined;
             entity = zuuluu.bind(entity)();
-            _fun00002_ip = 84; continue _fun00001;
+            _fun00002_ip = 86; continue _fun00001;
  28:
             oscard = _closure1_slot0;
             golfie = _closure1_slot1;
@@ -607,7 +607,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = michal.t;
             michal = michal.FHBa//;
             entity = zuuluu.bind(tangon)(michal);
- 84:
+ 86:
             return entity;
         }
     };

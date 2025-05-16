@@ -385,11 +385,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             ctrled = zuuluu.bind(oscard)(entity, michal);
             zuuluu = _closure1_slot6;
-            offset = _closure1_slot0;
+            config = _closure1_slot0;
             sequen = _closure1_slot2;
             entity = 13;
             entity = sequen[entity];
-            entity = offset.bind(tangon)(entity);
+            entity = config.bind(tangon)(entity);
             michal = entity.BottomSheet;
             entity = {};
             entity['onDismiss'] = report;
@@ -398,39 +398,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = _closure1_slot6;
             report = 14;
             report = sequen[report];
-            report = offset.bind(tangon)(report);
+            report = config.bind(tangon)(report);
             oscard = report.BottomSheetTitleHeader;
             report = {};
-            config = 15;
-            yankee = sequen[config];
-            yankee = offset.bind(tangon)(yankee);
-            source = yankee.intl;
-            sizing = source.string;
-            yankee = sequen[config];
-            yankee = offset.bind(tangon)(yankee);
-            yankee = yankee.t;
-            yankee = yankee.WTqQ5e;
-            yankee = sizing.bind(source)(yankee);
-            report['title'] = yankee;
+            sizing = 15;
+            offset = sequen[sizing];
+            offset = config.bind(tangon)(offset);
+            source = offset.intl;
+            yankee = source.string;
+            offset = sequen[sizing];
+            offset = config.bind(tangon)(offset);
+            offset = offset.t;
+            offset = offset.WTqQ5e;
+            offset = yankee.bind(source)(offset);
+            report['title'] = offset;
             source = _closure1_slot6;
-            yankee = 16;
-            yankee = sequen[yankee];
-            yankee = offset.bind(tangon)(yankee);
-            sizing = yankee.Button;
-            yankee = {'variant': 'secondary', 'size': 'sm'};
-            record = sequen[config];
-            record = offset.bind(tangon)(record);
-            cntext = record.intl;
-            record = cntext.string;
-            config = sequen[config];
-            config = offset.bind(tangon)(config);
-            config = config.t;
-            config = config.XqMe3N;
-            config = record.bind(cntext)(config);
-            yankee['text'] = config;
-            yankee['onPress'] = ctrled;
-            yankee = source.bind(tangon)(sizing, yankee);
-            report['trailing'] = yankee;
+            offset = 16;
+            offset = sequen[offset];
+            offset = config.bind(tangon)(offset);
+            yankee = offset.Button;
+            offset = {'variant': 'secondary', 'size': 'sm'};
+            record = sequen[sizing];
+            record = config.bind(tangon)(record);
+            papara = record.intl;
+            cntext = papara.string;
+            record = sequen[sizing];
+            record = config.bind(tangon)(record);
+            record = record.t;
+            record = record.XqMe3N;
+            record = cntext.bind(papara)(record);
+            offset['text'] = record;
+            offset['onPress'] = ctrled;
+            offset = source.bind(tangon)(yankee, offset);
+            report['trailing'] = offset;
             report = golfie.bind(tangon)(oscard, report);
             entity['header'] = report;
             golfie = _closure1_slot7;
@@ -441,9 +441,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = _closure1_slot6;
             option = 17;
             option = sequen[option];
-            option = offset.bind(tangon)(option);
+            option = config.bind(tangon)(option);
             offset = option.TextInput;
             option = {};
+            source = sequen[sizing];
+            source = config.bind(tangon)(source);
+            ctrled = source.intl;
+            source = ctrled.string;
+            sizing = sequen[sizing];
+            sizing = config.bind(tangon)(sizing);
+            sizing = sizing.t;
+            sizing = sizing.ozfa/v;
+            sizing = source.bind(ctrled)(sizing);
+            option['accessibilityLabel'] = sizing;
             option['value'] = echoed;
             sizing = function(argFoo) { // Original name: onChange
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
@@ -543,8 +553,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             offset['onSelect'] = source;
-            if(!(result == echoed)) { _fun00006_ip = 813; continue _fun00005 }
- 756:
+            if(!(result == echoed)) { _fun00006_ip = 863; continue _fun00005 }
+ 806:
             echoed = _closure1_slot0;
             result = _closure1_slot2;
             result = result[update];
@@ -557,7 +567,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = foxtra.get;
             result = result.bind(foxtra)();
             output = source.bind(ctrled)(update, echoed, result);
- 813:
+ 863:
             offset['color'] = output;
             offset = sizing.bind(tangon)(yankee, offset);
             option[1] = offset;

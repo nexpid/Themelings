@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = "function SwipeForMemberListWrapperTsx7(){const{shownPixels,PEEK_PIXEL_THRESHOLD}=this.__closure;const exceedsPeekThreshold=shownPixels.get()>PEEK_PIXEL_THRESHOLD*2;return{display:exceedsPeekThreshold?'none':'flex',opacity:exceedsPeekThreshold?0:1-shownPixels.get()/PEEK_PIXEL_THRESHOLD};}";
     report['code'] = option;
     var _closure1_slot25 = report;
-    report = 29;
+    report = 30;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -424,6 +424,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             zuuluu = record.bind(foxtra)(zuuluu, ctrled);
             var _closure2_slot13 = zuuluu;
+            sierra = foxtra.useEffect;
+            record = new Array(1);
+            record[0] = zuuluu;
+            ctrled = function() {
+                tangon = _closure1_slot1;
+                zuuluu = _closure1_slot2;
+                michal = 21;
+                zuuluu = zuuluu[michal];
+                michal = undefined;
+                tangon = tangon.bind(michal)(zuuluu);
+                zuuluu = tangon.addRouteChangeListener;
+                michal = function() {
+                    michal = _closure2_slot13;
+                    entity = undefined;
+                    michal = michal.bind(entity)();
+                    return entity;
+                };
+                michal = zuuluu.bind(tangon)(michal);
+                var _closure3_slot0 = michal;
+                entity = function() {
+                    michal = _closure3_slot0;
+                    entity = undefined;
+                    michal = michal.bind(entity)();
+                    return entity;
+                };
+                return entity;
+            };
+            ctrled = sierra.bind(foxtra)(ctrled, record);
             record = foxtra.useEffect;
             ctrled = new Array(2);
             ctrled[0] = golfie;
@@ -431,7 +459,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = function() {
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                zuuluu = 21;
+                zuuluu = 22;
                 michal = oscard[zuuluu];
                 tangon = undefined;
                 michal = report.bind(tangon)(michal);
@@ -451,7 +479,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = function() {
                     report = _closure1_slot0;
                     oscard = _closure1_slot2;
-                    tangon = 21;
+                    tangon = 22;
                     zuuluu = oscard[tangon];
                     entity = undefined;
                     zuuluu = report.bind(entity)(zuuluu);
@@ -489,7 +517,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  25:
                     michal = _closure1_slot0;
                     report = _closure1_slot2;
-                    entity = 22;
+                    entity = 23;
                     entity = report[entity];
                     golfie = undefined;
                     michal = michal.bind(golfie)(entity);
@@ -511,7 +539,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = verify.getChatLayout;
                     oscard = oscard.bind(verify)();
                     oscard = oscard.isChatLockedOpen;
-                    verify = 23;
+                    verify = 24;
                     entity = entity[verify];
                     michal = michal.bind(golfie)(entity);
                     entity = michal.coerceChannelRoute;
@@ -583,7 +611,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             record = record.bind(foxtra)(golfie, ctrled);
-            golfie = 24;
+            golfie = 25;
             golfie = option[golfie];
             golfie = source.bind(tangon)(golfie);
             golfie = golfie.bind(tangon)(record, status);
@@ -606,7 +634,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = golfie.bind(tangon)(oscard, zuuluu, michal);
                     zuuluu = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    michal = 21;
+                    michal = 22;
                     michal = golfie[michal];
                     michal = zuuluu.bind(tangon)(michal);
                     tangon = michal.ComponentDispatch;
@@ -1038,7 +1066,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.Provider;
             entity = {};
             entity['value'] = report;
-            report = 25;
+            report = 26;
             report = option[report];
             report = oscard.bind(tangon)(report);
             oscard = report.GestureDetector;
@@ -1053,23 +1081,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['style'] = romeon;
             foxtra = !status;
             romeon = !foxtra;
-            if(!foxtra) { _fun00002_ip = 1030; continue _fun00001 }
- 1028:
+            if(!foxtra) { _fun00002_ip = 1056; continue _fun00001 }
+ 1054:
             romeon = undefined;
- 1030:
+ 1056:
             offset['accessibilityElementsHidden'] = romeon;
             romeon = undefined;
-            if(!status) { _fun00002_ip = 1046; continue _fun00001 }
- 1040:
+            if(!status) { _fun00002_ip = 1072; continue _fun00001 }
+ 1066:
             romeon = 'no-hide-descendants';
- 1046:
+ 1072:
             offset['importantForAccessibility'] = romeon;
             romeon = new Array(2);
             romeon[0] = yankee;
             ctrled = _closure1_slot14;
             backup = _closure1_slot0;
             yankee = _closure1_slot2;
-            foxtra = 26;
+            foxtra = 27;
             foxtra = yankee[foxtra];
             foxtra = backup.bind(tangon)(foxtra);
             backup = foxtra.MainTabsContentScrim;
@@ -1095,45 +1123,45 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = _closure1_slot13;
             ctrled = kiloes.MIDNIGHT;
             kiloes = undefined;
-            if(!(output === ctrled)) { _fun00002_ip = 1193; continue _fun00001 }
- 1187:
+            if(!(output === ctrled)) { _fun00002_ip = 1219; continue _fun00001 }
+ 1213:
             kiloes = update.midnightBorder;
- 1193:
+ 1219:
             backup[2] = kiloes;
             kiloes = undefined;
-            if(sizing) { _fun00002_ip = 1224; continue _fun00001 }
- 1202:
+            if(sizing) { _fun00002_ip = 1250; continue _fun00001 }
+ 1228:
             sizing = _closure1_slot13;
             sizing = sizing.MIDNIGHT;
             kiloes = undefined;
-            if(!(output === sizing)) { _fun00002_ip = 1224; continue _fun00001 }
- 1218:
+            if(!(output === sizing)) { _fun00002_ip = 1250; continue _fun00001 }
+ 1244:
             kiloes = update.midnightRightOverflow;
- 1224:
+ 1250:
             backup[3] = kiloes;
             yankee['style'] = backup;
             backup = !status;
-            if(backup) { _fun00002_ip = 1240; continue _fun00001 }
- 1238:
+            if(backup) { _fun00002_ip = 1266; continue _fun00001 }
+ 1264:
             backup = undefined;
- 1240:
+ 1266:
             yankee['accessibilityElementsHidden'] = backup;
             backup = 'no-hide-descendants';
-            if(!status) { _fun00002_ip = 1256; continue _fun00001 }
- 1254:
+            if(!status) { _fun00002_ip = 1282; continue _fun00001 }
+ 1280:
             backup = undefined;
- 1256:
+ 1282:
             yankee['importantForAccessibility'] = backup;
             output = _closure1_slot14;
             sizing = _closure1_slot0;
             kiloes = _closure1_slot2;
-            backup = 27;
+            backup = 28;
             backup = kiloes[backup];
             backup = sizing.bind(tangon)(backup);
             ctrled = backup.LayerScope;
             backup = {};
             sizing = _closure1_slot1;
-            vacuum = 28;
+            vacuum = 29;
             vacuum = kiloes[vacuum];
             sequen = sizing.bind(tangon)(vacuum);
             vacuum = {};

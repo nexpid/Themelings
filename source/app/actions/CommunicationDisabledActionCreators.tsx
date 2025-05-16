@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     michal = oscard.bind(entity)(michal);
     var _closure1_slot2 = michal;
     michal = {};
-    tangon = function(argFoo, argBar, argBaz, argCor, argGra) { // Original name: setCommunicationDisabledDuration
+    tangon = function(argFoo, argBar, argBaz, argCor, argGra, argFre) { // Original name: setCommunicationDisabledDuration
         michal = argFoo;
         var _closure2_slot0 = michal;
         michal = argBar;
@@ -30,6 +30,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         var _closure2_slot3 = michal;
         michal = argGra;
         var _closure2_slot4 = michal;
+        michal = argFre;
+        var _closure2_slot5 = michal;
         zuuluu = _closure1_slot2;
         michal = undefined;
         entity = function* () {
@@ -38,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 184; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 193; continue _fun00001 }
  10:
                     michal = _closure2_slot2;
                     golfie = null;
@@ -76,20 +78,22 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     michal['duration'] = golfie;
                     golfie = _closure2_slot3;
                     michal['reason'] = golfie;
-                    oscard = _closure2_slot4;
-                    michal['location'] = oscard;
+                    golfie = _closure2_slot4;
+                    michal['location'] = golfie;
+                    oscard = _closure2_slot5;
+                    michal['moderatorReportId'] = oscard;
                     michal = tangon.bind(report)(michal);
-                    SaveGenerator(address=172);
- 170:
+                    SaveGenerator(address=181);
+ 179:
                     return michal;
- 172:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 181; continue _fun00001 }
- 178:
-                    return zuuluu;
  181:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(tangon) { _fun00002_ip = 190; continue _fun00001 }
+ 187:
+                    return zuuluu;
+ 190:
                     return michal;
- 184:
+ 193:
                     return entity;
                 }
             };

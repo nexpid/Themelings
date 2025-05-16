@@ -1,9 +1,10 @@
 // app/modules/directory_channels/native/components/GuildDirectoryPlaceholderRow.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
+    romeon = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
-    var _closure1_slot0 = report;
+    var _closure1_slot0 = romeon;
     var _closure1_slot1 = oscard;
     entity = global;
     option = entity.Object;
@@ -42,9 +43,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['rowInner'] = offset;
     offset = {'width': 40, 'height': 40, 'borderRadius': null, 'overflow': 'hidden', 'marginRight': 16};
     yankee = 4;
-    romeon = oscard[yankee];
-    yankee = argBaz;
-    yankee = yankee.bind(entity)(romeon);
+    yankee = oscard[yankee];
+    yankee = romeon.bind(entity)(yankee);
     yankee = yankee.radii;
     yankee = yankee.sm;
     offset['borderRadius'] = yankee;
@@ -156,11 +156,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 6;
             verify = verify[entity];
             entity = undefined;
-            offset = offset.bind(entity)(verify);
-            verify = offset.placeholderRowWidth;
+            verify = offset.bind(entity)(verify);
             option = _closure2_slot1;
             option = option + report;
-            yankee = verify.bind(offset)(option);
+            yankee = verify.bind(entity)(option);
             option = global;
             option = option.HermesInternal;
             offset = option.concat;

@@ -41,12 +41,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  25:
             yankee = zuuluu;
  28:
-            michal = michal.withRewardAvailableCopy;
-            verify = tangon === michal;
+            zuuluu = michal.withRewardAvailableCopy;
+            verify = tangon === zuuluu;
             if(verify) { _fun00002_ip = 44; continue _fun00001 }
  41:
-            verify = michal;
+            verify = zuuluu;
  44:
+            michal = michal.size;
+            update = 'lg';
+            if(!(tangon !== michal)) { _fun00002_ip = 60; continue _fun00001 }
+ 57:
+            update = michal;
+ 60:
             golfie = _closure1_slot0;
             foxtra = _closure1_slot2;
             michal = 2;
@@ -101,8 +107,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = 7;
             report = foxtra[report];
             kiloes = romeon.bind(tangon)(report);
-            report = {'hasConfetti': true, 'quest': null, 'size': 'lg'};
+            report = {};
+            source = true;
+            report['hasConfetti'] = source;
             report['quest'] = result;
+            report['size'] = update;
             echoed = echoed.percentComplete;
             report['progress'] = echoed;
             report['onPress'] = output;
@@ -119,8 +128,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.spacing;
             option = option.PX_4;
             oscard['spacing'] = option;
-            if(!yankee) { _fun00002_ip = 462; continue _fun00001 }
- 337:
+            if(!yankee) { _fun00002_ip = 476; continue _fun00001 }
+ 351:
             foxtra = _closure1_slot4;
             kiloes = _closure1_slot0;
             echoed = _closure1_slot2;
@@ -146,11 +155,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = sizing.bind(output)(kiloes, backup);
             option['children'] = backup;
             yankee = foxtra.bind(tangon)(romeon, option);
- 462:
+ 476:
             option = new Array(2);
             option[0] = yankee;
-            if(!verify) { _fun00002_ip = 575; continue _fun00001 }
- 473:
+            if(!verify) { _fun00002_ip = 589; continue _fun00001 }
+ 487:
             romeon = _closure1_slot4;
             sizing = _closure1_slot0;
             output = _closure1_slot2;
@@ -171,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = backup.bind(kiloes)(foxtra);
             offset['children'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 575:
+ 589:
             option[1] = verify;
             oscard['children'] = option;
             oscard = zuuluu.bind(tangon)(golfie, oscard);

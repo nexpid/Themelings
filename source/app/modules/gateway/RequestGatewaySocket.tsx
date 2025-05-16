@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = undefined;
     offset = offset.bind(entity)(yankee);
     var _closure1_slot0 = offset;
-    offset = ['coldStart'];
+    offset = ['COLD_START'];
     var _closure1_slot1 = offset;
     var _closure1_slot2 = verify;
     golfie = golfie.Set;
@@ -152,6 +152,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie = 'modules/gateway/RequestGatewaySocket.tsx';
     golfie = option.bind(verify)(golfie);
     zuuluu['isRequested'] = oscard;
+    oscard = function() { // Original name: recordStartHeadlessTask
+        entity = false;
+        _closure1_slot2 = entity;
+        entity = undefined;
+        return entity;
+    };
+    zuuluu['recordStartHeadlessTask'] = oscard;
     oscard = function() { // Original name: describeConnectionReasons
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -176,13 +183,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = entity.bind(zuuluu)();
             entity = tangon.length;
             michal = entity > michal;
-            entity = '';
-            if(!michal) { _fun00006_ip = 89; continue _fun00005 }
- 75:
+            entity = 'NO_REASONS';
+            if(!michal) { _fun00006_ip = 91; continue _fun00005 }
+ 77:
             zuuluu = tangon.join;
             michal = ',';
             entity = zuuluu.bind(tangon)(michal);
- 89:
+ 91:
             return entity;
         }
     };
