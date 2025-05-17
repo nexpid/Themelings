@@ -9,25 +9,47 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
-            option = argBar;
+            verify = argBar;
             tangon = argBaz;
             oscard = argCor;
             entity = null;
-            if(!(entity != option)) { _fun00002_ip = 65; continue _fun00001 }
+            if(!(entity != verify)) { _fun00002_ip = 132; continue _fun00001 }
  18:
-            golfie = report.splice;
-            verify = _closure1_slot0;
+            golfie = _closure1_slot0;
             zuuluu = _closure1_slot1;
             michal = 3;
             michal = zuuluu[michal];
             zuuluu = undefined;
-            michal = verify.bind(zuuluu)(michal);
-            zuuluu = michal.bind(zuuluu)(report, option, oscard);
+            michal = golfie.bind(zuuluu)(michal);
+            offset = michal.bind(zuuluu)(report, verify, oscard);
+            michal = report[offset];
+            golfie = offset;
+            if(!(michal !== verify)) { _fun00002_ip = 117; continue _fun00001 }
+ 61:
+            michal = report.length;
+            option = 1;
+            michal = michal - option;
+            zuuluu = offset;
+            golfie = zuuluu;
+            if(!(golfie < michal)) { _fun00002_ip = 117; continue _fun00001 }
+ 83:
+            offset = zuuluu + option;
+            michal = report[offset];
+            golfie = offset;
+            if(!(michal !== verify)) { _fun00002_ip = 117; continue _fun00001 }
+ 98:
+            michal = report.length;
+            michal = michal - option;
+            zuuluu = offset;
+            golfie = zuuluu;
+            if(golfie < michal) { _fun00002_ip = 83; continue _fun00001 }
+ 117:
+            zuuluu = report.splice;
             michal = 1;
-            michal = golfie.bind(report)(zuuluu, michal);
- 65:
-            if(!(entity != tangon)) { _fun00002_ip = 116; continue _fun00001 }
- 69:
+            michal = zuuluu.bind(report)(golfie, michal);
+ 132:
+            if(!(entity != tangon)) { _fun00002_ip = 183; continue _fun00001 }
+ 136:
             zuuluu = report.splice;
             golfie = _closure1_slot0;
             michal = _closure1_slot1;
@@ -38,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.bind(michal)(report, tangon, oscard);
             entity = 0;
             entity = zuuluu.bind(report)(michal, entity, tangon);
- 116:
+ 183:
             entity = undefined;
             return entity;
         }

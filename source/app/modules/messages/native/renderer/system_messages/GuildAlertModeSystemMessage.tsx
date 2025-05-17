@@ -102,24 +102,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = null;
             golfie = 'username';
             michal = null;
-            if(!(golfie === yankee)) { _fun00002_ip = 211; continue _fun00001 }
- 208:
+            if(!(golfie === yankee)) { _fun00002_ip = 210; continue _fun00001 }
+ 207:
             michal = offset;
- 211:
+ 210:
             entity['linkColor'] = michal;
             entity['roleColor'] = offset;
             michal = null;
-            if(!sizing) { _fun00002_ip = 229; continue _fun00001 }
- 226:
+            if(!sizing) { _fun00002_ip = 228; continue _fun00001 }
+ 225:
             michal = romeon;
- 229:
+ 228:
             entity['roleColors'] = michal;
             michal = 'dot';
             michal = michal === yankee;
-            if(!michal) { _fun00002_ip = 249; continue _fun00001 }
- 245:
+            if(!michal) { _fun00002_ip = 248; continue _fun00001 }
+ 244:
             michal = report != offset;
- 249:
+ 248:
             entity['shouldShowRoleDot'] = michal;
             michal = kiloes.channel_id;
             entity['messageChannelId'] = michal;
@@ -128,8 +128,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup['usernameOnClick'] = entity;
             michal = kiloes.content;
             entity = '';
-            if(!(entity !== michal)) { _fun00002_ip = 379; continue _fun00001 }
- 289:
+            if(!(entity !== michal)) { _fun00002_ip = 378; continue _fun00001 }
+ 288:
             michal = global;
             romeon = michal.Date;
             echoed = kiloes.content;
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = michal.currentLocale;
             michal = {'hour': 'numeric', 'minute': '2-digit'};
             entity = romeon.bind(sizing)(offset, michal);
- 379:
+ 378:
             backup['time'] = entity;
             offset = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -193,10 +193,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity[golfie] = oscard;
             oscard = report != tangon;
             report = null;
-            if(!oscard) { _fun00002_ip = 577; continue _fun00001 }
- 574:
+            if(!oscard) { _fun00002_ip = 576; continue _fun00001 }
+ 573:
             report = tangon;
- 577:
+ 576:
             tangon = 'usernameColor';
             entity[tangon] = report;
             option = _closure1_slot0;
@@ -431,10 +431,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['avatarURL'] = oscard;
             oscard = null;
             option = oscard != golfie;
-            if(!option) { _fun00004_ip = 512; continue _fun00003 }
- 509:
+            if(!option) { _fun00004_ip = 511; continue _fun00003 }
+ 508:
             oscard = golfie;
- 512:
+ 511:
             entity['usernameColor'] = oscard;
             echoed = entity;
             result = report;
@@ -488,24 +488,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = null;
             golfie = 'username';
             michal = null;
-            if(!(golfie === yankee)) { _fun00008_ip = 192; continue _fun00007 }
- 189:
+            if(!(golfie === yankee)) { _fun00008_ip = 191; continue _fun00007 }
+ 188:
             michal = offset;
- 192:
+ 191:
             entity['linkColor'] = michal;
             entity['roleColor'] = offset;
             michal = null;
-            if(!kiloes) { _fun00008_ip = 210; continue _fun00007 }
- 207:
+            if(!kiloes) { _fun00008_ip = 209; continue _fun00007 }
+ 206:
             michal = romeon;
- 210:
+ 209:
             entity['roleColors'] = michal;
             michal = 'dot';
             michal = michal === yankee;
-            if(!michal) { _fun00008_ip = 230; continue _fun00007 }
- 226:
+            if(!michal) { _fun00008_ip = 229; continue _fun00007 }
+ 225:
             michal = report != offset;
- 230:
+ 229:
             entity['shouldShowRoleDot'] = michal;
             michal = foxtra.channel_id;
             entity['messageChannelId'] = michal;
@@ -555,10 +555,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity[golfie] = oscard;
             oscard = report != tangon;
             report = null;
-            if(!oscard) { _fun00008_ip = 450; continue _fun00007 }
- 447:
+            if(!oscard) { _fun00008_ip = 449; continue _fun00007 }
+ 446:
             report = tangon;
- 450:
+ 449:
             tangon = 'usernameColor';
             entity[tangon] = report;
             option = _closure1_slot0;
@@ -747,10 +747,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['avatarURL'] = oscard;
             oscard = null;
             option = oscard != golfie;
-            if(!option) { _fun00010_ip = 446; continue _fun00009 }
- 443:
+            if(!option) { _fun00010_ip = 445; continue _fun00009 }
+ 442:
             oscard = golfie;
- 446:
+ 445:
             entity['usernameColor'] = oscard;
             result = entity;
             output = report;

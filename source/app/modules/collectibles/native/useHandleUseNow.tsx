@@ -35,39 +35,56 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function(argFoo) {
         michal = argFoo;
         oscard = michal.product;
+        tangon = michal.onSuccess;
+        var _closure2_slot0 = tangon;
         zuuluu = _closure1_slot0;
         golfie = _closure1_slot2;
         michal = 2;
-        tangon = golfie[michal];
+        option = golfie[michal];
         michal = undefined;
-        option = zuuluu.bind(michal)(tangon);
-        tangon = option.useNavigation;
-        tangon = tangon.bind(option)();
-        var _closure2_slot0 = tangon;
+        verify = zuuluu.bind(michal)(option);
+        option = verify.useNavigation;
+        offset = option.bind(verify)();
+        var _closure2_slot1 = offset;
         verify = _closure1_slot3;
         option = verify.useCallback;
-        report = new Array(1);
-        report[0] = tangon;
+        report = new Array(2);
+        report[0] = offset;
+        report[1] = tangon;
         tangon = function() {
-            tangon = _closure1_slot1;
-            report = _closure1_slot2;
-            entity = 3;
-            zuuluu = report[entity];
-            entity = undefined;
-            oscard = tangon.bind(entity)(zuuluu);
-            zuuluu = oscard.hideActionSheet;
-            zuuluu = zuuluu.bind(oscard)();
-            zuuluu = 4;
-            zuuluu = report[zuuluu];
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.popAll;
-            zuuluu = zuuluu.bind(tangon)();
-            tangon = _closure2_slot0;
-            zuuluu = tangon.navigate;
-            michal = _closure1_slot4;
-            michal = michal.YOU;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+                zuuluu = _closure2_slot0;
+                entity = null;
+                if(!(entity != zuuluu)) { _fun00002_ip = 25; continue _fun00001 }
+ 13:
+                zuuluu = _closure2_slot0;
+                entity = undefined;
+                entity = zuuluu.bind(entity)();
+                _fun00002_ip = 107; continue _fun00001;
+ 25:
+                report = _closure1_slot1;
+                oscard = _closure1_slot2;
+                zuuluu = 3;
+                zuuluu = oscard[zuuluu];
+                tangon = undefined;
+                golfie = report.bind(tangon)(zuuluu);
+                zuuluu = golfie.hideActionSheet;
+                zuuluu = zuuluu.bind(golfie)();
+                zuuluu = 4;
+                zuuluu = oscard[zuuluu];
+                tangon = report.bind(tangon)(zuuluu);
+                zuuluu = tangon.popAll;
+                zuuluu = zuuluu.bind(tangon)();
+                zuuluu = _closure2_slot1;
+                michal = zuuluu.navigate;
+                entity = _closure1_slot4;
+                entity = entity.YOU;
+                entity = michal.bind(zuuluu)(entity);
+ 107:
+                entity = undefined;
+                return entity;
+            }
         };
         report = option.bind(verify)(tangon, report);
         option = verify.useCallback;

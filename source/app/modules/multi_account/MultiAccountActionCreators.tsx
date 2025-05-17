@@ -282,8 +282,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = tangon.getToken;
             golfie = entity.bind(tangon)(oscard);
             entity = null;
-            if(!(entity != golfie)) { _fun00004_ip = 130; continue _fun00003 }
- 96:
+            if(!(entity != golfie)) { _fun00004_ip = 131; continue _fun00003 }
+ 97:
             tangon = _closure1_slot1;
             verify = _closure1_slot3;
             entity = 8;
@@ -291,8 +291,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon.bind(report)(entity);
             entity = tangon.switchAccountToken;
             entity = entity.bind(tangon)(golfie, option);
-            _fun00004_ip = 212; continue _fun00003;
- 130:
+            _fun00004_ip = 214; continue _fun00003;
+ 131:
             option = _closure1_slot8;
             golfie = option.log;
             tangon = 'Switching accounts failed because there was no token';
@@ -311,7 +311,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.Promise;
             michal = zuuluu.resolve;
             entity = michal.bind(zuuluu)();
- 212:
+ 214:
             return entity;
         }
     };

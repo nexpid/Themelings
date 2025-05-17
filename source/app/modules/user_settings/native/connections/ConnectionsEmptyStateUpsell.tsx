@@ -11,22 +11,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             michal = argFoo;
-            offset = michal.platform;
-            var _closure2_slot0 = offset;
+            yankee = michal.platform;
+            var _closure2_slot0 = yankee;
             michal = _closure1_slot8;
             tangon = undefined;
-            romeon = michal.bind(tangon)();
+            foxtra = michal.bind(tangon)();
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot2;
             michal = 6;
             michal = oscard[michal];
             michal = zuuluu.bind(tangon)(michal);
-            yankee = michal.bind(tangon)();
-            var _closure2_slot1 = yankee;
+            offset = michal.bind(tangon)();
+            var _closure2_slot1 = offset;
             golfie = _closure1_slot3;
             report = golfie.useCallback;
             zuuluu = new Array(1);
-            zuuluu[0] = offset;
+            zuuluu[0] = yankee;
             michal = function() {
                 report = _closure1_slot1;
                 tangon = _closure1_slot2;
@@ -59,23 +59,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = oscard[zuuluu];
             verify = michal.bind(tangon)(zuuluu);
             golfie = verify.getConnectionBackgroundColor;
-            zuuluu = offset.type;
-            backup = golfie.bind(verify)(zuuluu);
-            var _closure2_slot2 = backup;
+            zuuluu = yankee.type;
+            kiloes = golfie.bind(verify)(zuuluu);
+            var _closure2_slot2 = kiloes;
             verify = _closure1_slot3;
             golfie = verify.useMemo;
             zuuluu = new Array(5);
-            zuuluu[0] = backup;
-            foxtra = offset.icon;
-            foxtra = foxtra.darkPNG;
-            zuuluu[1] = foxtra;
-            foxtra = offset.icon;
-            foxtra = foxtra.lightPNG;
-            zuuluu[2] = foxtra;
-            foxtra = offset.icon;
-            foxtra = foxtra.whitePNG;
-            zuuluu[3] = foxtra;
-            zuuluu[4] = yankee;
+            zuuluu[0] = kiloes;
+            romeon = yankee.icon;
+            romeon = romeon.darkPNG;
+            zuuluu[1] = romeon;
+            romeon = yankee.icon;
+            romeon = romeon.lightPNG;
+            zuuluu[2] = romeon;
+            romeon = yankee.icon;
+            romeon = romeon.whitePNG;
+            zuuluu[3] = romeon;
+            zuuluu[4] = offset;
             entity = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            yankee = golfie.bind(verify)(entity, zuuluu);
+            romeon = golfie.bind(verify)(entity, zuuluu);
             zuuluu = _closure1_slot6;
             entity = 12;
             entity = oscard[entity];
@@ -125,41 +125,43 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.Card;
             entity = {};
             entity['onPress'] = report;
-            report = romeon.card;
+            report = foxtra.card;
             entity['style'] = report;
             report = 'strong';
             entity['border'] = report;
             golfie = _closure1_slot6;
             oscard = _closure1_slot4;
             report = {};
-            foxtra = romeon.iconContainer;
+            offset = foxtra.iconContainer;
             verify = new Array(2);
-            verify[0] = foxtra;
-            foxtra = offset.color;
+            verify[0] = offset;
+            backup = yankee.color;
             offset = null;
-            offset = offset != foxtra;
+            offset = offset != backup;
             if(!offset) { _fun00002_ip = 295; continue _fun00001 }
  286:
-            foxtra = {};
-            foxtra['backgroundColor'] = backup;
-            offset = foxtra;
+            backup = {};
+            backup['backgroundColor'] = kiloes;
+            offset = backup;
  295:
             verify[1] = offset;
             report['style'] = verify;
             offset = _closure1_slot6;
             verify = _closure1_slot1;
-            foxtra = _closure1_slot2;
+            backup = _closure1_slot2;
             option = 13;
-            option = foxtra[option];
+            option = backup[option];
             verify = verify.bind(tangon)(option);
             option = {};
-            romeon = romeon.icon;
-            option['style'] = romeon;
-            option['source'] = yankee;
-            yankee = 'contain';
-            option['resizeMode'] = yankee;
-            yankee = true;
-            option['disableColor'] = yankee;
+            foxtra = foxtra.icon;
+            option['style'] = foxtra;
+            option['source'] = romeon;
+            romeon = 'contain';
+            option['resizeMode'] = romeon;
+            romeon = true;
+            option['disableColor'] = romeon;
+            yankee = yankee.name;
+            option['accessibilityLabel'] = yankee;
             option = offset.bind(tangon)(verify, option);
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

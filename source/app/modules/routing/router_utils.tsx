@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = !entity;
  52:
             entity = !zuuluu;
-            if(zuuluu) { _fun00002_ip = 176; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 177; continue _fun00001 }
  58:
             golfie = _closure1_slot8;
             oscard = golfie.log;
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu[michal];
             michal = michal.bind(zuuluu)(tangon);
             entity = true;
- 176:
+ 177:
             return entity;
         }
     };
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = undefined;
             michal = 'assign';
             michal = tangon.bind(entity)(golfie, michal);
-            if(michal) { _fun00004_ip = 273; continue _fun00003 }
+            if(michal) { _fun00004_ip = 274; continue _fun00003 }
  31:
             oscard = _closure1_slot8;
             tangon = oscard.log;
@@ -98,26 +98,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = null;
             michal = oscard == verify;
             tangon = undefined;
-            if(michal) { _fun00004_ip = 85; continue _fun00003 }
- 80:
+            if(michal) { _fun00004_ip = 86; continue _fun00003 }
+ 81:
             tangon = verify.source;
- 85:
-            if(!(oscard != verify)) { _fun00004_ip = 94; continue _fun00003 }
- 89:
+ 86:
+            if(!(oscard != verify)) { _fun00004_ip = 95; continue _fun00003 }
+ 90:
             michal = delete verify.source;
- 94:
+ 95:
             option = oscard == verify;
             michal = undefined;
-            if(option) { _fun00004_ip = 109; continue _fun00003 }
- 103:
+            if(option) { _fun00004_ip = 110; continue _fun00003 }
+ 104:
             michal = verify.sourceLocationStack;
- 109:
-            if(!(oscard != verify)) { _fun00004_ip = 118; continue _fun00003 }
- 113:
+ 110:
+            if(!(oscard != verify)) { _fun00004_ip = 119; continue _fun00003 }
+ 114:
             option = delete verify.sourceLocationStack;
- 118:
-            if(!(oscard != verify)) { _fun00004_ip = 251; continue _fun00003 }
- 125:
+ 119:
+            if(!(oscard != verify)) { _fun00004_ip = 252; continue _fun00003 }
+ 126:
             option = report.URL;
             oscard = report.window;
             oscard = oscard.GLOBAL_ENV;
@@ -145,15 +145,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = verify;
             verify = copyDataProperties(foxtra, romeon);
             report = oscard.bind(option)(report);
-            _fun00004_ip = 265; continue _fun00003;
- 251:
+            _fun00004_ip = 266; continue _fun00003;
+ 252:
             oscard = _closure1_slot2;
             report = oscard.push;
             report = report.bind(oscard)(golfie);
- 265:
+ 266:
             var _closure1_slot3 = tangon;
             var _closure1_slot4 = michal;
- 273:
+ 274:
             return entity;
         }
     };
@@ -283,7 +283,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = undefined;
             michal = 'replace';
             michal = tangon.bind(entity)(oscard, michal);
-            if(michal) { _fun00010_ip = 115; continue _fun00009 }
+            if(michal) { _fun00010_ip = 116; continue _fun00009 }
  25:
             report = _closure1_slot8;
             tangon = report.log;
@@ -295,21 +295,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = tangon.bind(report)(michal);
             tangon = 'string';
             michal = typeof oscard;
-            if(!(tangon !== michal)) { _fun00010_ip = 90; continue _fun00009 }
- 74:
+            if(!(tangon !== michal)) { _fun00010_ip = 91; continue _fun00009 }
+ 75:
             tangon = _closure1_slot2;
             michal = tangon.replace;
             michal = michal.bind(tangon)(oscard);
-            _fun00010_ip = 108; continue _fun00009;
- 90:
+            _fun00010_ip = 109; continue _fun00009;
+ 91:
             report = _closure1_slot2;
             tangon = report.replace;
             michal = argBar;
             michal = tangon.bind(report)(oscard, michal);
- 108:
+ 109:
             michal = argBaz;
             _closure1_slot3 = michal;
- 115:
+ 116:
             return entity;
         }
     };

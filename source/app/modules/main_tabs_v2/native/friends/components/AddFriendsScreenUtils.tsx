@@ -273,7 +273,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['location'] = oscard;
         michal['context'] = report;
         michal['type'] = entity;
-        michal['friendToken'] = entity;
         report = true;
         michal['fromFriendSuggestion'] = report;
         michal = zuuluu.bind(tangon)(michal);

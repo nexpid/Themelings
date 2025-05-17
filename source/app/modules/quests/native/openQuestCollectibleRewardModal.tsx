@@ -191,74 +191,75 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            golfie = entity.quest;
-            var _closure2_slot0 = golfie;
-            oscard = entity.product;
+            option = entity.quest;
+            var _closure2_slot0 = option;
+            golfie = entity.product;
+            report = entity.onSuccess;
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
             entity = 12;
             michal = michal[entity];
             entity = undefined;
-            option = zuuluu.bind(entity)(michal);
-            zuuluu = option.getQuestLogger;
+            verify = zuuluu.bind(entity)(michal);
+            zuuluu = verify.getQuestLogger;
             michal = {};
-            verify = _closure1_slot4;
-            verify = verify.QUEST_HOME_MOBILE;
-            michal['location'] = verify;
-            verify = zuuluu.bind(option)(michal);
-            option = null;
-            if(!(option == oscard)) { _fun00004_ip = 100; continue _fun00003 }
- 79:
-            zuuluu = verify.warn;
+            offset = _closure1_slot4;
+            offset = offset.QUEST_HOME_MOBILE;
+            michal['location'] = offset;
+            offset = zuuluu.bind(verify)(michal);
+            verify = null;
+            if(!(verify == golfie)) { _fun00004_ip = 106; continue _fun00003 }
+ 85:
+            zuuluu = offset.warn;
             michal = 'Product is null';
-            michal = zuuluu.bind(verify)(michal);
-            _fun00004_ip = 272; continue _fun00003;
- 100:
+            michal = zuuluu.bind(offset)(michal);
+            _fun00004_ip = 283; continue _fun00003;
+ 106:
             michal = {};
-            verify = oscard.styles;
-            offset = option == verify;
+            offset = golfie.styles;
+            yankee = verify == offset;
             zuuluu = undefined;
-            if(offset) { _fun00004_ip = 123; continue _fun00003 }
- 117:
-            zuuluu = verify.buttonColors;
+            if(yankee) { _fun00004_ip = 129; continue _fun00003 }
  123:
-            if(!(option == zuuluu)) { _fun00004_ip = 131; continue _fun00003 }
- 127:
+            zuuluu = offset.buttonColors;
+ 129:
+            if(!(verify == zuuluu)) { _fun00004_ip = 137; continue _fun00003 }
+ 133:
             zuuluu = new Array(0);
- 131:
+ 137:
             michal['buttonColors'] = zuuluu;
-            verify = oscard.styles;
-            offset = option == verify;
+            offset = golfie.styles;
+            yankee = verify == offset;
             zuuluu = undefined;
-            if(offset) { _fun00004_ip = 157; continue _fun00003 }
- 151:
-            zuuluu = verify.confettiColors;
+            if(yankee) { _fun00004_ip = 163; continue _fun00003 }
  157:
-            if(!(option == zuuluu)) { _fun00004_ip = 165; continue _fun00003 }
- 161:
+            zuuluu = offset.confettiColors;
+ 163:
+            if(!(verify == zuuluu)) { _fun00004_ip = 171; continue _fun00003 }
+ 167:
             zuuluu = new Array(0);
- 165:
+ 171:
             michal['confettiColors'] = zuuluu;
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
-            option = 13;
-            option = tangon[option];
-            option = zuuluu.bind(entity)(option);
-            golfie = golfie.config;
-            golfie = golfie.colors;
-            golfie = golfie.primary;
-            option = option.bind(entity)(golfie);
-            golfie = new Array(1);
-            golfie[0] = option;
-            michal['backgroundColors'] = golfie;
-            oscard['styles'] = michal;
+            verify = 13;
+            verify = tangon[verify];
+            verify = zuuluu.bind(entity)(verify);
+            option = option.config;
+            option = option.colors;
+            option = option.primary;
+            verify = verify.bind(entity)(option);
+            option = new Array(1);
+            option[0] = verify;
+            michal['backgroundColors'] = option;
+            golfie['styles'] = michal;
             michal = 14;
             michal = tangon[michal];
             tangon = zuuluu.bind(entity)(michal);
             zuuluu = tangon.open;
             michal = {};
-            michal['product'] = oscard;
-            report = function() { // Original name: renderMessages
+            michal['product'] = golfie;
+            oscard = function() { // Original name: renderMessages
                 tangon = _closure1_slot6;
                 zuuluu = _closure1_slot10;
                 michal = {};
@@ -268,9 +269,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = tangon.bind(entity)(zuuluu, michal);
                 return entity;
             };
-            michal['renderMessages'] = report;
+            michal['renderMessages'] = oscard;
+            michal['onSuccess'] = report;
             michal = zuuluu.bind(tangon)(michal);
- 272:
+ 283:
             return entity;
         }
     };

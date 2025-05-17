@@ -125,8 +125,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  43:
             result = entity.title;
             update = entity.subtitle;
-            entity = entity.type;
-            var _closure2_slot2 = entity;
+            michal = entity.type;
+            var _closure2_slot2 = michal;
+            option = entity.highlight;
+            if(!(option === report)) { _fun00004_ip = 75; continue _fun00003 }
+ 73:
+            option = false;
+ 75:
             entity = _closure1_slot9;
             source = entity.bind(report)();
             michal = _closure1_slot0;
@@ -148,13 +153,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = zuuluu.bind(tangon)(michal, entity);
             entity = null;
             michal = entity == kiloes;
-            if(michal) { _fun00004_ip = 500; continue _fun00003 }
- 136:
+            if(michal) { _fun00004_ip = 517; continue _fun00003 }
+ 148:
             tangon = _closure1_slot7;
             golfie = _closure1_slot0;
-            option = _closure1_slot2;
+            verify = _closure1_slot2;
             michal = 9;
-            michal = option[michal];
+            michal = verify[michal];
             michal = golfie.bind(report)(michal);
             zuuluu = michal.PressableHighlight;
             michal = {'unstable_pressDelay': 130, 'onPress': null, 'accessibilityRole': 'button'};
@@ -182,21 +187,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal['onPress'] = oscard;
             oscard = 10;
-            oscard = option[oscard];
+            oscard = verify[oscard];
             oscard = golfie.bind(report)(oscard);
             golfie = oscard.SimplePost;
             oscard = {};
             oscard['hideDivider'] = foxtra;
+            oscard['highlight'] = option;
             offset = _closure1_slot8;
             verify = _closure1_slot3;
             option = {};
             backup = source.container;
             yankee = new Array(2);
             yankee[0] = backup;
-            if(!foxtra) { _fun00004_ip = 250; continue _fun00003 }
- 244:
+            if(!foxtra) { _fun00004_ip = 267; continue _fun00003 }
+ 261:
             foxtra = source.screenshotContainer;
- 250:
+ 267:
             yankee[1] = foxtra;
             option['style'] = yankee;
             backup = _closure1_slot8;
@@ -255,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 500:
+ 517:
             return entity;
         }
     };

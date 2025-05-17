@@ -466,23 +466,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.DARK;
             entity['theme'] = report;
             report = null;
-            if(!(report == record)) { _fun00008_ip = 812; continue _fun00007 }
- 548:
+            if(!(report == record)) { _fun00008_ip = 811; continue _fun00007 }
+ 547:
             golfie = _closure1_slot9;
             oscard = _closure1_slot10;
             report = {};
             offset = _closure1_slot8;
-            if(sizing) { _fun00008_ip = 587; continue _fun00007 }
- 565:
+            if(sizing) { _fun00008_ip = 586; continue _fun00007 }
+ 564:
             verify = _closure1_slot1;
             yankee = _closure1_slot2;
             option = 24;
             option = yankee[option];
             verify = verify.bind(tangon)(option);
-            _fun00008_ip = 591; continue _fun00007;
- 587:
+            _fun00008_ip = 590; continue _fun00007;
+ 586:
             verify = _closure1_slot15;
- 591:
+ 590:
             option = {};
             option['channel'] = sequen;
             verify = offset.bind(tangon)(verify, option);
@@ -497,15 +497,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = {};
             source = _closure1_slot8;
             config = _closure1_slot2;
-            if(sizing) { _fun00008_ip = 657; continue _fun00007 }
- 648:
+            if(sizing) { _fun00008_ip = 656; continue _fun00007 }
+ 647:
             kiloes = 22;
             kiloes = config[kiloes];
-            _fun00008_ip = 664; continue _fun00007;
- 657:
+            _fun00008_ip = 663; continue _fun00007;
+ 656:
             ctrled = 25;
             kiloes = config[ctrled];
- 664:
+ 663:
             update = update.bind(tangon)(kiloes);
             kiloes = {};
             kiloes['channel'] = sequen;
@@ -525,22 +525,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = source.bind(tangon)(update, kiloes);
             kiloes = new Array(2);
             kiloes[0] = update;
-            if(!romeon) { _fun00008_ip = 745; continue _fun00007 }
- 742:
+            if(!romeon) { _fun00008_ip = 744; continue _fun00007 }
+ 741:
             romeon = !result;
- 745:
-            if(!romeon) { _fun00008_ip = 751; continue _fun00007 }
- 748:
+ 744:
+            if(!romeon) { _fun00008_ip = 750; continue _fun00007 }
+ 747:
             romeon = !sizing;
- 751:
-            if(!romeon) { _fun00008_ip = 774; continue _fun00007 }
- 754:
+ 750:
+            if(!romeon) { _fun00008_ip = 773; continue _fun00007 }
+ 753:
             update = _closure1_slot8;
             result = _closure1_slot16;
             sizing = {};
             sizing['channel'] = sequen;
             romeon = update.bind(tangon)(result, sizing);
- 774:
+ 773:
             kiloes[1] = romeon;
             romeon = 'children';
             verify[romeon] = kiloes;
@@ -548,8 +548,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option[1] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);
-            _fun00008_ip = 1103; continue _fun00007;
- 812:
+            _fun00008_ip = 1102; continue _fun00007;
+ 811:
             option = _closure1_slot8;
             golfie = _closure1_slot6;
             oscard = {};
@@ -610,8 +610,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = copyDataProperties(target, papara);
             kiloes = result.bind(tangon)(sizing, kiloes);
             romeon[1] = kiloes;
-            if(!foxtra) { _fun00008_ip = 1079; continue _fun00007 }
- 1035:
+            if(!foxtra) { _fun00008_ip = 1078; continue _fun00007 }
+ 1034:
             sizing = _closure1_slot8;
             kiloes = _closure1_slot1;
             result = _closure1_slot2;
@@ -628,13 +628,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             backup['onClose'] = output;
             foxtra = sizing.bind(tangon)(kiloes, backup);
- 1079:
+ 1078:
             romeon[2] = foxtra;
             verify['children'] = romeon;
             verify = yankee.bind(tangon)(offset, verify);
             oscard['children'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 1103:
+ 1102:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

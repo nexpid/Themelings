@@ -554,11 +554,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = result.state;
                 backup = entity.confirming;
                 entity = null;
-                if(michal) { _fun00018_ip = 659; continue _fun00017 }
+                if(michal) { _fun00018_ip = 658; continue _fun00017 }
  165:
                 michal = entity != golfie;
                 option = undefined;
-                if(!michal) { _fun00018_ip = 395; continue _fun00017 }
+                if(!michal) { _fun00018_ip = 394; continue _fun00017 }
  177:
                 zuuluu = _closure1_slot0;
                 tangon = _closure1_slot3;
@@ -575,13 +575,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal[ctrled];
                 michal = tangon.bind(report)(michal);
                 michal = michal.ButtonColors;
-                if(zuuluu) { _fun00018_ip = 255; continue _fun00017 }
- 247:
+                if(zuuluu) { _fun00018_ip = 254; continue _fun00017 }
+ 246:
                 yankee = michal.GREY;
-                _fun00018_ip = 261; continue _fun00017;
- 255:
+                _fun00018_ip = 260; continue _fun00017;
+ 254:
                 yankee = michal.TRANSPARENT;
- 261:
+ 260:
                 tangon = _closure1_slot14;
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot3;
@@ -593,23 +593,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 source = source[ctrled];
                 source = vacuum.bind(report)(source);
                 vacuum = source.Looks;
-                if(echoed) { _fun00018_ip = 318; continue _fun00017 }
- 310:
+                if(echoed) { _fun00018_ip = 317; continue _fun00017 }
+ 309:
                 source = vacuum.OUTLINED;
-                _fun00018_ip = 324; continue _fun00017;
- 318:
+                _fun00018_ip = 323; continue _fun00017;
+ 317:
                 source = vacuum.FILLED;
- 324:
+ 323:
                 michal['look'] = source;
-                if(!echoed) { _fun00018_ip = 361; continue _fun00017 }
- 332:
+                if(!echoed) { _fun00018_ip = 360; continue _fun00017 }
+ 331:
                 source = _closure1_slot0;
                 echoed = _closure1_slot3;
                 echoed = echoed[ctrled];
                 echoed = source.bind(report)(echoed);
                 echoed = echoed.ButtonColors;
                 yankee = echoed.LIGHTGREY;
- 361:
+ 360:
                 michal['color'] = yankee;
                 yankee = result.handleCancel;
                 michal['onPress'] = yankee;
@@ -617,11 +617,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = verify.cancelButton;
                 michal['style'] = golfie;
                 option = tangon.bind(report)(zuuluu, michal);
- 395:
+ 394:
                 michal = entity != update;
                 golfie = undefined;
-                if(!michal) { _fun00018_ip = 515; continue _fun00017 }
- 404:
+                if(!michal) { _fun00018_ip = 514; continue _fun00017 }
+ 403:
                 tangon = _closure1_slot14;
                 echoed = _closure1_slot0;
                 source = _closure1_slot3;
@@ -645,7 +645,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 yankee = tangon.bind(report)(echoed, yankee);
                 michal['children'] = yankee;
                 golfie = tangon.bind(report)(zuuluu, michal);
- 515:
+ 514:
                 tangon = _closure1_slot15;
                 zuuluu = _closure1_slot10;
                 michal = {};
@@ -653,12 +653,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['style'] = verify;
                 yankee = entity == offset;
                 verify = undefined;
-                if(yankee) { _fun00018_ip = 548; continue _fun00017 }
- 544:
+                if(yankee) { _fun00018_ip = 547; continue _fun00017 }
+ 543:
                 verify = offset.bind(report)();
- 548:
-                if(!(entity == verify)) { _fun00018_ip = 631; continue _fun00017 }
- 552:
+ 547:
+                if(!(entity == verify)) { _fun00018_ip = 630; continue _fun00017 }
+ 551:
                 yankee = _closure1_slot14;
                 offset = _closure1_slot1;
                 echoed = _closure1_slot3;
@@ -672,15 +672,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard['color'] = sizing;
                 oscard['loading'] = backup;
                 backup = entity != kiloes;
-                if(!backup) { _fun00018_ip = 611; continue _fun00017 }
- 608:
+                if(!backup) { _fun00018_ip = 610; continue _fun00017 }
+ 607:
                 backup = kiloes;
- 611:
+ 610:
                 oscard['disabled'] = backup;
                 oscard['renderIcon'] = foxtra;
                 oscard['renderRightIcon'] = romeon;
                 verify = yankee.bind(report)(offset, oscard);
- 631:
+ 630:
                 oscard = new Array(3);
                 oscard[0] = verify;
                 oscard[1] = option;
@@ -688,7 +688,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['children'] = oscard;
                 michal = tangon.bind(report)(zuuluu, michal);
                 return michal;
- 659:
+ 658:
                 return entity;
             }
         };

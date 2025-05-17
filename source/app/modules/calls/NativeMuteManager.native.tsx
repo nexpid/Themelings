@@ -127,13 +127,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = _closure1_slot6;
                 zuuluu = tangon.hasActiveCallKitCall;
                 zuuluu = zuuluu.bind(tangon)();
-                if(zuuluu) { _fun00004_ip = 121; continue _fun00003 }
+                if(zuuluu) { _fun00004_ip = 122; continue _fun00003 }
  23:
                 zuuluu = michal.ignoreForNativeUnmute;
-                if(zuuluu) { _fun00004_ip = 113; continue _fun00003 }
+                if(zuuluu) { _fun00004_ip = 114; continue _fun00003 }
  32:
                 zuuluu = michal.ignoreForAudioRouteChange;
-                if(zuuluu) { _fun00004_ip = 121; continue _fun00003 }
+                if(zuuluu) { _fun00004_ip = 122; continue _fun00003 }
  41:
                 zuuluu = true;
                 michal['needToUnmuteNative'] = zuuluu;
@@ -152,11 +152,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = false;
                 entity['playSoundEffect'] = report;
                 entity = zuuluu.bind(tangon)(entity);
-                _fun00004_ip = 121; continue _fun00003;
- 113:
+                _fun00004_ip = 122; continue _fun00003;
+ 114:
                 entity = false;
                 michal['ignoreForNativeUnmute'] = entity;
- 121:
+ 122:
                 entity = undefined;
                 return entity;
             }
@@ -174,10 +174,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = _closure1_slot6;
                 michal = tangon.hasActiveCallKitCall;
                 michal = michal.bind(tangon)();
-                if(michal) { _fun00006_ip = 123; continue _fun00005 }
+                if(michal) { _fun00006_ip = 124; continue _fun00005 }
  23:
                 michal = zuuluu.needToUnmuteNative;
-                if(!michal) { _fun00006_ip = 123; continue _fun00005 }
+                if(!michal) { _fun00006_ip = 124; continue _fun00005 }
  32:
                 tangon = false;
                 zuuluu['needToUnmuteNative'] = tangon;
@@ -197,11 +197,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = entity.bind(michal)();
                 michal = zuuluu.setNativeMuteState;
                 entity = null;
-                if(!(entity != michal)) { _fun00006_ip = 123; continue _fun00005 }
- 112:
+                if(!(entity != michal)) { _fun00006_ip = 124; continue _fun00005 }
+ 113:
                 entity = michal.call;
                 entity = entity.bind(michal)(zuuluu, tangon);
- 123:
+ 124:
                 entity = undefined;
                 return entity;
             }
@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = argFoo;
                 michal = entity.channelId;
                 entity = null;
-                if(!(entity == michal)) { _fun00008_ip = 92; continue _fun00007 }
+                if(!(entity == michal)) { _fun00008_ip = 93; continue _fun00007 }
  14:
                 report = _closure1_slot7;
                 tangon = report.log;
@@ -232,12 +232,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = zuuluu.getVoiceEngine;
                 tangon = michal.bind(zuuluu)();
                 zuuluu = tangon.setNativeMuteState;
-                if(!(entity != zuuluu)) { _fun00008_ip = 92; continue _fun00007 }
- 79:
+                if(!(entity != zuuluu)) { _fun00008_ip = 93; continue _fun00007 }
+ 80:
                 michal = zuuluu.call;
                 entity = false;
                 entity = michal.bind(zuuluu)(tangon, entity);
- 92:
+ 93:
                 entity = undefined;
                 return entity;
             }

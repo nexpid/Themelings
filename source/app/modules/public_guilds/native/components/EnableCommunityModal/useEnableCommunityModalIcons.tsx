@@ -72,17 +72,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = zuuluu.bind(report)(entity);
                 zuuluu = _closure1_slot0;
                 report = _closure1_slot2;
-                if(entity) { _fun00002_ip = 70; continue _fun00001 }
- 56:
+                if(entity) { _fun00002_ip = 69; continue _fun00001 }
+ 55:
                 entity = 7;
                 entity = report[entity];
                 entity = zuuluu.bind(tangon)(entity);
-                _fun00002_ip = 82; continue _fun00001;
- 70:
+                _fun00002_ip = 81; continue _fun00001;
+ 69:
                 michal = 6;
                 michal = report[michal];
                 entity = zuuluu.bind(tangon)(michal);
- 82:
+ 81:
                 return entity;
             }
         };
@@ -125,17 +125,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = zuuluu.bind(report)(entity);
                 zuuluu = _closure1_slot0;
                 report = _closure1_slot2;
-                if(entity) { _fun00004_ip = 70; continue _fun00003 }
- 56:
+                if(entity) { _fun00004_ip = 69; continue _fun00003 }
+ 55:
                 entity = 10;
                 entity = report[entity];
                 entity = zuuluu.bind(tangon)(entity);
-                _fun00004_ip = 82; continue _fun00003;
- 70:
+                _fun00004_ip = 81; continue _fun00003;
+ 69:
                 michal = 9;
                 michal = report[michal];
                 entity = zuuluu.bind(tangon)(michal);
- 82:
+ 81:
                 return entity;
             }
         };

@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, __, argPlu) {
             report = 12;
             report = kiloes[report];
             foxtra = foxtra.bind(entity)(report);
-            report = foxtra.updateSuperPropertiesWithClientSessionId;
+            report = foxtra.updateDynamicSuperProperties;
             report = report.bind(foxtra)();
             report = yankee.getSuperPropertiesBase64;
             sizing = report.bind(yankee)();

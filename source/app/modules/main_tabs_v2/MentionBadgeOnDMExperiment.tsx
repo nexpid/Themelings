@@ -20,7 +20,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal = oscard[michal];
     golfie = report.bind(entity)(michal);
     tangon = golfie.createExperiment;
-    michal = {'kind': 'user', 'id': '2025-05_mention-badge-on-dm', 'label': 'Mention badge on DM'};
+    michal = {'kind': 'user', 'id': '2025-05_mention_badge_on_dm', 'label': 'Mention badge on DM'};
     option = option.DM_GDM_LIST_RENDER;
     michal['commonTriggerPoint'] = option;
     option = {};

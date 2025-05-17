@@ -272,7 +272,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00008_ip = 170; continue _fun00007 }
+                    if(michal) { _fun00008_ip = 171; continue _fun00007 }
  10:
                     zuuluu = global;
                     tangon = zuuluu.performance;
@@ -287,7 +287,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = report.userSearchItems;
                     report = michal.bind(report)();
                     michal = null;
-                    if(!(michal != report)) { _fun00008_ip = 163; continue _fun00007 }
+                    if(!(michal != report)) { _fun00008_ip = 164; continue _fun00007 }
  68:
                     michal = report.getMany;
                     michal = michal.bind(report)();
@@ -296,7 +296,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return michal;
  82:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00008_ip = 160; continue _fun00007 }
+                    if(report) { _fun00008_ip = 161; continue _fun00007 }
  88:
                     oscard = zuuluu.performance;
                     report = oscard.now;
@@ -313,12 +313,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = kiloes[option](backup, foxtra, romeon, yankee, offset);
                     zuuluu = tangon.bind(report)(zuuluu);
                     return michal;
- 160:
+ 161:
                     return michal;
- 163:
+ 164:
                     michal = new Array(0);
                     return michal;
- 170:
+ 171:
                     return entity;
                 }
             };

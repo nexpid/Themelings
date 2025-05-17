@@ -133,17 +133,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = golfie[michal];
             michal = zuuluu.bind(oscard)(michal);
             michal = michal.unsafe_rawColors;
-            if(entity) { _fun00004_ip = 119; continue _fun00003 }
- 95:
+            if(entity) { _fun00004_ip = 118; continue _fun00003 }
+ 94:
             zuuluu = michal.BRAND_500;
             entity = 0.2;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00004_ip = 141; continue _fun00003;
- 119:
+            _fun00004_ip = 140; continue _fun00003;
+ 118:
             zuuluu = michal.WHITE_500;
             michal = 0.5;
             entity = tangon.bind(report)(zuuluu, michal);
- 141:
+ 140:
             return entity;
         }
     };
@@ -337,13 +337,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = golfie[entity];
                 entity = tangon.bind(oscard)(entity);
                 entity = entity.unsafe_rawColors;
-                if(zuuluu) { _fun00008_ip = 102; continue _fun00007 }
- 94:
+                if(zuuluu) { _fun00008_ip = 101; continue _fun00007 }
+ 93:
                 golfie = entity.BRAND_500;
-                _fun00008_ip = 108; continue _fun00007;
- 102:
+                _fun00008_ip = 107; continue _fun00007;
+ 101:
                 golfie = entity.WHITE_500;
- 108:
+ 107:
                 entity = {};
                 michal = michal.state;
                 tangon = michal.animation;

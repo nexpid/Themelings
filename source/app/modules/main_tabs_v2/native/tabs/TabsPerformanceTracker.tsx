@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = {};
  58:
                 oscard[tangon] = michal;
-                _fun00006_ip = 201; continue _fun00005;
+                _fun00006_ip = 202; continue _fun00005;
  67:
                 michal = global;
                 tangon = michal.performance;
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['__initData'] = report;
                 entity = zuuluu.bind(tangon)(entity);
                 entity = entity.bind(michal)();
- 201:
+ 202:
                 entity = undefined;
                 return entity;
             }
@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = {};
  58:
                 oscard[tangon] = michal;
-                _fun00008_ip = 201; continue _fun00007;
+                _fun00008_ip = 202; continue _fun00007;
  67:
                 michal = global;
                 tangon = michal.performance;
@@ -310,7 +310,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['__initData'] = report;
                 entity = zuuluu.bind(tangon)(entity);
                 entity = entity.bind(michal)();
- 201:
+ 202:
                 entity = undefined;
                 return entity;
             }

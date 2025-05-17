@@ -133,8 +133,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = michal.gradientFallbackBackground;
             romeon = michal.avatarBackground;
             update = michal.containerBackground;
-            if(!(entity != ctrled)) { _fun00002_ip = 915; continue _fun00001 }
- 354:
+            if(!(entity != ctrled)) { _fun00002_ip = 913; continue _fun00001 }
+ 352:
             cntext = function() { // Original name: handleCopyUsername
                 tangon = _closure2_slot0;
                 zuuluu = {};
@@ -182,16 +182,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['user'] = ctrled;
             sequen = entity == source;
             config = undefined;
-            if(sequen) { _fun00002_ip = 461; continue _fun00001 }
- 456:
+            if(sequen) { _fun00002_ip = 459; continue _fun00001 }
+ 454:
             config = source.guildId;
- 461:
+ 459:
             target = entity != config;
             sequen = undefined;
-            if(!target) { _fun00002_ip = 473; continue _fun00001 }
- 470:
+            if(!target) { _fun00002_ip = 471; continue _fun00001 }
+ 468:
             sequen = config;
- 473:
+ 471:
             verify['guildId'] = sequen;
             verify['backgroundColor'] = romeon;
             config = true;
@@ -232,18 +232,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing['user'] = ctrled;
             status = entity == echoed;
             target = undefined;
-            if(status) { _fun00002_ip = 642; continue _fun00001 }
- 637:
+            if(status) { _fun00002_ip = 640; continue _fun00001 }
+ 635:
             target = echoed.guild_id;
- 642:
+ 640:
             sizing['guildId'] = target;
             sizing['displayName'] = papara;
             target = entity == source;
             papara = undefined;
-            if(target) { _fun00002_ip = 665; continue _fun00001 }
- 659:
+            if(target) { _fun00002_ip = 663; continue _fun00001 }
+ 657:
             papara = source.pronouns;
- 665:
+ 663:
             sizing['pronouns'] = papara;
             sizing['badges'] = vacuum;
             sizing['badgeContainerBackground'] = update;
@@ -315,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 915:
+ 913:
             return entity;
         }
     };

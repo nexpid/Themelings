@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = michal.editInfo;
                     tangon = michal.timeout;
                     michal = null;
-                    if(!(michal != tangon)) { _fun00008_ip = 91; continue _fun00007 }
+                    if(!(michal != tangon)) { _fun00008_ip = 92; continue _fun00007 }
  60:
                     report = zuuluu.logger;
                     tangon = report.log;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = tangon.bind(report)(michal);
                     michal = zuuluu.persistChanges;
                     michal = michal.bind(zuuluu)();
- 91:
+ 92:
                     return entity;
                 }
             };

@@ -1602,6 +1602,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['NITRO_TENURE_BADGE_LEVEL_UP'] = michal;
     entity = 'NITRO_TENURE_BADGE_LEVEL_UP';
     tangon[michal] = entity;
+    michal = 545;
+    tangon['ROBLOX_CONNECTION_COACHMARK'] = michal;
+    entity = 'ROBLOX_CONNECTION_COACHMARK';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

@@ -3188,11 +3188,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = {'command': null, 'sectionDescriptor': null, 'hasPermission': false};
                     michal = michal.fetchState;
                     michal = michal.fetching;
-                    if(michal) { _fun00044_ip = 774; continue _fun00043 }
- 762:
+                    if(michal) { _fun00044_ip = 778; continue _fun00043 }
+ 766:
                     zuuluu = zuuluu.fetchState;
                     michal = zuuluu.fetching;
- 774:
+ 778:
                     entity['loading'] = michal;
                     return entity;
                 }

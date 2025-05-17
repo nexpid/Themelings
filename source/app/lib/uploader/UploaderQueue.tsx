@@ -64,19 +64,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = tangon.log;
                 entity = michal.drainingQueue;
                 report = 'no';
-                if(!entity) { _fun00002_ip = 54; continue _fun00001 }
- 48:
+                if(!entity) { _fun00002_ip = 55; continue _fun00001 }
+ 49:
                 report = 'yes';
- 54:
+ 55:
                 entity = 'enqueue() - alreadying draining? ';
                 entity = entity + report;
                 entity = zuuluu.bind(tangon)(entity);
                 entity = michal.drainingQueue;
-                if(entity) { _fun00002_ip = 88; continue _fun00001 }
- 78:
+                if(entity) { _fun00002_ip = 89; continue _fun00001 }
+ 79:
                 entity = michal.drainQueue;
                 entity = entity.bind(michal)();
- 88:
+ 89:
                 entity = undefined;
                 return entity;
             }
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     tangon = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 291; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 295; continue _fun00003 }
  15:
                     michal = undefined;
                     golfie = undefined;
@@ -119,8 +119,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = option.bind(offset)();
                     golfie = offset;
                     option = null;
-                    if(!(option != offset)) { _fun00004_ip = 260; continue _fun00003 }
- 113: // try_start_0
+                    if(!(option != offset)) { _fun00004_ip = 263; continue _fun00003 }
+ 114: // try_start_0
                     yankee = _closure1_slot3;
                     offset = yankee.log;
                     option = 'drainQueue() - start uploader';
@@ -175,13 +175,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     kiloes = golfie;
                     report = new kiloes[option](backup, foxtra);
                     report = report instanceof Object ? report : golfie;
-                    SaveGenerator(address=179);
- 177:
-                    return report;
+                    SaveGenerator(address=181);
  179:
+                    return report;
+ 181:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(golfie) { _fun00004_ip = 228; continue _fun00003 }
- 185:
+                    if(golfie) { _fun00004_ip = 231; continue _fun00003 }
+ 187:
                     option = _closure1_slot3;
                     golfie = option.log;
                     offset = verify.id;
@@ -190,20 +190,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = 'drainQueue() Uploader complete - ';
                     oscard = verify.bind(oscard)(offset);
                     oscard = golfie.bind(option)(oscard);
- 226: // try_end0
-                    _fun00004_ip = 247; continue _fun00003;
- 228:
+ 229: // try_end0
+                    _fun00004_ip = 250; continue _fun00003;
+ 231:
                     return report;
- 231: // catch_target0
+ 234: // catch_target0
                     CatchBlockStart(arg_register=6);
                     oscard = _closure1_slot3;
                     report = oscard.error;
                     report = report.bind(oscard)(golfie);
- 247:
+ 250:
                     report = tangon.drainQueue;
                     report = report.bind(tangon)();
                     return michal;
- 260:
+ 263:
                     oscard = _closure1_slot3;
                     report = oscard.log;
                     zuuluu = 'drainQueue() - No uploads left, setting drainingQueue to false';
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = false;
                     tangon['drainingQueue'] = zuuluu;
                     return michal;
- 291:
+ 295:
                     return entity;
                 }
             };

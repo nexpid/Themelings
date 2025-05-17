@@ -221,10 +221,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['avatarURL'] = oscard;
             oscard = null;
             option = oscard != golfie;
-            if(!option) { _fun00002_ip = 517; continue _fun00001 }
- 514:
+            if(!option) { _fun00002_ip = 516; continue _fun00001 }
+ 513:
             oscard = golfie;
- 517:
+ 516:
             entity['usernameColor'] = oscard;
             echoed = entity;
             result = report;
@@ -285,24 +285,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = null;
             golfie = 'username';
             michal = null;
-            if(!(golfie === yankee)) { _fun00006_ip = 225; continue _fun00005 }
- 222:
+            if(!(golfie === yankee)) { _fun00006_ip = 224; continue _fun00005 }
+ 221:
             michal = offset;
- 225:
+ 224:
             entity['linkColor'] = michal;
             entity['roleColor'] = offset;
             michal = null;
-            if(!sizing) { _fun00006_ip = 243; continue _fun00005 }
- 240:
+            if(!sizing) { _fun00006_ip = 242; continue _fun00005 }
+ 239:
             michal = romeon;
- 243:
+ 242:
             entity['roleColors'] = michal;
             michal = 'dot';
             michal = michal === yankee;
-            if(!michal) { _fun00006_ip = 263; continue _fun00005 }
- 259:
+            if(!michal) { _fun00006_ip = 262; continue _fun00005 }
+ 258:
             michal = report != offset;
- 263:
+ 262:
             entity['shouldShowRoleDot'] = michal;
             michal = kiloes.channel_id;
             entity['messageChannelId'] = michal;
@@ -352,10 +352,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity[golfie] = oscard;
             oscard = report != tangon;
             report = null;
-            if(!oscard) { _fun00006_ip = 483; continue _fun00005 }
- 480:
+            if(!oscard) { _fun00006_ip = 482; continue _fun00005 }
+ 479:
             report = tangon;
- 483:
+ 482:
             tangon = 'usernameColor';
             entity[tangon] = report;
             option = _closure1_slot0;

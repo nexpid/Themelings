@@ -77,8 +77,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = michal.theme;
             michal = entity.Illustration;
             golfie = null;
-            if(!(golfie == michal)) { _fun00002_ip = 168; continue _fun00001 }
- 64:
+            if(!(golfie == michal)) { _fun00002_ip = 167; continue _fun00001 }
+ 63:
             report = _closure1_slot4;
             zuuluu = _closure1_slot3;
             michal = {};
@@ -90,13 +90,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.bind(tangon)(oscard);
             oscard = verify.isThemeLight;
             oscard = oscard.bind(verify)(offset);
-            if(oscard) { _fun00002_ip = 122; continue _fun00001 }
- 114:
+            if(oscard) { _fun00002_ip = 121; continue _fun00001 }
+ 113:
             oscard = entity.darkSource;
-            _fun00002_ip = 128; continue _fun00001;
- 122:
+            _fun00002_ip = 127; continue _fun00001;
+ 121:
             oscard = entity.lightSource;
- 128:
+ 127:
             michal['source'] = oscard;
             verify = romeon.emptyImage;
             oscard = new Array(2);
@@ -105,8 +105,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = verify;
             michal['style'] = oscard;
             verify = report.bind(tangon)(zuuluu, michal);
-            _fun00002_ip = 223; continue _fun00001;
- 168:
+            _fun00002_ip = 222; continue _fun00001;
+ 167:
             report = _closure1_slot4;
             zuuluu = entity.Illustration;
             michal = {};
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = offset;
             michal['style'] = oscard;
             verify = report.bind(tangon)(zuuluu, michal);
- 223:
+ 222:
             offset = entity.style;
             yankee = entity.body;
             sizing = entity.title;
@@ -140,8 +140,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[0] = verify;
             offset = golfie != sizing;
             verify = null;
-            if(!offset) { _fun00002_ip = 385; continue _fun00001 }
- 310:
+            if(!offset) { _fun00002_ip = 384; continue _fun00001 }
+ 309:
             kiloes = _closure1_slot4;
             backup = _closure1_slot0;
             output = _closure1_slot1;
@@ -157,12 +157,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['style'] = output;
             offset['children'] = sizing;
             verify = kiloes.bind(tangon)(backup, offset);
- 385:
+ 384:
             report[1] = verify;
             verify = golfie != yankee;
             golfie = null;
-            if(!verify) { _fun00002_ip = 473; continue _fun00001 }
- 398:
+            if(!verify) { _fun00002_ip = 472; continue _fun00001 }
+ 397:
             offset = _closure1_slot4;
             verify = _closure1_slot0;
             backup = _closure1_slot1;
@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['style'] = romeon;
             option['children'] = yankee;
             golfie = offset.bind(tangon)(verify, option);
- 473:
+ 472:
             report[2] = golfie;
             report[3] = oscard;
             entity['children'] = report;

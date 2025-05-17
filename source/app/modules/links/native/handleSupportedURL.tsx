@@ -114,67 +114,67 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = golfie.type;
                     tangon = _closure1_slot11;
                     tangon = tangon.CONTACT_SYNC;
-                    if(!(tangon !== report)) { _fun00004_ip = 3101; continue _fun00003 }
+                    if(!(tangon !== report)) { _fun00004_ip = 3077; continue _fun00003 }
  90:
                     tangon = _closure1_slot11;
                     tangon = tangon.COMPOSE_MESSAGE;
-                    if(!(tangon !== report)) { _fun00004_ip = 2999; continue _fun00003 }
+                    if(!(tangon !== report)) { _fun00004_ip = 2975; continue _fun00003 }
  107:
                     tangon = _closure1_slot11;
                     tangon = tangon.ADD_FRIENDS;
-                    if(!(tangon !== report)) { _fun00004_ip = 2821; continue _fun00003 }
+                    if(!(tangon !== report)) { _fun00004_ip = 2797; continue _fun00003 }
  124:
                     tangon = _closure1_slot11;
                     tangon = tangon.FRIENDS;
-                    if(!(tangon !== report)) { _fun00004_ip = 2656; continue _fun00003 }
+                    if(!(tangon !== report)) { _fun00004_ip = 2632; continue _fun00003 }
  141:
                     tangon = _closure1_slot11;
                     tangon = tangon.EDIT_PROFILE;
-                    if(!(tangon !== report)) { _fun00004_ip = 2638; continue _fun00003 }
+                    if(!(tangon !== report)) { _fun00004_ip = 2614; continue _fun00003 }
  158:
                     tangon = _closure1_slot11;
                     tangon = tangon.INVITE;
-                    if(!(tangon !== report)) { _fun00004_ip = 2516; continue _fun00003 }
+                    if(!(tangon !== report)) { _fun00004_ip = 2492; continue _fun00003 }
  175:
                     tangon = _closure1_slot11;
                     tangon = tangon.GUILD_TEMPLATE;
-                    if(!(tangon !== report)) { _fun00004_ip = 2488; continue _fun00003 }
+                    if(!(tangon !== report)) { _fun00004_ip = 2464; continue _fun00003 }
  192:
                     tangon = _closure1_slot11;
                     tangon = tangon.GIFT_CODE;
-                    if(!(tangon !== report)) { _fun00004_ip = 2407; continue _fun00003 }
+                    if(!(tangon !== report)) { _fun00004_ip = 2383; continue _fun00003 }
  209:
                     tangon = _closure1_slot11;
                     tangon = tangon.CHANNEL;
-                    if(!(tangon !== report)) { _fun00004_ip = 2282; continue _fun00003 }
+                    if(!(tangon !== report)) { _fun00004_ip = 2258; continue _fun00003 }
  226:
                     tangon = _closure1_slot11;
                     tangon = tangon.MESSAGE;
-                    if(!(tangon !== report)) { _fun00004_ip = 2282; continue _fun00003 }
+                    if(!(tangon !== report)) { _fun00004_ip = 2258; continue _fun00003 }
  243:
                     tangon = _closure1_slot11;
                     tangon = tangon.SESSION_MANAGEMENT;
-                    if(!(tangon !== report)) { _fun00004_ip = 2264; continue _fun00003 }
+                    if(!(tangon !== report)) { _fun00004_ip = 2240; continue _fun00003 }
  260:
                     tangon = _closure1_slot11;
                     tangon = tangon.FAMILY_CENTER;
-                    if(!(tangon !== report)) { _fun00004_ip = 2216; continue _fun00003 }
+                    if(!(tangon !== report)) { _fun00004_ip = 2192; continue _fun00003 }
  277:
                     tangon = _closure1_slot11;
                     tangon = tangon.OAUTH2_AUTHORIZE;
-                    if(!(tangon !== report)) { _fun00004_ip = 2198; continue _fun00003 }
+                    if(!(tangon !== report)) { _fun00004_ip = 2174; continue _fun00003 }
  294:
                     tangon = _closure1_slot11;
                     tangon = tangon.REMOTE_AUTH;
-                    if(!(tangon !== report)) { _fun00004_ip = 2107; continue _fun00003 }
+                    if(!(tangon !== report)) { _fun00004_ip = 2083; continue _fun00003 }
  311:
                     tangon = _closure1_slot11;
                     tangon = tangon.PROMOTIONS;
-                    if(!(tangon !== report)) { _fun00004_ip = 2067; continue _fun00003 }
+                    if(!(tangon !== report)) { _fun00004_ip = 2043; continue _fun00003 }
  328:
                     tangon = _closure1_slot11;
                     tangon = tangon.FEATURE_PROMO_URL;
-                    if(!(tangon !== report)) { _fun00004_ip = 2026; continue _fun00003 }
+                    if(!(tangon !== report)) { _fun00004_ip = 2002; continue _fun00003 }
  345:
                     tangon = _closure1_slot11;
                     tangon = tangon.USER_PROFILE;
@@ -1223,7 +1223,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  1945:
                     report = golfie.userId;
                     tangon = null;
-                    if(!(tangon != report)) { _fun00004_ip = 2022; continue _fun00003 }
+                    if(!(tangon != report)) { _fun00004_ip = 1998; continue _fun00003 }
  1956:
                     report = _closure1_slot0;
                     oscard = _closure1_slot3;
@@ -1234,19 +1234,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = {};
                     option = golfie.userId;
                     tangon['userId'] = option;
-                    option = 'friendToken';
-                    yankee = option in golfie;
-                    option = undefined;
-                    if(!yankee) { _fun00004_ip = 2012; continue _fun00003 }
- 2006:
-                    option = golfie.friendToken;
- 2012:
-                    tangon['friendToken'] = option;
                     tangon = report.bind(oscard)(tangon);
- 2022:
+ 1998:
                     tangon = true;
                     return tangon;
- 2026:
+ 2002:
                     report = _closure1_slot1;
                     oscard = _closure1_slot3;
                     tangon = 33;
@@ -1257,7 +1249,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report.bind(oscard)(tangon);
                     tangon = true;
                     return tangon;
- 2067:
+ 2043:
                     report = _closure1_slot1;
                     oscard = _closure1_slot3;
                     tangon = 33;
@@ -1268,11 +1260,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report.bind(oscard)(tangon);
                     tangon = true;
                     return tangon;
- 2107:
+ 2083:
                     report = golfie.remoteAuthFingerprint;
                     tangon = null;
-                    if(!(tangon != report)) { _fun00004_ip = 2194; continue _fun00003 }
- 2119:
+                    if(!(tangon != report)) { _fun00004_ip = 2170; continue _fun00003 }
+ 2095:
                     oscard = _closure1_slot1;
                     tangon = _closure1_slot3;
                     report = 13;
@@ -1291,10 +1283,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = true;
                     tangon['showHelp'] = yankee;
                     tangon = oscard.bind(option)(report, tangon);
- 2194:
+ 2170:
                     tangon = true;
                     return tangon;
- 2198:
+ 2174:
                     report = _closure1_slot7;
                     tangon = function() {
                         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
@@ -1401,19 +1393,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report.bind(zuuluu)(tangon);
                     tangon = true;
                     return tangon;
- 2216:
+ 2192:
                     tangon = null;
                     report = golfie;
-                    if(!(tangon == report)) { _fun00004_ip = 2227; continue _fun00003 }
- 2225:
+                    if(!(tangon == report)) { _fun00004_ip = 2203; continue _fun00003 }
+ 2201:
                     report = {};
- 2227:
+ 2203:
                     report = report.pathname;
                     tangon = null;
-                    if(!(zuuluu !== report)) { _fun00004_ip = 2242; continue _fun00003 }
- 2239:
+                    if(!(zuuluu !== report)) { _fun00004_ip = 2218; continue _fun00003 }
+ 2215:
                     tangon = report;
- 2242:
+ 2218:
                     _closure3_slot7 = tangon;
                     report = _closure1_slot7;
                     tangon = function() {
@@ -1465,7 +1457,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report.bind(zuuluu)(tangon);
                     tangon = true;
                     return tangon;
- 2264:
+ 2240:
                     report = _closure1_slot7;
                     tangon = function() {
                         zuuluu = _closure1_slot1;
@@ -1491,7 +1483,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report.bind(zuuluu)(tangon);
                     tangon = true;
                     return tangon;
- 2282:
+ 2258:
                     romeon = golfie.guildId;
                     yankee = golfie.channelId;
                     report = golfie.type;
@@ -1499,19 +1491,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = tangon.MESSAGE;
                     option = undefined;
                     oscard = undefined;
-                    if(!(report === tangon)) { _fun00004_ip = 2326; continue _fun00003 }
- 2315:
+                    if(!(report === tangon)) { _fun00004_ip = 2302; continue _fun00003 }
+ 2291:
                     option = golfie.messageId;
                     oscard = golfie.summaryId;
- 2326:
+ 2302:
                     report = null;
                     tangon = report != romeon;
-                    if(!tangon) { _fun00004_ip = 2339; continue _fun00003 }
- 2335:
+                    if(!tangon) { _fun00004_ip = 2315; continue _fun00003 }
+ 2311:
                     tangon = report != yankee;
- 2339:
-                    if(!tangon) { _fun00004_ip = 2403; continue _fun00003 }
- 2342:
+ 2315:
+                    if(!tangon) { _fun00004_ip = 2379; continue _fun00003 }
+ 2318:
                     report = _closure1_slot1;
                     foxtra = _closure1_slot3;
                     tangon = 25;
@@ -1527,15 +1519,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon['navigationSettings'] = option;
                     tangon['summaryId'] = oscard;
                     tangon = report.bind(zuuluu)(tangon);
- 2403:
+ 2379:
                     tangon = true;
                     return tangon;
- 2407:
+ 2383:
                     option = golfie.giftCode;
                     tangon = null;
                     tangon = tangon != option;
-                    if(!tangon) { _fun00004_ip = 2486; continue _fun00003 }
- 2422:
+                    if(!tangon) { _fun00004_ip = 2462; continue _fun00003 }
+ 2398:
                     oscard = _closure1_slot0;
                     verify = _closure1_slot3;
                     report = 21;
@@ -1584,9 +1576,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     report = oscard.bind(option)(report);
                     tangon = true;
- 2486:
+ 2462:
                     return tangon;
- 2488:
+ 2464:
                     tangon = golfie.guildTemplateCode;
                     _closure3_slot6 = tangon;
                     report = _closure1_slot7;
@@ -1626,7 +1618,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report.bind(zuuluu)(tangon);
                     tangon = true;
                     return tangon;
- 2516:
+ 2492:
                     verify = golfie.inviteCode;
                     _closure3_slot3 = verify;
                     option = golfie.username;
@@ -1636,11 +1628,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = _closure1_slot9;
                     tangon = report.isAuthenticated;
                     tangon = tangon.bind(report)();
-                    if(tangon) { _fun00004_ip = 2620; continue _fun00003 }
- 2562:
+                    if(tangon) { _fun00004_ip = 2596; continue _fun00003 }
+ 2538:
                     tangon = null;
-                    if(!(tangon != verify)) { _fun00004_ip = 2620; continue _fun00003 }
- 2568:
+                    if(!(tangon != verify)) { _fun00004_ip = 2596; continue _fun00003 }
+ 2544:
                     report = _closure1_slot0;
                     oscard = _closure1_slot3;
                     tangon = 18;
@@ -1652,8 +1644,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = 'Deep Link';
                     tangon['location'] = offset;
                     tangon = report.bind(oscard)(verify, option, tangon);
-                    _fun00004_ip = 2634; continue _fun00003;
- 2620:
+                    _fun00004_ip = 2610; continue _fun00003;
+ 2596:
                     report = _closure1_slot7;
                     tangon = function() {
                         _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
@@ -1694,10 +1686,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         }
                     };
                     tangon = report.bind(zuuluu)(tangon);
- 2634:
+ 2610:
                     tangon = true;
                     return tangon;
- 2638:
+ 2614:
                     report = _closure1_slot7;
                     tangon = function() {
                         zuuluu = _closure1_slot1;
@@ -1723,7 +1715,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report.bind(zuuluu)(tangon);
                     tangon = true;
                     return tangon;
- 2656:
+ 2632:
                     report = _closure1_slot1;
                     oscard = _closure1_slot3;
                     tangon = 13;
@@ -1739,12 +1731,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = tangon.bind(report)();
                     _closure3_slot2 = option;
                     report = null;
-                    if(!(report != option)) { _fun00004_ip = 2766; continue _fun00003 }
- 2722:
+                    if(!(report != option)) { _fun00004_ip = 2742; continue _fun00003 }
+ 2698:
                     tangon = option.isReady;
                     tangon = tangon.bind(option)();
-                    if(tangon) { _fun00004_ip = 2751; continue _fun00003 }
- 2735:
+                    if(tangon) { _fun00004_ip = 2727; continue _fun00003 }
+ 2711:
                     oscard = _closure1_slot7;
                     tangon = function() {
                         zuuluu = _closure3_slot2;
@@ -1755,15 +1747,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     tangon = oscard.bind(zuuluu)(tangon);
-                    _fun00004_ip = 2766; continue _fun00003;
- 2751:
+                    _fun00004_ip = 2742; continue _fun00003;
+ 2727:
                     oscard = option.navigate;
                     tangon = 'friends';
                     tangon = oscard.bind(option)(tangon);
- 2766:
+ 2742:
                     tangon = golfie.userId;
-                    if(!(report != tangon)) { _fun00004_ip = 2817; continue _fun00003 }
- 2775:
+                    if(!(report != tangon)) { _fun00004_ip = 2793; continue _fun00003 }
+ 2751:
                     report = _closure1_slot0;
                     oscard = _closure1_slot3;
                     tangon = 16;
@@ -1774,10 +1766,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = golfie.userId;
                     tangon['userId'] = golfie;
                     tangon = report.bind(oscard)(tangon);
- 2817:
+ 2793:
                     tangon = true;
                     return tangon;
- 2821:
+ 2797:
                     report = _closure1_slot1;
                     oscard = _closure1_slot3;
                     tangon = 13;
@@ -1793,12 +1785,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = tangon.bind(report)();
                     _closure3_slot1 = oscard;
                     tangon = null;
-                    if(!(tangon != oscard)) { _fun00004_ip = 2965; continue _fun00003 }
- 2887:
+                    if(!(tangon != oscard)) { _fun00004_ip = 2941; continue _fun00003 }
+ 2863:
                     tangon = oscard.isReady;
                     tangon = tangon.bind(oscard)();
-                    if(tangon) { _fun00004_ip = 2916; continue _fun00003 }
- 2900:
+                    if(tangon) { _fun00004_ip = 2892; continue _fun00003 }
+ 2876:
                     tangon = _closure1_slot7;
                     michal = function() {
                         tangon = _closure3_slot1;
@@ -1815,8 +1807,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     michal = tangon.bind(zuuluu)(michal);
-                    _fun00004_ip = 2995; continue _fun00003;
- 2916:
+                    _fun00004_ip = 2971; continue _fun00003;
+ 2892:
                     report = oscard.navigate;
                     tangon = {};
                     michal = 'add-friends';
@@ -1827,8 +1819,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon['params'] = michal;
                     michal = 'friends';
                     michal = report.bind(oscard)(michal, tangon);
-                    _fun00004_ip = 2995; continue _fun00003;
- 2965:
+                    _fun00004_ip = 2971; continue _fun00003;
+ 2941:
                     tangon = _closure1_slot1;
                     report = _closure1_slot3;
                     michal = 15;
@@ -1836,10 +1828,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = tangon.bind(zuuluu)(michal);
                     michal = tangon.openAddFriendModalDeeplink;
                     michal = michal.bind(tangon)();
- 2995:
+ 2971:
                     michal = true;
                     return michal;
- 2999:
+ 2975:
                     tangon = _closure1_slot1;
                     report = _closure1_slot3;
                     michal = 13;
@@ -1854,8 +1846,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = tangon.getRootNavigationRef;
                     oscard = michal.bind(tangon)();
                     michal = null;
-                    if(!(michal != oscard)) { _fun00004_ip = 3097; continue _fun00003 }
- 3061:
+                    if(!(michal != oscard)) { _fun00004_ip = 3073; continue _fun00003 }
+ 3037:
                     report = oscard.navigate;
                     tangon = {};
                     michal = 'new-message';
@@ -1864,10 +1856,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon['params'] = michal;
                     michal = 'friends';
                     michal = report.bind(oscard)(michal, tangon);
- 3097:
+ 3073:
                     michal = true;
                     return michal;
- 3101:
+ 3077:
                     michal = _closure1_slot0;
                     tangon = _closure1_slot3;
                     entity = 12;

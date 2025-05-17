@@ -68,9 +68,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             entity = argFoo;
             oscard = entity.quest;
-            verify = entity.product;
+            offset = entity.product;
             report = entity.questContent;
             tangon = entity.questContentPosition;
+            verify = entity.onSuccess;
             golfie = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 7;
@@ -80,8 +81,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = option.hasQuestRewardCode;
             zuuluu = oscard.config;
             zuuluu = golfie.bind(option)(zuuluu);
-            if(zuuluu) { _fun00002_ip = 116; continue _fun00001 }
- 71:
+            if(zuuluu) { _fun00002_ip = 127; continue _fun00001 }
+ 77:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             zuuluu = 8;
@@ -90,10 +91,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = option.openQuestCollectibleRewardModal;
             zuuluu = {};
             zuuluu['quest'] = oscard;
-            zuuluu['product'] = verify;
+            zuuluu['product'] = offset;
+            zuuluu['onSuccess'] = verify;
             zuuluu = golfie.bind(option)(zuuluu);
-            _fun00002_ip = 147; continue _fun00001;
- 116:
+            _fun00002_ip = 158; continue _fun00001;
+ 127:
             zuuluu = _closure1_slot10;
             michal = {};
             oscard = oscard.id;
@@ -101,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['questContent'] = report;
             michal['questContentPosition'] = tangon;
             michal = zuuluu.bind(entity)(michal);
- 147:
+ 158:
             return entity;
         }
     };
@@ -235,25 +237,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00006_ip = 362; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 373; continue _fun00005 }
  13:
                     verify = michal.quest;
                     option = michal.questContent;
                     golfie = michal.questContentPosition;
-                    romeon = michal.product;
+                    foxtra = michal.product;
                     tangon = michal.hideActionSheet;
                     report = michal.currentUserHasVerifiedEmailOrPhone;
+                    romeon = michal.onSuccess;
                     oscard = undefined;
-                    SaveGenerator(address=55);
- 53:
+                    SaveGenerator(address=61);
+ 59:
                     return oscard;
- 55:
+ 61:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00006_ip = 359; continue _fun00005 }
- 64:
-                    zuuluu = true;
-                    if(!(zuuluu === tangon)) { _fun00006_ip = 103; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 370; continue _fun00005 }
  70:
+                    zuuluu = true;
+                    if(!(zuuluu === tangon)) { _fun00006_ip = 109; continue _fun00005 }
+ 76:
                     offset = _closure1_slot1;
                     yankee = _closure1_slot2;
                     tangon = 3;
@@ -261,38 +264,38 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = offset.bind(oscard)(tangon);
                     tangon = offset.hideActionSheet;
                     tangon = tangon.bind(offset)();
- 103:
-                    if(report) { _fun00006_ip = 230; continue _fun00005 }
  109:
-                    backup = _closure1_slot1;
-                    kiloes = _closure1_slot2;
+                    if(report) { _fun00006_ip = 236; continue _fun00005 }
+ 115:
+                    kiloes = _closure1_slot1;
+                    sizing = _closure1_slot2;
                     report = 13;
-                    report = kiloes[report];
-                    yankee = backup.bind(oscard)(report);
+                    report = sizing[report];
+                    yankee = kiloes.bind(oscard)(report);
                     offset = yankee.open;
                     report = {};
-                    foxtra = 'CLAIM_QUEST_REWARD_ERROR';
-                    report['key'] = foxtra;
-                    result = _closure1_slot0;
-                    foxtra = 14;
-                    sizing = kiloes[foxtra];
-                    sizing = result.bind(oscard)(sizing);
-                    output = sizing.intl;
-                    sizing = output.string;
-                    foxtra = kiloes[foxtra];
-                    foxtra = result.bind(oscard)(foxtra);
-                    foxtra = foxtra.t;
-                    foxtra = foxtra.HZlu09;
-                    foxtra = sizing.bind(output)(foxtra);
-                    report['content'] = foxtra;
-                    foxtra = 15;
-                    foxtra = kiloes[foxtra];
-                    foxtra = backup.bind(oscard)(foxtra);
-                    report['icon'] = foxtra;
+                    backup = 'CLAIM_QUEST_REWARD_ERROR';
+                    report['key'] = backup;
+                    echoed = _closure1_slot0;
+                    backup = 14;
+                    output = sizing[backup];
+                    output = echoed.bind(oscard)(output);
+                    result = output.intl;
+                    output = result.string;
+                    backup = sizing[backup];
+                    backup = echoed.bind(oscard)(backup);
+                    backup = backup.t;
+                    backup = backup.HZlu09;
+                    backup = output.bind(result)(backup);
+                    report['content'] = backup;
+                    backup = 15;
+                    backup = sizing[backup];
+                    backup = kiloes.bind(oscard)(backup);
+                    report['icon'] = backup;
                     report = offset.bind(yankee)(report);
                     report = false;
                     return report;
- 230:
+ 236:
                     offset = _closure1_slot0;
                     yankee = _closure1_slot2;
                     report = 7;
@@ -301,28 +304,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = yankee.hasQuestRewardCode;
                     report = verify.config;
                     report = offset.bind(yankee)(report);
-                    if(report) { _fun00006_ip = 325; continue _fun00005 }
- 269:
+                    if(report) { _fun00006_ip = 336; continue _fun00005 }
+ 275:
                     report = _closure1_slot9;
                     report = report.bind(oscard)(verify);
-                    SaveGenerator(address=282);
- 280:
+                    SaveGenerator(address=288);
+ 286:
                     return report;
- 282:
-                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=9);
-                    if(offset) { _fun00006_ip = 322; continue _fun00005 }
  288:
+                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=9);
+                    if(offset) { _fun00006_ip = 333; continue _fun00005 }
+ 294:
                     yankee = _closure1_slot8;
                     offset = {};
                     offset['quest'] = verify;
-                    offset['product'] = romeon;
+                    offset['product'] = foxtra;
                     offset['questContent'] = option;
                     offset['questContentPosition'] = golfie;
+                    offset['onSuccess'] = romeon;
                     offset = yankee.bind(oscard)(offset);
                     return report;
- 322:
+ 333:
                     return report;
- 325:
+ 336:
                     report = _closure1_slot10;
                     tangon = {};
                     verify = verify.id;
@@ -331,9 +335,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['questContentPosition'] = golfie;
                     tangon = report.bind(oscard)(tangon);
                     return zuuluu;
- 359:
+ 370:
                     return michal;
- 362:
+ 373:
                     return entity;
                 }
             };

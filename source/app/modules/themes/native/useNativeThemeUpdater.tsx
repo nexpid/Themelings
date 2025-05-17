@@ -46,8 +46,8 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                     zuuluu = michal.theme;
                     tangon = _closure2_slot0;
                     tangon = tangon.current;
-                    if(!(zuuluu !== tangon)) { _fun00002_ip = 72; continue _fun00001 }
- 29:
+                    if(!(zuuluu !== tangon)) { _fun00002_ip = 71; continue _fun00001 }
+ 28:
                     michal = _closure2_slot0;
                     michal['current'] = zuuluu;
                     tangon = _closure1_slot0;
@@ -58,7 +58,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                     michal = tangon.bind(entity)(michal);
                     entity = michal.updateTheme;
                     entity = entity.bind(michal)(zuuluu);
- 72:
+ 71:
                     entity = undefined;
                     return entity;
                 }

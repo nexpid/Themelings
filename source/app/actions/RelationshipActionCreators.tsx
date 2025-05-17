@@ -357,47 +357,45 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             zuuluu = argFoo;
             michal = arguments[2];
-            foxtra = zuuluu.userId;
+            romeon = zuuluu.userId;
             report = zuuluu.context;
-            yankee = zuuluu.type;
-            offset = zuuluu.friendToken;
+            offset = zuuluu.type;
             verify = zuuluu.fromFriendSuggestion;
             option = zuuluu.confirmStrangerRequest;
             golfie = zuuluu.captchaPayload;
             zuuluu = argBar;
             var _closure2_slot0 = zuuluu;
             tangon = undefined;
-            if(!(michal === tangon)) { _fun00006_ip = 73; continue _fun00005 }
- 60:
+            if(!(michal === tangon)) { _fun00006_ip = 67; continue _fun00005 }
+ 54:
             zuuluu = _closure1_slot10;
             michal = zuuluu.SHOW_ALWAYS;
- 73:
+ 67:
             var _closure2_slot1 = michal;
             var _closure2_slot2 = tangon;
             zuuluu = _closure1_slot5;
             michal = zuuluu.getUser;
-            michal = michal.bind(zuuluu)(foxtra);
+            michal = michal.bind(zuuluu)(romeon);
             _closure2_slot2 = michal;
             zuuluu = _closure1_slot0;
-            romeon = _closure1_slot3;
+            yankee = _closure1_slot3;
             michal = 11;
-            michal = romeon[michal];
+            michal = yankee[michal];
             michal = zuuluu.bind(tangon)(michal);
             tangon = michal.HTTP;
             zuuluu = tangon.put;
             michal = {};
-            romeon = _closure1_slot6;
-            oscard = romeon.USER_RELATIONSHIP;
-            oscard = oscard.bind(romeon)(foxtra);
+            yankee = _closure1_slot6;
+            oscard = yankee.USER_RELATIONSHIP;
+            oscard = oscard.bind(yankee)(romeon);
             michal['url'] = oscard;
             oscard = {};
-            oscard['type'] = yankee;
-            oscard['friend_token'] = offset;
+            oscard['type'] = offset;
             oscard['from_friend_suggestion'] = verify;
             oscard['confirm_stranger_request'] = option;
-            kiloes = oscard;
-            backup = golfie;
-            golfie = copyDataProperties(kiloes, backup);
+            backup = oscard;
+            foxtra = golfie;
+            golfie = copyDataProperties(backup, foxtra);
             michal['body'] = oscard;
             michal['context'] = report;
             report = true;

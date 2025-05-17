@@ -775,17 +775,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = 20;
                 tangon = golfie < oscard;
  347:
-                if(tangon) { _fun00016_ip = 535; continue _fun00015 }
+                if(tangon) { _fun00016_ip = 538; continue _fun00015 }
  353:
                 option = _closure1_slot8;
                 golfie = option.log;
                 oscard = _closure1_slot0;
                 romeon = michal == oscard;
                 tangon = undefined;
-                if(romeon) { _fun00016_ip = 380; continue _fun00015 }
- 375:
+                if(romeon) { _fun00016_ip = 381; continue _fun00015 }
+ 376:
                 tangon = oscard.HermesInternal;
- 380:
+ 381:
                 oscard = 'Using Hermes:';
                 tangon = verify === tangon;
                 tangon = !tangon;
@@ -795,15 +795,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal != foxtra;
                 verify = '';
                 option = verify;
-                if(!michal) { _fun00016_ip = 453; continue _fun00015 }
- 422:
+                if(!michal) { _fun00016_ip = 455; continue _fun00015 }
+ 424:
                 michal = global;
                 michal = michal.HermesInternal;
                 romeon = michal.concat;
                 tangon = '\n\n=== ';
                 michal = ' ===';
                 option = romeon.bind(tangon)(foxtra, michal);
- 453:
+ 455:
                 michal = global;
                 tangon = michal.HermesInternal;
                 tangon = tangon.concat;
@@ -823,7 +823,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = 'ms';
                 michal = oscard.bind(report)(golfie, michal);
                 michal = zuuluu.bind(tangon)(michal);
- 535:
+ 538:
                 return entity;
             }
         };
@@ -1021,7 +1021,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = 8;
                 tangon = oscard < report;
  291:
-                if(tangon) { _fun00022_ip = 428; continue _fun00021 }
+                if(tangon) { _fun00022_ip = 429; continue _fun00021 }
  297:
                 oscard = _closure1_slot8;
                 report = oscard.log;
@@ -1029,10 +1029,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = null;
                 option = zuuluu == tangon;
                 zuuluu = undefined;
-                if(option) { _fun00022_ip = 326; continue _fun00021 }
- 321:
+                if(option) { _fun00022_ip = 327; continue _fun00021 }
+ 322:
                 zuuluu = tangon.HermesInternal;
- 326:
+ 327:
                 tangon = michal.HermesInternal;
                 option = tangon.concat;
                 tangon = '\nUsing Hermes: ';
@@ -1052,7 +1052,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = 'ms\n\n';
                 michal = option.bind(golfie)(verify, michal);
                 michal = report.bind(oscard)(tangon, zuuluu, michal);
- 428:
+ 429:
                 return entity;
             }
         };

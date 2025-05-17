@@ -60,11 +60,22 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     zuuluu['consumeLogs'] = oscard;
-    michal = function() { // Original name: isUnsupportedBrowser
+    oscard = function() { // Original name: isUnsupportedBrowser
         entity = false;
         return entity;
     };
-    zuuluu['isUnsupportedBrowser'] = michal;
+    zuuluu['isUnsupportedBrowser'] = oscard;
+    michal = function() { // Original name: getNoteStore
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 0;
+        michal = michal[entity];
+        entity = undefined;
+        entity = zuuluu.bind(entity)(michal);
+        entity = entity.NoteStore;
+        return entity;
+    };
+    zuuluu['getNoteStore'] = michal;
     michal = 0;
     oscard = report[michal];
     oscard = tangon.bind(entity)(oscard);

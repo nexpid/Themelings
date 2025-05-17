@@ -234,6 +234,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable37 = entity.product;
             var _closure2_slot0 = variable37;
             record = entity.renderMessages;
+            kiloes = entity.onSuccess;
             tangon = undefined;
             var _closure2_slot2 = tangon;
             entity = _closure1_slot13;
@@ -703,6 +704,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = foxtra.useHandleUseNow;
             entity = {};
             entity['product'] = variable37;
+            entity['onSuccess'] = kiloes;
             entity = michal.bind(foxtra)(entity);
             ctrled = entity.handleUseNow;
             vacuum = entity.isApplying;
@@ -752,16 +754,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = null;
             result = config == output;
             sizing = undefined;
-            if(result) { _fun00002_ip = 804; continue _fun00001 }
- 789:
+            if(result) { _fun00002_ip = 815; continue _fun00001 }
+ 800:
             result = output.label;
             output = result.toHexString;
             sizing = output.bind(result)();
- 804:
-            if(!(config != sizing)) { _fun00002_ip = 811; continue _fun00001 }
- 808:
+ 815:
+            if(!(config != sizing)) { _fun00002_ip = 822; continue _fun00001 }
+ 819:
             yankee = sizing;
- 811:
+ 822:
             golfie['tintColor'] = yankee;
             golfie = foxtra.bind(tangon)(option, golfie);
             sizing = new Array(3);
@@ -783,10 +785,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = new Array(3);
             echoed[0] = sierra;
             sierra = !target;
-            if(target) { _fun00002_ip = 906; continue _fun00001 }
- 900:
+            if(target) { _fun00002_ip = 917; continue _fun00001 }
+ 911:
             sierra = verify.previewAvatarDeco;
- 906:
+ 917:
             echoed[1] = sierra;
             echoed[2] = status;
             result['style'] = echoed;
@@ -904,18 +906,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = verify.messages;
             cntext = new Array(3);
             cntext[0] = status;
-            if(target) { _fun00002_ip = 1159; continue _fun00001 }
- 1151:
+            if(target) { _fun00002_ip = 1170; continue _fun00001 }
+ 1162:
             target = verify.messagesAvatarDeco;
-            _fun00002_ip = 1165; continue _fun00001;
- 1159:
+            _fun00002_ip = 1176; continue _fun00001;
+ 1170:
             target = verify.messagesProfileEffect;
- 1165:
+ 1176:
             cntext[1] = target;
             cntext[2] = papara;
             echoed['style'] = cntext;
-            if(!(config == record)) { _fun00002_ip = 1446; continue _fun00001 }
- 1184:
+            if(!(config == record)) { _fun00002_ip = 1457; continue _fun00001 }
+ 1195:
             papara = _closure1_slot11;
             cntext = _closure1_slot10;
             config = {};
@@ -969,10 +971,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target[1] = status;
             config['children'] = target;
             config = papara.bind(tangon)(cntext, config);
-            _fun00002_ip = 1450; continue _fun00001;
- 1446:
+            _fun00002_ip = 1461; continue _fun00001;
+ 1457:
             config = record.bind(tangon)();
- 1450:
+ 1461:
             echoed['children'] = config;
             echoed = sequen.bind(tangon)(update, echoed);
             result[1] = echoed;

@@ -14,16 +14,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = entity.userId;
             report = entity.applicationId;
             option = entity.location;
-            verify = entity.friendToken;
             golfie = entity.confirmStrangerRequest;
             tangon = undefined;
-            if(!(golfie === tangon)) { _fun00002_ip = 38; continue _fun00001 }
- 36:
+            if(!(golfie === tangon)) { _fun00002_ip = 32; continue _fun00001 }
+ 30:
             golfie = false;
- 38:
+ 32:
             entity = null;
-            if(!(entity == report)) { _fun00002_ip = 106; continue _fun00001 }
- 44:
+            if(!(entity == report)) { _fun00002_ip = 95; continue _fun00001 }
+ 38:
             michal = _closure1_slot1;
             zuuluu = _closure1_slot2;
             entity = 3;
@@ -32,14 +31,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.acceptFriendRequest;
             entity = {};
             entity['userId'] = oscard;
-            entity['friendToken'] = verify;
             entity['confirmStrangerRequest'] = golfie;
             golfie = {};
             golfie['location'] = option;
             entity['context'] = golfie;
             entity = michal.bind(zuuluu)(entity);
-            _fun00002_ip = 150; continue _fun00001;
- 106:
+            _fun00002_ip = 139; continue _fun00001;
+ 95:
             zuuluu = _closure1_slot1;
             golfie = _closure1_slot2;
             michal = 2;
@@ -50,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['userId'] = oscard;
             michal['applicationId'] = report;
             entity = zuuluu.bind(tangon)(michal);
- 150:
+ 139:
             return entity;
         }
     };
@@ -258,52 +256,49 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             michal = argFoo;
-            option = michal.userId;
-            var _closure2_slot0 = option;
-            golfie = michal.applicationId;
-            var _closure2_slot1 = golfie;
-            oscard = michal.location;
-            var _closure2_slot2 = oscard;
-            report = michal.friendToken;
-            var _closure2_slot3 = report;
+            golfie = michal.userId;
+            var _closure2_slot0 = golfie;
+            oscard = michal.applicationId;
+            var _closure2_slot1 = oscard;
+            report = michal.location;
+            var _closure2_slot2 = report;
             zuuluu = michal.onConfirm;
-            var _closure2_slot4 = zuuluu;
+            var _closure2_slot3 = zuuluu;
             michal = michal.onCancel;
-            var _closure2_slot5 = michal;
-            verify = _closure1_slot0;
+            var _closure2_slot4 = michal;
+            option = _closure1_slot0;
             tangon = _closure1_slot2;
             zuuluu = 4;
             zuuluu = tangon[zuuluu];
             tangon = undefined;
-            offset = verify.bind(tangon)(zuuluu);
-            verify = offset.isEligibleForFriendRequestAlerts;
+            verify = option.bind(tangon)(zuuluu);
+            option = verify.isEligibleForFriendRequestAlerts;
             zuuluu = 'useFriendRequestActions';
-            zuuluu = verify.bind(offset)(zuuluu);
-            offset = _closure1_slot3;
-            verify = offset.isStranger;
-            verify = verify.bind(offset)(option);
-            offset = null;
-            if(!(offset == golfie)) { _fun00014_ip = 266; continue _fun00013 }
- 126:
-            if(!zuuluu) { _fun00014_ip = 266; continue _fun00013 }
- 132:
-            offset = false;
-            if(!(offset !== verify)) { _fun00014_ip = 266; continue _fun00013 }
- 141:
-            if(!verify) { _fun00014_ip = 147; continue _fun00013 }
- 144:
-            if(zuuluu) { _fun00014_ip = 211; continue _fun00013 }
- 147:
-            if(!zuuluu) { _fun00014_ip = 264; continue _fun00013 }
- 150:
-            verify = _closure1_slot5;
+            zuuluu = option.bind(verify)(zuuluu);
+            verify = _closure1_slot3;
+            option = verify.isStranger;
+            option = option.bind(verify)(golfie);
+            verify = null;
+            if(!(verify == oscard)) { _fun00014_ip = 248; continue _fun00013 }
+ 116:
+            if(!zuuluu) { _fun00014_ip = 248; continue _fun00013 }
+ 122:
+            verify = false;
+            if(!(verify !== option)) { _fun00014_ip = 248; continue _fun00013 }
+ 128:
+            if(!option) { _fun00014_ip = 134; continue _fun00013 }
+ 131:
+            if(zuuluu) { _fun00014_ip = 193; continue _fun00013 }
+ 134:
+            if(!zuuluu) { _fun00014_ip = 246; continue _fun00013 }
+ 137:
+            option = _closure1_slot5;
             zuuluu = {};
-            zuuluu['userId'] = option;
-            zuuluu['applicationId'] = golfie;
-            zuuluu['location'] = oscard;
-            zuuluu['friendToken'] = report;
-            offset = verify.bind(tangon)(zuuluu);
-            verify = offset.then;
+            zuuluu['userId'] = golfie;
+            zuuluu['applicationId'] = oscard;
+            zuuluu['location'] = report;
+            verify = option.bind(tangon)(zuuluu);
+            option = verify.then;
             zuuluu = function(argFoo) {
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
@@ -316,30 +311,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = _closure2_slot2;
                     tangon['location'] = entity;
                     entity = _closure2_slot3;
-                    tangon['friendToken'] = entity;
-                    entity = _closure2_slot4;
                     tangon['onConfirm'] = entity;
-                    entity = _closure2_slot5;
+                    entity = _closure2_slot4;
                     tangon['onCancel'] = entity;
                     entity = undefined;
                     zuuluu = argFoo;
                     zuuluu = report.bind(entity)(zuuluu, tangon);
-                    if(zuuluu) { _fun00016_ip = 87; continue _fun00015 }
- 77:
-                    report = _closure2_slot4;
+                    if(zuuluu) { _fun00016_ip = 78; continue _fun00015 }
+ 68:
+                    report = _closure2_slot3;
                     tangon = null;
                     zuuluu = tangon == report;
- 87:
-                    if(zuuluu) { _fun00016_ip = 98; continue _fun00015 }
- 90:
-                    michal = _closure2_slot4;
+ 78:
+                    if(zuuluu) { _fun00016_ip = 89; continue _fun00015 }
+ 81:
+                    michal = _closure2_slot3;
                     michal = michal.bind(entity)();
- 98:
+ 89:
                     return entity;
                 }
             };
-            offset = verify.bind(offset)(zuuluu);
-            verify = offset.catch;
+            verify = option.bind(verify)(zuuluu);
+            option = verify.catch;
             zuuluu = function(argFoo) {
                 tangon = _closure1_slot6;
                 zuuluu = {};
@@ -350,27 +343,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = _closure2_slot2;
                 zuuluu['location'] = michal;
                 michal = _closure2_slot3;
-                zuuluu['friendToken'] = michal;
-                michal = _closure2_slot4;
                 zuuluu['onConfirm'] = michal;
-                entity = _closure2_slot5;
+                entity = _closure2_slot4;
                 zuuluu['onCancel'] = entity;
                 entity = undefined;
                 michal = argFoo;
                 michal = tangon.bind(entity)(michal, zuuluu);
                 return entity;
             };
-            zuuluu = verify.bind(offset)(zuuluu);
-            _fun00014_ip = 264; continue _fun00013;
- 211:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
+            zuuluu = option.bind(verify)(zuuluu);
+            _fun00014_ip = 246; continue _fun00013;
+ 193:
+            option = _closure1_slot0;
+            verify = _closure1_slot2;
             zuuluu = 5;
-            zuuluu = offset[zuuluu];
-            offset = verify.bind(tangon)(zuuluu);
-            verify = offset.openAcceptFriendRequestConfirmModal;
+            zuuluu = verify[zuuluu];
+            verify = option.bind(tangon)(zuuluu);
+            option = verify.openAcceptFriendRequestConfirmModal;
             zuuluu = {};
-            yankee = function() { // Original name: onConfirm
+            offset = function() { // Original name: onConfirm
                 _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                     tangon = _closure1_slot5;
@@ -381,31 +372,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['applicationId'] = entity;
                     entity = _closure2_slot2;
                     zuuluu['location'] = entity;
-                    entity = _closure2_slot3;
-                    zuuluu['friendToken'] = entity;
                     entity = true;
                     zuuluu['confirmStrangerRequest'] = entity;
                     entity = undefined;
                     zuuluu = tangon.bind(entity)(zuuluu);
-                    tangon = _closure2_slot4;
+                    tangon = _closure2_slot3;
                     zuuluu = null;
-                    if(!(zuuluu != tangon)) { _fun00018_ip = 77; continue _fun00017 }
- 69:
-                    michal = _closure2_slot4;
+                    if(!(zuuluu != tangon)) { _fun00018_ip = 68; continue _fun00017 }
+ 60:
+                    michal = _closure2_slot3;
                     michal = michal.bind(entity)();
- 77:
+ 68:
                     return entity;
                 }
             };
-            zuuluu['onConfirm'] = yankee;
-            yankee = function() { // Original name: onCancel
+            zuuluu['onConfirm'] = offset;
+            offset = function() { // Original name: onCancel
                 _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
-                    zuuluu = _closure2_slot5;
+                    zuuluu = _closure2_slot4;
                     michal = null;
                     if(!(michal != zuuluu)) { _fun00020_ip = 23; continue _fun00019 }
  13:
-                    michal = _closure2_slot5;
+                    michal = _closure2_slot4;
                     entity = undefined;
                     entity = michal.bind(entity)();
  23:
@@ -413,17 +402,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 }
             };
-            zuuluu['onCancel'] = yankee;
-            zuuluu = verify.bind(offset)(zuuluu);
- 264:
+            zuuluu['onCancel'] = offset;
+            zuuluu = option.bind(verify)(zuuluu);
+ 246:
             return tangon;
- 266:
+ 248:
             zuuluu = _closure1_slot5;
             michal = {};
-            michal['userId'] = option;
-            michal['applicationId'] = golfie;
-            michal['location'] = oscard;
-            michal['friendToken'] = report;
+            michal['userId'] = golfie;
+            michal['applicationId'] = oscard;
+            michal['location'] = report;
             report = true;
             michal['confirmStrangerRequest'] = report;
             zuuluu = zuuluu.bind(tangon)(michal);
@@ -431,11 +419,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = function() {
                 _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
-                    zuuluu = _closure2_slot4;
+                    zuuluu = _closure2_slot3;
                     michal = null;
                     if(!(michal != zuuluu)) { _fun00022_ip = 23; continue _fun00021 }
  13:
-                    michal = _closure2_slot4;
+                    michal = _closure2_slot3;
                     entity = undefined;
                     entity = michal.bind(entity)();
  23:

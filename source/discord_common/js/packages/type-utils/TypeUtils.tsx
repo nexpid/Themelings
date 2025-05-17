@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     zuuluu['hasOwnProperty'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: dangerouslyCast
+    tangon = function(argFoo, argBar) { // Original name: dangerouslyCast
         entity = global;
         tangon = entity.Object;
         zuuluu = tangon.setPrototypeOf;
@@ -41,6 +41,35 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zuuluu['dangerouslyCast'] = michal;
+    zuuluu['dangerouslyCast'] = tangon;
+    michal = function(argFoo) { // Original name: assertUnreachable
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            michal = arguments[1];
+            entity = undefined;
+            if(!(michal === entity)) { _fun00002_ip = 11; continue _fun00001 }
+ 9:
+            michal = {};
+ 11:
+            michal = michal.andFail;
+            if(!(michal === entity)) { _fun00002_ip = 23; continue _fun00001 }
+ 21:
+            michal = true;
+ 23:
+            if(michal) { _fun00002_ip = 28; continue _fun00001 }
+ 26:
+            return entity;
+ 28:
+            entity = global;
+            entity = entity.Error;
+            michal = entity.prototype;
+            michal = Object.create(michal, {constructor: {value: entity}});
+            tangon = michal;
+            entity = new tangon[entity](zuuluu);
+            entity = entity instanceof Object ? entity : michal;
+            throw entity;
+        }
+    };
+    zuuluu['assertUnreachable'] = michal;
     return entity;
 })();

@@ -239,43 +239,43 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
-            oscard = entity.state;
+            tangon = entity.state;
             entity = _closure1_slot18;
             entity = entity.INACTIVE;
-            if(!(oscard === entity)) { _fun00006_ip = 387; continue _fun00005 }
+            if(!(tangon === entity)) { _fun00006_ip = 283; continue _fun00005 }
  28:
             zuuluu = _closure1_slot4;
             entity = null;
             if(!(entity != zuuluu)) { _fun00006_ip = 283; continue _fun00005 }
  41:
-            report = _closure1_slot14;
-            tangon = report.getGuild;
+            oscard = _closure1_slot14;
+            report = oscard.getGuild;
             zuuluu = _closure1_slot3;
-            option = tangon.bind(report)(zuuluu);
+            option = report.bind(oscard)(zuuluu);
             zuuluu = entity != option;
             golfie = null;
             if(!zuuluu) { _fun00006_ip = 97; continue _fun00005 }
  68:
             zuuluu = global;
-            report = zuuluu.JSON;
-            tangon = report.stringify;
+            oscard = zuuluu.JSON;
+            report = oscard.stringify;
             zuuluu = option.toJS;
             zuuluu = zuuluu.bind(option)();
-            golfie = tangon.bind(report)(zuuluu);
+            golfie = report.bind(oscard)(zuuluu);
  97:
-            report = _closure1_slot13;
-            tangon = report.getChannel;
+            oscard = _closure1_slot13;
+            report = oscard.getChannel;
             option = _closure1_slot15;
             zuuluu = option.getChannelId;
             zuuluu = zuuluu.bind(option)();
-            verify = tangon.bind(report)(zuuluu);
+            verify = report.bind(oscard)(zuuluu);
             zuuluu = entity != verify;
-            report = null;
+            oscard = null;
             if(!zuuluu) { _fun00006_ip = 253; continue _fun00005 }
  134:
             zuuluu = global;
             option = zuuluu.JSON;
-            tangon = option.stringify;
+            report = option.stringify;
             zuuluu = {};
             offset = verify.toJS;
             backup = offset.bind(verify)();
@@ -301,41 +301,46 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = offset.bind(yankee)(verify);
             verify = 'recipients';
             zuuluu[verify] = offset;
-            report = tangon.bind(option)(zuuluu);
+            oscard = report.bind(option)(zuuluu);
  253:
             zuuluu = _closure1_slot11;
-            tangon = zuuluu.ShareManager;
-            zuuluu = tangon.setSelectedChannel;
-            zuuluu = zuuluu.bind(tangon)(report, golfie);
+            report = zuuluu.ShareManager;
+            zuuluu = report.setSelectedChannel;
+            zuuluu = zuuluu.bind(report)(oscard, golfie);
             _closure1_slot3 = entity;
             _closure1_slot4 = entity;
  283:
             zuuluu = _closure1_slot5;
-            if(!(entity != zuuluu)) { _fun00006_ip = 387; continue _fun00005 }
- 291:
-            tangon = _closure1_slot0;
-            verify = _closure1_slot2;
+            entity = null;
+            if(!(entity != zuuluu)) { _fun00006_ip = 403; continue _fun00005 }
+ 293:
+            report = _closure1_slot0;
+            offset = _closure1_slot2;
             zuuluu = 14;
-            zuuluu = verify[zuuluu];
-            option = undefined;
-            report = tangon.bind(option)(zuuluu);
-            tangon = report.extendSuperProperties;
+            zuuluu = offset[zuuluu];
+            verify = undefined;
+            oscard = report.bind(verify)(zuuluu);
+            report = oscard.extendSuperProperties;
             zuuluu = {};
-            zuuluu['client_app_state'] = oscard;
-            zuuluu = tangon.bind(report)(zuuluu);
+            zuuluu['client_app_state'] = tangon;
+            zuuluu = report.bind(oscard)(zuuluu);
             zuuluu = _closure1_slot11;
-            oscard = zuuluu.ShareManager;
-            report = oscard.setAuthenticationToken;
-            tangon = _closure1_slot5;
-            golfie = _closure1_slot1;
+            golfie = zuuluu.ShareManager;
+            oscard = golfie.setAuthenticationToken;
+            report = _closure1_slot5;
+            option = _closure1_slot1;
             zuuluu = 15;
-            zuuluu = verify[zuuluu];
-            golfie = golfie.bind(option)(zuuluu);
-            zuuluu = golfie.getSuperPropertiesBase64;
-            zuuluu = zuuluu.bind(golfie)();
-            zuuluu = report.bind(oscard)(tangon, zuuluu);
+            zuuluu = offset[zuuluu];
+            option = option.bind(verify)(zuuluu);
+            zuuluu = option.getSuperPropertiesBase64;
+            zuuluu = zuuluu.bind(option)();
+            zuuluu = oscard.bind(golfie)(report, zuuluu);
+            zuuluu = _closure1_slot18;
+            zuuluu = zuuluu.INACTIVE;
+            if(!(tangon === zuuluu)) { _fun00006_ip = 403; continue _fun00005 }
+ 399:
             _closure1_slot5 = entity;
- 387:
+ 403:
             entity = false;
             return entity;
         }

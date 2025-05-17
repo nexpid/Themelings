@@ -1,64 +1,64 @@
 // app/modules/user_profile/UserProfileAnalyticsUtils.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
+    golfie = argBar;
     report = argBaz;
     zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
+    option = argPlu;
+    var _closure1_slot0 = golfie;
     var _closure1_slot1 = report;
-    var _closure1_slot2 = golfie;
+    var _closure1_slot2 = option;
     entity = global;
     verify = entity.Object;
-    option = verify.defineProperty;
+    oscard = verify.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
+    entity = oscard.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    tangon = golfie[entity];
+    tangon = option[entity];
     entity = undefined;
     tangon = report.bind(entity)(tangon);
     var _closure1_slot3 = tangon;
     tangon = 1;
-    tangon = golfie[tangon];
+    tangon = option[tangon];
     tangon = report.bind(entity)(tangon);
     var _closure1_slot4 = tangon;
     tangon = 2;
-    tangon = golfie[tangon];
+    tangon = option[tangon];
     tangon = report.bind(entity)(tangon);
     var _closure1_slot5 = tangon;
     tangon = 3;
-    tangon = golfie[tangon];
+    tangon = option[tangon];
     tangon = report.bind(entity)(tangon);
     var _closure1_slot6 = tangon;
     tangon = 4;
-    tangon = golfie[tangon];
+    tangon = option[tangon];
     tangon = report.bind(entity)(tangon);
     var _closure1_slot7 = tangon;
     tangon = 5;
-    tangon = golfie[tangon];
+    tangon = option[tangon];
     tangon = report.bind(entity)(tangon);
     var _closure1_slot8 = tangon;
     tangon = 6;
-    tangon = golfie[tangon];
+    tangon = option[tangon];
     tangon = report.bind(entity)(tangon);
     var _closure1_slot9 = tangon;
     tangon = 7;
-    tangon = golfie[tangon];
-    tangon = oscard.bind(entity)(tangon);
+    tangon = option[tangon];
+    tangon = golfie.bind(entity)(tangon);
     tangon = tangon.TrackUserProfileProperties;
     var _closure1_slot10 = tangon;
     tangon = 8;
-    tangon = golfie[tangon];
-    tangon = oscard.bind(entity)(tangon);
+    tangon = option[tangon];
+    tangon = golfie.bind(entity)(tangon);
     report = tangon.ActivityTypes;
     var _closure1_slot11 = report;
     tangon = tangon.AnalyticEvents;
     var _closure1_slot12 = tangon;
     tangon = 9;
-    tangon = golfie[tangon];
-    tangon = oscard.bind(entity)(tangon);
+    tangon = option[tangon];
+    tangon = golfie.bind(entity)(tangon);
     tangon = tangon.StatusTypes;
     var _closure1_slot13 = tangon;
     tangon = function(argFoo) { // Original name: getProfileProperties
@@ -287,7 +287,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     var _closure1_slot15 = tangon;
-    tangon = function(argFoo) { // Original name: getActivityType
+    report = function(argFoo) { // Original name: getActivityType
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             oscard = argFoo;
@@ -315,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot16 = tangon;
+    var _closure1_slot16 = report;
     tangon = function(argFoo) { // Original name: getTrackUserProfileProperties
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -529,12 +529,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     var _closure1_slot18 = tangon;
-    report = 15;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/user_profile/UserProfileAnalyticsUtils.tsx';
-    report = oscard.bind(golfie)(report);
+    oscard = 15;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/user_profile/UserProfileAnalyticsUtils.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['getActivityType'] = report;
     zuuluu['getTrackUserRelationshipProperties'] = tangon;
     tangon = function(argFoo) {
         romeon = argFoo;

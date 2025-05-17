@@ -1329,9 +1329,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 echoed = source.isConnected;
                 echoed = echoed.bind(source)();
                 source = sequen.cached;
-                if(source) { _fun00044_ip = 236; continue _fun00043 }
+                if(source) { _fun00044_ip = 237; continue _fun00043 }
  157:
-                if(!echoed) { _fun00044_ip = 236; continue _fun00043 }
+                if(!echoed) { _fun00044_ip = 237; continue _fun00043 }
  160:
                 vacuum = _closure1_slot26;
                 ctrled = vacuum.log;
@@ -1351,7 +1351,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 source = ctrled.bind(vacuum)(source);
                 michal = echoed;
                 _fun00044_ip = 70; continue _fun00043;
- 236:
+ 237:
                 vacuum = sequen.mergeDelta;
                 source = result[update];
                 ctrled = source.new_messages;
@@ -1363,7 +1363,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = echoed;
                 _fun00044_ip = 70; continue _fun00043;
             }
- 289:
+ 290:
             return entity;
         }
     };
@@ -1831,7 +1831,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.bind(option)(verify);
             entity = undefined;
  242:
-            _fun00056_ip = 319; continue _fun00055;
+            _fun00056_ip = 320; continue _fun00055;
  244:
             yankee = _closure1_slot26;
             offset = yankee.log;
@@ -1848,7 +1848,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.bind(report)(oscard);
             michal = zuuluu.bind(tangon)(michal);
             entity = undefined;
- 319:
+ 320:
             return entity;
         }
     };

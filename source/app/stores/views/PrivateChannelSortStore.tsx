@@ -73,13 +73,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  72:
             golfie = _closure1_slot1;
             verify = _closure1_slot2;
-            tangon = 14;
+            tangon = 15;
             tangon = verify[tangon];
             tangon = golfie.bind(option)(tangon);
             oscard = tangon.bind(option)(oscard);
             tangon = oscard.valueOf;
             yankee = tangon.bind(oscard)();
-            oscard = 15;
+            oscard = 13;
             tangon = verify[oscard];
             offset = golfie.bind(option)(tangon);
             tangon = offset.fromTimestamp;
@@ -243,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = 'FAVORITE';
     michal['FAVORITE'] = option;
     var _closure1_slot16 = michal;
-    michal = 13;
+    michal = 14;
     michal = oscard[michal];
     michal = report.bind(entity)(michal);
     romeon = michal.SecondaryIndexMap;
@@ -276,7 +276,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     backup = function(argFoo) {
         entity = argFoo;
-        entity = entity.lastMessageId;
+        zuuluu = entity.lastMessageId;
+        tangon = _closure1_slot1;
+        michal = _closure1_slot2;
+        entity = 13;
+        michal = michal[entity];
+        entity = undefined;
+        michal = tangon.bind(entity)(michal);
+        entity = michal.extractTimestamp;
+        entity = entity.bind(michal)(zuuluu);
         entity = -entity;
         return entity;
     };

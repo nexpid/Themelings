@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.TEXT;
             michal = golfie[michal];
             tangon = false;
-            if(!(tangon === michal)) { _fun00014_ip = 216; continue _fun00013 }
+            if(!(tangon === michal)) { _fun00014_ip = 214; continue _fun00013 }
  156:
             michal = {};
             michal['shouldSync'] = tangon;
@@ -284,12 +284,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = verify.bind(offset)(oscard, option);
             michal['settings'] = option;
             entity['text'] = michal;
- 216:
+ 214:
             michal = _closure1_slot8;
             michal = michal.APPEARANCE;
             michal = golfie[michal];
             if(!(tangon === michal)) { _fun00014_ip = 292; continue _fun00013 }
- 234:
+ 232:
             michal = {};
             michal['shouldSync'] = tangon;
             tangon = _closure1_slot1;
@@ -315,25 +315,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = report == michal;
             entity = undefined;
             tangon = undefined;
-            if(zuuluu) { _fun00016_ip = 52; continue _fun00015 }
+            if(zuuluu) { _fun00016_ip = 51; continue _fun00015 }
  16:
             zuuluu = michal.appearance;
             oscard = report == zuuluu;
             tangon = undefined;
-            if(oscard) { _fun00016_ip = 52; continue _fun00015 }
+            if(oscard) { _fun00016_ip = 51; continue _fun00015 }
  31:
             zuuluu = zuuluu.settings;
             report = report == zuuluu;
             tangon = undefined;
-            if(report) { _fun00016_ip = 52; continue _fun00015 }
+            if(report) { _fun00016_ip = 51; continue _fun00015 }
  46:
             tangon = zuuluu.theme;
- 52:
+ 51:
             zuuluu = 'amoled';
-            if(!(zuuluu !== tangon)) { _fun00016_ip = 64; continue _fun00015 }
- 62:
+            if(!(zuuluu !== tangon)) { _fun00016_ip = 63; continue _fun00015 }
+ 61:
             return entity;
- 64:
+ 63:
             entity = {};
             option = entity;
             golfie = michal;

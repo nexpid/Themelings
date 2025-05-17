@@ -52,13 +52,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = null;
             foxtra = entity != yankee;
             michal = '';
-            if(!foxtra) { _fun00002_ip = 87; continue _fun00001 }
- 84:
+            if(!foxtra) { _fun00002_ip = 86; continue _fun00001 }
+ 83:
             michal = yankee;
- 87:
+ 86:
             michal = oscard.bind(offset)(michal);
-            if(!(entity != michal)) { _fun00002_ip = 495; continue _fun00001 }
- 99:
+            if(!(entity != michal)) { _fun00002_ip = 494; continue _fun00001 }
+ 98:
             backup = _closure1_slot0;
             sizing = _closure1_slot2;
             oscard = 3;
@@ -85,28 +85,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard['colorString'] = yankee;
             kiloes = 'username';
             option = null;
-            if(!(kiloes === romeon)) { _fun00002_ip = 222; continue _fun00001 }
- 219:
+            if(!(kiloes === romeon)) { _fun00002_ip = 221; continue _fun00001 }
+ 218:
             option = yankee;
- 222:
-            if(!(entity == option)) { _fun00002_ip = 232; continue _fun00001 }
- 226:
+ 221:
+            if(!(entity == option)) { _fun00002_ip = 231; continue _fun00001 }
+ 225:
             option = verify.defaultUsernameColor;
- 232:
+ 231:
             oscard['linkColor'] = option;
             oscard['roleColor'] = yankee;
             option = null;
-            if(!backup) { _fun00002_ip = 250; continue _fun00001 }
- 247:
+            if(!backup) { _fun00002_ip = 249; continue _fun00001 }
+ 246:
             option = foxtra;
- 250:
+ 249:
             oscard['roleColors'] = option;
             option = 'dot';
             option = option === romeon;
-            if(!option) { _fun00002_ip = 270; continue _fun00001 }
- 266:
+            if(!option) { _fun00002_ip = 269; continue _fun00001 }
+ 265:
             option = entity != yankee;
- 270:
+ 269:
             oscard['shouldShowRoleDot'] = option;
             golfie = golfie.channel_id;
             oscard['messageChannelId'] = golfie;
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             result = michal;
             zuuluu = copyDataProperties(result, output);
             return michal;
- 495:
+ 494:
             return entity;
         }
     };

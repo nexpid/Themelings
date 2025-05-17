@@ -176,7 +176,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie['location'] = option;
         zuuluu['context'] = golfie;
         zuuluu['type'] = entity;
-        zuuluu['friendToken'] = entity;
         golfie = true;
         zuuluu['fromFriendSuggestion'] = golfie;
         zuuluu = report.bind(oscard)(zuuluu);

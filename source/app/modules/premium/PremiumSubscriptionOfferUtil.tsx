@@ -453,6 +453,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = zuuluu.bind(entity)(michal);
         entity = michal.useIsInReverseTrial;
         entity = entity.bind(michal)();
+        entity = entity.isInReverseTrial;
         return entity;
     };
     zuuluu['useIsNUXEligible'] = michal;

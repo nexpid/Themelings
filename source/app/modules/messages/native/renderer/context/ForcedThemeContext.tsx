@@ -41,11 +41,11 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             entity = _closure1_slot2;
             entity = zuuluu.bind(tangon)(entity);
             zuuluu = null;
-            if(!(zuuluu == entity)) { _fun00002_ip = 38; continue _fun00001 }
+            if(!(zuuluu == entity)) { _fun00002_ip = 37; continue _fun00001 }
  28:
             michal = _closure1_slot1;
             entity = michal.theme;
- 38:
+ 37:
             return entity;
         }
     };

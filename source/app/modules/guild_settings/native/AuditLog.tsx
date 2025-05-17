@@ -450,33 +450,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = _closure1_slot16;
                 entity = entity.DELETE;
                 entity = oscard !== entity;
-                if(entity) { _fun00012_ip = 70; continue _fun00011 }
- 51:
+                if(entity) { _fun00012_ip = 71; continue _fun00011 }
+ 52:
                 golfie = tangon.action;
                 oscard = _closure1_slot17;
                 oscard = oscard.MEMBER_BAN_ADD;
                 entity = golfie === oscard;
- 70:
-                if(entity) { _fun00012_ip = 92; continue _fun00011 }
- 73:
+ 71:
+                if(entity) { _fun00012_ip = 93; continue _fun00011 }
+ 74:
                 golfie = tangon.action;
                 oscard = _closure1_slot17;
                 oscard = oscard.MEMBER_KICK;
                 entity = golfie === oscard;
- 92:
-                if(entity) { _fun00012_ip = 114; continue _fun00011 }
- 95:
+ 93:
+                if(entity) { _fun00012_ip = 115; continue _fun00011 }
+ 96:
                 tangon = tangon.action;
                 michal = _closure1_slot17;
                 michal = michal.MEMBER_PRUNE;
                 entity = tangon === michal;
- 114:
-                if(!entity) { _fun00012_ip = 147; continue _fun00011 }
- 117:
+ 115:
+                if(!entity) { _fun00012_ip = 148; continue _fun00011 }
+ 118:
                 michal = null;
                 michal = michal != report;
-                if(!michal) { _fun00012_ip = 144; continue _fun00011 }
- 126:
+                if(!michal) { _fun00012_ip = 145; continue _fun00011 }
+ 127:
                 tangon = report.some;
                 zuuluu = function(argFoo) {
                     tangon = _closure1_slot24;
@@ -488,9 +488,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 michal = tangon.bind(report)(zuuluu);
- 144:
+ 145:
                 entity = michal;
- 147:
+ 148:
                 return entity;
             }
         };
@@ -528,8 +528,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 backup = null;
                 michal = backup != verify;
                 entity = null;
-                if(!michal) { _fun00014_ip = 360; continue _fun00013 }
- 115:
+                if(!michal) { _fun00014_ip = 361; continue _fun00013 }
+ 116:
                 tangon = _closure1_slot20;
                 golfie = _closure1_slot0;
                 option = _closure1_slot3;
@@ -794,13 +794,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 foxtra = offset.count;
                 oscard['count'] = foxtra;
                 foxtra = offset.channel;
-                if(!(backup != foxtra)) { _fun00014_ip = 312; continue _fun00013 }
- 246:
+                if(!(backup != foxtra)) { _fun00014_ip = 313; continue _fun00013 }
+ 247:
                 foxtra = offset.channel;
                 backup = 'string';
                 foxtra = typeof foxtra;
-                if(!(backup !== foxtra)) { _fun00014_ip = 312; continue _fun00013 }
- 262:
+                if(!(backup !== foxtra)) { _fun00014_ip = 313; continue _fun00013 }
+ 263:
                 backup = _closure1_slot0;
                 kiloes = _closure1_slot3;
                 foxtra = 26;
@@ -813,10 +813,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 result = true;
                 ctrled = output;
                 romeon = ctrled[sizing](source, update, echoed, result, output);
-                _fun00014_ip = 317; continue _fun00013;
- 312:
+                _fun00014_ip = 318; continue _fun00013;
+ 313:
                 romeon = offset.channel;
- 317:
+ 318:
                 oscard['channel'] = romeon;
                 yankee = function(argFoo, argBar) { // Original name: channelHook
                     report = _closure1_slot20;
@@ -840,7 +840,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = golfie.bind(option)(verify, oscard);
                 michal['children'] = oscard;
                 entity = tangon.bind(report)(zuuluu, michal);
- 360:
+ 361:
                 return entity;
             }
         };
@@ -955,8 +955,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 var _closure3_slot3 = tangon;
                 oscard = tangon.changes;
                 entity = null;
-                if(!(entity != oscard)) { _fun00024_ip = 126; continue _fun00023 }
- 65:
+                if(!(entity != oscard)) { _fun00024_ip = 127; continue _fun00023 }
+ 66:
                 oscard = 0;
                 var _closure3_slot4 = oscard;
                 oscard = tangon.changes;
@@ -1530,7 +1530,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['children'] = oscard;
                 michal = tangon.bind(report)(zuuluu, michal);
                 return michal;
- 126:
+ 127:
                 return entity;
             }
         };
@@ -1546,92 +1546,92 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.props;
                 entity = michal.expanded;
                 michal = michal.log;
-                if(!entity) { _fun00034_ip = 368; continue _fun00033 }
- 25:
+                if(!entity) { _fun00034_ip = 369; continue _fun00033 }
+ 26:
                 report = michal.targetType;
                 tangon = _closure1_slot15;
                 tangon = tangon.GUILD;
-                if(!(tangon !== report)) { _fun00034_ip = 1189; continue _fun00033 }
- 51:
+                if(!(tangon !== report)) { _fun00034_ip = 1190; continue _fun00033 }
+ 52:
                 tangon = _closure1_slot15;
                 tangon = tangon.CHANNEL;
-                if(!(tangon !== report)) { _fun00034_ip = 1144; continue _fun00033 }
- 68:
+                if(!(tangon !== report)) { _fun00034_ip = 1145; continue _fun00033 }
+ 69:
                 tangon = _closure1_slot15;
                 tangon = tangon.CHANNEL_OVERWRITE;
-                if(!(tangon !== report)) { _fun00034_ip = 1144; continue _fun00033 }
- 85:
+                if(!(tangon !== report)) { _fun00034_ip = 1145; continue _fun00033 }
+ 86:
                 tangon = _closure1_slot15;
                 tangon = tangon.USER;
-                if(!(tangon !== report)) { _fun00034_ip = 1099; continue _fun00033 }
- 102:
+                if(!(tangon !== report)) { _fun00034_ip = 1100; continue _fun00033 }
+ 103:
                 tangon = _closure1_slot15;
                 tangon = tangon.ROLE;
-                if(!(tangon !== report)) { _fun00034_ip = 1054; continue _fun00033 }
- 119:
+                if(!(tangon !== report)) { _fun00034_ip = 1055; continue _fun00033 }
+ 120:
                 tangon = _closure1_slot15;
                 tangon = tangon.INVITE;
-                if(!(tangon !== report)) { _fun00034_ip = 1009; continue _fun00033 }
- 136:
+                if(!(tangon !== report)) { _fun00034_ip = 1010; continue _fun00033 }
+ 137:
                 tangon = _closure1_slot15;
                 tangon = tangon.WEBHOOK;
-                if(!(tangon !== report)) { _fun00034_ip = 964; continue _fun00033 }
- 153:
+                if(!(tangon !== report)) { _fun00034_ip = 965; continue _fun00033 }
+ 154:
                 tangon = _closure1_slot15;
                 tangon = tangon.EMOJI;
-                if(!(tangon !== report)) { _fun00034_ip = 919; continue _fun00033 }
- 170:
+                if(!(tangon !== report)) { _fun00034_ip = 920; continue _fun00033 }
+ 171:
                 tangon = _closure1_slot15;
                 tangon = tangon.INTEGRATION;
-                if(!(tangon !== report)) { _fun00034_ip = 874; continue _fun00033 }
- 187:
+                if(!(tangon !== report)) { _fun00034_ip = 875; continue _fun00033 }
+ 188:
                 tangon = _closure1_slot15;
                 tangon = tangon.STAGE_INSTANCE;
-                if(!(tangon !== report)) { _fun00034_ip = 829; continue _fun00033 }
- 204:
+                if(!(tangon !== report)) { _fun00034_ip = 830; continue _fun00033 }
+ 205:
                 tangon = _closure1_slot15;
                 tangon = tangon.GUILD_SCHEDULED_EVENT;
-                if(!(tangon !== report)) { _fun00034_ip = 784; continue _fun00033 }
- 221:
+                if(!(tangon !== report)) { _fun00034_ip = 785; continue _fun00033 }
+ 222:
                 tangon = _closure1_slot15;
                 tangon = tangon.GUILD_SCHEDULED_EVENT_EXCEPTION;
-                if(!(tangon !== report)) { _fun00034_ip = 739; continue _fun00033 }
- 238:
+                if(!(tangon !== report)) { _fun00034_ip = 740; continue _fun00033 }
+ 239:
                 tangon = _closure1_slot15;
                 tangon = tangon.THREAD;
-                if(!(tangon !== report)) { _fun00034_ip = 694; continue _fun00033 }
- 255:
+                if(!(tangon !== report)) { _fun00034_ip = 695; continue _fun00033 }
+ 256:
                 tangon = _closure1_slot15;
                 tangon = tangon.STICKER;
-                if(!(tangon !== report)) { _fun00034_ip = 649; continue _fun00033 }
- 272:
+                if(!(tangon !== report)) { _fun00034_ip = 650; continue _fun00033 }
+ 273:
                 tangon = _closure1_slot15;
                 tangon = tangon.APPLICATION_COMMAND;
-                if(!(tangon !== report)) { _fun00034_ip = 597; continue _fun00033 }
- 289:
+                if(!(tangon !== report)) { _fun00034_ip = 598; continue _fun00033 }
+ 290:
                 tangon = _closure1_slot15;
                 tangon = tangon.AUTO_MODERATION_RULE;
-                if(!(tangon !== report)) { _fun00034_ip = 552; continue _fun00033 }
- 306:
+                if(!(tangon !== report)) { _fun00034_ip = 553; continue _fun00033 }
+ 307:
                 tangon = _closure1_slot15;
                 tangon = tangon.GUILD_SOUNDBOARD;
-                if(!(tangon !== report)) { _fun00034_ip = 507; continue _fun00033 }
- 323:
+                if(!(tangon !== report)) { _fun00034_ip = 508; continue _fun00033 }
+ 324:
                 tangon = _closure1_slot15;
                 tangon = tangon.VOICE_CHANNEL_STATUS;
-                if(!(tangon !== report)) { _fun00034_ip = 462; continue _fun00033 }
- 340:
+                if(!(tangon !== report)) { _fun00034_ip = 463; continue _fun00033 }
+ 341:
                 tangon = _closure1_slot15;
                 tangon = tangon.GUILD_MEMBER_VERIFICATION;
-                if(!(tangon !== report)) { _fun00034_ip = 417; continue _fun00033 }
- 354:
+                if(!(tangon !== report)) { _fun00034_ip = 418; continue _fun00033 }
+ 355:
                 tangon = _closure1_slot15;
                 tangon = tangon.GUILD_PROFILE;
-                if(!(tangon !== report)) { _fun00034_ip = 372; continue _fun00033 }
- 368:
+                if(!(tangon !== report)) { _fun00034_ip = 373; continue _fun00033 }
+ 369:
                 tangon = null;
                 return tangon;
- 372:
+ 373:
                 report = zuuluu.renderChangeDetails;
                 golfie = _closure1_slot2;
                 oscard = _closure1_slot3;
@@ -1643,7 +1643,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = tangon.bind(oscard)();
                 tangon = report.bind(zuuluu)(tangon);
                 return tangon;
- 417:
+ 418:
                 report = zuuluu.renderChangeDetails;
                 golfie = _closure1_slot2;
                 oscard = _closure1_slot3;
@@ -1655,7 +1655,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = tangon.bind(oscard)();
                 tangon = report.bind(zuuluu)(tangon);
                 return tangon;
- 462:
+ 463:
                 report = zuuluu.renderChangeDetails;
                 golfie = _closure1_slot2;
                 oscard = _closure1_slot3;
@@ -1667,7 +1667,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = tangon.bind(oscard)();
                 tangon = report.bind(zuuluu)(tangon);
                 return tangon;
- 507:
+ 508:
                 report = zuuluu.renderChangeDetails;
                 golfie = _closure1_slot2;
                 oscard = _closure1_slot3;
@@ -1679,7 +1679,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = tangon.bind(oscard)();
                 tangon = report.bind(zuuluu)(tangon);
                 return tangon;
- 552:
+ 553:
                 report = zuuluu.renderChangeDetails;
                 golfie = _closure1_slot2;
                 oscard = _closure1_slot3;
@@ -1691,7 +1691,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = tangon.bind(oscard)();
                 tangon = report.bind(zuuluu)(tangon);
                 return tangon;
- 597:
+ 598:
                 tangon = zuuluu.renderChangeDetails;
                 golfie = _closure1_slot2;
                 oscard = _closure1_slot3;
@@ -1704,7 +1704,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = report.bind(oscard)(michal);
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 649:
+ 650:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1716,7 +1716,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 694:
+ 695:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1728,7 +1728,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 739:
+ 740:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1740,7 +1740,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 784:
+ 785:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1752,7 +1752,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 829:
+ 830:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1764,7 +1764,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 874:
+ 875:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1776,7 +1776,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 919:
+ 920:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1788,7 +1788,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 964:
+ 965:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1800,7 +1800,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 1009:
+ 1010:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1812,7 +1812,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 1054:
+ 1055:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1824,7 +1824,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 1099:
+ 1100:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1836,7 +1836,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 1144:
+ 1145:
                 tangon = zuuluu.renderChangeDetails;
                 oscard = _closure1_slot2;
                 report = _closure1_slot3;
@@ -1848,7 +1848,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 michal = tangon.bind(zuuluu)(michal);
                 return michal;
- 1189:
+ 1190:
                 michal = zuuluu.renderChangeDetails;
                 report = _closure1_slot2;
                 tangon = _closure1_slot3;

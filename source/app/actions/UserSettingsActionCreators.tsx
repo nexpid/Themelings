@@ -240,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = {};
             oscard = {};
             oscard['shouldSync'] = golfie;
-            if(golfie) { _fun00006_ip = 153; continue _fun00005 }
+            if(golfie) { _fun00006_ip = 151; continue _fun00005 }
  55:
             golfie = {};
             verify = _closure1_slot5;
@@ -252,10 +252,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = null;
             romeon = offset == yankee;
             offset = undefined;
-            if(romeon) { _fun00006_ip = 100; continue _fun00005 }
- 95:
+            if(romeon) { _fun00006_ip = 98; continue _fun00005 }
+ 93:
             offset = yankee.id;
- 100:
+ 98:
             verify['backgroundGradientPresetId'] = offset;
             golfie['clientThemeSettings'] = verify;
             verify = _closure1_slot0;
@@ -267,10 +267,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = verify.getSetting;
             option = option.bind(verify)();
             golfie['developerMode'] = option;
-            _fun00006_ip = 155; continue _fun00005;
- 153:
+            _fun00006_ip = 153; continue _fun00005;
+ 151:
             golfie = {};
- 155:
+ 153:
             oscard['settings'] = golfie;
             report['appearance'] = oscard;
             michal['changes'] = report;
@@ -378,8 +378,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = report.shouldSync;
             oscard = 'appearance';
             tangon = tangon.bind(report)(oscard);
-            if(!tangon) { _fun00008_ip = 167; continue _fun00007 }
- 102:
+            if(!tangon) { _fun00008_ip = 166; continue _fun00007 }
+ 101:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             zuuluu = 5;
@@ -401,7 +401,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             michal = tangon.bind(report)(oscard, michal, zuuluu);
- 167:
+ 166:
             return entity;
         }
     };
@@ -537,8 +537,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot1 = romeon;
             zuuluu = michal.useSystemTheme;
             oscard = undefined;
-            if(!(report === oscard)) { _fun00012_ip = 75; continue _fun00011 }
- 40:
+            if(!(report === oscard)) { _fun00012_ip = 74; continue _fun00011 }
+ 39:
             tangon = _closure1_slot0;
             golfie = _closure1_slot2;
             michal = 5;
@@ -546,22 +546,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = tangon.bind(oscard)(michal);
             michal = michal.UserSettingsDelay;
             report = michal.INFREQUENT_USER_ACTION;
- 75:
+ 74:
             michal = 'system';
             foxtra = michal === romeon;
             tangon = _closure1_slot7;
-            if(foxtra) { _fun00012_ip = 101; continue _fun00011 }
- 93:
+            if(foxtra) { _fun00012_ip = 100; continue _fun00011 }
+ 92:
             kiloes = tangon.OFF;
-            _fun00012_ip = 107; continue _fun00011;
- 101:
+            _fun00012_ip = 106; continue _fun00011;
+ 100:
             kiloes = tangon.ON;
- 107:
+ 106:
             tangon = null;
-            if(!(tangon != zuuluu)) { _fun00012_ip = 116; continue _fun00011 }
- 113:
+            if(!(tangon != zuuluu)) { _fun00012_ip = 115; continue _fun00011 }
+ 112:
             kiloes = zuuluu;
- 116:
+ 115:
             tangon = _closure1_slot1;
             golfie = _closure1_slot2;
             zuuluu = 8;
@@ -588,10 +588,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee['backgroundGradientPresetId'] = backup;
             offset['clientThemeSettings'] = yankee;
             yankee = undefined;
-            if(foxtra) { _fun00012_ip = 218; continue _fun00011 }
- 215:
+            if(foxtra) { _fun00012_ip = 217; continue _fun00011 }
+ 214:
             yankee = romeon;
- 218:
+ 217:
             offset['theme'] = yankee;
             verify['settings'] = offset;
             option['appearance'] = verify;
@@ -601,10 +601,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = golfie.shouldSync;
             tangon = 'appearance';
             zuuluu = zuuluu.bind(golfie)(tangon);
-            if(zuuluu) { _fun00012_ip = 267; continue _fun00011 }
- 265:
+            if(zuuluu) { _fun00012_ip = 265; continue _fun00011 }
+ 263:
             return oscard;
- 267:
+ 265:
             zuuluu = _closure1_slot0;
             golfie = _closure1_slot2;
             michal = 5;

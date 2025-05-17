@@ -28,10 +28,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = _closure1_slot9;
                 entity = entity.LIGHT;
                 report = 1;
-                if(!(zuuluu === entity)) { _fun00002_ip = 43; continue _fun00001 }
- 33:
+                if(!(zuuluu === entity)) { _fun00002_ip = 42; continue _fun00001 }
+ 32:
                 report = 0.5;
- 43:
+ 42:
                 entity = {};
                 zuuluu = _closure1_slot4;
                 verify = zuuluu.absoluteFillObject;

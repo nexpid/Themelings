@@ -2,10 +2,10 @@
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-        oscard = argBar;
-        option = argBaz;
+        golfie = argBar;
+        oscard = argBaz;
         zuuluu = argFre;
-        golfie = argPlu;
+        option = argPlu;
         report = global;
         offset = report.Object;
         verify = offset.defineProperty;
@@ -15,20 +15,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = '__esModule';
         entity = verify.bind(offset)(zuuluu, entity, tangon);
         entity = 0;
-        tangon = golfie[entity];
+        tangon = option[entity];
         entity = undefined;
-        tangon = option.bind(entity)(tangon);
+        tangon = oscard.bind(entity)(tangon);
         var _closure1_slot0 = tangon;
         tangon = 1;
-        tangon = golfie[tangon];
-        tangon = option.bind(entity)(tangon);
+        tangon = option[tangon];
+        tangon = oscard.bind(entity)(tangon);
         var _closure1_slot1 = tangon;
         tangon = 2;
-        tangon = golfie[tangon];
-        tangon = oscard.bind(entity)(tangon);
+        tangon = option[tangon];
+        tangon = golfie.bind(entity)(tangon);
         tangon = tangon.NativeModules;
-        option = tangon.LibDiscoreModule;
-        if(option) { _fun00002_ip = 150; continue _fun00001 }
+        oscard = tangon.LibDiscoreModule;
+        if(oscard) { _fun00002_ip = 150; continue _fun00001 }
  106:
         offset = report.Proxy;
         verify = {};
@@ -45,12 +45,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         verify['get'] = report;
         report = offset.prototype;
-        option = Object.create(report, {constructor: {value: offset}});
+        oscard = Object.create(report, {constructor: {value: offset}});
         foxtra = {};
-        backup = option;
+        backup = oscard;
         romeon = verify;
         report = new backup[offset](foxtra, romeon, yankee);
-        report = report instanceof Object ? report : option;
+        report = report instanceof Object ? report : oscard;
         _fun00002_ip = 156; continue _fun00001;
  150:
         report = tangon.LibDiscoreModule;
@@ -60,6 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = argFoo;
         tangon = tangon.LIBDISCORE_JSI;
         var _closure1_slot2 = tangon;
+        report = tangon.NoteStore;
         tangon = function() {
             report = _closure1_slot1;
             tangon = function() { // Original name: BlockedDomainsStore
@@ -103,12 +104,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(entity)();
-        report = 3;
-        report = golfie[report];
-        golfie = oscard.bind(entity)(report);
-        oscard = golfie.fileFinishedImporting;
-        report = '../discord_common/js/packages/libdiscore/mobile/js/index.tsx';
-        report = oscard.bind(golfie)(report);
+        oscard = 3;
+        oscard = option[oscard];
+        option = golfie.bind(entity)(oscard);
+        golfie = option.fileFinishedImporting;
+        oscard = '../discord_common/js/packages/libdiscore/mobile/js/index.tsx';
+        oscard = golfie.bind(option)(oscard);
+        zuuluu['NoteStore'] = report;
         report = function(argFoo, argBar) { // Original name: rustMultiply
             tangon = _closure1_slot2;
             zuuluu = tangon.rustMultiply;

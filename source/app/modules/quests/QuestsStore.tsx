@@ -1228,7 +1228,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = ')';
             offset = 10;
             verify = 11;
-            if(golfie) { _fun00034_ip = 385; continue _fun00033 }
+            if(golfie) { _fun00034_ip = 386; continue _fun00033 }
  158:
             golfie = option.value;
             result = _closure1_slot5;
@@ -1251,7 +1251,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             sizing = sizing.QuestContent;
             sizing = sizing.QUEST_BAR;
             sizing = output.bind(result)(sizing);
-            if(!sizing) { _fun00034_ip = 367; continue _fun00033 }
+            if(!sizing) { _fun00034_ip = 368; continue _fun00033 }
  267:
             output = _closure1_slot0;
             sizing = _closure1_slot1;
@@ -1275,12 +1275,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             ctrled = yankee;
             golfie = record[golfie](config, sequen, vacuum, ctrled, source);
             golfie = sizing.bind(output)(golfie);
- 367:
+ 368:
             sizing = kiloes.bind(entity)();
             golfie = sizing.done;
             option = sizing;
             if(!golfie) { _fun00034_ip = 158; continue _fun00033 }
- 385:
+ 386:
             _closure1_slot28 = michal;
             michal = tangon.Map;
             golfie = michal.prototype;
@@ -1293,8 +1293,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = michal.bind(entity)(report);
             report = golfie.bind(entity)();
             michal = report.done;
-            if(michal) { _fun00034_ip = 480; continue _fun00033 }
- 440:
+            if(michal) { _fun00034_ip = 481; continue _fun00033 }
+ 441:
             offset = report.value;
             verify = _closure1_slot6;
             option = verify.set;
@@ -1303,8 +1303,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = golfie.bind(entity)();
             michal = option.done;
             report = option;
-            if(!michal) { _fun00034_ip = 440; continue _fun00033 }
- 480:
+            if(!michal) { _fun00034_ip = 441; continue _fun00033 }
+ 481:
             michal = function() { // Original name: _startExpirationCheckInterval
                 _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
  0:
@@ -1335,8 +1335,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.bind(entity)();
             michal = null;
             report = michal != oscard;
-            if(!report) { _fun00034_ip = 529; continue _fun00033 }
- 500:
+            if(!report) { _fun00034_ip = 530; continue _fun00033 }
+ 501:
             tangon = tangon.Date;
             report = tangon.prototype;
             report = Object.create(report, {constructor: {value: tangon}});
@@ -1344,7 +1344,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             config = oscard;
             tangon = new record[tangon](config, sequen);
             michal = tangon instanceof Object ? tangon : report;
- 529:
+ 530:
             _closure1_slot29 = michal;
             return entity;
         }
@@ -1804,8 +1804,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = report.quest_id;
             verify = option.bind(verify)(golfie);
             golfie = null;
-            if(!(golfie != verify)) { _fun00048_ip = 277; continue _fun00047 }
- 174:
+            if(!(golfie != verify)) { _fun00048_ip = 278; continue _fun00047 }
+ 175:
             option = _closure1_slot0;
             golfie = _closure1_slot1;
             golfie = golfie[offset];
@@ -1816,8 +1816,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = offset.get;
             golfie = report.quest_id;
             golfie = option.bind(offset)(golfie);
-            if(!(golfie !== verify)) { _fun00048_ip = 277; continue _fun00047 }
- 226:
+            if(!(golfie !== verify)) { _fun00048_ip = 278; continue _fun00047 }
+ 227:
             offset = tangon.Map;
             foxtra = _closure1_slot28;
             option = offset.prototype;
@@ -1829,7 +1829,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report.quest_id;
             report = golfie.bind(option)(report, verify);
             _closure1_slot28 = report;
- 277:
+ 278:
             option = tangon.Object;
             golfie = option.keys;
             report = michal.progress;
@@ -1837,15 +1837,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = report.length;
             report = 0;
             report = report === golfie;
-            if(!report) { _fun00048_ip = 333; continue _fun00047 }
- 313:
+            if(!report) { _fun00048_ip = 334; continue _fun00047 }
+ 314:
             verify = _closure1_slot32;
             option = verify.has;
             golfie = michal.questId;
             report = option.bind(verify)(golfie);
- 333:
-            if(!report) { _fun00048_ip = 394; continue _fun00047 }
- 336:
+ 334:
+            if(!report) { _fun00048_ip = 396; continue _fun00047 }
+ 337:
             report = oscard.log;
             option = michal.questId;
             tangon = tangon.HermesInternal;
@@ -1857,7 +1857,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.delete;
             michal = michal.questId;
             michal = zuuluu.bind(tangon)(michal);
- 394:
+ 396:
             return entity;
         }
     };

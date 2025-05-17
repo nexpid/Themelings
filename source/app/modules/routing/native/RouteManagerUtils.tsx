@@ -398,8 +398,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             kiloes = yankee;
             tangon = ctrled[foxtra](source, update, echoed, result, output, sizing, kiloes, backup);
             tangon = golfie.bind(option)(tangon);
-            if(!(yankee === report)) { _fun00008_ip = 190; continue _fun00007 }
- 135:
+            if(!(yankee === report)) { _fun00008_ip = 192; continue _fun00007 }
+ 136:
             golfie = _closure1_slot15;
             tangon = golfie.log;
             zuuluu = zuuluu.HermesInternal;
@@ -411,8 +411,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             echoed = report;
             zuuluu = ctrled[offset](source, update, echoed, result, output);
             zuuluu = tangon.bind(golfie)(zuuluu);
-            _fun00008_ip = 243; continue _fun00007;
- 190:
+            _fun00008_ip = 245; continue _fun00007;
+ 192:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
             michal = 13;
@@ -428,7 +428,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             echoed = undefined;
             result = michal;
             michal = ctrled[zuuluu](source, update, echoed, result, output);
- 243:
+ 245:
             return entity;
         }
     };
@@ -501,7 +501,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return option;
  208:
             michal = _closure1_slot15;
-            if(!(option != michal)) { _fun00010_ip = 271; continue _fun00009 }
+            if(!(option != michal)) { _fun00010_ip = 272; continue _fun00009 }
  216:
             oscard = _closure1_slot15;
             tangon = oscard.log;
@@ -514,7 +514,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = 'voiceRouteRewriter: has voiceChannelParams = ';
             michal = verify.bind(michal)(offset);
             michal = tangon.bind(oscard)(michal);
- 271:
+ 272:
             michal = _closure1_slot8;
             verify = michal.lastNonVoiceRoute;
             offset = _closure1_slot12;
@@ -530,11 +530,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.bind(entity)(verify, oscard);
             oscard = golfie.pathname;
             entity = null;
-            if(!(tangon !== oscard)) { _fun00010_ip = 420; continue _fun00009 }
- 348:
+            if(!(tangon !== oscard)) { _fun00010_ip = 422; continue _fun00009 }
+ 349:
             oscard = _closure1_slot15;
-            if(!(option != oscard)) { _fun00010_ip = 406; continue _fun00009 }
- 356:
+            if(!(option != oscard)) { _fun00010_ip = 408; continue _fun00009 }
+ 357:
             oscard = _closure1_slot15;
             report = oscard.log;
             verify = golfie.pathname;
@@ -544,12 +544,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = ' -> ';
             michal = option.bind(golfie)(verify, michal, tangon);
             michal = report.bind(oscard)(michal);
- 406:
+ 408:
             michal = {};
             michal['path'] = tangon;
             michal['state'] = zuuluu;
             entity = michal;
- 420:
+ 422:
             return entity;
         }
     };
@@ -657,7 +657,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = michal.preserveDrawerState;
             if(!(offset == result)) { _fun00014_ip = 83; continue _fun00013 }
  76:
-            if(!(offset != output)) { _fun00014_ip = 858; continue _fun00013 }
+            if(!(offset != output)) { _fun00014_ip = 859; continue _fun00013 }
  83:
             yankee = _closure1_slot7;
             michal = yankee.getChannel;
@@ -671,7 +671,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  115:
             yankee = _closure1_slot13;
             yankee = yankee.GUILD_VOICE;
-            if(!(romeon !== yankee)) { _fun00014_ip = 331; continue _fun00013 }
+            if(!(romeon !== yankee)) { _fun00014_ip = 332; continue _fun00013 }
  132:
             yankee = offset == michal;
             romeon = undefined;
@@ -681,19 +681,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  146:
             yankee = _closure1_slot13;
             yankee = yankee.GUILD_STAGE_VOICE;
-            if(!(romeon !== yankee)) { _fun00014_ip = 331; continue _fun00013 }
+            if(!(romeon !== yankee)) { _fun00014_ip = 332; continue _fun00013 }
  163:
             yankee = _closure1_slot15;
-            if(!(offset != yankee)) { _fun00014_ip = 856; continue _fun00013 }
+            if(!(offset != yankee)) { _fun00014_ip = 857; continue _fun00013 }
  174:
             foxtra = _closure1_slot15;
             romeon = foxtra.log;
             yankee = offset == michal;
             sequen = undefined;
-            if(yankee) { _fun00014_ip = 197; continue _fun00013 }
- 192:
+            if(yankee) { _fun00014_ip = 198; continue _fun00013 }
+ 193:
             sequen = michal.id;
- 197:
+ 198:
             yankee = global;
             echoed = yankee.JSON;
             kiloes = echoed.stringify;
@@ -722,11 +722,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             config = yankee;
             yankee = whisks[source](limora, sierra, status, target, papara, cntext, record, config, sequen);
             yankee = romeon.bind(foxtra)(yankee);
-            _fun00014_ip = 856; continue _fun00013;
- 331:
+            _fun00014_ip = 857; continue _fun00013;
+ 332:
             yankee = _closure1_slot15;
-            if(!(offset != yankee)) { _fun00014_ip = 466; continue _fun00013 }
- 342:
+            if(!(offset != yankee)) { _fun00014_ip = 467; continue _fun00013 }
+ 343:
             foxtra = _closure1_slot15;
             romeon = foxtra.verbose;
             yankee = global;
@@ -754,7 +754,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             target = yankee;
             yankee = whisks[echoed](limora, sierra, status, target, papara);
             yankee = romeon.bind(foxtra)(yankee);
- 466:
+ 467:
             romeon = _closure1_slot0;
             foxtra = _closure1_slot2;
             yankee = 18;
@@ -762,8 +762,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             romeon = romeon.bind(zuuluu)(yankee);
             yankee = romeon.isVoicePanelEnabled;
             yankee = yankee.bind(romeon)(michal);
-            if(yankee) { _fun00014_ip = 580; continue _fun00013 }
- 500:
+            if(yankee) { _fun00014_ip = 581; continue _fun00013 }
+ 501:
             romeon = _closure1_slot1;
             foxtra = _closure1_slot2;
             yankee = 17;
@@ -783,7 +783,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             kiloes = true;
             yankee['preserveDrawerState'] = kiloes;
             yankee = romeon.bind(foxtra)(yankee);
- 580:
+ 581:
             echoed = _closure1_slot0;
             romeon = _closure1_slot2;
             yankee = 19;
@@ -797,8 +797,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             romeon = michal.id;
             romeon = echoed.bind(update)(romeon);
             romeon = foxtra.bind(kiloes)(romeon);
-            if(romeon) { _fun00014_ip = 732; continue _fun00013 }
- 642:
+            if(romeon) { _fun00014_ip = 733; continue _fun00013 }
+ 643:
             romeon = _closure1_slot1;
             foxtra = _closure1_slot2;
             kiloes = 15;
@@ -829,36 +829,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             verify = yankee.bind(romeon)(verify);
- 732:
+ 733:
             verify = michal.isGuildVoice;
             verify = verify.bind(michal)();
-            if(!verify) { _fun00014_ip = 749; continue _fun00013 }
- 745:
+            if(!verify) { _fun00014_ip = 750; continue _fun00013 }
+ 746:
             verify = offset != sizing;
- 749:
-            if(verify) { _fun00014_ip = 762; continue _fun00013 }
- 752:
+ 750:
+            if(verify) { _fun00014_ip = 763; continue _fun00013 }
+ 753:
             yankee = michal.isGuildStageVoice;
             verify = yankee.bind(michal)();
- 762:
-            if(!verify) { _fun00014_ip = 856; continue _fun00013 }
- 765:
+ 763:
+            if(!verify) { _fun00014_ip = 857; continue _fun00013 }
+ 766:
             yankee = _closure1_slot5;
             verify = michal.id;
             michal = _closure1_slot14;
             michal = michal.OPEN;
             michal = yankee.bind(zuuluu)(verify, michal);
             michal = offset != output;
-            if(!michal) { _fun00014_ip = 801; continue _fun00013 }
- 797:
+            if(!michal) { _fun00014_ip = 802; continue _fun00013 }
+ 798:
             michal = offset != result;
- 801:
-            if(!michal) { _fun00014_ip = 808; continue _fun00013 }
- 804:
+ 802:
+            if(!michal) { _fun00014_ip = 809; continue _fun00013 }
+ 805:
             michal = offset != sizing;
- 808:
-            if(!michal) { _fun00014_ip = 856; continue _fun00013 }
- 811:
+ 809:
+            if(!michal) { _fun00014_ip = 857; continue _fun00013 }
+ 812:
             verify = _closure1_slot1;
             yankee = _closure1_slot2;
             michal = 21;
@@ -871,12 +871,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             status = sizing;
             target = report;
             michal = whisks[michal](limora, sierra, status, target, papara);
- 856:
+ 857:
             return zuuluu;
- 858:
+ 859:
             michal = _closure1_slot15;
-            if(!(offset != michal)) { _fun00014_ip = 993; continue _fun00013 }
- 869:
+            if(!(offset != michal)) { _fun00014_ip = 994; continue _fun00013 }
+ 870:
             yankee = _closure1_slot15;
             verify = yankee.verbose;
             michal = global;
@@ -904,7 +904,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             target = michal;
             michal = whisks[foxtra](limora, sierra, status, target, papara);
             michal = verify.bind(yankee)(michal);
- 993:
+ 994:
             verify = _closure1_slot10;
             michal = verify.getLastSelectedChannelId;
             yankee = michal.bind(verify)();
@@ -912,23 +912,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = verify.getChannel;
             michal = michal.bind(verify)(yankee);
             verify = offset != michal;
-            if(!verify) { _fun00014_ip = 1038; continue _fun00013 }
- 1028:
+            if(!verify) { _fun00014_ip = 1039; continue _fun00013 }
+ 1029:
             yankee = michal.isGuildVoice;
             verify = yankee.bind(michal)();
- 1038:
-            if(verify) { _fun00014_ip = 1061; continue _fun00013 }
- 1041:
+ 1039:
+            if(verify) { _fun00014_ip = 1062; continue _fun00013 }
+ 1042:
             offset = offset != michal;
-            if(!offset) { _fun00014_ip = 1058; continue _fun00013 }
- 1048:
+            if(!offset) { _fun00014_ip = 1059; continue _fun00013 }
+ 1049:
             yankee = michal.isGuildStageVoice;
             offset = yankee.bind(michal)();
- 1058:
+ 1059:
             verify = offset;
- 1061:
-            if(!verify) { _fun00014_ip = 1127; continue _fun00013 }
- 1064:
+ 1062:
+            if(!verify) { _fun00014_ip = 1128; continue _fun00013 }
+ 1065:
             offset = _closure1_slot1;
             foxtra = _closure1_slot2;
             verify = 15;
@@ -943,7 +943,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.id;
             michal = yankee.bind(romeon)(michal);
             michal = verify.bind(offset)(michal);
- 1127:
+ 1128:
             michal = _closure1_slot1;
             verify = _closure1_slot2;
             entity = 17;
