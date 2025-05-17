@@ -5639,6 +5639,36 @@
       }
     ]
   },
+  "ICON_INVERT": {
+    "dark": [
+      "#2f3035",
+      {
+        "raw": "NEUTRAL_71",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#ffffff",
+      {
+        "raw": "NEUTRAL_1",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#2f3035",
+      {
+        "raw": "NEUTRAL_71",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#2f3035",
+      {
+        "raw": "NEUTRAL_71",
+        "opacity": 1
+      }
+    ]
+  },
   "ICON_MUTED": {
     "dark": [
       "#80848e",
@@ -10075,6 +10105,36 @@
       "#fa777b",
       {
         "raw": "RED_345",
+        "opacity": 1
+      }
+    ]
+  },
+  "TEXT_INVERT": {
+    "dark": [
+      "#2f3035",
+      {
+        "raw": "NEUTRAL_71",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#ffffff",
+      {
+        "raw": "NEUTRAL_1",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#2f3035",
+      {
+        "raw": "NEUTRAL_71",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#2f3035",
+      {
+        "raw": "NEUTRAL_71",
         "opacity": 1
       }
     ]

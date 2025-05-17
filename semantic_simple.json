@@ -1127,6 +1127,12 @@
     "midnight": "#26272f",
     "darker": "#26272f"
   },
+  "ICON_INVERT": {
+    "dark": "#2f3035",
+    "light": "#ffffff",
+    "midnight": "#2f3035",
+    "darker": "#2f3035"
+  },
   "ICON_MUTED": {
     "dark": "#80848e",
     "light": "#80848e",
@@ -2014,6 +2020,12 @@
     "light": "#a12829",
     "midnight": "#fa777b",
     "darker": "#fa777b"
+  },
+  "TEXT_INVERT": {
+    "dark": "#2f3035",
+    "light": "#ffffff",
+    "midnight": "#2f3035",
+    "darker": "#2f3035"
   },
   "TEXT_LINK": {
     "dark": "#00aafc",
